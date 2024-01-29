@@ -49,7 +49,7 @@ namespace CSharp.WorkingWithPrintTickets
         {
             // ExStart:1
             // The path to the documents directory.
-            string dir = RunExamples.GetDataDir_WorkingWithPrintTickets();
+            string dir = "Your Document Directory";
 
             // Create new XPS document
             XpsDocument xDocs = new XpsDocument();

@@ -24,7 +24,7 @@ namespace CSharp.WorkingWithCanvas
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithCanvas();
+            string dataDir = "Your Document Directory";
 
             //Create output stream for PostScript document
             using (Stream outPsStream = new FileStream(dataDir + "Transformations_outPS.ps", FileMode.Create))

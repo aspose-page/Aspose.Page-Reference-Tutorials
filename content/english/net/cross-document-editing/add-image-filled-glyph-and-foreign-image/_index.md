@@ -22,7 +22,7 @@ namespace CSharp.WorkingWithCrossPackageOperations
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithCrossPackageOperations();
+            string dataDir = "Your Document Directory";
 
             // Create the first XPS Document
             XpsDocument doc1 = new XpsDocument();

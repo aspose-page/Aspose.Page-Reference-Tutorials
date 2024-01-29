@@ -29,7 +29,7 @@ namespace CSharp.WorkingWithEPS
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithEPS();
+            string dataDir = "Your Document Directory";
 
             //Create an input stream for EPS file
             using (Stream inputEpsStream = new System.IO.FileStream(dataDir + "input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read))
@@ -54,7 +54,7 @@ namespace CSharp.WorkingWithEPS
         {
             // ExStart:2
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithEPS();
+            string dataDir = "Your Document Directory";
 
             //Create an input stream for EPS file
             using (Stream inputEpsStream = new System.IO.FileStream(dataDir + "input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read))
@@ -79,7 +79,7 @@ namespace CSharp.WorkingWithEPS
         {
             // ExStart:3
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithEPS();
+            string dataDir = "Your Document Directory";
 
             //Create an input stream for EPS file
             using (Stream inputEpsStream = new System.IO.FileStream(dataDir + "input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read))
@@ -104,7 +104,7 @@ namespace CSharp.WorkingWithEPS
         {
             // ExStart:3
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithEPS();
+            string dataDir = "Your Document Directory";
 
             //Create an input stream for EPS file
             using (Stream inputEpsStream = new System.IO.FileStream(dataDir + "input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read))

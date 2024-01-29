@@ -24,7 +24,7 @@ namespace CSharp.WorkingWithShapes
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithImages();
+            string dataDir = "Your Document Directory";
 
             //Create output stream for PostScript document
             using (Stream outPsStream = new FileStream(dataDir + "AddImage_outPS.ps", FileMode.Create))

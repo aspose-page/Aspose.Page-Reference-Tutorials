@@ -24,7 +24,7 @@ namespace CSharp.WorkingWithPrintTickets
         {
             // ExStart:1
             // The path to the documents directory.
-            string dir = RunExamples.GetDataDir_WorkingWithPrintTickets();
+            string dir = "Your Document Directory";
 
             // Open XPS Document with print tickets
             XpsDocument xDocs = new XpsDocument(dir + "input3.xps");

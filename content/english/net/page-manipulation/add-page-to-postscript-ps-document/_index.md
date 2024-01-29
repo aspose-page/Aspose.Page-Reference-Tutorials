@@ -24,7 +24,7 @@ namespace CSharp.WorkingWithPages
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithPages();
+            string dataDir = "Your Document Directory";
             
             //Create output stream for PostScript document
             using (Stream outPsStream = new FileStream(dataDir + "document1.ps", FileMode.Create))

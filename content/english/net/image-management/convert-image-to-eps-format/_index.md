@@ -26,7 +26,7 @@ namespace CSharp.WorkingWithImageConversion
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithImageConversion();
+            string dataDir = "Your Document Directory";
 
             // Create default options
             PsSaveOptions options = new PsSaveOptions();

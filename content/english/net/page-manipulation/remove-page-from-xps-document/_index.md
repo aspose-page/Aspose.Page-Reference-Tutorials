@@ -22,7 +22,7 @@ namespace CSharp.WorkingWithPages
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithPages();
+            string dataDir = "Your Document Directory";
 
             // Create new XPS Document
             XpsDocument doc = new XpsDocument(dataDir + "Sample2.xps");

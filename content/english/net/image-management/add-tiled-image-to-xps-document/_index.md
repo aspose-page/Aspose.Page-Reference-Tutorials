@@ -23,7 +23,7 @@ namespace CSharp.WorkingWithImages
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithImages();
+            string dataDir = "Your Document Directory";
             // Create new XPS Document
             XpsDocument doc = new XpsDocument();
             // Tile image

@@ -26,7 +26,7 @@ namespace CSharp.WorkingWithXMPMetadataInEPS
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithXMPMetadataInEPS();
+            string dataDir = "Your Document Directory";
             // Initialize EPS file input stream
             System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "get_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
             // Create PsDocument instance from stream

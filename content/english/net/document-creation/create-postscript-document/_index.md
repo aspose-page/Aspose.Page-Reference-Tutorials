@@ -22,7 +22,7 @@ namespace CSharp.WorkingWithDocument
         {
             // ExStart:1
             // The path to the documents directory.
-            string dir = RunExamples.GetDataDir_WorkingWithDocument();
+            string dir = "Your Document Directory";
 
             //Create output stream for PostScript document
             using (Stream outPsStream = new FileStream(dir + "document.ps", FileMode.Create))

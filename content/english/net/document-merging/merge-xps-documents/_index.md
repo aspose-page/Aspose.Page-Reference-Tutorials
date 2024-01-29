@@ -20,7 +20,7 @@ namespace CSharp.WorkingWithDocumentMerging
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithDocumentMerging();
+            string dataDir = "Your Document Directory";
             // Initialize XPS output stream
             using (System.IO.Stream outStream = System.IO.File.Open(dataDir + "mergedXPSfiles.xps", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
             // Initialize XPS input stream

@@ -23,7 +23,7 @@ namespace CSharp.WorkingWithDocument
         {
             // ExStart:1
             // The path to the documents directory.
-            string dir = RunExamples.GetDataDir_WorkingWithDocument();
+            string dir = "Your Document Directory";
             // Open a stream of XPS file
             using (FileStream xpsStream = File.Open(dir + "input1.xps", FileMode.Open, FileAccess.Read))
             {

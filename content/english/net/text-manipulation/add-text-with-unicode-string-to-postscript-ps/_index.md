@@ -26,9 +26,9 @@ namespace CSharp.WorkingWithText
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithText();
+            string dataDir = "Your Document Directory";
 
-            string FONTS_FOLDER = RunExamples.GetDataDir_Data() + @"necessary_fonts/";
+            string FONTS_FOLDER = "Your Document Directory";
 
             //Create output stream for PostScript document
             using (Stream outPsStream = new FileStream(dataDir + "AddTextUsingUnocodeString_outPS.ps", FileMode.Create))

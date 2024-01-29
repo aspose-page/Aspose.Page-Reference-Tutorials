@@ -24,7 +24,7 @@ namespace CSharp.GettingStarted
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_GettingStarted();
+            string dataDir = "Your Document Directory";
             // Initialize license object
             License license = new License();
             // Set license

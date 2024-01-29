@@ -34,7 +34,7 @@ namespace CSharp.GettingStarted
                 "<type private key here>");
 
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_GettingStarted();
+            string dataDir = "Your Document Directory";
             //Create file stream for EPS file
             System.IO.Stream psStream = new System.IO.FileStream(dataDir + "input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
             //Create an instance of PostScript document from stream

@@ -25,7 +25,7 @@ namespace CSharp.WorkingWithDocumentConversion
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithDocumentConversion();
+            string dataDir = "Your Document Directory";
             // Initialize PDF output stream
             System.IO.FileStream pdfStream = new System.IO.FileStream(dataDir + "outputPDF_out.pdf", System.IO.FileMode.Create, System.IO.FileAccess.Write);
             // Initialize PostScript input stream

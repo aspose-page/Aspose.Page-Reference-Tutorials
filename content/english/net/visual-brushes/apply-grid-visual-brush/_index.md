@@ -23,7 +23,7 @@ namespace CSharp.WorkingWithVisualBrush
         {
             // ExStart:1
             // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_WorkingWithVisualBrush();
+            string dataDir = "Your Document Directory";
 
             XpsDocument doc = new XpsDocument();
             // Geometry for magenta grid VisualBrush
