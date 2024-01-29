@@ -1,6 +1,6 @@
 ---
 title: Add Circle Ellipse to PostScript (PS) with Aspose.Page
-linktitle: Add Circle Ellipse to PostScript (PS) with Aspose.Page
+linktitle: Add Circle Ellipse to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Merge XPS Documents with Aspose.Page for .NET
-linktitle: Merge XPS Documents with Aspose.Page for .NET
+linktitle: Merge XPS Documents
 second_title: Aspose.Page .NET API
 description: 
 type: docs

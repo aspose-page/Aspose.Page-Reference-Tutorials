@@ -1,6 +1,6 @@
 ---
 title: Resize EPS Images with Aspose.Page for .NET
-linktitle: Resize EPS Images with Aspose.Page for .NET
+linktitle: Resize EPS Images
 second_title: Aspose.Page .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Extract Metadata from EPS Document with Aspose.Page for .NET
-linktitle: Extract Metadata from EPS Document with Aspose.Page for .NET
+linktitle: Extract Metadata from EPS Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Create Custom Print Ticket with Aspose.Page for .NET
-linktitle: Create Custom Print Ticket with Aspose.Page for .NET
+linktitle: Create Custom Print Ticket
 second_title: Aspose.Page .NET API
 description: 
 type: docs

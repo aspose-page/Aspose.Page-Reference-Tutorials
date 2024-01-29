@@ -1,6 +1,6 @@
 ---
 title: Create PostScript Document with Aspose.Page for .NET
-linktitle: Create PostScript Document with Aspose.Page for .NET
+linktitle: Create PostScript Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

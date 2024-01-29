@@ -1,6 +1,6 @@
 ---
 title: Transformations PS with Aspose.Page for .NET
-linktitle: Transformations PS with Aspose.Page for .NET
+linktitle: Transformations PS
 second_title: Aspose.Page .NET API
 description: 
 type: docs

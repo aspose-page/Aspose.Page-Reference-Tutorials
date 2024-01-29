@@ -1,6 +1,6 @@
 ---
 title: Edit Existing Print Ticket with Aspose.Page for .NET
-linktitle: Edit Existing Print Ticket with Aspose.Page for .NET
+linktitle: Edit Existing Print Ticket
 second_title: Aspose.Page .NET API
 description: 
 type: docs

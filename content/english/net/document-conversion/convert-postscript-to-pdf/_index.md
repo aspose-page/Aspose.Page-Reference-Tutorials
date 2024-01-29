@@ -1,6 +1,6 @@
 ---
 title: Convert PostScript to PDF with Aspose.Page for .NET
-linktitle: Convert PostScript to PDF with Aspose.Page for .NET
+linktitle: Convert PostScript to PDF
 second_title: Aspose.Page .NET API
 description: 
 type: docs

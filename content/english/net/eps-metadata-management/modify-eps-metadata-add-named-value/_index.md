@@ -1,6 +1,6 @@
 ---
 title: Add Named Value with Aspose.Page
-linktitle: Add Named Value with Aspose.Page
+linktitle: Add Named Value
 second_title: Aspose.Page .NET API
 description: 
 type: docs

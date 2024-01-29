@@ -1,6 +1,6 @@
 ---
 title: Transformations XPS with Aspose.Page for .NET
-linktitle: Transformations XPS with Aspose.Page for .NET
+linktitle: Transformations XPS
 second_title: Aspose.Page .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Change Array Items with Aspose.Page for .NET
-linktitle: Change Array Items with Aspose.Page for .NET
+linktitle: Change Array Items
 second_title: Aspose.Page .NET API
 description: 
 type: docs

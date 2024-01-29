@@ -1,6 +1,6 @@
 ---
 title: Add Image Filled Glyph & Foreign Image with Aspose.Page .NET
-linktitle: Add Image Filled Glyph & Foreign Image with Aspose.Page .NET
+linktitle: Add Image Filled Glyph & Foreign Image
 second_title: Aspose.Page .NET API
 description: 
 type: docs

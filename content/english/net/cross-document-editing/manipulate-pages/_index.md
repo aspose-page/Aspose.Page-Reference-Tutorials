@@ -1,6 +1,6 @@
 ---
 title: Manipulate Pages with Aspose.Page for .NET
-linktitle: Manipulate Pages with Aspose.Page for .NET
+linktitle: Manipulate Pages
 second_title: Aspose.Page .NET API
 description: 
 type: docs

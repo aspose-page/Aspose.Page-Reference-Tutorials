@@ -1,6 +1,6 @@
 ---
 title: Add Tiled Image to XPS Document with Aspose.Page for .NET
-linktitle: Add Tiled Image to XPS Document with Aspose.Page for .NET
+linktitle: Add Tiled Image to XPS Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

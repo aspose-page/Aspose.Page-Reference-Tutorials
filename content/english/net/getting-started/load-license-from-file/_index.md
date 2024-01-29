@@ -1,6 +1,6 @@
 ---
 title: Load License from File with Aspose.Page for .NET
-linktitle: Load License from File with Aspose.Page for .NET
+linktitle: Load License from File
 second_title: Aspose.Page .NET API
 description: 
 type: docs

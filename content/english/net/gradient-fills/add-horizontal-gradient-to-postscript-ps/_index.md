@@ -1,6 +1,6 @@
 ---
 title: Add Horizontal Gradient to PostScript (PS) with Aspose.Page
-linktitle: Add Horizontal Gradient to PostScript (PS) with Aspose.Page
+linktitle: Add Horizontal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 
 type: docs

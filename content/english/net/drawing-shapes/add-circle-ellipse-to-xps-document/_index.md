@@ -1,6 +1,6 @@
 ---
 title: Add Circle Ellipse to XPS Document with Aspose.Page for .NET
-linktitle: Add Circle Ellipse to XPS Document with Aspose.Page for .NET
+linktitle: Add Circle Ellipse to XPS Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

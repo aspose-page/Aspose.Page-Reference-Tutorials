@@ -1,6 +1,6 @@
 ---
 title: Load License from Stream Object with Aspose.Page for .NET
-linktitle: Load License from Stream Object with Aspose.Page for .NET
+linktitle: Load License from Stream Object
 second_title: Aspose.Page .NET API
 description: 
 type: docs

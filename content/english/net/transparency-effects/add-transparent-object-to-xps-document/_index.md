@@ -1,6 +1,6 @@
 ---
 title: Add Transparent Object to XPS Document with Aspose.Page
-linktitle: Add Transparent Object to XPS Document with Aspose.Page
+linktitle: Add Transparent Object to XPS Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

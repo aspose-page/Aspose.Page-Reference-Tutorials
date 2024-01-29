@@ -1,6 +1,6 @@
 ---
 title: Add Array Items with Aspose.Page
-linktitle: Add Array Items with Aspose.Page
+linktitle: Add Array Items
 second_title: Aspose.Page .NET API
 description: 
 type: docs

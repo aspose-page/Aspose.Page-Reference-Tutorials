@@ -1,6 +1,6 @@
 ---
 title: Add Transparent Image to PostScript (PS) with Aspose.Page
-linktitle: Add Transparent Image to PostScript (PS) with Aspose.Page
+linktitle: Add Transparent Image to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 
 type: docs

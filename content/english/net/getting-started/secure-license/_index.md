@@ -1,6 +1,6 @@
 ---
 title: Secure License with Aspose.Page for .NET
-linktitle: Secure License with Aspose.Page for .NET
+linktitle: Secure License
 second_title: Aspose.Page .NET API
 description: 
 type: docs

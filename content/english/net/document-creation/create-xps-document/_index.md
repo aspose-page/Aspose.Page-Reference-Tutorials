@@ -1,6 +1,6 @@
 ---
 title: Create XPS Document with Aspose.Page for .NET
-linktitle: Create XPS Document with Aspose.Page for .NET
+linktitle: Create XPS Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Apply Grid Visual Brush with Aspose.Page for .NET
-linktitle: Apply Grid Visual Brush with Aspose.Page for .NET
+linktitle: Apply Grid Visual Brush
 second_title: Aspose.Page .NET API
 description: 
 type: docs

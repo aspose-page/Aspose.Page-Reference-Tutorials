@@ -1,6 +1,6 @@
 ---
 title: Convert XPS to PDF with Aspose.Page for .NET
-linktitle: Convert XPS to PDF with Aspose.Page for .NET
+linktitle: Convert XPS to PDF
 second_title: Aspose.Page .NET API
 description: 
 type: docs

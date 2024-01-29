@@ -1,6 +1,6 @@
 ---
 title: Crop EPS Images with Aspose.Page for .NET
-linktitle: Crop EPS Images with Aspose.Page for .NET
+linktitle: Crop EPS Images
 second_title: Aspose.Page .NET API
 description: 
 type: docs

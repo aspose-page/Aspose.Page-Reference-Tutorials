@@ -1,6 +1,6 @@
 ---
 title: Clipping XPS with Aspose.Page for .NET
-linktitle: Clipping XPS with Aspose.Page for .NET
+linktitle: Clipping XPS
 second_title: Aspose.Page .NET API
 description: 
 type: docs

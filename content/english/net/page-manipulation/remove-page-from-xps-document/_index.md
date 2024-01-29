@@ -1,6 +1,6 @@
 ---
 title: Remove Page from XPS Document with Aspose.Page for .NET
-linktitle: Remove Page from XPS Document with Aspose.Page for .NET
+linktitle: Remove Page from XPS Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

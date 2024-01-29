@@ -1,6 +1,6 @@
 ---
 title: Change Values with Aspose.Page for .NET
-linktitle: Change Values with Aspose.Page for .NET
+linktitle: Change Values
 second_title: Aspose.Page .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Show Pseudo-Transparency in PostScript (PS) with Aspose.Page
-linktitle: Show Pseudo-Transparency in PostScript (PS) with Aspose.Page
+linktitle: Show Pseudo-Transparency in PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 
 type: docs

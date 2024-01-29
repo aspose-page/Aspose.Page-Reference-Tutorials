@@ -1,6 +1,6 @@
 ---
 title: Add Glyph Clone and Change Color with Aspose.Page for .NET
-linktitle: Add Glyph Clone and Change Color with Aspose.Page for .NET
+linktitle: Add Glyph Clone and Change Color
 second_title: Aspose.Page .NET API
 description: 
 type: docs

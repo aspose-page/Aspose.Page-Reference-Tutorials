@@ -1,6 +1,6 @@
 ---
 title: Modify XPS Document with Aspose.Page for .NET
-linktitle: Modify XPS Document with Aspose.Page for .NET
+linktitle: Modify XPS Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

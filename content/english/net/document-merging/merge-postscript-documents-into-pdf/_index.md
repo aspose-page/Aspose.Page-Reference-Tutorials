@@ -1,6 +1,6 @@
 ---
 title: Merge PostScript Documents into PDF with Aspose.Page for .NET
-linktitle: Merge PostScript Documents into PDF with Aspose.Page for .NET
+linktitle: Merge PostScript Documents into PDF
 second_title: Aspose.Page .NET API
 description: 
 type: docs

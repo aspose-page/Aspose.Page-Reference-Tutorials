@@ -1,6 +1,6 @@
 ---
 title: Merge XPS Documents into PDF with Aspose.Page for .NET
-linktitle: Merge XPS Documents into PDF with Aspose.Page for .NET
+linktitle: Merge XPS Documents into PDF
 second_title: Aspose.Page .NET API
 description: 
 type: docs

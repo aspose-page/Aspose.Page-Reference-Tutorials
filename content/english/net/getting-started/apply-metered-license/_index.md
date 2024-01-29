@@ -1,6 +1,6 @@
 ---
 title: Apply Metered License with Aspose.Page for .NET
-linktitle: Apply Metered License with Aspose.Page for .NET
+linktitle: Apply Metered License
 second_title: Aspose.Page .NET API
 description: 
 type: docs

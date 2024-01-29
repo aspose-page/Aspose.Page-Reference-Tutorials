@@ -1,6 +1,6 @@
 ---
 title: Convert Image to EPS Format with Aspose.Page for .NET
-linktitle: Convert Image to EPS Format with Aspose.Page for .NET
+linktitle: Convert Image to EPS Format
 second_title: Aspose.Page .NET API
 description: 
 type: docs

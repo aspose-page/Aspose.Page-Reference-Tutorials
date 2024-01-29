@@ -1,6 +1,6 @@
 ---
 title: Set License Using Embedded Resource with Aspose.Page for .NET
-linktitle: Set License Using Embedded Resource with Aspose.Page for .NET
+linktitle: Set License Using Embedded Resource
 second_title: Aspose.Page .NET API
 description: 
 type: docs

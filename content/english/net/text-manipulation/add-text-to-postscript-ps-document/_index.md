@@ -1,6 +1,6 @@
 ---
 title: Add Text to PostScript (PS) Document with Aspose.Page
-linktitle: Add Text to PostScript (PS) Document with Aspose.Page
+linktitle: Add Text to PostScript (PS) Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

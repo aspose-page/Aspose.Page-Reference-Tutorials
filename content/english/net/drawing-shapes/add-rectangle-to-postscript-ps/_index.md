@@ -1,6 +1,6 @@
 ---
 title: Add Rectangle to PostScript (PS) with Aspose.Page for .NET
-linktitle: Add Rectangle to PostScript (PS) with Aspose.Page for .NET
+linktitle: Add Rectangle to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 
 type: docs

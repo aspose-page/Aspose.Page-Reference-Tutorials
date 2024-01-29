@@ -1,6 +1,6 @@
 ---
 title: Add Namespace with Aspose.Page for .NET
-linktitle: Add Namespace with Aspose.Page for .NET
+linktitle: Add Namespace
 second_title: Aspose.Page .NET API
 description: 
 type: docs

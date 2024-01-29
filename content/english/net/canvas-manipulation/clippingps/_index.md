@@ -1,6 +1,6 @@
 ---
 title: Clipping PS with Aspose.Page for .NET
-linktitle: Clipping PS with Aspose.Page for .NET
+linktitle: Clipping PS
 second_title: Aspose.Page .NET API
 description: 
 type: docs

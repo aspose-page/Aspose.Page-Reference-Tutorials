@@ -1,6 +1,6 @@
 ---
 title: Add Metadata to EPS Document with Aspose.Page for .NET
-linktitle: Add Metadata to EPS Document with Aspose.Page for .NET
+linktitle: Add Metadata to EPS Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Add Simple Properties with Aspose.Page for .NET
-linktitle: Add Simple Properties with Aspose.Page for .NET
+linktitle: Add Simple Properties
 second_title: Aspose.Page .NET API
 description: 
 type: docs

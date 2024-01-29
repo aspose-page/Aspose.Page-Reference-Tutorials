@@ -1,6 +1,6 @@
 ---
 title: Add Text with Unicode String to XPS Document with Aspose.Page
-linktitle: Add Text with Unicode String to XPS Document with Aspose.Page
+linktitle: Add Text with Unicode String to XPS Document
 second_title: Aspose.Page .NET API
 description: 
 type: docs

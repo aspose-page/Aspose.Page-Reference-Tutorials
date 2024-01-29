@@ -1,6 +1,6 @@
 ---
 title: Apply Texture Tiling Pattern to PostScript (PS) with Aspose.Page
-linktitle: Apply Texture Tiling Pattern to PostScript (PS) with Aspose.Page
+linktitle: Apply Texture Tiling Pattern to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 
 type: docs
