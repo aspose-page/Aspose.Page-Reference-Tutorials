@@ -10,7 +10,7 @@ url: /java/eps-manipulation/crop/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.eps;
+
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -24,7 +24,7 @@ public class CropEps {
 	  // ExStart:CropEps
 
       // The path to the documents directory.
-      String dataDir = Utils.getDataDir();
+      String dataDir = "Your Document Directory";
       
       //Create an input stream for EPS file
       FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");

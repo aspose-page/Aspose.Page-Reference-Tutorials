@@ -10,7 +10,7 @@ url: /java/xps-image-manipulation/add-image/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.images;
+
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsPath;
@@ -24,7 +24,7 @@ public class AddImageXPS {
     {       
         // ExStart:AddImage
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Create new XPS Document
         XpsDocument doc = new XpsDocument();
         // Add Image

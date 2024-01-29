@@ -10,7 +10,7 @@ url: /java/postscript-gradient-addition/horizontal/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.gradient;
+
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -32,7 +32,7 @@ public class AddHorizontalGradientPS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "HorizontalGradient_outPS.ps");

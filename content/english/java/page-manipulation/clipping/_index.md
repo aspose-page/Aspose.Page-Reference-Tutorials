@@ -10,7 +10,7 @@ url: /java/page-manipulation/clipping/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.canvas;
+
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -29,7 +29,7 @@ public class ClippingPS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "Clipping_outPS.ps");

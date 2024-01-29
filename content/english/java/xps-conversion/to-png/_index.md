@@ -10,7 +10,7 @@ url: /java/xps-conversion/to-png/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.conversion;
+
 
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
@@ -20,7 +20,7 @@ public class XPStoPNG {
     public static void main(String[] args) throws Exception {
         // ExStart:XPStoPNG
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Load XPS document
         XpsDocument document = new XpsDocument(dataDir + "input.xps");
         // Initialize options object with necessary parameters.

@@ -10,7 +10,7 @@ url: /java/postscript-conversion/to-image/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.conversion;
+
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -25,7 +25,7 @@ public class PostScriptToImage {
     public static void main(String[] args) throws Exception {
         // ExStart:PostScriptToImage
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         //Initialize image format
         ImageFormat imageFormat = ImageFormat.PNG;
         // Initialize PostScript input stream

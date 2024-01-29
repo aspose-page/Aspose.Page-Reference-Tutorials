@@ -10,7 +10,7 @@ url: /java/postscript-hatch-patterns/add-hatch-pattern/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.hatch;
+
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -31,7 +31,7 @@ public class AddHatchPaternPS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddHatchPattern_outPS.ps");

@@ -16,7 +16,7 @@ url: /java/xps-gradient-addition/vertical/
  * and open the template in the editor.
  */
 
-package com.aspose.page.gradient;
+
 
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
@@ -32,7 +32,7 @@ public class AddVerticalGradientXPS {
     public static void main(String[] args) throws Exception
     {
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         
         //ExStart:VerticalGradient
         //Initialize document

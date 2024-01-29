@@ -16,7 +16,7 @@ url: /java/xps-gradient-addition/diagonal/
  * and open the template in the editor.
  */
 
-package com.aspose.page.gradient;
+
 
 import java.awt.geom.Point2D;
 import java.util.LinkedList;
@@ -35,7 +35,7 @@ public class AddDiagonalGradientXPS {
     {
         //ExStart:LinearGradient
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
 
 
         XpsDocument doc = new XpsDocument();

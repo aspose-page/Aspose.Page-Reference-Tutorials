@@ -16,7 +16,7 @@ url: /java/xps-transparency/set-opacity-mask/
  * and open the template in the editor.
  */
 
-package com.aspose.page.transparency;
+
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsCanvas;
 import com.aspose.xps.XpsDocument;
@@ -31,7 +31,7 @@ public class SetOpacityMaskXPS {
     {
         //ExStart:SetOpacityMask
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Create a new XPS document
         XpsDocument doc = new XpsDocument();
         // New canvas

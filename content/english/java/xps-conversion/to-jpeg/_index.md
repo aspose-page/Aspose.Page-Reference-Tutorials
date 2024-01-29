@@ -10,7 +10,7 @@ url: /java/xps-conversion/to-jpeg/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.conversion;
+
 
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
@@ -20,7 +20,7 @@ public class XPStoJPEG {
     public static void main(String[] args) throws Exception {
         // ExStart:XPStoJPEG
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Initialize XPS input stream
 
         // Load XPS document form the stream

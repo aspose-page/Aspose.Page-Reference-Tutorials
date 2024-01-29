@@ -10,7 +10,7 @@ url: /java/eps-manipulation/resize/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.eps;
+
 
 import java.awt.Dimension;
 import java.io.FileInputStream;
@@ -27,7 +27,7 @@ public class ResizeEps {
 	  // ExStart:ResizeEpsPoints
 
       // The path to the documents directory.
-      String dataDir = Utils.getDataDir();
+      String dataDir = "Your Document Directory";
       
       //Create an input stream for EPS file
       FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
@@ -50,7 +50,7 @@ public class ResizeEps {
 	  // ExStart:ResizeEpsInches
 
       // The path to the documents directory.
-      String dataDir = Utils.getDataDir();
+      String dataDir = "Your Document Directory";
       
       //Create an input stream for EPS file
       FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
@@ -73,7 +73,7 @@ public class ResizeEps {
 	  // ExStart:ResizeEpsMillimeters
 
       // The path to the documents directory.
-      String dataDir = Utils.getDataDir();
+      String dataDir = "Your Document Directory";
       
       //Create an input stream for EPS file
       FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
@@ -93,7 +93,7 @@ public class ResizeEps {
 	  // ExStart:ResizeEpsPercents
 
       // The path to the documents directory.
-      String dataDir = Utils.getDataDir();
+      String dataDir = "Your Document Directory";
       
       //Create an input stream for EPS file
       FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");

@@ -10,7 +10,7 @@ url: /java/license-management/set-metered-license/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.license;
+
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -34,7 +34,7 @@ public class SetMeteredLicense {
         		"<type private key here>");
 		
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         ImageFormat imageFormat = ImageFormat.PNG;
         // Initialize PostScript input stream
         FileInputStream psStream = new FileInputStream(dataDir + "input.ps");

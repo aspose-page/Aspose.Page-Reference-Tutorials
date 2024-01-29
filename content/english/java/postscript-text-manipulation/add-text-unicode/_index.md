@@ -16,7 +16,7 @@ url: /java/postscript-text-manipulation/add-text-unicode/
  * and open the template in the editor.
  */
 
-package com.aspose.page.text;
+
 
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
@@ -31,7 +31,7 @@ public class AddTextUsingUnicodeString {
     {
         //ExStart:AddTextUsingUnicodeString
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Create new XPS Document
         XpsDocument doc = new XpsDocument();
         // Add Text

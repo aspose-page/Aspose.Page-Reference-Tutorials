@@ -10,7 +10,7 @@ url: /java/postscript-text-manipulation/add-text/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.text;
+
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -30,7 +30,7 @@ public class AddTextPS {
     {   
     	//ExStart:AddText
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         
         String FONTS_FOLDER = dataDir + "necessary_fonts/";
         

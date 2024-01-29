@@ -16,7 +16,7 @@ url: /java/xps-shapes/add-ellipse/
  * and open the template in the editor.
  */
 
-package com.aspose.page.shapes;
+
 
 import java.awt.geom.Point2D;
 import java.util.LinkedList;
@@ -37,7 +37,7 @@ public class AddEllipseXPS {
     {
         //ExStart:AddEllipse
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Create new XPS Document
         XpsDocument doc = new XpsDocument();
         // Radial gradient stroked ellipse in the lower left

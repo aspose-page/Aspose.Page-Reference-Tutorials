@@ -10,7 +10,7 @@ url: /java/postscript-shapes/add-rectangle/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.shapes;
+
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -27,7 +27,7 @@ public class AddRectanglePS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddRectangle_outPS.ps");

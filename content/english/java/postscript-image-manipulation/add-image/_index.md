@@ -10,7 +10,7 @@ url: /java/postscript-image-manipulation/add-image/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.images;
+
 
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
@@ -29,7 +29,7 @@ public class AddImagePS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddImage_outPS.ps");

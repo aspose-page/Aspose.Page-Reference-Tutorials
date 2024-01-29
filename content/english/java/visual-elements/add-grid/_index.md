@@ -16,7 +16,7 @@ url: /java/visual-elements/add-grid/
  * and open the template in the editor.
  */
 
-package com.aspose.page.visualBrush;
+
 
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
@@ -34,7 +34,7 @@ public class AddGrid {
     {
         //ExStart:AddGrid
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
 
         // Create new XPS Document
         XpsDocument doc = new XpsDocument();

@@ -16,7 +16,7 @@ url: /java/xps-transparency/add-transparent-object/
  * and open the template in the editor.
  */
 
-package com.aspose.page.transparency;
+
 
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
@@ -29,7 +29,7 @@ public class AddTransparentObjectXPS {
     {
         //ExStart:TransparentObject
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Initialize document
         XpsDocument doc = new XpsDocument();
         // Just to demonstrate transparency

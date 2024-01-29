@@ -10,7 +10,7 @@ url: /java/postscript-gradient-addition/vertical/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.gradient;
+
 
 import java.awt.Color;
 import java.awt.LinearGradientPaint;
@@ -30,7 +30,7 @@ public class AddVerticalGradientPS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "VerticalGradient_outPS.ps");

@@ -10,7 +10,7 @@ url: /java/postscript-page-manipulation/add-pages2/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.pages;
+
 
 import java.io.FileOutputStream;
 
@@ -24,7 +24,7 @@ public class AddPages2PS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddPages2_outPS.ps");

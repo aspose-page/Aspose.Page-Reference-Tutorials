@@ -10,7 +10,7 @@ url: /java/xmp-metadata-manipulation/change-values/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.xmp;
+
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -32,7 +32,7 @@ public class ChangeValues {
     	new License().setLicense(BaseExamplesTest.LICENSE_PATH);
     	
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         
         // Initialize input EPS file stream
         FileInputStream psStream = new FileInputStream(dataDir + "xmp1.eps");

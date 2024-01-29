@@ -10,7 +10,7 @@ url: /java/postscript-conversion/save-image-as-eps/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.conversion;
+
 
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
@@ -21,7 +21,7 @@ public class SaveImageAsEps {
         // ExStart:PostScriptToPDF
 
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         
         // Create default options
         PsSaveOptions options = new PsSaveOptions();

@@ -15,7 +15,7 @@ url: /java/xps-shapes/add-rectangle/
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.aspose.page.shapes;
+
 
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
@@ -26,7 +26,7 @@ public class AddRectangleXPS {
     public static void main(String[] args) throws Exception
     {   //ExStart:AddRectangle
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Create new XPS Document
         XpsDocument doc = new XpsDocument();
         // CMYK (blue) solid color stroked rectangle in the lower left

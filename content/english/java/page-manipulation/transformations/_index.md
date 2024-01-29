@@ -10,7 +10,7 @@ url: /java/page-manipulation/transformations/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.canvas;
+
 
 import java.awt.Color;
 import java.awt.Shape;
@@ -28,7 +28,7 @@ public class TransformationsPS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "Tranformations_outPS.ps");

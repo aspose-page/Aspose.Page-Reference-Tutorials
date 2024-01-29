@@ -16,7 +16,7 @@ url: /java/xps-gradient-addition/horizontal/
  * and open the template in the editor.
  */
 
-package com.aspose.page.gradient;
+
 
 
 import com.aspose.page.utilities.Utils;
@@ -34,7 +34,7 @@ public class AddHorizontalGradientXPS {
     {
         //ExStart:HorizontalGradient
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         //Initialize document
         XpsDocument doc = new XpsDocument();
         

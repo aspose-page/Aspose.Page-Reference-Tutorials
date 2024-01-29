@@ -10,7 +10,7 @@ url: /java/postscript-gradient-addition/radial1/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.gradient;
+
 
 import java.awt.Color;
 import java.awt.MultipleGradientPaint;
@@ -30,7 +30,7 @@ public class AddRadialGradient1PS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "RadialGradient1_outPS.ps");

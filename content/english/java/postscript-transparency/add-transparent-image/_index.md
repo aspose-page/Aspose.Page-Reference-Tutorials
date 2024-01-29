@@ -10,7 +10,7 @@ url: /java/postscript-transparency/add-transparent-image/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.transparency;
+
 
 import java.awt.Color;
 import java.awt.geom.AffineTransform;
@@ -31,7 +31,7 @@ public class AddTransparentImagePS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddTransparentImage_outPS.ps");

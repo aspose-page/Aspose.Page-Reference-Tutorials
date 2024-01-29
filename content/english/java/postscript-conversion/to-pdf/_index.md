@@ -10,7 +10,7 @@ url: /java/postscript-conversion/to-pdf/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.conversion;
+
 
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PdfSaveOptions;
@@ -25,7 +25,7 @@ public class PostScriptToPDF {
         // ExStart:PostScriptToPDF
 
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Initialize PDF output stream
         FileOutputStream pdfStream = new FileOutputStream(dataDir + "PStoPDF.pdf");
 

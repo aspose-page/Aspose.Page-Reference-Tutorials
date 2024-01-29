@@ -10,7 +10,7 @@ url: /java/postscript-texture-patterns/add-texture-tiling-pattern/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.texture;
+
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -33,7 +33,7 @@ public class AddTextureTilingPaternPS {
 	{ 
 		//ExStart:AddText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir();
+		String dataDir = "Your Document Directory";
 		
 		//Create output stream for PostScript document
 		FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddTextureTilingPattern_outPS.ps");

@@ -16,7 +16,7 @@ url: /java/xps-text-manipulation/add-text/
  * and open the template in the editor.
  */
 
-package com.aspose.page.text;
+
 
 import java.awt.Color;
 
@@ -31,7 +31,7 @@ public class AddTextXPS {
     public static void main(String[] args) throws Exception
     {   //ExStart:AddText
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Create new XPS Document
         XpsDocument doc = new XpsDocument();
         //Create a brush 

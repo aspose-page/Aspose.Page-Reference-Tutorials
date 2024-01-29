@@ -10,7 +10,7 @@ url: /java/document-creation/postscript/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.document;
+
 
 import java.io.FileOutputStream;
 
@@ -25,7 +25,7 @@ public class CreateDocumentPS {
 	 { 
 		//ExStart:AddText
 	    // The path to the documents directory.
-	    String dataDir = Utils.getDataDir();
+	    String dataDir = "Your Document Directory";
 	    
 	    String FONTS_FOLDER = dataDir + "necessary_fonts/";
 	    

@@ -16,7 +16,7 @@ url: /java/xps-page-manipulation/add-page/
  * and open the template in the editor.
  */
 
-package com.aspose.page.pages;
+
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
 
@@ -27,7 +27,7 @@ public class AddPageXPS {
     {
         //ExStart:AddPage
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
 
         // Create new XPS Document
         XpsDocument doc = new XpsDocument(dataDir + "Aspose.xps");

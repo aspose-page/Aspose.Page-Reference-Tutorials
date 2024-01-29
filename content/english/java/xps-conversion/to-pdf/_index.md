@@ -10,7 +10,7 @@ url: /java/xps-conversion/to-pdf/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.conversion;
+
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
 import java.io.FileOutputStream;
@@ -19,7 +19,7 @@ public class XPStoPDF {
     public static void main(String[] args) throws Exception {
         // ExStart:XPStoPDF
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Initialize PDF output stream
         FileOutputStream pdfStream = new FileOutputStream(dataDir + "XPStoPDF.pdf");
 

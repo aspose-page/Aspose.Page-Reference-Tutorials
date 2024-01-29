@@ -10,7 +10,7 @@ url: /java/file-merging/xps-to-xps/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.merge;
+
 import java.io.FileOutputStream;
 
 import com.aspose.page.utilities.Utils;
@@ -20,7 +20,7 @@ public class XPStoXPS {
     public static void main(String[] args) throws Exception {
         // ExStart:XPStoXPS merge
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Initialize XPS output stream
         FileOutputStream outStream = new FileOutputStream(dataDir + "mergedXPSfiles.xps");
 

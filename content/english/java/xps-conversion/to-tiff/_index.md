@@ -10,7 +10,7 @@ url: /java/xps-conversion/to-tiff/
 
 ## Complete Source Code
 ```java
-package com.aspose.page.conversion;
+
 
 import com.aspose.page.utilities.Utils;
 import com.aspose.xps.XpsDocument;
@@ -20,7 +20,7 @@ public class XSPtoTIFF {
     public static void main(String[] args) throws Exception {
         // ExStart:XSPtoTIFF
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir();
+        String dataDir = "Your Document Directory";
         // Load XPS document
         XpsDocument document = new XpsDocument(dataDir + "input.xps");
         // Initialize options object with necessary parameters.
