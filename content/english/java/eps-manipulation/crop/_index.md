@@ -20,7 +20,7 @@ Start by importing the necessary packages into your Java project. The code snipp
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
-import com.aspose.page.utilities.Utils;
+
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 // Create an input stream for EPS file

@@ -20,7 +20,7 @@ Start by importing the necessary packages to facilitate the merging process.
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PdfSaveOptions;
 import com.aspose.page.License;
-import com.aspose.page.utilities.Utils;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 ```

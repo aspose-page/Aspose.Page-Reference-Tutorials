@@ -17,7 +17,7 @@ url: /java/xps-transparency/set-opacity-mask/
  */
 
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsCanvas;
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsImageBrush;

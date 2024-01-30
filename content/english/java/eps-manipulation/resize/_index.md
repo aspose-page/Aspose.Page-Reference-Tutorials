@@ -23,7 +23,7 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.page.DimensionF;
 import com.aspose.page.Units;
-import com.aspose.page.utilities.Utils;
+
 ```
 Now, let's break down the tutorial into multiple steps for each resizing option:
 ## Example 1: Resize EPS using Points

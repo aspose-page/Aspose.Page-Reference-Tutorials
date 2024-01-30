@@ -19,7 +19,7 @@ To get started, import the necessary packages into your Java project. These pack
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PdfSaveOptions;
 import com.aspose.page.License;
-import com.aspose.page.utilities.Utils;
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 ```

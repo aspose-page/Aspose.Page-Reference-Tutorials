@@ -19,7 +19,7 @@ Now, let's dive into the core of the tutorial.
 In your Java project, start by importing the necessary packages to make use of Aspose.Page for Java. Add the following lines at the beginning of your Java file:
 ```java
 import java.io.FileOutputStream;
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsDocument;
 ```
 ## Step 1: Set Up Your Project

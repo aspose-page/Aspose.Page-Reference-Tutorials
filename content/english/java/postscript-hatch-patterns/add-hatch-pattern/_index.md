@@ -23,7 +23,7 @@ import com.aspose.eps.HatchPaintLibrary;
 import com.aspose.eps.HatchStyle;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-import com.aspose.page.utilities.Utils;
+
 
 public class AddHatchPaternPS {
 

@@ -22,7 +22,7 @@ import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
-import com.aspose.page.utilities.Utils;
+
 
 public class AddSimpleProperties {
     public static void main(String[] args) throws Exception {

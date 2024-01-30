@@ -25,7 +25,7 @@ import java.io.IOException;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.ImageSaveOptions;
 import com.aspose.page.ImageFormat;
-import com.aspose.page.utilities.Utils;
+
 ```
 ## Step 2: Set Up Document Directory and Image Format
 Specify the path to your document directory and initialize the image format you desire (e.g., PNG).

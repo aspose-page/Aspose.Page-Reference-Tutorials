@@ -17,7 +17,7 @@ url: /java/xps-page-manipulation/add-page/
  */
 
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsDocument;
 
 

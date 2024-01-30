@@ -22,7 +22,7 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
-import com.aspose.page.utilities.Utils;
+
 
 public class AddTextPS {
     

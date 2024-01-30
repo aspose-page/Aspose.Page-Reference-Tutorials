@@ -21,7 +21,7 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PageConstants;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-import com.aspose.page.utilities.Utils;
+
 ```
 Now, let's break down the example into multiple steps for a seamless understanding.
 ## Step 1: Set Document Directory

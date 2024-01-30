@@ -21,7 +21,7 @@ url: /java/visual-elements/add-grid/
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsCanvas;
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsPath;

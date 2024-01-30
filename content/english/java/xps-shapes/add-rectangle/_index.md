@@ -17,7 +17,7 @@ url: /java/xps-shapes/add-rectangle/
  */
 
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsPath;
 

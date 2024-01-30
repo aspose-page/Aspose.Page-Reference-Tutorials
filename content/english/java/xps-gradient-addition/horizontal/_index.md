@@ -19,7 +19,7 @@ url: /java/xps-gradient-addition/horizontal/
 
 
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsGradientBrush;
 import com.aspose.xps.XpsGradientStop;

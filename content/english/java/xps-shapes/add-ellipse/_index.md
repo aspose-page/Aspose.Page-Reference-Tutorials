@@ -22,7 +22,7 @@ import java.awt.geom.Point2D;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsCanvas;
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsGradientBrush;

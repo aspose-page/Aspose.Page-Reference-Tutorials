@@ -17,7 +17,7 @@ url: /java/xps-image-manipulation/add-tiled-image/
  */
 
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsImageBrush;
 import com.aspose.xps.XpsPath;

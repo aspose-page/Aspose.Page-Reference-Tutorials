@@ -23,7 +23,7 @@ import java.io.IOException;
 import com.aspose.eps.ImageFormat;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.ImageSaveOptions;
-import com.aspose.page.utilities.Utils;
+
 ```
 ## Step 1: Initialize Document and Image Format
 The first step is to set up the document and define the desired image format.

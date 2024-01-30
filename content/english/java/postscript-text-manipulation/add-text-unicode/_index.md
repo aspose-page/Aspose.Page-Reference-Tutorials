@@ -18,7 +18,7 @@ url: /java/postscript-text-manipulation/add-text-unicode/
 
 
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsFontStyle;
 import com.aspose.xps.XpsGlyphs;

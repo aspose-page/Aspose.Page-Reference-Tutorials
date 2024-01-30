@@ -11,7 +11,7 @@ url: /java/xps-image-manipulation/add-image/
 ## Complete Source Code
 ```java
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsPath;
 import java.awt.geom.Rectangle2D;

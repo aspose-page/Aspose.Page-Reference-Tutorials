@@ -24,7 +24,7 @@ import java.awt.geom.Rectangle2D;
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-import com.aspose.page.utilities.Utils;
+
 ```
 ## Example 1: No Transformations
 ```java

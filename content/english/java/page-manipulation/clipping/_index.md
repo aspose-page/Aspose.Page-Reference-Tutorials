@@ -24,7 +24,7 @@ import java.awt.geom.Rectangle2D;
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-import com.aspose.page.utilities.Utils;
+
 ```
 Let's break down the example code into multiple steps to understand the process of clipping in Java Page Manipulation.
 ## Step 1: Set Up Document and Output Stream

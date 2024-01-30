@@ -18,7 +18,7 @@ url: /java/xps-transparency/add-transparent-object/
 
 
 
-import com.aspose.page.utilities.Utils;
+
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsPath;
 import java.awt.Color;

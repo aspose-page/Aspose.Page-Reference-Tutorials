@@ -19,7 +19,7 @@ Once you have the prerequisites set up, it's time to import the necessary packag
 ```java
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-import com.aspose.page.utilities.Utils;
+
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 // Create default options
