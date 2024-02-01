@@ -15,7 +15,7 @@ Unlock the full potential of Aspose.Page for .NET by applying a metered license.
 
 Before diving into the steps, make sure you have the following prerequisites in place:
 
-- A valid Aspose.Page for .NET license: You can obtain it from [purchase.aspose.com/buy](https://purchase.aspose.com/buy).
+- A valid Aspose.Page for .NET license: You can obtain it from [purchase.aspose.com](https://purchase.aspose.com/buy).
 - Aspose.Page library installed: Refer to the [documentation](https://reference.aspose.com/page/net/) for installation instructions.
 - .NET development environment: Ensure that you have a working .NET environment set up on your machine.
 
@@ -95,15 +95,15 @@ This step-by-step guide has equipped you with the knowledge to seamlessly apply 
 
 ### Q1: How do I obtain a metered license for Aspose.Page for .NET?
 
-A1: Visit [purchase.aspose.com/buy](https://purchase.aspose.com/buy) to acquire a valid license.
+A1: Visit [purchase.aspose.com](https://purchase.aspose.com/buy) to acquire a valid license.
 
 ### Q2: Where can I find the documentation for Aspose.Page for .NET?
 
-A2: Refer to [reference.aspose.com/page/net/](https://reference.aspose.com/page/net/) for comprehensive documentation.
+A2: Refer to [Aspose.Page .NET](https://reference.aspose.com/page/net/) for comprehensive documentation.
 
 ### Q3: Is there a forum for Aspose.Page discussions and support?
 
-A3: Yes, visit [forum.aspose.com/c/page/39](https://forum.aspose.com/c/page/39) to engage with the community and seek assistance.
+A3: Yes, visit [forum](https://forum.aspose.com/c/page/39) to engage with the community and seek assistance.
 
 ### Q4: Can I try Aspose.Page for .NET before purchasing?
 
@@ -111,4 +111,4 @@ A4: Absolutely! Access the free trial at [releases.aspose.com/](https://releases
 
 ### Q5: How can I obtain a temporary license for Aspose.Page for .NET?
 
-A5: Visit [purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
+A5: Visit [temporary license/](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
