@@ -78,7 +78,7 @@ A1: You can find the detailed documentation [here](https://reference.aspose.com/
 
 ### Q2: How do I download the Aspose.Page for .NET library?
 
-A2: You can download the library from the official release page [here](https://releases.aspose.com/page/net/).
+A2: You can download the library from the release page [here](https://releases.aspose.com/page/net/).
 
 ### Q3: Where can I purchase a license for Aspose.Page for .NET?
 

@@ -12,7 +12,7 @@ In the realm of Java development, managing and manipulating XPS files is a commo
 ## Prerequisites
 Before we embark on this journey, make sure you have the following prerequisites in place:
 - Java Development Kit (JDK): Ensure that you have JDK installed on your system. You can download it [here](https://www.oracle.com/java/technologies/javase-downloads.html).
-- Aspose.Page for Java: Download and install Aspose.Page for Java library from the official [Aspose website](https://purchase.aspose.com/buy). 
+- Aspose.Page for Java: Download and install Aspose.Page for Java library from the [Aspose website](https://purchase.aspose.com/buy). 
 - Integrated Development Environment (IDE): Choose your preferred IDE; popular choices include Eclipse, IntelliJ IDEA, or NetBeans.
 Now, let's dive into the core of the tutorial.
 ## Import Packages
@@ -54,7 +54,7 @@ Yes, Aspose.Page for Java handles merging with files of varying sizes seamlessly
 ### Is a temporary license available for testing purposes?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing.
 ### Where can I find more detailed documentation?
-Refer to the official Aspose.Page for Java documentation [here](https://reference.aspose.com/page/java/).
+Refer to the Aspose.Page for Java documentation [here](https://reference.aspose.com/page/java/).
 ### Are there any community forums for Aspose.Page discussions?
 Yes, visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to engage with the community.
 ### How can I purchase the Aspose.Page for Java library?

@@ -68,7 +68,7 @@ document.save();
 ```
 Repeat these steps for adding multiple images or customize the transformations based on your requirements.
 ## Conclusion
-Congratulations! You have successfully learned how to add images to a Java PostScript document using Aspose.Page for Java. Explore the [official documentation](https://reference.aspose.com/page/java/) for more advanced features and functionalities.
+Congratulations! You have successfully learned how to add images to a Java PostScript document using Aspose.Page for Java. Explore the [documentation](https://reference.aspose.com/page/java/) for more advanced features and functionalities.
 ## FAQs
 ### Can I use Aspose.Page for Java with other programming languages?
 Aspose.Page primarily supports Java, but there are versions available for other programming languages as well.

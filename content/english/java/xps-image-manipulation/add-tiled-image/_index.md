@@ -12,7 +12,7 @@ In the dynamic world of Java development, the need for efficient document manipu
 ## Prerequisites
 Before diving into the tutorial, ensure that you have the following prerequisites in place:
 1. Java Development Kit (JDK): Make sure you have JDK installed on your system.
-2. Aspose.Page for Java: Download and install Aspose.Page for Java from the [official website](https://releases.aspose.com/page/java/).
+2. Aspose.Page for Java: Download and install Aspose.Page for Java from the [website](https://releases.aspose.com/page/java/).
 3. Your Document Directory: Choose or create a directory where you want to save your XPS document.
 ## Import Packages
 In your Java project, import the necessary packages to utilize Aspose.Page functionalities:
@@ -65,6 +65,6 @@ Yes, Aspose.Page offers commercial licenses. Purchase them [here](https://purcha
 ### Is there a free trial available?
 Yes, explore Aspose.Page features with a free trial [here](https://releases.aspose.com/).
 ### Where can I find community support and discussions?
-Engage with the Aspose.Page community on the [official forum](https://forum.aspose.com/c/page/39).
+Engage with the Aspose.Page community on the [forum](https://forum.aspose.com/c/page/39).
 ### How can I obtain a temporary license for Aspose.Page?
 Acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).

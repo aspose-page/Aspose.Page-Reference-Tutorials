@@ -97,6 +97,6 @@ Aspose.Page offers both free trial and paid versions. Visit [here](https://relea
 ### Q: Can I use Aspose.Page for commercial projects?
 Yes, Aspose.Page offers commercial licenses. You can purchase them [here](https://purchase.aspose.com/buy).
 ### Q: Where can I find additional documentation?
-Refer to the official documentation [here](https://reference.aspose.com/page/java/).
+Refer to the documentation [here](https://reference.aspose.com/page/java/).
 ### Q: How can I get temporary licenses?
 Temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).

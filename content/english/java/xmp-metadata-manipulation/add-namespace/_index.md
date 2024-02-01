@@ -101,7 +101,7 @@ Aspose.Page primarily supports Java, but there are versions available for other 
 Yes, you can explore a free trial [here](https://releases.aspose.com/).
 
 ### Where can I find comprehensive documentation?
-Refer to the official documentation [here](https://reference.aspose.com/page/java/).
+Refer to the documentation [here](https://reference.aspose.com/page/java/).
 
 ### How can I obtain a temporary license?
 You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).

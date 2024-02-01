@@ -11,7 +11,7 @@ url: /java/postscript-conversion/to-image/
 In the ever-evolving landscape of software development, efficient document manipulation is crucial. Aspose.Page for Java emerges as a powerful tool, allowing developers to seamlessly convert PostScript files to images. In this tutorial, we will walk through the process step by step, ensuring you grasp each aspect comprehensively.
 ## Prerequisites
 Before diving into the conversion process, make sure you have the following prerequisites in place:
-- Aspose.Page for Java Library: Ensure that you have the Aspose.Page for Java library integrated into your project. If not, you can download it from the [official releases page](https://releases.aspose.com/page/java/).
+- Aspose.Page for Java Library: Ensure that you have the Aspose.Page for Java library integrated into your project. If not, you can download it from the [releases page](https://releases.aspose.com/page/java/).
 - Document Directory: Have a PostScript file (with a .ps extension) ready in your document directory, as we will be using it as input for the conversion.
 ## Import Packages
 Begin by importing the necessary packages in your Java application. Below is an example snippet:
@@ -103,4 +103,4 @@ The default image format is PNG, but you can specify a different format if neede
 ### Is it mandatory to set the image size in the ImageDevice?
 No, it is not mandatory. The default image size is 595x842, but you can set it if specific dimensions are required.
 ### Where can I find more information and support?
-Explore the [official documentation](https://reference.aspose.com/page/java/) and visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support.
+Explore the [documentation](https://reference.aspose.com/page/java/) and visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support.

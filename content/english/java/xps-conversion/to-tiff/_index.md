@@ -58,7 +58,7 @@ for (int i = 0; i < device.getResult().length; i++) {
     }
 }
 ```
-Congratulations! You've successfully converted XPS to TIFF in Java using Aspose.Page. Feel free to explore more features and functionalities of the library in the [official documentation](https://reference.aspose.com/page/java/).
+Congratulations! You've successfully converted XPS to TIFF in Java using Aspose.Page. Feel free to explore more features and functionalities of the library in the [documentation](https://reference.aspose.com/page/java/).
 ## Conclusion
 In this tutorial, we've covered the essential steps to convert XPS to TIFF in Java using Aspose.Page. Document conversion is now at your fingertips, allowing you to enhance your applications with versatile file format support.
 ## Frequently Asked Questions

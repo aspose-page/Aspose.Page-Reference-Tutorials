@@ -12,7 +12,7 @@ In the world of Java development, the ability to work with XPS documents is cruc
 Adding images to XPS documents is a common requirement in many Java applications, ranging from report generation to document processing. Aspose.Page for Java simplifies this task, offering efficient methods to seamlessly integrate images into your XPS files. In this tutorial, we'll demonstrate how to add an image to an XPS document using Aspose.Page for Java.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-1. Aspose.Page for Java Library: Download and install the Aspose.Page for Java library from the [official website](https://releases.aspose.com/page/java/).
+1. Aspose.Page for Java Library: Download and install the Aspose.Page for Java library from the [website](https://releases.aspose.com/page/java/).
 2. Java Development Environment: Ensure that you have a Java development environment set up on your machine.
 Now, let's move on to the next steps.
 ## Import Packages

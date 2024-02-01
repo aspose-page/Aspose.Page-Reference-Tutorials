@@ -13,7 +13,7 @@ In this tutorial, we will walk you through the process of creating a Java applic
 ## Prerequisites
 Before you begin, make sure you have the following prerequisites in place:
 1. Java Development Environment: Ensure that you have Java installed on your system. If not, download and install the latest version of Java from [java.com](https://www.java.com).
-2. Aspose.Page for Java Library: You need to have the Aspose.Page for Java library. You can download it from the official [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
+2. Aspose.Page for Java Library: You need to have the Aspose.Page for Java library. You can download it from the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
 ## Import Packages
 Start by importing the necessary packages for your Java application. Include the Aspose.Page for Java library in your project. You can do this by adding the following lines of code:
 ```java

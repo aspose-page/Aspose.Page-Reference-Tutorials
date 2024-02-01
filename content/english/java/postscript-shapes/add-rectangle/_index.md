@@ -12,7 +12,7 @@ Are you looking to enhance your Java PostScript documents with vibrant rectangle
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
 - Basic understanding of Java programming.
-- Aspose.Page for Java library installed. If not, download it from the [official Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
+- Aspose.Page for Java library installed. If not, download it from the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
 - A Java development environment set up on your machine.
 ## Import Packages
 In your Java project, start by importing the necessary packages:

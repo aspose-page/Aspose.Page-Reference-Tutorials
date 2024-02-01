@@ -12,7 +12,7 @@ Are you looking to enhance your Java PostScript application by seamlessly adding
 ## Prerequisites
 Before we dive into the tutorial, ensure that you have the following prerequisites in place:
 1. Java Development Kit (JDK): Make sure you have Java installed on your machine.
-2. Aspose.Page for Java: Download and install the Aspose.Page library from the [official download link](https://releases.aspose.com/page/java/).
+2. Aspose.Page for Java: Download and install the Aspose.Page library from the [download link](https://releases.aspose.com/page/java/).
 3. Integrated Development Environment (IDE): Choose your preferred Java IDE such as IntelliJ IDEA or Eclipse.
 ## Import Packages
 In your Java project, import the necessary packages for Aspose.Page. Add the following lines to your code:
@@ -47,7 +47,7 @@ doc.save(dataDir + "AddEncodingText_out.xps");
 ```
 ## Conclusion
 Congratulations! You've successfully added Unicode text to your Java PostScript application using Aspose.Page. This guide demonstrated a simple yet powerful method to enhance your projects.
-Feel free to explore more features and capabilities of Aspose.Page in the [official documentation](https://reference.aspose.com/page/java/).
+Feel free to explore more features and capabilities of Aspose.Page in the [documentation](https://reference.aspose.com/page/java/).
 ## Frequently Asked Questions
 ### Can I use Aspose.Page for Java with other programming languages?
 Aspose.Page is primarily designed for Java, but Aspose provides libraries for various programming languages.

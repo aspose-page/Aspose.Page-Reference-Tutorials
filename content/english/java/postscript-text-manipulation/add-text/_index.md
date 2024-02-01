@@ -12,7 +12,7 @@ Welcome to our step-by-step guide on adding text in Java PostScript using Aspose
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites:
 - Basic knowledge of Java programming.
-- Aspose.Page for Java library installed. You can download it from the [official Aspose.Page for Java download page](https://releases.aspose.com/page/java/).
+- Aspose.Page for Java library installed. You can download it from the [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).
 - Necessary fonts available in the specified folder. You can find additional information in the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
 ## Import Packages
 In your Java project, import the necessary packages for Aspose.Page for Java:

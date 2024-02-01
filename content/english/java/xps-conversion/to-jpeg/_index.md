@@ -69,7 +69,7 @@ A: Yes, Aspose.Page is a commercial product with licensing options available. Ch
 ### Q: Can I try Aspose.Page before purchasing?
 A: Yes, you can obtain a free trial [here](https://releases.aspose.com/).
 ### Q: Where can I find Aspose.Page documentation?
-A: The official documentation is available [here](https://reference.aspose.com/page/java/).
+A: The documentation is available [here](https://reference.aspose.com/page/java/).
 ### Q: How can I get support for Aspose.Page?
 A: Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) for community-based support.
 ### Q: Do I need a temporary license for testing?

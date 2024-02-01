@@ -15,13 +15,13 @@ Unlocking the full potential of Aspose.Page for .NET involves securing your lice
 
 Before you begin securing your license, make sure you have the following in place:
 
-- Aspose.Page for .NET: Ensure you have the latest version of Aspose.Page for .NET installed. If not, you can download it from the [official download page](https://releases.aspose.com/page/net/).
+- Aspose.Page for .NET: Ensure you have the latest version of Aspose.Page for .NET installed. If not, you can download it from the [download page](https://releases.aspose.com/page/net/).
 
 - License File: Acquire the license file for Aspose.Page. If you don't have one, you can obtain it from the [purchase page](https://purchase.aspose.com/buy).
 
 - Development Environment: Set up your .NET development environment with the necessary tools, including an integrated development environment (IDE) like Visual Studio.
 
-- Access to Documentation: Familiarize yourself with the [official documentation](https://reference.aspose.com/page/net/) for Aspose.Page for .NET.
+- Access to Documentation: Familiarize yourself with the [documentation](https://reference.aspose.com/page/net/) for Aspose.Page for .NET.
 
 ## Import Namespaces
 
@@ -77,7 +77,7 @@ A1: You need to secure the license only once per application.
 
 ### Q2: Can I use a trial license for testing purposes?
 
-A2: Yes, you can obtain a free trial license from the [official releases page](https://releases.aspose.com/).
+A2: Yes, you can obtain a free trial license from the [releases page](https://releases.aspose.com/).
 
 ### Q3: What happens if the license expires?
 

@@ -59,7 +59,7 @@ document.save();
 ```
 Now you've successfully added ellipses to your PostScript document using Aspose.Page for Java! Experiment with different coordinates and dimensions to customize your visuals.
 ## Conclusion
-Aspose.Page for Java simplifies the process of creating and manipulating PostScript documents. This tutorial has equipped you with the knowledge to add ellipses, providing a solid foundation for more complex visualizations. Dive into the [official documentation](https://reference.aspose.com/page/java/) for further details and capabilities.
+Aspose.Page for Java simplifies the process of creating and manipulating PostScript documents. This tutorial has equipped you with the knowledge to add ellipses, providing a solid foundation for more complex visualizations. Dive into the [documentation](https://reference.aspose.com/page/java/) for further details and capabilities.
 ## FAQs
 ### Q: Can I use Aspose.Page for Java with other Java libraries?
 A: Yes, Aspose.Page for Java is designed to seamlessly integrate with other Java libraries.

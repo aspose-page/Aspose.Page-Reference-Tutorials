@@ -63,7 +63,7 @@ Yes, Aspose.Page is compatible with various operating systems, including Windows
 ### Can I use Aspose.Page for both personal and commercial projects?
 Yes, Aspose.Page comes with flexible licensing options suitable for both personal and commercial use.
 ### Where can I find additional documentation for Aspose.Page?
-You can refer to the official documentation [here](https://reference.aspose.com/page/java/).
+You can refer to the documentation [here](https://reference.aspose.com/page/java/).
 ### Are there any limitations to the number of pages I can add using Aspose.Page?
 Aspose.Page does not impose strict limitations on the number of pages you can add, making it suitable for projects of various scales.
 ### How can I get a temporary license for Aspose.Page?

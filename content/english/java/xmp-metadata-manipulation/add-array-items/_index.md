@@ -72,7 +72,7 @@ Congratulations! You've successfully learned how to add array items in XMP metad
 Yes, Aspose.Page supports various document formats, including EPS, PDF, and XPS.
 ### Is there a free trial available for Aspose.Page for Java?
 Yes, you can access the free trial [here](https://releases.aspose.com/).
-### Where can I find the official documentation for Aspose.Page for Java?
+### Where can I find the documentation for Aspose.Page for Java?
 The documentation is available [here](https://reference.aspose.com/page/java/).
 ### How can I purchase Aspose.Page for Java?
 You can buy the product [here](https://purchase.aspose.com/buy).

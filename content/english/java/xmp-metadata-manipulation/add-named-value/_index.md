@@ -12,7 +12,7 @@ In the ever-evolving landscape of Java development, handling metadata in EPS fil
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
 - Java Development Kit (JDK): Aspose.Page for Java requires a functioning JDK. Ensure you have the latest version installed.
-- Aspose.Page for Java Library: Download and include the Aspose.Page for Java library in your project. You can obtain it from the [official download link](https://releases.aspose.com/page/java/).
+- Aspose.Page for Java Library: Download and include the Aspose.Page for Java library in your project. You can obtain it from the [download link](https://releases.aspose.com/page/java/).
 ## Import Packages
 Begin by importing the necessary packages into your Java project. These packages are vital for utilizing Aspose.Page for Java functionalities. Include the following in your code:
 ```java
@@ -75,6 +75,6 @@ Yes, you can access a free trial of Aspose.Page for Java [here](https://releases
 ### How can I obtain a temporary license for Aspose.Page for Java?
 Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for Aspose.Page for Java.
 ### Where can I find more tutorials and examples for Aspose.Page for Java?
-Explore the [official documentation](https://reference.aspose.com/page/java/) for comprehensive tutorials and examples.
+Explore the [documentation](https://reference.aspose.com/page/java/) for comprehensive tutorials and examples.
 ### Is Aspose.Page for Java suitable for large-scale projects?
 Absolutely, Aspose.Page for Java is designed to handle large-scale projects efficiently, providing robust document manipulation capabilities.

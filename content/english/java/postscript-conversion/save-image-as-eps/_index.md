@@ -13,7 +13,7 @@ This tutorial will guide you through the process of saving an image as EPS using
 ## Prerequisites
 Before diving into the tutorial, ensure that you have the following prerequisites in place:
 1. Java Development Kit (JDK): Aspose.Page for Java requires a working JDK installed on your system. You can download the latest JDK [here](https://www.oracle.com/java/technologies/javase-downloads.html).
-2. Aspose.Page for Java Library: Make sure to have the Aspose.Page for Java library. If not, download it from the official release [page](https://releases.aspose.com/page/java/).
+2. Aspose.Page for Java Library: Make sure to have the Aspose.Page for Java library. If not, download it from the release [page](https://releases.aspose.com/page/java/).
 ## Import Packages
 Once you have the prerequisites set up, it's time to import the necessary packages into your Java project. Add the following lines to your code:
 ```java
@@ -48,7 +48,7 @@ In this final step, the code utilizes the Aspose.Page library to save the input 
 Repeat these steps with your own image file paths and directory information.
 ## Conclusion
 Congratulations! You've successfully learned how to save an image as EPS in Java using Aspose.Page. This powerful functionality opens doors to advanced graphics and printing capabilities within your Java applications.
-Feel free to explore more features of Aspose.Page for Java by referring to the official [documentation](https://reference.aspose.com/page/java/).
+Feel free to explore more features of Aspose.Page for Java by referring to the [documentation](https://reference.aspose.com/page/java/).
 ## Frequently Asked Questions
 ### Is Aspose.Page for Java compatible with all image formats?
 Yes, Aspose.Page for Java supports a wide range of image formats, making it versatile for various applications.

@@ -94,7 +94,7 @@ In this tutorial, we explored the process of adding XMP metadata to an EPS file 
 ### Q: Is Aspose.Page for Java free to use?
 A: Aspose.Page for Java is a commercial product. You can explore its features through a free trial [here](https://releases.aspose.com/).
 ### Q: Where can I find the documentation for Aspose.Page for Java?
-A: The official documentation is available [here](https://reference.aspose.com/page/java/).
+A: The documentation is available [here](https://reference.aspose.com/page/java/).
 ### Q: How can I obtain a temporary license for Aspose.Page for Java?
 A: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Q: What file formats does Aspose.Page for Java support?

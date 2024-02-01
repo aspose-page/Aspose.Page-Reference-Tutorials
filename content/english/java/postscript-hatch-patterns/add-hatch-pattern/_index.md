@@ -96,4 +96,4 @@ You can acquire a temporary license [here](https://purchase.aspose.com/temporary
 ### Where can I find more tutorials and support for Aspose.Page for Java?
 Explore the [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) for tutorials and community support.
 ### Is there a comprehensive documentation resource for Aspose.Page for Java?
-Yes, refer to the official documentation [here](https://reference.aspose.com/page/java/).
+Yes, refer to the documentation [here](https://reference.aspose.com/page/java/).

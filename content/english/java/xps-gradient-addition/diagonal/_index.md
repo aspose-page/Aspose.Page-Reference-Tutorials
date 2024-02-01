@@ -68,7 +68,7 @@ Congratulations! You've successfully added a diagonal gradient to your XPS docum
 ### Q: Can I use Aspose.Page for Java with other Java frameworks?
 Aspose.Page is designed to seamlessly integrate with various Java frameworks, making it a versatile choice for your projects.
 ### Q: Are there any licensing considerations for Aspose.Page?
-Yes, make sure to review the licensing details on the [official Aspose.Page purchase page](https://purchase.aspose.com/buy).
+Yes, make sure to review the licensing details on the [Aspose.Page purchase page](https://purchase.aspose.com/buy).
 ### Q: Can I try Aspose.Page for Java before purchasing?
 Absolutely! You can explore a [free trial version here](https://releases.aspose.com/).
 ### Q: How can I get support or connect with the Aspose community?

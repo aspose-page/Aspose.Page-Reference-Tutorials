@@ -70,7 +70,7 @@ Congratulations! You've successfully learned how to change array items in XMP us
 ### Can I use Aspose.Page for Java with other programming languages?
 Aspose.Page is primarily designed for Java, but Aspose provides similar libraries for other languages.
 ### Where can I find detailed documentation for Aspose.Page for Java?
-The official documentation is available [here](https://reference.aspose.com/page/java/).
+The documentation is available [here](https://reference.aspose.com/page/java/).
 ### Is there a free trial available for Aspose.Page for Java?
 Yes, you can get a free trial [here](https://releases.aspose.com/).
 ### How can I obtain a temporary license for Aspose.Page for Java?

@@ -66,4 +66,4 @@ Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community 
 ### How can I obtain a temporary license?
 You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Are there any example projects available?
-Yes, check the official documentation [here](https://reference.aspose.com/page/java/).
+Yes, check the documentation [here](https://reference.aspose.com/page/java/).

@@ -2,7 +2,7 @@
 title: Shapes - XPS
 linktitle: Shapes - XPS
 second_title: Aspose.Page Java API
-description: Discover Java XPS magic with Aspose.Page tutorials! Easily add captivating ellipses and rectangles. Elevate document creation with our step-by-step guides
+description: Discover Java XPS magic with Aspose.Page tutorials! Easily add captivating ellipses and rectangles. Elevate document creation with our step-by-step guides.
 type: docs
 weight: 35
 url: /java/xps-shapes/

@@ -12,7 +12,7 @@ Are you looking to enhance your Java applications with visually appealing grids 
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites:
 - Basic understanding of Java programming.
-- Aspose.Page library installed. You can download it from the [official Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
+- Aspose.Page library installed. You can download it from the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
 - Java Development Kit (JDK) installed on your machine.
 ## Import Packages
 Ensure you have the necessary packages imported in your Java project:

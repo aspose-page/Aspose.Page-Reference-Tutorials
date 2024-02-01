@@ -13,7 +13,7 @@ In this tutorial, we will walk through the process of converting XPS to PDF usin
 ## Prerequisites
 Before diving into the conversion process, make sure you have the following prerequisites in place:
 - Java Development Kit (JDK): Ensure you have Java installed on your system.
-- Aspose.Page for Java: Download and set up the Aspose.Page for Java library. You can find the necessary information and download link in the [official documentation](https://reference.aspose.com/page/java/).
+- Aspose.Page for Java: Download and set up the Aspose.Page for Java library. You can find the necessary information and download link in the [documentation](https://reference.aspose.com/page/java/).
 ## Import Packages
 In your Java project, import the required packages for working with Aspose.Page for Java. This step is crucial for accessing the functionalities needed for XPS to PDF conversion.
 ```java

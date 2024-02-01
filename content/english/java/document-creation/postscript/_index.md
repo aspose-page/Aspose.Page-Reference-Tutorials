@@ -75,7 +75,7 @@ Yes, you can. Ensure to set the additional fonts folder in the save options.
 ### Is there a trial version available for Aspose.Page for Java?
 Yes, you can get a free trial [here](https://releases.aspose.com/).
 ### How can I access the documentation for Aspose.Page for Java?
-Refer to the official documentation [here](https://reference.aspose.com/page/java/).
+Refer to the documentation [here](https://reference.aspose.com/page/java/).
 ### Where can I purchase a license for Aspose.Page for Java?
 You can buy a license [here](https://purchase.aspose.com/buy).
 ### Is there a forum for Aspose.Page discussions?

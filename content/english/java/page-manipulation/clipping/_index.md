@@ -11,7 +11,7 @@ url: /java/page-manipulation/clipping/
 In the realm of Java Page Manipulation, mastering the art of clipping is essential for creating visually stunning and precisely crafted documents. Clipping allows you to control the visibility of content by defining specific regions within which it should be displayed. In this tutorial, we'll delve into the world of clipping using Aspose.Page for Java, a powerful library for handling document processing tasks.
 ## Prerequisites
 Before we embark on this clipping journey, ensure you have the following prerequisites:
-- Aspose.Page for Java Library: Download and install the library from the [official Aspose.Page documentation](https://reference.aspose.com/page/java/).
+- Aspose.Page for Java Library: Download and install the library from the [Aspose.Page documentation](https://reference.aspose.com/page/java/).
 - Java Development Environment: Ensure you have a working Java development environment set up.
 ## Import Packages
 In your Java project, import the necessary packages for Aspose.Page for Java:
@@ -73,6 +73,6 @@ Absolutely! Aspose.Page offers a commercial license for developers, ensuring its
 ### How can I get a temporary license for testing purposes?
 Obtain a temporary license for testing from [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find more examples and documentation?
-Explore the [official documentation](https://reference.aspose.com/page/java/) and [Aspose.Page forum](https://forum.aspose.com/c/page/39) for a wealth of resources.
+Explore the [documentation](https://reference.aspose.com/page/java/) and [Aspose.Page forum](https://forum.aspose.com/c/page/39) for a wealth of resources.
 ### Is there a free trial available?
 Yes, you can access the free trial of Aspose.Page [here](https://releases.aspose.com/).

@@ -12,7 +12,7 @@ In the world of Java PostScript, enhancing the visual appeal of documents often 
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 1. Java Development Kit (JDK): Ensure you have the latest JDK installed on your machine.
-2. Aspose.Page for Java: Download and install the Aspose.Page for Java library from the [official website](https://releases.aspose.com/page/java/).
+2. Aspose.Page for Java: Download and install the Aspose.Page for Java library from the [website](https://releases.aspose.com/page/java/).
 3. Document Directory: Create a directory on your system where you'll store your Java PostScript documents.
 4. Translucent Image File: Prepare a translucent image file (e.g., "mask1.png") to use in the tutorial.
 ## Import Packages
@@ -81,7 +81,7 @@ Yes, you can access a free trial of Aspose.Page for Java from [here](https://rel
 You can acquire a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
 ### Are there any forums for Aspose.Page for Java support?
 Yes, visit the [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) for community support and discussions.
-### Where can I find the official documentation for Aspose.Page for Java?
+### Where can I find the documentation for Aspose.Page for Java?
 Refer to the comprehensive [documentation](https://reference.aspose.com/page/java/) for detailed information on Aspose.Page for Java.
 ## SEO-Optimized Description
 Explore the seamless integration of transparent images in Java PostScript documents with Aspose.Page for Java. Elevate your document visualizations effortlessly. 

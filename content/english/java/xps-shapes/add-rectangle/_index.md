@@ -12,7 +12,7 @@ Welcome to this comprehensive guide on adding rectangles in Java XPS using Aspos
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
 - Basic knowledge of Java programming language.
-- Aspose.Page library installed. If not, you can download it from the [official Aspose.Page Java documentation](https://reference.aspose.com/page/java/).
+- Aspose.Page library installed. If not, you can download it from the [Aspose.Page Java documentation](https://reference.aspose.com/page/java/).
 - A working Java development environment.
 ## Import Packages
 To get started, import the necessary packages into your Java project. Ensure that the Aspose.Page library is correctly added to your classpath. Here's a basic example:

@@ -2,7 +2,7 @@
 title: Shapes - PostScript
 linktitle: Shapes - PostScript
 second_title: Aspose.Page Java API
-description: Craft captivating PostScript documents effortlessly with Aspose.Page for Java. Dive into detailed tutorials on adding ellipses and rectangles, creating visually appealing content.
+description: Craft captivating PostScript documents effortlessly with Aspose.Page Java. Dive into tutorials on adding ellipses and rectangles, creating visually appealing content.
 type: docs
 weight: 34
 url: /java/postscript-shapes/
@@ -18,7 +18,7 @@ Creating aesthetically pleasing documents often requires the inclusion of ellips
 
 #### Initialize Aspose.Page for Java:
 
-Begin by integrating Aspose.Page into your Java project. If you haven't done this yet, refer to the [official documentation](https://reference.aspose.com/page/java/) for a quick setup.
+Begin by integrating Aspose.Page into your Java project. If you haven't done this yet, refer to the [documentation](https://reference.aspose.com/page/java/) for a quick setup.
 
 #### Access the PostScript API:
 Once integrated, access the PostScript API provided by Aspose.Page. This API will be your gateway to manipulating shapes in the document.
@@ -41,7 +41,7 @@ By following these steps, you'll seamlessly integrate captivating ellipses into 
 Rectangles are fundamental shapes that contribute to the visual appeal of your documents. Aspose.Page for Java empowers you to add vibrant rectangles effortlessly. Here's a step-by-step guide:
 
 #### Integrate Aspose.Page for Java:
-Similar to the ellipse tutorial, ensure Aspose.Page is integrated into your Java project. If not, refer to the [official documentation](https://reference.aspose.com/page/java/) for a quick setup.
+Similar to the ellipse tutorial, ensure Aspose.Page is integrated into your Java project. If not, refer to the [documentation](https://reference.aspose.com/page/java/) for a quick setup.
 
 #### Access PostScript API:
 Utilize the PostScript API provided by Aspose.Page to manipulate shapes. This API serves as your toolkit for interacting with rectangles and other elements.

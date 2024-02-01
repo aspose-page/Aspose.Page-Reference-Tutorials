@@ -12,7 +12,7 @@ Welcome to a comprehensive guide on utilizing the powerful features of Aspose.Pa
 ## Prerequisites
 Before we dive into the step-by-step guide, make sure you have the following prerequisites in place:
 - Basic knowledge of Java programming.
-- Aspose.Page for Java library installed. You can download it from the [official Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
+- Aspose.Page for Java library installed. You can download it from the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
 - A Java Integrated Development Environment (IDE) set up on your machine.
 ## Import Packages
 In your Java project, import the necessary packages to utilize Aspose.Page for Java:
@@ -80,7 +80,7 @@ In this tutorial, we explored various transformations in Java Page Manipulation 
 ### Can I use Aspose.Page for Java for other document formats?
 Aspose.Page primarily focuses on page manipulation for PostScript and XPS formats.
 ### Where can I find more examples and documentation for Aspose.Page for Java?
-Visit the [official Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) for comprehensive information.
+Visit the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) for comprehensive information.
 ### Is there a free trial available for Aspose.Page for Java?
 Yes, you can access a free trial [here](https://releases.aspose.com/).
 ### How can I get a temporary license for Aspose.Page for Java?

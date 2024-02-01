@@ -11,7 +11,7 @@ url: /java/file-merging/postscript-to-pdf/
 In the realm of Java programming, efficient handling of document conversion is essential. One such crucial task is merging PostScript files into PDFs. Aspose.Page for Java provides a powerful solution for this task, offering developers a seamless experience. In this step-by-step guide, we will walk through the process of merging PostScript to PDF in Java using Aspose.Page.
 ## Prerequisites
 Before we dive into the tutorial, ensure you have the following prerequisites set up:
-- Aspose.Page for Java: Download and install the library from the official [Aspose.Page Java documentation](https://reference.aspose.com/page/java/).
+- Aspose.Page for Java: Download and install the library from the [Aspose.Page Java documentation](https://reference.aspose.com/page/java/).
 - Java Development Kit (JDK): Make sure you have JDK installed on your machine.
 - Integrated Development Environment (IDE): Choose an IDE of your preference, such as IntelliJ or Eclipse.
 ## Import Packages
@@ -83,7 +83,7 @@ In this tutorial, we explored the seamless process of merging PostScript files i
 ### Can I use Aspose.Page for Java with other programming languages?
 Yes, Aspose.Page offers libraries for various programming languages, providing flexibility and cross-language compatibility.
 ### Where can I find additional documentation and resources?
-Visit the [official Aspose.Page Java documentation](https://reference.aspose.com/page/java/) for comprehensive guides, examples, and API references.
+Visit the [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) for comprehensive guides, examples, and API references.
 ### Is there a free trial available for Aspose.Page for Java?
 Yes, you can explore the features of Aspose.Page by accessing the [free trial](https://releases.aspose.com/).
 ### How can I obtain a temporary license for Aspose.Page for Java?

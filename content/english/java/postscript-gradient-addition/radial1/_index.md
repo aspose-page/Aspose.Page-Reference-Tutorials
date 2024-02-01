@@ -78,8 +78,8 @@ Congratulations! You've successfully learned how to enhance your PostScript docu
 ## FAQs
 ### Can I use Aspose.Page for Java in commercial projects?
 Yes, you can use Aspose.Page for Java in commercial projects. For licensing details, visit [here](https://purchase.aspose.com/buy).
-### Where can I find the official documentation for Aspose.Page for Java?
-The official documentation is available [here](https://reference.aspose.com/page/java/).
+### Where can I find the documentation for Aspose.Page for Java?
+The documentation is available [here](https://reference.aspose.com/page/java/).
 ### Is there a free trial available?
 Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### How can I get a temporary license?
