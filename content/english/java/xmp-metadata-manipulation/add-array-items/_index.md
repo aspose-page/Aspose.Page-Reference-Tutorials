@@ -67,7 +67,7 @@ Save the document with the updated XMP metadata to the output EPS file.
 ## Conclusion
 Congratulations! You've successfully learned how to add array items in XMP metadata using Aspose.Page for Java. This powerful library simplifies the process of manipulating EPS files and provides extensive functionality for document processing.
 ## Frequently Asked Questions
- (FAQs)
+
 ### Can I use Aspose.Page for Java with other document formats?
 Yes, Aspose.Page supports various document formats, including EPS, PDF, and XPS.
 ### Is there a free trial available for Aspose.Page for Java?
