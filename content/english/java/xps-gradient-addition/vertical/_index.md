@@ -60,7 +60,7 @@ doc.save(dataDir + "VerticalGradient.xps");
 Congratulations! You have successfully added a vertical gradient to your Java XPS document using Aspose.Page.
 ## Conclusion
 Enhancing your XPS documents with gradients can significantly improve their visual appeal. Aspose.Page for Java simplifies this process, allowing you to create stunning documents with ease.
----
+
 ### FAQs
 ### Can I use Aspose.Page for Java in commercial projects?
 Yes, Aspose.Page for Java is available for commercial use. You can purchase it [here](https://purchase.aspose.com/buy).
