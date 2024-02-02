@@ -56,7 +56,7 @@ doc.save(dataDir + "AddTiledImage_out.xps");
 Repeat these steps to effortlessly incorporate a tiled image into your Java XPS document using Aspose.Page.
 ## Conclusion
 Aspose.Page for Java streamlines the process of working with XPS documents, offering developers an efficient solution for document manipulation. By following this step-by-step guide, you can effortlessly add a tiled image to your Java XPS document.
----
+
 ## FAQs
 ### Is Aspose.Page compatible with all Java versions?
 Aspose.Page is designed to work with various Java versions. Ensure compatibility by checking the documentation [here](https://reference.aspose.com/page/java/).
