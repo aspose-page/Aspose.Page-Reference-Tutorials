@@ -48,7 +48,7 @@ These are links to some useful resources:
 - [Conversion - PostScript](./java/postscript-conversion/)
 - [Conversion - XPS](./java/xps-conversion/)
 - [Java Document Creation](./java/document-creation/)
-- [EPS Manipulation in Java](./java/eps-manipulation/)
+- [EPS Manipulation in Java](./java/manipulation-eps/)
 - [Gradient Addition - PostScript](./java/postscript-gradient-addition/)
 - [Gradient Addition - XPS](./java/xps-gradient-addition/)
 - [Hatch Patterns - PostScript](./java/postscript-hatch-patterns/)

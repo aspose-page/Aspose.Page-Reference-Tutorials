@@ -5,7 +5,7 @@ second_title: Aspose.Page Java API
 description: Explore Aspose.Page for Java with our tutorials on EPS manipulation. Crop and resize EPS files effortlessly with step-by-step guides, enhancing your document skills.
 type: docs
 weight: 24
-url: /java/eps-manipulation/
+url: /java/manipulation-eps/
 ---
 
 ## introduction

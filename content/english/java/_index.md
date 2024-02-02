@@ -24,7 +24,7 @@ Effortlessly convert XPS to various formats in Java using Aspose.Page. Our step-
 Generate PostScript documents in Java effortlessly with Aspose.Page. Customize page size, margins, and fonts with our easy-to-follow tutorials. Visit [Java Document Creation](./document-creation/) to embark on a journey of crafting personalized documents.
 
 ## EPS Manipulation in Java
-Explore Aspose.Page for Java with our tutorials on EPS manipulation. Crop and resize EPS files effortlessly with step-by-step guides, enhancing your document skills. Uncover the secrets of [EPS Manipulation in Java](./eps-manipulation/) to level up your document manipulation game.
+Explore Aspose.Page for Java with our tutorials on EPS manipulation. Crop and resize EPS files effortlessly with step-by-step guides, enhancing your document skills. Uncover the secrets of [EPS Manipulation in Java](./manipulation-eps/) to level up your document manipulation game.
 
 In this ever-evolving digital landscape, stay ahead with Aspose.Page for Java. From manipulating pages to adding gradients, textures, and transparent elements, our tutorials cover a wide array of topics. Elevate your document processing capabilities with Aspose.Page, and start crafting visually appealing and dynamic Java documents today.
 
@@ -38,7 +38,7 @@ Convert PostScript to images, PDF, and save images as EPS in Java with Aspose.Pa
 Effortlessly convert XPS to various formats in Java using Aspose.Page. Enhance document processing with our step-by-step guides for precise & efficient conversion.
 ### [Java Document Creation](./document-creation/)
 Effortlessly generate PostScript documents in Java with Aspose.Page. Customize page size, margins, and fonts. Dive into Java document creation tutorials. 
-### [EPS Manipulation in Java](./eps-manipulation/)
+### [EPS Manipulation in Java](./manipulation-eps/)
 Explore Aspose.Page for Java with our tutorials on EPS manipulation. Crop and resize EPS files effortlessly with step-by-step guides, enhancing your document skills.
 ### [Gradient Addition - PostScript](./postscript-gradient-addition/)
 Elevate your Java PostScript documents with Aspose.Page for Java tutorials. Learn to add stunning diagonal, horizontal, radial, and vertical gradients effortlessly.

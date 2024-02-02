@@ -5,7 +5,7 @@ second_title: Aspose.Page Java API
 description: Learn how to resize EPS files in Java effortlessly with Aspose.Page for Java. Follow our comprehensive guide for step-by-step instructions.
 type: docs
 weight: 11
-url: /java/eps-manipulation/resize/
+url: /java/manipulation-eps/resize/
 ---
 ## Introduction
 Welcome to our step-by-step guide on resizing EPS files in Java using the powerful Aspose.Page library. If you've ever needed to adjust the dimensions of your EPS images programmatically, you're in the right place. In this tutorial, we'll explore various resizing options, including points, inches, millimeters, and percentages, providing you with the flexibility you need for your specific requirements.

@@ -5,7 +5,7 @@ second_title: Aspose.Page Java API
 description: Explore a step-by-step guide on cropping EPS files in Java using Aspose.Page. Enhance your document manipulation skills effortlessly. 
 type: docs
 weight: 10
-url: /java/eps-manipulation/crop/
+url: /java/manipulation-eps/crop/
 ---
 ## Introduction
 Are you looking to manipulate EPS files in your Java application and wondering how to efficiently crop them? Look no further! In this comprehensive guide, we'll walk you through the step-by-step process of cropping EPS files using the powerful Aspose.Page for Java library.
