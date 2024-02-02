@@ -91,8 +91,8 @@ document.save();
 ```
 ## Conclusion
 Congratulations! You've successfully added a texture tiling pattern to a Java PostScript document using Aspose.Page for Java. Feel free to explore further customization options and unleash the full potential of this powerful library.
----
-## FAQs
+
+## FAQ's
 ### Is Aspose.Page for Java suitable for beginners?
 Absolutely! Aspose.Page for Java provides comprehensive documentation, making it accessible for developers of all skill levels.
 ### Can I integrate Aspose.Page for Java into my existing Java project?
