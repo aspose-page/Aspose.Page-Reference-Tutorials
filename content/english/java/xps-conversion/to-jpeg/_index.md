@@ -63,7 +63,7 @@ This series of steps will effectively convert your XPS document to JPEG images, 
 ## Conclusion
 Congratulations! You have successfully learned how to convert XPS to JPEG in Java using Aspose.Page. This process is invaluable for developers working with document conversion in Java applications.
 ## Frequently Asked Questions
- (FAQs)
+
 ### Q: Is Aspose.Page suitable for commercial projects?
 A: Yes, Aspose.Page is a commercial product with licensing options available. Check [here](https://purchase.aspose.com/buy) for details.
 ### Q: Can I try Aspose.Page before purchasing?

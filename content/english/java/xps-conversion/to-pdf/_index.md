@@ -58,7 +58,7 @@ document.save(device, options);
 Repeat these steps, adjusting file paths and options according to your specific use case.
 ## Conclusion
 In conclusion, converting XPS to PDF in Java is a breeze with Aspose.Page. By following this step-by-step guide, you can seamlessly integrate this functionality into your Java projects, enhancing your document processing capabilities.
----
+
 ### FAQs
 ### Can I convert XPS files with multiple pages using Aspose.Page for Java?
 Yes, you can specify the desired page numbers in the options, as demonstrated in Step 4.

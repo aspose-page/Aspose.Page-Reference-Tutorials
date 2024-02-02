@@ -62,7 +62,6 @@ Congratulations! You've successfully converted XPS to TIFF in Java using Aspose.
 ## Conclusion
 In this tutorial, we've covered the essential steps to convert XPS to TIFF in Java using Aspose.Page. Document conversion is now at your fingertips, allowing you to enhance your applications with versatile file format support.
 ## Frequently Asked Questions
- (FAQs)
 ### Can I use Aspose.Page for Java without a license?
 While you can obtain a temporary license for evaluation, a valid license is required for production use. Get your license [here](https://purchase.aspose.com/buy).
 ### Are there any limitations on the size of XPS files for conversion?
