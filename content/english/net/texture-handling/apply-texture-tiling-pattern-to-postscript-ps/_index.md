@@ -2,30 +2,27 @@
 title: Apply Texture Tiling Pattern to PostScript (PS) with Aspose.Page
 linktitle: Apply Texture Tiling Pattern to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: Learn how to enhance PostScript documents with texture tiling patterns using Aspose.Page for .NET. Follow our step-by-step guide for stunning visual effects.
+description: Enhance your PostScript (PS) documents with texture tiling patterns using Aspose.Page for .NET. Follow our step-by-step guide for a creative touch.
 type: docs
 weight: 10
 url: /net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
 ## Introduction
 
-Welcome to this comprehensive tutorial on applying texture tiling patterns to PostScript (PS) using Aspose.Page for .NET. Aspose.Page is a powerful .NET library that allows developers to work with various document formats, including PS. In this guide, we'll delve into the process of adding texture tiling patterns to your PS documents to enhance their visual appeal.
+Welcome to this step-by-step tutorial on how to apply a texture tiling pattern to a PostScript (PS) document using Aspose.Page for .NET. Aspose.Page is a powerful library that allows you to work with various document formats, and in this tutorial, we'll explore how to enhance your PS documents by adding texture tiling patterns.
 
 ## Prerequisites
 
-Before we begin, make sure you have the following set up:
+Before we dive into the tutorial, make sure you have the following:
 
-1. Aspose.Page for .NET Library: Download and install the library from the [Aspose.Page documentation](https://reference.aspose.com/page/net/).
-
-2. Sample Image: Prepare a sample image that you want to use as a texture pattern. Ensure it is accessible within your project directory.
-
-3. Development Environment: Set up a .NET development environment, such as Visual Studio, to execute the code seamlessly.
-
-4. Document Directory: Create a directory where your PS documents will be saved. You'll reference this directory in the code as `Your Document Directory`.
+- [Visual Studio](https://visualstudio.microsoft.com/) installed on your machine.
+- Basic knowledge of C# programming.
+- Download and install the [Aspose.Page for .NET library](https://releases.aspose.com/page/net/).
+- An image file for the texture pattern (e.g., "TestTexture.bmp").
 
 ## Import Namespaces
 
-In your .NET project, include the necessary namespaces to work with Aspose.Page. Add the following namespaces at the beginning of your code:
+In your C# code, ensure you import the necessary namespaces:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -35,88 +32,128 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Let's break down the code example into manageable steps:
+Let's break down the provided example into multiple steps to guide you through the process.
 
-## Step 1: Set Document Directory
+## Step 1: Set Up Document Directory
 
 ```csharp
 // The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Ensure to replace `"Your Document Directory"` with the actual path where you want to save your PS documents.
+Make sure to replace "Your Document Directory" with the path where you want to save your PS document.
 
-## Step 2: Create Output Stream
+## Step 2: Create Output Stream for PS Document
 
 ```csharp
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddTextureTilingPattern_outPS.ps", FileMode.Create))
+{
+    // Create save options with A4 size
+    PsSaveOptions options = new PsSaveOptions();
+
+    // Create new 1-paged PS Document
+    PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Here, we create an output stream for the PS document and specify the file name.
+This step sets up the output stream for the PS document, including defining the document size.
 
-## Step 3: Initialize PS Document
+## Step 3: Apply Texture Tiling Pattern
 
 ```csharp
-PsSaveOptions options = new PsSaveOptions();
-PsDocument document = new PsDocument(outPsStream, options, false);
+// Create a Bitmap object from the image file
+using (Bitmap image = new Bitmap(dataDir + "TestTexture.bmp"))
+{
+    // Create texture brush from the image
+    TextureBrush brush = new TextureBrush(image, WrapMode.Tile);
+
+    // Add scaling in X direction to the pattern
+    Matrix transform = new Matrix(2, 0, 0, 1, 0, 0);
+    brush.Transform = transform;
+
+    // Set this texture brush as the current paint
+    document.SetPaint(brush);
+}
 ```
 
-Initialize the PS document with specified save options.
+This step involves creating a texture brush from an image and setting it as the current paint for the document.
 
-## Step 4: Add Texture Tiling Pattern
+## Step 4: Create Rectangle Path and Fill
 
 ```csharp
-// ... (code for creating texture brush and filling rectangle)
+// Create rectangle path
+GraphicsPath path = new GraphicsPath();
+path.AddRectangle(new RectangleF(0, 0, 200, 100));
+
+// Fill rectangle
+document.Fill(path);
 ```
 
-This section involves creating a texture brush from the sample image, setting transformations, and filling a rectangle with the texture pattern.
+Here, we define a rectangle path and fill it with the previously set texture brush.
 
 ## Step 5: Set Stroke and Draw
 
 ```csharp
-// ... (code for setting stroke and drawing the rectangle)
+// Get current paint
+Brush paint = document.GetPaint();
+
+// Set red stroke
+document.SetStroke(new Pen(new SolidBrush(Color.Red), 2));
+
+// Stroke the rectangle
+document.Draw(path);
 ```
 
-Set the stroke properties and draw the rectangle with the specified texture pattern.
+This step involves setting stroke properties and drawing the outlined rectangle.
 
-## Step 6: Fill and Outline Text
+## Step 6: Fill and Outline Text with Texture Pattern
 
 ```csharp
-// ... (code for filling and outlining text with texture pattern)
+// Fill text with texture pattern                
+Font font = new Font("Arial", 96, FontStyle.Bold);
+document.FillAndStrokeText("ABC", font, 200, 300, paint, new Pen(Color.Black, 2));
+
+// Outline text with texture pattern
+document.OutlineText("ABC", font, 200, 400, new Pen(paint, 5));
 ```
 
-Fill and outline text with the texture pattern to demonstrate its application on text elements.
+Finally, we fill and outline text with the texture pattern, enhancing the visual appeal of your document.
 
-## Step 7: Save Document
+## Step 7: Save and Close Document
 
 ```csharp
-// ... (code for saving the document)
+// Close current page
+document.ClosePage();
+
+// Save the document
+document.Save();
 ```
 
-Save the completed PS document.
+Make sure to close the current page and save the document to apply the changes.
 
 ## Conclusion
 
-Congratulations! You've successfully applied a texture tiling pattern to a PostScript document using Aspose.Page for .NET. Experiment with different images and patterns to achieve the desired visual effects in your PS documents.
+Congratulations! You've successfully learned how to apply a texture tiling pattern to a PostScript document using Aspose.Page for .NET. Experiment with different images and patterns to customize your PS documents further.
 
 ## FAQ's
 
-### Q1: Can I use vector images for texture patterns?
+### Q1: Can I use other image formats for the texture pattern?
 
-A1: Yes, Aspose.Page supports vector images for creating texture patterns.
+A1: Yes, Aspose.Page supports various image formats. Ensure compatibility with the library documentation.
 
-### Q2: How can I change the dimensions of the filled rectangle?
+### Q2: Is Aspose.Page compatible with .NET Core?
 
-A2: Modify the parameters in the `System.Drawing.RectangleF` constructor to adjust the dimensions.
+A2: Yes, Aspose.Page is compatible with both .NET Framework and .NET Core.
 
-### Q3: Is there a limit to the image size for texture patterns?
+### Q3: How can I adjust the size of the textured rectangle?
 
-A3: While there is no strict limit, consider the impact on document size and rendering performance with larger images.
+A3: Modify the dimensions in the `RectangleF` parameters during the path creation.
 
-### Q4: Can I apply multiple texture patterns in a single document?
+### Q4: Can I add multiple texture patterns to a single document?
 
-A4: Yes, you can repeat the process for different texture patterns in the same document.
+A4: Yes, you can repeat the process with different images and paths.
 
-## Q5: What other document formats does Aspose.Page support?
+### Q5: Where can I find additional resources and support?
 
-A5: Aspose.Page supports various formats, including PDF, XPS, and PS.
+A5: Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) for community support and explore the [documentation](https://reference.aspose.com/page/net/).
+
