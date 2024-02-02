@@ -61,7 +61,7 @@ Congratulations! You have successfully added vibrant rectangles to your Java Pos
 In this tutorial, we've explored the process of enhancing your Java PostScript documents with rectangles using Aspose.Page for Java. This powerful library opens up a world of possibilities for developers seeking to customize and manipulate their documents effortlessly.
 Have fun experimenting with different shapes and colors to make your documents visually appealing!
 ## Frequently Asked Questions
- (FAQs)
+
 ### Can I use Aspose.Page for Java with other programming languages?
 Aspose.Page primarily supports Java, but similar libraries are available for other languages.
 ### Is there a trial version of Aspose.Page for Java available?
