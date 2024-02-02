@@ -26,7 +26,7 @@ import com.aspose.page.Units;
 
 ```
 Now, let's break down the tutorial into multiple steps for each resizing option:
-## Example 1: Resize EPS using Points
+## Resize EPS using Points
 ### Step 1: Set up the input stream
 ```java
 FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
@@ -47,11 +47,11 @@ FileOutputStream outputEpsStream = new FileOutputStream(dataDir + "output_resize
 ```java
 doc.resizeEps(outputEpsStream, new Dimension2D.Double(oldSize.width * 2, oldSize.height * 2), Units.Points);
 ```
-## Example 2: Resize EPS using Inches
+## Resize EPS using Inches
 Follow similar steps as Example 1, replacing "Points" with "Inches" and adjusting the new size accordingly.
-## Example 3: Resize EPS using Millimeters
+## Resize EPS using Millimeters
 Follow similar steps as Example 1, replacing "Points" with "Millimeters" and adjusting the new size accordingly.
-## Example 4: Resize EPS using Percentages
+## Resize EPS using Percentages
 Follow similar steps as Example 1, replacing "Points" with "Percentages" and adjusting the new size accordingly.
 ## Conclusion
 Congratulations! You've successfully learned how to resize EPS files in Java using Aspose.Page. This guide provides you with versatile options, ensuring you can tailor the resizing process to meet your specific needs.
