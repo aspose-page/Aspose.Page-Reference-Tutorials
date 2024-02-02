@@ -76,7 +76,7 @@ document.writeGraphicsRestore();
 Continue the pattern with examples for Rotation, Shearing, and Complex Transformation following the provided Java code snippets.
 ## Conclusion
 In this tutorial, we explored various transformations in Java Page Manipulation using Aspose.Page for Java. By following these examples, you can enhance your Java applications with advanced page manipulation capabilities.
-## FAQs
+## FAQ's
 ### Can I use Aspose.Page for Java for other document formats?
 Aspose.Page primarily focuses on page manipulation for PostScript and XPS formats.
 ### Where can I find more examples and documentation for Aspose.Page for Java?

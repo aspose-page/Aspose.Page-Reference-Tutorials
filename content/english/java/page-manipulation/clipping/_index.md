@@ -65,7 +65,7 @@ Finally, close the current page and save the document.
 ## Conclusion
 Mastering clipping in Java Page Manipulation using Aspose.Page empowers you to create visually appealing documents with precision and control. Experiment with different shapes and styles to unleash the full potential of this powerful library.
 ## Frequently Asked Questions
- (FAQs)
+
 ### Is Aspose.Page compatible with different document formats?
 Yes, Aspose.Page supports various document formats, providing versatility in document processing tasks.
 ### Can I use Aspose.Page for Java in my commercial projects?
