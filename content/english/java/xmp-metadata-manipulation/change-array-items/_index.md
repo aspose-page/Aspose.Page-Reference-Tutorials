@@ -65,7 +65,7 @@ try {
 ```
 ## Conclusion
 Congratulations! You've successfully learned how to change array items in XMP using Aspose.Page for Java. This tutorial provided step-by-step guidance, ensuring you can effortlessly enhance your EPS documents with customized metadata.
----
+
 ## FAQs
 ### Can I use Aspose.Page for Java with other programming languages?
 Aspose.Page is primarily designed for Java, but Aspose provides similar libraries for other languages.
