@@ -20,21 +20,6 @@ Start by importing the necessary packages into your Java project. The code snipp
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
-
-// The path to the documents directory.
-String dataDir = "Your Document Directory";
-// Create an input stream for EPS file
-FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
-// Initialize PsDocument object with input stream
-PsDocument doc = new PsDocument(inputEpsStream);
-// Get initial bounding box of EPS image
-int[] initialBoundingBox = doc.extractEpsBoundingBox();
-// Create output stream for PostScript document
-FileOutputStream outputEpsStream = new FileOutputStream(dataDir + "output_crop.eps");
-// Create new bounding box
-float[] newBoundingBox = new float[] { 260, 300, 480, 432 };
-// Crop EPS image and save to the output stream
-doc.cropEps(outputEpsStream, newBoundingBox);
 ```
 Now, let's break down each step of the above code for a clearer understanding.
 ## Step 1: Set Document Directory and Input Stream
