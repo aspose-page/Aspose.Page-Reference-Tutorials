@@ -86,7 +86,7 @@ if (suppressErrors) {
 Now you have successfully converted a PostScript file to PDF using Aspose.Page for Java. Experiment with different options and integrate this functionality into your Java applications effortlessly.
 ## Conclusion
 In this tutorial, we explored the process of converting PostScript files to PDF in Java using Aspose.Page. By following the step-by-step guide, you can seamlessly integrate this functionality into your Java applications, ensuring efficient handling of PostScript documents.
----
+
 ## Frequently Asked Questions
 ### Can I convert multiple PostScript files at once using Aspose.Page for Java?
 Yes, you can loop through a collection of PostScript files and apply the conversion logic to each file individually.
