@@ -3,10 +3,16 @@ title: Setel Masker Opacity di Java XPS
 linktitle: Setel Masker Opacity di Java XPS
 second_title: Aspose.Halaman Java API
 description: Temukan kekuatan pengaturan opacity mask di Java XPS dengan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk pengalaman dokumen yang ditingkatkan secara visual.
-type: docs
 weight: 11
 url: /id/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setel Masker Opacity di Java XPS
+
 ## Perkenalan
 Selamat datang di panduan komprehensif kami tentang pengaturan opacity mask di Java XPS menggunakan Aspose.Page. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan dokumen XPS, menambahkan kanvas, dan menerapkan masker opacity ke persegi panjang menggunakan fitur canggih Aspose.Page untuk Java.
 ## Prasyarat
@@ -67,3 +73,9 @@ Versi uji coba mungkin memiliki beberapa keterbatasan fitur. Dianjurkan untuk me
  Anda dapat mengunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk dukungan komunitas atau membeli lisensi untuk bantuan premium.
 ### Apakah ada jaminan uang kembali untuk Aspose.Page?
  Mengacu kepada[halaman pembelian](https://purchase.aspose.com/buy) untuk informasi tentang kebijakan pengembalian dana.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

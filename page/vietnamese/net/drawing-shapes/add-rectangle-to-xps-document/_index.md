@@ -3,10 +3,16 @@ title: Thêm hình chữ nhật vào tài liệu XPS bằng Aspose.Page for .NET
 linktitle: Thêm hình chữ nhật vào tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Tăng cường việc tạo tài liệu với Aspose.Page cho .NET. Tìm hiểu cách thêm hình chữ nhật vào tài liệu XPS trong hướng dẫn từng bước này.
-type: docs
 weight: 13
 url: /vi/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình chữ nhật vào tài liệu XPS bằng Aspose.Page for .NET
+
 ## Giới thiệu
 
 Aspose.Page for .NET là một thư viện mạnh mẽ cung cấp nhiều tính năng khác nhau để làm việc với tài liệu XPS (Đặc tả giấy XML) trong các ứng dụng .NET. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc thêm hình chữ nhật vào tài liệu XPS bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước này để nâng cao quá trình tạo tài liệu của bạn.
@@ -95,3 +101,9 @@ Câu trả lời 1: Có, Aspose.Page được thiết kế để hoạt động 
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ của cộng đồng hoặc đặt câu hỏi liên quan đến Aspose.Page cho .NET ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

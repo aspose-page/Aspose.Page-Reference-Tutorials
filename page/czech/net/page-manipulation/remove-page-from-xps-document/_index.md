@@ -3,10 +3,16 @@ title: Odebrat stránku z dokumentu XPS pomocí Aspose.Page for .NET
 linktitle: Odebrat stránku z dokumentu XPS
 second_title: Aspose.Page .NET API
 description: Prozkoumejte obsáhlý návod na odstraňování stránek z dokumentů XPS pomocí Aspose.Page for .NET. Naučte se krok za krokem proces, předpoklady a často kladené otázky pro bezproblémovou manipulaci s dokumenty.
-type: docs
 weight: 12
 url: /cs/net/page-manipulation/remove-page-from-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Odebrat stránku z dokumentu XPS pomocí Aspose.Page for .NET
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme proces odebrání stránky z dokumentu XPS pomocí Aspose.Page for .NET. Aspose.Page je výkonná knihovna, která umožňuje vývojářům .NET bezproblémově pracovat s dokumenty XPS (XML Paper Specification). Pokud se ocitnete v situaci, kdy potřebujete odstranit konkrétní stránku z dokumentu XPS, tento podrobný průvodce vás provede celým procesem.
@@ -100,3 +106,9 @@ Odpověď 2: Aspose.Page je pravidelně aktualizována, aby byla zajištěna kom
 ### Q5: Potřebuji dočasnou licenci pro testování Aspose.Page?
 
  A5: Ano, můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

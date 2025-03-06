@@ -3,10 +3,16 @@ title: Drawing Shapes
 linktitle: Drawing Shapes
 second_title: Aspose.Page .NET API
 description: Effortlessly enhance document creation in .NET! Learn step-by-step tutorials on adding circles, ellipses, and rectangles to PostScript (PS) using Aspose.Page .NET.
-type: docs
 weight: 31
 url: /net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drawing Shapes
+
 ## Introductiion
 
 Aspose.Page for .NET empowers developers to elevate document creation in the .NET environment. Dive into our step-by-step tutorials to master the art of adding captivating shapes to PostScript (PS) and XPS documents.
@@ -33,3 +39,9 @@ Enhance XPS documents with vibrant radial gradients using Aspose.Page for .NET. 
 Enhance document creation in .NET with Aspose.Page. Learn to add rectangles to PostScript (PS) files step-by-step.
 ### [Add Rectangle to XPS Document with Aspose.Page for .NET](./add-rectangle-to-xps-document/)
 Enhance document creation with Aspose.Page for .NET. Learn how to add rectangles to XPS documents in this step-by-step tutorial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

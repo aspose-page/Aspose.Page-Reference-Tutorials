@@ -3,10 +3,16 @@ title: Legen Sie die Deckkraftmaske in Java XPS fest
 linktitle: Legen Sie die Deckkraftmaske in Java XPS fest
 second_title: Aspose.Page Java-API
 description: Entdecken Sie mit Aspose.Page die Möglichkeiten des Festlegens von Deckkraftmasken in Java XPS. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für ein visuell verbessertes Dokumentenerlebnis.
-type: docs
 weight: 11
 url: /de/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie die Deckkraftmaske in Java XPS fest
+
 ## Einführung
 Willkommen zu unserem umfassenden Leitfaden zum Festlegen von Deckkraftmasken in Java XPS mit Aspose.Page. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines XPS-Dokuments, des Hinzufügens einer Leinwand und des Anwendens einer Deckkraftmaske auf ein Rechteck mithilfe der leistungsstarken Funktionen von Aspose.Page für Java.
 ## Voraussetzungen
@@ -67,3 +73,9 @@ Die Testversion kann einige Funktionseinschränkungen aufweisen. Es empfiehlt si
  Sie können die besuchen[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) für Community-Support oder erwerben Sie eine Lizenz für Premium-Unterstützung.
 ### Gibt es eine Geld-zurück-Garantie für Aspose.Page?
  Siehe die[Kaufseite](https://purchase.aspose.com/buy) für Informationen zu Rückerstattungsrichtlinien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

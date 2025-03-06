@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Page के साथ XPS दस्ताव
 linktitle: एक्सपीएस दस्तावेज़ बनाएँ
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ निर्माण की दुनिया का अन्वेषण करें। आसानी से इलेक्ट्रॉनिक दस्तावेज़ तैयार करने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 10
 url: /hi/net/document-creation/create-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ बनाएं
+
 ## परिचय
 
 .NET के लिए Aspose.Page का उपयोग करके XPS दस्तावेज़ बनाने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। इस ट्यूटोरियल में, हम XPS फ़ाइलें बनाने की प्रक्रिया का पता लगाएंगे, जो इलेक्ट्रॉनिक दस्तावेज़ों के लिए व्यापक रूप से उपयोग किया जाने वाला प्रारूप है। चाहे आप एक अनुभवी डेवलपर हों या Aspose.Page से शुरुआत कर रहे हों, यह मार्गदर्शिका आपको स्पष्ट उदाहरणों और विस्तृत स्पष्टीकरणों के साथ निर्बाध रूप से XPS दस्तावेज़ बनाने में मदद करने के लिए तैयार की गई है।
@@ -108,3 +114,9 @@ A3: Aspose.Page आपके XPS दस्तावेज़ में छवि
 ### Q5: क्या कोई परीक्षण संस्करण उपलब्ध है?
 
  A5: हां, आप डाउनलोड करके Aspose.Page की विशेषताओं का पता लगा सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

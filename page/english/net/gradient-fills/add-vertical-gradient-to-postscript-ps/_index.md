@@ -3,10 +3,16 @@ title: Add Vertical Gradient to PostScript (PS) with Aspose.Page
 linktitle: Add Vertical Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Learn how to add visually appealing vertical gradients to PostScript (PS) documents in .NET using Aspose.Page. Elevate your document creation with this step-by-step guide.
-type: docs
 weight: 14
 url: /net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Vertical Gradient to PostScript (PS) with Aspose.Page
+
 ## Introduction
 
 In the realm of document manipulation and creation, Aspose.Page for .NET stands out as a powerful tool for developers. This tutorial will guide you through the process of adding a vertical gradient to a PostScript (PS) document using Aspose.Page for .NET. By the end of this guide, you'll have a clear understanding of the necessary steps to achieve this visually appealing effect.
@@ -154,3 +160,10 @@ A4: Yes, you can. Visit [here](https://purchase.aspose.com/buy) to explore licen
 ### Q5: Is there a community forum for Aspose.Page where I can seek help?
 
 A5: Certainly! Head to the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to connect with other developers and get assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

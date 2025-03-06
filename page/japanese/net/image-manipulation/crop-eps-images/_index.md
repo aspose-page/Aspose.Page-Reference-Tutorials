@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して EPS 画像をトリミングする
 linktitle: EPS画像のトリミング
 second_title: Aspose.Page .NET API
 description: Aspose.Page を使用して、.NET での EPS 画像操作のシームレスな世界を探索してください。画像のトリミングやサイズ変更を簡単に行うことができ、素晴らしい結果が得られます。
-type: docs
 weight: 10
 url: /ja/net/image-manipulation/crop-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して EPS 画像をトリミングする
+
 ## 導入
 
 .NET アプリケーションでの EPS 画像の操作に苦労していますか?これ以上探さない！このチュートリアルでは、強力な Aspose.Page for .NET ライブラリを使用して EPS 画像をトリミングするプロセスを説明します。経験豊富な開発者であっても、初心者であっても、このステップバイステップのガイドは、正確な画像トリミングを簡単に実現するのに役立ちます。
@@ -131,3 +137,9 @@ A3: Aspose.Page は、さまざまなサイズの画像を処理できるよう�
 ### Q5: Aspose.Page for .NET の詳細なドキュメントはどこで見つけられますか?
 
  A5: ドキュメントを参照してください。[ここ](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

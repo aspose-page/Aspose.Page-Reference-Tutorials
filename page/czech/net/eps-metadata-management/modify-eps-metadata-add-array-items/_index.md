@@ -3,10 +3,16 @@ title: Přidejte položky pole pomocí Aspose.Page
 linktitle: Přidat položky pole
 second_title: Aspose.Page .NET API
 description: Prozkoumejte, jak přidat položky pole do souborů EPS pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou manipulaci s dokumenty.
-type: docs
 weight: 11
 url: /cs/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte položky pole pomocí Aspose.Page
+
 ## Úvod
 
 oblasti manipulace a zpracování dokumentů v .NET vyniká Aspose.Page jako mocný nástroj. Mezi jeho mnoha funkcemi je běžným požadavkem manipulace s položkami pole v souboru EPS. V tomto tutoriálu prozkoumáme krok za krokem proces přidávání položek pole pomocí Aspose.Page v prostředí .NET. Ať už jste ostřílený vývojář nebo nováček, tento průvodce vás procesem provede s jasností a přesností.
@@ -119,3 +125,9 @@ A4: Pro diskuse a podporu komunity navštivte stránku[Fórum Aspose.Page](https
 ### Q5: Jaká je nejnovější verze Aspose.Page pro .NET?
 
  A5: Chcete-li získat přístup k nejnovější verzi Aspose.Page pro .NET, podívejte se na[dokumentace](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

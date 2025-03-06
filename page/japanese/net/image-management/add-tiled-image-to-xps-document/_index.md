@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用してタイル化されたイメージを 
 linktitle: タイル化された画像を XPS ドキュメントに追加
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して、タイル化された画像を XPS ドキュメントに簡単に追加してみましょう。視覚的な魅力を高め、魅力的なドキュメントを作成します。
-type: docs
 weight: 12
 url: /ja/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用してタイル化されたイメージを XPS ドキュメントに追加する
+
 ## 導入
 
 視覚的に魅力的なタイル画像を追加して、XPS ドキュメントを強化したいと考えていますか? Aspose.Page for .NET は、開発者がこれをシームレスに実現できるようにします。このステップバイステップ ガイドでは、Aspose.Page for .NET を使用してタイル イメージを XPS ドキュメントに追加するプロセスを説明します。
@@ -95,3 +101,9 @@ A2: 確かに、例で示したように、塗りつぶされた四角形の不�
 ### Q5: どこで助けを求めたり、Aspose.Page コミュニティに連絡したりできますか?
 
  A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティに参加し、質問し、解決策を見つけるために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

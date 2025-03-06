@@ -3,10 +3,16 @@ title: 在 Java PostScript 中添加对角渐变
 linktitle: 在 Java PostScript 中添加对角渐变
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 通过对角渐变增强 Java PostScript 文档。按照我们的分步指南轻松添加鲜艳的色彩过渡。
-type: docs
 weight: 10
 url: /zh/java/postscript-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PostScript 中添加对角渐变
+
 ## 介绍
 欢迎阅读我们有关使用 Aspose.Page for Java 在 Java PostScript 中添加对角渐变的分步指南。在本教程中，我们将引导您完成整个过程，将每个示例分解为多个步骤。作为一名熟练的 SEO 作家，我将确保内容不仅内容丰富，而且针对搜索引擎进行了优化，使开发人员和爱好者能够轻松跟进。
 ## 先决条件
@@ -95,3 +101,9 @@ document.save();
 答：您可以购买许可证[这里](https://purchase.aspose.com/buy).
 ### 问：需要帮助或有疑问吗？
 答：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

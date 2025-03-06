@@ -3,10 +3,16 @@ title: Recadrer des images EPS avec Aspose.Page pour .NET
 linktitle: Recadrer Images EPS
 second_title: API Aspose.Page .NET
 description: Explorez le monde transparent de la manipulation d'images EPS dans .NET avec Aspose.Page. Recadrez et redimensionnez les images sans effort pour des résultats époustouflants.
-type: docs
 weight: 10
 url: /fr/net/image-manipulation/crop-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrer des images EPS avec Aspose.Page pour .NET
+
 ## Introduction
 
 Avez-vous du mal à manipuler des images EPS dans vos applications .NET ? Cherchez pas plus loin! Dans ce didacticiel, nous vous guiderons tout au long du processus de recadrage d'images EPS à l'aide de la puissante bibliothèque Aspose.Page pour .NET. Que vous soyez un développeur chevronné ou tout juste débutant, ce guide étape par étape vous aidera à réaliser un recadrage d'image précis sans effort.
@@ -131,3 +137,9 @@ A3 : Aspose.Page est conçu pour gérer des images de différentes tailles. Cepe
 ### Q5 : Où puis-je trouver une documentation détaillée pour Aspose.Page pour .NET ?
 
  A5 : Reportez-vous à la documentation[ici](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

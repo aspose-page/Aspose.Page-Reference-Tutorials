@@ -3,10 +3,16 @@ title: التلاعب بالقماش
 linktitle: التلاعب بالقماش
 second_title: Aspose.Page .NET API
 description: استكشف Aspose.Page للحصول على دروس .NET حول معالجة اللوحة القماشية. أصبح قص وتحويل مستندات PS وXPS أمرًا سهلاً. تعزيز مهارات معالجة المستندات الخاصة بك.
-type: docs
 weight: 21
 url: /ar/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب بالقماش
+
 
 ## مقدمة
 
@@ -42,3 +48,9 @@ url: /ar/net/canvas-manipulation/
 أطلق العنان لإمكانات Aspose.Page لـ .NET باستخدام هذا الدليل الشامل حول تحويلات PostScript. قم بإنشاء رسومات ديناميكية دون عناء.
 ### [تحويلات XPS مع Aspose.Page لـ .NET](./transformationsxps/)
 قم بتحويل مستندات XPS بسهولة باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة لإجراء تحويلات سلسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

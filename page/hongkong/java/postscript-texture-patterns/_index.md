@@ -3,10 +3,16 @@ title: 紋理和圖案 - PostScript
 linktitle: 紋理和圖案 - PostScript
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 提升 PostScript。在我們詳細的 Java PostScript 教學中無縫添加紋理平鋪圖案，以實現創造性的可能性。
-type: docs
 weight: 38
 url: /zh-hant/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 紋理和圖案 - PostScript
+
 ## 介紹
 
 您準備好將您的 PostScript 文件提升到新的創意高度了嗎？ Aspose.Page for Java 是將紋理平鋪模式無縫整合到專案中的入口網站。在本綜合指南中，我們將深入研究紋理和圖案的世界，釋放 Java PostScript 的全部潛力。
@@ -45,3 +51,9 @@ Aspose.Page for Java 的設計考慮到了簡單性。即使您不熟悉在 Post
 ## 紋理和圖案 - PostScript 教學課程
 ### [在 Java PostScript 中加入紋理平鋪模式](./add-texture-tiling-pattern/)
 使用 Aspose.Page for Java 輕鬆地將紋理平鋪圖案新增至 PostScript 文件。探索我們的無縫整合指南，以實現創造性的可能性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

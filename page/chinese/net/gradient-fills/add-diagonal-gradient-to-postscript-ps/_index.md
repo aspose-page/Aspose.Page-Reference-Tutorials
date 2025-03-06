@@ -3,10 +3,16 @@ title: 使用 Aspose.Page .NET 将对角渐变添加到 PostScript (PS)
 linktitle: 将对角线渐变添加到 PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 探索使用 Aspose.Page 在 .NET 中向 PostScript 文档添加对角渐变的简单性。使用动态视觉元素提升您的项目。
-type: docs
 weight: 10
 url: /zh/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page .NET 将对角渐变添加到 PostScript (PS)
+
 ## 介绍
 
 向 PostScript (PS) 文档添加对角渐变可以为您的项目带来视觉吸引力和创造力。 Aspose.Page for .NET 提供了一个将此功能集成到您的应用程序中的无缝解决方案。在本教程中，我们将指导您逐步完成使用 Aspose.Page 将对角渐变添加到 PS 文档的过程。
@@ -162,3 +168,9 @@ A2：是的，Aspose.Page 提供了根据您的项目要求灵活选择和自定
 ### Q5：在哪里可以找到 Aspose.Page 的社区支持？
 
  A5：与 Aspose.Page 社区互动[论坛](https://forum.aspose.com/c/page/39)寻求帮助和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hatch Patterns - PostScript
 linktitle: Hatch Patterns - PostScript
 second_title: Aspose.Page Java API
 description: Upptäck konsten att lägga till fängslande kläckmönster till Java PostScript-dokument med Aspose.Page. Höj visuellt innehåll utan ansträngning för en fantastisk produktion.
-type: docs
 weight: 27
 url: /sv/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hatch Patterns - PostScript
+
 ## Introduktion
 
 Att skapa visuellt tilltalande Java PostScript-dokument blir en bris med Aspose.Page. I den här handledningen fördjupar vi oss i den fascinerande världen av kläckmönster, och utforskar hur du kan förbättra ditt visuella innehåll utan ansträngning.
@@ -30,3 +36,9 @@ Oavsett om du är en erfaren utvecklare eller en nykomling i Java PostScript, ge
 ## Hatch Patterns - PostScript-handledningar
 ### [Lägg till Hatch Pattern i Java PostScript](./add-hatch-pattern/)
 Lär dig hur du lägger till fängslande kläckmönster till Java PostScript-dokument med Aspose.Page. Höj ditt visuella innehåll utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

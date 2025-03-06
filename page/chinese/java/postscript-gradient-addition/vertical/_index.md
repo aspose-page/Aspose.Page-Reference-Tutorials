@@ -3,10 +3,16 @@ title: 在 Java PostScript 中添加垂直渐变
 linktitle: 在 Java PostScript 中添加垂直渐变
 second_title: Aspose.Page Java API
 description: 探索使用 Aspose.Page for Java 在 Java PostScript 中添加垂直渐变的分步指南。通过充满活力的视觉效果轻松增强您的文档。
-type: docs
 weight: 14
 url: /zh/java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PostScript 中添加垂直渐变
+
 ## 介绍
 欢迎阅读本分步指南，了解如何使用 Aspose.Page for Java 在 Java PostScript 中添加垂直渐变。如果您想通过引人注目的渐变来增强您的文档，本教程适合您。 Aspose.Page for Java 提供了强大的工具来无缝操作 PostScript 文档。
 ## 先决条件
@@ -101,3 +107,9 @@ document.save();
 您可以购买 Aspose.Page for Java[这里](https://purchase.aspose.com/buy).
 ### 有 Aspose.Page 讨论的论坛吗？
 是的，您可以加入社区论坛[这里](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

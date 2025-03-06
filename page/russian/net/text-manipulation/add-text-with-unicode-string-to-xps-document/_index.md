@@ -3,10 +3,16 @@ title: Добавьте текст со строкой Unicode в докумен
 linktitle: Добавить текст со строкой Юникода в документ XPS
 second_title: Aspose.Page .NET API
 description: Изучите возможности Aspose.Page для .NET с помощью нашего пошагового руководства по добавлению текста Unicode в документы XPS.
-type: docs
 weight: 12
 url: /ru/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте текст со строкой Unicode в документ XPS с помощью Aspose.Page
+
 ## Введение
 
 В постоянно развивающемся мире разработки .NET Aspose.Page выделяется как мощный инструмент для работы с документами XPS. Среди множества функций ценной функцией является возможность добавлять текст со строками Юникода в документ XPS. Это пошаговое руководство проведет вас через весь процесс и позволит эффективно использовать эту возможность.
@@ -88,3 +94,9 @@ doc.Save(dataDir + "AddTextRTL_out.xps");
 ### В5: Доступна ли пробная версия перед покупкой?
 
  А5: Конечно! Вы можете получить доступ к бесплатной пробной версии[здесь](https://releases.aspose.com/) прежде чем совершить покупку.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

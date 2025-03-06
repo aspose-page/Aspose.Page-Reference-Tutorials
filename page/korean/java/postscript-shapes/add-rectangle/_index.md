@@ -3,10 +3,16 @@ title: Java PostScript 사용자 정의 - Aspose.Page를 사용하여 직사각�
 linktitle: Java PostScript에 직사각형 추가
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 Java PostScript 문서에 생생한 직사각형을 추가하는 방법에 대한 단계별 가이드를 살펴보세요. 손쉽게 문서 사용자 정의를 강화하세요!
-type: docs
 weight: 11
 url: /ko/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript 사용자 정의 - Aspose.Page를 사용하여 직사각형 추가
+
 ## 소개
 생생한 직사각형으로 Java PostScript 문서를 향상시키고 싶으십니까? 더 이상 보지 마세요! 이 단계별 가이드에서는 Java용 Aspose.Page를 사용하여 PostScript 문서에 직사각형을 추가하는 방법을 살펴보겠습니다. Aspose.Page는 PostScript 파일 작업을 위한 강력한 기능을 제공하는 강력한 라이브러리로, 문서를 조작하고 사용자 정의하려는 개발자에게 이상적인 선택입니다.
 ## 전제 조건
@@ -72,3 +78,9 @@ Aspose.Page는 주로 Java를 지원하지만 다른 언어에도 유사한 라�
  임시 라이센스 받기[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Page 라이선스 버전을 어디에서 구입할 수 있나요?
  라이선스 버전 구매[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

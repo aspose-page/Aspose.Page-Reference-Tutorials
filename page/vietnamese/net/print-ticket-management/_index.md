@@ -3,10 +3,16 @@ title: Quản lý vé in
 linktitle: Quản lý vé in
 second_title: API Aspose.Page .NET
 description: Tạo và chỉnh sửa vé in tùy chỉnh bằng Aspose.Page cho .NET. Điều chỉnh trải nghiệm in ấn của bạn một cách dễ dàng với khả năng kiểm soát chi tiết trong tài liệu XPS.
-type: docs
 weight: 30
 url: /vi/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý vé in
+
 
 ## Giới thiệu
 
@@ -34,3 +40,9 @@ Tóm lại, loạt bài hướng dẫn này là tài liệu phải đọc dành 
 Khám phá hướng dẫn từng bước về cách tạo vé in tùy chỉnh bằng Aspose.Page cho .NET. Điều chỉnh trải nghiệm in ấn của bạn với khả năng kiểm soát chi tiết.
 ### [Chỉnh sửa phiếu in hiện có bằng Aspose.Page cho .NET](./print-ticket-management/aspose.page/)
 Tìm hiểu cách chỉnh sửa phiếu in trong tài liệu XPS bằng Aspose.Page cho .NET. Hướng dẫn từng bước dành cho nhà phát triển. Tăng cường kiểm soát in tài liệu một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java XPS 中添加水平渐变
 linktitle: 在 Java XPS 中添加水平渐变
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page 在 Java 中向 XPS 文档添加令人惊叹的水平渐变。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 11
 url: /zh/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java XPS 中添加水平渐变
+
 ## 介绍
 欢迎阅读本分步指南，了解如何使用 Aspose.Page for Java 在 Java XPS 中添加水平渐变。 Aspose.Page for Java 是一个功能强大的库，允许开发人员无缝地处理 XPS（XML 纸张规范）文档。
 在本教程中，我们将引导您完成创建 Java 应用程序以向 XPS 文档添加水平渐变的过程。请按照以下步骤轻松实现此目的。
@@ -70,3 +76,9 @@ Aspose.Page for Java 会定期更新，以确保与最新 Java 版本的兼容�
 绝对地！您可以完全控制每个渐变停止点的颜色和位置。
 ### 问：Aspose.Page 是否有社区论坛可供我寻求帮助？
 是的，您可以访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)与社区联系并获得帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

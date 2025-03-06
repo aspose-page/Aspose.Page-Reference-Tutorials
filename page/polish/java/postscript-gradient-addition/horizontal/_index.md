@@ -3,10 +3,16 @@ title: Dodaj gradient poziomy w języku Java PostScript
 linktitle: Dodaj gradient poziomy w języku Java PostScript
 second_title: Aspose.Page API Java
 description: Dowiedz się, jak dodać gradient poziomy w Java PostScript za pomocą Aspose.Page dla Java. Twórz oszałamiające wizualnie dokumenty bez wysiłku.
-type: docs
 weight: 11
 url: /pl/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj gradient poziomy w języku Java PostScript
+
 ## Wstęp
 Witamy w tym kompleksowym samouczku na temat dodawania gradientu poziomego w Java PostScript przy użyciu Aspose.Page dla Java. Aspose.Page to potężna biblioteka Java, która umożliwia programistom pracę z PostScriptem i innymi formatami dokumentów. W tym samouczku przeprowadzimy Cię przez proces tworzenia dokumentu PostScript z poziomym gradientem, korzystając z przykładów krok po kroku.
 ## Warunki wstępne
@@ -82,3 +88,9 @@ Tak, Aspose.Page dla Java może być używany w projektach komercyjnych. Aby uzy
  Licencję tymczasową można uzyskać od[Złóż. Kup](https://purchase.aspose.com/temporary-license/).
 ### Jakie są wymagania systemowe Aspose.Page dla Java?
  Patrz[dokumentacja](https://reference.aspose.com/page/java/) szczegółowe wymagania systemowe.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

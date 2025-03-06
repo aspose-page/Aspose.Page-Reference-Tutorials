@@ -3,10 +3,16 @@ title: Λάβετε Μεταδεδομένα από XMP χρησιμοποιών
 linktitle: Λάβετε Μεταδεδομένα από XMP χρησιμοποιώντας Java
 second_title: Aspose.Page Java API
 description: Ξεκλειδώστε τη δύναμη του Aspose.Page για Java για την εύκολη εξαγωγή μεταδεδομένων XMP. Βελτιώστε την ανάλυση εγγράφων με τον βήμα προς βήμα οδηγό μας!
-type: docs
 weight: 18
 url: /el/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε Μεταδεδομένα από XMP χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Καλώς ήρθατε στον αναλυτικό οδηγό μας σχετικά με τη χρήση του Aspose.Page για Java για την εξαγωγή μεταδεδομένων από αρχεία XMP. Το XMP (Extensible Metadata Platform) παρέχει έναν τυποποιημένο τρόπο αποθήκευσης μεταδεδομένων σε αρχεία. Αυτό το σεμινάριο εστιάζει στην ανάκτηση βασικών πληροφοριών από το XMP χρησιμοποιώντας Java, προσφέροντας πληροφορίες για τις λεπτομέρειες του εγγράφου.
 ## Προαπαιτούμενα
@@ -81,3 +87,9 @@ if (xmp.containsKey("xmpMM:DocumentID"))
  Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Υπάρχουν πρόσθετοι πόροι για το Aspose.Page για Java;
  Εξερευνήστε το πλήρες[τεκμηρίωση](https://reference.aspose.com/page/java/) και κατεβάστε τη βιβλιοθήκη[εδώ](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

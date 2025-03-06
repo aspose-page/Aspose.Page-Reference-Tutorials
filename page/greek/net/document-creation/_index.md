@@ -3,10 +3,16 @@ title: Δημιουργία Εγγράφου
 linktitle: Δημιουργία Εγγράφου
 second_title: Aspose.Page .NET API
 description: Δημιουργήστε εκπληκτικά έγγραφα XPS και PostScript χωρίς κόπο με το Aspose.Page για .NET. Εξερευνήστε μαθήματα δημιουργίας και τροποποίησης εγγράφων για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 23
 url: /el/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία Εγγράφου
+
 ## Εισαγωγή
 
 Το Aspose.Page για .NET ανοίγει την πόρτα σε έναν κόσμο δυνατοτήτων στη δημιουργία ηλεκτρονικών εγγράφων. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, ο αναλυτικός οδηγός μας θα σας βοηθήσει να δημιουργήσετε αβίαστα έγγραφα XPS και PostScript.
@@ -36,3 +42,9 @@ url: /el/net/document-creation/
 Μάθετε πώς να δημιουργείτε έγγραφα PostScript στο .NET χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση. Κατεβάστε τη βιβλιοθήκη και αρχίστε να χειρίζεστε τα αρχεία PostScript χωρίς κόπο.
 ### [Τροποποίηση εγγράφου XPS με το Aspose.Page για .NET](./modify-xps-document/)
 Εξερευνήστε τη δύναμη του Aspose.Page για .NET για να τροποποιείτε εύκολα έγγραφα XPS. Ακολουθήστε τον βήμα προς βήμα οδηγό μας, βελτιώστε την επεξεργασία των εγγράφων σας και προσθέστε εξατομικευμένα κείμενα υπογραφής.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

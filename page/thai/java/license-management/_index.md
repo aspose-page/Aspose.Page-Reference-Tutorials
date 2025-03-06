@@ -3,10 +3,16 @@ title: การจัดการใบอนุญาต
 linktitle: การจัดการใบอนุญาต
 second_title: Aspose.Page Java API
 description: ปลดล็อกศักยภาพทั้งหมดของ Aspose.Page สำหรับ Java ด้วยบทช่วยสอนการจัดการใบอนุญาตของเรา ตั้งค่าใบอนุญาตแบบคิดค่าบริการตามปริมาณข้อมูลได้อย่างราบรื่นเพื่อเพิ่มความสามารถในการประมวลผลเอกสาร
-type: docs
 weight: 30
 url: /th/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการใบอนุญาต
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนการจัดการใบอนุญาตสำหรับ Aspose.Page ใน Java! ในคู่มือที่ครอบคลุมนี้ เราจะเจาะลึกความซับซ้อนของการตั้งค่าใบอนุญาตแบบคิดค่าบริการตามปริมาณข้อมูลเพื่อเพิ่มประสิทธิภาพความสามารถในการประมวลผลเอกสารของคุณ มาร่วมเดินทางเพื่อปลดล็อกศักยภาพทั้งหมดของ Aspose.Page เพื่อให้มั่นใจว่าสามารถทำงานร่วมกับ Java ได้อย่างราบรื่น
@@ -39,3 +45,9 @@ url: /th/java/license-management/
 ## บทช่วยสอนการจัดการใบอนุญาต
 ### [ตั้งค่าใบอนุญาตแบบมิเตอร์ใน Java](./set-metered-license/)
 สำรวจการผสานรวม Aspose.Page กับ Java ได้อย่างราบรื่น ตั้งค่าใบอนุญาตแบบมิเตอร์ได้อย่างง่ายดายและเพิ่มความสามารถในการประมวลผลเอกสารของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulace s plátnem
 linktitle: Manipulace s plátnem
 second_title: Aspose.Page .NET API
 description: Prozkoumejte výukové programy Aspose.Page for .NET o manipulaci s plátnem. Snadné ořezávání a transformace dokumentů PS a XPS. Vylepšete své dovednosti ve zpracování dokumentů.
-type: docs
 weight: 21
 url: /cs/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s plátnem
+
 
 ## Úvod
 
@@ -42,3 +48,9 @@ Prozkoumejte sílu Aspose.Page for .NET v tomto podrobném průvodci ořezáván
 Odemkněte potenciál Aspose.Page for .NET s tímto komplexním průvodcem postscriptovými transformacemi. Vytvářejte dynamickou grafiku bez námahy.
 ### [Transformace XPS s Aspose.Page pro .NET](./transformationsxps/)
 Transformujte dokumenty XPS bez námahy pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémové transformace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 将圆椭圆添加到 PostScript (PS)
 linktitle: 将圆椭圆添加到 PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page for .NET 轻松地将圆形椭圆添加到 PostScript (PS) 文档中。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 10
 url: /zh/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 将圆椭圆添加到 PostScript (PS)
+
 ## 介绍
 
 欢迎来到这个关于使用 Aspose.Page for .NET 将圆椭圆添加到 PostScript (PS) 文档的综合教程。 Aspose.Page 是一个功能强大的库，允许开发人员无缝地使用 PostScript 和其他文档格式。在本指南中，我们将引导您轻松完成将圆形椭圆合并到 PS 文档中的过程。
@@ -145,3 +151,9 @@ document.Save();
 ### Q5：哪里可以购买 Aspose.Page for .NET？
 
  A5：从以下位置购买 Aspose.Page for .NET[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Visuelle Pinsel
 linktitle: Visuelle Pinsel
 second_title: Aspose.Page .NET-API
 description: Verbessern Sie Ihre Dokumentverarbeitung in .NET mit Aspose.Page-Tutorials. Tauchen Sie ein in das Reich der visuellen Pinsel und beherrschen Sie Techniken für visuell beeindruckende Dokumente.
-type: docs
 weight: 35
 url: /de/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visuelle Pinsel
+
 
 ## Einführung
 
@@ -36,3 +42,9 @@ Denken Sie daran: Die Macht, Ihre Dokumente zu transformieren, liegt in Ihren H�
 ## Visuelle Pinsel-Tutorials
 ### [Wenden Sie Grid Visual Brush mit Aspose.Page für .NET an](./apply-grid-visual-brush/)
 Entdecken Sie die dynamische Welt der Dokumentverarbeitung in .NET mit Aspose.Page. Erfahren Sie, wie Sie einen Grid Visual Brush für visuell beeindruckende Dokumente anwenden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθέστε Horizontal Gradient στο XPS με το Aspose.Page �
 linktitle: Προσθήκη Horizontal Gradient στο XPS
 second_title: Aspose.Page .NET API
 description: Μάθετε πώς να προσθέτετε εκπληκτικές οριζόντιες διαβαθμίσεις στα έγγραφά σας XPS χρησιμοποιώντας το Aspose.Page για .NET. Αυξήστε την οπτική απήχηση χωρίς κόπο.
-type: docs
 weight: 13
 url: /el/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε Horizontal Gradient στο XPS με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να βελτιώσετε έγγραφα XPS προσθέτοντας μια οριζόντια κλίση χρησιμοποιώντας το Aspose.Page για .NET. Το Aspose.Page για .NET είναι μια ισχυρή βιβλιοθήκη που παρέχει απρόσκοπτη διαχείριση εγγράφων XPS (XML Paper Specification) σε εφαρμογές .NET. Η προσθήκη διαβαθμίσεων μπορεί να προσελκύσει οπτικά τα έγγραφά σας και αυτός ο οδηγός θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα.
@@ -113,3 +119,9 @@ doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Page για .NET;
 
  A5: Μπορείτε να αποκτήσετε προσωρινή άδεια από[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

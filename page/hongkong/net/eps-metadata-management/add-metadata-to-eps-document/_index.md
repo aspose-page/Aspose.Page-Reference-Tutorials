@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將元資料新增至 EPS 文檔
 linktitle: 將元資料新增至 EPS 文檔
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 增強 EPS 文件組織。輕鬆添加元資料以提高可存取性和資訊檢索。
-type: docs
 weight: 10
 url: /zh-hant/net/eps-metadata-management/add-metadata-to-eps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將元資料新增至 EPS 文檔
+
 ## 介紹
 
 在不斷發展的數位文件領域，元資料在提供有關內容、其來源和其他基本細節的資訊方面發揮著至關重要的作用。 Aspose.Page for .NET 使開發人員能夠將元資料無縫添加到 EPS（封裝 PostScript）文件中，從而增強其可存取性和實用性。
@@ -146,3 +152,9 @@ A4：是的，Aspose.Page for .NET 可以根據應用程式的需求靈活地自
 ### Q5：元資料新增過程中出現錯誤如何處理？
 
 A5：確保程式碼中進行正確的異常處理，以解決元資料提取和添加過程中的任何潛在錯誤。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

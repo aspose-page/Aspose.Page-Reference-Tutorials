@@ -3,10 +3,16 @@ title: Távolítsa el az oldalt az XPS-dokumentumból az Aspose.Page for .NET se
 linktitle: Távolítsa el az oldalt az XPS-dokumentumból
 second_title: Aspose.Page .NET API
 description: Fedezze fel az átfogó oktatóanyagot az XPS-dokumentumok oldalainak eltávolításáról az Aspose.Page for .NET használatával. Ismerje meg a zökkenőmentes dokumentumkezelés lépésenkénti folyamatát, előfeltételeit és GYIK-eit.
-type: docs
 weight: 12
 url: /hu/net/page-manipulation/remove-page-from-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Távolítsa el az oldalt az XPS-dokumentumból az Aspose.Page for .NET segítségével
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az Aspose.Page for .NET segítségével történő eltávolításának folyamatát vizsgáljuk meg egy XPS-dokumentumból. Az Aspose.Page egy hatékony könyvtár, amely lehetővé teszi a .NET fejlesztők számára, hogy zökkenőmentesen dolgozzanak XPS (XML Paper Specification) dokumentumokkal. Ha olyan helyzetbe kerül, hogy egy adott oldalt el kell távolítania az XPS-dokumentumból, ez a lépésről lépésre végigvezeti a folyamaton.
@@ -100,3 +106,9 @@ V1: Igen, módosíthatja a kódot több oldal eltávolításához a`RemovePageAt
 ### 5. kérdés: Szükségem van ideiglenes licencre az Aspose.Page teszteléséhez?
 
  V5: Igen, beszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

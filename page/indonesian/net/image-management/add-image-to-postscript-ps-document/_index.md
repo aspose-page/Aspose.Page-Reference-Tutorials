@@ -3,10 +3,16 @@ title: Tambahkan Gambar ke Dokumen PostScript (PS) dengan Aspose.Page
 linktitle: Tambahkan Gambar ke Dokumen PostScript (PS).
 second_title: Aspose.Halaman .NET API
 description: Pelajari cara menyempurnakan dokumen PostScript Anda dengan menambahkan gambar menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman yang lancar.
-type: docs
 weight: 10
 url: /id/net/image-management/add-image-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gambar ke Dokumen PostScript (PS) dengan Aspose.Page
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan menjelajahi proses menambahkan gambar ke dokumen PostScript (PS) menggunakan pustaka Aspose.Page for .NET yang canggih. Aspose.Page menyederhanakan manipulasi dokumen PS, menawarkan cara yang efisien dan mudah untuk menyempurnakan dokumen Anda dengan gambar. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, memastikan Anda memahami setiap konsep secara menyeluruh.
@@ -122,3 +128,9 @@ A4: Ya, Aspose.Page memungkinkan Anda menerapkan berbagai transformasi dan efek 
 ### Q5: Bagaimana cara mengekstrak gambar dari dokumen PS?
 
 A5: Aspose.Page untuk .NET menyediakan metode untuk mengekstrak gambar dari dokumen PS. Lihat dokumentasi untuk informasi rinci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

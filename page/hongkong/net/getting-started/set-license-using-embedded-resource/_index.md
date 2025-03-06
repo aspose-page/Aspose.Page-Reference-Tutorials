@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 的嵌入式資源設定許可證
 linktitle: 使用嵌入式資源設定許可證
 second_title: Aspose.Page .NET API
 description: 了解如何透過 Aspose.Page for .NET 使用嵌入式資源設定授權。確保合規性並釋放文件處理的全部潛力。
-type: docs
 weight: 14
 url: /zh-hant/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 的嵌入式資源設定許可證
+
 ## 介紹
 
 Aspose.Page for .NET 是一個功能強大的程式庫，可讓開發人員無縫地處理各種文件格式。在本教學中，我們將引導您完成使用 Aspose.Page for .NET 的嵌入式資源設定授權的流程。許可是充分利用 Aspose.Page 功能、確保合規性並釋放庫潛力的關鍵一步。
@@ -110,3 +116,9 @@ A1：雖然您可以在沒有許可證的情況下使用 Aspose.Page，但建議
 ### Q5：哪裡可以購買 Aspose.Page for .NET？
 
 A5：您可以購買Aspose.Page[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

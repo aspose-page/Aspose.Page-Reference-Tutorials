@@ -3,10 +3,16 @@ title: Java での EPS 操作
 linktitle: Java での EPS 操作
 second_title: Aspose.Page Java API
 description: EPS 操作に関するチュートリアルで、Aspose.Page for Java を探索してください。ステップバイステップのガイドに従って、EPS ファイルのトリミングとサイズ変更を簡単に行うことができ、ドキュメントのスキルを向上させます。
-type: docs
 weight: 24
 url: /ja/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java での EPS 操作
+
 
 ## 導入
 
@@ -42,3 +48,9 @@ Aspose.Page を使用すると、Java での EPS ファイルのサイズ変更�
 Aspose.Page を使用して Java で EPS ファイルをトリミングするためのステップバイステップ ガイドをご覧ください。文書操作スキルを簡単に向上させます。 
 ### [JavaでEPSファイルのサイズを変更する](./resize/)
 Aspose.Page for Java を使用して Java で EPS ファイルのサイズを簡単に変更する方法を学びましょう。段階的な手順については、包括的なガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

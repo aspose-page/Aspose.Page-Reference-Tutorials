@@ -3,10 +3,16 @@ title: Modifica il documento XPS con Aspose.Page per .NET
 linktitle: Modifica documento XPS
 second_title: API Aspose.Page .NET
 description: Esplora la potenza di Aspose.Page per .NET per modificare facilmente i documenti XPS. Segui la nostra guida passo passo, migliora l'elaborazione dei tuoi documenti e aggiungi testi di firma personalizzati.
-type: docs
 weight: 12
 url: /it/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica il documento XPS con Aspose.Page per .NET
+
 ## introduzione
 
 Benvenuti nella nostra guida passo passo su come modificare i documenti XPS utilizzando Aspose.Page per .NET. Aspose.Page è una potente libreria che consente agli sviluppatori di lavorare con i file XPS senza sforzo. In questo tutorial ti guideremo attraverso il processo di aggiunta del testo della firma, "Confermato", alle pagine specificate in un documento XPS.
@@ -119,3 +125,9 @@ A3: Aspose.Page è progettato per gestire documenti di varie dimensioni, ma è s
 ### Q5: Dove posso cercare aiuto o connettermi con la comunità Aspose?
 
  A5: Visita il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) porre domande e interagire con la comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

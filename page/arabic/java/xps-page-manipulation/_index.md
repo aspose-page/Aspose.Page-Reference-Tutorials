@@ -3,10 +3,16 @@ title: معالجة الصفحة - XPS
 linktitle: معالجة الصفحة - XPS
 second_title: Aspose.Page جافا API
 description: اكتشف قوة Aspose.Page لـ Java من خلال برامجنا التعليمية. ارفع مستوى مستندات Java XPS الخاصة بك عن طريق إضافة صفحات بسهولة لتحسين وظائف التطبيق.
-type: docs
 weight: 33
 url: /ar/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة الصفحة - XPS
+
 
 ## مقدمة
 
@@ -36,3 +42,9 @@ url: /ar/java/xps-page-manipulation/
 ## معالجة الصفحة - دروس XPS
 ### [إضافة صفحة في Java XPS](./add-page/)
 ارفع مستوى مستندات Java XPS باستخدام Aspose.Page. تعلم كيفية إضافة صفحات بسهولة لتحسين وظائف التطبيق. الغوص في البرنامج التعليمي الآن!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

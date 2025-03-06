@@ -3,10 +3,16 @@ title: Manipulação de EPS em Java
 linktitle: Manipulação de EPS em Java
 second_title: API Java Aspose.Page
 description: Explore Aspose.Page para Java com nossos tutoriais sobre manipulação de EPS. Corte e redimensione arquivos EPS sem esforço com guias passo a passo, aprimorando suas habilidades documentais.
-type: docs
 weight: 24
 url: /pt/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de EPS em Java
+
 
 ## introdução
 
@@ -42,3 +48,9 @@ Concluindo, os tutoriais Aspose.Page para Java sobre manipulação de EPS oferec
 Explore um guia passo a passo sobre como cortar arquivos EPS em Java usando Aspose.Page. Aprimore suas habilidades de manipulação de documentos sem esforço. 
 ### [Redimensionar arquivo EPS em Java](./resize/)
 Aprenda como redimensionar arquivos EPS em Java sem esforço com Aspose.Page for Java. Siga nosso guia completo para obter instruções passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

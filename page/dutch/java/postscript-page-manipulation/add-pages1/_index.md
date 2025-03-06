@@ -3,10 +3,16 @@ title: Java PostScript-pagina's - Een naadloze handleiding met Aspose.Page
 linktitle: Java PostScript-pagina's
 second_title: Aspose.Page Java-API
 description: Ontdek hoe u moeiteloos pagina's in Java PostScript kunt toevoegen met Aspose.Page. Verbeter uw documentcreatie met deze krachtige Java-bibliotheek.
-type: docs
 weight: 10
 url: /nl/java/postscript-page-manipulation/add-pages1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript-pagina's - Een naadloze handleiding met Aspose.Page
+
 ## Invoering
 Welkom bij onze uitgebreide handleiding over het toevoegen van pagina's in Java PostScript met behulp van Aspose.Page. In deze zelfstudie leiden we u door het proces van het toevoegen van pagina's aan een PostScript-document met behulp van Aspose.Page voor Java. Aspose.Page is een krachtige Java-bibliotheek die een breed scala aan functies biedt voor het werken met PostScript-documenten, waardoor het een favoriete keuze is voor ontwikkelaars.
 ## Vereisten
@@ -68,3 +74,9 @@ Ja, Aspose.Page wordt geleverd met flexibele licentieopties die geschikt zijn vo
 Aspose.Page legt geen strikte beperkingen op aan het aantal pagina's dat u kunt toevoegen, waardoor het geschikt is voor projecten van verschillende schaalgroottes.
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Page krijgen?
  U kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

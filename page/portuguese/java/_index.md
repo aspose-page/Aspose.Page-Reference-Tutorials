@@ -1,12 +1,17 @@
 ---
 title: Tutoriais abrangentes e exemplos de Aspose.Page para Java
 linktitle: Aspose.Page para tutoriais Java
-type: docs
 weight: 10
 url: /pt/java/
 description: Desvende os segredos da manipulação de páginas Java com os tutoriais Aspose.Page. Mergulhe em recortes, transformações e muito mais para obter documentos visualmente impressionantes sem esforço.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriais abrangentes e exemplos de Aspose.Page para Java
+
 ## Introdução
 
 Você está pronto para aprimorar suas habilidades de processamento de documentos Java? Mergulhe no mundo do Aspose.Page for Java com nossos tutoriais e exemplos abrangentes. Quer você seja um desenvolvedor experiente ou esteja apenas começando, nossos guias passo a passo irão desbloquear todo o potencial do Aspose.Page para Java.
@@ -76,3 +81,9 @@ Eleve seus documentos Java XPS sem esforço com Aspose.Page. Aprenda a adicionar
 Eleve o visual do seu documento Java sem esforço com Aspose.Page! Aprenda a aprimorar seu aplicativo adicionando grades usando o Visual Brush neste tutorial passo a passo.
 ### [Manipulação de metadados XMP - Java](./xmp-metadata-manipulation/)
 Aprimore arquivos EPS sem esforço com a manipulação de metadados XMP, desde a adição de itens até a extração. Eleve seu gerenciamento de documentos com nossos guias.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Erstellen Sie ein PostScript-Dokument mit Aspose.Page für .NET
 linktitle: Erstellen Sie ein PostScript-Dokument
 second_title: Aspose.Page .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Page PostScript-Dokumente in .NET erstellen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration. Laden Sie die Bibliothek herunter und beginnen Sie mühelos mit der Bearbeitung von PostScript-Dateien.
-type: docs
 weight: 11
 url: /de/net/document-creation/create-postscript-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie ein PostScript-Dokument mit Aspose.Page für .NET
+
 ## Einführung
 
 Willkommen zu diesem umfassenden Tutorial zum Erstellen von PostScript-Dokumenten mit Aspose.Page für .NET! Aspose.Page ist eine leistungsstarke API, mit der Sie PostScript-Dateien mühelos in Ihren .NET-Anwendungen bearbeiten und erstellen können. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Erstellung eines PostScript-Dokuments und unterteilen jedes Beispiel in detaillierte Schritte.
@@ -123,3 +129,9 @@ In diesem Tutorial haben wir die wesentlichen Schritte zum Erstellen von PostScr
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.Page für .NET erhalten?
 
  A5: Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adición de degradado PostScript
 linktitle: Adición de degradado PostScript
 second_title: API de Java de Aspose.Page
 description: Mejore sus documentos Java PostScript con los tutoriales de Aspose.Page para Java. Aprenda a agregar impresionantes degradados diagonales, horizontales, radiales y verticales sin esfuerzo.
-type: docs
 weight: 25
 url: /es/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adición de degradado PostScript
+
 ## Introducción
 
 Si busca mejorar sus documentos Java PostScript con transiciones de colores vibrantes, Aspose.Page para Java es su solución ideal. Esta serie de tutoriales profundiza en el arte de la adición de degradados y cubre todo, desde degradados diagonales hasta transiciones radiales. Embárcate en un viaje para dominar el arte de crear documentos visualmente impresionantes.
@@ -44,3 +50,9 @@ Aprenda cómo agregar impresionantes gradientes radiales en Java PostScript usan
 Explore la guía paso a paso para agregar gradiente radial en Java PostScript usando Aspose.Page para obtener gráficos impresionantes en sus aplicaciones Java.
 ### [Agregar degradado vertical en Java PostScript](./vertical/)
 Explore la guía paso a paso para agregar degradados verticales en Java PostScript con Aspose.Page para Java. Mejore sus documentos sin esfuerzo con imágenes vibrantes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

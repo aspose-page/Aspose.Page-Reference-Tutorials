@@ -3,10 +3,16 @@ title: 視覺元素 - Java
 linktitle: 視覺元素 - Java
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 輕鬆提升您的 Java 文件視覺效果！在本逐步教學中，學習如何使用 Visual Brush 新增網格來增強您的應用程式。
-type: docs
 weight: 41
 url: /zh-hant/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 視覺元素 - Java
+
 ## 介紹
 
 Java 開發者們，歡呼吧！透過 Aspose.Page 教學深入了解視覺元素領域，這些教學有望改變您的 Java 文件視覺效果。在這個版本中，我們重點介紹使用 Visual Brush 添加網格的迷人藝術。請繫好安全帶，我們將踏上提升您應用程式吸引力的旅程。
@@ -46,3 +52,9 @@ Aspose.Page 迎合各個層級的開發人員，從尋求簡單性的初學者�
 ## 視覺元素 - Java 教程
 ### [在 Java 中使用 Visual Brush 新增網格](./add-grid/)
 使用 Aspose.Page 增強 Java 文件視覺效果！逐步學習使用 Visual Brush 新增網格。毫不費力地提升您的應用程式的吸引力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

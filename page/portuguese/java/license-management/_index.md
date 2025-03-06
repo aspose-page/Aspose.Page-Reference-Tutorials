@@ -3,10 +3,16 @@ title: Gerenciamento de licenças
 linktitle: Gerenciamento de licenças
 second_title: API Java Aspose.Page
 description: Desbloqueie todo o potencial do Aspose.Page para Java com nossos tutoriais de gerenciamento de licenças. Configure licenças limitadas de forma integrada para aumentar os recursos de processamento de documentos.
-type: docs
 weight: 30
 url: /pt/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciamento de licenças
+
 ## Introdução
 
 Bem-vindo aos tutoriais de gerenciamento de licenças para Aspose.Page em Java! Neste guia abrangente, nos aprofundaremos nas complexidades da configuração de licenças limitadas para otimizar seus recursos de processamento de documentos. Vamos embarcar em uma jornada que revela todo o potencial do Aspose.Page, garantindo uma integração perfeita com Java.
@@ -39,3 +45,9 @@ Nossos tutoriais de gerenciamento de licenças para Aspose.Page em Java são sua
 ## Tutoriais de gerenciamento de licenças
 ### [Definir licença medida em Java](./set-metered-license/)
 Explore a integração perfeita do Aspose.Page com Java. Configure licenças limitadas sem esforço e aprimore seus recursos de processamento de documentos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Wijzig array-items in XMP met behulp van Java
 linktitle: Wijzig array-items in XMP met behulp van Java
 second_title: Aspose.Page Java-API
 description: Leer hoe u array-items in XMP kunt wijzigen met Aspose.Page voor Java. Pas metadata moeiteloos aan met onze stapsgewijze handleiding. Verbeter nu uw EPS-documenten!
-type: docs
 weight: 15
 url: /nl/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wijzig array-items in XMP met behulp van Java
+
 ## Invoering
 Welkom bij onze uitgebreide handleiding over het wijzigen van array-items in XMP met behulp van Aspose.Page voor Java! Aspose.Page is een krachtige Java-bibliotheek waarmee u naadloos met XMP-metagegevens in EPS-bestanden kunt werken. In deze zelfstudie leiden we u door het proces van het wijzigen van array-items in XMP-metagegevens, zodat u uw EPS-documenten kunt verbeteren en aanpassen.
 ## Vereisten
@@ -77,3 +83,9 @@ Aspose.Page is voornamelijk ontworpen voor Java, maar Aspose biedt vergelijkbare
  U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik de volledige versie van Aspose.Page voor Java kopen?
  Je kunt de volledige versie kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

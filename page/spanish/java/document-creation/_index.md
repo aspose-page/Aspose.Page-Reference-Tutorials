@@ -3,10 +3,16 @@ title: Creación de documentos Java
 linktitle: Creación de documentos Java
 second_title: API de Java de Aspose.Page
 description: Genere sin esfuerzo documentos PostScript en Java con Aspose.Page. Personalice el tamaño de página, los márgenes y las fuentes. Sumérgete en los tutoriales de creación de documentos Java.
-type: docs
 weight: 23
 url: /es/java/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creación de documentos Java
+
 ## Introducción
 
 Si se está sumergiendo en el mundo de la creación de documentos Java, Aspose.Page para Java es su herramienta de referencia. En esta guía completa, lo guiaremos a través de las complejidades de la creación de documentos en Java con un enfoque en PostScript. Embárquemonos juntos en este viaje, liberando el potencial de Aspose.Page para Java.
@@ -33,3 +39,9 @@ En conclusión, estos tutoriales de creación de documentos Java le sirven como 
 ## Tutoriales de creación de documentos Java
 ### [Crear documento en Java con PostScript](./postscript/)
 Cree fácilmente documentos PostScript en Java utilizando Aspose.Page. Personalice el tamaño de página, los márgenes y las fuentes. ¡Pruebe la prueba gratuita ahora!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

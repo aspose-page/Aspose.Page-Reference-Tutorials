@@ -3,10 +3,16 @@ title: Adicionar Namespace com Aspose.Page para .NET
 linktitle: Adicionar espaço para nome
 second_title: API Aspose.Page .NET
 description: Aprimore arquivos EPS com Aspose.Page for .NET. Adicione namespaces sem esforço, modifique metadados XMP e impulsione seu fluxo de trabalho de desenvolvimento .NET.
-type: docs
 weight: 13
 url: /pt/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar Namespace com Aspose.Page para .NET
+
 ## Introdução
 
 No mundo dinâmico do desenvolvimento .NET, Aspose.Page se destaca como uma ferramenta poderosa para lidar com arquivos EPS. Aspose.Page for .NET permite que os desenvolvedores manipulem metadados XMP perfeitamente, fornecendo flexibilidade para adicionar namespaces e aprimorar os metadados de arquivos EPS.
@@ -117,3 +123,9 @@ A2: Com certeza! Aspose.Page permite extrair e modificar metadados XMP de arquiv
 ### Q5: Como posso obter uma licença temporária para Aspose.Page?
 
  A5: Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/) para fins de teste.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Správa licencí
 linktitle: Správa licencí
 second_title: Aspose.Page Java API
 description: Odemkněte plný potenciál Aspose.Page for Java pomocí našich výukových programů pro správu licencí. Bezproblémově nastavte měřené licence, abyste zvýšili možnosti zpracování dokumentů.
-type: docs
 weight: 30
 url: /cs/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa licencí
+
 ## Úvod
 
 Vítejte ve výukových programech správy licencí pro Aspose.Page v Javě! V tomto komplexním průvodci se ponoříme do složitosti nastavení měřených licencí, abychom optimalizovali vaše možnosti zpracování dokumentů. Vydejme se na cestu, která odemkne plný potenciál Aspose.Page a zajistí bezproblémovou integraci s Javou.
@@ -39,3 +45,9 @@ Naše výukové programy správy licencí pro Aspose.Page v jazyce Java jsou va�
 ## Výukové programy pro správu licencí
 ### [Nastavte Metered License v Javě](./set-metered-license/)
 Prozkoumejte bezproblémovou integraci Aspose.Page s Javou. Nastavte měřené licence bez námahy a rozšiřte možnosti zpracování dokumentů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

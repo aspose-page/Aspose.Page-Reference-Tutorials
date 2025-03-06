@@ -3,10 +3,16 @@ title: Συγχώνευση αρχείων
 linktitle: Συγχώνευση αρχείων
 second_title: Aspose.Page Java API
 description: Συγχωνεύστε εύκολα αρχεία PostScript σε PDF και μετατρέψτε XPS σε PDF ή XPS σε Java χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τους οδηγούς βήμα προς βήμα για απρόσκοπτη μετατροπή εγγράφων.
-type: docs
 weight: 31
 url: /el/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συγχώνευση αρχείων
+
 
 ## Εισαγωγή
 
@@ -40,3 +46,9 @@ url: /el/java/file-merging/
 Μάθετε πώς να μετατρέπετε τα XPS σε PDF σε Java χωρίς κόπο με το Aspose.Page. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική μετατροπή εγγράφων.
 ### [Μετατροπή XPS σε XPS σε Java](./xps-to-xps/)
 Μάθετε πώς να συγχωνεύετε αρχεία XPS σε Java χωρίς προβλήματα χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική διαχείριση εγγράφων. Ενισχύστε τις δεξιότητές σας στην ανάπτυξη Java τώρα!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إضافة مستطيل في Java XPS
 linktitle: إضافة مستطيل في Java XPS
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إضافة مستطيلات في Java XPS باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتعامل السلس مع المستندات. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /ar/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة مستطيل في Java XPS
+
 ## مقدمة
 مرحبًا بك في هذا الدليل الشامل حول إضافة المستطيلات في Java XPS باستخدام Aspose.Page! سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Java XPS، سيرشدك هذا البرنامج التعليمي خلال العملية من خلال تعليمات خطوة بخطوة، مما يضمن حصولك على فهم عميق للموضوع.
 ## المتطلبات الأساسية
@@ -62,3 +68,9 @@ doc.save(dataDir + "AddRectangle_out.xps");
  اكتشف ال[منتدى Aspose.Page](https://forum.aspose.com/c/page/39)لمزيد من الأمثلة وطلب المساعدة من المجتمع.
 ### هل يمكنني تجربة Aspose.Page قبل الشراء؟
  نعم، يمكنك استكشاف أ[تجربة مجانية](https://releases.aspose.com/) لتجربة قدرات Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

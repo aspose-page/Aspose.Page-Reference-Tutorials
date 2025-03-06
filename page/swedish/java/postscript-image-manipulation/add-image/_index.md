@@ -3,10 +3,16 @@ title: Lägg till bild i Java PostScript
 linktitle: Lägg till bild i Java PostScript
 second_title: Aspose.Page Java API
 description: Utforska den sömlösa integrationen av Aspose.Page Java i den här handledningen om att lägga till bilder i PostScript-dokument. Öka dina dokumenthanteringsmöjligheter.
-type: docs
 weight: 10
 url: /sv/java/postscript-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till bild i Java PostScript
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man lägger till bilder i ett Java PostScript-dokument med hjälp av biblioteket Aspose.Page for Java. Aspose.Page är ett kraftfullt bibliotek som tillhandahåller olika funktioner för att arbeta med PostScript-filer, vilket gör det möjligt för utvecklare att manipulera och förbättra sina dokument sömlöst.
 ## Förutsättningar
@@ -80,3 +86,9 @@ Aspose.Page stöder i första hand Java, men det finns versioner tillgängliga f
  Besök[Aspose.Page Forum](https://forum.aspose.com/c/page/39) för samhällsstöd.
 ### Finns det några ytterligare resurser för att köpa Aspose.Page för Java?
  Du kan köpa biblioteket[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

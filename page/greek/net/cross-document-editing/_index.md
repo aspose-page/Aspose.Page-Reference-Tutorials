@@ -3,10 +3,16 @@ title: Επεξεργασία μεταξύ εγγράφων
 linktitle: Επεξεργασία μεταξύ εγγράφων
 second_title: Aspose.Page .NET API
 description: Ξεκλειδώστε τις δυνατότητες του Aspose.Page για .NET με τα σεμινάρια μας. Προσθέστε κλώνους γλυφών, αλλάξτε χρώματα και χειριστείτε σελίδες χωρίς κόπο σε έγγραφα XPS.
-type: docs
 weight: 22
 url: /el/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επεξεργασία μεταξύ εγγράφων
+
 
 ## Εισαγωγή
 
@@ -34,3 +40,9 @@ url: /el/net/cross-document-editing/
 Ξεκλειδώστε τη δύναμη της επεξεργασίας εγγράφων στο .NET με το Aspose.Page. Προσθέστε γλυφές γεμάτες εικόνα χωρίς κόπο. Βελτιώστε τα γραφικά και βελτιστοποιήστε τη ροή εργασίας σας.
 ### [Χειρισμός σελίδων με το Aspose.Page για .NET](./manipulate-pages/)
 Εξερευνήστε τη διαχείριση σελίδων στο .NET χρησιμοποιώντας το Aspose.Page, μια ισχυρή βιβλιοθήκη για το χειρισμό εγγράφων XPS. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματικά αποτελέσματα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

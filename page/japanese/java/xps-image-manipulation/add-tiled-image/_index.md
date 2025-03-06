@@ -3,10 +3,16 @@ title: Java XPS でタイル化されたイメージを追加する
 linktitle: Java XPS でタイル化されたイメージを追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用してシームレスな Java XPS ドキュメント操作を体験してください。このステップバイステップのガイドを使用して、タイル画像を簡単に追加する方法を学びましょう。
-type: docs
 weight: 11
 url: /ja/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS でタイル化されたイメージを追加する
+
 ## 導入
 Java 開発の動的な世界では、効率的なドキュメントの操作と作成に対するニーズがますます高まっています。 Aspose.Page for Java は強力なツールとして登場し、開発者に XPS ドキュメントをシームレスに操作する機能を提供します。このチュートリアルでは、タイル化されたイメージを Java XPS ドキュメントに追加するという特定のタスクに焦点を当てます。
 ## 前提条件
@@ -68,3 +74,9 @@ Aspose.Page for Java は、XPS ドキュメントの操作プロセスを合理�
  Aspose.Page コミュニティに参加してください。[フォーラム](https://forum.aspose.com/c/page/39).
 ### Aspose.Page の一時ライセンスを取得するにはどうすればよいですか?
 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Appliquer un pinceau visuel de grille avec Aspose.Page pour .NET
 linktitle: Appliquer le pinceau visuel de grille
 second_title: API Aspose.Page .NET
 description: Explorez le monde dynamique du traitement de documents dans .NET avec Aspose.Page. Apprenez à appliquer un Grid Visual Brush pour des documents visuellement époustouflants.
-type: docs
 weight: 10
 url: /fr/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer un pinceau visuel de grille avec Aspose.Page pour .NET
+
 ## Introduction
 
 Dans le monde du développement .NET, Aspose.Page s'impose comme un outil puissant pour gérer les tâches de traitement de documents. Une fonctionnalité fascinante qu'il offre est la possibilité d'appliquer un Grid Visual Brush, apportant une nouvelle dimension à vos documents. Ce didacticiel vous guidera étape par étape tout au long du processus de mise en œuvre d'un pinceau visuel Magenta Grid à l'aide d'Aspose.Page pour .NET.
@@ -143,3 +149,9 @@ A1 : Oui, Aspose.Page pour .NET est polyvalent et peut être utilisé dans diff�
 ### Q5 : Quelle autre documentation est disponible pour Aspose.Page pour .NET ?
 
  A5 : Explorez la documentation complète[ici](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

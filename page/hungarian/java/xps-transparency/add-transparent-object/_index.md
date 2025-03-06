@@ -3,10 +3,16 @@ title: Adjon hozzá átlátszó objektumot a Java XPS-ben
 linktitle: Adjon hozzá átlátszó objektumot a Java XPS-ben
 second_title: Aspose.Page Java API
 description: Javítsa Java XPS-dokumentumait lenyűgöző átlátszósági effektusokkal az Aspose.Page segítségével. Kövesse lépésenkénti útmutatónkat az átlátszó objektumok hozzáadásához.
-type: docs
 weight: 10
 url: /hu/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá átlátszó objektumot a Java XPS-ben
+
 ## Bevezetés
 Ha átlátszó objektumok hozzáadásával javítani szeretné Java XPS-dokumentumai vizuális vonzerejét, az Aspose.Page for Java a megoldás az Ön számára. Ebben a lépésenkénti útmutatóban végigvezetjük az átlátszó objektumok XPS-dokumentumába való beépítésének folyamatán. Ennek az oktatóanyagnak a végére lenyűgöző dokumentumokat készíthet esztétikailag tetszetős átlátszósági hatásokkal.
 ## Előfeltételek
@@ -88,3 +94,9 @@ V: Abszolút! Az Aspose.Page robusztus szolgáltatásokat nyújt a professzioná
 V: Igen, az Aspose.Page zökkenőmentesen integrálható más Java-könyvtárakba a kiterjesztett funkcionalitás érdekében.
 ### K: Hol találhatok további példákat és támogatást az Aspose.Page-hez?
  V: Látogassa meg a[Aspose.Page Java fórum](https://forum.aspose.com/c/page/39)közösségi támogatásért, és fedezze fel a dokumentációt[itt](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Преобразование документов
 linktitle: Преобразование документов
 second_title: Aspose.Page .NET API
 description: Легко конвертируйте PostScript в PDF и XPS в PDF с помощью учебных пособий Aspose.Page для .NET. Надежные, надежные и простые решения для беспрепятственного преобразования документов.
-type: docs
 weight: 24
 url: /ru/net/document-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование документов
+
 
 ## Введение
 
@@ -34,3 +40,9 @@ url: /ru/net/document-conversion/
 Легко конвертируйте PostScript в PDF с помощью Aspose.Page для .NET. Прочный, надежный и удобный для разработчиков.
 ### [Конвертируйте XPS в PDF с помощью Aspose.Page для .NET](./convert-xps-to-pdf/)
 Легко конвертируйте XPS в PDF в .NET с помощью Aspose.Page. Загрузите библиотеку, изучите документацию и получите бесплатную пробную версию.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

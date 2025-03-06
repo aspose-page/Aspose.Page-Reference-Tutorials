@@ -3,10 +3,16 @@ title: जावा एक्सपीएस में पारदर्शी 
 linktitle: जावा एक्सपीएस में पारदर्शी ऑब्जेक्ट जोड़ें
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page का उपयोग करके आश्चर्यजनक पारदर्शिता प्रभावों के साथ अपने Java XPS दस्तावेज़ों को बेहतर बनाएं। पारदर्शी वस्तुओं को जोड़ने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 10
 url: /hi/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा एक्सपीएस में पारदर्शी ऑब्जेक्ट जोड़ें
+
 ## परिचय
 यदि आप पारदर्शी ऑब्जेक्ट जोड़कर अपने जावा एक्सपीएस दस्तावेजों की दृश्य अपील को बढ़ाना चाहते हैं, तो जावा के लिए Aspose.Page आपके लिए समाधान है। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको आपके XPS दस्तावेज़ में पारदर्शी वस्तुओं को शामिल करने की प्रक्रिया के बारे में बताएंगे। इस ट्यूटोरियल के अंत तक, आप सौंदर्य की दृष्टि से मनभावन पारदर्शिता प्रभावों के साथ आश्चर्यजनक दस्तावेज़ बनाने में सक्षम होंगे।
 ## आवश्यक शर्तें
@@ -88,3 +94,9 @@ doc.save(dataDir + "WorkingWithTransparency_out.xps");
 उत्तर: हाँ, Aspose.Page को विस्तारित कार्यक्षमता के लिए अन्य जावा लाइब्रेरीज़ के साथ सहजता से एकीकृत किया जा सकता है।
 ### प्रश्न: मुझे Aspose.Page के लिए अतिरिक्त उदाहरण और समर्थन कहां मिल सकता है?
  ए: पर जाएँ[Aspose.Page जावा फोरम](https://forum.aspose.com/c/page/39)सामुदायिक सहायता के लिए और दस्तावेज़ीकरण का अन्वेषण करें[यहाँ](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

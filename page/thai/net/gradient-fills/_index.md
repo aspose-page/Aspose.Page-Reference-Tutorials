@@ -3,10 +3,16 @@ title: การเติมไล่ระดับสี
 linktitle: การเติมไล่ระดับสี
 second_title: Aspose.Page .NET API
 description: ค้นพบศิลปะแห่งการไล่ระดับสีใน .NET ด้วยบทช่วยสอน Aspose.Page ยกระดับโปรเจ็กต์ของคุณอย่างง่ายดาย—เพิ่มการไล่ระดับสีแนวทแยง แนวนอน และแนวตั้งที่น่าหลงใหล
-type: docs
 weight: 27
 url: /th/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การเติมไล่ระดับสี
+
 
 ## การแนะนำ
 
@@ -49,3 +55,9 @@ url: /th/net/gradient-fills/
 เรียนรู้วิธีเพิ่มการไล่ระดับสีแนวตั้งที่ดึงดูดสายตาให้กับเอกสาร PostScript (PS) ใน .NET โดยใช้ Aspose.Page ยกระดับการสร้างเอกสารของคุณด้วยคำแนะนำทีละขั้นตอนนี้
 ### [เพิ่มการไล่ระดับสีแนวตั้งให้กับ XPS ด้วย Aspose.Page สำหรับ .NET](./add-vertical-gradient-to-xps/)
 เรียนรู้วิธีปรับปรุงเอกสาร XPS ด้วยการไล่ระดับสีแนวตั้งโดยใช้ Aspose.Page สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

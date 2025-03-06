@@ -3,10 +3,16 @@ title: Dodaj prostokąt w Java XPS
 linktitle: Dodaj prostokąt w Java XPS
 second_title: Aspose.Page API Java
 description: Dowiedz się, jak dodawać prostokąty w Java XPS przy użyciu Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo manipulować dokumentami. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /pl/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj prostokąt w Java XPS
+
 ## Wstęp
 Witamy w tym obszernym przewodniku na temat dodawania prostokątów w Java XPS przy użyciu Aspose.Page! Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz przygodę z Java XPS, ten samouczek przeprowadzi Cię przez proces za pomocą instrukcji krok po kroku, zapewniając głębokie zrozumienie tematu.
 ## Warunki wstępne
@@ -62,3 +68,9 @@ Absolutnie! Aspose.Page zapewnia solidny zestaw funkcji do obsługi różnych za
  Poznaj[Forum Aspose.Page](https://forum.aspose.com/c/page/39)aby uzyskać więcej przykładów, i zwróć się o pomoc do społeczności.
 ### Czy mogę wypróbować Aspose.Page przed zakupem?
  Tak, możesz poznać m.in[bezpłatna wersja próbna](https://releases.aspose.com/) aby poznać możliwości Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

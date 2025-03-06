@@ -3,10 +3,16 @@ title: Lägg till Hatch Pattern i Java PostScript
 linktitle: Lägg till Hatch Pattern i Java PostScript
 second_title: Aspose.Page Java API
 description: Lär dig hur du lägger till fängslande kläckmönster till Java PostScript-dokument med Aspose.Page. Höj ditt visuella innehåll utan ansträngning.
-type: docs
 weight: 10
 url: /sv/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till Hatch Pattern i Java PostScript
+
 ## Introduktion
 en värld av Java-programmering är det ett vanligt krav för utvecklare att förbättra visuella element. En spännande visuell förbättring är tillägget av luckmönster till PostScript-dokument. Den här handledningen guidar dig genom processen att lägga till kläckmönster med Aspose.Page för Java.
 ## Förutsättningar
@@ -97,3 +103,9 @@ Ja, Aspose.Page för Java är utformad för att sömlöst integreras med olika J
  Utforska[Aspose.Page för Java-forum](https://forum.aspose.com/c/page/39) för tutorials och gemenskapsstöd.
 ### Finns det en omfattande dokumentationsresurs för Aspose.Page för Java?
  Ja, se dokumentationen[här](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

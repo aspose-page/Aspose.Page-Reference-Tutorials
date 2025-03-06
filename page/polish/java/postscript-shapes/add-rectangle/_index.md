@@ -3,10 +3,16 @@ title: Dostosuj Java PostScript - Dodawanie prostokątów za pomocą Aspose.Page
 linktitle: Dodaj prostokąt w Java PostScript
 second_title: Aspose.Page API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym dodawania żywych prostokątów do dokumentów Java PostScript przy użyciu Aspose.Page dla Java. Zwiększ możliwości dostosowywania dokumentów bez wysiłku!
-type: docs
 weight: 11
 url: /pl/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj Java PostScript - Dodawanie prostokątów za pomocą Aspose.Page
+
 ## Wstęp
 Czy chcesz wzbogacić swoje dokumenty Java PostScript o żywe prostokąty? Nie szukaj dalej! W tym przewodniku krok po kroku odkryjemy, jak używać Aspose.Page dla Java do dodawania prostokątów do dokumentów PostScript. Aspose.Page to potężna biblioteka zapewniająca niezawodne funkcje do pracy z plikami PostScript, co czyni ją idealnym wyborem dla programistów chcących manipulować i dostosowywać swoje dokumenty.
 ## Warunki wstępne
@@ -72,3 +78,9 @@ Aspose.Page obsługuje przede wszystkim Javę, ale podobne biblioteki są dostę
  Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę kupić licencjonowaną wersję Aspose.Page dla Java?
  Kup wersję licencjonowaną[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java XPS에 타일식 이미지 추가
 linktitle: Java XPS에 타일식 이미지 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 원활한 Java XPS 문서 조작을 살펴보세요. 이 단계별 가이드를 사용하여 타일식 이미지를 쉽게 추가하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS에 타일식 이미지 추가
+
 ## 소개
 Java 개발의 역동적인 세계에서는 효율적인 문서 조작 및 생성에 대한 필요성이 점점 더 커지고 있습니다. Aspose.Page for Java는 개발자에게 XPS 문서를 원활하게 작업할 수 있는 기능을 제공하는 강력한 도구로 등장합니다. 이 튜토리얼은 Java XPS 문서에 타일 이미지를 추가하는 특정 작업에 중점을 둡니다.
 ## 전제 조건
@@ -68,3 +74,9 @@ Aspose.Page for Java는 XPS 문서 작업 프로세스를 간소화하여 개발
  Aspose.Page 커뮤니티에 참여하세요.[법정](https://forum.aspose.com/c/page/39).
 ### Aspose.Page에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

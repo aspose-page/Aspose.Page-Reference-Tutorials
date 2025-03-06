@@ -3,10 +3,16 @@ title: Metaadatok beszerzése az XMP-ből Java használatával
 linktitle: Metaadatok beszerzése az XMP-ből Java használatával
 second_title: Aspose.Page Java API
 description: Fedezze fel az Aspose.Page for Java erejét, amellyel könnyedén kinyerheti az XMP metaadatokat. Emelje fel a dokumentumelemzést lépésenkénti útmutatónkkal!
-type: docs
 weight: 18
 url: /hu/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Metaadatok beszerzése az XMP-ből Java használatával
+
 ## Bevezetés
 Üdvözöljük lépésenkénti útmutatónkban az Aspose.Page for Java használatáról metaadatok kinyerésére XMP-fájlokból. Az XMP (Extensible Metadata Platform) szabványos módot biztosít a metaadatok fájlokban való tárolására. Ez az oktatóanyag az alapvető információk lekérésére összpontosít az XMP-ből Java használatával, és betekintést nyújt a dokumentum részleteibe.
 ## Előfeltételek
@@ -81,3 +87,9 @@ Gratulálunk! Sikeresen megtanulta az XMP metaadatok kibontását az Aspose.Page
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Vannak további források az Aspose.Page for Java számára?
  Fedezze fel a teljes[dokumentáció](https://reference.aspose.com/page/java/) és töltse le a könyvtárat[itt](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

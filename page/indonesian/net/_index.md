@@ -1,12 +1,17 @@
 ---
 title: Tutorial Komprehensif dan Contoh Aspose.Page untuk .NET
 linktitle: Aspose.Page untuk Tutorial .NET
-type: docs
 weight: 10
 url: /id/net/
 description: Bebaskan Aspose.Page untuk potensi .NET dengan tutorial yang mencakup pembuatan, manipulasi, dan peningkatan. Kuasai dari dasar hingga teknik lanjutan dengan mudah.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial Komprehensif dan Contoh Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Apakah Anda siap untuk mengeluarkan potensi penuh Aspose.Page untuk .NET? Tidak perlu mencari lagi! Tutorial komprehensif kami mencakup setiap aspek, mulai dari fungsi dasar hingga teknik lanjutan, memastikan Anda menjadi pengguna yang mahir.
@@ -115,3 +120,9 @@ Temukan keajaiban efek transparansi dalam dokumen Anda dengan Aspose.Page .NET. 
 Tingkatkan pemrosesan dokumen Anda di .NET dengan tutorial Aspose.Page. Selami ranah Visual Brushes, kuasai teknik untuk dokumen visual yang menakjubkan.
 ### [Manajemen Metadata EPS](./eps-metadata-management/)
 Tingkatkan organisasi EPS dengan Aspose.Page untuk .NET. Tambahkan metadata dengan mudah untuk meningkatkan aksesibilitas. Jelajahi tutorial manajemen metadata EPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

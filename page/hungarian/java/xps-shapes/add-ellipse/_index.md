@@ -3,10 +3,16 @@ title: Adjon hozzá Radial Gradient Ellipse-t az Aspose.Page segítségével
 linktitle: Adja hozzá az Ellipse-t a Java XPS-hez
 second_title: Aspose.Page Java API
 description: Tekintse meg a sugárirányú színátmenettel körvonalazott ellipszis hozzáadását a Java XPS-ben az Aspose.Page for Java segítségével, lépésről lépésre ismertető útmutatót. Fokozza a dokumentumkészítést könnyedén.
-type: docs
 weight: 10
 url: /hu/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá Radial Gradient Ellipse-t az Aspose.Page segítségével
+
 ## Bevezetés
 Üdvözöljük a Java XPS-ben ellipszis hozzáadásának lépésenkénti útmutatójában az Aspose.Page for Java használatával. Az Aspose.Page egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén dolgozzanak XPS-dokumentumokkal. Ebben az oktatóanyagban végigvezetjük a radiális színátmenettel körvonalazott ellipszis létrehozásának és XPS-dokumentumként való mentésének folyamatán.
 ## Előfeltételek
@@ -91,3 +97,9 @@ Teljesen! Az Aspose.Page úgy lett kialakítva, hogy hatékonyan kezelje a nagym
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Vannak közösségi fórumok az Aspose.Page beszélgetésekhez?
  Igen, csatlakozz a[Aspose.Page közösségi fórum](https://forum.aspose.com/c/page/39) kapcsolatba léphet más fejlesztőkkel és segítséget kérhet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

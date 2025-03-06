@@ -3,10 +3,16 @@ title: Függőleges színátmenet hozzáadása a Java XPS-ben
 linktitle: Függőleges színátmenet hozzáadása a Java XPS-ben
 second_title: Aspose.Page Java API
 description: Ismerje meg, hogyan adhat hozzá függőleges színátmenetet Java XPS-dokumentumokhoz az Aspose.Page segítségével. Fokozza a vizuális vonzerőt erőfeszítés nélkül. Lépésről lépésre útmutató belül.
-type: docs
 weight: 12
 url: /hu/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Függőleges színátmenet hozzáadása a Java XPS-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan adhat hozzá függőleges színátmenetet a Java XPS-hez az Aspose.Page for Java segítségével. Színátmenetek hozzáadása az XPS-dokumentumokhoz javíthatja a tartalom vizuális vonzerejét, vonzóbbá és esztétikusabbá téve azt.
 ## Előfeltételek
@@ -72,3 +78,9 @@ Az XPS-dokumentumok színátmenetekkel történő javítása jelentősen javíth
  Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Segítségre van szüksége vagy kérdései vannak?
  Látogassa meg az Aspose.Page közösséget[fórum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

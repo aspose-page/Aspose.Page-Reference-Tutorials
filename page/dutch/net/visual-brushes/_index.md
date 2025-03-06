@@ -3,10 +3,16 @@ title: Visuele penselen
 linktitle: Visuele penselen
 second_title: Aspose.Page .NET-API
 description: Verbeter uw documentverwerking in .NET met Aspose.Page-tutorials. Duik in het rijk van visuele penselen en leer technieken voor visueel verbluffende documenten.
-type: docs
 weight: 35
 url: /nl/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visuele penselen
+
 
 ## Invoering
 
@@ -36,3 +42,9 @@ Vergeet niet dat u de macht heeft om uw documenten te transformeren. Laat Aspose
 ## Zelfstudies over visuele penselen
 ### [Pas Grid Visual Brush toe met Aspose.Page voor .NET](./apply-grid-visual-brush/)
 Ontdek de dynamische wereld van documentverwerking in .NET met Aspose.Page. Leer hoe u een visueel rasterpenseel kunt toepassen voor visueel verbluffende documenten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

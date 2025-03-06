@@ -3,10 +3,16 @@ title: Vormen - XPS
 linktitle: Vormen - XPS
 second_title: Aspose.Page Java-API
 description: Ontdek Java XPS-magie met Aspose.Page-tutorials! Voeg eenvoudig boeiende ellipsen en rechthoeken toe. Verbeter het maken van documenten met onze stapsgewijze handleidingen.
-type: docs
 weight: 35
 url: /nl/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vormen - XPS
+
 ## Invoering
 
 Bent u klaar om u te verdiepen in de fascinerende wereld van het maken van documenten met Java XPS? Zoek niet verder dan Aspose.Page, uw vertrouwde metgezel voor het ontsluiten van het volledige potentieel van vormmanipulatie. In deze serie tutorials begeleiden we u bij de fijne kneepjes van het toevoegen van boeiende vormen, zodat uw document moeiteloos opvalt.
@@ -33,3 +39,9 @@ Kortom, de Aspose.Page voor Java-tutorials over vormen openen een wereld aan mog
 Verken de stapsgewijze handleiding voor het toevoegen van een ellips met een radiale verlooplijn in Java XPS met behulp van Aspose.Page voor Java. Verbeter moeiteloos uw documentcreatie.
 ### [Rechthoek toevoegen in Java XPS](./add-rectangle/)
 Leer hoe u rechthoeken toevoegt in Java XPS met Aspose.Page. Volg onze stapsgewijze handleiding voor naadloze documentmanipulatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

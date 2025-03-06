@@ -3,10 +3,16 @@ title: 画像操作 - PostScript
 linktitle: 画像操作 - PostScript
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用してドキュメント操作スキルを強化します。 PostScript チュートリアルに取り組み、Java で画像を追加する方法を学び、ドキュメントの機能を向上させます。
-type: docs
 weight: 28
 url: /ja/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 画像操作 - PostScript
+
 
 ## 導入
 
@@ -32,3 +38,9 @@ Aspose.Page for Java の PostScript チュートリアルを使用して、こ�
 ## 画像操作 - PostScript チュートリアル
 ### [Java PostScriptで画像を追加](./add-image/)
 PostScript ドキュメントへの画像の追加に関するこのチュートリアルで、Aspose.Page Java のシームレスな統合を確認してください。ドキュメントの操作能力を向上させます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

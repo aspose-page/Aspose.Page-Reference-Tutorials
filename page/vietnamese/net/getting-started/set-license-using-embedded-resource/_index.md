@@ -3,10 +3,16 @@ title: Đặt giấy phép sử dụng tài nguyên nhúng với Aspose.Page cho
 linktitle: Đặt giấy phép bằng tài nguyên nhúng
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách đặt giấy phép bằng cách sử dụng tài nguyên được nhúng với Aspose.Page cho .NET. Đảm bảo tuân thủ và khai thác toàn bộ tiềm năng của việc xử lý tài liệu.
-type: docs
 weight: 14
 url: /vi/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt giấy phép sử dụng tài nguyên nhúng với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Aspose.Page for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với nhiều định dạng tài liệu khác nhau. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập giấy phép bằng cách sử dụng tài nguyên được nhúng với Aspose.Page cho .NET. Cấp phép là một bước quan trọng trong việc sử dụng tối đa các chức năng của Aspose.Page, đảm bảo tuân thủ và khai thác tiềm năng của thư viện.
@@ -110,3 +116,9 @@ Câu trả lời 1: Mặc dù bạn có thể sử dụng Aspose.Page mà không
 ### Câu hỏi 5: Tôi có thể mua Aspose.Page cho .NET ở đâu?
 
  Câu trả lời 5: Bạn có thể mua Aspose.Page[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

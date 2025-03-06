@@ -3,10 +3,16 @@ title: Hợp nhất tài liệu
 linktitle: Hợp nhất tài liệu
 second_title: API Aspose.Page .NET
 description: Dễ dàng hợp nhất các tài liệu PostScript và XPS thành các tệp PDF chất lượng cao bằng Aspose.Page cho .NET. Nâng cao khả năng xử lý tài liệu của bạn bằng các hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 25
 url: /vi/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hợp nhất tài liệu
+
 ## Giới thiệu
 
 Hợp nhất theo cách của bạn để quản lý tài liệu liền mạch với Aspose.Page cho .NET. Khám phá sức mạnh của việc hợp nhất tài liệu với các hướng dẫn toàn diện của chúng tôi.
@@ -40,3 +46,9 @@ Tìm hiểu cách dễ dàng hợp nhất các tài liệu PostScript thành PDF
 Dễ dàng hợp nhất các tài liệu XPS thành các tệp PDF chất lượng cao bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm chuyển đổi tài liệu suôn sẻ.
 ### [Hợp nhất tài liệu XPS với Aspose.Page cho .NET](./merge-xps-documents/)
 Dễ dàng hợp nhất các tài liệu XPS bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý tài liệu liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

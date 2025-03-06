@@ -3,10 +3,16 @@ title: Aspose.Page Java - Tambahkan Halaman ke Tutorial XPS
 linktitle: Tambahkan Halaman di Java XPS
 second_title: Aspose.Halaman Java API
 description: Tinggikan dokumen Java XPS dengan Aspose.Page. Pelajari cara menambahkan halaman dengan mudah untuk meningkatkan fungsionalitas aplikasi. Selami tutorialnya sekarang!
-type: docs
 weight: 10
 url: /id/java/xps-page-manipulation/add-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java - Tambahkan Halaman ke Tutorial XPS
+
 ## Perkenalan
 Jika Anda ingin meningkatkan kemampuan aplikasi Java dengan menambahkan halaman ke dokumen XPS, Anda berada di tempat yang tepat. Dalam tutorial ini, kami akan memandu Anda melalui proses menggunakan Aspose.Page untuk Java. Aspose.Page adalah perpustakaan yang kuat dan serbaguna yang menyederhanakan manipulasi file XPS, menjadikannya pilihan ideal bagi pengembang yang mencari solusi efisien.
 ## Prasyarat
@@ -54,3 +60,9 @@ Sangat. Aspose.Page adalah perpustakaan tangguh yang dipercaya oleh pengembang d
 Aspose.Page menangani dokumen XPS dengan berbagai ukuran secara efisien, namun selalu merupakan praktik yang baik untuk mengoptimalkan kinerja.
 ### Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Page?
  Mengunjungi[Aspose.Halaman Forum](https://forum.aspose.com/c/page/39) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

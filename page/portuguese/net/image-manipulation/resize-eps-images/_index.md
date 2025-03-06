@@ -3,10 +3,16 @@ title: Redimensione imagens EPS com Aspose.Page para .NET
 linktitle: Redimensionar imagens EPS
 second_title: API Aspose.Page .NET
 description: Explore o processo contínuo de redimensionamento de imagens EPS em .NET usando Aspose.Page. Obtenha precisão em pontos, polegadas, milímetros e porcentagens sem esforço.
-type: docs
 weight: 11
 url: /pt/net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Redimensione imagens EPS com Aspose.Page para .NET
+
 ## Introdução
 
 Você deseja redimensionar imagens EPS perfeitamente usando Aspose.Page for .NET? Este tutorial é o seu guia completo para manipular facilmente o tamanho de imagens EPS em várias unidades, como pontos, polegadas, milímetros e porcentagens. Aspose.Page for .NET fornece um conjunto poderoso de ferramentas e, neste tutorial, orientaremos você no processo passo a passo.
@@ -161,3 +167,9 @@ A2: Aspose.Page concentra-se principalmente nos formatos PostScript e EPS. Para 
 ### P5: Onde posso procurar ajuda adicional ou discutir problemas?
 
  A5: Visite o[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) para se conectar com a comunidade e obter assistência.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

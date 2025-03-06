@@ -3,10 +3,16 @@ title: Adjon csempézett képet az XPS-dokumentumhoz az Aspose.Page for .NET seg
 linktitle: Adjon hozzá csempézett képet az XPS-dokumentumhoz
 second_title: Aspose.Page .NET API
 description: Fedezze fel a csempézett képek egyszerű hozzáadását XPS-dokumentumokhoz az Aspose.Page for .NET segítségével. Növelje a vizuális vonzerőt, és készítsen lenyűgöző dokumentumokat.
-type: docs
 weight: 12
 url: /hu/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon csempézett képet az XPS-dokumentumhoz az Aspose.Page for .NET segítségével
+
 ## Bevezetés
 
 Szeretné javítani XPS-dokumentumait tetszetős csempézett képek hozzáadásával? Az Aspose.Page for .NET lehetővé teszi a fejlesztők számára, hogy ezt zökkenőmentesen elérjék. Ebben a lépésenkénti útmutatóban végigvezetjük a mozaikkép XPS-dokumentumhoz való hozzáadásának folyamatán az Aspose.Page for .NET használatával.
@@ -95,3 +101,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá csempézett képet XPS-d
 ### 5. kérdés: Hol kérhetek segítséget, vagy csatlakozhatok az Aspose.Page közösséghez?
 
  A5: Látogassa meg a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) kapcsolatba lépni a közösséggel, kérdéseket feltenni és megoldásokat találni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

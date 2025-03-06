@@ -3,10 +3,16 @@ title: Lägg till bild till XPS-dokument med Aspose.Page för .NET
 linktitle: Lägg till bild till XPS-dokument
 second_title: Aspose.Page .NET API
 description: Utforska den sömlösa integreringen av bilder i XPS-dokument med Aspose.Page för .NET. Följ vår steg-för-steg-guide för en smidig utvecklingsupplevelse.
-type: docs
 weight: 11
 url: /sv/net/image-management/add-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till bild till XPS-dokument med Aspose.Page för .NET
+
 ## Introduktion
 
 I en värld av .NET-utveckling är det ett vanligt krav att införliva bilder i XPS-dokument. Aspose.Page för .NET förenklar denna process och erbjuder en kraftfull verktygslåda för att manipulera och förbättra XPS-dokument utan ansträngning. Denna handledning guidar dig genom stegen för att lägga till en bild i ett XPS-dokument med Aspose.Page för .NET.
@@ -100,3 +106,9 @@ S2: Ja, Aspose.Page för .NET är plattformsoberoende, vilket gör den lämplig 
 ### F5: Var kan jag söka hjälp eller samarbeta med communityn för Aspose.Page för .NET?
 
  A5: Besök[Aspose.Page för .NET-forum](https://forum.aspose.com/c/page/39) att få kontakt med samhället och få stöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

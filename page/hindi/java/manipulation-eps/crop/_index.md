@@ -3,10 +3,16 @@ title: जावा में ईपीएस फ़ाइलें क्रॉ
 linktitle: जावा में ईपीएस फ़ाइल क्रॉप करें
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page का उपयोग करके जावा में EPS फ़ाइलों को क्रॉप करने पर चरण-दर-चरण मार्गदर्शिका देखें। अपने दस्तावेज़ हेरफेर कौशल को सहजता से बढ़ाएं।
-type: docs
 weight: 10
 url: /hi/java/manipulation-eps/crop/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में ईपीएस फ़ाइलें क्रॉप करें - Aspose.Page के साथ चरण-दर-चरण मार्गदर्शिका
+
 ## परिचय
 क्या आप अपने जावा एप्लिकेशन में ईपीएस फ़ाइलों में हेरफेर करना चाह रहे हैं और सोच रहे हैं कि उन्हें कुशलतापूर्वक कैसे क्रॉप किया जाए? आगे कोई तलाश नहीं करें! इस व्यापक गाइड में, हम आपको जावा लाइब्रेरी के लिए शक्तिशाली Aspose.Page का उपयोग करके ईपीएस फ़ाइलों को क्रॉप करने की चरण-दर-चरण प्रक्रिया के बारे में बताएंगे।
 ## आवश्यक शर्तें
@@ -69,3 +75,9 @@ doc.cropEps(outputEpsStream, newBoundingBox);
  उत्तर: हाँ, आप निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: मैं अस्थायी लाइसेंस कैसे प्राप्त करूं?
  उत्तर: एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

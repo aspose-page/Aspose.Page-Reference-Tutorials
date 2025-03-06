@@ -3,10 +3,16 @@ title: Μετατροπή εγγράφου
 linktitle: Μετατροπή εγγράφου
 second_title: Aspose.Page .NET API
 description: Μετατρέψτε εύκολα το PostScript σε PDF και το XPS σε PDF με το Aspose.Page για σεμινάρια .NET. Ισχυρές, αξιόπιστες και εύκολες λύσεις για απρόσκοπτη μετατροπή εγγράφων.
-type: docs
 weight: 24
 url: /el/net/document-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή εγγράφου
+
 
 ## Εισαγωγή
 
@@ -34,3 +40,9 @@ url: /el/net/document-conversion/
 Μετατρέψτε εύκολα το PostScript σε PDF χρησιμοποιώντας το Aspose.Page για .NET. Στιβαρό, αξιόπιστο και φιλικό προς τους προγραμματιστές.
 ### [Μετατροπή XPS σε PDF με το Aspose.Page για .NET](./convert-xps-to-pdf/)
 Μετατρέψτε εύκολα XPS σε PDF σε .NET με το Aspose.Page. Κατεβάστε τη βιβλιοθήκη, εξερευνήστε την τεκμηρίωση και αποκτήστε μια δωρεάν δοκιμή.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

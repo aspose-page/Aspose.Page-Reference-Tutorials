@@ -3,10 +3,16 @@ title: قم بتعديل مستند XPS باستخدام Aspose.Page لـ .NET
 linktitle: تعديل مستند XPS
 second_title: Aspose.Page .NET API
 description: اكتشف قوة Aspose.Page لـ .NET لتعديل مستندات XPS بسهولة. اتبع دليلنا المفصّل خطوة بخطوة، وحسّن عملية معالجة مستنداتك، وأضف نصوص توقيع مخصصة.
-type: docs
 weight: 12
 url: /ar/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعديل مستند XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول كيفية تعديل مستندات XPS باستخدام Aspose.Page لـ .NET. Aspose.Page هي مكتبة قوية تمكن المطورين من العمل مع ملفات XPS دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة نص التوقيع "مؤكد" إلى صفحات محددة في مستند XPS.
@@ -119,3 +125,9 @@ A3: تم تصميم Aspose.Page للتعامل مع المستندات ذات ا
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose؟
 
  ج5: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لطرح الأسئلة والتفاعل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Agregue degradado vertical a XPS con Aspose.Page para .NET
 linktitle: Agregar degradado vertical a XPS
 second_title: Aspose.Página .NET API
 description: Aprenda cómo mejorar documentos XPS con degradados verticales usando Aspose.Page para .NET. Siga nuestra guía paso a paso para una integración perfecta.
-type: docs
 weight: 15
 url: /es/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue degradado vertical a XPS con Aspose.Page para .NET
+
 ## Introducción
 
 Bienvenido a este tutorial paso a paso sobre cómo agregar un degradado vertical a un documento XPS usando Aspose.Page para .NET. Aspose.Page es una API potente que le permite trabajar con archivos XPS (especificación de papel XML) en sus aplicaciones .NET. En este tutorial, lo guiaremos a través del proceso de crear un nuevo documento XPS, agregar un degradado vertical a una ruta y guardar el resultado.
@@ -117,3 +123,9 @@ R1: Sí, Aspose.Page es compatible con Visual Studio 2019. Asegúrese de tener i
 ### P5: ¿Cómo puedo obtener asistencia o hacer preguntas?
 
  A5: Visita el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para el apoyo de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ξεκινώντας
 linktitle: Ξεκινώντας
 second_title: Aspose.Page .NET API
 description: Ξεκλειδώστε τη δύναμη του Aspose.Page .NET με οδηγίες βήμα προς βήμα. Εφαρμόστε μετρημένες άδειες, φορτώστε από αρχεία ή ροές, ασφαλίστε άδειες και πολλά άλλα.
-type: docs
 weight: 20
 url: /el/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ξεκινώντας
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον απόλυτο οδηγό στο Aspose.Page για εκπαιδευτικά προγράμματα .NET. Βουτήξτε σε έναν κόσμο απρόσκοπτης επεξεργασίας εγγράφων, όπου η αποτελεσματικότητα συναντά την απλότητα. Ας ξεκινήσουμε ένα ταξίδι για να αξιοποιήσουμε πλήρως τις δυνατότητες αυτού του ισχυρού εργαλείου μέσω μιας σειράς περιεκτικών σεμιναρίων.
@@ -38,3 +44,9 @@ url: /el/net/getting-started/
 Ασφαλίστε την άδεια χρήσης Aspose.Page για .NET χωρίς κόπο με τον αναλυτικό οδηγό μας. Ξεκλειδώστε πλήρως τις δυνατότητες για απρόσκοπτη διαχείριση σελίδων στις εφαρμογές σας .NET.
 ### [Ορισμός άδειας χρήσης με χρήση ενσωματωμένου πόρου με το Aspose.Page για .NET](./set-license-using-embedded-resource/)
 Μάθετε πώς να ορίζετε μια άδεια χρήσης χρησιμοποιώντας ενσωματωμένους πόρους με το Aspose.Page για .NET. Διασφαλίστε τη συμμόρφωση και ξεκλειδώστε το πλήρες δυναμικό της επεξεργασίας εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

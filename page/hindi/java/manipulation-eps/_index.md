@@ -3,10 +3,16 @@ title: जावा में ईपीएस हेरफेर
 linktitle: जावा में ईपीएस हेरफेर
 second_title: Aspose.Page जावा एपीआई
 description: ईपीएस हेरफेर पर हमारे ट्यूटोरियल के साथ जावा के लिए Aspose.Page का अन्वेषण करें। चरण-दर-चरण मार्गदर्शिकाओं के साथ आसानी से ईपीएस फ़ाइलों को काटें और आकार बदलें, जिससे आपके दस्तावेज़ कौशल में वृद्धि होगी।
-type: docs
 weight: 24
 url: /hi/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में ईपीएस हेरफेर
+
 
 ## परिचय
 
@@ -42,3 +48,9 @@ url: /hi/java/manipulation-eps/
 Aspose.Page का उपयोग करके जावा में EPS फ़ाइलों को क्रॉप करने पर चरण-दर-चरण मार्गदर्शिका देखें। अपने दस्तावेज़ हेरफेर कौशल को सहजता से बढ़ाएं। 
 ### [जावा में ईपीएस फ़ाइल का आकार बदलें](./resize/)
 जावा के लिए Aspose.Page के साथ आसानी से जावा में EPS फ़ाइलों का आकार बदलना सीखें। चरण-दर-चरण निर्देशों के लिए हमारी व्यापक मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

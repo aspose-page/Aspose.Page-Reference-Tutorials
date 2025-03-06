@@ -3,10 +3,16 @@ title: รูปร่าง - XPS
 linktitle: รูปร่าง - XPS
 second_title: Aspose.Page Java API
 description: ค้นพบเวทมนตร์ Java XPS ด้วยบทช่วยสอน Aspose.Page! เพิ่มวงรีและสี่เหลี่ยมที่น่าดึงดูดได้อย่างง่ายดาย ยกระดับการสร้างเอกสารด้วยคำแนะนำทีละขั้นตอนของเรา
-type: docs
 weight: 35
 url: /th/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รูปร่าง - XPS
+
 ## การแนะนำ
 
 คุณพร้อมที่จะเจาะลึกขอบเขตอันน่าทึ่งของการสร้างเอกสารโดยใช้ Java XPS แล้วหรือยัง? ไม่ต้องมองไปไกลกว่า Aspose.Page เพื่อนคู่ใจของคุณสำหรับการปลดล็อคศักยภาพเต็มรูปแบบของการปรับแต่งรูปร่าง ในชุดบทช่วยสอนนี้ เราจะแนะนำคุณเกี่ยวกับความซับซ้อนในการเพิ่มรูปร่างที่น่าดึงดูด เพื่อให้มั่นใจว่าเอกสารของคุณโดดเด่นอย่างง่ายดาย
@@ -33,3 +39,9 @@ url: /th/java/xps-shapes/
 สำรวจคำแนะนำทีละขั้นตอนเกี่ยวกับการเพิ่มวงรีลายเส้นแบบไล่ระดับสีใน Java XPS โดยใช้ Aspose.Page สำหรับ Java ปรับปรุงการสร้างเอกสารของคุณได้อย่างง่ายดาย
 ### [เพิ่มสี่เหลี่ยมผืนผ้าใน Java XPS](./add-rectangle/)
 เรียนรู้วิธีเพิ่มสี่เหลี่ยมใน Java XPS โดยใช้ Aspose.Page ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการเอกสารที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

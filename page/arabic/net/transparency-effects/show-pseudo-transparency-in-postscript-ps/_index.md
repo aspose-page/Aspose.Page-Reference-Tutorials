@@ -3,10 +3,16 @@ title: إظهار الشفافية الزائفة في PostScript (PS) باست�
 linktitle: إظهار الشفافية الزائفة في بوستسكريبت (PS)
 second_title: Aspose.Page .NET API
 description: اكتشف قوة الشفافية الزائفة في PostScript باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على مستندات مذهلة بصريًا.
-type: docs
 weight: 13
 url: /ar/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إظهار الشفافية الزائفة في PostScript (PS) باستخدام Aspose.Page
+
 ## مقدمة
 
 هل تتطلع إلى تحسين المظهر المرئي لمستندات PostScript (PS) الخاصة بك من خلال دمج الشفافية الزائفة؟ يوفر Aspose.Page for .NET حلاً قويًا لتحقيق هذا التأثير دون عناء. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال عملية إظهار الشفافية الزائفة في PostScript باستخدام Aspose.Page.
@@ -129,3 +135,9 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page؟
 
  ج5: زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لصفحة Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

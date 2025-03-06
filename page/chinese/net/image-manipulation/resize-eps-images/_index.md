@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 调整 EPS 图像大小
 linktitle: 调整 EPS 图像的大小
 second_title: Aspose.Page .NET API
 description: 探索使用 Aspose.Page 在 .NET 中调整 EPS 图像大小的无缝过程。轻松实现点、英寸、毫米和百分比的精度。
-type: docs
 weight: 11
 url: /zh/net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 调整 EPS 图像大小
+
 ## 介绍
 
 您是否希望使用 Aspose.Page for .NET 无缝调整 EPS 图像的大小？本教程是您轻松操作各种单位（例如点、英寸、毫米和百分比）的 EPS 图像尺寸的综合指南。 Aspose.Page for .NET 提供了一组强大的工具，在本教程中，我们将逐步引导您完成该过程。
@@ -161,3 +167,9 @@ A2：Aspose.Page 主要关注 PostScript 和 EPS 格式。对于其他图像格�
 ### Q5：我可以在哪里寻求更多帮助或讨论问题？
 
  A5：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)与社区联系并获得帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

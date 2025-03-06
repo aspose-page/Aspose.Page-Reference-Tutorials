@@ -3,10 +3,16 @@ title: 캔버스 조작
 linktitle: 캔버스 조작
 second_title: Aspose.페이지 .NET API
 description: 캔버스 조작에 대한 .NET 튜토리얼용 Aspose.Page를 살펴보세요. PS 및 XPS 문서를 쉽게 자르고 변환할 수 있습니다. 문서 처리 기술을 향상시키세요.
-type: docs
 weight: 21
 url: /ko/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 캔버스 조작
+
 
 ## 소개
 
@@ -42,3 +48,9 @@ XPS 문서 클리핑에 대한 단계별 가이드에서 .NET용 Aspose.Page의 
 PostScript 변환에 대한 포괄적인 가이드를 통해 Aspose.Page for .NET의 잠재력을 활용해 보세요. 역동적인 그래픽을 쉽게 만들어 보세요.
 ### [.NET용 Aspose.Page를 사용한 변환 XPS](./transformationsxps/)
 .NET용 Aspose.Page를 사용하여 XPS 문서를 손쉽게 변환하세요. 원활한 변환을 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

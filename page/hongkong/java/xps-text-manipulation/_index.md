@@ -3,10 +3,16 @@ title: 文字處理 - XPS
 linktitle: 文字處理 - XPS
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 徹底改變您的 Java XPS 文件。探索有關文字操作的逐步指南。提升您的技能，輕鬆增強文件。
-type: docs
 weight: 37
 url: /zh-hant/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文字處理 - XPS
+
 
 使用 Aspose.Page 教學課程徹底改變您的 Java XPS 文件。探索有關文字操作的逐步指南。提升您的技能，輕鬆增強文件。
 
@@ -36,3 +42,9 @@ Aspose.Page for Java 讓開發人員能夠輕鬆操作 XPS 文件。無論您是
 ## 文字操作 - XPS 教程
 ### [在 Java XPS 中加入文本](./add-text/)
 使用 Aspose.Page 增強您的 Java XPS 文件！按照我們的逐步指南輕鬆添加文字。立即提升您的文件操作技能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

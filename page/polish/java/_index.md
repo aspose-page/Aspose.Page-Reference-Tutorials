@@ -1,12 +1,17 @@
 ---
 title: Kompleksowe samouczki i przykłady Aspose.Page dla Java
 linktitle: Aspose.Page z samouczkami Java
-type: docs
 weight: 10
 url: /pl/java/
 description: Odblokuj sekrety manipulacji stroną Java dzięki samouczkom Aspose.Page. Zanurz się w przycinaniu, transformacjach i nie tylko, aby bez wysiłku uzyskać oszałamiające wizualnie dokumenty.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kompleksowe samouczki i przykłady Aspose.Page dla Java
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść swoje umiejętności przetwarzania dokumentów Java? Zanurz się w świat Aspose.Page dla Java dzięki naszym obszernym samouczkom i przykładom. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, nasze przewodniki krok po kroku odblokują pełny potencjał Aspose.Page dla Java.
@@ -76,3 +81,9 @@ Podnieś poziom swoich dokumentów Java XPS bez wysiłku dzięki Aspose.Page. Na
 Podnieś jakość wizualizacji swojego dokumentu Java bez wysiłku dzięki Aspose.Page! W tym samouczku krok po kroku dowiesz się, jak ulepszyć swoją aplikację, dodając siatki za pomocą pędzla wizualnego.
 ### [Manipulacja metadanymi XMP — Java](./xmp-metadata-manipulation/)
 Bez wysiłku ulepszaj pliki EPS za pomocą manipulacji metadanymi XMP — od dodawania elementów po wyodrębnianie. Usprawnij zarządzanie dokumentami dzięki naszym przewodnikom.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

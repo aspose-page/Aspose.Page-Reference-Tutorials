@@ -3,10 +3,16 @@ title: ファイルの結合
 linktitle: ファイルの結合
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して、PostScript ファイルを PDF に簡単にマージし、XPS を PDF または Java の XPS に変換します。段階的なチュートリアルに従って、シームレスなドキュメント変換を行ってください。
-type: docs
 weight: 31
 url: /ja/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ファイルの結合
+
 
 ## 導入
 
@@ -40,3 +46,9 @@ Aspose.Page を使用すると、Java で PostScript ファイルを PDF に簡�
 Aspose.Page を使用して Java で XPS を PDF に簡単に変換する方法を学びましょう。効率的にドキュメントを変換するには、ステップバイステップのガイドに従ってください。
 ### [Java で XPS を XPS に変換する](./xps-to-xps/)
 Aspose.Page を使用して Java で XPS ファイルをシームレスにマージする方法を学びます。効率的に文書を操作するには、ステップバイステップのガイドに従ってください。今すぐ Java 開発スキルを向上させましょう!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

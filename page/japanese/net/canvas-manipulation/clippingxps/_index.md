@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用した XPS のクリッピング
 linktitle: クリッピング XPS
 second_title: Aspose.Page .NET API
 description: XPS ドキュメントのクリッピングに関するこのステップバイステップ ガイドで、Aspose.Page for .NET の威力を探ってください。 XPS ファイルを簡単に作成、操作、保存できます。
-type: docs
 weight: 11
 url: /ja/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用した XPS のクリッピング
+
 ## 導入
 
 Aspose.Page for .NET を使用した XPS のクリッピングに関するこの包括的なチュートリアルへようこそ。このガイドでは、Aspose.Page for .NET を使用して XPS ドキュメントを作成、操作、保存するプロセスについて説明します。 XPS (XML Paper 仕様) は、標準化されたオープンなドキュメント形式であり、Aspose.Page for .NET は、.NET アプリケーションで XPS ドキュメントを操作するための強力なツールを提供します。
@@ -156,3 +162,9 @@ A2: はい、Aspose.Page for .NET はユーザーフレンドリーになるよ�
 ### Q5: Aspose.Page for .NET の無料トライアルはありますか?
 
  A5: はい、無料トライアルを試すことができます[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

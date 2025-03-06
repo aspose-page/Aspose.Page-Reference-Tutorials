@@ -3,10 +3,16 @@ title: 紋理處理
 linktitle: 紋理處理
 second_title: Aspose.Page .NET API
 description: 以令人驚嘆的視覺效果增強 PostScript 文件！透過我們的逐步指南，學習使用 Aspose.Page for .NET 應用紋理平鋪圖案。
-type: docs
 weight: 33
 url: /zh-hant/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 紋理處理
+
 ## 介紹
 
 在文件操作領域，掌握紋理處理可以釋放創意可能性的世界。對於尋求將 PostScript (PS) 文件提升到新高度的開發人員來說，Aspose.Page for .NET 是一個強大的盟友。在本文中，我們將深入探討紋理處理教學的迷人領域，特別關注紋理平鋪模式的應用。
@@ -36,3 +42,9 @@ Aspose.Page 是一個可靠且功能豐富的函式庫，用於處理文件處�
 ## 紋理處理教學
 ### [使用 Aspose.Page 將紋理平鋪模式套用至 PostScript (PS)](./apply-texture-tiling-pattern-to-postscript-ps/)
 使用 Aspose.Page for .NET 透過紋理平鋪圖案增強 PostScript (PS) 文件。請按照我們的逐步指南進行創意操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

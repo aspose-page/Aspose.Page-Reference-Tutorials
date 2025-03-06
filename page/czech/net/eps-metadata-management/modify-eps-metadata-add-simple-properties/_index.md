@@ -3,10 +3,16 @@ title: Přidejte jednoduché vlastnosti pomocí Aspose.Page pro .NET
 linktitle: Přidat jednoduché vlastnosti
 second_title: Aspose.Page .NET API
 description: Vylepšete soubory EPS pomocí Aspose.Page for .NET. Přidejte jednoduché vlastnosti bez námahy pro přizpůsobená metadata dokumentu.
-type: docs
 weight: 14
 url: /cs/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte jednoduché vlastnosti pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 V oblasti manipulace a vylepšování dokumentů se Aspose.Page for .NET ukazuje jako výkonný nástroj, který vývojářům poskytuje možnost bezproblémově přidávat a upravovat metadata XMP v souborech EPS. Tento tutoriál vás provede procesem přidávání jednoduchých vlastností do souboru EPS pomocí Aspose.Page for .NET.
@@ -120,3 +126,9 @@ A3: Aspose.Page for .NET podporuje různé datové typy pro vlastnosti, včetně
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.Page pro .NET?
 
  A5: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

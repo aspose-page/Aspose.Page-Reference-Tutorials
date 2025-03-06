@@ -3,10 +3,16 @@ title: Elementos Visuais - Java
 linktitle: Elementos Visuais - Java
 second_title: API Java Aspose.Page
 description: Eleve o visual do seu documento Java sem esforço com Aspose.Page! Aprenda a aprimorar seu aplicativo adicionando grades usando o Visual Brush neste tutorial passo a passo.
-type: docs
 weight: 41
 url: /pt/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Elementos Visuais - Java
+
 ## Introdução
 
 Desenvolvedores Java, alegrem-se! Mergulhe no reino dos elementos visuais com os tutoriais Aspose.Page que prometem transformar o visual do seu documento Java. Nesta edição, nos concentramos na arte cativante de adicionar grades usando o Visual Brush. Aperte os cintos enquanto embarcamos em uma jornada para aumentar o apelo do seu aplicativo.
@@ -46,3 +52,9 @@ Concluindo, Aspose.Page for Java surge como a solução ideal para desenvolvedor
 ## Elementos Visuais - Tutoriais Java
 ### [Adicionar grade usando Visual Brush em Java](./add-grid/)
 Aprimore o visual dos documentos Java com Aspose.Page! Aprenda a adicionar grades usando o Visual Brush passo a passo. Aumente o apelo do seu aplicativo sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

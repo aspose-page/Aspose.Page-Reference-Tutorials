@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 스트림 개체에서 라이센스 �
 linktitle: 스트림 개체에서 라이센스 로드
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page를 사용하여 .NET에서 문서 조작을 잠금 해제하세요. 스트림 개체에서 라이선스를 원활하게 로드하려면 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 스트림 개체에서 라이센스 로드
+
 ## 소개
 
 .NET 개발 기술을 한 단계 더 발전시킬 준비가 되셨습니까? 특히 페이지 조작의 맥락에서 문서 작업의 필요성을 느낀 적이 있다면 Aspose.Page for .NET이 완벽한 동반자입니다. 이 포괄적인 가이드에서는 .NET용 Aspose.Page의 기능을 활용하는 기본 단계인 스트림 개체에서 라이선스를 로드하는 프로세스를 안내합니다.
@@ -111,3 +117,9 @@ A1: 예, Aspose.Page는 모든 버전의 .NET에서 원활하게 작동하도록
 ### Q5: 다른 라이선스 계획으로 업그레이드할 수 있나요?
 
  A5: 다양한 라이선스 옵션을 살펴보고 업그레이드하세요.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

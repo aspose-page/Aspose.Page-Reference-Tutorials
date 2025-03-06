@@ -3,10 +3,16 @@ title: ครอบตัดไฟล์ EPS ใน Java - คำแนะนำ
 linktitle: ครอบตัดไฟล์ EPS ใน Java
 second_title: Aspose.Page Java API
 description: สำรวจคำแนะนำทีละขั้นตอนเกี่ยวกับการครอบตัดไฟล์ EPS ใน Java โดยใช้ Aspose.Page เพิ่มทักษะการจัดการเอกสารของคุณได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/manipulation-eps/crop/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ครอบตัดไฟล์ EPS ใน Java - คำแนะนำทีละขั้นตอนด้วย Aspose.Page
+
 ## การแนะนำ
 คุณกำลังมองหาการจัดการไฟล์ EPS ในแอปพลิเคชัน Java ของคุณและสงสัยว่าจะครอบตัดไฟล์เหล่านั้นอย่างมีประสิทธิภาพได้อย่างไรใช่หรือไม่ ไม่ต้องมองอีกต่อไป! ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดขั้นตอนของการครอบตัดไฟล์ EPS โดยใช้ Aspose.Page สำหรับไลบรารี Java อันทรงพลัง
 ## ข้อกำหนดเบื้องต้น
@@ -69,3 +75,9 @@ doc.cropEps(outputEpsStream, newBoundingBox);
  ตอบ: ได้ คุณสามารถทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะได้รับใบอนุญาตชั่วคราวได้อย่างไร
  ตอบ: รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

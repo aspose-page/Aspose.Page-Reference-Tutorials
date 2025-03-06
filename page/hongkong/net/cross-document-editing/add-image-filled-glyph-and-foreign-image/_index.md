@@ -3,10 +3,16 @@ title: 使用 Aspose.Page .NET 新增圖像填滿字形和外部圖像
 linktitle: 新增影像填充字形和外部影像
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page 釋放 .NET 中文件處理的強大功能。輕鬆新增影像填滿的字形。增強視覺效果並簡化您的工作流程。
-type: docs
 weight: 11
 url: /zh-hant/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page .NET 新增圖像填滿字形和外部圖像
+
 ## 介紹
 
 在 .NET 開發領域，Aspose.Page 作為處理文件處理任務的強大工具包脫穎而出。本教學將引導您完成使用 Aspose.Page for .NET 新增影像填滿字形和合併外部影像的過程。讀完本指南後，您將對如何增強文件處理能力有深入的了解。
@@ -131,3 +137,9 @@ A4：是的，您可以單獨為每個字形自訂樣式，提供高度的靈活
 ### Q5：與其他文件處理工具相比，使用Aspose.Page有什麼好處？
 
 A5：Aspose.Page 提供了全面的功能、出色的性能和豐富的文檔，使其成為許多開發人員的首選。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

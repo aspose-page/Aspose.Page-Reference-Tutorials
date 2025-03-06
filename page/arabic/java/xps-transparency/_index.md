@@ -3,10 +3,16 @@ title: الشفافية - XPS
 linktitle: الشفافية - XPS
 second_title: Aspose.Page جافا API
 description: ارفع مستوى مستندات Java XPS الخاصة بك بسهولة باستخدام Aspose.Page. تعلم كيفية إضافة كائنات شفافة وتعيين أقنعة العتامة في برامجنا التعليمية للحصول على تأثيرات بصرية محسنة.
-type: docs
 weight: 40
 url: /ar/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الشفافية - XPS
+
 ## مقدمة
 
 هل تتطلع إلى الارتقاء بمستندات Java XPS الخاصة بك إلى المستوى التالي؟ انغمس في عالم تأثيرات الشفافية باستخدام Aspose.Page، وافتح عالمًا من الإمكانيات المذهلة بصريًا. في هذا الدليل الشامل، سنوجهك عبر برنامجين تعليميين أساسيين: إضافة كائنات شفافة وإعداد أقنعة العتامة.
@@ -47,3 +53,9 @@ url: /ar/java/xps-transparency/
 قم بتحسين مستندات Java XPS الخاصة بك بتأثيرات الشفافية المذهلة باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة لإضافة كائنات شفافة. 
 ### [قم بتعيين قناع العتامة في Java XPS](./set-opacity-mask/)
 اكتشف قوة إعداد أقنعة العتامة في Java XPS باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للحصول على تجربة مستندات محسنة بصريًا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

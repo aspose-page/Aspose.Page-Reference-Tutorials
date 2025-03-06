@@ -3,10 +3,16 @@ title: Tùy chỉnh Java PostScript - Thêm hình chữ nhật với Aspose.Page
 linktitle: Thêm hình chữ nhật trong Java PostScript
 second_title: API Java Aspose.Page
 description: Khám phá hướng dẫn từng bước về cách thêm hình chữ nhật sống động vào tài liệu Java PostScript bằng Aspose.Page cho Java. Tăng cường tùy chỉnh tài liệu của bạn một cách dễ dàng!
-type: docs
 weight: 11
 url: /vi/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh Java PostScript - Thêm hình chữ nhật với Aspose.Page
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao tài liệu Java PostScript của mình bằng các hình chữ nhật sống động? Đừng tìm đâu xa! Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách sử dụng Aspose.Page cho Java để thêm hình chữ nhật vào tài liệu PostScript của bạn. Aspose.Page là một thư viện mạnh mẽ cung cấp các tính năng mạnh mẽ để làm việc với các tệp PostScript, khiến nó trở thành lựa chọn lý tưởng cho các nhà phát triển đang tìm cách thao tác và tùy chỉnh tài liệu của họ.
 ## Điều kiện tiên quyết
@@ -72,3 +78,9 @@ Aspose.Page chủ yếu hỗ trợ Java, nhưng các thư viện tương tự c�
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua phiên bản Aspose.Page được cấp phép cho Java ở đâu?
  Mua phiên bản được cấp phép[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dokumentenerstellung
 linktitle: Dokumentenerstellung
 second_title: Aspose.Page .NET-API
 description: Erstellen Sie mühelos beeindruckende XPS- und PostScript-Dokumente mit Aspose.Page für .NET. Entdecken Sie Tutorials zur Dokumenterstellung und -änderung für eine nahtlose Integration.
-type: docs
 weight: 23
 url: /de/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentenerstellung
+
 ## Einführung
 
 Aspose.Page für .NET öffnet die Tür zu einer Welt voller Möglichkeiten bei der Erstellung elektronischer Dokumente. Ganz gleich, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen: Unsere Schritt-für-Schritt-Anleitung hilft Ihnen dabei, mühelos XPS- und PostScript-Dokumente zu erstellen.
@@ -36,3 +42,9 @@ Entdecken Sie die Welt der XPS-Dokumenterstellung mit Aspose.Page für .NET. Bef
 Erfahren Sie, wie Sie mit Aspose.Page PostScript-Dokumente in .NET erstellen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration. Laden Sie die Bibliothek herunter und beginnen Sie mühelos mit der Bearbeitung von PostScript-Dateien.
 ### [Ändern Sie das XPS-Dokument mit Aspose.Page für .NET](./modify-xps-document/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.Page für .NET, um XPS-Dokumente mühelos zu ändern. Folgen Sie unserer Schritt-für-Schritt-Anleitung, verbessern Sie Ihre Dokumentenverarbeitung und fügen Sie personalisierte Signaturtexte hinzu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

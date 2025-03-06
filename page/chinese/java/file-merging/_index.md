@@ -3,10 +3,16 @@ title: 文件合并
 linktitle: 文件合并
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 轻松将 PostScript 文件合并为 PDF，并将 XPS 转换为 PDF 或在 Java 中转换 XPS。按照分步教程进行无缝文档转换。
-type: docs
 weight: 31
 url: /zh/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文件合并
+
 
 ## 介绍
 
@@ -40,3 +46,9 @@ Aspose.Page for Java 打开了文档转换和操作的无限可能世界之门�
 了解如何使用 Aspose.Page 在 Java 中轻松将 XPS 转换为 PDF。请按照我们的分步指南进行高效的文档转换。
 ### [在 Java 中将 XPS 转换为 XPS](./xps-to-xps/)
 了解如何使用 Aspose.Page 在 Java 中无缝合并 XPS 文件。请按照我们的分步指南进行高效的文档操作。立即提升您的 Java 开发技能！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

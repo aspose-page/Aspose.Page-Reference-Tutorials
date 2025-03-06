@@ -3,10 +3,16 @@ title: إضافة التدرج الأفقي في جافا بوستسكريبت
 linktitle: إضافة التدرج الأفقي في جافا بوستسكريبت
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إضافة تدرج أفقي في Java PostScript باستخدام Aspose.Page لـ Java. قم بإنشاء مستندات مذهلة بصريًا دون عناء.
-type: docs
 weight: 11
 url: /ar/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة التدرج الأفقي في جافا بوستسكريبت
+
 ## مقدمة
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول إضافة تدرج أفقي في Java PostScript باستخدام Aspose.Page لـ Java. Aspose.Page هي مكتبة Java قوية تتيح للمطورين العمل مع PostScript وتنسيقات المستندات الأخرى. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستند PostScript بتدرج أفقي باستخدام أمثلة خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -82,3 +88,9 @@ document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
  يمكنك الحصول على ترخيص مؤقت من[Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 ### ما هي متطلبات النظام لـ Aspose.Page لـ Java؟
  الرجوع إلى[توثيق](https://reference.aspose.com/page/java/) لمتطلبات النظام التفصيلية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

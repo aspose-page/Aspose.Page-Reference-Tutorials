@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.Page cho .NET
 linktitle: Aspose.Page cho các hướng dẫn .NET
-type: docs
 weight: 10
 url: /vi/net/
 description: Khám phá Aspose.Page để biết tiềm năng của .NET với các hướng dẫn bao gồm việc tạo, thao tác và nâng cao. Nắm vững các kỹ thuật cơ bản đến nâng cao một cách dễ dàng.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng phát huy toàn bộ tiềm năng của Aspose.Page cho .NET chưa? Đừng tìm đâu xa! Hướng dẫn toàn diện của chúng tôi bao gồm mọi khía cạnh, từ chức năng cơ bản đến kỹ thuật nâng cao, đảm bảo bạn trở thành người dùng thành thạo.
@@ -115,3 +120,9 @@ Khám phá sự kỳ diệu của hiệu ứng trong suốt trong tài liệu c�
 Nâng cao khả năng xử lý tài liệu của bạn trong .NET với các hướng dẫn về Aspose.Page. Đi sâu vào lĩnh vực Visual Brushes, nắm vững các kỹ thuật để tạo ra các tài liệu có hình ảnh ấn tượng.
 ### [Quản lý siêu dữ liệu EPS](./eps-metadata-management/)
 Nâng cao tổ chức EPS với Aspose.Page cho .NET. Thêm siêu dữ liệu dễ dàng để nâng cao khả năng truy cập. Khám phá hướng dẫn quản lý siêu dữ liệu EPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

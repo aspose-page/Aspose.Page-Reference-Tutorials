@@ -3,10 +3,16 @@ title: Fügen Sie einen horizontalen Farbverlauf in Java XPS hinzu
 linktitle: Fügen Sie einen horizontalen Farbverlauf in Java XPS hinzu
 second_title: Aspose.Page Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Page XPS-Dokumenten in Java einen beeindruckenden horizontalen Farbverlauf hinzufügen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 11
 url: /de/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie einen horizontalen Farbverlauf in Java XPS hinzu
+
 ## Einführung
 Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Hinzufügen eines horizontalen Farbverlaufs in Java XPS mit Aspose.Page für Java. Aspose.Page für Java ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit XPS-Dokumenten (XML Paper Specification) ermöglicht.
 In diesem Tutorial führen wir Sie durch den Prozess der Erstellung einer Java-Anwendung zum Hinzufügen eines horizontalen Farbverlaufs zu einem XPS-Dokument. Befolgen Sie die nachstehenden Schritte, um dies ganz einfach zu erreichen.
@@ -70,3 +76,9 @@ Ja, neben linearen Farbverläufen unterstützt Aspose.Page auch radiale Farbverl
 Absolut! Sie haben die volle Kontrolle über die Farben und Positionen jedes Verlaufsstopps.
 ### F: Gibt es ein Community-Forum für Aspose.Page, in dem ich Hilfe suchen kann?
  Ja, Sie können die besuchen[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) um mit der Community in Kontakt zu treten und Hilfe zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

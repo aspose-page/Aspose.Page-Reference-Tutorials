@@ -3,10 +3,16 @@ title: Redigering över flera dokument
 linktitle: Redigering över flera dokument
 second_title: Aspose.Page .NET API
 description: Lås upp potentialen hos Aspose.Page för .NET med våra tutorials. Lägg till glyph-kloner, ändra färger och manipulera sidor utan ansträngning i XPS-dokument.
-type: docs
 weight: 22
 url: /sv/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Redigering över flera dokument
+
 
 ## Introduktion
 
@@ -34,3 +40,9 @@ Utforska kraften i Aspose.Page för .NET i denna omfattande handledning. Lär di
 Lås upp kraften i dokumentbehandling i .NET med Aspose.Page. Lägg till bildfyllda glyfer utan ansträngning. Förbättra bilder och effektivisera ditt arbetsflöde.
 ### [Manipulera sidor med Aspose.Page för .NET](./manipulate-pages/)
 Utforska sidmanipulation i .NET med Aspose.Page, ett kraftfullt bibliotek för hantering av XPS-dokument. Följ vår steg-för-steg-guide för effektiva resultat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

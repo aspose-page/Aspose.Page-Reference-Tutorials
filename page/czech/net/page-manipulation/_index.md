@@ -3,10 +3,16 @@ title: Manipulace se stránkou
 linktitle: Manipulace se stránkou
 second_title: Aspose.Page .NET API
 description: Objevte sílu Aspose.Page for .NET při manipulaci s dokumenty PostScript a XPS. Naučte se přidávat, vylepšovat a odstraňovat stránky pomocí našich komplexních výukových programů.
-type: docs
 weight: 29
 url: /cs/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace se stránkou
+
 
 ## Úvod
 
@@ -35,3 +41,9 @@ Prozkoumejte Aspose.Page for .NET dokonalé řešení pro bezproblémovou manipu
 Vylepšete své aplikace .NET tím, že se naučíte přidávat stránky do dokumentů XPS pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
 ### [Odebrat stránku z dokumentu XPS pomocí Aspose.Page for .NET](./remove-page-from-xps-document/)
 Prozkoumejte obsáhlý návod na odstraňování stránek z dokumentů XPS pomocí Aspose.Page for .NET. Naučte se krok za krokem proces, předpoklady a často kladené otázky pro bezproblémovou manipulaci s dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

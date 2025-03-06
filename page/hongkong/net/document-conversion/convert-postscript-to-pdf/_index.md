@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將 PostScript 轉換為 PDF
 linktitle: 將 PostScript 轉換為 PDF
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 輕鬆將 PostScript 轉換為 PDF。健壯、可靠且對開發人員友善。
-type: docs
 weight: 10
 url: /zh-hant/net/document-conversion/convert-postscript-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將 PostScript 轉換為 PDF
+
 ## 介紹
 
 在不斷發展的軟體開發領域，Aspose.Page for .NET 成為無縫 PostScript 轉換到 PDF 的強大工具。本教學將引導您完成使用 Aspose.Page for .NET 將 PostScript 檔案高效率地轉換為 PDF 格式的流程。無論您是經驗豐富的開發人員還是剛入門，本逐步指南都將協助您利用 Aspose.Page 的功能。
@@ -130,3 +136,9 @@ A2：當然。如教程中所示，您可以指定其他字體資料夾來滿足
 ### Q5：如何取得 Aspose.Page for .NET 的臨時授權？
 
  A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

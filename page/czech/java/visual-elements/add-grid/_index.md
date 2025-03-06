@@ -3,10 +3,16 @@ title: Přidejte mřížku pomocí Visual Brush v Javě
 linktitle: Přidejte mřížku pomocí Visual Brush v Javě
 second_title: Aspose.Page Java API
 description: Vylepšete vizuály dokumentů Java pomocí Aspose.Page! Naučte se přidávat mřížky pomocí Visual Brush krok za krokem. Zvyšte přitažlivost své aplikace bez námahy.
-type: docs
 weight: 10
 url: /cs/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte mřížku pomocí Visual Brush v Javě
+
 ## Úvod
 Chcete vylepšit své Java aplikace vizuálně přitažlivými mřížkami pomocí Aspose.Page? V tomto tutoriálu vás provedeme procesem přidání mřížky pomocí Visual Brush v Javě s Aspose.Page. Visual Brush vám umožňuje malovat oblast s vizuálním obsahem a vytvářet ve vašich dokumentech úžasné efekty mřížky.
 ## Předpoklady
@@ -84,3 +90,9 @@ Absolutně! Visual Brush umožňuje malovat různými barvami a poskytuje flexib
  Ano, máte přístup k[zkušební verze zdarma](https://releases.aspose.com/) prozkoumat funkce Aspose.Page.
 ### Jak mohu získat dočasnou licenci pro Aspose.Page?
  Získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

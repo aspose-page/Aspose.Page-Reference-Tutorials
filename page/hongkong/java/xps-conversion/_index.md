@@ -3,10 +3,16 @@ title: 轉換-XPS
 linktitle: 轉換-XPS
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 在 Java 中輕鬆將 XPS 轉換為各種格式。透過我們的逐步指南增強文件處理，以實現精確且有效率的轉換。
-type: docs
 weight: 22
 url: /zh-hant/java/xps-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 轉換-XPS
+
 
 ## 介紹
 
@@ -44,3 +50,9 @@ url: /zh-hant/java/xps-conversion/
 使用 Aspose.Page 在 Java 中輕鬆將 XPS 轉換為 PNG。透過這種可靠且對開發人員友好的解決方案簡化文件任務。
 ### [在 Java 中將 XSP 轉換為 TIFF](./to-tiff/)
 使用 Aspose.Page for Java 輕鬆將 XPS 轉換為 TIFF。請按照我們的逐步指南進行無縫整合。現在下載！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

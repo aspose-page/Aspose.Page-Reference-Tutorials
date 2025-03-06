@@ -3,10 +3,16 @@ title: Java PostScriptové strany - bezproblémový průvodce s Aspose.Page
 linktitle: Java PostScriptové stránky
 second_title: Aspose.Page Java API
 description: Prozkoumejte, jak snadno přidávat stránky v Java PostScript pomocí Aspose.Page. Vylepšete svou tvorbu dokumentů pomocí této výkonné knihovny Java.
-type: docs
 weight: 10
 url: /cs/java/postscript-page-manipulation/add-pages1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScriptové strany - bezproblémový průvodce s Aspose.Page
+
 ## Úvod
 Vítejte v našem komplexním průvodci přidáváním stránek v Java PostScript pomocí Aspose.Page. V tomto tutoriálu vás provedeme procesem přidávání stránek do dokumentu PostScript pomocí Aspose.Page for Java. Aspose.Page je výkonná Java knihovna, která poskytuje širokou škálu funkcí pro práci s PostScriptovými dokumenty, což z ní činí oblíbenou volbu pro vývojáře.
 ## Předpoklady
@@ -68,3 +74,9 @@ Ano, Aspose.Page přichází s flexibilními možnostmi licencování vhodnými 
 Aspose.Page neklade přísná omezení na počet stránek, které můžete přidat, takže je vhodný pro projekty různých měřítek.
 ### Jak mohu získat dočasnou licenci pro Aspose.Page?
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

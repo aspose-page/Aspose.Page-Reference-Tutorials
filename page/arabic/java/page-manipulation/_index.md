@@ -3,10 +3,16 @@ title: معالجة صفحة جافا
 linktitle: معالجة صفحة جافا
 second_title: Aspose.Page جافا API
 description: اكتشف أسرار معالجة صفحات Java باستخدام دروس Aspose.Page. انغمس في القص والتحويلات لصياغة مستندات مذهلة بصريًا دون عناء.
-type: docs
 weight: 20
 url: /ar/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة صفحة جافا
+
 
 ## مقدمة
 
@@ -50,3 +56,9 @@ url: /ar/java/page-manipulation/
 اكتشف فن القص في معالجة صفحات Java باستخدام Aspose.Page. أتقن صياغة المستندات بدقة للحصول على صور وتحكم مذهلين.
 ### [التحولات في معالجة صفحة جافا](./transformations/)
 تعرف على كيفية إجراء تحويلات متقدمة للصفحة في Java باستخدام Aspose.Page لـ Java. قم بتحسين تطبيقات Java الخاصة بك من خلال إمكانيات معالجة قوية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

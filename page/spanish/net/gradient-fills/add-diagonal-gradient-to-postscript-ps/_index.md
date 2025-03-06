@@ -3,10 +3,16 @@ title: Agregue degradado diagonal a PostScript (PS) con Aspose.Page .NET
 linktitle: Agregar degradado diagonal a PostScript (PS)
 second_title: Aspose.Página .NET API
 description: Explore la simplicidad de agregar degradados diagonales a documentos PostScript en .NET con Aspose.Page. Eleve sus proyectos con elementos visuales dinámicos.
-type: docs
 weight: 10
 url: /es/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue degradado diagonal a PostScript (PS) con Aspose.Page .NET
+
 ## Introducción
 
 Agregar un degradado diagonal a un documento PostScript (PS) puede aportar atractivo visual y creatividad a sus proyectos. Aspose.Page para .NET proporciona una solución perfecta para integrar esta función en sus aplicaciones. En este tutorial, lo guiaremos a través del proceso de agregar un degradado diagonal a un documento PS usando Aspose.Page, paso a paso.
@@ -162,3 +168,9 @@ R2: Sí, Aspose.Page brinda flexibilidad para elegir y personalizar colores de d
 ### P5: ¿Dónde puedo encontrar soporte comunitario para Aspose.Page?
 
  R5: Interactúe con la comunidad Aspose.Page en el[foro](https://forum.aspose.com/c/page/39) para ayuda y discusiones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

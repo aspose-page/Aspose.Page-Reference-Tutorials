@@ -3,10 +3,16 @@ title: Bentuk - PostScript
 linktitle: Bentuk - PostScript
 second_title: Aspose.Halaman Java API
 description: Buat dokumen PostScript yang menawan dengan mudah dengan Aspose.Page Java. Selami tutorial tentang menambahkan elips dan persegi panjang, membuat konten yang menarik secara visual.
-type: docs
 weight: 34
 url: /id/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bentuk - PostScript
+
 
 ## Perkenalan
 
@@ -65,3 +71,9 @@ Buka potensi penuh Aspose.Page untuk Java dan tingkatkan pengalaman pembuatan do
 Kuasai membuat dokumen PostScript yang menakjubkan di Java dengan Aspose.Page. Pelajari cara menambahkan elips langkah demi langkah untuk konten yang menarik secara visual.
 ### [Tambahkan Persegi Panjang di Java PostScript](./add-rectangle/)
 Jelajahi panduan langkah demi langkah tentang menambahkan persegi panjang cerah ke dokumen Java PostScript menggunakan Aspose.Page untuk Java. Tingkatkan penyesuaian dokumen Anda dengan mudah!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

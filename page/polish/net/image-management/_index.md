@@ -3,10 +3,16 @@ title: Zarządzanie obrazem
 linktitle: Zarządzanie obrazem
 second_title: Aspose.Page API .NET
 description: Ulepsz wizualizację swojego dokumentu bez wysiłku! Zapoznaj się z samouczkami Aspose.Page .NET obejmującymi zarządzanie obrazami. Od dodawania obrazów po konwersję formatów — opanuj każdy krok.
-type: docs
 weight: 28
 url: /pl/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie obrazem
+
 ## Wstęp
 
 Czy chcesz podnieść atrakcyjność wizualną swoich dokumentów za pomocą Aspose.Page dla .NET? Nie szukaj dalej! W tym obszernym przewodniku przeprowadzimy Cię przez różne samouczki dotyczące zarządzania obrazami, które pozwolą Ci bezproblemowo ulepszać swoje dokumenty.
@@ -45,3 +51,9 @@ Poznaj bezproblemową integrację obrazów z dokumentami XPS za pomocą Aspose.P
 Przeglądaj bezproblemowe dodawanie obrazów kafelkowych do dokumentów XPS dzięki Aspose.Page dla .NET. Zwiększ atrakcyjność wizualną i twórz wspaniałe dokumenty.
 ### [Konwertuj obraz do formatu EPS za pomocą Aspose.Page dla .NET](./convert-image-to-eps-format/)
 Dowiedz się, jak konwertować obrazy JPEG do formatu EPS przy użyciu Aspose.Page dla .NET. Obszerny przewodnik z instrukcjami krok po kroku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

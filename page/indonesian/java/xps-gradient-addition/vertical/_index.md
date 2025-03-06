@@ -3,10 +3,16 @@ title: Tambahkan Gradien Vertikal di Java XPS
 linktitle: Tambahkan Gradien Vertikal di Java XPS
 second_title: Aspose.Halaman Java API
 description: Pelajari cara menambahkan gradien vertikal ke dokumen Java XPS dengan Aspose.Page. Tingkatkan daya tarik visual dengan mudah. Panduan langkah demi langkah di dalam.
-type: docs
 weight: 12
 url: /id/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gradien Vertikal di Java XPS
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menambahkan gradien vertikal di Java XPS menggunakan Aspose.Page untuk Java. Menambahkan gradien ke dokumen XPS Anda dapat meningkatkan daya tarik visual konten Anda, menjadikannya lebih menarik dan estetis.
 ## Prasyarat
@@ -72,3 +78,9 @@ Meningkatkan dokumen XPS Anda dengan gradien dapat meningkatkan daya tarik visua
  Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Butuh bantuan atau punya pertanyaan?
  Kunjungi komunitas Aspose.Page[forum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

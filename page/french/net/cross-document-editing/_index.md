@@ -3,10 +3,16 @@ title: Édition multi-documents
 linktitle: Édition multi-documents
 second_title: API Aspose.Page .NET
 description: Libérez le potentiel d’Aspose.Page pour .NET avec nos tutoriels. Ajoutez des clones de glyphes, modifiez les couleurs et manipulez les pages sans effort dans les documents XPS.
-type: docs
 weight: 22
 url: /fr/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Édition multi-documents
+
 
 ## Introduction
 
@@ -34,3 +40,9 @@ Découvrez la puissance d'Aspose.Page pour .NET dans ce didacticiel complet. App
 Libérez la puissance du traitement des documents dans .NET avec Aspose.Page. Ajoutez facilement des glyphes remplis d’images. Améliorez les visuels et rationalisez votre flux de travail.
 ### [Manipuler des pages avec Aspose.Page pour .NET](./manipulate-pages/)
 Explorez la manipulation de pages dans .NET à l'aide d'Aspose.Page, une bibliothèque puissante pour gérer les documents XPS. Suivez notre guide étape par étape pour des résultats efficaces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

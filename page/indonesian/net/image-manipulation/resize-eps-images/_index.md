@@ -3,10 +3,16 @@ title: Ubah ukuran Gambar EPS dengan Aspose.Page untuk .NET
 linktitle: Ubah ukuran Gambar EPS
 second_title: Aspose.Halaman .NET API
 description: Jelajahi proses yang mulus dalam mengubah ukuran gambar EPS di .NET menggunakan Aspose.Page. Mencapai presisi dalam poin, inci, milimeter, dan persentase dengan mudah.
-type: docs
 weight: 11
 url: /id/net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah ukuran Gambar EPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Apakah Anda ingin mengubah ukuran gambar EPS dengan lancar menggunakan Aspose.Page untuk .NET? Tutorial ini adalah panduan komprehensif Anda untuk dengan mudah memanipulasi ukuran gambar EPS dalam berbagai satuan seperti titik, inci, milimeter, dan persentase. Aspose.Page untuk .NET menyediakan seperangkat alat canggih, dan dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah.
@@ -161,3 +167,9 @@ A2: Aspose.Page terutama berfokus pada format PostScript dan EPS. Untuk format g
 ### Q5: Di mana saya dapat mencari bantuan tambahan atau mendiskusikan masalah?
 
  A5: Kunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk berhubungan dengan masyarakat dan mendapatkan bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

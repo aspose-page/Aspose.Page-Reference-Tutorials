@@ -3,10 +3,16 @@ title: Aggiungi rettangolo in Java XPS
 linktitle: Aggiungi rettangolo in Java XPS
 second_title: API Java Aspose.Page
 description: Scopri come aggiungere rettangoli in Java XPS utilizzando Aspose.Page. Segui la nostra guida passo passo per una manipolazione fluida dei documenti. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /it/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi rettangolo in Java XPS
+
 ## introduzione
 Benvenuti in questa guida completa sull'aggiunta di rettangoli in Java XPS utilizzando Aspose.Page! Che tu sia uno sviluppatore esperto o che tu abbia appena iniziato con Java XPS, questo tutorial ti guiderà attraverso il processo con istruzioni dettagliate, assicurandoti una profonda comprensione dell'argomento.
 ## Prerequisiti
@@ -62,3 +68,9 @@ Assolutamente! Aspose.Page fornisce un robusto set di funzionalità per la gesti
  Esplorare la[Forum Aspose.Page](https://forum.aspose.com/c/page/39)per ulteriori esempi e chiedere assistenza alla comunità.
 ### Posso provare Aspose.Page prima dell'acquisto?
  Sì, puoi esplorare a[prova gratuita](https://releases.aspose.com/) per sperimentare le capacità di Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

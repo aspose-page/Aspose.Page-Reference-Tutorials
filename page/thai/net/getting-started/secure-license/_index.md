@@ -3,10 +3,16 @@ title: ใบอนุญาตที่ปลอดภัยด้วย Aspose
 linktitle: ใบอนุญาตที่ปลอดภัย
 second_title: Aspose.Page .NET API
 description: รักษาความปลอดภัย Aspose.Page ของคุณสำหรับใบอนุญาต .NET ได้อย่างง่ายดายด้วยคำแนะนำทีละขั้นตอนของเรา ปลดล็อกศักยภาพเต็มรูปแบบสำหรับการจัดการเพจอย่างราบรื่นในแอปพลิเคชัน .NET ของคุณ
-type: docs
 weight: 13
 url: /th/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใบอนุญาตที่ปลอดภัยด้วย Aspose.Page สำหรับ .NET
+
 ## การแนะนำ
 
 การปลดล็อกศักยภาพสูงสุดของ Aspose.Page สำหรับ .NET เกี่ยวข้องกับการรักษาความปลอดภัยใบอนุญาตของคุณเพื่อให้แน่ใจว่ามีการบูรณาการอย่างราบรื่นและประสิทธิภาพสูงสุด ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดกระบวนการรักษาความปลอดภัยใบอนุญาตของคุณโดยใช้ Aspose.Page ซึ่งเป็นเครื่องมือที่มีประสิทธิภาพสำหรับการจัดการการจัดการเพจในแอปพลิเคชัน .NET
@@ -90,3 +96,9 @@ A4: ใช่ ใบอนุญาตชั่วคราวมีผลใช
 ### คำถามที่ 5: ฉันสามารถโอนใบอนุญาตของฉันไปยังเครื่องอื่นได้หรือไม่
 
 A5: ได้ คุณสามารถโอนสิทธิ์การใช้งานของคุณไปยังเครื่องอื่นได้ตามต้องการ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

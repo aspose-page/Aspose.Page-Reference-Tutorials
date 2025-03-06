@@ -3,10 +3,16 @@ title: 使用 Java 更改 XMP 中的陣列項
 linktitle: 使用 Java 更改 XMP 中的陣列項
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page for Java 變更 XMP 中的陣列項目。使用我們的逐步指南輕鬆修改元資料。立即增強您的 EPS 文件！
-type: docs
 weight: 15
 url: /zh-hant/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 更改 XMP 中的陣列項
+
 ## 介紹
 歡迎來到我們關於使用 Aspose.Page for Java 更改 XMP 中的陣列項目的綜合指南！ Aspose.Page 是一個功能強大的 Java 函式庫，可讓您無縫地使用 EPS 檔案中的 XMP 元資料。在本教程中，我們將引導您完成修改 XMP 元資料中的陣列項目的過程，幫助您增強和自訂 EPS 文件。
 ## 先決條件
@@ -77,3 +83,9 @@ Aspose.Page 主要是為 Java 設計的，但 Aspose 也為其他語言提供了
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以購買完整版的 Aspose.Page for Java？
 您可以購買完整版[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

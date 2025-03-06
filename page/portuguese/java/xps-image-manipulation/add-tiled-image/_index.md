@@ -3,10 +3,16 @@ title: Adicionar imagem lado a lado em Java XPS
 linktitle: Adicionar imagem lado a lado em Java XPS
 second_title: API Java Aspose.Page
 description: Explore a manipulação perfeita de documentos Java XPS com Aspose.Page. Aprenda a adicionar imagens lado a lado sem esforço usando este guia passo a passo.
-type: docs
 weight: 11
 url: /pt/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar imagem lado a lado em Java XPS
+
 ## Introdução
 No mundo dinâmico do desenvolvimento Java, a necessidade de manipulação e criação eficiente de documentos é cada vez maior. Aspose.Page for Java surge como uma ferramenta poderosa, fornecendo aos desenvolvedores a capacidade de trabalhar com documentos XPS perfeitamente. Este tutorial se concentra em uma tarefa específica – adicionar uma imagem lado a lado a um documento Java XPS.
 ## Pré-requisitos
@@ -68,3 +74,9 @@ Sim, Aspose.Page oferece licenças comerciais. Compre-os[aqui](https://purchase.
  Envolva-se com a comunidade Aspose.Page no[fórum](https://forum.aspose.com/c/page/39).
 ### Como posso obter uma licença temporária para Aspose.Page?
  Adquira uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page for .NET で埋め込みリソースを使用してライセ�
 linktitle: 埋め込みリソースを使用してライセンスを設定する
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET で埋め込みリソースを使用してライセンスを設定する方法を学びます。コンプライアンスを確保し、文書処理の可能性を最大限に引き出します。
-type: docs
 weight: 14
 url: /ja/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET で埋め込みリソースを使用してライセンスを設定する
+
 ## 導入
 
 Aspose.Page for .NET は、開発者がさまざまなドキュメント形式をシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Page for .NET で埋め込みリソースを使用してライセンスを設定するプロセスを説明します。ライセンスは、Aspose.Page の機能を最大限に活用し、コンプライアンスを確保し、ライブラリの可能性を引き出すための重要なステップです。
@@ -110,3 +116,9 @@ A1: Aspose.Page はライセンスなしで使用できますが、完全な機�
 ### Q5: Aspose.Page for .NET はどこで購入できますか?
 
  A5: Aspose.Page を購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

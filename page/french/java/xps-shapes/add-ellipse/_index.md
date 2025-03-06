@@ -3,10 +3,16 @@ title: Ajouter une ellipse de dégradé radial avec Aspose.Page
 linktitle: Ajouter Ellipse dans Java XPS
 second_title: API Java Aspose.Page
 description: Explorez le guide étape par étape sur l'ajout d'une ellipse à dégradé radial dans Java XPS à l'aide d'Aspose.Page pour Java. Améliorez la création de vos documents sans effort.
-type: docs
 weight: 10
 url: /fr/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une ellipse de dégradé radial avec Aspose.Page
+
 ## Introduction
 Bienvenue dans notre guide étape par étape sur l'ajout d'une ellipse dans Java XPS à l'aide d'Aspose.Page pour Java. Aspose.Page est une puissante bibliothèque Java qui permet aux développeurs de travailler sans effort avec des documents XPS. Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'une ellipse à dégradé radial et de son enregistrement en tant que document XPS.
 ## Conditions préalables
@@ -91,3 +97,9 @@ Absolument! Aspose.Page est conçu pour gérer efficacement le traitement de doc
  Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Existe-t-il des forums communautaires pour les discussions sur Aspose.Page ?
  Oui, rejoignez le[Forum communautaire Aspose.Page](https://forum.aspose.com/c/page/39) pour interagir avec d'autres développeurs et obtenir de l'aide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Appliquer un motif de mosaïque de texture à PostScript (PS) avec Aspose
 linktitle: Appliquer un motif de mosaïque de texture à PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Améliorez vos documents PostScript (PS) avec des modèles de mosaïque de texture à l'aide d'Aspose.Page pour .NET. Suivez notre guide étape par étape pour une touche créative.
-type: docs
 weight: 10
 url: /fr/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer un motif de mosaïque de texture à PostScript (PS) avec Aspose.Page
+
 ## Introduction
 
 Bienvenue dans ce didacticiel étape par étape expliquant comment appliquer un motif de mosaïque de texture à un document PostScript (PS) à l'aide d'Aspose.Page pour .NET. Aspose.Page est une bibliothèque puissante qui vous permet de travailler avec différents formats de documents. Dans ce didacticiel, nous explorerons comment améliorer vos documents PS en ajoutant des motifs de mosaïque de texture.
@@ -156,3 +162,10 @@ A4 : Oui, vous pouvez répéter le processus avec des images et des chemins dif
 ### Q5 : Où puis-je trouver des ressources et une assistance supplémentaires ?
 
  A5 : Visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour obtenir le soutien de la communauté et explorer les[Documentation](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

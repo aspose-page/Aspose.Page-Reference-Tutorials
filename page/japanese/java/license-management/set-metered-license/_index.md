@@ -3,10 +3,16 @@ title: Aspose.Page Java との簡単な従量制ライセンスの統合
 linktitle: Java で従量制ライセンスを設定する
 second_title: Aspose.Page Java API
 description: Aspose.Page と Java のシームレスな統合を検討してください。従量制ライセンスを簡単にセットアップし、ドキュメント処理機能を強化します。
-type: docs
 weight: 10
 url: /ja/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java との簡単な従量制ライセンスの統合
+
 ## 導入
 Aspose.Page を使用して Java で従量制ライセンスを設定するための包括的なガイドへようこそ。ドキュメント処理機能を強化し、Aspose.Page とのシームレスな統合を確保したい場合は、ここが最適な場所です。このチュートリアルでは、各ステップを理解しやすい部分に分けてプロセスを説明します。
 ## 前提条件
@@ -100,3 +106,9 @@ try {
 ドキュメントを参照してください[ここ](https://reference.aspose.com/page/java/).
 ### Q: 一時ライセンスを取得するにはどうすればよいですか?
 仮免許も取得できる[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

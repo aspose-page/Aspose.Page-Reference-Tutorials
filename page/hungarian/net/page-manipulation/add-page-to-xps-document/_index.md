@@ -3,10 +3,16 @@ title: Oldal hozzáadása XPS-dokumentumhoz az Aspose.Page segítségével .NET-
 linktitle: Oldal hozzáadása XPS-dokumentumhoz
 second_title: Aspose.Page .NET API
 description: Fejlessze .NET-alkalmazásait, ha megtanulja, hogyan adhat hozzá oldalakat XPS-dokumentumokhoz az Aspose.Page for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 11
 url: /hu/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oldal hozzáadása XPS-dokumentumhoz az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 Ha XPS-dokumentumokkal dolgozik .NET-ben, és programozottan kell oldalakat hozzáadnia, az Aspose.Page for .NET a legjobb megoldás. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az XPS-dokumentumhoz oldalak hozzáadásának folyamatán. Szakértő SEO-íróként gondoskodom arról, hogy ez az útmutató ne csak informatív legyen, hanem a keresőoptimalizálást is szem előtt tartva készült, így a fejlesztők és a tartalomkészítők számára egyaránt értékes forrást jelent.
@@ -86,3 +92,10 @@ A2: Abszolút! Az Aspose.Page for .NET egy sokoldalú könyvtár, amely személy
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Page for .NET számára?
 
  A5: Látogassa meg a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/) tesztelési célból ideiglenes engedélyt szerezni.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

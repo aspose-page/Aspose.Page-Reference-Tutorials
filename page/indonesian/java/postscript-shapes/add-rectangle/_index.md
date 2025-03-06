@@ -3,10 +3,16 @@ title: Sesuaikan Java PostScript - Menambahkan Persegi Panjang dengan Aspose.Pag
 linktitle: Tambahkan Persegi Panjang di Java PostScript
 second_title: Aspose.Halaman Java API
 description: Jelajahi panduan langkah demi langkah tentang menambahkan persegi panjang cerah ke dokumen Java PostScript menggunakan Aspose.Page untuk Java. Tingkatkan penyesuaian dokumen Anda dengan mudah!
-type: docs
 weight: 11
 url: /id/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sesuaikan Java PostScript - Menambahkan Persegi Panjang dengan Aspose.Page
+
 ## Perkenalan
 Apakah Anda ingin menyempurnakan dokumen Java PostScript Anda dengan persegi panjang yang cerah? Tidak perlu mencari lagi! Dalam panduan langkah demi langkah ini, kita akan mempelajari cara menggunakan Aspose.Page untuk Java untuk menambahkan persegi panjang ke dokumen PostScript Anda. Aspose.Page adalah perpustakaan canggih yang menyediakan fitur canggih untuk bekerja dengan file PostScript, menjadikannya pilihan ideal bagi pengembang yang ingin memanipulasi dan menyesuaikan dokumen mereka.
 ## Prasyarat
@@ -72,3 +78,9 @@ Aspose.Page terutama mendukung Java, tetapi perpustakaan serupa tersedia untuk b
  Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat membeli versi berlisensi Aspose.Page untuk Java?
  Beli versi berlisensi[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

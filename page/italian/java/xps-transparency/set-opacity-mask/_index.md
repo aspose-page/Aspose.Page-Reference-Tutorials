@@ -3,10 +3,16 @@ title: Imposta la maschera di opacità in Java XPS
 linktitle: Imposta la maschera di opacità in Java XPS
 second_title: API Java Aspose.Page
 description: Scopri la potenza dell'impostazione delle maschere di opacità in Java XPS con Aspose.Page. Segui la nostra guida passo passo per un'esperienza documentale visivamente migliorata.
-type: docs
 weight: 11
 url: /it/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta la maschera di opacità in Java XPS
+
 ## introduzione
 Benvenuti nella nostra guida completa sull'impostazione delle maschere di opacità in Java XPS utilizzando Aspose.Page. In questo tutorial ti guideremo attraverso il processo di creazione di un documento XPS, aggiunta di una tela e applicazione di una maschera di opacità a un rettangolo utilizzando le potenti funzionalità di Aspose.Page per Java.
 ## Prerequisiti
@@ -67,3 +73,9 @@ La versione di prova potrebbe presentare alcune limitazioni di funzionalità. Si
  Puoi visitare il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) per il supporto della comunità o acquistare una licenza per l'assistenza premium.
 ### Esiste una garanzia di rimborso per Aspose.Page?
  Fare riferimento al[pagina di acquisto](https://purchase.aspose.com/buy) per informazioni sulle politiche di rimborso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

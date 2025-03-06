@@ -3,10 +3,16 @@ title: Aggiungi proprietà semplici con Aspose.Page per .NET
 linktitle: Aggiungi proprietà semplici
 second_title: API Aspose.Page .NET
 description: Migliora i file EPS con Aspose.Page per .NET. Aggiungi proprietà semplici senza sforzo per metadati di documenti personalizzati.
-type: docs
 weight: 14
 url: /it/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi proprietà semplici con Aspose.Page per .NET
+
 ## introduzione
 
 Nel campo della manipolazione e del miglioramento dei documenti, Aspose.Page per .NET emerge come un potente strumento, fornendo agli sviluppatori la capacità di aggiungere e modificare metadati XMP all'interno dei file EPS senza soluzione di continuità. Questo tutorial ti guiderà attraverso il processo di aggiunta di proprietà semplici a un file EPS utilizzando Aspose.Page per .NET.
@@ -120,3 +126,9 @@ A3: Aspose.Page per .NET supporta vari tipi di dati per le proprietà, inclusi n
 ### Q5: È disponibile una prova gratuita per Aspose.Page per .NET?
 
  R5: Sì, puoi accedere a una prova gratuita[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

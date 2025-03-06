@@ -3,10 +3,16 @@ title: Manipolazione delle immagini
 linktitle: Manipolazione delle immagini
 second_title: API Aspose.Page .NET
 description: Scopri la potenza di Aspose.Page per .NET attraverso i nostri tutorial sulla manipolazione delle immagini. Ritaglia e ridimensiona facilmente le immagini EPS per risultati sorprendenti e precisi.
-type: docs
 weight: 26
 url: /it/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipolazione delle immagini
+
 ## introduzione
 
 Sei pronto per migliorare le tue capacità di manipolazione delle immagini EPS in .NET? Immergiti nei nostri tutorial completi sulla manipolazione delle immagini con Aspose.Page per .NET, dove ti guidiamo attraverso il processo continuo di ritaglio e ridimensionamento delle immagini EPS.
@@ -41,3 +47,9 @@ Esplora il mondo di Aspose.Page per .NET con i nostri tutorial sulla manipolazio
 Esplora il mondo senza soluzione di continuità della manipolazione delle immagini EPS in .NET con Aspose.Page. Ritaglia e ridimensiona le immagini senza sforzo per risultati sorprendenti.
 ### [Ridimensiona le immagini EPS con Aspose.Page per .NET](./resize-eps-images/)
 Esplora il processo continuo di ridimensionamento delle immagini EPS in .NET utilizzando Aspose.Page. Ottieni precisione in punti, pollici, millimetri e percentuali senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

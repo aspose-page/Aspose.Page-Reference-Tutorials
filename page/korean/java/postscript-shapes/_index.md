@@ -3,10 +3,16 @@ title: 모양 - 포스트스크립트
 linktitle: 모양 - 포스트스크립트
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page Java를 사용하여 매력적인 PostScript 문서를 손쉽게 제작하세요. 타원과 직사각형을 추가하여 시각적으로 매력적인 콘텐츠를 만드는 방법에 대한 튜토리얼을 살펴보세요.
-type: docs
 weight: 34
 url: /ko/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 모양 - 포스트스크립트
+
 
 ## 소개
 
@@ -65,3 +71,9 @@ Aspose.Page for Java의 잠재력을 최대한 활용하고 문서 생성 경험
 Aspose.Page를 사용하여 Java로 멋진 PostScript 문서 작성을 마스터하세요. 시각적으로 매력적인 콘텐츠를 위해 타원을 단계별로 추가하는 방법을 알아보세요.
 ### [Java PostScript에 직사각형 추가](./add-rectangle/)
 Java용 Aspose.Page를 사용하여 Java PostScript 문서에 생생한 직사각형을 추가하는 방법에 대한 단계별 가이드를 살펴보세요. 손쉽게 문서 사용자 정의를 강화하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

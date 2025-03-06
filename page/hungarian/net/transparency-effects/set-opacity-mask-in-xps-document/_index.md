@@ -3,10 +3,16 @@ title: Állítsa be az átlátszatlansági maszkot az XPS-dokumentumban az Aspos
 linktitle: Állítsa be az átlátszatlansági maszkot az XPS-dokumentumban
 second_title: Aspose.Page .NET API
 description: Ismerje meg az átlátszatlansági maszkok beállítását XPS-dokumentumokban az Aspose.Page for .NET segítségével. Fokozza a dokumentumok esztétikáját könnyedén.
-type: docs
 weight: 12
 url: /hu/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be az átlátszatlansági maszkot az XPS-dokumentumban az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 Az átlátszatlansági maszkok elengedhetetlenek, ha tetszetős, változó átlátszósági szintű dokumentumokat szeretne létrehozni. Az Aspose.Page for .NET leegyszerűsíti ezt a folyamatot, és átfogó eszközkészletet kínál a fejlesztőknek az XPS-dokumentumok fejlesztéséhez. Ebben az oktatóanyagban lépésről lépésre bemutatjuk, hogyan állíthat be átlátszatlansági maszkot.
@@ -98,3 +104,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan állíthat be átlátszatlansági mas
 ### 5. kérdés: Az Aspose.Page kompatibilis más dokumentumformátumokkal?
 
 5. válasz: Az Aspose.Page elsősorban az XPS-dokumentumokra összpontosít, de az Aspose számos terméket kínál a különböző formátumok kezelésére.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 重振 Java PostScript - 使用 Aspose.Page 新增 Unicode
 linktitle: 在 Java PostScript 中使用 Unicode 字串新增文本
 second_title: Aspose.Page Java API
 description: 探索 Aspose.Page for Java 在將 Unicode 文字新增至 PostScript 專案中的強大功能。請按照我們的逐步指南進行無縫整合。現在下載！
-type: docs
 weight: 11
 url: /zh-hant/java/postscript-text-manipulation/add-text-unicode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 重振 Java PostScript - 使用 Aspose.Page 新增 Unicode
+
 ## 介紹
 您是否希望透過無縫添加 Unicode 文字來增強您的 Java PostScript 應用程式？別再猶豫了！這個綜合指南將引導您逐步完成使用 Aspose.Page for Java 的過程。 Aspose.Page 是一個功能強大的函式庫，可讓您輕鬆操作和轉換 PostScript 和 XPS 檔案。
 ## 先決條件
@@ -59,3 +65,9 @@ Aspose.Page 主要是為 Java 設計的，但 Aspose 提供了適用於各種程
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page 中有哪些可用的字體樣式？
 Aspose.Page支援Regular、Bold、Italic和BoldItalic等字體樣式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διαχείριση αδειών
 linktitle: Διαχείριση αδειών
 second_title: Aspose.Page Java API
 description: Ξεκλειδώστε πλήρως τις δυνατότητες του Aspose.Page για Java με τα Εκπαιδευτικά προγράμματα διαχείρισης αδειών χρήσης. Ρυθμίστε απρόσκοπτα τις μετρημένες άδειες για να ενισχύσετε τις δυνατότητες επεξεργασίας εγγράφων.
-type: docs
 weight: 30
 url: /el/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση αδειών
+
 ## Εισαγωγή
 
 Καλώς ορίσατε στα Εκπαιδευτικά προγράμματα διαχείρισης αδειών χρήσης για το Aspose.Page σε Java! Σε αυτόν τον περιεκτικό οδηγό, θα εμβαθύνουμε στις περιπλοκές της ρύθμισης μετρημένων αδειών για τη βελτιστοποίηση των δυνατοτήτων επεξεργασίας εγγράφων σας. Ας ξεκινήσουμε ένα ταξίδι που ξεκλειδώνει όλες τις δυνατότητες του Aspose.Page, διασφαλίζοντας απρόσκοπτη ενσωμάτωση με την Java.
@@ -39,3 +45,9 @@ url: /el/java/license-management/
 ## Οδηγίες διαχείρισης άδειας χρήσης
 ### [Ορισμός μετρημένης άδειας χρήσης σε Java](./set-metered-license/)
 Εξερευνήστε την απρόσκοπτη ενοποίηση του Aspose.Page με Java. Ρυθμίστε τις μετρημένες άδειες χωρίς κόπο και βελτιώστε τις δυνατότητες επεξεργασίας εγγράφων σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

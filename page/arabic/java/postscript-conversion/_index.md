@@ -3,10 +3,16 @@ title: التحويل - بوستسكريبت
 linktitle: التحويل - بوستسكريبت
 second_title: Aspose.Page جافا API
 description: قم بتحويل PostScript إلى صور وPDF واحفظ الصور بتنسيق EPS في Java باستخدام دروس Aspose.Page. أدلة خطوة بخطوة، والأسئلة الشائعة، والمتطلبات الأساسية للتكامل السلس.
-type: docs
 weight: 21
 url: /ar/java/postscript-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحويل - بوستسكريبت
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى مهاراتك في برمجة Java وتعزيز قدرات معالجة المستندات لديك؟ انغمس في عالم Aspose.Page لبرامج Java التعليمية، مع التركيز على التحويل السلس لملفات PostScript. في هذا الدليل الشامل، سنستكشف ثلاثة جوانب رئيسية: تحويل PostScript إلى صور وPDF وحفظ الصور بتنسيق EPS. دعونا نشرع في هذه الرحلة معا!
@@ -43,3 +49,9 @@ url: /ar/java/postscript-conversion/
 قم بتحويل PostScript إلى PDF في Java بسهولة باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتكامل السلس. قم بتنزيل Aspose.Page الآن!
 ### [حفظ الصورة كـ EPS في Java](./save-image-as-eps/)
 اكتشف قوة Aspose.Page لـ Java في حفظ الصور بتنسيق EPS دون عناء. عزز قدرات الرسومات والطباعة لديك باستخدام مكتبة Java متعددة الاستخدامات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: โหลดใบอนุญาตจากไฟล์ด้วย Asp
 linktitle: โหลดใบอนุญาตจากไฟล์
 second_title: Aspose.Page .NET API
 description: ปลดล็อกศักยภาพทั้งหมดของ Aspose.Page สำหรับ .NET โดยการเรียนรู้ศิลปะแห่งการโหลดใบอนุญาตจากไฟล์ ยกระดับความสามารถในการประมวลผลเอกสารของคุณได้อย่างราบรื่น
-type: docs
 weight: 11
 url: /th/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# โหลดใบอนุญาตจากไฟล์ด้วย Aspose.Page สำหรับ .NET
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose.Page สำหรับ .NET! หากคุณต้องการปรับปรุงความสามารถในการประมวลผลเอกสารโดยใช้ .NET Framework คุณมาถูกที่แล้ว ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการโหลดใบอนุญาตจากไฟล์ด้วย Aspose.Page สำหรับ .NET ขั้นตอนสำคัญนี้ทำให้มั่นใจได้ว่าคุณจะควบคุมศักยภาพของห้องสมุดอันทรงพลังนี้ได้อย่างเต็มที่
@@ -91,3 +97,9 @@ Console.WriteLine("License set successfully.");
 ### Q5: ต้องการความช่วยเหลือหรือมีคำถาม? 
 
  A5: เยี่ยมชม[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อสนับสนุนชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

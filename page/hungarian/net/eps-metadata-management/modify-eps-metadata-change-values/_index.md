@@ -3,10 +3,16 @@ title: Módosítsa az értékeket az Aspose.Page segítségével .NET esetén
 linktitle: Változtassa meg az értékeket
 second_title: Aspose.Page .NET API
 description: Master EPS-fájlkezelés az Aspose.Page for .NET segítségével. Az XMP-metaadat-értékek könnyed megváltoztatása.
-type: docs
 weight: 17
 url: /hu/net/eps-metadata-management/modify-eps-metadata-change-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Módosítsa az értékeket az Aspose.Page segítségével .NET esetén
+
 ## Bevezetés
 
 A dokumentumfeldolgozás dinamikus világában az Aspose.Page for .NET hatékony eszközként tűnik ki, amely lehetőséget kínál a fejlesztőknek az EPS-fájlok könnyed manipulálására. Ebben az oktatóanyagban az Aspose.Page for .NET segítségével történő EPS-fájlokon belüli értékváltoztatási folyamatával foglalkozunk. Legyen szó tapasztalt fejlesztőről vagy kíváncsi kezdőről, ez a lépésről lépésre ismertető útmutató felvértezi az EPS-fájlok XMP-metaadatainak hatékony módosításához szükséges készségekkel.
@@ -146,3 +152,9 @@ Ebben az oktatóanyagban az Aspose.Page for .NET használatával történő EPS-
 ### 5. kérdés: Megvásárolhatom az Aspose.Page oldalt .NET-hez?
 
  A5: Abszolút! Látogassa meg a vásárlási oldalt[itt](https://purchase.aspose.com/buy) az engedélyezési lehetőségekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: الأشكال - XPS
 linktitle: الأشكال - XPS
 second_title: Aspose.Page جافا API
 description: اكتشف سحر Java XPS مع دروس Aspose.Page! قم بإضافة الأشكال الناقصية والمستطيلات الجذابة بسهولة. يمكنك الارتقاء بإنشاء المستندات باستخدام أدلتنا خطوة بخطوة.
-type: docs
 weight: 35
 url: /ar/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الأشكال - XPS
+
 ## مقدمة
 
 هل أنت مستعد للتعمق في عالم إنشاء المستندات الرائع باستخدام Java XPS؟ لا تنظر إلى أبعد من Aspose.Page، رفيقك الموثوق به لفتح الإمكانات الكاملة للتلاعب بالأشكال. في هذه السلسلة التعليمية، سنرشدك خلال تعقيدات إضافة أشكال جذابة، مما يضمن إبراز مستندك دون عناء.
@@ -33,3 +39,9 @@ url: /ar/java/xps-shapes/
 استكشف الدليل التفصيلي خطوة بخطوة حول إضافة شكل بيضاوي متدرج نصف قطري محدد في Java XPS باستخدام Aspose.Page لـ Java. تعزيز إنشاء المستندات الخاصة بك دون عناء.
 ### [إضافة مستطيل في Java XPS](./add-rectangle/)
 تعرف على كيفية إضافة مستطيلات في Java XPS باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتعامل السلس مع المستندات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

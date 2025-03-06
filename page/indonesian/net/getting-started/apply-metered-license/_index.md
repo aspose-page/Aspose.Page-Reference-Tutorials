@@ -3,10 +3,16 @@ title: Terapkan Lisensi Terukur dengan Aspose.Page untuk .NET
 linktitle: Terapkan Lisensi Terukur
 second_title: Aspose.Halaman .NET API
 description: Jelajahi integrasi Aspose.Page untuk .NET yang lancar dengan panduan langkah demi langkah dalam menerapkan lisensi terukur. Optimalkan pemrosesan dokumen dengan mudah.
-type: docs
 weight: 10
 url: /id/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Lisensi Terukur dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Buka potensi penuh Aspose.Page untuk .NET dengan menerapkan lisensi terukur. Tutorial ini akan memandu Anda melalui proses pengaturan dan penerapan lisensi terukur, memastikan penggunaan perpustakaan .NET yang canggih ini lancar dan optimal.
@@ -112,3 +118,9 @@ Panduan langkah demi langkah ini telah membekali Anda dengan pengetahuan untuk m
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page untuk .NET?
 
  A5: Kunjungi[izin sementara/](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

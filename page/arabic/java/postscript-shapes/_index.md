@@ -3,10 +3,16 @@ title: الأشكال - بوستسكريبت
 linktitle: الأشكال - بوستسكريبت
 second_title: Aspose.Page جافا API
 description: قم بصياغة مستندات PostScript جذابة دون عناء باستخدام Aspose.Page Java. انغمس في البرامج التعليمية حول إضافة الأشكال الناقصية والمستطيلات، وإنشاء محتوى جذاب بصريًا.
-type: docs
 weight: 34
 url: /ar/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الأشكال - بوستسكريبت
+
 
 ## مقدمة
 
@@ -65,3 +71,9 @@ url: /ar/java/postscript-shapes/
 أتقن إنشاء مستندات PostScript مذهلة في Java باستخدام Aspose.Page. تعلم كيفية إضافة علامات الحذف خطوة بخطوة للحصول على محتوى جذاب بصريًا.
 ### [إضافة مستطيل في جافا بوستسكريبت](./add-rectangle/)
 استكشف الدليل التفصيلي خطوة بخطوة حول إضافة مستطيلات نابضة بالحياة إلى مستندات Java PostScript باستخدام Aspose.Page for Java. تعزيز تخصيص المستند الخاص بك دون عناء!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aplicar patrón de mosaico de textura a PostScript (PS) con Aspose.Page
 linktitle: Aplicar patrón de mosaico de textura a PostScript (PS)
 second_title: Aspose.Página .NET API
 description: Mejore sus documentos PostScript (PS) con patrones de mosaico de texturas utilizando Aspose.Page para .NET. Siga nuestra guía paso a paso para darle un toque creativo.
-type: docs
 weight: 10
 url: /es/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar patrón de mosaico de textura a PostScript (PS) con Aspose.Page
+
 ## Introducción
 
 Bienvenido a este tutorial paso a paso sobre cómo aplicar un patrón de mosaico de textura a un documento PostScript (PS) usando Aspose.Page para .NET. Aspose.Page es una biblioteca poderosa que le permite trabajar con varios formatos de documentos y, en este tutorial, exploraremos cómo mejorar sus documentos PS agregando patrones de mosaico de texturas.
@@ -156,3 +162,10 @@ R4: Sí, puedes repetir el proceso con diferentes imágenes y caminos.
 ### P5: ¿Dónde puedo encontrar recursos y soporte adicionales?
 
  A5: Visita el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para obtener apoyo de la comunidad y explorar[documentación](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

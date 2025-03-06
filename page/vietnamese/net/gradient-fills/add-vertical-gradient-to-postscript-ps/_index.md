@@ -3,10 +3,16 @@ title: Thêm gradient dọc vào PostScript (PS) bằng Aspose.Page
 linktitle: Thêm chuyển màu dọc vào PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách thêm độ dốc dọc hấp dẫn trực quan vào tài liệu PostScript (PS) trong .NET bằng Aspose.Page. Nâng cao khả năng tạo tài liệu của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 14
 url: /vi/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm gradient dọc vào PostScript (PS) bằng Aspose.Page
+
 ## Giới thiệu
 
 Trong lĩnh vực thao tác và tạo tài liệu, Aspose.Page for .NET nổi bật như một công cụ mạnh mẽ dành cho các nhà phát triển. Hướng dẫn này sẽ hướng dẫn bạn quy trình thêm dải màu dọc vào tài liệu PostScript (PS) bằng Aspose.Page cho .NET. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về các bước cần thiết để đạt được hiệu ứng hấp dẫn về mặt hình ảnh này.
@@ -154,3 +160,9 @@ Câu trả lời 3: Aspose.Page hỗ trợ nhiều loại độ dốc khác nhau
 ### Câu hỏi 5: Có diễn đàn cộng đồng nào dành cho Aspose.Page để tôi có thể tìm kiếm trợ giúp không?
 
  A5: Chắc chắn rồi! Đi đến[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với các nhà phát triển khác và nhận được hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

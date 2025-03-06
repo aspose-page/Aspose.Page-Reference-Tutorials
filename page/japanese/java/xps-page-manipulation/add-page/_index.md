@@ -3,10 +3,16 @@ title: Aspose.Page Java - XPS へのページの追加チュートリアル
 linktitle: Java XPSでページを追加
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して Java XPS ドキュメントを昇格します。アプリケーションの機能を強化するためにページを簡単に追加する方法を学びます。今すぐチュートリアルに飛び込みましょう！
-type: docs
 weight: 10
 url: /ja/java/xps-page-manipulation/add-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java - XPS へのページの追加チュートリアル
+
 ## 導入
 XPS ドキュメントにページを追加して Java アプリケーションの機能を強化したい場合は、ここが正しい場所です。このチュートリアルでは、Aspose.Page for Java を使用するプロセスを説明します。 Aspose.Page は、XPS ファイルの操作を簡素化する強力で多用途なライブラリであり、効率的なソリューションを求める開発者にとって理想的な選択肢となります。
 ## 前提条件
@@ -54,3 +60,9 @@ doc.save(dataDir + "AddPages_out.xps");
 Aspose.Page はさまざまなサイズの XPS ドキュメントを効率的に処理しますが、パフォーマンスを最適化することは常に良い習慣です。
 ### Aspose.Page の追加サポートはどこで見つけられますか?
 訪問[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティのサポートとディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

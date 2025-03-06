@@ -3,10 +3,16 @@ title: Χειρισμός κειμένου
 linktitle: Χειρισμός κειμένου
 second_title: Aspose.Page .NET API
 description: Κύριος χειρισμός κειμένου στο .NET με οδηγίες Aspose.Page. Μάθετε να προσθέτετε κείμενο Unicode σε έγγραφα PostScript και XPS. Αυξήστε τις δεξιότητες χειρισμού εγγράφων σας.
-type: docs
 weight: 32
 url: /el/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός κειμένου
+
 
 
 ## Εισαγωγή
@@ -39,3 +45,9 @@ url: /el/net/text-manipulation/
 Εξερευνήστε τη δύναμη του Aspose.Page για .NET με τον αναλυτικό οδηγό μας για την προσθήκη κειμένου Unicode σε έγγραφα XPS.
 ### [Προσθήκη κειμένου στο έγγραφο XPS με το Aspose.Page για .NET](./add-text-to-xps-document/)
 Εξερευνήστε έναν οδηγό βήμα προς βήμα για την προσθήκη κειμένου σε έγγραφα XPS χρησιμοποιώντας το Aspose.Page για .NET. Βελτιώστε τα έργα σας .NET χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

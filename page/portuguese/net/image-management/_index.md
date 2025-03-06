@@ -3,10 +3,16 @@ title: Gerenciamento de imagens
 linktitle: Gerenciamento de imagens
 second_title: API Aspose.Page .NET
 description: Melhore o visual do seu documento sem esforço! Explore os tutoriais do Aspose.Page .NET que cobrem o gerenciamento de imagens. Desde adicionar imagens até converter formatos, domine cada etapa.
-type: docs
 weight: 28
 url: /pt/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gerenciamento de imagens
+
 ## Introdução
 
 Você deseja elevar o apelo visual de seus documentos usando Aspose.Page for .NET? Não procure mais! Neste guia abrangente, orientaremos você em vários tutoriais de gerenciamento de imagens que permitirão que você aprimore seus documentos de maneira integrada.
@@ -45,3 +51,9 @@ Explore a integração perfeita de imagens em documentos XPS com Aspose.Page for
 Explore a adição de imagens lado a lado a documentos XPS sem esforço com Aspose.Page for .NET. Melhore o apelo visual e crie documentos impressionantes.
 ### [Converta imagem para formato EPS com Aspose.Page para .NET](./convert-image-to-eps-format/)
 Aprenda como converter imagens JPEG para o formato EPS usando Aspose.Page for .NET. Um guia completo com instruções passo a passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

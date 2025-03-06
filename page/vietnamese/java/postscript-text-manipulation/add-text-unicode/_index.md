@@ -3,10 +3,16 @@ title: Phục hồi Java PostScript - Thêm Unicode với Aspose.Page
 linktitle: Thêm văn bản bằng chuỗi Unicode trong Java PostScript
 second_title: API Java Aspose.Page
 description: Khám phá sức mạnh của Aspose.Page dành cho Java trong việc thêm văn bản Unicode vào các dự án PostScript của bạn. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Tải ngay!
-type: docs
 weight: 11
 url: /vi/java/postscript-text-manipulation/add-text-unicode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Phục hồi Java PostScript - Thêm Unicode với Aspose.Page
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao ứng dụng Java PostScript của mình bằng cách thêm văn bản Unicode một cách liền mạch? Đừng tìm đâu xa! Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước thực hiện quy trình bằng cách sử dụng Aspose.Page cho Java. Aspose.Page là một thư viện mạnh mẽ cho phép bạn thao tác và chuyển đổi các tệp PostScript và XPS một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Aspose.Page được thiết kế chủ yếu cho Java, nhưng Aspose cung cấp
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Các kiểu phông chữ có sẵn trong Aspose.Page là gì?
 Aspose.Page hỗ trợ các kiểu phông chữ như Thông thường, Đậm, Nghiêng và BoldItalic.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

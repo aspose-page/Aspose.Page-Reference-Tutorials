@@ -3,10 +3,16 @@ title: Memotong XPS dengan Aspose.Page untuk .NET
 linktitle: Memotong XPS
 second_title: Aspose.Halaman .NET API
 description: Jelajahi kekuatan Aspose.Page untuk .NET dalam panduan langkah demi langkah tentang pemotongan dokumen XPS. Buat, manipulasi, dan simpan file XPS dengan mudah.
-type: docs
 weight: 11
 url: /id/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memotong XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang Clipping XPS menggunakan Aspose.Page untuk .NET! Dalam panduan ini, kami akan memandu Anda melalui proses membuat, memanipulasi, dan menyimpan dokumen XPS menggunakan Aspose.Page untuk .NET. XPS, atau Spesifikasi Kertas XML, adalah format dokumen terstandarisasi dan terbuka, dan Aspose.Page untuk .NET menyediakan alat canggih untuk bekerja dengan dokumen XPS di aplikasi .NET Anda.
@@ -156,3 +162,9 @@ A2: Ya, Aspose.Page untuk .NET dirancang agar mudah digunakan, dan pemula dapat 
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.Page untuk .NET?
 
  A5: Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

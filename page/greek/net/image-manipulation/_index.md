@@ -3,10 +3,16 @@ title: Χειρισμός εικόνας
 linktitle: Χειρισμός εικόνας
 second_title: Aspose.Page .NET API
 description: Ανακαλύψτε τη δύναμη του Aspose.Page για .NET μέσα από τα Εκπαιδευτικά μας για τη χειραγώγηση εικόνας. Περικόψτε και αλλάξτε το μέγεθος εικόνων EPS χωρίς κόπο για εκπληκτικά και ακριβή αποτελέσματα.
-type: docs
 weight: 26
 url: /el/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός εικόνας
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να βελτιώσετε τις δεξιότητές σας στο χειρισμό εικόνας EPS στο .NET; Βουτήξτε στα ολοκληρωμένα σεμινάρια χειρισμού εικόνας με το Aspose.Page για .NET, όπου σας καθοδηγούμε στην απρόσκοπτη διαδικασία περικοπής και αλλαγής μεγέθους εικόνων EPS.
@@ -41,3 +47,9 @@ url: /el/net/image-manipulation/
 Εξερευνήστε τον απρόσκοπτο κόσμο της επεξεργασίας εικόνων EPS στο .NET με το Aspose.Page. Περικοπή και αλλαγή μεγέθους εικόνων χωρίς κόπο για εκπληκτικά αποτελέσματα.
 ### [Αλλαγή μεγέθους εικόνων EPS με το Aspose.Page για .NET](./resize-eps-images/)
 Εξερευνήστε την απρόσκοπτη διαδικασία αλλαγής μεγέθους εικόνων EPS στο .NET χρησιμοποιώντας το Aspose.Page. Αποκτήστε ακρίβεια σε σημεία, ίντσες, χιλιοστά και ποσοστά χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

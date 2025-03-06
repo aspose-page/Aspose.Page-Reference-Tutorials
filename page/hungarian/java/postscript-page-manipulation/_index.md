@@ -3,10 +3,16 @@ title: Oldalkezelés - PostScript
 linktitle: Oldalkezelés - PostScript
 second_title: Aspose.Page Java API
 description: Fedezze fel az Aspose.Page for Java oldalt PostScript oktatóanyagainkban. Könnyen hozzáadhat oldalakat Java PostScript-dokumentumaihoz a zökkenőmentes kezelés érdekében lépésről lépésre.
-type: docs
 weight: 32
 url: /hu/java/postscript-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oldalkezelés - PostScript
+
 
 ## Bevezetés
 
@@ -34,3 +40,9 @@ Kibontakoztatni a PostScript-dokumentumokban rejlő lehetőségeket átfogó út
 Fedezze fel, hogyan lehet könnyedén hozzáadni oldalakat Java PostScript-ben az Aspose.Page segítségével. Fokozza dokumentumkészítését ezzel a hatékony Java-könyvtárral.
 ### [Oldalak hozzáadása PostScriptben](./add-pages2/)
 Ismerje meg, hogyan adhat oldalakat Java PostScript dokumentumokhoz az Aspose.Page használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes dokumentumkezeléshez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

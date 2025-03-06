@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Page के साथ मौजूदा प
 linktitle: मौजूदा प्रिंट टिकट संपादित करें
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page का उपयोग करके XPS दस्तावेज़ों में प्रिंट टिकट संपादित करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका. दस्तावेज़ मुद्रण नियंत्रण को सहजता से बढ़ाएँ।
-type: docs
 weight: 11
 url: /hi/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Page के साथ मौजूदा प्रिंट टिकट संपादित करें
+
 ## परिचय
 
 .NET के लिए Aspose.Page का उपयोग करके मौजूदा प्रिंट टिकटों को संपादित करने पर इस व्यापक मार्गदर्शिका में आपका स्वागत है! Aspose.Page एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को XPS दस्तावेज़ों के साथ सहजता से काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम आपको व्यावहारिक उदाहरणों के साथ प्रिंट टिकटों को संपादित करने की प्रक्रिया के बारे में बताएंगे, जो एक सहज सीखने के अनुभव के लिए प्रत्येक चरण को तोड़ देगा।
@@ -117,3 +123,9 @@ A2: हाँ, .NET के लिए Aspose.Page .NET कोर के साथ
 ### Q5: मैं .NET के लिए Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
  ए5: विजिट करें[इस लिंक](https://purchase.aspose.com/temporary-license/) अस्थायी लाइसेंस प्राप्त करने के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

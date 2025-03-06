@@ -3,10 +3,16 @@ title: Thêm văn bản có chuỗi Unicode vào tài liệu XPS bằng Aspose.P
 linktitle: Thêm văn bản có chuỗi Unicode vào tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Khám phá sức mạnh của Aspose.Page dành cho .NET với hướng dẫn từng bước của chúng tôi về cách thêm văn bản Unicode vào tài liệu XPS.
-type: docs
 weight: 12
 url: /vi/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm văn bản có chuỗi Unicode vào tài liệu XPS bằng Aspose.Page
+
 ## Giới thiệu
 
 Trong bối cảnh phát triển .NET ngày càng phát triển, Aspose.Page nổi bật như một công cụ mạnh mẽ để xử lý các tài liệu XPS. Trong số nhiều tính năng của nó, khả năng thêm văn bản bằng chuỗi Unicode vào tài liệu XPS là một chức năng có giá trị. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn khai thác khả năng này một cách hiệu quả.
@@ -88,3 +94,9 @@ A2: Chắc chắn rồi! Mã ví dụ được cung cấp cho phép bạn tùy c
 ### Câu 5: Có bản dùng thử trước khi mua hàng không?
 
  A5: Chắc chắn rồi! Bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) trước khi thực hiện mua hàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

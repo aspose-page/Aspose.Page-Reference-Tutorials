@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile Lisansı Dosyadan Yükleyin
 linktitle: Lisansı Dosyadan Yükle
 second_title: Aspose.Page .NET API'si
 description: Dosyalardan lisans yükleme sanatında ustalaşarak Aspose.Page for .NET'in tüm potansiyelini ortaya çıkarın. Belge işleme yeteneklerinizi sorunsuz bir şekilde yükseltin.
-type: docs
 weight: 11
 url: /tr/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile Lisansı Dosyadan Yükleyin
+
 ## giriiş
 
 .NET için Aspose.Page dünyasına hoş geldiniz! .NET çerçevesini kullanarak belge işleme yeteneklerinizi geliştirmek istiyorsanız doğru yerdesiniz. Bu eğitimde, Aspose.Page for .NET ile bir dosyadan lisans yükleme sürecinde size rehberlik edeceğiz. Bu önemli adım, bu güçlü kitaplığın tüm potansiyelinden yararlanmanızı sağlar.
@@ -91,3 +97,9 @@ Bu basit adımları izleyerek lisans dosyanızı Aspose.Page for .NET'e başarı
 ### S5: Yardıma mı ihtiyacınız var veya sorularınız mı var? 
 
  A5: ziyaret edin[Aspose.Page Forumu](https://forum.aspose.com/c/page/39) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

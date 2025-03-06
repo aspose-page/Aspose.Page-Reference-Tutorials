@@ -3,10 +3,16 @@ title: Vizuális elemek – Java
 linktitle: Vizuális elemek – Java
 second_title: Aspose.Page Java API
 description: Az Aspose.Page segítségével könnyedén emelheti fel Java-dokumentumait! Ebben a lépésenkénti oktatóanyagban megtudhatja, hogyan javíthatja alkalmazását rácsok hozzáadásával a Visual Brush segítségével.
-type: docs
 weight: 41
 url: /hu/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vizuális elemek – Java
+
 ## Bevezetés
 
 Java fejlesztők, örüljetek! Merüljön el a vizuális elemek birodalmában az Aspose.Page oktatóanyagaival, amelyek azt ígérik, hogy átalakítják Java-dokumentumait. Ebben a kiadásban a rácsok Visual Brush segítségével történő hozzáadásának lenyűgöző művészetére összpontosítunk. Kapcsolódjon be, amikor elindulunk, hogy növelje jelentkezése vonzerejét.
@@ -46,3 +52,9 @@ Növelje alkalmazása vizuális vonzerejét erőfeszítés nélkül, mivel a Vis
 ## Vizuális elemek – Java oktatóanyagok
 ### [Rács hozzáadása a Java Visual Brush segítségével](./add-grid/)
 Javítsa a Java-dokumentum vizualizációját az Aspose.Page segítségével! Ismerje meg lépésről lépésre rácsok hozzáadását a Visual Brush segítségével. Növelje jelentkezése vonzerejét könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java 中的 EPS 操作
 linktitle: Java 中的 EPS 操作
 second_title: Aspose.Page Java API
 description: 通过我们的 EPS 操作教程探索 Aspose.Page for Java。通过分步指南轻松裁剪 EPS 文件并调整其大小，从而增强您的文档技能。
-type: docs
 weight: 24
 url: /zh/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 中的 EPS 操作
+
 
 ## 介绍
 
@@ -42,3 +48,9 @@ Crop EPS 教程不仅仅以代码结束；还以代码结束。我们分享高�
 探索有关使用 Aspose.Page 在 Java 中裁剪 EPS 文件的分步指南。轻松提高您的文档操作技能。 
 ### [在Java中调整EPS文件的大小](./resize/)
 了解如何使用 Aspose.Page for Java 轻松调整 Java 中的 EPS 文件大小。请按照我们的综合指南获取分步说明。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

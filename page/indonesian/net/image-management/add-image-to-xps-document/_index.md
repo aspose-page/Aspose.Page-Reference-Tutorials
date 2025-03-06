@@ -3,10 +3,16 @@ title: Tambahkan Gambar ke Dokumen XPS dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Gambar ke Dokumen XPS
 second_title: Aspose.Halaman .NET API
 description: Jelajahi integrasi gambar yang lancar ke dalam dokumen XPS dengan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman pengembangan yang lancar.
-type: docs
 weight: 11
 url: /id/net/image-management/add-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gambar ke Dokumen XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Dalam dunia pengembangan .NET, memasukkan gambar ke dalam dokumen XPS adalah persyaratan umum. Aspose.Page untuk .NET menyederhanakan proses ini, menawarkan perangkat canggih untuk memanipulasi dan menyempurnakan dokumen XPS dengan mudah. Tutorial ini akan memandu Anda melalui langkah-langkah menambahkan gambar ke dokumen XPS menggunakan Aspose.Page untuk .NET.
@@ -100,3 +106,9 @@ A2: Ya, Aspose.Page untuk .NET tidak bergantung pada platform, sehingga cocok un
 ### Q5: Di mana saya dapat mencari bantuan atau terlibat dengan komunitas Aspose.Page untuk .NET?
 
  A5: Kunjungi[Aspose.Page untuk forum .NET](https://forum.aspose.com/c/page/39) untuk terhubung dengan komunitas dan mendapatkan dukungan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

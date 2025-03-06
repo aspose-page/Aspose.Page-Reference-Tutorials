@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page für .NET ein gekacheltes Bild zu einem XPS-Do
 linktitle: Gekacheltes Bild zum XPS-Dokument hinzufügen
 second_title: Aspose.Page .NET-API
 description: Entdecken Sie, wie Sie mit Aspose.Page für .NET mühelos gekachelte Bilder zu XPS-Dokumenten hinzufügen können. Verbessern Sie die visuelle Attraktivität und erstellen Sie beeindruckende Dokumente.
-type: docs
 weight: 12
 url: /de/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page für .NET ein gekacheltes Bild zu einem XPS-Dokument hinzu
+
 ## Einführung
 
 Möchten Sie Ihre XPS-Dokumente durch das Hinzufügen optisch ansprechender gekachelter Bilder aufwerten? Mit Aspose.Page für .NET können Entwickler dies nahtlos erreichen. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Hinzufügens eines gekachelten Bildes zu einem XPS-Dokument mit Aspose.Page für .NET.
@@ -95,3 +101,9 @@ A2: Natürlich können Sie, wie im Beispiel gezeigt, die Deckkraft des gefüllte
 ### F5: Wo kann ich Hilfe suchen oder mich mit der Aspose.Page-Community verbinden?
 
  A5: Besuchen Sie die[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) um mit der Community in Kontakt zu treten, Fragen zu stellen und Lösungen zu finden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

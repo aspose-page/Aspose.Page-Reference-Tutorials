@@ -3,10 +3,16 @@ title: Applicare la licenza misurata con Aspose.Page per .NET
 linktitle: Applicare la licenza a consumo
 second_title: API Aspose.Page .NET
 description: Esplora la perfetta integrazione di Aspose.Page per .NET con questa guida passo passo sull'applicazione di una licenza a consumo. Ottimizza l'elaborazione dei documenti senza sforzo.
-type: docs
 weight: 10
 url: /it/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicare la licenza misurata con Aspose.Page per .NET
+
 ## introduzione
 
 Sblocca tutto il potenziale di Aspose.Page per .NET applicando una licenza a consumo. Questo tutorial ti guiderà attraverso il processo di configurazione e applicazione della licenza a consumo, garantendo un utilizzo fluido e ottimizzato di questa potente libreria .NET.
@@ -112,3 +118,9 @@ Questa guida passo passo ti ha fornito le conoscenze per applicare senza problem
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.Page per .NET?
 
  A5: Visita[licenza temporanea/](https://purchase.aspose.com/temporary-license/) per ottenere una licenza temporanea.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

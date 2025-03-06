@@ -3,10 +3,16 @@ title: แปรงภาพ
 linktitle: แปรงภาพ
 second_title: Aspose.Page .NET API
 description: ยกระดับการประมวลผลเอกสารของคุณใน .NET ด้วยบทช่วยสอน Aspose.Page ดำดิ่งสู่อาณาจักรของ Visual Brushes ซึ่งเป็นเทคนิคการเรียนรู้สำหรับเอกสารที่สวยงามตระการตา
-type: docs
 weight: 35
 url: /th/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปรงภาพ
+
 
 ## การแนะนำ
 
@@ -36,3 +42,9 @@ Aspose.Page สำหรับ .NET ไม่ได้เป็นเพีย�
 ## บทช่วยสอน Visual Brushes
 ### [ใช้ Grid Visual Brush กับ Aspose.Page สำหรับ .NET](./apply-grid-visual-brush/)
 สำรวจโลกแบบไดนามิกของการประมวลผลเอกสารใน .NET ด้วย Aspose.Page เรียนรู้วิธีใช้ Grid Visual Brush เพื่อให้เอกสารดูสวยงามน่าทึ่ง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

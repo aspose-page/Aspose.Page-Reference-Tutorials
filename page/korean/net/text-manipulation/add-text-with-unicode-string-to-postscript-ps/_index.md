@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 PS(PostScript)에 유니코드 문자열이 �
 linktitle: PostScript에 유니코드 문자열이 포함된 텍스트 추가(PS)
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 PostScript 파일에 유니코드 텍스트를 추가하는 방법을 알아보세요. 문서 조작을 쉽게 강화하세요.
-type: docs
 weight: 11
 url: /ko/net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 PS(PostScript)에 유니코드 문자열이 포함된 텍스트 추가
+
 ## 소개
 
 문서 조작 영역에서 Aspose.Page for .NET은 개발자가 다양한 문서 형식을 생성, 편집 및 변환할 수 있는 강력한 라이브러리로 돋보입니다. 강력한 기능 중 하나는 유니코드 문자열을 사용하여 PostScript(PS) 파일에 텍스트를 추가하는 기능입니다. 이 튜토리얼에서는 이 작업을 수행하는 단계별 가이드를 살펴보고 Aspose.Page로 작업하는 개발자에게 원활한 환경을 제공합니다.
@@ -110,3 +116,9 @@ A4: Aspose.Page는 XPS, PS, EPS, PDF 등을 포함한 다양한 형식을 지원
 ### Q5: 추가된 텍스트의 모양을 사용자 정의할 수 있나요?
 
 A5: 예, Aspose.Page에서 텍스트의 글꼴, 크기, 색상 및 기타 속성을 사용자 정의할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して単純なプロパティを追加す�
 linktitle: 単純なプロパティの追加
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して EPS ファイルを拡張します。カスタマイズされたドキュメントのメタデータに簡単なプロパティを簡単に追加できます。
-type: docs
 weight: 14
 url: /ja/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して単純なプロパティを追加する
+
 ## 導入
 
 ドキュメントの操作と拡張の分野では、Aspose.Page for .NET が強力なツールとして登場し、開発者に EPS ファイル内の XMP メタデータをシームレスに追加および変更する機能を提供します。このチュートリアルでは、Aspose.Page for .NET を使用して単純なプロパティを EPS ファイルに追加するプロセスを説明します。
@@ -120,3 +126,9 @@ A3: Aspose.Page for .NET は、整数、日付、倍精度浮動小数点数、�
 ### Q5: Aspose.Page for .NET の無料トライアルはありますか?
 
  A5: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

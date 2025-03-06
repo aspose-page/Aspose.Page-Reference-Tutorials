@@ -3,10 +3,16 @@ title: Rechthoek toevoegen in Java XPS
 linktitle: Rechthoek toevoegen in Java XPS
 second_title: Aspose.Page Java-API
 description: Leer hoe u rechthoeken toevoegt in Java XPS met Aspose.Page. Volg onze stapsgewijze handleiding voor naadloze documentmanipulatie. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /nl/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rechthoek toevoegen in Java XPS
+
 ## Invoering
 Welkom bij deze uitgebreide handleiding over het toevoegen van rechthoeken in Java XPS met Aspose.Page! Of u nu een doorgewinterde ontwikkelaar bent of net begint met Java XPS, deze tutorial leidt u door het proces met stapsgewijze instructies, zodat u een goed begrip van het onderwerp krijgt.
 ## Vereisten
@@ -62,3 +68,9 @@ Absoluut! Aspose.Page biedt een robuuste set functies voor het verwerken van ver
  Ontdek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39)voor meer voorbeelden en zoek hulp bij de gemeenschap.
 ### Kan ik Aspose.Page uitproberen voordat ik een aankoop doe?
  Ja, u kunt een verkennen[gratis proefperiode](https://releases.aspose.com/) om de mogelijkheden van Aspose.Page te ervaren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java XPS'de Yatay Degrade Ekleme
 linktitle: Java XPS'de Yatay Degrade Ekleme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page'i kullanarak Java'da XPS belgelerine nasıl çarpıcı bir yatay degrade ekleyeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS'de Yatay Degrade Ekleme
+
 ## giriiş
 Aspose.Page for Java kullanarak Java XPS'de yatay degrade eklemeyi anlatan bu adım adım kılavuza hoş geldiniz. Aspose.Page for Java, geliştiricilerin XPS (XML Kağıt Belirtimi) belgeleriyle sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır.
 Bu eğitimde, bir XPS belgesine yatay degrade eklemek için bir Java uygulaması oluşturma sürecinde size yol göstereceğiz. Bunu kolaylıkla başarmak için aşağıdaki adımları izleyin.
@@ -70,3 +76,9 @@ Evet, Aspose.Page, doğrusal degradelerin yanı sıra daha çeşitli efektler i�
 Kesinlikle! Her degrade durağının renkleri ve konumları üzerinde tam kontrole sahipsiniz.
 ### S: Aspose.Page için yardım isteyebileceğim bir topluluk forumu var mı?
  Evet, ziyaret edebilirsiniz[Aspose.Page forumu](https://forum.aspose.com/c/page/39) toplulukla bağlantı kurmak ve yardım almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

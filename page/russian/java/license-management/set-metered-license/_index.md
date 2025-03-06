@@ -3,10 +3,16 @@ title: Простая интеграция дозированных лиценз
 linktitle: Установить лимитную лицензию в Java
 second_title: API Aspose.Page Java
 description: Узнайте об бесшовной интеграции Aspose.Page с Java. Легко настройте лимитные лицензии и расширьте возможности обработки документов.
-type: docs
 weight: 10
 url: /ru/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Простая интеграция дозированных лицензий с Aspose.Page Java
+
 ## Введение
 Добро пожаловать в наше подробное руководство по настройке лимитной лицензии на Java с помощью Aspose.Page. Если вы хотите расширить свои возможности обработки документов и обеспечить плавную интеграцию с Aspose.Page, вы попали по адресу. В этом уроке мы покажем вам весь процесс, разбив каждый шаг на легко усваиваемые части.
 ## Предварительные условия
@@ -100,3 +106,9 @@ try {
  Обратитесь к документации[здесь](https://reference.aspose.com/page/java/).
 ### Вопрос: Как я могу получить временные лицензии?
  Временные лицензии можно получить[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beeldbeheer
 linktitle: Beeldbeheer
 second_title: Aspose.Page .NET-API
 description: Verbeter moeiteloos uw documentvisuals! Ontdek Aspose.Page .NET-tutorials over beeldbeheer. Van het toevoegen van afbeeldingen tot het converteren van formaten beheers elke stap.
-type: docs
 weight: 28
 url: /nl/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beeldbeheer
+
 ## Invoering
 
 Wilt u de visuele aantrekkingskracht van uw documenten vergroten met Aspose.Page voor .NET? Zoek niet verder! In deze uitgebreide handleiding leiden we u door verschillende tutorials over beeldbeheer waarmee u uw documenten naadloos kunt verbeteren.
@@ -45,3 +51,9 @@ Ontdek de naadloze integratie van afbeeldingen in XPS-documenten met Aspose.Page
 Ontdek hoe u moeiteloos tegelafbeeldingen aan XPS-documenten kunt toevoegen met Aspose.Page voor .NET. Verbeter de visuele aantrekkingskracht en creëer verbluffende documenten.
 ### [Converteer afbeelding naar EPS-indeling met Aspose.Page voor .NET](./convert-image-to-eps-format/)
 Leer hoe u JPEG-afbeeldingen naar EPS-indeling converteert met Aspose.Page voor .NET. Een uitgebreide handleiding met stapsgewijze instructies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: เพิ่มวัตถุโปร่งใสใน Java XPS
 linktitle: เพิ่มวัตถุโปร่งใสใน Java XPS
 second_title: Aspose.Page Java API
 description: ปรับปรุงเอกสาร Java XPS ของคุณด้วยเอฟเฟกต์โปร่งใสที่น่าทึ่งโดยใช้ Aspose.Page ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราในการเพิ่มวัตถุโปร่งใส
-type: docs
 weight: 10
 url: /th/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มวัตถุโปร่งใสใน Java XPS
+
 ## การแนะนำ
 หากคุณต้องการปรับปรุงรูปลักษณ์ที่สวยงามของเอกสาร Java XPS ของคุณโดยการเพิ่มวัตถุโปร่งใส Aspose.Page สำหรับ Java คือโซลูชันสำหรับคุณ ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดกระบวนการรวมวัตถุโปร่งใสลงในเอกสาร XPS ของคุณ เมื่อสิ้นสุดบทช่วยสอนนี้ คุณจะสามารถสร้างเอกสารที่น่าทึ่งพร้อมเอฟเฟกต์โปร่งใสที่สวยงามน่าพึงพอใจได้
 ## ข้อกำหนดเบื้องต้น
@@ -88,3 +94,9 @@ doc.save(dataDir + "WorkingWithTransparency_out.xps");
 ตอบ: ได้ Aspose.Page สามารถรวมเข้ากับไลบรารี Java อื่นๆ ได้อย่างราบรื่นเพื่อฟังก์ชันการทำงานที่ขยายเพิ่ม
 ### ถาม: ฉันจะหาตัวอย่างเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Page ได้ที่ไหน
  ตอบ: เยี่ยมชม[Aspose.Page ฟอรั่ม Java](https://forum.aspose.com/c/page/39)สำหรับการสนับสนุนจากชุมชนและสำรวจเอกสารประกอบ[ที่นี่](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

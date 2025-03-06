@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 加入徑向漸層橢圓
 linktitle: 在 Java XPS 中加入橢圓
 second_title: Aspose.Page Java API
 description: 探索使用 Aspose.Page for Java 在 Java XPS 中新增徑向漸層描邊橢圓的分步指南。輕鬆增強您的文件建立。
-type: docs
 weight: 10
 url: /zh-hant/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 加入徑向漸層橢圓
+
 ## 介紹
 歡迎閱讀我們有關使用 Aspose.Page for Java 在 Java XPS 中新增橢圓的逐步指南。 Aspose.Page 是一個功能強大的 Java 程式庫，可讓開發人員輕鬆處理 XPS 文件。在本教學中，我們將引導您完成建立徑向漸層描邊橢圓並將其儲存為 XPS 文件的過程。
 ## 先決條件
@@ -91,3 +97,9 @@ doc.save(dataDir + "AddEllipse_out.xps");
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 是否有用於 Aspose.Page 討論的社群論壇？
 是的，加入[Aspose.Page 社群論壇](https://forum.aspose.com/c/page/39)與其他開發人員互動並獲得協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

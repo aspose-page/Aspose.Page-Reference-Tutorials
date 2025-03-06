@@ -3,10 +3,16 @@ title: Bildhantering - XPS
 linktitle: Bildhantering - XPS
 second_title: Aspose.Page Java API
 description: Upptäck konsten att enkelt manipulera bilder i Java XPS-dokument med Aspose.Page. Lär dig att lägga till och sida vid sida bilder sömlöst för förbättrad dokumentbehandling.
-type: docs
 weight: 29
 url: /sv/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bildhantering - XPS
+
 
 ## Introduktion
 
@@ -36,3 +42,9 @@ Sammanfattningsvis öppnar Aspose.Page för Java dörren till en värld där dok
 Lär dig hur du enkelt lägger till bilder till XPS-dokument i Java med Aspose.Page. Lyft din dokumentbehandling med denna steg-för-steg-guide.
 ### [Lägg till sida vid sida i Java XPS](./add-tiled-image/)
 Utforska sömlös Java XPS-dokumentmanipulation med Aspose.Page. Lär dig att lägga till sida vid sida med bilder utan ansträngning med hjälp av denna steg-för-steg-guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

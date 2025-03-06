@@ -3,10 +3,16 @@ title: Thêm văn bản vào tài liệu XPS bằng Aspose.Page cho .NET
 linktitle: Thêm văn bản vào tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Khám phá hướng dẫn từng bước về cách thêm văn bản vào tài liệu XPS bằng Aspose.Page cho .NET. Dễ dàng nâng cao các dự án .NET của bạn.
-type: docs
 weight: 13
 url: /vi/net/text-manipulation/add-text-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm văn bản vào tài liệu XPS bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET năng động, Aspose.Page nổi bật như một công cụ mạnh mẽ để làm việc với các tài liệu XPS. Thêm văn bản vào tài liệu XPS là một yêu cầu phổ biến và Aspose.Page đơn giản hóa quy trình này. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng Aspose.Page cho .NET để thêm văn bản vào tài liệu XPS một cách liền mạch.
@@ -102,3 +108,9 @@ A2: Chắc chắn rồi! Aspose.Page hỗ trợ .NET Core, đảm bảo khả n�
 ### Câu 5: Có bản dùng thử miễn phí không?
 
  A5: Chắc chắn rồi! Bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

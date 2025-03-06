@@ -3,10 +3,16 @@ title: Java 页面操作
 linktitle: Java 页面操作
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 教程解锁 Java 页面操作的秘密。深入研究剪切和转换，轻松制作视觉上令人惊叹的文档。
-type: docs
 weight: 20
 url: /zh/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 页面操作
+
 
 ## 介绍
 
@@ -50,3 +56,9 @@ Aspose.Page for Java 为您带来了触手可及的强大功能。从聚焦视�
 使用 Aspose.Page 探索 Java 页面操作中的剪切艺术。掌握精确的文档制作，以获得令人惊叹的视觉效果和控制。
 ### [Java 页面操作中的转换](./transformations/)
 了解如何使用 Aspose.Page for Java 在 Java 中执行高级页面转换。通过强大的操作功能增强您的 Java 应用程序。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

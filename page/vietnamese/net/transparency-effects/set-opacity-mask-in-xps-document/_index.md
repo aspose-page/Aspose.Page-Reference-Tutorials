@@ -3,10 +3,16 @@ title: Đặt Mặt nạ độ mờ trong Tài liệu XPS với Aspose.Page cho 
 linktitle: Đặt mặt nạ độ mờ trong tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách đặt mặt nạ độ mờ trong tài liệu XPS bằng Aspose.Page cho .NET. Nâng cao tính thẩm mỹ của tài liệu một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt Mặt nạ độ mờ trong Tài liệu XPS với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Mặt nạ độ mờ rất cần thiết khi bạn muốn tạo các tài liệu hấp dẫn trực quan với các mức độ trong suốt khác nhau. Aspose.Page for .NET đơn giản hóa quy trình này, cung cấp cho các nhà phát triển một bộ công cụ toàn diện để nâng cao tài liệu XPS. Trong hướng dẫn này, chúng ta sẽ khám phá cách đặt mặt nạ độ mờ trong hướng dẫn từng bước.
@@ -98,3 +104,9 @@ Câu trả lời 4: Có, bạn có thể xếp lớp nhiều mặt nạ độ m�
 ### Câu hỏi 5: Aspose.Page có tương thích với các định dạng tài liệu khác không?
 
 Câu trả lời 5: Aspose.Page chủ yếu tập trung vào các tài liệu XPS, nhưng Aspose cung cấp nhiều sản phẩm để xử lý các định dạng khác nhau.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

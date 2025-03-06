@@ -3,10 +3,16 @@ title: أضف صفحة إلى مستند XPS باستخدام Aspose.Page لـ .
 linktitle: إضافة صفحة إلى مستند XPS
 second_title: Aspose.Page .NET API
 description: قم بتحسين تطبيقات .NET الخاصة بك عن طريق تعلم كيفية إضافة صفحات إلى مستندات XPS باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 11
 url: /ar/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف صفحة إلى مستند XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 إذا كنت تعمل مع مستندات XPS في .NET وتحتاج إلى إضافة صفحات برمجيًا، فإن Aspose.Page for .NET هو الحل الأمثل لك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة صفحات إلى مستند XPS خطوة بخطوة. باعتباري كاتبًا ماهرًا في مجال تحسين محركات البحث، سأتأكد من أن هذا الدليل ليس مفيدًا فحسب، بل تم تصميمه أيضًا مع وضع تحسين محرك البحث في الاعتبار، مما يجعله مصدرًا قيمًا للمطورين ومنشئي المحتوى على حدٍ سواء.
@@ -86,3 +92,10 @@ doc.Save(dataDir + "AddPages_out.xps");
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
 
  ج5: قم بزيارة[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لأغراض الاختبار.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

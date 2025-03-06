@@ -3,10 +3,16 @@ title: معالجة الصور - بوستسكريبت
 linktitle: معالجة الصور - بوستسكريبت
 second_title: Aspose.Page جافا API
 description: عزز مهارات التعامل مع المستندات باستخدام Aspose.Page لـ Java. انغمس في برامج PostScript التعليمية الخاصة بنا، وتعلم كيفية إضافة الصور في Java، ورفع قدرات المستند لديك.
-type: docs
 weight: 28
 url: /ar/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة الصور - بوستسكريبت
+
 
 ## مقدمة
 
@@ -32,3 +38,9 @@ url: /ar/java/postscript-image-manipulation/
 ## معالجة الصور - دروس بوستسكريبت
 ### [إضافة صورة في جافا بوستسكريبت](./add-image/)
 استكشف التكامل السلس لـ Aspose.Page Java في هذا البرنامج التعليمي حول إضافة الصور إلى مستندات PostScript. ارفع قدرات معالجة المستندات لديك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

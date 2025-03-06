@@ -3,10 +3,16 @@ title: การแปลง PS ด้วย Aspose.Page สำหรับ .NET
 linktitle: การแปลงร่าง ปล
 second_title: Aspose.Page .NET API
 description: ปลดล็อกศักยภาพของ Aspose.Page สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการแปลง PostScript สร้างกราฟิกแบบไดนามิกได้อย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/net/canvas-manipulation/transformationsps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแปลง PS ด้วย Aspose.Page สำหรับ .NET
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose.Page สำหรับ .NET ซึ่งคุณสามารถปลดปล่อยพลังแห่งการเปลี่ยนแปลงในเอกสาร PostScript บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการแปลงต่างๆ เช่น การแปล การปรับขนาด การหมุน การตัด และการแปลงที่ซับซ้อน ช่วยให้คุณสร้างกราฟิกไดนามิกที่สวยงามและสวยงาม
@@ -141,3 +147,9 @@ A3: ได้ คุณสามารถแยกการแปลงเป็
 ### คำถามที่ 5: ฉันจะรับการสนับสนุนหรือขอความช่วยเหลือเกี่ยวกับคำถามที่เกี่ยวข้องกับ Aspose.Page ได้อย่างไร
 
  A5: เยี่ยมชม[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) สำหรับการสนับสนุนและการอภิปรายของชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: XMP 元資料操作 - Java
 linktitle: XMP 元資料操作 - Java
 second_title: Aspose.Page Java API
 description: 透過 XMP 元資料操作（從新增項目到提取）輕鬆增強 EPS 檔案。透過我們的指南提升您的文件管理。
-type: docs
 weight: 42
 url: /zh-hant/java/xmp-metadata-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XMP 元資料操作 - Java
+
 
 ## 介紹
 
@@ -66,3 +72,9 @@ url: /zh-hant/java/xmp-metadata-manipulation/
 使用 Aspose.Page for Java 增強 EPS 文件。輕鬆修改 XMP 元資料以獲得客製化的專業內容。
 ### [使用 Java 從 XMP 取得元數據](./get-metadata/)
 釋放 Aspose.Page for Java 的強大功能，輕鬆擷取 XMP 元資料。透過我們的逐步指南提昇文件分析！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

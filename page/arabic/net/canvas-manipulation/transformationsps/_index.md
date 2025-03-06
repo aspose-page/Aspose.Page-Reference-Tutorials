@@ -3,10 +3,16 @@ title: تحويلات PS مع Aspose.Page لـ .NET
 linktitle: التحولات PS
 second_title: Aspose.Page .NET API
 description: أطلق العنان لإمكانات Aspose.Page لـ .NET باستخدام هذا الدليل الشامل حول تحويلات PostScript. قم بإنشاء رسومات ديناميكية دون عناء.
-type: docs
 weight: 12
 url: /ar/net/canvas-manipulation/transformationsps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويلات PS مع Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Page for .NET، حيث يمكنك إطلاق العنان لقوة التحولات في مستندات PostScript. سيرشدك هذا البرنامج التعليمي خلال التحويلات المختلفة مثل الترجمة والقياس والتدوير والقص والتحويلات المعقدة، مما يسمح لك بإنشاء رسومات مذهلة وديناميكية.
@@ -141,3 +147,9 @@ A3: نعم، يمكنك عزل التحويلات إلى عناصر رسومية
 ### س5: كيف يمكنني الحصول على الدعم أو طلب المساعدة فيما يتعلق بالاستعلامات المتعلقة بـ Aspose.Page؟
 
  ج5: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

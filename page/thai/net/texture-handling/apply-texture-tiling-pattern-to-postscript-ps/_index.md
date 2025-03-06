@@ -3,10 +3,16 @@ title: ใช้ Texture Tiling Pattern กับ PostScript (PS) ด้วย A
 linktitle: ใช้รูปแบบการปูกระเบื้องพื้นผิวกับ PostScript (PS)
 second_title: Aspose.Page .NET API
 description: ปรับปรุงเอกสาร PostScript (PS) ของคุณด้วยรูปแบบการเรียงต่อกันของพื้นผิวโดยใช้ Aspose.Page สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสัมผัสความสร้างสรรค์
-type: docs
 weight: 10
 url: /th/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้ Texture Tiling Pattern กับ PostScript (PS) ด้วย Aspose.Page
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนแบบทีละขั้นตอนเกี่ยวกับวิธีใช้รูปแบบการเรียงพื้นผิวกับเอกสาร PostScript (PS) โดยใช้ Aspose.Page สำหรับ .NET Aspose.Page เป็นไลบรารีอันทรงพลังที่ช่วยให้คุณทำงานกับเอกสารได้หลายรูปแบบ และในบทช่วยสอนนี้ เราจะสำรวจวิธีปรับปรุงเอกสาร PS ของคุณโดยการเพิ่มรูปแบบการเรียงต่อกันของพื้นผิว
@@ -156,3 +162,10 @@ A4: ได้ คุณสามารถทำซ้ำขั้นตอนน
 ### คำถามที่ 5: ฉันจะหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนได้จากที่ไหน
 
  A5: เยี่ยมชม[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) สำหรับการสนับสนุนชุมชนและการสำรวจ[เอกสารประกอบ](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การจัดการข้อความ Java Aspose.Page
 linktitle: เพิ่มข้อความใน Java PostScript
 second_title: Aspose.Page Java API
 description: สำรวจพลังของ Aspose.Page สำหรับ Java ในบทช่วยสอนของเราเกี่ยวกับการเพิ่มข้อความลงในเอกสาร PostScript เรียนรู้การใช้ระบบและแบบอักษรที่กำหนดเองได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการข้อความ Java Aspose.Page
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนในการเพิ่มข้อความใน Java PostScript โดยใช้ Aspose.Page สำหรับ Java Aspose.Page สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาจัดการเอกสาร PostScript ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มข้อความ การใช้ระบบและแบบอักษรที่กำหนดเอง การสรุปข้อความ และการใช้ลายเส้นเพื่อให้ได้ผลลัพธ์ที่ดึงดูดสายตา
 ## ข้อกำหนดเบื้องต้น
@@ -99,3 +105,9 @@ document.save();
 `ExternalFontCache` ใช้เพื่อดึงแบบอักษรที่กำหนดเอง เพื่อให้แน่ใจว่าพร้อมใช้งานสำหรับการจัดการข้อความ
 ### ฉันสามารถใช้จังหวะที่แตกต่างกันกับข้อความที่จัดเค้าร่างได้หรือไม่
  ใช่ คุณสามารถปรับแต่งความกว้างและสีของเส้นโครงร่างได้โดยใช้`Stroke` ชั้นเรียนและ`Color` ชั้นเรียนตามลำดับ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

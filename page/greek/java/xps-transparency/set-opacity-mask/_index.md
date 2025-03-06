@@ -3,10 +3,16 @@ title: Ορίστε τη μάσκα αδιαφάνειας σε Java XPS
 linktitle: Ορίστε τη μάσκα αδιαφάνειας σε Java XPS
 second_title: Aspose.Page Java API
 description: Ανακαλύψτε τη δύναμη της ρύθμισης μασκών αδιαφάνειας σε Java XPS με το Aspose.Page. Ακολουθήστε τον οδηγό βήμα προς βήμα για μια οπτικά βελτιωμένη εμπειρία εγγράφων.
-type: docs
 weight: 11
 url: /el/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορίστε τη μάσκα αδιαφάνειας σε Java XPS
+
 ## Εισαγωγή
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για τη ρύθμιση μασκών αδιαφάνειας σε Java XPS χρησιμοποιώντας το Aspose.Page. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας ενός εγγράφου XPS, προσθήκης καμβά και εφαρμογής μάσκας αδιαφάνειας σε ένα ορθογώνιο χρησιμοποιώντας τις ισχυρές δυνατότητες του Aspose.Page για Java.
 ## Προαπαιτούμενα
@@ -67,3 +73,9 @@ doc.save(dataDir + "OpacityMask_out.xps");
  Μπορείτε να επισκεφθείτε το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39) για κοινοτική υποστήριξη ή αγοράστε μια άδεια για premium βοήθεια.
 ### Υπάρχει εγγύηση επιστροφής χρημάτων για το Aspose.Page;
  Αναφέρομαι στο[σελίδα αγοράς](https://purchase.aspose.com/buy) για πληροφορίες σχετικά με τις πολιτικές επιστροφής χρημάτων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

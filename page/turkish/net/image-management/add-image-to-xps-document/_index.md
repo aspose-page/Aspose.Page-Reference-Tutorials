@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile XPS Belgesine Görüntü Ekleme
 linktitle: XPS Belgesine Resim Ekle
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET ile görüntülerin XPS belgelerine kusursuz entegrasyonunu keşfedin. Sorunsuz bir geliştirme deneyimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/image-management/add-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile XPS Belgesine Görüntü Ekleme
+
 ## giriiş
 
 .NET geliştirme dünyasında görüntülerin XPS belgelerine dahil edilmesi yaygın bir gerekliliktir. Aspose.Page for .NET, XPS belgelerini zahmetsizce işlemek ve geliştirmek için güçlü bir araç seti sunarak bu süreci basitleştirir. Bu eğitim, Aspose.Page for .NET kullanarak bir XPS belgesine görüntü ekleme adımlarında size rehberlik edecektir.
@@ -100,3 +106,9 @@ C2: Evet, Aspose.Page for .NET platformdan bağımsız olduğundan hem Windows h
 ### S5: Aspose.Page for .NET için nereden yardım alabilirim veya toplulukla etkileşime geçebilirim?
 
  A5: ziyaret edin[.NET forumu için Aspose.Page](https://forum.aspose.com/c/page/39) toplulukla bağlantı kurmak ve destek almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

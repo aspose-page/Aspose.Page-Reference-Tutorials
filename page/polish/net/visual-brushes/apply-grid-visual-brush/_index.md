@@ -3,10 +3,16 @@ title: Zastosuj pędzel wizualny siatki za pomocą Aspose.Page dla .NET
 linktitle: Zastosuj pędzel wizualny siatki
 second_title: Aspose.Page API .NET
 description: Poznaj dynamiczny świat przetwarzania dokumentów w .NET z Aspose.Page. Dowiedz się, jak zastosować pędzel wizualny siatki, aby uzyskać oszałamiające wizualnie dokumenty.
-type: docs
 weight: 10
 url: /pl/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj pędzel wizualny siatki za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 W świecie programowania .NET Aspose.Page wyróżnia się jako potężne narzędzie do obsługi zadań związanych z przetwarzaniem dokumentów. Jedną z fascynujących funkcji, jakie oferuje, jest możliwość zastosowania pędzla wizualnego siatki, nadającego dokumentom nowy wymiar. Ten samouczek poprowadzi Cię krok po kroku przez proces wdrażania pędzla wizualnego Magenta Grid przy użyciu Aspose.Page dla .NET.
@@ -143,3 +149,9 @@ O1: Tak, Aspose.Page dla .NET jest wszechstronny i może być używany w różny
 ### P5: Jaka inna dokumentacja jest dostępna dla Aspose.Page dla .NET?
 
  Odpowiedź 5: Zapoznaj się z obszerną dokumentacją[Tutaj](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

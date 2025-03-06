@@ -3,10 +3,16 @@ title: Dodaj tekst za pomocą ciągu Unicode do dokumentu XPS za pomocą Aspose.
 linktitle: Dodaj tekst za pomocą ciągu Unicode do dokumentu XPS
 second_title: Aspose.Page API .NET
 description: Odkryj możliwości Aspose.Page dla .NET dzięki naszemu przewodnikowi krok po kroku na temat dodawania tekstu Unicode do dokumentów XPS.
-type: docs
 weight: 12
 url: /pl/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj tekst za pomocą ciągu Unicode do dokumentu XPS za pomocą Aspose.Page
+
 ## Wstęp
 
 W stale rozwijającym się środowisku rozwoju .NET Aspose.Page wyróżnia się jako potężne narzędzie do obsługi dokumentów XPS. Wśród wielu funkcji cenną funkcjonalnością jest możliwość dodawania tekstu zawierającego ciągi znaków Unicode do dokumentu XPS. Ten przewodnik krok po kroku przeprowadzi Cię przez cały proces, zapewniając efektywne wykorzystanie tej możliwości.
@@ -88,3 +94,9 @@ A2: Absolutnie! Dostarczony przykładowy kod umożliwia łatwe dostosowanie styl
 ### P5: Czy przed dokonaniem zakupu dostępna jest wersja próbna?
 
  A5: Oczywiście! Możesz uzyskać dostęp do bezpłatnej wersji próbnej[Tutaj](https://releases.aspose.com/) przed dokonaniem zakupu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

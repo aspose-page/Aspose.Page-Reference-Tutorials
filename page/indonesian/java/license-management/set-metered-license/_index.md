@@ -3,10 +3,16 @@ title: Integrasi Lisensi Terukur yang Mudah dengan Aspose.Page Java
 linktitle: Tetapkan Lisensi Terukur di Java
 second_title: Aspose.Halaman Java API
 description: Jelajahi integrasi Aspose.Page yang mulus dengan Java. Siapkan lisensi terukur dengan mudah dan tingkatkan kemampuan pemrosesan dokumen Anda.
-type: docs
 weight: 10
 url: /id/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integrasi Lisensi Terukur yang Mudah dengan Aspose.Page Java
+
 ## Perkenalan
 Selamat datang di panduan komprehensif kami tentang menyiapkan lisensi terukur di Java menggunakan Aspose.Page. Jika Anda ingin meningkatkan kemampuan pemrosesan dokumen dan memastikan integrasi yang lancar dengan Aspose.Page, Anda berada di tempat yang tepat. Dalam tutorial ini, kami akan memandu Anda melalui prosesnya, memecah setiap langkah menjadi beberapa bagian yang mudah dicerna.
 ## Prasyarat
@@ -100,3 +106,9 @@ Anda dapat memperoleh kunci ini melalui akun Aspose Anda.
  Lihat dokumentasi[Di Sini](https://reference.aspose.com/page/java/).
 ### T: Bagaimana cara mendapatkan lisensi sementara?
  Lisensi sementara dapat diperoleh[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

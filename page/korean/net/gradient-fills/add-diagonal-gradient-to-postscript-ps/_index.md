@@ -3,10 +3,16 @@ title: Aspose.Page .NET을 사용하여 PostScript(PS)에 대각선 그라디언
 linktitle: PostScript에 대각선 그라디언트 추가(PS)
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page를 사용하여 .NET의 PostScript 문서에 대각선 그라데이션을 추가하는 단순성을 살펴보세요. 역동적인 시각적 요소로 프로젝트를 향상시키세요.
-type: docs
 weight: 10
 url: /ko/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page .NET을 사용하여 PostScript(PS)에 대각선 그라디언트 추가
+
 ## 소개
 
 PostScript(PS) 문서에 대각선 그라디언트를 추가하면 프로젝트에 시각적 매력과 창의성을 더할 수 있습니다. .NET용 Aspose.Page는 이 기능을 애플리케이션에 통합하기 위한 완벽한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Page를 사용하여 PS 문서에 대각선 그라디언트를 추가하는 과정을 단계별로 안내합니다.
@@ -162,3 +168,9 @@ A2: 예, Aspose.Page는 프로젝트 요구 사항에 따라 그라데이션 색
 ### Q5: Aspose.Page에 대한 커뮤니티 지원은 어디서 찾을 수 있나요?
 
  A5: Aspose.Page 커뮤니티에 참여하세요.[법정](https://forum.aspose.com/c/page/39) 도움과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

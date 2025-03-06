@@ -3,10 +3,16 @@ title: Apply Grid Visual Brush with Aspose.Page for .NET
 linktitle: Apply Grid Visual Brush
 second_title: Aspose.Page .NET API
 description: Explore the dynamic world of document processing in .NET with Aspose.Page. Learn how to apply a Grid Visual Brush for visually stunning documents.
-type: docs
 weight: 10
 url: /net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply Grid Visual Brush with Aspose.Page for .NET
+
 ## Introduction
 
 In the world of .NET development, Aspose.Page stands out as a powerful tool for handling document processing tasks. One fascinating feature it offers is the ability to apply a Grid Visual Brush, bringing a new dimension to your documents. This tutorial will guide you through the process of implementing a Magenta Grid Visual Brush step by step using Aspose.Page for .NET.
@@ -143,3 +149,10 @@ A4: You can acquire a temporary license [here](https://purchase.aspose.com/tempo
 ### Q5: What other documentation is available for Aspose.Page for .NET?
 
 A5: Explore the comprehensive documentation [here](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

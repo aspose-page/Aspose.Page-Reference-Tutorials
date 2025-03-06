@@ -3,10 +3,16 @@ title: إدارة البيانات الوصفية لـ EPS
 linktitle: إدارة البيانات الوصفية لـ EPS
 second_title: Aspose.Page .NET API
 description: ارفع مستوى تنظيم EPS باستخدام Aspose.Page لـ .NET. قم بإضافة البيانات التعريفية بسهولة لتحسين إمكانية الوصول. استكشف البرامج التعليمية لإدارة البيانات الوصفية لـ EPS.
-type: docs
 weight: 36
 url: /ar/net/eps-metadata-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة البيانات الوصفية لـ EPS
+
 
 ## مقدمة
 
@@ -59,3 +65,9 @@ url: /ar/net/eps-metadata-management/
 معالجة ملف EPS الرئيسي باستخدام Aspose.Page لـ .NET. قم بتغيير قيم بيانات تعريف XMP بسهولة.
 ### [قم باستخراج البيانات التعريفية من مستند EPS باستخدام Aspose.Page لـ .NET](./extract-metadata-from-eps-document/)
 قم بتحسين تنظيم مستندات EPS باستخدام Aspose.Page لـ .NET. قم بإضافة بيانات التعريف بسهولة لتحسين إمكانية الوصول واسترجاع المعلومات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

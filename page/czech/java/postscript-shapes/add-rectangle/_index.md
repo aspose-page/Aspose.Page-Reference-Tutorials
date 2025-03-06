@@ -3,10 +3,16 @@ title: Přizpůsobte Java PostScript - Přidání obdélníků pomocí Aspose.Pa
 linktitle: Přidat obdélník v Java PostScript
 second_title: Aspose.Page Java API
 description: Prozkoumejte podrobného průvodce přidáváním živých obdélníků do dokumentů Java PostScript pomocí Aspose.Page for Java. Vylepšete přizpůsobení dokumentu bez námahy!
-type: docs
 weight: 11
 url: /cs/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přizpůsobte Java PostScript - Přidání obdélníků pomocí Aspose.Page
+
 ## Úvod
 Chcete vylepšit své dokumenty Java PostScript živými obdélníky? Už nehledejte! V tomto podrobném průvodci prozkoumáme, jak používat Aspose.Page pro Java k přidávání obdélníků do vašich PostScriptových dokumentů. Aspose.Page je výkonná knihovna, která poskytuje robustní funkce pro práci se soubory PostScript, takže je ideální volbou pro vývojáře, kteří chtějí manipulovat a přizpůsobovat své dokumenty.
 ## Předpoklady
@@ -72,3 +78,9 @@ Aspose.Page primárně podporuje Javu, ale podobné knihovny jsou dostupné i pr
  Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde si mohu zakoupit licencovanou verzi Aspose.Page for Java?
  Kupte si licencovanou verzi[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile XPS Belgesine Circle Ellipse ekleme
 linktitle: XPS Belgesine Daire Elipsi Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET'i kullanarak XPS belgelerini canlı radyal degradelerle geliştirin. Çarpıcı görsel efektler için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile XPS Belgesine Circle Ellipse ekleme
+
 ## giriiş
 
 Görsel olarak çekici XPS belgeleri oluşturmak, çeşitli uygulamalarda ortak bir gereksinimdir. Aspose.Page for .NET, XPS belgelerini verimli bir şekilde yönetmek için güçlü bir dizi özellik sunar. Bu eğitimde Aspose.Page for .NET kullanarak bir XPS belgesine daire elipsi eklemeye odaklanacağız. XPS belgelerinizi canlı radyal degradelerle geliştirmek için aşağıdaki adımları izleyin.
@@ -114,3 +120,9 @@ Cevap1: Aspose.Page for .NET özellikle XPS belge manipülasyonuyla ilgilenir. D
 ### S5: .NET için Aspose.Page'i satın alabilir miyim?
 
  Cevap5: Evet, kütüphaneyi satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

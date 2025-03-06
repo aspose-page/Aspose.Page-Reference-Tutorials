@@ -3,10 +3,16 @@ title: تحويل XPS إلى JPEG في جافا
 linktitle: تحويل XPS إلى JPEG في جافا
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية تحويل XPS إلى JPEG في Java باستخدام Aspose.Page. دليل شامل يتضمن تعليمات خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 11
 url: /ar/java/xps-conversion/to-jpeg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل XPS إلى JPEG في جافا
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية تحويل ملفات XPS (مواصفات ورق XML) إلى صور JPEG باستخدام Aspose.Page لـ Java. Aspose.Page هي مكتبة Java قوية تتيح للمطورين العمل مع XPS وتنسيقات المستندات الأخرى بسلاسة. سيساعدك هذا الدليل التفصيلي خطوة بخطوة على فهم العملية وتنفيذها في تطبيقات Java الخاصة بك.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ for (int i = 0; i < device.getResult().length; i++) {
  ج: قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) للدعم المجتمعي.
 ### س: هل أحتاج إلى ترخيص مؤقت للاختبار؟
  ج: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

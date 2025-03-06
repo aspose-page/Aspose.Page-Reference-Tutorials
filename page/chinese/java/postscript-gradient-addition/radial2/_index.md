@@ -3,10 +3,16 @@ title: Java PostScript 径向渐变与 Aspose.Page
 linktitle: Java PostScript 径向渐变与 Aspose.Page
 second_title: Aspose.Page Java API
 description: 探索使用 Aspose.Page 在 Java PostScript 中添加径向渐变的分步指南，以便在 Java 应用程序中获得令人惊叹的图形。
-type: docs
 weight: 13
 url: /zh/java/postscript-gradient-addition/radial2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript 径向渐变与 Aspose.Page
+
 ## 介绍
 欢迎阅读我们有关使用 Aspose.Page for Java 在 Java PostScript 中添加径向渐变 2 的分步指南。本教程将引导您完成创建具有漂亮径向渐变的 PostScript 文档的过程，从而通过具有视觉吸引力的图形增强您的 Java 应用程序。
 ## 先决条件
@@ -96,3 +102,9 @@ document.save();
 答：是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：我可以在哪里寻求社区支持并参与讨论？
 答：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Visual Elements - Java
 linktitle: Visual Elements - Java
 second_title: Aspose.Page Java API
 description: Elevate your Java document visuals effortlessly with Aspose.Page! Learn to enhance your application by adding grids using Visual Brush in this step-by-step tutorial.
-type: docs
 weight: 41
 url: /java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visual Elements - Java
+
 ## Introduction
 
 Java developers, rejoice! Dive into the realm of visual elements with Aspose.Page tutorials that promise to transform your Java document visuals. In this edition, we focus on the captivating art of adding grids using Visual Brush. Buckle up as we embark on a journey to elevate your application's appeal.
@@ -46,3 +52,9 @@ In conclusion, Aspose.Page for Java emerges as the go-to solution for developers
 ## Visual Elements - Java Tutorials
 ### [Add Grid using Visual Brush in Java](./add-grid/)
 Enhance Java document visuals with Aspose.Page! Learn to add grids using Visual Brush step-by-step. Elevate your application's appeal effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

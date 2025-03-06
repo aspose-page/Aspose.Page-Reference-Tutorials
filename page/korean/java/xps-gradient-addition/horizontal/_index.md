@@ -3,10 +3,16 @@ title: Java XPS에 수평 그라데이션 추가
 linktitle: Java XPS에 수평 그라데이션 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java의 XPS 문서에 놀라운 수평 그라데이션을 추가하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS에 수평 그라데이션 추가
+
 ## 소개
 Java용 Aspose.Page를 사용하여 Java XPS에 수평 그라데이션을 추가하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.Page for Java는 개발자가 XPS(XML Paper Spec) 문서를 원활하게 작업할 수 있게 해주는 강력한 라이브러리입니다.
 이 튜토리얼에서는 XPS 문서에 수평 그라데이션을 추가하기 위해 Java 애플리케이션을 만드는 과정을 안내합니다. 이를 쉽게 달성하려면 아래 단계를 따르십시오.
@@ -70,3 +76,9 @@ Aspose.Page for Java는 최신 Java 릴리스와의 호환성을 보장하기 �
 전적으로! 각 그라데이션 중지점의 색상과 위치를 완전히 제어할 수 있습니다.
 ### Q: 도움을 구할 수 있는 Aspose.Page 커뮤니티 포럼이 있나요?
  네, 방문하실 수 있습니다[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 지역사회와 연결하고 도움을 받으려면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

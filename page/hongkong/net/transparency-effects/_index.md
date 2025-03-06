@@ -3,10 +3,16 @@ title: 透明效果
 linktitle: 透明效果
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page .NET 探索文件中透明效果的魔力。透過逐步教學提升您的設計，獲得令人驚嘆的視覺效果。
-type: docs
 weight: 34
 url: /zh-hant/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 透明效果
+
 
 ## 介紹
 
@@ -42,3 +48,9 @@ url: /zh-hant/net/transparency-effects/
 了解使用 Aspose.Page for .NET 在 XPS 文件中設定不透明遮罩。輕鬆增強文件美觀。
 ### [使用 Aspose.Page 在 PostScript (PS) 中顯示偽透明度](./show-pseudo-transparency-in-postscript-ps/)
 使用 Aspose.Page for .NET 探索 PostScript 中偽透明的強大功能。請按照我們的分步指南獲取視覺上令人驚嘆的文檔。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

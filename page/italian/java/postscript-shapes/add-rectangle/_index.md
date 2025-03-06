@@ -3,10 +3,16 @@ title: Personalizza Java PostScript - Aggiunta di rettangoli con Aspose.Page
 linktitle: Aggiungi rettangolo in Java PostScript
 second_title: API Java Aspose.Page
 description: Esplora la guida passo passo sull'aggiunta di rettangoli vivaci ai documenti Java PostScript utilizzando Aspose.Page per Java. Migliora la personalizzazione dei tuoi documenti senza sforzo!
-type: docs
 weight: 11
 url: /it/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalizza Java PostScript - Aggiunta di rettangoli con Aspose.Page
+
 ## introduzione
 Stai cercando di migliorare i tuoi documenti Java PostScript con rettangoli vivaci? Non guardare oltre! In questa guida passo passo, esploreremo come utilizzare Aspose.Page per Java per aggiungere rettangoli ai tuoi documenti PostScript. Aspose.Page è una potente libreria che fornisce robuste funzionalità per lavorare con file PostScript, rendendola la scelta ideale per gli sviluppatori che cercano di manipolare e personalizzare i propri documenti.
 ## Prerequisiti
@@ -72,3 +78,9 @@ Aspose.Page supporta principalmente Java, ma sono disponibili librerie simili pe
  Ottieni una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### Dove posso acquistare una versione con licenza di Aspose.Page per Java?
  Acquista una versione con licenza[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

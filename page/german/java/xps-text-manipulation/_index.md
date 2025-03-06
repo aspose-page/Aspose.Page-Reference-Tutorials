@@ -3,10 +3,16 @@ title: Textmanipulation – XPS
 linktitle: Textmanipulation – XPS
 second_title: Aspose.Page Java-API
 description: Revolutionieren Sie Ihre Java XPS-Dokumente mit Aspose.Page. Entdecken Sie Schritt-für-Schritt-Anleitungen zur Textmanipulation. Erweitern Sie Ihre Fähigkeiten für eine mühelose Dokumentenverbesserung.
-type: docs
 weight: 37
 url: /de/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Textmanipulation – XPS
+
 
 Revolutionieren Sie Ihre Java XPS-Dokumente mit Aspose.Page-Tutorials. Entdecken Sie Schritt-für-Schritt-Anleitungen zur Textmanipulation. Erweitern Sie Ihre Fähigkeiten für eine mühelose Dokumentenverbesserung.
 
@@ -36,3 +42,9 @@ Mit Aspose.Page für Java-Tutorials wird die Textbearbeitung in XPS-Dokumenten z
 ## Textmanipulation – XPS-Tutorials
 ### [Text in Java XPS hinzufügen](./add-text/)
 Erweitern Sie Ihre Java XPS-Dokumente mit Aspose.Page! Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um mühelos Text hinzuzufügen. Verbessern Sie noch heute Ihre Fähigkeiten im Umgang mit Dokumenten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

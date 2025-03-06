@@ -3,10 +3,16 @@ title: Tambahkan Nilai Bernama di XMP menggunakan Java
 linktitle: Tambahkan Nilai Bernama di XMP menggunakan Java
 second_title: Aspose.Halaman Java API
 description: Manipulasi dokumen Java master menggunakan Aspose.Page! Tambahkan nilai bernama dengan mudah dalam metadata XMP dengan panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 12
 url: /id/java/xmp-metadata-manipulation/add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Nilai Bernama di XMP menggunakan Java
+
 ## Perkenalan
 Dalam lanskap pengembangan Java yang terus berkembang, penanganan metadata dalam file EPS sangat penting untuk menjaga integritas dokumen. Aspose.Page untuk Java adalah perpustakaan canggih yang menyederhanakan proses ini. Dalam tutorial ini, kita akan mempelajari langkah-langkah untuk menambahkan nilai bernama dalam metadata XMP menggunakan Java, memastikan Anda memiliki dasar yang kuat untuk memanipulasi file EPS.
 ## Prasyarat
@@ -78,3 +84,9 @@ Ya, Aspose.Page untuk Java dirancang untuk bekerja secara lancar dengan pustaka 
  Jelajahi[dokumentasi](https://reference.aspose.com/page/java/)untuk tutorial dan contoh yang komprehensif.
 ### Apakah Aspose.Page untuk Java cocok untuk proyek skala besar?
 Tentu saja, Aspose.Page untuk Java dirancang untuk menangani proyek berskala besar secara efisien, memberikan kemampuan manipulasi dokumen yang kuat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

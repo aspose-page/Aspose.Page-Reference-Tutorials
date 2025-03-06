@@ -3,10 +3,16 @@ title: Cross-document bewerken
 linktitle: Cross-document bewerken
 second_title: Aspose.Page .NET-API
 description: Ontgrendel het potentieel van Aspose.Page voor .NET met onze tutorials. Voeg glyph-klonen toe, wijzig kleuren en manipuleer pagina's moeiteloos in XPS-documenten.
-type: docs
 weight: 22
 url: /nl/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cross-document bewerken
+
 
 ## Invoering
 
@@ -34,3 +40,9 @@ Ontdek de kracht van Aspose.Page voor .NET in deze uitgebreide tutorial. Leer mo
 Ontgrendel de kracht van documentverwerking in .NET met Aspose.Page. Voeg moeiteloos met afbeeldingen gevulde glyphs toe. Verbeter de visuals en stroomlijn uw workflow.
 ### [Manipuleer pagina's met Aspose.Page voor .NET](./manipulate-pages/)
 Ontdek paginamanipulatie in .NET met Aspose.Page, een krachtige bibliotheek voor het verwerken van XPS-documenten. Volg onze stapsgewijze handleiding voor efficiënte resultaten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

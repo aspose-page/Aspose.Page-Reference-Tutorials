@@ -3,10 +3,16 @@ title: Thêm hình elip trong Java PostScript
 linktitle: Thêm hình elip trong Java PostScript
 second_title: API Java Aspose.Page
 description: Bậc thầy tạo tài liệu PostScript tuyệt đẹp trong Java bằng Aspose.Page. Tìm hiểu cách thêm dấu ba chấm từng bước để có nội dung hấp dẫn về mặt hình ảnh.
-type: docs
 weight: 10
 url: /vi/java/postscript-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình elip trong Java PostScript
+
 ## Giới thiệu
 Trong thế giới phát triển Java năng động, việc tạo ra các tài liệu hấp dẫn trực quan là một yêu cầu chung. Aspose.Page dành cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp PostScript một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm dấu ba chấm vào tài liệu PostScript bằng Aspose.Page cho Java. Hãy theo dõi để nâng cao kỹ năng tạo tài liệu của bạn!
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Trả lời: Có, Aspose.Page dành cho Java được thiết kế để tích h
  A: Tham gia cộng đồng tại[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để thảo luận và hỗ trợ.
 ### Câu hỏi: Có tài nguyên miễn phí nào để tìm hiểu thêm về Aspose.Page cho Java không?
  Đáp: Hãy sử dụng[dùng thử miễn phí](https://releases.aspose.com/) và khám phá các ví dụ trong tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

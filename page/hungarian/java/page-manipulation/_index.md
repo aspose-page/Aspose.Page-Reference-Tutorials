@@ -3,10 +3,16 @@ title: Java oldal manipuláció
 linktitle: Java oldal manipuláció
 second_title: Aspose.Page Java API
 description: Fedezze fel a Java oldalkezelés titkait az Aspose.Page oktatóanyagaival. Merüljön el a kivágásokban és az átalakításokban, hogy vizuálisan lenyűgöző dokumentumokat készítsen könnyedén.
-type: docs
 weight: 20
 url: /hu/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java oldal manipuláció
+
 
 ## Bevezetés
 
@@ -50,3 +56,9 @@ Készen állsz a látványosan lenyűgöző és dinamikusan vonzó dokumentumok 
 Fedezze fel a kivágás művészetét a Java Page Manipulation alkalmazásban az Aspose.Page segítségével. Sajátítsa el a precíz dokumentumkészítést a lenyűgöző látvány és vezérlés érdekében.
 ### [Átalakítások a Java oldalkezelésben](./transformations/)
 Ismerje meg, hogyan hajthat végre speciális oldalátalakításokat Java nyelven az Aspose.Page for Java segítségével. Bővítse Java-alkalmazásait hatékony manipulációs lehetőségekkel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Transformations PS with Aspose.Page for .NET
 linktitle: Átalakítások PS
 second_title: Aspose.Page .NET API
 description: Ezzel a PostScript-átalakításokról szóló átfogó útmutatóval tárja fel az Aspose.Page-ben rejlő lehetőségeket .NET-hez. Hozzon létre dinamikus grafikát erőfeszítés nélkül.
-type: docs
 weight: 12
 url: /hu/net/canvas-manipulation/transformationsps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformations PS with Aspose.Page for .NET
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.Page for .NET világában, ahol szabadjára engedheti a PostScript-dokumentumok átalakításainak erejét. Ez az oktatóanyag végigvezeti Önt a különféle átalakításokon, például a fordításon, a méretezésen, az elforgatáson, a nyíráson és az összetett átalakításokon, lehetővé téve vizuálisan lenyűgöző és dinamikus grafikák létrehozását.
@@ -141,3 +147,9 @@ V1: Több transzformáció alkalmazásához használja a`Transform` módszer egy
 ### 5. kérdés: Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.Page-vel kapcsolatos lekérdezésekhez?
 
  A5: Látogassa meg a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

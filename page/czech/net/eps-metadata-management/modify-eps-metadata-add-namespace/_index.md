@@ -3,10 +3,16 @@ title: Přidejte jmenný prostor s Aspose.Page pro .NET
 linktitle: Přidat jmenný prostor
 second_title: Aspose.Page .NET API
 description: Vylepšete soubory EPS pomocí Aspose.Page for .NET. Bez námahy přidávejte jmenné prostory, upravujte metadata XMP a zlepšujte pracovní postup vývoje .NET.
-type: docs
 weight: 13
 url: /cs/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte jmenný prostor s Aspose.Page pro .NET
+
 ## Úvod
 
 V dynamickém světě vývoje .NET vyniká Aspose.Page jako výkonný nástroj pro práci se soubory EPS. Aspose.Page for .NET umožňuje vývojářům bezproblémově manipulovat s metadaty XMP a poskytuje flexibilitu pro přidávání jmenných prostorů a vylepšení metadat souborů EPS.
@@ -117,3 +123,9 @@ A2: Rozhodně! Aspose.Page umožňuje extrahovat a upravovat metadata XMP ze sou
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.Page?
 
  A5: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

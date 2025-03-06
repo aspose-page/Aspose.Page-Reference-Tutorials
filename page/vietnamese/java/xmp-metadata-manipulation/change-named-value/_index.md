@@ -3,10 +3,16 @@ title: Thay đổi giá trị được đặt tên trong XMP bằng Java
 linktitle: Thay đổi giá trị được đặt tên trong XMP bằng Java
 second_title: API Java Aspose.Page
 description: Khám phá Aspose.Page dành cho Java - Thay đổi siêu dữ liệu XMP trong tệp EPS một cách dễ dàng bằng hướng dẫn từng bước của chúng tôi để xử lý tài liệu hợp lý.
-type: docs
 weight: 16
 url: /vi/java/xmp-metadata-manipulation/change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi giá trị được đặt tên trong XMP bằng Java
+
 Trong lĩnh vực thao tác tài liệu, Aspose.Page dành cho Java nổi bật như một công cụ mạnh mẽ, cho phép các nhà phát triển làm việc liền mạch với siêu dữ liệu XMP trong các tệp EPS. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thay đổi giá trị được đặt tên trong XMP bằng Aspose.Page cho Java. Trước khi đi sâu vào chi tiết, hãy bắt đầu bằng phần giới thiệu.
 ## Giới thiệu
 Aspose.Page cho Java là một thư viện Java mạnh mẽ hỗ trợ thao tác và xử lý các tệp EPS. Khi xử lý siêu dữ liệu XMP trong các tệp này, Aspose.Page trao quyền cho các nhà phát triển một bộ tính năng toàn diện. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc thay đổi giá trị được đặt tên trong XMP, cung cấp hướng dẫn rõ ràng và ngắn gọn cho các nhà phát triển đang tìm cách nâng cao khả năng xử lý tài liệu của họ.
@@ -82,3 +88,9 @@ Aspose.Page chủ yếu hỗ trợ Java, nhưng Aspose cung cấp các thư vi�
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua Aspose.Page cho Java ở đâu?
  Để mua Aspose.Page cho Java, hãy truy cập[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

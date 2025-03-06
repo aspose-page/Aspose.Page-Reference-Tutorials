@@ -3,10 +3,16 @@ title: Χειρισμός εικόνας - XPS
 linktitle: Χειρισμός εικόνας - XPS
 second_title: Aspose.Page Java API
 description: Ανακαλύψτε την τέχνη της εύκολης επεξεργασίας εικόνας σε έγγραφα Java XPS με το Aspose.Page. Μάθετε να προσθέτετε και να επικολλάτε εικόνες απρόσκοπτα για βελτιωμένη επεξεργασία εγγράφων.
-type: docs
 weight: 29
 url: /el/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός εικόνας - XPS
+
 
 ## Εισαγωγή
 
@@ -36,3 +42,9 @@ url: /el/java/xps-image-manipulation/
 Μάθετε πώς να προσθέτετε εύκολα εικόνες σε έγγραφα XPS σε Java χρησιμοποιώντας το Aspose.Page. Αυξήστε την επεξεργασία των εγγράφων σας με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Προσθήκη εικόνας με πλακάκια σε Java XPS](./add-tiled-image/)
 Εξερευνήστε την απρόσκοπτη επεξεργασία εγγράφων Java XPS με το Aspose.Page. Μάθετε να προσθέτετε εικόνες με πλακάκια χωρίς κόπο χρησιμοποιώντας αυτόν τον οδηγό βήμα προς βήμα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

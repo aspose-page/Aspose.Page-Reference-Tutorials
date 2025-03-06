@@ -3,10 +3,16 @@ title: أضف نصًا إلى مستند PostScript (PS) باستخدام Aspose
 linktitle: إضافة نص إلى مستند بوستسكريبت (PS).
 second_title: Aspose.Page .NET API
 description: عزز مهاراتك في تطوير .NET من خلال تعلم كيفية إضافة نص إلى مستندات PostScript (PS) باستخدام Aspose.Page. استكشف الأمثلة خطوة بخطوة وأطلق العنان لقوة معالجة المستندات.
-type: docs
 weight: 10
 url: /ar/net/text-manipulation/add-text-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف نصًا إلى مستند PostScript (PS) باستخدام Aspose.Page
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير .NET، تعد معالجة مستندات PostScript (PS) وتحسينها مطلبًا شائعًا. يوفر Aspose.Page for .NET مجموعة قوية من الأدوات لإضافة نص إلى مستندات PS الخاصة بك بسهولة. سيرشدك هذا البرنامج التعليمي خلال العملية، مما يضمن أنه يمكنك دمج هذه الوظيفة بسلاسة في مشاريعك.
@@ -117,3 +123,9 @@ document.Save();
 ### س5: أين يمكنني طلب المساعدة فيما يتعلق بالاستعلامات المتعلقة بـ Aspose.Page؟
 
  ج5: قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) للتواصل مع المجتمع وطلب مشورة الخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

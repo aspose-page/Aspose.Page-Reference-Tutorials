@@ -3,10 +3,16 @@ title: Změňte položky pole v XMP pomocí Java
 linktitle: Změňte položky pole v XMP pomocí Java
 second_title: Aspose.Page Java API
 description: Naučte se, jak změnit položky pole v XMP pomocí Aspose.Page for Java. Upravte metadata bez námahy pomocí našeho podrobného průvodce. Vylepšete své dokumenty EPS nyní!
-type: docs
 weight: 15
 url: /cs/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změňte položky pole v XMP pomocí Java
+
 ## Úvod
 Vítejte v našem komplexním průvodci změnou položek pole v XMP pomocí Aspose.Page pro Java! Aspose.Page je výkonná Java knihovna, která vám umožňuje bezproblémově pracovat s metadaty XMP v souborech EPS. V tomto tutoriálu vás provedeme procesem úpravy položek pole v metadatech XMP, což vám pomůže vylepšit a přizpůsobit vaše dokumenty EPS.
 ## Předpoklady
@@ -77,3 +83,9 @@ Aspose.Page je primárně navržen pro Javu, ale Aspose poskytuje podobné kniho
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde si mohu zakoupit plnou verzi Aspose.Page for Java?
  Můžete si koupit plnou verzi[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

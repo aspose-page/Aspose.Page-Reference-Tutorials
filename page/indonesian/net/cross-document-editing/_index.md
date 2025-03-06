@@ -3,10 +3,16 @@ title: Pengeditan Lintas Dokumen
 linktitle: Pengeditan Lintas Dokumen
 second_title: Aspose.Halaman .NET API
 description: Buka potensi Aspose.Page untuk .NET dengan tutorial kami. Tambahkan klon mesin terbang, ubah warna, dan manipulasi halaman dengan mudah di dokumen XPS.
-type: docs
 weight: 22
 url: /id/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pengeditan Lintas Dokumen
+
 
 ## Perkenalan
 
@@ -34,3 +40,9 @@ Jelajahi kekuatan Aspose.Page untuk .NET dalam tutorial komprehensif ini. Pelaja
 Buka kekuatan pemrosesan dokumen di .NET dengan Aspose.Page. Tambahkan mesin terbang berisi gambar dengan mudah. Sempurnakan visual dan sederhanakan alur kerja Anda.
 ### [Memanipulasi Halaman dengan Aspose.Page untuk .NET](./manipulate-pages/)
 Jelajahi manipulasi halaman di .NET menggunakan Aspose.Page, perpustakaan canggih untuk menangani dokumen XPS. Ikuti panduan langkah demi langkah kami untuk hasil yang efisien.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

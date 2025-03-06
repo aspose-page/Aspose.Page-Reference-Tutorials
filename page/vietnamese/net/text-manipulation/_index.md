@@ -3,10 +3,16 @@ title: Thao tác văn bản
 linktitle: Thao tác văn bản
 second_title: API Aspose.Page .NET
 description: Làm chủ thao tác văn bản trong .NET với hướng dẫn Aspose.Page. Tìm hiểu cách thêm văn bản Unicode vào tài liệu PostScript và XPS. Nâng cao kỹ năng thao tác tài liệu của bạn.
-type: docs
 weight: 32
 url: /vi/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác văn bản
+
 
 
 ## Giới thiệu
@@ -39,3 +45,9 @@ Tìm hiểu cách thêm văn bản Unicode vào tệp PostScript bằng Aspose.P
 Khám phá sức mạnh của Aspose.Page dành cho .NET với hướng dẫn từng bước của chúng tôi về cách thêm văn bản Unicode vào tài liệu XPS.
 ### [Thêm văn bản vào tài liệu XPS bằng Aspose.Page cho .NET](./add-text-to-xps-document/)
 Khám phá hướng dẫn từng bước về cách thêm văn bản vào tài liệu XPS bằng Aspose.Page cho .NET. Dễ dàng nâng cao các dự án .NET của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Recadrer des fichiers EPS en Java – Guide étape par étape avec Aspose
 linktitle: Recadrer le fichier EPS en Java
 second_title: API Java Aspose.Page
 description: Explorez un guide étape par étape sur le recadrage de fichiers EPS en Java à l'aide d'Aspose.Page. Améliorez vos compétences en manipulation de documents sans effort.
-type: docs
 weight: 10
 url: /fr/java/manipulation-eps/crop/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recadrer des fichiers EPS en Java – Guide étape par étape avec Aspose.Page
+
 ## Introduction
 Vous cherchez à manipuler des fichiers EPS dans votre application Java et vous vous demandez comment les recadrer efficacement ? Cherchez pas plus loin! Dans ce guide complet, nous vous guiderons pas à pas à travers le processus de recadrage de fichiers EPS à l'aide de la puissante bibliothèque Aspose.Page pour Java.
 ## Conditions préalables
@@ -69,3 +75,9 @@ R : Oui, Aspose.Page est compatible avec Java 8 et les versions supérieures.
  R : Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
 ### Q : Comment puis-je obtenir une licence temporaire ?
  R : Obtenez une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

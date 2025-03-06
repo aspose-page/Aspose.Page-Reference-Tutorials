@@ -3,10 +3,16 @@ title: Προσθήκη διαφανούς εικόνας στο Java PostScript
 linktitle: Προσθήκη διαφανούς εικόνας στο Java PostScript
 second_title: Aspose.Page Java API
 description: Εξερευνήστε την απρόσκοπτη ενσωμάτωση διαφανών εικόνων σε έγγραφα Java PostScript με το Aspose.Page για Java. Αναβαθμίστε τις απεικονίσεις των εγγράφων σας χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη διαφανούς εικόνας στο Java PostScript
+
 ## Εισαγωγή
 Στον κόσμο της Java PostScript, η βελτίωση της οπτικής ελκυστικότητας των εγγράφων συχνά περιλαμβάνει την προσθήκη διαφανών εικόνων. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία ενσωμάτωσης διαφανών εικόνων στα έγγραφα Java PostScript χρησιμοποιώντας την ισχυρή βιβλιοθήκη Aspose.Page για Java.
 ## Προαπαιτούμενα
@@ -83,3 +89,9 @@ document.save();
  Ναι, επισκεφθείτε το[Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) για κοινοτική υποστήριξη και συζητήσεις.
 ### Πού μπορώ να βρω την τεκμηρίωση για το Aspose.Page για Java;
  Ανατρέξτε στην περιεκτική[τεκμηρίωση](https://reference.aspose.com/page/java/) για λεπτομερείς πληροφορίες σχετικά με το Aspose.Page για Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

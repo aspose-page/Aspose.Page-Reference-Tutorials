@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 建立 XPS 文檔
 linktitle: 建立 XPS 文檔
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 探索 XPS 文件所建立的世界。按照我們的逐步指南輕鬆產生電子文檔。
-type: docs
 weight: 10
 url: /zh-hant/net/document-creation/create-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 建立 XPS 文檔
+
 ## 介紹
 
 歡迎閱讀我們有關使用 Aspose.Page for .NET 建立 XPS 文件的逐步指南。在本教學中，我們將探討產生 XPS 檔案的過程，XPS 檔案是一種廣泛使用的電子文檔格式。無論您是經驗豐富的開發人員還是剛開始使用 Aspose.Page，本指南都經過量身定制，可透過清晰的範例和詳細的說明幫助您無縫建立 XPS 文件。
@@ -108,3 +114,9 @@ A4：當然！您可以使用 Aspose.Page 庫將多個頁面新增至 XPS 文件
 ### Q5：有試用版嗎？
 
  A5：是的，您可以透過下載Aspose.Page來探索Aspose.Page的功能[免費試用](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

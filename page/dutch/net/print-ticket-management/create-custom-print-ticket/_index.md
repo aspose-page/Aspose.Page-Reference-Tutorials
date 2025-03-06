@@ -3,10 +3,16 @@ title: Maak een aangepast printticket met Aspose.Page voor .NET
 linktitle: Maak een aangepast printticket
 second_title: Aspose.Page .NET-API
 description: Ontdek de stapsgewijze handleiding voor het maken van aangepaste printtickets met Aspose.Page voor .NET. Pas uw printervaring aan met fijnmazige controle.
-type: docs
 weight: 10
 url: /nl/net/print-ticket-management/create-custom-print-ticket/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak een aangepast printticket met Aspose.Page voor .NET
+
 ## Invoering
 
 Op het gebied van .NET-ontwikkeling onderscheidt Aspose.Page zich als een krachtig hulpmiddel voor het verwerken van XPS-documentmanipulatie. Een van de opmerkelijke kenmerken is de mogelijkheid om aangepaste printtickets te maken, waardoor ontwikkelaars uitgebreide controle hebben over het printproces. In deze zelfstudie gaan we dieper in op de stappen voor het maken van een aangepast afdrukticket met Aspose.Page voor .NET.
@@ -96,3 +102,9 @@ A4: Aspose.Page ondersteunt een reeks mediatypen, waaronder gewoon papier en and
 ### V5: Zijn er voorbeeldprojecten beschikbaar voor Aspose.Page voor .NET?
 
  A5: Ontdek de[documentatie](https://reference.aspose.com/page/net/) voor voorbeeldprojecten en codefragmenten om uw ontwikkeling een vliegende start te geven.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

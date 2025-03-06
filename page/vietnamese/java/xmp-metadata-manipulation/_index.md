@@ -3,10 +3,16 @@ title: Thao tác siêu dữ liệu XMP - Java
 linktitle: Thao tác siêu dữ liệu XMP - Java
 second_title: API Java Aspose.Page
 description: Dễ dàng nâng cao các tệp EPS bằng thao tác siêu dữ liệu XMP—từ việc thêm mục đến trích xuất. Nâng cao khả năng quản lý tài liệu của bạn với hướng dẫn của chúng tôi.
-type: docs
 weight: 42
 url: /vi/java/xmp-metadata-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác siêu dữ liệu XMP - Java
+
 
 ## Giới thiệu
 
@@ -66,3 +72,9 @@ Khám phá Aspose.Page dành cho Java - Thay đổi siêu dữ liệu XMP trong 
 Nâng cao tài liệu EPS với Aspose.Page cho Java. Dễ dàng sửa đổi siêu dữ liệu XMP để có nội dung phù hợp và chuyên nghiệp.
 ### [Nhận siêu dữ liệu từ XMP bằng Java](./get-metadata/)
 Khai phá sức mạnh của Aspose.Page dành cho Java để trích xuất siêu dữ liệu XMP một cách dễ dàng. Nâng cao khả năng phân tích tài liệu với hướng dẫn từng bước của chúng tôi!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

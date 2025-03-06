@@ -3,10 +3,16 @@ title: ドキュメント変換
 linktitle: ドキュメント変換
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET チュートリアルを使用して、PostScript を PDF に、XPS を PDF に簡単に変換します。シームレスなドキュメント変換のための堅牢で信頼性が高く、簡単なソリューション。
-type: docs
 weight: 24
 url: /ja/net/document-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ドキュメント変換
+
 
 ## 導入
 
@@ -34,3 +40,9 @@ Aspose.Page がそれを簡素化してくれるのに、複雑な変換プロ�
 Aspose.Page for .NET を使用して、PostScript を PDF に簡単に変換します。堅牢で信頼性が高く、開発者にとって使いやすい。
 ### [Aspose.Page for .NET を使用して XPS を PDF に変換する](./convert-xps-to-pdf/)
 Aspose.Page を使用すると、.NET で XPS を PDF に簡単に変換できます。ライブラリをダウンロードし、ドキュメントを調べて、無料トライアルを入手してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

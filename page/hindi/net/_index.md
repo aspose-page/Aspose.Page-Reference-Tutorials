@@ -1,12 +1,17 @@
 ---
 title: .NET के लिए Aspose.Page के व्यापक ट्यूटोरियल और उदाहरण
 linktitle: .NET ट्यूटोरियल के लिए Aspose.Page
-type: docs
 weight: 10
 url: /hi/net/
 description: निर्माण, हेरफेर और संवर्द्धन को कवर करने वाले ट्यूटोरियल के साथ .NET की क्षमता के लिए Aspose.Page को उजागर करें। बुनियादी बातों से लेकर उन्नत तकनीकों तक सहजता से महारत हासिल करें।
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Page के व्यापक ट्यूटोरियल और उदाहरण
+
 ## परिचय
 
 क्या आप .NET के लिए Aspose.Page की पूरी क्षमता का उपयोग करने के लिए तैयार हैं? आगे कोई तलाश नहीं करें! हमारे व्यापक ट्यूटोरियल बुनियादी कार्यात्मकताओं से लेकर उन्नत तकनीकों तक हर पहलू को कवर करते हैं, जिससे यह सुनिश्चित होता है कि आप एक कुशल उपयोगकर्ता बनें।
@@ -115,3 +120,9 @@ Aspose.Page .NET के साथ अपने दस्तावेज़ों
 Aspose.Page ट्यूटोरियल्स के साथ .NET में अपने दस्तावेज़ प्रसंस्करण को उन्नत करें। विज़ुअल ब्रश के दायरे में उतरें, दृश्यात्मक रूप से आश्चर्यजनक दस्तावेज़ों के लिए तकनीकों में महारत हासिल करें।
 ### [ईपीएस मेटाडेटा प्रबंधन](./eps-metadata-management/)
 .NET के लिए Aspose.Page के साथ EPS संगठन को उन्नत करें। बेहतर पहुंच के लिए आसानी से मेटाडेटा जोड़ें। ईपीएस मेटाडेटा प्रबंधन ट्यूटोरियल का अन्वेषण करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 XPS 문서에 원형 타원 추가
 linktitle: XPS 문서에 원형 타원 추가
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 생생한 방사형 그라데이션으로 XPS 문서를 향상하세요. 놀라운 시각 효과를 얻으려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 11
 url: /ko/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 XPS 문서에 원형 타원 추가
+
 ## 소개
 
 시각적으로 매력적인 XPS 문서를 만드는 것은 다양한 응용 프로그램의 일반적인 요구 사항입니다. .NET용 Aspose.Page는 XPS 문서를 효율적으로 조작할 수 있는 강력한 기능 세트를 제공합니다. 이 튜토리얼에서는 .NET용 Aspose.Page를 사용하여 XPS 문서에 원 타원을 추가하는 방법에 중점을 둘 것입니다. 생생한 방사형 그라데이션으로 XPS 문서를 향상하려면 아래 단계를 따르세요.
@@ -114,3 +120,9 @@ A1: .NET용 Aspose.Page는 특히 XPS 문서 조작을 다룹니다. 다른 형�
 ### Q5: .NET용 Aspose.Page를 구입할 수 있나요?
 
  A5: 예, 라이브러리를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

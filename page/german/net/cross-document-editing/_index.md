@@ -3,10 +3,16 @@ title: Dokumentübergreifende Bearbeitung
 linktitle: Dokumentübergreifende Bearbeitung
 second_title: Aspose.Page .NET-API
 description: Nutzen Sie mit unseren Tutorials das Potenzial von Aspose.Page für .NET. Fügen Sie Glyphenklone hinzu, ändern Sie Farben und bearbeiten Sie Seiten mühelos in XPS-Dokumenten.
-type: docs
 weight: 22
 url: /de/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentübergreifende Bearbeitung
+
 
 ## Einführung
 
@@ -34,3 +40,9 @@ Entdecken Sie in diesem umfassenden Tutorial die Leistungsfähigkeit von Aspose.
 Nutzen Sie mit Aspose.Page die Leistungsfähigkeit der Dokumentverarbeitung in .NET. Fügen Sie mühelos bildgefüllte Glyphen hinzu. Verbessern Sie die visuelle Darstellung und optimieren Sie Ihren Arbeitsablauf.
 ### [Bearbeiten Sie Seiten mit Aspose.Page für .NET](./manipulate-pages/)
 Entdecken Sie die Seitenmanipulation in .NET mit Aspose.Page, einer leistungsstarken Bibliothek für die Verarbeitung von XPS-Dokumenten. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für effiziente Ergebnisse.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

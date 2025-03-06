@@ -3,10 +3,16 @@ title: Dodaj gradient pionowy w języku Java PostScript
 linktitle: Dodaj gradient pionowy w języku Java PostScript
 second_title: Aspose.Page API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym dodawania gradientów pionowych w języku Java PostScript za pomocą Aspose.Page dla języka Java. Bez wysiłku ulepszaj swoje dokumenty dzięki żywym efektom wizualnym.
-type: docs
 weight: 14
 url: /pl/java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj gradient pionowy w języku Java PostScript
+
 ## Wstęp
 Witamy w tym przewodniku krok po kroku dotyczącym dodawania gradientu pionowego w Java PostScript przy użyciu Aspose.Page dla Java. Jeśli chcesz wzbogacić swój dokument o przyciągające wzrok gradienty, ten samouczek jest dla Ciebie. Aspose.Page dla Java zapewnia potężne narzędzia do płynnego manipulowania dokumentami PostScript.
 ## Warunki wstępne
@@ -101,3 +107,9 @@ Tak, Aspose.Page dla Java został zaprojektowany tak, aby bezproblemowo współp
  Możesz kupić Aspose.Page dla Java[Tutaj](https://purchase.aspose.com/buy).
 ### Czy istnieje forum do dyskusji na temat Aspose.Page?
  Tak, możesz dołączyć do forum społeczności[Tutaj](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

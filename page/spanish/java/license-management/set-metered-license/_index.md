@@ -3,10 +3,16 @@ title: Integración sencilla de licencia medida con Aspose.Page Java
 linktitle: Establecer licencia medida en Java
 second_title: API de Java de Aspose.Page
 description: Explore la perfecta integración de Aspose.Page con Java. Configure licencias medidas sin esfuerzo y mejore sus capacidades de procesamiento de documentos.
-type: docs
 weight: 10
 url: /es/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Integración sencilla de licencia medida con Aspose.Page Java
+
 ## Introducción
 Bienvenido a nuestra guía completa sobre cómo configurar una licencia medida en Java usando Aspose.Page. Si busca mejorar sus capacidades de procesamiento de documentos y garantizar una integración perfecta con Aspose.Page, está en el lugar correcto. En este tutorial, lo guiaremos a través del proceso, dividiendo cada paso en partes fácilmente digeribles.
 ## Requisitos previos
@@ -100,3 +106,9 @@ Puede obtener estas claves a través de su cuenta Aspose.
  Consulte la documentación.[aquí](https://reference.aspose.com/page/java/).
 ### P: ¿Cómo puedo obtener licencias temporales?
  Se pueden obtener licencias temporales.[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

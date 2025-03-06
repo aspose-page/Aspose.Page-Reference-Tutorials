@@ -3,10 +3,16 @@ title: أضف خصائص بسيطة في XMP باستخدام Java
 linktitle: أضف خصائص بسيطة في XMP باستخدام Java
 second_title: Aspose.Page جافا API
 description: قم بفتح Aspose.Page للاستفادة من إمكانات Java من خلال دليلنا حول إضافة خصائص إلى بيانات تعريف XMP في ملفات EPS. رفع مستوى معالجة المستندات دون عناء!
-type: docs
 weight: 14
 url: /ar/java/xmp-metadata-manipulation/add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف خصائص بسيطة في XMP باستخدام Java
+
 ## مقدمة
 في المشهد المتطور باستمرار لمعالجة المستندات، تعد إدارة البيانات التعريفية بكفاءة أمرًا بالغ الأهمية. يعمل Aspose.Page for Java على تمكين المطورين من معالجة بيانات منصة البيانات التعريفية القابلة للتوسيع (XMP) بسلاسة. في هذا البرنامج التعليمي، سنستكشف عملية إضافة خصائص بسيطة إلى XMP باستخدام Java، مما يوفر لك دليلاً شاملاً خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -87,3 +93,9 @@ psStream.close();
  يمكن الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء Aspose.Page لـ Java؟
  يمكنك شراء المنتج[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

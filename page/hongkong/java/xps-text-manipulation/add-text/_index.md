@@ -3,10 +3,16 @@ title: Java XPS 文字新增 - Aspose.Page 教學課程
 linktitle: 在 Java XPS 中加入文本
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 增強您的 Java XPS 文件！按照我們的逐步指南輕鬆添加文字。立即提升您的文件操作技能。
-type: docs
 weight: 10
 url: /zh-hant/java/xps-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS 文字新增 - Aspose.Page 教學課程
+
 ## 介紹
 在 Java 文件操作領域，Aspose.Page 作為一個強大的程式庫脫穎而出，它有助於建立和操作 XPS（XML 紙張規格）文件。在 XPS 文件中新增文字是各種應用程式中的常見要求，本教學將指導您使用 Aspose.Page for Java 完成流程。無論您是經驗豐富的開發人員還是新手，本逐步指南都可確保您順利使用文字增強 XPS 文件。
 ## 先決條件
@@ -63,3 +69,9 @@ doc.save(dataDir + "AddText_out.xps");
 是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### 如何獲得 Aspose.Page 的臨時許可證？
 獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

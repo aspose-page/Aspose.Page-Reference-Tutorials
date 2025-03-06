@@ -3,10 +3,16 @@ title: Aspose.Page ile Java PostScript Radyal Degrade
 linktitle: Aspose.Page ile Java PostScript Radyal Degrade
 second_title: Aspose.Page Java API'si
 description: Java uygulamalarınızda göz kamaştırıcı grafikler elde etmek için Aspose.Page'i kullanarak Java PostScript'e Radyal Degrade eklemeye yönelik adım adım kılavuzu keşfedin.
-type: docs
 weight: 13
 url: /tr/java/postscript-gradient-addition/radial2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile Java PostScript Radyal Degrade
+
 ## giriiş
 Aspose.Page for Java'yı kullanarak Java PostScript'e Radyal Gradient 2 eklemeye ilişkin adım adım kılavuzumuza hoş geldiniz. Bu eğitim, güzel bir radyal degradeye sahip bir PostScript belgesi oluşturma sürecinde size yol gösterecek ve Java uygulamalarınızı görsel olarak çekici grafiklerle geliştirecektir.
 ## Önkoşullar
@@ -96,3 +102,9 @@ Bu eğitimde, Java uygulamalarınızı PostScript belgelerindeki radyal degradel
  C: Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Topluluk desteğini nereden alabilirim ve tartışmalara nerede katılabilirim?
  C: Ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

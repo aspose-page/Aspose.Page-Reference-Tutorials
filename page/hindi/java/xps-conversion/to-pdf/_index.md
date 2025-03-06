@@ -3,10 +3,16 @@ title: जावा में एक्सपीएस को पीडीएफ
 linktitle: जावा में एक्सपीएस को पीडीएफ में बदलें
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page के साथ जावा में निर्बाध XPS से PDF रूपांतरण अनलॉक करें। कुशल और सटीक दस्तावेज़ प्रसंस्करण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 12
 url: /hi/java/xps-conversion/to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में एक्सपीएस को पीडीएफ में बदलें
+
 ## परिचय
 जावा विकास के क्षेत्र में, XPS फ़ाइलों को पीडीएफ प्रारूप में परिवर्तित करने की आवश्यकता एक सामान्य आवश्यकता है। इसे निर्बाध और कुशलतापूर्वक हासिल करना विभिन्न परियोजनाओं में गेम-चेंजर हो सकता है। सौभाग्य से, जावा के लिए Aspose.Page की शक्ति के साथ, यह कार्य न केवल साध्य हो जाता है बल्कि सरल भी हो जाता है।
 इस ट्यूटोरियल में, हम जावा के लिए Aspose.Page का उपयोग करके XPS को पीडीएफ में परिवर्तित करने की प्रक्रिया के बारे में जानेंगे। सुचारू कार्यान्वयन सुनिश्चित करने के लिए हम विस्तृत स्पष्टीकरण और अंतर्दृष्टि प्रदान करते हुए प्रत्येक चरण का विश्लेषण करेंगे।
@@ -70,3 +76,9 @@ document.save(device, options);
  मिलने जाना[इस लिंक](https://purchase.aspose.com/temporary-license/) अस्थायी लाइसेंस विवरण के लिए.
 ### मैं जावा लाइसेंस के लिए Aspose.Page कहां से खरीद सकता हूं?
  आप लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

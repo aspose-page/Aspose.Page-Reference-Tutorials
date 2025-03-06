@@ -3,10 +3,16 @@ title: ตั้งค่า Opacity Mask ใน Java XPS
 linktitle: ตั้งค่า Opacity Mask ใน Java XPS
 second_title: Aspose.Page Java API
 description: ค้นพบพลังของการตั้งค่ามาสก์ทึบใน Java XPS ด้วย Aspose.Page ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์การใช้งานเอกสารที่ได้รับการปรับปรุงด้วยภาพ
-type: docs
 weight: 11
 url: /th/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ตั้งค่า Opacity Mask ใน Java XPS
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมของเราเกี่ยวกับการตั้งค่ามาสก์ทึบใน Java XPS โดยใช้ Aspose.Page ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการสร้างเอกสาร XPS การเพิ่มแคนวาส และการใช้มาสก์ความทึบกับสี่เหลี่ยมผืนผ้าโดยใช้ฟีเจอร์อันทรงพลังของ Aspose.Page สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -67,3 +73,9 @@ doc.save(dataDir + "OpacityMask_out.xps");
  ท่านสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) สำหรับการสนับสนุนจากชุมชนหรือซื้อใบอนุญาตเพื่อความช่วยเหลือระดับพรีเมียม
 ### มีการรับประกันคืนเงินสำหรับ Aspose.Page หรือไม่
  อ้างถึง[หน้าซื้อ](https://purchase.aspose.com/buy) สำหรับข้อมูลเกี่ยวกับนโยบายการคืนเงิน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

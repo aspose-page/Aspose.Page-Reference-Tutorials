@@ -3,10 +3,16 @@ title: Voeg verticaal verloop toe in Java XPS
 linktitle: Voeg verticaal verloop toe in Java XPS
 second_title: Aspose.Page Java-API
 description: Leer hoe u een verticaal verloop kunt toevoegen aan Java XPS-documenten met Aspose.Page. Verbeter de visuele aantrekkingskracht moeiteloos. Stap-voor-stap handleiding binnenin.
-type: docs
 weight: 12
 url: /nl/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg verticaal verloop toe in Java XPS
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u een verticaal verloop kunt toevoegen in Java XPS met behulp van Aspose.Page voor Java. Door kleurverlopen aan uw XPS-documenten toe te voegen, kunt u de visuele aantrekkingskracht van uw inhoud vergroten, waardoor deze aantrekkelijker en esthetisch aantrekkelijker wordt.
 ## Vereisten
@@ -72,3 +78,9 @@ Het verbeteren van uw XPS-documenten met kleurverlopen kan de visuele aantrekkin
  Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
 ### Hulp nodig of vragen?
  Bezoek de Aspose.Page-gemeenschap[forum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

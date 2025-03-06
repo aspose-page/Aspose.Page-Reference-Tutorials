@@ -3,10 +3,16 @@ title: Thay đổi giá trị bằng Aspose.Page cho .NET
 linktitle: Thay đổi giá trị
 second_title: API Aspose.Page .NET
 description: Thao tác thành thạo tệp EPS với Aspose.Page cho .NET. Thay đổi giá trị siêu dữ liệu XMP một cách dễ dàng.
-type: docs
 weight: 17
 url: /vi/net/eps-metadata-management/modify-eps-metadata-change-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi giá trị bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Trong thế giới xử lý tài liệu năng động, Aspose.Page for .NET nổi bật như một công cụ mạnh mẽ, cung cấp cho các nhà phát triển khả năng thao tác các tệp EPS một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình thay đổi giá trị trong tệp EPS bằng Aspose.Page cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bắt đầu tò mò, hướng dẫn từng bước này sẽ trang bị cho bạn những kỹ năng cần thiết để sửa đổi siêu dữ liệu XMP trong tệp EPS của bạn một cách hiệu quả.
@@ -146,3 +152,9 @@ Câu trả lời 1: Aspose.Page chủ yếu tập trung vào thao tác với t�
 ### Câu hỏi 5: Tôi có thể mua Aspose.Page cho .NET không?
 
  A5: Chắc chắn rồi! Truy cập trang mua hàng[đây](https://purchase.aspose.com/buy) cho các tùy chọn cấp phép.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

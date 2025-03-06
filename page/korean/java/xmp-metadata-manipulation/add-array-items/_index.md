@@ -3,10 +3,16 @@ title: Java를 사용하여 XMP 메타데이터에 배열 항목 추가
 linktitle: Java를 사용하여 XMP 메타데이터에 배열 항목 추가
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 EPS 파일을 향상하세요. XMP 메타데이터에 배열 항목을 쉽게 추가하는 방법을 알아보세요. 지금 단계별 가이드를 따르십시오!
-type: docs
 weight: 10
 url: /ko/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 XMP 메타데이터에 배열 항목 추가
+
 ## 소개
 XMP 메타데이터에 배열 항목을 추가하기 위해 Java용 Aspose.Page를 사용하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.Page는 EPS 파일을 포함한 다양한 문서 형식을 조작하고 작업할 수 있는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 Java를 사용하여 XMP 메타데이터에 배열 항목을 추가하는 특정 작업에 중점을 둘 것입니다.
 ## 전제 조건
@@ -78,3 +84,9 @@ try {
  제품을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
 ### Aspose.Page for Java에 임시 라이선스를 사용할 수 있나요?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

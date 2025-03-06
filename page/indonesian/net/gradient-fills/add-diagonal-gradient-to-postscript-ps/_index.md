@@ -3,10 +3,16 @@ title: Tambahkan Gradien Diagonal ke PostScript (PS) dengan Aspose.Page .NET
 linktitle: Tambahkan Gradien Diagonal ke PostScript (PS)
 second_title: Aspose.Halaman .NET API
 description: Jelajahi kesederhanaan menambahkan gradien diagonal ke dokumen PostScript di .NET dengan Aspose.Page. Tingkatkan proyek Anda dengan elemen visual yang dinamis.
-type: docs
 weight: 10
 url: /id/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gradien Diagonal ke PostScript (PS) dengan Aspose.Page .NET
+
 ## Perkenalan
 
 Menambahkan gradien diagonal ke dokumen PostScript (PS) dapat menghadirkan daya tarik visual dan kreativitas pada proyek Anda. Aspose.Page untuk .NET memberikan solusi yang lancar untuk mengintegrasikan fitur ini ke dalam aplikasi Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan gradien diagonal ke dokumen PS menggunakan Aspose.Page, langkah demi langkah.
@@ -162,3 +168,9 @@ A2: Ya, Aspose.Page memberikan fleksibilitas dalam memilih dan menyesuaikan warn
 ### Q5: Di mana saya dapat menemukan dukungan komunitas untuk Aspose.Page?
 
  A5: Terlibat dengan komunitas Aspose.Page di[forum](https://forum.aspose.com/c/page/39) untuk bantuan dan diskusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

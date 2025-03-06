@@ -3,10 +3,16 @@ title: Đặt mặt nạ độ mờ trong Java XPS
 linktitle: Đặt mặt nạ độ mờ trong Java XPS
 second_title: API Java Aspose.Page
 description: Khám phá sức mạnh của việc thiết lập mặt nạ độ mờ trong Java XPS với Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm tài liệu được nâng cao về mặt trực quan.
-type: docs
 weight: 11
 url: /vi/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt mặt nạ độ mờ trong Java XPS
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách đặt mặt nạ độ mờ trong Java XPS bằng Aspose.Page. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu XPS, thêm khung vẽ và áp dụng mặt nạ độ mờ cho hình chữ nhật bằng cách sử dụng các tính năng mạnh mẽ của Aspose.Page cho Java.
 ## Điều kiện tiên quyết
@@ -67,3 +73,9 @@ Phiên bản dùng thử có thể có một số hạn chế về tính năng. 
  Bạn có thể ghé thăm[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để được hỗ trợ cộng đồng hoặc mua giấy phép để được hỗ trợ cao cấp.
 ### Có đảm bảo hoàn lại tiền cho Aspose.Page không?
  Tham khảo đến[trang mua hàng](https://purchase.aspose.com/buy) để biết thông tin về chính sách hoàn trả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

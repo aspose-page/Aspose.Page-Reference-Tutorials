@@ -3,10 +3,16 @@ title: Добавить эллипс в Java PostScript
 linktitle: Добавить эллипс в Java PostScript
 second_title: API Aspose.Page Java
 description: Научитесь создавать потрясающие документы PostScript на Java с помощью Aspose.Page. Научитесь добавлять эллипсы шаг за шагом для визуально привлекательного контента.
-type: docs
 weight: 10
 url: /ru/java/postscript-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить эллипс в Java PostScript
+
 ## Введение
 В динамичном мире разработки Java создание визуально привлекательных документов является обычным требованием. Aspose.Page для Java — это мощная библиотека, которая позволяет разработчикам легко манипулировать файлами PostScript. В этом уроке мы рассмотрим, как добавлять многоточия в документы PostScript с помощью Aspose.Page для Java. Следуйте инструкциям, чтобы улучшить свои навыки создания документов!
 ## Предварительные условия
@@ -71,3 +77,9 @@ document.save();
  A: Присоединяйтесь к сообществу на[Форум Aspose.Page](https://forum.aspose.com/c/page/39) за обсуждения и помощь.
 ### Вопрос: Существуют ли бесплатные ресурсы, где можно узнать больше об Aspose.Page для Java?
  А: Используйте[бесплатная пробная версия](https://releases.aspose.com/) и изучите примеры в документации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

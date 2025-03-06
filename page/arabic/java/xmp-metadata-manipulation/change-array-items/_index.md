@@ -3,10 +3,16 @@ title: تغيير عناصر المصفوفة في XMP باستخدام Java
 linktitle: تغيير عناصر المصفوفة في XMP باستخدام Java
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية تغيير عناصر المصفوفة في XMP باستخدام Aspose.Page لـ Java. قم بتعديل البيانات الوصفية دون عناء باستخدام دليلنا خطوة بخطوة. قم بتحسين مستندات EPS الخاصة بك الآن!
-type: docs
 weight: 15
 url: /ar/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير عناصر المصفوفة في XMP باستخدام Java
+
 ## مقدمة
 مرحبًا بك في دليلنا الشامل حول تغيير عناصر المصفوفة في XMP باستخدام Aspose.Page لـ Java! Aspose.Page هي مكتبة Java قوية تتيح لك العمل مع بيانات تعريف XMP في ملفات EPS بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تعديل عناصر المصفوفة ضمن بيانات تعريف XMP، مما يساعدك على تحسين مستندات EPS وتخصيصها.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ try {
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء الإصدار الكامل من Aspose.Page لـ Java؟
  يمكنك شراء النسخة الكاملة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

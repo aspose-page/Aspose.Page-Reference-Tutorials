@@ -3,10 +3,16 @@ title: Dodaj elementy tablicy w metadanych XMP przy użyciu języka Java
 linktitle: Dodaj elementy tablicy w metadanych XMP przy użyciu języka Java
 second_title: Aspose.Page API Java
 description: Ulepsz pliki EPS za pomocą Aspose.Page dla Java. Dowiedz się, jak bez wysiłku dodawać elementy tablicy do metadanych XMP. Skorzystaj już teraz z naszego przewodnika krok po kroku!
-type: docs
 weight: 10
 url: /pl/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj elementy tablicy w metadanych XMP przy użyciu języka Java
+
 ## Wstęp
 Witamy w naszym przewodniku krok po kroku dotyczącym używania Aspose.Page dla Java w celu dodawania elementów tablicy w metadanych XMP. Aspose.Page to potężna biblioteka Java, która umożliwia manipulowanie i pracę z różnymi formatami dokumentów, w tym plikami EPS. W tym samouczku skupimy się na konkretnym zadaniu dodawania elementów tablicy w metadanych XMP przy użyciu języka Java.
 ## Warunki wstępne
@@ -78,3 +84,9 @@ Tak, Aspose.Page obsługuje różne formaty dokumentów, w tym EPS, PDF i XPS.
  Możesz kupić produkt[Tutaj](https://purchase.aspose.com/buy).
 ### Czy dostępne są tymczasowe licencje dla Aspose.Page dla Java?
  Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

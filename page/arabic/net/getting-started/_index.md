@@ -3,10 +3,16 @@ title: ابدء
 linktitle: ابدء
 second_title: Aspose.Page .NET API
 description: أطلق العنان لقوة Aspose.Page .NET من خلال البرامج التعليمية خطوة بخطوة. قم بتطبيق التراخيص المقيدة، والتحميل من الملفات أو التدفقات، والتراخيص الآمنة، والمزيد.
-type: docs
 weight: 20
 url: /ar/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ابدء
+
 ## مقدمة
 
 مرحبًا بك في الدليل النهائي على Aspose.Page لبرامج .NET التعليمية. انغمس في عالم من المعالجة السلسة للمستندات، حيث تجتمع الكفاءة مع البساطة. فلنبدأ رحلة لتسخير الإمكانات الكاملة لهذه الأداة القوية من خلال سلسلة من البرامج التعليمية الشاملة.
@@ -38,3 +44,9 @@ url: /ar/net/getting-started/
 قم بتأمين ترخيص Aspose.Page for .NET الخاص بك بسهولة من خلال دليلنا التفصيلي خطوة بخطوة. أطلق العنان للإمكانات الكاملة للتعامل السلس مع الصفحات في تطبيقات .NET الخاصة بك.
 ### [قم بتعيين الترخيص باستخدام الموارد المضمنة مع Aspose.Page لـ .NET](./set-license-using-embedded-resource/)
 تعرف على كيفية تعيين ترخيص باستخدام الموارد المضمنة مع Aspose.Page لـ .NET. ضمان الامتثال وفتح الإمكانات الكاملة لمعالجة المستندات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 剪切 XPS
 linktitle: 剪裁XPS
 second_title: Aspose.Page .NET API
 description: 在本有关剪切 XPS 文档的分步指南中探索 Aspose.Page for .NET 的强大功能。轻松创建、操作和保存 XPS 文件。
-type: docs
 weight: 11
 url: /zh/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 剪切 XPS
+
 ## 介绍
 
 欢迎来到这个关于使用 Aspose.Page for .NET 剪切 XPS 的综合教程！在本指南中，我们将引导您完成使用 Aspose.Page for .NET 创建、操作和保存 XPS 文档的过程。 XPS（即 XML 纸张规范）是一种标准化的开放文档格式，Aspose.Page for .NET 提供了强大的工具来在 .NET 应用程序中处理 XPS 文档。
@@ -156,3 +162,9 @@ A2：是的，Aspose.Page for .NET 的设计是用户友好的，初学者可以
 ### Q5：Aspose.Page for .NET 有免费试用版吗？
 
  A5：是的，您可以探索免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

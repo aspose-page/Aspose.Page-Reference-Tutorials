@@ -3,10 +3,16 @@ title: Gradiens hozzáadása - PostScript
 linktitle: Gradiens hozzáadása - PostScript
 second_title: Aspose.Page Java API
 description: Emelje fel Java PostScript-dokumentumait az Aspose.Page for Java oktatóanyaggal. Tanuljon meg könnyedén hozzáadni lenyűgöző átlós, vízszintes, sugárirányú és függőleges színátmeneteket.
-type: docs
 weight: 25
 url: /hu/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradiens hozzáadása - PostScript
+
 ## Bevezetés
 
 Ha élénk színátmenetekkel szeretné javítani Java PostScript-dokumentumait, az Aspose.Page for Java a legjobb megoldás. Ez az oktatóanyag-sorozat a színátmenet-összeadás művészetével foglalkozik, az átlós színátmenetektől a sugárirányú átmenetekig mindenre kiterjed. Induljunk el egy utazásra, hogy elsajátítsuk a vizuálisan lenyűgöző dokumentumok művészetét.
@@ -44,3 +50,9 @@ Ismerje meg, hogyan adhat hozzá lenyűgöző radiális színátmeneteket a Java
 Tekintse meg a lépésenkénti útmutatót a Radial Gradient hozzáadásához a Java PostScriptben az Aspose.Page használatával, hogy lenyűgöző grafikákat készítsen Java-alkalmazásaiban.
 ### [Függőleges színátmenet hozzáadása a Java PostScript-ben](./vertical/)
 Fedezze fel a függőleges színátmenetek Java PostScript-ben történő hozzáadásának lépésenkénti útmutatóját az Aspose.Page for Java segítségével. Fokozza dokumentumait könnyedén élénk látványvilággal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

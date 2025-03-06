@@ -3,10 +3,16 @@ title: Efekty průhlednosti
 linktitle: Efekty průhlednosti
 second_title: Aspose.Page .NET API
 description: Objevte kouzlo efektů průhlednosti ve vašich dokumentech s Aspose.Page .NET. Pozvedněte svůj design pomocí podrobných výukových programů pro ohromující vizuální vylepšení.
-type: docs
 weight: 34
 url: /cs/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efekty průhlednosti
+
 
 ## Úvod
 
@@ -42,3 +48,9 @@ Naučte se přidávat průhledné objekty do dokumentů XPS v .NET pomocí Aspos
 Naučte se nastavit masky krytí v dokumentech XPS pomocí Aspose.Page for .NET. Vylepšete estetiku dokumentu bez námahy.
 ### [Zobrazit pseudoprůhlednost v PostScriptu (PS) pomocí Aspose.Page](./show-pseudo-transparency-in-postscript-ps/)
 Prozkoumejte sílu pseudotransparentnosti v PostScriptu s Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro vizuálně úžasné dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page ile PostScript'e (PS) Doku Döşeme Deseni Uygulama
 linktitle: PostScript'e (PS) Doku Döşeme Desenini Uygula
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET'i kullanarak PostScript (PS) belgelerinizi doku döşeme desenleriyle geliştirin. Yaratıcı bir dokunuş için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile PostScript'e (PS) Doku Döşeme Deseni Uygulama
+
 ## giriiş
 
 Aspose.Page for .NET kullanarak bir PostScript (PS) belgesine doku döşeme deseninin nasıl uygulanacağını anlatan bu adım adım eğitime hoş geldiniz. Aspose.Page, çeşitli belge formatlarıyla çalışmanıza olanak tanıyan güçlü bir kütüphanedir ve bu eğitimde, doku döşeme desenleri ekleyerek PS belgelerinizi nasıl geliştirebileceğinizi keşfedeceğiz.
@@ -156,3 +162,10 @@ Cevap4: Evet, işlemi farklı görseller ve yollarla tekrarlayabilirsiniz.
 ### S5: Ek kaynakları ve desteği nerede bulabilirim?
 
  A5: ziyaret edin[Aspose.Page Forumu](https://forum.aspose.com/c/page/39) topluluk desteği için ve keşfetmek için[dokümantasyon](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

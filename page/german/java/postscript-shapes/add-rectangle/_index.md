@@ -3,10 +3,16 @@ title: Anpassen von Java PostScript – Hinzufügen von Rechtecken mit Aspose.Pa
 linktitle: Rechteck in Java PostScript hinzufügen
 second_title: Aspose.Page Java-API
 description: Entdecken Sie die Schritt-für-Schritt-Anleitung zum Hinzufügen lebendiger Rechtecke zu Java-PostScript-Dokumenten mit Aspose.Page für Java. Verbessern Sie Ihre Dokumentanpassung mühelos!
-type: docs
 weight: 11
 url: /de/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassen von Java PostScript – Hinzufügen von Rechtecken mit Aspose.Page
+
 ## Einführung
 Möchten Sie Ihre Java-PostScript-Dokumente mit lebendigen Rechtecken aufwerten? Suchen Sie nicht weiter! In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie mit Aspose.Page für Java Rechtecke zu Ihren PostScript-Dokumenten hinzufügen. Aspose.Page ist eine leistungsstarke Bibliothek, die robuste Funktionen für die Arbeit mit PostScript-Dateien bietet und somit eine ideale Wahl für Entwickler ist, die ihre Dokumente bearbeiten und anpassen möchten.
 ## Voraussetzungen
@@ -72,3 +78,9 @@ Aspose.Page unterstützt hauptsächlich Java, ähnliche Bibliotheken sind jedoch
  Holen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
 ### Wo kann ich eine lizenzierte Version von Aspose.Page für Java erwerben?
  Kaufen Sie eine lizenzierte Version[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

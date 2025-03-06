@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 将纹理平铺模式应用于 PostScript (PS)
 linktitle: 将纹理平铺图案应用于 PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 通过纹理平铺图案增强 PostScript (PS) 文档。请按照我们的分步指南进行创意操作。
-type: docs
 weight: 10
 url: /zh/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 将纹理平铺模式应用于 PostScript (PS)
+
 ## 介绍
 
 欢迎阅读本分步教程，了解如何使用 Aspose.Page for .NET 将纹理平铺图案应用到 PostScript (PS) 文档。 Aspose.Page 是一个功能强大的库，允许您使用各种文档格式，在本教程中，我们将探索如何通过添加纹理平铺图案来增强您的 PS 文档。
@@ -156,3 +162,10 @@ A4：是的，您可以使用不同的图像和路径重复该过程。
 ### Q5：我在哪里可以找到更多资源和支持？
 
  A5：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)寻求社区支持并探索[文档](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

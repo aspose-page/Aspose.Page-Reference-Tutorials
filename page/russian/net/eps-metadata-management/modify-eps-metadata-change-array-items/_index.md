@@ -3,10 +3,16 @@ title: Изменение элементов массива с помощью As
 linktitle: Изменить элементы массива
 second_title: Aspose.Page .NET API
 description: Узнайте, как изменять элементы массива в файлах EPS с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству для эффективного манипулирования метаданными.
-type: docs
 weight: 15
 url: /ru/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изменение элементов массива с помощью Aspose.Page для .NET
+
 ## Введение
 
 Добро пожаловать в это подробное руководство по изменению элементов массива с помощью Aspose.Page для .NET! Aspose.Page — мощная библиотека, позволяющая разработчикам работать с различными форматами документов, включая файлы EPS. В этом руководстве мы сосредоточимся на манипулировании метаданными XMP в файлах EPS, в частности на изменении элементов массива.
@@ -99,3 +105,9 @@ A1: Aspose.Page в основном работает с файлами EPS, но
 ### Вопрос 5. Где я могу получить поддержку или связаться с сообществом?
 
  A5: Посетите[Форум Aspose.Page](https://forum.aspose.com/c/page/39) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dodaj tekst za pomocą ciągu Unicode do PostScript (PS) za pomocą Aspos
 linktitle: Dodaj tekst za pomocą ciągu Unicode do PostScript (PS)
 second_title: Aspose.Page API .NET
 description: Dowiedz się, jak dodać tekst Unicode do plików PostScript przy użyciu Aspose.Page dla .NET. Ulepsz manipulację dokumentami z łatwością.
-type: docs
 weight: 11
 url: /pl/net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj tekst za pomocą ciągu Unicode do PostScript (PS) za pomocą Aspose.Page
+
 ## Wstęp
 
 W dziedzinie manipulacji dokumentami Aspose.Page dla .NET wyróżnia się jako solidna biblioteka, która umożliwia programistom tworzenie, edytowanie i konwertowanie różnych formatów dokumentów. Jedną z jego zaawansowanych funkcji jest możliwość dodawania tekstu przy użyciu ciągów Unicode do plików PostScript (PS). W tym samouczku omówimy krok po kroku wykonanie tego zadania, zapewniając płynną obsługę programistom pracującym z Aspose.Page.
@@ -110,3 +116,9 @@ A4: Aspose.Page obsługuje różne formaty, w tym XPS, PS, EPS, PDF i inne.
 ### P5: Czy mogę dostosować wygląd dodanego tekstu?
 
 O5: Tak, możesz dostosować czcionkę, rozmiar, kolor i inne właściwości tekstu w Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

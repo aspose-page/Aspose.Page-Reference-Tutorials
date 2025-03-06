@@ -3,10 +3,16 @@ title: Canvasmanipulatie
 linktitle: Canvasmanipulatie
 second_title: Aspose.Page .NET-API
 description: Verken Aspose.Page voor .NET-tutorials over canvasmanipulatie. Gemakkelijk knippen en transformeren van PS- en XPS-documenten. Verbeter uw vaardigheden op het gebied van documentverwerking.
-type: docs
 weight: 21
 url: /nl/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Canvasmanipulatie
+
 
 ## Invoering
 
@@ -42,3 +48,9 @@ Ontdek de kracht van Aspose.Page voor .NET in deze stapsgewijze handleiding voor
 Ontgrendel het potentieel van Aspose.Page voor .NET met deze uitgebreide handleiding over PostScript-transformaties. Creëer moeiteloos dynamische afbeeldingen.
 ### [Transformaties XPS met Aspose.Page voor .NET](./transformationsxps/)
 Transformeer XPS-documenten moeiteloos met Aspose.Page voor .NET. Volg onze stapsgewijze handleiding voor naadloze transformaties.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

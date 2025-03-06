@@ -3,10 +3,16 @@ title: Текстовые манипуляции
 linktitle: Текстовые манипуляции
 second_title: Aspose.Page .NET API
 description: Освойте манипулирование текстом в .NET с помощью руководств Aspose.Page. Научитесь добавлять текст в формате Unicode в документы PostScript и XPS. Совершенствуйте свои навыки работы с документами.
-type: docs
 weight: 32
 url: /ru/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Текстовые манипуляции
+
 
 
 ## Введение
@@ -39,3 +45,9 @@ url: /ru/net/text-manipulation/
 Изучите возможности Aspose.Page для .NET с помощью нашего пошагового руководства по добавлению текста Unicode в документы XPS.
 ### [Добавьте текст в документ XPS с помощью Aspose.Page для .NET](./add-text-to-xps-document/)
 Изучите пошаговое руководство по добавлению текста в документы XPS с помощью Aspose.Page для .NET. Улучшайте свои проекты .NET без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

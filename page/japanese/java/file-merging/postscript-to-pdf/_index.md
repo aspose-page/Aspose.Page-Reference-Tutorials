@@ -3,10 +3,16 @@ title: Java で PostScript を PDF にマージする
 linktitle: Java で PostScript を PDF にマージする
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用すると、Java で PostScript ファイルを PDF に簡単にマージできます。シームレスなドキュメント変換のための包括的なチュートリアル、FAQ、およびリソース。
-type: docs
 weight: 10
 url: /ja/java/file-merging/postscript-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で PostScript を PDF にマージする
+
 ## 導入
 Java プログラミングの分野では、ドキュメント変換を効率的に処理することが不可欠です。そのような重要なタスクの 1 つは、PostScript ファイルを PDF に結合することです。 Aspose.Page for Java は、このタスクに対する強力なソリューションを提供し、開発者にシームレスなエクスペリエンスを提供します。このステップバイステップのガイドでは、Aspose.Page を使用して Java で PostScript を PDF にマージするプロセスを順を追って説明します。
 ## 前提条件
@@ -90,3 +96,9 @@ if (suppressErrors) {
 にアクセスして仮ライセンスを取得します。[このリンク](https://purchase.aspose.com/temporary-license/).
 ### どこでサポートを受けたり、Aspose コミュニティに連絡したりできますか?
 に関するディスカッションに参加してください[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)助けを求め、あなたの経験を共有してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

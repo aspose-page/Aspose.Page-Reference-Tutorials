@@ -3,10 +3,16 @@ title: Szöveg hozzáadása Unicode karakterlánccal az XPS-dokumentumhoz az Asp
 linktitle: Szöveg hozzáadása Unicode karakterlánccal az XPS-dokumentumhoz
 second_title: Aspose.Page .NET API
 description: Fedezze fel az Aspose.Page .NET-hez nyújtotta lehetőségeket lépésenkénti útmutatónkkal az XPS-dokumentumok Unicode-szöveg hozzáadásához.
-type: docs
 weight: 12
 url: /hu/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szöveg hozzáadása Unicode karakterlánccal az XPS-dokumentumhoz az Aspose.Page segítségével
+
 ## Bevezetés
 
 A .NET-fejlesztés folyamatosan változó környezetében az Aspose.Page az XPS-dokumentumok kezelésének hatékony eszközeként tűnik ki. Számos funkciója közül értékes az a képesség, hogy egy XPS-dokumentumhoz Unicode-karakterláncokkal szöveget adjunk hozzá. Ez a lépésenkénti útmutató végigvezeti Önt a folyamaton, és biztosítja, hogy hatékonyan kihasználja ezt a képességet.
@@ -88,3 +94,9 @@ A2: Abszolút! A mellékelt példakód lehetővé teszi a betűstílus, -méret 
 ### 5. kérdés: Rendelkezésre áll-e próbaverzió a vásárlás előtt?
 
  A5: Természetesen! Hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/) vásárlás előtt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

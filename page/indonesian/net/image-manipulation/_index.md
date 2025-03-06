@@ -3,10 +3,16 @@ title: Manipulasi Gambar
 linktitle: Manipulasi Gambar
 second_title: Aspose.Halaman .NET API
 description: Temukan kekuatan Aspose.Page untuk .NET melalui Tutorial Manipulasi Gambar kami. Pangkas dan ubah ukuran gambar EPS dengan mudah untuk hasil yang menakjubkan dan presisi.
-type: docs
 weight: 26
 url: /id/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Gambar
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan manipulasi gambar EPS Anda di .NET? Selami Tutorial Manipulasi Gambar kami yang komprehensif dengan Aspose.Page untuk .NET, tempat kami memandu Anda melalui proses pemotongan dan pengubahan ukuran gambar EPS yang lancar.
@@ -41,3 +47,9 @@ Jelajahi dunia Aspose.Page untuk .NET dengan Tutorial Manipulasi Gambar kami dan
 Jelajahi dunia manipulasi gambar EPS yang mulus di .NET dengan Aspose.Page. Pangkas dan ubah ukuran gambar dengan mudah untuk hasil yang menakjubkan.
 ### [Ubah ukuran Gambar EPS dengan Aspose.Page untuk .NET](./resize-eps-images/)
 Jelajahi proses yang mulus dalam mengubah ukuran gambar EPS di .NET menggunakan Aspose.Page. Mencapai presisi dalam poin, inci, milimeter, dan persentase dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

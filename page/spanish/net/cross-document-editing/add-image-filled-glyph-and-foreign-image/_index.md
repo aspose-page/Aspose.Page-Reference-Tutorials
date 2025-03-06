@@ -3,10 +3,16 @@ title: Agregue glifo relleno de imagen e imagen extranjera con Aspose.Page .NET
 linktitle: Agregar glifo relleno de imagen e imagen extranjera
 second_title: Aspose.Página .NET API
 description: Libere el poder del procesamiento de documentos en .NET con Aspose.Page. Agrega glifos llenos de imágenes sin esfuerzo. Mejore las imágenes y agilice su flujo de trabajo.
-type: docs
 weight: 11
 url: /es/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue glifo relleno de imagen e imagen extranjera con Aspose.Page .NET
+
 ## Introducción
 
 En el mundo del desarrollo .NET, Aspose.Page se destaca como un poderoso conjunto de herramientas para manejar tareas de procesamiento de documentos. Este tutorial lo guiará a través del proceso de agregar glifos llenos de imágenes e incorporar imágenes extrañas usando Aspose.Page para .NET. Al final de esta guía, tendrá una comprensión sólida de cómo mejorar sus capacidades de procesamiento de documentos.
@@ -131,3 +137,9 @@ R4: Sí, puedes personalizar los estilos para cada glifo de forma independiente,
 ### P5: ¿Cuáles son los beneficios de utilizar Aspose.Page sobre otras herramientas de procesamiento de documentos?
 
 R5: Aspose.Page ofrece un conjunto completo de funciones, excelente rendimiento y documentación extensa, lo que lo convierte en la opción preferida de muchos desarrolladores.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

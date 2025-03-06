@@ -3,10 +3,16 @@ title: تحرير تذكرة الطباعة الموجودة باستخدام As
 linktitle: تحرير تذكرة الطباعة الموجودة
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية تحرير تذاكر الطباعة في مستندات XPS باستخدام Aspose.Page لـ .NET. دليل خطوة بخطوة للمطورين. تعزيز التحكم في طباعة المستندات دون عناء.
-type: docs
 weight: 11
 url: /ar/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحرير تذكرة الطباعة الموجودة باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تحرير التذاكر المطبوعة الموجودة باستخدام Aspose.Page لـ .NET! Aspose.Page هي مكتبة قوية تتيح للمطورين العمل مع مستندات XPS دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحرير التذاكر المطبوعة بأمثلة عملية، مع تفصيل كل خطوة للحصول على تجربة تعليمية سلسة.
@@ -117,3 +123,9 @@ xDocs.Save(dir + "output3.xps");
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
 
  ج5: زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

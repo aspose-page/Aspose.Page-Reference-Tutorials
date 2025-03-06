@@ -3,10 +3,16 @@ title: إضافة التدرج - XPS
 linktitle: إضافة التدرج - XPS
 second_title: Aspose.Page جافا API
 description: ارفع مستوى مستندات Java XPS الخاصة بك بتدرجات مذهلة. تعلم كيفية إضافة التدرجات القطرية والأفقية والرأسية بسهولة باستخدام البرامج التعليمية لـ Aspose.Page.
-type: docs
 weight: 26
 url: /ar/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة التدرج - XPS
+
 ## مقدمة
 
 مع تطور التكنولوجيا، أصبح تعزيز الجاذبية البصرية أمرًا بالغ الأهمية. في عالم مستندات Java XPS، يعد دمج التدرجات الجذابة بمثابة تغيير جذري لقواعد اللعبة. مرحبًا بك في صفحة Aspose.Page الخاصة ببرامج Java التعليمية، حيث نكشف النقاب عن فن إضافة التدرج اللوني في XPS ببراعة.
@@ -40,3 +46,9 @@ url: /ar/java/xps-gradient-addition/
 تعرف على كيفية إضافة تدرج أفقي مذهل إلى مستندات XPS في Java باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 ### [أضف التدرج الرأسي في Java XPS](./vertical/)
 تعرف على كيفية إضافة تدرج عمودي إلى مستندات Java XPS باستخدام Aspose.Page. تعزيز الجاذبية البصرية دون عناء. دليل خطوة بخطوة في الداخل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile PostScript'e (PS) Dikdörtgen Ekleme
 linktitle: PostScript'e (PS) Dikdörtgen Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page ile .NET'te belge oluşturmayı geliştirin. PostScript (PS) dosyalarına adım adım dikdörtgen eklemeyi öğrenin.
-type: docs
 weight: 12
 url: /tr/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile PostScript'e (PS) Dikdörtgen Ekleme
+
 ## giriiş
 
 .NET'te belge oluşturma yeteneklerinizi geliştirmek istiyorsanız Aspose.Page, PostScript belgelerinin işlenmesi için güçlü bir çözüm sunar. Bu eğitimde, Aspose.Page for .NET'i kullanarak PostScript belgesine dikdörtgen ekleme sürecinde size rehberlik edeceğiz.
@@ -133,3 +139,10 @@ Cevap2: Evet, Aspose.Page, XPS ve PostScript dahil çeşitli belge formatların�
 ### S5: Satın almadan önce Aspose.Page'i deneyebilir miyim?
 
  A5: Evet, ücretsiz deneme sürümünü alabilirsiniz[Burada](https://releases.aspose.com/) ve uzun süreli kullanım için, bir[geçici lisans](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Buat Tiket Cetak Kustom dengan Aspose.Page untuk .NET
 linktitle: Buat Tiket Cetak Kustom
 second_title: Aspose.Halaman .NET API
 description: Jelajahi panduan langkah demi langkah dalam membuat tiket cetak kustom menggunakan Aspose.Page untuk .NET. Sesuaikan pengalaman pencetakan Anda dengan kontrol yang cermat.
-type: docs
 weight: 10
 url: /id/net/print-ticket-management/create-custom-print-ticket/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Tiket Cetak Kustom dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Dalam bidang pengembangan .NET, Aspose.Page menonjol sebagai alat yang ampuh untuk menangani manipulasi dokumen XPS. Salah satu fiturnya yang luar biasa adalah kemampuan untuk membuat tiket cetak khusus, yang menawarkan kendali luas kepada pengembang atas proses pencetakan. Dalam tutorial ini, kita akan mempelajari langkah-langkah membuat tiket cetak kustom menggunakan Aspose.Page untuk .NET.
@@ -96,3 +102,9 @@ A4: Aspose.Page mendukung berbagai jenis media, termasuk kertas biasa dan lainny
 ### Q5: Apakah ada contoh proyek yang tersedia untuk Aspose.Page untuk .NET?
 
  A5: Jelajahi[dokumentasi](https://reference.aspose.com/page/net/) untuk contoh proyek dan cuplikan kode untuk memulai pengembangan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

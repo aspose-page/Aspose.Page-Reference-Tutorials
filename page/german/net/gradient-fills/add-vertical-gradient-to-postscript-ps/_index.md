@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page einen vertikalen Farbverlauf zu PostScript (PS
 linktitle: Vertikalen Farbverlauf zu PostScript hinzufügen (PS)
 second_title: Aspose.Page .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Page optisch ansprechende vertikale Verläufe zu PostScript-Dokumenten (PS) in .NET hinzufügen. Verbessern Sie Ihre Dokumentenerstellung mit dieser Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 14
 url: /de/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page einen vertikalen Farbverlauf zu PostScript (PS) hinzu
+
 ## Einführung
 
 Im Bereich der Dokumentbearbeitung und -erstellung sticht Aspose.Page für .NET als leistungsstarkes Tool für Entwickler hervor. Dieses Tutorial führt Sie durch den Prozess des Hinzufügens eines vertikalen Farbverlaufs zu einem PostScript-Dokument (PS) mithilfe von Aspose.Page für .NET. Am Ende dieses Leitfadens werden Sie ein klares Verständnis der notwendigen Schritte haben, um diesen optisch ansprechenden Effekt zu erzielen.
@@ -154,3 +160,9 @@ A3: Aspose.Page unterstützt verschiedene Verlaufstypen, einschließlich radiale
 ### F5: Gibt es ein Community-Forum für Aspose.Page, in dem ich Hilfe suchen kann?
 
  A5: Auf jeden Fall! Gehen Sie zum[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) um mit anderen Entwicklern in Kontakt zu treten und Unterstützung zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

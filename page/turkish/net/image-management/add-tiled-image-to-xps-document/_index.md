@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile XPS Belgesine Döşenmiş Görüntü Ekleme
 linktitle: XPS Belgesine Döşenmiş Görüntü Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET ile XPS belgelerine döşemeli görüntüleri zahmetsizce eklemeyi keşfedin. Görsel çekiciliği artırın ve çarpıcı belgeler oluşturun.
-type: docs
 weight: 12
 url: /tr/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile XPS Belgesine Döşenmiş Görüntü Ekleme
+
 ## giriiş
 
 Görsel olarak çekici döşemeli görüntüler ekleyerek XPS belgelerinizi geliştirmek mi istiyorsunuz? Aspose.Page for .NET, geliştiricilerin bunu sorunsuz bir şekilde başarmalarını sağlar. Bu adım adım kılavuzda, Aspose.Page for .NET kullanarak bir XPS belgesine döşenmiş bir görüntü ekleme sürecinde size yol göstereceğiz.
@@ -95,3 +101,9 @@ Cevap2: Elbette, örnekte gösterildiği gibi, doldurulmuş dikdörtgenin opakl�
 ### S5: Nereden yardım alabilirim veya Aspose.Page topluluğuyla bağlantı kurabilirim?
 
  A5: ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) toplulukla etkileşime geçmek, sorular sormak ve çözümler bulmak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

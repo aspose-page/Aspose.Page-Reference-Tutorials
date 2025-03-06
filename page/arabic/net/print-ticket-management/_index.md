@@ -3,10 +3,16 @@ title: طباعة إدارة التذاكر
 linktitle: طباعة إدارة التذاكر
 second_title: Aspose.Page .NET API
 description: قم بإنشاء وتحرير تذاكر الطباعة المخصصة باستخدام Aspose.Page لـ .NET. قم بتخصيص تجربة الطباعة الخاصة بك من خلال التحكم الدقيق في مستندات XPS دون عناء.
-type: docs
 weight: 30
 url: /ar/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# طباعة إدارة التذاكر
+
 
 ## مقدمة
 
@@ -34,3 +40,9 @@ url: /ar/net/print-ticket-management/
 استكشف الدليل التفصيلي خطوة بخطوة حول إنشاء تذاكر طباعة مخصصة باستخدام Aspose.Page لـ .NET. قم بتخصيص تجربة الطباعة الخاصة بك من خلال التحكم الدقيق.
 ### [تحرير تذكرة الطباعة الموجودة باستخدام Aspose.Page لـ .NET](./print-ticket-management/aspose.page/)
 تعرف على كيفية تحرير تذاكر الطباعة في مستندات XPS باستخدام Aspose.Page لـ .NET. دليل خطوة بخطوة للمطورين. تعزيز التحكم في طباعة المستندات دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

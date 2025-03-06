@@ -3,10 +3,16 @@ title: Áp dụng mẫu ốp lát họa tiết cho PostScript (PS) với Aspose.
 linktitle: Áp dụng mẫu ốp lát họa tiết cho PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Nâng cao tài liệu PostScript (PS) của bạn bằng các mẫu xếp lớp kết cấu bằng cách sử dụng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được cảm giác sáng tạo.
-type: docs
 weight: 10
 url: /vi/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng mẫu ốp lát họa tiết cho PostScript (PS) với Aspose.Page
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách áp dụng mẫu xếp lát họa tiết cho tài liệu PostScript (PS) bằng Aspose.Page cho .NET. Aspose.Page là một thư viện mạnh mẽ cho phép bạn làm việc với nhiều định dạng tài liệu khác nhau và trong hướng dẫn này, chúng ta sẽ khám phá cách nâng cao tài liệu PS của bạn bằng cách thêm các mẫu xếp lát kết cấu.
@@ -156,3 +162,10 @@ Câu trả lời 4: Có, bạn có thể lặp lại quy trình với các hình
 ### Câu hỏi 5: Tôi có thể tìm thêm nguồn lực và hỗ trợ ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để được hỗ trợ cộng đồng và khám phá[tài liệu](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

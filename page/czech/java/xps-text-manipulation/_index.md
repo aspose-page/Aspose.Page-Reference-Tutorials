@@ -3,10 +3,16 @@ title: Manipulace s textem - XPS
 linktitle: Manipulace s textem - XPS
 second_title: Aspose.Page Java API
 description: Udělejte revoluci ve svých dokumentech Java XPS pomocí Aspose.Page. Prozkoumejte podrobné průvodce manipulací s textem. Zvyšte své dovednosti pro snadné vylepšování dokumentů.
-type: docs
 weight: 37
 url: /cs/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s textem - XPS
+
 
 Udělejte revoluci ve svých dokumentech Java XPS pomocí výukových programů Aspose.Page. Prozkoumejte podrobné průvodce manipulací s textem. Zvyšte své dovednosti pro snadné vylepšování dokumentů.
 
@@ -36,3 +42,9 @@ Díky výukovým programům Aspose.Page for Java se manipulace s textem v dokume
 ## Manipulace s textem – výukové programy XPS
 ### [Přidejte text do Java XPS](./add-text/)
 Vylepšete své dokumenty Java XPS pomocí Aspose.Page! Postupujte podle našeho podrobného průvodce a přidejte text bez námahy. Zvyšte své dovednosti v manipulaci s dokumenty ještě dnes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

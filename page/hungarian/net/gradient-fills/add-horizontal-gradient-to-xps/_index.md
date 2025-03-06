@@ -3,10 +3,16 @@ title: Adja hozzá a Vízszintes színátmenetet az XPS-hez az Aspose.Page for .
 linktitle: Vízszintes színátmenet hozzáadása az XPS-hez
 second_title: Aspose.Page .NET API
 description: Ismerje meg, hogyan adhat lenyűgöző vízszintes színátmeneteket XPS-dokumentumaihoz az Aspose.Page for .NET használatával. Emelje fel a vizuális vonzerőt könnyedén.
-type: docs
 weight: 13
 url: /hu/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja hozzá a Vízszintes színátmenetet az XPS-hez az Aspose.Page for .NET segítségével
+
 ## Bevezetés
 
 Ebben az oktatóanyagban megvizsgáljuk, hogyan javítható az XPS-dokumentumok vízszintes színátmenet hozzáadásával az Aspose.Page for .NET segítségével. Az Aspose.Page for .NET egy hatékony könyvtár, amely az XPS (XML Paper Specification) dokumentumok zökkenőmentes kezelését biztosítja .NET alkalmazásokban. A színátmenetek hozzáadása vizuális vonzerőt kölcsönöz a dokumentumoknak, és ez az útmutató lépésről lépésre végigvezeti a folyamaton.
@@ -113,3 +119,9 @@ Az XPS-dokumentumok színátmenetekkel történő javítása nemcsak vizuális v
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Page .NET-hez?
 
  5. válasz: Ideiglenes engedélyt szerezhet be[ez a link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cắt tệp EPS trong Java - Hướng dẫn từng bước với Aspose.P
 linktitle: Cắt tệp EPS trong Java
 second_title: API Java Aspose.Page
 description: Khám phá hướng dẫn từng bước về cách cắt tệp EPS trong Java bằng Aspose.Page. Nâng cao kỹ năng thao tác tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/manipulation-eps/crop/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt tệp EPS trong Java - Hướng dẫn từng bước với Aspose.Page
+
 ## Giới thiệu
 Bạn đang muốn thao tác các tệp EPS trong ứng dụng Java của mình và tự hỏi làm cách nào để cắt chúng một cách hiệu quả? Đừng tìm đâu xa! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình từng bước cắt xén tệp EPS bằng thư viện Aspose.Page dành cho Java mạnh mẽ.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Trả lời: Có, Aspose.Page tương thích với Java 8 và các phiên bản 
  Đ: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Hỏi: Làm cách nào để có được giấy phép tạm thời?
  A: Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 跨文檔編輯
 linktitle: 跨文檔編輯
 second_title: Aspose.Page .NET API
 description: 透過我們的教學釋放 Aspose.Page for .NET 的潛力。在 XPS 文件中輕鬆新增字形複製、變更顏色和操作頁面。
-type: docs
 weight: 22
 url: /zh-hant/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 跨文檔編輯
+
 
 ## 介紹
 
@@ -34,3 +40,9 @@ url: /zh-hant/net/cross-document-editing/
 使用 Aspose.Page 釋放 .NET 中文件處理的強大功能。輕鬆新增影像填滿的字形。增強視覺效果並簡化您的工作流程。
 ### [使用 Aspose.Page for .NET 操作頁面](./manipulate-pages/)
 使用 Aspose.Page（一個用於處理 XPS 文件的強大函式庫）來探索 .NET 中的頁面操作。請遵循我們的逐步指南以獲得高效的結果。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

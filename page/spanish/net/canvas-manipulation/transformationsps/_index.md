@@ -3,10 +3,16 @@ title: Transformaciones PS con Aspose.Page para .NET
 linktitle: Transformaciones PD
 second_title: Aspose.Página .NET API
 description: Descubra el potencial de Aspose.Page para .NET con esta guía completa sobre transformaciones PostScript. Cree gráficos dinámicos sin esfuerzo.
-type: docs
 weight: 12
 url: /es/net/canvas-manipulation/transformationsps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformaciones PS con Aspose.Page para .NET
+
 ## Introducción
 
 Bienvenido al mundo de Aspose.Page para .NET, donde puede liberar el poder de las transformaciones en documentos PostScript. Este tutorial lo guiará a través de varias transformaciones, como traslación, escalado, rotación, corte y transformaciones complejas, lo que le permitirá crear gráficos visualmente impresionantes y dinámicos.
@@ -141,3 +147,9 @@ R4: Las transformaciones complejas pueden afectar el rendimiento, así que optim
 ### P5: ¿Cómo puedo obtener soporte o buscar asistencia para consultas relacionadas con Aspose.Page?
 
  A5: Visita el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para apoyo y debates de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

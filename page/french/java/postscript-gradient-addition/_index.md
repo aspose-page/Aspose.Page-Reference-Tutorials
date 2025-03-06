@@ -3,10 +3,16 @@ title: Ajout de dégradé - PostScript
 linktitle: Ajout de dégradé - PostScript
 second_title: API Java Aspose.Page
 description: Améliorez vos documents Java PostScript avec les didacticiels Aspose.Page pour Java. Apprenez à ajouter sans effort de superbes dégradés diagonaux, horizontaux, radiaux et verticaux.
-type: docs
 weight: 25
 url: /fr/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajout de dégradé - PostScript
+
 ## Introduction
 
 Si vous souhaitez améliorer vos documents Java PostScript avec des transitions de couleurs vives, Aspose.Page pour Java est votre solution idéale. Cette série de didacticiels se penche sur l'art de l'addition de dégradés, couvrant tout, des dégradés diagonaux aux transitions radiales. Embarquons pour un voyage pour maîtriser l'art de créer des documents visuellement époustouflants.
@@ -44,3 +50,9 @@ Découvrez comment ajouter de superbes dégradés radiaux dans Java PostScript �
 Explorez le guide étape par étape pour ajouter un dégradé radial dans Java PostScript à l'aide d'Aspose.Page pour des graphismes époustouflants dans vos applications Java.
 ### [Ajouter un dégradé vertical en Java PostScript](./vertical/)
 Explorez le guide étape par étape pour ajouter des dégradés verticaux dans Java PostScript avec Aspose.Page pour Java. Améliorez vos documents sans effort avec des visuels éclatants.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

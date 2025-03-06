@@ -3,10 +3,16 @@ title: Ajouter un dégradé vertical à PostScript (PS) avec Aspose.Page
 linktitle: Ajouter un dégradé vertical à PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Découvrez comment ajouter des dégradés verticaux visuellement attrayants aux documents PostScript (PS) dans .NET à l'aide d'Aspose.Page. Améliorez la création de vos documents avec ce guide étape par étape.
-type: docs
 weight: 14
 url: /fr/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un dégradé vertical à PostScript (PS) avec Aspose.Page
+
 ## Introduction
 
 Dans le domaine de la manipulation et de la création de documents, Aspose.Page for .NET s'impose comme un outil puissant pour les développeurs. Ce didacticiel vous guidera tout au long du processus d'ajout d'un dégradé vertical à un document PostScript (PS) à l'aide d'Aspose.Page pour .NET. À la fin de ce guide, vous aurez une compréhension claire des étapes nécessaires pour obtenir cet effet visuellement attrayant.
@@ -154,3 +160,9 @@ A3 : Aspose.Page prend en charge différents types de dégradés, notamment le
 ### Q5 : Existe-t-il un forum communautaire pour Aspose.Page où je peux demander de l'aide ?
 
  A5 : Certainement ! Dirigez-vous vers le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour vous connecter avec d'autres développeurs et obtenir de l'aide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

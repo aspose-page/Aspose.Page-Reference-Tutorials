@@ -3,10 +3,16 @@ title: Voeg tekst met Unicode-tekenreeks toe aan XPS-document met Aspose.Page
 linktitle: Voeg tekst met Unicode-tekenreeks toe aan XPS-document
 second_title: Aspose.Page .NET-API
 description: Ontdek de kracht van Aspose.Page voor .NET met onze stapsgewijze handleiding voor het toevoegen van Unicode-tekst aan XPS-documenten.
-type: docs
 weight: 12
 url: /nl/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg tekst met Unicode-tekenreeks toe aan XPS-document met Aspose.Page
+
 ## Invoering
 
 In het voortdurend evoluerende landschap van .NET-ontwikkeling onderscheidt Aspose.Page zich als een krachtig hulpmiddel voor het verwerken van XPS-documenten. Onder de vele functies is de mogelijkheid om tekst met Unicode-tekenreeksen aan een XPS-document toe te voegen een waardevolle functionaliteit. Deze stapsgewijze handleiding begeleidt u door het proces, zodat u deze mogelijkheden effectief kunt benutten.
@@ -88,3 +94,9 @@ A2: Absoluut! Met de meegeleverde voorbeeldcode kunt u de lettertypestijl, -groo
 ### Vraag 5: Is er een proefversie beschikbaar voordat u een aankoop doet?
 
  A5: Zeker! U kunt toegang krijgen tot de gratis proefversie[hier](https://releases.aspose.com/) voordat u een aankoop doet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

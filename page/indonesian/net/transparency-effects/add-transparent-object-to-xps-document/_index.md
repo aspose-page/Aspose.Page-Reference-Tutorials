@@ -3,10 +3,16 @@ title: Tambahkan Objek Transparan ke Dokumen XPS dengan Aspose.Page
 linktitle: Tambahkan Objek Transparan ke Dokumen XPS
 second_title: Aspose.Halaman .NET API
 description: Pelajari cara menambahkan objek transparan ke dokumen XPS di .NET menggunakan Aspose.Page. Tingkatkan daya tarik visual dengan panduan langkah demi langkah.
-type: docs
 weight: 11
 url: /id/net/transparency-effects/add-transparent-object-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Objek Transparan ke Dokumen XPS dengan Aspose.Page
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menambahkan objek transparan ke dokumen XPS menggunakan Aspose.Page untuk .NET. Transparansi dalam dokumen XPS dapat meningkatkan daya tarik visual dan menyampaikan informasi secara efektif. Kami akan membagi prosesnya menjadi langkah-langkah yang dapat dikelola, memastikan kejelasan dan kemudahan pemahaman.
@@ -132,3 +138,9 @@ A4: Aspose.Page menyediakan fungsionalitas untuk mengekspor dokumen XPS ke berba
 ### Q5: Di mana saya bisa mendapatkan dukungan tambahan dan diskusi komunitas?
 
  A5: Untuk dukungan tambahan dan diskusi komunitas, kunjungi[Aspose.Halaman Forum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

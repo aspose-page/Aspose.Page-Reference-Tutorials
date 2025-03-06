@@ -3,10 +3,16 @@ title: Voeg rechthoek toe aan PostScript (PS) met Aspose.Page voor .NET
 linktitle: Rechthoek toevoegen aan PostScript (PS)
 second_title: Aspose.Page .NET-API
 description: Verbeter het maken van documenten in .NET met Aspose.Page. Leer stap voor stap rechthoeken toevoegen aan PostScript-bestanden (PS).
-type: docs
 weight: 12
 url: /nl/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg rechthoek toe aan PostScript (PS) met Aspose.Page voor .NET
+
 ## Invoering
 
 Als u uw mogelijkheden voor het maken van documenten in .NET wilt verbeteren, biedt Aspose.Page een krachtige oplossing voor het verwerken van PostScript-documenten. In deze zelfstudie begeleiden we u bij het proces van het toevoegen van rechthoeken aan een PostScript-document met behulp van Aspose.Page voor .NET.
@@ -133,3 +139,10 @@ A2: Ja, Aspose.Page ondersteunt verschillende documentformaten, waaronder XPS en
 ### Vraag 5: Kan ik Aspose.Page uitproberen voordat ik een aankoop doe?
 
  A5: Ja, u kunt een gratis proefversie krijgen[hier](https://releases.aspose.com/) , en voor langdurig gebruik, overweeg dan een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

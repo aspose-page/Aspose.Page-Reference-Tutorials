@@ -3,10 +3,16 @@ title: أضف الشبكة باستخدام Visual Brush في Java
 linktitle: أضف الشبكة باستخدام Visual Brush في Java
 second_title: Aspose.Page جافا API
 description: قم بتحسين العناصر المرئية لمستندات Java باستخدام Aspose.Page! تعلم كيفية إضافة الشبكات باستخدام Visual Brush خطوة بخطوة. ارفع مستوى جاذبية طلبك دون عناء.
-type: docs
 weight: 10
 url: /ar/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف الشبكة باستخدام Visual Brush في Java
+
 ## مقدمة
 هل تتطلع إلى تحسين تطبيقات Java الخاصة بك باستخدام شبكات جذابة بصريًا باستخدام Aspose.Page؟ في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة شبكة باستخدام Visual Brush في Java باستخدام Aspose.Page. تسمح لك Visual Brush برسم منطقة ذات محتوى مرئي، مما يؤدي إلى إنشاء تأثيرات شبكية مذهلة في مستنداتك.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ doc.save(dataDir + "AddGrid_out.xps");
  نعم يمكنك الوصول إلى[تجربة مجانية](https://releases.aspose.com/) لاستكشاف ميزات Aspose.Page.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page؟
  الحصول على أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

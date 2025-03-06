@@ -3,10 +3,16 @@ title: การจัดการ EPS ใน Java
 linktitle: การจัดการ EPS ใน Java
 second_title: Aspose.Page Java API
 description: สำรวจ Aspose.Page สำหรับ Java ด้วยบทช่วยสอนของเราเกี่ยวกับการปรับแต่ง EPS ครอบตัดและปรับขนาดไฟล์ EPS ได้อย่างง่ายดายพร้อมคำแนะนำทีละขั้นตอน เพื่อเพิ่มทักษะด้านเอกสารของคุณ
-type: docs
 weight: 24
 url: /th/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการ EPS ใน Java
+
 
 ## การแนะนำ
 
@@ -42,3 +48,9 @@ url: /th/java/manipulation-eps/
 สำรวจคำแนะนำทีละขั้นตอนเกี่ยวกับการครอบตัดไฟล์ EPS ใน Java โดยใช้ Aspose.Page เพิ่มทักษะการจัดการเอกสารของคุณได้อย่างง่ายดาย 
 ### [ปรับขนาดไฟล์ EPS ใน Java](./resize/)
 เรียนรู้วิธีปรับขนาดไฟล์ EPS ใน Java ได้อย่างง่ายดายด้วย Aspose.Page สำหรับ Java ปฏิบัติตามคำแนะนำที่ครอบคลุมของเราสำหรับคำแนะนำทีละขั้นตอน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

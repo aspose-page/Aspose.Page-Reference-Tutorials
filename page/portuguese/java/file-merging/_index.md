@@ -3,10 +3,16 @@ title: Mesclagem de arquivos
 linktitle: Mesclagem de arquivos
 second_title: API Java Aspose.Page
 description: Mescle facilmente arquivos PostScript em PDF e converta XPS em PDF ou XPS em Java usando Aspose.Page. Siga tutoriais passo a passo para uma conversão perfeita de documentos.
-type: docs
 weight: 31
 url: /pt/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesclagem de arquivos
+
 
 ## Introdução
 
@@ -40,3 +46,9 @@ Mescle facilmente arquivos PostScript em PDF em Java com Aspose.Page. Tutorial a
 Aprenda como converter XPS para PDF em Java sem esforço com Aspose.Page. Siga nosso guia passo a passo para uma conversão eficiente de documentos.
 ### [Converter XPS em XPS em Java](./xps-to-xps/)
 Aprenda como mesclar arquivos XPS em Java perfeitamente usando Aspose.Page. Siga nosso guia passo a passo para uma manipulação eficiente de documentos. Aumente suas habilidades de desenvolvimento Java agora!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 文件合併
 linktitle: 文件合併
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 輕鬆將 PostScript 和 XPS 文件合併為高品質 PDF。透過我們的逐步教學增強您的文件處理能力。
-type: docs
 weight: 25
 url: /zh-hant/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文件合併
+
 ## 介紹
 
 將您的無縫文件管理方式與 Aspose.Page for .NET 結合。透過我們全面的教學探索文件合併的強大功能。
@@ -40,3 +46,9 @@ url: /zh-hant/net/document-merging/
 使用 Aspose.Page for .NET 輕鬆將 XPS 文件合併為高品質 PDF。請按照我們的逐步指南獲得流暢的文件轉換體驗。
 ### [將 XPS 文件與 Aspose.Page for .NET 合併](./merge-xps-documents/)
 使用 Aspose.Page for .NET 輕鬆合併 XPS 文件。請遵循我們的無縫文件管理逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

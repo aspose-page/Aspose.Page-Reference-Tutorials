@@ -3,10 +3,16 @@ title: Agregue degradado horizontal a PostScript (PS) con Aspose.Page
 linktitle: Agregar degradado horizontal a PostScript (PS)
 second_title: Aspose.Página .NET API
 description: Mejore los documentos PostScript con impresionantes degradados horizontales utilizando Aspose.Page para .NET. Siga nuestro tutorial paso a paso para una implementación perfecta.
-type: docs
 weight: 12
 url: /es/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue degradado horizontal a PostScript (PS) con Aspose.Page
+
 ## Introducción
 
 Bienvenido a este tutorial completo sobre cómo agregar degradados horizontales a documentos PostScript (PS) usando Aspose.Page para .NET. Aspose.Page es una poderosa biblioteca que facilita la manipulación de documentos en varios formatos, brindando a los desarrolladores las herramientas que necesitan para crear, modificar y renderizar documentos sin problemas.
@@ -143,3 +149,9 @@ R3: Aspose.Page admite varios formatos de documentos, incluidos XPS, PS, PDF y m
 ### P5: ¿Existe un foro comunitario para los usuarios de Aspose.Page?
 
  R5: Sí, únete a la comunidad Aspose.Page en[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para conectarse con otros usuarios y buscar ayuda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Stel het dekkingsmasker in het XPS-document in met Aspose.Page voor .NET
 linktitle: Stel het dekkingsmasker in in het XPS-document
 second_title: Aspose.Page .NET-API
 description: Leer dekkingsmaskers instellen in XPS-documenten met Aspose.Page voor .NET. Verbeter de esthetiek van documenten moeiteloos.
-type: docs
 weight: 12
 url: /nl/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel het dekkingsmasker in het XPS-document in met Aspose.Page voor .NET
+
 ## Invoering
 
 Dekkingsmaskers zijn essentieel als u visueel aantrekkelijke documenten met verschillende transparantieniveaus wilt maken. Aspose.Page voor .NET vereenvoudigt dit proces en biedt ontwikkelaars een uitgebreide set tools om XPS-documenten te verbeteren. In deze zelfstudie bekijken we stapsgewijze hoe u een dekkingsmasker instelt.
@@ -98,3 +104,9 @@ A4: Ja, u kunt meerdere dekkingsmaskers over elkaar heen leggen om ingewikkelde 
 ### V5: Is Aspose.Page compatibel met andere documentformaten?
 
 A5: Aspose.Page richt zich primair op XPS-documenten, maar Aspose biedt een reeks producten voor het verwerken van verschillende formaten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

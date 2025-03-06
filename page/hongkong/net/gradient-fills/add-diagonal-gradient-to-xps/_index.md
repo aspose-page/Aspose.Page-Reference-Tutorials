@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將對角線漸層加入 XPS
 linktitle: 將對角線漸層加入 XPS
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page for .NET 在 XPS 文件中新增迷人的對角線漸層。輕鬆提升您的視覺呈現效果。
-type: docs
 weight: 11
 url: /zh-hant/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將對角線漸層加入 XPS
+
 ## 介紹
 
 在文件處理領域，Aspose.Page for .NET 作為一個強大的工具包脫穎而出，使開發人員能夠輕鬆操作 XPS 文件。它提供的一項令人興奮的功能是添加對角漸變的能力，使您能夠增強文件的視覺吸引力。本教學將逐步引導您完成整個過程，示範如何使用 Aspose.Page for .NET 將對角線漸層合併到 XPS 檔案中。
@@ -106,3 +112,9 @@ A3：Aspose.Page 主要關注 XPS 文件操作。
 ### Q5：購買前有試用版嗎？
 
  A5：是的，您可以探索[免費試用](https://releases.aspose.com/)體驗 .NET 的 Aspose.Page。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

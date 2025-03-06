@@ -3,10 +3,16 @@ title: पृष्ठ हेरफेर - पोस्टस्क्रिप
 linktitle: पृष्ठ हेरफेर - पोस्टस्क्रिप्ट
 second_title: Aspose.Page जावा एपीआई
 description: हमारे पोस्टस्क्रिप्ट ट्यूटोरियल में जावा के लिए Aspose.Page का अन्वेषण करें। निर्बाध हेरफेर के लिए चरण-दर-चरण मार्गदर्शन के साथ आसानी से अपने जावा पोस्टस्क्रिप्ट डॉक्स में पेज जोड़ें।
-type: docs
 weight: 32
 url: /hi/java/postscript-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# पृष्ठ हेरफेर - पोस्टस्क्रिप्ट
+
 
 ## परिचय
 
@@ -34,3 +40,9 @@ url: /hi/java/postscript-page-manipulation/
 Aspose.Page का उपयोग करके आसानी से जावा पोस्टस्क्रिप्ट में पेज जोड़ने का तरीका जानें। इस शक्तिशाली जावा लाइब्रेरी के साथ अपने दस्तावेज़ निर्माण को बेहतर बनाएं।
 ### [पोस्टस्क्रिप्ट में पेज जोड़ना](./add-pages2/)
 Aspose.Page का उपयोग करके जावा पोस्टस्क्रिप्ट दस्तावेज़ों में पेज जोड़ने का तरीका जानें। निर्बाध दस्तावेज़ हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

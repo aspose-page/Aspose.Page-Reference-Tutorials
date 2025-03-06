@@ -3,10 +3,16 @@ title: การจัดการข้อมูลเมตา EPS
 linktitle: การจัดการข้อมูลเมตา EPS
 second_title: Aspose.Page .NET API
 description: ยกระดับองค์กร EPS ด้วย Aspose.Page สำหรับ .NET เพิ่มข้อมูลเมตาได้อย่างง่ายดายเพื่อการเข้าถึงที่ดียิ่งขึ้น สำรวจบทช่วยสอนการจัดการข้อมูลเมตา EPS
-type: docs
 weight: 36
 url: /th/net/eps-metadata-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการข้อมูลเมตา EPS
+
 
 ## การแนะนำ
 
@@ -59,3 +65,9 @@ url: /th/net/eps-metadata-management/
 การจัดการไฟล์ EPS ต้นแบบด้วย Aspose.Page สำหรับ .NET เปลี่ยนค่าข้อมูลเมตา XMP ได้อย่างง่ายดาย
 ### [แยกข้อมูลเมตาจากเอกสาร EPS ด้วย Aspose.Page สำหรับ .NET](./extract-metadata-from-eps-document/)
 ปรับปรุงการจัดระเบียบเอกสาร EPS ด้วย Aspose.Page สำหรับ .NET เพิ่มข้อมูลเมตาได้อย่างง่ายดายเพื่อปรับปรุงการเข้าถึงและการเรียกข้อมูล
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

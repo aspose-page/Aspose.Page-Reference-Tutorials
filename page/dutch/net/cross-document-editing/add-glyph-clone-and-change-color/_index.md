@@ -3,10 +3,16 @@ title: Voeg Glyph Clone toe en verander de kleur met Aspose.Page voor .NET
 linktitle: Voeg Glyph Clone toe en verander de kleur
 second_title: Aspose.Page .NET-API
 description: Ontdek de kracht van Aspose.Page voor .NET in deze uitgebreide tutorial. Leer moeiteloos glyph-klonen toevoegen en kleuren wijzigen in XPS-documenten.
-type: docs
 weight: 10
 url: /nl/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg Glyph Clone toe en verander de kleur met Aspose.Page voor .NET
+
 ## Invoering
 
 Welkom bij deze stapsgewijze handleiding over het gebruik van Aspose.Page voor .NET om glyph-klonen toe te voegen en kleuren in uw XPS-documenten te wijzigen. Aspose.Page voor .NET is een krachtige bibliotheek waarmee u naadloos met XPS-bestanden kunt werken. In deze zelfstudie concentreren we ons op het proces van het toevoegen van glyph-klonen en het wijzigen van hun kleuren, waardoor de visuele aantrekkingskracht van uw documenten wordt vergroot.
@@ -129,3 +135,9 @@ A4: De gratis proefversie heeft enkele beperkingen en het wordt aanbevolen om v√
 ### V5: Waar kan ik uitgebreide documentatie vinden voor Aspose.Page voor .NET?
 
  A5: U kunt de documentatie raadplegen[hier](https://reference.aspose.com/page/net/) voor gedetailleerde informatie en voorbeelden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

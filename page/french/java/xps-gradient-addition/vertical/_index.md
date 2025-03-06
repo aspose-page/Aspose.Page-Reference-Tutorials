@@ -3,10 +3,16 @@ title: Ajouter un dégradé vertical dans Java XPS
 linktitle: Ajouter un dégradé vertical dans Java XPS
 second_title: API Java Aspose.Page
 description: Découvrez comment ajouter un dégradé vertical aux documents Java XPS avec Aspose.Page. Améliorez l’attrait visuel sans effort. Guide étape par étape à l’intérieur.
-type: docs
 weight: 12
 url: /fr/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un dégradé vertical dans Java XPS
+
 ## Introduction
 Dans ce didacticiel, nous allons explorer comment ajouter un dégradé vertical dans Java XPS à l'aide d'Aspose.Page pour Java. L'ajout de dégradés à vos documents XPS peut améliorer l'attrait visuel de votre contenu, le rendant plus attrayant et esthétique.
 ## Conditions préalables
@@ -72,3 +78,9 @@ Améliorer vos documents XPS avec des dégradés peut améliorer considérableme
  Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Besoin d'aide ou avez des questions ?
  Visitez la communauté Aspose.Page[forum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

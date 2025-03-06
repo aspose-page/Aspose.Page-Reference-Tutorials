@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 PostScript(PS)에 수평 그라데이션 추�
 linktitle: PostScript에 수평 그라데이션 추가(PS)
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 멋진 수평 그라데이션으로 PostScript 문서를 향상하세요. 원활한 구현을 위해 단계별 튜토리얼을 따르십시오.
-type: docs
 weight: 12
 url: /ko/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 PostScript(PS)에 수평 그라데이션 추가
+
 ## 소개
 
 .NET용 Aspose.Page를 사용하여 PostScript(PS) 문서에 수평 그라데이션을 추가하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.Page는 다양한 형식의 문서 조작을 용이하게 하는 강력한 라이브러리로, 개발자에게 문서를 원활하게 생성, 수정 및 렌더링하는 데 필요한 도구를 제공합니다.
@@ -143,3 +149,9 @@ A3: Aspose.Page는 XPS, PS, PDF 등을 포함한 다양한 문서 형식을 지�
 ### Q5: Aspose.Page 사용자를 위한 커뮤니티 포럼이 있습니까?
 
  A5: 예, Aspose.Page 커뮤니티에 가입하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 다른 사용자와 연결하고 도움을 구합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Görüntü İşleme
 linktitle: Görüntü İşleme
 second_title: Aspose.Page .NET API'si
 description: Görüntü İşleme Eğitimlerimiz aracılığıyla Aspose.Page for .NET'in gücünü keşfedin. Çarpıcı ve hassas sonuçlar için EPS görüntülerini zahmetsizce kırpın ve yeniden boyutlandırın.
-type: docs
 weight: 26
 url: /tr/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görüntü İşleme
+
 ## giriiş
 
 .NET'te EPS görüntü işleme becerilerinizi yükseltmeye hazır mısınız? Aspose.Page for .NET ile kapsamlı Görüntü İşleme Eğitimlerimize dalın; burada EPS görüntülerini kusursuz bir şekilde kırpma ve yeniden boyutlandırma sürecinde size rehberlik ediyoruz.
@@ -41,3 +47,9 @@ Görüntü İşleme Eğitimlerimizle Aspose.Page for .NET dünyasını keşfedin
 Aspose.Page ile .NET'te EPS görüntü işlemenin kusursuz dünyasını keşfedin. Çarpıcı sonuçlar için görüntüleri zahmetsizce kırpın ve yeniden boyutlandırın.
 ### [EPS Görüntülerini Aspose.Page for .NET ile yeniden boyutlandırın](./resize-eps-images/)
 Aspose.Page'i kullanarak .NET'te EPS görüntülerini yeniden boyutlandırmanın kusursuz sürecini keşfedin. Zahmetsizce nokta, inç, milimetre ve yüzde hassasiyetine ulaşın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

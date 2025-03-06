@@ -3,10 +3,16 @@ title: Aspose.Page ile PostScript'e (PS) Circle Ellipse ekleme
 linktitle: PostScript'e Daire Elipsi Ekleme (PS)
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET'i kullanarak PostScript (PS) belgelerine zahmetsizce daire elipsleri nasıl ekleyeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile PostScript'e (PS) Circle Ellipse ekleme
+
 ## giriiş
 
 Aspose.Page for .NET kullanarak PostScript (PS) belgelerine daire elipsleri eklemeyi konu alan bu kapsamlı eğitime hoş geldiniz. Aspose.Page, geliştiricilerin PostScript ve diğer belge formatlarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kütüphanedir. Bu kılavuzda daire elipslerini PS belgelerinize kolaylıkla dahil etme sürecinde size yol göstereceğiz.
@@ -145,3 +151,9 @@ Tebrikler! Aspose.Page for .NET'i kullanarak PostScript belgelerine daire elipsl
 ### S5: Aspose.Page for .NET'i nereden satın alabilirim?
 
  Cevap5: .NET için Aspose.Page'i şu adresten satın alın:[satın alma sayfası](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

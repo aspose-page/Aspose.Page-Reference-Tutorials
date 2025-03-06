@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 PostScript(PS)에 투명 이미지 추가
 linktitle: PostScript에 투명 이미지 추가(PS)
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 투명한 이미지로 PostScript 문서를 향상하세요. 역동적이고 시각적으로 매력적인 결과를 얻으려면 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/transparency-effects/add-transparent-image-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 PostScript(PS)에 투명 이미지 추가
+
 ## 소개
 
 문서 조작 및 향상 영역에서 .NET용 Aspose.Page는 PS(PostScript) 파일 작업을 위한 강력한 도구로 돋보입니다. 그것이 제공하는 흥미로운 기능 중 하나는 PS 문서에 투명한 이미지를 추가하는 것입니다. 이 튜토리얼에서는 Aspose.Page를 사용하여 이를 달성하는 과정을 안내하여 PS 문서를 더욱 역동적이고 시각적으로 매력적으로 만듭니다.
@@ -143,3 +149,9 @@ A4: Aspose.Page는 특히 PS 및 XPS 문서 작업을 위한 포괄적인 기능
 ### Q5: 설정할 수 있는 투명도 수준에 제한이 있나요?
 
 A5: 아니요, Aspose.Page를 사용하면 필요에 따라 투명도 수준을 설정하여 문서 디자인에 유연성을 제공할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

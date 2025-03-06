@@ -3,10 +3,16 @@ title: Texture Handling
 linktitle: Texture Handling
 second_title: Aspose.Page .NET API
 description: Enhance PostScript documents with stunning visual effects! Learn to apply texture tiling patterns using Aspose.Page for .NET with our step-by-step guide.
-type: docs
 weight: 33
 url: /net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Texture Handling
+
 ## Introduction
 
 In the realm of document manipulation, mastering texture handling can unlock a world of creative possibilities. Aspose.Page for .NET stands as a powerful ally for developers seeking to elevate their PostScript (PS) documents to new heights. In this article, we delve into the captivating universe of Texture Handling Tutorials, specifically focusing on the application of texture tiling patterns.
@@ -36,3 +42,9 @@ In conclusion, our Texture Handling Tutorials, focusing on the application of te
 ## Texture Handling Tutorials
 ### [Apply Texture Tiling Pattern to PostScript (PS) with Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
 Enhance your PostScript (PS) documents with texture tiling patterns using Aspose.Page for .NET. Follow our step-by-step guide for a creative touch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

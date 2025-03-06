@@ -3,10 +3,16 @@ title: Chỉnh sửa phiếu in hiện có bằng Aspose.Page cho .NET
 linktitle: Chỉnh sửa vé in hiện có
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách chỉnh sửa phiếu in trong tài liệu XPS bằng Aspose.Page cho .NET. Hướng dẫn từng bước dành cho nhà phát triển. Tăng cường kiểm soát in tài liệu một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉnh sửa phiếu in hiện có bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách chỉnh sửa phiếu in hiện có bằng Aspose.Page cho .NET! Aspose.Page là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu XPS một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chỉnh sửa phiếu in bằng các ví dụ thực tế, chia nhỏ từng bước để có trải nghiệm học tập liền mạch.
@@ -117,3 +123,9 @@ Câu trả lời 2: Có, Aspose.Page for .NET tương thích với .NET Core, ma
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho .NET?
 
  A5: Thăm quan[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

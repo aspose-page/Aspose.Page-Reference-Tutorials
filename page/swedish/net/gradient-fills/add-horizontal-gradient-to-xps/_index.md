@@ -3,10 +3,16 @@ title: Lägg till horisontell gradient till XPS med Aspose.Page för .NET
 linktitle: Lägg till horisontell gradient till XPS
 second_title: Aspose.Page .NET API
 description: Lär dig hur du lägger till fantastiska horisontella gradienter till dina XPS-dokument med Aspose.Page för .NET. Öka visuellt tilltal utan ansträngning.
-type: docs
 weight: 13
 url: /sv/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till horisontell gradient till XPS med Aspose.Page för .NET
+
 ## Introduktion
 
 I den här handledningen kommer vi att utforska hur man förbättrar XPS-dokument genom att lägga till en horisontell gradient med Aspose.Page för .NET. Aspose.Page för .NET är ett kraftfullt bibliotek som ger sömlös hantering av XPS (XML Paper Specification)-dokument i .NET-applikationer. Att lägga till övertoningar kan tilltala dina dokument visuellt, och den här guiden leder dig genom processen steg för steg.
@@ -113,3 +119,9 @@ Att förbättra dina XPS-dokument med övertoningar förbättrar inte bara deras
 ### F5: Hur får jag en tillfällig licens för Aspose.Page för .NET?
 
  S5: Du kan få en tillfällig licens från[den här länken](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 문서 간 편집
 linktitle: 문서 간 편집
 second_title: Aspose.페이지 .NET API
 description: 튜토리얼을 통해 Aspose.Page for .NET의 잠재력을 활용해 보세요. XPS 문서에서 손쉽게 글리프 복제본을 추가하고, 색상을 변경하고, 페이지를 조작할 수 있습니다.
-type: docs
 weight: 22
 url: /ko/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 문서 간 편집
+
 
 ## 소개
 
@@ -34,3 +40,9 @@ url: /ko/net/cross-document-editing/
 Aspose.Page를 사용하여 .NET에서 문서 처리 기능을 활용하세요. 이미지로 채워진 글리프를 손쉽게 추가하세요. 시각적 효과를 향상하고 작업 흐름을 간소화하세요.
 ### [.NET용 Aspose.Page를 사용하여 페이지 조작](./manipulate-pages/)
 XPS 문서 처리를 위한 강력한 라이브러리인 Aspose.Page를 사용하여 .NET에서 페이지 조작을 살펴보세요. 효율적인 결과를 얻으려면 단계별 가이드를 따르십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

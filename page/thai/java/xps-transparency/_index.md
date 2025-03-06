@@ -3,10 +3,16 @@ title: ความโปร่งใส - XPS
 linktitle: ความโปร่งใส - XPS
 second_title: Aspose.Page Java API
 description: ยกระดับเอกสาร Java XPS ของคุณอย่างง่ายดายด้วย Aspose.Page เรียนรู้การเพิ่มวัตถุโปร่งใสและตั้งค่ามาสก์ความทึบในบทช่วยสอนของเราเพื่อเพิ่มเอฟเฟกต์ภาพให้ดียิ่งขึ้น
-type: docs
 weight: 40
 url: /th/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ความโปร่งใส - XPS
+
 ## การแนะนำ
 
 คุณกำลังมองหาที่จะยกระดับเอกสาร Java XPS ของคุณไปอีกระดับหรือไม่? ดำดิ่งสู่โลกแห่งเอฟเฟ็กต์โปร่งใสด้วย Aspose.Page และปลดล็อกขอบเขตของความเป็นไปได้ที่สวยงามน่าทึ่ง ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำบทช่วยสอนที่จำเป็นสองบทให้คุณทราบ ได้แก่ การเพิ่มวัตถุโปร่งใส และการตั้งค่ามาสก์ความทึบ
@@ -47,3 +53,9 @@ url: /th/java/xps-transparency/
 ปรับปรุงเอกสาร Java XPS ของคุณด้วยเอฟเฟกต์โปร่งใสที่น่าทึ่งโดยใช้ Aspose.Page ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราในการเพิ่มวัตถุโปร่งใส 
 ### [ตั้งค่า Opacity Mask ใน Java XPS](./set-opacity-mask/)
 ค้นพบพลังของการตั้งค่ามาสก์ทึบใน Java XPS ด้วย Aspose.Page ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์การใช้งานเอกสารที่ได้รับการปรับปรุงด้วยภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

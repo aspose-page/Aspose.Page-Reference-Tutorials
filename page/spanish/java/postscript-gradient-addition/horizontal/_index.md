@@ -3,10 +3,16 @@ title: Agregar degradado horizontal en Java PostScript
 linktitle: Agregar degradado horizontal en Java PostScript
 second_title: API de Java de Aspose.Page
 description: Aprenda cómo agregar un degradado horizontal en Java PostScript con Aspose.Page para Java. Cree documentos visualmente impresionantes sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar degradado horizontal en Java PostScript
+
 ## Introducción
 Bienvenido a este tutorial completo sobre cómo agregar un degradado horizontal en Java PostScript usando Aspose.Page para Java. Aspose.Page es una potente biblioteca Java que permite a los desarrolladores trabajar con PostScript y otros formatos de documentos. En este tutorial, lo guiaremos a través del proceso de creación de un documento PostScript con un degradado horizontal usando ejemplos paso a paso.
 ## Requisitos previos
@@ -82,3 +88,9 @@ Sí, Aspose.Page para Java se puede utilizar en proyectos comerciales. Para obte
  Puede obtener una licencia temporal de[Aspose.Comprar](https://purchase.aspose.com/temporary-license/).
 ### ¿Cuáles son los requisitos del sistema para Aspose.Page para Java?
  Referirse a[documentación](https://reference.aspose.com/page/java/) para conocer los requisitos detallados del sistema.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

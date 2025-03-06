@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して従量制ライセンスを適用す�
 linktitle: 従量制ライセンスを適用する
 second_title: Aspose.Page .NET API
 description: 従量制ライセンスの適用に関するこのステップバイステップ ガイドを使用して、Aspose.Page for .NET のシームレスな統合を確認してください。ドキュメント処理を簡単に最適化します。
-type: docs
 weight: 10
 url: /ja/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して従量制ライセンスを適用する
+
 ## 導入
 
 従量制ライセンスを適用することで、Aspose.Page for .NET の可能性を最大限に引き出します。このチュートリアルでは、従量制ライセンスを設定して適用するプロセスを説明し、この強力な .NET ライブラリをスムーズかつ最適化して使用できるようにします。
@@ -112,3 +118,9 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 ### Q5: Aspose.Page for .NET の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 訪問[仮免許/](https://purchase.aspose.com/temporary-license/)仮免許を取得するためです。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

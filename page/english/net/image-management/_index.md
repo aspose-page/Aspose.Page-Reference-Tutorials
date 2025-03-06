@@ -3,10 +3,16 @@ title: Image Management
 linktitle: Image Management
 second_title: Aspose.Page .NET API
 description: Enhance your document visuals effortlessly! Explore Aspose.Page .NET tutorials covering image management. From adding images to converting formats, master every step.
-type: docs
 weight: 28
 url: /net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Image Management
+
 ## Introduction
 
 Are you looking to elevate the visual appeal of your documents using Aspose.Page for .NET? Look no further! In this comprehensive guide, we'll walk you through various image management tutorials that will empower you to enhance your documents seamlessly.
@@ -45,3 +51,9 @@ Explore the seamless integration of images into XPS documents with Aspose.Page f
 Explore adding tiled images to XPS documents effortlessly with Aspose.Page for .NET. Enhance visual appeal and create stunning documents.
 ### [Convert Image to EPS Format with Aspose.Page for .NET](./convert-image-to-eps-format/)
 Learn how to convert JPEG images to EPS format using Aspose.Page for .NET. A comprehensive guide with step-by-step instructions.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

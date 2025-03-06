@@ -3,10 +3,16 @@ title: Thêm trang vào tài liệu PostScript (PS) bằng Aspose.Page
 linktitle: Thêm trang vào tài liệu PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Khám phá Aspose.Page cho .NET giải pháp tối ưu để thao tác tài liệu PostScript liền mạch trong các dự án .NET của bạn.
-type: docs
 weight: 10
 url: /vi/net/page-manipulation/add-page-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm trang vào tài liệu PostScript (PS) bằng Aspose.Page
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET, việc quản lý và thao tác tài liệu là một khía cạnh quan trọng. Aspose.Page for .NET là một thư viện mạnh mẽ cung cấp cho các nhà phát triển những công cụ cần thiết để làm việc liền mạch với các tài liệu PostScript (PS). Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thêm trang vào tài liệu PostScript bằng Aspose.Page trong .NET.
@@ -113,3 +119,9 @@ A2: Chắc chắn rồi! Như đã trình bày trong hướng dẫn, bạn có t
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ của cộng đồng hoặc đặt câu hỏi ở đâu?
 
  A5: Tham gia[Diễn đàn cộng đồng Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với các nhà phát triển khác, chia sẻ kinh nghiệm và tìm kiếm sự trợ giúp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

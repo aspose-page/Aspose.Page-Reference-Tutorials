@@ -3,10 +3,16 @@ title: Edit Tiket Cetak yang Ada dengan Aspose.Page untuk .NET
 linktitle: Edit Tiket Cetak yang Ada
 second_title: Aspose.Halaman .NET API
 description: Pelajari cara mengedit tiket cetak dalam dokumen XPS menggunakan Aspose.Page untuk .NET. Panduan langkah demi langkah untuk pengembang. Tingkatkan kontrol pencetakan dokumen dengan mudah.
-type: docs
 weight: 11
 url: /id/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edit Tiket Cetak yang Ada dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang mengedit tiket cetak yang ada menggunakan Aspose.Page untuk .NET! Aspose.Page adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan dokumen XPS dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses pengeditan tiket cetak dengan contoh praktis, menguraikan setiap langkah untuk pengalaman belajar yang lancar.
@@ -117,3 +123,9 @@ A2: Ya, Aspose.Page untuk .NET kompatibel dengan .NET Core, memberikan fleksibil
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page untuk .NET?
 
  A5: Kunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

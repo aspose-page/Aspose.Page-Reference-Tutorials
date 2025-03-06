@@ -3,10 +3,16 @@ title: Java PostScript에 수직 그라데이션 추가
 linktitle: Java PostScript에 수직 그라데이션 추가
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 Java PostScript에 수직 그라데이션을 추가하는 방법에 대한 단계별 가이드를 살펴보세요. 생생한 시각적 요소로 문서를 쉽게 향상할 수 있습니다.
-type: docs
 weight: 14
 url: /ko/java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript에 수직 그라데이션 추가
+
 ## 소개
 Java용 Aspose.Page를 사용하여 Java PostScript에 수직 그라데이션을 추가하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 눈길을 사로잡는 그라데이션으로 문서를 향상시키고 싶다면 이 튜토리얼이 적합합니다. Aspose.Page for Java는 PostScript 문서를 원활하게 조작할 수 있는 강력한 도구를 제공합니다.
 ## 전제 조건
@@ -101,3 +107,9 @@ document.save();
  Java용 Aspose.Page를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 ### Aspose.Page 토론을 위한 포럼이 있습니까?
  예, 커뮤니티 포럼에 가입할 수 있습니다[여기](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

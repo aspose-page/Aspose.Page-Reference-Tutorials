@@ -3,10 +3,16 @@ title: Добавьте прямоугольник в документ XPS с п
 linktitle: Добавить прямоугольник в документ XPS
 second_title: Aspose.Page .NET API
 description: Усовершенствуйте создание документов с помощью Aspose.Page для .NET. Узнайте, как добавлять прямоугольники в документы XPS, в этом пошаговом руководстве.
-type: docs
 weight: 13
 url: /ru/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте прямоугольник в документ XPS с помощью Aspose.Page для .NET
+
 ## Введение
 
 Aspose.Page для .NET — это мощная библиотека, предоставляющая множество функций для работы с документами XPS (XML Paper Spectrum) в приложениях .NET. В этом уроке мы сосредоточимся на добавлении прямоугольника в документ XPS с помощью Aspose.Page для .NET. Следуйте этому пошаговому руководству, чтобы улучшить процесс создания документов.
@@ -95,3 +101,9 @@ Aspose.Page для .NET упрощает задачи манипулирован
 ### Вопрос 5: Где я могу обратиться за поддержкой сообщества или задать вопросы, связанные с Aspose.Page для .NET?
 
  A5: Посетите[Форум Aspose.Page](https://forum.aspose.com/c/page/39) для поддержки сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

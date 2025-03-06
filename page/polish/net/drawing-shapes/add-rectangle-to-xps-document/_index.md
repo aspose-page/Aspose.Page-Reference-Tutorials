@@ -3,10 +3,16 @@ title: Dodaj prostokąt do dokumentu XPS za pomocą Aspose.Page dla .NET
 linktitle: Dodaj prostokąt do dokumentu XPS
 second_title: Aspose.Page API .NET
 description: Ulepsz tworzenie dokumentów za pomocą Aspose.Page dla .NET. Z tego samouczka krok po kroku dowiesz się, jak dodawać prostokąty do dokumentów XPS.
-type: docs
 weight: 13
 url: /pl/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj prostokąt do dokumentu XPS za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Aspose.Page dla .NET to potężna biblioteka zapewniająca różnorodne funkcje do pracy z dokumentami XPS (Specyfikacja papieru XML) w aplikacjach .NET. W tym samouczku skupimy się na dodaniu prostokąta do dokumentu XPS przy użyciu Aspose.Page dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby usprawnić proces tworzenia dokumentów.
@@ -95,3 +101,9 @@ Odpowiedź 1: Tak, Aspose.Page został zaprojektowany do bezproblemowej współp
 ### P5: Gdzie mogę szukać wsparcia społeczności lub zadawać pytania związane z Aspose.Page dla .NET?
 
  A5: Odwiedź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

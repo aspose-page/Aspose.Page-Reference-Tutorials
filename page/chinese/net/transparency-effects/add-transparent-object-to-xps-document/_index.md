@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 将透明对象添加到 XPS 文档
 linktitle: 将透明对象添加到 XPS 文档
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page 将透明对象添加到 .NET 中的 XPS 文档。通过分步指导增强视觉吸引力。
-type: docs
 weight: 11
 url: /zh/net/transparency-effects/add-transparent-object-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 将透明对象添加到 XPS 文档
+
 ## 介绍
 
 在本教程中，我们将探讨如何使用 Aspose.Page for .NET 将透明对象添加到 XPS 文档中。 XPS 文档中的透明度可以增强视觉吸引力并有效传达信息。我们将把流程分解为可管理的步骤，确保清晰度和易于理解。
@@ -132,3 +138,9 @@ A4：Aspose.Page 提供将 XPS 文档导出为各种格式的功能，包括 PDF
 ### Q5：我在哪里可以找到更多支持和社区讨论？
 
  A5：如需更多支持和社区讨论，请访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

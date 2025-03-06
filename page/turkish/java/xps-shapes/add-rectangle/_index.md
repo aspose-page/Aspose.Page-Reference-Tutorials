@@ -3,10 +3,16 @@ title: Java XPS'de Dikdörtgen Ekleme
 linktitle: Java XPS'de Dikdörtgen Ekleme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page'i kullanarak Java XPS'de nasıl dikdörtgen ekleyeceğinizi öğrenin. Kusursuz belge işleme için adım adım kılavuzumuzu izleyin. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /tr/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS'de Dikdörtgen Ekleme
+
 ## giriiş
 Aspose.Page kullanarak Java XPS'de dikdörtgen eklemeye ilişkin bu kapsamlı kılavuza hoş geldiniz! İster deneyimli bir geliştirici olun ister Java XPS'ye yeni başlıyor olun, bu eğitim size adım adım talimatlarla süreç boyunca yol gösterecek ve konuyu derinlemesine anlamanızı sağlayacaktır.
 ## Önkoşullar
@@ -62,3 +68,9 @@ Kesinlikle! Aspose.Page, çeşitli XPS belge görevlerini yerine getirmek için 
  Keşfedin[Aspose.Page forumu](https://forum.aspose.com/c/page/39)Daha fazla örnek için topluluktan yardım isteyin.
 ### Satın almadan önce Aspose.Page'i deneyebilir miyim?
  Evet, keşfedebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.Page'in yeteneklerini deneyimlemek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

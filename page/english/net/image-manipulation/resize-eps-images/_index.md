@@ -3,10 +3,16 @@ title: Resize EPS Images with Aspose.Page for .NET
 linktitle: Resize EPS Images
 second_title: Aspose.Page .NET API
 description: Explore the seamless process of resizing EPS images in .NET using Aspose.Page. Achieve precision in points, inches, millimeters, and percentages effortlessly.
-type: docs
 weight: 11
 url: /net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Resize EPS Images with Aspose.Page for .NET
+
 ## Introduction
 
 Are you looking to resize EPS images seamlessly using Aspose.Page for .NET? This tutorial is your comprehensive guide to effortlessly manipulate the size of EPS images in various units such as points, inches, millimeters, and percentages. Aspose.Page for .NET provides a powerful set of tools, and in this tutorial, we'll walk you through the process step by step.
@@ -161,3 +167,10 @@ A4: Absolutely! You can get a free trial [here](https://releases.aspose.com/).
 ### Q5: Where can I seek additional help or discuss issues?
 
 A5: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to connect with the community and get assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

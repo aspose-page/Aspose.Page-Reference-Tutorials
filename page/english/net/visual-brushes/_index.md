@@ -3,10 +3,16 @@ title: Visual Brushes
 linktitle: Visual Brushes
 second_title: Aspose.Page .NET API
 description: Elevate your document processing in .NET with Aspose.Page tutorials. Dive into the realm of Visual Brushes, mastering techniques for visually stunning documents.
-type: docs
 weight: 35
 url: /net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visual Brushes
+
 
 ## Introduction
 
@@ -36,3 +42,9 @@ Remember, the power to transform your documents is in your hands. Let Aspose.Pag
 ## Visual Brushes Tutorials
 ### [Apply Grid Visual Brush with Aspose.Page for .NET](./apply-grid-visual-brush/)
 Explore the dynamic world of document processing in .NET with Aspose.Page. Learn how to apply a Grid Visual Brush for visually stunning documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

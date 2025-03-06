@@ -3,10 +3,16 @@ title: Dodatek gradientowy - PostScript
 linktitle: Dodatek gradientowy - PostScript
 second_title: Aspose.Page API Java
 description: Podnieś poziom swoich dokumentów Java PostScript dzięki samouczkom Aspose.Page for Java. Naucz się bez wysiłku dodawać oszałamiające gradienty ukośne, poziome, promieniowe i pionowe.
-type: docs
 weight: 25
 url: /pl/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodatek gradientowy - PostScript
+
 ## Wstęp
 
 Jeśli chcesz ulepszyć swoje dokumenty Java PostScript za pomocą żywych przejść kolorów, Aspose.Page dla Java jest rozwiązaniem dla Ciebie. Ta seria samouczków zagłębia się w sztukę dodawania gradientów, obejmując wszystko, od gradientów ukośnych po przejścia promieniowe. Wyruszmy w podróż, aby opanować sztukę tworzenia oszałamiających wizualnie dokumentów.
@@ -44,3 +50,9 @@ Dowiedz się, jak dodawać wspaniałe gradienty promieniowe w Java PostScript pr
 Zapoznaj się z przewodnikiem krok po kroku dotyczącym dodawania gradientu radialnego w języku Java PostScript przy użyciu Aspose.Page w celu uzyskania oszałamiającej grafiki w aplikacjach Java.
 ### [Dodaj gradient pionowy w języku Java PostScript](./vertical/)
 Zapoznaj się z przewodnikiem krok po kroku dotyczącym dodawania gradientów pionowych w języku Java PostScript za pomocą Aspose.Page dla języka Java. Bez wysiłku ulepszaj swoje dokumenty dzięki żywym efektom wizualnym.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

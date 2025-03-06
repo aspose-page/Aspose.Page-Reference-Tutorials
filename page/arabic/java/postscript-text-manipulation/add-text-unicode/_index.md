@@ -3,10 +3,16 @@ title: تنشيط Java PostScript - إضافة Unicode باستخدام Aspose.P
 linktitle: إضافة نص باستخدام سلسلة Unicode في Java PostScript
 second_title: Aspose.Page جافا API
 description: اكتشف قوة Aspose.Page لـ Java في إضافة نص Unicode إلى مشاريع PostScript الخاصة بك. اتبع دليلنا خطوة بخطوة للتكامل السلس. التحميل الان!
-type: docs
 weight: 11
 url: /ar/java/postscript-text-manipulation/add-text-unicode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنشيط Java PostScript - إضافة Unicode باستخدام Aspose.Page
+
 ## مقدمة
 هل تتطلع إلى تحسين تطبيق Java PostScript الخاص بك عن طريق إضافة نص Unicode بسلاسة؟ لا مزيد من البحث! سيرشدك هذا الدليل الشامل خلال العملية خطوة بخطوة باستخدام Aspose.Page for Java. Aspose.Page هي مكتبة قوية تسمح لك بمعالجة وتحويل ملفات PostScript وXPS بسهولة.
 ## المتطلبات الأساسية
@@ -59,3 +65,9 @@ doc.save(dataDir + "AddEncodingText_out.xps");
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### ما هي أنماط الخطوط المتوفرة في Aspose.Page؟
 يدعم Aspose.Page أنماط الخطوط مثل Regular وBold وItalic وBoldItalic.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

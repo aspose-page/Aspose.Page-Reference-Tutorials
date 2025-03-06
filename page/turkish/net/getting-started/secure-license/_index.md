@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile Güvenli Lisans
 linktitle: Güvenli Lisans
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET lisansınızı adım adım kılavuzumuzla zahmetsizce güvence altına alın. .NET uygulamalarınızda kusursuz sayfa manipülasyonu için tam potansiyelin kilidini açın.
-type: docs
 weight: 13
 url: /tr/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile Güvenli Lisans
+
 ## giriiş
 
 Aspose.Page for .NET'in tüm potansiyelini ortaya çıkarmak, kesintisiz entegrasyon ve optimum performansı garantilemek için lisansınızın güvence altına alınmasını gerektirir. Bu adım adım kılavuzda, .NET uygulamalarında sayfa manipülasyonunu yönetmek için güçlü bir araç olan Aspose.Page'i kullanarak lisansınızı güvence altına alma sürecinde size yol göstereceğiz.
@@ -90,3 +96,9 @@ Cevap4: Evet, geçici lisans sınırlı bir süre için geçerlidir ve genellikl
 ### S5: Lisansımı başka bir makineye aktarabilir miyim?
 
 C5: Evet, ihtiyacınıza göre lisansınızı başka bir makineye aktarabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

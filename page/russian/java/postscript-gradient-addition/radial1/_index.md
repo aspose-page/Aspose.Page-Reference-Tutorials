@@ -3,10 +3,16 @@ title: Освоение радиальных градиентов в Java PostSc
 linktitle: Освоение радиальных градиентов в Java
 second_title: API Aspose.Page Java
 description: Узнайте, как добавлять потрясающие радиальные градиенты в Java PostScript с помощью Aspose.Page для Java. Улучшите свои документы PostScript с помощью этого пошагового руководства.
-type: docs
 weight: 12
 url: /ru/java/postscript-gradient-addition/radial1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение радиальных градиентов в Java PostScript с помощью Aspose.Page
+
 ## Введение
 Добро пожаловать в наше пошаговое руководство о том, как добавить радиальный градиент в Java PostScript с помощью Aspose.Page. В этом уроке мы познакомим вас с процессом создания документа PostScript с красивым радиальным градиентом. Aspose.Page для Java — это мощная библиотека, позволяющая легко работать с файлами PostScript.
 ## Предварительные условия
@@ -86,3 +92,9 @@ document.save();
  Получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Нужна поддержка сообщества?
  Присоединяйтесь к сообществу Aspose.Page[Форум](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

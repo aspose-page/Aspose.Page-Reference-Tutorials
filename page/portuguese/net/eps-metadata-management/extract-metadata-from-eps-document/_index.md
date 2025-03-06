@@ -3,10 +3,16 @@ title: Extraia metadados do documento EPS com Aspose.Page para .NET
 linktitle: Extraia metadados do documento EPS
 second_title: API Aspose.Page .NET
 description: Aprimore a organização de documentos EPS com Aspose.Page for .NET. Adicione metadados sem esforço para melhorar a acessibilidade e a recuperação de informações.
-type: docs
 weight: 18
 url: /pt/net/eps-metadata-management/extract-metadata-from-eps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraia metadados do documento EPS com Aspose.Page para .NET
+
 ## Introdução
 
 No cenário em constante evolução dos documentos digitais, os metadados desempenham um papel crucial no fornecimento de informações sobre o conteúdo, a sua origem e outros detalhes essenciais. Aspose.Page for .NET permite que os desenvolvedores adicionem metadados a documentos EPS (Encapsulated PostScript), melhorando sua acessibilidade e utilidade.
@@ -146,3 +152,9 @@ A4: Sim, Aspose.Page for .NET oferece flexibilidade na personalização de campo
 ### P5: Como posso lidar com erros durante o processo de adição de metadados?
 
 A5: Garanta o tratamento adequado de exceções em seu código para resolver possíveis erros durante o processo de extração e adição de metadados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 在 XPS 文档中设置不透明蒙版
 linktitle: 在 XPS 文档中设置不透明蒙版
 second_title: Aspose.Page .NET API
 description: 了解使用 Aspose.Page for .NET 在 XPS 文档中设置不透明蒙版。轻松增强文档美观度。
-type: docs
 weight: 12
 url: /zh/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 在 XPS 文档中设置不透明蒙版
+
 ## 介绍
 
 当您想要创建具有不同透明度级别的视觉吸引力文档时，不透明蒙版至关重要。 Aspose.Page for .NET 简化了这一过程，为开发人员提供了一套全面的工具来增强 XPS 文档。在本教程中，我们将在分步指南中探索如何设置不透明蒙版。
@@ -98,3 +104,9 @@ A4：是的，您可以分层多个不透明蒙版来创建复杂的透明效果
 ### Q5：Aspose.Page 是否兼容其他文档格式？
 
 A5：Aspose.Page 主要关注 XPS 文档，但 Aspose 提供了一系列用于处理不同格式的产品。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

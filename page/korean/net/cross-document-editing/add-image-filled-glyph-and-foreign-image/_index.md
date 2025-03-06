@@ -3,10 +3,16 @@ title: Aspose.Page .NET을 사용하여 이미지 채워진 글리프 및 외부
 linktitle: 이미지가 채워진 글리프 및 외국 이미지 추가
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page를 사용하여 .NET에서 문서 처리 기능을 활용하세요. 이미지로 채워진 글리프를 손쉽게 추가하세요. 시각적 효과를 향상하고 작업 흐름을 간소화하세요.
-type: docs
 weight: 11
 url: /ko/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page .NET을 사용하여 이미지 채워진 글리프 및 외부 이미지 추가
+
 ## 소개
 
 .NET 개발 세계에서 Aspose.Page는 문서 처리 작업을 처리하기 위한 강력한 툴킷으로 돋보입니다. 이 튜토리얼은 .NET용 Aspose.Page를 사용하여 이미지가 채워진 문자 모양을 추가하고 외부 이미지를 통합하는 과정을 안내합니다. 이 가이드를 마치면 문서 처리 기능을 향상시키는 방법을 확실하게 이해하게 될 것입니다.
@@ -131,3 +137,9 @@ A4: 예, 각 글리프의 스타일을 독립적으로 사용자 정의하여 �
 ### Q5: 다른 문서 처리 도구에 비해 Aspose.Page를 사용하면 어떤 이점이 있나요?
 
 A5: Aspose.Page는 포괄적인 기능 세트, 탁월한 성능 및 광범위한 문서를 제공하므로 많은 개발자가 선호하는 선택입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

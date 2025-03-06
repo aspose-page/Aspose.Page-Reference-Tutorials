@@ -3,10 +3,16 @@ title: Terapkan Pola Ubin Tekstur ke PostScript (PS) dengan Aspose.Page
 linktitle: Terapkan Pola Ubin Tekstur ke PostScript (PS)
 second_title: Aspose.Halaman .NET API
 description: Sempurnakan dokumen PostScript (PS) Anda dengan pola ubin tekstur menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk sentuhan kreatif.
-type: docs
 weight: 10
 url: /id/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terapkan Pola Ubin Tekstur ke PostScript (PS) dengan Aspose.Page
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah tentang cara menerapkan pola ubin tekstur ke dokumen PostScript (PS) menggunakan Aspose.Page untuk .NET. Aspose.Page adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan berbagai format dokumen, dan dalam tutorial ini, kita akan menjelajahi cara menyempurnakan dokumen PS Anda dengan menambahkan pola ubin tekstur.
@@ -156,3 +162,10 @@ A4: Ya, Anda dapat mengulangi proses tersebut dengan gambar dan jalur yang berbe
 ### Q5: Di mana saya dapat menemukan sumber daya dan dukungan tambahan?
 
  A5: Kunjungi[Aspose.Halaman Forum](https://forum.aspose.com/c/page/39) untuk dukungan komunitas dan menjelajahi[dokumentasi](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

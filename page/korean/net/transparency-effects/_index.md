@@ -3,10 +3,16 @@ title: 투명도 효과
 linktitle: 투명도 효과
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page .NET을 사용하여 문서에서 투명도 효과의 마법을 발견해보세요. 놀라운 시각적 향상을 위한 단계별 튜토리얼을 통해 디자인을 향상시키세요.
-type: docs
 weight: 34
 url: /ko/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 투명도 효과
+
 
 ## 소개
 
@@ -42,3 +48,9 @@ Aspose.Page를 사용하여 .NET의 XPS 문서에 투명 개체를 추가하는 
 .NET용 Aspose.Page를 사용하여 XPS 문서에서 불투명 마스크를 설정하는 방법을 알아보세요. 손쉽게 문서 미학을 향상시키세요.
 ### [Aspose.Page를 사용하여 PostScript(PS)에서 의사 투명성 표시](./show-pseudo-transparency-in-postscript-ps/)
 .NET용 Aspose.Page를 사용하여 PostScript의 의사 투명성 기능을 살펴보세요. 시각적으로 멋진 문서를 보려면 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

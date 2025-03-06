@@ -3,10 +3,16 @@ title: Získejte metadata z XMP pomocí Javy
 linktitle: Získejte metadata z XMP pomocí Javy
 second_title: Aspose.Page Java API
 description: Odemkněte sílu Aspose.Page for Java a bez námahy extrahujte metadata XMP. Vylepšete analýzu dokumentů pomocí našeho podrobného průvodce!
-type: docs
 weight: 18
 url: /cs/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte metadata z XMP pomocí Javy
+
 ## Úvod
 Vítejte v našem podrobném průvodci o využití Aspose.Page for Java k extrahování metadat ze souborů XMP. XMP (Extensible Metadata Platform) poskytuje standardizovaný způsob ukládání metadat do souborů. Tento tutoriál se zaměřuje na získávání základních informací z XMP pomocí Javy a nabízí pohled na detaily dokumentu.
 ## Předpoklady
@@ -81,3 +87,9 @@ Gratulujeme! Úspěšně jste se naučili extrahovat metadata XMP pomocí Aspose
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Existují další zdroje pro Aspose.Page for Java?
  Prozkoumejte kompletní[dokumentace](https://reference.aspose.com/page/java/) a stáhněte si knihovnu[tady](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

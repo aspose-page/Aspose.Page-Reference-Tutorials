@@ -3,10 +3,16 @@ title: Tambahkan Circle Ellipse ke PostScript (PS) dengan Aspose.Page
 linktitle: Tambahkan Lingkaran Ellipse ke PostScript (PS)
 second_title: Aspose.Halaman .NET API
 description: Pelajari cara menambahkan elips lingkaran dengan mudah ke dokumen PostScript (PS) menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 10
 url: /id/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Circle Ellipse ke PostScript (PS) dengan Aspose.Page
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang menambahkan elips lingkaran ke dokumen PostScript (PS) menggunakan Aspose.Page untuk .NET. Aspose.Page adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan PostScript dan format dokumen lainnya dengan lancar. Dalam panduan ini, kami akan memandu Anda melalui proses memasukkan elips lingkaran ke dalam dokumen PS Anda dengan mudah.
@@ -145,3 +151,9 @@ Selamat! Anda telah berhasil mempelajari cara menambahkan elips lingkaran ke dok
 ### Q5: Di mana saya dapat membeli Aspose.Page untuk .NET?
 
  A5: Beli Aspose.Page untuk .NET dari[halaman beli](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

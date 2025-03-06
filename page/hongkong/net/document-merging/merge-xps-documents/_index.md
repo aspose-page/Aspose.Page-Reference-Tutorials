@@ -3,10 +3,16 @@ title: 將 XPS 文件與 Aspose.Page for .NET 合併
 linktitle: 合併 XPS 文件
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 輕鬆合併 XPS 文件。請遵循我們的無縫文件管理逐步指南。
-type: docs
 weight: 12
 url: /zh-hant/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 XPS 文件與 Aspose.Page for .NET 合併
+
 ## 介紹
 
 您是否希望使用 Aspose.Page for .NET 無縫合併 XPS 文件？本教學將引導您完成整個過程，提供輕鬆合併 XPS 檔案的逐步指導。 Aspose.Page for .NET 是一個功能強大的程式庫，可以簡化文件操作任務，使其成為合併 XPS 文件的理想選擇。讓我們深入了解過程並探索如何輕鬆實現這一目標。
@@ -94,3 +100,9 @@ A4：確保您擁有 Aspose.Page for .NET 的適當許可證，以使用其所�
 ### Q5：Aspose.Page for .NET 是否提供文件合併的進階選項？
 
 A5：是的，您可以探索文件中提供的其他選項和配置。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

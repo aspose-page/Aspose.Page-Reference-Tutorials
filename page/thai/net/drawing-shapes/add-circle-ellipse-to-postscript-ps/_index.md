@@ -3,10 +3,16 @@ title: เพิ่ม Circle Ellipse ใน PostScript (PS) ด้วย Aspose
 linktitle: เพิ่ม Circle Ellipse ใน PostScript (PS)
 second_title: Aspose.Page .NET API
 description: เรียนรู้วิธีเพิ่มวงรีวงกลมลงในเอกสาร PostScript (PS) ได้อย่างง่ายดายโดยใช้ Aspose.Page สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
-type: docs
 weight: 10
 url: /th/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่ม Circle Ellipse ใน PostScript (PS) ด้วย Aspose.Page
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่บทช่วยสอนที่ครอบคลุมเกี่ยวกับการเพิ่มวงรีวงกลมลงในเอกสาร PostScript (PS) โดยใช้ Aspose.Page สำหรับ .NET Aspose.Page เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาทำงานกับ PostScript และรูปแบบเอกสารอื่นๆ ได้อย่างราบรื่น ในคู่มือนี้ เราจะแนะนำคุณตลอดขั้นตอนการรวมวงรีวงกลมเข้ากับเอกสาร PS ของคุณอย่างง่ายดาย
@@ -145,3 +151,9 @@ document.Save();
 ### คำถามที่ 5: ฉันจะซื้อ Aspose.Page สำหรับ .NET ได้ที่ไหน
 
  A5: ซื้อ Aspose.Page สำหรับ .NET จาก[ซื้อหน้า](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

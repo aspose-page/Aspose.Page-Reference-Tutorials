@@ -3,10 +3,16 @@ title: Java PostScript 활성화 - Aspose.Page로 유니코드 추가
 linktitle: Java PostScript에서 유니코드 문자열을 사용하여 텍스트 추가
 second_title: Aspose.페이지 자바 API
 description: PostScript 프로젝트에 유니코드 텍스트를 추가할 때 Aspose.Page for Java의 강력한 기능을 살펴보세요. 원활한 통합을 위한 단계별 가이드를 따르세요. 지금 다운로드하세요!
-type: docs
 weight: 11
 url: /ko/java/postscript-text-manipulation/add-text-unicode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript 활성화 - Aspose.Page로 유니코드 추가
+
 ## 소개
 유니코드 텍스트를 원활하게 추가하여 Java PostScript 애플리케이션을 향상시키고 싶으십니까? 더 이상 보지 마세요! 이 포괄적인 가이드는 Aspose.Page for Java를 사용하여 프로세스를 단계별로 안내합니다. Aspose.Page는 PostScript 및 XPS 파일을 쉽게 조작하고 변환할 수 있는 강력한 라이브러리입니다.
 ## 전제 조건
@@ -59,3 +65,9 @@ Aspose.Page는 주로 Java용으로 설계되었지만 Aspose는 다양한 프�
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page에서 사용 가능한 글꼴 스타일은 무엇입니까?
 Aspose.Page는 Regular, Bold, Italic 및 BoldItalic과 같은 글꼴 스타일을 지원합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용한 변환 PS
 linktitle: 변환 PS
 second_title: Aspose.페이지 .NET API
 description: PostScript 변환에 대한 포괄적인 가이드를 통해 Aspose.Page for .NET의 잠재력을 활용해 보세요. 역동적인 그래픽을 쉽게 만들어 보세요.
-type: docs
 weight: 12
 url: /ko/net/canvas-manipulation/transformationsps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용한 변환 PS
+
 ## 소개
 
 PostScript 문서에서 변환의 힘을 발휘할 수 있는 .NET용 Aspose.Page의 세계에 오신 것을 환영합니다. 이 튜토리얼은 시각적으로 놀랍고 역동적인 그래픽을 만들 수 있도록 변환, 크기 조정, 회전, 기울이기 및 복잡한 변환과 같은 다양한 변환을 안내합니다.
@@ -141,3 +147,9 @@ A4: 복잡한 변환은 성능에 영향을 미칠 수 있으므로 효율성을
 ### Q5: Aspose.Page 관련 쿼리에 대해 어떻게 지원을 받거나 도움을 구할 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

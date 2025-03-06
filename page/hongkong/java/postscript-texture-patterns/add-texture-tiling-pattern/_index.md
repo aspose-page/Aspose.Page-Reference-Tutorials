@@ -3,10 +3,16 @@ title: 在 Java PostScript 中加入紋理平鋪模式
 linktitle: 在 Java PostScript 中加入紋理平鋪模式
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 輕鬆地將紋理平鋪圖案新增至 PostScript 文件。探索我們的無縫整合指南，以實現創造性的可能性。
-type: docs
 weight: 10
 url: /zh-hant/java/postscript-texture-patterns/add-texture-tiling-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PostScript 中加入紋理平鋪模式
+
 ## 介紹
 在 Java 開發領域，在 PostScript 文件中創建複雜的圖案和紋理是一種常見的需求。 Aspose.Page for Java 被證明是輕鬆完成此任務的一個有價值的工具。在本教學中，我們將引導您完成使用 Aspose.Page 在 Java PostScript 文件中新增紋理平鋪圖案的過程。
 ## 先決條件
@@ -103,3 +109,9 @@ document.save();
 是的，您可以探索免費試用[這裡](https://releases.aspose.com/).
 ### 如何取得 Aspose.Page for Java 的臨時授權？
 訪問[這個連結](https://purchase.aspose.com/temporary-license/)獲得臨時許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

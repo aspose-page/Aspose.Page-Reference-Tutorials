@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page für .NET einen vertikalen Farbverlauf zu XPS 
 linktitle: Fügen Sie XPS einen vertikalen Farbverlauf hinzu
 second_title: Aspose.Page .NET-API
 description: Erfahren Sie, wie Sie XPS-Dokumente mit vertikalen Verläufen mit Aspose.Page für .NET verbessern. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 15
 url: /de/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page für .NET einen vertikalen Farbverlauf zu XPS hinzu
+
 ## Einführung
 
 Willkommen bei dieser Schritt-für-Schritt-Anleitung zum Hinzufügen eines vertikalen Farbverlaufs zu einem XPS-Dokument mit Aspose.Page für .NET. Aspose.Page ist eine leistungsstarke API, die Ihnen die Arbeit mit XPS-Dateien (XML Paper Specification) in Ihren .NET-Anwendungen ermöglicht. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung eines neuen XPS-Dokuments, des Hinzufügens eines vertikalen Farbverlaufs zu einem Pfad und des Speicherns des Ergebnisses.
@@ -117,3 +123,9 @@ A1: Ja, Aspose.Page ist mit Visual Studio 2019 kompatibel. Stellen Sie sicher, d
 ### F5: Wie kann ich Unterstützung erhalten oder Fragen stellen?
 
  A5: Besuchen Sie die[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) für die Unterstützung der Gemeinschaft.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

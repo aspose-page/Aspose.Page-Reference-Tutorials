@@ -3,10 +3,16 @@ title: Add Diagonal Gradient to PostScript (PS) with Aspose.Page .NET
 linktitle: Add Diagonal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Explore the simplicity of adding diagonal gradients to PostScript documents in .NET with Aspose.Page. Elevate your projects with dynamic visual elements.
-type: docs
 weight: 10
 url: /net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Diagonal Gradient to PostScript (PS) with Aspose.Page .NET
+
 ## Introduction
 
 Adding a diagonal gradient to a PostScript (PS) document can bring visual appeal and creativity to your projects. Aspose.Page for .NET provides a seamless solution for integrating this feature into your applications. In this tutorial, we'll guide you through the process of adding a diagonal gradient to a PS document using Aspose.Page, step by step.
@@ -162,3 +168,10 @@ A4: Obtain a temporary license for Aspose.Page [here](https://purchase.aspose.co
 ### Q5: Where can I find community support for Aspose.Page?
 
 A5: Engage with the Aspose.Page community on the [forum](https://forum.aspose.com/c/page/39) for assistance and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

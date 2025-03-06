@@ -3,10 +3,16 @@ title: Thao tác trang Java
 linktitle: Thao tác trang Java
 second_title: API Java Aspose.Page
 description: Mở khóa những bí mật của Thao tác trang Java với các hướng dẫn của Aspose.Page. Đi sâu vào việc cắt và chuyển đổi để tạo ra các tài liệu có hình ảnh ấn tượng một cách dễ dàng.
-type: docs
 weight: 20
 url: /vi/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác trang Java
+
 
 ## Giới thiệu
 
@@ -50,3 +56,9 @@ Bạn đã sẵn sàng bắt tay vào hành trình tạo các tài liệu trực
 Khám phá nghệ thuật cắt trong Thao tác trang Java với Aspose.Page. Làm chủ việc tạo tài liệu chính xác để có được hình ảnh và khả năng kiểm soát tuyệt đẹp.
 ### [Các biến đổi trong thao tác trang Java](./transformations/)
 Tìm hiểu cách thực hiện các chuyển đổi trang nâng cao trong Java bằng Aspose.Page cho Java. Nâng cao các ứng dụng Java của bạn với khả năng thao tác mạnh mẽ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

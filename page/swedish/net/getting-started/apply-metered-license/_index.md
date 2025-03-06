@@ -3,10 +3,16 @@ title: Tillämpa mätlicens med Aspose.Page för .NET
 linktitle: Tillämpa mätlicens
 second_title: Aspose.Page .NET API
 description: Utforska den sömlösa integrationen av Aspose.Page för .NET med den här steg-för-steg-guiden om hur du ansöker om en uppmätt licens. Optimera dokumentbehandlingen utan ansträngning.
-type: docs
 weight: 10
 url: /sv/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tillämpa mätlicens med Aspose.Page för .NET
+
 ## Introduktion
 
 Lås upp den fulla potentialen hos Aspose.Page för .NET genom att tillämpa en uppmätt licens. Den här handledningen guidar dig genom processen att ställa in och tillämpa den uppmätta licensen, vilket säkerställer smidig och optimerad användning av detta kraftfulla .NET-bibliotek.
@@ -112,3 +118,9 @@ Denna steg-för-steg-guide har utrustat dig med kunskapen att sömlöst tillämp
 ### F5: Hur kan jag få en tillfällig licens för Aspose.Page för .NET?
 
  A5: Besök[tillfällig licens/](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

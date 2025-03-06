@@ -3,10 +3,16 @@ title: Mesclar PostScript com PDF em Java
 linktitle: Mesclar PostScript com PDF em Java
 second_title: API Java Aspose.Page
 description: Mescle facilmente arquivos PostScript em PDF em Java com Aspose.Page. Tutorial abrangente, perguntas frequentes e recursos para conversão perfeita de documentos.
-type: docs
 weight: 10
 url: /pt/java/file-merging/postscript-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesclar PostScript com PDF em Java
+
 ## Introdução
 No domínio da programação Java, o tratamento eficiente da conversão de documentos é essencial. Uma tarefa crucial é mesclar arquivos PostScript em PDFs. Aspose.Page for Java fornece uma solução poderosa para essa tarefa, oferecendo aos desenvolvedores uma experiência perfeita. Neste guia passo a passo, percorreremos o processo de mesclagem de PostScript com PDF em Java usando Aspose.Page.
 ## Pré-requisitos
@@ -90,3 +96,9 @@ Sim, Aspose.Page oferece bibliotecas para diversas linguagens de programação, 
  Obtenha uma licença temporária visitando[esse link](https://purchase.aspose.com/temporary-license/).
 ### Onde posso obter suporte ou me conectar com a comunidade Aspose?
  Participe das discussões sobre o[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) para buscar ajuda e compartilhar suas experiências.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page Java Text Manipulation
 linktitle: Lägg till text i Java PostScript
 second_title: Aspose.Page Java API
 description: Utforska kraften i Aspose.Page för Java i vår handledning om att lägga till text i PostScript-dokument. Lär dig att använda system och anpassade typsnitt med lätthet.
-type: docs
 weight: 10
 url: /sv/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java Text Manipulation
+
 ## Introduktion
 Välkommen till vår steg-för-steg-guide för att lägga till text i Java PostScript med Aspose.Page för Java. Aspose.Page för Java är ett kraftfullt bibliotek som tillåter utvecklare att manipulera PostScript-dokument med lätthet. I den här handledningen kommer vi att gå igenom processen att lägga till text, använda system- och anpassade typsnitt, beskriva text och införliva streck för ett visuellt tilltalande resultat.
 ## Förutsättningar
@@ -99,3 +105,9 @@ Absolut! Du kan skapa flera sidor genom att upprepa stegen för att skapa och sp
 `ExternalFontCache` används för att hämta anpassade typsnitt, vilket säkerställer att de är tillgängliga för textmanipulering.
 ### Kan jag använda olika streck på den konturerade texten?
  Ja, du kan anpassa linjens bredd och färg med hjälp av`Stroke` klass och`Color` klass, respektive.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

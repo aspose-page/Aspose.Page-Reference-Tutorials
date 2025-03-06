@@ -3,10 +3,16 @@ title: はじめる
 linktitle: はじめる
 second_title: Aspose.Page .NET API
 description: ステップバイステップのチュートリアルで、Aspose.Page .NET の機能を最大限に活用してください。従量制ライセンスの適用、ファイルまたはストリームからのロード、安全なライセンスなどを適用します。
-type: docs
 weight: 20
 url: /ja/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# はじめる
+
 ## 導入
 
 Aspose.Page for .NET チュートリアルの究極のガイドへようこそ。効率性とシンプルさが融合したシームレスなドキュメント処理の世界に飛び込みましょう。一連の包括的なチュートリアルを通じて、この強力なツールの可能性を最大限に活用する旅に出かけましょう。
@@ -38,3 +44,9 @@ Aspose.Page を使用して .NET でのドキュメント操作のロックを�
 ステップバイステップのガイドを使用して、Aspose.Page for .NET ライセンスを簡単に保護します。 .NET アプリケーションでのシームレスなページ操作の可能性を最大限に引き出します。
 ### [Aspose.Page for .NET で埋め込みリソースを使用してライセンスを設定する](./set-license-using-embedded-resource/)
 Aspose.Page for .NET で埋め込みリソースを使用してライセンスを設定する方法を学びます。コンプライアンスを確保し、文書処理の可能性を最大限に引き出します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

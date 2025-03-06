@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用してファイルからライセンスを�
 linktitle: ファイルからライセンスをロード
 second_title: Aspose.Page .NET API
 description: ファイルからライセンスをロードする技術を習得して、Aspose.Page for .NET の可能性を最大限に引き出します。ドキュメント処理機能をシームレスに向上させます。
-type: docs
 weight: 11
 url: /ja/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用してファイルからライセンスをロードする
+
 ## 導入
 
 Aspose.Page for .NET の世界へようこそ! .NET Framework を使用してドキュメント処理機能を強化したい場合は、ここが正しい場所です。このチュートリアルでは、Aspose.Page for .NET を使用してファイルからライセンスをロードするプロセスを説明します。この重要なステップにより、この強力なライブラリの可能性を最大限に活用できるようになります。
@@ -91,3 +97,9 @@ Console.WriteLine("License set successfully.");
 ### Q5: サポートが必要ですか、または質問がありますか? 
 
  A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティサポートのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

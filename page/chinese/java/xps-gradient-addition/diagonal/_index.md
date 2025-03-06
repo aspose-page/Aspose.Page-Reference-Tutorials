@@ -3,10 +3,16 @@ title: 在 Java XPS 中添加对角渐变
 linktitle: 在 Java XPS 中添加对角渐变
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page 在 Java 中向 XPS 文档添加令人惊叹的对角渐变。轻松提升您的视觉呈现效果。
-type: docs
 weight: 10
 url: /zh/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java XPS 中添加对角渐变
+
 ## 介绍
 在不断发展的 Java 开发世界中，增强 XPS 文档的视觉吸引力至关重要。实现这一目标的一种有效方法是合并对角渐变。本教程将指导您完成使用 Aspose.Page for Java 的过程，并提供分步说明和代码片段。
 ## 先决条件
@@ -75,3 +81,9 @@ Aspose.Page 旨在与各种 Java 框架无缝集成，使其成为您项目的�
 参观[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)与社区互动并寻求帮助。
 ### 问：是否有临时许可证的规定？
 是的，您可以获得[临时许可证在这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

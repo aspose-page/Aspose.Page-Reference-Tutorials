@@ -3,10 +3,16 @@ title: Přidejte pojmenovanou hodnotu pomocí Aspose.Page
 linktitle: Přidat pojmenovanou hodnotu
 second_title: Aspose.Page .NET API
 description: Naučte se přidávat pojmenované hodnoty do souborů EPS v .NET pomocí Aspose.Page. Tento komplexní návod vás provede procesem krok za krokem.
-type: docs
 weight: 12
 url: /cs/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte pojmenovanou hodnotu pomocí Aspose.Page
+
 ## Úvod
 
 V oblasti zpracování dokumentů pomocí .NET vyniká Aspose.Page jako výkonný nástroj pro práci se soubory EPS. Aspose.Page umožňuje vývojářům manipulovat s metadaty XMP a usnadňuje úkoly, jako je přidávání pojmenovaných hodnot. Tento tutoriál vás krok za krokem provede procesem přidávání pojmenovaných hodnot do souboru EPS pomocí Aspose.Page.
@@ -96,3 +102,9 @@ A1: Aspose.Page podporuje různé verze souborů EPS, což zajišťuje kompatibi
 ### Q5: Co je dočasná licence a jak ji mohu získat?
 
  A5: Pokud potřebujete dočasnou licenci pro účely testování nebo hodnocení, můžete si ji zakoupit[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

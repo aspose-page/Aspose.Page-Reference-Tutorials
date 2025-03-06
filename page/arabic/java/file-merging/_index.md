@@ -3,10 +3,16 @@ title: دمج الملفات
 linktitle: دمج الملفات
 second_title: Aspose.Page جافا API
 description: يمكنك بسهولة دمج ملفات PostScript إلى PDF وتحويل XPS إلى PDF أو XPS في Java باستخدام Aspose.Page. اتبع البرامج التعليمية خطوة بخطوة لتحويل المستندات بسلاسة.
-type: docs
 weight: 31
 url: /ar/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج الملفات
+
 
 ## مقدمة
 
@@ -40,3 +46,9 @@ url: /ar/java/file-merging/
 تعرف على كيفية تحويل XPS إلى PDF في Java بسهولة باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة لتحويل المستندات بكفاءة.
 ### [تحويل XPS إلى XPS في جافا](./xps-to-xps/)
 تعرف على كيفية دمج ملفات XPS في Java بسلاسة باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة لمعالجة المستندات بكفاءة. عزز مهاراتك في تطوير Java الآن!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Σχήματα - XPS
 linktitle: Σχήματα - XPS
 second_title: Aspose.Page Java API
 description: Ανακαλύψτε τη μαγεία της Java XPS με τα μαθήματα Aspose.Page! Προσθέστε εύκολα σαγηνευτικές ελλείψεις και ορθογώνια. Βελτιώστε τη δημιουργία εγγράφων με τους οδηγούς βήμα προς βήμα.
-type: docs
 weight: 35
 url: /el/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σχήματα - XPS
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να εμβαθύνετε στη συναρπαστική σφαίρα της δημιουργίας εγγράφων χρησιμοποιώντας Java XPS; Μην κοιτάξετε πέρα από το Aspose.Page, τον αξιόπιστο σύντροφό σας για να ξεκλειδώσετε πλήρως τις δυνατότητες χειραγώγησης σχήματος. Σε αυτήν τη σειρά εκμάθησης, θα σας καθοδηγήσουμε στις περιπλοκές της προσθήκης μαγευτικών σχημάτων, διασφαλίζοντας ότι το έγγραφό σας ξεχωρίζει χωρίς κόπο.
@@ -33,3 +39,9 @@ url: /el/java/xps-shapes/
 Εξερευνήστε τον οδηγό βήμα προς βήμα για την προσθήκη μιας έλλειψης με ακτινωτή διαβάθμιση σε Java XPS χρησιμοποιώντας το Aspose.Page για Java. Βελτιώστε τη δημιουργία εγγράφων σας χωρίς κόπο.
 ### [Προσθήκη ορθογώνιου σε Java XPS](./add-rectangle/)
 Μάθετε πώς να προσθέτετε ορθογώνια σε Java XPS χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τον οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

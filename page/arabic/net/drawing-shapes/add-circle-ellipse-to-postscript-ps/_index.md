@@ -3,10 +3,16 @@ title: أضف دائرة القطع الناقص إلى PostScript (PS) باست
 linktitle: إضافة دائرة القطع الناقص إلى بوستسكريبت (PS)
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية إضافة علامات الحذف الدائرية بسهولة إلى مستندات PostScript (PS) باستخدام Aspose.Page for .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 10
 url: /ar/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف دائرة القطع الناقص إلى PostScript (PS) باستخدام Aspose.Page
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول إضافة علامات الحذف الدائرية إلى مستندات PostScript (PS) باستخدام Aspose.Page لـ .NET. Aspose.Page هي مكتبة قوية تتيح للمطورين العمل مع PostScript وتنسيقات المستندات الأخرى بسلاسة. في هذا الدليل، سنرشدك خلال عملية دمج علامات الحذف الدائرية في مستندات PS الخاصة بك بسهولة.
@@ -145,3 +151,9 @@ document.Save();
 ### س5: أين يمكنني شراء Aspose.Page لـ .NET؟
 
  A5: قم بشراء Aspose.Page لـ .NET من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

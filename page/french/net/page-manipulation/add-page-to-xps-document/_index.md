@@ -3,10 +3,16 @@ title: Ajouter une page au document XPS avec Aspose.Page pour .NET
 linktitle: Ajouter une page au document XPS
 second_title: API Aspose.Page .NET
 description: Améliorez vos applications .NET en apprenant à ajouter des pages aux documents XPS avec Aspose.Page pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 11
 url: /fr/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une page au document XPS avec Aspose.Page pour .NET
+
 ## Introduction
 
 Si vous travaillez avec des documents XPS dans .NET et devez ajouter des pages par programme, Aspose.Page pour .NET est votre solution idéale. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus d'ajout de pages à un document XPS. En tant que rédacteur SEO compétent, je veillerai à ce que ce guide soit non seulement informatif, mais qu'il soit également conçu dans un souci d'optimisation des moteurs de recherche, ce qui en fait une ressource précieuse pour les développeurs et les créateurs de contenu.
@@ -86,3 +92,10 @@ A4 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Page pour .NET[ici](
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.Page pour .NET ?
 
  A5 : Visitez le[page de licence temporaire](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire à des fins de tests.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

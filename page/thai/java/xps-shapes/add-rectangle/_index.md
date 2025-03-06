@@ -3,10 +3,16 @@ title: เพิ่มสี่เหลี่ยมผืนผ้าใน Jav
 linktitle: เพิ่มสี่เหลี่ยมผืนผ้าใน Java XPS
 second_title: Aspose.Page Java API
 description: เรียนรู้วิธีเพิ่มสี่เหลี่ยมใน Java XPS โดยใช้ Aspose.Page ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการเอกสารที่ราบรื่น #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /th/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มสี่เหลี่ยมผืนผ้าใน Java XPS
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมเกี่ยวกับการเพิ่มสี่เหลี่ยมใน Java XPS โดยใช้ Aspose.Page! ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นด้วย Java XPS บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการพร้อมคำแนะนำทีละขั้นตอน เพื่อให้แน่ใจว่าคุณจะเข้าใจหัวข้อนี้อย่างลึกซึ้ง
 ## ข้อกำหนดเบื้องต้น
@@ -62,3 +68,9 @@ doc.save(dataDir + "AddRectangle_out.xps");
  สำรวจ[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39)เพื่อดูตัวอย่างเพิ่มเติมและขอความช่วยเหลือจากชุมชน
 ### ฉันสามารถลองใช้ Aspose.Page ก่อนซื้อได้หรือไม่
  ใช่ คุณสามารถสำรวจได้[ทดลองฟรี](https://releases.aspose.com/) เพื่อสัมผัสความสามารถของ Aspose.Page
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

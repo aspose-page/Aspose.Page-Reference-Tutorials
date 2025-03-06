@@ -3,10 +3,16 @@ title: Oldalkezelés - XPS
 linktitle: Oldalkezelés - XPS
 second_title: Aspose.Page Java API
 description: Fedezze fel az Aspose.Page for Java erejét oktatóanyagainkkal. Emelje fel Java XPS-dokumentumait azáltal, hogy könnyedén ad hozzá oldalakat a továbbfejlesztett alkalmazásfunkcionalitás érdekében.
-type: docs
 weight: 33
 url: /hu/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oldalkezelés - XPS
+
 
 ## Bevezetés
 
@@ -36,3 +42,9 @@ Az Aspose.Page felhasználóbarát megközelítésével és páratlan képesség
 ## Oldalkezelés – XPS oktatóanyagok
 ### [Oldal hozzáadása Java XPS-ben](./add-page/)
 Emelje fel a Java XPS dokumentumokat az Aspose.Page segítségével. Tanuljon meg könnyedén hozzáadni oldalakat a továbbfejlesztett alkalmazásfunkciók érdekében. Merüljön el az oktatóanyagban most!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

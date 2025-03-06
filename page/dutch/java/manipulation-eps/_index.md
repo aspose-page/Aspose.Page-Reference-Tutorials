@@ -3,10 +3,16 @@ title: EPS-manipulatie in Java
 linktitle: EPS-manipulatie in Java
 second_title: Aspose.Page Java-API
 description: Verken Aspose.Page voor Java met onze tutorials over EPS-manipulatie. Snijd EPS-bestanden moeiteloos bij en wijzig het formaat ervan met stapsgewijze handleidingen, zodat u uw documentvaardigheden kunt verbeteren.
-type: docs
 weight: 24
 url: /nl/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPS-manipulatie in Java
+
 
 ## invoering
 
@@ -42,3 +48,9 @@ Kortom, Aspose.Page voor Java-tutorials over EPS-manipulatie bieden meer dan all
 Ontdek een stapsgewijze handleiding voor het bijsnijden van EPS-bestanden in Java met Aspose.Page. Verbeter moeiteloos uw vaardigheden op het gebied van documentmanipulatie. 
 ### [Formaat van EPS-bestand wijzigen in Java](./resize/)
 Leer hoe u moeiteloos het formaat van EPS-bestanden in Java kunt wijzigen met Aspose.Page voor Java. Volg onze uitgebreide handleiding voor stapsgewijze instructies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

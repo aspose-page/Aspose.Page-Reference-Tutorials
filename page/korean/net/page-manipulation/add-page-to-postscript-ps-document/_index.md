@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 PostScript(PS) 문서에 페이지 추가
 linktitle: PostScript(PS) 문서에 페이지 추가
 second_title: Aspose.페이지 .NET API
 description: .NET 프로젝트에서 원활한 PostScript 문서 조작을 위한 최고의 솔루션인 Aspose.Page for .NET을 살펴보세요.
-type: docs
 weight: 10
 url: /ko/net/page-manipulation/add-page-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 PostScript(PS) 문서에 페이지 추가
+
 ## 소개
 
 .NET 개발 세계에서 문서 관리 및 조작은 중요한 측면입니다. Aspose.Page for .NET은 개발자에게 PostScript(PS) 문서를 원활하게 작업하는 데 필요한 도구를 제공하는 강력한 라이브러리입니다. 이 단계별 가이드는 .NET에서 Aspose.Page를 사용하여 PostScript 문서에 페이지를 추가하는 과정을 안내합니다.
@@ -113,3 +119,9 @@ A2: 물론이죠! 튜토리얼에서 설명했듯이 요구 사항에 따라 각
 ### Q5: 어디에서 커뮤니티 지원을 구하거나 질문을 할 수 있나요?
 
  A5: 가입하세요[Aspose.Page 커뮤니티 포럼](https://forum.aspose.com/c/page/39) 다른 개발자와 연결하고, 경험을 공유하고, 도움을 구합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

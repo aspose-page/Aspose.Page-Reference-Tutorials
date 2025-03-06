@@ -3,10 +3,16 @@ title: Formas - XPS
 linktitle: Formas - XPS
 second_title: API de Java de Aspose.Page
 description: ¡Descubre la magia de Java XPS con los tutoriales de Aspose.Page! Agregue fácilmente elipses y rectángulos cautivadores. Mejore la creación de documentos con nuestras guías paso a paso.
-type: docs
 weight: 35
 url: /es/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formas - XPS
+
 ## Introducción
 
 ¿Estás listo para profundizar en el fascinante ámbito de la creación de documentos utilizando Java XPS? No busque más, Aspose.Page, su compañero de confianza para desbloquear todo el potencial de la manipulación de formas. En esta serie de tutoriales, lo guiaremos a través de las complejidades de agregar formas cautivadoras, asegurando que su documento se destaque sin esfuerzo.
@@ -33,3 +39,9 @@ En conclusión, los tutoriales de Aspose.Page para Java sobre formas abren un mu
 Explore la guía paso a paso sobre cómo agregar una elipse con trazo de degradado radial en Java XPS usando Aspose.Page para Java. Mejore la creación de sus documentos sin esfuerzo.
 ### [Agregar rectángulo en Java XPS](./add-rectangle/)
 Aprenda cómo agregar rectángulos en Java XPS usando Aspose.Page. Siga nuestra guía paso a paso para una manipulación de documentos perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Elementi visivi - Java
 linktitle: Elementi visivi - Java
 second_title: API Java Aspose.Page
 description: Migliora la grafica dei tuoi documenti Java senza sforzo con Aspose.Page! Impara a migliorare la tua applicazione aggiungendo griglie utilizzando Visual Brush in questo tutorial passo passo.
-type: docs
 weight: 41
 url: /it/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Elementi visivi - Java
+
 ## introduzione
 
 Sviluppatori Java, rallegratevi! Immergiti nel regno degli elementi visivi con i tutorial Aspose.Page che promettono di trasformare le immagini dei tuoi documenti Java. In questa edizione ci concentriamo sull'arte accattivante di aggiungere griglie utilizzando Visual Brush. Allacciate le cinture mentre intraprendiamo un viaggio per aumentare l'attrattiva della vostra domanda.
@@ -46,3 +52,9 @@ In conclusione, Aspose.Page per Java emerge come la soluzione ideale per gli svi
 ## Elementi visivi - Tutorial Java
 ### [Aggiungi griglia utilizzando Visual Brush in Java](./add-grid/)
 Migliora la grafica dei documenti Java con Aspose.Page! Impara ad aggiungere griglie utilizzando Visual Brush passo dopo passo. Aumenta l'attrattiva della tua domanda senza sforzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

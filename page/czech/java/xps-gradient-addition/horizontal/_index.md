@@ -3,10 +3,16 @@ title: Přidejte horizontální přechod v Java XPS
 linktitle: Přidejte horizontální přechod v Java XPS
 second_title: Aspose.Page Java API
 description: Naučte se, jak přidat úžasný horizontální přechod do XPS dokumentů v Javě pomocí Aspose.Page. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 11
 url: /cs/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte horizontální přechod v Java XPS
+
 ## Úvod
 Vítejte v tomto podrobném průvodci přidáním horizontálního přechodu do Java XPS pomocí Aspose.Page for Java. Aspose.Page for Java je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s dokumenty XPS (XML Paper Specification).
 V tomto tutoriálu vás provedeme procesem vytváření aplikace Java pro přidání horizontálního přechodu do dokumentu XPS. Postupujte podle níže uvedených kroků, abyste toho dosáhli snadno.
@@ -70,3 +76,9 @@ Ano, kromě lineárních přechodů podporuje Aspose.Page i radiální přechody
 Absolutně! Máte plnou kontrolu nad barvami a polohami každé zarážky přechodu.
 ### Otázka: Existuje komunitní fórum pro Aspose.Page, kde mohu hledat pomoc?
  Ano, můžete navštívit[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) spojit se s komunitou a získat pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

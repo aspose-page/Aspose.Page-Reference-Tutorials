@@ -3,10 +3,16 @@ title: Thêm hình chữ nhật trong Java XPS
 linktitle: Thêm hình chữ nhật trong Java XPS
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thêm hình chữ nhật trong Java XPS bằng Aspose.Page. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu liền mạch. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /vi/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình chữ nhật trong Java XPS
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện về cách thêm hình chữ nhật trong Java XPS bằng Aspose.Page! Cho dù bạn là nhà phát triển dày dạn hay mới bắt đầu với Java XPS, hướng dẫn này sẽ hướng dẫn bạn qua quy trình với hướng dẫn từng bước, đảm bảo bạn hiểu sâu về chủ đề.
 ## Điều kiện tiên quyết
@@ -62,3 +68,9 @@ Tuyệt đối! Aspose.Page cung cấp một bộ tính năng mạnh mẽ để 
  Khám phá cái[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39)để biết thêm ví dụ và tìm kiếm sự hỗ trợ từ cộng đồng.
 ### Tôi có thể dùng thử Aspose.Page trước khi mua không?
  Có, bạn có thể khám phá một[dùng thử miễn phí](https://releases.aspose.com/) để trải nghiệm các khả năng của Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

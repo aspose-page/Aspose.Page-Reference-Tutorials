@@ -3,10 +3,16 @@ title: 전환 - XPS
 linktitle: 전환 - XPS
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 XPS를 Java의 다양한 형식으로 쉽게 변환합니다. 정확하고 효율적인 변환을 위한 단계별 가이드를 통해 문서 처리를 향상하세요.
-type: docs
 weight: 22
 url: /ko/java/xps-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 전환 - XPS
+
 
 ## 소개
 
@@ -44,3 +50,9 @@ Aspose.Page를 사용하여 Java에서 원활한 XPS-PDF 변환을 잠금 해제
 Aspose.Page를 사용하여 Java에서 XPS를 PNG로 손쉽게 변환하세요. 안정적이고 개발자 친화적인 솔루션으로 문서 작업을 간소화하세요.
 ### [Java에서 XSP를 TIFF로 변환](./to-tiff/)
 Java용 Aspose.Page를 사용하여 XPS를 TIFF로 손쉽게 변환하세요. 원활한 통합을 위한 단계별 가이드를 따르세요. 지금 다운로드하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

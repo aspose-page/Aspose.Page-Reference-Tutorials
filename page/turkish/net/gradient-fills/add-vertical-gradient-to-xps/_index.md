@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile XPS'ye Dikey Degrade ekleyin
 linktitle: XPS'ye Dikey Degrade Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET'i kullanarak XPS belgelerini dikey degradelerle nasıl geliştireceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 15
 url: /tr/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile XPS'ye Dikey Degrade ekleyin
+
 ## giriiş
 
 Aspose.Page for .NET kullanarak bir XPS belgesine nasıl dikey degrade ekleyeceğinizi anlatan bu adım adım eğitime hoş geldiniz. Aspose.Page, .NET uygulamalarınızda XPS (XML Kağıt Belirtimi) dosyalarıyla çalışmanıza olanak tanıyan güçlü bir API'dir. Bu öğreticide, yeni bir XPS belgesi oluşturma, yola dikey degrade ekleme ve sonucu kaydetme sürecinde size rehberlik edeceğiz.
@@ -117,3 +123,9 @@ Cevap1: Evet, Aspose.Page, Visual Studio 2019 ile uyumludur. Kütüphanenin doğ
 ### S5: Nasıl destek alabilirim veya soru sorabilirim?
 
  A5: ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

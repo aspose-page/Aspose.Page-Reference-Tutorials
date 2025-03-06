@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 글리프 복제 추가 및 색상 �
 linktitle: 글리프 복제 추가 및 색상 변경
 second_title: Aspose.페이지 .NET API
 description: 이 포괄적인 튜토리얼에서 .NET용 Aspose.Page의 강력한 기능을 살펴보세요. 쉽게 XPS 문서에서 글리프 클론을 추가하고 색상을 변경하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 글리프 복제 추가 및 색상 변경
+
 ## 소개
 
 .NET용 Aspose.Page를 사용하여 XPS 문서에서 글리프 복제본을 추가하고 색상을 변경하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.Page for .NET은 XPS 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 글리프 클론을 추가하고 색상을 변경하여 문서의 시각적 매력을 향상시키는 프로세스에 중점을 둘 것입니다.
@@ -129,3 +135,9 @@ A4: 무료 평가판에는 몇 가지 제한 사항이 있으므로 사용하기
 ### Q5: .NET용 Aspose.Page에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
 
  A5: 문서를 참조할 수 있습니다.[여기](https://reference.aspose.com/page/net/) 자세한 정보와 예시를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

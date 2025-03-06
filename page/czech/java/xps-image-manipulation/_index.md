@@ -3,10 +3,16 @@ title: Manipulace s obrázky - XPS
 linktitle: Manipulace s obrázky - XPS
 second_title: Aspose.Page Java API
 description: Objevte umění snadné manipulace s obrázky v dokumentech Java XPS s Aspose.Page. Naučte se bezproblémově přidávat a uspořádávat obrázky pro lepší zpracování dokumentů.
-type: docs
 weight: 29
 url: /cs/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s obrázky - XPS
+
 
 ## Úvod
 
@@ -36,3 +42,9 @@ Na závěr Aspose.Page for Java otevírá dveře do světa, kde se manipulace s 
 Naučte se, jak bez námahy přidávat obrázky do dokumentů XPS v Javě pomocí Aspose.Page. Zlepšete své zpracování dokumentů pomocí tohoto podrobného průvodce.
 ### [Přidejte dlaždicový obrázek v Java XPS](./add-tiled-image/)
 Prozkoumejte bezproblémovou manipulaci s dokumenty Java XPS pomocí Aspose.Page. Naučte se snadno přidávat dlaždicové obrázky pomocí tohoto podrobného průvodce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tính minh bạch giả của Java PostScript với Aspose.Page
 linktitle: Hiển thị tính minh bạch giả trong Java PostScript
 second_title: API Java Aspose.Page
 description: Mở khóa đồ họa sống động trong Java PostScript! Làm theo hướng dẫn Aspose.Page của chúng tôi để tạo tính minh bạch giả từng bước. Tải ngay!
-type: docs
 weight: 11
 url: /vi/java/postscript-transparency/show-pseudo-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính minh bạch giả của Java PostScript với Aspose.Page
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện về cách sử dụng Aspose.Page cho Java để chứng minh tính minh bạch giả trong Java PostScript. Trong hướng dẫn này, chúng tôi sẽ chia nhỏ quy trình theo từng bước để đảm bảo rằng bạn nắm bắt kỹ từng khái niệm. Tính minh bạch giả liên quan đến việc tạo ảo giác về tính minh bạch trong đồ họa và Aspose.Page đơn giản hóa nhiệm vụ này bằng các tính năng mạnh mẽ của nó.
 ## Điều kiện tiên quyết
@@ -90,3 +96,9 @@ Chúc mừng! Bạn đã tạo thành công các hiệu ứng giả trong suốt
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Cần trợ giúp hoặc muốn thảo luận về Aspose.Page?
  Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

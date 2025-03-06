@@ -3,10 +3,16 @@ title: Ajouter un rectangle au document XPS avec Aspose.Page pour .NET
 linktitle: Ajouter un rectangle au document XPS
 second_title: API Aspose.Page .NET
 description: Améliorez la création de documents avec Aspose.Page pour .NET. Découvrez comment ajouter des rectangles aux documents XPS dans ce didacticiel étape par étape.
-type: docs
 weight: 13
 url: /fr/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un rectangle au document XPS avec Aspose.Page pour .NET
+
 ## Introduction
 
 Aspose.Page pour .NET est une bibliothèque puissante qui offre une variété de fonctionnalités pour travailler avec des documents XPS (XML Paper Spécification) dans les applications .NET. Dans ce didacticiel, nous nous concentrerons sur l'ajout d'un rectangle à un document XPS à l'aide d'Aspose.Page pour .NET. Suivez ce guide étape par étape pour améliorer votre processus de création de documents.
@@ -95,3 +101,9 @@ A1 : Oui, Aspose.Page est conçu pour fonctionner de manière transparente avec 
 ### Q5 : Où puis-je rechercher l'assistance de la communauté ou poser des questions relatives à Aspose.Page pour .NET ?
 
  A5 : Visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

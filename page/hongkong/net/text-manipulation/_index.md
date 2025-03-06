@@ -3,10 +3,16 @@ title: 文字處理
 linktitle: 文字處理
 second_title: Aspose.Page .NET API
 description: 透過 Aspose.Page 教學掌握 .NET 中的文字操作。了解如何將 Unicode 文字新增至 PostScript 和 XPS 文件。提升您的文件處理技能。
-type: docs
 weight: 32
 url: /zh-hant/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文字處理
+
 
 
 ## 介紹
@@ -39,3 +45,9 @@ url: /zh-hant/net/text-manipulation/
 透過我們在 XPS 文件中新增 Unicode 文字的逐步指南，探索 Aspose.Page for .NET 的強大功能。
 ### [使用 Aspose.Page for .NET 將文字新增至 XPS 文檔](./add-text-to-xps-document/)
 探索使用 Aspose.Page for .NET 將文字新增至 XPS 文件的逐步指南。輕鬆增強您的 .NET 專案。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hợp nhất tệp
 linktitle: Hợp nhất tệp
 second_title: API Java Aspose.Page
 description: Dễ dàng hợp nhất các tệp PostScript thành PDF và chuyển đổi XPS sang PDF hoặc XPS trong Java bằng Aspose.Page. Thực hiện theo hướng dẫn từng bước để chuyển đổi tài liệu liền mạch.
-type: docs
 weight: 31
 url: /vi/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hợp nhất tệp
+
 
 ## Giới thiệu
 
@@ -40,3 +46,9 @@ Dễ dàng hợp nhất các tệp PostScript thành PDF trong Java bằng Aspos
 Tìm hiểu cách chuyển đổi XPS sang PDF trong Java một cách dễ dàng với Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi tài liệu hiệu quả.
 ### [Chuyển đổi XPS sang XPS trong Java](./xps-to-xps/)
 Tìm hiểu cách hợp nhất các tệp XPS trong Java một cách liền mạch bằng Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu hiệu quả. Hãy nâng cao kỹ năng phát triển Java của bạn ngay bây giờ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

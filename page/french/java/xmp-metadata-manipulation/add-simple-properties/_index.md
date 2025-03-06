@@ -3,10 +3,16 @@ title: Ajouter des propriétés simples dans XMP à l'aide de Java
 linktitle: Ajouter des propriétés simples dans XMP à l'aide de Java
 second_title: API Java Aspose.Page
 description: Libérez le potentiel d'Aspose.Page pour Java avec notre guide sur l'ajout de propriétés aux métadonnées XMP dans les fichiers EPS. Améliorez le traitement des documents sans effort !
-type: docs
 weight: 14
 url: /fr/java/xmp-metadata-manipulation/add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des propriétés simples dans XMP à l'aide de Java
+
 ## Introduction
 Dans le paysage en constante évolution du traitement des documents, la gestion efficace des métadonnées est cruciale. Aspose.Page pour Java permet aux développeurs de manipuler les données de la plate-forme de métadonnées extensible (XMP) de manière transparente. Dans ce didacticiel, nous explorerons le processus d'ajout de propriétés simples à XMP à l'aide de Java, en vous fournissant un guide complet étape par étape.
 ## Conditions préalables
@@ -87,3 +93,9 @@ Aspose.Page prend principalement en charge Java, mais des versions sont disponib
  Un permis temporaire peut être acquis[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je acheter Aspose.Page pour Java ?
  Vous pouvez acheter le produit[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

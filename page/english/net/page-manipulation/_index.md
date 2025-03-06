@@ -3,10 +3,16 @@ title: Page Manipulation
 linktitle: Page Manipulation
 second_title: Aspose.Page .NET API
 description: Discover the power of Aspose.Page for .NET in manipulating PostScript and XPS documents. Learn to add, enhance, and remove pages with our comprehensive tutorials.
-type: docs
 weight: 29
 url: /net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Page Manipulation
+
 
 ## Introduction
 
@@ -35,3 +41,9 @@ Explore Aspose.Page for .NET the ultimate solution for seamless PostScript docum
 Enhance your .NET applications by learning how to add pages to XPS documents with Aspose.Page for .NET. Follow our step-by-step guide for seamless integration.
 ### [Remove Page from XPS Document with Aspose.Page for .NET](./remove-page-from-xps-document/)
 Explore a comprehensive tutorial on removing pages from XPS documents using Aspose.Page for .NET. Learn the step-by-step process, prerequisites, and FAQs for seamless document manipulation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

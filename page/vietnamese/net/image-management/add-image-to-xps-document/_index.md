@@ -3,10 +3,16 @@ title: Thêm hình ảnh vào tài liệu XPS bằng Aspose.Page for .NET
 linktitle: Thêm hình ảnh vào tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Khám phá khả năng tích hợp liền mạch hình ảnh vào tài liệu XPS với Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm phát triển suôn sẻ.
-type: docs
 weight: 11
 url: /vi/net/image-management/add-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình ảnh vào tài liệu XPS bằng Aspose.Page for .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET, việc kết hợp hình ảnh vào tài liệu XPS là một yêu cầu chung. Aspose.Page for .NET đơn giản hóa quy trình này, cung cấp bộ công cụ mạnh mẽ để thao tác và nâng cao tài liệu XPS một cách dễ dàng. Hướng dẫn này sẽ hướng dẫn bạn các bước thêm hình ảnh vào tài liệu XPS bằng Aspose.Page cho .NET.
@@ -100,3 +106,9 @@ Câu trả lời 2: Có, Aspose.Page dành cho .NET độc lập với nền t�
 ### Câu hỏi 5: Tôi có thể tìm kiếm sự trợ giúp hoặc tương tác với cộng đồng cho Aspose.Page dành cho .NET ở đâu?
 
  A5: Tham quan[Aspose.Page dành cho diễn đàn .NET](https://forum.aspose.com/c/page/39) để kết nối với cộng đồng và nhận được sự hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

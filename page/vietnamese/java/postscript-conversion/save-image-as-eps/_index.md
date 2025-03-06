@@ -3,10 +3,16 @@ title: Lưu hình ảnh dưới dạng EPS trong Java
 linktitle: Lưu hình ảnh dưới dạng EPS trong Java
 second_title: API Java Aspose.Page
 description: Khám phá sức mạnh của Aspose.Page dành cho Java trong việc lưu hình ảnh dưới dạng EPS một cách dễ dàng. Tăng cường khả năng đồ họa và in ấn của bạn với thư viện Java linh hoạt này.
-type: docs
 weight: 12
 url: /vi/java/postscript-conversion/save-image-as-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu hình ảnh dưới dạng EPS trong Java
+
 ## Giới thiệu
 Trong thế giới lập trình Java, Aspose.Page cho Java nổi lên như một công cụ mạnh mẽ để thao tác và lưu hình ảnh ở nhiều định dạng khác nhau. Một trong những tính năng linh hoạt của nó là khả năng lưu hình ảnh dưới dạng tệp Encapsulated PostScript (EPS), một định dạng được sử dụng rộng rãi trong đồ họa và in ấn chuyên nghiệp.
 Hướng dẫn này sẽ hướng dẫn bạn quy trình lưu hình ảnh dưới dạng EPS bằng Aspose.Page cho Java. Chúng tôi sẽ đề cập đến các điều kiện tiên quyết, nhập các gói cần thiết và chia nhỏ từng bước kèm theo giải thích chi tiết.
@@ -60,3 +66,9 @@ Tuyệt đối! Hướng dẫn giới thiệu các tùy chọn mặc định nh�
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho Java?
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

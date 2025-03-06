@@ -3,10 +3,16 @@ title: 시각적 요소 - 자바
 linktitle: 시각적 요소 - 자바
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java 문서 시각적 효과를 손쉽게 향상하세요! 이 단계별 튜토리얼에서 Visual Brush를 사용하여 그리드를 추가하여 애플리케이션을 향상시키는 방법을 알아보세요.
-type: docs
 weight: 41
 url: /ko/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 시각적 요소 - 자바
+
 ## 소개
 
 Java 개발자 여러분, 기뻐하세요! Java 문서 시각적 변환을 약속하는 Aspose.Page 튜토리얼을 통해 시각적 요소의 영역을 살펴보세요. 이번 에디션에서는 Visual Brush를 사용하여 그리드를 추가하는 매혹적인 기술에 중점을 둡니다. 귀하의 애플리케이션에 대한 매력을 높이기 위한 여정을 시작하면서 버클을 채우십시오.
@@ -46,3 +52,9 @@ Aspose.Page는 단순성을 추구하는 초보자부터 맞춤화를 원하는 
 ## 시각적 요소 - Java 튜토리얼
 ### [Java에서 Visual Brush를 사용하여 그리드 추가](./add-grid/)
 Aspose.Page로 Java 문서 시각적 효과를 향상하세요! Visual Brush를 사용하여 그리드를 추가하는 방법을 단계별로 알아보세요. 손쉽게 애플리케이션의 매력을 높이세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

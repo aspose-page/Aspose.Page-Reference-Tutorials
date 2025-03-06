@@ -3,10 +3,16 @@ title: Добавьте вертикальный градиент в Java XPS
 linktitle: Добавьте вертикальный градиент в Java XPS
 second_title: API Aspose.Page Java
 description: Узнайте, как добавить вертикальный градиент в документы Java XPS с помощью Aspose.Page. Повышайте визуальную привлекательность без особых усилий. Пошаговая инструкция внутри.
-type: docs
 weight: 12
 url: /ru/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте вертикальный градиент в Java XPS
+
 ## Введение
 В этом уроке мы рассмотрим, как добавить вертикальный градиент в Java XPS с помощью Aspose.Page для Java. Добавление градиентов в ваши документы XPS может повысить визуальную привлекательность вашего контента, сделав его более привлекательным и эстетичным.
 ## Предварительные условия
@@ -72,3 +78,9 @@ doc.save(dataDir + "VerticalGradient.xps");
  Получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Нужна помощь или есть вопросы?
  Посетите сообщество Aspose.Page[Форум](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

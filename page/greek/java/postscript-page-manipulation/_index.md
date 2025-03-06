@@ -3,10 +3,16 @@ title: Χειρισμός σελίδας - PostScript
 linktitle: Χειρισμός σελίδας - PostScript
 second_title: Aspose.Page Java API
 description: Εξερευνήστε το Aspose.Page για Java στα εκπαιδευτικά μας PostScript. Προσθέστε εύκολα σελίδες στα έγγραφά σας Java PostScript με οδηγίες βήμα προς βήμα για απρόσκοπτη χειραγώγηση.
-type: docs
 weight: 32
 url: /el/java/postscript-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός σελίδας - PostScript
+
 
 ## Εισαγωγή
 
@@ -34,3 +40,9 @@ url: /el/java/postscript-page-manipulation/
 Εξερευνήστε πώς να προσθέτετε σελίδες στο Java PostScript χωρίς κόπο χρησιμοποιώντας το Aspose.Page. Βελτιώστε τη δημιουργία εγγράφων με αυτήν την ισχυρή βιβλιοθήκη Java.
 ### [Προσθήκη σελίδων στο PostScript](./add-pages2/)
 Μάθετε πώς να προσθέτετε σελίδες σε έγγραφα Java PostScript χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τον οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

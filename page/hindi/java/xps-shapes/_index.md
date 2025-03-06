@@ -3,10 +3,16 @@ title: आकृतियाँ - एक्सपीएस
 linktitle: आकृतियाँ - एक्सपीएस
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page ट्यूटोरियल के साथ Java XPS जादू खोजें! आसानी से मनमोहक दीर्घवृत्त और आयत जोड़ें। हमारे चरण-दर-चरण मार्गदर्शिकाओं के साथ दस्तावेज़ निर्माण को उन्नत बनाएं।
-type: docs
 weight: 35
 url: /hi/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# आकृतियाँ - एक्सपीएस
+
 ## परिचय
 
 क्या आप जावा एक्सपीएस का उपयोग करके दस्तावेज़ निर्माण के आकर्षक क्षेत्र में जाने के लिए तैयार हैं? आकार हेरफेर की पूरी क्षमता को अनलॉक करने के लिए आपके भरोसेमंद साथी, Aspose.Page के अलावा और कहीं न देखें। इस ट्यूटोरियल श्रृंखला में, हम आपको आकर्षक आकृतियाँ जोड़ने की जटिलताओं के बारे में मार्गदर्शन देंगे, जिससे यह सुनिश्चित होगा कि आपका दस्तावेज़ सहजता से अलग दिखे।
@@ -33,3 +39,9 @@ url: /hi/java/xps-shapes/
 जावा के लिए Aspose.Page का उपयोग करके जावा XPS में रेडियल ग्रेडिएंट स्ट्रोक्ड एलिप्स जोड़ने पर चरण-दर-चरण मार्गदर्शिका देखें। अपने दस्तावेज़ निर्माण को सहजता से बढ़ाएं।
 ### [जावा एक्सपीएस में आयत जोड़ें](./add-rectangle/)
 Aspose.Page का उपयोग करके Java XPS में आयत जोड़ने का तरीका जानें। निर्बाध दस्तावेज़ हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adja hozzá a Circle Ellipse-t az XPS-dokumentumhoz az Aspose.Page segít
 linktitle: Adja hozzá a Circle Ellipse-t az XPS-dokumentumhoz
 second_title: Aspose.Page .NET API
 description: Növelje az XPS-dokumentumokat élénk sugárirányú színátmenetekkel az Aspose.Page for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a lenyűgöző vizuális effektusokért.
-type: docs
 weight: 11
 url: /hu/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja hozzá a Circle Ellipse-t az XPS-dokumentumhoz az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 A vizuálisan tetszetős XPS dokumentumok létrehozása gyakori követelmény a különböző alkalmazásokban. Az Aspose.Page for .NET hatékony szolgáltatáskészletet kínál az XPS-dokumentumok hatékony kezeléséhez. Ebben az oktatóanyagban egy kör ellipszis hozzáadására összpontosítunk egy XPS-dokumentumhoz az Aspose.Page for .NET használatával. Kövesse az alábbi lépéseket, hogy XPS-dokumentumait élénk sugárirányú színátmenetekkel javítsa.
@@ -114,3 +120,9 @@ Gratulálunk! Sikeresen hozzáadott egy sugárirányú színátmenetekkel rendel
 ### 5. kérdés: Megvásárolhatom az Aspose.Page oldalt .NET-hez?
 
  V5: Igen, megvásárolhatja a könyvtárat[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

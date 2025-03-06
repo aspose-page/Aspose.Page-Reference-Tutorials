@@ -3,10 +3,16 @@ title: Rellenos degradados
 linktitle: Rellenos degradados
 second_title: Aspose.Página .NET API
 description: Descubra el arte de los rellenos degradados en .NET con los tutoriales de Aspose.Page. Mejore sus proyectos sin esfuerzo agregue cautivadores degradados diagonales, horizontales y verticales.
-type: docs
 weight: 27
 url: /es/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rellenos degradados
+
 
 ## Introducción
 
@@ -49,3 +55,9 @@ Aprenda cómo agregar impresionantes gradientes horizontales a sus documentos XP
 Aprenda a agregar degradados verticales visualmente atractivos a documentos PostScript (PS) en .NET usando Aspose.Page. Mejore la creación de sus documentos con esta guía paso a paso.
 ### [Agregue degradado vertical a XPS con Aspose.Page para .NET](./add-vertical-gradient-to-xps/)
 Aprenda cómo mejorar documentos XPS con degradados verticales usando Aspose.Page para .NET. Siga nuestra guía paso a paso para una integración perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

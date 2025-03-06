@@ -3,10 +3,16 @@ title: Legen Sie die Deckkraftmaske im XPS-Dokument mit Aspose.Page für .NET fe
 linktitle: Legen Sie die Deckkraftmaske im XPS-Dokument fest
 second_title: Aspose.Page .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Page für .NET Deckkraftmasken in XPS-Dokumenten festlegen. Verbessern Sie mühelos die Ästhetik von Dokumenten.
-type: docs
 weight: 12
 url: /de/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Legen Sie die Deckkraftmaske im XPS-Dokument mit Aspose.Page für .NET fest
+
 ## Einführung
 
 Deckkraftmasken sind unerlässlich, wenn Sie optisch ansprechende Dokumente mit unterschiedlichen Transparenzgraden erstellen möchten. Aspose.Page für .NET vereinfacht diesen Prozess und bietet Entwicklern einen umfassenden Satz an Tools zur Verbesserung von XPS-Dokumenten. In diesem Tutorial erfahren Sie in einer Schritt-für-Schritt-Anleitung, wie Sie eine Deckkraftmaske festlegen.
@@ -98,3 +104,9 @@ A4: Ja, Sie können mehrere Deckkraftmasken übereinander legen, um komplexe Tra
 ### F5: Ist Aspose.Page mit anderen Dokumentformaten kompatibel?
 
 A5: Aspose.Page konzentriert sich hauptsächlich auf XPS-Dokumente, Aspose bietet jedoch eine Reihe von Produkten für die Verarbeitung verschiedener Formate.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

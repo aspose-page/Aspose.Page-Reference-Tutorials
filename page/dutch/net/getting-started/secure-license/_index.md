@@ -3,10 +3,16 @@ title: Veilige licentie met Aspose.Page voor .NET
 linktitle: Veilige licentie
 second_title: Aspose.Page .NET-API
 description: Beveilig uw Aspose.Page voor .NET-licentie moeiteloos met onze stapsgewijze handleiding. Ontgrendel het volledige potentieel voor naadloze paginamanipulatie in uw .NET-applicaties.
-type: docs
 weight: 13
 url: /nl/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Veilige licentie met Aspose.Page voor .NET
+
 ## Invoering
 
 Om het volledige potentieel van Aspose.Page voor .NET te benutten, moet u uw licentie beveiligen om een naadloze integratie en optimale prestaties te garanderen. In deze stapsgewijze handleiding leiden we u door het proces van het beveiligen van uw licentie met Aspose.Page, een krachtig hulpmiddel voor het afhandelen van paginamanipulatie in .NET-toepassingen.
@@ -90,3 +96,9 @@ A4: Ja, een tijdelijke licentie is voor een beperkte duur geldig en wordt vaak g
 ### Vraag 5: Kan ik mijn licentie overdragen naar een andere machine?
 
 A5: Ja, u kunt uw licentie indien nodig overdragen naar een andere machine.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

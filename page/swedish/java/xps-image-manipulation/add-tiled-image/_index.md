@@ -3,10 +3,16 @@ title: Lägg till sida vid sida i Java XPS
 linktitle: Lägg till sida vid sida i Java XPS
 second_title: Aspose.Page Java API
 description: Utforska sömlös Java XPS-dokumentmanipulation med Aspose.Page. Lär dig att lägga till sida vid sida med bilder utan ansträngning med hjälp av denna steg-för-steg-guide.
-type: docs
 weight: 11
 url: /sv/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till sida vid sida i Java XPS
+
 ## Introduktion
 Java-utvecklingens dynamiska värld växer behovet av effektiv dokumenthantering och skapande ständigt. Aspose.Page för Java framstår som ett kraftfullt verktyg som ger utvecklare möjlighet att arbeta med XPS-dokument sömlöst. Denna handledning fokuserar på en specifik uppgift – att lägga till en sida vid sida i ett Java XPS-dokument.
 ## Förutsättningar
@@ -68,3 +74,9 @@ Ja, Aspose.Page erbjuder kommersiella licenser. Köp dem[här](https://purchase.
  Engagera dig med Aspose.Page-communityt på[forum](https://forum.aspose.com/c/page/39).
 ### Hur kan jag få en tillfällig licens för Aspose.Page?
  Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

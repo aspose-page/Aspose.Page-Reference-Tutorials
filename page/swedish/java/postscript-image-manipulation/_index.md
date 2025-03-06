@@ -3,10 +3,16 @@ title: Bildmanipulation - PostScript
 linktitle: Bildmanipulation - PostScript
 second_title: Aspose.Page Java API
 description: Förbättra färdigheter i dokumenthantering med Aspose.Page för Java. Dyk in i våra PostScript-handledningar, lär dig att lägga till bilder i Java och höj dina dokumentkapaciteter.
-type: docs
 weight: 28
 url: /sv/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bildmanipulation - PostScript
+
 
 ## Introduktion
 
@@ -32,3 +38,9 @@ Ge dig ut på denna upptäcktsresa med Aspose.Page för Javas PostScript-handled
 ## Bildhantering - PostScript-handledningar
 ### [Lägg till bild i Java PostScript](./add-image/)
 Utforska den sömlösa integrationen av Aspose.Page Java i den här handledningen om att lägga till bilder i PostScript-dokument. Öka dina dokumenthanteringsmöjligheter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

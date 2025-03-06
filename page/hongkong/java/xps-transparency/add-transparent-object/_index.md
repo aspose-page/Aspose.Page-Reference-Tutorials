@@ -3,10 +3,16 @@ title: 在 Java XPS 中加入透明對象
 linktitle: 在 Java XPS 中加入透明對象
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 以令人驚嘆的透明度效果增強您的 Java XPS 文件。請按照我們的逐步指南添加透明物件。
-type: docs
 weight: 10
 url: /zh-hant/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java XPS 中加入透明對象
+
 ## 介紹
 如果您希望透過新增透明物件來增強 Java XPS 文件的視覺吸引力，Aspose.Page for Java 就是您的解決方案。在本逐步指南中，我們將引導您完成將透明物件合併到 XPS 文件中的流程。在本教程結束時，您將能夠創建具有美觀透明效果的令人驚嘆的文件。
 ## 先決條件
@@ -88,3 +94,9 @@ A：調整填滿的不透明度屬性來控制透明度。
 答：是的，Aspose.Page 可以與其他 Java 程式庫無縫整合以擴展功能。
 ### Q：在哪裡可以找到 Aspose.Page 的其他範例和支援？
 答：訪問[Aspose.Page Java 論壇](https://forum.aspose.com/c/page/39)尋求社群支持並探索文檔[這裡](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

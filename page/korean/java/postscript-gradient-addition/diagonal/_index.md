@@ -3,10 +3,16 @@ title: Java PostScript에 대각선 그라디언트 추가
 linktitle: Java PostScript에 대각선 그라디언트 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page for Java를 사용하여 대각선 그라데이션으로 Java PostScript 문서를 향상하세요. 단계별 가이드에 따라 생생한 색상 전환을 손쉽게 추가하세요.
-type: docs
 weight: 10
 url: /ko/java/postscript-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript에 대각선 그라디언트 추가
+
 ## 소개
 Java용 Aspose.Page를 사용하여 Java PostScript에 대각선 그라디언트를 추가하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 각 예를 여러 단계로 나누어 프로세스를 안내합니다. 숙련된 SEO 작가로서 저는 콘텐츠가 유익할 뿐만 아니라 검색 엔진에 최적화되어 개발자와 애호가가 쉽게 따라갈 수 있도록 만들겠습니다.
 ## 전제 조건
@@ -95,3 +101,9 @@ A: 예, Aspose.Page for Java는 PostScript 및 기타 그래픽 요소 작업을
  A: 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
 ### Q: 도움이 필요하거나 질문이 있나요?
  답: 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

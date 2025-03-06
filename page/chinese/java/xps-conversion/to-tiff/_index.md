@@ -3,10 +3,16 @@ title: 在 Java 中将 XSP 转换为 TIFF
 linktitle: 在 Java 中将 XSP 转换为 TIFF
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 轻松将 XPS 转换为 TIFF。请按照我们的分步指南进行无缝集成。现在下载！
-type: docs
 weight: 14
 url: /zh/java/xps-conversion/to-tiff/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中将 XSP 转换为 TIFF
+
 在当今的数字时代，文档转换在各种应用中起着至关重要的作用。如果您是一名 Java 开发人员，正在寻求将 XPS（XML 纸张规范）文档转换为 TIFF（标记图像文件格式）的强大解决方案，那么 Aspose.Page for Java 就是您的首选库。在本分步指南中，我们将引导您完成整个过程，通过详细的解释和代码片段确保您获得流畅的体验。
 ## 先决条件
 在深入转换过程之前，请确保满足以下先决条件：
@@ -72,3 +78,9 @@ Aspose.Page for Java 可处理各种大小的文档，但建议在您的特定�
 是的，您可以通过免费试用来探索该库。下载它[这里](https://releases.aspose.com/).
 ### 在此转换中 TIFF 图像的建议分辨率是多少？
 提供的示例使用 300 DPI 的分辨率，但您可以根据您的具体要求进行调整。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

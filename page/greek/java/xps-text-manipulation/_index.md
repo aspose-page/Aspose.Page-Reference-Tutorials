@@ -3,10 +3,16 @@ title: Χειρισμός κειμένου - XPS
 linktitle: Χειρισμός κειμένου - XPS
 second_title: Aspose.Page Java API
 description: Κάντε επανάσταση στα έγγραφά σας Java XPS με το Aspose.Page. Εξερευνήστε βήμα προς βήμα οδηγούς για τη χειραγώγηση κειμένου. Αναβαθμίστε τις δεξιότητές σας για αβίαστη βελτίωση των εγγράφων.
-type: docs
 weight: 37
 url: /el/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός κειμένου - XPS
+
 
 Κάντε επανάσταση στα έγγραφα Java XPS σας με τα μαθήματα Aspose.Page. Εξερευνήστε βήμα προς βήμα οδηγούς για τη χειραγώγηση κειμένου. Αναβαθμίστε τις δεξιότητές σας για αβίαστη βελτίωση των εγγράφων.
 
@@ -36,3 +42,9 @@ url: /el/java/xps-text-manipulation/
 ## Χειρισμός κειμένου - Εκμάθηση XPS
 ### [Προσθήκη κειμένου σε Java XPS](./add-text/)
 Βελτιώστε τα έγγραφά σας Java XPS με το Aspose.Page! Ακολουθήστε τον οδηγό βήμα προς βήμα για να προσθέσετε κείμενο χωρίς κόπο. Αυξήστε τις δεξιότητές σας χειρισμού εγγράφων σήμερα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adicionar valor nomeado em XMP usando Java
 linktitle: Adicionar valor nomeado em XMP usando Java
 second_title: API Java Aspose.Page
 description: Domine a manipulação de documentos Java usando Aspose.Page! Adicione facilmente valores nomeados em metadados XMP com nosso guia passo a passo para integração perfeita.
-type: docs
 weight: 12
 url: /pt/java/xmp-metadata-manipulation/add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar valor nomeado em XMP usando Java
+
 ## Introdução
 No cenário em constante evolução do desenvolvimento Java, o tratamento de metadados em arquivos EPS é crucial para manter a integridade do documento. Aspose.Page for Java é uma biblioteca poderosa que simplifica esse processo. Neste tutorial, nos aprofundaremos nas etapas para adicionar um valor nomeado em metadados XMP usando Java, garantindo que você tenha uma base robusta para manipular arquivos EPS.
 ## Pré-requisitos
@@ -78,3 +84,9 @@ Sim, Aspose.Page for Java foi projetado para funcionar perfeitamente com outras 
  Explore o[documentação](https://reference.aspose.com/page/java/)para tutoriais e exemplos abrangentes.
 ### O Aspose.Page for Java é adequado para projetos de grande escala?
 Com certeza, Aspose.Page for Java foi projetado para lidar com projetos de grande escala com eficiência, fornecendo recursos robustos de manipulação de documentos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

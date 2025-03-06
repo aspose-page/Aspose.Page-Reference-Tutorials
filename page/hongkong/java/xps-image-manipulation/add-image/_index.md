@@ -3,10 +3,16 @@ title: Java XPS 圖像添加 - Aspose.Page 簡單指南
 linktitle: 在 Java XPS 中加入圖像
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page 在 Java 中輕鬆地將圖像新增至 XPS 文件。透過此逐步指南提升您的文件處理能力。
-type: docs
 weight: 10
 url: /zh-hant/java/xps-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS 圖像添加 - Aspose.Page 簡單指南
+
 在 Java 開發領域，使用 XPS 文件的能力對於各種應用程式至關重要。 Aspose.Page for Java 提供了一組強大的工具來操作 XPS 文檔，其中一個基本任務是新增圖像。在本逐步指南中，我們將引導您完成使用 Aspose.Page for Java 將圖像新增至 XPS 文件的過程。
 ## 介紹
 將影像新增至 XPS 文件是許多 Java 應用程式（從報告產生到文件處理）中的常見要求。 Aspose.Page for Java 簡化了這項任務，提供了將圖像無縫整合到 XPS 檔案中的有效方法。在本教程中，我們將示範如何使用 Aspose.Page for Java 將圖像新增至 XPS 文件。
@@ -58,3 +64,9 @@ Aspose.Page for Java 支援各種影像格式，包括 TIFF、JPEG、PNG 和 GIF
 您可以從以下地址取得臨時許可證[這個連結](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以找到與 Aspose.Page for Java 相關的其他支援或討論問題？
 參觀[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)尋求協助、分享經驗並與 Aspose.Page 社群建立聯繫。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

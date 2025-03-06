@@ -3,10 +3,16 @@ title: Hợp nhất tài liệu XPS thành PDF bằng Aspose.Page cho .NET
 linktitle: Hợp nhất tài liệu XPS thành PDF
 second_title: API Aspose.Page .NET
 description: Dễ dàng hợp nhất các tài liệu XPS thành các tệp PDF chất lượng cao bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm chuyển đổi tài liệu suôn sẻ.
-type: docs
 weight: 11
 url: /vi/net/document-merging/merge-xps-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hợp nhất tài liệu XPS thành PDF bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Trong bối cảnh xử lý tài liệu ngày càng phát triển, Aspose.Page for .NET nổi lên như một công cụ mạnh mẽ để hợp nhất liền mạch các tài liệu XPS thành định dạng PDF. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng bước để đảm bảo thực hiện suôn sẻ và hiệu quả.
@@ -123,3 +129,9 @@ Câu trả lời 4: Có, Aspose.Page for .NET cung cấp các tính năng mở r
 ### Câu hỏi 5: Aspose.Page cho .NET có hỗ trợ phát triển đa nền tảng không?
 
 Câu trả lời 5: Có, Aspose.Page dành cho .NET được thiết kế để hoạt động trơn tru trên nhiều nền tảng khác nhau.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

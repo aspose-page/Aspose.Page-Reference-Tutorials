@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Page के साथ मीटर्ड ल
 linktitle: मीटरयुक्त लाइसेंस लागू करें
 second_title: Aspose.Page .NET API
 description: मीटर्ड लाइसेंस लागू करने पर इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Page के निर्बाध एकीकरण का अन्वेषण करें। दस्तावेज़ प्रसंस्करण को सहजता से अनुकूलित करें।
-type: docs
 weight: 10
 url: /hi/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Page के साथ मीटर्ड लाइसेंस लागू करें
+
 ## परिचय
 
 मीटर्ड लाइसेंस लागू करके .NET के लिए Aspose.Page की पूरी क्षमता को अनलॉक करें। यह ट्यूटोरियल इस शक्तिशाली .NET लाइब्रेरी के सुचारू और अनुकूलित उपयोग को सुनिश्चित करते हुए, मीटर्ड लाइसेंस को स्थापित करने और लागू करने की प्रक्रिया में आपका मार्गदर्शन करेगा।
@@ -112,3 +118,9 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 ### Q5: मैं .NET के लिए Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
  ए5: विजिट करें[अस्थायी लाइसेंस/](https://purchase.aspose.com/temporary-license/) अस्थायी लाइसेंस प्राप्त करने के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

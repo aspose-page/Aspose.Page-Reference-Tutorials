@@ -3,10 +3,16 @@ title: 页面操作 - PostScript
 linktitle: 页面操作 - PostScript
 second_title: Aspose.Page Java API
 description: 在我们的 PostScript 教程中探索 Aspose.Page for Java。通过逐步指导，轻松将页面添加到 Java PostScript 文档中，以实现无缝操作。
-type: docs
 weight: 32
 url: /zh/java/postscript-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 页面操作 - PostScript
+
 
 ## 介绍
 
@@ -34,3 +40,9 @@ Aspose.Page for Java 作为一个强大的库脱颖而出，使开发人员能�
 探索如何使用 Aspose.Page 在 Java PostScript 中轻松添加页面。使用这个强大的 Java 库增强您的文档创建。
 ### [在 PostScript 中添加页面](./add-pages2/)
 了解如何使用 Aspose.Page 将页面添加到 Java PostScript 文档。请按照我们的分步指南进行无缝文档操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

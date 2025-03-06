@@ -3,10 +3,16 @@ title: Change Named Value in XMP using Java
 linktitle: Change Named Value in XMP using Java
 second_title: Aspose.Page Java API
 description: Discover Aspose.Page for Java - Effortlessly alter XMP metadata in EPS files with our step-by-step guide for streamlined document processing.
-type: docs
 weight: 16
 url: /java/xmp-metadata-manipulation/change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Change Named Value in XMP using Java
+
 In the realm of document manipulation, Aspose.Page for Java stands out as a powerful tool, enabling developers to seamlessly work with XMP metadata in EPS files. This step-by-step guide will walk you through the process of changing a named value in XMP using Aspose.Page for Java. Before we delve into the details, let's set the stage with an introduction.
 ## Introduction
 Aspose.Page for Java is a robust Java library that facilitates the manipulation and processing of EPS files. When it comes to handling XMP metadata within these files, Aspose.Page empowers developers with a comprehensive set of features. In this tutorial, we will focus on changing a named value in XMP, offering a clear and concise guide for developers looking to enhance their document processing capabilities.
@@ -82,3 +88,10 @@ Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community 
 You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I purchase Aspose.Page for Java?
 To buy Aspose.Page for Java, visit the [purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

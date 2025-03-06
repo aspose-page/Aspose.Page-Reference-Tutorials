@@ -3,10 +3,16 @@ title: Hợp nhất tài liệu XPS với Aspose.Page cho .NET
 linktitle: Hợp nhất tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Dễ dàng hợp nhất các tài liệu XPS bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý tài liệu liền mạch.
-type: docs
 weight: 12
 url: /vi/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hợp nhất tài liệu XPS với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Bạn đang tìm cách hợp nhất các tài liệu XPS một cách liền mạch bằng Aspose.Page cho .NET? Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, cung cấp hướng dẫn từng bước về cách hợp nhất các tệp XPS một cách dễ dàng. Aspose.Page for .NET là một thư viện mạnh mẽ giúp đơn giản hóa các tác vụ thao tác tài liệu, khiến nó trở thành lựa chọn lý tưởng để hợp nhất các tài liệu XPS. Hãy đi sâu vào quy trình và khám phá cách bạn có thể đạt được điều này một cách dễ dàng.
@@ -94,3 +100,9 @@ Câu trả lời 4: Đảm bảo rằng bạn có giấy phép thích hợp cho 
 ### Câu hỏi 5: Aspose.Page dành cho .NET có cung cấp bất kỳ tùy chọn nâng cao nào để hợp nhất tài liệu không?
 
 Câu trả lời 5: Có, bạn có thể khám phá các tùy chọn và cấu hình bổ sung có sẵn trong tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

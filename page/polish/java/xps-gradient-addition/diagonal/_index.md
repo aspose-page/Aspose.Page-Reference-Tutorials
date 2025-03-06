@@ -3,10 +3,16 @@ title: Dodaj gradient ukośny w Java XPS
 linktitle: Dodaj gradient ukośny w Java XPS
 second_title: Aspose.Page API Java
 description: Dowiedz się, jak dodać oszałamiający gradient ukośny do dokumentów XPS w Javie za pomocą Aspose.Page. Podnieś poziom swojej prezentacji wizualnej bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj gradient ukośny w Java XPS
+
 ## Wstęp
 stale rozwijającym się świecie programowania w języku Java kluczowe znaczenie ma poprawa atrakcyjności wizualnej dokumentów XPS. Jednym ze skutecznych sposobów osiągnięcia tego jest zastosowanie gradientów ukośnych. Ten samouczek poprowadzi Cię przez proces korzystania z Aspose.Page dla Java, dostarczając instrukcje krok po kroku i fragmenty kodu.
 ## Warunki wstępne
@@ -75,3 +81,9 @@ Aspose.Page został zaprojektowany tak, aby bezproblemowo integrować się z ró
  Odwiedzić[Forum Aspose.Page](https://forum.aspose.com/c/page/39) nawiązać kontakt ze społecznością i poprosić o pomoc.
 ### P: Czy istnieje przepis dotyczący licencji tymczasowych?
  Tak, możesz uzyskać[licencja tymczasowa tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

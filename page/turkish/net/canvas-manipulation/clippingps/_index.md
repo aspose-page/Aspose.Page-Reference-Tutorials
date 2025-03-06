@@ -3,10 +3,16 @@ title: .NET için Aspose.Page ile PS'yi kırpma
 linktitle: PS'yi kırpma
 second_title: Aspose.Page .NET API'si
 description: PostScript belgelerini kırpmaya ilişkin bu adım adım eğitimle Aspose.Page for .NET'in gücünü keşfedin. Belge işleme yeteneklerinizi zahmetsizce geliştirmeyi öğrenin.
-type: docs
 weight: 10
 url: /tr/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET için Aspose.Page ile PS'yi kırpma
+
 ## giriiş
 
 PostScript (PS) belgelerinde kırpma uygulamak için Aspose.Page for .NET'in kullanımına ilişkin kapsamlı eğitime hoş geldiniz. Bu eğitim, .NET uygulamalarında çeşitli belge formatlarıyla çalışmak için güçlü bir kütüphane olan Aspose.Page'i kullanarak PS belgelerini kırpma sürecinde size rehberlik edecektir.
@@ -147,3 +153,9 @@ Cevap1: Aspose.Page öncelikle .NET uygulamaları için tasarlanmıştır. Ancak
 ### S5: Nereden destek alabilirim veya Aspose.Page ile ilgili soruları tartışabilirim?
 
  A5: ziyaret edin[Aspose.Page forumları](https://forum.aspose.com/c/page/39) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

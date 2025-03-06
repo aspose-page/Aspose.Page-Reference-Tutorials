@@ -3,10 +3,16 @@ title: Zvládnutí slučování souborů XPS v Javě s Aspose.Page
 linktitle: Převést XPS na XPS v Javě
 second_title: Aspose.Page Java API
 description: Naučte se, jak bezproblémově sloučit soubory XPS v Javě pomocí Aspose.Page. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci s dokumenty. Zlepšete své vývojové dovednosti v Javě hned teď!
-type: docs
 weight: 12
 url: /cs/java/file-merging/xps-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zvládnutí slučování souborů XPS v Javě s Aspose.Page
+
 ## Úvod
 oblasti vývoje Java je správa a manipulace se soubory XPS běžným požadavkem. Ať už se zabýváte zprávami, prezentacemi nebo jakýmkoli jiným dokumentem XPS, schopnost bezproblémového sloučení více souborů je cennou dovedností. V tomto tutoriálu se ponoříme do procesu slučování souborů XPS pomocí Aspose.Page for Java, výkonného Java API pro práci s dokumenty XPS.
 ## Předpoklady
@@ -59,3 +65,9 @@ Ano, Aspose.Page pro Java zvládá sloučení se soubory různých velikostí hl
  Ano, navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) zapojit se do komunity.
 ### Jak si mohu zakoupit knihovnu Aspose.Page for Java?
  Knihovnu si můžete zakoupit[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

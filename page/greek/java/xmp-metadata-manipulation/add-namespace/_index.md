@@ -3,10 +3,16 @@ title: Προσθήκη χώρου ονομάτων σε XMP χρησιμοπο�
 linktitle: Προσθήκη χώρου ονομάτων σε XMP χρησιμοποιώντας Java
 second_title: Aspose.Page Java API
 description: Ξεκλειδώστε τη δύναμη του χειρισμού εγγράφων με το Aspose.Page για Java. Μάθετε να προσθέτετε αβίαστα χώρους ονομάτων XMP σε αυτόν τον περιεκτικό οδηγό.
-type: docs
 weight: 13
 url: /el/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη χώρου ονομάτων σε XMP χρησιμοποιώντας Java
+
 
 ## Εισαγωγή
 
@@ -108,3 +114,9 @@ psStream.close();
 
 ### Υπάρχουν φόρουμ κοινότητας για το Aspose.Page;
  Ναι, μπορείτε να αλληλεπιδράσετε με την κοινότητα στο[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

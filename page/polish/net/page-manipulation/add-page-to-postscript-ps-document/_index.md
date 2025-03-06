@@ -3,10 +3,16 @@ title: Dodaj stronę do dokumentu PostScript (PS) za pomocą Aspose.Page
 linktitle: Dodaj stronę do dokumentu PostScript (PS).
 second_title: Aspose.Page API .NET
 description: Poznaj Aspose.Page dla .NET, najlepsze rozwiązanie do płynnej manipulacji dokumentami PostScript w projektach .NET.
-type: docs
 weight: 10
 url: /pl/net/page-manipulation/add-page-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj stronę do dokumentu PostScript (PS) za pomocą Aspose.Page
+
 ## Wstęp
 
 W świecie programowania .NET zarządzanie dokumentami i manipulowanie nimi jest kluczowym aspektem. Aspose.Page dla .NET to potężna biblioteka zapewniająca programistom narzędzia potrzebne do płynnej pracy z dokumentami PostScript (PS). Ten przewodnik krok po kroku przeprowadzi Cię przez proces dodawania stron do dokumentu PostScript przy użyciu Aspose.Page w .NET.
@@ -113,3 +119,9 @@ A2: Absolutnie! Jak pokazano w samouczku, możesz określić różne rozmiary dl
 ### P5: Gdzie mogę szukać wsparcia społeczności lub zadawać pytania?
 
  A5: Dołącz do[Forum społeczności Aspose.Page](https://forum.aspose.com/c/page/39) aby łączyć się z innymi programistami, dzielić się doświadczeniami i szukać pomocy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

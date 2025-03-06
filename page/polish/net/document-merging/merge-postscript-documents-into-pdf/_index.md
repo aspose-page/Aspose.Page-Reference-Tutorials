@@ -3,10 +3,16 @@ title: Scal dokumenty PostScript do formatu PDF za pomocą Aspose.Page dla .NET
 linktitle: Scal dokumenty PostScript do formatu PDF
 second_title: Aspose.Page API .NET
 description: Dowiedz się, jak bez wysiłku scalać dokumenty PostScript do formatu PDF za pomocą Aspose.Page dla .NET. Zwiększ swoje możliwości przetwarzania dokumentów dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 10
 url: /pl/net/document-merging/merge-postscript-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scal dokumenty PostScript do formatu PDF za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 dziedzinie przetwarzania dokumentów Aspose.Page dla .NET wyróżnia się jako potężne narzędzie do manipulowania dokumentami PostScript. Jeśli potrzebujesz połączyć wiele dokumentów PostScript w jeden, wygodny plik PDF, jesteś we właściwym miejscu. Ten samouczek przeprowadzi Cię krok po kroku przez proces, upewniając się, że wykorzystasz pełny potencjał Aspose.Page dla .NET.
@@ -116,3 +122,9 @@ A2: Określ dodatkowe foldery czcionek w obiekcie opcji. Zapewnia to prawidłowe
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.Page dla .NET?
 
  A5: Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

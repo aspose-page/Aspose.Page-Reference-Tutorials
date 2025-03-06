@@ -3,10 +3,16 @@ title: Java dokumentum készítés
 linktitle: Java dokumentum készítés
 second_title: Aspose.Page Java API
 description: Könnyedén generálhat PostScript dokumentumokat Java nyelven az Aspose.Page segítségével. Az oldalméret, a margók és a betűtípusok testreszabása. Merüljön el a Java dokumentumkészítési oktatóanyagokban.
-type: docs
 weight: 23
 url: /hu/java/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java dokumentum készítés
+
 ## Bevezetés
 
 Ha a Java-dokumentumkészítés világában merül el, az Aspose.Page for Java a legjobb eszköz. Ebben az átfogó útmutatóban végigvezetjük a Java nyelvű dokumentumok létrehozásának bonyolultságain, különös tekintettel a PostScriptre. Induljunk el együtt erre az útra, hogy felszabadítsuk az Aspose.Page for Java potenciálját.
@@ -33,3 +39,9 @@ Ne csak szót fogadjon; tapasztalja meg Ön is az Aspose.Page for Java erejét. 
 ## Java dokumentumkészítési oktatóanyagok
 ### [Dokumentum létrehozása Java nyelven PostScript segítségével](./postscript/)
 Könnyedén hozhat létre PostScript dokumentumokat Java nyelven az Aspose.Page segítségével. Az oldalméret, a margók és a betűtípusok testreszabása. Próbálja ki most az ingyenes próbaverziót!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

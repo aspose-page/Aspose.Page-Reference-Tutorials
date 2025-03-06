@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 新增簡單屬性
 linktitle: 新增簡單屬性
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 增強 EPS 檔案。輕鬆為自訂文檔元資料新增簡單屬性。
-type: docs
 weight: 14
 url: /zh-hant/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 新增簡單屬性
+
 ## 介紹
 
 在文件操作和增強領域，Aspose.Page for .NET 成為一個強大的工具，為開發人員提供了在 EPS 檔案中無縫新增和修改 XMP 元資料的能力。本教學將引導您完成使用 Aspose.Page for .NET 將簡單屬性新增至 EPS 檔案的過程。
@@ -120,3 +126,9 @@ A3：Aspose.Page for .NET 支援各種屬性資料類型，包括整數、日期
 ### Q5：Aspose.Page for .NET 有免費試用版嗎？
 
  A5：是的，您可以免費試用[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

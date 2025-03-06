@@ -3,10 +3,16 @@ title: Ladda in licens från Stream Object med Aspose.Page för .NET
 linktitle: Ladda Licens från Stream Object
 second_title: Aspose.Page .NET API
 description: Lås upp dokumentmanipulation i .NET med Aspose.Page. Följ vår guide för att sömlöst ladda licenser från streamobjekt.
-type: docs
 weight: 12
 url: /sv/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ladda in licens från Stream Object med Aspose.Page för .NET
+
 ## Introduktion
 
 Är du redo att ta dina .NET-utvecklingsfärdigheter till nästa nivå? Om du någonsin har känt ett behov av att arbeta med dokument, särskilt i samband med sidmanipulation, då är Aspose.Page för .NET din perfekta följeslagare. I den här omfattande guiden går vi igenom processen att ladda en licens från ett stream-objekt, ett grundläggande steg i att utnyttja funktionerna i Aspose.Page för .NET.
@@ -111,3 +117,9 @@ S1: Ja, Aspose.Page är designad för att fungera sömlöst med alla versioner a
 ### F5: Kan jag uppgradera till en annan licensplan?
 
  S5: Utforska olika licensalternativ och uppgradera[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

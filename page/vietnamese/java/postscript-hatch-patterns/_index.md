@@ -3,10 +3,16 @@ title: Mẫu nở - PostScript
 linktitle: Mẫu nở - PostScript
 second_title: API Java Aspose.Page
 description: Khám phá nghệ thuật thêm các mẫu gạch chéo quyến rũ vào tài liệu Java PostScript bằng Aspose.Page. Nâng cao nội dung hình ảnh một cách dễ dàng để có được sản phẩm tuyệt đẹp.
-type: docs
 weight: 27
 url: /vi/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mẫu nở - PostScript
+
 ## Giới thiệu
 
 Việc tạo các tài liệu Java PostScript hấp dẫn về mặt trực quan trở nên dễ dàng với Aspose.Page. Trong hướng dẫn này, chúng ta đi sâu vào thế giới hấp dẫn của các mẫu nét vẽ, khám phá cách nâng cao nội dung hình ảnh của bạn một cách dễ dàng.
@@ -30,3 +36,9 @@ Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới
 ## Mẫu nở - Hướng dẫn PostScript
 ### [Thêm mẫu nở trong Java PostScript](./add-hatch-pattern/)
 Tìm hiểu cách thêm các mẫu gạch chéo quyến rũ vào tài liệu Java PostScript bằng Aspose.Page. Nâng cao nội dung hình ảnh của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

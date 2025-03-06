@@ -3,10 +3,16 @@ title: Kép hozzáadása a Java PostScript-ben
 linktitle: Kép hozzáadása a Java PostScript-ben
 second_title: Aspose.Page Java API
 description: Fedezze fel az Aspose.Page Java zökkenőmentes integrációját ebben az oktatóanyagban, amely a képek PostScript dokumentumokhoz való hozzáadásáról szól. Növelje dokumentumkezelési képességeit.
-type: docs
 weight: 10
 url: /hu/java/postscript-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép hozzáadása a Java PostScript-ben
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk képeket Java PostScript-dokumentumokhoz az Aspose.Page for Java könyvtár használatával. Az Aspose.Page egy hatékony könyvtár, amely különféle funkciókat kínál a PostScript fájlokkal való munkavégzéshez, lehetővé téve a fejlesztők számára, hogy zökkenőmentesen kezeljék és javítsák dokumentumaikat.
 ## Előfeltételek
@@ -80,3 +86,9 @@ Az Aspose.Page elsősorban a Java-t támogatja, de vannak verziók más programo
  Meglátogatni a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) közösségi támogatásért.
 ### Vannak további források az Aspose.Page for Java megvásárlásához?
  Meg lehet vásárolni a könyvtárat[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

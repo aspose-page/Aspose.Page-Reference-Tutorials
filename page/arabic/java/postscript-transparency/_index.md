@@ -3,10 +3,16 @@ title: الشفافية - بوستسكريبت
 linktitle: الشفافية - بوستسكريبت
 second_title: Aspose.Page جافا API
 description: ارفع مستوى Java PostScript باستخدام Aspose.Page لـ Java. دمج الصور الشفافة بسلاسة وإنشاء شفافية زائفة نابضة بالحياة لتصورات آسرة.
-type: docs
 weight: 39
 url: /ar/java/postscript-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الشفافية - بوستسكريبت
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بمستندات Java PostScript إلى آفاق جديدة؟ لا مزيد من البحث! في هذه السلسلة التعليمية، نتعمق في تعقيدات الشفافية، مع التركيز على جانبين رئيسيين: إضافة صور شفافة وإنشاء شفافية زائفة.
@@ -36,3 +42,9 @@ url: /ar/java/postscript-transparency/
 استكشف التكامل السلس للصور الشفافة في مستندات Java PostScript باستخدام Aspose.Page لـ Java. ارفع مستوى تصورات المستندات الخاصة بك دون عناء.
 ### [إظهار الشفافية الزائفة في Java PostScript](./show-pseudo-transparency/)
 افتح الرسومات النابضة بالحياة في Java PostScript! اتبع برنامجنا التعليمي Aspose.Page لإنشاء شفافية زائفة خطوة بخطوة. التحميل الان!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

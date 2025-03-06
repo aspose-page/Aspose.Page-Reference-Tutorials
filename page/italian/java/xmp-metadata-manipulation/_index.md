@@ -3,10 +3,16 @@ title: Manipolazione dei metadati XMP - Java
 linktitle: Manipolazione dei metadati XMP - Java
 second_title: API Java Aspose.Page
 description: Migliora facilmente i file EPS con la manipolazione dei metadati XMP, dall'aggiunta di elementi all'estrazione. Migliora la tua gestione dei documenti con le nostre guide.
-type: docs
 weight: 42
 url: /it/java/xmp-metadata-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipolazione dei metadati XMP - Java
+
 
 ## introduzione
 
@@ -66,3 +72,9 @@ Scopri Aspose.Page per Java: modifica facilmente i metadati XMP nei file EPS con
 Migliora i documenti EPS con Aspose.Page per Java. Modifica facilmente i metadati XMP per contenuti personalizzati e professionali.
 ### [Ottieni metadati da XMP utilizzando Java](./get-metadata/)
 Sblocca la potenza di Aspose.Page per Java per estrarre facilmente i metadati XMP. Migliora l'analisi dei documenti con la nostra guida passo passo!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

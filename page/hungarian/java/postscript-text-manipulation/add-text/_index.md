@@ -3,10 +3,16 @@ title: Aspose.Page Java szöveg manipuláció
 linktitle: Szöveg hozzáadása a Java PostScript-ben
 second_title: Aspose.Page Java API
 description: Fedezze fel az Aspose.Page for Java erejét a PostScript-dokumentumokhoz való szöveg hozzáadásával kapcsolatos oktatóanyagunkban. Tanulja meg könnyedén használni a rendszer- és egyéni betűtípusokat.
-type: docs
 weight: 10
 url: /hu/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java szöveg manipuláció
+
 ## Bevezetés
 Üdvözöljük lépésenkénti útmutatónkban a Java PostScript nyelvű szöveg hozzáadásához az Aspose.Page for Java használatával. Az Aspose.Page for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén kezeljék a PostScript dokumentumokat. Ebben az oktatóanyagban végigvezetjük a szöveg hozzáadásának, a rendszer- és egyéni betűtípusok használatának, a szöveg körvonalazásának, valamint a vonások beépítésének folyamatán a tetszetős eredmény érdekében.
 ## Előfeltételek
@@ -99,3 +105,9 @@ Teljesen! Több oldalt is létrehozhat a dokumentum létrehozási és mentési l
 `ExternalFontCache` egyéni betűtípusok lekérésére szolgál, biztosítva, hogy elérhetőek legyenek a szövegkezeléshez.
 ### Alkalmazhatok különböző vonásokat a vázolt szövegre?
  Igen, testreszabhatja a körvonal szélességét és színét a gombbal`Stroke` osztály és`Color` osztály, ill.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

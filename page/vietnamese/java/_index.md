@@ -1,12 +1,17 @@
 ---
 title: Hướng dẫn toàn diện và ví dụ về Aspose.Page cho Java
 linktitle: Aspose.Page cho các hướng dẫn Java
-type: docs
 weight: 10
 url: /vi/java/
 description: Mở khóa những bí mật của Thao tác trang Java với các hướng dẫn của Aspose.Page. Đi sâu vào việc cắt, biến đổi và hơn thế nữa để tạo ra các tài liệu có hình ảnh ấn tượng một cách dễ dàng.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn toàn diện và ví dụ về Aspose.Page cho Java
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng xử lý tài liệu Java của mình chưa? Đi sâu vào thế giới Aspose.Page dành cho Java với các hướng dẫn và ví dụ toàn diện của chúng tôi. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước của chúng tôi sẽ khai thác toàn bộ tiềm năng của Aspose.Page cho Java.
@@ -76,3 +81,9 @@ Nâng cao tài liệu Java XPS của bạn một cách dễ dàng với Aspose.P
 Nâng cao hình ảnh tài liệu Java của bạn một cách dễ dàng với Aspose.Page! Tìm hiểu cách nâng cao ứng dụng của bạn bằng cách thêm lưới bằng Visual Brush trong hướng dẫn từng bước này.
 ### [Thao tác siêu dữ liệu XMP - Java](./xmp-metadata-manipulation/)
 Dễ dàng nâng cao các tệp EPS bằng thao tác siêu dữ liệu XMP—từ việc thêm mục đến trích xuất. Nâng cao khả năng quản lý tài liệu của bạn với hướng dẫn của chúng tôi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

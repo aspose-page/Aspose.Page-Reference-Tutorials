@@ -3,10 +3,16 @@ title: Manipulace s obrázky
 linktitle: Manipulace s obrázky
 second_title: Aspose.Page .NET API
 description: Objevte sílu Aspose.Page for .NET prostřednictvím našich výukových programů pro manipulaci s obrázky. Bez námahy ořízněte a změňte velikost obrázků EPS pro úžasné a přesné výsledky.
-type: docs
 weight: 26
 url: /cs/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s obrázky
+
 ## Úvod
 
 Jste připraveni vylepšit své dovednosti v manipulaci s obrázky EPS v .NET? Ponořte se do našich komplexních výukových programů pro manipulaci s obrázky s Aspose.Page for .NET, kde vás provedeme bezproblémovým procesem ořezávání a změny velikosti obrázků EPS.
@@ -41,3 +47,9 @@ Prozkoumejte svět Aspose.Page for .NET pomocí našich výukových programů pr
 Prozkoumejte bezproblémový svět manipulace s obrázky EPS v .NET pomocí Aspose.Page. Bez námahy ořízněte a změňte velikost obrázků pro úžasné výsledky.
 ### [Změna velikosti obrázků EPS pomocí Aspose.Page pro .NET](./resize-eps-images/)
 Prozkoumejte bezproblémový proces změny velikosti obrázků EPS v .NET pomocí Aspose.Page. Bez námahy dosáhněte přesnosti v bodech, palcích, milimetrech a procentech.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Szövegmanipuláció - PostScript
 linktitle: Szövegmanipuláció - PostScript
 second_title: Aspose.Page Java API
 description: Oldja fel az Aspose.Page-t a Java lehetőségeinek megismerésére a PostScript oktatóanyagok segítségével. Könnyen hozzáadhat szöveget, beleértve a Unicode karakterláncokat is, hogy javítsa projektjeit.
-type: docs
 weight: 36
 url: /hu/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegmanipuláció - PostScript
+
 
 ## Bevezetés
 
@@ -30,3 +36,9 @@ Akár finomítani szeretné szövegmanipulációs készségeit, akár új projek
 Fedezze fel az Aspose.Page for Java erejét a PostScript-dokumentumokhoz való szöveg hozzáadásával kapcsolatos oktatóanyagunkban. Tanulja meg könnyedén használni a rendszer- és egyéni betűtípusokat.
 ### [Szöveg hozzáadása a Java PostScript Unicode String használatával](./add-text-unicode/)
 Fedezze fel az Aspose.Page for Java erejét, amikor Unicode szöveget ad hozzá PostScript-projektjeihez. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

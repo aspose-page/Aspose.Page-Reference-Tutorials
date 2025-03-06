@@ -3,10 +3,16 @@ title: Documentcreatie
 linktitle: Documentcreatie
 second_title: Aspose.Page .NET-API
 description: Creëer moeiteloos verbluffende XPS- en PostScript-documenten met Aspose.Page voor .NET. Ontdek tutorials voor het maken en wijzigen van documenten voor een naadloze integratie.
-type: docs
 weight: 23
 url: /nl/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Documentcreatie
+
 ## Invoering
 
 Aspose.Page voor .NET opent de deur naar een wereld aan mogelijkheden op het gebied van elektronische documentcreatie. Of u nu een doorgewinterde ontwikkelaar bent of net begint, onze stapsgewijze handleiding helpt u moeiteloos XPS- en PostScript-documenten te genereren.
@@ -36,3 +42,9 @@ Ontdek de wereld van het maken van XPS-documenten met Aspose.Page voor .NET. Vol
 Leer hoe u PostScript-documenten maakt in .NET met behulp van Aspose.Page. Volg onze stapsgewijze handleiding voor een naadloze integratie. Download de bibliotheek en begin moeiteloos met het manipuleren van PostScript-bestanden.
 ### [Wijzig het XPS-document met Aspose.Page voor .NET](./modify-xps-document/)
 Ontdek de kracht van Aspose.Page voor .NET om XPS-documenten moeiteloos aan te passen. Volg onze stapsgewijze handleiding, verbeter uw documentverwerking en voeg gepersonaliseerde handtekeningteksten toe.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

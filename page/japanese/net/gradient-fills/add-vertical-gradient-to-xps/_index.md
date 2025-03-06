@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して XPS に垂直グラデーション�
 linktitle: XPS に垂直グラデーションを追加する
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して、XPS ドキュメントを垂直方向のグラデーションで強化する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 15
 url: /ja/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して XPS に垂直グラデーションを追加する
+
 ## 導入
 
 Aspose.Page for .NET を使用して XPS ドキュメントに垂直グラデーションを追加する方法に関するステップバイステップのチュートリアルへようこそ。 Aspose.Page は、.NET アプリケーションで XPS (XML Paper Specification) ファイルを操作できるようにする強力な API です。このチュートリアルでは、新しい XPS ドキュメントを作成し、パスに垂直グラデーションを追加し、結果を保存するプロセスを説明します。
@@ -117,3 +123,9 @@ A3: はい、Aspose.Page の無料トライアルを入手できます。[ここ
 ### Q5: サポートを受けたり、質問したりするにはどうすればよいですか?
 
  A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティサポートのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

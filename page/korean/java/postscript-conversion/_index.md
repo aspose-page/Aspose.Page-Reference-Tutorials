@@ -3,10 +3,16 @@ title: 변환 - 포스트스크립트
 linktitle: 변환 - 포스트스크립트
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page 튜토리얼을 사용하여 PostScript를 이미지, PDF로 변환하고 Java에서 이미지를 EPS로 저장하세요. 원활한 통합을 위한 단계별 가이드, FAQ 및 전제 조건입니다.
-type: docs
 weight: 21
 url: /ko/java/postscript-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 변환 - 포스트스크립트
+
 ## 소개
 
 Java 프로그래밍 기술을 향상하고 문서 처리 능력을 강화할 준비가 되셨습니까? PostScript 파일의 원활한 변환에 초점을 맞춘 Java 튜토리얼용 Aspose.Page의 세계를 살펴보세요. 이 포괄적인 가이드에서는 PostScript를 이미지, PDF로 변환하고 이미지를 EPS로 저장하는 세 가지 주요 측면을 살펴보겠습니다. 이 여행을 함께 시작합시다!
@@ -43,3 +49,9 @@ Aspose.Page를 사용하여 PostScript를 Java 이미지로 변환하는 방법�
 Aspose.Page를 사용하여 Java에서 PostScript를 PDF로 손쉽게 변환하세요. 원활한 통합을 위한 단계별 가이드를 따르세요. 지금 Aspose.Page를 다운로드하세요!
 ### [Java에서 이미지를 EPS로 저장](./save-image-as-eps/)
 이미지를 쉽게 EPS로 저장할 수 있는 Java용 Aspose.Page의 강력한 기능을 살펴보세요. 이 다용도 Java 라이브러리를 사용하여 그래픽 및 인쇄 기능을 향상하십시오.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

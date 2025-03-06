@@ -3,10 +3,16 @@ title: Agregar elementos de matriz en metadatos XMP usando Java
 linktitle: Agregar elementos de matriz en metadatos XMP usando Java
 second_title: API de Java de Aspose.Page
 description: Mejore archivos EPS con Aspose.Page para Java. Aprenda a agregar elementos de matriz a metadatos XMP sin esfuerzo. ¡Sigue nuestra guía paso a paso ahora!
-type: docs
 weight: 10
 url: /es/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar elementos de matriz en metadatos XMP usando Java
+
 ## Introducción
 Bienvenido a nuestra guía paso a paso sobre el uso de Aspose.Page para Java para agregar elementos de matriz en metadatos XMP. Aspose.Page es una potente biblioteca Java que le permite manipular y trabajar con varios formatos de documentos, incluidos archivos EPS. En este tutorial, nos centraremos en la tarea específica de agregar elementos de matriz en metadatos XMP usando Java.
 ## Requisitos previos
@@ -78,3 +84,9 @@ Sí, Aspose.Page admite varios formatos de documentos, incluidos EPS, PDF y XPS.
  Puedes comprar el producto.[aquí](https://purchase.aspose.com/buy).
 ### ¿Hay licencias temporales disponibles para Aspose.Page para Java?
  Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

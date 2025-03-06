@@ -3,10 +3,16 @@ title: Aggiungi metadati in XMP utilizzando Java
 linktitle: Aggiungi metadati in XMP utilizzando Java
 second_title: API Java Aspose.Page
 description: Esplora la perfetta integrazione di Aspose.Page per Java e scopri come aggiungere metadati XMP ai tuoi file EPS senza sforzo. Migliora il tuo gioco di gestione dei documenti oggi!
-type: docs
 weight: 11
 url: /it/java/xmp-metadata-manipulation/add-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi metadati in XMP utilizzando Java
+
 ## introduzione
 Desideri migliorare i metadati del tuo documento aggiungendo informazioni XMP utilizzando Java? Non guardare oltre! Questa guida passo passo ti guiderà attraverso il processo di aggiunta di metadati a un file EPS utilizzando la libreria Aspose.Page per Java. Aspose.Page è un potente strumento che semplifica le attività di manipolazione dei documenti nelle applicazioni Java.
 ## Prerequisiti
@@ -101,3 +107,9 @@ In questo tutorial, abbiamo esplorato il processo di aggiunta di metadati XMP a 
 R: Aspose.Page per Java supporta vari formati, inclusi EPS, PDF e XPS.
 ### D: Posso acquistare Aspose.Page per Java?
  R: Sì, puoi acquistare Aspose.Page per Java[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

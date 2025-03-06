@@ -3,10 +3,16 @@ title: Rita former
 linktitle: Rita former
 second_title: Aspose.Page .NET API
 description: Förbättra enkelt skapande av dokument i .NET! Lär dig steg-för-steg handledning om hur du lägger till cirklar, ellipser och rektanglar till PostScript (PS) med Aspose.Page .NET.
-type: docs
 weight: 31
 url: /sv/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rita former
+
 ## Introduktion
 
 Aspose.Page för .NET ger utvecklare möjlighet att förbättra dokumentskapandet i .NET-miljön. Dyk in i våra steg-för-steg tutorials för att bemästra konsten att lägga till fängslande former till PostScript (PS) och XPS-dokument.
@@ -33,3 +39,9 @@ Förbättra XPS-dokument med livfulla radiella gradienter med Aspose.Page för .
 Förbättra dokumentskapandet i .NET med Aspose.Page. Lär dig att lägga till rektanglar till PostScript-filer (PS) steg för steg.
 ### [Lägg till rektangel till XPS-dokument med Aspose.Page för .NET](./add-rectangle-to-xps-document/)
 Förbättra dokumentskapandet med Aspose.Page för .NET. Lär dig hur du lägger till rektanglar till XPS-dokument i denna steg-för-steg-handledning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

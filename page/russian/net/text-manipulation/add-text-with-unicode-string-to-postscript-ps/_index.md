@@ -3,10 +3,16 @@ title: Добавьте текст со строкой Unicode в PostScript (PS
 linktitle: Добавить текст со строкой Юникода в PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Узнайте, как добавить текст Unicode в файлы PostScript с помощью Aspose.Page для .NET. Упростите работу с документами.
-type: docs
 weight: 11
 url: /ru/net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте текст со строкой Unicode в PostScript (PS) с помощью Aspose.Page
+
 ## Введение
 
 В области манипулирования документами Aspose.Page для .NET выделяется как надежная библиотека, которая позволяет разработчикам создавать, редактировать и конвертировать различные форматы документов. Одной из его мощных функций является возможность добавлять текст с использованием строк Юникода в файлы PostScript (PS). В этом руководстве мы рассмотрим пошаговое руководство по выполнению этой задачи, предоставляющее разработчикам, работающим с Aspose.Page, удобство работы.
@@ -110,3 +116,9 @@ A4: Aspose.Page поддерживает различные форматы, вк
 ### В5: Могу ли я настроить внешний вид добавленного текста?
 
 О5: Да, вы можете настроить шрифт, размер, цвет и другие свойства текста в Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

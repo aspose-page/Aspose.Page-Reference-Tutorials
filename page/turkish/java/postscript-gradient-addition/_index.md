@@ -3,10 +3,16 @@ title: Degrade Ekleme - PostScript
 linktitle: Degrade Ekleme - PostScript
 second_title: Aspose.Page Java API'si
 description: Aspose.Page for Java eğitimleriyle Java PostScript belgelerinizi geliştirin. Çarpıcı çapraz, yatay, radyal ve dikey degradeleri zahmetsizce eklemeyi öğrenin.
-type: docs
 weight: 25
 url: /tr/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Degrade Ekleme - PostScript
+
 ## giriiş
 
 Java PostScript belgelerinizi canlı renk geçişleriyle geliştirmek istiyorsanız Aspose.Page for Java, başvuracağınız çözümdür. Bu eğitim serisi, çapraz degradelerden radyal geçişlere kadar her şeyi kapsayan degrade ekleme sanatını derinlemesine ele alıyor. Görsel olarak büyüleyici belgeler sanatında ustalaşmak için bir yolculuğa çıkalım.
@@ -44,3 +50,9 @@ Aspose.Page for Java'yı kullanarak Java PostScript'te çarpıcı radyal degrade
 Java uygulamalarınızda göz kamaştırıcı grafikler elde etmek için Aspose.Page'i kullanarak Java PostScript'e Radyal Degrade eklemeye yönelik adım adım kılavuzu keşfedin.
 ### [Java PostScript'te Dikey Degrade Ekleme](./vertical/)
 Aspose.Page for Java ile Java PostScript'te dikey degradeler eklemeye yönelik adım adım kılavuzu keşfedin. Canlı görsellerle belgelerinizi zahmetsizce geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 XPS 문서에서 불투명 마스크 
 linktitle: XPS 문서에서 불투명 마스크 설정
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 XPS 문서에서 불투명 마스크를 설정하는 방법을 알아보세요. 손쉽게 문서 미학을 향상시키세요.
-type: docs
 weight: 12
 url: /ko/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 XPS 문서에서 불투명 마스크 설정
+
 ## 소개
 
 다양한 수준의 투명도를 사용하여 시각적으로 매력적인 문서를 만들려면 불투명 마스크가 필수적입니다. .NET용 Aspose.Page는 이 프로세스를 단순화하여 개발자에게 XPS 문서를 향상시킬 수 있는 포괄적인 도구 세트를 제공합니다. 이 튜토리얼에서는 단계별 가이드로 불투명 마스크를 설정하는 방법을 살펴보겠습니다.
@@ -98,3 +104,9 @@ A4: 예, 여러 개의 불투명 마스크를 겹쳐서 복잡한 투명도 효�
 ### Q5: Aspose.Page는 다른 문서 형식과 호환됩니까?
 
 A5: Aspose.Page는 주로 XPS 문서에 중점을 두지만 Aspose는 다양한 형식을 처리하기 위한 다양한 제품을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

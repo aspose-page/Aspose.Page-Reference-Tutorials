@@ -3,10 +3,16 @@ title: Transparansi Pseudo Java PostScript dengan Aspose.Page
 linktitle: Tampilkan Transparansi Pseudo di Java PostScript
 second_title: Aspose.Halaman Java API
 description: Buka kunci grafik yang hidup di Java PostScript! Ikuti tutorial Aspose.Page kami untuk pembuatan transparansi semu langkah demi langkah. Unduh sekarang!
-type: docs
 weight: 11
 url: /id/java/postscript-transparency/show-pseudo-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transparansi Pseudo Java PostScript dengan Aspose.Page
+
 ## Perkenalan
 Selamat datang di panduan komprehensif tentang penggunaan Aspose.Page untuk Java guna mendemonstrasikan transparansi semu di Java PostScript. Dalam tutorial ini, kami akan menguraikan proses langkah demi langkah, memastikan bahwa Anda memahami setiap konsep secara menyeluruh. Transparansi semu melibatkan penciptaan ilusi transparansi dalam grafik, dan Aspose.Page menyederhanakan tugas ini dengan fitur-fitur canggihnya.
 ## Prasyarat
@@ -90,3 +96,9 @@ Selamat! Anda telah berhasil membuat efek transparansi semu di Java PostScript m
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Butuh bantuan atau ingin berdiskusi Aspose.Page?
  Mengunjungi[Aspose.Halaman Forum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

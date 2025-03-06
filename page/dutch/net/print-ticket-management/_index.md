@@ -3,10 +3,16 @@ title: Ticketbeheer afdrukken
 linktitle: Ticketbeheer afdrukken
 second_title: Aspose.Page .NET-API
 description: Creëer en bewerk aangepaste printtickets met Aspose.Page voor .NET. Pas uw printervaring moeiteloos aan met fijnmazige controle in XPS-documenten.
-type: docs
 weight: 30
 url: /nl/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ticketbeheer afdrukken
+
 
 ## Invoering
 
@@ -34,3 +40,9 @@ Kortom, deze tutorialserie is een must-read voor ontwikkelaars die hun workflows
 Ontdek de stapsgewijze handleiding voor het maken van aangepaste printtickets met Aspose.Page voor .NET. Pas uw printervaring aan met fijnmazige controle.
 ### [Bewerk bestaande printtickets met Aspose.Page voor .NET](./print-ticket-management/aspose.page/)
 Leer hoe u printtickets in XPS-documenten kunt bewerken met Aspose.Page voor .NET. Een stapsgewijze handleiding voor ontwikkelaars. Verbeter moeiteloos de controle over het afdrukken van documenten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

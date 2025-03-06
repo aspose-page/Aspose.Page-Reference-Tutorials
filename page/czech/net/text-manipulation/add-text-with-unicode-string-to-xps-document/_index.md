@@ -3,10 +3,16 @@ title: Přidejte text s řetězcem Unicode do dokumentu XPS pomocí Aspose.Page
 linktitle: Přidejte text s řetězcem Unicode do dokumentu XPS
 second_title: Aspose.Page .NET API
 description: Prozkoumejte sílu Aspose.Page for .NET pomocí našeho podrobného průvodce přidáváním textu Unicode do dokumentů XPS.
-type: docs
 weight: 12
 url: /cs/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte text s řetězcem Unicode do dokumentu XPS pomocí Aspose.Page
+
 ## Úvod
 
 V neustále se vyvíjejícím prostředí vývoje .NET vyniká Aspose.Page jako výkonný nástroj pro práci s dokumenty XPS. Mezi jeho mnoha funkcemi je cennou funkcí možnost přidat text s řetězci Unicode do dokumentu XPS. Tento průvodce vás krok za krokem provede celým procesem a zajistí, že tuto schopnost využijete efektivně.
@@ -88,3 +94,9 @@ A2: Rozhodně! Poskytnutý vzorový kód vám umožňuje snadno přizpůsobit st
 ### Otázka 5: Je před nákupem k dispozici zkušební verze?
 
  A5: Určitě! Máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/) před nákupem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

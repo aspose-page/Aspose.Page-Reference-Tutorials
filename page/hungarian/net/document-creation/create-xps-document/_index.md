@@ -3,10 +3,16 @@ title: Hozzon létre XPS-dokumentumot az Aspose.Page segítségével .NET-hez
 linktitle: Hozzon létre XPS-dokumentumot
 second_title: Aspose.Page .NET API
 description: Fedezze fel az XPS-dokumentumkészítés világát az Aspose.Page for .NET segítségével. Kövesse lépésenkénti útmutatónkat az elektronikus dokumentumok könnyű létrehozásához.
-type: docs
 weight: 10
 url: /hu/net/document-creation/create-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre XPS-dokumentumot az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 Üdvözöljük részletes útmutatónkban az XPS-dokumentumok létrehozásáról az Aspose.Page for .NET használatával. Ebben az oktatóanyagban az XPS-fájlok létrehozásának folyamatát fogjuk megvizsgálni, amely az elektronikus dokumentumok széles körben használt formátuma. Akár tapasztalt fejlesztő, akár csak most kezdi az Aspose.Page-t, ezt az útmutatót úgy alakítottuk ki, hogy segítsen zökkenőmentesen létrehozni XPS-dokumentumokat világos példákkal és részletes magyarázatokkal.
@@ -108,3 +114,9 @@ A4: Abszolút! Az Aspose.Page könyvtár használatával több oldalt is hozzáa
 ### 5. kérdés: Elérhető-e próbaverzió?
 
  5. válasz: Igen, felfedezheti az Aspose.Page szolgáltatásait, ha letölti a[ingyenes próbaverzió](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

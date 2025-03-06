@@ -3,10 +3,16 @@ title: EPS 元数据管理
 linktitle: EPS 元数据管理
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 提升 EPS 组织。轻松添加元数据以增强可访问性。探索 EPS 元数据管理教程。
-type: docs
 weight: 36
 url: /zh/net/eps-metadata-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPS 元数据管理
+
 
 ## 介绍
 
@@ -59,3 +65,9 @@ url: /zh/net/eps-metadata-management/
 使用 Aspose.Page for .NET 掌握 EPS 文件操作。轻松更改 XMP 元数据值。
 ### [使用 Aspose.Page for .NET 从 EPS 文档中提取元数据](./extract-metadata-from-eps-document/)
 使用 Aspose.Page for .NET 增强 EPS 文档组织。轻松添加元数据以提高可访问性和信息检索。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 XPS 문서에 직사각형 추가
 linktitle: XPS 문서에 직사각형 추가
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 문서 생성을 향상하세요. 이 단계별 튜토리얼에서 XPS 문서에 직사각형을 추가하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 XPS 문서에 직사각형 추가
+
 ## 소개
 
 Aspose.Page for .NET은 .NET 애플리케이션에서 XPS(XML Paper Spec) 문서 작업을 위한 다양한 기능을 제공하는 강력한 라이브러리입니다. 이 튜토리얼에서는 .NET용 Aspose.Page를 사용하여 XPS 문서에 직사각형을 추가하는 방법에 중점을 둘 것입니다. 문서 작성 프로세스를 향상하려면 이 단계별 가이드를 따르세요.
@@ -95,3 +101,9 @@ A1: 예, Aspose.Page는 모든 .NET 애플리케이션과 원활하게 작동하
 ### Q5: 어디에서 커뮤니티 지원을 찾거나 Aspose.Page for .NET과 관련된 질문을 할 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

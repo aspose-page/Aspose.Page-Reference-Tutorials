@@ -3,10 +3,16 @@ title: Прозрачность - XPS
 linktitle: Прозрачность - XPS
 second_title: API Aspose.Page Java
 description: Улучшите свои документы Java XPS без особых усилий с помощью Aspose.Page. Научитесь добавлять прозрачные объекты и устанавливать маски непрозрачности в наших руководствах для улучшения визуальных эффектов.
-type: docs
 weight: 40
 url: /ru/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Прозрачность - XPS
+
 ## Введение
 
 Вы хотите вывести свои документы Java XPS на новый уровень? Погрузитесь в мир эффектов прозрачности с помощью Aspose.Page и откройте для себя мир потрясающих визуально возможностей. В этом подробном руководстве мы познакомим вас с двумя важными уроками: добавлением прозрачных объектов и установкой масок непрозрачности.
@@ -47,3 +53,9 @@ url: /ru/java/xps-transparency/
 Улучшите свои документы Java XPS с помощью потрясающих эффектов прозрачности с помощью Aspose.Page. Следуйте нашему пошаговому руководству по добавлению прозрачных объектов. 
 ### [Установите маску непрозрачности в Java XPS](./set-opacity-mask/)
 Откройте для себя возможности настройки масок непрозрачности в Java XPS с помощью Aspose.Page. Следуйте нашему пошаговому руководству, чтобы визуально улучшить работу с документами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

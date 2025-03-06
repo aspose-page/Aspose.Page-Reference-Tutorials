@@ -3,10 +3,16 @@ title: Thêm hình elip gradient xuyên tâm với Aspose.Page
 linktitle: Thêm hình elip trong Java XPS
 second_title: API Java Aspose.Page
 description: Khám phá hướng dẫn từng bước về cách thêm hình elip có nét chuyển động hướng tâm trong Java XPS bằng cách sử dụng Aspose.Page cho Java. Tăng cường việc tạo tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình elip gradient xuyên tâm với Aspose.Page
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thêm hình elip trong Java XPS bằng Aspose.Page cho Java. Aspose.Page là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với các tài liệu XPS một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo một hình elip có nét chuyển động hướng tâm và lưu nó dưới dạng tài liệu XPS.
 ## Điều kiện tiên quyết
@@ -91,3 +97,9 @@ Tuyệt đối! Aspose.Page được thiết kế để xử lý hiệu quả vi
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Có diễn đàn cộng đồng nào để thảo luận về Aspose.Page không?
  Vâng, hãy tham gia[Diễn đàn cộng đồng Aspose.Page](https://forum.aspose.com/c/page/39) để tương tác với các nhà phát triển khác và nhận được hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

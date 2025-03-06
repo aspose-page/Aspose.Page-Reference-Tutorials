@@ -3,10 +3,16 @@ title: Aggiungi griglia utilizzando Visual Brush in Java
 linktitle: Aggiungi griglia utilizzando Visual Brush in Java
 second_title: API Java Aspose.Page
 description: Migliora la grafica dei documenti Java con Aspose.Page! Impara ad aggiungere griglie utilizzando Visual Brush passo dopo passo. Aumenta l'attrattiva della tua domanda senza sforzo.
-type: docs
 weight: 10
 url: /it/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi griglia utilizzando Visual Brush in Java
+
 ## introduzione
 Stai cercando di migliorare le tue applicazioni Java con griglie visivamente accattivanti utilizzando Aspose.Page? In questo tutorial ti guideremo attraverso il processo di aggiunta di una griglia utilizzando Visual Brush in Java con Aspose.Page. Visual Brush ti consente di dipingere un'area con contenuto visivo, creando straordinari effetti griglia nei tuoi documenti.
 ## Prerequisiti
@@ -84,3 +90,9 @@ Assolutamente! Visual Brush ti consente di dipingere con vari colori, offrendo f
  Sì, puoi accedere a[prova gratuita](https://releases.aspose.com/) per esplorare le funzionalità di Aspose.Page.
 ### Come posso ottenere una licenza temporanea per Aspose.Page?
  Acquisisci un[licenza temporanea](https://purchase.aspose.com/temporary-license/) a scopo di test.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

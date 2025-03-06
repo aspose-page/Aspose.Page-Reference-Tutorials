@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 PS(PostScript)에 수직 그라데이션 추�
 linktitle: PostScript에 수직 그라데이션 추가(PS)
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page를 사용하여 .NET의 PostScript(PS) 문서에 시각적으로 매력적인 수직 그라데이션을 추가하는 방법을 알아보세요. 이 단계별 가이드를 통해 문서 작성 수준을 높이세요.
-type: docs
 weight: 14
 url: /ko/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 PS(PostScript)에 수직 그라데이션 추가
+
 ## 소개
 
 문서 조작 및 생성 영역에서 Aspose.Page for .NET은 개발자를 위한 강력한 도구로 돋보입니다. 이 튜토리얼은 .NET용 Aspose.Page를 사용하여 PS(PostScript) 문서에 수직 그라데이션을 추가하는 과정을 안내합니다. 이 가이드를 마치면 시각적으로 매력적인 효과를 얻기 위해 필요한 단계를 명확하게 이해하게 될 것입니다.
@@ -154,3 +160,9 @@ A3: Aspose.Page는 방사형 및 경로 그라데이션을 포함한 다양한 �
 ### Q5: 도움을 구할 수 있는 Aspose.Page 커뮤니티 포럼이 있나요?
 
  A5: 물론이죠! 다음으로 향하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 다른 개발자와 연결하고 도움을 받으려면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

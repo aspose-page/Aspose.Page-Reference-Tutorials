@@ -1,12 +1,17 @@
 ---
 title: Tutoriais abrangentes e exemplos de Aspose.Page para .NET
 linktitle: Tutoriais Aspose.Page para .NET
-type: docs
 weight: 10
 url: /pt/net/
 description: Liberte o potencial do Aspose.Page for .NET com tutoriais que cobrem criação, manipulação e aprimoramento. Domine desde técnicas básicas até técnicas avançadas sem esforço.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutoriais abrangentes e exemplos de Aspose.Page para .NET
+
 ## Introdução
 
 Você está pronto para liberar todo o potencial do Aspose.Page for .NET? Não procure mais! Nossos tutoriais abrangentes cobrem todos os aspectos, desde funcionalidades básicas até técnicas avançadas, garantindo que você se torne um usuário proficiente.
@@ -115,3 +120,9 @@ Descubra a magia dos efeitos de transparência em seus documentos com Aspose.Pag
 Eleve o processamento de documentos em .NET com os tutoriais Aspose.Page. Mergulhe no reino dos Pincéis Visuais, dominando técnicas para criar documentos visualmente impressionantes.
 ### [Gerenciamento de metadados EPS](./eps-metadata-management/)
 Eleve a organização EPS com Aspose.Page para .NET. Adicione metadados sem esforço para melhorar a acessibilidade. Explore tutoriais de gerenciamento de metadados EPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulação de Textura
 linktitle: Manipulação de Textura
 second_title: API Aspose.Page .NET
 description: Aprimore documentos PostScript com efeitos visuais impressionantes! Aprenda a aplicar padrões de ladrilhos de textura usando Aspose.Page for .NET com nosso guia passo a passo.
-type: docs
 weight: 33
 url: /pt/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de Textura
+
 ## Introdução
 
 No domínio da manipulação de documentos, dominar o manuseio de texturas pode desbloquear um mundo de possibilidades criativas. Aspose.Page for .NET é um poderoso aliado para desenvolvedores que buscam elevar seus documentos PostScript (PS) a novos patamares. Neste artigo, nos aprofundamos no universo cativante dos Tutoriais de Tratamento de Texturas, focando especificamente na aplicação de padrões de ladrilhos de textura.
@@ -36,3 +42,9 @@ Concluindo, nossos tutoriais sobre manuseio de texturas, com foco na aplicação
 ## Tutoriais de manipulação de texturas
 ### [Aplicar padrão de ladrilho de textura a PostScript (PS) com Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
 Aprimore seus documentos PostScript (PS) com padrões de ladrilhos de textura usando Aspose.Page for .NET. Siga nosso guia passo a passo para um toque criativo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

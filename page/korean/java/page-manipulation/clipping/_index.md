@@ -3,10 +3,16 @@ title: Craft Visual Wonders - Java 페이지 조작의 클리핑
 linktitle: Java 페이지 조작의 클리핑
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java 페이지 조작에서 클리핑 기술을 살펴보세요. 놀라운 시각적 효과와 제어력을 위해 정밀한 문서 제작을 마스터하세요.
-type: docs
 weight: 10
 url: /ko/java/page-manipulation/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Craft Visual Wonders - Java 페이지 조작의 클리핑
+
 ## 소개
 Java 페이지 조작 영역에서 시각적으로 훌륭하고 정밀하게 제작된 문서를 작성하려면 클리핑 기술을 익히는 것이 필수적입니다. 클리핑을 사용하면 콘텐츠가 표시되어야 하는 특정 영역을 정의하여 콘텐츠의 가시성을 제어할 수 있습니다. 이 튜토리얼에서는 문서 처리 작업을 처리하기 위한 강력한 라이브러리인 Aspose.Page for Java를 사용하여 클리핑의 세계를 탐구합니다.
 ## 전제 조건
@@ -76,3 +82,9 @@ Aspose.Page를 사용하여 Java 페이지 조작에서 클리핑을 마스터�
  탐색[선적 서류 비치](https://reference.aspose.com/page/java/) 그리고[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 풍부한 자원을 위해.
 ### 무료 평가판이 제공되나요?
  예, Aspose.Page 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

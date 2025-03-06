@@ -3,10 +3,16 @@ title: Lägg till enkla egenskaper med Aspose.Page för .NET
 linktitle: Lägg till enkla egenskaper
 second_title: Aspose.Page .NET API
 description: Förbättra EPS-filer med Aspose.Page för .NET. Lägg till enkla egenskaper utan ansträngning för anpassade dokumentmetadata.
-type: docs
 weight: 14
 url: /sv/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till enkla egenskaper med Aspose.Page för .NET
+
 ## Introduktion
 
 När det gäller dokumentmanipulation och förbättring framstår Aspose.Page för .NET som ett kraftfullt verktyg som ger utvecklare möjlighet att lägga till och ändra XMP-metadata i EPS-filer sömlöst. Denna handledning guidar dig genom processen att lägga till enkla egenskaper till en EPS-fil med Aspose.Page för .NET.
@@ -120,3 +126,9 @@ S3: Aspose.Page för .NET stöder olika datatyper för egenskaper, inklusive hel
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.Page för .NET?
 
  A5: Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

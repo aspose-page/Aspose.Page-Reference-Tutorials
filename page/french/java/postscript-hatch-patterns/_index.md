@@ -3,10 +3,16 @@ title: Motifs de hachures - PostScript
 linktitle: Motifs de hachures - PostScript
 second_title: API Java Aspose.Page
 description: Découvrez l'art d'ajouter des motifs de hachures captivants aux documents Java PostScript avec Aspose.Page. Élevez le contenu visuel sans effort pour un résultat époustouflant.
-type: docs
 weight: 27
 url: /fr/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Motifs de hachures - PostScript
+
 ## Introduction
 
 Créer des documents Java PostScript visuellement attrayants devient un jeu d'enfant avec Aspose.Page. Dans ce didacticiel, nous plongeons dans le monde fascinant des motifs de hachures et explorons comment améliorer votre contenu visuel sans effort.
@@ -30,3 +36,9 @@ Que vous soyez un développeur chevronné ou un nouveau venu dans Java PostScrip
 ## Motifs de hachures - Tutoriels PostScript
 ### [Ajouter un motif de hachures dans Java PostScript](./add-hatch-pattern/)
 Découvrez comment ajouter des motifs de hachures captivants aux documents Java PostScript à l'aide d'Aspose.Page. Élevez votre contenu visuel sans effort.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

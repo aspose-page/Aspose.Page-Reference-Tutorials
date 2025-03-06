@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 将水平渐变添加到 PostScript (PS)
 linktitle: 将水平渐变添加到 PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 以令人惊叹的水平渐变增强 PostScript 文档。按照我们的分步教程进行无缝实施。
-type: docs
 weight: 12
 url: /zh/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 将水平渐变添加到 PostScript (PS)
+
 ## 介绍
 
 欢迎来到这个关于使用 Aspose.Page for .NET 将水平渐变添加到 PostScript (PS) 文档的综合教程。 Aspose.Page 是一个功能强大的库，可以促进各种格式的文档操作，为开发人员提供无缝创建、修改和渲染文档所需的工具。
@@ -143,3 +149,9 @@ A3：Aspose.Page支持多种文档格式，包括XPS、PS、PDF等。请参阅�
 ### Q5：有 Aspose.Page 用户的社区论坛吗？
 
  A5：是的，加入 Aspose.Page 社区：[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)与其他用户联系并寻求帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

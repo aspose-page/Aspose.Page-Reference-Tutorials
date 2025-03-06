@@ -3,10 +3,16 @@ title: 頁面操作 - XPS
 linktitle: 頁面操作 - XPS
 second_title: Aspose.Page Java API
 description: 透過我們的教學探索 Aspose.Page for Java 的強大功能。透過輕鬆新增頁面來增強應用程式功能，從而提升您的 Java XPS 文件。
-type: docs
 weight: 33
 url: /zh-hant/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 頁面操作 - XPS
+
 
 ## 介紹
 
@@ -36,3 +42,9 @@ Aspose.Page 以其用戶友好的方法和無與倫比的功能而脫穎而出�
 ## 頁面操作 - XPS 教學課程
 ### [在 Java XPS 中新增頁面](./add-page/)
 使用 Aspose.Page 提升 Java XPS 文件。了解如何輕鬆新增頁面以增強應用程式功能。立即深入學習教程！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

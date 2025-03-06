@@ -3,10 +3,16 @@ title: जावा में छवि को ईपीएस के रूप 
 linktitle: जावा में छवि को ईपीएस के रूप में सहेजें
 second_title: Aspose.Page जावा एपीआई
 description: आसानी से ईपीएस के रूप में छवियों को सहेजने में जावा के लिए Aspose.Page की शक्ति का अन्वेषण करें। इस बहुमुखी जावा लाइब्रेरी के साथ अपने ग्राफिक्स और प्रिंटिंग क्षमताओं को बढ़ाएं।
-type: docs
 weight: 12
 url: /hi/java/postscript-conversion/save-image-as-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में छवि को ईपीएस के रूप में सहेजें
+
 ## परिचय
 जावा प्रोग्रामिंग की दुनिया में, जावा के लिए Aspose.Page विभिन्न प्रारूपों में छवियों में हेरफेर करने और सहेजने के लिए एक शक्तिशाली उपकरण के रूप में उभरता है। इसकी बहुमुखी विशेषताओं में छवियों को एनकैप्सुलेटेड पोस्टस्क्रिप्ट (ईपीएस) फ़ाइलों के रूप में सहेजने की क्षमता है, जो पेशेवर ग्राफिक्स और प्रिंटिंग में व्यापक रूप से उपयोग किया जाने वाला प्रारूप है।
 यह ट्यूटोरियल जावा के लिए Aspose.Page का उपयोग करके एक छवि को EPS के रूप में सहेजने की प्रक्रिया में आपका मार्गदर्शन करेगा। हम आवश्यक पैकेजों को आयात करते हुए, आवश्यक शर्तों को कवर करेंगे, और प्रत्येक चरण को विस्तृत स्पष्टीकरण के साथ तोड़ेंगे।
@@ -60,3 +66,9 @@ PsDocument.saveImageAsEps(dataDir + "input1.jpg", dataDir + "output1.eps", optio
  हां, आप नि:शुल्क परीक्षण का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
 ### मैं जावा के लिए Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
  एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

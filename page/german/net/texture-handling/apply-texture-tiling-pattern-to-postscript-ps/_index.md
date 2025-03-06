@@ -3,10 +3,16 @@ title: Wenden Sie mit Aspose.Page ein Texturkachelmuster auf PostScript (PS) an
 linktitle: Anwenden von Texturkachelmuster auf PostScript (PS)
 second_title: Aspose.Page .NET-API
 description: Erweitern Sie Ihre PostScript-Dokumente (PS) mit Texturkachelmustern mithilfe von Aspose.Page für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine kreative Note.
-type: docs
 weight: 10
 url: /de/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wenden Sie mit Aspose.Page ein Texturkachelmuster auf PostScript (PS) an
+
 ## Einführung
 
 Willkommen zu dieser Schritt-für-Schritt-Anleitung zum Anwenden eines Texturkachelmusters auf ein PostScript-Dokument (PS) mit Aspose.Page für .NET. Aspose.Page ist eine leistungsstarke Bibliothek, die Ihnen die Arbeit mit verschiedenen Dokumentformaten ermöglicht. In diesem Tutorial erfahren Sie, wie Sie Ihre PS-Dokumente durch das Hinzufügen von Texturkachelmustern verbessern können.
@@ -156,3 +162,10 @@ A4: Ja, Sie können den Vorgang mit verschiedenen Bildern und Pfaden wiederholen
 ### F5: Wo finde ich zusätzliche Ressourcen und Unterstützung?
 
  A5: Besuchen Sie die[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) für Community-Unterstützung und erkunden Sie die[Dokumentation](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

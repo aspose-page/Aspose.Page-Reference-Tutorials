@@ -3,10 +3,16 @@ title: Trích xuất siêu dữ liệu từ tài liệu EPS bằng Aspose.Page f
 linktitle: Trích xuất siêu dữ liệu từ tài liệu EPS
 second_title: API Aspose.Page .NET
 description: Tăng cường tổ chức tài liệu EPS với Aspose.Page cho .NET. Dễ dàng thêm siêu dữ liệu để cải thiện khả năng truy cập và truy xuất thông tin.
-type: docs
 weight: 18
 url: /vi/net/eps-metadata-management/extract-metadata-from-eps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất siêu dữ liệu từ tài liệu EPS bằng Aspose.Page for .NET
+
 ## Giới thiệu
 
 Trong bối cảnh tài liệu kỹ thuật số ngày càng phát triển, siêu dữ liệu đóng một vai trò quan trọng trong việc cung cấp thông tin về nội dung, nguồn gốc và các chi tiết cần thiết khác. Aspose.Page for .NET trao quyền cho các nhà phát triển thêm siêu dữ liệu vào tài liệu EPS (Encapsulated PostScript) một cách liền mạch, nâng cao khả năng truy cập và tiện ích của chúng.
@@ -146,3 +152,9 @@ Câu trả lời 4: Có, Aspose.Page dành cho .NET cung cấp tính linh hoạt
 ### Câu hỏi 5: Làm cách nào để xử lý lỗi trong quá trình bổ sung siêu dữ liệu?
 
 Câu trả lời 5: Đảm bảo xử lý ngoại lệ thích hợp trong mã của bạn để giải quyết mọi lỗi tiềm ẩn trong quá trình trích xuất và bổ sung siêu dữ liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

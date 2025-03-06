@@ -3,10 +3,16 @@ title: Skapande av dokument
 linktitle: Skapande av dokument
 second_title: Aspose.Page .NET API
 description: Skapa fantastiska XPS- och PostScript-dokument utan ansträngning med Aspose.Page för .NET. Utforska självstudier för att skapa och ändra dokument för sömlös integrering.
-type: docs
 weight: 23
 url: /sv/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapande av dokument
+
 ## Introduktion
 
 Aspose.Page för .NET öppnar dörren till en värld av möjligheter inom elektroniskt dokumentskapande. Oavsett om du är en erfaren utvecklare eller precis har börjat, hjälper vår steg-för-steg-guide dig att enkelt generera XPS- och PostScript-dokument.
@@ -36,3 +42,9 @@ Utforska världen av XPS-dokumentskapande med Aspose.Page för .NET. Följ vår 
 Lär dig hur du skapar PostScript-dokument i .NET med Aspose.Page. Följ vår steg-för-steg-guide för sömlös integration. Ladda ner biblioteket och börja manipulera PostScript-filer utan ansträngning.
 ### [Ändra XPS-dokument med Aspose.Page för .NET](./modify-xps-document/)
 Utforska kraften i Aspose.Page för .NET för att enkelt ändra XPS-dokument. Följ vår steg-för-steg-guide, förbättra din dokumentbehandling och lägg till personliga signaturtexter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

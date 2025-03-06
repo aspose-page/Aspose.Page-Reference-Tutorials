@@ -3,10 +3,16 @@ title: Thao tác các trang với Aspose.Page cho .NET
 linktitle: Thao tác trang
 second_title: API Aspose.Page .NET
 description: Khám phá thao tác trang trong .NET bằng Aspose.Page, một thư viện mạnh mẽ để xử lý tài liệu XPS. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả hiệu quả.
-type: docs
 weight: 12
 url: /vi/net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác các trang với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng đến với thế giới của Aspose.Page dành cho .NET! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thao tác các trang bằng thư viện Aspose.Page trong môi trường .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu, hướng dẫn này được thiết kế để giúp bạn khai thác sức mạnh của Aspose.Page để thao tác trang hiệu quả.
@@ -94,3 +100,9 @@ Câu trả lời 3: Có, Aspose.Page hoàn toàn tương thích với Visual Stu
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ hoặc đặt câu hỏi ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để nhận được sự hỗ trợ và gắn kết với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

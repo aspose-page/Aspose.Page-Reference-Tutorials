@@ -3,10 +3,16 @@ title: Dodaj gradient poziomy w Java XPS
 linktitle: Dodaj gradient poziomy w Java XPS
 second_title: Aspose.Page API Java
 description: Dowiedz się, jak dodać oszałamiający poziomy gradient do dokumentów XPS w Javie za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 11
 url: /pl/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj gradient poziomy w Java XPS
+
 ## Wstęp
 Witamy w tym przewodniku krok po kroku dotyczącym dodawania gradientu poziomego w Java XPS przy użyciu Aspose.Page dla Java. Aspose.Page dla Java to potężna biblioteka, która umożliwia programistom płynną pracę z dokumentami XPS (Specyfikacja papieru XML).
 W tym samouczku przeprowadzimy Cię przez proces tworzenia aplikacji Java umożliwiającej dodanie gradientu poziomego do dokumentu XPS. Aby to osiągnąć z łatwością, wykonaj poniższe czynności.
@@ -70,3 +76,9 @@ Tak, oprócz gradientów liniowych, Aspose.Page obsługuje gradienty promieniowe
 Absolutnie! Masz pełną kontrolę nad kolorami i położeniem każdego przystanku gradientu.
 ### P: Czy istnieje forum społecznościowe dla Aspose.Page, na którym mogę szukać pomocy?
  Tak, możesz odwiedzić[Forum Aspose.Page](https://forum.aspose.com/c/page/39) aby nawiązać kontakt ze społecznością i uzyskać pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

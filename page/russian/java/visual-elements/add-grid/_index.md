@@ -3,10 +3,16 @@ title: Добавьте сетку с помощью Visual Brush в Java
 linktitle: Добавьте сетку с помощью Visual Brush в Java
 second_title: API Aspose.Page Java
 description: Улучшите визуальные эффекты документов Java с помощью Aspose.Page! Научитесь добавлять сетки с помощью Visual Brush шаг за шагом. Повысьте привлекательность вашего приложения без особых усилий.
-type: docs
 weight: 10
 url: /ru/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте сетку с помощью Visual Brush в Java
+
 ## Введение
 Вы хотите улучшить свои Java-приложения с помощью визуально привлекательных сеток с помощью Aspose.Page? В этом уроке мы покажем вам процесс добавления сетки с помощью Visual Brush в Java с помощью Aspose.Page. Visual Brush позволяет закрашивать область визуальным содержимым, создавая потрясающие эффекты сетки в ваших документах.
 ## Предварительные условия
@@ -84,3 +90,9 @@ doc.save(dataDir + "AddGrid_out.xps");
  Да, вы можете получить доступ к[бесплатная пробная версия](https://releases.aspose.com/) чтобы изучить возможности Aspose.Page.
 ### Как я могу получить временную лицензию для Aspose.Page?
  Приобретите[временная лицензия](https://purchase.aspose.com/temporary-license/) в целях тестирования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

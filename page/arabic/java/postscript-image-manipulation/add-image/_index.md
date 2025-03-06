@@ -3,10 +3,16 @@ title: إضافة صورة في جافا بوستسكريبت
 linktitle: إضافة صورة في جافا بوستسكريبت
 second_title: Aspose.Page جافا API
 description: استكشف التكامل السلس لـ Aspose.Page Java في هذا البرنامج التعليمي حول إضافة الصور إلى مستندات PostScript. ارفع قدرات معالجة المستندات لديك.
-type: docs
 weight: 10
 url: /ar/java/postscript-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة صورة في جافا بوستسكريبت
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية إضافة صور إلى مستند Java PostScript باستخدام مكتبة Aspose.Page for Java. Aspose.Page هي مكتبة قوية توفر ميزات متنوعة للعمل مع ملفات PostScript، مما يسمح للمطورين بمعالجة مستنداتهم وتحسينها بسلاسة.
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ document.save();
  قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) لدعم المجتمع.
 ### هل هناك أي موارد إضافية لشراء Aspose.Page لـ Java؟
  يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

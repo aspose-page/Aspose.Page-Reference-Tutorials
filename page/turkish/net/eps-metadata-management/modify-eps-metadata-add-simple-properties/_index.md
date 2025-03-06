@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile Basit Özellikler Ekleme
 linktitle: Basit Özellikler Ekle
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET ile EPS dosyalarını geliştirin. Özelleştirilmiş belge meta verileri için basit özellikleri zahmetsizce ekleyin.
-type: docs
 weight: 14
 url: /tr/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile Basit Özellikler Ekleme
+
 ## giriiş
 
 Belge işleme ve geliştirme alanında Aspose.Page for .NET, geliştiricilere EPS dosyalarına XMP meta verilerini sorunsuz bir şekilde ekleme ve değiştirme yeteneği sağlayan güçlü bir araç olarak ortaya çıkıyor. Bu eğitim, Aspose.Page for .NET'i kullanarak bir EPS dosyasına basit özellikler ekleme sürecinde size rehberlik edecektir.
@@ -120,3 +126,9 @@ Cevap3: Aspose.Page for .NET, tamsayılar, tarihler, çiftler ve dizeler dahil o
 ### S5: Aspose.Page for .NET'in ücretsiz deneme sürümü mevcut mu?
 
  C5: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

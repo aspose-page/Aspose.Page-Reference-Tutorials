@@ -3,10 +3,16 @@ title: पृष्ठ हेरफेर
 linktitle: पृष्ठ हेरफेर
 second_title: Aspose.Page .NET API
 description: पोस्टस्क्रिप्ट और XPS दस्तावेज़ों में हेरफेर करने में .NET के लिए Aspose.Page की शक्ति की खोज करें। हमारे व्यापक ट्यूटोरियल के साथ पेज जोड़ना, बढ़ाना और हटाना सीखें।
-type: docs
 weight: 29
 url: /hi/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# पृष्ठ हेरफेर
+
 
 ## परिचय
 
@@ -35,3 +41,9 @@ url: /hi/net/page-manipulation/
 .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ों में पेज जोड़ने का तरीका सीखकर अपने .NET अनुप्रयोगों को बेहतर बनाएं। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [.NET के लिए Aspose.Page के साथ XPS दस्तावेज़ से पेज हटाएँ](./remove-page-from-xps-document/)
 .NET के लिए Aspose.Page का उपयोग करके XPS दस्तावेज़ों से पेज हटाने पर एक व्यापक ट्यूटोरियल देखें। निर्बाध दस्तावेज़ हेरफेर के लिए चरण-दर-चरण प्रक्रिया, पूर्वापेक्षाएँ और अक्सर पूछे जाने वाले प्रश्न जानें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

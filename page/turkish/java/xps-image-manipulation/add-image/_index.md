@@ -3,10 +3,16 @@ title: Java XPS Görüntüsü Ekleme - Aspose.Page ile Basit Bir Kılavuz
 linktitle: Java XPS'de Resim Ekleme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page'i kullanarak Java'da XPS belgelerine zahmetsizce nasıl resim ekleyeceğinizi öğrenin. Bu adım adım kılavuzla belge işleme sürecinizi geliştirin.
-type: docs
 weight: 10
 url: /tr/java/xps-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS Görüntüsü Ekleme - Aspose.Page ile Basit Bir Kılavuz
+
 Java geliştirme dünyasında, XPS belgeleriyle çalışma yeteneği çeşitli uygulamalar için çok önemlidir. Aspose.Page for Java, XPS belgelerini yönetmek için güçlü bir araç seti sağlar ve önemli görevlerden biri de görüntüleri eklemektir. Bu adım adım kılavuzda, Aspose.Page for Java'yı kullanarak bir XPS belgesine resim ekleme sürecinde size yol göstereceğiz.
 ## giriiş
 XPS belgelerine resim eklemek, rapor oluşturmadan belge işlemeye kadar pek çok Java uygulamasında ortak bir gereksinimdir. Aspose.Page for Java, görüntüleri XPS dosyalarınıza sorunsuz bir şekilde entegre etmek için etkili yöntemler sunarak bu görevi basitleştirir. Bu eğitimde Aspose.Page for Java kullanarak bir XPS belgesine nasıl resim ekleneceğini göstereceğiz.
@@ -58,3 +64,9 @@ Aspose.Page for Java, TIFF, JPEG, PNG ve GIF dahil olmak üzere çeşitli görü
  adresinden geçici lisans alabilirsiniz.[bu bağlantı](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java ile ilgili ek desteği nerede bulabilirim veya sorunları tartışabilirim?
  Ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) yardım istemek, deneyimleri paylaşmak ve Aspose.Page topluluğuyla bağlantı kurmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

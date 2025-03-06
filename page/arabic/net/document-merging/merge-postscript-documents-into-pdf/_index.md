@@ -3,10 +3,16 @@ title: دمج مستندات PostScript في PDF باستخدام Aspose.Page ل
 linktitle: دمج مستندات PostScript في PDF
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية دمج مستندات PostScript في PDF بسهولة باستخدام Aspose.Page لـ .NET. عزز قدرات معالجة المستندات لديك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/document-merging/merge-postscript-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج مستندات PostScript في PDF باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 في مجال معالجة المستندات، يبرز Aspose.Page for .NET كأداة قوية لمعالجة مستندات PostScript. إذا وجدت نفسك بحاجة إلى دمج مستندات PostScript متعددة في ملف PDF واحد مناسب، فأنت في المكان الصحيح. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن الاستفادة الكاملة من إمكانات Aspose.Page لـ .NET.
@@ -116,3 +122,9 @@ A2: حدد مجلدات الخطوط الإضافية في كائن الخيار
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: XMP 메타데이터 조작 - Java
 linktitle: XMP 메타데이터 조작 - Java
 second_title: Aspose.페이지 자바 API
 description: 항목 추가부터 추출까지 XMP 메타데이터 조작을 통해 EPS 파일을 손쉽게 향상할 수 있습니다. 가이드를 통해 문서 관리 수준을 높이세요.
-type: docs
 weight: 42
 url: /ko/java/xmp-metadata-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XMP 메타데이터 조작 - Java
+
 
 ## 소개
 
@@ -66,3 +72,9 @@ Java용 Aspose.Page를 살펴보세요 - 간소화된 문서 처리를 위한 �
 Java용 Aspose.Page를 사용하여 EPS 문서를 향상하세요. 맞춤형 전문 콘텐츠를 위해 XMP 메타데이터를 손쉽게 수정할 수 있습니다.
 ### [Java를 사용하여 XMP에서 메타데이터 가져오기](./get-metadata/)
 Java용 Aspose.Page의 강력한 기능을 활용하여 XMP 메타데이터를 손쉽게 추출하세요. 단계별 가이드를 통해 문서 분석 수준을 높이세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

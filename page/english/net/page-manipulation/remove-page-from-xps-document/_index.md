@@ -3,10 +3,16 @@ title: Remove Page from XPS Document with Aspose.Page for .NET
 linktitle: Remove Page from XPS Document
 second_title: Aspose.Page .NET API
 description: Explore a comprehensive tutorial on removing pages from XPS documents using Aspose.Page for .NET. Learn the step-by-step process, prerequisites, and FAQs for seamless document manipulation.
-type: docs
 weight: 12
 url: /net/page-manipulation/remove-page-from-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remove Page from XPS Document with Aspose.Page for .NET
+
 ## Introduction
 
 In this tutorial, we will explore the process of removing a page from an XPS document using Aspose.Page for .NET. Aspose.Page is a powerful library that enables .NET developers to work with XPS (XML Paper Specification) documents seamlessly. If you find yourself in a situation where you need to eliminate a specific page from your XPS document, this step-by-step guide will walk you through the process.
@@ -100,3 +106,10 @@ A4: Join the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to engage w
 ### Q5: Do I need a temporary license for testing Aspose.Page?
 
 A5: Yes, you can obtain a [temporary license](https://purchase.aspose.com/temporary-license/) for testing purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

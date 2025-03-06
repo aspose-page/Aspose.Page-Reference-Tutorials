@@ -3,10 +3,16 @@ title: Java を使用して XMP の配列項目を変更する
 linktitle: Java を使用して XMP の配列項目を変更する
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用して XMP で配列項目を変更する方法を学習します。ステップバイステップのガイドを使用して、メタデータを簡単に変更します。 EPS ドキュメントを今すぐ強化してください。
-type: docs
 weight: 15
 url: /ja/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して XMP の配列項目を変更する
+
 ## 導入
 Aspose.Page for Java を使用して XMP で配列項目を変更するための包括的なガイドへようこそ。 Aspose.Page は、EPS ファイル内の XMP メタデータをシームレスに操作できるようにする強力な Java ライブラリです。このチュートリアルでは、XMP メタデータ内の配列項目を変更するプロセスを説明し、EPS ドキュメントの強化とカスタマイズに役立ちます。
 ## 前提条件
@@ -77,3 +83,9 @@ Aspose.Page は主に Java 用に設計されていますが、Aspose は他の�
 仮免許が取得できる[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java のフルバージョンはどこで購入できますか?
 フルバージョンを購入できます[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

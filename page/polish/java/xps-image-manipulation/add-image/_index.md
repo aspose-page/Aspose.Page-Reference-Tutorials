@@ -3,10 +3,16 @@ title: Dodawanie obrazu Java XPS — prosty przewodnik po Aspose.Page
 linktitle: Dodaj obraz w Java XPS
 second_title: Aspose.Page API Java
 description: Dowiedz się, jak bez wysiłku dodawać obrazy do dokumentów XPS w Javie za pomocą Aspose.Page. Usprawnij przetwarzanie dokumentów dzięki temu przewodnikowi krok po kroku.
-type: docs
 weight: 10
 url: /pl/java/xps-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodawanie obrazu Java XPS — prosty przewodnik po Aspose.Page
+
 świecie programowania Java umiejętność pracy z dokumentami XPS jest kluczowa dla różnych aplikacji. Aspose.Page dla Java zapewnia potężny zestaw narzędzi do manipulowania dokumentami XPS, a jednym z podstawowych zadań jest dodawanie obrazów. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces dodawania obrazu do dokumentu XPS przy użyciu Aspose.Page dla Java.
 ## Wstęp
 Dodawanie obrazów do dokumentów XPS jest powszechnym wymogiem w wielu aplikacjach Java, począwszy od generowania raportów po przetwarzanie dokumentów. Aspose.Page dla Java upraszcza to zadanie, oferując skuteczne metody bezproblemowej integracji obrazów z plikami XPS. W tym samouczku pokażemy, jak dodać obraz do dokumentu XPS przy użyciu Aspose.Page dla Java.
@@ -58,3 +64,9 @@ Aspose.Page dla Java obsługuje różne formaty obrazów, w tym TIFF, JPEG, PNG 
  Licencję tymczasową można uzyskać od[ten link](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć dodatkowe wsparcie lub omówić problemy związane z Aspose.Page dla Java?
  Odwiedzić[Forum Aspose.Page](https://forum.aspose.com/c/page/39) aby szukać pomocy, dzielić się doświadczeniami i łączyć się ze społecznością Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

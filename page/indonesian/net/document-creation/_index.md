@@ -3,10 +3,16 @@ title: Pembuatan Dokumen
 linktitle: Pembuatan Dokumen
 second_title: Aspose.Halaman .NET API
 description: Buat dokumen XPS dan PostScript yang menakjubkan dengan mudah menggunakan Aspose.Page untuk .NET. Jelajahi tutorial pembuatan dan modifikasi dokumen untuk integrasi yang lancar.
-type: docs
 weight: 23
 url: /id/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pembuatan Dokumen
+
 ## Perkenalan
 
 Aspose.Page untuk .NET membuka pintu ke berbagai kemungkinan dalam pembuatan dokumen elektronik. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan langkah demi langkah kami akan membantu Anda membuat dokumen XPS dan PostScript dengan mudah.
@@ -36,3 +42,9 @@ Jelajahi dunia pembuatan dokumen XPS dengan Aspose.Page untuk .NET. Ikuti pandua
 Pelajari cara membuat dokumen PostScript di .NET menggunakan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar. Unduh perpustakaan dan mulailah memanipulasi file PostScript dengan mudah.
 ### [Ubah Dokumen XPS dengan Aspose.Page untuk .NET](./modify-xps-document/)
 Jelajahi kekuatan Aspose.Page untuk .NET untuk memodifikasi dokumen XPS dengan mudah. Ikuti panduan langkah demi langkah kami, tingkatkan pemrosesan dokumen Anda, dan tambahkan teks tanda tangan yang dipersonalisasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

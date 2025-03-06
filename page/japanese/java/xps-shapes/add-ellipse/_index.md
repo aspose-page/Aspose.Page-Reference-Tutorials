@@ -3,10 +3,16 @@ title: Aspose.Page を使用して放射状グラデーション楕円を追加�
 linktitle: Java XPSに楕円を追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用して Java XPS に放射状グラデーション ストローク楕円を追加するためのステップバイステップ ガイドをご覧ください。ドキュメント作成を簡単に強化します。
-type: docs
 weight: 10
 url: /ja/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して放射状グラデーション楕円を追加する
+
 ## 導入
 Aspose.Page for Java を使用して Java XPS に楕円を追加するためのステップバイステップ ガイドへようこそ。 Aspose.Page は、開発者が XPS ドキュメントを簡単に操作できるようにする強力な Java ライブラリです。このチュートリアルでは、放射状のグラデーション ストローク楕円を作成し、それを XPS ドキュメントとして保存するプロセスを説明します。
 ## 前提条件
@@ -91,3 +97,9 @@ doc.save(dataDir + "AddEllipse_out.xps");
 仮免許が取得できる[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page ディスカッションのためのコミュニティ フォーラムはありますか?
 はい、参加してください[Aspose.Page コミュニティ フォーラム](https://forum.aspose.com/c/page/39)他の開発者と交流し、支援を受けるため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

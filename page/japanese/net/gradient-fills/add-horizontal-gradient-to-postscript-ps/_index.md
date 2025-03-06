@@ -3,10 +3,16 @@ title: Aspose.Page を使用して PostScript (PS) に水平グラデーショ�
 linktitle: PostScript に水平方向のグラデーションを追加する (PS)
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して、PostScript ドキュメントを見事な水平方向のグラデーションで強化します。シームレスな実装については、段階的なチュートリアルに従ってください。
-type: docs
 weight: 12
 url: /ja/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して PostScript (PS) に水平グラデーションを追加する
+
 ## 導入
 
 Aspose.Page for .NET を使用して PostScript (PS) ドキュメントに水平方向のグラデーションを追加するためのこの包括的なチュートリアルへようこそ。 Aspose.Page は、さまざまな形式でのドキュメントの操作を容易にする強力なライブラリであり、ドキュメントをシームレスに作成、変更、レンダリングするために必要なツールを開発者に提供します。
@@ -143,3 +149,9 @@ A3: Aspose.Page は、XPS、PS、PDF などを含むさまざまなドキュメ�
 ### Q5: Aspose.Page ユーザー向けのコミュニティ フォーラムはありますか?
 
  A5: はい、Aspose.Page コミュニティに参加してください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)他のユーザーとつながり、支援を求めるため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

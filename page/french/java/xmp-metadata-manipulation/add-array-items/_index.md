@@ -3,10 +3,16 @@ title: Ajouter des éléments de tableau dans les métadonnées XMP à l'aide de
 linktitle: Ajouter des éléments de tableau dans les métadonnées XMP à l'aide de Java
 second_title: API Java Aspose.Page
 description: Améliorez les fichiers EPS avec Aspose.Page pour Java. Apprenez à ajouter des éléments de tableau aux métadonnées XMP sans effort. Suivez notre guide étape par étape dès maintenant !
-type: docs
 weight: 10
 url: /fr/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des éléments de tableau dans les métadonnées XMP à l'aide de Java
+
 ## Introduction
 Bienvenue dans notre guide étape par étape sur l'utilisation d'Aspose.Page pour Java pour ajouter des éléments de tableau dans les métadonnées XMP. Aspose.Page est une puissante bibliothèque Java qui vous permet de manipuler et de travailler avec différents formats de documents, y compris les fichiers EPS. Dans ce didacticiel, nous nous concentrerons sur la tâche spécifique consistant à ajouter des éléments de tableau dans les métadonnées XMP à l'aide de Java.
 ## Conditions préalables
@@ -78,3 +84,9 @@ Oui, Aspose.Page prend en charge divers formats de documents, notamment EPS, PDF
  Vous pouvez acheter le produit[ici](https://purchase.aspose.com/buy).
 ### Des licences temporaires sont-elles disponibles pour Aspose.Page pour Java ?
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

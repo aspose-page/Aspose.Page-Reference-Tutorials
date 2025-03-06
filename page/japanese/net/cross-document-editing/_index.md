@@ -3,10 +3,16 @@ title: クロスドキュメント編集
 linktitle: クロスドキュメント編集
 second_title: Aspose.Page .NET API
 description: チュートリアルで Aspose.Page for .NET の可能性を解き放ってください。 XPS ドキュメントでグリフ クローンの追加、色の変更、ページの操作を簡単に行うことができます。
-type: docs
 weight: 22
 url: /ja/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# クロスドキュメント編集
+
 
 ## 導入
 
@@ -34,3 +40,9 @@ Aspose.Page を使用すると、.NET での効率的なページ操作が簡単
 Aspose.Page を使用して、.NET でのドキュメント処理の能力を解放します。画像を埋め込んだグリフを簡単に追加できます。ビジュアルを強化し、ワークフローを合理化します。
 ### [Aspose.Page for .NET を使用したページの操作](./manipulate-pages/)
 XPS ドキュメントを処理するための強力なライブラリである Aspose.Page を使用して、.NET でのページ操作を調べます。効率的な結果を得るには、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

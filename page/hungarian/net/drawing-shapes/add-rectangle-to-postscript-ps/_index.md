@@ -3,10 +3,16 @@ title: Adjon hozzá téglalapot a PostScripthez (PS) az Aspose.Page for .NET seg
 linktitle: Téglalap hozzáadása a PostScript-hez (PS)
 second_title: Aspose.Page .NET API
 description: Fokozza a dokumentumok létrehozását .NET-ben az Aspose.Page segítségével. Ismerje meg lépésről lépésre, hogyan adhat téglalapokat PostScript (PS) fájlokhoz.
-type: docs
 weight: 12
 url: /hu/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá téglalapot a PostScripthez (PS) az Aspose.Page for .NET segítségével
+
 ## Bevezetés
 
 Ha javítani szeretné dokumentumkészítési képességeit .NET-ben, az Aspose.Page hatékony megoldást kínál a PostScript dokumentumok kezelésére. Ebben az oktatóanyagban végigvezetjük a téglalapok PostScript-dokumentumokhoz való hozzáadásának folyamatán az Aspose.Page for .NET használatával.
@@ -133,3 +139,10 @@ V1: Igen, testreszabhatja a színeket a paraméterek beállításával a`SolidBr
 ### 5. kérdés: Kipróbálhatom az Aspose.Page oldalt vásárlás előtt?
 
  V5: Igen, beszerezhet egy ingyenes próbaverziót[itt](https://releases.aspose.com/) , és hosszabb használat esetén fontolja meg a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

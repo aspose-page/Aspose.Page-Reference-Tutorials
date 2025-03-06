@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page와 XPS 문서 병합
 linktitle: XPS 문서 병합
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 XPS 문서를 쉽게 병합합니다. 원활한 문서 관리를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 12
 url: /ko/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page와 XPS 문서 병합
+
 ## 소개
 
 .NET용 Aspose.Page를 사용하여 XPS 문서를 원활하게 병합하려고 하시나요? 이 튜토리얼에서는 XPS 파일을 쉽게 병합하는 방법에 대한 단계별 지침을 제공하면서 프로세스를 안내합니다. .NET용 Aspose.Page는 문서 조작 작업을 단순화하는 강력한 라이브러리로, XPS 문서 병합에 이상적인 선택입니다. 프로세스를 자세히 살펴보고 이를 쉽게 달성할 수 있는 방법을 살펴보겠습니다.
@@ -94,3 +100,9 @@ A4: 문서 병합을 포함한 모든 기능을 사용하려면 .NET용 Aspose.P
 ### Q5: .NET용 Aspose.Page는 문서 병합을 위한 고급 옵션을 제공합니까?
 
 A5: 예, 설명서에서 사용 가능한 추가 옵션과 구성을 살펴볼 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

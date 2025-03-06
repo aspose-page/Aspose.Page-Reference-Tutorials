@@ -3,10 +3,16 @@ title: قم بإنشاء مستند XPS باستخدام Aspose.Page لـ .NET
 linktitle: إنشاء مستند XPS
 second_title: Aspose.Page .NET API
 description: استكشف عالم إنشاء مستندات XPS باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة لإنشاء المستندات الإلكترونية بسهولة.
-type: docs
 weight: 10
 url: /ar/net/document-creation/create-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء مستند XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في دليلنا خطوة بخطوة حول إنشاء مستندات XPS باستخدام Aspose.Page لـ .NET. في هذا البرنامج التعليمي، سوف نستكشف عملية إنشاء ملفات XPS، وهو تنسيق يستخدم على نطاق واسع للمستندات الإلكترونية. سواء كنت مطورًا متمرسًا أو بدأت للتو في Aspose.Page، فقد تم تصميم هذا الدليل لمساعدتك في إنشاء مستندات XPS بسلاسة مع أمثلة واضحة وشروحات مفصلة.
@@ -108,3 +114,9 @@ A3: يوفر Aspose.Page طرقًا لإضافة صور إلى مستند XPS ا
 ### س5: هل هناك نسخة تجريبية متاحة؟
 
  ج5: نعم، يمكنك استكشاف ميزات Aspose.Page عن طريق تنزيل الملف[تجربة مجانية](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

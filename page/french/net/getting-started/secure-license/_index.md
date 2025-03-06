@@ -3,10 +3,16 @@ title: Licence sécurisée avec Aspose.Page pour .NET
 linktitle: Licence sécurisée
 second_title: API Aspose.Page .NET
 description: Sécurisez votre licence Aspose.Page pour .NET sans effort grâce à notre guide étape par étape. Libérez tout le potentiel d’une manipulation transparente des pages dans vos applications .NET.
-type: docs
 weight: 13
 url: /fr/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licence sécurisée avec Aspose.Page pour .NET
+
 ## Introduction
 
 Libérer tout le potentiel d’Aspose.Page pour .NET implique de sécuriser votre licence pour garantir une intégration transparente et des performances optimales. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de sécurisation de votre licence à l'aide d'Aspose.Page, un outil puissant pour gérer la manipulation de pages dans les applications .NET.
@@ -90,3 +96,9 @@ R4 : Oui, une licence temporaire est valide pour une durée limitée et est souv
 ### Q5 : Puis-je transférer ma licence vers une autre machine ?
 
 A5 : Oui, vous pouvez transférer votre licence vers une autre machine selon vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

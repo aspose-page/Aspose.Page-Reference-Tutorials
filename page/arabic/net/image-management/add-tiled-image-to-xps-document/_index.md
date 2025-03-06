@@ -3,10 +3,16 @@ title: أضف صورة متجانبة إلى مستند XPS باستخدام Asp
 linktitle: إضافة صورة متجانبة إلى مستند XPS
 second_title: Aspose.Page .NET API
 description: استكشف إضافة الصور المتجانبة إلى مستندات XPS دون عناء باستخدام Aspose.Page for .NET. تعزيز المظهر المرئي وإنشاء مستندات مذهلة.
-type: docs
 weight: 12
 url: /ar/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف صورة متجانبة إلى مستند XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 هل تتطلع إلى تحسين مستندات XPS الخاصة بك عن طريق إضافة صور متجانبة جذابة بصريًا؟ يعمل Aspose.Page for .NET على تمكين المطورين من تحقيق ذلك بسلاسة. في هذا الدليل التفصيلي خطوة بخطوة، سنرشدك خلال عملية إضافة صورة متجانبة إلى مستند XPS باستخدام Aspose.Page لـ .NET.
@@ -95,3 +101,9 @@ A1: نعم، تم تصميم Aspose.Page للعمل بسلاسة مع بيئات
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose.Page؟
 
  ج5: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للتواصل مع المجتمع وطرح الأسئلة وإيجاد الحلول.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

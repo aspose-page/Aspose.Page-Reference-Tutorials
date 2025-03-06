@@ -3,10 +3,16 @@ title: Load License from File with Aspose.Page for .NET
 linktitle: Load License from File
 second_title: Aspose.Page .NET API
 description: Unlock the full potential of Aspose.Page for .NET by mastering the art of loading licenses from files. Elevate your document processing capabilities seamlessly.
-type: docs
 weight: 11
 url: /net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Load License from File with Aspose.Page for .NET
+
 ## Introduction
 
 Welcome to the world of Aspose.Page for .NET! If you're looking to enhance your document processing capabilities using the .NET framework, you're in the right place. In this tutorial, we'll guide you through the process of loading a license from a file with Aspose.Page for .NET. This crucial step ensures that you harness the full potential of this powerful library.
@@ -91,3 +97,10 @@ A4: Yes, you can explore a free trial [here](https://releases.aspose.com/).
 ### Q5: Need assistance or have questions? 
 
 A5: Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) for community support.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

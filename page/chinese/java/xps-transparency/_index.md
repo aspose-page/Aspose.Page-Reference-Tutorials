@@ -3,10 +3,16 @@ title: 透明度 - XPS
 linktitle: 透明度 - XPS
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 轻松提升您的 Java XPS 文档。在我们的教程中学习添加透明对象并设置不透明蒙版以增强视觉效果。
-type: docs
 weight: 40
 url: /zh/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 透明度 - XPS
+
 ## 介绍
 
 您是否希望将您的 Java XPS 文档提升到一个新的水平？使用 Aspose.Page 潜入透明效果的世界，并解锁视觉上令人惊叹的可能性领域。在本综合指南中，我们将引导您完成两个基本教程：添加透明对象和设置不透明蒙版。
@@ -47,3 +53,9 @@ url: /zh/java/xps-transparency/
 使用 Aspose.Page 以令人惊叹的透明度效果增强您的 Java XPS 文档。请按照我们的分步指南添加透明对象。 
 ### [在 Java XPS 中设置不透明蒙版](./set-opacity-mask/)
 探索使用 Aspose.Page 在 Java XPS 中设置不透明蒙版的强大功能。请按照我们的分步指南获得视觉增强的文档体验。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

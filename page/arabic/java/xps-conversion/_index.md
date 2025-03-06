@@ -3,10 +3,16 @@ title: التحويل - XPS
 linktitle: التحويل - XPS
 second_title: Aspose.Page جافا API
 description: قم بتحويل XPS بسهولة إلى تنسيقات مختلفة في Java باستخدام Aspose.Page. قم بتحسين معالجة المستندات من خلال أدلتنا خطوة بخطوة للحصول على تحويل دقيق وفعال.
-type: docs
 weight: 22
 url: /ar/java/xps-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحويل - XPS
+
 
 ## مقدمة
 
@@ -44,3 +50,9 @@ url: /ar/java/xps-conversion/
 يمكنك بسهولة تحويل XPS إلى PNG في Java باستخدام Aspose.Page. قم بتبسيط مهام المستندات باستخدام هذا الحل الموثوق والصديق للمطورين.
 ### [تحويل XSP إلى TIFF في جافا](./to-tiff/)
 قم بتحويل XPS إلى TIFF بسهولة باستخدام Aspose.Page لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس. التحميل الان!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

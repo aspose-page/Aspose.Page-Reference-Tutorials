@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用してストリーム オブジェクトか
 linktitle: ストリームオブジェクトからライセンスをロード
 second_title: Aspose.Page .NET API
 description: Aspose.Page を使用して .NET でのドキュメント操作のロックを解除します。ガイドに従って、ストリーム オブジェクトからライセンスをシームレスに読み込みます。
-type: docs
 weight: 12
 url: /ja/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用してストリーム オブジェクトからライセンスをロードする
+
 ## 導入
 
 .NET 開発スキルを次のレベルに引き上げる準備はできていますか?特にページ操作のコンテキストでドキュメントを操作する必要性を感じたことがある場合は、Aspose.Page for .NET が最適です。この包括的なガイドでは、Aspose.Page for .NET の機能を活用するための基本的な手順である、ストリーム オブジェクトからライセンスを読み込むプロセスについて説明します。
@@ -111,3 +117,9 @@ A1: はい、Aspose.Page は、.NET のすべてのバージョンでシーム�
 ### Q5: 別のライセンス プランにアップグレードできますか?
 
  A5: さまざまなライセンス オプションを検討し、アップグレードしてください。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

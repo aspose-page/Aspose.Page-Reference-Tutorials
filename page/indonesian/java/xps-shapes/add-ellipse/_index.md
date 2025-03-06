@@ -3,10 +3,16 @@ title: Tambahkan Radial Gradient Ellipse dengan Aspose.Page
 linktitle: Tambahkan Ellipse di Java XPS
 second_title: Aspose.Halaman Java API
 description: Jelajahi panduan langkah demi langkah tentang menambahkan elips guratan gradien radial di Java XPS menggunakan Aspose.Page untuk Java. Sempurnakan pembuatan dokumen Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Radial Gradient Ellipse dengan Aspose.Page
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah kami tentang menambahkan elips di Java XPS menggunakan Aspose.Page untuk Java. Aspose.Page adalah perpustakaan Java yang kuat yang memungkinkan pengembang untuk bekerja dengan dokumen XPS dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan elips dengan guratan gradien radial dan menyimpannya sebagai dokumen XPS.
 ## Prasyarat
@@ -91,3 +97,9 @@ Sangat! Aspose.Page dirancang untuk menangani pemrosesan dokumen skala besar sec
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Apakah ada forum komunitas untuk diskusi Aspose.Page?
  Ya, bergabunglah dengan[Aspose.Page forum komunitas](https://forum.aspose.com/c/page/39) untuk terlibat dengan pengembang lain dan mendapatkan bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

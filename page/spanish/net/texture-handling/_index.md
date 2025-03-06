@@ -3,10 +3,16 @@ title: Manejo de texturas
 linktitle: Manejo de texturas
 second_title: Aspose.Página .NET API
 description: ¡Mejore los documentos PostScript con impresionantes efectos visuales! Aprenda a aplicar patrones de mosaico de texturas usando Aspose.Page para .NET con nuestra guía paso a paso.
-type: docs
 weight: 33
 url: /es/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manejo de texturas
+
 ## Introducción
 
 En el ámbito de la manipulación de documentos, dominar el manejo de texturas puede abrir un mundo de posibilidades creativas. Aspose.Page para .NET se presenta como un poderoso aliado para los desarrolladores que buscan llevar sus documentos PostScript (PS) a nuevas alturas. En este artículo, nos adentramos en el cautivador universo de los Tutoriales de manejo de texturas, centrándonos específicamente en la aplicación de patrones de mosaico de texturas.
@@ -36,3 +42,9 @@ En conclusión, nuestros Tutoriales de manejo de texturas, que se centran en la 
 ## Tutoriales de manejo de texturas
 ### [Aplicar patrón de mosaico de textura a PostScript (PS) con Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
 Mejore sus documentos PostScript (PS) con patrones de mosaico de texturas utilizando Aspose.Page para .NET. Siga nuestra guía paso a paso para darle un toque creativo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Aspose.Page for Java 綜合教學與範例
 linktitle: Aspose.Page Java 教程
-type: docs
 weight: 10
 url: /zh-hant/java/
 description: 使用 Aspose.Page 教學解鎖 Java 頁面操作的秘密。深入研究剪切、轉換等，輕鬆獲得視覺上令人驚嘆的文檔。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for Java 綜合教學與範例
+
 ## 介紹
 
 您準備好提升 Java 文件處理技能了嗎？透過我們全面的教學和範例深入了解 Aspose.Page for Java 的世界。無論您是經驗豐富的開發人員還是新手，我們的逐步指南都將釋放 Aspose.Page for Java 的全部潛力。
@@ -76,3 +81,9 @@ is_root: true
 使用 Aspose.Page 輕鬆提升您的 Java 文件視覺效果！在本逐步教學中，學習如何使用 Visual Brush 新增網格來增強您的應用程式。
 ### [XMP 元資料操作 - Java](./xmp-metadata-manipulation/)
 透過 XMP 元資料操作（從新增項目到提取）輕鬆增強 EPS 檔案。透過我們的指南提升您的文件管理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: कैनवास हेरफेर
 linktitle: कैनवास हेरफेर
 second_title: Aspose.Page .NET API
 description: कैनवास हेरफेर पर .NET ट्यूटोरियल के लिए Aspose.Page का अन्वेषण करें। पीएस और एक्सपीएस दस्तावेजों को क्लिप करना और बदलना आसान हो गया। अपने दस्तावेज़ प्रसंस्करण कौशल को बढ़ाएँ।
-type: docs
 weight: 21
 url: /hi/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# कैनवास हेरफेर
+
 
 ## परिचय
 
@@ -42,3 +48,9 @@ XPS दस्तावेज़ों की क्लिपिंग पर इ
 पोस्टस्क्रिप्ट परिवर्तनों पर इस व्यापक मार्गदर्शिका के साथ .NET के लिए Aspose.Page की क्षमता को अनलॉक करें। सहजता से गतिशील ग्राफिक्स बनाएं।
 ### [.NET के लिए Aspose.Page के साथ XPS रूपांतरण](./transformationsxps/)
 .NET के लिए Aspose.Page के साथ आसानी से XPS दस्तावेज़ों को रूपांतरित करें। निर्बाध परिवर्तनों के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Konvertálja az XPS-t PDF-be Java nyelven
 linktitle: Konvertálja az XPS-t PDF-be Java nyelven
 second_title: Aspose.Page Java API
 description: Tanulja meg, hogyan konvertálhat könnyedén XPS-t PDF-be Java nyelven az Aspose.Page segítségével. Kövesse lépésenkénti útmutatónkat a hatékony dokumentumátalakítás érdekében.
-type: docs
 weight: 11
 url: /hu/java/file-merging/xps-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertálja az XPS-t PDF-be Java nyelven
+
 ## Bevezetés
 A Java fejlesztés területén az XPS PDF formátumba konvertálása gyakori feladat, és ennek zökkenőmentes megvalósításához megbízható eszköz áll rendelkezésre. Az Aspose.Page for Java egy példaértékű könyvtár, amely robusztus funkcionalitást kínál XPS-dokumentumok kezelésére. Ez az oktatóanyag végigvezeti az XPS-t PDF-formátumba konvertálásának folyamatán az Aspose.Page használatával, ezzel biztosítva az egyszerűséget és a hatékonyságot.
 ## Előfeltételek
@@ -68,3 +74,9 @@ V: Természetesen az Aspose.Page lehetőséget biztosít a kép- és szövegtöm
  V: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Page számára?
  V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Állítsa be az átlátszatlansági maszkot a Java XPS-ben
 linktitle: Állítsa be az átlátszatlansági maszkot a Java XPS-ben
 second_title: Aspose.Page Java API
 description: Fedezze fel az opacitásmaszkok beállításának erejét Java XPS-ben az Aspose.Page segítségével. Kövesse lépésenkénti útmutatónkat a vizuálisan továbbfejlesztett dokumentumélmény érdekében.
-type: docs
 weight: 11
 url: /hu/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be az átlátszatlansági maszkot a Java XPS-ben
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban az opacitásmaszkok Java XPS-ben történő beállításáról az Aspose.Page használatával. Ebben az oktatóanyagban végigvezetjük az XPS-dokumentum létrehozásának, a vászon hozzáadásának és az átlátszatlansági maszknak a téglalapra történő felvitelének folyamatán, az Aspose.Page for Java hatékony funkcióival.
 ## Előfeltételek
@@ -67,3 +73,9 @@ A próbaverziónak lehetnek bizonyos funkciókorlátozásai. A részletekért aj
  Meglátogathatja a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) közösségi támogatásért, vagy vásároljon licencet prémium támogatáshoz.
 ### Van pénz-visszafizetési garancia az Aspose.Page számára?
  Utal[vásárlási oldal](https://purchase.aspose.com/buy) a visszatérítési szabályzattal kapcsolatos információkért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

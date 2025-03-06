@@ -3,10 +3,16 @@ title: Προσθήκη οριζόντιας κλίσης στο Java PostScript
 linktitle: Προσθήκη οριζόντιας κλίσης στο Java PostScript
 second_title: Aspose.Page Java API
 description: Μάθετε πώς μπορείτε να προσθέσετε μια οριζόντια κλίση στο Java PostScript με το Aspose.Page για Java. Δημιουργήστε οπτικά εντυπωσιακά έγγραφα χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη οριζόντιας κλίσης στο Java PostScript
+
 ## Εισαγωγή
 Καλώς ήρθατε σε αυτό το περιεκτικό σεμινάριο για την προσθήκη οριζόντιας διαβάθμισης στο Java PostScript χρησιμοποιώντας το Aspose.Page για Java. Το Aspose.Page είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με PostScript και άλλες μορφές εγγράφων. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας ενός εγγράφου PostScript με οριζόντια κλίση χρησιμοποιώντας παραδείγματα βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -82,3 +88,9 @@ document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
  Μπορείτε να αποκτήσετε προσωρινή άδεια από[Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 ### Ποιες είναι οι απαιτήσεις συστήματος για το Aspose.Page για Java;
  Αναφέρομαι στο[τεκμηρίωση](https://reference.aspose.com/page/java/) για λεπτομερείς απαιτήσεις συστήματος.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java で XPS を JPEG に変換する
 linktitle: Java で XPS を JPEG に変換する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して Java で XPS を JPEG に変換する方法を学びます。シームレスな統合のための段階的な手順を記載した包括的なガイド。
-type: docs
 weight: 11
 url: /ja/java/xps-conversion/to-jpeg/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java で XPS を JPEG に変換する
+
 ## 導入
 このチュートリアルでは、Aspose.Page for Java を使用して XPS (XML Paper Supplement) ファイルを JPEG 画像に変換する方法を説明します。 Aspose.Page は、開発者が XPS やその他のドキュメント形式をシームレスに操作できるようにする強力な Java ライブラリです。このステップバイステップのガイドは、プロセスを理解し、Java アプリケーションに実装するのに役立ちます。
 ## 前提条件
@@ -74,3 +80,9 @@ for (int i = 0; i < device.getResult().length; i++) {
  A: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティベースのサポートのために。
 ### Q: テストには一時ライセンスが必要ですか?
  A: はい、一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

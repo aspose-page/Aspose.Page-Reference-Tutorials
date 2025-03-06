@@ -3,10 +3,16 @@ title: Manipulación de páginas Java
 linktitle: Manipulación de páginas Java
 second_title: API de Java de Aspose.Page
 description: Descubra los secretos de la manipulación de páginas Java con los tutoriales de Aspose.Page. Sumérgete en recortes y transformaciones para crear documentos visualmente impresionantes sin esfuerzo.
-type: docs
 weight: 20
 url: /es/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de páginas Java
+
 
 ## Introducción
 
@@ -50,3 +56,9 @@ Aspose.Page para Java pone a su alcance una gran cantidad de capacidades. Desde 
 Explore el arte del recorte en la manipulación de páginas Java con Aspose.Page. Domine la elaboración precisa de documentos para obtener imágenes y control impresionantes.
 ### [Transformaciones en la manipulación de páginas Java](./transformations/)
 Aprenda a realizar transformaciones de página avanzadas en Java utilizando Aspose.Page para Java. Mejore sus aplicaciones Java con potentes capacidades de manipulación.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Add Diagonal Gradient in Java PostScript
 linktitle: Add Diagonal Gradient in Java PostScript
 second_title: Aspose.Page Java API
 description: Enhance your Java PostScript documents with diagonal gradients using Aspose.Page for Java. Follow our step-by-step guide to add vibrant color transitions effortlessly.
-type: docs
 weight: 10
 url: /java/postscript-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Diagonal Gradient in Java PostScript
+
 ## Introduction
 Welcome to our step-by-step guide on adding a diagonal gradient in Java PostScript using Aspose.Page for Java. In this tutorial, we'll walk you through the process, breaking down each example into multiple steps. As a proficient SEO writer, I'll ensure that the content is not only informative but also optimized for search engines, making it easy for developers and enthusiasts to follow along.
 ## Prerequisites
@@ -95,3 +101,10 @@ A: The documentation is available [here](https://reference.aspose.com/page/java/
 A: You can buy a license [here](https://purchase.aspose.com/buy).
 ### Q: Need assistance or have questions?
 A: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java XPS-afbeelding toevoegen - een eenvoudige handleiding met Aspose.Pag
 linktitle: Afbeelding toevoegen in Java XPS
 second_title: Aspose.Page Java-API
 description: Leer hoe u moeiteloos afbeeldingen kunt toevoegen aan XPS-documenten in Java met behulp van Aspose.Page. Verbeter uw documentverwerking met deze stapsgewijze handleiding.
-type: docs
 weight: 10
 url: /nl/java/xps-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS-afbeelding toevoegen - een eenvoudige handleiding met Aspose.Page
+
 In de wereld van Java-ontwikkeling is de mogelijkheid om met XPS-documenten te werken cruciaal voor verschillende toepassingen. Aspose.Page voor Java biedt een krachtige set tools om XPS-documenten te manipuleren, en een essentiële taak is het toevoegen van afbeeldingen. In deze stapsgewijze handleiding leiden we u door het proces van het toevoegen van een afbeelding aan een XPS-document met behulp van Aspose.Page voor Java.
 ## Invoering
 Het toevoegen van afbeeldingen aan XPS-documenten is een veel voorkomende vereiste in veel Java-toepassingen, variërend van het genereren van rapporten tot het verwerken van documenten. Aspose.Page voor Java vereenvoudigt deze taak en biedt efficiënte methoden om afbeeldingen naadloos in uw XPS-bestanden te integreren. In deze zelfstudie laten we zien hoe u een afbeelding aan een XPS-document kunt toevoegen met Aspose.Page voor Java.
@@ -58,3 +64,9 @@ Aspose.Page voor Java ondersteunt verschillende afbeeldingsformaten, waaronder T
  Een tijdelijke licentie kunt u verkrijgen bij[deze link](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik aanvullende ondersteuning vinden of problemen bespreken met betrekking tot Aspose.Page voor Java?
  Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) om hulp te zoeken, ervaringen te delen en verbinding te maken met de Aspose.Page-gemeenschap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

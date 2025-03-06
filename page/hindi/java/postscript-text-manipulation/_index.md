@@ -3,10 +3,16 @@ title: पाठ हेरफेर - पोस्टस्क्रिप्ट
 linktitle: पाठ हेरफेर - पोस्टस्क्रिप्ट
 second_title: Aspose.Page जावा एपीआई
 description: पोस्टस्क्रिप्ट ट्यूटोरियल के साथ जावा की क्षमता के लिए Aspose.Page को अनलॉक करें। अपने प्रोजेक्ट को बेहतर बनाने के लिए यूनिकोड स्ट्रिंग सहित टेक्स्ट को सहजता से जोड़ें।
-type: docs
 weight: 36
 url: /hi/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# पाठ हेरफेर - पोस्टस्क्रिप्ट
+
 
 ## परिचय
 
@@ -30,3 +36,9 @@ url: /hi/java/postscript-text-manipulation/
 पोस्टस्क्रिप्ट दस्तावेज़ों में टेक्स्ट जोड़ने पर हमारे ट्यूटोरियल में जावा के लिए Aspose.Page की शक्ति का अन्वेषण करें। सिस्टम और कस्टम फ़ॉन्ट का आसानी से उपयोग करना सीखें।
 ### [जावा पोस्टस्क्रिप्ट में यूनिकोड स्ट्रिंग का उपयोग करके टेक्स्ट जोड़ें](./add-text-unicode/)
 अपने पोस्टस्क्रिप्ट प्रोजेक्ट में यूनिकोड टेक्स्ट जोड़ने में जावा के लिए Aspose.Page की शक्ति का अन्वेषण करें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

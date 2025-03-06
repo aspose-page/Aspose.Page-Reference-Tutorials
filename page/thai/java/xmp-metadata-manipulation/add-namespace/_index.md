@@ -3,10 +3,16 @@ title: เพิ่มเนมสเปซใน XMP โดยใช้ Java
 linktitle: เพิ่มเนมสเปซใน XMP โดยใช้ Java
 second_title: Aspose.Page Java API
 description: ปลดล็อกพลังของการจัดการเอกสารด้วย Aspose.Page สำหรับ Java เรียนรู้การเพิ่มเนมสเปซ XMP ได้อย่างง่ายดายในคู่มือที่ครอบคลุมนี้
-type: docs
 weight: 13
 url: /th/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มเนมสเปซใน XMP โดยใช้ Java
+
 
 ## การแนะนำ
 
@@ -108,3 +114,9 @@ Aspose.Page รองรับ Java เป็นหลัก แต่มีเ�
 
 ### มีฟอรัมชุมชนสำหรับ Aspose.Page หรือไม่
  ใช่ คุณสามารถมีส่วนร่วมกับชุมชนได้ที่[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

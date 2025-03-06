@@ -3,10 +3,16 @@ title: Aggiungi testo con stringa Unicode al documento XPS con Aspose.Page
 linktitle: Aggiungi testo con stringa Unicode al documento XPS
 second_title: API Aspose.Page .NET
 description: Esplora la potenza di Aspose.Page per .NET con la nostra guida passo passo sull'aggiunta di testo Unicode ai documenti XPS.
-type: docs
 weight: 12
 url: /it/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi testo con stringa Unicode al documento XPS con Aspose.Page
+
 ## introduzione
 
 Nel panorama in continua evoluzione dello sviluppo .NET, Aspose.Page si distingue come un potente strumento per la gestione dei documenti XPS. Tra le sue numerose funzionalità, la possibilità di aggiungere testo con stringhe Unicode a un documento XPS è una funzionalità preziosa. Questa guida passo passo ti guiderà attraverso il processo, assicurandoti di sfruttare questa funzionalità in modo efficace.
@@ -88,3 +94,9 @@ A2: Assolutamente! Il codice di esempio fornito ti consente di personalizzare fa
 ### Q5: È disponibile una versione di prova prima di effettuare un acquisto?
 
  A5: Certamente! Puoi accedere alla versione di prova gratuita[Qui](https://releases.aspose.com/) prima di effettuare un acquisto.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

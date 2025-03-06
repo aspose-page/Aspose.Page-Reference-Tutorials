@@ -3,10 +3,16 @@ title: Kanvas Manipülasyonu
 linktitle: Kanvas Manipülasyonu
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET tuval manipülasyonu eğitimlerini keşfedin. PS ve XPS belgelerini kırpmak ve dönüştürmek artık çok kolay. Belge işleme becerilerinizi geliştirin.
-type: docs
 weight: 21
 url: /tr/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kanvas Manipülasyonu
+
 
 ## giriiş
 
@@ -42,3 +48,9 @@ XPS belgelerini kırpmaya ilişkin bu adım adım kılavuzla Aspose.Page for .NE
 PostScript dönüşümleri hakkındaki bu kapsamlı kılavuzla Aspose.Page for .NET'in potansiyelini ortaya çıkarın. Zahmetsizce dinamik grafikler oluşturun.
 ### [.NET için Aspose.Page ile XPS Dönüşümleri](./transformationsxps/)
 Aspose.Page for .NET ile XPS belgelerini zahmetsizce dönüştürün. Sorunsuz dönüşümler için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

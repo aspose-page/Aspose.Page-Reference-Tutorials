@@ -3,10 +3,16 @@ title: Transparence - PostScript
 linktitle: Transparence - PostScript
 second_title: API Java Aspose.Page
 description: Élevez Java PostScript avec Aspose.Page pour Java. Intégrez de manière transparente des images transparentes et créez une pseudo-transparence dynamique pour des visualisations captivantes.
-type: docs
 weight: 39
 url: /fr/java/postscript-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transparence - PostScript
+
 ## Introduction
 
 Êtes-vous prêt à élever vos documents Java PostScript vers de nouveaux sommets ? Cherchez pas plus loin! Dans cette série de didacticiels, nous approfondissons les subtilités de la transparence, en nous concentrant sur deux aspects clés : l'ajout d'images transparentes et la création de pseudo-transparence.
@@ -36,3 +42,9 @@ En conclusion, maîtriser la transparence en Java PostScript n'a jamais été au
 Découvrez l'intégration transparente d'images transparentes dans les documents Java PostScript avec Aspose.Page pour Java. Élevez vos visualisations de documents sans effort.
 ### [Afficher la pseudo-transparence en Java PostScript](./show-pseudo-transparency/)
 Débloquez des graphismes éclatants en Java PostScript ! Suivez notre didacticiel Aspose.Page pour créer une pseudo-transparence étape par étape. Télécharger maintenant!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

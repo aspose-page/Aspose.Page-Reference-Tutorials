@@ -3,10 +3,16 @@ title: लाइसेंस प्रबंधन
 linktitle: लाइसेंस प्रबंधन
 second_title: Aspose.Page जावा एपीआई
 description: हमारे लाइसेंस प्रबंधन ट्यूटोरियल के साथ जावा के लिए Aspose.Page की पूरी क्षमता को अनलॉक करें। दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ावा देने के लिए निर्बाध रूप से मीटर्ड लाइसेंस स्थापित करें।
-type: docs
 weight: 30
 url: /hi/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# लाइसेंस प्रबंधन
+
 ## परिचय
 
 जावा में Aspose.Page के लिए लाइसेंस प्रबंधन ट्यूटोरियल में आपका स्वागत है! इस व्यापक मार्गदर्शिका में, हम आपकी दस्तावेज़ प्रसंस्करण क्षमताओं को अनुकूलित करने के लिए मीटर्ड लाइसेंस स्थापित करने की जटिलताओं पर प्रकाश डालेंगे। आइए एक ऐसी यात्रा शुरू करें जो जावा के साथ सहज एकीकरण सुनिश्चित करते हुए Aspose.Page की पूरी क्षमता को उजागर करती है।
@@ -39,3 +45,9 @@ url: /hi/java/license-management/
 ## लाइसेंस प्रबंधन ट्यूटोरियल
 ### [जावा में मीटर्ड लाइसेंस सेट करें](./set-metered-license/)
 Java के साथ Aspose.Page के निर्बाध एकीकरण का अन्वेषण करें। आसानी से मीटर्ड लाइसेंस सेट करें और अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

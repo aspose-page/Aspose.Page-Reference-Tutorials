@@ -3,10 +3,16 @@ title: Προσθέστε Named Value σε XMP χρησιμοποιώντας Ja
 linktitle: Προσθέστε Named Value σε XMP χρησιμοποιώντας Java
 second_title: Aspose.Page Java API
 description: Κύριος χειρισμός εγγράφων Java χρησιμοποιώντας το Aspose.Page! Προσθέστε αβίαστα επώνυμες τιμές στα μεταδεδομένα XMP με τον αναλυτικό οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 12
 url: /el/java/xmp-metadata-manipulation/add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε Named Value σε XMP χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Στο συνεχώς εξελισσόμενο τοπίο της ανάπτυξης Java, ο χειρισμός μεταδεδομένων σε αρχεία EPS είναι ζωτικής σημασίας για τη διατήρηση της ακεραιότητας των εγγράφων. Το Aspose.Page για Java είναι μια ισχυρή βιβλιοθήκη που απλοποιεί αυτή τη διαδικασία. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στα βήματα για την προσθήκη μιας επώνυμης τιμής στα μεταδεδομένα XMP χρησιμοποιώντας Java, διασφαλίζοντας ότι έχετε μια ισχυρή βάση για τον χειρισμό αρχείων EPS.
 ## Προαπαιτούμενα
@@ -78,3 +84,9 @@ psStream.close();
  Εξερευνήστε το[τεκμηρίωση](https://reference.aspose.com/page/java/)για ολοκληρωμένα σεμινάρια και παραδείγματα.
 ### Είναι το Aspose.Page για Java κατάλληλο για έργα μεγάλης κλίμακας;
 Οπωσδήποτε, το Aspose.Page για Java έχει σχεδιαστεί για να χειρίζεται αποτελεσματικά έργα μεγάλης κλίμακας, παρέχοντας ισχυρές δυνατότητες χειρισμού εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

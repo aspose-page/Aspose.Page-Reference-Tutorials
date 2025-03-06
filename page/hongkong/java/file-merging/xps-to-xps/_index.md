@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 掌握 Java 中的 XPS 檔案合併
 linktitle: 在 Java 中將 XPS 轉換為 XPS
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page 在 Java 中無縫合併 XPS 檔案。請按照我們的逐步指南進行高效率的文件操作。立即提升您的 Java 開發技能！
-type: docs
 weight: 12
 url: /zh-hant/java/file-merging/xps-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 掌握 Java 中的 XPS 檔案合併
+
 ## 介紹
 在 Java 開發領域，管理和操作 XPS 檔案是常見的需求。無論您是處理報告、簡報或任何其他 XPS 文檔，無縫合併多個文件的能力都是一項寶貴的技能。在本教程中，我們將深入研究使用 Aspose.Page for Java（一個用於處理 XPS 文件的強大 Java API）合併 XPS 檔案的過程。
 ## 先決條件
@@ -59,3 +65,9 @@ document.merge(filesForMerge, outStream);
 是的，請訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)與社區互動。
 ### 如何購買 Aspose.Page for Java 函式庫？
 您可以購買圖書館[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

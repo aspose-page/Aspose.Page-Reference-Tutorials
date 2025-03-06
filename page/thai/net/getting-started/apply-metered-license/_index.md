@@ -3,10 +3,16 @@ title: ใช้สิทธิ์การใช้งาน Metered กับ 
 linktitle: ใช้ใบอนุญาตมิเตอร์
 second_title: Aspose.Page .NET API
 description: สำรวจการบูรณาการอย่างราบรื่นของ Aspose.Page สำหรับ .NET พร้อมด้วยคำแนะนำทีละขั้นตอนเกี่ยวกับการใช้ใบอนุญาตแบบคิดค่าบริการตามปริมาณข้อมูล เพิ่มประสิทธิภาพการประมวลผลเอกสารได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ใช้สิทธิ์การใช้งาน Metered กับ Aspose.Page สำหรับ .NET
+
 ## การแนะนำ
 
 ปลดล็อกศักยภาพเต็มรูปแบบของ Aspose.Page สำหรับ .NET โดยการใช้ใบอนุญาตแบบคิดค่าบริการตามปริมาณข้อมูล บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนการตั้งค่าและการใช้สิทธิ์การใช้งานแบบคิดค่าบริการตามปริมาณข้อมูล เพื่อให้มั่นใจว่าการใช้งานไลบรารี .NET อันทรงพลังนี้ราบรื่นและเหมาะสมที่สุด
@@ -112,3 +118,9 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 ### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page สำหรับ .NET ได้อย่างไร
 
  A5: เยี่ยมเลย[ใบอนุญาตชั่วคราว/](https://purchase.aspose.com/temporary-license/) เพื่อขอรับใบอนุญาตชั่วคราว
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

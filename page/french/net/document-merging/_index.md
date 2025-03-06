@@ -3,10 +3,16 @@ title: Fusion de documents
 linktitle: Fusion de documents
 second_title: API Aspose.Page .NET
 description: Fusionnez sans effort des documents PostScript et XPS dans des PDF de haute qualité à l'aide d'Aspose.Page pour .NET. Améliorez le traitement de vos documents avec nos didacticiels étape par étape.
-type: docs
 weight: 25
 url: /fr/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fusion de documents
+
 ## Introduction
 
 Fusionnez votre chemin vers une gestion transparente des documents avec Aspose.Page pour .NET. Découvrez la puissance de la fusion de documents avec nos didacticiels complets.
@@ -40,3 +46,9 @@ Découvrez comment fusionner sans effort des documents PostScript en PDF à l'ai
 Fusionnez sans effort des documents XPS dans des PDF de haute qualité à l'aide d'Aspose.Page pour .NET. Suivez notre guide étape par étape pour une expérience de conversion de documents fluide.
 ### [Fusionner des documents XPS avec Aspose.Page pour .NET](./merge-xps-documents/)
 Fusionnez sans effort des documents XPS à l'aide d'Aspose.Page pour .NET. Suivez notre guide étape par étape pour une gestion transparente des documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

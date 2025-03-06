@@ -3,10 +3,16 @@ title: Agregar valor con nombre con Aspose.Page
 linktitle: Agregar valor con nombre
 second_title: Aspose.Página .NET API
 description: Aprenda a agregar valores con nombre a archivos EPS en .NET usando Aspose.Page. Este completo tutorial le guiará a través del proceso paso a paso.
-type: docs
 weight: 12
 url: /es/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar valor con nombre con Aspose.Page
+
 ## Introducción
 
 En el ámbito del procesamiento de documentos con .NET, Aspose.Page se destaca como una poderosa herramienta para manejar archivos EPS. Aspose.Page permite a los desarrolladores manipular metadatos XMP, facilitando tareas como agregar valores con nombre. Este tutorial lo guiará a través del proceso de agregar valores con nombre a un archivo EPS usando Aspose.Page paso a paso.
@@ -96,3 +102,9 @@ R1: Aspose.Page admite varias versiones de archivos EPS, lo que garantiza la com
 ### P5: ¿Qué es una licencia temporal y cómo puedo obtenerla?
 
  R5: Si necesita una licencia temporal para fines de prueba o evaluación, puede adquirir una[aquí](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

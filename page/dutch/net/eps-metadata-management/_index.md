@@ -3,10 +3,16 @@ title: Beheer van EPS-metagegevens
 linktitle: Beheer van EPS-metagegevens
 second_title: Aspose.Page .NET-API
 description: Verbeter de EPS-organisatie met Aspose.Page voor .NET. Voeg moeiteloos metadata toe voor verbeterde toegankelijkheid. Ontdek tutorials over EPS-metagegevensbeheer.
-type: docs
 weight: 36
 url: /nl/net/eps-metadata-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer van EPS-metagegevens
+
 
 ## Invoering
 
@@ -59,3 +65,9 @@ Leer hoe u benoemde waarden in EPS-bestanden kunt wijzigen met Aspose.Page voor 
 Beheers de manipulatie van EPS-bestanden met Aspose.Page voor .NET. Wijzig moeiteloos de waarden van XMP-metagegevens.
 ### [Metagegevens uit EPS-document extraheren met Aspose.Page voor .NET](./extract-metadata-from-eps-document/)
 Verbeter de organisatie van EPS-documenten met Aspose.Page voor .NET. Voeg moeiteloos metadata toe voor verbeterde toegankelijkheid en het ophalen van informatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

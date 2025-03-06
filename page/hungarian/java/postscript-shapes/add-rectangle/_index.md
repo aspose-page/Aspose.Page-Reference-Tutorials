@@ -3,10 +3,16 @@ title: A Java PostScript testreszabása – Téglalapok hozzáadása az Aspose.P
 linktitle: Téglalap hozzáadása a Java PostScript-ben
 second_title: Aspose.Page Java API
 description: Fedezze fel a lépésről lépésre szóló útmutatót a Java PostScript dokumentumokhoz élénk téglalapok hozzáadásához az Aspose.Page for Java segítségével. Fokozza a dokumentum testreszabását erőfeszítés nélkül!
-type: docs
 weight: 11
 url: /hu/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Java PostScript testreszabása – Téglalapok hozzáadása az Aspose.Page segítségével
+
 ## Bevezetés
 Élénk téglalapokkal szeretné javítani Java PostScript-dokumentumait? Ne keressen tovább! Ebben a lépésenkénti útmutatóban megvizsgáljuk, hogyan használhatja az Aspose.Page for Java-t téglalapok hozzáadásához PostScript-dokumentumaihoz. Az Aspose.Page egy hatékony könyvtár, amely robusztus funkciókat kínál a PostScript fájlokkal való munkavégzéshez, így ideális választás a dokumentumaikat manipulálni és testreszabni kívánó fejlesztők számára.
 ## Előfeltételek
@@ -72,3 +78,9 @@ Az Aspose.Page elsősorban a Java nyelvet támogatja, de más nyelvekhez is elé
  Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol vásárolhatom meg az Aspose.Page for Java licencelt verzióját?
  Vásároljon licencelt verziót[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

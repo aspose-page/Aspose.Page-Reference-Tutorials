@@ -3,10 +3,16 @@ title: Градиентная заливка
 linktitle: Градиентная заливка
 second_title: Aspose.Page .NET API
 description: Откройте для себя искусство градиентной заливки в .NET с помощью руководств Aspose.Page. Улучшите свои проекты без особых усилий — добавьте привлекательные диагональные, горизонтальные и вертикальные градиенты.
-type: docs
 weight: 27
 url: /ru/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Градиентная заливка
+
 
 ## Введение
 
@@ -49,3 +55,9 @@ url: /ru/net/gradient-fills/
 Узнайте, как добавлять визуально привлекательные вертикальные градиенты в документы PostScript (PS) в .NET с помощью Aspose.Page. Усовершенствуйте процесс создания документов с помощью этого пошагового руководства.
 ### [Добавьте вертикальный градиент в XPS с помощью Aspose.Page для .NET](./add-vertical-gradient-to-xps/)
 Узнайте, как улучшить документы XPS с помощью вертикальных градиентов с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

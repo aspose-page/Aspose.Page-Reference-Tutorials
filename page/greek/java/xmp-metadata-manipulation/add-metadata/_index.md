@@ -3,10 +3,16 @@ title: Προσθέστε μεταδεδομένα σε XMP χρησιμοποι
 linktitle: Προσθέστε μεταδεδομένα σε XMP χρησιμοποιώντας Java
 second_title: Aspose.Page Java API
 description: Εξερευνήστε την απρόσκοπτη ενσωμάτωση του Aspose.Page για Java και μάθετε πώς να προσθέτετε μεταδεδομένα XMP στα αρχεία EPS σας χωρίς κόπο. Ανεβάστε το παιχνίδι διαχείρισης εγγράφων σας σήμερα!
-type: docs
 weight: 11
 url: /el/java/xmp-metadata-manipulation/add-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε μεταδεδομένα σε XMP χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Θέλετε να βελτιώσετε τα μεταδεδομένα του εγγράφου σας προσθέτοντας πληροφορίες XMP χρησιμοποιώντας Java; Μην ψάχνετε άλλο! Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία προσθήκης μεταδεδομένων σε ένα αρχείο EPS χρησιμοποιώντας τη βιβλιοθήκη Aspose.Page για Java. Το Aspose.Page είναι ένα ισχυρό εργαλείο που απλοποιεί τις εργασίες χειρισμού εγγράφων σε εφαρμογές Java.
 ## Προαπαιτούμενα
@@ -101,3 +107,9 @@ psStream.close();
 Α: Το Aspose.Page για Java υποστηρίζει διάφορες μορφές, όπως EPS, PDF και XPS.
 ### Ε: Μπορώ να αγοράσω το Aspose.Page για Java;
  Α: Ναι, μπορείτε να αγοράσετε το Aspose.Page για Java[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page による Java PostScript 擬似透過性
 linktitle: Java PostScript で擬似透明性を表示する
 second_title: Aspose.Page Java API
 description: Java PostScript で鮮やかなグラフィックをロック解除しましょう! Aspose.Page チュートリアルに従って、擬似透明度を段階的に作成してください。ダウンロード中！
-type: docs
 weight: 11
 url: /ja/java/postscript-transparency/show-pseudo-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page による Java PostScript 擬似透過性
+
 ## 導入
 Aspose.Page for Java を利用して Java PostScript の擬似透明性を実証するための包括的なガイドへようこそ。このチュートリアルでは、各概念を完全に理解できるように、プロセスを段階的に説明します。擬似透明には、グラフィックスに透明の錯覚を作成することが含まれます。Aspose.Page の強力な機能により、このタスクが簡素化されます。
 ## 前提条件
@@ -90,3 +96,9 @@ document.save();
 仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### サポートが必要ですか、または Aspose.Page について議論したいですか?
 訪問[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

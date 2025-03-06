@@ -3,10 +3,16 @@ title: Εφαρμογή Metered License με το Aspose.Page για .NET
 linktitle: Εφαρμογή Metered License
 second_title: Aspose.Page .NET API
 description: Εξερευνήστε την απρόσκοπτη ενσωμάτωση του Aspose.Page για .NET με αυτόν τον αναλυτικό οδηγό για την εφαρμογή μιας μετρημένης άδειας χρήσης. Βελτιστοποιήστε την επεξεργασία εγγράφων χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή Metered License με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Ξεκλειδώστε πλήρως τις δυνατότητες του Aspose.Page για .NET εφαρμόζοντας μια μετρημένη άδεια. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία ρύθμισης και εφαρμογής της μετρημένης άδειας, διασφαλίζοντας την ομαλή και βελτιστοποιημένη χρήση αυτής της ισχυρής βιβλιοθήκης .NET.
@@ -112,3 +118,9 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Page για .NET;
 
  Α5: Επίσκεψη[προσωρινή άδεια/](https://purchase.aspose.com/temporary-license/) για την απόκτηση προσωρινής άδειας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

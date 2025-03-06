@@ -3,10 +3,16 @@ title: บันทึกภาพเป็น EPS ใน Java
 linktitle: บันทึกภาพเป็น EPS ใน Java
 second_title: Aspose.Page Java API
 description: สำรวจพลังของ Aspose.Page สำหรับ Java ในการบันทึกภาพเป็น EPS ได้อย่างง่ายดาย เพิ่มความสามารถด้านกราฟิกและการพิมพ์ของคุณด้วยไลบรารี Java อเนกประสงค์นี้
-type: docs
 weight: 12
 url: /th/java/postscript-conversion/save-image-as-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึกภาพเป็น EPS ใน Java
+
 ## การแนะนำ
 ในโลกของการเขียนโปรแกรม Java Aspose.Page สำหรับ Java กลายเป็นเครื่องมืออันทรงพลังสำหรับจัดการและบันทึกรูปภาพในรูปแบบต่างๆ หนึ่งในคุณสมบัติที่หลากหลายคือความสามารถในการบันทึกรูปภาพเป็นไฟล์ Encapsulated PostScript (EPS) ซึ่งเป็นรูปแบบที่ใช้กันอย่างแพร่หลายในกราฟิกและการพิมพ์ระดับมืออาชีพ
 บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนการบันทึกรูปภาพเป็น EPS โดยใช้ Aspose.Page สำหรับ Java เราจะครอบคลุมข้อกำหนดเบื้องต้น การนำเข้าแพ็คเกจที่จำเป็น และแจกแจงแต่ละขั้นตอนพร้อมคำอธิบายโดยละเอียด
@@ -60,3 +66,9 @@ PsDocument.saveImageAsEps(dataDir + "input1.jpg", dataDir + "output1.eps", optio
  ใช่ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page สำหรับ Java ได้อย่างไร
  รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

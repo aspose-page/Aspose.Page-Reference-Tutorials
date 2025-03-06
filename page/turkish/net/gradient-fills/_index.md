@@ -3,10 +3,16 @@ title: Degrade Dolgular
 linktitle: Degrade Dolgular
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page eğitimleriyle .NET'te degrade dolgu sanatını keşfedin. Projelerinizi zahmetsizce yükseltin; büyüleyici çapraz, yatay ve dikey degradeler ekleyin.
-type: docs
 weight: 27
 url: /tr/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Degrade Dolgular
+
 
 ## giriiş
 
@@ -49,3 +55,9 @@ Aspose.Page for .NET'i kullanarak XPS belgelerinize nasıl çarpıcı yatay degr
 Aspose.Page'i kullanarak .NET'te PostScript (PS) belgelerine görsel olarak çekici dikey degradeler eklemeyi öğrenin. Bu adım adım kılavuzla belge oluşturma sürecinizi geliştirin.
 ### [Aspose.Page for .NET ile XPS'ye Dikey Degrade ekleyin](./add-vertical-gradient-to-xps/)
 Aspose.Page for .NET'i kullanarak XPS belgelerini dikey degradelerle nasıl geliştireceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

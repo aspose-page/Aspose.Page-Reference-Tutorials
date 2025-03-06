@@ -3,10 +3,16 @@ title: Chuyển đổi tài liệu
 linktitle: Chuyển đổi tài liệu
 second_title: API Aspose.Page .NET
 description: Dễ dàng chuyển đổi PostScript sang PDF và XPS sang PDF bằng hướng dẫn Aspose.Page for .NET. Các giải pháp mạnh mẽ, đáng tin cậy và dễ dàng để chuyển đổi tài liệu liền mạch.
-type: docs
 weight: 24
 url: /vi/net/document-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi tài liệu
+
 
 ## Giới thiệu
 
@@ -34,3 +40,9 @@ Tóm lại, Aspose.Page cho .NET cung cấp các hướng dẫn không chỉ gi�
 Dễ dàng chuyển đổi PostScript sang PDF bằng Aspose.Page for .NET. Mạnh mẽ, đáng tin cậy và thân thiện với nhà phát triển.
 ### [Chuyển đổi XPS sang PDF bằng Aspose.Page cho .NET](./convert-xps-to-pdf/)
 Dễ dàng chuyển đổi XPS sang PDF trong .NET bằng Aspose.Page. Tải xuống thư viện, khám phá tài liệu và dùng thử miễn phí.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

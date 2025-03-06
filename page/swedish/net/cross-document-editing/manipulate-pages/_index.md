@@ -3,10 +3,16 @@ title: Manipulera sidor med Aspose.Page för .NET
 linktitle: Manipulera sidor
 second_title: Aspose.Page .NET API
 description: Utforska sidmanipulation i .NET med Aspose.Page, ett kraftfullt bibliotek för hantering av XPS-dokument. Följ vår steg-för-steg-guide för effektiva resultat.
-type: docs
 weight: 12
 url: /sv/net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulera sidor med Aspose.Page för .NET
+
 ## Introduktion
 
 Välkommen till världen av Aspose.Page för .NET! I den här handledningen guidar vi dig genom processen att manipulera sidor med Aspose.Page-biblioteket i en .NET-miljö. Oavsett om du är en erfaren utvecklare eller precis har börjat, är den här guiden utformad för att hjälpa dig att utnyttja kraften i Aspose.Page för effektiv sidmanipulation.
@@ -94,3 +100,9 @@ S3: Ja, Aspose.Page är helt kompatibel med Visual Studio, vilket gör det enkel
 ### F5: Var kan jag få support eller ställa frågor?
 
  A5: Besök[Aspose.Page forum](https://forum.aspose.com/c/page/39) att få stöd och engagera sig i samhället.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

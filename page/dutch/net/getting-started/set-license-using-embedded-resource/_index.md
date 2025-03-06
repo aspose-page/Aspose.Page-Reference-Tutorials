@@ -3,10 +3,16 @@ title: Licentie instellen met behulp van ingebedde bronnen met Aspose.Page voor 
 linktitle: Licentie instellen met behulp van ingebedde bronnen
 second_title: Aspose.Page .NET-API
 description: Leer hoe u een licentie instelt met behulp van ingebedde bronnen met Aspose.Page voor .NET. Garandeer naleving en ontgrendel het volledige potentieel van documentverwerking.
-type: docs
 weight: 14
 url: /nl/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licentie instellen met behulp van ingebedde bronnen met Aspose.Page voor .NET
+
 ## Invoering
 
 Aspose.Page voor .NET is een krachtige bibliotheek waarmee ontwikkelaars naadloos met verschillende documentformaten kunnen werken. In deze zelfstudie begeleiden we u bij het instellen van een licentie met behulp van een ingesloten bron met Aspose.Page voor .NET. Licenties zijn een cruciale stap bij het optimaal benutten van de functionaliteiten van Aspose.Page, waardoor compliance wordt gewaarborgd en het potentieel van de bibliotheek wordt ontsloten.
@@ -110,3 +116,9 @@ A1: Hoewel u Aspose.Page zonder licentie kunt gebruiken, wordt het aanbevolen om
 ### V5: Waar kan ik Aspose.Page voor .NET kopen?
 
  A5: U kunt Aspose.Page kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

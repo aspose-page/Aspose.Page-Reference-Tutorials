@@ -3,10 +3,16 @@ title: Oldal Manipuláció
 linktitle: Oldal Manipuláció
 second_title: Aspose.Page .NET API
 description: Fedezze fel az Aspose.Page for .NET erejét a PostScript és XPS dokumentumok kezelésében. Tanuljon meg oldalakat hozzáadni, javítani és eltávolítani átfogó oktatóanyagaink segítségével.
-type: docs
 weight: 29
 url: /hu/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oldal Manipuláció
+
 
 ## Bevezetés
 
@@ -35,3 +41,9 @@ Fedezze fel az Aspose.Page for .NET oldalt, amely a tökéletes megoldás a .NET
 Fejlessze .NET-alkalmazásait, ha megtanulja, hogyan adhat hozzá oldalakat XPS-dokumentumokhoz az Aspose.Page for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
 ### [Távolítsa el az oldalt az XPS-dokumentumból az Aspose.Page for .NET segítségével](./remove-page-from-xps-document/)
 Fedezze fel az átfogó oktatóanyagot az XPS-dokumentumok oldalainak eltávolításáról az Aspose.Page for .NET használatával. Ismerje meg a zökkenőmentes dokumentumkezelés lépésenkénti folyamatát, előfeltételeit és GYIK-eit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

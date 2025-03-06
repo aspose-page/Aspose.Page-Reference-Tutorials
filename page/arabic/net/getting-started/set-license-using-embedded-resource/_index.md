@@ -3,10 +3,16 @@ title: قم بتعيين الترخيص باستخدام الموارد المض
 linktitle: قم بتعيين الترخيص باستخدام الموارد المضمنة
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية تعيين ترخيص باستخدام الموارد المضمنة مع Aspose.Page لـ .NET. ضمان الامتثال وفتح الإمكانات الكاملة لمعالجة المستندات.
-type: docs
 weight: 14
 url: /ar/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين الترخيص باستخدام الموارد المضمنة مع Aspose.Page لـ .NET
+
 ## مقدمة
 
 Aspose.Page for .NET هي مكتبة قوية تمكن المطورين من العمل مع تنسيقات المستندات المختلفة بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إعداد الترخيص باستخدام مورد مضمن مع Aspose.Page for .NET. يعد الترخيص خطوة حاسمة في استخدام وظائف Aspose.Page إلى أقصى حد، مما يضمن الامتثال وإطلاق العنان لإمكانات المكتبة.
@@ -110,3 +116,9 @@ Console.WriteLine("License set successfully.");
 ### س5: أين يمكنني شراء Aspose.Page لـ .NET؟
 
  ج5: يمكنك شراء Aspose.Page[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

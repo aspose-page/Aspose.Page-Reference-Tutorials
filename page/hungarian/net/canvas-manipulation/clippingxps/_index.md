@@ -3,10 +3,16 @@ title: XPS kivágása az Aspose.Page segítségével .NET-hez
 linktitle: XPS kivágása
 second_title: Aspose.Page .NET API
 description: Fedezze fel az Aspose.Page for .NET előnyeit ebben az XPS-dokumentumok kivágásáról szóló, lépésenkénti útmutatóban. XPS-fájlok létrehozása, kezelése és mentése erőfeszítés nélkül.
-type: docs
 weight: 11
 url: /hu/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPS kivágása az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban az XPS kivágásáról az Aspose.Page for .NET használatával! Ebben az útmutatóban végigvezetjük az XPS-dokumentumok létrehozásának, kezelésének és mentésének folyamatán az Aspose.Page for .NET használatával. Az XPS vagy XML Paper Specification egy szabványosított és nyílt dokumentumformátum, az Aspose.Page for .NET pedig hatékony eszközöket biztosít az XPS-dokumentumok kezeléséhez a .NET-alkalmazásokban.
@@ -156,3 +162,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan lehet XPS-t vágni az Aspose.Page for
 ### 5. kérdés: Elérhető ingyenes próbaverzió az Aspose.Page számára .NET-hez?
 
  5. válasz: Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

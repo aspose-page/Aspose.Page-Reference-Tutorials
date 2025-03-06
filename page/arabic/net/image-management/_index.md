@@ -3,10 +3,16 @@ title: إدارة الصور
 linktitle: إدارة الصور
 second_title: Aspose.Page .NET API
 description: قم بتحسين صور المستندات الخاصة بك دون عناء! استكشف دروس Aspose.Page .NET التي تغطي إدارة الصور. بدءًا من إضافة الصور إلى تحويل التنسيقات، أتقن كل خطوة.
-type: docs
 weight: 28
 url: /ar/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة الصور
+
 ## مقدمة
 
 هل تتطلع إلى رفع المظهر المرئي لمستنداتك باستخدام Aspose.Page لـ .NET؟ لا مزيد من البحث! في هذا الدليل الشامل، سنرشدك عبر العديد من البرامج التعليمية لإدارة الصور والتي ستمكنك من تحسين مستنداتك بسلاسة.
@@ -45,3 +51,9 @@ url: /ar/net/image-management/
 استكشف إضافة الصور المتجانبة إلى مستندات XPS دون عناء باستخدام Aspose.Page for .NET. تعزيز المظهر المرئي وإنشاء مستندات مذهلة.
 ### [تحويل الصورة إلى تنسيق EPS باستخدام Aspose.Page لـ .NET](./convert-image-to-eps-format/)
 تعرف على كيفية تحويل صور JPEG إلى تنسيق EPS باستخدام Aspose.Page لـ .NET. دليل شامل مع تعليمات خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

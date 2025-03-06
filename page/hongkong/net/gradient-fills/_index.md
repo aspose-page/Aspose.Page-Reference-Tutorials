@@ -3,10 +3,16 @@ title: 漸變填充
 linktitle: 漸變填充
 second_title: Aspose.Page .NET API
 description: 透過 Aspose.Page 教學探索 .NET 中的漸層填充藝術。輕鬆提升您的項目 - 添加迷人的對角線、水平和垂直漸變。
-type: docs
 weight: 27
 url: /zh-hant/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 漸變填充
+
 
 ## 介紹
 
@@ -49,3 +55,9 @@ url: /zh-hant/net/gradient-fills/
 了解如何使用 Aspose.Page 將具有視覺吸引力的垂直漸層新增至 .NET 中的 PostScript (PS) 文件。透過此逐步指南提升您的文件建立等級。
 ### [使用 Aspose.Page for .NET 將垂直漸層加入 XPS](./add-vertical-gradient-to-xps/)
 了解如何使用 Aspose.Page for .NET 透過垂直漸層增強 XPS 文件。請按照我們的逐步指南進行無縫整合。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

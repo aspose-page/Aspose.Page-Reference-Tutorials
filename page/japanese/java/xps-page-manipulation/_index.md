@@ -3,10 +3,16 @@ title: ページ操作 - XPS
 linktitle: ページ操作 - XPS
 second_title: Aspose.Page Java API
 description: チュートリアルで Aspose.Page for Java の威力を体験してください。アプリケーション機能を強化するためのページを簡単に追加して、Java XPS ドキュメントを強化します。
-type: docs
 weight: 33
 url: /ja/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ページ操作 - XPS
+
 
 ## 導入
 
@@ -36,3 +42,9 @@ Aspose.Page は、そのユーザーフレンドリーなアプローチと比�
 ## ページ操作 - XPS チュートリアル
 ### [Java XPSでページを追加](./add-page/)
 Aspose.Page を使用して Java XPS ドキュメントを昇格します。アプリケーションの機能を強化するためにページを簡単に追加する方法を学びます。今すぐチュートリアルに飛び込みましょう！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Image Manipulation - XPS
 linktitle: Image Manipulation - XPS
 second_title: Aspose.Page Java API
 description: Discover the art of effortless image manipulation in Java XPS documents with Aspose.Page. Learn to add and tile images seamlessly for enhanced document processing.
-type: docs
 weight: 29
 url: /java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Image Manipulation - XPS
+
 
 ## Introduction
 
@@ -36,3 +42,9 @@ In conclusion, Aspose.Page for Java opens the door to a world where document man
 Learn how to effortlessly add images to XPS documents in Java using Aspose.Page. Elevate your document processing with this step-by-step guide.
 ### [Add Tiled Image in Java XPS](./add-tiled-image/)
 Explore seamless Java XPS document manipulation with Aspose.Page. Learn to add tiled images effortlessly using this step-by-step guide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

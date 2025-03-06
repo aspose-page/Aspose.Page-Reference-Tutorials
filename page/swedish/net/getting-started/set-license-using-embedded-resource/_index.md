@@ -3,10 +3,16 @@ title: Ställ in licens med inbäddad resurs med Aspose.Page för .NET
 linktitle: Ställ in licens med inbäddad resurs
 second_title: Aspose.Page .NET API
 description: Lär dig hur du ställer in en licens med inbäddade resurser med Aspose.Page för .NET. Säkerställ efterlevnad och frigör dokumentbehandlingens fulla potential.
-type: docs
 weight: 14
 url: /sv/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in licens med inbäddad resurs med Aspose.Page för .NET
+
 ## Introduktion
 
 Aspose.Page för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med olika dokumentformat sömlöst. I den här handledningen guidar vi dig genom processen att ställa in en licens med hjälp av en inbäddad resurs med Aspose.Page för .NET. Licensiering är ett avgörande steg för att utnyttja Aspose.Page-funktionerna i sin fulla utsträckning, vilket säkerställer efterlevnad och låser upp bibliotekets potential.
@@ -110,3 +116,9 @@ S1: Även om du kan använda Aspose.Page utan licens, rekommenderas det att skaf
 ### F5: Var kan jag köpa Aspose.Page för .NET?
 
  S5: Du kan köpa Aspose.Page[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

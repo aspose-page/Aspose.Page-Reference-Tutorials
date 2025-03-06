@@ -3,10 +3,16 @@ title: Manipulación de texto Java de Aspose.Page
 linktitle: Agregar texto en Java PostScript
 second_title: API de Java de Aspose.Page
 description: Explore el poder de Aspose.Page para Java en nuestro tutorial sobre cómo agregar texto a documentos PostScript. Aprenda a utilizar el sistema y las fuentes personalizadas con facilidad.
-type: docs
 weight: 10
 url: /es/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de texto Java de Aspose.Page
+
 ## Introducción
 Bienvenido a nuestra guía paso a paso sobre cómo agregar texto en Java PostScript usando Aspose.Page para Java. Aspose.Page para Java es una potente biblioteca que permite a los desarrolladores manipular documentos PostScript con facilidad. En este tutorial, lo guiaremos a través del proceso de agregar texto, usar fuentes personalizadas y del sistema, delinear texto e incorporar trazos para obtener un resultado visualmente atractivo.
 ## Requisitos previos
@@ -99,3 +105,9 @@ document.save();
 `ExternalFontCache` se utiliza para buscar fuentes personalizadas, asegurando que estén disponibles para la manipulación de texto.
 ### ¿Puedo aplicar diferentes trazos al texto delineado?
  Sí, puedes personalizar el ancho y el color del trazo usando el`Stroke` clase y`Color` clase, respectivamente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

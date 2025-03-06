@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Page के साथ XPS दस्ताव
 linktitle: XPS दस्तावेज़ में पेज जोड़ें
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ों में पेज जोड़ने का तरीका सीखकर अपने .NET अनुप्रयोगों को बेहतर बनाएं। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 11
 url: /hi/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ में पेज जोड़ें
+
 ## परिचय
 
 यदि आप .NET में XPS दस्तावेज़ों के साथ काम कर रहे हैं और प्रोग्रामेटिक रूप से पेज जोड़ने की आवश्यकता है, तो .NET के लिए Aspose.Page आपके लिए उपयुक्त समाधान है। इस ट्यूटोरियल में, हम आपको XPS दस्तावेज़ में पेज जोड़ने की प्रक्रिया के बारे में चरण दर चरण मार्गदर्शन करेंगे। एक कुशल एसईओ लेखक के रूप में, मैं यह सुनिश्चित करूँगा कि यह मार्गदर्शिका न केवल जानकारीपूर्ण है, बल्कि इसे खोज इंजन अनुकूलन को ध्यान में रखकर भी तैयार किया गया है, जो इसे डेवलपर्स और सामग्री निर्माताओं के लिए एक मूल्यवान संसाधन बनाता है।
@@ -86,3 +92,10 @@ A1: हां, .NET के लिए Aspose.Page को उपयोगकर्
 ### Q5: मैं .NET के लिए Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
  A5: पर जाएँ[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/) परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस प्राप्त करना।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

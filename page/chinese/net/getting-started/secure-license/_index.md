@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 获得安全许可
 linktitle: 安全许可
 second_title: Aspose.Page .NET API
 description: 通过我们的分步指南轻松保护您的 Aspose.Page for .NET 许可证。释放 .NET 应用程序中无缝页面操作的全部潜力。
-type: docs
 weight: 13
 url: /zh/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 获得安全许可
+
 ## 介绍
 
 释放 Aspose.Page for .NET 的全部潜力需要保护您的许可证以确保无缝集成和最佳性能。在本分步指南中，我们将引导您完成使用 Aspose.Page 保护许可证的过程，Aspose.Page 是一个用于处理 .NET 应用程序中页面操作的强大工具。
@@ -90,3 +96,9 @@ A4：是的，临时许可证的有效期有限，通常用于短期测试或评
 ### Q5: 我可以将我的许可证转移到另一台机器上吗？
 
 A5：是的，您可以根据需要将许可证转移到另一台机器。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

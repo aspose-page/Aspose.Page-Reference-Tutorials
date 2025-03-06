@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 사용자 정의 인쇄 티켓 만들
 linktitle: 맞춤형 인쇄 티켓 만들기
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 맞춤형 인쇄 티켓을 만드는 방법에 대한 단계별 가이드를 살펴보세요. 세밀한 제어로 인쇄 환경을 맞춤화하세요.
-type: docs
 weight: 10
 url: /ko/net/print-ticket-management/create-custom-print-ticket/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 사용자 정의 인쇄 티켓 만들기
+
 ## 소개
 
 .NET 개발 영역에서 Aspose.Page는 XPS 문서 조작을 처리하는 강력한 도구로 돋보입니다. 주목할만한 기능 중 하나는 사용자 정의 인쇄 티켓을 생성하여 개발자에게 인쇄 프로세스에 대한 광범위한 제어를 제공하는 기능입니다. 이 튜토리얼에서는 .NET용 Aspose.Page를 사용하여 사용자 정의 인쇄 티켓을 만드는 단계를 자세히 살펴보겠습니다.
@@ -96,3 +102,9 @@ A4: Aspose.Page는 일반 용지와 특정 요구 사항에 따라 구성할 수
 ### Q5: .NET용 Aspose.Page에 사용할 수 있는 샘플 프로젝트가 있습니까?
 
  A5: 탐색해 보세요.[선적 서류 비치](https://reference.aspose.com/page/net/) 개발을 시작하는 데 도움이 되는 샘플 프로젝트 및 코드 조각을 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cambiar el valor con nombre con Aspose.Page para .NET
 linktitle: Cambiar valor con nombre
 second_title: Aspose.Página .NET API
 description: Aprenda a cambiar valores con nombre en archivos EPS usando Aspose.Page para .NET. Personalice los metadatos XMP sin esfuerzo para un procesamiento de documentos personalizado.
-type: docs
 weight: 16
 url: /es/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambiar el valor con nombre con Aspose.Page para .NET
+
 ## Introducción
 
 En el mundo del procesamiento de documentos, Aspose.Page para .NET destaca como una poderosa herramienta para manipular archivos EPS. Una de las funcionalidades clave que ofrece es la capacidad de cambiar valores con nombre dentro de los metadatos XMP. Este tutorial lo guiará a través del proceso de cambiar un valor con nombre usando Aspose.Page para .NET, permitiéndole personalizar sus archivos EPS de acuerdo con sus necesidades específicas.
@@ -100,3 +106,9 @@ R1: Sí, Aspose.Page admite varios formatos de documentos, incluidos EPS, XPS y 
 ### P5: ¿Qué opciones de soporte están disponibles para los usuarios de Aspose.Page para .NET?
 
  A5: Visita el foro de la comunidad[aquí](https://forum.aspose.com/c/page/39) para apoyo y discusiones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

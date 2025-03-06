@@ -3,10 +3,16 @@ title: Thêm giá trị được đặt tên trong XMP bằng Java
 linktitle: Thêm giá trị được đặt tên trong XMP bằng Java
 second_title: API Java Aspose.Page
 description: Làm chủ thao tác tài liệu Java bằng Aspose.Page! Dễ dàng thêm các giá trị được đặt tên trong siêu dữ liệu XMP bằng hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 12
 url: /vi/java/xmp-metadata-manipulation/add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm giá trị được đặt tên trong XMP bằng Java
+
 ## Giới thiệu
 Trong bối cảnh phát triển Java ngày càng phát triển, việc xử lý siêu dữ liệu trong các tệp EPS là rất quan trọng để duy trì tính toàn vẹn của tài liệu. Aspose.Page for Java là một thư viện mạnh mẽ giúp đơn giản hóa quá trình này. Trong hướng dẫn này, chúng tôi sẽ đi sâu vào các bước để thêm giá trị được đặt tên trong siêu dữ liệu XMP bằng Java, đảm bảo bạn có nền tảng vững chắc để thao tác với tệp EPS.
 ## Điều kiện tiên quyết
@@ -78,3 +84,9 @@ Có, Aspose.Page dành cho Java được thiết kế để hoạt động liề
  Khám phá cái[tài liệu](https://reference.aspose.com/page/java/)để có hướng dẫn và ví dụ toàn diện.
 ### Aspose.Page cho Java có phù hợp với các dự án quy mô lớn không?
 Hoàn toàn có thể, Aspose.Page cho Java được thiết kế để xử lý các dự án quy mô lớn một cách hiệu quả, cung cấp khả năng thao tác tài liệu mạnh mẽ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

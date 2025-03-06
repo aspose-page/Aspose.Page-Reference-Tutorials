@@ -3,10 +3,16 @@ title: Voeg een betegelde afbeelding toe aan een XPS-document met Aspose.Page vo
 linktitle: Voeg naast elkaar geplaatste afbeelding toe aan XPS-document
 second_title: Aspose.Page .NET-API
 description: Ontdek hoe u moeiteloos tegelafbeeldingen aan XPS-documenten kunt toevoegen met Aspose.Page voor .NET. Verbeter de visuele aantrekkingskracht en creëer verbluffende documenten.
-type: docs
 weight: 12
 url: /nl/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een betegelde afbeelding toe aan een XPS-document met Aspose.Page voor .NET
+
 ## Invoering
 
 Wilt u uw XPS-documenten verbeteren door visueel aantrekkelijke naast elkaar geplaatste afbeeldingen toe te voegen? Aspose.Page voor .NET stelt ontwikkelaars in staat dit naadloos te bereiken. In deze stapsgewijze handleiding leiden we u door het proces van het toevoegen van een tegelafbeelding aan een XPS-document met behulp van Aspose.Page voor .NET.
@@ -95,3 +101,9 @@ A2: Zeker, zoals aangetoond in het voorbeeld, kunt u de dekking van de gevulde r
 ### V5: Waar kan ik hulp zoeken of contact maken met de Aspose.Page-gemeenschap?
 
  A5: Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) om met de gemeenschap in contact te komen, vragen te stellen en oplossingen te vinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

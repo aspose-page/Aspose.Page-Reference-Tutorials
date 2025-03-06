@@ -3,10 +3,16 @@ title: Módosítsa az XPS-dokumentumot az Aspose.Page segítségével .NET-hez
 linktitle: Módosítsa az XPS-dokumentumot
 second_title: Aspose.Page .NET API
 description: Fedezze fel az Aspose.Page for .NET erejét, amellyel könnyedén módosíthatja az XPS-dokumentumokat. Kövesse lépésenkénti útmutatónkat, javítsa dokumentumfeldolgozását, és adjon hozzá személyre szabott aláírási szövegeket.
-type: docs
 weight: 12
 url: /hu/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Módosítsa az XPS-dokumentumot az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 Üdvözöljük lépésenkénti útmutatónkban az XPS-dokumentumok módosításáról az Aspose.Page for .NET használatával. Az Aspose.Page egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy könnyedén dolgozzanak XPS-fájlokkal. Ebben az oktatóanyagban végigvezetjük a „Megerősítve” aláírási szöveg hozzáadásának folyamatán az XPS-dokumentum meghatározott oldalaihoz.
@@ -119,3 +125,9 @@ A2: Abszolút! Igényei szerint módosíthatja a betűtípust, stílust és egy�
 ### 5. kérdés: Hol kérhetek segítséget, vagy csatlakozhatok az Aspose közösséghez?
 
  A5: Látogassa meg a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) kérdéseket feltenni és kapcsolatba lépni a közösséggel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

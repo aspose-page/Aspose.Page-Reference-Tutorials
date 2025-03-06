@@ -3,10 +3,16 @@ title: Remplissages dégradés
 linktitle: Remplissages dégradés
 second_title: API Aspose.Page .NET
 description: Découvrez l'art des remplissages dégradés dans .NET avec les didacticiels Aspose.Page. Élevez vos projets sans effort  ajoutez des dégradés diagonaux, horizontaux et verticaux captivants.
-type: docs
 weight: 27
 url: /fr/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remplissages dégradés
+
 
 ## Introduction
 
@@ -49,3 +55,9 @@ Découvrez comment ajouter de superbes dégradés horizontaux à vos documents X
 Découvrez comment ajouter des dégradés verticaux visuellement attrayants aux documents PostScript (PS) dans .NET à l'aide d'Aspose.Page. Améliorez la création de vos documents avec ce guide étape par étape.
 ### [Ajouter un dégradé vertical à XPS avec Aspose.Page pour .NET](./add-vertical-gradient-to-xps/)
 Découvrez comment améliorer les documents XPS avec des dégradés verticaux à l'aide d'Aspose.Page pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

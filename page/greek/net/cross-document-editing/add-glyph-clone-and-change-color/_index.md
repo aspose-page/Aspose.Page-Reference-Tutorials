@@ -3,10 +3,16 @@ title: Προσθέστε Glyph Clone και αλλάξτε χρώμα με το
 linktitle: Προσθήκη Glyph Clone και Αλλαγή χρώματος
 second_title: Aspose.Page .NET API
 description: Εξερευνήστε τη δύναμη του Aspose.Page για .NET σε αυτό το ολοκληρωμένο σεμινάριο. Μάθετε να προσθέτετε κλώνους γλυφών και να αλλάζετε χρώματα σε έγγραφα XPS χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε Glyph Clone και αλλάξτε χρώμα με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτόν τον αναλυτικό οδηγό σχετικά με τη χρήση του Aspose.Page για .NET για την προσθήκη κλώνων γλυφών και την αλλαγή των χρωμάτων στα έγγραφά σας XPS. Το Aspose.Page για .NET είναι μια ισχυρή βιβλιοθήκη που σας δίνει τη δυνατότητα να εργάζεστε με αρχεία XPS απρόσκοπτα. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στη διαδικασία προσθήκης κλώνων γλυφών και αλλαγής των χρωμάτων τους, ενισχύοντας την οπτική ελκυστικότητα των εγγράφων σας.
@@ -129,3 +135,9 @@ A4: Η δωρεάν δοκιμαστική έκδοση έχει ορισμέν�
 ### Ε5: Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το Aspose.Page για .NET;
 
  A5: Μπορείτε να ανατρέξετε στην τεκμηρίωση[εδώ](https://reference.aspose.com/page/net/) για λεπτομερείς πληροφορίες και παραδείγματα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

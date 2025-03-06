@@ -1,12 +1,17 @@
 ---
 title: Komplexní návody a příklady Aspose.Page pro .NET
 linktitle: Aspose.Page for .NET výukové programy
-type: docs
 weight: 10
 url: /cs/net/
 description: Uvolněte potenciál Aspose.Page pro .NET pomocí výukových programů týkajících se vytváření, manipulace a vylepšování. Osvojte si bez námahy od základů až po pokročilé techniky.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komplexní návody a příklady Aspose.Page pro .NET
+
 ## Úvod
 
 Jste připraveni uvolnit plný potenciál Aspose.Page pro .NET? Už nehledejte! Naše komplexní výukové programy pokrývají každý aspekt, od základních funkcí až po pokročilé techniky, a zajistí, že se z vás stane zdatný uživatel.
@@ -115,3 +120,9 @@ Objevte kouzlo efektů průhlednosti ve vašich dokumentech s Aspose.Page .NET. 
 Zvyšte své zpracování dokumentů v .NET pomocí výukových programů Aspose.Page. Ponořte se do říše vizuálních štětců a osvojte si techniky pro vizuálně úžasné dokumenty.
 ### [Správa metadat EPS](./eps-metadata-management/)
 Zvyšte organizaci EPS pomocí Aspose.Page pro .NET. Přidejte metadata bez námahy pro lepší přístupnost. Prozkoumejte výukové programy pro správu metadat EPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

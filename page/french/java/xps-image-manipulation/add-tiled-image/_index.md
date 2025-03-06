@@ -3,10 +3,16 @@ title: Ajouter une image en mosaïque dans Java XPS
 linktitle: Ajouter une image en mosaïque dans Java XPS
 second_title: API Java Aspose.Page
 description: Explorez la manipulation transparente de documents Java XPS avec Aspose.Page. Apprenez à ajouter des images en mosaïque sans effort à l'aide de ce guide étape par étape.
-type: docs
 weight: 11
 url: /fr/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une image en mosaïque dans Java XPS
+
 ## Introduction
 Dans le monde dynamique du développement Java, le besoin d’une manipulation et d’une création efficaces de documents ne cesse de croître. Aspose.Page pour Java apparaît comme un outil puissant, offrant aux développeurs la possibilité de travailler de manière transparente avec des documents XPS. Ce didacticiel se concentre sur une tâche spécifique : ajouter une image en mosaïque à un document Java XPS.
 ## Conditions préalables
@@ -68,3 +74,9 @@ Oui, Aspose.Page propose des licences commerciales. Achetez-les[ici](https://pur
  Engagez-vous avec la communauté Aspose.Page sur le[forum](https://forum.aspose.com/c/page/39).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Page ?
  Acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

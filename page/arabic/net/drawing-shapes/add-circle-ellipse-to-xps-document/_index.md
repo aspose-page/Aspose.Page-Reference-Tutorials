@@ -3,10 +3,16 @@ title: أضف Circle Ellipse إلى مستند XPS باستخدام Aspose.Page 
 linktitle: أضف دائرة القطع الناقص إلى مستند XPS
 second_title: Aspose.Page .NET API
 description: قم بتحسين مستندات XPS بتدرجات شعاعية نابضة بالحياة باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تأثيرات بصرية مذهلة.
-type: docs
 weight: 11
 url: /ar/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف Circle Ellipse إلى مستند XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 يعد إنشاء مستندات XPS جذابة بصريًا مطلبًا شائعًا في التطبيقات المختلفة. يوفر Aspose.Page for .NET مجموعة قوية من الميزات لمعالجة مستندات XPS بكفاءة. في هذا البرنامج التعليمي، سنركز على إضافة شكل بيضاوي دائري إلى مستند XPS باستخدام Aspose.Page لـ .NET. اتبع الخطوات الموضحة أدناه لتحسين مستندات XPS الخاصة بك بتدرجات شعاعية نابضة بالحياة.
@@ -114,3 +120,9 @@ A1: يتعامل Aspose.Page لـ .NET بشكل خاص مع معالجة مست�
 ### س5: هل يمكنني شراء Aspose.Page لـ .NET؟
 
  ج5: نعم، يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

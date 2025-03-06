@@ -3,10 +3,16 @@ title: Przejrzystość — XPS
 linktitle: Przejrzystość — XPS
 second_title: Aspose.Page API Java
 description: Podnieś poziom swoich dokumentów Java XPS bez wysiłku dzięki Aspose.Page. Naucz się dodawać przezroczyste obiekty i ustawiać maski kryjące w naszych tutorialach, aby uzyskać ulepszone efekty wizualne.
-type: docs
 weight: 40
 url: /pl/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przejrzystość — XPS
+
 ## Wstęp
 
 Czy chcesz przenieść swoje dokumenty Java XPS na wyższy poziom? Zanurz się w świat efektów przezroczystości dzięki Aspose.Page i odblokuj królestwo oszałamiających wizualnie możliwości. W tym obszernym przewodniku przeprowadzimy Cię przez dwa podstawowe tutoriale: dodawanie przezroczystych obiektów i ustawianie masek kryjących.
@@ -47,3 +53,9 @@ Podsumowując, Aspose.Page dla Java otwiera drzwi do świata kreatywnych możliw
 Ulepsz swoje dokumenty Java XPS dzięki oszałamiającym efektom przezroczystości za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku dotyczącym dodawania przezroczystych obiektów. 
 ### [Ustaw maskę krycia w Java XPS](./set-opacity-mask/)
 Odkryj moc ustawiania masek kryjących w Java XPS za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać lepszą wizualnie obsługę dokumentów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

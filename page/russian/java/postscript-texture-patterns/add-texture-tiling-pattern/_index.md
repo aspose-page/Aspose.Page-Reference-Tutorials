@@ -3,10 +3,16 @@ title: Добавление шаблона мозаики текстуры в Ja
 linktitle: Добавление шаблона мозаики текстуры в Java PostScript
 second_title: API Aspose.Page Java
 description: Легко добавляйте шаблоны мозаики текстур в документы PostScript с помощью Aspose.Page для Java. Ознакомьтесь с нашим руководством по комплексной интеграции, чтобы узнать больше о творческих возможностях.
-type: docs
 weight: 10
 url: /ru/java/postscript-texture-patterns/add-texture-tiling-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление шаблона мозаики текстуры в Java PostScript
+
 ## Введение
 В области разработки Java создание сложных узоров и текстур в документах PostScript является обычным требованием. Aspose.Page для Java оказался ценным инструментом, позволяющим легко решить эту задачу. В этом уроке мы проведем вас через процесс добавления шаблона мозаики текстуры в документ Java PostScript с помощью Aspose.Page.
 ## Предварительные условия
@@ -103,3 +109,9 @@ document.save();
  Да, вы можете изучить бесплатную пробную версию[здесь](https://releases.aspose.com/).
 ### Как я могу получить временную лицензию на Aspose.Page для Java?
  Посещать[эта ссылка](https://purchase.aspose.com/temporary-license/) получить временную лицензию.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

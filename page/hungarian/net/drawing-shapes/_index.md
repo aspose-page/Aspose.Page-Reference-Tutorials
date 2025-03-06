@@ -3,10 +3,16 @@ title: Alakzatok rajzolása
 linktitle: Alakzatok rajzolása
 second_title: Aspose.Page .NET API
 description: Fokozza könnyedén a dokumentumkészítést a .NET-ben! Tanuljon meg lépésről lépésre oktatóanyagokat a körök, ellipszisek és téglalapok PostScript-hez (PS) történő hozzáadásához az Aspose.Page .NET használatával.
-type: docs
 weight: 31
 url: /hu/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alakzatok rajzolása
+
 ## Bevezetés
 
 Az Aspose.Page for .NET lehetővé teszi a fejlesztők számára, hogy javítsák a dokumentumok létrehozását a .NET környezetben. Merüljön el lépésenkénti oktatóanyagainkban, hogy elsajátítsa a lenyűgöző formák PostScript (PS) és XPS dokumentumokhoz való hozzáadásának művészetét.
@@ -33,3 +39,9 @@ Növelje az XPS-dokumentumokat élénk sugárirányú színátmenetekkel az Aspo
 Fokozza a dokumentumok létrehozását .NET-ben az Aspose.Page segítségével. Ismerje meg lépésről lépésre, hogyan adhat téglalapokat PostScript (PS) fájlokhoz.
 ### [Téglalap hozzáadása XPS-dokumentumhoz az Aspose.Page for .NET segítségével](./add-rectangle-to-xps-document/)
 Fokozza a dokumentumok létrehozását az Aspose.Page for .NET segítségével. Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan adhat téglalapokat XPS-dokumentumokhoz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

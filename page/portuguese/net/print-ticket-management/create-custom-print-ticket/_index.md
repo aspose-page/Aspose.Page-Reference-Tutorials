@@ -3,10 +3,16 @@ title: Crie um tíquete de impressão personalizado com Aspose.Page para .NET
 linktitle: Crie um tíquete de impressão personalizado
 second_title: API Aspose.Page .NET
 description: Explore o guia passo a passo sobre como criar tickets de impressão personalizados usando Aspose.Page for .NET. Personalize sua experiência de impressão com controle refinado.
-type: docs
 weight: 10
 url: /pt/net/print-ticket-management/create-custom-print-ticket/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crie um tíquete de impressão personalizado com Aspose.Page para .NET
+
 ## Introdução
 
 No domínio do desenvolvimento .NET, Aspose.Page se destaca como uma ferramenta poderosa para lidar com a manipulação de documentos XPS. Um de seus recursos notáveis é a capacidade de criar tickets de impressão personalizados, oferecendo aos desenvolvedores amplo controle sobre o processo de impressão. Neste tutorial, nos aprofundaremos nas etapas para criar um ticket de impressão personalizado usando Aspose.Page for .NET.
@@ -96,3 +102,9 @@ A4: Aspose.Page oferece suporte a uma variedade de tipos de mídia, incluindo pa
 ### Q5: Há algum projeto de amostra disponível para Aspose.Page for .NET?
 
  A5: Explore o[documentação](https://reference.aspose.com/page/net/) para projetos de amostra e trechos de código para iniciar seu desenvolvimento.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

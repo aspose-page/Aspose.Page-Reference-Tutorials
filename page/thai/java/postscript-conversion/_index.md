@@ -3,10 +3,16 @@ title: การแปลง - PostScript
 linktitle: การแปลง - PostScript
 second_title: Aspose.Page Java API
 description: แปลง PostScript เป็นรูปภาพ PDF และบันทึกรูปภาพเป็น EPS ใน Java ด้วยบทช่วยสอน Aspose.Page คำแนะนำทีละขั้นตอน คำถามที่พบบ่อย และข้อกำหนดเบื้องต้นสำหรับการบูรณาการอย่างราบรื่น
-type: docs
 weight: 21
 url: /th/java/postscript-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแปลง - PostScript
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับทักษะการเขียนโปรแกรม Java และเพิ่มความสามารถในการประมวลผลเอกสารของคุณแล้วหรือยัง? ดำดิ่งสู่โลกของ Aspose.Page สำหรับบทช่วยสอน Java โดยเน้นที่การแปลงไฟล์ PostScript ได้อย่างราบรื่น ในคู่มือที่ครอบคลุมนี้ เราจะสำรวจประเด็นสำคัญสามประการ: การแปลง PostScript เป็นรูปภาพ, PDF และการบันทึกรูปภาพเป็น EPS มาเริ่มต้นการเดินทางครั้งนี้ด้วยกันเถอะ!
@@ -43,3 +49,9 @@ Aspose.Page สำหรับ Java ช่วยให้การแปลง P
 แปลง PostScript เป็น PDF ใน Java ได้อย่างง่ายดายโดยใช้ Aspose.Page ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น ดาวน์โหลด Aspose.Page ทันที!
 ### [บันทึกภาพเป็น EPS ใน Java](./save-image-as-eps/)
 สำรวจพลังของ Aspose.Page สำหรับ Java ในการบันทึกภาพเป็น EPS ได้อย่างง่ายดาย เพิ่มความสามารถด้านกราฟิกและการพิมพ์ของคุณด้วยไลบรารี Java อเนกประสงค์นี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

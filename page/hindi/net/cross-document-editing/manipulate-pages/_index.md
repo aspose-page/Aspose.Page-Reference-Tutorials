@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Page के साथ पेजों मे
 linktitle: पेजों में हेरफेर करें
 second_title: Aspose.Page .NET API
 description: XPS दस्तावेज़ों को संभालने के लिए एक शक्तिशाली लाइब्रेरी, Aspose.Page का उपयोग करके .NET में पेज हेरफेर का अन्वेषण करें। कुशल परिणामों के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 12
 url: /hi/net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Page के साथ पेजों में हेरफेर करें
+
 ## परिचय
 
 .NET के लिए Aspose.Page की दुनिया में आपका स्वागत है! इस ट्यूटोरियल में, हम आपको .NET वातावरण में Aspose.Page लाइब्रेरी का उपयोग करके पृष्ठों में हेरफेर करने की प्रक्रिया के माध्यम से मार्गदर्शन करेंगे। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, यह मार्गदर्शिका आपको कुशल पृष्ठ हेरफेर के लिए Aspose.Page की शक्ति का उपयोग करने में मदद करने के लिए डिज़ाइन की गई है।
@@ -94,3 +100,9 @@ A3: हाँ, Aspose.Page विज़ुअल स्टूडियो के
 ### Q5: मुझे सहायता कहां मिल सकती है या प्रश्न कहां से पूछे जा सकते हैं?
 
  A5: पर जाएँ[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) समर्थन प्राप्त करने और समुदाय के साथ जुड़ने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

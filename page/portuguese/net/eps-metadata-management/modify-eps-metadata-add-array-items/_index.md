@@ -3,10 +3,16 @@ title: Adicionar itens de array com Aspose.Page
 linktitle: Adicionar itens de matriz
 second_title: API Aspose.Page .NET
 description: Explore como adicionar itens de array em arquivos EPS usando Aspose.Page for .NET. Siga nosso guia passo a passo para uma manipulação perfeita de documentos.
-type: docs
 weight: 11
 url: /pt/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar itens de array com Aspose.Page
+
 ## Introdução
 
 No domínio da manipulação e processamento de documentos em .NET, Aspose.Page se destaca como uma ferramenta poderosa. Entre seus muitos recursos, o manuseio de itens de matriz em um arquivo EPS é um requisito comum. Neste tutorial, exploraremos o processo passo a passo de adição de itens de array usando Aspose.Page em um ambiente .NET. Quer você seja um desenvolvedor experiente ou iniciante, este guia o guiará pelo processo com clareza e precisão.
@@ -119,3 +125,9 @@ A4: Para discussões e suporte da comunidade, visite o[Fórum Aspose.Page](https
 ### Q5: Qual é a versão mais recente do Aspose.Page for .NET?
 
  A5: Para acessar a versão mais recente do Aspose.Page for .NET, consulte o[documentação](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

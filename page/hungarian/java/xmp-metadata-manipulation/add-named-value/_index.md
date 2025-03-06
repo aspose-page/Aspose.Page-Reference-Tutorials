@@ -3,10 +3,16 @@ title: Adjon hozzá Név szerinti értéket az XMP-ben Java használatával
 linktitle: Adjon hozzá Név szerinti értéket az XMP-ben Java használatával
 second_title: Aspose.Page Java API
 description: Sajátítsa el a Java dokumentumkezelést az Aspose.Page segítségével! A zökkenőmentes integrációhoz lépésenkénti útmutatónkkal könnyedén hozzáadhat elnevezett értékeket az XMP metaadatokhoz.
-type: docs
 weight: 12
 url: /hu/java/xmp-metadata-manipulation/add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá Név szerinti értéket az XMP-ben Java használatával
+
 ## Bevezetés
 A Java-fejlesztés folyamatosan változó környezetében az EPS-fájlok metaadatainak kezelése kulcsfontosságú a dokumentumok integritásának megőrzéséhez. Az Aspose.Page for Java egy hatékony könyvtár, amely leegyszerűsíti ezt a folyamatot. Ebben az oktatóanyagban az XMP-metaadatokhoz Java használatával elnevezett érték hozzáadásának lépéseit mutatjuk be, biztosítva ezzel, hogy szilárd alapot kapjon az EPS-fájlok kezeléséhez.
 ## Előfeltételek
@@ -78,3 +84,9 @@ Igen, az Aspose.Page for Java úgy lett kialakítva, hogy zökkenőmentesen műk
  Fedezze fel a[dokumentáció](https://reference.aspose.com/page/java/)átfogó oktatóanyagokért és példákért.
 ### Az Aspose.Page for Java alkalmas nagyszabású projektekre?
 Az Aspose.Page for Java-t a nagyszabású projektek hatékony kezelésére tervezték, robusztus dokumentumkezelési képességeket biztosítva.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

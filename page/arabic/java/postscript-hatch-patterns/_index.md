@@ -3,10 +3,16 @@ title: أنماط الفقس - بوستسكريبت
 linktitle: أنماط الفقس - بوستسكريبت
 second_title: Aspose.Page جافا API
 description: اكتشف فن إضافة أنماط التظليل الجذابة إلى مستندات Java PostScript باستخدام Aspose.Page. ارفع مستوى المحتوى المرئي دون عناء للحصول على مخرجات مذهلة.
-type: docs
 weight: 27
 url: /ar/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أنماط الفقس - بوستسكريبت
+
 ## مقدمة
 
 أصبح إنشاء مستندات Java PostScript جذابة بصريًا أمرًا سهلاً مع Aspose.Page. في هذا البرنامج التعليمي، نتعمق في عالم أنماط الفتحات الرائع، ونستكشف كيفية تحسين المحتوى المرئي الخاص بك دون عناء.
@@ -30,3 +36,9 @@ url: /ar/java/postscript-hatch-patterns/
 ## أنماط الفقس - دروس بوستسكريبت
 ### [إضافة نمط هاتش في جافا بوستسكريبت](./add-hatch-pattern/)
 تعرف على كيفية إضافة أنماط تظليل جذابة إلى مستندات Java PostScript باستخدام Aspose.Page. ارفع المحتوى المرئي الخاص بك دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

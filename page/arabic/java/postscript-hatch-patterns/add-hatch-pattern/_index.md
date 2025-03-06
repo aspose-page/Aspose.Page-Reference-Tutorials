@@ -3,10 +3,16 @@ title: إضافة نمط هاتش في جافا بوستسكريبت
 linktitle: إضافة نمط هاتش في جافا بوستسكريبت
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إضافة أنماط تظليل جذابة إلى مستندات Java PostScript باستخدام Aspose.Page. ارفع المحتوى المرئي الخاص بك دون عناء.
-type: docs
 weight: 10
 url: /ar/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة نمط هاتش في جافا بوستسكريبت
+
 ## مقدمة
 في عالم برمجة Java، يعد تحسين العناصر المرئية مطلبًا شائعًا للمطورين. أحد التحسينات المرئية المثيرة للاهتمام هو إضافة أنماط التظليل إلى مستندات PostScript. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة أنماط التظليل باستخدام Aspose.Page لـ Java.
 ## المتطلبات الأساسية
@@ -97,3 +103,9 @@ document.save();
  اكتشف ال[Aspose.Page لمنتدى جافا](https://forum.aspose.com/c/page/39) للدروس والدعم المجتمعي.
 ### هل يوجد مصدر توثيق شامل لـ Aspose.Page لـ Java؟
  نعم، راجع الوثائق[هنا](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

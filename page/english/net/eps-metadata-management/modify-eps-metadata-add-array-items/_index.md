@@ -3,10 +3,16 @@ title: Add Array Items with Aspose.Page
 linktitle: Add Array Items
 second_title: Aspose.Page .NET API
 description: Explore how to add array items in EPS files using Aspose.Page for .NET. Follow our step-by-step guide for seamless document manipulation.
-type: docs
 weight: 11
 url: /net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Array Items with Aspose.Page
+
 ## Introduction
 
 In the realm of document manipulation and processing in .NET, Aspose.Page stands out as a powerful tool. Among its many capabilities, handling array items within an EPS file is a common requirement. In this tutorial, we'll explore the step-by-step process of adding array items using Aspose.Page in a .NET environment. Whether you're a seasoned developer or a newcomer, this guide will walk you through the process with clarity and precision.
@@ -119,3 +125,10 @@ A4: For community discussions and support, visit the [Aspose.Page forum](https:/
 ### Q5: What is the latest version of Aspose.Page for .NET?
 
 A5: To access the latest version of Aspose.Page for .NET, refer to the [documentation](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

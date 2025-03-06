@@ -3,10 +3,16 @@ title: Definir licença usando recurso incorporado com Aspose.Page para .NET
 linktitle: Definir licença usando recurso incorporado
 second_title: API Aspose.Page .NET
 description: Aprenda como definir uma licença usando recursos incorporados com Aspose.Page for .NET. Garanta a conformidade e libere todo o potencial do processamento de documentos.
-type: docs
 weight: 14
 url: /pt/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir licença usando recurso incorporado com Aspose.Page para .NET
+
 ## Introdução
 
 Aspose.Page for .NET é uma biblioteca poderosa que permite aos desenvolvedores trabalhar perfeitamente com vários formatos de documentos. Neste tutorial, iremos guiá-lo através do processo de configuração de uma licença usando um recurso incorporado com Aspose.Page for .NET. O licenciamento é uma etapa crucial na utilização das funcionalidades do Aspose.Page em toda a sua extensão, garantindo a conformidade e liberando o potencial da biblioteca.
@@ -110,3 +116,9 @@ A1: Embora você possa usar Aspose.Page sem licença, é recomendável obter uma
 ### Q5: Onde posso comprar Aspose.Page para .NET?
 
  A5: Você pode comprar Aspose.Page[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

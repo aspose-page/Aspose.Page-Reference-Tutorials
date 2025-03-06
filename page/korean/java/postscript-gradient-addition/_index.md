@@ -3,10 +3,16 @@ title: 그라데이션 추가 - PostScript
 linktitle: 그라데이션 추가 - PostScript
 second_title: Aspose.페이지 자바 API
 description: Java 튜토리얼용 Aspose.Page를 사용하여 Java PostScript 문서를 향상시키세요. 놀라운 대각선, 수평, 방사형 및 수직 그라데이션을 손쉽게 추가하는 방법을 알아보세요.
-type: docs
 weight: 25
 url: /ko/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 그라데이션 추가 - PostScript
+
 ## 소개
 
 생생한 색상 전환으로 Java PostScript 문서를 향상시키려는 경우 Java용 Aspose.Page가 적합한 솔루션입니다. 이 튜토리얼 시리즈에서는 대각선 그래디언트부터 방사형 전환까지 모든 것을 다루는 그래디언트 추가 기술을 자세히 살펴봅니다. 시각적으로 놀라운 문서 기술을 마스터하기 위한 여정을 시작해 보세요.
@@ -44,3 +50,9 @@ Java용 Aspose.Page를 사용하여 Java PostScript에 멋진 방사형 그래�
 Java 애플리케이션에서 멋진 그래픽을 구현하기 위해 Aspose.Page를 사용하여 Java PostScript에 방사형 그라데이션을 추가하는 단계별 가이드를 살펴보세요.
 ### [Java PostScript에 수직 그라데이션 추가](./vertical/)
 Java용 Aspose.Page를 사용하여 Java PostScript에 수직 그라데이션을 추가하는 방법에 대한 단계별 가이드를 살펴보세요. 생생한 시각적 요소로 문서를 쉽게 향상할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

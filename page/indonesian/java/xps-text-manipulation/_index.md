@@ -3,10 +3,16 @@ title: Manipulasi Teks - XPS
 linktitle: Manipulasi Teks - XPS
 second_title: Aspose.Halaman Java API
 description: Merevolusi dokumen Java XPS Anda dengan Aspose.Page. Jelajahi panduan langkah demi langkah tentang manipulasi teks. Tingkatkan keterampilan Anda untuk penyempurnaan dokumen dengan mudah.
-type: docs
 weight: 37
 url: /id/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Teks - XPS
+
 
 Merevolusi dokumen Java XPS Anda dengan tutorial Aspose.Page. Jelajahi panduan langkah demi langkah tentang manipulasi teks. Tingkatkan keterampilan Anda untuk penyempurnaan dokumen dengan mudah.
 
@@ -36,3 +42,9 @@ Dengan tutorial Aspose.Page untuk Java, manipulasi teks dalam dokumen XPS menjad
 ## Manipulasi Teks - Tutorial XPS
 ### [Tambahkan Teks di Java XPS](./add-text/)
 Sempurnakan dokumen Java XPS Anda dengan Aspose.Page! Ikuti panduan langkah demi langkah kami untuk menambahkan teks dengan mudah. Tingkatkan keterampilan manipulasi dokumen Anda hari ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

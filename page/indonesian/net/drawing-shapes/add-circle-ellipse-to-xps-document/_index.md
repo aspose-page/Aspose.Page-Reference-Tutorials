@@ -3,10 +3,16 @@ title: Tambahkan Circle Ellipse ke Dokumen XPS dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Lingkaran Ellipse ke Dokumen XPS
 second_title: Aspose.Halaman .NET API
 description: Sempurnakan dokumen XPS dengan gradien radial yang dinamis menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk efek visual yang menakjubkan.
-type: docs
 weight: 11
 url: /id/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Circle Ellipse ke Dokumen XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Membuat dokumen XPS yang menarik secara visual merupakan persyaratan umum dalam berbagai aplikasi. Aspose.Page untuk .NET menyediakan serangkaian fitur canggih untuk memanipulasi dokumen XPS secara efisien. Dalam tutorial ini, kita akan fokus menambahkan elips lingkaran ke dokumen XPS menggunakan Aspose.Page untuk .NET. Ikuti langkah-langkah di bawah ini untuk menyempurnakan dokumen XPS Anda dengan gradien radial yang cerah.
@@ -114,3 +120,9 @@ A1: Aspose.Page untuk .NET secara khusus berhubungan dengan manipulasi dokumen X
 ### Q5: Bisakah saya membeli Aspose.Page untuk .NET?
 
  A5: Ya, Anda dapat membeli perpustakaannya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

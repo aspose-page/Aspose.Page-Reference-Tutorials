@@ -3,10 +3,16 @@ title: Java XPS kép hozzáadása – Egyszerű útmutató az Aspose.Page-hez
 linktitle: Kép hozzáadása Java XPS-ben
 second_title: Aspose.Page Java API
 description: Ismerje meg, hogyan adhat hozzá könnyedén képeket XPS-dokumentumokhoz Java nyelven az Aspose.Page segítségével. Növelje dokumentumfeldolgozását ezzel a lépésről-lépésre szóló útmutatóval.
-type: docs
 weight: 10
 url: /hu/java/xps-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS kép hozzáadása – Egyszerű útmutató az Aspose.Page-hez
+
 Java fejlesztés világában az XPS-dokumentumokkal való munkavégzés kulcsfontosságú a különféle alkalmazások számára. Az Aspose.Page for Java hatékony eszközkészletet biztosít az XPS-dokumentumok kezeléséhez, és az egyik alapvető feladat a képek hozzáadása. Ebben a lépésről lépésre bemutatott útmutatóban végigvezetjük a kép hozzáadásának folyamatán az XPS-dokumentumhoz az Aspose.Page for Java használatával.
 ## Bevezetés
 A képek XPS-dokumentumokhoz való hozzáadása gyakori követelmény számos Java-alkalmazásban, a jelentéskészítéstől a dokumentumfeldolgozásig. Az Aspose.Page for Java leegyszerűsíti ezt a feladatot, és hatékony módszereket kínál a képek zökkenőmentes integrálására az XPS-fájlokba. Ebben az oktatóanyagban bemutatjuk, hogyan lehet képet hozzáadni XPS-dokumentumhoz az Aspose.Page for Java használatával.
@@ -58,3 +64,9 @@ Az Aspose.Page for Java különféle képformátumokat támogat, beleértve a TI
  Ideiglenes jogosítványt szerezhet be[ez a link](https://purchase.aspose.com/temporary-license/).
 ### Hol találhatok további támogatást, vagy hol tudok megvitatni az Aspose.Page for Java-hoz kapcsolódó problémákat?
  Meglátogatni a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) segítséget kérni, tapasztalatokat megosztani, és kapcsolatba lépni az Aspose.Page közösséggel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zastosuj licencję licznikową z Aspose.Page dla .NET
 linktitle: Zastosuj licencję licznikową
 second_title: Aspose.Page API .NET
 description: Poznaj bezproblemową integrację Aspose.Page dla .NET dzięki temu przewodnikowi krok po kroku dotyczącemu stosowania licencji licznikowej. Bez wysiłku optymalizuj przetwarzanie dokumentów.
-type: docs
 weight: 10
 url: /pl/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj licencję licznikową z Aspose.Page dla .NET
+
 ## Wstęp
 
 Odblokuj pełny potencjał Aspose.Page dla .NET poprzez zastosowanie licencji taryfowej. Ten samouczek poprowadzi Cię przez proces konfigurowania i stosowania licencji taryfowej, zapewniając płynne i zoptymalizowane wykorzystanie tej potężnej biblioteki .NET.
@@ -112,3 +118,9 @@ Ten przewodnik krok po kroku wyposażył Cię w wiedzę niezbędną do bezproble
 ### P5: Jak mogę uzyskać tymczasową licencję na Aspose.Page dla .NET?
 
  A5: Odwiedź[licencja tymczasowa/](https://purchase.aspose.com/temporary-license/) w celu uzyskania licencji tymczasowej.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

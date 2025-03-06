@@ -3,10 +3,16 @@ title: إضافة صورة متجانبة في Java XPS
 linktitle: إضافة صورة متجانبة في Java XPS
 second_title: Aspose.Page جافا API
 description: اكتشف المعالجة السلسة لمستندات Java XPS باستخدام Aspose.Page. تعرّف على كيفية إضافة صور متجانبة بسهولة باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة صورة متجانبة في Java XPS
+
 ## مقدمة
 في عالم تطوير Java الديناميكي، تتزايد الحاجة إلى معالجة المستندات وإنشاءها بشكل فعال. يظهر Aspose.Page for Java كأداة قوية توفر للمطورين القدرة على العمل مع مستندات XPS بسلاسة. يركز هذا البرنامج التعليمي على مهمة محددة – إضافة صورة متجانبة إلى مستند Java XPS.
 ## المتطلبات الأساسية
@@ -68,3 +74,9 @@ doc.save(dataDir + "AddTiledImage_out.xps");
  تفاعل مع مجتمع Aspose.Page على[المنتدى](https://forum.aspose.com/c/page/39).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page؟
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قم بتحميل الترخيص من ملف باستخدام Aspose.Page
 linktitle: تحميل الترخيص من الملف
 second_title: Aspose.Page .NET API
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.Page لـ .NET من خلال إتقان فن تحميل التراخيص من الملفات. ارفع قدرات معالجة المستندات لديك بسلاسة.
-type: docs
 weight: 11
 url: /ar/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتحميل الترخيص من ملف باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Page لـ .NET! إذا كنت تتطلع إلى تحسين قدرات معالجة المستندات لديك باستخدام إطار عمل .NET، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحميل الترخيص من ملف باستخدام Aspose.Page لـ .NET. تضمن هذه الخطوة الحاسمة الاستفادة من الإمكانات الكاملة لهذه المكتبة القوية.
@@ -91,3 +97,9 @@ Console.WriteLine("License set successfully.");
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟ 
 
  ج5: قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

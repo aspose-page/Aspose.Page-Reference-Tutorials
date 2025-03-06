@@ -3,10 +3,16 @@ title: Bắt đầu
 linktitle: Bắt đầu
 second_title: API Aspose.Page .NET
 description: Khai phá sức mạnh của Aspose.Page .NET bằng hướng dẫn từng bước. Áp dụng giấy phép được đo lường, tải từ tệp hoặc luồng, giấy phép bảo mật, v.v.
-type: docs
 weight: 20
 url: /vi/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bắt đầu
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn cơ bản về hướng dẫn Aspose.Page dành cho .NET. Đắm mình vào thế giới xử lý tài liệu liền mạch, nơi hiệu quả đáp ứng sự đơn giản. Hãy bắt tay vào hành trình khai thác toàn bộ tiềm năng của công cụ mạnh mẽ này thông qua một loạt hướng dẫn toàn diện.
@@ -38,3 +44,9 @@ Mở khóa thao tác tài liệu trong .NET bằng Aspose.Page. Hãy làm theo h
 Bảo vệ giấy phép Aspose.Page for .NET của bạn một cách dễ dàng với hướng dẫn từng bước của chúng tôi. Mở khóa toàn bộ tiềm năng thao tác trang liền mạch trong các ứng dụng .NET của bạn.
 ### [Đặt giấy phép sử dụng tài nguyên nhúng với Aspose.Page cho .NET](./set-license-using-embedded-resource/)
 Tìm hiểu cách đặt giấy phép bằng cách sử dụng tài nguyên được nhúng với Aspose.Page cho .NET. Đảm bảo tuân thủ và khai thác toàn bộ tiềm năng của việc xử lý tài liệu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

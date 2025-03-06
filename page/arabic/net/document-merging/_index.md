@@ -3,10 +3,16 @@ title: دمج المستندات
 linktitle: دمج المستندات
 second_title: Aspose.Page .NET API
 description: يمكنك دمج مستندات PostScript وXPS بسهولة في ملفات PDF عالية الجودة باستخدام Aspose.Page لـ .NET. قم بتحسين معالجة المستندات الخاصة بك من خلال برامجنا التعليمية خطوة بخطوة.
-type: docs
 weight: 25
 url: /ar/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج المستندات
+
 ## مقدمة
 
 ادمج طريقك نحو إدارة المستندات بسلاسة باستخدام Aspose.Page لـ .NET. اكتشف قوة دمج المستندات من خلال برامجنا التعليمية الشاملة.
@@ -40,3 +46,9 @@ url: /ar/net/document-merging/
 يمكنك دمج مستندات XPS بسهولة في ملفات PDF عالية الجودة باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تجربة تحويل مستند سلسة.
 ### [دمج مستندات XPS مع Aspose.Page لـ .NET](./merge-xps-documents/)
 يمكنك دمج مستندات XPS بسهولة باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة لإدارة المستندات بسلاسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

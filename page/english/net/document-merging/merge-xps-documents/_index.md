@@ -3,10 +3,16 @@ title: Merge XPS Documents with Aspose.Page for .NET
 linktitle: Merge XPS Documents
 second_title: Aspose.Page .NET API
 description: Effortlessly merge XPS documents using Aspose.Page for .NET. Follow our step-by-step guide for seamless document management.
-type: docs
 weight: 12
 url: /net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Merge XPS Documents with Aspose.Page for .NET
+
 ## Introduction
 
 Are you looking to merge XPS documents seamlessly using Aspose.Page for .NET? This tutorial will walk you through the process, providing step-by-step guidance on merging XPS files effortlessly. Aspose.Page for .NET is a powerful library that simplifies document manipulation tasks, making it an ideal choice for merging XPS documents. Let's dive into the process and explore how you can achieve this with ease.
@@ -94,3 +100,10 @@ A4: Ensure that you have the appropriate license for Aspose.Page for .NET to use
 ### Q5: Does Aspose.Page for .NET provide any advanced options for document merging?
 
 A5: Yes, you can explore additional options and configurations available in the documentation.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

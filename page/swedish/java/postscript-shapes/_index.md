@@ -3,10 +3,16 @@ title: Former - PostScript
 linktitle: Former - PostScript
 second_title: Aspose.Page Java API
 description: Skapa fängslande PostScript-dokument utan ansträngning med Aspose.Page Java. Dyk ner i tutorials om att lägga till ellipser och rektanglar och skapa visuellt tilltalande innehåll.
-type: docs
 weight: 34
 url: /sv/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Former - PostScript
+
 
 ## Introduktion
 
@@ -65,3 +71,9 @@ Lås upp den fulla potentialen hos Aspose.Page för Java och höj din upplevelse
 Bemästra att skapa fantastiska PostScript-dokument i Java med Aspose.Page. Lär dig att lägga till ellipser steg för steg för visuellt tilltalande innehåll.
 ### [Lägg till rektangel i Java PostScript](./add-rectangle/)
 Utforska steg-för-steg-guiden för att lägga till livfulla rektanglar till Java PostScript-dokument med Aspose.Page för Java. Förbättra din dokumentanpassning utan ansträngning!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

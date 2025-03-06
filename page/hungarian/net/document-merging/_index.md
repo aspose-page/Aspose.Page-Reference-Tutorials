@@ -3,10 +3,16 @@ title: Dokumentum egyesítése
 linktitle: Dokumentum egyesítése
 second_title: Aspose.Page .NET API
 description: Könnyedén egyesítse a PostScript és XPS dokumentumokat kiváló minőségű PDF-fájlokká az Aspose.Page for .NET segítségével. Fokozza dokumentumfeldolgozását lépésről lépésre bemutatott oktatóanyagainkkal.
-type: docs
 weight: 25
 url: /hu/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentum egyesítése
+
 ## Bevezetés
 
 Egyesítse a zökkenőmentes dokumentumkezelést az Aspose.Page for .NET segítségével. Fedezze fel a dokumentumok egyesítésének erejét átfogó oktatóanyagainkkal.
@@ -40,3 +46,9 @@ Ismerje meg, hogyan egyesíthet könnyedén PostScript-dokumentumokat PDF-be az 
 Könnyedén egyesítse az XPS-dokumentumokat kiváló minőségű PDF-fájlokká az Aspose.Page for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes dokumentumátalakítás érdekében.
 ### [Egyesítse az XPS-dokumentumokat az Aspose.Page-vel .NET-hez](./merge-xps-documents/)
 Könnyedén egyesítse az XPS-dokumentumokat az Aspose.Page for .NET használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes dokumentumkezelés érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

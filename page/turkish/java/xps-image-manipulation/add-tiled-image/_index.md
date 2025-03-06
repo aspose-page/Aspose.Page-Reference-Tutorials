@@ -3,10 +3,16 @@ title: Java XPS'de Döşenmiş Görüntü Ekleme
 linktitle: Java XPS'de Döşenmiş Görüntü Ekleme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page ile sorunsuz Java XPS belge işlemeyi keşfedin. Bu adım adım kılavuzu kullanarak döşemeli görüntüleri zahmetsizce eklemeyi öğrenin.
-type: docs
 weight: 11
 url: /tr/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS'de Döşenmiş Görüntü Ekleme
+
 ## giriiş
 Java geliştirmenin dinamik dünyasında, verimli belge işleme ve oluşturma ihtiyacı giderek artıyor. Aspose.Page for Java, geliştiricilere XPS belgeleriyle sorunsuz bir şekilde çalışma yeteneği sağlayan güçlü bir araç olarak ortaya çıkıyor. Bu eğitim belirli bir göreve odaklanmaktadır; Java XPS belgesine döşenmiş bir görüntü ekleme.
 ## Önkoşullar
@@ -68,3 +74,9 @@ Evet, Aspose.Page ticari lisanslar sunmaktadır. Onları satın al[Burada](https
  Aspose.Page topluluğuyla etkileşime geçin[forum](https://forum.aspose.com/c/page/39).
 ### Aspose.Page için nasıl geçici lisans alabilirim?
  Geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

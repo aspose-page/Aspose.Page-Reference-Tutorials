@@ -3,10 +3,16 @@ title: Effortless Metered License Integration with Aspose.Page Java
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 description: Explore the seamless integration of Aspose.Page with Java. Set up metered licenses effortlessly and enhance your document processing capabilities.
-type: docs
 weight: 10
 url: /java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effortless Metered License Integration with Aspose.Page Java
+
 ## Introduction
 Welcome to our comprehensive guide on setting up a metered license in Java using Aspose.Page. If you're looking to enhance your document processing capabilities and ensure seamless integration with Aspose.Page, you're in the right place. In this tutorial, we'll walk you through the process, breaking down each step into easily digestible chunks.
 ## Prerequisites
@@ -100,3 +106,10 @@ Yes, Aspose.Page offers commercial licenses. You can purchase them [here](https:
 Refer to the documentation [here](https://reference.aspose.com/page/java/).
 ### Q: How can I get temporary licenses?
 Temporary licenses can be obtained [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

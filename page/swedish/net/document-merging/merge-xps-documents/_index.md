@@ -3,10 +3,16 @@ title: Slå ihop XPS-dokument med Aspose.Page för .NET
 linktitle: Slå samman XPS-dokument
 second_title: Aspose.Page .NET API
 description: Slå enkelt ihop XPS-dokument med Aspose.Page för .NET. Följ vår steg-för-steg-guide för sömlös dokumenthantering.
-type: docs
 weight: 12
 url: /sv/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Slå ihop XPS-dokument med Aspose.Page för .NET
+
 ## Introduktion
 
 Vill du slå samman XPS-dokument sömlöst med Aspose.Page för .NET? Den här handledningen går igenom processen och ger dig steg-för-steg-vägledning om hur du enkelt sammanfogar XPS-filer. Aspose.Page för .NET är ett kraftfullt bibliotek som förenklar dokumentmanipuleringsuppgifter, vilket gör det till ett idealiskt val för att slå samman XPS-dokument. Låt oss dyka in i processen och utforska hur du enkelt kan uppnå detta.
@@ -94,3 +100,9 @@ S4: Se till att du har rätt licens för Aspose.Page för .NET att använda alla
 ### F5: Har Aspose.Page för .NET några avancerade alternativ för dokumentsammanslagning?
 
 S5: Ja, du kan utforska ytterligare alternativ och konfigurationer som finns tillgängliga i dokumentationen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

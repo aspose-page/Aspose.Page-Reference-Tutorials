@@ -3,10 +3,16 @@ title: تعبئة متدرجة
 linktitle: تعبئة متدرجة
 second_title: Aspose.Page .NET API
 description: اكتشف فن التعبئة المتدرجة في .NET من خلال دروس Aspose.Page. ارفع مستوى مشروعاتك دون عناء - أضف تدرجات قطرية وأفقية وعمودية جذابة.
-type: docs
 weight: 27
 url: /ar/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعبئة متدرجة
+
 
 ## مقدمة
 
@@ -49,3 +55,9 @@ url: /ar/net/gradient-fills/
 تعرف على كيفية إضافة تدرجات رأسية جذابة بصريًا إلى مستندات PostScript (PS) في .NET باستخدام Aspose.Page. ارتقِ بمستوى إنشاء المستندات باستخدام هذا الدليل المفصّل خطوة بخطوة.
 ### [أضف تدرجًا رأسيًا إلى XPS باستخدام Aspose.Page لـ .NET](./add-vertical-gradient-to-xps/)
 تعرف على كيفية تحسين مستندات XPS بالتدرجات الرأسية باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

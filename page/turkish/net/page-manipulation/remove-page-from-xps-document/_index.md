@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile XPS Belgesinden Sayfayı Kaldırma
 linktitle: Sayfayı XPS Belgesinden Kaldır
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET kullanarak XPS belgelerinden sayfaları kaldırmaya ilişkin kapsamlı eğitimi keşfedin. Sorunsuz belge işleme için adım adım süreci, ön koşulları ve SSS'leri öğrenin.
-type: docs
 weight: 12
 url: /tr/net/page-manipulation/remove-page-from-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile XPS Belgesinden Sayfayı Kaldırma
+
 ## giriiş
 
 Bu eğitimde, Aspose.Page for .NET'i kullanarak bir XPS belgesinden bir sayfayı kaldırma işlemini inceleyeceğiz. Aspose.Page, .NET geliştiricilerinin XPS (XML Kağıt Belirtimi) belgeleriyle sorunsuz bir şekilde çalışmasını sağlayan güçlü bir kitaplıktır. Kendinizi XPS belgenizden belirli bir sayfayı kaldırmanız gereken bir durumda bulursanız bu adım adım kılavuz, süreç boyunca size yol gösterecektir.
@@ -100,3 +106,9 @@ Cevap2: Aspose.Page, en son .NET framework sürümleriyle uyumluluğun sağlanma
 ### S5: Aspose.Page'i test etmek için geçici bir lisansa ihtiyacım var mı?
 
  A5: Evet, alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) test amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

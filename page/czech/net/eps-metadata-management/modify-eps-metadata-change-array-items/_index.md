@@ -3,10 +3,16 @@ title: Změňte položky pole pomocí Aspose.Page pro .NET
 linktitle: Změňte položky pole
 second_title: Aspose.Page .NET API
 description: Naučte se, jak změnit položky pole v souborech EPS pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci s metadaty.
-type: docs
 weight: 15
 url: /cs/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změňte položky pole pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci změnou položek pole pomocí Aspose.Page for .NET! Aspose.Page je výkonná knihovna, která umožňuje vývojářům pracovat s různými formáty dokumentů, včetně souborů EPS. V tomto tutoriálu se zaměříme na manipulaci s metadaty XMP v souborech EPS, konkrétně na změnu položek pole.
@@ -99,3 +105,9 @@ Odpověď 1: Aspose.Page se primárně zabývá soubory EPS, ale Aspose poskytuj
 ### Q5: Kde mohu získat podporu nebo se spojit s komunitou?
 
  A5: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

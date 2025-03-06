@@ -3,10 +3,16 @@ title: Lägg till text till XPS-dokument med Aspose.Page för .NET
 linktitle: Lägg till text i XPS-dokument
 second_title: Aspose.Page .NET API
 description: Utforska en steg-för-steg-guide för att lägga till text i XPS-dokument med Aspose.Page för .NET. Förbättra dina .NET-projekt utan ansträngning.
-type: docs
 weight: 13
 url: /sv/net/text-manipulation/add-text-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till text till XPS-dokument med Aspose.Page för .NET
+
 ## Introduktion
 
 I den dynamiska världen av .NET-utveckling framstår Aspose.Page som ett kraftfullt verktyg för att arbeta med XPS-dokument. Att lägga till text i XPS-dokument är ett vanligt krav, och Aspose.Page förenklar denna process. I den här handledningen kommer vi att utforska hur man använder Aspose.Page för .NET för att sömlöst lägga till text till XPS-dokument.
@@ -102,3 +108,9 @@ A2: Absolut! Aspose.Page stöder .NET Core, vilket säkerställer kompatibilitet
 ### F5: Finns det en gratis provperiod?
 
  A5: Visst! Du kan få en gratis provperiod[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

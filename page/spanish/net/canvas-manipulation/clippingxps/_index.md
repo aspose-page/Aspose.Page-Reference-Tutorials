@@ -3,10 +3,16 @@ title: Recorte de XPS con Aspose.Page para .NET
 linktitle: XPS de recorte
 second_title: Aspose.Página .NET API
 description: Explore el poder de Aspose.Page para .NET en esta guía paso a paso sobre cómo recortar documentos XPS. Cree, manipule y guarde archivos XPS sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recorte de XPS con Aspose.Page para .NET
+
 ## Introducción
 
 ¡Bienvenido a este tutorial completo sobre cómo recortar XPS usando Aspose.Page para .NET! En esta guía, lo guiaremos a través del proceso de creación, manipulación y guardado de documentos XPS usando Aspose.Page para .NET. XPS, o Especificación de papel XML, es un formato de documento abierto y estandarizado, y Aspose.Page para .NET proporciona potentes herramientas para trabajar con documentos XPS en sus aplicaciones .NET.
@@ -156,3 +162,9 @@ R2: Sí, Aspose.Page para .NET está diseñado para ser fácil de usar y los pri
 ### P5: ¿Hay una prueba gratuita disponible para Aspose.Page para .NET?
 
  R5: Sí, puedes explorar la prueba gratuita[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

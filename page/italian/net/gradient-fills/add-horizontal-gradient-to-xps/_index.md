@@ -3,10 +3,16 @@ title: Aggiungi gradiente orizzontale a XPS con Aspose.Page per .NET
 linktitle: Aggiungi gradiente orizzontale a XPS
 second_title: API Aspose.Page .NET
 description: Scopri come aggiungere splendidi gradienti orizzontali ai tuoi documenti XPS utilizzando Aspose.Page per .NET. Aumenta l'attrattiva visiva senza sforzo.
-type: docs
 weight: 13
 url: /it/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi gradiente orizzontale a XPS con Aspose.Page per .NET
+
 ## introduzione
 
 In questo tutorial esploreremo come migliorare i documenti XPS aggiungendo un gradiente orizzontale utilizzando Aspose.Page per .NET. Aspose.Page per .NET è una potente libreria che fornisce una gestione fluida dei documenti XPS (XML Paper Specifica) nelle applicazioni .NET. L'aggiunta di sfumature può conferire fascino visivo ai tuoi documenti e questa guida ti guiderà attraverso il processo passo dopo passo.
@@ -113,3 +119,9 @@ Migliorare i tuoi documenti XPS con sfumature non solo ne migliora l'attrattiva 
 ### Q5: Come posso ottenere una licenza temporanea per Aspose.Page per .NET?
 
  A5: È possibile ottenere una licenza temporanea da[questo link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

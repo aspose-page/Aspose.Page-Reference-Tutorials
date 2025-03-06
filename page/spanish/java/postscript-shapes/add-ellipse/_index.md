@@ -3,10 +3,16 @@ title: Agregar elipse en Java PostScript
 linktitle: Agregar elipse en Java PostScript
 second_title: API de Java de Aspose.Page
 description: Domine la creación de impresionantes documentos PostScript en Java con Aspose.Page. Aprenda a agregar elipses paso a paso para obtener contenido visualmente atractivo.
-type: docs
 weight: 10
 url: /es/java/postscript-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar elipse en Java PostScript
+
 ## Introducción
 En el dinámico mundo del desarrollo de Java, la creación de documentos visualmente atractivos es un requisito común. Aspose.Page para Java es una poderosa biblioteca que permite a los desarrolladores manipular archivos PostScript sin esfuerzo. En este tutorial, exploraremos cómo agregar puntos suspensivos a documentos PostScript usando Aspose.Page para Java. ¡Síguenos para mejorar tus habilidades de creación de documentos!
 ## Requisitos previos
@@ -71,3 +77,9 @@ R: Sí, Aspose.Page para Java está diseñado para integrarse perfectamente con 
  R: Únase a la comunidad en el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para discusiones y ayuda.
 ### P: ¿Existen recursos gratuitos para obtener más información sobre Aspose.Page para Java?
  R: Utilice el[prueba gratis](https://releases.aspose.com/) y explore ejemplos en la documentación.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

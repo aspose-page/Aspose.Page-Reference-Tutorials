@@ -3,10 +3,16 @@ title: Applicera Texture Tiling Pattern på PostScript (PS) med Aspose.Page
 linktitle: Applicera texturplattmönster på PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Förbättra dina PostScript-dokument (PS) med texturmönster med hjälp av Aspose.Page för .NET. Följ vår steg-för-steg-guide för en kreativ touch.
-type: docs
 weight: 10
 url: /sv/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicera Texture Tiling Pattern på PostScript (PS) med Aspose.Page
+
 ## Introduktion
 
 Välkommen till denna steg-för-steg handledning om hur man applicerar ett texturmönster på ett PostScript-dokument (PS) med Aspose.Page för .NET. Aspose.Page är ett kraftfullt bibliotek som låter dig arbeta med olika dokumentformat, och i den här självstudien kommer vi att utforska hur du kan förbättra dina PS-dokument genom att lägga till texturmönster.
@@ -156,3 +162,10 @@ A4: Ja, du kan upprepa processen med olika bilder och vägar.
 ### F5: Var kan jag hitta ytterligare resurser och support?
 
  A5: Besök[Aspose.Page Forum](https://forum.aspose.com/c/page/39) för samhällsstöd och utforska[dokumentation](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

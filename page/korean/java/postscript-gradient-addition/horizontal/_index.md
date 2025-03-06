@@ -3,10 +3,16 @@ title: Java PostScript에 수평 그라데이션 추가
 linktitle: Java PostScript에 수평 그라데이션 추가
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 Java PostScript에 수평 그라데이션을 추가하는 방법을 알아보세요. 시각적으로 멋진 문서를 손쉽게 만들어보세요.
-type: docs
 weight: 11
 url: /ko/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript에 수평 그라데이션 추가
+
 ## 소개
 Java용 Aspose.Page를 사용하여 Java PostScript에 수평 그라데이션을 추가하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.Page는 개발자가 PostScript 및 기타 문서 형식으로 작업할 수 있는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 단계별 예제를 사용하여 가로 그라데이션이 있는 PostScript 문서를 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -82,3 +88,9 @@ document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
  임시면허를 취득하실 수 있습니다.[Aspose.구매](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java의 시스템 요구 사항은 무엇입니까?
  다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/page/java/) 자세한 시스템 요구사항을 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

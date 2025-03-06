@@ -3,10 +3,16 @@ title: Thao tác trên vải
 linktitle: Thao tác trên vải
 second_title: API Aspose.Page .NET
 description: Khám phá Aspose.Page để biết các hướng dẫn .NET về thao tác canvas. Việc cắt và chuyển đổi các tài liệu PS và XPS trở nên dễ dàng. Nâng cao kỹ năng xử lý tài liệu của bạn.
-type: docs
 weight: 21
 url: /vi/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác trên vải
+
 
 ## Giới thiệu
 
@@ -42,3 +48,9 @@ Khám phá sức mạnh của Aspose.Page cho .NET trong hướng dẫn từng b
 Khai phá tiềm năng của Aspose.Page cho .NET với hướng dẫn toàn diện về chuyển đổi PostScript này. Tạo đồ họa động một cách dễ dàng.
 ### [Chuyển đổi XPS với Aspose.Page cho .NET](./transformationsxps/)
 Chuyển đổi tài liệu XPS dễ dàng với Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để chuyển đổi liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

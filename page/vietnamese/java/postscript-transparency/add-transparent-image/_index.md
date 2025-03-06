@@ -3,10 +3,16 @@ title: Thêm hình ảnh trong suốt vào Java PostScript
 linktitle: Thêm hình ảnh trong suốt vào Java PostScript
 second_title: API Java Aspose.Page
 description: Khám phá sự tích hợp liền mạch của các hình ảnh trong suốt trong tài liệu Java PostScript với Aspose.Page dành cho Java. Nâng cao trực quan hóa tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình ảnh trong suốt vào Java PostScript
+
 ## Giới thiệu
 Trong thế giới của Java PostScript, việc nâng cao sức hấp dẫn trực quan của tài liệu thường liên quan đến việc thêm các hình ảnh trong suốt. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình kết hợp các hình ảnh trong suốt vào tài liệu Java PostScript của bạn bằng cách sử dụng thư viện Aspose.Page for Java mạnh mẽ.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Có, Aspose.Page cho Java có thể được tích hợp liền mạch với cá
  Vâng, hãy ghé thăm[Aspose.Page cho diễn đàn Java](https://forum.aspose.com/c/page/39) để được cộng đồng hỗ trợ và thảo luận.
 ### Tôi có thể tìm tài liệu về Aspose.Page cho Java ở đâu?
  Tham khảo toàn diện[tài liệu](https://reference.aspose.com/page/java/) để biết thông tin chi tiết về Aspose.Page cho Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

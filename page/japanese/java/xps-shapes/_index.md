@@ -3,10 +3,16 @@ title: 形状 - XPS
 linktitle: 形状 - XPS
 second_title: Aspose.Page Java API
 description: Aspose.Page チュートリアルで Java XPS の魔法を発見してください!魅力的な楕円形や長方形を簡単に追加できます。ステップバイステップのガイドを使用して、ドキュメントの作成を強化します。
-type: docs
 weight: 35
 url: /ja/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 形状 - XPS
+
 ## 導入
 
 Java XPS を使用したドキュメント作成の魅力的な領域を掘り下げる準備はできていますか?形状操作の可能性を最大限に引き出すための信頼できる相棒、Aspose.Page 以外に探す必要はありません。このチュートリアル シリーズでは、魅力的な図形を追加してドキュメントを簡単に目立たせるための複雑な手順を説明します。
@@ -33,3 +39,9 @@ Java XPS を使用したドキュメント作成の魅力的な領域を掘り�
 Aspose.Page for Java を使用して Java XPS に放射状グラデーション ストローク楕円を追加するためのステップバイステップ ガイドをご覧ください。ドキュメント作成を簡単に強化します。
 ### [Java XPSで四角形を追加する](./add-rectangle/)
 Aspose.Page を使用して Java XPS に四角形を追加する方法を学びます。シームレスなドキュメント操作については、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

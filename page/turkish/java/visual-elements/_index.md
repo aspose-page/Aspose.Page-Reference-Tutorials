@@ -3,10 +3,16 @@ title: Görsel Öğeler - Java
 linktitle: Görsel Öğeler - Java
 second_title: Aspose.Page Java API'si
 description: Aspose.Page ile Java belgenizin görsellerini zahmetsizce yükseltin! Bu adım adım eğitimde Visual Brush'ı kullanarak ızgaralar ekleyerek uygulamanızı geliştirmeyi öğrenin.
-type: docs
 weight: 41
 url: /tr/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görsel Öğeler - Java
+
 ## giriiş
 
 Java geliştiricileri, sevinin! Java belgenizin görsellerini dönüştürmeyi vaat eden Aspose.Page eğitimleriyle görsel öğelerin dünyasına dalın. Bu sayıda, Visual Brush kullanarak büyüleyici ızgara ekleme sanatına odaklanıyoruz. Başvurunuzun çekiciliğini artıracak bir yolculuğa çıkarken kemerlerinizi bağlayın.
@@ -46,3 +52,9 @@ Sonuç olarak Aspose.Page for Java, uygulamalarının görsel unsurlarını geli
 ## Görsel Öğeler - Java Dersleri
 ### [Java'da Görsel Fırça kullanarak Izgara Ekleme](./add-grid/)
 Aspose.Page ile Java belge görsellerini geliştirin! Adım adım Görsel Fırça kullanarak ızgara eklemeyi öğrenin. Uygulamanızın çekiciliğini zahmetsizce artırın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

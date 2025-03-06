@@ -3,10 +3,16 @@ title: 使用 Java 更改 XMP 中的数组项
 linktitle: 使用 Java 更改 XMP 中的数组项
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page for Java 更改 XMP 中的数组项。使用我们的分步指南轻松修改元数据。立即增强您的 EPS 文档！
-type: docs
 weight: 15
 url: /zh/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 更改 XMP 中的数组项
+
 ## 介绍
 欢迎来到我们关于使用 Aspose.Page for Java 更改 XMP 中的数组项的综合指南！ Aspose.Page 是一个功能强大的 Java 库，允许您无缝地使用 EPS 文件中的 XMP 元数据。在本教程中，我们将引导您完成修改 XMP 元数据中的数组项的过程，帮助您增强和自定义 EPS 文档。
 ## 先决条件
@@ -77,3 +83,9 @@ Aspose.Page 主要是为 Java 设计的，但 Aspose 也为其他语言提供了
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以购买完整版的 Aspose.Page for Java？
 您可以购买完整版[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

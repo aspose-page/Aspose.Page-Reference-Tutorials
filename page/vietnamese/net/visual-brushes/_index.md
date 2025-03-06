@@ -3,10 +3,16 @@ title: Bàn chải trực quan
 linktitle: Bàn chải trực quan
 second_title: API Aspose.Page .NET
 description: Nâng cao khả năng xử lý tài liệu của bạn trong .NET với các hướng dẫn về Aspose.Page. Đi sâu vào lĩnh vực Visual Brushes, nắm vững các kỹ thuật để tạo ra các tài liệu có hình ảnh ấn tượng.
-type: docs
 weight: 35
 url: /vi/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bàn chải trực quan
+
 
 ## Giới thiệu
 
@@ -36,3 +42,9 @@ Hãy nhớ rằng, khả năng chuyển đổi tài liệu của bạn nằm tro
 ## Hướng dẫn về Visual Brush
 ### [Áp dụng Grid Visual Brush với Aspose.Page for .NET](./apply-grid-visual-brush/)
 Khám phá thế giới năng động của việc xử lý tài liệu trong .NET với Aspose.Page. Tìm hiểu cách áp dụng Grid Visual Brush để có các tài liệu trực quan ấn tượng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

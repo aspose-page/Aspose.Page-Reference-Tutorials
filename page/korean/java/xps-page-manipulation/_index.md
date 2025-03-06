@@ -3,10 +3,16 @@ title: 페이지 조작 - XPS
 linktitle: 페이지 조작 - XPS
 second_title: Aspose.페이지 자바 API
 description: 튜토리얼을 통해 Java용 Aspose.Page의 강력한 기능을 살펴보세요. 향상된 애플리케이션 기능을 위해 페이지를 쉽게 추가하여 Java XPS 문서를 향상시키십시오.
-type: docs
 weight: 33
 url: /ko/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 페이지 조작 - XPS
+
 
 ## 소개
 
@@ -36,3 +42,9 @@ Aspose.Page는 사용자 친화적인 접근 방식과 비교할 수 없는 기�
 ## 페이지 조작 - XPS 튜토리얼
 ### [Java XPS에 페이지 추가](./add-page/)
 Aspose.Page를 사용하여 Java XPS 문서를 향상하세요. 향상된 애플리케이션 기능을 위해 페이지를 손쉽게 추가하는 방법을 알아보세요. 지금 튜토리얼을 살펴보세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

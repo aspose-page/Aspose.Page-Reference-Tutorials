@@ -3,10 +3,16 @@ title: Thêm hình ảnh vào tài liệu PostScript (PS) bằng Aspose.Page
 linktitle: Thêm hình ảnh vào tài liệu PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách nâng cao tài liệu PostScript của bạn bằng cách thêm hình ảnh bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm liền mạch.
-type: docs
 weight: 10
 url: /vi/net/image-management/add-image-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình ảnh vào tài liệu PostScript (PS) bằng Aspose.Page
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá quy trình thêm hình ảnh vào tài liệu PostScript (PS) bằng thư viện Aspose.Page cho .NET mạnh mẽ. Aspose.Page đơn giản hóa thao tác với tài liệu PS, cung cấp một cách hiệu quả và đơn giản để cải thiện tài liệu của bạn bằng hình ảnh. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn nắm bắt kỹ lưỡng từng khái niệm.
@@ -122,3 +128,9 @@ Câu trả lời 4: Có, Aspose.Page cho phép bạn áp dụng nhiều phép bi
 ### Câu hỏi 5: Làm cách nào để trích xuất hình ảnh từ tài liệu PS?
 
 Câu trả lời 5: Aspose.Page for .NET cung cấp các phương pháp trích xuất hình ảnh từ tài liệu PS. Tham khảo tài liệu để biết thông tin chi tiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thao tác trang
 linktitle: Thao tác trang
 second_title: API Aspose.Page .NET
 description: Khám phá sức mạnh của Aspose.Page dành cho .NET trong việc thao tác các tài liệu PostScript và XPS. Tìm hiểu cách thêm, nâng cao và xóa trang bằng các hướng dẫn toàn diện của chúng tôi.
-type: docs
 weight: 29
 url: /vi/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác trang
+
 
 ## Giới thiệu
 
@@ -35,3 +41,9 @@ Khám phá Aspose.Page cho .NET giải pháp tối ưu để thao tác tài li�
 Nâng cao ứng dụng .NET của bạn bằng cách tìm hiểu cách thêm trang vào tài liệu XPS bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
 ### [Xóa Trang khỏi Tài liệu XPS bằng Aspose.Page cho .NET](./remove-page-from-xps-document/)
 Khám phá hướng dẫn toàn diện về cách xóa trang khỏi tài liệu XPS bằng Aspose.Page cho .NET. Tìm hiểu quy trình từng bước, điều kiện tiên quyết và Câu hỏi thường gặp để thao tác tài liệu liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

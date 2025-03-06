@@ -3,10 +3,16 @@ title: العناصر المرئية - جافا
 linktitle: العناصر المرئية - جافا
 second_title: Aspose.Page جافا API
 description: ارفع مستوى مرئيات مستندات Java الخاصة بك دون عناء باستخدام Aspose.Page! تعلم كيفية تحسين تطبيقك عن طريق إضافة شبكات باستخدام Visual Brush في هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 41
 url: /ar/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# العناصر المرئية - جافا
+
 ## مقدمة
 
 مطوري جافا، ابتهجوا! انغمس في عالم العناصر المرئية من خلال البرامج التعليمية لـ Aspose.Page والتي تعدك بتحويل العناصر المرئية لمستندات Java الخاصة بك. في هذا الإصدار، نركز على الفن الجذاب المتمثل في إضافة الشبكات باستخدام Visual Brush. اربط حزام الأمان بينما نبدأ رحلة لزيادة جاذبية طلبك.
@@ -46,3 +52,9 @@ url: /ar/java/visual-elements/
 ## العناصر المرئية - دروس جافا
 ### [أضف الشبكة باستخدام Visual Brush في Java](./add-grid/)
 قم بتحسين العناصر المرئية لمستندات Java باستخدام Aspose.Page! تعلم كيفية إضافة الشبكات باستخدام Visual Brush خطوة بخطوة. ارفع مستوى جاذبية طلبك دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Convertir XPS en PDF avec Aspose.Page pour .NET
 linktitle: Convertir XPS en PDF
 second_title: API Aspose.Page .NET
 description: Convertissez sans effort XPS en PDF dans .NET avec Aspose.Page. Téléchargez la bibliothèque, explorez la documentation et bénéficiez d'un essai gratuit.
-type: docs
 weight: 11
 url: /fr/net/document-conversion/convert-xps-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir XPS en PDF avec Aspose.Page pour .NET
+
 ## Introduction
 
 Dans ce didacticiel, nous approfondirons le processus de conversion de documents XPS (XML Paper Spécification) en PDF (Portable Document Format) à l'aide de la puissante bibliothèque Aspose.Page pour .NET. Aspose.Page pour .NET fournit un ensemble robuste de fonctionnalités pour travailler avec des fichiers XPS, permettant aux développeurs de les convertir de manière transparente au format PDF avec diverses options de personnalisation.
@@ -109,3 +115,9 @@ A3 : Vous pouvez modifier les paramètres de l'objet d'options, tels que la com
 ### Q5 : Où puis-je obtenir une assistance communautaire pour Aspose.Page pour .NET ?
 
  A5 : Visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour les discussions et le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

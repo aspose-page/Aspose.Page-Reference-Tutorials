@@ -3,10 +3,16 @@ title: Aspose.Page के साथ पोस्टस्क्रिप्ट (
 linktitle: पोस्टस्क्रिप्ट में वृत्त दीर्घवृत्त जोड़ें (पीएस)
 second_title: Aspose.Page .NET API
 description: जानें कि .NET के लिए Aspose.Page का उपयोग करके आसानी से पोस्टस्क्रिप्ट (PS) दस्तावेज़ों में सर्कल दीर्घवृत्त कैसे जोड़ें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 10
 url: /hi/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page के साथ पोस्टस्क्रिप्ट (PS) में सर्कल एलिप्स जोड़ें
+
 ## परिचय
 
 .NET के लिए Aspose.Page का उपयोग करके पोस्टस्क्रिप्ट (PS) दस्तावेज़ों में सर्कल दीर्घवृत्त जोड़ने पर इस व्यापक ट्यूटोरियल में आपका स्वागत है। Aspose.Page एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को पोस्टस्क्रिप्ट और अन्य दस्तावेज़ प्रारूपों के साथ निर्बाध रूप से काम करने की अनुमति देती है। इस गाइड में, हम आपको आपके पीएस दस्तावेज़ों में सर्कल एलिप्स को आसानी से शामिल करने की प्रक्रिया के बारे में बताएंगे।
@@ -145,3 +151,9 @@ document.Save();
 ### Q5: मैं .NET के लिए Aspose.Page कहां से खरीद सकता हूं?
 
  A5: .NET के लिए Aspose.Page खरीदें[पेज खरीदें](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

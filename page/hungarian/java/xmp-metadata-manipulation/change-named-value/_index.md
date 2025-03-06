@@ -3,10 +3,16 @@ title: Módosítsa a Név szerinti értéket az XMP-ben Java használatával
 linktitle: Módosítsa a Név szerinti értéket az XMP-ben Java használatával
 second_title: Aspose.Page Java API
 description: Fedezze fel az Aspose.Page for Java oldalt – Könnyedén módosíthatja az XMP-metaadatokat az EPS-fájlokban az egyszerűsített dokumentumfeldolgozáshoz lépésről lépésre szóló útmutatónkkal.
-type: docs
 weight: 16
 url: /hu/java/xmp-metadata-manipulation/change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Módosítsa a Név szerinti értéket az XMP-ben Java használatával
+
 A dokumentumkezelés területén az Aspose.Page for Java hatékony eszközként tűnik ki, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak az EPS-fájlokban lévő XMP-metaadatokkal. Ez a részletes útmutató végigvezeti az XMP elnevezett értékek megváltoztatásának folyamatán az Aspose.Page for Java használatával. Mielőtt belemélyednénk a részletekbe, egy bevezetővel állítsuk a terepet.
 ## Bevezetés
 Az Aspose.Page for Java egy robusztus Java-könyvtár, amely megkönnyíti az EPS-fájlok kezelését és feldolgozását. Amikor az XMP-metaadatok kezeléséről van szó ezekben a fájlokban, az Aspose.Page szolgáltatások átfogó készletével ruházza fel a fejlesztőket. Ebben az oktatóanyagban egy elnevezett érték megváltoztatására összpontosítunk az XMP-ben, világos és tömör útmutatót kínálva azoknak a fejlesztőknek, akik szeretnék javítani dokumentumfeldolgozási képességeiket.
@@ -82,3 +88,9 @@ Az Aspose.Page elsősorban a Java-t támogatja, de az Aspose hasonló könyvtár
  Ideiglenes jogosítványt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol vásárolhatom meg az Aspose.Page for Java oldalt?
  Az Aspose.Page for Java vásárlásához látogassa meg a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

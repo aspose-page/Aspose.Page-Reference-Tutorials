@@ -3,10 +3,16 @@ title: เพิ่มรูปภาพโปร่งใสใน Java PostScr
 linktitle: เพิ่มรูปภาพโปร่งใสใน Java PostScript
 second_title: Aspose.Page Java API
 description: สำรวจการรวมรูปภาพโปร่งใสในเอกสาร Java PostScript เข้ากับ Aspose.Page สำหรับ Java ได้อย่างราบรื่น ยกระดับการแสดงภาพเอกสารของคุณได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มรูปภาพโปร่งใสใน Java PostScript
+
 ## การแนะนำ
 ในโลกของ Java PostScript การเพิ่มความดึงดูดสายตาให้กับเอกสารมักจะเกี่ยวข้องกับการเพิ่มภาพที่โปร่งใส บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการรวมรูปภาพโปร่งใสลงในเอกสาร Java PostScript ของคุณโดยใช้ Aspose.Page สำหรับไลบรารี Java อันทรงพลัง
 ## ข้อกำหนดเบื้องต้น
@@ -83,3 +89,9 @@ document.save();
  ใช่แล้ว แวะมาที่.[Aspose.Page สำหรับฟอรัม Java](https://forum.aspose.com/c/page/39) สำหรับการสนับสนุนและการอภิปรายของชุมชน
 ### ฉันจะหาเอกสารสำหรับ Aspose.Page สำหรับ Java ได้ที่ไหน
  อ้างถึงที่ครอบคลุม[เอกสารประกอบ](https://reference.aspose.com/page/java/) สำหรับข้อมูลโดยละเอียดเกี่ยวกับ Aspose.Page สำหรับ Java
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

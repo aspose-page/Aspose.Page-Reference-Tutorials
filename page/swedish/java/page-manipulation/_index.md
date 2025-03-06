@@ -3,10 +3,16 @@ title: Java Sidmanipulation
 linktitle: Java Sidmanipulation
 second_title: Aspose.Page Java API
 description: Lås upp hemligheterna bakom Java Page Manipulation med Aspose.Page-handledningar. Dyk ner i klippning och transformationer för att skapa visuellt fantastiska dokument utan ansträngning.
-type: docs
 weight: 20
 url: /sv/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Sidmanipulation
+
 
 ## Introduktion
 
@@ -50,3 +56,9 @@ Aspose.Page för Java ger dig ett kraftpaket av funktioner till dina fingertoppa
 Utforska konsten att klippa i Java Page Manipulation med Aspose.Page. Bemästra exakt dokumentutformning för fantastiska bilder och kontroll.
 ### [Transformationer i Java Page Manipulation](./transformations/)
 Lär dig hur du utför avancerade sidtransformationer i Java med Aspose.Page för Java. Förbättra dina Java-applikationer med kraftfulla manipuleringsmöjligheter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

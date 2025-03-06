@@ -3,10 +3,16 @@ title: Gradiens hozzáadása - XPS
 linktitle: Gradiens hozzáadása - XPS
 second_title: Aspose.Page Java API
 description: Emelje fel Java XPS-dokumentumait lenyűgöző színátmenetekkel. Tanuljon meg könnyedén hozzáadni átlós, vízszintes és függőleges színátmeneteket az Aspose.Page oktatóanyagaival.
-type: docs
 weight: 26
 url: /hu/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradiens hozzáadása - XPS
+
 ## Bevezetés
 
 A technológia fejlődésével a vizuális vonzerő fokozása kulcsfontosságúvá válik. A Java XPS-dokumentumok birodalmában a magával ragadó színátmenetek beépítése megváltoztatja a játékot. Üdvözöljük az Aspose.Page for Java Tutorials oldalán, ahol finoman feltárjuk a Gradient Addition művészetét XPS-ben.
@@ -40,3 +46,9 @@ Ismerje meg, hogyan adhat lenyűgöző átlós színátmenetet XPS-dokumentumaih
 Ismerje meg, hogyan adhat lenyűgöző vízszintes színátmenetet XPS-dokumentumokhoz Java nyelven az Aspose.Page használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
 ### [Függőleges színátmenet hozzáadása a Java XPS-ben](./vertical/)
 Ismerje meg, hogyan adhat hozzá függőleges színátmenetet Java XPS-dokumentumokhoz az Aspose.Page segítségével. Fokozza a vizuális vonzerőt erőfeszítés nélkül. Lépésről lépésre útmutató belül.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

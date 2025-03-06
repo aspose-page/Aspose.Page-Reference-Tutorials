@@ -3,10 +3,16 @@ title: 使用 Java 在 XMP 中添加元数据
 linktitle: 使用 Java 在 XMP 中添加元数据
 second_title: Aspose.Page Java API
 description: 探索 Aspose.Page for Java 的无缝集成，并了解如何轻松地将 XMP 元数据添加到 EPS 文件中。立即提升您的文档管理水平！
-type: docs
 weight: 11
 url: /zh/java/xmp-metadata-manipulation/add-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 XMP 中添加元数据
+
 ## 介绍
 您是否希望通过使用 Java 添加 XMP 信息来增强文档的元数据？别再犹豫了！本分步指南将引导您完成使用 Aspose.Page for Java 库将元数据添加到 EPS 文件的过程。 Aspose.Page 是一个功能强大的工具，可以简化 Java 应用程序中的文档操作任务。
 ## 先决条件
@@ -101,3 +107,9 @@ psStream.close();
 答：Aspose.Page for Java 支持多种格式，包括 EPS、PDF 和 XPS。
 ### 问：我可以购买 Aspose.Page for Java 吗？
 答：是的，您可以购买 Aspose.Page for Java[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

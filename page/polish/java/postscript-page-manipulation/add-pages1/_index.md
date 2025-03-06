@@ -3,10 +3,16 @@ title: Strony PostScript w języku Java — przejrzysty przewodnik po Aspose.Pag
 linktitle: Strony PostScriptowe w Javie
 second_title: Aspose.Page API Java
 description: Dowiedz się, jak bez wysiłku dodawać strony w języku Java PostScript za pomocą Aspose.Page. Ulepsz swoje tworzenie dokumentów dzięki tej potężnej bibliotece Java.
-type: docs
 weight: 10
 url: /pl/java/postscript-page-manipulation/add-pages1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Strony PostScript w języku Java — przejrzysty przewodnik po Aspose.Page
+
 ## Wstęp
 Witamy w naszym obszernym przewodniku na temat dodawania stron w Java PostScript przy użyciu Aspose.Page. W tym samouczku przeprowadzimy Cię przez proces dodawania stron do dokumentu PostScript przy użyciu Aspose.Page dla Java. Aspose.Page to potężna biblioteka Java, która zapewnia szeroką gamę funkcji do pracy z dokumentami PostScript, dzięki czemu jest chętnie wybierana przez programistów.
 ## Warunki wstępne
@@ -68,3 +74,9 @@ Tak, Aspose.Page oferuje elastyczne opcje licencjonowania odpowiednie zarówno d
 Aspose.Page nie nakłada ścisłych ograniczeń na liczbę stron, które możesz dodać, dzięki czemu nadaje się do projektów o różnej skali.
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Page?
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

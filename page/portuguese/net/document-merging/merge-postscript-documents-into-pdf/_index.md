@@ -3,10 +3,16 @@ title: Mesclar documentos PostScript em PDF com Aspose.Page para .NET
 linktitle: Mesclar documentos PostScript em PDF
 second_title: API Aspose.Page .NET
 description: Aprenda como mesclar facilmente documentos PostScript em PDF usando Aspose.Page for .NET. Aprimore seus recursos de processamento de documentos com este guia passo a passo.
-type: docs
 weight: 10
 url: /pt/net/document-merging/merge-postscript-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesclar documentos PostScript em PDF com Aspose.Page para .NET
+
 ## Introdução
 
 No domínio do processamento de documentos, Aspose.Page for .NET se destaca como uma ferramenta poderosa para manipulação de documentos PostScript. Se precisar mesclar vários documentos PostScript em um único e conveniente arquivo PDF, você está no lugar certo. Este tutorial irá guiá-lo passo a passo pelo processo, garantindo que você aproveite todo o potencial do Aspose.Page for .NET.
@@ -116,3 +122,9 @@ A2: Especifique pastas de fontes adicionais no objeto de opções. Isso garante 
 ### Q5: Como posso obter uma licença temporária para Aspose.Page for .NET?
 
  A5: Adquira uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

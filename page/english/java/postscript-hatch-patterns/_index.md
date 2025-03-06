@@ -3,10 +3,16 @@ title: Hatch Patterns - PostScript
 linktitle: Hatch Patterns - PostScript
 second_title: Aspose.Page Java API
 description: Discover the art of adding captivating hatch patterns to Java PostScript documents with Aspose.Page. Elevate visual content effortlessly for a stunning output.
-type: docs
 weight: 27
 url: /java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hatch Patterns - PostScript
+
 ## Introduction
 
 Creating visually appealing Java PostScript documents becomes a breeze with Aspose.Page. In this tutorial, we delve into the fascinating world of hatch patterns, exploring how to enhance your visual content effortlessly.
@@ -30,3 +36,9 @@ Whether you're a seasoned developer or a newcomer to Java PostScript, our tutori
 ## Hatch Patterns - PostScript Tutorials
 ### [Add Hatch Pattern in Java PostScript](./add-hatch-pattern/)
 Learn how to add captivating hatch patterns to Java PostScript documents using Aspose.Page. Elevate your visual content effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

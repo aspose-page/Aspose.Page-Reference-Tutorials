@@ -3,10 +3,16 @@ title: 在 Java XPS 中添加平铺图像
 linktitle: 在 Java XPS 中添加平铺图像
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 探索无缝 Java XPS 文档操作。使用此分步指南学习轻松添加平铺图像。
-type: docs
 weight: 11
 url: /zh/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java XPS 中添加平铺图像
+
 ## 介绍
 在 Java 开发的动态世界中，对高效文档操作和创建的需求不断增长。 Aspose.Page for Java 成为一个强大的工具，为开发人员提供无缝处理 XPS 文档的能力。本教程重点关注一项特定任务 - 将平铺图像添加到 Java XPS 文档。
 ## 先决条件
@@ -68,3 +74,9 @@ Aspose.Page for Java 简化了 XPS 文档的处理过程，为开发人员提供
 与 Aspose.Page 社区互动[论坛](https://forum.aspose.com/c/page/39).
 ### 如何获得 Aspose.Page 的临时许可证？
 获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

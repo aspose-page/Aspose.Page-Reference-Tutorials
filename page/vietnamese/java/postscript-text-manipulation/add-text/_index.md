@@ -3,10 +3,16 @@ title: Aspose.Page Thao tác văn bản Java
 linktitle: Thêm văn bản trong Java PostScript
 second_title: API Java Aspose.Page
 description: Khám phá sức mạnh của Aspose.Page cho Java trong hướng dẫn của chúng tôi về cách thêm văn bản vào tài liệu PostScript. Tìm hiểu cách sử dụng phông chữ hệ thống và tùy chỉnh một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Thao tác văn bản Java
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thêm văn bản trong Java PostScript bằng Aspose.Page cho Java. Aspose.Page cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tài liệu PostScript một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm văn bản, sử dụng phông chữ hệ thống và phông chữ tùy chỉnh, phác thảo văn bản và kết hợp các nét để có kết quả hấp dẫn trực quan.
 ## Điều kiện tiên quyết
@@ -99,3 +105,9 @@ Tuyệt đối! Bạn có thể tạo nhiều trang bằng cách lặp lại cá
 `ExternalFontCache` được sử dụng để tìm nạp các phông chữ tùy chỉnh, đảm bảo chúng có sẵn để thao tác văn bản.
 ### Tôi có thể áp dụng các nét khác nhau cho văn bản được phác thảo không?
  Có, bạn có thể tùy chỉnh độ rộng và màu sắc của nét vẽ bằng cách sử dụng`Stroke` lớp học và`Color` lớp tương ứng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

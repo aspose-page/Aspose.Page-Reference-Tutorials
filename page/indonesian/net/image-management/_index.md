@@ -3,10 +3,16 @@ title: Manajemen Gambar
 linktitle: Manajemen Gambar
 second_title: Aspose.Halaman .NET API
 description: Sempurnakan visual dokumen Anda dengan mudah! Jelajahi tutorial Aspose.Page .NET yang mencakup manajemen gambar. Dari menambahkan gambar hingga mengonversi format, kuasai setiap langkah.
-type: docs
 weight: 28
 url: /id/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manajemen Gambar
+
 ## Perkenalan
 
 Apakah Anda ingin meningkatkan daya tarik visual dokumen Anda menggunakan Aspose.Page untuk .NET? Tidak perlu mencari lagi! Dalam panduan komprehensif ini, kami akan memandu Anda melalui berbagai tutorial manajemen gambar yang akan memberdayakan Anda untuk menyempurnakan dokumen Anda dengan lancar.
@@ -45,3 +51,9 @@ Jelajahi integrasi gambar yang lancar ke dalam dokumen XPS dengan Aspose.Page un
 Jelajahi penambahan gambar ubin ke dokumen XPS dengan mudah menggunakan Aspose.Page untuk .NET. Tingkatkan daya tarik visual dan buat dokumen yang menakjubkan.
 ### [Konversi Gambar ke Format EPS dengan Aspose.Page untuk .NET](./convert-image-to-eps-format/)
 Pelajari cara mengonversi gambar JPEG ke format EPS menggunakan Aspose.Page untuk .NET. Panduan komprehensif dengan petunjuk langkah demi langkah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

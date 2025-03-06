@@ -3,10 +3,16 @@ title: Cắt XPS bằng Aspose.Page cho .NET
 linktitle: Cắt XPS
 second_title: API Aspose.Page .NET
 description: Khám phá sức mạnh của Aspose.Page cho .NET trong hướng dẫn từng bước này về cách cắt tài liệu XPS. Tạo, thao tác và lưu tệp XPS một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt XPS bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về Cắt XPS bằng Aspose.Page cho .NET! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo, thao tác và lưu tài liệu XPS bằng Aspose.Page cho .NET. XPS, hay Đặc tả giấy XML, là định dạng tài liệu mở và được chuẩn hóa, đồng thời Aspose.Page for .NET cung cấp các công cụ mạnh mẽ để làm việc với tài liệu XPS trong các ứng dụng .NET của bạn.
@@ -156,3 +162,9 @@ Câu trả lời 2: Có, Aspose.Page dành cho .NET được thiết kế thân 
 ### Câu hỏi 5: Có bản dùng thử miễn phí dành cho Aspose.Page dành cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

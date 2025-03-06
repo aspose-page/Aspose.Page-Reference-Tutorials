@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile Stream Object'ten Lisans Yükleyin
 linktitle: Lisansı Akış Nesnesinden Yükle
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page ile .NET'te belge manipülasyonunun kilidini açın. Akış nesnelerinden lisansları sorunsuz bir şekilde yüklemek için kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile Stream Object'ten Lisans Yükleyin
+
 ## giriiş
 
 .NET geliştirme becerilerinizi bir sonraki seviyeye taşımaya hazır mısınız? Özellikle sayfa manipülasyonu bağlamında belgelerle çalışma ihtiyacı duyduysanız Aspose.Page for .NET mükemmel arkadaşınızdır. Bu kapsamlı kılavuzda, Aspose.Page for .NET'in yeteneklerinden yararlanmada temel bir adım olan, bir akış nesnesinden lisans yükleme sürecinde size yol göstereceğiz.
@@ -111,3 +117,9 @@ Cevap1: Evet, Aspose.Page, .NET'in tüm sürümleriyle sorunsuz çalışacak şe
 ### S5: Farklı bir lisans planına yükseltme yapabilir miyim?
 
  Cevap5: Farklı lisanslama seçeneklerini keşfedin ve yükseltin[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

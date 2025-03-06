@@ -3,10 +3,16 @@ title: Aggiungi valore denominato con Aspose.Page
 linktitle: Aggiungi valore denominato
 second_title: API Aspose.Page .NET
 description: Scopri come aggiungere valori denominati ai file EPS in .NET utilizzando Aspose.Page. Questo tutorial completo ti guida attraverso il processo passo dopo passo.
-type: docs
 weight: 12
 url: /it/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi valore denominato con Aspose.Page
+
 ## introduzione
 
 Nell'ambito dell'elaborazione dei documenti con .NET, Aspose.Page si distingue come un potente strumento per la gestione dei file EPS. Aspose.Page consente agli sviluppatori di manipolare i metadati XMP, facilitando attività come l'aggiunta di valori denominati. Questo tutorial ti guiderà attraverso il processo di aggiunta di valori denominati a un file EPS utilizzando Aspose.Page in modo passo passo.
@@ -96,3 +102,9 @@ R1: Aspose.Page supporta varie versioni di file EPS, garantendo la compatibilit�
 ### Q5: Cos'è una licenza temporanea e come posso ottenerne una?
 
  R5: Se hai bisogno di una licenza temporanea per scopi di test o valutazione, puoi acquistarne una[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

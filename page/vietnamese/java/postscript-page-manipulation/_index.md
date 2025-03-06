@@ -3,10 +3,16 @@ title: Thao tác trang - PostScript
 linktitle: Thao tác trang - PostScript
 second_title: API Java Aspose.Page
 description: Khám phá Aspose.Page cho Java trong hướng dẫn PostScript của chúng tôi. Dễ dàng thêm các trang vào tài liệu Java PostScript của bạn với hướng dẫn từng bước để thao tác liền mạch.
-type: docs
 weight: 32
 url: /vi/java/postscript-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác trang - PostScript
+
 
 ## Giới thiệu
 
@@ -34,3 +40,9 @@ Tóm lại, Aspose.Page dành cho Java trao quyền cho các nhà phát triển 
 Khám phá cách thêm trang trong Java PostScript một cách dễ dàng bằng Aspose.Page. Nâng cao khả năng tạo tài liệu của bạn với thư viện Java mạnh mẽ này.
 ### [Thêm trang trong PostScript](./add-pages2/)
 Tìm hiểu cách thêm trang vào tài liệu Java PostScript bằng Aspose.Page. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

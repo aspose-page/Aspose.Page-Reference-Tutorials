@@ -3,10 +3,16 @@ title: Vizuální štětce
 linktitle: Vizuální štětce
 second_title: Aspose.Page .NET API
 description: Zvyšte své zpracování dokumentů v .NET pomocí výukových programů Aspose.Page. Ponořte se do říše vizuálních štětců a osvojte si techniky pro vizuálně úžasné dokumenty.
-type: docs
 weight: 35
 url: /cs/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vizuální štětce
+
 
 ## Úvod
 
@@ -36,3 +42,9 @@ Pamatujte, že schopnost transformovat vaše dokumenty je ve vašich rukou. Nech
 ## Výukové programy vizuálních štětců
 ### [Použijte Grid Visual Brush s Aspose.Page pro .NET](./apply-grid-visual-brush/)
 Prozkoumejte dynamický svět zpracování dokumentů v .NET s Aspose.Page. Naučte se používat mřížkový vizuální štětec pro vizuálně úžasné dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

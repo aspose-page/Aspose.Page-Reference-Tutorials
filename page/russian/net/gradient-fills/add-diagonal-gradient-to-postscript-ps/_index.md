@@ -3,10 +3,16 @@ title: Добавьте диагональный градиент в PostScript 
 linktitle: Добавить диагональный градиент в PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Узнайте, как просто добавлять диагональные градиенты в документы PostScript в .NET с помощью Aspose.Page. Улучшите свои проекты с помощью динамических визуальных элементов.
-type: docs
 weight: 10
 url: /ru/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте диагональный градиент в PostScript (PS) с помощью Aspose.Page .NET
+
 ## Введение
 
 Добавление диагонального градиента в документ PostScript (PS) может придать вашим проектам визуальную привлекательность и креативность. Aspose.Page для .NET предоставляет простое решение для интеграции этой функции в ваши приложения. В этом уроке мы шаг за шагом проведем вас через процесс добавления диагонального градиента в документ PS с помощью Aspose.Page.
@@ -162,3 +168,9 @@ A1: Aspose.Page поддерживает различные платформы .
 ### Вопрос 5: Где я могу найти поддержку сообщества для Aspose.Page?
 
  A5: Взаимодействуйте с сообществом Aspose.Page на[Форум](https://forum.aspose.com/c/page/39) за помощь и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

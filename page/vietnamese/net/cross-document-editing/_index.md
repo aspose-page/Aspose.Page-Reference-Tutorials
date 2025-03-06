@@ -3,10 +3,16 @@ title: Chỉnh sửa tài liệu chéo
 linktitle: Chỉnh sửa tài liệu chéo
 second_title: API Aspose.Page .NET
 description: Khai phá tiềm năng của Aspose.Page cho .NET bằng các hướng dẫn của chúng tôi. Thêm bản sao glyph, thay đổi màu sắc và thao tác các trang dễ dàng trong tài liệu XPS.
-type: docs
 weight: 22
 url: /vi/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉnh sửa tài liệu chéo
+
 
 ## Giới thiệu
 
@@ -34,3 +40,9 @@ Khám phá sức mạnh của Aspose.Page dành cho .NET trong hướng dẫn to
 Khai phá sức mạnh xử lý tài liệu trong .NET với Aspose.Page. Thêm glyph chứa đầy hình ảnh một cách dễ dàng. Nâng cao hình ảnh và hợp lý hóa quy trình làm việc của bạn.
 ### [Thao tác các trang với Aspose.Page cho .NET](./manipulate-pages/)
 Khám phá thao tác trang trong .NET bằng Aspose.Page, một thư viện mạnh mẽ để xử lý tài liệu XPS. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

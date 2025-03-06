@@ -3,10 +3,16 @@ title: Aspose.Page を使用して XPS ドキュメントに透明オブジェ�
 linktitle: XPSドキュメントに透明オブジェクトを追加
 second_title: Aspose.Page .NET API
 description: Aspose.Page を使用して .NET の XPS ドキュメントに透明オブジェクトを追加する方法を学習します。ステップバイステップのガイダンスで視覚的な魅力を高めます。
-type: docs
 weight: 11
 url: /ja/net/transparency-effects/add-transparent-object-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して XPS ドキュメントに透明オブジェクトを追加する
+
 ## 導入
 
 このチュートリアルでは、Aspose.Page for .NET を使用して XPS ドキュメントに透明オブジェクトを追加する方法を説明します。 XPS ドキュメントの透明性により、視覚的な魅力が高まり、情報が効果的に伝達されます。プロセスを管理しやすいステップに分割して、明確さと理解しやすさを確保します。
@@ -132,3 +138,9 @@ A4: Aspose.Page は、XPS ドキュメントを PDF や画像などのさまざ�
 ### Q5: 追加のサポートやコミュニティのディスカッションはどこで見つけられますか?
 
  A5: 追加のサポートやコミュニティでのディスカッションについては、次のサイトにアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

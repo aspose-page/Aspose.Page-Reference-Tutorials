@@ -3,10 +3,16 @@ title: Crop EPS Images with Aspose.Page for .NET
 linktitle: Crop EPS Images
 second_title: Aspose.Page .NET API
 description: Explore the seamless world of EPS image manipulation in .NET with Aspose.Page. Crop and resize images effortlessly for stunning results.
-type: docs
 weight: 10
 url: /net/image-manipulation/crop-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crop EPS Images with Aspose.Page for .NET
+
 ## Introduction
 
 Are you struggling with manipulating EPS images in your .NET applications? Look no further! In this tutorial, we will guide you through the process of cropping EPS images using the powerful Aspose.Page for .NET library. Whether you're a seasoned developer or just starting, this step-by-step guide will help you achieve precise image cropping effortlessly.
@@ -131,3 +137,10 @@ A4: Yes, you can engage with the Aspose.Page community [here](https://forum.aspo
 ### Q5: Where can I find detailed documentation for Aspose.Page for .NET?
 
 A5: Refer to the documentation [here](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

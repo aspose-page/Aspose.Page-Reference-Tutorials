@@ -3,10 +3,16 @@ title: Kép hozzáadása a PostScript (PS) dokumentumhoz az Aspose.Page segíts�
 linktitle: Kép hozzáadása a PostScript (PS) dokumentumhoz
 second_title: Aspose.Page .NET API
 description: Ismerje meg, hogyan javíthatja PostScript-dokumentumait képek hozzáadásával az Aspose.Page for .NET használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes élmény érdekében.
-type: docs
 weight: 10
 url: /hu/net/image-management/add-image-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kép hozzáadása a PostScript (PS) dokumentumhoz az Aspose.Page segítségével
+
 ## Bevezetés
 
 Ebben az oktatóanyagban a képek PostScript (PS) dokumentumokhoz való hozzáadásának folyamatát mutatjuk be a hatékony Aspose.Page for .NET könyvtár használatával. Az Aspose.Page leegyszerűsíti a PS-dokumentumok kezelését, hatékony és egyszerű módot kínálva a dokumentum képekkel való bővítésére. Ez a lépésenkénti útmutató végigvezeti Önt a folyamaton, biztosítva, hogy minden koncepciót alaposan megértsen.
@@ -122,3 +128,9 @@ A1: Igen, megteheti. Egyszerűen ismételje meg a kép hozzáadásának lépése
 ### 5. kérdés: Hogyan bonthatok ki képeket egy PS-dokumentumból?
 
 5. válasz: Az Aspose.Page for .NET módszereket biztosít a képek PS-dokumentumokból való kinyerésére. Részletes információkért tekintse meg a dokumentációt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

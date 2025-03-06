@@ -3,10 +3,16 @@ title: 투명성 - XPS
 linktitle: 투명성 - XPS
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java XPS 문서를 손쉽게 향상하세요. 향상된 시각 효과를 위해 튜토리얼에서 투명한 개체를 추가하고 불투명 마스크를 설정하는 방법을 알아보세요.
-type: docs
 weight: 40
 url: /ko/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 투명성 - XPS
+
 ## 소개
 
 Java XPS 문서를 한 단계 더 발전시키고 싶으십니까? Aspose.Page를 통해 투명도 효과의 세계에 뛰어들어 시각적으로 놀라운 가능성의 영역을 열어보세요. 이 종합 가이드에서는 투명 객체 추가 및 불투명 마스크 설정이라는 두 가지 필수 튜토리얼을 안내합니다.
@@ -47,3 +53,9 @@ XPS 문서 초기화: Java 프로젝트를 열고 Aspose.Page를 사용하여 XP
 Aspose.Page를 사용하여 놀라운 투명도 효과로 Java XPS 문서를 향상하세요. 투명한 개체를 추가하려면 단계별 가이드를 따르세요. 
 ### [Java XPS에서 불투명 마스크 설정](./set-opacity-mask/)
 Aspose.Page를 사용하여 Java XPS에서 불투명 마스크를 설정하는 기능을 알아보세요. 시각적으로 향상된 문서 경험을 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

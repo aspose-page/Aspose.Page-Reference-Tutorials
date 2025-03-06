@@ -3,10 +3,16 @@ title: Başlarken
 linktitle: Başlarken
 second_title: Aspose.Page .NET API'si
 description: Adım adım eğitimlerle Aspose.Page .NET'in gücünü ortaya çıkarın. Ölçülü lisanslar uygulayın, dosyalardan veya akışlardan yükleme yapın, lisansları güvenli hale getirin ve daha fazlasını yapın.
-type: docs
 weight: 20
 url: /tr/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Başlarken
+
 ## giriiş
 
 Aspose.Page for .NET eğitimlerindeki nihai rehbere hoş geldiniz. Verimliliğin basitlikle buluştuğu kusursuz belge işleme dünyasına dalın. Bir dizi kapsamlı eğitim aracılığıyla bu güçlü aracın tüm potansiyelinden yararlanmak için bir yolculuğa çıkalım.
@@ -38,3 +44,9 @@ Aspose.Page ile .NET'te belge manipülasyonunun kilidini açın. Akış nesneler
 Aspose.Page for .NET lisansınızı adım adım kılavuzumuzla zahmetsizce güvence altına alın. .NET uygulamalarınızda kusursuz sayfa manipülasyonu için tam potansiyelin kilidini açın.
 ### [Aspose.Page for .NET ile Gömülü Kaynağı Kullanarak Lisansı Ayarlayın](./set-license-using-embedded-resource/)
 Aspose.Page for .NET ile gömülü kaynakları kullanarak nasıl lisans ayarlayacağınızı öğrenin. Uyumluluğu sağlayın ve belge işlemenin tüm potansiyelini ortaya çıkarın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

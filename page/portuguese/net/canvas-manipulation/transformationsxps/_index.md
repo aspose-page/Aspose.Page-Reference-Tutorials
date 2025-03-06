@@ -3,10 +3,16 @@ title: Transformações XPS com Aspose.Page para .NET
 linktitle: Transformações XPS
 second_title: API Aspose.Page .NET
 description: Transforme documentos XPS sem esforço com Aspose.Page for .NET. Siga nosso guia passo a passo para transformações perfeitas.
-type: docs
 weight: 13
 url: /pt/net/canvas-manipulation/transformationsxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformações XPS com Aspose.Page para .NET
+
 ## Introdução
 
 Bem-vindo ao mundo do Aspose.Page for .NET, uma biblioteca poderosa que permite realizar várias transformações em documentos XPS sem esforço. Neste tutorial, mergulharemos no processo de transformação de documentos XPS usando Aspose.Page for .NET. Quer você seja um desenvolvedor experiente ou esteja apenas começando, este guia orientará você em cada etapa, garantindo que você compreenda os conceitos facilmente.
@@ -163,3 +169,9 @@ A1: Sim, o Aspose.Page for .NET foi projetado para funcionar perfeitamente com v
 ### Q5: Onde posso comprar Aspose.Page para .NET?
 
  A5: Compre Aspose.Page para .NET em[Aspose.Página Comprar](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

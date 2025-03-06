@@ -3,10 +3,16 @@ title: Adja hozzá a Glyph Clone-t, és változtassa meg a színt az Aspose.Page
 linktitle: Add Glyph Clone és Change Color
 second_title: Aspose.Page .NET API
 description: Fedezze fel az Aspose.Page for .NET erejét ebben az átfogó oktatóanyagban. Tanulja meg, hogyan adhat hozzá jelkép klónokat, és könnyedén módosíthatja a színeket az XPS-dokumentumokban.
-type: docs
 weight: 10
 url: /hu/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja hozzá a Glyph Clone-t, és változtassa meg a színt az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 Üdvözöljük ebben a lépésenkénti útmutatóban az Aspose.Page for .NET használatáról, amellyel karakterjel-klónokat adhat hozzá, és színeket módosíthat XPS-dokumentumaiban. Az Aspose.Page for .NET egy hatékony könyvtár, amely lehetővé teszi az XPS-fájlok zökkenőmentes kezelését. Ebben az oktatóanyagban a glif klónok hozzáadásának és színük megváltoztatásának folyamatára fogunk összpontosítani, ezzel javítva a dokumentumok vizuális vonzerejét.
@@ -129,3 +135,9 @@ Ebben az oktatóanyagban azt vizsgáltuk, hogyan használhatjuk az Aspose.Page-t
 ### 5. kérdés: Hol találom az Aspose.Page for .NET átfogó dokumentációját?
 
  V5: Olvassa el a dokumentációt[itt](https://reference.aspose.com/page/net/) részletes információkért és példákért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

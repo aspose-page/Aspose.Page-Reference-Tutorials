@@ -3,10 +3,16 @@ title: Java PostScript でハッチング パターンを追加する
 linktitle: Java PostScript でハッチング パターンを追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して、魅力的なハッチング パターンを Java PostScript ドキュメントに追加する方法を学びます。ビジュアル コンテンツを簡単に向上させます。
-type: docs
 weight: 10
 url: /ja/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript でハッチング パターンを追加する
+
 ## 導入
 Java プログラミングの世界では、視覚要素を強化することが開発者にとっての共通の要件です。興味深い視覚的な拡張機能の 1 つは、PostScript ドキュメントへのハッチング パターンの追加です。このチュートリアルでは、Aspose.Page for Java を使用してハッチング パターンを追加するプロセスについて説明します。
 ## 前提条件
@@ -97,3 +103,9 @@ document.save();
 を探索してください[Aspose.Page for Java フォーラム](https://forum.aspose.com/c/page/39)チュートリアルとコミュニティのサポートが必要です。
 ### Aspose.Page for Java の包括的なドキュメント リソースはありますか?
 はい、ドキュメントを参照してください[ここ](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

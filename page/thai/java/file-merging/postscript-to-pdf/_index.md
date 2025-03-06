@@ -3,10 +3,16 @@ title: รวม PostScript เป็น PDF ใน Java
 linktitle: รวม PostScript เป็น PDF ใน Java
 second_title: Aspose.Page Java API
 description: รวมไฟล์ PostScript เข้ากับ PDF ใน Java ได้อย่างง่ายดายด้วย Aspose.Page บทช่วยสอนที่ครอบคลุม คำถามที่พบบ่อย และแหล่งข้อมูลสำหรับการแปลงเอกสารอย่างราบรื่น
-type: docs
 weight: 10
 url: /th/java/file-merging/postscript-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รวม PostScript เป็น PDF ใน Java
+
 ## การแนะนำ
 ในขอบเขตของการเขียนโปรแกรม Java การจัดการการแปลงเอกสารอย่างมีประสิทธิภาพถือเป็นสิ่งสำคัญ งานที่สำคัญอย่างหนึ่งคือการรวมไฟล์ PostScript ให้เป็น PDF Aspose.Page สำหรับ Java มอบโซลูชันอันทรงพลังสำหรับงานนี้ โดยมอบประสบการณ์ที่ราบรื่นให้กับนักพัฒนา ในคำแนะนำทีละขั้นตอนนี้ เราจะอธิบายขั้นตอนการรวม PostScript เป็น PDF ใน Java โดยใช้ Aspose.Page
 ## ข้อกำหนดเบื้องต้น
@@ -90,3 +96,9 @@ if (suppressErrors) {
  รับใบอนุญาตชั่วคราวโดยการเยี่ยมชม[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
 ### ฉันจะรับการสนับสนุนหรือเชื่อมต่อกับชุมชน Aspose ได้ที่ไหน
  ร่วมเสวนาเรื่อง[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อขอความช่วยเหลือและแบ่งปันประสบการณ์ของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

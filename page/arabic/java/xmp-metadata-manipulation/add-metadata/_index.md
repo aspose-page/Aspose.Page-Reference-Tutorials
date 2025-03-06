@@ -3,10 +3,16 @@ title: إضافة بيانات التعريف في XMP باستخدام Java
 linktitle: إضافة بيانات التعريف في XMP باستخدام Java
 second_title: Aspose.Page جافا API
 description: استكشف التكامل السلس لـ Aspose.Page لـ Java وتعرف على كيفية إضافة بيانات تعريف XMP إلى ملفات EPS الخاصة بك دون عناء. ارفع مستوى لعبة إدارة المستندات الخاصة بك اليوم!
-type: docs
 weight: 11
 url: /ar/java/xmp-metadata-manipulation/add-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة بيانات التعريف في XMP باستخدام Java
+
 ## مقدمة
 هل تتطلع إلى تحسين البيانات التعريفية لمستندك عن طريق إضافة معلومات XMP باستخدام Java؟ لا مزيد من البحث! سيرشدك هذا الدليل خطوة بخطوة خلال عملية إضافة بيانات التعريف إلى ملف EPS باستخدام مكتبة Aspose.Page for Java. Aspose.Page هي أداة قوية تعمل على تبسيط مهام معالجة المستندات في تطبيقات Java.
 ## المتطلبات الأساسية
@@ -101,3 +107,9 @@ psStream.close();
 ج: يدعم Aspose.Page for Java العديد من التنسيقات، بما في ذلك EPS وPDF وXPS.
 ### س: هل يمكنني شراء Aspose.Page لـ Java؟
  ج: نعم، يمكنك شراء Aspose.Page لـ Java[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

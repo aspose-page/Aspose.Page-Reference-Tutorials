@@ -3,10 +3,16 @@ title: Unione di file
 linktitle: Unione di file
 second_title: API Java Aspose.Page
 description: Unisci facilmente file PostScript in PDF e converti XPS in PDF o XPS in Java utilizzando Aspose.Page. Segui i tutorial passo passo per una conversione fluida dei documenti.
-type: docs
 weight: 31
 url: /it/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Unione di file
+
 
 ## introduzione
 
@@ -40,3 +46,9 @@ Unisci facilmente file PostScript in PDF in Java con Aspose.Page. Tutorial compl
 Scopri come convertire XPS in PDF in Java senza sforzo con Aspose.Page. Segui la nostra guida passo passo per una conversione efficiente dei documenti.
 ### [Converti XPS in XPS in Java](./xps-to-xps/)
 Scopri come unire file XPS in Java senza problemi utilizzando Aspose.Page. Segui la nostra guida passo passo per una gestione efficiente dei documenti. Migliora subito le tue capacità di sviluppo Java!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

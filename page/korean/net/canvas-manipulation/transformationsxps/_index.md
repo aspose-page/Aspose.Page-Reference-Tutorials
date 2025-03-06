@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용한 변환 XPS
 linktitle: 변환 XPS
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 XPS 문서를 손쉽게 변환하세요. 원활한 변환을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/net/canvas-manipulation/transformationsxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용한 변환 XPS
+
 ## 소개
 
 XPS 문서에서 다양한 변환을 쉽게 수행할 수 있는 강력한 라이브러리인 Aspose.Page for .NET의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 .NET용 Aspose.Page를 사용하여 XPS 문서를 변환하는 프로세스를 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 개념을 쉽게 이해할 수 있도록 각 단계를 안내합니다.
@@ -163,3 +169,9 @@ A1: 예, Aspose.Page for .NET은 Visual Studio를 포함한 다양한 .NET 개�
 ### Q5: .NET용 Aspose.Page를 어디서 구입할 수 있나요?
 
  A5: .NET용 Aspose.Page를 다음에서 구매하세요.[Aspose.Page 구매](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

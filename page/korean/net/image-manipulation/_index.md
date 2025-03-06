@@ -3,10 +3,16 @@ title: 이미지 조작
 linktitle: 이미지 조작
 second_title: Aspose.페이지 .NET API
 description: 이미지 조작 튜토리얼을 통해 .NET용 Aspose.Page의 강력한 기능을 알아보세요. 놀랍고 정확한 결과를 위해 EPS 이미지를 쉽게 자르고 크기를 조정하세요.
-type: docs
 weight: 26
 url: /ko/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 조작
+
 ## 소개
 
 .NET에서 EPS 이미지 조작 기술을 향상시킬 준비가 되셨습니까? EPS 이미지 자르기 및 크기 조정의 원활한 프로세스를 안내하는 .NET용 Aspose.Page를 사용하여 포괄적인 이미지 조작 튜토리얼을 살펴보세요.
@@ -41,3 +47,9 @@ Aspose.Page for .NET은 모든 차원의 정확성을 보장합니다. 포인트
 Aspose.Page를 사용하여 .NET에서 EPS 이미지 조작의 원활한 세계를 탐색해 보세요. 놀라운 결과를 얻으려면 이미지를 쉽게 자르고 크기를 조정하세요.
 ### [.NET용 Aspose.Page를 사용하여 EPS 이미지 크기 조정](./resize-eps-images/)
 Aspose.Page를 사용하여 .NET에서 EPS 이미지 크기를 조정하는 원활한 프로세스를 살펴보세요. 포인트, 인치, 밀리미터, 백분율 단위의 정밀도를 쉽게 달성할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

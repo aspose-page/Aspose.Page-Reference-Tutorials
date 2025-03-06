@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して XPS ドキュメントに四角形�
 linktitle: XPS ドキュメントに四角形を追加
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用してドキュメント作成を強化します。このステップバイステップのチュートリアルで、XPS ドキュメントに四角形を追加する方法を学びます。
-type: docs
 weight: 13
 url: /ja/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して XPS ドキュメントに四角形を追加する
+
 ## 導入
 
 Aspose.Page for .NET は、.NET アプリケーションで XPS (XML Paper Specification) ドキュメントを操作するためのさまざまな機能を提供する強力なライブラリです。このチュートリアルでは、Aspose.Page for .NET を使用して XPS ドキュメントに四角形を追加することに焦点を当てます。このステップバイステップのガイドに従って、ドキュメント作成プロセスを強化してください。
@@ -95,3 +101,9 @@ A1: はい、Aspose.Page はすべての .NET アプリケーションとシー�
 ### Q5: どこでコミュニティ サポートを求めたり、Aspose.Page for .NET に関連する質問をしたりできますか?
 
  A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティサポートのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा एक्सपीएस में क्षैतिज ग
 linktitle: जावा एक्सपीएस में क्षैतिज ग्रेडिएंट जोड़ें
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page का उपयोग करके जावा में XPS दस्तावेज़ों में एक आश्चर्यजनक क्षैतिज ग्रेडिएंट जोड़ने का तरीका जानें। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 11
 url: /hi/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा एक्सपीएस में क्षैतिज ग्रेडिएंट जोड़ें
+
 ## परिचय
 जावा के लिए Aspose.Page का उपयोग करके Java XPS में एक क्षैतिज ग्रेडिएंट जोड़ने पर इस चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। जावा के लिए Aspose.Page एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को XPS (XML पेपर स्पेसिफिकेशन) दस्तावेज़ों के साथ निर्बाध रूप से काम करने की अनुमति देती है।
 इस ट्यूटोरियल में, हम आपको XPS दस्तावेज़ में क्षैतिज ग्रेडिएंट जोड़ने के लिए जावा एप्लिकेशन बनाने की प्रक्रिया के बारे में बताएंगे। इसे आसानी से प्राप्त करने के लिए नीचे दिए गए चरणों का पालन करें।
@@ -70,3 +76,9 @@ doc.save(dataDir + "HorizontalGradient.xps");
 बिल्कुल! प्रत्येक ग्रेडिएंट स्टॉप के रंग और स्थिति पर आपका पूर्ण नियंत्रण होता है।
 ### प्रश्न: क्या Aspose.Page के लिए कोई सामुदायिक मंच है जहां मैं मदद मांग सकता हूं?
  हां, आप यहां जा सकते हैं[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) समुदाय से जुड़ने और सहायता प्राप्त करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

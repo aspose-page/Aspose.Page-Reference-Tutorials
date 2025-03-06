@@ -3,10 +3,16 @@ title: Aplikujte texturu Tiling Pattern na PostScript (PS) pomocí Aspose.Page
 linktitle: Použít vzor dlaždic textury na PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Vylepšete své PostScriptové (PS) dokumenty pomocí texturových vzorů pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro kreativní dotek.
-type: docs
 weight: 10
 url: /cs/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplikujte texturu Tiling Pattern na PostScript (PS) pomocí Aspose.Page
+
 ## Úvod
 
 Vítejte v tomto podrobném návodu, jak aplikovat vzor textury na PostScriptový (PS) dokument pomocí Aspose.Page for .NET. Aspose.Page je výkonná knihovna, která vám umožňuje pracovat s různými formáty dokumentů, a v tomto tutoriálu prozkoumáme, jak vylepšit vaše dokumenty PS přidáním vzorů dlaždic textury.
@@ -156,3 +162,10 @@ A4: Ano, proces můžete opakovat s různými obrázky a cestami.
 ### Q5: Kde najdu další zdroje a podporu?
 
  A5: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) za podporu komunity a prozkoumejte[dokumentace](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

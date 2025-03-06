@@ -3,10 +3,16 @@ title: 在 Java PostScript 中加入透明圖像
 linktitle: 在 Java PostScript 中加入透明圖像
 second_title: Aspose.Page Java API
 description: 探索 Java PostScript 文件中透明圖像與 Aspose.Page for Java 的無縫整合。輕鬆提昇文件視覺化效果。
-type: docs
 weight: 10
 url: /zh-hant/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PostScript 中加入透明圖像
+
 ## 介紹
 在 Java PostScript 領域，增強文件的視覺吸引力通常涉及添加透明圖像。本教學將引導您完成使用強大的 Aspose.Page for Java 程式庫將透明圖像合併到 Java PostScript 文件中的過程。
 ## 先決條件
@@ -83,3 +89,9 @@ document.save();
 是的，請訪問[Aspose.Page for Java 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持和討論。
 ### 在哪裡可以找到 Aspose.Page for Java 的文檔？
 參考綜合[文件](https://reference.aspose.com/page/java/)有關 Aspose.Page for Java 的詳細資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

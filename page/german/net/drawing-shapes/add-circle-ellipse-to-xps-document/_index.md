@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page für .NET eine Kreisellipse zum XPS-Dokument h
 linktitle: Fügen Sie dem XPS-Dokument eine Kreisellipse hinzu
 second_title: Aspose.Page .NET-API
 description: Verbessern Sie XPS-Dokumente mit lebendigen radialen Verläufen mit Aspose.Page für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für atemberaubende visuelle Effekte.
-type: docs
 weight: 11
 url: /de/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page für .NET eine Kreisellipse zum XPS-Dokument hinzu
+
 ## Einführung
 
 Die Erstellung optisch ansprechender XPS-Dokumente ist eine häufige Anforderung in verschiedenen Anwendungen. Aspose.Page für .NET bietet leistungsstarke Funktionen zur effizienten Bearbeitung von XPS-Dokumenten. In diesem Tutorial konzentrieren wir uns auf das Hinzufügen einer Kreisellipse zu einem XPS-Dokument mithilfe von Aspose.Page für .NET. Führen Sie die folgenden Schritte aus, um Ihre XPS-Dokumente mit lebendigen radialen Farbverläufen zu verbessern.
@@ -114,3 +120,9 @@ A1: Aspose.Page für .NET befasst sich speziell mit der Manipulation von XPS-Dok
 ### F5: Kann ich Aspose.Page für .NET kaufen?
 
  A5: Ja, Sie können die Bibliothek kaufen[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

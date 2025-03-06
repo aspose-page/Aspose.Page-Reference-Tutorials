@@ -3,10 +3,16 @@ title: Visuella element - Java
 linktitle: Visuella element - Java
 second_title: Aspose.Page Java API
 description: Förhöj dina Java-dokumentbilder utan ansträngning med Aspose.Page! Lär dig att förbättra din applikation genom att lägga till rutnät med hjälp av Visual Brush i denna steg-för-steg handledning.
-type: docs
 weight: 41
 url: /sv/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visuella element - Java
+
 ## Introduktion
 
 Java-utvecklare, gläds! Dyk in i riket av visuella element med Aspose.Page tutorials som lovar att förvandla dina Java-dokument visuella. I den här utgåvan fokuserar vi på den fängslande konsten att lägga till rutnät med hjälp av Visual Brush. Spänn upp dig när vi ger dig ut på en resa för att lyfta din ansökans överklagande.
@@ -46,3 +52,9 @@ Sammanfattningsvis framstår Aspose.Page för Java som den bästa lösningen fö
 ## Visuella element - Java Tutorials
 ### [Lägg till Grid med Visual Brush i Java](./add-grid/)
 Förbättra Java-dokumentbilder med Aspose.Page! Lär dig att lägga till rutnät med Visual Brush steg-för-steg. Öka din ansökans överklagande utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

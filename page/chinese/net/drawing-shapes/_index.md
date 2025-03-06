@@ -3,10 +3,16 @@ title: 绘制形状
 linktitle: 绘制形状
 second_title: Aspose.Page .NET API
 description: 轻松增强 .NET 中的文档创建！了解有关使用 Aspose.Page .NET 将圆形、椭圆形和矩形添加到 PostScript (PS) 的分步教程。
-type: docs
 weight: 31
 url: /zh/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 绘制形状
+
 ## 简介
 
 Aspose.Page for .NET 使开发人员能够在 .NET 环境中提升文档创建能力。深入学习我们的分步教程，掌握向 PostScript (PS) 和 XPS 文档添加迷人形状的艺术。
@@ -33,3 +39,9 @@ Aspose.Page for .NET 使开发人员能够在 .NET 环境中提升文档创建�
 使用 Aspose.Page 增强 .NET 中的文档创建。了解逐步向 PostScript (PS) 文件添加矩形。
 ### [使用 Aspose.Page for .NET 将矩形添加到 XPS 文档](./add-rectangle-to-xps-document/)
 使用 Aspose.Page for .NET 增强文档创建。在此分步教程中了解如何向 XPS 文档添加矩形。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

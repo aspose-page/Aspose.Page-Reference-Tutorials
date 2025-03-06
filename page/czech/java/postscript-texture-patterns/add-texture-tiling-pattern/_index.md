@@ -3,10 +3,16 @@ title: Přidejte vzor dlaždic textury v jazyce Java PostScript
 linktitle: Přidejte vzor dlaždic textury v jazyce Java PostScript
 second_title: Aspose.Page Java API
 description: Pomocí Aspose.Page for Java můžete do dokumentů PostScript bez námahy přidávat vzory dlaždic textury. Prozkoumejte našeho průvodce bezproblémovou integrací pro kreativní možnosti.
-type: docs
 weight: 10
 url: /cs/java/postscript-texture-patterns/add-texture-tiling-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vzor dlaždic textury v jazyce Java PostScript
+
 ## Úvod
 V oblasti vývoje Java je běžným požadavkem vytváření složitých vzorů a textur v PostScriptových dokumentech. Aspose.Page for Java se ukazuje jako cenný nástroj pro dosažení tohoto úkolu bez námahy. V tomto tutoriálu vás provedeme procesem přidání vzoru textury do dokumentu Java PostScript pomocí Aspose.Page.
 ## Předpoklady
@@ -103,3 +109,9 @@ Absolutně! Aspose.Page for Java poskytuje komplexní dokumentaci, takže je př
  Ano, můžete vyzkoušet bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak mohu získat dočasnou licenci pro Aspose.Page for Java?
  Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

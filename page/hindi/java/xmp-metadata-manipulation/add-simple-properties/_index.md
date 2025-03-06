@@ -3,10 +3,16 @@ title: जावा का उपयोग करके एक्सएमपी
 linktitle: जावा का उपयोग करके एक्सएमपी में सरल गुण जोड़ें
 second_title: Aspose.Page जावा एपीआई
 description: ईपीएस फ़ाइलों में एक्सएमपी मेटाडेटा में गुण जोड़ने पर हमारे गाइड के साथ जावा की क्षमता के लिए Aspose.Page को अनलॉक करें। दस्तावेज़ प्रसंस्करण को सहजता से उन्नत करें!
-type: docs
 weight: 14
 url: /hi/java/xmp-metadata-manipulation/add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके एक्सएमपी में सरल गुण जोड़ें
+
 ## परिचय
 दस्तावेज़ प्रसंस्करण के निरंतर विकसित होते परिदृश्य में, मेटाडेटा को कुशलतापूर्वक प्रबंधित करना महत्वपूर्ण है। जावा के लिए Aspose.Page डेवलपर्स को एक्स्टेंसिबल मेटाडेटा प्लेटफ़ॉर्म (XMP) डेटा में निर्बाध रूप से हेरफेर करने का अधिकार देता है। इस ट्यूटोरियल में, हम जावा का उपयोग करके एक्सएमपी में सरल गुण जोड़ने की प्रक्रिया का पता लगाएंगे, जो आपको एक व्यापक चरण-दर-चरण मार्गदर्शिका प्रदान करेगा।
 ## आवश्यक शर्तें
@@ -87,3 +93,9 @@ Aspose.Page मुख्य रूप से जावा का समर्थ
  अस्थायी लाइसेंस प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### मैं जावा के लिए Aspose.Page कहां से खरीद सकता हूं?
  आप उत्पाद खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

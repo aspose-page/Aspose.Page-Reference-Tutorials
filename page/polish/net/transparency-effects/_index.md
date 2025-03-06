@@ -3,10 +3,16 @@ title: Efekty przezroczystości
 linktitle: Efekty przezroczystości
 second_title: Aspose.Page API .NET
 description: Odkryj magię efektów przezroczystości w swoich dokumentach dzięki Aspose.Page .NET. Ulepsz swój projekt dzięki samouczkom krok po kroku, które zapewniają oszałamiające ulepszenia wizualne.
-type: docs
 weight: 34
 url: /pl/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efekty przezroczystości
+
 
 ## Wstęp
 
@@ -42,3 +48,9 @@ Dowiedz się, jak dodawać przezroczyste obiekty do dokumentów XPS w .NET przy 
 Dowiedz się, jak ustawić maski kryjące w dokumentach XPS przy użyciu Aspose.Page dla .NET. Bez wysiłku poprawiaj estetykę dokumentów.
 ### [Pokaż pseudoprzezroczystość w PostScript (PS) za pomocą Aspose.Page](./show-pseudo-transparency-in-postscript-ps/)
 Odkryj moc pseudoprzezroczystości w PostScript dzięki Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać oszałamiające wizualnie dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

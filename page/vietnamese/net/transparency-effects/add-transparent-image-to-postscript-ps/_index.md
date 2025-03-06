@@ -3,10 +3,16 @@ title: Thêm hình ảnh trong suốt vào PostScript (PS) bằng Aspose.Page
 linktitle: Thêm hình ảnh trong suốt vào PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Nâng cao tài liệu PostScript của bạn bằng hình ảnh trong suốt bằng Aspose.Page for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có kết quả sinh động và hấp dẫn về mặt hình ảnh.
-type: docs
 weight: 10
 url: /vi/net/transparency-effects/add-transparent-image-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình ảnh trong suốt vào PostScript (PS) bằng Aspose.Page
+
 ## Giới thiệu
 
 Trong lĩnh vực thao tác và nâng cao tài liệu, Aspose.Page for .NET nổi bật như một công cụ mạnh mẽ để làm việc với các tệp PostScript (PS). Một khả năng hấp dẫn mà nó mang lại là việc bổ sung các hình ảnh trong suốt vào tài liệu PS. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình đạt được điều này bằng Aspose.Page, làm cho tài liệu PS của bạn trở nên năng động và hấp dẫn hơn về mặt hình ảnh.
@@ -143,3 +149,9 @@ Câu trả lời 4: Aspose.Page cung cấp một bộ tính năng toàn diện �
 ### Câu hỏi 5: Có bất kỳ hạn chế nào đối với mức độ minh bạch mà tôi có thể đặt không?
 
 Câu trả lời 5: Không, Aspose.Page cho phép bạn đặt mức độ trong suốt khi cần, mang lại sự linh hoạt trong thiết kế tài liệu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

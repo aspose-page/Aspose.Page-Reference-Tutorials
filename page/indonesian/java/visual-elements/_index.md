@@ -3,10 +3,16 @@ title: Elemen Visual - Java
 linktitle: Elemen Visual - Java
 second_title: Aspose.Halaman Java API
 description: Tingkatkan visual dokumen Java Anda dengan mudah dengan Aspose.Page! Pelajari cara menyempurnakan aplikasi Anda dengan menambahkan kisi menggunakan Visual Brush dalam tutorial langkah demi langkah ini.
-type: docs
 weight: 41
 url: /id/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Elemen Visual - Java
+
 ## Perkenalan
 
 Pengembang Java, bersukacitalah! Selami dunia elemen visual dengan tutorial Aspose.Page yang menjanjikan untuk mengubah visual dokumen Java Anda. Dalam edisi ini, kami fokus pada seni menawan dalam menambahkan grid menggunakan Visual Brush. Bersiaplah saat kami memulai perjalanan untuk meningkatkan daya tarik lamaran Anda.
@@ -46,3 +52,9 @@ Kesimpulannya, Aspose.Page untuk Java muncul sebagai solusi tepat bagi pengemban
 ## Elemen Visual - Tutorial Java
 ### [Tambahkan Grid menggunakan Visual Brush di Java](./add-grid/)
 Sempurnakan visual dokumen Java dengan Aspose.Page! Pelajari cara menambahkan kisi menggunakan Visual Brush selangkah demi selangkah. Tingkatkan daya tarik aplikasi Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

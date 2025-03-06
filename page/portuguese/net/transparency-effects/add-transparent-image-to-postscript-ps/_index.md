@@ -3,10 +3,16 @@ title: Adicionar imagem transparente ao PostScript (PS) com Aspose.Page
 linktitle: Adicionar imagem transparente ao PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Aprimore seus documentos PostScript com imagens transparentes usando Aspose.Page for .NET. Siga nosso guia passo a passo para obter resultados dinâmicos e visualmente atraentes.
-type: docs
 weight: 10
 url: /pt/net/transparency-effects/add-transparent-image-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar imagem transparente ao PostScript (PS) com Aspose.Page
+
 ## Introdução
 
 No domínio da manipulação e aprimoramento de documentos, Aspose.Page for .NET se destaca como uma ferramenta poderosa para trabalhar com arquivos PostScript (PS). Um recurso fascinante que oferece é a adição de imagens transparentes a documentos PS. Neste tutorial, iremos guiá-lo através do processo para conseguir isso usando Aspose.Page, tornando seus documentos PS mais dinâmicos e visualmente atraentes.
@@ -143,3 +149,9 @@ A4: Aspose.Page fornece um conjunto abrangente de recursos para trabalhar especi
 ### P5: Há alguma limitação no nível de transparência que posso definir?
 
 R5: Não, Aspose.Page permite definir níveis de transparência conforme necessário, proporcionando flexibilidade no design do seu documento.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

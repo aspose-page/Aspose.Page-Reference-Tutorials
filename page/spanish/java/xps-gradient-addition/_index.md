@@ -3,10 +3,16 @@ title: Adición de gradiente - XPS
 linktitle: Adición de gradiente - XPS
 second_title: API de Java de Aspose.Page
 description: Mejore sus documentos Java XPS con impresionantes gradientes. Aprenda a agregar degradados diagonales, horizontales y verticales sin esfuerzo utilizando los tutoriales de Aspose.Page.
-type: docs
 weight: 26
 url: /es/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adición de gradiente - XPS
+
 ## Introducción
 
 A medida que la tecnología evoluciona, mejorar el atractivo visual se vuelve crucial. En el ámbito de los documentos Java XPS, la incorporación de gradientes cautivadores cambia las reglas del juego. Bienvenido a Aspose.Page para tutoriales de Java, donde desentrañamos el arte de la adición de degradado en XPS con delicadeza.
@@ -40,3 +46,9 @@ Aprenda cómo agregar un impresionante degradado diagonal a sus documentos XPS e
 Aprenda cómo agregar un impresionante degradado horizontal a documentos XPS en Java usando Aspose.Page. Siga nuestra guía paso a paso para una integración perfecta.
 ### [Agregar degradado vertical en Java XPS](./vertical/)
 Aprenda cómo agregar un degradado vertical a documentos Java XPS con Aspose.Page. Mejore el atractivo visual sin esfuerzo. Guía paso a paso en el interior.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

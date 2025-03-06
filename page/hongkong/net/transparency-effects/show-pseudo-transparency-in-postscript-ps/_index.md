@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 在 PostScript (PS) 中顯示偽透明度
 linktitle: 在 PostScript (PS) 中顯示偽透明度
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 探索 PostScript 中偽透明的強大功能。請按照我們的分步指南獲取視覺上令人驚嘆的文檔。
-type: docs
 weight: 13
 url: /zh-hant/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 在 PostScript (PS) 中顯示偽透明度
+
 ## 介紹
 
 您是否希望透過合併偽透明度來增強 PostScript (PS) 文件的視覺吸引力？ Aspose.Page for .NET 提供了一個強大的解決方案來輕鬆實現這種效果。在本逐步教學中，我們將引導您完成使用 Aspose.Page 在 PostScript 中顯示偽透明度的過程。
@@ -129,3 +135,9 @@ A2：是的，透過相應地調整 GraphicsPath，可以將相同的原理應�
 ### Q5：如何取得Aspose.Page的臨時授權？
 
 A5：參觀[這個連結](https://purchase.aspose.com/temporary-license/)取得 Aspose.Page 的臨時許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

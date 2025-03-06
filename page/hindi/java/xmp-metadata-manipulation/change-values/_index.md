@@ -3,10 +3,16 @@ title: जावा का उपयोग करके एक्सएमपी
 linktitle: जावा का उपयोग करके एक्सएमपी में मान बदलें
 second_title: Aspose.Page जावा एपीआई
 description: Java के लिए Aspose.Page के साथ EPS दस्तावेज़ों को बेहतर बनाएं। अनुकूलित और पेशेवर सामग्री के लिए XMP मेटाडेटा को आसानी से संशोधित करें। #जावाडेवलपमेंट
-type: docs
 weight: 17
 url: /hi/java/xmp-metadata-manipulation/change-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके एक्सएमपी में मान बदलें
+
 ## परिचय
 दस्तावेज़ प्रसंस्करण और हेरफेर के क्षेत्र में, जावा के लिए Aspose.Page एक शक्तिशाली उपकरण के रूप में सामने आता है। यह ट्यूटोरियल Aspose.Page लाइब्रेरी के साथ जावा का उपयोग करके EPS (एनकैप्सुलेटेड पोस्टस्क्रिप्ट) दस्तावेज़ों में XMP (एक्स्टेंसिबल मेटाडेटा प्लेटफ़ॉर्म) मानों को बदलने की प्रक्रिया पर प्रकाश डालता है। प्रदान की गई चरण-दर-चरण मार्गदर्शिका का पालन करके, आप सीखेंगे कि मेटाडेटा को आसानी से कैसे संशोधित किया जाए, यह सुनिश्चित करते हुए कि आपके दस्तावेज़ आपकी विशिष्ट आवश्यकताओं के अनुरूप हैं।
 ## आवश्यक शर्तें
@@ -83,3 +89,9 @@ try {
  हाँ, आप नि:शुल्क परीक्षण का उपयोग कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### प्रश्न: मैं जावा के लिए Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
  एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

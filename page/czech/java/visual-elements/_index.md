@@ -3,10 +3,16 @@ title: Vizuální prvky - Java
 linktitle: Vizuální prvky - Java
 second_title: Aspose.Page Java API
 description: Vylepšete své vizuální dokumenty Java bez námahy pomocí Aspose.Page! Naučte se vylepšit svou aplikaci přidáním mřížek pomocí Visual Brush v tomto podrobném kurzu.
-type: docs
 weight: 41
 url: /cs/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vizuální prvky - Java
+
 ## Úvod
 
 Java vývojáři, radujte se! Ponořte se do říše vizuálních prvků pomocí výukových programů Aspose.Page, které slibují transformaci vizuálů vašich dokumentů Java. V tomto vydání se zaměřujeme na strhující umění přidávání mřížek pomocí Visual Brush. Připoutejte se, když se vydáme na cestu ke zvýšení přitažlivosti vaší aplikace.
@@ -46,3 +52,9 @@ Závěrem lze říci, že Aspose.Page for Java se ukazuje jako vhodné řešení
 ## Vizuální prvky - Java konzultace
 ### [Přidejte mřížku pomocí Visual Brush v Javě](./add-grid/)
 Vylepšete vizuály dokumentů Java pomocí Aspose.Page! Naučte se přidávat mřížky pomocí Visual Brush krok za krokem. Zvyšte přitažlivost své aplikace bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Átfogó oktatóanyagok és példák az Aspose.Page-re Java-hoz
 linktitle: Aspose.Page a Java oktatóanyagokhoz
-type: docs
 weight: 10
 url: /hu/java/
 description: Fedezze fel a Java oldalkezelés titkait az Aspose.Page oktatóanyagaival. Merüljön el a kivágásokban, az átalakításokban és még sok másban, hogy vizuálisan lenyűgöző dokumentumokat készítsen könnyedén.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átfogó oktatóanyagok és példák az Aspose.Page-re Java-hoz
+
 ## Bevezetés
 
 Készen áll arra, hogy javítsa Java dokumentumfeldolgozási készségeit? Merüljön el az Aspose.Page for Java világában átfogó oktatóanyagaink és példáink segítségével. Akár tapasztalt fejlesztő, akár csak most kezdő, lépésről lépésre szóló útmutatóink feltárják az Aspose.Page for Java teljes potenciálját.
@@ -76,3 +81,9 @@ Az Aspose.Page segítségével könnyedén emelheti fel Java XPS-dokumentumait. 
 Az Aspose.Page segítségével könnyedén emelheti fel Java-dokumentumait! Ebben a lépésenkénti oktatóanyagban megtudhatja, hogyan javíthatja alkalmazását rácsok hozzáadásával a Visual Brush segítségével.
 ### [XMP metaadat-manipuláció – Java](./xmp-metadata-manipulation/)
 Könnyedén javíthatja az EPS-fájlokat XMP-metaadat-manipulációval – az elemek hozzáadásától a kibontásig. Útmutatóink segítségével javítsa ki dokumentumkezelését.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

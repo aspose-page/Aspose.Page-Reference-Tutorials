@@ -3,10 +3,16 @@ title: Java を使用して XMP からメタデータを取得する
 linktitle: Java を使用して XMP からメタデータを取得する
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java の機能を解放して、XMP メタデータを簡単に抽出します。ステップバイステップのガイドでドキュメント分析を強化しましょう!
-type: docs
 weight: 18
 url: /ja/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して XMP からメタデータを取得する
+
 ## 導入
 Aspose.Page for Java を利用して XMP ファイルからメタデータを抽出するためのステップバイステップ ガイドへようこそ。 XMP (Extensible Metadata Platform) は、メタデータをファイルに保存する標準化された方法を提供します。このチュートリアルでは、Java を使用して XMP から重要な情報を取得することに重点を置き、ドキュメントの詳細についての洞察を提供します。
 ## 前提条件
@@ -81,3 +87,9 @@ if (xmp.containsKey("xmpMM:DocumentID"))
 仮免許が取得できる[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java に関する追加のリソースはありますか?
 完全なものを探索する[ドキュメンテーション](https://reference.aspose.com/page/java/)そしてライブラリをダウンロードします[ここ](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

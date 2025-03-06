@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 将带有 Unicode 字符串的文本添加到 PostScri
 linktitle: 将带有 Unicode 字符串的文本添加到 PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page for .NET 将 Unicode 文本添加到 PostScript 文件中。轻松增强文档操作。
-type: docs
 weight: 11
 url: /zh/net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 将带有 Unicode 字符串的文本添加到 PostScript (PS)
+
 ## 介绍
 
 在文档操作领域，Aspose.Page for .NET 作为一个强大的库脱颖而出，使开发人员能够创建、编辑和转换各种文档格式。其强大的功能之一是能够使用 Unicode 字符串将文本添加到 PostScript (PS) 文件中。在本教程中，我们将探索完成此任务的分步指南，为使用 Aspose.Page 的开发人员提供无缝体验。
@@ -110,3 +116,9 @@ A4：Aspose.Page支持多种格式，包括XPS、PS、EPS、PDF等。
 ### Q5：我可以自定义添加文本的外观吗？
 
 A5：是的，您可以在Aspose.Page中自定义文本的字体、大小、颜色和其他属性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

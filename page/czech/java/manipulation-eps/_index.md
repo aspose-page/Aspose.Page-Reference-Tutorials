@@ -3,10 +3,16 @@ title: Manipulace s EPS v Javě
 linktitle: Manipulace s EPS v Javě
 second_title: Aspose.Page Java API
 description: Prozkoumejte Aspose.Page for Java s našimi výukovými programy pro manipulaci s EPS. Ořízněte a změňte velikost souborů EPS bez námahy pomocí podrobných průvodců, které vylepší vaše dovednosti v oblasti dokumentů.
-type: docs
 weight: 24
 url: /cs/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s EPS v Javě
+
 
 ## úvod
 
@@ -42,3 +48,9 @@ Závěrem lze říci, že výukové programy Aspose.Page for Java o manipulaci s
 Prozkoumejte podrobného průvodce oříznutím souborů EPS v Javě pomocí Aspose.Page. Vylepšete své dovednosti v manipulaci s dokumenty bez námahy. 
 ### [Změňte velikost souboru EPS v Javě](./resize/)
 Naučte se, jak bez námahy měnit velikost souborů EPS v Javě pomocí Aspose.Page for Java. Postupujte podle našeho komplexního průvodce, kde najdete podrobné pokyny.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

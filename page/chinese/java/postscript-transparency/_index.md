@@ -3,10 +3,16 @@ title: 透明度 - PostScript
 linktitle: 透明度 - PostScript
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 提升 Java PostScript。无缝集成透明图像并创建充满活力的伪透明度，以实现迷人的可视化效果。
-type: docs
 weight: 39
 url: /zh/java/postscript-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 透明度 - PostScript
+
 ## 介绍
 
 您准备好将 Java PostScript 文档提升到新的高度了吗？别再犹豫了！在本教程系列中，我们深入研究透明度的复杂性，重点关注两个关键方面：添加透明图像和创建伪透明度。
@@ -36,3 +42,9 @@ url: /zh/java/postscript-transparency/
 探索 Java PostScript 文档中透明图像与 Aspose.Page for Java 的无缝集成。轻松提升文档可视化效果。
 ### [在 Java PostScript 中显示伪透明度](./show-pseudo-transparency/)
 在 Java PostScript 中解锁充满活力的图形！按照我们的 Aspose.Page 教程逐步创建伪透明度。现在下载！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

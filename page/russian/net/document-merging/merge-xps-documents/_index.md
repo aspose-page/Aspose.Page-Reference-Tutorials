@@ -3,10 +3,16 @@ title: Объединение документов XPS с помощью Aspose.
 linktitle: Объединение документов XPS
 second_title: Aspose.Page .NET API
 description: Легко объединяйте документы XPS с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству для эффективного управления документами.
-type: docs
 weight: 12
 url: /ru/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Объединение документов XPS с помощью Aspose.Page для .NET
+
 ## Введение
 
 Вы хотите легко объединить документы XPS с помощью Aspose.Page для .NET? Это руководство проведет вас через весь процесс, предоставив пошаговые инструкции по легкому слиянию файлов XPS. Aspose.Page для .NET — это мощная библиотека, которая упрощает задачи манипулирования документами, что делает ее идеальным выбором для объединения документов XPS. Давайте углубимся в процесс и выясним, как можно легко этого добиться.
@@ -94,3 +100,9 @@ A4: Убедитесь, что у вас есть соответствующая
 ### Вопрос 5: Предоставляет ли Aspose.Page для .NET какие-либо дополнительные возможности для объединения документов?
 
 О5: Да, вы можете изучить дополнительные параметры и конфигурации, доступные в документации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 将垂直渐变添加到 PostScript (PS)
 linktitle: 添加垂直渐变到 PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page 将具有视觉吸引力的垂直渐变添加到 .NET 中的 PostScript (PS) 文档。通过此分步指南提升您的文档创建水平。
-type: docs
 weight: 14
 url: /zh/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 将垂直渐变添加到 PostScript (PS)
+
 ## 介绍
 
 在文档操作和创建领域，Aspose.Page for .NET 成为开发人员的强大工具。本教程将指导您完成使用 Aspose.Page for .NET 将垂直渐变添加到 PostScript (PS) 文档的过程。读完本指南后，您将清楚地了解实现这种视觉吸引力效果的必要步骤。
@@ -154,3 +160,9 @@ A3：Aspose.Page支持各种渐变类型，包括径向渐变和路径渐变。�
 ### Q5：Aspose.Page 有社区论坛可以寻求帮助吗？
 
  A5：当然！前往[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)与其他开发人员联系并获得帮助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

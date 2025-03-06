@@ -3,10 +3,16 @@ title: Lizenzverwaltung
 linktitle: Lizenzverwaltung
 second_title: Aspose.Page Java-API
 description: Schöpfen Sie das volle Potenzial von Aspose.Page für Java mit unseren Lizenzverwaltungs-Tutorials aus. Richten Sie gebührenpflichtige Lizenzen nahtlos ein, um die Möglichkeiten der Dokumentenverarbeitung zu steigern.
-type: docs
 weight: 30
 url: /de/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lizenzverwaltung
+
 ## Einführung
 
 Willkommen bei den Lizenzverwaltungs-Tutorials für Aspose.Page in Java! In diesem umfassenden Leitfaden befassen wir uns mit den Feinheiten der Einrichtung getakteter Lizenzen zur Optimierung Ihrer Dokumentenverarbeitungsfunktionen. Begeben wir uns auf eine Reise, die das volle Potenzial von Aspose.Page freisetzt und eine nahtlose Integration mit Java gewährleistet.
@@ -39,3 +45,9 @@ Unsere Lizenzverwaltungs-Tutorials für Aspose.Page in Java sind Ihr Einstieg in
 ## Tutorials zur Lizenzverwaltung
 ### [Legen Sie eine gemessene Lizenz in Java fest](./set-metered-license/)
 Entdecken Sie die nahtlose Integration von Aspose.Page mit Java. Richten Sie mühelos bemessene Lizenzen ein und verbessern Sie Ihre Möglichkeiten zur Dokumentenverarbeitung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

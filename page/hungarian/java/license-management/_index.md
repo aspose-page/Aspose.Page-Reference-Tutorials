@@ -3,10 +3,16 @@ title: Licenckezelés
 linktitle: Licenckezelés
 second_title: Aspose.Page Java API
 description: Használja ki az Aspose.Page for Java teljes potenciálját a licenckezelési oktatóanyagainkkal. A számlázott licencek zökkenőmentes beállítása a dokumentumfeldolgozási képességek növelése érdekében.
-type: docs
 weight: 30
 url: /hu/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenckezelés
+
 ## Bevezetés
 
 Üdvözöljük az Aspose.Page licenckezelési oktatóanyagában Java nyelven! Ebben az átfogó útmutatóban a dokumentumfeldolgozási képességek optimalizálása érdekében a számlázott licencek beállításának bonyolultságába fogunk beleásni. Induljunk el egy olyan utazásra, amely felszabadítja az Aspose.Page teljes potenciálját, biztosítva a zökkenőmentes integrációt a Java-val.
@@ -39,3 +45,9 @@ Licenckezelési oktatóanyagaink a Java Aspose.Page számára biztosítják az �
 ## Licenckezelési oktatóanyagok
 ### [Állítsa be a mért licencet a Java-ban](./set-metered-license/)
 Fedezze fel az Aspose.Page és a Java zökkenőmentes integrációját. Könnyedén állíthat be fizetős licenceket, és javíthatja dokumentumfeldolgozási képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

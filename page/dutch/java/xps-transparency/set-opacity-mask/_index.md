@@ -3,10 +3,16 @@ title: Stel het dekkingsmasker in Java XPS in
 linktitle: Stel het dekkingsmasker in Java XPS in
 second_title: Aspose.Page Java-API
 description: Ontdek de kracht van het instellen van dekkingsmaskers in Java XPS met Aspose.Page. Volg onze stapsgewijze handleiding voor een visueel verbeterde documentervaring.
-type: docs
 weight: 11
 url: /nl/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel het dekkingsmasker in Java XPS in
+
 ## Invoering
 Welkom bij onze uitgebreide handleiding over het instellen van dekkingsmaskers in Java XPS met Aspose.Page. In deze zelfstudie begeleiden we u bij het maken van een XPS-document, het toevoegen van een canvas en het toepassen van een dekkingsmasker op een rechthoek met behulp van de krachtige functies van Aspose.Page voor Java.
 ## Vereisten
@@ -67,3 +73,9 @@ De proefversie heeft mogelijk enkele functiebeperkingen. Het is raadzaam om de d
  U kunt een bezoek brengen aan de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) voor community-ondersteuning of koop een licentie voor premium-ondersteuning.
 ### Is er een geld-terug-garantie voor Aspose.Page?
  Verwijs naar de[aankooppagina](https://purchase.aspose.com/buy) voor informatie over het restitutiebeleid.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

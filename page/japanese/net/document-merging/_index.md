@@ -3,10 +3,16 @@ title: 文書の結合
 linktitle: 文書の結合
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用すると、PostScript ドキュメントと XPS ドキュメントを高品質の PDF に簡単に結合できます。ステップバイステップのチュートリアルで文書処理を強化します。
-type: docs
 weight: 25
 url: /ja/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文書の結合
+
 ## 導入
 
 シームレスなドキュメント管理への方法を Aspose.Page for .NET と統合します。包括的なチュートリアルでドキュメントの結合の力を発見してください。
@@ -40,3 +46,9 @@ Aspose.Page for .NET を使用して、PostScript ドキュメントを PDF に�
 Aspose.Page for .NET を使用して、XPS ドキュメントを高品質の PDF に簡単に結合します。ステップバイステップのガイドに従って、ドキュメントをスムーズに変換してください。
 ### [XPS ドキュメントを Aspose.Page for .NET とマージする](./merge-xps-documents/)
 Aspose.Page for .NET を使用して XPS ドキュメントを簡単に結合します。シームレスなドキュメント管理については、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

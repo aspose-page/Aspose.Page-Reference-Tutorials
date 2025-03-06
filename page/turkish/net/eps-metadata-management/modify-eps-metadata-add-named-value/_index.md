@@ -3,10 +3,16 @@ title: Aspose.Page ile Adlandırılmış Değer Ekleyin
 linktitle: Adlandırılmış Değer Ekle
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page'i kullanarak .NET'te EPS dosyalarına nasıl adlandırılmış değerler ekleyeceğinizi öğrenin. Bu kapsamlı eğitim, süreç boyunca size adım adım rehberlik eder.
-type: docs
 weight: 12
 url: /tr/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile Adlandırılmış Değer Ekleyin
+
 ## giriiş
 
 .NET ile belge işleme alanında Aspose.Page, EPS dosyalarını işlemek için güçlü bir araç olarak öne çıkıyor. Aspose.Page, geliştiricilerin XMP meta verilerini değiştirmesine olanak tanır ve adlandırılmış değerlerin eklenmesi gibi görevleri kolaylaştırır. Bu eğitim size Aspose.Page'i kullanarak bir EPS dosyasına adlandırılmış değerler ekleme sürecinde adım adım rehberlik edecektir.
@@ -96,3 +102,9 @@ Cevap1: Aspose.Page çeşitli EPS dosya sürümlerini destekleyerek çok çeşit
 ### S5: Geçici lisans nedir ve nasıl edinebilirim?
 
  Cevap 5: Test veya değerlendirme amacıyla geçici bir lisansa ihtiyacınız varsa bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

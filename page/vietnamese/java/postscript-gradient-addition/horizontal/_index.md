@@ -3,10 +3,16 @@ title: Thêm chuyển màu ngang trong Java PostScript
 linktitle: Thêm chuyển màu ngang trong Java PostScript
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thêm dải màu ngang trong Java PostScript bằng Aspose.Page cho Java. Tạo các tài liệu trực quan tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm chuyển màu ngang trong Java PostScript
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách thêm dải màu ngang trong Java PostScript bằng Aspose.Page cho Java. Aspose.Page là một thư viện Java mạnh mẽ cho phép các nhà phát triển làm việc với PostScript và các định dạng tài liệu khác. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu PostScript có dải màu ngang bằng cách sử dụng các ví dụ từng bước.
 ## Điều kiện tiên quyết
@@ -82,3 +88,9 @@ Có, Aspose.Page for Java có thể được sử dụng trong các dự án th�
  Bạn có thể xin giấy phép tạm thời từ[Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 ### Yêu cầu hệ thống đối với Aspose.Page cho Java là gì?
  Tham khảo đến[tài liệu](https://reference.aspose.com/page/java/) để biết các yêu cầu chi tiết của hệ thống.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Convert XPS to BMP in Java
 linktitle: Convert XPS to BMP in Java
 second_title: Aspose.Page Java API
 description: Learn how to convert XPS to BMP in Java with Aspose.Page. Follow our easy guide for efficient and high-quality document conversion.
-type: docs
 weight: 10
 url: /java/xps-conversion/to-bmp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert XPS to BMP in Java
+
 ## Introduction
 Welcome to this step-by-step guide on converting XPS (XML Paper Specification) files to BMP (Bitmap) format in Java using Aspose.Page. Aspose.Page for Java is a powerful library that provides comprehensive features for working with XPS documents. In this tutorial, we will walk you through the process of converting XPS files to BMP images effortlessly.
 ## Prerequisites
@@ -74,3 +80,10 @@ A: Use the `options.setPageNumbers()` method to specify the page numbers you wan
 A: Yes, Aspose.Page supports various output formats. Refer to the documentation for a comprehensive list.
 ### Q: Where can I find additional help or support?
 A: Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

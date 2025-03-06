@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 XPS 문서를 PDF로 병합
 linktitle: XPS 문서를 PDF로 병합
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 XPS 문서를 고품질 PDF로 쉽게 병합하세요. 원활한 문서 변환 경험을 위해 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/net/document-merging/merge-xps-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 XPS 문서를 PDF로 병합
+
 ## 소개
 
 끊임없이 진화하는 문서 처리 환경에서 .NET용 Aspose.Page는 XPS 문서를 PDF 형식으로 원활하게 병합하는 강력한 도구로 등장합니다. 이 튜토리얼에서는 원활하고 효과적인 실행을 보장하기 위해 각 단계를 세분화하여 프로세스를 안내합니다.
@@ -123,3 +129,9 @@ A4: 예, .NET용 Aspose.Page는 PDF 조작을 위한 광범위한 기능을 제�
 ### Q5: .NET용 Aspose.Page는 크로스 플랫폼 개발을 지원합니까?
 
 A5: 예, .NET용 Aspose.Page는 다양한 플랫폼에서 원활하게 작동하도록 설계되었습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

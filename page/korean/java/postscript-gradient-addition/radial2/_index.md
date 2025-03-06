@@ -3,10 +3,16 @@ title: Aspose.Page를 사용한 Java PostScript 방사형 그라데이션
 linktitle: Aspose.Page를 사용한 Java PostScript 방사형 그라데이션
 second_title: Aspose.페이지 자바 API
 description: Java 애플리케이션에서 멋진 그래픽을 구현하기 위해 Aspose.Page를 사용하여 Java PostScript에 방사형 그라데이션을 추가하는 단계별 가이드를 살펴보세요.
-type: docs
 weight: 13
 url: /ko/java/postscript-gradient-addition/radial2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용한 Java PostScript 방사형 그라데이션
+
 ## 소개
 Java용 Aspose.Page를 사용하여 Java PostScript에 Radial Gradient 2를 추가하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 아름다운 방사형 그라데이션을 사용하여 PostScript 문서를 생성하고 시각적으로 매력적인 그래픽으로 Java 애플리케이션을 향상시키는 과정을 안내합니다.
 ## 전제 조건
@@ -96,3 +102,9 @@ document.save();
  A: 네, 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### 질문: 커뮤니티 지원을 구하고 토론에 참여할 수 있는 곳은 어디입니까?
  답: 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การจัดการข้อมูลเมตา XMP - Java
 linktitle: การจัดการข้อมูลเมตา XMP - Java
 second_title: Aspose.Page Java API
 description: ปรับปรุงไฟล์ EPS ได้อย่างง่ายดายด้วยการจัดการข้อมูลเมตา XMP ตั้งแต่การเพิ่มรายการไปจนถึงการแยกไฟล์ ยกระดับการจัดการเอกสารของคุณด้วยคำแนะนำของเรา
-type: docs
 weight: 42
 url: /th/java/xmp-metadata-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการข้อมูลเมตา XMP - Java
+
 
 ## การแนะนำ
 
@@ -66,3 +72,9 @@ url: /th/java/xmp-metadata-manipulation/
 ปรับปรุงเอกสาร EPS ด้วย Aspose.Page สำหรับ Java ปรับเปลี่ยนข้อมูลเมตา XMP ได้อย่างง่ายดายเพื่อเนื้อหาที่ได้รับการปรับแต่งและเป็นมืออาชีพ
 ### [รับข้อมูลเมตาจาก XMP โดยใช้ Java](./get-metadata/)
 ปลดล็อกพลังของ Aspose.Page สำหรับ Java เพื่อแยกข้อมูลเมตา XMP ได้อย่างง่ายดาย ยกระดับการวิเคราะห์เอกสารด้วยคำแนะนำทีละขั้นตอนของเรา!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

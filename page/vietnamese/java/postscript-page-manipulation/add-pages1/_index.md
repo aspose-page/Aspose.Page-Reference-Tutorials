@@ -3,10 +3,16 @@ title: Các trang Java PostScript - Hướng dẫn liền mạch với Aspose.Pa
 linktitle: Các trang PostScript Java
 second_title: API Java Aspose.Page
 description: Khám phá cách thêm trang trong Java PostScript một cách dễ dàng bằng Aspose.Page. Nâng cao khả năng tạo tài liệu của bạn với thư viện Java mạnh mẽ này.
-type: docs
 weight: 10
 url: /vi/java/postscript-page-manipulation/add-pages1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các trang Java PostScript - Hướng dẫn liền mạch với Aspose.Page
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách thêm trang trong Java PostScript bằng Aspose.Page. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm trang vào tài liệu PostScript bằng Aspose.Page cho Java. Aspose.Page là một thư viện Java mạnh mẽ cung cấp nhiều tính năng để làm việc với các tài liệu PostScript, khiến nó trở thành lựa chọn hàng đầu của các nhà phát triển.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Có, Aspose.Page đi kèm với các tùy chọn cấp phép linh hoạt phù h�
 Aspose.Page không áp đặt các giới hạn nghiêm ngặt về số lượng trang bạn có thể thêm, khiến nó phù hợp với các dự án có quy mô khác nhau.
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page?
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

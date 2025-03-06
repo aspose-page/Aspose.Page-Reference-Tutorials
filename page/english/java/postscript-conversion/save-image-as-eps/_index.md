@@ -3,10 +3,16 @@ title: Save Image as EPS in Java
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 description: Explore the power of Aspose.Page for Java in saving images as EPS effortlessly. Boost your graphics and printing capabilities with this versatile Java library.
-type: docs
 weight: 12
 url: /java/postscript-conversion/save-image-as-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save Image as EPS in Java
+
 ## Introduction
 In the world of Java programming, Aspose.Page for Java emerges as a powerful tool for manipulating and saving images in various formats. Among its versatile features is the ability to save images as Encapsulated PostScript (EPS) files, a format widely used in professional graphics and printing.
 This tutorial will guide you through the process of saving an image as EPS using Aspose.Page for Java. We'll cover the prerequisites, importing necessary packages, and break down each step with detailed explanations.
@@ -60,3 +66,10 @@ Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to engage with
 Yes, you can explore a free trial [here](https://releases.aspose.com/).
 ### How can I obtain a temporary license for Aspose.Page for Java?
 Acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

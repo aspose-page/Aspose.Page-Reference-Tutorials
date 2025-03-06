@@ -3,10 +3,16 @@ title: Tạo tài liệu Java
 linktitle: Tạo tài liệu Java
 second_title: API Java Aspose.Page
 description: Dễ dàng tạo tài liệu PostScript trong Java với Aspose.Page. Tùy chỉnh kích thước trang, lề và phông chữ. Đi sâu vào các hướng dẫn tạo tài liệu Java.
-type: docs
 weight: 23
 url: /vi/java/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu Java
+
 ## Giới thiệu
 
 Nếu bạn đang tìm hiểu thế giới tạo tài liệu Java, Aspose.Page for Java là công cụ bạn nên sử dụng. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn những điểm phức tạp của việc tạo tài liệu bằng Java, tập trung vào PostScript. Hãy cùng nhau bắt đầu cuộc hành trình này, mở khóa tiềm năng của Aspose.Page cho Java.
@@ -33,3 +39,9 @@ Tóm lại, các hướng dẫn tạo tài liệu Java này đóng vai trò là 
 ## Hướng dẫn tạo tài liệu Java
 ### [Tạo tài liệu bằng Java bằng PostScript](./postscript/)
 Dễ dàng tạo tài liệu PostScript trong Java bằng Aspose.Page. Tùy chỉnh kích thước trang, lề và phông chữ. Hãy thử dùng thử miễn phí ngay bây giờ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulate Pages with Aspose.Page for .NET
 linktitle: Manipulate Pages
 second_title: Aspose.Page .NET API
 description: Explore page manipulation in .NET using Aspose.Page, a powerful library for handling XPS documents. Follow our step-by-step guide for efficient results.
-type: docs
 weight: 12
 url: /net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulate Pages with Aspose.Page for .NET
+
 ## Introduction
 
 Welcome to the world of Aspose.Page for .NET! In this tutorial, we will guide you through the process of manipulating pages using the Aspose.Page library in a .NET environment. Whether you are a seasoned developer or just starting, this guide is designed to help you harness the power of Aspose.Page for efficient page manipulation.
@@ -94,3 +100,10 @@ A4: Yes, you can explore licensing options and obtain a temporary license [here]
 ### Q5: Where can I get support or ask questions?
 
 A5: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to get support and engage with the community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

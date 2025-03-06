@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 XPS 문서에 유니코드 문자열이 포�
 linktitle: XPS 문서에 유니코드 문자열이 포함된 텍스트 추가
 second_title: Aspose.페이지 .NET API
 description: XPS 문서에 유니코드 텍스트를 추가하는 방법에 대한 단계별 가이드를 통해 .NET용 Aspose.Page의 강력한 기능을 살펴보세요.
-type: docs
 weight: 12
 url: /ko/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 XPS 문서에 유니코드 문자열이 포함된 텍스트 추가
+
 ## 소개
 
 끊임없이 진화하는 .NET 개발 환경에서 Aspose.Page는 XPS 문서 처리를 위한 강력한 도구로 돋보입니다. 많은 기능 중에서 유니코드 문자열이 포함된 텍스트를 XPS 문서에 추가하는 기능은 중요한 기능입니다. 이 단계별 가이드는 프로세스를 안내하여 이 기능을 효과적으로 활용할 수 있도록 해줍니다.
@@ -88,3 +94,9 @@ A2: 물론이죠! 제공된 예제 코드를 사용하면 글꼴 스타일, 크�
 ### Q5: 구매하기 전에 체험판을 사용할 수 있나요?
 
  A5: 물론이죠! 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/) 구매하기 전에.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přidat obdélník v Java XPS
 linktitle: Přidat obdélník v Java XPS
 second_title: Aspose.Page Java API
 description: Naučte se přidávat obdélníky v Java XPS pomocí Aspose.Page. Postupujte podle našeho podrobného průvodce pro bezproblémovou manipulaci s dokumenty. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /cs/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidat obdélník v Java XPS
+
 ## Úvod
 Vítejte v tomto komplexním průvodci přidáváním obdélníků v Java XPS pomocí Aspose.Page! Ať už jste zkušený vývojář nebo s Java XPS teprve začínáte, tento tutoriál vás provede celým procesem s pokyny krok za krokem, což vám zajistí hluboké porozumění tématu.
 ## Předpoklady
@@ -62,3 +68,9 @@ Absolutně! Aspose.Page poskytuje robustní sadu funkcí pro zpracování různ�
  Prozkoumat[Fórum Aspose.Page](https://forum.aspose.com/c/page/39)získat další příklady a požádat o pomoc komunitu.
 ### Mohu Aspose.Page před nákupem vyzkoušet?
  Ano, můžete prozkoumat a[zkušební verze zdarma](https://releases.aspose.com/) vyzkoušet možnosti Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

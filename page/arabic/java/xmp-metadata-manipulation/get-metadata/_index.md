@@ -3,10 +3,16 @@ title: احصل على بيانات التعريف من XMP باستخدام Jav
 linktitle: احصل على بيانات التعريف من XMP باستخدام Java
 second_title: Aspose.Page جافا API
 description: أطلق العنان لقوة Aspose.Page لـ Java لاستخراج بيانات تعريف XMP بسهولة. ارفع مستوى تحليل المستندات من خلال دليلنا المفصّل خطوة بخطوة!
-type: docs
 weight: 18
 url: /ar/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احصل على بيانات التعريف من XMP باستخدام Java
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول استخدام Aspose.Page لـ Java لاستخراج البيانات التعريفية من ملفات XMP. يوفر XMP (منصة البيانات التعريفية القابلة للتوسيع) طريقة موحدة لتخزين البيانات التعريفية في الملفات. يركز هذا البرنامج التعليمي على استرداد المعلومات الأساسية من XMP باستخدام Java، مما يوفر رؤى حول تفاصيل المستند.
 ## المتطلبات الأساسية
@@ -81,3 +87,9 @@ if (xmp.containsKey("xmpMM:DocumentID"))
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل هناك موارد إضافية لـ Aspose.Page لـ Java؟
  استكشاف كاملة[توثيق](https://reference.aspose.com/page/java/) وتحميل المكتبة[هنا](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

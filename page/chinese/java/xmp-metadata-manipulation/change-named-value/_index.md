@@ -3,10 +3,16 @@ title: 使用 Java 更改 XMP 中的命名值
 linktitle: 使用 Java 更改 XMP 中的命名值
 second_title: Aspose.Page Java API
 description: 探索 Aspose.Page for Java - 通过我们的简化文档处理分步指南，轻松更改 EPS 文件中的 XMP 元数据。
-type: docs
 weight: 16
 url: /zh/java/xmp-metadata-manipulation/change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 更改 XMP 中的命名值
+
 在文档操作领域，Aspose.Page for Java 是一款功能强大的工具，使开发人员能够无缝地使用 EPS 文件中的 XMP 元数据。本分步指南将引导您完成使用 Aspose.Page for Java 更改 XMP 中命名值的过程。在我们深入研究细节之前，让我们先做一个介绍。
 ## 介绍
 Aspose.Page for Java 是一个强大的 Java 库，可促进 EPS 文件的操作和处理。在处理这些文件中的 XMP 元数据时，Aspose.Page 为开发人员提供了一套全面的功能。在本教程中，我们将重点关注更改 XMP 中的命名值，为希望增强文档处理能力的开发人员提供清晰简洁的指南。
@@ -82,3 +88,9 @@ Aspose.Page主要支持Java，但Aspose为各种编程语言提供了类似的�
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以购买 Java 版 Aspose.Page？
 要购买 Java 版 Aspose.Page，请访问[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

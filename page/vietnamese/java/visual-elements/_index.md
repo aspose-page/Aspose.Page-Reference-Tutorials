@@ -3,10 +3,16 @@ title: Các yếu tố trực quan - Java
 linktitle: Các yếu tố trực quan - Java
 second_title: API Java Aspose.Page
 description: Nâng cao hình ảnh tài liệu Java của bạn một cách dễ dàng với Aspose.Page! Tìm hiểu cách nâng cao ứng dụng của bạn bằng cách thêm lưới bằng Visual Brush trong hướng dẫn từng bước này.
-type: docs
 weight: 41
 url: /vi/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Các yếu tố trực quan - Java
+
 ## Giới thiệu
 
 Các nhà phát triển Java, hãy vui mừng! Đi sâu vào lĩnh vực các phần tử trực quan với các hướng dẫn Aspose.Page hứa hẹn sẽ biến đổi hình ảnh tài liệu Java của bạn. Trong ấn bản này, chúng tôi tập trung vào nghệ thuật thêm lưới hấp dẫn bằng Visual Brush. Hãy thắt dây an toàn khi chúng tôi bắt đầu hành trình nâng cao sức hấp dẫn của ứng dụng của bạn.
@@ -46,3 +52,9 @@ Tóm lại, Aspose.Page dành cho Java nổi lên như một giải pháp phù h
 ## Các yếu tố trực quan - Hướng dẫn Java
 ### [Thêm lưới bằng Visual Brush trong Java](./add-grid/)
 Nâng cao hình ảnh tài liệu Java với Aspose.Page! Tìm hiểu cách thêm lưới bằng Visual Brush theo từng bước. Nâng cao sức hấp dẫn của ứng dụng của bạn một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

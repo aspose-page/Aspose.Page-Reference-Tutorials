@@ -3,10 +3,16 @@ title: Képmanipuláció - PostScript
 linktitle: Képmanipuláció - PostScript
 second_title: Aspose.Page Java API
 description: Javítsa a dokumentumkezelési készségeket az Aspose.Page for Java segítségével. Merüljön el PostScript oktatóanyagainkban, tanuljon meg képeket hozzáadni Java nyelven, és javítsa dokumentumkezelési képességeit.
-type: docs
 weight: 28
 url: /hu/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képmanipuláció - PostScript
+
 
 ## Bevezetés
 
@@ -32,3 +38,9 @@ Induljon el erre a felfedezőútra az Aspose.Page segítségével a Java PostScr
 ## Képkezelés – PostScript oktatóanyagok
 ### [Kép hozzáadása a Java PostScript-ben](./add-image/)
 Fedezze fel az Aspose.Page Java zökkenőmentes integrációját ebben az oktatóanyagban, amely a képek PostScript dokumentumokhoz való hozzáadásáról szól. Növelje dokumentumkezelési képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulação de imagem
 linktitle: Manipulação de imagem
 second_title: API Aspose.Page .NET
 description: Descubra o poder do Aspose.Page for .NET através de nossos tutoriais de manipulação de imagens. Corte e redimensione imagens EPS sem esforço para obter resultados impressionantes e precisos.
-type: docs
 weight: 26
 url: /pt/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de imagem
+
 ## Introdução
 
 Você está pronto para aprimorar suas habilidades de manipulação de imagens EPS em .NET? Mergulhe em nossos tutoriais abrangentes de manipulação de imagens com Aspose.Page para .NET, onde o orientamos através do processo contínuo de corte e redimensionamento de imagens EPS.
@@ -41,3 +47,9 @@ Explore o mundo do Aspose.Page for .NET com nossos tutoriais de manipulação de
 Explore o mundo contínuo da manipulação de imagens EPS em .NET com Aspose.Page. Corte e redimensione imagens sem esforço para obter resultados impressionantes.
 ### [Redimensione imagens EPS com Aspose.Page para .NET](./resize-eps-images/)
 Explore o processo contínuo de redimensionamento de imagens EPS em .NET usando Aspose.Page. Obtenha precisão em pontos, polegadas, milímetros e porcentagens sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Примените шаблон мозаики текстуры к PostSc
 linktitle: Применение шаблона мозаики текстуры к PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Улучшите свои документы PostScript (PS) с помощью шаблонов мозаики текстур с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству для творческого подхода.
-type: docs
 weight: 10
 url: /ru/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Примените шаблон мозаики текстуры к PostScript (PS) с помощью Aspose.Page
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство о том, как применить шаблон мозаики текстуры к документу PostScript (PS) с помощью Aspose.Page для .NET. Aspose.Page — это мощная библиотека, которая позволяет вам работать с различными форматами документов, и в этом уроке мы рассмотрим, как улучшить ваши документы PS, добавив шаблоны мозаики текстур.
@@ -156,3 +162,10 @@ document.Save();
 ### Вопрос 5. Где я могу найти дополнительные ресурсы и поддержку?
 
  A5: Посетите[Форум Aspose.Page](https://forum.aspose.com/c/page/39) за поддержку сообщества и изучить[документация](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

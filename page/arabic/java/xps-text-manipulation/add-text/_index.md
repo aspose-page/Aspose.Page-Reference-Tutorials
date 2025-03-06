@@ -3,10 +3,16 @@ title: إضافة نص Java XPS - البرنامج التعليمي لـ Aspose.
 linktitle: إضافة نص في Java XPS
 second_title: Aspose.Page جافا API
 description: قم بتحسين مستندات Java XPS الخاصة بك باستخدام Aspose.Page! اتبع دليلنا خطوة بخطوة لإضافة نص دون عناء. ارفع مهاراتك في التعامل مع المستندات اليوم.
-type: docs
 weight: 10
 url: /ar/java/xps-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة نص Java XPS - البرنامج التعليمي لـ Aspose.Page
+
 ## مقدمة
 في مجال معالجة مستندات Java، تبرز Aspose.Page كمكتبة قوية تسهل إنشاء مستندات XPS (مواصفات ورق XML) ومعالجتها. تعد إضافة نص إلى مستندات XPS مطلبًا شائعًا في العديد من التطبيقات، وسيرشدك هذا البرنامج التعليمي خلال العملية باستخدام Aspose.Page لـ Java. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، يضمن هذا الدليل التفصيلي خطوة بخطوة رحلة سلسة في تحسين مستندات XPS الخاصة بك بالنص.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ doc.save(dataDir + "AddText_out.xps");
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page؟
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

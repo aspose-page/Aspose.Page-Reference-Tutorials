@@ -3,10 +3,16 @@ title: Thêm gradient chéo vào PostScript (PS) bằng Aspose.Page .NET
 linktitle: Thêm chuyển màu chéo vào PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Khám phá sự đơn giản của việc thêm độ dốc đường chéo vào tài liệu PostScript trong .NET với Aspose.Page. Nâng tầm dự án của bạn bằng các yếu tố trực quan năng động.
-type: docs
 weight: 10
 url: /vi/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm gradient chéo vào PostScript (PS) bằng Aspose.Page .NET
+
 ## Giới thiệu
 
 Việc thêm dải màu chéo vào tài liệu PostScript (PS) có thể mang lại sự hấp dẫn trực quan và tính sáng tạo cho dự án của bạn. Aspose.Page for .NET cung cấp giải pháp liền mạch để tích hợp tính năng này vào ứng dụng của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm dải màu chéo vào tài liệu PS bằng Aspose.Page, từng bước một.
@@ -162,3 +168,9 @@ Câu trả lời 2: Có, Aspose.Page cung cấp sự linh hoạt trong việc l�
 ### Câu hỏi 5: Tôi có thể tìm sự hỗ trợ của cộng đồng cho Aspose.Page ở đâu?
 
  Câu trả lời 5: Tương tác với cộng đồng Aspose.Page trên[diễn đàn](https://forum.aspose.com/c/page/39) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

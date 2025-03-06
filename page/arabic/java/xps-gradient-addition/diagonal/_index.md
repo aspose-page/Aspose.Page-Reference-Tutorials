@@ -3,10 +3,16 @@ title: إضافة التدرج القطري في Java XPS
 linktitle: إضافة التدرج القطري في Java XPS
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إضافة تدرج قطري مذهل إلى مستندات XPS الخاصة بك في Java باستخدام Aspose.Page. ارفع مستوى العرض المرئي الخاص بك دون عناء.
-type: docs
 weight: 10
 url: /ar/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة التدرج القطري في Java XPS
+
 ## مقدمة
 في عالم تطوير Java الذي يتطور باستمرار، يعد تحسين المظهر المرئي لمستندات XPS الخاصة بك أمرًا بالغ الأهمية. إحدى الطرق الفعالة لتحقيق ذلك هي دمج التدرجات القطرية. سيرشدك هذا البرنامج التعليمي خلال العملية باستخدام Aspose.Page لـ Java، مع توفير إرشادات خطوة بخطوة ومقتطفات التعليمات البرمجية.
 ## المتطلبات الأساسية
@@ -75,3 +81,9 @@ doc.save(dataDir + "LinearGradient.xps");
  قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للتواصل مع المجتمع وطلب المساعدة.
 ### س: هل هناك نص على التراخيص المؤقتة؟
  نعم يمكنك الحصول على[الترخيص المؤقت هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

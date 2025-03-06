@@ -3,10 +3,16 @@ title: Aspose.Page を使用して円楕円を PostScript (PS) に追加する
 linktitle: PostScript に円楕円を追加 (PS)
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して PostScript (PS) ドキュメントに円楕円を簡単に追加する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して円楕円を PostScript (PS) に追加する
+
 ## 導入
 
 Aspose.Page for .NET を使用して PostScript (PS) ドキュメントに円楕円を追加するためのこの包括的なチュートリアルへようこそ。 Aspose.Page は、開発者が PostScript やその他のドキュメント形式をシームレスに操作できるようにする強力なライブラリです。このガイドでは、PS ドキュメントに円楕円を簡単に組み込むプロセスを説明します。
@@ -145,3 +151,9 @@ document.Save();
 ### Q5: Aspose.Page for .NET はどこで購入できますか?
 
  A5: Aspose.Page for .NET を次のサイトから購入します。[購入ページ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

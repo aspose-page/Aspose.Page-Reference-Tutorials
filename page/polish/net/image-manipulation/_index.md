@@ -3,10 +3,16 @@ title: Manipulacja obrazem
 linktitle: Manipulacja obrazem
 second_title: Aspose.Page API .NET
 description: Odkryj moc Aspose.Page dla .NET dzięki naszym samouczkom dotyczącym manipulacji obrazem. Bez wysiłku przycinaj i zmieniaj rozmiar obrazów EPS, aby uzyskać oszałamiające i precyzyjne rezultaty.
-type: docs
 weight: 26
 url: /pl/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja obrazem
+
 ## Wstęp
 
 Czy jesteś gotowy, aby podnieść swoje umiejętności manipulacji obrazami EPS w .NET? Zapoznaj się z naszymi obszernymi samouczkami manipulacji obrazami w Aspose.Page dla .NET, gdzie poprowadzimy Cię przez bezproblemowy proces przycinania i zmiany rozmiaru obrazów EPS.
@@ -41,3 +47,9 @@ Poznaj świat Aspose.Page dla .NET dzięki naszym tutorialom dotyczącym manipul
 Poznaj płynny świat manipulacji obrazami EPS w .NET dzięki Aspose.Page. Przycinaj i zmieniaj rozmiar obrazów bez wysiłku, aby uzyskać oszałamiające rezultaty.
 ### [Zmień rozmiar obrazów EPS za pomocą Aspose.Page dla .NET](./resize-eps-images/)
 Poznaj bezproblemowy proces zmiany rozmiaru obrazów EPS w .NET przy użyciu Aspose.Page. Osiągnij precyzję w punktach, calach, milimetrach i procentach bez wysiłku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

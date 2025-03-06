@@ -3,10 +3,16 @@ title: Formák - XPS
 linktitle: Formák - XPS
 second_title: Aspose.Page Java API
 description: Fedezze fel a Java XPS varázslatot az Aspose.Page oktatóanyagaival! Könnyen hozzáadhat lenyűgöző ellipsziseket és téglalapokat. Emelje fel a dokumentumkészítést lépésenkénti útmutatóinkkal.
-type: docs
 weight: 35
 url: /hu/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formák - XPS
+
 ## Bevezetés
 
 Készen áll arra, hogy elmélyüljön a Java XPS használatával készült dokumentumkészítés lenyűgöző birodalmában? Ne keressen tovább, mint az Aspose.Page, az Ön megbízható társa az alakmanipulációban rejlő lehetőségek teljes kihasználásában. Ebben az oktatóanyag-sorozatban végigvezetjük Önt a lenyűgöző formák hozzáadásának bonyolultságain, így biztosítva, hogy dokumentuma könnyedén kiemelkedjen.
@@ -33,3 +39,9 @@ Navigáljon a következő oktatóanyagunkhoz[Téglalap hozzáadása a Java XPS-b
 Tekintse meg a sugárirányú színátmenettel körvonalazott ellipszis hozzáadását a Java XPS-ben az Aspose.Page for Java segítségével, lépésről lépésre ismertető útmutatót. Fokozza a dokumentumkészítést könnyedén.
 ### [Téglalap hozzáadása a Java XPS-ben](./add-rectangle/)
 Ismerje meg, hogyan adhat hozzá téglalapokat Java XPS-ben az Aspose.Page használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes dokumentumkezeléshez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

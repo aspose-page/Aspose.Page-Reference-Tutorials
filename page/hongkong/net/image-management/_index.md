@@ -3,10 +3,16 @@ title: 形像管理
 linktitle: 形像管理
 second_title: Aspose.Page .NET API
 description: 輕鬆增強您的文件視覺效果！探索涵蓋影像管理的 Aspose.Page .NET 教學。從新增影像到轉換格式，掌握每一步。
-type: docs
 weight: 28
 url: /zh-hant/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 形像管理
+
 ## 介紹
 
 您是否希望使用 Aspose.Page for .NET 來提昇文件的視覺吸引力？別再猶豫了！在這份綜合指南中，我們將引導您完成各種影像管理教程，使您能夠無縫地增強文件。
@@ -45,3 +51,9 @@ url: /zh-hant/net/image-management/
 探索使用 Aspose.Page for .NET 輕鬆地將平鋪影像新增至 XPS 文件。增強視覺吸引力並創建令人驚嘆的文件。
 ### [使用 Aspose.Page for .NET 將影像轉換為 EPS 格式](./convert-image-to-eps-format/)
 了解如何使用 Aspose.Page for .NET 將 JPEG 影像轉換為 EPS 格式。包含逐步說明的綜合指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

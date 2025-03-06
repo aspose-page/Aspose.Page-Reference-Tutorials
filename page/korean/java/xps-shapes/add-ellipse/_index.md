@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 방사형 그라데이션 타원 추가
 linktitle: Java XPS에 타원 추가
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 Java XPS에서 방사형 그래디언트 스트로크 타원을 추가하는 방법에 대한 단계별 가이드를 살펴보세요. 손쉽게 문서 작성 기능을 향상해 보세요.
-type: docs
 weight: 10
 url: /ko/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 방사형 그라데이션 타원 추가
+
 ## 소개
 Java용 Aspose.Page를 사용하여 Java XPS에 타원을 추가하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.Page는 개발자가 XPS 문서를 쉽게 작업할 수 있게 해주는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 방사형 그래디언트 스트로크 타원을 만들고 이를 XPS 문서로 저장하는 과정을 안내합니다.
 ## 전제 조건
@@ -91,3 +97,9 @@ doc.save(dataDir + "AddEllipse_out.xps");
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page 토론을 위한 커뮤니티 포럼이 있습니까?
  응, 가입해[Aspose.Page 커뮤니티 포럼](https://forum.aspose.com/c/page/39) 다른 개발자와 소통하고 도움을 받으려면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

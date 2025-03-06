@@ -3,10 +3,16 @@ title: Přidejte horizontální přechod do PostScriptu (PS) pomocí Aspose.Page
 linktitle: Přidat horizontální přechod do PostScriptu (PS)
 second_title: Aspose.Page .NET API
 description: Vylepšete PostScriptové dokumenty s úžasnými horizontálními přechody pomocí Aspose.Page pro .NET. Pro bezproblémovou implementaci postupujte podle našeho podrobného návodu.
-type: docs
 weight: 12
 url: /cs/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte horizontální přechod do PostScriptu (PS) pomocí Aspose.Page
+
 ## Úvod
 
 Vítejte v tomto komplexním kurzu o přidávání horizontálních přechodů do dokumentů PostScript (PS) pomocí Aspose.Page for .NET. Aspose.Page je výkonná knihovna, která usnadňuje manipulaci s dokumenty v různých formátech a poskytuje vývojářům nástroje, které potřebují k bezproblémovému vytváření, úpravám a vykreslování dokumentů.
@@ -143,3 +149,9 @@ A3: Aspose.Page podporuje různé formáty dokumentů, včetně XPS, PS, PDF a d
 ### Q5: Existuje komunitní fórum pro uživatele Aspose.Page?
 
  A5: Ano, připojte se ke komunitě Aspose.Page na[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) spojit se s ostatními uživateli a vyhledat pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

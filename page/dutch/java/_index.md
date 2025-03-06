@@ -1,12 +1,17 @@
 ---
 title: Uitgebreide tutorials en voorbeelden van Aspose.Page voor Java
 linktitle: Aspose.Pagina voor Java-tutorials
-type: docs
 weight: 10
 url: /nl/java/
 description: Ontgrendel de geheimen van Java-paginamanipulatie met Aspose.Page-tutorials. Duik in knippen, transformaties en meer voor moeiteloos visueel verbluffende documenten.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uitgebreide tutorials en voorbeelden van Aspose.Page voor Java
+
 ## Invoering
 
 Bent u klaar om uw vaardigheden op het gebied van Java-documentverwerking te verbeteren? Duik in de wereld van Aspose.Page voor Java met onze uitgebreide tutorials en voorbeelden. Of u nu een doorgewinterde ontwikkelaar bent of net begint, onze stapsgewijze handleidingen ontsluiten het volledige potentieel van Aspose.Page voor Java.
@@ -76,3 +81,9 @@ Verbeter uw Java XPS-documenten moeiteloos met Aspose.Page. Leer transparante ob
 Verbeter de visuals van uw Java-documenten moeiteloos met Aspose.Page! Leer hoe u uw toepassing kunt verbeteren door rasters toe te voegen met Visual Brush in deze stapsgewijze zelfstudie.
 ### [Manipulatie van XMP-metagegevens - Java](./xmp-metadata-manipulation/)
 Verbeter EPS-bestanden moeiteloos met manipulatie van XMP-metagegevens, van het toevoegen van items tot het extraheren ervan. Verbeter uw documentbeheer met onze handleidingen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

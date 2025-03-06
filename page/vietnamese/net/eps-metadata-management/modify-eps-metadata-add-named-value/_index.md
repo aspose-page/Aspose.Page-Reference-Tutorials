@@ -3,10 +3,16 @@ title: Thêm giá trị được đặt tên bằng Aspose.Page
 linktitle: Thêm giá trị được đặt tên
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách thêm các giá trị được đặt tên vào tệp EPS trong .NET bằng Aspose.Page. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
-type: docs
 weight: 12
 url: /vi/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm giá trị được đặt tên bằng Aspose.Page
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý tài liệu bằng .NET, Aspose.Page nổi bật như một công cụ mạnh mẽ để xử lý các tệp EPS. Aspose.Page trao quyền cho các nhà phát triển thao tác siêu dữ liệu XMP, tạo điều kiện thuận lợi cho các tác vụ như thêm các giá trị được đặt tên. Hướng dẫn này sẽ hướng dẫn bạn quy trình thêm các giá trị được đặt tên vào tệp EPS bằng Aspose.Page theo cách từng bước.
@@ -96,3 +102,9 @@ Câu trả lời 1: Aspose.Page hỗ trợ nhiều phiên bản tệp EPS khác 
 ### Câu hỏi 5: Giấy phép tạm thời là gì và làm cách nào để có được giấy phép?
 
  Câu trả lời 5: Nếu bạn cần giấy phép tạm thời cho mục đích thử nghiệm hoặc đánh giá, bạn có thể xin giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

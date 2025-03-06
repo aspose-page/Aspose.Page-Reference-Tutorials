@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將文字新增至 XPS 文檔
 linktitle: 將文字新增至 XPS 文檔
 second_title: Aspose.Page .NET API
 description: 探索使用 Aspose.Page for .NET 將文字新增至 XPS 文件的逐步指南。輕鬆增強您的 .NET 專案。
-type: docs
 weight: 13
 url: /zh-hant/net/text-manipulation/add-text-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將文字新增至 XPS 文檔
+
 ## 介紹
 
 在 .NET 開發的動態世界中，Aspose.Page 作為處理 XPS 文件的強大工具脫穎而出。在 XPS 文件中新增文字是常見要求，Aspose.Page 簡化了此過程。在本教程中，我們將探索如何使用 Aspose.Page for .NET 將文字無縫地添加到 XPS 文件中。
@@ -102,3 +108,9 @@ A2：當然！ Aspose.Page支援.NET Core，確保與最新.NET技術的兼容�
 ### Q5: 有免費試用嗎？
 
  A5：當然！您可以獲得免費試用[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

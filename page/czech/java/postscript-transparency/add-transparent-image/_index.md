@@ -3,10 +3,16 @@ title: Přidejte průhledný obrázek v Java PostScript
 linktitle: Přidejte průhledný obrázek v Java PostScript
 second_title: Aspose.Page Java API
 description: Prozkoumejte bezproblémovou integraci průhledných obrázků do dokumentů Java PostScript s Aspose.Page for Java. Zvyšte své vizualizace dokumentů bez námahy.
-type: docs
 weight: 10
 url: /cs/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte průhledný obrázek v Java PostScript
+
 ## Úvod
 Ve světě Java PostScriptu zvýšení vizuální přitažlivosti dokumentů často zahrnuje přidání průhledných obrázků. Tento tutoriál vás provede procesem začlenění průhledných obrázků do vašich dokumentů Java PostScript pomocí výkonné knihovny Aspose.Page for Java.
 ## Předpoklady
@@ -83,3 +89,9 @@ Ano, Aspose.Page for Java lze hladce integrovat s jinými knihovnami Java, aby s
  Ano, navštivte[Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) za podporu komunity a diskuze.
 ### Kde najdu dokumentaci k Aspose.Page for Java?
  Viz komplexní[dokumentace](https://reference.aspose.com/page/java/) pro podrobné informace o Aspose.Page for Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

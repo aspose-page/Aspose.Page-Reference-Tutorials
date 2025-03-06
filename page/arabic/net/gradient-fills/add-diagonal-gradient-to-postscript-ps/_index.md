@@ -3,10 +3,16 @@ title: أضف تدرجًا قطريًا إلى PostScript (PS) باستخدام 
 linktitle: إضافة تدرج قطري إلى PostScript (PS)
 second_title: Aspose.Page .NET API
 description: اكتشف بساطة إضافة التدرجات القطرية إلى مستندات PostScript في .NET باستخدام Aspose.Page. ارفع مستوى مشروعاتك باستخدام العناصر المرئية الديناميكية.
-type: docs
 weight: 10
 url: /ar/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف تدرجًا قطريًا إلى PostScript (PS) باستخدام Aspose.Page .NET
+
 ## مقدمة
 
 يمكن أن تؤدي إضافة تدرج قطري إلى مستند PostScript (PS) إلى إضفاء جاذبية بصرية وإبداعية على مشروعاتك. يوفر Aspose.Page for .NET حلاً سلسًا لدمج هذه الميزة في تطبيقاتك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة تدرج قطري إلى مستند PS باستخدام Aspose.Page، خطوة بخطوة.
@@ -162,3 +168,9 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 ### س5: أين يمكنني العثور على الدعم المجتمعي لـ Aspose.Page؟
 
  ج5: تفاعل مع مجتمع Aspose.Page على[المنتدى](https://forum.aspose.com/c/page/39) للمساعدة والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

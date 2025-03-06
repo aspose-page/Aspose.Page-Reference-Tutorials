@@ -3,10 +3,16 @@ title: Přidejte šrafovací vzor v Java PostScript
 linktitle: Přidejte šrafovací vzor v Java PostScript
 second_title: Aspose.Page Java API
 description: Naučte se přidávat podmanivé šrafovací vzory do dokumentů Java PostScript pomocí Aspose.Page. Zvyšte svůj vizuální obsah bez námahy.
-type: docs
 weight: 10
 url: /cs/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte šrafovací vzor v Java PostScript
+
 ## Úvod
 Ve světě programování v jazyce Java je vylepšení vizuálních prvků běžným požadavkem pro vývojáře. Jedním ze zajímavých vizuálních vylepšení je přidání šrafovacích vzorů do PostScriptových dokumentů. Tento tutoriál vás provede procesem přidávání šrafovacích vzorů pomocí Aspose.Page pro Java.
 ## Předpoklady
@@ -97,3 +103,9 @@ Ano, Aspose.Page for Java je navržena tak, aby se hladce integrovala s různým
  Prozkoumat[Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) za výukové programy a podporu komunity.
 ### Existuje komplexní dokumentační zdroj pro Aspose.Page for Java?
  Ano, podívejte se na dokumentaci[tady](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cambiar elementos de matriz en XMP usando Java
 linktitle: Cambiar elementos de matriz en XMP usando Java
 second_title: API de Java de Aspose.Page
 description: Aprenda cómo cambiar elementos de matriz en XMP usando Aspose.Page para Java. Modifique metadatos sin esfuerzo con nuestra guía paso a paso. ¡Mejore sus documentos EPS ahora!
-type: docs
 weight: 15
 url: /es/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambiar elementos de matriz en XMP usando Java
+
 ## Introducción
 ¡Bienvenido a nuestra guía completa sobre cómo cambiar elementos de matriz en XMP usando Aspose.Page para Java! Aspose.Page es una potente biblioteca Java que le permite trabajar con metadatos XMP en archivos EPS sin problemas. En este tutorial, lo guiaremos a través del proceso de modificación de elementos de matriz dentro de los metadatos XMP, ayudándolo a mejorar y personalizar sus documentos EPS.
 ## Requisitos previos
@@ -77,3 +83,9 @@ Aspose.Page está diseñado principalmente para Java, pero Aspose proporciona bi
  Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo comprar la versión completa de Aspose.Page para Java?
  Puedes comprar la versión completa.[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

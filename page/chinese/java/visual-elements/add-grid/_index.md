@@ -3,10 +3,16 @@ title: 在 Java 中使用 Visual Brush 添加网格
 linktitle: 在 Java 中使用 Visual Brush 添加网格
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 增强 Java 文档视觉效果！逐步学习使用 Visual Brush 添加网格。毫不费力地提升您的应用程序的吸引力。
-type: docs
 weight: 10
 url: /zh/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中使用 Visual Brush 添加网格
+
 ## 介绍
 您是否希望使用 Aspose.Page 通过具有视觉吸引力的网格来增强您的 Java 应用程序？在本教程中，我们将指导您完成使用 Visual Brush in Java 和 Aspose.Page 添加网格的过程。视觉画笔允许您使用视觉内容绘制区域，在文档中创建令人惊叹的网格效果。
 ## 先决条件
@@ -84,3 +90,9 @@ doc.save(dataDir + "AddGrid_out.xps");
 是的，您可以访问[免费试用](https://releases.aspose.com/)探索 Aspose.Page 的功能。
 ### 如何获得 Aspose.Page 的临时许可证？
 获得一个[临时执照](https://purchase.aspose.com/temporary-license/)用于测试目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

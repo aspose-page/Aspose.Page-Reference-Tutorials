@@ -3,10 +3,16 @@ title: Adicione gradiente diagonal ao XPS com Aspose.Page para .NET
 linktitle: Adicionar gradiente diagonal ao XPS
 second_title: API Aspose.Page .NET
 description: Aprenda como adicionar gradientes diagonais cativantes a documentos XPS usando Aspose.Page for .NET. Eleve suas apresentações visuais sem esforço.
-type: docs
 weight: 11
 url: /pt/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicione gradiente diagonal ao XPS com Aspose.Page para .NET
+
 ## Introdução
 
 No domínio do processamento de documentos, Aspose.Page for .NET se destaca como um poderoso kit de ferramentas que permite aos desenvolvedores manipular documentos XPS com facilidade. Um recurso interessante que oferece é a capacidade de adicionar gradientes diagonais, permitindo aprimorar o apelo visual de seus documentos. Este tutorial irá guiá-lo passo a passo pelo processo, demonstrando como incorporar gradientes diagonais em arquivos XPS usando Aspose.Page for .NET.
@@ -106,3 +112,9 @@ A3: Aspose.Page concentra-se principalmente na manipulação de documentos XPS.
 ### Q5: Existe uma versão de teste disponível antes da compra?
 
  A5: Sim, você pode explorar o[teste grátis](https://releases.aspose.com/) experimentar o Aspose.Page para .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

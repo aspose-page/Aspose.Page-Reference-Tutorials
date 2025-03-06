@@ -3,10 +3,16 @@ title: Ajouter des éléments de tableau avec Aspose.Page
 linktitle: Ajouter des éléments de tableau
 second_title: API Aspose.Page .NET
 description: Découvrez comment ajouter des éléments de tableau dans des fichiers EPS à l'aide d'Aspose.Page pour .NET. Suivez notre guide étape par étape pour une manipulation fluide des documents.
-type: docs
 weight: 11
 url: /fr/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des éléments de tableau avec Aspose.Page
+
 ## Introduction
 
 Dans le domaine de la manipulation et du traitement de documents dans .NET, Aspose.Page se distingue comme un outil puissant. Parmi ses nombreuses fonctionnalités, la gestion des éléments du tableau dans un fichier EPS est une exigence courante. Dans ce didacticiel, nous explorerons le processus étape par étape d'ajout d'éléments de tableau à l'aide d'Aspose.Page dans un environnement .NET. Que vous soyez un développeur chevronné ou un nouveau venu, ce guide vous guidera tout au long du processus avec clarté et précision.
@@ -119,3 +125,9 @@ A4 : Pour les discussions et le soutien de la communauté, visitez le[Forum As
 ### Q5 : Quelle est la dernière version d’Aspose.Page pour .NET ?
 
  A5 : Pour accéder à la dernière version d'Aspose.Page pour .NET, reportez-vous au[Documentation](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

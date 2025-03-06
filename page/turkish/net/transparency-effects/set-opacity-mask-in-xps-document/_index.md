@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile XPS Belgesinde Opaklık Maskesini Ayarlama
 linktitle: XPS Belgesinde Opaklık Maskesini Ayarlama
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET'i kullanarak XPS belgelerinde opaklık maskelerini ayarlamayı öğrenin. Belge estetiğini zahmetsizce geliştirin.
-type: docs
 weight: 12
 url: /tr/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile XPS Belgesinde Opaklık Maskesini Ayarlama
+
 ## giriiş
 
 Opaklık maskeleri, farklı şeffaflık düzeylerine sahip görsel olarak çekici belgeler oluşturmak istediğinizde çok önemlidir. Aspose.Page for .NET, geliştiricilere XPS belgelerini geliştirmek için kapsamlı bir araç seti sunarak bu süreci basitleştirir. Bu eğitimde, adım adım kılavuzda opaklık maskesinin nasıl ayarlanacağını keşfedeceğiz.
@@ -98,3 +104,9 @@ Cevap4: Evet, karmaşık şeffaflık efektleri oluşturmak için birden fazla op
 ### S5: Aspose.Page diğer belge formatlarıyla uyumlu mudur?
 
 Cevap5: Aspose.Page öncelikle XPS belgelerine odaklanır, ancak Aspose farklı formatları işlemek için çeşitli ürünler sunar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

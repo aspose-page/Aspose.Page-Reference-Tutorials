@@ -3,10 +3,16 @@ title: การบวกไล่ระดับสี - XPS
 linktitle: การบวกไล่ระดับสี - XPS
 second_title: Aspose.Page Java API
 description: ยกระดับเอกสาร Java XPS ของคุณด้วยการไล่ระดับสีที่น่าทึ่ง เรียนรู้การเพิ่มการไล่ระดับสีในแนวทแยง แนวนอน และแนวตั้งอย่างง่ายดายโดยใช้บทช่วยสอน Aspose.Page
-type: docs
 weight: 26
 url: /th/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การบวกไล่ระดับสี - XPS
+
 ## การแนะนำ
 
 เมื่อเทคโนโลยีพัฒนาไป การเพิ่มความน่าดึงดูดทางสายตาจึงกลายเป็นเรื่องสำคัญ ในขอบเขตของเอกสาร Java XPS การผสมผสานการไล่ระดับสีที่น่าดึงดูดคือตัวเปลี่ยนเกม ยินดีต้อนรับสู่ Aspose.Page สำหรับบทช่วยสอน Java ซึ่งเราจะเปิดเผยศิลปะของการบวกไล่ระดับสีใน XPS อย่างประณีต
@@ -40,3 +46,9 @@ url: /th/java/xps-gradient-addition/
 เรียนรู้วิธีเพิ่มการไล่ระดับสีแนวนอนที่น่าทึ่งให้กับเอกสาร XPS ใน Java โดยใช้ Aspose.Page ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
 ### [เพิ่มการไล่ระดับสีแนวตั้งใน Java XPS](./vertical/)
 เรียนรู้วิธีเพิ่มการไล่ระดับสีแนวตั้งให้กับเอกสาร Java XPS ด้วย Aspose.Page เพิ่มความดึงดูดสายตาได้อย่างง่ายดาย คำแนะนำทีละขั้นตอนภายใน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

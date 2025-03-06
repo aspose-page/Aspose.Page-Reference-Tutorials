@@ -3,10 +3,16 @@ title: Manajemen Metadata EPS
 linktitle: Manajemen Metadata EPS
 second_title: Aspose.Halaman .NET API
 description: Tingkatkan organisasi EPS dengan Aspose.Page untuk .NET. Tambahkan metadata dengan mudah untuk meningkatkan aksesibilitas. Jelajahi tutorial manajemen metadata EPS.
-type: docs
 weight: 36
 url: /id/net/eps-metadata-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manajemen Metadata EPS
+
 
 ## Perkenalan
 
@@ -59,3 +65,9 @@ Pelajari cara mengubah nilai bernama dalam file EPS menggunakan Aspose.Page untu
 Manipulasi file EPS master dengan Aspose.Page untuk .NET. Ubah nilai metadata XMP dengan mudah.
 ### [Ekstrak Metadata dari Dokumen EPS dengan Aspose.Page untuk .NET](./extract-metadata-from-eps-document/)
 Tingkatkan organisasi dokumen EPS dengan Aspose.Page untuk .NET. Tambahkan metadata dengan mudah untuk meningkatkan aksesibilitas dan pengambilan informasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा में XPS को PNG में कनवर्ट कर
 linktitle: जावा में XPS को PNG में कनवर्ट करें
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page का उपयोग करके जावा में आसानी से XPS को PNG में बदलें। इस विश्वसनीय और डेवलपर-अनुकूल समाधान के साथ दस्तावेज़ कार्यों को सुव्यवस्थित करें।
-type: docs
 weight: 13
 url: /hi/java/xps-conversion/to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में XPS को PNG में कनवर्ट करें
+
 ## परिचय
 सॉफ़्टवेयर विकास की गतिशील दुनिया में, XPS (XML पेपर विशिष्टता) दस्तावेज़ों को PNG (पोर्टेबल नेटवर्क ग्राफ़िक्स) छवियों में परिवर्तित करने की आवश्यकता अक्सर उठती रहती है। जावा में इस कार्य को निर्बाध रूप से पूरा करने के लिए, Aspose.Page एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम जावा के लिए Aspose.Page का उपयोग करके XPS को PNG में परिवर्तित करने की प्रक्रिया के बारे में जानेंगे।
 ## आवश्यक शर्तें
@@ -74,3 +80,9 @@ for (int i = 0; i < device.getResult().length; i++) {
  आपको अस्थायी लाइसेंस मिल सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### क्या Aspose.Page चर्चाओं के लिए सामुदायिक मंच हैं?
  हाँ, सामुदायिक मंचों पर जाएँ[यहाँ](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

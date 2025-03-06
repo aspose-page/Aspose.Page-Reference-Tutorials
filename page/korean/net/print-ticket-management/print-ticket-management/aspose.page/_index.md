@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 기존 인쇄 티켓 편집
 linktitle: 기존 인쇄 티켓 편집
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 XPS 문서에서 인쇄 티켓을 편집하는 방법을 알아보세요. 개발자를 위한 단계별 가이드입니다. 문서 인쇄 제어를 손쉽게 강화하세요.
-type: docs
 weight: 11
 url: /ko/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 기존 인쇄 티켓 편집
+
 ## 소개
 
 .NET용 Aspose.Page를 사용하여 기존 인쇄 티켓을 편집하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다! Aspose.Page는 개발자가 XPS 문서를 쉽게 작업할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 원활한 학습 경험을 위해 각 단계를 세분화하여 실제 사례를 통해 인쇄 티켓을 편집하는 과정을 안내합니다.
@@ -117,3 +123,9 @@ A2: 예, .NET용 Aspose.Page는 .NET Core와 호환되므로 개발 환경에 �
 ### Q5: Aspose.Page for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 방문[이 링크](https://purchase.aspose.com/temporary-license/) 임시면허를 취득하기 위해
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

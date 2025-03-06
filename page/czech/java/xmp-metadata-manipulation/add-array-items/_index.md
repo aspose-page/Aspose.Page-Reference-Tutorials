@@ -3,10 +3,16 @@ title: Přidejte položky pole v metadatech XMP pomocí Java
 linktitle: Přidejte položky pole v metadatech XMP pomocí Java
 second_title: Aspose.Page Java API
 description: Vylepšete soubory EPS pomocí Aspose.Page pro Java. Naučte se snadno přidávat položky pole do metadat XMP. Nyní postupujte podle našeho podrobného průvodce!
-type: docs
 weight: 10
 url: /cs/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte položky pole v metadatech XMP pomocí Java
+
 ## Úvod
 Vítejte v našem podrobném průvodci používáním Aspose.Page for Java k přidávání položek pole do metadat XMP. Aspose.Page je výkonná Java knihovna, která vám umožňuje manipulovat a pracovat s různými formáty dokumentů, včetně souborů EPS. V tomto tutoriálu se zaměříme na konkrétní úlohu přidávání položek pole do metadat XMP pomocí Javy.
 ## Předpoklady
@@ -78,3 +84,9 @@ Ano, Aspose.Page podporuje různé formáty dokumentů, včetně EPS, PDF a XPS.
  Produkt si můžete zakoupit[tady](https://purchase.aspose.com/buy).
 ### Jsou k dispozici dočasné licence pro Aspose.Page for Java?
  Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

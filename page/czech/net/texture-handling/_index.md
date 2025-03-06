@@ -3,10 +3,16 @@ title: Manipulace s texturou
 linktitle: Manipulace s texturou
 second_title: Aspose.Page .NET API
 description: Vylepšete PostScriptové dokumenty úžasnými vizuálními efekty! Naučte se používat vzory dlaždic textury pomocí Aspose.Page for .NET s naším podrobným průvodcem.
-type: docs
 weight: 33
 url: /cs/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s texturou
+
 ## Úvod
 
 V oblasti manipulace s dokumenty může zvládnutí manipulace s texturami otevřít svět kreativních možností. Aspose.Page for .NET je silným spojencem pro vývojáře, kteří chtějí pozvednout své PostScriptové (PS) dokumenty do nových výšin. V tomto článku se ponoříme do podmanivého světa výukových programů pro manipulaci s texturami, konkrétně se zaměřujeme na aplikaci vzorů obkládání textur.
@@ -36,3 +42,9 @@ Závěrem lze říci, že naše výukové programy pro manipulaci s texturami, k
 ## Návody pro manipulaci s texturou
 ### [Aplikujte texturu Tiling Pattern na PostScript (PS) pomocí Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
 Vylepšete své PostScriptové (PS) dokumenty pomocí texturových vzorů pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro kreativní dotek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

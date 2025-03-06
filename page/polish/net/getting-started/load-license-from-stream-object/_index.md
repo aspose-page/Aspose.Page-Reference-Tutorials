@@ -3,10 +3,16 @@ title: Załaduj licencję z obiektu strumieniowego za pomocą Aspose.Page dla .N
 linktitle: Załaduj licencję z obiektu strumieniowego
 second_title: Aspose.Page API .NET
 description: Odblokuj manipulację dokumentami w .NET za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem, aby bezproblemowo ładować licencje z obiektów strumieniowych.
-type: docs
 weight: 12
 url: /pl/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Załaduj licencję z obiektu strumieniowego za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Czy jesteś gotowy, aby przenieść swoje umiejętności programistyczne .NET na wyższy poziom? Jeśli kiedykolwiek czułeś potrzebę pracy z dokumentami, zwłaszcza w kontekście manipulacji stronami, to Aspose.Page dla .NET jest Twoim idealnym towarzyszem. W tym obszernym przewodniku przeprowadzimy Cię przez proces ładowania licencji z obiektu strumieniowego, co jest podstawowym krokiem w wykorzystaniu możliwości Aspose.Page dla .NET.
@@ -111,3 +117,9 @@ Odpowiedź 1: Tak, Aspose.Page został zaprojektowany tak, aby bezproblemowo wsp
 ### P5: Czy mogę przejść na inny plan licencyjny?
 
  Odpowiedź 5: Poznaj różne opcje licencjonowania i uaktualnienia[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

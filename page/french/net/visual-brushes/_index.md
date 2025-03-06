@@ -3,10 +3,16 @@ title: Pinceaux visuels
 linktitle: Pinceaux visuels
 second_title: API Aspose.Page .NET
 description: Améliorez le traitement de vos documents dans .NET avec les didacticiels Aspose.Page. Plongez dans le domaine des pinceaux visuels et maîtrisez les techniques permettant de créer des documents visuellement époustouflants.
-type: docs
 weight: 35
 url: /fr/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pinceaux visuels
+
 
 ## Introduction
 
@@ -36,3 +42,9 @@ N'oubliez pas que le pouvoir de transformer vos documents est entre vos mains. L
 ## Tutoriels sur les pinceaux visuels
 ### [Appliquer un pinceau visuel de grille avec Aspose.Page pour .NET](./apply-grid-visual-brush/)
 Explorez le monde dynamique du traitement de documents dans .NET avec Aspose.Page. Apprenez à appliquer un Grid Visual Brush pour des documents visuellement époustouflants.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ubah Item Array dengan Aspose.Page untuk .NET
 linktitle: Ubah Item Array
 second_title: Aspose.Halaman .NET API
 description: Pelajari cara mengubah item array dalam file EPS menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk manipulasi metadata yang efisien.
-type: docs
 weight: 15
 url: /id/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Item Array dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan komprehensif tentang mengubah item array menggunakan Aspose.Page untuk .NET! Aspose.Page adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan berbagai format dokumen, termasuk file EPS. Dalam tutorial ini, kita akan fokus pada manipulasi metadata XMP dalam file EPS, khususnya mengubah item array.
@@ -99,3 +105,9 @@ A1: Aspose.Page terutama berhubungan dengan file EPS, tetapi Aspose menyediakan 
 ### Q5: Di mana saya bisa mendapatkan dukungan atau terhubung dengan komunitas?
 
  A5: Kunjungi[Aspose.Halaman Forum](https://forum.aspose.com/c/page/39) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

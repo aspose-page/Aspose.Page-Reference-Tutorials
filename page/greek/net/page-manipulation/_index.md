@@ -3,10 +3,16 @@ title: Χειρισμός σελίδας
 linktitle: Χειρισμός σελίδας
 second_title: Aspose.Page .NET API
 description: Ανακαλύψτε τη δύναμη του Aspose.Page για .NET στον χειρισμό εγγράφων PostScript και XPS. Μάθετε να προσθέτετε, να βελτιώνετε και να αφαιρείτε σελίδες με τα αναλυτικά μας σεμινάρια.
-type: docs
 weight: 29
 url: /el/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός σελίδας
+
 
 ## Εισαγωγή
 
@@ -35,3 +41,9 @@ url: /el/net/page-manipulation/
 Βελτιώστε τις εφαρμογές σας .NET μαθαίνοντας πώς να προσθέτετε σελίδες σε έγγραφα XPS με το Aspose.Page για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
 ### [Καταργήστε τη σελίδα από το έγγραφο XPS με το Aspose.Page για .NET](./remove-page-from-xps-document/)
 Εξερευνήστε έναν ολοκληρωμένο οδηγό για την κατάργηση σελίδων από έγγραφα XPS χρησιμοποιώντας το Aspose.Page για .NET. Μάθετε τη διαδικασία βήμα προς βήμα, τις προϋποθέσεις και τις συχνές ερωτήσεις για απρόσκοπτη επεξεργασία εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

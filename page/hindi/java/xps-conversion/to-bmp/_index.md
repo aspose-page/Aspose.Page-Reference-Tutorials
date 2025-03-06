@@ -3,10 +3,16 @@ title: जावा में XPS को BMP में कनवर्ट कर
 linktitle: जावा में XPS को BMP में कनवर्ट करें
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page के साथ जानें कि जावा में XPS को BMP में कैसे बदलें। कुशल और उच्च गुणवत्ता वाले दस्तावेज़ रूपांतरण के लिए हमारी आसान मार्गदर्शिका का पालन करें।
-type: docs
 weight: 10
 url: /hi/java/xps-conversion/to-bmp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा में XPS को BMP में कनवर्ट करें
+
 ## परिचय
 Aspose.Page का उपयोग करके जावा में XPS (XML पेपर विशिष्टता) फ़ाइलों को BMP (बिटमैप) प्रारूप में परिवर्तित करने पर इस चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। जावा के लिए Aspose.Page एक शक्तिशाली लाइब्रेरी है जो XPS दस्तावेज़ों के साथ काम करने के लिए व्यापक सुविधाएँ प्रदान करती है। इस ट्यूटोरियल में, हम आपको XPS फ़ाइलों को BMP छवियों में आसानी से परिवर्तित करने की प्रक्रिया के बारे में बताएंगे।
 ## आवश्यक शर्तें
@@ -74,3 +80,9 @@ for (int i = 0; i < device.getResult().length; i++) {
 उत्तर: हाँ, Aspose.Page विभिन्न आउटपुट स्वरूपों का समर्थन करता है। विस्तृत सूची के लिए दस्तावेज़ देखें।
 ### प्रश्न: मुझे अतिरिक्त सहायता या समर्थन कहां मिल सकता है?
  ए: पर जाएँ[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) सामुदायिक समर्थन और चर्चा के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

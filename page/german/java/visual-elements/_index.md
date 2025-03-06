@@ -3,10 +3,16 @@ title: Visuelle Elemente – Java
 linktitle: Visuelle Elemente – Java
 second_title: Aspose.Page Java-API
 description: Verbessern Sie die visuelle Darstellung Ihrer Java-Dokumente mühelos mit Aspose.Page! Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie Ihre Anwendung durch das Hinzufügen von Rastern mit Visual Brush verbessern.
-type: docs
 weight: 41
 url: /de/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visuelle Elemente – Java
+
 ## Einführung
 
 Java-Entwickler, freut euch! Tauchen Sie mit Aspose.Page-Tutorials in die Welt der visuellen Elemente ein, die versprechen, die visuelle Darstellung Ihrer Java-Dokumente zu verändern. In dieser Ausgabe konzentrieren wir uns auf die faszinierende Kunst des Hinzufügens von Rastern mit Visual Brush. Schnall dich an, wenn wir uns auf den Weg machen, die Attraktivität deiner Bewerbung zu steigern.
@@ -46,3 +52,9 @@ Zusammenfassend lässt sich sagen, dass Aspose.Page für Java die Lösung der Wa
 ## Visuelle Elemente – Java-Tutorials
 ### [Fügen Sie ein Raster mit Visual Brush in Java hinzu](./add-grid/)
 Verbessern Sie die Visualisierung von Java-Dokumenten mit Aspose.Page! Erfahren Sie Schritt für Schritt, wie Sie mit Visual Brush Raster hinzufügen. Steigern Sie mühelos die Attraktivität Ihrer Bewerbung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

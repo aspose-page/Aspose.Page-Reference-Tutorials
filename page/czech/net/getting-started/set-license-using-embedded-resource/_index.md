@@ -3,10 +3,16 @@ title: Nastavte licenci pomocí Embedded Resource s Aspose.Page for .NET
 linktitle: Nastavit licenci pomocí Embedded Resource
 second_title: Aspose.Page .NET API
 description: Naučte se, jak nastavit licenci pomocí vložených prostředků s Aspose.Page for .NET. Zajistěte soulad a odemkněte plný potenciál zpracování dokumentů.
-type: docs
 weight: 14
 url: /cs/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte licenci pomocí Embedded Resource s Aspose.Page for .NET
+
 ## Úvod
 
 Aspose.Page for .NET je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s různými formáty dokumentů. V tomto tutoriálu vás provedeme procesem nastavení licence pomocí vloženého prostředku s Aspose.Page for .NET. Licencování je zásadním krokem při využití funkcí Aspose.Page v jejich plném rozsahu, zajištění souladu a uvolnění potenciálu knihovny.
@@ -110,3 +116,9 @@ Odpověď 1: Aspose.Page můžete používat bez licence, ale pro plnou funkčno
 ### Q5: Kde mohu zakoupit Aspose.Page pro .NET?
 
  A5: Můžete zakoupit Aspose.Page[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

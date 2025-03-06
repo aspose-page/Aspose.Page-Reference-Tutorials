@@ -3,10 +3,16 @@ title: दृश्य ब्रश
 linktitle: दृश्य ब्रश
 second_title: Aspose.Page .NET API
 description: Aspose.Page ट्यूटोरियल्स के साथ .NET में अपने दस्तावेज़ प्रसंस्करण को उन्नत करें। विज़ुअल ब्रश के दायरे में उतरें, दृश्यात्मक रूप से आश्चर्यजनक दस्तावेज़ों के लिए तकनीकों में महारत हासिल करें।
-type: docs
 weight: 35
 url: /hi/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# दृश्य ब्रश
+
 
 ## परिचय
 
@@ -36,3 +42,9 @@ url: /hi/net/visual-brushes/
 ## विज़ुअल ब्रश ट्यूटोरियल
 ### [.NET के लिए Aspose.Page के साथ ग्रिड विज़ुअल ब्रश लागू करें](./apply-grid-visual-brush/)
 Aspose.Page के साथ .NET में दस्तावेज़ प्रसंस्करण की गतिशील दुनिया का अन्वेषण करें। दृश्य रूप से आश्चर्यजनक दस्तावेज़ों के लिए ग्रिड विज़ुअल ब्रश का उपयोग करना सीखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

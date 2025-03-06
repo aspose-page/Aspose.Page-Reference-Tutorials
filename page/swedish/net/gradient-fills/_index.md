@@ -3,10 +3,16 @@ title: Gradientfyllningar
 linktitle: Gradientfyllningar
 second_title: Aspose.Page .NET API
 description: Upptäck konsten att fylla i gradient i .NET med Aspose.Page tutorials. Lyft dina projekt utan ansträngning – lägg till fängslande diagonala, horisontella och vertikala gradienter.
-type: docs
 weight: 27
 url: /sv/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradientfyllningar
+
 
 ## Introduktion
 
@@ -49,3 +55,9 @@ Lär dig hur du lägger till fantastiska horisontella gradienter till dina XPS-d
 Lär dig hur du lägger till visuellt tilltalande vertikala gradienter till PostScript-dokument (PS) i .NET med Aspose.Page. Lyft ditt dokumentskapande med denna steg-för-steg-guide.
 ### [Lägg till Vertical Gradient till XPS med Aspose.Page för .NET](./add-vertical-gradient-to-xps/)
 Lär dig hur du förbättrar XPS-dokument med vertikala gradienter med Aspose.Page för .NET. Följ vår steg-för-steg-guide för sömlös integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 与 Aspose.Page Java 轻松集成计量许可证
 linktitle: 在 Java 中设置计量许可证
 second_title: Aspose.Page Java API
 description: 探索 Aspose.Page 与 Java 的无缝集成。轻松设置计量许可证并增强您的文档处理能力。
-type: docs
 weight: 10
 url: /zh/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 与 Aspose.Page Java 轻松集成计量许可证
+
 ## 介绍
 欢迎阅读我们有关使用 Aspose.Page 在 Java 中设置计量许可证的综合指南。如果您希望增强文档处理能力并确保与 Aspose.Page 无缝集成，那么您来对地方了。在本教程中，我们将引导您完成整个过程，将每个步骤分解为易于理解的块。
 ## 先决条件
@@ -100,3 +106,9 @@ try {
 参考文档[这里](https://reference.aspose.com/page/java/).
 ### 问：如何获得临时许可证？
 可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

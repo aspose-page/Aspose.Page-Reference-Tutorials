@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page와 함께 포함된 리소스를 사용하여 라이�
 linktitle: 내장 리소스를 사용하여 라이선스 설정
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page에 포함된 리소스를 사용하여 라이선스를 설정하는 방법을 알아보세요. 규정 준수를 보장하고 문서 처리의 잠재력을 최대한 활용하세요.
-type: docs
 weight: 14
 url: /ko/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page와 함께 포함된 리소스를 사용하여 라이선스 설정
+
 ## 소개
 
 Aspose.Page for .NET은 개발자가 다양한 문서 형식을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Page for .NET에 포함된 리소스를 사용하여 라이선스를 설정하는 과정을 안내합니다. 라이선스는 Aspose.Page 기능을 최대한 활용하여 규정 준수를 보장하고 라이브러리의 잠재력을 발휘하는 데 있어 중요한 단계입니다.
@@ -110,3 +116,9 @@ A1: 라이선스 없이 Aspose.Page를 사용할 수 있지만 전체 기능과 
 ### Q5: .NET용 Aspose.Page를 어디서 구입할 수 있나요?
 
  A5: Aspose.Page를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

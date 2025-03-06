@@ -3,10 +3,16 @@ title: Přidejte dlaždicový obrázek v Java XPS
 linktitle: Přidejte dlaždicový obrázek v Java XPS
 second_title: Aspose.Page Java API
 description: Prozkoumejte bezproblémovou manipulaci s dokumenty Java XPS pomocí Aspose.Page. Naučte se snadno přidávat dlaždicové obrázky pomocí tohoto podrobného průvodce.
-type: docs
 weight: 11
 url: /cs/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte dlaždicový obrázek v Java XPS
+
 ## Úvod
 dynamickém světě vývoje Java neustále roste potřeba efektivní manipulace s dokumenty a jejich vytváření. Aspose.Page for Java se ukazuje jako výkonný nástroj, který vývojářům poskytuje možnost bezproblémově pracovat s dokumenty XPS. Tento tutoriál se zaměřuje na konkrétní úkol – přidání dlaždicového obrázku do dokumentu Java XPS.
 ## Předpoklady
@@ -68,3 +74,9 @@ Ano, Aspose.Page nabízí komerční licence. Kupte si je[tady](https://purchase
  Zapojte se do komunity Aspose.Page na[Fórum](https://forum.aspose.com/c/page/39).
 ### Jak mohu získat dočasnou licenci pro Aspose.Page?
  Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

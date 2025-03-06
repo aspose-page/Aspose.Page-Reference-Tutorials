@@ -1,12 +1,17 @@
 ---
 title: Περιεκτικά σεμινάρια και παραδείγματα Aspose.Page για .NET
 linktitle: Aspose.Page για .NET Tutorials
-type: docs
 weight: 10
 url: /el/net/
 description: Απελευθερώστε το Aspose.Page για τις δυνατότητες του .NET με σεμινάρια που καλύπτουν τη δημιουργία, τη χειραγώγηση και τη βελτίωση. Μάθετε από τα βασικά στις προηγμένες τεχνικές χωρίς κόπο.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περιεκτικά σεμινάρια και παραδείγματα Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να απελευθερώσετε όλες τις δυνατότητες του Aspose.Page για .NET; Μην ψάχνετε άλλο! Τα ολοκληρωμένα σεμινάρια μας καλύπτουν κάθε πτυχή, από βασικές λειτουργίες έως προηγμένες τεχνικές, διασφαλίζοντας ότι θα γίνετε ικανός χρήστης.
@@ -115,3 +120,9 @@ is_root: true
 Αυξήστε την επεξεργασία των εγγράφων σας στο .NET με τα μαθήματα Aspose.Page. Βουτήξτε στη σφαίρα των Visual Brushes, κατακτώντας τεχνικές για οπτικά εντυπωσιακά έγγραφα.
 ### [Διαχείριση μεταδεδομένων EPS](./eps-metadata-management/)
 Αναβαθμίστε την οργάνωση EPS με το Aspose.Page για .NET. Προσθέστε μεταδεδομένα χωρίς κόπο για βελτιωμένη προσβασιμότητα. Εξερευνήστε μαθήματα διαχείρισης μεταδεδομένων EPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

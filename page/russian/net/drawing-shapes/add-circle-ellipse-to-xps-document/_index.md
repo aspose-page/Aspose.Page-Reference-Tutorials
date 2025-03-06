@@ -3,10 +3,16 @@ title: Добавьте круговой эллипс в документ XPS с
 linktitle: Добавьте круговой эллипс в документ XPS
 second_title: Aspose.Page .NET API
 description: Улучшите документы XPS с помощью ярких радиальных градиентов с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству, чтобы получить потрясающие визуальные эффекты.
-type: docs
 weight: 11
 url: /ru/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте круговой эллипс в документ XPS с помощью Aspose.Page для .NET
+
 ## Введение
 
 Создание визуально привлекательных документов XPS является общим требованием в различных приложениях. Aspose.Page для .NET предоставляет мощный набор функций для эффективного управления документами XPS. В этом уроке мы сосредоточимся на добавлении кругового эллипса в документ XPS с помощью Aspose.Page для .NET. Следуйте инструкциям ниже, чтобы улучшить ваши документы XPS с помощью ярких радиальных градиентов.
@@ -114,3 +120,9 @@ A1: Aspose.Page для .NET специально предназначен для
 ### Вопрос 5: Могу ли я приобрести Aspose.Page для .NET?
 
  О5: Да, вы можете приобрести библиотеку.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

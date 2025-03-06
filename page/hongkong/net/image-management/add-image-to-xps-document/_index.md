@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將圖像新增至 XPS 文檔
 linktitle: 將影像新增至 XPS 文檔
 second_title: Aspose.Page .NET API
 description: 探索使用 Aspose.Page for .NET 將影像無縫整合到 XPS 文件中。請遵循我們的逐步指南以獲得順暢的開發體驗。
-type: docs
 weight: 11
 url: /zh-hant/net/image-management/add-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將圖像新增至 XPS 文檔
+
 ## 介紹
 
 在 .NET 開發領域，將影像合併到 XPS 文件中是常見的要求。 Aspose.Page for .NET 簡化了這個過程，提供了一個強大的工具包來輕鬆操作和增強 XPS 文件。本教學將引導您完成使用 Aspose.Page for .NET 將影像新增至 XPS 文件的步驟。
@@ -100,3 +106,9 @@ A4：是的，您可以透過造訪免費試用 Aspose.Page for .NET[免費試�
 ### 問題 5：我可以在哪裡尋求 Aspose.Page for .NET 的幫助或參與社群？
 
  A5：訪問[Aspose.Page for .NET 論壇](https://forum.aspose.com/c/page/39)與社區聯繫並獲得支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

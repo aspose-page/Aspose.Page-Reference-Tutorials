@@ -3,10 +3,16 @@ title: Manipulation de la toile
 linktitle: Manipulation de la toile
 second_title: API Aspose.Page .NET
 description: Explorez les didacticiels Aspose.Page pour .NET sur la manipulation du canevas. Découper et transformer des documents PS et XPS en toute simplicité. Améliorez vos compétences en traitement de documents.
-type: docs
 weight: 21
 url: /fr/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulation de la toile
+
 
 ## Introduction
 
@@ -42,3 +48,9 @@ Découvrez la puissance d'Aspose.Page pour .NET dans ce guide étape par étape 
 Libérez le potentiel d'Aspose.Page pour .NET avec ce guide complet sur les transformations PostScript. Créez des graphiques dynamiques sans effort.
 ### [Transformations XPS avec Aspose.Page pour .NET](./transformationsxps/)
 Transformez des documents XPS sans effort avec Aspose.Page pour .NET. Suivez notre guide étape par étape pour des transformations fluides.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

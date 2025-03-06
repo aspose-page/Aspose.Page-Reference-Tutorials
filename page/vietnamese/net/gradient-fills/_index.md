@@ -3,10 +3,16 @@ title: Đổ màu chuyển màu
 linktitle: Đổ màu chuyển màu
 second_title: API Aspose.Page .NET
 description: Khám phá nghệ thuật tô màu chuyển sắc trong .NET với hướng dẫn Aspose.Page. Nâng cao dự án của bạn một cách dễ dàng—thêm các chuyển màu theo đường chéo, ngang và dọc quyến rũ.
-type: docs
 weight: 27
 url: /vi/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đổ màu chuyển màu
+
 
 ## Giới thiệu
 
@@ -49,3 +55,9 @@ Tìm hiểu cách thêm độ dốc ngang tuyệt đẹp vào tài liệu XPS c�
 Tìm hiểu cách thêm độ dốc dọc hấp dẫn trực quan vào tài liệu PostScript (PS) trong .NET bằng Aspose.Page. Nâng cao khả năng tạo tài liệu của bạn với hướng dẫn từng bước này.
 ### [Thêm gradient dọc vào XPS với Aspose.Page for .NET](./add-vertical-gradient-to-xps/)
 Tìm hiểu cách nâng cao tài liệu XPS bằng độ dốc dọc bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

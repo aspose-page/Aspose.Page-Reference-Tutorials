@@ -3,10 +3,16 @@ title: 梯度相加 - XPS
 linktitle: 梯度相加 - XPS
 second_title: Aspose.Page Java API
 description: 使用令人驚嘆的漸層提升您的 Java XPS 文件。學習使用 Aspose.Page 教程輕鬆添加對角線、水平和垂直漸變。
-type: docs
 weight: 26
 url: /zh-hant/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 梯度相加 - XPS
+
 ## 介紹
 
 隨著科技的發展，增強視覺吸引力變得至關重要。在 Java XPS 文件領域，合併迷人的漸層是一個遊戲規則的改變者。歡迎來到 Java 教程的 Aspose.Page，在這裡我們巧妙地揭示了 XPS 中梯度相加的藝術。
@@ -40,3 +46,9 @@ url: /zh-hant/java/xps-gradient-addition/
 了解如何使用 Aspose.Page 在 Java 中為 XPS 文件添加令人驚嘆的水平漸層。請按照我們的逐步指南進行無縫整合。
 ### [在 Java XPS 中加入垂直漸變](./vertical/)
 了解如何使用 Aspose.Page 將垂直漸層新增至 Java XPS 文件。毫不費力地增強視覺吸引力。裡面有逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

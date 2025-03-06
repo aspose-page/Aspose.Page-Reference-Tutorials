@@ -3,10 +3,16 @@ title: Thêm hình elip hình tròn vào PostScript (PS) bằng Aspose.Page
 linktitle: Thêm hình elip hình tròn vào PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách dễ dàng thêm hình elip hình tròn vào tài liệu PostScript (PS) bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 10
 url: /vi/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình elip hình tròn vào PostScript (PS) bằng Aspose.Page
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách thêm hình elip hình tròn vào tài liệu PostScript (PS) bằng Aspose.Page cho .NET. Aspose.Page là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với PostScript và các định dạng tài liệu khác. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình kết hợp các hình elip hình tròn vào tài liệu PS của bạn một cách dễ dàng.
@@ -145,3 +151,9 @@ Chúc mừng! Bạn đã học thành công cách thêm hình elip hình tròn v
 ### Câu hỏi 5: Tôi có thể mua Aspose.Page cho .NET ở đâu?
 
  Câu trả lời 5: Mua Aspose.Page cho .NET từ[trang mua](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

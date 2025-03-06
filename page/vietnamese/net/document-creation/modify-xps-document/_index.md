@@ -3,10 +3,16 @@ title: Sửa đổi tài liệu XPS bằng Aspose.Page cho .NET
 linktitle: Sửa đổi tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Khám phá sức mạnh của Aspose.Page dành cho .NET để dễ dàng sửa đổi tài liệu XPS. Hãy làm theo hướng dẫn từng bước của chúng tôi, nâng cao khả năng xử lý tài liệu của bạn và thêm văn bản chữ ký được cá nhân hóa.
-type: docs
 weight: 12
 url: /vi/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sửa đổi tài liệu XPS bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sửa đổi tài liệu XPS bằng Aspose.Page cho .NET. Aspose.Page là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp XPS một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm văn bản chữ ký "Đã xác nhận" vào các trang được chỉ định trong tài liệu XPS.
@@ -119,3 +125,9 @@ Câu trả lời 3: Aspose.Page được thiết kế để xử lý các tài l
 ### Câu hỏi 5: Tôi có thể tìm kiếm trợ giúp hoặc kết nối với cộng đồng Aspose ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để đặt câu hỏi và tham gia với cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

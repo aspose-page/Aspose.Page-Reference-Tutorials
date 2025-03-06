@@ -3,10 +3,16 @@ title: Thêm siêu dữ liệu trong XMP bằng Java
 linktitle: Thêm siêu dữ liệu trong XMP bằng Java
 second_title: API Java Aspose.Page
 description: Khám phá khả năng tích hợp liền mạch của Aspose.Page cho Java và tìm hiểu cách thêm siêu dữ liệu XMP vào tệp EPS của bạn một cách dễ dàng. Nâng cao trò chơi quản lý tài liệu của bạn ngay hôm nay!
-type: docs
 weight: 11
 url: /vi/java/xmp-metadata-manipulation/add-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm siêu dữ liệu trong XMP bằng Java
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao siêu dữ liệu của tài liệu bằng cách thêm thông tin XMP bằng Java? Đừng tìm đâu xa! Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thêm siêu dữ liệu vào tệp EPS bằng thư viện Aspose.Page cho Java. Aspose.Page là một công cụ mạnh mẽ giúp đơn giản hóa các tác vụ thao tác tài liệu trong các ứng dụng Java.
 ## Điều kiện tiên quyết
@@ -101,3 +107,9 @@ Trong hướng dẫn này, chúng tôi đã khám phá quy trình thêm siêu d�
 Trả lời: Aspose.Page dành cho Java hỗ trợ nhiều định dạng khác nhau, bao gồm EPS, PDF và XPS.
 ### Câu hỏi: Tôi có thể mua Aspose.Page cho Java không?
  Trả lời: Có, bạn có thể mua Aspose.Page cho Java[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

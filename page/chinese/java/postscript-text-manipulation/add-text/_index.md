@@ -3,10 +3,16 @@ title: Aspose.Page Java 文本操作
 linktitle: 在 Java PostScript 中添加文本
 second_title: Aspose.Page Java API
 description: 在我们向 PostScript 文档添加文本的教程中探索 Aspose.Page for Java 的强大功能。学习轻松使用系统和自定义字体。
-type: docs
 weight: 10
 url: /zh/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java 文本操作
+
 ## 介绍
 欢迎阅读我们有关使用 Aspose.Page for Java 在 Java PostScript 中添加文本的分步指南。 Aspose.Page for Java 是一个功能强大的库，允许开发人员轻松操作 PostScript 文档。在本教程中，我们将引导您完成添加文本、使用系统和自定义字体、概述文本以及合并笔划以获得视觉上吸引人的结果的过程。
 ## 先决条件
@@ -99,3 +105,9 @@ document.save();
 `ExternalFontCache`用于获取自定义字体，确保它们可用于文本操作。
 ### 我可以对轮廓文本应用不同的笔画吗？
 是的，您可以使用以下命令自定义笔划的宽度和颜色`Stroke`类和`Color`类，分别。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

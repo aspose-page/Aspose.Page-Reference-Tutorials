@@ -3,10 +3,16 @@ title: التعامل مع الصفحات باستخدام Aspose.Page لـ .NET
 linktitle: التعامل مع الصفحات
 second_title: Aspose.Page .NET API
 description: استكشف معالجة الصفحات في .NET باستخدام Aspose.Page، وهي مكتبة قوية للتعامل مع مستندات XPS. اتبع دليلنا خطوة بخطوة للحصول على نتائج فعالة.
-type: docs
 weight: 12
 url: /ar/net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع الصفحات باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في عالم Aspose.Page لـ .NET! في هذا البرنامج التعليمي، سنرشدك خلال عملية معالجة الصفحات باستخدام مكتبة Aspose.Page في بيئة .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو، فقد تم تصميم هذا الدليل لمساعدتك في الاستفادة من قوة Aspose.Page لمعالجة الصفحات بكفاءة.
@@ -94,3 +100,9 @@ doc4.Save(dataDir + "out.xps");
 ### س5: أين يمكنني الحصول على الدعم أو طرح الأسئلة؟
 
  ج5: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للحصول على الدعم والتفاعل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

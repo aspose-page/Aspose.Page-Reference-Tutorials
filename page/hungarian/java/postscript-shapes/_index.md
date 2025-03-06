@@ -3,10 +3,16 @@ title: Alakzatok - PostScript
 linktitle: Alakzatok - PostScript
 second_title: Aspose.Page Java API
 description: Az Aspose.Page Java segítségével könnyedén készíthet lenyűgöző PostScript dokumentumokat. Merüljön el az ellipszisek és téglalapok hozzáadásával kapcsolatos oktatóanyagokban, amelyek vizuálisan vonzó tartalmat hozhatnak létre.
-type: docs
 weight: 34
 url: /hu/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alakzatok - PostScript
+
 
 ## Bevezetés
 
@@ -65,3 +71,9 @@ Használja ki az Aspose.Page for Java-ban rejlő lehetőségeket, és javítsa d
 Mester a lenyűgöző PostScript dokumentumok létrehozása Java nyelven az Aspose.Page segítségével. Ismerje meg lépésről lépésre ellipszisek hozzáadását a tetszetős tartalom érdekében.
 ### [Téglalap hozzáadása a Java PostScript-ben](./add-rectangle/)
 Fedezze fel a lépésről lépésre szóló útmutatót a Java PostScript dokumentumokhoz élénk téglalapok hozzáadásához az Aspose.Page for Java segítségével. Fokozza a dokumentum testreszabását erőfeszítés nélkül!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

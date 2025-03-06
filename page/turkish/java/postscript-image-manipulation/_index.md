@@ -3,10 +3,16 @@ title: Görüntü İşleme - PostScript
 linktitle: Görüntü İşleme - PostScript
 second_title: Aspose.Page Java API'si
 description: Aspose.Page for Java ile belge işleme becerilerinizi geliştirin. PostScript eğitimlerimize dalın, Java'da resim eklemeyi öğrenin ve belge becerilerinizi geliştirin.
-type: docs
 weight: 28
 url: /tr/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görüntü İşleme - PostScript
+
 
 ## giriiş
 
@@ -32,3 +38,9 @@ Aspose.Page for Java'nın PostScript eğitimleriyle bu keşif yolculuğuna çık
 ## Görüntü İşleme - PostScript Dersleri
 ### [Java PostScript'te Resim Ekleme](./add-image/)
 PostScript belgelerine resim ekleme hakkındaki bu eğitimde Aspose.Page Java'nın kusursuz entegrasyonunu keşfedin. Belge işleme yeteneklerinizi yükseltin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

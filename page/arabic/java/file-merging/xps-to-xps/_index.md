@@ -3,10 +3,16 @@ title: إتقان دمج ملفات XPS في Java باستخدام Aspose.Page
 linktitle: تحويل XPS إلى XPS في جافا
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية دمج ملفات XPS في Java بسلاسة باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة لمعالجة المستندات بكفاءة. عزز مهاراتك في تطوير Java الآن!
-type: docs
 weight: 12
 url: /ar/java/file-merging/xps-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان دمج ملفات XPS في Java باستخدام Aspose.Page
+
 ## مقدمة
 في مجال تطوير Java، تعد إدارة ملفات XPS ومعالجتها مطلبًا شائعًا. سواء كنت تتعامل مع التقارير أو العروض التقديمية أو أي مستند XPS آخر، فإن القدرة على دمج ملفات متعددة بسلاسة تعد مهارة قيمة. في هذا البرنامج التعليمي، سنتعمق في عملية دمج ملفات XPS باستخدام Aspose.Page for Java، وهي واجهة برمجة تطبيقات Java قوية للعمل مع مستندات XPS.
 ## المتطلبات الأساسية
@@ -59,3 +65,9 @@ document.merge(filesForMerge, outStream);
  نعم قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للتعامل مع المجتمع.
 ### كيف يمكنني شراء Aspose.Page لمكتبة Java؟
  يمكنك شراء المكتبة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

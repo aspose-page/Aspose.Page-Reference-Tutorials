@@ -3,10 +3,16 @@ title: Vizuális ecsetek
 linktitle: Vizuális ecsetek
 second_title: Aspose.Page .NET API
 description: Emelje fel a dokumentumfeldolgozást a .NET-ben az Aspose.Page oktatóanyagaival. Merüljön el a vizuális ecsetek birodalmában, sajátítsa el a vizuálisan lenyűgöző dokumentumok technikáit.
-type: docs
 weight: 35
 url: /hu/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vizuális ecsetek
+
 
 ## Bevezetés
 
@@ -36,3 +42,9 @@ Ne feledje, hogy a dokumentumok átalakításának hatalma az Ön kezében van. 
 ## Vizuális ecsetek oktatóanyagok
 ### [Alkalmazza a Grid Visual Brush-t az Aspose.Page segítségével .NET-hez](./apply-grid-visual-brush/)
 Fedezze fel a .NET dokumentumfeldolgozás dinamikus világát az Aspose.Page segítségével. Ismerje meg, hogyan alkalmazhat Grid Visual Brush-t vizuálisan lenyűgöző dokumentumokhoz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

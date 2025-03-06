@@ -3,10 +3,16 @@ title: أضف نصًا باستخدام سلسلة Unicode إلى مستند XPS
 linktitle: أضف نصًا بسلسلة Unicode إلى مستند XPS
 second_title: Aspose.Page .NET API
 description: اكتشف قوة Aspose.Page لـ .NET من خلال دليلنا خطوة بخطوة حول إضافة نص Unicode إلى مستندات XPS.
-type: docs
 weight: 12
 url: /ar/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف نصًا باستخدام سلسلة Unicode إلى مستند XPS باستخدام Aspose.Page
+
 ## مقدمة
 
 في مشهد تطوير .NET دائم التطور، تبرز Aspose.Page كأداة قوية للتعامل مع مستندات XPS. من بين ميزاته العديدة، تعد القدرة على إضافة نص باستخدام سلاسل Unicode إلى مستند XPS وظيفة قيمة. سيرشدك هذا الدليل المفصّل خطوة بخطوة خلال العملية، مما يضمن لك الاستفادة من هذه الإمكانية بفعالية.
@@ -88,3 +94,9 @@ doc.Save(dataDir + "AddTextRTL_out.xps");
 ### س5: هل هناك نسخة تجريبية متاحة قبل إجراء عملية الشراء؟
 
  ج5: بالتأكيد! يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/) قبل إجراء عملية الشراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

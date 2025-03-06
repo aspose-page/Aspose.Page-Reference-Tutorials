@@ -3,10 +3,16 @@ title: التحرير عبر المستندات
 linktitle: التحرير عبر المستندات
 second_title: Aspose.Page .NET API
 description: أطلق العنان لإمكانات Aspose.Page لـ .NET من خلال برامجنا التعليمية. أضف نسخًا من الحروف الرسومية، وقم بتغيير الألوان، وقم بمعالجة الصفحات بسهولة في مستندات XPS.
-type: docs
 weight: 22
 url: /ar/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحرير عبر المستندات
+
 
 ## مقدمة
 
@@ -34,3 +40,9 @@ url: /ar/net/cross-document-editing/
 أطلق العنان لقوة معالجة المستندات في .NET باستخدام Aspose.Page. أضف صورًا رمزية مليئة بالصور دون عناء. تعزيز الصور وتبسيط سير العمل الخاص بك.
 ### [التعامل مع الصفحات باستخدام Aspose.Page لـ .NET](./manipulate-pages/)
 استكشف معالجة الصفحات في .NET باستخدام Aspose.Page، وهي مكتبة قوية للتعامل مع مستندات XPS. اتبع دليلنا خطوة بخطوة للحصول على نتائج فعالة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

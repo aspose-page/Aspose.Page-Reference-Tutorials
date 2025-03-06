@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して名前付き値を変更する
 linktitle: 名前付き値の変更
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して EPS ファイル内の名前付き値を変更する方法を学習します。 XMP メタデータを簡単にカスタマイズして、カスタマイズされたドキュメント処理を実現します。
-type: docs
 weight: 16
 url: /ja/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して名前付き値を変更する
+
 ## 導入
 
 ドキュメント処理の世界では、Aspose.Page for .NET は EPS ファイルを操作するための強力なツールとして際立っています。これが提供する重要な機能の 1 つは、XMP メタデータ内の名前付き値を変更する機能です。このチュートリアルでは、Aspose.Page for .NET を使用して名前付き値を変更するプロセスを説明し、特定のニーズに応じて EPS ファイルをカスタマイズできるようにします。
@@ -100,3 +106,9 @@ A1: はい、Aspose.Page は EPS、XPS、PDF などのさまざまなドキュ�
 ### Q5: Aspose.Page for .NET ユーザーはどのようなサポート オプションを利用できますか?
 
  A5: コミュニティフォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/page/39)サポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

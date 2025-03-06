@@ -3,10 +3,16 @@ title: Dokumentum létrehozása Java nyelven PostScript segítségével
 linktitle: Dokumentum létrehozása Java nyelven PostScript segítségével
 second_title: Aspose.Page Java API
 description: Könnyedén hozhat létre PostScript dokumentumokat Java nyelven az Aspose.Page segítségével. Az oldalméret, a margók és a betűtípusok testreszabása. Próbálja ki most az ingyenes próbaverziót!
-type: docs
 weight: 10
 url: /hu/java/document-creation/postscript/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentum létrehozása Java nyelven PostScript segítségével
+
 ## Bevezetés
 Java fejlesztés területén a dokumentumok létrehozása és kezelése kulcsfontosságú szempont. Az Aspose.Page for Java megjelenésével a folyamat nemcsak hatékonnyá, hanem rugalmassá is válik. Ennek az oktatóanyagnak a célja, hogy végigvezeti Önt a dokumentum létrehozásának lépésein Java nyelven PostScript segítségével az Aspose.Page használatával, biztosítva ezzel az eszköz teljes erejét.
 ## Előfeltételek
@@ -80,3 +86,9 @@ Igen tudsz. Győződjön meg arról, hogy a mentési beállításoknál beállí
  Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
 ### Létezik fórum az Aspose.Page vitákhoz?
  Igen, csatlakozhatsz a közösséghez[fórum](https://forum.aspose.com/c/page/39) megbeszélésekre és támogatásra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Állítsa be a licencet a beágyazott erőforrás használatával az Aspo
 linktitle: Állítsa be a licencet a beágyazott erőforrás használatával
 second_title: Aspose.Page .NET API
 description: Ismerje meg, hogyan állíthat be licencet beágyazott erőforrások használatával az Aspose.Page for .NET segítségével. Biztosítsa a megfelelőséget, és aknázza ki a dokumentumfeldolgozásban rejlő lehetőségeket.
-type: docs
 weight: 14
 url: /hu/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a licencet a beágyazott erőforrás használatával az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 Az Aspose.Page for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak különféle dokumentumformátumokkal. Ebben az oktatóanyagban végigvezetjük a licenc beállításának folyamatán az Aspose.Page for .NET segítségével beágyazott erőforrás használatával. A licencelés döntő lépés az Aspose.Page funkcióinak teljes körű kihasználásában, biztosítva a megfelelőséget és felszabadítva a könyvtárban rejlő lehetőségeket.
@@ -110,3 +116,9 @@ Gratulálunk! Sikeresen beállított egy licencet egy beágyazott erőforrás ha
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.Page-t .NET-hez?
 
  5. válasz: Megvásárolhatja az Aspose.Page oldalt[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

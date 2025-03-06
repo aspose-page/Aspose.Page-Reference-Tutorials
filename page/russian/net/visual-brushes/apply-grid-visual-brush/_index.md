@@ -3,10 +3,16 @@ title: Примените визуальную кисть Grid с помощью
 linktitle: Применить визуальную кисть «Сетка»
 second_title: Aspose.Page .NET API
 description: Исследуйте динамичный мир обработки документов в .NET с помощью Aspose.Page. Узнайте, как применять визуальную кисть «Сетка» для создания потрясающих визуально документов.
-type: docs
 weight: 10
 url: /ru/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Примените визуальную кисть Grid с помощью Aspose.Page для .NET
+
 ## Введение
 
 В мире .NET-разработки Aspose.Page выделяется как мощный инструмент для решения задач обработки документов. Одна из интересных функций, которую он предлагает, — это возможность применять визуальную кисть Grid, придавая вашим документам новое измерение. Это руководство шаг за шагом проведет вас через процесс реализации визуальной кисти Magenta Grid с использованием Aspose.Page для .NET.
@@ -143,3 +149,9 @@ doc.Save(dataDir + "AddGrid_out.xps");
 ### Вопрос 5: Какая еще документация доступна для Aspose.Page для .NET?
 
  A5: Изучите полную документацию[здесь](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

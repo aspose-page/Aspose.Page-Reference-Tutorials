@@ -3,10 +3,16 @@ title: Muat Lisensi dari Stream Object dengan Aspose.Page untuk .NET
 linktitle: Muat Lisensi dari Objek Aliran
 second_title: Aspose.Halaman .NET API
 description: Buka kunci manipulasi dokumen di .NET dengan Aspose.Page. Ikuti panduan kami untuk memuat lisensi dari objek aliran dengan lancar.
-type: docs
 weight: 12
 url: /id/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Muat Lisensi dari Stream Object dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan keterampilan pengembangan .NET Anda ke tingkat berikutnya? Jika Anda pernah merasa perlu bekerja dengan dokumen, terutama dalam konteks manipulasi halaman, maka Aspose.Page for .NET adalah teman yang tepat untuk Anda. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses memuat lisensi dari objek aliran, sebuah langkah mendasar dalam memanfaatkan kemampuan Aspose.Page untuk .NET.
@@ -111,3 +117,9 @@ A1: Ya, Aspose.Page dirancang untuk bekerja secara lancar dengan semua versi .NE
 ### Q5: Dapatkah saya meningkatkan ke paket lisensi lain?
 
  A5: Jelajahi berbagai opsi lisensi dan tingkatkan versinya[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

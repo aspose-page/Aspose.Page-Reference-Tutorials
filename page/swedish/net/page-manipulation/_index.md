@@ -3,10 +3,16 @@ title: Sidmanipulation
 linktitle: Sidmanipulation
 second_title: Aspose.Page .NET API
 description: Upptäck kraften i Aspose.Page för .NET när det gäller att manipulera PostScript- och XPS-dokument. Lär dig att lägga till, förbättra och ta bort sidor med våra omfattande självstudier.
-type: docs
 weight: 29
 url: /sv/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sidmanipulation
+
 
 ## Introduktion
 
@@ -35,3 +41,9 @@ Utforska Aspose.Page för .NET, den ultimata lösningen för sömlös PostScript
 Förbättra dina .NET-applikationer genom att lära dig hur du lägger till sidor i XPS-dokument med Aspose.Page for .NET. Följ vår steg-för-steg-guide för sömlös integration.
 ### [Ta bort sida från XPS-dokument med Aspose.Page för .NET](./remove-page-from-xps-document/)
 Utforska en omfattande handledning om att ta bort sidor från XPS-dokument med Aspose.Page för .NET. Lär dig steg-för-steg-processen, förutsättningar och vanliga frågor för sömlös dokumenthantering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

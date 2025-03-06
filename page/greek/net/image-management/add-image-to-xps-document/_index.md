@@ -3,10 +3,16 @@ title: Προσθήκη εικόνας στο έγγραφο XPS με το Aspos
 linktitle: Προσθήκη εικόνας στο έγγραφο XPS
 second_title: Aspose.Page .NET API
 description: Εξερευνήστε την απρόσκοπτη ενσωμάτωση εικόνων σε έγγραφα XPS με το Aspose.Page για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για μια ομαλή εμπειρία ανάπτυξης.
-type: docs
 weight: 11
 url: /el/net/image-management/add-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη εικόνας στο έγγραφο XPS με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Στον κόσμο της ανάπτυξης .NET, η ενσωμάτωση εικόνων σε έγγραφα XPS είναι μια κοινή απαίτηση. Το Aspose.Page για .NET απλοποιεί αυτή τη διαδικασία, προσφέροντας μια ισχυρή εργαλειοθήκη για τον χειρισμό και τη βελτίωση των εγγράφων XPS χωρίς κόπο. Αυτό το σεμινάριο θα σας καθοδηγήσει στα βήματα της προσθήκης μιας εικόνας σε ένα έγγραφο XPS χρησιμοποιώντας το Aspose.Page για .NET.
@@ -100,3 +106,9 @@ A2: Ναι, το Aspose.Page για .NET είναι ανεξάρτητο από 
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια ή να συνεργαστώ με την κοινότητα για το Aspose.Page για .NET;
 
  A5: Επισκεφθείτε το[Aspose.Page για το φόρουμ .NET](https://forum.aspose.com/c/page/39) για να συνδεθείτε με την κοινότητα και να λάβετε υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

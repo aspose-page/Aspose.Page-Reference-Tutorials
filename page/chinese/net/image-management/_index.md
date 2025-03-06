@@ -3,10 +3,16 @@ title: 形象管理
 linktitle: 形象管理
 second_title: Aspose.Page .NET API
 description: 轻松增强您的文档视觉效果！探索涵盖图像管理的 Aspose.Page .NET 教程。从添加图像到转换格式，掌握每一步。
-type: docs
 weight: 28
 url: /zh/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 形象管理
+
 ## 介绍
 
 您是否希望使用 Aspose.Page for .NET 来提升文档的视觉吸引力？别再犹豫了！在这份综合指南中，我们将引导您完成各种图像管理教程，使您能够无缝地增强文档。
@@ -45,3 +51,9 @@ url: /zh/net/image-management/
 探索使用 Aspose.Page for .NET 轻松地将平铺图像添加到 XPS 文档中。增强视觉吸引力并创建令人惊叹的文档。
 ### [使用 Aspose.Page for .NET 将图像转换为 EPS 格式](./convert-image-to-eps-format/)
 了解如何使用 Aspose.Page for .NET 将 JPEG 图像转换为 EPS 格式。包含分步说明的综合指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

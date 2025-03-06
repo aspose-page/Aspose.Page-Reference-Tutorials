@@ -3,10 +3,16 @@ title: Appliquer une licence limitée avec Aspose.Page pour .NET
 linktitle: Appliquer une licence limitée
 second_title: API Aspose.Page .NET
 description: Découvrez l'intégration transparente d'Aspose.Page pour .NET avec ce guide étape par étape sur l'application d'une licence limitée. Optimisez le traitement des documents sans effort.
-type: docs
 weight: 10
 url: /fr/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Appliquer une licence limitée avec Aspose.Page pour .NET
+
 ## Introduction
 
 Libérez tout le potentiel d’Aspose.Page pour .NET en appliquant une licence limitée. Ce didacticiel vous guidera tout au long du processus de configuration et d'application de la licence limitée, garantissant une utilisation fluide et optimisée de cette puissante bibliothèque .NET.
@@ -112,3 +118,9 @@ Ce guide étape par étape vous a doté des connaissances nécessaires pour appl
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.Page pour .NET ?
 
  A5 : Visite[permis temporaire/](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

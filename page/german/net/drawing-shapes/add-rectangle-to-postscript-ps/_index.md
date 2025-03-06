@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page für .NET Rechteck zu PostScript (PS) hinzu
 linktitle: Rechteck zu PostScript hinzufügen (PS)
 second_title: Aspose.Page .NET-API
 description: Verbessern Sie die Dokumenterstellung in .NET mit Aspose.Page. Erfahren Sie Schritt für Schritt, wie Sie Rechtecke zu PostScript-Dateien (PS) hinzufügen.
-type: docs
 weight: 12
 url: /de/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page für .NET Rechteck zu PostScript (PS) hinzu
+
 ## Einführung
 
 Wenn Sie Ihre Dokumenterstellungsfunktionen in .NET erweitern möchten, bietet Aspose.Page eine leistungsstarke Lösung für die Verarbeitung von PostScript-Dokumenten. In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens von Rechtecken zu einem PostScript-Dokument mit Aspose.Page für .NET.
@@ -133,3 +139,10 @@ A2: Ja, Aspose.Page unterstützt verschiedene Dokumentformate, einschließlich X
 ### F5: Kann ich Aspose.Page vor dem Kauf testen?
 
  A5: Ja, Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/) , und für längere Verwendung, erwägen Sie a[temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

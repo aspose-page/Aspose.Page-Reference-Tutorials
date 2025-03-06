@@ -3,10 +3,16 @@ title: Thêm các mục mảng trong siêu dữ liệu XMP bằng Java
 linktitle: Thêm các mục mảng trong siêu dữ liệu XMP bằng Java
 second_title: API Java Aspose.Page
 description: Nâng cao các tệp EPS với Aspose.Page cho Java. Tìm hiểu cách thêm các mục mảng vào siêu dữ liệu XMP một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi ngay bây giờ!
-type: docs
 weight: 10
 url: /vi/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm các mục mảng trong siêu dữ liệu XMP bằng Java
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sử dụng Aspose.Page cho Java để thêm các mục mảng trong siêu dữ liệu XMP. Aspose.Page là một thư viện Java mạnh mẽ cho phép bạn thao tác và làm việc với nhiều định dạng tài liệu khác nhau, bao gồm cả tệp EPS. Trong hướng dẫn này, chúng ta sẽ tập trung vào nhiệm vụ cụ thể là thêm các mục mảng trong siêu dữ liệu XMP bằng Java.
 ## Điều kiện tiên quyết
@@ -78,3 +84,9 @@ Có, Aspose.Page hỗ trợ nhiều định dạng tài liệu khác nhau, bao g
  Bạn có thể mua sản phẩm[đây](https://purchase.aspose.com/buy).
 ### Giấy phép tạm thời có sẵn cho Aspose.Page cho Java không?
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

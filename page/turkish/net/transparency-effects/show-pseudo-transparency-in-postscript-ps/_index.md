@@ -3,10 +3,16 @@ title: Aspose.Page ile PostScript'te (PS) Sahte Şeffaflığı Göster
 linktitle: PostScript'te (PS) Sahte Şeffaflığı Göster
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET ile PostScript'te sözde şeffaflığın gücünü keşfedin. Görsel olarak etkileyici belgeler için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile PostScript'te (PS) Sahte Şeffaflığı Göster
+
 ## giriiş
 
 Sahte şeffaflık ekleyerek PostScript (PS) belgelerinizin görsel çekiciliğini arttırmayı mı istiyorsunuz? Aspose.Page for .NET, bu etkiyi zahmetsizce elde etmek için güçlü bir çözüm sunar. Bu adım adım eğitimde, Aspose.Page'i kullanarak PostScript'te sahte şeffaflık gösterme sürecinde size rehberlik edeceğiz.
@@ -129,3 +135,9 @@ C2: Evet, GraphicsPath uygun şekilde ayarlanarak aynı prensipler diğer şekil
 ### S5: Aspose.Page için nasıl geçici lisans alabilirim?
 
  A5: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) Aspose.Page için geçici bir lisans almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

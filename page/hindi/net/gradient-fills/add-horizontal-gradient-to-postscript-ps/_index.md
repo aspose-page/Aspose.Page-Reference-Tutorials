@@ -3,10 +3,16 @@ title: Aspose.Page के साथ पोस्टस्क्रिप्ट (
 linktitle: पोस्टस्क्रिप्ट में क्षैतिज ग्रेडिएंट जोड़ें (PS)
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page का उपयोग करके आश्चर्यजनक क्षैतिज ग्रेडिएंट के साथ पोस्टस्क्रिप्ट दस्तावेज़ों को बेहतर बनाएं। निर्बाध कार्यान्वयन के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
-type: docs
 weight: 12
 url: /hi/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page के साथ पोस्टस्क्रिप्ट (PS) में क्षैतिज ग्रेडिएंट जोड़ें
+
 ## परिचय
 
 .NET के लिए Aspose.Page का उपयोग करके पोस्टस्क्रिप्ट (PS) दस्तावेज़ों में क्षैतिज ग्रेडिएंट जोड़ने पर इस व्यापक ट्यूटोरियल में आपका स्वागत है। Aspose.Page एक शक्तिशाली लाइब्रेरी है जो विभिन्न प्रारूपों में दस्तावेज़ हेरफेर की सुविधा प्रदान करती है, डेवलपर्स को दस्तावेज़ों को निर्बाध रूप से बनाने, संशोधित करने और प्रस्तुत करने के लिए आवश्यक उपकरण प्रदान करती है।
@@ -143,3 +149,9 @@ A3: Aspose.Page XPS, PS, PDF और अन्य सहित विभिन्
 ### Q5: क्या Aspose.Page उपयोगकर्ताओं के लिए कोई सामुदायिक मंच है?
 
  A5: हाँ, Aspose.Page समुदाय में शामिल हों[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) अन्य उपयोगकर्ताओं से जुड़ने और सहायता प्राप्त करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

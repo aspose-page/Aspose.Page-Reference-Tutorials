@@ -3,10 +3,16 @@ title: Upravit existující tiskový lístek pomocí Aspose.Page pro .NET
 linktitle: Upravit existující tiskový lístek
 second_title: Aspose.Page .NET API
 description: Naučte se upravovat tiskové vstupenky v dokumentech XPS pomocí Aspose.Page for .NET. Průvodce krok za krokem pro vývojáře. Vylepšete ovládání tisku dokumentů bez námahy.
-type: docs
 weight: 11
 url: /cs/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upravit existující tiskový lístek pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Vítejte v tomto komplexním průvodci úpravou stávajících tištěných tiketů pomocí Aspose.Page pro .NET! Aspose.Page je výkonná knihovna, která umožňuje vývojářům pracovat s dokumenty XPS bez námahy. V tomto tutoriálu vás provedeme procesem úpravy tištěných lístků na praktických příkladech a rozebereme si každý krok, abyste se mohli bez problémů učit.
@@ -117,3 +123,9 @@ Odpověď 2: Ano, Aspose.Page for .NET je kompatibilní s .NET Core a poskytuje 
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.Page for .NET?
 
  A5: Návštěva[tento odkaz](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

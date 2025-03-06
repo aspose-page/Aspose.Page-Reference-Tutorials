@@ -3,10 +3,16 @@ title: Opanowanie łączenia plików XPS w Javie za pomocą Aspose.Page
 linktitle: Konwertuj XPS na XPS w Javie
 second_title: Aspose.Page API Java
 description: Dowiedz się, jak płynnie łączyć pliki XPS w Javie za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie manipulować dokumentami. Zwiększ swoje umiejętności programowania w języku Java już teraz!
-type: docs
 weight: 12
 url: /pl/java/file-merging/xps-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie łączenia plików XPS w Javie za pomocą Aspose.Page
+
 ## Wstęp
 dziedzinie programowania w języku Java zarządzanie plikami XPS i manipulowanie nimi jest powszechnym wymogiem. Niezależnie od tego, czy masz do czynienia z raportami, prezentacjami czy jakimkolwiek innym dokumentem XPS, możliwość płynnego łączenia wielu plików jest cenną umiejętnością. W tym samouczku zagłębimy się w proces łączenia plików XPS przy użyciu Aspose.Page dla Java, potężnego interfejsu API Java do pracy z dokumentami XPS.
 ## Warunki wstępne
@@ -59,3 +65,9 @@ Tak, Aspose.Page dla Java bezproblemowo obsługuje łączenie plików o różnyc
  Tak, odwiedź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) nawiązać kontakt ze społecznością.
 ### Jak mogę kupić bibliotekę Aspose.Page dla Java?
  Bibliotekę można kupić[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

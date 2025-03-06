@@ -3,10 +3,16 @@ title: 使用 Aspose.Page .NET 添加图像填充字形和外部图像
 linktitle: 添加图像填充字形和外部图像
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page 释放 .NET 中文档处理的强大功能。轻松添加图像填充的字形。增强视觉效果并简化您的工作流程。
-type: docs
 weight: 11
 url: /zh/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page .NET 添加图像填充字形和外部图像
+
 ## 介绍
 
 在 .NET 开发领域，Aspose.Page 作为处理文档处理任务的强大工具包脱颖而出。本教程将指导您完成使用 Aspose.Page for .NET 添加图像填充字形和合并外部图像的过程。读完本指南后，您将对如何增强文档处理能力有深入的了解。
@@ -131,3 +137,9 @@ A4：是的，您可以单独为每个字形自定义样式，提供高度的灵
 ### Q5：与其他文档处理工具相比，使用Aspose.Page有什么好处？
 
 A5：Aspose.Page 提供了全面的功能、出色的性能和丰富的文档，使其成为许多开发人员的首选。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

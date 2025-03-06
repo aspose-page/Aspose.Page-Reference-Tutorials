@@ -3,10 +3,16 @@ title: Kết cấu và mẫu - PostScript
 linktitle: Kết cấu và mẫu - PostScript
 second_title: API Java Aspose.Page
 description: Nâng cao PostScript bằng Aspose.Page cho Java. Thêm liền mạch các mẫu xếp lát kết cấu để có khả năng sáng tạo trong hướng dẫn Java PostScript chi tiết của chúng tôi.
-type: docs
 weight: 38
 url: /vi/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kết cấu và mẫu - PostScript
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng tài liệu PostScript của mình lên tầm cao sáng tạo mới chưa? Aspose.Page dành cho Java là cửa ngõ để bạn tích hợp liền mạch các mẫu xếp lớp kết cấu vào dự án của mình. Trong hướng dẫn toàn diện này, chúng ta sẽ đi sâu vào thế giới của kết cấu và hoa văn, khám phá toàn bộ tiềm năng của Java PostScript.
@@ -45,3 +51,9 @@ Bạn đã sẵn sàng nâng tầm thiết kế PostScript của mình chưa? Đ
 ## Kết cấu và Mẫu - Hướng dẫn PostScript
 ### [Thêm mẫu ốp lát kết cấu trong Java PostScript](./add-texture-tiling-pattern/)
 Dễ dàng thêm các mẫu xếp lớp kết cấu vào tài liệu PostScript bằng Aspose.Page cho Java. Khám phá hướng dẫn tích hợp liền mạch của chúng tôi để có khả năng sáng tạo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

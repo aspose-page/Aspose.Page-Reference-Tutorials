@@ -3,10 +3,16 @@ title: จัดการเพจด้วย Aspose.Page สำหรับ .N
 linktitle: จัดการหน้า
 second_title: Aspose.Page .NET API
 description: สำรวจการจัดการหน้าใน .NET โดยใช้ Aspose.Page ซึ่งเป็นไลบรารีที่มีประสิทธิภาพสำหรับการจัดการเอกสาร XPS ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ที่มีประสิทธิภาพ
-type: docs
 weight: 12
 url: /th/net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# จัดการเพจด้วย Aspose.Page สำหรับ .NET
+
 ## การแนะนำ
 
 ยินดีต้อนรับสู่โลกของ Aspose.Page สำหรับ .NET! ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการจัดการเพจโดยใช้ไลบรารี Aspose.Page ในสภาพแวดล้อม .NET ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คู่มือนี้ออกแบบมาเพื่อช่วยให้คุณควบคุมพลังของ Aspose.Page เพื่อการจัดการเพจอย่างมีประสิทธิภาพ
@@ -94,3 +100,9 @@ A3: ใช่ Aspose.Page เข้ากันได้กับ Visual Studio 
 ### คำถามที่ 5: ฉันจะรับการสนับสนุนหรือถามคำถามได้ที่ไหน
 
  A5: เยี่ยมชม[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อรับการสนับสนุนและมีส่วนร่วมกับชุมชน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

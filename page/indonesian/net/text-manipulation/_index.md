@@ -3,10 +3,16 @@ title: Manipulasi Teks
 linktitle: Manipulasi Teks
 second_title: Aspose.Halaman .NET API
 description: Kuasai manipulasi teks di .NET dengan tutorial Aspose.Page. Pelajari cara menambahkan teks Unicode ke dokumen PostScript dan XPS. Tingkatkan keterampilan manipulasi dokumen Anda.
-type: docs
 weight: 32
 url: /id/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Teks
+
 
 
 ## Perkenalan
@@ -39,3 +45,9 @@ Pelajari cara menambahkan teks Unicode ke file PostScript menggunakan Aspose.Pag
 Jelajahi kekuatan Aspose.Page untuk .NET dengan panduan langkah demi langkah kami tentang menambahkan teks Unicode ke dokumen XPS.
 ### [Tambahkan Teks ke Dokumen XPS dengan Aspose.Page untuk .NET](./add-text-to-xps-document/)
 Jelajahi panduan langkah demi langkah tentang menambahkan teks ke dokumen XPS menggunakan Aspose.Page untuk .NET. Tingkatkan proyek .NET Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

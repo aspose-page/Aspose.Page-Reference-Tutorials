@@ -3,10 +3,16 @@ title: Sloučení souborů
 linktitle: Sloučení souborů
 second_title: Aspose.Page Java API
 description: Bez námahy slučujte PostScriptové soubory do PDF a převádějte XPS na PDF nebo XPS v Javě pomocí Aspose.Page. Postupujte podle podrobných výukových programů pro bezproblémový převod dokumentů.
-type: docs
 weight: 31
 url: /cs/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sloučení souborů
+
 
 ## Úvod
 
@@ -40,3 +46,9 @@ Pomocí Aspose.Page můžete bez námahy sloučit PostScriptové soubory do PDF 
 Naučte se, jak bez námahy převést XPS na PDF v Javě pomocí Aspose.Page. Postupujte podle našeho podrobného průvodce pro efektivní převod dokumentů.
 ### [Převést XPS na XPS v Javě](./xps-to-xps/)
 Naučte se, jak bezproblémově sloučit soubory XPS v Javě pomocí Aspose.Page. Postupujte podle našeho podrobného průvodce pro efektivní manipulaci s dokumenty. Zlepšete své vývojové dovednosti v Javě hned teď!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

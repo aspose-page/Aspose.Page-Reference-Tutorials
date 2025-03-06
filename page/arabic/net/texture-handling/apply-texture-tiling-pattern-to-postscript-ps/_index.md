@@ -3,10 +3,16 @@ title: قم بتطبيق نمط تبليط الملمس على PostScript (PS) �
 linktitle: تطبيق نمط تبليط الملمس على PostScript (PS)
 second_title: Aspose.Page .NET API
 description: قم بتحسين مستندات PostScript (PS) الخاصة بك باستخدام أنماط تجانب النسيج باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على لمسة إبداعية.
-type: docs
 weight: 10
 url: /ar/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق نمط تبليط الملمس على PostScript (PS) باستخدام Aspose.Page
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول كيفية تطبيق نمط تجانب النسيج على مستند PostScript (PS) باستخدام Aspose.Page لـ .NET. Aspose.Page هي مكتبة قوية تسمح لك بالعمل مع تنسيقات المستندات المختلفة، وفي هذا البرنامج التعليمي، سنستكشف كيفية تحسين مستندات PS الخاصة بك عن طريق إضافة أنماط تجانب النسيج.
@@ -156,3 +162,10 @@ A1: نعم، يدعم Aspose.Page تنسيقات الصور المختلفة. ا
 ### س5: أين يمكنني العثور على موارد ودعم إضافيين؟
 
  ج5: قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) لدعم المجتمع واستكشاف[توثيق](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

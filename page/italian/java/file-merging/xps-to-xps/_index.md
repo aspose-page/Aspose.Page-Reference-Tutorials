@@ -3,10 +3,16 @@ title: Padroneggiare l'unione di file XPS in Java con Aspose.Page
 linktitle: Converti XPS in XPS in Java
 second_title: API Java Aspose.Page
 description: Scopri come unire file XPS in Java senza problemi utilizzando Aspose.Page. Segui la nostra guida passo passo per una gestione efficiente dei documenti. Migliora subito le tue capacità di sviluppo Java!
-type: docs
 weight: 12
 url: /it/java/file-merging/xps-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padroneggiare l'unione di file XPS in Java con Aspose.Page
+
 ## introduzione
 Nell'ambito dello sviluppo Java, la gestione e la manipolazione dei file XPS è un requisito comune. Che tu abbia a che fare con report, presentazioni o qualsiasi altro documento XPS, la capacità di unire più file senza problemi è un'abilità preziosa. In questo tutorial, approfondiremo il processo di unione dei file XPS utilizzando Aspose.Page per Java, una potente API Java per lavorare con documenti XPS.
 ## Prerequisiti
@@ -59,3 +65,9 @@ Sì, Aspose.Page per Java gestisce l'unione di file di varie dimensioni senza pr
  Sì, visita il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) per interagire con la comunità.
 ### Come posso acquistare la libreria Aspose.Page per Java?
  È possibile acquistare la libreria[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Arceerpatronen - PostScript
 linktitle: Arceerpatronen - PostScript
 second_title: Aspose.Page Java-API
 description: Ontdek de kunst van het toevoegen van boeiende arceringspatronen aan Java PostScript-documenten met Aspose.Page. Verbeter visuele inhoud moeiteloos voor verbluffende resultaten.
-type: docs
 weight: 27
 url: /nl/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Arceerpatronen - PostScript
+
 ## Invoering
 
 Het maken van visueel aantrekkelijke Java PostScript-documenten wordt een fluitje van een cent met Aspose.Page. In deze tutorial duiken we in de fascinerende wereld van arceringspatronen en onderzoeken we hoe u uw visuele inhoud moeiteloos kunt verbeteren.
@@ -30,3 +36,9 @@ Of u nu een doorgewinterde ontwikkelaar bent of een nieuwkomer op het gebied van
 ## Arceerpatronen - PostScript-tutorials
 ### [Voeg een arceringspatroon toe in Java PostScript](./add-hatch-pattern/)
 Leer hoe u boeiende arceringspatronen kunt toevoegen aan Java PostScript-documenten met behulp van Aspose.Page. Verbeter uw visuele inhoud moeiteloos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

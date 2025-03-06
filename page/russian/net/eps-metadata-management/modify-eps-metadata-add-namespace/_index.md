@@ -3,10 +3,16 @@ title: Добавьте пространство имен с помощью Aspo
 linktitle: Добавить пространство имен
 second_title: Aspose.Page .NET API
 description: Улучшите файлы EPS с помощью Aspose.Page для .NET. Легко добавляйте пространства имен, изменяйте метаданные XMP и ускоряйте рабочий процесс разработки .NET.
-type: docs
 weight: 13
 url: /ru/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте пространство имен с помощью Aspose.Page для .NET
+
 ## Введение
 
 В динамичном мире разработки .NET Aspose.Page выделяется как мощный инструмент для работы с файлами EPS. Aspose.Page для .NET позволяет разработчикам беспрепятственно манипулировать метаданными XMP, обеспечивая гибкость для добавления пространств имен и улучшения метаданных файлов EPS.
@@ -117,3 +123,9 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 ### В5: Как я могу получить временную лицензию для Aspose.Page?
 
  A5: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) в целях тестирования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

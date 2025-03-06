@@ -3,10 +3,16 @@ title: Formen zeichnen
 linktitle: Formen zeichnen
 second_title: Aspose.Page .NET-API
 description: Verbessern Sie mühelos die Dokumenterstellung in .NET! Erfahren Sie Schritt-für-Schritt-Anleitungen zum Hinzufügen von Kreisen, Ellipsen und Rechtecken zu PostScript (PS) mit Aspose.Page .NET.
-type: docs
 weight: 31
 url: /de/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formen zeichnen
+
 ## Einführung
 
 Mit Aspose.Page für .NET können Entwickler die Dokumentenerstellung in der .NET-Umgebung verbessern. Tauchen Sie ein in unsere Schritt-für-Schritt-Anleitungen, um die Kunst zu erlernen, faszinierende Formen zu PostScript- (PS) und XPS-Dokumenten hinzuzufügen.
@@ -33,3 +39,9 @@ Verbessern Sie XPS-Dokumente mit lebendigen radialen Verläufen mit Aspose.Page 
 Verbessern Sie die Dokumenterstellung in .NET mit Aspose.Page. Erfahren Sie Schritt für Schritt, wie Sie Rechtecke zu PostScript-Dateien (PS) hinzufügen.
 ### [Fügen Sie mit Aspose.Page für .NET ein Rechteck zum XPS-Dokument hinzu](./add-rectangle-to-xps-document/)
 Verbessern Sie die Dokumenterstellung mit Aspose.Page für .NET. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie XPS-Dokumenten Rechtecke hinzufügen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

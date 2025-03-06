@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 從 XPS 文件中刪除頁面
 linktitle: 從 XPS 文件中刪除頁面
 second_title: Aspose.Page .NET API
 description: 探索使用 Aspose.Page for .NET 從 XPS 文件中刪除頁面的綜合教學課程。了解無縫文件操作的逐步流程、先決條件和常見問題。
-type: docs
 weight: 12
 url: /zh-hant/net/page-manipulation/remove-page-from-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 從 XPS 文件中刪除頁面
+
 ## 介紹
 
 在本教學中，我們將探索使用 Aspose.Page for .NET 從 XPS 文件中刪除頁面的過程。 Aspose.Page 是一個功能強大的程式庫，可讓 .NET 開發人員無縫地處理 XPS（XML 紙張規格）文件。如果您發現自己需要從 XPS 文件中刪除特定頁面，本逐步指南將引導您完成流程。
@@ -100,3 +106,9 @@ A2：Aspose.Page 會定期更新，以確保與最新的 .NET 框架版本相容
 ### Q5：測試 Aspose.Page 需要臨時授權嗎？
 
  A5：是的，您可以獲得[臨時執照](https://purchase.aspose.com/temporary-license/)用於測試目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

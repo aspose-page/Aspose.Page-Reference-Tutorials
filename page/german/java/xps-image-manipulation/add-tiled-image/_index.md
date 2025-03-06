@@ -3,10 +3,16 @@ title: Fügen Sie ein gekacheltes Bild in Java XPS hinzu
 linktitle: Fügen Sie ein gekacheltes Bild in Java XPS hinzu
 second_title: Aspose.Page Java-API
 description: Entdecken Sie die nahtlose Manipulation von Java XPS-Dokumenten mit Aspose.Page. Erfahren Sie mit dieser Schritt-für-Schritt-Anleitung, wie Sie mühelos gekachelte Bilder hinzufügen.
-type: docs
 weight: 11
 url: /de/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie ein gekacheltes Bild in Java XPS hinzu
+
 ## Einführung
 In der dynamischen Welt der Java-Entwicklung wächst der Bedarf an effizienter Dokumentenbearbeitung und -erstellung ständig. Aspose.Page für Java erweist sich als leistungsstarkes Tool, das Entwicklern die Möglichkeit bietet, nahtlos mit XPS-Dokumenten zu arbeiten. Dieses Tutorial konzentriert sich auf eine bestimmte Aufgabe – das Hinzufügen eines gekachelten Bildes zu einem Java XPS-Dokument.
 ## Voraussetzungen
@@ -68,3 +74,9 @@ Ja, Aspose.Page bietet kommerzielle Lizenzen an. Kaufen Sie sie[Hier](https://pu
  Treten Sie mit der Aspose.Page-Community auf der Seite in Kontakt[Forum](https://forum.aspose.com/c/page/39).
 ### Wie kann ich eine temporäre Lizenz für Aspose.Page erhalten?
  Erwerben Sie eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

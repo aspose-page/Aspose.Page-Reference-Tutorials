@@ -3,10 +3,16 @@ title: Χειρισμός κειμένου - PostScript
 linktitle: Χειρισμός κειμένου - PostScript
 second_title: Aspose.Page Java API
 description: Ξεκλειδώστε το Aspose.Page για τις δυνατότητες της Java με εκπαιδευτικά προγράμματα PostScript. Προσθέστε κείμενο, συμπεριλαμβανομένων των συμβολοσειρών Unicode, χωρίς κόπο για να βελτιώσετε τα έργα σας.
-type: docs
 weight: 36
 url: /el/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός κειμένου - PostScript
+
 
 ## Εισαγωγή
 
@@ -30,3 +36,9 @@ url: /el/java/postscript-text-manipulation/
 Εξερευνήστε τη δύναμη του Aspose.Page για Java στο σεμινάριο μας σχετικά με την προσθήκη κειμένου σε έγγραφα PostScript. Μάθετε να χρησιμοποιείτε εύκολα το σύστημα και τις προσαρμοσμένες γραμματοσειρές.
 ### [Προσθέστε κείμενο χρησιμοποιώντας συμβολοσειρά Unicode σε Java PostScript](./add-text-unicode/)
 Εξερευνήστε τη δύναμη του Aspose.Page για Java στην προσθήκη κειμένου Unicode στα έργα σας PostScript. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Αλλαγή στοιχείων πίνακα σε XMP χρησιμοπο�
 linktitle: Αλλαγή στοιχείων πίνακα σε XMP χρησιμοποιώντας Java
 second_title: Aspose.Page Java API
 description: Μάθετε πώς να αλλάζετε στοιχεία πίνακα σε XMP χρησιμοποιώντας το Aspose.Page για Java. Τροποποιήστε τα μεταδεδομένα χωρίς κόπο με τον βήμα προς βήμα οδηγό μας. Βελτιώστε τα έγγραφά σας EPS τώρα!
-type: docs
 weight: 15
 url: /el/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αλλαγή στοιχείων πίνακα σε XMP χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για την αλλαγή στοιχείων πίνακα σε XMP χρησιμοποιώντας το Aspose.Page για Java! Το Aspose.Page είναι μια ισχυρή βιβλιοθήκη Java που σας επιτρέπει να εργάζεστε με μεταδεδομένα XMP σε αρχεία EPS απρόσκοπτα. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία τροποποίησης στοιχείων πίνακα στα μεταδεδομένα XMP, βοηθώντας σας να βελτιώσετε και να προσαρμόσετε τα έγγραφά σας EPS.
 ## Προαπαιτούμενα
@@ -77,3 +83,9 @@ try {
  Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να αγοράσω την πλήρη έκδοση του Aspose.Page για Java;
  Μπορείτε να αγοράσετε την πλήρη έκδοση[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

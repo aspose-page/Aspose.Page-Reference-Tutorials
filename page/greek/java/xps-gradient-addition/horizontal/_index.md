@@ -3,10 +3,16 @@ title: Προσθήκη οριζόντιας κλίσης σε Java XPS
 linktitle: Προσθήκη οριζόντιας κλίσης σε Java XPS
 second_title: Aspose.Page Java API
 description: Μάθετε πώς μπορείτε να προσθέσετε μια εκπληκτική οριζόντια κλίση σε έγγραφα XPS σε Java χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 11
 url: /el/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη οριζόντιας κλίσης σε Java XPS
+
 ## Εισαγωγή
 Καλώς ήρθατε σε αυτόν τον αναλυτικό οδηγό για την προσθήκη οριζόντιας διαβάθμισης σε Java XPS χρησιμοποιώντας το Aspose.Page για Java. Το Aspose.Page για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με έγγραφα XPS (XML Paper Specification) απρόσκοπτα.
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας μιας εφαρμογής Java για να προσθέσετε μια οριζόντια κλίση σε ένα έγγραφο XPS. Ακολουθήστε τα παρακάτω βήματα για να το πετύχετε εύκολα.
@@ -70,3 +76,9 @@ doc.save(dataDir + "HorizontalGradient.xps");
 Απολύτως! Έχετε τον πλήρη έλεγχο των χρωμάτων και των θέσεων κάθε στάσης ντεγκραντέ.
 ### Ε: Υπάρχει κάποιο φόρουμ κοινότητας για το Aspose.Page όπου μπορώ να ζητήσω βοήθεια;
  Ναι, μπορείτε να επισκεφθείτε το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39) για να συνδεθείτε με την κοινότητα και να λάβετε βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

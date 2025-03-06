@@ -3,10 +3,16 @@ title: التلاعب بالنص
 linktitle: التلاعب بالنص
 second_title: Aspose.Page .NET API
 description: أتقن معالجة النص في .NET باستخدام دروس Aspose.Page. تعرف على كيفية إضافة نص Unicode إلى مستندات PostScript وXPS. ارفع مهاراتك في التعامل مع المستندات.
-type: docs
 weight: 32
 url: /ar/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب بالنص
+
 
 
 ## مقدمة
@@ -39,3 +45,9 @@ url: /ar/net/text-manipulation/
 اكتشف قوة Aspose.Page لـ .NET من خلال دليلنا خطوة بخطوة حول إضافة نص Unicode إلى مستندات XPS.
 ### [أضف نصًا إلى مستند XPS باستخدام Aspose.Page لـ .NET](./add-text-to-xps-document/)
 استكشف دليلاً خطوة بخطوة حول إضافة نص إلى مستندات XPS باستخدام Aspose.Page لـ .NET. قم بتحسين مشاريع .NET الخاصة بك بسهولة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Isi Gradien
 linktitle: Isi Gradien
 second_title: Aspose.Halaman .NET API
 description: Temukan seni pengisian gradien di .NET dengan tutorial Aspose.Page. Tingkatkan proyek Anda dengan mudah—tambahkan gradien diagonal, horizontal, dan vertikal yang menawan.
-type: docs
 weight: 27
 url: /id/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Isi Gradien
+
 
 ## Perkenalan
 
@@ -49,3 +55,9 @@ Pelajari cara menambahkan gradien horizontal yang menakjubkan ke dokumen XPS And
 Pelajari cara menambahkan gradien vertikal yang menarik secara visual ke dokumen PostScript (PS) di .NET menggunakan Aspose.Page. Tingkatkan pembuatan dokumen Anda dengan panduan langkah demi langkah ini.
 ### [Tambahkan Gradien Vertikal ke XPS dengan Aspose.Page untuk .NET](./add-vertical-gradient-to-xps/)
 Pelajari cara menyempurnakan dokumen XPS dengan gradien vertikal menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hướng dẫn Java Aspose.Page - Thêm trang trong PostScript
 linktitle: Thêm trang trong PostScript
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thêm trang vào tài liệu Java PostScript bằng Aspose.Page. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu liền mạch.
-type: docs
 weight: 11
 url: /vi/java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn Java Aspose.Page - Thêm trang trong PostScript
+
 ## Giới thiệu
 Trong thế giới quản lý và thao tác tài liệu, Aspose.Page cho Java nổi lên như một công cụ mạnh mẽ để xử lý các tài liệu PostScript. Thêm trang vào tài liệu PostScript là yêu cầu phổ biến trong nhiều ứng dụng. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình thêm trang bằng Aspose.Page cho Java, chia nhỏ từng bước để giúp trải nghiệm học tập trở nên liền mạch.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Tuyệt đối! Aspose.Page cho phép bạn thêm nhiều loại nội dung, bao
 Có, Aspose.Page được thiết kế để xử lý hiệu quả cả tài liệu nhỏ và lớn một cách dễ dàng.
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Page ở đâu?
  Khám phá cái[Tài liệu Aspose.Page](https://reference.aspose.com/page/java/) , hoặc ghé thăm[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

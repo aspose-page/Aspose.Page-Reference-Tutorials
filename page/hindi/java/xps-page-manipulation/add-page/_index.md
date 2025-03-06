@@ -3,10 +3,16 @@ title: Aspose.Page Java - XPS ट्यूटोरियल में पेज
 linktitle: जावा एक्सपीएस में पेज जोड़ें
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page के साथ Java XPS दस्तावेज़ों को उन्नत करें। उन्नत एप्लिकेशन कार्यक्षमता के लिए सहजता से पेज जोड़ना सीखें। अब ट्यूटोरियल में गोता लगाएँ!
-type: docs
 weight: 10
 url: /hi/java/xps-page-manipulation/add-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java - XPS ट्यूटोरियल में पेज जोड़ें
+
 ## परिचय
 यदि आप XPS दस्तावेज़ों में पेज जोड़कर अपने जावा एप्लिकेशन की क्षमताओं को बढ़ाना चाह रहे हैं, तो आप सही जगह पर हैं। इस ट्यूटोरियल में, हम जावा के लिए Aspose.Page का उपयोग करने की प्रक्रिया में आपका मार्गदर्शन करेंगे। Aspose.Page एक शक्तिशाली और बहुमुखी लाइब्रेरी है जो XPS फ़ाइलों के हेरफेर को सरल बनाती है, जिससे यह कुशल समाधान चाहने वाले डेवलपर्स के लिए एक आदर्श विकल्प बन जाता है।
 ## आवश्यक शर्तें
@@ -54,3 +60,9 @@ doc.save(dataDir + "AddPages_out.xps");
 Aspose.Page विभिन्न आकारों के XPS दस्तावेज़ों को कुशलतापूर्वक संभालता है, लेकिन प्रदर्शन के लिए अनुकूलन करना हमेशा अच्छा अभ्यास है।
 ### मुझे Aspose.Page के लिए अतिरिक्त सहायता कहां मिल सकती है?
  दौरा करना[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) सामुदायिक समर्थन और चर्चा के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

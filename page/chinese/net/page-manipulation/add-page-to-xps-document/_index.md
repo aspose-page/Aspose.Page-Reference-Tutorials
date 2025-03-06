@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 将页面添加到 XPS 文档
 linktitle: 将页面添加到 XPS 文档
 second_title: Aspose.Page .NET API
 description: 通过学习如何使用 Aspose.Page for .NET 将页面添加到 XPS 文档来增强您的 .NET 应用程序。请按照我们的分步指南进行无缝集成。
-type: docs
 weight: 11
 url: /zh/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 将页面添加到 XPS 文档
+
 ## 介绍
 
 如果您在 .NET 中处理 XPS 文档并需要以编程方式添加页面，Aspose.Page for .NET 是您的首选解决方案。在本教程中，我们将指导您逐步完成向 XPS 文档添加页面的过程。作为一名熟练的 SEO 作家，我将确保本指南不仅内容丰富，而且还考虑到搜索引擎优化，使其成为开发人员和内容创建者的宝贵资源。
@@ -86,3 +92,10 @@ A4：是的，您可以免费试用 Aspose.Page for .NET[这里](https://release
 ### Q5：如何获得 Aspose.Page for .NET 的临时许可证？
 
  A5：访问[临时许可证页面](https://purchase.aspose.com/temporary-license/)获得用于测试目的的临时许可证。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

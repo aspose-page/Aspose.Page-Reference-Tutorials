@@ -3,10 +3,16 @@ title: Tambahkan Gradien Vertikal di Java PostScript
 linktitle: Tambahkan Gradien Vertikal di Java PostScript
 second_title: Aspose.Halaman Java API
 description: Jelajahi panduan langkah demi langkah untuk menambahkan gradien vertikal di Java PostScript dengan Aspose.Page untuk Java. Sempurnakan dokumen Anda dengan mudah dengan visual yang hidup.
-type: docs
 weight: 14
 url: /id/java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gradien Vertikal di Java PostScript
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah tentang menambahkan gradien vertikal di Java PostScript menggunakan Aspose.Page untuk Java. Jika Anda ingin menyempurnakan dokumen Anda dengan gradien yang menarik, tutorial ini cocok untuk Anda. Aspose.Page untuk Java menyediakan alat canggih untuk memanipulasi dokumen PostScript dengan lancar.
 ## Prasyarat
@@ -101,3 +107,9 @@ Ya, Aspose.Page untuk Java dirancang untuk bekerja secara lancar dengan pustaka 
  Anda dapat membeli Aspose.Page untuk Java[Di Sini](https://purchase.aspose.com/buy).
 ### Apakah ada forum untuk diskusi Aspose.Page?
  Ya, Anda dapat bergabung dengan forum komunitas[Di Sini](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

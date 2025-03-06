@@ -3,10 +3,16 @@ title: Manajemen Lisensi
 linktitle: Manajemen Lisensi
 second_title: Aspose.Halaman Java API
 description: Buka potensi penuh Aspose.Page untuk Java dengan Tutorial Manajemen Lisensi kami. Siapkan lisensi terukur dengan mudah untuk meningkatkan kemampuan pemrosesan dokumen.
-type: docs
 weight: 30
 url: /id/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manajemen Lisensi
+
 ## Perkenalan
 
 Selamat datang di Tutorial Manajemen Lisensi untuk Aspose.Page di Java! Dalam panduan komprehensif ini, kami akan mempelajari seluk-beluk pengaturan lisensi terukur untuk mengoptimalkan kemampuan pemrosesan dokumen Anda. Mari kita memulai perjalanan yang membuka potensi penuh Aspose.Page, memastikan integrasi yang lancar dengan Java.
@@ -39,3 +45,9 @@ Tutorial Manajemen Lisensi kami untuk Aspose.Page di Java adalah pintu gerbang A
 ## Tutorial Manajemen Lisensi
 ### [Tetapkan Lisensi Terukur di Java](./set-metered-license/)
 Jelajahi integrasi Aspose.Page yang mulus dengan Java. Siapkan lisensi terukur dengan mudah dan tingkatkan kemampuan pemrosesan dokumen Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

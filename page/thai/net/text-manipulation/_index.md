@@ -3,10 +3,16 @@ title: การจัดการข้อความ
 linktitle: การจัดการข้อความ
 second_title: Aspose.Page .NET API
 description: การจัดการข้อความหลักใน .NET ด้วยบทช่วยสอน Aspose.Page เรียนรู้วิธีการเพิ่มข้อความ Unicode ลงในเอกสาร PostScript และ XPS ยกระดับทักษะการจัดการเอกสารของคุณ
-type: docs
 weight: 32
 url: /th/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการข้อความ
+
 
 
 ## การแนะนำ
@@ -39,3 +45,9 @@ url: /th/net/text-manipulation/
 สำรวจพลังของ Aspose.Page สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนในการเพิ่มข้อความ Unicode ลงในเอกสาร XPS
 ### [เพิ่มข้อความลงในเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET](./add-text-to-xps-document/)
 สำรวจคำแนะนำทีละขั้นตอนในการเพิ่มข้อความลงในเอกสาร XPS โดยใช้ Aspose.Page สำหรับ .NET ปรับปรุงโครงการ .NET ของคุณได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

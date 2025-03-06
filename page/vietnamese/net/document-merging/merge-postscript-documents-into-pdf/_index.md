@@ -3,10 +3,16 @@ title: Hợp nhất tài liệu PostScript thành PDF bằng Aspose.Page cho .NE
 linktitle: Hợp nhất tài liệu PostScript thành PDF
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách dễ dàng hợp nhất các tài liệu PostScript thành PDF bằng Aspose.Page for .NET. Nâng cao khả năng xử lý tài liệu của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 10
 url: /vi/net/document-merging/merge-postscript-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hợp nhất tài liệu PostScript thành PDF bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý tài liệu, Aspose.Page for .NET nổi bật như một công cụ mạnh mẽ để thao tác các tài liệu PostScript. Nếu bạn thấy mình cần hợp nhất nhiều tài liệu PostScript thành một tệp PDF tiện lợi, duy nhất thì bạn đã đến đúng nơi. Hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình, đảm bảo rằng bạn khai thác toàn bộ tiềm năng của Aspose.Page cho .NET.
@@ -116,3 +122,9 @@ A2: Chỉ định các thư mục phông chữ bổ sung trong đối tượng t
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho .NET?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

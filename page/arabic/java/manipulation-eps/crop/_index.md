@@ -3,10 +3,16 @@ title: قص ملفات EPS في Java - دليل خطوة بخطوة باستخد
 linktitle: قص ملف EPS في جافا
 second_title: Aspose.Page جافا API
 description: استكشف دليلًا خطوة بخطوة حول اقتصاص ملفات EPS في Java باستخدام Aspose.Page. عزز مهاراتك في التعامل مع المستندات دون عناء.
-type: docs
 weight: 10
 url: /ar/java/manipulation-eps/crop/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قص ملفات EPS في Java - دليل خطوة بخطوة باستخدام Aspose.Page
+
 ## مقدمة
 هل تتطلع إلى معالجة ملفات EPS في تطبيق Java الخاص بك وتتساءل عن كيفية قصها بكفاءة؟ لا مزيد من البحث! في هذا الدليل الشامل، سنرشدك خلال العملية خطوة بخطوة لاقتصاص ملفات EPS باستخدام مكتبة Aspose.Page القوية لـ Java.
 ## المتطلبات الأساسية
@@ -69,3 +75,9 @@ doc.cropEps(outputEpsStream, newBoundingBox);
  ج: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### س: كيف يمكنني الحصول على ترخيص مؤقت؟
  ج: احصل على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

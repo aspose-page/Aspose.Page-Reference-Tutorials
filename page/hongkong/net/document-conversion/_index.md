@@ -3,10 +3,16 @@ title: 文件轉換
 linktitle: 文件轉換
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 教學課程輕鬆將 PostScript 轉換為 PDF，將 XPS 轉換為 PDF。強大、可靠且簡單的無縫文件轉換解決方案。
-type: docs
 weight: 24
 url: /zh-hant/net/document-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文件轉換
+
 
 ## 介紹
 
@@ -34,3 +40,9 @@ url: /zh-hant/net/document-conversion/
 使用 Aspose.Page for .NET 輕鬆將 PostScript 轉換為 PDF。健壯、可靠且對開發人員友善。
 ### [使用 Aspose.Page for .NET 將 XPS 轉換為 PDF](./convert-xps-to-pdf/)
 使用 Aspose.Page 在 .NET 中輕鬆將 XPS 轉換為 PDF。下載庫、瀏覽文件並獲得免費試用。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

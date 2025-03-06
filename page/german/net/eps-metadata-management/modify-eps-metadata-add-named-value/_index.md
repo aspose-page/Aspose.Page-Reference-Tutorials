@@ -3,10 +3,16 @@ title: Benannten Wert mit Aspose.Page hinzufügen
 linktitle: Benannten Wert hinzufügen
 second_title: Aspose.Page .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Page benannte Werte zu EPS-Dateien in .NET hinzufügen. Dieses umfassende Tutorial führt Sie Schritt für Schritt durch den Prozess.
-type: docs
 weight: 12
 url: /de/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Benannten Wert mit Aspose.Page hinzufügen
+
 ## Einführung
 
 Im Bereich der Dokumentenverarbeitung mit .NET zeichnet sich Aspose.Page als leistungsstarkes Tool zur Verarbeitung von EPS-Dateien aus. Aspose.Page ermöglicht Entwicklern die Bearbeitung von XMP-Metadaten und erleichtert so Aufgaben wie das Hinzufügen benannter Werte. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess des Hinzufügens benannter Werte zu einer EPS-Datei mit Aspose.Page.
@@ -96,3 +102,9 @@ A1: Aspose.Page unterstützt verschiedene EPS-Dateiversionen und gewährleistet 
 ### F5: Was ist eine temporäre Lizenz und wie kann ich eine erhalten?
 
  A5: Wenn Sie zu Test- oder Evaluierungszwecken eine temporäre Lizenz benötigen, können Sie eine erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

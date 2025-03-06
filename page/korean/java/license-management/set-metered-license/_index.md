@@ -3,10 +3,16 @@ title: Aspose.Page Java와 간편한 측정 라이선스 통합
 linktitle: Java에서 측정 라이센스 설정
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page와 Java의 원활한 통합을 살펴보세요. 계량형 라이선스를 손쉽게 설정하고 문서 처리 기능을 향상하세요.
-type: docs
 weight: 10
 url: /ko/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java와 간편한 측정 라이선스 통합
+
 ## 소개
 Aspose.Page를 사용하여 Java에서 계량 라이선스를 설정하는 방법에 대한 종합 가이드에 오신 것을 환영합니다. 문서 처리 기능을 향상시키고 Aspose.Page와의 원활한 통합을 원하신다면 올바른 위치에 오셨습니다. 이 튜토리얼에서는 각 단계를 쉽게 소화할 수 있는 단위로 나누어 프로세스를 안내합니다.
 ## 전제 조건
@@ -100,3 +106,9 @@ Aspose 계정을 통해 이러한 키를 얻을 수 있습니다.
  문서를 참조하세요[여기](https://reference.aspose.com/page/java/).
 ### Q: 임시 라이센스는 어떻게 얻을 수 있나요?
  임시면허 취득 가능[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

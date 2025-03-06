@@ -3,10 +3,16 @@ title: Aspose.Page के साथ ऐरे आइटम जोड़ें
 linktitle: सारणी आइटम जोड़ें
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page का उपयोग करके EPS फ़ाइलों में ऐरे आइटम जोड़ने का तरीका जानें। निर्बाध दस्तावेज़ हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 11
 url: /hi/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page के साथ ऐरे आइटम जोड़ें
+
 ## परिचय
 
 .NET में दस्तावेज़ हेरफेर और प्रसंस्करण के क्षेत्र में, Aspose.Page एक शक्तिशाली उपकरण के रूप में सामने आता है। इसकी कई क्षमताओं के बीच, ईपीएस फ़ाइल के भीतर सरणी आइटम को संभालना एक सामान्य आवश्यकता है। इस ट्यूटोरियल में, हम .NET वातावरण में Aspose.Page का उपयोग करके सरणी आइटम जोड़ने की चरण-दर-चरण प्रक्रिया का पता लगाएंगे। चाहे आप अनुभवी डेवलपर हों या नवागंतुक, यह मार्गदर्शिका आपको स्पष्टता और सटीकता के साथ प्रक्रिया से गुजराएगी।
@@ -119,3 +125,9 @@ A4: सामुदायिक चर्चा और समर्थन के
 ### Q5: .NET के लिए Aspose.Page का नवीनतम संस्करण क्या है?
 
  A5: .NET के लिए Aspose.Page के नवीनतम संस्करण तक पहुंचने के लिए, देखें[प्रलेखन](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

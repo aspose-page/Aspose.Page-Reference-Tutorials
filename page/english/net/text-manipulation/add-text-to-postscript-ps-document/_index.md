@@ -3,10 +3,16 @@ title: Add Text to PostScript (PS) Document with Aspose.Page
 linktitle: Add Text to PostScript (PS) Document
 second_title: Aspose.Page .NET API
 description: Enhance your .NET development skills by learning to add text to PostScript (PS) documents using Aspose.Page. Explore step-by-step examples and unleash the power of document manipulation.
-type: docs
 weight: 10
 url: /net/text-manipulation/add-text-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Text to PostScript (PS) Document with Aspose.Page
+
 ## Introduction
 
 In the dynamic world of .NET development, manipulating and enhancing PostScript (PS) documents is a common requirement. Aspose.Page for .NET provides a powerful set of tools to effortlessly add text to your PS documents. This tutorial will guide you through the process, ensuring you can seamlessly integrate this functionality into your projects.
@@ -117,3 +123,10 @@ A4: Certainly! Adjust the coordinates in the provided examples to change the pos
 ### Q5: Where can I seek assistance for Aspose.Page-related queries?
 
 A5: Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) to connect with the community and seek expert advice.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

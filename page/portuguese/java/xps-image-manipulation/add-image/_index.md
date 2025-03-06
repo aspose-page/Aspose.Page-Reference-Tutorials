@@ -3,10 +3,16 @@ title: Adição de imagem Java XPS - um guia simples com Aspose.Page
 linktitle: Adicionar imagem em Java XPS
 second_title: API Java Aspose.Page
 description: Aprenda como adicionar imagens facilmente a documentos XPS em Java usando Aspose.Page. Eleve o processamento de documentos com este guia passo a passo.
-type: docs
 weight: 10
 url: /pt/java/xps-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adição de imagem Java XPS - um guia simples com Aspose.Page
+
 No mundo do desenvolvimento Java, a capacidade de trabalhar com documentos XPS é crucial para diversas aplicações. Aspose.Page for Java fornece um conjunto poderoso de ferramentas para manipular documentos XPS, e uma tarefa essencial é adicionar imagens. Neste guia passo a passo, orientaremos você no processo de adição de uma imagem a um documento XPS usando Aspose.Page para Java.
 ## Introdução
 Adicionar imagens a documentos XPS é um requisito comum em muitos aplicativos Java, desde a geração de relatórios até o processamento de documentos. Aspose.Page for Java simplifica essa tarefa, oferecendo métodos eficientes para integrar imagens perfeitamente em seus arquivos XPS. Neste tutorial, demonstraremos como adicionar uma imagem a um documento XPS usando Aspose.Page para Java.
@@ -58,3 +64,9 @@ Aspose.Page for Java oferece suporte a vários formatos de imagem, incluindo TIF
  Você pode obter uma licença temporária em[esse link](https://purchase.aspose.com/temporary-license/).
 ### Onde posso encontrar suporte adicional ou discutir questões relacionadas ao Aspose.Page for Java?
  Visite a[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) para buscar ajuda, compartilhar experiências e conectar-se com a comunidade Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

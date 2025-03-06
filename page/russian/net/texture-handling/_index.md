@@ -3,10 +3,16 @@ title: Обработка текстур
 linktitle: Обработка текстур
 second_title: Aspose.Page .NET API
 description: Усовершенствуйте документы PostScript с помощью потрясающих визуальных эффектов! Научитесь применять шаблоны мозаики текстур с помощью Aspose.Page для .NET с помощью нашего пошагового руководства.
-type: docs
 weight: 33
 url: /ru/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка текстур
+
 ## Введение
 
 В сфере манипулирования документами освоение работы с текстурами может открыть целый мир творческих возможностей. Aspose.Page для .NET является мощным союзником для разработчиков, стремящихся поднять свои документы PostScript (PS) на новую высоту. В этой статье мы углубляемся в увлекательную вселенную руководств по обработке текстур, уделяя особое внимание применению шаблонов мозаичного покрытия текстур.
@@ -36,3 +42,9 @@ Aspose.Page выделяется как надежная и многофункц
 ## Учебники по работе с текстурами
 ### [Примените шаблон мозаики текстуры к PostScript (PS) с помощью Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
 Улучшите свои документы PostScript (PS) с помощью шаблонов мозаики текстур с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству для творческого подхода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

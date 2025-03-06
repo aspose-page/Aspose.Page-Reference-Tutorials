@@ -3,10 +3,16 @@ title: تحويل XPS إلى PDF في جافا
 linktitle: تحويل XPS إلى PDF في جافا
 second_title: Aspose.Page جافا API
 description: أطلق العنان للتحويل السلس من XPS إلى PDF في Java باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة لمعالجة المستندات بكفاءة ودقة.
-type: docs
 weight: 12
 url: /ar/java/xps-conversion/to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل XPS إلى PDF في جافا
+
 ## مقدمة
 في مجال تطوير Java، تعد الحاجة إلى تحويل ملفات XPS إلى تنسيق PDF مطلبًا شائعًا. يمكن أن يؤدي تحقيق ذلك بسلاسة وكفاءة إلى تغيير قواعد اللعبة في العديد من المشاريع. ولحسن الحظ، بفضل قوة Aspose.Page لـ Java، أصبحت هذه المهمة ليس فقط قابلة للتحقيق ولكنها واضحة أيضًا.
 في هذا البرنامج التعليمي، سنتعرف على عملية تحويل XPS إلى PDF باستخدام Aspose.Page لـ Java. سنقوم بتفصيل كل خطوة، وتقديم تفسيرات ورؤى تفصيلية لضمان التنفيذ السلس.
@@ -70,3 +76,9 @@ document.save(device, options);
  يزور[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على تفاصيل الترخيص المؤقت.
 ### أين يمكنني شراء ترخيص Aspose.Page لـ Java؟
  يمكنك شراء الترخيص[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

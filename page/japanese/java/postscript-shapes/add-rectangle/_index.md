@@ -3,10 +3,16 @@ title: Java PostScript のカスタマイズ - Aspose.Page を使用した四角
 linktitle: Java PostScriptで四角形を追加
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用して Java PostScript ドキュメントに鮮やかな四角形を追加するためのステップバイステップ ガイドをご覧ください。ドキュメントのカスタマイズを簡単に強化できます。
-type: docs
 weight: 11
 url: /ja/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript のカスタマイズ - Aspose.Page を使用した四角形の追加
+
 ## 導入
 Java PostScript ドキュメントを鮮やかな四角形で強化したいと考えていますか?これ以上探さない！このステップバイステップ ガイドでは、Aspose.Page for Java を使用して PostScript ドキュメントに四角形を追加する方法を説明します。 Aspose.Page は、PostScript ファイルを操作するための堅牢な機能を提供する強力なライブラリであり、ドキュメントの操作やカスタマイズを求める開発者にとって理想的な選択肢となります。
 ## 前提条件
@@ -72,3 +78,9 @@ Aspose.Page は主に Java をサポートしていますが、他の言語で�
 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java のライセンス版はどこで購入できますか?
 ライセンス版を購入する[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beeldmanipulatie
 linktitle: Beeldmanipulatie
 second_title: Aspose.Page .NET-API
 description: Ontdek de kracht van Aspose.Page voor .NET via onze tutorials over beeldmanipulatie. Moeiteloos EPS-afbeeldingen bijsnijden en het formaat ervan wijzigen voor verbluffende en nauwkeurige resultaten.
-type: docs
 weight: 26
 url: /nl/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beeldmanipulatie
+
 ## Invoering
 
 Bent u klaar om uw vaardigheden op het gebied van EPS-beeldmanipulatie in .NET te verbeteren? Duik in onze uitgebreide handleidingen voor beeldmanipulatie met Aspose.Page voor .NET, waar we u begeleiden bij het naadloze proces van het bijsnijden en vergroten/verkleinen van EPS-afbeeldingen.
@@ -41,3 +47,9 @@ Ontdek de wereld van Aspose.Page voor .NET met onze Image Manipulation Tutorials
 Ontdek de naadloze wereld van EPS-beeldmanipulatie in .NET met Aspose.Page. Snijd afbeeldingen moeiteloos bij en wijzig het formaat ervan voor verbluffende resultaten.
 ### [Wijzig het formaat van EPS-afbeeldingen met Aspose.Page voor .NET](./resize-eps-images/)
 Ontdek het naadloze proces van het wijzigen van het formaat van EPS-afbeeldingen in .NET met behulp van Aspose.Page. Bereik moeiteloos precisie in punten, inches, millimeters en percentages.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إضافة القطع الناقص التدرج الشعاعي مع Aspos
 linktitle: أضف القطع الناقص في Java XPS
 second_title: Aspose.Page جافا API
 description: استكشف الدليل التفصيلي خطوة بخطوة حول إضافة شكل بيضاوي متدرج نصف قطري محدد في Java XPS باستخدام Aspose.Page لـ Java. تعزيز إنشاء المستندات الخاصة بك دون عناء.
-type: docs
 weight: 10
 url: /ar/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة القطع الناقص التدرج الشعاعي مع Aspose.Page
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول إضافة شكل بيضاوي في Java XPS باستخدام Aspose.Page لـ Java. Aspose.Page هي مكتبة Java قوية تتيح للمطورين العمل مع مستندات XPS دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء شكل بيضاوي محدد متدرج نصف قطري وحفظه كمستند XPS.
 ## المتطلبات الأساسية
@@ -91,3 +97,9 @@ doc.save(dataDir + "AddEllipse_out.xps");
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل توجد منتديات مجتمعية لمناقشات Aspose.Page؟
  نعم انضم الى[Aspose.Page منتدى المجتمع](https://forum.aspose.com/c/page/39) للتعامل مع المطورين الآخرين والحصول على المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

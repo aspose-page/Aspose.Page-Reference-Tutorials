@@ -3,10 +3,16 @@ title: Tính minh bạch - PostScript
 linktitle: Tính minh bạch - PostScript
 second_title: API Java Aspose.Page
 description: Nâng cao Java PostScript bằng Aspose.Page cho Java. Tích hợp liền mạch các hình ảnh trong suốt và tạo ra độ trong suốt giả sống động để tạo ra những hình ảnh trực quan hấp dẫn.
-type: docs
 weight: 39
 url: /vi/java/postscript-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính minh bạch - PostScript
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng tài liệu Java PostScript của mình lên một tầm cao mới chưa? Đừng tìm đâu xa! Trong loạt bài hướng dẫn này, chúng tôi đi sâu vào sự phức tạp của độ trong suốt, tập trung vào hai khía cạnh chính: thêm hình ảnh trong suốt và tạo độ trong suốt giả.
@@ -36,3 +42,9 @@ Tóm lại, việc nắm vững tính minh bạch trong Java PostScript chưa ba
 Khám phá sự tích hợp liền mạch của các hình ảnh trong suốt trong tài liệu Java PostScript với Aspose.Page dành cho Java. Nâng cao trực quan hóa tài liệu của bạn một cách dễ dàng.
 ### [Hiển thị tính minh bạch giả trong Java PostScript](./show-pseudo-transparency/)
 Mở khóa đồ họa sống động trong Java PostScript! Làm theo hướng dẫn Aspose.Page của chúng tôi để tạo tính minh bạch giả từng bước. Tải ngay!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

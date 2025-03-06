@@ -3,10 +3,16 @@ title: Změňte pojmenovanou hodnotu pomocí Aspose.Page pro .NET
 linktitle: Změnit pojmenovanou hodnotu
 second_title: Aspose.Page .NET API
 description: Naučte se, jak změnit pojmenované hodnoty v souborech EPS pomocí Aspose.Page for .NET. Přizpůsobte si metadata XMP bez námahy pro zpracování dokumentů na míru.
-type: docs
 weight: 16
 url: /cs/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Změňte pojmenovanou hodnotu pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Ve světě zpracování dokumentů vyniká Aspose.Page for .NET jako výkonný nástroj pro manipulaci se soubory EPS. Jednou z klíčových funkcí, které nabízí, je možnost měnit pojmenované hodnoty v rámci metadat XMP. Tento tutoriál vás provede procesem změny pojmenované hodnoty pomocí Aspose.Page for .NET a umožní vám přizpůsobit soubory EPS podle vašich konkrétních potřeb.
@@ -100,3 +106,9 @@ Odpověď 1: Ano, Aspose.Page podporuje různé formáty dokumentů, včetně EP
 ### Q5: Jaké možnosti podpory jsou k dispozici pro uživatele Aspose.Page pro .NET?
 
  A5: Navštivte fórum komunity[tady](https://forum.aspose.com/c/page/39) za podporu a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 影像處理 - XPS
 linktitle: 影像處理 - XPS
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 探索 Java XPS 文件中輕鬆影像處理的藝術。了解無縫添加和平鋪圖像以增強文件處理。
-type: docs
 weight: 29
 url: /zh-hant/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 影像處理 - XPS
+
 
 ## 介紹
 
@@ -36,3 +42,9 @@ url: /zh-hant/java/xps-image-manipulation/
 了解如何使用 Aspose.Page 在 Java 中輕鬆地將圖像新增至 XPS 文件。透過此逐步指南提升您的文件處理能力。
 ### [在 Java XPS 中新增平鋪影像](./add-tiled-image/)
 使用 Aspose.Page 探索無縫 Java XPS 文件操作。使用此逐步指南學習輕鬆添加平鋪圖像。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

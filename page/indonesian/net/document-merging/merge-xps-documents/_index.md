@@ -3,10 +3,16 @@ title: Gabungkan Dokumen XPS dengan Aspose.Page untuk .NET
 linktitle: Gabungkan Dokumen XPS
 second_title: Aspose.Halaman .NET API
 description: Gabungkan dokumen XPS dengan mudah menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengelolaan dokumen yang lancar.
-type: docs
 weight: 12
 url: /id/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gabungkan Dokumen XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Apakah Anda ingin menggabungkan dokumen XPS dengan lancar menggunakan Aspose.Page untuk .NET? Tutorial ini akan memandu Anda melalui prosesnya, memberikan panduan langkah demi langkah dalam menggabungkan file XPS dengan mudah. Aspose.Page for .NET adalah perpustakaan canggih yang menyederhanakan tugas manipulasi dokumen, menjadikannya pilihan ideal untuk menggabungkan dokumen XPS. Mari selami prosesnya dan jelajahi bagaimana Anda dapat mencapainya dengan mudah.
@@ -94,3 +100,9 @@ A4: Pastikan Anda memiliki lisensi yang sesuai untuk Aspose.Page for .NET untuk 
 ### Q5: Apakah Aspose.Page untuk .NET menyediakan opsi lanjutan untuk penggabungan dokumen?
 
 A5: Ya, Anda dapat menjelajahi opsi dan konfigurasi tambahan yang tersedia di dokumentasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Elementy wizualne - Java
 linktitle: Elementy wizualne - Java
 second_title: Aspose.Page API Java
 description: Podnieś jakość wizualizacji swojego dokumentu Java bez wysiłku dzięki Aspose.Page! W tym samouczku krok po kroku dowiesz się, jak ulepszyć swoją aplikację, dodając siatki za pomocą pędzla wizualnego.
-type: docs
 weight: 41
 url: /pl/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Elementy wizualne - Java
+
 ## Wstęp
 
 Programiści Java, radujcie się! Zanurz się w świecie elementów wizualnych dzięki samouczkom Aspose.Page, które obiecują przekształcić wizualizacje dokumentów Java. W tym wydaniu skupiamy się na urzekającej sztuce dodawania siatek za pomocą pędzla wizualnego. Zapnij pasy, gdy wyruszymy w podróż mającą na celu podniesienie atrakcyjności Twojej aplikacji.
@@ -46,3 +52,9 @@ Podsumowując, Aspose.Page dla Java jawi się jako idealne rozwiązanie dla prog
 ## Elementy wizualne — samouczki Java
 ### [Dodaj siatkę za pomocą pędzla wizualnego w Javie](./add-grid/)
 Ulepsz wizualizację dokumentów Java za pomocą Aspose.Page! Dowiedz się, jak krok po kroku dodawać siatki za pomocą pędzla wizualnego. Podnieś atrakcyjność swojej aplikacji bez wysiłku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

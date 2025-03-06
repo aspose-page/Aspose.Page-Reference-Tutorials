@@ -3,10 +3,16 @@ title: أضف نصًا إلى مستند XPS باستخدام Aspose.Page لـ .
 linktitle: إضافة نص إلى مستند XPS
 second_title: Aspose.Page .NET API
 description: استكشف دليلاً خطوة بخطوة حول إضافة نص إلى مستندات XPS باستخدام Aspose.Page لـ .NET. قم بتحسين مشاريع .NET الخاصة بك بسهولة.
-type: docs
 weight: 13
 url: /ar/net/text-manipulation/add-text-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف نصًا إلى مستند XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير .NET، تبرز Aspose.Page كأداة قوية للعمل مع مستندات XPS. تعد إضافة نص إلى مستندات XPS متطلبًا شائعًا، ويعمل Aspose.Page على تبسيط هذه العملية. في هذا البرنامج التعليمي، سنستكشف كيفية استخدام Aspose.Page لـ .NET لإضافة نص إلى مستندات XPS بسلاسة.
@@ -102,3 +108,9 @@ doc.Save(dataDir + "AddText_out.xps");
 ### س5: هل هناك نسخة تجريبية مجانية متاحة؟
 
  ج5: بالتأكيد! يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

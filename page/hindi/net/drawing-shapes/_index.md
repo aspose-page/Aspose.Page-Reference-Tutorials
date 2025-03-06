@@ -3,10 +3,16 @@ title: आकृतियाँ बनाना
 linktitle: आकृतियाँ बनाना
 second_title: Aspose.Page .NET API
 description: .NET में दस्तावेज़ निर्माण को सहजता से बढ़ाएं! Aspose.Page .NET का उपयोग करके पोस्टस्क्रिप्ट (PS) में वृत्त, दीर्घवृत्त और आयत जोड़ने पर चरण-दर-चरण ट्यूटोरियल सीखें।
-type: docs
 weight: 31
 url: /hi/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# आकृतियाँ बनाना
+
 ## परिचय
 
 .NET के लिए Aspose.Page डेवलपर्स को .NET वातावरण में दस्तावेज़ निर्माण को उन्नत करने का अधिकार देता है। पोस्टस्क्रिप्ट (पीएस) और एक्सपीएस दस्तावेज़ों में आकर्षक आकृतियाँ जोड़ने की कला में महारत हासिल करने के लिए हमारे चरण-दर-चरण ट्यूटोरियल देखें।
@@ -33,3 +39,9 @@ url: /hi/net/drawing-shapes/
 Aspose.Page के साथ .NET में दस्तावेज़ निर्माण बढ़ाएँ। चरण-दर-चरण पोस्टस्क्रिप्ट (PS) फ़ाइलों में आयत जोड़ना सीखें।
 ### [.NET के लिए Aspose.Page के साथ XPS दस्तावेज़ में आयत जोड़ें](./add-rectangle-to-xps-document/)
 .NET के लिए Aspose.Page के साथ दस्तावेज़ निर्माण बढ़ाएँ। इस चरण-दर-चरण ट्यूटोरियल में जानें कि XPS दस्तावेज़ों में आयत कैसे जोड़ें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

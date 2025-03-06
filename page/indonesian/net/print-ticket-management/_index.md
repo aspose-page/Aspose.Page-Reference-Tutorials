@@ -3,10 +3,16 @@ title: Cetak Manajemen Tiket
 linktitle: Cetak Manajemen Tiket
 second_title: Aspose.Halaman .NET API
 description: Buat dan edit tiket cetak khusus dengan Aspose.Page untuk .NET. Sesuaikan pengalaman pencetakan Anda dengan kontrol halus dalam dokumen XPS dengan mudah.
-type: docs
 weight: 30
 url: /id/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cetak Manajemen Tiket
+
 
 ## Perkenalan
 
@@ -34,3 +40,9 @@ Kesimpulannya, seri tutorial ini wajib dibaca oleh pengembang yang ingin mengopt
 Jelajahi panduan langkah demi langkah dalam membuat tiket cetak kustom menggunakan Aspose.Page untuk .NET. Sesuaikan pengalaman pencetakan Anda dengan kontrol yang cermat.
 ### [Edit Tiket Cetak yang Ada dengan Aspose.Page untuk .NET](./print-ticket-management/aspose.page/)
 Pelajari cara mengedit tiket cetak dalam dokumen XPS menggunakan Aspose.Page untuk .NET. Panduan langkah demi langkah untuk pengembang. Tingkatkan kontrol pencetakan dokumen dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

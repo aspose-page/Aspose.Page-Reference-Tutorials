@@ -3,10 +3,16 @@ title: Formen – XPS
 linktitle: Formen – XPS
 second_title: Aspose.Page Java-API
 description: Entdecken Sie die Magie von Java XPS mit Aspose.Page-Tutorials! Fügen Sie ganz einfach faszinierende Ellipsen und Rechtecke hinzu. Verbessern Sie die Dokumentenerstellung mit unseren Schritt-für-Schritt-Anleitungen.
-type: docs
 weight: 35
 url: /de/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formen – XPS
+
 ## Einführung
 
 Sind Sie bereit, in die faszinierende Welt der Dokumentenerstellung mit Java XPS einzutauchen? Suchen Sie nicht weiter als nach Aspose.Page, Ihrem vertrauenswürdigen Begleiter, um das volle Potenzial der Formmanipulation auszuschöpfen. In dieser Tutorialreihe führen wir Sie durch die Feinheiten des Hinzufügens faszinierender Formen, um sicherzustellen, dass Ihr Dokument mühelos hervorsticht.
@@ -33,3 +39,9 @@ Zusammenfassend lässt sich sagen, dass die Aspose.Page für Java-Tutorials zu F
 Entdecken Sie die Schritt-für-Schritt-Anleitung zum Hinzufügen einer Ellipse mit radialem Farbverlauf in Java XPS mithilfe von Aspose.Page für Java. Verbessern Sie Ihre Dokumentenerstellung mühelos.
 ### [Rechteck in Java XPS hinzufügen](./add-rectangle/)
 Erfahren Sie, wie Sie mit Aspose.Page Rechtecke in Java XPS hinzufügen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine reibungslose Dokumentenbearbeitung.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إضافة مستطيل إلى PostScript (PS) باستخدام Aspose.Pa
 linktitle: إضافة مستطيل إلى بوستسكريبت (PS)
 second_title: Aspose.Page .NET API
 description: قم بتحسين إنشاء المستندات في .NET باستخدام Aspose.Page. تعلم كيفية إضافة مستطيلات إلى ملفات PostScript (PS) خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة مستطيل إلى PostScript (PS) باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 إذا كنت تتطلع إلى تحسين قدرات إنشاء المستندات لديك في .NET، فإن Aspose.Page يوفر حلاً قويًا للتعامل مع مستندات PostScript. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة مستطيلات إلى مستند PostScript باستخدام Aspose.Page لـ .NET.
@@ -133,3 +139,10 @@ A1: نعم، يمكنك تخصيص الألوان عن طريق ضبط المع�
 ### س5: هل يمكنني تجربة Aspose.Page قبل الشراء؟
 
  ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/) ، وللاستخدام الممتد، فكر في أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將平鋪影像新增至 XPS 文檔
 linktitle: 將平鋪影像新增至 XPS 文檔
 second_title: Aspose.Page .NET API
 description: 探索使用 Aspose.Page for .NET 輕鬆地將平鋪影像新增至 XPS 文件。增強視覺吸引力並創建令人驚嘆的文件。
-type: docs
 weight: 12
 url: /zh-hant/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將平鋪影像新增至 XPS 文檔
+
 ## 介紹
 
 您是否希望透過添加具有視覺吸引力的平鋪影像來增強您的 XPS 文件？ Aspose.Page for .NET 讓開發人員能夠無縫地實現這一目標。在本逐步指南中，我們將引導您完成使用 Aspose.Page for .NET 將平鋪影像新增至 XPS 文件的過程。
@@ -95,3 +101,9 @@ A2：當然，如範例所示，您可以使用以下命令設定填滿矩形的
 ### Q5：我可以在哪裡尋求協助或與 Aspose.Page 社群聯繫？
 
  A5：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)與社區互動、提出問題並尋找解決方案。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java'da Görsel Fırça kullanarak Izgara Ekleme
 linktitle: Java'da Görsel Fırça kullanarak Izgara Ekleme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page ile Java belge görsellerini geliştirin! Adım adım Görsel Fırça kullanarak ızgara eklemeyi öğrenin. Uygulamanızın çekiciliğini zahmetsizce artırın.
-type: docs
 weight: 10
 url: /tr/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java'da Görsel Fırça kullanarak Izgara Ekleme
+
 ## giriiş
 Aspose.Page'i kullanarak Java uygulamalarınızı görsel olarak çekici ızgaralarla geliştirmek mi istiyorsunuz? Bu eğitimde, Aspose.Page ile Java'da Visual Brush'ı kullanarak ızgara ekleme sürecinde size rehberlik edeceğiz. Görsel Fırça, belgelerinizde çarpıcı ızgara efektleri oluşturarak bir alanı görsel içerikle boyamanıza olanak tanır.
 ## Önkoşullar
@@ -84,3 +90,9 @@ Kesinlikle! Görsel Fırça, çeşitli renklerle boyamanıza olanak tanıyarak �
  Evet, erişebilirsiniz[ücretsiz deneme](https://releases.aspose.com/) Aspose.Page'in özelliklerini keşfetmek için.
 ### Aspose.Page için nasıl geçici lisans alabilirim?
  Bir satın al[geçici lisans](https://purchase.aspose.com/temporary-license/) test amaçlı.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: グラデーションの加算 - XPS
 linktitle: グラデーションの加算 - XPS
 second_title: Aspose.Page Java API
 description: Java XPS ドキュメントを見事なグラデーションで表現します。 Aspose.Page チュートリアルを使用して、斜め、水平、垂直のグラデーションを簡単に追加する方法を学びます。
-type: docs
 weight: 26
 url: /ja/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# グラデーションの加算 - XPS
+
 ## 導入
 
 テクノロジーが進化するにつれて、視覚的な魅力を高めることが重要になります。 Java XPS ドキュメントの領域では、魅力的なグラデーションを組み込むことは状況を一変させます。 Aspose.Page for Java チュートリアルへようこそ。ここでは、XPS での勾配加算の技術を巧みに解き明かします。
@@ -40,3 +46,9 @@ Aspose.Page を使用して、Java で XPS ドキュメントに見事な斜め�
 Aspose.Page を使用して、Java で XPS ドキュメントに見事な水平方向のグラデーションを追加する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。
 ### [Java XPSに垂直グラデーションを追加する](./vertical/)
 Aspose.Page を使用して Java XPS ドキュメントに垂直グラデーションを追加する方法を学びます。視覚的な魅力を簡単に強化します。内部のステップバイステップガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: أضف التدرج الأفقي في Java XPS
 linktitle: أضف التدرج الأفقي في Java XPS
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إضافة تدرج أفقي مذهل إلى مستندات XPS في Java باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 11
 url: /ar/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف التدرج الأفقي في Java XPS
+
 ## مقدمة
 مرحبًا بك في هذا الدليل التفصيلي خطوة بخطوة حول إضافة تدرج أفقي في Java XPS باستخدام Aspose.Page لـ Java. Aspose.Page for Java هي مكتبة قوية تتيح للمطورين العمل مع مستندات XPS (مواصفات ورق XML) بسلاسة.
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء تطبيق Java لإضافة تدرج أفقي إلى مستند XPS. اتبع الخطوات أدناه لتحقيق ذلك بكل سهولة.
@@ -70,3 +76,9 @@ doc.save(dataDir + "HorizontalGradient.xps");
 قطعاً! لديك سيطرة كاملة على الألوان ومواضع كل نقطة توقف متدرجة.
 ### س: هل يوجد منتدى مجتمعي لـ Aspose.Page حيث يمكنني طلب المساعدة؟
  نعم يمكنك زيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للتواصل مع المجتمع والحصول على المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

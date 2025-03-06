@@ -3,10 +3,16 @@ title: Şekiller - PostScript
 linktitle: Şekiller - PostScript
 second_title: Aspose.Page Java API'si
 description: Aspose.Page Java ile büyüleyici PostScript belgelerini zahmetsizce oluşturun. Elips ve dikdörtgen ekleme ve görsel olarak çekici içerik oluşturma konusundaki eğitimlere dalın.
-type: docs
 weight: 34
 url: /tr/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Şekiller - PostScript
+
 
 ## giriiş
 
@@ -65,3 +71,9 @@ Aspose.Page for Java'nın tüm potansiyelini ortaya çıkarın ve belge oluştur
 Aspose.Page ile Java'da çarpıcı PostScript belgeleri oluşturmada ustalaşın. Görsel olarak çekici içerik için adım adım üç nokta eklemeyi öğrenin.
 ### [Java PostScript'te Dikdörtgen Ekleme](./add-rectangle/)
 Aspose.Page for Java kullanarak Java PostScript belgelerine canlı dikdörtgenler eklemeye ilişkin adım adım kılavuzu keşfedin. Belge özelleştirmenizi zahmetsizce geliştirin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

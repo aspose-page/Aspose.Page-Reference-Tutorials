@@ -3,10 +3,16 @@ title: Change Array Items with Aspose.Page for .NET
 linktitle: Change Array Items
 second_title: Aspose.Page .NET API
 description: Learn how to change array items in EPS files using Aspose.Page for .NET. Follow our step-by-step guide for efficient metadata manipulation.
-type: docs
 weight: 15
 url: /net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Change Array Items with Aspose.Page for .NET
+
 ## Introduction
 
 Welcome to this comprehensive guide on changing array items using Aspose.Page for .NET! Aspose.Page is a powerful library that allows developers to work with various document formats, including EPS files. In this tutorial, we'll focus on manipulating XMP metadata within EPS files, specifically changing array items.
@@ -99,3 +105,10 @@ A4: Obtain a temporary license from [this link](https://purchase.aspose.com/temp
 ### Q5: Where can I get support or connect with the community?
 
 A5: Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) for community support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

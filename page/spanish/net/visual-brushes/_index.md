@@ -3,10 +3,16 @@ title: Pinceles visuales
 linktitle: Pinceles visuales
 second_title: Aspose.Página .NET API
 description: Mejore el procesamiento de documentos en .NET con los tutoriales de Aspose.Page. Sumérgete en el ámbito de los pinceles visuales y domina las técnicas para crear documentos visualmente impresionantes.
-type: docs
 weight: 35
 url: /es/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pinceles visuales
+
 
 ## Introducción
 
@@ -36,3 +42,9 @@ Recuerda, el poder de transformar tus documentos está en tus manos. Deje que As
 ## Tutoriales de pinceles visuales
 ### [Aplicar pincel visual de cuadrícula con Aspose.Page para .NET](./apply-grid-visual-brush/)
 Explore el mundo dinámico del procesamiento de documentos en .NET con Aspose.Page. Aprenda a aplicar un pincel visual de cuadrícula para obtener documentos visualmente impresionantes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

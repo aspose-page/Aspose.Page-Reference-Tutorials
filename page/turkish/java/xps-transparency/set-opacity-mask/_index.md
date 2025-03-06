@@ -3,10 +3,16 @@ title: Java XPS'de Opaklık Maskesini Ayarlama
 linktitle: Java XPS'de Opaklık Maskesini Ayarlama
 second_title: Aspose.Page Java API'si
 description: Aspose.Page ile Java XPS'de opaklık maskeleri ayarlamanın gücünü keşfedin. Görsel olarak geliştirilmiş bir belge deneyimi için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS'de Opaklık Maskesini Ayarlama
+
 ## giriiş
 Aspose.Page'i kullanarak Java XPS'de opaklık maskelerini ayarlamaya ilişkin kapsamlı kılavuzumuza hoş geldiniz. Bu eğitimde, Aspose.Page for Java'nın güçlü özelliklerini kullanarak XPS belgesi oluşturma, tuval ekleme ve dikdörtgene opaklık maskesi uygulama sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -67,3 +73,9 @@ Deneme sürümünde bazı özellik sınırlamaları olabilir. Ayrıntılar için
  Ziyaret edebilirsiniz[Aspose.Page forumu](https://forum.aspose.com/c/page/39) topluluk desteği için veya premium yardım için bir lisans satın alın.
 ### Aspose.Page'in para iade garantisi var mı?
  Bakın[satın alma sayfası](https://purchase.aspose.com/buy) Geri ödeme politikaları hakkında bilgi için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page Java – Oldalak hozzáadása az XPS-oktatóanyaghoz
 linktitle: Oldal hozzáadása Java XPS-ben
 second_title: Aspose.Page Java API
 description: Emelje fel a Java XPS dokumentumokat az Aspose.Page segítségével. Tanuljon meg könnyedén hozzáadni oldalakat a továbbfejlesztett alkalmazásfunkciók érdekében. Merüljön el az oktatóanyagban most!
-type: docs
 weight: 10
 url: /hu/java/xps-page-manipulation/add-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java – Oldalak hozzáadása az XPS-oktatóanyaghoz
+
 ## Bevezetés
 Ha javítani szeretné Java-alkalmazása képességeit azáltal, hogy oldalakat ad hozzá XPS-dokumentumokhoz, akkor jó helyen jár. Ebben az oktatóanyagban végigvezetjük a folyamaton az Aspose.Page for Java használatával. Az Aspose.Page egy hatékony és sokoldalú könyvtár, amely leegyszerűsíti az XPS-fájlok kezelését, így ideális választás a hatékony megoldásokat kereső fejlesztők számára.
 ## Előfeltételek
@@ -54,3 +60,9 @@ Teljesen. Az Aspose.Page egy robusztus könyvtár, amelyben a fejlesztők megbí
 Az Aspose.Page hatékonyan kezeli a különböző méretű XPS dokumentumokat, de mindig jó gyakorlat a teljesítmény optimalizálása.
 ### Hol találok további támogatást az Aspose.Page számára?
  Meglátogatni a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) közösségi támogatásra és beszélgetésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

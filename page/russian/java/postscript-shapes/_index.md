@@ -3,10 +3,16 @@ title: Фигуры — PostScript
 linktitle: Фигуры — PostScript
 second_title: API Aspose.Page Java
 description: Создавайте привлекательные документы PostScript без особых усилий с помощью Aspose.Page Java. Погрузитесь в руководства по добавлению эллипсов и прямоугольников для создания визуально привлекательного контента.
-type: docs
 weight: 34
 url: /ru/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Фигуры — PostScript
+
 
 ## Введение
 
@@ -65,3 +71,9 @@ url: /ru/java/postscript-shapes/
 Научитесь создавать потрясающие документы PostScript на Java с помощью Aspose.Page. Научитесь добавлять эллипсы шаг за шагом для визуально привлекательного контента.
 ### [Добавить прямоугольник в Java PostScript](./add-rectangle/)
 Изучите пошаговое руководство по добавлению ярких прямоугольников в документы Java PostScript с помощью Aspose.Page для Java. Улучшите настройку своего документа без особых усилий!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

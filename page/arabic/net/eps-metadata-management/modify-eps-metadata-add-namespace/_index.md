@@ -3,10 +3,16 @@ title: أضف مساحة الاسم باستخدام Aspose.Page لـ .NET
 linktitle: إضافة مساحة الاسم
 second_title: Aspose.Page .NET API
 description: قم بتحسين ملفات EPS باستخدام Aspose.Page لـ .NET. أضف مساحات الأسماء دون عناء، وقم بتعديل بيانات تعريف XMP، وعزز سير عمل تطوير .NET الخاص بك.
-type: docs
 weight: 13
 url: /ar/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف مساحة الاسم باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 في العالم الديناميكي لتطوير .NET، تبرز Aspose.Page كأداة قوية للتعامل مع ملفات EPS. يسمح Aspose.Page for .NET للمطورين بمعالجة بيانات تعريف XMP بسلاسة، مما يوفر المرونة اللازمة لإضافة مساحات أسماء وتحسين البيانات التعريفية لملفات EPS.
@@ -117,3 +123,9 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

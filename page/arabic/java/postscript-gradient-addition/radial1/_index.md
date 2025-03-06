@@ -3,10 +3,16 @@ title: إتقان التدرجات الشعاعية في Java PostScript باس�
 linktitle: إتقان التدرجات الشعاعية في جافا
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إضافة تدرجات شعاعية مذهلة في Java PostScript باستخدام Aspose.Page لـ Java. ارفع مستوى مستندات PostScript الخاصة بك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/java/postscript-gradient-addition/radial1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان التدرجات الشعاعية في Java PostScript باستخدام Aspose.Page
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول كيفية إضافة تدرج لوني شعاعي في Java PostScript باستخدام Aspose.Page. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستند PostScript بتدرج لوني نصف قطري جميل. Aspose.Page for Java هي مكتبة قوية تتيح لك العمل مع ملفات PostScript بسلاسة.
 ## المتطلبات الأساسية
@@ -86,3 +92,9 @@ document.save();
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل تحتاج إلى دعم المجتمع؟
  انضم إلى مجتمع Aspose.Page[المنتدى](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

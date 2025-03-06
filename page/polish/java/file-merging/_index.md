@@ -3,10 +3,16 @@ title: Łączenie plików
 linktitle: Łączenie plików
 second_title: Aspose.Page API Java
 description: Bez wysiłku łącz pliki PostScript z formatem PDF i konwertuj XPS na format PDF lub XPS w Javie za pomocą Aspose.Page. Postępuj zgodnie z samouczkami krok po kroku, aby bezproblemowo konwertować dokumenty.
-type: docs
 weight: 31
 url: /pl/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Łączenie plików
+
 
 ## Wstęp
 
@@ -40,3 +46,9 @@ Bez wysiłku łącz pliki PostScript z formatem PDF w Javie za pomocą Aspose.Pa
 Dowiedz się, jak bez wysiłku konwertować XPS do formatu PDF w Javie za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie konwertować dokumenty.
 ### [Konwertuj XPS na XPS w Javie](./xps-to-xps/)
 Dowiedz się, jak płynnie łączyć pliki XPS w Javie za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie manipulować dokumentami. Zwiększ swoje umiejętności programowania w języku Java już teraz!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

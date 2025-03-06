@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 从文件加载许可证
 linktitle: 从文件加载许可证
 second_title: Aspose.Page .NET API
 description: 通过掌握从文件加载许可证的艺术，释放 Aspose.Page for .NET 的全部潜力。无缝提升您的文档处理能力。
-type: docs
 weight: 11
 url: /zh/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 从文件加载许可证
+
 ## 介绍
 
 欢迎来到 Aspose.Page for .NET 的世界！如果您希望使用 .NET 框架增强文档处理能力，那么您来对地方了。在本教程中，我们将指导您完成使用 Aspose.Page for .NET 从文件加载许可证的过程。这一关键步骤可确保您充分利用这个强大库的潜力。
@@ -91,3 +97,9 @@ A3：您可以购买许可证[这里](https://purchase.aspose.com/buy).
 ### Q5：需要帮助或有疑问吗？ 
 
  A5：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)以获得社区支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

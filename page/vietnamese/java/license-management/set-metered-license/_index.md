@@ -3,10 +3,16 @@ title: Tích hợp giấy phép đo lường dễ dàng với Aspose.Page Java
 linktitle: Đặt giấy phép đo lường trong Java
 second_title: API Java Aspose.Page
 description: Khám phá sự tích hợp liền mạch của Aspose.Page với Java. Thiết lập giấy phép được đo lường một cách dễ dàng và nâng cao khả năng xử lý tài liệu của bạn.
-type: docs
 weight: 10
 url: /vi/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tích hợp giấy phép đo lường dễ dàng với Aspose.Page Java
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách thiết lập giấy phép đo lường trong Java bằng Aspose.Page. Nếu bạn đang tìm cách nâng cao khả năng xử lý tài liệu của mình và đảm bảo tích hợp liền mạch với Aspose.Page thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng bước thành các phần dễ hiểu.
 ## Điều kiện tiên quyết
@@ -100,3 +106,9 @@ Bạn có thể lấy các khóa này thông qua tài khoản Aspose của mình
  Tham khảo tài liệu[đây](https://reference.aspose.com/page/java/).
 ### Hỏi: Làm thế nào tôi có thể nhận được giấy phép tạm thời?
  Giấy phép tạm thời có thể được lấy[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

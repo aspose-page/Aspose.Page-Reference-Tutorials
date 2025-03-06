@@ -3,10 +3,16 @@ title: Dokumentumközi szerkesztés
 linktitle: Dokumentumközi szerkesztés
 second_title: Aspose.Page .NET API
 description: Ismertesse meg az Aspose.Page-ben rejlő lehetőségeket .NET-hez oktatóanyagainkkal. Glif klónokat adhat hozzá, színeket változtathat, és könnyedén kezelheti az oldalakat az XPS dokumentumokban.
-type: docs
 weight: 22
 url: /hu/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentumközi szerkesztés
+
 
 ## Bevezetés
 
@@ -34,3 +40,9 @@ Fedezze fel az Aspose.Page for .NET erejét ebben az átfogó oktatóanyagban. T
 Az Aspose.Page segítségével felszabadíthatja a .NET dokumentumfeldolgozási lehetőségeit. Könnyedén adjon hozzá képekkel kitöltött karakterjeleket. Javítsa a látványt és egyszerűsítse munkafolyamatait.
 ### [Manipulálja az oldalakat az Aspose.Page segítségével .NET-hez](./manipulate-pages/)
 Fedezze fel a .NET oldalkezelését az Aspose.Page segítségével, amely egy hatékony könyvtár az XPS-dokumentumok kezelésére. Kövesse lépésről lépésre útmutatónkat a hatékony eredmények érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

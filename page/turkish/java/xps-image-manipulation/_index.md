@@ -3,10 +3,16 @@ title: Görüntü İşleme - XPS
 linktitle: Görüntü İşleme - XPS
 second_title: Aspose.Page Java API'si
 description: Aspose.Page ile Java XPS belgelerinde zahmetsiz görüntü işleme sanatını keşfedin. Gelişmiş belge işleme için görüntüleri sorunsuz bir şekilde eklemeyi ve döşemeyi öğrenin.
-type: docs
 weight: 29
 url: /tr/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görüntü İşleme - XPS
+
 
 ## giriiş
 
@@ -36,3 +42,9 @@ Sonuç olarak Aspose.Page for Java, belge manipülasyonunun sanata dönüştüğ
 Aspose.Page'i kullanarak Java'da XPS belgelerine zahmetsizce nasıl resim ekleyeceğinizi öğrenin. Bu adım adım kılavuzla belge işleme sürecinizi geliştirin.
 ### [Java XPS'de Döşenmiş Görüntü Ekleme](./add-tiled-image/)
 Aspose.Page ile sorunsuz Java XPS belge işlemeyi keşfedin. Bu adım adım kılavuzu kullanarak döşemeli görüntüleri zahmetsizce eklemeyi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

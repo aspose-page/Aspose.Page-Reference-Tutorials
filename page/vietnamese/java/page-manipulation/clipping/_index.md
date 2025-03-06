@@ -3,10 +3,16 @@ title: Craft Visual Wonders - Cắt trong thao tác trang Java
 linktitle: Cắt trong thao tác trang Java
 second_title: API Java Aspose.Page
 description: Khám phá nghệ thuật cắt trong Thao tác trang Java với Aspose.Page. Làm chủ việc tạo tài liệu chính xác để có được hình ảnh và khả năng kiểm soát tuyệt đẹp.
-type: docs
 weight: 10
 url: /vi/java/page-manipulation/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Craft Visual Wonders - Cắt trong thao tác trang Java
+
 ## Giới thiệu
 Trong lĩnh vực Thao tác trang Java, việc nắm vững nghệ thuật cắt xén là điều cần thiết để tạo ra các tài liệu được chế tạo chính xác và đẹp mắt về mặt hình ảnh. Việc cắt bớt cho phép bạn kiểm soát khả năng hiển thị của nội dung bằng cách xác định các vùng cụ thể mà nội dung đó sẽ được hiển thị. Trong hướng dẫn này, chúng ta sẽ đi sâu vào thế giới cắt bằng Aspose.Page cho Java, một thư viện mạnh mẽ để xử lý các tác vụ xử lý tài liệu.
 ## Điều kiện tiên quyết
@@ -76,3 +82,9 @@ Tuyệt đối! Aspose.Page cung cấp giấy phép thương mại cho các nhà
  Khám phá cái[tài liệu](https://reference.aspose.com/page/java/) Và[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) vì nguồn tài nguyên dồi dào.
 ### Có bản dùng thử miễn phí không?
  Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Page[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

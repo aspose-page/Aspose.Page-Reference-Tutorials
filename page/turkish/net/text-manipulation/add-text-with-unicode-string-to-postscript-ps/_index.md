@@ -3,10 +3,16 @@ title: Aspose.Page ile PostScript'e (PS) Unicode Dizeli Metin Ekleme
 linktitle: PostScript'e (PS) Unicode Dizeli Metin Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET'i kullanarak PostScript dosyalarına Unicode metin eklemeyi öğrenin. Belge işlemeyi kolaylıkla geliştirin.
-type: docs
 weight: 11
 url: /tr/net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile PostScript'e (PS) Unicode Dizeli Metin Ekleme
+
 ## giriiş
 
 Belge işleme alanında Aspose.Page for .NET, geliştiricilerin çeşitli belge formatlarını oluşturmasına, düzenlemesine ve dönüştürmesine olanak tanıyan güçlü bir kitaplık olarak öne çıkıyor. Güçlü özelliklerinden biri, PostScript (PS) dosyalarına Unicode dizeleri kullanarak metin ekleme yeteneğidir. Bu eğitimde, Aspose.Page ile çalışan geliştiricilere kusursuz bir deneyim sunarak bu görevi gerçekleştirmeye yönelik adım adım bir kılavuzu inceleyeceğiz.
@@ -110,3 +116,9 @@ Cevap4: Aspose.Page, XPS, PS, EPS, PDF ve daha fazlası dahil olmak üzere çeş
 ### S5: Eklenen metnin görünümünü özelleştirebilir miyim?
 
 Cevap5: Evet, Aspose.Page'de metnin yazı tipini, boyutunu, rengini ve diğer özelliklerini özelleştirebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

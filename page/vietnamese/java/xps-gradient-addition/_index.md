@@ -3,10 +3,16 @@ title: Bổ sung độ dốc - XPS
 linktitle: Bổ sung độ dốc - XPS
 second_title: API Java Aspose.Page
 description: Nâng cao tài liệu Java XPS của bạn với độ dốc tuyệt đẹp. Tìm hiểu cách thêm các gradient theo đường chéo, ngang và dọc một cách dễ dàng bằng cách sử dụng hướng dẫn Aspose.Page.
-type: docs
 weight: 26
 url: /vi/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bổ sung độ dốc - XPS
+
 ## Giới thiệu
 
 Khi công nghệ phát triển, việc nâng cao sức hấp dẫn trực quan trở nên quan trọng. Trong lĩnh vực tài liệu Java XPS, việc kết hợp các gradient quyến rũ là yếu tố thay đổi cuộc chơi. Chào mừng bạn đến với Aspose.Page dành cho Hướng dẫn Java, nơi chúng tôi làm sáng tỏ nghệ thuật Bổ sung Chuyển màu trong XPS một cách tinh tế.
@@ -40,3 +46,9 @@ Tìm hiểu cách thêm dải màu chéo tuyệt đẹp vào tài liệu XPS c�
 Tìm hiểu cách thêm dải màu ngang tuyệt đẹp vào tài liệu XPS trong Java bằng Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
 ### [Thêm gradient dọc trong Java XPS](./vertical/)
 Tìm hiểu cách thêm dải màu dọc vào tài liệu Java XPS bằng Aspose.Page. Tăng cường sự hấp dẫn thị giác một cách dễ dàng. Hướng dẫn từng bước bên trong.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

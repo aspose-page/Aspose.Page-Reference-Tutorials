@@ -3,10 +3,16 @@ title: تطبيق فرشاة الشبكة المرئية مع Aspose.Page لـ .
 linktitle: تطبيق فرشاة الشبكة البصرية
 second_title: Aspose.Page .NET API
 description: استكشف العالم الديناميكي لمعالجة المستندات في .NET باستخدام Aspose.Page. تعرف على كيفية تطبيق Grid Visual Brush للحصول على مستندات مذهلة بصريًا.
-type: docs
 weight: 10
 url: /ar/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تطبيق فرشاة الشبكة المرئية مع Aspose.Page لـ .NET
+
 ## مقدمة
 
 في عالم تطوير .NET، تبرز Aspose.Page كأداة قوية للتعامل مع مهام معالجة المستندات. إحدى الميزات الرائعة التي تقدمها هي القدرة على تطبيق فرشاة الشبكة المرئية، مما يضفي بعدًا جديدًا على مستنداتك. سيرشدك هذا البرنامج التعليمي خلال عملية تنفيذ فرشاة Magenta Grid Visual Brush خطوة بخطوة باستخدام Aspose.Page لـ .NET.
@@ -143,3 +149,9 @@ doc.Save(dataDir + "AddGrid_out.xps");
 ### س5: ما هي الوثائق الأخرى المتوفرة لـ Aspose.Page لـ .NET؟
 
  ج5: استكشف الوثائق الشاملة[هنا](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

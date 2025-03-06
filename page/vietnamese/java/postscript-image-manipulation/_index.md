@@ -3,10 +3,16 @@ title: Thao tác hình ảnh - PostScript
 linktitle: Thao tác hình ảnh - PostScript
 second_title: API Java Aspose.Page
 description: Nâng cao kỹ năng thao tác tài liệu với Aspose.Page cho Java. Đi sâu vào các hướng dẫn PostScript của chúng tôi, tìm hiểu cách thêm hình ảnh trong Java và nâng cao khả năng tài liệu của bạn.
-type: docs
 weight: 28
 url: /vi/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác hình ảnh - PostScript
+
 
 ## Giới thiệu
 
@@ -32,3 +38,9 @@ Bắt tay vào hành trình khám phá này với Aspose.Page dành cho các hư
 ## Thao tác hình ảnh - Hướng dẫn PostScript
 ### [Thêm hình ảnh trong Java PostScript](./add-image/)
 Khám phá sự tích hợp liền mạch của Aspose.Page Java trong hướng dẫn thêm hình ảnh vào tài liệu PostScript này. Nâng cao khả năng thao tác tài liệu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

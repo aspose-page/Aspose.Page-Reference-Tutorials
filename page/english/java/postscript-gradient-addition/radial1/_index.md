@@ -3,10 +3,16 @@ title: Mastering Radial Gradients in Java PostScript with Aspose.Page
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 description: Learn how to add stunning radial gradients in Java PostScript using Aspose.Page for Java. Elevate your PostScript documents with this step-by-step guide.
-type: docs
 weight: 12
 url: /java/postscript-gradient-addition/radial1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Radial Gradients in Java PostScript with Aspose.Page
+
 ## Introduction
 Welcome to our step-by-step guide on how to add a radial gradient in Java PostScript using Aspose.Page. In this tutorial, we'll walk you through the process of creating a PostScript document with a beautiful radial gradient. Aspose.Page for Java is a powerful library that allows you to work with PostScript files seamlessly.
 ## Prerequisites
@@ -86,3 +92,10 @@ Yes, you can access the free trial [here](https://releases.aspose.com/).
 Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Need community support?
 Join the Aspose.Page community [forum](https://forum.aspose.com/c/page/39).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

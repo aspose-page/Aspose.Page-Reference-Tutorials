@@ -3,10 +3,16 @@ title: Přidejte vertikální přechod do XPS pomocí Aspose.Page pro .NET
 linktitle: Přidejte vertikální přechod do XPS
 second_title: Aspose.Page .NET API
 description: Naučte se, jak vylepšit dokumenty XPS pomocí vertikálních přechodů pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 15
 url: /cs/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vertikální přechod do XPS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Vítejte v tomto podrobném návodu, jak přidat vertikální přechod do dokumentu XPS pomocí Aspose.Page for .NET. Aspose.Page je výkonné API, které vám umožňuje pracovat se soubory XPS (XML Paper Specification) ve vašich aplikacích .NET. V tomto tutoriálu vás provedeme procesem vytvoření nového dokumentu XPS, přidání vertikálního přechodu k cestě a uložení výsledku.
@@ -117,3 +123,9 @@ Odpověď 1: Ano, Aspose.Page je kompatibilní se sadou Visual Studio 2019. Ujis
 ### Q5: Jak mohu získat podporu nebo klást otázky?
 
  A5: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) za podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

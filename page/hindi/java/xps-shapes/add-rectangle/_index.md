@@ -3,10 +3,16 @@ title: जावा एक्सपीएस में आयत जोड़े
 linktitle: जावा एक्सपीएस में आयत जोड़ें
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page का उपयोग करके Java XPS में आयत जोड़ने का तरीका जानें। निर्बाध दस्तावेज़ हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें। #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /hi/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा एक्सपीएस में आयत जोड़ें
+
 ## परिचय
 Aspose.Page का उपयोग करके Java XPS में आयत जोड़ने पर इस व्यापक मार्गदर्शिका में आपका स्वागत है! चाहे आप एक अनुभवी डेवलपर हों या सिर्फ जावा एक्सपीएस से शुरुआत कर रहे हों, यह ट्यूटोरियल आपको चरण-दर-चरण निर्देशों के साथ प्रक्रिया के बारे में बताएगा, जिससे यह सुनिश्चित होगा कि आप विषय की गहरी समझ हासिल कर सकें।
 ## आवश्यक शर्तें
@@ -62,3 +68,9 @@ doc.save(dataDir + "AddRectangle_out.xps");
  पता लगाएं[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39)अधिक उदाहरणों के लिए और समुदाय से सहायता लें।
 ### क्या मैं खरीदने से पहले Aspose.Page आज़मा सकता हूँ?
  हाँ, आप अन्वेषण कर सकते हैं[मुफ्त परीक्षण](https://releases.aspose.com/) Aspose.Page की क्षमताओं का अनुभव करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulasi Halaman Java
 linktitle: Manipulasi Halaman Java
 second_title: Aspose.Halaman Java API
 description: Buka rahasia Manipulasi Halaman Java dengan tutorial Aspose.Page. Selami kliping dan transformasi untuk membuat dokumen yang menakjubkan secara visual dengan mudah.
-type: docs
 weight: 20
 url: /id/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Halaman Java
+
 
 ## Perkenalan
 
@@ -50,3 +56,9 @@ Siap memulai perjalanan menyusun dokumen yang memukau secara visual dan menarik 
 Jelajahi seni kliping di Manipulasi Halaman Java dengan Aspose.Page. Kuasai pembuatan dokumen yang presisi untuk visual dan kontrol yang menakjubkan.
 ### [Transformasi dalam Manipulasi Halaman Java](./transformations/)
 Pelajari cara melakukan transformasi halaman tingkat lanjut di Java menggunakan Aspose.Page untuk Java. Tingkatkan aplikasi Java Anda dengan kemampuan manipulasi yang kuat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

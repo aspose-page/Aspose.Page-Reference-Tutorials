@@ -3,10 +3,16 @@ title: Java PostScript'te Resim Ekleme
 linktitle: Java PostScript'te Resim Ekleme
 second_title: Aspose.Page Java API'si
 description: PostScript belgelerine resim ekleme hakkındaki bu eğitimde Aspose.Page Java'nın kusursuz entegrasyonunu keşfedin. Belge işleme yeteneklerinizi yükseltin.
-type: docs
 weight: 10
 url: /tr/java/postscript-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript'te Resim Ekleme
+
 ## giriiş
 Bu eğitimde Aspose.Page for Java kütüphanesini kullanarak Java PostScript belgesine nasıl resim ekleneceğini inceleyeceğiz. Aspose.Page, PostScript dosyalarıyla çalışmak için çeşitli özellikler sunan, geliştiricilerin belgelerini sorunsuz bir şekilde değiştirmesine ve geliştirmesine olanak tanıyan güçlü bir kitaplıktır.
 ## Önkoşullar
@@ -80,3 +86,9 @@ Aspose.Page öncelikle Java'yı destekler ancak diğer programlama dilleri için
  Ziyaret edin[Aspose.Page Forumu](https://forum.aspose.com/c/page/39) topluluk desteği için.
 ### Aspose.Page for Java'yı satın almak için ek kaynaklar var mı?
  Kütüphaneyi satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java를 사용하여 XMP에서 값 변경
 linktitle: Java를 사용하여 XMP에서 값 변경
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 EPS 문서를 향상하세요. 맞춤형 전문 콘텐츠를 위해 XMP 메타데이터를 손쉽게 수정할 수 있습니다. #자바개발
-type: docs
 weight: 17
 url: /ko/java/xmp-metadata-manipulation/change-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 XMP에서 값 변경
+
 ## 소개
 문서 처리 및 조작 영역에서 Java용 Aspose.Page는 강력한 도구로 돋보입니다. 이 튜토리얼에서는 Aspose.Page 라이브러리와 함께 Java를 사용하여 EPS(Encapsulated PostScript) 문서에서 XMP(Extensible Metadata Platform) 값을 변경하는 프로세스를 살펴봅니다. 제공된 단계별 가이드를 따르면 메타데이터를 쉽게 수정하여 문서를 특정 요구 사항에 맞게 조정하는 방법을 배울 수 있습니다.
 ## 전제 조건
@@ -83,3 +89,9 @@ try {
  예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
 ### Q: Aspose.Page for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
  임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

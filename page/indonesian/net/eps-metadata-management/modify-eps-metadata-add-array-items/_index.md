@@ -3,10 +3,16 @@ title: Tambahkan Item Array dengan Aspose.Page
 linktitle: Tambahkan Item Array
 second_title: Aspose.Halaman .NET API
 description: Jelajahi cara menambahkan item array dalam file EPS menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk manipulasi dokumen yang lancar.
-type: docs
 weight: 11
 url: /id/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Item Array dengan Aspose.Page
+
 ## Perkenalan
 
 Dalam bidang manipulasi dan pemrosesan dokumen di .NET, Aspose.Page menonjol sebagai alat yang ampuh. Di antara banyak kemampuannya, menangani item array dalam file EPS adalah persyaratan umum. Dalam tutorial ini, kita akan menjelajahi proses langkah demi langkah menambahkan item array menggunakan Aspose.Page di lingkungan .NET. Baik Anda seorang pengembang berpengalaman atau pendatang baru, panduan ini akan memandu Anda melalui proses dengan jelas dan tepat.
@@ -119,3 +125,9 @@ A4: Untuk diskusi dan dukungan komunitas, kunjungi[Aspose.Halaman forum](https:/
 ### Q5: Apa versi terbaru Aspose.Page untuk .NET?
 
  A5: Untuk mengakses versi terbaru Aspose.Page untuk .NET, lihat[dokumentasi](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

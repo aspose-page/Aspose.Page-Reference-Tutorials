@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 将 XPS 文档合并为 PDF
 linktitle: 将 XPS 文档合并为 PDF
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 轻松将 XPS 文档合并为高质量 PDF。请按照我们的分步指南获得流畅的文档转换体验。
-type: docs
 weight: 11
 url: /zh/net/document-merging/merge-xps-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 将 XPS 文档合并为 PDF
+
 ## 介绍
 
 在不断发展的文档处理领域，Aspose.Page for .NET 成为将 XPS 文档无缝合并为 PDF 格式的强大工具。本教程将指导您完成整个过程，分解每个步骤，以确保顺利有效地执行。
@@ -123,3 +129,9 @@ A4：是的，Aspose.Page for .NET 提供了广泛的 PDF 操作功能。检查�
 ### Q5：Aspose.Page for .NET支持跨平台开发吗？
 
 A5：是的，Aspose.Page for .NET 旨在跨各种平台无缝工作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

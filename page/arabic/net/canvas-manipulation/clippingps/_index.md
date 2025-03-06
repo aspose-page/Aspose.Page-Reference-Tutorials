@@ -3,10 +3,16 @@ title: قص PS باستخدام Aspose.Page لـ .NET
 linktitle: لقطة PS
 second_title: Aspose.Page .NET API
 description: اكتشف قوة Aspose.Page لـ .NET في هذا البرنامج التعليمي خطوة بخطوة حول قص مستندات PostScript. تعلم كيفية تحسين قدرات معالجة المستندات الخاصة بك دون عناء.
-type: docs
 weight: 10
 url: /ar/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قص PS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في البرنامج التعليمي الشامل حول استخدام Aspose.Page لـ .NET لتنفيذ القطع في مستندات PostScript (PS). سيرشدك هذا البرنامج التعليمي خلال عملية قص مستندات PS باستخدام Aspose.Page، وهي مكتبة قوية للعمل مع تنسيقات المستندات المختلفة في تطبيقات .NET.
@@ -147,3 +153,9 @@ A1: تم تصميم Aspose.Page بشكل أساسي لتطبيقات .NET. وم�
 ### س5: أين يمكنني الحصول على الدعم أو مناقشة الاستعلامات المتعلقة بـ Aspose.Page؟
 
  ج5: قم بزيارة[منتديات Aspose.Page](https://forum.aspose.com/c/page/39) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

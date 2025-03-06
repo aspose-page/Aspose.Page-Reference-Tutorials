@@ -3,10 +3,16 @@ title: رسم الأشكال
 linktitle: رسم الأشكال
 second_title: Aspose.Page .NET API
 description: قم بتحسين إنشاء المستندات في .NET دون عناء! تعرف على البرامج التعليمية خطوة بخطوة حول إضافة الدوائر والأشكال الناقصية والمستطيلات إلى PostScript (PS) باستخدام Aspose.Page .NET.
-type: docs
 weight: 31
 url: /ar/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم الأشكال
+
 ## مقدمة
 
 يعمل Aspose.Page for .NET على تمكين المطورين من رفع مستوى إنشاء المستندات في بيئة .NET. تعمق في برامجنا التعليمية خطوة بخطوة لإتقان فن إضافة أشكال جذابة إلى مستندات PostScript (PS) وXPS.
@@ -33,3 +39,9 @@ url: /ar/net/drawing-shapes/
 قم بتحسين إنشاء المستندات في .NET باستخدام Aspose.Page. تعلم كيفية إضافة مستطيلات إلى ملفات PostScript (PS) خطوة بخطوة.
 ### [أضف مستطيلًا إلى مستند XPS باستخدام Aspose.Page لـ .NET](./add-rectangle-to-xps-document/)
 قم بتحسين إنشاء المستندات باستخدام Aspose.Page لـ .NET. تعرف على كيفية إضافة مستطيلات إلى مستندات XPS في هذا البرنامج التعليمي خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

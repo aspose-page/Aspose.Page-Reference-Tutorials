@@ -3,10 +3,16 @@ title: キャンバスの操作
 linktitle: キャンバスの操作
 second_title: Aspose.Page .NET API
 description: キャンバス操作に関する Aspose.Page for .NET チュートリアルを参照してください。 PS および XPS ドキュメントのクリッピングと変換が簡単になりました。文書処理スキルを向上させます。
-type: docs
 weight: 21
 url: /ja/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# キャンバスの操作
+
 
 ## 導入
 
@@ -42,3 +48,9 @@ XPS ドキュメントのクリッピングに関するこのステップバイ�
 PostScript 変換に関するこの包括的なガイドを使用して、Aspose.Page for .NET の可能性を解き放ちます。ダイナミックなグラフィックスを簡単に作成できます。
 ### [Aspose.Page for .NET を使用した変換 XPS](./transformationsxps/)
 Aspose.Page for .NET を使用して XPS ドキュメントを簡単に変換します。シームレスな変換については、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

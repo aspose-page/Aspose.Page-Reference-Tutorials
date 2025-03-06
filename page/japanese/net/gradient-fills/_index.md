@@ -3,10 +3,16 @@ title: グラデーション塗りつぶし
 linktitle: グラデーション塗りつぶし
 second_title: Aspose.Page .NET API
 description: Aspose.Page チュートリアルを使用して、.NET でのグラデーション塗りつぶしの技術を発見してください。魅力的な斜め、水平、垂直のグラデーションを追加して、プロジェクトを簡単にレベルアップします。
-type: docs
 weight: 27
 url: /ja/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# グラデーション塗りつぶし
+
 
 ## 導入
 
@@ -49,3 +55,9 @@ Aspose.Page for .NET を使用して、XPS ドキュメントに見事な水平�
 Aspose.Page を使用して、.NET の PostScript (PS) ドキュメントに視覚的に魅力的な垂直グラデーションを追加する方法を学びます。このステップバイステップのガイドを使用して、ドキュメントの作成をさらに強化してください。
 ### [Aspose.Page for .NET を使用して XPS に垂直グラデーションを追加する](./add-vertical-gradient-to-xps/)
 Aspose.Page for .NET を使用して、XPS ドキュメントを垂直方向のグラデーションで強化する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

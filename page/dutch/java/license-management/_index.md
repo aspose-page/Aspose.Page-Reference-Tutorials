@@ -3,10 +3,16 @@ title: Licentiebeheer
 linktitle: Licentiebeheer
 second_title: Aspose.Page Java-API
 description: Ontgrendel het volledige potentieel van Aspose.Page voor Java met onze licentiebeheer-tutorials. Stel naadloos licenties met datalimiet in om de mogelijkheden voor documentverwerking te vergroten.
-type: docs
 weight: 30
 url: /nl/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licentiebeheer
+
 ## Invoering
 
 Welkom bij de licentiebeheer-tutorials voor Aspose.Page in Java! In deze uitgebreide handleiding gaan we dieper in op de fijne kneepjes van het instellen van gemeten licenties om uw documentverwerkingsmogelijkheden te optimaliseren. Laten we aan een reis beginnen die het volledige potentieel van Aspose.Page ontgrendelt en een naadloze integratie met Java garandeert.
@@ -39,3 +45,9 @@ Onze licentiebeheer-tutorials voor Aspose.Page in Java zijn uw toegangspoort tot
 ## Licentiebeheer-tutorials
 ### [Stel een gemeten licentie in Java in](./set-metered-license/)
 Ontdek de naadloze integratie van Aspose.Page met Java. Stel moeiteloos licenties met datalimiet in en verbeter uw documentverwerkingsmogelijkheden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

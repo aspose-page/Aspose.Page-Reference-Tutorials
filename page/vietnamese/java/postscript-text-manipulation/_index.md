@@ -3,10 +3,16 @@ title: Thao tác văn bản - PostScript
 linktitle: Thao tác văn bản - PostScript
 second_title: API Java Aspose.Page
 description: Khám phá Aspose.Page để biết tiềm năng của Java bằng các hướng dẫn PostScript. Thêm văn bản, bao gồm cả chuỗi Unicode, để nâng cao dự án của bạn một cách dễ dàng.
-type: docs
 weight: 36
 url: /vi/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác văn bản - PostScript
+
 
 ## Giới thiệu
 
@@ -30,3 +36,9 @@ Cho dù bạn đang tìm cách hoàn thiện kỹ năng xử lý văn bản củ
 Khám phá sức mạnh của Aspose.Page cho Java trong hướng dẫn của chúng tôi về cách thêm văn bản vào tài liệu PostScript. Tìm hiểu cách sử dụng phông chữ hệ thống và tùy chỉnh một cách dễ dàng.
 ### [Thêm văn bản bằng chuỗi Unicode trong Java PostScript](./add-text-unicode/)
 Khám phá sức mạnh của Aspose.Page dành cho Java trong việc thêm văn bản Unicode vào các dự án PostScript của bạn. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

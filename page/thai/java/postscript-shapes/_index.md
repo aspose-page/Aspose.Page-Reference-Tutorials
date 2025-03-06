@@ -3,10 +3,16 @@ title: รูปร่าง - PostScript
 linktitle: รูปร่าง - PostScript
 second_title: Aspose.Page Java API
 description: สร้างสรรค์เอกสาร PostScript ที่สวยงามได้อย่างง่ายดายด้วย Aspose.Page Java เจาะลึกบทช่วยสอนเกี่ยวกับการเพิ่มวงรีและสี่เหลี่ยมเพื่อสร้างเนื้อหาที่ดึงดูดสายตา
-type: docs
 weight: 34
 url: /th/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รูปร่าง - PostScript
+
 
 ## การแนะนำ
 
@@ -65,3 +71,9 @@ url: /th/java/postscript-shapes/
 เชี่ยวชาญการสร้างเอกสาร PostScript ที่น่าทึ่งใน Java ด้วย Aspose.Page เรียนรู้การเพิ่มจุดไข่ปลาทีละขั้นตอนเพื่อให้เนื้อหาดึงดูดสายตา
 ### [เพิ่มสี่เหลี่ยมผืนผ้าใน Java PostScript](./add-rectangle/)
 สำรวจคำแนะนำทีละขั้นตอนในการเพิ่มสี่เหลี่ยมสีสันสดใสให้กับเอกสาร Java PostScript โดยใช้ Aspose.Page สำหรับ Java ปรับปรุงการปรับแต่งเอกสารของคุณได้อย่างง่ายดาย!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

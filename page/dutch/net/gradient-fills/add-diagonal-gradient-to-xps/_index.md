@@ -3,10 +3,16 @@ title: Voeg diagonaal verloop toe aan XPS met Aspose.Page voor .NET
 linktitle: Voeg diagonaal verloop toe aan XPS
 second_title: Aspose.Page .NET-API
 description: Leer hoe u boeiende diagonale verlopen kunt toevoegen aan XPS-documenten met Aspose.Page voor .NET. Verbeter uw visuele presentaties moeiteloos.
-type: docs
 weight: 11
 url: /nl/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg diagonaal verloop toe aan XPS met Aspose.Page voor .NET
+
 ## Invoering
 
 Op het gebied van documentverwerking onderscheidt Aspose.Page voor .NET zich als een krachtige toolkit waarmee ontwikkelaars XPS-documenten gemakkelijk kunnen manipuleren. Een opwindende functie die het biedt, is de mogelijkheid om diagonale verlopen toe te voegen, waardoor u de visuele aantrekkingskracht van uw documenten kunt vergroten. In deze zelfstudie wordt u stap voor stap door het proces geleid en wordt gedemonstreerd hoe u diagonale verlopen in XPS-bestanden kunt opnemen met behulp van Aspose.Page voor .NET.
@@ -106,3 +112,9 @@ A3: Aspose.Page richt zich voornamelijk op XPS-documentmanipulatie.
 ### Vraag 5: Is er een proefversie beschikbaar voordat u deze aanschaft?
 
  A5: Ja, u kunt de[gratis proefperiode](https://releases.aspose.com/) om Aspose.Page voor .NET te ervaren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

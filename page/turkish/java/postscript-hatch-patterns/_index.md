@@ -3,10 +3,16 @@ title: Hatch Desenleri - PostScript
 linktitle: Hatch Desenleri - PostScript
 second_title: Aspose.Page Java API'si
 description: Aspose.Page ile Java PostScript belgelerine büyüleyici tarama desenleri ekleme sanatını keşfedin. Çarpıcı bir çıktı için görsel içeriği zahmetsizce yükseltin.
-type: docs
 weight: 27
 url: /tr/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hatch Desenleri - PostScript
+
 ## giriiş
 
 Aspose.Page ile görsel olarak çekici Java PostScript belgeleri oluşturmak artık çok kolay. Bu eğitimde, görsel içeriğinizi zahmetsizce nasıl geliştirebileceğinizi keşfederek, tarama desenlerinin büyüleyici dünyasını araştırıyoruz.
@@ -30,3 +36,9 @@ Kapak desenlerini birleştirmek sadece estetikle ilgili değildir; bilgiyi daha 
 ## Hatch Desenleri - PostScript Dersleri
 ### [Java PostScript'te Hatch Deseni Ekleme](./add-hatch-pattern/)
 Aspose.Page'i kullanarak Java PostScript belgelerine büyüleyici tarama desenlerini nasıl ekleyeceğinizi öğrenin. Görsel içeriğinizi zahmetsizce yükseltin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gestion des licences
 linktitle: Gestion des licences
 second_title: API Java Aspose.Page
 description: Libérez tout le potentiel d’Aspose.Page pour Java avec nos didacticiels de gestion des licences. Configurez des licences limitées en toute transparence pour améliorer les capacités de traitement des documents.
-type: docs
 weight: 30
 url: /fr/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des licences
+
 ## Introduction
 
 Bienvenue dans les didacticiels de gestion des licences pour Aspose.Page en Java ! Dans ce guide complet, nous aborderons les subtilités de la configuration de licences mesurées pour optimiser vos capacités de traitement de documents. Embarquons pour un voyage qui libère tout le potentiel d'Aspose.Page, garantissant une intégration transparente avec Java.
@@ -39,3 +45,9 @@ Nos didacticiels de gestion des licences pour Aspose.Page en Java sont votre pas
 ## Tutoriels de gestion des licences
 ### [Définir une licence limitée en Java](./set-metered-license/)
 Découvrez l'intégration transparente d'Aspose.Page avec Java. Configurez facilement des licences limitées et améliorez vos capacités de traitement de documents.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 进行 XPS 转换
 linktitle: XPS 变换
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 轻松转换 XPS 文档。请按照我们的分步指南进行无缝转换。
-type: docs
 weight: 13
 url: /zh/net/canvas-manipulation/transformationsxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 进行 XPS 转换
+
 ## 介绍
 
 欢迎来到 Aspose.Page for .NET 的世界，这是一个功能强大的库，使您能够轻松地对 XPS 文档执行各种转换。在本教程中，我们将深入研究使用 Aspose.Page for .NET 转换 XPS 文档的过程。无论您是经验丰富的开发人员还是新手，本指南都将引导您完成每个步骤，确保您轻松掌握概念。
@@ -163,3 +169,9 @@ A4：通过访问获得临时许可证[临时牌照](https://purchase.aspose.com
 ### Q5：哪里可以购买 Aspose.Page for .NET？
 
  A5：购买 .NET 版 Aspose.Page，网址为[Aspose.Page 购买](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

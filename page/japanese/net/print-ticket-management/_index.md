@@ -3,10 +3,16 @@ title: プリントチケット管理
 linktitle: プリントチケット管理
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用してカスタム印刷チケットを作成および編集します。 XPS ドキュメントをきめ細かく制御して、印刷エクスペリエンスを簡単に調整できます。
-type: docs
 weight: 30
 url: /ja/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プリントチケット管理
+
 
 ## 導入
 
@@ -34,3 +40,9 @@ Aspose.Page for .NET を使用して、ドキュメント印刷ワークフロ�
 Aspose.Page for .NET を使用してカスタム印刷チケットを作成するためのステップバイステップ ガイドをご覧ください。きめ細かい制御で印刷エクスペリエンスをカスタマイズします。
 ### [Aspose.Page for .NET を使用して既存の印刷チケットを編集する](./print-ticket-management/aspose.page/)
 Aspose.Page for .NET を使用して XPS ドキュメントの印刷チケットを編集する方法を学びます。開発者向けのステップバイステップのガイド。ドキュメントの印刷制御を簡単に強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

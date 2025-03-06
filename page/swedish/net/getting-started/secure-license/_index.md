@@ -3,10 +3,16 @@ title: Säker licens med Aspose.Page för .NET
 linktitle: Säker licens
 second_title: Aspose.Page .NET API
 description: Säkra din Aspose.Page för .NET-licens utan ansträngning med vår steg-för-steg-guide. Lås upp den fulla potentialen för sömlös sidmanipulation i dina .NET-applikationer.
-type: docs
 weight: 13
 url: /sv/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Säker licens med Aspose.Page för .NET
+
 ## Introduktion
 
 Att låsa upp den fulla potentialen hos Aspose.Page för .NET innebär att säkra din licens för att säkerställa sömlös integration och optimal prestanda. I den här steg-för-steg-guiden går vi igenom processen för att säkra din licens med Aspose.Page, ett kraftfullt verktyg för att hantera sidmanipulation i .NET-applikationer.
@@ -90,3 +96,9 @@ S4: Ja, en tillfällig licens är giltig under en begränsad varaktighet och anv
 ### F5: Kan jag överföra min licens till en annan maskin?
 
 S5: Ja, du kan överföra din licens till en annan dator efter behov.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

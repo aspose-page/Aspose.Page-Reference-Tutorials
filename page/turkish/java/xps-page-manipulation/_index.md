@@ -3,10 +3,16 @@ title: Sayfa İşleme - XPS
 linktitle: Sayfa İşleme - XPS
 second_title: Aspose.Page Java API'si
 description: Eğitimlerimizle Aspose.Page for Java'nın gücünü keşfedin. Gelişmiş uygulama işlevselliği için zahmetsizce sayfalar ekleyerek Java XPS belgelerinizi geliştirin.
-type: docs
 weight: 33
 url: /tr/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sayfa İşleme - XPS
+
 
 ## giriiş
 
@@ -36,3 +42,9 @@ Sonuç olarak, Aspose.Page for Java eğitimleri, XPS belgelerinde sayfa manipül
 ## Sayfa İşleme - XPS Dersleri
 ### [Java XPS'de Sayfa Ekle](./add-page/)
 Aspose.Page ile Java XPS belgelerini yükseltin. Gelişmiş uygulama işlevselliği için zahmetsizce sayfa eklemeyi öğrenin. Şimdi öğreticiye dalın!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

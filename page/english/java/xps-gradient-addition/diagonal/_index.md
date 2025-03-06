@@ -3,10 +3,16 @@ title: Add Diagonal Gradient in Java XPS
 linktitle: Add Diagonal Gradient in Java XPS
 second_title: Aspose.Page Java API
 description: Learn how to add a stunning diagonal gradient to your XPS documents in Java using Aspose.Page. Elevate your visual presentation effortlessly.
-type: docs
 weight: 10
 url: /java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Diagonal Gradient in Java XPS
+
 ## Introduction
 In the ever-evolving world of Java development, enhancing the visual appeal of your XPS documents is crucial. One effective way to achieve this is by incorporating diagonal gradients. This tutorial will guide you through the process using Aspose.Page for Java, providing step-by-step instructions and code snippets.
 ## Prerequisites
@@ -75,3 +81,10 @@ Absolutely! You can explore a [free trial version here](https://releases.aspose.
 Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to engage with the community and seek assistance.
 ### Q: Is there a provision for temporary licenses?
 Yes, you can obtain a [temporary license here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

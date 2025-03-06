@@ -3,10 +3,16 @@ title: Pembuatan Dokumen Java
 linktitle: Pembuatan Dokumen Java
 second_title: Aspose.Halaman Java API
 description: Buat dokumen PostScript dengan mudah di Java dengan Aspose.Page. Sesuaikan ukuran halaman, margin, dan font. Selami tutorial pembuatan dokumen Java.
-type: docs
 weight: 23
 url: /id/java/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pembuatan Dokumen Java
+
 ## Perkenalan
 
 Jika Anda mendalami dunia pembuatan dokumen Java, Aspose.Page for Java adalah alat bantu Anda. Dalam panduan komprehensif ini, kami akan memandu Anda melalui seluk-beluk pembuatan dokumen di Java dengan fokus pada PostScript. Mari kita memulai perjalanan ini bersama-sama, membuka potensi Aspose.Page untuk Java.
@@ -33,3 +39,9 @@ Kesimpulannya, tutorial pembuatan dokumen Java ini berfungsi sebagai pintu gerba
 ## Tutorial Pembuatan Dokumen Java
 ### [Buat Dokumen di Java dengan PostScript](./postscript/)
 Membuat dokumen PostScript di Java dengan mudah menggunakan Aspose.Page. Sesuaikan ukuran halaman, margin, dan font. Coba uji coba gratis sekarang!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

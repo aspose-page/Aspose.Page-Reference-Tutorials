@@ -3,10 +3,16 @@ title: Προσθήκη Rectangle στο PostScript (PS) με το Aspose.Page �
 linktitle: Προσθήκη ορθογώνιου στο PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Βελτιώστε τη δημιουργία εγγράφων στο .NET με το Aspose.Page. Μάθετε να προσθέτετε ορθογώνια σε αρχεία PostScript (PS) βήμα προς βήμα.
-type: docs
 weight: 12
 url: /el/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη Rectangle στο PostScript (PS) με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Εάν θέλετε να βελτιώσετε τις δυνατότητες δημιουργίας εγγράφων σας στο .NET, το Aspose.Page παρέχει μια ισχυρή λύση για το χειρισμό εγγράφων PostScript. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης ορθογωνίων σε ένα έγγραφο PostScript χρησιμοποιώντας το Aspose.Page για .NET.
@@ -133,3 +139,10 @@ A2: Ναι, το Aspose.Page υποστηρίζει διάφορες μορφέ�
 ### Ε5: Μπορώ να δοκιμάσω το Aspose.Page πριν από την αγορά;
 
  A5: Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/) , και για εκτεταμένη χρήση, σκεφτείτε α[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 도형 그리기
 linktitle: 도형 그리기
 second_title: Aspose.페이지 .NET API
 description: .NET에서 문서 생성을 손쉽게 향상시키세요! Aspose.Page .NET을 사용하여 PS(PostScript)에 원, 타원 및 직사각형을 추가하는 방법에 대한 단계별 튜토리얼을 알아보세요.
-type: docs
 weight: 31
 url: /ko/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 도형 그리기
+
 ## 소개
 
 .NET용 Aspose.Page는 개발자가 .NET 환경에서 문서 생성 수준을 높일 수 있도록 지원합니다. PostScript(PS) 및 XPS 문서에 매력적인 모양을 추가하는 기술을 마스터하려면 단계별 튜토리얼을 살펴보세요.
@@ -33,3 +39,9 @@ XPS 문서에 직사각형을 추가하는 방법을 배워 .NET용 Aspose.Page�
 Aspose.Page를 사용하여 .NET에서 문서 생성을 향상하세요. PostScript(PS) 파일에 직사각형을 추가하는 방법을 단계별로 알아보세요.
 ### [.NET용 Aspose.Page를 사용하여 XPS 문서에 직사각형 추가](./add-rectangle-to-xps-document/)
 .NET용 Aspose.Page를 사용하여 문서 생성을 향상하세요. 이 단계별 튜토리얼에서 XPS 문서에 직사각형을 추가하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

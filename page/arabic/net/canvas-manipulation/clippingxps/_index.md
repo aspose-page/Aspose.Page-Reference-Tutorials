@@ -3,10 +3,16 @@ title: قص XPS باستخدام Aspose.Page لـ .NET
 linktitle: قطع XPS
 second_title: Aspose.Page .NET API
 description: اكتشف قوة Aspose.Page لـ .NET في هذا الدليل التفصيلي خطوة بخطوة حول قص مستندات XPS. يمكنك إنشاء ملفات XPS ومعالجتها وحفظها بسهولة.
-type: docs
 weight: 11
 url: /ar/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قص XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول قص XPS باستخدام Aspose.Page لـ .NET! في هذا الدليل، سنرشدك خلال عملية إنشاء مستندات XPS ومعالجتها وحفظها باستخدام Aspose.Page لـ .NET. XPS، أو مواصفات ورق XML، هو تنسيق مستند قياسي ومفتوح، ويوفر Aspose.Page for .NET أدوات قوية للعمل مع مستندات XPS في تطبيقات .NET الخاصة بك.
@@ -156,3 +162,9 @@ A1: يركز Aspose.Page for .NET بشكل أساسي على مستندات XPS�
 ### س5: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Page لـ .NET؟
 
  ج5: نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

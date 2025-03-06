@@ -1,12 +1,17 @@
 ---
 title: دروس وأمثلة شاملة عن Aspose.Page لـ .NET
 linktitle: Aspose.Page لبرامج .NET التعليمية
-type: docs
 weight: 10
 url: /ar/net/
 description: أطلق العنان لـ Aspose.Page لإمكانيات .NET من خلال البرامج التعليمية التي تغطي الإنشاء والمعالجة والتحسين. إتقان من الأساسيات إلى التقنيات المتقدمة دون عناء.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دروس وأمثلة شاملة عن Aspose.Page لـ .NET
+
 ## مقدمة
 
 هل أنت مستعد لإطلاق العنان للإمكانات الكاملة لـ Aspose.Page لـ .NET؟ لا مزيد من البحث! تغطي برامجنا التعليمية الشاملة كل الجوانب، بدءًا من الوظائف الأساسية وحتى التقنيات المتقدمة، مما يضمن لك أن تصبح مستخدمًا ماهرًا.
@@ -115,3 +120,9 @@ is_root: true
 ارفع مستوى معالجة المستندات الخاصة بك في .NET باستخدام البرامج التعليمية لـ Aspose.Page. انغمس في عالم الفرش المرئية، وأتقن تقنيات الحصول على مستندات مذهلة بصريًا.
 ### [إدارة البيانات الوصفية لـ EPS](./eps-metadata-management/)
 ارفع مستوى تنظيم EPS باستخدام Aspose.Page لـ .NET. قم بإضافة البيانات التعريفية بسهولة لتحسين إمكانية الوصول. استكشف البرامج التعليمية لإدارة البيانات الوصفية لـ EPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

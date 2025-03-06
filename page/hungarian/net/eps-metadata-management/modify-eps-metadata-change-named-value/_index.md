@@ -3,10 +3,16 @@ title: Módosítsa a megnevezett értéket az Aspose.Page segítségével .NET e
 linktitle: Megnevezett érték módosítása
 second_title: Aspose.Page .NET API
 description: Ismerje meg, hogyan módosíthatja az elnevezett értékeket az EPS-fájlokban az Aspose.Page for .NET segítségével. Testreszabhatja az XMP metaadatokat a személyre szabott dokumentumfeldolgozás érdekében.
-type: docs
 weight: 16
 url: /hu/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Módosítsa a megnevezett értéket az Aspose.Page segítségével .NET esetén
+
 ## Bevezetés
 
 dokumentumfeldolgozás világában az Aspose.Page for .NET kiemelkedik az EPS-fájlok kezelésének hatékony eszközeként. Az egyik legfontosabb funkció, amelyet kínál, az XMP metaadatokon belüli elnevezett értékek megváltoztatásának képessége. Ez az oktatóanyag végigvezeti Önt egy elnevezett érték megváltoztatásának folyamatán az Aspose.Page for .NET használatával, lehetővé téve az EPS-fájlok testreszabását sajátos igényei szerint.
@@ -100,3 +106,9 @@ Ebből az oktatóanyagból megtanulta, hogyan használhatja ki az Aspose.Page fo
 ### 5. kérdés: Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.Page számára a .NET felhasználók számára?
 
  5. válasz: Látogassa meg a közösségi fórumot[itt](https://forum.aspose.com/c/page/39) támogatásért és megbeszélésekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

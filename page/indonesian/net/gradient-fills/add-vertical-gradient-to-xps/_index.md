@@ -3,10 +3,16 @@ title: Tambahkan Gradien Vertikal ke XPS dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Gradien Vertikal ke XPS
 second_title: Aspose.Halaman .NET API
 description: Pelajari cara menyempurnakan dokumen XPS dengan gradien vertikal menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 15
 url: /id/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gradien Vertikal ke XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial langkah demi langkah tentang cara menambahkan gradien vertikal ke dokumen XPS menggunakan Aspose.Page untuk .NET. Aspose.Page adalah API canggih yang memungkinkan Anda bekerja dengan file XPS (Spesifikasi Kertas XML) di aplikasi .NET Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan dokumen XPS baru, menambahkan gradien vertikal ke jalur, dan menyimpan hasilnya.
@@ -117,3 +123,9 @@ A1: Ya, Aspose.Page kompatibel dengan Visual Studio 2019. Pastikan Anda menginst
 ### Q5: Bagaimana saya bisa mendapatkan dukungan atau mengajukan pertanyaan?
 
  A5: Kunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk dukungan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

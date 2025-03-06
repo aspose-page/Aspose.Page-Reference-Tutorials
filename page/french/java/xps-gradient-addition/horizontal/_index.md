@@ -3,10 +3,16 @@ title: Ajouter un dégradé horizontal dans Java XPS
 linktitle: Ajouter un dégradé horizontal dans Java XPS
 second_title: API Java Aspose.Page
 description: Découvrez comment ajouter un superbe dégradé horizontal aux documents XPS en Java à l'aide d'Aspose.Page. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 11
 url: /fr/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un dégradé horizontal dans Java XPS
+
 ## Introduction
 Bienvenue dans ce guide étape par étape sur l'ajout d'un dégradé horizontal dans Java XPS à l'aide d'Aspose.Page pour Java. Aspose.Page pour Java est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des documents XPS (XML Paper Spécification).
 Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'une application Java pour ajouter un dégradé horizontal à un document XPS. Suivez les étapes ci-dessous pour y parvenir facilement.
@@ -70,3 +76,9 @@ Oui, outre les dégradés linéaires, Aspose.Page prend en charge les dégradés
 Absolument! Vous avez un contrôle total sur les couleurs et les positions de chaque arrêt de dégradé.
 ### Q : Existe-t-il un forum communautaire pour Aspose.Page où je peux demander de l'aide ?
  Oui, vous pouvez visiter le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour entrer en contact avec la communauté et obtenir de l'aide.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

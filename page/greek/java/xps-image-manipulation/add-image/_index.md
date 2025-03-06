@@ -3,10 +3,16 @@ title: Java XPS Image Adding - Ένας απλός οδηγός με το Aspose
 linktitle: Προσθήκη εικόνας σε Java XPS
 second_title: Aspose.Page Java API
 description: Μάθετε πώς να προσθέτετε εύκολα εικόνες σε έγγραφα XPS σε Java χρησιμοποιώντας το Aspose.Page. Αυξήστε την επεξεργασία των εγγράφων σας με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 10
 url: /el/java/xps-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS Image Adding - Ένας απλός οδηγός με το Aspose.Page
+
 Στον κόσμο της ανάπτυξης Java, η ικανότητα εργασίας με έγγραφα XPS είναι ζωτικής σημασίας για διάφορες εφαρμογές. Το Aspose.Page για Java παρέχει ένα ισχυρό σύνολο εργαλείων για τον χειρισμό εγγράφων XPS και μια βασική εργασία είναι η προσθήκη εικόνων. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης μιας εικόνας σε ένα έγγραφο XPS χρησιμοποιώντας το Aspose.Page για Java.
 ## Εισαγωγή
 Η προσθήκη εικόνων σε έγγραφα XPS είναι μια κοινή απαίτηση σε πολλές εφαρμογές Java, που κυμαίνονται από τη δημιουργία αναφορών έως την επεξεργασία εγγράφων. Το Aspose.Page για Java απλοποιεί αυτήν την εργασία, προσφέροντας αποτελεσματικές μεθόδους για την απρόσκοπτη ενσωμάτωση εικόνων στα αρχεία XPS σας. Σε αυτό το σεμινάριο, θα δείξουμε πώς να προσθέσετε μια εικόνα σε ένα έγγραφο XPS χρησιμοποιώντας το Aspose.Page για Java.
@@ -58,3 +64,9 @@ doc.save(dataDir + "AddImage_out.xps");
  Μπορείτε να αποκτήσετε προσωρινή άδεια από[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω πρόσθετη υποστήριξη ή να συζητήσω ζητήματα που σχετίζονται με το Aspose.Page για Java;
  Επισκέψου το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39) για να αναζητήσετε βοήθεια, να μοιραστείτε εμπειρίες και να συνδεθείτε με την κοινότητα του Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

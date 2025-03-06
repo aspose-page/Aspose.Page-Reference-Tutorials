@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して XPS ドキュメントを変更す�
 linktitle: XPSドキュメントの変更
 second_title: Aspose.Page .NET API
 description: XPS ドキュメントを簡単に変更できる Aspose.Page for .NET の機能を試してください。ステップバイステップのガイドに従って、文書処理を強化し、パーソナライズされた署名テキストを追加します。
-type: docs
 weight: 12
 url: /ja/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して XPS ドキュメントを変更する
+
 ## 導入
 
 Aspose.Page for .NET を使用して XPS ドキュメントを変更する方法に関するステップバイステップ ガイドへようこそ。 Aspose.Page は、開発者が XPS ファイルを簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、XPS ドキュメント内の指定されたページに署名テキスト「確認済み」を追加するプロセスを説明します。
@@ -119,3 +125,9 @@ A3: Aspose.Page はさまざまなサイズのドキュメントを処理でき�
 ### Q5: どこで助けを求めたり、Aspose コミュニティに連絡したりできますか?
 
  A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)質問したり、コミュニティと交流したりするためです。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

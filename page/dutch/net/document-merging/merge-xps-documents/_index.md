@@ -3,10 +3,16 @@ title: Voeg XPS-documenten samen met Aspose.Page voor .NET
 linktitle: XPS-documenten samenvoegen
 second_title: Aspose.Page .NET-API
 description: Voeg XPS-documenten moeiteloos samen met Aspose.Page voor .NET. Volg onze stapsgewijze handleiding voor naadloos documentbeheer.
-type: docs
 weight: 12
 url: /nl/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg XPS-documenten samen met Aspose.Page voor .NET
+
 ## Invoering
 
 Wilt u XPS-documenten naadloos samenvoegen met Aspose.Page voor .NET? Deze tutorial leidt u door het proces en biedt stapsgewijze begeleiding bij het moeiteloos samenvoegen van XPS-bestanden. Aspose.Page voor .NET is een krachtige bibliotheek die documentmanipulatietaken vereenvoudigt, waardoor het een ideale keuze is voor het samenvoegen van XPS-documenten. Laten we in het proces duiken en ontdekken hoe u dit gemakkelijk kunt bereiken.
@@ -94,3 +100,9 @@ A4: Zorg ervoor dat u over de juiste licentie beschikt om Aspose.Page voor .NET 
 ### V5: Biedt Aspose.Page voor .NET geavanceerde opties voor het samenvoegen van documenten?
 
 A5: Ja, u kunt aanvullende opties en configuraties verkennen die beschikbaar zijn in de documentatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

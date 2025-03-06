@@ -3,10 +3,16 @@ title: إضافة صورة إلى مستند XPS باستخدام Aspose.Page ل
 linktitle: إضافة صورة إلى مستند XPS
 second_title: Aspose.Page .NET API
 description: استكشف التكامل السلس للصور في مستندات XPS باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تجربة تطوير سلسة.
-type: docs
 weight: 11
 url: /ar/net/image-management/add-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة صورة إلى مستند XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 في عالم تطوير .NET، يعد دمج الصور في مستندات XPS متطلبًا شائعًا. يعمل Aspose.Page for .NET على تبسيط هذه العملية، حيث يقدم مجموعة أدوات قوية لمعالجة مستندات XPS وتحسينها بسهولة. سيرشدك هذا البرنامج التعليمي خلال خطوات إضافة صورة إلى مستند XPS باستخدام Aspose.Page لـ .NET.
@@ -100,3 +106,9 @@ doc.Save(dataDir + "AddImage_outXPS.xps");
 ### س5: أين يمكنني طلب المساعدة أو التواصل مع مجتمع Aspose.Page for .NET؟
 
  ج5: قم بزيارة[Aspose.Page لمنتدى .NET](https://forum.aspose.com/c/page/39) للتواصل مع المجتمع والحصول على الدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page を使用して PostScript (PS) で擬似透明性を表示�
 linktitle: PostScript で擬似透明性を表示する (PS)
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して、PostScript の擬似透明性の力を試してください。視覚的に美しいドキュメントを作成するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 13
 url: /ja/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して PostScript (PS) で擬似透明性を表示する
+
 ## 導入
 
 疑似透明機能を組み込むことで、PostScript (PS) ドキュメントの視覚的な魅力を強化したいと考えていますか? Aspose.Page for .NET は、この効果を簡単に実現する強力なソリューションを提供します。このステップバイステップのチュートリアルでは、Aspose.Page を使用して PostScript で擬似透明性を表示するプロセスを説明します。
@@ -129,3 +135,9 @@ A2: はい、GraphicsPath を適宜調整することで、同じ原則を他の
 ### Q5: Aspose.Page の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 訪問[このリンク](https://purchase.aspose.com/temporary-license/) Aspose.Page の一時ライセンスを取得します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

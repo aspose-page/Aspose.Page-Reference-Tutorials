@@ -3,10 +3,16 @@ title: Tambahkan Namespace dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Ruang Nama
 second_title: Aspose.Halaman .NET API
 description: Sempurnakan file EPS dengan Aspose.Page untuk .NET. Tambahkan namespace dengan mudah, ubah metadata XMP, dan tingkatkan alur kerja pengembangan .NET Anda.
-type: docs
 weight: 13
 url: /id/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Namespace dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Dalam dunia pengembangan .NET yang dinamis, Aspose.Page menonjol sebagai alat yang ampuh untuk menangani file EPS. Aspose.Page untuk .NET memungkinkan pengembang memanipulasi metadata XMP dengan lancar, memberikan fleksibilitas untuk menambahkan namespace dan meningkatkan metadata file EPS.
@@ -117,3 +123,9 @@ A2: Tentu saja! Aspose.Page memungkinkan Anda mengekstrak dan memodifikasi metad
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page?
 
  A5: Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

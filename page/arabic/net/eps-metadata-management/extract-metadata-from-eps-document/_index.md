@@ -3,10 +3,16 @@ title: قم باستخراج البيانات التعريفية من مستند
 linktitle: استخراج البيانات الوصفية من وثيقة EPS
 second_title: Aspose.Page .NET API
 description: قم بتحسين تنظيم مستندات EPS باستخدام Aspose.Page لـ .NET. قم بإضافة بيانات التعريف بسهولة لتحسين إمكانية الوصول واسترجاع المعلومات.
-type: docs
 weight: 18
 url: /ar/net/eps-metadata-management/extract-metadata-from-eps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم باستخراج البيانات التعريفية من مستند EPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 في المشهد المتطور باستمرار للمستندات الرقمية، تلعب البيانات الوصفية دورًا حاسمًا في توفير معلومات حول المحتوى وأصله والتفاصيل الأساسية الأخرى. يعمل Aspose.Page for .NET على تمكين المطورين من إضافة بيانات التعريف إلى مستندات EPS (Encapsulated PostScript) بسلاسة، مما يعزز إمكانية الوصول إليها وفائدتها.
@@ -146,3 +152,9 @@ A2: تم تصميم Aspose.Page for .NET للتعامل مع مستندات EPS 
 ### س5: كيف يمكنني معالجة الأخطاء أثناء عملية إضافة بيانات التعريف؟
 
 ج5: تأكد من معالجة الاستثناءات المناسبة في التعليمات البرمجية الخاصة بك لمعالجة أي أخطاء محتملة أثناء عملية استخراج بيانات التعريف وإضافتها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

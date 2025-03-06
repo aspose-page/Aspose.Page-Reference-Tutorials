@@ -3,10 +3,16 @@ title: Aspose.Page Java 텍스트 조작
 linktitle: Java PostScript에 텍스트 추가
 second_title: Aspose.페이지 자바 API
 description: PostScript 문서에 텍스트를 추가하는 방법에 대한 튜토리얼에서 Java용 Aspose.Page의 강력한 기능을 살펴보세요. 시스템 및 사용자 정의 글꼴을 쉽게 사용하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java 텍스트 조작
+
 ## 소개
 Java용 Aspose.Page를 사용하여 Java PostScript에 텍스트를 추가하는 방법에 대한 단계별 가이드에 오신 것을 환영합니다. Aspose.Page for Java는 개발자가 PostScript 문서를 쉽게 조작할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 텍스트 추가, 시스템 및 사용자 정의 글꼴 사용, 텍스트 윤곽선 지정, 시각적으로 매력적인 결과를 위한 획 통합 과정을 안내합니다.
 ## 전제 조건
@@ -99,3 +105,9 @@ document.save();
 `ExternalFontCache` 사용자 정의 글꼴을 가져와 텍스트 조작에 사용할 수 있도록 하는 데 사용됩니다.
 ### 윤곽선이 있는 텍스트에 다른 획을 적용할 수 있나요?
  예, 다음을 사용하여 획의 너비와 색상을 사용자 정의할 수 있습니다.`Stroke` 수업과`Color` 수업은 각각.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

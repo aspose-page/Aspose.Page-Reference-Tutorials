@@ -3,10 +3,16 @@ title: Konverzió - XPS
 linktitle: Konverzió - XPS
 second_title: Aspose.Page Java API
 description: Könnyedén konvertálhat XPS-t különféle formátumokká Java nyelven az Aspose.Page segítségével. Fokozza a dokumentumfeldolgozást lépésenkénti útmutatóinkkal a pontos és hatékony átalakítás érdekében.
-type: docs
 weight: 22
 url: /hu/java/xps-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konverzió - XPS
+
 
 ## Bevezetés
 
@@ -44,3 +50,9 @@ Az Aspose.Page segítségével zökkenőmentes XPS-ből PDF-be konvertálást ol
 Könnyedén konvertálhat XPS-t PNG-re Java nyelven az Aspose.Page segítségével. Egyszerűsítse a dokumentumfeladatokat ezzel a megbízható és fejlesztőbarát megoldással.
 ### [Konvertálja az XSP-t TIFF-re Java-ban](./to-tiff/)
 Az Aspose.Page for Java segítségével könnyedén konvertálhat XPS-t TIFF formátumba. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében. Letöltés most!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

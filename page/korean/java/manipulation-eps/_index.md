@@ -3,10 +3,16 @@ title: Java의 EPS 조작
 linktitle: Java의 EPS 조작
 second_title: Aspose.페이지 자바 API
 description: EPS 조작에 대한 튜토리얼을 통해 Java용 Aspose.Page를 살펴보세요. 단계별 가이드를 통해 손쉽게 EPS 파일을 자르고 크기를 조정하여 문서 기술을 향상하세요.
-type: docs
 weight: 24
 url: /ko/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java의 EPS 조작
+
 
 ## 소개
 
@@ -42,3 +48,9 @@ Aspose.Page를 사용하면 Java에서 EPS 파일 크기를 쉽게 조정할 수
 Aspose.Page를 사용하여 Java에서 EPS 파일 자르기에 대한 단계별 가이드를 살펴보세요. 손쉽게 문서 처리 기술을 향상시키세요. 
 ### [Java에서 EPS 파일 크기 조정](./resize/)
 Java용 Aspose.Page를 사용하여 Java에서 EPS 파일 크기를 쉽게 조정하는 방법을 알아보세요. 단계별 지침은 당사의 종합 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

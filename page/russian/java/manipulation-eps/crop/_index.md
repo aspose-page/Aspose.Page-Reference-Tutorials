@@ -3,10 +3,16 @@ title: Обрезка файлов EPS в Java — пошаговое руков
 linktitle: Обрезать файл EPS в Java
 second_title: API Aspose.Page Java
 description: Изучите пошаговое руководство по обрезке файлов EPS в Java с помощью Aspose.Page. Совершенствуйте свои навыки работы с документами без особых усилий.
-type: docs
 weight: 10
 url: /ru/java/manipulation-eps/crop/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обрезка файлов EPS в Java — пошаговое руководство с помощью Aspose.Page
+
 ## Введение
 Вы хотите манипулировать файлами EPS в своем приложении Java и задаетесь вопросом, как эффективно их обрезать? Не смотрите дальше! В этом подробном руководстве мы покажем вам пошаговый процесс обрезки файлов EPS с использованием мощной библиотеки Aspose.Page для Java.
 ## Предварительные условия
@@ -69,3 +75,9 @@ doc.cropEps(outputEpsStream, newBoundingBox);
  О: Да, вы можете получить бесплатную пробную версию.[здесь](https://releases.aspose.com/).
 ### Вопрос: Как мне получить временную лицензию?
  О: Получите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

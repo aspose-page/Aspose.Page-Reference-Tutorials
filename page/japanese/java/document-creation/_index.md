@@ -3,10 +3,16 @@ title: Javaドキュメントの作成
 linktitle: Javaドキュメントの作成
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用すると、Java で PostScript ドキュメントを簡単に生成できます。ページ サイズ、余白、フォントをカスタマイズします。 Java ドキュメント作成チュートリアルを詳しく見てみましょう。
-type: docs
 weight: 23
 url: /ja/java/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Javaドキュメントの作成
+
 ## 導入
 
 Java ドキュメント作成の世界に飛び込む場合は、Aspose.Page for Java が頼りになるツールです。この包括的なガイドでは、PostScript に焦点を当てて、Java でドキュメントを作成する際の複雑な手順を説明します。 Aspose.Page for Java の可能性を解き放つ、この旅に一緒に乗り出しましょう。
@@ -33,3 +39,9 @@ Java ドキュメント作成の世界に飛び込む場合は、Aspose.Page for
 ## Java ドキュメント作成チュートリアル
 ### [PostScript を使用して Java でドキュメントを作成する](./postscript/)
 Aspose.Page を使用すると、Java で PostScript ドキュメントを簡単に作成できます。ページ サイズ、余白、フォントをカスタマイズします。今すぐ無料トライアルを試してください!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

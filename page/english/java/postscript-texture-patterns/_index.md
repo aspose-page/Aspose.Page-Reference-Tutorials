@@ -3,10 +3,16 @@ title: Texture and Patterns - PostScript
 linktitle: Texture and Patterns - PostScript
 second_title: Aspose.Page Java API
 description: Elevate PostScript with Aspose.Page for Java. Seamlessly add texture tiling patterns for creative possibilities in our detailed Java PostScript tutorials.
-type: docs
 weight: 38
 url: /java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Texture and Patterns - PostScript
+
 ## Introduction
 
 Are you ready to elevate your PostScript documents to new creative heights? Aspose.Page for Java is your gateway to seamlessly integrating texture tiling patterns into your projects. In this comprehensive guide, we'll delve into the world of textures and patterns, unlocking the full potential of Java PostScript.
@@ -45,3 +51,9 @@ Ready to elevate your PostScript designs? Dive into our Aspose.Page for Java tut
 ## Texture and Patterns - PostScript Tutorials
 ### [Add Texture Tiling Pattern in Java PostScript](./add-texture-tiling-pattern/)
 Effortlessly add texture tiling patterns to PostScript documents with Aspose.Page for Java. Explore our seamless integration guide for creative possibilities.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

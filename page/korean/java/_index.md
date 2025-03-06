@@ -1,12 +1,17 @@
 ---
 title: Java용 Aspose.Page의 종합 튜토리얼 및 예
 linktitle: Java 튜토리얼용 Aspose.Page
-type: docs
 weight: 10
 url: /ko/java/
 description: Aspose.Page 튜토리얼을 통해 Java 페이지 조작의 비밀을 풀어보세요. 시각적으로 멋진 문서를 만들기 위해 클리핑, 변형 등을 손쉽게 수행해 보세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.Page의 종합 튜토리얼 및 예
+
 ## 소개
 
 Java 문서 처리 기술을 향상시킬 준비가 되셨습니까? 포괄적인 튜토리얼과 예제를 통해 Java용 Aspose.Page의 세계를 살펴보세요. 숙련된 개발자이든 이제 막 시작하는 개발자이든 당사의 단계별 가이드를 통해 Aspose.Page for Java의 잠재력을 최대한 활용할 수 있습니다.
@@ -76,3 +81,9 @@ Aspose.Page를 사용하여 Java XPS 문서를 손쉽게 향상하세요. 향상
 Aspose.Page를 사용하여 Java 문서 시각적 효과를 손쉽게 향상하세요! 이 단계별 튜토리얼에서 Visual Brush를 사용하여 그리드를 추가하여 애플리케이션을 향상시키는 방법을 알아보세요.
 ### [XMP 메타데이터 조작 - Java](./xmp-metadata-manipulation/)
 항목 추가부터 추출까지 XMP 메타데이터 조작을 통해 EPS 파일을 손쉽게 향상할 수 있습니다. 가이드를 통해 문서 관리 수준을 높이세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ställ in Opacitetsmask i Java XPS
 linktitle: Ställ in Opacitetsmask i Java XPS
 second_title: Aspose.Page Java API
 description: Upptäck kraften i att ställa in opacitetsmasker i Java XPS med Aspose.Page. Följ vår steg-för-steg-guide för en visuellt förbättrad dokumentupplevelse.
-type: docs
 weight: 11
 url: /sv/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in Opacitetsmask i Java XPS
+
 ## Introduktion
 Välkommen till vår omfattande guide för att ställa in opacitetsmasker i Java XPS med Aspose.Page. I den här handledningen går vi igenom processen att skapa ett XPS-dokument, lägga till en arbetsyta och applicera en opacitetsmask på en rektangel med de kraftfulla funktionerna i Aspose.Page för Java.
 ## Förutsättningar
@@ -67,3 +73,9 @@ Provversionen kan ha vissa funktionsbegränsningar. Det är tillrådligt att kon
  Du kan besöka[Aspose.Page forum](https://forum.aspose.com/c/page/39) för samhällsstöd eller köp en licens för premiumhjälp.
 ### Finns det en pengarna-tillbaka-garanti för Aspose.Page?
  Referera till[köpsidan](https://purchase.aspose.com/buy) för information om återbetalningspolicyer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

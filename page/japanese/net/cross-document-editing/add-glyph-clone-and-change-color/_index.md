@@ -3,10 +3,16 @@ title: Aspose.Page for .NET でグリフ クローンを追加し、色を変更
 linktitle: グリフ クローンを追加して色を変更する
 second_title: Aspose.Page .NET API
 description: この包括的なチュートリアルで、Aspose.Page for .NET の威力を体験してください。 XPS ドキュメントでグリフ クローンを追加し、色を簡単に変更する方法を学びます。
-type: docs
 weight: 10
 url: /ja/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET でグリフ クローンを追加し、色を変更する
+
 ## 導入
 
 Aspose.Page for .NET を使用してグリフ クローンを追加し、XPS ドキュメントの色を変更する方法に関するこのステップバイステップ ガイドへようこそ。 Aspose.Page for .NET は、XPS ファイルをシームレスに操作できる強力なライブラリです。このチュートリアルでは、グリフ クローンを追加してその色を変更し、ドキュメントの視覚的な魅力を高めるプロセスに焦点を当てます。
@@ -129,3 +135,9 @@ A4: 無料試用版にはいくつかの制限があるため、使用する前�
 ### Q5: Aspose.Page for .NET の包括的なドキュメントはどこで見つけられますか?
 
  A5: ドキュメントを参照してください。[ここ](https://reference.aspose.com/page/net/)詳細な情報と例については、
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

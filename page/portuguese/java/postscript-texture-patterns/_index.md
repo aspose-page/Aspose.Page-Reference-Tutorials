@@ -3,10 +3,16 @@ title: Textura e Padrões - PostScript
 linktitle: Textura e Padrões - PostScript
 second_title: API Java Aspose.Page
 description: Eleve o PostScript com Aspose.Page para Java. Adicione perfeitamente padrões de ladrilhos de textura para possibilidades criativas em nossos tutoriais detalhados de Java PostScript.
-type: docs
 weight: 38
 url: /pt/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Textura e Padrões - PostScript
+
 ## Introdução
 
 Você está pronto para elevar seus documentos PostScript a novos patamares criativos? Aspose.Page for Java é a sua porta de entrada para integrar perfeitamente padrões de ladrilhos de textura em seus projetos. Neste guia abrangente, mergulharemos no mundo das texturas e padrões, revelando todo o potencial do Java PostScript.
@@ -45,3 +51,9 @@ Pronto para aprimorar seus designs PostScript? Mergulhe em nossos tutoriais Aspo
 ## Textura e Padrões - Tutoriais PostScript
 ### [Adicionar padrão de ladrilho de textura em Java PostScript](./add-texture-tiling-pattern/)
 Adicione facilmente padrões de ladrilhos de textura a documentos PostScript com Aspose.Page para Java. Explore nosso guia de integração perfeita para possibilidades criativas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

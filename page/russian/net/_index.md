@@ -1,12 +1,17 @@
 ---
 title: Комплексные руководства и примеры Aspose.Page для .NET
 linktitle: Учебные пособия по Aspose.Page для .NET
-type: docs
 weight: 10
 url: /ru/net/
 description: Раскройте потенциал Aspose.Page для .NET с помощью руководств, посвященных созданию, манипулированию и усовершенствованию. Освойте от основ до продвинутых техник без особых усилий.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Комплексные руководства и примеры Aspose.Page для .NET
+
 ## Введение
 
 Готовы ли вы раскрыть весь потенциал Aspose.Page для .NET? Не смотрите дальше! Наши подробные руководства охватывают все аспекты, от базовых функций до продвинутых методов, что позволит вам стать опытным пользователем.
@@ -115,3 +120,9 @@ is_root: true
 Улучшите качество обработки документов в .NET с помощью руководств по Aspose.Page. Погрузитесь в мир визуальных кистей, осваивая методы создания потрясающих визуально документов.
 ### [Управление метаданными EPS](./eps-metadata-management/)
 Улучшите организацию EPS с помощью Aspose.Page для .NET. Легко добавляйте метаданные для повышения доступности. Изучите учебные пособия по управлению метаданными EPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

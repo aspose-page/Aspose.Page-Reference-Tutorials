@@ -3,10 +3,16 @@ title: Java PostScript に楕円を追加する
 linktitle: Java PostScript に楕円を追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して、Java で見事な PostScript ドキュメントを作成する方法をマスターします。視覚的に魅力的なコンテンツを作成するために、楕円を追加する方法を段階的に学習します。
-type: docs
 weight: 10
 url: /ja/java/postscript-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript に楕円を追加する
+
 ## 導入
 Java 開発の動的な世界では、視覚的に魅力的なドキュメントを作成することが一般的な要件です。 Aspose.Page for Java は、開発者が PostScript ファイルを簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Page for Java を使用して PostScript ドキュメントに省略記号を追加する方法を説明します。ぜひ参考にして文書作成スキルを高めてください。
 ## 前提条件
@@ -71,3 +77,9 @@ A: はい、Aspose.Page for Java は、他の Java ライブラリとシーム�
  A: のコミュニティに参加してください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)議論と支援のために。
 ### Q: Aspose.Page for Java について詳しく知るための無料のリソースはありますか?
  A: を活用してください。[無料トライアル](https://releases.aspose.com/)ドキュメント内の例を調べてください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

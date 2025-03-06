@@ -3,10 +3,16 @@ title: Aspose.Page を使用してテクスチャ タイル パターンを Post
 linktitle: テクスチャ タイリング パターンを PostScript に適用する (PS)
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して、テクスチャ タイル パターンで PostScript (PS) ドキュメントを強化します。ステップバイステップのガイドに従って、クリエイティブなタッチを加えてください。
-type: docs
 weight: 10
 url: /ja/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用してテクスチャ タイル パターンを PostScript (PS) に適用する
+
 ## 導入
 
 Aspose.Page for .NET を使用してテクスチャ タイル パターンを PostScript (PS) ドキュメントに適用する方法に関するステップバイステップのチュートリアルへようこそ。 Aspose.Page は、さまざまなドキュメント形式を操作できる強力なライブラリです。このチュートリアルでは、テクスチャ タイル パターンを追加して PS ドキュメントを強化する方法を検討します。
@@ -156,3 +162,10 @@ A4: はい、異なる画像とパスを使用してプロセスを繰り返す�
 ### Q5: 追加のリソースやサポートはどこで入手できますか?
 
  A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティのサポートを求めて、[ドキュメンテーション](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

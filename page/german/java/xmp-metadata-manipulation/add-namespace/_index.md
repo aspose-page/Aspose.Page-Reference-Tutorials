@@ -3,10 +3,16 @@ title: Namespace in XMP mit Java hinzufügen
 linktitle: Namespace in XMP mit Java hinzufügen
 second_title: Aspose.Page Java-API
 description: Nutzen Sie die Möglichkeiten der Dokumentbearbeitung mit Aspose.Page für Java. Erfahren Sie in diesem umfassenden Leitfaden, wie Sie mühelos XMP-Namespaces hinzufügen.
-type: docs
 weight: 13
 url: /de/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Namespace in XMP mit Java hinzufügen
+
 
 ## Einführung
 
@@ -108,3 +114,9 @@ Aspose.Page unterstützt hauptsächlich Java, es sind jedoch Versionen für ande
 
 ### Gibt es Community-Foren für Aspose.Page?
  Ja, Sie können mit der Community auf der interagieren[Aspose.Page-Forum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

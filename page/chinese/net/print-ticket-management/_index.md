@@ -3,10 +3,16 @@ title: 打印票据管理
 linktitle: 打印票据管理
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 创建和编辑自定义打印票证。通过 XPS 文档中的细粒度控制轻松定制您的打印体验。
-type: docs
 weight: 30
 url: /zh/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 打印票据管理
+
 
 ## 介绍
 
@@ -34,3 +40,9 @@ url: /zh/net/print-ticket-management/
 探索使用 Aspose.Page for .NET 创建自定义打印票证的分步指南。通过精细控制定制您的打印体验。
 ### [使用 Aspose.Page for .NET 编辑现有的打印票证](./print-ticket-management/aspose.page/)
 了解使用 Aspose.Page for .NET 在 XPS 文档中编辑打印票据。开发人员的分步指南。轻松增强文档打印控制。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 자바 페이지 조작
 linktitle: 자바 페이지 조작
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page 튜토리얼을 통해 Java 페이지 조작의 비밀을 풀어보세요. 시각적으로 멋진 문서를 쉽게 만들기 위해 클리핑과 변형에 대해 알아보세요.
-type: docs
 weight: 20
 url: /ko/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 자바 페이지 조작
+
 
 ## 소개
 
@@ -50,3 +56,9 @@ Aspose.Page for Java는 여러분의 손끝에 강력한 기능을 제공합니�
 Aspose.Page를 사용하여 Java 페이지 조작에서 클리핑 기술을 살펴보세요. 놀라운 시각적 효과와 제어력을 위해 정밀한 문서 제작을 마스터하세요.
 ### [Java 페이지 조작의 변환](./transformations/)
 Java용 Aspose.Page를 사용하여 Java에서 고급 페이지 변환을 수행하는 방법을 알아보세요. 강력한 조작 기능으로 Java 애플리케이션을 강화하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

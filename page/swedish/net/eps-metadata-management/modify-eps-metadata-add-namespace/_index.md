@@ -3,10 +3,16 @@ title: Lägg till namnområde med Aspose.Page för .NET
 linktitle: Lägg till namnområde
 second_title: Aspose.Page .NET API
 description: Förbättra EPS-filer med Aspose.Page för .NET. Lägg till namnutrymmen utan ansträngning, ändra XMP-metadata och stärk ditt .NET-utvecklingsarbetsflöde.
-type: docs
 weight: 13
 url: /sv/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till namnområde med Aspose.Page för .NET
+
 ## Introduktion
 
 I den dynamiska världen av .NET-utveckling framstår Aspose.Page som ett kraftfullt verktyg för att hantera EPS-filer. Aspose.Page för .NET tillåter utvecklare att sömlöst manipulera XMP-metadata, vilket ger flexibiliteten att lägga till namnområden och förbättra metadata för EPS-filer.
@@ -117,3 +123,9 @@ A2: Absolut! Aspose.Page låter dig extrahera och ändra XMP-metadata från EPS-
 ### F5: Hur kan jag få en tillfällig licens för Aspose.Page?
 
  A5: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för teständamål.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

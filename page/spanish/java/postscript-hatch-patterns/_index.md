@@ -3,10 +3,16 @@ title: Patrones de sombreado - PostScript
 linktitle: Patrones de sombreado - PostScript
 second_title: API de Java de Aspose.Page
 description: Descubra el arte de agregar patrones de sombreado cautivadores a documentos Java PostScript con Aspose.Page. Eleve el contenido visual sin esfuerzo para obtener resultados sorprendentes.
-type: docs
 weight: 27
 url: /es/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Patrones de sombreado - PostScript
+
 ## Introducción
 
 Crear documentos Java PostScript visualmente atractivos se vuelve muy sencillo con Aspose.Page. En este tutorial, nos adentramos en el fascinante mundo de los patrones de sombreado y exploramos cómo mejorar su contenido visual sin esfuerzo.
@@ -30,3 +36,9 @@ Ya sea que sea un desarrollador experimentado o un recién llegado a Java PostSc
 ## Patrones de sombreado: tutoriales de PostScript
 ### [Agregar patrón de sombreado en Java PostScript](./add-hatch-pattern/)
 Aprenda cómo agregar patrones de sombreado cautivadores a documentos Java PostScript usando Aspose.Page. Eleve su contenido visual sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

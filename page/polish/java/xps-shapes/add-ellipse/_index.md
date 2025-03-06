@@ -3,10 +3,16 @@ title: Dodaj promieniową elipsę gradientową za pomocą Aspose.Page
 linktitle: Dodaj elipsę w Java XPS
 second_title: Aspose.Page API Java
 description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym dodawania promieniowej elipsy z obrysowanym gradientem w języku Java XPS przy użyciu Aspose.Page dla języka Java. Ulepsz swoje tworzenie dokumentów bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj promieniową elipsę gradientową za pomocą Aspose.Page
+
 ## Wstęp
 Witamy w naszym przewodniku krok po kroku dotyczącym dodawania elipsy w Java XPS przy użyciu Aspose.Page dla Java. Aspose.Page to potężna biblioteka Java, która umożliwia programistom bezproblemową pracę z dokumentami XPS. W tym samouczku przeprowadzimy Cię przez proces tworzenia elipsy z obrysowanym gradientem promieniowym i zapisywania jej jako dokumentu XPS.
 ## Warunki wstępne
@@ -91,3 +97,9 @@ Absolutnie! Aspose.Page został zaprojektowany do wydajnej obsługi przetwarzani
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Czy istnieją fora społeczności do dyskusji w Aspose.Page?
  Tak, dołącz do[Forum społeczności Aspose.Page](https://forum.aspose.com/c/page/39) aby nawiązać współpracę z innymi programistami i uzyskać pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

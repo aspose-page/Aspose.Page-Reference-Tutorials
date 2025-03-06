@@ -3,10 +3,16 @@ title: Aspose.Page ile Java'da EPS Dosyalarını Yeniden Boyutlandırın
 linktitle: Java'da EPS Dosyasını Yeniden Boyutlandır
 second_title: Aspose.Page Java API'si
 description: Aspose.Page for Java ile EPS dosyalarını Java'da zahmetsizce nasıl yeniden boyutlandıracağınızı öğrenin. Adım adım talimatlar için kapsamlı kılavuzumuzu takip edin.
-type: docs
 weight: 11
 url: /tr/java/manipulation-eps/resize/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile Java'da EPS Dosyalarını Yeniden Boyutlandırın
+
 ## giriiş
 Güçlü Aspose.Page kitaplığını kullanarak EPS dosyalarını Java'da yeniden boyutlandırmaya ilişkin adım adım kılavuzumuza hoş geldiniz. EPS görsellerinizin boyutlarını programlı olarak ayarlamanız gerekiyorsa doğru yerdesiniz. Bu eğitimde, size özel gereksinimleriniz için ihtiyaç duyduğunuz esnekliği sağlayacak şekilde nokta, inç, milimetre ve yüzdeler dahil olmak üzere çeşitli yeniden boyutlandırma seçeneklerini inceleyeceğiz.
 ## Önkoşullar
@@ -67,3 +73,9 @@ Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Örnek projeler mevcut mudur?
  Evet, belgeleri kontrol edin[Burada](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

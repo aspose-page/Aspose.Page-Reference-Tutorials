@@ -3,10 +3,16 @@ title: Adjon hozzá névteret az XMP-hez Java használatával
 linktitle: Adjon hozzá névteret az XMP-hez Java használatával
 second_title: Aspose.Page Java API
 description: Fedezze fel a dokumentumkezelés erejét az Aspose.Page for Java segítségével. Ebből az átfogó útmutatóból megtanulhatja, hogyan adhat hozzá XMP névtereket könnyedén.
-type: docs
 weight: 13
 url: /hu/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá névteret az XMP-hez Java használatával
+
 
 ## Bevezetés
 
@@ -108,3 +114,9 @@ Az Aspose.Page elsősorban a Java-t támogatja, de vannak verziók más nyelvekr
 
 ### Vannak közösségi fórumok az Aspose.Page számára?
  Igen, kapcsolatba léphet a közösséggel a[Aspose.Page fórum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

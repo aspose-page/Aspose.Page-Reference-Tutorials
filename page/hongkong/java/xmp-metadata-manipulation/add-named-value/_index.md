@@ -3,10 +3,16 @@ title: 使用 Java 在 XMP 中新增命名值
 linktitle: 使用 Java 在 XMP 中新增命名值
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 掌握 Java 文件操作！透過我們的無縫集成分步指南，輕鬆在 XMP 元資料中新增命名值。
-type: docs
 weight: 12
 url: /zh-hant/java/xmp-metadata-manipulation/add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 XMP 中新增命名值
+
 ## 介紹
 在不斷發展的 Java 開發環境中，處理 EPS 檔案中的元資料對於維護文件完整性至關重要。 Aspose.Page for Java 是一個功能強大的函式庫，可以簡化此過程。在本教程中，我們將深入研究使用 Java 在 XMP 元資料中新增命名值的步驟，確保您擁有操作 EPS 檔案的堅實基礎。
 ## 先決條件
@@ -78,3 +84,9 @@ psStream.close();
 探索[文件](https://reference.aspose.com/page/java/)取得全面的教學和範例。
 ### Aspose.Page for Java適合大型專案嗎？
 當然，Aspose.Page for Java 旨在高效處理大型項目，提供強大的文件操作功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

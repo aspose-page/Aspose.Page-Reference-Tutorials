@@ -3,10 +3,16 @@ title: Správa tiskových lístků
 linktitle: Správa tiskových lístků
 second_title: Aspose.Page .NET API
 description: Vytvářejte a upravujte vlastní tiskové vstupenky pomocí Aspose.Page pro .NET. Přizpůsobte si tisk bez námahy pomocí jemného ovládání v dokumentech XPS.
-type: docs
 weight: 30
 url: /cs/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa tiskových lístků
+
 
 ## Úvod
 
@@ -34,3 +40,9 @@ Závěrem lze říci, že tato série výukových programů je povinnou četbou 
 Prozkoumejte podrobného průvodce vytvářením vlastních tiskových lístků pomocí Aspose.Page for .NET. Přizpůsobte si tisk na míru pomocí jemného ovládání.
 ### [Upravit existující tiskový lístek pomocí Aspose.Page pro .NET](./print-ticket-management/aspose.page/)
 Naučte se upravovat tiskové vstupenky v dokumentech XPS pomocí Aspose.Page for .NET. Průvodce krok za krokem pro vývojáře. Vylepšete ovládání tisku dokumentů bez námahy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aggiungi gradiente verticale a XPS con Aspose.Page per .NET
 linktitle: Aggiungi gradiente verticale a XPS
 second_title: API Aspose.Page .NET
 description: Scopri come migliorare i documenti XPS con gradienti verticali utilizzando Aspose.Page per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 15
 url: /it/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi gradiente verticale a XPS con Aspose.Page per .NET
+
 ## introduzione
 
 Benvenuti in questo tutorial passo passo su come aggiungere un gradiente verticale a un documento XPS utilizzando Aspose.Page per .NET. Aspose.Page è una potente API che ti consente di lavorare con file XPS (XML Paper Specifica) nelle tue applicazioni .NET. In questo tutorial ti guideremo attraverso il processo di creazione di un nuovo documento XPS, aggiungendo un gradiente verticale a un tracciato e salvando il risultato.
@@ -117,3 +123,9 @@ A1: Sì, Aspose.Page è compatibile con Visual Studio 2019. Assicurati di avere 
 ### Q5: Come posso ottenere supporto o porre domande?
 
  A5: Visita il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) per il sostegno della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

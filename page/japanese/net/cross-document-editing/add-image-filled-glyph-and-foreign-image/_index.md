@@ -3,10 +3,16 @@ title: Aspose.Page .NET を使用して画像埋め込みグリフと外部画�
 linktitle: 画像を埋め込んだグリフと外部画像を追加
 second_title: Aspose.Page .NET API
 description: Aspose.Page を使用して、.NET でのドキュメント処理の能力を解放します。画像を埋め込んだグリフを簡単に追加できます。ビジュアルを強化し、ワークフローを合理化します。
-type: docs
 weight: 11
 url: /ja/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page .NET を使用して画像埋め込みグリフと外部画像を追加する
+
 ## 導入
 
 .NET 開発の世界では、Aspose.Page はドキュメント処理タスクを処理するための強力なツールキットとして際立っています。このチュートリアルでは、Aspose.Page for .NET を使用して、画像で埋められたグリフを追加し、外部画像を組み込むプロセスについて説明します。このガイドを読み終えるまでに、ドキュメント処理能力を強化する方法をしっかりと理解できるようになります。
@@ -131,3 +137,9 @@ A4: はい、各グリフのスタイルを個別にカスタマイズできる�
 ### Q5: 他のドキュメント処理ツールと比べて、Aspose.Page を使用する利点は何ですか?
 
 A5: Aspose.Page は、包括的な機能セット、優れたパフォーマンス、および広範なドキュメントを提供するため、多くの開発者にとって好ましい選択肢となっています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

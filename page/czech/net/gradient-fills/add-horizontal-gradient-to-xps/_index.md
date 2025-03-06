@@ -3,10 +3,16 @@ title: Přidejte horizontální přechod do XPS pomocí Aspose.Page pro .NET
 linktitle: Přidejte horizontální přechod do XPS
 second_title: Aspose.Page .NET API
 description: Naučte se, jak přidat úžasné horizontální přechody do dokumentů XPS pomocí Aspose.Page for .NET. Zvyšte vizuální přitažlivost bez námahy.
-type: docs
 weight: 13
 url: /cs/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte horizontální přechod do XPS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 V tomto tutoriálu prozkoumáme, jak vylepšit dokumenty XPS přidáním horizontálního přechodu pomocí Aspose.Page for .NET. Aspose.Page for .NET je výkonná knihovna, která poskytuje bezproblémovou práci s dokumenty XPS (XML Paper Specification) v aplikacích .NET. Přidání přechodů může vašim dokumentům přinést vizuální přitažlivost a tento průvodce vás provede procesem krok za krokem.
@@ -113,3 +119,9 @@ Vylepšení vašich dokumentů XPS pomocí přechodů nejen zlepšuje jejich viz
 ### Q5: Jak získám dočasnou licenci pro Aspose.Page for .NET?
 
  A5: Můžete získat dočasnou licenci od[tento odkaz](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

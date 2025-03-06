@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 배열 항목 변경
 linktitle: 배열 항목 변경
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 EPS 파일의 배열 항목을 변경하는 방법을 알아보세요. 효율적인 메타데이터 조작을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 15
 url: /ko/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 배열 항목 변경
+
 ## 소개
 
 .NET용 Aspose.Page를 사용하여 배열 항목을 변경하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다! Aspose.Page는 개발자가 EPS 파일을 포함한 다양한 문서 형식으로 작업할 수 있는 강력한 라이브러리입니다. 이 튜토리얼에서는 EPS 파일 내에서 XMP 메타데이터를 조작하는 방법, 특히 배열 항목을 변경하는 방법에 중점을 둘 것입니다.
@@ -99,3 +105,9 @@ A1: Aspose.Page는 주로 EPS 파일을 다루지만 Aspose는 다양한 문서 
 ### Q5: 어디서 지원을 받거나 커뮤니티와 연결할 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

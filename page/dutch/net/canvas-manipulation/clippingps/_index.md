@@ -3,10 +3,16 @@ title: PS knippen met Aspose.Page voor .NET
 linktitle: PS knippen
 second_title: Aspose.Page .NET-API
 description: Ontdek de kracht van Aspose.Page voor .NET in deze stapsgewijze zelfstudie over het knippen van PostScript-documenten. Leer hoe u moeiteloos uw documentverwerkingsmogelijkheden kunt verbeteren.
-type: docs
 weight: 10
 url: /nl/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PS knippen met Aspose.Page voor .NET
+
 ## Invoering
 
 Welkom bij de uitgebreide tutorial over het gebruik van Aspose.Page voor .NET om clipping in PostScript (PS)-documenten te implementeren. Deze tutorial begeleidt u bij het knippen van PS-documenten met Aspose.Page, een krachtige bibliotheek voor het werken met verschillende documentformaten in .NET-toepassingen.
@@ -147,3 +153,9 @@ A1: Aspose.Page is voornamelijk ontworpen voor .NET-toepassingen. Aspose biedt e
 ### V5: Waar kan ik ondersteuning krijgen of Aspose.Page-gerelateerde vragen bespreken?
 
  A5: Bezoek de[Aspose.Page-forums](https://forum.aspose.com/c/page/39) voor gemeenschapsondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

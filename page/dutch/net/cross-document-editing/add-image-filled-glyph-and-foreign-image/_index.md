@@ -3,10 +3,16 @@ title: Voeg afbeelding gevulde glyph en buitenlandse afbeelding toe met Aspose.P
 linktitle: Voeg afbeelding gevulde glyph en buitenlandse afbeelding toe
 second_title: Aspose.Page .NET-API
 description: Ontgrendel de kracht van documentverwerking in .NET met Aspose.Page. Voeg moeiteloos met afbeeldingen gevulde glyphs toe. Verbeter de visuals en stroomlijn uw workflow.
-type: docs
 weight: 11
 url: /nl/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg afbeelding gevulde glyph en buitenlandse afbeelding toe met Aspose.Page .NET
+
 ## Invoering
 
 In de wereld van .NET-ontwikkeling onderscheidt Aspose.Page zich als een krachtige toolkit voor het afhandelen van documentverwerkingstaken. Deze tutorial leidt u door het proces van het toevoegen van met afbeeldingen gevulde glyphs en het opnemen van externe afbeeldingen met behulp van Aspose.Page voor .NET. Aan het einde van deze handleiding heeft u een goed inzicht in hoe u uw documentverwerkingsmogelijkheden kunt verbeteren.
@@ -131,3 +137,9 @@ A4: Ja, u kunt de stijlen voor elke glyph afzonderlijk aanpassen, wat een hoge m
 ### V5: Wat zijn de voordelen van het gebruik van Aspose.Page ten opzichte van andere tools voor documentverwerking?
 
 A5: Aspose.Page biedt een uitgebreide reeks functies, uitstekende prestaties en uitgebreide documentatie, waardoor het voor veel ontwikkelaars de voorkeur geniet.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

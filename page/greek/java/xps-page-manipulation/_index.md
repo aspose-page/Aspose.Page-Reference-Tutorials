@@ -3,10 +3,16 @@ title: Χειρισμός σελίδας - XPS
 linktitle: Χειρισμός σελίδας - XPS
 second_title: Aspose.Page Java API
 description: Εξερευνήστε τη δύναμη του Aspose.Page για Java με τα σεμινάρια μας. Αναβαθμίστε τα έγγραφα Java XPS προσθέτοντας αβίαστα σελίδες για βελτιωμένη λειτουργικότητα εφαρμογής.
-type: docs
 weight: 33
 url: /el/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός σελίδας - XPS
+
 
 ## Εισαγωγή
 
@@ -36,3 +42,9 @@ url: /el/java/xps-page-manipulation/
 ## Χειρισμός σελίδας - Εκμάθηση XPS
 ### [Προσθήκη σελίδας σε Java XPS](./add-page/)
 Αναβαθμίστε έγγραφα Java XPS με το Aspose.Page. Μάθετε να προσθέτετε εύκολα σελίδες για βελτιωμένη λειτουργικότητα εφαρμογών. Βουτήξτε στο tutorial τώρα!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ritaglio di XPS con Aspose.Page per .NET
 linktitle: Ritaglio dell'XPS
 second_title: API Aspose.Page .NET
 description: Esplora la potenza di Aspose.Page per .NET in questa guida passo passo su come ritagliare documenti XPS. Crea, manipola e salva file XPS senza sforzo.
-type: docs
 weight: 11
 url: /it/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ritaglio di XPS con Aspose.Page per .NET
+
 ## introduzione
 
 Benvenuti in questo tutorial completo sul ritaglio di XPS utilizzando Aspose.Page per .NET! In questa guida ti guideremo attraverso il processo di creazione, manipolazione e salvataggio di documenti XPS utilizzando Aspose.Page per .NET. XPS, o XML PaperSpecific, è un formato di documento standardizzato e aperto e Aspose.Page per .NET fornisce potenti strumenti per lavorare con documenti XPS nelle applicazioni .NET.
@@ -156,3 +162,9 @@ A2: Sì, Aspose.Page per .NET è progettato per essere facile da usare e i princ
 ### Q5: È disponibile una prova gratuita per Aspose.Page per .NET?
 
  R5: Sì, puoi esplorare la prova gratuita[Qui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

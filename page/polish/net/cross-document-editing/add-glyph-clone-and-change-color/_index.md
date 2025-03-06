@@ -3,10 +3,16 @@ title: Dodaj klon glifów i zmień kolor za pomocą Aspose.Page dla .NET
 linktitle: Dodaj klon glifów i zmień kolor
 second_title: Aspose.Page API .NET
 description: Poznaj moc Aspose.Page dla .NET w tym kompleksowym samouczku. Dowiedz się, jak bez wysiłku dodawać klony glifów i zmieniać kolory w dokumentach XPS.
-type: docs
 weight: 10
 url: /pl/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj klon glifów i zmień kolor za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Witamy w tym przewodniku krok po kroku dotyczącym używania Aspose.Page dla .NET do dodawania klonów glifów i zmiany kolorów w dokumentach XPS. Aspose.Page dla .NET to potężna biblioteka, która umożliwia płynną pracę z plikami XPS. W tym samouczku skupimy się na procesie dodawania klonów glifów i zmieniania ich kolorów, poprawiając atrakcyjność wizualną dokumentów.
@@ -129,3 +135,9 @@ Odpowiedź 4: Bezpłatna wersja próbna ma pewne ograniczenia i przed użyciem z
 ### P5: Gdzie mogę znaleźć obszerną dokumentację Aspose.Page dla .NET?
 
  Odpowiedź 5: Możesz zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/page/net/) szczegółowe informacje i przykłady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

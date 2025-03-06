@@ -3,10 +3,16 @@ title: Ajouter un motif de hachures dans Java PostScript
 linktitle: Ajouter un motif de hachures dans Java PostScript
 second_title: API Java Aspose.Page
 description: Découvrez comment ajouter des motifs de hachures captivants aux documents Java PostScript à l'aide d'Aspose.Page. Élevez votre contenu visuel sans effort.
-type: docs
 weight: 10
 url: /fr/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un motif de hachures dans Java PostScript
+
 ## Introduction
 Dans le monde de la programmation Java, l’amélioration des éléments visuels est une exigence courante pour les développeurs. Une amélioration visuelle intéressante est l'ajout de motifs de hachures aux documents PostScript. Ce didacticiel vous guidera tout au long du processus d'ajout de motifs de hachures à l'aide d'Aspose.Page pour Java.
 ## Conditions préalables
@@ -97,3 +103,9 @@ Oui, Aspose.Page pour Java est conçu pour s'intégrer de manière transparente 
  Explore le[Aspose.Page pour le forum Java](https://forum.aspose.com/c/page/39) pour les tutoriels et le soutien de la communauté.
 ### Existe-t-il une ressource de documentation complète pour Aspose.Page pour Java ?
  Oui, référez-vous à la documentation[ici](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавьте вертикальный градиент в XPS с по
 linktitle: Добавьте вертикальный градиент в XPS
 second_title: Aspose.Page .NET API
 description: Узнайте, как улучшить документы XPS с помощью вертикальных градиентов с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 15
 url: /ru/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте вертикальный градиент в XPS с помощью Aspose.Page для .NET
+
 ## Введение
 
 Добро пожаловать в это пошаговое руководство о том, как добавить вертикальный градиент в документ XPS с помощью Aspose.Page для .NET. Aspose.Page — это мощный API, который позволяет вам работать с файлами XPS (спецификация бумаги XML) в ваших .NET-приложениях. В этом уроке мы покажем вам процесс создания нового документа XPS, добавления вертикального градиента к контуру и сохранения результата.
@@ -117,3 +123,9 @@ doc.Save(dataDir + "AddVerticalGradient_outXPS.xps");
 ### В5: Как я могу получить поддержку или задать вопросы?
 
  A5: Посетите[Форум Aspose.Page](https://forum.aspose.com/c/page/39) для поддержки сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

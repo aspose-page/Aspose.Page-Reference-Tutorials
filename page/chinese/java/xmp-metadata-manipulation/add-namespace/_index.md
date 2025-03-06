@@ -3,10 +3,16 @@ title: 使用 Java 在 XMP 中添加命名空间
 linktitle: 使用 Java 在 XMP 中添加命名空间
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 释放文档操作的强大功能。在这份综合指南中学习如何轻松添加 XMP 命名空间。
-type: docs
 weight: 13
 url: /zh/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 XMP 中添加命名空间
+
 
 ## 介绍
 
@@ -108,3 +114,9 @@ Aspose.Page 主要支持 Java，但也有适用于其他语言（例如 .NET）�
 
 ### 有 Aspose.Page 社区论坛吗？
 是的，您可以通过以下方式与社区互动[Aspose.Page 论坛](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

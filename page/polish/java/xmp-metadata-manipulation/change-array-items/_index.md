@@ -3,10 +3,16 @@ title: Zmień elementy tablicy w XMP przy użyciu Java
 linktitle: Zmień elementy tablicy w XMP przy użyciu Java
 second_title: Aspose.Page API Java
 description: Dowiedz się, jak zmieniać elementy tablicy w XMP przy użyciu Aspose.Page dla Java. Zmieniaj metadane bez wysiłku, korzystając z naszego przewodnika krok po kroku. Ulepsz swoje dokumenty EPS już teraz!
-type: docs
 weight: 15
 url: /pl/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmień elementy tablicy w XMP przy użyciu Java
+
 ## Wstęp
 Witamy w naszym obszernym przewodniku na temat zmiany elementów tablicy w XMP przy użyciu Aspose.Page dla Java! Aspose.Page to potężna biblioteka Java, która umożliwia płynną pracę z metadanymi XMP w plikach EPS. W tym samouczku przeprowadzimy Cię przez proces modyfikowania elementów tablicy w metadanych XMP, pomagając Ci ulepszać i dostosowywać dokumenty EPS.
 ## Warunki wstępne
@@ -77,3 +83,9 @@ Aspose.Page jest przeznaczony głównie dla języka Java, ale Aspose udostępnia
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę kupić pełną wersję Aspose.Page dla Java?
  Można kupić pełną wersję[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Carica la licenza dall'oggetto Stream con Aspose.Page per .NET
 linktitle: Carica la licenza dall'oggetto stream
 second_title: API Aspose.Page .NET
 description: Sblocca la manipolazione dei documenti in .NET con Aspose.Page. Segui la nostra guida per caricare facilmente le licenze dagli oggetti dello streaming.
-type: docs
 weight: 12
 url: /it/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Carica la licenza dall'oggetto Stream con Aspose.Page per .NET
+
 ## introduzione
 
 Sei pronto a portare le tue capacità di sviluppo .NET al livello successivo? Se hai mai sentito il bisogno di lavorare con i documenti, soprattutto nel contesto della manipolazione delle pagine, allora Aspose.Page per .NET è il tuo compagno perfetto. In questa guida completa ti guideremo attraverso il processo di caricamento di una licenza da un oggetto stream, un passaggio fondamentale per sfruttare le funzionalità di Aspose.Page per .NET.
@@ -111,3 +117,9 @@ A1: Sì, Aspose.Page è progettato per funzionare perfettamente con tutte le ver
 ### Q5: Posso eseguire l'aggiornamento a un piano di licenza diverso?
 
  A5: Esplora diverse opzioni di licenza ed esegui l'aggiornamento[Qui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавить прозрачное изображение в Java Post
 linktitle: Добавить прозрачное изображение в Java PostScript
 second_title: API Aspose.Page Java
 description: Исследуйте беспрепятственную интеграцию прозрачных изображений в документы Java PostScript с помощью Aspose.Page для Java. Улучшите визуализацию документов без особых усилий.
-type: docs
 weight: 10
 url: /ru/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить прозрачное изображение в Java PostScript
+
 ## Введение
 В мире Java PostScript повышение визуальной привлекательности документов часто предполагает добавление прозрачных изображений. Это руководство проведет вас через процесс включения прозрачных изображений в ваши документы Java PostScript с помощью мощной библиотеки Aspose.Page для Java.
 ## Предварительные условия
@@ -83,3 +89,9 @@ document.save();
  Да, посетите[Форум Aspose.Page для Java](https://forum.aspose.com/c/page/39) за поддержку сообщества и обсуждения.
 ### Где я могу найти документацию по Aspose.Page для Java?
  Обратитесь к комплексному[документация](https://reference.aspose.com/page/java/) для получения подробной информации об Aspose.Page для Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

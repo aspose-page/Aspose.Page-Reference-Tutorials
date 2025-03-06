@@ -3,10 +3,16 @@ title: Documenten samenvoegen
 linktitle: Documenten samenvoegen
 second_title: Aspose.Page .NET-API
 description: Voeg PostScript- en XPS-documenten moeiteloos samen tot hoogwaardige PDF's met Aspose.Page voor .NET. Verbeter uw documentverwerking met onze stapsgewijze tutorials.
-type: docs
 weight: 25
 url: /nl/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Documenten samenvoegen
+
 ## Invoering
 
 Voeg uw weg naar naadloos documentbeheer samen met Aspose.Page voor .NET. Ontdek de kracht van het samenvoegen van documenten met onze uitgebreide tutorials.
@@ -40,3 +46,9 @@ Leer hoe u PostScript-documenten moeiteloos in PDF kunt samenvoegen met Aspose.P
 Voeg XPS-documenten moeiteloos samen tot hoogwaardige PDF's met Aspose.Page voor .NET. Volg onze stapsgewijze handleiding voor een soepele documentconversie-ervaring.
 ### [Voeg XPS-documenten samen met Aspose.Page voor .NET](./merge-xps-documents/)
 Voeg XPS-documenten moeiteloos samen met Aspose.Page voor .NET. Volg onze stapsgewijze handleiding voor naadloos documentbeheer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

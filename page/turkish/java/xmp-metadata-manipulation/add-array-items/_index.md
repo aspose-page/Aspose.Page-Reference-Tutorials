@@ -3,10 +3,16 @@ title: Java kullanarak XMP Meta Verilerine Dizi Öğeleri Ekleme
 linktitle: Java kullanarak XMP Meta Verilerine Dizi Öğeleri Ekleme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page for Java ile EPS dosyalarını geliştirin. XMP meta verilerine dizi öğelerini zahmetsizce eklemeyi öğrenin. Şimdi adım adım kılavuzumuzu takip edin!
-type: docs
 weight: 10
 url: /tr/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak XMP Meta Verilerine Dizi Öğeleri Ekleme
+
 ## giriiş
 XMP meta verilerine dizi öğeleri eklemek için Aspose.Page for Java'yı kullanmayla ilgili adım adım kılavuzumuza hoş geldiniz. Aspose.Page, EPS dosyaları da dahil olmak üzere çeşitli belge formatlarını değiştirmenize ve bunlarla çalışmanıza olanak tanıyan güçlü bir Java kütüphanesidir. Bu öğreticide, Java kullanarak XMP meta verilerine dizi öğeleri ekleme gibi özel bir göreve odaklanacağız.
 ## Önkoşullar
@@ -78,3 +84,9 @@ Evet, Aspose.Page EPS, PDF ve XPS dahil olmak üzere çeşitli belge formatları
  Ürünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 ### Aspose.Page for Java için geçici lisanslar mevcut mu?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Wzory kreskowania — PostScript
 linktitle: Wzory kreskowania — PostScript
 second_title: Aspose.Page API Java
 description: Odkryj sztukę dodawania urzekających wzorów kreskowania do dokumentów Java PostScript za pomocą Aspose.Page. Bez wysiłku podnieś poziom treści wizualnych, aby uzyskać oszałamiający efekt.
-type: docs
 weight: 27
 url: /pl/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wzory kreskowania — PostScript
+
 ## Wstęp
 
 Tworzenie atrakcyjnych wizualnie dokumentów Java PostScript staje się proste dzięki Aspose.Page. W tym samouczku zagłębiamy się w fascynujący świat wzorów kreskowania i odkrywamy, jak bez wysiłku ulepszyć zawartość wizualną.
@@ -30,3 +36,9 @@ Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem w
 ## Wzory kreskowania — samouczki PostScript
 ### [Dodaj wzór kreskowania w języku Java PostScript](./add-hatch-pattern/)
 Dowiedz się, jak dodawać urzekające wzory kreskowania do dokumentów Java PostScript za pomocą Aspose.Page. Podnieś poziom swoich treści wizualnych bez wysiłku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

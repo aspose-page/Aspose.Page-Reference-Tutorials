@@ -3,10 +3,16 @@ title: Page Manipulation - PostScript
 linktitle: Page Manipulation - PostScript
 second_title: Aspose.Page Java API
 description: Explore Aspose.Page for Java in our PostScript tutorials. Easily add pages to your Java PostScript docs with step-by-step guidance for seamless manipulation.
-type: docs
 weight: 32
 url: /java/postscript-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Page Manipulation - PostScript
+
 
 ## Introduction
 
@@ -34,3 +40,9 @@ In conclusion, Aspose.Page for Java empowers developers to harness the full pote
 Explore how to add pages in Java PostScript effortlessly using Aspose.Page. Enhance your document creation with this powerful Java library.
 ### [Adding Pages in PostScript](./add-pages2/)
 Learn how to add pages to Java PostScript documents using Aspose.Page. Follow our step-by-step guide for seamless document manipulation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

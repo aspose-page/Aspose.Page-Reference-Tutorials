@@ -3,10 +3,16 @@ title: Görsel Fırçalar
 linktitle: Görsel Fırçalar
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page eğitimleriyle .NET'te belge işlemenizi geliştirin. Görsel açıdan etkileyici belgeler oluşturma tekniklerinde uzmanlaşarak Görsel Fırçalar dünyasına dalın.
-type: docs
 weight: 35
 url: /tr/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Görsel Fırçalar
+
 
 ## giriiş
 
@@ -36,3 +42,9 @@ Unutmayın, belgelerinizi dönüştürme gücü sizin elinizde. Aspose.Page for 
 ## Görsel Fırça Eğitimleri
 ### [Aspose.Page for .NET ile Izgara Görsel Fırçasını Uygulayın](./apply-grid-visual-brush/)
 Aspose.Page ile .NET'te belge işlemenin dinamik dünyasını keşfedin. Görsel açıdan etkileyici belgeler için Izgara Görsel Fırçasını nasıl uygulayacağınızı öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

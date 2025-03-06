@@ -3,10 +3,16 @@ title: Wijzig het XPS-document met Aspose.Page voor .NET
 linktitle: XPS-document wijzigen
 second_title: Aspose.Page .NET-API
 description: Ontdek de kracht van Aspose.Page voor .NET om XPS-documenten moeiteloos aan te passen. Volg onze stapsgewijze handleiding, verbeter uw documentverwerking en voeg gepersonaliseerde handtekeningteksten toe.
-type: docs
 weight: 12
 url: /nl/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wijzig het XPS-document met Aspose.Page voor .NET
+
 ## Invoering
 
 Welkom bij onze stapsgewijze handleiding voor het wijzigen van XPS-documenten met Aspose.Page voor .NET. Aspose.Page is een krachtige bibliotheek waarmee ontwikkelaars moeiteloos met XPS-bestanden kunnen werken. In deze zelfstudie begeleiden we u bij het toevoegen van een handtekeningtekst, 'Bevestigd', aan specifieke pagina's in een XPS-document.
@@ -119,3 +125,9 @@ A3: Aspose.Page is ontworpen om documenten van verschillende groottes te verwerk
 ### Vraag 5: Waar kan ik hulp zoeken of contact maken met de Aspose-gemeenschap?
 
  A5: Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) om vragen te stellen en deel te nemen aan de gemeenschap.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

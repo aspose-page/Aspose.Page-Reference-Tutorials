@@ -3,10 +3,16 @@ title: 使用 Java 在 XMP 中添加简单属性
 linktitle: 使用 Java 在 XMP 中添加简单属性
 second_title: Aspose.Page Java API
 description: 通过我们向 EPS 文件中的 XMP 元数据添加属性的指南来释放 Aspose.Page for Java 的潜力。轻松提升文档处理能力！
-type: docs
 weight: 14
 url: /zh/java/xmp-metadata-manipulation/add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 XMP 中添加简单属性
+
 ## 介绍
 在不断发展的文档处理领域，有效管理元数据至关重要。 Aspose.Page for Java 使开发人员能够无缝操作可扩展元数据平台 (XMP) 数据。在本教程中，我们将探索使用 Java 向 XMP 添加简单属性的过程，为您提供全面的分步指南。
 ## 先决条件
@@ -87,3 +93,9 @@ Aspose.Page 主要支持 Java，但也有适用于其他语言（例如 .NET）�
 可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以购买 Java 版 Aspose.Page？
 您可以购买该产品[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 将带有 Unicode 字符串的文本添加到 XPS 文�
 linktitle: 将带有 Unicode 字符串的文本添加到 XPS 文档中
 second_title: Aspose.Page .NET API
 description: 通过我们向 XPS 文档添加 Unicode 文本的分步指南，探索 Aspose.Page for .NET 的强大功能。
-type: docs
 weight: 12
 url: /zh/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 将带有 Unicode 字符串的文本添加到 XPS 文档
+
 ## 介绍
 
 在不断发展的 .NET 开发领域，Aspose.Page 作为处理 XPS 文档的强大工具脱颖而出。在其众多功能中，向 XPS 文档添加带有 Unicode 字符串的文本的能力是一项很有价值的功能。本分步指南将引导您完成整个过程，确保您有效地利用此功能。
@@ -88,3 +94,9 @@ A2：当然！提供的示例代码允许您轻松自定义字体样式、大小
 ### Q5：购买前有试用版吗？
 
  A5：当然！您可以访问免费试用版[这里](https://releases.aspose.com/)在购买之前。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipolazione delle immagini - XPS
 linktitle: Manipolazione delle immagini - XPS
 second_title: API Java Aspose.Page
 description: Scopri l'arte della manipolazione semplice delle immagini nei documenti Java XPS con Aspose.Page. Impara ad aggiungere e affiancare le immagini senza problemi per una migliore elaborazione dei documenti.
-type: docs
 weight: 29
 url: /it/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipolazione delle immagini - XPS
+
 
 ## introduzione
 
@@ -36,3 +42,9 @@ In conclusione, Aspose.Page per Java apre le porte a un mondo in cui la manipola
 Scopri come aggiungere facilmente immagini ai documenti XPS in Java utilizzando Aspose.Page. Migliora l'elaborazione dei tuoi documenti con questa guida passo passo.
 ### [Aggiungi immagine affiancata in Java XPS](./add-tiled-image/)
 Esplora la manipolazione perfetta dei documenti Java XPS con Aspose.Page. Impara ad aggiungere immagini affiancate senza sforzo utilizzando questa guida passo passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

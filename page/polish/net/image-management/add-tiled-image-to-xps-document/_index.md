@@ -3,10 +3,16 @@ title: Dodaj obraz kafelkowy do dokumentu XPS za pomocą Aspose.Page dla .NET
 linktitle: Dodaj obraz sąsiadujący do dokumentu XPS
 second_title: Aspose.Page API .NET
 description: Przeglądaj bezproblemowe dodawanie obrazów kafelkowych do dokumentów XPS dzięki Aspose.Page dla .NET. Zwiększ atrakcyjność wizualną i twórz wspaniałe dokumenty.
-type: docs
 weight: 12
 url: /pl/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj obraz kafelkowy do dokumentu XPS za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Czy chcesz ulepszyć swoje dokumenty XPS, dodając atrakcyjne wizualnie obrazy kafelkowe? Aspose.Page dla .NET umożliwia programistom bezproblemowe osiągnięcie tego celu. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces dodawania obrazu sąsiadującego do dokumentu XPS przy użyciu Aspose.Page dla .NET.
@@ -95,3 +101,9 @@ Odpowiedź 2: Oczywiście, jak pokazano w przykładzie, możesz ustawić przezro
 ### P5: Gdzie mogę szukać pomocy lub nawiązać kontakt ze społecznością Aspose.Page?
 
  A5: Odwiedź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) aby nawiązać kontakt ze społecznością, zadawać pytania i znajdować rozwiązania.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

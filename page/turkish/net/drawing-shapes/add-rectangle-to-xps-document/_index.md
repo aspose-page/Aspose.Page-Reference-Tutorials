@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile XPS Belgesine Dikdörtgen Ekleme
 linktitle: XPS Belgesine Dikdörtgen Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET ile belge oluşturmayı geliştirin. Bu adım adım eğitimde XPS belgelerine nasıl dikdörtgen ekleyeceğinizi öğrenin.
-type: docs
 weight: 13
 url: /tr/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile XPS Belgesine Dikdörtgen Ekleme
+
 ## giriiş
 
 Aspose.Page for .NET, .NET uygulamalarında XPS (XML Kağıt Belirtimi) belgeleriyle çalışmak için çeşitli özellikler sağlayan güçlü bir kitaplıktır. Bu eğitimde Aspose.Page for .NET kullanarak XPS belgesine dikdörtgen eklemeye odaklanacağız. Belge oluşturma sürecinizi geliştirmek için bu adım adım kılavuzu izleyin.
@@ -95,3 +101,9 @@ C1: Evet, Aspose.Page tüm .NET uygulamalarıyla sorunsuz çalışacak şekilde 
 ### S5: Aspose.Page for .NET ile ilgili topluluk desteğini nereden alabilirim veya soru sorabilirim?
 
  A5: ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) topluluk desteği için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

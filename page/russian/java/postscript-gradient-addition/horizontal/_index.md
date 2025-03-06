@@ -3,10 +3,16 @@ title: Добавьте горизонтальный градиент в Java Po
 linktitle: Добавьте горизонтальный градиент в Java PostScript
 second_title: API Aspose.Page Java
 description: Узнайте, как добавить горизонтальный градиент в Java PostScript с помощью Aspose.Page для Java. Создавайте визуально потрясающие документы без особых усилий.
-type: docs
 weight: 11
 url: /ru/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте горизонтальный градиент в Java PostScript
+
 ## Введение
 Добро пожаловать в это подробное руководство по добавлению горизонтального градиента в Java PostScript с использованием Aspose.Page для Java. Aspose.Page — мощная библиотека Java, которая позволяет разработчикам работать с PostScript и другими форматами документов. В этом уроке мы проведем вас через процесс создания документа PostScript с горизонтальным градиентом, используя пошаговые примеры.
 ## Предварительные условия
@@ -82,3 +88,9 @@ document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
  Вы можете получить временную лицензию[Aspose.Купить](https://purchase.aspose.com/temporary-license/).
 ### Каковы системные требования для Aspose.Page для Java?
  Обратитесь к[документация](https://reference.aspose.com/page/java/) подробные системные требования.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

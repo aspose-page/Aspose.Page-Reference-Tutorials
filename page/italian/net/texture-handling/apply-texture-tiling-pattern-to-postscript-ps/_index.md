@@ -3,10 +3,16 @@ title: Applica il motivo di piastrellatura della trama a PostScript (PS) con Asp
 linktitle: Applica motivo di affiancamento texture a PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Migliora i tuoi documenti PostScript (PS) con modelli di piastrellatura di texture utilizzando Aspose.Page per .NET. Segui la nostra guida passo passo per un tocco creativo.
-type: docs
 weight: 10
 url: /it/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applica il motivo di piastrellatura della trama a PostScript (PS) con Aspose.Page
+
 ## introduzione
 
 Benvenuti in questo tutorial passo passo su come applicare un modello di piastrellatura della trama a un documento PostScript (PS) utilizzando Aspose.Page per .NET. Aspose.Page è una potente libreria che ti consente di lavorare con vari formati di documenti e in questo tutorial esploreremo come migliorare i tuoi documenti PS aggiungendo modelli di piastrellatura delle texture.
@@ -156,3 +162,10 @@ R4: Sì, puoi ripetere il processo con immagini e percorsi diversi.
 ### Q5: Dove posso trovare risorse e supporto aggiuntivi?
 
  A5: Visita il[Aspose.Page Forum](https://forum.aspose.com/c/page/39) per il supporto della comunità ed esplorare il[documentazione](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

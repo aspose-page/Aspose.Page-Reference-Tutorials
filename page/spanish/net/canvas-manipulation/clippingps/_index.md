@@ -3,10 +3,16 @@ title: Recorte de PS con Aspose.Page para .NET
 linktitle: Recorte PS
 second_title: Aspose.Página .NET API
 description: Explore el poder de Aspose.Page para .NET en este tutorial paso a paso sobre cómo recortar documentos PostScript. Aprenda a mejorar sus capacidades de procesamiento de documentos sin esfuerzo.
-type: docs
 weight: 10
 url: /es/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Recorte de PS con Aspose.Page para .NET
+
 ## Introducción
 
 Bienvenido al tutorial completo sobre cómo utilizar Aspose.Page para .NET para implementar el recorte en documentos PostScript (PS). Este tutorial lo guiará a través del proceso de recorte de documentos PS usando Aspose.Page, una poderosa biblioteca para trabajar con varios formatos de documentos en aplicaciones .NET.
@@ -147,3 +153,9 @@ R1: Aspose.Page está diseñado principalmente para aplicaciones .NET. Sin embar
 ### P5: ¿Dónde puedo obtener soporte o discutir consultas relacionadas con Aspose.Page?
 
  A5: Visita el[Foros de Aspose.Page](https://forum.aspose.com/c/page/39) para apoyo y debates de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Обработка текста — PostScript
 linktitle: Обработка текста — PostScript
 second_title: API Aspose.Page Java
 description: Раскройте потенциал Aspose.Page для Java с помощью руководств по PostScript. Добавляйте текст, включая строки Unicode, чтобы улучшить свои проекты без особых усилий.
-type: docs
 weight: 36
 url: /ru/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обработка текста — PostScript
+
 
 ## Введение
 
@@ -30,3 +36,9 @@ Aspose.Page для Java предоставляет разработчикам и
 Изучите возможности Aspose.Page для Java в нашем руководстве по добавлению текста в документы PostScript. Научитесь с легкостью использовать системные и пользовательские шрифты.
 ### [Добавить текст, используя строку Unicode в Java PostScript](./add-text-unicode/)
 Исследуйте возможности Aspose.Page для Java при добавлении текста Unicode в ваши проекты PostScript. Следуйте нашему пошаговому руководству для бесшовной интеграции.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

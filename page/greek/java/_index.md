@@ -1,12 +1,17 @@
 ---
 title: Περιεκτικά σεμινάρια & παραδείγματα Aspose.Page για Java
 linktitle: Aspose.Page for Java Tutorials
-type: docs
 weight: 10
 url: /el/java/
 description: Ξεκλειδώστε τα μυστικά της χειραγώγησης σελίδων Java με τα μαθήματα Aspose.Page. Βυθιστείτε σε αποκόμματα, μεταμορφώσεις και πολλά άλλα για οπτικά εντυπωσιακά έγγραφα χωρίς κόπο.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Περιεκτικά σεμινάρια & παραδείγματα Aspose.Page για Java
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να βελτιώσετε τις δεξιότητές σας στην επεξεργασία εγγράφων Java; Βουτήξτε στον κόσμο του Aspose.Page για Java με τα ολοκληρωμένα σεμινάρια και τα παραδείγματα μας. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, οι βήμα προς βήμα οδηγοί μας θα ξεκλειδώσουν πλήρως τις δυνατότητες του Aspose.Page για Java.
@@ -76,3 +81,9 @@ is_root: true
 Αναβαθμίστε τα γραφικά του εγγράφου Java χωρίς κόπο με το Aspose.Page! Μάθετε να βελτιώνετε την εφαρμογή σας προσθέτοντας πλέγματα χρησιμοποιώντας το Visual Brush σε αυτό το βήμα προς βήμα σεμινάριο.
 ### [Χειρισμός μεταδεδομένων XMP - Java](./xmp-metadata-manipulation/)
 Βελτιώστε τα αρχεία EPS χωρίς κόπο με χειρισμό μεταδεδομένων XMP—από την προσθήκη στοιχείων έως την εξαγωγή. Βελτιώστε τη διαχείριση των εγγράφων σας με τους οδηγούς μας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

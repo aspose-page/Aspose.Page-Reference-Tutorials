@@ -3,10 +3,16 @@ title: Manipulasi Halaman
 linktitle: Manipulasi Halaman
 second_title: Aspose.Halaman .NET API
 description: Temukan kekuatan Aspose.Page untuk .NET dalam memanipulasi dokumen PostScript dan XPS. Pelajari cara menambah, menyempurnakan, dan menghapus halaman dengan tutorial komprehensif kami.
-type: docs
 weight: 29
 url: /id/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Halaman
+
 
 ## Perkenalan
 
@@ -35,3 +41,9 @@ Jelajahi Aspose.Page untuk .NET, solusi terbaik untuk manipulasi dokumen PostScr
 Tingkatkan aplikasi .NET Anda dengan mempelajari cara menambahkan halaman ke dokumen XPS dengan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
 ### [Hapus Halaman dari Dokumen XPS dengan Aspose.Page untuk .NET](./remove-page-from-xps-document/)
 Jelajahi tutorial komprehensif tentang menghapus halaman dari dokumen XPS menggunakan Aspose.Page untuk .NET. Pelajari proses langkah demi langkah, prasyarat, dan FAQ untuk manipulasi dokumen tanpa hambatan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java XPSに垂直グラデーションを追加する
 linktitle: Java XPSに垂直グラデーションを追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して Java XPS ドキュメントに垂直グラデーションを追加する方法を学びます。視覚的な魅力を簡単に強化します。内部のステップバイステップガイド。
-type: docs
 weight: 12
 url: /ja/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPSに垂直グラデーションを追加する
+
 ## 導入
 このチュートリアルでは、Aspose.Page for Java を使用して Java XPS に垂直グラデーションを追加する方法を検討します。 XPS ドキュメントにグラデーションを追加すると、コンテンツの視覚的な魅力が向上し、より魅力的で美しいものになります。
 ## 前提条件
@@ -72,3 +78,9 @@ XPS ドキュメントをグラデーションで強化すると、見た目の�
 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
 ### 助けが必要ですか、それとも質問がありますか?
  Aspose.Page コミュニティにアクセスしてください[フォーラム](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

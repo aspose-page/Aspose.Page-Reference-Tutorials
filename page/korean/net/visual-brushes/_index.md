@@ -3,10 +3,16 @@ title: 시각적 브러시
 linktitle: 시각적 브러시
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page 튜토리얼을 통해 .NET에서 문서 처리 수준을 높이세요. 시각적으로 멋진 문서를 위한 마스터링 기술인 시각적 브러시의 영역에 빠져보세요.
-type: docs
 weight: 35
 url: /ko/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 시각적 브러시
+
 
 ## 소개
 
@@ -36,3 +42,9 @@ url: /ko/net/visual-brushes/
 ## 시각적 브러시 튜토리얼
 ### [.NET용 Aspose.Page를 사용하여 그리드 비주얼 브러시 적용](./apply-grid-visual-brush/)
 Aspose.Page를 사용하여 .NET에서 문서 처리의 역동적인 세계를 탐험해보세요. 시각적으로 놀라운 문서를 위해 그리드 시각적 브러시를 적용하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

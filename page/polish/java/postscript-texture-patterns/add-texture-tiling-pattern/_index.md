@@ -3,10 +3,16 @@ title: Dodaj wzór kafelkowania tekstury w języku Java PostScript
 linktitle: Dodaj wzór kafelkowania tekstury w języku Java PostScript
 second_title: Aspose.Page API Java
 description: łatwością dodawaj wzory kafelków tekstur do dokumentów PostScript za pomocą Aspose.Page dla Java. Zapoznaj się z naszym przewodnikiem dotyczącym bezproblemowej integracji, aby poznać kreatywne możliwości.
-type: docs
 weight: 10
 url: /pl/java/postscript-texture-patterns/add-texture-tiling-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj wzór kafelkowania tekstury w języku Java PostScript
+
 ## Wstęp
 W środowisku programowania w języku Java tworzenie skomplikowanych wzorów i tekstur w dokumentach PostScript jest powszechnym wymogiem. Aspose.Page dla Java okazuje się wartościowym narzędziem pozwalającym bez wysiłku osiągnąć to zadanie. W tym samouczku przeprowadzimy Cię przez proces dodawania wzoru kafelków tekstury do dokumentu Java PostScript za pomocą Aspose.Page.
 ## Warunki wstępne
@@ -103,3 +109,9 @@ Absolutnie! Aspose.Page dla Java zapewnia obszerną dokumentację, dzięki czemu
  Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Page dla Java?
  Odwiedzać[ten link](https://purchase.aspose.com/temporary-license/) w celu uzyskania licencji tymczasowej.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

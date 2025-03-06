@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用した PS のクリッピング
 linktitle: クリッピング PS
 second_title: Aspose.Page .NET API
 description: PostScript ドキュメントのクリッピングに関するこのステップバイステップのチュートリアルで、Aspose.Page for .NET の威力を体験してください。文書処理能力を簡単に強化する方法を学びましょう。
-type: docs
 weight: 10
 url: /ja/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用した PS のクリッピング
+
 ## 導入
 
 Aspose.Page for .NET を利用して PostScript (PS) ドキュメントにクリッピングを実装するための包括的なチュートリアルへようこそ。このチュートリアルでは、.NET アプリケーションでさまざまなドキュメント形式を操作するための強力なライブラリである Aspose.Page を使用して PS ドキュメントをクリップするプロセスを説明します。
@@ -147,3 +153,9 @@ A1: Aspose.Page は主に .NET アプリケーション用に設計されてい�
 ### Q5: Aspose.Page 関連のクエリについては、どこでサポートを受けたり議論したりできますか?
 
  A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティのサポートとディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

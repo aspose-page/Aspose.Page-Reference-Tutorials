@@ -3,10 +3,16 @@ title: Mostrar pseudotransparencia en PostScript (PS) con Aspose.Page
 linktitle: Mostrar pseudotransparencia en PostScript (PS)
 second_title: Aspose.Página .NET API
 description: Explore el poder de la pseudotransparencia en PostScript con Aspose.Page para .NET. Siga nuestra guía paso a paso para obtener documentos visualmente impresionantes.
-type: docs
 weight: 13
 url: /es/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mostrar pseudotransparencia en PostScript (PS) con Aspose.Page
+
 ## Introducción
 
 ¿Está buscando mejorar el atractivo visual de sus documentos PostScript (PS) incorporando pseudotransparencia? Aspose.Page para .NET proporciona una solución poderosa para lograr este efecto sin esfuerzo. En este tutorial paso a paso, lo guiaremos a través del proceso de mostrar pseudotransparencia en PostScript usando Aspose.Page.
@@ -129,3 +135,9 @@ R2: Sí, se pueden aplicar los mismos principios a otras formas ajustando Graphi
 ### P5: ¿Cómo puedo obtener una licencia temporal para Aspose.Page?
 
  A5: Visita[este enlace](https://purchase.aspose.com/temporary-license/) para obtener una licencia temporal para Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 取得安全許可
 linktitle: 安全許可
 second_title: Aspose.Page .NET API
 description: 透過我們的逐步指南輕鬆保護您的 Aspose.Page for .NET 授權。釋放 .NET 應用程式中無縫頁面操作的全部潛力。
-type: docs
 weight: 13
 url: /zh-hant/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 取得安全許可
+
 ## 介紹
 
 釋放 Aspose.Page for .NET 的全部潛力需要保護您的授權以確保無縫整合和最佳效能。在本逐步指南中，我們將引導您完成使用 Aspose.Page 保護授權的過程，Aspose.Page 是用於處理 .NET 應用程式中頁面操作的強大工具。
@@ -90,3 +96,9 @@ A4：是的，臨時許可證的有效期限有限，通常用於短期測試或
 ### Q5: 我可以將我的授權轉移到另一台機器上嗎？
 
 A5：是的，您可以根據需要將許可證轉移到另一台機器。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

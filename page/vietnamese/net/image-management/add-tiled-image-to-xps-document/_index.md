@@ -3,10 +3,16 @@ title: Thêm hình ảnh xếp chồng vào tài liệu XPS bằng Aspose.Page f
 linktitle: Thêm hình ảnh xếp chồng vào tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Khám phá cách thêm hình ảnh xếp chồng vào tài liệu XPS một cách dễ dàng với Aspose.Page for .NET. Tăng cường sự hấp dẫn trực quan và tạo ra các tài liệu tuyệt đẹp.
-type: docs
 weight: 12
 url: /vi/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình ảnh xếp chồng vào tài liệu XPS bằng Aspose.Page for .NET
+
 ## Giới thiệu
 
 Bạn đang tìm cách nâng cao tài liệu XPS của mình bằng cách thêm các hình ảnh xếp chồng hấp dẫn trực quan? Aspose.Page for .NET trao quyền cho các nhà phát triển để đạt được điều này một cách liền mạch. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hình ảnh xếp kề vào tài liệu XPS bằng Aspose.Page cho .NET.
@@ -95,3 +101,9 @@ Câu trả lời 2: Chắc chắn, như được minh họa trong ví dụ, bạ
 ### Câu hỏi 5: Tôi có thể tìm kiếm trợ giúp hoặc kết nối với cộng đồng Aspose.Page ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để tương tác với cộng đồng, đặt câu hỏi và tìm giải pháp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

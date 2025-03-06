@@ -3,10 +3,16 @@ title: 그라데이션 채우기
 linktitle: 그라데이션 채우기
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page 튜토리얼을 통해 .NET의 그라데이션 채우기 기술을 알아보세요. 시선을 사로잡는 대각선, 수평, 수직 그라데이션을 추가하여 프로젝트를 손쉽게 향상하세요.
-type: docs
 weight: 27
 url: /ko/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 그라데이션 채우기
+
 
 ## 소개
 
@@ -49,3 +55,9 @@ Aspose.Page를 사용하여 .NET의 PostScript 문서에 대각선 그라데이�
 Aspose.Page를 사용하여 .NET의 PostScript(PS) 문서에 시각적으로 매력적인 수직 그라데이션을 추가하는 방법을 알아보세요. 이 단계별 가이드를 통해 문서 작성 수준을 높이세요.
 ### [.NET용 Aspose.Page를 사용하여 XPS에 수직 그라데이션 추가](./add-vertical-gradient-to-xps/)
 .NET용 Aspose.Page를 사용하여 수직 그라데이션으로 XPS 문서를 향상시키는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

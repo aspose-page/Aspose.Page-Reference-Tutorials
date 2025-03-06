@@ -3,10 +3,16 @@ title: إضافة التدرج - بوستسكريبت
 linktitle: إضافة التدرج - بوستسكريبت
 second_title: Aspose.Page جافا API
 description: ارفع مستوى مستندات Java PostScript الخاصة بك باستخدام Aspose.Page لبرامج Java التعليمية. تعلم كيفية إضافة تدرجات قطرية وأفقية وقطرية وعمودية مذهلة دون عناء.
-type: docs
 weight: 25
 url: /ar/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة التدرج - بوستسكريبت
+
 ## مقدمة
 
 إذا كنت تتطلع إلى تحسين مستندات Java PostScript الخاصة بك من خلال انتقالات ألوان نابضة بالحياة، فإن Aspose.Page for Java هو الحل الأمثل لك. تتعمق هذه السلسلة التعليمية في فن إضافة التدرج، وتغطي كل شيء بدءًا من التدرجات القطرية وحتى التحولات الشعاعية. فلنبدأ رحلة لإتقان فن المستندات المذهلة بصريًا.
@@ -44,3 +50,9 @@ url: /ar/java/postscript-gradient-addition/
 استكشف الدليل خطوة بخطوة لإضافة Radial Gradient في Java PostScript باستخدام Aspose.Page للحصول على رسومات مذهلة في تطبيقات Java الخاصة بك.
 ### [إضافة التدرج العمودي في جافا بوستسكريبت](./vertical/)
 استكشف الدليل خطوة بخطوة لإضافة التدرجات الرأسية في Java PostScript باستخدام Aspose.Page لـ Java. قم بتحسين مستنداتك دون عناء باستخدام صور نابضة بالحياة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

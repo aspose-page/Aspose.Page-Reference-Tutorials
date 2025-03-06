@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 XPS에 대각선 그라데이션 추�
 linktitle: XPS에 대각선 그라데이션 추가
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 XPS 문서에 매력적인 대각선 그라데이션을 추가하는 방법을 알아보세요. 손쉽게 시각적 프레젠테이션을 향상시키세요.
-type: docs
 weight: 11
 url: /ko/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 XPS에 대각선 그라데이션 추가
+
 ## 소개
 
 문서 처리 영역에서 .NET용 Aspose.Page는 개발자가 XPS 문서를 쉽게 조작할 수 있도록 지원하는 강력한 도구 키트로 돋보입니다. 이 앱이 제공하는 한 가지 흥미로운 기능은 대각선 그라디언트를 추가하여 문서의 시각적 매력을 향상시키는 기능입니다. 이 튜토리얼에서는 프로세스를 단계별로 안내하고 .NET용 Aspose.Page를 사용하여 대각선 그라데이션을 XPS 파일에 통합하는 방법을 보여줍니다.
@@ -106,3 +112,9 @@ A3: Aspose.Page는 주로 XPS 문서 조작에 중점을 둡니다.
 ### Q5: 구매하기 전에 체험판을 사용할 수 있나요?
 
  A5: 예, 다음을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) .NET용 Aspose.Page를 경험해보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

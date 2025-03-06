@@ -3,10 +3,16 @@ title: Padrões de hachura - PostScript
 linktitle: Padrões de hachura - PostScript
 second_title: API Java Aspose.Page
 description: Descubra a arte de adicionar padrões de hachura cativantes a documentos Java PostScript com Aspose.Page. Eleve o conteúdo visual sem esforço para obter um resultado impressionante.
-type: docs
 weight: 27
 url: /pt/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Padrões de hachura - PostScript
+
 ## Introdução
 
 Criar documentos Java PostScript visualmente atraentes torna-se muito fácil com Aspose.Page. Neste tutorial, mergulhamos no fascinante mundo dos padrões de hachura, explorando como aprimorar seu conteúdo visual sem esforço.
@@ -30,3 +36,9 @@ Quer você seja um desenvolvedor experiente ou um novato em Java PostScript, nos
 ## Padrões de hachura - Tutoriais PostScript
 ### [Adicionar padrão de hachura em Java PostScript](./add-hatch-pattern/)
 Aprenda como adicionar padrões de hachura cativantes a documentos Java PostScript usando Aspose.Page. Eleve seu conteúdo visual sem esforço.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

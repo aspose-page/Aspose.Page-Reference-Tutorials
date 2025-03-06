@@ -3,10 +3,16 @@ title: Şekiller - XPS
 linktitle: Şekiller - XPS
 second_title: Aspose.Page Java API'si
 description: Aspose.Page eğitimleriyle Java XPS'in büyüsünü keşfedin! Büyüleyici elipsleri ve dikdörtgenleri kolayca ekleyin. Adım adım kılavuzlarımızla belge oluşturma sürecini geliştirin.
-type: docs
 weight: 35
 url: /tr/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Şekiller - XPS
+
 ## giriiş
 
 Java XPS kullanarak belge oluşturmanın büyüleyici dünyasına dalmaya hazır mısınız? Şekil manipülasyonunun tüm potansiyelini ortaya çıkarmak için güvenilir arkadaşınız Aspose.Page'den başkasına bakmayın. Bu eğitim serisinde, büyüleyici şekiller eklemenin inceliklerinde size rehberlik ederek belgenizin zahmetsizce öne çıkmasını sağlayacağız.
@@ -33,3 +39,9 @@ Sonuç olarak, Aspose.Page for Java'nın şekillerle ilgili eğitimleri, belge o
 Aspose.Page for Java'yı kullanarak Java XPS'de radyal degrade konturlu elips eklemeye ilişkin adım adım kılavuzu keşfedin. Belge oluşturma sürecinizi zahmetsizce geliştirin.
 ### [Java XPS'de Dikdörtgen Ekleme](./add-rectangle/)
 Aspose.Page'i kullanarak Java XPS'de nasıl dikdörtgen ekleyeceğinizi öğrenin. Kusursuz belge işleme için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

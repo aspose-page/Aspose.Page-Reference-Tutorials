@@ -3,10 +3,16 @@ title: دمج بوستسكريبت إلى PDF في جافا
 linktitle: دمج بوستسكريبت إلى PDF في جافا
 second_title: Aspose.Page جافا API
 description: يمكنك بسهولة دمج ملفات PostScript إلى PDF في Java باستخدام Aspose.Page. برنامج تعليمي شامل وأسئلة شائعة وموارد لتحويل المستندات بسلاسة.
-type: docs
 weight: 10
 url: /ar/java/file-merging/postscript-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج بوستسكريبت إلى PDF في جافا
+
 ## مقدمة
 في عالم برمجة Java، يعد التعامل الفعال مع تحويل المستندات أمرًا ضروريًا. إحدى هذه المهام الحاسمة هي دمج ملفات PostScript في ملفات PDF. يوفر Aspose.Page for Java حلاً قويًا لهذه المهمة، مما يوفر للمطورين تجربة سلسة. في هذا الدليل التفصيلي، سنتعرف على عملية دمج PostScript إلى PDF في Java باستخدام Aspose.Page.
 ## المتطلبات الأساسية
@@ -90,3 +96,9 @@ if (suppressErrors) {
  الحصول على ترخيص مؤقت عن طريق الزيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني الحصول على الدعم أو التواصل مع مجتمع Aspose؟
  انضم إلى المناقشات حول[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لطلب المساعدة ومشاركة تجاربكم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

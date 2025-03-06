@@ -3,10 +3,16 @@ title: Bổ sung chuyển màu - PostScript
 linktitle: Bổ sung chuyển màu - PostScript
 second_title: API Java Aspose.Page
 description: Nâng cao tài liệu Java PostScript của bạn bằng các hướng dẫn Aspose.Page dành cho Java. Tìm hiểu cách thêm các chuyển màu theo đường chéo, ngang, xuyên tâm và dọc tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 25
 url: /vi/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bổ sung chuyển màu - PostScript
+
 ## Giới thiệu
 
 Nếu bạn đang tìm cách cải thiện các tài liệu Java PostScript của mình bằng các hiệu ứng chuyển tiếp màu sắc rực rỡ, Aspose.Page dành cho Java là giải pháp phù hợp cho bạn. Loạt bài hướng dẫn này đi sâu vào nghệ thuật bổ sung độ dốc, bao gồm mọi thứ từ độ dốc đường chéo đến chuyển tiếp xuyên tâm. Hãy bắt tay vào cuộc hành trình làm chủ nghệ thuật tạo ra những tài liệu có hình ảnh ấn tượng.
@@ -44,3 +50,9 @@ Tìm hiểu cách thêm độ dốc xuyên tâm tuyệt đẹp trong Java PostSc
 Khám phá hướng dẫn từng bước để thêm Radial gradient trong Java PostScript bằng Aspose.Page để có đồ họa tuyệt đẹp trong các ứng dụng Java của bạn.
 ### [Thêm chuyển màu dọc trong Java PostScript](./vertical/)
 Khám phá hướng dẫn từng bước để thêm độ dốc dọc trong Java PostScript với Aspose.Page cho Java. Dễ dàng nâng cao tài liệu của bạn bằng hình ảnh sống động.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

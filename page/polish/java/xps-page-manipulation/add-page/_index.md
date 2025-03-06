@@ -3,10 +3,16 @@ title: Aspose.Page Java — samouczek dodawania stron do XPS
 linktitle: Dodaj stronę w Java XPS
 second_title: Aspose.Page API Java
 description: Podnieś jakość dokumentów Java XPS za pomocą Aspose.Page. Dowiedz się, jak bez wysiłku dodawać strony, aby zwiększyć funkcjonalność aplikacji. Przejdź do samouczka już teraz!
-type: docs
 weight: 10
 url: /pl/java/xps-page-manipulation/add-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java — samouczek dodawania stron do XPS
+
 ## Wstęp
 Jeśli chcesz zwiększyć możliwości swojej aplikacji Java poprzez dodanie stron do dokumentów XPS, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię przez proces korzystania z Aspose.Page dla Java. Aspose.Page to potężna i wszechstronna biblioteka, która upraszcza manipulowanie plikami XPS, co czyni ją idealnym wyborem dla programistów poszukujących wydajnych rozwiązań.
 ## Warunki wstępne
@@ -54,3 +60,9 @@ Absolutnie. Aspose.Page to solidna biblioteka, której zaufali programiści z r�
 Aspose.Page skutecznie obsługuje dokumenty XPS o różnych rozmiarach, ale zawsze dobrą praktyką jest optymalizacja pod kątem wydajności.
 ### Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.Page?
  Odwiedzić[Forum Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

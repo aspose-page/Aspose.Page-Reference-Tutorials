@@ -3,10 +3,16 @@ title: Oříznutí XPS pomocí Aspose.Page pro .NET
 linktitle: Výstřižek XPS
 second_title: Aspose.Page .NET API
 description: Prozkoumejte sílu Aspose.Page for .NET v tomto podrobném průvodci ořezáváním dokumentů XPS. Vytvářejte, manipulujte a ukládejte soubory XPS bez námahy.
-type: docs
 weight: 11
 url: /cs/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oříznutí XPS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Vítejte v tomto komplexním tutoriálu o ořezávání XPS pomocí Aspose.Page pro .NET! V této příručce vás provedeme procesem vytváření, manipulace a ukládání dokumentů XPS pomocí Aspose.Page for .NET. XPS nebo XML Paper Specification je standardizovaný a otevřený formát dokumentu a Aspose.Page for .NET poskytuje výkonné nástroje pro práci s dokumenty XPS ve vašich aplikacích .NET.
@@ -156,3 +162,9 @@ Odpověď 2: Ano, Aspose.Page for .NET je navržen tak, aby byl uživatelsky př
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.Page pro .NET?
 
  A5: Ano, můžete prozkoumat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

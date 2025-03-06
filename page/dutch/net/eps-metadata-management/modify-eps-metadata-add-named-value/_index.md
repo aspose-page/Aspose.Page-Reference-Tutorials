@@ -3,10 +3,16 @@ title: Voeg benoemde waarde toe met Aspose.Page
 linktitle: Benoemde waarde toevoegen
 second_title: Aspose.Page .NET-API
 description: Leer hoe u benoemde waarden toevoegt aan EPS-bestanden in .NET met behulp van Aspose.Page. Deze uitgebreide tutorial begeleidt u stap voor stap door het proces.
-type: docs
 weight: 12
 url: /nl/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg benoemde waarde toe met Aspose.Page
+
 ## Invoering
 
 Op het gebied van documentverwerking met .NET onderscheidt Aspose.Page zich als een krachtig hulpmiddel voor het verwerken van EPS-bestanden. Aspose.Page stelt ontwikkelaars in staat XMP-metagegevens te manipuleren, waardoor taken zoals het toevoegen van benoemde waarden worden vergemakkelijkt. In deze zelfstudie wordt u stap voor stap door het proces geleid van het toevoegen van benoemde waarden aan een EPS-bestand met behulp van Aspose.Page.
@@ -96,3 +102,9 @@ A1: Aspose.Page ondersteunt verschillende EPS-bestandsversies, waardoor compatib
 ### Vraag 5: Wat is een tijdelijke licentie en hoe kan ik deze verkrijgen?
 
  A5: Als u een tijdelijke licentie nodig heeft voor test- of evaluatiedoeleinden, kunt u er een aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

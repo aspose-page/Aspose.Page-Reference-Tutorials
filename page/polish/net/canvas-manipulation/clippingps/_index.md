@@ -3,10 +3,16 @@ title: Przycinanie PS za pomocą Aspose.Page dla .NET
 linktitle: Wycinek PS
 second_title: Aspose.Page API .NET
 description: Poznaj możliwości Aspose.Page dla .NET w tym samouczku krok po kroku dotyczącym przycinania dokumentów PostScript. Dowiedz się, jak bez wysiłku zwiększyć możliwości przetwarzania dokumentów.
-type: docs
 weight: 10
 url: /pl/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Przycinanie PS za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Witamy w kompleksowym samouczku dotyczącym wykorzystania Aspose.Page dla .NET do implementowania obcinania w dokumentach PostScript (PS). Ten samouczek poprowadzi Cię przez proces przycinania dokumentów PS przy użyciu Aspose.Page, potężnej biblioteki do pracy z różnymi formatami dokumentów w aplikacjach .NET.
@@ -147,3 +153,9 @@ O1: Aspose.Page jest przeznaczony głównie dla aplikacji .NET. Jednak Aspose ud
 ### P5: Gdzie mogę uzyskać pomoc lub omówić zapytania związane z Aspose.Page?
 
  A5: Odwiedź[Fora Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

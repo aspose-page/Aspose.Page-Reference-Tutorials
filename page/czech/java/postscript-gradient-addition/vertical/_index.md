@@ -3,10 +3,16 @@ title: Přidejte vertikální přechod v Java PostScript
 linktitle: Přidejte vertikální přechod v Java PostScript
 second_title: Aspose.Page Java API
 description: Prozkoumejte podrobného průvodce přidáváním vertikálních přechodů v Java PostScript pomocí Aspose.Page for Java. Vylepšete své dokumenty bez námahy pomocí živých vizuálů.
-type: docs
 weight: 14
 url: /cs/java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vertikální přechod v Java PostScript
+
 ## Úvod
 Vítejte v tomto podrobném průvodci přidáním vertikálního přechodu do jazyka Java PostScript pomocí Aspose.Page for Java. Pokud chcete vylepšit svůj dokument pomocí poutavých přechodů, je tento výukový program právě pro vás. Aspose.Page for Java poskytuje výkonné nástroje pro bezproblémovou manipulaci s PostScriptovými dokumenty.
 ## Předpoklady
@@ -101,3 +107,9 @@ Ano, Aspose.Page for Java je navržena tak, aby bezproblémově spolupracovala s
  Můžete si zakoupit Aspose.Page pro Java[tady](https://purchase.aspose.com/buy).
 ### Existuje fórum pro diskuse na Aspose.Page?
  Ano, můžete se připojit ke komunitnímu fóru[tady](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

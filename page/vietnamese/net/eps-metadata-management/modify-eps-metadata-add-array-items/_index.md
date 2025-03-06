@@ -3,10 +3,16 @@ title: Thêm các mục mảng với Aspose.Page
 linktitle: Thêm các mục mảng
 second_title: API Aspose.Page .NET
 description: Khám phá cách thêm các mục mảng trong tệp EPS bằng Aspose.Page cho .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu liền mạch.
-type: docs
 weight: 11
 url: /vi/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm các mục mảng với Aspose.Page
+
 ## Giới thiệu
 
 Trong lĩnh vực thao tác và xử lý tài liệu trong .NET, Aspose.Page nổi bật như một công cụ mạnh mẽ. Trong số nhiều khả năng của nó, việc xử lý các mục mảng trong tệp EPS là một yêu cầu chung. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình từng bước thêm các mục mảng bằng Aspose.Page trong môi trường .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình một cách rõ ràng và chính xác.
@@ -119,3 +125,9 @@ A4: Để thảo luận và hỗ trợ cộng đồng, hãy truy cập[Diễn đ
 ### Câu hỏi 5: Phiên bản mới nhất của Aspose.Page dành cho .NET là gì?
 
  Câu trả lời 5: Để truy cập phiên bản mới nhất của Aspose.Page cho .NET, hãy tham khảo[tài liệu](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

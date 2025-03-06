@@ -3,10 +3,16 @@ title: Şekil Çizimi
 linktitle: Şekil Çizimi
 second_title: Aspose.Page .NET API'si
 description: .NET'te belge oluşturmayı zahmetsizce geliştirin! Aspose.Page .NET'i kullanarak PostScript'e (PS) daire, elips ve dikdörtgen eklemeye ilişkin adım adım eğitimleri öğrenin.
-type: docs
 weight: 31
 url: /tr/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Şekil Çizimi
+
 ## Giriş
 
 Aspose.Page for .NET, geliştiricilerin .NET ortamında belge oluşturma sürecini geliştirmelerine olanak sağlar. PostScript (PS) ve XPS belgelerine büyüleyici şekiller ekleme sanatında ustalaşmak için adım adım eğitimlerimize dalın.
@@ -33,3 +39,9 @@ Aspose.Page for .NET'i kullanarak XPS belgelerini canlı radyal degradelerle gel
 Aspose.Page ile .NET'te belge oluşturmayı geliştirin. PostScript (PS) dosyalarına adım adım dikdörtgen eklemeyi öğrenin.
 ### [Aspose.Page for .NET ile XPS Belgesine Dikdörtgen Ekleme](./add-rectangle-to-xps-document/)
 Aspose.Page for .NET ile belge oluşturmayı geliştirin. Bu adım adım eğitimde XPS belgelerine nasıl dikdörtgen ekleyeceğinizi öğrenin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

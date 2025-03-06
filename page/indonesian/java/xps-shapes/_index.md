@@ -3,10 +3,16 @@ title: Bentuk - XPS
 linktitle: Bentuk - XPS
 second_title: Aspose.Halaman Java API
 description: Temukan keajaiban Java XPS dengan tutorial Aspose.Page! Tambahkan elips dan persegi panjang yang menawan dengan mudah. Tingkatkan pembuatan dokumen dengan panduan langkah demi langkah kami.
-type: docs
 weight: 35
 url: /id/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bentuk - XPS
+
 ## Perkenalan
 
 Apakah Anda siap untuk mempelajari dunia pembuatan dokumen yang menakjubkan menggunakan Java XPS? Kunjungi Aspose.Page, teman tepercaya Anda untuk membuka potensi penuh manipulasi bentuk. Dalam seri tutorial ini, kami akan memandu Anda melalui seluk-beluk menambahkan bentuk menawan, memastikan dokumen Anda menonjol dengan mudah.
@@ -33,3 +39,9 @@ Kesimpulannya, tutorial Aspose.Page untuk Java tentang bentuk membuka banyak kem
 Jelajahi panduan langkah demi langkah tentang menambahkan elips guratan gradien radial di Java XPS menggunakan Aspose.Page untuk Java. Sempurnakan pembuatan dokumen Anda dengan mudah.
 ### [Tambahkan Persegi Panjang di Java XPS](./add-rectangle/)
 Pelajari cara menambahkan persegi panjang di Java XPS menggunakan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk manipulasi dokumen yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 文本操作 - PostScript
 linktitle: 文本操作 - PostScript
 second_title: Aspose.Page Java API
 description: 通过 PostScript 教程释放 Aspose.Page for Java 的潜力。轻松添加文本（包括 Unicode 字符串）以增强您的项目。
-type: docs
 weight: 36
 url: /zh/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文本操作 - PostScript
+
 
 ## 介绍
 
@@ -30,3 +36,9 @@ Aspose.Page for Java 为开发人员提供了直观的界面，使文本操作�
 在我们向 PostScript 文档添加文本的教程中探索 Aspose.Page for Java 的强大功能。学习轻松使用系统和自定义字体。
 ### [在 Java PostScript 中使用 Unicode 字符串添加文本](./add-text-unicode/)
 探索 Aspose.Page for Java 在将 Unicode 文本添加到 PostScript 项目中的强大功能。请按照我们的分步指南进行无缝集成。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

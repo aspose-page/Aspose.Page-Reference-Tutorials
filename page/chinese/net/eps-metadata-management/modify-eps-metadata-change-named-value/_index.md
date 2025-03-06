@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 更改命名值
 linktitle: 更改命名值
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page for .NET 更改 EPS 文件中的命名值。轻松自定义 XMP 元数据以进行定制文档处理。
-type: docs
 weight: 16
 url: /zh/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 更改命名值
+
 ## 介绍
 
 在文档处理领域，Aspose.Page for .NET 作为操作 EPS 文件的强大工具脱颖而出。它提供的关键功能之一是能够更改 XMP 元数据中的命名值。本教程将指导您完成使用 Aspose.Page for .NET 更改命名值的过程，使您能够根据您的特定需求自定义 EPS 文件。
@@ -100,3 +106,9 @@ A1：是的，Aspose.Page支持各种文档格式，包括EPS、XPS和PDF。
 ### 问题 5：Aspose.Page for .NET 用户可以使用哪些支持选项？
 
  A5：访问社区论坛[这里](https://forum.aspose.com/c/page/39)以寻求支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 XPS에 수평 그라데이션 추가
 linktitle: XPS에 수평 그라데이션 추가
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 XPS 문서에 놀라운 수평 그라데이션을 추가하는 방법을 알아보세요. 손쉽게 시각적 매력을 높여보세요.
-type: docs
 weight: 13
 url: /ko/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 XPS에 수평 그라데이션 추가
+
 ## 소개
 
 이 튜토리얼에서는 .NET용 Aspose.Page를 사용하여 수평 그라데이션을 추가하여 XPS 문서를 향상시키는 방법을 살펴보겠습니다. Aspose.Page for .NET은 .NET 애플리케이션에서 XPS(XML Paper Spec) 문서를 원활하게 처리할 수 있는 강력한 라이브러리입니다. 그라디언트를 추가하면 문서에 시각적인 매력을 더할 수 있으며 이 가이드에서는 프로세스를 단계별로 안내합니다.
@@ -113,3 +119,9 @@ doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
 ### Q5: .NET용 Aspose.Page에 대한 임시 라이선스를 어떻게 얻나요?
 
  A5: 다음에서 임시 라이센스를 얻을 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

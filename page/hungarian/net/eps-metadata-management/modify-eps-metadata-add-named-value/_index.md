@@ -3,10 +3,16 @@ title: Adjon meg elnevezett értéket az Aspose.Page segítségével
 linktitle: Adja hozzá a nevesített értéket
 second_title: Aspose.Page .NET API
 description: Ismerje meg, hogyan adhat elnevezett értékeket EPS-fájlokhoz .NET-ben az Aspose.Page használatával. Ez az átfogó oktatóanyag lépésről lépésre végigvezeti a folyamaton.
-type: docs
 weight: 12
 url: /hu/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon meg elnevezett értéket az Aspose.Page segítségével
+
 ## Bevezetés
 
 A .NET-tel végzett dokumentumfeldolgozás terén az Aspose.Page az EPS-fájlok kezelésének hatékony eszköze. Az Aspose.Page felhatalmazza a fejlesztőket az XMP-metaadatok manipulálására, megkönnyítve a feladatokat, például az elnevezett értékek hozzáadását. Ez az oktatóanyag lépésről lépésre végigvezeti az Aspose.Page használatával elnevezett értékek EPS-fájlhoz való hozzáadásának folyamatán.
@@ -96,3 +102,9 @@ Gratulálunk! Sikeresen hozzáadott egy elnevezett értéket egy EPS-fájlhoz az
 ### 5. kérdés: Mi az az ideiglenes engedély, és hogyan szerezhetem be?
 
  5. válasz: Ha tesztelési vagy értékelési célból ideiglenes licencre van szüksége, beszerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

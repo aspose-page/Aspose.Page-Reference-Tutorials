@@ -3,10 +3,16 @@ title: أضف تدرجًا قطريًا إلى XPS باستخدام Aspose.Page 
 linktitle: إضافة التدرج القطري إلى XPS
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية إضافة تدرجات قطرية جذابة إلى مستندات XPS باستخدام Aspose.Page لـ .NET. ارفع مستوى عروضك التقديمية المرئية دون عناء.
-type: docs
 weight: 11
 url: /ar/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف تدرجًا قطريًا إلى XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 في مجال معالجة المستندات، يبرز Aspose.Page for .NET كمجموعة أدوات قوية تمكن المطورين من التعامل مع مستندات XPS بسهولة. إحدى الميزات المثيرة التي تقدمها هي القدرة على إضافة تدرجات قطرية، مما يسمح لك بتعزيز المظهر المرئي لمستنداتك. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، ويوضح كيفية دمج التدرجات القطرية في ملفات XPS باستخدام Aspose.Page لـ .NET.
@@ -106,3 +112,9 @@ A3: يركز Aspose.Page بشكل أساسي على معالجة مستندات 
 ### س5: هل تتوفر نسخة تجريبية قبل الشراء؟
 
  ج5: نعم، يمكنك استكشاف[تجربة مجانية](https://releases.aspose.com/) لتجربة Aspose.Page لـ .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

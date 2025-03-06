@@ -3,10 +3,16 @@ title: Přidejte obrázek do dokumentu XPS pomocí Aspose.Page pro .NET
 linktitle: Přidat obrázek do dokumentu XPS
 second_title: Aspose.Page .NET API
 description: Prozkoumejte bezproblémovou integraci obrázků do dokumentů XPS s Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro hladký vývoj.
-type: docs
 weight: 11
 url: /cs/net/image-management/add-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte obrázek do dokumentu XPS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Ve světě vývoje .NET je začlenění obrázků do dokumentů XPS běžným požadavkem. Aspose.Page for .NET tento proces zjednodušuje a nabízí výkonnou sadu nástrojů pro snadnou manipulaci a vylepšení dokumentů XPS. Tento tutoriál vás provede kroky přidání obrázku do dokumentu XPS pomocí Aspose.Page for .NET.
@@ -100,3 +106,9 @@ Odpověď 2: Ano, Aspose.Page for .NET je nezávislý na platformě, takže je v
 ### Otázka 5: Kde mohu vyhledat pomoc nebo se zapojit do komunity pro Aspose.Page for .NET?
 
  A5: Navštivte[Aspose.Page for .NET forum](https://forum.aspose.com/c/page/39) spojit se s komunitou a získat podporu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

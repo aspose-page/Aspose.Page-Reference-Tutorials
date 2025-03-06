@@ -3,10 +3,16 @@ title: 이미지 조작 - XPS
 linktitle: 이미지 조작 - XPS
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java XPS 문서에서 손쉬운 이미지 조작 기술을 알아보세요. 향상된 문서 처리를 위해 이미지를 원활하게 추가하고 타일링하는 방법을 알아보세요.
-type: docs
 weight: 29
 url: /ko/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 조작 - XPS
+
 
 ## 소개
 
@@ -36,3 +42,9 @@ XPS 문서에 시각적 매력이 부족합니까? 걱정하지 마세요! Aspos
 Aspose.Page를 사용하여 Java에서 XPS 문서에 이미지를 손쉽게 추가하는 방법을 알아보세요. 이 단계별 가이드를 통해 문서 처리 수준을 높이세요.
 ### [Java XPS에 타일식 이미지 추가](./add-tiled-image/)
 Aspose.Page를 사용하여 원활한 Java XPS 문서 조작을 살펴보세요. 이 단계별 가이드를 사용하여 타일식 이미지를 쉽게 추가하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

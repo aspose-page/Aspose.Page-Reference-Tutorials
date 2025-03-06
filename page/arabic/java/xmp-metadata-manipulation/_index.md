@@ -3,10 +3,16 @@ title: معالجة البيانات التعريفية XMP - Java
 linktitle: معالجة البيانات التعريفية XMP - Java
 second_title: Aspose.Page جافا API
 description: قم بتحسين ملفات EPS بسهولة من خلال معالجة بيانات XMP التعريفية - بدءًا من إضافة العناصر إلى الاستخراج. ارفع مستوى إدارة المستندات الخاصة بك مع أدلةنا.
-type: docs
 weight: 42
 url: /ar/java/xmp-metadata-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة البيانات التعريفية XMP - Java
+
 
 ## مقدمة
 
@@ -66,3 +72,9 @@ url: /ar/java/xmp-metadata-manipulation/
 قم بتحسين مستندات EPS باستخدام Aspose.Page لـ Java. قم بتعديل بيانات تعريف XMP بسهولة للحصول على محتوى مخصص واحترافي.
 ### [احصل على بيانات التعريف من XMP باستخدام Java](./get-metadata/)
 أطلق العنان لقوة Aspose.Page لـ Java لاستخراج بيانات تعريف XMP بسهولة. ارفع مستوى تحليل المستندات من خلال دليلنا المفصّل خطوة بخطوة!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

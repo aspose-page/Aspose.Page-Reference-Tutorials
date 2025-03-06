@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page für .NET Metadaten zum EPS-Dokument hinzu
 linktitle: Metadaten zum EPS-Dokument hinzufügen
 second_title: Aspose.Page .NET-API
 description: Verbessern Sie die Organisation von EPS-Dokumenten mit Aspose.Page für .NET. Fügen Sie mühelos Metadaten hinzu, um die Zugänglichkeit und den Informationsabruf zu verbessern.
-type: docs
 weight: 10
 url: /de/net/eps-metadata-management/add-metadata-to-eps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page für .NET Metadaten zum EPS-Dokument hinzu
+
 ## Einführung
 
 In der sich ständig weiterentwickelnden Landschaft digitaler Dokumente spielen Metadaten eine entscheidende Rolle bei der Bereitstellung von Informationen über den Inhalt, seinen Ursprung und andere wichtige Details. Aspose.Page für .NET ermöglicht Entwicklern das nahtlose Hinzufügen von Metadaten zu EPS-Dokumenten (Encapsulated PostScript) und verbessert so deren Zugänglichkeit und Nützlichkeit.
@@ -146,3 +152,9 @@ A4: Ja, Aspose.Page für .NET bietet Flexibilität beim Anpassen von Metadatenfe
 ### F5: Wie kann ich mit Fehlern beim Hinzufügen von Metadaten umgehen?
 
 A5: Stellen Sie sicher, dass in Ihrem Code eine ordnungsgemäße Ausnahmebehandlung erfolgt, um potenzielle Fehler beim Extrahieren und Hinzufügen von Metadaten zu beheben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

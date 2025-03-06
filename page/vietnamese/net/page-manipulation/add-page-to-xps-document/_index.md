@@ -3,10 +3,16 @@ title: Thêm trang vào tài liệu XPS bằng Aspose.Page cho .NET
 linktitle: Thêm trang vào tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Nâng cao ứng dụng .NET của bạn bằng cách tìm hiểu cách thêm trang vào tài liệu XPS bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm trang vào tài liệu XPS bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Nếu bạn đang làm việc với các tài liệu XPS trong .NET và cần thêm các trang theo chương trình, Aspose.Page cho .NET là giải pháp phù hợp cho bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước trong quá trình thêm trang vào tài liệu XPS. Là một người viết SEO thành thạo, tôi đảm bảo rằng hướng dẫn này không chỉ cung cấp nhiều thông tin mà còn được thiết kế nhằm tối ưu hóa công cụ tìm kiếm, khiến nó trở thành một nguồn tài nguyên quý giá cho các nhà phát triển cũng như người sáng tạo nội dung.
@@ -86,3 +92,10 @@ Câu trả lời 4: Có, bạn có thể truy cập bản dùng thử miễn ph�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho .NET?
 
  A5: Tham quan[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Crie maravilhas visuais - recorte em manipulação de páginas Java
 linktitle: Recorte na manipulação de páginas Java
 second_title: API Java Aspose.Page
 description: Explore a arte do recorte em Java Page Manipulation com Aspose.Page. Domine a elaboração precisa de documentos para obter visuais e controle impressionantes.
-type: docs
 weight: 10
 url: /pt/java/page-manipulation/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crie maravilhas visuais - recorte em manipulação de páginas Java
+
 ## Introdução
 No domínio da manipulação de páginas Java, dominar a arte do recorte é essencial para criar documentos visualmente impressionantes e elaborados com precisão. O recorte permite controlar a visibilidade do conteúdo definindo regiões específicas nas quais ele deve ser exibido. Neste tutorial, mergulharemos no mundo do recorte usando Aspose.Page for Java, uma biblioteca poderosa para lidar com tarefas de processamento de documentos.
 ## Pré-requisitos
@@ -76,3 +82,9 @@ Absolutamente! Aspose.Page oferece licença comercial para desenvolvedores, gara
  Explore o[documentação](https://reference.aspose.com/page/java/) e[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) por uma riqueza de recursos.
 ### Existe um teste gratuito disponível?
  Sim, você pode acessar a avaliação gratuita do Aspose.Page[aqui](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

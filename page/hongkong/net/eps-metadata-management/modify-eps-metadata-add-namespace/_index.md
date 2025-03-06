@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 新增命名空間
 linktitle: 新增命名空間
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 增強 EPS 檔案。輕鬆新增命名空間、修改 XMP 元資料並加快您的 .NET 開發工作流程。
-type: docs
 weight: 13
 url: /zh-hant/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 新增命名空間
+
 ## 介紹
 
 在 .NET 開發的動態世界中，Aspose.Page 作為處理 EPS 檔案的強大工具脫穎而出。 Aspose.Page for .NET 允許開發人員無縫操作 XMP 元數據，提供新增命名空間和增強 EPS 檔案元資料的靈活性。
@@ -117,3 +123,9 @@ A2：當然！ Aspose.Page 可讓您輕鬆地從 EPS 檔案中提取和修改 XM
 ### Q5：如何取得Aspose.Page的臨時授權？
 
  A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

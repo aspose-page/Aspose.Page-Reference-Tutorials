@@ -3,10 +3,16 @@ title: Empezando
 linktitle: Empezando
 second_title: Aspose.Página .NET API
 description: Desbloquee el poder de Aspose.Page .NET con tutoriales paso a paso. Aplique licencias medidas, cargue desde archivos o secuencias, asegure licencias y más.
-type: docs
 weight: 20
 url: /es/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Empezando
+
 ## Introducción
 
 Bienvenido a la guía definitiva sobre tutoriales de Aspose.Page para .NET. Sumérgete en un mundo de procesamiento de documentos fluido, donde la eficiencia se une a la simplicidad. Embárcate en un viaje para aprovechar todo el potencial de esta poderosa herramienta a través de una serie de tutoriales completos.
@@ -38,3 +44,9 @@ Desbloquee la manipulación de documentos en .NET con Aspose.Page. Siga nuestra 
 Asegure su licencia de Aspose.Page para .NET sin esfuerzo con nuestra guía paso a paso. Libere todo el potencial para una manipulación perfecta de páginas en sus aplicaciones .NET.
 ### [Establecer licencia utilizando recursos integrados con Aspose.Page para .NET](./set-license-using-embedded-resource/)
 Aprenda a configurar una licencia utilizando recursos integrados con Aspose.Page para .NET. Garantice el cumplimiento y libere todo el potencial del procesamiento de documentos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

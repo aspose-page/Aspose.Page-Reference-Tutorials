@@ -3,10 +3,16 @@ title: Java PostScriptで垂直グラデーションを追加する
 linktitle: Java PostScriptで垂直グラデーションを追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用して Java PostScript に垂直グラデーションを追加するためのステップバイステップ ガイドをご覧ください。鮮やかなビジュアルでドキュメントを簡単に強化できます。
-type: docs
 weight: 14
 url: /ja/java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScriptで垂直グラデーションを追加する
+
 ## 導入
 Aspose.Page for Java を使用して Java PostScript に垂直グラデーションを追加するためのこのステップバイステップ ガイドへようこそ。目を引くグラデーションでドキュメントを強化したい場合は、このチュートリアルが最適です。 Aspose.Page for Java は、PostScript ドキュメントをシームレスに操作するための強力なツールを提供します。
 ## 前提条件
@@ -101,3 +107,9 @@ document.save();
  Aspose.Page for Java を購入できます[ここ](https://purchase.aspose.com/buy).
 ### Aspose.Page についてディスカッションするフォーラムはありますか?
 はい、コミュニティ フォーラムに参加できます[ここ](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

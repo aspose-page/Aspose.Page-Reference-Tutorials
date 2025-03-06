@@ -3,10 +3,16 @@ title: Dodaj okrągłą elipsę do dokumentu XPS za pomocą Aspose.Page dla .NET
 linktitle: Dodaj elipsę koła do dokumentu XPS
 second_title: Aspose.Page API .NET
 description: Ulepsz dokumenty XPS za pomocą żywych gradientów promieniowych za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać oszałamiające efekty wizualne.
-type: docs
 weight: 11
 url: /pl/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj okrągłą elipsę do dokumentu XPS za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Tworzenie atrakcyjnych wizualnie dokumentów XPS jest powszechnym wymogiem w różnych aplikacjach. Aspose.Page dla .NET zapewnia potężny zestaw funkcji do wydajnego manipulowania dokumentami XPS. W tym samouczku skupimy się na dodaniu elipsy koła do dokumentu XPS przy użyciu Aspose.Page dla .NET. Wykonaj poniższe czynności, aby wzbogacić swoje dokumenty XPS o żywe gradienty promieniowe.
@@ -114,3 +120,9 @@ O1: Aspose.Page dla .NET zajmuje się w szczególności manipulacją dokumentami
 ### P5: Czy mogę kupić Aspose.Page dla .NET?
 
  Odpowiedź 5: Tak, możesz kupić bibliotekę[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

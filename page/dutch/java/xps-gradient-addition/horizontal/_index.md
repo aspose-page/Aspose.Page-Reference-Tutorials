@@ -3,10 +3,16 @@ title: Voeg een horizontaal verloop toe in Java XPS
 linktitle: Voeg een horizontaal verloop toe in Java XPS
 second_title: Aspose.Page Java-API
 description: Leer hoe u een verbluffend horizontaal verloop kunt toevoegen aan XPS-documenten in Java met behulp van Aspose.Page. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 11
 url: /nl/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een horizontaal verloop toe in Java XPS
+
 ## Invoering
 Welkom bij deze stapsgewijze handleiding voor het toevoegen van een horizontaal verloop in Java XPS met Aspose.Page voor Java. Aspose.Page voor Java is een krachtige bibliotheek waarmee ontwikkelaars naadloos met XPS-documenten (XML Paper Specification) kunnen werken.
 In deze zelfstudie begeleiden we u bij het maken van een Java-toepassing waarmee u een horizontaal verloop aan een XPS-document kunt toevoegen. Volg de onderstaande stappen om dit gemakkelijk te bereiken.
@@ -70,3 +76,9 @@ Ja, naast lineaire gradiënten ondersteunt Aspose.Page radiale gradiënten voor 
 Absoluut! U heeft volledige controle over de kleuren en posities van elke verloopstop.
 ### Vraag: Is er een communityforum voor Aspose.Page waar ik hulp kan zoeken?
  Ja, u kunt een bezoek brengen aan de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) om verbinding te maken met de gemeenschap en hulp te krijgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

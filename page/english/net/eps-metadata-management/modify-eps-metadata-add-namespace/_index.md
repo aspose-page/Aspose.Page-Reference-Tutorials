@@ -3,10 +3,16 @@ title: Add Namespace with Aspose.Page for .NET
 linktitle: Add Namespace
 second_title: Aspose.Page .NET API
 description: Enhance EPS files with Aspose.Page for .NET. Add namespaces effortlessly, modify XMP metadata, and boost your .NET development workflow.
-type: docs
 weight: 13
 url: /net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Namespace with Aspose.Page for .NET
+
 ## Introduction
 
 In the dynamic world of .NET development, Aspose.Page stands out as a powerful tool for handling EPS files. Aspose.Page for .NET allows developers to seamlessly manipulate XMP metadata, providing the flexibility to add namespaces and enhance the metadata of EPS files.
@@ -117,3 +123,10 @@ A4: Yes, you can explore a free trial of Aspose.Page [here](https://releases.asp
 ### Q5: How can I obtain a temporary license for Aspose.Page?
 
 A5: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

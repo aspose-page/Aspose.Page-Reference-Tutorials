@@ -3,10 +3,16 @@ title: หน้า Java PostScript - คำแนะนำที่ไร้ร
 linktitle: หน้า Java PostScript
 second_title: Aspose.Page Java API
 description: สำรวจวิธีเพิ่มหน้าใน Java PostScript ได้อย่างง่ายดายโดยใช้ Aspose.Page ปรับปรุงการสร้างเอกสารของคุณด้วยไลบรารี Java อันทรงพลังนี้
-type: docs
 weight: 10
 url: /th/java/postscript-page-manipulation/add-pages1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# หน้า Java PostScript - คำแนะนำที่ไร้รอยต่อกับ Aspose.Page
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำที่ครอบคลุมของเราเกี่ยวกับการเพิ่มหน้าใน Java PostScript โดยใช้ Aspose.Page ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มหน้าลงในเอกสาร PostScript โดยใช้ Aspose.Page สำหรับ Java Aspose.Page เป็นไลบรารี Java ที่ทรงพลังซึ่งมีฟีเจอร์มากมายสำหรับการทำงานกับเอกสาร PostScript ทำให้เป็นตัวเลือกสำหรับนักพัฒนา
 ## ข้อกำหนดเบื้องต้น
@@ -68,3 +74,9 @@ document.save();
 Aspose.Page ไม่ได้กำหนดข้อจำกัดที่เข้มงวดเกี่ยวกับจำนวนเพจที่คุณสามารถเพิ่มได้ ทำให้เหมาะสำหรับโปรเจ็กต์ขนาดต่างๆ
 ### ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page ได้อย่างไร
  คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

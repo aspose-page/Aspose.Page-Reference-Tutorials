@@ -3,10 +3,16 @@ title: Manipulasi Gambar - PostScript
 linktitle: Manipulasi Gambar - PostScript
 second_title: Aspose.Halaman Java API
 description: Tingkatkan keterampilan manipulasi dokumen dengan Aspose.Page untuk Java. Pelajari tutorial PostScript kami, pelajari cara menambahkan gambar di Java, dan tingkatkan kemampuan dokumen Anda.
-type: docs
 weight: 28
 url: /id/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Gambar - PostScript
+
 
 ## Perkenalan
 
@@ -32,3 +38,9 @@ Mulailah perjalanan penemuan ini dengan Aspose.Page untuk tutorial PostScript Ja
 ## Manipulasi Gambar - Tutorial PostScript
 ### [Tambahkan Gambar di Java PostScript](./add-image/)
 Jelajahi integrasi Aspose.Page Java yang mulus dalam tutorial tentang menambahkan gambar ke dokumen PostScript. Tingkatkan kemampuan manipulasi dokumen Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

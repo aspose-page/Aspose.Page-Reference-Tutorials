@@ -3,10 +3,16 @@ title: Java XPSに対角グラデーションを追加する
 linktitle: Java XPSに対角グラデーションを追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して、Java で XPS ドキュメントに見事な斜めのグラデーションを追加する方法を学びます。視覚的なプレゼンテーションを簡単に向上させます。
-type: docs
 weight: 10
 url: /ja/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPSに対角グラデーションを追加する
+
 ## 導入
 進化し続ける Java 開発の世界では、XPS ドキュメントの視覚的な魅力を高めることが重要です。これを達成する効果的な方法の 1 つは、斜めのグラデーションを組み込むことです。このチュートリアルでは、Aspose.Page for Java を使用するプロセスを段階的に説明し、段階的な手順とコード スニペットを示します。
 ## 前提条件
@@ -75,3 +81,9 @@ Aspose.Page は、さまざまな Java フレームワークとシームレス�
 訪問[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティと関わり、支援を求めます。
 ### Q: 一時ライセンスの規定はありますか?
 はい、入手できます[仮免許証はこちら](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

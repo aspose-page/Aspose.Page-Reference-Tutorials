@@ -3,10 +3,16 @@ title: Aspose.Page を使用して PostScript (PS) に垂直グラデーショ�
 linktitle: PostScript に垂直グラデーションを追加する (PS)
 second_title: Aspose.Page .NET API
 description: Aspose.Page を使用して、.NET の PostScript (PS) ドキュメントに視覚的に魅力的な垂直グラデーションを追加する方法を学びます。このステップバイステップのガイドを使用して、ドキュメントの作成をさらに強化してください。
-type: docs
 weight: 14
 url: /ja/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して PostScript (PS) に垂直グラデーションを追加する
+
 ## 導入
 
 ドキュメントの操作と作成の分野では、Aspose.Page for .NET は開発者にとって強力なツールとして際立っています。このチュートリアルでは、Aspose.Page for .NET を使用して PostScript (PS) ドキュメントに垂直グラデーションを追加するプロセスを説明します。このガイドを読み終えるまでに、この視覚的に魅力的な効果を実現するために必要な手順を明確に理解できるようになります。
@@ -154,3 +160,9 @@ A3: Aspose.Page は、放射状グラデーションやパス グラデーショ
 ### Q5: 助けを求めることができる Aspose.Page のコミュニティ フォーラムはありますか?
 
  A5：確かに！に向かう[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)他の開発者とつながり、支援を受けることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

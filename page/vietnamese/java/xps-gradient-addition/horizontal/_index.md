@@ -3,10 +3,16 @@ title: Thêm độ dốc ngang trong Java XPS
 linktitle: Thêm độ dốc ngang trong Java XPS
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thêm dải màu ngang tuyệt đẹp vào tài liệu XPS trong Java bằng Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 11
 url: /vi/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm độ dốc ngang trong Java XPS
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước này về cách thêm dải màu ngang trong Java XPS bằng Aspose.Page cho Java. Aspose.Page cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tài liệu XPS (Đặc tả giấy XML).
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo ứng dụng Java để thêm dải màu chuyển màu ngang vào tài liệu XPS. Hãy làm theo các bước dưới đây để đạt được điều này một cách dễ dàng.
@@ -70,3 +76,9 @@ Có, bên cạnh các gradient tuyến tính, Aspose.Page còn hỗ trợ các g
 Tuyệt đối! Bạn có toàn quyền kiểm soát màu sắc và vị trí của từng điểm chuyển màu.
 ### Câu hỏi: Có diễn đàn cộng đồng nào dành cho Aspose.Page để tôi có thể tìm kiếm trợ giúp không?
  Có, bạn có thể ghé thăm[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với cộng đồng và nhận được sự trợ giúp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

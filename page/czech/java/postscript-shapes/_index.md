@@ -3,10 +3,16 @@ title: Tvary - PostScript
 linktitle: Tvary - PostScript
 second_title: Aspose.Page Java API
 description: Vytvářejte podmanivé PostScriptové dokumenty bez námahy pomocí Aspose.Page Java. Ponořte se do výukových programů o přidávání elips a obdélníků a vytvořte vizuálně přitažlivý obsah.
-type: docs
 weight: 34
 url: /cs/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tvary - PostScript
+
 
 ## Úvod
 
@@ -65,3 +71,9 @@ Odemkněte plný potenciál Aspose.Page pro Javu a pozvedněte své zkušenosti 
 Ovládněte vytváření úžasných PostScriptových dokumentů v Javě pomocí Aspose.Page. Naučte se přidávat elipsy krok za krokem pro vizuálně přitažlivý obsah.
 ### [Přidat obdélník v Java PostScript](./add-rectangle/)
 Prozkoumejte podrobného průvodce přidáváním živých obdélníků do dokumentů Java PostScript pomocí Aspose.Page for Java. Vylepšete přizpůsobení dokumentu bez námahy!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

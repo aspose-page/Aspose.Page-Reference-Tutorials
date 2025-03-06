@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 네임스페이스 추가
 linktitle: 네임스페이스 추가
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 EPS 파일을 향상하세요. 손쉽게 네임스페이스를 추가하고, XMP 메타데이터를 수정하고, .NET 개발 작업 흐름을 강화하세요.
-type: docs
 weight: 13
 url: /ko/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 네임스페이스 추가
+
 ## 소개
 
 .NET 개발의 역동적인 세계에서 Aspose.Page는 EPS 파일을 처리하는 강력한 도구로 돋보입니다. .NET용 Aspose.Page를 사용하면 개발자는 XMP 메타데이터를 원활하게 조작하여 네임스페이스를 추가하고 EPS 파일의 메타데이터를 향상시킬 수 있는 유연성을 제공합니다.
@@ -117,3 +123,9 @@ A2: 물론이죠! Aspose.Page를 사용하면 EPS 파일에서 XMP 메타데이�
 ### Q5: Aspose.Page에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

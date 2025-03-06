@@ -3,10 +3,16 @@ title: เอฟเฟกต์ความโปร่งใส
 linktitle: เอฟเฟกต์ความโปร่งใส
 second_title: Aspose.Page .NET API
 description: ค้นพบความมหัศจรรย์ของเอฟเฟกต์โปร่งใสในเอกสารของคุณด้วย Aspose.Page .NET ยกระดับการออกแบบของคุณด้วยบทช่วยสอนทีละขั้นตอนเพื่อปรับปรุงภาพให้สวยงามน่าทึ่ง
-type: docs
 weight: 34
 url: /th/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เอฟเฟกต์ความโปร่งใส
+
 
 ## การแนะนำ
 
@@ -42,3 +48,9 @@ url: /th/net/transparency-effects/
 เรียนรู้วิธีตั้งค่ามาสก์ความทึบในเอกสาร XPS โดยใช้ Aspose.Page สำหรับ .NET ปรับปรุงความสวยงามของเอกสารได้อย่างง่ายดาย
 ### [แสดงความโปร่งใสหลอกใน PostScript (PS) ด้วย Aspose.Page](./show-pseudo-transparency-in-postscript-ps/)
 สำรวจพลังของความโปร่งใสหลอกใน PostScript ด้วย Aspose.Page สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้ได้เอกสารที่สวยงามน่าทึ่ง
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

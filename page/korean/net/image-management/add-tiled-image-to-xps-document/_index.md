@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 XPS 문서에 타일 이미지 추가
 linktitle: XPS 문서에 타일식 이미지 추가
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 XPS 문서에 타일 이미지를 손쉽게 추가해 보세요. 시각적 매력을 강화하고 멋진 문서를 만들어보세요.
-type: docs
 weight: 12
 url: /ko/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 XPS 문서에 타일 이미지 추가
+
 ## 소개
 
 시각적으로 매력적인 타일 이미지를 추가하여 XPS 문서를 향상시키고 싶으십니까? .NET용 Aspose.Page는 개발자가 이를 원활하게 달성할 수 있도록 지원합니다. 이 단계별 가이드에서는 .NET용 Aspose.Page를 사용하여 XPS 문서에 타일 이미지를 추가하는 과정을 안내합니다.
@@ -95,3 +101,9 @@ A1: 예, Aspose.Page는 Visual Studio를 포함한 다양한 .NET 개발 환경�
 ### Q5: 어디서 도움을 구하거나 Aspose.Page 커뮤니티에 연결할 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 커뮤니티에 참여하고, 질문하고, 해결책을 찾으세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

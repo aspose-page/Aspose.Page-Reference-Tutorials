@@ -3,10 +3,16 @@ title: ตั้งค่า Opacity Mask ในเอกสาร XPS ด้ว
 linktitle: ตั้งค่า Opacity Mask ในเอกสาร XPS
 second_title: Aspose.Page .NET API
 description: เรียนรู้วิธีตั้งค่ามาสก์ความทึบในเอกสาร XPS โดยใช้ Aspose.Page สำหรับ .NET ปรับปรุงความสวยงามของเอกสารได้อย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ตั้งค่า Opacity Mask ในเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET
+
 ## การแนะนำ
 
 มาสก์ทึบแสงถือเป็นสิ่งสำคัญเมื่อคุณต้องการสร้างเอกสารที่ดึงดูดสายตาด้วยระดับความโปร่งใสที่แตกต่างกัน Aspose.Page สำหรับ .NET ช่วยให้กระบวนการนี้ง่ายขึ้น โดยนำเสนอชุดเครื่องมือที่ครอบคลุมสำหรับนักพัฒนาเพื่อปรับปรุงเอกสาร XPS ในบทช่วยสอนนี้ เราจะสำรวจวิธีตั้งค่ามาสก์ความทึบในคำแนะนำทีละขั้นตอน
@@ -98,3 +104,9 @@ A4: ได้ คุณสามารถเลเยอร์มาสก์ท
 ### คำถามที่ 5: Aspose.Page เข้ากันได้กับรูปแบบเอกสารอื่นหรือไม่
 
 A5: Aspose.Page มุ่งเน้นไปที่เอกสาร XPS เป็นหลัก แต่ Aspose มีผลิตภัณฑ์มากมายสำหรับการจัดการรูปแบบที่แตกต่างกัน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 許可證管理
 linktitle: 許可證管理
 second_title: Aspose.Page Java API
 description: 透過我們的授權管理教程釋放 Aspose.Page for Java 的全部潛力。無縫設定計量許可證以提高文件處理能力。
-type: docs
 weight: 30
 url: /zh-hant/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 許可證管理
+
 ## 介紹
 
 歡迎來到 Java 版 Aspose.Page 授權管理教學！在本綜合指南中，我們將深入探討設定計量許可證以優化文件處理能力的複雜性。讓我們踏上釋放 Aspose.Page 全部潛力的旅程，確保與 Java 無縫整合。
@@ -39,3 +45,9 @@ url: /zh-hant/java/license-management/
 ## 許可證管理教程
 ### [在 Java 中設定計量許可證](./set-metered-license/)
 探索 Aspose.Page 與 Java 的無縫整合。輕鬆設定計量許可證並增強您的文件處理能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

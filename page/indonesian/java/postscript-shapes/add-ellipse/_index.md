@@ -3,10 +3,16 @@ title: Tambahkan Ellipse di Java PostScript
 linktitle: Tambahkan Ellipse di Java PostScript
 second_title: Aspose.Halaman Java API
 description: Kuasai membuat dokumen PostScript yang menakjubkan di Java dengan Aspose.Page. Pelajari cara menambahkan elips langkah demi langkah untuk konten yang menarik secara visual.
-type: docs
 weight: 10
 url: /id/java/postscript-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Ellipse di Java PostScript
+
 ## Perkenalan
 Dalam dunia perkembangan Java yang dinamis, membuat dokumen yang menarik secara visual merupakan persyaratan umum. Aspose.Page untuk Java adalah perpustakaan canggih yang memberdayakan pengembang untuk memanipulasi file PostScript dengan mudah. Dalam tutorial ini, kita akan mempelajari cara menambahkan elips ke dokumen PostScript menggunakan Aspose.Page untuk Java. Ikuti terus untuk meningkatkan keterampilan pembuatan dokumen Anda!
 ## Prasyarat
@@ -71,3 +77,9 @@ J: Ya, Aspose.Page untuk Java dirancang untuk berintegrasi secara lancar dengan 
  A: Bergabunglah dengan komunitas di[Aspose.Halaman Forum](https://forum.aspose.com/c/page/39) untuk diskusi dan bantuan.
 ### T: Apakah ada sumber daya gratis untuk mempelajari lebih lanjut tentang Aspose.Page untuk Java?
  J: Gunakan[uji coba gratis](https://releases.aspose.com/) dan jelajahi contoh dalam dokumentasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

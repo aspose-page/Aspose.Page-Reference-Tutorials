@@ -3,10 +3,16 @@ title: पाठ हेरफेर - एक्सपीएस
 linktitle: पाठ हेरफेर - एक्सपीएस
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page के साथ अपने Java XPS दस्तावेज़ों में क्रांति लाएँ। पाठ हेरफेर पर चरण-दर-चरण मार्गदर्शिकाएँ देखें। सहज दस्तावेज़ सुधार के लिए अपने कौशल को उन्नत करें।
-type: docs
 weight: 37
 url: /hi/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# पाठ हेरफेर - एक्सपीएस
+
 
 Aspose.Page ट्यूटोरियल्स के साथ अपने Java XPS दस्तावेज़ों में क्रांति लाएँ। पाठ हेरफेर पर चरण-दर-चरण मार्गदर्शिकाएँ देखें। सहज दस्तावेज़ सुधार के लिए अपने कौशल को उन्नत करें।
 
@@ -36,3 +42,9 @@ Aspose.Page की क्षमता को उजागर करने का
 ## पाठ हेरफेर - एक्सपीएस ट्यूटोरियल
 ### [जावा एक्सपीएस में टेक्स्ट जोड़ें](./add-text/)
 Aspose.Page के साथ अपने Java XPS दस्तावेज़ों को बेहतर बनाएं! आसानी से टेक्स्ट जोड़ने के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें। आज ही अपने दस्तावेज़ हेरफेर कौशल को उन्नत करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

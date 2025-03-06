@@ -3,10 +3,16 @@ title: Chuyển đổi PS với Aspose.Page cho .NET
 linktitle: Chuyển đổi PS
 second_title: API Aspose.Page .NET
 description: Khai phá tiềm năng của Aspose.Page cho .NET với hướng dẫn toàn diện về chuyển đổi PostScript này. Tạo đồ họa động một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/net/canvas-manipulation/transformationsps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi PS với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với thế giới của Aspose.Page dành cho .NET, nơi bạn có thể giải phóng sức mạnh của các phép biến đổi trong tài liệu PostScript. Hướng dẫn này sẽ hướng dẫn bạn thực hiện các phép biến đổi khác nhau như dịch, chia tỷ lệ, xoay, cắt và các phép biến đổi phức tạp, cho phép bạn tạo đồ họa động và ấn tượng về mặt hình ảnh.
@@ -141,3 +147,9 @@ Câu trả lời 4: Các phép biến đổi phức tạp có thể ảnh hưở
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp cho các truy vấn liên quan đến Aspose.Page?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

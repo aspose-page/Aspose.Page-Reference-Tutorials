@@ -3,10 +3,16 @@ title: Tambahkan Rectangle ke PostScript (PS) dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Persegi Panjang ke PostScript (PS)
 second_title: Aspose.Halaman .NET API
 description: Tingkatkan pembuatan dokumen di .NET dengan Aspose.Page. Pelajari cara menambahkan persegi panjang ke file PostScript (PS) langkah demi langkah.
-type: docs
 weight: 12
 url: /id/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Rectangle ke PostScript (PS) dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Jika Anda ingin meningkatkan kemampuan pembuatan dokumen di .NET, Aspose.Page memberikan solusi canggih untuk menangani dokumen PostScript. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan persegi panjang ke dokumen PostScript menggunakan Aspose.Page untuk .NET.
@@ -133,3 +139,10 @@ A2: Ya, Aspose.Page mendukung berbagai format dokumen, termasuk XPS dan PostScri
 ### Q5: Dapatkah saya mencoba Aspose.Page sebelum membeli?
 
  A5: Ya, Anda bisa mendapatkan versi uji coba gratis[Di Sini](https://releases.aspose.com/) , dan untuk penggunaan jangka panjang, pertimbangkan a[izin sementara](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

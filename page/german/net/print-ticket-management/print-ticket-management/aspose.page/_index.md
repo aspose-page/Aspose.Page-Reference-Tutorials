@@ -3,10 +3,16 @@ title: Bearbeiten Sie ein vorhandenes Druckticket mit Aspose.Page für .NET
 linktitle: Vorhandenes Druckticket bearbeiten
 second_title: Aspose.Page .NET-API
 description: Erfahren Sie, wie Sie Drucktickets in XPS-Dokumenten mit Aspose.Page für .NET bearbeiten. Eine Schritt-für-Schritt-Anleitung für Entwickler. Verbessern Sie mühelos die Kontrolle über den Dokumentendruck.
-type: docs
 weight: 11
 url: /de/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bearbeiten Sie ein vorhandenes Druckticket mit Aspose.Page für .NET
+
 ## Einführung
 
 Willkommen zu dieser umfassenden Anleitung zum Bearbeiten bestehender Drucktickets mit Aspose.Page für .NET! Aspose.Page ist eine leistungsstarke Bibliothek, die es Entwicklern ermöglicht, mühelos mit XPS-Dokumenten zu arbeiten. In diesem Tutorial führen wir Sie anhand praktischer Beispiele durch den Prozess der Bearbeitung von Drucktickets und schlüsseln jeden Schritt auf, um ein nahtloses Lernerlebnis zu gewährleisten.
@@ -117,3 +123,9 @@ A2: Ja, Aspose.Page für .NET ist mit .NET Core kompatibel und bietet Flexibilit
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.Page für .NET erhalten?
 
  A5: Besuchen[dieser Link](https://purchase.aspose.com/temporary-license/) eine befristete Lizenz zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

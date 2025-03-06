@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 그리드 비주얼 브러시 적용
 linktitle: 그리드 비주얼 브러시 적용
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page를 사용하여 .NET에서 문서 처리의 역동적인 세계를 탐험해보세요. 시각적으로 놀라운 문서를 위해 그리드 시각적 브러시를 적용하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 그리드 비주얼 브러시 적용
+
 ## 소개
 
 .NET 개발 세계에서 Aspose.Page는 문서 처리 작업을 처리하는 강력한 도구로 돋보입니다. 이 앱이 제공하는 흥미로운 기능 중 하나는 그리드 비주얼 브러시를 적용하여 문서에 새로운 차원을 가져오는 기능입니다. 이 튜토리얼은 .NET용 Aspose.Page를 사용하여 Magenta Grid Visual Brush를 구현하는 과정을 단계별로 안내합니다.
@@ -143,3 +149,9 @@ A1: 예, .NET용 Aspose.Page는 다목적이며 다양한 애플리케이션 유
 ### Q5: .NET용 Aspose.Page에 사용할 수 있는 다른 문서는 무엇입니까?
 
  A5: 포괄적인 문서 살펴보기[여기](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

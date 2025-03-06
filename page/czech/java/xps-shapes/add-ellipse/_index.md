@@ -3,10 +3,16 @@ title: Přidejte elipsu radiálního přechodu pomocí Aspose.Page
 linktitle: Přidejte Ellipse do Java XPS
 second_title: Aspose.Page Java API
 description: Prozkoumejte podrobného průvodce přidáním elipsy s radiálním přechodem v Java XPS pomocí Aspose.Page for Java. Vylepšete svou tvorbu dokumentů bez námahy.
-type: docs
 weight: 10
 url: /cs/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte elipsu radiálního přechodu pomocí Aspose.Page
+
 ## Úvod
 Vítejte v našem podrobném průvodci přidáním elipsy do Java XPS pomocí Aspose.Page for Java. Aspose.Page je výkonná Java knihovna, která umožňuje vývojářům bez námahy pracovat s dokumenty XPS. V tomto tutoriálu vás provedeme procesem vytvoření elipsy s radiálním přechodem a jejím uložením jako dokument XPS.
 ## Předpoklady
@@ -91,3 +97,9 @@ Absolutně! Aspose.Page je navržena tak, aby efektivně zvládla zpracování r
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Existují komunitní fóra pro diskuse Aspose.Page?
  Ano, připojte se k[Aspose.Page komunitní fórum](https://forum.aspose.com/c/page/39) spojit se s ostatními vývojáři a získat pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

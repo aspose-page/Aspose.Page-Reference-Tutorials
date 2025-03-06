@@ -3,10 +3,16 @@ title: تغيير القيمة المسماة في XMP باستخدام Java
 linktitle: تغيير القيمة المسماة في XMP باستخدام Java
 second_title: Aspose.Page جافا API
 description: اكتشف Aspose.Page for Java - قم بتغيير بيانات XMP التعريفية في ملفات EPS بسهولة من خلال دليلنا خطوة بخطوة لمعالجة المستندات بشكل مبسط.
-type: docs
 weight: 16
 url: /ar/java/xmp-metadata-manipulation/change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير القيمة المسماة في XMP باستخدام Java
+
 في مجال معالجة المستندات، تبرز Aspose.Page for Java كأداة قوية، تمكن المطورين من العمل بسلاسة مع بيانات تعريف XMP في ملفات EPS. سيرشدك هذا الدليل خطوة بخطوة خلال عملية تغيير قيمة مسماة في XMP باستخدام Aspose.Page لـ Java. قبل أن نخوض في التفاصيل، دعونا نهيئ المسرح بمقدمة.
 ## مقدمة
 Aspose.Page for Java هي مكتبة Java قوية تسهل معالجة ملفات EPS ومعالجتها. عندما يتعلق الأمر بمعالجة بيانات تعريف XMP داخل هذه الملفات، فإن Aspose.Page يزود المطورين بمجموعة شاملة من الميزات. في هذا البرنامج التعليمي، سنركز على تغيير قيمة مسماة في XMP، ونقدم دليلًا واضحًا وموجزًا للمطورين الذين يتطلعون إلى تحسين قدرات معالجة المستندات لديهم.
@@ -82,3 +88,9 @@ psStream.close();
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء Aspose.Page لـ Java؟
  لشراء Aspose.Page لـ Java، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

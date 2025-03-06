@@ -3,10 +3,16 @@ title: Carregar licença do objeto Stream com Aspose.Page para .NET
 linktitle: Carregar licença do objeto Stream
 second_title: API Aspose.Page .NET
 description: Desbloqueie a manipulação de documentos em .NET com Aspose.Page. Siga nosso guia para carregar licenças de objetos de stream de maneira integrada.
-type: docs
 weight: 12
 url: /pt/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Carregar licença do objeto Stream com Aspose.Page para .NET
+
 ## Introdução
 
 Você está pronto para levar suas habilidades de desenvolvimento .NET para o próximo nível? Se você já sentiu necessidade de trabalhar com documentos, especialmente no contexto de manipulação de páginas, então Aspose.Page for .NET é o seu companheiro perfeito. Neste guia abrangente, orientaremos você no processo de carregamento de uma licença de um objeto de fluxo, uma etapa fundamental para aproveitar os recursos do Aspose.Page for .NET.
@@ -111,3 +117,9 @@ A1: Sim, o Aspose.Page foi projetado para funcionar perfeitamente com todas as v
 ### P5: Posso atualizar para um plano de licença diferente?
 
  A5: Explore diferentes opções de licenciamento e atualização[aqui](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавить мозаичное изображение в Java XPS
 linktitle: Добавить мозаичное изображение в Java XPS
 second_title: API Aspose.Page Java
 description: Исследуйте беспрепятственное манипулирование документами Java XPS с помощью Aspose.Page. Научитесь легко добавлять мозаичные изображения, используя это пошаговое руководство.
-type: docs
 weight: 11
 url: /ru/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить мозаичное изображение в Java XPS
+
 ## Введение
 В динамичном мире разработки Java потребность в эффективном манипулировании и создании документов постоянно растет. Aspose.Page для Java представляет собой мощный инструмент, предоставляющий разработчикам возможность беспрепятственно работать с документами XPS. В этом руководстве основное внимание уделяется конкретной задаче — добавлению мозаичного изображения в документ Java XPS.
 ## Предварительные условия
@@ -68,3 +74,9 @@ Aspose.Page для Java оптимизирует процесс работы с 
  Взаимодействуйте с сообществом Aspose.Page на[Форум](https://forum.aspose.com/c/page/39).
 ### Как я могу получить временную лицензию для Aspose.Page?
  Приобретите временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθήκη Rectangle στο έγγραφο XPS με το Aspose.Pag
 linktitle: Προσθήκη ορθογώνιου στο έγγραφο XPS
 second_title: Aspose.Page .NET API
 description: Βελτιώστε τη δημιουργία εγγράφων με το Aspose.Page για .NET. Μάθετε πώς να προσθέτετε ορθογώνια σε έγγραφα XPS σε αυτό το βήμα προς βήμα σεμινάριο.
-type: docs
 weight: 13
 url: /el/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη Rectangle στο έγγραφο XPS με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Το Aspose.Page για .NET είναι μια ισχυρή βιβλιοθήκη που παρέχει μια ποικιλία δυνατοτήτων για εργασία με έγγραφα XPS (XML Paper Specification) σε εφαρμογές .NET. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην προσθήκη ενός ορθογωνίου σε ένα έγγραφο XPS χρησιμοποιώντας το Aspose.Page για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να βελτιώσετε τη διαδικασία δημιουργίας εγγράφων.
@@ -95,3 +101,9 @@ A1: Ναι, το Aspose.Page έχει σχεδιαστεί για να λειτ�
 ### Ε5: Πού μπορώ να αναζητήσω υποστήριξη από την κοινότητα ή να κάνω ερωτήσεις σχετικά με το Aspose.Page για .NET;
 
  A5: Επισκεφθείτε το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39) για κοινοτική υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Χειρισμός σελίδας Java
 linktitle: Χειρισμός σελίδας Java
 second_title: Aspose.Page Java API
 description: Ξεκλειδώστε τα μυστικά της χειραγώγησης σελίδων Java με τα μαθήματα Aspose.Page. Βουτήξτε στο απόκομμα και τις μεταμορφώσεις για να δημιουργήσετε οπτικά εντυπωσιακά έγγραφα χωρίς κόπο.
-type: docs
 weight: 20
 url: /el/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός σελίδας Java
+
 
 ## Εισαγωγή
 
@@ -50,3 +56,9 @@ url: /el/java/page-manipulation/
 Εξερευνήστε την τέχνη του αποκοπής στη χειραγώγηση σελίδων Java με το Aspose.Page. Κατακτήστε την ακριβή δημιουργία εγγράφων για εκπληκτικά γραφικά και έλεγχο.
 ### [Μετασχηματισμοί στη χειραγώγηση σελίδων Java](./transformations/)
 Μάθετε πώς να εκτελείτε προχωρημένους μετασχηματισμούς σελίδων σε Java χρησιμοποιώντας το Aspose.Page για Java. Βελτιώστε τις εφαρμογές σας Java με ισχυρές δυνατότητες χειρισμού.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

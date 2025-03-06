@@ -3,10 +3,16 @@ title: أضف التدرج الأفقي إلى PostScript (PS) باستخدام 
 linktitle: إضافة التدرج الأفقي إلى بوستسكريبت (PS)
 second_title: Aspose.Page .NET API
 description: قم بتحسين مستندات PostScript بتدرجات أفقية مذهلة باستخدام Aspose.Page لـ .NET. اتبع برنامجنا التعليمي خطوة بخطوة للتنفيذ السلس.
-type: docs
 weight: 12
 url: /ar/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف التدرج الأفقي إلى PostScript (PS) باستخدام Aspose.Page
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول إضافة التدرجات الأفقية إلى مستندات PostScript (PS) باستخدام Aspose.Page for .NET. Aspose.Page هي مكتبة قوية تسهل معالجة المستندات بتنسيقات مختلفة، مما يوفر للمطورين الأدوات التي يحتاجونها لإنشاء المستندات وتعديلها وعرضها بسلاسة.
@@ -143,3 +149,9 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
 ### س5: هل يوجد منتدى مجتمعي لمستخدمي Aspose.Page؟
 
  ج5: نعم، انضم إلى مجتمع Aspose.Page على[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) للتواصل مع المستخدمين الآخرين وطلب المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

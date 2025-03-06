@@ -3,10 +3,16 @@ title: Bentuk Gambar
 linktitle: Bentuk Gambar
 second_title: Aspose.Halaman .NET API
 description: Sempurnakan pembuatan dokumen di .NET dengan mudah! Pelajari tutorial langkah demi langkah tentang menambahkan lingkaran, elips, dan persegi panjang ke PostScript (PS) menggunakan Aspose.Page .NET.
-type: docs
 weight: 31
 url: /id/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bentuk Gambar
+
 ## Pendahuluan
 
 Aspose.Page untuk .NET memberdayakan pengembang untuk meningkatkan pembuatan dokumen di lingkungan .NET. Selami tutorial langkah demi langkah kami untuk menguasai seni menambahkan bentuk menawan ke dokumen PostScript (PS) dan XPS.
@@ -33,3 +39,9 @@ Sempurnakan dokumen XPS dengan gradien radial yang dinamis menggunakan Aspose.Pa
 Tingkatkan pembuatan dokumen di .NET dengan Aspose.Page. Pelajari cara menambahkan persegi panjang ke file PostScript (PS) langkah demi langkah.
 ### [Tambahkan Rectangle ke Dokumen XPS dengan Aspose.Page untuk .NET](./add-rectangle-to-xps-document/)
 Tingkatkan pembuatan dokumen dengan Aspose.Page untuk .NET. Pelajari cara menambahkan persegi panjang ke dokumen XPS dalam tutorial langkah demi langkah ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

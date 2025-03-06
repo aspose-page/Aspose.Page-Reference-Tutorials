@@ -3,10 +3,16 @@ title: تحويل XPS إلى PNG في جافا
 linktitle: تحويل XPS إلى PNG في جافا
 second_title: Aspose.Page جافا API
 description: يمكنك بسهولة تحويل XPS إلى PNG في Java باستخدام Aspose.Page. قم بتبسيط مهام المستندات باستخدام هذا الحل الموثوق والصديق للمطورين.
-type: docs
 weight: 13
 url: /ar/java/xps-conversion/to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل XPS إلى PNG في جافا
+
 ## مقدمة
 في العالم الديناميكي لتطوير البرمجيات، تبرز الحاجة بشكل متكرر إلى تحويل مستندات XPS (مواصفات ورق XML) إلى صور PNG (رسومات الشبكة المحمولة). لإنجاز هذه المهمة بسلاسة في Java، يوفر Aspose.Page حلاً قويًا. في هذا البرنامج التعليمي، سنتعرف على عملية تحويل XPS إلى PNG باستخدام Aspose.Page لـ Java.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ for (int i = 0; i < device.getResult().length; i++) {
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل توجد منتديات مجتمعية لمناقشات Aspose.Page؟
  نعم، قم بزيارة منتديات المجتمع[هنا](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

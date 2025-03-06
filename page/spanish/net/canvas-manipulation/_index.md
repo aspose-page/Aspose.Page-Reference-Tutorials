@@ -3,10 +3,16 @@ title: Manipulación del lienzo
 linktitle: Manipulación del lienzo
 second_title: Aspose.Página .NET API
 description: Explore Aspose.Page para obtener tutoriales de .NET sobre manipulación de lienzos. Recortar y transformar documentos PS y XPS es muy sencillo. Mejore sus habilidades de procesamiento de documentos.
-type: docs
 weight: 21
 url: /es/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación del lienzo
+
 
 ## Introducción
 
@@ -42,3 +48,9 @@ Explore el poder de Aspose.Page para .NET en esta guía paso a paso sobre cómo 
 Descubra el potencial de Aspose.Page para .NET con esta guía completa sobre transformaciones PostScript. Cree gráficos dinámicos sin esfuerzo.
 ### [Transformaciones XPS con Aspose.Page para .NET](./transformationsxps/)
 Transforme documentos XPS sin esfuerzo con Aspose.Page para .NET. Siga nuestra guía paso a paso para lograr transformaciones perfectas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

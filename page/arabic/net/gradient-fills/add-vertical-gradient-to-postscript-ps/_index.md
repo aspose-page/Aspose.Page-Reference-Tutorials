@@ -3,10 +3,16 @@ title: أضف تدرجًا رأسيًا إلى PostScript (PS) باستخدام 
 linktitle: إضافة تدرج عمودي إلى PostScript (PS)
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية إضافة تدرجات رأسية جذابة بصريًا إلى مستندات PostScript (PS) في .NET باستخدام Aspose.Page. ارتقِ بمستوى إنشاء المستندات باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف تدرجًا رأسيًا إلى PostScript (PS) باستخدام Aspose.Page
+
 ## مقدمة
 
 في مجال معالجة المستندات وإنشائها، تبرز Aspose.Page for .NET كأداة قوية للمطورين. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة تدرج رأسي إلى مستند PostScript (PS) باستخدام Aspose.Page لـ .NET. بحلول نهاية هذا الدليل، سيكون لديك فهم واضح للخطوات اللازمة لتحقيق هذا التأثير الجذاب بصريًا.
@@ -154,3 +160,9 @@ A3: يدعم Aspose.Page أنواع التدرج المختلفة، بما في 
 ### س5: هل يوجد منتدى مجتمعي لـ Aspose.Page حيث يمكنني طلب المساعدة؟
 
  ج5: بالتأكيد! توجه إلى[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للتواصل مع المطورين الآخرين والحصول على المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

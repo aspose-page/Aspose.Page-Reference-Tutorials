@@ -3,10 +3,16 @@ title: Hướng dẫn chuyển đổi nâng cao với Aspose.Page
 linktitle: Các biến đổi trong thao tác trang Java
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thực hiện các chuyển đổi trang nâng cao trong Java bằng Aspose.Page cho Java. Nâng cao các ứng dụng Java của bạn với khả năng thao tác mạnh mẽ.
-type: docs
 weight: 11
 url: /vi/java/page-manipulation/transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hướng dẫn chuyển đổi nâng cao với Aspose.Page
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện về cách sử dụng các tính năng mạnh mẽ của Aspose.Page dành cho Java để thực hiện các phép biến đổi trong Thao tác trang Java. Aspose.Page là một thư viện Java linh hoạt cho phép các nhà phát triển làm việc với nhiều tác vụ thao tác trang khác nhau một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -87,3 +93,9 @@ Aspose.Page chủ yếu tập trung vào thao tác trang cho các định dạng
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm kiếm sự hỗ trợ của cộng đồng hoặc đặt câu hỏi về Aspose.Page cho Java ở đâu?
  Tham quan[Aspose.Page cho diễn đàn Java](https://forum.aspose.com/c/page/39) cho các cuộc thảo luận cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

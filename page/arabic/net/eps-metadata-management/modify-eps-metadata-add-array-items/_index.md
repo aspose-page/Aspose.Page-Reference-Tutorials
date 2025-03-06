@@ -3,10 +3,16 @@ title: إضافة عناصر المصفوفة باستخدام Aspose.Page
 linktitle: إضافة عناصر المصفوفة
 second_title: Aspose.Page .NET API
 description: اكتشف كيفية إضافة عناصر المصفوفة في ملفات EPS باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للتعامل السلس مع المستندات.
-type: docs
 weight: 11
 url: /ar/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة عناصر المصفوفة باستخدام Aspose.Page
+
 ## مقدمة
 
 في مجال معالجة المستندات ومعالجتها في .NET، تبرز Aspose.Page كأداة قوية. من بين إمكانياته العديدة، يعد التعامل مع عناصر المصفوفة داخل ملف EPS مطلبًا شائعًا. في هذا البرنامج التعليمي، سوف نستكشف عملية إضافة عناصر المصفوفة خطوة بخطوة باستخدام Aspose.Page في بيئة .NET. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، سيرشدك هذا الدليل خلال العملية بوضوح ودقة.
@@ -119,3 +125,9 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 ### س5: ما هو الإصدار الأحدث من Aspose.Page لـ .NET؟
 
  ج5: للوصول إلى أحدث إصدار من Aspose.Page لـ .NET، راجع[توثيق](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

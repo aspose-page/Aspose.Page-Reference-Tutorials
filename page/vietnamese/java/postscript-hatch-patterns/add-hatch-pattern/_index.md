@@ -3,10 +3,16 @@ title: Thêm mẫu nở trong Java PostScript
 linktitle: Thêm mẫu nở trong Java PostScript
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thêm các mẫu gạch chéo quyến rũ vào tài liệu Java PostScript bằng Aspose.Page. Nâng cao nội dung hình ảnh của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm mẫu nở trong Java PostScript
+
 ## Giới thiệu
 Trong thế giới lập trình Java, việc nâng cao các yếu tố trực quan là yêu cầu chung của các nhà phát triển. Một cải tiến hình ảnh hấp dẫn là việc bổ sung các mẫu gạch chéo vào tài liệu PostScript. Hướng dẫn này sẽ hướng dẫn bạn trong quá trình thêm các mẫu tô bóng bằng Aspose.Page cho Java.
 ## Điều kiện tiên quyết
@@ -97,3 +103,9 @@ Có, Aspose.Page dành cho Java được thiết kế để tích hợp liền m
  Khám phá cái[Aspose.Page cho diễn đàn Java](https://forum.aspose.com/c/page/39) để được hướng dẫn và hỗ trợ cộng đồng.
 ### Có tài nguyên tài liệu toàn diện về Aspose.Page cho Java không?
  Có, tham khảo tài liệu[đây](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

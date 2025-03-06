@@ -3,10 +3,16 @@ title: Seitenmanipulation – XPS
 linktitle: Seitenmanipulation – XPS
 second_title: Aspose.Page Java-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Page für Java mit unseren Tutorials. Werten Sie Ihre Java XPS-Dokumente auf, indem Sie mühelos Seiten hinzufügen, um die Anwendungsfunktionalität zu verbessern.
-type: docs
 weight: 33
 url: /de/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Seitenmanipulation – XPS
+
 
 ## Einführung
 
@@ -36,3 +42,9 @@ Zusammenfassend lässt sich sagen, dass Aspose.Page für Java-Tutorials zur Seit
 ## Seitenmanipulation – XPS-Tutorials
 ### [Seite in Java XPS hinzufügen](./add-page/)
 Werten Sie Java XPS-Dokumente mit Aspose.Page auf. Erfahren Sie, wie Sie mühelos Seiten hinzufügen, um die Anwendungsfunktionalität zu verbessern. Tauchen Sie jetzt in das Tutorial ein!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

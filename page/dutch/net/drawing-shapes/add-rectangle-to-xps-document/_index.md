@@ -3,10 +3,16 @@ title: Voeg een rechthoek toe aan een XPS-document met Aspose.Page voor .NET
 linktitle: Rechthoek toevoegen aan XPS-document
 second_title: Aspose.Page .NET-API
 description: Verbeter het maken van documenten met Aspose.Page voor .NET. Leer hoe u rechthoeken aan XPS-documenten toevoegt in deze stapsgewijze zelfstudie.
-type: docs
 weight: 13
 url: /nl/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een rechthoek toe aan een XPS-document met Aspose.Page voor .NET
+
 ## Invoering
 
 Aspose.Page voor .NET is een krachtige bibliotheek die een verscheidenheid aan functies biedt voor het werken met XPS-documenten (XML Paper Specification) in .NET-toepassingen. In deze zelfstudie concentreren we ons op het toevoegen van een rechthoek aan een XPS-document met Aspose.Page voor .NET. Volg deze stapsgewijze handleiding om uw proces voor het maken van documenten te verbeteren.
@@ -95,3 +101,9 @@ A1: Ja, Aspose.Page is ontworpen om naadloos samen te werken met alle .NET-appli
 ### V5: Waar kan ik community-ondersteuning zoeken of vragen stellen met betrekking tot Aspose.Page voor .NET?
 
  A5: Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) voor gemeenschapssteun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

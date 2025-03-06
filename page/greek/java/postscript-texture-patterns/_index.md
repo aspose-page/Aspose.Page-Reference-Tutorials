@@ -3,10 +3,16 @@ title: Υφή και Μοτίβα - PostScript
 linktitle: Υφή και Μοτίβα - PostScript
 second_title: Aspose.Page Java API
 description: Ανυψώστε το PostScript με το Aspose.Page για Java. Προσθέστε απρόσκοπτα μοτίβα πλακιδίων υφής για δημιουργικές δυνατότητες στα λεπτομερή σεμινάρια Java PostScript.
-type: docs
 weight: 38
 url: /el/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υφή και Μοτίβα - PostScript
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να ανεβάσετε τα έγγραφα PostScript σε νέα δημιουργικά ύψη; Το Aspose.Page για Java είναι η πύλη σας για την απρόσκοπτη ενσωμάτωση μοτίβων πλακιδίων υφής στα έργα σας. Σε αυτόν τον περιεκτικό οδηγό, θα εμβαθύνουμε στον κόσμο των υφών και των μοτίβων, ξεκλειδώνοντας πλήρως τις δυνατότητες του Java PostScript.
@@ -45,3 +51,9 @@ url: /el/java/postscript-texture-patterns/
 ## Υφή και Μοτίβα - Εκμάθηση PostScript
 ### [Προσθήκη μοτίβου πλακιδίων υφής στο Java PostScript](./add-texture-tiling-pattern/)
 Προσθέστε χωρίς κόπο μοτίβα πλακιδίων υφής σε έγγραφα PostScript με το Aspose.Page για Java. Εξερευνήστε τον απρόσκοπτο οδηγό ενσωμάτωσης για δημιουργικές δυνατότητες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

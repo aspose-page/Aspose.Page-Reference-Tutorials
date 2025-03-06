@@ -3,10 +3,16 @@ title: Aggiungi immagine affiancata al documento XPS con Aspose.Page per .NET
 linktitle: Aggiungi immagine affiancata al documento XPS
 second_title: API Aspose.Page .NET
 description: Esplora l'aggiunta di immagini affiancate ai documenti XPS senza sforzo con Aspose.Page per .NET. Migliora l'impatto visivo e crea documenti straordinari.
-type: docs
 weight: 12
 url: /it/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi immagine affiancata al documento XPS con Aspose.Page per .NET
+
 ## introduzione
 
 Desideri migliorare i tuoi documenti XPS aggiungendo immagini affiancate visivamente accattivanti? Aspose.Page per .NET consente agli sviluppatori di raggiungere questo obiettivo senza problemi. In questa guida passo passo ti guideremo attraverso il processo di aggiunta di un'immagine affiancata a un documento XPS utilizzando Aspose.Page per .NET.
@@ -95,3 +101,9 @@ A2: Certamente, come dimostrato nell'esempio, puoi impostare l'opacità del rett
 ### Q5: Dove posso chiedere aiuto o connettermi con la comunità Aspose.Page?
 
  A5: Visita il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) interagire con la comunità, porre domande e trovare soluzioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

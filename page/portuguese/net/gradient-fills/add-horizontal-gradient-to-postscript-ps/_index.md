@@ -3,10 +3,16 @@ title: Adicione gradiente horizontal ao PostScript (PS) com Aspose.Page
 linktitle: Adicionar gradiente horizontal ao PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Aprimore documentos PostScript com gradientes horizontais impressionantes usando Aspose.Page para .NET. Siga nosso tutorial passo a passo para uma implementação perfeita.
-type: docs
 weight: 12
 url: /pt/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicione gradiente horizontal ao PostScript (PS) com Aspose.Page
+
 ## Introdução
 
 Bem-vindo a este tutorial abrangente sobre como adicionar gradientes horizontais a documentos PostScript (PS) usando Aspose.Page for .NET. Aspose.Page é uma biblioteca poderosa que facilita a manipulação de documentos em vários formatos, fornecendo aos desenvolvedores as ferramentas necessárias para criar, modificar e renderizar documentos de maneira integrada.
@@ -143,3 +149,9 @@ A3: Aspose.Page oferece suporte a vários formatos de documento, incluindo XPS, 
 ### Q5: Existe um fórum da comunidade para usuários do Aspose.Page?
 
  A5: Sim, junte-se à comunidade Aspose.Page em[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) para se conectar com outros usuários e buscar assistência.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

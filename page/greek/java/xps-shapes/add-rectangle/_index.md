@@ -3,10 +3,16 @@ title: Προσθήκη ορθογώνιου σε Java XPS
 linktitle: Προσθήκη ορθογώνιου σε Java XPS
 second_title: Aspose.Page Java API
 description: Μάθετε πώς να προσθέτετε ορθογώνια σε Java XPS χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τον οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία εγγράφων. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /el/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη ορθογώνιου σε Java XPS
+
 ## Εισαγωγή
 Καλώς ήρθατε σε αυτόν τον περιεκτικό οδηγό για την προσθήκη ορθογωνίων σε Java XPS χρησιμοποιώντας το Aspose.Page! Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με Java XPS, αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία με οδηγίες βήμα προς βήμα, διασφαλίζοντας ότι θα αποκτήσετε μια βαθιά κατανόηση του θέματος.
 ## Προαπαιτούμενα
@@ -62,3 +68,9 @@ doc.save(dataDir + "AddRectangle_out.xps");
  Εξερευνήστε το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39)για περισσότερα παραδείγματα και ζητήστε βοήθεια από την κοινότητα.
 ### Μπορώ να δοκιμάσω το Aspose.Page πριν αγοράσω;
  Ναι, μπορείτε να εξερευνήσετε α[δωρεάν δοκιμή](https://releases.aspose.com/) για να γνωρίσετε τις δυνατότητες του Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

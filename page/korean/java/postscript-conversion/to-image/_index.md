@@ -3,10 +3,16 @@ title: Java에서 PostScript를 이미지로 변환
 linktitle: Java에서 PostScript를 이미지로 변환
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 PostScript를 Java 이미지로 변환하는 방법에 대한 포괄적인 튜토리얼을 살펴보세요. 단계별 가이드, FAQ 및 필수 전제조건이 포함되어 있습니다.
-type: docs
 weight: 10
 url: /ko/java/postscript-conversion/to-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 PostScript를 이미지로 변환
+
 ## 소개
 끊임없이 진화하는 소프트웨어 개발 환경에서는 효율적인 문서 조작이 중요합니다. Java용 Aspose.Page는 개발자가 PostScript 파일을 이미지로 원활하게 변환할 수 있는 강력한 도구로 등장합니다. 이 튜토리얼에서는 각 측면을 포괄적으로 이해할 수 있도록 프로세스를 단계별로 안내합니다.
 ## 전제 조건
@@ -104,3 +110,9 @@ if (suppressErrors) {
 아니요, 필수는 아닙니다. 기본 이미지 크기는 595x842이지만 특정 크기가 필요한 경우 설정할 수 있습니다.
 ### 자세한 정보와 지원은 어디서 찾을 수 있나요?
  탐색[선적 서류 비치](https://reference.aspose.com/page/java/) 그리고 방문하세요[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

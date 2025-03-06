@@ -3,10 +3,16 @@ title: Přidejte stránku do dokumentu PostScript (PS) pomocí Aspose.Page
 linktitle: Přidat stránku do dokumentu PostScript (PS).
 second_title: Aspose.Page .NET API
 description: Prozkoumejte Aspose.Page for .NET dokonalé řešení pro bezproblémovou manipulaci s PostScriptovými dokumenty ve vašich projektech .NET.
-type: docs
 weight: 10
 url: /cs/net/page-manipulation/add-page-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte stránku do dokumentu PostScript (PS) pomocí Aspose.Page
+
 ## Úvod
 
 Ve světě vývoje .NET je správa a manipulace s dokumenty zásadním aspektem. Aspose.Page for .NET je výkonná knihovna, která poskytuje vývojářům nástroje potřebné pro bezproblémovou práci s dokumenty PostScript (PS). Tento podrobný průvodce vás provede procesem přidávání stránek do dokumentu PostScript pomocí Aspose.Page v .NET.
@@ -113,3 +119,9 @@ A2: Rozhodně! Jak je ukázáno v tutoriálu, můžete určit různé velikosti 
 ### Q5: Kde mohu hledat podporu komunity nebo klást otázky?
 
  A5: Připojte se[Aspose.Page komunitní fórum](https://forum.aspose.com/c/page/39) spojit se s ostatními vývojáři, sdílet zkušenosti a hledat pomoc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

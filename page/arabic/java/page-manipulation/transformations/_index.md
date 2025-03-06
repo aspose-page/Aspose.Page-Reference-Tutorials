@@ -3,10 +3,16 @@ title: دليل التحولات المتقدمة مع Aspose.Page
 linktitle: التحولات في معالجة صفحة جافا
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إجراء تحويلات متقدمة للصفحة في Java باستخدام Aspose.Page لـ Java. قم بتحسين تطبيقات Java الخاصة بك من خلال إمكانيات معالجة قوية.
-type: docs
 weight: 11
 url: /ar/java/page-manipulation/transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دليل التحولات المتقدمة مع Aspose.Page
+
 ## مقدمة
 مرحبًا بك في الدليل الشامل حول استخدام الميزات القوية لـ Aspose.Page لـ Java لإجراء تحويلات في Java Page Manipulation. Aspose.Page هي مكتبة Java متعددة الاستخدامات تمكن المطورين من العمل مع مهام معالجة الصفحات المختلفة بكفاءة.
 ## المتطلبات الأساسية
@@ -87,3 +93,9 @@ document.writeGraphicsRestore();
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني طلب دعم المجتمع أو طرح أسئلة حول Aspose.Page for Java؟
  قم بزيارة[Aspose.Page لمنتدى جافا](https://forum.aspose.com/c/page/39) للمناقشات المجتمعية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

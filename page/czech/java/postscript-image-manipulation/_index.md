@@ -3,10 +3,16 @@ title: Manipulace s obrázky - PostScript
 linktitle: Manipulace s obrázky - PostScript
 second_title: Aspose.Page Java API
 description: Vylepšete dovednosti manipulace s dokumenty pomocí Aspose.Page pro Java. Ponořte se do našich výukových programů PostScript, naučte se přidávat obrázky v Javě a rozšiřte možnosti svých dokumentů.
-type: docs
 weight: 28
 url: /cs/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s obrázky - PostScript
+
 
 ## Úvod
 
@@ -32,3 +38,9 @@ Vydejte se na tuto cestu objevování s Aspose.Page for Java tutoriály PostScri
 ## Manipulace s obrázky - PostScriptové výukové programy
 ### [Přidat obrázek v Java PostScript](./add-image/)
 Prozkoumejte bezproblémovou integraci Aspose.Page Java v tomto tutoriálu o přidávání obrázků do PostScriptových dokumentů. Zvyšte své možnosti manipulace s dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

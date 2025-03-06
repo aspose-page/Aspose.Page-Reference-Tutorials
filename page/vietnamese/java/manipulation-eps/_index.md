@@ -3,10 +3,16 @@ title: Thao tác EPS trong Java
 linktitle: Thao tác EPS trong Java
 second_title: API Java Aspose.Page
 description: Khám phá Aspose.Page cho Java với hướng dẫn của chúng tôi về thao tác EPS. Cắt và thay đổi kích thước tệp EPS một cách dễ dàng với hướng dẫn từng bước, nâng cao kỹ năng xử lý tài liệu của bạn.
-type: docs
 weight: 24
 url: /vi/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác EPS trong Java
+
 
 ## giới thiệu
 
@@ -42,3 +48,9 @@ Tóm lại, các hướng dẫn Aspose.Page dành cho Java về thao tác EPS kh
 Khám phá hướng dẫn từng bước về cách cắt tệp EPS trong Java bằng Aspose.Page. Nâng cao kỹ năng thao tác tài liệu của bạn một cách dễ dàng. 
 ### [Thay đổi kích thước tệp EPS trong Java](./resize/)
 Tìm hiểu cách thay đổi kích thước tệp EPS trong Java một cách dễ dàng với Aspose.Page cho Java. Hãy làm theo hướng dẫn toàn diện của chúng tôi để biết hướng dẫn từng bước.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

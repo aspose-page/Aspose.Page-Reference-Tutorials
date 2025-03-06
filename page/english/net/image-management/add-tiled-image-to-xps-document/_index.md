@@ -3,10 +3,16 @@ title: Add Tiled Image to XPS Document with Aspose.Page for .NET
 linktitle: Add Tiled Image to XPS Document
 second_title: Aspose.Page .NET API
 description: Explore adding tiled images to XPS documents effortlessly with Aspose.Page for .NET. Enhance visual appeal and create stunning documents.
-type: docs
 weight: 12
 url: /net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Tiled Image to XPS Document with Aspose.Page for .NET
+
 ## Introduction
 
 Are you looking to enhance your XPS documents by adding visually appealing tiled images? Aspose.Page for .NET empowers developers to achieve this seamlessly. In this step-by-step guide, we'll walk you through the process of adding a tiled image to an XPS document using Aspose.Page for .NET.
@@ -95,3 +101,10 @@ A4: Refer to the [temporary license](https://purchase.aspose.com/temporary-licen
 ### Q5: Where can I seek help or connect with the Aspose.Page community?
 
 A5: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to engage with the community, ask questions, and find solutions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

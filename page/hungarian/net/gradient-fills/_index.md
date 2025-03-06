@@ -3,10 +3,16 @@ title: Gradiens kitöltések
 linktitle: Gradiens kitöltések
 second_title: Aspose.Page .NET API
 description: Fedezze fel a színátmenetes kitöltések művészetét .NET-ben az Aspose.Page oktatóanyagaival. Emelje fel projektjeit könnyedén – adjon hozzá lenyűgöző átlós, vízszintes és függőleges színátmeneteket.
-type: docs
 weight: 27
 url: /hu/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradiens kitöltések
+
 
 ## Bevezetés
 
@@ -49,3 +55,9 @@ Ismerje meg, hogyan adhat lenyűgöző vízszintes színátmeneteket XPS-dokumen
 Tanulja meg, hogyan adhat hozzá tetszetős függőleges színátmeneteket a PostScript (PS) dokumentumokhoz .NET-ben az Aspose.Page használatával. Ezzel a lépésről-lépésre szóló útmutatóval javíthatja dokumentumkészítését.
 ### [Adjon hozzá függőleges színátmenetet az XPS-hez az Aspose.Page for .NET segítségével](./add-vertical-gradient-to-xps/)
 Ismerje meg, hogyan javíthat XPS-dokumentumokat függőleges színátmenetekkel az Aspose.Page for .NET használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

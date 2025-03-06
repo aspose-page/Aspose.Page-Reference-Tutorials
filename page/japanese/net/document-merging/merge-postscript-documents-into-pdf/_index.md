@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して PostScript ドキュメントを PDF
 linktitle: PostScript ドキュメントを PDF に結合
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して、PostScript ドキュメントを PDF に簡単に結合する方法を学びます。このステップバイステップのガイドを使用して、文書処理能力を強化してください。
-type: docs
 weight: 10
 url: /ja/net/document-merging/merge-postscript-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して PostScript ドキュメントを PDF に結合
+
 ## 導入
 
 ドキュメント処理の分野では、Aspose.Page for .NET は PostScript ドキュメントを操作するための強力なツールとして際立っています。複数の PostScript ドキュメントを 1 つの便利な PDF ファイルに結合する必要がある場合は、ここが正しい場所です。このチュートリアルでは、Aspose.Page for .NET の可能性を最大限に活用できるように、プロセスを段階的に説明します。
@@ -116,3 +122,9 @@ A2: オプション オブジェクトで追加のフォント フォルダー�
 ### Q5: Aspose.Page for .NET の一時ライセンスを取得するにはどうすればよいですか?
 
  A5: 仮免許を取得します。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

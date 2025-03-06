@@ -3,10 +3,16 @@ title: معالجة EPS في جافا
 linktitle: معالجة EPS في جافا
 second_title: Aspose.Page جافا API
 description: استكشف Aspose.Page for Java من خلال برامجنا التعليمية حول معالجة EPS. قم بقص ملفات EPS وتغيير حجمها دون عناء باستخدام أدلة خطوة بخطوة، مما يعزز مهاراتك في المستندات.
-type: docs
 weight: 24
 url: /ar/java/manipulation-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة EPS في جافا
+
 
 ## مقدمة
 
@@ -42,3 +48,9 @@ url: /ar/java/manipulation-eps/
 استكشف دليلًا خطوة بخطوة حول اقتصاص ملفات EPS في Java باستخدام Aspose.Page. عزز مهاراتك في التعامل مع المستندات دون عناء. 
 ### [تغيير حجم ملف EPS في جافا](./resize/)
 تعرف على كيفية تغيير حجم ملفات EPS في Java بسهولة باستخدام Aspose.Page لـ Java. اتبع دليلنا الشامل للحصول على تعليمات خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

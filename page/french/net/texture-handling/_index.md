@@ -3,10 +3,16 @@ title: Gestion des textures
 linktitle: Gestion des textures
 second_title: API Aspose.Page .NET
 description: Améliorez les documents PostScript avec des effets visuels époustouflants ! Apprenez à appliquer des modèles de mosaïque de textures à l'aide d'Aspose.Page pour .NET avec notre guide étape par étape.
-type: docs
 weight: 33
 url: /fr/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des textures
+
 ## Introduction
 
 Dans le domaine de la manipulation de documents, la maîtrise de la gestion des textures peut ouvrir un monde de possibilités créatives. Aspose.Page pour .NET constitue un allié puissant pour les développeurs cherchant à élever leurs documents PostScript (PS) vers de nouveaux sommets. Dans cet article, nous plongeons dans l'univers captivant des didacticiels de gestion des textures, en nous concentrant spécifiquement sur l'application de motifs de mosaïque de textures.
@@ -36,3 +42,9 @@ En conclusion, nos didacticiels de gestion des textures, axés sur l'application
 ## Tutoriels sur la gestion des textures
 ### [Appliquer un motif de mosaïque de texture à PostScript (PS) avec Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
 Améliorez vos documents PostScript (PS) avec des modèles de mosaïque de texture à l'aide d'Aspose.Page pour .NET. Suivez notre guide étape par étape pour une touche créative.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

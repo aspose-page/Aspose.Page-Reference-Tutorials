@@ -3,10 +3,16 @@ title: قم بتعيين قناع العتامة في Java XPS
 linktitle: قم بتعيين قناع العتامة في Java XPS
 second_title: Aspose.Page جافا API
 description: اكتشف قوة إعداد أقنعة العتامة في Java XPS باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للحصول على تجربة مستندات محسنة بصريًا.
-type: docs
 weight: 11
 url: /ar/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين قناع العتامة في Java XPS
+
 ## مقدمة
 مرحبًا بك في دليلنا الشامل حول إعداد أقنعة العتامة في Java XPS باستخدام Aspose.Page. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستند XPS، وإضافة لوحة قماشية، وتطبيق قناع العتامة على مستطيل باستخدام الميزات القوية في Aspose.Page لـ Java.
 ## المتطلبات الأساسية
@@ -67,3 +73,9 @@ doc.save(dataDir + "OpacityMask_out.xps");
  يمكنك زيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للحصول على دعم المجتمع أو شراء ترخيص للمساعدة المميزة.
 ### هل هناك ضمان استعادة الأموال لـ Aspose.Page؟
  الرجوع إلى[صفحة الشراء](https://purchase.aspose.com/buy) للحصول على معلومات حول سياسات استرداد الأموال.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

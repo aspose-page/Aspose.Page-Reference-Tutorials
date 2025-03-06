@@ -3,10 +3,16 @@ title: Java XPS에 투명 개체 추가
 linktitle: Java XPS에 투명 개체 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 놀라운 투명도 효과로 Java XPS 문서를 향상하세요. 투명한 개체를 추가하려면 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS에 투명 개체 추가
+
 ## 소개
 투명한 개체를 추가하여 Java XPS 문서의 시각적 매력을 향상시키려는 경우 Java용 Aspose.Page가 솔루션입니다. 이 단계별 가이드에서는 투명 개체를 XPS 문서에 통합하는 과정을 안내합니다. 이 튜토리얼을 마치면 미학적으로 만족스러운 투명 효과를 사용하여 멋진 문서를 만들 수 있습니다.
 ## 전제 조건
@@ -88,3 +94,9 @@ A: 채우기의 불투명도 속성을 조정하여 투명도 수준을 제어�
 A: 예, Aspose.Page는 확장된 기능을 위해 다른 Java 라이브러리와 원활하게 통합될 수 있습니다.
 ### Q: Aspose.Page에 대한 추가 예제와 지원은 어디서 찾을 수 있나요?
  답: 다음을 방문하세요.[Aspose.Page 자바 포럼](https://forum.aspose.com/c/page/39)커뮤니티 지원을 위해 문서를 살펴보세요[여기](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

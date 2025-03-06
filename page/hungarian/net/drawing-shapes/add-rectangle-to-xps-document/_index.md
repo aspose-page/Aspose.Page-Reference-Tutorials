@@ -3,10 +3,16 @@ title: Téglalap hozzáadása XPS-dokumentumhoz az Aspose.Page for .NET segíts�
 linktitle: Téglalap hozzáadása az XPS-dokumentumhoz
 second_title: Aspose.Page .NET API
 description: Fokozza a dokumentumok létrehozását az Aspose.Page for .NET segítségével. Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan adhat téglalapokat XPS-dokumentumokhoz.
-type: docs
 weight: 13
 url: /hu/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Téglalap hozzáadása XPS-dokumentumhoz az Aspose.Page for .NET segítségével
+
 ## Bevezetés
 
 Az Aspose.Page for .NET egy hatékony könyvtár, amely számos szolgáltatást biztosít az XPS (XML Paper Specification) dokumentumokkal való munkavégzéshez .NET alkalmazásokban. Ebben az oktatóanyagban egy téglalap hozzáadására összpontosítunk egy XPS-dokumentumhoz az Aspose.Page for .NET használatával. Kövesse ezt a lépésről lépésre útmutatót a dokumentumkészítési folyamat javításához.
@@ -95,3 +101,9 @@ Az Aspose.Page for .NET leegyszerűsíti a dokumentumkezelési feladatokat, így
 ### 5. kérdés: Hol kérhetek közösségi támogatást, vagy hol tehetek fel kérdéseket az Aspose.Page for .NET-hez kapcsolódóan?
 
  A5: Látogassa meg a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dodaj obraz kafelkowy w Java XPS
 linktitle: Dodaj obraz kafelkowy w Java XPS
 second_title: Aspose.Page API Java
 description: Poznaj bezproblemową manipulację dokumentami Java XPS za pomocą Aspose.Page. Dzięki temu przewodnikowi krok po kroku nauczysz się bezproblemowo dodawać obrazy sąsiadująco.
-type: docs
 weight: 11
 url: /pl/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj obraz kafelkowy w Java XPS
+
 ## Wstęp
 dynamicznym świecie programowania w języku Java stale rośnie potrzeba wydajnego manipulowania i tworzenia dokumentów. Aspose.Page dla Java jawi się jako potężne narzędzie, zapewniające programistom możliwość płynnej pracy z dokumentami XPS. Ten samouczek koncentruje się na konkretnym zadaniu — dodaniu obrazu sąsiadującego do dokumentu Java XPS.
 ## Warunki wstępne
@@ -68,3 +74,9 @@ Tak, Aspose.Page oferuje licencje komercyjne. Kup je[Tutaj](https://purchase.asp
  Nawiąż kontakt ze społecznością Aspose.Page na stronie[forum](https://forum.aspose.com/c/page/39).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Page?
  Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

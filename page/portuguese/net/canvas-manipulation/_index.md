@@ -3,10 +3,16 @@ title: Manipulação de tela
 linktitle: Manipulação de tela
 second_title: API Aspose.Page .NET
 description: Explore os tutoriais do Aspose.Page for .NET sobre manipulação de tela. Recortar e transformar documentos PS e XPS ficou mais fácil. Aprimore suas habilidades de processamento de documentos.
-type: docs
 weight: 21
 url: /pt/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de tela
+
 
 ## Introdução
 
@@ -42,3 +48,9 @@ Explore o poder do Aspose.Page for .NET neste guia passo a passo sobre como reco
 Libere o potencial do Aspose.Page for .NET com este guia abrangente sobre transformações PostScript. Crie gráficos dinâmicos sem esforço.
 ### [Transformações XPS com Aspose.Page para .NET](./transformationsxps/)
 Transforme documentos XPS sem esforço com Aspose.Page for .NET. Siga nosso guia passo a passo para transformações perfeitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавьте пространство имен в XMP с помощь
 linktitle: Добавьте пространство имен в XMP с помощью Java
 second_title: API Aspose.Page Java
 description: Раскройте возможности манипулирования документами с помощью Aspose.Page для Java. В этом подробном руководстве вы научитесь легко добавлять пространства имен XMP.
-type: docs
 weight: 13
 url: /ru/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте пространство имен в XMP с помощью Java
+
 
 ## Введение
 
@@ -108,3 +114,9 @@ Aspose.Page в основном поддерживает Java, но сущест
 
 ### Существуют ли форумы сообщества для Aspose.Page?
  Да, вы можете взаимодействовать с сообществом на[Форум Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lägg till sida vid sida i XPS-dokument med Aspose.Page för .NET
 linktitle: Lägg till sida vid sida i XPS-dokument
 second_title: Aspose.Page .NET API
 description: Utforska att lägga till sida vid sida i XPS-dokument utan ansträngning med Aspose.Page för .NET. Förbättra visuella tilltal och skapa fantastiska dokument.
-type: docs
 weight: 12
 url: /sv/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till sida vid sida i XPS-dokument med Aspose.Page för .NET
+
 ## Introduktion
 
 Vill du förbättra dina XPS-dokument genom att lägga till visuellt tilltalande sida vid sida? Aspose.Page för .NET ger utvecklare möjlighet att uppnå detta sömlöst. I den här steg-för-steg-guiden går vi igenom processen att lägga till en sida vid sida i ett XPS-dokument med Aspose.Page för .NET.
@@ -95,3 +101,9 @@ A2: Visst, som visas i exemplet, kan du ställa in opaciteten för den fyllda re
 ### F5: Var kan jag söka hjälp eller få kontakt med Aspose.Page-communityt?
 
  A5: Besök[Aspose.Page forum](https://forum.aspose.com/c/page/39) att engagera sig i samhället, ställa frågor och hitta lösningar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java XPS Text Addition - Aspose.Page Tutorial
 linktitle: Přidejte text do Java XPS
 second_title: Aspose.Page Java API
 description: Vylepšete své dokumenty Java XPS pomocí Aspose.Page! Postupujte podle našeho podrobného průvodce a přidejte text bez námahy. Zvyšte své dovednosti v manipulaci s dokumenty ještě dnes.
-type: docs
 weight: 10
 url: /cs/java/xps-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS Text Addition - Aspose.Page Tutorial
+
 ## Úvod
 V oblasti manipulace s dokumenty Java vyniká Aspose.Page jako robustní knihovna, která usnadňuje vytváření a manipulaci s dokumenty XPS (XML Paper Specification). Přidávání textu do dokumentů XPS je běžným požadavkem v různých aplikacích a tento tutoriál vás provede procesem pomocí Aspose.Page for Java. Ať už jste ostřílený vývojář nebo nováček, tento podrobný průvodce vám zajistí hladkou cestu při vylepšování vašich dokumentů XPS pomocí textu.
 ## Předpoklady
@@ -63,3 +69,9 @@ Absolutně! Aspose.Page vám umožňuje přizpůsobit styly písma podle vašich
  Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak získám dočasnou licenci pro Aspose.Page?
  Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

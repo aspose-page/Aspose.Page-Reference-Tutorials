@@ -3,10 +3,16 @@ title: Minh bạch - XPS
 linktitle: Minh bạch - XPS
 second_title: API Java Aspose.Page
 description: Nâng cao tài liệu Java XPS của bạn một cách dễ dàng với Aspose.Page. Tìm hiểu cách thêm các đối tượng trong suốt và đặt mặt nạ độ mờ trong hướng dẫn của chúng tôi để có hiệu ứng hình ảnh nâng cao.
-type: docs
 weight: 40
 url: /vi/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Minh bạch - XPS
+
 ## Giới thiệu
 
 Bạn đang muốn nâng tài liệu Java XPS của mình lên một tầm cao mới? Đi sâu vào thế giới hiệu ứng trong suốt với Aspose.Page và mở khóa một loạt các khả năng trực quan ấn tượng. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn qua hai hướng dẫn cần thiết: thêm các đối tượng trong suốt và đặt mặt nạ độ mờ.
@@ -47,3 +53,9 @@ Tóm lại, Aspose.Page dành cho Java mở ra cánh cửa dẫn đến thế gi
 Nâng cao tài liệu Java XPS của bạn với các hiệu ứng trong suốt tuyệt đẹp bằng Aspose.Page. Làm theo hướng dẫn từng bước của chúng tôi để thêm các đối tượng trong suốt. 
 ### [Đặt mặt nạ độ mờ trong Java XPS](./set-opacity-mask/)
 Khám phá sức mạnh của việc thiết lập mặt nạ độ mờ trong Java XPS với Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm tài liệu được nâng cao về mặt trực quan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

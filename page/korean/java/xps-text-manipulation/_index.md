@@ -3,10 +3,16 @@ title: 텍스트 조작 - XPS
 linktitle: 텍스트 조작 - XPS
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page로 Java XPS 문서를 혁신하세요. 텍스트 조작에 대한 단계별 가이드를 살펴보세요. 손쉬운 문서 개선을 위해 기술을 향상시키세요.
-type: docs
 weight: 37
 url: /ko/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 텍스트 조작 - XPS
+
 
 Aspose.Page 튜토리얼을 통해 Java XPS 문서를 혁신하세요. 텍스트 조작에 대한 단계별 가이드를 살펴보세요. 손쉬운 문서 개선을 위해 기술을 향상시키세요.
 
@@ -36,3 +42,9 @@ Java 튜토리얼용 Aspose.Page를 사용하면 XPS 문서의 텍스트 조작�
 ## 텍스트 조작 - XPS 튜토리얼
 ### [Java XPS에 텍스트 추가](./add-text/)
 Aspose.Page로 Java XPS 문서를 강화하세요! 단계별 가이드에 따라 쉽게 텍스트를 추가하세요. 지금 귀하의 문서 처리 기술을 향상시켜 보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

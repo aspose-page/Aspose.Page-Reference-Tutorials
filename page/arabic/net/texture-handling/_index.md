@@ -3,10 +3,16 @@ title: التعامل مع الملمس
 linktitle: التعامل مع الملمس
 second_title: Aspose.Page .NET API
 description: قم بتحسين مستندات PostScript بتأثيرات بصرية مذهلة! تعلم كيفية تطبيق أنماط تجانب النسيج باستخدام Aspose.Page لـ .NET من خلال دليلنا خطوة بخطوة.
-type: docs
 weight: 33
 url: /ar/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التعامل مع الملمس
+
 ## مقدمة
 
 في عالم معالجة المستندات، يمكن أن يؤدي إتقان التعامل مع النسيج إلى فتح عالم من الإمكانيات الإبداعية. يمثل Aspose.Page for .NET حليفًا قويًا للمطورين الذين يسعون إلى الارتقاء بمستندات PostScript (PS) الخاصة بهم إلى آفاق جديدة. في هذه المقالة، سنتعمق في عالم البرامج التعليمية الجذابة للتعامل مع النسيج، مع التركيز بشكل خاص على تطبيق أنماط تبليط النسيج.
@@ -36,3 +42,9 @@ url: /ar/net/texture-handling/
 ## دروس التعامل مع الملمس
 ### [قم بتطبيق نمط تبليط الملمس على PostScript (PS) باستخدام Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
 قم بتحسين مستندات PostScript (PS) الخاصة بك باستخدام أنماط تجانب النسيج باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على لمسة إبداعية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: दस्तावेज़ निर्माण
 linktitle: दस्तावेज़ निर्माण
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page के साथ सहजता से आश्चर्यजनक XPS और पोस्टस्क्रिप्ट दस्तावेज़ बनाएं। निर्बाध एकीकरण के लिए दस्तावेज़ निर्माण और संशोधन ट्यूटोरियल देखें।
-type: docs
 weight: 23
 url: /hi/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# दस्तावेज़ निर्माण
+
 ## परिचय
 
 .NET के लिए Aspose.Page इलेक्ट्रॉनिक दस्तावेज़ निर्माण में संभावनाओं की दुनिया का द्वार खोलता है। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, हमारी चरण-दर-चरण मार्गदर्शिका आपको आसानी से एक्सपीएस और पोस्टस्क्रिप्ट दस्तावेज़ तैयार करने में मदद करेगी।
@@ -36,3 +42,9 @@ Aspose.Page के साथ .NET में पोस्टस्क्रिप
 जानें कि Aspose.Page का उपयोग करके .NET में पोस्टस्क्रिप्ट दस्तावेज़ कैसे बनाएं। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें। लाइब्रेरी डाउनलोड करें और पोस्टस्क्रिप्ट फ़ाइलों में आसानी से हेरफेर करना शुरू करें।
 ### [.NET के लिए Aspose.Page के साथ XPS दस्तावेज़ को संशोधित करें](./modify-xps-document/)
 XPS दस्तावेज़ों को सहजता से संशोधित करने के लिए .NET के लिए Aspose.Page की शक्ति का अन्वेषण करें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें, अपने दस्तावेज़ प्रसंस्करण को बढ़ाएं, और वैयक्तिकृत हस्ताक्षर पाठ जोड़ें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

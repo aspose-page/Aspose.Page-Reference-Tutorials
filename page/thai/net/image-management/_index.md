@@ -3,10 +3,16 @@ title: การจัดการภาพ
 linktitle: การจัดการภาพ
 second_title: Aspose.Page .NET API
 description: ปรับปรุงภาพเอกสารของคุณอย่างง่ายดาย! สำรวจบทช่วยสอน Aspose.Page .NET ที่ครอบคลุมการจัดการรูปภาพ ตั้งแต่การเพิ่มรูปภาพไปจนถึงการแปลงรูปแบบ เชี่ยวชาญทุกขั้นตอน
-type: docs
 weight: 28
 url: /th/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการภาพ
+
 ## การแนะนำ
 
 คุณกำลังมองหาการยกระดับรูปลักษณ์ที่สวยงามให้กับเอกสารของคุณโดยใช้ Aspose.Page สำหรับ .NET หรือไม่? ไม่ต้องมองอีกต่อไป! ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณผ่านบทช่วยสอนการจัดการรูปภาพต่างๆ ที่จะช่วยให้คุณปรับปรุงเอกสารของคุณได้อย่างราบรื่น
@@ -45,3 +51,9 @@ url: /th/net/image-management/
 สำรวจการเพิ่มรูปภาพแบบเรียงต่อกันลงในเอกสาร XPS ได้อย่างง่ายดายด้วย Aspose.Page สำหรับ .NET เพิ่มความดึงดูดสายตาและสร้างเอกสารที่น่าทึ่ง
 ### [แปลงรูปภาพเป็นรูปแบบ EPS ด้วย Aspose.Page สำหรับ .NET](./convert-image-to-eps-format/)
 เรียนรู้วิธีแปลงรูปภาพ JPEG เป็นรูปแบบ EPS โดยใช้ Aspose.Page สำหรับ .NET คู่มือที่ครอบคลุมพร้อมคำแนะนำทีละขั้นตอน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

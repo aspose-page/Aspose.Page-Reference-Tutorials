@@ -3,10 +3,16 @@ title: Çapraz Belge Düzenleme
 linktitle: Çapraz Belge Düzenleme
 second_title: Aspose.Page .NET API'si
 description: Eğitimlerimizle Aspose.Page for .NET'in potansiyelini ortaya çıkarın. XPS belgelerinde glif klonları ekleyin, renkleri değiştirin ve sayfaları zahmetsizce değiştirin.
-type: docs
 weight: 22
 url: /tr/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Çapraz Belge Düzenleme
+
 
 ## giriiş
 
@@ -34,3 +40,9 @@ Bu kapsamlı eğitimde Aspose.Page for .NET'in gücünü keşfedin. Zahmetsizce 
 Aspose.Page ile .NET'te belge işlemenin gücünün kilidini açın. Görüntü dolu glifleri zahmetsizce ekleyin. Görselleri geliştirin ve iş akışınızı kolaylaştırın.
 ### [Aspose.Page for .NET ile Sayfaları Yönetin](./manipulate-pages/)
 XPS belgelerini işlemek için güçlü bir kütüphane olan Aspose.Page'i kullanarak .NET'te sayfa manipülasyonunu keşfedin. Etkili sonuçlar için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

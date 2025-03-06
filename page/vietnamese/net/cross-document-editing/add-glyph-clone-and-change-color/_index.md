@@ -3,10 +3,16 @@ title: Thêm bản sao Glyph và thay đổi màu bằng Aspose.Page cho .NET
 linktitle: Thêm bản sao Glyph và thay đổi màu sắc
 second_title: API Aspose.Page .NET
 description: Khám phá sức mạnh của Aspose.Page dành cho .NET trong hướng dẫn toàn diện này. Tìm hiểu cách thêm bản sao glyph và thay đổi màu sắc trong tài liệu XPS một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm bản sao Glyph và thay đổi màu bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách sử dụng Aspose.Page cho .NET để thêm bản sao glyph và thay đổi màu sắc trong tài liệu XPS của bạn. Aspose.Page for .NET là một thư viện mạnh mẽ cho phép bạn làm việc liền mạch với các tệp XPS. Trong hướng dẫn này, chúng tôi sẽ tập trung vào quá trình thêm bản sao glyph và thay đổi màu sắc của chúng, nâng cao sức hấp dẫn trực quan cho tài liệu của bạn.
@@ -129,3 +135,9 @@ Câu trả lời 4: Phiên bản dùng thử miễn phí có một số hạn ch
 ### Câu hỏi 5: Tôi có thể tìm tài liệu toàn diện về Aspose.Page cho .NET ở đâu?
 
  A5: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/page/net/) để biết thông tin chi tiết và ví dụ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

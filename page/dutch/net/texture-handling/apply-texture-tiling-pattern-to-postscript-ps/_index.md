@@ -3,10 +3,16 @@ title: Pas het Texture Tile-patroon toe op PostScript (PS) met Aspose.Page
 linktitle: Textuurtegelspatroon toepassen op PostScript (PS)
 second_title: Aspose.Page .NET-API
 description: Verbeter uw PostScript (PS)-documenten met textuurtegels met behulp van Aspose.Page voor .NET. Volg onze stap-voor-stap handleiding voor een creatief tintje.
-type: docs
 weight: 10
 url: /nl/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas het Texture Tile-patroon toe op PostScript (PS) met Aspose.Page
+
 ## Invoering
 
 Welkom bij deze stapsgewijze zelfstudie over het toepassen van een textuurpatroon op een PostScript (PS)-document met behulp van Aspose.Page voor .NET. Aspose.Page is een krachtige bibliotheek waarmee u met verschillende documentformaten kunt werken. In deze zelfstudie onderzoeken we hoe u uw PS-documenten kunt verbeteren door textuurtegels toe te voegen.
@@ -156,3 +162,10 @@ A4: Ja, u kunt het proces herhalen met verschillende afbeeldingen en paden.
 ### Vraag 5: Waar kan ik aanvullende bronnen en ondersteuning vinden?
 
  A5: Bezoek de[Aspose.Pagina-forum](https://forum.aspose.com/c/page/39) voor gemeenschapsondersteuning en verken de[documentatie](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

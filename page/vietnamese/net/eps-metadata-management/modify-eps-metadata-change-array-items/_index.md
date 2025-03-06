@@ -3,10 +3,16 @@ title: Thay đổi các mục mảng bằng Aspose.Page cho .NET
 linktitle: Thay đổi các mục mảng
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách thay đổi các mục mảng trong tệp EPS bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác siêu dữ liệu hiệu quả.
-type: docs
 weight: 15
 url: /vi/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi các mục mảng bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách thay đổi các mục mảng bằng Aspose.Page cho .NET! Aspose.Page là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với nhiều định dạng tài liệu khác nhau, bao gồm cả tệp EPS. Trong hướng dẫn này, chúng tôi sẽ tập trung vào thao tác siêu dữ liệu XMP trong các tệp EPS, cụ thể là thay đổi các mục mảng.
@@ -99,3 +105,9 @@ Câu trả lời 1: Aspose.Page chủ yếu xử lý các tệp EPS, nhưng Aspo
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ hoặc kết nối với cộng đồng ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

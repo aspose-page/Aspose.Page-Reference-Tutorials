@@ -3,10 +3,16 @@ title: Effets de transparence
 linktitle: Effets de transparence
 second_title: API Aspose.Page .NET
 description: Découvrez la magie des effets de transparence dans vos documents avec Aspose.Page .NET. Améliorez votre conception avec des didacticiels étape par étape pour des améliorations visuelles époustouflantes.
-type: docs
 weight: 34
 url: /fr/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effets de transparence
+
 
 ## Introduction
 
@@ -42,3 +48,9 @@ Découvrez comment ajouter des objets transparents aux documents XPS dans .NET �
 Apprenez à définir des masques d'opacité dans les documents XPS à l'aide d'Aspose.Page pour .NET. Améliorez l’esthétique des documents sans effort.
 ### [Afficher la pseudo-transparence dans PostScript (PS) avec Aspose.Page](./show-pseudo-transparency-in-postscript-ps/)
 Explorez la puissance de la pseudo-transparence dans PostScript avec Aspose.Page pour .NET. Suivez notre guide étape par étape pour des documents visuellement époustouflants.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

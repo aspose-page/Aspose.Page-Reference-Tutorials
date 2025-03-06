@@ -3,10 +3,16 @@ title: Распечатать управление билетами
 linktitle: Распечатать управление билетами
 second_title: Aspose.Page .NET API
 description: Создавайте и редактируйте собственные билеты печати с помощью Aspose.Page для .NET. Легко адаптируйте свои возможности печати с помощью детального управления документами XPS.
-type: docs
 weight: 30
 url: /ru/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Распечатать управление билетами
+
 
 ## Введение
 
@@ -34,3 +40,9 @@ url: /ru/net/print-ticket-management/
 Изучите пошаговое руководство по созданию пользовательских билетов на печать с помощью Aspose.Page для .NET. Настройте свой процесс печати с помощью детального контроля.
 ### [Отредактируйте существующий билет на печать с помощью Aspose.Page для .NET](./print-ticket-management/aspose.page/)
 Научитесь редактировать заявки на печать в документах XPS с помощью Aspose.Page для .NET. Пошаговое руководство для разработчиков. Улучшите контроль печати документов без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

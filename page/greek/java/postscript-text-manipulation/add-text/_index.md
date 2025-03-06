@@ -3,10 +3,16 @@ title: Aspose.Page Χειρισμός κειμένου Java
 linktitle: Προσθήκη κειμένου σε Java PostScript
 second_title: Aspose.Page Java API
 description: Εξερευνήστε τη δύναμη του Aspose.Page για Java στο σεμινάριο μας σχετικά με την προσθήκη κειμένου σε έγγραφα PostScript. Μάθετε να χρησιμοποιείτε εύκολα το σύστημα και τις προσαρμοσμένες γραμματοσειρές.
-type: docs
 weight: 10
 url: /el/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Χειρισμός κειμένου Java
+
 ## Εισαγωγή
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για την προσθήκη κειμένου σε Java PostScript χρησιμοποιώντας το Aspose.Page για Java. Το Aspose.Page για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται έγγραφα PostScript με ευκολία. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης κειμένου, χρήσης συστήματος και προσαρμοσμένων γραμματοσειρών, περιγραφής κειμένου και ενσωμάτωσης πινελιών για ένα οπτικά ελκυστικό αποτέλεσμα.
 ## Προαπαιτούμενα
@@ -99,3 +105,9 @@ document.save();
 `ExternalFontCache` χρησιμοποιείται για τη λήψη προσαρμοσμένων γραμματοσειρών, διασφαλίζοντας ότι είναι διαθέσιμες για επεξεργασία κειμένου.
 ### Μπορώ να εφαρμόσω διαφορετικές πινελιές στο περιγραφόμενο κείμενο;
  Ναι, μπορείτε να προσαρμόσετε το πλάτος και το χρώμα της διαδρομής χρησιμοποιώντας το`Stroke` τάξη και`Color` τάξη, αντίστοιχα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

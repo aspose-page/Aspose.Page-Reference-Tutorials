@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將水平漸層加入 XPS
 linktitle: 在 XPS 中加入水平漸變
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page for .NET 將令人驚嘆的水平漸層新增至 XPS 文件中。毫不費力地提升視覺吸引力。
-type: docs
 weight: 13
 url: /zh-hant/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將水平漸層加入 XPS
+
 ## 介紹
 
 在本教程中，我們將探索如何使用 Aspose.Page for .NET 新增水平漸層來增強 XPS 文件。 Aspose.Page for .NET 是一個功能強大的程式庫，可在.NET 應用程式中無縫處理 XPS（XML 紙張規格）文件。新增漸層可以為您的文件帶來視覺吸引力，本指南將逐步引導您完成流程。
@@ -113,3 +119,9 @@ A2：您可以從以下位置下載該庫：[Aspose.Page for .NET 下載頁面](
 ### Q5：如何取得 Aspose.Page for .NET 的臨時授權？
 
  A5：您可以從以下地址獲得臨時許可證：[這個連結](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

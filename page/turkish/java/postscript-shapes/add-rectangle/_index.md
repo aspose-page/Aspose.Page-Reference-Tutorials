@@ -3,10 +3,16 @@ title: Java PostScript'i Özelleştirin - Aspose.Page ile Dikdörtgenler Ekleme
 linktitle: Java PostScript'te Dikdörtgen Ekleme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page for Java kullanarak Java PostScript belgelerine canlı dikdörtgenler eklemeye ilişkin adım adım kılavuzu keşfedin. Belge özelleştirmenizi zahmetsizce geliştirin!
-type: docs
 weight: 11
 url: /tr/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript'i Özelleştirin - Aspose.Page ile Dikdörtgenler Ekleme
+
 ## giriiş
 Java PostScript belgelerinizi canlı dikdörtgenlerle geliştirmek mi istiyorsunuz? Başka yerde arama! Bu adım adım kılavuzda, PostScript belgelerinize dikdörtgenler eklemek için Aspose.Page for Java'yı nasıl kullanacağınızı keşfedeceğiz. Aspose.Page, PostScript dosyalarıyla çalışmak için sağlam özellikler sunan güçlü bir kütüphanedir; bu da onu, belgelerini değiştirmek ve özelleştirmek isteyen geliştiriciler için ideal bir seçim haline getirir.
 ## Önkoşullar
@@ -72,3 +78,9 @@ Aspose.Page öncelikle Java'yı destekler ancak diğer diller için de benzer k�
  Geçici lisans alın[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java'nın lisanslı sürümünü nereden satın alabilirim?
  Lisanslı bir sürüm satın alın[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

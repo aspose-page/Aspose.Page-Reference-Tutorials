@@ -3,10 +3,16 @@ title: Ändra storlek på EPS-filer i Java med Aspose.Page
 linktitle: Ändra storlek på EPS-fil i Java
 second_title: Aspose.Page Java API
 description: Lär dig hur du ändrar storlek på EPS-filer i Java utan ansträngning med Aspose.Page för Java. Följ vår omfattande guide för steg-för-steg-instruktioner.
-type: docs
 weight: 11
 url: /sv/java/manipulation-eps/resize/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ändra storlek på EPS-filer i Java med Aspose.Page
+
 ## Introduktion
 Välkommen till vår steg-för-steg-guide om storleksändring av EPS-filer i Java med hjälp av det kraftfulla biblioteket Aspose.Page. Om du någonsin har behövt justera dimensionerna på dina EPS-bilder programmatiskt, är du på rätt plats. I den här handledningen kommer vi att utforska olika storleksändringsalternativ, inklusive punkter, tum, millimeter och procent, vilket ger dig den flexibilitet du behöver för dina specifika krav.
 ## Förutsättningar
@@ -67,3 +73,9 @@ Ja, du kan utforska den kostnadsfria provperioden[här](https://releases.aspose.
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Finns det några exempel på projekt?
  Ja, kontrollera dokumentationen[här](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

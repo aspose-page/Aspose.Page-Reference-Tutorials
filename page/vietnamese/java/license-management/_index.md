@@ -3,10 +3,16 @@ title: Quản lý Giấy phép
 linktitle: Quản lý Giấy phép
 second_title: API Java Aspose.Page
 description: Khai thác toàn bộ tiềm năng của Aspose.Page cho Java bằng Hướng dẫn quản lý giấy phép của chúng tôi. Thiết lập giấy phép theo đồng hồ đo một cách liền mạch để tăng cường khả năng xử lý tài liệu.
-type: docs
 weight: 30
 url: /vi/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý Giấy phép
+
 ## Giới thiệu
 
 Chào mừng bạn đến với Hướng dẫn quản lý giấy phép cho Aspose.Page trong Java! Trong hướng dẫn toàn diện này, chúng tôi sẽ đi sâu vào những điểm phức tạp của việc thiết lập giấy phép có đồng hồ đo để tối ưu hóa khả năng xử lý tài liệu của bạn. Hãy bắt tay vào hành trình khai thác toàn bộ tiềm năng của Aspose.Page, đảm bảo tích hợp liền mạch với Java.
@@ -39,3 +45,9 @@ Hướng dẫn quản lý giấy phép của chúng tôi dành cho Aspose.Page t
 ## Hướng dẫn quản lý giấy phép
 ### [Đặt giấy phép đo lường trong Java](./set-metered-license/)
 Khám phá sự tích hợp liền mạch của Aspose.Page với Java. Thiết lập giấy phép được đo lường một cách dễ dàng và nâng cao khả năng xử lý tài liệu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

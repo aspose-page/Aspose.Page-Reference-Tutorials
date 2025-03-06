@@ -3,10 +3,16 @@ title: 形狀 - XPS
 linktitle: 形狀 - XPS
 second_title: Aspose.Page Java API
 description: 透過 Aspose.Page 教學探索 Java XPS 的魔力！輕鬆添加迷人的橢圓和矩形。透過我們的逐步指南提昇文檔創建水平。
-type: docs
 weight: 35
 url: /zh-hant/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 形狀 - XPS
+
 ## 介紹
 
 您準備好深入研究使用 Java XPS 建立文件的迷人領域了嗎？ Aspose.Page 是您值得信賴的伴侶，可以釋放形狀操作的全部潛力。在本教學系列中，我們將引導您完成添加迷人形狀的複雜過程，確保您的文件輕鬆脫穎而出。
@@ -33,3 +39,9 @@ url: /zh-hant/java/xps-shapes/
 探索使用 Aspose.Page for Java 在 Java XPS 中新增徑向漸層描邊橢圓的分步指南。輕鬆增強您的文件建立。
 ### [在 Java XPS 中新增矩形](./add-rectangle/)
 了解如何使用 Aspose.Page 在 Java XPS 中新增矩形。請按照我們的逐步指南進行無縫文件操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

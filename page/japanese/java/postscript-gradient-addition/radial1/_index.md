@@ -3,10 +3,16 @@ title: Aspose.Page を使用した Java PostScript の放射状グラデーシ�
 linktitle: Java で放射状グラデーションをマスターする
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用して Java PostScript に見事な放射状グラデーションを追加する方法を学びます。このステップバイステップのガイドを使用して、PostScript ドキュメントを強化します。
-type: docs
 weight: 12
 url: /ja/java/postscript-gradient-addition/radial1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用した Java PostScript の放射状グラデーションをマスターする
+
 ## 導入
 Aspose.Page を使用して Java PostScript に放射状グラデーションを追加する方法に関するステップバイステップ ガイドへようこそ。このチュートリアルでは、美しい放射状のグラデーションを持つ PostScript ドキュメントを作成するプロセスを説明します。 Aspose.Page for Java は、PostScript ファイルをシームレスに操作できる強力なライブラリです。
 ## 前提条件
@@ -86,3 +92,9 @@ document.save();
 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
 ### コミュニティのサポートが必要ですか?
  Aspose.Page コミュニティに参加する[フォーラム](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

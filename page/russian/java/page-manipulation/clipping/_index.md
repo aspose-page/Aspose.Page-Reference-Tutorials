@@ -3,10 +3,16 @@ title: Создавайте визуальные чудеса — обрезка
 linktitle: Вырезка при манипулировании страницами Java
 second_title: API Aspose.Page Java
 description: Изучите искусство обрезки в Java-манипуляции страницами с помощью Aspose.Page. Овладейте точным созданием документов для получения потрясающих визуальных эффектов и контроля.
-type: docs
 weight: 10
 url: /ru/java/page-manipulation/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создавайте визуальные чудеса — обрезка при манипулировании страницами Java
+
 ## Введение
 В области манипулирования страницами Java овладение искусством обрезки имеет важное значение для создания визуально потрясающих и точно созданных документов. Обрезка позволяет контролировать видимость контента, определяя конкретные области, в которых он должен отображаться. В этом уроке мы углубимся в мир обрезки с помощью Aspose.Page для Java, мощной библиотеки для решения задач обработки документов.
 ## Предварительные условия
@@ -76,3 +82,9 @@ document.save();
  Исследовать[документация](https://reference.aspose.com/page/java/) и[Форум Aspose.Page](https://forum.aspose.com/c/page/39) за богатство ресурсов.
 ### Доступна ли бесплатная пробная версия?
  Да, вы можете получить доступ к бесплатной пробной версии Aspose.Page.[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přidejte diagonální přechod do XPS pomocí Aspose.Page pro .NET
 linktitle: Přidejte diagonální přechod do XPS
 second_title: Aspose.Page .NET API
 description: Naučte se, jak přidat podmanivé diagonální přechody do dokumentů XPS pomocí Aspose.Page for .NET. Zvyšte své vizuální prezentace bez námahy.
-type: docs
 weight: 11
 url: /cs/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte diagonální přechod do XPS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 V oblasti zpracování dokumentů vyniká Aspose.Page for .NET jako výkonná sada nástrojů, která umožňuje vývojářům snadno manipulovat s dokumenty XPS. Jednou vzrušující funkcí, kterou nabízí, je možnost přidat diagonální přechody, což vám umožní zlepšit vizuální přitažlivost vašich dokumentů. Tento tutoriál vás provede procesem krok za krokem a ukáže, jak začlenit diagonální přechody do souborů XPS pomocí Aspose.Page for .NET.
@@ -106,3 +112,9 @@ A3: Aspose.Page se primárně zaměřuje na manipulaci s dokumenty XPS.
 ### Q5: Je před zakoupením k dispozici zkušební verze?
 
  A5: Ano, můžete prozkoumat[zkušební verze zdarma](https://releases.aspose.com/) zažít Aspose.Page for .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

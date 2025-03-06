@@ -3,10 +3,16 @@ title: Thêm gradient chéo trong Java XPS
 linktitle: Thêm gradient chéo trong Java XPS
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thêm dải màu chéo tuyệt đẹp vào tài liệu XPS của bạn trong Java bằng Aspose.Page. Nâng cao trình bày trực quan của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm gradient chéo trong Java XPS
+
 ## Giới thiệu
 Trong thế giới phát triển Java ngày càng phát triển, việc nâng cao sức hấp dẫn trực quan của các tài liệu XPS của bạn là rất quan trọng. Một cách hiệu quả để đạt được điều này là kết hợp các gradient theo đường chéo. Hướng dẫn này sẽ hướng dẫn bạn trong suốt quá trình sử dụng Aspose.Page cho Java, cung cấp hướng dẫn từng bước và đoạn mã.
 ## Điều kiện tiên quyết
@@ -75,3 +81,9 @@ Aspose.Page được thiết kế để tích hợp liền mạch với nhiều 
  Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để hòa nhập với cộng đồng và tìm kiếm sự giúp đỡ.
 ### Hỏi: Có quy định nào về giấy phép tạm thời không?
  Có, bạn có thể nhận được một[giấy phép tạm thời ở đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

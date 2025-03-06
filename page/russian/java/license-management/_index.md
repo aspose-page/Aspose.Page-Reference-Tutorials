@@ -3,10 +3,16 @@ title: Управление лицензиями
 linktitle: Управление лицензиями
 second_title: API Aspose.Page Java
 description: Раскройте весь потенциал Aspose.Page для Java с помощью наших руководств по управлению лицензиями. Легко настройте лимитные лицензии, чтобы расширить возможности обработки документов.
-type: docs
 weight: 30
 url: /ru/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление лицензиями
+
 ## Введение
 
 Добро пожаловать в учебные пособия по управлению лицензиями для Aspose.Page на Java! В этом подробном руководстве мы углубимся в тонкости настройки лимитных лицензий для оптимизации ваших возможностей обработки документов. Давайте отправимся в путешествие, которое раскроет весь потенциал Aspose.Page, обеспечив плавную интеграцию с Java.
@@ -39,3 +45,9 @@ url: /ru/java/license-management/
 ## Учебные пособия по управлению лицензиями
 ### [Установить лимитную лицензию в Java](./set-metered-license/)
 Узнайте об бесшовной интеграции Aspose.Page с Java. Легко настройте лимитные лицензии и расширьте возможности обработки документов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

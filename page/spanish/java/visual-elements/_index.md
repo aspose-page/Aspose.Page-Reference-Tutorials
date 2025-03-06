@@ -3,10 +3,16 @@ title: Elementos visuales Java
 linktitle: Elementos visuales Java
 second_title: API de Java de Aspose.Page
 description: ¡Mejore los elementos visuales de sus documentos Java sin esfuerzo con Aspose.Page! Aprenda a mejorar su aplicación agregando cuadrículas usando Visual Brush en este tutorial paso a paso.
-type: docs
 weight: 41
 url: /es/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Elementos visuales Java
+
 ## Introducción
 
 Desarrolladores de Java, ¡regocíjense! Sumérgete en el ámbito de los elementos visuales con los tutoriales de Aspose.Page que prometen transformar los elementos visuales de tus documentos Java. En esta edición, nos centramos en el cautivador arte de agregar cuadrículas usando Visual Brush. Abróchese el cinturón mientras nos embarcamos en un viaje para aumentar el atractivo de su aplicación.
@@ -46,3 +52,9 @@ En conclusión, Aspose.Page para Java surge como la solución ideal para los des
 ## Elementos visuales - Tutoriales de Java
 ### [Agregar cuadrícula usando Visual Brush en Java](./add-grid/)
 ¡Mejore los elementos visuales de los documentos Java con Aspose.Page! Aprenda a agregar cuadrículas usando Visual Brush paso a paso. Aumente el atractivo de su aplicación sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

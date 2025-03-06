@@ -3,10 +3,16 @@ title: EPS Görüntülerini Aspose.Page for .NET ile yeniden boyutlandırın
 linktitle: EPS Görüntülerini Yeniden Boyutlandır
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page'i kullanarak .NET'te EPS görüntülerini yeniden boyutlandırmanın kusursuz sürecini keşfedin. Zahmetsizce nokta, inç, milimetre ve yüzde hassasiyetine ulaşın.
-type: docs
 weight: 11
 url: /tr/net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPS Görüntülerini Aspose.Page for .NET ile yeniden boyutlandırın
+
 ## giriiş
 
 Aspose.Page for .NET'i kullanarak EPS görüntülerini sorunsuz bir şekilde yeniden boyutlandırmak mı istiyorsunuz? Bu eğitim, EPS görüntülerinin boyutunu nokta, inç, milimetre ve yüzde gibi çeşitli birimlerle zahmetsizce değiştirmek için kapsamlı kılavuzunuzdur. Aspose.Page for .NET güçlü bir araç seti sunar ve bu eğitimde size süreci adım adım anlatacağız.
@@ -161,3 +167,9 @@ Cevap2: Aspose.Page öncelikli olarak PostScript ve EPS formatlarına odaklanır
 ### S5: Nereden ek yardım alabilirim veya sorunları tartışabilirim?
 
  A5: ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) toplulukla bağlantı kurmak ve yardım almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

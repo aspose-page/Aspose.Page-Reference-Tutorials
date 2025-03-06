@@ -3,10 +3,16 @@ title: Adicionar objeto transparente ao documento XPS com Aspose.Page
 linktitle: Adicionar objeto transparente ao documento XPS
 second_title: API Aspose.Page .NET
 description: Aprenda como adicionar objetos transparentes a documentos XPS em .NET usando Aspose.Page. Melhore o apelo visual com orientação passo a passo.
-type: docs
 weight: 11
 url: /pt/net/transparency-effects/add-transparent-object-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar objeto transparente ao documento XPS com Aspose.Page
+
 ## Introdução
 
 Neste tutorial, exploraremos como adicionar objetos transparentes a um documento XPS usando Aspose.Page for .NET. A transparência em documentos XPS pode melhorar o apelo visual e transmitir informações de forma eficaz. Dividiremos o processo em etapas gerenciáveis, garantindo clareza e facilidade de entendimento.
@@ -132,3 +138,9 @@ A4: Aspose.Page fornece funcionalidade para exportar documentos XPS para vários
 ### P5: Onde posso encontrar suporte adicional e discussões na comunidade?
 
  R5: Para suporte adicional e discussões da comunidade, visite o[Fórum Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

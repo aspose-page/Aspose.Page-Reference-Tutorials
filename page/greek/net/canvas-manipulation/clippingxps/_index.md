@@ -3,10 +3,16 @@ title: Αποκοπή XPS με Aspose.Page για .NET
 linktitle: Αποκοπή XPS
 second_title: Aspose.Page .NET API
 description: Εξερευνήστε τη δύναμη του Aspose.Page για .NET σε αυτόν τον αναλυτικό οδηγό για την αποκοπή εγγράφων XPS. Δημιουργήστε, χειριστείτε και αποθηκεύστε αρχεία XPS χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποκοπή XPS με Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Καλώς ήρθατε σε αυτό το ολοκληρωμένο σεμινάριο σχετικά με το Clipping XPS χρησιμοποιώντας το Aspose.Page για .NET! Σε αυτόν τον οδηγό, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας, χειρισμού και αποθήκευσης εγγράφων XPS χρησιμοποιώντας το Aspose.Page για .NET. Το XPS, ή το XML Paper Specification, είναι μια τυποποιημένη και ανοιχτή μορφή εγγράφου και το Aspose.Page για .NET παρέχει ισχυρά εργαλεία για εργασία με έγγραφα XPS στις εφαρμογές σας .NET.
@@ -156,3 +162,9 @@ A2: Ναι, το Aspose.Page για .NET έχει σχεδιαστεί για ν
 ### Ε5: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Page για .NET;
 
  A5: Ναι, μπορείτε να εξερευνήσετε τη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

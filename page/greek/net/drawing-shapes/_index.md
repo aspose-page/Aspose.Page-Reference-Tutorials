@@ -3,10 +3,16 @@ title: Σχέδια Σχεδίασης
 linktitle: Σχέδια Σχεδίασης
 second_title: Aspose.Page .NET API
 description: Βελτιώστε τη δημιουργία εγγράφων χωρίς κόπο στο .NET! Μάθετε βήμα προς βήμα οδηγούς για την προσθήκη κύκλων, ελλείψεων και ορθογωνίων στο PostScript (PS) χρησιμοποιώντας το Aspose.Page .NET.
-type: docs
 weight: 31
 url: /el/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σχέδια Σχεδίασης
+
 ## Εισαγωγή
 
 Το Aspose.Page για .NET δίνει τη δυνατότητα στους προγραμματιστές να βελτιώσουν τη δημιουργία εγγράφων στο περιβάλλον .NET. Βουτήξτε στα βήμα προς βήμα σεμινάρια μας για να κατακτήσετε την τέχνη της προσθήκης συναρπαστικών σχημάτων σε έγγραφα PostScript (PS) και XPS.
@@ -33,3 +39,9 @@ url: /el/net/drawing-shapes/
 Βελτιώστε τη δημιουργία εγγράφων στο .NET με το Aspose.Page. Μάθετε να προσθέτετε ορθογώνια σε αρχεία PostScript (PS) βήμα προς βήμα.
 ### [Προσθήκη Rectangle στο έγγραφο XPS με το Aspose.Page για .NET](./add-rectangle-to-xps-document/)
 Βελτιώστε τη δημιουργία εγγράφων με το Aspose.Page για .NET. Μάθετε πώς να προσθέτετε ορθογώνια σε έγγραφα XPS σε αυτό το βήμα προς βήμα σεμινάριο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

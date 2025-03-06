@@ -3,10 +3,16 @@ title: 使用 Java 從 XMP 取得元數據
 linktitle: 使用 Java 從 XMP 取得元數據
 second_title: Aspose.Page Java API
 description: 釋放 Aspose.Page for Java 的強大功能，輕鬆擷取 XMP 元資料。透過我們的逐步指南提昇文件分析！
-type: docs
 weight: 18
 url: /zh-hant/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 從 XMP 取得元數據
+
 ## 介紹
 歡迎閱讀我們關於利用 Aspose.Page for Java 從 XMP 檔案中提取元資料的逐步指南。 XMP（可擴展元資料平台）提供了一種在檔案中儲存元資料的標準化方法。本教程重點介紹使用 Java 從 XMP 檢索基本信息，提供對文件詳細信息的見解。
 ## 先決條件
@@ -81,3 +87,9 @@ if (xmp.containsKey("xmpMM:DocumentID"))
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java 是否有其他資源？
 探索完整[文件](https://reference.aspose.com/page/java/)並下載庫[這裡](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Aspose.Page for .NET 的综合教程和示例
 linktitle: Aspose.Page for .NET 教程
-type: docs
 weight: 10
 url: /zh/net/
 description: 通过涵盖创建、操作和增强的教程释放 Aspose.Page for .NET 的潜力。轻松掌握从基础到高级的技术。
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET 的综合教程和示例
+
 ## 介绍
 
 您准备好释放 Aspose.Page for .NET 的全部潜力了吗？别再犹豫了！我们的综合教程涵盖从基本功能到高级技术的各个方面，确保您成为熟练的用户。
@@ -115,3 +120,9 @@ is_root: true
 通过 Aspose.Page 教程提升 .NET 中的文档处理能力。深入视觉画笔领域，掌握制作视觉效果令人惊叹的文档的技术。
 ### [EPS 元数据管理](./eps-metadata-management/)
 使用 Aspose.Page for .NET 提升 EPS 组织。轻松添加元数据以增强可访问性。探索 EPS 元数据管理教程。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

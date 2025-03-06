@@ -3,10 +3,16 @@ title: क्रॉस-दस्तावेज़ संपादन
 linktitle: क्रॉस-दस्तावेज़ संपादन
 second_title: Aspose.Page .NET API
 description: हमारे ट्यूटोरियल के साथ .NET के लिए Aspose.Page की क्षमता को अनलॉक करें। XPS दस्तावेज़ों में ग्लिफ़ क्लोन जोड़ें, रंग बदलें और पृष्ठों में आसानी से हेरफेर करें।
-type: docs
 weight: 22
 url: /hi/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# क्रॉस-दस्तावेज़ संपादन
+
 
 ## परिचय
 
@@ -34,3 +40,9 @@ url: /hi/net/cross-document-editing/
 Aspose.Page के साथ .NET में दस्तावेज़ प्रसंस्करण की शक्ति को अनलॉक करें। छवि-भरे ग्लिफ़ को सहजता से जोड़ें। विज़ुअल्स को बेहतर बनाएं और अपने वर्कफ़्लो को सुव्यवस्थित करें।
 ### [.NET के लिए Aspose.Page के साथ पेजों में हेरफेर करें](./manipulate-pages/)
 XPS दस्तावेज़ों को संभालने के लिए एक शक्तिशाली लाइब्रेरी, Aspose.Page का उपयोग करके .NET में पेज हेरफेर का अन्वेषण करें। कुशल परिणामों के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

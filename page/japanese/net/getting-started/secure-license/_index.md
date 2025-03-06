@@ -3,10 +3,16 @@ title: Aspose.Page for .NET による安全なライセンス
 linktitle: 安全なライセンス
 second_title: Aspose.Page .NET API
 description: ステップバイステップのガイドを使用して、Aspose.Page for .NET ライセンスを簡単に保護します。 .NET アプリケーションでのシームレスなページ操作の可能性を最大限に引き出します。
-type: docs
 weight: 13
 url: /ja/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET による安全なライセンス
+
 ## 導入
 
 Aspose.Page for .NET の可能性を最大限に引き出すには、ライセンスを保護してシームレスな統合と最適なパフォーマンスを確保する必要があります。このステップバイステップ ガイドでは、.NET アプリケーションでページ操作を処理するための強力なツールである Aspose.Page を使用してライセンスを保護するプロセスを説明します。
@@ -90,3 +96,9 @@ A4: はい、一時ライセンスは限られた期間有効であり、短期�
 ### Q5: ライセンスを別のマシンに転送できますか?
 
 A5: はい、必要に応じてライセンスを別のマシンに転送できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การแก้ไขข้ามเอกสาร
 linktitle: การแก้ไขข้ามเอกสาร
 second_title: Aspose.Page .NET API
 description: ปลดล็อกศักยภาพของ Aspose.Page สำหรับ .NET ด้วยบทช่วยสอนของเรา เพิ่มสัญลักษณ์โคลน เปลี่ยนสี และจัดการหน้าต่างๆ ได้อย่างง่ายดายในเอกสาร XPS
-type: docs
 weight: 22
 url: /th/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การแก้ไขข้ามเอกสาร
+
 
 ## การแนะนำ
 
@@ -34,3 +40,9 @@ url: /th/net/cross-document-editing/
 ปลดล็อกพลังของการประมวลผลเอกสารใน .NET ด้วย Aspose.Page เพิ่มร่ายมนตร์ที่เต็มไปด้วยรูปภาพได้อย่างง่ายดาย ปรับปรุงภาพและปรับปรุงขั้นตอนการทำงานของคุณ
 ### [จัดการเพจด้วย Aspose.Page สำหรับ .NET](./manipulate-pages/)
 สำรวจการจัดการหน้าใน .NET โดยใช้ Aspose.Page ซึ่งเป็นไลบรารีที่มีประสิทธิภาพสำหรับการจัดการเอกสาร XPS ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อผลลัพธ์ที่มีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

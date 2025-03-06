@@ -3,10 +3,16 @@ title: Former - XPS
 linktitle: Former - XPS
 second_title: Aspose.Page Java API
 description: Upptäck Java XPS-magi med Aspose.Page tutorials! Lägg enkelt till fängslande ellipser och rektanglar. Lyft skapande av dokument med våra steg-för-steg-guider.
-type: docs
 weight: 35
 url: /sv/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Former - XPS
+
 ## Introduktion
 
 Är du redo att fördjupa dig i det fascinerande dokumentskapandet med Java XPS? Leta inte längre än Aspose.Page, din pålitliga följeslagare för att låsa upp den fulla potentialen av formmanipulation. I den här handledningsserien guidar vi dig genom krångligheterna med att lägga till fängslande former, för att säkerställa att ditt dokument sticker ut utan ansträngning.
@@ -33,3 +39,9 @@ Sammanfattningsvis öppnar Aspose.Page för Java tutorials om former upp en vär
 Utforska steg-för-steg-guiden för att lägga till en ellips med radiell gradient i Java XPS med Aspose.Page för Java. Förbättra ditt dokumentskapande utan ansträngning.
 ### [Lägg till rektangel i Java XPS](./add-rectangle/)
 Lär dig hur du lägger till rektanglar i Java XPS med Aspose.Page. Följ vår steg-för-steg-guide för sömlös dokumenthantering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

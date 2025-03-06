@@ -3,10 +3,16 @@ title: Thêm gradient ngang vào XPS với Aspose.Page for .NET
 linktitle: Thêm độ dốc ngang vào XPS
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách thêm độ dốc ngang tuyệt đẹp vào tài liệu XPS của bạn bằng Aspose.Page cho .NET. Nâng cao sự hấp dẫn trực quan một cách dễ dàng.
-type: docs
 weight: 13
 url: /vi/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm gradient ngang vào XPS với Aspose.Page for .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách nâng cao tài liệu XPS bằng cách thêm dải màu ngang bằng Aspose.Page cho .NET. Aspose.Page for .NET là một thư viện mạnh mẽ cung cấp khả năng xử lý liền mạch các tài liệu XPS (Đặc tả giấy XML) trong các ứng dụng .NET. Việc thêm độ dốc có thể mang lại sự hấp dẫn trực quan cho tài liệu của bạn và hướng dẫn này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -113,3 +119,9 @@ Cải thiện tài liệu XPS của bạn bằng độ dốc không chỉ cải 
 ### Câu hỏi 5: Làm cách nào để có được giấy phép tạm thời cho Aspose.Page cho .NET?
 
  Câu trả lời 5: Bạn có thể xin giấy phép tạm thời từ[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

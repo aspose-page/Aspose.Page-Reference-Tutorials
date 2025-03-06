@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 측정 라이선스 적용
 linktitle: 계량 라이센스 적용
 second_title: Aspose.페이지 .NET API
 description: 계량 라이선스 적용에 대한 단계별 가이드를 통해 .NET용 Aspose.Page의 원활한 통합을 살펴보세요. 문서 처리를 손쉽게 최적화하세요.
-type: docs
 weight: 10
 url: /ko/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 측정 라이선스 적용
+
 ## 소개
 
 계량 라이선스를 적용하여 .NET용 Aspose.Page의 잠재력을 최대한 활용하세요. 이 튜토리얼에서는 이 강력한 .NET 라이브러리를 원활하고 최적화하여 사용할 수 있도록 계량 라이센스를 설정하고 적용하는 과정을 안내합니다.
@@ -112,3 +118,9 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 ### Q5: Aspose.Page for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 방문[임시면허/](https://purchase.aspose.com/temporary-license/) 임시면허를 취득하기 위해
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

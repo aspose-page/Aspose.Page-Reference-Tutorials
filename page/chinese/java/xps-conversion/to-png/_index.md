@@ -3,10 +3,16 @@ title: 在 Java 中将 XPS 转换为 PNG
 linktitle: 在 Java 中将 XPS 转换为 PNG
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 在 Java 中轻松将 XPS 转换为 PNG。通过这种可靠且对开发人员友好的解决方案简化文档任务。
-type: docs
 weight: 13
 url: /zh/java/xps-conversion/to-png/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中将 XPS 转换为 PNG
+
 ## 介绍
 在软件开发的动态世界中，经常需要将 XPS（XML 纸张规范）文档转换为 PNG（便携式网络图形）图像。为了用 Java 无缝地完成这项任务，Aspose.Page 提供了一个强大的解决方案。在本教程中，我们将逐步介绍使用 Aspose.Page for Java 将 XPS 转换为 PNG 的过程。
 ## 先决条件
@@ -74,3 +80,9 @@ for (int i = 0; i < device.getResult().length; i++) {
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 是否有用于 Aspose.Page 讨论的社区论坛？
 是的，访问社区论坛[这里](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

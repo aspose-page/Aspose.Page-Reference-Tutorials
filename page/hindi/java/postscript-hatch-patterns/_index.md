@@ -3,10 +3,16 @@ title: हैच पैटर्न - पोस्टस्क्रिप्ट
 linktitle: हैच पैटर्न - पोस्टस्क्रिप्ट
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page के साथ जावा पोस्टस्क्रिप्ट दस्तावेज़ों में आकर्षक हैच पैटर्न जोड़ने की कला की खोज करें। शानदार आउटपुट के लिए दृश्य सामग्री को सहजता से उन्नत करें।
-type: docs
 weight: 27
 url: /hi/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# हैच पैटर्न - पोस्टस्क्रिप्ट
+
 ## परिचय
 
 Aspose.Page के साथ दिखने में आकर्षक जावा पोस्टस्क्रिप्ट दस्तावेज़ बनाना आसान हो गया है। इस ट्यूटोरियल में, हम हैच पैटर्न की आकर्षक दुनिया में उतरते हैं, यह खोजते हैं कि आपकी दृश्य सामग्री को सहजता से कैसे बढ़ाया जाए।
@@ -30,3 +36,9 @@ Aspose.Page के साथ दिखने में आकर्षक जा
 ## हैच पैटर्न - पोस्टस्क्रिप्ट ट्यूटोरियल
 ### [जावा पोस्टस्क्रिप्ट में हैच पैटर्न जोड़ें](./add-hatch-pattern/)
 Aspose.Page का उपयोग करके जावा पोस्टस्क्रिप्ट दस्तावेज़ों में आकर्षक हैच पैटर्न जोड़ने का तरीका जानें। अपनी दृश्य सामग्री को सहजता से उन्नत करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

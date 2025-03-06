@@ -3,10 +3,16 @@ title: Χειρισμός εικόνας - PostScript
 linktitle: Χειρισμός εικόνας - PostScript
 second_title: Aspose.Page Java API
 description: Βελτιώστε τις δεξιότητες χειρισμού εγγράφων με το Aspose.Page για Java. Βουτήξτε στα εκπαιδευτικά μας προγράμματα PostScript, μάθετε να προσθέτετε εικόνες σε Java και αναβαθμίστε τις δυνατότητες του εγγράφου σας.
-type: docs
 weight: 28
 url: /el/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός εικόνας - PostScript
+
 
 ## Εισαγωγή
 
@@ -32,3 +38,9 @@ url: /el/java/postscript-image-manipulation/
 ## Χειρισμός εικόνας - Εκμάθηση PostScript
 ### [Προσθήκη εικόνας στο Java PostScript](./add-image/)
 Εξερευνήστε την απρόσκοπτη ενσωμάτωση του Aspose.Page Java σε αυτό το σεμινάριο για την προσθήκη εικόνων σε έγγραφα PostScript. Αυξήστε τις δυνατότητες χειρισμού εγγράφων σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

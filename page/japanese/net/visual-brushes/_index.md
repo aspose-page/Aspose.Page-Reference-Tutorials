@@ -3,10 +3,16 @@ title: ビジュアルブラシ
 linktitle: ビジュアルブラシ
 second_title: Aspose.Page .NET API
 description: Aspose.Page チュートリアルを使用して、.NET でのドキュメント処理を強化します。ビジュアル ブラシの領域に飛び込み、視覚的に美しいドキュメントを作成するテクニックを習得します。
-type: docs
 weight: 35
 url: /ja/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ビジュアルブラシ
+
 
 ## 導入
 
@@ -36,3 +42,9 @@ Aspose.Page for .NET は単なるツールではありません。それは文�
 ## ビジュアル ブラシのチュートリアル
 ### [Aspose.Page for .NET を使用してグリッド ビジュアル ブラシを適用する](./apply-grid-visual-brush/)
 Aspose.Page を使用して、.NET でのドキュメント処理の動的な世界を探索してください。グリッド ビジュアル ブラシを適用して、視覚的に美しいドキュメントを作成する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

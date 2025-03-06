@@ -3,10 +3,16 @@ title: Thao tác hình ảnh
 linktitle: Thao tác hình ảnh
 second_title: API Aspose.Page .NET
 description: Khám phá sức mạnh của Aspose.Page dành cho .NET thông qua Hướng dẫn thao tác hình ảnh của chúng tôi. Dễ dàng cắt và thay đổi kích thước hình ảnh EPS để có kết quả chính xác và ấn tượng.
-type: docs
 weight: 26
 url: /vi/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác hình ảnh
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng xử lý hình ảnh EPS của mình trong .NET chưa? Đi sâu vào Hướng dẫn thao tác hình ảnh toàn diện của chúng tôi với Aspose.Page dành cho .NET, nơi chúng tôi hướng dẫn bạn quy trình cắt xén và thay đổi kích thước hình ảnh EPS liền mạch.
@@ -41,3 +47,9 @@ Khám phá thế giới Aspose.Page dành cho .NET với Hướng dẫn thao tá
 Khám phá thế giới liền mạch của thao tác hình ảnh EPS trong .NET với Aspose.Page. Cắt và thay đổi kích thước hình ảnh một cách dễ dàng để có kết quả tuyệt đẹp.
 ### [Thay đổi kích thước hình ảnh EPS bằng Aspose.Page cho .NET](./resize-eps-images/)
 Khám phá quy trình thay đổi kích thước hình ảnh EPS trong .NET một cách liền mạch bằng Aspose.Page. Đạt được độ chính xác theo điểm, inch, milimet và tỷ lệ phần trăm một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tambahkan Nilai Bernama dengan Aspose.Page
 linktitle: Tambahkan Nilai Bernama
 second_title: Aspose.Halaman .NET API
 description: Pelajari cara menambahkan nilai bernama ke file EPS di .NET menggunakan Aspose.Page. Tutorial komprehensif ini memandu Anda melalui proses langkah demi langkah.
-type: docs
 weight: 12
 url: /id/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Nilai Bernama dengan Aspose.Page
+
 ## Perkenalan
 
 Di bidang pemrosesan dokumen dengan .NET, Aspose.Page menonjol sebagai alat yang ampuh untuk menangani file EPS. Aspose.Page memberdayakan pengembang untuk memanipulasi metadata XMP, memfasilitasi tugas seperti menambahkan nilai bernama. Tutorial ini akan memandu Anda melalui proses menambahkan nilai bernama ke file EPS menggunakan Aspose.Page secara langkah demi langkah.
@@ -96,3 +102,9 @@ A1: Aspose.Page mendukung berbagai versi file EPS, memastikan kompatibilitas den
 ### Q5: Apa itu lisensi sementara, dan bagaimana cara mendapatkannya?
 
  A5: Jika Anda memerlukan lisensi sementara untuk tujuan pengujian atau evaluasi, Anda dapat memperolehnya[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

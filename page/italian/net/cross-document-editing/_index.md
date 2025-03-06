@@ -3,10 +3,16 @@ title: Modifica di più documenti
 linktitle: Modifica di più documenti
 second_title: API Aspose.Page .NET
 description: Sblocca il potenziale di Aspose.Page per .NET con i nostri tutorial. Aggiungi cloni di glifi, modifica i colori e manipola le pagine senza sforzo nei documenti XPS.
-type: docs
 weight: 22
 url: /it/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica di più documenti
+
 
 ## introduzione
 
@@ -34,3 +40,9 @@ Esplora la potenza di Aspose.Page per .NET in questo tutorial completo. Impara a
 Sblocca la potenza dell'elaborazione dei documenti in .NET con Aspose.Page. Aggiungi glifi pieni di immagini senza sforzo. Migliora le immagini e semplifica il flusso di lavoro.
 ### [Manipolare le pagine con Aspose.Page per .NET](./manipulate-pages/)
 Esplora la manipolazione delle pagine in .NET utilizzando Aspose.Page, una potente libreria per la gestione dei documenti XPS. Segui la nostra guida passo passo per ottenere risultati efficienti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 PostScript 문서를 PDF로 병합
 linktitle: PostScript 문서를 PDF로 병합
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 PostScript 문서를 PDF로 손쉽게 병합하는 방법을 알아보세요. 이 단계별 가이드를 통해 문서 처리 능력을 향상시키세요.
-type: docs
 weight: 10
 url: /ko/net/document-merging/merge-postscript-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 PostScript 문서를 PDF로 병합
+
 ## 소개
 
 문서 처리 영역에서 Aspose.Page for .NET은 PostScript 문서를 조작하기 위한 강력한 도구로 돋보입니다. 여러 PostScript 문서를 하나의 편리한 PDF 파일로 병합해야 하는 경우 올바른 위치에 오셨습니다. 이 튜토리얼은 프로세스를 단계별로 안내하여 .NET용 Aspose.Page의 잠재력을 최대한 활용하도록 보장합니다.
@@ -116,3 +122,9 @@ A2: 옵션 개체에 추가 글꼴 폴더를 지정합니다. 이렇게 하면 �
 ### Q5: Aspose.Page for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

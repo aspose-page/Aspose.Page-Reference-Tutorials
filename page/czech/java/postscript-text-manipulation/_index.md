@@ -3,10 +3,16 @@ title: Manipulace s textem - PostScript
 linktitle: Manipulace s textem - PostScript
 second_title: Aspose.Page Java API
 description: Odemkněte Aspose.Page potenciál jazyka Java pomocí výukových programů PostScript. Přidejte text, včetně řetězců Unicode, bez námahy pro vylepšení vašich projektů.
-type: docs
 weight: 36
 url: /cs/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s textem - PostScript
+
 
 ## Úvod
 
@@ -30,3 +36,9 @@ Ať už chcete vylepšit své dovednosti v manipulaci s textem nebo se pustit do
 Prozkoumejte sílu Aspose.Page for Java v našem tutoriálu o přidávání textu do PostScriptových dokumentů. Naučte se snadno používat systémová a vlastní písma.
 ### [Přidejte text pomocí řetězce Unicode v jazyce Java PostScript](./add-text-unicode/)
 Prozkoumejte sílu Aspose.Page for Java při přidávání textu Unicode do vašich PostScriptových projektů. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

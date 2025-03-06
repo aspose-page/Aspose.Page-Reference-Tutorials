@@ -3,10 +3,16 @@ title: Thêm hình ảnh đầy Glyph & hình ảnh nước ngoài với Aspose.
 linktitle: Thêm hình ảnh đầy Glyph & hình ảnh nước ngoài
 second_title: API Aspose.Page .NET
 description: Khai phá sức mạnh xử lý tài liệu trong .NET với Aspose.Page. Thêm glyph chứa đầy hình ảnh một cách dễ dàng. Nâng cao hình ảnh và hợp lý hóa quy trình làm việc của bạn.
-type: docs
 weight: 11
 url: /vi/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình ảnh đầy Glyph & hình ảnh nước ngoài với Aspose.Page .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET, Aspose.Page nổi bật như một bộ công cụ mạnh mẽ để xử lý các tác vụ xử lý tài liệu. Hướng dẫn này sẽ hướng dẫn bạn quy trình thêm các ký tự chứa đầy hình ảnh và kết hợp các hình ảnh nước ngoài bằng Aspose.Page cho .NET. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách nâng cao khả năng xử lý tài liệu của mình.
@@ -131,3 +137,9 @@ Câu trả lời 4: Có, bạn có thể tùy chỉnh các kiểu cho từng hì
 ### Câu hỏi 5: Lợi ích của việc sử dụng Aspose.Page so với các công cụ xử lý tài liệu khác là gì?
 
 Câu trả lời 5: Aspose.Page cung cấp một bộ tính năng toàn diện, hiệu suất tuyệt vời và tài liệu phong phú, khiến nó trở thành lựa chọn ưa thích của nhiều nhà phát triển.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

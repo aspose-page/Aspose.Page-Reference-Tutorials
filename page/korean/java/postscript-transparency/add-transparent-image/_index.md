@@ -3,10 +3,16 @@ title: Java PostScript에 투명 이미지 추가
 linktitle: Java PostScript에 투명 이미지 추가
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 Java PostScript 문서에서 투명 이미지의 원활한 통합을 살펴보세요. 손쉽게 문서 시각화를 향상시키세요.
-type: docs
 weight: 10
 url: /ko/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript에 투명 이미지 추가
+
 ## 소개
 Java PostScript의 세계에서 문서의 시각적 매력을 향상하려면 투명한 이미지를 추가해야 하는 경우가 많습니다. 이 튜토리얼은 강력한 Aspose.Page for Java 라이브러리를 사용하여 투명 이미지를 Java PostScript 문서에 통합하는 과정을 안내합니다.
 ## 전제 조건
@@ -83,3 +89,9 @@ document.save();
  네, 방문해 보세요[Java 포럼용 Aspose.Page](https://forum.aspose.com/c/page/39) 커뮤니티 지원 및 토론을 위해.
 ### Java용 Aspose.Page에 대한 설명서는 어디에서 찾을 수 있나요?
  종합적인 내용을 참고하세요[선적 서류 비치](https://reference.aspose.com/page/java/) Aspose.Page for Java에 대한 자세한 내용은
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

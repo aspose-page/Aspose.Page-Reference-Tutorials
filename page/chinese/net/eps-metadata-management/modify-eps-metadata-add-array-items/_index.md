@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 添加数组项
 linktitle: 添加数组项
 second_title: Aspose.Page .NET API
 description: 探索如何使用 Aspose.Page for .NET 在 EPS 文件中添加数组项。请按照我们的分步指南进行无缝文档操作。
-type: docs
 weight: 11
 url: /zh/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 添加数组项
+
 ## 介绍
 
 在 .NET 文档操作和处理领域，Aspose.Page 是一个脱颖而出的强大工具。在其众多功能中，处理 EPS 文件中的数组项是一项常见要求。在本教程中，我们将探索在 .NET 环境中使用 Aspose.Page 添加数组项的分步过程。无论您是经验丰富的开发人员还是新手，本指南都将清晰准确地引导您完成整个过程。
@@ -119,3 +125,9 @@ A4：如需社区讨论和支持，请访问[Aspose.Page 论坛](https://forum.a
 ### Q5：Aspose.Page for .NET 的最新版本是什么？
 
  A5：要访问最新版本的 Aspose.Page for .NET，请参阅[文档](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

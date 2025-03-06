@@ -3,10 +3,16 @@ title: Wijzig de benoemde waarde met Aspose.Page voor .NET
 linktitle: Wijzig de benoemde waarde
 second_title: Aspose.Page .NET-API
 description: Leer hoe u benoemde waarden in EPS-bestanden kunt wijzigen met Aspose.Page voor .NET. Pas XMP-metadata moeiteloos aan voor documentverwerking op maat.
-type: docs
 weight: 16
 url: /nl/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wijzig de benoemde waarde met Aspose.Page voor .NET
+
 ## Invoering
 
 In de wereld van documentverwerking onderscheidt Aspose.Page voor .NET zich als een krachtig hulpmiddel voor het manipuleren van EPS-bestanden. Een van de belangrijkste functionaliteiten die het biedt, is de mogelijkheid om benoemde waarden binnen XMP-metagegevens te wijzigen. Deze tutorial leidt u door het proces van het wijzigen van een benoemde waarde met Aspose.Page voor .NET, waardoor u uw EPS-bestanden kunt aanpassen aan uw specifieke behoeften.
@@ -100,3 +106,9 @@ A1: Ja, Aspose.Page ondersteunt verschillende documentformaten, waaronder EPS, X
 ### V5: Welke ondersteuningsopties zijn beschikbaar voor Aspose.Page voor .NET-gebruikers?
 
  A5: Bezoek het communityforum[hier](https://forum.aspose.com/c/page/39) voor ondersteuning en discussies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

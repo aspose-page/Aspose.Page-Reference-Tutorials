@@ -3,10 +3,16 @@ title: Java kullanarak XMP'deki Dizi Öğelerini Değiştirme
 linktitle: Java kullanarak XMP'deki Dizi Öğelerini Değiştirme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page for Java'yı kullanarak XMP'deki dizi öğelerini nasıl değiştireceğinizi öğrenin. Adım adım kılavuzumuzla meta verileri zahmetsizce değiştirin. EPS belgelerinizi şimdi geliştirin!
-type: docs
 weight: 15
 url: /tr/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak XMP'deki Dizi Öğelerini Değiştirme
+
 ## giriiş
 Aspose.Page for Java'yı kullanarak XMP'deki dizi öğelerini değiştirmeye ilişkin kapsamlı kılavuzumuza hoş geldiniz! Aspose.Page, EPS dosyalarındaki XMP meta verileriyle sorunsuz bir şekilde çalışmanıza olanak tanıyan güçlü bir Java kütüphanesidir. Bu eğitimde, XMP meta verileri içindeki dizi öğelerini değiştirme sürecinde size yol göstererek EPS belgelerinizi geliştirmenize ve özelleştirmenize yardımcı olacağız.
 ## Önkoşullar
@@ -77,3 +83,9 @@ Aspose.Page öncelikle Java için tasarlanmıştır ancak Aspose diğer diller i
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java'nın tam sürümünü nereden satın alabilirim?
  Tam sürümünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

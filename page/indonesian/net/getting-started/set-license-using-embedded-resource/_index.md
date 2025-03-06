@@ -3,10 +3,16 @@ title: Tetapkan Lisensi Menggunakan Sumber Daya Tertanam dengan Aspose.Page untu
 linktitle: Tetapkan Lisensi Menggunakan Sumber Daya Tertanam
 second_title: Aspose.Halaman .NET API
 description: Pelajari cara mengatur lisensi menggunakan sumber daya tertanam dengan Aspose.Page untuk .NET. Pastikan kepatuhan dan buka potensi penuh pemrosesan dokumen.
-type: docs
 weight: 14
 url: /id/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tetapkan Lisensi Menggunakan Sumber Daya Tertanam dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Aspose.Page for .NET adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan berbagai format dokumen secara lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses pengaturan lisensi menggunakan sumber daya tertanam dengan Aspose.Page untuk .NET. Pemberian lisensi adalah langkah penting dalam memanfaatkan fungsionalitas Aspose.Page secara maksimal, memastikan kepatuhan dan membuka potensi perpustakaan.
@@ -110,3 +116,9 @@ A1: Meskipun Anda dapat menggunakan Aspose.Page tanpa lisensi, disarankan untuk 
 ### Q5: Di mana saya dapat membeli Aspose.Page untuk .NET?
 
  A5: Anda dapat membeli Aspose.Page[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

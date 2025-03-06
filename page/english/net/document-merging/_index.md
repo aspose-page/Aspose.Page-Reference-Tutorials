@@ -3,10 +3,16 @@ title: Document Merging
 linktitle: Document Merging
 second_title: Aspose.Page .NET API
 description: Effortlessly merge PostScript and XPS documents into high-quality PDFs using Aspose.Page for .NET. Enhance your document processing with our step-by-step tutorials.
-type: docs
 weight: 25
 url: /net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Document Merging
+
 ## Introduction
 
 Merge your way to seamless document management with Aspose.Page for .NET. Discover the power of document merging with our comprehensive tutorials.
@@ -40,3 +46,9 @@ Learn how to effortlessly merge PostScript documents into PDF using Aspose.Page 
 Effortlessly merge XPS documents into high-quality PDFs using Aspose.Page for .NET. Follow our step-by-step guide for a smooth document conversion experience.
 ### [Merge XPS Documents with Aspose.Page for .NET](./merge-xps-documents/)
 Effortlessly merge XPS documents using Aspose.Page for .NET. Follow our step-by-step guide for seamless document management.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

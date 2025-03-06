@@ -3,10 +3,16 @@ title: Přidat stránku do dokumentu XPS pomocí Aspose.Page pro .NET
 linktitle: Přidat stránku do dokumentu XPS
 second_title: Aspose.Page .NET API
 description: Vylepšete své aplikace .NET tím, že se naučíte přidávat stránky do dokumentů XPS pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 11
 url: /cs/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidat stránku do dokumentu XPS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Pokud pracujete s dokumenty XPS v .NET a potřebujete přidávat stránky programově, Aspose.Page for .NET je vaším řešením. V tomto tutoriálu vás krok za krokem provedeme procesem přidávání stránek do dokumentu XPS. Jako zkušený autor SEO se postarám o to, aby tato příručka byla nejen informativní, ale byla také vytvořena s ohledem na optimalizaci pro vyhledávače, takže je cenným zdrojem pro vývojáře i tvůrce obsahu.
@@ -86,3 +92,10 @@ A4: Ano, máte přístup k bezplatné zkušební verzi Aspose.Page pro .NET[tady
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.Page for .NET?
 
  A5: Navštivte[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci pro testovací účely.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

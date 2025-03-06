@@ -3,10 +3,16 @@ title: โหลดใบอนุญาตจาก Stream Object ด้วย 
 linktitle: โหลดใบอนุญาตจากวัตถุสตรีม
 second_title: Aspose.Page .NET API
 description: ปลดล็อกการจัดการเอกสารใน .NET ด้วย Aspose.Page ปฏิบัติตามคำแนะนำของเราเพื่อโหลดใบอนุญาตจากออบเจ็กต์สตรีมได้อย่างราบรื่น
-type: docs
 weight: 12
 url: /th/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# โหลดใบอนุญาตจาก Stream Object ด้วย Aspose.Page สำหรับ .NET
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับทักษะการพัฒนา .NET ของคุณไปอีกระดับแล้วหรือยัง? หากคุณเคยรู้สึกว่าจำเป็นต้องทำงานกับเอกสาร โดยเฉพาะอย่างยิ่งในบริบทของการจัดการเพจ Aspose.Page สำหรับ .NET คือเพื่อนที่สมบูรณ์แบบของคุณ ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดกระบวนการโหลดใบอนุญาตจากออบเจ็กต์สตรีม ซึ่งเป็นขั้นตอนพื้นฐานในการควบคุมความสามารถของ Aspose.Page สำหรับ .NET
@@ -111,3 +117,9 @@ Console.WriteLine("License set successfully.");
 ### คำถามที่ 5: ฉันสามารถอัปเกรดเป็นแผนใบอนุญาตอื่นได้หรือไม่
 
  A5: สำรวจตัวเลือกใบอนุญาตต่างๆ และอัปเกรด[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

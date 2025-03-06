@@ -3,10 +3,16 @@ title: Hình dạng - XPS
 linktitle: Hình dạng - XPS
 second_title: API Java Aspose.Page
 description: Khám phá phép thuật Java XPS với hướng dẫn Aspose.Page! Dễ dàng thêm các hình elip và hình chữ nhật quyến rũ. Nâng cao khả năng tạo tài liệu bằng hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 35
 url: /vi/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hình dạng - XPS
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng đi sâu vào lĩnh vực tạo tài liệu hấp dẫn bằng Java XPS chưa? Không cần tìm đâu xa ngoài Aspose.Page, người bạn đồng hành đáng tin cậy của bạn để mở khóa toàn bộ tiềm năng của thao tác hình dạng. Trong loạt bài hướng dẫn này, chúng tôi sẽ hướng dẫn bạn những điểm phức tạp của việc thêm các hình dạng quyến rũ, đảm bảo tài liệu của bạn nổi bật một cách dễ dàng.
@@ -33,3 +39,9 @@ Tóm lại, các hướng dẫn Aspose.Page dành cho Java về hình dạng m�
 Khám phá hướng dẫn từng bước về cách thêm hình elip có nét chuyển động hướng tâm trong Java XPS bằng cách sử dụng Aspose.Page cho Java. Tăng cường việc tạo tài liệu của bạn một cách dễ dàng.
 ### [Thêm hình chữ nhật trong Java XPS](./add-rectangle/)
 Tìm hiểu cách thêm hình chữ nhật trong Java XPS bằng Aspose.Page. Thực hiện theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Edit Existing Print Ticket with Aspose.Page for .NET
 linktitle: Edit Existing Print Ticket
 second_title: Aspose.Page .NET API
 description: Learn to edit print tickets in XPS documents using Aspose.Page for .NET. A step-by-step guide for developers. Enhance document printing control effortlessly.
-type: docs
 weight: 11
 url: /net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edit Existing Print Ticket with Aspose.Page for .NET
+
 ## Introduction
 
 Welcome to this comprehensive guide on editing existing print tickets using Aspose.Page for .NET! Aspose.Page is a powerful library that allows developers to work with XPS documents effortlessly. In this tutorial, we'll walk you through the process of editing print tickets with practical examples, breaking down each step for a seamless learning experience.
@@ -117,3 +123,10 @@ A4: Yes, you can get a free trial [here](https://releases.aspose.com/).
 ### Q5: How can I obtain a temporary license for Aspose.Page for .NET?
 
 A5: Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

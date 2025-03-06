@@ -3,10 +3,16 @@ title: Thêm thuộc tính đơn giản với Aspose.Page cho .NET
 linktitle: Thêm thuộc tính đơn giản
 second_title: API Aspose.Page .NET
 description: Nâng cao tệp EPS với Aspose.Page cho .NET. Dễ dàng thêm các thuộc tính đơn giản cho siêu dữ liệu tài liệu tùy chỉnh.
-type: docs
 weight: 14
 url: /vi/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thuộc tính đơn giản với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực thao tác và nâng cao tài liệu, Aspose.Page cho .NET nổi lên như một công cụ mạnh mẽ, cung cấp cho các nhà phát triển khả năng thêm và sửa đổi siêu dữ liệu XMP trong các tệp EPS một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn quy trình thêm các thuộc tính đơn giản vào tệp EPS bằng Aspose.Page cho .NET.
@@ -120,3 +126,9 @@ Câu trả lời 3: Aspose.Page for .NET hỗ trợ nhiều loại dữ liệu k
 ### Câu hỏi 5: Có bản dùng thử miễn phí dành cho Aspose.Page dành cho .NET không?
 
  Câu trả lời 5: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

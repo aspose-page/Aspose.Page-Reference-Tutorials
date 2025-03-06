@@ -3,10 +3,16 @@ title: Přidejte obdélník do dokumentu XPS pomocí Aspose.Page pro .NET
 linktitle: Přidat obdélník do dokumentu XPS
 second_title: Aspose.Page .NET API
 description: Vylepšete vytváření dokumentů pomocí Aspose.Page pro .NET. V tomto podrobném kurzu se dozvíte, jak přidat obdélníky do dokumentů XPS.
-type: docs
 weight: 13
 url: /cs/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte obdélník do dokumentu XPS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Aspose.Page for .NET je výkonná knihovna, která poskytuje řadu funkcí pro práci s dokumenty XPS (XML Paper Specification) v aplikacích .NET. V tomto tutoriálu se zaměříme na přidání obdélníku do dokumentu XPS pomocí Aspose.Page for .NET. Postupujte podle tohoto podrobného průvodce, abyste zlepšili proces vytváření dokumentů.
@@ -95,3 +101,9 @@ Odpověď 1: Ano, Aspose.Page je navržena tak, aby bezproblémově fungovala se
 ### Q5: Kde mohu vyhledat podporu komunity nebo klást otázky týkající se Aspose.Page for .NET?
 
  A5: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) za podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

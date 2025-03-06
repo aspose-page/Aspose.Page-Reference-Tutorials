@@ -3,10 +3,16 @@ title: 形状 - PostScript
 linktitle: 形状 - PostScript
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page Java 轻松制作迷人的 PostScript 文档。深入研究有关添加椭圆和矩形、创建具有视觉吸引力的内容的教程。
-type: docs
 weight: 34
 url: /zh/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 形状 - PostScript
+
 
 ## 介绍
 
@@ -65,3 +71,9 @@ url: /zh/java/postscript-shapes/
 掌握使用 Aspose.Page 在 Java 中创建令人惊叹的 PostScript 文档。学习逐步添加省略号以获得视觉上吸引人的内容。
 ### [在 Java PostScript 中添加矩形](./add-rectangle/)
 探索使用 Aspose.Page for Java 将鲜艳的矩形添加到 Java PostScript 文档的分步指南。轻松增强您的文档定制！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

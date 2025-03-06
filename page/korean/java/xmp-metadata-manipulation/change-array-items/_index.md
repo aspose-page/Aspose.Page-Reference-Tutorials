@@ -3,10 +3,16 @@ title: Java를 사용하여 XMP에서 배열 항목 변경
 linktitle: Java를 사용하여 XMP에서 배열 항목 변경
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 XMP에서 배열 항목을 변경하는 방법을 알아보세요. 단계별 가이드를 통해 손쉽게 메타데이터를 수정하세요. 지금 EPS 문서를 강화하세요!
-type: docs
 weight: 15
 url: /ko/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 XMP에서 배열 항목 변경
+
 ## 소개
 Java용 Aspose.Page를 사용하여 XMP에서 배열 항목을 변경하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다! Aspose.Page는 EPS 파일의 XMP 메타데이터를 원활하게 사용할 수 있는 강력한 Java 라이브러리입니다. 이 튜토리얼에서는 XMP 메타데이터 내의 배열 항목을 수정하는 과정을 안내하여 EPS 문서를 향상하고 사용자 정의하는 데 도움을 드립니다.
 ## 전제 조건
@@ -77,3 +83,9 @@ Aspose.Page는 주로 Java용으로 설계되었지만 Aspose는 다른 언어�
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Page 정식 버전은 어디서 구입할 수 있나요?
  정식 버전을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

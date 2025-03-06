@@ -3,10 +3,16 @@ title: Gestión de tickets de impresión
 linktitle: Gestión de tickets de impresión
 second_title: Aspose.Página .NET API
 description: Cree y edite tickets de impresión personalizados con Aspose.Page para .NET. Adapte su experiencia de impresión con un control detallado en documentos XPS sin esfuerzo.
-type: docs
 weight: 30
 url: /es/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestión de tickets de impresión
+
 
 ## Introducción
 
@@ -34,3 +40,9 @@ En conclusión, esta serie de tutoriales es una lectura obligada para los desarr
 Explore la guía paso a paso sobre cómo crear tickets de impresión personalizados utilizando Aspose.Page para .NET. Adapte su experiencia de impresión con un control detallado.
 ### [Editar ticket de impresión existente con Aspose.Page para .NET](./print-ticket-management/aspose.page/)
 Aprenda a editar tickets de impresión en documentos XPS usando Aspose.Page para .NET. Una guía paso a paso para desarrolladores. Mejore el control de la impresión de documentos sin esfuerzo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

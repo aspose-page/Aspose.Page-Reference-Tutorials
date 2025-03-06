@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 应用网格视觉画笔
 linktitle: 应用网格视觉画笔
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page 探索 .NET 中文档处理的动态世界。了解如何应用网格视觉画笔来制作视觉上令人惊叹的文档。
-type: docs
 weight: 10
 url: /zh/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 应用网格视觉画笔
+
 ## 介绍
 
 在.NET 开发领域，Aspose.Page 作为处理文档处理任务的强大工具脱颖而出。它提供的一项令人着迷的功能是能够应用网格视觉画笔，为您的文档带来新的维度。本教程将指导您使用 Aspose.Page for .NET 逐步完成洋红色网格视觉画笔的实现过程。
@@ -143,3 +149,9 @@ A1：是的，Aspose.Page for .NET 用途广泛，可用于各种应用程序类
 ### 问题 5：Aspose.Page for .NET 还有哪些其他文档可用？
 
  A5：探索全面的文档[这里](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Upravte dokument XPS pomocí Aspose.Page pro .NET
 linktitle: Upravit dokument XPS
 second_title: Aspose.Page .NET API
 description: Prozkoumejte sílu Aspose.Page for .NET pro snadné úpravy dokumentů XPS. Postupujte podle našeho podrobného průvodce, vylepšete zpracování dokumentů a přidejte personalizované texty podpisů.
-type: docs
 weight: 12
 url: /cs/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upravte dokument XPS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Vítejte v našem podrobném průvodci, jak upravit dokumenty XPS pomocí Aspose.Page for .NET. Aspose.Page je výkonná knihovna, která umožňuje vývojářům bez námahy pracovat se soubory XPS. V tomto tutoriálu vás provedeme procesem přidávání textu podpisu „Potvrzeno“ na určené stránky v dokumentu XPS.
@@ -119,3 +125,9 @@ A3: Aspose.Page je navržen tak, aby zpracovával dokumenty různých velikostí
 ### Q5: Kde mohu vyhledat pomoc nebo se spojit s komunitou Aspose?
 
  A5: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) klást otázky a zapojit se do komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Modifier la valeur nommée dans XMP à l'aide de Java
 linktitle: Modifier la valeur nommée dans XMP à l'aide de Java
 second_title: API Java Aspose.Page
 description: Découvrez Aspose.Page pour Java - Modifiez sans effort les métadonnées XMP dans les fichiers EPS grâce à notre guide étape par étape pour un traitement rationalisé des documents.
-type: docs
 weight: 16
 url: /fr/java/xmp-metadata-manipulation/change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier la valeur nommée dans XMP à l'aide de Java
+
 Dans le domaine de la manipulation de documents, Aspose.Page pour Java se distingue comme un outil puissant, permettant aux développeurs de travailler de manière transparente avec les métadonnées XMP dans les fichiers EPS. Ce guide étape par étape vous guidera tout au long du processus de modification d'une valeur nommée dans XMP à l'aide d'Aspose.Page pour Java. Avant d’entrer dans les détails, préparons le terrain avec une introduction.
 ## Introduction
 Aspose.Page pour Java est une bibliothèque Java robuste qui facilite la manipulation et le traitement des fichiers EPS. Lorsqu'il s'agit de gérer les métadonnées XMP dans ces fichiers, Aspose.Page offre aux développeurs un ensemble complet de fonctionnalités. Dans ce didacticiel, nous nous concentrerons sur la modification d'une valeur nommée dans XMP, offrant un guide clair et concis aux développeurs cherchant à améliorer leurs capacités de traitement de documents.
@@ -82,3 +88,9 @@ Aspose.Page prend principalement en charge Java, mais Aspose fournit des bibliot
  Vous pouvez acquérir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je acheter Aspose.Page pour Java ?
  Pour acheter Aspose.Page pour Java, visitez le[page d'achat](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

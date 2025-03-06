@@ -3,10 +3,16 @@ title: Aspose.Page Java oktatóanyag – Oldalak hozzáadása PostScriptben
 linktitle: Oldalak hozzáadása PostScriptben
 second_title: Aspose.Page Java API
 description: Ismerje meg, hogyan adhat oldalakat Java PostScript dokumentumokhoz az Aspose.Page használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes dokumentumkezeléshez.
-type: docs
 weight: 11
 url: /hu/java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java oktatóanyag – Oldalak hozzáadása PostScriptben
+
 ## Bevezetés
 dokumentumkezelés és -kezelés világában az Aspose.Page for Java hatékony eszköz a PostScript dokumentumok kezelésére. Az oldalak hozzáadása egy PostScript-dokumentumhoz sok alkalmazásban általános követelmény. Ebben az oktatóanyagban az Aspose.Page for Java használatával oldalak hozzáadásának folyamatát fogjuk megvizsgálni, az egyes lépéseket lebontva, hogy a tanulási élmény zökkenőmentes legyen.
 ## Előfeltételek
@@ -71,3 +77,9 @@ Teljesen! Az Aspose.Page lehetővé teszi a tartalom széles skálájának hozz�
 Igen, az Aspose.Page úgy lett kialakítva, hogy hatékonyan és könnyedén kezelje a kis és nagy dokumentumokat.
 ### Hol találhatok további forrásokat és támogatást az Aspose.Page számára?
  Fedezze fel a[Aspose.Page dokumentáció](https://reference.aspose.com/page/java/) , vagy látogassa meg a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

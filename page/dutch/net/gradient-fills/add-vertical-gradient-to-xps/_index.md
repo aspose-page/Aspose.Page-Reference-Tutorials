@@ -3,10 +3,16 @@ title: Voeg een verticaal verloop toe aan XPS met Aspose.Page voor .NET
 linktitle: Voeg verticaal verloop toe aan XPS
 second_title: Aspose.Page .NET-API
 description: Leer hoe u XPS-documenten kunt verbeteren met verticale verlopen met Aspose.Page voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
-type: docs
 weight: 15
 url: /nl/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een verticaal verloop toe aan XPS met Aspose.Page voor .NET
+
 ## Invoering
 
 Welkom bij deze stapsgewijze zelfstudie over hoe u een verticaal verloop aan een XPS-document kunt toevoegen met Aspose.Page voor .NET. Aspose.Page is een krachtige API waarmee u kunt werken met XPS-bestanden (XML Paper Specification) in uw .NET-toepassingen. In deze zelfstudie begeleiden we u bij het maken van een nieuw XPS-document, het toevoegen van een verticaal verloop aan een pad en het opslaan van het resultaat.
@@ -117,3 +123,9 @@ A1: Ja, Aspose.Page is compatibel met Visual Studio 2019. Zorg ervoor dat u de j
 ### Vraag 5: Hoe kan ik ondersteuning krijgen of vragen stellen?
 
  A5: Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) voor gemeenschapssteun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

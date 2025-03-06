@@ -3,10 +3,16 @@ title: Διαφάνεια - XPS
 linktitle: Διαφάνεια - XPS
 second_title: Aspose.Page Java API
 description: Αναβαθμίστε τα έγγραφά σας Java XPS χωρίς κόπο με το Aspose.Page. Μάθετε να προσθέτετε διαφανή αντικείμενα και να ορίζετε μάσκες αδιαφάνειας στα σεμινάρια μας για βελτιωμένα οπτικά εφέ.
-type: docs
 weight: 40
 url: /el/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαφάνεια - XPS
+
 ## Εισαγωγή
 
 Θέλετε να μεταφέρετε τα έγγραφα Java XPS σας στο επόμενο επίπεδο; Βουτήξτε στον κόσμο των εφέ διαφάνειας με το Aspose.Page και ξεκλειδώστε μια σφαίρα οπτικά εντυπωσιακών δυνατοτήτων. Σε αυτόν τον περιεκτικό οδηγό, θα σας καθοδηγήσουμε σε δύο βασικά μαθήματα: προσθήκη διαφανών αντικειμένων και ρύθμιση μάσκας αδιαφάνειας.
@@ -47,3 +53,9 @@ url: /el/java/xps-transparency/
 Βελτιώστε τα έγγραφά σας Java XPS με εκπληκτικά εφέ διαφάνειας χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για την προσθήκη διαφανών αντικειμένων. 
 ### [Ορίστε τη μάσκα αδιαφάνειας σε Java XPS](./set-opacity-mask/)
 Ανακαλύψτε τη δύναμη της ρύθμισης μασκών αδιαφάνειας σε Java XPS με το Aspose.Page. Ακολουθήστε τον οδηγό βήμα προς βήμα για μια οπτικά βελτιωμένη εμπειρία εγγράφων.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

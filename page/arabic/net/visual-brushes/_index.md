@@ -3,10 +3,16 @@ title: فرش بصرية
 linktitle: فرش بصرية
 second_title: Aspose.Page .NET API
 description: ارفع مستوى معالجة المستندات الخاصة بك في .NET باستخدام البرامج التعليمية لـ Aspose.Page. انغمس في عالم الفرش المرئية، وأتقن تقنيات الحصول على مستندات مذهلة بصريًا.
-type: docs
 weight: 35
 url: /ar/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# فرش بصرية
+
 
 ## مقدمة
 
@@ -36,3 +42,9 @@ Aspose.Page for .NET ليس مجرد أداة؛ إنه مفتاح لفتح ال�
 ## دروس الفرش البصرية
 ### [تطبيق فرشاة الشبكة المرئية مع Aspose.Page لـ .NET](./apply-grid-visual-brush/)
 استكشف العالم الديناميكي لمعالجة المستندات في .NET باستخدام Aspose.Page. تعرف على كيفية تطبيق Grid Visual Brush للحصول على مستندات مذهلة بصريًا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

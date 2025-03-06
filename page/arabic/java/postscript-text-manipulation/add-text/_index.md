@@ -3,10 +3,16 @@ title: Aspose.Page معالجة نص جافا
 linktitle: إضافة نص في جافا بوستسكريبت
 second_title: Aspose.Page جافا API
 description: اكتشف قوة Aspose.Page لـ Java في برنامجنا التعليمي حول إضافة نص إلى مستندات PostScript. تعلم كيفية استخدام النظام والخطوط المخصصة بسهولة.
-type: docs
 weight: 10
 url: /ar/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page معالجة نص جافا
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول إضافة نص في Java PostScript باستخدام Aspose.Page لـ Java. Aspose.Page for Java هي مكتبة قوية تتيح للمطورين التعامل مع مستندات PostScript بسهولة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة النص، واستخدام خطوط النظام والخطوط المخصصة، وتحديد النص، ودمج الحدود للحصول على نتيجة جذابة بصريًا.
 ## المتطلبات الأساسية
@@ -99,3 +105,9 @@ document.save();
 `ExternalFontCache` يُستخدم لجلب الخطوط المخصصة، مما يضمن توفرها لمعالجة النص.
 ### هل يمكنني تطبيق حدود مختلفة على النص المحدد؟
  نعم، يمكنك تخصيص عرض ولون الحد باستخدام`Stroke` الطبقة و`Color` الطبقة، على التوالي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

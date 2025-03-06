@@ -3,10 +3,16 @@ title: Dodaj przezroczysty obraz w języku Java PostScript
 linktitle: Dodaj przezroczysty obraz w języku Java PostScript
 second_title: Aspose.Page API Java
 description: Poznaj bezproblemową integrację przezroczystych obrazów w dokumentach Java PostScript za pomocą Aspose.Page dla Java. Ulepsz swoje wizualizacje dokumentów bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj przezroczysty obraz w języku Java PostScript
+
 ## Wstęp
 W świecie Java PostScript zwiększenie atrakcyjności wizualnej dokumentów często wymaga dodania przezroczystych obrazów. Ten samouczek poprowadzi Cię przez proces włączania przezroczystych obrazów do dokumentów Java PostScript przy użyciu potężnej biblioteki Aspose.Page for Java.
 ## Warunki wstępne
@@ -83,3 +89,9 @@ Tak, Aspose.Page for Java można bezproblemowo zintegrować z innymi bibliotekam
  Tak, odwiedź[Aspose.Page dla forum Java](https://forum.aspose.com/c/page/39) za wsparcie społeczności i dyskusje.
 ### Gdzie mogę znaleźć dokumentację Aspose.Page dla Java?
  Zapoznaj się z całością[dokumentacja](https://reference.aspose.com/page/java/) aby uzyskać szczegółowe informacje na temat Aspose.Page dla Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

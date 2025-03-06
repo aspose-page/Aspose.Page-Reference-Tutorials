@@ -3,10 +3,16 @@ title: قم بتغيير القيمة المسماة باستخدام Aspose.Pag
 linktitle: تغيير القيمة المسماة
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية تغيير القيم المسماة في ملفات EPS باستخدام Aspose.Page لـ .NET. قم بتخصيص بيانات تعريف XMP بسهولة لمعالجة المستندات المخصصة.
-type: docs
 weight: 16
 url: /ar/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتغيير القيمة المسماة باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 في عالم معالجة المستندات، يبرز Aspose.Page for .NET كأداة قوية لمعالجة ملفات EPS. إحدى الوظائف الرئيسية التي تقدمها هي القدرة على تغيير القيم المسماة ضمن بيانات تعريف XMP. سيرشدك هذا البرنامج التعليمي خلال عملية تغيير قيمة مسماة باستخدام Aspose.Page لـ .NET، مما يمكّنك من تخصيص ملفات EPS الخاصة بك وفقًا لاحتياجاتك المحددة.
@@ -100,3 +106,9 @@ A1: نعم، يدعم Aspose.Page تنسيقات المستندات المختل
 ### س5: ما هي خيارات الدعم المتاحة لـ Aspose.Page لمستخدمي .NET؟
 
  ج5: قم بزيارة منتدى المجتمع[هنا](https://forum.aspose.com/c/page/39) للدعم والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

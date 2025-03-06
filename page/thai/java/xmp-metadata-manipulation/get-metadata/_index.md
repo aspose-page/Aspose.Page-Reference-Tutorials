@@ -3,10 +3,16 @@ title: รับข้อมูลเมตาจาก XMP โดยใช้ J
 linktitle: รับข้อมูลเมตาจาก XMP โดยใช้ Java
 second_title: Aspose.Page Java API
 description: ปลดล็อกพลังของ Aspose.Page สำหรับ Java เพื่อแยกข้อมูลเมตา XMP ได้อย่างง่ายดาย ยกระดับการวิเคราะห์เอกสารด้วยคำแนะนำทีละขั้นตอนของเรา!
-type: docs
 weight: 18
 url: /th/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# รับข้อมูลเมตาจาก XMP โดยใช้ Java
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนเกี่ยวกับการใช้ Aspose.Page สำหรับ Java เพื่อแยกข้อมูลเมตาจากไฟล์ XMP XMP (Extensible Metadata Platform) มอบวิธีการมาตรฐานในการจัดเก็บข้อมูลเมตาในไฟล์ บทช่วยสอนนี้มุ่งเน้นไปที่การดึงข้อมูลที่จำเป็นจาก XMP โดยใช้ Java โดยนำเสนอข้อมูลเชิงลึกเกี่ยวกับรายละเอียดเอกสาร
 ## ข้อกำหนดเบื้องต้น
@@ -81,3 +87,9 @@ if (xmp.containsKey("xmpMM:DocumentID"))
  คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### มีแหล่งข้อมูลเพิ่มเติมสำหรับ Aspose.Page สำหรับ Java หรือไม่
  สำรวจให้ครบถ้วน[เอกสารประกอบ](https://reference.aspose.com/page/java/) และดาวน์โหลดห้องสมุด[ที่นี่](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

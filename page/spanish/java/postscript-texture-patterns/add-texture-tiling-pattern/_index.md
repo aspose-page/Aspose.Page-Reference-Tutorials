@@ -3,10 +3,16 @@ title: Agregar patrón de mosaico de textura en Java PostScript
 linktitle: Agregar patrón de mosaico de textura en Java PostScript
 second_title: API de Java de Aspose.Page
 description: Agregue sin esfuerzo patrones de mosaico de texturas a documentos PostScript con Aspose.Page para Java. Explore nuestra guía de integración perfecta para conocer posibilidades creativas.
-type: docs
 weight: 10
 url: /es/java/postscript-texture-patterns/add-texture-tiling-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar patrón de mosaico de textura en Java PostScript
+
 ## Introducción
 En el ámbito del desarrollo de Java, la creación de patrones y texturas complejos en documentos PostScript es un requisito común. Aspose.Page para Java demuestra ser una herramienta valiosa para realizar esta tarea sin esfuerzo. En este tutorial, lo guiaremos a través del proceso de agregar un patrón de mosaico de textura en un documento Java PostScript usando Aspose.Page.
 ## Requisitos previos
@@ -103,3 +109,9 @@ document.save();
  Sí, puedes explorar una prueba gratuita.[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener una licencia temporal de Aspose.Page para Java?
  Visita[este enlace](https://purchase.aspose.com/temporary-license/) para obtener una licencia temporal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

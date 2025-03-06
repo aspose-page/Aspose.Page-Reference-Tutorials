@@ -3,10 +3,16 @@ title: Tambahkan Properti Sederhana dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Properti Sederhana
 second_title: Aspose.Halaman .NET API
 description: Sempurnakan file EPS dengan Aspose.Page untuk .NET. Tambahkan properti sederhana dengan mudah untuk metadata dokumen yang disesuaikan.
-type: docs
 weight: 14
 url: /id/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Properti Sederhana dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Dalam bidang manipulasi dan penyempurnaan dokumen, Aspose.Page untuk .NET muncul sebagai alat yang ampuh, memberikan pengembang kemampuan untuk menambahkan dan memodifikasi metadata XMP dalam file EPS dengan mulus. Tutorial ini akan memandu Anda melalui proses menambahkan properti sederhana ke file EPS menggunakan Aspose.Page untuk .NET.
@@ -120,3 +126,9 @@ A3: Aspose.Page untuk .NET mendukung berbagai tipe data untuk properti, termasuk
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.Page untuk .NET?
 
  A5: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

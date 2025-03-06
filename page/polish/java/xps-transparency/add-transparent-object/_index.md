@@ -3,10 +3,16 @@ title: Dodaj przezroczysty obiekt w Java XPS
 linktitle: Dodaj przezroczysty obiekt w Java XPS
 second_title: Aspose.Page API Java
 description: Ulepsz swoje dokumenty Java XPS dzięki oszałamiającym efektom przezroczystości za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku dotyczącym dodawania przezroczystych obiektów.
-type: docs
 weight: 10
 url: /pl/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj przezroczysty obiekt w Java XPS
+
 ## Wstęp
 Jeśli chcesz poprawić atrakcyjność wizualną dokumentów Java XPS poprzez dodanie przezroczystych obiektów, Aspose.Page dla Java jest rozwiązaniem dla Ciebie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces dołączania przezroczystych obiektów do dokumentu XPS. Pod koniec tego samouczka będziesz w stanie tworzyć wspaniałe dokumenty z estetycznymi efektami przezroczystości.
 ## Warunki wstępne
@@ -88,3 +94,9 @@ Odp.: Absolutnie! Aspose.Page zapewnia solidne funkcje do profesjonalnej manipul
 O: Tak, Aspose.Page można bezproblemowo zintegrować z innymi bibliotekami Java w celu uzyskania rozszerzonej funkcjonalności.
 ### P: Gdzie mogę znaleźć dodatkowe przykłady i wsparcie dla Aspose.Page?
  O: Odwiedź[Forum Java Aspose.Page](https://forum.aspose.com/c/page/39)uzyskać wsparcie społeczności i zapoznać się z dokumentacją[Tutaj](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

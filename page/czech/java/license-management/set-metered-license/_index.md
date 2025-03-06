@@ -3,10 +3,16 @@ title: Snadná měřená integrace licencí s Aspose.Page Java
 linktitle: Nastavte Metered License v Javě
 second_title: Aspose.Page Java API
 description: Prozkoumejte bezproblémovou integraci Aspose.Page s Javou. Nastavte měřené licence bez námahy a rozšiřte možnosti zpracování dokumentů.
-type: docs
 weight: 10
 url: /cs/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Snadná měřená integrace licencí s Aspose.Page Java
+
 ## Úvod
 Vítejte v našem komplexním průvodci nastavením měřené licence v Javě pomocí Aspose.Page. Pokud chcete vylepšit své možnosti zpracování dokumentů a zajistit bezproblémovou integraci s Aspose.Page, jste na správném místě. V tomto tutoriálu vás provedeme celým procesem a rozdělíme každý krok na snadno stravitelné kousky.
 ## Předpoklady
@@ -100,3 +106,9 @@ Tyto klíče můžete získat prostřednictvím svého účtu Aspose.
  Viz dokumentace[tady](https://reference.aspose.com/page/java/).
 ### Otázka: Jak mohu získat dočasné licence?
  Lze získat dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

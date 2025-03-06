@@ -3,10 +3,16 @@ title: إضافة نمط تبليط الملمس في Java PostScript
 linktitle: إضافة نمط تبليط الملمس في Java PostScript
 second_title: Aspose.Page جافا API
 description: يمكنك بسهولة إضافة أنماط تجانب النسيج إلى مستندات PostScript باستخدام Aspose.Page لـ Java. استكشف دليل التكامل السلس الخاص بنا للتعرف على الإمكانيات الإبداعية.
-type: docs
 weight: 10
 url: /ar/java/postscript-texture-patterns/add-texture-tiling-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة نمط تبليط الملمس في Java PostScript
+
 ## مقدمة
 في مجال تطوير Java، يعد إنشاء أنماط ومواد معقدة في مستندات PostScript مطلبًا شائعًا. أثبت Aspose.Page for Java أنه أداة قيمة في تحقيق هذه المهمة دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة نمط تجانب النسيج في مستند Java PostScript باستخدام Aspose.Page.
 ## المتطلبات الأساسية
@@ -103,3 +109,9 @@ document.save();
  نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ Java؟
  يزور[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

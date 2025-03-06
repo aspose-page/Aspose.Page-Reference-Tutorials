@@ -3,10 +3,16 @@ title: Şeffaflık - XPS
 linktitle: Şeffaflık - XPS
 second_title: Aspose.Page Java API'si
 description: Aspose.Page ile Java XPS belgelerinizi zahmetsizce yükseltin. Gelişmiş görsel efektler için eğitimlerimizde şeffaf nesneler eklemeyi ve opaklık maskeleri ayarlamayı öğrenin.
-type: docs
 weight: 40
 url: /tr/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Şeffaflık - XPS
+
 ## giriiş
 
 Java XPS belgelerinizi bir sonraki seviyeye taşımak mı istiyorsunuz? Aspose.Page ile şeffaflık efektleri dünyasına dalın ve görsel olarak büyüleyici olasılıklar dünyasının kilidini açın. Bu kapsamlı kılavuzda size iki temel eğitimde yol göstereceğiz: şeffaf nesneler ekleme ve opaklık maskelerini ayarlama.
@@ -47,3 +53,9 @@ Sonuç olarak Aspose.Page for Java, XPS belgeleriniz için yaratıcı olanaklar 
 Aspose.Page'i kullanarak Java XPS belgelerinizi çarpıcı şeffaflık efektleriyle geliştirin. Saydam nesneler eklemek için adım adım kılavuzumuzu izleyin. 
 ### [Java XPS'de Opaklık Maskesini Ayarlama](./set-opacity-mask/)
 Aspose.Page ile Java XPS'de opaklık maskeleri ayarlamanın gücünü keşfedin. Görsel olarak geliştirilmiş bir belge deneyimi için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

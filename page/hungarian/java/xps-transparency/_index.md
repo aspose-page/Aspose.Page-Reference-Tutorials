@@ -3,10 +3,16 @@ title: Átlátszóság - XPS
 linktitle: Átlátszóság - XPS
 second_title: Aspose.Page Java API
 description: Az Aspose.Page segítségével könnyedén emelheti fel Java XPS-dokumentumait. Tanuljon meg átlátszó objektumokat hozzáadni és átlátszó maszkokat beállítani oktatóanyagainkban a továbbfejlesztett vizuális hatások érdekében.
-type: docs
 weight: 40
 url: /hu/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Átlátszóság - XPS
+
 ## Bevezetés
 
 Új szintre szeretné emelni Java XPS-dokumentumait? Merüljön el az átlátszó effektusok világában az Aspose.Page segítségével, és tárja fel a vizuálisan lenyűgöző lehetőségek birodalmát. Ebben az átfogó útmutatóban két alapvető oktatóanyagon mutatjuk be: átlátszó objektumok hozzáadását és átlátszatlansági maszkok beállítását.
@@ -47,3 +53,9 @@ Előnézet és mentés: Tekintse meg a dokumentum előnézetét valós időben, 
 Javítsa Java XPS-dokumentumait lenyűgöző átlátszósági effektusokkal az Aspose.Page segítségével. Kövesse lépésenkénti útmutatónkat az átlátszó objektumok hozzáadásához. 
 ### [Állítsa be az átlátszatlansági maszkot a Java XPS-ben](./set-opacity-mask/)
 Fedezze fel az opacitásmaszkok beállításának erejét Java XPS-ben az Aspose.Page segítségével. Kövesse lépésenkénti útmutatónkat a vizuálisan továbbfejlesztett dokumentumélmény érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

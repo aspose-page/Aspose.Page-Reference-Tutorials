@@ -3,10 +3,16 @@ title: Manipulace s textem Aspose.Page Java
 linktitle: Přidejte text do jazyka Java PostScript
 second_title: Aspose.Page Java API
 description: Prozkoumejte sílu Aspose.Page for Java v našem tutoriálu o přidávání textu do PostScriptových dokumentů. Naučte se snadno používat systémová a vlastní písma.
-type: docs
 weight: 10
 url: /cs/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s textem Aspose.Page Java
+
 ## Úvod
 Vítejte v našem podrobném průvodci přidáváním textu do jazyka Java PostScript pomocí Aspose.Page for Java. Aspose.Page for Java je výkonná knihovna, která umožňuje vývojářům snadno manipulovat s PostScriptovými dokumenty. V tomto tutoriálu vás provedeme procesem přidávání textu, používání systémových a vlastních písem, obrysování textu a začleňování tahů pro vizuálně přitažlivý výsledek.
 ## Předpoklady
@@ -99,3 +105,9 @@ Absolutně! Opakováním kroků vytváření a ukládání dokumentu můžete vy
 `ExternalFontCache` se používá k načítání vlastních písem, což zajišťuje, že jsou k dispozici pro manipulaci s textem.
 ### Mohu na vyznačený text použít různé tahy?
  Ano, můžete upravit šířku a barvu tahu pomocí`Stroke` třída a`Color` třídy, resp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

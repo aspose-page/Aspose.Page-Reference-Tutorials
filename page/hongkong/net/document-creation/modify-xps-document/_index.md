@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 修改 XPS 文檔
 linktitle: 修改XPS文檔
 second_title: Aspose.Page .NET API
 description: 探索 Aspose.Page for .NET 的強大功能，輕鬆修改 XPS 文件。按照我們的逐步指南，增強您的文件處理，並添加個人化簽名文字。
-type: docs
 weight: 12
 url: /zh-hant/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 修改 XPS 文檔
+
 ## 介紹
 
 歡迎閱讀我們有關如何使用 Aspose.Page for .NET 修改 XPS 文件的逐步指南。 Aspose.Page 是一個功能強大的程式庫，可讓開發人員輕鬆使用 XPS 檔案。在本教學中，我們將引導您完成將簽名文字「已確認」新增至 XPS 文件中的指定頁面的過程。
@@ -119,3 +125,9 @@ A3：Aspose.Page 旨在處理不同大小的文檔，但始終建議檢查文檔
 ### Q5：我可以在哪裡尋求協助或與 Aspose 社群聯繫？
 
  A5：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)提出問題並與社區互動。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

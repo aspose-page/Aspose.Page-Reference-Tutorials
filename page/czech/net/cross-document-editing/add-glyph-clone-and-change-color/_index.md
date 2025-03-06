@@ -3,10 +3,16 @@ title: Přidejte klon glyfů a změňte barvu pomocí Aspose.Page pro .NET
 linktitle: Přidejte klon glyfů a změňte barvu
 second_title: Aspose.Page .NET API
 description: Prozkoumejte sílu Aspose.Page pro .NET v tomto komplexním tutoriálu. Naučte se snadno přidávat klony glyfů a měnit barvy v dokumentech XPS.
-type: docs
 weight: 10
 url: /cs/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte klon glyfů a změňte barvu pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Vítejte v tomto podrobném průvodci používáním Aspose.Page for .NET k přidávání klonů glyfů a změně barev ve vašich dokumentech XPS. Aspose.Page for .NET je výkonná knihovna, která umožňuje bezproblémovou práci se soubory XPS. V tomto tutoriálu se zaměříme na proces přidávání klonů glyfů a změnu jejich barev, čímž zvýšíme vizuální přitažlivost vašich dokumentů.
@@ -129,3 +135,9 @@ Odpověď 4: Bezplatná zkušební verze má určitá omezení a před použití
 ### Q5: Kde najdu komplexní dokumentaci pro Aspose.Page for .NET?
 
  A5: Můžete nahlédnout do dokumentace[tady](https://reference.aspose.com/page/net/) pro podrobné informace a příklady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulace se stránkou - XPS
 linktitle: Manipulace se stránkou - XPS
 second_title: Aspose.Page Java API
 description: Prozkoumejte sílu Aspose.Page pro Java pomocí našich výukových programů. Vylepšete své dokumenty Java XPS jednoduchým přidáváním stránek pro vylepšenou funkčnost aplikací.
-type: docs
 weight: 33
 url: /cs/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace se stránkou - XPS
+
 
 ## Úvod
 
@@ -36,3 +42,9 @@ Na závěr, výukové programy Aspose.Page for Java o manipulaci se stránkami v
 ## Manipulace se stránkami – Výukové programy XPS
 ### [Přidat stránku v Java XPS](./add-page/)
 Zvyšte úroveň dokumentů Java XPS pomocí Aspose.Page. Naučte se snadno přidávat stránky pro vylepšené funkce aplikace. Ponořte se do tutoriálu hned!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

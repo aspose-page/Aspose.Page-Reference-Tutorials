@@ -3,10 +3,16 @@ title: 자바 문서 생성
 linktitle: 자바 문서 생성
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java에서 PostScript 문서를 쉽게 생성할 수 있습니다. 페이지 크기, 여백 및 글꼴을 사용자 정의합니다. Java 문서 작성 튜토리얼을 살펴보세요.
-type: docs
 weight: 23
 url: /ko/java/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 자바 문서 생성
+
 ## 소개
 
 Java 문서 작성의 세계에 뛰어들고 있다면 Java용 Aspose.Page가 가장 적합한 도구입니다. 이 포괄적인 가이드에서는 PostScript에 중점을 두고 Java로 문서를 작성하는 복잡한 과정을 안내합니다. Aspose.Page for Java의 잠재력을 활용하여 이 여정을 함께 시작합시다.
@@ -33,3 +39,9 @@ Java 문서 작성의 세계에 뛰어들고 있다면 Java용 Aspose.Page가 �
 ## Java 문서 생성 튜토리얼
 ### [PostScript를 사용하여 Java로 문서 만들기](./postscript/)
 Aspose.Page를 사용하여 Java로 PostScript 문서를 손쉽게 생성하세요. 페이지 크기, 여백 및 글꼴을 사용자 정의합니다. 지금 무료 평가판을 사용해 보세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

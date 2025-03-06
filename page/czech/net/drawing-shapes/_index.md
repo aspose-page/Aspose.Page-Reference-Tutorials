@@ -3,10 +3,16 @@ title: Kreslení tvarů
 linktitle: Kreslení tvarů
 second_title: Aspose.Page .NET API
 description: Vylepšete tvorbu dokumentů v .NET bez námahy! Naučte se krok za krokem návody na přidávání kruhů, elips a obdélníků do PostScriptu (PS) pomocí Aspose.Page .NET.
-type: docs
 weight: 31
 url: /cs/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kreslení tvarů
+
 ## Úvod
 
 Aspose.Page for .NET umožňuje vývojářům pozvednout tvorbu dokumentů v prostředí .NET. Ponořte se do našich podrobných výukových programů, abyste zvládli umění přidávání podmanivých tvarů do dokumentů PostScript (PS) a XPS.
@@ -33,3 +39,9 @@ Vylepšete dokumenty XPS pomocí zářivých radiálních přechodů pomocí Asp
 Vylepšete vytváření dokumentů v .NET pomocí Aspose.Page. Naučte se přidávat obdélníky do souborů PostScript (PS) krok za krokem.
 ### [Přidejte obdélník do dokumentu XPS pomocí Aspose.Page pro .NET](./add-rectangle-to-xps-document/)
 Vylepšete vytváření dokumentů pomocí Aspose.Page pro .NET. V tomto podrobném kurzu se dozvíte, jak přidat obdélníky do dokumentů XPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

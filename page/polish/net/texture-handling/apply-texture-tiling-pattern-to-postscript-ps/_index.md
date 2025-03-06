@@ -3,10 +3,16 @@ title: Zastosuj wzór kafelkowania tekstury do PostScript (PS) za pomocą Aspose
 linktitle: Zastosuj wzór kafelkowania tekstury do PostScriptu (PS)
 second_title: Aspose.Page API .NET
 description: Ulepsz swoje dokumenty PostScript (PS) za pomocą wzorów kafelków tekstur za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać kreatywny akcent.
-type: docs
 weight: 10
 url: /pl/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zastosuj wzór kafelkowania tekstury do PostScript (PS) za pomocą Aspose.Page
+
 ## Wstęp
 
 Witamy w tym samouczku krok po kroku dotyczącym stosowania wzoru kafelków tekstury do dokumentu PostScript (PS) za pomocą Aspose.Page dla .NET. Aspose.Page to potężna biblioteka, która pozwala pracować z różnymi formatami dokumentów. W tym samouczku przyjrzymy się, jak ulepszyć dokumenty PS, dodając wzory kafelków tekstur.
@@ -156,3 +162,10 @@ Odpowiedź 4: Tak, możesz powtórzyć proces z różnymi obrazami i ścieżkami
 ### P5: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie?
 
  A5: Odwiedź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) o wsparcie społeczności i poznaj[dokumentacja](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

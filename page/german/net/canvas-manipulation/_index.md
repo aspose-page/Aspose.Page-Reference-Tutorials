@@ -3,10 +3,16 @@ title: Leinwandmanipulation
 linktitle: Leinwandmanipulation
 second_title: Aspose.Page .NET-API
 description: Entdecken Sie Aspose.Page für .NET-Tutorials zur Canvas-Manipulation. Das Ausschneiden und Umwandeln von PS- und XPS-Dokumenten ist ganz einfach. Verbessern Sie Ihre Fähigkeiten in der Dokumentenverarbeitung.
-type: docs
 weight: 21
 url: /de/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Leinwandmanipulation
+
 
 ## Einführung
 
@@ -42,3 +48,9 @@ Entdecken Sie die Leistungsfähigkeit von Aspose.Page für .NET in dieser Schrit
 Nutzen Sie das Potenzial von Aspose.Page für .NET mit diesem umfassenden Leitfaden zu PostScript-Transformationen. Erstellen Sie mühelos dynamische Grafiken.
 ### [Transformationen XPS mit Aspose.Page für .NET](./transformationsxps/)
 Transformieren Sie XPS-Dokumente mühelos mit Aspose.Page für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für nahtlose Transformationen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

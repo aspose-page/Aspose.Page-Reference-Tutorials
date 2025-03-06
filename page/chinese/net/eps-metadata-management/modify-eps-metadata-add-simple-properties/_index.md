@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 添加简单属性
 linktitle: 添加简单属性
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 增强 EPS 文件。轻松为自定义文档元数据添加简单属性。
-type: docs
 weight: 14
 url: /zh/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 添加简单属性
+
 ## 介绍
 
 在文档操作和增强领域，Aspose.Page for .NET 成为一个强大的工具，为开发人员提供了在 EPS 文件中无缝添加和修改 XMP 元数据的能力。本教程将指导您完成使用 Aspose.Page for .NET 将简单属性添加到 EPS 文件的过程。
@@ -120,3 +126,9 @@ A3：Aspose.Page for .NET 支持各种属性数据类型，包括整数、日期
 ### Q5：Aspose.Page for .NET 有免费试用版吗？
 
  A5：是的，您可以免费试用[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

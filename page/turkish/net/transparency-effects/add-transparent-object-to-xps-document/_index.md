@@ -3,10 +3,16 @@ title: Aspose.Page ile XPS Belgesine Şeffaf Nesne Ekleme
 linktitle: XPS Belgesine Şeffaf Nesne Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page'i kullanarak .NET'te XPS belgelerine şeffaf nesnelerin nasıl ekleneceğini öğrenin. Adım adım rehberlikle görsel çekiciliği artırın.
-type: docs
 weight: 11
 url: /tr/net/transparency-effects/add-transparent-object-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile XPS Belgesine Şeffaf Nesne Ekleme
+
 ## giriiş
 
 Bu eğitimde, Aspose.Page for .NET kullanarak bir XPS belgesine şeffaf nesnelerin nasıl ekleneceğini inceleyeceğiz. XPS belgelerindeki şeffaflık, görsel çekiciliği artırabilir ve bilgileri etkili bir şekilde iletebilir. Süreci yönetilebilir adımlara bölerek netlik ve anlaşılırlık sağlayacağız.
@@ -132,3 +138,9 @@ Cevap4: Aspose.Page, XPS belgelerini PDF ve görüntüler de dahil olmak üzere 
 ### S5: Ek desteği ve topluluk tartışmalarını nerede bulabilirim?
 
  Cevap5: Ek destek ve topluluk tartışmaları için şu adresi ziyaret edin:[Aspose.Page Forumu](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

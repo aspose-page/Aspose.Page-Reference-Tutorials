@@ -3,10 +3,16 @@ title: التلاعب بالصفحة
 linktitle: التلاعب بالصفحة
 second_title: Aspose.Page .NET API
 description: اكتشف قوة Aspose.Page لـ .NET في معالجة مستندات PostScript وXPS. تعلم كيفية إضافة الصفحات وتحسينها وإزالتها من خلال برامجنا التعليمية الشاملة.
-type: docs
 weight: 29
 url: /ar/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب بالصفحة
+
 
 ## مقدمة
 
@@ -35,3 +41,9 @@ url: /ar/net/page-manipulation/
 قم بتحسين تطبيقات .NET الخاصة بك عن طريق تعلم كيفية إضافة صفحات إلى مستندات XPS باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
 ### [قم بإزالة الصفحة من مستند XPS باستخدام Aspose.Page لـ .NET](./remove-page-from-xps-document/)
 استكشف برنامجًا تعليميًا شاملاً حول إزالة الصفحات من مستندات XPS باستخدام Aspose.Page لـ .NET. تعرف على العملية خطوة بخطوة والمتطلبات الأساسية والأسئلة الشائعة للتعامل السلس مع المستندات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

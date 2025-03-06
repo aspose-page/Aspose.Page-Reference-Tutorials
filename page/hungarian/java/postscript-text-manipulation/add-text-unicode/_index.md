@@ -3,10 +3,16 @@ title: A Java PostScript újjáélesztése – Unicode hozzáadása az Aspose.Pa
 linktitle: Szöveg hozzáadása a Java PostScript Unicode String használatával
 second_title: Aspose.Page Java API
 description: Fedezze fel az Aspose.Page for Java erejét, amikor Unicode szöveget ad hozzá PostScript-projektjeihez. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében. Letöltés most!
-type: docs
 weight: 11
 url: /hu/java/postscript-text-manipulation/add-text-unicode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Java PostScript újjáélesztése – Unicode hozzáadása az Aspose.Page segítségével
+
 ## Bevezetés
 Szeretné javítani a Java PostScript alkalmazást Unicode szöveg zökkenőmentes hozzáadásával? Ne keressen tovább! Ez az átfogó útmutató lépésről lépésre végigvezeti a folyamaton az Aspose.Page for Java használatával. Az Aspose.Page egy hatékony könyvtár, amely lehetővé teszi a PostScript és XPS fájlok egyszerű kezelését és konvertálását.
 ## Előfeltételek
@@ -59,3 +65,9 @@ Az Aspose.Page elsősorban Java-ra készült, de az Aspose különféle programo
  Ideiglenes jogosítványt szerezhet[itt](https://purchase.aspose.com/temporary-license/).
 ### Milyen betűstílusok érhetők el az Aspose.Page-ben?
 Az Aspose.Page támogatja az olyan betűstílusokat, mint a Regular, Bold, Italic és BoldItalic.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

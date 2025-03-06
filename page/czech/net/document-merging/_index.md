@@ -3,10 +3,16 @@ title: Sloučení dokumentů
 linktitle: Sloučení dokumentů
 second_title: Aspose.Page .NET API
 description: Slučujte dokumenty PostScript a XPS bez námahy do vysoce kvalitních souborů PDF pomocí Aspose.Page for .NET. Vylepšete své zpracování dokumentů pomocí našich výukových programů krok za krokem.
-type: docs
 weight: 25
 url: /cs/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sloučení dokumentů
+
 ## Úvod
 
 Spojte svou cestu k bezproblémové správě dokumentů s Aspose.Page pro .NET. Objevte sílu sloučení dokumentů s našimi komplexními výukovými programy.
@@ -40,3 +46,9 @@ Naučte se, jak snadno sloučit PostScriptové dokumenty do PDF pomocí Aspose.P
 Bez námahy slučujte dokumenty XPS do vysoce kvalitních souborů PDF pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro hladký převod dokumentů.
 ### [Sloučit dokumenty XPS s Aspose.Page pro .NET](./merge-xps-documents/)
 Slučujte dokumenty XPS bez námahy pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou správu dokumentů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

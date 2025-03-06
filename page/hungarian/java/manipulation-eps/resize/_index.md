@@ -3,10 +3,16 @@ title: Méretezze át az EPS-fájlokat Java nyelven az Aspose.Page segítségév
 linktitle: EPS fájl átméretezése Java nyelven
 second_title: Aspose.Page Java API
 description: Az Aspose.Page for Java segítségével megtudhatja, hogyan lehet könnyedén átméretezni az EPS-fájlokat Java nyelven. Kövesse átfogó útmutatónkat a lépésenkénti utasításokért.
-type: docs
 weight: 11
 url: /hu/java/manipulation-eps/resize/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Méretezze át az EPS-fájlokat Java nyelven az Aspose.Page segítségével
+
 ## Bevezetés
 Üdvözöljük lépésenkénti útmutatónkban az EPS-fájlok Java nyelven történő átméretezéséről a hatékony Aspose.Page könyvtár használatával. Ha valaha is programozottan kellett módosítania az EPS-képek méretét, akkor jó helyen jár. Ebben az oktatóanyagban különféle átméretezési lehetőségeket vizsgálunk meg, beleértve a pontokat, hüvelykeket, millimétereket és százalékokat, így biztosítva az Ön egyedi igényeihez szükséges rugalmasságot.
 ## Előfeltételek
@@ -67,3 +73,9 @@ Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/)
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Vannak példaprojektek?
  Igen, ellenőrizze a dokumentációt[itt](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

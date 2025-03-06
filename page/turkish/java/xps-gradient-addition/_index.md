@@ -3,10 +3,16 @@ title: Degrade Ekleme - XPS
 linktitle: Degrade Ekleme - XPS
 second_title: Aspose.Page Java API'si
 description: Java XPS belgelerinizi çarpıcı degradelerle yükseltin. Aspose.Page eğitimlerini kullanarak çapraz, yatay ve dikey degradeleri zahmetsizce eklemeyi öğrenin.
-type: docs
 weight: 26
 url: /tr/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Degrade Ekleme - XPS
+
 ## giriiş
 
 Teknoloji geliştikçe görsel çekiciliği artırmak çok önemli hale geliyor. Java XPS belgeleri alanında, büyüleyici degradelerin dahil edilmesi oyunun kurallarını değiştirir. Aspose.Page for Java Tutorials'a hoş geldiniz; burada XPS'deki Degrade Toplama sanatını ustalıkla çözüyoruz.
@@ -40,3 +46,9 @@ Aspose.Page'i kullanarak Java'da XPS belgelerinize çarpıcı bir diyagonal degr
 Aspose.Page'i kullanarak Java'da XPS belgelerine nasıl çarpıcı bir yatay degrade ekleyeceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
 ### [Java XPS'de Dikey Degrade Ekleme](./vertical/)
 Aspose.Page ile Java XPS belgelerine nasıl dikey degrade ekleyeceğinizi öğrenin. Görsel çekiciliği zahmetsizce geliştirin. Adım adım kılavuz içeride.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

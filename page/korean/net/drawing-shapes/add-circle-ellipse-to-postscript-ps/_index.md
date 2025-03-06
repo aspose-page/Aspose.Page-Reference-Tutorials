@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 PS(PostScript)에 Circle Ellipse 추가
 linktitle: PostScript에 원 타원 추가(PS)
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 PostScript(PS) 문서에 원 타원을 손쉽게 추가하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 PS(PostScript)에 Circle Ellipse 추가
+
 ## 소개
 
 .NET용 Aspose.Page를 사용하여 PS(PostScript) 문서에 원 타원을 추가하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.Page는 개발자가 PostScript 및 기타 문서 형식을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 가이드에서는 원 타원을 PS 문서에 쉽게 통합하는 과정을 안내합니다.
@@ -145,3 +151,9 @@ document.Save();
 ### Q5: .NET용 Aspose.Page를 어디서 구입할 수 있나요?
 
  A5: 다음에서 .NET용 Aspose.Page를 구입하세요.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

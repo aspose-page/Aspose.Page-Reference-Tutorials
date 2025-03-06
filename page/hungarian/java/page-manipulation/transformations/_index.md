@@ -3,10 +3,16 @@ title: Advanced Transformations Guide with Aspose.Page
 linktitle: Átalakítások a Java oldalkezelésben
 second_title: Aspose.Page Java API
 description: Ismerje meg, hogyan hajthat végre speciális oldalátalakításokat Java nyelven az Aspose.Page for Java segítségével. Bővítse Java-alkalmazásait hatékony manipulációs lehetőségekkel.
-type: docs
 weight: 11
 url: /hu/java/page-manipulation/transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Advanced Transformations Guide with Aspose.Page
+
 ## Bevezetés
 Üdvözöljük az Aspose.Page for Java hatékony funkcióinak használatáról szóló átfogó útmutatónkban a Java-oldalmanipuláció átalakításainak végrehajtásához. Az Aspose.Page egy sokoldalú Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan dolgozzanak különféle oldalkezelési feladatokkal.
 ## Előfeltételek
@@ -87,3 +93,9 @@ Az Aspose.Page elsősorban a PostScript és XPS formátumok oldalkezelésére ö
  Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol kérhetek közösségi támogatást, vagy hol tehetek fel kérdéseket az Aspose.Page for Java-val kapcsolatban?
  Meglátogatni a[Aspose.Page a Java fórumhoz](https://forum.aspose.com/c/page/39) közösségi megbeszélésekre.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

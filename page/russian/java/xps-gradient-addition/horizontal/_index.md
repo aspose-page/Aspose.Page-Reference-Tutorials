@@ -3,10 +3,16 @@ title: Добавьте горизонтальный градиент в Java XP
 linktitle: Добавьте горизонтальный градиент в Java XPS
 second_title: API Aspose.Page Java
 description: Узнайте, как добавить потрясающий горизонтальный градиент в документы XPS на Java с помощью Aspose.Page. Следуйте нашему пошаговому руководству для бесшовной интеграции.
-type: docs
 weight: 11
 url: /ru/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте горизонтальный градиент в Java XPS
+
 ## Введение
 Добро пожаловать в это пошаговое руководство по добавлению горизонтального градиента в Java XPS с использованием Aspose.Page для Java. Aspose.Page для Java — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с документами XPS (спецификация бумаги XML).
 В этом уроке мы познакомим вас с процессом создания Java-приложения для добавления горизонтального градиента в документ XPS. Следуйте инструкциям ниже, чтобы добиться этого с легкостью.
@@ -70,3 +76,9 @@ Aspose.Page для Java регулярно обновляется, чтобы о
 Абсолютно! У вас есть полный контроль над цветами и положениями каждой остановки градиента.
 ### Вопрос: Существует ли форум сообщества Aspose.Page, где я могу обратиться за помощью?
  Да, вы можете посетить[Форум Aspose.Page](https://forum.aspose.com/c/page/39) чтобы связаться с сообществом и получить помощь.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

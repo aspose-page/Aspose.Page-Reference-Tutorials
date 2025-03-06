@@ -3,10 +3,16 @@ title: Maîtriser les dégradés radiaux en Java PostScript avec Aspose.Page
 linktitle: Maîtriser les dégradés radiaux en Java
 second_title: API Java Aspose.Page
 description: Découvrez comment ajouter de superbes dégradés radiaux dans Java PostScript à l'aide d'Aspose.Page pour Java. Améliorez vos documents PostScript avec ce guide étape par étape.
-type: docs
 weight: 12
 url: /fr/java/postscript-gradient-addition/radial1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les dégradés radiaux en Java PostScript avec Aspose.Page
+
 ## Introduction
 Bienvenue dans notre guide étape par étape sur la façon d'ajouter un dégradé radial dans Java PostScript à l'aide d'Aspose.Page. Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'un document PostScript avec un magnifique dégradé radial. Aspose.Page pour Java est une bibliothèque puissante qui vous permet de travailler de manière transparente avec des fichiers PostScript.
 ## Conditions préalables
@@ -86,3 +92,9 @@ Toutes nos félicitations! Vous avez appris avec succès comment améliorer vos 
  Obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Besoin du soutien de la communauté ?
  Rejoignez la communauté Aspose.Page[forum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

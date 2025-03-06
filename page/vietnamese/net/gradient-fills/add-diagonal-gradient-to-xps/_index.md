@@ -3,10 +3,16 @@ title: Thêm gradient chéo vào XPS bằng Aspose.Page for .NET
 linktitle: Thêm đường chéo vào XPS
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách thêm độ dốc đường chéo quyến rũ vào tài liệu XPS bằng Aspose.Page cho .NET. Nâng cao bài thuyết trình trực quan của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm gradient chéo vào XPS bằng Aspose.Page for .NET
+
 ## Giới thiệu
 
 Trong lĩnh vực xử lý tài liệu, Aspose.Page for .NET nổi bật như một bộ công cụ mạnh mẽ cho phép các nhà phát triển thao tác các tài liệu XPS một cách dễ dàng. Một tính năng thú vị mà nó cung cấp là khả năng thêm các đường chéo chuyển màu, cho phép bạn nâng cao sức hấp dẫn trực quan của tài liệu của mình. Hướng dẫn này sẽ hướng dẫn bạn thực hiện từng bước quy trình, trình bày cách kết hợp các gradient đường chéo vào các tệp XPS bằng Aspose.Page cho .NET.
@@ -106,3 +112,9 @@ Câu trả lời 3: Aspose.Page chủ yếu tập trung vào thao tác tài li�
 ### Câu 5: Có bản dùng thử trước khi mua không?
 
  Đ5: Có, bạn có thể khám phá[dùng thử miễn phí](https://releases.aspose.com/) để trải nghiệm Aspose.Page cho .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

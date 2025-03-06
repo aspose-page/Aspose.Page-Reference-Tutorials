@@ -3,10 +3,16 @@ title: प्रिंट टिकट प्रबंधन
 linktitle: प्रिंट टिकट प्रबंधन
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page के साथ कस्टम प्रिंट टिकट बनाएं और संपादित करें। XPS दस्तावेज़ों में सूक्ष्म नियंत्रण के साथ अपने मुद्रण अनुभव को सहजता से अनुकूलित करें।
-type: docs
 weight: 30
 url: /hi/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# प्रिंट टिकट प्रबंधन
+
 
 ## परिचय
 
@@ -34,3 +40,9 @@ url: /hi/net/print-ticket-management/
 .NET के लिए Aspose.Page का उपयोग करके कस्टम प्रिंट टिकट बनाने पर चरण-दर-चरण मार्गदर्शिका देखें। अपने मुद्रण अनुभव को बारीक नियंत्रण के साथ तैयार करें।
 ### [.NET के लिए Aspose.Page के साथ मौजूदा प्रिंट टिकट संपादित करें](./print-ticket-management/aspose.page/)
 .NET के लिए Aspose.Page का उपयोग करके XPS दस्तावेज़ों में प्रिंट टिकट संपादित करना सीखें। डेवलपर्स के लिए चरण-दर-चरण मार्गदर्शिका. दस्तावेज़ मुद्रण नियंत्रण को सहजता से बढ़ाएँ।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

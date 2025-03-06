@@ -3,10 +3,16 @@ title: Aspose.Page を使用した Java での XPS ファイルのマージを�
 linktitle: Java で XPS を XPS に変換する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して Java で XPS ファイルをシームレスにマージする方法を学びます。効率的に文書を操作するには、ステップバイステップのガイドに従ってください。今すぐ Java 開発スキルを向上させましょう!
-type: docs
 weight: 12
 url: /ja/java/file-merging/xps-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用した Java での XPS ファイルのマージをマスターする
+
 ## 導入
 Java 開発の領域では、XPS ファイルの管理と操作が一般的な要件です。レポート、プレゼンテーション、その他の XPS ドキュメントを扱う場合でも、複数のファイルをシームレスに結合できる機能は貴重なスキルです。このチュートリアルでは、XPS ドキュメントを操作するための強力な Java API である Aspose.Page for Java を使用して XPS ファイルをマージするプロセスを詳しく説明します。
 ## 前提条件
@@ -59,3 +65,9 @@ document.merge(filesForMerge, outStream);
 はい、訪問してください[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティと関わるために。
 ### Aspose.Page for Java ライブラリを購入するにはどうすればよいですか?
 ライブラリを購入できます[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

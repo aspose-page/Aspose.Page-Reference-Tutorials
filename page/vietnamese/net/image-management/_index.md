@@ -3,10 +3,16 @@ title: Quản lý hình ảnh
 linktitle: Quản lý hình ảnh
 second_title: API Aspose.Page .NET
 description: Nâng cao hình ảnh tài liệu của bạn một cách dễ dàng! Khám phá các hướng dẫn Aspose.Page .NET bao gồm quản lý hình ảnh. Từ việc thêm hình ảnh đến chuyển đổi định dạng, hãy nắm vững từng bước.
-type: docs
 weight: 28
 url: /vi/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý hình ảnh
+
 ## Giới thiệu
 
 Bạn đang tìm cách nâng cao sự hấp dẫn trực quan cho tài liệu của mình bằng cách sử dụng Aspose.Page cho .NET? Đừng tìm đâu xa! Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn nhiều hướng dẫn quản lý hình ảnh khác nhau để giúp bạn cải thiện tài liệu của mình một cách liền mạch.
@@ -45,3 +51,9 @@ Khám phá khả năng tích hợp liền mạch hình ảnh vào tài liệu XP
 Khám phá cách thêm hình ảnh xếp chồng vào tài liệu XPS một cách dễ dàng với Aspose.Page for .NET. Tăng cường sự hấp dẫn trực quan và tạo ra các tài liệu tuyệt đẹp.
 ### [Chuyển đổi hình ảnh sang định dạng EPS với Aspose.Page for .NET](./convert-image-to-eps-format/)
 Tìm hiểu cách chuyển đổi hình ảnh JPEG sang định dạng EPS bằng Aspose.Page for .NET. Hướng dẫn toàn diện với hướng dẫn từng bước.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

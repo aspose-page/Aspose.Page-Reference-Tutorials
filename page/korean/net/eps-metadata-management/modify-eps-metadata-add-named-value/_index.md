@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 명명된 값 추가
 linktitle: 명명된 값 추가
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page를 사용하여 .NET의 EPS 파일에 명명된 값을 추가하는 방법을 알아보세요. 이 포괄적인 튜토리얼은 프로세스를 단계별로 안내합니다.
-type: docs
 weight: 12
 url: /ko/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 명명된 값 추가
+
 ## 소개
 
 .NET을 사용한 문서 처리 영역에서 Aspose.Page는 EPS 파일을 처리하는 강력한 도구로 돋보입니다. Aspose.Page는 개발자가 XMP 메타데이터를 조작하여 명명된 값 추가와 같은 작업을 용이하게 할 수 있도록 지원합니다. 이 튜토리얼에서는 Aspose.Page를 사용하여 EPS 파일에 명명된 값을 추가하는 과정을 단계별로 안내합니다.
@@ -96,3 +102,9 @@ A1: Aspose.Page는 다양한 EPS 파일 버전을 지원하여 광범위한 문�
 ### Q5: 임시 라이센스란 무엇이며 어떻게 얻을 수 있나요?
 
  A5: 테스트 또는 평가 목적으로 임시 라이선스가 필요한 경우 라이선스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kształty - XPS
 linktitle: Kształty - XPS
 second_title: Aspose.Page API Java
 description: Odkryj magię Java XPS dzięki samouczkom Aspose.Page! Z łatwością dodawaj urzekające elipsy i prostokąty. Ulepsz proces tworzenia dokumentów dzięki naszym przewodnikom krok po kroku.
-type: docs
 weight: 35
 url: /pl/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kształty - XPS
+
 ## Wstęp
 
 Czy jesteś gotowy, aby zagłębić się w fascynującą dziedzinę tworzenia dokumentów przy użyciu Java XPS? Nie szukaj dalej niż Aspose.Page, Twój zaufany towarzysz, który uwolni pełny potencjał manipulacji kształtami. W tej serii samouczków przeprowadzimy Cię przez zawiłości dodawania urzekających kształtów, dzięki czemu Twój dokument będzie się wyróżniał bez wysiłku.
@@ -33,3 +39,9 @@ Podsumowując, samouczki Aspose.Page for Java dotyczące kształtów otwierają 
 Zapoznaj się z przewodnikiem krok po kroku dotyczącym dodawania promieniowej elipsy z obrysowanym gradientem w języku Java XPS przy użyciu Aspose.Page dla języka Java. Ulepsz swoje tworzenie dokumentów bez wysiłku.
 ### [Dodaj prostokąt w Java XPS](./add-rectangle/)
 Dowiedz się, jak dodawać prostokąty w Java XPS przy użyciu Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo manipulować dokumentami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

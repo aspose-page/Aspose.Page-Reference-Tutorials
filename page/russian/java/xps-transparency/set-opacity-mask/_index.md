@@ -3,10 +3,16 @@ title: Установите маску непрозрачности в Java XPS
 linktitle: Установите маску непрозрачности в Java XPS
 second_title: API Aspose.Page Java
 description: Откройте для себя возможности настройки масок непрозрачности в Java XPS с помощью Aspose.Page. Следуйте нашему пошаговому руководству, чтобы визуально улучшить работу с документами.
-type: docs
 weight: 11
 url: /ru/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установите маску непрозрачности в Java XPS
+
 ## Введение
 Добро пожаловать в наше подробное руководство по настройке масок непрозрачности в Java XPS с использованием Aspose.Page. В этом уроке мы познакомим вас с процессом создания документа XPS, добавления холста и применения маски непрозрачности к прямоугольнику с использованием мощных функций Aspose.Page для Java.
 ## Предварительные условия
@@ -67,3 +73,9 @@ doc.save(dataDir + "OpacityMask_out.xps");
  Вы можете посетить[Форум Aspose.Page](https://forum.aspose.com/c/page/39) для поддержки сообщества или приобретения лицензии на премиальную помощь.
 ### Есть ли гарантия возврата денег для Aspose.Page?
  Обратитесь к[страница покупки](https://purchase.aspose.com/buy) для получения информации о политике возврата.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

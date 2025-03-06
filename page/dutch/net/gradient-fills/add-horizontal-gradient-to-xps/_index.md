@@ -3,10 +3,16 @@ title: Voeg horizontaal verloop toe aan XPS met Aspose.Page voor .NET
 linktitle: Voeg horizontaal verloop toe aan XPS
 second_title: Aspose.Page .NET-API
 description: Leer hoe u verbluffende horizontale verlopen aan uw XPS-documenten kunt toevoegen met Aspose.Page voor .NET. Verhoog moeiteloos de visuele aantrekkingskracht.
-type: docs
 weight: 13
 url: /nl/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg horizontaal verloop toe aan XPS met Aspose.Page voor .NET
+
 ## Invoering
 
 In deze zelfstudie onderzoeken we hoe u XPS-documenten kunt verbeteren door een horizontaal verloop toe te voegen met Aspose.Page voor .NET. Aspose.Page voor .NET is een krachtige bibliotheek die een naadloze verwerking van XPS-documenten (XML Paper Specification) in .NET-toepassingen biedt. Het toevoegen van kleurverlopen kan uw documenten een visuele aantrekkingskracht geven, en deze handleiding begeleidt u stap voor stap door het proces.
@@ -113,3 +119,9 @@ Het verbeteren van uw XPS-documenten met kleurverlopen verbetert niet alleen hun
 ### V5: Hoe krijg ik een tijdelijke licentie voor Aspose.Page voor .NET?
 
  A5: U kunt een tijdelijke licentie verkrijgen via[deze link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

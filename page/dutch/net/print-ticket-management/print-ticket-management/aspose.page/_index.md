@@ -3,10 +3,16 @@ title: Bewerk bestaande printtickets met Aspose.Page voor .NET
 linktitle: Bewerk bestaand printticket
 second_title: Aspose.Page .NET-API
 description: Leer hoe u printtickets in XPS-documenten kunt bewerken met Aspose.Page voor .NET. Een stapsgewijze handleiding voor ontwikkelaars. Verbeter moeiteloos de controle over het afdrukken van documenten.
-type: docs
 weight: 11
 url: /nl/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bewerk bestaande printtickets met Aspose.Page voor .NET
+
 ## Invoering
 
 Welkom bij deze uitgebreide handleiding over het bewerken van bestaande printtickets met Aspose.Page voor .NET! Aspose.Page is een krachtige bibliotheek waarmee ontwikkelaars moeiteloos met XPS-documenten kunnen werken. In deze tutorial begeleiden we u met praktische voorbeelden door het proces van het bewerken van printtickets, waarbij we elke stap opsplitsen voor een naadloze leerervaring.
@@ -117,3 +123,9 @@ A2: Ja, Aspose.Page voor .NET is compatibel met .NET Core en biedt flexibiliteit
 ### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Page voor .NET?
 
  A5: Bezoek[deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke vergunning te verkrijgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

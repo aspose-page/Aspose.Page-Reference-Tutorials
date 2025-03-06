@@ -3,10 +3,16 @@ title: Tambahkan Rectangle ke Dokumen XPS dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Persegi Panjang ke Dokumen XPS
 second_title: Aspose.Halaman .NET API
 description: Tingkatkan pembuatan dokumen dengan Aspose.Page untuk .NET. Pelajari cara menambahkan persegi panjang ke dokumen XPS dalam tutorial langkah demi langkah ini.
-type: docs
 weight: 13
 url: /id/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Rectangle ke Dokumen XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Aspose.Page untuk .NET adalah perpustakaan canggih yang menyediakan berbagai fitur untuk bekerja dengan dokumen XPS (Spesifikasi Kertas XML) dalam aplikasi .NET. Dalam tutorial ini, kita akan fokus menambahkan persegi panjang ke dokumen XPS menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah ini untuk menyempurnakan proses pembuatan dokumen Anda.
@@ -95,3 +101,9 @@ A1: Ya, Aspose.Page dirancang untuk bekerja secara lancar dengan semua aplikasi 
 ### Q5: Di mana saya dapat mencari dukungan komunitas atau mengajukan pertanyaan terkait Aspose.Page untuk .NET?
 
  A5: Kunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk dukungan masyarakat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

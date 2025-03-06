@@ -3,10 +3,16 @@ title: جافا بوستسكريبت الشفافية الزائفة مع Aspose
 linktitle: إظهار الشفافية الزائفة في Java PostScript
 second_title: Aspose.Page جافا API
 description: افتح الرسومات النابضة بالحياة في Java PostScript! اتبع برنامجنا التعليمي Aspose.Page لإنشاء شفافية زائفة خطوة بخطوة. التحميل الان!
-type: docs
 weight: 11
 url: /ar/java/postscript-transparency/show-pseudo-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# جافا بوستسكريبت الشفافية الزائفة مع Aspose.Page
+
 ## مقدمة
 مرحبًا بك في الدليل الشامل حول استخدام Aspose.Page لـ Java لإظهار الشفافية الزائفة في Java PostScript. في هذا البرنامج التعليمي، سنقوم بتفصيل العملية خطوة بخطوة، مما يضمن أنك تفهم كل مفهوم جيدًا. تتضمن الشفافية الزائفة خلق وهم الشفافية في الرسومات، ويعمل Aspose.Page على تبسيط هذه المهمة بميزاته القوية.
 ## المتطلبات الأساسية
@@ -90,3 +96,9 @@ document.save();
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل تحتاج إلى مساعدة أو ترغب في مناقشة Aspose.Page؟
  قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

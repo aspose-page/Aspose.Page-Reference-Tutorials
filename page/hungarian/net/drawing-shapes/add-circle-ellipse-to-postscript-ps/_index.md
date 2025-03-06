@@ -3,10 +3,16 @@ title: Adja hozzá a Circle Ellipse-t a PostScript-hez (PS) az Aspose.Page segí
 linktitle: Körellipszis hozzáadása a PostScript-hez (PS)
 second_title: Aspose.Page .NET API
 description: Ismerje meg, hogyan adhat hozzá könnyedén körellipsziseket PostScript (PS) dokumentumokhoz az Aspose.Page for .NET használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 10
 url: /hu/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja hozzá a Circle Ellipse-t a PostScript-hez (PS) az Aspose.Page segítségével
+
 ## Bevezetés
 
 Üdvözöljük ebben az átfogó oktatóanyagban, amely a PostScript (PS) dokumentumokhoz körellipszisek hozzáadásával foglalkozik az Aspose.Page for .NET használatával. Az Aspose.Page egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak PostScript- és más dokumentumformátumokkal. Ebben az útmutatóban végigvezetjük a kör ellipszisek PS-dokumentumaiba való könnyű beépítésének folyamatán.
@@ -145,3 +151,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell körellipsziseket hozzáadni Pos
 ### 5. kérdés: Hol vásárolhatom meg az Aspose.Page-t .NET-hez?
 
  5. válasz: Vásárolja meg az Aspose.Page oldalt a .NET számára a webhelyről[oldal vásárlása](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

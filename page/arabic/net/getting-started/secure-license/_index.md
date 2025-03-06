@@ -3,10 +3,16 @@ title: ترخيص آمن مع Aspose.Page لـ .NET
 linktitle: ترخيص آمن
 second_title: Aspose.Page .NET API
 description: قم بتأمين ترخيص Aspose.Page for .NET الخاص بك بسهولة من خلال دليلنا التفصيلي خطوة بخطوة. أطلق العنان للإمكانات الكاملة للتعامل السلس مع الصفحات في تطبيقات .NET الخاصة بك.
-type: docs
 weight: 13
 url: /ar/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترخيص آمن مع Aspose.Page لـ .NET
+
 ## مقدمة
 
 يتضمن إطلاق الإمكانات الكاملة لـ Aspose.Page لـ .NET تأمين الترخيص الخاص بك لضمان التكامل السلس والأداء الأمثل. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية تأمين ترخيصك باستخدام Aspose.Page، وهي أداة قوية للتعامل مع معالجة الصفحات في تطبيقات .NET.
@@ -90,3 +96,9 @@ using (ZipFile zf = ZipFile.Read(zip))
 ### س5: هل يمكنني نقل رخصتي إلى جهاز آخر؟
 
 ج5: نعم، يمكنك نقل الترخيص الخاص بك إلى جهاز آخر حسب الحاجة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

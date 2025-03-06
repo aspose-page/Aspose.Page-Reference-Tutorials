@@ -3,10 +3,16 @@ title: Vẽ hình
 linktitle: Vẽ hình
 second_title: API Aspose.Page .NET
 description: Dễ dàng nâng cao khả năng tạo tài liệu trong .NET! Tìm hiểu hướng dẫn từng bước về cách thêm hình tròn, hình elip và hình chữ nhật vào PostScript (PS) bằng Aspose.Page .NET.
-type: docs
 weight: 31
 url: /vi/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vẽ hình
+
 ## Giới thiệu
 
 Aspose.Page for .NET trao quyền cho các nhà phát triển nâng cao khả năng tạo tài liệu trong môi trường .NET. Đi sâu vào hướng dẫn từng bước của chúng tôi để nắm vững nghệ thuật thêm các hình dạng quyến rũ vào tài liệu PostScript (PS) và XPS.
@@ -33,3 +39,9 @@ Nâng cao tài liệu XPS với độ dốc xuyên tâm sống động bằng As
 Nâng cao khả năng tạo tài liệu trong .NET với Aspose.Page. Tìm hiểu cách thêm hình chữ nhật vào tệp PostScript (PS) theo từng bước.
 ### [Thêm hình chữ nhật vào tài liệu XPS bằng Aspose.Page for .NET](./add-rectangle-to-xps-document/)
 Tăng cường việc tạo tài liệu với Aspose.Page cho .NET. Tìm hiểu cách thêm hình chữ nhật vào tài liệu XPS trong hướng dẫn từng bước này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

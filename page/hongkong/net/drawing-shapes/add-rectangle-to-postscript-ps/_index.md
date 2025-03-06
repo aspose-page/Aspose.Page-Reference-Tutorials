@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將矩形新增至 PostScript (PS)
 linktitle: 將矩形新增至 PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page 增強 .NET 中的文件建立。了解逐步為 PostScript (PS) 檔案新增矩形。
-type: docs
 weight: 12
 url: /zh-hant/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將矩形新增至 PostScript (PS)
+
 ## 介紹
 
 如果您希望增強 .NET 中的文件建立能力，Aspose.Page 提供了處理 PostScript 文件的強大解決方案。在本教學中，我們將引導您完成使用 Aspose.Page for .NET 將矩形新增至 PostScript 文件的過程。
@@ -133,3 +139,10 @@ A2：是的，Aspose.Page支援各種文件格式，包括XPS和PostScript。
 ### Q5：我可以在購買前試用Aspose.Page嗎？
 
  A5：是的，您可以獲得免費試用版[這裡](https://releases.aspose.com/)，並且為了延長使用，請考慮[臨時執照](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přidejte diagonální přechod v Java XPS
 linktitle: Přidejte diagonální přechod v Java XPS
 second_title: Aspose.Page Java API
 description: Naučte se, jak přidat úžasný diagonální přechod do dokumentů XPS v Javě pomocí Aspose.Page. Zvyšte svou vizuální prezentaci bez námahy.
-type: docs
 weight: 10
 url: /cs/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte diagonální přechod v Java XPS
+
 ## Úvod
 neustále se vyvíjejícím světě vývoje Java je zásadní zvýšit vizuální přitažlivost vašich dokumentů XPS. Jedním z účinných způsobů, jak toho dosáhnout, je začlenění diagonálních přechodů. Tento tutoriál vás provede procesem pomocí Aspose.Page for Java a poskytne vám podrobné pokyny a úryvky kódu.
 ## Předpoklady
@@ -75,3 +81,9 @@ Aspose.Page je navržena tak, aby se hladce integrovala s různými frameworky J
  Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) zapojit se do komunity a vyhledat pomoc.
 ### Otázka: Existuje ustanovení pro dočasné licence?
  Ano, můžete získat a[dočasná licence zde](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

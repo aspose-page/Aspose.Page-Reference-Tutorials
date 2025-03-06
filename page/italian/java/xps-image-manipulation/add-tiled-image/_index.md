@@ -3,10 +3,16 @@ title: Aggiungi immagine affiancata in Java XPS
 linktitle: Aggiungi immagine affiancata in Java XPS
 second_title: API Java Aspose.Page
 description: Esplora la manipolazione perfetta dei documenti Java XPS con Aspose.Page. Impara ad aggiungere immagini affiancate senza sforzo utilizzando questa guida passo passo.
-type: docs
 weight: 11
 url: /it/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi immagine affiancata in Java XPS
+
 ## introduzione
 Nel dinamico mondo dello sviluppo Java, la necessità di una manipolazione e creazione efficiente di documenti è in continua crescita. Aspose.Page per Java emerge come uno strumento potente, fornendo agli sviluppatori la capacità di lavorare senza problemi con documenti XPS. Questo tutorial si concentra su un'attività specifica: aggiungere un'immagine affiancata a un documento Java XPS.
 ## Prerequisiti
@@ -68,3 +74,9 @@ Sì, Aspose.Page offre licenze commerciali. Acquistateli[Qui](https://purchase.a
  Interagisci con la comunità Aspose.Page su[Forum](https://forum.aspose.com/c/page/39).
 ### Come posso ottenere una licenza temporanea per Aspose.Page?
  Acquisisci una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

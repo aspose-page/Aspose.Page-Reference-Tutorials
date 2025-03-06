@@ -3,10 +3,16 @@ title: Verlaufsfüllungen
 linktitle: Verlaufsfüllungen
 second_title: Aspose.Page .NET-API
 description: Entdecken Sie die Kunst der Verlaufsfüllungen in .NET mit Aspose.Page-Tutorials. Werten Sie Ihre Projekte mühelos auf – fügen Sie faszinierende diagonale, horizontale und vertikale Farbverläufe hinzu.
-type: docs
 weight: 27
 url: /de/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verlaufsfüllungen
+
 
 ## Einführung
 
@@ -49,3 +55,9 @@ Erfahren Sie, wie Sie mit Aspose.Page für .NET atemberaubende horizontale Verl�
 Erfahren Sie, wie Sie mit Aspose.Page optisch ansprechende vertikale Verläufe zu PostScript-Dokumenten (PS) in .NET hinzufügen. Verbessern Sie Ihre Dokumentenerstellung mit dieser Schritt-für-Schritt-Anleitung.
 ### [Fügen Sie mit Aspose.Page für .NET einen vertikalen Farbverlauf zu XPS hinzu](./add-vertical-gradient-to-xps/)
 Erfahren Sie, wie Sie XPS-Dokumente mit vertikalen Verläufen mit Aspose.Page für .NET verbessern. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

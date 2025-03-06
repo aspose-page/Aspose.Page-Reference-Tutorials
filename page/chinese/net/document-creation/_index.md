@@ -3,10 +3,16 @@ title: 文档创建
 linktitle: 文档创建
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 轻松创建令人惊叹的 XPS 和 PostScript 文档。探索文档创建和修改教程以实现无缝集成。
-type: docs
 weight: 23
 url: /zh/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文档创建
+
 ## 介绍
 
 Aspose.Page for .NET 打开了通向电子文档创建的无限可能世界的大门。无论您是经验丰富的开发人员还是新手，我们的分步指南都将帮助您轻松生成 XPS 和 PostScript 文档。
@@ -36,3 +42,9 @@ Aspose.Page for .NET 打开了通向电子文档创建的无限可能世界的�
 了解如何使用 Aspose.Page 在 .NET 中创建 PostScript 文档。请按照我们的分步指南进行无缝集成。下载该库并开始轻松操作 PostScript 文件。
 ### [使用 Aspose.Page for .NET 修改 XPS 文档](./modify-xps-document/)
 探索 Aspose.Page for .NET 的强大功能，轻松修改 XPS 文档。按照我们的分步指南，增强您的文档处理，并添加个性化签名文本。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

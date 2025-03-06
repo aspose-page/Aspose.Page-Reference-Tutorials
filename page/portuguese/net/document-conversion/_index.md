@@ -3,10 +3,16 @@ title: Conversão de documentos
 linktitle: Conversão de documentos
 second_title: API Aspose.Page .NET
 description: Converta PostScript em PDF e XPS em PDF sem esforço com os tutoriais Aspose.Page para .NET. Soluções robustas, confiáveis e fáceis para conversão perfeita de documentos.
-type: docs
 weight: 24
 url: /pt/net/document-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Conversão de documentos
+
 
 ## Introdução
 
@@ -34,3 +40,9 @@ Concluindo, Aspose.Page for .NET fornece tutoriais que não apenas tornam a conv
 Converta facilmente PostScript em PDF usando Aspose.Page for .NET. Robusto, confiável e amigável ao desenvolvedor.
 ### [Converta XPS em PDF com Aspose.Page para .NET](./convert-xps-to-pdf/)
 Converta facilmente XPS para PDF em .NET com Aspose.Page. Baixe a biblioteca, explore a documentação e faça uma avaliação gratuita.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

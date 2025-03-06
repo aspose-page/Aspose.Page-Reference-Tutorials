@@ -3,10 +3,16 @@ title: Thao tác văn bản - XPS
 linktitle: Thao tác văn bản - XPS
 second_title: API Java Aspose.Page
 description: Cách mạng hóa các tài liệu Java XPS của bạn với Aspose.Page. Khám phá hướng dẫn từng bước về thao tác văn bản. Nâng cao kỹ năng của bạn để cải thiện tài liệu dễ dàng.
-type: docs
 weight: 37
 url: /vi/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác văn bản - XPS
+
 
 Cách mạng hóa các tài liệu Java XPS của bạn bằng các hướng dẫn Aspose.Page. Khám phá hướng dẫn từng bước về thao tác văn bản. Nâng cao kỹ năng của bạn để cải thiện tài liệu dễ dàng.
 
@@ -36,3 +42,9 @@ Với hướng dẫn Aspose.Page dành cho Java, thao tác văn bản trong tài
 ## Thao tác văn bản - Hướng dẫn XPS
 ### [Thêm văn bản trong Java XPS](./add-text/)
 Nâng cao tài liệu Java XPS của bạn với Aspose.Page! Hãy làm theo hướng dẫn từng bước của chúng tôi để thêm văn bản một cách dễ dàng. Nâng cao kỹ năng thao tác tài liệu của bạn ngay hôm nay.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

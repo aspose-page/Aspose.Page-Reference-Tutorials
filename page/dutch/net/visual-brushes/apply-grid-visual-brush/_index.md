@@ -3,10 +3,16 @@ title: Pas Grid Visual Brush toe met Aspose.Page voor .NET
 linktitle: Breng raster visuele penseel aan
 second_title: Aspose.Page .NET-API
 description: Ontdek de dynamische wereld van documentverwerking in .NET met Aspose.Page. Leer hoe u een visueel rasterpenseel kunt toepassen voor visueel verbluffende documenten.
-type: docs
 weight: 10
 url: /nl/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas Grid Visual Brush toe met Aspose.Page voor .NET
+
 ## Invoering
 
 In de wereld van .NET-ontwikkeling onderscheidt Aspose.Page zich als een krachtig hulpmiddel voor het afhandelen van documentverwerkingstaken. Een fascinerende functie die het biedt, is de mogelijkheid om een visueel rasterpenseel toe te passen, waardoor uw documenten een nieuwe dimensie krijgen. Deze tutorial begeleidt u stap voor stap bij het implementeren van een Magenta Grid Visual Brush met behulp van Aspose.Page voor .NET.
@@ -143,3 +149,9 @@ A1: Ja, Aspose.Page voor .NET is veelzijdig en kan in verschillende toepassingst
 ### V5: Welke andere documentatie is beschikbaar voor Aspose.Page voor .NET?
 
  A5: Ontdek de uitgebreide documentatie[hier](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

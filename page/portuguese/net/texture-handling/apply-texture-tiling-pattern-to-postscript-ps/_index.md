@@ -3,10 +3,16 @@ title: Aplicar padrão de ladrilho de textura a PostScript (PS) com Aspose.Page
 linktitle: Aplicar padrão de ladrilho de textura ao PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Aprimore seus documentos PostScript (PS) com padrões de ladrilhos de textura usando Aspose.Page for .NET. Siga nosso guia passo a passo para um toque criativo.
-type: docs
 weight: 10
 url: /pt/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar padrão de ladrilho de textura a PostScript (PS) com Aspose.Page
+
 ## Introdução
 
 Bem-vindo a este tutorial passo a passo sobre como aplicar um padrão de ladrilho de textura a um documento PostScript (PS) usando Aspose.Page for .NET. Aspose.Page é uma biblioteca poderosa que permite trabalhar com vários formatos de documentos e, neste tutorial, exploraremos como aprimorar seus documentos PS adicionando padrões de ladrilhos de textura.
@@ -156,3 +162,10 @@ A4: Sim, você pode repetir o processo com diferentes imagens e caminhos.
 ### P5: Onde posso encontrar recursos e suporte adicionais?
 
  A5: Visite o[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) para apoio da comunidade e explorar o[documentação](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

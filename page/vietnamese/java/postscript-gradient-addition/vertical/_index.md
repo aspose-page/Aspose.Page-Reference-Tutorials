@@ -3,10 +3,16 @@ title: Thêm chuyển màu dọc trong Java PostScript
 linktitle: Thêm chuyển màu dọc trong Java PostScript
 second_title: API Java Aspose.Page
 description: Khám phá hướng dẫn từng bước để thêm độ dốc dọc trong Java PostScript với Aspose.Page cho Java. Dễ dàng nâng cao tài liệu của bạn bằng hình ảnh sống động.
-type: docs
 weight: 14
 url: /vi/java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm chuyển màu dọc trong Java PostScript
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước này về cách thêm dải màu dọc trong Java PostScript bằng Aspose.Page cho Java. Nếu bạn muốn cải thiện tài liệu của mình bằng các chuyển màu bắt mắt, hướng dẫn này là dành cho bạn. Aspose.Page dành cho Java cung cấp các công cụ mạnh mẽ để thao tác các tài liệu PostScript một cách liền mạch.
 ## Điều kiện tiên quyết
@@ -101,3 +107,9 @@ Có, Aspose.Page dành cho Java được thiết kế để hoạt động liề
  Bạn có thể mua Aspose.Page cho Java[đây](https://purchase.aspose.com/buy).
 ### Có diễn đàn nào để thảo luận về Aspose.Page không?
  Có, bạn có thể tham gia diễn đàn cộng đồng[đây](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

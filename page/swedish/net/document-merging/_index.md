@@ -3,10 +3,16 @@ title: Sammanfoga dokument
 linktitle: Sammanfoga dokument
 second_title: Aspose.Page .NET API
 description: Slå enkelt ihop PostScript- och XPS-dokument till högkvalitativa PDF-filer med Aspose.Page för .NET. Förbättra din dokumentbehandling med våra steg-för-steg handledningar.
-type: docs
 weight: 25
 url: /sv/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sammanfoga dokument
+
 ## Introduktion
 
 Slå ihop din väg till sömlös dokumenthantering med Aspose.Page för .NET. Upptäck kraften i dokumentsammanslagning med våra omfattande handledningar.
@@ -40,3 +46,9 @@ Lär dig hur du enkelt sammanfogar PostScript-dokument till PDF med Aspose.Page 
 Slå enkelt ihop XPS-dokument till högkvalitativa PDF-filer med Aspose.Page för .NET. Följ vår steg-för-steg-guide för en smidig dokumentkonverteringsupplevelse.
 ### [Slå ihop XPS-dokument med Aspose.Page för .NET](./merge-xps-documents/)
 Slå enkelt ihop XPS-dokument med Aspose.Page för .NET. Följ vår steg-för-steg-guide för sömlös dokumenthantering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

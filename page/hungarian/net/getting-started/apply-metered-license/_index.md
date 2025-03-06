@@ -3,10 +3,16 @@ title: Alkalmazza a mért licencet az Aspose.Page segítségével .NET-hez
 linktitle: Alkalmazza a mért licencet
 second_title: Aspose.Page .NET API
 description: Fedezze fel az Aspose.Page .NET-hez való zökkenőmentes integrációját ezzel a lépésről-lépésre szóló útmutatóval a korlátos licencek alkalmazásáról. Optimalizálja a dokumentumfeldolgozást könnyedén.
-type: docs
 weight: 10
 url: /hu/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alkalmazza a mért licencet az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 Kihasználja az Aspose.Page teljes potenciálját .NET-hez egy mért licenc alkalmazásával. Ez az oktatóanyag végigvezeti a mért licenc beállításának és alkalmazásának folyamatán, biztosítva ennek a nagy teljesítményű .NET-könyvtárnak a zökkenőmentes és optimalizált használatát.
@@ -112,3 +118,9 @@ Ez a részletes útmutató felvértezi Önt azokkal a tudással, amelyek segíts
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Page for .NET számára?
 
  A5: Látogassa meg[ideiglenes engedély/](https://purchase.aspose.com/temporary-license/) ideiglenes engedély megszerzéséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

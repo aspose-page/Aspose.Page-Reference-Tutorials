@@ -3,10 +3,16 @@ title: Αλλαγή μεγέθους εικόνων EPS με το Aspose.Page γ
 linktitle: Αλλαγή μεγέθους εικόνων EPS
 second_title: Aspose.Page .NET API
 description: Εξερευνήστε την απρόσκοπτη διαδικασία αλλαγής μεγέθους εικόνων EPS στο .NET χρησιμοποιώντας το Aspose.Page. Αποκτήστε ακρίβεια σε σημεία, ίντσες, χιλιοστά και ποσοστά χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αλλαγή μεγέθους εικόνων EPS με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Θέλετε να αλλάξετε το μέγεθος των εικόνων EPS χωρίς προβλήματα χρησιμοποιώντας το Aspose.Page για .NET; Αυτό το σεμινάριο είναι ο περιεκτικός οδηγός σας για να χειριστείτε εύκολα το μέγεθος των εικόνων EPS σε διάφορες μονάδες, όπως σημεία, ίντσες, χιλιοστά και ποσοστά. Το Aspose.Page για .NET παρέχει ένα ισχυρό σύνολο εργαλείων και σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία βήμα προς βήμα.
@@ -161,3 +167,9 @@ A2: Το Aspose.Page εστιάζει κυρίως σε μορφές PostScript 
 ### Ε5: Πού μπορώ να αναζητήσω πρόσθετη βοήθεια ή να συζητήσω θέματα;
 
  A5: Επισκεφθείτε το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39) για να συνδεθείτε με την κοινότητα και να λάβετε βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aggiungi modello di tratteggio in Java PostScript
 linktitle: Aggiungi modello di tratteggio in Java PostScript
 second_title: API Java Aspose.Page
 description: Scopri come aggiungere accattivanti modelli di tratteggio ai documenti Java PostScript utilizzando Aspose.Page. Migliora i tuoi contenuti visivi senza sforzo.
-type: docs
 weight: 10
 url: /it/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi modello di tratteggio in Java PostScript
+
 ## introduzione
 Nel mondo della programmazione Java, il miglioramento degli elementi visivi è un requisito comune per gli sviluppatori. Un miglioramento visivo interessante è l'aggiunta di modelli di tratteggio ai documenti PostScript. Questo tutorial ti guiderà attraverso il processo di aggiunta di modelli di tratteggio utilizzando Aspose.Page per Java.
 ## Prerequisiti
@@ -97,3 +103,9 @@ Sì, Aspose.Page per Java è progettato per integrarsi perfettamente con vari fr
  Esplorare la[Aspose.Page per il forum Java](https://forum.aspose.com/c/page/39) per tutorial e supporto della comunità.
 ### Esiste una risorsa di documentazione completa per Aspose.Page per Java?
  Sì, fare riferimento alla documentazione[Qui](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

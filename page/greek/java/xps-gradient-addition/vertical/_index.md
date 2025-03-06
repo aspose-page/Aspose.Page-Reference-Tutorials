@@ -3,10 +3,16 @@ title: Προσθήκη κάθετης κλίσης σε Java XPS
 linktitle: Προσθήκη κάθετης κλίσης σε Java XPS
 second_title: Aspose.Page Java API
 description: Μάθετε πώς μπορείτε να προσθέσετε μια κατακόρυφη διαβάθμιση σε έγγραφα Java XPS με το Aspose.Page. Βελτιώστε την οπτική απήχηση χωρίς κόπο. Οδηγός βήμα προς βήμα στο εσωτερικό.
-type: docs
 weight: 12
 url: /el/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη κάθετης κλίσης σε Java XPS
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να προσθέσετε μια κατακόρυφη διαβάθμιση σε Java XPS χρησιμοποιώντας το Aspose.Page για Java. Η προσθήκη διαβαθμίσεων στα έγγραφά σας XPS μπορεί να βελτιώσει την οπτική ελκυστικότητα του περιεχομένου σας, καθιστώντας το πιο ελκυστικό και αισθητικά ευχάριστο.
 ## Προαπαιτούμενα
@@ -72,3 +78,9 @@ doc.save(dataDir + "VerticalGradient.xps");
  Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Χρειάζεστε βοήθεια ή έχετε ερωτήσεις;
  Επισκεφτείτε την κοινότητα Aspose.Page[δικαστήριο](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

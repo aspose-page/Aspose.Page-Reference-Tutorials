@@ -3,10 +3,16 @@ title: Aspose.Page ile PostScript'e (PS) Dikey Degrade Ekleme
 linktitle: PostScript'e Dikey Degrade Ekleme (PS)
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page'i kullanarak .NET'te PostScript (PS) belgelerine görsel olarak çekici dikey degradeler eklemeyi öğrenin. Bu adım adım kılavuzla belge oluşturma sürecinizi geliştirin.
-type: docs
 weight: 14
 url: /tr/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile PostScript'e (PS) Dikey Degrade Ekleme
+
 ## giriiş
 
 Belge işleme ve oluşturma alanında Aspose.Page for .NET, geliştiriciler için güçlü bir araç olarak öne çıkıyor. Bu eğitim, Aspose.Page for .NET kullanarak PostScript (PS) belgesine dikey degrade ekleme sürecinde size rehberlik edecektir. Bu kılavuzun sonunda görsel olarak çekici bu etkiyi elde etmek için gerekli adımları net bir şekilde anlayacaksınız.
@@ -154,3 +160,9 @@ Cevap3: Aspose.Page, radyal ve yol degradeleri de dahil olmak üzere çeşitli d
 ### S5: Aspose.Page için yardım isteyebileceğim bir topluluk forumu var mı?
 
  A5: Kesinlikle! Şuraya gidin:[Aspose.Page forumu](https://forum.aspose.com/c/page/39) diğer geliştiricilerle bağlantı kurmak ve yardım almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

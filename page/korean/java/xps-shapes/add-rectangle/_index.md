@@ -3,10 +3,16 @@ title: Java XPS에 직사각형 추가
 linktitle: Java XPS에 직사각형 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java XPS에서 직사각형을 추가하는 방법을 알아보세요. 원활한 문서 조작을 위한 단계별 가이드를 따르세요. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /ko/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS에 직사각형 추가
+
 ## 소개
 Aspose.Page를 사용하여 Java XPS에 직사각형을 추가하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다! 숙련된 개발자이든 이제 막 Java XPS를 시작하는 개발자이든 이 튜토리얼에서는 단계별 지침을 통해 프로세스를 안내하여 주제에 대한 깊은 이해를 얻을 수 있습니다.
 ## 전제 조건
@@ -62,3 +68,9 @@ doc.save(dataDir + "AddRectangle_out.xps");
  탐색[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39)더 많은 사례를 확인하고 커뮤니티의 도움을 받으세요.
 ### 구매하기 전에 Aspose.Page를 사용해 볼 수 있나요?
  예, 다음을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/) Aspose.Page의 기능을 경험해보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

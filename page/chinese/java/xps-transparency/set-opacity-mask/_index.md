@@ -3,10 +3,16 @@ title: 在 Java XPS 中设置不透明蒙版
 linktitle: 在 Java XPS 中设置不透明蒙版
 second_title: Aspose.Page Java API
 description: 探索使用 Aspose.Page 在 Java XPS 中设置不透明蒙版的强大功能。请按照我们的分步指南获得视觉增强的文档体验。
-type: docs
 weight: 11
 url: /zh/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java XPS 中设置不透明蒙版
+
 ## 介绍
 欢迎阅读我们有关使用 Aspose.Page 在 Java XPS 中设置不透明蒙版的综合指南。在本教程中，我们将引导您完成使用 Aspose.Page for Java 的强大功能创建 XPS 文档、添加画布以及将不透明蒙版应用于矩形的过程。
 ## 先决条件
@@ -67,3 +73,9 @@ doc.save(dataDir + "OpacityMask_out.xps");
 您可以访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)以获得社区支持或购买许可证以获得高级帮助。
 ### Aspose.Page 有退款保证吗？
 请参阅[购买页面](https://purchase.aspose.com/buy)有关退款政策的信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

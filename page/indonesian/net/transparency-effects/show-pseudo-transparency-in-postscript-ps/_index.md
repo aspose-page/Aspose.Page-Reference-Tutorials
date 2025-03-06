@@ -3,10 +3,16 @@ title: Tampilkan Transparansi Semu di PostScript (PS) dengan Aspose.Page
 linktitle: Tampilkan Transparansi Semu di PostScript (PS)
 second_title: Aspose.Halaman .NET API
 description: Jelajahi kekuatan transparansi semu di PostScript dengan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk mendapatkan dokumen yang menakjubkan secara visual.
-type: docs
 weight: 13
 url: /id/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tampilkan Transparansi Semu di PostScript (PS) dengan Aspose.Page
+
 ## Perkenalan
 
 Apakah Anda ingin meningkatkan daya tarik visual dokumen PostScript (PS) Anda dengan menerapkan transparansi semu? Aspose.Page untuk .NET memberikan solusi ampuh untuk mencapai efek ini dengan mudah. Dalam tutorial langkah demi langkah ini, kami akan memandu Anda melalui proses menampilkan transparansi semu di PostScript menggunakan Aspose.Page.
@@ -129,3 +135,9 @@ A2: Ya, prinsip yang sama dapat diterapkan pada bentuk lain dengan menyesuaikan 
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page?
 
  A5: Kunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan lisensi sementara untuk Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

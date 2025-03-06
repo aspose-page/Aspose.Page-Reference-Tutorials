@@ -3,10 +3,16 @@ title: Αλλάξτε την ονομαστική τιμή με το Aspose.Page
 linktitle: Αλλαγή ονομαστικής τιμής
 second_title: Aspose.Page .NET API
 description: Μάθετε πώς να αλλάζετε ονομαστικές τιμές σε αρχεία EPS χρησιμοποιώντας το Aspose.Page για .NET. Προσαρμόστε τα μεταδεδομένα XMP χωρίς κόπο για προσαρμοσμένη επεξεργασία εγγράφων.
-type: docs
 weight: 16
 url: /el/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αλλάξτε την ονομαστική τιμή με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Στον κόσμο της επεξεργασίας εγγράφων, το Aspose.Page για .NET ξεχωρίζει ως ένα ισχυρό εργαλείο για τον χειρισμό αρχείων EPS. Μία από τις βασικές λειτουργίες που προσφέρει είναι η δυνατότητα αλλαγής ονομαστικών τιμών στα μεταδεδομένα XMP. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία αλλαγής μιας ονομασμένης τιμής χρησιμοποιώντας το Aspose.Page για .NET, δίνοντάς σας τη δυνατότητα να προσαρμόσετε τα αρχεία EPS σας σύμφωνα με τις συγκεκριμένες ανάγκες σας.
@@ -100,3 +106,9 @@ A1: Ναι, το Aspose.Page υποστηρίζει διάφορες μορφέ�
 ### Ε5: Ποιες επιλογές υποστήριξης είναι διαθέσιμες για το Aspose.Page για χρήστες .NET;
 
  A5: Επισκεφθείτε το φόρουμ της κοινότητας[εδώ](https://forum.aspose.com/c/page/39) για υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

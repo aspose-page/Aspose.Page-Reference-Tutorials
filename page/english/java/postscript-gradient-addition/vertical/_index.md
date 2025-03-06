@@ -3,10 +3,16 @@ title: Add Vertical Gradient in Java PostScript
 linktitle: Add Vertical Gradient in Java PostScript
 second_title: Aspose.Page Java API
 description: Explore the step-by-step guide to adding vertical gradients in Java PostScript with Aspose.Page for Java. Enhance your documents effortlessly with vibrant visuals.
-type: docs
 weight: 14
 url: /java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Vertical Gradient in Java PostScript
+
 ## Introduction
 Welcome to this step-by-step guide on adding a vertical gradient in Java PostScript using Aspose.Page for Java. If you want to enhance your document with eye-catching gradients, this tutorial is for you. Aspose.Page for Java provides powerful tools to manipulate PostScript documents seamlessly.
 ## Prerequisites
@@ -101,3 +107,10 @@ Detailed documentation is available [here](https://reference.aspose.com/page/jav
 You can purchase Aspose.Page for Java [here](https://purchase.aspose.com/buy).
 ### Is there a forum for Aspose.Page discussions?
 Yes, you can join the community forum [here](https://forum.aspose.com/c/page/39).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

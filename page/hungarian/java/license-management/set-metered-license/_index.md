@@ -3,10 +3,16 @@ title: Könnyedén mérhető licencintegráció az Aspose.Page Java-val
 linktitle: Állítsa be a mért licencet a Java-ban
 second_title: Aspose.Page Java API
 description: Fedezze fel az Aspose.Page és a Java zökkenőmentes integrációját. Könnyedén állíthat be fizetős licenceket, és javíthatja dokumentumfeldolgozási képességeit.
-type: docs
 weight: 10
 url: /hu/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Könnyedén mérhető licencintegráció az Aspose.Page Java-val
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban, amely az Aspose.Page használatával állíthatja be a fizetős licenceket Java nyelven. Ha javítani szeretné dokumentumfeldolgozási képességeit, és biztosítani szeretné az Aspose.Page zökkenőmentes integrációját, akkor jó helyen jár. Ebben az oktatóanyagban végigvezetjük a folyamaton, az egyes lépéseket könnyen emészthető darabokra bontva.
 ## Előfeltételek
@@ -100,3 +106,9 @@ Ezeket a kulcsokat Aspose-fiókján keresztül szerezheti be.
  Lásd a dokumentációt[itt](https://reference.aspose.com/page/java/).
 ### K: Hogyan szerezhetek ideiglenes engedélyeket?
  Ideiglenes jogosítványok szerezhetők be[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

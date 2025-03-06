@@ -3,10 +3,16 @@ title: 図形の描画
 linktitle: 図形の描画
 second_title: Aspose.Page .NET API
 description: .NET でのドキュメント作成を簡単に強化します。 Aspose.Page .NET を使用して PostScript (PS) に円、楕円、四角形を追加するためのステップバイステップのチュートリアルを学習します。
-type: docs
 weight: 31
 url: /ja/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 図形の描画
+
 ## はじめに
 
 Aspose.Page for .NET は、開発者が .NET 環境でのドキュメント作成を強化できるようにします。ステップバイステップのチュートリアルに進んで、魅力的な図形を PostScript (PS) および XPS ドキュメントに追加する技術を習得してください。
@@ -33,3 +39,9 @@ Aspose.Page for .NET を使用して、鮮やかな放射状グラデーショ�
 Aspose.Page を使用して .NET でのドキュメント作成を強化します。 PostScript (PS) ファイルに四角形を追加する方法を段階的に学習します。
 ### [Aspose.Page for .NET を使用して XPS ドキュメントに四角形を追加する](./add-rectangle-to-xps-document/)
 Aspose.Page for .NET を使用してドキュメント作成を強化します。このステップバイステップのチュートリアルで、XPS ドキュメントに四角形を追加する方法を学びます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

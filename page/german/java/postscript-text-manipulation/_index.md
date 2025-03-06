@@ -3,10 +3,16 @@ title: Textmanipulation – PostScript
 linktitle: Textmanipulation – PostScript
 second_title: Aspose.Page Java-API
 description: Nutzen Sie das Potenzial von Aspose.Page für Java mit PostScript-Tutorials. Fügen Sie mühelos Text, einschließlich Unicode-Strings, hinzu, um Ihre Projekte zu verbessern.
-type: docs
 weight: 36
 url: /de/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Textmanipulation – PostScript
+
 
 ## Einführung
 
@@ -30,3 +36,9 @@ Ganz gleich, ob Sie Ihre Textmanipulationsfähigkeiten verfeinern oder ein neues
 Entdecken Sie die Leistungsfähigkeit von Aspose.Page für Java in unserem Tutorial zum Hinzufügen von Text zu PostScript-Dokumenten. Lernen Sie, System- und benutzerdefinierte Schriftarten problemlos zu verwenden.
 ### [Fügen Sie Text mithilfe einer Unicode-Zeichenfolge in Java PostScript hinzu](./add-text-unicode/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.Page für Java beim Hinzufügen von Unicode-Text zu Ihren PostScript-Projekten. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

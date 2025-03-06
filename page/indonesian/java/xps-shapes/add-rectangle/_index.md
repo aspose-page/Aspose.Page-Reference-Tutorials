@@ -3,10 +3,16 @@ title: Tambahkan Persegi Panjang di Java XPS
 linktitle: Tambahkan Persegi Panjang di Java XPS
 second_title: Aspose.Halaman Java API
 description: Pelajari cara menambahkan persegi panjang di Java XPS menggunakan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk manipulasi dokumen yang lancar. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /id/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Persegi Panjang di Java XPS
+
 ## Perkenalan
 Selamat datang di panduan komprehensif tentang menambahkan persegi panjang di Java XPS menggunakan Aspose.Page! Baik Anda seorang pengembang berpengalaman atau baru memulai dengan Java XPS, tutorial ini akan memandu Anda melalui proses dengan petunjuk langkah demi langkah, memastikan Anda mendapatkan pemahaman mendalam tentang topik tersebut.
 ## Prasyarat
@@ -62,3 +68,9 @@ Sangat! Aspose.Page menyediakan serangkaian fitur canggih untuk menangani berbag
  Jelajahi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39)untuk mendapatkan lebih banyak contoh dan mencari bantuan dari komunitas.
 ### Bisakah saya mencoba Aspose.Page sebelum membeli?
  Ya, Anda dapat menjelajahi a[uji coba gratis](https://releases.aspose.com/) untuk merasakan kemampuan Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

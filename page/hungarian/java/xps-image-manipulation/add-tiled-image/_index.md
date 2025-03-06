@@ -3,10 +3,16 @@ title: Adjon hozzá csempézett képet a Java XPS-ben
 linktitle: Adjon hozzá csempézett képet a Java XPS-ben
 second_title: Aspose.Page Java API
 description: Fedezze fel a zökkenőmentes Java XPS dokumentumkezelést az Aspose.Page segítségével. Ennek a lépésről-lépésre szóló útmutatónak a segítségével megtanulhatja, hogyan adhat hozzá mozaikszerű képeket.
-type: docs
 weight: 11
 url: /hu/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá csempézett képet a Java XPS-ben
+
 ## Bevezetés
 Java fejlesztés dinamikus világában egyre növekszik a hatékony dokumentumkezelés és -készítés iránti igény. Az Aspose.Page for Java hatékony eszközként jelenik meg, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak XPS-dokumentumokkal. Ez az oktatóanyag egy konkrét feladatra összpontosít – mozaikkép hozzáadása Java XPS dokumentumhoz.
 ## Előfeltételek
@@ -68,3 +74,9 @@ Igen, az Aspose.Page kereskedelmi licenceket kínál. Vásárolja meg őket[itt]
  Vegyen részt az Aspose.Page közösséggel a webhelyen[fórum](https://forum.aspose.com/c/page/39).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Page számára?
  Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

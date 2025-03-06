@@ -3,10 +3,16 @@ title: 填充图案 - PostScript
 linktitle: 填充图案 - PostScript
 second_title: Aspose.Page Java API
 description: 探索使用 Aspose.Page 将迷人的填充图案添加到 Java PostScript 文档的艺术。轻松提升视觉内容以获得令人惊叹的输出。
-type: docs
 weight: 27
 url: /zh/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 填充图案 - PostScript
+
 ## 介绍
 
 使用 Aspose.Page 创建具有视觉吸引力的 Java PostScript 文档变得轻而易举。在本教程中，我们将深入探讨填充图案的迷人世界，探索如何轻松增强视觉内容。
@@ -30,3 +36,9 @@ url: /zh/java/postscript-hatch-patterns/
 ## 填充图案 - PostScript 教程
 ### [在 Java PostScript 中添加填充图案](./add-hatch-pattern/)
 了解如何使用 Aspose.Page 将迷人的填充图案添加到 Java PostScript 文档中。轻松提升您的视觉内容。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

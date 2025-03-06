@@ -3,10 +3,16 @@ title: Apply Metered License with Aspose.Page for .NET
 linktitle: Apply Metered License
 second_title: Aspose.Page .NET API
 description: Explore the seamless integration of Aspose.Page for .NET with this step-by-step guide on applying a metered license. Optimize document processing effortlessly.
-type: docs
 weight: 10
 url: /net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Apply Metered License with Aspose.Page for .NET
+
 ## Introduction
 
 Unlock the full potential of Aspose.Page for .NET by applying a metered license. This tutorial will guide you through the process of setting up and applying the metered license, ensuring smooth and optimized usage of this powerful .NET library.
@@ -112,3 +118,10 @@ A4: Absolutely! Access the free trial at [here](https://releases.aspose.com/).
 ### Q5: How can I obtain a temporary license for Aspose.Page for .NET?
 
 A5: Visit [temporary license/](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

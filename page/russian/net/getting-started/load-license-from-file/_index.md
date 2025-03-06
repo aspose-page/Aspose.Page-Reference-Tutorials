@@ -3,10 +3,16 @@ title: Загрузите лицензию из файла с помощью Asp
 linktitle: Загрузить лицензию из файла
 second_title: Aspose.Page .NET API
 description: Раскройте весь потенциал Aspose.Page для .NET, освоив искусство загрузки лицензий из файлов. Беспрепятственно расширяйте возможности обработки документов.
-type: docs
 weight: 11
 url: /ru/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Загрузите лицензию из файла с помощью Aspose.Page для .NET
+
 ## Введение
 
 Добро пожаловать в мир Aspose.Page для .NET! Если вы хотите расширить возможности обработки документов с помощью платформы .NET, вы попали по адресу. В этом руководстве мы проведем вас через процесс загрузки лицензии из файла с помощью Aspose.Page для .NET. Этот важный шаг гарантирует, что вы используете весь потенциал этой мощной библиотеки.
@@ -91,3 +97,9 @@ Console.WriteLine("License set successfully.");
 ### В5: Нужна помощь или есть вопросы? 
 
  A5: Посетите[Форум Aspose.Page](https://forum.aspose.com/c/page/39) для поддержки сообщества.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Dodaj siatkę za pomocą pędzla wizualnego w Javie
 linktitle: Dodaj siatkę za pomocą pędzla wizualnego w Javie
 second_title: Aspose.Page API Java
 description: Ulepsz wizualizację dokumentów Java za pomocą Aspose.Page! Dowiedz się, jak krok po kroku dodawać siatki za pomocą pędzla wizualnego. Podnieś atrakcyjność swojej aplikacji bez wysiłku.
-type: docs
 weight: 10
 url: /pl/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj siatkę za pomocą pędzla wizualnego w Javie
+
 ## Wstęp
 Czy chcesz ulepszyć swoje aplikacje Java za pomocą atrakcyjnych wizualnie siatek przy użyciu Aspose.Page? W tym samouczku przeprowadzimy Cię przez proces dodawania siatki przy użyciu narzędzia Visual Brush w Javie z Aspose.Page. Pędzel wizualny umożliwia pomalowanie obszaru treścią wizualną, tworząc w dokumentach wspaniałe efekty siatki.
 ## Warunki wstępne
@@ -84,3 +90,9 @@ Absolutnie! Visual Brush umożliwia malowanie różnymi kolorami, zapewniając e
  Tak, możesz uzyskać dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/) aby poznać funkcje Aspose.Page.
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Page?
  Zdobądź A[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do celów testowych.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Horizontaal verloop toevoegen in Java PostScript
 linktitle: Horizontaal verloop toevoegen in Java PostScript
 second_title: Aspose.Page Java-API
 description: Leer hoe u een horizontaal verloop toevoegt in Java PostScript met Aspose.Page voor Java. Creëer moeiteloos visueel verbluffende documenten.
-type: docs
 weight: 11
 url: /nl/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Horizontaal verloop toevoegen in Java PostScript
+
 ## Invoering
 Welkom bij deze uitgebreide tutorial over het toevoegen van een horizontaal verloop in Java PostScript met behulp van Aspose.Page voor Java. Aspose.Page is een krachtige Java-bibliotheek waarmee ontwikkelaars met PostScript en andere documentformaten kunnen werken. In deze zelfstudie begeleiden we u door het proces van het maken van een PostScript-document met een horizontaal verloop aan de hand van stapsgewijze voorbeelden.
 ## Vereisten
@@ -82,3 +88,9 @@ Ja, Aspose.Page voor Java kan in commerciële projecten worden gebruikt. Ga voor
  Een tijdelijke licentie kunt u verkrijgen bij[Aspose.Aankoop](https://purchase.aspose.com/temporary-license/).
 ### Wat zijn de systeemvereisten voor Aspose.Page voor Java?
  Verwijs naar de[documentatie](https://reference.aspose.com/page/java/) voor gedetailleerde systeemvereisten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

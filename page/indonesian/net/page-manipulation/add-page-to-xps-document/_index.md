@@ -3,10 +3,16 @@ title: Tambahkan Halaman ke Dokumen XPS dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Halaman ke Dokumen XPS
 second_title: Aspose.Halaman .NET API
 description: Tingkatkan aplikasi .NET Anda dengan mempelajari cara menambahkan halaman ke dokumen XPS dengan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
-type: docs
 weight: 11
 url: /id/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Halaman ke Dokumen XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Jika Anda bekerja dengan dokumen XPS di .NET dan perlu menambahkan halaman secara terprogram, Aspose.Page untuk .NET adalah solusi tepat Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan halaman ke dokumen XPS langkah demi langkah. Sebagai penulis SEO yang mahir, saya akan memastikan bahwa panduan ini tidak hanya informatif, tetapi juga dibuat dengan mempertimbangkan optimasi mesin pencari, menjadikannya sumber daya yang berharga bagi pengembang dan pembuat konten.
@@ -86,3 +92,10 @@ A4: Ya, Anda dapat mengakses uji coba gratis Aspose.Page untuk .NET[Di Sini](htt
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page untuk .NET?
 
  A5: Kunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara untuk tujuan pengujian.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

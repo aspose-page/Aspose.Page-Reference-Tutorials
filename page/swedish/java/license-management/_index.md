@@ -3,10 +3,16 @@ title: Licenshantering
 linktitle: Licenshantering
 second_title: Aspose.Page Java API
 description: Lås upp den fulla potentialen hos Aspose.Page för Java med våra License Management Tutorials. Konfigurera uppmätta licenser sömlöst för att förbättra dokumentbehandlingskapaciteten.
-type: docs
 weight: 30
 url: /sv/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenshantering
+
 ## Introduktion
 
 Välkommen till License Management Tutorials för Aspose.Page i Java! I den här omfattande guiden kommer vi att fördjupa oss i krångligheterna med att ställa in mätlicenser för att optimera dina dokumentbehandlingsmöjligheter. Låt oss ge oss ut på en resa som frigör den fulla potentialen hos Aspose.Page, vilket säkerställer en sömlös integration med Java.
@@ -39,3 +45,9 @@ Våra License Management Tutorials för Aspose.Page i Java är din inkörsport t
 ## Handledning för licenshantering
 ### [Ställ in mätlicens i Java](./set-metered-license/)
 Utforska den sömlösa integrationen av Aspose.Page med Java. Konfigurera mätlicenser utan ansträngning och förbättra dina dokumentbehandlingsmöjligheter.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

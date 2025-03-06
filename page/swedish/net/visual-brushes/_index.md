@@ -3,10 +3,16 @@ title: Visuella borstar
 linktitle: Visuella borstar
 second_title: Aspose.Page .NET API
 description: Öka din dokumentbehandling i .NET med Aspose.Page-handledningar. Dyk in i riket av Visual Brushes, behärska tekniker för visuellt fantastiska dokument.
-type: docs
 weight: 35
 url: /sv/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visuella borstar
+
 
 ## Introduktion
 
@@ -36,3 +42,9 @@ Kom ihåg att kraften att förvandla dina dokument ligger i dina händer. Låt A
 ## Handledning för visuella borstar
 ### [Applicera Grid Visual Brush med Aspose.Page för .NET](./apply-grid-visual-brush/)
 Utforska den dynamiska världen av dokumentbehandling i .NET med Aspose.Page. Lär dig hur du använder en visuell rutnätspensel för visuellt imponerande dokument.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 인쇄 티켓 관리
 linktitle: 인쇄 티켓 관리
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 맞춤형 인쇄 티켓을 만들고 편집하세요. XPS 문서의 세밀한 제어를 통해 손쉽게 인쇄 환경을 맞춤화하세요.
-type: docs
 weight: 30
 url: /ko/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 인쇄 티켓 관리
+
 
 ## 소개
 
@@ -34,3 +40,9 @@ url: /ko/net/print-ticket-management/
 .NET용 Aspose.Page를 사용하여 맞춤형 인쇄 티켓을 만드는 방법에 대한 단계별 가이드를 살펴보세요. 세밀한 제어로 인쇄 환경을 맞춤화하세요.
 ### [.NET용 Aspose.Page를 사용하여 기존 인쇄 티켓 편집](./print-ticket-management/aspose.page/)
 .NET용 Aspose.Page를 사용하여 XPS 문서에서 인쇄 티켓을 편집하는 방법을 알아보세요. 개발자를 위한 단계별 가이드입니다. 문서 인쇄 제어를 손쉽게 강화하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

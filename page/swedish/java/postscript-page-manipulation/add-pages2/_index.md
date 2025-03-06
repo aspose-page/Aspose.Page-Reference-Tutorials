@@ -3,10 +3,16 @@ title: Aspose.Page Java Tutorial - Lägga till sidor i PostScript
 linktitle: Lägga till sidor i PostScript
 second_title: Aspose.Page Java API
 description: Lär dig hur du lägger till sidor i Java PostScript-dokument med Aspose.Page. Följ vår steg-för-steg-guide för sömlös dokumenthantering.
-type: docs
 weight: 11
 url: /sv/java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java Tutorial - Lägga till sidor i PostScript
+
 ## Introduktion
 en värld av dokumenthantering och hantering framstår Aspose.Page för Java som ett kraftfullt verktyg för att hantera PostScript-dokument. Att lägga till sidor i ett PostScript-dokument är ett vanligt krav i många applikationer. I den här handledningen kommer vi att utforska processen att lägga till sidor med Aspose.Page för Java, och dela upp varje steg för att göra inlärningsupplevelsen sömlös.
 ## Förutsättningar
@@ -71,3 +77,9 @@ Absolut! Aspose.Page låter dig lägga till ett brett utbud av innehåll, inklus
 Ja, Aspose.Page är designad för att effektivt hantera både små och stora dokument med lätthet.
 ### Var kan jag hitta ytterligare resurser och support för Aspose.Page?
  Utforska[Aspose.Page dokumentation](https://reference.aspose.com/page/java/) , eller besök[Aspose.Page forum](https://forum.aspose.com/c/page/39) för samhällsstöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

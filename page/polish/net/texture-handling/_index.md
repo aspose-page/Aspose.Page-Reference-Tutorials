@@ -3,10 +3,16 @@ title: Obsługa tekstur
 linktitle: Obsługa tekstur
 second_title: Aspose.Page API .NET
 description: Ulepsz dokumenty PostScript za pomocą oszałamiających efektów wizualnych! Naucz się stosować wzorce kafelkowania tekstur za pomocą Aspose.Page dla .NET, korzystając z naszego przewodnika krok po kroku.
-type: docs
 weight: 33
 url: /pl/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obsługa tekstur
+
 ## Wstęp
 
 W dziedzinie manipulacji dokumentami opanowanie obsługi tekstur może otworzyć świat kreatywnych możliwości. Aspose.Page dla .NET jest potężnym sojusznikiem dla programistów pragnących wznieść swoje dokumenty PostScript (PS) na nowy poziom. W tym artykule zagłębiamy się w fascynujący świat samouczków dotyczących obsługi tekstur, skupiając się szczególnie na stosowaniu wzorów kafelków tekstur.
@@ -36,3 +42,9 @@ Podsumowując, nasze samouczki dotyczące obsługi tekstur, skupiające się na 
 ## Poradniki dotyczące obsługi tekstur
 ### [Zastosuj wzór kafelkowania tekstury do PostScript (PS) za pomocą Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
 Ulepsz swoje dokumenty PostScript (PS) za pomocą wzorów kafelków tekstur za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać kreatywny akcent.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

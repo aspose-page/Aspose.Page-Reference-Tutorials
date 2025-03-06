@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 將垂直漸層新增至 PostScript (PS)
 linktitle: 新增垂直漸層到 PostScript (PS)
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page 將具有視覺吸引力的垂直漸層新增至 .NET 中的 PostScript (PS) 文件。透過此逐步指南提升您的文件建立等級。
-type: docs
 weight: 14
 url: /zh-hant/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 將垂直漸層新增至 PostScript (PS)
+
 ## 介紹
 
 在文件操作和建立領域，Aspose.Page for .NET 成為開發人員的強大工具。本教學將引導您完成使用 Aspose.Page for .NET 將垂直漸層新增至 PostScript (PS) 文件的過程。閱讀本指南後，您將清楚地了解實現這種視覺吸引力效果的必要步驟。
@@ -154,3 +160,9 @@ A3：Aspose.Page支援各種漸層類型，包括徑向漸層和路徑漸層。�
 ### Q5：Aspose.Page 有社群論壇可以尋求協助嗎？
 
  A5：當然！前往[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)與其他開發人員聯繫並獲得協助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

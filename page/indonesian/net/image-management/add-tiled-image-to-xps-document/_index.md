@@ -3,10 +3,16 @@ title: Tambahkan Gambar Ubin ke Dokumen XPS dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Gambar Ubin ke Dokumen XPS
 second_title: Aspose.Halaman .NET API
 description: Jelajahi penambahan gambar ubin ke dokumen XPS dengan mudah menggunakan Aspose.Page untuk .NET. Tingkatkan daya tarik visual dan buat dokumen yang menakjubkan.
-type: docs
 weight: 12
 url: /id/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gambar Ubin ke Dokumen XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Apakah Anda ingin menyempurnakan dokumen XPS Anda dengan menambahkan gambar ubin yang menarik secara visual? Aspose.Page untuk .NET memberdayakan pengembang untuk mencapai hal ini dengan lancar. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menambahkan gambar ubin ke dokumen XPS menggunakan Aspose.Page untuk .NET.
@@ -95,3 +101,9 @@ A2: Tentu saja, seperti yang ditunjukkan dalam contoh, Anda dapat mengatur opaci
 ### Q5: Di mana saya dapat mencari bantuan atau terhubung dengan komunitas Aspose.Page?
 
  A5: Kunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk terlibat dengan komunitas, mengajukan pertanyaan, dan menemukan solusi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

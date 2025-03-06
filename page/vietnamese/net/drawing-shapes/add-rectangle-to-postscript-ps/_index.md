@@ -3,10 +3,16 @@ title: Thêm hình chữ nhật vào PostScript (PS) bằng Aspose.Page for .NET
 linktitle: Thêm hình chữ nhật vào PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Nâng cao khả năng tạo tài liệu trong .NET với Aspose.Page. Tìm hiểu cách thêm hình chữ nhật vào tệp PostScript (PS) theo từng bước.
-type: docs
 weight: 12
 url: /vi/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình chữ nhật vào PostScript (PS) bằng Aspose.Page for .NET
+
 ## Giới thiệu
 
 Nếu bạn đang tìm cách nâng cao khả năng tạo tài liệu của mình trong .NET, Aspose.Page cung cấp một giải pháp mạnh mẽ để xử lý các tài liệu PostScript. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hình chữ nhật vào tài liệu PostScript bằng Aspose.Page cho .NET.
@@ -133,3 +139,10 @@ Câu trả lời 2: Có, Aspose.Page hỗ trợ nhiều định dạng tài li�
 ### Câu 5: Tôi có thể dùng thử Aspose.Page trước khi mua không?
 
  Câu trả lời 5: Có, bạn có thể tải phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) và để sử dụng lâu dài, hãy xem xét một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

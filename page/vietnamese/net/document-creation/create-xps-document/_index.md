@@ -3,10 +3,16 @@ title: Tạo tài liệu XPS với Aspose.Page cho .NET
 linktitle: Tạo tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Khám phá thế giới tạo tài liệu XPS với Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tạo tài liệu điện tử một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/document-creation/create-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu XPS với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách tạo tài liệu XPS bằng Aspose.Page cho .NET. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình tạo tệp XPS, một định dạng được sử dụng rộng rãi cho các tài liệu điện tử. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với Aspose.Page, hướng dẫn này được thiết kế riêng để giúp bạn tạo tài liệu XPS một cách liền mạch với các ví dụ rõ ràng và giải thích chi tiết.
@@ -108,3 +114,9 @@ A4: Chắc chắn rồi! Bạn có thể thêm nhiều trang vào tài liệu XP
 ### Câu 5: Có phiên bản dùng thử không?
 
  Câu trả lời 5: Có, bạn có thể khám phá các tính năng của Aspose.Page bằng cách tải xuống[dùng thử miễn phí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

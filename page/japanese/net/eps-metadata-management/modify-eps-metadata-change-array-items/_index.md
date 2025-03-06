@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して配列項目を変更する
 linktitle: 配列項目の変更
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して EPS ファイル内の配列項目を変更する方法を学習します。メタデータを効率的に操作するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 15
 url: /ja/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して配列項目を変更する
+
 ## 導入
 
 Aspose.Page for .NET を使用した配列項目の変更に関するこの包括的なガイドへようこそ。 Aspose.Page は、開発者が EPS ファイルなどのさまざまなドキュメント形式を操作できるようにする強力なライブラリです。このチュートリアルでは、EPS ファイル内の XMP メタデータの操作、特に配列項目の変更に焦点を当てます。
@@ -99,3 +105,9 @@ A1: Aspose.Page は主に EPS ファイルを扱いますが、Aspose はさま�
 ### Q5: どこでサポートを受けたり、コミュニティとつながったりできますか?
 
  A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティのサポートとディスカッションのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

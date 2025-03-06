@@ -3,10 +3,16 @@ title: Thêm đối tượng trong suốt vào tài liệu XPS bằng Aspose.Pag
 linktitle: Thêm đối tượng trong suốt vào tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách thêm đối tượng trong suốt vào tài liệu XPS trong .NET bằng Aspose.Page. Tăng cường sự hấp dẫn trực quan với hướng dẫn từng bước.
-type: docs
 weight: 11
 url: /vi/net/transparency-effects/add-transparent-object-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm đối tượng trong suốt vào tài liệu XPS bằng Aspose.Page
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm các đối tượng trong suốt vào tài liệu XPS bằng Aspose.Page cho .NET. Tính minh bạch trong tài liệu XPS có thể nâng cao sức hấp dẫn trực quan và truyền tải thông tin một cách hiệu quả. Chúng tôi sẽ chia quy trình thành các bước có thể quản lý được, đảm bảo sự rõ ràng và dễ hiểu.
@@ -132,3 +138,9 @@ Câu trả lời 4: Aspose.Page cung cấp chức năng xuất tài liệu XPS s
 ### Câu hỏi 5: Tôi có thể tìm thêm hỗ trợ và thảo luận cộng đồng ở đâu?
 
  Câu trả lời 5: Để được hỗ trợ thêm và thảo luận trong cộng đồng, hãy truy cập[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

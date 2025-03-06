@@ -3,10 +3,16 @@ title: 页面操作
 linktitle: 页面操作
 second_title: Aspose.Page .NET API
 description: 探索 Aspose.Page for .NET 在操作 PostScript 和 XPS 文档方面的强大功能。通过我们的综合教程学习添加、增强和删除页面。
-type: docs
 weight: 29
 url: /zh/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 页面操作
+
 
 ## 介绍
 
@@ -35,3 +41,9 @@ Aspose.Page for .NET 是在 .NET 项目中轻松操作 PostScript 文档的终�
 通过学习如何使用 Aspose.Page for .NET 将页面添加到 XPS 文档来增强您的 .NET 应用程序。请按照我们的分步指南进行无缝集成。
 ### [使用 Aspose.Page for .NET 从 XPS 文档中删除页面](./remove-page-from-xps-document/)
 探索有关使用 Aspose.Page for .NET 从 XPS 文档中删除页面的综合教程。了解无缝文档操作的分步流程、先决条件和常见问题解答。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

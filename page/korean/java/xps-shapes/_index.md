@@ -3,10 +3,16 @@ title: 도형 - XPS
 linktitle: 도형 - XPS
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page 튜토리얼을 통해 Java XPS의 마법을 발견해보세요! 매력적인 타원과 직사각형을 쉽게 추가할 수 있습니다. 단계별 가이드를 통해 문서 작성 수준을 높이세요.
-type: docs
 weight: 35
 url: /ko/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 도형 - XPS
+
 ## 소개
 
 Java XPS를 사용하여 문서 작성의 놀라운 영역을 탐구할 준비가 되셨습니까? 모양 조작의 잠재력을 최대한 활용하기 위한 신뢰할 수 있는 동반자인 Aspose.Page를 만나보세요. 이 튜토리얼 시리즈에서는 매혹적인 모양을 추가하여 문서를 쉽게 돋보이게 하는 복잡한 방법을 안내합니다.
@@ -33,3 +39,9 @@ Java XPS를 사용하여 문서 작성의 놀라운 영역을 탐구할 준비�
 Java용 Aspose.Page를 사용하여 Java XPS에서 방사형 그래디언트 스트로크 타원을 추가하는 방법에 대한 단계별 가이드를 살펴보세요. 손쉽게 문서 작성 기능을 향상해 보세요.
 ### [Java XPS에 직사각형 추가](./add-rectangle/)
 Aspose.Page를 사용하여 Java XPS에서 직사각형을 추가하는 방법을 알아보세요. 원활한 문서 조작을 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Penggabungan File
 linktitle: Penggabungan File
 second_title: Aspose.Halaman Java API
 description: Gabungkan file PostScript ke PDF dengan mudah dan konversi XPS ke PDF atau XPS di Java menggunakan Aspose.Page. Ikuti tutorial langkah demi langkah untuk konversi dokumen yang lancar.
-type: docs
 weight: 31
 url: /id/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penggabungan File
+
 
 ## Perkenalan
 
@@ -40,3 +46,9 @@ Gabungkan file PostScript ke PDF dengan mudah di Java dengan Aspose.Page. Tutori
 Pelajari cara mengonversi XPS ke PDF di Java dengan mudah dengan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk konversi dokumen yang efisien.
 ### [Konversi XPS ke XPS di Java](./xps-to-xps/)
 Pelajari cara menggabungkan file XPS di Java dengan lancar menggunakan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk manipulasi dokumen yang efisien. Tingkatkan keterampilan pengembangan Java Anda sekarang!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulacja tekstem w Aspose.Page w Javie
 linktitle: Dodaj tekst w języku Java PostScript
 second_title: Aspose.Page API Java
 description: Poznaj możliwości Aspose.Page dla Java w naszym samouczku na temat dodawania tekstu do dokumentów PostScript. Naucz się z łatwością korzystać z czcionek systemowych i niestandardowych.
-type: docs
 weight: 10
 url: /pl/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja tekstem w Aspose.Page w Javie
+
 ## Wstęp
 Witamy w naszym przewodniku krok po kroku dotyczącym dodawania tekstu w języku Java PostScript przy użyciu Aspose.Page dla języka Java. Aspose.Page dla Java to potężna biblioteka, która pozwala programistom z łatwością manipulować dokumentami PostScript. W tym samouczku przeprowadzimy Cię przez proces dodawania tekstu, używania czcionek systemowych i niestandardowych, obrysowywania tekstu i dodawania obrysów, aby uzyskać atrakcyjny wizualnie efekt.
 ## Warunki wstępne
@@ -99,3 +105,9 @@ Absolutnie! Możesz utworzyć wiele stron, powtarzając kroki tworzenia i zapisy
 `ExternalFontCache` służy do pobierania niestandardowych czcionek, zapewniając ich dostępność do manipulacji tekstem.
 ### Czy mogę zastosować różne obrysy do zaznaczonego tekstu?
  Tak, możesz dostosować szerokość i kolor obrysu za pomocą`Stroke` klasa i`Color` klasy, odpowiednio.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

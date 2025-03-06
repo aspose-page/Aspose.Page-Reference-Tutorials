@@ -3,10 +3,16 @@ title: 在 Java PostScript 中添加水平渐变
 linktitle: 在 Java PostScript 中添加水平渐变
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page for Java 在 Java PostScript 中添加水平渐变。轻松创建视觉上令人惊叹的文档。
-type: docs
 weight: 11
 url: /zh/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PostScript 中添加水平渐变
+
 ## 介绍
 欢迎来到这个关于使用 Aspose.Page for Java 在 Java PostScript 中添加水平渐变的综合教程。 Aspose.Page 是一个功能强大的 Java 库，允许开发人员使用 PostScript 和其他文档格式。在本教程中，我们将通过分步示例指导您完成创建具有水平渐变的 PostScript 文档的过程。
 ## 先决条件
@@ -82,3 +88,9 @@ document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 您可以从以下地址获取临时许可证[Aspose.购买](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java 有哪些系统要求？
 请参阅[文档](https://reference.aspose.com/page/java/)了解详细的系统要求。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

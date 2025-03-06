@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 變更陣列項
 linktitle: 更改數組項目
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page for .NET 變更 EPS 檔案中的陣列項目。請按照我們的逐步指南進行有效的元資料操作。
-type: docs
 weight: 15
 url: /zh-hant/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 變更陣列項
+
 ## 介紹
 
 歡迎閱讀這份使用 Aspose.Page for .NET 更改陣列項目的綜合指南！ Aspose.Page 是一個功能強大的函式庫，允許開發人員處理各種文件格式，包括 EPS 檔案。在本教程中，我們將重點放在在 EPS 檔案中操作 XMP 元數據，特別是更改數組項。
@@ -99,3 +105,9 @@ A1：Aspose.Page 主要處理 EPS 文件，但 Aspose 提供了不同的函式�
 ### Q5：我可以在哪裡獲得支持或與社區聯繫？
 
  A5：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Penggabungan Dokumen
 linktitle: Penggabungan Dokumen
 second_title: Aspose.Halaman .NET API
 description: Gabungkan dokumen PostScript dan XPS dengan mudah menjadi PDF berkualitas tinggi menggunakan Aspose.Page untuk .NET. Tingkatkan pemrosesan dokumen Anda dengan tutorial langkah demi langkah kami.
-type: docs
 weight: 25
 url: /id/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penggabungan Dokumen
+
 ## Perkenalan
 
 Gabungkan cara Anda menuju manajemen dokumen yang lancar dengan Aspose.Page untuk .NET. Temukan kekuatan penggabungan dokumen dengan tutorial komprehensif kami.
@@ -40,3 +46,9 @@ Pelajari cara menggabungkan dokumen PostScript ke PDF dengan mudah menggunakan A
 Gabungkan dokumen XPS dengan mudah menjadi PDF berkualitas tinggi menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman konversi dokumen yang lancar.
 ### [Gabungkan Dokumen XPS dengan Aspose.Page untuk .NET](./merge-xps-documents/)
 Gabungkan dokumen XPS dengan mudah menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengelolaan dokumen yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

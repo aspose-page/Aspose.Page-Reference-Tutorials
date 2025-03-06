@@ -3,10 +3,16 @@ title: أضف مساحة الاسم في XMP باستخدام Java
 linktitle: أضف مساحة الاسم في XMP باستخدام Java
 second_title: Aspose.Page جافا API
 description: أطلق العنان لقوة معالجة المستندات باستخدام Aspose.Page لـ Java. تعلم كيفية إضافة مساحات أسماء XMP بسهولة في هذا الدليل الشامل.
-type: docs
 weight: 13
 url: /ar/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف مساحة الاسم في XMP باستخدام Java
+
 
 ## مقدمة
 
@@ -108,3 +114,9 @@ psStream.close();
 
 ### هل توجد منتديات مجتمعية لـ Aspose.Page؟
  نعم، يمكنك التواصل مع المجتمع على[منتدى Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajouter un dégradé vertical à XPS avec Aspose.Page pour .NET
 linktitle: Ajouter un dégradé vertical à XPS
 second_title: API Aspose.Page .NET
 description: Découvrez comment améliorer les documents XPS avec des dégradés verticaux à l'aide d'Aspose.Page pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 15
 url: /fr/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un dégradé vertical à XPS avec Aspose.Page pour .NET
+
 ## Introduction
 
 Bienvenue dans ce didacticiel étape par étape expliquant comment ajouter un dégradé vertical à un document XPS à l'aide d'Aspose.Page pour .NET. Aspose.Page est une API puissante qui vous permet de travailler avec des fichiers XPS (XML Paper Spécification) dans vos applications .NET. Dans ce didacticiel, nous vous guiderons tout au long du processus de création d'un nouveau document XPS, d'ajout d'un dégradé vertical à un tracé et d'enregistrement du résultat.
@@ -117,3 +123,9 @@ A1 : Oui, Aspose.Page est compatible avec Visual Studio 2019. Assurez-vous que l
 ### Q5 : Comment puis-je obtenir de l'aide ou poser des questions ?
 
  A5 : Visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

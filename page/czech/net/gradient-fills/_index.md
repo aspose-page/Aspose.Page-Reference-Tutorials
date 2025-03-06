@@ -3,10 +3,16 @@ title: Přechodové výplně
 linktitle: Přechodové výplně
 second_title: Aspose.Page .NET API
 description: Objevte umění přechodových výplní v .NET pomocí výukových programů Aspose.Page. Zvyšte své projekty bez námahy – přidejte podmanivé diagonální, horizontální a vertikální přechody.
-type: docs
 weight: 27
 url: /cs/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přechodové výplně
+
 
 ## Úvod
 
@@ -49,3 +55,9 @@ Naučte se, jak přidat úžasné horizontální přechody do dokumentů XPS pom
 Naučte se, jak přidat vizuálně přitažlivé vertikální přechody do dokumentů PostScript (PS) v .NET pomocí Aspose.Page. Vylepšete svou tvorbu dokumentů pomocí tohoto podrobného průvodce.
 ### [Přidejte vertikální přechod do XPS pomocí Aspose.Page pro .NET](./add-vertical-gradient-to-xps/)
 Naučte se, jak vylepšit dokumenty XPS pomocí vertikálních přechodů pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

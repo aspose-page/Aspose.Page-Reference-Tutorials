@@ -3,10 +3,16 @@ title: Szövegmanipuláció - XPS
 linktitle: Szövegmanipuláció - XPS
 second_title: Aspose.Page Java API
 description: Forradalmasítsa Java XPS-dokumentumait az Aspose.Page segítségével. Fedezze fel a szövegkezelési útmutatókat lépésről lépésre. Növelje készségeit a könnyed dokumentumfejlesztés érdekében.
-type: docs
 weight: 37
 url: /hu/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegmanipuláció - XPS
+
 
 Forradalmasítsa Java XPS-dokumentumait az Aspose.Page oktatóanyagaival. Fedezze fel a szövegkezelési útmutatókat lépésről lépésre. Növelje készségeit a könnyed dokumentumfejlesztés érdekében.
 
@@ -36,3 +42,9 @@ Az Aspose.Page for Java oktatóanyagaival az XPS-dokumentumok szövegkezelése g
 ## Szövegmanipuláció – XPS oktatóanyagok
 ### [Szöveg hozzáadása a Java XPS-ben](./add-text/)
 Javítsa Java XPS-dokumentumait az Aspose.Page segítségével! Kövesse lépésenkénti útmutatónkat a könnyű szöveg hozzáadásához. Növelje dokumentumkezelési készségeit még ma.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

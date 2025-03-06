@@ -3,10 +3,16 @@ title: Aspose.Page Java 教學 - 在 PostScript 中新增頁面
 linktitle: 在 PostScript 中新增頁面
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page 將頁面新增至 Java PostScript 文件。請按照我們的逐步指南進行無縫文件操作。
-type: docs
 weight: 11
 url: /zh-hant/java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java 教學 - 在 PostScript 中新增頁面
+
 ## 介紹
 在文件操作和管理領域，Aspose.Page for Java 成為處理 PostScript 文件的強大工具。在 PostScript 文件中新增頁面是許多應用程式中的常見要求。在本教程中，我們將探索使用 Aspose.Page for Java 新增頁面的過程，分解每個步驟以使學習體驗無縫。
 ## 先決條件
@@ -71,3 +77,9 @@ Aspose.Page 支援在文件中新增幾乎無限數量的頁面。
 是的，Aspose.Page 旨在輕鬆有效地處理小型和大型文件。
 ### 在哪裡可以找到 Aspose.Page 的其他資源和支援？
 探索[Aspose.Page 文檔](https://reference.aspose.com/page/java/) ，或訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

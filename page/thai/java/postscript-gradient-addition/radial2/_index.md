@@ -3,10 +3,16 @@ title: การไล่ระดับสีแบบรัศมี Java Post
 linktitle: การไล่ระดับสีแบบรัศมี Java PostScript ด้วย Aspose.Page
 second_title: Aspose.Page Java API
 description: สำรวจคำแนะนำทีละขั้นตอนเพื่อเพิ่ม Radial Gradient ใน Java PostScript โดยใช้ Aspose.Page สำหรับกราฟิกที่น่าทึ่งในแอปพลิเคชัน Java ของคุณ
-type: docs
 weight: 13
 url: /th/java/postscript-gradient-addition/radial2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การไล่ระดับสีแบบรัศมี Java PostScript ด้วย Aspose.Page
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนในการเพิ่ม Radial Gradient 2 ใน Java PostScript โดยใช้ Aspose.Page สำหรับ Java บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการสร้างเอกสาร PostScript ที่มีการไล่ระดับสีแบบรัศมีที่สวยงาม เพิ่มประสิทธิภาพแอปพลิเคชัน Java ของคุณด้วยกราฟิกที่ดึงดูดสายตา
 ## ข้อกำหนดเบื้องต้น
@@ -96,3 +102,9 @@ document.save();
  ตอบ: ได้ คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ฉันจะขอการสนับสนุนจากชุมชนและมีส่วนร่วมในการสนทนาได้ที่ไหน
  ตอบ: เยี่ยมชม[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

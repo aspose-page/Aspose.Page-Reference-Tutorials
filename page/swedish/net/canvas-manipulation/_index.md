@@ -3,10 +3,16 @@ title: Canvas manipulation
 linktitle: Canvas manipulation
 second_title: Aspose.Page .NET API
 description: Utforska Aspose.Page för .NET-tutorials om manipulering av arbetsytan. Det är enkelt att klippa och transformera PS- och XPS-dokument. Förbättra dina färdigheter i dokumentbehandling.
-type: docs
 weight: 21
 url: /sv/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Canvas manipulation
+
 
 ## Introduktion
 
@@ -42,3 +48,9 @@ Utforska kraften i Aspose.Page för .NET i den här steg-för-steg-guiden om hur
 Lås upp potentialen hos Aspose.Page för .NET med den här omfattande guiden om PostScript-transformationer. Skapa dynamisk grafik utan ansträngning.
 ### [Transformationer XPS med Aspose.Page för .NET](./transformationsxps/)
 Förvandla XPS-dokument utan ansträngning med Aspose.Page för .NET. Följ vår steg-för-steg-guide för sömlösa transformationer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

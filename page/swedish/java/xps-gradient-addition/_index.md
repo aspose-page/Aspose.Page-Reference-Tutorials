@@ -3,10 +3,16 @@ title: Gradientaddition - XPS
 linktitle: Gradientaddition - XPS
 second_title: Aspose.Page Java API
 description: Förhöj dina Java XPS-dokument med fantastiska gradienter. Lär dig att lägga till diagonala, horisontella och vertikala gradienter utan ansträngning med Aspose.Page tutorials.
-type: docs
 weight: 26
 url: /sv/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradientaddition - XPS
+
 ## Introduktion
 
 I takt med att tekniken utvecklas, blir det avgörande att förbättra den visuella attraktionen. I sfären av Java XPS-dokument är inkorporering av fängslande gradienter en spelomvandlare. Välkommen till Aspose.Page för Java Tutorials, där vi reder ut konsten med Gradient Addition i XPS med finess.
@@ -40,3 +46,9 @@ Lär dig hur du lägger till en fantastisk diagonal gradient till dina XPS-dokum
 Lär dig hur du lägger till en fantastisk horisontell gradient till XPS-dokument i Java med Aspose.Page. Följ vår steg-för-steg-guide för sömlös integration.
 ### [Lägg till Vertical Gradient i Java XPS](./vertical/)
 Lär dig hur du lägger till en vertikal gradient till Java XPS-dokument med Aspose.Page. Förbättra visuella tilltal utan ansträngning. Steg-för-steg guide inuti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

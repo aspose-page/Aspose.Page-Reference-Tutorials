@@ -3,10 +3,16 @@ title: Java를 사용하여 XMP에 단순 속성 추가
 linktitle: Java를 사용하여 XMP에 단순 속성 추가
 second_title: Aspose.페이지 자바 API
 description: EPS 파일의 XMP 메타데이터에 속성을 추가하는 방법에 대한 가이드를 통해 Aspose.Page에서 Java의 잠재력을 알아보세요. 손쉽게 문서 처리 수준을 높이세요!
-type: docs
 weight: 14
 url: /ko/java/xmp-metadata-manipulation/add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 XMP에 단순 속성 추가
+
 ## 소개
 끊임없이 진화하는 문서 처리 환경에서는 메타데이터를 효율적으로 관리하는 것이 중요합니다. Aspose.Page for Java는 개발자가 XMP(Extensible Metadata Platform) 데이터를 원활하게 조작할 수 있도록 지원합니다. 이 튜토리얼에서는 Java를 사용하여 XMP에 간단한 속성을 추가하는 과정을 살펴보고 포괄적인 단계별 가이드를 제공합니다.
 ## 전제 조건
@@ -87,3 +93,9 @@ Aspose.Page는 주로 Java를 지원하지만 .NET과 같은 다른 언어에도
  임시면허 취득 가능[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Page를 어디서 구입할 수 있나요?
  해당 상품을 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

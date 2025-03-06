@@ -3,10 +3,16 @@ title: Agregar elementos de matriz con Aspose.Page
 linktitle: Agregar elementos de matriz
 second_title: Aspose.Página .NET API
 description: Explore cómo agregar elementos de matriz en archivos EPS usando Aspose.Page para .NET. Siga nuestra guía paso a paso para una manipulación de documentos perfecta.
-type: docs
 weight: 11
 url: /es/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar elementos de matriz con Aspose.Page
+
 ## Introducción
 
 En el ámbito de la manipulación y procesamiento de documentos en .NET, Aspose.Page se destaca como una herramienta poderosa. Entre sus muchas capacidades, el manejo de elementos de matriz dentro de un archivo EPS es un requisito común. En este tutorial, exploraremos el proceso paso a paso de agregar elementos de matriz usando Aspose.Page en un entorno .NET. Ya sea un desarrollador experimentado o un recién llegado, esta guía lo guiará a través del proceso con claridad y precisión.
@@ -119,3 +125,9 @@ R4: Para debates y apoyo de la comunidad, visite el[Foro de Aspose.Page](https:/
 ### P5: ¿Cuál es la última versión de Aspose.Page para .NET?
 
  R5: Para acceder a la última versión de Aspose.Page para .NET, consulte la[documentación](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

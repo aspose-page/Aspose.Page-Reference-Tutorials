@@ -3,10 +3,16 @@ title: Pędzle wizualne
 linktitle: Pędzle wizualne
 second_title: Aspose.Page API .NET
 description: Ulepsz swoje przetwarzanie dokumentów w .NET dzięki samouczkom Aspose.Page. Zanurz się w świecie pędzli wizualnych i opanuj techniki tworzenia oszałamiających wizualnie dokumentów.
-type: docs
 weight: 35
 url: /pl/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pędzle wizualne
+
 
 ## Wstęp
 
@@ -36,3 +42,9 @@ Pamiętaj, że moc przekształcania dokumentów jest w Twoich rękach. Niech Asp
 ## Poradniki dotyczące pędzli wizualnych
 ### [Zastosuj pędzel wizualny siatki za pomocą Aspose.Page dla .NET](./apply-grid-visual-brush/)
 Poznaj dynamiczny świat przetwarzania dokumentów w .NET z Aspose.Page. Dowiedz się, jak zastosować pędzel wizualny siatki, aby uzyskać oszałamiające wizualnie dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

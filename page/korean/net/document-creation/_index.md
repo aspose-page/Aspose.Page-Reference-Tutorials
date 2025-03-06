@@ -3,10 +3,16 @@ title: 문서 생성
 linktitle: 문서 생성
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 멋진 XPS 및 PostScript 문서를 쉽게 만들 수 있습니다. 원활한 통합을 위한 문서 생성 및 수정 튜토리얼을 살펴보세요.
-type: docs
 weight: 23
 url: /ko/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 문서 생성
+
 ## 소개
 
 Aspose.Page for .NET은 전자 문서 작성의 가능성을 열어줍니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 당사의 단계별 가이드를 통해 XPS 및 PostScript 문서를 쉽게 생성할 수 있습니다.
@@ -36,3 +42,9 @@ XPS 문서 수정 프로세스를 안내하면서 .NET용 Aspose.Page의 강력�
 Aspose.Page를 사용하여 .NET에서 PostScript 문서를 만드는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요. 라이브러리를 다운로드하고 손쉽게 PostScript 파일 조작을 시작하세요.
 ### [.NET용 Aspose.Page를 사용하여 XPS 문서 수정](./modify-xps-document/)
 XPS 문서를 쉽게 수정할 수 있는 .NET용 Aspose.Page의 강력한 기능을 살펴보세요. 단계별 가이드에 따라 문서 처리를 강화하고 개인화된 서명 텍스트를 추가하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

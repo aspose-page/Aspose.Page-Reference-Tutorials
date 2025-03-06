@@ -3,10 +3,16 @@ title: Tömbelemek módosítása XMP-ben Java használatával
 linktitle: Tömbelemek módosítása XMP-ben Java használatával
 second_title: Aspose.Page Java API
 description: Ismerje meg, hogyan módosíthatja a tömbelemeket az XMP-ben az Aspose.Page for Java használatával. Módosítsa könnyedén a metaadatokat lépésről lépésre szóló útmutatónkkal. Bővítse EPS-dokumentumait most!
-type: docs
 weight: 15
 url: /hu/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tömbelemek módosítása XMP-ben Java használatával
+
 ## Bevezetés
 Üdvözöljük átfogó útmutatónkban a tömbelemek XMP-ben történő megváltoztatásáról az Aspose.Page for Java használatával! Az Aspose.Page egy hatékony Java-könyvtár, amely lehetővé teszi az EPS-fájlokban lévő XMP-metaadatok zökkenőmentes kezelését. Ebben az oktatóanyagban végigvezetjük az XMP-metaadatokon belüli tömbelemek módosításának folyamatán, segítve az EPS-dokumentumok fejlesztését és testreszabását.
 ## Előfeltételek
@@ -77,3 +83,9 @@ Az Aspose.Page elsősorban Java nyelvre készült, de az Aspose más nyelvekhez 
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol vásárolhatom meg az Aspose.Page for Java teljes verzióját?
  Megvásárolhatja a teljes verziót[itt](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

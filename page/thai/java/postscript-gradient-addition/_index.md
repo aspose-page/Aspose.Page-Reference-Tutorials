@@ -3,10 +3,16 @@ title: การบวกไล่ระดับสี - PostScript
 linktitle: การบวกไล่ระดับสี - PostScript
 second_title: Aspose.Page Java API
 description: ยกระดับเอกสาร Java PostScript ของคุณด้วย Aspose.Page สำหรับบทช่วยสอน Java เรียนรู้การเพิ่มการไล่ระดับสีแนวทแยง แนวนอน แนวรัศมี และแนวตั้งที่น่าทึ่งได้อย่างง่ายดาย
-type: docs
 weight: 25
 url: /th/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การบวกไล่ระดับสี - PostScript
+
 ## การแนะนำ
 
 หากคุณต้องการปรับปรุงเอกสาร Java PostScript ด้วยการเปลี่ยนสีที่สดใส Aspose.Page สำหรับ Java คือโซลูชันที่เหมาะกับคุณ ซีรีส์บทช่วยสอนนี้จะเจาะลึกเกี่ยวกับศิลปะของการบวกการไล่ระดับสี ซึ่งครอบคลุมทุกอย่างตั้งแต่การไล่ระดับสีในแนวทแยงไปจนถึงการเปลี่ยนในแนวรัศมี มาร่วมออกเดินทางเพื่อฝึกฝนศิลปะของเอกสารที่สวยงามตระการตากันเถอะ
@@ -44,3 +50,9 @@ url: /th/java/postscript-gradient-addition/
 สำรวจคำแนะนำทีละขั้นตอนเพื่อเพิ่ม Radial Gradient ใน Java PostScript โดยใช้ Aspose.Page สำหรับกราฟิกที่น่าทึ่งในแอปพลิเคชัน Java ของคุณ
 ### [เพิ่มการไล่ระดับสีแนวตั้งใน Java PostScript](./vertical/)
 สำรวจคำแนะนำทีละขั้นตอนในการเพิ่มการไล่ระดับสีแนวตั้งใน Java PostScript ด้วย Aspose.Page สำหรับ Java ปรับปรุงเอกสารของคุณอย่างง่ายดายด้วยภาพที่มีชีวิตชีวา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

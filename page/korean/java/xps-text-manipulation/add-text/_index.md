@@ -3,10 +3,16 @@ title: Java XPS 텍스트 추가 - Aspose.Page 튜토리얼
 linktitle: Java XPS에 텍스트 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page로 Java XPS 문서를 강화하세요! 단계별 가이드에 따라 쉽게 텍스트를 추가하세요. 지금 귀하의 문서 처리 기술을 향상시켜 보세요.
-type: docs
 weight: 10
 url: /ko/java/xps-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS 텍스트 추가 - Aspose.Page 튜토리얼
+
 ## 소개
 Java 문서 조작 영역에서 Aspose.Page는 XPS(XML Paper Spec) 문서의 생성 및 조작을 용이하게 하는 강력한 라이브러리로 돋보입니다. XPS 문서에 텍스트를 추가하는 것은 다양한 애플리케이션의 일반적인 요구 사항이며, 이 튜토리얼에서는 Java용 Aspose.Page를 사용하는 프로세스를 안내합니다. 숙련된 개발자이든 초보자이든 이 단계별 가이드는 텍스트를 사용하여 XPS 문서를 향상시키는 과정을 원활하게 진행하도록 보장합니다.
 ## 전제 조건
@@ -63,3 +69,9 @@ doc.save(dataDir + "AddText_out.xps");
  예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Page에 대한 임시 라이선스는 어떻게 얻나요?
  임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

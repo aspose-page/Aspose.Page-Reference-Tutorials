@@ -3,10 +3,16 @@ title: Voeg naamruimte toe met Aspose.Page voor .NET
 linktitle: Naamruimte toevoegen
 second_title: Aspose.Page .NET-API
 description: Verbeter EPS-bestanden met Aspose.Page voor .NET. Voeg moeiteloos naamruimten toe, wijzig XMP-metagegevens en geef uw .NET-ontwikkelingsworkflow een boost.
-type: docs
 weight: 13
 url: /nl/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg naamruimte toe met Aspose.Page voor .NET
+
 ## Invoering
 
 In de dynamische wereld van .NET-ontwikkeling onderscheidt Aspose.Page zich als een krachtig hulpmiddel voor het verwerken van EPS-bestanden. Met Aspose.Page voor .NET kunnen ontwikkelaars naadloos XMP-metagegevens manipuleren, wat de flexibiliteit biedt om naamruimten toe te voegen en de metagegevens van EPS-bestanden te verbeteren.
@@ -117,3 +123,9 @@ A2: Absoluut! Met Aspose.Page kunt u moeiteloos XMP-metagegevens uit EPS-bestand
 ### V5: Hoe kan ik een tijdelijke licentie voor Aspose.Page verkrijgen?
 
  A5: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

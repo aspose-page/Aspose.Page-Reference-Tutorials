@@ -3,10 +3,16 @@ title: دمج مستندات XPS مع Aspose.Page لـ .NET
 linktitle: دمج مستندات XPS
 second_title: Aspose.Page .NET API
 description: يمكنك دمج مستندات XPS بسهولة باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة لإدارة المستندات بسلاسة.
-type: docs
 weight: 12
 url: /ar/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دمج مستندات XPS مع Aspose.Page لـ .NET
+
 ## مقدمة
 
 هل تتطلع إلى دمج مستندات XPS بسلاسة باستخدام Aspose.Page لـ .NET؟ سيرشدك هذا البرنامج التعليمي خلال العملية، ويقدم لك إرشادات خطوة بخطوة حول دمج ملفات XPS دون عناء. تعد Aspose.Page for .NET مكتبة قوية تعمل على تبسيط مهام معالجة المستندات، مما يجعلها خيارًا مثاليًا لدمج مستندات XPS. دعنا نتعمق في هذه العملية ونستكشف كيف يمكنك تحقيق ذلك بسهولة.
@@ -94,3 +100,9 @@ A1: نعم، يقوم Aspose.Page for .NET بمعالجة دمج ملفات XPS 
 ### س5: هل يوفر Aspose.Page for .NET أية خيارات متقدمة لدمج المستندات؟
 
 ج5: نعم، يمكنك استكشاف الخيارات والتكوينات الإضافية المتوفرة في الوثائق.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

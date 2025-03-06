@@ -3,10 +3,16 @@ title: Ubah Dokumen XPS dengan Aspose.Page untuk .NET
 linktitle: Ubah Dokumen XPS
 second_title: Aspose.Halaman .NET API
 description: Jelajahi kekuatan Aspose.Page untuk .NET untuk memodifikasi dokumen XPS dengan mudah. Ikuti panduan langkah demi langkah kami, tingkatkan pemrosesan dokumen Anda, dan tambahkan teks tanda tangan yang dipersonalisasi.
-type: docs
 weight: 12
 url: /id/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Dokumen XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah kami tentang cara memodifikasi dokumen XPS menggunakan Aspose.Page untuk .NET. Aspose.Page adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file XPS dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan teks tanda tangan, "Dikonfirmasi," ke halaman tertentu dalam dokumen XPS.
@@ -119,3 +125,9 @@ A3: Aspose.Page dirancang untuk menangani dokumen dengan berbagai ukuran, namun 
 ### Q5: Di mana saya dapat mencari bantuan atau terhubung dengan komunitas Aspose?
 
  A5: Kunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk bertanya dan terlibat dengan komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

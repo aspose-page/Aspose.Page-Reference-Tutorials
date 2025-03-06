@@ -3,10 +3,16 @@ title: Aplicar pincel visual de cuadrícula con Aspose.Page para .NET
 linktitle: Aplicar pincel visual de cuadrícula
 second_title: Aspose.Página .NET API
 description: Explore el mundo dinámico del procesamiento de documentos en .NET con Aspose.Page. Aprenda a aplicar un pincel visual de cuadrícula para obtener documentos visualmente impresionantes.
-type: docs
 weight: 10
 url: /es/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar pincel visual de cuadrícula con Aspose.Page para .NET
+
 ## Introducción
 
 En el mundo del desarrollo .NET, Aspose.Page se destaca como una poderosa herramienta para manejar tareas de procesamiento de documentos. Una característica fascinante que ofrece es la capacidad de aplicar un pincel visual de cuadrícula, aportando una nueva dimensión a sus documentos. Este tutorial lo guiará a través del proceso de implementación de un Pincel visual Magenta Grid paso a paso usando Aspose.Page para .NET.
@@ -143,3 +149,9 @@ R1: Sí, Aspose.Page para .NET es versátil y se puede utilizar en varios tipos 
 ### P5: ¿Qué otra documentación hay disponible para Aspose.Page para .NET?
 
  A5: Explore la documentación completa[aquí](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

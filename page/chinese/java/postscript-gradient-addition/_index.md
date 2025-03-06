@@ -3,10 +3,16 @@ title: 梯度相加 - PostScript
 linktitle: 梯度相加 - PostScript
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 教程提升您的 Java PostScript 文档。学习轻松添加令人惊叹的对角线、水平、径向和垂直渐变。
-type: docs
 weight: 25
 url: /zh/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 梯度相加 - PostScript
+
 ## 介绍
 
 如果您希望通过鲜艳的颜色过渡来增强 Java PostScript 文档，Aspose.Page for Java 是您的首选解决方案。本教程系列深入研究渐变添加的艺术，涵盖从对角渐变到径向过渡的所有内容。让我们踏上掌握令人惊叹的视觉文档艺术的旅程。
@@ -44,3 +50,9 @@ url: /zh/java/postscript-gradient-addition/
 探索使用 Aspose.Page 在 Java PostScript 中添加径向渐变的分步指南，以便在 Java 应用程序中获得令人惊叹的图形。
 ### [在 Java PostScript 中添加垂直渐变](./vertical/)
 探索使用 Aspose.Page for Java 在 Java PostScript 中添加垂直渐变的分步指南。通过充满活力的视觉效果轻松增强您的文档。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

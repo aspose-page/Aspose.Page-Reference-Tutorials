@@ -3,10 +3,16 @@ title: ライセンス管理
 linktitle: ライセンス管理
 second_title: Aspose.Page Java API
 description: ライセンス管理チュートリアルを使用して、Aspose.Page for Java の可能性を最大限に引き出します。従量制ライセンスをシームレスにセットアップして、ドキュメント処理機能を強化します。
-type: docs
 weight: 30
 url: /ja/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ライセンス管理
+
 ## 導入
 
 Java の Aspose.Page のライセンス管理チュートリアルへようこそ!この包括的なガイドでは、ドキュメント処理機能を最適化するための従量制ライセンスの設定の複雑さを詳しく説明します。 Aspose.Page の可能性を最大限に引き出し、Java とのシームレスな統合を実現する旅に乗り出しましょう。
@@ -39,3 +45,9 @@ Java の Aspose.Page のライセンス管理チュートリアルは、従量�
 ## ライセンス管理のチュートリアル
 ### [Java で従量制ライセンスを設定する](./set-metered-license/)
 Aspose.Page と Java のシームレスな統合を検討してください。従量制ライセンスを簡単にセットアップし、ドキュメント処理機能を強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

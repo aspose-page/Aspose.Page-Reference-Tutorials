@@ -3,10 +3,16 @@ title: Vízszintes színátmenet hozzáadása a Java PostScript-hez
 linktitle: Vízszintes színátmenet hozzáadása a Java PostScript-hez
 second_title: Aspose.Page Java API
 description: Ismerje meg, hogyan adhat hozzá vízszintes színátmenetet a Java PostScript-ben az Aspose.Page for Java segítségével. Könnyedén készíthet lenyűgöző dokumentumokat.
-type: docs
 weight: 11
 url: /hu/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vízszintes színátmenet hozzáadása a Java PostScript-hez
+
 ## Bevezetés
 Üdvözöljük ebben az átfogó oktatóanyagban, amely a Java PostScript vízszintes színátmenetek hozzáadására szolgál az Aspose.Page for Java segítségével. Az Aspose.Page egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy PostScript- és más dokumentumformátumokkal dolgozzanak. Ebben az oktatóanyagban lépésről lépésre példák segítségével végigvezetjük Önt egy vízszintes színátmenettel rendelkező PostScript-dokumentum létrehozásának folyamatán.
 ## Előfeltételek
@@ -82,3 +88,9 @@ Igen, az Aspose.Page for Java használható kereskedelmi projektekben. Az enged�
  Ideiglenes jogosítványt szerezhet be[Aspose.Vásároljon](https://purchase.aspose.com/temporary-license/).
 ### Mik az Aspose.Page for Java rendszerkövetelményei?
  Utal[dokumentáció](https://reference.aspose.com/page/java/) részletes rendszerkövetelményekért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

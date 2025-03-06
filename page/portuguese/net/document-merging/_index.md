@@ -3,10 +3,16 @@ title: Mesclagem de documentos
 linktitle: Mesclagem de documentos
 second_title: API Aspose.Page .NET
 description: Mescle facilmente documentos PostScript e XPS em PDFs de alta qualidade usando Aspose.Page for .NET. Aprimore seu processamento de documentos com nossos tutoriais passo a passo.
-type: docs
 weight: 25
 url: /pt/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesclagem de documentos
+
 ## Introdução
 
 Combine seu caminho para o gerenciamento contínuo de documentos com Aspose.Page for .NET. Descubra o poder da fusão de documentos com nossos tutoriais abrangentes.
@@ -40,3 +46,9 @@ Aprenda como mesclar facilmente documentos PostScript em PDF usando Aspose.Page 
 Mescle facilmente documentos XPS em PDFs de alta qualidade usando Aspose.Page for .NET. Siga nosso guia passo a passo para uma experiência de conversão de documentos tranquila.
 ### [Mesclar documentos XPS com Aspose.Page para .NET](./merge-xps-documents/)
 Mescle documentos XPS sem esforço usando Aspose.Page for .NET. Siga nosso guia passo a passo para um gerenciamento de documentos perfeito.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

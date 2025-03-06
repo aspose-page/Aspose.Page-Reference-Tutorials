@@ -3,10 +3,16 @@ title: Aspose.Page के साथ पोस्टस्क्रिप्ट (
 linktitle: पोस्टस्क्रिप्ट (PS) में वर्टिकल ग्रेडिएंट जोड़ें
 second_title: Aspose.Page .NET API
 description: Aspose.Page का उपयोग करके .NET में पोस्टस्क्रिप्ट (PS) दस्तावेज़ों में दृश्यमान रूप से आकर्षक लंबवत ग्रेडिएंट जोड़ने का तरीका जानें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने दस्तावेज़ निर्माण को उन्नत बनाएं।
-type: docs
 weight: 14
 url: /hi/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page के साथ पोस्टस्क्रिप्ट (PS) में वर्टिकल ग्रेडिएंट जोड़ें
+
 ## परिचय
 
 दस्तावेज़ हेरफेर और निर्माण के क्षेत्र में, .NET के लिए Aspose.Page डेवलपर्स के लिए एक शक्तिशाली उपकरण के रूप में सामने आता है। यह ट्यूटोरियल आपको .NET के लिए Aspose.Page का उपयोग करके पोस्टस्क्रिप्ट (PS) दस्तावेज़ में एक वर्टिकल ग्रेडिएंट जोड़ने की प्रक्रिया में मार्गदर्शन करेगा। इस गाइड के अंत तक, आपको इस आकर्षक प्रभाव को प्राप्त करने के लिए आवश्यक कदमों की स्पष्ट समझ हो जाएगी।
@@ -154,3 +160,9 @@ A3: Aspose.Page रेडियल और पथ ग्रेडिएंट स
 ### Q5: क्या Aspose.Page के लिए कोई सामुदायिक मंच है जहां मैं मदद मांग सकता हूं?
 
  ए5: निश्चित रूप से! की ओर जाएं[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) अन्य डेवलपर्स से जुड़ने और सहायता प्राप्त करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

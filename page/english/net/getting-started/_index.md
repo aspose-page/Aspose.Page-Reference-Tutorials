@@ -3,10 +3,16 @@ title: Getting Started
 linktitle: Getting Started
 second_title: Aspose.Page .NET API
 description: Unlock the power of Aspose.Page .NET with step-by-step tutorials. Apply metered licenses, load from files or streams, secure licenses, and more.
-type: docs
 weight: 20
 url: /net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Getting Started
+
 ## Introduction
 
 Welcome to the ultimate guide on Aspose.Page for .NET tutorials. Dive into a world of seamless document processing, where efficiency meets simplicity. Let's embark on a journey to harness the full potential of this powerful tool through a series of comprehensive tutorials.
@@ -38,3 +44,9 @@ Unlock document manipulation in .NET with Aspose.Page. Follow our guide to seaml
 Secure your Aspose.Page for .NET license effortlessly with our step-by-step guide. Unlock the full potential for seamless page manipulation in your .NET applications.
 ### [Set License Using Embedded Resource with Aspose.Page for .NET](./set-license-using-embedded-resource/)
 Learn how to set a license using embedded resources with Aspose.Page for .NET. Ensure compliance and unlock the full potential of document processing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

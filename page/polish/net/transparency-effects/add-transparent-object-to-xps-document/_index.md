@@ -3,10 +3,16 @@ title: Dodaj przezroczysty obiekt do dokumentu XPS za pomocą Aspose.Page
 linktitle: Dodaj przezroczysty obiekt do dokumentu XPS
 second_title: Aspose.Page API .NET
 description: Dowiedz się, jak dodawać przezroczyste obiekty do dokumentów XPS w .NET przy użyciu Aspose.Page. Zwiększ atrakcyjność wizualną dzięki wskazówkom krok po kroku.
-type: docs
 weight: 11
 url: /pl/net/transparency-effects/add-transparent-object-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj przezroczysty obiekt do dokumentu XPS za pomocą Aspose.Page
+
 ## Wstęp
 
 tym samouczku omówimy, jak dodać przezroczyste obiekty do dokumentu XPS za pomocą Aspose.Page dla .NET. Przejrzystość dokumentów XPS może zwiększyć atrakcyjność wizualną i skutecznie przekazywać informacje. Podzielimy proces na łatwe do wykonania etapy, zapewniając przejrzystość i łatwość zrozumienia.
@@ -132,3 +138,9 @@ O4: Aspose.Page zapewnia funkcjonalność eksportowania dokumentów XPS do róż
 ### P5: Gdzie mogę znaleźć dodatkowe wsparcie i dyskusje społeczności?
 
  Odpowiedź 5: Aby uzyskać dodatkowe wsparcie i dyskusje w społeczności, odwiedź stronę[Forum Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

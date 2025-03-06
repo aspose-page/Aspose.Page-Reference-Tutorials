@@ -3,10 +3,16 @@ title: Kształty - PostScript
 linktitle: Kształty - PostScript
 second_title: Aspose.Page API Java
 description: Twórz urzekające dokumenty PostScript bez wysiłku dzięki Aspose.Page Java. Zapoznaj się z samouczkami dotyczącymi dodawania elips i prostokątów, tworząc atrakcyjną wizualnie zawartość.
-type: docs
 weight: 34
 url: /pl/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kształty - PostScript
+
 
 ## Wstęp
 
@@ -65,3 +71,9 @@ Odblokuj pełny potencjał Aspose.Page dla Java i podnieś jakość tworzenia do
 Opanuj tworzenie wspaniałych dokumentów PostScript w Javie dzięki Aspose.Page. Dowiedz się, jak krok po kroku dodawać elipsy, aby uzyskać atrakcyjną wizualnie treść.
 ### [Dodaj prostokąt w Java PostScript](./add-rectangle/)
 Zapoznaj się z przewodnikiem krok po kroku dotyczącym dodawania żywych prostokątów do dokumentów Java PostScript przy użyciu Aspose.Page dla Java. Zwiększ możliwości dostosowywania dokumentów bez wysiłku!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

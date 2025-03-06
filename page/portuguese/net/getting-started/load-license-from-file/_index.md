@@ -3,10 +3,16 @@ title: Carregar licença do arquivo com Aspose.Page para .NET
 linktitle: Carregar licença do arquivo
 second_title: API Aspose.Page .NET
 description: Desbloqueie todo o potencial do Aspose.Page for .NET dominando a arte de carregar licenças de arquivos. Eleve seus recursos de processamento de documentos de maneira integrada.
-type: docs
 weight: 11
 url: /pt/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Carregar licença do arquivo com Aspose.Page para .NET
+
 ## Introdução
 
 Bem-vindo ao mundo do Aspose.Page para .NET! Se você deseja aprimorar seus recursos de processamento de documentos usando a estrutura .NET, você está no lugar certo. Neste tutorial, orientaremos você no processo de carregamento de uma licença de um arquivo com Aspose.Page for .NET. Esta etapa crucial garante que você aproveite todo o potencial desta poderosa biblioteca.
@@ -91,3 +97,9 @@ Parabéns por concluir o tutorial! Você aprendeu como carregar uma licença de 
 ### Q5: Precisa de ajuda ou tem dúvidas? 
 
  A5: Visite o[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) para apoio comunitário.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

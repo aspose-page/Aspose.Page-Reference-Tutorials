@@ -3,10 +3,16 @@ title: Sloučit dokumenty XPS s Aspose.Page pro .NET
 linktitle: Sloučit dokumenty XPS
 second_title: Aspose.Page .NET API
 description: Slučujte dokumenty XPS bez námahy pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou správu dokumentů.
-type: docs
 weight: 12
 url: /cs/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sloučit dokumenty XPS s Aspose.Page pro .NET
+
 ## Úvod
 
 Hledáte bezproblémové sloučení dokumentů XPS pomocí Aspose.Page pro .NET? Tento tutoriál vás provede celým procesem a poskytne vám podrobné pokyny pro snadné slučování souborů XPS. Aspose.Page for .NET je výkonná knihovna, která zjednodušuje úlohy manipulace s dokumenty, a je tak ideální volbou pro slučování dokumentů XPS. Pojďme se ponořit do procesu a prozkoumat, jak toho můžete snadno dosáhnout.
@@ -94,3 +100,9 @@ A4: Ujistěte se, že máte příslušnou licenci pro Aspose.Page for .NET, abys
 ### Q5: Poskytuje Aspose.Page for .NET nějaké pokročilé možnosti pro slučování dokumentů?
 
 Odpověď 5: Ano, můžete prozkoumat další možnosti a konfigurace dostupné v dokumentaci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Penanganan Tekstur
 linktitle: Penanganan Tekstur
 second_title: Aspose.Halaman .NET API
 description: Sempurnakan dokumen PostScript dengan efek visual yang menakjubkan! Pelajari cara menerapkan pola ubin tekstur menggunakan Aspose.Page untuk .NET dengan panduan langkah demi langkah kami.
-type: docs
 weight: 33
 url: /id/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Penanganan Tekstur
+
 ## Perkenalan
 
 Dalam bidang manipulasi dokumen, menguasai penanganan tekstur dapat membuka banyak kemungkinan kreatif. Aspose.Page untuk .NET berdiri sebagai sekutu kuat bagi pengembang yang ingin meningkatkan dokumen PostScript (PS) mereka ke tingkat yang lebih tinggi. Dalam artikel ini, kita mempelajari dunia Tutorial Penanganan Tekstur yang menawan, yang secara khusus berfokus pada penerapan pola ubin tekstur.
@@ -36,3 +42,9 @@ Sebagai kesimpulan, Tutorial Penanganan Tekstur kami, yang berfokus pada penerap
 ## Tutorial Penanganan Tekstur
 ### [Terapkan Pola Ubin Tekstur ke PostScript (PS) dengan Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
 Sempurnakan dokumen PostScript (PS) Anda dengan pola ubin tekstur menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk sentuhan kreatif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

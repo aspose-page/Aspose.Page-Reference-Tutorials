@@ -3,10 +3,16 @@ title: Προσαρμογή Java PostScript - Προσθήκη ορθογωνί�
 linktitle: Προσθήκη ορθογώνιου σε Java PostScript
 second_title: Aspose.Page Java API
 description: Εξερευνήστε τον οδηγό βήμα προς βήμα για την προσθήκη ζωντανών ορθογωνίων σε έγγραφα Java PostScript χρησιμοποιώντας το Aspose.Page για Java. Βελτιώστε την προσαρμογή του εγγράφου σας χωρίς κόπο!
-type: docs
 weight: 11
 url: /el/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσαρμογή Java PostScript - Προσθήκη ορθογωνίων με το Aspose.Page
+
 ## Εισαγωγή
 Θέλετε να βελτιώσετε τα έγγραφα Java PostScript με ζωντανά ορθογώνια; Μην ψάχνετε άλλο! Σε αυτόν τον οδηγό βήμα προς βήμα, θα εξερευνήσουμε πώς να χρησιμοποιήσετε το Aspose.Page για Java για να προσθέσετε ορθογώνια στα έγγραφά σας PostScript. Το Aspose.Page είναι μια ισχυρή βιβλιοθήκη που παρέχει ισχυρές δυνατότητες για εργασία με αρχεία PostScript, καθιστώντας την ιδανική επιλογή για προγραμματιστές που θέλουν να χειριστούν και να προσαρμόσουν τα έγγραφά τους.
 ## Προαπαιτούμενα
@@ -72,3 +78,9 @@ document.save();
  Πάρτε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να αγοράσω μια έκδοση με άδεια χρήσης του Aspose.Page για Java;
  Αγοράστε μια έκδοση με άδεια χρήσης[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 이미지 조작 - 포스트스크립트
 linktitle: 이미지 조작 - 포스트스크립트
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 문서 조작 기술을 향상하세요. PostScript 튜토리얼을 살펴보고 Java로 이미지를 추가하는 방법을 배우고 문서 기능을 향상시키세요.
-type: docs
 weight: 28
 url: /ko/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 이미지 조작 - 포스트스크립트
+
 
 ## 소개
 
@@ -32,3 +38,9 @@ Java의 PostScript 튜토리얼을 위한 Aspose.Page를 통해 발견의 여정
 ## 이미지 조작 - 포스트스크립트 튜토리얼
 ### [Java PostScript에 이미지 추가](./add-image/)
 PostScript 문서에 이미지를 추가하는 방법에 대한 이 튜토리얼에서 Aspose.Page Java의 원활한 통합을 살펴보세요. 문서 조작 능력을 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

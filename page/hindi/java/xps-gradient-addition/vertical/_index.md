@@ -3,10 +3,16 @@ title: जावा एक्सपीएस में वर्टिकल ग
 linktitle: जावा एक्सपीएस में वर्टिकल ग्रेडिएंट जोड़ें
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page के साथ Java XPS दस्तावेज़ों में वर्टिकल ग्रेडिएंट जोड़ने का तरीका जानें। दृश्य अपील को सहजता से बढ़ाएँ। अंदर चरण-दर-चरण मार्गदर्शिका.
-type: docs
 weight: 12
 url: /hi/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा एक्सपीएस में वर्टिकल ग्रेडिएंट जोड़ें
+
 ## परिचय
 इस ट्यूटोरियल में, हम यह पता लगाएंगे कि Java के लिए Aspose.Page का उपयोग करके Java XPS में वर्टिकल ग्रेडिएंट कैसे जोड़ा जाए। अपने XPS दस्तावेज़ों में ग्रेडिएंट जोड़ने से आपकी सामग्री की दृश्य अपील बढ़ सकती है, जिससे यह अधिक आकर्षक और सौंदर्यपूर्ण रूप से मनभावन हो सकती है।
 ## आवश्यक शर्तें
@@ -72,3 +78,9 @@ doc.save(dataDir + "VerticalGradient.xps");
  एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### क्या मदद की ज़रूरत है या कोई सवाल है?
  Aspose.Page समुदाय पर जाएँ[मंच](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

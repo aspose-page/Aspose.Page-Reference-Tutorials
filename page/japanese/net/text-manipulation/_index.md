@@ -3,10 +3,16 @@ title: テキストの操作
 linktitle: テキストの操作
 second_title: Aspose.Page .NET API
 description: Aspose.Page チュートリアルを使用して、.NET でのテキスト操作をマスターします。 Unicode テキストを PostScript および XPS ドキュメントに追加する方法を学びます。文書操作スキルを向上させます。
-type: docs
 weight: 32
 url: /ja/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# テキストの操作
+
 
 
 ## 導入
@@ -39,3 +45,9 @@ Aspose.Page for .NET を使用して Unicode テキストを PostScript ファ�
 Unicode テキストを XPS ドキュメントに追加するためのステップバイステップ ガイドを使用して、Aspose.Page for .NET の威力を体験してください。
 ### [Aspose.Page for .NET を使用して XPS ドキュメントにテキストを追加する](./add-text-to-xps-document/)
 Aspose.Page for .NET を使用して XPS ドキュメントにテキストを追加するためのステップバイステップ ガイドをご覧ください。 .NET プロジェクトを簡単に強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

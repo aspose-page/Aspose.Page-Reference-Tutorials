@@ -3,10 +3,16 @@ title: Java를 사용하여 XMP에 네임스페이스 추가
 linktitle: Java를 사용하여 XMP에 네임스페이스 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page for Java를 사용하여 문서 조작의 힘을 활용하세요. 이 종합 가이드에서 XMP 네임스페이스를 쉽게 추가하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 XMP에 네임스페이스 추가
+
 
 ## 소개
 
@@ -108,3 +114,9 @@ Aspose.Page는 주로 Java를 지원하지만 .NET과 같은 다른 언어에도
 
 ### Aspose.Page에 대한 커뮤니티 포럼이 있습니까?
  예, 다음에서 커뮤니티에 참여할 수 있습니다.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

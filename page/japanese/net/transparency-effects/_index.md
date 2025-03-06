@@ -3,10 +3,16 @@ title: 透明効果
 linktitle: 透明効果
 second_title: Aspose.Page .NET API
 description: Aspose.Page .NET を使用して、ドキュメント内の透明効果の魔法を発見してください。ステップバイステップのチュートリアルでデザインを向上させ、見事なビジュアル強化を実現します。
-type: docs
 weight: 34
 url: /ja/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 透明効果
+
 
 ## 導入
 
@@ -42,3 +48,9 @@ Aspose.Page を使用して .NET の XPS ドキュメントに透明オブジェ
 Aspose.Page for .NET を使用して XPS ドキュメントに不透明マスクを設定する方法を学びます。文書の美しさを簡単に向上させます。
 ### [Aspose.Page を使用して PostScript (PS) で擬似透明性を表示する](./show-pseudo-transparency-in-postscript-ps/)
 Aspose.Page for .NET を使用して、PostScript の擬似透明性の力を試してください。視覚的に美しいドキュメントを作成するには、ステップバイステップのガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

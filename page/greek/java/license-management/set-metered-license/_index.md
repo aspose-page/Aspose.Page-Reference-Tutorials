@@ -3,10 +3,16 @@ title: Εύκολη ενσωμάτωση άδειας χρήσης με μέτρ
 linktitle: Ορισμός μετρημένης άδειας χρήσης σε Java
 second_title: Aspose.Page Java API
 description: Εξερευνήστε την απρόσκοπτη ενοποίηση του Aspose.Page με Java. Ρυθμίστε τις μετρημένες άδειες χωρίς κόπο και βελτιώστε τις δυνατότητες επεξεργασίας εγγράφων σας.
-type: docs
 weight: 10
 url: /el/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εύκολη ενσωμάτωση άδειας χρήσης με μέτρηση με Aspose.Page Java
+
 ## Εισαγωγή
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για τη ρύθμιση μιας μετρημένης άδειας χρήσης σε Java χρησιμοποιώντας το Aspose.Page. Αν θέλετε να βελτιώσετε τις δυνατότητες επεξεργασίας εγγράφων σας και να διασφαλίσετε την απρόσκοπτη ενσωμάτωση με το Aspose.Page, βρίσκεστε στο σωστό μέρος. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία, αναλύοντας κάθε βήμα σε εύκολα εύπεπτα κομμάτια.
 ## Προαπαιτούμενα
@@ -100,3 +106,9 @@ try {
  Ανατρέξτε στην τεκμηρίωση[εδώ](https://reference.aspose.com/page/java/).
 ### Ε: Πώς μπορώ να πάρω προσωρινές άδειες;
  Μπορούν να ληφθούν προσωρινές άδειες[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

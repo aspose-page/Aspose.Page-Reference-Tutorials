@@ -3,10 +3,16 @@ title: Pennelli visivi
 linktitle: Pennelli visivi
 second_title: API Aspose.Page .NET
 description: Migliora l'elaborazione dei documenti in .NET con i tutorial Aspose.Page. Immergiti nel regno dei pennelli visivi, padroneggiando le tecniche per documenti visivamente sbalorditivi.
-type: docs
 weight: 35
 url: /it/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pennelli visivi
+
 
 ## introduzione
 
@@ -36,3 +42,9 @@ Ricorda, il potere di trasformare i tuoi documenti è nelle tue mani. Lascia che
 ## Tutorial sui pennelli visivi
 ### [Applicare il pennello visivo della griglia con Aspose.Page per .NET](./apply-grid-visual-brush/)
 Esplora il mondo dinamico dell'elaborazione dei documenti in .NET con Aspose.Page. Scopri come applicare un pennello visivo a griglia per documenti visivamente straordinari.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

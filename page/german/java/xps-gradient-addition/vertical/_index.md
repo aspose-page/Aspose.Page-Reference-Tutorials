@@ -3,10 +3,16 @@ title: Vertikalen Farbverlauf in Java XPS hinzufügen
 linktitle: Vertikalen Farbverlauf in Java XPS hinzufügen
 second_title: Aspose.Page Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Page einen vertikalen Farbverlauf zu Java XPS-Dokumenten hinzufügen. Verbessern Sie mühelos die visuelle Attraktivität. Schritt-für-Schritt-Anleitung im Inneren.
-type: docs
 weight: 12
 url: /de/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vertikalen Farbverlauf in Java XPS hinzufügen
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Page für Java einen vertikalen Farbverlauf in Java XPS hinzufügen. Das Hinzufügen von Farbverläufen zu Ihren XPS-Dokumenten kann die visuelle Attraktivität Ihrer Inhalte verbessern und sie ansprechender und ästhetisch ansprechender machen.
 ## Voraussetzungen
@@ -72,3 +78,9 @@ Die Verbesserung Ihrer XPS-Dokumente mit Farbverläufen kann deren visuelle Attr
  Besorgen Sie sich eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
 ### Benötigen Sie Hilfe oder haben Sie Fragen?
  Besuchen Sie die Aspose.Page-Community[Forum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

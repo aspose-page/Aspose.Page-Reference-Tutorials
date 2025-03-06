@@ -3,10 +3,16 @@ title: グラデーションの追加 - PostScript
 linktitle: グラデーションの追加 - PostScript
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java チュートリアルを使用して Java PostScript ドキュメントを強化します。見事な斜め、水平、放射状、垂直のグラデーションを簡単に追加する方法を学びましょう。
-type: docs
 weight: 25
 url: /ja/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# グラデーションの追加 - PostScript
+
 ## 導入
 
 鮮やかな色の変化で Java PostScript ドキュメントを強化したい場合は、Aspose.Page for Java が頼りになるソリューションです。このチュートリアル シリーズでは、斜めのグラデーションから放射状のトランジションまですべてをカバーし、グラデーション加算の技術を詳しく掘り下げます。視覚的に素晴らしいドキュメントの技術を習得する旅に乗り出しましょう。
@@ -44,3 +50,9 @@ Aspose.Page for Java を使用して Java PostScript に見事な放射状グラ
 Aspose.Page を使用して Java PostScript に放射状グラデーションを追加し、Java アプリケーションで美しいグラフィックスを実現するためのステップバイステップ ガイドをご覧ください。
 ### [Java PostScriptで垂直グラデーションを追加する](./vertical/)
 Aspose.Page for Java を使用して Java PostScript に垂直グラデーションを追加するためのステップバイステップ ガイドをご覧ください。鮮やかなビジュアルでドキュメントを簡単に強化できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

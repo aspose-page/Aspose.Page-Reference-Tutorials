@@ -3,10 +3,16 @@ title: Modifier un ticket d'impression existant avec Aspose.Page pour .NET
 linktitle: Modifier un ticket d'impression existant
 second_title: API Aspose.Page .NET
 description: Apprenez à modifier des tickets d'impression dans des documents XPS à l'aide d'Aspose.Page pour .NET. Un guide étape par étape pour les développeurs. Améliorez le contrôle de l’impression de documents sans effort.
-type: docs
 weight: 11
 url: /fr/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier un ticket d'impression existant avec Aspose.Page pour .NET
+
 ## Introduction
 
 Bienvenue dans ce guide complet sur la modification des tickets d'impression existants à l'aide d'Aspose.Page pour .NET ! Aspose.Page est une bibliothèque puissante qui permet aux développeurs de travailler sans effort avec des documents XPS. Dans ce didacticiel, nous vous guiderons tout au long du processus de modification des tickets d'impression avec des exemples pratiques, en décomposant chaque étape pour une expérience d'apprentissage fluide.
@@ -117,3 +123,9 @@ A2 : Oui, Aspose.Page pour .NET est compatible avec .NET Core, offrant ainsi une
 ### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.Page pour .NET ?
 
  A5 : Visite[ce lien](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

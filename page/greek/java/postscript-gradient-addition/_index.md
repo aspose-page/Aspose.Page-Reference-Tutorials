@@ -3,10 +3,16 @@ title: Προσθήκη κλίσης - PostScript
 linktitle: Προσθήκη κλίσης - PostScript
 second_title: Aspose.Page Java API
 description: Αναβαθμίστε τα έγγραφα Java PostScript με τα μαθήματα Aspose.Page για Java. Μάθετε να προσθέτετε εκπληκτικές διαγώνιες, οριζόντιες, ακτινικές και κάθετες κλίσεις χωρίς κόπο.
-type: docs
 weight: 25
 url: /el/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη κλίσης - PostScript
+
 ## Εισαγωγή
 
 Αν θέλετε να βελτιώσετε τα έγγραφά σας Java PostScript με ζωντανές μεταβάσεις χρωμάτων, το Aspose.Page για Java είναι η λύση που προτιμάτε. Αυτή η σειρά εκμάθησης εμβαθύνει στην τέχνη της προσθήκης κλίσης, καλύπτοντας τα πάντα, από διαγώνιες διαβαθμίσεις έως ακτινικές μεταβάσεις. Ας ξεκινήσουμε ένα ταξίδι για να κατακτήσουμε την τέχνη των οπτικά εντυπωσιακών εγγράφων.
@@ -44,3 +50,9 @@ url: /el/java/postscript-gradient-addition/
 Εξερευνήστε τον οδηγό βήμα προς βήμα για να προσθέσετε Radial Gradient στο Java PostScript χρησιμοποιώντας το Aspose.Page για εκπληκτικά γραφικά στις εφαρμογές σας Java.
 ### [Προσθήκη κάθετης κλίσης στο Java PostScript](./vertical/)
 Εξερευνήστε τον οδηγό βήμα προς βήμα για την προσθήκη κάθετων διαβαθμίσεων στο Java PostScript με το Aspose.Page για Java. Βελτιώστε τα έγγραφά σας χωρίς κόπο με ζωντανά γραφικά.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

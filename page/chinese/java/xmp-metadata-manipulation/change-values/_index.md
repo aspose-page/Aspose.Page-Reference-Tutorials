@@ -3,10 +3,16 @@ title: 使用 Java 更改 XMP 中的值
 linktitle: 使用 Java 更改 XMP 中的值
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 增强 EPS 文档。轻松修改 XMP 元数据以获得定制的专业内容。 #Java开发
-type: docs
 weight: 17
 url: /zh/java/xmp-metadata-manipulation/change-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 更改 XMP 中的值
+
 ## 介绍
 在文档处理和操作领域，Aspose.Page for Java 是一款脱颖而出的强大工具。本教程深入探讨使用 Java 和 Aspose.Page 库更改 EPS（封装 PostScript）文档中的 XMP（可扩展元数据平台）值的过程。通过遵循提供的分步指南，您将了解如何轻松修改元数据，确保您的文档适合您的特定要求。
 ## 先决条件
@@ -83,3 +89,9 @@ try {
 是的，您可以免费试用[这里](https://releases.aspose.com/).
 ### 问：如何获得 Aspose.Page for Java 的临时许可证？
 获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

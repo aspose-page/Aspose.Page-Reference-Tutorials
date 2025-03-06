@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile Sayfaları Yönetin
 linktitle: Sayfaları Yönet
 second_title: Aspose.Page .NET API'si
 description: XPS belgelerini işlemek için güçlü bir kütüphane olan Aspose.Page'i kullanarak .NET'te sayfa manipülasyonunu keşfedin. Etkili sonuçlar için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 12
 url: /tr/net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile Sayfaları Yönetin
+
 ## giriiş
 
 .NET için Aspose.Page dünyasına hoş geldiniz! Bu eğitimde, .NET ortamında Aspose.Page kütüphanesini kullanarak sayfaları düzenleme sürecinde size rehberlik edeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz verimli sayfa manipülasyonu için Aspose.Page'in gücünden yararlanmanıza yardımcı olmak üzere tasarlanmıştır.
@@ -94,3 +100,9 @@ Cevap3: Evet, Aspose.Page, Visual Studio ile tamamen uyumludur, bu da .NET proje
 ### S5: Nereden destek alabilirim veya soru sorabilirim?
 
  A5: ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) destek almak ve toplulukla etkileşime geçmek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

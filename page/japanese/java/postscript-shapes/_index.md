@@ -3,10 +3,16 @@ title: 形状 - ポストスクリプト
 linktitle: 形状 - ポストスクリプト
 second_title: Aspose.Page Java API
 description: Aspose.Page Java を使用して、魅力的な PostScript ドキュメントを簡単に作成します。楕円と長方形を追加して、視覚的に魅力的なコンテンツを作成するチュートリアルを詳しく見てみましょう。
-type: docs
 weight: 34
 url: /ja/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 形状 - ポストスクリプト
+
 
 ## 導入
 
@@ -65,3 +71,9 @@ Aspose.Page for Java の可能性を最大限に引き出し、ドキュメン�
 Aspose.Page を使用して、Java で見事な PostScript ドキュメントを作成する方法をマスターします。視覚的に魅力的なコンテンツを作成するために、楕円を追加する方法を段階的に学習します。
 ### [Java PostScriptで四角形を追加](./add-rectangle/)
 Aspose.Page for Java を使用して Java PostScript ドキュメントに鮮やかな四角形を追加するためのステップバイステップ ガイドをご覧ください。ドキュメントのカスタマイズを簡単に強化できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

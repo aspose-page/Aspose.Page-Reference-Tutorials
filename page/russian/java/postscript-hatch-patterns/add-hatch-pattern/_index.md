@@ -3,10 +3,16 @@ title: Добавить образец штриховки в Java PostScript
 linktitle: Добавить образец штриховки в Java PostScript
 second_title: API Aspose.Page Java
 description: Узнайте, как добавлять привлекательные образцы штриховки в документы Java PostScript с помощью Aspose.Page. Улучшите свой визуальный контент без особых усилий.
-type: docs
 weight: 10
 url: /ru/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить образец штриховки в Java PostScript
+
 ## Введение
 В мире программирования на Java улучшение визуальных элементов является обычным требованием для разработчиков. Одним из интригующих визуальных улучшений является добавление образцов штриховки в документы PostScript. Это руководство проведет вас через процесс добавления образцов штриховки с помощью Aspose.Page для Java.
 ## Предварительные условия
@@ -97,3 +103,9 @@ document.save();
  Исследовать[Форум Aspose.Page для Java](https://forum.aspose.com/c/page/39) за обучающие материалы и поддержку сообщества.
 ### Существует ли исчерпывающая документация по Aspose.Page для Java?
  Да, обратитесь к документации[здесь](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

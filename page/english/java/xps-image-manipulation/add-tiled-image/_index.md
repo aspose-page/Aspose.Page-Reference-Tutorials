@@ -3,10 +3,16 @@ title: Add Tiled Image in Java XPS
 linktitle: Add Tiled Image in Java XPS
 second_title: Aspose.Page Java API
 description: Explore seamless Java XPS document manipulation with Aspose.Page. Learn to add tiled images effortlessly using this step-by-step guide.
-type: docs
 weight: 11
 url: /java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Tiled Image in Java XPS
+
 ## Introduction
 In the dynamic world of Java development, the need for efficient document manipulation and creation is ever-growing. Aspose.Page for Java emerges as a powerful tool, providing developers with the capability to work with XPS documents seamlessly. This tutorial focuses on a specific task – adding a tiled image to a Java XPS document.
 ## Prerequisites
@@ -68,3 +74,10 @@ Yes, explore Aspose.Page features with a free trial [here](https://releases.aspo
 Engage with the Aspose.Page community on the [forum](https://forum.aspose.com/c/page/39).
 ### How can I obtain a temporary license for Aspose.Page?
 Acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ustaw maskę krycia w dokumencie XPS za pomocą Aspose.Page dla .NET
 linktitle: Ustaw maskę kryjącą w dokumencie XPS
 second_title: Aspose.Page API .NET
 description: Dowiedz się, jak ustawić maski kryjące w dokumentach XPS przy użyciu Aspose.Page dla .NET. Bez wysiłku poprawiaj estetykę dokumentów.
-type: docs
 weight: 12
 url: /pl/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw maskę krycia w dokumencie XPS za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Maski kryjące są niezbędne, gdy chcesz tworzyć atrakcyjne wizualnie dokumenty o różnym poziomie przezroczystości. Aspose.Page dla .NET upraszcza ten proces, oferując programistom kompleksowy zestaw narzędzi do ulepszania dokumentów XPS. W tym samouczku krok po kroku dowiemy się, jak ustawić maskę kryjącą.
@@ -98,3 +104,9 @@ O4: Tak, możesz nakładać wiele masek kryjących, aby uzyskać skomplikowane e
 ### P5: Czy Aspose.Page jest kompatybilny z innymi formatami dokumentów?
 
 Odpowiedź 5: Aspose.Page koncentruje się głównie na dokumentach XPS, ale Aspose zapewnia szereg produktów do obsługi różnych formatów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

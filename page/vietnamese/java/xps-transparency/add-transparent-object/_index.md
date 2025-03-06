@@ -3,10 +3,16 @@ title: Thêm đối tượng trong suốt trong Java XPS
 linktitle: Thêm đối tượng trong suốt trong Java XPS
 second_title: API Java Aspose.Page
 description: Nâng cao tài liệu Java XPS của bạn với các hiệu ứng trong suốt tuyệt đẹp bằng Aspose.Page. Làm theo hướng dẫn từng bước của chúng tôi để thêm các đối tượng trong suốt.
-type: docs
 weight: 10
 url: /vi/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm đối tượng trong suốt trong Java XPS
+
 ## Giới thiệu
 Nếu bạn đang tìm cách nâng cao sự hấp dẫn trực quan của tài liệu Java XPS bằng cách thêm các đối tượng trong suốt, Aspose.Page dành cho Java là giải pháp dành cho bạn. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình kết hợp các đối tượng trong suốt vào tài liệu XPS của bạn. Đến cuối hướng dẫn này, bạn sẽ có thể tạo các tài liệu tuyệt đẹp với các hiệu ứng trong suốt đẹp mắt về mặt thẩm mỹ.
 ## Điều kiện tiên quyết
@@ -88,3 +94,9 @@ Chúc mừng! Bạn đã học thành công cách thêm các đối tượng tro
 Trả lời: Có, Aspose.Page có thể được tích hợp liền mạch với các thư viện Java khác để có chức năng mở rộng.
 ### Câu hỏi: Tôi có thể tìm thêm ví dụ và hỗ trợ cho Aspose.Page ở đâu?
  Đáp: Hãy ghé thăm[Diễn đàn Java Aspose.Page](https://forum.aspose.com/c/page/39)để được cộng đồng hỗ trợ và khám phá tài liệu[đây](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ausschneiden von PS mit Aspose.Page für .NET
 linktitle: Ausschnitt PS
 second_title: Aspose.Page .NET-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Page für .NET in diesem Schritt-für-Schritt-Tutorial zum Ausschneiden von PostScript-Dokumenten. Erfahren Sie, wie Sie Ihre Fähigkeiten zur Dokumentenverarbeitung mühelos verbessern.
-type: docs
 weight: 10
 url: /de/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ausschneiden von PS mit Aspose.Page für .NET
+
 ## Einführung
 
 Willkommen zum umfassenden Tutorial zur Verwendung von Aspose.Page für .NET zum Implementieren von Clipping in PostScript-Dokumenten (PS). Dieses Tutorial führt Sie durch den Prozess des Ausschneidens von PS-Dokumenten mit Aspose.Page, einer leistungsstarken Bibliothek für die Arbeit mit verschiedenen Dokumentformaten in .NET-Anwendungen.
@@ -147,3 +153,9 @@ A1: Aspose.Page ist hauptsächlich für .NET-Anwendungen konzipiert. Aspose stel
 ### F5: Wo kann ich Unterstützung erhalten oder Aspose.Page-bezogene Fragen besprechen?
 
  A5: Besuchen Sie die[Aspose.Page-Foren](https://forum.aspose.com/c/page/39) für Community-Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

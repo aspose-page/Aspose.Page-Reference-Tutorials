@@ -3,10 +3,16 @@ title: تغيير القيم في XMP باستخدام Java
 linktitle: تغيير القيم في XMP باستخدام Java
 second_title: Aspose.Page جافا API
 description: قم بتحسين مستندات EPS باستخدام Aspose.Page لـ Java. قم بتعديل بيانات تعريف XMP بسهولة للحصول على محتوى مخصص واحترافي. #تطوير جافا
-type: docs
 weight: 17
 url: /ar/java/xmp-metadata-manipulation/change-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير القيم في XMP باستخدام Java
+
 ## مقدمة
 في مجال معالجة المستندات ومعالجتها، تبرز Aspose.Page for Java كأداة قوية. يتعمق هذا البرنامج التعليمي في عملية تغيير قيم XMP (منصة بيانات التعريف القابلة للتوسيع) في مستندات EPS (Encapsulated PostScript) باستخدام Java مع مكتبة Aspose.Page. باتباع الدليل الموضح خطوة بخطوة، ستتعلم كيفية تعديل البيانات التعريفية دون عناء، مما يضمن أن مستنداتك مصممة وفقًا لمتطلباتك المحددة.
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ try {
  نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ Java؟
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

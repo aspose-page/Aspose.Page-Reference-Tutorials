@@ -3,10 +3,16 @@ title: Hiệu ứng minh bạch
 linktitle: Hiệu ứng minh bạch
 second_title: API Aspose.Page .NET
 description: Khám phá sự kỳ diệu của hiệu ứng trong suốt trong tài liệu của bạn với Aspose.Page .NET. Nâng cao thiết kế của bạn bằng các hướng dẫn từng bước để có những cải tiến hình ảnh ấn tượng.
-type: docs
 weight: 34
 url: /vi/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiệu ứng minh bạch
+
 
 ## Giới thiệu
 
@@ -42,3 +48,9 @@ Tìm hiểu cách thêm đối tượng trong suốt vào tài liệu XPS trong 
 Tìm hiểu cách đặt mặt nạ độ mờ trong tài liệu XPS bằng Aspose.Page cho .NET. Nâng cao tính thẩm mỹ của tài liệu một cách dễ dàng.
 ### [Hiển thị tính minh bạch giả trong PostScript (PS) với Aspose.Page](./show-pseudo-transparency-in-postscript-ps/)
 Khám phá sức mạnh của tính minh bạch giả trong PostScript với Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được những tài liệu có hình ảnh bắt mắt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

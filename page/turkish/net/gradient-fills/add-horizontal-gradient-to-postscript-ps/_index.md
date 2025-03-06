@@ -3,10 +3,16 @@ title: Aspose.Page ile PostScript'e (PS) Yatay Degrade Ekleme
 linktitle: PostScript'e (PS) Yatay Degrade Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET'i kullanarak PostScript belgelerini çarpıcı yatay degradelerle geliştirin. Sorunsuz uygulama için adım adım eğitimimizi izleyin.
-type: docs
 weight: 12
 url: /tr/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile PostScript'e (PS) Yatay Degrade Ekleme
+
 ## giriiş
 
 Aspose.Page for .NET kullanarak PostScript (PS) belgelerine yatay degradeler eklemeyi konu alan bu kapsamlı eğitime hoş geldiniz. Aspose.Page, çeşitli formatlarda belge manipülasyonunu kolaylaştıran, geliştiricilere belgeleri sorunsuz bir şekilde oluşturmak, değiştirmek ve işlemek için ihtiyaç duydukları araçları sağlayan güçlü bir kütüphanedir.
@@ -143,3 +149,9 @@ Cevap3: Aspose.Page, XPS, PS, PDF ve daha fazlası dahil olmak üzere çeşitli 
 ### S5: Aspose.Page kullanıcıları için bir topluluk forumu var mı?
 
  C5: Evet, Aspose.Page topluluğuna şu adresten katılın:[Aspose.Page Forumu](https://forum.aspose.com/c/page/39) diğer kullanıcılarla bağlantı kurmak ve yardım istemek için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

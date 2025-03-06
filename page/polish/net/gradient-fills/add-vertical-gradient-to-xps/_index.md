@@ -3,10 +3,16 @@ title: Dodaj pionowy gradient do XPS za pomocą Aspose.Page dla .NET
 linktitle: Dodaj gradient pionowy do XPS
 second_title: Aspose.Page API .NET
 description: Dowiedz się, jak ulepszyć dokumenty XPS za pomocą gradientów pionowych za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 15
 url: /pl/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj pionowy gradient do XPS za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Witamy w tym samouczku krok po kroku dotyczącym dodawania gradientu pionowego do dokumentu XPS przy użyciu Aspose.Page dla .NET. Aspose.Page to potężny interfejs API, który umożliwia pracę z plikami XPS (Specyfikacja papieru XML) w aplikacjach .NET. W tym samouczku przeprowadzimy Cię przez proces tworzenia nowego dokumentu XPS, dodawania pionowego gradientu do ścieżki i zapisywania wyniku.
@@ -117,3 +123,9 @@ O1: Tak, Aspose.Page jest kompatybilny z Visual Studio 2019. Upewnij się, że m
 ### P5: Jak mogę uzyskać wsparcie lub zadać pytania?
 
  A5: Odwiedź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

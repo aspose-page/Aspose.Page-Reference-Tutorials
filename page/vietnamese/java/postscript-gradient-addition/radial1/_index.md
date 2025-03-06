@@ -3,10 +3,16 @@ title: Làm chủ các gradient xuyên tâm trong Java PostScript với Aspose.P
 linktitle: Làm chủ các gradient xuyên tâm trong Java
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thêm độ dốc xuyên tâm tuyệt đẹp trong Java PostScript bằng cách sử dụng Aspose.Page cho Java. Nâng cao tài liệu PostScript của bạn bằng hướng dẫn từng bước này.
-type: docs
 weight: 12
 url: /vi/java/postscript-gradient-addition/radial1/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ các gradient xuyên tâm trong Java PostScript với Aspose.Page
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách thêm gradient xuyên tâm trong Java PostScript bằng Aspose.Page. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu PostScript với độ dốc xuyên tâm đẹp mắt. Aspose.Page cho Java là một thư viện mạnh mẽ cho phép bạn làm việc liền mạch với các tệp PostScript.
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Chúc mừng! Bạn đã học thành công cách nâng cao tài liệu PostScri
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Cần sự hỗ trợ của cộng đồng?
  Tham gia cộng đồng Aspose.Page[diễn đàn](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

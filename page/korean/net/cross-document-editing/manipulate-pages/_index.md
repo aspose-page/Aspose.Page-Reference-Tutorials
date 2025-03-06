@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 페이지 조작
 linktitle: 페이지 조작
 second_title: Aspose.페이지 .NET API
 description: XPS 문서 처리를 위한 강력한 라이브러리인 Aspose.Page를 사용하여 .NET에서 페이지 조작을 살펴보세요. 효율적인 결과를 얻으려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 12
 url: /ko/net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 페이지 조작
+
 ## 소개
 
 .NET용 Aspose.Page의 세계에 오신 것을 환영합니다! 이 튜토리얼에서는 .NET 환경에서 Aspose.Page 라이브러리를 사용하여 페이지를 조작하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 효율적인 페이지 조작을 위해 Aspose.Page의 기능을 활용하는 데 도움이 되도록 설계되었습니다.
@@ -94,3 +100,9 @@ A3: 예, Aspose.Page는 Visual Studio와 완벽하게 호환되므로 .NET 프�
 ### Q5: 어디서 지원을 받거나 질문을 할 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 지원을 받고 커뮤니티에 참여합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

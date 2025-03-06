@@ -3,10 +3,16 @@ title: Aspose.Page Java Tutorial - Προσθήκη σελίδων στο PostSc
 linktitle: Προσθήκη σελίδων στο PostScript
 second_title: Aspose.Page Java API
 description: Μάθετε πώς να προσθέτετε σελίδες σε έγγραφα Java PostScript χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τον οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία εγγράφων.
-type: docs
 weight: 11
 url: /el/java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java Tutorial - Προσθήκη σελίδων στο PostScript
+
 ## Εισαγωγή
 Στον κόσμο του χειρισμού και διαχείρισης εγγράφων, το Aspose.Page για Java αναδεικνύεται ως ένα ισχυρό εργαλείο για το χειρισμό εγγράφων PostScript. Η προσθήκη σελίδων σε ένα έγγραφο PostScript είναι μια κοινή απαίτηση σε πολλές εφαρμογές. Σε αυτό το σεμινάριο, θα εξερευνήσουμε τη διαδικασία προσθήκης σελίδων χρησιμοποιώντας το Aspose.Page για Java, αναλύοντας κάθε βήμα για να κάνουμε την εμπειρία εκμάθησης απρόσκοπτη.
 ## Προαπαιτούμενα
@@ -71,3 +77,9 @@ document.save();
 Ναι, το Aspose.Page έχει σχεδιαστεί για να χειρίζεται αποτελεσματικά τόσο μικρά όσο και μεγάλα έγγραφα με ευκολία.
 ### Πού μπορώ να βρω πρόσθετους πόρους και υποστήριξη για το Aspose.Page;
  Εξερευνήστε το[Τεκμηρίωση Aspose.Page](https://reference.aspose.com/page/java/) , ή επισκεφθείτε το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39) για κοινοτική υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

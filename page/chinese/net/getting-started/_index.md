@@ -3,10 +3,16 @@ title: 入门
 linktitle: 入门
 second_title: Aspose.Page .NET API
 description: 通过分步教程释放 Aspose.Page .NET 的强大功能。应用计量许可证、从文件或流加载、安全许可证等。
-type: docs
 weight: 20
 url: /zh/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 入门
+
 ## 介绍
 
 欢迎来到 Aspose.Page 的 .NET 教程终极指南。深入探索无缝文档处理的世界，在这里，效率与简单性相结合。让我们踏上旅程，通过一系列全面的教程来充分利用这个强大工具的潜力。
@@ -38,3 +44,9 @@ url: /zh/net/getting-started/
 通过我们的分步指南轻松保护您的 Aspose.Page for .NET 许可证。释放 .NET 应用程序中无缝页面操作的全部潜力。
 ### [使用 Aspose.Page for .NET 的嵌入式资源设置许可证](./set-license-using-embedded-resource/)
 了解如何通过 Aspose.Page for .NET 使用嵌入式资源设置许可证。确保合规性并释放文档处理的全部潜力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

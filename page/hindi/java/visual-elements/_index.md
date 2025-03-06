@@ -3,10 +3,16 @@ title: दृश्य तत्व - जावा
 linktitle: दृश्य तत्व - जावा
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page के साथ अपने जावा दस्तावेज़ दृश्यों को सहजता से उन्नत करें! इस चरण-दर-चरण ट्यूटोरियल में विज़ुअल ब्रश का उपयोग करके ग्रिड जोड़कर अपने एप्लिकेशन को बेहतर बनाना सीखें।
-type: docs
 weight: 41
 url: /hi/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# दृश्य तत्व - जावा
+
 ## परिचय
 
 जावा डेवलपर्स, आनन्दित हों! Aspose.Page ट्यूटोरियल के साथ विज़ुअल तत्वों के दायरे में उतरें जो आपके जावा दस्तावेज़ विज़ुअल को बदलने का वादा करते हैं। इस संस्करण में, हम विज़ुअल ब्रश का उपयोग करके ग्रिड जोड़ने की मनोरम कला पर ध्यान केंद्रित करते हैं। जैसे ही हम आपके एप्लिकेशन की अपील को बढ़ाने की यात्रा पर निकल रहे हैं, कमर कस लें।
@@ -46,3 +52,9 @@ Aspose.Page सभी स्तरों के डेवलपर्स को 
 ## दृश्य तत्व - जावा ट्यूटोरियल
 ### [जावा में विज़ुअल ब्रश का उपयोग करके ग्रिड जोड़ें](./add-grid/)
 Aspose.Page के साथ जावा दस्तावेज़ दृश्य बढ़ाएँ! विज़ुअल ब्रश का उपयोग करके चरण-दर-चरण ग्रिड जोड़ना सीखें। अपने एप्लिकेशन की अपील को सहजता से बढ़ाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

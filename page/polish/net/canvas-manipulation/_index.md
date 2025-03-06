@@ -3,10 +3,16 @@ title: Manipulacja płótnem
 linktitle: Manipulacja płótnem
 second_title: Aspose.Page API .NET
 description: Zapoznaj się z samouczkami Aspose.Page dotyczącymi .NET na temat manipulacji płótnem. Łatwe przycinanie i przekształcanie dokumentów PS i XPS. Zwiększ swoje umiejętności przetwarzania dokumentów.
-type: docs
 weight: 21
 url: /pl/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja płótnem
+
 
 ## Wstęp
 
@@ -42,3 +48,9 @@ Poznaj możliwości Aspose.Page dla .NET w tym przewodniku krok po kroku dotycz�
 Odblokuj potencjał Aspose.Page dla .NET dzięki temu obszernemu przewodnikowi po transformacjach PostScript. Twórz dynamiczną grafikę bez wysiłku.
 ### [Transformacje XPS z Aspose.Page dla .NET](./transformationsxps/)
 Przekształcaj dokumenty XPS bez wysiłku dzięki Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynne transformacje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

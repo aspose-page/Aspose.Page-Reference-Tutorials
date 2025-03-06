@@ -3,10 +3,16 @@ title: 파일 병합
 linktitle: 파일 병합
 second_title: Aspose.페이지 자바 API
 description: PostScript 파일을 PDF로 쉽게 병합하고 Aspose.Page를 사용하여 XPS를 PDF 또는 Java에서 XPS로 변환합니다. 원활한 문서 변환을 위한 단계별 튜토리얼을 따르세요.
-type: docs
 weight: 31
 url: /ko/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 파일 병합
+
 
 ## 소개
 
@@ -40,3 +46,9 @@ Aspose.Page를 사용하여 PostScript 파일을 Java의 PDF로 쉽게 병합할
 Aspose.Page를 사용하여 Java에서 XPS를 PDF로 쉽게 변환하는 방법을 알아보세요. 효율적인 문서 변환을 위한 단계별 가이드를 따르세요.
 ### [Java에서 XPS를 XPS로 변환](./xps-to-xps/)
 Aspose.Page를 사용하여 Java에서 XPS 파일을 원활하게 병합하는 방법을 알아보세요. 효율적인 문서 조작을 위한 단계별 가이드를 따르세요. 지금 Java 개발 기술을 향상시켜 보세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

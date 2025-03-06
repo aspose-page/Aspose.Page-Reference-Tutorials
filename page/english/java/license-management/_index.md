@@ -3,10 +3,16 @@ title: License Management
 linktitle: License Management
 second_title: Aspose.Page Java API
 description: Unlock the full potential of Aspose.Page for Java with our License Management Tutorials. Set up metered licenses seamlessly to boost document processing capabilities.
-type: docs
 weight: 30
 url: /java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# License Management
+
 ## Introduction
 
 Welcome to the License Management Tutorials for Aspose.Page in Java! In this comprehensive guide, we'll delve into the intricacies of setting up metered licenses to optimize your document processing capabilities. Let's embark on a journey that unlocks the full potential of Aspose.Page, ensuring a seamless integration with Java.
@@ -39,3 +45,9 @@ Ready to get started? [Set Metered License in Java](./set-metered-license/) and 
 ## License Management Tutorials
 ### [Set Metered License in Java](./set-metered-license/)
 Explore the seamless integration of Aspose.Page with Java. Set up metered licenses effortlessly and enhance your document processing capabilities.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

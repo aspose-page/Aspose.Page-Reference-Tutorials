@@ -3,10 +3,16 @@ title: Tambahkan Pola Penetasan di Java PostScript
 linktitle: Tambahkan Pola Penetasan di Java PostScript
 second_title: Aspose.Halaman Java API
 description: Pelajari cara menambahkan pola penetasan yang menawan ke dokumen Java PostScript menggunakan Aspose.Page. Tingkatkan konten visual Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Pola Penetasan di Java PostScript
+
 ## Perkenalan
 Dalam dunia pemrograman Java, menyempurnakan elemen visual merupakan kebutuhan umum bagi para pengembang. Salah satu peningkatan visual yang menarik adalah penambahan pola penetasan pada dokumen PostScript. Tutorial ini akan memandu Anda melalui proses menambahkan pola penetasan menggunakan Aspose.Page untuk Java.
 ## Prasyarat
@@ -97,3 +103,9 @@ Ya, Aspose.Page untuk Java dirancang untuk berintegrasi secara mulus dengan berb
  Jelajahi[Aspose.Halaman untuk forum Java](https://forum.aspose.com/c/page/39) untuk tutorial dan dukungan komunitas.
 ### Apakah ada sumber dokumentasi yang komprehensif untuk Aspose.Page untuk Java?
  Ya, lihat dokumentasinya[Di Sini](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

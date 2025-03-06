@@ -3,10 +3,16 @@ title: Použijte Grid Visual Brush s Aspose.Page pro .NET
 linktitle: Naneste mřížkový vizuální štětec
 second_title: Aspose.Page .NET API
 description: Prozkoumejte dynamický svět zpracování dokumentů v .NET s Aspose.Page. Naučte se používat mřížkový vizuální štětec pro vizuálně úžasné dokumenty.
-type: docs
 weight: 10
 url: /cs/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použijte Grid Visual Brush s Aspose.Page pro .NET
+
 ## Úvod
 
 Ve světě vývoje .NET vyniká Aspose.Page jako výkonný nástroj pro zpracování úloh zpracování dokumentů. Jednou z fascinujících funkcí, které nabízí, je možnost použít mřížkový vizuální štětec, který vašim dokumentům přináší nový rozměr. Tento tutoriál vás provede procesem implementace vizuálního štětce Magenta Grid krok za krokem pomocí Aspose.Page for .NET.
@@ -143,3 +149,9 @@ A1: Ano, Aspose.Page for .NET je univerzální a lze jej použít v různých ty
 ### Q5: Jaká další dokumentace je k dispozici pro Aspose.Page for .NET?
 
  A5: Prozkoumejte komplexní dokumentaci[tady](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Agregar degradado vertical en Java PostScript
 linktitle: Agregar degradado vertical en Java PostScript
 second_title: API de Java de Aspose.Page
 description: Explore la guía paso a paso para agregar degradados verticales en Java PostScript con Aspose.Page para Java. Mejore sus documentos sin esfuerzo con imágenes vibrantes.
-type: docs
 weight: 14
 url: /es/java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar degradado vertical en Java PostScript
+
 ## Introducción
 Bienvenido a esta guía paso a paso sobre cómo agregar un degradado vertical en Java PostScript usando Aspose.Page para Java. Si desea mejorar su documento con degradados llamativos, este tutorial es para usted. Aspose.Page para Java proporciona potentes herramientas para manipular documentos PostScript sin problemas.
 ## Requisitos previos
@@ -101,3 +107,9 @@ Sí, Aspose.Page para Java está diseñado para funcionar perfectamente con otra
  Puedes comprar Aspose.Page para Java[aquí](https://purchase.aspose.com/buy).
 ### ¿Existe un foro para discusiones sobre Aspose.Page?
  Sí, puedes unirte al foro de la comunidad.[aquí](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

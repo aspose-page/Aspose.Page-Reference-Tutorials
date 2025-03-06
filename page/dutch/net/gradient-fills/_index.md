@@ -3,10 +3,16 @@ title: Verloopvullingen
 linktitle: Verloopvullingen
 second_title: Aspose.Page .NET-API
 description: Ontdek de kunst van verloopvullingen in .NET met Aspose.Page-tutorials. Til uw projecten moeiteloos naar een hoger niveau en voeg boeiende diagonale, horizontale en verticale verlopen toe.
-type: docs
 weight: 27
 url: /nl/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verloopvullingen
+
 
 ## Invoering
 
@@ -49,3 +55,9 @@ Leer hoe u verbluffende horizontale verlopen aan uw XPS-documenten kunt toevoege
 Leer hoe u visueel aantrekkelijke verticale verlopen kunt toevoegen aan PostScript (PS)-documenten in .NET met behulp van Aspose.Page. Verbeter uw documentcreatie met deze stapsgewijze handleiding.
 ### [Voeg een verticaal verloop toe aan XPS met Aspose.Page voor .NET](./add-vertical-gradient-to-xps/)
 Leer hoe u XPS-documenten kunt verbeteren met verticale verlopen met Aspose.Page voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

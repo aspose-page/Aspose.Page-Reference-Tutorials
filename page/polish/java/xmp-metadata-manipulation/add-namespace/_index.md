@@ -3,10 +3,16 @@ title: Dodaj przestrzeń nazw w XMP przy użyciu Java
 linktitle: Dodaj przestrzeń nazw w XMP przy użyciu Java
 second_title: Aspose.Page API Java
 description: Odblokuj moc manipulacji dokumentami za pomocą Aspose.Page dla Java. Z tego obszernego przewodnika dowiesz się, jak łatwo dodawać przestrzenie nazw XMP.
-type: docs
 weight: 13
 url: /pl/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj przestrzeń nazw w XMP przy użyciu Java
+
 
 ## Wstęp
 
@@ -108,3 +114,9 @@ Aspose.Page obsługuje przede wszystkim Javę, ale dostępne są wersje dla inny
 
 ### Czy istnieją fora społeczności dla Aspose.Page?
  Tak, możesz nawiązać kontakt ze społecznością na stronie[Forum Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

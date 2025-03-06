@@ -3,10 +3,16 @@ title: Προσθήκη στοιχείων πίνακα στα μεταδεδο�
 linktitle: Προσθήκη στοιχείων πίνακα στα μεταδεδομένα XMP χρησιμοποιώντας Java
 second_title: Aspose.Page Java API
 description: Βελτιώστε τα αρχεία EPS με το Aspose.Page για Java. Μάθετε να προσθέτετε στοιχεία πίνακα στα μεταδεδομένα XMP χωρίς κόπο. Ακολουθήστε τον βήμα προς βήμα οδηγό μας τώρα!
-type: docs
 weight: 10
 url: /el/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη στοιχείων πίνακα στα μεταδεδομένα XMP χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Καλώς ήρθατε στον αναλυτικό οδηγό μας σχετικά με τη χρήση του Aspose.Page για Java για την προσθήκη στοιχείων πίνακα σε μεταδεδομένα XMP. Το Aspose.Page είναι μια ισχυρή βιβλιοθήκη Java που σας επιτρέπει να χειρίζεστε και να εργάζεστε με διάφορες μορφές εγγράφων, συμπεριλαμβανομένων των αρχείων EPS. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στη συγκεκριμένη εργασία της προσθήκης στοιχείων πίνακα σε μεταδεδομένα XMP χρησιμοποιώντας Java.
 ## Προαπαιτούμενα
@@ -78,3 +84,9 @@ try {
  Μπορείτε να αγοράσετε το προϊόν[εδώ](https://purchase.aspose.com/buy).
 ### Είναι διαθέσιμες προσωρινές άδειες χρήσης για το Aspose.Page για Java;
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

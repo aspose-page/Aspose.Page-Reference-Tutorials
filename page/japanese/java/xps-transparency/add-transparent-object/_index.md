@@ -3,10 +3,16 @@ title: Java XPSに透明オブジェクトを追加する
 linktitle: Java XPSに透明オブジェクトを追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して、Java XPS ドキュメントを素晴らしい透明効果で強化します。透明オブジェクトを追加するには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPSに透明オブジェクトを追加する
+
 ## 導入
 透明なオブジェクトを追加して Java XPS ドキュメントの視覚的な魅力を強化したい場合は、Aspose.Page for Java が最適なソリューションです。このステップバイステップのガイドでは、XPS ドキュメントに透明なオブジェクトを組み込むプロセスについて説明します。このチュートリアルを終えると、見た目にも美しい透明効果を備えた素晴らしいドキュメントを作成できるようになります。
 ## 前提条件
@@ -88,3 +94,9 @@ A: もちろんです！ Aspose.Page は、プロフェッショナルなドキ�
 A: はい、Aspose.Page は拡張機能のために他の Java ライブラリとシームレスに統合できます。
 ### Q: Aspose.Page の追加の例とサポートはどこで見つけられますか?
  A: にアクセスしてください。[Aspose.Page Java フォーラム](https://forum.aspose.com/c/page/39)コミュニティのサポートを求め、ドキュメントを参照してください[ここ](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

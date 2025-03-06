@@ -3,10 +3,16 @@ title: Xóa Trang khỏi Tài liệu XPS bằng Aspose.Page cho .NET
 linktitle: Xóa trang khỏi tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Khám phá hướng dẫn toàn diện về cách xóa trang khỏi tài liệu XPS bằng Aspose.Page cho .NET. Tìm hiểu quy trình từng bước, điều kiện tiên quyết và Câu hỏi thường gặp để thao tác tài liệu liền mạch.
-type: docs
 weight: 12
 url: /vi/net/page-manipulation/remove-page-from-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xóa Trang khỏi Tài liệu XPS bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Trong hướng dẫn này, chúng ta sẽ khám phá quy trình xóa một trang khỏi tài liệu XPS bằng Aspose.Page cho .NET. Aspose.Page là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc liền mạch với các tài liệu XPS (Đặc tả giấy XML). Nếu bạn rơi vào tình huống cần xóa một trang cụ thể khỏi tài liệu XPS của mình, hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình.
@@ -100,3 +106,9 @@ Câu trả lời 2: Aspose.Page được cập nhật thường xuyên để đ�
 ### Câu hỏi 5: Tôi có cần giấy phép tạm thời để thử nghiệm Aspose.Page không?
 
  Câu trả lời 5: Có, bạn có thể nhận được[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

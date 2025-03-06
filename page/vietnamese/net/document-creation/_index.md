@@ -3,10 +3,16 @@ title: Tạo tài liệu
 linktitle: Tạo tài liệu
 second_title: API Aspose.Page .NET
 description: Dễ dàng tạo các tài liệu XPS và PostScript tuyệt đẹp với Aspose.Page cho .NET. Khám phá các hướng dẫn tạo và sửa đổi tài liệu để tích hợp liền mạch.
-type: docs
 weight: 23
 url: /vi/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu
+
 ## Giới thiệu
 
 Aspose.Page dành cho .NET mở ra cánh cửa dẫn đến một thế giới khả năng trong việc tạo tài liệu điện tử. Cho dù bạn là nhà phát triển dày dặn kinh nghiệm hay mới bắt đầu, hướng dẫn từng bước của chúng tôi sẽ giúp bạn dễ dàng tạo tài liệu XPS và PostScript.
@@ -36,3 +42,9 @@ Khám phá thế giới tạo tài liệu XPS với Aspose.Page cho .NET. Hãy l
 Tìm hiểu cách tạo tài liệu PostScript trong .NET bằng Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Tải xuống thư viện và bắt đầu thao tác các tệp PostScript một cách dễ dàng.
 ### [Sửa đổi tài liệu XPS bằng Aspose.Page cho .NET](./modify-xps-document/)
 Khám phá sức mạnh của Aspose.Page dành cho .NET để dễ dàng sửa đổi tài liệu XPS. Hãy làm theo hướng dẫn từng bước của chúng tôi, nâng cao khả năng xử lý tài liệu của bạn và thêm văn bản chữ ký được cá nhân hóa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

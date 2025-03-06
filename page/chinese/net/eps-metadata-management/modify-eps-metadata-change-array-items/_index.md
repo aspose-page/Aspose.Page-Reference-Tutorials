@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 更改数组项
 linktitle: 更改数组项目
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page for .NET 更改 EPS 文件中的数组项。请按照我们的分步指南进行有效的元数据操作。
-type: docs
 weight: 15
 url: /zh/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 更改数组项
+
 ## 介绍
 
 欢迎阅读这份有关使用 Aspose.Page for .NET 更改数组项的综合指南！ Aspose.Page 是一个功能强大的库，允许开发人员处理各种文档格式，包括 EPS 文件。在本教程中，我们将重点关注在 EPS 文件中操作 XMP 元数据，特别是更改数组项。
@@ -99,3 +105,9 @@ A1：Aspose.Page 主要处理 EPS 文件，但 Aspose 提供了不同的库来�
 ### Q5：我可以在哪里获得支持或与社区联系？
 
  A5：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)以获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

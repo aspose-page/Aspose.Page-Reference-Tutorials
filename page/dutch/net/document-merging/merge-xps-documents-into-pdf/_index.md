@@ -3,10 +3,16 @@ title: Voeg XPS-documenten samen in PDF met Aspose.Page voor .NET
 linktitle: XPS-documenten samenvoegen tot PDF
 second_title: Aspose.Page .NET-API
 description: Voeg XPS-documenten moeiteloos samen tot hoogwaardige PDF's met Aspose.Page voor .NET. Volg onze stapsgewijze handleiding voor een soepele documentconversie-ervaring.
-type: docs
 weight: 11
 url: /nl/net/document-merging/merge-xps-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg XPS-documenten samen in PDF met Aspose.Page voor .NET
+
 ## Invoering
 
 In het steeds evoluerende landschap van documentverwerking komt Aspose.Page voor .NET naar voren als een krachtig hulpmiddel voor het naadloos samenvoegen van XPS-documenten in PDF-formaat. Deze tutorial begeleidt u door het proces, waarbij elke stap wordt opgesplitst om een soepele en effectieve uitvoering te garanderen.
@@ -123,3 +129,9 @@ A4: Ja, Aspose.Page voor .NET biedt uitgebreide functies voor PDF-manipulatie. R
 ### V5: Ondersteunt Aspose.Page voor .NET platformonafhankelijke ontwikkeling?
 
 A5: Ja, Aspose.Page voor .NET is ontworpen om naadloos op verschillende platforms te werken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

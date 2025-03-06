@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將矩形新增至 XPS 文檔
 linktitle: 將矩形新增至 XPS 文件
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 增強文件建立。在此逐步教學中了解如何為 XPS 文件新增矩形。
-type: docs
 weight: 13
 url: /zh-hant/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將矩形新增至 XPS 文檔
+
 ## 介紹
 
 Aspose.Page for .NET 是一個功能強大的函式庫，提供了在 .NET 應用程式中處理 XPS（XML 紙張規格）文件的各種功能。在本教程中，我們將重點介紹使用 Aspose.Page for .NET 將矩形新增至 XPS 文件。請按照此逐步指南來增強您的文件建立流程。
@@ -95,3 +101,9 @@ A4：參觀[這個連結](https://purchase.aspose.com/temporary-license/)獲得�
 ### Q5：我可以在哪裡尋求社群支援或提出與 Aspose.Page for .NET 相關的問題？
 
  A5：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

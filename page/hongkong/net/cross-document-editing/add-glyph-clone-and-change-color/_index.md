@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 新增字形複製並更改顏色
 linktitle: 添加字形克隆並更改顏色
 second_title: Aspose.Page .NET API
 description: 在這個綜合教學中探索 Aspose.Page for .NET 的強大功能。了解如何輕鬆地在 XPS 文件中新增字形複製並更改顏色。
-type: docs
 weight: 10
 url: /zh-hant/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 新增字形複製並更改顏色
+
 ## 介紹
 
 歡迎閱讀本逐步指南，以了解如何使用 Aspose.Page for .NET 在 XPS 文件中新增字形複製和變更顏色。 Aspose.Page for .NET 是一個功能強大的程式庫，可讓您無縫處理 XPS 檔案。在本教程中，我們將重點關注添加字形克隆並更改其顏色的過程，以增強文件的視覺吸引力。
@@ -129,3 +135,9 @@ A4：免費試用版有一些限制，建議使用前查看文件以了解詳細
 ### Q5：在哪裡可以找到 Aspose.Page for .NET 的綜合文件？
 
  A5：可以參考文檔[這裡](https://reference.aspose.com/page/net/)取得詳細資訊和範例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

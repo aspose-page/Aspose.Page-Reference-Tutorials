@@ -3,10 +3,16 @@ title: Bildbearbeitung
 linktitle: Bildbearbeitung
 second_title: Aspose.Page .NET-API
 description: Entdecken Sie die Leistungsfähigkeit von Aspose.Page für .NET in unseren Tutorials zur Bildbearbeitung. Schneiden Sie EPS-Bilder mühelos zu und ändern Sie ihre Größe, um atemberaubende und präzise Ergebnisse zu erzielen.
-type: docs
 weight: 26
 url: /de/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bildbearbeitung
+
 ## Einführung
 
 Sind Sie bereit, Ihre EPS-Bildbearbeitungsfähigkeiten in .NET zu verbessern? Tauchen Sie ein in unsere umfassenden Tutorials zur Bildbearbeitung mit Aspose.Page für .NET, in denen wir Sie durch den nahtlosen Prozess des Zuschneidens und Änderns der Größe von EPS-Bildern führen.
@@ -41,3 +47,9 @@ Entdecken Sie die Welt von Aspose.Page für .NET mit unseren Bildbearbeitungs-Tu
 Entdecken Sie die nahtlose Welt der EPS-Bildbearbeitung in .NET mit Aspose.Page. Schneiden Sie Bilder mühelos zu und ändern Sie ihre Größe, um atemberaubende Ergebnisse zu erzielen.
 ### [Ändern Sie die Größe von EPS-Bildern mit Aspose.Page für .NET](./resize-eps-images/)
 Entdecken Sie den nahtlosen Prozess der Größenänderung von EPS-Bildern in .NET mit Aspose.Page. Erzielen Sie mühelos Präzision in Punkten, Zoll, Millimetern und Prozentsätzen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

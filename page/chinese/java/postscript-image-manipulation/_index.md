@@ -3,10 +3,16 @@ title: 图像处理 - PostScript
 linktitle: 图像处理 - PostScript
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 增强文档操作技能。深入研究我们的 PostScript 教程，学习在 Java 中添加图像，并提升您的文档功能。
-type: docs
 weight: 28
 url: /zh/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 图像处理 - PostScript
+
 
 ## 介绍
 
@@ -32,3 +38,9 @@ Aspose.Page for Java 使您能够提升文档操作能力。通过我们的教�
 ## 图像处理 - PostScript 教程
 ### [在 Java PostScript 中添加图像](./add-image/)
 在本教程中探索 Aspose.Page Java 的无缝集成，向 PostScript 文档添加图像。提升您的文档处理能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

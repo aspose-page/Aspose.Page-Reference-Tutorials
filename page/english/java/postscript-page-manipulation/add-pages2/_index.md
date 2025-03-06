@@ -3,10 +3,16 @@ title: Aspose.Page Java Tutorial - Adding Pages in PostScript
 linktitle: Adding Pages in PostScript
 second_title: Aspose.Page Java API
 description: Learn how to add pages to Java PostScript documents using Aspose.Page. Follow our step-by-step guide for seamless document manipulation.
-type: docs
 weight: 11
 url: /java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java Tutorial - Adding Pages in PostScript
+
 ## Introduction
 In the world of document manipulation and management, Aspose.Page for Java emerges as a powerful tool to handle PostScript documents. Adding pages to a PostScript document is a common requirement in many applications. In this tutorial, we will explore the process of adding pages using Aspose.Page for Java, breaking down each step to make the learning experience seamless.
 ## Prerequisites
@@ -71,3 +77,10 @@ Absolutely! Aspose.Page allows you to add a wide range of content, including tex
 Yes, Aspose.Page is designed to efficiently handle both small and large documents with ease.
 ### Where can I find additional resources and support for Aspose.Page?
 Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/), or visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

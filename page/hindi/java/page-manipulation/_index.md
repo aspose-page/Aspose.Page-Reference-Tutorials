@@ -3,10 +3,16 @@ title: जावा पेज मैनिपुलेशन
 linktitle: जावा पेज मैनिपुलेशन
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page ट्यूटोरियल्स के साथ जावा पेज मैनिपुलेशन के रहस्यों को अनलॉक करें। दृश्यात्मक रूप से आश्चर्यजनक दस्तावेज़ों को सहजता से तैयार करने के लिए क्लिपिंग और परिवर्तनों में गोता लगाएँ।
-type: docs
 weight: 20
 url: /hi/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा पेज मैनिपुलेशन
+
 
 ## परिचय
 
@@ -50,3 +56,9 @@ Aspose.Page के साथ जावा में उन्नत पृष्
 Aspose.Page के साथ जावा पेज मैनिपुलेशन में क्लिपिंग की कला का अन्वेषण करें। आश्चर्यजनक दृश्यों और नियंत्रण के लिए सटीक दस्तावेज़ क्राफ्टिंग में महारत हासिल करें।
 ### [जावा पेज मैनिपुलेशन में परिवर्तन](./transformations/)
 जावा के लिए Aspose.Page का उपयोग करके जावा में उन्नत पृष्ठ परिवर्तन करना सीखें। शक्तिशाली हेरफेर क्षमताओं के साथ अपने जावा एप्लिकेशन को बेहतर बनाएं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

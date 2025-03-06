@@ -3,10 +3,16 @@ title: 使用 PostScript 在 Java 中创建文档
 linktitle: 使用 PostScript 在 Java 中创建文档
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 在 Java 中轻松创建 PostScript 文档。自定义页面大小、边距和字体。立即免费试用！
-type: docs
 weight: 10
 url: /zh/java/document-creation/postscript/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 PostScript 在 Java 中创建文档
+
 ## 介绍
 在 Java 开发领域，创建和管理文档是一个至关重要的方面。随着 Aspose.Page for Java 的出现，该过程不仅变得高效而且灵活。本教程旨在指导您完成使用 Aspose.Page 通过 PostScript 在 Java 中创建文档的步骤，确保您充分利用该工具的强大功能。
 ## 先决条件
@@ -80,3 +86,9 @@ document.save();
 您可以购买许可证[这里](https://purchase.aspose.com/buy).
 ### 有 Aspose.Page 讨论的论坛吗？
 是的，您可以加入社区[论坛](https://forum.aspose.com/c/page/39)进行讨论和支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

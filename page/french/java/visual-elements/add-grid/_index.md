@@ -3,10 +3,16 @@ title: Ajouter une grille à l'aide de Visual Brush en Java
 linktitle: Ajouter une grille à l'aide de Visual Brush en Java
 second_title: API Java Aspose.Page
 description: Améliorez les visuels des documents Java avec Aspose.Page ! Apprenez à ajouter des grilles à l’aide de Visual Brush, étape par étape. Renforcez l'attrait de votre candidature sans effort.
-type: docs
 weight: 10
 url: /fr/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une grille à l'aide de Visual Brush en Java
+
 ## Introduction
 Cherchez-vous à améliorer vos applications Java avec des grilles visuellement attrayantes à l'aide d'Aspose.Page ? Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'une grille à l'aide de Visual Brush en Java avec Aspose.Page. Visual Brush vous permet de peindre une zone avec un contenu visuel, créant ainsi de superbes effets de grille dans vos documents.
 ## Conditions préalables
@@ -84,3 +90,9 @@ Absolument! Visual Brush vous permet de peindre avec différentes couleurs, offr
  Oui, vous pouvez accéder au[essai gratuit](https://releases.aspose.com/) pour explorer les fonctionnalités d'Aspose.Page.
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Page ?
  Acquérir un[permis temporaire](https://purchase.aspose.com/temporary-license/) à des fins de tests.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

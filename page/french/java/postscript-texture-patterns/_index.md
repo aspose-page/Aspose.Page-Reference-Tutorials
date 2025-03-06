@@ -3,10 +3,16 @@ title: Texture et motifs - PostScript
 linktitle: Texture et motifs - PostScript
 second_title: API Java Aspose.Page
 description: Élevez PostScript avec Aspose.Page pour Java. Ajoutez facilement des motifs de mosaïque de textures pour des possibilités créatives dans nos didacticiels Java PostScript détaillés.
-type: docs
 weight: 38
 url: /fr/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Texture et motifs - PostScript
+
 ## Introduction
 
 Êtes-vous prêt à élever vos documents PostScript vers de nouveaux sommets créatifs ? Aspose.Page pour Java est votre passerelle pour intégrer de manière transparente des modèles de mosaïque de textures dans vos projets. Dans ce guide complet, nous plongerons dans le monde des textures et des motifs, libérant ainsi tout le potentiel de Java PostScript.
@@ -45,3 +51,9 @@ Prêt à rehausser vos conceptions PostScript ? Plongez dans nos didacticiels A
 ## Texture et motifs - Tutoriels PostScript
 ### [Ajouter un motif de mosaïque de texture dans Java PostScript](./add-texture-tiling-pattern/)
 Ajoutez sans effort des modèles de mosaïque de texture aux documents PostScript avec Aspose.Page pour Java. Découvrez notre guide d’intégration transparente pour des possibilités créatives.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

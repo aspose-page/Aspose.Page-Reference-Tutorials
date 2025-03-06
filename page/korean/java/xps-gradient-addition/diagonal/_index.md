@@ -3,10 +3,16 @@ title: Java XPS에 대각선 그라디언트 추가
 linktitle: Java XPS에 대각선 그라디언트 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java에서 XPS 문서에 멋진 대각선 그라데이션을 추가하는 방법을 알아보세요. 손쉽게 시각적 프레젠테이션을 향상시키세요.
-type: docs
 weight: 10
 url: /ko/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS에 대각선 그라디언트 추가
+
 ## 소개
 끊임없이 진화하는 Java 개발 세계에서는 XPS 문서의 시각적 매력을 향상시키는 것이 중요합니다. 이를 달성하는 효과적인 방법 중 하나는 대각선 그라데이션을 통합하는 것입니다. 이 튜토리얼은 단계별 지침과 코드 조각을 제공하여 Java용 Aspose.Page를 사용하는 프로세스를 안내합니다.
 ## 전제 조건
@@ -75,3 +81,9 @@ Aspose.Page는 다양한 Java 프레임워크와 원활하게 통합되도록 �
  방문하다[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 지역사회에 참여하고 도움을 구합니다.
 ### Q: 임시 라이선스에 대한 조항이 있나요?
  예, 다음을 얻을 수 있습니다.[임시 면허증은 여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

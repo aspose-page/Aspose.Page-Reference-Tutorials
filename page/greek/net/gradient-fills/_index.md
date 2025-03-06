@@ -3,10 +3,16 @@ title: Γεμίσματα κλίσης
 linktitle: Γεμίσματα κλίσης
 second_title: Aspose.Page .NET API
 description: Ανακαλύψτε την τέχνη του ντεγκραντέ γεμίσματα στο .NET με τα μαθήματα Aspose.Page. Αναβαθμίστε τα έργα σας χωρίς κόπο—προσθέστε μαγευτικές διαγώνιες, οριζόντιες και κάθετες διαβαθμίσεις.
-type: docs
 weight: 27
 url: /el/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Γεμίσματα κλίσης
+
 
 ## Εισαγωγή
 
@@ -49,3 +55,9 @@ url: /el/net/gradient-fills/
 Μάθετε πώς να προσθέτετε οπτικά ελκυστικές κάθετες διαβαθμίσεις σε έγγραφα PostScript (PS) στο .NET χρησιμοποιώντας το Aspose.Page. Αναβαθμίστε τη δημιουργία εγγράφων με αυτόν τον οδηγό βήμα προς βήμα.
 ### [Προσθήκη Vertical Gradient στο XPS με το Aspose.Page για .NET](./add-vertical-gradient-to-xps/)
 Μάθετε πώς να βελτιώνετε έγγραφα XPS με κάθετες διαβαθμίσεις χρησιμοποιώντας το Aspose.Page για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

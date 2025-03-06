@@ -3,10 +3,16 @@ title: Lägg till bildfylld glyph & utländsk bild med Aspose.Page .NET
 linktitle: Lägg till bildfylld glyph & främmande bild
 second_title: Aspose.Page .NET API
 description: Lås upp kraften i dokumentbehandling i .NET med Aspose.Page. Lägg till bildfyllda glyfer utan ansträngning. Förbättra bilder och effektivisera ditt arbetsflöde.
-type: docs
 weight: 11
 url: /sv/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till bildfylld glyph & utländsk bild med Aspose.Page .NET
+
 ## Introduktion
 
 en värld av .NET-utveckling framstår Aspose.Page som en kraftfull verktygslåda för att hantera dokumentbearbetningsuppgifter. Denna handledning guidar dig genom processen att lägga till bildfyllda glyfer och införliva främmande bilder med Aspose.Page för .NET. I slutet av den här guiden har du en gedigen förståelse för hur du kan förbättra dina dokumentbehandlingsmöjligheter.
@@ -131,3 +137,9 @@ S4: Ja, du kan anpassa stilar för varje glyf oberoende, vilket ger en hög niv�
 ### F5: Vilka är fördelarna med att använda Aspose.Page framför andra dokumentbearbetningsverktyg?
 
 A5: Aspose.Page erbjuder en omfattande uppsättning funktioner, utmärkt prestanda och omfattande dokumentation, vilket gör det till ett föredraget val för många utvecklare.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

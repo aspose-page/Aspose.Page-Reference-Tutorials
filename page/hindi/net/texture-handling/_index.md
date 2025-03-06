@@ -3,10 +3,16 @@ title: बनावट संभालना
 linktitle: बनावट संभालना
 second_title: Aspose.Page .NET API
 description: आश्चर्यजनक दृश्य प्रभावों के साथ पोस्टस्क्रिप्ट दस्तावेज़ों को बेहतर बनाएं! हमारे चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.Page का उपयोग करके टेक्सचर टाइलिंग पैटर्न लागू करना सीखें।
-type: docs
 weight: 33
 url: /hi/net/texture-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# बनावट संभालना
+
 ## परिचय
 
 दस्तावेज़ हेरफेर के क्षेत्र में, बनावट प्रबंधन में महारत हासिल करने से रचनात्मक संभावनाओं की दुनिया खुल सकती है। .NET के लिए Aspose.Page उन डेवलपर्स के लिए एक शक्तिशाली सहयोगी के रूप में खड़ा है जो अपने पोस्टस्क्रिप्ट (PS) दस्तावेज़ों को नई ऊंचाइयों तक ले जाना चाहते हैं। इस लेख में, हम टेक्सचर हैंडलिंग ट्यूटोरियल्स के मनोरम ब्रह्मांड में गहराई से उतरते हैं, विशेष रूप से टेक्सचर टाइलिंग पैटर्न के अनुप्रयोग पर ध्यान केंद्रित करते हैं।
@@ -36,3 +42,9 @@ url: /hi/net/texture-handling/
 ## बनावट प्रबंधन ट्यूटोरियल
 ### [Aspose.Page के साथ पोस्टस्क्रिप्ट (PS) पर टेक्सचर टाइलिंग पैटर्न लागू करें](./apply-texture-tiling-pattern-to-postscript-ps/)
 .NET के लिए Aspose.Page का उपयोग करके टेक्सचर टाइलिंग पैटर्न के साथ अपने पोस्टस्क्रिप्ट (PS) दस्तावेज़ों को बेहतर बनाएं। रचनात्मक स्पर्श के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

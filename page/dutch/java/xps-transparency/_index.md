@@ -3,10 +3,16 @@ title: Transparantie - XPS
 linktitle: Transparantie - XPS
 second_title: Aspose.Page Java-API
 description: Verbeter uw Java XPS-documenten moeiteloos met Aspose.Page. Leer transparante objecten toevoegen en dekkingsmaskers instellen in onze tutorials voor verbeterde visuele effecten.
-type: docs
 weight: 40
 url: /nl/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transparantie - XPS
+
 ## Invoering
 
 Wilt u uw Java XPS-documenten naar een hoger niveau tillen? Duik in de wereld van transparantie-effecten met Aspose.Page en ontgrendel een rijk aan visueel verbluffende mogelijkheden. In deze uitgebreide handleiding leiden we u door twee essentiële tutorials: transparante objecten toevoegen en dekkingsmaskers instellen.
@@ -47,3 +53,9 @@ Kortom, Aspose.Page voor Java opent de deur naar een wereld van creatieve mogeli
 Verbeter uw Java XPS-documenten met verbluffende transparantie-effecten met Aspose.Page. Volg onze stapsgewijze handleiding voor het toevoegen van transparante objecten. 
 ### [Stel het dekkingsmasker in Java XPS in](./set-opacity-mask/)
 Ontdek de kracht van het instellen van dekkingsmaskers in Java XPS met Aspose.Page. Volg onze stapsgewijze handleiding voor een visueel verbeterde documentervaring.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: أضف التدرج الأفقي إلى XPS باستخدام Aspose.Page 
 linktitle: أضف التدرج الأفقي إلى XPS
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية إضافة تدرجات أفقية مذهلة إلى مستندات XPS الخاصة بك باستخدام Aspose.Page لـ .NET. رفع الجاذبية البصرية دون عناء.
-type: docs
 weight: 13
 url: /ar/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف التدرج الأفقي إلى XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف كيفية تحسين مستندات XPS عن طريق إضافة تدرج أفقي باستخدام Aspose.Page لـ .NET. Aspose.Page for .NET هي مكتبة قوية توفر معالجة سلسة لمستندات XPS (مواصفات ورق XML) في تطبيقات .NET. يمكن أن تؤدي إضافة التدرجات إلى إضفاء جاذبية بصرية على مستنداتك، وسيرشدك هذا الدليل خلال العملية خطوة بخطوة.
@@ -113,3 +119,9 @@ doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
 
  ج5: يمكنك الحصول على ترخيص مؤقت من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

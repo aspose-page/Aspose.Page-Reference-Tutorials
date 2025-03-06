@@ -3,10 +3,16 @@ title: Создать документ на Java с помощью PostScript
 linktitle: Создать документ на Java с помощью PostScript
 second_title: API Aspose.Page Java
 description: Легко создавайте документы PostScript на Java с помощью Aspose.Page. Настройте размер страницы, поля и шрифты. Попробуйте бесплатную пробную версию прямо сейчас!
-type: docs
 weight: 10
 url: /ru/java/document-creation/postscript/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создать документ на Java с помощью PostScript
+
 ## Введение
 В сфере разработки Java создание документов и управление ими является решающим аспектом. С появлением Aspose.Page для Java этот процесс становится не только эффективным, но и гибким. Цель этого руководства — провести вас через этапы создания документа на Java с помощью PostScript с использованием Aspose.Page, гарантируя, что вы используете всю мощь этого инструмента.
 ## Предварительные условия
@@ -80,3 +86,9 @@ document.save();
  Вы можете купить лицензию[здесь](https://purchase.aspose.com/buy).
 ### Есть ли форум для обсуждений Aspose.Page?
  Да, вы можете присоединиться к сообществу[Форум](https://forum.aspose.com/c/page/39) за обсуждения и поддержку.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

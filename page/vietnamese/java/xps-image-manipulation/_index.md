@@ -3,10 +3,16 @@ title: Thao tác hình ảnh - XPS
 linktitle: Thao tác hình ảnh - XPS
 second_title: API Java Aspose.Page
 description: Khám phá nghệ thuật xử lý hình ảnh dễ dàng trong tài liệu Java XPS với Aspose.Page. Tìm hiểu cách thêm và xếp hình ảnh một cách liền mạch để nâng cao khả năng xử lý tài liệu.
-type: docs
 weight: 29
 url: /vi/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác hình ảnh - XPS
+
 
 ## Giới thiệu
 
@@ -36,3 +42,9 @@ Tóm lại, Aspose.Page dành cho Java mở ra cánh cửa đến một thế gi
 Tìm hiểu cách dễ dàng thêm hình ảnh vào tài liệu XPS trong Java bằng Aspose.Page. Nâng cao khả năng xử lý tài liệu của bạn với hướng dẫn từng bước này.
 ### [Thêm hình ảnh lát gạch trong Java XPS](./add-tiled-image/)
 Khám phá thao tác tài liệu Java XPS liền mạch với Aspose.Page. Tìm hiểu cách thêm hình ảnh xếp chồng một cách dễ dàng bằng hướng dẫn từng bước này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

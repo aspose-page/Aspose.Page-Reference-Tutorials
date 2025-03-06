@@ -3,10 +3,16 @@ title: تحويل بوستسكريبت إلى PDF في جافا
 linktitle: تحويل بوستسكريبت إلى PDF في جافا
 second_title: Aspose.Page جافا API
 description: قم بتحويل PostScript إلى PDF في Java بسهولة باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتكامل السلس. قم بتنزيل Aspose.Page الآن!
-type: docs
 weight: 11
 url: /ar/java/postscript-conversion/to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل بوستسكريبت إلى PDF في جافا
+
 ## مقدمة
 في عالم تطوير Java، يعد تحويل ملفات PostScript إلى PDF مطلبًا شائعًا. يوفر Aspose.Page for Java حلاً قويًا لهذه المهمة، حيث يوفر للمطورين تجربة سلسة في التعامل مع مستندات PostScript وتحويلها إلى تنسيق PDF.
 ## المتطلبات الأساسية
@@ -98,3 +104,9 @@ if (suppressErrors) {
  نعم، يمكنك استكشاف إمكانيات Aspose.Page لـ Java عن طريق تنزيل الإصدار التجريبي المجاني[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على دعم إضافي أو مناقشات مجتمعية متعلقة بـ Aspose.Page for Java؟
  قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) للمناقشات المجتمعية والدعم والرؤى القيمة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Formes - PostScript
 linktitle: Formes - PostScript
 second_title: API Java Aspose.Page
 description: Créez facilement des documents PostScript captivants avec Aspose.Page Java. Plongez dans des didacticiels sur l'ajout d'ellipses et de rectangles, créant ainsi un contenu visuellement attrayant.
-type: docs
 weight: 34
 url: /fr/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formes - PostScript
+
 
 ## Introduction
 
@@ -65,3 +71,9 @@ Libérez tout le potentiel d’Aspose.Page pour Java et améliorez votre expéri
 Maîtrisez la création de superbes documents PostScript en Java avec Aspose.Page. Apprenez à ajouter des points de suspension étape par étape pour un contenu visuellement attrayant.
 ### [Ajouter un rectangle en Java PostScript](./add-rectangle/)
 Explorez le guide étape par étape sur l'ajout de rectangles dynamiques aux documents Java PostScript à l'aide d'Aspose.Page pour Java. Améliorez la personnalisation de vos documents sans effort !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

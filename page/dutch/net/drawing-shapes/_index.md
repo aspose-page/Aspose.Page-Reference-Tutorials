@@ -3,10 +3,16 @@ title: Vormen tekenen
 linktitle: Vormen tekenen
 second_title: Aspose.Page .NET-API
 description: Verbeter moeiteloos het maken van documenten in .NET! Leer stapsgewijze zelfstudies over het toevoegen van cirkels, ellipsen en rechthoeken aan PostScript (PS) met behulp van Aspose.Page .NET.
-type: docs
 weight: 31
 url: /nl/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vormen tekenen
+
 ## Introductie
 
 Aspose.Page voor .NET stelt ontwikkelaars in staat om het maken van documenten in de .NET-omgeving naar een hoger niveau te tillen. Duik in onze stapsgewijze zelfstudies en leer de kunst van het toevoegen van boeiende vormen aan PostScript (PS)- en XPS-documenten.
@@ -33,3 +39,9 @@ Verbeter XPS-documenten met levendige radiale verlopen met Aspose.Page voor .NET
 Verbeter het maken van documenten in .NET met Aspose.Page. Leer stap voor stap rechthoeken toevoegen aan PostScript-bestanden (PS).
 ### [Voeg een rechthoek toe aan een XPS-document met Aspose.Page voor .NET](./add-rectangle-to-xps-document/)
 Verbeter het maken van documenten met Aspose.Page voor .NET. Leer hoe u rechthoeken aan XPS-documenten toevoegt in deze stapsgewijze zelfstudie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Agregar espacio de nombres en XMP usando Java
 linktitle: Agregar espacio de nombres en XMP usando Java
 second_title: API de Java de Aspose.Page
 description: Desbloquee el poder de la manipulación de documentos con Aspose.Page para Java. Aprenda a agregar espacios de nombres XMP sin esfuerzo en esta guía completa.
-type: docs
 weight: 13
 url: /es/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar espacio de nombres en XMP usando Java
+
 
 ## Introducción
 
@@ -108,3 +114,9 @@ Aspose.Page admite principalmente Java, pero hay versiones disponibles para otro
 
 ### ¿Existen foros comunitarios para Aspose.Page?
  Sí, puedes interactuar con la comunidad en el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

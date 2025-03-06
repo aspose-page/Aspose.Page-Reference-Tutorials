@@ -3,10 +3,16 @@ title: Crea un biglietto di stampa personalizzato con Aspose.Page per .NET
 linktitle: Crea biglietto di stampa personalizzato
 second_title: API Aspose.Page .NET
 description: Esplora la guida passo passo sulla creazione di ticket di stampa personalizzati utilizzando Aspose.Page per .NET. Personalizza la tua esperienza di stampa con un controllo capillare.
-type: docs
 weight: 10
 url: /it/net/print-ticket-management/create-custom-print-ticket/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crea un biglietto di stampa personalizzato con Aspose.Page per .NET
+
 ## introduzione
 
 Nel regno dello sviluppo .NET, Aspose.Page si distingue come un potente strumento per gestire la manipolazione dei documenti XPS. Una delle sue caratteristiche straordinarie è la capacità di creare ticket di stampa personalizzati, offrendo agli sviluppatori un ampio controllo sul processo di stampa. In questo tutorial, approfondiremo i passaggi per creare un biglietto di stampa personalizzato utilizzando Aspose.Page per .NET.
@@ -96,3 +102,9 @@ A4: Aspose.Page supporta una gamma di tipi di supporti, inclusa carta comune e a
 ### Q5: Sono disponibili progetti di esempio per Aspose.Page per .NET?
 
  A5: Esplora il[documentazione](https://reference.aspose.com/page/net/) per progetti di esempio e snippet di codice per avviare il tuo sviluppo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

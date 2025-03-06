@@ -3,10 +3,16 @@ title: Agregar cuadrícula usando Visual Brush en Java
 linktitle: Agregar cuadrícula usando Visual Brush en Java
 second_title: API de Java de Aspose.Page
 description: ¡Mejore los elementos visuales de los documentos Java con Aspose.Page! Aprenda a agregar cuadrículas usando Visual Brush paso a paso. Aumente el atractivo de su aplicación sin esfuerzo.
-type: docs
 weight: 10
 url: /es/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar cuadrícula usando Visual Brush en Java
+
 ## Introducción
 ¿Está buscando mejorar sus aplicaciones Java con cuadrículas visualmente atractivas utilizando Aspose.Page? En este tutorial, lo guiaremos a través del proceso de agregar una cuadrícula usando Visual Brush en Java con Aspose.Page. Visual Brush le permite pintar un área con contenido visual, creando impresionantes efectos de cuadrícula en sus documentos.
 ## Requisitos previos
@@ -84,3 +90,9 @@ Sí, Aspose.Page es una biblioteca sólida diseñada para la generación de docu
  Sí, puedes acceder a[prueba gratis](https://releases.aspose.com/) para explorar las características de Aspose.Page.
 ### ¿Cómo puedo obtener una licencia temporal para Aspose.Page?
  Adquirir un[licencia temporal](https://purchase.aspose.com/temporary-license/) con fines de prueba.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Безопасная лицензия с Aspose.Page для .NET
 linktitle: Безопасная лицензия
 second_title: Aspose.Page .NET API
 description: Защитите свою лицензию Aspose.Page для .NET без особых усилий с помощью нашего пошагового руководства. Раскройте весь потенциал беспрепятственного манипулирования страницами в ваших .NET-приложениях.
-type: docs
 weight: 13
 url: /ru/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Безопасная лицензия с Aspose.Page для .NET
+
 ## Введение
 
 Чтобы раскрыть весь потенциал Aspose.Page для .NET, необходимо получить лицензию, обеспечивающую плавную интеграцию и оптимальную производительность. В этом пошаговом руководстве мы покажем вам процесс защиты вашей лицензии с помощью Aspose.Page, мощного инструмента для обработки манипуляций со страницами в приложениях .NET.
@@ -90,3 +96,9 @@ using (ZipFile zf = ZipFile.Read(zip))
 ### В5: Могу ли я перенести свою лицензию на другой компьютер?
 
 О5: Да, при необходимости вы можете перенести свою лицензию на другой компьютер.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

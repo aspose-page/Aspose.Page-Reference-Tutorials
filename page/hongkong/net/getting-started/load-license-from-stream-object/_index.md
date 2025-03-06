@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 從流物件載入許可證
 linktitle: 從流對象載入許可證
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page 解鎖 .NET 中的文件操作。按照我們的指南從流對象無縫載入許可證。
-type: docs
 weight: 12
 url: /zh-hant/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 從流物件載入許可證
+
 ## 介紹
 
 您準備好將您的 .NET 開發技能提升到新的水平了嗎？如果您曾經覺得需要處理文檔，尤其是在頁面操作的情況下，那麼 Aspose.Page for .NET 是您的完美伴侶。在本綜合指南中，我們將引導您完成從流物件載入授權的過程，這是利用 Aspose.Page for .NET 功能的基本步驟。
@@ -111,3 +117,9 @@ A1：是的，Aspose.Page 旨在與所有版本的 .NET 無縫協作。
 ### Q5：我可以升級到不同的授權方案嗎？
 
  A5：探索不同的授權選項並升級[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

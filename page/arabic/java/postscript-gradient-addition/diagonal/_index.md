@@ -3,10 +3,16 @@ title: إضافة التدرج القطري في Java PostScript
 linktitle: إضافة التدرج القطري في Java PostScript
 second_title: Aspose.Page جافا API
 description: قم بتحسين مستندات Java PostScript الخاصة بك باستخدام التدرجات القطرية باستخدام Aspose.Page for Java. اتبع دليلنا خطوة بخطوة لإضافة انتقالات ألوان نابضة بالحياة دون عناء.
-type: docs
 weight: 10
 url: /ar/java/postscript-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة التدرج القطري في Java PostScript
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول إضافة تدرج قطري في Java PostScript باستخدام Aspose.Page لـ Java. في هذا البرنامج التعليمي، سنرشدك خلال العملية، مع تقسيم كل مثال إلى خطوات متعددة. باعتباري كاتبًا ماهرًا في مجال تحسين محركات البحث (SEO)، سأتأكد من أن المحتوى ليس مفيدًا فحسب، بل مُحسّن أيضًا لمحركات البحث، مما يسهل على المطورين والمتحمسين المتابعة.
 ## المتطلبات الأساسية
@@ -95,3 +101,9 @@ document.save();
  ج: يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
 ### س: هل تحتاج إلى مساعدة أو لديك أسئلة؟
  ج: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Edição entre documentos
 linktitle: Edição entre documentos
 second_title: API Aspose.Page .NET
 description: Desbloqueie o potencial do Aspose.Page for .NET com nossos tutoriais. Adicione clones de glifos, altere cores e manipule páginas sem esforço em documentos XPS.
-type: docs
 weight: 22
 url: /pt/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Edição entre documentos
+
 
 ## Introdução
 
@@ -34,3 +40,9 @@ Explore o poder do Aspose.Page for .NET neste tutorial abrangente. Aprenda a adi
 Desbloqueie o poder do processamento de documentos em .NET com Aspose.Page. Adicione glifos cheios de imagens sem esforço. Aprimore os recursos visuais e simplifique seu fluxo de trabalho.
 ### [Manipule páginas com Aspose.Page para .NET](./manipulate-pages/)
 Explore a manipulação de páginas no .NET usando Aspose.Page, uma biblioteca poderosa para lidar com documentos XPS. Siga nosso guia passo a passo para obter resultados eficientes.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

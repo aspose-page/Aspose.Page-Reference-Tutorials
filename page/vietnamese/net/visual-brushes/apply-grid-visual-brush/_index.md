@@ -3,10 +3,16 @@ title: Áp dụng Grid Visual Brush với Aspose.Page for .NET
 linktitle: Áp dụng Grid Visual Brush
 second_title: API Aspose.Page .NET
 description: Khám phá thế giới năng động của việc xử lý tài liệu trong .NET với Aspose.Page. Tìm hiểu cách áp dụng Grid Visual Brush để có các tài liệu trực quan ấn tượng.
-type: docs
 weight: 10
 url: /vi/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Grid Visual Brush với Aspose.Page for .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET, Aspose.Page nổi bật như một công cụ mạnh mẽ để xử lý các tác vụ xử lý tài liệu. Một tính năng hấp dẫn mà nó cung cấp là khả năng áp dụng Grid Visual Brush, mang đến một chiều hướng mới cho tài liệu của bạn. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quá trình triển khai Magenta Grid Visual Brush bằng cách sử dụng Aspose.Page cho .NET.
@@ -143,3 +149,9 @@ Câu trả lời 1: Có, Aspose.Page for .NET rất linh hoạt và có thể đ
 ### Câu hỏi 5: Aspose.Page dành cho .NET có tài liệu nào khác?
 
  A5: Khám phá tài liệu toàn diện[đây](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

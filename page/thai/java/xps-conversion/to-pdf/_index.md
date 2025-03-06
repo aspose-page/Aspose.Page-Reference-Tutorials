@@ -3,10 +3,16 @@ title: แปลง XPS เป็น PDF ใน Java
 linktitle: แปลง XPS เป็น PDF ใน Java
 second_title: Aspose.Page Java API
 description: ปลดล็อกการแปลง XPS เป็น PDF ใน Java อย่างราบรื่นด้วย Aspose.Page ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการประมวลผลเอกสารที่มีประสิทธิภาพและแม่นยำ
-type: docs
 weight: 12
 url: /th/java/xps-conversion/to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลง XPS เป็น PDF ใน Java
+
 ## การแนะนำ
 ในขอบเขตของการพัฒนา Java ความจำเป็นในการแปลงไฟล์ XPS เป็นรูปแบบ PDF เป็นข้อกำหนดทั่วไป การบรรลุเป้าหมายนี้ได้อย่างราบรื่นและมีประสิทธิภาพสามารถเป็นตัวเปลี่ยนเกมในโครงการต่างๆ โชคดีที่ด้วยพลังของ Aspose.Page สำหรับ Java งานนี้ไม่เพียงแต่สามารถทำได้ แต่ยังตรงไปตรงมาอีกด้วย
 ในบทช่วยสอนนี้ เราจะอธิบายขั้นตอนการแปลง XPS เป็น PDF โดยใช้ Aspose.Page สำหรับ Java เราจะแจกแจงแต่ละขั้นตอนโดยให้คำอธิบายโดยละเอียดและข้อมูลเชิงลึกเพื่อให้แน่ใจว่าการใช้งานจะราบรื่น
@@ -70,3 +76,9 @@ document.save(device, options);
  เยี่ยม[ลิงค์นี้](https://purchase.aspose.com/temporary-license/) สำหรับรายละเอียดใบอนุญาตชั่วคราว
 ### ฉันจะซื้อสิทธิ์การใช้งาน Aspose.Page สำหรับ Java ได้ที่ไหน
  คุณสามารถซื้อใบอนุญาตได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

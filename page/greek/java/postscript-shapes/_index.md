@@ -3,10 +3,16 @@ title: Σχήματα - PostScript
 linktitle: Σχήματα - PostScript
 second_title: Aspose.Page Java API
 description: Δημιουργήστε συναρπαστικά έγγραφα PostScript χωρίς κόπο με το Aspose.Page Java. Βουτήξτε σε σεμινάρια για την προσθήκη ελλείψεων και ορθογωνίων, δημιουργώντας οπτικά ελκυστικό περιεχόμενο.
-type: docs
 weight: 34
 url: /el/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Σχήματα - PostScript
+
 
 ## Εισαγωγή
 
@@ -65,3 +71,9 @@ url: /el/java/postscript-shapes/
 Κατακτήστε τη δημιουργία εκπληκτικών εγγράφων PostScript σε Java με το Aspose.Page. Μάθετε να προσθέτετε ελλείψεις βήμα προς βήμα για οπτικά ελκυστικό περιεχόμενο.
 ### [Προσθήκη ορθογώνιου σε Java PostScript](./add-rectangle/)
 Εξερευνήστε τον οδηγό βήμα προς βήμα για την προσθήκη ζωντανών ορθογωνίων σε έγγραφα Java PostScript χρησιμοποιώντας το Aspose.Page για Java. Βελτιώστε την προσαρμογή του εγγράφου σας χωρίς κόπο!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

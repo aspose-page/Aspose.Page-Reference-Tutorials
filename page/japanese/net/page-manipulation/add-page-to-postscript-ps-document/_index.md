@@ -3,10 +3,16 @@ title: Aspose.Page を使用して PostScript (PS) ドキュメントにペー�
 linktitle: PostScript (PS) ドキュメントにページを追加
 second_title: Aspose.Page .NET API
 description: .NET プロジェクトでシームレスな PostScript ドキュメント操作を実現する究極のソリューションである Aspose.Page for .NET を探索してください。
-type: docs
 weight: 10
 url: /ja/net/page-manipulation/add-page-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して PostScript (PS) ドキュメントにページを追加する
+
 ## 導入
 
 .NET 開発の世界では、ドキュメントの管理と操作は重要な側面です。 Aspose.Page for .NET は、PostScript (PS) ドキュメントをシームレスに操作するために必要なツールを開発者に提供する強力なライブラリです。このステップバイステップのガイドでは、.NET で Aspose.Page を使用して PostScript ドキュメントにページを追加するプロセスについて説明します。
@@ -113,3 +119,9 @@ A2: もちろんです！チュートリアルで説明したように、要件�
 ### Q5: どこでコミュニティのサポートを求めたり、質問したりできますか?
 
  A5: に参加してください。[Aspose.Page コミュニティ フォーラム](https://forum.aspose.com/c/page/39)他の開発者とつながり、経験を共有し、支援を求めることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

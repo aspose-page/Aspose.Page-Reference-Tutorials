@@ -3,10 +3,16 @@ title: إنشاء مستند في Java باستخدام PostScript
 linktitle: إنشاء مستند في Java باستخدام PostScript
 second_title: Aspose.Page جافا API
 description: قم بإنشاء مستندات PostScript في Java بسهولة باستخدام Aspose.Page. تخصيص حجم الصفحة والهوامش والخطوط. جرب النسخة التجريبية المجانية الآن!
-type: docs
 weight: 10
 url: /ar/java/document-creation/postscript/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مستند في Java باستخدام PostScript
+
 ## مقدمة
 في مجال تطوير Java، يعد إنشاء المستندات وإدارتها جانبًا بالغ الأهمية. مع ظهور Aspose.Page لـ Java، لم تصبح العملية فعالة فحسب، بل أصبحت مرنة أيضًا. يهدف هذا البرنامج التعليمي إلى إرشادك خلال خطوات إنشاء مستند في Java باستخدام PostScript باستخدام Aspose.Page، مما يضمن الاستفادة من القوة الكاملة لهذه الأداة.
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ document.save();
  يمكنك شراء ترخيص[هنا](https://purchase.aspose.com/buy).
 ### هل يوجد منتدى لمناقشات Aspose.Page؟
  نعم، يمكنك الانضمام إلى المجتمع[المنتدى](https://forum.aspose.com/c/page/39) للمناقشات والدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

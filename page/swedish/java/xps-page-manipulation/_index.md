@@ -3,10 +3,16 @@ title: Sidmanipulation - XPS
 linktitle: Sidmanipulation - XPS
 second_title: Aspose.Page Java API
 description: Utforska kraften i Aspose.Page för Java med våra handledningar. Förhöj dina Java XPS-dokument genom att enkelt lägga till sidor för förbättrad applikationsfunktionalitet.
-type: docs
 weight: 33
 url: /sv/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sidmanipulation - XPS
+
 
 ## Introduktion
 
@@ -36,3 +42,9 @@ Sammanfattningsvis öppnar Aspose.Page för Java tutorials om sidmanipulation i 
 ## Sidmanipulation - XPS-handledningar
 ### [Lägg till sida i Java XPS](./add-page/)
 Förhöj Java XPS-dokument med Aspose.Page. Lär dig att enkelt lägga till sidor för förbättrad applikationsfunktionalitet. Dyk in i handledningen nu!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

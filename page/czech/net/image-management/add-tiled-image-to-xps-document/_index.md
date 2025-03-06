@@ -3,10 +3,16 @@ title: Přidejte dlaždicový obrázek do dokumentu XPS pomocí Aspose.Page pro 
 linktitle: Přidejte dlaždicový obrázek do dokumentu XPS
 second_title: Aspose.Page .NET API
 description: Prozkoumejte snadné přidávání dlaždicových obrázků do dokumentů XPS pomocí Aspose.Page for .NET. Vylepšete vizuální přitažlivost a vytvářejte úžasné dokumenty.
-type: docs
 weight: 12
 url: /cs/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte dlaždicový obrázek do dokumentu XPS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Chcete vylepšit své dokumenty XPS přidáním vizuálně přitažlivých dlaždicových obrázků? Aspose.Page for .NET umožňuje vývojářům dosáhnout tohoto hladce. V tomto podrobném průvodci vás provedeme procesem přidání dlaždicového obrázku do dokumentu XPS pomocí Aspose.Page for .NET.
@@ -95,3 +101,9 @@ A2: Jistě, jak je ukázáno v příkladu, můžete nastavit krytí vyplněného
 ### Q5: Kde mohu vyhledat pomoc nebo se spojit s komunitou Aspose.Page?
 
  A5: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) zapojit se do komunity, klást otázky a hledat řešení.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

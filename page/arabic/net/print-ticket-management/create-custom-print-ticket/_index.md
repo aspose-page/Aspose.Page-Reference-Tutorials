@@ -3,10 +3,16 @@ title: إنشاء تذكرة طباعة مخصصة باستخدام Aspose.Page 
 linktitle: إنشاء تذكرة طباعة مخصصة
 second_title: Aspose.Page .NET API
 description: استكشف الدليل التفصيلي خطوة بخطوة حول إنشاء تذاكر طباعة مخصصة باستخدام Aspose.Page لـ .NET. قم بتخصيص تجربة الطباعة الخاصة بك من خلال التحكم الدقيق.
-type: docs
 weight: 10
 url: /ar/net/print-ticket-management/create-custom-print-ticket/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء تذكرة طباعة مخصصة باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 في مجال تطوير .NET، تبرز Aspose.Page كأداة قوية للتعامل مع مستندات XPS. إحدى ميزاته الرائعة هي القدرة على إنشاء تذاكر مطبوعة مخصصة، مما يوفر للمطورين تحكمًا شاملاً في عملية الطباعة. في هذا البرنامج التعليمي، سوف نتعمق في خطوات إنشاء تذكرة طباعة مخصصة باستخدام Aspose.Page لـ .NET.
@@ -96,3 +102,9 @@ xDocs.Save(dir + "output1.xps");
 ### س 5: هل هناك أية مشاريع نموذجية متاحة لـ Aspose.Page لـ .NET؟
 
  ج5: اكتشف[توثيق](https://reference.aspose.com/page/net/) للحصول على نماذج من المشاريع ومقتطفات التعليمات البرمجية لبدء عملية التطوير الخاصة بك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

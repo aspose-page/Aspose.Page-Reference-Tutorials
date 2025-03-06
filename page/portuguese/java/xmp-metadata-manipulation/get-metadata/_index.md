@@ -3,10 +3,16 @@ title: Obtenha metadados do XMP usando Java
 linktitle: Obtenha metadados do XMP usando Java
 second_title: API Java Aspose.Page
 description: Desbloqueie o poder do Aspose.Page for Java para extrair metadados XMP sem esforço. Eleve a análise de documentos com nosso guia passo a passo!
-type: docs
 weight: 18
 url: /pt/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenha metadados do XMP usando Java
+
 ## Introdução
 Bem-vindo ao nosso guia passo a passo sobre a utilização do Aspose.Page for Java para extrair metadados de arquivos XMP. XMP (Extensible Metadata Platform) fornece uma maneira padronizada de armazenar metadados em arquivos. Este tutorial se concentra na recuperação de informações essenciais do XMP usando Java, oferecendo insights sobre detalhes do documento.
 ## Pré-requisitos
@@ -81,3 +87,9 @@ Parabéns! Você aprendeu com sucesso como extrair metadados XMP usando Aspose.P
  Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### Existem recursos adicionais para Aspose.Page for Java?
  Explore o completo[documentação](https://reference.aspose.com/page/java/) e baixe a biblioteca[aqui](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

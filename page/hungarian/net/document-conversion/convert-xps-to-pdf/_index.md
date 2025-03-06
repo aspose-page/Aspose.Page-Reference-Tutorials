@@ -3,10 +3,16 @@ title: Konvertálja az XPS-t PDF-be az Aspose.Page for .NET segítségével
 linktitle: Az XPS konvertálása PDF-be
 second_title: Aspose.Page .NET API
 description: Könnyedén konvertálhat XPS-t PDF-be .NET-ben az Aspose.Page segítségével. Töltse le a könyvtárat, fedezze fel a dokumentációt, és szerezzen be egy ingyenes próbaverziót.
-type: docs
 weight: 11
 url: /hu/net/document-conversion/convert-xps-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertálja az XPS-t PDF-be az Aspose.Page for .NET segítségével
+
 ## Bevezetés
 
 Ebben az oktatóanyagban az XPS (XML Paper Specification) dokumentumok PDF-be (Portable Document Format) való konvertálásának folyamatába fogunk belemenni a hatékony Aspose.Page for .NET könyvtár használatával. Az Aspose.Page for .NET robusztus funkciókat kínál az XPS-fájlok kezeléséhez, lehetővé téve a fejlesztők számára, hogy zökkenőmentesen konvertálják azokat PDF formátumba különféle testreszabási lehetőségekkel.
@@ -109,3 +115,9 @@ Gratulálunk! Sikeresen konvertált egy XPS-dokumentumot PDF-be az Aspose.Page f
 ### 5. kérdés: Hol kaphatok közösségi támogatást az Aspose.Page for .NET-hez?
 
  A5: Látogassa meg a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) közösségi megbeszélésekre és támogatásra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

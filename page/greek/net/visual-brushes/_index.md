@@ -3,10 +3,16 @@ title: Οπτικές βούρτσες
 linktitle: Οπτικές βούρτσες
 second_title: Aspose.Page .NET API
 description: Αυξήστε την επεξεργασία των εγγράφων σας στο .NET με τα μαθήματα Aspose.Page. Βουτήξτε στη σφαίρα των Visual Brushes, κατακτώντας τεχνικές για οπτικά εντυπωσιακά έγγραφα.
-type: docs
 weight: 35
 url: /el/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Οπτικές βούρτσες
+
 
 ## Εισαγωγή
 
@@ -36,3 +42,9 @@ url: /el/net/visual-brushes/
 ## Visual Brushes Tutorials
 ### [Εφαρμόστε το Grid Visual Brush με το Aspose.Page για .NET](./apply-grid-visual-brush/)
 Εξερευνήστε τον δυναμικό κόσμο της επεξεργασίας εγγράφων στο .NET με το Aspose.Page. Μάθετε πώς να εφαρμόζετε ένα Grid Visual Brush για οπτικά εντυπωσιακά έγγραφα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulasi Kanvas
 linktitle: Manipulasi Kanvas
 second_title: Aspose.Halaman .NET API
 description: Jelajahi Aspose.Page untuk tutorial .NET tentang manipulasi kanvas. Memotong dan mengubah dokumen PS dan XPS menjadi mudah. Tingkatkan keterampilan pemrosesan dokumen Anda.
-type: docs
 weight: 21
 url: /id/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Kanvas
+
 
 ## Perkenalan
 
@@ -42,3 +48,9 @@ Jelajahi kekuatan Aspose.Page untuk .NET dalam panduan langkah demi langkah tent
 Buka potensi Aspose.Page untuk .NET dengan panduan komprehensif tentang transformasi PostScript ini. Buat grafik dinamis dengan mudah.
 ### [Transformasi XPS dengan Aspose.Page untuk .NET](./transformationsxps/)
 Ubah dokumen XPS dengan mudah dengan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk transformasi yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

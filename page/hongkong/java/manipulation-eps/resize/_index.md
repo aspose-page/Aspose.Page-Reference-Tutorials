@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 在 Java 中調整 EPS 檔案大小
 linktitle: 在Java中調整EPS文件的大小
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page for Java 輕鬆調整 Java 中的 EPS 檔案大小。請按照我們的綜合指南取得逐步說明。
-type: docs
 weight: 11
 url: /zh-hant/java/manipulation-eps/resize/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 在 Java 中調整 EPS 檔案大小
+
 ## 介紹
 歡迎來到我們關於使用強大的 Aspose.Page 函式庫在 Java 中調整 EPS 檔案大小的逐步指南。如果您曾經需要以程式方式調整 EPS 影像的尺寸，那麼您來對地方了。在本教程中，我們將探索各種調整大小選項，包括點、英吋、毫米和百分比，為您提供滿足特定要求所需的靈活性。
 ## 先決條件
@@ -67,3 +73,9 @@ doc.resizeEps(outputEpsStream, new Dimension2D.Double(oldSize.width * 2, oldSize
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 有可用的範例項目嗎？
 是的，檢查文檔[這裡](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

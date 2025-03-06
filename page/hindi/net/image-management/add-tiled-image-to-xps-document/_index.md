@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Page के साथ XPS दस्ताव
 linktitle: XPS दस्तावेज़ में टाइल वाली छवि जोड़ें
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page के साथ आसानी से XPS दस्तावेज़ों में टाइल वाली छवियां जोड़ने का अन्वेषण करें। दृश्य अपील बढ़ाएँ और शानदार दस्तावेज़ बनाएँ।
-type: docs
 weight: 12
 url: /hi/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ में टाइल वाली छवि जोड़ें
+
 ## परिचय
 
 क्या आप दिखने में आकर्षक टाइल वाली छवियां जोड़कर अपने XPS दस्तावेज़ों को बेहतर बनाना चाह रहे हैं? .NET के लिए Aspose.Page डेवलपर्स को इसे निर्बाध रूप से प्राप्त करने का अधिकार देता है। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको .NET के लिए Aspose.Page का उपयोग करके XPS दस्तावेज़ में एक टाइल वाली छवि जोड़ने की प्रक्रिया के बारे में बताएंगे।
@@ -95,3 +101,9 @@ A1: हाँ, Aspose.Page को विज़ुअल स्टूडियो
 ### Q5: मैं कहां से सहायता मांग सकता हूं या Aspose.Page समुदाय से जुड़ सकता हूं?
 
  A5: पर जाएँ[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) समुदाय के साथ जुड़ने, प्रश्न पूछने और समाधान खोजने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

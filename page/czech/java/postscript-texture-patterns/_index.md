@@ -3,10 +3,16 @@ title: Textura a vzory - PostScript
 linktitle: Textura a vzory - PostScript
 second_title: Aspose.Page Java API
 description: Zvyšte PostScript pomocí Aspose.Page pro Java. V našich podrobných výukových programech jazyka Java PostScript můžete plynule přidávat vzory dlaždic textur pro kreativní možnosti.
-type: docs
 weight: 38
 url: /cs/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Textura a vzory - PostScript
+
 ## Úvod
 
 Jste připraveni pozvednout své PostScriptové dokumenty do nových kreativních výšin? Aspose.Page for Java je vaše brána k bezproblémové integraci vzorů dlaždic textur do vašich projektů. V tomto komplexním průvodci se ponoříme do světa textur a vzorů a odemkneme plný potenciál Java PostScript.
@@ -45,3 +51,9 @@ Jste připraveni pozvednout své PostScriptové návrhy? Ponořte se do našich 
 ## Textury a vzory – výukové programy PostScript
 ### [Přidejte vzor dlaždic textury v jazyce Java PostScript](./add-texture-tiling-pattern/)
 Pomocí Aspose.Page for Java můžete do dokumentů PostScript bez námahy přidávat vzory dlaždic textury. Prozkoumejte našeho průvodce bezproblémovou integrací pro kreativní možnosti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

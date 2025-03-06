@@ -3,10 +3,16 @@ title: جافا بوستسكريبت شعاعي التدرج مع Aspose.Page
 linktitle: جافا بوستسكريبت شعاعي التدرج مع Aspose.Page
 second_title: Aspose.Page جافا API
 description: استكشف الدليل خطوة بخطوة لإضافة Radial Gradient في Java PostScript باستخدام Aspose.Page للحصول على رسومات مذهلة في تطبيقات Java الخاصة بك.
-type: docs
 weight: 13
 url: /ar/java/postscript-gradient-addition/radial2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# جافا بوستسكريبت شعاعي التدرج مع Aspose.Page
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول إضافة Radial Gradient 2 في Java PostScript باستخدام Aspose.Page لـ Java. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء مستند PostScript بتدرج شعاعي جميل، مما يعزز تطبيقات Java الخاصة بك برسومات جذابة بصريًا.
 ## المتطلبات الأساسية
@@ -96,3 +102,9 @@ document.save();
  ج: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني الحصول على دعم المجتمع والمشاركة في المناقشات؟
  ج: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

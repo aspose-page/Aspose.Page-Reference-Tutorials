@@ -3,10 +3,16 @@ title: Guia de transformações avançadas com Aspose.Page
 linktitle: Transformações na manipulação de páginas Java
 second_title: API Java Aspose.Page
 description: Aprenda como realizar transformações avançadas de páginas em Java usando Aspose.Page for Java. Aprimore seus aplicativos Java com poderosos recursos de manipulação.
-type: docs
 weight: 11
 url: /pt/java/page-manipulation/transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guia de transformações avançadas com Aspose.Page
+
 ## Introdução
 Bem-vindo a um guia abrangente sobre a utilização dos recursos poderosos do Aspose.Page for Java para realizar transformações em Java Page Manipulation. Aspose.Page é uma biblioteca Java versátil que permite aos desenvolvedores trabalhar com eficiência com várias tarefas de manipulação de páginas.
 ## Pré-requisitos
@@ -87,3 +93,9 @@ Aspose.Page concentra-se principalmente na manipulação de páginas para format
  Obtenha uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### Onde posso buscar suporte da comunidade ou fazer perguntas sobre o Aspose.Page for Java?
  Visite a[Fórum Aspose.Page para Java](https://forum.aspose.com/c/page/39) para discussões comunitárias.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Samouczek Java Aspose.Page - Dodawanie stron w PostScript
 linktitle: Dodawanie stron w PostScript
 second_title: Aspose.Page API Java
 description: Dowiedz się, jak dodawać strony do dokumentów Java PostScript za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo manipulować dokumentami.
-type: docs
 weight: 11
 url: /pl/java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Samouczek Java Aspose.Page - Dodawanie stron w PostScript
+
 ## Wstęp
 świecie manipulacji i zarządzania dokumentami Aspose.Page for Java jawi się jako potężne narzędzie do obsługi dokumentów PostScript. Dodawanie stron do dokumentu PostScript jest powszechnym wymaganiem w wielu aplikacjach. W tym samouczku omówimy proces dodawania stron przy użyciu Aspose.Page dla Java, dzieląc każdy krok, aby nauka przebiegała bezproblemowo.
 ## Warunki wstępne
@@ -71,3 +77,9 @@ Absolutnie! Aspose.Page umożliwia dodawanie szerokiej gamy treści, w tym tekst
 Tak, Aspose.Page został zaprojektowany tak, aby z łatwością obsługiwać zarówno małe, jak i duże dokumenty.
 ### Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Page?
  Poznaj[Dokumentacja Aspose.Page](https://reference.aspose.com/page/java/) lub odwiedź stronę[Forum Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie społeczności.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

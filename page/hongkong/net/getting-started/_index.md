@@ -3,10 +3,16 @@ title: 入門
 linktitle: 入門
 second_title: Aspose.Page .NET API
 description: 透過逐步教學釋放 Aspose.Page .NET 的強大功能。應用計量許可證、從文件或流載入、安全許可證等等。
-type: docs
 weight: 20
 url: /zh-hant/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 入門
+
 ## 介紹
 
 歡迎來到 Aspose.Page 的 .NET 教學終極指南。深入探索無縫文件處理的世界，在這裡，效率與簡單性相結合。讓我們踏上旅程，透過一系列全面的教學來充分利用這個強大工具的潛力。
@@ -38,3 +44,9 @@ url: /zh-hant/net/getting-started/
 透過我們的逐步指南輕鬆保護您的 Aspose.Page for .NET 授權。釋放 .NET 應用程式中無縫頁面操作的全部潛力。
 ### [使用 Aspose.Page for .NET 的嵌入式資源設定許可證](./set-license-using-embedded-resource/)
 了解如何透過 Aspose.Page for .NET 使用嵌入式資源設定授權。確保合規性並釋放文件處理的全部潛力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

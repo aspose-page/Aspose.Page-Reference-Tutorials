@@ -3,10 +3,16 @@ title: Découpage PS avec Aspose.Page pour .NET
 linktitle: Découpage PS
 second_title: API Aspose.Page .NET
 description: Découvrez la puissance d'Aspose.Page pour .NET dans ce didacticiel étape par étape sur le découpage de documents PostScript. Apprenez à améliorer vos capacités de traitement de documents sans effort.
-type: docs
 weight: 10
 url: /fr/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Découpage PS avec Aspose.Page pour .NET
+
 ## Introduction
 
 Bienvenue dans le didacticiel complet sur l'utilisation d'Aspose.Page pour .NET pour implémenter le découpage dans les documents PostScript (PS). Ce didacticiel vous guidera tout au long du processus de découpage de documents PS à l'aide d'Aspose.Page, une bibliothèque puissante permettant de travailler avec différents formats de documents dans les applications .NET.
@@ -147,3 +153,9 @@ A1 : Aspose.Page est principalement conçu pour les applications .NET. Cependant
 ### Q5 : Où puis-je obtenir de l'aide ou discuter des requêtes liées à Aspose.Page ?
 
  A5 : Visitez le[Forums Aspose.Page](https://forum.aspose.com/c/page/39) pour le soutien et les discussions de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

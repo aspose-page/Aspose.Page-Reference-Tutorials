@@ -3,10 +3,16 @@ title: Ustaw maskę krycia w Java XPS
 linktitle: Ustaw maskę krycia w Java XPS
 second_title: Aspose.Page API Java
 description: Odkryj moc ustawiania masek kryjących w Java XPS za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać lepszą wizualnie obsługę dokumentów.
-type: docs
 weight: 11
 url: /pl/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw maskę krycia w Java XPS
+
 ## Wstęp
 Witamy w naszym obszernym przewodniku na temat ustawiania masek kryjących w Java XPS przy użyciu Aspose.Page. W tym samouczku przeprowadzimy Cię przez proces tworzenia dokumentu XPS, dodawania płótna i stosowania maski kryjącej do prostokąta przy użyciu zaawansowanych funkcji Aspose.Page dla Java.
 ## Warunki wstępne
@@ -67,3 +73,9 @@ Wersja próbna może mieć pewne ograniczenia funkcji. Zaleca się sprawdzenie d
  Możesz odwiedzić[Forum Aspose.Page](https://forum.aspose.com/c/page/39) uzyskać wsparcie społeczności lub kupić licencję na pomoc premium.
 ### Czy Aspose.Page gwarantuje zwrot pieniędzy?
  Patrz[strona zakupu](https://purchase.aspose.com/buy) aby uzyskać informacje na temat zasad zwrotów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

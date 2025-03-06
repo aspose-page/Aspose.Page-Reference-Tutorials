@@ -3,10 +3,16 @@ title: Dokumentum konvertálása
 linktitle: Dokumentum konvertálása
 second_title: Aspose.Page .NET API
 description: Könnyedén konvertálhatja a PostScript-et PDF-be és az XPS-t PDF-be az Aspose.Page .NET-oktatóanyagokkal. Robusztus, megbízható és egyszerű megoldások a zökkenőmentes dokumentumátalakításhoz.
-type: docs
 weight: 24
 url: /hu/net/document-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentum konvertálása
+
 
 ## Bevezetés
 
@@ -34,3 +40,9 @@ Miért küzdene bonyolult konverziós folyamatokkal, amikor az Aspose.Page leegy
 Könnyedén konvertálhatja a PostScriptet PDF-be az Aspose.Page for .NET segítségével. Robusztus, megbízható és fejlesztőbarát.
 ### [Konvertálja az XPS-t PDF-be az Aspose.Page for .NET segítségével](./convert-xps-to-pdf/)
 Könnyedén konvertálhat XPS-t PDF-be .NET-ben az Aspose.Page segítségével. Töltse le a könyvtárat, fedezze fel a dokumentációt, és szerezzen be egy ingyenes próbaverziót.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

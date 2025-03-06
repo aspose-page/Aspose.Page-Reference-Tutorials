@@ -1,12 +1,17 @@
 ---
 title: .NET용 Aspose.Page의 종합 튜토리얼 및 예제
 linktitle: .NET 튜토리얼용 Aspose.Page
-type: docs
 weight: 10
 url: /ko/net/
 description: 생성, 조작 및 향상을 다루는 튜토리얼을 통해 .NET용 Aspose.Page의 잠재력을 발휘해 보세요. 기초부터 고급 기술까지 손쉽게 마스터하세요.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page의 종합 튜토리얼 및 예제
+
 ## 소개
 
 .NET용 Aspose.Page의 잠재력을 최대한 발휘할 준비가 되셨습니까? 더 이상 보지 마세요! 우리의 포괄적인 튜토리얼은 기본 기능부터 고급 기술까지 모든 측면을 다루므로 능숙한 사용자가 될 수 있습니다.
@@ -115,3 +120,9 @@ Aspose.Page .NET을 사용하여 문서에서 투명도 효과의 마법을 발�
 Aspose.Page 튜토리얼을 통해 .NET에서 문서 처리 수준을 높이세요. 시각적으로 멋진 문서를 위한 마스터링 기술인 시각적 브러시의 영역에 빠져보세요.
 ### [EPS 메타데이터 관리](./eps-metadata-management/)
 .NET용 Aspose.Page를 사용하여 EPS 조직을 향상하세요. 향상된 접근성을 위해 손쉽게 메타데이터를 추가하세요. EPS 메타데이터 관리 튜토리얼을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

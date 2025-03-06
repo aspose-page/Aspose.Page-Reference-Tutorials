@@ -3,10 +3,16 @@ title: أضف مستطيلًا إلى مستند XPS باستخدام Aspose.Pag
 linktitle: أضف مستطيلًا إلى مستند XPS
 second_title: Aspose.Page .NET API
 description: قم بتحسين إنشاء المستندات باستخدام Aspose.Page لـ .NET. تعرف على كيفية إضافة مستطيلات إلى مستندات XPS في هذا البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف مستطيلًا إلى مستند XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 Aspose.Page for .NET هي مكتبة قوية توفر مجموعة متنوعة من الميزات للعمل مع مستندات XPS (مواصفات ورق XML) في تطبيقات .NET. في هذا البرنامج التعليمي، سنركز على إضافة مستطيل إلى مستند XPS باستخدام Aspose.Page لـ .NET. اتبع هذا الدليل التفصيلي خطوة بخطوة لتحسين عملية إنشاء المستندات الخاصة بك.
@@ -95,3 +101,9 @@ doc.Save(dataDir + "AddRectangleXPS_out.xps");
 ### س5: أين يمكنني طلب دعم المجتمع أو طرح الأسئلة المتعلقة بـ Aspose.Page for .NET؟
 
  ج5: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

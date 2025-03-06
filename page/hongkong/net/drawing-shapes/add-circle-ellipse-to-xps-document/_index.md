@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 將圓橢圓加入 XPS 文檔
 linktitle: 將圓橢圓加入 XPS 文檔
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 透過充滿活力的徑向漸層增強 XPS 文件。按照我們的逐步指南獲得令人驚嘆的視覺效果。
-type: docs
 weight: 11
 url: /zh-hant/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 將圓橢圓加入 XPS 文檔
+
 ## 介紹
 
 建立具有視覺吸引力的 XPS 文件是各種應用程式中的常見要求。 Aspose.Page for .NET 提供了一組強大的功能來有效地操作 XPS 文件。在本教程中，我們將重點介紹使用 Aspose.Page for .NET 將圓形橢圓添加到 XPS 文件中。請按照以下步驟使用充滿活力的徑向漸層增強您的 XPS 文件。
@@ -114,3 +120,9 @@ A1：Aspose.Page for .NET 專門處理 XPS 文件操作。對於其他格式，�
 ### Q5：我可以購買 Aspose.Page for .NET 嗎？
 
  A5：是的，您可以購買圖書館[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

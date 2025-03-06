@@ -3,10 +3,16 @@ title: Preenchimentos gradientes
 linktitle: Preenchimentos gradientes
 second_title: API Aspose.Page .NET
 description: Descubra a arte dos preenchimentos gradientes em .NET com os tutoriais Aspose.Page. Eleve seus projetos sem esforço - adicione gradientes diagonais, horizontais e verticais cativantes.
-type: docs
 weight: 27
 url: /pt/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Preenchimentos gradientes
+
 
 ## Introdução
 
@@ -49,3 +55,9 @@ Aprenda como adicionar gradientes horizontais impressionantes aos seus documento
 Aprenda como adicionar gradientes verticais visualmente atraentes a documentos PostScript (PS) em .NET usando Aspose.Page. Eleve a criação de seus documentos com este guia passo a passo.
 ### [Adicione gradiente vertical ao XPS com Aspose.Page para .NET](./add-vertical-gradient-to-xps/)
 Aprenda como aprimorar documentos XPS com gradientes verticais usando Aspose.Page for .NET. Siga nosso guia passo a passo para uma integração perfeita.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

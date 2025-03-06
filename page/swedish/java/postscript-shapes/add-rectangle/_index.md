@@ -3,10 +3,16 @@ title: Anpassa Java PostScript - Lägga till rektanglar med Aspose.Page
 linktitle: Lägg till rektangel i Java PostScript
 second_title: Aspose.Page Java API
 description: Utforska steg-för-steg-guiden för att lägga till livfulla rektanglar till Java PostScript-dokument med Aspose.Page för Java. Förbättra din dokumentanpassning utan ansträngning!
-type: docs
 weight: 11
 url: /sv/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Anpassa Java PostScript - Lägga till rektanglar med Aspose.Page
+
 ## Introduktion
 Vill du förbättra dina Java PostScript-dokument med livfulla rektanglar? Kolla inte vidare! I den här steg-för-steg-guiden kommer vi att utforska hur du använder Aspose.Page för Java för att lägga till rektanglar till dina PostScript-dokument. Aspose.Page är ett kraftfullt bibliotek som ger robusta funktioner för att arbeta med PostScript-filer, vilket gör det till ett idealiskt val för utvecklare som vill manipulera och anpassa sina dokument.
 ## Förutsättningar
@@ -72,3 +78,9 @@ Aspose.Page stöder i första hand Java, men liknande bibliotek finns tillgängl
  Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag köpa en licensierad version av Aspose.Page för Java?
  Köp en licensierad version[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

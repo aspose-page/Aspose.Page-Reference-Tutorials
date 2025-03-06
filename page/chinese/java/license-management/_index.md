@@ -3,10 +3,16 @@ title: 许可证管理
 linktitle: 许可证管理
 second_title: Aspose.Page Java API
 description: 通过我们的许可证管理教程释放 Aspose.Page for Java 的全部潜力。无缝设置计量许可证以提高文档处理能力。
-type: docs
 weight: 30
 url: /zh/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 许可证管理
+
 ## 介绍
 
 欢迎来到 Java 版 Aspose.Page 许可证管理教程！在本综合指南中，我们将深入探讨设置计量许可证以优化文档处理能力的复杂性。让我们踏上释放 Aspose.Page 全部潜力的旅程，确保与 Java 无缝集成。
@@ -39,3 +45,9 @@ url: /zh/java/license-management/
 ## 许可证管理教程
 ### [在 Java 中设置计量许可证](./set-metered-license/)
 探索 Aspose.Page 与 Java 的无缝集成。轻松设置计量许可证并增强您的文档处理能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

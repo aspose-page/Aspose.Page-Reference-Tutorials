@@ -3,10 +3,16 @@ title: Tải giấy phép từ tệp bằng Aspose.Page cho .NET
 linktitle: Tải giấy phép từ tệp
 second_title: API Aspose.Page .NET
 description: Mở khóa toàn bộ tiềm năng của Aspose.Page cho .NET bằng cách nắm vững nghệ thuật tải giấy phép từ các tệp. Nâng cao khả năng xử lý tài liệu của bạn một cách liền mạch.
-type: docs
 weight: 11
 url: /vi/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải giấy phép từ tệp bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng đến với thế giới của Aspose.Page dành cho .NET! Nếu bạn đang tìm cách nâng cao khả năng xử lý tài liệu của mình bằng .NET framework thì bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tải giấy phép từ tệp có Aspose.Page cho .NET. Bước quan trọng này đảm bảo rằng bạn khai thác được toàn bộ tiềm năng của thư viện mạnh mẽ này.
@@ -91,3 +97,9 @@ Chúc mừng bạn đã hoàn thành phần hướng dẫn! Bạn đã học cá
 ### Câu 5: Cần hỗ trợ hoặc có thắc mắc? 
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

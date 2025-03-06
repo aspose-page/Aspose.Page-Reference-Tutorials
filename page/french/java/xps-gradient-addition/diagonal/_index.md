@@ -3,10 +3,16 @@ title: Ajouter un dégradé diagonal dans Java XPS
 linktitle: Ajouter un dégradé diagonal dans Java XPS
 second_title: API Java Aspose.Page
 description: Apprenez à ajouter un superbe dégradé diagonal à vos documents XPS en Java à l'aide d'Aspose.Page. Élevez votre présentation visuelle sans effort.
-type: docs
 weight: 10
 url: /fr/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un dégradé diagonal dans Java XPS
+
 ## Introduction
 Dans le monde en constante évolution du développement Java, il est crucial d'améliorer l'attrait visuel de vos documents XPS. Un moyen efficace d’y parvenir consiste à incorporer des dégradés diagonaux. Ce didacticiel vous guidera tout au long du processus d'utilisation d'Aspose.Page pour Java, en fournissant des instructions étape par étape et des extraits de code.
 ## Conditions préalables
@@ -75,3 +81,9 @@ Aspose.Page est conçu pour s'intégrer de manière transparente à divers frame
  Visiter le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) interagir avec la communauté et demander de l’aide.
 ### Q : Existe-t-il une disposition pour les licences temporaires ?
  Oui, vous pouvez obtenir un[permis temporaire ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aggiungi Circle Ellipse a PostScript (PS) con Aspose.Page
 linktitle: Aggiungi ellisse circolare a PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Scopri come aggiungere facilmente ellissi circolari ai documenti PostScript (PS) utilizzando Aspose.Page per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 10
 url: /it/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi Circle Ellipse a PostScript (PS) con Aspose.Page
+
 ## introduzione
 
 Benvenuti in questo tutorial completo sull'aggiunta di ellissi circolari ai documenti PostScript (PS) utilizzando Aspose.Page per .NET. Aspose.Page è una potente libreria che consente agli sviluppatori di lavorare senza problemi con PostScript e altri formati di documenti. In questa guida ti guideremo attraverso il processo per incorporare facilmente le ellissi circolari nei tuoi documenti PS.
@@ -145,3 +151,9 @@ Congratulazioni! Hai imparato con successo come aggiungere ellissi circolari ai 
 ### Q5: Dove posso acquistare Aspose.Page per .NET?
 
  A5: Acquista Aspose.Page per .NET da[pagina acquista](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

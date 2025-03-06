@@ -3,10 +3,16 @@ title: Gradient Fills
 linktitle: Gradient Fills
 second_title: Aspose.Page .NET API
 description: Discover the art of gradient fills in .NET with Aspose.Page tutorials. Elevate your projects effortlessly—add captivating diagonal, horizontal, and vertical gradients.
-type: docs
 weight: 27
 url: /net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradient Fills
+
 
 ## Introduction
 
@@ -49,3 +55,9 @@ Learn how to add stunning horizontal gradients to your XPS documents using Aspos
 Learn how to add visually appealing vertical gradients to PostScript (PS) documents in .NET using Aspose.Page. Elevate your document creation with this step-by-step guide.
 ### [Add Vertical Gradient to XPS with Aspose.Page for .NET](./add-vertical-gradient-to-xps/)
 Learn how to enhance XPS documents with vertical gradients using Aspose.Page for .NET. Follow our step-by-step guide for seamless integration.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

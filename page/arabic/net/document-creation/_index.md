@@ -3,10 +3,16 @@ title: إنشاء المستندات
 linktitle: إنشاء المستندات
 second_title: Aspose.Page .NET API
 description: قم بإنشاء مستندات XPS وPostScript مذهلة دون عناء باستخدام Aspose.Page for .NET. استكشف البرامج التعليمية الخاصة بإنشاء المستندات وتعديلها لتحقيق التكامل السلس.
-type: docs
 weight: 23
 url: /ar/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء المستندات
+
 ## مقدمة
 
 يفتح Aspose.Page for .NET الباب أمام عالم من الإمكانيات في إنشاء المستندات الإلكترونية. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك دليلنا خطوة بخطوة على إنشاء مستندات XPS وPostScript دون عناء.
@@ -36,3 +42,9 @@ url: /ar/net/document-creation/
 تعرف على كيفية إنشاء مستندات PostScript في .NET باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتكامل السلس. قم بتنزيل المكتبة وابدأ في معالجة ملفات PostScript دون عناء.
 ### [قم بتعديل مستند XPS باستخدام Aspose.Page لـ .NET](./modify-xps-document/)
 اكتشف قوة Aspose.Page لـ .NET لتعديل مستندات XPS بسهولة. اتبع دليلنا المفصّل خطوة بخطوة، وحسّن عملية معالجة مستنداتك، وأضف نصوص توقيع مخصصة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

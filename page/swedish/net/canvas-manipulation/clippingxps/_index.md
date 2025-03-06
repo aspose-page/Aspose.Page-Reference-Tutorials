@@ -3,10 +3,16 @@ title: Klippa XPS med Aspose.Page för .NET
 linktitle: Klipper XPS
 second_title: Aspose.Page .NET API
 description: Utforska kraften i Aspose.Page för .NET i den här steg-för-steg-guiden om hur du klipper XPS-dokument. Skapa, manipulera och spara XPS-filer utan ansträngning.
-type: docs
 weight: 11
 url: /sv/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Klippa XPS med Aspose.Page för .NET
+
 ## Introduktion
 
 Välkommen till denna omfattande handledning om att klippa XPS med Aspose.Page för .NET! I den här guiden går vi igenom processen att skapa, manipulera och spara XPS-dokument med Aspose.Page för .NET. XPS, eller XML Paper Specification, är ett standardiserat och öppet dokumentformat, och Aspose.Page för .NET tillhandahåller kraftfulla verktyg för att arbeta med XPS-dokument i dina .NET-applikationer.
@@ -156,3 +162,9 @@ S2: Ja, Aspose.Page för .NET är designad för att vara användarvänlig och ny
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.Page för .NET?
 
  S5: Ja, du kan utforska den kostnadsfria provperioden[här](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

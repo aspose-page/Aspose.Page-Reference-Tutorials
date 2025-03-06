@@ -3,10 +3,16 @@ title: Lisans Yönetimi
 linktitle: Lisans Yönetimi
 second_title: Aspose.Page Java API'si
 description: Lisans Yönetimi Eğitimlerimizle Aspose.Page for Java'nın tüm potansiyelini ortaya çıkarın. Belge işleme yeteneklerini artırmak için ölçülü lisansları sorunsuz bir şekilde ayarlayın.
-type: docs
 weight: 30
 url: /tr/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisans Yönetimi
+
 ## giriiş
 
 Aspose.Page Java Lisans Yönetimi Eğitimlerine hoş geldiniz! Bu kapsamlı kılavuzda, belge işleme yeteneklerinizi optimize etmek için ölçülü lisansları ayarlamanın inceliklerini ele alacağız. Aspose.Page'in tüm potansiyelini ortaya çıkaracak, Java ile kusursuz entegrasyon sağlayacak bir yolculuğa çıkalım.
@@ -39,3 +45,9 @@ Java'daki Aspose.Page için Lisans Yönetimi Eğitimlerimiz, ölçülü lisans k
 ## Lisans Yönetimi Eğitimleri
 ### [Java'da Ölçülü Lisansı Ayarlama](./set-metered-license/)
 Aspose.Page'in Java ile kusursuz entegrasyonunu keşfedin. Ölçülü lisansları zahmetsizce ayarlayın ve belge işleme yeteneklerinizi geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: การรวมเอกสาร
 linktitle: การรวมเอกสาร
 second_title: Aspose.Page .NET API
 description: ผสานเอกสาร PostScript และ XPS ให้เป็น PDF คุณภาพสูงได้อย่างง่ายดายโดยใช้ Aspose.Page สำหรับ .NET ปรับปรุงการประมวลผลเอกสารของคุณด้วยบทช่วยสอนทีละขั้นตอนของเรา
-type: docs
 weight: 25
 url: /th/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การรวมเอกสาร
+
 ## การแนะนำ
 
 ผสานการจัดการเอกสารอย่างราบรื่นด้วย Aspose.Page สำหรับ .NET ค้นพบพลังของการรวมเอกสารเข้ากับบทช่วยสอนที่ครอบคลุมของเรา
@@ -40,3 +46,9 @@ url: /th/net/document-merging/
 ผสานเอกสาร XPS ให้เป็น PDF คุณภาพสูงได้อย่างง่ายดายโดยใช้ Aspose.Page สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อประสบการณ์การแปลงเอกสารที่ราบรื่น
 ### [รวมเอกสาร XPS เข้ากับ Aspose.Page สำหรับ .NET](./merge-xps-documents/)
 รวมเอกสาร XPS ได้อย่างง่ายดายโดยใช้ Aspose.Page สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการเอกสารที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

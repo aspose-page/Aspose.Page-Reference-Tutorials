@@ -3,10 +3,16 @@ title: Hiển thị tính minh bạch giả trong PostScript (PS) với Aspose.P
 linktitle: Hiển thị tính minh bạch giả trong PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Khám phá sức mạnh của tính minh bạch giả trong PostScript với Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được những tài liệu có hình ảnh bắt mắt.
-type: docs
 weight: 13
 url: /vi/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị tính minh bạch giả trong PostScript (PS) với Aspose.Page
+
 ## Giới thiệu
 
 Bạn đang tìm cách nâng cao sự hấp dẫn trực quan của tài liệu PostScript (PS) của mình bằng cách kết hợp tính minh bạch giả? Aspose.Page for .NET cung cấp một giải pháp mạnh mẽ để đạt được hiệu quả này một cách dễ dàng. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình hiển thị tính minh bạch giả trong PostScript bằng Aspose.Page.
@@ -129,3 +135,9 @@ Câu trả lời 2: Có, các nguyên tắc tương tự có thể được áp 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page?
 
  A5: Thăm quan[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

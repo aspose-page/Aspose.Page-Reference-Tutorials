@@ -3,10 +3,16 @@ title: قم بإنشاء مستند PostScript باستخدام Aspose.Page لـ
 linktitle: إنشاء مستند بوستسكريبت
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية إنشاء مستندات PostScript في .NET باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتكامل السلس. قم بتنزيل المكتبة وابدأ في معالجة ملفات PostScript دون عناء.
-type: docs
 weight: 11
 url: /ar/net/document-creation/create-postscript-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء مستند PostScript باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي الشامل حول إنشاء مستندات PostScript باستخدام Aspose.Page لـ .NET! Aspose.Page عبارة عن واجهة برمجة تطبيقات قوية تسمح لك بمعالجة وإنشاء ملفات PostScript بسهولة داخل تطبيقات .NET الخاصة بك. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية إنشاء مستند PostScript، مع تقسيم كل مثال إلى خطوات تفصيلية.
@@ -123,3 +129,9 @@ document.Save();
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
 
  ج5: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

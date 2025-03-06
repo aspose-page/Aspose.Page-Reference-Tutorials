@@ -3,10 +3,16 @@ title: Aspose.Page Java チュートリアル - PostScript でのページの追
 linktitle: PostScript でのページの追加
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して Java PostScript ドキュメントにページを追加する方法を学習します。シームレスなドキュメント操作については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java チュートリアル - PostScript でのページの追加
+
 ## 導入
 ドキュメントの操作と管理の世界では、Aspose.Page for Java が PostScript ドキュメントを処理する強力なツールとして浮上しています。 PostScript ドキュメントにページを追加することは、多くのアプリケーションで共通の要件です。このチュートリアルでは、Aspose.Page for Java を使用してページを追加するプロセスを説明し、学習エクスペリエンスをシームレスにするための各ステップを詳しく説明します。
 ## 前提条件
@@ -71,3 +77,9 @@ Aspose.Page は、実質的に無制限のページをドキュメントに追�
 はい、Aspose.Page は、小さなドキュメントと大きなドキュメントの両方を効率的に簡単に処理できるように設計されています。
 ### Aspose.Page の追加リソースとサポートはどこで見つけられますか?
 を探索してください[Aspose.Page ドキュメント](https://reference.aspose.com/page/java/) 、またはにアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティサポートのために。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

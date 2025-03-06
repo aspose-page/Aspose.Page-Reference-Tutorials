@@ -3,10 +3,16 @@ title: Java PostScript에 텍스처 타일링 패턴 추가
 linktitle: Java PostScript에 텍스처 타일링 패턴 추가
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 PostScript 문서에 텍스처 타일링 패턴을 쉽게 추가할 수 있습니다. 창의적인 가능성을 위한 원활한 통합 가이드를 살펴보세요.
-type: docs
 weight: 10
 url: /ko/java/postscript-texture-patterns/add-texture-tiling-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript에 텍스처 타일링 패턴 추가
+
 ## 소개
 Java 개발 영역에서는 PostScript 문서에 복잡한 패턴과 질감을 만드는 것이 일반적인 요구 사항입니다. Aspose.Page for Java는 이 작업을 쉽게 수행하는 데 유용한 도구임이 입증되었습니다. 이 튜토리얼에서는 Aspose.Page를 사용하여 Java PostScript 문서에 텍스처 타일링 패턴을 추가하는 과정을 안내합니다.
 ## 전제 조건
@@ -103,3 +109,9 @@ document.save();
  예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Page for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
  방문하다[이 링크](https://purchase.aspose.com/temporary-license/) 임시면허를 취득하기 위해
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

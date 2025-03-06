@@ -3,10 +3,16 @@ title: Формы — XPS
 linktitle: Формы — XPS
 second_title: API Aspose.Page Java
 description: Откройте для себя магию Java XPS с помощью руководств Aspose.Page! Легко добавляйте очаровательные эллипсы и прямоугольники. Усовершенствуйте процесс создания документов с помощью наших пошаговых руководств.
-type: docs
 weight: 35
 url: /ru/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Формы — XPS
+
 ## Введение
 
 Готовы ли вы окунуться в увлекательную область создания документов с помощью Java XPS? Не ищите ничего, кроме Aspose.Page, вашего надежного помощника, который поможет раскрыть весь потенциал манипулирования фигурами. В этой серии уроков мы познакомим вас с тонкостями добавления привлекательных фигур, чтобы ваш документ легко выделялся среди других.
@@ -33,3 +39,9 @@ url: /ru/java/xps-shapes/
 Изучите пошаговое руководство по добавлению эллипса с радиальным градиентом в Java XPS с помощью Aspose.Page для Java. Улучшите процесс создания документов без особых усилий.
 ### [Добавить прямоугольник в Java XPS](./add-rectangle/)
 Узнайте, как добавлять прямоугольники в Java XPS с помощью Aspose.Page. Следуйте нашему пошаговому руководству для беспрепятственного управления документами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

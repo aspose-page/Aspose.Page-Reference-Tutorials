@@ -3,10 +3,16 @@ title: Manipulacja stroną w Javie
 linktitle: Manipulacja stroną w Javie
 second_title: Aspose.Page API Java
 description: Odblokuj sekrety manipulacji stroną Java dzięki samouczkom Aspose.Page. Zanurz się w przycinaniu i transformacjach, aby bez wysiłku tworzyć oszałamiające wizualnie dokumenty.
-type: docs
 weight: 20
 url: /pl/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja stroną w Javie
+
 
 ## Wstęp
 
@@ -50,3 +56,9 @@ Gotowy wyruszyć w podróż polegającą na tworzeniu oszałamiających wizualni
 Poznaj sztukę wycinania w manipulacji stroną Java za pomocą Aspose.Page. Opanuj precyzyjne tworzenie dokumentów, aby uzyskać oszałamiającą grafikę i kontrolę.
 ### [Transformacje w manipulacji stroną w Javie](./transformations/)
 Dowiedz się, jak wykonywać zaawansowane transformacje stron w Javie przy użyciu Aspose.Page dla Java. Ulepsz swoje aplikacje Java dzięki potężnym możliwościom manipulacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

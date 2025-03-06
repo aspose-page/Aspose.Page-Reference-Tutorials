@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Page के साथ स्ट्रीम 
 linktitle: स्ट्रीम ऑब्जेक्ट से लाइसेंस लोड करें
 second_title: Aspose.Page .NET API
 description: Aspose.Page के साथ .NET में दस्तावेज़ हेरफेर को अनलॉक करें। स्ट्रीम ऑब्जेक्ट से लाइसेंस को निर्बाध रूप से लोड करने के लिए हमारे गाइड का पालन करें।
-type: docs
 weight: 12
 url: /hi/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Page के साथ स्ट्रीम ऑब्जेक्ट से लाइसेंस लोड करें
+
 ## परिचय
 
 क्या आप अपने .NET विकास कौशल को अगले स्तर पर ले जाने के लिए तैयार हैं? यदि आपको कभी दस्तावेज़ों के साथ काम करने की आवश्यकता महसूस हुई है, विशेष रूप से पृष्ठ हेरफेर के संदर्भ में, तो .NET के लिए Aspose.Page आपका आदर्श साथी है। इस व्यापक गाइड में, हम आपको स्ट्रीम ऑब्जेक्ट से लाइसेंस लोड करने की प्रक्रिया के बारे में बताएंगे, जो .NET के लिए Aspose.Page की क्षमताओं का उपयोग करने में एक मौलिक कदम है।
@@ -111,3 +117,9 @@ A1: हां, Aspose.Page को .NET के सभी संस्करणो
 ### Q5: क्या मैं किसी भिन्न लाइसेंस योजना में अपग्रेड कर सकता हूँ?
 
  A5: विभिन्न लाइसेंसिंग विकल्पों का अन्वेषण करें और अपग्रेड करें[यहाँ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

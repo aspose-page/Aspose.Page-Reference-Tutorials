@@ -3,10 +3,16 @@ title: พิมพ์การจัดการตั๋ว
 linktitle: พิมพ์การจัดการตั๋ว
 second_title: Aspose.Page .NET API
 description: สร้างและแก้ไขตั๋วพิมพ์แบบกำหนดเองด้วย Aspose.Page สำหรับ .NET ปรับแต่งประสบการณ์การพิมพ์ของคุณด้วยการควบคุมอย่างละเอียดในเอกสาร XPS ได้อย่างง่ายดาย
-type: docs
 weight: 30
 url: /th/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# พิมพ์การจัดการตั๋ว
+
 
 ## การแนะนำ
 
@@ -34,3 +40,9 @@ url: /th/net/print-ticket-management/
 สำรวจคำแนะนำทีละขั้นตอนเกี่ยวกับการสร้างตั๋วพิมพ์แบบกำหนดเองโดยใช้ Aspose.Page สำหรับ .NET ปรับแต่งประสบการณ์การพิมพ์ของคุณด้วยการควบคุมแบบละเอียด
 ### [แก้ไขตั๋วพิมพ์ที่มีอยู่ด้วย Aspose.Page สำหรับ .NET](./print-ticket-management/aspose.page/)
 เรียนรู้วิธีแก้ไขตั๋วพิมพ์ในเอกสาร XPS โดยใช้ Aspose.Page สำหรับ .NET คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา ปรับปรุงการควบคุมการพิมพ์เอกสารได้อย่างง่ายดาย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

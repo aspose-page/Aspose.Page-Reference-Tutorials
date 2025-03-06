@@ -3,10 +3,16 @@ title: Dodaj prostokąt do PostScript (PS) za pomocą Aspose.Page dla .NET
 linktitle: Dodaj prostokąt do PostScriptu (PS)
 second_title: Aspose.Page API .NET
 description: Usprawnij tworzenie dokumentów w .NET dzięki Aspose.Page. Dowiedz się, jak krok po kroku dodawać prostokąty do plików PostScript (PS).
-type: docs
 weight: 12
 url: /pl/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj prostokąt do PostScript (PS) za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Jeśli chcesz zwiększyć swoje możliwości tworzenia dokumentów w .NET, Aspose.Page zapewnia potężne rozwiązanie do obsługi dokumentów PostScript. W tym samouczku przeprowadzimy Cię przez proces dodawania prostokątów do dokumentu PostScript przy użyciu Aspose.Page dla .NET.
@@ -133,3 +139,10 @@ O2: Tak, Aspose.Page obsługuje różne formaty dokumentów, w tym XPS i PostScr
 ### P5: Czy mogę wypróbować Aspose.Page przed zakupem?
 
  Odpowiedź 5: Tak, możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/) , a w przypadku długotrwałego użytkowania rozważ a[licencja tymczasowa](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

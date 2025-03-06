@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 간단한 속성 추가
 linktitle: 단순 속성 추가
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 EPS 파일을 향상하세요. 맞춤형 문서 메타데이터에 간단한 속성을 손쉽게 추가하세요.
-type: docs
 weight: 14
 url: /ko/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 간단한 속성 추가
+
 ## 소개
 
 문서 조작 및 향상 영역에서 .NET용 Aspose.Page는 개발자에게 EPS 파일 내에서 XMP 메타데이터를 원활하게 추가하고 수정할 수 있는 기능을 제공하는 강력한 도구로 등장합니다. 이 튜토리얼은 .NET용 Aspose.Page를 사용하여 EPS 파일에 간단한 속성을 추가하는 과정을 안내합니다.
@@ -120,3 +126,9 @@ A3: .NET용 Aspose.Page는 정수, 날짜, 복식 및 문자열을 포함하여 
 ### Q5: Aspose.Page for .NET에 대한 무료 평가판이 있습니까?
 
  A5: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

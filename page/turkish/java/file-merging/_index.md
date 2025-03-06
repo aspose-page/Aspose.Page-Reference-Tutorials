@@ -3,10 +3,16 @@ title: Dosya Birleştirme
 linktitle: Dosya Birleştirme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page'i kullanarak PostScript dosyalarını zahmetsizce PDF'ye birleştirin ve XPS'yi Java'da PDF'ye veya XPS'ye dönüştürün. Sorunsuz belge dönüşümü için adım adım eğitimleri izleyin.
-type: docs
 weight: 31
 url: /tr/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dosya Birleştirme
+
 
 ## giriiş
 
@@ -40,3 +46,9 @@ Aspose.Page ile PostScript dosyalarını Java'da PDF'ye zahmetsizce birleştirin
 Aspose.Page ile XPS'yi Java'da PDF'ye zahmetsizce nasıl dönüştürebileceğinizi öğrenin. Verimli belge dönüşümü için adım adım kılavuzumuzu izleyin.
 ### [Java'da XPS'yi XPS'ye dönüştürün](./xps-to-xps/)
 Aspose.Page'i kullanarak XPS dosyalarını Java'da sorunsuz bir şekilde nasıl birleştireceğinizi öğrenin. Verimli belge işleme için adım adım kılavuzumuzu izleyin. Java geliştirme becerilerinizi şimdi artırın!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Voeg een betegelde afbeelding toe in Java XPS
 linktitle: Voeg een betegelde afbeelding toe in Java XPS
 second_title: Aspose.Page Java-API
 description: Ontdek naadloze Java XPS-documentmanipulatie met Aspose.Page. Leer moeiteloos tegelafbeeldingen toevoegen met behulp van deze stapsgewijze handleiding.
-type: docs
 weight: 11
 url: /nl/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een betegelde afbeelding toe in Java XPS
+
 ## Invoering
 In de dynamische wereld van Java-ontwikkeling wordt de behoefte aan efficiënte documentmanipulatie en -creatie steeds groter. Aspose.Page voor Java blijkt een krachtig hulpmiddel dat ontwikkelaars de mogelijkheid biedt om naadloos met XPS-documenten te werken. Deze tutorial richt zich op een specifieke taak: het toevoegen van een tegelafbeelding aan een Java XPS-document.
 ## Vereisten
@@ -68,3 +74,9 @@ Ja, Aspose.Page biedt commerciële licenties. Koop ze[hier](https://purchase.asp
  Neem deel aan de Aspose.Page-gemeenschap op de[forum](https://forum.aspose.com/c/page/39).
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Page verkrijgen?
  Schaf een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

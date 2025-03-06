@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 应用计量许可证
 linktitle: 申请计量许可证
 second_title: Aspose.Page .NET API
 description: 通过此有关应用计量许可证的分步指南，探索 Aspose.Page for .NET 的无缝集成。轻松优化文档处理。
-type: docs
 weight: 10
 url: /zh/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 应用计量许可证
+
 ## 介绍
 
 通过应用计量许可证来释放 Aspose.Page for .NET 的全部潜力。本教程将指导您完成设置和应用计量许可证的过程，确保顺利和优化地使用这个强大的 .NET 库。
@@ -112,3 +118,9 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 ### Q5：如何获得 Aspose.Page for .NET 的临时许可证？
 
 A5：参观[临时牌照/](https://purchase.aspose.com/temporary-license/)获得临时许可证。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

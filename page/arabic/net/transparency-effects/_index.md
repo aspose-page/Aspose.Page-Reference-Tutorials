@@ -3,10 +3,16 @@ title: تأثيرات الشفافية
 linktitle: تأثيرات الشفافية
 second_title: Aspose.Page .NET API
 description: اكتشف سحر تأثيرات الشفافية في مستنداتك باستخدام Aspose.Page .NET. ارفع مستوى تصميمك من خلال البرامج التعليمية خطوة بخطوة للحصول على تحسينات بصرية مذهلة.
-type: docs
 weight: 34
 url: /ar/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تأثيرات الشفافية
+
 
 ## مقدمة
 
@@ -42,3 +48,9 @@ url: /ar/net/transparency-effects/
 تعرف على كيفية تعيين أقنعة العتامة في مستندات XPS باستخدام Aspose.Page لـ .NET. تعزيز جماليات الوثيقة دون عناء.
 ### [إظهار الشفافية الزائفة في PostScript (PS) باستخدام Aspose.Page](./show-pseudo-transparency-in-postscript-ps/)
 اكتشف قوة الشفافية الزائفة في PostScript باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على مستندات مذهلة بصريًا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

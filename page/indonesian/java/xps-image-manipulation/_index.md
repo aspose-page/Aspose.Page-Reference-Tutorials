@@ -3,10 +3,16 @@ title: Manipulasi Gambar - XPS
 linktitle: Manipulasi Gambar - XPS
 second_title: Aspose.Halaman Java API
 description: Temukan seni manipulasi gambar yang mudah dalam dokumen Java XPS dengan Aspose.Page. Pelajari cara menambahkan dan menyusun gambar dengan lancar untuk meningkatkan pemrosesan dokumen.
-type: docs
 weight: 29
 url: /id/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Gambar - XPS
+
 
 ## Perkenalan
 
@@ -36,3 +42,9 @@ Kesimpulannya, Aspose.Page untuk Java membuka pintu ke dunia di mana manipulasi 
 Pelajari cara menambahkan gambar dengan mudah ke dokumen XPS di Java menggunakan Aspose.Page. Tingkatkan pemrosesan dokumen Anda dengan panduan langkah demi langkah ini.
 ### [Tambahkan Gambar Berubin di Java XPS](./add-tiled-image/)
 Jelajahi manipulasi dokumen Java XPS yang lancar dengan Aspose.Page. Pelajari cara menambahkan gambar ubin dengan mudah menggunakan panduan langkah demi langkah ini.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

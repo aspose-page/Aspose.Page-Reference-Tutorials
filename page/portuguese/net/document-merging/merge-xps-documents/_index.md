@@ -3,10 +3,16 @@ title: Mesclar documentos XPS com Aspose.Page para .NET
 linktitle: Mesclar documentos XPS
 second_title: API Aspose.Page .NET
 description: Mescle documentos XPS sem esforço usando Aspose.Page for .NET. Siga nosso guia passo a passo para um gerenciamento de documentos perfeito.
-type: docs
 weight: 12
 url: /pt/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesclar documentos XPS com Aspose.Page para .NET
+
 ## Introdução
 
 Você deseja mesclar documentos XPS perfeitamente usando Aspose.Page for .NET? Este tutorial orientará você durante o processo, fornecendo orientação passo a passo sobre como mesclar arquivos XPS sem esforço. Aspose.Page for .NET é uma biblioteca poderosa que simplifica as tarefas de manipulação de documentos, tornando-a a escolha ideal para mesclar documentos XPS. Vamos mergulhar no processo e explorar como você pode conseguir isso com facilidade.
@@ -94,3 +100,9 @@ A4: Certifique-se de ter a licença apropriada para Aspose.Page for .NET para us
 ### Q5: O Aspose.Page for .NET oferece alguma opção avançada para mesclagem de documentos?
 
 R5: Sim, você pode explorar opções e configurações adicionais disponíveis na documentação.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

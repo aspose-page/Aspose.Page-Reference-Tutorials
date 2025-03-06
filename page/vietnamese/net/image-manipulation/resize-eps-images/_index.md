@@ -3,10 +3,16 @@ title: Thay đổi kích thước hình ảnh EPS bằng Aspose.Page cho .NET
 linktitle: Thay đổi kích thước hình ảnh EPS
 second_title: API Aspose.Page .NET
 description: Khám phá quy trình thay đổi kích thước hình ảnh EPS trong .NET một cách liền mạch bằng Aspose.Page. Đạt được độ chính xác theo điểm, inch, milimet và tỷ lệ phần trăm một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi kích thước hình ảnh EPS bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Bạn đang muốn thay đổi kích thước hình ảnh EPS một cách liền mạch bằng Aspose.Page cho .NET? Hướng dẫn này là hướng dẫn toàn diện giúp bạn dễ dàng thao tác kích thước của hình ảnh EPS theo nhiều đơn vị khác nhau như điểm, inch, milimét và tỷ lệ phần trăm. Aspose.Page cho .NET cung cấp một bộ công cụ mạnh mẽ và trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình.
@@ -161,3 +167,9 @@ Câu trả lời 2: Aspose.Page chủ yếu tập trung vào các định dạng
 ### Câu hỏi 5: Tôi có thể tìm thêm trợ giúp hoặc thảo luận vấn đề ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với cộng đồng và nhận được sự trợ giúp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

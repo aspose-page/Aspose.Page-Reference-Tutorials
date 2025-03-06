@@ -3,10 +3,16 @@ title: Voeg een raster toe met Visual Brush in Java
 linktitle: Voeg een raster toe met Visual Brush in Java
 second_title: Aspose.Page Java-API
 description: Verbeter de visuele weergave van Java-documenten met Aspose.Page! Leer stap voor stap hoe u rasters kunt toevoegen met Visual Brush. Verhoog moeiteloos de aantrekkingskracht van uw toepassing.
-type: docs
 weight: 10
 url: /nl/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een raster toe met Visual Brush in Java
+
 ## Invoering
 Wilt u uw Java-applicaties uitbreiden met visueel aantrekkelijke rasters met behulp van Aspose.Page? In deze zelfstudie begeleiden we u bij het toevoegen van een raster met Visual Brush in Java met Aspose.Page. Met Visueel penseel kunt u een gebied met visuele inhoud schilderen, waardoor verbluffende rastereffecten in uw documenten ontstaan.
 ## Vereisten
@@ -84,3 +90,9 @@ Absoluut! Met Visual Brush kunt u met verschillende kleuren schilderen, wat flex
  Ja, u heeft toegang tot de[gratis proefperiode](https://releases.aspose.com/) om de functies van Aspose.Page te verkennen.
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Page verkrijgen?
  Verkrijg een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

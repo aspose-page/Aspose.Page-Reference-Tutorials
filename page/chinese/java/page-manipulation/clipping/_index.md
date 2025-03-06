@@ -3,10 +3,16 @@ title: 制作视觉奇观 - Java 页面操作中的剪切
 linktitle: Java 页面操作中的裁剪
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 探索 Java 页面操作中的剪切艺术。掌握精确的文档制作，以获得令人惊叹的视觉效果和控制。
-type: docs
 weight: 10
 url: /zh/java/page-manipulation/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 制作视觉奇观 - Java 页面操作中的剪切
+
 ## 介绍
 在 Java 页面操作领域，掌握剪切艺术对于创建视觉上令人惊叹且精心制作的文档至关重要。剪辑允许您通过定义应显示内容的特定区域来控制内容的可见性。在本教程中，我们将使用 Aspose.Page for Java（一个用于处理文档处理任务的强大库）深入研究剪辑的世界。
 ## 先决条件
@@ -76,3 +82,9 @@ document.save();
 探索[文档](https://reference.aspose.com/page/java/)和[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)以获得丰富的资源。
 ### 有免费试用吗？
 是的，您可以访问 Aspose.Page 的免费试用版[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

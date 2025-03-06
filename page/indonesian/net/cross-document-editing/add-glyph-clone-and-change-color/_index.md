@@ -3,10 +3,16 @@ title: Tambahkan Glyph Clone dan Ubah Warna dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Glyph Clone dan Ubah Warna
 second_title: Aspose.Halaman .NET API
 description: Jelajahi kekuatan Aspose.Page untuk .NET dalam tutorial komprehensif ini. Pelajari cara menambahkan klon mesin terbang dan mengubah warna dalam dokumen XPS dengan mudah.
-type: docs
 weight: 10
 url: /id/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Glyph Clone dan Ubah Warna dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Selamat datang di panduan langkah demi langkah tentang penggunaan Aspose.Page untuk .NET guna menambahkan klon mesin terbang dan mengubah warna di dokumen XPS Anda. Aspose.Page for .NET adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan file XPS dengan lancar. Dalam tutorial ini, kami akan fokus pada proses menambahkan klon mesin terbang dan mengubah warnanya, sehingga meningkatkan daya tarik visual dokumen Anda.
@@ -129,3 +135,9 @@ A4: Versi uji coba gratis memiliki beberapa keterbatasan, dan disarankan untuk m
 ### Q5: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.Page untuk .NET?
 
  A5: Anda dapat merujuk ke dokumentasi[Di Sini](https://reference.aspose.com/page/net/) untuk informasi rinci dan contoh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

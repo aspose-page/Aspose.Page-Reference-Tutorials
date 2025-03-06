@@ -3,10 +3,16 @@ title: التلاعب بالصفحة - بوستسكريبت
 linktitle: التلاعب بالصفحة - بوستسكريبت
 second_title: Aspose.Page جافا API
 description: استكشف Aspose.Page for Java في دروس PostScript التعليمية. قم بإضافة صفحات بسهولة إلى مستندات Java PostScript الخاصة بك مع إرشادات خطوة بخطوة للمعالجة السلسة.
-type: docs
 weight: 32
 url: /ar/java/postscript-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب بالصفحة - بوستسكريبت
+
 
 ## مقدمة
 
@@ -34,3 +40,9 @@ url: /ar/java/postscript-page-manipulation/
 اكتشف كيفية إضافة صفحات في Java PostScript بسهولة باستخدام Aspose.Page. عزز إنشاء مستنداتك باستخدام مكتبة Java القوية هذه.
 ### [إضافة صفحات في بوستسكريبت](./add-pages2/)
 تعرف على كيفية إضافة صفحات إلى مستندات Java PostScript باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتعامل السلس مع المستندات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

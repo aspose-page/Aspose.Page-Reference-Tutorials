@@ -3,10 +3,16 @@ title: Méretezze át az EPS-képeket az Aspose.Page segítségével .NET-hez
 linktitle: EPS képek átméretezése
 second_title: Aspose.Page .NET API
 description: Fedezze fel az EPS-képek átméretezésének zökkenőmentes folyamatát a .NET-ben az Aspose.Page használatával. Pontosan, hüvelykben, milliméterben és százalékban könnyedén elérheti a pontosságot.
-type: docs
 weight: 11
 url: /hu/net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Méretezze át az EPS-képeket az Aspose.Page segítségével .NET-hez
+
 ## Bevezetés
 
 Az Aspose.Page for .NET használatával zökkenőmentesen szeretné átméretezni az EPS-képeket? Ez az oktatóanyag átfogó útmutató az EPS-képek méretének könnyű manipulálásához különböző mértékegységekben, például pontokban, hüvelykekben, milliméterekben és százalékokban. Az Aspose.Page for .NET hatékony eszközkészletet kínál, és ebben az oktatóanyagban lépésről lépésre végigvezetjük a folyamaton.
@@ -161,3 +167,9 @@ Gratulálunk! Elsajátította az EPS-képek átméretezésének művészetét az
 ### 5. kérdés: Hol kérhetek további segítséget vagy vitathatom meg a problémákat?
 
  A5: Látogassa meg a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) kapcsolatba lépni a közösséggel és segítséget kapni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

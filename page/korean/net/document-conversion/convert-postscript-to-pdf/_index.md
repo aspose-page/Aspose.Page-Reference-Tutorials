@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 PostScript를 PDF로 변환
 linktitle: 포스트스크립트를 PDF로 변환
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 PostScript를 PDF로 손쉽게 변환하세요. 강력하고 안정적이며 개발자 친화적입니다.
-type: docs
 weight: 10
 url: /ko/net/document-conversion/convert-postscript-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 PostScript를 PDF로 변환
+
 ## 소개
 
 끊임없이 진화하는 소프트웨어 개발 환경에서 .NET용 Aspose.Page는 원활한 PostScript를 PDF로 변환하는 강력한 도구로 돋보입니다. 이 튜토리얼은 PostScript 파일을 PDF 형식으로 효율적으로 변환하기 위해 .NET용 Aspose.Page를 사용하는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하든 이 단계별 가이드는 Aspose.Page의 기능을 활용하는 데 도움이 될 것입니다.
@@ -130,3 +136,9 @@ A2: 물론이죠. 튜토리얼에 표시된 대로 특정 요구 사항에 맞�
 ### Q5: Aspose.Page for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 임시 라이센스를 취득할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

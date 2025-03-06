@@ -3,10 +3,16 @@ title: Aspose.Page Manipulasi Teks Java
 linktitle: Tambahkan Teks di Java PostScript
 second_title: Aspose.Halaman Java API
 description: Jelajahi kekuatan Aspose.Page untuk Java dalam tutorial kami tentang menambahkan teks ke dokumen PostScript. Belajar menggunakan sistem dan font khusus dengan mudah.
-type: docs
 weight: 10
 url: /id/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Manipulasi Teks Java
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah kami tentang menambahkan teks di Java PostScript menggunakan Aspose.Page untuk Java. Aspose.Page untuk Java adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi dokumen PostScript dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan teks, menggunakan sistem dan font khusus, menguraikan teks, dan menggabungkan guratan untuk hasil yang menarik secara visual.
 ## Prasyarat
@@ -99,3 +105,9 @@ Sangat! Anda dapat membuat banyak halaman dengan mengulangi langkah pembuatan da
 `ExternalFontCache` digunakan untuk mengambil font khusus, memastikan font tersebut tersedia untuk manipulasi teks.
 ### Bisakah saya menerapkan goresan berbeda pada teks yang digariskan?
  Ya, Anda dapat menyesuaikan lebar dan warna guratan menggunakan`Stroke` kelas dan`Color` kelas, masing-masing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قم بتغيير عناصر المصفوفة باستخدام Aspose.Pag
 linktitle: تغيير عناصر المصفوفة
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية تغيير عناصر المصفوفة في ملفات EPS باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة لمعالجة البيانات التعريفية بكفاءة.
-type: docs
 weight: 15
 url: /ar/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتغيير عناصر المصفوفة باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل الشامل حول تغيير عناصر المصفوفة باستخدام Aspose.Page لـ .NET! Aspose.Page هي مكتبة قوية تسمح للمطورين بالعمل مع تنسيقات المستندات المختلفة، بما في ذلك ملفات EPS. في هذا البرنامج التعليمي، سنركز على معالجة بيانات XMP التعريفية داخل ملفات EPS، وعلى وجه التحديد تغيير عناصر المصفوفة.
@@ -99,3 +105,9 @@ A1: يتعامل Aspose.Page بشكل أساسي مع ملفات EPS، لكن As
 ### س5: أين يمكنني الحصول على الدعم أو التواصل مع المجتمع؟
 
  ج5: قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Gradient Addition - XPS
 linktitle: Gradient Addition - XPS
 second_title: Aspose.Page Java API
 description: Vylepšete své dokumenty Java XPS pomocí úžasných přechodů. Naučte se přidávat diagonální, horizontální a vertikální přechody bez námahy pomocí výukových programů Aspose.Page.
-type: docs
 weight: 26
 url: /cs/java/xps-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradient Addition - XPS
+
 ## Úvod
 
 Jak se technologie vyvíjí, zvýšení vizuální přitažlivosti se stává zásadní. V oblasti dokumentů Java XPS je začlenění podmanivých přechodů změnou hry. Vítejte na Aspose.Page for Java Tutorials, kde s jemností odhalíme umění přidávání přechodů v XPS.
@@ -40,3 +46,9 @@ Naučte se, jak přidat úžasný diagonální přechod do dokumentů XPS v Jav�
 Naučte se, jak přidat úžasný horizontální přechod do XPS dokumentů v Javě pomocí Aspose.Page. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
 ### [Přidejte vertikální přechod v Java XPS](./vertical/)
 Naučte se, jak přidat vertikální přechod do dokumentů Java XPS pomocí Aspose.Page. Vylepšete vizuální přitažlivost bez námahy. Návod krok za krokem uvnitř.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

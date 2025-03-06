@@ -3,10 +3,16 @@ title: Hình dạng - PostScript
 linktitle: Hình dạng - PostScript
 second_title: API Java Aspose.Page
 description: Dễ dàng tạo các tài liệu PostScript hấp dẫn với Aspose.Page Java. Đi sâu vào hướng dẫn về cách thêm hình elip và hình chữ nhật, tạo nội dung hấp dẫn về mặt hình ảnh.
-type: docs
 weight: 34
 url: /vi/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hình dạng - PostScript
+
 
 ## Giới thiệu
 
@@ -65,3 +71,9 @@ Khai thác toàn bộ tiềm năng của Aspose.Page cho Java và nâng cao tr�
 Bậc thầy tạo tài liệu PostScript tuyệt đẹp trong Java bằng Aspose.Page. Tìm hiểu cách thêm dấu ba chấm từng bước để có nội dung hấp dẫn về mặt hình ảnh.
 ### [Thêm hình chữ nhật trong Java PostScript](./add-rectangle/)
 Khám phá hướng dẫn từng bước về cách thêm hình chữ nhật sống động vào tài liệu Java PostScript bằng Aspose.Page cho Java. Tăng cường tùy chỉnh tài liệu của bạn một cách dễ dàng!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

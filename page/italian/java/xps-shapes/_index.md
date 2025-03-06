@@ -3,10 +3,16 @@ title: Forme XPS
 linktitle: Forme XPS
 second_title: API Java Aspose.Page
 description: Scopri la magia di Java XPS con i tutorial di Aspose.Page! Aggiungi facilmente ellissi e rettangoli accattivanti. Migliora la creazione di documenti con le nostre guide passo passo.
-type: docs
 weight: 35
 url: /it/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Forme XPS
+
 ## introduzione
 
 Sei pronto ad addentrarti nell'affascinante regno della creazione di documenti utilizzando Java XPS? Non cercare oltre Aspose.Page, il tuo compagno di fiducia per sbloccare tutto il potenziale della manipolazione delle forme. In questa serie di tutorial ti guideremo attraverso la complessità dell'aggiunta di forme accattivanti, assicurandoti che il tuo documento risalti senza sforzo.
@@ -33,3 +39,9 @@ In conclusione, i tutorial Aspose.Page per Java sulle forme aprono un mondo di p
 Esplora la guida passo passo sull'aggiunta di un'ellisse con gradiente radiale in Java XPS utilizzando Aspose.Page per Java. Migliora la creazione dei tuoi documenti senza sforzo.
 ### [Aggiungi rettangolo in Java XPS](./add-rectangle/)
 Scopri come aggiungere rettangoli in Java XPS utilizzando Aspose.Page. Segui la nostra guida passo passo per una manipolazione fluida dei documenti.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

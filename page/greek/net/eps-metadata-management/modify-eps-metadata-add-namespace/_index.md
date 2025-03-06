@@ -3,10 +3,16 @@ title: Προσθήκη χώρου ονομάτων με το Aspose.Page για
 linktitle: Προσθήκη χώρου ονομάτων
 second_title: Aspose.Page .NET API
 description: Βελτιώστε τα αρχεία EPS με το Aspose.Page για .NET. Προσθέστε χώρους ονομάτων χωρίς κόπο, τροποποιήστε τα μεταδεδομένα XMP και ενισχύστε τη ροή εργασιών ανάπτυξης .NET.
-type: docs
 weight: 13
 url: /el/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη χώρου ονομάτων με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Στον δυναμικό κόσμο της ανάπτυξης .NET, το Aspose.Page ξεχωρίζει ως ένα ισχυρό εργαλείο για το χειρισμό αρχείων EPS. Το Aspose.Page για .NET επιτρέπει στους προγραμματιστές να χειρίζονται απρόσκοπτα τα μεταδεδομένα XMP, παρέχοντας την ευελιξία να προσθέτουν χώρους ονομάτων και να βελτιώνουν τα μεταδεδομένα των αρχείων EPS.
@@ -117,3 +123,9 @@ A1: Το Aspose.Page για .NET είναι συμβατό με διάφορες
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Page;
 
  A5: Λάβετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

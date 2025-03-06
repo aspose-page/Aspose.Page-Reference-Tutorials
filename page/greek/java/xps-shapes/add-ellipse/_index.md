@@ -3,10 +3,16 @@ title: Προσθήκη Radial Gradient Ellipse με το Aspose.Page
 linktitle: Προσθήκη Ellipse σε Java XPS
 second_title: Aspose.Page Java API
 description: Εξερευνήστε τον οδηγό βήμα προς βήμα για την προσθήκη μιας έλλειψης με ακτινωτή διαβάθμιση σε Java XPS χρησιμοποιώντας το Aspose.Page για Java. Βελτιώστε τη δημιουργία εγγράφων σας χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη Radial Gradient Ellipse με το Aspose.Page
+
 ## Εισαγωγή
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για την προσθήκη μιας έλλειψης σε Java XPS χρησιμοποιώντας το Aspose.Page για Java. Το Aspose.Page είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να εργάζονται με έγγραφα XPS χωρίς κόπο. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας μιας έλλειψης με ακτινική κλίση και αποθήκευσης ως έγγραφο XPS.
 ## Προαπαιτούμενα
@@ -91,3 +97,9 @@ doc.save(dataDir + "AddEllipse_out.xps");
  Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Υπάρχουν φόρουμ κοινότητας για συζητήσεις Aspose.Page;
  Ναι, εγγραφείτε στο[Φόρουμ κοινότητας Aspose.Page](https://forum.aspose.com/c/page/39) για να συνεργαστείτε με άλλους προγραμματιστές και να λάβετε βοήθεια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

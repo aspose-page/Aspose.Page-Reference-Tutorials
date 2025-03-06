@@ -3,10 +3,16 @@ title: Διαφάνεια - PostScript
 linktitle: Διαφάνεια - PostScript
 second_title: Aspose.Page Java API
 description: Ανεβάστε το Java PostScript με το Aspose.Page για Java. Ενσωματώστε απρόσκοπτα διαφανείς εικόνες και δημιουργήστε ζωντανή ψευδοδιαφάνεια για συναρπαστικές απεικονίσεις.
-type: docs
 weight: 39
 url: /el/java/postscript-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαφάνεια - PostScript
+
 ## Εισαγωγή
 
 Είστε έτοιμοι να ανεβάσετε τα έγγραφα Java PostScript σε νέα ύψη; Μην ψάχνετε άλλο! Σε αυτήν τη σειρά εκμάθησης, εμβαθύνουμε στις περιπλοκές της διαφάνειας, εστιάζοντας σε δύο βασικές πτυχές: την προσθήκη διαφανών εικόνων και τη δημιουργία ψευδοδιαφάνειας.
@@ -36,3 +42,9 @@ url: /el/java/postscript-transparency/
 Εξερευνήστε την απρόσκοπτη ενσωμάτωση διαφανών εικόνων σε έγγραφα Java PostScript με το Aspose.Page για Java. Αναβαθμίστε τις απεικονίσεις των εγγράφων σας χωρίς κόπο.
 ### [Εμφάνιση ψευδο-διαφάνειας στο Java PostScript](./show-pseudo-transparency/)
 Ξεκλειδώστε ζωντανά γραφικά στο Java PostScript! Ακολουθήστε το σεμινάριο Aspose.Page για βήμα προς βήμα δημιουργία ψευδο-διαφάνειας. Κατεβάστε τώρα!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

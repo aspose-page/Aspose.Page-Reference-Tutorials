@@ -3,10 +3,16 @@ title: Thêm không gian tên trong XMP bằng Java
 linktitle: Thêm không gian tên trong XMP bằng Java
 second_title: API Java Aspose.Page
 description: Khai phá sức mạnh của thao tác tài liệu với Aspose.Page cho Java. Tìm hiểu cách thêm không gian tên XMP một cách dễ dàng trong hướng dẫn toàn diện này.
-type: docs
 weight: 13
 url: /vi/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm không gian tên trong XMP bằng Java
+
 
 ## Giới thiệu
 
@@ -108,3 +114,9 @@ Aspose.Page chủ yếu hỗ trợ Java, nhưng cũng có phiên bản dành cho
 
 ### Có diễn đàn cộng đồng nào dành cho Aspose.Page không?
  Có, bạn có thể tương tác với cộng đồng trên[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Craft Visual Wonders - Clipping in Java Page Manipulation
 linktitle: Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 description: Explore the art of clipping in Java Page Manipulation with Aspose.Page. Master precise document crafting for stunning visuals and control.
-type: docs
 weight: 10
 url: /java/page-manipulation/clipping/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Craft Visual Wonders - Clipping in Java Page Manipulation
+
 ## Introduction
 In the realm of Java Page Manipulation, mastering the art of clipping is essential for creating visually stunning and precisely crafted documents. Clipping allows you to control the visibility of content by defining specific regions within which it should be displayed. In this tutorial, we'll delve into the world of clipping using Aspose.Page for Java, a powerful library for handling document processing tasks.
 ## Prerequisites
@@ -76,3 +82,10 @@ Obtain a temporary license for testing from [here](https://purchase.aspose.com/t
 Explore the [documentation](https://reference.aspose.com/page/java/) and [Aspose.Page forum](https://forum.aspose.com/c/page/39) for a wealth of resources.
 ### Is there a free trial available?
 Yes, you can access the free trial of Aspose.Page [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

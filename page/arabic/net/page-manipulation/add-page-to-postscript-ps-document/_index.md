@@ -3,10 +3,16 @@ title: أضف صفحة إلى مستند PostScript (PS) باستخدام Aspose
 linktitle: إضافة صفحة إلى مستند PostScript (PS).
 second_title: Aspose.Page .NET API
 description: استكشف Aspose.Page for .NET، وهو الحل النهائي لمعالجة مستندات PostScript بشكل سلس في مشاريع .NET الخاصة بك.
-type: docs
 weight: 10
 url: /ar/net/page-manipulation/add-page-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف صفحة إلى مستند PostScript (PS) باستخدام Aspose.Page
+
 ## مقدمة
 
 في عالم تطوير .NET، تعد إدارة المستندات ومعالجتها جانبًا بالغ الأهمية. Aspose.Page for .NET هي مكتبة قوية توفر للمطورين الأدوات اللازمة للعمل بسلاسة مع مستندات PostScript (PS). سيرشدك هذا الدليل خطوة بخطوة خلال عملية إضافة صفحات إلى مستند PostScript باستخدام Aspose.Page في .NET.
@@ -113,3 +119,9 @@ A1: يركز Aspose.Page بشكل أساسي على معالجة مستندات 
 ### س5: أين يمكنني طلب الدعم المجتمعي أو طرح الأسئلة؟
 
  ج5: انضم إلى[Aspose.Page منتدى المجتمع](https://forum.aspose.com/c/page/39) للتواصل مع المطورين الآخرين ومشاركة الخبرات وطلب المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

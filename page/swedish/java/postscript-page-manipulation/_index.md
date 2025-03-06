@@ -3,10 +3,16 @@ title: Sidmanipulation - PostScript
 linktitle: Sidmanipulation - PostScript
 second_title: Aspose.Page Java API
 description: Utforska Aspose.Page för Java i våra PostScript-handledningar. Lägg enkelt till sidor i dina Java PostScript-dokument med steg-för-steg-vägledning för sömlös manipulation.
-type: docs
 weight: 32
 url: /sv/java/postscript-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sidmanipulation - PostScript
+
 
 ## Introduktion
 
@@ -34,3 +40,9 @@ Sammanfattningsvis ger Aspose.Page för Java utvecklare möjlighet att utnyttja 
 Utforska hur du lägger till sidor i Java PostScript utan ansträngning med Aspose.Page. Förbättra ditt dokumentskapande med detta kraftfulla Java-bibliotek.
 ### [Lägga till sidor i PostScript](./add-pages2/)
 Lär dig hur du lägger till sidor i Java PostScript-dokument med Aspose.Page. Följ vår steg-för-steg-guide för sömlös dokumenthantering.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

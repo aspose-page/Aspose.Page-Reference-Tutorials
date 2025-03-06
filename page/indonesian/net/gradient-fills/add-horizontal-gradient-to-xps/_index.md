@@ -3,10 +3,16 @@ title: Tambahkan Gradien Horizontal ke XPS dengan Aspose.Page untuk .NET
 linktitle: Tambahkan Gradien Horisontal ke XPS
 second_title: Aspose.Halaman .NET API
 description: Pelajari cara menambahkan gradien horizontal yang menakjubkan ke dokumen XPS Anda menggunakan Aspose.Page untuk .NET. Tingkatkan daya tarik visual dengan mudah.
-type: docs
 weight: 13
 url: /id/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gradien Horizontal ke XPS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Dalam tutorial ini, kita akan mempelajari cara menyempurnakan dokumen XPS dengan menambahkan gradien horizontal menggunakan Aspose.Page untuk .NET. Aspose.Page untuk .NET adalah perpustakaan canggih yang menyediakan penanganan dokumen XPS (Spesifikasi Kertas XML) dengan lancar dalam aplikasi .NET. Menambahkan gradien dapat memberikan daya tarik visual pada dokumen Anda, dan panduan ini akan memandu Anda melalui proses langkah demi langkah.
@@ -113,3 +119,9 @@ Menyempurnakan dokumen XPS Anda dengan gradien tidak hanya meningkatkan daya tar
 ### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page untuk .NET?
 
  A5: Anda dapat memperoleh lisensi sementara dari[Link ini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

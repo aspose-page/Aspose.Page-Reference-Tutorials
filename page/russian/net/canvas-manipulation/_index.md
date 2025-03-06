@@ -3,10 +3,16 @@ title: Манипуляции с холстом
 linktitle: Манипуляции с холстом
 second_title: Aspose.Page .NET API
 description: Изучите руководства Aspose.Page для .NET по манипулированию холстом. Обрезка и преобразование документов PS и XPS стало проще. Совершенствуйте свои навыки обработки документов.
-type: docs
 weight: 21
 url: /ru/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипуляции с холстом
+
 
 ## Введение
 
@@ -42,3 +48,9 @@ url: /ru/net/canvas-manipulation/
 Раскройте потенциал Aspose.Page для .NET с помощью этого подробного руководства по преобразованиям PostScript. Создавайте динамичную графику без особых усилий.
 ### [Преобразования XPS с помощью Aspose.Page для .NET](./transformationsxps/)
 Преобразуйте документы XPS без особых усилий с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству для плавных преобразований.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

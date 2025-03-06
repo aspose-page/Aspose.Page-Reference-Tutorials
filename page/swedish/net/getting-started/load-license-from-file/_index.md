@@ -3,10 +3,16 @@ title: Ladda licens från fil med Aspose.Page för .NET
 linktitle: Ladda licens från fil
 second_title: Aspose.Page .NET API
 description: Lås upp den fulla potentialen hos Aspose.Page för .NET genom att behärska konsten att ladda licenser från filer. Öka dina dokumentbearbetningsmöjligheter sömlöst.
-type: docs
 weight: 11
 url: /sv/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ladda licens från fil med Aspose.Page för .NET
+
 ## Introduktion
 
 Välkommen till världen av Aspose.Page för .NET! Om du vill förbättra dina dokumentbehandlingsmöjligheter med hjälp av .NET-ramverket är du på rätt plats. I den här handledningen guidar vi dig genom processen att ladda en licens från en fil med Aspose.Page för .NET. Detta avgörande steg säkerställer att du utnyttjar hela potentialen i detta kraftfulla bibliotek.
@@ -91,3 +97,9 @@ Grattis till att du har slutfört handledningen! Du har lärt dig hur du laddar 
 ### F5: Behöver du hjälp eller har frågor? 
 
  A5: Besök[Aspose.Page Forum](https://forum.aspose.com/c/page/39) för samhällsstöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

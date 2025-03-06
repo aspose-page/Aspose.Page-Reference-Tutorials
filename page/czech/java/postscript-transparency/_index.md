@@ -3,10 +3,16 @@ title: Průhlednost - PostScript
 linktitle: Průhlednost - PostScript
 second_title: Aspose.Page Java API
 description: Zvyšte úroveň Java PostScript pomocí Aspose.Page pro Java. Bezproblémově integrujte průhledné obrázky a vytvořte zářivou pseudoprůhlednost pro podmanivé vizualizace.
-type: docs
 weight: 39
 url: /cs/java/postscript-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Průhlednost - PostScript
+
 ## Úvod
 
 Jste připraveni pozvednout své dokumenty Java PostScript do nových výšin? Už nehledejte! V této sérii výukových programů se ponoříme do složitosti průhlednosti a zaměříme se na dva klíčové aspekty: přidávání průhledných obrázků a vytváření pseudoprůhlednosti.
@@ -36,3 +42,9 @@ Závěrem lze říci, že zvládnutí transparentnosti v Java PostScript nebylo 
 Prozkoumejte bezproblémovou integraci průhledných obrázků do dokumentů Java PostScript s Aspose.Page for Java. Zvyšte své vizualizace dokumentů bez námahy.
 ### [Zobrazit pseudotransparentnost v Java PostScript](./show-pseudo-transparency/)
 Odemkněte zářivou grafiku v Java PostScript! Postupujte podle našeho návodu Aspose.Page pro vytvoření pseudoprůhlednosti krok za krokem. Stáhnout teď!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

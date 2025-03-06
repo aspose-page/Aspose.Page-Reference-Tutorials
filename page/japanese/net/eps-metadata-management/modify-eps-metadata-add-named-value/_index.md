@@ -3,10 +3,16 @@ title: Aspose.Page を使用して名前付き値を追加する
 linktitle: 名前付き値の追加
 second_title: Aspose.Page .NET API
 description: Aspose.Page を使用して .NET で名前付きの値を EPS ファイルに追加する方法を学習します。この包括的なチュートリアルでは、プロセスをステップごとに説明します。
-type: docs
 weight: 12
 url: /ja/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して名前付き値を追加する
+
 ## 導入
 
 .NET によるドキュメント処理の分野では、Aspose.Page は EPS ファイルを処理するための強力なツールとして際立っています。 Aspose.Page を使用すると、開発者は XMP メタデータを操作できるようになり、名前付き値の追加などのタスクが容易になります。このチュートリアルでは、Aspose.Page を使用して名前付き値を EPS ファイルに追加するプロセスを段階的に説明します。
@@ -96,3 +102,9 @@ A1: Aspose.Page はさまざまな EPS ファイル バージョンをサポー�
 ### Q5: 仮免許とは何ですか?どうすれば取得できますか?
 
  A5: テストまたは評価目的で一時ライセンスが必要な場合は、取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

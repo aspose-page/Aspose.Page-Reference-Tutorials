@@ -3,10 +3,16 @@ title: Přidejte horizontální přechod v Java PostScript
 linktitle: Přidejte horizontální přechod v Java PostScript
 second_title: Aspose.Page Java API
 description: Naučte se, jak přidat vodorovný přechod v Java PostScript s Aspose.Page for Java. Vytvářejte vizuálně úžasné dokumenty bez námahy.
-type: docs
 weight: 11
 url: /cs/java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte horizontální přechod v Java PostScript
+
 ## Úvod
 Vítejte v tomto obsáhlém tutoriálu o přidání horizontálního přechodu do jazyka Java PostScript pomocí Aspose.Page for Java. Aspose.Page je výkonná Java knihovna, která umožňuje vývojářům pracovat s PostScriptem a dalšími formáty dokumentů. V tomto tutoriálu vás provedeme procesem vytváření PostScriptového dokumentu s horizontálním přechodem pomocí příkladů krok za krokem.
 ## Předpoklady
@@ -82,3 +88,9 @@ Ano, Aspose.Page for Java lze použít v komerčních projektech. Podrobnosti o 
  Dočasnou licenci můžete získat od[Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 ### Jaké jsou systémové požadavky pro Aspose.Page for Java?
  Odkazovat na[dokumentace](https://reference.aspose.com/page/java/) pro podrobné systémové požadavky.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

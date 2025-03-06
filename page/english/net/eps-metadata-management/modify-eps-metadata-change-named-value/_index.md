@@ -3,10 +3,16 @@ title: Change Named Value with Aspose.Page for .NET
 linktitle: Change Named Value
 second_title: Aspose.Page .NET API
 description: Learn how to change named values in EPS files using Aspose.Page for .NET. Customize XMP metadata effortlessly for tailored document processing.
-type: docs
 weight: 16
 url: /net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Change Named Value with Aspose.Page for .NET
+
 ## Introduction
 
 In the world of document processing, Aspose.Page for .NET stands out as a powerful tool for manipulating EPS files. One of the key functionalities it offers is the ability to change named values within XMP metadata. This tutorial will guide you through the process of changing a named value using Aspose.Page for .NET, empowering you to customize your EPS files according to your specific needs.
@@ -100,3 +106,10 @@ A4: You can get a temporary license [here](https://purchase.aspose.com/temporary
 ### Q5: What support options are available for Aspose.Page for .NET users?
 
 A5: Visit the community forum [here](https://forum.aspose.com/c/page/39) for support and discussions.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

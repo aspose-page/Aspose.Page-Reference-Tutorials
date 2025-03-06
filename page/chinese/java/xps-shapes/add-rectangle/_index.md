@@ -3,10 +3,16 @@ title: 在 Java XPS 中添加矩形
 linktitle: 在 Java XPS 中添加矩形
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page 在 Java XPS 中添加矩形。请按照我们的分步指南进行无缝文档操作。 #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /zh/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java XPS 中添加矩形
+
 ## 介绍
 欢迎阅读这份有关使用 Aspose.Page 在 Java XPS 中添加矩形的综合指南！无论您是经验丰富的开发人员还是刚刚开始使用 Java XPS，本教程都将通过分步说明引导您完成整个过程，确保您深入了解该主题。
 ## 先决条件
@@ -62,3 +68,9 @@ doc.save(dataDir + "AddRectangle_out.xps");
 探索[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)获取更多示例并寻求社区帮助。
 ### 我可以在购买前试用 Aspose.Page 吗？
 是的，您可以探索[免费试用](https://releases.aspose.com/)体验Aspose.Page的功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

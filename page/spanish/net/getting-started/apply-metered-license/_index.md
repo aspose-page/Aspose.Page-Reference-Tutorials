@@ -3,10 +3,16 @@ title: Aplicar licencia medida con Aspose.Page para .NET
 linktitle: Aplicar licencia medida
 second_title: Aspose.Página .NET API
 description: Explore la perfecta integración de Aspose.Page para .NET con esta guía paso a paso sobre cómo aplicar una licencia medida. Optimice el procesamiento de documentos sin esfuerzo.
-type: docs
 weight: 10
 url: /es/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar licencia medida con Aspose.Page para .NET
+
 ## Introducción
 
 Libere todo el potencial de Aspose.Page para .NET aplicando una licencia medida. Este tutorial lo guiará a través del proceso de configuración y aplicación de la licencia medida, garantizando un uso fluido y optimizado de esta potente biblioteca .NET.
@@ -112,3 +118,9 @@ Esta guía paso a paso le ha proporcionado los conocimientos necesarios para apl
 ### P5: ¿Cómo puedo obtener una licencia temporal de Aspose.Page para .NET?
 
  A5: Visita[licencia temporal/](https://purchase.aspose.com/temporary-license/) para obtener una licencia temporal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

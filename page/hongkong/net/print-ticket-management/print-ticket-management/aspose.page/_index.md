@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 編輯現有的列印票證
 linktitle: 編輯現有的列印票證
 second_title: Aspose.Page .NET API
 description: 了解使用 Aspose.Page for .NET 在 XPS 文件中編輯列印票據。開發人員的分步指南。輕鬆增強文件列印控制。
-type: docs
 weight: 11
 url: /zh-hant/net/print-ticket-management/print-ticket-management/aspose.page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 編輯現有的列印票證
+
 ## 介紹
 
 歡迎閱讀這份關於使用 Aspose.Page for .NET 編輯現有列印票證的綜合指南！ Aspose.Page 是一個功能強大的程式庫，可讓開發人員輕鬆處理 XPS 文件。在本教程中，我們將透過實際範例引導您完成編輯列印票證的過程，分解每個步驟以獲得無縫的學習體驗。
@@ -117,3 +123,9 @@ A2：是的，Aspose.Page for .NET 與 .NET Core 相容，為您的開發環境�
 ### Q5：如何取得 Aspose.Page for .NET 的臨時授權？
 
 A5：參觀[這個連結](https://purchase.aspose.com/temporary-license/)獲得臨時許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

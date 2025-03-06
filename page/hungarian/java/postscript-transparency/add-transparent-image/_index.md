@@ -3,10 +3,16 @@ title: Adjon hozzá átlátszó képet a Java PostScript-ben
 linktitle: Adjon hozzá átlátszó képet a Java PostScript-ben
 second_title: Aspose.Page Java API
 description: Fedezze fel az átlátszó képek zökkenőmentes integrációját a Java PostScript dokumentumokba az Aspose.Page for Java segítségével. Emelje fel a dokumentum vizualizációját könnyedén.
-type: docs
 weight: 10
 url: /hu/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá átlátszó képet a Java PostScript-ben
+
 ## Bevezetés
 A Java PostScript világában a dokumentumok vizuális vonzerejének növelése gyakran átlátszó képek hozzáadásával jár. Ez az oktatóanyag végigvezeti Önt az átlátszó képek Java PostScript dokumentumokba való beillesztésének folyamatán a hatékony Aspose.Page for Java könyvtár használatával.
 ## Előfeltételek
@@ -83,3 +89,9 @@ Igen, az Aspose.Page for Java zökkenőmentesen integrálható más Java könyvt
  Igen, látogassa meg a[Aspose.Page a Java fórumhoz](https://forum.aspose.com/c/page/39) közösségi támogatásra és beszélgetésekre.
 ### Hol találom az Aspose.Page for Java dokumentációját?
  Lásd az átfogó[dokumentáció](https://reference.aspose.com/page/java/) részletes információkért az Aspose.Page for Java webhelyen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Χειρισμός μεταδεδομένων XMP - Java
 linktitle: Χειρισμός μεταδεδομένων XMP - Java
 second_title: Aspose.Page Java API
 description: Βελτιώστε τα αρχεία EPS χωρίς κόπο με χειρισμό μεταδεδομένων XMP—από την προσθήκη στοιχείων έως την εξαγωγή. Βελτιώστε τη διαχείριση των εγγράφων σας με τους οδηγούς μας.
-type: docs
 weight: 42
 url: /el/java/xmp-metadata-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός μεταδεδομένων XMP - Java
+
 
 ## Εισαγωγή
 
@@ -66,3 +72,9 @@ url: /el/java/xmp-metadata-manipulation/
 Βελτιώστε τα έγγραφα EPS με το Aspose.Page για Java. Τροποποιήστε αβίαστα τα μεταδεδομένα XMP για προσαρμοσμένο και επαγγελματικό περιεχόμενο.
 ### [Λάβετε Μεταδεδομένα από XMP χρησιμοποιώντας Java](./get-metadata/)
 Ξεκλειδώστε τη δύναμη του Aspose.Page για Java για την εύκολη εξαγωγή μεταδεδομένων XMP. Βελτιώστε την ανάλυση εγγράφων με τον βήμα προς βήμα οδηγό μας!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

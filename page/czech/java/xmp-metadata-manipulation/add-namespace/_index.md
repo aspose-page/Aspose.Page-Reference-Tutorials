@@ -3,10 +3,16 @@ title: Přidejte jmenný prostor v XMP pomocí Javy
 linktitle: Přidejte jmenný prostor v XMP pomocí Javy
 second_title: Aspose.Page Java API
 description: Odemkněte sílu manipulace s dokumenty pomocí Aspose.Page for Java. Naučte se snadno přidávat jmenné prostory XMP v tomto komplexním průvodci.
-type: docs
 weight: 13
 url: /cs/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte jmenný prostor v XMP pomocí Javy
+
 
 ## Úvod
 
@@ -108,3 +114,9 @@ Aspose.Page primárně podporuje Javu, ale jsou k dispozici verze pro jiné jazy
 
 ### Existují pro Aspose.Page komunitní fóra?
  Ano, můžete se zapojit do komunity na[Fórum Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

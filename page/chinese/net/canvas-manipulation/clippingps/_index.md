@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 剪切 PS
 linktitle: 剪裁PS
 second_title: Aspose.Page .NET API
 description: 在这个有关剪切 PostScript 文档的分步教程中探索 Aspose.Page for .NET 的强大功能。学习轻松增强您的文档处理能力。
-type: docs
 weight: 10
 url: /zh/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 剪切 PS
+
 ## 介绍
 
 欢迎来到有关利用 Aspose.Page for .NET 在 PostScript (PS) 文档中实现剪辑的综合教程。本教程将指导您完成使用 Aspose.Page 剪切 PS 文档的过程，Aspose.Page 是一个功能强大的库，用于在 .NET 应用程序中处理各种文档格式。
@@ -147,3 +153,9 @@ A1：Aspose.Page 主要是为.NET 应用程序设计的。然而，Aspose 为其
 ### Q5：我可以在哪里获得支持或讨论与 Aspose.Page 相关的查询？
 
  A5：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)以获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

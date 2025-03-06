@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile XPS Belgesine Sayfa Ekleme
 linktitle: XPS Belgesine Sayfa Ekle
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET ile XPS belgelerine nasıl sayfa ekleyeceğinizi öğrenerek .NET uygulamalarınızı geliştirin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile XPS Belgesine Sayfa Ekleme
+
 ## giriiş
 
 .NET'te XPS belgeleriyle çalışıyorsanız ve sayfaları programlı olarak eklemeniz gerekiyorsa Aspose.Page for .NET, başvuracağınız çözümdür. Bu eğitimde, bir XPS belgesine sayfa ekleme sürecinde size adım adım rehberlik edeceğiz. Uzman bir SEO yazarı olarak, bu kılavuzun yalnızca bilgilendirici olmasını değil, aynı zamanda arama motoru optimizasyonu göz önünde bulundurularak hazırlanmasını ve geliştiriciler ve içerik oluşturucular için değerli bir kaynak olmasını sağlayacağım.
@@ -86,3 +92,10 @@ Cevap4: Evet, Aspose.Page for .NET'in ücretsiz deneme sürümüne erişebilirsi
 ### S5: Aspose.Page for .NET için nasıl geçici lisans alabilirim?
 
  A5: ziyaret edin[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/) Test amacıyla geçici bir lisans almak için.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

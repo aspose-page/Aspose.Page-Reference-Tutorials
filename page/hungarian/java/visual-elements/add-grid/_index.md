@@ -3,10 +3,16 @@ title: Rács hozzáadása a Java Visual Brush segítségével
 linktitle: Rács hozzáadása a Java Visual Brush segítségével
 second_title: Aspose.Page Java API
 description: Javítsa a Java-dokumentum vizualizációját az Aspose.Page segítségével! Ismerje meg lépésről lépésre rácsok hozzáadását a Visual Brush segítségével. Növelje jelentkezése vonzerejét könnyedén.
-type: docs
 weight: 10
 url: /hu/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rács hozzáadása a Java Visual Brush segítségével
+
 ## Bevezetés
 Az Aspose.Page segítségével tetszetős rácsokkal szeretné javítani Java-alkalmazásait? Ebben az oktatóanyagban végigvezetjük Önt a rács hozzáadásának folyamatán a Visual Brush segítségével Javaban az Aspose.Page programmal. A Visual Brush segítségével vizuális tartalommal festhet be egy területet, így lenyűgöző rácshatásokat hozhat létre a dokumentumokban.
 ## Előfeltételek
@@ -84,3 +90,9 @@ Teljesen! A Visual Brush segítségével különféle színekkel festhet, rugalm
  Igen, hozzáférhet a[ingyenes próbaverzió](https://releases.aspose.com/) hogy felfedezze az Aspose.Page jellemzőit.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Page számára?
  Megszerezni a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

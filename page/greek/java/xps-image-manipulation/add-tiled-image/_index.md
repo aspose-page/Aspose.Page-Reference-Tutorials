@@ -3,10 +3,16 @@ title: Προσθήκη εικόνας με πλακάκια σε Java XPS
 linktitle: Προσθήκη εικόνας με πλακάκια σε Java XPS
 second_title: Aspose.Page Java API
 description: Εξερευνήστε την απρόσκοπτη επεξεργασία εγγράφων Java XPS με το Aspose.Page. Μάθετε να προσθέτετε εικόνες με πλακάκια χωρίς κόπο χρησιμοποιώντας αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 11
 url: /el/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη εικόνας με πλακάκια σε Java XPS
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο της ανάπτυξης Java, η ανάγκη για αποτελεσματική διαχείριση και δημιουργία εγγράφων αυξάνεται συνεχώς. Το Aspose.Page για Java αναδεικνύεται ως ένα ισχυρό εργαλείο, παρέχοντας στους προγραμματιστές τη δυνατότητα να εργάζονται απρόσκοπτα με έγγραφα XPS. Αυτό το σεμινάριο εστιάζει σε μια συγκεκριμένη εργασία – την προσθήκη μιας εικόνας με πλακάκια σε ένα έγγραφο Java XPS.
 ## Προαπαιτούμενα
@@ -68,3 +74,9 @@ doc.save(dataDir + "AddTiledImage_out.xps");
  Αλληλεπιδράστε με την κοινότητα Aspose.Page στο[δικαστήριο](https://forum.aspose.com/c/page/39).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Page;
  Αποκτήστε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

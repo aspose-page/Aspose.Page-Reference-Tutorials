@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 XPS 문서에 투명 개체 추가
 linktitle: XPS 문서에 투명 개체 추가
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page를 사용하여 .NET의 XPS 문서에 투명 개체를 추가하는 방법을 알아보세요. 단계별 안내를 통해 시각적 매력을 강화하세요.
-type: docs
 weight: 11
 url: /ko/net/transparency-effects/add-transparent-object-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 XPS 문서에 투명 개체 추가
+
 ## 소개
 
 이 튜토리얼에서는 Aspose.Page for .NET을 사용하여 XPS 문서에 투명 개체를 추가하는 방법을 살펴보겠습니다. XPS 문서의 투명성은 시각적 매력을 향상시키고 정보를 효과적으로 전달할 수 있습니다. 프로세스를 관리 가능한 단계로 나누어 명확성과 이해의 용이성을 보장합니다.
@@ -132,3 +138,9 @@ A4: Aspose.Page는 XPS 문서를 PDF 및 이미지를 포함한 다양한 형식
 ### Q5: 추가 지원 및 커뮤니티 토론은 어디에서 찾을 수 있습니까?
 
  A5: 추가 지원 및 커뮤니티 토론을 보려면 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

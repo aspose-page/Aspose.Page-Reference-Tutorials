@@ -3,10 +3,16 @@ title: Ορισμός άδειας χρήσης με χρήση ενσωματω
 linktitle: Ορισμός άδειας χρήσης με χρήση ενσωματωμένου πόρου
 second_title: Aspose.Page .NET API
 description: Μάθετε πώς να ορίζετε μια άδεια χρήσης χρησιμοποιώντας ενσωματωμένους πόρους με το Aspose.Page για .NET. Διασφαλίστε τη συμμόρφωση και ξεκλειδώστε το πλήρες δυναμικό της επεξεργασίας εγγράφων.
-type: docs
 weight: 14
 url: /el/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός άδειας χρήσης με χρήση ενσωματωμένου πόρου με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Το Aspose.Page για .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με διάφορες μορφές εγγράφων απρόσκοπτα. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ρύθμισης μιας άδειας χρήσης χρησιμοποιώντας έναν ενσωματωμένο πόρο με το Aspose.Page για .NET. Η αδειοδότηση είναι ένα κρίσιμο βήμα για την πλήρη αξιοποίηση των λειτουργιών του Aspose.Page, διασφαλίζοντας τη συμμόρφωση και ξεκλειδώνοντας τις δυνατότητες της βιβλιοθήκης.
@@ -110,3 +116,9 @@ A1: Ενώ μπορείτε να χρησιμοποιήσετε το Aspose.Page
 ### Ε5: Πού μπορώ να αγοράσω το Aspose.Page για .NET;
 
  A5: Μπορείτε να αγοράσετε το Aspose.Page[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 페이지 조작
 linktitle: 페이지 조작
 second_title: Aspose.페이지 .NET API
 description: PostScript 및 XPS 문서를 조작할 때 Aspose.Page for .NET의 강력한 기능을 알아보세요. 포괄적인 튜토리얼을 통해 페이지를 추가, 개선 및 제거하는 방법을 알아보세요.
-type: docs
 weight: 29
 url: /ko/net/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 페이지 조작
+
 
 ## 소개
 
@@ -35,3 +41,9 @@ Aspose.Page for .NET은 .NET 프로젝트에서 PostScript 문서를 손쉽게 �
 .NET용 Aspose.Page를 사용하여 XPS 문서에 페이지를 추가하는 방법을 학습하여 .NET 애플리케이션을 향상하세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
 ### [.NET용 Aspose.Page를 사용하여 XPS 문서에서 페이지 제거](./remove-page-from-xps-document/)
 .NET용 Aspose.Page를 사용하여 XPS 문서에서 페이지를 제거하는 방법에 대한 포괄적인 튜토리얼을 살펴보세요. 원활한 문서 조작을 위한 단계별 프로세스, 전제 조건 및 FAQ를 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

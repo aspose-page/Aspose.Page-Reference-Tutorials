@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 建立自訂列印票證
 linktitle: 建立自訂列印票據
 second_title: Aspose.Page .NET API
 description: 探索使用 Aspose.Page for .NET 建立自訂列印票證的逐步指南。透過精細控制客製化您的列印體驗。
-type: docs
 weight: 10
 url: /zh-hant/net/print-ticket-management/create-custom-print-ticket/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 建立自訂列印票證
+
 ## 介紹
 
 在.NET 開發領域，Aspose.Page 作為處理 XPS 文件操作的強大工具脫穎而出。其顯著的功能之一是能夠創建自訂列印票據，為開發人員提供對列印過程的廣泛控制。在本教學中，我們將深入研究使用 Aspose.Page for .NET 建立自訂列印票證的步驟。
@@ -96,3 +102,9 @@ A4：Aspose.Page 支援多種媒體類型，包括普通紙張和其他可以根
 ### Q5：Aspose.Page for .NET 有可用的範例項目嗎？
 
  A5：探索[文件](https://reference.aspose.com/page/net/)取得範例專案和程式碼片段來啟動您的開發。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

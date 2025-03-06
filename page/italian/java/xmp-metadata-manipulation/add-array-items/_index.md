@@ -3,10 +3,16 @@ title: Aggiungi elementi dell'array nei metadati XMP utilizzando Java
 linktitle: Aggiungi elementi dell'array nei metadati XMP utilizzando Java
 second_title: API Java Aspose.Page
 description: Migliora i file EPS con Aspose.Page per Java. Impara ad aggiungere elementi dell'array ai metadati XMP senza sforzo. Segui subito la nostra guida passo passo!
-type: docs
 weight: 10
 url: /it/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi elementi dell'array nei metadati XMP utilizzando Java
+
 ## introduzione
 Benvenuti nella nostra guida passo passo sull'utilizzo di Aspose.Page per Java per aggiungere elementi dell'array nei metadati XMP. Aspose.Page è una potente libreria Java che ti consente di manipolare e lavorare con vari formati di documenti, inclusi i file EPS. In questo tutorial ci concentreremo sull'attività specifica di aggiunta di elementi dell'array nei metadati XMP utilizzando Java.
 ## Prerequisiti
@@ -78,3 +84,9 @@ Sì, Aspose.Page supporta vari formati di documenti, inclusi EPS, PDF e XPS.
  Puoi acquistare il prodotto[Qui](https://purchase.aspose.com/buy).
 ### Sono disponibili licenze temporanee per Aspose.Page per Java?
  Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

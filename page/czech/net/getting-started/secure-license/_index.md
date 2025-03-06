@@ -3,10 +3,16 @@ title: Zabezpečená licence s Aspose.Page pro .NET
 linktitle: Zabezpečená licence
 second_title: Aspose.Page .NET API
 description: Zabezpečte svou licenci Aspose.Page for .NET bez námahy pomocí našeho podrobného průvodce. Odemkněte plný potenciál bezproblémové manipulace se stránkami ve vašich aplikacích .NET.
-type: docs
 weight: 13
 url: /cs/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zabezpečená licence s Aspose.Page pro .NET
+
 ## Úvod
 
 Odemknutí plného potenciálu Aspose.Page for .NET zahrnuje zabezpečení vaší licence, abyste zajistili bezproblémovou integraci a optimální výkon. V tomto podrobném průvodci vás provedeme procesem zabezpečení vaší licence pomocí Aspose.Page, mocného nástroje pro manipulaci se stránkami v aplikacích .NET.
@@ -90,3 +96,9 @@ Odpověď 4: Ano, dočasná licence je platná po omezenou dobu a často se pou�
 ### Q5: Mohu převést svou licenci na jiný počítač?
 
 A5: Ano, svou licenci můžete podle potřeby přenést na jiný počítač.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

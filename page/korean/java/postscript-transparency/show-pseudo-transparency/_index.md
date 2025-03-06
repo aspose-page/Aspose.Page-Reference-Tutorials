@@ -3,10 +3,16 @@ title: Aspose.Page를 사용한 Java PostScript 의사 투명성
 linktitle: Java PostScript에서 의사 투명성 표시
 second_title: Aspose.페이지 자바 API
 description: Java PostScript의 생생한 그래픽을 잠금해제하세요! 단계별 의사 투명성 생성에 대한 Aspose.Page 튜토리얼을 따르십시오. 지금 다운로드하세요!
-type: docs
 weight: 11
 url: /ko/java/postscript-transparency/show-pseudo-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용한 Java PostScript 의사 투명성
+
 ## 소개
 Java PostScript의 의사 투명성을 보여주기 위해 Aspose.Page for Java를 활용하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 프로세스를 단계별로 분석하여 각 개념을 철저하게 파악하도록 하겠습니다. 의사 투명성은 그래픽에 투명도라는 환상을 만드는 것과 관련이 있으며 Aspose.Page는 강력한 기능으로 이 작업을 단순화합니다.
 ## 전제 조건
@@ -90,3 +96,9 @@ document.save();
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### 도움이 필요하거나 Aspose.Page에 대해 논의하고 싶으십니까?
  방문하다[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

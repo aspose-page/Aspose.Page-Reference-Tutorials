@@ -3,10 +3,16 @@ title: Aggiungi gradiente orizzontale in Java XPS
 linktitle: Aggiungi gradiente orizzontale in Java XPS
 second_title: API Java Aspose.Page
 description: Scopri come aggiungere uno straordinario gradiente orizzontale ai documenti XPS in Java utilizzando Aspose.Page. Segui la nostra guida passo passo per un'integrazione perfetta.
-type: docs
 weight: 11
 url: /it/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi gradiente orizzontale in Java XPS
+
 ## introduzione
 Benvenuti in questa guida passo passo sull'aggiunta di un gradiente orizzontale in Java XPS utilizzando Aspose.Page per Java. Aspose.Page per Java è una potente libreria che consente agli sviluppatori di lavorare con documenti XPS (XML Paper Specifica) senza problemi.
 In questo tutorial ti guideremo attraverso il processo di creazione di un'applicazione Java per aggiungere un gradiente orizzontale a un documento XPS. Segui i passaggi seguenti per raggiungere questo obiettivo con facilità.
@@ -70,3 +76,9 @@ Sì, oltre ai gradienti lineari, Aspose.Page supporta i gradienti radiali per ef
 Assolutamente! Hai il pieno controllo sui colori e sulle posizioni di ogni interruzione del gradiente.
 ### D: Esiste un forum della community per Aspose.Page dove posso cercare aiuto?
  Sì, puoi visitare il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) per connettersi con la comunità e ottenere assistenza.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

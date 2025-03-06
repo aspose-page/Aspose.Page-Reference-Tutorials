@@ -3,10 +3,16 @@ title: Java XPSで四角形を追加する
 linktitle: Java XPSで四角形を追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して Java XPS に四角形を追加する方法を学びます。シームレスなドキュメント操作については、ステップバイステップのガイドに従ってください。 #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /ja/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPSで四角形を追加する
+
 ## 導入
 Aspose.Page を使用して Java XPS に四角形を追加するためのこの包括的なガイドへようこそ。経験豊富な開発者でも、Java XPS を始めたばかりでも、このチュートリアルでは段階的な手順でプロセスを説明し、トピックを深く理解できるようにします。
 ## 前提条件
@@ -62,3 +68,9 @@ doc.save(dataDir + "AddRectangle_out.xps");
 を探索してください[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)さらに多くの例を確認し、コミュニティからの支援を求めてください。
 ### 購入する前に Aspose.Page を試してみることはできますか?
 はい、探索できます[無料トライアル](https://releases.aspose.com/)Aspose.Page の機能を体験してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

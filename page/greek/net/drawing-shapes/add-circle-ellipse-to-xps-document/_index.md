@@ -3,10 +3,16 @@ title: Προσθήκη Circle Ellipse στο έγγραφο XPS με το Aspos
 linktitle: Προσθήκη Circle Ellipse στο έγγραφο XPS
 second_title: Aspose.Page .NET API
 description: Βελτιώστε τα έγγραφα XPS με ζωντανές ακτινικές διαβαθμίσεις χρησιμοποιώντας το Aspose.Page για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για εντυπωσιακά οπτικά εφέ.
-type: docs
 weight: 11
 url: /el/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη Circle Ellipse στο έγγραφο XPS με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Η δημιουργία οπτικά ελκυστικών εγγράφων XPS είναι μια κοινή απαίτηση σε διάφορες εφαρμογές. Το Aspose.Page για .NET παρέχει ένα ισχυρό σύνολο δυνατοτήτων για τον αποτελεσματικό χειρισμό εγγράφων XPS. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στην προσθήκη μιας έλλειψης κύκλου σε ένα έγγραφο XPS χρησιμοποιώντας το Aspose.Page για .NET. Ακολουθήστε τα παρακάτω βήματα για να βελτιώσετε τα έγγραφά σας XPS με ζωντανές ακτινικές διαβαθμίσεις.
@@ -114,3 +120,9 @@ A1: Το Aspose.Page για .NET ασχολείται συγκεκριμένα �
 ### Ε5: Μπορώ να αγοράσω το Aspose.Page για .NET;
 
  A5: Ναι, μπορείτε να αγοράσετε τη βιβλιοθήκη[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

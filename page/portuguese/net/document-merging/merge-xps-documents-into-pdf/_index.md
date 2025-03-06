@@ -3,10 +3,16 @@ title: Mesclar documentos XPS em PDF com Aspose.Page para .NET
 linktitle: Mesclar documentos XPS em PDF
 second_title: API Aspose.Page .NET
 description: Mescle facilmente documentos XPS em PDFs de alta qualidade usando Aspose.Page for .NET. Siga nosso guia passo a passo para uma experiência de conversão de documentos tranquila.
-type: docs
 weight: 11
 url: /pt/net/document-merging/merge-xps-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mesclar documentos XPS em PDF com Aspose.Page para .NET
+
 ## Introdução
 
 No cenário em constante evolução do processamento de documentos, o Aspose.Page for .NET surge como uma ferramenta poderosa para mesclar perfeitamente documentos XPS em formato PDF. Este tutorial irá guiá-lo através do processo, detalhando cada etapa para garantir uma execução tranquila e eficaz.
@@ -123,3 +129,9 @@ A4: Sim, Aspose.Page for .NET oferece amplos recursos para manipulação de PDF.
 ### P5: O Aspose.Page for .NET oferece suporte ao desenvolvimento de plataforma cruzada?
 
 A5: Sim, o Aspose.Page for .NET foi projetado para funcionar perfeitamente em várias plataformas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

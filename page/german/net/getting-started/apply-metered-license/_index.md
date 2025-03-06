@@ -3,10 +3,16 @@ title: Wenden Sie eine gemessene Lizenz mit Aspose.Page für .NET an
 linktitle: Wenden Sie eine Metered-Lizenz an
 second_title: Aspose.Page .NET-API
 description: Entdecken Sie die nahtlose Integration von Aspose.Page für .NET mit dieser Schritt-für-Schritt-Anleitung zum Anwenden einer getakteten Lizenz. Optimieren Sie die Dokumentenverarbeitung mühelos.
-type: docs
 weight: 10
 url: /de/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wenden Sie eine gemessene Lizenz mit Aspose.Page für .NET an
+
 ## Einführung
 
 Schöpfen Sie das volle Potenzial von Aspose.Page für .NET aus, indem Sie eine getaktete Lizenz anwenden. Dieses Tutorial führt Sie durch den Prozess der Einrichtung und Anwendung der gemessenen Lizenz und sorgt so für eine reibungslose und optimierte Nutzung dieser leistungsstarken .NET-Bibliothek.
@@ -112,3 +118,9 @@ Diese Schritt-für-Schritt-Anleitung vermittelt Ihnen das Wissen, mit dem Sie As
 ### F5: Wie kann ich eine temporäre Lizenz für Aspose.Page für .NET erhalten?
 
  A5: Besuchen[temporäre Lizenz/](https://purchase.aspose.com/temporary-license/) eine befristete Lizenz zu erhalten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

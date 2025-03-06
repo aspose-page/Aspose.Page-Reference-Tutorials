@@ -3,10 +3,16 @@ title: Gradient Addition - PostScript
 linktitle: Gradient Addition - PostScript
 second_title: Aspose.Page Java API
 description: Vylepšete své dokumenty Java PostScript pomocí výukových programů Aspose.Page for Java. Naučte se bez námahy přidávat úžasné diagonální, horizontální, radiální a vertikální přechody.
-type: docs
 weight: 25
 url: /cs/java/postscript-gradient-addition/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gradient Addition - PostScript
+
 ## Úvod
 
 Pokud chcete vylepšit své dokumenty Java PostScript živými barevnými přechody, Aspose.Page for Java je vaším řešením. Tato série výukových programů se ponoří do umění přidávání přechodů a zahrnuje vše od diagonálních přechodů po radiální přechody. Vydejme se na cestu za zvládnutím umění vizuálně úchvatných dokumentů.
@@ -44,3 +50,9 @@ Naučte se přidávat úžasné radiální přechody v Java PostScript pomocí A
 Prozkoumejte podrobného průvodce přidáním radiálního přechodu do jazyka Java PostScript pomocí Aspose.Page pro úžasnou grafiku ve vašich aplikacích Java.
 ### [Přidejte vertikální přechod v Java PostScript](./vertical/)
 Prozkoumejte podrobného průvodce přidáváním vertikálních přechodů v Java PostScript pomocí Aspose.Page for Java. Vylepšete své dokumenty bez námahy pomocí živých vizuálů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

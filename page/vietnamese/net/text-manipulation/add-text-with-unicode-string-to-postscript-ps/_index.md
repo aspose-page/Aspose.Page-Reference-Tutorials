@@ -3,10 +3,16 @@ title: Thêm văn bản có chuỗi Unicode vào PostScript (PS) bằng Aspose.P
 linktitle: Thêm văn bản có chuỗi Unicode vào PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách thêm văn bản Unicode vào tệp PostScript bằng Aspose.Page cho .NET. Tăng cường thao tác tài liệu một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm văn bản có chuỗi Unicode vào PostScript (PS) bằng Aspose.Page
+
 ## Giới thiệu
 
 Trong lĩnh vực thao tác tài liệu, Aspose.Page for .NET nổi bật như một thư viện mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và chuyển đổi các định dạng tài liệu khác nhau. Một trong những tính năng mạnh mẽ của nó là khả năng thêm văn bản bằng chuỗi Unicode vào tệp PostScript (PS). Trong hướng dẫn này, chúng ta sẽ khám phá hướng dẫn từng bước để hoàn thành nhiệm vụ này, mang lại trải nghiệm liền mạch cho các nhà phát triển làm việc với Aspose.Page.
@@ -110,3 +116,9 @@ Câu trả lời 4: Aspose.Page hỗ trợ nhiều định dạng khác nhau, ba
 ### Câu hỏi 5: Tôi có thể tùy chỉnh hình thức của văn bản được thêm vào không?
 
 Câu trả lời 5: Có, bạn có thể tùy chỉnh phông chữ, kích thước, màu sắc và các thuộc tính khác của văn bản trong Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

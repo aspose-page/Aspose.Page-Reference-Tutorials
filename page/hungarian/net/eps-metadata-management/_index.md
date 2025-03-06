@@ -3,10 +3,16 @@ title: EPS metaadatkezelés
 linktitle: EPS metaadatkezelés
 second_title: Aspose.Page .NET API
 description: Növelje az EPS szervezetét az Aspose.Page segítségével .NET-hez. Metaadatok hozzáadása könnyedén a jobb hozzáférhetőség érdekében. Fedezze fel az EPS metaadatkezelési oktatóanyagait.
-type: docs
 weight: 36
 url: /hu/net/eps-metadata-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPS metaadatkezelés
+
 
 ## Bevezetés
 
@@ -59,3 +65,9 @@ Ismerje meg, hogyan módosíthatja az elnevezett értékeket az EPS-fájlokban a
 Master EPS-fájlkezelés az Aspose.Page for .NET segítségével. Az XMP-metaadat-értékek könnyed megváltoztatása.
 ### [Metaadatok kibontása az EPS-dokumentumból az Aspose.Page segítségével .NET-hez](./extract-metadata-from-eps-document/)
 Fokozza az EPS-dokumentumszervezést az Aspose.Page for .NET segítségével. A metaadatok könnyed hozzáadása a jobb hozzáférhetőség és információ-visszakeresés érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تكامل الترخيص المقنن بسهولة مع Aspose.Page Java
 linktitle: قم بتعيين الترخيص المقنن في Java
 second_title: Aspose.Page جافا API
 description: اكتشف التكامل السلس لـ Aspose.Page مع Java. قم بإعداد التراخيص المقننة دون عناء وعزز قدرات معالجة المستندات لديك.
-type: docs
 weight: 10
 url: /ar/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تكامل الترخيص المقنن بسهولة مع Aspose.Page Java
+
 ## مقدمة
 مرحبًا بك في دليلنا الشامل حول إعداد ترخيص مقنن في Java باستخدام Aspose.Page. إذا كنت تتطلع إلى تحسين قدرات معالجة المستندات لديك وضمان التكامل السلس مع Aspose.Page، فأنت في المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال العملية، وسنقسم كل خطوة إلى أجزاء سهلة الهضم.
 ## المتطلبات الأساسية
@@ -100,3 +106,9 @@ try {
  الرجوع إلى الوثائق[هنا](https://reference.aspose.com/page/java/).
 ### س: كيف يمكنني الحصول على تراخيص مؤقتة؟
  يمكن الحصول على تراخيص مؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

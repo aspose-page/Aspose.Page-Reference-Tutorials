@@ -3,10 +3,16 @@ title: Erstellen Sie ein benutzerdefiniertes Druckticket mit Aspose.Page für .N
 linktitle: Erstellen Sie ein benutzerdefiniertes Druckticket
 second_title: Aspose.Page .NET-API
 description: Entdecken Sie die Schritt-für-Schritt-Anleitung zum Erstellen benutzerdefinierter Drucktickets mit Aspose.Page für .NET. Passen Sie Ihr Druckerlebnis mit einer fein abgestuften Steuerung an.
-type: docs
 weight: 10
 url: /de/net/print-ticket-management/create-custom-print-ticket/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie ein benutzerdefiniertes Druckticket mit Aspose.Page für .NET
+
 ## Einführung
 
 Im Bereich der .NET-Entwicklung sticht Aspose.Page als leistungsstarkes Tool für die Manipulation von XPS-Dokumenten hervor. Eine seiner bemerkenswerten Funktionen ist die Möglichkeit, benutzerdefinierte Drucktickets zu erstellen, die Entwicklern umfassende Kontrolle über den Druckprozess bietet. In diesem Tutorial befassen wir uns mit den Schritten zum Erstellen eines benutzerdefinierten Drucktickets mit Aspose.Page für .NET.
@@ -96,3 +102,9 @@ A4: Aspose.Page unterstützt eine Reihe von Medientypen, darunter Normalpapier u
 ### F5: Gibt es Beispielprojekte für Aspose.Page für .NET?
 
  A5: Entdecken Sie die[Dokumentation](https://reference.aspose.com/page/net/) für Beispielprojekte und Codeausschnitte, um Ihre Entwicklung anzukurbeln.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

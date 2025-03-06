@@ -3,10 +3,16 @@ title: Προσθήκη εικόνας με πλακίδια στο έγγραφ
 linktitle: Προσθήκη εικόνας με πλακάκια στο έγγραφο XPS
 second_title: Aspose.Page .NET API
 description: Εξερευνήστε την προσθήκη εικόνων με πλακάκια σε έγγραφα XPS χωρίς κόπο με το Aspose.Page για .NET. Βελτιώστε την οπτική εμφάνιση και δημιουργήστε εντυπωσιακά έγγραφα.
-type: docs
 weight: 12
 url: /el/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη εικόνας με πλακίδια στο έγγραφο XPS με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Θέλετε να βελτιώσετε τα έγγραφά σας XPS προσθέτοντας οπτικά ελκυστικές εικόνες με πλακάκια; Το Aspose.Page για .NET δίνει τη δυνατότητα στους προγραμματιστές να το επιτύχουν απρόσκοπτα. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης εικόνας με πλακάκια σε ένα έγγραφο XPS χρησιμοποιώντας το Aspose.Page για .NET.
@@ -95,3 +101,9 @@ A2: Σίγουρα, όπως φαίνεται στο παράδειγμα, μπ�
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια ή να συνδεθώ με την κοινότητα Aspose.Page;
 
  A5: Επισκεφθείτε το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39) να συνεργαστείτε με την κοινότητα, να κάνετε ερωτήσεις και να βρείτε λύσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

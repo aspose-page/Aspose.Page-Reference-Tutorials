@@ -3,10 +3,16 @@ title: Disegnare Forme
 linktitle: Disegnare Forme
 second_title: API Aspose.Page .NET
 description: Migliora facilmente la creazione di documenti in .NET! Impara tutorial passo-passo sull'aggiunta di cerchi, ellissi e rettangoli a PostScript (PS) utilizzando Aspose.Page .NET.
-type: docs
 weight: 31
 url: /it/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Disegnare Forme
+
 ## Introduzione
 
 Aspose.Page per .NET consente agli sviluppatori di elevare la creazione di documenti nell'ambiente .NET. Tuffati nei nostri tutorial passo-passo per padroneggiare l'arte di aggiungere forme accattivanti ai documenti PostScript (PS) e XPS.
@@ -33,3 +39,9 @@ Migliora i documenti XPS con vivaci gradienti radiali utilizzando Aspose.Page pe
 Migliora la creazione di documenti in .NET con Aspose.Page. Impara passo dopo passo come aggiungere rettangoli ai file PostScript (PS).
 ### [Aggiungi rettangolo al documento XPS con Aspose.Page per .NET](./add-rectangle-to-xps-document/)
 Migliora la creazione di documenti con Aspose.Page per .NET. Scopri come aggiungere rettangoli ai documenti XPS in questo tutorial passo passo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

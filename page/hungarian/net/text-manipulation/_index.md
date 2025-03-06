@@ -3,10 +3,16 @@ title: Szövegmanipuláció
 linktitle: Szövegmanipuláció
 second_title: Aspose.Page .NET API
 description: Szövegmanipuláció mestere .NET-ben az Aspose.Page oktatóanyagaival. Ismerje meg, hogyan adhat hozzá Unicode szöveget PostScript és XPS dokumentumokhoz. Növelje dokumentumkezelési készségeit.
-type: docs
 weight: 32
 url: /hu/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegmanipuláció
+
 
 
 ## Bevezetés
@@ -39,3 +45,9 @@ Ismerje meg, hogyan adhat hozzá Unicode szöveget PostScript-fájlokhoz az Aspo
 Fedezze fel az Aspose.Page .NET-hez nyújtotta lehetőségeket lépésenkénti útmutatónkkal az XPS-dokumentumok Unicode-szöveg hozzáadásához.
 ### [Szöveg hozzáadása XPS-dokumentumhoz az Aspose.Page for .NET segítségével](./add-text-to-xps-document/)
 Tekintse meg az XPS-dokumentumokhoz szöveg hozzáadásával kapcsolatos lépésenkénti útmutatót az Aspose.Page for .NET használatával. Fokozza .NET-projektjeit könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

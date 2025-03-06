@@ -3,10 +3,16 @@ title: Metin İşleme - PostScript
 linktitle: Metin İşleme - PostScript
 second_title: Aspose.Page Java API'si
 description: PostScript eğitimleriyle Aspose.Page'in Java potansiyelini ortaya çıkarın. Projelerinizi geliştirmek için Unicode dizeleri de dahil olmak üzere metni zahmetsizce ekleyin.
-type: docs
 weight: 36
 url: /tr/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Metin İşleme - PostScript
+
 
 ## giriiş
 
@@ -30,3 +36,9 @@ Aspose.Page for Java, geliştiricilere sezgisel bir arayüz sağlayarak metin ma
 PostScript belgelerine metin ekleme eğitimimizde Aspose.Page for Java'nın gücünü keşfedin. Sistem ve özel yazı tiplerini kolaylıkla kullanmayı öğrenin.
 ### [Java PostScript'te Unicode Dizesi kullanarak Metin Ekleme](./add-text-unicode/)
 PostScript projelerinize Unicode metin ekleme konusunda Aspose.Page for Java'nın gücünü keşfedin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

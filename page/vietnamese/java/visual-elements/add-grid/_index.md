@@ -3,10 +3,16 @@ title: Thêm lưới bằng Visual Brush trong Java
 linktitle: Thêm lưới bằng Visual Brush trong Java
 second_title: API Java Aspose.Page
 description: Nâng cao hình ảnh tài liệu Java với Aspose.Page! Tìm hiểu cách thêm lưới bằng Visual Brush theo từng bước. Nâng cao sức hấp dẫn của ứng dụng của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm lưới bằng Visual Brush trong Java
+
 ## Giới thiệu
 Bạn đang tìm cách nâng cao các ứng dụng Java của mình bằng các lưới hấp dẫn trực quan bằng Aspose.Page? Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm lưới bằng Visual Brush trong Java với Aspose.Page. Visual Brush cho phép bạn vẽ một khu vực có nội dung trực quan, tạo hiệu ứng lưới tuyệt đẹp trong tài liệu của bạn.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Tuyệt đối! Visual Brush cho phép bạn vẽ với nhiều màu sắc khác
  Có, bạn có thể truy cập[dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng của Aspose.Page.
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page?
  Có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

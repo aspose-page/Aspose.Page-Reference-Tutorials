@@ -3,10 +3,16 @@ title: Lisensi Aman dengan Aspose.Page untuk .NET
 linktitle: Lisensi Aman
 second_title: Aspose.Halaman .NET API
 description: Amankan lisensi Aspose.Page untuk .NET Anda dengan mudah menggunakan panduan langkah demi langkah kami. Buka potensi penuh untuk manipulasi halaman tanpa hambatan di aplikasi .NET Anda.
-type: docs
 weight: 13
 url: /id/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi Aman dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Membuka potensi penuh Aspose.Page untuk .NET melibatkan pengamanan lisensi Anda untuk memastikan integrasi yang lancar dan kinerja optimal. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengamankan lisensi Anda menggunakan Aspose.Page, alat canggih untuk menangani manipulasi halaman di aplikasi .NET.
@@ -90,3 +96,9 @@ A4: Ya, lisensi sementara berlaku untuk jangka waktu terbatas dan sering digunak
 ### Q5: Bisakah saya mentransfer lisensi saya ke komputer lain?
 
 A5: Ya, Anda dapat mentransfer lisensi Anda ke mesin lain sesuai kebutuhan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zmień elementy tablicy za pomocą Aspose.Page dla .NET
 linktitle: Zmień elementy tablicy
 second_title: Aspose.Page API .NET
 description: Dowiedz się, jak zmieniać elementy tablicy w plikach EPS przy użyciu Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie manipulować metadanymi.
-type: docs
 weight: 15
 url: /pl/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zmień elementy tablicy za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Witamy w tym kompleksowym przewodniku na temat zmiany elementów tablicy za pomocą Aspose.Page dla .NET! Aspose.Page to potężna biblioteka, która umożliwia programistom pracę z różnymi formatami dokumentów, w tym plikami EPS. W tym samouczku skupimy się na manipulowaniu metadanymi XMP w plikach EPS, w szczególności na zmianie elementów tablicy.
@@ -99,3 +105,9 @@ Odpowiedź 1: Aspose.Page obsługuje głównie pliki EPS, ale Aspose udostępnia
 ### P5: Gdzie mogę uzyskać wsparcie lub nawiązać kontakt ze społecznością?
 
  A5: Odwiedź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

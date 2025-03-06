@@ -3,10 +3,16 @@ title: Προσθέστε Grid χρησιμοποιώντας Visual Brush σε 
 linktitle: Προσθέστε Grid χρησιμοποιώντας Visual Brush σε Java
 second_title: Aspose.Page Java API
 description: Βελτιώστε τα γραφικά των εγγράφων Java με το Aspose.Page! Μάθετε να προσθέτετε πλέγματα χρησιμοποιώντας το Visual Brush βήμα προς βήμα. Αυξήστε την έκκληση της αίτησής σας χωρίς κόπο.
-type: docs
 weight: 10
 url: /el/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε Grid χρησιμοποιώντας Visual Brush σε Java
+
 ## Εισαγωγή
 Θέλετε να βελτιώσετε τις εφαρμογές σας Java με οπτικά ελκυστικά πλέγματα χρησιμοποιώντας το Aspose.Page; Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης πλέγματος χρησιμοποιώντας το Visual Brush σε Java με το Aspose.Page. Το Visual Brush σάς επιτρέπει να ζωγραφίζετε μια περιοχή με οπτικό περιεχόμενο, δημιουργώντας εντυπωσιακά εφέ πλέγματος στα έγγραφά σας.
 ## Προαπαιτούμενα
@@ -84,3 +90,9 @@ doc.save(dataDir + "AddGrid_out.xps");
  Ναι, μπορείτε να έχετε πρόσβαση στο[δωρεάν δοκιμή](https://releases.aspose.com/) για να εξερευνήσετε τις δυνατότητες του Aspose.Page.
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Page;
  Αποκτήστε α[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

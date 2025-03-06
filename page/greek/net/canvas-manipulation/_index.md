@@ -3,10 +3,16 @@ title: Χειρισμός καμβά
 linktitle: Χειρισμός καμβά
 second_title: Aspose.Page .NET API
 description: Εξερευνήστε το Aspose.Page για μαθήματα .NET σχετικά με τη χειραγώγηση καμβά. Η αποκοπή και η μετατροπή εγγράφων PS και XPS είναι εύκολη. Βελτιώστε τις δεξιότητές σας στην επεξεργασία εγγράφων.
-type: docs
 weight: 21
 url: /el/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός καμβά
+
 
 ## Εισαγωγή
 
@@ -42,3 +48,9 @@ url: /el/net/canvas-manipulation/
 Ξεκλειδώστε τις δυνατότητες του Aspose.Page για .NET με αυτόν τον περιεκτικό οδηγό για τους μετασχηματισμούς PostScript. Δημιουργήστε δυναμικά γραφικά χωρίς κόπο.
 ### [Μετασχηματισμοί XPS με Aspose.Page για .NET](./transformationsxps/)
 Μεταμορφώστε έγγραφα XPS χωρίς κόπο με το Aspose.Page για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτες μεταμορφώσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

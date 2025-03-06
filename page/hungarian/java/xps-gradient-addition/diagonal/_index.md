@@ -3,10 +3,16 @@ title: Adjon hozzá Diagonal Gradient-et a Java XPS-ben
 linktitle: Adjon hozzá Diagonal Gradient-et a Java XPS-ben
 second_title: Aspose.Page Java API
 description: Ismerje meg, hogyan adhat lenyűgöző átlós színátmenetet XPS-dokumentumaihoz Java nyelven az Aspose.Page segítségével. Emelje fel a vizuális prezentációt könnyedén.
-type: docs
 weight: 10
 url: /hu/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá Diagonal Gradient-et a Java XPS-ben
+
 ## Bevezetés
 Java fejlesztések folyamatosan fejlődő világában az XPS-dokumentumok vizuális vonzerejének javítása kulcsfontosságú. Ennek egyik hatékony módja az átlós színátmenetek beépítése. Ez az oktatóanyag végigvezeti Önt a folyamaton az Aspose.Page for Java használatával, lépésenkénti utasításokkal és kódrészletekkel.
 ## Előfeltételek
@@ -75,3 +81,9 @@ Az Aspose.Page úgy lett kialakítva, hogy zökkenőmentesen integrálódjon a k
  Meglátogatni a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) kapcsolatba lépni a közösséggel és segítséget kérni.
 ### K: Van-e rendelkezés ideiglenes engedélyekre?
  Igen, megszerezheti a[ideiglenes engedély itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

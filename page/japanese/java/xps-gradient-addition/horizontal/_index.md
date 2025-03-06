@@ -3,10 +3,16 @@ title: Java XPSで水平方向のグラデーションを追加する
 linktitle: Java XPSで水平方向のグラデーションを追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して、Java で XPS ドキュメントに見事な水平方向のグラデーションを追加する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPSで水平方向のグラデーションを追加する
+
 ## 導入
 Aspose.Page for Java を使用して Java XPS に水平グラデーションを追加するためのこのステップバイステップ ガイドへようこそ。 Aspose.Page for Java は、開発者が XPS (XML Paper Supplementation) ドキュメントをシームレスに操作できるようにする強力なライブラリです。
 このチュートリアルでは、XPS ドキュメントに水平グラデーションを追加する Java アプリケーションを作成するプロセスを説明します。これを簡単に達成するには、以下の手順に従ってください。
@@ -70,3 +76,9 @@ Aspose.Page for Java は、最新の Java リリースとの互換性を確保�
 絶対に！各グラデーションストップの色と位置を完全に制御できます。
 ### Q: 助けを求めることができる Aspose.Page のコミュニティ フォーラムはありますか?
 はい、次の場所にアクセスできます。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティとつながり、支援を受けることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

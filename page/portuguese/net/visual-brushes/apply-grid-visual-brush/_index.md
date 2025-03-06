@@ -3,10 +3,16 @@ title: Aplicar pincel visual de grade com Aspose.Page para .NET
 linktitle: Aplicar pincel visual de grade
 second_title: API Aspose.Page .NET
 description: Explore o mundo dinâmico do processamento de documentos em .NET com Aspose.Page. Aprenda como aplicar um Grid Visual Brush para obter documentos visualmente impressionantes.
-type: docs
 weight: 10
 url: /pt/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar pincel visual de grade com Aspose.Page para .NET
+
 ## Introdução
 
 No mundo do desenvolvimento .NET, Aspose.Page se destaca como uma ferramenta poderosa para lidar com tarefas de processamento de documentos. Um recurso fascinante que oferece é a capacidade de aplicar um Grid Visual Brush, trazendo uma nova dimensão aos seus documentos. Este tutorial irá guiá-lo através do processo de implementação de um Pincel Visual de Grade Magenta passo a passo usando Aspose.Page for .NET.
@@ -143,3 +149,9 @@ A1: Sim, Aspose.Page for .NET é versátil e pode ser usado em vários tipos de 
 ### Q5: Que outra documentação está disponível para Aspose.Page for .NET?
 
  A5: Explore a documentação abrangente[aqui](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

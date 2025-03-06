@@ -3,10 +3,16 @@ title: छवि हेरफेर - एक्सपीएस
 linktitle: छवि हेरफेर - एक्सपीएस
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page के साथ Java XPS दस्तावेज़ों में सहज छवि हेरफेर की कला की खोज करें। उन्नत दस्तावेज़ प्रसंस्करण के लिए छवियों को निर्बाध रूप से जोड़ना और टाइल करना सीखें।
-type: docs
 weight: 29
 url: /hi/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# छवि हेरफेर - एक्सपीएस
+
 
 ## परिचय
 
@@ -36,3 +42,9 @@ url: /hi/java/xps-image-manipulation/
 Aspose.Page का उपयोग करके जावा में XPS दस्तावेज़ों में आसानी से छवियां जोड़ने का तरीका जानें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने दस्तावेज़ प्रसंस्करण को उन्नत करें।
 ### [जावा एक्सपीएस में टाइल वाली छवि जोड़ें](./add-tiled-image/)
 Aspose.Page के साथ निर्बाध जावा XPS दस्तावेज़ हेरफेर का अन्वेषण करें। इस चरण-दर-चरण मार्गदर्शिका का उपयोग करके आसानी से टाइल वाली छवियां जोड़ना सीखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

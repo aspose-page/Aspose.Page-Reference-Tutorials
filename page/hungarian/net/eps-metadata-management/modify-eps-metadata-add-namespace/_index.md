@@ -3,10 +3,16 @@ title: Adja hozzá a névteret az Aspose.Page segítségével a .NET-hez
 linktitle: Adja hozzá a névteret
 second_title: Aspose.Page .NET API
 description: Javítsa az EPS-fájlokat az Aspose.Page for .NET segítségével. Könnyedén adjon hozzá névtereket, módosítsa az XMP metaadatokat, és fokozza a .NET-fejlesztési munkafolyamatot.
-type: docs
 weight: 13
 url: /hu/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja hozzá a névteret az Aspose.Page segítségével a .NET-hez
+
 ## Bevezetés
 
 A .NET fejlesztés dinamikus világában az Aspose.Page az EPS-fájlok kezelésének hatékony eszköze. Az Aspose.Page for .NET lehetővé teszi a fejlesztők számára az XMP metaadatok zökkenőmentes kezelését, rugalmasságot biztosítva névterek hozzáadásához és az EPS-fájlok metaadatainak javításához.
@@ -117,3 +123,9 @@ A2: Abszolút! Az Aspose.Page segítségével könnyedén kinyerheti és módos�
 ### 5. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Page számára?
 
  V5: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

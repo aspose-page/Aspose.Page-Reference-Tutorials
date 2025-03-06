@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 添加字形克隆并更改颜色
 linktitle: 添加字形克隆并更改颜色
 second_title: Aspose.Page .NET API
 description: 在这个综合教程中探索 Aspose.Page for .NET 的强大功能。了解如何轻松地在 XPS 文档中添加字形克隆并更改颜色。
-type: docs
 weight: 10
 url: /zh/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 添加字形克隆并更改颜色
+
 ## 介绍
 
 欢迎阅读本分步指南，了解如何使用 Aspose.Page for .NET 在 XPS 文档中添加字形克隆和更改颜色。 Aspose.Page for .NET 是一个功能强大的库，使您能够无缝地处理 XPS 文件。在本教程中，我们将重点关注添加字形克隆并更改其颜色的过程，以增强文档的视觉吸引力。
@@ -129,3 +135,9 @@ A4：免费试用版有一些限制，建议使用前查看文档以了解详细
 ### Q5：在哪里可以找到 Aspose.Page for .NET 的综合文档？
 
  A5：可以参考文档[这里](https://reference.aspose.com/page/net/)获取详细信息和示例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

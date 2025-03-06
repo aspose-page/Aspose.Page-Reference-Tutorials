@@ -3,10 +3,16 @@ title: قم بتغيير حجم صور EPS باستخدام Aspose.Page لـ .NE
 linktitle: تغيير حجم صور EPS
 second_title: Aspose.Page .NET API
 description: استكشف العملية السلسة لتغيير حجم صور EPS في .NET باستخدام Aspose.Page. حقق الدقة في النقاط والبوصات والمليمترات والنسب المئوية دون عناء.
-type: docs
 weight: 11
 url: /ar/net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتغيير حجم صور EPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 هل تتطلع إلى تغيير حجم صور EPS بسهولة باستخدام Aspose.Page لـ .NET؟ هذا البرنامج التعليمي هو دليلك الشامل للتعامل بسهولة مع حجم صور EPS بوحدات مختلفة مثل النقاط والبوصات والمليمترات والنسب المئوية. يوفر Aspose.Page for .NET مجموعة قوية من الأدوات، وفي هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة.
@@ -161,3 +167,9 @@ A2: يركز Aspose.Page بشكل أساسي على تنسيقات PostScript و
 ### س5: أين يمكنني طلب مساعدة إضافية أو مناقشة المشكلات؟
 
  ج5: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للتواصل مع المجتمع والحصول على المساعدة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

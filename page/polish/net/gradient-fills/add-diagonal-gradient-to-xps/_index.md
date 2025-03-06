@@ -3,10 +3,16 @@ title: Dodaj gradient ukośny do XPS za pomocą Aspose.Page dla .NET
 linktitle: Dodaj gradient ukośny do XPS
 second_title: Aspose.Page API .NET
 description: Dowiedz się, jak dodawać urzekające ukośne gradienty do dokumentów XPS za pomocą Aspose.Page dla .NET. Podnieś poziom swoich prezentacji wizualnych bez wysiłku.
-type: docs
 weight: 11
 url: /pl/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj gradient ukośny do XPS za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 W dziedzinie przetwarzania dokumentów Aspose.Page dla .NET wyróżnia się jako potężny zestaw narzędzi, który umożliwia programistom łatwe manipulowanie dokumentami XPS. Jedną z ekscytujących funkcji, jakie oferuje, jest możliwość dodawania ukośnych gradientów, co pozwala poprawić atrakcyjność wizualną dokumentów. Ten samouczek poprowadzi Cię krok po kroku przez proces, demonstrując, jak włączyć gradienty ukośne do plików XPS przy użyciu Aspose.Page dla .NET.
@@ -106,3 +112,9 @@ O3: Aspose.Page koncentruje się głównie na manipulacji dokumentami XPS.
 ### P5: Czy przed zakupem dostępna jest wersja próbna?
 
  A5: Tak, możesz eksplorować[bezpłatna wersja próbna](https://releases.aspose.com/) aby doświadczyć Aspose.Page dla .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

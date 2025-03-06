@@ -3,10 +3,16 @@ title: 画像の加工
 linktitle: 画像の加工
 second_title: Aspose.Page .NET API
 description: 画像操作チュートリアルを通じて、Aspose.Page for .NET の威力を実感してください。 EPS 画像のトリミングやサイズ変更が簡単に行え、美しく正確な結果が得られます。
-type: docs
 weight: 26
 url: /ja/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 画像の加工
+
 ## 導入
 
 .NET での EPS 画像操作スキルを向上させる準備はできていますか? Aspose.Page for .NET を使用した包括的な画像操作チュートリアルに詳しく進み、EPS 画像のトリミングとサイズ変更のシームレスなプロセスをガイドします。
@@ -41,3 +47,9 @@ Aspose.Page for .NET は、あらゆる次元での精度を保証します。�
 Aspose.Page を使用して、.NET での EPS 画像操作のシームレスな世界を探索してください。画像のトリミングやサイズ変更を簡単に行うことができ、素晴らしい結果が得られます。
 ### [Aspose.Page for .NET を使用して EPS 画像のサイズを変更する](./resize-eps-images/)
 Aspose.Page を使用して、.NET で EPS 画像のサイズを変更するシームレスなプロセスを調べてください。ポイント、インチ、ミリメートル、パーセント単位の精度を簡単に実現します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

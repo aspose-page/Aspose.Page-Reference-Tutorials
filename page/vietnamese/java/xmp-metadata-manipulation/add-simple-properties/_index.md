@@ -3,10 +3,16 @@ title: Thêm thuộc tính đơn giản trong XMP bằng Java
 linktitle: Thêm thuộc tính đơn giản trong XMP bằng Java
 second_title: API Java Aspose.Page
 description: Khám phá tiềm năng của Aspose.Page cho Java với hướng dẫn của chúng tôi về cách thêm thuộc tính vào siêu dữ liệu XMP trong tệp EPS. Nâng cao khả năng xử lý tài liệu một cách dễ dàng!
-type: docs
 weight: 14
 url: /vi/java/xmp-metadata-manipulation/add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thuộc tính đơn giản trong XMP bằng Java
+
 ## Giới thiệu
 Trong bối cảnh xử lý tài liệu ngày càng phát triển, việc quản lý siêu dữ liệu một cách hiệu quả là rất quan trọng. Aspose.Page dành cho Java trao quyền cho các nhà phát triển thao tác dữ liệu Nền tảng siêu dữ liệu mở rộng (XMP) một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình thêm các thuộc tính đơn giản vào XMP bằng Java, cung cấp cho bạn hướng dẫn từng bước toàn diện.
 ## Điều kiện tiên quyết
@@ -87,3 +93,9 @@ Aspose.Page chủ yếu hỗ trợ Java, nhưng cũng có phiên bản dành cho
  Có thể lấy được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua Aspose.Page cho Java ở đâu?
  Bạn có thể mua sản phẩm[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

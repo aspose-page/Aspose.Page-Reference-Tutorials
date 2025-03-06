@@ -3,10 +3,16 @@ title: Add Image Filled Glyph & Foreign Image with Aspose.Page .NET
 linktitle: Add Image Filled Glyph & Foreign Image
 second_title: Aspose.Page .NET API
 description: Unlock the power of document processing in .NET with Aspose.Page. Add image-filled glyphs effortlessly. Enhance visuals and streamline your workflow.
-type: docs
 weight: 11
 url: /net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Image Filled Glyph & Foreign Image with Aspose.Page .NET
+
 ## Introduction
 
 In the world of .NET development, Aspose.Page stands out as a powerful toolkit for handling document processing tasks. This tutorial will guide you through the process of adding image-filled glyphs and incorporating foreign images using Aspose.Page for .NET. By the end of this guide, you'll have a solid understanding of how to enhance your document processing capabilities.
@@ -131,3 +137,10 @@ A4: Yes, you can customize styles for each glyph independently, providing a high
 ### Q5: What are the benefits of using Aspose.Page over other document processing tools?
 
 A5: Aspose.Page offers a comprehensive set of features, excellent performance, and extensive documentation, making it a preferred choice for many developers.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

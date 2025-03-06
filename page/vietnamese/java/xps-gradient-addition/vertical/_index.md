@@ -3,10 +3,16 @@ title: Thêm gradient dọc trong Java XPS
 linktitle: Thêm gradient dọc trong Java XPS
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thêm dải màu dọc vào tài liệu Java XPS bằng Aspose.Page. Tăng cường sự hấp dẫn thị giác một cách dễ dàng. Hướng dẫn từng bước bên trong.
-type: docs
 weight: 12
 url: /vi/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm gradient dọc trong Java XPS
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thêm gradient dọc trong Java XPS bằng Aspose.Page cho Java. Việc thêm độ chuyển màu vào tài liệu XPS có thể nâng cao sức hấp dẫn trực quan cho nội dung của bạn, khiến nội dung đó trở nên hấp dẫn và thẩm mỹ hơn.
 ## Điều kiện tiên quyết
@@ -72,3 +78,9 @@ Cải thiện tài liệu XPS của bạn bằng độ chuyển màu có thể c
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Cần giúp hoặc có câu hỏi?
  Truy cập cộng đồng Aspose.Page[diễn đàn](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

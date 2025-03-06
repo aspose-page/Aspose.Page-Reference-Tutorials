@@ -3,10 +3,16 @@ title: Visuele elementen - Java
 linktitle: Visuele elementen - Java
 second_title: Aspose.Page Java-API
 description: Verbeter de visuals van uw Java-documenten moeiteloos met Aspose.Page! Leer hoe u uw toepassing kunt verbeteren door rasters toe te voegen met Visual Brush in deze stapsgewijze zelfstudie.
-type: docs
 weight: 41
 url: /nl/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visuele elementen - Java
+
 ## Invoering
 
 Java-ontwikkelaars, verheug u! Duik in het rijk van visuele elementen met Aspose.Page-tutorials die beloven de visuals van uw Java-documenten te transformeren. In deze editie concentreren we ons op de boeiende kunst van het toevoegen van rasters met behulp van Visual Brush. Maak uw gordel vast terwijl we aan een reis beginnen om de aantrekkingskracht van uw aanvraag te vergroten.
@@ -46,3 +52,9 @@ Concluderend komt Aspose.Page voor Java naar voren als dé oplossing voor ontwik
 ## Visuele elementen - Java-zelfstudies
 ### [Voeg een raster toe met Visual Brush in Java](./add-grid/)
 Verbeter de visuele weergave van Java-documenten met Aspose.Page! Leer stap voor stap hoe u rasters kunt toevoegen met Visual Brush. Verhoog moeiteloos de aantrekkingskracht van uw toepassing.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

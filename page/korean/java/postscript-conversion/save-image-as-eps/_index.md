@@ -3,10 +3,16 @@ title: Java에서 이미지를 EPS로 저장
 linktitle: Java에서 이미지를 EPS로 저장
 second_title: Aspose.페이지 자바 API
 description: 이미지를 쉽게 EPS로 저장할 수 있는 Java용 Aspose.Page의 강력한 기능을 살펴보세요. 이 다용도 Java 라이브러리를 사용하여 그래픽 및 인쇄 기능을 향상하십시오.
-type: docs
 weight: 12
 url: /ko/java/postscript-conversion/save-image-as-eps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 이미지를 EPS로 저장
+
 ## 소개
 Java 프로그래밍 세계에서 Java용 Aspose.Page는 다양한 형식의 이미지를 조작하고 저장하는 강력한 도구로 등장합니다. 다양한 기능 중에는 전문 그래픽 및 인쇄에 널리 사용되는 형식인 EPS(Encapsulated PostScript) 파일로 이미지를 저장하는 기능이 있습니다.
 이 튜토리얼은 Aspose.Page for Java를 사용하여 이미지를 EPS로 저장하는 과정을 안내합니다. 전제 조건, 필수 패키지 가져오기 등을 다루고 자세한 설명과 함께 각 단계를 세분화하겠습니다.
@@ -60,3 +66,9 @@ PsDocument.saveImageAsEps(dataDir + "input1.jpg", dataDir + "output1.eps", optio
  예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Page for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
  임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

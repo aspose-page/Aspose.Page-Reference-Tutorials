@@ -3,10 +3,16 @@ title: Áp dụng Giấy phép Metered với Aspose.Page cho .NET
 linktitle: Áp dụng giấy phép đo
 second_title: API Aspose.Page .NET
 description: Khám phá sự tích hợp liền mạch của Aspose.Page cho .NET với hướng dẫn từng bước này về cách áp dụng giấy phép có đồng hồ đo. Tối ưu hóa việc xử lý tài liệu một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng Giấy phép Metered với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Mở khóa toàn bộ tiềm năng của Aspose.Page cho .NET bằng cách áp dụng giấy phép đồng hồ đo. Hướng dẫn này sẽ hướng dẫn bạn qua quá trình thiết lập và áp dụng giấy phép đồng hồ đo, đảm bảo việc sử dụng trơn tru và tối ưu hóa thư viện .NET mạnh mẽ này.
@@ -112,3 +118,9 @@ Hướng dẫn từng bước này đã trang bị cho bạn kiến thức để
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho .NET?
 
  A5: Thăm quan[giấy phép tạm thời/](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

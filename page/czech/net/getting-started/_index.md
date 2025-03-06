@@ -3,10 +3,16 @@ title: Začínáme
 linktitle: Začínáme
 second_title: Aspose.Page .NET API
 description: Odemkněte sílu Aspose.Page .NET pomocí výukových programů krok za krokem. Použít měřené licence, načíst ze souborů nebo streamů, zabezpečit licence a další.
-type: docs
 weight: 20
 url: /cs/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Začínáme
+
 ## Úvod
 
 Vítejte v dokonalém průvodci na výukových programech Aspose.Page pro .NET. Ponořte se do světa bezproblémového zpracování dokumentů, kde se efektivita snoubí s jednoduchostí. Vydejme se na cestu k využití plného potenciálu tohoto mocného nástroje prostřednictvím řady obsáhlých výukových programů.
@@ -38,3 +44,9 @@ Odemkněte manipulaci s dokumenty v .NET pomocí Aspose.Page. Postupujte podle n
 Zabezpečte svou licenci Aspose.Page for .NET bez námahy pomocí našeho podrobného průvodce. Odemkněte plný potenciál bezproblémové manipulace se stránkami ve vašich aplikacích .NET.
 ### [Nastavte licenci pomocí Embedded Resource s Aspose.Page for .NET](./set-license-using-embedded-resource/)
 Naučte se, jak nastavit licenci pomocí vložených prostředků s Aspose.Page for .NET. Zajistěte soulad a odemkněte plný potenciál zpracování dokumentů.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

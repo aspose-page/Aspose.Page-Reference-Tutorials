@@ -3,10 +3,16 @@ title: 在 Java PostScript 中加入橢圓
 linktitle: 在 Java PostScript 中加入橢圓
 second_title: Aspose.Page Java API
 description: 掌握使用 Aspose.Page 在 Java 中建立令人驚嘆的 PostScript 文件。學習逐步添加省略號以獲得視覺上吸引人的內容。
-type: docs
 weight: 10
 url: /zh-hant/java/postscript-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PostScript 中加入橢圓
+
 ## 介紹
 在 Java 開發的動態世界中，建立具有視覺吸引力的文件是一項常見要求。 Aspose.Page for Java 是一個功能強大的函式庫，讓開發人員能夠輕鬆操作 PostScript 檔案。在本教學中，我們將探討如何使用 Aspose.Page for Java 將省略號新增至 PostScript 文件。跟隨我們的腳步，提升您的文件建立技能！
 ## 先決條件
@@ -71,3 +77,9 @@ document.save();
 答：加入社群：[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)進行討論和尋求幫助。
 ### Q：是否有任何免費資源可以了解更多有關 Aspose.Page for Java 的資訊？
 答：利用[免費試用](https://releases.aspose.com/)並探索文件中的範例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

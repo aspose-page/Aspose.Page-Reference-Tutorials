@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 实现 Java PostScript 伪透明
 linktitle: 在 Java PostScript 中显示伪透明度
 second_title: Aspose.Page Java API
 description: 在 Java PostScript 中解锁充满活力的图形！按照我们的 Aspose.Page 教程逐步创建伪透明度。现在下载！
-type: docs
 weight: 11
 url: /zh/java/postscript-transparency/show-pseudo-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 实现 Java PostScript 伪透明
+
 ## 介绍
 欢迎阅读有关利用 Aspose.Page for Java 演示 Java PostScript 中的伪透明度的综合指南。在本教程中，我们将逐步分解该过程，确保您彻底掌握每个概念。伪透明涉及在图形中创建透明的幻觉，Aspose.Page 以其强大的功能简化了此任务。
 ## 先决条件
@@ -90,3 +96,9 @@ document.save();
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 需要帮助或想要讨论 Aspose.Page？
 参观[Aspose.Page 论坛](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

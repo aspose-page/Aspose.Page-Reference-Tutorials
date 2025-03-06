@@ -3,10 +3,16 @@ title: Téglalap hozzáadása a Java XPS-ben
 linktitle: Téglalap hozzáadása a Java XPS-ben
 second_title: Aspose.Page Java API
 description: Ismerje meg, hogyan adhat hozzá téglalapokat Java XPS-ben az Aspose.Page használatával. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes dokumentumkezeléshez. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /hu/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Téglalap hozzáadása a Java XPS-ben
+
 ## Bevezetés
 Üdvözöljük ebben az átfogó útmutatóban a Java XPS-ben az Aspose.Page használatával téglalapok hozzáadásához! Akár tapasztalt fejlesztő, akár csak most kezdi a Java XPS-t, ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, így biztosítva a téma mélyreható megértését.
 ## Előfeltételek
@@ -62,3 +68,9 @@ Teljesen! Az Aspose.Page robusztus szolgáltatáskészletet biztosít a különf
  Fedezze fel a[Aspose.Page fórum](https://forum.aspose.com/c/page/39)további példákért, és kérjen segítséget a közösségtől.
 ### Kipróbálhatom az Aspose.Page-t vásárlás előtt?
  Igen, felfedezheti a[ingyenes próbaverzió](https://releases.aspose.com/) hogy megtapasztalják az Aspose képességeit.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

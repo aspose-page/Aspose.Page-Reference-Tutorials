@@ -3,10 +3,16 @@ title: Манипулирование изображениями — XPS
 linktitle: Манипулирование изображениями — XPS
 second_title: API Aspose.Page Java
 description: Откройте для себя искусство легкой манипуляции изображениями в документах Java XPS с помощью Aspose.Page. Научитесь легко добавлять и размещать изображения для улучшения обработки документов.
-type: docs
 weight: 29
 url: /ru/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Манипулирование изображениями — XPS
+
 
 ## Введение
 
@@ -36,3 +42,9 @@ url: /ru/java/xps-image-manipulation/
 Узнайте, как легко добавлять изображения в документы XPS на Java с помощью Aspose.Page. Повысьте качество обработки документов с помощью этого пошагового руководства.
 ### [Добавить мозаичное изображение в Java XPS](./add-tiled-image/)
 Исследуйте беспрепятственное манипулирование документами Java XPS с помощью Aspose.Page. Научитесь легко добавлять мозаичные изображения, используя это пошаговое руководство.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

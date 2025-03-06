@@ -1,12 +1,17 @@
 ---
 title: บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.Page สำหรับ Java
 linktitle: Aspose.Page สำหรับการสอน Java
-type: docs
 weight: 10
 url: /th/java/
 description: ปลดล็อกความลับของการจัดการเพจ Java ด้วยบทช่วยสอน Aspose.Page เจาะลึกการคลิป การแปลง และอื่นๆ อีกมากมายเพื่อเอกสารที่สวยงามสะดุดตาได้อย่างง่ายดาย
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บทช่วยสอนที่ครอบคลุมและตัวอย่างของ Aspose.Page สำหรับ Java
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับทักษะการประมวลผลเอกสาร Java ของคุณแล้วหรือยัง? ดำดิ่งสู่โลกของ Aspose.Page สำหรับ Java ด้วยบทช่วยสอนและตัวอย่างที่ครอบคลุมของเรา ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คำแนะนำทีละขั้นตอนของเราจะปลดล็อกศักยภาพทั้งหมดของ Aspose.Page สำหรับ Java
@@ -76,3 +81,9 @@ is_root: true
 ยกระดับภาพเอกสาร Java ของคุณอย่างง่ายดายด้วย Aspose.Page! เรียนรู้การปรับปรุงแอปพลิเคชันของคุณโดยการเพิ่มกริดโดยใช้ Visual Brush ในบทช่วยสอนทีละขั้นตอนนี้
 ### [การจัดการข้อมูลเมตา XMP - Java](./xmp-metadata-manipulation/)
 ปรับปรุงไฟล์ EPS ได้อย่างง่ายดายด้วยการจัดการข้อมูลเมตา XMP ตั้งแต่การเพิ่มรายการไปจนถึงการแยกไฟล์ ยกระดับการจัดการเอกสารของคุณด้วยคำแนะนำของเรา
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

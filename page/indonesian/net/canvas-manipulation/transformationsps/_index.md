@@ -3,10 +3,16 @@ title: Transformasi PS dengan Aspose.Page untuk .NET
 linktitle: Transformasi PS
 second_title: Aspose.Halaman .NET API
 description: Buka potensi Aspose.Page untuk .NET dengan panduan komprehensif tentang transformasi PostScript ini. Buat grafik dinamis dengan mudah.
-type: docs
 weight: 12
 url: /id/net/canvas-manipulation/transformationsps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transformasi PS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Selamat datang di dunia Aspose.Page untuk .NET, tempat Anda dapat memanfaatkan kekuatan transformasi dalam dokumen PostScript. Tutorial ini akan memandu Anda melalui berbagai transformasi seperti terjemahan, penskalaan, rotasi, geser, dan transformasi kompleks, memungkinkan Anda membuat grafik visual yang menakjubkan dan dinamis.
@@ -141,3 +147,9 @@ J4: Transformasi yang rumit dapat memengaruhi kinerja, jadi optimalkan kode Anda
 ### Q5: Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan untuk pertanyaan terkait Aspose.Page?
 
  A5: Kunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

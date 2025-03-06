@@ -3,10 +3,16 @@ title: Revitalize Java PostScript - Add Unicode with Aspose.Page
 linktitle: Add Text using Unicode String in Java PostScript
 second_title: Aspose.Page Java API
 description: Explore the power of Aspose.Page for Java in adding Unicode text to your PostScript projects. Follow our step-by-step guide for seamless integration. Download now!
-type: docs
 weight: 11
 url: /java/postscript-text-manipulation/add-text-unicode/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Revitalize Java PostScript - Add Unicode with Aspose.Page
+
 ## Introduction
 Are you looking to enhance your Java PostScript application by seamlessly adding Unicode text? Look no further! This comprehensive guide will walk you through the process step by step using Aspose.Page for Java. Aspose.Page is a powerful library that allows you to manipulate and convert PostScript and XPS files with ease.
 ## Prerequisites
@@ -59,3 +65,10 @@ Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for support an
 You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### What are the available font styles in Aspose.Page?
 Aspose.Page supports font styles such as Regular, Bold, Italic, and BoldItalic.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

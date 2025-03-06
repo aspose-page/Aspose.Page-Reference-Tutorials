@@ -3,10 +3,16 @@ title: Doku ve Desenler - PostScript
 linktitle: Doku ve Desenler - PostScript
 second_title: Aspose.Page Java API'si
 description: PostScript'i Java için Aspose.Page ile yükseltin. Ayrıntılı Java PostScript eğitimlerimizde yaratıcı olasılıklar için doku döşeme desenlerini sorunsuz bir şekilde ekleyin.
-type: docs
 weight: 38
 url: /tr/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Doku ve Desenler - PostScript
+
 ## giriiş
 
 PostScript belgelerinizi yeni yaratıcılık seviyelerine yükseltmeye hazır mısınız? Aspose.Page for Java, doku döşeme desenlerini projelerinize kusursuz bir şekilde entegre etmeye yönelik ağ geçidinizdir. Bu kapsamlı kılavuzda dokular ve desenler dünyasını derinlemesine inceleyerek Java PostScript'in tüm potansiyelini ortaya çıkaracağız.
@@ -45,3 +51,9 @@ PostScript tasarımlarınızı geliştirmeye hazır mısınız? Doku döşeme de
 ## Doku ve Desenler - PostScript Dersleri
 ### [Java PostScript'te Doku Döşeme Deseni Ekleme](./add-texture-tiling-pattern/)
 Aspose.Page for Java ile PostScript belgelerine zahmetsizce doku döşeme desenleri ekleyin. Yaratıcı olanaklar için kusursuz entegrasyon kılavuzumuzu keşfedin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

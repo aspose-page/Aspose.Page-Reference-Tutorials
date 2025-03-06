@@ -3,10 +3,16 @@ title: Lägg till rektangel till PostScript (PS) med Aspose.Page för .NET
 linktitle: Lägg till rektangel till PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Förbättra dokumentskapandet i .NET med Aspose.Page. Lär dig att lägga till rektanglar till PostScript-filer (PS) steg för steg.
-type: docs
 weight: 12
 url: /sv/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till rektangel till PostScript (PS) med Aspose.Page för .NET
+
 ## Introduktion
 
 Om du vill förbättra din förmåga att skapa dokument i .NET, erbjuder Aspose.Page en kraftfull lösning för att hantera PostScript-dokument. I den här handledningen guidar vi dig genom processen att lägga till rektanglar till ett PostScript-dokument med Aspose.Page för .NET.
@@ -133,3 +139,10 @@ S2: Ja, Aspose.Page stöder olika dokumentformat, inklusive XPS och PostScript.
 ### F5: Kan jag prova Aspose.Page innan jag köper?
 
  A5: Ja, du kan få en gratis testversion[här](https://releases.aspose.com/) , och för utökad användning, överväg a[tillfällig licens](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

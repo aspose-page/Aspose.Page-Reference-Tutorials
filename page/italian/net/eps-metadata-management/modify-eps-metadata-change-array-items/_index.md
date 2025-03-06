@@ -3,10 +3,16 @@ title: Modifica gli elementi dell'array con Aspose.Page per .NET
 linktitle: Modifica elementi dell'array
 second_title: API Aspose.Page .NET
 description: Scopri come modificare gli elementi dell'array nei file EPS utilizzando Aspose.Page per .NET. Segui la nostra guida passo passo per una manipolazione efficiente dei metadati.
-type: docs
 weight: 15
 url: /it/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifica gli elementi dell'array con Aspose.Page per .NET
+
 ## introduzione
 
 Benvenuti in questa guida completa sulla modifica degli elementi dell'array utilizzando Aspose.Page per .NET! Aspose.Page è una potente libreria che consente agli sviluppatori di lavorare con vari formati di documenti, inclusi i file EPS. In questo tutorial, ci concentreremo sulla manipolazione dei metadati XMP all'interno dei file EPS, in particolare sulla modifica degli elementi dell'array.
@@ -99,3 +105,9 @@ A1: Aspose.Page si occupa principalmente di file EPS, ma Aspose fornisce diverse
 ### Q5: Dove posso ottenere supporto o connettermi con la community?
 
  A5: Visita il[Aspose.Page Forum](https://forum.aspose.com/c/page/39) per il supporto e le discussioni della comunità.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

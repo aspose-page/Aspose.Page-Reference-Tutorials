@@ -3,10 +3,16 @@ title: Tvary - XPS
 linktitle: Tvary - XPS
 second_title: Aspose.Page Java API
 description: Objevte kouzlo Java XPS pomocí výukových programů Aspose.Page! Snadno přidejte podmanivé elipsy a obdélníky. Vylepšete vytváření dokumentů pomocí našich podrobných průvodců.
-type: docs
 weight: 35
 url: /cs/java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tvary - XPS
+
 ## Úvod
 
 Jste připraveni ponořit se do fascinující sféry tvorby dokumentů pomocí Java XPS? Nehledejte nic jiného než Aspose.Page, vašeho důvěryhodného společníka pro odemknutí plného potenciálu manipulace s tvary. V této sérii výukových programů vás provedeme složitostmi přidávání podmanivých tvarů a zajistíme, aby váš dokument bez námahy vynikl.
@@ -33,3 +39,9 @@ Na závěr, výukové programy Aspose.Page for Java o tvarech otevírají svět 
 Prozkoumejte podrobného průvodce přidáním elipsy s radiálním přechodem v Java XPS pomocí Aspose.Page for Java. Vylepšete svou tvorbu dokumentů bez námahy.
 ### [Přidat obdélník v Java XPS](./add-rectangle/)
 Naučte se přidávat obdélníky v Java XPS pomocí Aspose.Page. Postupujte podle našeho podrobného průvodce pro bezproblémovou manipulaci s dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

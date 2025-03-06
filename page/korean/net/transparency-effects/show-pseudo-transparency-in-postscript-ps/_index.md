@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 PostScript(PS)에서 의사 투명성 표시
 linktitle: PostScript(PS)에서 의사 투명성 표시
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 PostScript의 의사 투명성 기능을 살펴보세요. 시각적으로 멋진 문서를 보려면 단계별 가이드를 따르세요.
-type: docs
 weight: 13
 url: /ko/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 PostScript(PS)에서 의사 투명성 표시
+
 ## 소개
 
 의사 투명성을 통합하여 PostScript(PS) 문서의 시각적 매력을 향상시키고 싶으십니까? .NET용 Aspose.Page는 이러한 효과를 손쉽게 달성할 수 있는 강력한 솔루션을 제공합니다. 이 단계별 튜토리얼에서는 Aspose.Page를 사용하여 PostScript에서 의사 투명성을 표시하는 과정을 안내합니다.
@@ -129,3 +135,9 @@ A2: 예, GraphicsPath를 적절하게 조정하여 다른 셰이프에도 동일
 ### Q5: Aspose.Page에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
 
  A5: 방문[이 링크](https://purchase.aspose.com/temporary-license/) Aspose.Page에 대한 임시 라이센스를 얻으려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

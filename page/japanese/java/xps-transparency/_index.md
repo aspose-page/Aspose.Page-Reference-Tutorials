@@ -3,10 +3,16 @@ title: 透明性 - XPS
 linktitle: 透明性 - XPS
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して、Java XPS ドキュメントを簡単に昇格させます。視覚効果を高めるために、チュートリアルで透明なオブジェクトを追加し、不透明マスクを設定する方法を学びます。
-type: docs
 weight: 40
 url: /ja/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 透明性 - XPS
+
 ## 導入
 
 Java XPS ドキュメントを次のレベルに引き上げたいと考えていますか? Aspose.Page を使用して透明効果の世界に飛び込み、視覚的に素晴らしい可能性の領域を解き放ちます。この包括的なガイドでは、透明オブジェクトの追加と不透明マスクの設定という 2 つの重要なチュートリアルを説明します。
@@ -47,3 +53,9 @@ XPS ドキュメントの初期化: Java プロジェクトを開き、Aspose.Pa
 Aspose.Page を使用して、Java XPS ドキュメントを素晴らしい透明効果で強化します。透明オブジェクトを追加するには、ステップバイステップのガイドに従ってください。 
 ### [Java XPS で不透明マスクを設定する](./set-opacity-mask/)
 Aspose.Page を使用して Java XPS で不透明マスクを設定する能力を発見してください。視覚的に強化されたドキュメント エクスペリエンスについては、ステップバイステップ ガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

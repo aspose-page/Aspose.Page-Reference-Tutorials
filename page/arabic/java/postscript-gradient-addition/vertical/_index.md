@@ -3,10 +3,16 @@ title: إضافة التدرج العمودي في جافا بوستسكريبت
 linktitle: إضافة التدرج العمودي في جافا بوستسكريبت
 second_title: Aspose.Page جافا API
 description: استكشف الدليل خطوة بخطوة لإضافة التدرجات الرأسية في Java PostScript باستخدام Aspose.Page لـ Java. قم بتحسين مستنداتك دون عناء باستخدام صور نابضة بالحياة.
-type: docs
 weight: 14
 url: /ar/java/postscript-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة التدرج العمودي في جافا بوستسكريبت
+
 ## مقدمة
 مرحبًا بك في هذا الدليل التفصيلي خطوة بخطوة حول إضافة تدرج رأسي في Java PostScript باستخدام Aspose.Page لـ Java. إذا كنت ترغب في تحسين المستند الخاص بك بتدرجات لافتة للنظر، فهذا البرنامج التعليمي مناسب لك. يوفر Aspose.Page for Java أدوات قوية لمعالجة مستندات PostScript بسلاسة.
 ## المتطلبات الأساسية
@@ -101,3 +107,9 @@ document.save();
  يمكنك شراء Aspose.Page لجافا[هنا](https://purchase.aspose.com/buy).
 ### هل يوجد منتدى لمناقشات Aspose.Page؟
  نعم، يمكنك الانضمام إلى منتدى المجتمع[هنا](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

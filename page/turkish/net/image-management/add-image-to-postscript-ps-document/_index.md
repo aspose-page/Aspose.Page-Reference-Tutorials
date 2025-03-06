@@ -3,10 +3,16 @@ title: Aspose.Page ile PostScript (PS) Belgesine Resim Ekleme
 linktitle: PostScript (PS) Belgesine Resim Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET kullanarak görseller ekleyerek PostScript belgelerinizi nasıl geliştireceğinizi öğrenin. Sorunsuz bir deneyim için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 10
 url: /tr/net/image-management/add-image-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page ile PostScript (PS) Belgesine Resim Ekleme
+
 ## giriiş
 
 Bu eğitimde, güçlü Aspose.Page for .NET kitaplığını kullanarak PostScript (PS) belgesine görüntü ekleme sürecini inceleyeceğiz. Aspose.Page, PS belgelerinin işlenmesini basitleştirerek belgenizi görüntülerle geliştirmenin etkili ve basit bir yolunu sunar. Bu adım adım kılavuz, süreç boyunca size yol gösterecek ve her konsepti iyice kavramanızı sağlayacaktır.
@@ -122,3 +128,9 @@ Cevap4: Evet, Aspose.Page, görüntüleri belgeye eklemeden önce çeşitli dön
 ### S5: Bir PS belgesinden görüntüleri nasıl çıkarabilirim?
 
 Cevap5: Aspose.Page for .NET, PS belgelerinden görüntüleri ayıklamak için yöntemler sağlar. Ayrıntılı bilgi için belgelere bakın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

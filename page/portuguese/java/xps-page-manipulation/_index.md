@@ -3,10 +3,16 @@ title: Manipulação de página - XPS
 linktitle: Manipulação de página - XPS
 second_title: API Java Aspose.Page
 description: Explore o poder do Aspose.Page para Java com nossos tutoriais. Eleve seus documentos Java XPS adicionando páginas sem esforço para melhorar a funcionalidade do aplicativo.
-type: docs
 weight: 33
 url: /pt/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de página - XPS
+
 
 ## Introdução
 
@@ -36,3 +42,9 @@ Concluindo, os tutoriais do Aspose.Page for Java sobre manipulação de páginas
 ## Manipulação de página - Tutoriais XPS
 ### [Adicionar página em Java XPS](./add-page/)
 Eleve documentos Java XPS com Aspose.Page. Aprenda a adicionar páginas sem esforço para melhorar a funcionalidade do aplicativo. Mergulhe no tutorial agora!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

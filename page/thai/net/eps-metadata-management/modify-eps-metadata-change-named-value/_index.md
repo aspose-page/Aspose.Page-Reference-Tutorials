@@ -3,10 +3,16 @@ title: เปลี่ยนค่าชื่อด้วย Aspose.Page สำ
 linktitle: เปลี่ยนค่าชื่อ
 second_title: Aspose.Page .NET API
 description: เรียนรู้วิธีเปลี่ยนชื่อในไฟล์ EPS โดยใช้ Aspose.Page สำหรับ .NET ปรับแต่งข้อมูลเมตา XMP ได้อย่างง่ายดายเพื่อการประมวลผลเอกสารที่ปรับแต่งโดยเฉพาะ
-type: docs
 weight: 16
 url: /th/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เปลี่ยนค่าชื่อด้วย Aspose.Page สำหรับ .NET
+
 ## การแนะนำ
 
 ในโลกของการประมวลผลเอกสาร Aspose.Page สำหรับ .NET มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับจัดการไฟล์ EPS ฟังก์ชันหลักประการหนึ่งที่มีให้คือความสามารถในการเปลี่ยนค่าที่มีชื่อภายในเมตาดาต้า XMP บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการเปลี่ยนชื่อโดยใช้ Aspose.Page สำหรับ .NET ซึ่งช่วยให้คุณปรับแต่งไฟล์ EPS ตามความต้องการเฉพาะของคุณได้
@@ -100,3 +106,9 @@ A1: ใช่ Aspose.Page รองรับรูปแบบเอกสาร
 ### คำถามที่ 5: Aspose.Page สำหรับผู้ใช้ .NET มีตัวเลือกการสนับสนุนใดบ้าง
 
  A5: เยี่ยมชมฟอรั่มชุมชน[ที่นี่](https://forum.aspose.com/c/page/39) สำหรับการสนับสนุนและการอภิปราย
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lägg till Grid med Visual Brush i Java
 linktitle: Lägg till Grid med Visual Brush i Java
 second_title: Aspose.Page Java API
 description: Förbättra Java-dokumentbilder med Aspose.Page! Lär dig att lägga till rutnät med Visual Brush steg-för-steg. Öka din ansökans överklagande utan ansträngning.
-type: docs
 weight: 10
 url: /sv/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till Grid med Visual Brush i Java
+
 ## Introduktion
 Vill du förbättra dina Java-applikationer med visuellt tilltalande rutnät med Aspose.Page? I den här handledningen guidar vi dig genom processen att lägga till ett rutnät med Visual Brush i Java med Aspose.Page. Visual Brush låter dig måla ett område med ett visuellt innehåll och skapa fantastiska rutnätseffekter i dina dokument.
 ## Förutsättningar
@@ -84,3 +90,9 @@ Absolut! Visual Brush låter dig måla med olika färger, vilket ger flexibilite
  Ja, du kan komma åt[gratis provperiod](https://releases.aspose.com/) för att utforska Aspose.Pages funktioner.
 ### Hur kan jag få en tillfällig licens för Aspose.Page?
  Skaffa en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för teständamål.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

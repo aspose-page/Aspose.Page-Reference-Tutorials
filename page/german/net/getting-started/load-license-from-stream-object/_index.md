@@ -3,10 +3,16 @@ title: Laden Sie die Lizenz vom Stream-Objekt mit Aspose.Page für .NET
 linktitle: Lizenz vom Stream-Objekt laden
 second_title: Aspose.Page .NET-API
 description: Erschließen Sie die Dokumentenmanipulation in .NET mit Aspose.Page. Befolgen Sie unsere Anleitung, um Lizenzen nahtlos von Stream-Objekten zu laden.
-type: docs
 weight: 12
 url: /de/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Laden Sie die Lizenz vom Stream-Objekt mit Aspose.Page für .NET
+
 ## Einführung
 
 Sind Sie bereit, Ihre .NET-Entwicklungsfähigkeiten auf die nächste Stufe zu heben? Wenn Sie jemals das Bedürfnis verspürt haben, mit Dokumenten zu arbeiten, insbesondere im Zusammenhang mit der Seitenmanipulation, dann ist Aspose.Page für .NET Ihr perfekter Begleiter. In diesem umfassenden Leitfaden führen wir Sie durch den Prozess des Ladens einer Lizenz aus einem Stream-Objekt, einem grundlegenden Schritt bei der Nutzung der Funktionen von Aspose.Page für .NET.
@@ -111,3 +117,9 @@ A1: Ja, Aspose.Page ist so konzipiert, dass es nahtlos mit allen Versionen von .
 ### F5: Kann ich auf einen anderen Lizenzplan upgraden?
 
  A5: Entdecken Sie verschiedene Lizenzierungsoptionen und führen Sie ein Upgrade durch[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

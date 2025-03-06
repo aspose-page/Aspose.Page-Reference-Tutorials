@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 新增數組項
 linktitle: 新增數組項
 second_title: Aspose.Page .NET API
 description: 探索如何使用 Aspose.Page for .NET 在 EPS 檔案中新增陣列項目。請按照我們的逐步指南進行無縫文件操作。
-type: docs
 weight: 11
 url: /zh-hant/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 新增數組項
+
 ## 介紹
 
 在 .NET 文件操作和處理領域，Aspose.Page 是一個脫穎而出的強大工具。在其眾多功能中，處理 EPS 檔案中的陣列項目是常見要求。在本教程中，我們將探索在 .NET 環境中使用 Aspose.Page 新增陣列項目的逐步過程。無論您是經驗豐富的開發人員還是新手，本指南都將清晰且準確地引導您完成整個過程。
@@ -119,3 +125,9 @@ A4：如需社區討論和支持，請訪問[Aspose.Page 論壇](https://forum.a
 ### Q5：Aspose.Page for .NET 的最新版本是什麼？
 
  A5：若要存取最新版本的 Aspose.Page for .NET，請參閱[文件](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

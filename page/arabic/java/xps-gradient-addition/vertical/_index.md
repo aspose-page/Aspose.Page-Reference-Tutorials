@@ -3,10 +3,16 @@ title: أضف التدرج الرأسي في Java XPS
 linktitle: أضف التدرج الرأسي في Java XPS
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إضافة تدرج عمودي إلى مستندات Java XPS باستخدام Aspose.Page. تعزيز الجاذبية البصرية دون عناء. دليل خطوة بخطوة في الداخل.
-type: docs
 weight: 12
 url: /ar/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف التدرج الرأسي في Java XPS
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إضافة تدرج عمودي في Java XPS باستخدام Aspose.Page for Java. يمكن أن تؤدي إضافة التدرجات اللونية إلى مستندات XPS الخاصة بك إلى تحسين المظهر المرئي للمحتوى الخاص بك، مما يجعله أكثر جاذبية وإمتاعًا من الناحية الجمالية.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ doc.save(dataDir + "VerticalGradient.xps");
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل تحتاج إلى مساعدة أو لديك أسئلة؟
  قم بزيارة مجتمع Aspose.Page[المنتدى](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

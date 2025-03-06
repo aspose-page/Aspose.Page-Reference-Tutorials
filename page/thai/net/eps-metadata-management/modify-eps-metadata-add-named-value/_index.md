@@ -3,10 +3,16 @@ title: เพิ่มค่าชื่อด้วย Aspose.Page
 linktitle: เพิ่มค่าชื่อ
 second_title: Aspose.Page .NET API
 description: เรียนรู้วิธีเพิ่มค่าที่มีชื่อให้กับไฟล์ EPS ใน .NET โดยใช้ Aspose.Page บทช่วยสอนที่ครอบคลุมนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
-type: docs
 weight: 12
 url: /th/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มค่าชื่อด้วย Aspose.Page
+
 ## การแนะนำ
 
 ในขอบเขตของการประมวลผลเอกสารด้วย .NET นั้น Aspose.Page มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับการจัดการไฟล์ EPS Aspose.Page ช่วยให้นักพัฒนาจัดการข้อมูลเมตา XMP ได้ อำนวยความสะดวกให้กับงานต่างๆ เช่น การเพิ่มค่าที่กำหนดชื่อ บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการเพิ่มค่าที่มีชื่อให้กับไฟล์ EPS โดยใช้ Aspose.Page ในลักษณะทีละขั้นตอน
@@ -96,3 +102,9 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 ### คำถามที่ 5: ใบอนุญาตชั่วคราวคืออะไร และฉันจะขอรับใบอนุญาตได้อย่างไร
 
  A5: หากคุณต้องการใบอนุญาตชั่วคราวเพื่อวัตถุประสงค์ในการทดสอบหรือประเมินผล คุณสามารถขอรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

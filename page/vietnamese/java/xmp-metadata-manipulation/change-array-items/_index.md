@@ -3,10 +3,16 @@ title: Thay đổi các mục mảng trong XMP bằng Java
 linktitle: Thay đổi các mục mảng trong XMP bằng Java
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách thay đổi các mục mảng trong XMP bằng Aspose.Page cho Java. Sửa đổi siêu dữ liệu dễ dàng với hướng dẫn từng bước của chúng tôi. Nâng cao tài liệu EPS của bạn ngay bây giờ!
-type: docs
 weight: 15
 url: /vi/java/xmp-metadata-manipulation/change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi các mục mảng trong XMP bằng Java
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách thay đổi các mục mảng trong XMP bằng Aspose.Page cho Java! Aspose.Page là một thư viện Java mạnh mẽ cho phép bạn làm việc liền mạch với siêu dữ liệu XMP trong các tệp EPS. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình sửa đổi các mục mảng trong siêu dữ liệu XMP, giúp bạn nâng cao và tùy chỉnh tài liệu EPS của mình.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Aspose.Page được thiết kế chủ yếu cho Java, nhưng Aspose cung cấp
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể mua phiên bản đầy đủ của Aspose.Page cho Java ở đâu?
  Bạn có thể mua phiên bản đầy đủ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

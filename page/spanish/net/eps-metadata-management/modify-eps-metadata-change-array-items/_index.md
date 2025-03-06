@@ -3,10 +3,16 @@ title: Cambiar elementos de matriz con Aspose.Page para .NET
 linktitle: Cambiar elementos de la matriz
 second_title: Aspose.Página .NET API
 description: Aprenda a cambiar elementos de matriz en archivos EPS usando Aspose.Page para .NET. Siga nuestra guía paso a paso para una manipulación eficiente de metadatos.
-type: docs
 weight: 15
 url: /es/net/eps-metadata-management/modify-eps-metadata-change-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cambiar elementos de matriz con Aspose.Page para .NET
+
 ## Introducción
 
 ¡Bienvenido a esta guía completa sobre cómo cambiar elementos de matriz usando Aspose.Page para .NET! Aspose.Page es una potente biblioteca que permite a los desarrolladores trabajar con varios formatos de documentos, incluidos archivos EPS. En este tutorial, nos centraremos en la manipulación de metadatos XMP dentro de archivos EPS, específicamente en el cambio de elementos de la matriz.
@@ -99,3 +105,9 @@ R1: Aspose.Page se ocupa principalmente de archivos EPS, pero Aspose proporciona
 ### P5: ¿Dónde puedo obtener soporte o conectarme con la comunidad?
 
  A5: Visita el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para apoyo y debates de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: أضف قيمة مسماة في XMP باستخدام Java
 linktitle: أضف قيمة مسماة في XMP باستخدام Java
 second_title: Aspose.Page جافا API
 description: إتقان التعامل مع مستندات Java باستخدام Aspose.Page! أضف قيمًا مسماة بسهولة في بيانات XMP التعريفية من خلال دليلنا خطوة بخطوة لتحقيق التكامل السلس.
-type: docs
 weight: 12
 url: /ar/java/xmp-metadata-manipulation/add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف قيمة مسماة في XMP باستخدام Java
+
 ## مقدمة
 في مشهد تطوير Java الدائم التطور، يعد التعامل مع البيانات التعريفية في ملفات EPS أمرًا ضروريًا للحفاظ على سلامة المستند. Aspose.Page for Java هي مكتبة قوية تعمل على تبسيط هذه العملية. في هذا البرنامج التعليمي، سنتعمق في خطوات إضافة قيمة مسماة في بيانات تعريف XMP باستخدام Java، مما يضمن أن لديك أساسًا قويًا لمعالجة ملفات EPS.
 ## المتطلبات الأساسية
@@ -78,3 +84,9 @@ psStream.close();
  اكتشف ال[توثيق](https://reference.aspose.com/page/java/)للحصول على دروس وأمثلة شاملة.
 ### هل Aspose.Page for Java مناسب للمشاريع واسعة النطاق؟
 بالتأكيد، تم تصميم Aspose.Page for Java للتعامل مع المشاريع واسعة النطاق بكفاءة، مما يوفر إمكانات قوية لمعالجة المستندات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

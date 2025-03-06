@@ -3,10 +3,16 @@ title: Manipulacja tekstem
 linktitle: Manipulacja tekstem
 second_title: Aspose.Page API .NET
 description: Opanuj manipulację tekstem w .NET dzięki samouczkom Aspose.Page. Dowiedz się, jak dodawać tekst Unicode do dokumentów PostScript i XPS. Podnieś swoje umiejętności manipulowania dokumentami.
-type: docs
 weight: 32
 url: /pl/net/text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja tekstem
+
 
 
 ## Wstęp
@@ -39,3 +45,9 @@ Dowiedz się, jak dodać tekst Unicode do plików PostScript przy użyciu Aspose
 Odkryj możliwości Aspose.Page dla .NET dzięki naszemu przewodnikowi krok po kroku na temat dodawania tekstu Unicode do dokumentów XPS.
 ### [Dodaj tekst do dokumentu XPS za pomocą Aspose.Page dla .NET](./add-text-to-xps-document/)
 Zapoznaj się z przewodnikiem krok po kroku dotyczącym dodawania tekstu do dokumentów XPS przy użyciu Aspose.Page dla .NET. Ulepsz swoje projekty .NET bez wysiłku.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

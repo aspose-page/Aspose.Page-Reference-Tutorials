@@ -3,10 +3,16 @@ title: EPS-Metadatenverwaltung
 linktitle: EPS-Metadatenverwaltung
 second_title: Aspose.Page .NET-API
 description: Verbessern Sie die EPS-Organisation mit Aspose.Page für .NET. Fügen Sie mühelos Metadaten hinzu, um die Zugänglichkeit zu verbessern. Entdecken Sie Tutorials zur EPS-Metadatenverwaltung.
-type: docs
 weight: 36
 url: /de/net/eps-metadata-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# EPS-Metadatenverwaltung
+
 
 ## Einführung
 
@@ -59,3 +65,9 @@ Erfahren Sie, wie Sie benannte Werte in EPS-Dateien mit Aspose.Page für .NET ä
 Meistern Sie die Bearbeitung von EPS-Dateien mit Aspose.Page für .NET. Ändern Sie XMP-Metadatenwerte mühelos.
 ### [Extrahieren Sie Metadaten aus einem EPS-Dokument mit Aspose.Page für .NET](./extract-metadata-from-eps-document/)
 Verbessern Sie die Organisation von EPS-Dokumenten mit Aspose.Page für .NET. Fügen Sie mühelos Metadaten hinzu, um die Zugänglichkeit und den Informationsabruf zu verbessern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

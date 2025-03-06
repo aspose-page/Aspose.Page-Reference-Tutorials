@@ -3,10 +3,16 @@ title: Lägg till Array-objekt i XMP-metadata med Java
 linktitle: Lägg till Array-objekt i XMP-metadata med Java
 second_title: Aspose.Page Java API
 description: Förbättra EPS-filer med Aspose.Page för Java. Lär dig att lägga till arrayobjekt till XMP-metadata utan ansträngning. Följ vår steg-för-steg-guide nu!
-type: docs
 weight: 10
 url: /sv/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till Array-objekt i XMP-metadata med Java
+
 ## Introduktion
 Välkommen till vår steg-för-steg-guide om hur du använder Aspose.Page för Java för att lägga till matrisobjekt i XMP-metadata. Aspose.Page är ett kraftfullt Java-bibliotek som låter dig manipulera och arbeta med olika dokumentformat, inklusive EPS-filer. I den här handledningen kommer vi att fokusera på den specifika uppgiften att lägga till arrayobjekt i XMP-metadata med hjälp av Java.
 ## Förutsättningar
@@ -78,3 +84,9 @@ Ja, Aspose.Page stöder olika dokumentformat, inklusive EPS, PDF och XPS.
  Du kan köpa produkten[här](https://purchase.aspose.com/buy).
 ### Finns tillfälliga licenser tillgängliga för Aspose.Page för Java?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java kullanarak XMP'den Meta Veri Alma
 linktitle: Java kullanarak XMP'den Meta Veri Alma
 second_title: Aspose.Page Java API'si
 description: XMP meta verilerini zahmetsizce çıkarmak için Aspose.Page for Java'nın gücünün kilidini açın. Adım adım kılavuzumuzla belge analizini geliştirin!
-type: docs
 weight: 18
 url: /tr/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak XMP'den Meta Veri Alma
+
 ## giriiş
 XMP dosyalarından meta veri çıkarmak için Aspose.Page for Java'nın kullanımına ilişkin adım adım kılavuzumuza hoş geldiniz. XMP (Genişletilebilir Meta Veri Platformu), meta verileri dosyalarda depolamanın standartlaştırılmış bir yolunu sağlar. Bu eğitim, Java kullanarak XMP'den temel bilgilerin alınmasına odaklanarak belge ayrıntılarına ilişkin öngörüler sunar.
 ## Önkoşullar
@@ -81,3 +87,9 @@ Tebrikler! Aspose.Page for Java'yı kullanarak XMP meta verilerini nasıl çıka
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Page for Java'ya yönelik ek kaynaklar var mı?
  Tamamını keşfedin[dokümantasyon](https://reference.aspose.com/page/java/) ve kütüphaneyi indirin[Burada](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

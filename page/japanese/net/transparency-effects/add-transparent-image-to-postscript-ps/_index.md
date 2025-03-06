@@ -3,10 +3,16 @@ title: Aspose.Page を使用して透明な画像を PostScript (PS) に追加�
 linktitle: PostScript に透明画像を追加 (PS)
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して、PostScript ドキュメントを透明な画像で強化します。ダイナミックで視覚的に魅力的な結果を得るには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/net/transparency-effects/add-transparent-image-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して透明な画像を PostScript (PS) に追加する
+
 ## 導入
 
 ドキュメントの操作と拡張の分野では、Aspose.Page for .NET は PostScript (PS) ファイルを操作するための強力なツールとして際立っています。それが提供する魅力的な機能の 1 つは、PS ドキュメントに透明な画像を追加することです。このチュートリアルでは、Aspose.Page を使用してこれを実現し、PS ドキュメントをより動的で視覚的に魅力的なものにするプロセスを説明します。
@@ -143,3 +149,9 @@ A4: Aspose.Page は、特に PS および XPS ドキュメントを操作する�
 ### Q5: 設定できる透明度レベルに制限はありますか?
 
 A5: いいえ、Aspose.Page を使用すると、必要に応じて透明度レベルを設定できるため、ドキュメント デザインに柔軟性がもたらされます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

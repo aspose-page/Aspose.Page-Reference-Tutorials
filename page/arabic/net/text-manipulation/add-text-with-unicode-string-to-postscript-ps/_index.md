@@ -3,10 +3,16 @@ title: إضافة نص باستخدام سلسلة Unicode إلى PostScript (PS
 linktitle: إضافة نص باستخدام سلسلة Unicode إلى PostScript (PS)
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية إضافة نص Unicode إلى ملفات PostScript باستخدام Aspose.Page لـ .NET. تعزيز معالجة المستندات بسهولة.
-type: docs
 weight: 11
 url: /ar/net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة نص باستخدام سلسلة Unicode إلى PostScript (PS) باستخدام Aspose.Page
+
 ## مقدمة
 
 في مجال معالجة المستندات، تبرز Aspose.Page for .NET كمكتبة قوية تمكن المطورين من إنشاء تنسيقات المستندات المختلفة وتحريرها وتحويلها. إحدى ميزاته القوية هي القدرة على إضافة نص باستخدام سلاسل Unicode إلى ملفات PostScript (PS). في هذا البرنامج التعليمي، سنستكشف دليلًا خطوة بخطوة حول إنجاز هذه المهمة، مما يوفر تجربة سلسة للمطورين الذين يعملون مع Aspose.Page.
@@ -110,3 +116,9 @@ A4: يدعم Aspose.Page التنسيقات المختلفة، بما في ذل�
 ### س5: هل يمكنني تخصيص مظهر النص المضاف؟
 
 ج5: نعم، يمكنك تخصيص الخط والحجم واللون والخصائص الأخرى للنص في Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Управление изображениями
 linktitle: Управление изображениями
 second_title: Aspose.Page .NET API
 description: Улучшите визуальные эффекты вашего документа без особых усилий! Изучите учебные пособия по Aspose.Page .NET, посвященные управлению изображениями. От добавления изображений до преобразования форматов — освойте каждый шаг.
-type: docs
 weight: 28
 url: /ru/net/image-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление изображениями
+
 ## Введение
 
 Вы хотите повысить визуальную привлекательность своих документов с помощью Aspose.Page для .NET? Не смотрите дальше! В этом подробном руководстве мы познакомим вас с различными учебными пособиями по управлению изображениями, которые позволят вам беспрепятственно улучшать ваши документы.
@@ -45,3 +51,9 @@ url: /ru/net/image-management/
 Узнайте, как легко добавлять мозаичные изображения в документы XPS с помощью Aspose.Page для .NET. Повышайте визуальную привлекательность и создавайте потрясающие документы.
 ### [Преобразование изображения в формат EPS с помощью Aspose.Page для .NET](./convert-image-to-eps-format/)
 Узнайте, как конвертировать изображения JPEG в формат EPS с помощью Aspose.Page для .NET. Подробное руководство с пошаговыми инструкциями.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: أضف صورة إلى مستند PostScript (PS) باستخدام Aspose
 linktitle: إضافة صورة إلى مستند PostScript (PS).
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية تحسين مستندات PostScript الخاصة بك عن طريق إضافة صور باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تجربة سلسة.
-type: docs
 weight: 10
 url: /ar/net/image-management/add-image-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف صورة إلى مستند PostScript (PS) باستخدام Aspose.Page
+
 ## مقدمة
 
 في هذا البرنامج التعليمي، سنستكشف عملية إضافة الصور إلى مستند PostScript (PS) باستخدام مكتبة Aspose.Page القوية لـ .NET. يعمل Aspose.Page على تبسيط عملية معالجة مستندات PS، مما يوفر طريقة فعالة ومباشرة لتحسين مستندك بالصور. سيرشدك هذا الدليل خطوة بخطوة خلال العملية، مما يضمن أنك تفهم كل مفهوم بدقة.
@@ -122,3 +128,9 @@ document.Save();
 ### س5: كيف يمكنني استخراج الصور من مستند PS؟
 
 ج5: يوفر Aspose.Page for .NET طرقًا لاستخراج الصور من مستندات PS. الرجوع إلى الوثائق للحصول على معلومات مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

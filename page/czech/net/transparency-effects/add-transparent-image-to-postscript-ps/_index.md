@@ -3,10 +3,16 @@ title: Přidejte průhledný obrázek do PostScriptu (PS) pomocí Aspose.Page
 linktitle: Přidat průhledný obrázek do PostScriptu (PS)
 second_title: Aspose.Page .NET API
 description: Vylepšete své PostScriptové dokumenty průhlednými obrázky pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro dynamické a vizuálně přitažlivé výsledky.
-type: docs
 weight: 10
 url: /cs/net/transparency-effects/add-transparent-image-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte průhledný obrázek do PostScriptu (PS) pomocí Aspose.Page
+
 ## Úvod
 
 V oblasti manipulace a vylepšování dokumentů vyniká Aspose.Page for .NET jako výkonný nástroj pro práci se soubory PostScript (PS). Jednou z fascinujících funkcí, které nabízí, je přidávání průhledných obrázků do dokumentů PS. V tomto tutoriálu vás provedeme procesem, jak toho dosáhnout pomocí Aspose.Page, díky čemuž budou vaše dokumenty PS dynamičtější a vizuálně přitažlivější.
@@ -143,3 +149,9 @@ A4: Aspose.Page poskytuje komplexní sadu funkcí pro specifickou práci s dokum
 ### Otázka 5: Existují nějaká omezení úrovně průhlednosti, kterou mohu nastavit?
 
 Odpověď 5: Ne, Aspose.Page umožňuje nastavit úrovně průhlednosti podle potřeby a poskytuje flexibilitu při návrhu dokumentu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page Java テキスト操作
 linktitle: Java PostScript でテキストを追加する
 second_title: Aspose.Page Java API
 description: PostScript ドキュメントへのテキストの追加に関するチュートリアルで、Aspose.Page for Java の威力を体験してください。システム フォントとカスタム フォントを簡単に使用する方法を学びましょう。
-type: docs
 weight: 10
 url: /ja/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java テキスト操作
+
 ## 導入
 Aspose.Page for Java を使用して Java PostScript にテキストを追加するためのステップバイステップ ガイドへようこそ。 Aspose.Page for Java は、開発者が PostScript ドキュメントを簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、テキストの追加、システム フォントとカスタム フォントの使用、テキストのアウトライン化、および視覚的に魅力的な結果を得るストロークの組み込みのプロセスを順を追って説明します。
 ## 前提条件
@@ -99,3 +105,9 @@ document.save();
 `ExternalFontCache`カスタム フォントをフェッチし、それらがテキスト操作に確実に利用できるようにするために使用されます。
 ### アウトライン化されたテキストに別のストロークを適用できますか?
 はい、ストロークの幅と色は、`Stroke`クラスと`Color`それぞれクラス。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

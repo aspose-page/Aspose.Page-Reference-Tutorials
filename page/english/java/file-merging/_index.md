@@ -3,10 +3,16 @@ title: File Merging
 linktitle: File Merging
 second_title: Aspose.Page Java API
 description: Effortlessly merge PostScript files to PDF and convert XPS to PDF or XPS in Java using Aspose.Page. Follow step-by-step tutorials for seamless document conversion.
-type: docs
 weight: 31
 url: /java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# File Merging
+
 
 ## Introduction
 
@@ -40,3 +46,9 @@ Effortlessly merge PostScript files to PDF in Java with Aspose.Page. Comprehensi
 Learn how to convert XPS to PDF in Java effortlessly with Aspose.Page. Follow our step-by-step guide for efficient document conversion.
 ### [Convert XPS to XPS in Java](./xps-to-xps/)
 Learn how to merge XPS files in Java seamlessly using Aspose.Page. Follow our step-by-step guide for efficient document manipulation. Boost your Java development skills now!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

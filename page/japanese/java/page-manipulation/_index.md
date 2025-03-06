@@ -3,10 +3,16 @@ title: Java ページの操作
 linktitle: Java ページの操作
 second_title: Aspose.Page Java API
 description: Aspose.Page チュートリアルで Java ページ操作の秘密を解き明かしましょう。クリッピングと変換を詳しく調べて、視覚的に美しいドキュメントを簡単に作成します。
-type: docs
 weight: 20
 url: /ja/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java ページの操作
+
 
 ## 導入
 
@@ -50,3 +56,9 @@ Aspose.Page for Java は、強力な機能をすぐに使えるようにしま�
 Aspose.Page を使用した Java ページ操作でのクリッピングの技術を探索してください。美しいビジュアルとコントロールを実現する正確なドキュメント作成をマスターします。
 ### [Java ページ操作における変換](./transformations/)
 Aspose.Page for Java を使用して Java で高度なページ変換を実行する方法を学びます。強力な操作機能で Java アプリケーションを強化します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

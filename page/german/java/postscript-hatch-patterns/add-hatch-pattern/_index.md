@@ -3,10 +3,16 @@ title: Fügen Sie ein Schraffurmuster in Java PostScript hinzu
 linktitle: Fügen Sie ein Schraffurmuster in Java PostScript hinzu
 second_title: Aspose.Page Java-API
 description: Erfahren Sie, wie Sie mit Aspose.Page faszinierende Schraffurmuster zu Java-PostScript-Dokumenten hinzufügen. Werten Sie Ihre visuellen Inhalte mühelos auf.
-type: docs
 weight: 10
 url: /de/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie ein Schraffurmuster in Java PostScript hinzu
+
 ## Einführung
 In der Welt der Java-Programmierung ist die Verbesserung visueller Elemente eine häufige Anforderung für Entwickler. Eine interessante visuelle Verbesserung ist das Hinzufügen von Schraffurmustern zu PostScript-Dokumenten. Dieses Tutorial führt Sie durch den Prozess des Hinzufügens von Schraffurmustern mit Aspose.Page für Java.
 ## Voraussetzungen
@@ -97,3 +103,9 @@ Ja, Aspose.Page für Java ist für die nahtlose Integration in verschiedene Java
  Entdecke die[Aspose.Page für Java-Forum](https://forum.aspose.com/c/page/39) für Tutorials und Community-Unterstützung.
 ### Gibt es eine umfassende Dokumentationsressource für Aspose.Page für Java?
  Ja, siehe Dokumentation[Hier](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

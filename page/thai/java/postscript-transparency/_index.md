@@ -3,10 +3,16 @@ title: ความโปร่งใส - โพสต์สคริปต์
 linktitle: ความโปร่งใส - โพสต์สคริปต์
 second_title: Aspose.Page Java API
 description: ยกระดับ Java PostScript ด้วย Aspose.Page สำหรับ Java ผสานรวมภาพที่โปร่งใสได้อย่างราบรื่นและสร้างความโปร่งใสเสมือนที่สดใสเพื่อการแสดงภาพที่น่าดึงดูด
-type: docs
 weight: 39
 url: /th/java/postscript-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ความโปร่งใส - โพสต์สคริปต์
+
 ## การแนะนำ
 
 คุณพร้อมที่จะยกระดับเอกสาร Java PostScript ของคุณไปสู่อีกระดับแล้วหรือยัง? ไม่ต้องมองอีกต่อไป! ในชุดบทช่วยสอนนี้ เราจะเจาะลึกความซับซ้อนของความโปร่งใส โดยมุ่งเน้นไปที่ประเด็นสำคัญสองประการ: การเพิ่มรูปภาพโปร่งใสและการสร้างความโปร่งใสหลอก
@@ -36,3 +42,9 @@ url: /th/java/postscript-transparency/
 สำรวจการรวมรูปภาพโปร่งใสในเอกสาร Java PostScript เข้ากับ Aspose.Page สำหรับ Java ได้อย่างราบรื่น ยกระดับการแสดงภาพเอกสารของคุณได้อย่างง่ายดาย
 ### [แสดงความโปร่งใสหลอกใน Java PostScript](./show-pseudo-transparency/)
 ปลดล็อกกราฟิกที่มีชีวิตชีวาใน Java PostScript! ปฏิบัติตามบทช่วยสอน Aspose.Page ของเราสำหรับการสร้างความโปร่งใสหลอกแบบทีละขั้นตอน ดาวน์โหลดเดี๋ยวนี้!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

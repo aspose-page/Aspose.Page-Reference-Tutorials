@@ -3,10 +3,16 @@ title: 在 Java 中裁剪 EPS 檔案 - 使用 Aspose.Page 的逐步指南
 linktitle: 用 Java 裁切 EPS 文件
 second_title: Aspose.Page Java API
 description: 探索使用 Aspose.Page 在 Java 中裁剪 EPS 檔案的逐步指南。輕鬆提升您的文件操作技能。
-type: docs
 weight: 10
 url: /zh-hant/java/manipulation-eps/crop/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中裁剪 EPS 檔案 - 使用 Aspose.Page 的逐步指南
+
 ## 介紹
 您是否希望在 Java 應用程式中操作 EPS 檔案並想知道如何有效地裁剪它們？別再猶豫了！在本綜合指南中，我們將引導您逐步完成使用強大的 Aspose.Page for Java 程式庫裁切 EPS 檔案的過程。
 ## 先決條件
@@ -69,3 +75,9 @@ doc.cropEps(outputEpsStream, newBoundingBox);
 答：是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### Q：如何獲得臨時許可證？
 答：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: เพิ่มรูปแบบฟักใน Java PostScript
 linktitle: เพิ่มรูปแบบฟักใน Java PostScript
 second_title: Aspose.Page Java API
 description: เรียนรู้วิธีเพิ่มรูปแบบแฮทช์ที่น่าดึงดูดให้กับเอกสาร Java PostScript โดยใช้ Aspose.Page ยกระดับเนื้อหาภาพของคุณได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มรูปแบบฟักใน Java PostScript
+
 ## การแนะนำ
 ในโลกของการเขียนโปรแกรม Java การปรับปรุงองค์ประกอบภาพเป็นข้อกำหนดทั่วไปสำหรับนักพัฒนา การปรับปรุงภาพที่น่าสนใจประการหนึ่งคือการเพิ่มรูปแบบฟักลงในเอกสาร PostScript บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการเพิ่มรูปแบบแฮทช์โดยใช้ Aspose.Page สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -97,3 +103,9 @@ document.save();
  สำรวจ[Aspose.Page สำหรับฟอรัม Java](https://forum.aspose.com/c/page/39) สำหรับบทช่วยสอนและการสนับสนุนจากชุมชน
 ### มีทรัพยากรเอกสารที่ครอบคลุมสำหรับ Aspose.Page สำหรับ Java หรือไม่
  ใช่ โปรดดูเอกสารประกอบ[ที่นี่](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

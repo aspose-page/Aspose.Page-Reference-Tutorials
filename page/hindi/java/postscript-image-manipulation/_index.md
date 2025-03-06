@@ -3,10 +3,16 @@ title: छवि हेरफेर - पोस्टस्क्रिप्ट
 linktitle: छवि हेरफेर - पोस्टस्क्रिप्ट
 second_title: Aspose.Page जावा एपीआई
 description: जावा के लिए Aspose.Page के साथ दस्तावेज़ हेरफेर कौशल बढ़ाएँ। हमारे पोस्टस्क्रिप्ट ट्यूटोरियल में गहराई से जाएँ, जावा में छवियाँ जोड़ना सीखें और अपनी दस्तावेज़ क्षमताओं को उन्नत करें।
-type: docs
 weight: 28
 url: /hi/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# छवि हेरफेर - पोस्टस्क्रिप्ट
+
 
 ## परिचय
 
@@ -32,3 +38,9 @@ url: /hi/java/postscript-image-manipulation/
 ## छवि हेरफेर - पोस्टस्क्रिप्ट ट्यूटोरियल
 ### [जावा पोस्टस्क्रिप्ट में छवि जोड़ें](./add-image/)
 पोस्टस्क्रिप्ट दस्तावेज़ों में छवियां जोड़ने पर इस ट्यूटोरियल में Aspose.Page Java के सहज एकीकरण का अन्वेषण करें। अपनी दस्तावेज़ हेरफेर क्षमताओं को बढ़ाएँ।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

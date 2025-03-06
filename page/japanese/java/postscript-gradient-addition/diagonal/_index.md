@@ -3,10 +3,16 @@ title: Java PostScriptで対角線のグラデーションを追加する
 linktitle: Java PostScriptで対角線のグラデーションを追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用して、Java PostScript ドキュメントを斜めのグラデーションで強化します。ステップバイステップのガイドに従って、鮮やかな色のトランジションを簡単に追加します。
-type: docs
 weight: 10
 url: /ja/java/postscript-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScriptで対角線のグラデーションを追加する
+
 ## 導入
 Aspose.Page for Java を使用して Java PostScript に斜めのグラデーションを追加するためのステップバイステップ ガイドへようこそ。このチュートリアルでは、各例を複数のステップに分けてプロセスを説明します。熟練した SEO ライターとして、コンテンツが有益であるだけでなく、検索エンジン向けに最適化されていて、開発者や愛好家が理解しやすいものであることを保証します。
 ## 前提条件
@@ -95,3 +101,9 @@ A: はい、Aspose.Page for Java は、PostScript やその他のグラフィッ
  A: ライセンスを購入できます[ここ](https://purchase.aspose.com/buy).
 ### Q: サポートが必要ですか、それとも質問がありますか?
  A: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

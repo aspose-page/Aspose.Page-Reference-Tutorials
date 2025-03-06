@@ -3,10 +3,16 @@ title: 텍스트 조작 - 포스트스크립트
 linktitle: 텍스트 조작 - 포스트스크립트
 second_title: Aspose.페이지 자바 API
 description: PostScript 튜토리얼을 통해 Aspose.Page에서 Java의 잠재력을 알아보세요. 유니코드 문자열을 포함한 텍스트를 손쉽게 추가하여 프로젝트를 향상하세요.
-type: docs
 weight: 36
 url: /ko/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 텍스트 조작 - 포스트스크립트
+
 
 ## 소개
 
@@ -30,3 +36,9 @@ Aspose.Page for Java는 개발자에게 직관적인 인터페이스를 제공�
 PostScript 문서에 텍스트를 추가하는 방법에 대한 튜토리얼에서 Java용 Aspose.Page의 강력한 기능을 살펴보세요. 시스템 및 사용자 정의 글꼴을 쉽게 사용하는 방법을 알아보세요.
 ### [Java PostScript에서 유니코드 문자열을 사용하여 텍스트 추가](./add-text-unicode/)
 PostScript 프로젝트에 유니코드 텍스트를 추가할 때 Aspose.Page for Java의 강력한 기능을 살펴보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

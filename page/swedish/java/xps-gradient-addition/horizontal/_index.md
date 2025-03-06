@@ -3,10 +3,16 @@ title: Lägg till horisontell gradient i Java XPS
 linktitle: Lägg till horisontell gradient i Java XPS
 second_title: Aspose.Page Java API
 description: Lär dig hur du lägger till en fantastisk horisontell gradient till XPS-dokument i Java med Aspose.Page. Följ vår steg-för-steg-guide för sömlös integration.
-type: docs
 weight: 11
 url: /sv/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till horisontell gradient i Java XPS
+
 ## Introduktion
 Välkommen till denna steg-för-steg-guide för att lägga till en horisontell gradient i Java XPS med Aspose.Page för Java. Aspose.Page för Java är ett kraftfullt bibliotek som låter utvecklare arbeta med XPS-dokument (XML Paper Specification) sömlöst.
 I den här handledningen går vi igenom processen att skapa en Java-applikation för att lägga till en horisontell gradient till ett XPS-dokument. Följ stegen nedan för att uppnå detta enkelt.
@@ -70,3 +76,9 @@ Ja, förutom linjära gradienter stöder Aspose.Page radiella gradienter för fl
 Absolut! Du har full kontroll över färgerna och positionerna för varje gradientstopp.
 ### F: Finns det ett communityforum för Aspose.Page där jag kan söka hjälp?
  Ja, du kan besöka[Aspose.Page forum](https://forum.aspose.com/c/page/39) att få kontakt med samhället och få hjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

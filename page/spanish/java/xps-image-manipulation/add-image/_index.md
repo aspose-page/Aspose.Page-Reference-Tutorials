@@ -3,10 +3,16 @@ title: Adición de imágenes Java XPS una guía sencilla con Aspose.Page
 linktitle: Agregar imagen en Java XPS
 second_title: API de Java de Aspose.Page
 description: Aprenda cómo agregar imágenes sin esfuerzo a documentos XPS en Java usando Aspose.Page. Mejore el procesamiento de sus documentos con esta guía paso a paso.
-type: docs
 weight: 10
 url: /es/java/xps-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adición de imágenes Java XPS una guía sencilla con Aspose.Page
+
 En el mundo del desarrollo de Java, la capacidad de trabajar con documentos XPS es crucial para diversas aplicaciones. Aspose.Page para Java proporciona un poderoso conjunto de herramientas para manipular documentos XPS y una tarea esencial es agregar imágenes. En esta guía paso a paso, lo guiaremos a través del proceso de agregar una imagen a un documento XPS usando Aspose.Page para Java.
 ## Introducción
 Agregar imágenes a documentos XPS es un requisito común en muchas aplicaciones Java, desde la generación de informes hasta el procesamiento de documentos. Aspose.Page para Java simplifica esta tarea y ofrece métodos eficientes para integrar perfectamente imágenes en sus archivos XPS. En este tutorial, demostraremos cómo agregar una imagen a un documento XPS usando Aspose.Page para Java.
@@ -58,3 +64,9 @@ Aspose.Page para Java admite varios formatos de imagen, incluidos TIFF, JPEG, PN
  Puede obtener una licencia temporal de[este enlace](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo encontrar soporte adicional o discutir problemas relacionados con Aspose.Page para Java?
  Visita el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para buscar ayuda, compartir experiencias y conectarse con la comunidad Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

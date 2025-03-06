@@ -3,10 +3,16 @@ title: تخصيص Java PostScript - إضافة مستطيلات باستخدام
 linktitle: إضافة مستطيل في جافا بوستسكريبت
 second_title: Aspose.Page جافا API
 description: استكشف الدليل التفصيلي خطوة بخطوة حول إضافة مستطيلات نابضة بالحياة إلى مستندات Java PostScript باستخدام Aspose.Page for Java. تعزيز تخصيص المستند الخاص بك دون عناء!
-type: docs
 weight: 11
 url: /ar/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص Java PostScript - إضافة مستطيلات باستخدام Aspose.Page
+
 ## مقدمة
 هل تتطلع إلى تحسين مستندات Java PostScript باستخدام مستطيلات نابضة بالحياة؟ لا مزيد من البحث! في هذا الدليل التفصيلي، سنستكشف كيفية استخدام Aspose.Page لـ Java لإضافة مستطيلات إلى مستندات PostScript الخاصة بك. Aspose.Page هي مكتبة قوية توفر ميزات قوية للعمل مع ملفات PostScript، مما يجعلها خيارًا مثاليًا للمطورين الذين يسعون إلى معالجة مستنداتهم وتخصيصها.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ document.save();
  الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء نسخة مرخصة من Aspose.Page لـ Java؟
  شراء نسخة مرخصة[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 轉換 PS
 linktitle: 變形PS
 second_title: Aspose.Page .NET API
 description: 透過這份關於 PostScript 轉換的綜合指南釋放 Aspose.Page for .NET 的潛力。輕鬆建立動態圖形。
-type: docs
 weight: 12
 url: /zh-hant/net/canvas-manipulation/transformationsps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 轉換 PS
+
 ## 介紹
 
 歡迎來到 Aspose.Page for .NET 的世界，您可以釋放 PostScript 文件轉換的力量。本教學將引導您完成各種變換，例如平移、縮放、旋轉、剪切和複雜變換，使您能夠創建視覺上令人驚嘆的動態圖形。
@@ -141,3 +147,9 @@ A4：複雜的轉換可能會影響效能，因此請最佳化程式碼以提高
 ### Q5：我如何獲得 Aspose.Page 相關查詢的支援或尋求協助？
 
  A5：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

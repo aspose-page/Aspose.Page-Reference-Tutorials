@@ -3,10 +3,16 @@ title: معالجة النص - بوستسكريبت
 linktitle: معالجة النص - بوستسكريبت
 second_title: Aspose.Page جافا API
 description: قم بفتح Aspose.Page للاستفادة من إمكانات Java باستخدام دروس PostScript التعليمية. أضف نصًا، بما في ذلك سلاسل Unicode، دون عناء لتحسين مشروعاتك.
-type: docs
 weight: 36
 url: /ar/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة النص - بوستسكريبت
+
 
 ## مقدمة
 
@@ -30,3 +36,9 @@ url: /ar/java/postscript-text-manipulation/
 اكتشف قوة Aspose.Page لـ Java في برنامجنا التعليمي حول إضافة نص إلى مستندات PostScript. تعلم كيفية استخدام النظام والخطوط المخصصة بسهولة.
 ### [إضافة نص باستخدام سلسلة Unicode في Java PostScript](./add-text-unicode/)
 اكتشف قوة Aspose.Page لـ Java في إضافة نص Unicode إلى مشاريع PostScript الخاصة بك. اتبع دليلنا خطوة بخطوة للتكامل السلس.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

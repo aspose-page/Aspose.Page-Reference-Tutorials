@@ -3,10 +3,16 @@ title: XPS ドキュメントを Aspose.Page for .NET とマージする
 linktitle: XPS ドキュメントを結合する
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して XPS ドキュメントを簡単に結合します。シームレスなドキュメント管理については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 12
 url: /ja/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# XPS ドキュメントを Aspose.Page for .NET とマージする
+
 ## 導入
 
 Aspose.Page for .NET を使用して XPS ドキュメントをシームレスに結合したいと考えていますか?このチュートリアルでは、XPS ファイルを簡単に結合するためのステップバイステップのガイダンスを提供しながら、プロセスを説明します。 Aspose.Page for .NET はドキュメント操作タスクを簡素化する強力なライブラリであり、XPS ドキュメントを結合するのに理想的な選択肢です。プロセスを詳しく見て、これを簡単に達成する方法を探ってみましょう。
@@ -94,3 +100,9 @@ A4: ドキュメントの結合を含むすべての機能を使用するには�
 ### Q5: Aspose.Page for .NET には、ドキュメントを結合するための高度なオプションが用意されていますか?
 
 A5: はい、ドキュメントで利用可能な追加のオプションと構成を調べることができます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

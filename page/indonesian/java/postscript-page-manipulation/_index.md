@@ -3,10 +3,16 @@ title: Manipulasi Halaman - PostScript
 linktitle: Manipulasi Halaman - PostScript
 second_title: Aspose.Halaman Java API
 description: Jelajahi Aspose.Page untuk Java dalam tutorial PostScript kami. Tambahkan halaman dengan mudah ke dokumen Java PostScript Anda dengan panduan langkah demi langkah untuk manipulasi yang lancar.
-type: docs
 weight: 32
 url: /id/java/postscript-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Halaman - PostScript
+
 
 ## Perkenalan
 
@@ -34,3 +40,9 @@ Kesimpulannya, Aspose.Page untuk Java memberdayakan pengembang untuk memanfaatka
 Jelajahi cara menambahkan halaman di Java PostScript dengan mudah menggunakan Aspose.Page. Sempurnakan pembuatan dokumen Anda dengan pustaka Java yang canggih ini.
 ### [Menambahkan Halaman di PostScript](./add-pages2/)
 Pelajari cara menambahkan halaman ke dokumen Java PostScript menggunakan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk manipulasi dokumen yang lancar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

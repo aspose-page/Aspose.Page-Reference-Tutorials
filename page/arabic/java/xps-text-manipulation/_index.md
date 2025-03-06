@@ -3,10 +3,16 @@ title: معالجة النص – XPS
 linktitle: معالجة النص – XPS
 second_title: Aspose.Page جافا API
 description: أحدث ثورة في مستندات Java XPS الخاصة بك باستخدام Aspose.Page. استكشف الإرشادات خطوة بخطوة حول معالجة النص. ارفع مهاراتك لتحسين المستندات بسهولة.
-type: docs
 weight: 37
 url: /ar/java/xps-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة النص – XPS
+
 
 أحدث ثورة في مستندات Java XPS الخاصة بك باستخدام دروس Aspose.Page. استكشف الإرشادات خطوة بخطوة حول معالجة النص. ارفع مهاراتك لتحسين المستندات بسهولة.
 
@@ -36,3 +42,9 @@ url: /ar/java/xps-text-manipulation/
 ## التلاعب بالنص - دروس XPS
 ### [إضافة نص في Java XPS](./add-text/)
 قم بتحسين مستندات Java XPS الخاصة بك باستخدام Aspose.Page! اتبع دليلنا خطوة بخطوة لإضافة نص دون عناء. ارفع مهاراتك في التعامل مع المستندات اليوم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

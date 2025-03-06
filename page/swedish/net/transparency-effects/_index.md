@@ -3,10 +3,16 @@ title: Transparenseffekter
 linktitle: Transparenseffekter
 second_title: Aspose.Page .NET API
 description: Upptäck magin med transparenseffekter i dina dokument med Aspose.Page .NET. Lyft din design med steg-för-steg handledningar för fantastiska visuella förbättringar.
-type: docs
 weight: 34
 url: /sv/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Transparenseffekter
+
 
 ## Introduktion
 
@@ -42,3 +48,9 @@ Lär dig hur du lägger till transparenta objekt till XPS-dokument i .NET med As
 Lär dig att ställa in opacitetsmasker i XPS-dokument med Aspose.Page för .NET. Förbättra dokumentets estetik utan ansträngning.
 ### [Visa pseudotransparens i PostScript (PS) med Aspose.Page](./show-pseudo-transparency-in-postscript-ps/)
 Utforska kraften med pseudotransparens i PostScript med Aspose.Page för .NET. Följ vår steg-för-steg-guide för visuellt fantastiska dokument.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

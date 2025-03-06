@@ -3,10 +3,16 @@ title: Voeg naamruimte toe in XMP met behulp van Java
 linktitle: Voeg naamruimte toe in XMP met behulp van Java
 second_title: Aspose.Page Java-API
 description: Ontgrendel de kracht van documentmanipulatie met Aspose.Page voor Java. Leer hoe u moeiteloos XMP-naamruimten kunt toevoegen in deze uitgebreide handleiding.
-type: docs
 weight: 13
 url: /nl/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg naamruimte toe in XMP met behulp van Java
+
 
 ## Invoering
 
@@ -108,3 +114,9 @@ Aspose.Page ondersteunt voornamelijk Java, maar er zijn versies beschikbaar voor
 
 ### Zijn er communityforums voor Aspose.Page?
  Ja, je kunt contact opnemen met de community op de[Aspose.Page-forum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

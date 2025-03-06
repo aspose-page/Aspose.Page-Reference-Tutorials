@@ -3,10 +3,16 @@ title: Dokumentum létrehozása
 linktitle: Dokumentum létrehozása
 second_title: Aspose.Page .NET API
 description: Az Aspose.Page for .NET segítségével könnyedén készíthet lenyűgöző XPS- és PostScript-dokumentumokat. Fedezze fel a dokumentumkészítési és -módosítási oktatóanyagokat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 23
 url: /hu/net/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dokumentum létrehozása
+
 ## Bevezetés
 
 Az Aspose.Page for .NET megnyitja az ajtót az elektronikus dokumentumkészítés lehetőségeinek világa felé. Akár tapasztalt fejlesztő, akár csak kezdő, lépésenkénti útmutatónk segít az XPS- és PostScript-dokumentumok könnyed létrehozásában.
@@ -36,3 +42,9 @@ Fedezze fel az XPS-dokumentumkészítés világát az Aspose.Page for .NET segí
 Ismerje meg, hogyan hozhat létre PostScript-dokumentumokat .NET-ben az Aspose.Page használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében. Töltse le a könyvtárat, és kezdje el könnyedén kezelni a PostScript fájlokat.
 ### [Módosítsa az XPS-dokumentumot az Aspose.Page segítségével .NET-hez](./modify-xps-document/)
 Fedezze fel az Aspose.Page for .NET erejét, amellyel könnyedén módosíthatja az XPS-dokumentumokat. Kövesse lépésenkénti útmutatónkat, javítsa dokumentumfeldolgozását, és adjon hozzá személyre szabott aláírási szövegeket.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

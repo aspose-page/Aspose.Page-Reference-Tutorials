@@ -3,10 +3,16 @@ title: إضافة القطع الناقص في جافا بوستسكريبت
 linktitle: إضافة القطع الناقص في جافا بوستسكريبت
 second_title: Aspose.Page جافا API
 description: أتقن إنشاء مستندات PostScript مذهلة في Java باستخدام Aspose.Page. تعلم كيفية إضافة علامات الحذف خطوة بخطوة للحصول على محتوى جذاب بصريًا.
-type: docs
 weight: 10
 url: /ar/java/postscript-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة القطع الناقص في جافا بوستسكريبت
+
 ## مقدمة
 في عالم تطوير Java الديناميكي، يعد إنشاء مستندات جذابة بصريًا متطلبًا شائعًا. Aspose.Page for Java هي مكتبة قوية تمكن المطورين من التعامل مع ملفات PostScript دون عناء. في هذا البرنامج التعليمي، سوف نستكشف كيفية إضافة علامات الحذف إلى مستندات PostScript باستخدام Aspose.Page لـ Java. اتبع على طول لتعزيز مهارات إنشاء المستندات الخاصة بك!
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ document.save();
  ج: انضم إلى المجتمع في[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) للمناقشات والمساعدة.
 ### س: هل هناك أي موارد مجانية لمعرفة المزيد حول Aspose.Page لـ Java؟
  ج: الاستفادة من[تجربة مجانية](https://releases.aspose.com/) واستكشاف الأمثلة في الوثائق.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

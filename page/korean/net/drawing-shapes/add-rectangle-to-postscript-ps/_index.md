@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 PostScript(PS)에 직사각형 추가
 linktitle: PostScript에 직사각형 추가(PS)
 second_title: Aspose.페이지 .NET API
 description: Aspose.Page를 사용하여 .NET에서 문서 생성을 향상하세요. PostScript(PS) 파일에 직사각형을 추가하는 방법을 단계별로 알아보세요.
-type: docs
 weight: 12
 url: /ko/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 PostScript(PS)에 직사각형 추가
+
 ## 소개
 
 .NET에서 문서 생성 기능을 향상시키려는 경우 Aspose.Page는 PostScript 문서 처리를 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Page for .NET을 사용하여 PostScript 문서에 직사각형을 추가하는 과정을 안내합니다.
@@ -133,3 +139,10 @@ A2: 예, Aspose.Page는 XPS 및 PostScript를 포함한 다양한 문서 형식�
 ### Q5: 구매하기 전에 Aspose.Page를 사용해 볼 수 있나요?
 
  A5: 예, 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/) , 확장된 사용을 위해서는 다음을 고려하십시오.[임시 면허증](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

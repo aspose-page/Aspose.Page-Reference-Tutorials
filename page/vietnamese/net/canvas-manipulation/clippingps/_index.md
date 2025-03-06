@@ -3,10 +3,16 @@ title: Cắt PS bằng Aspose.Page cho .NET
 linktitle: Cắt PS
 second_title: API Aspose.Page .NET
 description: Khám phá sức mạnh của Aspose.Page cho .NET trong hướng dẫn từng bước này về cách cắt tài liệu PostScript. Tìm hiểu cách nâng cao khả năng xử lý tài liệu của bạn một cách dễ dàng.
-type: docs
 weight: 10
 url: /vi/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cắt PS bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện về cách sử dụng Aspose.Page cho .NET để triển khai việc cắt bớt tài liệu PostScript (PS). Hướng dẫn này sẽ hướng dẫn bạn quy trình cắt tài liệu PS bằng Aspose.Page, một thư viện mạnh mẽ để làm việc với nhiều định dạng tài liệu khác nhau trong các ứng dụng .NET.
@@ -147,3 +153,9 @@ Câu trả lời 1: Aspose.Page được thiết kế chủ yếu cho các ứng
 ### Câu hỏi 5: Tôi có thể nhận hỗ trợ hoặc thảo luận về các truy vấn liên quan đến Aspose.Page ở đâu?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

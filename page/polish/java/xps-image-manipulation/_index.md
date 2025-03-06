@@ -3,10 +3,16 @@ title: Manipulacja obrazem - XPS
 linktitle: Manipulacja obrazem - XPS
 second_title: Aspose.Page API Java
 description: Odkryj sztukę łatwej manipulacji obrazami w dokumentach Java XPS za pomocą Aspose.Page. Dowiedz się, jak płynnie dodawać i układać obrazy w celu usprawnienia przetwarzania dokumentów.
-type: docs
 weight: 29
 url: /pl/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja obrazem - XPS
+
 
 ## Wstęp
 
@@ -36,3 +42,9 @@ Podsumowując, Aspose.Page dla Java otwiera drzwi do świata, w którym manipula
 Dowiedz się, jak bez wysiłku dodawać obrazy do dokumentów XPS w Javie za pomocą Aspose.Page. Usprawnij przetwarzanie dokumentów dzięki temu przewodnikowi krok po kroku.
 ### [Dodaj obraz kafelkowy w Java XPS](./add-tiled-image/)
 Poznaj bezproblemową manipulację dokumentami Java XPS za pomocą Aspose.Page. Dzięki temu przewodnikowi krok po kroku nauczysz się bezproblemowo dodawać obrazy sąsiadująco.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page를 사용한 고급 변환 가이드
 linktitle: Java 페이지 조작의 변환
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 Java에서 고급 페이지 변환을 수행하는 방법을 알아보세요. 강력한 조작 기능으로 Java 애플리케이션을 강화하세요.
-type: docs
 weight: 11
 url: /ko/java/page-manipulation/transformations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용한 고급 변환 가이드
+
 ## 소개
 Java용 Aspose.Page의 강력한 기능을 활용하여 Java 페이지 조작에서 변환을 수행하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.Page는 개발자가 다양한 페이지 조작 작업을 효율적으로 수행할 수 있도록 하는 다목적 Java 라이브러리입니다.
 ## 전제 조건
@@ -87,3 +93,9 @@ Aspose.Page는 주로 PostScript 및 XPS 형식의 페이지 조작에 중점을
  임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
 ### 커뮤니티 지원을 구하거나 Aspose.Page for Java에 대해 질문할 수 있는 곳은 어디입니까?
  방문하다[Java 포럼용 Aspose.Page](https://forum.aspose.com/c/page/39) 커뮤니티 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

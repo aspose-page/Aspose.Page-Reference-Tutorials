@@ -3,10 +3,16 @@ title: Làm chủ việc hợp nhất tệp XPS trong Java với Aspose.Page
 linktitle: Chuyển đổi XPS sang XPS trong Java
 second_title: API Java Aspose.Page
 description: Tìm hiểu cách hợp nhất các tệp XPS trong Java một cách liền mạch bằng Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu hiệu quả. Hãy nâng cao kỹ năng phát triển Java của bạn ngay bây giờ!
-type: docs
 weight: 12
 url: /vi/java/file-merging/xps-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ việc hợp nhất tệp XPS trong Java với Aspose.Page
+
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, việc quản lý và thao tác với các tệp XPS là một yêu cầu phổ biến. Cho dù bạn đang xử lý các báo cáo, bản trình bày hay bất kỳ tài liệu XPS nào khác, khả năng hợp nhất nhiều tệp một cách liền mạch là một kỹ năng có giá trị. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình hợp nhất các tệp XPS bằng Aspose.Page cho Java, một API Java mạnh mẽ để làm việc với các tài liệu XPS.
 ## Điều kiện tiên quyết
@@ -59,3 +65,9 @@ Có, Aspose.Page dành cho Java xử lý việc hợp nhất liền mạch với
  Vâng, hãy ghé thăm[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để gắn kết với cộng đồng.
 ### Làm cách nào tôi có thể mua thư viện Aspose.Page cho Java?
  Bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

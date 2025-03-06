@@ -3,10 +3,16 @@ title: 시작하기
 linktitle: 시작하기
 second_title: Aspose.페이지 .NET API
 description: 단계별 튜토리얼을 통해 Aspose.Page .NET의 강력한 기능을 활용해 보세요. 계량형 라이선스를 적용하고, 파일이나 스트림에서 로드하고, 라이선스를 보호하는 등의 작업을 수행하세요.
-type: docs
 weight: 20
 url: /ko/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 시작하기
+
 ## 소개
 
 .NET 튜토리얼용 Aspose.Page의 최종 가이드에 오신 것을 환영합니다. 효율성과 단순성이 결합된 원활한 문서 처리의 세계를 경험해 보세요. 일련의 포괄적인 튜토리얼을 통해 이 강력한 도구의 잠재력을 최대한 활용하는 여정을 시작해 보겠습니다.
@@ -38,3 +44,9 @@ Aspose.Page를 사용하여 .NET에서 문서 조작을 잠금 해제하세요. 
 단계별 가이드를 통해 Aspose.Page for .NET 라이선스를 손쉽게 보호하세요. .NET 애플리케이션에서 원활한 페이지 조작의 잠재력을 최대한 활용하십시오.
 ### [.NET용 Aspose.Page와 함께 포함된 리소스를 사용하여 라이선스 설정](./set-license-using-embedded-resource/)
 .NET용 Aspose.Page에 포함된 리소스를 사용하여 라이선스를 설정하는 방법을 알아보세요. 규정 준수를 보장하고 문서 처리의 잠재력을 최대한 활용하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

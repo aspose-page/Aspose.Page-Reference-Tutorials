@@ -3,10 +3,16 @@ title: Fügen Sie einen Glyphenklon hinzu und ändern Sie die Farbe mit Aspose.P
 linktitle: Glyphenklon hinzufügen und Farbe ändern
 second_title: Aspose.Page .NET-API
 description: Entdecken Sie in diesem umfassenden Tutorial die Leistungsfähigkeit von Aspose.Page für .NET. Erfahren Sie, wie Sie mühelos Glyphenklone hinzufügen und Farben in XPS-Dokumenten ändern.
-type: docs
 weight: 10
 url: /de/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie einen Glyphenklon hinzu und ändern Sie die Farbe mit Aspose.Page für .NET
+
 ## Einführung
 
 Willkommen bei dieser Schritt-für-Schritt-Anleitung zur Verwendung von Aspose.Page für .NET zum Hinzufügen von Glyphen-Klonen und zum Ändern von Farben in Ihren XPS-Dokumenten. Aspose.Page für .NET ist eine leistungsstarke Bibliothek, die Ihnen die nahtlose Arbeit mit XPS-Dateien ermöglicht. In diesem Tutorial konzentrieren wir uns auf das Hinzufügen von Glyphen-Klonen und das Ändern ihrer Farben, um die visuelle Attraktivität Ihrer Dokumente zu verbessern.
@@ -129,3 +135,9 @@ A4: Die kostenlose Testversion weist einige Einschränkungen auf und es wird emp
 ### F5: Wo finde ich eine umfassende Dokumentation für Aspose.Page für .NET?
 
  A5: Sie können sich auf die Dokumentation beziehen[Hier](https://reference.aspose.com/page/net/) Ausführliche Informationen und Beispiele finden Sie hier.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

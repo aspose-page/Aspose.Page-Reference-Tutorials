@@ -3,10 +3,16 @@ title: Thao tác trang - XPS
 linktitle: Thao tác trang - XPS
 second_title: API Java Aspose.Page
 description: Khám phá sức mạnh của Aspose.Page dành cho Java với Hướng dẫn của chúng tôi. Nâng cao tài liệu Java XPS của bạn bằng cách dễ dàng thêm các trang để nâng cao chức năng ứng dụng.
-type: docs
 weight: 33
 url: /vi/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác trang - XPS
+
 
 ## Giới thiệu
 
@@ -36,3 +42,9 @@ Tóm lại, các hướng dẫn Aspose.Page dành cho Java về thao tác trang 
 ## Thao tác trang - Hướng dẫn XPS
 ### [Thêm trang trong Java XPS](./add-page/)
 Nâng cao tài liệu Java XPS bằng Aspose.Page. Tìm hiểu cách dễ dàng thêm trang để nâng cao chức năng ứng dụng. Đi sâu vào hướng dẫn ngay bây giờ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Łączenie dokumentów
 linktitle: Łączenie dokumentów
 second_title: Aspose.Page API .NET
 description: Bez wysiłku łącz dokumenty PostScript i XPS w wysokiej jakości pliki PDF za pomocą Aspose.Page dla .NET. Usprawnij przetwarzanie dokumentów dzięki naszym samouczkom krok po kroku.
-type: docs
 weight: 25
 url: /pl/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Łączenie dokumentów
+
 ## Wstęp
 
 Połącz swój sposób na bezproblemowe zarządzanie dokumentami za pomocą Aspose.Page dla .NET. Odkryj moc łączenia dokumentów dzięki naszym obszernym samouczkom.
@@ -40,3 +46,9 @@ Dowiedz się, jak bez wysiłku scalać dokumenty PostScript do formatu PDF za po
 Bez wysiłku łącz dokumenty XPS w wysokiej jakości pliki PDF za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną konwersję dokumentów.
 ### [Scal dokumenty XPS za pomocą Aspose.Page dla .NET](./merge-xps-documents/)
 Bez wysiłku łącz dokumenty XPS za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo zarządzać dokumentami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

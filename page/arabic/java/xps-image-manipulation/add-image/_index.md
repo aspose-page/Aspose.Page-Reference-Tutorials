@@ -3,10 +3,16 @@ title: إضافة صورة Java XPS - دليل بسيط باستخدام Aspose.
 linktitle: إضافة صورة في Java XPS
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إضافة الصور بسهولة إلى مستندات XPS في Java باستخدام Aspose.Page. ارفع مستوى معالجة مستنداتك باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/xps-image-manipulation/add-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة صورة Java XPS - دليل بسيط باستخدام Aspose.Page
+
 في عالم تطوير Java، تعد القدرة على العمل مع مستندات XPS أمرًا بالغ الأهمية لمختلف التطبيقات. يوفر Aspose.Page for Java مجموعة قوية من الأدوات لمعالجة مستندات XPS، وإحدى المهام الأساسية هي إضافة الصور. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية إضافة صورة إلى مستند XPS باستخدام Aspose.Page لـ Java.
 ## مقدمة
 تعد إضافة الصور إلى مستندات XPS مطلبًا شائعًا في العديد من تطبيقات Java، بدءًا من إنشاء التقارير وحتى معالجة المستندات. يعمل Aspose.Page for Java على تبسيط هذه المهمة، حيث يقدم طرقًا فعالة لدمج الصور بسلاسة في ملفات XPS الخاصة بك. سنوضح في هذا البرنامج التعليمي كيفية إضافة صورة إلى مستند XPS باستخدام Aspose.Page لـ Java.
@@ -58,3 +64,9 @@ doc.save(dataDir + "AddImage_out.xps");
  يمكنك الحصول على ترخيص مؤقت من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على دعم إضافي أو مناقشة المشكلات المتعلقة بـ Aspose.Page for Java؟
  قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لطلب المساعدة ومشاركة الخبرات والتواصل مع مجتمع Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 画像操作 - XPS
 linktitle: 画像操作 - XPS
 second_title: Aspose.Page Java API
 description: Aspose.Page を使用して、Java XPS ドキュメントで簡単に画像を操作する技術を発見してください。ドキュメント処理を強化するために、画像をシームレスに追加して並べて表示する方法を学びます。
-type: docs
 weight: 29
 url: /ja/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 画像操作 - XPS
+
 
 ## 導入
 
@@ -36,3 +42,9 @@ XPS ドキュメントには視覚的な魅力が欠けていませんか?心配
 Aspose.Page を使用して、Java で XPS ドキュメントに画像を簡単に追加する方法を学びます。このステップバイステップのガイドを使用して、文書処理を向上させてください。
 ### [Java XPS でタイル化されたイメージを追加する](./add-tiled-image/)
 Aspose.Page を使用してシームレスな Java XPS ドキュメント操作を体験してください。このステップバイステップのガイドを使用して、タイル画像を簡単に追加する方法を学びましょう。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

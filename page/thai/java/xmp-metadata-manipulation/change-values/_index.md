@@ -3,10 +3,16 @@ title: เปลี่ยนค่าใน XMP โดยใช้ Java
 linktitle: เปลี่ยนค่าใน XMP โดยใช้ Java
 second_title: Aspose.Page Java API
 description: ปรับปรุงเอกสาร EPS ด้วย Aspose.Page สำหรับ Java ปรับเปลี่ยนข้อมูลเมตา XMP ได้อย่างง่ายดายเพื่อเนื้อหาที่ได้รับการปรับแต่งและเป็นมืออาชีพ #การพัฒนาจาวา
-type: docs
 weight: 17
 url: /th/java/xmp-metadata-manipulation/change-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เปลี่ยนค่าใน XMP โดยใช้ Java
+
 ## การแนะนำ
 ในขอบเขตของการประมวลผลและการจัดการเอกสาร Aspose.Page สำหรับ Java โดดเด่นในฐานะเครื่องมืออันทรงพลัง บทช่วยสอนนี้จะเจาะลึกกระบวนการเปลี่ยนค่า XMP (Extensible Metadata Platform) ในเอกสาร EPS (Encapsulated PostScript) โดยใช้ Java กับไลบรารี Aspose.Page ด้วยการทำตามคำแนะนำทีละขั้นตอน คุณจะได้เรียนรู้วิธีแก้ไขข้อมูลเมตาอย่างง่ายดาย เพื่อให้มั่นใจว่าเอกสารของคุณได้รับการปรับแต่งให้ตรงกับความต้องการเฉพาะของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -83,3 +89,9 @@ try {
  ใช่ คุณสามารถเข้าถึงการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page สำหรับ Java ได้อย่างไร
  ได้รับใบอนุญาตชั่วคราว[ที่นี่](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

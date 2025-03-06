@@ -3,10 +3,16 @@ title: Agregue una imagen en mosaico a un documento XPS con Aspose.Page para .NE
 linktitle: Agregar imagen en mosaico al documento XPS
 second_title: Aspose.Página .NET API
 description: Explore cómo agregar imágenes en mosaico a documentos XPS sin esfuerzo con Aspose.Page para .NET. Mejore el atractivo visual y cree documentos sorprendentes.
-type: docs
 weight: 12
 url: /es/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue una imagen en mosaico a un documento XPS con Aspose.Page para .NET
+
 ## Introducción
 
 ¿Está buscando mejorar sus documentos XPS agregando imágenes en mosaico visualmente atractivas? Aspose.Page para .NET permite a los desarrolladores lograr esto sin problemas. En esta guía paso a paso, lo guiaremos a través del proceso de agregar una imagen en mosaico a un documento XPS usando Aspose.Page para .NET.
@@ -95,3 +101,9 @@ R2: Ciertamente, como se demuestra en el ejemplo, puedes establecer la opacidad 
 ### P5: ¿Dónde puedo buscar ayuda o conectarme con la comunidad Aspose.Page?
 
  A5: Visita el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para interactuar con la comunidad, hacer preguntas y encontrar soluciones.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

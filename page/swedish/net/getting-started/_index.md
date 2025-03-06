@@ -3,10 +3,16 @@ title: Komma igång
 linktitle: Komma igång
 second_title: Aspose.Page .NET API
 description: Lås upp kraften i Aspose.Page .NET med steg-för-steg tutorials. Tillämpa uppmätta licenser, ladda från filer eller strömmar, säkra licenser och mer.
-type: docs
 weight: 20
 url: /sv/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Komma igång
+
 ## Introduktion
 
 Välkommen till den ultimata guiden på Aspose.Page för .NET-tutorials. Dyk in i en värld av sömlös dokumentbehandling, där effektivitet möter enkelhet. Låt oss ge oss ut på en resa för att utnyttja det här kraftfulla verktygets fulla potential genom en serie omfattande självstudier.
@@ -38,3 +44,9 @@ Lås upp dokumentmanipulation i .NET med Aspose.Page. Följ vår guide för att 
 Säkra din Aspose.Page för .NET-licens utan ansträngning med vår steg-för-steg-guide. Lås upp den fulla potentialen för sömlös sidmanipulation i dina .NET-applikationer.
 ### [Ställ in licens med inbäddad resurs med Aspose.Page för .NET](./set-license-using-embedded-resource/)
 Lär dig hur du ställer in en licens med inbäddade resurser med Aspose.Page för .NET. Säkerställ efterlevnad och frigör dokumentbehandlingens fulla potential.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

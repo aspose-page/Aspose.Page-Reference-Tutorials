@@ -3,10 +3,16 @@ title: 繪製形狀
 linktitle: 繪製形狀
 second_title: Aspose.Page .NET API
 description: 輕鬆增強 .NET 中的文件建立！了解使用 Aspose.Page .NET 將圓形、橢圓形和矩形新增至 PostScript (PS) 的逐步教學。
-type: docs
 weight: 31
 url: /zh-hant/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 繪製形狀
+
 ## 簡介
 
 Aspose.Page for .NET 讓開發人員能夠在 .NET 環境中提昇文件建立能力。深入學習我們的逐步教程，掌握在 PostScript (PS) 和 XPS 文件中添加迷人形狀的藝術。
@@ -33,3 +39,9 @@ Aspose.Page for .NET 讓開發人員能夠在 .NET 環境中提昇文件建立�
 使用 Aspose.Page 增強 .NET 中的文件建立。了解逐步為 PostScript (PS) 檔案新增矩形。
 ### [使用 Aspose.Page for .NET 將矩形新增至 XPS 文檔](./add-rectangle-to-xps-document/)
 使用 Aspose.Page for .NET 增強文件建立。在此逐步教學中了解如何為 XPS 文件新增矩形。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

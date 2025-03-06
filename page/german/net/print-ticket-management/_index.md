@@ -3,10 +3,16 @@ title: Ticketverwaltung drucken
 linktitle: Ticketverwaltung drucken
 second_title: Aspose.Page .NET-API
 description: Erstellen und bearbeiten Sie benutzerdefinierte Drucktickets mit Aspose.Page für .NET. Passen Sie Ihr Druckerlebnis mühelos mit einer fein abgestimmten Steuerung in XPS-Dokumenten an.
-type: docs
 weight: 30
 url: /de/net/print-ticket-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ticketverwaltung drucken
+
 
 ## Einführung
 
@@ -34,3 +40,9 @@ Zusammenfassend lässt sich sagen, dass diese Tutorialreihe ein Muss für Entwic
 Entdecken Sie die Schritt-für-Schritt-Anleitung zum Erstellen benutzerdefinierter Drucktickets mit Aspose.Page für .NET. Passen Sie Ihr Druckerlebnis mit einer fein abgestuften Steuerung an.
 ### [Bearbeiten Sie ein vorhandenes Druckticket mit Aspose.Page für .NET](./print-ticket-management/aspose.page/)
 Erfahren Sie, wie Sie Drucktickets in XPS-Dokumenten mit Aspose.Page für .NET bearbeiten. Eine Schritt-für-Schritt-Anleitung für Entwickler. Verbessern Sie mühelos die Kontrolle über den Dokumentendruck.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

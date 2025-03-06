@@ -3,10 +3,16 @@ title: 視覺畫筆
 linktitle: 視覺畫筆
 second_title: Aspose.Page .NET API
 description: 透過 Aspose.Page 教學提升 .NET 中的文件處理能力。深入視覺畫筆領域，掌握製作視覺效果令人驚嘆的文件的技術。
-type: docs
 weight: 35
 url: /zh-hant/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 視覺畫筆
+
 
 ## 介紹
 
@@ -36,3 +42,9 @@ Aspose.Page for .NET 不只是一個工具；它還是一個工具。它是開�
 ## 視覺畫筆教程
 ### [使用 Aspose.Page for .NET 應用網格視覺筆刷](./apply-grid-visual-brush/)
 使用 Aspose.Page 探索 .NET 中文件處理的動態世界。了解如何應用網格視覺畫筆來製作視覺上令人驚嘆的文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

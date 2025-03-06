@@ -3,10 +3,16 @@ title: Java を使用して XMP に名前空間を追加する
 linktitle: Java を使用して XMP に名前空間を追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用してドキュメント操作の能力を解放します。この包括的なガイドでは、XMP 名前空間を簡単に追加する方法を学びます。
-type: docs
 weight: 13
 url: /ja/java/xmp-metadata-manipulation/add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して XMP に名前空間を追加する
+
 
 ## 導入
 
@@ -108,3 +114,9 @@ Aspose.Page は主に Java をサポートしていますが、.NET などの他
 
 ### Aspose.Page のコミュニティ フォーラムはありますか?
 はい、コミュニティに参加できます。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

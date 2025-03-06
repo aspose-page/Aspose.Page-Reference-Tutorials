@@ -3,10 +3,16 @@ title: Agregue degradado diagonal a XPS con Aspose.Page para .NET
 linktitle: Agregar degradado diagonal a XPS
 second_title: Aspose.Página .NET API
 description: Aprenda cómo agregar cautivadores gradientes diagonales a documentos XPS usando Aspose.Page para .NET. Mejore sus presentaciones visuales sin esfuerzo.
-type: docs
 weight: 11
 url: /es/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue degradado diagonal a XPS con Aspose.Page para .NET
+
 ## Introducción
 
 En el ámbito del procesamiento de documentos, Aspose.Page para .NET se destaca como un poderoso conjunto de herramientas que permite a los desarrolladores manipular documentos XPS con facilidad. Una característica interesante que ofrece es la capacidad de agregar degradados diagonales, lo que le permite mejorar el atractivo visual de sus documentos. Este tutorial lo guiará a través del proceso paso a paso, demostrando cómo incorporar degradados diagonales en archivos XPS usando Aspose.Page para .NET.
@@ -106,3 +112,9 @@ R3: Aspose.Page se centra principalmente en la manipulación de documentos XPS.
 ### P5: ¿Hay una versión de prueba disponible antes de comprar?
 
  R5: Sí, puedes explorar el[prueba gratis](https://releases.aspose.com/) para experimentar Aspose.Page para .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

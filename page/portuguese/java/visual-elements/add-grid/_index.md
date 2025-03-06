@@ -3,10 +3,16 @@ title: Adicionar grade usando Visual Brush em Java
 linktitle: Adicionar grade usando Visual Brush em Java
 second_title: API Java Aspose.Page
 description: Aprimore o visual dos documentos Java com Aspose.Page! Aprenda a adicionar grades usando o Visual Brush passo a passo. Aumente o apelo do seu aplicativo sem esforço.
-type: docs
 weight: 10
 url: /pt/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar grade usando Visual Brush em Java
+
 ## Introdução
 Você está procurando aprimorar seus aplicativos Java com grades visualmente atraentes usando Aspose.Page? Neste tutorial, orientaremos você no processo de adição de uma grade usando Visual Brush em Java com Aspose.Page. O Visual Brush permite pintar uma área com conteúdo visual, criando efeitos de grade impressionantes em seus documentos.
 ## Pré-requisitos
@@ -84,3 +90,9 @@ Absolutamente! O Visual Brush permite pintar com diversas cores, proporcionando 
  Sim, você pode acessar o[teste grátis](https://releases.aspose.com/) para explorar os recursos do Aspose.Page.
 ### Como posso obter uma licença temporária para Aspose.Page?
  Adquira um[licença temporária](https://purchase.aspose.com/temporary-license/) para fins de teste.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

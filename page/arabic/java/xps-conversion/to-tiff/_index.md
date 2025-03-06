@@ -3,10 +3,16 @@ title: تحويل XSP إلى TIFF في جافا
 linktitle: تحويل XSP إلى TIFF في جافا
 second_title: Aspose.Page جافا API
 description: قم بتحويل XPS إلى TIFF بسهولة باستخدام Aspose.Page لـ Java. اتبع دليلنا خطوة بخطوة للتكامل السلس. التحميل الان!
-type: docs
 weight: 14
 url: /ar/java/xps-conversion/to-tiff/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل XSP إلى TIFF في جافا
+
 في العصر الرقمي الحالي، يلعب تحويل المستندات دورًا حاسمًا في التطبيقات المختلفة. إذا كنت أحد مطوري برامج Java وتبحث عن حل قوي لتحويل مستندات XPS (مواصفات ورق XML) إلى TIFF (تنسيق ملفات الصور ذات العلامات)، فإن Aspose.Page for Java هو مكتبتك المفضلة. في هذا الدليل التفصيلي، سنرشدك خلال العملية، مما يضمن حصولك على تجربة سلسة مع شرح تفصيلي ومقتطفات التعليمات البرمجية.
 ## المتطلبات الأساسية
 قبل الغوص في عملية التحويل، تأكد من توفر المتطلبات الأساسية التالية:
@@ -72,3 +78,9 @@ for (int i = 0; i < device.getResult().length; i++) {
  نعم، يمكنك استكشاف المكتبة من خلال النسخة التجريبية المجانية. تنزيله[هنا](https://releases.aspose.com/).
 ### ما هي الدقة الموصى بها لصور TIFF في هذا التحويل؟
 يستخدم المثال المقدم دقة تبلغ 300 نقطة في البوصة، ولكن يمكنك ضبطها بناءً على متطلباتك المحددة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

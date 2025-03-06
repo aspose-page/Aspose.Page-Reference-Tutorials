@@ -3,10 +3,16 @@ title: Tambahkan Gambar Berubin di Java XPS
 linktitle: Tambahkan Gambar Berubin di Java XPS
 second_title: Aspose.Halaman Java API
 description: Jelajahi manipulasi dokumen Java XPS yang mulus dengan Aspose.Page. Pelajari cara menambahkan gambar ubin dengan mudah menggunakan panduan langkah demi langkah ini.
-type: docs
 weight: 11
 url: /id/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gambar Berubin di Java XPS
+
 ## Perkenalan
 Dalam dunia perkembangan Java yang dinamis, kebutuhan akan manipulasi dan pembuatan dokumen yang efisien semakin meningkat. Aspose.Page untuk Java muncul sebagai alat yang ampuh, memberikan pengembang kemampuan untuk bekerja dengan dokumen XPS secara lancar. Tutorial ini berfokus pada tugas tertentu – menambahkan gambar ubin ke dokumen Java XPS.
 ## Prasyarat
@@ -68,3 +74,9 @@ Ya, Aspose.Page menawarkan lisensi komersial. Belilah[Di Sini](https://purchase.
  Terlibat dengan komunitas Aspose.Page di[forum](https://forum.aspose.com/c/page/39).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Page?
  Dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

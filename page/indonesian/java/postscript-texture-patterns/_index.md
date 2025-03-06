@@ -3,10 +3,16 @@ title: Tekstur dan Pola - PostScript
 linktitle: Tekstur dan Pola - PostScript
 second_title: Aspose.Halaman Java API
 description: Tinggikan PostScript dengan Aspose.Page untuk Java. Tambahkan pola ubin tekstur dengan mulus untuk kemungkinan kreatif dalam tutorial Java PostScript kami yang mendetail.
-type: docs
 weight: 38
 url: /id/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tekstur dan Pola - PostScript
+
 ## Perkenalan
 
 Apakah Anda siap untuk meningkatkan dokumen PostScript Anda ke tingkat kreatif yang baru? Aspose.Page untuk Java adalah pintu gerbang Anda untuk mengintegrasikan pola ubin tekstur ke dalam proyek Anda dengan mulus. Dalam panduan komprehensif ini, kita akan mempelajari dunia tekstur dan pola, membuka potensi penuh Java PostScript.
@@ -45,3 +51,9 @@ Siap untuk meningkatkan desain PostScript Anda? Selami tutorial Aspose.Page untu
 ## Tekstur dan Pola - Tutorial PostScript
 ### [Tambahkan Pola Ubin Tekstur di Java PostScript](./add-texture-tiling-pattern/)
 Tambahkan pola ubin tekstur dengan mudah ke dokumen PostScript dengan Aspose.Page untuk Java. Jelajahi panduan integrasi kami yang lancar untuk kemungkinan kreatif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

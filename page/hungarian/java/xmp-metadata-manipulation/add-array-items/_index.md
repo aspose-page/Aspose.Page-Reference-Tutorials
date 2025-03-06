@@ -3,10 +3,16 @@ title: Adjon hozzá tömbelemeket az XMP metaadatokhoz Java használatával
 linktitle: Adjon hozzá tömbelemeket az XMP metaadatokhoz Java használatával
 second_title: Aspose.Page Java API
 description: Javítsa az EPS-fájlokat az Aspose.Page for Java segítségével. Tanuljon meg tömbelemeket könnyedén hozzáadni XMP-metaadatokhoz. Kövesse lépésről lépésre útmutatónkat most!
-type: docs
 weight: 10
 url: /hu/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá tömbelemeket az XMP metaadatokhoz Java használatával
+
 ## Bevezetés
 Üdvözöljük az Aspose.Page for Java használatáról szóló, lépésenkénti útmutatónkban tömbelemek XMP-metaadatokhoz való hozzáadásához. Az Aspose.Page egy hatékony Java-könyvtár, amely lehetővé teszi a különféle dokumentumformátumok, köztük az EPS-fájlok kezelését és kezelését. Ebben az oktatóanyagban arra a konkrét feladatra összpontosítunk, hogy tömbelemeket adjunk hozzá az XMP metaadatokhoz Java használatával.
 ## Előfeltételek
@@ -78,3 +84,9 @@ Igen, az Aspose.Page különféle dokumentumformátumokat támogat, beleértve a
  Megvásárolhatja a terméket[itt](https://purchase.aspose.com/buy).
 ### Rendelkezésre állnak ideiglenes licencek az Aspose.Page for Java számára?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

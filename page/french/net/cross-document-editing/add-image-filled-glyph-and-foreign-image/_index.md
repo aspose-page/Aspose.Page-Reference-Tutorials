@@ -3,10 +3,16 @@ title: Ajouter un glyphe rempli d'image et une image étrangère avec Aspose.Pag
 linktitle: Ajouter un glyphe rempli d'image et une image étrangère
 second_title: API Aspose.Page .NET
 description: Libérez la puissance du traitement des documents dans .NET avec Aspose.Page. Ajoutez facilement des glyphes remplis d’images. Améliorez les visuels et rationalisez votre flux de travail.
-type: docs
 weight: 11
 url: /fr/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un glyphe rempli d'image et une image étrangère avec Aspose.Page .NET
+
 ## Introduction
 
 Dans le monde du développement .NET, Aspose.Page se distingue comme une puissante boîte à outils pour gérer les tâches de traitement de documents. Ce didacticiel vous guidera tout au long du processus d'ajout de glyphes remplis d'images et d'incorporation d'images étrangères à l'aide d'Aspose.Page pour .NET. À la fin de ce guide, vous aurez une solide compréhension de la manière d'améliorer vos capacités de traitement de documents.
@@ -131,3 +137,9 @@ A4 : Oui, vous pouvez personnaliser les styles de chaque glyphe indépendamment,
 ### Q5 : Quels sont les avantages de l’utilisation d’Aspose.Page par rapport à d’autres outils de traitement de documents ?
 
 A5 : Aspose.Page offre un ensemble complet de fonctionnalités, d'excellentes performances et une documentation complète, ce qui en fait un choix privilégié pour de nombreux développeurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

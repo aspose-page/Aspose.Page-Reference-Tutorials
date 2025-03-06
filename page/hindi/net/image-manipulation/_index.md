@@ -3,10 +3,16 @@ title: छवि हेरफेर
 linktitle: छवि हेरफेर
 second_title: Aspose.Page .NET API
 description: हमारे इमेज मैनिपुलेशन ट्यूटोरियल के माध्यम से .NET के लिए Aspose.Page की शक्ति का पता लगाएं। आश्चर्यजनक और सटीक परिणामों के लिए आसानी से ईपीएस छवियों को काटें और आकार बदलें।
-type: docs
 weight: 26
 url: /hi/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# छवि हेरफेर
+
 ## परिचय
 
 क्या आप .NET में अपने EPS छवि हेरफेर कौशल को उन्नत करने के लिए तैयार हैं? .NET के लिए Aspose.Page के साथ हमारे व्यापक छवि हेरफेर ट्यूटोरियल में गोता लगाएँ, जहाँ हम आपको EPS छवियों को क्रॉप करने और आकार बदलने की निर्बाध प्रक्रिया के माध्यम से मार्गदर्शन करते हैं।
@@ -41,3 +47,9 @@ Aspose.Page के साथ आकार बदलने की प्रक्
 Aspose.Page के साथ .NET में EPS छवि हेरफेर की निर्बाध दुनिया का अन्वेषण करें। आश्चर्यजनक परिणामों के लिए छवियों को सहजता से काटें और आकार बदलें।
 ### [.NET के लिए Aspose.Page के साथ EPS छवियों का आकार बदलें](./resize-eps-images/)
 Aspose.Page का उपयोग करके .NET में EPS छवियों का आकार बदलने की सहज प्रक्रिया का अन्वेषण करें। आसानी से अंक, इंच, मिलीमीटर और प्रतिशत में सटीकता प्राप्त करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

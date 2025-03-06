@@ -3,10 +3,16 @@ title: Bestanden samenvoegen
 linktitle: Bestanden samenvoegen
 second_title: Aspose.Page Java-API
 description: Voeg PostScript-bestanden moeiteloos samen naar PDF en converteer XPS naar PDF of XPS in Java met Aspose.Page. Volg stapsgewijze tutorials voor een naadloze documentconversie.
-type: docs
 weight: 31
 url: /nl/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bestanden samenvoegen
+
 
 ## Invoering
 
@@ -40,3 +46,9 @@ Voeg PostScript-bestanden moeiteloos samen naar PDF in Java met Aspose.Page. Uit
 Leer hoe u XPS moeiteloos naar PDF kunt converteren in Java met Aspose.Page. Volg onze stap-voor-stap handleiding voor een efficiënte documentconversie.
 ### [Converteer XPS naar XPS in Java](./xps-to-xps/)
 Leer hoe u XPS-bestanden naadloos kunt samenvoegen in Java met Aspose.Page. Volg onze stapsgewijze handleiding voor efficiënte documentmanipulatie. Verbeter nu uw Java-ontwikkelvaardigheden!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

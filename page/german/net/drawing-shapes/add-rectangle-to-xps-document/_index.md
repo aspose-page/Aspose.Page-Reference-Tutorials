@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page für .NET ein Rechteck zum XPS-Dokument hinzu
 linktitle: Rechteck zum XPS-Dokument hinzufügen
 second_title: Aspose.Page .NET-API
 description: Verbessern Sie die Dokumenterstellung mit Aspose.Page für .NET. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie XPS-Dokumenten Rechtecke hinzufügen.
-type: docs
 weight: 13
 url: /de/net/drawing-shapes/add-rectangle-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page für .NET ein Rechteck zum XPS-Dokument hinzu
+
 ## Einführung
 
 Aspose.Page für .NET ist eine leistungsstarke Bibliothek, die eine Vielzahl von Funktionen für die Arbeit mit XPS-Dokumenten (XML Paper Specification) in .NET-Anwendungen bietet. In diesem Tutorial konzentrieren wir uns auf das Hinzufügen eines Rechtecks zu einem XPS-Dokument mithilfe von Aspose.Page für .NET. Befolgen Sie diese Schritt-für-Schritt-Anleitung, um Ihren Dokumentenerstellungsprozess zu verbessern.
@@ -95,3 +101,9 @@ A1: Ja, Aspose.Page ist so konzipiert, dass es nahtlos mit allen .NET-Anwendunge
 ### F5: Wo kann ich Community-Unterstützung suchen oder Fragen zu Aspose.Page für .NET stellen?
 
  A5: Besuchen Sie die[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) für die Unterstützung der Gemeinschaft.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

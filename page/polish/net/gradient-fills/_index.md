@@ -3,10 +3,16 @@ title: Wypełnienia gradientowe
 linktitle: Wypełnienia gradientowe
 second_title: Aspose.Page API .NET
 description: Odkryj sztukę wypełnień gradientowych w .NET dzięki samouczkom Aspose.Page. Bez wysiłku podnieś poziom swoich projektów — dodawaj urzekające gradienty ukośne, poziome i pionowe.
-type: docs
 weight: 27
 url: /pl/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wypełnienia gradientowe
+
 
 ## Wstęp
 
@@ -49,3 +55,9 @@ Dowiedz się, jak dodawać wspaniałe poziome gradienty do dokumentów XPS za po
 Dowiedz się, jak dodawać atrakcyjne wizualnie gradienty pionowe do dokumentów PostScript (PS) w .NET przy użyciu Aspose.Page. Udoskonal swoje tworzenie dokumentów dzięki temu przewodnikowi krok po kroku.
 ### [Dodaj pionowy gradient do XPS za pomocą Aspose.Page dla .NET](./add-vertical-gradient-to-xps/)
 Dowiedz się, jak ulepszyć dokumenty XPS za pomocą gradientów pionowych za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Add Horizontal Gradient in Java XPS
 linktitle: Add Horizontal Gradient in Java XPS
 second_title: Aspose.Page Java API
 description: Learn how to add a stunning horizontal gradient to XPS documents in Java using Aspose.Page. Follow our step-by-step guide for seamless integration.
-type: docs
 weight: 11
 url: /java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Horizontal Gradient in Java XPS
+
 ## Introduction
 Welcome to this step-by-step guide on adding a horizontal gradient in Java XPS using Aspose.Page for Java. Aspose.Page for Java is a powerful library that allows developers to work with XPS (XML Paper Specification) documents seamlessly.
 In this tutorial, we will walk you through the process of creating a Java application to add a horizontal gradient to an XPS document. Follow the steps below to achieve this with ease.
@@ -70,3 +76,10 @@ Yes, besides linear gradients, Aspose.Page supports radial gradients for more di
 Absolutely! You have full control over the colors and positions of each gradient stop.
 ### Q: Is there a community forum for Aspose.Page where I can seek help?
 Yes, you can visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to connect with the community and get assistance.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

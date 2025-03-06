@@ -3,10 +3,16 @@ title: تحويل الصورة إلى تنسيق EPS باستخدام Aspose.Pag
 linktitle: تحويل الصورة إلى تنسيق EPS
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية تحويل صور JPEG إلى تنسيق EPS باستخدام Aspose.Page لـ .NET. دليل شامل مع تعليمات خطوة بخطوة.
-type: docs
 weight: 13
 url: /ar/net/image-management/convert-image-to-eps-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل الصورة إلى تنسيق EPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول كيفية تحويل صورة إلى تنسيق EPS باستخدام Aspose.Page لـ .NET. Aspose.Page هي مكتبة .NET قوية تسمح للمطورين بالعمل مع تنسيقات المستندات المختلفة، بما في ذلك EPS. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل صورة JPEG إلى تنسيق EPS باستخدام Aspose.Page، مع توفير شرح تفصيلي لكل خطوة.
@@ -90,3 +96,9 @@ PsDocument.SaveImageAsEps(dataDir + "input1.jpg", dataDir + "output1.eps", optio
 ### س5: أين يمكنني شراء Aspose.Page لـ .NET؟
 
 ج5: يمكنك شراء المكتبة بزيارة الموقع[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

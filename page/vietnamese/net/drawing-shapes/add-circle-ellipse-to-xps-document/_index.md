@@ -3,10 +3,16 @@ title: Thêm hình elip hình tròn vào tài liệu XPS bằng Aspose.Page for 
 linktitle: Thêm hình elip hình tròn vào tài liệu XPS
 second_title: API Aspose.Page .NET
 description: Nâng cao tài liệu XPS với độ dốc xuyên tâm sống động bằng Aspose.Page for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có được hiệu ứng hình ảnh ấn tượng.
-type: docs
 weight: 11
 url: /vi/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình elip hình tròn vào tài liệu XPS bằng Aspose.Page for .NET
+
 ## Giới thiệu
 
 Tạo các tài liệu XPS hấp dẫn trực quan là một yêu cầu phổ biến trong các ứng dụng khác nhau. Aspose.Page for .NET cung cấp một bộ tính năng mạnh mẽ để thao tác các tài liệu XPS một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc thêm hình elip hình tròn vào tài liệu XPS bằng Aspose.Page cho .NET. Thực hiện theo các bước bên dưới để cải thiện tài liệu XPS của bạn với độ dốc xuyên tâm sống động.
@@ -114,3 +120,9 @@ Câu trả lời 1: Aspose.Page dành cho .NET xử lý cụ thể thao tác v�
 ### Câu hỏi 5: Tôi có thể mua Aspose.Page cho .NET không?
 
  A5: Có, bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

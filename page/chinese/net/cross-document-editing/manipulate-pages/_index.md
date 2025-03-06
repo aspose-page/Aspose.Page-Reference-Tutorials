@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 操作页面
 linktitle: 操作页面
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page（一个用于处理 XPS 文档的强大库）探索 .NET 中的页面操作。请遵循我们的分步指南以获得高效的结果。
-type: docs
 weight: 12
 url: /zh/net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 操作页面
+
 ## 介绍
 
 欢迎来到 Aspose.Page for .NET 的世界！在本教程中，我们将指导您完成在 .NET 环境中使用 Aspose.Page 库操作页面的过程。无论您是经验丰富的开发人员还是新手，本指南都旨在帮助您利用 Aspose.Page 的强大功能进行高效的页面操作。
@@ -94,3 +100,9 @@ A3：是的，Aspose.Page 与 Visual Studio 完全兼容，可以轻松集成到
 ### Q5：我在哪里可以获得支持或提问？
 
  A5：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)获得支持并与社区互动。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

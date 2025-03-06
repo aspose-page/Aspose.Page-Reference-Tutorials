@@ -3,10 +3,16 @@ title: 畫布操作
 linktitle: 畫布操作
 second_title: Aspose.Page .NET API
 description: 探索畫布操作的 Aspose.Page for .NET 教學。剪下和轉換 PS 和 XPS 文件變得容易。提升您的文件處理技能。
-type: docs
 weight: 21
 url: /zh-hant/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 畫布操作
+
 
 ## 介紹
 
@@ -42,3 +48,9 @@ url: /zh-hant/net/canvas-manipulation/
 透過這份關於 PostScript 轉換的綜合指南釋放 Aspose.Page for .NET 的潛力。輕鬆建立動態圖形。
 ### [使用 Aspose.Page for .NET 進行 XPS 轉換](./transformationsxps/)
 使用 Aspose.Page for .NET 輕鬆轉換 XPS 文件。請按照我們的逐步指南進行無縫轉換。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

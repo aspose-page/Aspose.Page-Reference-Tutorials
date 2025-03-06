@@ -3,10 +3,16 @@ title: Thay đổi giá trị được đặt tên bằng Aspose.Page cho .NET
 linktitle: Thay đổi giá trị được đặt tên
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách thay đổi giá trị được đặt tên trong tệp EPS bằng Aspose.Page cho .NET. Tùy chỉnh siêu dữ liệu XMP dễ dàng để xử lý tài liệu phù hợp.
-type: docs
 weight: 16
 url: /vi/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi giá trị được đặt tên bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Trong thế giới xử lý tài liệu, Aspose.Page for .NET nổi bật như một công cụ mạnh mẽ để thao tác với các tệp EPS. Một trong những chức năng chính mà nó cung cấp là khả năng thay đổi các giá trị được đặt tên trong siêu dữ liệu XMP. Hướng dẫn này sẽ hướng dẫn bạn quy trình thay đổi giá trị được đặt tên bằng Aspose.Page cho .NET, cho phép bạn tùy chỉnh các tệp EPS theo nhu cầu cụ thể của mình.
@@ -100,3 +106,9 @@ Câu trả lời 1: Có, Aspose.Page hỗ trợ nhiều định dạng tài li�
 ### Câu hỏi 5: Aspose.Page có những tùy chọn hỗ trợ nào dành cho người dùng .NET?
 
  A5: Truy cập diễn đàn cộng đồng[đây](https://forum.aspose.com/c/page/39) để được hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

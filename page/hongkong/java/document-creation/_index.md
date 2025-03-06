@@ -3,10 +3,16 @@ title: Java 文件創建
 linktitle: Java 文件創建
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 輕鬆產生 Java 中的 PostScript 文件。自訂頁面大小、邊距和字體。深入研究 Java 文件創建教程。
-type: docs
 weight: 23
 url: /zh-hant/java/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 文件創建
+
 ## 介紹
 
 如果您正在深入研究 Java 文件創建的世界，Aspose.Page for Java 是您的首選工具。在這份綜合指南中，我們將引導您了解用 Java 建立文件的複雜過程，重點是 PostScript。讓我們一起踏上這段旅程，釋放 Aspose.Page for Java 的潛力。
@@ -33,3 +39,9 @@ url: /zh-hant/java/document-creation/
 ## Java 文件建立教學課程
 ### [使用 PostScript 在 Java 中建立文檔](./postscript/)
 使用 Aspose.Page 在 Java 中輕鬆建立 PostScript 文件。自訂頁面大小、邊距和字體。立即免費試用！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

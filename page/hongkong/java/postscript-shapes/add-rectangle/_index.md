@@ -3,10 +3,16 @@ title: 自訂 Java PostScript - 使用 Aspose.Page 新增矩形
 linktitle: 在 Java PostScript 中新增矩形
 second_title: Aspose.Page Java API
 description: 探索使用 Aspose.Page for Java 將鮮豔的矩形新增至 Java PostScript 文件的逐步指南。輕鬆增強您的文件自訂！
-type: docs
 weight: 11
 url: /zh-hant/java/postscript-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 自訂 Java PostScript - 使用 Aspose.Page 新增矩形
+
 ## 介紹
 您是否希望使用充滿活力的矩形來增強您的 Java PostScript 文件？別再猶豫了！在本逐步指南中，我們將探討如何使用 Aspose.Page for Java 將矩形新增至 PostScript 文件。 Aspose.Page 是一個功能強大的程式庫，提供了處理 PostScript 檔案的強大功能，使其成為尋求操作和自訂文件的開發人員的理想選擇。
 ## 先決條件
@@ -72,3 +78,9 @@ Aspose.Page 主要支援 Java，但類似的程式庫也可用於其他語言。
 獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以購買 Aspose.Page for Java 的授權版本？
 購買授權版本[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

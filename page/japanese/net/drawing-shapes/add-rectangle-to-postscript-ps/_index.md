@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して PostScript (PS) に四角形を追�
 linktitle: PostScript に四角形を追加 (PS)
 second_title: Aspose.Page .NET API
 description: Aspose.Page を使用して .NET でのドキュメント作成を強化します。 PostScript (PS) ファイルに四角形を追加する方法を段階的に学習します。
-type: docs
 weight: 12
 url: /ja/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して PostScript (PS) に四角形を追加する
+
 ## 導入
 
 .NET でのドキュメント作成機能を強化したい場合、Aspose.Page は PostScript ドキュメントを処理するための強力なソリューションを提供します。このチュートリアルでは、Aspose.Page for .NET を使用して PostScript ドキュメントに四角形を追加するプロセスを説明します。
@@ -133,3 +139,10 @@ A2: はい、Aspose.Page は、XPS や PostScript などのさまざまなドキ
 ### Q5: 購入する前に Aspose.Page を試すことはできますか?
 
  A5: はい、無料試用版を入手できます。[ここ](https://releases.aspose.com/) 、そして長期間使用する場合は、[仮免許](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

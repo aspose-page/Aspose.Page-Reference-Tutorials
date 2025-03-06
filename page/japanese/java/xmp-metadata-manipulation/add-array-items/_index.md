@@ -3,10 +3,16 @@ title: Java を使用して XMP メタデータに配列項目を追加する
 linktitle: Java を使用して XMP メタデータに配列項目を追加する
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用して EPS ファイルを拡張します。配列項目を XMP メタデータに簡単に追加する方法を学びます。今すぐステップバイステップガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して XMP メタデータに配列項目を追加する
+
 ## 導入
 Aspose.Page for Java を使用して XMP メタデータに配列項目を追加するためのステップバイステップ ガイドへようこそ。 Aspose.Page は、EPS ファイルを含むさまざまなドキュメント形式の操作と作業を可能にする強力な Java ライブラリです。このチュートリアルでは、Java を使用して XMP メタデータに配列項目を追加するという特定のタスクに焦点を当てます。
 ## 前提条件
@@ -78,3 +84,9 @@ try {
 製品を購入できます[ここ](https://purchase.aspose.com/buy).
 ### Aspose.Page for Java の一時ライセンスは利用できますか?
 はい、一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

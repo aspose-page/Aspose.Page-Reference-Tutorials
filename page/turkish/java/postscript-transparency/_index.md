@@ -3,10 +3,16 @@ title: Şeffaflık - PostScript
 linktitle: Şeffaflık - PostScript
 second_title: Aspose.Page Java API'si
 description: Aspose.Page for Java ile Java PostScript'i yükseltin. Şeffaf görüntüleri sorunsuz bir şekilde entegre edin ve büyüleyici görselleştirmeler için canlı sözde şeffaflık yaratın.
-type: docs
 weight: 39
 url: /tr/java/postscript-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Şeffaflık - PostScript
+
 ## giriiş
 
 Java PostScript belgelerinizi yeni boyutlara yükseltmeye hazır mısınız? Başka yerde arama! Bu eğitim serisinde, iki temel noktaya odaklanarak şeffaflığın inceliklerini araştırıyoruz: şeffaf görüntüler eklemek ve sözde şeffaflık yaratmak.
@@ -36,3 +42,9 @@ Sonuç olarak, Java PostScript'te şeffaflık konusunda uzmanlaşmak hiç bu kad
 Aspose.Page for Java ile şeffaf görüntülerin Java PostScript belgelerindeki kusursuz entegrasyonunu keşfedin. Belge görselleştirmelerinizi zahmetsizce yükseltin.
 ### [Java PostScript'te Sahte Şeffaflığı Göster](./show-pseudo-transparency/)
 Java PostScript'te canlı grafiklerin kilidini açın! Adım adım sözde şeffaflık oluşturmak için Aspose.Page eğitimimizi izleyin. Şimdi İndirin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

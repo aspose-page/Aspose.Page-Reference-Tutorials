@@ -3,10 +3,16 @@ title: Thay đổi giá trị trong XMP bằng Java
 linktitle: Thay đổi giá trị trong XMP bằng Java
 second_title: API Java Aspose.Page
 description: Nâng cao tài liệu EPS với Aspose.Page cho Java. Dễ dàng sửa đổi siêu dữ liệu XMP để có nội dung phù hợp và chuyên nghiệp. #Java Development
-type: docs
 weight: 17
 url: /vi/java/xmp-metadata-manipulation/change-values/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thay đổi giá trị trong XMP bằng Java
+
 ## Giới thiệu
 Trong lĩnh vực xử lý và thao tác tài liệu, Aspose.Page dành cho Java nổi bật như một công cụ mạnh mẽ. Hướng dẫn này đi sâu vào quá trình thay đổi giá trị XMP (Nền tảng siêu dữ liệu mở rộng) trong tài liệu EPS (Encapsulated PostScript) bằng Java với thư viện Aspose.Page. Bằng cách làm theo hướng dẫn từng bước được cung cấp, bạn sẽ học cách sửa đổi siêu dữ liệu một cách dễ dàng, đảm bảo tài liệu của bạn được điều chỉnh theo yêu cầu cụ thể của bạn.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Chúc mừng! Bạn đã điều hướng thành công quá trình thay đổi g
  Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho Java?
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

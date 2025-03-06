@@ -3,10 +3,16 @@ title: معالجة الصور
 linktitle: معالجة الصور
 second_title: Aspose.Page .NET API
 description: اكتشف قوة Aspose.Page لـ .NET من خلال البرامج التعليمية الخاصة بمعالجة الصور. يمكنك قص صور EPS وتغيير حجمها بسهولة للحصول على نتائج مذهلة ودقيقة.
-type: docs
 weight: 26
 url: /ar/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة الصور
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى مهاراتك في معالجة صور EPS في .NET؟ انغمس في برامجنا التعليمية الشاملة لمعالجة الصور باستخدام Aspose.Page لـ .NET، حيث نرشدك خلال العملية السلسة لاقتصاص صور EPS وتغيير حجمها.
@@ -41,3 +47,9 @@ url: /ar/net/image-manipulation/
 استكشف العالم السلس لمعالجة صور EPS في .NET باستخدام Aspose.Page. قم بقص الصور وتغيير حجمها بسهولة للحصول على نتائج مذهلة.
 ### [قم بتغيير حجم صور EPS باستخدام Aspose.Page لـ .NET](./resize-eps-images/)
 استكشف العملية السلسة لتغيير حجم صور EPS في .NET باستخدام Aspose.Page. حقق الدقة في النقاط والبوصات والمليمترات والنسب المئوية دون عناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java XPS에서 불투명 마스크 설정
 linktitle: Java XPS에서 불투명 마스크 설정
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java XPS에서 불투명 마스크를 설정하는 기능을 알아보세요. 시각적으로 향상된 문서 경험을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS에서 불투명 마스크 설정
+
 ## 소개
 Aspose.Page를 사용하여 Java XPS에서 불투명 마스크를 설정하는 방법에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 튜토리얼에서는 Java용 Aspose.Page의 강력한 기능을 사용하여 XPS 문서를 만들고, 캔버스를 추가하고, 직사각형에 불투명 마스크를 적용하는 과정을 안내합니다.
 ## 전제 조건
@@ -67,3 +73,9 @@ Aspose.Page를 사용하여 Java XPS 문서에 불투명 마스크를 통합하�
  당신은 방문 할 수 있습니다[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 커뮤니티 지원을 원하거나 프리미엄 지원을 위한 라이선스를 구매하세요.
 ### Aspose.Page에 대한 환불 보장이 있나요?
  다음을 참조하세요.[구매 페이지](https://purchase.aspose.com/buy) 환불 정책에 대한 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aggiungi rettangolo a PostScript (PS) con Aspose.Page per .NET
 linktitle: Aggiungi rettangolo a PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Migliora la creazione di documenti in .NET con Aspose.Page. Impara passo dopo passo come aggiungere rettangoli ai file PostScript (PS).
-type: docs
 weight: 12
 url: /it/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi rettangolo a PostScript (PS) con Aspose.Page per .NET
+
 ## introduzione
 
 Se stai cercando di migliorare le tue capacità di creazione di documenti in .NET, Aspose.Page fornisce una potente soluzione per la gestione dei documenti PostScript. In questo tutorial, ti guideremo attraverso il processo di aggiunta di rettangoli a un documento PostScript utilizzando Aspose.Page per .NET.
@@ -133,3 +139,10 @@ A2: Sì, Aspose.Page supporta vari formati di documenti, inclusi XPS e PostScrip
 ### Q5: Posso provare Aspose.Page prima dell'acquisto?
 
  R5: Sì, puoi ottenere una versione di prova gratuita[Qui](https://releases.aspose.com/) , e per un uso prolungato, considerare a[licenza temporanea](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přidejte průhledný objekt v Java XPS
 linktitle: Přidejte průhledný objekt v Java XPS
 second_title: Aspose.Page Java API
 description: Vylepšete své dokumenty Java XPS s úžasnými efekty průhlednosti pomocí Aspose.Page. Postupujte podle našeho podrobného průvodce přidáváním průhledných objektů.
-type: docs
 weight: 10
 url: /cs/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte průhledný objekt v Java XPS
+
 ## Úvod
 Pokud chcete zvýšit vizuální přitažlivost vašich dokumentů Java XPS přidáním průhledných objektů, Aspose.Page for Java je řešením pro vás. V tomto podrobném průvodci vás provedeme procesem začlenění průhledných objektů do vašeho dokumentu XPS. Na konci tohoto kurzu budete schopni vytvářet úžasné dokumenty s esteticky příjemnými efekty průhlednosti.
 ## Předpoklady
@@ -88,3 +94,9 @@ A: Rozhodně! Aspose.Page poskytuje robustní funkce pro profesionální manipul
 Odpověď: Ano, Aspose.Page lze hladce integrovat s jinými knihovnami Java pro rozšířenou funkčnost.
 ### Otázka: Kde najdu další příklady a podporu pro Aspose.Page?
  A: Navštivte[Aspose.Page Java fórum](https://forum.aspose.com/c/page/39)pro podporu komunity a prozkoumejte dokumentaci[tady](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

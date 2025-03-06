@@ -3,10 +3,16 @@ title: Wijzig het formaat van EPS-afbeeldingen met Aspose.Page voor .NET
 linktitle: Formaat van EPS-afbeeldingen wijzigen
 second_title: Aspose.Page .NET-API
 description: Ontdek het naadloze proces van het wijzigen van het formaat van EPS-afbeeldingen in .NET met behulp van Aspose.Page. Bereik moeiteloos precisie in punten, inches, millimeters en percentages.
-type: docs
 weight: 11
 url: /nl/net/image-manipulation/resize-eps-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wijzig het formaat van EPS-afbeeldingen met Aspose.Page voor .NET
+
 ## Invoering
 
 Wilt u het formaat van EPS-afbeeldingen naadloos wijzigen met Aspose.Page voor .NET? Deze tutorial is uw uitgebreide gids om moeiteloos de grootte van EPS-afbeeldingen te manipuleren in verschillende eenheden, zoals punten, inches, millimeters en percentages. Aspose.Page voor .NET biedt een krachtige set tools, en in deze zelfstudie leiden we u stap voor stap door het proces.
@@ -161,3 +167,9 @@ A2: Aspose.Page richt zich voornamelijk op PostScript- en EPS-formaten. Voor and
 ### Vraag 5: Waar kan ik aanvullende hulp zoeken of problemen bespreken?
 
  A5: Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) om verbinding te maken met de gemeenschap en hulp te krijgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

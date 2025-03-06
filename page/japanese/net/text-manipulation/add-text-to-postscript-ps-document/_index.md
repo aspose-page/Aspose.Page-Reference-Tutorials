@@ -3,10 +3,16 @@ title: Aspose.Page を使用して PostScript (PS) ドキュメントにテキ�
 linktitle: PostScript (PS) ドキュメントにテキストを追加する
 second_title: Aspose.Page .NET API
 description: Aspose.Page を使用して PostScript (PS) ドキュメントにテキストを追加する方法を学び、.NET 開発スキルを向上させます。段階的な例を確認して、ドキュメント操作の力を解き放ってください。
-type: docs
 weight: 10
 url: /ja/net/text-manipulation/add-text-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page を使用して PostScript (PS) ドキュメントにテキストを追加する
+
 ## 導入
 
 .NET 開発の動的な世界では、PostScript (PS) ドキュメントの操作と拡張が一般的な要件です。 Aspose.Page for .NET は、PS ドキュメントにテキストを簡単に追加するための強力なツール セットを提供します。このチュートリアルでは、この機能をプロジェクトにシームレスに統合できるように、プロセスをガイドします。
@@ -117,3 +123,9 @@ A4：確かに！追加されたテキストの位置を変更するには、提
 ### Q5: Aspose.Page 関連のクエリについてはどこに問い合わせればよいですか?
 
  A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティとつながり、専門家のアドバイスを求めます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

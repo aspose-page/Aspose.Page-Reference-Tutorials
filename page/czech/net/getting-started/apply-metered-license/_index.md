@@ -3,10 +3,16 @@ title: Použít měřenou licenci s Aspose.Page pro .NET
 linktitle: Použít měřenou licenci
 second_title: Aspose.Page .NET API
 description: Prozkoumejte bezproblémovou integraci Aspose.Page for .NET pomocí tohoto podrobného průvodce aplikací měřené licence. Optimalizujte zpracování dokumentů bez námahy.
-type: docs
 weight: 10
 url: /cs/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Použít měřenou licenci s Aspose.Page pro .NET
+
 ## Úvod
 
 Odemkněte plný potenciál Aspose.Page for .NET použitím měřené licence. Tento tutoriál vás provede procesem nastavení a použití měřené licence a zajistí hladké a optimalizované používání této výkonné knihovny .NET.
@@ -112,3 +118,9 @@ Tento podrobný průvodce vás vybavil znalostmi pro bezproblémové použití m
 ### Q5: Jak mohu získat dočasnou licenci pro Aspose.Page for .NET?
 
  A5: Návštěva[dočasná licence/](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

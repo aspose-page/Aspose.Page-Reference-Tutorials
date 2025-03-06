@@ -3,10 +3,16 @@ title: Aspose.Page Java Metin İşleme
 linktitle: Java PostScript'e Metin Ekleme
 second_title: Aspose.Page Java API'si
 description: PostScript belgelerine metin ekleme eğitimimizde Aspose.Page for Java'nın gücünü keşfedin. Sistem ve özel yazı tiplerini kolaylıkla kullanmayı öğrenin.
-type: docs
 weight: 10
 url: /tr/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java Metin İşleme
+
 ## giriiş
 Aspose.Page for Java'yı kullanarak Java PostScript'e metin eklemeyle ilgili adım adım kılavuzumuza hoş geldiniz. Aspose.Page for Java, geliştiricilerin PostScript belgelerini kolaylıkla değiştirmelerine olanak tanıyan güçlü bir kütüphanedir. Bu öğreticide, görsel olarak çekici bir sonuç için metin ekleme, sistem ve özel yazı tiplerini kullanma, metnin ana hatlarını çizme ve konturları birleştirme sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -99,3 +105,9 @@ Kesinlikle! Belge oluşturma ve kaydetme adımlarını tekrarlayarak birden fazl
 `ExternalFontCache` özel yazı tiplerini getirmek ve bunların metin işleme için uygun olmasını sağlamak için kullanılır.
 ### Ana hatlarıyla belirtilen metne farklı konturlar uygulayabilir miyim?
  Evet, konturun genişliğini ve rengini özelleştirebilirsiniz.`Stroke` sınıf ve`Color` sırasıyla sınıf.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

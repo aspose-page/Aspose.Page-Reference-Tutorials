@@ -3,10 +3,16 @@ title: Ajouter un objet transparent dans Java XPS
 linktitle: Ajouter un objet transparent dans Java XPS
 second_title: API Java Aspose.Page
 description: Améliorez vos documents Java XPS avec des effets de transparence époustouflants à l'aide d'Aspose.Page. Suivez notre guide étape par étape pour ajouter des objets transparents.
-type: docs
 weight: 10
 url: /fr/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un objet transparent dans Java XPS
+
 ## Introduction
 Si vous souhaitez améliorer l'attrait visuel de vos documents Java XPS en ajoutant des objets transparents, Aspose.Page for Java est la solution qu'il vous faut. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'incorporation d'objets transparents dans votre document XPS. À la fin de ce didacticiel, vous serez en mesure de créer de superbes documents avec des effets de transparence esthétiques.
 ## Conditions préalables
@@ -88,3 +94,9 @@ R : Absolument ! Aspose.Page fournit des fonctionnalités robustes pour la manip
 R : Oui, Aspose.Page peut être intégré de manière transparente à d'autres bibliothèques Java pour des fonctionnalités étendues.
 ### Q : Où puis-je trouver des exemples supplémentaires et une assistance pour Aspose.Page ?
  R : Visitez le[Forum Java Aspose.Page](https://forum.aspose.com/c/page/39)pour le soutien de la communauté et explorez la documentation[ici](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

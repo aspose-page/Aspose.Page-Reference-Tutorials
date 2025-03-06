@@ -3,10 +3,16 @@ title: Thêm mẫu ốp lát kết cấu trong Java PostScript
 linktitle: Thêm mẫu ốp lát kết cấu trong Java PostScript
 second_title: API Java Aspose.Page
 description: Dễ dàng thêm các mẫu xếp lớp kết cấu vào tài liệu PostScript bằng Aspose.Page cho Java. Khám phá hướng dẫn tích hợp liền mạch của chúng tôi để có khả năng sáng tạo.
-type: docs
 weight: 10
 url: /vi/java/postscript-texture-patterns/add-texture-tiling-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm mẫu ốp lát kết cấu trong Java PostScript
+
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, việc tạo các mẫu và kết cấu phức tạp trong tài liệu PostScript là một yêu cầu phổ biến. Aspose.Page dành cho Java chứng tỏ là một công cụ có giá trị giúp bạn đạt được nhiệm vụ này một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm mẫu xếp lát kết cấu trong tài liệu Java PostScript bằng Aspose.Page.
 ## Điều kiện tiên quyết
@@ -103,3 +109,9 @@ Tuyệt đối! Aspose.Page dành cho Java cung cấp tài liệu toàn diện, 
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho Java?
  Thăm nom[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

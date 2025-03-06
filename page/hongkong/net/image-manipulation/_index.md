@@ -3,10 +3,16 @@ title: 影像處理
 linktitle: 影像處理
 second_title: Aspose.Page .NET API
 description: 透過我們的圖像操作教學了解 Aspose.Page for .NET 的強大功能。輕鬆裁剪 EPS 影像並調整其大小，以獲得令人驚嘆的精確結果。
-type: docs
 weight: 26
 url: /zh-hant/net/image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 影像處理
+
 ## 介紹
 
 您準備好提升 .NET 中的 EPS 影像處理技能了嗎？深入了解我們全面的 Aspose.Page for .NET 圖像操作教學課程，我們將引導您完成裁剪和調整 EPS 圖像大小的無縫過程。
@@ -41,3 +47,9 @@ Aspose.Page for .NET 確保各個維度的精確度。無論您使用點、英�
 使用 Aspose.Page 探索 .NET 中 EPS 影像處理的無縫世界。輕鬆裁剪圖像並調整圖像大小，以獲得令人驚嘆的結果。
 ### [使用 Aspose.Page for .NET 調整 EPS 影像大小](./resize-eps-images/)
 探索使用 Aspose.Page 在 .NET 中調整 EPS 影像大小的無縫過程。輕鬆實現點、英吋、毫米和百分比的精度。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

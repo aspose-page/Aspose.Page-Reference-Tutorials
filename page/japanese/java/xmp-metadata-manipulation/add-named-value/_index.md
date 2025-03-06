@@ -3,10 +3,16 @@ title: Java を使用して XMP に名前付き値を追加する
 linktitle: Java を使用して XMP に名前付き値を追加する
 second_title: Aspose.Page Java API
 description: Aspose.Pageを使ったJava文書操作をマスターしましょう！シームレスな統合のためのステップバイステップのガイドを使用して、XMP メタデータに名前付きの値を簡単に追加します。
-type: docs
 weight: 12
 url: /ja/java/xmp-metadata-manipulation/add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して XMP に名前付き値を追加する
+
 ## 導入
 進化し続ける Java 開発環境では、ドキュメントの整合性を維持するために EPS ファイル内のメタデータを処理することが重要です。 Aspose.Page for Java は、このプロセスを簡素化する強力なライブラリです。このチュートリアルでは、Java を使用して XMP メタデータに名前付き値を追加する手順を詳しく説明し、EPS ファイルを操作するための堅牢な基盤を確保します。
 ## 前提条件
@@ -78,3 +84,9 @@ psStream.close();
 を探索してください[ドキュメンテーション](https://reference.aspose.com/page/java/)包括的なチュートリアルと例を参照してください。
 ### Aspose.Page for Java は大規模プロジェクトに適していますか?
 確かに、Aspose.Page for Java は大規模なプロジェクトを効率的に処理できるように設計されており、堅牢なドキュメント操作機能を提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

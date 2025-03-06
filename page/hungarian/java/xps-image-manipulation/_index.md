@@ -3,10 +3,16 @@ title: Képmanipuláció - XPS
 linktitle: Képmanipuláció - XPS
 second_title: Aspose.Page Java API
 description: Fedezze fel a könnyű képkezelés művészetét a Java XPS dokumentumokban az Aspose.Page segítségével. Tanuljon meg képeket zökkenőmentesen hozzáadni és mozaikozni a jobb dokumentumfeldolgozás érdekében.
-type: docs
 weight: 29
 url: /hu/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Képmanipuláció - XPS
+
 
 ## Bevezetés
 
@@ -36,3 +42,9 @@ Lépésről lépésre mutató útmutatónk az egyszerűséget szem előtt tartva
 Ismerje meg, hogyan adhat hozzá könnyedén képeket XPS-dokumentumokhoz Java nyelven az Aspose.Page segítségével. Növelje dokumentumfeldolgozását ezzel a lépésről-lépésre szóló útmutatóval.
 ### [Adjon hozzá csempézett képet a Java XPS-ben](./add-tiled-image/)
 Fedezze fel a zökkenőmentes Java XPS dokumentumkezelést az Aspose.Page segítségével. Ennek a lépésről-lépésre szóló útmutatónak a segítségével megtanulhatja, hogyan adhat hozzá mozaikszerű képeket.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

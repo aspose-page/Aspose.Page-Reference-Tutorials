@@ -3,10 +3,16 @@ title: Java XPS'de Çapraz Degrade Ekleme
 linktitle: Java XPS'de Çapraz Degrade Ekleme
 second_title: Aspose.Page Java API'si
 description: Aspose.Page'i kullanarak Java'da XPS belgelerinize çarpıcı bir diyagonal degradeyi nasıl ekleyeceğinizi öğrenin. Görsel sunumunuzu zahmetsizce yükseltin.
-type: docs
 weight: 10
 url: /tr/java/xps-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS'de Çapraz Degrade Ekleme
+
 ## giriiş
 Java geliştirmenin sürekli gelişen dünyasında, XPS belgelerinizin görsel çekiciliğini artırmak çok önemlidir. Bunu başarmanın etkili bir yolu çapraz degradelerin dahil edilmesidir. Bu eğitim, adım adım talimatlar ve kod parçacıkları sağlayarak Aspose.Page for Java'yı kullanma süreci boyunca size rehberlik edecektir.
 ## Önkoşullar
@@ -75,3 +81,9 @@ Aspose.Page, çeşitli Java çerçeveleriyle sorunsuz bir şekilde entegre olaca
  Ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) toplulukla etkileşime geçmek ve yardım istemek.
 ### Soru: Geçici lisanslara ilişkin bir hüküm var mı?
  Evet, alabilirsiniz[geçici lisans burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

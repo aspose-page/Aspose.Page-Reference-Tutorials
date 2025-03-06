@@ -3,10 +3,16 @@ title: การสร้างเอกสารจาวา
 linktitle: การสร้างเอกสารจาวา
 second_title: Aspose.Page Java API
 description: สร้างเอกสาร PostScript ใน Java ได้อย่างง่ายดายด้วย Aspose.Page ปรับแต่งขนาดหน้า ระยะขอบ และแบบอักษร เจาะลึกบทช่วยสอนการสร้างเอกสาร Java
-type: docs
 weight: 23
 url: /th/java/document-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การสร้างเอกสารจาวา
+
 ## การแนะนำ
 
 หากคุณกำลังดำดิ่งสู่โลกแห่งการสร้างเอกสาร Java Aspose.Page สำหรับ Java คือเครื่องมือที่คุณใช้งาน ในคู่มือที่ครอบคลุมนี้ เราจะอธิบายความซับซ้อนของการสร้างเอกสารใน Java โดยเน้นที่ PostScript มาเริ่มต้นการเดินทางครั้งนี้ด้วยกัน ปลดล็อกศักยภาพของ Aspose.Page สำหรับ Java
@@ -33,3 +39,9 @@ url: /th/java/document-creation/
 ## บทช่วยสอนการสร้างเอกสาร Java
 ### [สร้างเอกสารใน Java ด้วย PostScript](./postscript/)
 สร้างเอกสาร PostScript ใน Java ได้อย่างง่ายดายโดยใช้ Aspose.Page ปรับแต่งขนาดหน้า ระยะขอบ และแบบอักษร ลองทดลองใช้ฟรีทันที!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: دروس شاملة وأمثلة على Aspose.Page لجافا
 linktitle: Aspose.Page لدروس جافا
-type: docs
 weight: 10
 url: /ar/java/
 description: اكتشف أسرار معالجة صفحات Java باستخدام دروس Aspose.Page. انغمس في عمليات القطع والتحويلات والمزيد للحصول على مستندات مذهلة بصريًا دون عناء.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دروس شاملة وأمثلة على Aspose.Page لجافا
+
 ## مقدمة
 
 هل أنت مستعد لرفع مستوى مهاراتك في معالجة مستندات Java؟ انغمس في عالم Aspose.Page for Java من خلال برامجنا التعليمية والأمثلة الشاملة. سواء كنت مطورًا متمرسًا أو بدأت للتو، ستفتح أدلتنا خطوة بخطوة الإمكانات الكاملة لـ Aspose.Page لـ Java.
@@ -76,3 +81,9 @@ is_root: true
 ارفع مستوى مرئيات مستندات Java الخاصة بك دون عناء باستخدام Aspose.Page! تعلم كيفية تحسين تطبيقك عن طريق إضافة شبكات باستخدام Visual Brush في هذا البرنامج التعليمي خطوة بخطوة.
 ### [معالجة البيانات التعريفية XMP - Java](./xmp-metadata-manipulation/)
 قم بتحسين ملفات EPS بسهولة من خلال معالجة بيانات XMP التعريفية - بدءًا من إضافة العناصر إلى الاستخراج. ارفع مستوى إدارة المستندات الخاصة بك مع أدلةنا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

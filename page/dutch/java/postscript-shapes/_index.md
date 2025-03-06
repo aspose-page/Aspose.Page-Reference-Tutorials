@@ -3,10 +3,16 @@ title: Vormen - PostScript
 linktitle: Vormen - PostScript
 second_title: Aspose.Page Java-API
 description: Maak moeiteloos boeiende PostScript-documenten met Aspose.Page Java. Duik in tutorials over het toevoegen van ellipsen en rechthoeken, waardoor visueel aantrekkelijke inhoud ontstaat.
-type: docs
 weight: 34
 url: /nl/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vormen - PostScript
+
 
 ## Invoering
 
@@ -65,3 +71,9 @@ Ontgrendel het volledige potentieel van Aspose.Page voor Java en verbeter uw erv
 Beheers het maken van verbluffende PostScript-documenten in Java met Aspose.Page. Leer stap voor stap ellipsen toe te voegen voor visueel aantrekkelijke inhoud.
 ### [Rechthoek toevoegen in Java PostScript](./add-rectangle/)
 Ontdek de stapsgewijze handleiding voor het toevoegen van levendige rechthoeken aan Java PostScript-documenten met Aspose.Page voor Java. Verbeter moeiteloos uw documentaanpassing!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

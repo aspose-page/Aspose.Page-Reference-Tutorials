@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 從檔案載入許可證
 linktitle: 從文件載入許可證
 second_title: Aspose.Page .NET API
 description: 透過掌握從檔案載入授權的藝術，釋放 Aspose.Page for .NET 的全部潛力。無縫提升您的文件處理能力。
-type: docs
 weight: 11
 url: /zh-hant/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 從檔案載入許可證
+
 ## 介紹
 
 歡迎來到 Aspose.Page for .NET 的世界！如果您希望使用 .NET 框架來增強文件處理能力，那麼您來對地方了。在本教程中，我們將引導您完成使用 Aspose.Page for .NET 從檔案載入授權的過程。這一關鍵步驟可確保您充分利用這個強大庫的潛力。
@@ -91,3 +97,9 @@ A3：您可以購買許可證[這裡](https://purchase.aspose.com/buy).
 ### Q5：需要協助或有疑問嗎？ 
 
  A5：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

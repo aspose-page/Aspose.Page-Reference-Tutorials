@@ -3,10 +3,16 @@ title: Vytvořte vlastní tiskový lístek s Aspose.Page pro .NET
 linktitle: Vytvořit vlastní tiskový lístek
 second_title: Aspose.Page .NET API
 description: Prozkoumejte podrobného průvodce vytvářením vlastních tiskových lístků pomocí Aspose.Page for .NET. Přizpůsobte si tisk na míru pomocí jemného ovládání.
-type: docs
 weight: 10
 url: /cs/net/print-ticket-management/create-custom-print-ticket/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte vlastní tiskový lístek s Aspose.Page pro .NET
+
 ## Úvod
 
 oblasti vývoje .NET vyniká Aspose.Page jako výkonný nástroj pro manipulaci s dokumenty XPS. Jednou z jeho pozoruhodných funkcí je schopnost vytvářet vlastní tiskové lístky, které vývojářům nabízejí rozsáhlou kontrolu nad procesem tisku. V tomto tutoriálu se ponoříme do kroků k vytvoření vlastního tiskového lístku pomocí Aspose.Page for .NET.
@@ -96,3 +102,9 @@ A4: Aspose.Page podporuje řadu typů médií, včetně běžného papíru a dal
 ### Q5: Jsou pro Aspose.Page pro .NET k dispozici nějaké ukázkové projekty?
 
  A5: Prozkoumejte[dokumentace](https://reference.aspose.com/page/net/) pro vzorové projekty a úryvky kódu pro nastartování vašeho vývoje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

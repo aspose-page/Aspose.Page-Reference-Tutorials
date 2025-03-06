@@ -3,10 +3,16 @@ title: Scal dokumenty XPS za pomocą Aspose.Page dla .NET
 linktitle: Scal dokumenty XPS
 second_title: Aspose.Page API .NET
 description: Bez wysiłku łącz dokumenty XPS za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo zarządzać dokumentami.
-type: docs
 weight: 12
 url: /pl/net/document-merging/merge-xps-documents/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scal dokumenty XPS za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 Czy chcesz bezproblemowo scalić dokumenty XPS za pomocą Aspose.Page dla .NET? Ten samouczek przeprowadzi Cię przez cały proces, dostarczając wskazówek krok po kroku dotyczących łatwego łączenia plików XPS. Aspose.Page dla .NET to potężna biblioteka, która upraszcza zadania manipulacji dokumentami, co czyni ją idealnym wyborem do łączenia dokumentów XPS. Przyjrzyjmy się temu procesowi i zobaczmy, jak można to z łatwością osiągnąć.
@@ -94,3 +100,9 @@ O4: Upewnij się, że masz odpowiednią licencję na Aspose.Page dla .NET, aby m
 ### P5: Czy Aspose.Page dla .NET zapewnia zaawansowane opcje łączenia dokumentów?
 
 Odpowiedź 5: Tak, możesz zapoznać się z dodatkowymi opcjami i konfiguracjami dostępnymi w dokumentacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

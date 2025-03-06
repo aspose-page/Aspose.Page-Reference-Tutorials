@@ -3,10 +3,16 @@ title: Fügen Sie ein Raster mit Visual Brush in Java hinzu
 linktitle: Fügen Sie ein Raster mit Visual Brush in Java hinzu
 second_title: Aspose.Page Java-API
 description: Verbessern Sie die Visualisierung von Java-Dokumenten mit Aspose.Page! Erfahren Sie Schritt für Schritt, wie Sie mit Visual Brush Raster hinzufügen. Steigern Sie mühelos die Attraktivität Ihrer Bewerbung.
-type: docs
 weight: 10
 url: /de/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie ein Raster mit Visual Brush in Java hinzu
+
 ## Einführung
 Möchten Sie Ihre Java-Anwendungen mithilfe von Aspose.Page um optisch ansprechende Raster erweitern? In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens eines Rasters mit Visual Brush in Java mit Aspose.Page. Mit Visual Brush können Sie einen Bereich mit visuellem Inhalt malen und so atemberaubende Rastereffekte in Ihren Dokumenten erzeugen.
 ## Voraussetzungen
@@ -84,3 +90,9 @@ Absolut! Visual Brush ermöglicht Ihnen das Malen mit verschiedenen Farben und b
  Ja, Sie können darauf zugreifen[Kostenlose Testphase](https://releases.aspose.com/) um die Funktionen von Aspose.Page zu erkunden.
 ### Wie kann ich eine temporäre Lizenz für Aspose.Page erhalten?
  Erwerben Sie ein[temporäre Lizenz](https://purchase.aspose.com/temporary-license/) zu Testzwecken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

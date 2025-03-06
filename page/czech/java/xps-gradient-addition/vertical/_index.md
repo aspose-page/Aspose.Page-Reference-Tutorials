@@ -3,10 +3,16 @@ title: Přidejte vertikální přechod v Java XPS
 linktitle: Přidejte vertikální přechod v Java XPS
 second_title: Aspose.Page Java API
 description: Naučte se, jak přidat vertikální přechod do dokumentů Java XPS pomocí Aspose.Page. Vylepšete vizuální přitažlivost bez námahy. Návod krok za krokem uvnitř.
-type: docs
 weight: 12
 url: /cs/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vertikální přechod v Java XPS
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak přidat vertikální přechod v Java XPS pomocí Aspose.Page pro Java. Přidáním přechodů do vašich dokumentů XPS můžete zvýšit vizuální přitažlivost vašeho obsahu, takže bude poutavější a esteticky příjemnější.
 ## Předpoklady
@@ -72,3 +78,9 @@ Vylepšení vašich dokumentů XPS pomocí přechodů může výrazně zlepšit 
  Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Potřebujete pomoc nebo máte otázky?
  Navštivte komunitu Aspose.Page[Fórum](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

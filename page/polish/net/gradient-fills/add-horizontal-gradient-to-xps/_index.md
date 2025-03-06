@@ -3,10 +3,16 @@ title: Dodaj gradient poziomy do XPS za pomocą Aspose.Page dla .NET
 linktitle: Dodaj gradient poziomy do XPS
 second_title: Aspose.Page API .NET
 description: Dowiedz się, jak dodawać wspaniałe poziome gradienty do dokumentów XPS za pomocą Aspose.Page dla .NET. Bez wysiłku podnieś atrakcyjność wizualną.
-type: docs
 weight: 13
 url: /pl/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj gradient poziomy do XPS za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 W tym samouczku przyjrzymy się, jak ulepszyć dokumenty XPS, dodając poziomy gradient za pomocą Aspose.Page dla .NET. Aspose.Page dla .NET to potężna biblioteka, która zapewnia bezproblemową obsługę dokumentów XPS (Specyfikacja papieru XML) w aplikacjach .NET. Dodanie gradientów może nadać dokumentom atrakcyjność wizualną, a ten przewodnik przeprowadzi Cię przez ten proces krok po kroku.
@@ -113,3 +119,9 @@ Ulepszanie dokumentów XPS za pomocą gradientów nie tylko poprawia ich atrakcy
 ### P5: Jak uzyskać tymczasową licencję na Aspose.Page dla .NET?
 
  Odpowiedź 5: Możesz uzyskać licencję tymczasową od[ten link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

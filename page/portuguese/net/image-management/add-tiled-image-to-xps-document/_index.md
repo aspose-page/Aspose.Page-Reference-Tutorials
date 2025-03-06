@@ -3,10 +3,16 @@ title: Adicionar imagem lado a lado ao documento XPS com Aspose.Page para .NET
 linktitle: Adicionar imagem lado a lado ao documento XPS
 second_title: API Aspose.Page .NET
 description: Explore a adição de imagens lado a lado a documentos XPS sem esforço com Aspose.Page for .NET. Melhore o apelo visual e crie documentos impressionantes.
-type: docs
 weight: 12
 url: /pt/net/image-management/add-tiled-image-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar imagem lado a lado ao documento XPS com Aspose.Page para .NET
+
 ## Introdução
 
 Você deseja aprimorar seus documentos XPS adicionando imagens lado a lado visualmente atraentes? Aspose.Page for .NET capacita os desenvolvedores a conseguir isso perfeitamente. Neste guia passo a passo, orientaremos você no processo de adição de uma imagem lado a lado a um documento XPS usando Aspose.Page for .NET.
@@ -95,3 +101,9 @@ A2: Certamente, conforme demonstrado no exemplo, você pode definir a opacidade 
 ### P5: Onde posso procurar ajuda ou me conectar com a comunidade Aspose.Page?
 
  A5: Visite o[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) para se envolver com a comunidade, fazer perguntas e encontrar soluções.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

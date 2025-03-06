@@ -3,10 +3,16 @@ title: Mulai
 linktitle: Mulai
 second_title: Aspose.Halaman .NET API
 description: Buka kekuatan Aspose.Page .NET dengan tutorial langkah demi langkah. Terapkan lisensi terukur, muat dari file atau aliran, amankan lisensi, dan banyak lagi.
-type: docs
 weight: 20
 url: /id/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mulai
+
 ## Perkenalan
 
 Selamat datang di panduan utama Aspose.Page untuk tutorial .NET. Selami dunia pemrosesan dokumen yang lancar, tempat efisiensi dipadukan dengan kesederhanaan. Mari memulai perjalanan untuk memanfaatkan potensi penuh dari alat canggih ini melalui serangkaian tutorial komprehensif.
@@ -38,3 +44,9 @@ Buka kunci manipulasi dokumen di .NET dengan Aspose.Page. Ikuti panduan kami unt
 Amankan lisensi Aspose.Page untuk .NET Anda dengan mudah menggunakan panduan langkah demi langkah kami. Buka potensi penuh untuk manipulasi halaman tanpa hambatan di aplikasi .NET Anda.
 ### [Tetapkan Lisensi Menggunakan Sumber Daya Tertanam dengan Aspose.Page untuk .NET](./set-license-using-embedded-resource/)
 Pelajari cara mengatur lisensi menggunakan sumber daya tertanam dengan Aspose.Page untuk .NET. Pastikan kepatuhan dan buka potensi penuh pemrosesan dokumen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

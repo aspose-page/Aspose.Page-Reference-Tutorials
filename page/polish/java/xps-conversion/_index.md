@@ -3,10 +3,16 @@ title: Konwersja — XPS
 linktitle: Konwersja — XPS
 second_title: Aspose.Page API Java
 description: Bez wysiłku konwertuj XPS do różnych formatów w Javie za pomocą Aspose.Page. Usprawnij przetwarzanie dokumentów dzięki naszym szczegółowym przewodnikom zapewniającym precyzyjną i wydajną konwersję.
-type: docs
 weight: 22
 url: /pl/java/xps-conversion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwersja — XPS
+
 
 ## Wstęp
 
@@ -44,3 +50,9 @@ Odblokuj płynną konwersję XPS do PDF w Javie za pomocą Aspose.Page. Postępu
 Bez wysiłku konwertuj XPS na PNG w Javie za pomocą Aspose.Page. Usprawnij zadania związane z dokumentami dzięki temu niezawodnemu i przyjaznemu dla programistów rozwiązaniu.
 ### [Konwertuj XSP na TIFF w Javie](./to-tiff/)
 Konwertuj XPS na TIFF bez wysiłku dzięki Aspose.Page dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację. Pobierz teraz!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

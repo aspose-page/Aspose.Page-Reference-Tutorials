@@ -3,10 +3,16 @@ title: Προσθήκη ονομαστικής τιμής με το Aspose.Page
 linktitle: Προσθήκη ονομαστικής τιμής
 second_title: Aspose.Page .NET API
 description: Μάθετε πώς να προσθέτετε επώνυμες τιμές σε αρχεία EPS στο .NET χρησιμοποιώντας το Aspose.Page. Αυτό το περιεκτικό σεμινάριο σας καθοδηγεί στη διαδικασία βήμα προς βήμα.
-type: docs
 weight: 12
 url: /el/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη ονομαστικής τιμής με το Aspose.Page
+
 ## Εισαγωγή
 
 Στον τομέα της επεξεργασίας εγγράφων με .NET, το Aspose.Page ξεχωρίζει ως ένα ισχυρό εργαλείο για το χειρισμό αρχείων EPS. Το Aspose.Page εξουσιοδοτεί τους προγραμματιστές να χειρίζονται μεταδεδομένα XMP, διευκολύνοντας εργασίες όπως η προσθήκη επώνυμων τιμών. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία προσθήκης ονομαστικών τιμών σε ένα αρχείο EPS χρησιμοποιώντας το Aspose.Page με τρόπο βήμα προς βήμα.
@@ -96,3 +102,9 @@ A1: Το Aspose.Page υποστηρίζει διάφορες εκδόσεις α
 ### Ε5: Τι είναι η προσωρινή άδεια και πώς μπορώ να αποκτήσω;
 
  A5: Εάν χρειάζεστε μια προσωρινή άδεια για σκοπούς δοκιμής ή αξιολόγησης, μπορείτε να αποκτήσετε μία[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

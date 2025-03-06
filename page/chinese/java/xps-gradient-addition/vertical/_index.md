@@ -3,10 +3,16 @@ title: 在 Java XPS 中添加垂直渐变
 linktitle: 在 Java XPS 中添加垂直渐变
 second_title: Aspose.Page Java API
 description: 了解如何使用 Aspose.Page 将垂直渐变添加到 Java XPS 文档。毫不费力地增强视觉吸引力。里面有分步指南。
-type: docs
 weight: 12
 url: /zh/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java XPS 中添加垂直渐变
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Page for Java 在 Java XPS 中添加垂直渐变。向 XPS 文档添加渐变可以增强内容的视觉吸引力，使其更具吸引力且美观。
 ## 先决条件
@@ -72,3 +78,9 @@ doc.save(dataDir + "VerticalGradient.xps");
 获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 需要帮助或有疑问吗？
 访问 Aspose.Page 社区[论坛](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

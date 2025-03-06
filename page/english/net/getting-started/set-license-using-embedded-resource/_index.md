@@ -3,10 +3,16 @@ title: Set License Using Embedded Resource with Aspose.Page for .NET
 linktitle: Set License Using Embedded Resource
 second_title: Aspose.Page .NET API
 description: Learn how to set a license using embedded resources with Aspose.Page for .NET. Ensure compliance and unlock the full potential of document processing.
-type: docs
 weight: 14
 url: /net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set License Using Embedded Resource with Aspose.Page for .NET
+
 ## Introduction
 
 Aspose.Page for .NET is a powerful library that enables developers to work with various document formats seamlessly. In this tutorial, we will guide you through the process of setting a license using an embedded resource with Aspose.Page for .NET. Licensing is a crucial step in utilizing Aspose.Page functionalities to their full extent, ensuring compliance and unlocking the library's potential.
@@ -110,3 +116,10 @@ A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-lice
 ### Q5: Where can I purchase Aspose.Page for .NET?
 
 A5: You can purchase Aspose.Page [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

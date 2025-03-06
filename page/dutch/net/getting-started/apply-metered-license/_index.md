@@ -3,10 +3,16 @@ title: Pas een gemeten licentie toe met Aspose.Page voor .NET
 linktitle: Pas een gemeten licentie toe
 second_title: Aspose.Page .NET-API
 description: Ontdek de naadloze integratie van Aspose.Page voor .NET met deze stapsgewijze handleiding voor het toepassen van een gemeten licentie. Optimaliseer documentverwerking moeiteloos.
-type: docs
 weight: 10
 url: /nl/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas een gemeten licentie toe met Aspose.Page voor .NET
+
 ## Invoering
 
 Ontgrendel het volledige potentieel van Aspose.Page voor .NET door een gemeten licentie toe te passen. Deze tutorial leidt u door het proces van het instellen en toepassen van de gemeten licentie, waardoor een soepel en geoptimaliseerd gebruik van deze krachtige .NET-bibliotheek wordt gegarandeerd.
@@ -112,3 +118,9 @@ Met deze stapsgewijze handleiding beschikt u over de kennis om naadloos een geme
 ### V5: Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Page voor .NET?
 
  A5: Bezoek[tijdelijke licentie/](https://purchase.aspose.com/temporary-license/) om een tijdelijke vergunning te verkrijgen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

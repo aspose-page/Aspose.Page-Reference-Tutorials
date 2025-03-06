@@ -3,10 +3,16 @@ title: Efek Transparansi
 linktitle: Efek Transparansi
 second_title: Aspose.Halaman .NET API
 description: Temukan keajaiban efek transparansi dalam dokumen Anda dengan Aspose.Page .NET. Tingkatkan desain Anda dengan tutorial langkah demi langkah untuk peningkatan visual yang menakjubkan.
-type: docs
 weight: 34
 url: /id/net/transparency-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efek Transparansi
+
 
 ## Perkenalan
 
@@ -42,3 +48,9 @@ Pelajari cara menambahkan objek transparan ke dokumen XPS di .NET menggunakan As
 Pelajari cara mengatur masker opasitas dalam dokumen XPS menggunakan Aspose.Page untuk .NET. Tingkatkan estetika dokumen dengan mudah.
 ### [Tampilkan Transparansi Semu di PostScript (PS) dengan Aspose.Page](./show-pseudo-transparency-in-postscript-ps/)
 Jelajahi kekuatan transparansi semu di PostScript dengan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk mendapatkan dokumen yang menakjubkan secara visual.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

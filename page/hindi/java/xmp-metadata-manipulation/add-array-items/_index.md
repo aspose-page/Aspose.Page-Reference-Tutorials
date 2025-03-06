@@ -3,10 +3,16 @@ title: जावा का उपयोग करके एक्सएमपी
 linktitle: जावा का उपयोग करके एक्सएमपी मेटाडेटा में ऐरे आइटम जोड़ें
 second_title: Aspose.Page जावा एपीआई
 description: Java के लिए Aspose.Page के साथ EPS फ़ाइलें बढ़ाएँ। XMP मेटाडेटा में आसानी से ऐरे आइटम जोड़ना सीखें। अभी हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें!
-type: docs
 weight: 10
 url: /hi/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके एक्सएमपी मेटाडेटा में ऐरे आइटम जोड़ें
+
 ## परिचय
 XMP मेटाडेटा में ऐरे आइटम जोड़ने के लिए जावा के लिए Aspose.Page का उपयोग करने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। Aspose.Page एक शक्तिशाली जावा लाइब्रेरी है जो आपको ईपीएस फ़ाइलों सहित विभिन्न दस्तावेज़ प्रारूपों में हेरफेर करने और काम करने की अनुमति देती है। इस ट्यूटोरियल में, हम जावा का उपयोग करके एक्सएमपी मेटाडेटा में सरणी आइटम जोड़ने के विशिष्ट कार्य पर ध्यान केंद्रित करेंगे।
 ## आवश्यक शर्तें
@@ -78,3 +84,9 @@ try {
  आप उत्पाद खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
 ### क्या जावा के लिए Aspose.Page के लिए अस्थायी लाइसेंस उपलब्ध हैं?
  हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

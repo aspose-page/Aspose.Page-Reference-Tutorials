@@ -3,10 +3,16 @@ title: Agregue degradado horizontal a XPS con Aspose.Page para .NET
 linktitle: Agregar degradado horizontal a XPS
 second_title: Aspose.Página .NET API
 description: Aprenda cómo agregar impresionantes gradientes horizontales a sus documentos XPS usando Aspose.Page para .NET. Aumente el atractivo visual sin esfuerzo.
-type: docs
 weight: 13
 url: /es/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregue degradado horizontal a XPS con Aspose.Page para .NET
+
 ## Introducción
 
 En este tutorial, exploraremos cómo mejorar los documentos XPS agregando un degradado horizontal usando Aspose.Page para .NET. Aspose.Page para .NET es una poderosa biblioteca que proporciona un manejo perfecto de documentos XPS (XML Paper Especificación) en aplicaciones .NET. Agregar degradados puede aportar atractivo visual a sus documentos y esta guía lo guiará a través del proceso paso a paso.
@@ -113,3 +119,9 @@ Mejorar sus documentos XPS con degradados no sólo mejora su atractivo visual si
 ### P5: ¿Cómo obtengo una licencia temporal de Aspose.Page para .NET?
 
  R5: Puede obtener una licencia temporal de[este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

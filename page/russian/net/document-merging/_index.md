@@ -3,10 +3,16 @@ title: Объединение документов
 linktitle: Объединение документов
 second_title: Aspose.Page .NET API
 description: Легко объединяйте документы PostScript и XPS в высококачественные PDF-файлы с помощью Aspose.Page для .NET. Улучшите обработку документов с помощью наших пошаговых руководств.
-type: docs
 weight: 25
 url: /ru/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Объединение документов
+
 ## Введение
 
 Объедините свой путь к эффективному управлению документами с помощью Aspose.Page для .NET. Откройте для себя возможности объединения документов с помощью наших подробных руководств.
@@ -40,3 +46,9 @@ url: /ru/net/document-merging/
 Легко объединяйте документы XPS в высококачественные PDF-файлы с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству, чтобы конвертировать документы без проблем.
 ### [Объединение документов XPS с помощью Aspose.Page для .NET](./merge-xps-documents/)
 Легко объединяйте документы XPS с помощью Aspose.Page для .NET. Следуйте нашему пошаговому руководству для эффективного управления документами.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

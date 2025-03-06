@@ -3,10 +3,16 @@ title: .NET के लिए Aspose.Page के साथ XPS दस्ताव
 linktitle: एक्सपीएस दस्तावेज़ को संशोधित करें
 second_title: Aspose.Page .NET API
 description: XPS दस्तावेज़ों को सहजता से संशोधित करने के लिए .NET के लिए Aspose.Page की शक्ति का अन्वेषण करें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें, अपने दस्तावेज़ प्रसंस्करण को बढ़ाएं, और वैयक्तिकृत हस्ताक्षर पाठ जोड़ें।
-type: docs
 weight: 12
 url: /hi/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ को संशोधित करें
+
 ## परिचय
 
 .NET के लिए Aspose.Page का उपयोग करके XPS दस्तावेज़ों को कैसे संशोधित करें, इस बारे में हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। Aspose.Page एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को XPS फ़ाइलों के साथ सहजता से काम करने में सक्षम बनाती है। इस ट्यूटोरियल में, हम आपको XPS दस्तावेज़ में निर्दिष्ट पृष्ठों पर "पुष्टिकृत" हस्ताक्षर पाठ जोड़ने की प्रक्रिया के बारे में बताएंगे।
@@ -119,3 +125,9 @@ A3: Aspose.Page को विभिन्न आकारों के दस्
 ### Q5: मैं कहां से सहायता मांग सकता हूं या एस्पोज़ समुदाय से जुड़ सकता हूं?
 
  A5: पर जाएँ[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) प्रश्न पूछने और समुदाय के साथ जुड़ने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

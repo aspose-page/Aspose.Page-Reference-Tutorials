@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile Gömülü Kaynağı Kullanarak Lisansı Ayarlay�
 linktitle: Gömülü Kaynağı Kullanarak Lisansı Ayarlama
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET ile gömülü kaynakları kullanarak nasıl lisans ayarlayacağınızı öğrenin. Uyumluluğu sağlayın ve belge işlemenin tüm potansiyelini ortaya çıkarın.
-type: docs
 weight: 14
 url: /tr/net/getting-started/set-license-using-embedded-resource/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile Gömülü Kaynağı Kullanarak Lisansı Ayarlayın
+
 ## giriiş
 
 Aspose.Page for .NET, geliştiricilerin çeşitli belge formatlarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde, Aspose.Page for .NET ile gömülü bir kaynak kullanarak lisans ayarlama sürecinde size rehberlik edeceğiz. Lisanslama, Aspose.Page işlevlerinin tam kapsamıyla kullanılması, uyumluluğun sağlanması ve kütüphanenin potansiyelinin ortaya çıkarılması açısından çok önemli bir adımdır.
@@ -110,3 +116,9 @@ Cevap1: Aspose.Page'i lisans olmadan kullanabilirsiniz ancak tam işlevsellik ve
 ### S5: Aspose.Page for .NET'i nereden satın alabilirim?
 
  Cevap5: Aspose.Page'i satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

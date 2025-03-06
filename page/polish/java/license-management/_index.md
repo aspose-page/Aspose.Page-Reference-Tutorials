@@ -3,10 +3,16 @@ title: Zarządzanie licencjami
 linktitle: Zarządzanie licencjami
 second_title: Aspose.Page API Java
 description: Odblokuj pełny potencjał Aspose.Page dla Java dzięki naszym samouczkom dotyczącym zarządzania licencjami. Bezproblemowo konfiguruj licencje licznikowe, aby zwiększyć możliwości przetwarzania dokumentów.
-type: docs
 weight: 30
 url: /pl/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie licencjami
+
 ## Wstęp
 
 Witamy w samouczkach dotyczących zarządzania licencjami dla Aspose.Page w Javie! W tym obszernym przewodniku zagłębimy się w zawiłości konfiguracji licencji licznikowych w celu optymalizacji możliwości przetwarzania dokumentów. Wyruszmy w podróż, która odblokuje pełny potencjał Aspose.Page, zapewniając bezproblemową integrację z Javą.
@@ -39,3 +45,9 @@ Nasze samouczki dotyczące zarządzania licencjami dla Aspose.Page w Javie są T
 ## Poradniki dotyczące zarządzania licencjami
 ### [Ustaw licencję licznikową w Javie](./set-metered-license/)
 Poznaj bezproblemową integrację Aspose.Page z Javą. Bez wysiłku konfiguruj licencje licznikowe i zwiększaj możliwości przetwarzania dokumentów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

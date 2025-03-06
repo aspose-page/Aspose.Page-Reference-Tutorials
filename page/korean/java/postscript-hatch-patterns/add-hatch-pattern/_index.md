@@ -3,10 +3,16 @@ title: Java PostScript에 해치 패턴 추가
 linktitle: Java PostScript에 해치 패턴 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java PostScript 문서에 매력적인 해치 패턴을 추가하는 방법을 알아보세요. 시각적 콘텐츠를 손쉽게 향상시키세요.
-type: docs
 weight: 10
 url: /ko/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript에 해치 패턴 추가
+
 ## 소개
 Java 프로그래밍 세계에서 시각적 요소를 향상시키는 것은 개발자의 일반적인 요구 사항입니다. 흥미로운 시각적 개선 사항 중 하나는 PostScript 문서에 해치 패턴을 추가한 것입니다. 이 튜토리얼은 Aspose.Page for Java를 사용하여 해치 패턴을 추가하는 과정을 안내합니다.
 ## 전제 조건
@@ -97,3 +103,9 @@ document.save();
  탐색[Java 포럼용 Aspose.Page](https://forum.aspose.com/c/page/39) 튜토리얼 및 커뮤니티 지원을 위해.
 ### Aspose.Page for Java에 대한 포괄적인 문서 리소스가 있나요?
  예, 설명서를 참조하세요[여기](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

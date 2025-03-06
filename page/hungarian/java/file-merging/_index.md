@@ -3,10 +3,16 @@ title: Fájlok egyesítése
 linktitle: Fájlok egyesítése
 second_title: Aspose.Page Java API
 description: Az Aspose.Page segítségével könnyedén egyesítse a PostScript fájlokat PDF-be, és konvertálja az XPS-t PDF-be vagy XPS-be Java nyelven. Kövesse a lépésről lépésre bemutatott útmutatókat a zökkenőmentes dokumentumátalakításhoz.
-type: docs
 weight: 31
 url: /hu/java/file-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fájlok egyesítése
+
 
 ## Bevezetés
 
@@ -40,3 +46,9 @@ Könnyedén egyesítse a PostScript fájlokat PDF-be Java nyelven az Aspose.Page
 Tanulja meg, hogyan konvertálhat könnyedén XPS-t PDF-be Java nyelven az Aspose.Page segítségével. Kövesse lépésenkénti útmutatónkat a hatékony dokumentumátalakítás érdekében.
 ### [Az XPS konvertálása XPS-re Java nyelven](./xps-to-xps/)
 Ismerje meg, hogyan lehet az XPS-fájlokat zökkenőmentesen egyesíteni Java nyelven az Aspose.Page segítségével. Kövesse lépésenkénti útmutatónkat a hatékony dokumentumkezelés érdekében. Növelje Java fejlesztési készségeit most!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

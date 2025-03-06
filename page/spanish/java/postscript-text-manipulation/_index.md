@@ -3,10 +3,16 @@ title: Manipulación de texto PostScript
 linktitle: Manipulación de texto PostScript
 second_title: API de Java de Aspose.Page
 description: Descubra Aspose.Page para aprovechar el potencial de Java con tutoriales de PostScript. Agregue texto, incluidas cadenas Unicode, sin esfuerzo para mejorar sus proyectos.
-type: docs
 weight: 36
 url: /es/java/postscript-text-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de texto PostScript
+
 
 ## Introducción
 
@@ -30,3 +36,9 @@ Ya sea que esté buscando perfeccionar sus habilidades de manipulación de texto
 Explore el poder de Aspose.Page para Java en nuestro tutorial sobre cómo agregar texto a documentos PostScript. Aprenda a utilizar el sistema y las fuentes personalizadas con facilidad.
 ### [Agregar texto usando una cadena Unicode en Java PostScript](./add-text-unicode/)
 Explore el poder de Aspose.Page para Java al agregar texto Unicode a sus proyectos PostScript. Siga nuestra guía paso a paso para una integración perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

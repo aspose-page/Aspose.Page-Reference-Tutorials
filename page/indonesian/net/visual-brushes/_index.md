@@ -3,10 +3,16 @@ title: Kuas Visual
 linktitle: Kuas Visual
 second_title: Aspose.Halaman .NET API
 description: Tingkatkan pemrosesan dokumen Anda di .NET dengan tutorial Aspose.Page. Selami ranah Visual Brushes, kuasai teknik untuk dokumen visual yang menakjubkan.
-type: docs
 weight: 35
 url: /id/net/visual-brushes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kuas Visual
+
 
 ## Perkenalan
 
@@ -36,3 +42,9 @@ Ingat, kekuatan untuk mengubah dokumen Anda ada di tangan Anda. Biarkan Aspose.P
 ## Tutorial Kuas Visual
 ### [Terapkan Grid Visual Brush dengan Aspose.Page untuk .NET](./apply-grid-visual-brush/)
 Jelajahi dunia pemrosesan dokumen yang dinamis di .NET dengan Aspose.Page. Pelajari cara menerapkan Grid Visual Brush untuk dokumen visual yang menakjubkan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

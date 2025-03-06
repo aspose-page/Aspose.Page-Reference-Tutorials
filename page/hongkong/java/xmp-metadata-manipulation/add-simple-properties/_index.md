@@ -3,10 +3,16 @@ title: 使用 Java 在 XMP 中新增簡單屬性
 linktitle: 使用 Java 在 XMP 中新增簡單屬性
 second_title: Aspose.Page Java API
 description: 透過我們為 EPS 檔案中的 XMP 元資料添加屬性的指南來釋放 Aspose.Page for Java 的潛力。輕鬆提昇文件處理能力！
-type: docs
 weight: 14
 url: /zh-hant/java/xmp-metadata-manipulation/add-simple-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 XMP 中新增簡單屬性
+
 ## 介紹
 在不斷發展的文件處理領域，有效管理元資料至關重要。 Aspose.Page for Java 讓開發人員能夠無縫操作可擴充元資料平台 (XMP) 資料。在本教程中，我們將探索使用 Java 為 XMP 添加簡單屬性的過程，為您提供全面的逐步指南。
 ## 先決條件
@@ -87,3 +93,9 @@ Aspose.Page 主要支援 Java，但也有適用於其他語言（例如 .NET）�
 可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 哪裡可以購買 Java 版 Aspose.Page？
 您可以購買該產品[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

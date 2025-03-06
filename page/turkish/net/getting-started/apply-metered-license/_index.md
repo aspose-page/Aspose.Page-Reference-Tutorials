@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile Ölçülü Lisans Uygulayın
 linktitle: Ölçülü Lisansı Uygula
 second_title: Aspose.Page .NET API'si
 description: Ölçülü lisans uygulamasına ilişkin bu adım adım kılavuzla Aspose.Page for .NET'in kusursuz entegrasyonunu keşfedin. Belge işlemeyi zahmetsizce optimize edin.
-type: docs
 weight: 10
 url: /tr/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile Ölçülü Lisans Uygulayın
+
 ## giriiş
 
 Ölçülü bir lisans uygulayarak Aspose.Page for .NET'in tüm potansiyelini ortaya çıkarın. Bu eğitim, bu güçlü .NET kitaplığının sorunsuz ve optimize edilmiş kullanımını sağlayarak, ölçülü lisansı kurma ve uygulama sürecinde size rehberlik edecektir.
@@ -112,3 +118,9 @@ Bu adım adım kılavuz, Aspose.Page for .NET'i kullanarak ölçülü bir lisans
 ### S5: Aspose.Page for .NET için nasıl geçici lisans alabilirim?
 
  A5: Ziyaret edin[geçici lisans/](https://purchase.aspose.com/temporary-license/) geçici lisans almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

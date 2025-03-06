@@ -3,10 +3,16 @@ title: Secure License with Aspose.Page for .NET
 linktitle: Secure License
 second_title: Aspose.Page .NET API
 description: Secure your Aspose.Page for .NET license effortlessly with our step-by-step guide. Unlock the full potential for seamless page manipulation in your .NET applications.
-type: docs
 weight: 13
 url: /net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Secure License with Aspose.Page for .NET
+
 ## Introduction
 
 Unlocking the full potential of Aspose.Page for .NET involves securing your license to ensure seamless integration and optimal performance. In this step-by-step guide, we'll walk you through the process of securing your license using Aspose.Page, a powerful tool for handling page manipulation in .NET applications.
@@ -90,3 +96,10 @@ A4: Yes, a temporary license is valid for a limited duration and is often used f
 ### Q5: Can I transfer my license to another machine?
 
 A5: Yes, you can transfer your license to another machine as needed.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

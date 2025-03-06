@@ -3,10 +3,16 @@ title: الملمس والأنماط - بوستسكريبت
 linktitle: الملمس والأنماط - بوستسكريبت
 second_title: Aspose.Page جافا API
 description: رفع مستوى PostScript باستخدام Aspose.Page لـ Java. قم بإضافة أنماط تجانب النسيج بسلاسة للحصول على إمكانيات إبداعية في دروس Java PostScript التفصيلية الخاصة بنا.
-type: docs
 weight: 38
 url: /ar/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الملمس والأنماط - بوستسكريبت
+
 ## مقدمة
 
 هل أنت مستعد للارتقاء بمستندات PostScript الخاصة بك إلى آفاق إبداعية جديدة؟ Aspose.Page for Java هو بوابتك لدمج أنماط تجانب النسيج بسلاسة في مشاريعك. في هذا الدليل الشامل، سوف نتعمق في عالم الأنسجة والأنماط، ونفتح الإمكانات الكاملة لـ Java PostScript.
@@ -45,3 +51,9 @@ url: /ar/java/postscript-texture-patterns/
 ## الملمس والأنماط – دروس بوستسكريبت
 ### [إضافة نمط تبليط الملمس في Java PostScript](./add-texture-tiling-pattern/)
 يمكنك بسهولة إضافة أنماط تجانب النسيج إلى مستندات PostScript باستخدام Aspose.Page لـ Java. استكشف دليل التكامل السلس الخاص بنا للتعرف على الإمكانيات الإبداعية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java XPS에 수직 그라데이션 추가
 linktitle: Java XPS에 수직 그라데이션 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java XPS 문서에 수직 그라데이션을 추가하는 방법을 알아보세요. 쉽게 시각적 매력을 향상시키세요. 내부의 단계별 가이드.
-type: docs
 weight: 12
 url: /ko/java/xps-gradient-addition/vertical/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java XPS에 수직 그라데이션 추가
+
 ## 소개
 이 튜토리얼에서는 Aspose.Page for Java를 사용하여 Java XPS에 수직 그라데이션을 추가하는 방법을 살펴보겠습니다. XPS 문서에 그라디언트를 추가하면 콘텐츠의 시각적 매력을 향상시켜 콘텐츠를 더욱 매력적이고 미학적으로 즐겁게 만들 수 있습니다.
 ## 전제 조건
@@ -72,3 +78,9 @@ doc.save(dataDir + "VerticalGradient.xps");
  임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
 ### 도움이 필요하거나 질문이 있으신가요?
  Aspose.Page 커뮤니티를 방문하세요[법정](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

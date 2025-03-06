@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して XPS ドキュメントに円楕円�
 linktitle: XPS ドキュメントに円楕円を追加する
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して、鮮やかな放射状グラデーションで XPS ドキュメントを強化します。素晴らしい視覚効果を得るには、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 11
 url: /ja/net/drawing-shapes/add-circle-ellipse-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して XPS ドキュメントに円楕円を追加する
+
 ## 導入
 
 視覚的に魅力的な XPS ドキュメントを作成することは、さまざまなアプリケーションで共通の要件です。 Aspose.Page for .NET は、XPS ドキュメントを効率的に操作するための強力な機能セットを提供します。このチュートリアルでは、Aspose.Page for .NET を使用して XPS ドキュメントに円楕円を追加することに焦点を当てます。以下の手順に従って、XPS ドキュメントを鮮やかな放射状グラデーションで強化します。
@@ -114,3 +120,9 @@ A1: Aspose.Page for .NET は、特に XPS ドキュメントの操作を処理�
 ### Q5: Aspose.Page for .NET を購入できますか?
 
  A5: はい、ライブラリを購入できます。[ここ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

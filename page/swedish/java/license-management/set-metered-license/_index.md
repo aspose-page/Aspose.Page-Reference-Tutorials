@@ -3,10 +3,16 @@ title: Enkel integrering av mätlicens med Aspose.Page Java
 linktitle: Ställ in mätlicens i Java
 second_title: Aspose.Page Java API
 description: Utforska den sömlösa integrationen av Aspose.Page med Java. Konfigurera mätlicenser utan ansträngning och förbättra dina dokumentbehandlingsmöjligheter.
-type: docs
 weight: 10
 url: /sv/java/license-management/set-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enkel integrering av mätlicens med Aspose.Page Java
+
 ## Introduktion
 Välkommen till vår omfattande guide om hur du ställer in en mätlicens i Java med Aspose.Page. Om du vill förbättra dina dokumentbehandlingsmöjligheter och säkerställa sömlös integration med Aspose.Page, är du på rätt plats. I den här handledningen går vi igenom processen och delar upp varje steg i lättsmälta bitar.
 ## Förutsättningar
@@ -100,3 +106,9 @@ Du kan få dessa nycklar via ditt Aspose-konto.
  Se dokumentationen[här](https://reference.aspose.com/page/java/).
 ### F: Hur kan jag få tillfälliga licenser?
  Tillfälliga licenser kan erhållas[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

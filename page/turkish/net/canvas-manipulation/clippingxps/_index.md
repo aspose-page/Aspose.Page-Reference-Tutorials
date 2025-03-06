@@ -3,10 +3,16 @@ title: .NET için Aspose.Page ile XPS'yi kırpma
 linktitle: XPS'yi kırpma
 second_title: Aspose.Page .NET API'si
 description: XPS belgelerini kırpmaya ilişkin bu adım adım kılavuzla Aspose.Page for .NET'in gücünü keşfedin. XPS dosyalarını zahmetsizce oluşturun, yönetin ve kaydedin.
-type: docs
 weight: 11
 url: /tr/net/canvas-manipulation/clippingxps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET için Aspose.Page ile XPS'yi kırpma
+
 ## giriiş
 
 Aspose.Page for .NET kullanarak XPS'yi kırpma hakkındaki bu kapsamlı eğitime hoş geldiniz! Bu kılavuzda, Aspose.Page for .NET'i kullanarak XPS belgelerini oluşturma, değiştirme ve kaydetme sürecinde size yol göstereceğiz. XPS veya XML Kağıt Belirtimi, standartlaştırılmış ve açık bir belge formatıdır ve Aspose.Page for .NET, .NET uygulamalarınızda XPS belgeleriyle çalışmak için güçlü araçlar sağlar.
@@ -156,3 +162,9 @@ C2: Evet, Aspose.Page for .NET kullanıcı dostu olacak şekilde tasarlanmışt�
 ### S5: Aspose.Page for .NET'in ücretsiz deneme sürümü mevcut mu?
 
  A5: Evet, ücretsiz denemeyi keşfedebilirsiniz[Burada](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

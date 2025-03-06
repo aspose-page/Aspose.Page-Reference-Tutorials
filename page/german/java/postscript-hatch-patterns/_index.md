@@ -3,10 +3,16 @@ title: Schraffurmuster – PostScript
 linktitle: Schraffurmuster – PostScript
 second_title: Aspose.Page Java-API
 description: Entdecken Sie die Kunst, mit Aspose.Page faszinierende Schraffurmuster zu Java-PostScript-Dokumenten hinzuzufügen. Erhöhen Sie visuelle Inhalte mühelos für eine beeindruckende Ausgabe.
-type: docs
 weight: 27
 url: /de/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Schraffurmuster – PostScript
+
 ## Einführung
 
 Mit Aspose.Page wird das Erstellen optisch ansprechender Java-PostScript-Dokumente zum Kinderspiel. In diesem Tutorial tauchen wir in die faszinierende Welt der Schraffurmuster ein und erkunden, wie Sie Ihre visuellen Inhalte mühelos verbessern können.
@@ -30,3 +36,9 @@ Egal, ob Sie ein erfahrener Entwickler oder ein Neuling in Java PostScript sind,
 ## Schraffurmuster – PostScript-Tutorials
 ### [Fügen Sie ein Schraffurmuster in Java PostScript hinzu](./add-hatch-pattern/)
 Erfahren Sie, wie Sie mit Aspose.Page faszinierende Schraffurmuster zu Java-PostScript-Dokumenten hinzufügen. Werten Sie Ihre visuellen Inhalte mühelos auf.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

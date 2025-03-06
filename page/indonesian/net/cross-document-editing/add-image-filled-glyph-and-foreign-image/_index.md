@@ -3,10 +3,16 @@ title: Tambahkan Gambar Berisi Glyph & Gambar Asing dengan Aspose.Page .NET
 linktitle: Tambahkan Gambar Berisi Glyph & Gambar Asing
 second_title: Aspose.Halaman .NET API
 description: Buka kekuatan pemrosesan dokumen di .NET dengan Aspose.Page. Tambahkan mesin terbang berisi gambar dengan mudah. Sempurnakan visual dan sederhanakan alur kerja Anda.
-type: docs
 weight: 11
 url: /id/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Gambar Berisi Glyph & Gambar Asing dengan Aspose.Page .NET
+
 ## Perkenalan
 
 Dalam dunia pengembangan .NET, Aspose.Page menonjol sebagai perangkat canggih untuk menangani tugas pemrosesan dokumen. Tutorial ini akan memandu Anda melalui proses menambahkan mesin terbang berisi gambar dan menggabungkan gambar asing menggunakan Aspose.Page untuk .NET. Di akhir panduan ini, Anda akan memiliki pemahaman yang kuat tentang cara meningkatkan kemampuan pemrosesan dokumen Anda.
@@ -131,3 +137,9 @@ A4: Ya, Anda dapat menyesuaikan gaya untuk setiap mesin terbang secara mandiri, 
 ### Q5: Apa keuntungan menggunakan Aspose.Page dibandingkan alat pemrosesan dokumen lainnya?
 
 A5: Aspose.Page menawarkan serangkaian fitur lengkap, kinerja luar biasa, dan dokumentasi ekstensif, menjadikannya pilihan utama bagi banyak pengembang.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

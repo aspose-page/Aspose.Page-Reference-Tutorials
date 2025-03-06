@@ -3,10 +3,16 @@ title: Set Opacity Mask in Java XPS
 linktitle: Set Opacity Mask in Java XPS
 second_title: Aspose.Page Java API
 description: Discover the power of setting opacity masks in Java XPS with Aspose.Page. Follow our step-by-step guide for a visually enhanced document experience.
-type: docs
 weight: 11
 url: /java/xps-transparency/set-opacity-mask/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Opacity Mask in Java XPS
+
 ## Introduction
 Welcome to our comprehensive guide on setting opacity masks in Java XPS using Aspose.Page. In this tutorial, we'll walk you through the process of creating an XPS document, adding a canvas, and applying an opacity mask to a rectangle using the powerful features of Aspose.Page for Java.
 ## Prerequisites
@@ -67,3 +73,10 @@ The trial version may have some feature limitations. It's advisable to check the
 You can visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support or purchase a license for premium assistance.
 ### Is there a money-back guarantee for Aspose.Page?
 Refer to the [purchase page](https://purchase.aspose.com/buy) for information on refund policies.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulace se stránkou Java
 linktitle: Manipulace se stránkou Java
 second_title: Aspose.Page Java API
 description: Odhalte tajemství manipulace s Java Page Manipulation pomocí výukových programů Aspose.Page. Ponořte se do výstřižků a transformací a vytvořte vizuálně úžasné dokumenty bez námahy.
-type: docs
 weight: 20
 url: /cs/java/page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace se stránkou Java
+
 
 ## Úvod
 
@@ -50,3 +56,9 @@ Jste připraveni vydat se na cestu vytváření vizuálně úchvatných a dynami
 Prozkoumejte umění ořezávání v Java Page Manipulation s Aspose.Page. Zvládněte precizní tvorbu dokumentů pro ohromující vizuály a ovládání.
 ### [Transformace v Java Page Manipulation](./transformations/)
 Naučte se provádět pokročilé transformace stránek v Javě pomocí Aspose.Page for Java. Vylepšete své Java aplikace o výkonné možnosti manipulace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

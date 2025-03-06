@@ -3,10 +3,16 @@ title: Establecer máscara de opacidad en documento XPS con Aspose.Page para .NE
 linktitle: Establecer máscara de opacidad en documento XPS
 second_title: Aspose.Página .NET API
 description: Aprenda a configurar máscaras de opacidad en documentos XPS usando Aspose.Page para .NET. Mejore la estética de los documentos sin esfuerzo.
-type: docs
 weight: 12
 url: /es/net/transparency-effects/set-opacity-mask-in-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer máscara de opacidad en documento XPS con Aspose.Page para .NET
+
 ## Introducción
 
 Las máscaras de opacidad son esenciales cuando desea crear documentos visualmente atractivos con distintos niveles de transparencia. Aspose.Page para .NET simplifica este proceso y ofrece a los desarrolladores un conjunto completo de herramientas para mejorar los documentos XPS. En este tutorial, exploraremos cómo configurar una máscara de opacidad en una guía paso a paso.
@@ -98,3 +104,9 @@ R4: Sí, puedes superponer varias máscaras de opacidad para crear complejos efe
 ### P5: ¿Aspose.Page es compatible con otros formatos de documentos?
 
 R5: Aspose.Page se centra principalmente en documentos XPS, pero Aspose ofrece una gama de productos para manejar diferentes formatos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

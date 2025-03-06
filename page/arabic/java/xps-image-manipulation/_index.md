@@ -3,10 +3,16 @@ title: معالجة الصور – XPS
 linktitle: معالجة الصور – XPS
 second_title: Aspose.Page جافا API
 description: اكتشف فن معالجة الصور بسهولة في مستندات Java XPS باستخدام Aspose.Page. تعلم كيفية إضافة الصور وتجانبها بسلاسة لتحسين معالجة المستندات.
-type: docs
 weight: 29
 url: /ar/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة الصور – XPS
+
 
 ## مقدمة
 
@@ -36,3 +42,9 @@ url: /ar/java/xps-image-manipulation/
 تعرف على كيفية إضافة الصور بسهولة إلى مستندات XPS في Java باستخدام Aspose.Page. ارفع مستوى معالجة مستنداتك باستخدام هذا الدليل المفصّل خطوة بخطوة.
 ### [إضافة صورة متجانبة في Java XPS](./add-tiled-image/)
 اكتشف المعالجة السلسة لمستندات Java XPS باستخدام Aspose.Page. تعرّف على كيفية إضافة صور متجانبة بسهولة باستخدام هذا الدليل المفصّل خطوة بخطوة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

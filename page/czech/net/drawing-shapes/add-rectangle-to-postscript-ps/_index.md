@@ -3,10 +3,16 @@ title: Přidejte obdélník do PostScriptu (PS) pomocí Aspose.Page pro .NET
 linktitle: Přidat obdélník do PostScriptu (PS)
 second_title: Aspose.Page .NET API
 description: Vylepšete vytváření dokumentů v .NET pomocí Aspose.Page. Naučte se přidávat obdélníky do souborů PostScript (PS) krok za krokem.
-type: docs
 weight: 12
 url: /cs/net/drawing-shapes/add-rectangle-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte obdélník do PostScriptu (PS) pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Pokud chcete zlepšit své možnosti vytváření dokumentů v .NET, Aspose.Page poskytuje výkonné řešení pro práci s dokumenty PostScript. V tomto tutoriálu vás provedeme procesem přidávání obdélníků do dokumentu PostScript pomocí Aspose.Page for .NET.
@@ -133,3 +139,10 @@ A2: Ano, Aspose.Page podporuje různé formáty dokumentů, včetně XPS a PostS
 ### Q5: Mohu vyzkoušet Aspose.Page před nákupem?
 
  A5: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/) a pro rozšířené použití zvažte a[dočasná licence](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

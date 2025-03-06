@@ -3,10 +3,16 @@ title: Начиная
 linktitle: Начиная
 second_title: Aspose.Page .NET API
 description: Раскройте возможности Aspose.Page .NET с помощью пошаговых руководств. Применяйте дозированные лицензии, загрузку из файлов или потоков, безопасные лицензии и многое другое.
-type: docs
 weight: 20
 url: /ru/net/getting-started/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Начиная
+
 ## Введение
 
 Добро пожаловать в полное руководство по урокам Aspose.Page для .NET. Погрузитесь в мир бесперебойной обработки документов, где эффективность сочетается с простотой. Давайте отправимся в путешествие, чтобы использовать весь потенциал этого мощного инструмента с помощью серии подробных руководств.
@@ -38,3 +44,9 @@ url: /ru/net/getting-started/
 Защитите свою лицензию Aspose.Page для .NET без особых усилий с помощью нашего пошагового руководства. Раскройте весь потенциал беспрепятственного манипулирования страницами в ваших .NET-приложениях.
 ### [Установите лицензию с помощью встроенного ресурса с помощью Aspose.Page для .NET](./set-license-using-embedded-resource/)
 Узнайте, как установить лицензию с помощью встроенных ресурсов с помощью Aspose.Page для .NET. Обеспечьте соблюдение требований и раскройте весь потенциал обработки документов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

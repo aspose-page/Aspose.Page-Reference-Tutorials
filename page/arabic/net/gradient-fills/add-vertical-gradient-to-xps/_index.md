@@ -3,10 +3,16 @@ title: أضف تدرجًا رأسيًا إلى XPS باستخدام Aspose.Page 
 linktitle: أضف التدرج الرأسي إلى XPS
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية تحسين مستندات XPS بالتدرجات الرأسية باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 15
 url: /ar/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف تدرجًا رأسيًا إلى XPS باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول كيفية إضافة تدرج عمودي إلى مستند XPS باستخدام Aspose.Page لـ .NET. Aspose.Page عبارة عن واجهة برمجة تطبيقات قوية تسمح لك بالعمل مع ملفات XPS (مواصفات ورق XML) في تطبيقات .NET الخاصة بك. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستند XPS جديد وإضافة تدرج رأسي إلى المسار وحفظ النتيجة.
@@ -117,3 +123,9 @@ doc.Save(dataDir + "AddVerticalGradient_outXPS.xps");
 ### س5: كيف يمكنني الحصول على الدعم أو طرح الأسئلة؟
 
  ج5: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

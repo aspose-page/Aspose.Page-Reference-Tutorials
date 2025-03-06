@@ -3,10 +3,16 @@ title: Tạo tài liệu PostScript với Aspose.Page cho .NET
 linktitle: Tạo tài liệu PostScript
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách tạo tài liệu PostScript trong .NET bằng Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Tải xuống thư viện và bắt đầu thao tác các tệp PostScript một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/document-creation/create-postscript-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo tài liệu PostScript với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách tạo tài liệu PostScript bằng Aspose.Page cho .NET! Aspose.Page là một API mạnh mẽ cho phép bạn thao tác và tạo các tệp PostScript dễ dàng trong các ứng dụng .NET của mình. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu PostScript, chia nhỏ từng ví dụ thành các bước chi tiết.
@@ -123,3 +129,9 @@ Trong hướng dẫn này, chúng tôi đã trình bày các bước thiết y�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho .NET?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

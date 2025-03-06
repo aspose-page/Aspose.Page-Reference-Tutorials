@@ -3,10 +3,16 @@ title: Správa metadat EPS
 linktitle: Správa metadat EPS
 second_title: Aspose.Page .NET API
 description: Zvyšte organizaci EPS pomocí Aspose.Page pro .NET. Přidejte metadata bez námahy pro lepší přístupnost. Prozkoumejte výukové programy pro správu metadat EPS.
-type: docs
 weight: 36
 url: /cs/net/eps-metadata-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa metadat EPS
+
 
 ## Úvod
 
@@ -59,3 +65,9 @@ Naučte se, jak změnit pojmenované hodnoty v souborech EPS pomocí Aspose.Page
 Zvládněte manipulaci se soubory EPS pomocí Aspose.Page pro .NET. Měňte hodnoty metadat XMP bez námahy.
 ### [Extrahujte metadata z dokumentu EPS pomocí Aspose.Page pro .NET](./extract-metadata-from-eps-document/)
 Vylepšete organizaci dokumentů EPS pomocí Aspose.Page pro .NET. Bez námahy přidejte metadata pro lepší dostupnost a vyhledávání informací.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

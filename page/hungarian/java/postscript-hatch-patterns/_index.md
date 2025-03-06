@@ -3,10 +3,16 @@ title: Sraffozási minták – PostScript
 linktitle: Sraffozási minták – PostScript
 second_title: Aspose.Page Java API
 description: Fedezze fel a lenyűgöző sraffozási minták hozzáadásának művészetét a Java PostScript dokumentumokhoz az Aspose.Page segítségével. Emelje fel a vizuális tartalmat könnyedén a lenyűgöző teljesítmény érdekében.
-type: docs
 weight: 27
 url: /hu/java/postscript-hatch-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sraffozási minták – PostScript
+
 ## Bevezetés
 
 A vizuálisan tetszetős Java PostScript dokumentumok létrehozása az Aspose.Page segítségével gyerekjáték lesz. Ebben az oktatóanyagban elmélyülünk a sraffozási minták lenyűgöző világában, és feltárjuk, hogyan javíthatja könnyedén vizuális tartalmait.
@@ -30,3 +36,9 @@ Akár tapasztalt fejlesztő, akár újonc a Java PostScript használatában, okt
 ## Sraffozási minták – PostScript oktatóanyagok
 ### [Adja hozzá a sraffozási mintát a Java PostScript-hez](./add-hatch-pattern/)
 Ismerje meg, hogyan adhat lenyűgöző sraffozási mintákat a Java PostScript dokumentumokhoz az Aspose.Page használatával. Emelje fel vizuális tartalmát könnyedén.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

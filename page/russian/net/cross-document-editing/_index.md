@@ -3,10 +3,16 @@ title: Междокументное редактирование
 linktitle: Междокументное редактирование
 second_title: Aspose.Page .NET API
 description: Раскройте потенциал Aspose.Page для .NET с помощью наших руководств. Добавляйте клоны глифов, меняйте цвета и легко манипулируйте страницами в документах XPS.
-type: docs
 weight: 22
 url: /ru/net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Междокументное редактирование
+
 
 ## Введение
 
@@ -34,3 +40,9 @@ url: /ru/net/cross-document-editing/
 Раскройте возможности обработки документов в .NET с помощью Aspose.Page. Добавляйте глифы, заполненные изображениями, без особых усилий. Улучшите визуальные эффекты и оптимизируйте рабочий процесс.
 ### [Управление страницами с помощью Aspose.Page для .NET](./manipulate-pages/)
 Изучите манипулирование страницами в .NET с помощью Aspose.Page — мощной библиотеки для обработки документов XPS. Следуйте нашему пошаговому руководству для достижения эффективных результатов.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm không gian tên với Aspose.Page cho .NET
 linktitle: Thêm không gian tên
 second_title: API Aspose.Page .NET
 description: Nâng cao tệp EPS với Aspose.Page cho .NET. Thêm không gian tên một cách dễ dàng, sửa đổi siêu dữ liệu XMP và tăng cường quy trình phát triển .NET của bạn.
-type: docs
 weight: 13
 url: /vi/net/eps-metadata-management/modify-eps-metadata-add-namespace/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm không gian tên với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET năng động, Aspose.Page nổi bật như một công cụ mạnh mẽ để xử lý các tệp EPS. Aspose.Page for .NET cho phép các nhà phát triển thao tác liền mạch với siêu dữ liệu XMP, cung cấp tính linh hoạt để thêm không gian tên và nâng cao siêu dữ liệu của tệp EPS.
@@ -117,3 +123,9 @@ A2: Chắc chắn rồi! Aspose.Page cho phép bạn trích xuất và sửa đ�
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page?
 
  A5: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

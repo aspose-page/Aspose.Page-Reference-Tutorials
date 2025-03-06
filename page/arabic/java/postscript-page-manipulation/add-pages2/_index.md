@@ -3,10 +3,16 @@ title: برنامج Aspose.Page Java التعليمي - إضافة صفحات ف
 linktitle: إضافة صفحات في بوستسكريبت
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية إضافة صفحات إلى مستندات Java PostScript باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتعامل السلس مع المستندات.
-type: docs
 weight: 11
 url: /ar/java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# برنامج Aspose.Page Java التعليمي - إضافة صفحات في PostScript
+
 ## مقدمة
 في عالم معالجة المستندات وإدارتها، يظهر Aspose.Page for Java كأداة قوية للتعامل مع مستندات PostScript. تعد إضافة صفحات إلى مستند PostScript متطلبًا شائعًا في العديد من التطبيقات. في هذا البرنامج التعليمي، سوف نستكشف عملية إضافة الصفحات باستخدام Aspose.Page لـ Java، مع تفصيل كل خطوة لجعل تجربة التعلم سلسة.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ document.save();
 نعم، تم تصميم Aspose.Page للتعامل بكفاءة مع المستندات الصغيرة والكبيرة بسهولة.
 ### أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Page؟
  اكتشف ال[Aspose.Page الوثائق](https://reference.aspose.com/page/java/) ، أو قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

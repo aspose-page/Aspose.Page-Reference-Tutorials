@@ -3,10 +3,16 @@ title: Οπτικά Στοιχεία - Java
 linktitle: Οπτικά Στοιχεία - Java
 second_title: Aspose.Page Java API
 description: Αναβαθμίστε τα γραφικά του εγγράφου Java χωρίς κόπο με το Aspose.Page! Μάθετε να βελτιώνετε την εφαρμογή σας προσθέτοντας πλέγματα χρησιμοποιώντας το Visual Brush σε αυτό το βήμα προς βήμα σεμινάριο.
-type: docs
 weight: 41
 url: /el/java/visual-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Οπτικά Στοιχεία - Java
+
 ## Εισαγωγή
 
 Προγραμματιστές Java, χαίρεστε! Βουτήξτε στη σφαίρα των οπτικών στοιχείων με τα μαθήματα Aspose.Page που υπόσχονται να μεταμορφώσουν τα γραφικά του εγγράφου Java σας. Σε αυτήν την έκδοση, εστιάζουμε στη μαγευτική τέχνη της προσθήκης πλεγμάτων χρησιμοποιώντας το Visual Brush. Κουμπώστε καθώς ξεκινάμε ένα ταξίδι για να αυξήσετε την ελκυστικότητα της αίτησής σας.
@@ -46,3 +52,9 @@ url: /el/java/visual-elements/
 ## Visual Elements - Java Tutorials
 ### [Προσθέστε Grid χρησιμοποιώντας Visual Brush σε Java](./add-grid/)
 Βελτιώστε τα γραφικά των εγγράφων Java με το Aspose.Page! Μάθετε να προσθέτετε πλέγματα χρησιμοποιώντας το Visual Brush βήμα προς βήμα. Αυξήστε την έκκληση της αίτησής σας χωρίς κόπο.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

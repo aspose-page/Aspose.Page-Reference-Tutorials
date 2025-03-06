@@ -3,10 +3,16 @@ title: 使用 Java 在 XMP 元資料中新增數組項
 linktitle: 使用 Java 在 XMP 元資料中新增數組項
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 增強 EPS 檔案。了解如何輕鬆地將數組項新增至 XMP 元資料。立即按照我們的逐步指南進行操作！
-type: docs
 weight: 10
 url: /zh-hant/java/xmp-metadata-manipulation/add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 XMP 元資料中新增數組項
+
 ## 介紹
 歡迎閱讀我們有關使用 Aspose.Page for Java 在 XMP 元資料中新增陣列項目的逐步指南。 Aspose.Page 是一個功能強大的 Java 函式庫，可讓您操作和處理各種文件格式，包括 EPS 檔案。在本教程中，我們將重點放在使用 Java 在 XMP 元資料中新增數組項目的特定任務。
 ## 先決條件
@@ -78,3 +84,9 @@ try {
 您可以購買該產品[這裡](https://purchase.aspose.com/buy).
 ### Aspose.Page for Java 是否有臨時授權？
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

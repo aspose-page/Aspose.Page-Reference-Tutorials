@@ -3,10 +3,16 @@ title: Nhận siêu dữ liệu từ XMP bằng Java
 linktitle: Nhận siêu dữ liệu từ XMP bằng Java
 second_title: API Java Aspose.Page
 description: Khai phá sức mạnh của Aspose.Page dành cho Java để trích xuất siêu dữ liệu XMP một cách dễ dàng. Nâng cao khả năng phân tích tài liệu với hướng dẫn từng bước của chúng tôi!
-type: docs
 weight: 18
 url: /vi/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận siêu dữ liệu từ XMP bằng Java
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sử dụng Aspose.Page cho Java để trích xuất siêu dữ liệu từ các tệp XMP. XMP (Nền tảng siêu dữ liệu mở rộng) cung cấp cách lưu trữ siêu dữ liệu được tiêu chuẩn hóa trong các tệp. Hướng dẫn này tập trung vào việc truy xuất thông tin cần thiết từ XMP bằng Java, cung cấp thông tin chuyên sâu về chi tiết tài liệu.
 ## Điều kiện tiên quyết
@@ -81,3 +87,9 @@ Chúc mừng! Bạn đã học thành công cách trích xuất siêu dữ liệ
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Có tài nguyên bổ sung nào cho Aspose.Page cho Java không?
  Khám phá hoàn chỉnh[tài liệu](https://reference.aspose.com/page/java/) và tải xuống thư viện[đây](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

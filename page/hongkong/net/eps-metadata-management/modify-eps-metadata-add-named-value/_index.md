@@ -3,10 +3,16 @@ title: 使用 Aspose.Page 新增命名值
 linktitle: 新增命名值
 second_title: Aspose.Page .NET API
 description: 了解如何使用 Aspose.Page 將命名值新增至 .NET 中的 EPS 檔案。這個綜合教程將逐步引導您完成整個過程。
-type: docs
 weight: 12
 url: /zh-hant/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page 新增命名值
+
 ## 介紹
 
 在使用 .NET 進行文件處理的領域中，Aspose.Page 作為處理 EPS 檔案的強大工具脫穎而出。 Aspose.Page 使開發人員能夠操作 XMP 元數據，從而簡化新增命名值等任務。本教學將引導您逐步完成使用 Aspose.Page 將命名值新增至 EPS 檔案的過程。
@@ -96,3 +102,9 @@ A1：Aspose.Page支援各種EPS檔案版本，確保與各種文件的兼容性�
 ### 問題 5：什麼是臨時許可證？如何取得臨時許可證？
 
  A5：如果您需要臨時許可證用於測試或評估目的，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rysowanie kształtów
 linktitle: Rysowanie kształtów
 second_title: Aspose.Page API .NET
 description: Bez wysiłku usprawnij tworzenie dokumentów w .NET! Poznaj samouczki krok po kroku dotyczące dodawania okręgów, elips i prostokątów do PostScript (PS) przy użyciu Aspose.Page .NET.
-type: docs
 weight: 31
 url: /pl/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rysowanie kształtów
+
 ## Wprowadzenie
 
 Aspose.Page dla .NET umożliwia programistom usprawnienie tworzenia dokumentów w środowisku .NET. Zapoznaj się z naszymi szczegółowymi samouczkami, aby opanować sztukę dodawania urzekających kształtów do dokumentów PostScript (PS) i XPS.
@@ -33,3 +39,9 @@ Ulepsz dokumenty XPS za pomocą żywych gradientów promieniowych za pomocą Asp
 Usprawnij tworzenie dokumentów w .NET dzięki Aspose.Page. Dowiedz się, jak krok po kroku dodawać prostokąty do plików PostScript (PS).
 ### [Dodaj prostokąt do dokumentu XPS za pomocą Aspose.Page dla .NET](./add-rectangle-to-xps-document/)
 Ulepsz tworzenie dokumentów za pomocą Aspose.Page dla .NET. Z tego samouczka krok po kroku dowiesz się, jak dodawać prostokąty do dokumentów XPS.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

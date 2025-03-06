@@ -3,10 +3,16 @@ title: Quản lý siêu dữ liệu EPS
 linktitle: Quản lý siêu dữ liệu EPS
 second_title: API Aspose.Page .NET
 description: Nâng cao tổ chức EPS với Aspose.Page cho .NET. Thêm siêu dữ liệu dễ dàng để nâng cao khả năng truy cập. Khám phá hướng dẫn quản lý siêu dữ liệu EPS.
-type: docs
 weight: 36
 url: /vi/net/eps-metadata-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý siêu dữ liệu EPS
+
 
 ## Giới thiệu
 
@@ -59,3 +65,9 @@ Tìm hiểu cách thay đổi giá trị được đặt tên trong tệp EPS b�
 Thao tác thành thạo tệp EPS với Aspose.Page cho .NET. Thay đổi giá trị siêu dữ liệu XMP một cách dễ dàng.
 ### [Trích xuất siêu dữ liệu từ tài liệu EPS bằng Aspose.Page for .NET](./extract-metadata-from-eps-document/)
 Tăng cường tổ chức tài liệu EPS với Aspose.Page cho .NET. Dễ dàng thêm siêu dữ liệu để cải thiện khả năng truy cập và truy xuất thông tin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

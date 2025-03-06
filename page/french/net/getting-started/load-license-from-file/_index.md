@@ -3,10 +3,16 @@ title: Charger la licence à partir d'un fichier avec Aspose.Page pour .NET
 linktitle: Charger la licence à partir d'un fichier
 second_title: API Aspose.Page .NET
 description: Libérez tout le potentiel d’Aspose.Page pour .NET en maîtrisant l’art du chargement de licences à partir de fichiers. Élevez vos capacités de traitement de documents en toute transparence.
-type: docs
 weight: 11
 url: /fr/net/getting-started/load-license-from-file/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Charger la licence à partir d'un fichier avec Aspose.Page pour .NET
+
 ## Introduction
 
 Bienvenue dans le monde d'Aspose.Page pour .NET ! Si vous souhaitez améliorer vos capacités de traitement de documents à l'aide du framework .NET, vous êtes au bon endroit. Dans ce didacticiel, nous vous guiderons tout au long du processus de chargement d'une licence à partir d'un fichier avec Aspose.Page pour .NET. Cette étape cruciale garantit que vous exploitez tout le potentiel de cette puissante bibliothèque.
@@ -91,3 +97,9 @@ Félicitations, vous avez terminé le didacticiel ! Vous avez appris à charger
 ### Q5 : Besoin d'aide ou avez des questions ? 
 
  A5 : Visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

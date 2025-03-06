@@ -3,10 +3,16 @@ title: أضف قيمة مسماة باستخدام Aspose.Page
 linktitle: إضافة القيمة المسماة
 second_title: Aspose.Page .NET API
 description: تعرف على كيفية إضافة قيم مسماة إلى ملفات EPS في .NET باستخدام Aspose.Page. يرشدك هذا البرنامج التعليمي الشامل خلال العملية خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف قيمة مسماة باستخدام Aspose.Page
+
 ## مقدمة
 
 في مجال معالجة المستندات باستخدام .NET، يبرز Aspose.Page كأداة قوية للتعامل مع ملفات EPS. يعمل Aspose.Page على تمكين المطورين من التعامل مع بيانات تعريف XMP، وتسهيل المهام مثل إضافة القيم المسماة. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة قيم مسماة إلى ملف EPS باستخدام Aspose.Page بطريقة خطوة بخطوة.
@@ -96,3 +102,9 @@ A1: يدعم Aspose.Page إصدارات ملفات EPS المختلفة، مما
 ### س5: ما هو الترخيص المؤقت وكيف يمكنني الحصول عليه؟
 
  ج5: إذا كنت بحاجة إلى ترخيص مؤقت لأغراض الاختبار أو التقييم، فيمكنك الحصول على واحد[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

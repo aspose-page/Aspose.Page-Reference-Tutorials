@@ -3,10 +3,16 @@ title: Добавьте горизонтальный градиент в XPS с 
 linktitle: Добавьте горизонтальный градиент в XPS
 second_title: Aspose.Page .NET API
 description: Узнайте, как добавить потрясающие горизонтальные градиенты в ваши документы XPS с помощью Aspose.Page для .NET. Повышайте визуальную привлекательность без особых усилий.
-type: docs
 weight: 13
 url: /ru/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавьте горизонтальный градиент в XPS с помощью Aspose.Page для .NET
+
 ## Введение
 
 В этом уроке мы рассмотрим, как улучшить документы XPS, добавив горизонтальный градиент с помощью Aspose.Page для .NET. Aspose.Page для .NET — это мощная библиотека, обеспечивающая плавную обработку документов XPS (спецификация бумаги XML) в приложениях .NET. Добавление градиентов может сделать ваши документы визуально привлекательными, и это руководство шаг за шагом проведет вас через этот процесс.
@@ -113,3 +119,9 @@ doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
 ### Вопрос 5: Как получить временную лицензию на Aspose.Page для .NET?
 
  О5: Вы можете получить временную лицензию на[эта ссылка](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

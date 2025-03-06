@@ -3,10 +3,16 @@ title: Beherrschen Sie das Zusammenführen von XPS-Dateien in Java mit Aspose.Pa
 linktitle: Konvertieren Sie XPS in XPS in Java
 second_title: Aspose.Page Java-API
 description: Erfahren Sie, wie Sie XPS-Dateien in Java mit Aspose.Page nahtlos zusammenführen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Dokumentenbearbeitung. Steigern Sie jetzt Ihre Java-Entwicklungsfähigkeiten!
-type: docs
 weight: 12
 url: /de/java/file-merging/xps-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beherrschen Sie das Zusammenführen von XPS-Dateien in Java mit Aspose.Page
+
 ## Einführung
 Im Bereich der Java-Entwicklung ist die Verwaltung und Bearbeitung von XPS-Dateien eine häufige Anforderung. Unabhängig davon, ob Sie mit Berichten, Präsentationen oder anderen XPS-Dokumenten arbeiten, ist die Fähigkeit, mehrere Dateien nahtlos zusammenzuführen, eine wertvolle Fähigkeit. In diesem Tutorial befassen wir uns mit dem Zusammenführen von XPS-Dateien mithilfe von Aspose.Page für Java, einer leistungsstarken Java-API für die Arbeit mit XPS-Dokumenten.
 ## Voraussetzungen
@@ -59,3 +65,9 @@ Ja, Aspose.Page für Java übernimmt die nahtlose Zusammenführung von Dateien u
  Ja, besuchen Sie die[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) sich mit der Gemeinschaft auseinanderzusetzen.
 ### Wie kann ich die Aspose.Page für Java-Bibliothek erwerben?
  Sie können die Bibliothek erwerben[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

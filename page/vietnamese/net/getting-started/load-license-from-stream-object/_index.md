@@ -3,10 +3,16 @@ title: Tải giấy phép từ đối tượng luồng bằng Aspose.Page cho .N
 linktitle: Tải giấy phép từ đối tượng luồng
 second_title: API Aspose.Page .NET
 description: Mở khóa thao tác tài liệu trong .NET bằng Aspose.Page. Hãy làm theo hướng dẫn của chúng tôi để tải giấy phép từ các đối tượng truyền trực tuyến một cách liền mạch.
-type: docs
 weight: 12
 url: /vi/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tải giấy phép từ đối tượng luồng bằng Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Bạn đã sẵn sàng nâng cao kỹ năng phát triển .NET của mình lên một tầm cao mới chưa? Nếu bạn đã từng cảm thấy cần phải làm việc với các tài liệu, đặc biệt là trong bối cảnh thao tác trang, thì Aspose.Page for .NET là người bạn đồng hành hoàn hảo của bạn. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình tải giấy phép từ đối tượng luồng, một bước cơ bản trong việc khai thác các khả năng của Aspose.Page cho .NET.
@@ -111,3 +117,9 @@ Câu trả lời 1: Có, Aspose.Page được thiết kế để hoạt động 
 ### Câu hỏi 5: Tôi có thể nâng cấp lên gói giấy phép khác không?
 
  Câu trả lời 5: Khám phá các tùy chọn cấp phép và nâng cấp khác nhau[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

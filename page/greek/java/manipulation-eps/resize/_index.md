@@ -3,10 +3,16 @@ title: Αλλαγή μεγέθους αρχείων EPS σε Java με το Aspo
 linktitle: Αλλαγή μεγέθους αρχείου EPS σε Java
 second_title: Aspose.Page Java API
 description: Μάθετε πώς να αλλάζετε το μέγεθος των αρχείων EPS σε Java χωρίς κόπο με το Aspose.Page για Java. Ακολουθήστε τον αναλυτικό μας οδηγό για οδηγίες βήμα προς βήμα.
-type: docs
 weight: 11
 url: /el/java/manipulation-eps/resize/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αλλαγή μεγέθους αρχείων EPS σε Java με το Aspose.Page
+
 ## Εισαγωγή
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για την αλλαγή μεγέθους αρχείων EPS σε Java χρησιμοποιώντας την ισχυρή βιβλιοθήκη Aspose.Page. Εάν χρειάστηκε ποτέ να προσαρμόσετε τις διαστάσεις των εικόνων EPS σας μέσω προγραμματισμού, βρίσκεστε στο σωστό μέρος. Σε αυτό το σεμινάριο, θα εξερευνήσουμε διάφορες επιλογές αλλαγής μεγέθους, συμπεριλαμβανομένων των πόντων, των ιντσών, των χιλιοστών και των ποσοστών, παρέχοντάς σας την ευελιξία που χρειάζεστε για τις συγκεκριμένες απαιτήσεις σας.
 ## Προαπαιτούμενα
@@ -67,3 +73,9 @@ doc.resizeEps(outputEpsStream, new Dimension2D.Double(oldSize.width * 2, oldSize
  Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Υπάρχουν διαθέσιμα παραδείγματα έργων;
  Ναι, ελέγξτε την τεκμηρίωση[εδώ](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

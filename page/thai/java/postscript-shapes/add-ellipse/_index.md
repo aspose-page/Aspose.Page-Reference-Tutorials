@@ -3,10 +3,16 @@ title: เพิ่มวงรีใน Java PostScript
 linktitle: เพิ่มวงรีใน Java PostScript
 second_title: Aspose.Page Java API
 description: เชี่ยวชาญการสร้างเอกสาร PostScript ที่น่าทึ่งใน Java ด้วย Aspose.Page เรียนรู้การเพิ่มจุดไข่ปลาทีละขั้นตอนเพื่อให้เนื้อหาดึงดูดสายตา
-type: docs
 weight: 10
 url: /th/java/postscript-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มวงรีใน Java PostScript
+
 ## การแนะนำ
 ในโลกแบบไดนามิกของการพัฒนา Java การสร้างเอกสารที่ดึงดูดสายตาถือเป็นข้อกำหนดทั่วไป Aspose.Page สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาจัดการไฟล์ PostScript ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะสำรวจวิธีเพิ่มจุดไข่ปลาให้กับเอกสาร PostScript โดยใช้ Aspose.Page สำหรับ Java ทำตามเพื่อพัฒนาทักษะการสร้างเอกสารของคุณ!
 ## ข้อกำหนดเบื้องต้น
@@ -71,3 +77,9 @@ document.save();
  ตอบ: เข้าร่วมชุมชนได้ที่[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อหารือและช่วยเหลือ
 ### ถาม: มีแหล่งข้อมูลฟรีสำหรับเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Page สำหรับ Java หรือไม่
  ตอบ: ใช้[ทดลองฟรี](https://releases.aspose.com/) และสำรวจตัวอย่างในเอกสารประกอบ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

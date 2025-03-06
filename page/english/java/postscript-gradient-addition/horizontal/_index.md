@@ -3,10 +3,16 @@ title: Add Horizontal Gradient in Java PostScript
 linktitle: Add Horizontal Gradient in Java PostScript
 second_title: Aspose.Page Java API
 description: Learn how to add a horizontal gradient in Java PostScript with Aspose.Page for Java. Create visually stunning documents effortlessly.
-type: docs
 weight: 11
 url: /java/postscript-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Horizontal Gradient in Java PostScript
+
 ## Introduction
 Welcome to this comprehensive tutorial on adding a horizontal gradient in Java PostScript using Aspose.Page for Java. Aspose.Page is a powerful Java library that allows developers to work with PostScript and other document formats. In this tutorial, we'll guide you through the process of creating a PostScript document with a horizontal gradient using step-by-step examples.
 ## Prerequisites
@@ -82,3 +88,9 @@ Visit the [Aspose.Page Java documentation](https://reference.aspose.com/page/jav
 You can obtain a temporary license from [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 ### What are the system requirements for Aspose.Page for Java?
 Refer to the [documentation](https://reference.aspose.com/page/java/) for detailed system requirements.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

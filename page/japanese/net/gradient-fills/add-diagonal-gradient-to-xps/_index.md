@@ -3,10 +3,16 @@ title: Aspose.Page for .NET を使用して XPS に斜めグラデーション�
 linktitle: XPS に斜めのグラデーションを追加する
 second_title: Aspose.Page .NET API
 description: Aspose.Page for .NET を使用して、魅力的な斜めのグラデーションを XPS ドキュメントに追加する方法を学びます。視覚的なプレゼンテーションを簡単に向上させます。
-type: docs
 weight: 11
 url: /ja/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET を使用して XPS に斜めグラデーションを追加する
+
 ## 導入
 
 ドキュメント処理の分野では、Aspose.Page for .NET は、開発者が XPS ドキュメントを簡単に操作できるようにする強力なツールキットとして際立っています。この機能が提供する魅力的な機能の 1 つは、斜めのグラデーションを追加する機能で、ドキュメントの視覚的な魅力を高めることができます。このチュートリアルでは、Aspose.Page for .NET を使用して XPS ファイルに斜めのグラデーションを組み込む方法を示しながら、プロセスを段階的に説明します。
@@ -106,3 +112,9 @@ A3: Aspose.Page は主に XPS ドキュメントの操作に重点を置いて�
 ### Q5: 購入前に体験版はありますか?
 
  A5: はい、探索できます。[無料トライアル](https://releases.aspose.com/) Aspose.Page for .NET を体験してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: テクスチャとパターン - PostScript
 linktitle: テクスチャとパターン - PostScript
 second_title: Aspose.Page Java API
 description: Aspose.Page for Java を使用して PostScript を昇格します。詳細な Java PostScript チュートリアルで、テクスチャ タイリング パターンをシームレスに追加して創造的な可能性を高めます。
-type: docs
 weight: 38
 url: /ja/java/postscript-texture-patterns/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# テクスチャとパターン - PostScript
+
 ## 導入
 
 PostScript ドキュメントをクリエイティブな新たな高みに引き上げる準備はできていますか? Aspose.Page for Java は、テクスチャ タイル パターンをプロジェクトにシームレスに統合するためのゲートウェイです。この包括的なガイドでは、テクスチャとパターンの世界を掘り下げ、Java PostScript の可能性を最大限に引き出します。
@@ -45,3 +51,9 @@ PostScript デザインを向上させる準備はできていますか?テク�
 ## テクスチャとパターン - PostScript チュートリアル
 ### [Java PostScript でテクスチャ タイル パターンを追加する](./add-texture-tiling-pattern/)
 Aspose.Page for Java を使用すると、PostScript ドキュメントにテクスチャ タイル パターンを簡単に追加できます。創造的な可能性については、シームレスな統合ガイドをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

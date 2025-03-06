@@ -3,10 +3,16 @@ title: 투명도 - 포스트스크립트
 linktitle: 투명도 - 포스트스크립트
 second_title: Aspose.페이지 자바 API
 description: Java용 Aspose.Page를 사용하여 Java PostScript를 향상하세요. 매혹적인 시각화를 위해 투명한 이미지를 원활하게 통합하고 생생한 의사 투명성을 생성합니다.
-type: docs
 weight: 39
 url: /ko/java/postscript-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 투명도 - 포스트스크립트
+
 ## 소개
 
 Java PostScript 문서를 새로운 차원으로 끌어올릴 준비가 되셨습니까? 더 이상 보지 마세요! 이 튜토리얼 시리즈에서는 투명한 이미지 추가와 의사 투명성 생성이라는 두 가지 주요 측면에 초점을 맞춰 투명성의 복잡성을 탐구합니다.
@@ -36,3 +42,9 @@ Java PostScript 문서를 새로운 차원으로 끌어올릴 준비가 되셨�
 Java용 Aspose.Page를 사용하여 Java PostScript 문서에서 투명 이미지의 원활한 통합을 살펴보세요. 손쉽게 문서 시각화를 향상시키세요.
 ### [Java PostScript에서 의사 투명성 표시](./show-pseudo-transparency/)
 Java PostScript의 생생한 그래픽을 잠금해제하세요! 단계별 의사 투명성 생성에 대한 Aspose.Page 튜토리얼을 따르십시오. 지금 다운로드하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

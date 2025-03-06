@@ -3,10 +3,16 @@ title: Bổ sung văn bản Java XPS - Hướng dẫn Aspose.Page
 linktitle: Thêm văn bản trong Java XPS
 second_title: API Java Aspose.Page
 description: Nâng cao tài liệu Java XPS của bạn với Aspose.Page! Hãy làm theo hướng dẫn từng bước của chúng tôi để thêm văn bản một cách dễ dàng. Nâng cao kỹ năng thao tác tài liệu của bạn ngay hôm nay.
-type: docs
 weight: 10
 url: /vi/java/xps-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bổ sung văn bản Java XPS - Hướng dẫn Aspose.Page
+
 ## Giới thiệu
 Trong lĩnh vực thao tác tài liệu Java, Aspose.Page nổi bật như một thư viện mạnh mẽ tạo điều kiện thuận lợi cho việc tạo và thao tác các tài liệu XPS (Đặc tả giấy XML). Thêm văn bản vào tài liệu XPS là một yêu cầu phổ biến trong nhiều ứng dụng khác nhau và hướng dẫn này sẽ hướng dẫn bạn qua quy trình sử dụng Aspose.Page cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn từng bước này đảm bảo hành trình suôn sẻ trong việc cải thiện tài liệu XPS của bạn bằng văn bản.
 ## Điều kiện tiên quyết
@@ -63,3 +69,9 @@ Tuyệt đối! Aspose.Page cho phép bạn tùy chỉnh kiểu phông chữ the
  Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.Page?
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: आकृतियाँ - पोस्टस्क्रिप्ट
 linktitle: आकृतियाँ - पोस्टस्क्रिप्ट
 second_title: Aspose.Page जावा एपीआई
 description: Aspose.Page Java के साथ सहजता से मनमोहक पोस्टस्क्रिप्ट दस्तावेज़ तैयार करें। दीर्घवृत्त और आयतों को जोड़ने, देखने में आकर्षक सामग्री बनाने के ट्यूटोरियल में गहराई से जाएँ।
-type: docs
 weight: 34
 url: /hi/java/postscript-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# आकृतियाँ - पोस्टस्क्रिप्ट
+
 
 ## परिचय
 
@@ -65,3 +71,9 @@ url: /hi/java/postscript-shapes/
 Aspose.Page के साथ जावा में आश्चर्यजनक पोस्टस्क्रिप्ट दस्तावेज़ बनाने में महारत हासिल करें। आकर्षक सामग्री के लिए चरण-दर-चरण दीर्घवृत्त जोड़ना सीखें।
 ### [जावा पोस्टस्क्रिप्ट में आयत जोड़ें](./add-rectangle/)
 जावा के लिए Aspose.Page का उपयोग करके जावा पोस्टस्क्रिप्ट दस्तावेज़ों में जीवंत आयत जोड़ने पर चरण-दर-चरण मार्गदर्शिका देखें। अपने दस्तावेज़ अनुकूलन को सहजता से बढ़ाएँ!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

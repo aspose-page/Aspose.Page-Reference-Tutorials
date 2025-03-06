@@ -3,10 +3,16 @@ title: Ajouter un dégradé diagonal dans Java PostScript
 linktitle: Ajouter un dégradé diagonal dans Java PostScript
 second_title: API Java Aspose.Page
 description: Améliorez vos documents Java PostScript avec des dégradés diagonaux à l'aide d'Aspose.Page pour Java. Suivez notre guide étape par étape pour ajouter des transitions de couleurs vives sans effort.
-type: docs
 weight: 10
 url: /fr/java/postscript-gradient-addition/diagonal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un dégradé diagonal dans Java PostScript
+
 ## Introduction
 Bienvenue dans notre guide étape par étape sur l'ajout d'un dégradé diagonal dans Java PostScript à l'aide d'Aspose.Page pour Java. Dans ce didacticiel, nous vous guiderons tout au long du processus, en décomposant chaque exemple en plusieurs étapes. En tant que rédacteur SEO compétent, je veillerai à ce que le contenu soit non seulement informatif, mais également optimisé pour les moteurs de recherche, ce qui permettra aux développeurs et aux passionnés de le suivre facilement.
 ## Conditions préalables
@@ -95,3 +101,9 @@ Toutes nos félicitations! Vous avez appris à améliorer vos documents Java Pos
  R : Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
 ### Q : Besoin d'aide ou avez-vous des questions ?
  R : Visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile XPS'ye Yatay Degrade ekleyin
 linktitle: XPS'ye Yatay Degrade Ekleme
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page for .NET'i kullanarak XPS belgelerinize nasıl çarpıcı yatay degradeler ekleyeceğinizi öğrenin. Görsel çekiciliği zahmetsizce artırın.
-type: docs
 weight: 13
 url: /tr/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile XPS'ye Yatay Degrade ekleyin
+
 ## giriiş
 
 Bu eğitimde, Aspose.Page for .NET'i kullanarak yatay degrade ekleyerek XPS belgelerini nasıl geliştirebileceğimizi keşfedeceğiz. Aspose.Page for .NET, .NET uygulamalarında XPS (XML Kağıt Belirtimi) belgelerinin kusursuz şekilde işlenmesini sağlayan güçlü bir kitaplıktır. Degradeler eklemek, belgelerinize görsel çekicilik katabilir ve bu kılavuz, süreç boyunca size adım adım yol gösterecektir.
@@ -113,3 +119,9 @@ XPS belgelerinizi degradelerle geliştirmek yalnızca görsel çekiciliğini art
 ### S5: Aspose.Page for .NET için nasıl geçici lisans alabilirim?
 
  Cevap5: Geçici lisansı şu adresten alabilirsiniz:[bu bağlantı](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

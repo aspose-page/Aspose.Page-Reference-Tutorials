@@ -3,10 +3,16 @@ title: जावा का उपयोग करके एक्सएमपी
 linktitle: जावा का उपयोग करके एक्सएमपी से मेटाडेटा प्राप्त करें
 second_title: Aspose.Page जावा एपीआई
 description: आसानी से XMP मेटाडेटा निकालने के लिए Java के लिए Aspose.Page की शक्ति को अनलॉक करें। हमारे चरण-दर-चरण मार्गदर्शिका के साथ दस्तावेज़ विश्लेषण को उन्नत बनाएं!
-type: docs
 weight: 18
 url: /hi/java/xmp-metadata-manipulation/get-metadata/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके एक्सएमपी से मेटाडेटा प्राप्त करें
+
 ## परिचय
 XMP फ़ाइलों से मेटाडेटा निकालने के लिए जावा के लिए Aspose.Page का उपयोग करने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। XMP (एक्स्टेंसिबल मेटाडेटा प्लेटफ़ॉर्म) फ़ाइलों में मेटाडेटा संग्रहीत करने का एक मानकीकृत तरीका प्रदान करता है। यह ट्यूटोरियल जावा का उपयोग करके एक्सएमपी से आवश्यक जानकारी प्राप्त करने, दस्तावेज़ विवरण में अंतर्दृष्टि प्रदान करने पर केंद्रित है।
 ## आवश्यक शर्तें
@@ -81,3 +87,9 @@ if (xmp.containsKey("xmpMM:DocumentID"))
  आपको अस्थायी लाइसेंस मिल सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### क्या जावा के लिए Aspose.Page के लिए अतिरिक्त संसाधन हैं?
  पूरा अन्वेषण करें[प्रलेखन](https://reference.aspose.com/page/java/) और लाइब्रेरी डाउनलोड करें[यहाँ](https://releases.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

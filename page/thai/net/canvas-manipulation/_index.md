@@ -3,10 +3,16 @@ title: การจัดการผ้าใบ
 linktitle: การจัดการผ้าใบ
 second_title: Aspose.Page .NET API
 description: สำรวจ Aspose.Page สำหรับบทช่วยสอน .NET เกี่ยวกับการจัดการแคนวาส การตัดและแปลงเอกสาร PS และ XPS เป็นเรื่องง่าย พัฒนาทักษะการประมวลผลเอกสารของคุณ
-type: docs
 weight: 21
 url: /th/net/canvas-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการผ้าใบ
+
 
 ## การแนะนำ
 
@@ -42,3 +48,9 @@ url: /th/net/canvas-manipulation/
 ปลดล็อกศักยภาพของ Aspose.Page สำหรับ .NET ด้วยคำแนะนำที่ครอบคลุมเกี่ยวกับการแปลง PostScript สร้างกราฟิกแบบไดนามิกได้อย่างง่ายดาย
 ### [การแปลง XPS ด้วย Aspose.Page สำหรับ .NET](./transformationsxps/)
 แปลงเอกสาร XPS ได้อย่างง่ายดายด้วย Aspose.Page สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการเปลี่ยนแปลงที่ราบรื่น
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

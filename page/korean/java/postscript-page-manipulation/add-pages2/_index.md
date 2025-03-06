@@ -3,10 +3,16 @@ title: Aspose.Page Java 튜토리얼 - 포스트스크립트에 페이지 추가
 linktitle: PostScript에서 페이지 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java PostScript 문서에 페이지를 추가하는 방법을 알아보세요. 원활한 문서 조작을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/postscript-page-manipulation/add-pages2/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java 튜토리얼 - 포스트스크립트에 페이지 추가하기
+
 ## 소개
 문서 조작 및 관리 분야에서 Java용 Aspose.Page는 PostScript 문서를 처리하는 강력한 도구로 등장합니다. PostScript 문서에 페이지를 추가하는 것은 많은 응용 프로그램에서 일반적인 요구 사항입니다. 이 튜토리얼에서는 Aspose.Page for Java를 사용하여 페이지를 추가하는 과정을 살펴보고 학습 경험을 원활하게 만들기 위해 각 단계를 세분화합니다.
 ## 전제 조건
@@ -71,3 +77,9 @@ Aspose.Page는 문서에 사실상 무제한의 페이지 추가를 지원합니
 네, Aspose.Page는 크고 작은 문서를 쉽고 효율적으로 처리하도록 설계되었습니다.
 ### Aspose.Page에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
  탐색[Aspose.Page 문서](https://reference.aspose.com/page/java/) , 또는 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

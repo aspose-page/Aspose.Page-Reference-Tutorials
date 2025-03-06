@@ -3,10 +3,16 @@ title: إدارة التراخيص
 linktitle: إدارة التراخيص
 second_title: Aspose.Page جافا API
 description: أطلق العنان للإمكانات الكاملة لـ Aspose.Page لـ Java من خلال البرامج التعليمية لإدارة التراخيص الخاصة بنا. قم بإعداد التراخيص المقيدة بسلاسة لتعزيز إمكانات معالجة المستندات.
-type: docs
 weight: 30
 url: /ar/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة التراخيص
+
 ## مقدمة
 
 مرحبًا بك في البرامج التعليمية لإدارة التراخيص لـ Aspose.Page في Java! في هذا الدليل الشامل، سنتعمق في تعقيدات إعداد التراخيص المقيدة لتحسين قدرات معالجة المستندات لديك. فلنبدأ رحلة تطلق العنان للإمكانات الكاملة لـ Aspose.Page، مما يضمن التكامل السلس مع Java.
@@ -39,3 +45,9 @@ url: /ar/java/license-management/
 ## دروس إدارة التراخيص
 ### [قم بتعيين الترخيص المقنن في Java](./set-metered-license/)
 اكتشف التكامل السلس لـ Aspose.Page مع Java. قم بإعداد التراخيص المقننة دون عناء وعزز قدرات معالجة المستندات لديك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

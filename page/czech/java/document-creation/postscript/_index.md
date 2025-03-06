@@ -3,10 +3,16 @@ title: Vytvořte dokument v Javě pomocí PostScriptu
 linktitle: Vytvořte dokument v Javě pomocí PostScriptu
 second_title: Aspose.Page Java API
 description: Vytvářejte dokumenty PostScript v Javě bez námahy pomocí Aspose.Page. Přizpůsobte velikost stránky, okraje a písma. Vyzkoušejte bezplatnou zkušební verzi nyní!
-type: docs
 weight: 10
 url: /cs/java/document-creation/postscript/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte dokument v Javě pomocí PostScriptu
+
 ## Úvod
 oblasti vývoje Java je vytváření a správa dokumentů zásadním aspektem. S příchodem Aspose.Page for Java se proces stává nejen efektivním, ale také flexibilním. Tento výukový program vás provede kroky vytváření dokumentu v Javě pomocí PostScriptu pomocí Aspose.Page a zajistí, že využijete plný výkon tohoto nástroje.
 ## Předpoklady
@@ -80,3 +86,9 @@ Ano můžeš. Ujistěte se, že jste v možnostech uložení nastavili složku d
  Můžete si koupit licenci[tady](https://purchase.aspose.com/buy).
 ### Existuje fórum pro diskuse na Aspose.Page?
  Ano, můžete se připojit ke komunitě[Fórum](https://forum.aspose.com/c/page/39) za diskusi a podporu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

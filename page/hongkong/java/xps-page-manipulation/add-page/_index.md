@@ -3,10 +3,16 @@ title: Aspose.Page Java - 將頁面加入 XPS 教學課程
 linktitle: 在 Java XPS 中新增頁面
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 提升 Java XPS 文件。了解如何輕鬆新增頁面以增強應用程式功能。立即深入學習教程！
-type: docs
 weight: 10
 url: /zh-hant/java/xps-page-manipulation/add-page/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Java - 將頁面加入 XPS 教學課程
+
 ## 介紹
 如果您希望透過向 XPS 文件添加頁面來增強 Java 應用程式的功能，那麼您來對地方了。在本教程中，我們將指導您使用 Aspose.Page for Java 完成整個過程。 Aspose.Page 是一個功能強大且多功能的程式庫，可簡化 XPS 檔案的操作，使其成為尋求高效解決方案的開發人員的理想選擇。
 ## 先決條件
@@ -54,3 +60,9 @@ doc.save(dataDir + "AddPages_out.xps");
 Aspose.Page 可以有效地處理不同大小的 XPS 文檔，但優化效能始終是良好的做法。
 ### 在哪裡可以找到 Aspose.Page 的其他支援？
 參觀[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

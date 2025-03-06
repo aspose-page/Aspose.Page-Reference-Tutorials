@@ -3,10 +3,16 @@ title: 라이선스 관리
 linktitle: 라이선스 관리
 second_title: Aspose.페이지 자바 API
 description: 라이센스 관리 튜토리얼을 통해 Aspose.Page for Java의 잠재력을 최대한 활용해보세요. 문서 처리 기능을 강화하려면 계량형 라이선스를 원활하게 설정하세요.
-type: docs
 weight: 30
 url: /ko/java/license-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 라이선스 관리
+
 ## 소개
 
 Java의 Aspose.Page에 대한 라이센스 관리 튜토리얼에 오신 것을 환영합니다! 이 종합 가이드에서는 문서 처리 기능을 최적화하기 위해 계량 라이선스를 설정하는 복잡한 과정을 자세히 살펴보겠습니다. Aspose.Page의 잠재력을 최대한 활용하여 Java와의 원활한 통합을 보장하는 여정을 시작하겠습니다.
@@ -39,3 +45,9 @@ Java의 Aspose.Page에 대한 라이센스 관리 튜토리얼은 계량 라이�
 ## 라이선스 관리 튜토리얼
 ### [Java에서 측정 라이센스 설정](./set-metered-license/)
 Aspose.Page와 Java의 원활한 통합을 살펴보세요. 계량형 라이선스를 손쉽게 설정하고 문서 처리 기능을 향상하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cross-Document Editing
 linktitle: Cross-Document Editing
 second_title: Aspose.Page .NET API
 description: Unlock the potential of Aspose.Page for .NET with our tutorials. Add glyph clones, change colors, and manipulate pages effortlessly in XPS documents.
-type: docs
 weight: 22
 url: /net/cross-document-editing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cross-Document Editing
+
 
 ## Introduction
 
@@ -34,3 +40,9 @@ Explore the power of Aspose.Page for .NET in this comprehensive tutorial. Learn 
 Unlock the power of document processing in .NET with Aspose.Page. Add image-filled glyphs effortlessly. Enhance visuals and streamline your workflow.
 ### [Manipulate Pages with Aspose.Page for .NET](./manipulate-pages/)
 Explore page manipulation in .NET using Aspose.Page, a powerful library for handling XPS documents. Follow our step-by-step guide for efficient results.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

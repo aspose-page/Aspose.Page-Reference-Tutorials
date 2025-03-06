@@ -3,10 +3,16 @@ title: .NET용 Aspose.Page를 사용하여 명명된 값 변경
 linktitle: 명명된 값 변경
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 EPS 파일의 명명된 값을 변경하는 방법을 알아보세요. 맞춤형 문서 처리를 위해 XMP 메타데이터를 손쉽게 사용자 정의하세요.
-type: docs
 weight: 16
 url: /ko/net/eps-metadata-management/modify-eps-metadata-change-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Page를 사용하여 명명된 값 변경
+
 ## 소개
 
 문서 처리 분야에서 Aspose.Page for .NET은 EPS 파일을 조작하기 위한 강력한 도구로 돋보입니다. 제공되는 주요 기능 중 하나는 XMP 메타데이터 내에서 명명된 값을 변경하는 기능입니다. 이 튜토리얼은 .NET용 Aspose.Page를 사용하여 명명된 값을 변경하는 과정을 안내하여 특정 요구 사항에 따라 EPS 파일을 사용자 정의할 수 있도록 지원합니다.
@@ -100,3 +106,9 @@ A1: 예, Aspose.Page는 EPS, XPS 및 PDF를 포함한 다양한 문서 형식을
 ### Q5: .NET 사용자용 Aspose.Page에는 어떤 지원 옵션을 사용할 수 있나요?
 
  A5: 커뮤니티 포럼을 방문하세요.[여기](https://forum.aspose.com/c/page/39) 지원과 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

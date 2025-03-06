@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page für .NET einen diagonalen Farbverlauf zu XPS 
 linktitle: Fügen Sie XPS einen diagonalen Farbverlauf hinzu
 second_title: Aspose.Page .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Page für .NET faszinierende diagonale Verläufe zu XPS-Dokumenten hinzufügen. Werten Sie Ihre visuellen Präsentationen mühelos auf.
-type: docs
 weight: 11
 url: /de/net/gradient-fills/add-diagonal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page für .NET einen diagonalen Farbverlauf zu XPS hinzu
+
 ## Einführung
 
 Im Bereich der Dokumentenverarbeitung sticht Aspose.Page für .NET als leistungsstarkes Toolkit hervor, das Entwicklern die einfache Bearbeitung von XPS-Dokumenten ermöglicht. Eine spannende Funktion ist die Möglichkeit, diagonale Farbverläufe hinzuzufügen, wodurch Sie die visuelle Attraktivität Ihrer Dokumente verbessern können. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess und zeigt, wie Sie mit Aspose.Page für .NET diagonale Farbverläufe in XPS-Dateien integrieren.
@@ -106,3 +112,9 @@ A3: Aspose.Page konzentriert sich hauptsächlich auf die Manipulation von XPS-Do
 ### F5: Gibt es vor dem Kauf eine Testversion?
 
  A5: Ja, Sie können das erkunden[Kostenlose Testphase](https://releases.aspose.com/) um Aspose.Page für .NET zu erleben.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

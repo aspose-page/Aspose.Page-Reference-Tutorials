@@ -3,10 +3,16 @@ title: Shapes - XPS
 linktitle: Shapes - XPS
 second_title: Aspose.Page Java API
 description: Discover Java XPS magic with Aspose.Page tutorials! Easily add captivating ellipses and rectangles. Elevate document creation with our step-by-step guides.
-type: docs
 weight: 35
 url: /java/xps-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Shapes - XPS
+
 ## Introduction
 
 Are you ready to delve into the fascinating realm of document creation using Java XPS? Look no further than Aspose.Page, your trusted companion for unlocking the full potential of shape manipulation. In this tutorial series, we'll guide you through the intricacies of adding captivating shapes, ensuring your document stands out effortlessly.
@@ -33,3 +39,9 @@ In conclusion, the Aspose.Page for Java tutorials on shapes open up a world of p
 Explore the step-by-step guide on adding a radial gradient stroked ellipse in Java XPS using Aspose.Page for Java. Enhance your document creation effortlessly.
 ### [Add Rectangle in Java XPS](./add-rectangle/)
 Learn how to add rectangles in Java XPS using Aspose.Page. Follow our step-by-step guide for seamless document manipulation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

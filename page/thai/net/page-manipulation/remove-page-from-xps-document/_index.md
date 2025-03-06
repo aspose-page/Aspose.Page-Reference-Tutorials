@@ -3,10 +3,16 @@ title: ลบเพจออกจากเอกสาร XPS ด้วย Aspo
 linktitle: ลบหน้าออกจากเอกสาร XPS
 second_title: Aspose.Page .NET API
 description: สำรวจบทช่วยสอนที่ครอบคลุมเกี่ยวกับการลบหน้าออกจากเอกสาร XPS โดยใช้ Aspose.Page สำหรับ .NET เรียนรู้กระบวนการทีละขั้นตอน ข้อกำหนดเบื้องต้น และคำถามที่พบบ่อยสำหรับการจัดการเอกสารที่ราบรื่น
-type: docs
 weight: 12
 url: /th/net/page-manipulation/remove-page-from-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ลบเพจออกจากเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET
+
 ## การแนะนำ
 
 ในบทช่วยสอนนี้ เราจะสำรวจกระบวนการลบเพจออกจากเอกสาร XPS โดยใช้ Aspose.Page สำหรับ .NET Aspose.Page เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนา .NET สามารถทำงานกับเอกสาร XPS (XML Paper Specification) ได้อย่างราบรื่น หากคุณพบว่าตัวเองอยู่ในสถานการณ์ที่จำเป็นต้องลบหน้าใดหน้าหนึ่งออกจากเอกสาร XPS ของคุณ คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดกระบวนการ
@@ -100,3 +106,9 @@ A1: ใช่ คุณสามารถแก้ไขโค้ดเพื่
 ### คำถามที่ 5: ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวสำหรับการทดสอบ Aspose.Page หรือไม่
 
  A5: ใช่ คุณสามารถรับ a[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm gradient dọc vào XPS với Aspose.Page for .NET
 linktitle: Thêm độ dốc dọc vào XPS
 second_title: API Aspose.Page .NET
 description: Tìm hiểu cách nâng cao tài liệu XPS bằng độ dốc dọc bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 15
 url: /vi/net/gradient-fills/add-vertical-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm gradient dọc vào XPS với Aspose.Page for .NET
+
 ## Giới thiệu
 
 Chào mừng bạn đến với hướng dẫn từng bước này về cách thêm dải màu dọc vào tài liệu XPS bằng Aspose.Page cho .NET. Aspose.Page là một API mạnh mẽ cho phép bạn làm việc với các tệp XPS (Đặc tả giấy XML) trong các ứng dụng .NET của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu XPS mới, thêm dải màu dọc vào đường dẫn và lưu kết quả.
@@ -117,3 +123,9 @@ Câu trả lời 1: Có, Aspose.Page tương thích với Visual Studio 2019. Đ
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc đặt câu hỏi?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page eine Kreisellipse zu PostScript (PS) hinzu
 linktitle: Kreisellipse zu PostScript hinzufügen (PS)
 second_title: Aspose.Page .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Page für .NET mühelos Kreisellipsen zu PostScript-Dokumenten (PS) hinzufügen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 10
 url: /de/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page eine Kreisellipse zu PostScript (PS) hinzu
+
 ## Einführung
 
 Willkommen zu diesem umfassenden Tutorial zum Hinzufügen von Kreisellipsen zu PostScript-Dokumenten (PS) mit Aspose.Page für .NET. Aspose.Page ist eine leistungsstarke Bibliothek, die Entwicklern die nahtlose Arbeit mit PostScript und anderen Dokumentformaten ermöglicht. In diesem Leitfaden führen wir Sie durch den Prozess der einfachen Integration von Kreisellipsen in Ihre PS-Dokumente.
@@ -145,3 +151,9 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Page für .NET K
 ### F5: Wo kann ich Aspose.Page für .NET kaufen?
 
  A5: Kaufen Sie Aspose.Page für .NET bei[Kaufseite](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

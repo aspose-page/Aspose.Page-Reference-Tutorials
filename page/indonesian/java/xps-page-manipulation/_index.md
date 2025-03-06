@@ -3,10 +3,16 @@ title: Manipulasi Halaman - XPS
 linktitle: Manipulasi Halaman - XPS
 second_title: Aspose.Halaman Java API
 description: Jelajahi kekuatan Aspose.Page untuk Java dengan Tutorial kami. Tingkatkan kualitas dokumen Java XPS Anda dengan menambahkan halaman dengan mudah untuk meningkatkan fungsionalitas aplikasi.
-type: docs
 weight: 33
 url: /id/java/xps-page-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Halaman - XPS
+
 
 ## Perkenalan
 
@@ -36,3 +42,9 @@ Kesimpulannya, tutorial Aspose.Page untuk Java tentang manipulasi halaman dalam 
 ## Manipulasi Halaman - Tutorial XPS
 ### [Tambahkan Halaman di Java XPS](./add-page/)
 Tinggikan dokumen Java XPS dengan Aspose.Page. Pelajari cara menambahkan halaman dengan mudah untuk meningkatkan fungsionalitas aplikasi. Selami tutorialnya sekarang!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

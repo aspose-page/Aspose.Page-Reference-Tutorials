@@ -3,10 +3,16 @@ title: Vízszintes színátmenet hozzáadása a Java XPS-hez
 linktitle: Vízszintes színátmenet hozzáadása a Java XPS-hez
 second_title: Aspose.Page Java API
 description: Ismerje meg, hogyan adhat lenyűgöző vízszintes színátmenetet XPS-dokumentumokhoz Java nyelven az Aspose.Page használatával. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
-type: docs
 weight: 11
 url: /hu/java/xps-gradient-addition/horizontal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vízszintes színátmenet hozzáadása a Java XPS-hez
+
 ## Bevezetés
 Üdvözöljük ebben a lépésről-lépésre szóló útmutatóban, amely a Java XPS-ben vízszintes színátmenet hozzáadására vonatkozik az Aspose.Page for Java használatával. Az Aspose.Page for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak XPS (XML Paper Specification) dokumentumokkal.
 Ebben az oktatóanyagban végigvezetjük egy Java-alkalmazás létrehozásának folyamatán, amellyel vízszintes színátmenetet adhatunk XPS-dokumentumhoz. Kövesse az alábbi lépéseket, hogy ezt könnyedén elérhesse.
@@ -70,3 +76,9 @@ Igen, a lineáris színátmenetek mellett az Aspose.Page támogatja a radiális 
 Teljesen! Az egyes színátmeneti megállók színeit és pozícióit teljes mértékben Ön irányíthatja.
 ### K: Létezik olyan közösségi fórum az Aspose.Page számára, ahol segítséget kérhetek?
  Igen, meglátogathatja a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) kapcsolatba lépni a közösséggel és segítséget kapni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

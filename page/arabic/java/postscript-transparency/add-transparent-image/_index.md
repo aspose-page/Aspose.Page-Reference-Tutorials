@@ -3,10 +3,16 @@ title: إضافة صورة شفافة في Java PostScript
 linktitle: إضافة صورة شفافة في Java PostScript
 second_title: Aspose.Page جافا API
 description: استكشف التكامل السلس للصور الشفافة في مستندات Java PostScript باستخدام Aspose.Page لـ Java. ارفع مستوى تصورات المستندات الخاصة بك دون عناء.
-type: docs
 weight: 10
 url: /ar/java/postscript-transparency/add-transparent-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة صورة شفافة في Java PostScript
+
 ## مقدمة
 في عالم Java PostScript، غالبًا ما يتضمن تحسين المظهر المرئي للمستندات إضافة صور شفافة. سيرشدك هذا البرنامج التعليمي خلال عملية دمج الصور الشفافة في مستندات Java PostScript باستخدام مكتبة Aspose.Page القوية لـ Java.
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ document.save();
  نعم قم بزيارة[Aspose.Page لمنتدى جافا](https://forum.aspose.com/c/page/39) لدعم المجتمع والمناقشات.
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Page لـ Java؟
  الرجوع إلى الشامل[توثيق](https://reference.aspose.com/page/java/) للحصول على معلومات تفصيلية حول Aspose.Page لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

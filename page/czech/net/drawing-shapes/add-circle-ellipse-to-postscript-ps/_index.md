@@ -3,10 +3,16 @@ title: Přidejte Circle Elipse do PostScriptu (PS) pomocí Aspose.Page
 linktitle: Přidat Circle Elipse do PostScriptu (PS)
 second_title: Aspose.Page .NET API
 description: Naučte se, jak bez námahy přidat elipsy kruhu do dokumentů PostScript (PS) pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
-type: docs
 weight: 10
 url: /cs/net/drawing-shapes/add-circle-ellipse-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte Circle Elipse do PostScriptu (PS) pomocí Aspose.Page
+
 ## Úvod
 
 Vítejte v tomto komplexním tutoriálu o přidávání elips kruhu do dokumentů PostScript (PS) pomocí Aspose.Page for .NET. Aspose.Page je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s PostScriptem a dalšími formáty dokumentů. V této příručce vás provedeme procesem snadného začlenění kruhových elips do dokumentů PS.
@@ -145,3 +151,9 @@ Gratulujeme! Úspěšně jste se naučili, jak přidat elipsy kruhu do PostScrip
 ### Q5: Kde mohu zakoupit Aspose.Page pro .NET?
 
  A5: Nákup Aspose.Page pro .NET z[koupit stránku](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 應用計量許可證
 linktitle: 申請計量許可證
 second_title: Aspose.Page .NET API
 description: 透過此有關應用計量授權的逐步指南，探索 Aspose.Page for .NET 的無縫整合。輕鬆優化文件處理。
-type: docs
 weight: 10
 url: /zh-hant/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 應用計量許可證
+
 ## 介紹
 
 透過應用計量許可證來釋放 Aspose.Page for .NET 的全部潛力。本教學將引導您完成設定和應用計量許可證的過程，確保順利且最佳化地使用這個強大的 .NET 程式庫。
@@ -112,3 +118,9 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 ### Q5：如何取得 Aspose.Page for .NET 的臨時授權？
 
 A5：參觀[臨時牌照/](https://purchase.aspose.com/temporary-license/)獲得臨時許可證。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

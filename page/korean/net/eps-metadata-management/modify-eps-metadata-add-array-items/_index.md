@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 배열 항목 추가
 linktitle: 배열 항목 추가
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 EPS 파일에 배열 항목을 추가하는 방법을 살펴보세요. 원활한 문서 조작을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/net/eps-metadata-management/modify-eps-metadata-add-array-items/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 배열 항목 추가
+
 ## 소개
 
 .NET의 문서 조작 및 처리 영역에서 Aspose.Page는 강력한 도구로 돋보입니다. 많은 기능 중에서 EPS 파일 내의 배열 항목을 처리하는 것은 일반적인 요구 사항입니다. 이 튜토리얼에서는 .NET 환경에서 Aspose.Page를 사용하여 배열 항목을 추가하는 단계별 프로세스를 살펴보겠습니다. 노련한 개발자이든 신규 개발자이든 이 가이드는 프로세스를 명확하고 정확하게 안내할 것입니다.
@@ -119,3 +125,9 @@ A1: 예, Aspose.Page는 모든 .NET 환경에서 원활하게 작동하도록 �
 ### Q5: .NET용 Aspose.Page의 최신 버전은 무엇입니까?
 
  A5: .NET용 Aspose.Page의 최신 버전에 액세스하려면 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

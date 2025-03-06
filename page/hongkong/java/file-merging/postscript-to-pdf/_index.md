@@ -3,10 +3,16 @@ title: 在 Java 中將 PostScript 合併為 PDF
 linktitle: 在 Java 中將 PostScript 合併為 PDF
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page 在 Java 中輕鬆將 PostScript 檔案合併為 PDF。用於無縫文件轉換的綜合教學、常見問題和資源。
-type: docs
 weight: 10
 url: /zh-hant/java/file-merging/postscript-to-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 中將 PostScript 合併為 PDF
+
 ## 介紹
 在 Java 程式設計領域，有效處理文件轉換至關重要。其中一項重要任務是將 PostScript 檔案合併為 PDF。 Aspose.Page for Java 為此任務提供了強大的解決方案，為開發人員提供無縫體驗。在本逐步指南中，我們將逐步介紹使用 Aspose.Page 在 Java 中將 PostScript 合併為 PDF 的過程。
 ## 先決條件
@@ -90,3 +96,9 @@ if (suppressErrors) {
 透過訪問獲得臨時許可證[這個連結](https://purchase.aspose.com/temporary-license/).
 ### 我可以在哪裡獲得支持或與 Aspose 社區聯繫？
 加入有關的討論[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)尋求協助並分享您的經驗。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

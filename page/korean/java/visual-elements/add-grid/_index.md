@@ -3,10 +3,16 @@ title: Java에서 Visual Brush를 사용하여 그리드 추가
 linktitle: Java에서 Visual Brush를 사용하여 그리드 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page로 Java 문서 시각적 효과를 향상하세요! Visual Brush를 사용하여 그리드를 추가하는 방법을 단계별로 알아보세요. 손쉽게 애플리케이션의 매력을 높이세요.
-type: docs
 weight: 10
 url: /ko/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 Visual Brush를 사용하여 그리드 추가
+
 ## 소개
 Aspose.Page를 사용하여 시각적으로 매력적인 그리드로 Java 애플리케이션을 향상시키고 싶으십니까? 이 튜토리얼에서는 Aspose.Page를 사용하여 Java에서 Visual Brush를 사용하여 그리드를 추가하는 과정을 안내합니다. Visual Brush를 사용하면 시각적 콘텐츠로 영역을 칠하여 문서에 놀라운 그리드 효과를 만들 수 있습니다.
 ## 전제 조건
@@ -84,3 +90,9 @@ doc.save(dataDir + "AddGrid_out.xps");
  예, 액세스할 수 있습니다.[무료 시험판](https://releases.aspose.com/) Aspose.Page의 기능을 살펴보세요.
 ### Aspose.Page에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  획득[임시 면허증](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Průhlednost - XPS
 linktitle: Průhlednost - XPS
 second_title: Aspose.Page Java API
 description: Vylepšete své dokumenty Java XPS bez námahy pomocí Aspose.Page. Naučte se přidávat průhledné objekty a nastavovat masky krytí v našich kurzech pro vylepšené vizuální efekty.
-type: docs
 weight: 40
 url: /cs/java/xps-transparency/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Průhlednost - XPS
+
 ## Úvod
 
 Chcete posunout své dokumenty Java XPS na další úroveň? Ponořte se do světa efektů průhlednosti s Aspose.Page a odemkněte říši vizuálně úžasných možností. V tomto komplexním průvodci vás provedeme dvěma základními výukovými programy: přidáváním průhledných objektů a nastavením masek krytí.
@@ -47,3 +53,9 @@ Na závěr, Aspose.Page for Java otevírá dveře do světa kreativních možnos
 Vylepšete své dokumenty Java XPS s úžasnými efekty průhlednosti pomocí Aspose.Page. Postupujte podle našeho podrobného průvodce přidáváním průhledných objektů. 
 ### [Nastavte masku krytí v Java XPS](./set-opacity-mask/)
 Objevte sílu nastavení masky krytí v Java XPS s Aspose.Page. Postupujte podle našeho podrobného průvodce pro vizuálně vylepšené dokumenty.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

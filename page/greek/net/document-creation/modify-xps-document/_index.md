@@ -3,10 +3,16 @@ title: Τροποποίηση εγγράφου XPS με το Aspose.Page για 
 linktitle: Τροποποίηση εγγράφου XPS
 second_title: Aspose.Page .NET API
 description: Εξερευνήστε τη δύναμη του Aspose.Page για .NET για να τροποποιείτε εύκολα έγγραφα XPS. Ακολουθήστε τον βήμα προς βήμα οδηγό μας, βελτιώστε την επεξεργασία των εγγράφων σας και προσθέστε εξατομικευμένα κείμενα υπογραφής.
-type: docs
 weight: 12
 url: /el/net/document-creation/modify-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Τροποποίηση εγγράφου XPS με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Καλώς ήρθατε στον αναλυτικό οδηγό μας σχετικά με τον τρόπο τροποποίησης εγγράφων XPS χρησιμοποιώντας το Aspose.Page για .NET. Το Aspose.Page είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με αρχεία XPS χωρίς κόπο. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης ενός κειμένου υπογραφής, "Επιβεβαιώθηκε", σε καθορισμένες σελίδες σε ένα έγγραφο XPS.
@@ -119,3 +125,9 @@ A3: Το Aspose.Page έχει σχεδιαστεί για να χειρίζετ�
 ### Ε5: Πού μπορώ να αναζητήσω βοήθεια ή να συνδεθώ με την κοινότητα του Aspose;
 
  A5: Επισκεφθείτε το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39) να κάνει ερωτήσεις και να ασχολείται με την κοινότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

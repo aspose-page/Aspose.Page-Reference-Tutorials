@@ -3,10 +3,16 @@ title: Agregar elipse de degradado radial con Aspose.Page
 linktitle: Agregar elipse en Java XPS
 second_title: API de Java de Aspose.Page
 description: Explore la guía paso a paso sobre cómo agregar una elipse con trazo de degradado radial en Java XPS usando Aspose.Page para Java. Mejore la creación de sus documentos sin esfuerzo.
-type: docs
 weight: 10
 url: /es/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar elipse de degradado radial con Aspose.Page
+
 ## Introducción
 Bienvenido a nuestra guía paso a paso sobre cómo agregar una elipse en Java XPS usando Aspose.Page para Java. Aspose.Page es una potente biblioteca Java que permite a los desarrolladores trabajar con documentos XPS sin esfuerzo. En este tutorial, lo guiaremos a través del proceso de crear una elipse con trazo de degradado radial y guardarla como un documento XPS.
 ## Requisitos previos
@@ -91,3 +97,9 @@ Sí, Aspose.Page para Java se puede integrar perfectamente con otras bibliotecas
  Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Existen foros comunitarios para discusiones sobre Aspose.Page?
  Sí, únete al[Foro de la comunidad Aspose.Page](https://forum.aspose.com/c/page/39) para interactuar con otros desarrolladores y obtener ayuda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ubah ukuran File EPS di Java dengan Aspose.Page
 linktitle: Ubah ukuran File EPS di Java
 second_title: Aspose.Halaman Java API
 description: Pelajari cara mengubah ukuran file EPS di Java dengan mudah dengan Aspose.Page untuk Java. Ikuti panduan komprehensif kami untuk petunjuk langkah demi langkah.
-type: docs
 weight: 11
 url: /id/java/manipulation-eps/resize/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah ukuran File EPS di Java dengan Aspose.Page
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah kami tentang mengubah ukuran file EPS di Java menggunakan perpustakaan Aspose.Page yang kuat. Jika Anda perlu menyesuaikan dimensi gambar EPS secara terprogram, Anda berada di tempat yang tepat. Dalam tutorial ini, kita akan menjelajahi berbagai opsi pengubahan ukuran, termasuk titik, inci, milimeter, dan persentase, yang memberi Anda fleksibilitas yang Anda perlukan untuk kebutuhan spesifik Anda.
 ## Prasyarat
@@ -67,3 +73,9 @@ Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Apakah ada contoh proyek yang tersedia?
  Ya, periksa dokumentasinya[Di Sini](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

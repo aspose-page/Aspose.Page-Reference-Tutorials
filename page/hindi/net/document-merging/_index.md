@@ -3,10 +3,16 @@ title: दस्तावेज़ विलय
 linktitle: दस्तावेज़ विलय
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page का उपयोग करके आसानी से पोस्टस्क्रिप्ट और XPS दस्तावेज़ों को उच्च-गुणवत्ता वाले PDF में मर्ज करें। हमारे चरण-दर-चरण ट्यूटोरियल के साथ अपने दस्तावेज़ प्रसंस्करण को बेहतर बनाएं।
-type: docs
 weight: 25
 url: /hi/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# दस्तावेज़ विलय
+
 ## परिचय
 
 .NET के लिए Aspose.Page के साथ निर्बाध दस्तावेज़ प्रबंधन के लिए अपना रास्ता मर्ज करें। हमारे व्यापक ट्यूटोरियल के साथ दस्तावेज़ विलय की शक्ति की खोज करें।
@@ -40,3 +46,9 @@ url: /hi/net/document-merging/
 .NET के लिए Aspose.Page का उपयोग करके आसानी से XPS दस्तावेज़ों को उच्च-गुणवत्ता वाले PDF में मर्ज करें। सहज दस्तावेज़ रूपांतरण अनुभव के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
 ### [.NET के लिए XPS दस्तावेज़ों को Aspose.Page के साथ मर्ज करें](./merge-xps-documents/)
 .NET के लिए Aspose.Page का उपयोग करके आसानी से XPS दस्तावेज़ों को मर्ज करें। निर्बाध दस्तावेज़ प्रबंधन के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

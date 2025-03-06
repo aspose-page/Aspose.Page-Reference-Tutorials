@@ -3,10 +3,16 @@ title: Aspose.Page를 사용하여 PostScript(PS)에 텍스처 타일링 패턴 
 linktitle: PostScript에 텍스처 타일링 패턴 적용(PS)
 second_title: Aspose.페이지 .NET API
 description: .NET용 Aspose.Page를 사용하여 텍스처 타일링 패턴으로 PostScript(PS) 문서를 향상하세요. 창의적인 터치를 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 10
 url: /ko/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page를 사용하여 PostScript(PS)에 텍스처 타일링 패턴 적용
+
 ## 소개
 
 .NET용 Aspose.Page를 사용하여 PS(PostScript) 문서에 텍스처 타일링 패턴을 적용하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. Aspose.Page는 다양한 문서 형식으로 작업할 수 있는 강력한 라이브러리이며, 이 튜토리얼에서는 텍스처 타일링 패턴을 추가하여 PS 문서를 향상시키는 방법을 살펴보겠습니다.
@@ -156,3 +162,10 @@ A4: 예, 다른 이미지와 경로로 프로세스를 반복할 수 있습니�
 ### Q5: 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  A5: 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 지역사회 지원을 위해[선적 서류 비치](https://reference.aspose.com/page/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sloučit dokumenty XPS do PDF pomocí Aspose.Page pro .NET
 linktitle: Sloučit dokumenty XPS do PDF
 second_title: Aspose.Page .NET API
 description: Bez námahy slučujte dokumenty XPS do vysoce kvalitních souborů PDF pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro hladký převod dokumentů.
-type: docs
 weight: 11
 url: /cs/net/document-merging/merge-xps-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sloučit dokumenty XPS do PDF pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 neustále se vyvíjejícím prostředí zpracování dokumentů se Aspose.Page for .NET ukazuje jako výkonný nástroj pro bezproblémové slučování dokumentů XPS do formátu PDF. Tento tutoriál vás provede celým procesem a rozebere každý krok, abyste zajistili hladké a efektivní provedení.
@@ -123,3 +129,9 @@ Odpověď 4: Ano, Aspose.Page for .NET poskytuje rozsáhlé funkce pro manipulac
 ### Q5: Podporuje Aspose.Page for .NET vývoj napříč platformami?
 
 Odpověď 5: Ano, Aspose.Page for .NET je navržena tak, aby bezproblémově fungovala na různých platformách.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

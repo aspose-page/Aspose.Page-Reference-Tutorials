@@ -3,10 +3,16 @@ title: เพิ่ม Radial Gradient Ellipse ด้วย Aspose.Page
 linktitle: เพิ่มวงรีใน Java XPS
 second_title: Aspose.Page Java API
 description: สำรวจคำแนะนำทีละขั้นตอนเกี่ยวกับการเพิ่มวงรีลายเส้นแบบไล่ระดับสีใน Java XPS โดยใช้ Aspose.Page สำหรับ Java ปรับปรุงการสร้างเอกสารของคุณได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/xps-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่ม Radial Gradient Ellipse ด้วย Aspose.Page
+
 ## การแนะนำ
 ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนในการเพิ่มวงรีใน Java XPS โดยใช้ Aspose.Page สำหรับ Java Aspose.Page เป็นไลบรารี Java อันทรงพลังที่ช่วยให้นักพัฒนาทำงานกับเอกสาร XPS ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการสร้างวงรีที่มีการลากเส้นแบบไล่ระดับสีในแนวรัศมี และบันทึกเป็นเอกสาร XPS
 ## ข้อกำหนดเบื้องต้น
@@ -91,3 +97,9 @@ doc.save(dataDir + "AddEllipse_out.xps");
  คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### มีฟอรัมชุมชนสำหรับการสนทนา Aspose.Page หรือไม่
  ใช่เข้าร่วม[ฟอรั่มชุมชน Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อมีส่วนร่วมกับนักพัฒนารายอื่นและรับความช่วยเหลือ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

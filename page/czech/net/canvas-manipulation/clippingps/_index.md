@@ -3,10 +3,16 @@ title: Oříznutí PS pomocí Aspose.Page pro .NET
 linktitle: Výstřižek PS
 second_title: Aspose.Page .NET API
 description: Prozkoumejte sílu Aspose.Page for .NET v tomto podrobném tutoriálu o ořezávání PostScriptových dokumentů. Naučte se bez námahy vylepšit své možnosti zpracování dokumentů.
-type: docs
 weight: 10
 url: /cs/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Oříznutí PS pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Vítejte v obsáhlém tutoriálu o využití Aspose.Page pro .NET k implementaci ořezávání v dokumentech PostScript (PS). Tento tutoriál vás provede procesem ořezávání dokumentů PS pomocí Aspose.Page, výkonné knihovny pro práci s různými formáty dokumentů v aplikacích .NET.
@@ -147,3 +153,9 @@ A1: Aspose.Page je primárně určen pro aplikace .NET. Aspose však poskytuje p
 ### Q5: Kde mohu získat podporu nebo diskutovat o dotazech souvisejících s Aspose.Page?
 
  A5: Navštivte[Aspose.Page fóra](https://forum.aspose.com/c/page/39) za podporu komunity a diskuze.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

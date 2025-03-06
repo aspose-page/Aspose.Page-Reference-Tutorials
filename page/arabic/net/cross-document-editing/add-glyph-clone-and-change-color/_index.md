@@ -3,10 +3,16 @@ title: قم بإضافة Glyph Clone وتغيير اللون باستخدام As
 linktitle: إضافة استنساخ الصورة الرمزية وتغيير اللون
 second_title: Aspose.Page .NET API
 description: اكتشف قوة Aspose.Page لـ .NET في هذا البرنامج التعليمي الشامل. تعلم كيفية إضافة نسخ الحروف الرسومية وتغيير الألوان في مستندات XPS دون عناء.
-type: docs
 weight: 10
 url: /ar/net/cross-document-editing/add-glyph-clone-and-change-color/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإضافة Glyph Clone وتغيير اللون باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 مرحبًا بك في هذا الدليل المفصّل خطوة بخطوة حول استخدام Aspose.Page لـ .NET لإضافة نسخ الحروف الرسومية وتغيير الألوان في مستندات XPS الخاصة بك. Aspose.Page for .NET هي مكتبة قوية تمكنك من العمل مع ملفات XPS بسلاسة. في هذا البرنامج التعليمي، سنركز على عملية إضافة نسخ الحروف الرسومية وتغيير ألوانها، مما يعزز المظهر المرئي لمستنداتك.
@@ -129,3 +135,9 @@ A1: تم تصميم Aspose.Page for .NET خصيصًا للعمل مع مستند
 ### س5: أين يمكنني العثور على وثائق شاملة لـ Aspose.Page لـ .NET؟
 
  ج5: يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/page/net/) للحصول على معلومات وأمثلة مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

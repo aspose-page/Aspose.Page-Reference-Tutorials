@@ -3,10 +3,16 @@ title: Java PostScript에 타원 추가
 linktitle: Java PostScript에 타원 추가
 second_title: Aspose.페이지 자바 API
 description: Aspose.Page를 사용하여 Java로 멋진 PostScript 문서 작성을 마스터하세요. 시각적으로 매력적인 콘텐츠를 위해 타원을 단계별로 추가하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/postscript-shapes/add-ellipse/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PostScript에 타원 추가
+
 ## 소개
 역동적인 Java 개발 세계에서는 시각적으로 매력적인 문서를 만드는 것이 일반적인 요구 사항입니다. Aspose.Page for Java는 개발자가 PostScript 파일을 손쉽게 조작할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 Java용 Aspose.Page를 사용하여 PostScript 문서에 타원을 추가하는 방법을 살펴보겠습니다. 문서 작성 기술을 향상하려면 따라해보세요!
 ## 전제 조건
@@ -71,3 +77,9 @@ A: 예, Aspose.Page for Java는 다른 Java 라이브러리와 원활하게 통�
  A: 다음 커뮤니티에 가입하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 토론과 지원을 위해.
 ### Q: Aspose.Page for Java에 대해 자세히 알아볼 수 있는 무료 리소스가 있나요?
  A: 활용[무료 시험판](https://releases.aspose.com/) 문서에서 예제를 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

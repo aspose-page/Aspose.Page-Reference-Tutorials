@@ -3,10 +3,16 @@ title: Manipulación de imágenes - XPS
 linktitle: Manipulación de imágenes - XPS
 second_title: API de Java de Aspose.Page
 description: Descubra el arte de la manipulación de imágenes sin esfuerzo en documentos Java XPS con Aspose.Page. Aprenda a agregar y organizar imágenes en mosaico sin problemas para mejorar el procesamiento de documentos.
-type: docs
 weight: 29
 url: /es/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de imágenes - XPS
+
 
 ## Introducción
 
@@ -36,3 +42,9 @@ En conclusión, Aspose.Page para Java abre la puerta a un mundo donde la manipul
 Aprenda cómo agregar imágenes sin esfuerzo a documentos XPS en Java usando Aspose.Page. Mejore el procesamiento de sus documentos con esta guía paso a paso.
 ### [Agregar imagen en mosaico en Java XPS](./add-tiled-image/)
 Explore la manipulación perfecta de documentos Java XPS con Aspose.Page. Aprenda a agregar imágenes en mosaico sin esfuerzo utilizando esta guía paso a paso.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

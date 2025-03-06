@@ -3,10 +3,16 @@ title: Προσθήκη σελίδας στο έγγραφο XPS με το Aspos
 linktitle: Προσθήκη σελίδας στο έγγραφο XPS
 second_title: Aspose.Page .NET API
 description: Βελτιώστε τις εφαρμογές σας .NET μαθαίνοντας πώς να προσθέτετε σελίδες σε έγγραφα XPS με το Aspose.Page για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 11
 url: /el/net/page-manipulation/add-page-to-xps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη σελίδας στο έγγραφο XPS με το Aspose.Page για .NET
+
 ## Εισαγωγή
 
 Εάν εργάζεστε με έγγραφα XPS σε .NET και πρέπει να προσθέσετε σελίδες μέσω προγραμματισμού, το Aspose.Page για .NET είναι η λύση που προτιμάτε. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης σελίδων σε ένα έγγραφο XPS βήμα προς βήμα. Ως ικανός συγγραφέας SEO, θα διασφαλίσω ότι αυτός ο οδηγός δεν είναι μόνο ενημερωτικός, αλλά είναι επίσης κατασκευασμένος με γνώμονα τη βελτιστοποίηση μηχανών αναζήτησης, καθιστώντας τον έναν πολύτιμο πόρο τόσο για προγραμματιστές όσο και για δημιουργούς περιεχομένου.
@@ -86,3 +92,10 @@ A4: Ναι, μπορείτε να έχετε πρόσβαση σε μια δωρ
 ### Ε5: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Page για .NET;
 
  A5: Επισκεφθείτε το[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/) για την απόκτηση προσωρινής άδειας για σκοπούς δοκιμών.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

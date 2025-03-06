@@ -3,10 +3,16 @@ title: Aspose.Page for .NET ile Izgara Görsel Fırçasını Uygulayın
 linktitle: Izgara Görsel Fırçasını Uygula
 second_title: Aspose.Page .NET API'si
 description: Aspose.Page ile .NET'te belge işlemenin dinamik dünyasını keşfedin. Görsel açıdan etkileyici belgeler için Izgara Görsel Fırçasını nasıl uygulayacağınızı öğrenin.
-type: docs
 weight: 10
 url: /tr/net/visual-brushes/apply-grid-visual-brush/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page for .NET ile Izgara Görsel Fırçasını Uygulayın
+
 ## giriiş
 
 .NET geliştirme dünyasında Aspose.Page, belge işleme görevlerini yerine getirmek için güçlü bir araç olarak öne çıkıyor. Sunduğu büyüleyici özelliklerden biri, belgelerinize yeni bir boyut kazandıran Izgara Görsel Fırçası uygulama yeteneğidir. Bu eğitim, Aspose.Page for .NET'i kullanarak Macenta Grid Visual Brush'ı adım adım uygulama sürecinde size rehberlik edecektir.
@@ -143,3 +149,9 @@ Cevap1: Evet, Aspose.Page for .NET çok yönlüdür ve çeşitli uygulama türle
 ### S5: Aspose.Page for .NET için başka hangi belgeler mevcut?
 
  Cevap5: Kapsamlı belgeleri inceleyin[Burada](https://reference.aspose.com/page/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Page for .NET 从流对象加载许可证
 linktitle: 从流对象加载许可证
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page 解锁 .NET 中的文档操作。按照我们的指南从流对象无缝加载许可证。
-type: docs
 weight: 12
 url: /zh/net/getting-started/load-license-from-stream-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Page for .NET 从流对象加载许可证
+
 ## 介绍
 
 您准备好将您的 .NET 开发技能提升到新的水平了吗？如果您曾经觉得需要处理文档，尤其是在页面操作的情况下，那么 Aspose.Page for .NET 是您的完美伴侣。在本综合指南中，我们将引导您完成从流对象加载许可证的过程，这是利用 Aspose.Page for .NET 功能的基本步骤。
@@ -111,3 +117,9 @@ A1：是的，Aspose.Page 旨在与所有版本的 .NET 无缝协作。
 ### Q5：我可以升级到不同的许可证计划吗？
 
  A5：探索不同的许可选项并升级[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Добавить прямоугольник в Java XPS
 linktitle: Добавить прямоугольник в Java XPS
 second_title: API Aspose.Page Java
 description: Узнайте, как добавлять прямоугольники в Java XPS с помощью Aspose.Page. Следуйте нашему пошаговому руководству для беспрепятственного управления документами. #JavaXPS #AsposePage
-type: docs
 weight: 11
 url: /ru/java/xps-shapes/add-rectangle/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавить прямоугольник в Java XPS
+
 ## Введение
 Добро пожаловать в это подробное руководство по добавлению прямоугольников в Java XPS с помощью Aspose.Page! Независимо от того, являетесь ли вы опытным разработчиком или только начинаете работать с Java XPS, это руководство проведет вас через процесс с пошаговыми инструкциями, гарантируя, что вы получите глубокое понимание темы.
 ## Предварительные условия
@@ -62,3 +68,9 @@ doc.save(dataDir + "AddRectangle_out.xps");
  Исследовать[Форум Aspose.Page](https://forum.aspose.com/c/page/39)чтобы получить больше примеров и обратиться за помощью к сообществу.
 ### Могу ли я попробовать Aspose.Page перед покупкой?
  Да, вы можете изучить[бесплатная пробная версия](https://releases.aspose.com/) чтобы испытать возможности Aspose.Page.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

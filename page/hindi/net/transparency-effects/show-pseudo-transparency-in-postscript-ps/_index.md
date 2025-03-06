@@ -3,10 +3,16 @@ title: Aspose.Page के साथ पोस्टस्क्रिप्ट (
 linktitle: पोस्टस्क्रिप्ट में छद्म पारदर्शिता दिखाएं (पीएस)
 second_title: Aspose.Page .NET API
 description: .NET के लिए Aspose.Page के साथ पोस्टस्क्रिप्ट में छद्म पारदर्शिता की शक्ति का अन्वेषण करें। दृश्यात्मक रूप से आश्चर्यजनक दस्तावेज़ों के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 13
 url: /hi/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page के साथ पोस्टस्क्रिप्ट (पीएस) में छद्म पारदर्शिता दिखाएं
+
 ## परिचय
 
 क्या आप छद्म पारदर्शिता को शामिल करके अपने पोस्टस्क्रिप्ट (पीएस) दस्तावेज़ों की दृश्य अपील को बढ़ाना चाहते हैं? .NET के लिए Aspose.Page इस प्रभाव को सहजता से प्राप्त करने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस चरण-दर-चरण ट्यूटोरियल में, हम आपको Aspose.Page का उपयोग करके पोस्टस्क्रिप्ट में छद्म पारदर्शिता दिखाने की प्रक्रिया के माध्यम से मार्गदर्शन करेंगे।
@@ -129,3 +135,9 @@ A2: हाँ, ग्राफ़िक्सपाथ को तदनुसा
 ### Q5: मैं Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
 
  ए5: विजिट करें[इस लिंक](https://purchase.aspose.com/temporary-license/) Aspose.Page के लिए एक अस्थायी लाइसेंस प्राप्त करने के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

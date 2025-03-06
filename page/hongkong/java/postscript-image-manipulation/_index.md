@@ -3,10 +3,16 @@ title: 影像處理 - PostScript
 linktitle: 影像處理 - PostScript
 second_title: Aspose.Page Java API
 description: 使用 Aspose.Page for Java 增強文件操作技能。深入研究我們的 PostScript 教學課程，學習在 Java 中新增圖像，並提升您的文件功能。
-type: docs
 weight: 28
 url: /zh-hant/java/postscript-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 影像處理 - PostScript
+
 
 ## 介紹
 
@@ -32,3 +38,9 @@ Aspose.Page for Java 讓您能夠提昇文件操作能力。透過我們的教�
 ## 影像處理 - PostScript 教學課程
 ### [在 Java PostScript 中新增圖像](./add-image/)
 在本教程中探索 Aspose.Page Java 的無縫集成，為 PostScript 文件添加圖像。提升您的文件處理能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

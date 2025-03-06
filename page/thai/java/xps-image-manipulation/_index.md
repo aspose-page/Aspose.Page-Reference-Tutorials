@@ -3,10 +3,16 @@ title: การจัดการภาพ - XPS
 linktitle: การจัดการภาพ - XPS
 second_title: Aspose.Page Java API
 description: ค้นพบศิลปะของการจัดการภาพอย่างง่ายดายในเอกสาร Java XPS ด้วย Aspose.Page เรียนรู้การเพิ่มและจัดเรียงรูปภาพอย่างราบรื่นเพื่อการประมวลผลเอกสารที่ได้รับการปรับปรุง
-type: docs
 weight: 29
 url: /th/java/xps-image-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการภาพ - XPS
+
 
 ## การแนะนำ
 
@@ -36,3 +42,9 @@ url: /th/java/xps-image-manipulation/
 เรียนรู้วิธีเพิ่มรูปภาพลงในเอกสาร XPS ใน Java ได้อย่างง่ายดายโดยใช้ Aspose.Page ยกระดับการประมวลผลเอกสารของคุณด้วยคำแนะนำทีละขั้นตอนนี้
 ### [เพิ่มรูปภาพแบบเรียงต่อกันใน Java XPS](./add-tiled-image/)
 สำรวจการจัดการเอกสาร Java XPS ได้อย่างราบรื่นด้วย Aspose.Page เรียนรู้วิธีการเพิ่มรูปภาพเรียงต่อกันอย่างง่ายดายโดยใช้คำแนะนำทีละขั้นตอนนี้
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

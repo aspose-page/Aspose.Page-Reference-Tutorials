@@ -3,10 +3,16 @@ title: Ajouter une image au document PostScript (PS) avec Aspose.Page
 linktitle: Ajouter une image au document PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Découvrez comment améliorer vos documents PostScript en ajoutant des images à l'aide d'Aspose.Page pour .NET. Suivez notre guide étape par étape pour une expérience fluide.
-type: docs
 weight: 10
 url: /fr/net/image-management/add-image-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une image au document PostScript (PS) avec Aspose.Page
+
 ## Introduction
 
 Dans ce didacticiel, nous explorerons le processus d'ajout d'images à un document PostScript (PS) à l'aide de la puissante bibliothèque Aspose.Page pour .NET. Aspose.Page simplifie la manipulation des documents PS, offrant un moyen efficace et simple d'améliorer votre document avec des images. Ce guide étape par étape vous guidera tout au long du processus, en vous assurant de bien comprendre chaque concept.
@@ -122,3 +128,9 @@ A4 : Oui, Aspose.Page vous permet d'appliquer diverses transformations et effets
 ### Q5 : Comment puis-je extraire des images d'un document PS ?
 
 A5 : Aspose.Page pour .NET fournit des méthodes pour extraire des images de documents PS. Reportez-vous à la documentation pour des informations détaillées.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

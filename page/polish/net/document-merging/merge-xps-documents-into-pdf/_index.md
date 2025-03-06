@@ -3,10 +3,16 @@ title: Scal dokumenty XPS w formacie PDF za pomocą Aspose.Page dla .NET
 linktitle: Scal dokumenty XPS w formacie PDF
 second_title: Aspose.Page API .NET
 description: Bez wysiłku łącz dokumenty XPS w wysokiej jakości pliki PDF za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną konwersję dokumentów.
-type: docs
 weight: 11
 url: /pl/net/document-merging/merge-xps-documents-into-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Scal dokumenty XPS w formacie PDF za pomocą Aspose.Page dla .NET
+
 ## Wstęp
 
 stale zmieniającym się środowisku przetwarzania dokumentów Aspose.Page dla .NET jawi się jako potężne narzędzie do płynnego łączenia dokumentów XPS w format PDF. Ten samouczek przeprowadzi Cię przez proces, szczegółowo opisując każdy krok, aby zapewnić płynne i skuteczne wykonanie.
@@ -123,3 +129,9 @@ O4: Tak, Aspose.Page dla .NET zapewnia rozbudowane funkcje do manipulacji plikam
 ### P5: Czy Aspose.Page dla .NET obsługuje rozwój międzyplatformowy?
 
 Odpowiedź 5: Tak, Aspose.Page dla .NET jest zaprojektowany do bezproblemowej pracy na różnych platformach.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Page Манипулирование текстом Java
 linktitle: Добавить текст в Java PostScript
 second_title: API Aspose.Page Java
 description: Изучите возможности Aspose.Page для Java в нашем руководстве по добавлению текста в документы PostScript. Научитесь с легкостью использовать системные и пользовательские шрифты.
-type: docs
 weight: 10
 url: /ru/java/postscript-text-manipulation/add-text/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Page Манипулирование текстом Java
+
 ## Введение
 Добро пожаловать в наше пошаговое руководство по добавлению текста в Java PostScript с помощью Aspose.Page для Java. Aspose.Page для Java — это мощная библиотека, которая позволяет разработчикам с легкостью манипулировать документами PostScript. В этом уроке мы покажем вам процесс добавления текста, использования системных и пользовательских шрифтов, выделения текста и добавления штрихов для получения визуально привлекательного результата.
 ## Предварительные условия
@@ -99,3 +105,9 @@ document.save();
 `ExternalFontCache` используется для получения пользовательских шрифтов, гарантируя их доступность для манипулирования текстом.
 ### Можно ли применить к обведенному тексту разные штрихи?
  Да, вы можете настроить ширину и цвет обводки с помощью`Stroke` класс и`Color` класс соответственно.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Memotong PS dengan Aspose.Page untuk .NET
 linktitle: Kliping PS
 second_title: Aspose.Halaman .NET API
 description: Jelajahi kekuatan Aspose.Page untuk .NET dalam tutorial langkah demi langkah tentang pemotongan dokumen PostScript. Pelajari cara meningkatkan kemampuan pemrosesan dokumen Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/net/canvas-manipulation/clippingps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Memotong PS dengan Aspose.Page untuk .NET
+
 ## Perkenalan
 
 Selamat datang di tutorial komprehensif tentang penggunaan Aspose.Page untuk .NET untuk mengimplementasikan kliping dalam dokumen PostScript (PS). Tutorial ini akan memandu Anda melalui proses kliping dokumen PS menggunakan Aspose.Page, perpustakaan yang kuat untuk bekerja dengan berbagai format dokumen dalam aplikasi .NET.
@@ -147,3 +153,9 @@ A1: Aspose.Page terutama dirancang untuk aplikasi .NET. Namun, Aspose menyediaka
 ### Q5: Di mana saya bisa mendapatkan dukungan atau mendiskusikan pertanyaan terkait Aspose.Page?
 
  A5: Kunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

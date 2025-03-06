@@ -3,10 +3,16 @@ title: เพิ่ม Grid โดยใช้ Visual Brush ใน Java
 linktitle: เพิ่ม Grid โดยใช้ Visual Brush ใน Java
 second_title: Aspose.Page Java API
 description: ปรับปรุงภาพเอกสาร Java ด้วย Aspose.Page! เรียนรู้การเพิ่มกริดโดยใช้ Visual Brush ทีละขั้นตอน ยกระดับความน่าดึงดูดใจให้กับแอปพลิเคชันของคุณได้อย่างง่ายดาย
-type: docs
 weight: 10
 url: /th/java/visual-elements/add-grid/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่ม Grid โดยใช้ Visual Brush ใน Java
+
 ## การแนะนำ
 คุณต้องการปรับปรุงแอปพลิเคชัน Java ของคุณด้วยกริดที่ดึงดูดสายตาโดยใช้ Aspose.Page หรือไม่? ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มตารางโดยใช้ Visual Brush ใน Java ด้วย Aspose.Page Visual Brush ช่วยให้คุณสามารถวาดพื้นที่ด้วยเนื้อหาภาพ สร้างเอฟเฟกต์เส้นตารางที่น่าทึ่งในเอกสารของคุณ
 ## ข้อกำหนดเบื้องต้น
@@ -84,3 +90,9 @@ doc.save(dataDir + "AddGrid_out.xps");
  ใช่ คุณสามารถเข้าถึง[ทดลองฟรี](https://releases.aspose.com/) เพื่อสำรวจฟีเจอร์ของ Aspose.Page
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page ได้อย่างไร
  ได้รับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

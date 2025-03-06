@@ -3,10 +3,16 @@ title: قم بتطبيق الترخيص المقنن باستخدام Aspose.Pag
 linktitle: تطبيق الترخيص المقنن
 second_title: Aspose.Page .NET API
 description: استكشف التكامل السلس لـ Aspose.Page for .NET مع هذا الدليل التفصيلي خطوة بخطوة حول تطبيق ترخيص مقنن. تحسين معالجة المستندات دون عناء.
-type: docs
 weight: 10
 url: /ar/net/getting-started/apply-metered-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتطبيق الترخيص المقنن باستخدام Aspose.Page لـ .NET
+
 ## مقدمة
 
 أطلق العنان للإمكانات الكاملة لـ Aspose.Page لـ .NET من خلال تطبيق ترخيص مقنن. سيرشدك هذا البرنامج التعليمي خلال عملية إعداد الترخيص المحدود وتطبيقه، مما يضمن الاستخدام السلس والأمثل لمكتبة .NET القوية هذه.
@@ -112,3 +118,9 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 ### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
 
  ج5: زيارة[ترخيص مؤقت/](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

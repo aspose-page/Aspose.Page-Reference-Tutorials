@@ -3,10 +3,16 @@ title: تحويل XPS إلى BMP في جافا
 linktitle: تحويل XPS إلى BMP في جافا
 second_title: Aspose.Page جافا API
 description: تعرف على كيفية تحويل XPS إلى BMP في Java باستخدام Aspose.Page. اتبع دليلنا السهل لتحويل المستندات بكفاءة وعالية الجودة.
-type: docs
 weight: 10
 url: /ar/java/xps-conversion/to-bmp/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل XPS إلى BMP في جافا
+
 ## مقدمة
 مرحبًا بك في هذا الدليل المفصل خطوة بخطوة حول تحويل ملفات XPS (مواصفات ورق XML) إلى تنسيق BMP (Bitmap) في Java باستخدام Aspose.Page. Aspose.Page for Java هي مكتبة قوية توفر ميزات شاملة للعمل مع مستندات XPS. في هذا البرنامج التعليمي، سنرشدك خلال عملية تحويل ملفات XPS إلى صور BMP دون عناء.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ for (int i = 0; i < device.getResult().length; i++) {
 ج: نعم، يدعم Aspose.Page تنسيقات الإخراج المختلفة. الرجوع إلى الوثائق للحصول على قائمة شاملة.
 ### س: أين يمكنني العثور على مساعدة أو دعم إضافي؟
  ج: قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) لدعم المجتمع والمناقشات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

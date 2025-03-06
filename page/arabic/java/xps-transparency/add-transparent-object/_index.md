@@ -3,10 +3,16 @@ title: إضافة كائن شفاف في Java XPS
 linktitle: إضافة كائن شفاف في Java XPS
 second_title: Aspose.Page جافا API
 description: قم بتحسين مستندات Java XPS الخاصة بك بتأثيرات الشفافية المذهلة باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة لإضافة كائنات شفافة.
-type: docs
 weight: 10
 url: /ar/java/xps-transparency/add-transparent-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة كائن شفاف في Java XPS
+
 ## مقدمة
 إذا كنت تتطلع إلى تحسين المظهر المرئي لمستندات Java XPS الخاصة بك عن طريق إضافة كائنات شفافة، فإن Aspose.Page for Java هو الحل المناسب لك. في هذا الدليل التفصيلي خطوة بخطوة، سنرشدك خلال عملية دمج الكائنات الشفافة في مستند XPS الخاص بك. بحلول نهاية هذا البرنامج التعليمي، ستكون قادرًا على إنشاء مستندات مذهلة ذات تأثيرات شفافية رائعة من الناحية الجمالية.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ doc.save(dataDir + "WorkingWithTransparency_out.xps");
 ج: نعم، يمكن دمج Aspose.Page بسلاسة مع مكتبات Java الأخرى للحصول على وظائف موسعة.
 ### س: أين يمكنني العثور على أمثلة إضافية ودعم لـ Aspose.Page؟
  ج: قم بزيارة[Aspose.Page منتدى جافا](https://forum.aspose.com/c/page/39)لدعم المجتمع واستكشاف الوثائق[هنا](https://reference.aspose.com/page/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

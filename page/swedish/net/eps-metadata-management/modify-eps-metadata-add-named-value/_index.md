@@ -3,10 +3,16 @@ title: Lägg till namngivet värde med Aspose.Page
 linktitle: Lägg till namngivet värde
 second_title: Aspose.Page .NET API
 description: Lär dig hur du lägger till namngivna värden till EPS-filer i .NET med Aspose.Page. Denna omfattande handledning guidar dig genom processen steg för steg.
-type: docs
 weight: 12
 url: /sv/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till namngivet värde med Aspose.Page
+
 ## Introduktion
 
 När det gäller dokumentbehandling med .NET framstår Aspose.Page som ett kraftfullt verktyg för att hantera EPS-filer. Aspose.Page ger utvecklare möjlighet att manipulera XMP-metadata, vilket underlättar uppgifter som att lägga till namngivna värden. Denna handledning guidar dig genom processen att lägga till namngivna värden till en EPS-fil med hjälp av Aspose.Page på ett steg-för-steg sätt.
@@ -96,3 +102,9 @@ S1: Aspose.Page stöder olika EPS-filversioner, vilket säkerställer kompatibil
 ### F5: Vad är en tillfällig licens och hur kan jag få en?
 
  S5: Om du behöver en tillfällig licens för test- eller utvärderingsändamål kan du skaffa en[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

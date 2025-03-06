@@ -3,10 +3,16 @@ title: Giấy phép bảo mật với Aspose.Page cho .NET
 linktitle: Giấy phép an toàn
 second_title: API Aspose.Page .NET
 description: Bảo vệ giấy phép Aspose.Page for .NET của bạn một cách dễ dàng với hướng dẫn từng bước của chúng tôi. Mở khóa toàn bộ tiềm năng thao tác trang liền mạch trong các ứng dụng .NET của bạn.
-type: docs
 weight: 13
 url: /vi/net/getting-started/secure-license/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Giấy phép bảo mật với Aspose.Page cho .NET
+
 ## Giới thiệu
 
 Mở khóa toàn bộ tiềm năng của Aspose.Page cho .NET liên quan đến việc bảo mật giấy phép của bạn để đảm bảo tích hợp liền mạch và hiệu suất tối ưu. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình bảo mật giấy phép của bạn bằng Aspose.Page, một công cụ mạnh mẽ để xử lý thao tác trang trong các ứng dụng .NET.
@@ -90,3 +96,9 @@ Câu trả lời 4: Có, giấy phép tạm thời có giá trị trong một kh
 ### Q5: Tôi có thể chuyển giấy phép của mình sang máy khác không?
 
 Câu trả lời 5: Có, bạn có thể chuyển giấy phép của mình sang máy khác nếu cần.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

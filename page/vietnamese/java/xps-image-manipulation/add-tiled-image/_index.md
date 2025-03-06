@@ -3,10 +3,16 @@ title: Thêm hình ảnh lát gạch trong Java XPS
 linktitle: Thêm hình ảnh lát gạch trong Java XPS
 second_title: API Java Aspose.Page
 description: Khám phá thao tác tài liệu Java XPS liền mạch với Aspose.Page. Tìm hiểu cách thêm hình ảnh xếp chồng một cách dễ dàng bằng hướng dẫn từng bước này.
-type: docs
 weight: 11
 url: /vi/java/xps-image-manipulation/add-tiled-image/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình ảnh lát gạch trong Java XPS
+
 ## Giới thiệu
 Trong thế giới năng động của phát triển Java, nhu cầu thao tác và tạo tài liệu hiệu quả ngày càng tăng. Aspose.Page dành cho Java nổi lên như một công cụ mạnh mẽ, cung cấp cho các nhà phát triển khả năng làm việc liền mạch với các tài liệu XPS. Hướng dẫn này tập trung vào một tác vụ cụ thể – thêm hình ảnh xếp kề vào tài liệu Java XPS.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Có, Aspose.Page cung cấp giấy phép thương mại. Mua chúng[đây](https
  Tương tác với cộng đồng Aspose.Page trên[diễn đàn](https://forum.aspose.com/c/page/39).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page?
  Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

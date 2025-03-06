@@ -3,10 +3,16 @@ title: Fügen Sie mit Aspose.Page für .NET einen horizontalen Farbverlauf zu XP
 linktitle: Fügen Sie XPS einen horizontalen Farbverlauf hinzu
 second_title: Aspose.Page .NET-API
 description: Erfahren Sie, wie Sie mit Aspose.Page für .NET atemberaubende horizontale Verläufe zu Ihren XPS-Dokumenten hinzufügen. Steigern Sie mühelos die visuelle Attraktivität.
-type: docs
 weight: 13
 url: /de/net/gradient-fills/add-horizontal-gradient-to-xps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Aspose.Page für .NET einen horizontalen Farbverlauf zu XPS hinzu
+
 ## Einführung
 
 In diesem Tutorial erfahren Sie, wie Sie XPS-Dokumente durch Hinzufügen eines horizontalen Farbverlaufs mithilfe von Aspose.Page für .NET verbessern können. Aspose.Page für .NET ist eine leistungsstarke Bibliothek, die eine nahtlose Verarbeitung von XPS-Dokumenten (XML Paper Specification) in .NET-Anwendungen ermöglicht. Durch das Hinzufügen von Farbverläufen können Sie Ihre Dokumente optisch ansprechender gestalten. Diese Anleitung führt Sie Schritt für Schritt durch den Vorgang.
@@ -113,3 +119,9 @@ Die Verbesserung Ihrer XPS-Dokumente mit Farbverläufen verbessert nicht nur der
 ### F5: Wie erhalte ich eine temporäre Lizenz für Aspose.Page für .NET?
 
  A5: Sie können eine temporäre Lizenz erhalten von[dieser Link](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

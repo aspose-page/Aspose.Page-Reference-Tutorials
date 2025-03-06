@@ -3,10 +3,16 @@ title: Thêm văn bản vào tài liệu PostScript (PS) bằng Aspose.Page
 linktitle: Thêm văn bản vào tài liệu PostScript (PS)
 second_title: API Aspose.Page .NET
 description: Nâng cao kỹ năng phát triển .NET của bạn bằng cách học cách thêm văn bản vào tài liệu PostScript (PS) bằng Aspose.Page. Khám phá các ví dụ từng bước và giải phóng sức mạnh của thao tác tài liệu.
-type: docs
 weight: 10
 url: /vi/net/text-manipulation/add-text-to-postscript-ps-document/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm văn bản vào tài liệu PostScript (PS) bằng Aspose.Page
+
 ## Giới thiệu
 
 Trong thế giới phát triển .NET năng động, việc thao tác và nâng cao các tài liệu PostScript (PS) là một yêu cầu chung. Aspose.Page for .NET cung cấp một bộ công cụ mạnh mẽ để dễ dàng thêm văn bản vào tài liệu PS của bạn. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn có thể tích hợp liền mạch chức năng này vào các dự án của mình.
@@ -117,3 +123,9 @@ A4: Chắc chắn rồi! Điều chỉnh tọa độ trong các ví dụ đượ
 ### Câu hỏi 5: Tôi có thể tìm kiếm hỗ trợ ở đâu cho các truy vấn liên quan đến Aspose.Page?
 
  A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với cộng đồng và tìm kiếm lời khuyên của chuyên gia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

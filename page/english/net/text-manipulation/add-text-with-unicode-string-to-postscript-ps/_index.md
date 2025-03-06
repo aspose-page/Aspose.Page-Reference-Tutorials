@@ -3,10 +3,16 @@ title: Add Text with Unicode String to PostScript (PS) with Aspose.Page
 linktitle: Add Text with Unicode String to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Learn how to add Unicode text to PostScript files using Aspose.Page for .NET. Enhance document manipulation with ease.
-type: docs
 weight: 11
 url: /net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Text with Unicode String to PostScript (PS) with Aspose.Page
+
 ## Introduction
 
 In the realm of document manipulation, Aspose.Page for .NET stands out as a robust library that empowers developers to create, edit, and convert various document formats. One of its powerful features is the ability to add text using Unicode strings to PostScript (PS) files. In this tutorial, we'll explore a step-by-step guide on accomplishing this task, providing a seamless experience for developers working with Aspose.Page.
@@ -110,3 +116,10 @@ A4: Aspose.Page supports various formats, including XPS, PS, EPS, PDF, and more.
 ### Q5: Can I customize the appearance of the added text?
 
 A5: Yes, you can customize the font, size, color, and other properties of the text in Aspose.Page.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

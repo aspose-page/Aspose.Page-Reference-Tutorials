@@ -3,10 +3,16 @@ title: 文档合并
 linktitle: 文档合并
 second_title: Aspose.Page .NET API
 description: 使用 Aspose.Page for .NET 轻松将 PostScript 和 XPS 文档合并为高质量 PDF。通过我们的分步教程增强您的文档处理能力。
-type: docs
 weight: 25
 url: /zh/net/document-merging/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 文档合并
+
 ## 介绍
 
 将您的无缝文档管理方式与 Aspose.Page for .NET 相结合。通过我们全面的教程探索文档合并的强大功能。
@@ -40,3 +46,9 @@ url: /zh/net/document-merging/
 使用 Aspose.Page for .NET 轻松将 XPS 文档合并为高质量 PDF。请按照我们的分步指南获得流畅的文档转换体验。
 ### [将 XPS 文档与 Aspose.Page for .NET 合并](./merge-xps-documents/)
 使用 Aspose.Page for .NET 轻松合并 XPS 文档。请遵循我们的无缝文档管理分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

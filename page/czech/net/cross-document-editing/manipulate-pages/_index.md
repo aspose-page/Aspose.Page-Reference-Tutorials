@@ -3,10 +3,16 @@ title: Manipulujte se stránkami pomocí Aspose.Page pro .NET
 linktitle: Manipulujte se stránkami
 second_title: Aspose.Page .NET API
 description: Prozkoumejte manipulaci se stránkami v .NET pomocí Aspose.Page, výkonné knihovny pro práci s dokumenty XPS. Pro efektivní výsledky postupujte podle našeho podrobného průvodce.
-type: docs
 weight: 12
 url: /cs/net/cross-document-editing/manipulate-pages/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulujte se stránkami pomocí Aspose.Page pro .NET
+
 ## Úvod
 
 Vítejte ve světě Aspose.Page pro .NET! V tomto tutoriálu vás provedeme procesem manipulace se stránkami pomocí knihovny Aspose.Page v prostředí .NET. Ať už jste zkušený vývojář nebo teprve začínáte, tato příručka je navržena tak, aby vám pomohla využít sílu Aspose.Page pro efektivní manipulaci se stránkami.
@@ -94,3 +100,9 @@ Odpověď 3: Ano, Aspose.Page je plně kompatibilní se sadou Visual Studio, co�
 ### Q5: Kde mohu získat podporu nebo klást otázky?
 
  A5: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) získat podporu a zapojit se do komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

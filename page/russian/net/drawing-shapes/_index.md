@@ -3,10 +3,16 @@ title: Рисование фигур
 linktitle: Рисование фигур
 second_title: Aspose.Page .NET API
 description: Улучшите процесс создания документов в .NET без особых усилий! Изучите пошаговые руководства по добавлению кругов, эллипсов и прямоугольников в PostScript (PS) с помощью Aspose.Page .NET.
-type: docs
 weight: 31
 url: /ru/net/drawing-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рисование фигур
+
 ## Введение
 
 Aspose.Page для .NET позволяет разработчикам повысить качество создания документов в среде .NET. Погрузитесь в наши пошаговые руководства, чтобы овладеть искусством добавления интересных фигур в документы PostScript (PS) и XPS.
@@ -33,3 +39,9 @@ Aspose.Page для .NET позволяет разработчикам повыс
 Улучшите создание документов в .NET с помощью Aspose.Page. Научитесь шаг за шагом добавлять прямоугольники в файлы PostScript (PS).
 ### [Добавьте прямоугольник в документ XPS с помощью Aspose.Page для .NET](./add-rectangle-to-xps-document/)
 Усовершенствуйте создание документов с помощью Aspose.Page для .NET. Узнайте, как добавлять прямоугольники в документы XPS, в этом пошаговом руководстве.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ग्रेडिएंट भरता है
 linktitle: ग्रेडिएंट भरता है
 second_title: Aspose.Page .NET API
 description: Aspose.Page ट्यूटोरियल्स के साथ .NET में ग्रेडिएंट फिल की कला की खोज करें। अपनी परियोजनाओं को सहजता से उन्नत करें—मनमोहक विकर्ण, क्षैतिज और ऊर्ध्वाधर ग्रेडिएंट जोड़ें।
-type: docs
 weight: 27
 url: /hi/net/gradient-fills/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ग्रेडिएंट भरता है
+
 
 ## परिचय
 
@@ -49,3 +55,9 @@ Aspose.Page के साथ .NET में पोस्टस्क्रिप
 Aspose.Page का उपयोग करके .NET में पोस्टस्क्रिप्ट (PS) दस्तावेज़ों में दृश्यमान रूप से आकर्षक लंबवत ग्रेडिएंट जोड़ने का तरीका जानें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपने दस्तावेज़ निर्माण को उन्नत बनाएं।
 ### [.NET के लिए Aspose.Page के साथ XPS में वर्टिकल ग्रेडिएंट जोड़ें](./add-vertical-gradient-to-xps/)
 जानें कि .NET के लिए Aspose.Page का उपयोग करके वर्टिकल ग्रेडिएंट्स के साथ XPS दस्तावेज़ों को कैसे बढ़ाया जाए। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
