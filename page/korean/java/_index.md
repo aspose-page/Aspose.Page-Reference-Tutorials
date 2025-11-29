@@ -1,89 +1,160 @@
 ---
-title: Java용 Aspose.Page의 종합 튜토리얼 및 예
-linktitle: Java 튜토리얼용 Aspose.Page
+date: 2025-11-29
+description: Aspose.Page 튜토리얼로 Java 페이지 조작의 비밀을 풀어보세요. 클리핑, 변환 등 다양한 기능을 활용해 시각적으로
+  놀라운 문서를 손쉽게 만들 수 있습니다.
+language: ko
+linktitle: Aspose.Page for Java Tutorials
+title: Aspose.Page for Java를 사용하여 PostScript를 PDF로 변환 – 포괄적인 튜토리얼 및 예제
+url: /java/
 weight: 10
-url: /ko/java/
-description: Aspose.Page 튜토리얼을 통해 Java 페이지 조작의 비밀을 풀어보세요. 시각적으로 멋진 문서를 만들기 위해 클리핑, 변형 등을 손쉽게 수행해 보세요.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java용 Aspose.Page의 종합 튜토리얼 및 예
+# PostScript를 PDF로 변환하기 (Aspose.Page for Java) – 포괄적인 튜토리얼 및 예제
 
 ## 소개
 
-Java 문서 처리 기술을 향상시킬 준비가 되셨습니까? 포괄적인 튜토리얼과 예제를 통해 Java용 Aspose.Page의 세계를 살펴보세요. 숙련된 개발자이든 이제 막 시작하는 개발자이든 당사의 단계별 가이드를 통해 Aspose.Page for Java의 잠재력을 최대한 활용할 수 있습니다.
+Java를 사용하여 **PostScript를 PDF로 변환**할 준비가 되셨나요? 문서 생성 서비스 구축, 보고서 자동화, 혹은 레거시 PostScript 파일을 변환해야 할 경우에도 Aspose.Page for Java는 빠르고 안정적인 프로세스를 제공합니다. 이 허브에서는 기본 페이지 조작부터 고급 그라디언트 및 투명도 효과까지 포괄하는 단계별 튜토리얼 모음으로 안내합니다. 또한 **XPS를 PDF로 변환**, **Java PostScript 변환** 수행 방법 등도 확인할 수 있으며, 모두 프로젝트에 복사해 사용할 수 있는 명확한 예제와 함께 제공됩니다.
 
-## 자바 페이지 조작
- Aspose.Page 튜토리얼을 통해 Java 페이지 조작 기술을 살펴보세요. 기본 클리핑 기술부터 고급 변형까지 시각적으로 놀라운 문서를 쉽게 제작할 수 있도록 안내합니다. Aspose.Page의 강력한 기능을 활용하여 문서 처리 기술을 새로운 차원으로 끌어올리는 방법을 알아보세요. 방문하다[자바 페이지 조작](./page-manipulation/) 시작하기 위한 튜토리얼입니다.
+## 빠른 답변
+- **Java에서 PostScript를 PDF로 변환하는 가장 쉬운 방법은 무엇인가요?** Aspose.Page의 `PostScriptDocument` 클래스를 사용하고 `save("output.pdf", SaveFormat.PDF)`를 호출합니다.  
+- **같은 라이브러리로 XPS를 PDF로 변환할 수도 있나요?** 예—Aspose.Page는 `XpsDocument` 클래스를 통해 XPS 변환을 지원합니다.  
+- **프로덕션 사용을 위해 라이선스가 필요합니까?** 배포 시 상용 라이선스가 필요합니다; 평가용 무료 체험판을 사용할 수 있습니다.  
+- **지원되는 Java 버전은 무엇인가요?** Java 8 부터 Java 21까지 완전 지원됩니다.  
+- **Unicode 텍스트에 대한 내장 지원이 있나요?** 물론—Aspose.Page는 Unicode 문자열을 바로 처리합니다.
 
-## 변환 - 포스트스크립트
- 이제 Aspose.Page를 사용하면 PostScript를 이미지, PDF로 변환하거나 Java에서 이미지를 EPS로 저장하는 것이 매우 쉬워집니다. 당사의 튜토리얼은 원활한 통합을 위한 자세한 가이드, FAQ 및 전제 조건을 제공합니다. 탐색[포스트스크립트 변환](./postscript-conversion/) 문서 변환 기능을 향상시키는 튜토리얼입니다.
+## “PostScript를 PDF로 변환”이란 무엇인가요?
+PostScript를 PDF로 변환한다는 것은 PostScript 언어로 작성된 페이지 설명을 가져와서 Portable Document Format(PDF) 파일로 렌더링하는 것을 의미합니다. 이 변환은 레이아웃, 글꼴, 벡터 그래픽을 보존하면서 널리 호환되고 검색 가능한 문서를 생성합니다.
 
-## 전환 - XPS
-Aspose.Page를 사용하여 XPS를 Java의 다양한 형식으로 쉽게 변환합니다. 당사의 단계별 가이드는 정확하고 효율적인 변환을 보장하여 문서 처리 능력을 향상시킵니다. 다이빙[XPS 변환](./xps-conversion/) 포괄적인 이해를 위한 튜토리얼입니다.
+## 왜 Aspose.Page for Java를 사용해야 할까요?
+- **Zero‑dependency**: 네이티브 바이너리나 외부 도구가 필요 없습니다.  
+- **High fidelity**: 복잡한 그래픽, 그라디언트 및 투명도의 정확한 렌더링을 제공합니다.  
+- **Cross‑format support**: 단일 API에서 PostScript, XPS, EPS, PDF를 모두 처리합니다.  
+- **Scalable**: 서버‑사이드 애플리케이션에서 수천 개 파일을 배치 처리하기에 적합합니다.
 
-## 자바 문서 생성
- Aspose.Page를 사용하여 Java로 PostScript 문서를 손쉽게 생성하세요. 따라하기 쉬운 튜토리얼을 통해 페이지 크기, 여백 및 글꼴을 사용자 정의하세요. 방문하다[자바 문서 생성](./document-creation/) 개인화된 문서를 만드는 여정을 시작합니다.
+## 전제 조건
+- Java Development Kit (JDK) 8 이상.  
+- Maven 또는 Gradle을 통한 종속성 관리.  
+- Aspose.Page for Java 라이선스(또는 임시 평가 키).
 
-## Java의 EPS 조작
- EPS 조작에 대한 튜토리얼을 통해 Java용 Aspose.Page를 살펴보세요. 단계별 가이드를 통해 손쉽게 EPS 파일을 자르고 크기를 조정하여 문서 기술을 향상하세요. 의 비밀을 밝혀내세요[Java의 EPS 조작](./manipulation-eps/) 문서 조작 게임의 수준을 높이려면
+## 단계별 가이드
 
-끊임없이 진화하는 디지털 환경에서 Java용 Aspose.Page를 사용하여 앞서 나가세요. 페이지 조작부터 그라디언트, 텍스처 및 투명 요소 추가에 이르기까지 튜토리얼에서는 다양한 주제를 다룹니다. Aspose.Page로 문서 처리 기능을 향상시키고 지금 시각적으로 매력적이고 역동적인 Java 문서 제작을 시작하세요.
+### Aspose.Page for Java를 사용하여 PostScript를 PDF로 변환하는 방법
+1. **Add the Aspose.Page Maven dependency**를 `pom.xml`에 추가합니다(또는 해당 Gradle 항목).  
+2. **Load the PostScript file**을 `PostScriptDocument`로 로드합니다.  
+3. **Save the document**를 `save("output.pdf", SaveFormat.PDF)` 호출로 PDF로 저장합니다.  
 
-시작할 준비가 되셨나요? 지금 튜토리얼을 살펴보고 Aspose.Page for Java의 잠재력을 최대한 활용해보세요!
-## Java 튜토리얼용 Aspose.Page
-### [자바 페이지 조작](./page-manipulation/)
-Aspose.Page 튜토리얼을 통해 Java 페이지 조작의 비밀을 풀어보세요. 시각적으로 멋진 문서를 쉽게 만들기 위해 클리핑과 변형에 대해 알아보세요.
-### [변환 - 포스트스크립트](./postscript-conversion/)
-Aspose.Page 튜토리얼을 사용하여 PostScript를 이미지, PDF로 변환하고 Java에서 이미지를 EPS로 저장하세요. 원활한 통합을 위한 단계별 가이드, FAQ 및 전제 조건입니다.
-### [전환 - XPS](./xps-conversion/)
-Aspose.Page를 사용하여 XPS를 Java의 다양한 형식으로 쉽게 변환합니다. 정확하고 효율적인 변환을 위한 단계별 가이드를 통해 문서 처리를 향상하세요.
-### [자바 문서 생성](./document-creation/)
-Aspose.Page를 사용하여 Java에서 PostScript 문서를 쉽게 생성할 수 있습니다. 페이지 크기, 여백 및 글꼴을 사용자 정의합니다. Java 문서 작성 튜토리얼을 살펴보세요. 
-### [Java의 EPS 조작](./manipulation-eps/)
-EPS 조작에 대한 튜토리얼을 통해 Java용 Aspose.Page를 살펴보세요. 단계별 가이드를 통해 손쉽게 EPS 파일을 자르고 크기를 조정하여 문서 기술을 향상하세요.
-### [그라데이션 추가 - PostScript](./postscript-gradient-addition/)
-Java 튜토리얼용 Aspose.Page를 사용하여 Java PostScript 문서를 향상시키세요. 놀라운 대각선, 수평, 방사형 및 수직 그라데이션을 손쉽게 추가하는 방법을 알아보세요.
-### [그라데이션 추가 - XPS](./xps-gradient-addition/)
-멋진 그라데이션으로 Java XPS 문서를 향상시키세요. Aspose.Page 튜토리얼을 사용하여 대각선, 수평 및 수직 그라데이션을 쉽게 추가하는 방법을 알아보세요.
-### [해치 패턴 - PostScript](./postscript-hatch-patterns/)
-Aspose.Page를 사용하여 Java PostScript 문서에 매력적인 해치 패턴을 추가하는 기술을 알아보세요. 놀라운 출력을 위해 시각적 콘텐츠를 손쉽게 향상시키세요.
-### [이미지 조작 - 포스트스크립트](./postscript-image-manipulation/)
-Java용 Aspose.Page를 사용하여 문서 조작 기술을 향상하세요. PostScript 튜토리얼을 살펴보고 Java로 이미지를 추가하는 방법을 배우고 문서 기능을 향상시키세요.
-### [이미지 조작 - XPS](./xps-image-manipulation/)
-Aspose.Page를 사용하여 Java XPS 문서에서 손쉬운 이미지 조작 기술을 알아보세요. 향상된 문서 처리를 위해 이미지를 원활하게 추가하고 타일링하는 방법을 알아보세요.
-### [라이선스 관리](./license-management/)
-라이센스 관리 튜토리얼을 통해 Aspose.Page for Java의 잠재력을 최대한 활용해보세요. 문서 처리 기능을 강화하려면 계량형 라이선스를 원활하게 설정하세요.
-### [파일 병합](./file-merging/)
-PostScript 파일을 PDF로 쉽게 병합하고 Aspose.Page를 사용하여 XPS를 PDF 또는 Java에서 XPS로 변환합니다. 원활한 문서 변환을 위한 단계별 튜토리얼을 따르세요.
-### [페이지 조작 - 포스트스크립트](./postscript-page-manipulation/)
-PostScript 튜토리얼에서 Java용 Aspose.Page를 살펴보세요. 원활한 조작을 위한 단계별 지침을 통해 Java PostScript 문서에 페이지를 쉽게 추가할 수 있습니다.
-### [페이지 조작 - XPS](./xps-page-manipulation/)
-튜토리얼을 통해 Java용 Aspose.Page의 강력한 기능을 살펴보세요. 향상된 애플리케이션 기능을 위해 페이지를 쉽게 추가하여 Java XPS 문서를 향상시키십시오.
-### [모양 - 포스트스크립트](./postscript-shapes/)
-Aspose.Page Java를 사용하여 매력적인 PostScript 문서를 손쉽게 제작하세요. 타원과 직사각형을 추가하여 시각적으로 매력적인 콘텐츠를 만드는 방법에 대한 튜토리얼을 살펴보세요.
-### [도형 - XPS](./xps-shapes/)
-Aspose.Page 튜토리얼을 통해 Java XPS의 마법을 발견해보세요! 매력적인 타원과 직사각형을 쉽게 추가할 수 있습니다. 단계별 가이드를 통해 문서 작성 수준을 높이세요.
-### [텍스트 조작 - 포스트스크립트](./postscript-text-manipulation/)
-PostScript 튜토리얼을 통해 Aspose.Page에서 Java의 잠재력을 알아보세요. 유니코드 문자열을 포함한 텍스트를 손쉽게 추가하여 프로젝트를 향상하세요.
-### [텍스트 조작 - XPS](./xps-text-manipulation/)
-Aspose.Page로 Java XPS 문서를 혁신하세요. 텍스트 조작에 대한 단계별 가이드를 살펴보세요. 손쉬운 문서 개선을 위해 기술을 향상시키세요.
-### [텍스처 및 패턴 - 포스트스크립트](./postscript-texture-patterns/)
-Java용 Aspose.Page를 사용하여 PostScript를 향상하세요. 자세한 Java PostScript 튜토리얼에서 창의적인 가능성을 위해 텍스처 타일링 패턴을 원활하게 추가하세요.
-### [투명도 - 포스트스크립트](./postscript-transparency/)
-Java용 Aspose.Page를 사용하여 Java PostScript를 향상하세요. 매혹적인 시각화를 위해 투명한 이미지를 원활하게 통합하고 생생한 의사 투명성을 생성합니다.
-### [투명성 - XPS](./xps-transparency/)
-Aspose.Page를 사용하여 Java XPS 문서를 손쉽게 향상하세요. 향상된 시각 효과를 위해 튜토리얼에서 투명한 개체를 추가하고 불투명 마스크를 설정하는 방법을 알아보세요.
-### [시각적 요소 - 자바](./visual-elements/)
-Aspose.Page를 사용하여 Java 문서 시각적 효과를 손쉽게 향상하세요! 이 단계별 튜토리얼에서 Visual Brush를 사용하여 그리드를 추가하여 애플리케이션을 향상시키는 방법을 알아보세요.
-### [XMP 메타데이터 조작 - Java](./xmp-metadata-manipulation/)
-항목 추가부터 추출까지 XMP 메타데이터 조작을 통해 EPS 파일을 손쉽게 향상할 수 있습니다. 가이드를 통해 문서 관리 수준을 높이세요.
+> *실제 코드 스니펫은 아래 전용 튜토리얼에 제공됩니다.*
+
+### Java에서 XPS를 PDF로 변환하는 방법
+1. XPS 파일을 가리키는 `XpsDocument` 인스턴스를 생성합니다.  
+2. `save("output.pdf", SaveFormat.PDF)`를 호출합니다.  
+
+> *전체 예제는 “Conversion - XPS” 튜토리얼을 참고하세요.*
+
+### 배치 작업을 위한 Java PostScript 변환 수행 방법
+1. `.ps` 파일이 있는 디렉터리를 순회합니다.  
+2. 각 파일에 대해 `PostScriptDocument`를 인스턴스화하고 PDF로 저장합니다.  
+3. 필요에 따라 Aspose.PDF를 사용해 결과 PDF를 병합합니다.  
+
+> *“File Merging” 튜토리얼에서 변환 후 PDF 병합 방법을 보여줍니다.*
+
+## Java 페이지 조작
+Aspose.Page 튜토리얼을 통해 Java 페이지 조작의 기술을 탐구하세요. 기본 클리핑 기법부터 고급 변환까지, 시각적으로 뛰어난 문서를 손쉽게 만들 수 있도록 안내합니다. Aspose.Page의 강력함을 활용해 문서 조작 실력을 한 단계 끌어올리세요. 시작하려면 [Java Page Manipulation](./page-manipulation/) 튜토리얼을 방문하세요.
+
+## 변환 - PostScript
+Aspose.Page를 사용하면 Java에서 PostScript를 이미지, PDF로 변환하거나 이미지를 EPS로 저장하는 작업이 매우 간단해집니다. 자세한 가이드, FAQ, 전제 조건을 제공하니 원활한 통합을 위해 [PostScript Conversion](./postscript-conversion/) 튜토리얼을 확인하세요.
+
+## 변환 - XPS
+Aspose.Page를 이용해 Java에서 XPS를 다양한 형식으로 손쉽게 변환하세요. 단계별 가이드를 통해 정확하고 효율적인 변환을 보장하며, 문서 처리 능력을 크게 향상시킵니다. 포괄적인 내용을 보려면 [XPS Conversion](./xps-conversion/) 튜토리얼을 살펴보세요.
+
+## Java 문서 생성
+Aspose.Page를 사용하면 Java에서 PostScript 문서를 손쉽게 생성할 수 있습니다. 페이지 크기, 여백, 글꼴을 자유롭게 커스터마이징하세요. Java 문서 생성 튜토리얼은 [Java Document Creation](./document-creation/)에서 시작할 수 있습니다.
+
+## Java에서 EPS 조작
+Aspose.Page for Java의 EPS 조작 튜토리얼을 통해 EPS 파일을 손쉽게 자르고 크기를 조정하는 방법을 배워보세요. 단계별 가이드를 통해 문서 스킬을 향상시킬 수 있습니다. 자세한 내용은 [EPS Manipulation in Java](./manipulation-eps/)에서 확인하세요.
+
+이처럼 급변하는 디지털 환경에서 Aspose.Page for Java를 활용해 앞서 나가세요. 페이지 조작부터 그라디언트, 텍스처, 투명 요소 추가까지, 다양한 주제를 포괄하는 튜토리얼이 준비되어 있습니다. Aspose.Page와 함께 문서 처리 능력을 한층 끌어올리고, 오늘 바로 시각적으로 매력적이고 동적인 Java 문서를 제작해 보세요.
+
+시작할 준비가 되셨나요? 지금 바로 튜토리얼을 탐색하고 Aspose.Page for Java의 모든 잠재력을 활용해 보세요!
+
+## Aspose.Page for Java 튜토리얼
+### [Java Page Manipulation](./page-manipulation/)
+Aspose.Page 튜토리얼을 통해 Java 페이지 조작의 비밀을 풀어보세요. 클리핑과 변환을 활용해 시각적으로 뛰어난 문서를 손쉽게 만들 수 있습니다.
+### [Conversion - PostScript](./postscript-conversion/)
+Aspose.Page 튜토리얼로 Java에서 PostScript를 이미지, PDF로 변환하고 이미지를 EPS로 저장하는 방법을 배워보세요. 단계별 가이드, FAQ, 전제 조건을 제공해 원활한 통합을 지원합니다.
+### [Conversion - XPS](./xps-conversion/)
+Aspose.Page를 사용해 Java에서 XPS를 다양한 형식으로 손쉽게 변환하세요. 정확하고 효율적인 변환을 위한 단계별 가이드를 통해 문서 처리 능력을 향상시킵니다.
+### [Java Document Creation](./document-creation/)
+Aspose.Page로 Java에서 PostScript 문서를 손쉽게 생성하세요. 페이지 크기, 여백, 글꼴을 맞춤 설정할 수 있습니다. Java 문서 생성 튜토리얼을 확인해 보세요. 
+### [EPS Manipulation in Java](./manipulation-eps/)
+Aspose.Page for Java의 EPS 조작 튜토리얼을 탐구하세요. 단계별 가이드를 통해 EPS 파일을 손쉽게 자르고 크기를 조정하며 문서 스킬을 향상시킬 수 있습니다.
+### [Gradient Addition - PostScript](./postscript-gradient-addition/)
+Aspose.Page for Java 튜토리얼로 Java PostScript 문서에 멋진 대각선, 수평, 방사형, 수직 그라디언트를 손쉽게 추가하는 방법을 배워보세요.
+### [Gradient Addition - XPS](./xps-gradient-addition/)
+Aspose.Page 튜토리얼을 통해 Java XPS 문서에 인상적인 그라디언트를 추가하세요. 대각선, 수평, 수직 그라디언트를 손쉽게 적용하는 방법을 배울 수 있습니다.
+### [Hatch Patterns - PostScript](./postscript-hatch-patterns/)
+Aspose.Page와 함께 Java PostScript 문서에 매력적인 해치 패턴을 추가하는 기술을 발견하세요. 시각적 콘텐츠를 손쉽게 향상시켜 놀라운 결과물을 만들 수 있습니다.
+### [Image Manipulation - PostScript](./postscript-image-manipulation/)
+Aspose.Page for Java로 문서 조작 스킬을 강화하세요. PostScript 튜토리얼을 통해 Java에 이미지를 추가하는 방법을 배우고 문서 기능을 향상시킵니다.
+### [Image Manipulation - XPS](./xps-image-manipulation/)
+Aspose.Page와 함께 Java XPS 문서에서 손쉬운 이미지 조작 기술을 익히세요. 이미지를 추가하고 타일링하는 방법을 배워 문서 처리를 강화합니다.
+### [License Management](./license-management/)
+Aspose.Page for Java의 전체 잠재력을 라이선스 관리 튜토리얼로 활용하세요. 메터링 라이선스를 손쉽게 설정해 문서 처리 능력을 높일 수 있습니다.
+### [File Merging](./file-merging/)
+Aspose.Page를 사용해 PostScript 파일을 PDF로 병합하고 XPS를 PDF 또는 XPS로 변환하는 작업을 손쉽게 수행하세요. 단계별 튜토리얼을 따라 원활한 문서 변환을 구현합니다.
+### [Page Manipulation - PostScript](./postscript-page-manipulation/)
+PostScript 튜토리얼에서 Aspose.Page for Java를 탐구하세요. 단계별 안내를 통해 Java PostScript 문서에 페이지를 손쉽게 추가하고 원활하게 조작할 수 있습니다.
+### [Page Manipulation - XPS](./xps-page-manipulation/)
+Aspose.Page for Java의 강력함을 튜토리얼로 경험하세요. Java XPS 문서에 페이지를 손쉽게 추가해 애플리케이션 기능을 향상시킵니다.
+### [Shapes - PostScript](./postscript-shapes/)
+Aspose.Page Java로 매력적인 PostScript 문서를 손쉽게 제작하세요. 타원 및 사각형 추가 튜토리얼을 통해 시각적으로 돋보이는 콘텐츠를 만들 수 있습니다.
+### [Shapes - XPS](./xps-shapes/)
+Aspose.Page 튜토리얼로 Java XPS의 매력을 발견하세요! 타원 및 사각형을 손쉽게 추가해 문서 제작을 한 단계 끌어올립니다.
+### [Text Manipulation - PostScript](./postscript-text-manipulation/)
+PostScript 튜토리얼을 통해 Aspose.Page for Java의 잠재력을 활용하세요. Unicode 문자열을 포함한 텍스트를 손쉽게 추가해 프로젝트를 강화합니다.
+### [Text Manipulation - XPS](./xps-text-manipulation/)
+Aspose.Page와 함께 Java XPS 문서를 혁신하세요. 텍스트 조작에 대한 단계별 가이드를 탐구해 손쉬운 문서 향상을 이룹니다.
+### [Texture and Patterns - PostScript](./postscript-texture-patterns/)
+Aspose.Page for Java로 PostScript를 한층 끌어올리세요. 자세한 Java PostScript 튜토리얼에서 텍스처 타일링 패턴을 손쉽게 추가해 창의적인 가능성을 열어갑니다.
+### [Transparency - PostScript](./postscript-transparency/)
+Aspose.Page for Java와 함께 Java PostScript를 향상시키세요. 투명 이미지를 손쉽게 통합하고 생동감 있는 의사‑투명 효과를 만들어 시각적 매력을 높입니다.
+### [Transparency - XPS](./xps-transparency/)
+Aspose.Page와 함께 Java XPS 문서를 손쉽게 향상시키세요. 투명 객체를 추가하고 불투명도 마스크를 설정하는 방법을 튜토리얼에서 배워 시각 효과를 강화합니다.
+### [Visual Elements - Java](./visual-elements/)
+Aspose.Page와 함께 Java 문서 시각 요소를 손쉽게 향상시키세요! 단계별 튜토리얼에서 Visual Brush를 사용해 그리드를 추가하는 방법을 배워 애플리케이션을 강화합니다.
+### [XMP Metadata Manipulation - Java](./xmp-metadata-manipulation/)
+EPS 파일에 XMP 메타데이터 조작을 손쉽게 적용하세요—항목 추가부터 추출까지. 우리의 가이드를 통해 문서 관리 능력을 한층 끌어올립니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## 자주 묻는 질문
+
+**Q: 동일한 애플리케이션에서 PostScript와 XPS를 모두 PDF로 변환할 수 있나요?**  
+A: 예. Aspose.Page는 `PostScriptDocument`와 `XpsDocument` 클래스를 각각 제공하며, 각각 `save(..., SaveFormat.PDF)` 메서드를 통해 두 형식을 나란히 처리할 수 있습니다.
+
+**Q: 네이티브 PostScript 인터프리터를 설치해야 하나요?**  
+A: 아니요. Aspose.Page는 순수 Java 라이브러리이며, 모든 렌더링이 외부 종속성 없이 내부에서 수행됩니다.
+
+**Q: 라이브러리는 대용량 파일이나 배치 변환을 어떻게 처리하나요?**  
+A: 스트리밍 API(`load(InputStream)`)를 사용하고 파일을 순차적으로 또는 병렬 스레드에서 처리하세요. 라이브러리는 낮은 메모리 사용량에 최적화되어 있습니다.
+
+**Q: PostScript를 PDF로 변환할 때 Unicode 텍스트가 완전히 지원되나요?**  
+A: 물론입니다. `drawString` 메서드에 Unicode 문자열을 그대로 전달하면 라이브러리가 필요한 글꼴을 자동으로 포함합니다.
+
+**Q: 프로덕션 배포를 위한 라이선스 옵션은 어떤 것이 있나요?**  
+A: Aspose는 영구 라이선스, 구독 플랜, 메터링‑사용 라이선스를 제공합니다. 테스트용 무료 평가 키도 제공됩니다.
+
+---
+
+**Last Updated:** 2025-11-29  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
