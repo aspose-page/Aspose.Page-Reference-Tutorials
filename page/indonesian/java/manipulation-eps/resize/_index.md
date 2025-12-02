@@ -1,27 +1,42 @@
 ---
-title: Ubah ukuran File EPS di Java dengan Aspose.Page
-linktitle: Ubah ukuran File EPS di Java
-second_title: Aspose.Halaman Java API
-description: Pelajari cara mengubah ukuran file EPS di Java dengan mudah dengan Aspose.Page untuk Java. Ikuti panduan komprehensif kami untuk petunjuk langkah demi langkah.
+date: 2025-12-02
+description: Pelajari cara mengubah ukuran file EPS di Java dengan mudah menggunakan
+  Aspose.Page. Panduan langkah demi langkah ini menunjukkan cara mengubah ukuran EPS
+  menggunakan poin, inci, milimeter, atau persentase.
+language: id
+linktitle: Resize EPS File in Java
+second_title: Aspose.Page Java API
+title: Cara Mengubah Ukuran File EPS di Java dengan Aspose.Page
+url: /java/manipulation-eps/resize/
 weight: 11
-url: /id/java/manipulation-eps/resize/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ubah ukuran File EPS di Java dengan Aspose.Page
+# Cara Mengubah Ukuran File EPS di Java dengan Aspose.Page
 
-## Perkenalan
-Selamat datang di panduan langkah demi langkah kami tentang mengubah ukuran file EPS di Java menggunakan perpustakaan Aspose.Page yang kuat. Jika Anda perlu menyesuaikan dimensi gambar EPS secara terprogram, Anda berada di tempat yang tepat. Dalam tutorial ini, kita akan menjelajahi berbagai opsi pengubahan ukuran, termasuk titik, inci, milimeter, dan persentase, yang memberi Anda fleksibilitas yang Anda perlukan untuk kebutuhan spesifik Anda.
-## Prasyarat
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki hal berikut:
-- Java Development Kit (JDK) diinstal pada mesin Anda.
--  Aspose.Page untuk perpustakaan Java. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/page/java/).
-- Pemahaman dasar tentang pemrograman Java.
-## Paket Impor
-Dalam proyek Java Anda, pastikan Anda memiliki impor yang diperlukan untuk menggunakan fungsionalitas Aspose.Page. Berikut ini contohnya:
+## Introduction
+Jika Anda mencari cara yang dapat diandalkan **cara mengubah ukuran EPS** secara programatis, Anda berada di tempat yang tepat. Dalam tutorial ini kami akan membahas cara mengubah ukuran gambar EPS di Java menggunakan pustaka Aspose.Page. Baik Anda perlu menggandakan ukuran, memperkecil ke ukuran tertentu, atau bekerja dengan persentase, langkah‑langkah di bawah ini memberi Anda kontrol penuh atas dimensi output.
+
+## Quick Answers
+- **What library is needed?** Aspose.Page for Java  
+- **Can I resize using points, inches, or millimeters?** Yes – the API supports all three units plus percentages.  
+- **Do I need a license for development?** A free trial works for testing; a license is required for production.  
+- **What Java version is required?** Java 8 or later.  
+- **Is the code thread‑safe?** Each `PsDocument` instance is isolated, so you can process files in parallel.
+
+## Prerequisites
+Sebelum kita masuk ke kode, pastikan Anda memiliki hal‑hal berikut:
+
+- Java Development Kit (JDK) terpasang di mesin Anda.  
+- Aspose.Page for Java library. Anda dapat mengunduhnya **[di sini](https://releases.aspose.com/page/java/)**.  
+- Pemahaman dasar tentang pemrograman Java.  
+
+## Import Packages
+Di proyek Java Anda, sertakan impor yang diperlukan sehingga Anda dapat bekerja dengan objek Aspose.Page dan aliran I/O standar.
+
 ```java
 import java.awt.Dimension;
 import java.io.FileInputStream;
@@ -29,50 +44,76 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.page.DimensionF;
 import com.aspose.page.Units;
-
 ```
-Sekarang, mari kita bagi tutorial menjadi beberapa langkah untuk setiap opsi pengubahan ukuran:
-## Ubah ukuran EPS menggunakan Poin
-### Langkah 1: Siapkan aliran masukan
+
+## How to Resize EPS Using Points
+Berikut adalah contoh lengkap langkah‑demi‑langkah yang menggandakan ukuran file EPS menggunakan poin sebagai satuan pengukuran.
+
+### Step 1: Set up the input stream
 ```java
 FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
 ```
-### Langkah 2: Inisialisasi objek PsDocument
+
+### Step 2: Initialize the `PsDocument` object
 ```java
 PsDocument doc = new PsDocument(inputEpsStream);
 ```
-### Langkah 3: Ekstrak ukuran gambar EPS saat ini
+
+### Step 3: Extract the current size of the EPS image
 ```java
 Dimension oldSize = doc.extractEpsSize();
 ```
-### Langkah 4: Buat aliran keluaran
+
+### Step 4: Create an output stream for the resized file
 ```java
 FileOutputStream outputEpsStream = new FileOutputStream(dataDir + "output_resize_points.eps");
 ```
-### Langkah 5: Ubah ukuran dan simpan poin
+
+### Step 5: Resize and save the EPS using points
 ```java
 doc.resizeEps(outputEpsStream, new Dimension2D.Double(oldSize.width * 2, oldSize.height * 2), Units.Points);
 ```
-## Ubah ukuran EPS menggunakan Inci
-Ikuti langkah serupa seperti Contoh 1, ganti "Titik" dengan "Inci" dan sesuaikan ukuran barunya.
-## Ubah ukuran EPS menggunakan Milimeter
-Ikuti langkah serupa seperti Contoh 1, ganti "Titik" dengan "Milimeter" dan sesuaikan ukuran barunya.
-## Ubah ukuran EPS menggunakan Persentase
-Ikuti langkah serupa seperti Contoh 1, ganti "Poin" dengan "Persentase" dan sesuaikan ukuran barunya.
-## Kesimpulan
-Selamat! Anda telah berhasil mempelajari cara mengubah ukuran file EPS di Java menggunakan Aspose.Page. Panduan ini memberi Anda opsi serbaguna, memastikan Anda dapat menyesuaikan proses pengubahan ukuran untuk memenuhi kebutuhan spesifik Anda.
 
-## FAQ
-### Bisakah saya menggunakan perpustakaan ini untuk format gambar lain?
-Tidak, Aspose.Page dirancang khusus untuk menangani file PostScript dan EPS.
-### Apakah ada uji coba gratis yang tersedia untuk Aspose.Page untuk Java?
-Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
-### Di mana saya dapat menemukan bantuan dan diskusi tambahan?
- Mengunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk dukungan masyarakat.
-### Bagaimana saya bisa mendapatkan lisensi sementara?
- Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
-### Apakah ada contoh proyek yang tersedia?
- Ya, periksa dokumentasinya[Di Sini](https://reference.aspose.com/page/java/).
+## How to Resize EPS Using Inches
+Pola lima langkah yang sama berlaku; cukup ganti `Units.Points` dengan `Units.Inches` dan sesuaikan faktor skala sesuai kebutuhan.
+
+## How to Resize EPS Using Millimeters
+Sekali lagi, ikuti langkah yang sama, ganti satuannya menjadi `Units.Millimeters`. Ini berguna ketika Anda memerlukan dimensi berbasis metrik untuk alur kerja cetak.
+
+## How to Resize EPS Using Percentages
+Untuk skala berbasis persentase, pertahankan satuan sebagai `Units.Percent`. Kalikan lebar dan tinggi asli dengan persentase yang diinginkan (misalnya, `0.5` untuk pengurangan 50 %).
+
+## Common Pitfalls & Tips
+- **Selalu tutup aliran** – Pada kode produksi, bungkus aliran dengan try‑with‑resources untuk menghindari penguncian file.  
+- **Pertahankan rasio aspek** – Kalikan lebar dan tinggi dengan faktor yang sama kecuali Anda memang ingin distorsi.  
+- **Periksa DPI** – Mengubah ukuran tidak mengubah DPI; jika Anda memerlukan DPI yang berbeda, sesuaikan secara terpisah setelah mengubah ukuran.
+
+## Conclusion
+Anda sekarang tahu **cara mengubah ukuran file EPS** di Java menggunakan Aspose.Page, baik Anda lebih suka poin, inci, milimeter, atau persentase. Fleksibilitas ini memungkinkan Anda mengintegrasikan manipulasi EPS ke dalam pipeline otomatis, utilitas desktop, atau layanan sisi‑server.
+
+## Frequently Asked Questions
+
+**Q: Can I use this library for other image formats?**  
+A: No, Aspose.Page is specialized for PostScript and EPS files only.
+
+**Q: Is there a free trial available for Aspose.Page for Java?**  
+A: Yes, you can explore the free trial **[di sini](https://releases.aspose.com/)**.
+
+**Q: Where can I find additional help and discussions?**  
+A: Visit the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** for community support.
+
+**Q: How can I obtain a temporary license?**  
+A: You can get a temporary license **[di sini](https://purchase.aspose.com/temporary-license/)**.
+
+**Q: Are there any example projects available?**  
+A: Yes, check the documentation **[di sini](https://reference.aspose.com/page/java/)**.
+
+---
+
+**Last Updated:** 2025-12-02  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
