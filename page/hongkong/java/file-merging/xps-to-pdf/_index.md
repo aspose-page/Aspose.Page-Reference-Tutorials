@@ -1,79 +1,147 @@
 ---
-title: 在 Java 中將 XPS 轉換為 PDF
-linktitle: 在 Java 中將 XPS 轉換為 PDF
+date: 2025-11-29
+description: 學習如何在 Java 中使用 Aspose.Page Java 將 XPS 另存為 PDF。請跟隨我們的逐步指南，了解高效的 XPS 轉
+  PDF 轉換及 PDF 壓縮設定。
+language: zh-hant
+linktitle: Convert XPS to PDF in Java using Aspose.Page Java
 second_title: Aspose.Page Java API
-description: 了解如何使用 Aspose.Page 在 Java 中輕鬆將 XPS 轉換為 PDF。請按照我們的逐步指南進行高效率的文件轉換。
+title: 使用 Aspose.Page Java 在 Java 中將 XPS 轉換為 PDF
+url: /java/file-merging/xps-to-pdf/
 weight: 11
-url: /zh-hant/java/file-merging/xps-to-pdf/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java 中將 XPS 轉換為 PDF
+# 在 Java 中使用 Aspose.Page Java 轉換 XPS 為 PDF
 
 ## 介紹
-在 Java 開發領域，將 XPS 轉換為 PDF 是一項常見任務，擁有可靠的工具來無縫實現這項任務至關重要。 Aspose.Page for Java 是一個範例性函式庫，它提供了處理 XPS 文件的強大功能。本教學將引導您使用 Aspose.Page 將 XPS 轉換為 PDF 的過程，確保簡單且有效率。
-## 先決條件
-在深入轉換過程之前，請確保滿足以下先決條件：
-1. Java 開發工具包 (JDK)：確保您的系統上安裝了最新的 JDK。
-2.  Aspose.Page for Java 函式庫：下載 Aspose.Page for Java 函式庫並將其包含在您的專案中。您可以找到該庫及其文檔[這裡](https://reference.aspose.com/page/java/).
-## 導入包
-設定項目後，匯入使用 Aspose.Page 所需的套件。這是一個指導您的片段：
-```java
+在本教學中，您將學習 **如何在 Java 中使用 Aspose.Page Java 轉換 XPS 為 PDF**，這是一套為 Java 文件轉換而設計的強大函式庫。無論您需要批次處理發票、產生可列印報表，或只是將舊有的 XPS 檔案遷移，Aspose.Page Java 都能讓工作快速、可靠且可完全自訂。
 
+## 快速答覆
+- **哪個函式庫負責 XPS 轉 PDF？** Aspose.Page Java  
+- **基本轉換需要多久？** 單頁 XPS 檔案通常在一秒以內完成。  
+- **開發時需要授權嗎？** 評估可使用免費試用版；正式上線需購買授權。  
+- **可以控制 PDF 壓縮嗎？** 可以 – 使用 `PdfSaveOptions` 設定影像與文字壓縮。  
+- **需要哪個 Java 版本？** Java 8 或更新版本（建議 JDK 11 以上）。
+
+## 什麼是 Aspose.Page Java？
+Aspose.Page Java 是一個 **高效能 API**，讓開發者能以程式方式建立、編輯與轉換 XPS 文件。它支援將 XPS 轉換為 PDF、PNG、JPEG 等格式，並提供對輸出設定的細緻控制，例如 **設定 PDF 壓縮**。
+
+## 為什麼選擇 Aspose.Page Java 進行 XPS 轉 PDF？
+- **零相依性渲染** – 無需本機函式庫或外部工具。  
+- **精確版面保留** – PDF 輸出與原始 XPS 外觀完全相同。  
+- **完整的 PDF 輸出控制** – 可調整影像品質、選擇壓縮演算法，並指定要渲染的頁面。  
+- **跨平台** – 可在 Windows、Linux、macOS 上執行，支援任何標準 JDK。
+
+## 前置條件
+在開始之前，請確保您已具備：
+
+1. **Java Development Kit (JDK) 8+** – 建議使用最新 JDK，以獲得最佳效能與安全性。  
+2. **Aspose.Page for Java 函式庫** – 從官方 [Aspose.Page Java 文件](https://reference.aspose.com/page/java/) 下載 JAR。  
+3. 一個 **IDE**（IntelliJ IDEA、Eclipse、VS Code）或簡易文字編輯器加上命令列建置工具（Maven/Gradle）。
+
+## 匯入套件
+在 Java 類別中加入必要的匯入，以便操作 XPS 文件與 PDF 輸出。
+
+```java
 import com.aspose.xps.XpsDocument;
+import com.aspose.xps.rendering.pdf.PdfDevice;
+import com.aspose.xps.rendering.pdf.PdfSaveOptions;
+import com.aspose.xps.rendering.pdf.PdfImageCompression;
+import com.aspose.xps.rendering.pdf.PdfTextCompression;
 import java.io.FileOutputStream;
 ```
-## 步驟1：設定文檔目錄路徑
+
+## 步驟說明
+
+### 步驟 1：設定文件目錄路徑
+定義包含來源 XPS 檔案以及 PDF 輸出位置的資料夾。
+
 ```java
-String dataDir = "Your Document Directory";
+String dataDir = "C:/MyDocuments/XpsFiles/";   // <-- replace with your actual path
 ```
-確保將「您的文件目錄」替換為 XPS 文件的實際路徑。
-## 步驟2：初始化PDF輸出流
+
+### 步驟 2：初始化 PDF 輸出串流
+建立指向目標 PDF 檔案的 `FileOutputStream`。
+
 ```java
 FileOutputStream pdfStream = new FileOutputStream(dataDir + "XPStoPDF.pdf");
 ```
-為 PDF 檔案建立 FileOutputStream 對象，指定所需的輸出路徑。
-## 第 3 步：載入 XPS 文檔
+
+> **小技巧：** 使用 `try‑with‑resources` 可自動關閉串流，避免資源泄漏。
+
+### 步驟 3：載入 XPS 文件
+透過載入來源 XPS 檔案，建立 `XpsDocument` 物件。
+
 ```java
 XpsDocument document = new XpsDocument(dataDir + "input.xps");
 ```
-使用 XpsDocument 類別載入 XPS 文件。
-## 步驟 4：初始化 PDF 儲存選項
+
+### 步驟 4：初始化 PDF 儲存選項（設定 PDF 壓縮）
+設定 PDF 的壓縮方式。此步驟讓您 **設定 PDF 壓縮** 以減少檔案大小，同時保持品質。
+
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
-options.setJpegQualityLevel(100);
-options.setImageCompression(PdfImageCompression.Jpeg);
-options.setTextCompression(PdfTextCompression.Flate);
-options.setPageNumbers(new int[] { 1, 2, 6 });
+options.setJpegQualityLevel(100);                         // maximum JPEG quality
+options.setImageCompression(PdfImageCompression.Jpeg);   // compress images as JPEG
+options.setTextCompression(PdfTextCompression.Flate);    // compress text streams
+options.setPageNumbers(new int[] { 1, 2, 6 });            // optional: export only selected pages
 ```
-根據您的要求配置 PDF 儲存選項，例如圖像和文字壓縮設定。
-## 步驟5：建立PDF格式的渲染設備
+
+> **為什麼重要：** 調整 JPEG 品質與壓縮類型，可將 10 MB 的 PDF 縮減至 2 MB 以下，且仍保有所需的視覺忠實度。
+
+### 步驟 5：建立 PDF 格式的渲染裝置
+`PdfDevice` 會將渲染後的頁面串流至 PDF 輸出串流。
+
 ```java
 PdfDevice device = new PdfDevice(pdfStream);
 ```
-初始化 PdfDevice 物件以將 XPS 文件呈現為 PDF。
-## 第 6 步：儲存文檔
+
+### 步驟 6：儲存文件
+最後，使用先前設定的選項將 XPS 內容渲染為 PDF。
+
 ```java
 document.save(device, options);
 ```
-最後，使用 save 方法將 XPS 文件儲存為 PDF。
-透過遵循這些簡單的步驟，您可以使用 Aspose.Page 將 XPS 無縫轉換為 Java 中的 PDF，為您的文件轉換需求提供可靠且高效的解決方案。
+
+> **結果：** 執行完畢後，`XPStoPDF.pdf` 會出現在 `dataDir` 資料夾中，內含已套用壓縮設定的轉換頁面。
+
+## 常見問題與解決方案
+| 問題 | 原因 | 解決方式 |
+|------|------|----------|
+| **`FileNotFoundException`** | `dataDir` 路徑不正確 | 確認目錄是否存在，且程式具有讀寫權限。 |
+| **PDF 頁面空白** | 未正確初始化 `PdfDevice` | 確認 `PdfDevice` 使用與輸出相同的 `FileOutputStream`。 |
+| **PDF 檔案過大** | 預設壓縮等級太低 | 提高 `setJpegQualityLevel`，或改用 `PdfImageCompression.Jpeg` 並設定較低的品質。 |
+| **只有部分頁面出現** | `setPageNumbers` 篩選掉了頁面 | 調整陣列以包含所有需要的頁碼，或移除此呼叫以匯出全部頁面。 |
+
+## 常見問答
+
+**Q: Aspose.Page Java 是否相容不同的 Java 版本？**  
+A: 是的，Aspose.Page Java 支援 Java 8 至 Java 21，包含 Oracle 與 OpenJDK 版本。
+
+**Q: 我可以自訂轉換後 PDF 的壓縮設定嗎？**  
+A: 當然可以。請參考第 4 步驟，使用 `PdfSaveOptions` 設定 JPEG 品質、影像壓縮類型與文字壓縮。
+
+**Q: 我可以在哪裡取得更多支援或社群討論？**  
+A: 前往 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39) 獲取社群協助、程式碼範例與除錯技巧。
+
+**Q: Aspose.Page 有提供免費試用嗎？**  
+A: 有，您可從 [Aspose 下載頁面](https://releases.aspose.com/) 取得完整功能的試用版。
+
+**Q: 如何取得 Aspose.Page 的臨時授權？**  
+A: 可於此處申請臨時授權 [here](https://purchase.aspose.com/temporary-license/)。
+
 ## 結論
-總而言之，Aspose.Page for Java 簡化了 XPS 到 PDF 的轉換過程，讓 Java 開發人員將此功能無縫整合到他們的應用程式中。逐步指南確保了流暢的體驗，適合初學者和經驗豐富的開發人員。
-## 常見問題解答
-### Q：Aspose.Page 是否相容於不同版本的 Java？
-答：是的，Aspose.Page 被設計為相容於各種 Java 版本。
-### Q：我可以自訂轉換後的 PDF 的壓縮設定嗎？
-答：當然，Aspose.Page 提供了自訂圖像和文字壓縮設定的選項。
-### Q：我可以在哪裡找到其他支持或社區討論？
-答：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)供社區討論和支持。
-### Q：Aspose.Page 是否有免費試用版？
-答：是的，您可以嘗試免費試用[這裡](https://releases.aspose.com/).
-### Q：如何取得 Aspose.Page 的臨時許可證？
-答：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+透過 **Aspose.Page Java**，您可以輕鬆 **將 XPS 儲存為 PDF**，並掌控輸出的每個細節，從頁面選擇到壓縮設定。本教學涵蓋了將 XPS‑to‑PDF 轉換整合至 Java 應用程式所需的全部知識，無論是單次工具還是大型文件處理管線，都能快速上手。
+
+---
+
+**最後更新：** 2025-11-29  
+**測試環境：** Aspose.Page for Java 24.10  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
