@@ -62,13 +62,6 @@ In conclusion, these Java document creation tutorials serve as your gateway to m
 ### [Java で PostScript を使用してドキュメントを作成](./postscript/)
 Effortlessly create PostScript documents in Java using Aspose.Page. Customize page size, margins, and fonts. Try the free trial now!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: 商用アプリケーションで Aspose.Page を使用して PostScript ファイルを生成できますか？**  
@@ -91,3 +84,10 @@ A: プリンターの PostScript レベルがドキュメントで使用して�
 **最終更新日:** 2025-12-02  
 **テスト環境:** Aspose.Page for Java 24.12  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

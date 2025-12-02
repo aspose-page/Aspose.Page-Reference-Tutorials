@@ -60,13 +60,6 @@ weight: 23
 ### [Create Document in Java with PostScript](./postscript/)
 أنشئ مستندات PostScript بسهولة في Java باستخدام Aspose.Page. خصص حجم الصفحة والهوامش والخطوط. جرّب التجربة المجانية الآن!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.Page لتوليد ملفات PostScript في تطبيق تجاري؟**  
@@ -89,3 +82,10 @@ weight: 23
 **آخر تحديث:** 2025-12-02  
 **تم الاختبار مع:** Aspose.Page for Java 24.12  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

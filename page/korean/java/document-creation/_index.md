@@ -62,13 +62,6 @@ Java에서 PostScript 파일을 만든다는 것은 PostScript 언어를 사용�
 ### [Java와 PostScript로 문서 만들기](./postscript/)
 Aspose.Page를 사용하여 Java에서 PostScript 문서를 손쉽게 만들 수 있습니다. 페이지 크기, 여백 및 폰트를 맞춤 설정하세요. 지금 무료 체험을 이용해 보세요!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 상업용 애플리케이션에서 Aspose.Page를 사용하여 PostScript 파일을 생성할 수 있나요?**  
@@ -91,3 +84,10 @@ A: 프린터의 PostScript 레벨이 문서에서 사용된 기능과 일치하�
 **마지막 업데이트:** 2025-12-02  
 **테스트 환경:** Aspose.Page for Java 24.12  
 **작성자:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

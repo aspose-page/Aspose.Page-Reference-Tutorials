@@ -62,13 +62,6 @@ weight: 23
 ### [在 Java 中使用 PostScript 建立文件](./postscript/)
 使用 Aspose.Page 在 Java 中輕鬆建立 PostScript 文件。客製化頁面尺寸、邊距與字型。立即試用免費版！
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在商業應用程式中使用 Aspose.Page 產生 PostScript 檔案嗎？**  
@@ -91,3 +84,10 @@ A: 確認印表機的 PostScript 版本與文件中使用的功能相符。Aspos
 **最後更新：** 2025-12-02  
 **測試環境：** Aspose.Page for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

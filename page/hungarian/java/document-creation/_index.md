@@ -61,13 +61,6 @@ Ne csak a szavainkra hagyatkozz; tapasztald meg személyesen az Aspose.Page for 
 ### [Dokumentum létrehozása Java‑ban PostScript‑tel](./postscript/)
 Könnyedén hozz létre PostScript dokumentumokat Java‑ban az Aspose.Page használatával. Testreszabhatod az oldalméretet, a margókat és a betűtípusokat. Próbáld ki most az ingyenes próbaidőszakot!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom az Aspose.Page‑t PostScript fájlok generálására kereskedelmi alkalmazásban?**  
@@ -90,3 +83,10 @@ A: Ellenőrizd, hogy a nyomtató PostScript szintje megegyezik-e a dokumentumban
 **Legutóbb frissítve:** 2025-12-02  
 **Tesztelve a következővel:** Aspose.Page for Java 24.12  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

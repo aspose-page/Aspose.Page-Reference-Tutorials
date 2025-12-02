@@ -63,13 +63,6 @@ En conclusion, ces tutoriels de création de documents Java sont votre passerell
 ### [Create Document in Java with PostScript](./postscript/)
 Créez facilement des documents PostScript en Java avec Aspose.Page. Personnalisez la taille de la page, les marges et les polices. Essayez l’essai gratuit dès maintenant !
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q : Puis‑je utiliser Aspose.Page pour générer des fichiers PostScript dans une application commerciale ?**  
@@ -92,3 +85,10 @@ R : Vérifiez que le niveau PostScript de l’imprimante correspond aux foncti
 **Dernière mise à jour :** 2025-12-02  
 **Testé avec :** Aspose.Page for Java 24.12  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -60,13 +60,6 @@ Sammanfattningsvis fungerar dessa Java-dokumentationshandledningar som din port 
 ### [Skapa dokument i Java med PostScript](./postscript/)
 Skapa enkelt PostScript-dokument i Java med Aspose.Page. Anpassa sidstorlek, marginaler och typsnitt. Prova den gratis provversionen nu!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda Aspose.Page för att generera PostScript-filer i en kommersiell applikation?**  
@@ -84,6 +77,15 @@ A: Använd bibliotekets Font‑API för att ladda TrueType‑ eller OpenType‑t
 **Q: Vad gör jag om jag stöter på renderingsproblem på en specifik skrivare?**  
 A: Verifiera att skrivarens PostScript‑nivå matchar de funktioner som används i ditt dokument. Aspose.Page låter dig rikta in dig på specifika PostScript‑nivåer via sitt API.
 
+---
+
 **Senast uppdaterad:** 2025-12-02  
 **Testat med:** Aspose.Page för Java 24.12  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

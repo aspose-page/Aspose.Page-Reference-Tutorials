@@ -62,13 +62,6 @@ Kết luận, các tutorial tạo tài liệu Java này là cánh cửa giúp b�
 ### [Tạo Tài Liệu trong Java với PostScript](./postscript/)
 Dễ dàng tạo tài liệu PostScript trong Java bằng Aspose.Page. Tùy chỉnh kích thước trang, lề và phông chữ. Hãy dùng bản dùng thử miễn phí ngay!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng Aspose.Page để tạo file PostScript trong ứng dụng thương mại không?**  
@@ -91,3 +84,10 @@ A: Kiểm tra mức PostScript của máy in có khớp với các tính năng �
 **Cập nhật lần cuối:** 2025-12-02  
 **Kiểm tra với:** Aspose.Page for Java 24.12  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

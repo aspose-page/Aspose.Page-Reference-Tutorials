@@ -61,13 +61,6 @@ Na závěr, tyto tutoriály pro vytváření Java dokumentů jsou vaším vstupe
 ### [Vytvořit dokument v Javě s PostScript](./postscript/)
 Jednoduše vytvářejte PostScript dokumenty v Javě pomocí Aspose.Page. Přizpůsobte velikost stránky, okraje a fonty. Vyzkoušejte bezplatnou zkušební verzi nyní!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu použít Aspose.Page k generování PostScript souborů v komerční aplikaci?**  
@@ -90,3 +83,10 @@ A: Ověřte, že úroveň PostScript tiskárny odpovídá funkcím použitém ve
 **Poslední aktualizace:** 2025-12-02  
 **Testováno s:** Aspose.Page for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
