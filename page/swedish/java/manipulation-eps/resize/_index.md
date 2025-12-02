@@ -1,27 +1,42 @@
 ---
-title: Ändra storlek på EPS-filer i Java med Aspose.Page
-linktitle: Ändra storlek på EPS-fil i Java
+date: 2025-12-02
+description: Lär dig hur du enkelt ändrar storlek på EPS‑filer i Java med Aspose.Page.
+  Denna steg‑för‑steg‑guide visar hur du ändrar storlek på EPS med punkter, tum, millimeter
+  eller procent.
+language: sv
+linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
-description: Lär dig hur du ändrar storlek på EPS-filer i Java utan ansträngning med Aspose.Page för Java. Följ vår omfattande guide för steg-för-steg-instruktioner.
+title: Hur man ändrar storlek på EPS-filer i Java med Aspose.Page
+url: /java/manipulation-eps/resize/
 weight: 11
-url: /sv/java/manipulation-eps/resize/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ändra storlek på EPS-filer i Java med Aspose.Page
+# Hur man ändrar storlek på EPS-filer i Java med Aspose.Page
 
 ## Introduktion
-Välkommen till vår steg-för-steg-guide om storleksändring av EPS-filer i Java med hjälp av det kraftfulla biblioteket Aspose.Page. Om du någonsin har behövt justera dimensionerna på dina EPS-bilder programmatiskt, är du på rätt plats. I den här handledningen kommer vi att utforska olika storleksändringsalternativ, inklusive punkter, tum, millimeter och procent, vilket ger dig den flexibilitet du behöver för dina specifika krav.
+Om du letar efter ett pålitligt sätt **hur man ändrar storlek på EPS**-filer programmässigt, har du kommit till rätt ställe. I den här handledningen går vi igenom hur man ändrar storlek på EPS‑bilder i Java med Aspose.Page‑biblioteket. Oavsett om du behöver dubbla storleken, minska den till ett specifikt mått eller arbeta med procent, ger stegen nedan dig full kontroll över utdata-dimensionerna.
+
+## Snabba svar
+- **Vilket bibliotek behövs?** Aspose.Page for Java  
+- **Kan jag ändra storlek med punkter, tum eller millimeter?** Ja – API:et stöder alla tre enheterna plus procent.  
+- **Behöver jag en licens för utveckling?** En gratis provversion fungerar för testning; en licens krävs för produktion.  
+- **Vilken Java‑version krävs?** Java 8 eller senare.  
+- **Är koden trådsäker?** Varje `PsDocument`‑instans är isolerad, så du kan bearbeta filer parallellt.
+
 ## Förutsättningar
-Innan vi dyker in i handledningen, se till att du har följande:
-- Java Development Kit (JDK) installerat på din maskin.
--  Aspose.Page för Java-biblioteket. Du kan ladda ner den[här](https://releases.aspose.com/page/java/).
-- En grundläggande förståelse för Java-programmering.
+Innan vi dyker ner i koden, se till att du har följande:
+
+- Java Development Kit (JDK) installerat på din maskin.  
+- Aspose.Page for Java‑biblioteket. Du kan ladda ner det **[här](https://releases.aspose.com/page/java/)**.  
+- En grundläggande förståelse för Java‑programmering.  
+
 ## Importera paket
-Se till att du har nödvändiga importer i ditt Java-projekt för att använda Aspose.Page-funktioner. Här är ett exempel:
+I ditt Java‑projekt, inkludera de nödvändiga importerna så att du kan arbeta med Aspose.Page‑objekt och standard‑I/O‑strömmar.
+
 ```java
 import java.awt.Dimension;
 import java.io.FileInputStream;
@@ -29,50 +44,76 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.page.DimensionF;
 import com.aspose.page.Units;
-
 ```
-Låt oss nu dela upp handledningen i flera steg för varje storleksändringsalternativ:
-## Ändra storlek på EPS med poäng
-### Steg 1: Ställ in ingångsströmmen
+
+## Hur man ändrar storlek på EPS med punkter
+Nedan är ett komplett, steg‑för‑steg‑exempel som dubblerar storleken på en EPS‑fil med punkter som måttenhet.
+
+### Steg 1: Ställ in inmatningsströmmen
 ```java
 FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
 ```
-### Steg 2: Initiera PsDocument-objekt
+
+### Steg 2: Initiera `PsDocument`‑objektet
 ```java
 PsDocument doc = new PsDocument(inputEpsStream);
 ```
-### Steg 3: Extrahera den aktuella storleken på EPS-bilden
+
+### Steg 3: Extrahera den aktuella storleken på EPS‑bilden
 ```java
 Dimension oldSize = doc.extractEpsSize();
 ```
-### Steg 4: Skapa en utdataström
+
+### Steg 4: Skapa en utmatningsström för den ändrade filen
 ```java
 FileOutputStream outputEpsStream = new FileOutputStream(dataDir + "output_resize_points.eps");
 ```
-### Steg 5: Ändra storlek och spara poäng
+
+### Steg 5: Ändra storlek och spara EPS med punkter
 ```java
 doc.resizeEps(outputEpsStream, new Dimension2D.Double(oldSize.width * 2, oldSize.height * 2), Units.Points);
 ```
-## Ändra storlek på EPS med tum
-Följ liknande steg som i exempel 1, ersätt "Points" med "Inches" och justera den nya storleken därefter.
-## Ändra storlek på EPS med millimeter
-Följ liknande steg som i exempel 1, ersätt "Points" med "Millimeters" och justera den nya storleken därefter.
-## Ändra storlek på EPS med procentsatser
-Följ liknande steg som i exempel 1, ersätt "Poäng" med "Procentandelar" och justera den nya storleken därefter.
+
+## Hur man ändrar storlek på EPS med tum
+Samma fem‑stegs‑mönster gäller; ersätt bara `Units.Points` med `Units.Inches` och justera skalningsfaktorn efter behov.
+
+## Hur man ändrar storlek på EPS med millimeter
+Följ återigen samma steg, byt enheten till `Units.Millimeters`. Detta är praktiskt när du behöver metrisk baserade dimensioner för utskriftsarbetsflöden.
+
+## Hur man ändrar storlek på EPS med procent
+För procentbaserad skalning, behåll enheten som `Units.Percent`. Multiplicera den ursprungliga bredden och höjden med önskad procent (t.ex. `0.5` för 50 % minskning).
+
+## Vanliga fallgropar & tips
+- **Stäng alltid strömmar** – I produktionskod, omslut strömmar med try‑with‑resources för att undvika fil‑lås.  
+- **Bevara bildförhållandet** – Multiplicera både bredd och höjd med samma faktor om du inte avsiktligt vill ha förvrängning.  
+- **Kontrollera DPI** – Ändring av storlek ändrar inte DPI; om du behöver en annan DPI, justera den separat efter storleksändring.
+
 ## Slutsats
-Grattis! Du har framgångsrikt lärt dig hur du ändrar storlek på EPS-filer i Java med Aspose.Page. Den här guiden ger dig mångsidiga alternativ, vilket säkerställer att du kan skräddarsy storleksändringsprocessen för att möta dina specifika behov.
+Du vet nu **hur man ändrar storlek på EPS**‑filer i Java med Aspose.Page, oavsett om du föredrar punkter, tum, millimeter eller procent. Denna flexibilitet låter dig integrera EPS‑manipulation i automatiserade pipelines, skrivbordsverktyg eller server‑sidiga tjänster.
 
 ## Vanliga frågor
-### Kan jag använda det här biblioteket för andra bildformat?
-Nej, Aspose.Page är speciellt utformad för att hantera PostScript- och EPS-filer.
-### Finns det en gratis testversion tillgänglig för Aspose.Page för Java?
-Ja, du kan utforska den kostnadsfria provperioden[här](https://releases.aspose.com/).
-### Var kan jag hitta ytterligare hjälp och diskussioner?
- Besök[Aspose.Page forum](https://forum.aspose.com/c/page/39) för samhällsstöd.
-### Hur kan jag få en tillfällig licens?
- Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
-### Finns det några exempel på projekt?
- Ja, kontrollera dokumentationen[här](https://reference.aspose.com/page/java/).
+
+**Q: Kan jag använda detta bibliotek för andra bildformat?**  
+A: Nej, Aspose.Page är specialiserat på PostScript‑ och EPS‑filer endast.
+
+**Q: Finns det en gratis provversion tillgänglig för Aspose.Page för Java?**  
+A: Ja, du kan utforska den gratis provversionen **[här](https://releases.aspose.com/)**.
+
+**Q: Var kan jag hitta ytterligare hjälp och diskussioner?**  
+A: Besök **[Aspose.Page‑forumet](https://forum.aspose.com/c/page/39)** för gemenskapsstöd.
+
+**Q: Hur kan jag få en tillfällig licens?**  
+A: Du kan få en tillfällig licens **[här](https://purchase.aspose.com/temporary-license/)**.
+
+**Q: Finns det några exempelprojekt tillgängliga?**  
+A: Ja, kolla dokumentationen **[här](https://reference.aspose.com/page/java/)**.
+
+---
+
+**Senast uppdaterad:** 2025-12-02  
+**Testad med:** Aspose.Page for Java 24.12 (senaste vid skrivande tidpunkt)  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

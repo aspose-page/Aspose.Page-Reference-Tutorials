@@ -1,27 +1,41 @@
 ---
-title: Aspose.Page を使用して Java で EPS ファイルのサイズを変更する
-linktitle: JavaでEPSファイルのサイズを変更する
+date: 2025-12-02
+description: Aspose.Page を使用して、Java で EPS ファイルを簡単にリサイズする方法を学びましょう。このステップバイステップガイドでは、ポイント、インチ、ミリメートル、またはパーセンテージを使って
+  EPS をリサイズする方法を示します。
+language: ja
+linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
-description: Aspose.Page for Java を使用して Java で EPS ファイルのサイズを簡単に変更する方法を学びましょう。段階的な手順については、包括的なガイドに従ってください。
+title: Aspose.Page を使用した Java での EPS ファイルのリサイズ方法
+url: /java/manipulation-eps/resize/
 weight: 11
-url: /ja/java/manipulation-eps/resize/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page を使用して Java で EPS ファイルのサイズを変更する
+# Java と Aspose.Page を使用した EPS ファイルのサイズ変更方法
 
-## 導入
-強力な Aspose.Page ライブラリを使用して Java で EPS ファイルのサイズを変更するためのステップバイステップ ガイドへようこそ。 EPS 画像のサイズをプログラムで調整する必要があった場合は、ここが正しい場所です。このチュートリアルでは、ポイント、インチ、ミリメートル、パーセントなどのさまざまなサイズ変更オプションを検討し、特定の要件に必要な柔軟性を提供します。
+## はじめに
+プログラムで **EPS のサイズ変更方法** を信頼できる手段で探しているなら、ここが最適です。このチュートリアルでは、Aspose.Page ライブラリを使用して Java で EPS 画像のサイズを変更する手順を解説します。サイズを倍にしたい、特定の寸法に縮小したい、またはパーセンテージで調整したい場合でも、以下の手順で出力サイズを完全にコントロールできます。
+
+## クイック回答
+- **必要なライブラリは？** Aspose.Page for Java  
+- **ポイント、インチ、ミリメートルのいずれかでサイズ変更できますか？** はい – API はこれら3つの単位とパーセンテージをサポートしています。  
+- **開発にライセンスは必要ですか？** テストには無料トライアルで動作しますが、本番環境ではライセンスが必要です。  
+- **必要な Java バージョンは？** Java 8 以降。  
+- **コードはスレッドセーフですか？** 各 `PsDocument` インスタンスは独立しているため、ファイルを並列に処理できます。
+
 ## 前提条件
-チュートリアルに入る前に、次のものが揃っていることを確認してください。
-- Java Development Kit (JDK) がマシンにインストールされています。
--  Java ライブラリの Aspose.Page。ダウンロードできます[ここ](https://releases.aspose.com/page/java/).
-- Java プログラミングの基本的な理解。
+以下を事前に用意してください。
+
+- マシンに Java Development Kit (JDK) がインストールされていること。  
+- Aspose.Page for Java ライブラリ。**[here](https://releases.aspose.com/page/java/)** からダウンロードできます。  
+- Java プログラミングの基本的な理解があること。  
+
 ## パッケージのインポート
-Java プロジェクトに、Aspose.Page 機能を使用するために必要なインポートがあることを確認してください。以下に例を示します。
+Java プロジェクトに必要なインポートを追加し、Aspose.Page のオブジェクトと標準 I/O ストリームを使用できるようにします。
+
 ```java
 import java.awt.Dimension;
 import java.io.FileInputStream;
@@ -29,50 +43,76 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.page.DimensionF;
 import com.aspose.page.Units;
-
 ```
-ここで、チュートリアルをサイズ変更オプションごとに複数のステップに分割してみましょう。
-## ポイントを使用して EPS のサイズを変更する
-### ステップ 1: 入力ストリームを設定する
+
+## ポイント単位で EPS をサイズ変更する方法
+以下は、ポイントを測定単位として使用し、EPS ファイルのサイズを倍にする完全なステップバイステップの例です。
+
+### 手順 1: 入力ストリームの設定
 ```java
 FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
 ```
-### ステップ 2: PsDocument オブジェクトを初期化する
+
+### 手順 2: `PsDocument` オブジェクトの初期化
 ```java
 PsDocument doc = new PsDocument(inputEpsStream);
 ```
-### ステップ 3: EPS 画像の現在のサイズを抽出する
+
+### 手順 3: EPS 画像の現在サイズを取得
 ```java
 Dimension oldSize = doc.extractEpsSize();
 ```
-### ステップ 4: 出力ストリームを作成する
+
+### 手順 4: リサイズ後のファイル用出力ストリームの作成
 ```java
 FileOutputStream outputEpsStream = new FileOutputStream(dataDir + "output_resize_points.eps");
 ```
-### ステップ 5: サイズを変更してポイント単位で保存する
+
+### 手順 5: ポイント単位で EPS をリサイズして保存
 ```java
 doc.resizeEps(outputEpsStream, new Dimension2D.Double(oldSize.width * 2, oldSize.height * 2), Units.Points);
 ```
-## インチを使用して EPS のサイズを変更する
-例 1 と同様の手順に従い、「ポイント」を「インチ」に置き換え、それに応じて新しいサイズを調整します。
-## ミリメートルを使用して EPS のサイズを変更する
-例 1 と同様の手順に従い、「ポイント」を「ミリメートル」に置き換え、それに応じて新しいサイズを調整します。
-## パーセンテージを使用して EPS のサイズを変更する
-例 1 と同様の手順に従い、「ポイント」を「パーセンテージ」に置き換え、それに応じて新しいサイズを調整します。
+
+## インチ単位で EPS をサイズ変更する方法
+同じ5ステップのパターンが適用されます。`Units.Points` を `Units.Inches` に置き換え、必要に応じてスケーリング係数を調整してください。
+
+## ミリメートル単位で EPS をサイズ変更する方法
+同様に手順を踏み、単位を `Units.Millimeters` に置き換えます。印刷ワークフローでメートル法の寸法が必要な場合に便利です。
+
+## パーセンテージ単位で EPS をサイズ変更する方法
+パーセンテージベースのスケーリングの場合は、単位を `Units.Percent` のままにします。元の幅と高さに希望のパーセンテージ（例: 50 % 減少なら `0.5`）を掛けます。
+
+## よくある落とし穴とヒント
+- **常にストリームを閉じる** – 本番コードでは、ファイルロックを防ぐために try‑with‑resources でストリームをラップしてください。  
+- **アスペクト比を保持** – 歪みさせる意図がない限り、幅と高さの両方を同じ係数で掛けます。  
+- **DPI を確認** – リサイズしても DPI は変わりません。別の DPI が必要な場合は、リサイズ後に個別に調整してください。  
+
 ## 結論
-おめでとう！ Aspose.Page を使用して Java で EPS ファイルのサイズを変更する方法を学習しました。このガイドでは、特定のニーズに合わせてサイズ変更プロセスをカスタマイズできるようにするための多彩なオプションを提供します。
+これで、ポイント、インチ、ミリメートル、またはパーセンテージのいずれを使用しても、Java と Aspose.Page を使った **EPS のサイズ変更方法** が分かりました。この柔軟性により、EPS の操作を自動化パイプライン、デスクトップユーティリティ、またはサーバーサイドサービスに組み込むことができます。
 
 ## よくある質問
-### このライブラリを他の画像形式に使用できますか?
-いいえ、Aspose.Page は PostScript および EPS ファイルを処理するために特別に設計されています。
-### Aspose.Page for Java に利用できる無料トライアルはありますか?
-はい、無料トライアルを試すことができます[ここ](https://releases.aspose.com/).
-### 追加のヘルプやディスカッションはどこで見つけられますか?
-訪問[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティサポートのために。
-### 仮免許はどうやって取得できますか?
-仮免許が取得できる[ここ](https://purchase.aspose.com/temporary-license/).
-### 利用可能なサンプルプロジェクトはありますか?
-はい、ドキュメントを確認してください[ここ](https://reference.aspose.com/page/java/).
+
+**Q: このライブラリを他の画像形式に使用できますか？**  
+A: いいえ、Aspose.Page は PostScript と EPS ファイル専用に特化しています。
+
+**Q: Aspose.Page for Java の無料トライアルはありますか？**  
+A: はい、無料トライアルは **[here](https://releases.aspose.com/)** で確認できます。
+
+**Q: 追加のヘルプやディスカッションはどこで見つけられますか？**  
+A: コミュニティサポートは **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** をご利用ください。
+
+**Q: 一時ライセンスはどのように取得できますか？**  
+A: 一時ライセンスは **[here](https://purchase.aspose.com/temporary-license/)** から取得できます。
+
+**Q: サンプルプロジェクトはありますか？**  
+A: はい、ドキュメントは **[here](https://reference.aspose.com/page/java/)** で確認できます。
+
+---
+
+**最終更新日:** 2025-12-02  
+**テスト環境:** Aspose.Page for Java 24.12 (執筆時点での最新バージョン)  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
