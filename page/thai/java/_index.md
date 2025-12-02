@@ -129,13 +129,6 @@ weight: 10
 ### [XMP Metadata Manipulation - Java](./xmp-metadata-manipulation/)
 ปรับปรุงไฟล์ EPS อย่างง่ายดายด้วยการจัดการเมตาดาต้า XMP—จากการเพิ่มรายการจนถึงการสกัดข้อมูล ยกระดับการจัดการเอกสารของคุณด้วยคู่มือของเรา  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: ฉันสามารถแปลงทั้ง PostScript และ XPS เป็น PDF ในแอปพลิเคชันเดียวกันได้หรือไม่?**  
@@ -158,3 +151,10 @@ A: Aspose มีลิขสิทธิ์ถาวร, แผนสมัค�
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -131,13 +131,6 @@ Emeld Java dokumentumaid vizuális elemeit egyszerűen az Aspose.Page‑del! Tan
 ### [XMP Metadata Manipulation - Java](./xmp-metadata-manipulation/)
 Egyszerűen fejleszd az EPS fájlokat XMP metaadat-manipulációval – elemek hozzáadása, kinyerése. Emeld dokumentumkezelésedet útmutatóinkkal.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Konvertálhatok mind PostScript, mind XPS fájlokat PDF‑re ugyanabban az alkalmazásban?**  
@@ -160,3 +153,10 @@ A: Az Aspose örökös licenceket, előfizetési terveket és mérő‑használa
 **Utoljára frissítve:** 2025-11-29  
 **Tesztelt verzió:** Aspose.Page for Java 24.12 (a cikk írásakor legújabb)  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

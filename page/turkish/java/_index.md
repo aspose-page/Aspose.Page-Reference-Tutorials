@@ -153,13 +153,6 @@ Aspose.Page ile Java belge görsellerinizi zahmetsizce yükseltin! Bu adım‑ad
 ### [XMP Metadata Manipulation - Java](./xmp-metadata-manipulation/)
 XMP metadata manipülasyonu ile EPS dosyalarını zahmetsizce geliştirin—öğe eklemekten çıkarıma kadar. Kılavuzlarımızla belge yönetiminizi yükseltin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **Q: Aynı uygulamada hem PostScript hem de XPS'yi PDF'ye dönüştürebilir miyim?**  
@@ -177,6 +170,15 @@ XMP metadata manipülasyonu ile EPS dosyalarını zahmetsizce geliştirin—öğ
 **Q: Üretim dağıtımları için hangi lisans seçenekleri mevcuttur?**  
 **A:** Aspose, kalıcı lisanslar, abonelik planları ve ölçülü kullanım lisansları sunar. Test için ücretsiz bir değerlendirme anahtarı mevcuttur.
 
+---
+
 **Son Güncelleme:** 2025-11-29  
 **Test Edilen Versiyon:** Aspose.Page for Java 24.12 (yazım zamanındaki en son)  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

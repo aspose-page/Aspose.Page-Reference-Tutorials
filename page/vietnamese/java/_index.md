@@ -131,13 +131,6 @@ Nâng cao hình ảnh tài liệu Java của bạn một cách dễ dàng với 
 ### [XMP Metadata Manipulation - Java](./xmp-metadata-manipulation/)
 Nâng cao tệp EPS một cách dễ dàng với thao tác metadata XMP — từ thêm mục đến trích xuất. Nâng cao quản lý tài liệu của bạn qua các hướng dẫn của chúng tôi.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể chuyển đổi cả PostScript và XPS sang PDF trong cùng một ứng dụng không?**  
@@ -160,3 +153,10 @@ A: Aspose cung cấp giấy phép vĩnh viễn, gói thuê bao và giấy phép 
 **Cập nhật lần cuối:** 2025-11-29  
 **Kiểm tra với:** Aspose.Page cho Java 24.12 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

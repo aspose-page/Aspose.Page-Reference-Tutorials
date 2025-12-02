@@ -131,13 +131,6 @@ Eleve os elementos visuais dos seus documentos Java sem esforço com o Aspose.Pa
 ### [XMP Metadata Manipulation - Java](./xmp-metadata-manipulation/)
 Aprimore arquivos EPS sem esforço com manipulação de metadados XMP — desde a adição de itens até a extração. Eleve sua gestão de documentos com nossos guias.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso converter tanto PostScript quanto XPS para PDF na mesma aplicação?**  
@@ -160,3 +153,10 @@ A: A Aspose oferece licenças perpétuas, planos de assinatura e licenças por u
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

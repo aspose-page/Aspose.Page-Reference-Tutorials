@@ -128,13 +128,6 @@ Aspose.Page で Java ドキュメントのビジュアルを簡単に向上さ�
 ### [XMP Metadata Manipulation - Java](./xmp-metadata-manipulation/)
 EPS ファイルに XMP メタデータ操作（項目追加から抽出まで）を簡単に実装し、ドキュメント管理を向上させます。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: 同じアプリケーションで PostScript と XPS の両方を PDF に変換できますか？**  
@@ -157,3 +150,10 @@ A: 永続ライセンス、サブスクリプションプラン、メーター�
 **Last Updated:** 2025-11-29  
 **Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

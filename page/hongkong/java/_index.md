@@ -128,13 +128,6 @@ weight: 10
 ### [XMP 中繼資料操作 - Java](./xmp-metadata-manipulation/)
 使用 XMP 中繼資料操作輕鬆增強 EPS 檔案——從加入項目到擷取皆可，提升文件管理。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在同一個應用程式中同時將 PostScript 與 XPS 轉換為 PDF 嗎？**  
@@ -157,3 +150,10 @@ A: Aspose 提供永久授權、訂閱方案與計量使用授權。亦提供免�
 **最後更新：** 2025-11-29  
 **測試環境：** Aspose.Page for Java 24.12（撰寫時的最新版本）  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
