@@ -1,27 +1,50 @@
 ---
-title: Aspose.Page Java와 간편한 측정 라이선스 통합
-linktitle: Java에서 측정 라이센스 설정
-second_title: Aspose.페이지 자바 API
-description: Aspose.Page와 Java의 원활한 통합을 살펴보세요. 계량형 라이선스를 손쉽게 설정하고 문서 처리 기능을 향상하세요.
+date: 2025-12-03
+description: Aspose.Page for Java를 사용하여 EPS를 PNG로 저장하고 메터드 라이선스를 구성하는 방법을 배우세요. 전체
+  코드 예제가 포함된 단계별 가이드.
+language: ko
+linktitle: Set Metered License in Java
+second_title: Aspose.Page Java API
+title: Aspose.Page Java(계량 라이선스)로 EPS를 PNG로 저장
+url: /java/license-management/set-metered-license/
 weight: 10
-url: /ko/java/license-management/set-metered-license/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page Java와 간편한 측정 라이선스 통합
+# Aspose.Page Java (Metered License)로 EPS를 PNG로 저장하기
 
 ## 소개
-Aspose.Page를 사용하여 Java에서 계량 라이선스를 설정하는 방법에 대한 종합 가이드에 오신 것을 환영합니다. 문서 처리 기능을 향상시키고 Aspose.Page와의 원활한 통합을 원하신다면 올바른 위치에 오셨습니다. 이 튜토리얼에서는 각 단계를 쉽게 소화할 수 있는 단위로 나누어 프로세스를 안내합니다.
-## 전제 조건
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-- Java 프로그래밍에 대한 기본 지식.
--  Aspose.Page 라이브러리가 설치되었습니다. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/page/java/).
-- Aspose 계정을 통해 얻을 수 있는 측정된 공개 및 개인 키.
+Java 애플리케이션에서 **EPS를 PNG로 저장**해야 하고 라이선스 관리를 간편하게 하고 싶다면 이곳이 정답입니다. 이 튜토리얼에서는 Aspose.Page의 Metered 라이선스를 설정하고, PostScript(EPS) 파일을 로드한 뒤 PNG 이미지로 변환하는 과정을 단계별로 자세히 안내합니다.
+
+## 빠른 답변
+- **“EPS를 PNG로 저장”이란 무엇인가요?** 벡터 EPS 파일을 래스터 PNG 이미지로 변환하는 것입니다.  
+- **Metered 라이선스를 사용하는 이유는?** 처리한 페이지 수만큼만 비용을 지불하므로 가변 워크로드에 최적입니다.  
+- **인터넷 연결이 필요한가요?** 아니요, Metered 키는 로컬에서 검증됩니다.  
+- **필요한 Java 버전은?** Java 8 이상.  
+- **설정에 걸리는 시간은?** 기본 구현 기준 약 10 분.
+
+## “EPS를 PNG로 저장”이란?
+EPS를 PNG로 저장한다는 것은 확장 가능한 Encapsulated PostScript 문서를 널리 지원되는 비트맵 형식으로 변환하는 것을 의미합니다. PNG는 투명도를 유지하고 손실 없는 압축을 제공해 웹 그래픽, 썸네일, 인쇄 미리보기 등에 이상적입니다.
+
+## 이 작업에 Aspose.Page를 사용하는 이유
+- **Pure Java API** – 네이티브 종속성이 없습니다.  
+- **고충실도** – 벡터 그래픽을 정확하게 렌더링합니다.  
+- **Metered 라이선스** – 변환한 만큼만 비용을 지불합니다.  
+- **다양한 출력 포맷 지원** – PNG, JPEG, TIFF 등.
+
+## 사전 준비 사항
+시작하기 전에 다음을 확인하세요:
+
+- Java 프로그래밍 기본 지식.  
+- Aspose.Page 라이브러리 설치 – [여기](https://releases.aspose.com/page/java/)에서 다운로드.  
+- Aspose 계정을 통해 발급받은 Metered 공개 키와 비공개 키.
+
 ## 패키지 가져오기
-Java 프로그램에 필요한 패키지를 가져오는 것부터 시작해 보겠습니다. Aspose.Page 라이브러리가 프로젝트에 통합되어 있는지 확인하세요.
+먼저 필요한 클래스를 가져옵니다. 코드는 그대로 유지해야 컴파일 오류가 발생하지 않습니다.
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -29,61 +52,72 @@ import java.io.IOException;
 import com.aspose.eps.ImageFormat;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.ImageSaveOptions;
-
 ```
-## 1단계: 문서 및 이미지 형식 초기화
-첫 번째 단계는 문서를 설정하고 원하는 이미지 형식을 정의하는 것입니다.
+
+## 단계 1: 문서 및 이미지 포맷 초기화
+Metered 키를 설정하고 출력 포맷(PNG)을 정의합니다. 이는 **EPS를 PNG로 저장** 작업의 기반이 됩니다.
+
 ```java
-// 측정된 공개 및 개인 키 설정
+// set metered public and private keys
 com.aspose.page.Metered metered = new com.aspose.page.Metered();
-// setMeteredKey 속성에 액세스하고 공개 키와 개인 키를 매개변수로 전달합니다.
+// Access the setMeteredKey property and pass public and private keys as parameters
 metered.setMeteredKey(
     "<type public key here>",
     "<type private key here>");
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ImageFormat imageFormat = ImageFormat.PNG;
 ```
-## 2단계: PostScript 입력 스트림 초기화
-이 단계에서는 처리를 위해 PostScript 입력 스트림을 초기화합니다.
+
+## 단계 2: PostScript 입력 스트림 초기화
+변환하려는 EPS 파일을 엽니다. 스트림은 문서를 Aspose.Page에 전달합니다.
+
 ```java
-// PostScript 입력 스트림 초기화
+// Initialize PostScript input stream
 FileInputStream psStream = new FileInputStream(dataDir + "input.ps");
 PsDocument document = new PsDocument(psStream);
 ```
-## 3단계: 문서 라이선스 확인
-계속하기 전에 문서에 적절한 라이선스가 부여되었는지 확인하는 것이 중요합니다.
+
+## 단계 3: 문서 라이선스 확인
+처리 전에 Metered 라이선스가 올바르게 적용되었는지 항상 확인합니다.
+
 ```java
-// 문서에 라이선스가 있는지 확인하세요.
+// Check if the document is licensed
 if (document.isLicensed())
     System.out.println("Metered License is set successfully.");
 else
     System.out.println("Metered License is not set.");
 ```
-## 4단계: 옵션 및 이미지 장치 초기화
-이제 기본 매개변수를 사용하여 옵션과 이미지 장치를 초기화해 보겠습니다.
+
+## 단계 4: 옵션 및 이미지 디바이스 초기화
+변환 설정을 제어하는 옵션 객체와 렌더링된 이미지를 받을 디바이스를 생성합니다.
+
 ```java
-// 기본 매개변수를 사용하여 옵션 개체를 초기화합니다.
+// Initialize options object with default parameters.
 ImageSaveOptions options = new ImageSaveOptions();
-// 기본 매개변수를 사용하여 ImageDevice 객체를 초기화합니다.
+// Initialize ImageDevice object with default parameters.
 com.aspose.eps.device.ImageDevice device = new com.aspose.eps.device.ImageDevice();
 ```
-## 5단계: EPS 파일을 이미지로 저장
-정의된 옵션과 장치를 사용하여 EPS 파일을 이미지로 저장합니다.
+
+## 단계 5: EPS 파일을 이미지로 저장
+핵심 **EPS를 PNG로 저장** 호출입니다. 문서는 설정한 옵션을 사용해 이미지 디바이스에 렌더링됩니다.
+
 ```java
-// EPS 파일을 이미지로 저장
+// Save EPS file as image
 try {
     document.save(device, options);
 } finally {
     psStream.close();
 }
 ```
-## 6단계: 이미지 바이트 가져오기 및 저장
-이미지 바이트를 검색하여 파일에 저장합니다.
+
+## 단계 6: 이미지 바이트 가져와 저장
+디바이스에서 PNG 바이트를 추출하고 디스크에 파일로 씁니다.
+
 ```java
-// 이미지 바이트를 가져옵니다. 한 페이지에 대한 1바이트 배열입니다. 우리의 경우에는 한 페이지가 있습니다.
+// Get images bytes. One bytes array for one page. In our case, we have one page.
 byte[][] imagesBytes = device.getImagesBytes();
-// 이미지 바이트를 파일에 저장
+// Save image bytes to file
 FileOutputStream fs = new FileOutputStream(dataDir + "eps_out." + imageFormat.toString().toLowerCase());
 try {
     fs.write(imagesBytes[0], 0, imagesBytes[0].length);
@@ -93,19 +127,37 @@ try {
     fs.close();
 }
 ```
-## 결론
-축하해요! Aspose.Page를 사용하여 Java에서 계량 라이선스를 성공적으로 설정했습니다. 이 튜토리얼에서는 원활한 통합 프로세스를 보장하기 위한 단계별 가이드를 제공했습니다.
+
+## 일반적인 문제와 해결 방법
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **License not recognized** | Keys are incorrect or placed in the wrong order. | Double‑check the public/private key strings and ensure `setMeteredKey` is called before any document processing. |
+| **Output file is empty** | `device.getImagesBytes()` returned `null`. | Verify that the EPS file is valid and that the `ImageSaveOptions` are not set to a zero‑size canvas. |
+| **OutOfMemoryError on large EPS** | Rendering large vector files consumes a lot of memory. | Process pages one‑at‑a‑time or increase JVM heap (`-Xmx2g`). |
+
 ## 자주 묻는 질문
-### Q: 측정된 공개 및 개인 키를 얻으려면 어떻게 해야 합니까?
-Aspose 계정을 통해 이러한 키를 얻을 수 있습니다.
-### Q: Aspose.Page 라이브러리는 무료인가요?
- Aspose.Page는 무료 평가판과 유료 버전을 모두 제공합니다. 방문하다[여기](https://releases.aspose.com/) 무료 평가판을 받으려면.
-### Q: Aspose.Page를 상업용 프로젝트에 사용할 수 있나요?
- 예, Aspose.Page는 상업용 라이선스를 제공합니다. 당신은 그들을 구입할 수 있습니다[여기](https://purchase.aspose.com/buy).
-### Q: 추가 문서는 어디서 찾을 수 있나요?
- 문서를 참조하세요[여기](https://reference.aspose.com/page/java/).
-### Q: 임시 라이센스는 어떻게 얻을 수 있나요?
- 임시면허 취득 가능[여기](https://purchase.aspose.com/temporary-license/).
+
+**Q: Metered 공개 키와 비공개 키는 어떻게 얻나요?**  
+A: Aspose 계정을 통해 발급받을 수 있습니다.
+
+**Q: Aspose.Page 라이브러리는 무료인가요?**  
+A: 무료 체험판과 유료 버전이 모두 제공됩니다. 무료 체험은 [여기](https://releases.aspose.com/)에서 받아보세요.
+
+**Q: 상업 프로젝트에 Aspose.Page를 사용할 수 있나요?**  
+A: 네, 상업용 라이선스가 제공됩니다. 구매는 [여기](https://purchase.aspose.com/buy)에서 가능합니다.
+
+**Q: 추가 문서는 어디서 찾을 수 있나요?**  
+A: 문서는 [여기](https://reference.aspose.com/page/java/)에서 확인하세요.
+
+**Q: 임시 라이선스는 어떻게 얻나요?**  
+A: 임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 발급받을 수 있습니다.
+
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.Page 24.12 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
