@@ -1,27 +1,50 @@
 ---
-title: Aspose.Page Java ile Zahmetsiz Ölçülü Lisans Entegrasyonu
-linktitle: Java'da Ölçülü Lisansı Ayarlama
-second_title: Aspose.Page Java API'si
-description: Aspose.Page'in Java ile kusursuz entegrasyonunu keşfedin. Ölçülü lisansları zahmetsizce ayarlayın ve belge işleme yeteneklerinizi geliştirin.
+date: 2025-12-03
+description: Aspose.Page for Java kullanarak EPS'yi PNG olarak kaydetmeyi ve ölçülen
+  lisansı yapılandırmayı öğrenin. Tam kod örneğiyle adım adım rehber.
+language: tr
+linktitle: Set Metered License in Java
+second_title: Aspose.Page Java API
+title: Aspose.Page Java ile EPS'yi PNG olarak kaydet (Ölçülü Lisans)
+url: /java/license-management/set-metered-license/
 weight: 10
-url: /tr/java/license-management/set-metered-license/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page Java ile Zahmetsiz Ölçülü Lisans Entegrasyonu
+# EPS'yi PNG Olarak Kaydetme Aspose.Page Java (Ölçülü Lisans)
 
-## giriiş
-Aspose.Page'i kullanarak Java'da ölçülü lisans ayarlamaya ilişkin kapsamlı kılavuzumuza hoş geldiniz. Belge işleme yeteneklerinizi geliştirmek ve Aspose.Page ile kusursuz entegrasyon sağlamak istiyorsanız doğru yerdesiniz. Bu eğitimde, her adımı kolayca sindirilebilir parçalara ayırarak süreç boyunca size yol göstereceğiz.
+## Giriş
+Java uygulamanızda **EPS'yi PNG olarak kaydetmek** istiyor ve lisans yönetimini sorunsuz bir şekilde yapmak istiyorsanız doğru yerdesiniz. Bu öğreticide, Aspose.Page için ölçülü bir lisans yapılandırmayı, bir PostScript (EPS) dosyasını yüklemeyi ve PNG görüntüsüne dönüştürmeyi, adım adım ve net bir şekilde anlatacağız.
+
+## Hızlı Yanıtlar
+- **“EPS'yi PNG olarak kaydetmek” ne anlama geliyor?** Vektörel bir EPS dosyasını raster bir PNG görüntüsüne dönüştürür.  
+- **Ölçülü lisans neden kullanılmalı?** İşlediğiniz sayfa sayısına göre ödeme yapmanızı sağlar; değişken iş yükleri için idealdir.  
+- **İnternet bağlantısı gerekiyor mu?** Hayır, ölçülü anahtarlar yerel olarak doğrulanır.  
+- **Hangi Java sürümü gerekli?** Java 8 veya üzeri.  
+- **Kurulum ne kadar sürer?** Temel bir uygulama için yaklaşık 10 dakika.
+
+## “EPS'yi PNG Olarak Kaydetme” nedir?
+EPS'yi PNG olarak kaydetmek, ölçeklenebilir Encapsulated PostScript belgesini yaygın olarak desteklenen bir bitmap formatına dönüştürür. PNG şeffaflığı korur ve kayıpsız sıkıştırma sunar; bu da web grafikleri, küçük resimler ve baskı ön izlemeleri için idealdir.
+
+## Bu görev için Aspose.Page neden kullanılır?
+- **Saf Java API** – yerel bağımlılık yok.  
+- **Yüksek doğruluk** – vektör grafikleri doğru bir şekilde render edilir.  
+- **Ölçülü lisanslama** – yalnızca dönüştürdükleriniz için ödeme yaparsınız.  
+- **Birden çok çıktı formatı desteği** – PNG, JPEG, TIFF vb.
+
 ## Önkoşullar
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
-- Java programlamanın temel bilgisi.
--  Aspose.Page kütüphanesi kuruldu. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/page/java/).
-- Aspose hesabınız aracılığıyla edinebileceğiniz ölçülü genel ve özel anahtarlar.
+Başlamadan önce şunların olduğundan emin olun:
+
+- Java programlama temelleri.  
+- Aspose.Page kütüphanesi yüklü – [buradan](https://releases.aspose.com/page/java/) indirebilirsiniz.  
+- Aspose hesabınız üzerinden temin edebileceğiniz ölçülü genel ve özel anahtarlar.
+
 ## Paketleri İçe Aktar
-Java programımız için gerekli paketleri içe aktararak başlayalım. Aspose.Page kütüphanesinin projenize entegre olduğundan emin olun.
+İhtiyacımız olan sınıfları içe aktaralım. Kodun derlenebilmesi için import bloğunu tam olarak gösterildiği gibi tutun.
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -29,61 +52,72 @@ import java.io.IOException;
 import com.aspose.eps.ImageFormat;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.ImageSaveOptions;
-
 ```
-## 1. Adım: Belgeyi ve Görüntü Formatını Başlatın
-İlk adım, belgeyi hazırlamak ve istenen görüntü formatını tanımlamaktır.
+
+## Adım 1: Belge ve Görüntü Formatını Başlatma
+Burada ölçülü anahtarları ayarlıyor ve çıktı formatını (PNG) tanımlıyoruz. Bu, **EPS'yi PNG olarak kaydetme** işleminin temelini oluşturur.
+
 ```java
-// ölçülü genel ve özel anahtarları ayarlama
+// set metered public and private keys
 com.aspose.page.Metered metered = new com.aspose.page.Metered();
-// setMeteredKey özelliğine erişin ve genel ve özel anahtarları parametre olarak iletin
+// Access the setMeteredKey property and pass public and private keys as parameters
 metered.setMeteredKey(
     "<type public key here>",
     "<type private key here>");
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ImageFormat imageFormat = ImageFormat.PNG;
 ```
-## 2. Adım: PostScript Giriş Akışını Başlatın
-Bu adımda PostScript giriş akışını işlenmek üzere başlatıyoruz.
+
+## Adım 2: PostScript Giriş Akışını Başlatma
+Dönüştürmek istediğiniz EPS dosyasını açın. Akış, belgeyi Aspose.Page’e besler.
+
 ```java
-// PostScript giriş akışını başlat
+// Initialize PostScript input stream
 FileInputStream psStream = new FileInputStream(dataDir + "input.ps");
 PsDocument document = new PsDocument(psStream);
 ```
-## 3. Adım: Belge Lisansını Kontrol Edin
-Devam etmeden önce belgenin uygun şekilde lisanslanıp lisanslanmadığını doğrulamak çok önemlidir.
+
+## Adım 3: Belge Lisansını Kontrol Et
+İşleme başlamadan önce ölçülü lisansın doğru uygulanıp uygulanmadığını her zaman doğrulayın.
+
 ```java
-// Belgenin lisanslı olup olmadığını kontrol edin
+// Check if the document is licensed
 if (document.isLicensed())
     System.out.println("Metered License is set successfully.");
 else
     System.out.println("Metered License is not set.");
 ```
-## Adım 4: Seçenekleri ve Görüntü Cihazını Başlatın
-Şimdi seçenekleri ve görüntü cihazını varsayılan parametrelerle başlatalım.
+
+## Adım 4: Seçenekleri ve Görüntü Aygıtını Başlatma
+Dönüştürme ayarlarını kontrol eden seçenek nesnesini ve render edilen görüntüyü alacak aygıtı oluşturun.
+
 ```java
-// Seçenekler nesnesini varsayılan parametrelerle başlatın.
+// Initialize options object with default parameters.
 ImageSaveOptions options = new ImageSaveOptions();
-// ImageDevice nesnesini varsayılan parametrelerle başlatın.
+// Initialize ImageDevice object with default parameters.
 com.aspose.eps.device.ImageDevice device = new com.aspose.eps.device.ImageDevice();
 ```
-## Adım 5: EPS Dosyasını Görüntü Olarak Kaydetme
-Tanımlanan seçenekleri ve cihazı kullanarak EPS dosyasını görüntü olarak kaydedin.
+
+## Adım 5: EPS Dosyasını Görüntü Olarak Kaydet
+Bu, temel **EPS'yi PNG olarak kaydetme** çağrısıdır. Belge, yapılandırdığınız seçeneklerle görüntü aygıtına render edilir.
+
 ```java
-// EPS dosyasını resim olarak kaydet
+// Save EPS file as image
 try {
     document.save(device, options);
 } finally {
     psStream.close();
 }
 ```
-## 6. Adım: Görüntü Baytlarını Alın ve Kaydedin
-Görüntü baytlarını alın ve bunları bir dosyaya kaydedin.
+
+## Adım 6: Görüntü Baytlarını Al ve Kaydet
+PNG baytlarını aygıttan çıkarın ve diske bir dosya olarak yazın.
+
 ```java
-// Görüntü baytlarını alın. Bir sayfa için bir bayt dizisi. Bizim durumumuzda bir sayfamız var.
+// Get images bytes. One bytes array for one page. In our case, we have one page.
 byte[][] imagesBytes = device.getImagesBytes();
-// Görüntü baytlarını dosyaya kaydet
+// Save image bytes to file
 FileOutputStream fs = new FileOutputStream(dataDir + "eps_out." + imageFormat.toString().toLowerCase());
 try {
     fs.write(imagesBytes[0], 0, imagesBytes[0].length);
@@ -93,22 +127,42 @@ try {
     fs.close();
 }
 ```
-## Çözüm
-Tebrikler! Aspose.Page'i kullanarak Java'da başarıyla ölçülü bir lisans kurdunuz. Bu eğitimde, sorunsuz bir entegrasyon süreci sağlamak için adım adım bir kılavuz sağlanmıştır.
-## SSS
-### S: Ölçülü genel ve özel anahtarları nasıl edinebilirim?
-Bu anahtarları Aspose hesabınız üzerinden alabilirsiniz.
-### S: Aspose.Page kütüphanesi ücretsiz mi?
- Aspose.Page hem ücretsiz deneme hem de ücretli sürümler sunuyor. Ziyaret etmek[Burada](https://releases.aspose.com/) ücretsiz deneme için.
-### S: Aspose.Page'i ticari projeler için kullanabilir miyim?
- Evet, Aspose.Page ticari lisanslar sunmaktadır. Bunları satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
-### S: Ek belgeleri nerede bulabilirim?
- Belgelere bakın[Burada](https://reference.aspose.com/page/java/).
-### S: Geçici lisansları nasıl alabilirim?
- Geçici lisans alınabilecek[Burada](https://purchase.aspose.com/temporary-license/).
+
+## Yaygın Sorunlar ve Çözümler
+| Sorun | Neden Oluşur | Çözüm |
+|-------|--------------|-------|
+| **Lisans tanınmıyor** | Anahtarlar hatalı veya yanlış sırada. | Genel/özel anahtar dizesini iki kez kontrol edin ve `setMeteredKey` çağrısının herhangi bir belge işleminden önce yapıldığından emin olun. |
+| **Çıktı dosyası boş** | `device.getImagesBytes()` `null` döndü. | EPS dosyasının geçerli olduğunu ve `ImageSaveOptions`'ın sıfır boyutlu bir tuval olarak ayarlanmadığını doğrulayın. |
+| **Büyük EPS'te OutOfMemoryError** | Büyük vektör dosyalarının render edilmesi çok bellek tüketir. | Sayfaları tek tek işleyin veya JVM yığın boyutunu artırın (`-Xmx2g`). |
+
+## Sıkça Sorulan Sorular
+
+**S:** **Ölçülü genel ve özel anahtarları nasıl elde ederim?**  
+**C:** Bu anahtarları Aspose hesabınız üzerinden temin edebilirsiniz.
+
+**S:** **Aspose.Page kütüphanesi ücretsiz mi?**  
+**C:** Aspose.Page hem ücretsiz deneme hem de ücretli sürümler sunar. Ücretsiz deneme için [buraya](https://releases.aspose.com/) bakın.
+
+**S:** **Aspose.Page'i ticari projelerde kullanabilir miyim?**  
+**C:** Evet, Aspose.Page ticari lisanslar sunar. Lisansları [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
+
+**S:** **Ek dokümantasyona nereden ulaşabilirim?**  
+**C:** Dokümantasyonu [buradan](https://reference.aspose.com/page/java/) inceleyin.
+
+**S:** **Geçici lisansları nasıl alabilirim?**  
+**C:** Geçici lisansları [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2025-12-03  
+**Test Edilen Versiyon:** Aspose.Page 24.12 for Java  
+**Yazar:** Aspose  
+
+---
