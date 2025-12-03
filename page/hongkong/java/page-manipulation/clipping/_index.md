@@ -150,15 +150,15 @@ document.save();
 ## 結論
 掌握 **儲存為 PostScript**、**如何裁剪形狀**、**設定筆劃樣式** 以及 **套用裁剪區域** 後，您即可以 Aspose.Page 精確控制 Java 圖形的渲染。嘗試不同的幾何圖形、虛線樣式與顏色，發掘向量文件創建的全部潛能。
 
+---
+
+**最後更新：** 2025-12-03  
+**測試環境：** Aspose.Page for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-03  
-**測試環境：** Aspose.Page for Java 24.11  
-**作者：** Aspose

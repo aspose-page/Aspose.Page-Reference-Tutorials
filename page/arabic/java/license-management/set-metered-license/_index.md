@@ -152,15 +152,15 @@ try {
 **س: كيف يمكنني الحصول على تراخيص مؤقتة؟**  
 ج: يمكن الحصول على تراخيص مؤقتة [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**آخر تحديث:** 2025-12-03  
+**تم الاختبار باستخدام:** Aspose.Page 24.12 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-03  
-**تم الاختبار باستخدام:** Aspose.Page 24.12 for Java  
-**المؤلف:** Aspose

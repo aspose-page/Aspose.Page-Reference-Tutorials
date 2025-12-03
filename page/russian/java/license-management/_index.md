@@ -90,13 +90,6 @@ Aspose.Page — это API, предназначенное исключител�
 ### [Установить метрическую лицензию в Java](./set-metered-license/)
 Исследуйте бесшовную интеграцию Aspose.Page с Java. Легко настройте метрические лицензии и улучшите возможности обработки документов.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В: Можно ли использовать метрическую лицензию в продакшн‑среде?**  
@@ -120,4 +113,9 @@ Aspose.Page — это API, предназначенное исключител�
 **Тестировано с:** Aspose.Page for Java 24.12  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

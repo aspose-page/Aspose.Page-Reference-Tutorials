@@ -152,15 +152,15 @@ Sí, puedes acceder a la prueba gratuita de Aspose.Page [aquí](https://releases
 ## Conclusión
 Al dominar **guardar como PostScript**, **cómo recortar formas**, **establecer estilo de trazo** y **aplicar región de recorte**, obtienes un control preciso sobre el renderizado de gráficos Java con Aspose.Page. Experimenta con diferentes geometrías, patrones de guiones y colores para desbloquear todo el potencial de la creación de documentos basados en vectores.
 
+---
+
+**Última actualización:** 2025-12-03  
+**Probado con:** Aspose.Page for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-03  
-**Probado con:** Aspose.Page for Java 24.11  
-**Autor:** Aspose

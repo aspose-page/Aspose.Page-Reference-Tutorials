@@ -84,13 +84,6 @@ Explorez l’art du découpage dans la manipulation de pages Java avec Aspose.Pa
 ### [Transformations dans la manipulation de pages Java](./transformations/)
 Apprenez à réaliser des transformations avancées de pages en Java avec Aspose.Page pour Java. Renforcez vos applications Java grâce à des capacités de manipulation puissantes.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Foire aux questions
 
 **Q : Puis‑je utiliser le découpage et la rotation ensemble dans un même document ?**  
@@ -114,4 +107,9 @@ R : Aspose.Page pour Java prend en charge Java 8 et les environnements d’e
 **Testé avec :** Aspose.Page 24.12 pour Java  
 **Auteur :** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

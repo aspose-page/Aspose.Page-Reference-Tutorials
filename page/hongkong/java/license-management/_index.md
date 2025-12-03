@@ -89,13 +89,6 @@ Metered 授權免除前期購買的需求，並消除過度配置的風險。您
 
 探索 Aspose.Page 與 Java 的無縫整合。輕鬆設定 metered 授權，提升您的文件處理能力。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 可以在正式環境中使用 metered 授權嗎？**  
@@ -118,3 +111,10 @@ A: 登入您的 Aspose 帳戶，前往 **Licensing**（授權）區段，檢視 
 **最後更新：** 2025-12-03  
 **測試環境：** Aspose.Page for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -83,13 +83,6 @@ Utforska konsten att clippa i Java Page Manipulation med Aspose.Page. Bemästra 
 ### [Transformations in Java Page Manipulation](./transformations/)
 Lär dig hur du utför avancerade sidtransformations i Java med Aspose.Page för Java. Förbättra dina Java‑applikationer med kraftfulla manipuleringsmöjligheter.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda clipping och rotation tillsammans i ett enda dokument?**  
@@ -113,4 +106,9 @@ A: Aspose.Page för Java stöder Java 8 och nyare runtime‑miljöer.
 **Testad med:** Aspose.Page 24.12 för Java  
 **Författare:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

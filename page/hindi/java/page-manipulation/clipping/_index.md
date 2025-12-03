@@ -151,15 +151,15 @@ document.save();
 ## निष्कर्ष
 **PostScript के रूप में सहेजें**, **शेप्स को क्लिप कैसे करें**, **स्टroke स्टाइल सेट करें**, और **क्लिपिंग रीजन लागू करें** में निपुण होकर आप Aspose.Page के साथ जावा ग्राफ़िक्स रेंडरिंग पर सटीक नियंत्रण प्राप्त करते हैं। विभिन्न ज्यामितियों, डैश पैटर्न, और रंगों के साथ प्रयोग करें ताकि वेक्टर‑आधारित दस्तावेज़ निर्माण की पूरी क्षमता को अनलॉक कर सकें।
 
+---
+
+**अंतिम अपडेट:** 2025-12-03  
+**परीक्षित संस्करण:** Aspose.Page for Java 24.11  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-03  
-**परीक्षित संस्करण:** Aspose.Page for Java 24.11  
-**लेखक:** Aspose

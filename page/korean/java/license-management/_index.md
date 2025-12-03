@@ -91,13 +91,6 @@ Aspose.Page는 Java 전용 API로, 개발자가 Microsoft Office나 Adobe Acroba
 ### [Java에서 사용량 기반 라이선스 설정](./set-metered-license/)
 Aspose.Page와 Java의 원활한 통합을 탐색하십시오. 사용량 기반 라이선스를 손쉽게 설정하고 문서 처리 능력을 한층 강화할 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 프로덕션 환경에서 사용량 기반 라이선스를 사용할 수 있나요?**  
@@ -115,6 +108,15 @@ A: 전적으로 그렇습니다. `License` 클래스는 다중 스레드 환경�
 **Q: 사용량 통계를 어떻게 확인할 수 있나요?**  
 A: Aspose 계정에 로그인한 뒤 **Licensing** 섹션으로 이동하고 **Metered Usage** 대시보드를 확인하십시오.
 
+---
+
 **Last Updated:** 2025-12-03  
 **Tested With:** Aspose.Page for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

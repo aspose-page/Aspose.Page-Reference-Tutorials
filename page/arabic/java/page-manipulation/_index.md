@@ -83,13 +83,6 @@ weight: 20
 ### [التحويلات في معالجة صفحات Java](./transformations/)
 تعلم كيفية تنفيذ التحويلات المتقدمة للصفحات في Java باستخدام Aspose.Page for Java. عزز تطبيقات Java الخاصة بك بقدرات معالجة قوية.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام القصّ والتدوير معًا في مستند واحد؟**  
@@ -113,4 +106,9 @@ weight: 20
 **تم الاختبار مع:** Aspose.Page 24.12 for Java  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

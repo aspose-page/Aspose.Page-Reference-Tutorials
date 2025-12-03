@@ -83,13 +83,6 @@ Fedezd fel a clipping művészetét a Java Page Manipulation-ben az Aspose.Page 
 ### [Transformations a Java Page Manipulation-ben](./transformations/)
 Tanuld meg, hogyan hajts végre fejlett oldaltranszformációkat Java-ban az Aspose.Page for Java segítségével. Fejleszd Java alkalmazásaidat erőteljes manipulációs képességekkel.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatok clipping-et és forgatást együtt egyetlen dokumentumban?**  
@@ -112,3 +105,10 @@ A: Az Aspose.Page for Java támogatja a Java 8 és újabb futtatókörnyezeteket
 **Utolsó frissítés:** 2025-12-03  
 **Tesztelve a következővel:** Aspose.Page 24.12 for Java  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

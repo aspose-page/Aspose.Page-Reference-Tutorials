@@ -152,17 +152,15 @@ V: Tekintsd meg a dokumentációt [itt](https://reference.aspose.com/page/java/)
 **K: Hogyan szerezhetek ideiglenes licenceket?**  
 V: Ideiglenes licenceket itt szerezhetsz [itt](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utolsó frissítés:** 2025-12-03  
 **Tesztelve a következővel:** Aspose.Page 24.12 for Java  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

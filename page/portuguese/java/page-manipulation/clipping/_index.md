@@ -151,15 +151,15 @@ Sim, você pode acessar a avaliação gratuita do Aspose.Page [aqui](https://rel
 ## Conclusão
 Ao dominar **save as PostScript**, **how to clip shapes**, **set stroke style** e **apply clipping region**, você obtém controle preciso sobre a renderização gráfica Java com Aspose.Page. Experimente diferentes geometrias, padrões de traço e cores para desbloquear todo o potencial da criação de documentos baseados em vetor.
 
+---
+
+**Última atualização:** 2025-12-03  
+**Testado com:** Aspose.Page for Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-03  
-**Testado com:** Aspose.Page for Java 24.11  
-**Autor:** Aspose

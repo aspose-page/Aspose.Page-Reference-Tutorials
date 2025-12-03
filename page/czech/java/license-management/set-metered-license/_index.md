@@ -152,17 +152,15 @@ A: Odkazujte se na dokumentaci [zde](https://reference.aspose.com/page/java/).
 **Q: Jak mohu získat dočasné licence?**  
 A: Dočasné licence lze získat [zde](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-03  
 **Testováno s:** Aspose.Page 24.12 for Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

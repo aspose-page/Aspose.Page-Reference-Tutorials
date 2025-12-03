@@ -93,13 +93,6 @@ Készen áll a kezdésre? [Állítsa be a metered licencet Java-ban](./set-meter
 
 Fedezze fel az Aspose.Page Java-val való zökkenőmentes integrációját. Állítson be metered licenceket könnyedén, és javítsa dokumentumfeldolgozási képességeit.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatok metered licencet éles környezetben?**  
@@ -122,3 +115,10 @@ A: Jelentkezzen be az Aspose fiókjába, navigáljon a **Licensing** szekcióba,
 **Utoljára frissítve:** 2025-12-03  
 **Tesztelve:** Aspose.Page for Java 24.12  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -92,13 +92,6 @@ Gotowy, aby rozpocząć? [Ustaw licencję rozliczaną w Javie](./set-metered-lic
 ### [Ustaw licencję rozliczaną w Javie](./set-metered-license/)
 Poznaj bezproblemową integrację Aspose.Page z Javą. Skonfiguruj licencje rozliczane bez wysiłku i zwiększ możliwości przetwarzania dokumentów.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać licencji rozliczanej w środowisku produkcyjnym?**  
@@ -122,4 +115,9 @@ A: Zaloguj się na swoje konto Aspose, przejdź do sekcji **Licensing** i przegl
 **Tested With:** Aspose.Page for Java 24.12  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

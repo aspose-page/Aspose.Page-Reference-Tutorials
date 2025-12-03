@@ -93,13 +93,6 @@ Prêt à commencer ? [Set Metered License in Java](./set-metered-license/) et 
 
 Explorez l’intégration transparente d’Aspose.Page avec Java. Configurez des licences à compte sans effort et améliorez vos capacités de traitement de documents.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Puis‑je utiliser une licence à compte en environnement de production ?**  
@@ -122,3 +115,10 @@ R : Connectez‑vous à votre compte Aspose, accédez à la section **Licensin
 **Dernière mise à jour :** 2025-12-03  
 **Testé avec :** Aspose.Page for Java 24.12  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

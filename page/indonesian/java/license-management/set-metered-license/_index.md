@@ -153,17 +153,15 @@ J: Lihat dokumentasi [here](https://reference.aspose.com/page/java/).
 **T: Bagaimana cara mendapatkan lisensi sementara?**  
 J: Lisensi sementara dapat diperoleh [here](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-03  
 **Diuji Dengan:** Aspose.Page 24.12 untuk Java  
 **Penulis:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

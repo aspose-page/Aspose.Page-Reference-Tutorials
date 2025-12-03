@@ -152,15 +152,15 @@ Yes, you can access the free trial of Aspose.Page [here](https://releases.aspose
 ## Conclusion
 En maîtrisant **enregistrer en PostScript**, **comment découper des formes**, **définir le style du trait**, et **appliquer une région de découpage**, vous obtenez un contrôle précis sur le rendu graphique Java avec Aspose.Page. Expérimentez avec différentes géométries, motifs de tirets et couleurs pour exploiter tout le potentiel de la création de documents vectoriels.
 
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose

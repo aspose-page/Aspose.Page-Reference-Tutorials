@@ -151,15 +151,15 @@ Ja, je kunt de gratis proefversie van Aspose.Page [hier](https://releases.aspose
 ## Conclusie
 Door **opslaan als PostScript**, **hoe je vormen clippt**, **stroke‑stijl instellen**, en **clipping‑regio toepassen** onder de knie te krijgen, krijg je precieze controle over Java‑graphics rendering met Aspose.Page. Experimenteer met verschillende geometrieën, stippelpatronen en kleuren om het volledige potentieel van vector‑gebaseerde documentcreatie te benutten.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-03  
+**Getest met:** Aspose.Page for Java 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-03  
-**Getest met:** Aspose.Page for Java 24.11  
-**Auteur:** Aspose

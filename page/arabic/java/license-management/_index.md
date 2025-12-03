@@ -91,12 +91,6 @@ Aspose.Page هو API مخصص لـ Java يتيح للمطورين إنشاء، �
 ### [إعداد الترخيص المترصد في Java](./set-metered-license/)
 استكشف التكامل السلس لـ Aspose.Page مع Java. قم بإعداد تراخيص مترصدة بسهولة وعزز قدرات معالجة المستندات لديك.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ## الأسئلة المتكررة
 
@@ -121,4 +115,9 @@ Aspose.Page هو API مخصص لـ Java يتيح للمطورين إنشاء، �
 **تم الاختبار مع:** Aspose.Page للـ Java 24.12  
 **المؤلف:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

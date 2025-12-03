@@ -152,17 +152,15 @@ try {
 **प्रश्न: अस्थायी लाइसेंस कैसे प्राप्त करें?**  
 उत्तर: अस्थायी लाइसेंस आप [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-12-03  
 **टेस्टेड संस्करण:** Aspose.Page 24.12 for Java  
 **लेखक:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

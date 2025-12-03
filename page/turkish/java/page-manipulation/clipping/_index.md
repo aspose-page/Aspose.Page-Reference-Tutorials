@@ -151,15 +151,15 @@ Evet, Aspose.Page’in ücretsiz denemesine [buradan](https://releases.aspose.co
 ## Sonuç
 **PostScript olarak kaydet**, **şekilleri nasıl kırpacağınız**, **çizgi stilini ayarlama** ve **kırpma bölgesi uygulama** konularında uzmanlaşarak Aspose.Page ile Java grafik render’ını tam kontrol edebilirsiniz. Farklı geometriler, kesik desenler ve renklerle deneyler yaparak vektör tabanlı belge oluşturmanın tam potansiyelini ortaya çıkarın.
 
+---
+
+**Son Güncelleme:** 2025-12-03  
+**Test Edilen Versiyon:** Aspose.Page for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-03  
-**Test Edilen Versiyon:** Aspose.Page for Java 24.11  
-**Yazar:** Aspose

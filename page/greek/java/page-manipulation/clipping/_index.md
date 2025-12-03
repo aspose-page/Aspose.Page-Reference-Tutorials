@@ -151,15 +151,15 @@ document.save();
 ## Συμπέρασμα
 Με την εξειδίκευση στο **save as PostScript**, **how to clip shapes**, **set stroke style**, και **apply clipping region**, αποκτάτε ακριβή έλεγχο της απόδοσης γραφικών Java με το Aspose.Page. Πειραματιστείτε με διαφορετικές γεωμετρίες, μοτίβα dash και χρώματα για να αξιοποιήσετε πλήρως το δυναμικό της δημιουργίας εγγράφων βάσει διανυσμάτων.
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-03  
+**Δοκιμή Με:** Aspose.Page for Java 24.11  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-03  
-**Δοκιμή Με:** Aspose.Page for Java 24.11  
-**Συγγραφέας:** Aspose

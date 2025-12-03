@@ -83,13 +83,6 @@ Aspose.Page for Java предоставляет мощный набор возм
 ### [Transformations in Java Page Manipulation](./transformations/)
 Узнайте, как выполнять продвинутые трансформации страниц на Java с помощью Aspose.Page for Java. Улучшите свои Java‑приложения мощными возможностями манипуляции.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать обрезку и вращение вместе в одном документе?**  
@@ -113,4 +106,9 @@ A: Aspose.Page for Java поддерживает Java 8 и более новы�
 **Тестировано с:** Aspose.Page 24.12 for Java  
 **Автор:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

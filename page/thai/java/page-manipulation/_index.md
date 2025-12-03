@@ -83,13 +83,6 @@ Aspose.Page for Java นำพลังการทำงานมาสู่�
 ### [Transformations in Java Page Manipulation](./transformations/)
 เรียนรู้วิธีทำ Transformations ขั้นสูงใน Java ด้วย Aspose.Page for Java เสริมแอปพลิเคชัน Java ของคุณด้วยความสามารถการจัดการที่ทรงพลัง
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **Q: Can I use clipping and rotation together in a single document?**  
@@ -112,3 +105,10 @@ A: Aspose.Page for Java รองรับ Java 8 และ runtime ที่ใ
 **อัปเดตล่าสุด:** 2025-12-03  
 **ทดสอบด้วย:** Aspose.Page 24.12 for Java  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

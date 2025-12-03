@@ -151,15 +151,15 @@ Igen, a [próba verziót itt](https://releases.aspose.com/) töltheted le.
 ## Összegzés
 A **mentés PostScriptként**, a **hogyan vágj ki alakzatokat**, a **vonalstílus beállítása** és a **kivágási régió alkalmazása** elsajátításával precíz irányítást kapsz a Java grafika rendereléséhez az Aspose.Page‑del. Kísérletezz különböző geometriákkal, szaggatott mintákkal és színekkel, hogy kiaknázd a vektor‑alapú dokumentumkészítés teljes potenciálját.
 
+---
+
+**Utoljára frissítve:** 2025-12-03  
+**Tesztelt verzió:** Aspose.Page for Java 24.11  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-12-03  
-**Tesztelt verzió:** Aspose.Page for Java 24.11  
-**Szerző:** Aspose

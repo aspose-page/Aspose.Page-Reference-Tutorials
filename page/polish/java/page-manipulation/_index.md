@@ -83,13 +83,6 @@ Poznaj sztukę przycinania w manipulacji stronami w Javie z Aspose.Page. Opanuj 
 ### [Transformations in Java Page Manipulation](./transformations/)
 Dowiedz się, jak wykonywać zaawansowane transformacje stron w Javie przy użyciu Aspose.Page for Java. Wzbogacaj swoje aplikacje Java o potężne możliwości manipulacji.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać przycinania i rotacji razem w jednym dokumencie?**  
@@ -113,4 +106,9 @@ A: Aspose.Page for Java wspiera Java 8 oraz nowsze środowiska uruchomieniowe.
 **Testowano z:** Aspose.Page 24.12 for Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

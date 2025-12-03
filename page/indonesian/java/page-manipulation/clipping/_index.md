@@ -151,15 +151,15 @@ Ya, Anda dapat mengakses trial gratis Aspose.Page [di sini](https://releases.asp
 ## Kesimpulan
 Dengan menguasai **save as PostScript**, **cara memotong bentuk**, **set stroke style**, dan **apply clipping region**, Anda memperoleh kontrol presisi atas rendering grafik Java dengan Aspose.Page. Bereksperimenlah dengan berbagai geometri, pola dash, dan warna untuk membuka potensi penuh pembuatan dokumen berbasis vektor.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-03  
+**Diuji Dengan:** Aspose.Page untuk Java 24.11  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-03  
-**Diuji Dengan:** Aspose.Page untuk Java 24.11  
-**Penulis:** Aspose

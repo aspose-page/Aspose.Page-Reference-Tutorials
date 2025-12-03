@@ -92,13 +92,6 @@ Jste připraveni začít? [Set Metered License in Java](./set-metered-license/) 
 ### [Set Metered License in Java](./set-metered-license/)
 Prozkoumejte bezproblémovou integraci Aspose.Page s Javou. Nastavte měřené licence snadno a vylepšete své schopnosti zpracování dokumentů.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu používat měřenou licenci v produkčním prostředí?**  
@@ -121,3 +114,10 @@ A: Přihlaste se ke svému účtu Aspose, přejděte do sekce **Licensing** a pr
 **Poslední aktualizace:** 2025-12-03  
 **Testováno s:** Aspose.Page for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

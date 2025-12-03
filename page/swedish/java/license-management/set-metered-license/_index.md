@@ -152,15 +152,15 @@ A: Se dokumentationen [here](https://reference.aspose.com/page/java/).
 **Q: Hur kan jag få tillfälliga licenser?**  
 A: Tillfälliga licenser kan erhållas [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Senast uppdaterad:** 2025-12-03  
+**Testad med:** Aspose.Page 24.12 för Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-03  
-**Testad med:** Aspose.Page 24.12 för Java  
-**Författare:** Aspose

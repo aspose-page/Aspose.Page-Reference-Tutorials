@@ -92,13 +92,6 @@ Siap memulai? [Set Metered License in Java](./set-metered-license/) dan saksikan
 ### [Atur Lisensi Metered di Java](./set-metered-license/)
 Jelajahi integrasi mulus Aspose.Page dengan Java. Atur lisensi metered dengan mudah dan tingkatkan kapabilitas pemrosesan dokumen Anda.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan lisensi metered di lingkungan produksi?**  
@@ -121,3 +114,10 @@ A: Masuk ke akun Aspose Anda, navigasikan ke bagian **Licensing**, dan tinjau da
 **Terakhir Diperbarui:** 2025-12-03  
 **Diuji Dengan:** Aspose.Page for Java 24.12  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

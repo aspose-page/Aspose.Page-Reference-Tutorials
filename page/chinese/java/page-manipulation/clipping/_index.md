@@ -148,15 +148,15 @@ document.save();
 ## 结论
 通过掌握 **save as PostScript**、**how to clip shapes**、**set stroke style** 和 **apply clipping region**，您可以对使用 Aspose.Page 的 Java 图形渲染实现精确控制。尝试不同的几何形状、虚线模式和颜色，以释放基于矢量的文档创建的全部潜力。
 
+---
+
+**最后更新:** 2025-12-03  
+**测试环境:** Aspose.Page for Java 24.11  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新:** 2025-12-03  
-**测试环境:** Aspose.Page for Java 24.11  
-**作者:** Aspose

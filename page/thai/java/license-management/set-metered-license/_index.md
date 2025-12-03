@@ -152,17 +152,15 @@ try {
 **ถาม: จะขอไลเซนส์ชั่วคราวได้อย่างไร?**  
 ตอบ: ไลเซนส์ชั่วคราวสามารถขอได้ที่ [here](https://purchase.aspose.com/temporary-license/)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2025-12-03  
 **ทดสอบกับ:** Aspose.Page 24.12 for Java  
 **ผู้เขียน:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

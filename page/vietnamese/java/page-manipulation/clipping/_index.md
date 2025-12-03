@@ -149,15 +149,15 @@ Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Page 
 ## Kết luận
 Bằng cách nắm vững **save as PostScript**, **cách clip các hình**, **set stroke style**, và **apply clipping region**, bạn sẽ có kiểm soát chính xác đối với việc render đồ họa Java với Aspose.Page. Hãy thử nghiệm với các hình học, mẫu dash và màu sắc khác nhau để khai thác tối đa tiềm năng của việc tạo tài liệu dựa trên vector.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-03  
+**Kiểm thử với:** Aspose.Page for Java 24.11  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-03  
-**Kiểm thử với:** Aspose.Page for Java 24.11  
-**Tác giả:** Aspose

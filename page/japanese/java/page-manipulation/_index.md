@@ -82,13 +82,6 @@ Aspose.Page を使用した Javaページ操作におけるクリッピングの
 ### [Javaページ操作における変換](./transformations/)
 Aspose.Page for Java を使用して Java で高度なページ変換を実行する方法を学び、強力な操作機能で Java アプリケーションを強化しましょう。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: Can I use clipping and rotation together in a single document?**  
@@ -106,6 +99,15 @@ A: 商用環境での使用には商用ライセンスが必要です。評価�
 **Q: Which Java versions are supported?**  
 A: Aspose.Page for Java は Java 8 以降のランタイムをサポートしています。
 
+---
+
 **Last Updated:** 2025-12-03  
 **Tested With:** Aspose.Page 24.12 for Java  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

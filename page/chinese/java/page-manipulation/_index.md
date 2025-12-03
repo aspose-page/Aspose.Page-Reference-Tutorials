@@ -82,13 +82,6 @@ Aspose.Page for Java 为您提供强大的功能。从精准的裁剪实现聚�
 ### [Java 页面变换](./transformations/)
 学习如何在 Java 中使用 Aspose.Page for Java 执行高级页面变换。为您的 Java 应用程序增添强大的操作能力。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q: 我可以在同一文档中同时使用裁剪和旋转吗？**  
@@ -112,4 +105,9 @@ A: Aspose.Page for Java 支持 Java 8 及更高版本的运行时。
 **Tested With:** Aspose.Page 24.12 for Java  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

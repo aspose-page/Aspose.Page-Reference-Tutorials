@@ -151,15 +151,15 @@ Ano, bezplatnou zkušební verzi Aspose.Page získáte [zde](https://releases.as
 ## Závěr
 Ovládnutím **uložení jako PostScript**, **jak ořezávat tvary**, **nastavení stylu tahu** a **použití oblasti ořezávání** získáte přesnou kontrolu nad vykreslováním Java grafiky s Aspose.Page. Experimentujte s různými geometriemi, vzory čar a barvami a odhalte plný potenciál tvorby vektorových dokumentů.
 
+---
+
+**Poslední aktualizace:** 2025-12-03  
+**Testováno s:** Aspose.Page pro Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-03  
-**Testováno s:** Aspose.Page pro Java 24.11  
-**Autor:** Aspose

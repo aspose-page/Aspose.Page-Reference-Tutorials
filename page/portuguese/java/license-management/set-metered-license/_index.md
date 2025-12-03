@@ -152,17 +152,15 @@ R: Consulte a documentação [aqui](https://reference.aspose.com/page/java/).
 **P: Como obtenho licenças temporárias?**  
 R: Licenças temporárias podem ser obtidas [aqui](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última atualização:** 2025-12-03  
 **Testado com:** Aspose.Page 24.12 for Java  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

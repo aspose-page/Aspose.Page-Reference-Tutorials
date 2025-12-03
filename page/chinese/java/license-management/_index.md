@@ -90,13 +90,6 @@ Aspose.Page 是仅面向 Java 的 API，帮助开发者创建、编辑和转换�
 ### [在 Java 中设置计量许可证](./set-metered-license/)
 探索 Aspose.Page 与 Java 的无缝集成。轻松设置计量许可证，提升文档处理能力。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问答
 
 **问：我可以在生产环境中使用计量许可证吗？**  
@@ -120,4 +113,9 @@ Aspose.Page 是仅面向 Java 的 API，帮助开发者创建、编辑和转换�
 **测试环境：** Aspose.Page for Java 24.12  
 **作者：** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

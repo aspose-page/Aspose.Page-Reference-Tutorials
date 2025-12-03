@@ -93,13 +93,6 @@ weight: 30
 
 Εξερευνήστε την απρόσκοπτη ενσωμάτωση του Aspose.Page με Java. Ρυθμίστε μετρημένες άδειες εύκολα και βελτιώστε τις δυνατότητες επεξεργασίας εγγράφων σας.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να χρησιμοποιήσω μια μετρημένη άδεια σε περιβάλλον παραγωγής;**  
@@ -122,3 +115,10 @@ weight: 30
 **Τελευταία Ενημέρωση:** 2025-12-03  
 **Δοκιμή Με:** Aspose.Page for Java 24.12  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

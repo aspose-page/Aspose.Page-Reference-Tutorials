@@ -148,15 +148,15 @@ document.save();
 ## สรุป
 ด้วยการเชี่ยวชาญ **save as PostScript**, **how to clip shapes**, **set stroke style**, และ **apply clipping region** คุณจะได้ควบคุมการเรนเดอร์กราฟิก Java อย่างแม่นยำด้วย Aspose.Page ทดลองใช้รูปทรง, รูปแบบ dash, และสีต่าง ๆ เพื่อเปิดศักยภาพเต็มที่ของการสร้างเอกสารแบบเวกเตอร์
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-03  
+**ทดสอบด้วย:** Aspose.Page for Java 24.11  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-03  
-**ทดสอบด้วย:** Aspose.Page for Java 24.11  
-**ผู้เขียน:** Aspose

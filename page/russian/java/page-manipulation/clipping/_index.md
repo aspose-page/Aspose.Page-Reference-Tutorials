@@ -147,15 +147,15 @@ document.save();
 ## Заключение
 Освоив **save as PostScript**, **how to clip shapes**, **set stroke style** и **apply clipping region**, вы получаете точный контроль над рендерингом графики Java с Aspose.Page. Экспериментируйте с различными геометриями, шаблонами штриховки и цветами, чтобы раскрыть весь потенциал создания векторных документов.
 
+---
+
+**Последнее обновление:** 2025-12-03  
+**Тестировано с:** Aspose.Page for Java 24.11  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-03  
-**Тестировано с:** Aspose.Page for Java 24.11  
-**Автор:** Aspose

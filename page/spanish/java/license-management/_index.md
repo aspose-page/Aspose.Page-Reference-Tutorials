@@ -92,13 +92,6 @@ Al dominar **aspose page license java** con una **licencia de pago por uso**, de
 ### [Configurar licencia medida en Java](./set-metered-license/)
 Explore la integración fluida de Aspose.Page con Java. Configure licencias medidas sin esfuerzo y mejore sus capacidades de procesamiento de documentos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **P: ¿Puedo usar una licencia medida en un entorno de producción?**  
@@ -122,4 +115,9 @@ R: Inicie sesión en su cuenta Aspose, navegue a la sección **Licensing** y rev
 **Probado con:** Aspose.Page for Java 24.12  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -83,13 +83,6 @@ Aspose.Page와 함께 Java 페이지 조작에서 클리핑 기술을 탐구하�
 ### [Java 페이지 조작에서 변환](./transformations/)
 Aspose.Page for Java를 사용하여 Java에서 고급 페이지 변환을 수행하는 방법을 배우세요. 강력한 조작 기능으로 Java 애플리케이션을 향상시킵니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 자주 묻는 질문
 
 **Q: 단일 문서에서 클리핑과 회전을 함께 사용할 수 있나요?**  
@@ -112,3 +105,11 @@ A: Aspose.Page for Java는 Java 8 및 그 이후 런타임을 지원합니다.
 **마지막 업데이트:** 2025-12-03  
 **테스트 환경:** Aspose.Page 24.12 for Java  
 **작성자:** Aspose
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

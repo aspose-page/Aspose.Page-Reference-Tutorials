@@ -93,13 +93,6 @@ Explore the seamless integration of Aspose.Page with Java. Set up metered licens
 
 Aspose.Page と Java のシームレスな統合をご覧ください。メータードライセンスを簡単に設定し、ドキュメント処理機能を強化します。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: 本番環境でメータードライセンスを使用できますか？**  
@@ -117,8 +110,15 @@ A: 絶対に安全です。`License` クラスは複数スレッドから同時�
 **Q: 使用統計はどこで確認できますか？**  
 A: Aspose アカウントにログインし、**Licensing** セクションへ移動して **Metered Usage** ダッシュボードを確認してください。
 
+---
+
 **最終更新日:** 2025-12-03  
 **テスト環境:** Aspose.Page for Java 24.12  
 **作者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

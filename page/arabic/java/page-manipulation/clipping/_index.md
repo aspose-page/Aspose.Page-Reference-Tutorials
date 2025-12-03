@@ -150,15 +150,15 @@ document.save();
 ## الخاتمة
 من خلال إتقان **حفظ كـ PostScript**، **كيفية قص الأشكال**، **ضبط نمط الحد**، و**تطبيق منطقة القص**، ستحصل على تحكم دقيق في عرض رسومات Java باستخدام Aspose.Page. جرّب أشكالًا مختلفة، أنماط شرطة، وألوان لتستكشف الإمكانات الكاملة لإنشاء مستندات متجهة عالية الجودة.
 
+---
+
+**آخر تحديث:** 2025-12-03  
+**تم الاختبار مع:** Aspose.Page for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-03  
-**تم الاختبار مع:** Aspose.Page for Java 24.11  
-**المؤلف:** Aspose

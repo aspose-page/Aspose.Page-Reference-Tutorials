@@ -83,13 +83,6 @@ Aspose.Page ile Java Sayfa Manipülasyonunda kırpma sanatını keşfedin. Çarp
 ### [Transformations in Java Page Manipulation](./transformations/)
 Aspose.Page for Java kullanarak Java'da gelişmiş sayfa transformasyonlarını nasıl gerçekleştireceğinizi öğrenin. Java uygulamalarınızı güçlü manipülasyon yetenekleriyle geliştirin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Tek bir belgede kırpma ve döndürmeyi birlikte kullanabilir miyim?**  
@@ -113,4 +106,9 @@ C: Aspose.Page for Java, Java 8 ve üzeri çalışma zamanlarını destekler.
 **Test Edilen Sürüm:** Aspose.Page 24.12 for Java  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

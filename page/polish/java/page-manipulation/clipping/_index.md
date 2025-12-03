@@ -150,15 +150,15 @@ Tak, możesz uzyskać dostęp do darmowej wersji próbnej Aspose.Page [tutaj](ht
 ## Podsumowanie
 Opanowując **zapis jako PostScript**, **sposób przycinania kształtów**, **ustawianie stylu obrysu** oraz **zastosowanie regionu przycinania**, zyskujesz precyzyjną kontrolę nad renderowaniem grafiki Java przy użyciu Aspose.Page. Eksperymentuj z różnymi geometriami, wzorami kresek i kolorami, aby odblokować pełny potencjał tworzenia dokumentów wektorowych.
 
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose

@@ -150,15 +150,15 @@ document.save();
 ## 결론
 **PostScript로 저장**, **도형 클리핑 방법**, **스트로크 스타일 설정**, **클리핑 영역 적용**을 마스터하면 Aspose.Page를 이용한 Java 그래픽 렌더링을 정밀하게 제어할 수 있습니다. 다양한 기하학 형태, 대시 패턴, 색상을 실험해 벡터 기반 문서 생성의 모든 잠재력을 발휘해 보세요.
 
+---
+
+**마지막 업데이트:** 2025-12-03  
+**테스트 환경:** Aspose.Page for Java 24.11  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-03  
-**테스트 환경:** Aspose.Page for Java 24.11  
-**작성자:** Aspose

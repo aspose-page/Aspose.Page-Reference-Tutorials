@@ -93,13 +93,6 @@ Sẵn sàng bắt đầu? [Set Metered License in Java](./set-metered-license/) 
 
 Khám phá việc tích hợp liền mạch của Aspose.Page với Java. Thiết lập giấy phép tính theo mức một cách dễ dàng và nâng cao khả năng xử lý tài liệu của bạn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I use a metered license in a production environment?**  
@@ -122,3 +115,10 @@ Khám phá việc tích hợp liền mạch của Aspose.Page với Java. Thiế
 **Last Updated:** 2025-12-03  
 **Tested With:** Aspose.Page for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

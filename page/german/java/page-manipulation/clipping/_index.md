@@ -151,15 +151,15 @@ Ja, die kostenlose Testversion von Aspose.Page gibt es [hier](https://releases.a
 ## Fazit
 Durch das Beherrschen von **als PostScript speichern**, **wie man Formen clippt**, **Strichstil festlegen** und **Clipping‑Bereich anwenden** erhalten Sie präzise Kontrolle über das Rendering von Java‑Grafiken mit Aspose.Page. Experimentieren Sie mit verschiedenen Geometrien, Strichmustern und Farben, um das volle Potenzial der vektorbasierten Dokumentenerstellung auszuschöpfen.
 
+---
+
+**Zuletzt aktualisiert:** 2025-12-03  
+**Getestet mit:** Aspose.Page für Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2025-12-03  
-**Getestet mit:** Aspose.Page für Java 24.11  
-**Autor:** Aspose

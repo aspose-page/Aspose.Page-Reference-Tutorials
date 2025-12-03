@@ -152,15 +152,15 @@ A: Raadpleeg de documentatie [here](https://reference.aspose.com/page/java/).
 **V: Hoe kan ik tijdelijke licenties krijgen?**  
 A: Tijdelijke licenties zijn verkrijgbaar [here](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Laatst bijgewerkt:** 2025-12-03  
+**Getest met:** Aspose.Page 24.12 voor Java  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-03  
-**Getest met:** Aspose.Page 24.12 voor Java  
-**Auteur:** Aspose

@@ -83,13 +83,6 @@ Explora el arte del recorte en la Manipulación de Páginas Java con Aspose.Page
 ### [Transformations in Java Page Manipulation](./transformations/)
 Aprende a realizar transformaciones avanzadas de página en Java usando Aspose.Page for Java. Mejora tus aplicaciones Java con potentes capacidades de manipulación.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas Frecuentes
 
 **Q: ¿Puedo usar recorte y rotación juntos en un solo documento?**  
@@ -112,3 +105,10 @@ A: Aspose.Page for Java es compatible con Java 8 y versiones posteriores.
 **Última actualización:** 2025-12-03  
 **Probado con:** Aspose.Page 24.12 for Java  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

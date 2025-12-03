@@ -148,15 +148,15 @@ Yes, you can access the free trial of Aspose.Page [here](https://releases.aspose
 ## Conclusion
 By mastering **save as PostScript**, **how to clip shapes**, **set stroke style**, and **apply clipping region**, you gain precise control over Java graphics rendering with Aspose.Page. Experiment with different geometries, dash patterns, and colors to unlock the full potential of vector‑based document creation.
 
+---
+
+**Last Updated:** 2025-12-03  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose

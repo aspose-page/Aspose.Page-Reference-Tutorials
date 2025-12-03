@@ -150,15 +150,15 @@ document.save();
 ## 結論
 **PostScriptとして保存**、**シェイプのクリップ方法**、**ストロークスタイルの設定**、**クリッピング領域の適用** をマスターすることで、Aspose.Page を使用した Java グラフィックスのレンダリングを正確に制御できます。さまざまなジオメトリ、破線パターン、カラーを試して、ベクターベースのドキュメント作成の可能性を最大限に引き出してください。
 
+---
+
+**最終更新日:** 2025-12-03  
+**テスト環境:** Aspose.Page for Java 24.11  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-03  
-**テスト環境:** Aspose.Page for Java 24.11  
-**作者:** Aspose

@@ -93,13 +93,6 @@ Bereit loszulegen? [Set Metered License in Java](./set-metered-license/) und erl
 
 Entdecken Sie die nahtlose Integration von Aspose.Page mit Java. Richten Sie Metered‑Lizenzen mühelos ein und erweitern Sie Ihre Dokumentenverarbeitungs‑Fähigkeiten.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **F: Kann ich eine Metered‑Lizenz in einer Produktionsumgebung verwenden?**  
@@ -122,3 +115,10 @@ A: Melden Sie sich bei Ihrem Aspose‑Konto an, navigieren Sie zum Abschnitt **L
 **Zuletzt aktualisiert:** 2025-12-03  
 **Getestet mit:** Aspose.Page for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

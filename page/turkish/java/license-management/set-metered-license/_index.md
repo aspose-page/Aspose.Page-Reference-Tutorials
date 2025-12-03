@@ -152,17 +152,15 @@ try {
 **S:** **Geçici lisansları nasıl alabilirim?**  
 **C:** Geçici lisansları [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-03  
 **Test Edilen Versiyon:** Aspose.Page 24.12 for Java  
 **Yazar:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
