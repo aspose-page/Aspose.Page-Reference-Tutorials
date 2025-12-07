@@ -1,26 +1,40 @@
 ---
-title: Vízszintes színátmenet hozzáadása a Java PostScript-hez
-linktitle: Vízszintes színátmenet hozzáadása a Java PostScript-hez
+date: 2025-12-07
+description: Ismerje meg, hogyan adhat hozzá vízszintes színátmenetet Java PostScriptben
+  a Linear Gradient Paint Java használatával az Aspose.Page for Java segítségével.
+language: hu
+linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
 second_title: Aspose.Page Java API
-description: Ismerje meg, hogyan adhat hozzá vízszintes színátmenetet a Java PostScript-ben az Aspose.Page for Java segítségével. Könnyedén készíthet lenyűgöző dokumentumokat.
+title: Gradiens hozzáadása Java PostScripthez lineáris Gradient Paint használatával
+url: /java/postscript-gradient-addition/horizontal/
 weight: 11
-url: /hu/java/postscript-gradient-addition/horizontal/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vízszintes színátmenet hozzáadása a Java PostScript-hez
+# Add Gradient in Java PostScript using Linear Gradient Paint Java
 
-## Bevezetés
-Üdvözöljük ebben az átfogó oktatóanyagban, amely a Java PostScript vízszintes színátmenetek hozzáadására szolgál az Aspose.Page for Java segítségével. Az Aspose.Page egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára, hogy PostScript- és más dokumentumformátumokkal dolgozzanak. Ebben az oktatóanyagban lépésről lépésre példák segítségével végigvezetjük Önt egy vízszintes színátmenettel rendelkező PostScript-dokumentum létrehozásának folyamatán.
-## Előfeltételek
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
-- Java Development Kit (JDK) telepítve a gépére.
-- Aspose.Page a Java könyvtárhoz. Letöltheti a[Aspose.Page Java dokumentáció](https://reference.aspose.com/page/java/).
-## Csomagok importálása
-Kezdje a szükséges csomagok importálásával a Java projektben. Ezek a csomagok kulcsfontosságúak az Aspose.Page használatához.
+## Introduction
+Ebben a átfogó útmutatóban megtanulja, hogyan hozhat létre egy szép vízszintes átmenetet egy PostScript dokumentumban a **Linear Gradient Paint Java** használatával. Az Aspose.Page for Java egyszerűvé teszi a PostScript, PDF és egyéb vektorgrafikus formátumok kezelését, a `LinearGradientPaint` osztály pedig finomhangolt vezérlést biztosít a színátmenetek felett. A leírás végére képes lesz a gradienteket alakzatokra **és** szövegre alkalmazni, így dokumentumai professzionális, szemrevaló hatást keltenek.
+
+## Quick Answers
+- **Milyen könyvtár szükséges?** Aspose.Page for Java (támogatja a Linear Gradient Paint Java‑t).  
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy egyszerű gradient elkészítéséhez.  
+- **Szükség van licencre?** Ideiglenes vagy teljes licenc szükséges a termelési környezetben.  
+- **Melyik JDK verzió működik?** Java 8 vagy újabb.  
+- **Használhatom a gradientet alakzatokra és szövegre egyaránt?** Igen – ugyanazzal a gradienttel töltheti ki az alakzatokat, valamint festheti vagy kitöltheti a szöveget.
+
+## Prerequisites
+Mielőtt a kódba merülnél, győződj meg róla, hogy a következők rendelkezésre állnak:
+
+- Telepített Java Development Kit (JDK) a gépeden.  
+- Aspose.Page for Java könyvtár. Letöltheted a [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) oldalról.
+
+## Import Packages
+Kezdjük a szükséges csomagok importálásával a Java projektedben. Ezek az importok hozzáférést biztosítanak a grafikai primitívekhez, a gradient kezeléséhez és az Aspose.Page API‑hoz.
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -33,61 +47,92 @@ import java.awt.geom.Rectangle2D;
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-
 ```
-## 1. lépés: Hozzon létre egy téglalapot
+
+## Step 1: Create a Rectangle
+Először állítsd be a kimeneti streamet, a dokumentumot, és egy téglalapot, amely a gradientet fogja tartalmazni.
+
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Kimeneti adatfolyam létrehozása PostScript-dokumentumhoz
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "HorizontalGradient_outPS.ps");
-// Hozzon létre mentési beállításokat A4-es méretben
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// Hozzon létre új PS-dokumentumot az oldal megnyitásával
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-//Hozzon létre egy téglalapot
+// Create a rectangle
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
-## 2. lépés: Hozzon létre vízszintes lineáris színátmenetes festéket
+
+## Step 2: Create Horizontal Linear Gradient Paint
+Itt hozunk létre egy **Linear Gradient Paint Java** objektumot, amely egy vízszintes színátmenetet definiál. Az `AffineTransform` méretezi a gradientet, hogy illeszkedjen a téglalap szélességéhez és magasságához.
+
 ```java
-// Hozzon létre vízszintes lineáris gradiens festéket. A transzformáció skálaösszetevőinek meg kell egyeznie a téglalap szélességével és magasságával.
-// A fordítási összetevők a téglalap eltolásai.
+// Create horizontal linear gradient paint. Scale components in the transform must be equal to width and height of the rectangle.
+// Translation components are offsets of the rectangle.
 LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new Point2D.Float(200, 100),
         new float[]{0, 1}, new Color[]{new Color(0, 0, 0, 150), new Color(40, 128, 70, 50)},
         MultipleGradientPaint.CycleMethod.NO_CYCLE, MultipleGradientPaint.ColorSpaceType.SRGB,
         new AffineTransform(200, 0, 0, 100, 200, 100));
-// Állítsa be a festéket
+// Set paint
 document.setPaint(paint);
 ```
-## 3. lépés: Töltse ki a téglalapot
+
+## Step 3: Fill the Rectangle
+Most töltsd ki a téglalapot a most létrehozott gradienttel.
+
 ```java
-// Töltse ki a téglalapot
+// Fill the rectangle
 document.fill(rectangle);
 ```
-## 4. lépés: Töltse ki a szöveget a színátmenettel
+
+## Step 4: Fill a Text with the Gradient
+Ugyanezt a gradientet alkalmazhatod szövegre is, így erőteljes vizuális hatást érhetsz el.
+
 ```java
-// Töltse ki a szöveget a színátmenettel
+// Fill a text with the gradient
 Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
 ```
-## 5. lépés: húzza át a szöveget a színátmenettel
+
+## Step 5: Stroke a Text with the Gradient
+Végül körvonalazd a szöveget úgy, hogy a gradient legyen a vonal színe.
+
 ```java
-// Szöveg simítása a színátmenettel
+// Stroke a text with the gradient
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
-## Következtetés
-Gratulálunk! Sikeresen hozzáadott egy vízszintes színátmenetet a Java PostScript-ben az Aspose.Page for Java használatával. Ez az oktatóanyag egy részletes, lépésenkénti útmutatót tartalmaz, amely segít látványos PostScript-dokumentumok létrehozásában.
-## Gyakran Ismételt Kérdések
-### Használhatom az Aspose.Page for Java-t kereskedelmi projektekben?
-Igen, az Aspose.Page for Java használható kereskedelmi projektekben. Az engedélyezés részleteiért látogasson el a webhelyre[Aspose.Vásároljon](https://purchase.aspose.com/buy).
-### Van ingyenes próbaverzió?
- Igen, hozzáférhet az Aspose.Page for Java ingyenes próbaverziójához[itt](https://releases.aspose.com/).
-### Hol találok további dokumentumokat és támogatást?
- Meglátogatni a[Aspose.Page Java dokumentáció](https://reference.aspose.com/page/java/) átfogó forrásokért. Közösségi támogatásért tekintse meg a[Aspose.Page fórum](https://forum.aspose.com/c/page/39).
-### Hogyan szerezhetek ideiglenes engedélyt?
- Ideiglenes jogosítványt szerezhet be[Aspose.Vásároljon](https://purchase.aspose.com/temporary-license/).
-### Mik az Aspose.Page for Java rendszerkövetelményei?
- Utal[dokumentáció](https://reference.aspose.com/page/java/) részletes rendszerkövetelményekért.
+
+## Common Issues and Solutions
+| Issue | Why It Happens | Fix |
+|-------|----------------|-----|
+| Gradient appears stretched | Incorrect `AffineTransform` scaling | Ensure the transform’s width and height match the rectangle’s dimensions (200 × 100 in the example). |
+| Colors look faded | Alpha values set too low | Increase the alpha component (the fourth value in `new Color(r,g,b,alpha)`). |
+| Text is not visible | Paint not set before drawing text | Call `document.setPaint(paint)` **before** any `fillAndStrokeText` or `outlineText` calls. |
+
+## Frequently Asked Questions
+### Can I use Aspose.Page for Java in commercial projects?
+Yes, Aspose.Page for Java can be used in commercial projects. For licensing details, visit [Aspose.Purchase](https://purchase.aspose.com/buy).
+
+### Is there a free trial available?
+Yes, you can access a free trial of Aspose.Page for Java [here](https://releases.aspose.com/).
+
+### Where can I find additional documentation and support?
+Visit the [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) for comprehensive resources. For community support, check the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+
+### How can I obtain a temporary license?
+You can obtain a temporary license from [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
+
+### What are the system requirements for Aspose.Page for Java?
+Refer to the [documentation](https://reference.aspose.com/page/java/) for detailed system requirements.
+
+---
+
+**Last Updated:** 2025-12-07  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

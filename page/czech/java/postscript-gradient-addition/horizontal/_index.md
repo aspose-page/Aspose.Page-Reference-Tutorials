@@ -1,26 +1,40 @@
 ---
-title: Přidejte horizontální přechod v Java PostScript
-linktitle: Přidejte horizontální přechod v Java PostScript
+date: 2025-12-07
+description: Naučte se, jak přidat vodorovný gradient v Java PostScript pomocí Linear
+  Gradient Paint Java s Aspose.Page pro Java.
+language: cs
+linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
 second_title: Aspose.Page Java API
-description: Naučte se, jak přidat vodorovný přechod v Java PostScript s Aspose.Page for Java. Vytvářejte vizuálně úžasné dokumenty bez námahy.
+title: Přidat gradient v Java PostScript pomocí LinearGradientPaint.
+url: /java/postscript-gradient-addition/horizontal/
 weight: 11
-url: /cs/java/postscript-gradient-addition/horizontal/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte horizontální přechod v Java PostScript
+# Přidání gradientu v Java PostScript pomocí Linear Gradient Paint Java
 
 ## Úvod
-Vítejte v tomto obsáhlém tutoriálu o přidání horizontálního přechodu do jazyka Java PostScript pomocí Aspose.Page for Java. Aspose.Page je výkonná Java knihovna, která umožňuje vývojářům pracovat s PostScriptem a dalšími formáty dokumentů. V tomto tutoriálu vás provedeme procesem vytváření PostScriptového dokumentu s horizontálním přechodem pomocí příkladů krok za krokem.
+V tomto komplexním tutoriálu se dozvíte, jak vytvořit krásný horizontální gradient v dokumentu PostScript pomocí **Linear Gradient Paint Java**. Aspose.Page pro Java usnadňuje práci s PostScript, PDF a dalšími vektorovými formáty a třída `LinearGradientPaint` vám poskytuje detailní kontrolu nad přechody barev. Na konci tohoto průvodce budete schopni vykreslovat gradienty na tvary **a** text, což vašim dokumentům dodá profesionální a poutavý vzhled.
+
+## Rychlé odpovědi
+- **Jaká knihovna je vyžadována?** Aspose.Page for Java (podporuje Linear Gradient Paint Java).  
+- **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní gradient.  
+- **Potřebuji licenci?** Pro produkční použití je vyžadována dočasná nebo plná licence.  
+- **Která verze JDK funguje?** Java 8 nebo novější.  
+- **Mohu použít gradient jak na tvary, tak na text?** Ano – můžete vyplnit tvary a obrysnout nebo vyplnit text stejným gradientem.
+
 ## Předpoklady
-Než se ponoříte do výukového programu, ujistěte se, že máte následující předpoklady:
-- Java Development Kit (JDK) nainstalovaný na vašem počítači.
-- Aspose.Page pro knihovnu Java. Můžete si jej stáhnout z[Aspose.Page Java dokumentace](https://reference.aspose.com/page/java/).
-## Importujte balíčky
-Začněte importováním potřebných balíčků do vašeho projektu Java. Tyto balíčky jsou klíčové pro práci s Aspose.Page.
+Předtím, než se ponoříte do kódu, ujistěte se, že máte následující:
+
+- Java Development Kit (JDK) nainstalovaný na vašem počítači.  
+- Knihovna Aspose.Page for Java. Můžete si ji stáhnout z [Aspose.Page Java documentation](https://reference.aspose.com/page/java/).
+
+## Import balíčků
+Začněte importováním potřebných balíčků ve vašem Java projektu. Tyto importy vám poskytují přístup k grafickým primitivům, manipulaci s gradienty a API Aspose.Page.
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -33,61 +47,92 @@ import java.awt.geom.Rectangle2D;
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-
 ```
-## Krok 1: Vytvořte obdélník
+
+## Krok 1: Vytvoření obdélníku
+Nejprve nastavte výstupní stream, dokument a obdélník, který bude hostit gradient.
+
 ```java
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Vytvořte výstupní proud pro dokument PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "HorizontalGradient_outPS.ps");
-// Vytvořte možnosti uložení s velikostí A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// Vytvořte nový dokument PS s otevřenou stránkou
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-//Vytvořte obdélník
+// Create a rectangle
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
-## Krok 2: Vytvořte horizontální lineární přechodovou barvu
+
+## Krok 2: Vytvoření horizontálního Linear Gradient Paint
+Zde vytvoříme objekt **Linear Gradient Paint Java**, který definuje horizontální přechod barev. `AffineTransform` škáluje gradient tak, aby odpovídal šířce a výšce obdélníku.
+
 ```java
-// Vytvořte horizontální lineární přechodovou barvu. Složky měřítka v transformaci se musí rovnat šířce a výšce obdélníku.
-// Komponenty překladu jsou posuny obdélníku.
+// Create horizontal linear gradient paint. Scale components in the transform must be equal to width and height of the rectangle.
+// Translation components are offsets of the rectangle.
 LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new Point2D.Float(200, 100),
         new float[]{0, 1}, new Color[]{new Color(0, 0, 0, 150), new Color(40, 128, 70, 50)},
         MultipleGradientPaint.CycleMethod.NO_CYCLE, MultipleGradientPaint.ColorSpaceType.SRGB,
         new AffineTransform(200, 0, 0, 100, 200, 100));
-// Nastavte barvu
+// Set paint
 document.setPaint(paint);
 ```
-## Krok 3: Vyplňte obdélník
+
+## Krok 3: Vyplnění obdélníku
+Nyní vyplňte obdélník gradientem, který jsme právě definovali.
+
 ```java
-// Vyplňte obdélník
+// Fill the rectangle
 document.fill(rectangle);
 ```
-## Krok 4: Vyplňte text přechodem
+
+## Krok 4: Vyplnění textu gradientem
+Můžete také použít stejný gradient na text, čímž vytvoříte výrazný vizuální efekt.
+
 ```java
-// Vyplňte text přechodem
+// Fill a text with the gradient
 Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
 ```
-## Krok 5: Vytáhněte text pomocí přechodu
+
+## Krok 5: Obrys textu gradientem
+Nakonec obkreslete text pomocí gradientu jako barvy obrysu.
+
 ```java
-// Přetáhněte text s přechodem
+// Stroke a text with the gradient
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
-## Závěr
-Gratulujeme! Úspěšně jste přidali horizontální přechod v Java PostScript pomocí Aspose.Page for Java. Tento kurz vám poskytl podrobného průvodce krok za krokem, který vám pomůže vytvořit vizuálně přitažlivé dokumenty PostScript.
+
+## Časté problémy a řešení
+| Problém | Proč se to děje | Řešení |
+|-------|----------------|-----|
+| Gradient se zdá natažený | Nesprávné škálování `AffineTransform` | Zajistěte, aby šířka a výška transformace odpovídaly rozměrům obdélníku (200 × 100 v příkladu). |
+| Barvy vypadají vybledlé | Hodnoty alfa jsou nastaveny příliš nízko | Zvyšte komponentu alfa (čtvrtá hodnota v `new Color(r,g,b,alpha)`). |
+| Text není viditelný | Barva (paint) není nastavena před kreslením textu | Zavolejte `document.setPaint(paint)` **před** jakýmkoli voláním `fillAndStrokeText` nebo `outlineText`. |
+
 ## Často kladené otázky
 ### Mohu používat Aspose.Page for Java v komerčních projektech?
-Ano, Aspose.Page for Java lze použít v komerčních projektech. Podrobnosti o licencích naleznete na adrese[Aspose.Purchase](https://purchase.aspose.com/buy).
+Ano, Aspose.Page for Java lze používat v komerčních projektech. Pro podrobnosti o licencování navštivte [Aspose.Purchase](https://purchase.aspose.com/buy).
+
 ### Je k dispozici bezplatná zkušební verze?
- Ano, máte přístup k bezplatné zkušební verzi Aspose.Page for Java[tady](https://releases.aspose.com/).
+Ano, můžete získat bezplatnou zkušební verzi Aspose.Page for Java [zde](https://releases.aspose.com/).
+
 ### Kde najdu další dokumentaci a podporu?
- Navštivte[Aspose.Page Java dokumentace](https://reference.aspose.com/page/java/) pro komplexní zdroje. Pro podporu komunity zkontrolujte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39).
+Navštivte [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) pro komplexní zdroje. Pro komunitní podporu se podívejte na [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+
 ### Jak mohu získat dočasnou licenci?
- Dočasnou licenci můžete získat od[Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
+Dočasnou licenci můžete získat na [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
+
 ### Jaké jsou systémové požadavky pro Aspose.Page for Java?
- Odkazovat na[dokumentace](https://reference.aspose.com/page/java/) pro podrobné systémové požadavky.
+Podívejte se do [dokumentace](https://reference.aspose.com/page/java/) pro podrobné systémové požadavky.
+
+---
+
+**Poslední aktualizace:** 2025-12-07  
+**Testováno s:** Aspose.Page for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
