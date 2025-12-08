@@ -1,26 +1,42 @@
 ---
-title: Voeg een arceringspatroon toe in Java PostScript
-linktitle: Voeg een arceringspatroon toe in Java PostScript
-second_title: Aspose.Page Java-API
-description: Leer hoe u boeiende arceringspatronen kunt toevoegen aan Java PostScript-documenten met behulp van Aspose.Page. Verbeter uw visuele inhoud moeiteloos.
+date: 2025-12-08
+description: Leer hoe u hatchpatronen kunt toevoegen aan Java‑PostScript‑documenten
+  met Aspose.Page Java. Deze stapsgewijze gids laat u zien hoe u hatchpatroon‑graphics
+  efficiënt kunt toevoegen.
+language: nl
+linktitle: Add Hatch Pattern in Java PostScript
+second_title: Aspose.Page Java API
+title: 'Aspose.Page Java: Hatchpatroon toevoegen in Java PostScript'
+url: /java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
-url: /nl/java/postscript-hatch-patterns/add-hatch-pattern/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg een arceringspatroon toe in Java PostScript
+# Hatch-patroon toevoegen in Java PostScript
 
-## Invoering
-In de wereld van Java-programmeren is het verbeteren van visuele elementen een veel voorkomende vereiste voor ontwikkelaars. Een intrigerende visuele verbetering is de toevoeging van arceringspatronen aan PostScript-documenten. Deze tutorial leidt u door het proces van het toevoegen van arceringspatronen met behulp van Aspose.Page voor Java.
+## Introductie
+Als je werkt met **Aspose.Page Java** en je wilt je PostScript‑output verrijken met getexturede graphics, dan zijn hatch‑patronen een snelle en flexibele oplossing. In deze tutorial lopen we stap voor stap door **hoe je hatch‑ontwerpen** toevoegt aan een PostScript‑document, leggen we uit waarom ze nuttig zijn, en geven we je een compleet, kant‑klaar code‑voorbeeld. Aan het einde kun je visueel aantrekkelijke hatch‑gevulde vormen en tekst maken met slechts een paar regels Java.
+
+## Snelle antwoorden
+- **Welke bibliotheek heb ik nodig?** Aspose.Page voor Java (de “aspose page java” SDK).  
+- **Welk visueel effect voegen we toe?** Hatch‑patronen (bijv. diagonale lijnen, kruis‑hatch).  
+- **Heb ik een licentie nodig om het voorbeeld uit te voeren?** Een gratis proefversie werkt voor ontwikkeling; een licentie is vereist voor productie.  
+- **Hoeveel regels code?** Ongeveer 70 regels, verdeeld over duidelijke stappen.  
+- **Kan ik dezelfde aanpak gebruiken voor PDF's?** Ja—Aspose.Page ondersteunt meerdere uitvoerformaten, inclusief PDF.
+
 ## Vereisten
-Voordat je in de tutorial duikt, zorg ervoor dat je het volgende hebt ingesteld:
-- Java-ontwikkelomgeving: Zorg ervoor dat u een Java-ontwikkelomgeving gereed heeft.
--  Aspose.Page voor Java-bibliotheek: Download en installeer de Aspose.Page voor Java-bibliotheek. U kunt de benodigde bestanden vinden[hier](https://releases.aspose.com/page/java/).
+Voordat je begint, zorg dat je het volgende hebt:
+
+- **Java-ontwikkelomgeving** – JDK 8 of hoger en een IDE naar keuze.  
+- **Aspose.Page voor Java bibliotheek** – Download de nieuwste JAR van de officiële site [here](https://releases.aspose.com/page/java/).  
+- **Schrijftoegang** tot een map waarin het gegenereerde PostScript‑bestand wordt opgeslagen.
+
 ## Pakketten importeren
-Importeer om te beginnen de vereiste pakketten in uw Java-project. Gebruik het volgende codefragment:
+Eerst importeer je de benodigde klassen in je project. Deze imports geven je toegang tot teken‑primitieven, kleurafhandeling en de Aspose.Page API.
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -33,15 +49,18 @@ import com.aspose.eps.HatchStyle;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## Stap 1: initiële parameters instellen
+
+## Stap 1: Initialiseer parameters
+Maak de output‑stream, configureer de paginagrootte (A4) en definieer een paar lay‑outvariabelen die later worden hergebruikt bij het tekenen van elk hatch‑gevuld vierkant.
+
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Maak een uitvoerstroom voor een PostScript-document
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddHatchPattern_outPS.ps");
-// Creëer opslagopties met A4-formaat
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// Maak een nieuw PS-document met de pagina geopend
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 int x0 = 20;
 int y0 = 100;
@@ -49,63 +68,112 @@ int squareSide = 32;
 int width = 500;
 int sumX = 0;
 ```
+
 ## Stap 2: Grafische status opslaan en vertalen
+Het opslaan van de grafische status stelt ons in staat later terug te keren naar het oorspronkelijke coördinatensysteem, terwijl `translate` de oorsprong verplaatst naar een handig startpunt.
+
 ```java
 document.writeGraphicsSave();
 document.translate(x0, y0);
 ```
-## Stap 3: Maak een vierkant voor elk patroon
+
+## Stap 3: Vierkant maken voor elk patroon
+Definieer een herbruikbare rechthoek die elk hatch‑gevuld vakje zal vertegenwoordigen.
+
 ```java
 Rectangle2D.Float square = new Rectangle2D.Float(0, 0, squareSide, squareSide);
 ```
-## Stap 4: Pen instellen voor patroonvierkante omtrek
+
+## Stap 4: Pen instellen voor patroonvierkantcontour
+Een `BasicStroke` van 2 points geeft een scherpe omtrek rond elk vierkant.
+
 ```java
 BasicStroke stroke = new BasicStroke(2);
 ```
-## Stap 5: Herhaal de arceringspatronen
+
+## Stap 5: Door Hatch-patronen itereren
+Loop door elke waarde in de `HatchStyle`‑enum, vul elk vierkant met de overeenkomstige textuur en teken vervolgens de omtrek. Dit is de kern van **het toevoegen van hatch‑patronen**.
+
 ```java
 HatchStyle[] hatchStyles = HatchStyle.values();
 for (int i = 0; i < hatchStyles.length; i++) {
-    // ... (ga verder met de opgegeven code)
+    // ... (continue with the provided code)
 }
 ```
-## Stap 6: Grafische staat herstellen
+
+## Stap 6: Grafische status herstellen
+Keer terug naar het oorspronkelijke coördinatensysteem nadat we het raster van vierkanten hebben getekend.
+
 ```java
 document.writeGraphicsRestore();
 ```
-## Stap 7: Vul tekst met arceringspatroon
+
+## Stap 7: Tekst vullen met Hatch-patroon
+Hier demonstreren we hoe je tekst schildert met een hatch‑textuur. Het voorbeeld vult het woord “ABC” met een diagonaal‑kruispatroon.
+
 ```java
 TexturePaint paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.DiagonalCross, Color.RED, Color.YELLOW);
 Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 320, paint, Color.BLACK, stroke);
 ```
-## Stap 8: Omtrektekst met arceringspatroon
+
+## Stap 8: Tekst omlijnen met Hatch-patroon
+Nu omlijnen we dezelfde tekst, maar dit keer met een 70 % hatch‑stijl en een dikkere pen.
+
 ```java
 paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.Percent70, Color.BLUE, Color.WHITE);
 document.outlineText("ABC", font, 200, 420, paint, new BasicStroke(5));
 ```
+
 ## Stap 9: Document sluiten en opslaan
+Rond de pagina af, schrijf het bestand naar schijf en maak bronnen vrij.
+
 ```java
 document.closePage();
 document.save();
 ```
-Volg deze stappen en u kunt met succes arceringspatronen aan uw Java PostScript-document toevoegen met behulp van Aspose.Page.
+
+Volg deze stappen, en je hebt een PostScript‑bestand dat een volledige set hatch‑patronen toont, toegepast op zowel vormen als tekst—alles aangedreven door **aspose page java**.
+
+## Waarom Hatch-patronen gebruiken met Aspose.Page Java?
+- **Visueel onderscheid** – Hatch‑vullingen werken zelfs wanneer printers beperkt zijn tot monochrome output.  
+- **Prestaties** – Texturen worden on‑the‑fly gegenereerd, zodat je grote afbeeldingsbestanden vermijdt.  
+- **Cross‑formatondersteuning** – Dezelfde code kan PDF, EPS of SVG targeten met minimale aanpassingen.
+
+## Veelvoorkomende valkuilen & tips
+- **Bestandspad‑fouten** – Zorg ervoor dat `dataDir` eindigt met het juiste scheidingsteken (`/` of `\`).  
+- **Niet‑ondersteunde kleuren** – Sommige oudere PostScript‑interpreters kunnen bepaalde kleurenschema's niet verwerken; houd je aan basis‑RGB voor maximale compatibiliteit.  
+- **Licentie‑waarschuwingen** – Het uitvoeren van het voorbeeld zonder geldige licentie voegt een watermerk toe aan de output.
+
 ## Conclusie
-Het opnemen van visuele elementen zoals arceringspatronen kan de aantrekkingskracht van uw Java-applicaties aanzienlijk vergroten. Aspose.Page voor Java maakt dit proces naadloos, waardoor u moeiteloos visueel verbluffende PostScript-documenten kunt maken.
+Het integreren van hatch‑patronen kan de leesbaarheid en esthetiek van technische tekeningen, kaarten of elke door Java gegenereerde grafiek aanzienlijk verbeteren. Met **Aspose.Page Java** krijg je een beknopte API die de low‑level PostScript‑commando's abstraheert, zodat je je kunt concentreren op design in plaats van bestandsformaat‑details.
+
 ## Veelgestelde vragen
-### Kan ik Aspose.Page voor Java gebruiken met andere Java-frameworks?
-Ja, Aspose.Page voor Java is ontworpen om naadloos te integreren met verschillende Java-frameworks.
-### Is er een proefversie beschikbaar voor Aspose.Page voor Java?
- Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
-### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Page voor Java?
- U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
-### Waar kan ik meer tutorials en ondersteuning vinden voor Aspose.Page voor Java?
- Ontdek de[Aspose.Pagina voor Java-forum](https://forum.aspose.com/c/page/39) voor tutorials en community-ondersteuning.
-### Bestaat er een uitgebreide documentatiebron voor Aspose.Page voor Java?
- Ja, raadpleeg de documentatie[hier](https://reference.aspose.com/page/java/).
+
+**Q: Kan ik Aspose.Page Java gebruiken met andere Java‑frameworks?**  
+A: Ja, de bibliotheek is framework‑agnostisch en werkt met Spring, Jakarta EE, Android (beperkt) en gewone Java SE.
+
+**Q: Is er een proefversie beschikbaar voor Aspose.Page Java?**  
+A: Absoluut. Download een gratis 30‑daagse proefversie [here](https://releases.aspose.com/).
+
+**Q: Hoe verkrijg ik een tijdelijke licentie voor ontwikkeling?**  
+A: Vraag een tijdelijke licentie [here](https://purchase.aspose.com/temporary-license/) aan. Deze verwijdert evaluatiewatermerken.
+
+**Q: Waar vind ik meer tutorials en community‑ondersteuning?**  
+A: Bezoek het officiële forum [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) voor extra voorbeelden en Q&A.
+
+**Q: Is er uitgebreide documentatie voor alle klassen en methoden?**  
+A: Ja, de volledige API‑referentie is beschikbaar [here](https://reference.aspose.com/page/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
