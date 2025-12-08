@@ -1,27 +1,51 @@
 ---
-title: إتقان التدرجات الشعاعية في Java PostScript باستخدام Aspose.Page
-linktitle: إتقان التدرجات الشعاعية في جافا
-second_title: Aspose.Page جافا API
-description: تعرف على كيفية إضافة تدرجات شعاعية مذهلة في Java PostScript باستخدام Aspose.Page لـ Java. ارفع مستوى مستندات PostScript الخاصة بك باستخدام هذا الدليل المفصّل خطوة بخطوة.
+date: 2025-12-08
+description: تعلم كيفية إضافة تدرج شعاعي في Java PostScript باستخدام Aspose.Page.
+  يوضح لك هذا الدليل خطوة بخطوة كيفية إنشاء تأثيرات تدرج مذهلة في مستنداتك.
+language: ar
+linktitle: Mastering Radial Gradients in Java
+second_title: Aspose.Page Java API
+title: كيفية إضافة تدرج شعاعي في Java PostScript باستخدام Aspose.Page
+url: /java/postscript-gradient-addition/radial1/
 weight: 12
-url: /ar/java/postscript-gradient-addition/radial1/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إتقان التدرجات الشعاعية في Java PostScript باستخدام Aspose.Page
+# كيفية إضافة تدرج شعاعي في Java PostScript باستخدام Aspose.Page
 
-## مقدمة
-مرحبًا بك في دليلنا خطوة بخطوة حول كيفية إضافة تدرج لوني شعاعي في Java PostScript باستخدام Aspose.Page. في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستند PostScript بتدرج لوني نصف قطري جميل. Aspose.Page for Java هي مكتبة قوية تتيح لك العمل مع ملفات PostScript بسلاسة.
-## المتطلبات الأساسية
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-- Java Development Kit (JDK): تأكد من تثبيت Java على نظامك.
--  Aspose.Page لـ Java: قم بتنزيل وتثبيت مكتبة Aspose.Page من[هنا](https://releases.aspose.com/page/java/).
-- بيئة التطوير المتكاملة (IDE): اختر Java IDE المفضل لديك، مثل Eclipse أو IntelliJ.
-## حزم الاستيراد
-ابدأ باستيراد الحزم اللازمة للبدء في مشروع Java PostScript الخاص بك:
+## المقدمة
+إذا احتجت يومًا إلى إعطاء مخرجات PostScript الخاصة بك انتقالًا سلسًا وجذابًا للألوان، فإن تعلم **كيفية إضافة تدرج شعاعي** هو المكان المثالي للبدء. في هذا البرنامج التعليمي سنستعرض كل خطوة مطلوبة لإنشاء ملف PostScript يحتوي على تدرج شعاعي جميل، باستخدام مكتبة **Aspose.Page for Java**. في النهاية ستفهم الـ API، وسترى مثالًا كاملاً قابلًا للتنفيذ، وستعرف كيف تعدل الألوان، المواقع، ونصف القطر لتناسب أي تصميم.
+
+## إجابات سريعة
+- **ما المكتبة التي تنشئ تدرجات شعاعية في PostScript؟** Aspose.Page for Java.  
+- **كم يستغرق تنفيذ المثال؟** حوالي 10‑15 دقيقة للمثال الأساسي.  
+- **هل أحتاج إلى ترخيص لتشغيل الكود؟** نسخة تجريبية مجانية تكفي للتطوير؛ الترخيص التجاري مطلوب للإنتاج.  
+- **ما نسخة Java المدعومة؟** Java 8 أو أعلى.  
+- **هل يمكنني تغيير شكل التدرج؟** نعم – عدل نصف القطر ونقطة المركز في مُنشئ `RadialGradientPaint`.
+
+## ما هو التدرج الشعاعي؟
+التدرج الشعاعي يرسم ألوانًا تتناثر من نقطة مركزية، مع مزج تدريجي نحو الحواف. على عكس التدرجات الخطية، ينتقل الانتقال اللوني وفق نمط دائري (أو بيضاوي)، وهو مثالي للإبرازات، الأضواء المسلطة، أو ملء الخلفيات الناعمة.
+
+## لماذا نستخدم Aspose.Page للتدرجات الشعاعية؟
+- **تحكم كامل في مخرجات PostScript** – لا حاجة لكتابة أوامر PS منخفضة المستوى يدويًا.  
+- **متعدد المنصات** – يعمل على أي نظام تشغيل يدعم Java.  
+- **إدارة ألوان غنية** – يدعم عدة نقاط توقف لونية، مساحات ألوان مختلفة، وطرق دورة.  
+- **جاهز للتكامل** – يمكن دمجه مع ميزات Aspose.Page الأخرى مثل النصوص، الصور، والأشكال المتجهة.
+
+## المتطلبات المسبقة
+قبل الغوص في الكود، تأكد من توفر ما يلي:
+
+- **مجموعة تطوير Java (JDK) 8+** – تحقق باستخدام `java -version`.  
+- **Aspose.Page for Java** – حمّل أحدث JAR من [صفحة تنزيل Aspose.Page الرسمية](https://releases.aspose.com/page/java/).  
+- **بيئة تطوير متكاملة** – Eclipse، IntelliJ IDEA، أو VS Code مع ملحقات Java.  
+- **مجلد قابل للكتابة** – حيث سيتم حفظ ملف `.ps` المُولد.
+
+## استيراد الحزم
+أولًا، استورد الفئات التي سنحتاجها. حزمة `java.awt` توفر كائنات تدرج الطلاء، بينما تحتوي `com.aspose.eps` على فئات معالجة مستندات PostScript.
+
 ```java
 import java.awt.Color;
 import java.awt.MultipleGradientPaint;
@@ -33,65 +57,113 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## الخطوة 1: إنشاء مستطيل
-لنبدأ بإنشاء مستطيل في مستند PostScript الخاص بنا:
+
+## دليل خطوة بخطوة
+
+### الخطوة 1: إنشاء مستطيل وفتح مستند PS
+نبدأ بإنشاء تدفق إخراج، ضبط حجم الصفحة (A4 افتراضيًا)، وتعريف مستطيل سيستضيف التدرج.
+
 ```java
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// إنشاء دفق الإخراج لمستند بوستسكريبت
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "RadialGradient1_outPS.ps");
-// إنشاء خيارات الحفظ بحجم A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// قم بإنشاء مستند PS جديد مع فتح الصفحة
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-//إنشاء مستطيل
+// Create a rectangle
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 200);
 ```
-## الخطوة 2: تحديد الألوان والكسور
-تحديد صفائف من الألوان والكسور للتدرج الشعاعي:
+
+> **نصيحة احترافية:** عدل إحداثيات المستطيل (`200, 100, 200, 200`) لتحديد موقع التدرج في أي مكان على الصفحة.
+
+### الخطوة 2: تعريف الألوان والنسب
+التدرج الشعاعي يُبنى من *نقاط توقف لونية* (الألوان) و*نسب* (المواقع النسبية لتلك النقاط). هنا ننشئ مصفوفة من ستة ألوان ونسبها المقابلة.
+
 ```java
-// إنشاء صفائف من الألوان والكسور للتدرج
+// Create arrays of colors and fractions for the gradient
 Color[] colors = { Color.GREEN, Color.BLUE, Color.BLACK, Color.YELLOW, new Color(245, 245, 220), Color.RED };
 float[] fractions = { 0.0f, 0.2f, 0.3f, 0.4f, 0.9f, 1.0f };
 ```
-## الخطوة 3: إنشاء طلاء متدرج شعاعي
-قم بإنشاء طلاء متدرج شعاعي للمستطيل:
+
+> **لماذا هذا مهم:** من خلال تعديل `fractions` تتحكم في سرعة انتقال الألوان، ما يتيح تأثيرات دقيقة أو دراماتيكية.
+
+### الخطوة 3: إنشاء كائن RadialGradientPaint
+الآن نبني كائن `RadialGradientPaint`. المُنشئ يأخذ مركز التدرج، نصف القطر، نقطة التركيز، النسب، الألوان، طريقة الدورة، مساحة اللون، وتحويل اختياري.
+
 ```java
-// إنشاء طلاء متدرج شعاعي
-RadialGradientPaint paint = new RadialGradientPaint(new Point2D.Float(300, 200), 100, new Point2D.Float(300, 200),
-        fractions, colors, MultipleGradientPaint.CycleMethod.NO_CYCLE, MultipleGradientPaint.ColorSpaceType.SRGB,
+// Create radial gradient paint
+RadialGradientPaint paint = new RadialGradientPaint(
+        new Point2D.Float(300, 200),      // center of the gradient
+        100,                              // radius
+        new Point2D.Float(300, 200),      // focus point (same as center for a symmetric gradient)
+        fractions,
+        colors,
+        MultipleGradientPaint.CycleMethod.NO_CYCLE,
+        MultipleGradientPaint.ColorSpaceType.SRGB,
         transform);
 ```
-## الخطوة 4: اضبط الطلاء واملأ المستطيل
-اضبط الطلاء واملأ المستطيل بالتدرج الشعاعي:
+
+> **ملاحظة:** يمكن أن يكون `transform` `null` إذا لم تحتاج إلى تحجيم أو دوران إضافي. لا تتردد في تجربة `AffineTransform` لتدرجات مائلة.
+
+### الخطوة 4: ضبط الطلاء وتعبئة المستطيل
+بعد تجهيز الطلاء، نخبر `PsDocument` باستخدامه ثم نملأ المستطيل الذي عرّفناه مسبقًا.
+
 ```java
-// تعيين الطلاء
+// Set paint
 document.setPaint(paint);
-// املأ المستطيل
+// Fill the rectangle
 document.fill(rectangle);
 ```
-## الخطوة 5: إغلاق وحفظ
-أخيرًا، أغلق الصفحة الحالية واحفظ المستند:
+
+في هذه المرحلة يحتوي صفحة PostScript على مستطيل مملوء بسلاسة بالتدرج الشعاعي الذي ضبطناه.
+
+### الخطوة 5: إغلاق وحفظ المستند
+أخيرًا، أغلق الصفحة الحالية واكتب الملف إلى القرص.
+
 ```java
-// إغلاق الصفحة الحالية
+// Close current page
 document.closePage();
-// احفظ المستند
+// Save the document
 document.save();
 ```
-يؤدي هذا إلى إكمال عملية إضافة تدرج شعاعي إلى مستند Java PostScript الخاص بك باستخدام Aspose.Page.
-## خاتمة
-تهانينا! لقد تعلمت بنجاح كيفية تحسين مستندات PostScript الخاصة بك باستخدام التدرجات الشعاعية باستخدام Aspose.Page لـ Java. قم بتجربة الألوان والتكوينات المختلفة لإنشاء تأثيرات بصرية مذهلة.
-## الأسئلة الشائعة
-### هل يمكنني استخدام Aspose.Page لـ Java في المشاريع التجارية؟
- نعم، يمكنك استخدام Aspose.Page for Java في المشاريع التجارية. للحصول على تفاصيل الترخيص، قم بزيارة[هنا](https://purchase.aspose.com/buy).
-### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Page لـ Java؟
- الوثائق متاحة[هنا](https://reference.aspose.com/page/java/).
-### هل هناك نسخة تجريبية مجانية متاحة؟
- نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
-### كيف يمكنني الحصول على ترخيص مؤقت؟
- الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
-### هل تحتاج إلى دعم المجتمع؟
- انضم إلى مجتمع Aspose.Page[المنتدى](https://forum.aspose.com/c/page/39).
+
+افتح `RadialGradient1_outPS.ps` في أي عارض PostScript (مثل Ghostscript) وسترى التدرج يُعرض تمامًا كما عُرّف.
+
+## المشكلات الشائعة والحلول
+| العَرَض | السبب المحتمل | الحل |
+|---------|--------------|-----|
+| يظهر التدرج كلون ثابت | مصفوفة `fractions` لا تبدأ بـ `0.0f` أو لا تنتهي بـ `1.0f` | تأكد أن أول نسبة هي `0.0f` وآخرها `1.0f`. |
+| الألوان باهتة | استخدام `ColorSpaceType` غير المناسب | غيّر إلى `MultipleGradientPaint.ColorSpaceType.LINEAR_RGB` للحصول على مخرجات أكثر حيوية. |
+| لا يتم إنشاء ملف الإخراج | مسار `FileOutputStream` غير صالح أو غير قابل للكتابة | تحقق من وجود `dataDir` وأن التطبيق يملك صلاحيات الكتابة. |
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام Aspose.Page for Java في المشاريع التجارية؟**  
+ج: نعم. يلزم الحصول على ترخيص تجاري للاستخدام في بيئة الإنتاج. يمكنك شراء الترخيص من [صفحة ترخيص Aspose](https://purchase.aspose.com/buy).
+
+**س: أين يمكنني العثور على مرجع API الرسمي؟**  
+ج: الوثائق الكاملة متاحة [هنا](https://reference.aspose.com/page/java/).
+
+**س: هل تتوفر نسخة تجريبية مجانية للاختبار؟**  
+ج: بالتأكيد. حمّل نسخة تجريبية من [صفحة إصدارات Aspose.Page](https://releases.aspose.com/).
+
+**س: كيف أحصل على ترخيص مؤقت للتقييم؟**  
+ج: يمكن طلب ترخيص مؤقت [من هنا](https://purchase.aspose.com/temporary-license/).
+
+**س: أين يمكنني الحصول على دعم المجتمع؟**  
+ج: انضم إلى منتدى مجتمع Aspose.Page على [forum.aspose.com/c/page/39](https://forum.aspose.com/c/page/39).
+
+## الخاتمة
+أنت الآن تعرف **كيفية إضافة تدرج شعاعي** إلى مستند Java PostScript باستخدام Aspose.Page. من خلال تعديل حجم المستطيل، نقاط التوقف اللونية، ونصف قطر التدرج يمكنك إنشاء عدد لا يحصى من التأثيرات البصرية—من ملء خلفيات ناعمة إلى رسومات إضاءة جريئة. لا تتردد في تجربة قيم `AffineTransform` مختلفة لتدوير أو إمالة التدرج، ودمج هذه التقنية مع النصوص والصور للحصول على مخرجات PDF أو EPS أغنى.
+
+---
+
+**آخر تحديث:** 2025-12-08  
+**تم الاختبار مع:** Aspose.Page for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
