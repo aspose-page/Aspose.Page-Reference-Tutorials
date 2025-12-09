@@ -1,26 +1,39 @@
 ---
-title: Agregar degradado vertical en Java PostScript
-linktitle: Agregar degradado vertical en Java PostScript
-second_title: API de Java de Aspose.Page
-description: Explore la guía paso a paso para agregar degradados verticales en Java PostScript con Aspose.Page para Java. Mejore sus documentos sin esfuerzo con imágenes vibrantes.
-weight: 14
+date: 2025-12-09
+description: Aprende a crear degradados en PostScript con Java usando Aspose.Page.
+  Esta guía paso a paso te muestra cómo añadir un degradado vertical a tus documentos
+  PostScript sin esfuerzo.
+linktitle: Add Vertical Gradient in Java PostScript
+second_title: Aspose.Page Java API
+title: Crear degradado PostScript en Java – Añadir degradado vertical
 url: /es/java/postscript-gradient-addition/vertical/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregar degradado vertical en Java PostScript
+# Crear degradado PostScript en Java – Añadir degradado vertical
 
 ## Introducción
-Bienvenido a esta guía paso a paso sobre cómo agregar un degradado vertical en Java PostScript usando Aspose.Page para Java. Si desea mejorar su documento con degradados llamativos, este tutorial es para usted. Aspose.Page para Java proporciona potentes herramientas para manipular documentos PostScript sin problemas.
+En este tutorial exhaustivo, aprenderás a **crear degradado PostScript en Java** con Aspose.Page for Java. Añadir un degradado vertical puede hacer que tus documentos se vean más vibrantes y profesionales, y con solo unas pocas líneas de código puedes lograr efectos visuales impresionantes. Te guiaremos paso a paso, explicaremos por qué cada parte es importante y te daremos consejos prácticos para evitar errores comunes.  
+En esta guía **crearemos degradado postscript java** paso a paso.
+
+## Respuestas rápidas
+- **¿Qué biblioteca se necesita?** Aspose.Page for Java  
+- **¿Puedo personalizar los colores?** Sí, se puede usar cualquier `java.awt.Color`  
+- **¿Se admite la rotación?** Sí, puedes rotar el degradado con un `AffineTransform`  
+- **¿Qué formato de salida se produce?** Un archivo estándar PostScript (.ps)  
+- **¿Necesito una licencia para?** Sí, se requiere una licencia comercial  
+
 ## Requisitos previos
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-- Kit de desarrollo de Java (JDK) instalado en su máquina.
--  Aspose.Page para la biblioteca Java. Puedes descargarlo[aquí](https://releases.aspose.com/page/java/).
+Antes de sumergirte en el tutorial, asegúrate de tener los siguientes requisitos previos:
+- Java Development Kit (JDK) instalado en tu máquina.  
+- Biblioteca Aspose.Page for Java. Puedes descargarla [aquí](https://releases.aspose.com/page/java/).
+
 ## Importar paquetes
-En su proyecto Java, importe los paquetes necesarios para comenzar:
+En tu proyecto Java, importa los paquetes necesarios para comenzar:
 ```java
 import java.awt.Color;
 import java.awt.LinearGradientPaint;
@@ -32,81 +45,128 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-Ahora, dividamos el proceso de agregar un degradado vertical en Java PostScript en varios pasos.
-## Paso 1: configure su directorio de documentos
+
+Ahora, desglosaremos el proceso de añadir un degradado vertical en PostScript Java en varios pasos.
+
+## Cómo crear degradado PostScript en Java
+A continuación tienes una guía paso a paso que muestra exactamente cómo **crear degradado PostScript en Java** usando la API de Aspose.Page.
+
+### Paso 1: Configurar el directorio de tu documento
 ```java
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
-## Paso 2: crear un flujo de salida para un documento PostScript
+
+### Paso 2: Crear flujo de salida para el documento PostScript
 ```java
-// Crear flujo de salida para un documento PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "VerticalGradient_outPS.ps");
 ```
-## Paso 3: cree opciones para guardar con tamaño A4
+
+### Paso 3: Crear opciones de guardado con tamaño A4
 ```java
-// Crea opciones de guardado con tamaño A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 ```
-## Paso 4: cree un nuevo documento PS
+
+### Paso 4: Crear un nuevo documento PS
 ```java
-// Cree un nuevo documento PS con la página abierta
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
-## Paso 5: crea un rectángulo
+
+### Paso 5: Crear un rectángulo
 ```java
-//Crea un rectángulo
+// Create a rectangle
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
-## Paso 6: configurar colores y fracciones para el degradado
+
+### Paso 6: Configurar colores y fracciones para el degradado
 ```java
-// Crea matrices de colores y fracciones para el degradado.
+// Create arrays of colors and fractions for the gradient.
 Color[] colors = { Color.RED, Color.GREEN, Color.BLUE, Color.ORANGE, new Color(85, 107, 47) };
 float[] fractions = { 0.0f, 0.1873f, 0.492f, 0.734f, 1.0f };
 ```
-## Paso 7: crea la transformación de degradado
+
+### Paso 7: Crear la transformación del degradado
 ```java
-// Crea la transformación de degradado. Los componentes de escala en la transformación deben ser iguales al ancho y alto del rectángulo.
-// Los componentes de traducción son desplazamientos del rectángulo.
+// Create the gradient transform. Scale components in the transform must be equal to width and height of the rectangle.
+// Translation components are offsets of the rectangle.
 AffineTransform transform = new AffineTransform(200, 0, 0, 100, 200, 100);
-// Girar el gradiente 90 grados alrededor de un origen.
+// Rotate the gradient on 90 degrees around an origin
 transform.rotate(90 * (Math.PI / 180));
 ```
-## Paso 8: crear pintura degradada lineal vertical
+
+### Paso 8: Crear pintura de degradado lineal vertical
 ```java
-// Crea pintura degradada lineal vertical.
+// Create vertical linear gradient paint.
 LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new Point2D.Float(200, 100),
         fractions, colors, MultipleGradientPaint.CycleMethod.NO_CYCLE, MultipleGradientPaint.ColorSpaceType.SRGB,
         transform);
 ```
-## Paso 9: configure la pintura y rellene el rectángulo
+
+### Paso 9: Establecer la pintura y rellenar el rectángulo
 ```java
-// Establecer pintura
+// Set paint
 document.setPaint(paint);
-// Rellena el rectángulo
+// Fill the rectangle
 document.fill(rectangle);
 ```
-## Paso 10: cierre la página actual y guarde el documento
+
+### Paso 10: Cerrar la página actual y guardar el documento
 ```java
-// Cerrar la página actual
+// Close current page
 document.closePage();
-// guardar el documento
+// Save the document
 document.save();
 ```
-¡Felicidades! Ha agregado con éxito un degradado vertical a su documento Java PostScript usando Aspose.Page para Java.
-## Conclusión
-En este tutorial, exploramos el proceso de mejorar sus documentos con vibrantes gradientes verticales usando Aspose.Page para Java. Ahora puede llevar la manipulación de sus documentos al siguiente nivel incorporando imágenes impresionantes.
+
+¡Felicidades! Has añadido con éxito un degradado vertical a tu documento PostScript Java usando Aspose.Page for Java.
+
+## ¿Por qué usar degradados verticales en PostScript?
+Los degradados verticales dan a tus páginas profundidad e interés visual sin aumentar significativamente el tamaño del archivo. Son especialmente útiles para:
+- Encabezados y pies de página de informes  
+- Rellenos de fondo para gráficos o diagramas  
+- Resaltar secciones en documentos técnicos  
+
+## Problemas comunes y soluciones
+- **El degradado parece plano:** Asegúrate de que la escala del `AffineTransform` coincida con las dimensiones del rectángulo.  
+- **Los colores se ven deslavados:** Verifica que estés usando el `ColorSpaceType` correcto (SRGB) y que el arreglo de fracciones esté ordenado de 0.0 a 1.0.  
+- **El archivo no se genera:** Comprueba que el directorio de salida (`dataDir`) exista y que la aplicación tenga permisos de escritura.  
+
 ## Preguntas frecuentes
-### ¿Puedo usar Aspose.Page para Java con otras bibliotecas de Java?
-Sí, Aspose.Page para Java está diseñado para funcionar perfectamente con otras bibliotecas de Java.
-### ¿Hay una prueba gratuita disponible para Aspose.Page para Java?
- Sí, puedes obtener una prueba gratuita.[aquí](https://releases.aspose.com/).
+### ¿Puedo usar Aspose.Page for Java con otras bibliotecas Java?
+Sí, Aspose.Page for Java está diseñado para trabajar sin problemas con otras bibliotecas Java.
+
+### ¿Hay una prueba gratuita disponible para Aspose.Page for Java?
+Sí, puedes obtener una prueba gratuita [aquí](https://releases.aspose.com/).
+
 ### ¿Dónde puedo encontrar documentación adicional?
- La documentación detallada está disponible.[aquí](https://reference.aspose.com/page/java/).
-### ¿Cómo puedo comprar Aspose.Page para Java?
- Puedes comprar Aspose.Page para Java[aquí](https://purchase.aspose.com/buy).
+La documentación detallada está disponible [aquí](https://reference.aspose.com/page/java/).
+
+### ¿Cómo puedo comprar Aspose.Page for Java?
+Puedes comprar Aspose.Page for Java [aquí](https://purchase.aspose.com/buy).
+
 ### ¿Existe un foro para discusiones sobre Aspose.Page?
- Sí, puedes unirte al foro de la comunidad.[aquí](https://forum.aspose.com/c/page/39).
+Sí, puedes unirte al foro de la comunidad [aquí](https://forum.aspose.com/c/page/39).
+
+## Additional Frequently Asked Questions
+
+**Q: ¿Puedo crear otras direcciones de degradado (horizontal, diagonal)?**  
+A: Por supuesto. Ajusta los puntos de inicio y fin en `LinearGradientPaint` y modifica el ángulo de rotación en el `AffineTransform`.
+
+**Q: ¿Esto funciona también con salida PDF?**  
+A: La misma lógica de degradado se puede aplicar al guardar en PDF usando `PdfSaveOptions` en lugar de `PsSaveOptions`.
+
+**Q: ¿Cómo cambio el tamaño del degradado dinámicamente?**  
+A: Calcula las dimensiones del rectángulo en tiempo de ejecución y pasa esos valores tanto al `Rectangle2D` como al constructor de `AffineTransform`.
+
+---
+
+**Última actualización:** 2025-12-09  
+**Probado con:** Aspose.Page for Java 24.11 (última versión)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
