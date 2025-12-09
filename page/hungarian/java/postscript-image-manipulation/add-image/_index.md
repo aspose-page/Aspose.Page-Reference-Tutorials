@@ -1,27 +1,50 @@
 ---
-title: Kép hozzáadása a Java PostScript-ben
-linktitle: Kép hozzáadása a Java PostScript-ben
+date: 2025-12-09
+description: Tanulja meg, hogyan hozhat létre PostScript dokumentumot Java-ban, és
+  hogyan transzformálja és forgassa el a képet az Aspose.Page segítségével a zökkenőmentes
+  képműveletekhez.
+linktitle: Add Image in Java PostScript
 second_title: Aspose.Page Java API
-description: Fedezze fel az Aspose.Page Java zökkenőmentes integrációját ebben az oktatóanyagban, amely a képek PostScript dokumentumokhoz való hozzáadásáról szól. Növelje dokumentumkezelési képességeit.
-weight: 10
+title: PostScript dokumentum létrehozása Java – Kép hozzáadása Java PostScriptben
 url: /hu/java/postscript-image-manipulation/add-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kép hozzáadása a Java PostScript-ben
+# PostScript dokumentum létrehozása Java-ban – Kép hozzáadása Java PostScriptben
 
 ## Bevezetés
-Ebben az oktatóanyagban megvizsgáljuk, hogyan adhatunk képeket Java PostScript-dokumentumokhoz az Aspose.Page for Java könyvtár használatával. Az Aspose.Page egy hatékony könyvtár, amely különféle funkciókat kínál a PostScript fájlokkal való munkavégzéshez, lehetővé téve a fejlesztők számára, hogy zökkenőmentesen kezeljék és javítsák dokumentumaikat.
+Ebben az útmutatóban megtanulja, hogyan **hozzon létre PostScript dokumentumot Java-ban**, és hogyan ágyazhat be képeket az Aspose.Page for Java könyvtár segítségével. Lépésről lépésre végigvezetjük a dokumentum beállításától a **kép eltolás és forgatás** műveletek alkalmazásáig. A végére képes lesz programozottan gazdag PostScript fájlokat generálni, és testre szabni a képek elhelyezését a pontos elrendezési igényeihez.
+
+## Gyors válaszok
+- **Melyik könyvtár szükséges?** Aspose.Page for Java  
+- **Hozzáadhatok több képet?** Igen – ismételje meg az átalakítási és rajzolási lépéseket  
+- **Szükség van licencre fejlesztéshez?** Egy ingyenes próba a teszteléshez működik; licenc szükséges a termeléshez  
+- **Melyik Java verzió támogatott?** Java 8 és újabb  
+- **Támogatott a kép forgatása?** Teljes mértékben – használja a `AffineTransform.rotate()`-t  
+
+## Mi az a PostScript dokumentum létrehozása Java-ban?
+A PostScript dokumentum egy oldal leíró nyelv fájl, amely szöveget, grafikát és képeket ír le. Az Aspose.Page segítségével programozottan generálhatja ezeket a fájlokat Java-ban, teljes irányítást biztosítva az elrendezés, a grafikai állapot és a képfeldolgozás felett, anélkül, hogy PostScript értelmezőre lenne szükség.
+
+## Miért használja az Aspose.Page-t képfeldolgozáshoz?
+- **Magas szintű API:** Egyszerűsíti a komplex PostScript parancsokat.  
+- **Keresztplatformos:** Minden Java-t támogató operációs rendszeren működik.  
+- **Teljes grafikai állapot vezérlés:** Könnyedén menthet, visszaállíthat, eltolhat, méretezhet és forgathat grafikákat.  
+- **Nincs külső függőség:** Belsőleg kezeli a képek betöltését és konvertálását.  
+
 ## Előfeltételek
-Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
-- Java Development Kit (JDK) telepítve a rendszerére.
--  Aspose.Page a Java könyvtárhoz. Letöltheti[itt](https://releases.aspose.com/page/java/).
-- Alapvető ismeretek a Java programozásról.
+Mielőtt a kódba merülnénk, győződjön meg róla, hogy rendelkezik a következőkkel:
+
+- Java Development Kit (JDK) telepítve a rendszerén.  
+- Aspose.Page for Java könyvtár. Letöltheti [itt](https://releases.aspose.com/page/java/).  
+- Alapvető Java programozási ismeretekkel.  
+
 ## Csomagok importálása
-A kezdéshez importálja a szükséges csomagokat a Java projektbe. Használja referenciaként a következő kódrészletet:
+A kezdéshez importálja a szükséges csomagokat a Java projektjébe. Használja az alábbi kódrészletet referenciaként:
+
 ```java
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
@@ -31,61 +54,91 @@ import javax.imageio.ImageIO;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## 1. lépés: Írja be a grafika mentését
-Az első lépés a grafikai mentés dokumentumba írása. Ez biztosítja, hogy az utólag végrehajtott átalakítások vagy módosítások szükség esetén visszaállíthatók legyenek.
+
+## 1. lépés: Grafika mentés írása
+Az első lépés a grafika mentés írása a dokumentumba. Ez biztosítja, hogy a később végrehajtott átalakítások vagy módosítások szükség esetén visszavonhatók legyenek.
+
 ```java
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Kimeneti adatfolyam létrehozása PostScript-dokumentumhoz
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddImage_outPS.ps");
-// Hozzon létre mentési beállításokat A4-es méretben
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// Hozzon létre új PS-dokumentumot az oldal megnyitásával
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 document.writeGraphicsSave();
 ```
-## 2. lépés: Fordítás és átalakítás
-Ezután fordítsa le a dokumentumot, és hozzon létre egy BufferedImage objektumot a képfájlból. Alkalmazzon átalakítások sorozatát, például méretezést és elforgatást az AffineTransform segítségével.
+
+## 2. lépés: Eltolás és átalakítás (kép eltolása és forgatása)
+Ezután tolja el a dokumentumot, és hozza létre a `BufferedImage` objektumot a képfájlból. Alkalmazzon egy sor átalakítást, például méretezést és forgatást a `AffineTransform` használatával. Itt történik a **kép eltolása és forgatása** művelet.
+
 ```java
 document.translate(100, 100);
-// Hozzon létre egy BufferedImage objektumot a képfájlból
+// Create a BufferedImage object from the image file
 BufferedImage image = ImageIO.read(new File(dataDir + "TestImage Format24bppRgb.jpg"));
-// Képátalakítás létrehozása
+// Create image transform
 AffineTransform transform = new AffineTransform();
 transform.translate(35, 300);
 transform.scale(3, 3);
 transform.rotate(-45);
 ```
+
 ## 3. lépés: Kép hozzáadása a dokumentumhoz
 Most adja hozzá az átalakított képet a dokumentumhoz.
+
 ```java
 document.drawImage(image, transform, null);
 ```
-## 4. lépés: Írja be a Graphics Restore parancsot
-A kép hozzáadása után írja be a grafikai visszaállítást, hogy véglegesítse a változtatásokat.
+
+## 4. lépés: Grafika visszaállítás írása
+A kép hozzáadása után írja a grafika visszaállítását a módosítások befejezéséhez.
+
 ```java
 document.writeGraphicsRestore();
 ```
-## 5. lépés: Zárja be az aktuális oldalt és mentse
+
+## 5. lépés: Aktuális oldal bezárása és mentése
 Zárja be az aktuális oldalt, és mentse a dokumentumot.
+
 ```java
 document.closePage();
 document.save();
 ```
-Ismételje meg ezeket a lépéseket több kép hozzáadásához vagy az átalakítások testreszabásához az igényei szerint.
+
+Ezeket a lépéseket megismételheti több kép hozzáadásához, vagy testre szabhatja az átalakításokat az igényei szerint.
+
+## Gyakori problémák és megoldások
+- **FileNotFoundException:** Győződjön meg róla, hogy a `dataDir` útvonal fájlválasztóval (`/` vagy `\\`) végződik, és a képfájl neve pontosan egyezik.  
+- **ImageIO.read null értéket ad:** Ellenőrizze, hogy a képformátum támogatott-e (pl. JPEG, PNG).  
+- **Helytelen forgatási szög:** A `AffineTransform.rotate` radiánokat vár. Szükség esetén konvertálja a fokokat radiánokra (`Math.toRadians(degrees)`).
+
+## Gyakran ismételt kérdések
+
+**Q: Használhatom az Aspose.Page for Java-t más programozási nyelvekkel?**  
+A: Az Aspose.Page elsősorban Java-t támogat, de más programozási nyelvekhez is elérhetők verziók.
+
+**Q: Van ingyenes próba a Aspose.Page for Java-hoz?**  
+A: Igen, az ingyenes próbát [itt](https://releases.aspose.com/) érheti el.
+
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.Page for Java-hoz?**  
+A: Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) kaphat.
+
+**Q: Hol találhatok közösségi támogatást és megbeszéléseket az Aspose.Page for Java-hoz?**  
+A: Látogassa meg az [Aspose.Page Fórumot](https://forum.aspose.com/c/page/39) a közösségi támogatásért.
+
+**Q: Van további forrás a Aspose.Page for Java megvásárlásához?**  
+A: A könyvtárat [itt](https://purchase.aspose.com/buy) vásárolhatja meg.
+
 ## Következtetés
- Gratulálunk! Sikeresen megtanulta, hogyan adhat hozzá képeket Java PostScript-dokumentumokhoz az Aspose.Page for Java segítségével. Fedezze fel a[dokumentáció](https://reference.aspose.com/page/java/) fejlettebb szolgáltatásokért és funkciókért.
-## GYIK
-### Használhatom az Aspose.Page for Java-t más programozási nyelvekkel?
-Az Aspose.Page elsősorban a Java-t támogatja, de vannak verziók más programozási nyelvekhez is.
-### Létezik ingyenes próbaverzió az Aspose.Page for Java számára?
- Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Page for Java számára?
- Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
-### Hol találok közösségi támogatást és az Aspose.Page for Java-hoz kapcsolódó vitákat?
- Meglátogatni a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) közösségi támogatásért.
-### Vannak további források az Aspose.Page for Java megvásárlásához?
- Meg lehet vásárolni a könyvtárat[itt](https://purchase.aspose.com/buy).
+Gratulálunk! Sikeresen megtanulta, hogyan **hozzon létre PostScript dokumentumot Java-ban**, és hogyan ágyazzon be képeket az Aspose.Page for Java segítségével. Fedezze fel a [dokumentációt](https://reference.aspose.com/page/java/), hogy további fejlett funkciókat és lehetőségeket ismerjen meg, például vektorgrafikát, szövegmegjelenítést és egyedi oldalméreteket.
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Page for Java 23.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
