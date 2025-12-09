@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: 従量課金ライセンスを使用して、Aspose.Page の Java ライセンス管理方法を学びましょう。ステップバイステップのガイドで、Java
   アプリケーション向けのメータリング ライセンスの設定方法をご紹介します。
-language: ja
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose Page ライセンス Java – ライセンス管理
-url: /java/license-management/
+url: /ja/java/license-management/
 weight: 30
 ---
 

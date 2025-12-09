@@ -2,10 +2,9 @@
 date: 2025-11-29
 description: اكتشف أسرار معالجة الصفحات في جافا مع دروس Aspose.Page. غص في القص والتحويلات
   والمزيد لإنشاء مستندات بصرية مذهلة بسهولة.
-language: ar
 linktitle: Aspose.Page for Java Tutorials
 title: تحويل PostScript إلى PDF باستخدام Aspose.Page للغة Java – دروس شاملة وأمثلة
-url: /java/
+url: /ar/java/
 weight: 10
 ---
 

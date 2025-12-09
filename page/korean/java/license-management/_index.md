@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: 사용량 기반 라이선스를 사용하여 Aspose Page Java 라이선스를 관리하는 방법을 배워보세요. 단계별 가이드를 통해
   Java 애플리케이션에 메터링 라이선스를 설정하는 방법을 알려드립니다.
-language: ko
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose Page 라이선스 Java – 라이선스 관리
-url: /java/license-management/
+url: /ko/java/license-management/
 weight: 30
 ---
 

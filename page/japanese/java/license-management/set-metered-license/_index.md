@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: Aspose.Page for Java を使用して EPS を PNG に保存する方法を、メーター制ライセンスの設定とともに学びます。ステップバイステップのガイドと完全なコード例付き。
-language: ja
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: Aspose.Page JavaでEPSをPNGとして保存（メータードライセンス）
-url: /java/license-management/set-metered-license/
+url: /ja/java/license-management/set-metered-license/
 weight: 10
 ---
 

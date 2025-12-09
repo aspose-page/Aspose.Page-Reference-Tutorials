@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aspose.Page के साथ जावा में EPS फ़ाइलों को आसानी से री‑साइज़ करना सीखें।
   यह चरण‑दर‑चरण गाइड आपको दिखाता है कि पॉइंट्स, इंच, मिलीमीटर या प्रतिशत का उपयोग
   करके EPS को कैसे री‑साइज़ किया जाए।
-language: hi
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: जावा में Aspose.Page के साथ EPS फ़ाइलों को कैसे रीसेज़ करें
-url: /java/manipulation-eps/resize/
+url: /hi/java/manipulation-eps/resize/
 weight: 11
 ---
 

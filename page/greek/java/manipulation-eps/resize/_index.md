@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Μάθετε πώς να αλλάζετε το μέγεθος των αρχείων EPS στη Java χωρίς κόπο
   με το Aspose.Page. Αυτός ο οδηγός βήμα‑προς‑βήμα σας δείχνει πώς να αλλάζετε το
   μέγεθος των EPS χρησιμοποιώντας σημεία, ίντσες, χιλιοστά ή ποσοστά.
-language: el
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: Πώς να αλλάξετε το μέγεθος των αρχείων EPS σε Java με το Aspose.Page
-url: /java/manipulation-eps/resize/
+url: /el/java/manipulation-eps/resize/
 weight: 11
 ---
 

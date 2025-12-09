@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Scopri come unire file XPS in Java senza problemi usando Aspose.Page.
   Segui la nostra guida passo passo per una manipolazione efficiente dei documenti
   e potenzia le tue competenze di sviluppo Java.
-language: it
 linktitle: Convert XPS to XPS in Java
 second_title: Aspose.Page Java API
 title: Come unire file XPS in Java con Aspose.Page
-url: /java/file-merging/xps-to-xps/
+url: /it/java/file-merging/xps-to-xps/
 weight: 12
 ---
 

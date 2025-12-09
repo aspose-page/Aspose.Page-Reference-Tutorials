@@ -2,10 +2,9 @@
 date: 2025-11-29
 description: ปลดล็อกความลับของการจัดการหน้า Java ด้วยบทเรียน Aspose.Page ดำดิ่งสู่การคลิป
   การแปลงรูปแบบ และอื่น ๆ เพื่อสร้างเอกสารที่สวยงามอย่างง่ายดาย
-language: th
 linktitle: Aspose.Page for Java Tutorials
 title: แปลง PostScript เป็น PDF ด้วย Aspose.Page สำหรับ Java – คำแนะนำและตัวอย่างอย่างครบถ้วน
-url: /java/
+url: /th/java/
 weight: 10
 ---
 

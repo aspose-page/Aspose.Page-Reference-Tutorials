@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose Page lisansını kullanım başına ödeme lisansı ile nasıl yöneteceğinizi
   öğrenin. Adım adım rehberimiz, Java uygulamaları için ölçümlü lisansların nasıl
   kurulacağını gösterir.
-language: tr
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose Page Lisansı Java – Lisans Yönetimi
-url: /java/license-management/
+url: /tr/java/license-management/
 weight: 30
 ---
 

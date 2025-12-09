@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.Page を使用して Java で EPS ファイルをトリミングする方法を学びましょう – Aspose.Page ライブラリを使った
   EPS のトリミング手順を、わかりやすくステップバイステップで解説したチュートリアルです。
-language: ja
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: JavaでEPSファイルをトリミングする方法 – Aspose.Page ガイド
-url: /java/manipulation-eps/crop/
+url: /ja/java/manipulation-eps/crop/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: تعلم كيفية إدارة ترخيص Aspose.Page لجافا باستخدام ترخيص الدفع حسب الاستخدام.
   دليلنا خطوة بخطوة يوضح لك كيفية إعداد تراخيص مترية لتطبيقات جافا.
-language: ar
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: رخصة Aspose Page Java – إدارة الترخيص
-url: /java/license-management/
+url: /ar/java/license-management/
 weight: 30
 ---
 

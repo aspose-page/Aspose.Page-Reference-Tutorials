@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Học hướng dẫn cắt trang Java với Aspose.Page. Khám phá cắt, xoay các
   phần tử Java và các phép biến đổi để tạo ra các tài liệu tuyệt đẹp.
-language: vi
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Hướng dẫn cắt trang Java – Aspose.Page
-url: /java/page-manipulation/
+url: /vi/java/page-manipulation/
 weight: 20
 ---
 

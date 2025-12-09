@@ -1,11 +1,10 @@
 ---
 date: 2025-12-04
 description: 学习 Aspose 页面转换（Java）：将 PostScript 转换为图像、PDF，并将图像保存为 EPS。提供一步步指南、常见问题解答以及无缝集成的前置条件。
-language: zh
 linktitle: Conversion - PostScript
 second_title: Aspose.Page Java API
 title: Aspose 页面转换：PostScript 转图像、PDF 与 EPS（Java）
-url: /java/postscript-conversion/
+url: /zh/java/postscript-conversion/
 weight: 21
 ---
 

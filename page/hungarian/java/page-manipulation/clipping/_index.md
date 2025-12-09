@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Fedezze fel, hogyan lehet PostScript formátumban menteni és alakzatokat
   kivágni az Aspose.Page for Java használatával. Tanulja meg, hogyan állíthat be vonalstílust,
   és hogyan alkalmazhat vágási régiót a Java grafikai vágásban.
-language: hu
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Mentés PostScriptként – Kivágás a Java oldalmanipulációban
-url: /java/page-manipulation/clipping/
+url: /hu/java/page-manipulation/clipping/
 weight: 10
 ---
 

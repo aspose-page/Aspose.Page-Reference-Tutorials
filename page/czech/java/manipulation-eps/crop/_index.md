@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Naučte se, jak ořezávat soubory EPS v Javě pomocí Aspose.Page – jasný,
   krok za krokem tutoriál, jak ořezávat EPS pomocí knihovny Aspose.Page.
-language: cs
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Jak oříznout soubory EPS v Javě – Průvodce Aspose.Page
-url: /java/manipulation-eps/crop/
+url: /cs/java/manipulation-eps/crop/
 weight: 10
 ---
 

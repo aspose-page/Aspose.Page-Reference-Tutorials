@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Impara il tutorial di ritaglio di pagine Java con Aspose.Page. Esplora
   il ritaglio, la rotazione degli elementi Java e le trasformazioni per creare documenti
   sorprendenti.
-language: it
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Tutorial di ritaglio di pagina Java – Aspose.Page
-url: /java/page-manipulation/
+url: /it/java/page-manipulation/
 weight: 20
 ---
 

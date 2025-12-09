@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Изучите руководство по обрезке страниц Java с Aspose.Page. Исследуйте
   обрезку, вращение элементов Java и преобразования для создания потрясающих документов.
-language: ru
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Учебник по обрезке страниц Java – Aspose.Page
-url: /java/page-manipulation/
+url: /ru/java/page-manipulation/
 weight: 20
 ---
 

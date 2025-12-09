@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: 了解如何使用按次付費授權來管理 Aspose.Page 的 Java 授權。我們的逐步指南將向您展示如何為 Java 應用程式設定計量授權。
-language: zh-hant
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose Page 授權 Java – 授權管理
-url: /java/license-management/
+url: /zh-hant/java/license-management/
 weight: 30
 ---
 

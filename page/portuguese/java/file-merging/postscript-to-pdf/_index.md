@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Mescle arquivos PostScript em PDF de forma fácil em Java com Aspose.Page.
   Tutorial abrangente, perguntas frequentes e recursos para uma conversão de documentos
   sem complicações.
-language: pt
 linktitle: How to Merge PostScript Files to PDF in Java
 second_title: Aspose.Page Java API
 title: Como mesclar arquivos PostScript em PDF em Java
-url: /java/file-merging/postscript-to-pdf/
+url: /pt/java/file-merging/postscript-to-pdf/
 weight: 10
 ---
 

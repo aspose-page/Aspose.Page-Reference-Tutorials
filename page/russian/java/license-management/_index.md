@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Узнайте, как управлять лицензией Aspose.Page для Java с помощью лицензии
   «pay per use». Наш пошаговый гид покажет, как настроить измеряемые лицензии для
   Java‑приложений.
-language: ru
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose Page License Java – Управление лицензиями
-url: /java/license-management/
+url: /ru/java/license-management/
 weight: 30
 ---
 

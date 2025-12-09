@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: 探索如何使用 Aspose.Page for Java 將檔案儲存為 PostScript 並裁剪形狀。了解如何設定筆畫樣式以及在 Java
   圖形裁剪中套用裁剪區域。
-language: zh-hant
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: 另存為 PostScript – Java 頁面操作中的裁剪
-url: /java/page-manipulation/clipping/
+url: /zh-hant/java/page-manipulation/clipping/
 weight: 10
 ---
 

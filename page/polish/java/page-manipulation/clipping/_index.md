@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Poznaj, jak zapisywać jako PostScript i przycinać kształty przy użyciu
   Aspose.Page dla Javy. Dowiedz się, jak ustawić styl obrysu i zastosować region przycinania
   w przycinaniu grafiki w Javie.
-language: pl
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Zapisz jako PostScript – przycinanie w manipulacji stroną w Javie
-url: /java/page-manipulation/clipping/
+url: /pl/java/page-manipulation/clipping/
 weight: 10
 ---
 

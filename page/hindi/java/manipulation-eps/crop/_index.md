@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.Page के साथ जावा में EPS फ़ाइलों को कैसे क्रॉप करें सीखें – Aspose.Page
   लाइब्रेरी का उपयोग करके EPS को क्रॉप करने पर एक स्पष्ट, चरण‑दर‑चरण ट्यूटोरियल।
-language: hi
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: जावा में EPS फ़ाइलों को कैसे क्रॉप करें – Aspose.Page गाइड
-url: /java/manipulation-eps/crop/
+url: /hi/java/manipulation-eps/crop/
 weight: 10
 ---
 

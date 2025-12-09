@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.Page와 함께 Java 페이지 클리핑 튜토리얼을 배워보세요. 클리핑, 요소 회전 Java 및 변환을 탐색하여
   멋진 문서를 만들어보세요.
-language: ko
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Java 페이지 클리핑 튜토리얼 – Aspose.Page
-url: /java/page-manipulation/
+url: /ko/java/page-manipulation/
 weight: 20
 ---
 

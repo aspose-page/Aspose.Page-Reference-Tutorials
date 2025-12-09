@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: เรียนรู้วิธีปรับขนาดไฟล์ EPS ใน Java อย่างง่ายดายด้วย Aspose.Page คู่มือขั้นตอนนี้จะแสดงวิธีปรับขนาด
   EPS ด้วยหน่วยจุด นิ้ว มิลลิเมตร หรือเปอร์เซ็นต์
-language: th
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: วิธีปรับขนาดไฟล์ EPS ใน Java ด้วย Aspose.Page
-url: /java/manipulation-eps/resize/
+url: /th/java/manipulation-eps/resize/
 weight: 11
 ---
 

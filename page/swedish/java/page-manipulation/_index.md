@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Lär dig java‑sidklippningshandledningen med Aspose.Page. Utforska klippning,
   rotera element i java och transformationer för att skapa fantastiska dokument.
-language: sv
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Java‑sidklippningshandledning – Aspose.Page
-url: /java/page-manipulation/
+url: /sv/java/page-manipulation/
 weight: 20
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Học cách cắt tệp EPS trong Java với Aspose.Page – một hướng dẫn rõ ràng,
   từng bước về cách cắt EPS bằng thư viện Aspose.Page.
-language: vi
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Cách Cắt Xén Tệp EPS trong Java – Hướng Dẫn Aspose.Page
-url: /java/manipulation-eps/crop/
+url: /vi/java/manipulation-eps/crop/
 weight: 10
 ---
 

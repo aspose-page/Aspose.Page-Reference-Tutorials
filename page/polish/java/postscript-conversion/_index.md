@@ -3,11 +3,10 @@ date: 2025-12-04
 description: 'Poznaj konwersję stron Aspose dla Javy: konwertuj PostScript na obrazy,
   PDF oraz zapisuj obrazy jako EPS. Przewodniki krok po kroku, FAQ i wymagania wstępne
   dla płynnej integracji.'
-language: pl
 linktitle: Conversion - PostScript
 second_title: Aspose.Page Java API
 title: 'Konwersja stron Aspose: PostScript na obrazy, PDF i EPS (Java)'
-url: /java/postscript-conversion/
+url: /pl/java/postscript-conversion/
 weight: 21
 ---
 

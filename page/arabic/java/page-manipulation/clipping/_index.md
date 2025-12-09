@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: استكشف كيفية الحفظ كـ PostScript وتقطيع الأشكال باستخدام Aspose.Page
   للغة Java. تعلم تعيين نمط الخط وتطبيق منطقة القص في تقطيع الرسومات بجافا.
-language: ar
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: حفظ كـ PostScript – القص في تعديل صفحات Java
-url: /java/page-manipulation/clipping/
+url: /ar/java/page-manipulation/clipping/
 weight: 10
 ---
 

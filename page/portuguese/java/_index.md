@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Desvende os segredos da Manipulação de Páginas Java com tutoriais da
   Aspose.Page. Mergulhe em recortes, transformações e muito mais para criar documentos
   visualmente impressionantes com facilidade.
-language: pt
 linktitle: Aspose.Page for Java Tutorials
 title: Converter PostScript para PDF com Aspose.Page para Java – Tutoriais e Exemplos
   Abrangentes
-url: /java/
+url: /pt/java/
 weight: 10
 ---
 

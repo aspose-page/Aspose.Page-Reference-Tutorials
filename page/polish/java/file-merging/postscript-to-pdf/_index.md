@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: Bezproblemowo scalaj pliki PostScript do PDF w Javie przy użyciu Aspose.Page.
   Kompleksowy samouczek, FAQ i zasoby umożliwiające płynną konwersję dokumentów.
-language: pl
 linktitle: How to Merge PostScript Files to PDF in Java
 second_title: Aspose.Page Java API
 title: Jak scalić pliki PostScript do PDF w Javie
-url: /java/file-merging/postscript-to-pdf/
+url: /pl/java/file-merging/postscript-to-pdf/
 weight: 10
 ---
 

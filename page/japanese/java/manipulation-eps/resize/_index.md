@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: Aspose.Page を使用して、Java で EPS ファイルを簡単にリサイズする方法を学びましょう。このステップバイステップガイドでは、ポイント、インチ、ミリメートル、またはパーセンテージを使って
   EPS をリサイズする方法を示します。
-language: ja
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: Aspose.Page を使用した Java での EPS ファイルのリサイズ方法
-url: /java/manipulation-eps/resize/
+url: /ja/java/manipulation-eps/resize/
 weight: 11
 ---
 

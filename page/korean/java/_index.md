@@ -2,10 +2,9 @@
 date: 2025-11-29
 description: Aspose.Page 튜토리얼로 Java 페이지 조작의 비밀을 풀어보세요. 클리핑, 변환 등 다양한 기능을 활용해 시각적으로
   놀라운 문서를 손쉽게 만들 수 있습니다.
-language: ko
 linktitle: Aspose.Page for Java Tutorials
 title: Aspose.Page for Java를 사용하여 PostScript를 PDF로 변환 – 포괄적인 튜토리얼 및 예제
-url: /java/
+url: /ko/java/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Utforska hur du sparar som PostScript och beskär former med Aspose.Page
   för Java. Lär dig att ange linjestil och tillämpa beskärningsområde i Java‑grafikbeskärning.
-language: sv
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Spara som PostScript – Klippning i Java‑sidhantering
-url: /java/page-manipulation/clipping/
+url: /sv/java/page-manipulation/clipping/
 weight: 10
 ---
 

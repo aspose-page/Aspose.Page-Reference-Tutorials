@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aprenda o tutorial de recorte de página Java com Aspose.Page. Explore
   recorte, rotação de elementos Java e transformações para criar documentos impressionantes.
-language: pt
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Tutorial de Recorte de Página em Java – Aspose.Page
-url: /java/page-manipulation/
+url: /pt/java/page-manipulation/
 weight: 20
 ---
 

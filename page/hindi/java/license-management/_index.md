@@ -3,11 +3,10 @@ date: 2025-12-03
 description: जाने कैसे Aspose Page लाइसेंस जावा को पे‑पर‑यूज़ लाइसेंस के साथ प्रबंधित
   करें। हमारा चरण‑दर‑चरण मार्गदर्शक आपको दिखाता है कि जावा एप्लिकेशनों के लिए मीटरड
   लाइसेंस कैसे सेट करें।
-language: hi
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose पेज लाइसेंस जावा – लाइसेंस प्रबंधन
-url: /java/license-management/
+url: /hi/java/license-management/
 weight: 30
 ---
 

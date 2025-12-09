@@ -3,11 +3,10 @@ date: 2025-12-04
 description: 'Aspose पेज रूपांतरण को Java के लिए सीखें: PostScript को छवियों, PDF
   में बदलें, और छवियों को EPS के रूप में सहेजें। चरण-दर-चरण मार्गदर्शिकाएँ, अक्सर
   पूछे जाने वाले प्रश्न, और सहज एकीकरण के लिए आवश्यक पूर्वशर्तें।'
-language: hi
 linktitle: Conversion - PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose पेज रूपांतरण: PostScript को इमेजेज, PDF और EPS (Java)'
-url: /java/postscript-conversion/
+url: /hi/java/postscript-conversion/
 weight: 21
 ---
 

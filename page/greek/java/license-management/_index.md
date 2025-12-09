@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Μάθετε πώς να διαχειρίζεστε την άδεια Aspose.Page για Java χρησιμοποιώντας
   άδεια πληρωμής ανά χρήση. Ο οδηγός μας βήμα προς βήμα σας δείχνει πώς να ρυθμίσετε
   μετρημένες άδειες για εφαρμογές Java.
-language: el
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Άδεια Aspose Page Java – Διαχείριση Άδειας
-url: /java/license-management/
+url: /el/java/license-management/
 weight: 30
 ---
 

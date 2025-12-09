@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Tanulja meg, hogyan menthet EPS-t PNG‑ként az Aspose.Page for Java használatával,
   miközben metered licencet konfigurál. Lépésről‑lépésre útmutató teljes kódrészlettel.
-language: hu
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: EPS mentése PNG‑ként az Aspose.Page Java‑val (Mérő licenc)
-url: /java/license-management/set-metered-license/
+url: /hu/java/license-management/set-metered-license/
 weight: 10
 ---
 

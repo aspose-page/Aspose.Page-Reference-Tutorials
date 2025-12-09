@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tanulja meg, hogyan kezelje az Aspose.Page Java licencet egy felhasználás
   alapú licenc segítségével. Lépésről lépésre útmutatónk megmutatja, hogyan állíthat
   be mérő licencet Java alkalmazásokhoz.
-language: hu
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose Page licenc Java – Licenckezelés
-url: /java/license-management/
+url: /hu/java/license-management/
 weight: 30
 ---
 

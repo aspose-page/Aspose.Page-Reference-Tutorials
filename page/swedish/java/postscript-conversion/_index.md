@@ -3,11 +3,10 @@ date: 2025-12-04
 description: 'Lär dig aspose sidkonvertering för Java: konvertera PostScript till
   bilder, PDF och spara bilder som EPS. Steg‑för‑steg‑guider, vanliga frågor och förutsättningar
   för sömlös integration.'
-language: sv
 linktitle: Conversion - PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose Page‑konvertering: PostScript till bilder, PDF och EPS (Java)'
-url: /java/postscript-conversion/
+url: /sv/java/postscript-conversion/
 weight: 21
 ---
 

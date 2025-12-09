@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Erfahren Sie, wie Sie EPS‑Dateien in Java mühelos mit Aspose.Page skalieren.
   Diese Schritt‑für‑Schritt‑Anleitung zeigt Ihnen, wie Sie EPS mithilfe von Punkten,
   Zoll, Millimetern oder Prozentwerten skalieren.
-language: de
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: Wie man EPS-Dateien in Java mit Aspose.Page in der Größe ändert
-url: /java/manipulation-eps/resize/
+url: /de/java/manipulation-eps/resize/
 weight: 11
 ---
 

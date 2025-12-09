@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: 学习如何在 Java 中使用 Aspose.Page 将 XPS 保存为 PDF。遵循我们的分步指南，实现高效的 XPS 转 PDF 转换和
   PDF 压缩设置。
-language: zh
 linktitle: Convert XPS to PDF in Java using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: 使用 Aspose.Page Java 在 Java 中将 XPS 转换为 PDF
-url: /java/file-merging/xps-to-pdf/
+url: /zh/java/file-merging/xps-to-pdf/
 weight: 11
 ---
 

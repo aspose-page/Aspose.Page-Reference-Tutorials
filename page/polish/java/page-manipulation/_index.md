@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Poznaj samouczek przycinania stron w Javie z Aspose.Page. Odkryj przycinanie,
   obracanie elementów w Javie oraz transformacje, aby tworzyć zachwycające dokumenty.
-language: pl
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Samouczek przycinania stron w Javie – Aspose.Page
-url: /java/page-manipulation/
+url: /pl/java/page-manipulation/
 weight: 20
 ---
 

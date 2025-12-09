@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Jelajahi cara menyimpan sebagai PostScript dan memotong bentuk menggunakan
   Aspose.Page untuk Java. Pelajari cara mengatur gaya goresan dan menerapkan wilayah
   pemotongan dalam pemotongan grafis Java.
-language: id
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Simpan sebagai PostScript – Pemotongan dalam Manipulasi Halaman Java
-url: /java/page-manipulation/clipping/
+url: /id/java/page-manipulation/clipping/
 weight: 10
 ---
 

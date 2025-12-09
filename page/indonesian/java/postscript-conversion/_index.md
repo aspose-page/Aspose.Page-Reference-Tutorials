@@ -3,11 +3,10 @@ date: 2025-12-04
 description: 'Pelajari konversi halaman Aspose untuk Java: konversi PostScript ke
   gambar, PDF, dan simpan gambar sebagai EPS. Panduan langkah demi langkah, FAQ, dan
   prasyarat untuk integrasi yang mulus.'
-language: id
 linktitle: Conversion - PostScript
 second_title: Aspose.Page Java API
 title: 'Konversi Halaman Aspose: PostScript ke Gambar, PDF & EPS (Java)'
-url: /java/postscript-conversion/
+url: /id/java/postscript-conversion/
 weight: 21
 ---
 

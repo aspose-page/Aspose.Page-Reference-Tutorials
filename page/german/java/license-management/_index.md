@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Erfahren Sie, wie Sie die Aspose Page‑Lizenz für Java mit einer nutzungsbasierten
   Lizenz verwalten. Unser Schritt‑für‑Schritt‑Leitfaden zeigt Ihnen, wie Sie verbrauchsabhängige
   Lizenzen für Java‑Anwendungen einrichten.
-language: de
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose Page Lizenz Java – Lizenzverwaltung
-url: /java/license-management/
+url: /de/java/license-management/
 weight: 30
 ---
 

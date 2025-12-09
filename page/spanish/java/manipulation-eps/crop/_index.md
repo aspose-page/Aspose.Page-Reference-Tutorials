@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: 'Aprende a recortar archivos EPS en Java con Aspose.Page: un tutorial
   claro, paso a paso, sobre cómo recortar EPS usando la biblioteca Aspose.Page.'
-language: es
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Cómo recortar archivos EPS en Java – Guía de Aspose.Page
-url: /java/manipulation-eps/crop/
+url: /es/java/manipulation-eps/crop/
 weight: 10
 ---
 

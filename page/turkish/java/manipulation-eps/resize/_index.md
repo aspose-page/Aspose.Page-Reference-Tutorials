@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Java'da Aspose.Page ile EPS dosyalarını sorunsuz bir şekilde yeniden
   boyutlandırmayı öğrenin. Bu adım adım rehber, EPS'yi puan, inç, milimetre veya yüzde
   olarak nasıl yeniden boyutlandıracağınızı gösterir.
-language: tr
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: Java'da Aspose.Page ile EPS Dosyalarını Yeniden Boyutlandırma
-url: /java/manipulation-eps/resize/
+url: /tr/java/manipulation-eps/resize/
 weight: 11
 ---
 

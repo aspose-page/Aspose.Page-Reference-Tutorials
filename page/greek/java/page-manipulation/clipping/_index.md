@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Εξερευνήστε πώς να αποθηκεύσετε ως PostScript και να περικόψετε σχήματα
   χρησιμοποιώντας το Aspose.Page για Java. Μάθετε πώς να ορίζετε το στυλ γραμμής και
   να εφαρμόζετε περιοχή περικοπής στη γραφική περικοπή Java.
-language: el
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Αποθήκευση ως PostScript – Περικοπή στη Διαχείριση Σελίδων Java
-url: /java/page-manipulation/clipping/
+url: /el/java/page-manipulation/clipping/
 weight: 10
 ---
 

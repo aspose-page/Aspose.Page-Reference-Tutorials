@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.Page ile Java sayfa kırpma öğreticisini öğrenin. Kırpmayı, Java
   öğelerini döndürmeyi ve dönüşümleri keşfederek çarpıcı belgeler oluşturun.
-language: tr
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Java Sayfa Kırpma Öğreticisi – Aspose.Page
-url: /java/page-manipulation/
+url: /tr/java/page-manipulation/
 weight: 20
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-11-29
 description: 了解如何使用 Aspose.Page 在 Java 中無縫合併 XPS 檔案。遵循我們的逐步指南，實現高效的文件操作，提升您的 Java
   開發技能。
-language: zh-hant
 linktitle: Convert XPS to XPS in Java
 second_title: Aspose.Page Java API
 title: 如何在 Java 中使用 Aspose.Page 合併 XPS 檔案
-url: /java/file-merging/xps-to-xps/
+url: /zh-hant/java/file-merging/xps-to-xps/
 weight: 12
 ---
 

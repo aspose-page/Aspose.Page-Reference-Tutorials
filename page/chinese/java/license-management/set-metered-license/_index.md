@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: 了解如何在配置计量许可证的情况下使用 Aspose.Page for Java 将 EPS 保存为 PNG。一步一步的指南，附完整代码示例。
-language: zh
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: 使用 Aspose.Page Java 将 EPS 保存为 PNG（计量许可）
-url: /java/license-management/set-metered-license/
+url: /zh/java/license-management/set-metered-license/
 weight: 10
 ---
 

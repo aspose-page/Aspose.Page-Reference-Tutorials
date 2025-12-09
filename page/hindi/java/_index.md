@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aspose.Page ट्यूटोरियल्स के साथ जावा पेज मैनिपुलेशन के रहस्यों को खोलें।
   क्लिपिंग, ट्रांसफ़ॉर्मेशन और अधिक में डुबकी लगाएँ, जिससे आप आसानी से दृश्यात्मक
   रूप से शानदार दस्तावेज़ बना सकें।
-language: hi
 linktitle: Aspose.Page for Java Tutorials
 title: Aspose.Page for Java के साथ PostScript को PDF में बदलें – व्यापक ट्यूटोरियल
   और उदाहरण
-url: /java/
+url: /hi/java/
 weight: 10
 ---
 

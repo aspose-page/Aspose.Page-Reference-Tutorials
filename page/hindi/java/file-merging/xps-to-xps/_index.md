@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aspose.Page का उपयोग करके Java में XPS फ़ाइलों को सहजता से मर्ज करना
   सीखें। कुशल दस्तावेज़ संचालन के लिए हमारी चरण‑दर‑चरण गाइड का पालन करें और अपनी Java
   विकास क्षमताओं को बढ़ाएँ।
-language: hi
 linktitle: Convert XPS to XPS in Java
 second_title: Aspose.Page Java API
 title: Aspose.Page के साथ जावा में XPS फ़ाइलों को कैसे मर्ज करें
-url: /java/file-merging/xps-to-xps/
+url: /hi/java/file-merging/xps-to-xps/
 weight: 12
 ---
 

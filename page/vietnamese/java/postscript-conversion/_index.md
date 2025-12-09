@@ -3,11 +3,10 @@ date: 2025-12-04
 description: 'Tìm hiểu chuyển đổi trang Aspose cho Java: chuyển đổi PostScript sang
   hình ảnh, PDF và lưu hình ảnh dưới dạng EPS. Hướng dẫn từng bước, câu hỏi thường
   gặp và các yêu cầu tiên quyết để tích hợp liền mạch.'
-language: vi
 linktitle: Conversion - PostScript
 second_title: Aspose.Page Java API
 title: 'Chuyển đổi Trang Aspose: PostScript sang Hình ảnh, PDF và EPS (Java)'
-url: /java/postscript-conversion/
+url: /vi/java/postscript-conversion/
 weight: 21
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.Page ile Java’da EPS dosyalarını nasıl kırpacağınızı öğrenin –
   Aspose.Page kütüphanesini kullanarak EPS kırpma konusunda net, adım adım bir öğretici.
-language: tr
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Java'da EPS Dosyalarını Nasıl Kırpılır – Aspose.Page Kılavuzu
-url: /java/manipulation-eps/crop/
+url: /tr/java/manipulation-eps/crop/
 weight: 10
 ---
 

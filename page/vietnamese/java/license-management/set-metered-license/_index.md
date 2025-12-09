@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Tìm hiểu cách lưu EPS thành PNG bằng Aspose.Page cho Java trong khi cấu
   hình giấy phép đo lường. Hướng dẫn từng bước kèm ví dụ mã đầy đủ.
-language: vi
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: Lưu EPS dưới dạng PNG với Aspose.Page Java (Giấy phép tính theo mức)
-url: /java/license-management/set-metered-license/
+url: /vi/java/license-management/set-metered-license/
 weight: 10
 ---
 

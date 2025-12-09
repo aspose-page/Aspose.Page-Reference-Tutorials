@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: 了解如何使用按使用付费的许可证来管理 Aspose.Page 的 Java 许可证。我们的分步指南将向您展示如何为 Java 应用程序设置计量许可证。
-language: zh
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose Page Java 许可证 – 许可证管理
-url: /java/license-management/
+url: /zh/java/license-management/
 weight: 30
 ---
 

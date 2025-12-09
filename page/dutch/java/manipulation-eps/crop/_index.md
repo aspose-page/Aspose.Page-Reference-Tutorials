@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Leer hoe je EPS‑bestanden bijsnijdt in Java met Aspose.Page – een duidelijke,
   stap‑voor‑stap tutorial over het bijsnijden van EPS met de Aspose.Page‑bibliotheek.
-language: nl
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Hoe EPS-bestanden bijsnijden in Java – Aspose.Page-gids
-url: /java/manipulation-eps/crop/
+url: /nl/java/manipulation-eps/crop/
 weight: 10
 ---
 

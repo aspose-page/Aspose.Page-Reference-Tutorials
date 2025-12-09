@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Узнайте, как обрезать EPS‑файлы в Java с помощью Aspose.Page — понятный
   пошаговый учебник по обрезке EPS с использованием библиотеки Aspose.Page.
-language: ru
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Как обрезать EPS‑файлы в Java – руководство Aspose.Page
-url: /java/manipulation-eps/crop/
+url: /ru/java/manipulation-eps/crop/
 weight: 10
 ---
 

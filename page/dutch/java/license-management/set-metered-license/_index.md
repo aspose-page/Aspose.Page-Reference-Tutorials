@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Leer hoe u EPS als PNG opslaat met Aspose.Page voor Java terwijl u een
   meterlicentie configureert. Stapsgewijze handleiding met volledige codevoorbeeld.
-language: nl
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: EPS opslaan als PNG met Aspose.Page Java (metered licentie)
-url: /java/license-management/set-metered-license/
+url: /nl/java/license-management/set-metered-license/
 weight: 10
 ---
 

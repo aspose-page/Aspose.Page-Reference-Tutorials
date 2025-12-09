@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Apprenez le tutoriel de découpage de page Java avec Aspose.Page. Explorez
   le découpage, la rotation d’éléments Java et les transformations pour créer des
   documents époustouflants.
-language: fr
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Tutoriel de découpage de page Java – Aspose.Page
-url: /java/page-manipulation/
+url: /fr/java/page-manipulation/
 weight: 20
 ---
 

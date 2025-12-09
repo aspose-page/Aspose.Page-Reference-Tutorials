@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Изучите, как сохранять в формате PostScript и обрезать фигуры с помощью
   Aspose.Page для Java. Узнайте, как установить стиль обводки и применить область
   обрезки в графическом клиппинге Java.
-language: ru
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Сохранить как PostScript – Обрезка в манипуляции страницами Java
-url: /java/page-manipulation/clipping/
+url: /ru/java/page-manipulation/clipping/
 weight: 10
 ---
 

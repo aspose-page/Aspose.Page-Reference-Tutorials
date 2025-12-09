@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: تعلم كيفية قص ملفات EPS في Java باستخدام Aspose.Page – دليل واضح خطوة
   بخطوة حول كيفية قص ملفات EPS باستخدام مكتبة Aspose.Page.
-language: ar
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: كيفية قص ملفات EPS في Java – دليل Aspose.Page
-url: /java/manipulation-eps/crop/
+url: /ar/java/manipulation-eps/crop/
 weight: 10
 ---
 

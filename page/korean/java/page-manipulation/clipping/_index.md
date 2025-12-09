@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.Page for Java를 사용하여 PostScript로 저장하고 도형을 클립하는 방법을 탐색하십시오. Java
   그래픽 클리핑에서 스트로크 스타일을 설정하고 클리핑 영역을 적용하는 방법을 배웁니다.
-language: ko
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: PostScript로 저장 – Java 페이지 조작의 클리핑
-url: /java/page-manipulation/clipping/
+url: /ko/java/page-manipulation/clipping/
 weight: 10
 ---
 

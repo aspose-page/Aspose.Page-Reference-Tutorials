@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Lär dig hur du beskär EPS‑filer i Java med Aspose.Page – en tydlig, steg‑för‑steg‑handledning
   om hur du beskär EPS med Aspose.Page‑biblioteket.
-language: sv
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Hur man beskär EPS‑filer i Java – Aspose.Page‑guide
-url: /java/manipulation-eps/crop/
+url: /sv/java/manipulation-eps/crop/
 weight: 10
 ---
 

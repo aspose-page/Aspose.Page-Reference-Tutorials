@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Pelajari tutorial pemotongan halaman Java dengan Aspose.Page. Jelajahi
   pemotongan, memutar elemen Java, dan transformasi untuk membuat dokumen yang menakjubkan.
-language: id
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Tutorial Pemotongan Halaman Java – Aspose.Page
-url: /java/page-manipulation/
+url: /id/java/page-manipulation/
 weight: 20
 ---
 

@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Dowiedz się, jak przycinać pliki EPS w Javie przy użyciu Aspose.Page
   – przejrzysty, krok po kroku poradnik, jak przycinać EPS przy użyciu biblioteki
   Aspose.Page.
-language: pl
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Jak przyciąć pliki EPS w Javie – przewodnik Aspose.Page
-url: /java/manipulation-eps/crop/
+url: /pl/java/manipulation-eps/crop/
 weight: 10
 ---
 

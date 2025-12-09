@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Prozkoumejte, jak uložit jako PostScript a oříznout tvary pomocí Aspose.Page
   pro Javu. Naučte se nastavit styl čáry a použít oblast oříznutí při ořezávání grafiky
   v Javě.
-language: cs
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Uložit jako PostScript – Ořezávání v manipulaci s Java stránkami
-url: /java/page-manipulation/clipping/
+url: /cs/java/page-manipulation/clipping/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Naučte se tutoriál o ořezávání stránek v Javě s Aspose.Page. Prozkoumejte
   ořezávání, otáčení prvků v Javě a transformace k vytváření úchvatných dokumentů.
-language: cs
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Java tutoriál o ořezávání stránky – Aspose.Page
-url: /java/page-manipulation/
+url: /cs/java/page-manipulation/
 weight: 20
 ---
 

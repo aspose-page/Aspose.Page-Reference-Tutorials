@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Erfahren Sie, wie Sie mit Aspose.Page für Java als PostScript speichern
   und Formen zuschneiden. Lernen Sie, wie Sie den Strichstil festlegen und einen Clipping‑Bereich
   in der Java‑Grafikbeschneidung anwenden.
-language: de
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Als PostScript speichern – Clipping in der Java‑Seitenmanipulation
-url: /java/page-manipulation/clipping/
+url: /de/java/page-manipulation/clipping/
 weight: 10
 ---
 

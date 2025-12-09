@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Pelajari cara mengelola lisensi aspose page java menggunakan lisensi
   bayar per penggunaan. Panduan langkah demi langkah kami menunjukkan cara mengatur
   lisensi bermeter untuk aplikasi Java.
-language: id
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Lisensi Aspose Page Java – Manajemen Lisensi
-url: /java/license-management/
+url: /id/java/license-management/
 weight: 30
 ---
 

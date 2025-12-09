@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: تعلم درس قصّ الصفحات في جافا باستخدام Aspose.Page. استكشف القص، وتدوير
   العناصر في جافا، والتحويلات لإنشاء مستندات مذهلة.
-language: ar
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: دليل قص الصفحات في Java – Aspose.Page
-url: /java/page-manipulation/
+url: /ar/java/page-manipulation/
 weight: 20
 ---
 

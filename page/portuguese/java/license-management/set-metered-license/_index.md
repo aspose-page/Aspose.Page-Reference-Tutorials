@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aprenda como salvar EPS como PNG usando Aspose.Page para Java enquanto
   configura uma licença medida. Guia passo a passo com exemplo de código completo.
-language: pt
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: Salvar EPS como PNG com Aspose.Page Java (Licença por Medição)
-url: /java/license-management/set-metered-license/
+url: /pt/java/license-management/set-metered-license/
 weight: 10
 ---
 

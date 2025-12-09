@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: Aspose.Page を使用して Java で PS を PNG に変換する方法を学びましょう。ステップバイステップのガイド、前提条件、FAQ、コード例を通じて、PostScript
   を画像にシームレスに変換します。
-language: ja
 linktitle: How to Convert PS to PNG in Java Using Aspose.Page
 second_title: Aspose.Page Java API
 title: JavaでAspose.Pageを使用してPSをPNGに変換する方法
-url: /java/postscript-conversion/to-image/
+url: /ja/java/postscript-conversion/to-image/
 weight: 10
 ---
 

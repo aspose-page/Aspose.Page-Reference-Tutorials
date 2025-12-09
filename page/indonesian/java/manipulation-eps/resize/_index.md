@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Pelajari cara mengubah ukuran file EPS di Java dengan mudah menggunakan
   Aspose.Page. Panduan langkah demi langkah ini menunjukkan cara mengubah ukuran EPS
   menggunakan poin, inci, milimeter, atau persentase.
-language: id
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: Cara Mengubah Ukuran File EPS di Java dengan Aspose.Page
-url: /java/manipulation-eps/resize/
+url: /id/java/manipulation-eps/resize/
 weight: 11
 ---
 

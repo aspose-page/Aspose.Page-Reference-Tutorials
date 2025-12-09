@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Dowiedz się, jak zapisać EPS jako PNG przy użyciu Aspose.Page dla Javy,
   konfigurując licencję licznikową. Przewodnik krok po kroku z pełnym przykładem kodu.
-language: pl
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: Zapisz EPS jako PNG przy użyciu Aspose.Page Java (licencja metrowa)
-url: /java/license-management/set-metered-license/
+url: /pl/java/license-management/set-metered-license/
 weight: 10
 ---
 

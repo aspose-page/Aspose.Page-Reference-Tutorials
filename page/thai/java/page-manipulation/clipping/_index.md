@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: สำรวจวิธีบันทึกเป็น PostScript และตัดรูปทรงโดยใช้ Aspose.Page สำหรับ
   Java เรียนรู้การตั้งค่าสไตล์เส้นและการใช้พื้นที่ตัดคลิปในกราฟิก Java.
-language: th
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: บันทึกเป็น PostScript – การคลิปในการจัดการหน้า Java
-url: /java/page-manipulation/clipping/
+url: /th/java/page-manipulation/clipping/
 weight: 10
 ---
 

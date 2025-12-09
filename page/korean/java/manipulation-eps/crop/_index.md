@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: Aspose.Page를 사용하여 Java에서 EPS 파일을 자르는 방법을 배우세요 – Aspose.Page 라이브러리를 활용한
   EPS 자르기 방법을 단계별로 명확하게 안내하는 튜토리얼입니다.
-language: ko
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Java에서 EPS 파일을 자르는 방법 – Aspose.Page 가이드
-url: /java/manipulation-eps/crop/
+url: /ko/java/manipulation-eps/crop/
 weight: 10
 ---
 

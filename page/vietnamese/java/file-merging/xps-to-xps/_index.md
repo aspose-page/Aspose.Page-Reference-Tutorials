@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Tìm hiểu cách hợp nhất các tệp XPS trong Java một cách liền mạch bằng
   Aspose.Page. Hãy làm theo hướng dẫn từng bước của chúng tôi để thao tác tài liệu
   hiệu quả và nâng cao kỹ năng phát triển Java của bạn.
-language: vi
 linktitle: Convert XPS to XPS in Java
 second_title: Aspose.Page Java API
 title: Cách hợp nhất các tệp XPS trong Java bằng Aspose.Page
-url: /java/file-merging/xps-to-xps/
+url: /vi/java/file-merging/xps-to-xps/
 weight: 12
 ---
 

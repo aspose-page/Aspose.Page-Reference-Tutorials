@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.Page for Java kullanarak EPS'yi PNG olarak kaydetmeyi ve ölçülen
   lisansı yapılandırmayı öğrenin. Tam kod örneğiyle adım adım rehber.
-language: tr
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: Aspose.Page Java ile EPS'yi PNG olarak kaydet (Ölçülü Lisans)
-url: /java/license-management/set-metered-license/
+url: /tr/java/license-management/set-metered-license/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Leer de Java-paginaclip-tutorial met Aspose.Page. Ontdek clipping, roteren
   van elementen in Java en transformaties om verbluffende documenten te maken.
-language: nl
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Java Pagina Knippen Tutorial – Aspose.Page
-url: /java/page-manipulation/
+url: /nl/java/page-manipulation/
 weight: 20
 ---
 

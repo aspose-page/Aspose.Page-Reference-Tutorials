@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Odkryj sekrety manipulacji stronami w Javie dzięki samouczkom Aspose.Page.
   Zanurz się w przycinaniu, transformacjach i nie tylko, aby tworzyć wizualnie zachwycające
   dokumenty bez wysiłku.
-language: pl
 linktitle: Aspose.Page for Java Tutorials
 title: Konwertuj PostScript na PDF za pomocą Aspose.Page dla Javy – kompleksowe samouczki
   i przykłady
-url: /java/
+url: /pl/java/
 weight: 10
 ---
 

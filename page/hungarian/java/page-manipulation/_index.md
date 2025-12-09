@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Ismerje meg a Java oldalvágás oktatóját az Aspose.Page segítségével.
   Fedezze fel a vágást, a Java elemek forgatását és a transzformációkat, hogy lenyűgöző
   dokumentumokat hozzon létre.
-language: hu
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Java oldalvágási útmutató – Aspose.Page
-url: /java/page-manipulation/
+url: /hu/java/page-manipulation/
 weight: 20
 ---
 

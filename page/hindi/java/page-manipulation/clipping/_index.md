@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.Page for Java का उपयोग करके PostScript के रूप में सहेजना और आकारों
   को क्लिप करना कैसे करें, इसका अन्वेषण करें। जावा ग्राफ़िक्स क्लिपिंग में स्ट्रोक
   शैली सेट करना और क्लिपिंग क्षेत्र लागू करना सीखें।
-language: hi
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: पोस्टस्क्रिप्ट के रूप में सहेजें – जावा पेज मैनिपुलेशन में क्लिपिंग
-url: /java/page-manipulation/clipping/
+url: /hi/java/page-manipulation/clipping/
 weight: 10
 ---
 

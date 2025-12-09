@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Khám phá cách lưu dưới dạng PostScript và cắt các hình dạng bằng Aspose.Page
   cho Java. Tìm hiểu cách thiết lập kiểu nét và áp dụng vùng cắt trong việc cắt đồ
   họa Java.
-language: vi
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Lưu dưới dạng PostScript – Cắt trong thao tác trang Java
-url: /java/page-manipulation/clipping/
+url: /vi/java/page-manipulation/clipping/
 weight: 10
 ---
 

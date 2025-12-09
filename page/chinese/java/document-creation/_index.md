@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: 学习如何使用 Aspose.Page for Java 在 Java 中创建 PostScript 文件。自定义页面尺寸、边距和字体，以生成动态的
   PostScript 文档。
-language: zh
 linktitle: java create postscript file – Java Document Creation
 second_title: Aspose.Page Java API
 title: java 创建 PostScript 文件 – 使用 Aspose.Page 进行 Java 文档创建
-url: /java/document-creation/
+url: /zh/java/document-creation/
 weight: 23
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Lernen Sie das Java-Page-Clipping-Tutorial mit Aspose.Page. Erkunden
   Sie Clipping, das Drehen von Elementen in Java und Transformationen, um beeindruckende
   Dokumente zu erstellen.
-language: de
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Java Page‑Clipping‑Tutorial – Aspose.Page
-url: /java/page-manipulation/
+url: /de/java/page-manipulation/
 weight: 20
 ---
 

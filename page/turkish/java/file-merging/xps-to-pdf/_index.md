@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Aspose.Page Java ile Java'da XPS'yi PDF olarak nasıl kaydedeceğinizi
   öğrenin. Verimli XPS'ten PDF'e dönüşüm ve PDF sıkıştırma ayarları için adım adım
   rehberimizi izleyin.
-language: tr
 linktitle: Convert XPS to PDF in Java using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: Aspose.Page Java kullanarak Java'da XPS'yi PDF'ye dönüştür
-url: /java/file-merging/xps-to-pdf/
+url: /tr/java/file-merging/xps-to-pdf/
 weight: 11
 ---
 

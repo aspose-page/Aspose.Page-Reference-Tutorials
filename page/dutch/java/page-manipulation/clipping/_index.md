@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Ontdek hoe je kunt opslaan als PostScript en vormen kunt bijsnijden met
   Aspose.Page voor Java. Leer hoe je de lijnstijl instelt en een bijsnijdingsgebied
   toepast bij Java-graphics.
-language: nl
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Opslaan als PostScript – Bijsnijden bij Java-paginamanipulatie
-url: /java/page-manipulation/clipping/
+url: /nl/java/page-manipulation/clipping/
 weight: 10
 ---
 

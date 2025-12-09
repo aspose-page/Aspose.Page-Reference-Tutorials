@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Μάθετε το σεμινάριο κοπής σελίδων Java με το Aspose.Page. Εξερευνήστε
   την κοπή, την περιστροφή στοιχείων Java και τους μετασχηματισμούς για να δημιουργήσετε
   εντυπωσιακά έγγραφα.
-language: el
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Εκπαιδευτικό Java για Κοπή Σελίδας – Aspose.Page
-url: /java/page-manipulation/
+url: /el/java/page-manipulation/
 weight: 20
 ---
 

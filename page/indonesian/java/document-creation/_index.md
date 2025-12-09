@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Pelajari cara membuat file PostScript menggunakan Aspose.Page untuk Java.
   Sesuaikan ukuran halaman, margin, dan font untuk menghasilkan dokumen PostScript
   yang dinamis.
-language: id
 linktitle: java create postscript file – Java Document Creation
 second_title: Aspose.Page Java API
 title: java membuat file postscript – Pembuatan Dokumen Java dengan Aspose.Page
-url: /java/document-creation/
+url: /id/java/document-creation/
 weight: 23
 ---
 

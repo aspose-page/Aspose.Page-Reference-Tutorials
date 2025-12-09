@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: เรียนรู้วิธีบันทึก EPS เป็น PNG ด้วย Aspose.Page สำหรับ Java พร้อมการกำหนดใบอนุญาตแบบมิเตอร์
   คู่มือขั้นตอนต่อขั้นตอนพร้อมตัวอย่างโค้ดเต็ม
-language: th
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: บันทึก EPS เป็น PNG ด้วย Aspose.Page Java (ลิขสิทธิ์แบบจ่ายตามการใช้งาน)
-url: /java/license-management/set-metered-license/
+url: /th/java/license-management/set-metered-license/
 weight: 10
 ---
 

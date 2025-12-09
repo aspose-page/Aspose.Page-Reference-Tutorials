@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Tanulja meg, hogyan lehet EPS fájlokat vágni Java-ban az Aspose.Page
   segítségével – egy világos, lépésről‑lépésre útmutató arról, hogyan vágja le az
   EPS-t az Aspose.Page könyvtár használatával.
-language: hu
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Hogyan vágjunk le EPS fájlokat Java-ban – Aspose.Page útmutató
-url: /java/manipulation-eps/crop/
+url: /hu/java/manipulation-eps/crop/
 weight: 10
 ---
 

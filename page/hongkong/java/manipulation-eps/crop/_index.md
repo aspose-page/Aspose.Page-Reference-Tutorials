@@ -2,11 +2,10 @@
 date: 2025-11-30
 description: 學習如何在 Java 中使用 Aspose.Page 裁剪 EPS 檔案——一個清晰、逐步說明的教學，教您如何使用 Aspose.Page
   函式庫裁剪 EPS。
-language: zh-hant
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: 如何在 Java 中裁剪 EPS 檔案 – Aspose.Page 指南
-url: /java/manipulation-eps/crop/
+url: /zh-hant/java/manipulation-eps/crop/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: 'تعلم تحويل صفحات Aspose للغة Java: تحويل ملفات PostScript إلى صور، PDF،
   وحفظ الصور كملفات EPS. أدلة خطوة بخطوة، أسئلة شائعة، ومتطلبات سابقة للتكامل السلس.'
-language: ar
 linktitle: Conversion - PostScript
 second_title: Aspose.Page Java API
 title: 'تحويل صفحات Aspose: من PostScript إلى صور، PDF و EPS (Java)'
-url: /java/postscript-conversion/
+url: /ar/java/postscript-conversion/
 weight: 21
 ---
 

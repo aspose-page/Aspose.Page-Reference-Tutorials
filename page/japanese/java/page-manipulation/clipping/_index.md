@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.Page for Java を使用して、PostScript として保存しシェイプをクリップする方法を探ります。ストロークスタイルの設定方法と、Java
   のグラフィッククリッピングでクリッピング領域を適用する方法を学びます。
-language: ja
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: PostScriptとして保存 – Javaページ操作におけるクリッピング
-url: /java/page-manipulation/clipping/
+url: /ja/java/page-manipulation/clipping/
 weight: 10
 ---
 

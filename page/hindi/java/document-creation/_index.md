@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aspose.Page for Java का उपयोग करके जावा में पोस्टस्क्रिप्ट फ़ाइल बनाना
   सीखें। पेज आकार, मार्जिन और फ़ॉन्ट को कस्टमाइज़ करके डायनेमिक पोस्टस्क्रिप्ट दस्तावेज़
   जनरेट करें।
-language: hi
 linktitle: java create postscript file – Java Document Creation
 second_title: Aspose.Page Java API
 title: java पोस्टस्क्रिप्ट फ़ाइल बनाएं – Aspose.Page के साथ जावा दस्तावेज़ निर्माण
-url: /java/document-creation/
+url: /hi/java/document-creation/
 weight: 23
 ---
 

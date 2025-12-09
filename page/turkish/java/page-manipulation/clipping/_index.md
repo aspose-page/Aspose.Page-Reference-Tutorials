@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Aspose.Page for Java kullanarak PostScript olarak kaydetmeyi ve şekilleri
   kırpmayı keşfedin. Java grafik kırpma işleminde çizgi stilini ayarlamayı ve kırpma
   bölgesini uygulamayı öğrenin.
-language: tr
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: PostScript olarak Kaydet – Java Sayfa Manipülasyonunda Kırpma
-url: /java/page-manipulation/clipping/
+url: /tr/java/page-manipulation/clipping/
 weight: 10
 ---
 

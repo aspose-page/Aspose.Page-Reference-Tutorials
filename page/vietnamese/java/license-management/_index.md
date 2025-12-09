@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Tìm hiểu cách quản lý giấy phép Aspose.Page cho Java bằng giấy phép trả
   phí theo mức sử dụng. Hướng dẫn từng bước của chúng tôi sẽ chỉ cho bạn cách thiết
   lập giấy phép tính theo mức cho các ứng dụng Java.
-language: vi
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Giấy phép Aspose Page Java – Quản lý giấy phép
-url: /java/license-management/
+url: /vi/java/license-management/
 weight: 30
 ---
 

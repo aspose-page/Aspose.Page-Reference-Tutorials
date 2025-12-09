@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Leer hoe u EPS‑bestanden in Java moeiteloos kunt aanpassen met Aspose.Page.
   Deze stap‑voor‑stap gids laat zien hoe u EPS kunt schalen met punten, inches, millimeters
   of percentages.
-language: nl
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: Hoe EPS-bestanden te verkleinen in Java met Aspose.Page
-url: /java/manipulation-eps/resize/
+url: /nl/java/manipulation-eps/resize/
 weight: 11
 ---
 

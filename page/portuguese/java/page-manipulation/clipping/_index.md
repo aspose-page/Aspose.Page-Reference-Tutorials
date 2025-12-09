@@ -3,11 +3,10 @@ date: 2025-12-03
 description: Explore como salvar como PostScript e recortar formas usando Aspose.Page
   para Java. Aprenda a definir o estilo de traço e aplicar a região de recorte em
   clipping de gráficos Java.
-language: pt
 linktitle: Save as PostScript – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Salvar como PostScript – Recorte na Manipulação de Páginas Java
-url: /java/page-manipulation/clipping/
+url: /pt/java/page-manipulation/clipping/
 weight: 10
 ---
 

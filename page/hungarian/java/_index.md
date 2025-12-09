@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Fedezze fel a Java oldalműveletek titkait az Aspose.Page oktatóanyagaival.
   Merüljön el a vágásban, átalakításokban és még sok másban, hogy könnyedén lenyűgöző
   dokumentumokat hozzon létre.
-language: hu
 linktitle: Aspose.Page for Java Tutorials
 title: PostScript konvertálása PDF-re az Aspose.Page for Java segítségével – Átfogó
   útmutatók és példák
-url: /java/
+url: /hu/java/
 weight: 10
 ---
 

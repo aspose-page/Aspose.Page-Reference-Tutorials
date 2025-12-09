@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Aprenda a cambiar el tamaño de archivos EPS en Java sin esfuerzo con
   Aspose.Page. Esta guía paso a paso le muestra cómo redimensionar EPS usando puntos,
   pulgadas, milímetros o porcentajes.
-language: es
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: Cómo redimensionar archivos EPS en Java con Aspose.Page
-url: /java/manipulation-eps/resize/
+url: /es/java/manipulation-eps/resize/
 weight: 11
 ---
 

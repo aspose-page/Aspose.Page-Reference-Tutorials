@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Lär dig hur du hanterar Aspose Page‑licens för Java med en betal‑per‑användning‑licens.
   Vår steg‑för‑steg‑guide visar dig hur du ställer in mätlicenser för Java‑applikationer.
-language: sv
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: Aspose Page-licens Java – Licenshantering
-url: /java/license-management/
+url: /sv/java/license-management/
 weight: 30
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-02
 description: Ismerje meg, hogyan lehet könnyedén átméretezni az EPS fájlokat Java
   nyelven az Aspose.Page segítségével. Ez a lépésről‑lépésre útmutató megmutatja,
   hogyan lehet EPS‑t átméretezni pontok, hüvelyk, milliméter vagy százalékok használatával.
-language: hu
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: Hogyan méretezhetünk át EPS fájlokat Java-ban az Aspose.Page segítségével
-url: /java/manipulation-eps/resize/
+url: /hu/java/manipulation-eps/resize/
 weight: 11
 ---
 

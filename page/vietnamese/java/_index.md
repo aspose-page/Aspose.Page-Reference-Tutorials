@@ -3,11 +3,10 @@ date: 2025-11-29
 description: Khám phá bí quyết của việc thao tác trang Java với các hướng dẫn Aspose.Page.
   Đắm mình vào cắt, biến đổi và hơn thế nữa để tạo ra các tài liệu đẹp mắt một cách
   dễ dàng.
-language: vi
 linktitle: Aspose.Page for Java Tutorials
 title: Chuyển đổi PostScript sang PDF với Aspose.Page cho Java – Hướng dẫn và ví dụ
   toàn diện
-url: /java/
+url: /vi/java/
 weight: 10
 ---
 

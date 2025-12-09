@@ -3,11 +3,10 @@ date: 2025-11-30
 description: Apprenez à recadrer des fichiers EPS en Java avec Aspose.Page – un tutoriel
   clair, étape par étape, sur la façon de recadrer des EPS à l'aide de la bibliothèque
   Aspose.Page.
-language: fr
 linktitle: Crop EPS File in Java
 second_title: Aspose.Page Java API
 title: Comment recadrer des fichiers EPS en Java – Guide Aspose.Page
-url: /java/manipulation-eps/crop/
+url: /fr/java/manipulation-eps/crop/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Naučte se, jak uložit EPS jako PNG pomocí Aspose.Page pro Javu při konfiguraci
   měřené licence. Krok za krokem průvodce s kompletním příkladem kódu.
-language: cs
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 title: Uložení EPS jako PNG pomocí Aspose.Page Java (měřená licence)
-url: /java/license-management/set-metered-license/
+url: /cs/java/license-management/set-metered-license/
 weight: 10
 ---
 

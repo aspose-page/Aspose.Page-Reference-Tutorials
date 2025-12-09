@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: เรียนรู้วิธีจัดการใบอนุญาต Aspose.Page สำหรับ Java ด้วยใบอนุญาตแบบจ่ายตามการใช้
   คู่มือแบบทีละขั้นตอนของเราจะแสดงวิธีตั้งค่าใบอนุญาตแบบมิเตอร์สำหรับแอปพลิเคชัน Java
-language: th
 linktitle: License Management
 second_title: Aspose.Page Java API
 title: ใบอนุญาต Aspose Page Java – การจัดการใบอนุญาต
-url: /java/license-management/
+url: /th/java/license-management/
 weight: 30
 ---
 

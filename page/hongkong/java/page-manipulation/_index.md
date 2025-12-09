@@ -1,11 +1,10 @@
 ---
 date: 2025-12-03
 description: 學習 Aspose.Page 的 Java 頁面裁剪教學。探索裁剪、Java 旋轉元素與轉換，創建令人驚嘆的文件。
-language: zh-hant
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: Java 頁面裁剪教學 – Aspose.Page
-url: /java/page-manipulation/
+url: /zh-hant/java/page-manipulation/
 weight: 20
 ---
 

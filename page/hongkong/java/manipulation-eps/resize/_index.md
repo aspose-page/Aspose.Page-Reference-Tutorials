@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: 學習如何在 Java 中使用 Aspose.Page 輕鬆調整 EPS 檔案大小。本分步指南將示範如何以點、英吋、毫米或百分比來調整 EPS
   的尺寸。
-language: zh-hant
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
 title: 如何在 Java 中使用 Aspose.Page 調整 EPS 檔案大小
-url: /java/manipulation-eps/resize/
+url: /zh-hant/java/manipulation-eps/resize/
 weight: 11
 ---
 

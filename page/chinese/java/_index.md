@@ -1,10 +1,9 @@
 ---
 date: 2025-11-29
 description: 通过 Aspose.Page 教程，解锁 Java 页面操作的秘密。深入了解裁剪、变换等功能，轻松创建视觉惊艳的文档。
-language: zh
 linktitle: Aspose.Page for Java Tutorials
 title: 使用 Aspose.Page for Java 将 PostScript 转换为 PDF – 综合教程与示例
-url: /java/
+url: /zh/java/
 weight: 10
 ---
 

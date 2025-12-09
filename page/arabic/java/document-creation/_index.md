@@ -2,11 +2,10 @@
 date: 2025-12-02
 description: تعلم كيفية إنشاء ملف بوستسكريبت باستخدام Aspose.Page للغة جافا. خصّص
   حجم الصفحة والهوامش والخطوط لإنشاء مستندات بوستسكريبت ديناميكية.
-language: ar
 linktitle: java create postscript file – Java Document Creation
 second_title: Aspose.Page Java API
 title: جافا إنشاء ملف بوستسكريبت – إنشاء مستندات جافا باستخدام Aspose.Page
-url: /java/document-creation/
+url: /ar/java/document-creation/
 weight: 23
 ---
 

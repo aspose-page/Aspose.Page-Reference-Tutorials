@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: เรียนรู้บทแนะนำการคลิปหน้า Java กับ Aspose.Page. สำรวจการคลิป, การหมุนองค์ประกอบ
   Java, และการแปลงเพื่อสร้างเอกสารที่น่าทึ่ง.
-language: th
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: บทแนะนำการคลิปหน้าใน Java – Aspose.Page
-url: /java/page-manipulation/
+url: /th/java/page-manipulation/
 weight: 20
 ---
 

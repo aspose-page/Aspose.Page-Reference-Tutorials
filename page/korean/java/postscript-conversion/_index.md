@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: 'Asposе 페이지 변환(Java) 학습: PostScript를 이미지와 PDF로 변환하고 이미지를 EPS로 저장합니다.
   단계별 가이드, FAQ 및 원활한 통합을 위한 전제 조건.'
-language: ko
 linktitle: Conversion - PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose 페이지 변환: PostScript를 이미지, PDF 및 EPS(Java)'
-url: /java/postscript-conversion/
+url: /ko/java/postscript-conversion/
 weight: 21
 ---
 

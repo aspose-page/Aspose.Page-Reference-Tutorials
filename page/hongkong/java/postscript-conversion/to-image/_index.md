@@ -2,11 +2,10 @@
 date: 2025-12-04
 description: 學習如何在 Java 中使用 Aspose.Page 將 PS 轉換為 PNG。提供逐步指南、先決條件、常見問題與程式碼範例，實現無縫的
   PostScript 轉圖像。
-language: zh-hant
 linktitle: How to Convert PS to PNG in Java Using Aspose.Page
 second_title: Aspose.Page Java API
 title: 如何在 Java 中使用 Aspose.Page 將 PS 轉換為 PNG
-url: /java/postscript-conversion/to-image/
+url: /zh-hant/java/postscript-conversion/to-image/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-03
 description: Aspose.Page के साथ जावा पेज क्लिपिंग ट्यूटोरियल सीखें। क्लिपिंग, रोटेट
   एलिमेंट्स जावा और ट्रांसफ़ॉर्मेशन का अन्वेषण करें ताकि शानदार दस्तावेज़ बना सकें।
-language: hi
 linktitle: Java Page Clipping Tutorial
 second_title: Aspose.Page Java API
 title: जावा पेज क्लिपिंग ट्यूटोरियल – Aspose.Page
-url: /java/page-manipulation/
+url: /hi/java/page-manipulation/
 weight: 20
 ---
 
