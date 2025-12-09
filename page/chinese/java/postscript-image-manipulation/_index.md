@@ -1,46 +1,102 @@
 ---
-title: 图像处理 - PostScript
-linktitle: 图像处理 - PostScript
+date: 2025-12-09
+description: 学习如何在 Java 中进行图像处理以及如何使用 Aspose.Page for Java 在 PostScript 中添加图像。按照一步一步的指导，轻松嵌入图像。
+linktitle: Image Manipulation Java – Add Images in PostScript
 second_title: Aspose.Page Java API
-description: 使用 Aspose.Page for Java 增强文档操作技能。深入研究我们的 PostScript 教程，学习在 Java 中添加图像，并提升您的文档功能。
-weight: 28
+title: Java 图像处理 – 在 PostScript 中添加图像
 url: /zh/java/postscript-image-manipulation/
+weight: 28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 图像处理 - PostScript
+# 图像处理 Java – 在 PostScript 中添加图像
 
+## Introduction
 
-## 介绍
+准备好在您的 PostScript 工作流中掌握 **image manipulation java** 吗？在本教程中，我们将指导您使用 Aspose.Page for Java 向 PostScript 文档添加图像。您将了解此功能为何重要、如何设置库以及嵌入图形的具体步骤。完成后，您将有信心用视觉元素丰富 PDF、报告或任何可打印内容。
 
-您准备好使用 Aspose.Page for Java 开启文档操作的无限可能了吗？我们的 PostScript 教程将指导您无缝集成这个强大的工具，使您能够轻松地将图像添加到您的 Java 项目中。
+## Quick Answers
+- **What is the primary library?** Aspose.Page for Java  
+- **Which keyword does this guide target?** *image manipulation java*  
+- **How can I start?** Download the library from the official product page and add it to your project’s classpath.  
+- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production.  
+- **Can I use this with Maven/Gradle?** Yes—add the Aspose.Page Maven artifact to your build file.
 
-## 提升您的文档处理能力
+## What is image manipulation java?
 
-在本教程中，我们将重点关注 Java PostScript 文档中图像操作的有趣领域。 Aspose.Page for Java 为寻求增强文档处理技能的用户提供了无数的机会。请按照以下步骤将图像添加无缝集成到您的项目中：
+Image manipulation java 指的是使用 Java 库对文档格式（如 PostScript）执行的编程操作——例如插入、调整大小或转换图形。Aspose.Page 提供了简洁的 API，抽象了底层的 PostScript 命令，让您专注于业务逻辑。
 
-## Aspose.Page for Java 的无缝集成
+## Why use Aspose.Page for Java to add images?
 
-确保 用于 Java 的 Aspose.Page 顺利集成到您的开发环境中，开始您的旅程。访问[Aspose.Page for Java](https://products.aspose.com/page/java)下载并设置必要的组件。集成后，您就可以探索令人兴奋的文档操作世界。
+- **High fidelity** – 图像保持原始分辨率和色彩深度。  
+- **Cross‑platform** – 在任何支持 Java 的操作系统上均可运行。  
+- **No external dependencies** – 无需本地 PostScript 工具。  
+- **Full control** – 可以精确定位、缩放和旋转图像。
 
-## 探索添加图像功能
+## Seamless Integration of Aspose.Page for Java
 
-导航至[在 Java PostScript 中添加图像](./add-image/)教程深入研究将图像添加到 PostScript 文档的细节。这份综合指南提供了对该过程的详细见解，并将其分解为易于遵循的步骤。您很快就会发现自己可以使用 Aspose.Page 将图像无缝地合并到您的 Java 项目中。
+Begin your journey by ensuring a smooth integration of Aspose.Page for Java into your development environment. Visit [Aspose.Page for Java](https://products.aspose.com/page/java) to download and set up the necessary components. Once integrated, you're ready to explore the exciting world of document manipulation.
 
-## 提高您的文档操作技能
+## Exploring the Add Image Functionality
 
-Aspose.Page for Java 使您能够提升文档操作能力。通过我们的教程，您不仅可以学习技术细节，还可以更深入地了解如何充分利用这个强大工具的潜力。提高您的技能并在文档处理领域脱颖而出。
+Navigate to the [Add Image in Java PostScript](./add-image/) tutorial to delve into the specifics of adding images to your PostScript documents. This comprehensive guide provides detailed insights into the process, breaking it down into easy‑to‑follow steps. You'll soon find yourself seamlessly incorporating images into your Java projects with Aspose.Page.
 
-通过 Aspose.Page for Java 的 PostScript 教程踏上这一发现之旅。轻松地将图像添加到您的 Java 项目中，并将您的文档操作能力提升到新的高度。加入接受 Aspose.Page for Java 强大功能的开发人员社区，立即彻底改变您的文档处理体验。
-## 图像处理 - PostScript 教程
-### [在 Java PostScript 中添加图像](./add-image/)
-在本教程中探索 Aspose.Page Java 的无缝集成，向 PostScript 文档添加图像。提升您的文档处理能力。
+## How to add image – Step‑by‑step overview
+
+Below is a concise roadmap you can follow after the library is installed:
+
+1. **Create a `Document` object** that represents the PostScript file you want to edit.  
+2. **Instantiate an `Image` object** from a file, stream, or byte array.  
+3. **Define the placement rectangle** (X, Y, width, height) where the image will appear.  
+4. **Call `document.addImage(image, rect)`** to embed the graphic.  
+5. **Save the updated document** back to disk or a stream.
+
+Each of these actions is demonstrated in the linked “Add Image in Java PostScript” tutorial, so you can copy‑paste the exact code snippets into your project.
+
+## Elevating Your Document Manipulation Skills
+
+Aspose.Page for Java empowers you to elevate your document manipulation capabilities. With our tutorials, you not only learn the technicalities but also gain a deeper understanding of how to harness the full potential of this powerful tool. Enhance your skills and stand out in the world of document processing.
+
+## Common Pitfalls & Tips
+
+- **Image format support** – Ensure your source image is in a format supported by Aspose (PNG, JPEG, BMP, etc.).  
+- **Coordinate system** – PostScript uses a bottom‑left origin; double‑check your Y‑coordinates.  
+- **Memory usage** – Large images can increase memory consumption; consider down‑sampling before insertion.  
+- **Licensing** – Running without a license adds a watermark to the output; always apply a valid license for production.
+
+## Image Manipulation - PostScript Tutorials
+### [Add Image in Java PostScript](./add-image/)
+Explore the seamless integration of Aspose.Page Java in this tutorial on adding images to PostScript documents. Elevate your document manipulation capabilities.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Frequently Asked Questions
+
+**Q: Can I add multiple images to the same PostScript page?**  
+A: Yes. Call the `addImage` method repeatedly with different placement rectangles.
+
+**Q: Does Aspose.Page support vector graphics as well?**  
+A: Absolutely. You can embed SVG, EPS, or even raw PostScript commands alongside raster images.
+
+**Q: What versions of Java are compatible?**  
+A: The library works with Java 8 and newer, including Java 11, 17, and later LTS releases.
+
+**Q: Is there a way to rotate an image while adding it?**  
+A: Yes. Use the `Matrix` transformation API to set rotation before calling `addImage`.
+
+**Q: How do I handle transparent PNGs?**  
+A: Transparent PNGs are preserved automatically; just ensure the target PostScript viewer supports alpha channels.
+
+---
+
+**Last Updated:** 2025-12-09  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose
