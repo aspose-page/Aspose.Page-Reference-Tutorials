@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Erfahren Sie, wie Sie mit Aspose.Page radiale Farbverlauf‑Effekte in
   Java‑PostScript‑Dokumenten erstellen. Schritt‑für‑Schritt‑Anleitungen für diagonale,
   horizontale, radiale und vertikale Verläufe.
-language: de
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: Wie man einen radialen Farbverlauf erstellt – Farbverlauf hinzufügen in PostScript
-url: /java/postscript-gradient-addition/
+url: /de/java/postscript-gradient-addition/
 weight: 25
 ---
 

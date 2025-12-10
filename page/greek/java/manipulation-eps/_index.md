@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε το σεμινάριο aspose.page eps java για περικοπή και αλλαγή μεγέθους
   αρχείων EPS με το Aspose.Page για Java. Οδηγοί βήμα‑βήμα σας βοηθούν να κατακτήσετε
   τη διαχείριση των EPS.
-language: el
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'aspose.page eps java tutorial: Επεξεργασία EPS σε Java'
-url: /java/manipulation-eps/
+url: /el/java/manipulation-eps/
 weight: 24
 ---
 
@@ -98,6 +97,8 @@ A: Το API ρίχνει μια `FileFormatException`. Πιάστε την εξ�
 
 **Q: Πρέπει να κλείσω κάποιους πόρους χειροκίνητα;**  
 A: Η κλάση `Page` υλοποιεί το `Closeable`; χρησιμοποιήστε ένα μπλοκ try‑with‑resources ή καλέστε `page.close()` για να ελευθερώσετε μνήμη.
+
+---
 
 **Τελευταία Ενημέρωση:** 2025-12-05  
 **Δοκιμή με:** Aspose.Page for Java 24.11  

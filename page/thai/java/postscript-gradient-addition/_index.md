@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้วิธีสร้างเอฟเฟกต์ไล่สีแบบรัศมีในเอกสาร Java PostScript ด้วย Aspose.Page
   คู่มือขั้นตอนต่อขั้นตอนสำหรับไล่สีแนวทแยง, แนวนอน, รัศมี, และแนวตั้ง
-language: th
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: วิธีสร้างไล่ระดับสีแบบรัศมี – การเพิ่มไล่ระดับสีใน PostScript
-url: /java/postscript-gradient-addition/
+url: /th/java/postscript-gradient-addition/
 weight: 25
 ---
 

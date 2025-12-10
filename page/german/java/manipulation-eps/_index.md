@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Lernen Sie das Aspose.Page‑EPS‑Java‑Tutorial zum Zuschneiden und Ändern
   der Größe von EPS‑Dateien mit Aspose.Page für Java. Schritt‑für‑Schritt‑Anleitungen
   helfen Ihnen, die EPS‑Manipulation zu meistern.
-language: de
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'aspose.page eps java tutorial: EPS-Manipulation in Java'
-url: /java/manipulation-eps/
+url: /de/java/manipulation-eps/
 weight: 24
 ---
 

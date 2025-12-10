@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: เรียนรู้บทแนะนำ Aspose.Page EPS Java สำหรับการตัดและปรับขนาดไฟล์ EPS
   ด้วย Aspose.Page สำหรับ Java คู่มือทีละขั้นตอนช่วยให้คุณเชี่ยวชาญการจัดการ EPS.
-language: th
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'คู่มือ Aspose.Page EPS Java: การจัดการ EPS ด้วย Java'
-url: /java/manipulation-eps/
+url: /th/java/manipulation-eps/
 weight: 24
 ---
 

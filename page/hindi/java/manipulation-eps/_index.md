@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Page for Java के साथ EPS फ़ाइलों को क्रॉप और रिसाइज़ करने के लिए
   aspose.page eps java ट्यूटोरियल सीखें। चरण‑दर‑चरण गाइड आपको EPS मैनिपुलेशन में निपुण
   बनाते हैं।
-language: hi
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'aspose.page eps java ट्यूटोरियल: जावा में EPS मैनिपुलेशन'
-url: /java/manipulation-eps/
+url: /hi/java/manipulation-eps/
 weight: 24
 ---
 

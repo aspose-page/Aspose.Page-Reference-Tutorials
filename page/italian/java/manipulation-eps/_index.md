@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Impara il tutorial aspose.page eps java per ritagliare e ridimensionare
   i file EPS con Aspose.Page per Java. Guide passo‑passo ti aiutano a padroneggiare
   la manipolazione degli EPS.
-language: it
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'aspose.page eps tutorial Java: Manipolazione EPS in Java'
-url: /java/manipulation-eps/
+url: /it/java/manipulation-eps/
 weight: 24
 ---
 
@@ -98,6 +97,8 @@ A: L'API genera una `FileFormatException`. Cattura l'eccezione e valida il file 
 
 **Q: Devo chiudere manualmente qualche risorsa?**  
 A: La classe `Page` implementa `Closeable`; usa un blocco try‑with‑resources o chiama `page.close()` per liberare la memoria.
+
+---
 
 **Ultimo aggiornamento:** 2025-12-05  
 **Testato con:** Aspose.Page for Java 24.11  

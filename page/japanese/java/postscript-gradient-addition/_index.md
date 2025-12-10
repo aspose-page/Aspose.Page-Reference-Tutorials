@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: Aspose.Page を使用して、Java の PostScript ドキュメントで放射状グラデーション効果を作成する方法を学びましょう。対角線、水平、放射状、垂直グラデーションのステップバイステップガイド。
-language: ja
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: ラジアルグラデーションの作り方 – PostScriptでのグラデーション追加
-url: /java/postscript-gradient-addition/
+url: /ja/java/postscript-gradient-addition/
 weight: 25
 ---
 

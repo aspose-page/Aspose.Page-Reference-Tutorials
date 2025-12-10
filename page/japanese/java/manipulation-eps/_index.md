@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.Page for Java を使用した EPS ファイルのトリミングとリサイズのための aspose.page eps java
   チュートリアルを学びましょう。ステップバイステップのガイドが EPS 操作の習得を支援します。
-language: ja
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: Aspose.Page EPS Java チュートリアル：JavaでのEPS操作
-url: /java/manipulation-eps/
+url: /ja/java/manipulation-eps/
 weight: 24
 ---
 

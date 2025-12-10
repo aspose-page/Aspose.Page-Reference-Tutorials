@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Tanulja meg az Aspose.Page for Java EPS vágás és átméretezés tutorialját.
   A lépésről‑lépésre útmutatók segítenek elsajátítani az EPS manipulációt.
-language: hu
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'aspose.page eps java útmutató: EPS manipuláció Java-ban'
-url: /java/manipulation-eps/
+url: /hu/java/manipulation-eps/
 weight: 24
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-05
 description: 了解如何使用 Aspose.Page 在 Java PostScript 文档中创建径向渐变效果。提供对角线、水平、径向和垂直渐变的逐步指南。
-language: zh
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: 如何创建径向渐变 – PostScript 中的渐变添加
-url: /java/postscript-gradient-addition/
+url: /zh/java/postscript-gradient-addition/
 weight: 25
 ---
 

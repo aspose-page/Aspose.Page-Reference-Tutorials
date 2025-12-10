@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم كيفية إنشاء تأثيرات التدرج الدائري في مستندات Java PostScript باستخدام
   Aspose.Page. أدلة خطوة بخطوة للتدرجات المائلة، الأفقية، الدائرية، والرأسية.
-language: ar
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: كيفية إنشاء تدرج دائري – إضافة التدرج في بوستسكريبت
-url: /java/postscript-gradient-addition/
+url: /ar/java/postscript-gradient-addition/
 weight: 25
 ---
 
@@ -89,6 +88,8 @@ weight: 25
 
 **س: ما هي خيارات الترخيص المتاحة للاستخدام التجاري؟**  
 ج: تقدم Aspose تراخيص دائمة واشتراكية؛ كما تتوفر ترخيص تجريبي مجاني للتطوير والاختبار.
+
+---
 
 **آخر تحديث:** 2025-12-05  
 **تم الاختبار باستخدام:** Aspose.Page for Java 24.11  

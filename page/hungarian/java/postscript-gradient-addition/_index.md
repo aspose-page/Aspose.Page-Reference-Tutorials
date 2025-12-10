@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Ismerje meg, hogyan hozhat létre radiális színátmenet‑hatásokat Java
   PostScript dokumentumokban az Aspose.Page használatával. Lépésről‑lépésre útmutatók
   átlós, vízszintes, radiális és függőleges színátmenetekhez.
-language: hu
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: Hogyan készítsünk radiális gradiens – Gradiens hozzáadása PostScriptben
-url: /java/postscript-gradient-addition/
+url: /hu/java/postscript-gradient-addition/
 weight: 25
 ---
 
@@ -90,6 +89,8 @@ A: Mentsd a generált PostScriptet .ps fájlként, és nyisd meg bármely PostSc
 
 **Q: Milyen licencelési lehetőségek állnak rendelkezésre kereskedelmi felhasználáshoz?**  
 A: Az Aspose örökös és előfizetéses licenceket kínál; ingyenes értékelő licenc elérhető fejlesztéshez és teszteléshez.
+
+---
 
 **Utoljára frissítve:** 2025-12-05  
 **Tesztelve ezzel:** Aspose.Page for Java 24.11  

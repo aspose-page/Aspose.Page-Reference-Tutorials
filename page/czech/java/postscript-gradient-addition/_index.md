@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Naučte se, jak vytvářet efekty radiálních přechodů v dokumentech Java
   PostScript pomocí Aspose.Page. Podrobné návody krok za krokem pro diagonální, horizontální,
   radiální a vertikální přechody.
-language: cs
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: Jak vytvořit radiální gradient – přidání gradientu v PostScriptu
-url: /java/postscript-gradient-addition/
+url: /cs/java/postscript-gradient-addition/
 weight: 25
 ---
 
@@ -90,6 +89,8 @@ A: Uložte vygenerovaný PostScript jako soubor .ps a otevřete jej v libovolné
 
 **Q: Jaké licenční možnosti jsou k dispozici pro komerční použití?**  
 A: Aspose nabízí trvalé i předplatné licence; pro vývoj a testování je k dispozici bezplatná evaluační licence.
+
+---
 
 **Poslední aktualizace:** 2025-12-05  
 **Testováno s:** Aspose.Page for Java 24.11  

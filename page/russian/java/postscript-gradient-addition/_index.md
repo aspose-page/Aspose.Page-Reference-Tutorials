@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Узнайте, как создавать эффекты радиального градиента в Java‑документах
   PostScript с помощью Aspose.Page. Пошаговые руководства по диагональным, горизонтальным,
   радиальным и вертикальным градиентам.
-language: ru
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: Как создать радиальный градиент — добавление градиента в PostScript
-url: /java/postscript-gradient-addition/
+url: /ru/java/postscript-gradient-addition/
 weight: 25
 ---
 

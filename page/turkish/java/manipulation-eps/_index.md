@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Page for Java ile EPS dosyalarını kırpma ve yeniden boyutlandırma
   konusunda aspose.page eps java öğreticisini öğrenin. Adım adım rehberler, EPS manipülasyonunda
   uzmanlaşmanıza yardımcı olur.
-language: tr
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'aspose.page eps java öğreticisi: Java''da EPS Manipülasyonu'
-url: /java/manipulation-eps/
+url: /tr/java/manipulation-eps/
 weight: 24
 ---
 

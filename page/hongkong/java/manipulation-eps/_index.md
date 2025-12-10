@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: 學習 Aspose.Page for Java 的 aspose.page eps java 教程，了解如何裁剪與調整 EPS 檔案大小。一步一步的指南可協助您精通
   EPS 操作。
-language: zh-hant
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: aspose.page EPS Java 教學：在 Java 中操作 EPS
-url: /java/manipulation-eps/
+url: /zh-hant/java/manipulation-eps/
 weight: 24
 ---
 

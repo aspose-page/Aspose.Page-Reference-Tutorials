@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Aspose.Page का उपयोग करके जावा पोस्टस्क्रिप्ट दस्तावेज़ों में रेडियल
   ग्रेडिएंट प्रभाव बनाना सीखें। तिरछे, क्षैतिज, रेडियल और लंबवत ग्रेडिएंट के लिए चरण‑दर‑चरण
   मार्गदर्शिकाएँ।
-language: hi
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: रेडियल ग्रेडिएंट कैसे बनाएं – पोस्टस्क्रिप्ट में ग्रेडिएंट जोड़ना
-url: /java/postscript-gradient-addition/
+url: /hi/java/postscript-gradient-addition/
 weight: 25
 ---
 

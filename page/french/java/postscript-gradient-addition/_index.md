@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Apprenez à créer des effets de dégradé radial dans les documents PostScript
   Java en utilisant Aspose.Page. Guides étape par étape pour les dégradés diagonaux,
   horizontaux, radiaux et verticaux.
-language: fr
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: Comment créer un dégradé radial – Ajout de dégradé en PostScript
-url: /java/postscript-gradient-addition/
+url: /fr/java/postscript-gradient-addition/
 weight: 25
 ---
 

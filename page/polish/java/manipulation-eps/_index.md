@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Poznaj samouczek Aspose.Page EPS Java dotyczący przycinania i zmiany
   rozmiaru plików EPS przy użyciu Aspose.Page dla Javy. Przewodniki krok po kroku
   pomogą Ci opanować manipulację plikami EPS.
-language: pl
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'aspose.page eps java tutorial: manipulacja EPS w Javie'
-url: /java/manipulation-eps/
+url: /pl/java/manipulation-eps/
 weight: 24
 ---
 

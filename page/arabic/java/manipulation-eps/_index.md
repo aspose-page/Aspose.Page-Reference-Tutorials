@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: تعلم دليل Aspose.Page EPS لجافا لقص وتغيير حجم ملفات EPS باستخدام Aspose.Page
   لجافا. تساعدك الأدلة خطوة بخطوة على إتقان معالجة EPS.
-language: ar
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'دليل Aspose.Page EPS لجافا: معالجة ملفات EPS في جافا'
-url: /java/manipulation-eps/
+url: /ar/java/manipulation-eps/
 weight: 24
 ---
 

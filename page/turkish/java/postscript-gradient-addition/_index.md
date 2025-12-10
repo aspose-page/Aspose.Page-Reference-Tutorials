@@ -2,11 +2,10 @@
 date: 2025-12-05
 description: Aspose.Page kullanarak Java PostScript belgelerinde radyal degrade efektleri
   oluşturmayı öğrenin. Köşegen, yatay, radyal ve dikey degrade için adım adım rehberler.
-language: tr
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: Radial Gradient Nasıl Oluşturulur – PostScript'te Gradient Ekleme
-url: /java/postscript-gradient-addition/
+url: /tr/java/postscript-gradient-addition/
 weight: 25
 ---
 

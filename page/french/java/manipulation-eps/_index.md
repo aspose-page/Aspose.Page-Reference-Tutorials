@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Apprenez le tutoriel Aspose.Page EPS Java pour recadrer et redimensionner
   les fichiers EPS avec Aspose.Page pour Java. Des guides étape par étape vous aident
   à maîtriser la manipulation des EPS.
-language: fr
 linktitle: EPS Manipulation in Java
 second_title: Aspose.Page Java API
 title: 'Tutoriel Aspose.Page EPS Java : Manipulation EPS en Java'
-url: /java/manipulation-eps/
+url: /fr/java/manipulation-eps/
 weight: 24
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-05
 description: Μάθετε πώς να δημιουργείτε εφέ ακτινικής διαβάθμισης σε έγγραφα Java
   PostScript χρησιμοποιώντας το Aspose.Page. Οδηγοί βήμα‑προς‑βήμα για διαγώνιες,
   οριζόντιες, ακτινικές και κάθετες διαβαθμίσεις.
-language: el
 linktitle: How to Create Radial Gradient – Gradient Addition in PostScript
 second_title: Aspose.Page Java API
 title: Πώς να δημιουργήσετε ακτινική διαβάθμιση – Προσθήκη διαβάθμισης σε PostScript
-url: /java/postscript-gradient-addition/
+url: /el/java/postscript-gradient-addition/
 weight: 25
 ---
 
