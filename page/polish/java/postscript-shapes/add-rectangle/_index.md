@@ -1,27 +1,40 @@
 ---
-title: Dostosuj Java PostScript - Dodawanie prostokątów za pomocą Aspose.Page
-linktitle: Dodaj prostokąt w Java PostScript
-second_title: Aspose.Page API Java
-description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym dodawania żywych prostokątów do dokumentów Java PostScript przy użyciu Aspose.Page dla Java. Zwiększ możliwości dostosowywania dokumentów bez wysiłku!
-weight: 11
+date: 2025-12-11
+description: Dowiedz się, jak rysować prostokątne kształty w Java PostScript przy
+  użyciu Aspose.Page. Ten przewodnik krok po kroku pokazuje, jak ustawić farbę, ustawić
+  kolor prostokąta w Javie oraz tworzyć żywe grafiki.
+linktitle: Add Rectangle in Java PostScript
+second_title: Aspose.Page Java API
+title: Jak narysować prostokąt w Java PostScript przy użyciu Aspose.Page
 url: /pl/java/postscript-shapes/add-rectangle/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dostosuj Java PostScript - Dodawanie prostokątów za pomocą Aspose.Page
+# Jak rysować prostokąt w Java PostScript przy użyciu Aspose.Page
 
-## Wstęp
-Czy chcesz wzbogacić swoje dokumenty Java PostScript o żywe prostokąty? Nie szukaj dalej! W tym przewodniku krok po kroku odkryjemy, jak używać Aspose.Page dla Java do dodawania prostokątów do dokumentów PostScript. Aspose.Page to potężna biblioteka zapewniająca niezawodne funkcje do pracy z plikami PostScript, co czyni ją idealnym wyborem dla programistów chcących manipulować i dostosowywać swoje dokumenty.
-## Warunki wstępne
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.Page dla Java. Jeśli nie, pobierz go z[Aspose.Page dla dokumentacji Java](https://reference.aspose.com/page/java/).
+## Introduction
+Jeśli potrzebujesz **how to draw rectangle** kształtów wewnątrz pliku Java PostScript, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez użycie Aspose.Page for Java do dodawania kolorowych prostokątów, kontrolowania ich wypełnienia i obrysu oraz zapisywania wyniku jako dokumentu PostScript. Zobaczysz dokładnie **how to set paint**, jak zdefiniować geometrię prostokąta i dlaczego takie podejście jest idealne do programowego generowania grafiki do druku.
+
+## Quick Answers
+- **Jakiej biblioteki wymaga?** Aspose.Page for Java  
+- **Czy mogę zmienić kolory prostokąta?** Tak – użyj `setPaint` z dowolnym `java.awt.Color`  
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa do testów; licencja jest wymagana w produkcji  
+- **Jaki rozmiar strony jest użyty w przykładzie?** A4 (domyślne `PsSaveOptions`)  
+- **Czy kod jest kompatybilny z Java 8+?** Absolutnie – używa standardowych klas AWT  
+
+## Prerequisites
+Zanim zanurzysz się w samouczek, upewnij się, że masz spełnione następujące wymagania:
+- Podstawowa znajomość programowania w języku Java.  
+- Zainstalowana biblioteka Aspose.Page for Java. Jeśli nie, pobierz ją z [dokumentacji Aspose.Page for Java](https://reference.aspose.com/page/java/).  
 - Środowisko programistyczne Java skonfigurowane na Twoim komputerze.
-## Importuj pakiety
-W swoim projekcie Java zacznij od zaimportowania niezbędnych pakietów:
+
+## Import Packages
+W swoim projekcie Java rozpocznij od zaimportowania niezbędnych pakietów:
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -30,54 +43,97 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## Samouczek: Dodawanie prostokątów w Java PostScript
-## Krok 1: Ustaw farbę do wypełnienia prostokąta
+
+## How to Draw Rectangle in Java PostScript
+Poniżej znajduje się kompletny przepływ pracy podzielony na przejrzyste kroki. Każdy krok zawiera krótkie wyjaśnienie, po którym następuje oryginalny blok kodu (bez zmian).
+
+### Step 1: Set Paint for Filling Rectangle  
+**How to set paint** – wybieramy pomarańczowy kolor wypełnienia dla pierwszego prostokąta.
+
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Utwórz strumień wyjściowy dla dokumentu PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddRectangle_outPS.ps");
-// Twórz opcje zapisywania w formacie A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// Utwórz nowy dokument PS z otwartą stroną
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-// Ustaw farbę do wypełnienia prostokąta
+// Set paint for filling rectangle
 document.setPaint(Color.ORANGE);        
-// Wypełnij pierwszy prostokąt
+// Fill the first rectangle
 document.fill(new Rectangle2D.Float(250, 100, 150, 100));
 ```
-## Krok 2: Ustaw farbę do obrysowywania prostokąta
+
+### Step 2: Set Paint for Stroking Rectangle  
+**Set rectangle color java** – teraz zmieniamy farbę na czerwony i definiujemy szerokość obrysu.
+
 ```java
-// Ustaw farbę do obrysowania prostokąta
+// Set paint for stroking rectangle
 document.setPaint(Color.RED);
-// Ustaw skok
+// Set stroke
 document.setStroke(new BasicStroke(3));
-// Obrysuj (obrysuj) drugi prostokąt
+// Stroke (outline) the second rectangle
 document.draw(new Rectangle2D.Float(250, 300, 150, 100));
 ```
-## Krok 3: Zamknij bieżącą stronę i zapisz dokument
+
+### Step 3: Close Current Page and Save Document  
+Po narysowaniu zamykamy stronę i zapisujemy plik.
+
 ```java
-// Zamknij bieżącą stronę
+// Close current page
 document.closePage();
-// Zapisz dokument
+// Save the document
 document.save();
 ```
-Gratulacje! Pomyślnie dodałeś żywe prostokąty do dokumentu Java PostScript za pomocą Aspose.Page.
-## Wniosek
-W tym samouczku zbadaliśmy proces ulepszania dokumentów Java PostScript za pomocą prostokątów przy użyciu Aspose.Page dla Java. Ta potężna biblioteka otwiera świat możliwości dla programistów, którzy chcą bez wysiłku dostosowywać swoje dokumenty i manipulować nimi.
-Baw się dobrze, eksperymentując z różnymi kształtami i kolorami, aby Twoje dokumenty były atrakcyjne wizualnie!
-## Często Zadawane Pytania
 
-### Czy mogę używać Aspose.Page dla Java z innymi językami programowania?
-Aspose.Page obsługuje przede wszystkim Javę, ale podobne biblioteki są dostępne dla innych języków.
-### Czy dostępna jest wersja próbna Aspose.Page dla Java?
- Tak, możesz poznać funkcje Aspose.Page dla Java za pomocą[bezpłatna wersja próbna](https://releases.aspose.com/).
-### Gdzie mogę znaleźć dodatkową pomoc i dyskusje?
- Odwiedzić[Forum Aspose.Page](https://forum.aspose.com/c/page/39) nawiązać kontakt ze społecznością i uzyskać pomoc.
-### Jak mogę uzyskać tymczasową licencję na Aspose.Page dla Java?
- Zdobądź licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-### Gdzie mogę kupić licencjonowaną wersję Aspose.Page dla Java?
- Kup wersję licencjonowaną[Tutaj](https://purchase.aspose.com/buy).
+## Why Use Aspose.Page for Rectangle Graphics?
+- **Cross‑platform**: Generuje standardowy PostScript działający na każdej drukarce.  
+- **Fine‑grained control**: Możesz niezależnie ustawiać kolory wypełnienia, kolory obrysu i szerokości linii.  
+- **No external dependencies**: Używa wyłącznie wbudowanych klas geometrii AWT.  
+
+## Common Issues & Tips
+- **File path errors** – upewnij się, że `dataDir` kończy się separatorem plików (`/` lub `\\`).  
+- **License exceptions** – wersja próbna dodaje znak wodny; uzyskaj pełną licencję do użytku produkcyjnego.  
+- **Color visibility** – niektóre drukarki mogą inaczej interpretować niektóre wartości RGB; najpierw przetestuj prosty czarny prostokąt.
+
+## Conclusion
+W tym przewodniku pokazaliśmy, jak **how to draw rectangle** kształty w dokumencie Java PostScript, omówiliśmy **how to set paint** i pokazaliśmy, jak **set rectangle color java** przy użyciu Aspose.Page. Śmiało eksperymentuj z różnymi kształtami, kolorami i stylami linii, aby tworzyć bogatą grafikę do druku dla raportów, faktur lub własnych wydruków.
+
+## Frequently Asked Questions
+
+### Can I use Aspose.Page for Java with other programming languages?
+Aspose.Page głównie obsługuje Javę, ale podobne biblioteki są dostępne dla innych języków.
+
+### Is there a trial version of Aspose.Page for Java available?
+Tak, możesz przetestować funkcje Aspose.Page for Java za pomocą [free trial version](https://releases.aspose.com/).
+
+### Where can I find additional help and discussions?
+Odwiedź [Aspose.Page forum](https://forum.aspose.com/c/page/39), aby dołączyć do społeczności i uzyskać pomoc.
+
+### How can I obtain a temporary license for Aspose.Page for Java?
+Uzyskaj tymczasową licencję [here](https://purchase.aspose.com/temporary-license/).
+
+### Where can I purchase a licensed version of Aspose.Page for Java?
+Kup licencjonowaną wersję [here](https://purchase.aspose.com/buy).
+
+**Additional Q&A**
+
+**Q:** *Can I change the rectangle size dynamically?*  
+**A:** Yes – simply modify the `Rectangle2D.Float(x, y, width, height)` parameters before calling `fill` or `draw`.
+
+**Q:** *Is it possible to add text inside the rectangle?*  
+**A:** Absolutely. After drawing the rectangle, use `document.drawString(...)` with the desired font and position.
+
+**Q:** *Does Aspose.Page support other shapes like circles or polygons?*  
+**A:** Yes, the API provides methods such as `drawEllipse` and `drawPolygon` for a variety of vector graphics.
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

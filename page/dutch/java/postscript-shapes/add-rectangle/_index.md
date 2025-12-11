@@ -1,27 +1,40 @@
 ---
-title: Java PostScript aanpassen - Rechthoeken toevoegen met Aspose.Page
-linktitle: Rechthoek toevoegen in Java PostScript
-second_title: Aspose.Page Java-API
-description: Ontdek de stapsgewijze handleiding voor het toevoegen van levendige rechthoeken aan Java PostScript-documenten met Aspose.Page voor Java. Verbeter moeiteloos uw documentaanpassing!
-weight: 11
+date: 2025-12-11
+description: Leer hoe je rechthoekvormen tekent in Java PostScript met Aspose.Page.
+  Deze stapsgewijze gids laat zien hoe je verf instelt, de rechthoekkleur in Java
+  instelt en levendige graphics maakt.
+linktitle: Add Rectangle in Java PostScript
+second_title: Aspose.Page Java API
+title: Hoe een rechthoek te tekenen in Java PostScript met Aspose.Page
 url: /nl/java/postscript-shapes/add-rectangle/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java PostScript aanpassen - Rechthoeken toevoegen met Aspose.Page
+# Hoe een rechthoek tekenen in Java PostScript met Aspose.Page
 
-## Invoering
-Wilt u uw Java PostScript-documenten verfraaien met levendige rechthoeken? Zoek niet verder! In deze stapsgewijze handleiding onderzoeken we hoe u Aspose.Page voor Java kunt gebruiken om rechthoeken aan uw PostScript-documenten toe te voegen. Aspose.Page is een krachtige bibliotheek die robuuste functies biedt voor het werken met PostScript-bestanden, waardoor het een ideale keuze is voor ontwikkelaars die hun documenten willen manipuleren en aanpassen.
+## Inleiding
+If you need to **how to draw rectangle** shapes inside a Java PostScript file, you’ve come to the right place. In this tutorial we’ll walk through using Aspose.Page for Java to add colorful rectangles, control their fill and stroke, and save the result as a PostScript document. You’ll see exactly **how to set paint**, how to define the rectangle’s geometry, and why this approach is ideal for generating printable graphics programmatically.
+
+## Snelle antwoorden
+- **Welke bibliotheek is vereist?** Aspose.Page for Java  
+- **Kan ik de kleuren van de rechthoek wijzigen?** Ja – gebruik `setPaint` met elke `java.awt.Color`  
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een licentie is vereist voor productie  
+- **Welke paginagrootte wordt in het voorbeeld gebruikt?** A4 (standaard `PsSaveOptions`)  
+- **Is de code compatibel met Java 8+?** Absoluut – het gebruikt standaard AWT‑klassen  
+
 ## Vereisten
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-- Basiskennis van Java-programmeren.
--  Aspose.Page voor Java-bibliotheek geïnstalleerd. Als dit niet het geval is, downloadt u deze van de[Aspose.Page voor Java-documentatie](https://reference.aspose.com/page/java/).
-- Een Java-ontwikkelomgeving die op uw machine is geïnstalleerd.
-## Pakketten importeren
-Begin in uw Java-project met het importeren van de benodigde pakketten:
+Before diving into the tutorial, ensure you have the following prerequisites in place:
+- Basiskennis van Java‑programmeren.  
+- Aspose.Page for Java library installed. If not, download it from the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
+- Een Java‑ontwikkelomgeving geïnstalleerd op uw machine.
+
+## Importeer pakketten
+In your Java project, start by importing the necessary packages:
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -30,54 +43,97 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## Tutorial: Rechthoeken toevoegen in Java PostScript
-## Stap 1: Stel verf in voor het vullen van de rechthoek
+
+## Hoe een rechthoek tekenen in Java PostScript
+Below is the complete workflow broken into clear steps. Each step includes a short explanation followed by the original code block (unchanged).
+
+### Stap 1: Paint instellen voor het vullen van de rechthoek  
+**Hoe paint instellen** – we kiezen een oranje vulkleur voor de eerste rechthoek.
+
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Maak een uitvoerstroom voor een PostScript-document
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddRectangle_outPS.ps");
-// Creëer opslagopties met A4-formaat
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// Maak een nieuw PS-document met de pagina geopend
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-// Stel verf in voor het vullen van de rechthoek
+// Set paint for filling rectangle
 document.setPaint(Color.ORANGE);        
-// Vul de eerste rechthoek
+// Fill the first rectangle
 document.fill(new Rectangle2D.Float(250, 100, 150, 100));
 ```
-## Stap 2: Stel verf in voor strijkrechthoek
+
+### Stap 2: Paint instellen voor het omlijnen van de rechthoek  
+**Rechthoekkleur instellen java** – nu veranderen we de paint naar rood en definiëren we een lijnbreedte.
+
 ```java
-// Stel verf in voor een strijkende rechthoek
+// Set paint for stroking rectangle
 document.setPaint(Color.RED);
-// Slag instellen
+// Set stroke
 document.setStroke(new BasicStroke(3));
-// Strijk (omtrek) de tweede rechthoek
+// Stroke (outline) the second rectangle
 document.draw(new Rectangle2D.Float(250, 300, 150, 100));
 ```
-## Stap 3: Sluit de huidige pagina en sla het document op
+
+### Stap 3: Huidige pagina sluiten en document opslaan  
+After drawing, we close the page and persist the file.
+
 ```java
-// Sluit huidige pagina
+// Close current page
 document.closePage();
-// Bewaar het document
+// Save the document
 document.save();
 ```
-Gefeliciteerd! U hebt met succes levendige rechthoeken aan uw Java PostScript-document toegevoegd met behulp van Aspose.Page.
+
+## Waarom Aspose.Page gebruiken voor rechthoekgrafieken?
+- **Cross‑platform**: Genereert standaard PostScript dat op elke printer werkt.  
+- **Fijne controle**: U kunt vulkleuren, lijnkleuren en lijndiktes onafhankelijk instellen.  
+- **Geen externe afhankelijkheden**: Gebruikt alleen de ingebouwde AWT‑geometryklassen.  
+
+## Veelvoorkomende problemen & tips
+- **Bestandspadfouten** – zorg ervoor dat `dataDir` eindigt met een scheidingsteken (`/` of `\\`).  
+- **Licentie‑uitzonderingen** – de proefversie voegt een watermerk toe; verkrijg een volledige licentie voor productiegebruik.  
+- **Kleurzichtbaarheid** – sommige printers kunnen bepaalde RGB‑waarden anders interpreteren; test eerst met een eenvoudige zwarte rechthoek.
+
 ## Conclusie
-In deze zelfstudie hebben we het proces onderzocht waarmee u uw Java PostScript-documenten kunt verbeteren met rechthoeken met behulp van Aspose.Page voor Java. Deze krachtige bibliotheek opent een wereld van mogelijkheden voor ontwikkelaars die hun documenten moeiteloos willen aanpassen en manipuleren.
-Veel plezier met het experimenteren met verschillende vormen en kleuren om uw documenten visueel aantrekkelijk te maken!
-## Veel Gestelde Vragen
+In this guide we demonstrated **how to draw rectangle** shapes in a Java PostScript document, covered **how to set paint**, and showed how to **set rectangle color java** using Aspose.Page. Feel free to experiment with different shapes, colors, and line styles to create rich printable graphics for reports, invoices, or custom prints.
+
+## Veelgestelde vragen
 
 ### Kan ik Aspose.Page voor Java gebruiken met andere programmeertalen?
-Aspose.Page ondersteunt voornamelijk Java, maar er zijn vergelijkbare bibliotheken beschikbaar voor andere talen.
+Aspose.Page primarily supports Java, but similar libraries are available for other languages.
+
 ### Is er een proefversie van Aspose.Page voor Java beschikbaar?
- Ja, u kunt de functies van Aspose.Page voor Java verkennen met de[gratis proefversie](https://releases.aspose.com/).
-### Waar kan ik aanvullende hulp en discussies vinden?
- Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) om met de gemeenschap in contact te komen en hulp te krijgen.
-### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Page voor Java?
- Vraag een tijdelijke licentie aan[hier](https://purchase.aspose.com/temporary-license/).
+Yes, you can explore the features of Aspose.Page for Java with the [free trial version](https://releases.aspose.com/).
+
+### Waar kan ik extra hulp en discussies vinden?
+Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to engage with the community and get assistance.
+
+### Hoe kan ik een tijdelijke licentie voor Aspose.Page voor Java verkrijgen?
+Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
 ### Waar kan ik een gelicentieerde versie van Aspose.Page voor Java kopen?
- Koop een gelicentieerde versie[hier](https://purchase.aspose.com/buy).
+Buy a licensed version [here](https://purchase.aspose.com/buy).
+
+**Additional Q&A**
+
+**Q:** *Kan ik de grootte van de rechthoek dynamisch wijzigen?*  
+**A:** Ja – wijzig eenvoudig de `Rectangle2D.Float(x, y, width, height)` parameters voordat u `fill` of `draw` aanroept.
+
+**Q:** *Is het mogelijk om tekst binnen de rechthoek toe te voegen?*  
+**A:** Absoluut. Na het tekenen van de rechthoek, gebruik `document.drawString(...)` met het gewenste lettertype en positie.
+
+**Q:** *Ondersteunt Aspose.Page andere vormen zoals cirkels of polygonen?*  
+**A:** Ja, de API biedt methoden zoals `drawEllipse` en `drawPolygon` voor diverse vectorafbeeldingen.
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

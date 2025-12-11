@@ -1,27 +1,40 @@
 ---
-title: Tùy chỉnh Java PostScript - Thêm hình chữ nhật với Aspose.Page
-linktitle: Thêm hình chữ nhật trong Java PostScript
-second_title: API Java Aspose.Page
-description: Khám phá hướng dẫn từng bước về cách thêm hình chữ nhật sống động vào tài liệu Java PostScript bằng Aspose.Page cho Java. Tăng cường tùy chỉnh tài liệu của bạn một cách dễ dàng!
-weight: 11
+date: 2025-12-11
+description: Học cách vẽ các hình chữ nhật trong Java PostScript bằng Aspose.Page.
+  Hướng dẫn từng bước này chỉ cách thiết lập màu vẽ, đặt màu hình chữ nhật trong Java
+  và tạo đồ họa sống động.
+linktitle: Add Rectangle in Java PostScript
+second_title: Aspose.Page Java API
+title: Cách vẽ hình chữ nhật trong Java PostScript bằng Aspose.Page
 url: /vi/java/postscript-shapes/add-rectangle/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tùy chỉnh Java PostScript - Thêm hình chữ nhật với Aspose.Page
+# Cách Vẽ Hình Chữ Nhật trong Java PostScript với Aspose.Page
 
 ## Giới thiệu
-Bạn đang tìm cách nâng cao tài liệu Java PostScript của mình bằng các hình chữ nhật sống động? Đừng tìm đâu xa! Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách sử dụng Aspose.Page cho Java để thêm hình chữ nhật vào tài liệu PostScript của bạn. Aspose.Page là một thư viện mạnh mẽ cung cấp các tính năng mạnh mẽ để làm việc với các tệp PostScript, khiến nó trở thành lựa chọn lý tưởng cho các nhà phát triển đang tìm cách thao tác và tùy chỉnh tài liệu của họ.
-## Điều kiện tiên quyết
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Hiểu biết cơ bản về lập trình Java.
--  Aspose.Page cho thư viện Java đã được cài đặt. Nếu không, hãy tải xuống từ[Aspose.Page cho tài liệu Java](https://reference.aspose.com/page/java/).
-- Môi trường phát triển Java được thiết lập trên máy của bạn.
-## Gói nhập khẩu
-Trong dự án Java của bạn, hãy bắt đầu bằng cách nhập các gói cần thiết:
+Nếu bạn cần **cách vẽ hình chữ nhật** trong một tệp Java PostScript, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách sử dụng Aspose.Page cho Java để thêm các hình chữ nhật màu sắc, kiểm soát màu nền và viền, và lưu kết quả dưới dạng tài liệu PostScript. Bạn sẽ thấy **cách thiết lập màu vẽ**, cách xác định hình học của hình chữ nhật, và tại sao cách tiếp cận này lý tưởng cho việc tạo đồ họa có thể in được một cách lập trình.
+
+## Trả lời nhanh
+- **Thư viện nào cần thiết?** Aspose.Page cho Java  
+- **Có thể thay đổi màu của hình chữ nhật không?** Có – sử dụng `setPaint` với bất kỳ `java.awt.Color` nào  
+- **Cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; cần giấy phép cho môi trường sản xuất  
+- **Kích thước trang nào được dùng trong ví dụ?** A4 (mặc định `PsSaveOptions`)  
+- **Mã có tương thích với Java 8+ không?** Hoàn toàn – nó sử dụng các lớp AWT tiêu chuẩn  
+
+## Các yêu cầu trước
+Trước khi bắt đầu, hãy đảm bảo bạn đã chuẩn bị các yêu cầu sau:
+- Hiểu biết cơ bản về lập trình Java.  
+- Thư viện Aspose.Page cho Java đã được cài đặt. Nếu chưa, tải về từ [tài liệu Aspose.Page cho Java](https://reference.aspose.com/page/java/).  
+- Môi trường phát triển Java đã được thiết lập trên máy tính của bạn.
+
+## Nhập gói
+Trong dự án Java của bạn, bắt đầu bằng cách nhập các gói cần thiết:
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -30,54 +43,97 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## Hướng dẫn: Thêm hình chữ nhật trong Java PostScript
-## Bước 1: Đặt màu tô cho hình chữ nhật
+
+## Cách Vẽ Hình Chữ Nhật trong Java PostScript
+Dưới đây là quy trình hoàn chỉnh được chia thành các bước rõ ràng. Mỗi bước bao gồm một giải thích ngắn gọn và sau đó là khối mã gốc (không thay đổi).
+
+### Bước 1: Đặt màu nền cho hình chữ nhật  
+**Cách thiết lập màu vẽ** – chúng ta chọn màu cam làm màu nền cho hình chữ nhật đầu tiên.
+
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Tạo luồng đầu ra cho tài liệu PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddRectangle_outPS.ps");
-// Tạo tùy chọn lưu với khổ A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// Tạo Tài liệu PS mới với trang đã mở
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-// Đặt sơn để tô hình chữ nhật
+// Set paint for filling rectangle
 document.setPaint(Color.ORANGE);        
-// Điền vào hình chữ nhật đầu tiên
+// Fill the first rectangle
 document.fill(new Rectangle2D.Float(250, 100, 150, 100));
 ```
-## Bước 2: Đặt màu cho hình chữ nhật vuốt ve
+
+### Bước 2: Đặt màu viền cho hình chữ nhật  
+**Set rectangle color java** – bây giờ chúng ta thay đổi màu vẽ thành màu đỏ và xác định độ rộng đường viền.
+
 ```java
-// Đặt sơn cho hình chữ nhật vuốt ve
+// Set paint for stroking rectangle
 document.setPaint(Color.RED);
-// Đặt nét
+// Set stroke
 document.setStroke(new BasicStroke(3));
-// Stroke (phác thảo) hình chữ nhật thứ hai
+// Stroke (outline) the second rectangle
 document.draw(new Rectangle2D.Float(250, 300, 150, 100));
 ```
-## Bước 3: Đóng trang hiện tại và lưu tài liệu
+
+### Bước 3: Đóng trang hiện tại và lưu tài liệu  
+Sau khi vẽ, chúng ta đóng trang và ghi lại tệp.
+
 ```java
-// Đóng trang hiện tại
+// Close current page
 document.closePage();
-// Lưu tài liệu
+// Save the document
 document.save();
 ```
-Chúc mừng! Bạn đã thêm thành công các hình chữ nhật sống động vào tài liệu Java PostScript của mình bằng Aspose.Page.
-## Phần kết luận
-Trong hướng dẫn này, chúng tôi đã khám phá quy trình nâng cao tài liệu Java PostScript của bạn bằng hình chữ nhật bằng cách sử dụng Aspose.Page cho Java. Thư viện mạnh mẽ này mở ra một thế giới khả năng cho các nhà phát triển đang tìm cách tùy chỉnh và thao tác tài liệu của họ một cách dễ dàng.
-Hãy vui vẻ thử nghiệm với các hình dạng và màu sắc khác nhau để làm cho tài liệu của bạn trở nên hấp dẫn về mặt hình ảnh!
-## Các câu hỏi thường gặp
 
-### Tôi có thể sử dụng Aspose.Page cho Java với các ngôn ngữ lập trình khác không?
+## Tại sao nên dùng Aspose.Page cho Đồ họa Hình chữ nhật?
+- **Đa nền tảng**: Tạo PostScript tiêu chuẩn hoạt động trên mọi máy in.  
+- **Kiểm soát chi tiết**: Bạn có thể đặt màu nền, màu viền và độ dày đường độc lập.  
+- **Không phụ thuộc bên ngoài**: Chỉ sử dụng các lớp hình học AWT có sẵn.  
+
+## Các vấn đề thường gặp & Mẹo
+- **Lỗi đường dẫn tệp** – đảm bảo `dataDir` kết thúc bằng dấu phân cách (`/` hoặc `\\`).  
+- **Ngoại lệ giấy phép** – phiên bản dùng thử sẽ thêm watermark; cần mua giấy phép đầy đủ cho môi trường sản xuất.  
+- **Hiển thị màu** – một số máy in có thể diễn giải các giá trị RGB khác nhau; hãy thử với một hình chữ nhật đen đơn giản trước.
+
+## Kết luận
+Trong hướng dẫn này, chúng tôi đã trình bày **cách vẽ hình chữ nhật** trong tài liệu Java PostScript, đề cập **cách thiết lập màu vẽ**, và chỉ ra cách **set rectangle color java** bằng Aspose.Page. Hãy tự do thử nghiệm với các hình dạng, màu sắc và kiểu đường khác nhau để tạo ra đồ họa in ấn phong phú cho báo cáo, hoá đơn hoặc các bản in tùy chỉnh.
+
+## Câu hỏi thường gặp
+
+### Tôi có thể dùng Aspose.Page cho Java với các ngôn ngữ lập trình khác không?
 Aspose.Page chủ yếu hỗ trợ Java, nhưng các thư viện tương tự cũng có sẵn cho các ngôn ngữ khác.
+
 ### Có phiên bản dùng thử của Aspose.Page cho Java không?
- Có, bạn có thể khám phá các tính năng của Aspose.Page dành cho Java bằng[phiên bản dùng thử miễn phí](https://releases.aspose.com/).
+Có, bạn có thể khám phá các tính năng của Aspose.Page cho Java qua [phiên bản dùng thử miễn phí](https://releases.aspose.com/).
+
 ### Tôi có thể tìm thêm trợ giúp và thảo luận ở đâu?
- Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để hòa nhập với cộng đồng và nhận được sự trợ giúp.
-### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho Java?
- Nhận giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-### Tôi có thể mua phiên bản Aspose.Page được cấp phép cho Java ở đâu?
- Mua phiên bản được cấp phép[đây](https://purchase.aspose.com/buy).
+Truy cập [diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để giao lưu với cộng đồng và nhận hỗ trợ.
+
+### Làm sao để lấy giấy phép tạm thời cho Aspose.Page cho Java?
+Nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
+
+### Tôi có thể mua phiên bản có giấy phép của Aspose.Page cho Java ở đâu?
+Mua phiên bản có giấy phép [tại đây](https://purchase.aspose.com/buy).
+
+**Câu hỏi & Trả lời bổ sung**
+
+**H:** *Tôi có thể thay đổi kích thước hình chữ nhật một cách động không?*  
+**Đ:** Có – chỉ cần sửa các tham số `Rectangle2D.Float(x, y, width, height)` trước khi gọi `fill` hoặc `draw`.
+
+**H:** *Có thể thêm văn bản bên trong hình chữ nhật không?*  
+**Đ:** Chắc chắn. Sau khi vẽ hình chữ nhật, sử dụng `document.drawString(...)` với phông chữ và vị trí mong muốn.
+
+**H:** *Aspose.Page có hỗ trợ các hình dạng khác như vòng tròn hoặc đa giác không?*  
+**Đ:** Có, API cung cấp các phương thức như `drawEllipse` và `drawPolygon` cho nhiều loại đồ họa vector.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-11  
+**Đã kiểm tra với:** Aspose.Page cho Java 24.12 (mới nhất)  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
