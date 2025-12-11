@@ -56,13 +56,6 @@ Egal, ob Sie ein erfahrener Entwickler oder ein Neuling in Java‑PostScript sin
 
 Erfahren Sie, wie Sie fesselnde Schraffurmuster zu Java‑PostScript‑Dokumenten mit Aspose.Page hinzufügen können. Verbessern Sie Ihre visuellen Inhalte mühelos.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Häufig gestellte Fragen
 
 **Q: Kann ich Schraffurmuster in kommerziellen Anwendungen verwenden?**  
@@ -85,3 +78,10 @@ A: Sie können das Dokument zunächst in PDF oder ein Bildformat rendern; das vi
 **Zuletzt aktualisiert:** 2025-12-09  
 **Getestet mit:** Aspose.Page for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

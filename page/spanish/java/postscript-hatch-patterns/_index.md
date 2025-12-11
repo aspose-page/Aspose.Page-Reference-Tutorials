@@ -55,13 +55,6 @@ Ya seas un desarrollador experimentado o un recién llegado a Java PostScript, n
 ### [Agregar patrón de rayado en Java PostScript](./add-hatch-pattern/)
 Aprende a agregar patrones de rayado cautivadores a documentos Java PostScript usando Aspose.Page. Eleva tu contenido visual sin esfuerzo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **P: ¿Puedo usar patrones de rayado en aplicaciones comerciales?**  
@@ -84,3 +77,10 @@ R: Puedes renderizar el documento a PDF o a un formato de imagen primero; la apa
 **Última actualización:** 2025-12-09  
 **Probado con:** Aspose.Page for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

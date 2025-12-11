@@ -55,13 +55,6 @@ weight: 27
 ### [إضافة نمط تظليل في Java PostScript](./add-hatch-pattern/)
 تعلم كيفية إضافة أنماط تظليل جذابة إلى مستندات Java PostScript باستخدام Aspose.Page. ارتقِ بمحتواك البصري بسهولة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام أنماط التظليل في التطبيقات التجارية؟**  
@@ -84,3 +77,10 @@ weight: 27
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

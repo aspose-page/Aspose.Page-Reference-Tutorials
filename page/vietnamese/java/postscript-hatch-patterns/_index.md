@@ -55,13 +55,6 @@ Dù bạn là nhà phát triển dày dặn kinh nghiệm hay mới bắt đầu
 ### [Thêm Mẫu Đánh Gạch trong Java PostScript](./add-hatch-pattern/)
 Tìm hiểu cách thêm các mẫu đánh gạch hấp dẫn vào tài liệu Java PostScript bằng Aspose.Page. Nâng cao nội dung thị giác của bạn một cách dễ dàng.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng mẫu đánh gạch trong các ứng dụng thương mại không?**  
@@ -84,3 +77,10 @@ A: Bạn có thể render tài liệu sang PDF hoặc định dạng hình ảnh
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

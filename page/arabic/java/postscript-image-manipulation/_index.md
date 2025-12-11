@@ -73,13 +73,6 @@ weight: 28
 
 استكشف الدمج السلس لـ Aspose.Page Java في هذا الدرس حول إضافة الصور إلى مستندات PostScript. ارتق بقدرات معالجة المستندات الخاصة بك.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني إضافة صور متعددة إلى نفس صفحة PostScript؟**  
@@ -102,3 +95,10 @@ weight: 28
 **آخر تحديث:** 2025-12-09  
 **تم الاختبار مع:** Aspose.Page for Java 24.12 (latest)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

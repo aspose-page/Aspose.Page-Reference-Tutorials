@@ -56,13 +56,6 @@ Apakah Anda pengembang berpengalaman atau pendatang baru dalam Java PostScript, 
 ### [Tambahkan Pola Hatch di Java PostScript](./add-hatch-pattern/)
 Pelajari cara menambahkan pola hatch yang memikat ke dokumen Java PostScript menggunakan Aspose.Page. Tingkatkan konten visual Anda dengan mudah.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggunakan pola hatch dalam aplikasi komersial?**  
@@ -85,3 +78,10 @@ A: Anda dapat merender dokumen ke PDF atau format gambar terlebih dahulu; tampil
 **Terakhir Diperbarui:** 2025-12-09  
 **Diuji Dengan:** Aspose.Page untuk Java 24.11  
 **Penulis:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

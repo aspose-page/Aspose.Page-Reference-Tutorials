@@ -73,13 +73,6 @@ Aspose.Page for Java cho phép bạn nâng cao khả năng xử lý tài liệu.
 ### [Thêm Hình ảnh trong Java PostScript](./add-image/)
 Khám phá việc tích hợp liền mạch Aspose.Page Java trong tutorial này về cách thêm hình ảnh vào tài liệu PostScript. Nâng cao khả năng xử lý tài liệu của bạn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Can I add multiple images to the same PostScript page?**  
@@ -102,3 +95,10 @@ A: PNG trong suốt được giữ nguyên tự động; chỉ cần đảm bả
 **Cập nhật lần cuối:** 2025-12-09  
 **Kiểm tra với:** Aspose.Page for Java 24.12 (latest)  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

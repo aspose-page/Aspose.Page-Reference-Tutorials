@@ -53,13 +53,6 @@ Seja você um desenvolvedor experiente ou um recém‑chegado ao Java PostScript
 ### [Adicionar Padrão de Hachura em Java PostScript](./add-hatch-pattern/)
 Aprenda como adicionar padrões de hachura cativantes a documentos Java PostScript usando Aspose.Page. Eleve seu conteúdo visual sem esforço.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Perguntas Frequentes
 
 **Q: Posso usar padrões de hachura em aplicações comerciais?**  
@@ -82,3 +75,10 @@ A: Você pode renderizar o documento para PDF ou um formato de imagem primeiro; 
 **Última Atualização:** 2025-12-09  
 **Testado com:** Aspose.Page for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

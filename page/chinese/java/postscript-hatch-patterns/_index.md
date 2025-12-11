@@ -54,13 +54,6 @@ Implementing Hatch Patterns: 按照代码示例和说明有效实现 hatch patte
 ### [Add Hatch Pattern in Java PostScript](./add-hatch-pattern/)
 了解如何使用 Aspose.Page 为 Java PostScript 文档添加引人入胜的 hatch patterns，轻松提升视觉内容。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I use hatch patterns in commercial applications?**  
@@ -83,3 +76,10 @@ A: 您可以先将文档渲染为 PDF 或图像格式，视觉效果将保持一
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

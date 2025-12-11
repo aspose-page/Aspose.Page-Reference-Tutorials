@@ -55,13 +55,6 @@ Ať už jste zkušený vývojář nebo nováček v Java PostScript, náš tutori
 ### [Přidat šrafovací vzor v Java PostScript](./add-hatch-pattern/)
 Naučte se přidávat poutavé šrafovací vzory do Java PostScript dokumentů pomocí Aspose.Page. Pozvedněte svůj vizuální obsah bez námahy.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q: Mohu používat šrafovací vzory v komerčních aplikacích?**  
@@ -84,3 +77,10 @@ A: Dokument můžete nejprve vykreslit do PDF nebo obrázkového formátu; vizu�
 **Poslední aktualizace:** 2025-12-09  
 **Testováno s:** Aspose.Page for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

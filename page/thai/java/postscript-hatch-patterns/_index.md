@@ -55,13 +55,6 @@ weight: 27
 ### [Add Hatch Pattern in Java PostScript](./add-hatch-pattern/)
 เรียนรู้วิธีเพิ่มลวดลาย hatch ที่ดึงดูดให้กับเอกสาร Java PostScript ด้วย Aspose.Page ยกระดับเนื้อหาภาพของคุณอย่างง่ายดาย.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **Q: ฉันสามารถใช้ลวดลาย hatch ในแอปพลิเคชันเชิงพาณิชย์ได้หรือไม่?**  
@@ -84,3 +77,10 @@ A: คุณสามารถเรนเดอร์เอกสารเป�
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

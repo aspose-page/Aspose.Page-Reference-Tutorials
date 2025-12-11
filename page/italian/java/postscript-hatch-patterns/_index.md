@@ -55,13 +55,6 @@ Che tu sia uno sviluppatore esperto o un neofita di Java PostScript, il nostro t
 ### [Aggiungi pattern di tratteggio in Java PostScript](./add-hatch-pattern/)
 Scopri come aggiungere affascinanti pattern di tratteggio ai documenti Java PostScript usando Aspose.Page. Eleva il tuo contenuto visivo senza sforzo.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande frequenti
 
 **D: Posso usare i pattern di tratteggio in applicazioni commerciali?**  
@@ -84,3 +77,10 @@ R: Puoi renderizzare prima il documento in PDF o in un formato immagine; l'aspet
 **Ultimo aggiornamento:** 2025-12-09  
 **Testato con:** Aspose.Page per Java 24.11  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

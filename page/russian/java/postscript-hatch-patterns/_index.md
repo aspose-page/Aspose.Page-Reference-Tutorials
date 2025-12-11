@@ -55,13 +55,6 @@ weight: 27
 ### [Добавить шаблон штриховки в Java PostScript](./add-hatch-pattern/)
 Узнайте, как добавить захватывающие шаблоны штриховки в Java PostScript документы с помощью Aspose.Page. Легко улучшайте ваш визуальный контент.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Можно ли использовать шаблоны штриховки в коммерческих приложениях?**  
@@ -84,3 +77,10 @@ A: Вы можете сначала отрендерить документ в P
 **Последнее обновление:** 2025-12-09  
 **Тестировано с:** Aspose.Page for Java 24.11  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

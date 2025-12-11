@@ -59,13 +59,6 @@ Java PostScript ドキュメントに視覚的なインパクトが足りない�
 ### [Java PostScript でハッチパターンを追加](./add-hatch-pattern/)
 Aspose.Page を使用して Java PostScript ドキュメントに魅力的なハッチパターンを追加する方法を学び、ビジュアルコンテンツを手軽に向上させましょう。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: 商用アプリケーションでハッチパターンを使用できますか？**  
@@ -88,3 +81,10 @@ Aspose.Page を使用して Java PostScript ドキュメントに魅力的なハ
 **最終更新日:** 2025-12-09  
 **テスト環境:** Aspose.Page for Java 24.11  
 **作成者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

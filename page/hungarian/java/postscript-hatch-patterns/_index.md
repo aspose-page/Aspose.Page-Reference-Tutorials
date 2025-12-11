@@ -56,13 +56,6 @@ Akár tapasztalt fejlesztő vagy, akár újonc a Java PostScript területén, ú
 ### [Kitöltő minta hozzáadása Java PostScript-ben](./add-hatch-pattern/)
 Tanuld meg, hogyan adj hozzá vonzó kitöltő mintákat Java PostScript dokumentumokhoz az Aspose.Page segítségével. Emeld vizuális tartalmad könnyedén.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatok kitöltő mintákat kereskedelmi alkalmazásokban?**  
@@ -85,3 +78,10 @@ A: A dokumentumot először PDF‑be vagy képfájlba renderelheted; a vizuális
 **Utolsó frissítés:** 2025-12-09  
 **Tesztelve ezzel:** Aspose.Page for Java 24.11  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

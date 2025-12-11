@@ -71,13 +71,6 @@ Aspose.Page for Java empowers you to elevate your document manipulation capabili
 ### [Add Image in Java PostScript](./add-image/)
 Explore the seamless integration of Aspose.Page Java in this tutorial on adding images to PostScript documents. Elevate your document manipulation capabilities.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Frequently Asked Questions
 
 **Q: Can I add multiple images to the same PostScript page?**  
@@ -100,3 +93,10 @@ A: Transparent PNGs are preserved automatically; just ensure the target PostScri
 **Last Updated:** 2025-12-09  
 **Tested With:** Aspose.Page for Java 24.12 (latest)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

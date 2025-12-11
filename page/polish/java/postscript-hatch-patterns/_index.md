@@ -57,13 +57,6 @@ Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem w
 
 Dowiedz się, jak dodać przyciągające wzory kreskowe do dokumentów Java PostScript przy użyciu Aspose.Page. Podnieś swoją treść wizualną bez wysiłku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać wzorów kreskowych w aplikacjach komercyjnych?**  
@@ -86,3 +79,10 @@ Dowiedz się, jak dodać przyciągające wzory kreskowe do dokumentów Java Post
 **Ostatnia aktualizacja:** 2025-12-09  
 **Testowano z:** Aspose.Page for Java 24.11  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

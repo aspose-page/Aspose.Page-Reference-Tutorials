@@ -55,13 +55,6 @@ Oavsett om du är en erfaren utvecklare eller nybörjare på Java PostScript, ge
 ### [Lägg till Hatch-mönster i Java PostScript](./add-hatch-pattern/)
 Lär dig hur du lägger till fängslande hatch-mönster i Java PostScript-dokument med Aspose.Page. Höj ditt visuella innehåll utan ansträngning.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q: Kan jag använda hatch-mönster i kommersiella applikationer?**  
@@ -84,3 +77,10 @@ A: Du kan rendera dokumentet till PDF eller ett bildformat först; den visuella 
 **Senast uppdaterad:** 2025-12-09  
 **Testad med:** Aspose.Page for Java 24.11  
 **Författare:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
