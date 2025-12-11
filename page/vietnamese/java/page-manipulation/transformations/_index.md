@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Tìm hiểu cách co dãn hình chữ nhật, dịch chuyển hình dạng và áp dụng
   biến đổi affine trong Java bằng Aspose.Page để tạo tài liệu PostScript.
-language: vi
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Cách thu phóng hình chữ nhật và áp dụng các phép biến đổi với Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /vi/java/page-manipulation/transformations/
 weight: 11
 ---
 

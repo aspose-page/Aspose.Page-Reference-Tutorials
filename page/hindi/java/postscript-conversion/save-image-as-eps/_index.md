@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: जावा में Aspose.Page, ग्राफिक्स और प्रिंटिंग के लिए शक्तिशाली लाइब्रेरी,
   का उपयोग करके छवियों को EPS के रूप में सहेजना सीखें।
-language: hi
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 title: Aspose.Page के साथ जावा में इमेज को EPS के रूप में सहेजें
-url: /java/postscript-conversion/save-image-as-eps/
+url: /hi/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 

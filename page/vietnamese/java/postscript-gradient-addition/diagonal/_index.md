@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Nâng cao tài liệu Java PostScript của bạn với các gradient chéo bằng
   Aspose.Page Java. Tìm hiểu cách thêm hiệu ứng gradient bằng LinearGradientPaint
   trong Java và tạo các chuyển đổi màu sắc sống động một cách dễ dàng.
-language: vi
 linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: Thêm gradient chéo trong Java PostScript bằng Aspose.Page Java
-url: /java/postscript-gradient-addition/diagonal/
+url: /vi/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
 

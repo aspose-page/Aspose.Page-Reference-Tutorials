@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Leer hoe je een rechthoek schaalt, een vorm verplaatst en een affiene
   transformatie toepast in Java met Aspose.Page om PostScript‑documenten te maken.
-language: nl
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Hoe een rechthoek schalen en transformaties toepassen met Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /nl/java/page-manipulation/transformations/
 weight: 11
 ---
 

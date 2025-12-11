@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: تعلم كيفية تحجيم المستطيل، نقل الشكل، وتطبيق التحويل الأفيني في جافا
   باستخدام Aspose.Page لإنشاء مستندات PostScript.
-language: ar
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: كيفية تحجيم المستطيل وتطبيق التحويلات باستخدام Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /ar/java/page-manipulation/transformations/
 weight: 11
 ---
 

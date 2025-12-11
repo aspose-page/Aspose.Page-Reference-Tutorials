@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: 使用 Aspose.Page Java 为您的 Java PostScript 文档添加对角线渐变。学习如何在 Java 中使用 LinearGradientPaint
   添加渐变效果，轻松创建鲜艳的颜色过渡。
-language: zh
 linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: 在 Java PostScript 中使用 Aspose.Page Java 添加对角线渐变
-url: /java/postscript-gradient-addition/diagonal/
+url: /zh/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
 

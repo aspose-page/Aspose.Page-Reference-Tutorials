@@ -1,11 +1,10 @@
 ---
 date: 2025-12-07
 description: Aspose.Page を使用して Java で矩形の拡大縮小、形状の平行移動、アフィン変換を行い、PostScript ドキュメントを作成する方法を学びます。
-language: ja
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Aspose.Pageで矩形を拡大縮小し、変換を適用する方法
-url: /java/page-manipulation/transformations/
+url: /ja/java/page-manipulation/transformations/
 weight: 11
 ---
 

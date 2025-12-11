@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Tanulja meg, hogyan menthet képeket EPS formátumban Java-ban az Aspose.Page
   használatával, a grafika és nyomtatás erőteljes könyvtárával.
-language: hu
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 title: Kép mentése EPS formátumban Java-ban az Aspose.Page használatával
-url: /java/postscript-conversion/save-image-as-eps/
+url: /hu/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 

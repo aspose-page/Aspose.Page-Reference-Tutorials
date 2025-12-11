@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Page, grafik ve baskı için güçlü bir kütüphane, kullanarak Java'da
   görüntüleri EPS formatında kaydetmeyi öğrenin.
-language: tr
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 title: Java'da Aspose.Page ile Görüntüyü EPS Olarak Kaydet
-url: /java/postscript-conversion/save-image-as-eps/
+url: /tr/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 

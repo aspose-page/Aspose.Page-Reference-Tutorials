@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Erfahren Sie, wie Sie ein Rechteck skalieren, eine Form verschieben und
   eine affine Transformation in Java mit Aspose.Page anwenden, um PostScript‑Dokumente
   zu erstellen.
-language: de
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Wie man ein Rechteck skaliert und Transformationen mit Aspose.Page anwendet
-url: /java/page-manipulation/transformations/
+url: /de/java/page-manipulation/transformations/
 weight: 11
 ---
 

@@ -3,12 +3,11 @@ date: 2025-12-07
 description: Βελτιώστε τα έγγραφα Java PostScript σας με διαγώνιες διαβαθμίσεις χρησιμοποιώντας
   το Aspose.Page Java. Μάθετε πώς να προσθέτετε εφέ διαβάθμισης με το LinearGradientPaint
   στη Java και δημιουργήστε ζωντανές μεταβάσεις χρωμάτων χωρίς κόπο.
-language: el
 linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: Προσθήκη διαγώνιου gradient σε Java PostScript χρησιμοποιώντας το Aspose.Page
   Java
-url: /java/postscript-gradient-addition/diagonal/
+url: /el/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Erfahren Sie, wie Sie in Java PostScript einen horizontalen Farbverlauf
   mit Linear Gradient Paint Java und Aspose.Page für Java hinzufügen.
-language: de
 linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
 second_title: Aspose.Page Java API
 title: Verlauf in Java PostScript mit Linear‑Gradient‑Paint hinzufügen
-url: /java/postscript-gradient-addition/horizontal/
+url: /de/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
 

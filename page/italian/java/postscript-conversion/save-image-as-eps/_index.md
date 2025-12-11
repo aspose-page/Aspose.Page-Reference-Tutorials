@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Scopri come salvare le immagini come EPS in Java usando Aspose.Page,
   la potente libreria per la grafica e la stampa.
-language: it
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 title: Salva immagine come EPS in Java con Aspose.Page
-url: /java/postscript-conversion/save-image-as-eps/
+url: /it/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 

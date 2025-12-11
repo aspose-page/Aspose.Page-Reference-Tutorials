@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: 了解如何在 Java PostScript 中使用 Aspose.Page for Java 的 Linear Gradient Paint
   添加水平渐变。
-language: zh
 linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
 second_title: Aspose.Page Java API
 title: 使用线性渐变 Paint 在 Java PostScript 中添加渐变
-url: /java/postscript-gradient-addition/horizontal/
+url: /zh/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
 

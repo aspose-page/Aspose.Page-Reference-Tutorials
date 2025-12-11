@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Page Java を使用して、Java の PostScript ドキュメントに対角線グラデーションを追加し、強化しましょう。Java
   の LinearGradientPaint を使ってグラデーション効果を加える方法を学び、手軽に鮮やかな色の遷移を実現できます。
-language: ja
 linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: Aspose.Page Java を使用して Java PostScript に対角線グラデーションを追加する
-url: /java/postscript-gradient-addition/diagonal/
+url: /ja/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
 

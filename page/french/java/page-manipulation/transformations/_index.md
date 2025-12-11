@@ -3,12 +3,11 @@ date: 2025-12-07
 description: Apprenez à mettre à l’échelle un rectangle, à translater une forme et
   à appliquer une transformation affine en Java avec Aspose.Page pour créer des documents
   PostScript.
-language: fr
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Comment mettre à l’échelle un rectangle et appliquer des transformations avec
   Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /fr/java/page-manipulation/transformations/
 weight: 11
 ---
 

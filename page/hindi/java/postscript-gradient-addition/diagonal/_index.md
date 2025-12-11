@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Aspose.Page Java का उपयोग करके अपने Java PostScript दस्तावेज़ों को तिरछी
   ग्रेडिएंट्स के साथ बेहतर बनाएं। Java में LinearGradientPaint के साथ ग्रेडिएंट इफ़ेक्ट
   जोड़ना सीखें और आसानी से जीवंत रंग संक्रमण बनाएं।
-language: hi
 linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: Aspose.Page Java का उपयोग करके Java PostScript में तिरछा ग्रेडिएंट जोड़ें
-url: /java/postscript-gradient-addition/diagonal/
+url: /hi/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
 

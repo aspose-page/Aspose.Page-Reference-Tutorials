@@ -3,12 +3,11 @@ date: 2025-12-07
 description: Tanulja meg, hogyan méretezzen téglalapot, transzformáljon alakzatot,
   és alkalmazzon affín transzformációt Java-ban az Aspose.Page használatával PostScript
   dokumentumok létrehozásához.
-language: hu
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Hogyan méretezzen egy téglalapot és alkalmazzon transzformációkat az Aspose.Page
   segítségével
-url: /java/page-manipulation/transformations/
+url: /hu/java/page-manipulation/transformations/
 weight: 11
 ---
 

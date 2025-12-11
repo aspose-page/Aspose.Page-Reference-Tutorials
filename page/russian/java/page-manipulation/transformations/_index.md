@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Узнайте, как масштабировать прямоугольник, перемещать форму и применять
   аффинное преобразование в Java с помощью Aspose.Page для создания документов PostScript.
-language: ru
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Как масштабировать прямоугольник и применять преобразования с Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /ru/java/page-manipulation/transformations/
 weight: 11
 ---
 

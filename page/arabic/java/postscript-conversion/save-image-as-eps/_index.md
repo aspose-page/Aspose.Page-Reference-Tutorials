@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: تعلم كيفية حفظ الصور بصيغة EPS في جافا باستخدام Aspose.Page، المكتبة
   القوية للرسومات والطباعة.
-language: ar
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 title: حفظ الصورة كملف EPS في جافا باستخدام Aspose.Page
-url: /java/postscript-conversion/save-image-as-eps/
+url: /ar/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-07
 description: 学习如何在 Java 中使用 Aspose.Page 缩放矩形、平移形状并应用仿射变换，以创建 PostScript 文档。
-language: zh
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: 如何使用 Aspose.Page 缩放矩形并应用变换
-url: /java/page-manipulation/transformations/
+url: /zh/java/page-manipulation/transformations/
 weight: 11
 ---
 

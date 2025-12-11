@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: เรียนรู้วิธีเพิ่มไล่สีแนวนอนใน Java PostScript โดยใช้ Linear Gradient
   Paint Java กับ Aspose.Page สำหรับ Java.
-language: th
 linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
 second_title: Aspose.Page Java API
 title: เพิ่มการไล่สีใน Java PostScript ด้วย Linear Gradient Paint Java
-url: /java/postscript-gradient-addition/horizontal/
+url: /th/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
 

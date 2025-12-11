@@ -1,11 +1,10 @@
 ---
 date: 2025-12-07
 description: 學習如何在 Java 中使用 Aspose.Page 這個強大的圖形與列印庫，將圖像儲存為 EPS。
-language: zh-hant
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 title: 在 Java 中使用 Aspose.Page 將圖像儲存為 EPS
-url: /java/postscript-conversion/save-image-as-eps/
+url: /zh-hant/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 

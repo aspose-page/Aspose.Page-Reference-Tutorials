@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Naučte se, jak v Javě pomocí Aspose.Page škálovat obdélník, posunout
   tvar a aplikovat afinní transformaci k vytváření dokumentů PostScript.
-language: cs
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Jak škálovat obdélník a aplikovat transformace pomocí Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /cs/java/page-manipulation/transformations/
 weight: 11
 ---
 

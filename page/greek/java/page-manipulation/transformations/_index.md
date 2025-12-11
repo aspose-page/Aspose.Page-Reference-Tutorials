@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Μάθετε πώς να κλιμακώνετε ένα ορθογώνιο, να μεταβάλλετε το σχήμα και
   να εφαρμόζετε αφινικό μετασχηματισμό σε Java χρησιμοποιώντας το Aspose.Page για
   τη δημιουργία εγγράφων PostScript.
-language: el
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Πώς να κλιμακώσετε ένα ορθογώνιο και να εφαρμόσετε μετασχηματισμούς με το Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /el/java/page-manipulation/transformations/
 weight: 11
 ---
 

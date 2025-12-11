@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Dowiedz się, jak skalować prostokąt, przesuwać kształt i stosować przekształcenie
   afiniczne w Javie przy użyciu Aspose.Page do tworzenia dokumentów PostScript.
-language: pl
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Jak skalować prostokąt i stosować transformacje w Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /pl/java/page-manipulation/transformations/
 weight: 11
 ---
 

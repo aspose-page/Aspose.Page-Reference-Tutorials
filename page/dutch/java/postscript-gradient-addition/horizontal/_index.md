@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Leer hoe u een horizontale gradient toevoegt in Java PostScript met Linear
   Gradient Paint Java en Aspose.Page voor Java.
-language: nl
 linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
 second_title: Aspose.Page Java API
 title: Gradient toevoegen in Java PostScript met Linear Gradient Paint Java
-url: /java/postscript-gradient-addition/horizontal/
+url: /nl/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
 

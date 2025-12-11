@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Naučte se, jak v Javě uložit obrázky jako EPS pomocí Aspose.Page, výkonné
   knihovny pro grafiku a tisk.
-language: cs
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 title: Uložit obrázek jako EPS v Javě s Aspose.Page
-url: /java/postscript-conversion/save-image-as-eps/
+url: /cs/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 

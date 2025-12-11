@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Page Java를 사용하여 Java PostScript 문서에 대각선 그라디언트를 적용하세요. Java에서 LinearGradientPaint를
   사용해 그라디언트 효과를 추가하고, 손쉽게 생동감 있는 색상 전환을 만들어 보세요.
-language: ko
 linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: Aspose.Page Java를 사용하여 Java PostScript에 대각선 그라데이션 추가
-url: /java/postscript-gradient-addition/diagonal/
+url: /ko/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
 

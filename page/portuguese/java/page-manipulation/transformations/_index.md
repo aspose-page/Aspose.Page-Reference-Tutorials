@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aprenda a dimensionar retângulos, transladar formas e aplicar transformações
   afins em Java usando Aspose.Page para criar documentos PostScript.
-language: pt
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Como escalar retângulo e aplicar transformações com Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /pt/java/page-manipulation/transformations/
 weight: 11
 ---
 

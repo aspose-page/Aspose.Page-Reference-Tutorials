@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Tìm hiểu cách lưu hình ảnh dưới dạng EPS trong Java bằng Aspose.Page,
   thư viện mạnh mẽ cho đồ họa và in ấn.
-language: vi
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 title: Lưu hình ảnh dưới dạng EPS trong Java với Aspose.Page
-url: /java/postscript-conversion/save-image-as-eps/
+url: /vi/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 

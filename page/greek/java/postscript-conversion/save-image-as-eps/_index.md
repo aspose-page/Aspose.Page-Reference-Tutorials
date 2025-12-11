@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Μάθετε πώς να αποθηκεύετε εικόνες ως EPS στην Java χρησιμοποιώντας το
   Aspose.Page, τη δυνατή βιβλιοθήκη για γραφικά και εκτύπωση.
-language: el
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 title: Αποθήκευση εικόνας ως EPS σε Java με το Aspose.Page
-url: /java/postscript-conversion/save-image-as-eps/
+url: /el/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 

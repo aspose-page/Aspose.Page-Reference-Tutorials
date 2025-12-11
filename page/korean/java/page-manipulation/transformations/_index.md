@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Page를 사용하여 Java에서 사각형을 스케일링하고, 도형을 이동하며, 어파인 변환을 적용하여 PostScript
   문서를 만드는 방법을 배웁니다.
-language: ko
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Aspose.Page를 사용하여 사각형을 확대하고 변환 적용하기
-url: /java/page-manipulation/transformations/
+url: /ko/java/page-manipulation/transformations/
 weight: 11
 ---
 

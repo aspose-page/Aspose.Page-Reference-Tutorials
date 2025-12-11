@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Pelajari cara mengubah skala persegi panjang, mentranslasi bentuk, dan
   menerapkan transformasi afine dalam Java menggunakan Aspose.Page untuk membuat dokumen
   PostScript.
-language: id
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Cara Menskalakan Persegi Panjang dan Menerapkan Transformasi dengan Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /id/java/page-manipulation/transformations/
 weight: 11
 ---
 

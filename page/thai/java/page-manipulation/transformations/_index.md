@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: เรียนรู้วิธีการปรับขนาดสี่เหลี่ยม, ย้ายรูปทรง, และใช้การแปลงแอฟฟินใน
   Java ด้วย Aspose.Page เพื่อสร้างเอกสาร PostScript.
-language: th
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: วิธีปรับขนาดสี่เหลี่ยมและใช้การแปลงด้วย Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /th/java/page-manipulation/transformations/
 weight: 11
 ---
 

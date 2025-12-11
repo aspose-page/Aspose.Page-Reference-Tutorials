@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: تعلم كيفية إضافة تدرج أفقي في Java PostScript باستخدام Linear Gradient
   Paint Java مع Aspose.Page for Java.
-language: ar
 linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
 second_title: Aspose.Page Java API
 title: إضافة تدرج في Java PostScript باستخدام Linear Gradient Paint Java
-url: /java/postscript-gradient-addition/horizontal/
+url: /ar/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
 

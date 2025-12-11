@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: जावा में Aspose.Page का उपयोग करके पोस्टस्क्रिप्ट दस्तावेज़ बनाने के
   लिए आयत को स्केल करना, आकार को ट्रांसलेट करना और अफाइन ट्रांसफ़ॉर्म लागू करना सीखें।
-language: hi
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Aspose.Page के साथ आयत को स्केल करना और ट्रांसफ़ॉर्मेशन लागू करना
-url: /java/page-manipulation/transformations/
+url: /hi/java/page-manipulation/transformations/
 weight: 11
 ---
 

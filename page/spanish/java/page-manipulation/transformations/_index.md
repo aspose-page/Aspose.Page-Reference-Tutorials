@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aprenda a escalar rectángulos, trasladar formas y aplicar transformaciones
   afines en Java usando Aspose.Page para crear documentos PostScript.
-language: es
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Cómo escalar un rectángulo y aplicar transformaciones con Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /es/java/page-manipulation/transformations/
 weight: 11
 ---
 

@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Lär dig hur du skalar en rektangel, förflyttar en form och tillämpar
   en affin transformation i Java med Aspose.Page för att skapa PostScript‑dokument.
-language: sv
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Hur man skalar en rektangel och tillämpar transformationer med Aspose.Page
-url: /java/page-manipulation/transformations/
+url: /sv/java/page-manipulation/transformations/
 weight: 11
 ---
 

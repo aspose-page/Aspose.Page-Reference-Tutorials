@@ -3,11 +3,10 @@ date: 2025-12-07
 description: Melhore seus documentos Java PostScript com gradientes diagonais usando
   Aspose.Page Java. Aprenda a adicionar efeitos de gradiente com LinearGradientPaint
   em Java e crie transições de cores vibrantes sem esforço.
-language: pt
 linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: Adicionar gradiente diagonal em Java PostScript usando Aspose.Page Java
-url: /java/postscript-gradient-addition/diagonal/
+url: /pt/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-07
 description: เพิ่มประสิทธิภาพเอกสาร Java PostScript ของคุณด้วยการไล่สีแนวทแยงโดยใช้
   Aspose.Page Java. เรียนรู้วิธีเพิ่มเอฟเฟกต์ไล่สีด้วย LinearGradientPaint ใน Java
   และสร้างการเปลี่ยนสีที่สดใสอย่างง่ายดาย.
-language: th
 linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: เพิ่มไล่ระดับสีแนวทแยงมุมใน Java PostScript ด้วย Aspose.Page Java
-url: /java/postscript-gradient-addition/diagonal/
+url: /th/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
 

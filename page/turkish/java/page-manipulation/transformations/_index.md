@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Aspose.Page kullanarak Java'da dikdörtgeni ölçeklendirmeyi, şekli çevirmeyi
   ve afin dönüşüm uygulamayı öğrenin ve PostScript belgeleri oluşturun.
-language: tr
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
 title: Aspose.Page ile Dikdörtgeni Ölçeklendirme ve Dönüşümler Uygulama
-url: /java/page-manipulation/transformations/
+url: /tr/java/page-manipulation/transformations/
 weight: 11
 ---
 

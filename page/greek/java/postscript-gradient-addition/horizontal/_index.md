@@ -2,12 +2,11 @@
 date: 2025-12-07
 description: Μάθετε πώς να προσθέσετε οριζόντια διαβάθμιση χρώματος σε Java PostScript
   χρησιμοποιώντας το Linear Gradient Paint Java με το Aspose.Page για Java.
-language: el
 linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
 second_title: Aspose.Page Java API
 title: Προσθήκη διαβάθμισης σε Java PostScript χρησιμοποιώντας Linear Gradient Paint
   Java
-url: /java/postscript-gradient-addition/horizontal/
+url: /el/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
 

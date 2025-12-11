@@ -2,11 +2,10 @@
 date: 2025-12-07
 description: Ismerje meg, hogyan adhat hozzá vízszintes színátmenetet Java PostScriptben
   a Linear Gradient Paint Java használatával az Aspose.Page for Java segítségével.
-language: hu
 linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
 second_title: Aspose.Page Java API
 title: Gradiens hozzáadása Java PostScripthez lineáris Gradient Paint használatával
-url: /java/postscript-gradient-addition/horizontal/
+url: /hu/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
 

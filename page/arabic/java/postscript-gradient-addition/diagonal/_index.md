@@ -3,11 +3,10 @@ date: 2025-12-07
 description: قم بتحسين مستندات Java PostScript الخاصة بك باستخدام التدرجات القطرية
   عبر Aspose.Page Java. تعلم كيفية إضافة تأثيرات التدرج باستخدام LinearGradientPaint
   في Java وإنشاء انتقالات ألوان حيوية بسهولة.
-language: ar
 linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
 second_title: Aspose.Page Java API
 title: إضافة تدرج قطري في Java PostScript باستخدام Aspose.Page Java
-url: /java/postscript-gradient-addition/diagonal/
+url: /ar/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
 
