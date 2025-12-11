@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.Page kullanarak Java PostScript'te bir radyal degrade örneği oluşturmayı
   öğrenin. Tam kod ve sorun giderme ile adım adım rehber.
-language: tr
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
 title: 'Radial Gradient Örneği: Aspose.Page ile Java PostScript'
-url: /java/postscript-gradient-addition/radial2/
+url: /tr/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
 

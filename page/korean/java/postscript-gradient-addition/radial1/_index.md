@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.Page를 사용하여 Java PostScript에서 방사형 그라디언트를 추가하는 방법을 배워보세요. 이 단계별
   가이드는 문서에 놀라운 그라디언트 효과를 만드는 방법을 보여줍니다.
-language: ko
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 title: Aspose.Page를 사용하여 Java PostScript에 방사형 그라데이션 추가하는 방법
-url: /java/postscript-gradient-addition/radial1/
+url: /ko/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
 

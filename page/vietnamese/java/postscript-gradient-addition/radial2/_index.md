@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Tìm hiểu cách tạo ví dụ gradient dạng tròn trong Java PostScript bằng
   Aspose.Page. Hướng dẫn từng bước với mã đầy đủ và khắc phục sự cố.
-language: vi
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
 title: 'Ví dụ Gradient dạng tròn: Java PostScript với Aspose.Page'
-url: /java/postscript-gradient-addition/radial2/
+url: /vi/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Leer hoe u hatchpatronen kunt toevoegen aan Java‑PostScript‑documenten
   met Aspose.Page Java. Deze stapsgewijze gids laat u zien hoe u hatchpatroon‑graphics
   efficiënt kunt toevoegen.
-language: nl
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Hatchpatroon toevoegen in Java PostScript'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /nl/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -165,15 +164,15 @@ A: Bezoek het officiële forum [Aspose.Page for Java forum](https://forum.aspo
 **Q: Is er uitgebreide documentatie voor alle klassen en methoden?**  
 A: Ja, de volledige API‑referentie is beschikbaar [here](https://reference.aspose.com/page/java/).
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

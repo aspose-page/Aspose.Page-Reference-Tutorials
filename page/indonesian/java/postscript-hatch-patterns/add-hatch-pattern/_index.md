@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Pelajari cara menambahkan pola hatch ke dokumen Java PostScript menggunakan
   Aspose.Page Java. Panduan langkah demi langkah ini menunjukkan cara menambahkan
   grafik pola hatch secara efisien.
-language: id
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Tambahkan Pola Hatch di PostScript Java'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /id/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -165,15 +164,15 @@ J: Kunjungi forum resmi [Aspose.Page for Java forum](https://forum.aspose.com/
 **T: Apakah ada dokumentasi lengkap untuk semua kelas dan metode?**  
 J: Ya, referensi API lengkap tersedia [di sini](https://reference.aspose.com/page/java/).
 
+---
+
+**Terakhir Diperbarui:** 2025-12-08  
+**Diuji Dengan:** Aspose.Page untuk Java 24.12 (versi terbaru pada saat penulisan)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-08  
-**Diuji Dengan:** Aspose.Page untuk Java 24.12 (versi terbaru pada saat penulisan)  
-**Penulis:** Aspose

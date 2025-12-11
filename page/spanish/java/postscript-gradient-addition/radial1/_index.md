@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aprende a agregar un degradado radial en Java PostScript con Aspose.Page.
   Esta guía paso a paso te muestra cómo crear efectos de degradado impresionantes
   en tus documentos.
-language: es
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 title: Cómo agregar un degradado radial en Java PostScript con Aspose.Page
-url: /java/postscript-gradient-addition/radial1/
+url: /es/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
 

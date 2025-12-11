@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Erfahren Sie, wie Sie ein Beispiel für einen radialen Farbverlauf in
   Java PostScript mit Aspose.Page erstellen. Schritt‑für‑Schritt‑Anleitung mit vollständigem
   Code und Fehlersuche.
-language: de
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
 title: 'Beispiel für radialen Farbverlauf: Java PostScript mit Aspose.Page'
-url: /java/postscript-gradient-addition/radial2/
+url: /de/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
 

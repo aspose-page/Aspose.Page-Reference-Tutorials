@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tìm hiểu cách thêm các mẫu vân vào tài liệu Java PostScript bằng Aspose.Page
   Java. Hướng dẫn từng bước này cho bạn thấy cách thêm đồ họa mẫu vân một cách hiệu
   quả.
-language: vi
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Thêm mẫu vạch chéo trong PostScript Java'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /vi/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -163,15 +162,15 @@ A: Truy cập diễn đàn chính thức [Aspose.Page for Java forum](https://
 **Q: Có tài liệu đầy đủ cho tất cả các lớp và phương thức không?**  
 A: Có, tham khảo đầy đủ API có sẵn [here](https://reference.aspose.com/page/java/).
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

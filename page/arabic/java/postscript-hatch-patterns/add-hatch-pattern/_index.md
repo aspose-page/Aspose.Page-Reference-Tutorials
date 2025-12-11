@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية إضافة أنماط التشطيب إلى مستندات Java PostScript باستخدام Aspose.Page
   Java. يوضح لك هذا الدليل خطوة بخطوة كيفية إضافة رسومات أنماط التشطيب بكفاءة.
-language: ar
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: إضافة نمط التظليل في Java PostScript'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /ar/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -164,15 +163,15 @@ document.save();
 **س: هل هناك وثائق شاملة لجميع الفئات والطرق؟**  
 ج: نعم، المرجع الكامل للـ API متاح [هنا](https://reference.aspose.com/page/java/).
 
+---
+
+**آخر تحديث:** 2025-12-08  
+**تم الاختبار مع:** Aspose.Page for Java 24.12 (أحدث نسخة وقت الكتابة)  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-08  
-**تم الاختبار مع:** Aspose.Page for Java 24.12 (أحدث نسخة وقت الكتابة)  
-**المؤلف:** Aspose

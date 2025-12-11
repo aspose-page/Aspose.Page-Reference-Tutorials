@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Μάθετε πώς να δημιουργήσετε ένα παράδειγμα κυκλικής διαβάθμισης σε Java
   PostScript χρησιμοποιώντας το Aspose.Page. Οδηγός βήμα προς βήμα με πλήρη κώδικα
   και αντιμετώπιση προβλημάτων.
-language: el
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
 title: 'Παράδειγμα Ακτινικής Διαβάθμισης: Java PostScript με Aspose.Page'
-url: /java/postscript-gradient-addition/radial2/
+url: /el/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
 

@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tanulja meg, hogyan adhat hozzá hálómintákat Java PostScript dokumentumokhoz
   az Aspose.Page Java használatával. Ez a lépésről‑lépésre útmutató megmutatja, hogyan
   lehet hatékonyan hozzáadni hálóminta grafikákat.
-language: hu
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Hálóminta hozzáadása Java PostScriptben'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /hu/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -163,15 +162,15 @@ A: Látogasd meg a hivatalos fórumot [Aspose.Page for Java forum](https://for
 **Q: Van átfogó dokumentáció minden osztályról és metódusról?**  
 A: Igen, a teljes API referencia elérhető [here](https://reference.aspose.com/page/java/).
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

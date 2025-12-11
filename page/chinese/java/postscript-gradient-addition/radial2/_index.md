@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 学习如何使用 Aspose.Page 在 Java PostScript 中创建径向渐变示例。提供完整代码和故障排除的逐步指南。
-language: zh
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
 title: 径向渐变示例：使用 Aspose.Page 的 Java PostScript
-url: /java/postscript-gradient-addition/radial2/
+url: /zh/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
 

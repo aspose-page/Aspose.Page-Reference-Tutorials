@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.Page Java kullanarak Java PostScript belgelerine çizgili desenler
   eklemeyi öğrenin. Bu adım adım rehber, çizgili desen grafiklerini verimli bir şekilde
   nasıl ekleyeceğinizi gösterir.
-language: tr
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Java PostScript''te Tarama Deseni Ekle'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /tr/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -165,15 +164,15 @@ C: Resmi forum [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39
 **S: Tüm sınıflar ve metodlar için kapsamlı dokümantasyon var mı?**  
 C: Evet, tam API referansı [burada](https://reference.aspose.com/page/java/) mevcuttur.
 
+---
+
+**Son Güncelleme:** 2025-12-08  
+**Test Edilen Versiyon:** Aspose.Page for Java 24.12 (yazım anındaki en yeni)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-08  
-**Test Edilen Versiyon:** Aspose.Page for Java 24.12 (yazım anındaki en yeni)  
-**Yazar:** Aspose

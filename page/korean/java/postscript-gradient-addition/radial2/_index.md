@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: Aspose.Page를 사용하여 Java PostScript에서 방사형 그라디언트 예제를 만드는 방법을 배웁니다. 전체 코드와
   문제 해결이 포함된 단계별 가이드.
-language: ko
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
 title: '방사형 그라디언트 예제: Aspose.Page를 사용한 Java PostScript'
-url: /java/postscript-gradient-addition/radial2/
+url: /ko/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
 

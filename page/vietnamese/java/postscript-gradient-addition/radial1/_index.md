@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Tìm hiểu cách thêm gradient dạng tròn trong Java PostScript với Aspose.Page.
   Hướng dẫn từng bước này sẽ chỉ cho bạn cách tạo hiệu ứng gradient ấn tượng trong
   tài liệu của mình.
-language: vi
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 title: Cách thêm gradient dạng tròn trong Java PostScript với Aspose.Page
-url: /java/postscript-gradient-addition/radial1/
+url: /vi/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
 

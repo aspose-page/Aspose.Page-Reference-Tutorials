@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية إضافة تدرج شعاعي في Java PostScript باستخدام Aspose.Page.
   يوضح لك هذا الدليل خطوة بخطوة كيفية إنشاء تأثيرات تدرج مذهلة في مستنداتك.
-language: ar
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 title: كيفية إضافة تدرج شعاعي في Java PostScript باستخدام Aspose.Page
-url: /java/postscript-gradient-addition/radial1/
+url: /ar/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
 

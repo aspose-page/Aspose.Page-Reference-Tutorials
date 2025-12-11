@@ -3,11 +3,10 @@ date: 2025-12-08
 description: „Dowiedz się, jak dodawać wzory kreskowania do dokumentów Java PostScript
   przy użyciu Aspose.Page Java. Ten przewodnik krok po kroku pokazuje, jak efektywnie
   dodawać grafikę z wzorami kreskowania.”
-language: pl
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Dodaj wzór kreskowy w Java PostScript'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /pl/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -165,15 +164,15 @@ O: Odwiedź oficjalne forum [Aspose.Page for Java forum](https://forum.aspose.
 **P: Czy istnieje pełna dokumentacja wszystkich klas i metod?**  
 O: Tak, pełna referencja API jest dostępna [tutaj](https://reference.aspose.com/page/java/).
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-08  
+**Testowano z:** Aspose.Page for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-08  
-**Testowano z:** Aspose.Page for Java 24.12 (najnowsza w momencie pisania)  
-**Autor:** Aspose

@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: เรียนรู้วิธีสร้างตัวอย่างการไล่สีแบบรัศมีใน Java PostScript ด้วย Aspose.Page
   คู่มือขั้นตอนโดยละเอียดพร้อมโค้ดเต็มและการแก้ไขปัญหา
-language: th
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
 title: 'ตัวอย่างการไล่สีแบบรัศมี: Java PostScript กับ Aspose.Page'
-url: /java/postscript-gradient-addition/radial2/
+url: /th/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
 

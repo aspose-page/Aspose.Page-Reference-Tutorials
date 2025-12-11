@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aprenda cómo agregar patrones de trama a documentos Java PostScript usando
   Aspose.Page Java. Esta guía paso a paso le muestra cómo añadir gráficos con patrones
   de trama de manera eficiente.
-language: es
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Añadir patrón de trama en PostScript Java'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /es/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -165,15 +164,15 @@ R: Visita el foro oficial [Aspose.Page for Java forum](https://forum.aspose.co
 **P: ¿Hay documentación completa para todas las clases y métodos?**  
 R: Sí, la referencia completa de la API está disponible [here](https://reference.aspose.com/page/java/).
 
+---
+
+**Última actualización:** 2025-12-08  
+**Probado con:** Aspose.Page for Java 24.12 (última versión al momento de escribir)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-08  
-**Probado con:** Aspose.Page for Java 24.12 (última versión al momento de escribir)  
-**Autor:** Aspose

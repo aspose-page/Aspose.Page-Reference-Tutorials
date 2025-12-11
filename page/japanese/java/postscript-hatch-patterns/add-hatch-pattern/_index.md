@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: Aspose.Page Java を使用して、Java の PostScript ドキュメントにハッチパターンを追加する方法を学びましょう。このステップバイステップガイドでは、ハッチパターンのグラフィックを効率的に追加する方法を示します。
-language: ja
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: JavaのPostScriptにハッチパターンを追加'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /ja/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -163,15 +162,15 @@ A: 公式フォーラム [Aspose.Page for Java forum](https://forum.aspose.com
 **Q: すべてのクラスとメソッドの包括的なドキュメントはありますか？**  
 A: はい、完全な API リファレンスは [here](https://reference.aspose.com/page/java/) で入手可能です。
 
+---
+
+**最終更新日:** 2025-12-08  
+**テスト環境:** Aspose.Page for Java 24.12 (執筆時点での最新)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-08  
-**テスト環境:** Aspose.Page for Java 24.12 (執筆時点での最新)  
-**作者:** Aspose

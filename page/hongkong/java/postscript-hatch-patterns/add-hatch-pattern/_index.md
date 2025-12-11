@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 學習如何使用 Aspose.Page Java 為 Java PostScript 文件加入斜紋圖案。此一步一步的指南將向您示範如何高效地加入斜紋圖形。
-language: zh-hant
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: Aspose.Page Java：在 Java PostScript 中加入斜紋圖案
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /zh-hant/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -163,15 +162,15 @@ A: 前往官方論壇 [Aspose.Page for Java forum](https://forum.aspose.com/c/
 **Q: 是否有完整的類別與方法文件？**  
 A: 有，完整的 API 參考文件可在 [此處](https://reference.aspose.com/page/java/) 取得。
 
+---
+
+**最後更新：** 2025-12-08  
+**測試環境：** Aspose.Page for Java 24.12（撰寫時最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-08  
-**測試環境：** Aspose.Page for Java 24.12（撰寫時最新版本）  
-**作者：** Aspose

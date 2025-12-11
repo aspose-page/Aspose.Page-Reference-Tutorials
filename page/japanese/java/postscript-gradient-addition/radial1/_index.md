@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: Aspose.Page を使用して Java の PostScript に放射状グラデーションを追加する方法を学びましょう。このステップバイステップガイドでは、ドキュメントに驚くべきグラデーション効果を作成する方法を示します。
-language: ja
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 title: Aspose.Page を使用した Java PostScript での放射状グラデーションの追加方法
-url: /java/postscript-gradient-addition/radial1/
+url: /ja/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
 

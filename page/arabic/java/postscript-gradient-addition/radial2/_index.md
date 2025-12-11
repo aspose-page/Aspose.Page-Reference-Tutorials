@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: تعلم كيفية إنشاء مثال لتدرج دائري في Java PostScript باستخدام Aspose.Page.
   دليل خطوة بخطوة مع الكود الكامل وحلول المشكلات.
-language: ar
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
 title: 'مثال على التدرج الشعاعي: جافا بوستسكريبت مع Aspose.Page'
-url: /java/postscript-gradient-addition/radial2/
+url: /ar/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
 

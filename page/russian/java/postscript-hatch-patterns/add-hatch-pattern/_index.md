@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Изучите, как добавлять штриховки в документы Java PostScript с помощью
   Aspose.Page Java. Это пошаговое руководство покажет, как эффективно добавлять графику
   с штриховкой.
-language: ru
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Добавить штриховой узор в Java PostScript'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /ru/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -163,15 +162,15 @@ A: Посетите официальный форум [Aspose.Page for Java fo
 **Q: Есть ли полная документация по всем классам и методам?**  
 A: Да, полная ссылка на API доступна [here](https://reference.aspose.com/page/java/).
 
+---
+
+**Последнее обновление:** 2025-12-08  
+**Тестировано с:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-08  
-**Тестировано с:** Aspose.Page for Java 24.12 (latest at time of writing)  
-**Автор:** Aspose

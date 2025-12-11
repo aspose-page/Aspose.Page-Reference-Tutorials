@@ -162,15 +162,15 @@ A: Visit the official forum [Aspose.Page for Java forum](https://forum.aspose.
 **Q: Is there comprehensive documentation for all classes and methods?**  
 A: Yes, the full API reference is available [here](https://reference.aspose.com/page/java/).
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

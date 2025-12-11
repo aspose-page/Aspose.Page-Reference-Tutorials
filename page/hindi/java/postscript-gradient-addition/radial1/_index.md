@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Aspose.Page के साथ Java PostScript में रेडियल ग्रेडिएंट कैसे जोड़ें,
   सीखें। यह चरण‑दर‑चरण गाइड आपको आपके दस्तावेज़ों में शानदार ग्रेडिएंट प्रभाव बनाने
   का तरीका दिखाता है।
-language: hi
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 title: Aspose.Page के साथ Java PostScript में रेडियल ग्रेडिएंट कैसे जोड़ें
-url: /java/postscript-gradient-addition/radial1/
+url: /hi/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
 

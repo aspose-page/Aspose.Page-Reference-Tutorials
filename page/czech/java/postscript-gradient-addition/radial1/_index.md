@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Naučte se, jak přidat radiální gradient v Java PostScript s Aspose.Page.
   Tento krok‑za‑krokem průvodce vám ukáže, jak vytvořit úchvatné gradientové efekty
   ve vašich dokumentech.
-language: cs
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 title: Jak přidat radiální gradient v Java PostScript pomocí Aspose.Page
-url: /java/postscript-gradient-addition/radial1/
+url: /cs/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
 

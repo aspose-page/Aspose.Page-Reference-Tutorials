@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Naučte se, jak přidávat šrafovací vzory do dokumentů Java PostScript
   pomocí Aspose.Page Java. Tento krok‑za‑krokem průvodce vám ukáže, jak efektivně
   přidávat grafiku se šrafovacími vzory.
-language: cs
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Přidat šrafovací vzor v Java PostScriptu'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /cs/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -165,15 +164,15 @@ A: Navštivte oficiální fórum [​forum Aspose.Page pro Java​](https://fo
 **Q: Existuje komplexní dokumentace ke všem třídám a metodám?**  
 A: Ano, úplná reference API je k dispozici [​zde​](https://reference.aspose.com/page/java/).
 
+---
+
+**Poslední aktualizace:** 2025-12-08  
+**Testováno s:** Aspose.Page pro Java 24.12 (nejnovější v době psaní)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-08  
-**Testováno s:** Aspose.Page pro Java 24.12 (nejnovější v době psaní)  
-**Autor:** Aspose

@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 学习如何使用 Aspose.Page Java 为 Java PostScript 文档添加填充图案。本分步指南将向您展示如何高效地添加填充图案图形。
-language: zh
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: Aspose.Page Java：在 Java PostScript 中添加网格填充图案
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /zh/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -163,15 +162,15 @@ document.save();
 **问：是否有完整的类和方法文档？**  
 答：有，完整的 API 参考可在 [here](https://reference.aspose.com/page/java/) 查阅。
 
+---
+
+**最后更新：** 2025-12-08  
+**测试环境：** Aspose.Page for Java 24.12（撰写时的最新版本）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-08  
-**测试环境：** Aspose.Page for Java 24.12（撰写时的最新版本）  
-**作者：** Aspose

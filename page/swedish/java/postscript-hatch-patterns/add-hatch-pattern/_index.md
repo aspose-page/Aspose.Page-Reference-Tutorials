@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Lär dig hur du lägger till skraffermönster i Java‑PostScript‑dokument
   med Aspose.Page Java. Denna steg‑för‑steg‑guide visar hur du effektivt lägger till
   skraffermönstergrafik.
-language: sv
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Lägg till schraffurmönster i Java PostScript'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /sv/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -165,15 +164,15 @@ A: Besök det officiella forumet [Aspose.Page for Java forum](https://forum.as
 **Q: Finns det omfattande dokumentation för alla klasser och metoder?**  
 A: Ja, den fullständiga API‑referensen finns [here](https://reference.aspose.com/page/java/).
 
+---
+
+**Last Updated:** 2025-12-08  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
-**Author:** Aspose

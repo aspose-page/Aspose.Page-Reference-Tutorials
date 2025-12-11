@@ -1,11 +1,10 @@
 ---
 date: 2025-12-08
 description: 學習如何在 Java PostScript 中使用 Aspose.Page 添加徑向漸層。此逐步指南將向您展示如何在文件中創建驚艷的漸層效果。
-language: zh-hant
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 title: 如何在 Java PostScript 中使用 Aspose.Page 添加徑向漸層
-url: /java/postscript-gradient-addition/radial1/
+url: /zh-hant/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
 

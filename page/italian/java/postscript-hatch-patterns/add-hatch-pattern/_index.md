@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Scopri come aggiungere motivi a trama ai documenti Java PostScript utilizzando
   Aspose.Page Java. Questa guida passo‑passo ti mostra come inserire grafiche a trama
   in modo efficiente.
-language: it
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Aggiungi motivo a tratteggio in PostScript Java'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /it/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -165,15 +164,15 @@ R: Visita il forum ufficiale [Aspose.Page for Java forum](https://forum.aspose
 **D: Esiste una documentazione completa per tutte le classi e i metodi?**  
 R: Sì, il riferimento completo dell'API è disponibile [qui](https://reference.aspose.com/page/java/).
 
+---
+
+**Ultimo aggiornamento:** 2025-12-08  
+**Testato con:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-08  
-**Testato con:** Aspose.Page for Java 24.12 (latest at time of writing)  
-**Autore:** Aspose

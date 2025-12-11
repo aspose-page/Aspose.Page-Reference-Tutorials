@@ -2,11 +2,10 @@
 date: 2025-12-08
 description: เรียนรู้วิธีเพิ่มการไล่สีแบบรัศมีใน Java PostScript ด้วย Aspose.Page
   คู่มือขั้นตอนต่อขั้นตอนนี้จะแสดงให้คุณเห็นวิธีสร้างเอฟเฟกต์การไล่สีที่สวยงามในเอกสารของคุณ
-language: th
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
 title: วิธีเพิ่มการไล่สีแบบรัศมีใน Java PostScript ด้วย Aspose.Page
-url: /java/postscript-gradient-addition/radial1/
+url: /th/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
 

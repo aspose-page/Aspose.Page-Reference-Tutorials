@@ -3,11 +3,10 @@ date: 2025-12-08
 description: Μάθετε πώς να προσθέτετε μοτίβα διαγράμμισης σε έγγραφα Java PostScript
   χρησιμοποιώντας το Aspose.Page Java. Αυτός ο οδηγός βήμα‑βήμα σας δείχνει πώς να
   προσθέτετε γραφικά διαγράμμισης αποδοτικά.
-language: el
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
 title: 'Aspose.Page Java: Προσθήκη μοτίβου διαγράμμισης σε Java PostScript'
-url: /java/postscript-hatch-patterns/add-hatch-pattern/
+url: /el/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
 
@@ -165,15 +164,15 @@ document.save();
 **Ε: Υπάρχει ολοκληρωμένη τεκμηρίωση για όλες τις κλάσεις και μεθόδους;**  
 Α: Ναι, η πλήρης αναφορά API είναι διαθέσιμη [εδώ](https://reference.aspose.com/page/java/).
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-08  
+**Δοκιμάστηκε Με:** Aspose.Page for Java 24.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-08  
-**Δοκιμάστηκε Με:** Aspose.Page for Java 24.12 (τελευταία έκδοση τη στιγμή της συγγραφής)  
-**Συγγραφέας:** Aspose
