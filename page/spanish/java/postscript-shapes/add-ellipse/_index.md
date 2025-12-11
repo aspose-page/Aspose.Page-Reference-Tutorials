@@ -1,26 +1,49 @@
 ---
-title: Agregar elipse en Java PostScript
-linktitle: Agregar elipse en Java PostScript
-second_title: API de Java de Aspose.Page
-description: Domine la creación de impresionantes documentos PostScript en Java con Aspose.Page. Aprenda a agregar elipses paso a paso para obtener contenido visualmente atractivo.
-weight: 10
+date: 2025-12-11
+description: Aprende a crear una elipse en PostScript con Java usando Aspose.Page.
+  Esta guía paso a paso te muestra cómo rellenar la elipse con color y dibujar la
+  elipse usando Java.
+linktitle: Add Ellipse in Java PostScript
+second_title: Aspose.Page Java API
+title: Cómo crear una elipse PostScript en Java con Aspose.Page
 url: /es/java/postscript-shapes/add-ellipse/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregar elipse en Java PostScript
+# Cómo crear una elipse PostScript en Java con Aspose.Page
 
 ## Introducción
-En el dinámico mundo del desarrollo de Java, la creación de documentos visualmente atractivos es un requisito común. Aspose.Page para Java es una poderosa biblioteca que permite a los desarrolladores manipular archivos PostScript sin esfuerzo. En este tutorial, exploraremos cómo agregar puntos suspensivos a documentos PostScript usando Aspose.Page para Java. ¡Síguenos para mejorar tus habilidades de creación de documentos!
+Crear una **elipse PostScript** de forma programática le brinda un control fino sobre los gráficos vectoriales en informes, facturas o cualquier documento imprimible. En este tutorial aprenderá a **crear elipses PostScript** utilizando la biblioteca Aspose.Page para Java, rellenar una elipse con color y dibujar el contorno de una elipse. Al final estará listo para incrustar gráficos personalizados directamente en su salida PostScript.
+
+## Respuestas rápidas
+- **¿Qué biblioteca es la mejor para dibujar gráficos PostScript en Java?** Aspose.Page for Java.  
+- **¿Puedo rellenar una elipse con un color sólido?** Sí – use `document.setPaint(Color.YOUR_COLOR)` antes de `fill`.  
+- **¿Cómo dibujo solo el contorno de una elipse?** Establezca el paint y el stroke, luego llame a `document.draw(...)`.  
+- **¿Necesito una licencia para uso en producción?** Se requiere una licencia comercial; una licencia temporal está disponible para pruebas.  
+- **¿Qué versión de Java es compatible?** Cualquier runtime Java 8+ funciona con la versión actual de Aspose.Page.
+
+## ¿Qué es una elipse PostScript?
+Una elipse PostScript es una forma vectorial definida por un rectángulo delimitador. A diferencia de las imágenes raster, se escala sin pérdida de calidad, lo que la hace ideal para impresión de alta resolución y conversión a PDF.
+
+## ¿Por qué usar Aspose.Page para crear una elipse PostScript?
+- **Control total** sobre primitivas de dibujo (líneas, curvas, elipses).  
+- **Multiplataforma** – funciona en Windows, Linux y macOS.  
+- **Sin dependencias externas** – API Java pura, sin código nativo.  
+- **Integración fácil** con aplicaciones Java existentes y herramientas de compilación.
+
 ## Requisitos previos
-Antes de sumergirse en el tutorial, asegúrese de tener configurados los siguientes requisitos previos:
-1. Entorno de desarrollo Java: asegúrese de tener un entorno de desarrollo Java funcional instalado en su máquina.
-2.  Biblioteca Aspose.Page para Java: descargue e incluya la biblioteca Aspose.Page en su proyecto Java. Puedes encontrar la biblioteca.[aquí](https://releases.aspose.com/page/java/).
+Antes de comenzar, asegúrese de contar con:
+
+1. Un entorno de desarrollo Java funcional (JDK 8 o posterior).  
+2. La biblioteca Aspose.Page for Java añadida a su proyecto. Puede descargarla **[aquí](https://releases.aspose.com/page/java/)**.  
+
 ## Importar paquetes
-En su código Java, importe los paquetes necesarios para utilizar la funcionalidad Aspose.Page. He aquí un ejemplo:
+En su archivo fuente Java, importe las clases necesarias para dibujar y guardar contenido PostScript.
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -29,57 +52,91 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## Paso 1: configure su documento
+
+## Guía paso a paso
+
+### Paso 1: Configurar el documento PostScript
+Cree un flujo de salida, configure el tamaño de página e instancie un `PsDocument`.
+
 ```java
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Crear flujo de salida para un documento PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddEllipse_outPS.ps");
-// Crea opciones de guardado con tamaño A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// Cree un nuevo documento PS con la página abierta
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
-## Paso 2: rellena la elipse con color
+
+### Paso 2: Rellenar la elipse con color
+Establezca el paint al color de relleno deseado y llame a `fill` con una instancia de `Ellipse2D`.
+
 ```java
-// Set de pintura para rellenar elipse.
+// Set paint for filling ellipse
 document.setPaint(Color.ORANGE);
-// Llena la primera elipse
+// Fill the first ellipse
 document.fill(new Ellipse2D.Float(250, 100, 150, 100));
 ```
-## Paso 3: delinear la elipse con un trazo
+
+### Paso 3: Contornear la elipse con trazo
+Cambie el paint al color del trazo, defina un `BasicStroke` para el grosor de la línea y dibuje el contorno de la elipse.
+
 ```java
-// Establecer pintura para acariciar la elipse.
+// Set paint for stroking ellipse
 document.setPaint(Color.RED);
-// Establecer trazo
+// Set stroke
 document.setStroke(new BasicStroke(3));
-// Traza (delinea) la segunda elipse.
+// Stroke (outline) the second ellipse
 document.draw(new Ellipse2D.Float(250, 300, 150, 100));
 ```
-## Paso 4: cerrar y guardar el documento
+
+### Paso 4: Cerrar y guardar el documento
+Finalice la página y escriba el archivo PostScript en disco.
+
 ```java
-// Cerrar la página actual
+// Close current page
 document.closePage();
-// guardar el documento
+// Save the document
 document.save();
 ```
-¡Ahora ha agregado exitosamente puntos suspensivos a su documento PostScript usando Aspose.Page para Java! Experimente con diferentes coordenadas y dimensiones para personalizar sus imágenes.
-## Conclusión
- Aspose.Page para Java simplifica el proceso de creación y manipulación de documentos PostScript. Este tutorial le ha proporcionado el conocimiento para agregar elipses, proporcionando una base sólida para visualizaciones más complejas. Sumérgete en el[documentación](https://reference.aspose.com/page/java/) para más detalles y capacidades.
+
+Ahora tiene un archivo PostScript que contiene dos elipses: una rellena de naranja y otra contorneada en rojo. Siéntase libre de experimentar con diferentes coordenadas, tamaños y colores para adaptarlos a sus necesidades de diseño.
+
+## Problemas comunes y solución de problemas
+- **Ruta de archivo incorrecta** – Asegúrese de que `dataDir` termine con un separador (`/` o `\\`) apropiado para su SO.  
+- **Licencia faltante** – Sin una licencia válida, la biblioteca se ejecuta en modo de evaluación y puede agregar marcas de agua.  
+- **Color no aplicado** – Recuerde establecer `document.setPaint(...)` *antes* de cada llamada a `fill` o `draw`; la configuración de paint no persiste automáticamente entre operaciones separadas.
+
 ## Preguntas frecuentes
-### P: ¿Puedo usar Aspose.Page para Java con otras bibliotecas de Java?
-R: Sí, Aspose.Page para Java está diseñado para integrarse perfectamente con otras bibliotecas de Java.
-### P: ¿Cómo puedo obtener una licencia temporal de Aspose.Page para Java?
- R: Obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/) con fines de prueba.
-### P: ¿Aspose.Page es adecuado para proyectos comerciales?
- R: ¡Absolutamente! Visita[aquí](https://purchase.aspose.com/buy) para explorar opciones de licencia para uso comercial.
-### P: ¿Dónde puedo buscar ayuda o discutir consultas relacionadas con Aspose.Page?
- R: Únase a la comunidad en el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para discusiones y ayuda.
-### P: ¿Existen recursos gratuitos para obtener más información sobre Aspose.Page para Java?
- R: Utilice el[prueba gratis](https://releases.aspose.com/) y explore ejemplos en la documentación.
+
+**P: ¿Puedo usar Aspose.Page for Java con otras bibliotecas Java?**  
+R: Sí, Aspose.Page for Java está diseñada para integrarse sin problemas con otras bibliotecas Java.
+
+**P: ¿Cómo puedo obtener una licencia temporal para Aspose.Page for Java?**  
+R: Obtenga una licencia temporal **[aquí](https://purchase.aspose.com/temporary-license/)** para propósitos de prueba.
+
+**P: ¿Aspose.Page es adecuada para proyectos comerciales?**  
+R: ¡Absolutamente! Visite **[aquí](https://purchase.aspose.com/buy)** para explorar opciones de licencia para uso comercial.
+
+**P: ¿Dónde puedo buscar ayuda o discutir consultas relacionadas con Aspose.Page?**  
+R: Únase a la comunidad en el **[Foro de Aspose.Page](https://forum.aspose.com/c/page/39)** para discusiones y asistencia.
+
+**P: ¿Existen recursos gratuitos para aprender más sobre Aspose.Page for Java?**  
+R: Utilice la **[prueba gratuita](https://releases.aspose.com/)** y explore ejemplos en la documentación.
+
+## Conclusión
+Aspose.Page for Java facilita la **creación de elipses PostScript**, ya sea que necesite una forma simple rellena o un contorno complejo. Con los pasos anteriores puede agregar rápidamente gráficos vectoriales de nivel profesional a cualquier documento imprimible. Para una exploración más profunda —como combinar múltiples formas, aplicar degradados o convertir a PDF— consulte la **[documentación](https://reference.aspose.com/page/java/)** oficial.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2025-12-11  
+**Probado con:** Aspose.Page for Java 24.11  
+**Autor:** Aspose

@@ -1,26 +1,47 @@
 ---
-title: 在 Java PostScript 中添加椭圆
-linktitle: 在 Java PostScript 中添加椭圆
+date: 2025-12-11
+description: 学习如何使用 Aspose.Page 在 Java 中创建 PostScript 椭圆。此分步指南向您展示如何使用 Java 为椭圆填充颜色并绘制椭圆。
+linktitle: Add Ellipse in Java PostScript
 second_title: Aspose.Page Java API
-description: 掌握使用 Aspose.Page 在 Java 中创建令人惊叹的 PostScript 文档。学习逐步添加省略号以获得视觉上吸引人的内容。
-weight: 10
+title: 如何在 Java 中使用 Aspose.Page 创建 PostScript 椭圆
 url: /zh/java/postscript-shapes/add-ellipse/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java PostScript 中添加椭圆
+# 如何在 Java 中使用 Aspose.Page 创建 PostScript 椭圆
 
 ## 介绍
-在 Java 开发的动态世界中，创建具有视觉吸引力的文档是一项常见要求。 Aspose.Page for Java 是一个功能强大的库，使开发人员能够轻松操作 PostScript 文件。在本教程中，我们将探讨如何使用 Aspose.Page for Java 将省略号添加到 PostScript 文档中。跟随我们的脚步，提高您的文档创建技能！
-## 先决条件
-在深入学习本教程之前，请确保您已设置以下先决条件：
-1. Java 开发环境：确保您的计算机上安装了功能齐全的 Java 开发环境。
-2.  Aspose.Page for Java Library：下载 Aspose.Page 库并将其包含在您的 Java 项目中。你可以找到图书馆[这里](https://releases.aspose.com/page/java/).
+以编程方式创建 **PostScript ellipse** 能让您对报告、发票或任何可打印文档中的矢量图形进行细粒度控制。在本教程中，您将学习如何使用 Aspose.Page for Java 库 **创建 PostScript ellipse** 形状、为椭圆填充颜色以及绘制椭圆轮廓。完成后，您即可将自定义图形直接嵌入到 PostScript 输出中。
+
+## 快速回答
+- **在 Java 中绘制 PostScript 图形的最佳库是什么？** Aspose.Page for Java.  
+- **我可以用纯色填充椭圆吗？** 可以——在 `fill` 之前使用 `document.setPaint(Color.YOUR_COLOR)`。  
+- **如何仅绘制椭圆的轮廓？** 设置 paint 和 stroke，然后调用 `document.draw(...)`。  
+- **生产环境是否需要许可证？** 需要商业许可证；可获取临时许可证用于测试。  
+- **支持哪些 Java 版本？** 任何 Java 8 以上的运行时均可与当前的 Aspose.Page 版本配合使用。
+
+## 什么是 PostScript 椭圆？
+PostScript 椭圆是一种由边界矩形定义的矢量形状。不同于光栅图像，它可以在不失真的情况下缩放，非常适合高分辨率打印和 PDF 转换。
+
+## 为什么使用 Aspose.Page 创建 PostScript 椭圆？
+- **完整控制** 绘图基元（线条、曲线、椭圆）。  
+- **跨平台** – 可在 Windows、Linux 和 macOS 上运行。  
+- **无外部依赖** – 纯 Java API，无本机代码。  
+- **易于集成** 与现有的 Java 应用程序和构建工具。
+
+## 前置条件
+在开始之前，请确保您具备以下条件：
+
+1. 功能完整的 Java 开发环境（JDK 8 或更高）。  
+2. 已在项目中添加 Aspose.Page for Java 库。您可以在 **[此处](https://releases.aspose.com/page/java/)** 下载。
+
 ## 导入包
-在您的 Java 代码中，导入必要的包以利用 Aspose.Page 功能。这是一个例子：
+在 Java 源文件中，导入绘制和保存 PostScript 内容所需的类。
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -29,57 +50,91 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## 第 1 步：设置您的文档
+
+## 步骤指南
+
+### 步骤 1：设置 PostScript 文档
+创建输出流，配置页面大小，并实例化 `PsDocument`。
+
 ```java
-//文档目录的路径。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//为 PostScript 文档创建输出流
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddEllipse_outPS.ps");
-//创建 A4 尺寸的保存选项
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-//打开页面创建新的 PS 文档
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
-## 第2步：用颜色填充椭圆
+
+### 步骤 2：用颜色填充椭圆
+将 paint 设置为所需的填充颜色，并使用 `Ellipse2D` 实例调用 `fill`。
+
 ```java
-//设置填充椭圆的油漆
+// Set paint for filling ellipse
 document.setPaint(Color.ORANGE);
-//填充第一个椭圆
+// Fill the first ellipse
 document.fill(new Ellipse2D.Float(250, 100, 150, 100));
 ```
-## 第3步：用描边勾勒出椭圆形的轮廓
+
+### 步骤 3：使用描边绘制椭圆轮廓
+将 paint 切换为描边颜色，定义用于线宽的 `BasicStroke`，并绘制椭圆轮廓。
+
 ```java
-//设置描画椭圆的油漆
+// Set paint for stroking ellipse
 document.setPaint(Color.RED);
-//设定行程
+// Set stroke
 document.setStroke(new BasicStroke(3));
-//描边（轮廓）第二个椭圆
+// Stroke (outline) the second ellipse
 document.draw(new Ellipse2D.Float(250, 300, 150, 100));
 ```
-## 第 4 步：关闭并保存文档
+
+### 步骤 4：关闭并保存文档
+完成页面并将 PostScript 文件写入磁盘。
+
 ```java
-//关闭当前页面
+// Close current page
 document.closePage();
-//保存文档
+// Save the document
 document.save();
 ```
-现在您已经使用 Aspose.Page for Java 成功地将省略号添加到您的 PostScript 文档中！尝试不同的坐标和尺寸来定制您的视觉效果。
+
+现在您已经拥有一个包含两个椭圆的 PostScript 文件——一个填充橙色，另一个以红色描边。欢迎尝试不同的坐标、尺寸和颜色，以满足您的设计需求。
+
+## 常见问题及故障排除
+- **文件路径不正确** – 确保 `dataDir` 以适合您操作系统的分隔符（`/` 或 `\\`）结尾。  
+- **缺少许可证** – 没有有效许可证时，库会以评估模式运行，可能会添加水印。  
+- **颜色未生效** – 请记得在每次 `fill` 或 `draw` 调用 *之前* 设置 `document.setPaint(...)`；paint 设置不会在不同操作之间自动保持。
+
+## 常见问答
+
+**问：我可以将 Aspose.Page for Java 与其他 Java 库一起使用吗？**  
+**答：可以，Aspose.Page for Java 旨在与其他 Java 库无缝集成。**
+
+**问：如何获取 Aspose.Page for Java 的临时许可证？**  
+**答：可在 **[此处](https://purchase.aspose.com/temporary-license/)** 获取用于测试的临时许可证。**
+
+**问：Aspose.Page 适用于商业项目吗？**  
+**答：当然！请访问 **[此处](https://purchase.aspose.com/buy)** 了解商业使用的授权选项。**
+
+**问：我可以在哪里寻求帮助或讨论 Aspose.Page 相关问题？**  
+**答：加入 **[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)** 社区进行讨论和获取帮助。**
+
+**问：有没有免费资源可以进一步了解 Aspose.Page for Java？**  
+**答：可使用 **[免费试用](https://releases.aspose.com/)** 并在文档中查看示例。  
+
 ## 结论
- Aspose.Page for Java 简化了创建和操作 PostScript 文档的过程。本教程为您提供了添加省略号的知识，为更复杂的可视化奠定了坚实的基础。潜入[文档](https://reference.aspose.com/page/java/)了解更多详细信息和功能。
-## 常见问题解答
-### 问：我可以将 Aspose.Page for Java 与其他 Java 库一起使用吗？
-答：是的，Aspose.Page for Java 旨在与其他 Java 库无缝集成。
-### 问：如何获得 Aspose.Page for Java 的临时许可证？
-答：获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)用于测试目的。
-### 问：Aspose.Page 适合商业项目吗？
-答：当然！访问[这里](https://purchase.aspose.com/buy)探索商业用途的许可选项。
-### 问：我可以在哪里寻求帮助或讨论与 Aspose.Page 相关的查询？
-答：加入社区：[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)进行讨论和寻求帮助。
-### 问：是否有任何免费资源可以了解有关 Aspose.Page for Java 的更多信息？
-答：利用[免费试用](https://releases.aspose.com/)并探索文档中的示例。
+Aspose.Page for Java 使得 **创建 PostScript ellipse** 图形变得简单，无论您需要简单的填充形状还是复杂的描边轮廓。通过上述步骤，您可以快速向任何可打印文档添加专业级矢量图形。欲进一步探索——如组合多个形状、应用渐变或转换为 PDF——请参阅官方 **[文档](https://reference.aspose.com/page/java/)**。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最后更新：** 2025-12-11  
+**测试环境：** Aspose.Page for Java 24.11  
+**作者：** Aspose
