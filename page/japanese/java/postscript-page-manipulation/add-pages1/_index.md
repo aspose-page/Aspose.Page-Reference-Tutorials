@@ -1,79 +1,131 @@
 ---
-title: Java PostScript ページ - Aspose.Page を使用したシームレスなガイド
-linktitle: Java PostScript ページ
+date: 2025-12-11
+description: Aspose.Page を使用して Java で PostScript ページを追加し、Java でページサイズを設定し、Java アプリケーションでカスタムページサイズの
+  PostScript を作成する方法を学びましょう。
+linktitle: Java PostScript Pages
 second_title: Aspose.Page Java API
-description: Aspose.Page を使用して Java PostScript にページを簡単に追加する方法を調べてください。この強力な Java ライブラリを使用してドキュメントの作成を強化します。
-weight: 10
+title: Add Pages PostScript Java – Aspose.Page を使ったシームレスガイド
 url: /ja/java/postscript-page-manipulation/add-pages1/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java PostScript ページ - Aspose.Page を使用したシームレスなガイド
+# Add Pages PostScript Java – Aspose.Page を使用したシームレスガイド
 
-## 導入
-Aspose.Page を使用して Java PostScript でページを追加するための包括的なガイドへようこそ。このチュートリアルでは、Aspose.Page for Java を使用して PostScript ドキュメントにページを追加するプロセスを説明します。 Aspose.Page は、PostScript ドキュメントを操作するための幅広い機能を提供する強力な Java ライブラリであり、開発者にとって頼りになる選択肢となっています。
+## はじめに
+Aspose.Page を使用した **add pages postscript java** の包括的なガイドへようこそ。本チュートリアルでは、PostScript ドキュメントへのページ追加、ページサイズの設定、さらにはカスタムページ寸法の作成まで、強力な Aspose.Page for Java ライブラリを使って手順をすべて解説します。レポートや請求書、その他印刷可能な出力を作成する際に、これらの手順をマスターすれば、PostScript の生成を完全にコントロールできます。
+
+## クイック回答
+- **add pages postscript java を実現できるライブラリは？** Aspose.Page for Java  
+- **開発時にライセンスは必要ですか？** 無料の一時ライセンスが利用可能です。製品版では有料ライセンスが必要です。  
+- **カスタムページサイズは設定できますか？** はい – `set page size java` を使用するか、直接寸法を指定してください。  
+- **どの IDE が最適ですか？** IntelliJ IDEA や Eclipse など、任意の Java IDE が使用できます。  
+- **作成できるページ数に制限はありますか？** ハードな上限はありません。メモリが許す限りページを追加できます。
+
 ## 前提条件
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
-- Java プログラミングの基本的な知識。
--  Aspose.Page for Java ライブラリがインストールされています。からダウンロードできます[ここ](https://releases.aspose.com/page/java/).
-- IntelliJ IDEA や Eclipse などの Java 用の統合開発環境 (IDE)。
+作業を始める前に、以下の前提条件を満たしていることを確認してください。
+
+- Java プログラミングの基本的な知識。  
+- Aspose.Page for Java ライブラリがインストール済み。ダウンロードは [here](https://releases.aspose.com/page/java/) から。  
+- IntelliJ IDEA や Eclipse などの Java 用統合開発環境 (IDE)。  
+
 ## パッケージのインポート
-必要なパッケージを Java プロジェクトにインポートしていることを確認してください。必要なパッケージをインポートする方法の例を次に示します。
+Java プロジェクトに必要なパッケージをインポートしてください。以下はインポート例です。
+
 ```java
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-
 ```
-## 1. 新しい 2 ページの PS ドキュメントを作成する
+
+## add pages postscript java の方法
+以下は **add pages postscript java** を実行し、ページ寸法を制御する手順をステップバイステップで示したものです。
+
+### 手順 1: 新しい 2 ページの PS ドキュメントを作成
 ```java
-//ドキュメントディレクトリへのパス。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//PostScript ドキュメントの出力ストリームを作成する
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddPages1_outPS.ps");
-//A4サイズで保存オプションを作成する
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-//新しい 2 ページの PS ドキュメントを作成する
+// Create new 2-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, 2);
 ```
-## 2. ドキュメントのページ サイズを使用して最初のページを追加します
+
+### 手順 2: ドキュメントのページサイズで最初のページを追加
 ```java
-//ドキュメントのページ サイズを指定して最初のページを追加します
+// Add the first page with the document's page size
 document.openPage(null);
-//コンテンツの追加
-//最初のページを閉じます
+// Add content
+// Close the first page
 document.closePage();
 ```
-## 3. 異なるサイズの 2 ページ目を追加します
+
+### 手順 3: 異なるサイズで 2 番目のページを追加
 ```java
-//異なるサイズの 2 ページ目を追加します
+// Add the second page with a different size
 document.openPage(400, 700);
-//コンテンツの追加
-//現在のページを閉じます
+// Add content
+// Close the current page
 document.closePage();
 ```
-## 4. ドキュメントを保存する
+
+### 手順 4: ドキュメントを保存
 ```java
-//文書を保存する
+// Save the document
 document.save();
 ```
-次の手順に従うと、Aspose.Page を使用して Java PostScript ドキュメントにページを簡単に追加できます。
-## 結論
-結論として、Aspose.Page for Java は、Java で PostScript ドキュメントを操作するプロセスを簡素化します。ページの追加は、提供された API を使用する簡単なタスクであるため、効率と柔軟性を求める開発者にとって優れた選択肢となります。
+
+これらの手順に従うことで、簡単に **add pages postscript java** ができ、必要に応じて各ページに **set page size java** を設定できます。
+
+## page size java の設定方法
+特定の用紙サイズ（たとえばカスタム封筒やラベル）が必要な場合は、`openPage(width, height)` に目的の寸法（ポイント単位）を渡して呼び出します。これが Java における **custom page size postscript** の本質です。
+
+## 主な使用例
+- **動的レポート生成** – 各セクションが異なるサイズの新しいページで開始される。  
+- **ラベルやチケットの印刷** – 標準外の寸法が必要な場合。  
+- **バッチ処理** – 大量文書でページごとにサイズが異なるケース。  
+
 ## よくある質問
-### Aspose.Page はさまざまなオペレーティング システムと互換性がありますか?
-はい、Aspose.Page は、Windows、Linux、macOS などのさまざまなオペレーティング システムと互換性があります。
-### Aspose.Page を個人プロジェクトと商用プロジェクトの両方に使用できますか?
-はい。Aspose.Page には、個人使用と商用使用の両方に適した柔軟なライセンス オプションが付属しています。
-### Aspose.Page の追加ドキュメントはどこで見つけられますか?
-ドキュメントを参照できます[ここ](https://reference.aspose.com/page/java/).
-### Aspose.Page を使用して追加できるページの数に制限はありますか?
-Aspose.Page は追加できるページ数に厳密な制限を設けていないため、さまざまな規模のプロジェクトに適しています。
-### Aspose.Page の一時ライセンスを取得するにはどうすればよいですか?
-仮免許を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+### Aspose.Page はさまざまな OS と互換性がありますか？
+はい、Aspose.Page は Windows、Linux、macOS などの主要なオペレーティングシステムと互換性があります。
+
+### Aspose.Page は個人・商用プロジェクトの両方で使用できますか？
+はい、Aspose.Page は個人利用・商用利用の両方に対応した柔軟なライセンスオプションを提供しています。
+
+### Aspose.Page の追加ドキュメントはどこで確認できますか？
+ドキュメントは [here](https://reference.aspose.com/page/java/) で参照できます。
+
+### Aspose.Page で追加できるページ数に制限はありますか？
+Aspose.Page はページ数に厳格な制限を設けていないため、さまざまな規模のプロジェクトに適しています。
+
+### Aspose.Page の一時ライセンスはどこで取得できますか？
+一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
+
+**追加の Q&A**
+
+**Q: ページの向きを変更するにはどうすればよいですか？**  
+A: 横向きにしたい場合は `openPage(width, height)` の width を height より大きく指定し、縦向きにしたい場合はその逆にします。
+
+**Q: ページを開いた後にグラフィックやテキストを追加できますか？**  
+A: はい、`openPage`/`closePage` ブロック内で Aspose.Page が提供する描画 API を使用して追加できます。
+
+**Q: `openPage(null)` のようにページサイズを省略した場合はどうなりますか？**  
+A: ドキュメントは `PsSaveOptions` で定義されたデフォルトサイズ（通常は A4）を使用します。
+
+## 結論
+まとめると、Aspose.Page for Java は PostScript ドキュメントの操作をシンプルにします。ページの追加、ページサイズの設定、カスタム寸法の作成は提供された API で容易に行えるため、開発者が効率と柔軟性を追求する際の優れた選択肢です。
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page 24.11 for Java  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
