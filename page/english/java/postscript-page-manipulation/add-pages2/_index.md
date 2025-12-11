@@ -115,13 +115,6 @@ Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/)
 **Q:** *Can I encrypt a PostScript file with a password?*  
 **A:** PostScript itself does not support encryption, but you can wrap the output in a PDF and apply security settings if needed.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-11  
@@ -129,3 +122,10 @@ Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/)
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

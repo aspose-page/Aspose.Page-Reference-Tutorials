@@ -118,13 +118,6 @@ Consultez la [documentation Aspose.Page](https://reference.aspose.com/page/java/
 **Q:** *Puis‑je chiffrer un fichier PostScript avec un mot de passe ?*  
 **R:** Le format PostScript ne supporte pas le chiffrement, mais vous pouvez encapsuler la sortie dans un PDF et appliquer des paramètres de sécurité si nécessaire.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-11  
@@ -132,3 +125,10 @@ Consultez la [documentation Aspose.Page](https://reference.aspose.com/page/java/
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

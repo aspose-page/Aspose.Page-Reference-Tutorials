@@ -126,15 +126,15 @@ A: 可使用 **[免費試用](https://releases.aspose.com/)**，並在文件中�
 ## 結論
 Aspose.Page for Java 讓 **建立 PostScript ellipse** 圖形變得相當簡單，無論您需要簡單的填充形狀或複雜的筆畫輪廓。依照上述步驟，即可快速為任何可列印文件加入專業等級的向量圖形。若想更深入探索，例如結合多個形狀、套用漸層或轉換為 PDF，請參考官方 **[文件](https://reference.aspose.com/page/java/)**。
 
+---
+
+**最後更新：** 2025-12-11  
+**測試環境：** Aspose.Page for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-11  
-**測試環境：** Aspose.Page for Java 24.11  
-**作者：** Aspose

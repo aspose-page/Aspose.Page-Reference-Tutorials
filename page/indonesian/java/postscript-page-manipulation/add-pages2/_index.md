@@ -118,13 +118,6 @@ Jelajahi dokumentasi [Aspose.Page documentation](https://reference.aspose.com/pa
 **Q:** *Bisakah saya mengenkripsi file PostScript dengan password?*  
 **A:** PostScript sendiri tidak mendukung enkripsi, tetapi Anda dapat membungkus output dalam PDF dan menerapkan pengaturan keamanan jika diperlukan.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-11  
@@ -132,3 +125,10 @@ Jelajahi dokumentasi [Aspose.Page documentation](https://reference.aspose.com/pa
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

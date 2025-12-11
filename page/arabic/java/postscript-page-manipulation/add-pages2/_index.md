@@ -122,15 +122,15 @@ Aspose.Page for Java توفر API قوي وسهل الاستخدام للمطو�
 **س:** *هل يمكنني تشفير ملف PostScript باستخدام كلمة مرور؟*  
 **ج:** PostScript نفسه لا يدعم التشفير، ولكن يمكنك تغليف الإخراج في ملف PDF وتطبيق إعدادات الأمان إذا لزم الأمر.  
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.10  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page for Java 24.10  
-**Author:** Aspose

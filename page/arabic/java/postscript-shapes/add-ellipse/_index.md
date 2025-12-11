@@ -127,15 +127,15 @@ document.save();
 ## الخلاصة
 Aspose.Page للـ Java يجعل من السهل **إنشاء رسومات إهليلج PostScript**، سواء كنت بحاجة إلى شكل مملوء بسيط أو حدود معقدة. باستخدام الخطوات أعلاه يمكنك بسرعة إضافة رسومات متجهة ذات جودة احترافية إلى أي مستند قابل للطباعة. للمزيد من الاستكشاف—مثل دمج أشكال متعددة، تطبيق تدرجات لونية، أو التحويل إلى PDF—ارجع إلى **[الوثائق الرسمية](https://reference.aspose.com/page/java/)**.
 
+---
+
+**آخر تحديث:** 2025-12-11  
+**تم الاختبار مع:** Aspose.Page for Java 24.11  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-11  
-**تم الاختبار مع:** Aspose.Page for Java 24.11  
-**المؤلف:** Aspose

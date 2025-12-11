@@ -128,15 +128,15 @@ J: Manfaatkan **[trial gratis](https://releases.aspose.com/)** dan jelajahi cont
 ## Kesimpulan
 Aspose.Page untuk Java memudahkan **pembuatan elips PostScript**, baik Anda memerlukan bentuk terisi sederhana atau garis tepi yang kompleks. Dengan langkah‑langkah di atas Anda dapat dengan cepat menambahkan grafik vektor kelas profesional ke dokumen yang dapat dicetak. Untuk eksplorasi lebih dalam—seperti menggabungkan beberapa bentuk, menerapkan gradien, atau mengonversi ke PDF—lihat **[dokumentasi resmi](https://reference.aspose.com/page/java/)**.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-11  
+**Diuji Dengan:** Aspose.Page untuk Java 24.11  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-11  
-**Diuji Dengan:** Aspose.Page untuk Java 24.11  
-**Penulis:** Aspose

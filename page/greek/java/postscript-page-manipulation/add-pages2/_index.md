@@ -120,15 +120,15 @@ document.save();
 **Ε:** *Μπορώ να κρυπτογραφήσω ένα αρχείο PostScript με κωδικό πρόσβασης;*  
 **Α:** Το PostScript δεν υποστηρίζει κρυπτογράφηση, αλλά μπορείτε να περιβάλλετε το αποτέλεσμα σε PDF και να εφαρμόσετε ρυθμίσεις ασφαλείας αν χρειάζεται.  
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-11  
+**Δοκιμή με:** Aspose.Page for Java 24.10  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-11  
-**Δοκιμή με:** Aspose.Page for Java 24.10  
-**Συγγραφέας:** Aspose

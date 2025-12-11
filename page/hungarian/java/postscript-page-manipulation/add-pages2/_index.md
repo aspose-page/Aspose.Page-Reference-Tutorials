@@ -118,17 +118,15 @@ Fedezze fel az [Aspose.Page dokumentációját](https://reference.aspose.com/pag
 **K:** *Titkosíthatok egy PostScript fájlt jelszóval?*  
 **V:** A PostScript önmagában nem támogat titkosítást, de a kimenetet PDF‑be csomagolva alkalmazhat biztonsági beállításokat, ha szükséges.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utolsó frissítés:** 2025-12-11  
 **Tesztelt verzió:** Aspose.Page for Java 24.10  
 **Szerző:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

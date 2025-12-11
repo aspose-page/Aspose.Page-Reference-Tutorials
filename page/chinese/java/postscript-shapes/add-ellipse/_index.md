@@ -126,15 +126,15 @@ document.save();
 ## 结论
 Aspose.Page for Java 使得 **创建 PostScript ellipse** 图形变得简单，无论您需要简单的填充形状还是复杂的描边轮廓。通过上述步骤，您可以快速向任何可打印文档添加专业级矢量图形。欲进一步探索——如组合多个形状、应用渐变或转换为 PDF——请参阅官方 **[文档](https://reference.aspose.com/page/java/)**。
 
+---
+
+**最后更新：** 2025-12-11  
+**测试环境：** Aspose.Page for Java 24.11  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-11  
-**测试环境：** Aspose.Page for Java 24.11  
-**作者：** Aspose

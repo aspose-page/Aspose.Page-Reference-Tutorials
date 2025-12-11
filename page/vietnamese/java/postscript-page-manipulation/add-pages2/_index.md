@@ -116,13 +116,6 @@ Khám phá [tài liệu Aspose.Page](https://reference.aspose.com/page/java/), h
 **H:** *Tôi có thể mã hóa tệp PostScript bằng mật khẩu không?*  
 **Đ:** PostScript không hỗ trợ mã hóa, nhưng bạn có thể đóng gói đầu ra thành PDF và áp dụng cài đặt bảo mật nếu cần.  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-11  
@@ -130,3 +123,10 @@ Khám phá [tài liệu Aspose.Page](https://reference.aspose.com/page/java/), h
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

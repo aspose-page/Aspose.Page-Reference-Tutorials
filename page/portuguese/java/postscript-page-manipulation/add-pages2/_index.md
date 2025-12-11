@@ -118,15 +118,15 @@ Explore a [documentação do Aspose.Page](https://reference.aspose.com/page/java
 **Q:** *Posso criptografar um arquivo PostScript com senha?*  
 **A:** O PostScript em si não suporta criptografia, mas você pode envolver a saída em um PDF e aplicar configurações de segurança, se necessário.
 
+---
+
+**Última atualização:** 2025-12-11  
+**Testado com:** Aspose.Page for Java 24.10  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-11  
-**Testado com:** Aspose.Page for Java 24.10  
-**Autor:** Aspose

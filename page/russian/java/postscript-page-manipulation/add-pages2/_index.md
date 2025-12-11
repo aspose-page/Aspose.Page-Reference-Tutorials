@@ -118,17 +118,15 @@ Aspose.Page поддерживает добавление практически
 **В:** *Могу ли я зашифровать файл PostScript паролем?*  
 **О:** Сам PostScript не поддерживает шифрование, но при необходимости вы можете обернуть вывод в PDF и применить настройки безопасности.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-11  
 **Tested With:** Aspose.Page for Java 24.10  
 **Author:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

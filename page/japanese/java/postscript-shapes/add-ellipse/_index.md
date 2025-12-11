@@ -127,15 +127,15 @@ A: **[free trial](https://releases.aspose.com/)** を利用し、ドキュメン
 ## Conclusion
 Aspose.Page for Java は、シンプルな塗りつぶし形状から複雑なストローク輪郭まで、**PostScript 楕円** グラフィックスを簡単に作成できるようにします。上記の手順を使えば、任意の印刷可能ドキュメントにプロフェッショナル品質のベクターグラフィックスをすぐに追加できます。複数形状の組み合わせ、グラデーションの適用、PDF への変換など、さらに深く探求したい場合は公式 **[documentation](https://reference.aspose.com/page/java/)** を参照してください。
 
+---
+
+**最終更新日:** 2025-12-11  
+**テスト環境:** Aspose.Page for Java 24.11  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-11  
-**テスト環境:** Aspose.Page for Java 24.11  
-**作者:** Aspose

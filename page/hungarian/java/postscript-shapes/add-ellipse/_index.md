@@ -128,15 +128,15 @@ A: Használja a **[ingyenes próbaverziót](https://releases.aspose.com/)**, és
 ## Összegzés
 Az Aspose.Page for Java egyszerűvé teszi a **PostScript ellipszis** grafikák létrehozását, akár egyszerű kitöltött alakzatra, akár összetett vonallal körvonalazott formára van szükség. A fenti lépésekkel gyorsan hozzáadhat professzionális szintű vektoros grafikákat bármely nyomtatható dokumentumhoz. A mélyebb felfedezéshez – például több alakzat kombinálása, színátmenetek alkalmazása vagy PDF‑re konvertálás – tekintse meg a hivatalos **[dokumentációt](https://reference.aspose.com/page/java/)**.
 
+---
+
+**Legutóbb frissítve:** 2025-12-11  
+**Tesztelve a következővel:** Aspose.Page for Java 24.11  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2025-12-11  
-**Tesztelve a következővel:** Aspose.Page for Java 24.11  
-**Szerző:** Aspose

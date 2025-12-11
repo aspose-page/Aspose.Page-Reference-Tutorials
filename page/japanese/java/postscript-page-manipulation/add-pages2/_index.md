@@ -119,17 +119,15 @@ Aspose.Page は実質的に無制限のページ数をサポートしていま�
 **Q:** *PostScript ファイルにパスワードで暗号化できますか？*  
 **A:** PostScript 自体は暗号化をサポートしていませんが、出力を PDF にラップし、必要に応じてセキュリティ設定を適用することが可能です。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-11  
 **テスト環境:** Aspose.Page for Java 24.10  
 **作成者:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

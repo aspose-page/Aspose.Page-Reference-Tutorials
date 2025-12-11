@@ -116,17 +116,15 @@ Aspose.Page는 사실상 무제한에 가까운 페이지 수를 지원합니다
 **Q:** *PostScript 파일에 비밀번호를 설정해 암호화할 수 있나요?*  
 **A:** PostScript 자체는 암호화를 지원하지 않지만, 필요하다면 출력을 PDF로 래핑하고 보안 설정을 적용할 수 있습니다.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **마지막 업데이트:** 2025-12-11  
 **테스트 환경:** Aspose.Page for Java 24.10  
 **작성자:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

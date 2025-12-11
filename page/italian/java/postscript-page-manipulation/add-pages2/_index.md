@@ -116,15 +116,15 @@ Esplora la [documentazione di Aspose.Page](https://reference.aspose.com/page/jav
 **D:** *Posso crittografare un file PostScript con una password?*  
 **R:** Il PostScript stesso non supporta la crittografia, ma è possibile avvolgere l'output in un PDF e applicare le impostazioni di sicurezza se necessario.
 
+---
+
+**Ultimo aggiornamento:** 2025-12-11  
+**Testato con:** Aspose.Page for Java 24.10  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-11  
-**Testato con:** Aspose.Page for Java 24.10  
-**Autore:** Aspose

@@ -120,15 +120,15 @@ Explore the [Aspose.Page दस्तावेज़ीकरण](https://refere
 **Q:** *क्या मैं PostScript फ़ाइल को पासवर्ड से एन्क्रिप्ट कर सकता हूँ?*  
 **A:** PostScript स्वयं एन्क्रिप्शन को सपोर्ट नहीं करता, लेकिन आप आउटपुट को PDF में रैप करके आवश्यक होने पर सुरक्षा सेटिंग्स लागू कर सकते हैं।
 
+---
+
+**अंतिम अपडेट:** 2025-12-11  
+**परीक्षण किया गया:** Aspose.Page for Java 24.10  
+**लेखक:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**अंतिम अपडेट:** 2025-12-11  
-**परीक्षण किया गया:** Aspose.Page for Java 24.10  
-**लेखक:** Aspose

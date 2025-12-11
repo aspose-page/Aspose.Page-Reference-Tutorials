@@ -118,15 +118,15 @@ Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/)
 **S:** *PostScript dosyasını bir şifreyle şifreleyebilir miyim?*  
 **C:** PostScript kendisi şifrelemeyi desteklemez, ancak isterseniz çıktıyı bir PDF içine alıp güvenlik ayarları uygulayabilirsiniz.  
 
+---
+
+**Son Güncelleme:** 2025-12-11  
+**Test Edilen:** Aspose.Page for Java 24.10  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-11  
-**Test Edilen:** Aspose.Page for Java 24.10  
-**Yazar:** Aspose

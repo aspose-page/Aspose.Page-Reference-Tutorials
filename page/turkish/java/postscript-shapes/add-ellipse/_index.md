@@ -128,15 +128,15 @@ C: **[Ücretsiz deneme](https://releases.aspose.com/)**'yi kullanın ve belgeler
 ## Sonuç
 Aspose.Page for Java, basit bir doldurulmuş şekil ya da karmaşık bir konturlu şekil ihtiyacınız olsun, **PostScript elipsi** grafiklerini oluşturmayı kolaylaştırır. Yukarıdaki adımlarla herhangi bir yazdırılabilir belgeye profesyonel düzeyde vektör grafikleri hızlıca ekleyebilirsiniz. Daha derin keşifler için—birden fazla şekli birleştirme, degrade uygulama veya PDF'ye dönüştürme gibi—resmi **[belgelere](https://reference.aspose.com/page/java/)** bakın.
 
+---
+
+**Son Güncelleme:** 2025-12-11  
+**Test Edilen Versiyon:** Aspose.Page for Java 24.11  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2025-12-11  
-**Test Edilen Versiyon:** Aspose.Page for Java 24.11  
-**Yazar:** Aspose

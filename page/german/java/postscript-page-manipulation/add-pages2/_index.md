@@ -118,13 +118,6 @@ Entdecken Sie die [Aspose.Page documentation](https://reference.aspose.com/page/
 **Q:** *Kann ich eine PostScript‑Datei mit einem Passwort verschlüsseln?*  
 **A:** PostScript selbst unterstützt keine Verschlüsselung, aber Sie können die Ausgabe in ein PDF einbetten und bei Bedarf Sicherheitseinstellungen anwenden.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-11  
@@ -132,3 +125,10 @@ Entdecken Sie die [Aspose.Page documentation](https://reference.aspose.com/page/
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

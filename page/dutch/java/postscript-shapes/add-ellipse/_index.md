@@ -128,15 +128,15 @@ A: Maak gebruik van de **[free trial](https://releases.aspose.com/)** en verken 
 ## Conclusie
 Aspose.Page for Java maakt het eenvoudig om **PostScript-ellips**‑grafieken te maken, of je nu een eenvoudige gevulde vorm of een complexe omrande contour nodig hebt. Met de bovenstaande stappen kun je snel professionele vectorafbeeldingen toevoegen aan elk afdrukbaar document. Voor diepere verkenning – zoals het combineren van meerdere vormen, het toepassen van verlopen, of het converteren naar PDF – raadpleeg de officiële **[documentatie](https://reference.aspose.com/page/java/)**.
 
+---
+
+**Laatst bijgewerkt:** 2025-12-11  
+**Getest met:** Aspose.Page for Java 24.11  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-11  
-**Getest met:** Aspose.Page for Java 24.11  
-**Auteur:** Aspose

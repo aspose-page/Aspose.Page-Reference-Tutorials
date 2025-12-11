@@ -128,15 +128,15 @@ document.save();
 ## Заключение
 Aspose.Page для Java упрощает **создание графики PostScript ellipse**, будь то простая заполненная форма или сложный контур. Следуя приведённым шагам, вы сможете быстро добавить профессиональную векторную графику в любой печатный документ. Для более глубокого изучения — например, комбинирования нескольких форм, применения градиентов или конвертации в PDF — обратитесь к официальной **[документации](https://reference.aspose.com/page/java/)**.
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose

@@ -127,15 +127,15 @@ A: **[무료 체험](https://releases.aspose.com/)**을 활용하고 문서에 �
 ## 결론
 Aspose.Page for Java를 사용하면 **PostScript ellipse** 그래픽을 손쉽게 만들 수 있습니다. 간단한 채우기 형태든 복잡한 스트로크 외곽선이든 위 단계만 따라 하면 인쇄 가능한 문서에 전문적인 벡터 그래픽을 빠르게 추가할 수 있습니다. 여러 형태 결합, 그라디언트 적용, PDF 변환 등 심화 기능은 공식 **[문서](https://reference.aspose.com/page/java/)**를 참고하세요.
 
+---
+
+**마지막 업데이트:** 2025-12-11  
+**테스트 환경:** Aspose.Page for Java 24.11  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-11  
-**테스트 환경:** Aspose.Page for Java 24.11  
-**작성자:** Aspose

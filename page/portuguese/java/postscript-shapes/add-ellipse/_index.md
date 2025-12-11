@@ -128,15 +128,15 @@ R: Utilize o **[teste gratuito](https://releases.aspose.com/)** e explore exempl
 ## Conclusão
 Aspose.Page para Java facilita a **criação de elipses PostScript**, seja você precisar de uma forma simples preenchida ou de um contorno complexo. Com os passos acima, você pode rapidamente adicionar gráficos vetoriais de nível profissional a qualquer documento imprimível. Para exploração mais aprofundada — como combinar múltiplas formas, aplicar gradientes ou converter para PDF — consulte a **[documentação oficial](https://reference.aspose.com/page/java/)**.
 
+---
+
+**Última atualização:** 2025-12-11  
+**Testado com:** Aspose.Page para Java 24.11  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-11  
-**Testado com:** Aspose.Page para Java 24.11  
-**Autor:** Aspose

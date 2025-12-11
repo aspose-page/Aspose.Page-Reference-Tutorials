@@ -118,13 +118,6 @@ Utforska [Aspose.Page documentation](https://reference.aspose.com/page/java/), e
 **Q:** *Kan jag kryptera en PostScript‑fil med ett lösenord?*  
 **A:** PostScript i sig stödjer inte kryptering, men du kan paketera utdata i en PDF och tillämpa säkerhetsinställningar om så behövs.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Senast uppdaterad:** 2025-12-11  
@@ -132,3 +125,10 @@ Utforska [Aspose.Page documentation](https://reference.aspose.com/page/java/), e
 **Författare:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

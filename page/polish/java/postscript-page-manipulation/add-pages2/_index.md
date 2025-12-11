@@ -116,15 +116,15 @@ Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/)
 **Q:** *Czy mogę zaszyfrować plik PostScript hasłem?*  
 **A:** Sam format PostScript nie obsługuje szyfrowania, ale możesz opakować wyjście w PDF i zastosować ustawienia zabezpieczeń w razie potrzeby.  
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.10  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page for Java 24.10  
-**Author:** Aspose

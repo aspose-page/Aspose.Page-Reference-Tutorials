@@ -128,15 +128,15 @@ A: Sử dụng **[bản dùng thử miễn phí](https://releases.aspose.com/)**
 ## Kết luận
 Aspose.Page cho Java giúp bạn dễ dàng **tạo hình elip PostScript**, dù bạn cần một hình dạng đơn giản được tô màu hay một viền phức tạp. Với các bước ở trên, bạn có thể nhanh chóng thêm đồ họa vector cấp chuyên nghiệp vào bất kỳ tài liệu có thể in nào. Để khám phá sâu hơn — chẳng hạn như kết hợp nhiều hình dạng, áp dụng gradient, hoặc chuyển đổi sang PDF — hãy tham khảo **[tài liệu chính thức](https://reference.aspose.com/page/java/)**.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-11  
+**Được kiểm tra với:** Aspose.Page for Java 24.11  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-11  
-**Được kiểm tra với:** Aspose.Page for Java 24.11  
-**Tác giả:** Aspose

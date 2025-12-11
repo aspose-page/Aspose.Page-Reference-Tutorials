@@ -118,17 +118,15 @@ Prozkoumejte [Aspose.Page dokumentaci](https://reference.aspose.com/page/java/),
 **Q:** *Mohu šifrovat soubor PostScript pomocí hesla?*  
 **A:** PostScript sám o sobě šifrování nepodporuje, ale můžete výstup zabalit do PDF a aplikovat bezpečnostní nastavení, pokud je to potřeba.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-11  
 **Testováno s:** Aspose.Page for Java 24.10  
 **Autor:** Aspose  
 
----
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

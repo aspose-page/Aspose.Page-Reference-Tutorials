@@ -118,15 +118,15 @@ Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/)
 **Q:** *ฉันสามารถเข้ารหัสไฟล์ PostScript ด้วยรหัสผ่านได้หรือไม่?*  
 **A:** PostScript เองไม่รองรับการเข้ารหัส, แต่คุณสามารถห่อผลลัพธ์เป็น PDF แล้วตั้งค่าความปลอดภัยได้หากต้องการ.  
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-11  
+**ทดสอบด้วย:** Aspose.Page for Java 24.10  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-11  
-**ทดสอบด้วย:** Aspose.Page for Java 24.10  
-**ผู้เขียน:** Aspose

@@ -127,15 +127,15 @@ document.save();
 ## สรุป
 Aspose.Page for Java ทำให้การ **สร้าง PostScript ellipse** เป็นเรื่องง่าย ไม่ว่าจะต้องการรูปทรงเติมสีแบบง่ายหรือเส้นขอบซับซ้อน. ด้วยขั้นตอนข้างต้นคุณสามารถเพิ่มกราฟิกเวกเตอร์ระดับมืออาชีพลงในเอกสารที่ต้องพิมพ์ได้อย่างรวดเร็ว. สำหรับการสำรวจเพิ่มเติม—เช่น การรวมหลายรูปทรง, การใช้กราเดียนต์, หรือการแปลงเป็น PDF—ดูที่ **[เอกสารประกอบอย่างเป็นทางการ](https://reference.aspose.com/page/java/)**.
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose

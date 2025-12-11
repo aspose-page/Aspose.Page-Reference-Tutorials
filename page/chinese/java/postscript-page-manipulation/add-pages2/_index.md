@@ -115,15 +115,15 @@ Aspose.Page 支持向文档添加几乎无限数量的页面。
 **Q:** *我可以使用密码加密 PostScript 文件吗？*  
 **A:** PostScript 本身不支持加密，但您可以将输出包装为 PDF 并在需要时应用安全设置。  
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.10  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page for Java 24.10  
-**Author:** Aspose

@@ -118,13 +118,6 @@ Bekijk de [Aspose.Page documentatie](https://reference.aspose.com/page/java/), o
 **Q:** *Kan ik een PostScript‑bestand met een wachtwoord versleutelen?*  
 **A:** PostScript zelf ondersteunt geen versleuteling, maar u kunt de output in een PDF verpakken en daar beveiligingsinstellingen toepassen indien nodig.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-11  
@@ -132,3 +125,10 @@ Bekijk de [Aspose.Page documentatie](https://reference.aspose.com/page/java/), o
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

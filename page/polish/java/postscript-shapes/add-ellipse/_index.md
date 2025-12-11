@@ -128,15 +128,15 @@ A: Skorzystaj z **[bezpłatnej wersji próbnej](https://releases.aspose.com/)** 
 ## Podsumowanie
 Aspose.Page dla Javy umożliwia łatwe **tworzenie grafiki elipsy PostScript**, niezależnie od tego, czy potrzebujesz prostego wypełnionego kształtu, czy skomplikowanego konturu. Dzięki powyższym krokom szybko dodasz profesjonalne grafiki wektorowe do dowolnego dokumentu do druku. Aby zgłębić temat – np. łączyć wiele kształtów, stosować gradienty lub konwertować do PDF – zajrzyj do oficjalnej **[dokumentacji](https://reference.aspose.com/page/java/)**.
 
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose
