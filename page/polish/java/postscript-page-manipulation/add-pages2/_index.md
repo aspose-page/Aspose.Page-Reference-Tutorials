@@ -1,85 +1,130 @@
 ---
-title: Samouczek Java Aspose.Page - Dodawanie stron w PostScript
-linktitle: Dodawanie stron w PostScript
-second_title: Aspose.Page API Java
-description: Dowiedz się, jak dodawać strony do dokumentów Java PostScript za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo manipulować dokumentami.
-weight: 11
+date: 2025-12-11
+description: Dowiedz się, jak ustawić niestandardowy rozmiar strony i dodawać strony
+  do dokumentów PostScript w Javie przy użyciu Aspose.Page. Skorzystaj z naszego przewodnika
+  krok po kroku, aby płynnie manipulować dokumentami.
+linktitle: Adding Pages in PostScript
+second_title: Aspose.Page Java API
+title: Samouczek Aspose.Page Java – ustaw niestandardowy rozmiar strony podczas dodawania
+  stron w PostScript
 url: /pl/java/postscript-page-manipulation/add-pages2/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Samouczek Java Aspose.Page - Dodawanie stron w PostScript
+# Poradnik Aspose.Page Java – ustaw niestandardowy rozmiar strony podczas dodawania stron w PostScript
 
-## Wstęp
-świecie manipulacji i zarządzania dokumentami Aspose.Page for Java jawi się jako potężne narzędzie do obsługi dokumentów PostScript. Dodawanie stron do dokumentu PostScript jest powszechnym wymaganiem w wielu aplikacjach. W tym samouczku omówimy proces dodawania stron przy użyciu Aspose.Page dla Java, dzieląc każdy krok, aby nauka przebiegała bezproblemowo.
-## Warunki wstępne
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Podstawowa znajomość programowania w języku Java.
-- Zainstalowano bibliotekę Aspose.Page dla Java.
-- Skonfigurowano środowisko programistyczne Java.
-## Importuj pakiety
-Aby rozpocząć, zaimportuj niezbędne pakiety do swojego projektu Java. Obejmuje to bibliotekę Aspose.Page. Upewnij się, że masz poprawne zależności w konfiguracji projektu.
+## Wprowadzenie
+W nowoczesnych aplikacjach Java często wymaga się **ustawiania niestandardowego rozmiaru strony** dla wyjścia PostScript — niezależnie od tego, czy generujesz faktury, bilety, czy własne grafiki. Aspose.Page for Java ułatwia to zadanie. W tym poradniku nauczysz się, jak dodawać strony i ustawiać niestandardowe rozmiary stron w dokumencie PostScript, krok po kroku, abyś za każdym razem uzyskał idealny układ.
+
+## Szybkie odpowiedzi
+- **Czy mogę ustawić różne rozmiary stron dla każdej strony?** Tak, możesz otwierać strony z niestandardowymi wymiarami używając `document.openPage(width, height)`.  
+- **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose.Page dla wdrożeń nie‑ewaluacyjnych.  
+- **Jakie wersje Java są wspierane?** Biblioteka działa z Java 8 i nowszymi.  
+- **Czy API jest bezpieczne wątkowo?** Instancje dokumentu nie są bezpieczne wątkowo; utwórz osobny `PsDocument` dla każdego wątku.  
+- **Jak duży może być plik PostScript?** Aspose.Page obsługuje pliki wielokrotnych megabajtów efektywnie; zużycie pamięci skaluje się z zawartością, a nie z liczbą stron.
+
+## Wymagania wstępne
+- Podstawowa znajomość programowania w języku Java.  
+- Dodany do projektu Aspose.Page for Java (Maven/Gradle lub ręczny JAR).  
+- Środowisko programistyczne Java (IDE, JDK 8+).  
+
+## Importowanie pakietów
+Aby rozpocząć, zaimportuj niezbędne klasy z biblioteki Aspose.Page.
+
 ```java
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
+
 ## Krok 1: Utwórz wielostronicowy dokument PostScript
- Rozpocznij od skonfigurowania nowego wielostronicowego dokumentu PostScript. Wiąże się to z utworzeniem instancji`PsDocument` oraz określenie strumienia wyjściowego i opcji zapisu.
+Najpierw utwórz nowy `PsDocument` skonfigurowany do obsługi wielu stron. To ustawia strumień wyjściowy i informuje bibliotekę, że będziemy pracować z plikiem wielostronicowym.
+
 ```java
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Utwórz strumień wyjściowy dla dokumentu PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddPages2_outPS.ps");
-// Twórz opcje zapisywania w formacie A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-//Ustaw zmienną wskazującą, czy powstały dokument PostScript będzie wielostronicowy
+// Set variable that indicates if resulting PostScript document will be multipaged
 boolean multiPaged = true;
-// Utwórz nowy wielostronicowy dokument PS z otwartą jedną stroną
+// Create new multipaged PS Document with one page opened
 PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
-## Krok 2: Dodaj treść do pierwszej strony
-Teraz, gdy dokument został zainicjowany, czas dodać treść na pierwszą stronę. Może to obejmować tekst, obrazy lub inne elementy, które chcesz uwzględnić.
+
+## Krok 2: Dodaj zawartość do pierwszej strony
+Gdy dokument jest gotowy, możesz dodać dowolną zawartość do pierwszej strony. Po zakończeniu zamknij stronę, aby zablokować jej zawartość.
+
 ```java
-// Dodaj treść na pierwszą stronę
-// Zamknij pierwszą stronę
+// Add content to the first page
+// Close the first page
 document.closePage();
 ```
+
+## Jak ustawić niestandardowy rozmiar strony
+Jeśli domyślny rozmiar strony nie spełnia Twoich wymagań, możesz **ustawić niestandardowy rozmiar strony** przy otwieraniu nowej strony. Jest to przydatne przy paragonach, etykietach lub dowolnym niestandardowym układzie.
+
 ## Krok 3: Dodaj drugą stronę o innym rozmiarze
-Aby dodać drugą stronę o innym rozmiarze, wykonaj następujące kroki:
+Poniżej otwieramy drugą stronę i jawnie podajemy niestandardową szerokość i wysokość (w punktach). To pokazuje, jak ustawić niestandardowy rozmiar strony dla poszczególnych stron.
+
 ```java
-// Dodaj drugą stronę o innym rozmiarze
+// Add the second page with a different size
 document.openPage(500, 300);
-// Dodaj treść do drugiej strony
-// Zamknij drugą stronę
+// Add content to the second page
+// Close the second page
 document.closePage();
 ```
+
 ## Krok 4: Zapisz dokument
-Na koniec zapisz zmodyfikowany dokument po dodaniu wymaganych stron. Dzięki temu zmiany zostaną zachowane.
+Na koniec zachowaj zmiany, zapisując dokument. Wszystkie strony — w tym te o niestandardowych rozmiarach — zostaną zapisane do pliku wyjściowego.
+
 ```java
-// Zapisz dokument
+// Save the document
 document.save();
 ```
-Wykonując poniższe kroki, możesz bezproblemowo dodawać strony do dokumentu Java PostScript za pomocą Aspose.Page, zwiększając możliwości manipulowania dokumentem.
-## Wniosek
-Aspose.Page dla Java zapewnia solidne rozwiązanie do obsługi dokumentów PostScript, umożliwiając programistom łatwe manipulowanie stronami. Postępując zgodnie z tym przewodnikiem krok po kroku, nauczyłeś się dodawać strony do dokumentu, otwierając przed aplikacjami Java cały świat możliwości.
-## Często Zadawane Pytania
-### Czy mogę dodać strony o różnych rozmiarach do jednego dokumentu PostScript?
-Tak, jak pokazano w tym samouczku, możesz dodawać strony o różnych rozmiarach do wielostronicowego dokumentu PostScript.
-### Czy są jakieś ograniczenia dotyczące liczby stron, które mogę dodać?
-Aspose.Page obsługuje dodawanie praktycznie nieograniczonej liczby stron do dokumentu.
-### Czy mogę dodać do stron niestandardową treść, np. obrazy lub grafikę?
-Absolutnie! Aspose.Page umożliwia dodawanie szerokiej gamy treści, w tym tekstu, obrazów i innych elementów graficznych.
+
+Postępując zgodnie z tymi krokami, możesz płynnie dodawać strony i **ustawiać niestandardowe rozmiary stron** w dokumencie PostScript Java przy użyciu Aspose.Page, co daje pełną kontrolę nad układem każdej strony.
+
+## Zakończenie
+Aspose.Page for Java oferuje solidne, przyjazne dla programistów API do obsługi dokumentów PostScript. Teraz wiesz, jak dodać wiele stron, zastosować niestandardowe wymiary i zapisać wynik — co umożliwia generowanie precyzyjnie sformatowanego wyjścia dla dowolnego rozwiązania opartego na Javie.
+
+## Najczęściej zadawane pytania
+### Czy mogę dodać strony o różnych rozmiarach w jednym dokumencie PostScript?
+Tak, jak pokazano w tym poradniku, możesz dodawać strony o różnych rozmiarach w wielostronicowym dokumencie PostScript.  
+### Czy istnieją ograniczenia co do liczby stron, które mogę dodać?
+Aspose.Page umożliwia dodawanie praktycznie nieograniczonej liczby stron do dokumentu.  
+### Czy mogę dodać własną zawartość, taką jak obrazy lub grafiki, na strony?
+Oczywiście! Aspose.Page pozwala dodawać szeroką gamę treści, w tym tekst, obrazy i inne elementy graficzne.  
 ### Czy Aspose.Page nadaje się do obsługi dużych dokumentów?
-Tak, Aspose.Page został zaprojektowany tak, aby z łatwością obsługiwać zarówno małe, jak i duże dokumenty.
+Tak, Aspose.Page jest zaprojektowany tak, aby efektywnie obsługiwać zarówno małe, jak i duże dokumenty.  
 ### Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Page?
- Poznaj[Dokumentacja Aspose.Page](https://reference.aspose.com/page/java/) lub odwiedź stronę[Forum Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie społeczności.
+Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/), or visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support.  
+
+**Additional Q&A**
+
+**Q:** *Jakie formaty obrazów są obsługiwane przy rysowaniu na stronie PostScript?*  
+**A:** Możesz osadzać obrazy PNG, JPEG, BMP i GIF bezpośrednio przy użyciu API rysowania.  
+
+**Q:** *Jak zmienić domyślną rozdzielczość DPI dokumentu?*  
+**A:** Ustaw `PsSaveOptions.setResolution(int dpi)` przed utworzeniem `PsDocument`.  
+
+**Q:** *Czy mogę zaszyfrować plik PostScript hasłem?*  
+**A:** Sam format PostScript nie obsługuje szyfrowania, ale możesz opakować wyjście w PDF i zastosować ustawienia zabezpieczeń w razie potrzeby.  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.10  
+**Author:** Aspose

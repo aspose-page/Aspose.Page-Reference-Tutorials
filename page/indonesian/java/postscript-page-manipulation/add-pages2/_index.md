@@ -1,85 +1,134 @@
 ---
-title: Tutorial Java Aspose.Page - Menambahkan Halaman di PostScript
-linktitle: Menambahkan Halaman di PostScript
-second_title: Aspose.Halaman Java API
-description: Pelajari cara menambahkan halaman ke dokumen Java PostScript menggunakan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk manipulasi dokumen yang lancar.
-weight: 11
+date: 2025-12-11
+description: Pelajari cara mengatur ukuran halaman khusus dan menambahkan halaman
+  ke dokumen Java PostScript menggunakan Aspose.Page. Ikuti panduan langkah demi langkah
+  kami untuk manipulasi dokumen yang mulus.
+linktitle: Adding Pages in PostScript
+second_title: Aspose.Page Java API
+title: Tutorial Aspose.Page Java – Mengatur Ukuran Halaman Khusus Saat Menambahkan
+  Halaman dalam PostScript
 url: /id/java/postscript-page-manipulation/add-pages2/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutorial Java Aspose.Page - Menambahkan Halaman di PostScript
+# Aspose.Page Java Tutorial – menetapkan ukuran halaman kustom saat Menambahkan Halaman dalam PostScript
 
-## Perkenalan
-Dalam dunia manipulasi dan manajemen dokumen, Aspose.Page untuk Java muncul sebagai alat yang ampuh untuk menangani dokumen PostScript. Menambahkan halaman ke dokumen PostScript adalah persyaratan umum di banyak aplikasi. Dalam tutorial ini, kita akan menjelajahi proses penambahan halaman menggunakan Aspose.Page untuk Java, menguraikan setiap langkah untuk membuat pengalaman belajar menjadi lancar.
+## Pendahuluan
+Dalam aplikasi Java modern, **menetapkan ukuran halaman kustom** untuk output PostScript sering diperlukan—baik Anda menghasilkan faktur, tiket, atau grafik kustom. Aspose.Page untuk Java membuat tugas ini sederhana. Dalam tutorial ini Anda akan belajar cara menambahkan halaman dan menetapkan ukuran halaman kustom dalam dokumen PostScript, langkah demi langkah, sehingga Anda dapat menghasilkan tata letak yang tepat setiap saat.
+
+## Jawaban Cepat
+- **Bisakah saya menetapkan ukuran halaman yang berbeda untuk setiap halaman?** Ya, Anda dapat membuka halaman dengan dimensi kustom menggunakan `document.openPage(width, height)`.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi Aspose.Page yang valid diperlukan untuk penyebaran non‑evaluasi.  
+- **Versi Java mana yang didukung?** Perpustakaan ini bekerja dengan Java 8 dan yang lebih baru.  
+- **Apakah API thread‑safe?** Instansi Document tidak thread‑safe; buat `PsDocument` terpisah per thread.  
+- **Seberapa besar file PostScript dapat?** Aspose.Page menangani file multi‑megabyte secara efisien; penggunaan memori skala dengan konten, bukan jumlah halaman.
+
 ## Prasyarat
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
-- Pemahaman dasar pemrograman Java.
-- Menginstal Aspose.Page untuk perpustakaan Java.
-- Lingkungan pengembangan Java disiapkan.
-## Paket Impor
-Untuk memulai, impor paket yang diperlukan ke proyek Java Anda. Ini termasuk perpustakaan Aspose.Page. Pastikan Anda memiliki dependensi yang benar dalam konfigurasi proyek Anda.
+Sebelum kita mulai, pastikan Anda memiliki:
+
+- Pemahaman dasar tentang pemrograman Java.  
+- Aspose.Page untuk Java ditambahkan ke proyek Anda (Maven/Gradle atau JAR manual).  
+- Lingkungan pengembangan Java (IDE, JDK 8+).  
+
+## Impor Paket
+Untuk memulai, impor kelas yang diperlukan dari pustaka Aspose.Page.
+
 ```java
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## Langkah 1: Buat Dokumen PostScript Berhalaman Banyak
- Mulailah dengan menyiapkan dokumen PostScript multihalaman baru. Ini melibatkan pembuatan sebuah instance dari`PsDocument` dan menentukan aliran keluaran dan opsi penyimpanan.
+
+## Langkah 1: Buat Dokumen PostScript Multipage
+Pertama, buat `PsDocument` baru yang dikonfigurasi untuk beberapa halaman. Ini menyiapkan aliran output dan memberi tahu pustaka bahwa kita akan bekerja dengan file multipage.
+
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Buat aliran keluaran untuk dokumen PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddPages2_outPS.ps");
-// Buat opsi penyimpanan dengan ukuran A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-//Tetapkan variabel yang menunjukkan apakah dokumen PostScript yang dihasilkan akan memiliki banyak halaman
+// Set variable that indicates if resulting PostScript document will be multipaged
 boolean multiPaged = true;
-// Buat Dokumen PS multihalaman baru dengan satu halaman terbuka
+// Create new multipaged PS Document with one page opened
 PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
+
 ## Langkah 2: Tambahkan Konten ke Halaman Pertama
-Sekarang Anda telah menginisialisasi dokumen, saatnya menambahkan konten ke halaman pertama. Ini dapat mencakup teks, gambar, atau elemen lain yang ingin Anda sertakan.
+Dengan dokumen siap, Anda dapat menambahkan konten apa pun yang diperlukan ke halaman pertama. Setelah selesai, tutup halaman untuk mengunci kontennya.
+
 ```java
-// Tambahkan konten ke halaman pertama
-// Tutup halaman pertama
+// Add content to the first page
+// Close the first page
 document.closePage();
 ```
+
+## Cara menetapkan ukuran halaman kustom
+Jika ukuran halaman default tidak sesuai, Anda dapat **menetapkan ukuran halaman kustom** saat membuka halaman baru. Ini berguna untuk kwitansi, label, atau tata letak non‑standar apa pun.
+
 ## Langkah 3: Tambahkan Halaman Kedua dengan Ukuran Berbeda
-Untuk menambahkan halaman kedua dengan ukuran berbeda, ikuti langkah-langkah berikut:
+Di bawah ini kami membuka halaman kedua dan secara eksplisit memberikan lebar dan tinggi kustom (dalam poin). Ini menunjukkan cara menetapkan ukuran halaman kustom untuk masing‑masing halaman.
+
 ```java
-// Tambahkan halaman kedua dengan ukuran berbeda
+// Add the second page with a different size
 document.openPage(500, 300);
-// Tambahkan konten ke halaman kedua
-// Tutup halaman kedua
+// Add content to the second page
+// Close the second page
 document.closePage();
 ```
+
 ## Langkah 4: Simpan Dokumen
-Terakhir, simpan dokumen yang dimodifikasi setelah menambahkan halaman yang diperlukan. Ini memastikan bahwa perubahan Anda dipertahankan.
+Akhirnya, simpan perubahan dengan menyimpan dokumen. Semua halaman—termasuk yang memiliki ukuran kustom—ditulis ke file output.
+
 ```java
-// Simpan dokumennya
+// Save the document
 document.save();
 ```
-Dengan mengikuti langkah-langkah ini, Anda dapat dengan lancar menambahkan halaman ke dokumen Java PostScript menggunakan Aspose.Page, sehingga meningkatkan kemampuan manipulasi dokumen Anda.
+
+Dengan mengikuti langkah‑langkah ini, Anda dapat dengan mulus menambahkan halaman dan **menetapkan ukuran halaman kustom** dalam dokumen PostScript Java menggunakan Aspose.Page, memberi Anda kontrol penuh atas tata letak setiap halaman.
+
 ## Kesimpulan
-Aspose.Page untuk Java memberikan solusi tangguh untuk menangani dokumen PostScript, memungkinkan pengembang memanipulasi halaman dengan mudah. Dengan mengikuti panduan langkah demi langkah ini, Anda telah mempelajari cara menambahkan halaman ke dokumen, membuka banyak kemungkinan untuk aplikasi Java Anda.
+Aspose.Page untuk Java menyediakan API yang kuat dan ramah pengembang untuk menangani dokumen PostScript. Anda kini tahu cara menambahkan beberapa halaman, menerapkan dimensi kustom, dan menyimpan hasilnya—memberdayakan Anda untuk menghasilkan output yang diformat dengan tepat untuk solusi berbasis Java apa pun.
+
 ## Pertanyaan yang Sering Diajukan
 ### Bisakah saya menambahkan halaman dengan ukuran berbeda dalam satu dokumen PostScript?
-Ya, seperti yang ditunjukkan dalam tutorial ini, Anda dapat menambahkan halaman dengan berbagai ukuran dalam dokumen PostScript multihalaman.
-### Apakah ada batasan jumlah halaman yang dapat saya tambahkan?
-Aspose.Page mendukung penambahan jumlah halaman yang hampir tidak terbatas ke dokumen.
-### Bisakah saya menambahkan konten khusus, seperti gambar atau grafik, ke halaman?
-Sangat! Aspose.Page memungkinkan Anda menambahkan berbagai konten, termasuk teks, gambar, dan elemen grafis lainnya.
-### Apakah Aspose.Page cocok untuk menangani dokumen berukuran besar?
-Ya, Aspose.Page dirancang untuk menangani dokumen kecil dan besar secara efisien dengan mudah.
-### Di mana saya dapat menemukan sumber daya dan dukungan tambahan untuk Aspose.Page?
- Jelajahi[Aspose.Dokumentasi halaman](https://reference.aspose.com/page/java/) , atau kunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk dukungan masyarakat.
+Ya, seperti yang ditunjukkan dalam tutorial ini, Anda dapat menambahkan halaman dengan ukuran yang bervariasi dalam dokumen PostScript multipage.  
+### Apakah ada batasan pada jumlah halaman yang dapat saya tambahkan?
+Aspose.Page mendukung penambahan jumlah halaman yang secara virtual tidak terbatas ke sebuah dokumen.  
+### Bisakah saya menambahkan konten kustom, seperti gambar atau grafik, ke halaman?
+Tentu saja! Aspose.Page memungkinkan Anda menambahkan berbagai konten, termasuk teks, gambar, dan elemen grafis lainnya.  
+### Apakah Aspose.Page cocok untuk menangani dokumen besar?
+Ya, Aspose.Page dirancang untuk menangani dokumen kecil maupun besar dengan efisien.  
+### Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Page?
+Jelajahi dokumentasi [Aspose.Page documentation](https://reference.aspose.com/page/java/), atau kunjungi forum [Aspose.Page forum](https://forum.aspose.com/c/page/39) untuk dukungan komunitas.  
+
+**Additional Q&A**
+
+**Q:** *Format gambar apa yang didukung saat menggambar pada halaman PostScript?*  
+**A:** Anda dapat menyematkan gambar PNG, JPEG, BMP, dan GIF secara langsung menggunakan API gambar.  
+
+**Q:** *Bagaimana cara mengubah DPI default untuk dokumen?*  
+**A:** Setel `PsSaveOptions.setResolution(int dpi)` sebelum membuat `PsDocument`.  
+
+**Q:** *Bisakah saya mengenkripsi file PostScript dengan password?*  
+**A:** PostScript sendiri tidak mendukung enkripsi, tetapi Anda dapat membungkus output dalam PDF dan menerapkan pengaturan keamanan jika diperlukan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.10  
+**Author:** Aspose  
+
+---

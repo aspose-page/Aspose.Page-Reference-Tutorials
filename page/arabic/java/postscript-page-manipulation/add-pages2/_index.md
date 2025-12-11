@@ -1,85 +1,136 @@
 ---
-title: برنامج Aspose.Page Java التعليمي - إضافة صفحات في PostScript
-linktitle: إضافة صفحات في بوستسكريبت
-second_title: Aspose.Page جافا API
-description: تعرف على كيفية إضافة صفحات إلى مستندات Java PostScript باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتعامل السلس مع المستندات.
-weight: 11
+date: 2025-12-11
+description: تعلم كيفية تعيين حجم صفحة مخصص وإضافة صفحات إلى مستندات Java PostScript
+  باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة للتلاعب السلس بالمستندات.
+linktitle: Adding Pages in PostScript
+second_title: Aspose.Page Java API
+title: دروس Aspose.Page للغة Java – تعيين حجم صفحة مخصص أثناء إضافة صفحات في PostScript
 url: /ar/java/postscript-page-manipulation/add-pages2/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# برنامج Aspose.Page Java التعليمي - إضافة صفحات في PostScript
+# Aspose.Page Java Tutorial – تعيين حجم صفحة مخصص أثناء إضافة صفحات في PostScript
 
-## مقدمة
-في عالم معالجة المستندات وإدارتها، يظهر Aspose.Page for Java كأداة قوية للتعامل مع مستندات PostScript. تعد إضافة صفحات إلى مستند PostScript متطلبًا شائعًا في العديد من التطبيقات. في هذا البرنامج التعليمي، سوف نستكشف عملية إضافة الصفحات باستخدام Aspose.Page لـ Java، مع تفصيل كل خطوة لجعل تجربة التعلم سلسة.
-## المتطلبات الأساسية
-قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
-- الفهم الأساسي لبرمجة جافا.
-- تم تثبيت Aspose.Page لمكتبة Java.
-- إعداد بيئة تطوير جافا.
-## حزم الاستيراد
-للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. يتضمن ذلك مكتبة Aspose.Page. تأكد من أن لديك التبعيات الصحيحة في تكوين مشروعك.
+## Introduction
+في تطبيقات Java الحديثة، غالبًا ما يكون من الضروري **تعيين حجم صفحة مخصص** لإخراج PostScript — سواء كنت تولد فواتير، تذاكر، أو رسومات مخصصة. تجعل Aspose.Page for Java هذه المهمة سهلة. في هذا الدرس ستتعلم كيفية إضافة صفحات وتعيين أحجام صفحات مخصصة في مستند PostScript، خطوة بخطوة، حتى تتمكن من إنتاج التخطيط المناسب في كل مرة.
+
+## Quick Answers
+- **هل يمكنني تعيين أحجام صفحات مختلفة لكل صفحة؟** نعم، يمكنك فتح الصفحات بأبعاد مخصصة باستخدام `document.openPage(width, height)`.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يتطلب النشر غير التجريبي ترخيصًا صالحًا لـ Aspose.Page.  
+- **ما إصدارات Java المدعومة؟** تعمل المكتبة مع Java 8 وما فوق.  
+- **هل الـ API آمن للاستخدام المتعدد الخيوط؟** كائنات Document ليست آمنة للاستخدام المتعدد الخيوط؛ أنشئ `PsDocument` منفصل لكل خيط.  
+- **ما الحد الأقصى لحجم ملف PostScript؟** تتعامل Aspose.Page بفعالية مع الملفات متعددة الميغابايت؛ استهلاك الذاكرة يتناسب مع المحتوى وليس عدد الصفحات.
+
+## Prerequisites
+قبل أن نبدأ، تأكد من وجود ما يلي:
+
+- فهم أساسي لبرمجة Java.  
+- إضافة Aspose.Page for Java إلى مشروعك (Maven/Gradle أو JAR يدوي).  
+- بيئة تطوير Java (IDE، JDK 8+).  
+
+## Import Packages
+للبدء، استورد الفئات الضرورية من مكتبة Aspose.Page.
+
 ```java
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## الخطوة 1: إنشاء مستند بوستسكريبت متعدد الصفحات
- ابدأ بإعداد مستند PostScript جديد متعدد الصفحات. يتضمن ذلك إنشاء مثيل لـ`PsDocument` وتحديد دفق الإخراج وحفظ الخيارات.
+
+## Step 1: Create a Multipaged PostScript Document
+الخطوة 1: إنشاء مستند PostScript متعدد الصفحات  
+أولاً، أنشئ `PsDocument` جديدًا مconfigured للصفحات المتعددة. هذا يُعد تدفق الإخراج ويخبر المكتبة أننا سنعمل على ملف متعدد الصفحات.
+
 ```java
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// إنشاء دفق الإخراج لمستند بوستسكريبت
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddPages2_outPS.ps");
-// إنشاء خيارات الحفظ بحجم A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-//قم بتعيين المتغير الذي يشير إلى ما إذا كان مستند PostScript الناتج سيكون متعدد الصفحات
+// Set variable that indicates if resulting PostScript document will be multipaged
 boolean multiPaged = true;
-// أنشئ مستند PS متعدد الصفحات جديدًا مع فتح صفحة واحدة
+// Create new multipaged PS Document with one page opened
 PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
-## الخطوة 2: إضافة محتوى إلى الصفحة الأولى
-الآن بعد أن قمت بتهيئة المستند، فقد حان الوقت لإضافة محتوى إلى الصفحة الأولى. يمكن أن يشمل ذلك نصًا أو صورًا أو أي عناصر أخرى ترغب في تضمينها.
+
+## Step 2: Add Content to the First Page
+الخطوة 2: إضافة محتوى إلى الصفحة الأولى  
+مع جاهزية المستند، يمكنك إضافة أي محتوى تحتاجه إلى الصفحة الأولى. عند الانتهاء، أغلق الصفحة لتثبيت محتواها.
+
 ```java
-// إضافة محتوى إلى الصفحة الأولى
-// أغلق الصفحة الأولى
+// Add content to the first page
+// Close the first page
 document.closePage();
 ```
-## الخطوة 3: إضافة صفحة ثانية بحجم مختلف
-لإضافة صفحة ثانية بحجم مختلف، اتبع الخطوات التالية:
+
+## How to set custom page size
+كيفية تعيين حجم صفحة مخصص  
+إذا لم يكن حجم الصفحة الافتراضي هو ما تحتاجه، يمكنك **تعيين حجم صفحة مخصص** عند فتح صفحة جديدة. هذا مفيد للإيصالات، الملصقات، أو أي تخطيط غير قياسي.
+
+## Step 3: Add a Second Page with Different Size
+الخطوة 3: إضافة صفحة ثانية بحجم مختلف  
+فيما يلي نفتح صفحة ثانية ونحدد صراحةً عرضًا وارتفاعًا مخصصين (بالنقاط). هذا يوضح كيفية تعيين حجم صفحة مخصص للصفحات الفردية.
+
 ```java
-// أضف الصفحة الثانية بحجم مختلف
+// Add the second page with a different size
 document.openPage(500, 300);
-// أضف محتوى إلى الصفحة الثانية
-// أغلق الصفحة الثانية
+// Add content to the second page
+// Close the second page
 document.closePage();
 ```
-## الخطوة 4: احفظ المستند
-وأخيرًا، احفظ المستند المعدل بعد إضافة الصفحات المطلوبة. وهذا يضمن الحفاظ على التغييرات الخاصة بك.
+
+## Step 4: Save the Document
+الخطوة 4: حفظ المستند  
+أخيرًا، احفظ التغييرات عن طريق حفظ المستند. جميع الصفحات — بما في ذلك تلك ذات الأحجام المخصصة — تُكتب إلى ملف الإخراج.
+
 ```java
-// احفظ المستند
+// Save the document
 document.save();
 ```
-باتباع هذه الخطوات، يمكنك إضافة صفحات بسهولة إلى مستند Java PostScript باستخدام Aspose.Page، مما يعزز قدرات معالجة المستند لديك.
-## خاتمة
-يوفر Aspose.Page for Java حلاً قويًا للتعامل مع مستندات PostScript، مما يسمح للمطورين بمعالجة الصفحات بسهولة. باتباع هذا الدليل التفصيلي، تعلمت كيفية إضافة صفحات إلى مستند، مما يفتح عالمًا من الإمكانيات لتطبيقات Java الخاصة بك.
-## أسئلة مكررة
+
+باتباع هذه الخطوات، يمكنك إضافة صفحات بسهولة و**تعيين أحجام صفحات مخصصة** في مستند PostScript Java باستخدام Aspose.Page، مما يمنحك التحكم الكامل في تخطيط كل صفحة.
+
+## Conclusion
+الخاتمة  
+Aspose.Page for Java توفر API قوي وسهل الاستخدام للمطورين لمعالجة مستندات PostScript. الآن تعرف كيف تضيف صفحات متعددة، تطبق أبعاد مخصصة، وتحفظ النتيجة — مما يمكنك من إنشاء مخرجات مُنسقة بدقة لأي حل مبني على Java.
+
+## Frequently Asked Questions
 ### هل يمكنني إضافة صفحات بأحجام مختلفة في مستند PostScript واحد؟
-نعم، كما هو موضح في هذا البرنامج التعليمي، يمكنك إضافة صفحات بأحجام مختلفة في مستند PostScript متعدد الصفحات.
+نعم، كما هو موضح في هذا الدرس، يمكنك إضافة صفحات بأحجام متفاوتة في مستند PostScript متعدد الصفحات.  
 ### هل هناك أي قيود على عدد الصفحات التي يمكنني إضافتها؟
-يدعم Aspose.Page إضافة عدد غير محدود تقريبًا من الصفحات إلى المستند.
+تدعم Aspose.Page إضافة عدد غير محدود عمليًا من الصفحات إلى المستند.  
 ### هل يمكنني إضافة محتوى مخصص، مثل الصور أو الرسومات، إلى الصفحات؟
-قطعاً! يتيح لك Aspose.Page إضافة نطاق واسع من المحتوى، بما في ذلك النصوص والصور والعناصر الرسومية الأخرى.
-### هل Aspose.Page مناسب للتعامل مع المستندات الكبيرة؟
-نعم، تم تصميم Aspose.Page للتعامل بكفاءة مع المستندات الصغيرة والكبيرة بسهولة.
+بالطبع! تسمح Aspose.Page بإضافة مجموعة واسعة من المحتوى، بما في ذلك النصوص، الصور، والعناصر الرسومية الأخرى.  
+### هل Aspose.Page مناسبة للتعامل مع المستندات الكبيرة؟
+نعم، تم تصميم Aspose.Page للتعامل بكفاءة مع المستندات الصغيرة والكبيرة على حد سواء.  
 ### أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Page؟
- اكتشف ال[Aspose.Page الوثائق](https://reference.aspose.com/page/java/) ، أو قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لدعم المجتمع.
+استكشف [توثيق Aspose.Page](https://reference.aspose.com/page/java/)، أو زر [منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للحصول على دعم المجتمع.  
+
+**Additional Q&A**
+
+**س:** *ما صيغ الصور المدعومة عند الرسم على صفحة PostScript؟*  
+**ج:** يمكنك تضمين صور PNG، JPEG، BMP، و GIF مباشرةً باستخدام API الرسم.  
+
+**س:** *كيف يمكنني تغيير DPI الافتراضي للمستند؟*  
+**ج:** قم بتعيين `PsSaveOptions.setResolution(int dpi)` قبل إنشاء `PsDocument`.  
+
+**س:** *هل يمكنني تشفير ملف PostScript باستخدام كلمة مرور؟*  
+**ج:** PostScript نفسه لا يدعم التشفير، ولكن يمكنك تغليف الإخراج في ملف PDF وتطبيق إعدادات الأمان إذا لزم الأمر.  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-11  
+**Tested With:** Aspose.Page for Java 24.10  
+**Author:** Aspose

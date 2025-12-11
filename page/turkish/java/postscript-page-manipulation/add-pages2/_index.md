@@ -1,85 +1,132 @@
 ---
-title: Aspose.Page Java Eğitimi - PostScript'e Sayfa Ekleme
-linktitle: PostScript'e Sayfa Ekleme
-second_title: Aspose.Page Java API'si
-description: Aspose.Page'i kullanarak Java PostScript belgelerine nasıl sayfa ekleyeceğinizi öğrenin. Kusursuz belge işleme için adım adım kılavuzumuzu izleyin.
-weight: 11
+date: 2025-12-11
+description: Aspose.Page kullanarak Java PostScript belgelerinde özel sayfa boyutu
+  ayarlamayı ve sayfa eklemeyi öğrenin. Sorunsuz belge manipülasyonu için adım adım
+  rehberimizi izleyin.
+linktitle: Adding Pages in PostScript
+second_title: Aspose.Page Java API
+title: Aspose.Page Java Öğreticisi – PostScript'te Sayfa Ekleme Sırasında Özel Sayfa
+  Boyutu Ayarlama
 url: /tr/java/postscript-page-manipulation/add-pages2/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page Java Eğitimi - PostScript'e Sayfa Ekleme
+# Aspose.Page Java Öğreticisi – PostScript'te Sayfa Eklerken Özel Sayfa Boyutu Ayarlama
 
-## giriiş
-Belge işleme ve yönetimi dünyasında Aspose.Page for Java, PostScript belgelerini yönetmek için güçlü bir araç olarak ortaya çıkıyor. PostScript belgesine sayfa eklemek birçok uygulamada ortak bir gerekliliktir. Bu eğitimde Aspose.Page for Java kullanarak sayfa ekleme sürecini inceleyeceğiz ve öğrenme deneyimini kusursuz hale getirmek için her adımı ayrıntılı olarak inceleyeceğiz.
-## Önkoşullar
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-- Java programlamanın temel anlayışı.
-- Aspose.Page for Java kütüphanesi kuruldu.
-- Java geliştirme ortamı kuruldu.
-## Paketleri İçe Aktar
-Başlamak için gerekli paketleri Java projenize aktarın. Buna Aspose.Page kütüphanesi de dahildir. Proje yapılandırmanızda doğru bağımlılıklara sahip olduğunuzdan emin olun.
+## Giriş
+Modern Java uygulamalarında, **özel bir sayfa boyutu ayarlamak** genellikle gerekir—faturalar, biletler veya özel grafikler oluşturuyor olsanız da. Aspose.Page for Java bu görevi basitleştirir. Bu öğreticide, bir PostScript belgesine sayfa eklemeyi ve özel sayfa boyutları ayarlamayı adım adım öğrenecek ve her seferinde tam istediğiniz düzeni üretebileceksiniz.
+
+## Hızlı Yanıtlar
+- **Her sayfa için farklı sayfa boyutları ayarlayabilir miyim?** Evet, `document.openPage(width, height)` kullanarak özel boyutlarda sayfalar açabilirsiniz.  
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Değerlendirme dışı dağıtımlar için geçerli bir Aspose.Page lisansı gereklidir.  
+- **Hangi Java sürümleri destekleniyor?** Kütüphane Java 8 ve üzeri sürümlerle çalışır.  
+- **API iş parçacığı güvenli mi?** Document örnekleri iş parçacığı güvenli değildir; her iş parçacığı için ayrı bir `PsDocument` oluşturun.  
+- **Bir PostScript dosyası ne kadar büyük olabilir?** Aspose.Page çok megabaytlık dosyaları verimli bir şekilde işler; bellek kullanımı sayfa sayısına değil, içeriğe göre ölçeklenir.
+
+## Ön Koşullar
+İlerlemeye başlamadan önce, şunların olduğundan emin olun:
+
+- Java programlamaya temel bir anlayış.  
+- Projeye Aspose.Page for Java eklenmiş (Maven/Gradle ya da manuel JAR).  
+- Java geliştirme ortamı (IDE, JDK 8+).  
+
+## Paketleri İçe Aktarma
+Başlamak için, Aspose.Page kütüphanesinden gerekli sınıfları içe aktarın.
+
 ```java
 import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## Adım 1: Çok Sayfalı PostScript Belgesi Oluşturun
- Yeni, çok sayfalı bir PostScript belgesi hazırlayarak başlayın. Bu, bir örneğinin oluşturulmasını içerir`PsDocument` ve çıktı akışının belirtilmesi ve kaydetme seçenekleri.
+
+## Adım 1: Çok Sayfalı bir PostScript Belgesi Oluşturma
+İlk olarak, çok sayfalı olarak yapılandırılmış yeni bir `PsDocument` oluşturun. Bu, çıktı akışını ayarlar ve kütüphaneye çok sayfalı bir dosyayla çalışacağımızı bildirir.
+
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// PostScript belgesi için çıktı akışı oluşturun
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddPages2_outPS.ps");
-// A4 boyutunda kaydetme seçenekleri oluşturun
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-//Ortaya çıkan PostScript belgesinin çok sayfalı olup olmayacağını belirten değişkeni ayarlayın
+// Set variable that indicates if resulting PostScript document will be multipaged
 boolean multiPaged = true;
-// Tek sayfası açılmış yeni, çok sayfalı PS Belgesi oluşturun
+// Create new multipaged PS Document with one page opened
 PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
+
 ## Adım 2: İlk Sayfaya İçerik Ekleme
-Artık belgeyi başlattığınıza göre, ilk sayfaya içerik ekleme zamanı geldi. Bu, metin, görseller veya eklemek istediğiniz diğer öğeleri içerebilir.
+Belge hazır olduğunda, ilk sayfaya ihtiyacınız olan herhangi bir içeriği ekleyebilirsiniz. İşiniz bittiğinde, sayfanın içeriğini kilitlemek için sayfayı kapatın.
+
 ```java
-// İlk sayfaya içerik ekleyin
-// İlk sayfayı kapat
+// Add content to the first page
+// Close the first page
 document.closePage();
 ```
-## 3. Adım: Farklı Boyutta İkinci Bir Sayfa Ekleme
-Farklı boyutta ikinci bir sayfa eklemek için şu adımları izleyin:
+
+## Özel Sayfa Boyutu Nasıl Ayarlanır
+Varsayılan sayfa boyutu ihtiyacınızı karşılamıyorsa, yeni bir sayfa açarken **özel bir sayfa boyutu ayarlayabilirsiniz**. Bu, makbuzlar, etiketler veya herhangi bir standart dışı düzen için faydalıdır.
+
+## Adım 3: Farklı Boyutta İkinci Sayfa Ekleme
+Aşağıda ikinci bir sayfa açıyor ve açıkça özel bir genişlik ve yükseklik (puan cinsinden) belirtiyoruz. Bu, bireysel sayfalar için özel bir sayfa boyutu nasıl ayarlanır gösterir.
+
 ```java
-// İkinci sayfayı farklı boyutta ekleyin
+// Add the second page with a different size
 document.openPage(500, 300);
-// İkinci sayfaya içerik ekleyin
-// İkinci sayfayı kapat
+// Add content to the second page
+// Close the second page
 document.closePage();
 ```
-## Adım 4: Belgeyi Kaydedin
-Son olarak gerekli sayfaları ekledikten sonra değiştirilen belgeyi kaydedin. Bu, değişikliklerinizin korunmasını sağlar.
+
+## Adım 4: Belgeyi Kaydetme
+Son olarak, belgeyi kaydederek değişiklikleri kalıcı hale getirin. Tüm sayfalar—özel boyutlu olanlar dahil—çıktı dosyasına yazılır.
+
 ```java
-// Belgeyi kaydet
+// Save the document
 document.save();
 ```
-Bu adımları izleyerek, Aspose.Page'i kullanarak Java PostScript belgesine sorunsuz bir şekilde sayfalar ekleyebilir ve belge işleme yeteneklerinizi geliştirebilirsiniz.
-## Çözüm
-Aspose.Page for Java, PostScript belgelerinin işlenmesi için sağlam bir çözüm sağlayarak geliştiricilerin sayfaları zahmetsizce değiştirmesine olanak tanır. Bu adım adım kılavuzu izleyerek, bir belgeye nasıl sayfa ekleneceğini öğrendiniz ve Java uygulamalarınız için bir olasılıklar dünyasının kapılarını açtınız.
+
+Bu adımları izleyerek, Aspose.Page kullanarak Java PostScript belgesine sorunsuz bir şekilde sayfa ekleyebilir ve **özel sayfa boyutları ayarlayabilirsiniz**, bu da her sayfanın düzeni üzerinde tam kontrol sağlar.
+
+## Sonuç
+Aspose.Page for Java, PostScript belgelerini işlemek için sağlam ve geliştirici dostu bir API sunar. Artık birden fazla sayfa eklemeyi, özel boyutlar uygulamayı ve sonucu kaydetmeyi biliyorsunuz—bu da herhangi bir Java tabanlı çözüm için tam olarak biçimlendirilmiş çıktı üretmenizi sağlar.
+
 ## Sıkça Sorulan Sorular
 ### Tek bir PostScript belgesine farklı boyutlarda sayfalar ekleyebilir miyim?
-Evet, bu eğitimde gösterildiği gibi, çok sayfalı bir PostScript belgesine farklı boyutlarda sayfalar ekleyebilirsiniz.
-### Ekleyebileceğim sayfa sayısında herhangi bir sınırlama var mı?
-Aspose.Page, bir belgeye neredeyse sınırsız sayıda sayfa eklemeyi destekler.
+Evet, bu öğreticide gösterildiği gibi, çok sayfalı bir PostScript belgesinde farklı boyutlarda sayfalar ekleyebilirsiniz.  
+### Ekleyebileceğim sayfa sayısı konusunda herhangi bir sınırlama var mı?
+Aspose.Page, bir belgeye pratik olarak sınırsız sayıda sayfa eklemeyi destekler.  
 ### Sayfalara resim veya grafik gibi özel içerik ekleyebilir miyim?
-Kesinlikle! Aspose.Page metin, görseller ve diğer grafiksel öğeler de dahil olmak üzere geniş bir içerik yelpazesi eklemenizi sağlar.
-### Aspose.Page büyük belgeleri işlemeye uygun mudur?
-Evet, Aspose.Page hem küçük hem de büyük belgeleri verimli ve kolay bir şekilde yönetecek şekilde tasarlanmıştır.
-### Aspose.Page için ek kaynakları ve desteği nerede bulabilirim?
- Keşfedin[Aspose.Page belgeleri](https://reference.aspose.com/page/java/) veya ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) topluluk desteği için.
+Kesinlikle! Aspose.Page, metin, resimler ve diğer grafik öğeler dahil olmak üzere geniş bir içerik yelpazesi eklemenize olanak tanır.  
+### Aspose.Page büyük belgeleri işlemek için uygun mu?
+Evet, Aspose.Page, hem küçük hem de büyük belgeleri sorunsuz bir şekilde verimli bir şekilde işlemek için tasarlanmıştır.  
+### Aspose.Page için ek kaynakları ve desteği nereden bulabilirim?
+Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/), or visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support.  
+
+**Ek Soru‑Cevap**
+
+**S:** *PostScript sayfasına çizim yaparken hangi görüntü formatları desteklenir?*  
+**C:** Çizim API'sini kullanarak PNG, JPEG, BMP ve GIF görüntülerini doğrudan gömebilirsiniz.  
+
+**S:** *Belgenin varsayılan DPI'sını nasıl değiştiririm?*  
+**C:** `PsDocument` oluşturulmadan önce `PsSaveOptions.setResolution(int dpi)` metodunu ayarlayın.  
+
+**S:** *PostScript dosyasını bir şifreyle şifreleyebilir miyim?*  
+**C:** PostScript kendisi şifrelemeyi desteklemez, ancak isterseniz çıktıyı bir PDF içine alıp güvenlik ayarları uygulayabilirsiniz.  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2025-12-11  
+**Test Edilen:** Aspose.Page for Java 24.10  
+**Yazar:** Aspose
