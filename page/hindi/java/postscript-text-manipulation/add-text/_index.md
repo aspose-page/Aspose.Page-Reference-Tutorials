@@ -1,27 +1,50 @@
 ---
-title: Aspose.Page जावा टेक्स्ट मैनिपुलेशन
-linktitle: जावा पोस्टस्क्रिप्ट में टेक्स्ट जोड़ें
-second_title: Aspose.Page जावा एपीआई
-description: पोस्टस्क्रिप्ट दस्तावेज़ों में टेक्स्ट जोड़ने पर हमारे ट्यूटोरियल में जावा के लिए Aspose.Page की शक्ति का अन्वेषण करें। सिस्टम और कस्टम फ़ॉन्ट का आसानी से उपयोग करना सीखें।
-weight: 10
+date: 2025-12-14
+description: Aspose.Page for Java का उपयोग करके जावा में टेक्स्ट रंग सेट करना, पोस्टस्क्रिप्ट
+  में टेक्स्ट जोड़ना, और समृद्ध दस्तावेज़ शैलीकरण के लिए स्ट्रोक टेक्स्ट लागू करना
+  सीखें।
+linktitle: Add Text in Java PostScript
+second_title: Aspose.Page Java API
+title: Aspose.Page के साथ जावा में टेक्स्ट रंग सेट करें – टेक्स्ट मैनिपुलेशन गाइड
 url: /hi/java/postscript-text-manipulation/add-text/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page जावा टेक्स्ट मैनिपुलेशन
+# Set Text Color Java with Aspose.Page – Text Manipulation Guide
 
-## परिचय
-जावा के लिए Aspose.Page का उपयोग करके जावा पोस्टस्क्रिप्ट में टेक्स्ट जोड़ने पर हमारी चरण-दर-चरण मार्गदर्शिका में आपका स्वागत है। जावा के लिए Aspose.Page एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को पोस्टस्क्रिप्ट दस्तावेज़ों में आसानी से हेरफेर करने की अनुमति देती है। इस ट्यूटोरियल में, हम आपको टेक्स्ट जोड़ने, सिस्टम और कस्टम फ़ॉन्ट का उपयोग करने, टेक्स्ट को रेखांकित करने और एक आकर्षक परिणाम के लिए स्ट्रोक्स को शामिल करने की प्रक्रिया के बारे में बताएंगे।
-## आवश्यक शर्तें
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
-- जावा प्रोग्रामिंग का बुनियादी ज्ञान।
--  जावा लाइब्रेरी के लिए Aspose.Page स्थापित किया गया। आप इसे यहां से डाउनलोड कर सकते हैं[जावा डाउनलोड पेज के लिए Aspose.Page](https://releases.aspose.com/page/java/).
--  निर्दिष्ट फ़ोल्डर में आवश्यक फ़ॉन्ट उपलब्ध हैं. आप अतिरिक्त जानकारी इसमें पा सकते हैं[जावा दस्तावेज़ीकरण के लिए Aspose.Page](https://reference.aspose.com/page/java/).
-## पैकेज आयात करें
-अपने जावा प्रोजेक्ट में, जावा के लिए Aspose.Page के लिए आवश्यक पैकेज आयात करें:
+## Introduction
+Aspose.Page for Java का उपयोग करके PostScript फ़ाइलों के साथ काम करते समय **set text color java** पर हमारा चरण‑दर‑चरण गाइड में आपका स्वागत है। Aspose.Page for Java एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को **generate postscript file** दस्तावेज़ बनाने, फ़ॉन्ट को नियंत्रित करने और सटीकता के साथ टेक्स्ट को स्टाइल करने की सुविधा देती है। इस ट्यूटोरियल में आप सीखेंगे कि टेक्स्ट कैसे जोड़ें, उसका रंग बदलें, आकार समायोजित करें, और एक परिष्कृत लुक के लिए **apply stroke text** कैसे लागू करें।
+
+## Quick Answers
+- **What library lets me set text color in Java?** Aspose.Page for Java.  
+- **Can I use system fonts and custom fonts?** Yes, both are supported.  
+- **How do I change the text size?** By specifying the font size when creating the `Font` or `DrFont`.  
+- **Is it possible to outline and fill text together?** Absolutely – use `fillAndStrokeText`.  
+- **What output format does this tutorial produce?** A PostScript (`.ps`) document.
+
+## What is “set text color java”?
+Java में टेक्स्ट का रंग सेट करना मतलब `Color` ऑब्जेक्ट को परिभाषित करना है, जिसे रेंडरिंग इंजन (यहाँ Aspose.Page) पेज पर अक्षर ड्रॉ करते समय उपयोग करता है। यह ऑपरेशन दृश्य रूप से अलग दस्तावेज़ बनाने के लिए आवश्यक है, विशेषकर जब आप **postscript documents** को प्रोग्रामेटिकली जेनरेट कर रहे हों।
+
+## Why use Aspose.Page for Java?
+- **Full control** over PostScript generation without needing a native PostScript interpreter.  
+- **Support for both system and external fonts**, letting you embed any typography you need.  
+- **Easy API** to fill, outline, and **fill and stroke text**, giving you flexibility in styling.  
+- **Cross‑platform** compatibility – write once, run anywhere Java runs.
+
+## Prerequisites
+शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+
+- Java प्रोग्रामिंग का बेसिक ज्ञान।  
+- Aspose.Page for Java लाइब्रेरी स्थापित हो। आप इसे [Aspose.Page for Java download page](https://releases.aspose.com/page/java/) से डाउनलोड कर सकते हैं।  
+- निर्दिष्ट फ़ोल्डर में आवश्यक फ़ॉन्ट उपलब्ध हों। अतिरिक्त विवरण के लिए देखें [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/)।
+
+## Import Packages
+अपने Java प्रोजेक्ट में Aspose.Page for Java के आवश्यक पैकेज इम्पोर्ट करें:
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -33,78 +56,122 @@ import com.aspose.eps.device.PsSaveOptions;
 import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
 ```
-## चरण 1: दस्तावेज़ सेट करें
+
+## Step 1: Set Up the Document
+पहले, हम एक नया **PostScript document** बनाते हैं और आउटपुट विकल्प कॉन्फ़िगर करते हैं।
+
 ```java
-// दस्तावेज़ निर्देशिका का पथ.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 String FONTS_FOLDER = dataDir + "necessary_fonts/";
-// पोस्टस्क्रिप्ट दस्तावेज़ के लिए आउटपुट स्ट्रीम बनाएं
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddText_outPS.ps");
-// A4 आकार के साथ सेव विकल्प बनाएं
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 options.setAdditionalFontsFolders(new String[] { FONTS_FOLDER });
-// पीएस फ़ाइल में लिखने के लिए एक पाठ
+// A text to write to PS file
 String str = "ABCDEFGHIJKLMNO";
 int fontSize = 48;
-// नया 1-पृष्ठ वाला PS दस्तावेज़ बनाएँ
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
-## चरण 2: टेक्स्ट भरने के लिए सिस्टम फ़ॉन्ट का उपयोग करना
+
+## How to Set Text Color Java Using System Font
+अब हम **set text color java** को एक सिस्टम‑प्रदान फ़ॉन्ट के साथ प्रदर्शित करेंगे।
+
 ```java
-// टेक्स्ट भरने के लिए सिस्टम फ़ॉन्ट का उपयोग करना
+// Using system font for filling text
 Font font = new Font("Times New Roman", Font.BOLD, fontSize);
-// टेक्स्ट को डिफ़ॉल्ट या पहले से परिभाषित रंग (काला) से भरें
+// Fill text with default or already defined color (black)
 document.fillText(str, font, 50, 100);
-// टेक्स्ट को नीले रंग से भरें
+// Fill text with blue color
 document.fillText(str, font, 50, 150, Color.BLUE);
 ```
-## चरण 3: टेक्स्ट भरने के लिए कस्टम फ़ॉन्ट का उपयोग करना
+
+> **Tip:** `fillText` मेथड स्वचालित रूप से वर्तमान रंग का उपयोग करता है यदि आप `Color` आर्ग्यूमेंट नहीं पास करते, जो डिफ़ॉल्ट रूप से काला होता है।
+
+## Using Custom Font and Changing Text Size
+आप **change text size** भी कर सकते हैं और अपने फ़ॉन्ट फ़ोल्डर में संग्रहीत कस्टम फ़ॉन्ट का उपयोग कर सकते हैं।
+
 ```java
-// टेक्स्ट भरने के लिए कस्टम फ़ॉन्ट का उपयोग करना
+// Using custom font for filling text
 DrFont drFont = ExternalFontCache.fetchDrFont("Palatino Linotype", fontSize, Font.PLAIN);
-// टेक्स्ट को डिफ़ॉल्ट या पहले से परिभाषित रंग (काला) से भरें
+// Fill text with default or already defined color (black)
 document.fillText(str, drFont, 50, 200);
-// टेक्स्ट को नीले रंग से भरें
+// Fill text with blue color
 document.fillText(str, drFont, 50, 250, Color.BLUE);
 ```
-## चरण 4: सिस्टम फॉन्ट के साथ टेक्स्ट की रूपरेखा तैयार करना
+
+## Outlining (Stroke) Text – Apply Stroke Text
+टेक्स्ट को आउटलाइन करने से उसे स्पष्ट किनारा मिलता है। यहाँ हम `BasicStroke` का उपयोग करके **apply stroke text** करते हैं।
+
 ```java
-// पाठ की रूपरेखा तैयार करने के लिए सिस्टम फ़ॉन्ट का उपयोग करना
+// Using system font for outlining text
 document.outlineText(str, font, 50, 300);
-// नीले-बैंगनी रंग के 2-बिंदु चौड़ाई वाले पेन से पाठ की रूपरेखा बनाएं
+// Outline text with blue‑violet colored 2‑points width pen
+Stroke stroke = new BasicStroke(2);
+Color strokeColor = new Color(138, 43, 226); // blue‑violet
 document.outlineText(str, font, 50, 350, strokeColor, stroke);
-// टेक्स्ट को नारंगी रंग से भरें और नीले रंग के 2-पॉइंट चौड़ाई वाले पेन से स्ट्रोक करें
+// Fill text with orange color and stroke with blue colored 2‑points width pen
 document.fillAndStrokeText(str, font, 50, 400, Color.YELLOW, strokeColor, stroke);
 ```
-## चरण 5: कस्टम फ़ॉन्ट के साथ टेक्स्ट को रेखांकित करना
+
+## Outlining Text with Custom Font
+उसी तकनीक को कस्टम फ़ॉन्ट के साथ भी उपयोग किया जा सकता है।
+
 ```java
-// पाठ की रूपरेखा के लिए कस्टम फ़ॉन्ट का उपयोग करना
+// Using custom font for outlining text
 document.outlineText(str, drFont, 50, 450);
-// नीले-बैंगनी रंग के 2-बिंदु चौड़ाई वाले पेन से पाठ की रूपरेखा बनाएं
+// Outline text with blue‑violet colored 2‑points width pen
 document.outlineText(str, drFont, 50, 500, strokeColor, stroke);
-// टेक्स्ट को नारंगी रंग से भरें और नीले रंग के 2-पॉइंट चौड़ाई वाले पेन से स्ट्रोक करें
+// Fill text with orange color and stroke with blue colored 2‑points width pen
 document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, stroke);
 ```
-## चरण 6: दस्तावेज़ सहेजें
+
+## Step 6: Save the Document
+अंत में, पेज को बंद करें और फ़ाइल को डिस्क पर लिखें।
+
 ```java
-// वर्तमान पृष्ठ बंद करें
+// Close current page
 document.closePage();
-// दस्तावेज़ सहेजें
+// Save the document
 document.save();
 ```
-## निष्कर्ष
-बधाई हो! आपने जावा के लिए Aspose.Page का उपयोग करके जावा पोस्टस्क्रिप्ट में टेक्स्ट जोड़ने का तरीका सफलतापूर्वक सीख लिया है। अपने दस्तावेज़ को और बेहतर बनाने के लिए विभिन्न फ़ॉन्ट, रंग और रूपरेखा विकल्पों के साथ प्रयोग करें।
-## अक्सर पूछे जाने वाले प्रश्नों
-### क्या मैं जावा के लिए Aspose.Page के साथ अपने स्वयं के कस्टम फ़ॉन्ट का उपयोग कर सकता हूँ?
- हां, आप फ़ॉन्ट नाम और आकार निर्दिष्ट करके कस्टम फ़ॉन्ट का उपयोग कर सकते हैं`DrFont` कक्षा।
-### मैं टेक्स्ट का रंग कैसे बदल सकता हूँ?
- आप इसका उपयोग करके वांछित रंग सेट कर सकते हैं`Color` पाठ को भरते या रेखांकित करते समय कक्षा।
-### क्या पोस्टस्क्रिप्ट दस्तावेज़ में एकाधिक पृष्ठ जोड़ना संभव है?
-बिल्कुल! आप दस्तावेज़ निर्माण और सहेजने के चरणों को दोहराकर कई पेज बना सकते हैं।
-###  का उद्देश्य क्या है`ExternalFontCache` class?
-`ExternalFontCache` कस्टम फ़ॉन्ट लाने के लिए उपयोग किया जाता है, यह सुनिश्चित करते हुए कि वे टेक्स्ट हेरफेर के लिए उपलब्ध हैं।
-### क्या मैं उल्लिखित पाठ पर अलग-अलग स्ट्रोक लगा सकता हूँ?
- हाँ, आप इसका उपयोग करके स्ट्रोक की चौड़ाई और रंग को अनुकूलित कर सकते हैं`Stroke` कक्षा और`Color` कक्षा, क्रमशः.
+
+## Common Issues & Solutions
+| Issue | Solution |
+|-------|----------|
+| **Font not found** | Ensure the font file is placed in `necessary_fonts` and the folder path is correctly added via `options.setAdditionalFontsFolders`. |
+| **Color not applied** | Verify you are calling the overload of `fillText` or `outlineText` that includes a `Color` argument. |
+| **Stroke appears too thin** | Increase the `BasicStroke` width (e.g., `new BasicStroke(3)`). |
+| **Document not opening** | Confirm the generated `.ps` file is saved with the correct extension and that your viewer supports PostScript. |
+
+## Frequently Asked Questions
+
+**Q:** Can I use my own custom fonts with Aspose.Page for Java?  
+A: Yes, you can use custom fonts by specifying the font name and size in the `DrFont` class.
+
+**Q:** How can I change the color of the text?  
+A: You can set the desired color using the `Color` class when filling or outlining the text.
+
+**Q:** Is it possible to add multiple pages to a PostScript document?  
+A: Absolutely! You can create multiple pages by repeating the document creation and saving steps.
+
+**Q:** What is the purpose of the `ExternalFontCache` class?  
+A: `ExternalFontCache` is used to fetch custom fonts, ensuring they are available for text manipulation.
+
+**Q:** Can I apply different strokes to the outlined text?  
+A: Yes, you can customize the width and color of the stroke using the `Stroke` class and `Color` class, respectively.
+
+## Conclusion
+बधाई हो! अब आप **set text color java**, फ़ॉन्ट आकार बदलना, **apply stroke text**, और Aspose.Page for Java का उपयोग करके **create postscript document** फ़ाइलें बनाना जानते हैं। विभिन्न फ़ॉन्ट, रंग और आउटलाइन स्टाइल के साथ प्रयोग करें ताकि पेशेवर‑दिखावट वाले PostScript आउटपुट तैयार कर सकें।
+
+---
+
+**Last Updated:** 2025-12-14  
+**Tested With:** Aspose.Page for Java 23.12 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

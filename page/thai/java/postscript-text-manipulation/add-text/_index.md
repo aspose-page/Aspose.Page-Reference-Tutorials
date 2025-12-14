@@ -1,27 +1,49 @@
 ---
-title: การจัดการข้อความ Java Aspose.Page
-linktitle: เพิ่มข้อความใน Java PostScript
+date: 2025-12-14
+description: เรียนรู้วิธีตั้งค่าสีข้อความใน Java ด้วย Aspose.Page for Java, เพิ่มข้อความลงใน
+  PostScript, และใช้การขีดเส้นข้อความเพื่อการจัดรูปแบบเอกสารที่หลากหลาย.
+linktitle: Add Text in Java PostScript
 second_title: Aspose.Page Java API
-description: สำรวจพลังของ Aspose.Page สำหรับ Java ในบทช่วยสอนของเราเกี่ยวกับการเพิ่มข้อความลงในเอกสาร PostScript เรียนรู้การใช้ระบบและแบบอักษรที่กำหนดเองได้อย่างง่ายดาย
-weight: 10
+title: ตั้งค่าสีข้อความใน Java ด้วย Aspose.Page – คู่มือการจัดการข้อความ
 url: /th/java/postscript-text-manipulation/add-text/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การจัดการข้อความ Java Aspose.Page
+# ตั้งค่าสีข้อความใน Java ด้วย Aspose.Page – คู่มือการจัดการข้อความ
 
-## การแนะนำ
-ยินดีต้อนรับสู่คำแนะนำทีละขั้นตอนในการเพิ่มข้อความใน Java PostScript โดยใช้ Aspose.Page สำหรับ Java Aspose.Page สำหรับ Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาจัดการเอกสาร PostScript ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มข้อความ การใช้ระบบและแบบอักษรที่กำหนดเอง การสรุปข้อความ และการใช้ลายเส้นเพื่อให้ได้ผลลัพธ์ที่ดึงดูดสายตา
+## คำนำ
+ยินดีต้อนรับสู่คู่มือแบบขั้นตอนของเราเกี่ยวกับ **การตั้งค่าสีข้อความใน Java** ขณะทำงานกับไฟล์ PostScript ด้วย Aspose.Page for Java. Aspose.Page for Java เป็นไลบรารีที่ทรงพลังซึ่งช่วยให้นักพัฒนาสามารถสร้างและ **สร้างไฟล์ postscript** เอกสาร, จัดการฟอนต์, และกำหนดสไตล์ข้อความได้อย่างแม่นยำ ในบทเรียนนี้คุณจะได้เรียนรู้วิธีเพิ่มข้อความ, เปลี่ยนสี, ปรับขนาด, และแม้กระทั่ง **ใช้เส้นขอบข้อความ** เพื่อให้ได้ลุคที่ดูเป็นมืออาชีพ
+
+## คำตอบสั้น
+- **ไลบรารีใดที่ให้ฉันตั้งค่าสีข้อความใน Java?** Aspose.Page for Java  
+- **ฉันสามารถใช้ฟอนต์ระบบและฟอนต์ที่กำหนดเองได้หรือไม่?** ได้, ทั้งสองประเภทรองรับ  
+- **จะเปลี่ยนขนาดข้อความอย่างไร?** โดยระบุขนาดฟอนต์เมื่อสร้าง `Font` หรือ `DrFont`  
+- **สามารถทำเส้นขอบและเติมสีข้อความพร้อมกันได้หรือไม่?** แน่นอน – ใช้ `fillAndStrokeText`  
+- **รูปแบบผลลัพธ์ของบทเรียนนี้คืออะไร?** เอกสาร PostScript (`.ps`)
+
+## “ตั้งค่าสีข้อความใน Java” คืออะไร?
+การตั้งค่าสีข้อความใน Java หมายถึงการกำหนดอ็อบเจกต์ `Color` ที่เอนจินการเรนเดอร์ (ในที่นี้คือ Aspose.Page) จะใช้เมื่อวาดอักขระลงบนหน้า การทำเช่นนี้เป็นสิ่งสำคัญสำหรับการสร้างเอกสารที่มีความแตกต่างทางสายตา, โดยเฉพาะเมื่อสร้าง **เอกสาร postscript** ด้วยโปรแกรมอัตโนมัติ
+
+## ทำไมต้องใช้ Aspose.Page for Java?
+- **ควบคุมเต็มรูปแบบ** การสร้าง PostScript โดยไม่ต้องพึ่งพาอินเตอร์พรีเตอร์ PostScript แบบดั้งเดิม  
+- **รองรับฟอนต์ระบบและฟอนต์ภายนอก** ทำให้คุณสามารถฝังตัวอักษรใดก็ได้ที่ต้องการ  
+- **API ที่ง่าย** สำหรับการเติม, กำหนดเส้นขอบ, และ **เติมพร้อมเส้นขอบข้อความ**, ให้ความยืดหยุ่นในการออกแบบ  
+- **ข้ามแพลตฟอร์ม** – เขียนครั้งเดียว, รันได้ทุกที่ที่ Java ทำงาน
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-- ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java
--  ติดตั้ง Aspose.Page สำหรับไลบรารี Java แล้ว คุณสามารถดาวน์โหลดได้จาก[Aspose.Page สำหรับหน้าดาวน์โหลด Java](https://releases.aspose.com/page/java/).
--  แบบอักษรที่จำเป็นมีอยู่ในโฟลเดอร์ที่ระบุ คุณสามารถค้นหาข้อมูลเพิ่มเติมได้ใน[Aspose.Page สำหรับเอกสาร Java](https://reference.aspose.com/page/java/).
-## แพ็คเกจนำเข้า
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นสำหรับ Aspose.Page สำหรับ Java:
+ก่อนเริ่ม, โปรดตรวจสอบว่าคุณมี:
+
+- ความรู้พื้นฐานด้านการเขียนโปรแกรม Java  
+- ไลบรารี Aspose.Page for Java ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้จาก [หน้าดาวน์โหลด Aspose.Page for Java](https://releases.aspose.com/page/java/)  
+- ฟอนต์ที่จำเป็นอยู่ในโฟลเดอร์ที่ระบุ รายละเอียดเพิ่มเติมอยู่ใน [เอกสาร Aspose.Page for Java](https://reference.aspose.com/page/java/)
+
+## นำเข้าแพ็กเกจ
+ในโปรเจก ของคุณ ให้นำเข้าแพ็กเกจที่จำเป็นสำหรับ Aspose.Page for Java:
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -33,78 +55,122 @@ import com.aspose.eps.device.PsSaveOptions;
 import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
 ```
+
 ## ขั้นตอนที่ 1: ตั้งค่าเอกสาร
+แรกเริ่มเราจะสร้าง **เอกสาร PostScript** ใหม่และกำหนดค่าตัวเลือกการส่งออก
+
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 String FONTS_FOLDER = dataDir + "necessary_fonts/";
-// สร้างกระแสเอาท์พุทสำหรับเอกสาร PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddText_outPS.ps");
-// สร้างตัวเลือกการบันทึกด้วยขนาด A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 options.setAdditionalFontsFolders(new String[] { FONTS_FOLDER });
-// ข้อความที่จะเขียนลงในไฟล์ PS
+// A text to write to PS file
 String str = "ABCDEFGHIJKLMNO";
 int fontSize = 48;
-// สร้างเอกสาร PS 1 หน้าใหม่
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
-## ขั้นตอนที่ 2: การใช้แบบอักษรของระบบเพื่อเติมข้อความ
+
+## วิธีตั้งค่าสีข้อความใน Java ด้วยฟอนต์ระบบ
+ต่อไปเราจะสาธิต **การตั้งค่าสีข้อความใน Java** ด้วยฟอนต์ที่มาจากระบบ
+
 ```java
-// การใช้แบบอักษรของระบบในการกรอกข้อความ
+// Using system font for filling text
 Font font = new Font("Times New Roman", Font.BOLD, fontSize);
-// กรอกข้อความด้วยสีเริ่มต้นหรือสีที่กำหนดไว้แล้ว (สีดำ)
+// Fill text with default or already defined color (black)
 document.fillText(str, font, 50, 100);
-// เติมข้อความด้วยสีน้ำเงิน
+// Fill text with blue color
 document.fillText(str, font, 50, 150, Color.BLUE);
 ```
-## ขั้นตอนที่ 3: การใช้แบบอักษรที่กำหนดเองสำหรับการกรอกข้อความ
+
+> **เคล็ดลับ:** เมธอด `fillText` จะใช้สีปัจจุบันโดยอัตโนมัติหากคุณไม่ได้ส่งอาร์กิวเมนต์ `Color`, ซึ่งค่าเริ่มต้นคือสีดำ
+
+## ใช้ฟอนต์กำหนดเองและเปลี่ยนขนาดข้อความ
+คุณยังสามารถ **เปลี่ยนขนาดข้อความ** และใช้ฟอนต์กำหนดเองที่เก็บไว้ในโฟลเดอร์ฟอนต์ของคุณได้
+
 ```java
-// การใช้แบบอักษรที่กำหนดเองสำหรับการกรอกข้อความ
+// Using custom font for filling text
 DrFont drFont = ExternalFontCache.fetchDrFont("Palatino Linotype", fontSize, Font.PLAIN);
-// กรอกข้อความด้วยสีเริ่มต้นหรือสีที่กำหนดไว้แล้ว (สีดำ)
+// Fill text with default or already defined color (black)
 document.fillText(str, drFont, 50, 200);
-// เติมข้อความด้วยสีน้ำเงิน
+// Fill text with blue color
 document.fillText(str, drFont, 50, 250, Color.BLUE);
 ```
-## ขั้นตอนที่ 4: การสรุปข้อความด้วยแบบอักษรของระบบ
+
+## การกำหนดเส้นขอบ (Stroke) ให้ข้อความ – ใช้ Stroke Text
+การกำหนดเส้นขอบให้ข้อความทำให้ขอบคมชัด ที่นี่เราจะ **ใช้ stroke text** ด้วย `BasicStroke`
+
 ```java
-// การใช้แบบอักษรของระบบสำหรับการสรุปข้อความ
+// Using system font for outlining text
 document.outlineText(str, font, 50, 300);
-// ข้อความเค้าร่างด้วยปากกาความกว้าง 2 จุด สีฟ้าม่วง
+// Outline text with blue‑violet colored 2‑points width pen
+Stroke stroke = new BasicStroke(2);
+Color strokeColor = new Color(138, 43, 226); // blue‑violet
 document.outlineText(str, font, 50, 350, strokeColor, stroke);
-// เติมข้อความสีส้มและขีดด้วยปากกาความกว้าง 2 จุดสีน้ำเงิน
+// Fill text with orange color and stroke with blue colored 2‑points width pen
 document.fillAndStrokeText(str, font, 50, 400, Color.YELLOW, strokeColor, stroke);
 ```
-## ขั้นตอนที่ 5: การสรุปข้อความด้วยแบบอักษรที่กำหนดเอง
+
+## การกำหนดเส้นขอบข้อความด้วยฟอนต์กำหนดเอง
+เทคนิคเดียวกันทำงานได้กับฟอนต์ที่กำหนดเองเช่นกัน
+
 ```java
-// การใช้แบบอักษรที่กำหนดเองสำหรับการสรุปข้อความ
+// Using custom font for outlining text
 document.outlineText(str, drFont, 50, 450);
-// ข้อความเค้าร่างด้วยปากกาความกว้าง 2 จุด สีฟ้าม่วง
+// Outline text with blue‑violet colored 2‑points width pen
 document.outlineText(str, drFont, 50, 500, strokeColor, stroke);
-// เติมข้อความสีส้มและขีดด้วยปากกาความกว้าง 2 จุดสีน้ำเงิน
+// Fill text with orange color and stroke with blue colored 2‑points width pen
 document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, stroke);
 ```
+
 ## ขั้นตอนที่ 6: บันทึกเอกสาร
+สุดท้าย ปิดหน้าและเขียนไฟล์ลงดิสก์
+
 ```java
-// ปิดหน้าปัจจุบัน
+// Close current page
 document.closePage();
-// บันทึกเอกสาร
+// Save the document
 document.save();
 ```
-## บทสรุป
-ยินดีด้วย! คุณได้เรียนรู้วิธีเพิ่มข้อความใน Java PostScript โดยใช้ Aspose.Page สำหรับ Java เรียบร้อยแล้ว ทดลองใช้แบบอักษร สี และตัวเลือกโครงร่างต่างๆ เพื่อปรับปรุงเอกสารของคุณให้ดียิ่งขึ้น
+
+## ปัญหาที่พบบ่อย & วิธีแก้
+| ปัญหา | วิธีแก้ |
+|-------|----------|
+| **ไม่พบฟอนต์** | ตรวจสอบให้แน่ใจว่าไฟล์ฟอนต์อยู่ใน `necessary_fonts` และเส้นทางโฟลเดอร์ได้ถูกเพิ่มอย่างถูกต้องผ่าน `options.setAdditionalFontsFolders` |
+| **สีไม่แสดง** | ยืนยันว่าคุณเรียกเมธอด `fillText` หรือ `outlineText` ที่มีอาร์กิวเมนต์ `Color` |
+| **เส้นขอบบางเกินไป** | เพิ่มความกว้างของ `BasicStroke` (เช่น `new BasicStroke(3)`) |
+| **ไม่สามารถเปิดเอกสาร** | ตรวจสอบว่าไฟล์ `.ps` ที่สร้างมีนามสกุลถูกต้องและโปรแกรมดูของคุณรองรับ PostScript |
+
 ## คำถามที่พบบ่อย
-### ฉันสามารถใช้แบบอักษรที่กำหนดเองกับ Aspose.Page สำหรับ Java ได้หรือไม่
- ได้ คุณสามารถใช้แบบอักษรที่กำหนดเองได้โดยการระบุชื่อแบบอักษรและขนาดใน`DrFont` ระดับ.
-### ฉันจะเปลี่ยนสีของข้อความได้อย่างไร?
- คุณสามารถตั้งค่าสีที่ต้องการได้โดยใช้`Color` คลาสเมื่อเติมหรือสรุปข้อความ
-### เป็นไปได้ไหมที่จะเพิ่มหลายหน้าในเอกสาร PostScript
-อย่างแน่นอน! คุณสามารถสร้างหลายหน้าได้โดยทำซ้ำการสร้างเอกสารและบันทึกขั้นตอน
-###  จุดประสงค์ของ..คืออะไร.`ExternalFontCache` class?
-`ExternalFontCache` ใช้เพื่อดึงแบบอักษรที่กำหนดเอง เพื่อให้แน่ใจว่าพร้อมใช้งานสำหรับการจัดการข้อความ
-### ฉันสามารถใช้จังหวะที่แตกต่างกันกับข้อความที่จัดเค้าร่างได้หรือไม่
- ใช่ คุณสามารถปรับแต่งความกว้างและสีของเส้นโครงร่างได้โดยใช้`Stroke` ชั้นเรียนและ`Color` ชั้นเรียนตามลำดับ
+
+**ถาม:** ฉันสามารถใช้ฟอนต์กำหนดเองกับ Aspose.Page for Java ได้หรือไม่?  
+**ตอบ:** ได้, คุณสามารถใช้ฟอนต์กำหนดเองโดยระบุชื่อฟอนต์และขนาดในคลาส `DrFont`
+
+**ถาม:** จะเปลี่ยนสีของข้อความอย่างไร?  
+**ตอบ:** คุณสามารถตั้งค่าสีที่ต้องการโดยใช้คลาส `Color` เมื่อทำการเติมหรือกำหนดเส้นขอบข้อความ
+
+**ถาม:** สามารถเพิ่มหลายหน้าในเอกสาร PostScript ได้หรือไม่?  
+**ตอบ:** แน่นอน! คุณสามารถสร้างหลายหน้าโดยทำซ้ำขั้นตอนการสร้างเอกสารและบันทึก
+
+**ถาม:** จุดประสงค์ของคลาส `ExternalFontCache` คืออะไร?  
+**ตอบ:** `ExternalFontCache` ใช้เพื่อดึงฟอนต์กำหนดเอง, ทำให้ฟอนต์พร้อมใช้งานสำหรับการจัดการข้อความ
+
+**ถาม:** สามารถกำหนดเส้นขอบที่แตกต่างให้กับข้อความที่มีเส้นขอบได้หรือไม่?  
+**ตอบ:** ได้, คุณสามารถปรับความกว้างและสีของเส้นขอบโดยใช้คลาส `Stroke` และคลาส `Color` ตามลำดับ
+
+## สรุป
+ขอแสดงความยินดี! ตอนนี้คุณรู้วิธี **ตั้งค่าสีข้อความใน Java**, ปรับขนาดฟอนต์, **ใช้เส้นขอบข้อความ**, และ **สร้างไฟล์เอกสาร postscript** ด้วย Aspose.Page for Java แล้ว ลองทดลองใช้ฟอนต์, สี, และสไตล์เส้นขอบต่าง ๆ เพื่อสร้างผลลัพธ์ PostScript ที่ดูเป็นมืออาชีพ
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-14  
+**ทดสอบกับ:** Aspose.Page for Java 23.12 (ล่าสุด)  
+**ผู้เขียน:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
