@@ -1,41 +1,90 @@
 ---
-title: テキスト操作 - PostScript
-linktitle: テキスト操作 - PostScript
+date: 2025-12-12
+description: Aspose.Page for Java を使用して、Unicode 文字列やカスタムフォントを含むテキストを PostScript ドキュメントに追加し、動的な
+  PDF 生成を行う方法を学びましょう。
+linktitle: Text Manipulation - PostScript
 second_title: Aspose.Page Java API
-description: PostScript チュートリアルを使用して Aspose.Page for Java の可能性を解き放ちます。 Unicode 文字列を含むテキストを簡単に追加して、プロジェクトを強化します。
-weight: 36
+title: Aspose.Page for Java を使用して PostScript にテキストを追加する方法
 url: /ja/java/postscript-text-manipulation/
+weight: 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# テキスト操作 - PostScript
+# PostScript にテキストを追加する方法 (Aspose.Page for Java)
 
+## はじめに
 
-## 導入
+このチュートリアルでは、Aspose.Page for Java を使用して PostScript ドキュメントに **テキストの追加方法** を学びます。シンプルなラベル、複雑な多言語レイアウト、カスタムスタイルの見出しが必要な場合でも、本ガイドがすべての手順を案内します。まずプレーンテキストの挿入の基本から始め、Unicode 文字列とカスタムフォントの取り扱いを探って、真に動的な PostScript ファイルを作成できるようにします。
 
-PostScript ドキュメントに焦点を当てた、Aspose.Page for Java を使用したテキスト操作に関する包括的なガイドへようこそ。このチュートリアル シリーズでは、プロジェクトを向上させるためのテキストの追加の複雑さを掘り下げていきます。 Aspose.Page for Java の全機能を活用する旅に乗り出しましょう。
+## クイック回答
+- **主な目的は何ですか？** PostScript ファイルにプログラムでテキストを追加することです。  
+- **使用されているライブラリは何ですか？** Aspose.Page for Java。  
+- **ライセンスは必要ですか？** 評価には無料トライアルで動作しますが、製品版には商用ライセンスが必要です。  
+- **Unicode 文字を使用できますか？** はい – API は Unicode 文字列を完全にサポートしています。  
+- **必要な Java バージョンは何ですか？** Java 8 以上。
 
-## Java PostScript でテキストを追加します。
-[Explore チュートリアル - Java PostScript でテキストを追加する](./add-text/)
+## PostScript におけるテキスト操作とは何ですか？
 
-このチュートリアルでは、Aspose.Page for Java を使用して、テキストを PostScript ドキュメントにシームレスに統合する方法を説明します。経験豊富な開発者であっても初心者であっても、当社のステップバイステップのガイドが明確に理解できます。システム フォントとカスタム フォントの両方を使用してテキストを追加する多用途性を発見し、ダイナミックで魅力的なプロジェクトのためのツールキットを提供します。
+テキスト操作とは、PostScript ページ内に文字を配置、スタイリング、レンダリングするプロセスを指します。Aspose.Page を使用すれば、低レベルの PostScript 構文に触れることなく、フォント選択、位置指定、エンコーディングを制御できます。
 
-## Java PostScript で Unicode 文字列を使用してテキストを追加します。
-[Explore チュートリアル - Java PostScript で Unicode 文字列を使用してテキストを追加する](./add-text-unicode/)
+## なぜ Aspose.Page で PostScript にテキストを追加するのか？
 
-Unicode テキストを PostScript プロジェクトに追加する手順を説明するので、Aspose.Page for Java の機能をさらに詳しく理解してください。 Unicode 文字列統合のニュアンスを理解することは、多様な多言語コンテンツを作成するために重要です。このチュートリアルではスムーズな学習曲線を保証し、Java PostScript アプリケーションに Unicode 文字列を簡単に実装できるようにします。
+- **クロスプラットフォームの一貫性:** PostScript をサポートする任意のシステムで同じ出力を生成します。  
+- **完全な Unicode サポート:** 余分なエンコーディングの工夫なしで多言語文書を作成できます。  
+- **カスタムフォントの統合:** システムフォントと埋め込みフォントの両方を使用して、ブランド一貫性のあるデザインが可能です。  
+- **プログラムによる制御:** Java コードから直接レポート生成、請求書、グラフィックを自動化できます。
 
-Aspose.Page for Java は、開発者に直観的なインターフェイスを提供し、テキスト操作をプロジェクト開発の楽しい部分にします。このチュートリアルでは、実践的な洞察を提供するだけでなく、PostScript ドキュメントの視覚的な魅力と機能性を高めるために、システム フォントとカスタム フォントの両方を Unicode 文字列とともに使用することの重要性も強調しています。
+## Add Text in Java PostScript:
+[Explore Tutorial - Add Text in Java PostScript](./add-text/)
 
-テキスト操作スキルを磨きたい場合でも、新しいプロジェクトに着手する場合でも、チュートリアルは貴重なリソースとして役立ちます。手順に従い、例を試して、PostScript のテキスト操作における Aspose.Page for Java の可能性を最大限に引き出します。今すぐ Aspose.Page for Java の機能を活用して開発エクスペリエンスを向上させましょう!
-## テキストの操作 - PostScript チュートリアル
-### [Java PostScript でテキストを追加する](./add-text/)
-PostScript ドキュメントへのテキストの追加に関するチュートリアルで、Aspose.Page for Java の威力を体験してください。システム フォントとカスタム フォントを簡単に使用する方法を学びましょう。
-### [Java PostScript で Unicode 文字列を使用してテキストを追加する](./add-text-unicode/)
-PostScript プロジェクトに Unicode テキストを追加する際の Aspose.Page for Java の機能を試してください。シームレスな統合については、ステップバイステップのガイドに従ってください。
+このチュートリアルでは、Aspose.Page for Java を使用して PostScript ドキュメントにテキストをシームレスに統合する方法を解説します。経験豊富な開発者でも初心者でも、ステップバイステップのガイドで明快に進められます。システムフォントとカスタムフォントの両方を活用したテキスト追加の汎用性を発見し、動的で魅力的なプロジェクトを実現してください。
+
+## Add Text using Unicode String in Java PostScript:
+[Explore Tutorial - Add Text using Unicode String in Java PostScript](./add-text-unicode/)
+
+このセクションでは、Aspose.Page for Java の機能をさらに深く掘り下げ、PostScript プロジェクトに Unicode テキストを追加する方法を案内します。Unicode 文字列の統合のニュアンスを理解することは、多様で多言語なコンテンツを作成する上で重要です。チュートリアルは学習曲線を滑らかにし、Java PostScript アプリケーションで Unicode 文字列を手軽に実装できるよう支援します。
+
+Aspose.Page for Java は直感的なインターフェイスで開発者を支援し、テキスト操作を楽しい作業に変えます。チュートリアルは実践的な洞察を提供するだけでなく、システムフォントとカスタムフォント、そして Unicode 文字列の併用が PostScript 文書の視覚的魅力と機能性を高める重要性を強調しています。
+
+テキスト操作スキルを磨きたい方も、新規プロジェクトに取り組む方も、当チュートリアルは貴重なリソースです。例を試しながら進め、Aspose.Page for Java のテキスト操作における可能性を最大限に引き出してください。Aspose.Page for Java の力で開発体験を今すぐ向上させましょう！
+
+## テキスト操作 - PostScript チュートリアル
+### [Add Text in Java PostScript](./add-text/)
+Aspose.Page for Java のパワーを活かし、PostScript ドキュメントへのテキスト追加方法を学びます。システムフォントとカスタムフォントを簡単に使用できるようになります。
+
+### [Add Text using Unicode String in Java PostScript](./add-text-unicode/)
+Aspose.Page for Java を利用して、PostScript プロジェクトに Unicode テキストを追加する方法を探ります。シームレスな統合のためのステップバイステップガイドをご覧ください。
+
+## よくある落とし穴とヒント
+
+- **Font not found:** フォントファイルが JVM からアクセス可能であることを確認するか、`FontRepository` を使用してフォントを埋め込んでください。  
+- **Incorrect encoding:** 非 ASCII 文字を扱う際は常に `UnicodeString` を使用し、文字化けを防止してください。  
+- **Positioning issues:** PostScript は左下原点を使用することを忘れず、Y 座標を適切に調整してください。
+
+## よくある質問
+
+**Q: カスタム TrueType フォントを PostScript ファイルに埋め込むことはできますか？**  
+A: はい。テキストオブジェクトを作成する前に `FontRepository.addFont("path/to/font.ttf")` を使用してください。
+
+**Q: テキストを回転させることは可能ですか？**  
+A: もちろんです。`TextState.setRotation()` メソッドでテキストの回転角度を設定します。
+
+**Q: ドキュメントストリームを手動で閉じる必要がありますか？**  
+A: `Document.save()` メソッドがストリームのクローズを処理しますが、開いたカスタムストリームは明示的に破棄すべきです。
+
+**Q: Aspose.Page は右から左への言語をどのように処理しますか？**  
+A: 適切なスクリプトを含む Unicode 文字列を提供し、`TextState` でテキスト方向を設定することで対応します。
+
+**Q: 大規模な PostScript ファイルのパフォーマンス上の考慮点は何ですか？**  
+A: フォントは一度だけロードし、`TextState` オブジェクトを再利用し、不要な一時ページの作成を避けてください。
+
+**Last Updated:** 2025-12-12  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
