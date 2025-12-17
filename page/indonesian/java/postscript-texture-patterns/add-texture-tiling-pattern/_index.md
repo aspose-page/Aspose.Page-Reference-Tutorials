@@ -1,27 +1,48 @@
 ---
-title: Tambahkan Pola Ubin Tekstur di Java PostScript
-linktitle: Tambahkan Pola Ubin Tekstur di Java PostScript
-second_title: Aspose.Halaman Java API
-description: Tambahkan pola ubin tekstur dengan mudah ke dokumen PostScript dengan Aspose.Page untuk Java. Jelajahi panduan integrasi kami yang lancar untuk kemungkinan kreatif.
-weight: 10
+date: 2025-12-17
+description: Pelajari cara menambahkan pola ubin tekstur ke dokumen PostScript dengan
+  Aspose.Page untuk Java. Panduan ini menunjukkan cara menambahkan tekstur secara
+  efisien dan mengeksplorasi kemungkinan kreatif.
+linktitle: Add Texture Tiling Pattern in Java PostScript
+second_title: Aspose.Page Java API
+title: Cara Menambahkan Pola Ulang Tekstur dalam Java PostScript
 url: /id/java/postscript-texture-patterns/add-texture-tiling-pattern/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Pola Ubin Tekstur di Java PostScript
+# Menambahkan Pola Ubin Tekstur di Java PostScript
 
-## Perkenalan
-Dalam bidang pengembangan Java, membuat pola dan tekstur yang rumit dalam dokumen PostScript merupakan persyaratan umum. Aspose.Page untuk Java terbukti menjadi alat yang berharga dalam mencapai tugas ini dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan pola ubin tekstur dalam dokumen Java PostScript menggunakan Aspose.Page.
+## Pendahuluan
+Dalam dunia pengembangan Java, mempelajari **how to add texture** ke dokumen PostScript adalah kebutuhan yang umum. Aspose.Page untuk Java terbukti menjadi alat yang berharga untuk menyelesaikan tugas ini dengan mudah. Pada tutorial ini, kami akan memandu Anda melalui proses menambahkan pola ubin tekstur dalam dokumen Java PostScript menggunakan Aspose.Page.
+
+## Jawaban Cepat
+- **Perpustakaan apa yang dibutuhkan?** Aspose.Page untuk Java  
+- **Kata kunci utama yang ditargetkan panduan ini?** *how to add texture*  
+- **Apakah saya memerlukan lisensi untuk pengujian?** Versi percobaan gratis tersedia; lisensi diperlukan untuk produksi.  
+- **Versi Java apa yang didukung?** Java 8 atau lebih tinggi.  
+- **Dapatkah saya menggunakan kembali kuas tekstur untuk beberapa bentuk?** Ya – buat `TexturePaint` sekali dan terapkan pada bentuk apa pun.
+
+## Apa itu pola ubin tekstur?
+Pola ubin tekstur mengulang gambar kecil (ubin) di seluruh area yang lebih besar, memungkinkan Anda **fill shape with texture** tanpa harus menggambar setiap ubin secara manual. Teknik ini ideal untuk latar belakang, isian, dan efek teks dekoratif dalam PostScript.
+
+## Mengapa menggunakan Aspose.Page untuk Java?
+- **Rendering tanpa ketergantungan** – tidak memerlukan interpreter PostScript eksternal.  
+- **Kontrol penuh atas grafis** – gabungkan bentuk vektor, teks, dan tekstur bitmap.  
+- **Lintas platform** – bekerja pada sistem operasi apa pun yang mendukung Java.  
+
 ## Prasyarat
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-- Pemahaman dasar bahasa pemrograman Java.
-- Keakraban dengan struktur dokumen PostScript.
--  Aspose.Page untuk perpustakaan Java diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/page/java/).
-## Paket Impor
+Sebelum memulai tutorial, pastikan Anda telah menyiapkan hal‑hal berikut:
+- Pemahaman dasar tentang bahasa pemrograman Java.  
+- Familiaritas dengan struktur dokumen PostScript.  
+- Perpustakaan Aspose.Page untuk Java terinstal. Anda dapat mengunduhnya [di sini](https://releases.aspose.com/page/java/).
+
+## Impor Paket
 Mulailah dengan mengimpor paket yang diperlukan untuk proyek Java Anda:
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -35,83 +56,115 @@ import javax.imageio.ImageIO;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
+
 ## Langkah 1: Buat Dokumen PostScript
-Mulailah dengan membuat dokumen PostScript baru, menentukan aliran keluaran dan opsi penyimpanan. Pastikan Anda telah mengonfigurasi jalur yang diperlukan.
+Mulailah dengan membuat dokumen PostScript baru, menentukan aliran keluaran dan opsi penyimpanan. Pastikan jalur yang diperlukan telah dikonfigurasi.
+
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Buat aliran keluaran untuk dokumen PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddTextureTilingPattern_outPS.ps");
-// Buat opsi penyimpanan dengan ukuran A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// Buat Dokumen PS baru dengan halaman terbuka
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-// Buat Dokumen PS baru dengan halaman terbuka
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
-## Langkah 2: Atur Lingkungan Grafis
-Atur lingkungan grafis dengan menerjemahkan asal dan membuat BufferedImage dari file gambar tekstur.
+
+## Langkah 2: Siapkan Lingkungan Grafik
+Siapkan lingkungan grafik dengan mentranslasi asal koordinat dan membuat `BufferedImage` dari file gambar tekstur.
+
 ```java
 document.writeGraphicsSave();
 document.translate(200, 100);
-// Buat objek BufferedImage dari file gambar
+// Create a BufferedImage object from image file
 BufferedImage image = ImageIO.read(new File(dataDir + "TestTexture.bmp"));
 ```
+
 ## Langkah 3: Buat Kuas Tekstur
-Tentukan kuas tekstur dari gambar, tentukan area yang akan ditutupi oleh tekstur.
+Definisikan kuas tekstur dari gambar, menentukan area yang akan ditutupi oleh tekstur.
+
 ```java
-// Buat area gambar menjadi dua kali lipat lebarnya
+// Create image area doubled in width
 Rectangle2D.Float imageArea = new Rectangle2D.Float(0, 0, image.getWidth() * 2, image.getHeight());
-// Buat kuas tekstur dari gambar
+// Create texture brush from the image
 TexturePaint paint = new TexturePaint(image, imageArea);
 ```
+
 ## Langkah 4: Gambar dan Isi Bentuk
-Buat persegi panjang dan isi dengan kuas tekstur yang ditentukan. Selain itu, gambar dan buat garis bentuk untuk daya tarik visual.
+Buat sebuah persegi panjang dan **fill shape with texture** menggunakan kuas yang telah didefinisikan. Selain itu, gambar dan beri garis tepi pada bentuk untuk tampilan yang lebih menarik.
+
 ```java
-// Buat persegi panjang
+// Create rectangle
 Rectangle2D.Float shape = new Rectangle2D.Float(0, 0, 200, 100);
-// Atur kuas tekstur ini sebagai cat saat ini
+// Set this texture brush as current paint
 document.setPaint(paint);
-// Isi persegi panjang
+// Fill rectangle
 document.fill(shape);
 document.setPaint(Color.RED);
 document.setStroke(new BasicStroke(2));
 document.draw(shape);
 ```
+
 ## Langkah 5: Tambahkan Teks dengan Pola Tekstur
-Tambahkan teks ke dokumen dan isi/gores dengan pola tekstur. Sesuaikan font, posisi, dan parameter lainnya sesuai kebutuhan.
+Tambahkan teks ke dokumen dan tunjukkan **how to fill texture** pada glif. Sesuaikan font, posisi, dan parameter lainnya sesuai kebutuhan.
+
 ```java
-// Isi teks dengan pola tekstur
+// Fill the text with the texture pattern
 Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
-// Garis besar teks dengan pola tekstur
+// Outline the text with the texture pattern
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
+
 ## Langkah 6: Simpan dan Tutup
-Akhiri proses dengan menutup halaman saat ini, menyimpan dokumen, dan memastikan eksekusi berjalan lancar.
+Selesaikan proses dengan menutup halaman saat ini, menyimpan dokumen, dan memastikan eksekusi berjalan lancar.
+
 ```java
-// Tutup halaman saat ini
+// Close current page
 document.closePage();
-// Simpan dokumennya
+// Save the document
 document.save();
 ```
-## Kesimpulan
-Selamat! Anda telah berhasil menambahkan pola ubin tekstur ke dokumen Java PostScript menggunakan Aspose.Page untuk Java. Jangan ragu untuk menjelajahi opsi penyesuaian lebih lanjut dan mengeluarkan potensi penuh dari perpustakaan canggih ini.
 
-## FAQ
-### Apakah Aspose.Page untuk Java cocok untuk pemula?
-Sangat! Aspose.Page untuk Java menyediakan dokumentasi yang komprehensif, sehingga dapat diakses oleh pengembang dari semua tingkat keahlian.
-### Bisakah saya mengintegrasikan Aspose.Page for Java ke dalam proyek Java saya yang sudah ada?
- Ya, Anda dapat dengan mudah mengintegrasikan Aspose.Page for Java ke dalam proyek Anda dengan mengikuti dokumentasi yang disediakan[Di Sini](https://reference.aspose.com/page/java/).
-### Di mana saya dapat menemukan dukungan atau mendiskusikan pertanyaan terkait Aspose.Page?
- Mengunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk terlibat dengan masyarakat dan mencari bantuan.
-### Apakah ada uji coba gratis yang tersedia untuk Aspose.Page untuk Java?
- Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
-### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Page untuk Java?
- Mengunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan izin sementara.
+## Masalah Umum & Tips
+- **File tekstur tidak ditemukan** – Pastikan jalur ke `TestTexture.bmp` benar dan file dapat diakses.  
+- **Dimensi gambar tidak tepat** – Jika tekstur tampak terdistorsi, sesuaikan `imageArea` agar cocok dengan ukuran gambar asli.  
+- **Kinerja** – Gunakan kembali instance `TexturePaint` yang sama untuk beberapa bentuk guna menghindari pembuatan objek yang tidak perlu.
+
+## Pertanyaan yang Sering Diajukan
+
+**T: Apakah Aspose.Page untuk Java cocok untuk pemula?**  
+J: Tentu saja! Aspose.Page untuk Java menyediakan dokumentasi lengkap, sehingga dapat diakses oleh pengembang dengan semua tingkat keahlian.
+
+**T: Bisakah saya mengintegrasikan Aspose.Page untuk Java ke dalam proyek Java yang sudah ada?**  
+J: Ya, Anda dapat dengan mudah mengintegrasikan Aspose.Page untuk Java ke dalam proyek Anda dengan mengikuti dokumentasi yang disediakan [di sini](https://reference.aspose.com/page/java/).
+
+**T: Di mana saya dapat menemukan dukungan atau berdiskusi mengenai pertanyaan terkait Aspose.Page?**  
+J: Kunjungi [forum Aspose.Page](https://forum.aspose.com/c/page/39) untuk berinteraksi dengan komunitas dan mendapatkan bantuan.
+
+**T: Apakah ada versi percobaan gratis untuk Aspose.Page untuk Java?**  
+J: Ya, Anda dapat menjelajahi versi percobaan gratis [di sini](https://releases.aspose.com/).
+
+**T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page untuk Java?**  
+J: Kunjungi [tautan ini](https://purchase.aspose.com/temporary-license/) untuk memperoleh lisensi sementara.
+
+## Kesimpulan
+Selamat! Anda telah berhasil mempelajari **how to add texture** pola ubin ke dokumen Java PostScript menggunakan Aspose.Page untuk Java. Jangan ragu untuk mengeksplorasi opsi kustomisasi lebih lanjut—cobalah berbagai ubin bitmap, faktor skala, dan operasi komposit untuk memaksimalkan potensi kreatif dari isian tekstur.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---

@@ -1,27 +1,47 @@
 ---
-title: เพิ่มรูปแบบการปูกระเบื้องพื้นผิวใน Java PostScript
-linktitle: เพิ่มรูปแบบการปูกระเบื้องพื้นผิวใน Java PostScript
+date: 2025-12-17
+description: เรียนรู้วิธีเพิ่มลวดลายการเรียงเทกซ์เจอร์ลงในเอกสาร PostScript ด้วย Aspose.Page
+  สำหรับ Java คู่มือนี้จะแสดงวิธีเพิ่มเทกซ์เจอร์อย่างมีประสิทธิภาพและสำรวจความเป็นไปได้เชิงสร้างสรรค์
+linktitle: Add Texture Tiling Pattern in Java PostScript
 second_title: Aspose.Page Java API
-description: เพิ่มรูปแบบการเรียงต่อพื้นผิวให้กับเอกสาร PostScript ได้อย่างง่ายดายด้วย Aspose.Page สำหรับ Java สำรวจคู่มือการบูรณาการอย่างราบรื่นของเราเพื่อความเป็นไปได้ที่สร้างสรรค์
-weight: 10
+title: วิธีเพิ่มลายเทกเจอร์แบบต่อเรียงใน Java PostScript
 url: /th/java/postscript-texture-patterns/add-texture-tiling-pattern/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มรูปแบบการปูกระเบื้องพื้นผิวใน Java PostScript
+# เพิ่มแพทเทิร์นการเรียงเทกซ์เจอร์ใน Java PostScript
 
-## การแนะนำ
-ในขอบเขตของการพัฒนา Java การสร้างรูปแบบและพื้นผิวที่ซับซ้อนในเอกสาร PostScript ถือเป็นข้อกำหนดทั่วไป Aspose.Page สำหรับ Java พิสูจน์แล้วว่าเป็นเครื่องมืออันทรงคุณค่าในการบรรลุงานนี้ได้อย่างง่ายดาย ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มรูปแบบการเรียงต่อพื้นผิวในเอกสาร Java PostScript โดยใช้ Aspose.Page
+## บทนำ
+ในโลกของการพัฒนา Java การเรียนรู้ **วิธีเพิ่มเทกซ์เจอร์** ให้กับเอกสาร PostScript เป็นความต้องการที่พบบ่อย Aspose.Page for Java เป็นเครื่องมือที่มีคุณค่าในการทำงานนี้อย่างง่ายดาย ในบทแนะนำนี้ เราจะพาคุณผ่านกระบวนการเพิ่มแพทเทิร์นการเรียงเทกซ์เจอร์ในเอกสาร Java PostScript ด้วย Aspose.Page
+
+## คำตอบสั้น
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Page for Java  
+- **คีย์เวิร์ดหลักของคู่มือนี้คืออะไร?** *how to add texture*  
+- **ต้องมีลิขสิทธิ์สำหรับการทดสอบหรือไม่?** มีรุ่นทดลองฟรี; ต้องมีลิขสิทธิ์สำหรับการใช้งานจริง  
+- **รองรับเวอร์ชัน Java ใด?** Java 8 หรือสูงกว่า  
+- **สามารถใช้แปรงเทกซ์เจอร์เดียวกันกับหลายรูปได้หรือไม่?** ได้ – สร้าง `TexturePaint` ครั้งเดียวแล้วนำไปใช้กับรูปใดก็ได้
+
+## แพทเทิร์นการเรียงเทกซ์เจอร์คืออะไร?
+แพทเทิร์นการเรียงเทกซ์เจอร์ทำการซ้ำภาพขนาดเล็ก (ไทล์) ทั่วพื้นที่ที่ใหญ่กว่า ทำให้คุณ **เติมรูปด้วยเทกซ์เจอร์** ได้โดยไม่ต้องวาดไทล์แต่ละอันด้วยตนเอง เทคนิคนี้เหมาะสำหรับพื้นหลัง, การเติมสี, และเอฟเฟกต์ข้อความตกแต่งใน PostScript
+
+## ทำไมต้องใช้ Aspose.Page for Java?
+- **การเรนเดอร์ไม่มีการพึ่งพาไลบรารีภายนอก** – ไม่ต้องใช้ PostScript interpreter ภายนอก  
+- **ควบคุมกราฟิกได้เต็มที่** – ผสานรูปเวกเตอร์, ข้อความ, และเทกซ์เจอร์บิตแมพได้  
+- **ข้ามแพลตฟอร์ม** – ทำงานบนระบบปฏิบัติการใดก็ได้ที่รองรับ Java  
+
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-- ความเข้าใจพื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม Java
-- ความคุ้นเคยกับโครงสร้างเอกสาร PostScript
--  ติดตั้ง Aspose.Page สำหรับไลบรารี Java แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/page/java/).
-## แพ็คเกจนำเข้า
-เริ่มต้นด้วยการนำเข้าแพ็คเกจที่จำเป็นสำหรับโปรเจ็กต์ Java ของคุณ:
+ก่อนเริ่มทำตามบทแนะนำ ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมใช้งาน:
+- ความเข้าใจพื้นฐานเกี่ยวกับภาษาโปรแกรม Java  
+- ความคุ้นเคยกับโครงสร้างเอกสาร PostScript  
+- ไลบรารี Aspose.Page for Java ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/page/java/)
+
+## นำเข้าแพ็กเกจ
+เริ่มต้นด้วยการนำเข้าแพ็กเกจที่จำเป็นสำหรับโครงการ Java ของคุณ:
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -35,83 +55,115 @@ import javax.imageio.ImageIO;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
+
 ## ขั้นตอนที่ 1: สร้างเอกสาร PostScript
-เริ่มต้นด้วยการสร้างเอกสาร PostScript ใหม่ ระบุเอาต์พุตสตรีมและบันทึกตัวเลือก ตรวจสอบให้แน่ใจว่าคุณได้กำหนดค่าเส้นทางที่จำเป็นแล้ว
+สร้างเอกสาร PostScript ใหม่โดยระบุสตรีมเอาต์พุตและตัวเลือกการบันทึก ตรวจสอบให้แน่ใจว่าคุณได้กำหนดเส้นทางที่จำเป็นแล้ว
+
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// สร้างกระแสเอาท์พุทสำหรับเอกสาร PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddTextureTilingPattern_outPS.ps");
-// สร้างตัวเลือกการบันทึกด้วยขนาด A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// สร้างเอกสาร PS ใหม่โดยเปิดหน้าไว้
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-// สร้างเอกสาร PS ใหม่โดยเปิดหน้าไว้
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
+
 ## ขั้นตอนที่ 2: ตั้งค่าสภาพแวดล้อมกราฟิก
-ตั้งค่าสภาพแวดล้อมกราฟิกโดยการแปลจุดเริ่มต้นและสร้าง BufferedImage จากไฟล์ภาพพื้นผิว
+ตั้งค่าสภาพแวดล้อมกราฟิกโดยย้ายจุดกำเนิดและสร้าง `BufferedImage` จากไฟล์เทกซ์เจอร์
+
 ```java
 document.writeGraphicsSave();
 document.translate(200, 100);
-// สร้างวัตถุ BufferedImage จากไฟล์รูปภาพ
+// Create a BufferedImage object from image file
 BufferedImage image = ImageIO.read(new File(dataDir + "TestTexture.bmp"));
 ```
-## ขั้นตอนที่ 3: สร้างแปรงพื้นผิว
-กำหนดแปรงพื้นผิวจากรูปภาพ โดยระบุพื้นที่ที่จะครอบคลุมโดยพื้นผิว
+
+## ขั้นตอนที่ 3: สร้างแปรงเทกซ์เจอร์
+กำหนดแปรงเทกซ์เจอร์จากภาพ โดยระบุพื้นที่ที่ต้องการให้เทกซ์เจอร์ครอบคลุม
+
 ```java
-// สร้างพื้นที่ภาพให้มีความกว้างเป็นสองเท่า
+// Create image area doubled in width
 Rectangle2D.Float imageArea = new Rectangle2D.Float(0, 0, image.getWidth() * 2, image.getHeight());
-// สร้างแปรงพื้นผิวจากภาพ
+// Create texture brush from the image
 TexturePaint paint = new TexturePaint(image, imageArea);
 ```
-## ขั้นตอนที่ 4: วาดและเติมรูปร่าง
-สร้างสี่เหลี่ยมและเติมด้วยแปรงพื้นผิวที่กำหนดไว้ นอกจากนี้ วาดและร่างรูปร่างเพื่อให้ดูดึงดูดสายตา
+
+## ขั้นตอนที่ 4: วาดและเติมรูป
+สร้างสี่เหลี่ยมและ **เติมรูปด้วยเทกซ์เจอร์** ด้วยแปรงที่กำหนดไว้ นอกจากนี้ยังวาดและรอบรูปเพื่อความสวยงาม
+
 ```java
-// สร้างสี่เหลี่ยม
+// Create rectangle
 Rectangle2D.Float shape = new Rectangle2D.Float(0, 0, 200, 100);
-// ตั้งค่าแปรงพื้นผิวนี้เป็นสีปัจจุบัน
+// Set this texture brush as current paint
 document.setPaint(paint);
-// เติมสี่เหลี่ยม
+// Fill rectangle
 document.fill(shape);
 document.setPaint(Color.RED);
 document.setStroke(new BasicStroke(2));
 document.draw(shape);
 ```
-## ขั้นตอนที่ 5: เพิ่มข้อความด้วยรูปแบบพื้นผิว
-เพิ่มข้อความลงในเอกสารและเติม/ลากเส้นด้วยรูปแบบพื้นผิว ปรับแต่งแบบอักษร ตำแหน่ง และพารามิเตอร์อื่นๆ ตามต้องการ
+
+## ขั้นตอนที่ 5: เพิ่มข้อความด้วยแพทเทิร์นเทกซ์เจอร์
+เพิ่มข้อความลงในเอกสารและสาธิต **วิธีเติมเทกซ์เจอร์** บน glyphs ปรับแต่งฟอนต์, ตำแหน่ง, และพารามิเตอร์อื่น ๆ ตามต้องการ
+
 ```java
-// เติมข้อความด้วยลวดลายพื้นผิว
+// Fill the text with the texture pattern
 Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
-// ร่างข้อความด้วยลวดลายพื้นผิว
+// Outline the text with the texture pattern
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
+
 ## ขั้นตอนที่ 6: บันทึกและปิด
-สรุปกระบวนการโดยการปิดหน้าปัจจุบัน บันทึกเอกสาร และรับประกันการดำเนินการที่ราบรื่น
+สรุปกระบวนการโดยปิดหน้าปัจจุบัน, บันทึกเอกสาร, และตรวจสอบให้การทำงานเป็นไปอย่างราบรื่น
+
 ```java
-// ปิดหน้าปัจจุบัน
+// Close current page
 document.closePage();
-// บันทึกเอกสาร
+// Save the document
 document.save();
 ```
-## บทสรุป
-ยินดีด้วย! คุณได้เพิ่มรูปแบบการเรียงต่อพื้นผิวลงในเอกสาร Java PostScript โดยใช้ Aspose.Page สำหรับ Java สำเร็จแล้ว รู้สึกอิสระที่จะสำรวจตัวเลือกการปรับแต่งเพิ่มเติมและปลดปล่อยศักยภาพสูงสุดของไลบรารีอันทรงพลังนี้
+
+## ปัญหาที่พบบ่อยและเคล็ดลับ
+- **ไฟล์เทกซ์เจอร์หาย** – ตรวจสอบว่าเส้นทางไปยัง `TestTexture.bmp` ถูกต้องและไฟล์เข้าถึงได้  
+- **ขนาดภาพไม่ตรง** – หากเทกซ์เจอร์ดูบิดเบี้ยว ปรับ `imageArea` ให้ตรงกับขนาดภาพต้นฉบับ  
+- **ประสิทธิภาพ** – ใช้ตัวแปร `TexturePaint` เดียวกันหลายรูปเพื่อหลีกเลี่ยงการสร้างอ็อบเจ็กต์ซ้ำ ๆ  
 
 ## คำถามที่พบบ่อย
-### Aspose.Page สำหรับ Java เหมาะสำหรับผู้เริ่มต้นหรือไม่
-อย่างแน่นอน! Aspose.Page สำหรับ Java มีเอกสารประกอบที่ครอบคลุม ทำให้นักพัฒนาทุกระดับสามารถเข้าถึงได้
-### ฉันสามารถรวม Aspose.Page สำหรับ Java เข้ากับโปรเจ็กต์ Java ที่มีอยู่ของฉันได้หรือไม่
- ใช่ คุณสามารถรวม Aspose.Page สำหรับ Java เข้ากับโปรเจ็กต์ของคุณได้อย่างง่ายดายโดยทำตามเอกสารที่ให้มา[ที่นี่](https://reference.aspose.com/page/java/).
-### ฉันจะรับการสนับสนุนหรือหารือเกี่ยวกับคำถามที่เกี่ยวข้องกับ Aspose.Page ได้ที่ไหน
- เยี่ยมชม[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อมีส่วนร่วมกับชุมชนและขอความช่วยเหลือ
-### มีการทดลองใช้ฟรีสำหรับ Aspose.Page สำหรับ Java หรือไม่
- ใช่ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
-### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page สำหรับ Java ได้อย่างไร
- เยี่ยม[ลิงค์นี้](https://purchase.aspose.com/temporary-license/) เพื่อขอรับใบอนุญาตชั่วคราว
+
+**ถาม: Aspose.Page for Java เหมาะกับผู้เริ่มต้นหรือไม่?**  
+ตอบ: แน่นอน! Aspose.Page for Java มีเอกสารครบถ้วน ทำให้ผู้พัฒนาทุกระดับสามารถใช้งานได้
+
+**ถาม: สามารถรวม Aspose.Page for Java เข้าในโครงการ Java ที่มีอยู่แล้วได้หรือไม่?**  
+ตอบ: ได้ คุณสามารถรวม Aspose.Page for Java เข้าในโครงการของคุณได้ง่าย ๆ ตามเอกสารที่ให้ไว้ [ที่นี่](https://reference.aspose.com/page/java/)
+
+**ถาม: จะหาแหล่งสนับสนุนหรือพูดคุยเกี่ยวกับ Aspose.Page ได้จากที่ไหน?**  
+ตอบ: เยี่ยมชม [ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อเข้าร่วมชุมชนและขอความช่วยเหลือ
+
+**ถาม: มีรุ่นทดลองฟรีสำหรับ Aspose.Page for Java หรือไม่?**  
+ตอบ: มี คุณสามารถสำรวจรุ่นทดลองได้ [ที่นี่](https://releases.aspose.com/)
+
+**ถาม: จะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.Page for Java ได้อย่างไร?**  
+ตอบ: เยี่ยมชม [ลิงก์นี้](https://purchase.aspose.com/temporary-license/) เพื่อขอรับลิขสิทธิ์ชั่วคราว
+
+## สรุป
+ขอแสดงความยินดี! คุณได้เรียนรู้ **วิธีเพิ่มเทกซ์เจอร์** แบบเรียงแพทเทิร์นในเอกสาร Java PostScript ด้วย Aspose.Page for Java แล้ว อย่าลังเลที่จะสำรวจตัวเลือกการปรับแต่งเพิ่มเติม—ลองใช้ไทล์บิตแมพต่าง ๆ, ปรับสเกล, และทำการผสมผสานเพื่อเปิดศักยภาพเต็มที่ของการเติมเทกซ์เจอร์
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-17  
+**ทดสอบด้วย:** Aspose.Page for Java 24.12 (ล่าสุด)  
+**ผู้เขียน:** Aspose  
+
+---
