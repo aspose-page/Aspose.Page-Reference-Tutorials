@@ -1,27 +1,39 @@
 ---
-title: Přidejte položky pole v metadatech XMP pomocí Java
-linktitle: Přidejte položky pole v metadatech XMP pomocí Java
+date: 2025-12-18
+description: Naučte se, jak přidávat metadata vložením položek pole do XMP metadat
+  EPS souborů pomocí Aspose.Page pro Javu. Postupujte podle našeho krok‑za‑krokem
+  průvodce.
+linktitle: Add Array Items in XMP Metadata using Java
 second_title: Aspose.Page Java API
-description: Vylepšete soubory EPS pomocí Aspose.Page pro Java. Naučte se snadno přidávat položky pole do metadat XMP. Nyní postupujte podle našeho podrobného průvodce!
-weight: 10
+title: Jak přidat metadata – přidat položky pole v XMP (Java)
 url: /cs/java/xmp-metadata-manipulation/add-array-items/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte položky pole v metadatech XMP pomocí Java
+# Přidání položek pole do XMP metadat pomocí Javy
 
-## Úvod
-Vítejte v našem podrobném průvodci používáním Aspose.Page for Java k přidávání položek pole do metadat XMP. Aspose.Page je výkonná Java knihovna, která vám umožňuje manipulovat a pracovat s různými formáty dokumentů, včetně souborů EPS. V tomto tutoriálu se zaměříme na konkrétní úlohu přidávání položek pole do metadat XMP pomocí Javy.
+## Jak přidat metadata
+Vítejte v našem podrobném průvodci, jak **přidat metadata** do souborů EPS pomocí Aspose.Page pro Javu. V tomto tutoriálu vás provedeme přidáváním položek pole do XMP metadat – běžná potřeba, když chcete obohatit informace o dokumentu, jako jsou názvy nebo autoři. Na konci pochopíte, proč je XMP cenné, jak s ním programově manipulovat a jak uložit aktualizovaný soubor EPS.
+
+## Rychlé odpovědi
+- **Jaká knihovna se používá?** Aspose.Page for Java  
+- **Jaký formát souboru je cílem?** EPS (Encapsulated PostScript)  
+- **Mohu přidat více titulů?** Ano, použijte `xmp.addArrayItem("dc:title", ...)` opakovaně  
+- **Potřebuji licenci pro produkci?** Ano, je vyžadována platná licence Aspose.Page  
+- **Je kód kompatibilní s Java 8+?** Rozhodně, funguje se všemi moderními verzemi Javy  
+
 ## Předpoklady
-Než se pustíme do výukového programu, ujistěte se, že máte následující předpoklady:
-- Nainstalovaná knihovna Aspose.Page for Java.
-- Základní znalost programování v Javě.
-- Platný soubor EPS s existujícími metadaty XMP nebo komentáři k metadatům PS.
-## Importujte balíčky
-Chcete-li začít, musíte importovat potřebné balíčky pro práci s Aspose.Page. Na začátek souboru Java vložte následující řádky:
+Než se ponoříme do tutoriálu, ujistěte se, že máte následující předpoklady:
+- Knihovna Aspose.Page pro Javu nainstalována.  
+- Základní znalost programování v Javě.  
+- Platný soubor EPS s existujícími XMP metadaty nebo PS metadaty v komentářích.  
+
+## Import balíčků
+Abyste mohli začít, musíte importovat potřebné balíčky pro práci s Aspose.Page. Přidejte následující řádky na začátek vašeho Java souboru:
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -31,62 +43,90 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
 ```
-## Krok 1: Získejte metadata XMP
+
+## Krok 1: Získání XMP metadat
 ```java
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Inicializujte vstupní proud souboru EPS
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp3.eps");
 PsDocument document = new PsDocument(psStream);
-// Získejte metadata XMP. Pokud soubor EPS neobsahuje metadata XMP, získáme nový soubor vyplněný hodnotami z komentářů metadat PS (%%Creator, %%CreateDate, %%Title atd.)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get a new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-tomto kroku načteme existující metadata XMP ze souboru EPS. Pokud soubor EPS již neobsahuje metadata XMP, Aspose.Page vygeneruje nová a naplní je hodnotami z komentářů metadat PS.
-## Krok 2: Přidejte položku pole „dc:title“.
+V tomto kroku získáme existující XMP metadata ze souboru EPS. Pokud soubor EPS již neobsahuje XMP metadata, Aspose.Page vygeneruje nová a naplní je hodnotami z PS metadatových komentářů.
+
+## Krok 2: Přidání položky pole "dc:title"
 ```java
-// Přidejte ještě jednu položku pole "dc:title".
+// Add one more "dc:title" array item 
 xmp.addArrayItem("dc:title", new XmpValue("NewTitle"));
 ```
-Nyní přidáme novou položku pole do vlastnosti "dc:title" v metadatech XMP. Nahraďte "NewTitle" požadovaným názvem.
-## Krok 3: Přidejte položku pole „dc:creator“.
+Nyní přidáme novou položku pole do vlastnosti **dc:title** v XMP metadatech. Nahraďte `"NewTitle"` požadovaným názvem.
+
+## Krok 3: Přidání položky pole "dc:creator"
 ```java
-// Přidejte ještě jednu položku pole „dc:creator“.
+// Add one more "dc:creator" array item
 xmp.addArrayItem("dc:creator", new XmpValue("NewCreator"));
 ```
-Podobně přidáme novou položku pole do vlastnosti „dc:creator“ v metadatech XMP. Nahraďte „NewCreator“ požadovanými informacemi o tvůrci.
-## Krok 4: Inicializujte výstupní soubor EPS
+Podobně přidáme novou položku pole do vlastnosti **dc:creator** v XMP metadatech. Nahraďte `"NewCreator"` požadovanými informacemi o autorovi.
+
+## Krok 4: Inicializace výstupního proudu souboru EPS
 ```java
-// Inicializujte výstupní proud souboru EPS
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
 ```
-Připravte výstupní proud souboru EPS, kam bude uložen upravený dokument s aktualizovanými metadaty XMP.
-## Krok 5: Uložte dokument se změněnými metadaty XMP
+Připravte výstupní proud souboru EPS, kam bude upravený dokument s aktualizovanými XMP metadaty uložen.
+
+## Krok 5: Uložení dokumentu se změněnými XMP metadaty
 ```java
-//Uložte dokument se změněnými metadaty XMP
+// Save document with changed XMP metadata
 try {			
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-Uložte dokument s aktualizovanými metadaty XMP do výstupního souboru EPS.
+Uložte dokument s aktualizovanými XMP metadaty do výstupního souboru EPS.
+
 ## Závěr
-Gratulujeme! Úspěšně jste se naučili přidávat položky pole do metadat XMP pomocí Aspose.Page for Java. Tato výkonná knihovna zjednodušuje proces manipulace se soubory EPS a poskytuje rozsáhlé funkce pro zpracování dokumentů.
+Gratulujeme! Úspěšně jste se naučili **přidávat metadata** vložením položek pole do XMP metadat pomocí Aspose.Page pro Javu. Tato výkonná knihovna zjednodušuje proces manipulace se soubory EPS a poskytuje rozsáhlou funkčnost pro zpracování dokumentů.
+
 ## Často kladené otázky
 
-### Mohu použít Aspose.Page for Java s jinými formáty dokumentů?
+### Mohu použít Aspose.Page pro Javu s jinými formáty dokumentů?
 Ano, Aspose.Page podporuje různé formáty dokumentů, včetně EPS, PDF a XPS.
-### Je k dispozici bezplatná zkušební verze pro Aspose.Page pro Java?
- Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
-### Kde najdu dokumentaci k Aspose.Page for Java?
- Dokumentace je k dispozici[tady](https://reference.aspose.com/page/java/).
-### Jak si mohu zakoupit Aspose.Page pro Java?
- Produkt si můžete zakoupit[tady](https://purchase.aspose.com/buy).
-### Jsou k dispozici dočasné licence pro Aspose.Page for Java?
- Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+
+### Je k dispozici bezplatná zkušební verze Aspose.Page pro Javu?
+Ano, bezplatnou zkušební verzi můžete získat [zde](https://releases.aspose.com/).
+
+### Kde najdu dokumentaci k Aspose.Page pro Javu?
+Dokumentace je k dispozici [zde](https://reference.aspose.com/page/java/).
+
+### Jak mohu zakoupit Aspose.Page pro Javu?
+Produkt můžete zakoupit [zde](https://purchase.aspose.com/buy).
+
+### Jsou k dispozici dočasné licence pro Aspose.Page pro Javu?
+Ano, dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
+
+## Další často kladené otázky
+
+**Q: Mohu přidat více než jednu položku pole ke stejné vlastnosti?**  
+A: Rozhodně. Zavolejte `xmp.addArrayItem` vícekrát pro stejnou vlastnost, abyste vytvořili seznam hodnot.
+
+**Q: Funguje tento přístup s existujícími XMP schématy jinými než Dublin Core?**  
+A: Ano, můžete přidávat položky pole do libovolné XMP vlastnosti, pokud je správně odkazován prostor názvů.
+
+**Q: Jak mohu ověřit, že metadata byla přidána správně?**  
+A: Otevřete výsledný soubor EPS v prohlížeči, který podporuje XMP (např. Adobe Bridge), nebo metadata extrahujte programově pomocí metod `XmpMetadata`.
+
+---
+
+**Poslední aktualizace:** 2025-12-18  
+**Testováno s:** Aspose.Page for Java 24.11  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

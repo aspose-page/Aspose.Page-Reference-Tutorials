@@ -1,27 +1,40 @@
 ---
-title: Ajouter des éléments de tableau dans les métadonnées XMP à l'aide de Java
-linktitle: Ajouter des éléments de tableau dans les métadonnées XMP à l'aide de Java
-second_title: API Java Aspose.Page
-description: Améliorez les fichiers EPS avec Aspose.Page pour Java. Apprenez à ajouter des éléments de tableau aux métadonnées XMP sans effort. Suivez notre guide étape par étape dès maintenant !
-weight: 10
+date: 2025-12-18
+description: Apprenez comment ajouter des métadonnées en insérant des éléments de
+  tableau dans les métadonnées XMP des fichiers EPS à l’aide d’Aspose.Page pour Java.
+  Suivez notre guide étape par étape.
+linktitle: Add Array Items in XMP Metadata using Java
+second_title: Aspose.Page Java API
+title: Comment ajouter des métadonnées – Ajouter des éléments de tableau dans XMP
+  (Java)
 url: /fr/java/xmp-metadata-manipulation/add-array-items/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter des éléments de tableau dans les métadonnées XMP à l'aide de Java
+# Ajouter des éléments de tableau dans les métadonnées XMP avec Java
 
-## Introduction
-Bienvenue dans notre guide étape par étape sur l'utilisation d'Aspose.Page pour Java pour ajouter des éléments de tableau dans les métadonnées XMP. Aspose.Page est une puissante bibliothèque Java qui vous permet de manipuler et de travailler avec différents formats de documents, y compris les fichiers EPS. Dans ce didacticiel, nous nous concentrerons sur la tâche spécifique consistant à ajouter des éléments de tableau dans les métadonnées XMP à l'aide de Java.
-## Conditions préalables
-Avant de plonger dans le didacticiel, assurez-vous de disposer des prérequis suivants :
-- Aspose.Page pour la bibliothèque Java installée.
-- Compréhension de base de la programmation Java.
-- Un fichier EPS valide avec des métadonnées XMP existantes ou des commentaires sur les métadonnées PS.
-## Importer des packages
-Pour commencer, vous devez importer les packages nécessaires pour travailler avec Aspose.Page. Incluez les lignes suivantes au début de votre fichier Java :
+## Comment ajouter des métadonnées
+Bienvenue dans notre guide pas‑à‑pas sur **comment ajouter des métadonnées** aux fichiers EPS avec Aspose.Page for Java. Dans ce tutoriel, nous vous expliquerons comment ajouter des éléments de tableau aux métadonnées XMP — une exigence courante lorsque vous devez enrichir les informations d’un document telles que les titres ou les créateurs. À la fin, vous comprendrez pourquoi XMP est précieux, comment le manipuler programmétiquement et comment enregistrer le fichier EPS mis à jour.
+
+## Réponses rapides
+- **Quelle bibliothèque est utilisée ?** Aspose.Page for Java  
+- **Quel format de fichier est ciblé ?** EPS (Encapsulated PostScript)  
+- **Puis‑je ajouter plusieurs titres ?** Oui, utilisez `xmp.addArrayItem("dc:title", ...)` à plusieurs reprises  
+- **Ai‑je besoin d’une licence pour la production ?** Oui, une licence valide d’Aspose.Page est requise  
+- **Le code est‑il compatible avec Java 8+ ?** Absolument, il fonctionne avec toutes les versions modernes de Java  
+
+## Prérequis
+Avant de commencer le tutoriel, assurez‑vous de disposer des éléments suivants :
+- Bibliothèque Aspose.Page for Java installée.  
+- Connaissances de base en programmation Java.  
+- Un fichier EPS valide contenant des métadonnées XMP existantes ou des commentaires de métadonnées PS.
+
+## Importer les packages
+Pour démarrer, vous devez importer les packages nécessaires pour travailler avec Aspose.Page. Ajoutez les lignes suivantes au début de votre fichier Java :
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -31,38 +44,43 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
 ```
-## Étape 1 : Obtenez les métadonnées XMP
+
+## Étape 1 : Obtenir les métadonnées XMP
 ```java
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Initialiser le flux de fichiers EPS d'entrée
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp3.eps");
 PsDocument document = new PsDocument(psStream);
-// Obtenez les métadonnées XMP. Si le fichier EPS ne contient pas de métadonnées XMP, nous en obtenons une nouvelle remplie de valeurs provenant des commentaires de métadonnées PS (%%Creator, %%CreateDate, %%Title, etc.)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get a new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-Dans cette étape, nous récupérons les métadonnées XMP existantes du fichier EPS. Si le fichier EPS ne contient pas déjà de métadonnées XMP, Aspose.Page en génère une nouvelle et le remplit avec les valeurs des commentaires de métadonnées PS.
-## Étape 2 : Ajouter un élément de tableau « dc:title »
+Dans cette étape, nous récupérons les métadonnées XMP existantes du fichier EPS. Si le fichier EPS ne contient pas déjà de métadonnées XMP, Aspose.Page en génère de nouvelles et les remplit avec les valeurs provenant des commentaires de métadonnées PS.
+
+## Étape 2 : Ajouter l’élément de tableau « dc:title »
 ```java
-// Ajouter un autre élément de tableau "dc:title"
+// Add one more "dc:title" array item 
 xmp.addArrayItem("dc:title", new XmpValue("NewTitle"));
 ```
-Maintenant, nous ajoutons un nouvel élément de tableau à la propriété « dc:title » dans les métadonnées XMP. Remplacez "NewTitle" par le titre souhaité.
-## Étape 3 : ajouter un élément de tableau « dc:creator »
+Nous ajoutons maintenant un nouvel élément de tableau à la propriété **dc:title** des métadonnées XMP. Remplacez `"NewTitle"` par le titre souhaité.
+
+## Étape 3 : Ajouter l’élément de tableau « dc:creator »
 ```java
-// Ajouter un autre élément de tableau "dc:creator"
+// Add one more "dc:creator" array item
 xmp.addArrayItem("dc:creator", new XmpValue("NewCreator"));
 ```
-De même, nous ajoutons un nouvel élément de tableau à la propriété « dc:creator » dans les métadonnées XMP. Remplacez "NewCreator" par les informations de créateur souhaitées.
-## Étape 4 : initialiser le flux de fichiers EPS de sortie
+De la même façon, nous ajoutons un nouvel élément de tableau à la propriété **dc:creator** des métadonnées XMP. Remplacez `"NewCreator"` par les informations du créateur souhaitées.
+
+## Étape 4 : Initialiser le flux du fichier EPS de sortie
 ```java
-// Initialiser le flux de fichiers EPS de sortie
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
 ```
-Préparez le flux de fichier EPS de sortie dans lequel le document modifié avec les métadonnées XMP mises à jour sera enregistré.
-## Étape 5 : Enregistrer le document avec les métadonnées XMP modifiées
+Préparez le flux du fichier EPS de sortie où le document modifié avec les métadonnées XMP mises à jour sera enregistré.
+
+## Étape 5 : Enregistrer le document avec les métadonnées XMP modifiées
 ```java
-//Enregistrer le document avec les métadonnées XMP modifiées
+// Save document with changed XMP metadata
 try {			
     document.save(outPsStream);
 } finally {
@@ -70,23 +88,46 @@ try {
 }
 ```
 Enregistrez le document avec les métadonnées XMP mises à jour dans le fichier EPS de sortie.
-## Conclusion
-Toutes nos félicitations! Vous avez appris avec succès comment ajouter des éléments de tableau dans les métadonnées XMP à l'aide d'Aspose.Page pour Java. Cette puissante bibliothèque simplifie le processus de manipulation des fichiers EPS et fournit des fonctionnalités étendues pour le traitement des documents.
-## Questions fréquemment posées
 
-### Puis-je utiliser Aspose.Page pour Java avec d’autres formats de document ?
+## Conclusion
+Félicitations ! Vous avez appris avec succès **comment ajouter des métadonnées** en insérant des éléments de tableau dans les métadonnées XMP à l’aide d’Aspose.Page for Java. Cette puissante bibliothèque simplifie la manipulation des fichiers EPS et offre de nombreuses fonctionnalités pour le traitement de documents.
+
+## Foire aux questions
+
+### Puis‑je utiliser Aspose.Page for Java avec d’autres formats de documents ?
 Oui, Aspose.Page prend en charge divers formats de documents, notamment EPS, PDF et XPS.
-### Existe-t-il un essai gratuit disponible pour Aspose.Page pour Java ?
- Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
-### Où puis-je trouver la documentation d’Aspose.Page pour Java ?
- La documentation est disponible[ici](https://reference.aspose.com/page/java/).
-### Comment puis-je acheter Aspose.Page pour Java ?
- Vous pouvez acheter le produit[ici](https://purchase.aspose.com/buy).
-### Des licences temporaires sont-elles disponibles pour Aspose.Page pour Java ?
- Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+
+### Existe‑t‑il un essai gratuit d’Aspose.Page for Java ?
+Oui, vous pouvez accéder à l’essai gratuit [ici](https://releases.aspose.com/).
+
+### Où puis‑je trouver la documentation d’Aspose.Page for Java ?
+La documentation est disponible [ici](https://reference.aspose.com/page/java/).
+
+### Comment puis‑je acheter Aspose.Page for Java ?
+Vous pouvez acheter le produit [ici](https://purchase.aspose.com/buy).
+
+### Des licences temporaires sont‑elles disponibles pour Aspose.Page for Java ?
+Oui, vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+
+## Questions supplémentaires fréquentes
+
+**Q : Puis‑je ajouter plus d’un élément de tableau à la même propriété ?**  
+R : Absolument. Appelez `xmp.addArrayItem` plusieurs fois pour la même propriété afin de constituer une liste de valeurs.
+
+**Q : Cette approche fonctionne‑t‑elle avec des schémas XMP existants autres que Dublin Core ?**  
+R : Oui, vous pouvez ajouter des éléments de tableau à n’importe quelle propriété XMP tant que l’espace de noms est correctement référencé.
+
+**Q : Comment vérifier que les métadonnées ont été ajoutées correctement ?**  
+R : Ouvrez le fichier EPS résultant dans un visualiseur prenant en charge XMP (par ex., Adobe Bridge) ou extrayez les métadonnées programmatiquement à l’aide des méthodes `XmpMetadata`.
+
+---
+
+**Dernière mise à jour :** 2025-12-18  
+**Testé avec :** Aspose.Page for Java 24.11  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

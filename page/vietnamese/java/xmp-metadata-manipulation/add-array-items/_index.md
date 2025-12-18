@@ -1,27 +1,39 @@
 ---
-title: Thêm các mục mảng trong siêu dữ liệu XMP bằng Java
-linktitle: Thêm các mục mảng trong siêu dữ liệu XMP bằng Java
-second_title: API Java Aspose.Page
-description: Nâng cao các tệp EPS với Aspose.Page cho Java. Tìm hiểu cách thêm các mục mảng vào siêu dữ liệu XMP một cách dễ dàng. Hãy làm theo hướng dẫn từng bước của chúng tôi ngay bây giờ!
-weight: 10
+date: 2025-12-18
+description: Tìm hiểu cách thêm siêu dữ liệu bằng cách chèn các mục mảng vào siêu
+  dữ liệu XMP của tệp EPS bằng Aspose.Page cho Java. Thực hiện theo hướng dẫn từng
+  bước của chúng tôi.
+linktitle: Add Array Items in XMP Metadata using Java
+second_title: Aspose.Page Java API
+title: Cách Thêm Siêu Dữ Liệu – Thêm Các Mục Mảng trong XMP (Java)
 url: /vi/java/xmp-metadata-manipulation/add-array-items/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm các mục mảng trong siêu dữ liệu XMP bằng Java
+# Thêm Mục Mảng vào Siêu dữ liệu XMP bằng Java
 
-## Giới thiệu
-Chào mừng bạn đến với hướng dẫn từng bước của chúng tôi về cách sử dụng Aspose.Page cho Java để thêm các mục mảng trong siêu dữ liệu XMP. Aspose.Page là một thư viện Java mạnh mẽ cho phép bạn thao tác và làm việc với nhiều định dạng tài liệu khác nhau, bao gồm cả tệp EPS. Trong hướng dẫn này, chúng ta sẽ tập trung vào nhiệm vụ cụ thể là thêm các mục mảng trong siêu dữ liệu XMP bằng Java.
-## Điều kiện tiên quyết
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-- Aspose.Page cho thư viện Java đã được cài đặt.
-- Hiểu biết cơ bản về lập trình Java.
-- Tệp EPS hợp lệ có siêu dữ liệu XMP hoặc nhận xét siêu dữ liệu PS hiện có.
-## Gói nhập khẩu
-Để bắt đầu, bạn cần nhập các gói cần thiết để làm việc với Aspose.Page. Bao gồm các dòng sau vào đầu tệp Java của bạn:
+## Cách Thêm Siêu dữ liệu
+Chào mừng bạn đến với hướng dẫn **cách thêm siêu dữ liệu** vào tệp EPS bằng Aspose.Page for Java. Trong tutorial này, chúng tôi sẽ hướng dẫn bạn cách thêm các mục mảng vào siêu dữ liệu XMP — một yêu cầu phổ biến khi bạn cần làm phong phú thông tin tài liệu như tiêu đề hoặc người tạo. Khi hoàn thành, bạn sẽ hiểu tại sao XMP có giá trị, cách thao tác nó bằng mã, và cách lưu tệp EPS đã cập nhật.
+
+## Trả Lời Nhanh
+- **Thư viện nào được sử dụng?** Aspose.Page for Java  
+- **Định dạng tệp mục tiêu là gì?** EPS (Encapsulated PostScript)  
+- **Có thể thêm nhiều tiêu đề không?** Có, sử dụng `xmp.addArrayItem("dc:title", ...)` nhiều lần  
+- **Cần giấy phép cho môi trường production không?** Có, cần giấy phép Aspose.Page hợp lệ  
+- **Mã có tương thích với Java 8+ không?** Hoàn toàn, hoạt động trên mọi phiên bản Java hiện đại  
+
+## Yêu Cầu Trước
+Trước khi bắt đầu tutorial, hãy chắc chắn bạn đã chuẩn bị:
+- Thư viện Aspose.Page for Java đã được cài đặt.  
+- Kiến thức cơ bản về lập trình Java.  
+- Một tệp EPS hợp lệ có sẵn siêu dữ liệu XMP hoặc các chú thích siêu dữ liệu PS.
+
+## Nhập Gói
+Để bắt đầu, bạn cần nhập các gói cần thiết để làm việc với Aspose.Page. Thêm các dòng sau vào đầu tệp Java của bạn:
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -31,62 +43,90 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
 ```
-## Bước 1: Nhận siêu dữ liệu XMP
+
+## Bước 1: Lấy Siêu dữ liệu XMP
 ```java
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Khởi tạo luồng tệp EPS đầu vào
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp3.eps");
 PsDocument document = new PsDocument(psStream);
-// Nhận siêu dữ liệu XMP. Nếu tệp EPS không chứa siêu dữ liệu XMP, chúng tôi sẽ nhận được một tệp mới chứa đầy các giá trị từ nhận xét siêu dữ liệu PS (%%Creator, %%CreatDate, %%Title, v.v.)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get a new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-Trong bước này, chúng tôi truy xuất siêu dữ liệu XMP hiện có từ tệp EPS. Nếu tệp EPS chưa chứa siêu dữ liệu XMP, Aspose.Page sẽ tạo một tệp mới và điền vào đó các giá trị từ nhận xét siêu dữ liệu PS.
-## Bước 2: Thêm mục mảng "dc:title"
+Trong bước này, chúng ta truy xuất siêu dữ liệu XMP hiện có từ tệp EPS. Nếu tệp EPS chưa chứa siêu dữ liệu XMP, Aspose.Page sẽ tạo mới và điền các giá trị từ các chú thích siêu dữ liệu PS.
+
+## Bước 2: Thêm Mục Mảng "dc:title"
 ```java
-// Thêm một mục mảng "dc:title" nữa
+// Add one more "dc:title" array item 
 xmp.addArrayItem("dc:title", new XmpValue("NewTitle"));
 ```
-Bây giờ, chúng tôi thêm một mục mảng mới vào thuộc tính "dc:title" trong siêu dữ liệu XMP. Thay thế "NewTitle" bằng tiêu đề mong muốn.
-## Bước 3: Thêm mục mảng "dc:creator"
+Bây giờ, chúng ta thêm một mục mảng mới vào thuộc tính **dc:title** trong siêu dữ liệu XMP. Thay `"NewTitle"` bằng tiêu đề mong muốn.
+
+## Bước 3: Thêm Mục Mảng "dc:creator"
 ```java
-// Thêm một mục mảng "dc:creator" nữa
+// Add one more "dc:creator" array item
 xmp.addArrayItem("dc:creator", new XmpValue("NewCreator"));
 ```
-Tương tự, chúng tôi thêm một mục mảng mới vào thuộc tính "dc:creator" trong siêu dữ liệu XMP. Thay thế "NewCreator" bằng thông tin người tạo mong muốn.
-## Bước 4: Khởi tạo luồng tệp EPS đầu ra
+Tương tự, chúng ta thêm một mục mảng mới vào thuộc tính **dc:creator** trong siêu dữ liệu XMP. Thay `"NewCreator"` bằng thông tin người tạo mong muốn.
+
+## Bước 4: Khởi Tạo Luồng Tệp EPS Đầu Ra
 ```java
-// Khởi tạo luồng tệp EPS đầu ra
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
 ```
-Chuẩn bị luồng tệp EPS đầu ra nơi tài liệu đã sửa đổi với siêu dữ liệu XMP cập nhật sẽ được lưu.
-## Bước 5: Lưu tài liệu với siêu dữ liệu XMP đã thay đổi
+Chuẩn bị luồng tệp EPS đầu ra, nơi tài liệu đã được chỉnh sửa với siêu dữ liệu XMP mới sẽ được lưu.
+
+## Bước 5: Lưu Tài Liệu với Siêu dữ liệu XMP Đã Thay Đổi
 ```java
-//Lưu tài liệu với siêu dữ liệu XMP đã thay đổi
+// Save document with changed XMP metadata
 try {			
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-Lưu tài liệu có siêu dữ liệu XMP được cập nhật vào tệp EPS đầu ra.
-## Phần kết luận
-Chúc mừng! Bạn đã học thành công cách thêm các mục mảng trong siêu dữ liệu XMP bằng Aspose.Page cho Java. Thư viện mạnh mẽ này đơn giản hóa quá trình thao tác với tệp EPS và cung cấp chức năng mở rộng để xử lý tài liệu.
-## Các câu hỏi thường gặp
+Lưu tài liệu cùng siêu dữ liệu XMP đã cập nhật vào tệp EPS đầu ra.
 
-### Tôi có thể sử dụng Aspose.Page cho Java với các định dạng tài liệu khác không?
-Có, Aspose.Page hỗ trợ nhiều định dạng tài liệu khác nhau, bao gồm EPS, PDF và XPS.
-### Có bản dùng thử miễn phí cho Aspose.Page cho Java không?
- Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
-### Tôi có thể tìm tài liệu về Aspose.Page cho Java ở đâu?
- Tài liệu có sẵn[đây](https://reference.aspose.com/page/java/).
-### Làm cách nào tôi có thể mua Aspose.Page cho Java?
- Bạn có thể mua sản phẩm[đây](https://purchase.aspose.com/buy).
-### Giấy phép tạm thời có sẵn cho Aspose.Page cho Java không?
- Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+## Kết Luận
+Chúc mừng! Bạn đã học **cách thêm siêu dữ liệu** bằng cách chèn các mục mảng vào siêu dữ liệu XMP sử dụng Aspose.Page for Java. Thư viện mạnh mẽ này giúp đơn giản hoá quá trình thao tác tệp EPS và cung cấp chức năng phong phú cho việc xử lý tài liệu.
+
+## Câu Hỏi Thường Gặp
+
+### Tôi có thể dùng Aspose.Page for Java với các định dạng tài liệu khác không?
+Có, Aspose.Page hỗ trợ nhiều định dạng tài liệu, bao gồm EPS, PDF và XPS.
+
+### Có bản dùng thử miễn phí cho Aspose.Page for Java không?
+Có, bạn có thể truy cập bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
+
+### Tôi có thể tìm tài liệu cho Aspose.Page for Java ở đâu?
+Tài liệu có sẵn [tại đây](https://reference.aspose.com/page/java/).
+
+### Làm sao để mua Aspose.Page for Java?
+Bạn có thể mua sản phẩm [tại đây](https://purchase.aspose.com/buy).
+
+### Có giấy phép tạm thời cho Aspose.Page for Java không?
+Có, bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
+
+## Các Câu Hỏi Thường Gặp Bổ Sung
+
+**H: Tôi có thể thêm hơn một mục mảng vào cùng một thuộc tính không?**  
+Đ: Hoàn toàn có thể. Gọi `xmp.addArrayItem` nhiều lần cho cùng một thuộc tính để tạo danh sách các giá trị.
+
+**H: Cách tiếp cận này có hoạt động với các schema XMP hiện có khác Dublin Core không?**  
+Đ: Có, bạn có thể thêm mục mảng vào bất kỳ thuộc tính XMP nào miễn là không gian tên được tham chiếu đúng.
+
+**H: Làm sao kiểm tra xem siêu dữ liệu đã được thêm đúng chưa?**  
+Đ: Mở tệp EPS kết quả trong một trình xem hỗ trợ XMP (ví dụ: Adobe Bridge) hoặc trích xuất siêu dữ liệu bằng chương trình sử dụng các phương thức của `XmpMetadata`.
+
+---
+
+**Cập nhật lần cuối:** 2025-12-18  
+**Đã kiểm tra với:** Aspose.Page for Java 24.11  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
