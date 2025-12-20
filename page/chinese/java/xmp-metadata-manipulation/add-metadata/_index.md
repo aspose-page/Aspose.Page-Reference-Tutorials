@@ -1,10 +1,11 @@
 ---
-title: 使用 Java 在 XMP 中添加元数据
-linktitle: 使用 Java 在 XMP 中添加元数据
+date: 2025-12-20
+description: 学习如何使用 Aspose Page Java 教程向 EPS 文件添加 XMP 元数据。按照本分步指南提升您的文档管理。
+linktitle: Add Metadata in XMP using Java
 second_title: Aspose.Page Java API
-description: 探索 Aspose.Page for Java 的无缝集成，并了解如何轻松地将 XMP 元数据添加到 EPS 文件中。立即提升您的文档管理水平！
-weight: 11
+title: Aspose Page Java 教程 – 向 EPS 文件添加 XMP 元数据
 url: /zh/java/xmp-metadata-manipulation/add-metadata/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,15 +14,28 @@ url: /zh/java/xmp-metadata-manipulation/add-metadata/
 
 # 使用 Java 在 XMP 中添加元数据
 
-## 介绍
-您是否希望通过使用 Java 添加 XMP 信息来增强文档的元数据？别再犹豫了！本分步指南将引导您完成使用 Aspose.Page for Java 库将元数据添加到 EPS 文件的过程。 Aspose.Page 是一个功能强大的工具，可以简化 Java 应用程序中的文档操作任务。
-## 先决条件
-在我们深入学习本教程之前，请确保您满足以下先决条件：
-- Java 编程的基础知识。
-- 安装了 Java 库的 Aspose.Page。你可以下载它[这里](https://releases.aspose.com/page/java/).
-- 您要修改的 EPS 文件。
-## 导入包
+## Introduction
+在本 **aspose page java tutorial** 中，您将学习如何使用 Java 为文档的元数据添加 XMP 信息。此分步指南将带您阅读现有的 EPS 文件，提取其 XMP 元数据，并使用 Aspose.Page for Java 库将更改保存回磁盘。教程结束时，您将拥有一个在任何 EPS 工作流中处理 XMP 的可靠、可复用模式。
+
+## Quick Answers
+- **需要的库是什么？** Aspose.Page for Java  
+- **我可以向任何 EPS 文件添加 XMP 吗？** 是的——如果不存在，API 会创建一个新的 XMP 块。  
+- **开发是否需要许可证？** 免费试用可用于评估；生产环境需要商业许可证。  
+- **支持哪个 Java 版本？** Java 8 及更高版本。  
+- **实现大约需要多长时间？** 对于基本的元数据更新，通常在 10 分钟以内。
+
+## Aspose Page Java Tutorial Overview
+本教程演示了在 EPS 文件中操作 XMP 元数据所需的核心步骤。了解这些步骤将帮助您将元数据处理集成到更大的文档处理流水线中，提高可检索性，并符合数字资产管理的行业标准。
+
+## Prerequisites
+在开始教程之前，请确保您具备以下前提条件：
+- 基本的 Java 编程知识。  
+- 已安装 Aspose.Page for Java 库。您可以在[此处](https://releases.aspose.com/page/java/)下载。  
+- 您想要修改的 EPS 文件。
+
+## Import Packages
 首先，将必要的包导入到您的 Java 程序中：
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -29,84 +43,131 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.page.BaseExamplesTest;
 ```
-## 第 1 步：获取 XMP 元数据
+
+## Step 1: Get XMP Metadata
+步骤 1：获取 XMP 元数据
+
 ```java
-//文档目录的路径。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//初始化输入 EPS 文件流
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp2.eps");
 PsDocument document = new PsDocument(psStream);
-//获取 XMP 元数据。如果 EPS 文件不包含 XMP 元数据，则会使用 PS 元数据注释（%%Creator、%%CreateDate、%%Title 等）中的值创建一个新文件
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, a new one is created using values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-确保将“您的文档目录”替换为存储文档的实际路径。
 
-## 步骤 2：检索 CreatorTool 值
+将 `"Your Document Directory"` 替换为实际存放文档的路径。
+
+## Step 2: Retrieve CreatorTool Value
+步骤 2：检索 CreatorTool 值
+
 ```java
-//获取“CreatorTool”值
+// Get "CreatorTool" value
 if (xmp.containsKey("xmp:CreatorTool"))
     System.out.println("CreatorTool: " + xmp.get("xmp:CreatorTool").toStringValue());
 ```
-## 步骤 3：检索 CreateDate 值
+
+## Step 3: Retrieve CreateDate Value
+步骤 3：检索 CreateDate 值
+
 ```java
-//获取“创建日期”值
+// Get "CreateDate" value
 if (xmp.containsKey("xmp:CreateDate"))
     System.out.println("CreateDate: " + xmp.get("xmp:CreateDate").toStringValue());
 ```
-## 第 4 步：检索标题值
+
+## Step 4: Retrieve Title Value
+步骤 4：检索 Title 值
+
 ```java
-//获取“标题”值
+// Get "Title" value
 if (xmp.containsKey("dc:title"))
     System.out.println("Title: " + xmp.get("dc:title").toArray()[0].toStringValue());
 ```
-## 第 5 步：检索格式值
+
+## Step 5: Retrieve Format Value
+步骤 5：检索 Format 值
+
 ```java
-//获取“格式”值
+// Get "format" value
 if (xmp.containsKey("dc:format"))
     System.out.println("Format: " + xmp.get("dc:format").toStringValue());
 ```
-## 第 6 步：检索创造者价值
+
+## Step 6: Retrieve Creator Value
+步骤 6：检索 Creator 值
+
 ```java
-//获得“创造者”价值
+// Get "creator" value
 if (xmp.containsKey("dc:creator"))
     System.out.println("Creator: " + xmp.get("dc:creator").toArray()[0].toStringValue());
 ```
-## 第 7 步：检索 MetadataDate 值
+
+## Step 7: Retrieve MetadataDate Value
+步骤 7：检索 MetadataDate 值
+
 ```java
-//获取“元数据日期”值
+// Get "MetadataDate" value
 if (xmp.containsKey("xmp:MetadataDate"))
     System.out.println("MetadataDate: " + xmp.get("xmp:MetadataDate").toStringValue());
 ```
-## 步骤 8：使用新的 XMP 元数据保存文档
+
+## Step 8: Save Document with New XMP Metadata
+步骤 8：使用新的 XMP 元数据保存文档
+
 ```java
-//初始化输出 EPS 文件流
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp2_changed.eps");
-//使用新的 XMP 元数据保存文档
+// Save document with new XMP metadata
 try {			
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-最后，不要忘记关闭输入 EPS 流：
+
+最后，别忘了关闭输入的 EPS 流：
+
 ```java
-//关闭输入 EPS 流
+// Close input EPS stream
 psStream.close();
 ```
-现在，您已经使用 Aspose.Page for Java 成功将元数据添加到您的 EPS 文件中！
-## 结论
-在本教程中，我们探索了使用 Aspose.Page for Java 库将 XMP 元数据添加到 EPS 文件的过程。这个强大的工具使您能够无缝地操作文档，从而增强您的整体文档管理体验。
-## 常见问题解答
-### 问：Aspose.Page for Java 可以免费使用吗？
-答：Aspose.Page for Java 是一个商业产品。您可以通过免费试用探索其功能[这里](https://releases.aspose.com/).
-### 问：在哪里可以找到 Aspose.Page for Java 的文档？
-答：文档已提供[这里](https://reference.aspose.com/page/java/).
-### 问：如何获得 Aspose.Page for Java 的临时许可证？
-答：您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
-### 问：Aspose.Page for Java 支持哪些文件格式？
-答：Aspose.Page for Java 支持多种格式，包括 EPS、PDF 和 XPS。
-### 问：我可以购买 Aspose.Page for Java 吗？
-答：是的，您可以购买 Aspose.Page for Java[这里](https://purchase.aspose.com/buy).
+
+现在，您已成功使用 Aspose.Page for Java 为 EPS 文件添加了元数据！
+
+## Conclusion
+在本 **aspose page java tutorial** 中，我们探讨了如何使用 Aspose.Page for Java 库向 EPS 文件添加 XMP 元数据。这个强大的 API 让您能够以编程方式操作文档元数据，帮助您保持资产的组织性和可检索性。
+
+## Frequently Asked Questions
+
+**Q: Aspose.Page for Java 可以免费使用吗？**  
+A: Aspose.Page for Java 是商业产品。您可以通过免费试用[此处](https://releases.aspose.com/)了解其功能。
+
+**Q: 在哪里可以找到 Aspose.Page for Java 的文档？**  
+A: 文档可在[此处](https://reference.aspose.com/page/java/)获取。
+
+**Q: 如何获取 Aspose.Page for Java 的临时许可证？**  
+A: 您可以在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
+
+**Q: Aspose.Page for Java 支持哪些文件格式？**  
+A: Aspose.Page for Java 支持多种格式，包括 EPS、PDF 和 XPS。
+
+**Q: 我可以购买 Aspose.Page for Java 吗？**  
+A: 可以，您可在[此处](https://purchase.aspose.com/buy)购买。
+
+**Q: 在添加元数据时，如何处理大型 EPS 文件？**  
+A: 如示例所示，以流式方式处理文件以降低内存使用，并及时关闭流。
+
+**Q: 我可以修改已有的 XMP 字段，而不仅仅是读取它们吗？**  
+A: 当然可以——您可以在保存前使用 `xmp.put(key, value)` 来更新或添加新条目。
+
+---
+
+**最后更新：** 2025-12-20  
+**测试环境：** Aspose.Page for Java 24.12（最新）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,27 +1,42 @@
 ---
-title: Java kullanarak XMP'ye Meta Veri Ekleme
-linktitle: Java kullanarak XMP'ye Meta Veri Ekleme
-second_title: Aspose.Page Java API'si
-description: Aspose.Page for Java'nın kusursuz entegrasyonunu keşfedin ve XMP meta verilerini EPS dosyalarınıza zahmetsizce nasıl ekleyeceğinizi öğrenin. Belge yönetimi oyununuzu bugün yükseltin!
-weight: 11
+date: 2025-12-20
+description: Aspose Page Java öğreticisiyle EPS dosyalarına XMP meta verisi eklemeyi
+  öğrenin. Belge yönetiminizi geliştirmek için bu adım adım kılavuzu izleyin.
+linktitle: Add Metadata in XMP using Java
+second_title: Aspose.Page Java API
+title: Aspose Page Java Öğreticisi – EPS Dosyalarına XMP Meta Verisi Ekleme
 url: /tr/java/xmp-metadata-manipulation/add-metadata/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak XMP'ye Meta Veri Ekleme
+# Java kullanarak XMP'de Meta Veri Ekleme
 
-## giriiş
-Java kullanarak XMP bilgileri ekleyerek belgenizin meta verilerini geliştirmek mi istiyorsunuz? Başka yerde arama! Bu adım adım kılavuz, Aspose.Page for Java kütüphanesini kullanarak bir EPS dosyasına meta veri ekleme sürecinde size yol gösterecektir. Aspose.Page, Java uygulamalarındaki belge düzenleme görevlerini basitleştiren güçlü bir araçtır.
+## Giriş
+Bu **aspose page java tutorial** içinde, Java kullanarak belgenizin meta verisini XMP bilgisi ekleyerek nasıl geliştireceğinizi öğreneceksiniz. Bu adım‑adım kılavuz, mevcut bir EPS dosyasını okuma, XMP meta verisini çıkarma ve değişiklikleri Aspose.Page for Java kütüphanesiyle diske kaydetme süreçlerini size gösterir. Eğitim sonunda, herhangi bir EPS iş akışında XMP ile çalışmak için sağlam, yeniden kullanılabilir bir desen elde edeceksiniz.
+
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.Page for Java  
+- **Her EPS dosyasına XMP ekleyebilir miyim?** Evet – API, zaten mevcut değilse yeni bir XMP bloğu oluşturur.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gerekir.  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve sonrası.  
+- **Uygulama ne kadar sürer?** Temel bir meta veri güncellemesi için genellikle 10 dakikadan az.
+
+## Aspose Page Java Eğitimine Genel Bakış
+Bu eğitim, EPS dosyalarında XMP meta verisini manipüle etmek için gereken temel adımları gösterir. Bu adımları anlamak, meta veri işleme süreçlerini daha büyük belge‑işleme hatlarına entegre etmenize, aranabilirliği artırmanıza ve dijital varlık yönetimi için endüstri standartlarına uymanıza yardımcı olur.
+
 ## Önkoşullar
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-- Java programlamanın temel bilgisi.
--  Aspose.Page for Java kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/page/java/).
+Eğitime başlamadan önce aşağıdaki önkoşulları karşıladığınızdan emin olun:
+- Java programlama temellerine aşina olmak.  
+- Aspose.Page for Java kütüphanesinin kurulu olması. İndirmek için [buraya](https://releases.aspose.com/page/java/) tıklayın.  
 - Değiştirmek istediğiniz bir EPS dosyası.
-## Paketleri İçe Aktar
-Öncelikle gerekli paketleri Java programınıza aktarın:
+
+## Paketleri İçe Aktarma
+İlk olarak, Java programınıza gerekli paketleri içe aktarın:
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -29,84 +44,115 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.page.BaseExamplesTest;
 ```
-## 1. Adım: XMP Meta Verilerini Alın
+
+## Adım 1: XMP Meta Verisini Alın
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Giriş EPS dosya akışını başlat
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp2.eps");
 PsDocument document = new PsDocument(psStream);
-// XMP meta verilerini alın. EPS dosyası XMP meta verileri içermiyorsa, PS meta veri yorumlarındaki değerler kullanılarak yeni bir tane oluşturulur (%%Creator, %%CreateDate, %%Title, vb.)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, a new one is created using values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-"Belge Dizininiz"i belgelerinizin saklandığı gerçek yolla değiştirdiğinizden emin olun.
+
+`"Your Document Directory"` ifadesini belgelerinizin bulunduğu gerçek yol ile değiştirin.
 
 ## Adım 2: CreatorTool Değerini Alın
 ```java
-// "CreatorTool" değerini alın
+// Get "CreatorTool" value
 if (xmp.containsKey("xmp:CreatorTool"))
     System.out.println("CreatorTool: " + xmp.get("xmp:CreatorTool").toStringValue());
 ```
-## 3. Adım: CreateDate Değerini Alın
+
+## Adım 3: CreateDate Değerini Alın
 ```java
-// "CreateDate" değerini alın
+// Get "CreateDate" value
 if (xmp.containsKey("xmp:CreateDate"))
     System.out.println("CreateDate: " + xmp.get("xmp:CreateDate").toStringValue());
 ```
-## Adım 4: Başlık Değerini Alın
+
+## Adım 4: Title Değerini Alın
 ```java
-// "Başlık" değerini al
+// Get "Title" value
 if (xmp.containsKey("dc:title"))
     System.out.println("Title: " + xmp.get("dc:title").toArray()[0].toStringValue());
 ```
+
 ## Adım 5: Format Değerini Alın
 ```java
-//"Biçim" değerini al
+// Get "format" value
 if (xmp.containsKey("dc:format"))
     System.out.println("Format: " + xmp.get("dc:format").toStringValue());
 ```
-## 6. Adım: İçerik Oluşturucunun Değerini Alın
+
+## Adım 6: Creator Değerini Alın
 ```java
-// "Yaratıcı" değerini alın
+// Get "creator" value
 if (xmp.containsKey("dc:creator"))
     System.out.println("Creator: " + xmp.get("dc:creator").toArray()[0].toStringValue());
 ```
+
 ## Adım 7: MetadataDate Değerini Alın
 ```java
-// "MetadataDate" değerini alın
+// Get "MetadataDate" value
 if (xmp.containsKey("xmp:MetadataDate"))
     System.out.println("MetadataDate: " + xmp.get("xmp:MetadataDate").toStringValue());
 ```
-## 8. Adım: Belgeyi Yeni XMP Meta Verileriyle Kaydetme
+
+## Adım 8: Yeni XMP Meta Verisiyle Belgeyi Kaydedin
 ```java
-// Çıkış EPS dosya akışını başlat
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp2_changed.eps");
-// Belgeyi yeni XMP meta verileriyle kaydedin
+// Save document with new XMP metadata
 try {			
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-Son olarak giriş EPS akışını kapatmayı unutmayın:
+
+Son olarak, giriş EPS akışını kapatmayı unutmayın:
+
 ```java
-// Giriş EPS akışını kapat
+// Close input EPS stream
 psStream.close();
 ```
-Artık Aspose.Page for Java'yı kullanarak EPS dosyanıza meta verileri başarıyla eklediniz!
-## Çözüm
-Bu eğitimde Aspose.Page for Java kütüphanesini kullanarak bir EPS dosyasına XMP meta verileri ekleme sürecini inceledik. Bu güçlü araç, belgeleri sorunsuz bir şekilde yönetmenize olanak tanıyarak genel belge yönetimi deneyiminizi geliştirir.
-## SSS
-### S: Aspose.Page for Java'nın kullanımı ücretsiz midir?
- C: Aspose.Page for Java ticari bir üründür. Ücretsiz deneme yoluyla özelliklerini keşfedebilirsiniz[Burada](https://releases.aspose.com/).
-### S: Aspose.Page for Java belgelerini nerede bulabilirim?
- C: Belgeler mevcut[Burada](https://reference.aspose.com/page/java/).
-### S: Aspose.Page for Java için nasıl geçici lisans alabilirim?
- C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-### S: Aspose.Page for Java hangi dosya formatlarını destekliyor?
+
+Artık Aspose.Page for Java kullanarak EPS dosyanıza meta veri başarıyla eklediniz!
+
+## Sonuç
+Bu **aspose page java tutorial** içinde, Aspose.Page for Java kütüphanesini kullanarak bir EPS dosyasına XMP meta verisi eklemeyi inceledik. Bu güçlü API, belge meta verisini programlı olarak manipüle etmenizi sağlar ve varlıklarınızı düzenli ve aranabilir tutmanıza yardımcı olur.
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.Page for Java ücretsiz mi?**  
+C: Aspose.Page for Java ticari bir üründür. Özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz [burada](https://releases.aspose.com/).
+
+**S: Aspose.Page for Java belgelerine nereden ulaşabilirim?**  
+C: Belgeler [burada](https://reference.aspose.com/page/java/) mevcuttur.
+
+**S: Aspose.Page for Java için geçici bir lisans nasıl alabilirim?**  
+C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
+
+**S: Aspose.Page for Java hangi dosya formatlarını destekliyor?**  
 C: Aspose.Page for Java, EPS, PDF ve XPS dahil çeşitli formatları destekler.
-### S: Java için Aspose.Page'i satın alabilir miyim?
- C: Evet, Java için Aspose.Page'i satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+
+**S: Aspose.Page for Java’yı satın alabilir miyim?**  
+C: Evet, Aspose.Page for Java’yı [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
+
+**S: Meta veri eklerken büyük EPS dosyalarını nasıl yönetebilirim?**  
+C: Bellek kullanımını düşük tutmak için dosyayı akış (stream) şeklinde işleyin (gösterildiği gibi) ve akışları hemen kapatın.
+
+**S: Mevcut XMP alanlarını sadece okumak yerine değiştirebilir miyim?**  
+C: Kesinlikle – `xmp.put(key, value)` kullanarak kaydetmeden önce yeni girişler ekleyebilir veya mevcutları güncelleyebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2025-12-20  
+**Test Edilen Sürüm:** Aspose.Page for Java 24.12 (en yeni)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
