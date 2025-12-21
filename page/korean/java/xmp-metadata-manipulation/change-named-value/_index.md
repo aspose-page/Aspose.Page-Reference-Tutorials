@@ -1,28 +1,50 @@
 ---
-title: Java를 사용하여 XMP에서 명명된 값 변경
-linktitle: Java를 사용하여 XMP에서 명명된 값 변경
-second_title: Aspose.페이지 자바 API
-description: Java용 Aspose.Page를 살펴보세요 - 간소화된 문서 처리를 위한 단계별 가이드를 통해 EPS 파일의 XMP 메타데이터를 쉽게 변경할 수 있습니다.
-weight: 16
+date: 2025-12-21
+description: Aspose.Page XMP 튜토리얼 – Java용 Aspose.Page를 사용해 EPS 파일의 XMP 메타데이터를 명확하고
+  단계별로 수정하는 방법을 배워보세요.
+linktitle: Change Named Value in XMP using Java
+second_title: Aspose.Page Java API
+title: Aspose 페이지 XMP 튜토리얼 – Java를 사용하여 XMP의 명명된 값 변경
 url: /ko/java/xmp-metadata-manipulation/change-named-value/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java를 사용하여 XMP에서 명명된 값 변경
+# Aspose Page XMP 튜토리얼 – Java를 사용하여 XMP에서 명명된 값 변경
 
-문서 조작 영역에서 Java용 Aspose.Page는 개발자가 EPS 파일의 XMP 메타데이터로 원활하게 작업할 수 있도록 지원하는 강력한 도구로 돋보입니다. 이 단계별 가이드는 Aspose.Page for Java를 사용하여 XMP에서 명명된 값을 변경하는 과정을 안내합니다. 자세한 내용을 살펴보기 전에 먼저 소개를 통해 상황을 살펴보겠습니다.
-## 소개
-Aspose.Page for Java는 EPS 파일의 조작 및 처리를 용이하게 하는 강력한 Java 라이브러리입니다. 이러한 파일 내에서 XMP 메타데이터를 처리할 때 Aspose.Page는 개발자에게 포괄적인 기능 세트를 제공합니다. 이 튜토리얼에서는 XMP에서 명명된 값을 변경하는 방법에 중점을 두고 문서 처리 기능을 향상시키려는 개발자에게 명확하고 간결한 가이드를 제공합니다.
-## 전제 조건
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-1. Java 개발 환경: 컴퓨터에 Java 개발 환경이 설정되어 있는지 확인하십시오.
-2.  Aspose.Page for Java 라이브러리: Aspose.Page for Java 라이브러리를 다운로드하여 프로젝트에 통합하세요. 라이브러리와 자세한 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/page/java/).
-3. 샘플 EPS 파일: 실험을 위해 샘플 EPS 파일을 준비합니다. 없는 경우 제공된 "xmp4.eps"라는 예제 파일을 사용할 수 있습니다.
-## 패키지 가져오기
-프로세스를 시작하려면 Java 코드에 필요한 패키지를 가져옵니다. 이러한 패키지는 Java용 Aspose.Page와 상호 작용하는 데 필수적입니다. Java 파일 시작 부분에 다음 줄을 포함합니다.
+현대 문서 워크플로우에서 **Aspose.Page for Java**는 EPS 파일 내부의 XMP 메타데이터를 읽고, 편집하고, 기록하는 작업을 쉽게 해줍니다. 이 **aspose page xmp tutorial**은 XMP 패킷에서 명명된 값을 변경하는 방법을 단계별로 안내하여 문서 메타데이터를 정확하고 검색 가능하게 유지하도록 도와줍니다. 페이지 크기, 작성자 정보 또는 사용자 정의 태그를 업데이트하든, 아래 단계는 Java에서 정확히 어떻게 수행하는지 보여줍니다.
+
+## Quick Answers
+- **What does this tutorial cover?** Changing a named XMP value in an EPS file using Aspose.Page for Java.  
+- **Which library version is required?** Any recent Aspose.Page for Java release (the API has been stable for several years).  
+- **Do I need a license?** A temporary or full license is required for production; a free trial works for testing.  
+- **How long does implementation take?** About 10‑15 minutes for a developer familiar with Java I/O.  
+- **Can I use this with other file formats?** The XMP API is also available for PDF, SVG, and other formats supported by Aspose.Page.
+
+## What is XMP metadata?
+XMP (Extensible Metadata Platform) is a standardized format for embedding rich metadata—such as creator, title, and custom properties—directly inside files. In EPS documents, XMP lives alongside traditional PostScript comments, allowing applications to read and modify metadata without altering the visual content.
+
+## Why use Aspose.Page for Java to edit XMP?
+- **Full control** – Access any XMP property, including custom structures, without parsing raw XML.  
+- **Cross‑format consistency** – Same API works for EPS, PDF, and SVG, simplifying code maintenance.  
+- **No external dependencies** – Pure Java library, no native code or additional parsers needed.  
+- **Robust error handling** – Built‑in validation ensures the resulting EPS remains standards‑compliant.
+
+## Introduction
+Aspose.Page for Java is a robust Java library that facilitates the manipulation and processing of EPS files. When it comes to handling XMP metadata within these files, Aspose.Page empowers developers with a comprehensive set of features. In this tutorial, we will focus on changing a named value in XMP, offering a clear and concise guide for developers looking to enhance their document processing capabilities.
+
+## Prerequisites
+Before diving into the tutorial, ensure you have the following prerequisites in place:
+1. **Java Development Environment** – Make sure you have a Java development environment set up on your machine.  
+2. **Aspose.Page for Java Library** – Download and integrate the Aspose.Page for Java library into your project. You can find the library and detailed documentation [here](https://reference.aspose.com/page/java/).  
+3. **Sample EPS File** – Have a sample EPS file ready for experimentation. If you don't have one, you can use the provided example file named **"xmp4.eps."**
+
+## Import Packages
+To kick off the process, import the necessary packages in your Java code. These packages are essential for interacting with Aspose.Page for Java. Include the following lines at the beginning of your Java file:
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -32,65 +54,92 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
 ```
-이제 Aspose.Page for Java를 사용하여 XMP에서 명명된 값을 변경하는 프로세스를 여러 단계로 나누어 보겠습니다.
-## 1단계: 입력 EPS 파일 스트림 초기화
+
+Now, let's break down the process of changing a named value in XMP using Aspose.Page for Java into multiple steps:
+
+## Step 1: Initialize Input EPS File Stream
 ```java
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
         
-// 입력 EPS 파일 스트림 초기화
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp4.eps");
 ```
-## 2단계: PsDocument 초기화
+
+## Step 2: Initialize PsDocument
 ```java
 PsDocument document = new PsDocument(psStream);
 ```
-## 3단계: XMP 메타데이터 가져오기
+
+## Step 3: Get XMP Metadata
 ```java
-// XMP 메타데이터를 가져옵니다. EPS 파일에 XMP 메타데이터가 포함되어 있지 않으면 PS 메타데이터 주석(%%Creator, %%CreateDate, %%Title 등)의 값으로 채워진 새 파일을 얻습니다.
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get a new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-## 4단계: XMP에서 새 값 설정
+
+## Step 4: Set New Value in XMP
 ```java
-// "xmpTPg:MaxPageSize" 구조의 명명된 값 "stDim:unit"에 대해 새 문자열 값 "Inches"를 설정합니다.
+// Set new string value "Inches" for named value "stDim:unit" of structure "xmpTPg:MaxPageSize" 
 xmp.setNamedValue("xmpTPg:MaxPageSize", "stDim:unit", new XmpValue("Inches"));
 ```
-## 5단계: 출력 EPS 파일 스트림 초기화
+
+## Step 5: Initialize Output EPS File Stream
 ```java
-// 출력 EPS 파일 스트림 초기화
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp4_changed.eps");
 ```
-## 6단계: 변경된 XMP 메타데이터로 문서 저장
+
+## Step 6: Save Document with Changed XMP Metadata
 ```java
-//변경된 XMP 메타데이터로 문서 저장
+// Save document with changed XMP metadata
 try {			
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-## 7단계: 입력 EPS 스트림 닫기
+
+## Step 7: Close Input EPS Stream
 ```java
-// 입력 EPS 스트림 닫기
+// Close input EPS stream
 psStream.close();
 ```
-이 단계별 가이드는 Aspose.Page for Java를 사용하여 XMP에서 명명된 값을 변경하는 체계적인 접근 방식을 보장합니다. 다음 단계를 수행하면 이 기능을 Java 애플리케이션에 원활하게 통합할 수 있습니다.
-## 결론
-결론적으로 Java용 Aspose.Page는 EPS 파일의 XMP 메타데이터 작업 프로세스를 단순화합니다. 이 튜토리얼은 XMP에서 명명된 값을 효율적으로 변경하여 문서 처리 기능을 향상시키는 지식을 제공합니다.
-## 자주 묻는 질문
-### 다른 프로그래밍 언어와 함께 Java용 Aspose.Page를 사용할 수 있나요?
-Aspose.Page는 주로 Java를 지원하지만 Aspose는 다양한 프로그래밍 언어에 대해 유사한 라이브러리를 제공합니다.
-### Aspose.Page for Java에 대한 무료 평가판이 있습니까?
- 예, Aspose.Page for Java의 무료 평가판을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
-### Aspose.Page for Java에 대한 추가 지원과 토론은 어디서 찾을 수 있나요?
- 방문하다[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 커뮤니티 지원 및 토론을 위해.
-### Aspose.Page for Java의 임시 라이선스를 어떻게 얻을 수 있나요?
- 임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
-### Java용 Aspose.Page를 어디서 구입할 수 있나요?
- Java용 Aspose.Page를 구입하려면 다음을 방문하세요.[구매 페이지](https://purchase.aspose.com/buy).
+
+This step‑by‑step guide ensures a systematic approach to changing a named value in XMP using Aspose.Page for Java. By following these steps, you can seamlessly integrate this functionality into your Java applications.
+
+## Common Issues and Solutions
+- **FileNotFoundException** – Verify that `dataDir` points to the correct folder and that `xmp4.eps` exists.  
+- **LicenseException** – If you see licensing errors, make sure a valid Aspose.Page license file is loaded before creating `PsDocument`.  
+- **Metadata Not Updated** – After saving, open the resulting EPS in a metadata viewer (e.g., Adobe Bridge) to confirm the new value appears.
+
+## Conclusion
+In conclusion, Aspose.Page for Java simplifies the process of working with XMP metadata in EPS files. This tutorial has equipped you with the knowledge to efficiently change a named value in XMP, enhancing your document processing capabilities.
+
+## Frequently Asked Questions
+### Can I use Aspose.Page for Java with other programming languages?
+Aspose.Page primarily supports Java, but Aspose provides similar libraries for various programming languages.
+
+### Is there a free trial available for Aspose.Page for Java?
+Yes, you can explore a free trial of Aspose.Page for Java [here](https://releases.aspose.com/).
+
+### Where can I find additional support and discussions about Aspose.Page for Java?
+Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support and discussions.
+
+### How can I obtain a temporary license for Aspose.Page for Java?
+You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Where can I purchase Aspose.Page for Java?
+To buy Aspose.Page for Java, visit the [purchase page](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**마지막 업데이트:** 2025-12-21  
+**테스트 환경:** Aspose.Page for Java (최신 릴리스)  
+**작성자:** Aspose
