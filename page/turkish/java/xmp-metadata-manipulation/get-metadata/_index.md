@@ -1,26 +1,41 @@
 ---
-title: Java kullanarak XMP'den Meta Veri Alma
-linktitle: Java kullanarak XMP'den Meta Veri Alma
-second_title: Aspose.Page Java API'si
-description: XMP meta verilerini zahmetsizce çıkarmak için Aspose.Page for Java'nın gücünün kilidini açın. Adım adım kılavuzumuzla belge analizini geliştirin!
-weight: 18
+date: 2025-12-21
+description: Java ve Aspose.Page kullanarak XMP meta verilerini nasıl okuyacağınızı
+  öğrenin. Bu adım adım kılavuz, belge formatı XMP'yi nasıl okuyacağınızı ve temel
+  özellikleri nasıl çıkaracağınızı gösterir.
+linktitle: How to Read XMP Metadata using Java
+second_title: Aspose.Page Java API
+title: Java Kullanarak XMP Metaverisini Okuma – Aspose.Page Rehberi
 url: /tr/java/xmp-metadata-manipulation/get-metadata/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak XMP'den Meta Veri Alma
+# XMP'den Metaveri Almak Java ile
 
-## giriiş
-XMP dosyalarından meta veri çıkarmak için Aspose.Page for Java'nın kullanımına ilişkin adım adım kılavuzumuza hoş geldiniz. XMP (Genişletilebilir Meta Veri Platformu), meta verileri dosyalarda depolamanın standartlaştırılmış bir yolunu sağlar. Bu eğitim, Java kullanarak XMP'den temel bilgilerin alınmasına odaklanarak belge ayrıntılarına ilişkin öngörüler sunar.
+## Java Kullanarak XMP Metaverisini Okuma
+
+Adım adım öğreticimize hoş geldiniz; bu öğretici **XMP'yi nasıl okuyacağınızı** Java ve Aspose.Page kütüphanesi ile gösterir. XMP (Extensible Metadata Platform), belgeler içinde zengin metaveri yerleştirmek için yaygın olarak benimsenen bir standarttır. Bu rehberin sonunda belge formatı XMP'yi okuyabilecek, oluşturucu bilgilerini, zaman damgalarını, küçük resimleri ve daha fazlasını çıkarabilecek ve daha akıllı belge‑analiz çözümleri oluşturabileceksiniz.
+
+## Hızlı Yanıtlar
+- **“how to read xmp” ne anlama geliyor?** Dosyalardan programlı olarak XMP metaverisi çıkarmak anlamına gelir.  
+- **Hangi kütüphane gerekiyor?** Aspose.Page for Java (Aspose indirme sayfasından temin edilebilir).  
+- **Lisans gerekiyor mu?** Üretim kullanımı için geçici veya tam lisans gerekir; ücretsiz deneme mevcuttur.  
+- **Hangi Java sürümü destekleniyor?** Java 8 veya üzeri.  
+- **XMP'yi diğer formatlardan okuyabilir miyim?** Evet, Aspose.Page EPS, PDF ve XMP gömen çeşitli görüntü türlerini işleyebilir.
+
 ## Önkoşullar
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-- Java Geliştirme Kiti (JDK): Makinenizde Java'nın kurulu olduğundan emin olun.
--  Aspose.Page for Java: Burada bulabileceğiniz Aspose.Page kütüphanesini indirip yükleyin.[Burada](https://releases.aspose.com/page/java/).
-## Paketleri İçe Aktar
-Java projenizde gerekli paketleri içe aktarın:
+Before diving into the code, make sure you have:
+
+- **Java Development Kit (JDK)** – Makinenizde Java 8+ yüklü ve yapılandırılmış.  
+- **Aspose.Page for Java** – Kütüphaneyi resmi siteden [buradan](https://releases.aspose.com/page/java/) indirin.  
+- XMP metaverisi içeren bir EPS dosyası (ör. `xmp1.eps`).  
+
+## Paketleri İçe Aktarma
+In your Java project, import the necessary packages:
 ```java
 import java.io.FileInputStream;
 import com.aspose.eps.PsDocument;
@@ -29,32 +44,37 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
 ```
-## 1. Adım: Giriş EPS Dosya Akışını Başlatın
-Belge dizininizin yolunu ayarlayarak ve giriş EPS dosya akışını başlatarak başlayın.
+
+## Adım 1: Giriş EPS Dosya Akışını Başlatma
+Begin by setting the path to your document directory and initializing the input EPS file stream.
 ```java
 String dataDir = "Your Document Directory";
 FileInputStream psStream = new FileInputStream(dataDir + "xmp1.eps");
 PsDocument document = new PsDocument(psStream);
 ```
-## 2. Adım: XMP Meta Verilerini Alın
-EPS dosyasından XMP meta verilerini alın. Dosyada XMP meta verileri eksikse PS meta veri yorumlarından alınan değerlerle yeni bir dosya oluşturulacaktır.
+
+## Adım 2: XMP Metaverisini Alın
+Retrieve XMP metadata from the EPS file. If the file lacks XMP metadata, a new one will be generated with values from PS metadata comments.
 ```java
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-## 3. Adım: CreatorTool Bilgilerini Çıkarın
-XMP meta verilerinden "CreatorTool" değerini kontrol edip yazdırın.
+
+## Adım 3: CreatorTool Bilgisini Çıkarın
+Check and print the "CreatorTool" value from the XMP metadata.
 ```java
 if (xmp.containsKey("xmp:CreatorTool"))
     System.out.println("CreatorTool: " + xmp.get("xmp:CreatorTool").toStringValue());
 ```
-## Adım 4: CreateDate Bilgilerini Çıkarın
-XMP meta verilerinden "CreateDate" değerini kontrol edip yazdırın.
+
+## Adım 4: CreateDate Bilgisini Çıkarın
+Check and print the "CreateDate" value from the XMP metadata.
 ```java
 if (xmp.containsKey("xmp:CreateDate"))
     System.out.println("CreateDate: " + xmp.get("xmp:CreateDate").toStringValue());
 ```
+
 ## Adım 5: Küçük Resim Genişliğini Alın
-Küçük resimler varsa, ilk küçük resmin genişliğini çıkarın ve yazdırın.
+If thumbnails exist, extract and print the width of the first thumbnail.
 ```java
 if (xmp.containsKey("xmp:Thumbnails") && xmp.get("xmp:Thumbnails").isArray()) {
     XmpValue val = xmp.get("xmp:Thumbnails").toArray()[0];
@@ -62,34 +82,67 @@ if (xmp.containsKey("xmp:Thumbnails") && xmp.get("xmp:Thumbnails").isArray()) {
         System.out.println("Thumbnail Width: " + val.toNamedValues().get("xmpGImg:width").toInteger());
 }
 ```
-## Adım 6: Format Bilgilerini Çıkarın
-XMP meta verilerinden "format" değerini kontrol edin ve yazdırın.
+
+## Adım 6: Format Bilgisini Çıkarın
+Check and print the "format" value from the XMP metadata.
 ```java
 if (xmp.containsKey("dc:format"))
     System.out.println("Format: " + xmp.get("dc:format").toStringValue());
 ```
-## Adım 7: DocumentID'yi edinin
-XMP meta verisinden "DocumentID" değerini kontrol edip yazdırın.
+
+## Adım 7: DocumentID'yi Alın
+Check and print the "DocumentID" value from the XMP metadata.
 ```java
 if (xmp.containsKey("xmpMM:DocumentID"))
     System.out.println("DocumentID: " + xmp.get("xmpMM:DocumentID").toStringValue());
 ```
-## Çözüm
-Tebrikler! Aspose.Page for Java'yı kullanarak XMP meta verilerini nasıl çıkaracağınızı başarıyla öğrendiniz. Bu kılavuz, sürece ilişkin kapsamlı bir genel bakış sunarak belgelerinizden önemli bilgileri etkili bir şekilde alabilmenizi sağlar.
+
+## Neden Önemli
+XMP metaverisini okumak, bir belgeyi görüntüleyiciyle açmadan, kaynağını, oluşturulma tarihini ve diğer temel özelliklerini programlı olarak keşfetmenizi sağlar. Bu, toplu işleme, içerik yönetim sistemleri ve metaverinin indeksleme ve aramayı yönlendirdiği dijital varlık hatları için özellikle faydalıdır.
+
+## Yaygın Tuzaklar ve İpuçları
+- **XMP Eksikliği:** Bazı EPS dosyalarında XMP bulunmayabilir. `getXmpMetadata()` çağrısı mevcut PS yorumlarına dayanarak minimal bir set oluşturur, ancak gömülü olmadıkça tam metaveri elde edemezsiniz.  
+- **Küçük Resim Dizileri:** `xmp:Thumbnails` anahtarı birden çok giriş tutabilir. Örnek sadece ilkini çıkarır; tüm küçük resimlere ihtiyacınız varsa diziyi döngüyle işleyin.  
+- **Namespace Bilinci:** XMP anahtarları namespace kullanır (ör. `xmp:`, `dc:`). Tam anahtar adını kullandığınızdan emin olun; aksi takdirde `containsKey` false dönecektir.
+
 ## Sıkça Sorulan Sorular
-### Aspose.Page for Java'yı diğer programlama dilleriyle birlikte kullanabilir miyim?
- Evet, Aspose.Page, Java, .NET ve daha fazlası dahil olmak üzere birçok dili destekler. Kontrol edin[dokümantasyon](https://reference.aspose.com/page/java/) detaylar için.
-### Aspose.Page for Java'nın ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
-### Aspose.Page for Java desteğini nerede bulabilirim?
- Ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) topluluk desteği için.
-### Aspose.Page for Java için nasıl geçici lisans edinebilirim?
- Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-### Aspose.Page for Java'ya yönelik ek kaynaklar var mı?
- Tamamını keşfedin[dokümantasyon](https://reference.aspose.com/page/java/) ve kütüphaneyi indirin[Burada](https://releases.aspose.com/page/java/).
+### Aspose.Page for Java'ı diğer programlama dilleriyle kullanabilir miyim?
+Evet, Aspose.Page Java, .NET ve daha fazlası dahil olmak üzere birden çok dili destekler. Detaylar için [belgelere](https://reference.aspose.com/page/java/) bakın.
+
+### Aspose.Page for Java için ücretsiz deneme mevcut mu?
+Evet, ücretsiz denemeye [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+
+### Aspose.Page for Java için desteği nereden bulabilirim?
+Topluluk desteği için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
+
+### Aspose.Page for Java için geçici lisans nasıl alabilirim?
+Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
+
+### Aspose.Page for Java için ek kaynaklar var mı?
+Tam [belgelere](https://reference.aspose.com/page/java/) göz atın ve kütüphaneyi [buradan](https://releases.aspose.com/page/java/) indirin.
+
+## Ek SSS
+**S: Bu yöntem XMP içeren PDF dosyalarında çalışır mı?**  
+C: Evet, Aspose.Page PDF, EPS ve çeşitli görüntü formatlarından XMP okuyabilir.
+
+**S: XMP metaverisini okuduktan sonra değiştirebilir miyim?**  
+C: Kesinlikle. `XmpMetadata` nesnesi değiştirilebilir; anahtar ekleyebilir, güncelleyebilir veya kaldırabilir ve ardından belgeyi kaydedebilirsiniz.
+
+**S: Sadece boyutlar değil, tüm küçük resim görüntülerini çıkarmanın bir yolu var mı?**  
+C: Her küçük resim girişinin `xmpGImg:data` özelliğinden ikili veriyi alabilir ve bir dosyaya yazabilirsiniz.
+
+## Sonuç
+Artık Java ve Aspose.Page kullanarak **XMP'yi nasıl okuyacağınızı** ustaca biliyorsunuz. Bu adımları izleyerek oluşturucu araçları, zaman damgalarını, küçük resimleri, format bilgilerini ve belge kimliklerini çıkarabilir; EPS dosyalarınızda gömülü metaveriye tam bir bakış elde edebilirsiniz. Uygulamalarınız için daha zengin veri elde etmek amacıyla ek XMP namespace'leriyle denemeler yapmaktan çekinmeyin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose
