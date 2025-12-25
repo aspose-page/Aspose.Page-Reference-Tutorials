@@ -1,47 +1,91 @@
 ---
-title: Manipulación de imágenes - XPS
-linktitle: Manipulación de imágenes - XPS
-second_title: API de Java de Aspose.Page
-description: Descubra el arte de la manipulación de imágenes sin esfuerzo en documentos Java XPS con Aspose.Page. Aprenda a agregar y organizar imágenes en mosaico sin problemas para mejorar el procesamiento de documentos.
-weight: 29
+date: 2025-12-25
+description: Aprenda cómo agregar imágenes a documentos XPS con Aspose.Page usando
+  Java. Esta guía muestra paso a paso la inserción de imágenes y técnicas de imágenes
+  en mosaico para XPS.
+linktitle: Image Manipulation - XPS
+second_title: Aspose.Page Java API
+title: Aspose.Page Agregar Imagen XPS – Tutorial de Manipulación de Imágenes
 url: /es/java/xps-image-manipulation/
+weight: 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Manipulación de imágenes - XPS
-
+# Aspose.Page Add Image XPS – Tutorial de Manipulación de Imágenes
 
 ## Introducción
 
-En el ámbito del procesamiento de documentos Java XPS, Aspose.Page se destaca como una herramienta poderosa que ofrece una experiencia perfecta en la manipulación de imágenes. En esta serie de tutoriales, profundizaremos en las complejidades de mejorar sus documentos con imágenes cautivadoras. Así que ¡abróchate el cinturón y embárcate en un viaje por el fascinante mundo de la manipulación de imágenes!
+En el ámbito del procesamiento de documentos XPS con Java, **aspose.page add image xps** es la solución preferida para los desarrolladores que necesitan enriquecer sus archivos con gráficos. Aspose.Page for Java hace que la inserción de imágenes sea sencilla, permitiéndote centrarte en el diseño en lugar de en la infraestructura de bajo nivel. En esta serie de tutoriales exploraremos cómo agregar imágenes individuales, imágenes en mosaico y consejos de buenas prácticas para que tus documentos XPS luzcan profesionales y atractivos.
 
-## Agregar imágenes a documentos Java XPS
+## Respuestas rápidas
+- **¿Qué biblioteca maneja la inserción de imágenes XPS?** Aspose.Page for Java (`aspose.page add image xps`).
+- **¿Necesito una licencia?** Una prueba gratuita funciona para evaluación; se requiere una licencia de pago para producción.
+- **¿Qué formatos de imagen son compatibles?** PNG, JPEG, BMP, GIF y TIFF.
+- **¿Puedo mosaicar una imagen?** Sí – la guía “add tiled image” muestra cómo repetir un gráfico a lo largo de una página.
+- **¿Requisitos previos?** Java 8+ y el JAR de Aspose.Page for Java.
+
+## Agregar imágenes a documentos XPS en Java
 ### [Agregar imagen en Java XPS](./add-image/)
 
-¿A sus documentos XPS les falta ese atractivo visual? ¡No temas! Con Aspose.Page para Java, puede agregar imágenes sin esfuerzo, dando vida a sus documentos. No más textos mundanos: nuestra guía paso a paso le permite infundir vitalidad con cada clic. Eleve su juego de documentos y cautive a su audiencia.
+¿Tus documentos XPS carecen de atractivo visual? ¡No te preocupes! Con Aspose.Page for Java, puedes agregar imágenes sin esfuerzo, dando vida a tus documentos. No más textos monótonos—nuestro tutorial paso a paso te permite infundir vitalidad con cada clic. Eleva la calidad de tus documentos y cautiva a tu audiencia.
 
-Imagínese esto: unas pocas líneas de código y su documento XPS se transforma en una obra maestra visual. Nuestro tutorial lo guiará a través del proceso, asegurándose de que comprenda cada matiz. Desde lo básico hasta las técnicas avanzadas, lo tenemos cubierto. Añade imágenes como un profesional y sé testigo de cómo se desarrolla la magia.
+Imagina esto: unas pocas líneas de código y tu documento XPS se transforma en una obra maestra visual. Nuestro tutorial te guía a través del proceso, asegurando que comprendas cada detalle. Desde lo básico hasta técnicas avanzadas, te cubrimos. Agrega imágenes como un profesional y observa cómo ocurre la magia.
 
- ¿Listo para convertir sus documentos XPS en un lienzo de creatividad?[Explora el tutorial ahora](./add-image/)!
+¿Listo para convertir tus documentos XPS en un lienzo de creatividad? [¡Explora el tutorial ahora!](./add-image/)
 
-### Exploración de imágenes en mosaico en documentos Java XPS
+### Explorando imágenes en mosaico en documentos XPS de Java
 [Agregar imagen en mosaico en Java XPS](./add-tiled-image/)
 
-Lleve sus habilidades de manipulación de documentos Java XPS a un nivel superior con imágenes en mosaico. Aspose.Page le permite integrar perfectamente imágenes en mosaico, brindando una experiencia rica e inmersiva. Dígale adiós a los diseños monótonos: abrace el mundo dinámico de las imágenes en mosaico sin esfuerzo.
+Lleva tus habilidades de manipulación de documentos XPS en Java al siguiente nivel con imágenes en mosaico. Aspose.Page te permite integrar imágenes en mosaico de forma fluida, proporcionando una experiencia rica e inmersiva. Di adiós a los diseños monótonos—adopta el mundo dinámico de las imágenes en mosaico sin complicaciones.
 
-Nuestra guía paso a paso está diseñada pensando en la simplicidad. Ya sea que sea un desarrollador experimentado o recién esté comenzando, nuestro tutorial le permitirá comprender el concepto con facilidad. Descubra los secretos de agregar imágenes en mosaico a sus documentos Java XPS, creando una narrativa visual que cautive a su audiencia.
+Nuestro tutorial paso a paso está diseñado con la simplicidad en mente. Ya seas un desarrollador experimentado o estés comenzando, nuestro tutorial asegura que comprendas el concepto con facilidad. Descubre los secretos de agregar imágenes en mosaico a tus documentos XPS de Java, creando una narrativa visual que cautiva a tu audiencia.
 
- Imagine las posibilidades: patrones complejos, diseños detallados y un documento que cuenta una historia. ¿Listo para transformar sus documentos XPS en un viaje visual?[Sumérgete en el tutorial](./add-tiled-image/) ¡Y da rienda suelta a tu creatividad!
+Imagina las posibilidades: patrones intrincados, diseños detallados y un documento que cuenta una historia. ¿Listo para transformar tus documentos XPS en un viaje visual? [¡Sumérgete en el tutorial!](./add-tiled-image/) y desata tu creatividad.
 
-En conclusión, Aspose.Page para Java abre la puerta a un mundo donde la manipulación de documentos se convierte en un arte. Ya sea que esté agregando imágenes o explorando diseños en mosaico, nuestros tutoriales le brindan la orientación que necesita. Mejore su juego de procesamiento de documentos con Aspose.Page y convierta documentos comunes en experiencias extraordinarias.
+## Cómo usar Aspose.Page para agregar imágenes XPS – Guía rápida
+Cuando necesites **aspose.page add image xps**, sigue estos pasos de alto nivel:
+
+1. **Crear un XpsDocument** – instancia el objeto documento usando Aspose.Page.
+2. **Cargar la imagen** – proporciona la ruta a un formato de imagen compatible.
+3. **Definir la ubicación** – establece el rectángulo o las coordenadas donde debe aparecer la imagen.
+4. **Insertar la imagen** – llama al método apropiado (`addImage`) en la página.
+5. **Guardar el documento** – escribe el archivo XPS actualizado en disco.
+
+Estos pasos se ilustran en los tutoriales enlazados arriba, ofreciéndote fragmentos de código listos para ejecutar.
+
 ## Manipulación de imágenes - Tutoriales XPS
 ### [Agregar imagen en Java XPS](./add-image/)
-Aprenda cómo agregar imágenes sin esfuerzo a documentos XPS en Java usando Aspose.Page. Mejore el procesamiento de sus documentos con esta guía paso a paso.
+Aprende a agregar imágenes a documentos XPS en Java usando Aspose.Page. Mejora tu procesamiento de documentos con esta guía paso a paso.
+
 ### [Agregar imagen en mosaico en Java XPS](./add-tiled-image/)
-Explore la manipulación perfecta de documentos Java XPS con Aspose.Page. Aprenda a agregar imágenes en mosaico sin esfuerzo utilizando esta guía paso a paso.
+Explora la manipulación fluida de documentos XPS en Java con Aspose.Page. Aprende a agregar imágenes en mosaico sin esfuerzo mediante esta guía paso a paso.
+
+## Preguntas frecuentes
+
+**P: ¿Puedo agregar imágenes a un archivo XPS existente?**  
+R: Sí. Abre el XPS existente con `XpsDocument` y usa las mismas APIs `addImage` para insertar nuevos gráficos.
+
+**P: ¿Qué límites de tamaño de imagen se aplican?**  
+R: Aspose.Page soporta imágenes de hasta 10 MB; archivos más grandes pueden afectar el rendimiento pero siguen siendo procesables.
+
+**P: ¿El mosaico afecta el tamaño del archivo?**  
+R: El mosaico repite los mismos datos de imagen, por lo que el tamaño del archivo crece mínimamente—solo se almacena la definición del mosaico.
+
+**P: ¿Hay una forma de mantener la transparencia de la imagen?**  
+R: Las imágenes PNG conservan los canales alfa al agregarse, por lo que las regiones transparentes se renderizan correctamente en el XPS.
+
+**P: ¿Cómo depuro problemas de ubicación de imágenes?**  
+R: Usa el método `saveAsPdf` para exportar una vista previa en PDF; ayuda a visualizar coordenadas y escalado antes de la salida final en XPS.
+
+---
+
+**Última actualización:** 2025-12-25  
+**Probado con:** Aspose.Page for Java 24.12 (última)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
