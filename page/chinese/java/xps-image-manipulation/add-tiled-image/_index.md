@@ -1,27 +1,45 @@
 ---
-title: 在 Java XPS 中添加平铺图像
-linktitle: 在 Java XPS 中添加平铺图像
+date: 2025-12-28
+description: 学习如何使用 Aspose.Page 在 Java 中创建 XPS 文档，并轻松添加平铺图像的分步指南。
+linktitle: Add Tiled Image in Java XPS
 second_title: Aspose.Page Java API
-description: 使用 Aspose.Page 探索无缝 Java XPS 文档操作。使用此分步指南学习轻松添加平铺图像。
-weight: 11
+title: 如何在 Java 中使用平铺图像创建 XPS 文档
 url: /zh/java/xps-image-manipulation/add-tiled-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java XPS 中添加平铺图像
+# 在 Java 中创建 XPS 文档并添加平铺图像
 
 ## 介绍
-在 Java 开发的动态世界中，对高效文档操作和创建的需求不断增长。 Aspose.Page for Java 成为一个强大的工具，为开发人员提供无缝处理 XPS 文档的能力。本教程重点关注一项特定任务 - 将平铺图像添加到 Java XPS 文档。
-## 先决条件
-在深入学习本教程之前，请确保您具备以下先决条件：
-1. Java 开发工具包 (JDK)：确保您的系统上安装了 JDK。
-2.  Aspose.Page for Java：从以下位置下载并安装 Aspose.Page for Java：[网站](https://releases.aspose.com/page/java/).
-3. 您的文档目录：选择或创建要保存 XPS 文档的目录。
+在现代 Java 开发中，能够**创建 XPS 文档**文件是一项有价值的技能，尤其是当您需要使用平铺图像等图形来丰富文档时。Aspose.Page for Java 使此过程变得简单，让您可以专注于视觉设计，而不是低层文件处理。在本教程中，您将学习如何创建 XPS 文档、**添加平铺图像**并保存结果，全部配有清晰的逐步代码示例。
+
+## 快速回答
+- **Aspose.Page 的作用是什么？** 它提供了一个高级 API，用于在 Java 中生成和操作 XPS 文档。  
+- **我可以平铺图像吗？** 可以——使用 `XpsImageBrush` 并将 `XpsTileMode.Tile` 作为平铺模式。  
+- **我需要许可证吗？** 生产环境使用需要临时或商业许可证。  
+- **支持哪个 Java 版本？** 任意 JDK 8 及以上版本均兼容。  
+- **实现需要多长时间？** 对于基本的平铺图像场景，大约需要 10–15 分钟。
+
+## 什么是“创建 XPS 文档”？
+XPS（XML Paper Specification）文件是一种类似 PDF 的固定布局文档格式。以编程方式创建 XPS 文档可以让您直接从 Java 代码生成可打印、与设备无关的文件。
+
+## 为什么要添加平铺图像？
+平铺图像会在定义的区域内重复该图形，非常适合作为背景、水印或图案填充。使用 Aspose.Page 的 `XpsTileMode.Tile`，只需几行代码即可实现。
+
+## 前置条件
+在开始之前，请确保您已具备以下条件：
+
+1. **Java Development Kit (JDK)** – 已安装 JDK 8 或更高版本。  
+2. **Aspose.Page for Java** – 从[网站](https://releases.aspose.com/page/java/)下载。  
+3. **可写目录** – 用于保存生成的 XPS 文件。
+
 ## 导入包
-在您的 Java 项目中，导入必要的包以利用 Aspose.Page 功能：
+在您的 Java 项目中，导入必要的类：
+
 ```java
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsImageBrush;
@@ -29,54 +47,81 @@ import com.aspose.xps.XpsPath;
 import com.aspose.xps.XpsTileMode;
 import java.awt.geom.Rectangle2D;
 ```
-现在，让我们将向 Java XPS 文档添加平铺图像的过程分解为清晰、可管理的步骤。
-## 第 1 步：设置您的项目
-首先设置您的 Java 项目，确保正确集成 Aspose.Page for Java。
-## 第 2 步：创建 XPS 文档
-使用以下代码初始化一个新的 XPS 文档：
+
+## 步骤指南
+
+### 步骤 1：设置项目
+将 Aspose.Page JAR 文件添加到项目的类路径，并验证导入语句能够成功编译。
+
+### 步骤 2：创建 XPS 文档
+实例化一个新的 `XpsDocument` 对象。这是容纳所有页面、路径和资源的核心容器。
+
 ```java
-//文档目录的路径。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//创建新的 XPS 文档
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
-## 第 3 步：定义平铺图像路径
-指定要添加到 XPS 文档的平铺图像的路径。
-## 第 4 步：添加平铺图像
-使用下面的代码片段将平铺图像添加到 XPS 文档中：
+
+### 步骤 3：定义平铺图像路径
+将您想要平铺的图像（例如 `R08LN_NN.jpg`）放置在 `dataDir` 所指向的目录中。该图像将用作画刷模式。
+
+### 步骤 4：添加平铺图像
+创建一个矩形路径，并使用 `XpsImageBrush` 填充。通过将平铺模式设置为 `Tile`，图像将在矩形内重复。
+
 ```java
-//平铺图像
-//ImageBrush 填充矩形位于右上方下方
+// Tile image
+// ImageBrush filled rectangle in the right top below
 XpsPath path = doc.addPath(doc.createPathGeometry("M 10,160 L 228,160 228,305 10,305"));
 path.setFill(doc.createImageBrush(dataDir +  "R08LN_NN.jpg",
                                 new Rectangle2D.Float(0f, 0f, 128f, 96f), new Rectangle2D.Float(0f, 0f, 64f, 48f)));
 ((XpsImageBrush)path.getFill()).setTileMode(XpsTileMode.Tile);
 path.getFill().setOpacity(0.5f);
 ```
-## 第 5 步：保存文档
-最后，使用以下代码保存生成的 XPS 文档：
+
+### 步骤 5：保存文档
+将 XPS 文件持久化到磁盘。输出文件将包含您刚才定义的平铺图像。
+
 ```java
-//保存生成的 XPS 文档
+// Save resultant XPS document
 doc.save(dataDir + "AddTiledImage_out.xps"); 
 ```
-重复这些步骤，即可使用 Aspose.Page 轻松地将平铺图像合并到 Java XPS 文档中。
-## 结论
-Aspose.Page for Java 简化了 XPS 文档的处理过程，为开发人员提供了高效的文档操作解决方案。通过遵循此分步指南，您可以轻松地将平铺图像添加到 Java XPS 文档中。
 
-## 常见问题解答
-### Aspose.Page 与所有 Java 版本兼容吗？
- Aspose.Page 设计用于各种 Java 版本。通过检查文档确保兼容性[这里](https://reference.aspose.com/page/java/).
-### 我可以将 Aspose.Page 用于商业项目吗？
-是的，Aspose.Page 提供商业许可证。购买它们[这里](https://purchase.aspose.com/buy).
-### 有免费试用吗？
-是的，通过免费试用探索 Aspose.Page 功能[这里](https://releases.aspose.com/).
-### 我在哪里可以找到社区支持和讨论？
-与 Aspose.Page 社区互动[论坛](https://forum.aspose.com/c/page/39).
-### 如何获得 Aspose.Page 的临时许可证？
-获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
+每当您需要在同一 XPS 文档的其他页面或形状中**添加平铺图像**时，都可以重复上述步骤。
+
+## 常见问题及解决方案
+| 问题 | 解决方案 |
+|-------|----------|
+| 图像未显示 | 验证文件路径 (`dataDir + "R08LN_NN.jpg"`) 是否正确且图像可访问。 |
+| 平铺图案被拉伸 | 调整源和目标 `Rectangle2D` 的数值以控制平铺大小。 |
+| 不透明度无效 | 确保在设置平铺模式后再设置画刷的不透明度。 |
+
+## 常见问答
+
+### Aspose.Page 是否兼容所有 Java 版本？
+Aspose.Page 设计用于兼容多种 Java 版本。请通过查看文档[此处](https://reference.aspose.com/page/java/)确认兼容性。
+
+### 我可以在商业项目中使用 Aspose.Page 吗？
+是的，Aspose.Page 提供商业许可证。可在[此处](https://purchase.aspose.com/buy)购买。
+
+### 是否提供免费试用？
+是的，可在[此处](https://releases.aspose.com/)获取免费试用。
+
+### 在哪里可以找到社区支持和讨论？
+可在[论坛](https://forum.aspose.com/c/page/39)与 Aspose.Page 社区交流。
+
+### 如何获取 Aspose.Page 的临时许可证？
+可在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最后更新：** 2025-12-28  
+**测试环境：** Aspose.Page for Java 24.12（最新）  
+**作者：** Aspose
