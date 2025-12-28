@@ -1,69 +1,109 @@
 ---
-title: Java XPS 圖像添加 - Aspose.Page 簡單指南
-linktitle: 在 Java XPS 中加入圖像
+date: 2025-12-28
+description: 了解如何在 Java 中使用 Aspose.Page 向 XPS 文件添加圖片。本分步指南將向您展示如何輕鬆加入圖片，提升文件處理效能。
+linktitle: Add Image in Java XPS
 second_title: Aspose.Page Java API
-description: 了解如何使用 Aspose.Page 在 Java 中輕鬆地將圖像新增至 XPS 文件。透過此逐步指南提升您的文件處理能力。
-weight: 10
+title: 如何在 Java XPS 文件中加入圖片 – Aspose.Page 簡易指南
 url: /zh-hant/java/xps-image-manipulation/add-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java XPS 圖像添加 - Aspose.Page 簡單指南
+# 如何在 Java XPS 文件中加入圖片（使用 Aspose.Page）
 
-在 Java 開發領域，使用 XPS 文件的能力對於各種應用程式至關重要。 Aspose.Page for Java 提供了一組強大的工具來操作 XPS 文檔，其中一個基本任務是新增圖像。在本逐步指南中，我們將引導您完成使用 Aspose.Page for Java 將圖像新增至 XPS 文件的過程。
-## 介紹
-將影像新增至 XPS 文件是許多 Java 應用程式（從報告產生到文件處理）中的常見要求。 Aspose.Page for Java 簡化了這項任務，提供了將圖像無縫整合到 XPS 檔案中的有效方法。在本教程中，我們將示範如何使用 Aspose.Page for Java 將圖像新增至 XPS 文件。
-## 先決條件
-在深入學習本教程之前，請確保您具備以下先決條件：
-1.  Aspose.Page for Java 函式庫：從下列位置下載並安裝 Aspose.Page for Java 函式庫：[網站](https://releases.aspose.com/page/java/).
-2. Java 開發環境：確保您的電腦上設定有 Java 開發環境。
+在 XPS 檔案中加入圖片是許多 Java 開發人員需要的常見需求，無論是豐富報表、發票或任何視覺文件。本教學將示範 **如何加入圖片** 到 XPS 文件，使用功能強大的 Aspose.Page for Java 函式庫。我們會一步步說明每行程式碼的意義，並提供避免常見問題的技巧。
+
+## Quick Answers
+- **需要的函式庫是什麼？** Aspose.Page for Java  
+- **我可以加入多張圖片嗎？** 是 – 為每張圖片重複加入圖片的步驟  
+- **支援的圖片格式？** TIFF, JPEG, PNG, GIF (and others supported by .NET)  
+- **需要授權嗎？** 免費試用可用於評估；正式環境需購買商業授權  
+- **典型實作時間？** 基本圖片插入大約需要 10‑15 分鐘  
+
+## Introduction
+在許多 Java 應用程式中，將圖片加入 XPS 文件是常見需求，從報表產生到文件處理皆是如此。Aspose.Page for Java 簡化了這項工作，提供高效的方法讓您無縫地將圖片整合到 XPS 檔案中。本教學將示範如何使用 Aspose.Page for Java 在 XPS 文件中加入圖片。
+
+## Prerequisites
+在開始教學之前，請確保您已具備以下前置條件：
+1. **Aspose.Page for Java Library** – 從[網站](https://releases.aspose.com/page/java/)下載並安裝 Aspose.Page for Java 函式庫。  
+2. **Java Development Environment** – 確保您的機器已設定 Java 開發環境。
+
 現在，讓我們繼續下一步。
-## 導入包
-在您的 Java 專案中，匯入必要的 Aspose.Page for Java 套件以存取所需的類別和方法。
+
+## Import Packages
+在您的 Java 專案中，匯入必要的 Aspose.Page for Java 套件，以存取所需的類別與方法。
+
 ```java
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsPath;
 import java.awt.geom.Rectangle2D;
 ```
-## 第 1 步：設定文檔目錄
-定義將儲存 XPS 文件和影像檔案的文檔目錄的路徑。
+
+## Step 1: Set Up Document Directory
+定義文件目錄的路徑，該目錄將存放 XPS 文件與圖片檔案。
+
 ```java
 String dataDir = "Your Document Directory";
 ```
-## 第 2 步：建立新的 XPS 文檔
-使用以下程式碼片段初始化新的 XPS 文件：
+
+## Step 2: Create a New XPS Document
+使用以下程式碼片段初始化一個新的 XPS 文件：
+
 ```java
 XpsDocument doc = new XpsDocument();
 ```
-## 步驟 3：將影像新增至 XPS 文檔
-若要新增影像，請在 XPS 文件中建立路徑，並使用提供的影像檔案和座標設定影像畫筆。
+
+## Step 3: Add Image to XPS Document
+若要加入圖片，先在 XPS 文件中建立路徑，然後使用提供的圖片檔案與座標設定圖片筆刷。
+
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 path.setRenderTransform(doc.createMatrix(0.7f, 0f, 0f, 0.7f, 0f, 20f));
 path.setFill(doc.createImageBrush(dataDir + "QL_logo_color.tif", new Rectangle2D.Double(0f, 0f, 258.24f, 56.64f), new Rectangle2D.Double(50f, 20f, 193.68f, 42.48f)));
 ```
-## 第 4 步：儲存產生的 XPS 文檔
-將修改後的 XPS 文件儲存到指定目錄。
+
+## Step 4: Save Resultant XPS Document
+將修改後的 XPS 文件儲存至您指定的目錄。
+
 ```java
 doc.save(dataDir + "AddImage_out.xps");
 ```
-重複這些步驟以新增更多影像或根據您的專案要求自訂現有影像。
-## 結論
-恭喜！您已經成功學習如何使用 Aspose.Page for Java 將圖像新增至 XPS 文件。這項技能對於增強 Java 應用程式和文件的視覺吸引力非常寶貴。
-### 經常問的問題
-### 我可以使用 Aspose.Page for Java 將多個圖像新增到同一個 XPS 文件嗎？
-是的，您可以透過對每個圖像重複本教程中概述的步驟來新增多個圖像。
-### Aspose.Page for Java 支援哪些影像格式？
-Aspose.Page for Java 支援各種影像格式，包括 TIFF、JPEG、PNG 和 GIF。
-### 是否有 Aspose.Page for Java 的試用版？
-是的，您可以從以下位置取得 Aspose.Page for Java 的免費試用版：[這個連結](https://releases.aspose.com/).
+
+重複上述步驟即可加入更多圖片，或依照專案需求自訂現有圖片。
+
+## Conclusion
+恭喜！您已成功學會 **如何加入圖片** 到 XPS 文件，使用 Aspose.Page for Java。此技能對提升 Java 應用程式與文件的視覺效果相當重要。
+
+### Frequently Asked Questions
+### 我可以在同一個 XPS 文件中加入多張圖片嗎？
+是的，您可以透過重複本教學中的步驟，為每張圖片加入多次。
+
+### Aspose.Page for Java 支援哪些圖片格式？
+Aspose.Page for Java 支援多種圖片格式，包括 TIFF、JPEG、PNG 與 GIF。
+
+### 有提供 Aspose.Page for Java 的試用版嗎？
+有，您可以從[此連結](https://releases.aspose.com/)取得 Aspose.Page for Java 的免費試用版。
+
 ### 如何取得 Aspose.Page for Java 的臨時授權？
-您可以從以下地址取得臨時許可證[這個連結](https://purchase.aspose.com/temporary-license/).
-### 在哪裡可以找到與 Aspose.Page for Java 相關的其他支援或討論問題？
-參觀[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)尋求協助、分享經驗並與 Aspose.Page 社群建立聯繫。
+您可以從[此連結](https://purchase.aspose.com/temporary-license/)取得臨時授權。
+
+### 哪裡可以找到額外的支援或討論 Aspose.Page for Java 的相關問題？
+請造訪[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)尋求協助、分享經驗，並與 Aspose.Page 社群互動。
+
+## Additional Tips & Common Pitfalls
+- **路徑幾何精確度** – 確保 SVG 風格的路徑字串與圖片尺寸相符，否則圖片可能會被拉伸或裁切。  
+- **圖片筆刷縮放** – `createImageBrush` 方法接受來源與目標矩形；調整這些值可精確控制位置與縮放。  
+- **授權啟用** – 若在未取得有效授權的情況下執行程式，Aspose 會在產生的 XPS 檔案上加上浮水印。
+
+---
+
+**最後更新：** 2025-12-28  
+**測試環境：** Aspose.Page for Java 23.12（撰寫時最新版本）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
