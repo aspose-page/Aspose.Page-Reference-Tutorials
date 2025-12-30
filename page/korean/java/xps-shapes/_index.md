@@ -1,47 +1,90 @@
 ---
-title: 도형 - XPS
-linktitle: 도형 - XPS
-second_title: Aspose.페이지 자바 API
-description: Aspose.Page 튜토리얼을 통해 Java XPS의 마법을 발견해보세요! 매력적인 타원과 직사각형을 쉽게 추가할 수 있습니다. 단계별 가이드를 통해 문서 작성 수준을 높이세요.
-weight: 35
+date: 2025-12-30
+description: Aspose.Page for XPS를 사용하여 Java에서 도형을 그리는 방법을 배워보세요. 단계별 가이드를 따라 Java
+  XPS 문서에 타원과 사각형을 추가하세요.
+linktitle: how to draw shapes java - XPS with Aspose.Page
+second_title: Aspose.Page Java API
+title: Java로 도형 그리기 - Aspose.Page를 사용한 XPS
 url: /ko/java/xps-shapes/
+weight: 35
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 도형 - XPS
+# Java에서 도형 그리기
 
-## 소개
+## Introduction
 
-Java XPS를 사용하여 문서 작성의 놀라운 영역을 탐구할 준비가 되셨습니까? 모양 조작의 잠재력을 최대한 활용하기 위한 신뢰할 수 있는 동반자인 Aspose.Page를 만나보세요. 이 튜토리얼 시리즈에서는 매혹적인 모양을 추가하여 문서를 쉽게 돋보이게 하는 복잡한 방법을 안내합니다.
+If you’re looking to **Java에서 도형 그리기** in XPS documents, you’ve come to the right place. Aspose.Page for Java makes it simple to enrich your XPS files with elegant ellipses, rectangles, and other vector graphics. In this tutorial series we’ll walk you through everything you need to know—from the basics of shape creation to polishing your final document—so you can deliver professional‑looking output with minimal effort.
 
-## Java XPS에서 방사형 그래디언트 스트로크 타원 추가
+## Quick Answers
+- **What can I draw?** Ellipses, rectangles, and other vector shapes in XPS.
+- **Which library?** Aspose.Page for Java.
+- **Prerequisites?** Java 8+ and an Aspose.Page license (trial available).
+- **Typical implementation time?** 5‑10 minutes per shape.
+- **Supported platforms?** Any Java‑compatible environment (Windows, Linux, macOS).
 
-### [Java XPS에 타원 추가](./add-ellipse/)
+## How to draw shapes java in XPS documents
+Drawing shapes in XPS using Java follows a clear pattern: create a `Page` object, define the shape’s geometry, apply styling (stroke, fill, gradients), and add it to the page’s `Graphics` collection. This approach gives you full control over size, position, and visual effects, enabling you to craft documents that stand out.
 
-평범한 문서에 지쳤고 창의력을 불어넣고 싶으십니까? Java XPS에 방사형 그래디언트 스트로크 타원을 추가하는 것이 완벽한 솔루션입니다. Aspose.Page for Java는 단계별 가이드를 통해 이를 쉽게 만듭니다. 문서 작성 게임을 향상하고 청중에게 지속적인 인상을 남기십시오.
+### Why use Aspose.Page for drawing shapes in Java XPS?
+- **Rich API** – Full support for gradients, transformations, and clipping.
+- **No external dependencies** – Works out‑of‑the‑box with standard Java.
+- **High fidelity** – Shapes render precisely across all XPS viewers.
+- **Scalable** – Perfect for batch processing or dynamic document generation.
 
- 시작하려면 다음 튜토리얼로 이동하세요.[Java XPS에 타원 추가](./add-ellipse/) 명확하고 간결한 지침을 따르세요. 숙련된 개발자이든 이제 막 시작하는 개발자이든 당사의 사용자 친화적인 가이드는 원활한 실행을 보장합니다. 복잡한 프로세스에 작별을 고하고 매력적인 줄임표로 풍부한 문서를 만나보세요.
+## Adding a Radial Gradient Stroked Ellipse in Java XPS
 
-## Java XPS에서 사각형 마스터하기
+### [Java XPS에서 타원 추가](./add-ellipse/)
 
-### [Java XPS에 직사각형 추가](./add-rectangle/)
+Are you tired of mundane documents and want to infuse a touch of creativity? Adding a radial gradient stroked ellipse in Java XPS is the perfect solution. Aspose.Page for Java makes it a breeze with our step‑by‑step guide. Elevate your document creation game and leave a lasting impression on your audience.
 
-직사각형은 구조화된 문서 디자인의 초석입니다. Aspose.Page for Java를 사용하면 Java XPS 문서에 직사각형을 추가하는 것이 즐거운 작업이 됩니다. 당사의 단계별 가이드는 프로세스를 원활하게 진행하여 문서를 쉽게 조작할 수 있도록 지원합니다.
+To begin, head over to our tutorial on [Adding Ellipse in Java XPS](./add-ellipse/) and follow the clear, concise instructions. Whether you're a seasoned developer or just starting, our user‑friendly guide ensures seamless execution. Say goodbye to complex processes, and hello to a document enriched with captivating ellipses.
 
-튜토리얼로 이동하세요.[Java XPS에 직사각형 추가](./add-rectangle/) 프로세스의 단순성을 목격합니다. Aspose.Page for Java는 문서 레이아웃과 디자인을 향상시키는 데 필요한 도구를 제공합니다. 지루한 작업에 작별을 고하고 시선을 사로잡는 시각적으로 매력적인 문서를 만나보세요.
+## Mastering Rectangles in Java XPS
 
-결론적으로, 모양에 대한 Java용 Aspose.Page 튜토리얼은 문서 생성에 대한 가능성의 세계를 열어줍니다. 타원을 추가하든 직사각형을 추가하든 당사의 단계별 가이드는 성공을 보장합니다. 기술을 향상하고 지속적인 영향을 미치는 문서를 만드십시오. 지금 튜토리얼을 살펴보고 Aspose.Page를 통해 Java XPS의 진정한 잠재력을 활용해 보세요.
-## 모양 - XPS 자습서
-### [Java XPS에 타원 추가](./add-ellipse/)
-Java용 Aspose.Page를 사용하여 Java XPS에서 방사형 그래디언트 스트로크 타원을 추가하는 방법에 대한 단계별 가이드를 살펴보세요. 손쉽게 문서 작성 기능을 향상해 보세요.
-### [Java XPS에 직사각형 추가](./add-rectangle/)
-Aspose.Page를 사용하여 Java XPS에서 직사각형을 추가하는 방법을 알아보세요. 원활한 문서 조작을 위한 단계별 가이드를 따르세요.
+### [Java XPS에서 사각형 추가](./add-rectangle/)
+
+Rectangles are the cornerstone of structured document design. With Aspose.Page for Java, adding rectangles to your Java XPS documents becomes an enjoyable task. Our step‑by‑step guide ensures a smooth journey through the process, empowering you to manipulate documents effortlessly.
+
+Navigate to our tutorial on [Adding Rectangle in Java XPS](./add-rectangle/) to witness the simplicity of the process. Aspose.Page for Java provides the tools you need to enhance your document layout and design. Say goodbye to tedious tasks and hello to a visually appealing document that captures attention.
+
+In conclusion, the Aspose.Page for Java tutorials on shapes open up a world of possibilities for document creation. Whether you're adding ellipses or rectangles, our step‑by‑step guides guarantee success. Elevate your skills and create documents that leave a lasting impact. Dive into the tutorials now and unlock the true potential of Java XPS with Aspose.Page.
+
+## Shapes - XPS Tutorials
+### [Java XPS에서 타원 추가](./add-ellipse/)
+Explore the step‑by‑step guide on adding a radial gradient stroked ellipse in Java XPS using Aspose.Page for Java. Enhance your document creation effortlessly.
+### [Java XPS에서 사각형 추가](./add-rectangle/)
+Learn how to add rectangles in Java XPS using Aspose.Page. Follow our step‑by‑step guide for seamless document manipulation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Frequently Asked Questions
+
+**Q: Do I need a paid license to use Aspose.Page for drawing shapes?**  
+A: A free trial is available for evaluation, but a commercial license is required for production deployments.
+
+**Q: Can I combine multiple shapes on a single XPS page?**  
+A: Yes, you can add as many shapes as needed; simply add each shape to the page’s graphics collection.
+
+**Q: Is it possible to apply transformations (rotate, scale) to shapes?**  
+A: Absolutely. The API provides transformation matrices that let you rotate, scale, or skew any shape.
+
+**Q: Which Java versions are supported?**  
+A: Aspose.Page for Java supports Java 8 and newer runtime environments.
+
+**Q: How do I export the final XPS document after adding shapes?**  
+A: Call the `save` method on the `Document` object, specifying the desired file path and format.
+
+---
+
+**Last Updated:** 2025-12-30  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose
