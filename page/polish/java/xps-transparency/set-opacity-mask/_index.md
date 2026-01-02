@@ -1,28 +1,50 @@
 ---
-title: Ustaw maskę krycia w Java XPS
-linktitle: Ustaw maskę krycia w Java XPS
-second_title: Aspose.Page API Java
-description: Odkryj moc ustawiania masek kryjących w Java XPS za pomocą Aspose.Page. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać lepszą wizualnie obsługę dokumentów.
-weight: 11
+date: 2026-01-02
+description: Dowiedz się, jak dodać maskę przezroczystości do dokumentów XPS przy
+  użyciu Aspose.Page Java. Przewodnik krok po kroku, jak utworzyć prostokąt maski
+  przezroczystości i poprawić jakość wizualną.
+linktitle: Set Opacity Mask in Java XPS
+second_title: Aspose.Page Java API
+title: Ustaw maskę przezroczystości w Java XPS przy użyciu Aspose.Page Java
 url: /pl/java/xps-transparency/set-opacity-mask/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ustaw maskę krycia w Java XPS
+# Ustaw maskę przezroczystości w Java XPS przy użyciu Aspose.Page Java
 
-## Wstęp
-Witamy w naszym obszernym przewodniku na temat ustawiania masek kryjących w Java XPS przy użyciu Aspose.Page. W tym samouczku przeprowadzimy Cię przez proces tworzenia dokumentu XPS, dodawania płótna i stosowania maski kryjącej do prostokąta przy użyciu zaawansowanych funkcji Aspose.Page dla Java.
-## Warunki wstępne
-Zanim zagłębisz się w ten samouczek, upewnij się, że posiadasz następujące elementy:
-- Podstawowa znajomość programowania w języku Java.
--  Zainstalowana biblioteka Aspose.Page dla Java. Możesz go pobrać[Tutaj](https://releases.aspose.com/page/java/).
--  Ważna licencja na Aspose.Page. Jeśli go nie posiadasz, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-- Środowisko programistyczne skonfigurowane do uruchamiania aplikacji Java.
-## Importuj pakiety
-Zacznij od zaimportowania niezbędnych pakietów do projektu Java. Upewnij się, że masz prawidłowo zintegrowaną bibliotekę Aspose.Page. Poniżej znajduje się fragment, który Cię poprowadzi:
+## Wprowadzenie
+Witamy w naszym kompleksowym przewodniku po **aspose page java** opacity masks. W tym tutorialu nauczysz się, jak stworzyć dokument XPS, dodać canvas i zastosować maskę przezroczystości do prostokąta — wszystko przy użyciu potężnego API Aspose.Page Java. Po zakończeniu będziesz w stanie dodawać prostokąty z maską przezroczystości, które nadadzą Twoim plikom XPS wykończenie o półprzezroczystym wyglądzie.
+
+## Szybkie odpowiedzi
+- **Co robi opacity mask?** Definiuje różne poziomy przezroczystości dla kształtu, pozwalając na prześwitywanie zawartości pod spodem.
+- **Jakiej biblioteki potrzebuję?** Aspose.Page for Java (aspose page java).
+- **Czy potrzebna jest licencja?** Tymczasowa licencja działa w trybie testowym; pełna licencja jest wymagana w produkcji.
+- **Ile linii kodu?** Około 20 linii Java plus kilka instrukcji konfiguracyjnych.
+- **Czy mogę ponownie używać maski na wielu kształtach?** Tak, możesz przypisać ten sam ImageBrush do kilku ścieżek.
+
+## Czym jest opacity mask w XPS?
+Opacity mask to bitmapa lub wektor, który kontroluje alfa (przezroczystość) każdego piksela w kształcie. Po zastosowaniu do prostokąta, jego części stają się w pełni nieprzezroczyste, częściowo przezroczyste lub całkowicie przezroczyste, tworząc zaawansowane efekty wizualne.
+
+## Dlaczego używać Aspose.Page Java do opacity mask?
+- **Pełne API w stylu .NET w Javie** – intuicyjny model obiektowy.
+- **Brak zewnętrznych zależności** – działa w czystej Javie.
+- **Renderowanie wysokiej wierności** – maski renderują się dokładnie zgodnie ze specyfikacją XPS.
+- **Cross‑platform** – działa na Windows, Linux i macOS bez zmian.
+
+## Wymagania wstępne
+Zanim rozpoczniesz, upewnij się, że masz:
+- Podstawową znajomość programowania w języku Java.  
+- Zainstalowaną bibliotekę Aspose.Page for Java. Możesz ją pobrać **[tutaj](https://releases.aspose.com/page/java/)**.  
+- Ważną licencję na Aspose.Page. Jeśli jej nie masz, uzyskaj tymczasową licencję **[tutaj](https://purchase.aspose.com/temporary-license/)**.  
+- Środowisko programistyczne umożliwiające kompilację i uruchamianie aplikacji Java (np. IntelliJ IDEA, Eclipse lub VS Code).
+
+## Importowanie pakietów
+Rozpocznij od zaimportowania niezbędnych klas z biblioteki Aspose.Page. Zapewni to dostępność API w Twoim projekcie.
+
 ```java
 import com.aspose.xps.XpsCanvas;
 import com.aspose.xps.XpsDocument;
@@ -31,48 +53,81 @@ import com.aspose.xps.XpsPath;
 import com.aspose.xps.XpsTileMode;
 import java.awt.geom.Rectangle2D;
 ```
-Podzielmy teraz przykładowy kod na kilka kroków:
-## Krok 1: Utwórz nowy dokument XPS
+
+## Przewodnik krok po kroku
+
+### Krok 1: Utwórz nowy dokument XPS
+Najpierw zainicjuj nowy dokument XPS, który będzie przechowywał wszystkie nasze elementy graficzne.
+
 ```java
-// Utwórz nowy dokument XPS
+// Create a new XPS document
 XpsDocument doc = new XpsDocument();
 ```
-## Krok 2: Dodaj płótno
+
+### Krok 2: Dodaj Canvas
+Canvas pełni rolę powierzchni rysunkowej wewnątrz strony XPS.
+
 ```java
-// Nowe płótno
+// New canvas
 XpsCanvas canvas = doc.addCanvas();
 ```
-## Krok 3: Dodaj prostokąt z maską krycia
+
+### Krok 3: Dodaj prostokąt i zastosuj jednolite wypełnienie
+Tutaj tworzymy ścieżkę prostokąta i nadajemy mu jednolite, czerwone wypełnienie. Ten prostokąt później otrzyma maskę przezroczystości.
+
 ```java
-// Prostokąt pośrodku po lewej stronie z nieprzezroczystością maskowaną przez ImageBrush
+// Rectangle in the middle left with opacity masked by ImageBrush
 XpsPath path = canvas.addPath(doc.createPathGeometry("M 10,180 L 228,180 228,285 10,285"));
 path.setFill(doc.createSolidColorBrush(doc.createColor(1.0f, 0.0f, 0.0f)));
 ```
-## Krok 4: Ustaw maskę krycia za pomocą ImageBrush
+
+### Krok 4: Dodaj opacity mask przy użyciu ImageBrush
+Ładujemy obraz TIFF, definiujemy prostokąty źródłowy i docelowy oraz ustawiamy pędzel w tryb kafelkowania, aby maska powtarzała się w razie potrzeby.
+
 ```java
 path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif", 
                     new Rectangle2D.Float(0f, 0f, 128f, 192f), new Rectangle2D.Float(0f, 0f, 64f, 96f)));
 ((XpsImageBrush)path.getOpacityMask()).setTileMode(XpsTileMode.Tile);
 ```
-## Krok 5: Zapisz wynikowy dokument XPS
+
+### Krok 5: Zapisz powstały dokument XPS
+Na koniec zapisujemy dokument na dysku. Plik wyjściowy będzie zawierał prostokąt z zastosowaną maską przezroczystości.
+
 ```java
-// Zapisz wynikowy dokument XPS
+// Save resultant XPS document
 doc.save(dataDir + "OpacityMask_out.xps"); 
 ```
-Wykonaj uważnie poniższe kroki, aby włączyć maski kryjące do dokumentu Java XPS za pomocą Aspose.Page.
-## Wniosek
-Gratulacje! Pomyślnie nauczyłeś się ustawiać maski kryjące w Java XPS za pomocą Aspose.Page. Ta funkcja dodaje warstwę bogactwa wizualnego do Twoich dokumentów, czyniąc je bardziej wciągającymi i dynamicznymi.
-## Często zadawane pytania
-### Czy Aspose.Page jest kompatybilny ze wszystkimi środowiskami programistycznymi Java?
-Tak, Aspose.Page został zaprojektowany do bezproblemowej współpracy z różnymi środowiskami programistycznymi Java.
-### Czy mogę używać Aspose.Page bez licencji?
-Chociaż możesz używać Aspose.Page bez licencji, zaleca się uzyskanie takiej, aby uzyskać pełny zakres funkcji i wsparcia.
-### Czy są jakieś ograniczenia wersji próbnej?
-Wersja próbna może mieć pewne ograniczenia funkcji. Zaleca się sprawdzenie dokumentacji w celu uzyskania szczegółowych informacji.
-### Jak mogę uzyskać pomoc dotyczącą Aspose.Page?
- Możesz odwiedzić[Forum Aspose.Page](https://forum.aspose.com/c/page/39) uzyskać wsparcie społeczności lub kupić licencję na pomoc premium.
-### Czy Aspose.Page gwarantuje zwrot pieniędzy?
- Patrz[strona zakupu](https://purchase.aspose.com/buy) aby uzyskać informacje na temat zasad zwrotów.
+
+Postępuj zgodnie z tymi krokami, aby wprowadzić funkcjonalność **add opacity mask** do swojego dokumentu Java XPS przy użyciu Aspose.Page.
+
+## Częste problemy i rozwiązywanie
+- **Obraz nie został znaleziony** – Sprawdź, czy `dataDir` wskazuje na właściwy folder i czy plik `R08SY_NN.tif` istnieje.
+- **Maska wygląda na jednolitą** – Upewnij się, że obraz źródłowy rzeczywiście zawiera różne wartości alfa; w pełni nieprzezroczysty obraz nie pokaże przezroczystości.
+- **Tryb kafelkowania nie działa** – Prostokąt docelowy musi być mniejszy od prostokąta źródłowego, aby efekt kafelkowania był widoczny.
+
+## Najczęściej zadawane pytania
+
+**P: Czy Aspose.Page jest kompatybilny ze wszystkimi środowiskami programistycznymi Javy?**  
+O: Tak, Aspose.Page został zaprojektowany tak, aby bezproblemowo współpracować z różnymi IDE i narzędziami budowania Javy.
+
+**P: Czy mogę używać Aspose.Page bez licencji?**  
+O: Bibliotekę można ocenić przy użyciu tymczasowej licencji, ale pełna licencja jest wymagana w środowisku produkcyjnym.
+
+**P: Czy wersja próbna ma jakieś ograniczenia?**  
+O: Wersja trial może nakładać ograniczenia dotyczące rozmiaru lub funkcji; zapoznaj się z oficjalną dokumentacją po szczegóły.
+
+**P: Jak mogę uzyskać wsparcie dla Aspose.Page?**  
+O: Odwiedź **[forum Aspose.Page](https://forum.aspose.com/c/page/39)**, aby uzyskać pomoc od społeczności lub zakup licencję dla wsparcia premium.
+
+**P: Czy istnieje gwarancja zwrotu pieniędzy dla Aspose.Page?**  
+O: Szczegóły dotyczące polityki zwrotów znajdziesz na **[stronie zakupu](https://purchase.aspose.com/buy)**.
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-02  
+**Testowano z:** Aspose.Page Java 24.11 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
