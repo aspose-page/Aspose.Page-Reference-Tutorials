@@ -1,33 +1,48 @@
 ---
-title: .NET için Aspose.Page ile PS'yi kırpma
-linktitle: PS'yi kırpma
-second_title: Aspose.Page .NET API'si
-description: PostScript belgelerini kırpmaya ilişkin bu adım adım eğitimle Aspose.Page for .NET'in gücünü keşfedin. Belge işleme yeteneklerinizi zahmetsizce geliştirmeyi öğrenin.
-weight: 10
+date: 2026-01-05
+description: Aspose.Page for .NET kullanarak PostScript'te kırpma yolu eklemeyi öğrenin
+  – fırça ayarlama ve kesikli dikdörtgen çizme teknikleriyle adım adım rehber.
+linktitle: Clipping PS
+second_title: Aspose.Page .NET API
+title: Aspose.Page for .NET ile PS'ye Kırpma Yolu Ekle
 url: /tr/net/canvas-manipulation/clippingps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET için Aspose.Page ile PS'yi kırpma
+# Aspose.Page for .NET ile PS'ye Kırpma Yolu Ekleme
 
-## giriiş
+## Giriş
 
-PostScript (PS) belgelerinde kırpma uygulamak için Aspose.Page for .NET'in kullanımına ilişkin kapsamlı eğitime hoş geldiniz. Bu eğitim, .NET uygulamalarında çeşitli belge formatlarıyla çalışmak için güçlü bir kütüphane olan Aspose.Page'i kullanarak PS belgelerini kırpma sürecinde size rehberlik edecektir.
+Bu kapsamlı öğreticide, Aspose.Page for .NET kullanarak bir PostScript (PS) belgesine **kırpma yolu eklemeyi** keşfedeceksiniz. Her adımı adım adım gösterecek, **boyama fırçasını nasıl ayarlayacağınızı** ve kırpılmış içeriğin etrafına **kesikli dikdörtgen nasıl çizeceğinizi** anlatacağız. Sonunda, şekle göre kırpma gösteren tam işlevsel bir PS dosyanız olacak ve grafikleriniz daha dinamik ve profesyonel görünecek.
+
+## Hızlı Yanıtlar
+- **“kırpma yolu eklemek” ne yapar?** Çizim işlemlerini tanımlı bir şekle sınırlar, o şeklin dışındaki her şeyi gizler.  
+- **.NET’te kırpma işlemini hangi kütüphane yönetir?** Aspose.Page for .NET, PS/EPS manipülasyonu için zengin bir API sunar.  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gerekir.  
+- **Fırça rengini değiştirebilir miyim?** Evet, istediğiniz `SolidBrush` veya degrade ile `SetPaint` kullanabilirsiniz.  
+- **Kesikli bir dikdörtgen çizmek mümkün mü?** Kesinlikle – `DashStyle.Dash` ile bir `Pen` oluşturup `Draw` metodunu kullanın.  
+
+## PostScript’te kırpma yolu nedir?
+Kırpma yolu, sonraki çizim komutlarının görünür bölgesini tanımlar. Yolun dışına çizilen her şey yok sayılır; bu sayede orijinal içeriği değiştirmeden karmaşık maskeli grafikler oluşturabilirsiniz.
+
+## Aspose.Page’i kırpma için neden kullanmalısınız?
+- **Harici bağımlılık yok** – saf .NET kütüphanesi.  
+- **Grafik durumunun tam kontrolü** (save/restore, translate, rotate).  
+- **Zengin çizim primitive’leri**; `SetPaint`, `Clip` ve özelleştirilebilir kalem ve fırçalarla `Draw`.  
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+- C# programlama temelleri.  
+- Aspose.Page for .NET kütüphanesi yüklü – [buradan](https://releases.aspose.com/page/net/) indirebilirsiniz.  
+- Visual Studio veya tercih ettiğiniz .NET IDE.  
 
-- C# programlama dili hakkında çalışma bilgisi.
--  Aspose.Page for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/page/net/).
-- Visual Studio gibi entegre bir geliştirme ortamı (IDE).
+## Ad Alanlarını İçe Aktarma
 
-## Ad Alanlarını İçe Aktar
-
-Gerekli ad alanlarını C# kodunuza aktararak başlayın:
+İlk olarak, grafik manipülasyonu için gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,74 +52,88 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Şimdi örneği birden çok adıma ayıralım:
+Şimdi örneği net, numaralı adımlara ayıralım.
 
-## 1. Adım: Belge Dizinini Ayarlayın
+### Adım 1: Belge Dizinini Ayarla
+
+Kaynak ve çıktı dosyalarının bulunacağı klasörü tanımlayın.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Adım 2: PostScript Belgesi için Çıktı Akışı Oluşturun
+### Adım 2: PostScript Belgesi İçin Çıktı Akışı Oluştur
+
+Oluşturulacak PS dosyasını tutacak yazılabilir bir akış yaratın.
 
 ```csharp
-// PostScript belgesi için çıktı akışı oluşturun
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMode.Create))
 ```
 
-## 3. Adım: Kaydetme Seçenekleri Oluşturun
+### Adım 3: Kaydetme Seçeneklerini Oluştur
+
+`PsSaveOptions` nesnesini varsayılan ayarlarla örnekleyin. İsterseniz daha sonra özelleştirebilirsiniz.
 
 ```csharp
-// Varsayılan değerlerle kaydetme seçenekleri oluşturun
+// Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## 4. Adım: 1 Sayfalık Yeni Bir PS Belgesi Oluşturun
+### Adım 4: Yeni 1‑Sayfalı PS Belgesi Oluştur
+
+PS dosyanızı temsil edecek `PsDocument` nesnesini başlatın.
 
 ```csharp
-// Yeni 1 sayfalık PS Belgesi oluştur
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Adım 5: Dikdörtgenden Grafik Yolu Oluşturun
+### Adım 5: Dikdörtgenden Grafik Yolu Oluştur
+
+Daha sonra kırpılacak temel şekil olarak bir dikdörtgen kullanacağız.
 
 ```csharp
-// Dikdörtgenden grafik yolu oluşturun
+// Create graphics path from the rectangle
 GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-## Adım 6: Şekle Göre Kırpma
+### Adım 6: Şekle Göre Kırpma
+
+Burada bir daire kullanarak **kırpma yolu ekliyor**, **boyama fırçasını** maviye **ayar**lıyor ve kırpılmış bölge içinde dikdörtgeni dolduruyoruz.
 
 ```csharp
-// Dönüşümden sonra bu duruma geri dönmek için grafik durumunu kaydedin
+// Save graphics state in order to return back to this state after transformation
 document.WriteGraphicsSave();
 
-//Geçerli grafik durumunu 100 nokta sağa ve 100 nokta aşağıya kaydır.
+// Displace current graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
-// Çemberden grafik yolu oluştur
+// Create graphics path from the circle
 GraphicsPath circlePath = new GraphicsPath();
 circlePath.AddEllipse(new RectangleF(50, 0, 200, 200));
 
-// Mevcut grafik durumuna daire şeklinde kırpma ekleme
+// Add clipping by circle to the current graphics state
 document.Clip(circlePath);
 
-// Boyayı geçerli grafik durumunda ayarla
+// Set paint in the current graphics state
 document.SetPaint(new SolidBrush(Color.Blue));
 
-// Dikdörtgeni mevcut grafik durumunda doldurun (kırpma ile)
+// Fill the rectangle in the current graphics state (with clipping)
 document.Fill(rectanglePath);
 
-// Grafik durumunu önceki (üst) seviyeye geri yükleyin
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-## Adım 7: Üst Düzey Grafik Durumunu Değiştirin
+### Adım 7: Üst Düzey Grafik Durumunu Değiştir ve Kesikli Dikdörtgen Çiz
+
+Önceki durumu geri yükledikten sonra grafik imlecini tekrar hareket ettiriyor, **kesikli bir dikdörtgen çiziyor** ve mavi bir kontur uyguluyoruz.
 
 ```csharp
-// Üst düzey grafik durumunu 100 nokta sağa ve 100 nokta alta kaydırın.
+// Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
 Pen pen = new Pen(new SolidBrush(Color.Blue), 2);
@@ -112,47 +141,53 @@ pen.DashStyle = DashStyle.Dash;
 
 document.SetStroke(pen);
 
-// Dikdörtgeni, kırpılan dikdörtgenin üzerine geçerli grafik durumunda (kırpılma olmadan) çizin
+// Draw the rectangle in the current graphics state (has no clipping) above the clipped rectangle
 document.Draw(rectanglePath);
 ```
 
-## Adım 8: Belgeyi Kapatın ve Kaydedin
+### Adım 8: Belgeyi Kapat ve Kaydet
+
+Sayfayı sonlandırın ve PS dosyasını diske yazın.
 
 ```csharp
-// Geçerli sayfayı kapat
+// Close current page
 document.ClosePage();
 
-// Belgeyi kaydet
+// Save the document
 document.Save();
 ```
 
-Artık Aspose.Page for .NET'i kullanarak PostScript belgesinde kırpmayı başarıyla uyguladınız.
+Artık **kırpma yolu eklediniz**, özel bir boyama fırçası ayarladınız ve Aspose.Page for .NET ile grafiklerinizin etrafına kesikli bir dikdörtgen çizmeyi başardınız.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu eğitimde, PostScript belgelerinde kırpma uygulamak için Aspose.Page for .NET'i nasıl kullanacağınızı öğrendiniz. Bu güçlü kitaplık, .NET uygulamalarınızda çeşitli belge formatlarını işlemek için kusursuz ve etkili bir yol sağlar.
+- **Kırpma görünmüyor:** `WriteGraphicsSave()` çağrısını çevirme işleminden önce ve `WriteGraphicsRestore()` çağrısını doldurmadan sonra yaptığınızdan emin olun.  
+- **Yanlış renkler:** `SetPaint`'in `Clip` sonrası ve `Fill` öncesinde çağrıldığını kontrol edin.  
+- **Kesikli çizgiler düz görünüyor:** `Pen` nesnesinin `DashStyle` özelliğinin `DashStyle.Dash` olarak ayarlandığından emin olun.  
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.Page for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
+### S1: Aspose.Page for .NET’i başka programlama dilleriyle kullanabilir miyim?
+Cevap: Aspose.Page öncelikle .NET uygulamaları için tasarlanmıştır. Ancak Aspose, diğer programlama dilleri için benzer kütüphaneler de sunar.
 
-Cevap1: Aspose.Page öncelikle .NET uygulamaları için tasarlanmıştır. Ancak Aspose diğer programlama dilleri için de benzer kütüphaneler sağlar.
+### S2: Aspose.Page for .NET için ek örnekler ve belgeler nerede bulunur?
+Cevap: Daha fazla örnek ve ayrıntılı belgeyi [Aspose.Page belgeleri](https://reference.aspose.com/page/net/) sayfasında inceleyebilirsiniz.
 
-### S2: Aspose.Page for .NET için ek örnekleri ve belgeleri nerede bulabilirim?
+### S3: Aspose.Page for .NET için ücretsiz deneme mevcut mu?
+Cevap: Evet, Aspose.Page for .NET’in ücretsiz denemesine [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
- Cevap2: Daha fazla örneği ve ayrıntılı belgeleri inceleyebilirsiniz.[Aspose.Page belgeleri](https://reference.aspose.com/page/net/).
+### S4: Aspose.Page for .NET için geçici bir lisans nasıl alınır?
+Cevap: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-### S3: Aspose.Page for .NET'in ücretsiz deneme sürümü mevcut mu?
+### S5: Aspose.Page ile ilgili destek veya tartışma platformları nerede?
+Cevap: Topluluk desteği ve tartışmalar için [Aspose.Page forumlarını](https://forum.aspose.com/c/page/39) ziyaret edin.
 
- Cevap3: Evet, Aspose.Page for .NET'in ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+---
 
-### S4: Aspose.Page for .NET için nasıl geçici lisans alabilirim?
+**Son Güncelleme:** 2026-01-05  
+**Test Edilen Sürüm:** Aspose.Page 24.11 for .NET  
+**Yazar:** Aspose  
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-
-### S5: Nereden destek alabilirim veya Aspose.Page ile ilgili soruları tartışabilirim?
-
- A5: ziyaret edin[Aspose.Page forumları](https://forum.aspose.com/c/page/39) topluluk desteği ve tartışmalar için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,49 @@
 ---
-title: 使用 Aspose.Page for .NET 剪下 PS
-linktitle: 剪裁PS
+date: 2026-01-05
+description: 學習如何在 PostScript 中使用 Aspose.Page for .NET 添加裁剪路徑——一步一步的指南，涵蓋設定畫筆與繪製虛線矩形的技巧。
+linktitle: Clipping PS
 second_title: Aspose.Page .NET API
-description: 在這個剪切 PostScript 文件的逐步教學中探索 Aspose.Page for .NET 的強大功能。學習輕鬆增強您的文件處理能力。
-weight: 10
+title: 使用 Aspose.Page for .NET 為 PS 添加裁剪路徑
 url: /zh-hant/net/canvas-manipulation/clippingps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page for .NET 剪下 PS
+# 在 .NET 使用 Aspose.Page 為 PS 添加裁剪路徑
 
-## 介紹
+## 簡介
 
-歡迎來到有關利用 Aspose.Page for .NET 在 PostScript (PS) 文件中實現剪輯的綜合教學。本教學將引導您完成使用 Aspose.Page 剪下 PS 文件的過程，Aspose.Page 是一個功能強大的函式庫，用於在 .NET 應用程式中處理各種文件格式。
+在本完整教學中，您將學習如何使用 Aspose.Page for .NET **添加裁剪路徑** 到 PostScript (PS) 文件。我們將逐步說明每個步驟，展示如何 **設定畫筆**，以及如何 **繪製虛線矩形** 圍繞被裁剪的內容。完成後，您將擁有一個完整功能的 PS 檔案，示範以形狀進行裁剪，使您的圖形更具動態與專業感。
 
-## 先決條件
+## 快速解答
+- **「add clipping path」的作用是什麼？** 它會將繪圖操作限制在指定的形狀內，隱藏形狀外的所有內容。  
+- **哪個函式庫在 .NET 中處理裁剪？** Aspose.Page for .NET 提供豐富的 PS/EPS 操作 API。  
+- **我需要授權嗎？** 免費試用可用於開發；正式上線需購買商業授權。  
+- **我可以更改畫筆顏色嗎？** 可以，使用 `SetPaint` 搭配任意 `SolidBrush` 或漸層。  
+- **可以繪製虛線矩形嗎？** 當然可以 – 建立帶有 `DashStyle.Dash` 的 `Pen` 並使用 `Draw`。  
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## PostScript 中的裁剪路徑是什麼？
 
-- C# 程式語言的應用知識。
-- 安裝了 .NET 函式庫的 Aspose.Page。你可以下載它[這裡](https://releases.aspose.com/page/net/).
-- 整合開發環境 (IDE)，例如 Visual Studio。
+裁剪路徑定義了後續繪圖指令的可見區域。路徑外的任何繪圖都會被忽略，讓您在不改變原始內容的情況下，建立複雜的遮罩圖形。
 
-## 導入命名空間
+## 為何使用 Aspose.Page 進行裁剪？
 
-首先在 C# 程式碼中導入必要的命名空間：
+- **無外部相依性** – 純 .NET 函式庫。  
+- **完整控制** 圖形狀態（save/restore、translate、rotate）。  
+- **豐富的繪圖基元**，如 `SetPaint`、`Clip`、`Draw`，可自訂筆刷與畫筆。  
+
+## 前置條件
+
+- 具備基本的 C# 程式設計知識。  
+- 已安裝 Aspose.Page for .NET 函式庫 – 可從 [here](https://releases.aspose.com/page/net/) 下載。  
+- Visual Studio 或其他您偏好的 .NET IDE。  
+
+## 匯入命名空間
+
+首先，匯入圖形操作所需的命名空間：
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,74 +53,88 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-現在，讓我們將範例分解為多個步驟：
+現在讓我們將範例分解為清晰的編號步驟。
 
-## 步驟1：設定文檔目錄
+### 步驟 1：設定文件目錄
+
+定義來源與輸出檔案所在的資料夾。
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## 步驟 2：為 PostScript 文件建立輸出流
+### 步驟 2：建立 PostScript 文件的輸出串流
+
+建立可寫入的串流，以儲存產生的 PS 檔案。
 
 ```csharp
-//為 PostScript 文件建立輸出流
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMode.Create))
 ```
 
-## 第 3 步：建立儲存選項
+### 步驟 3：建立儲存選項
+
+以預設設定實例化 `PsSaveOptions`。如有需要，可稍後自訂。
 
 ```csharp
-//建立具有預設值的儲存選項
+// Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## 步驟 4：建立一個新的單頁 PS 文檔
+### 步驟 4：建立新的 1 頁 PS 文件
+
+初始化代表您的 PS 檔案的 `PsDocument` 物件。
 
 ```csharp
-//建立新的 1 頁 PS 文檔
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## 步驟5：從矩形建立圖形路徑
+### 步驟 5：從矩形建立圖形路徑
+
+我們將使用矩形作為基礎形狀，之後再進行裁剪。
 
 ```csharp
-//從矩形建立圖形路徑
+// Create graphics path from the rectangle
 GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-## 步驟6：按形狀裁剪
+### 步驟 6：以形狀進行裁剪
+
+此處我們使用圓形 **添加裁剪路徑**，將 **畫筆設定** 為藍色，並在裁剪區域內填滿矩形。
 
 ```csharp
-//保存圖形狀態以便在變換後返回該狀態
+// Save graphics state in order to return back to this state after transformation
 document.WriteGraphicsSave();
 
-//將目前圖形狀態向右移動 100 點，向下移動 100 點。
+// Displace current graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
-//從圓形建立圖形路徑
+// Create graphics path from the circle
 GraphicsPath circlePath = new GraphicsPath();
 circlePath.AddEllipse(new RectangleF(50, 0, 200, 200));
 
-//將圓形裁剪加入到目前圖形狀態
+// Add clipping by circle to the current graphics state
 document.Clip(circlePath);
 
-//將繪畫設定為目前圖形狀態
+// Set paint in the current graphics state
 document.SetPaint(new SolidBrush(Color.Blue));
 
-//在目前圖形狀態下填入矩形（含裁切）
+// Fill the rectangle in the current graphics state (with clipping)
 document.Fill(rectanglePath);
 
-//將圖形狀態恢復到上一個（上）級別
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-## 步驟7：置換上層圖形狀態
+### 步驟 7：位移上層圖形狀態並繪製虛線矩形
+
+在還原先前狀態後，我們再次移動圖形游標，**繪製虛線矩形**，並套用藍色筆畫。
 
 ```csharp
-//將上層圖形狀態向右移動 100 點，往下移動 100 點。
+// Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
 Pen pen = new Pen(new SolidBrush(Color.Blue), 2);
@@ -112,47 +142,58 @@ pen.DashStyle = DashStyle.Dash;
 
 document.SetStroke(pen);
 
-//在目前圖形狀態下（沒有裁切）在裁切矩形上方繪製一個矩形
+// Draw the rectangle in the current graphics state (has no clipping) above the clipped rectangle
 document.Draw(rectanglePath);
 ```
 
-## 步驟 8：關閉並儲存文檔
+### 步驟 8：關閉並儲存文件
+
+完成頁面並將 PS 檔寫入磁碟。
 
 ```csharp
-//關閉目前頁面
+// Close current page
 document.ClosePage();
 
-//儲存文件
+// Save the document
 document.Save();
 ```
 
-現在，您已經使用 Aspose.Page for .NET 在 PostScript 文件中成功實現了剪切。
+您已成功 **添加裁剪路徑**、設定自訂畫筆，並使用 Aspose.Page for .NET 在圖形周圍繪製虛線矩形。
 
-## 結論
+## 常見問題與解決方案
 
-在本教學中，您學習如何利用 Aspose.Page for .NET 在 PostScript 文件中實現剪切。這個功能強大的程式庫提供了一種無縫且高效的方法來處理 .NET 應用程式中的各種文件格式。
+- **裁剪未顯示：** 確保在平移前呼叫 `WriteGraphicsSave()`，在填充後呼叫 `WriteGraphicsRestore()`。  
+- **顏色不正確：** 確認在 `Clip` 後、`Fill` 前呼叫 `SetPaint`。  
+- **虛線顯示為實線：** 確保在 `SetStroke` 前將 `Pen` 的 `DashStyle` 設為 `DashStyle.Dash`。  
 
-## 常見問題解答
+## 常見問答
 
-### Q1：我可以將 Aspose.Page for .NET 與其他程式語言一起使用嗎？
+### Q1：我可以在其他程式語言中使用 Aspose.Page for .NET 嗎？
 
-A1：Aspose.Page 主要是為.NET 應用程式設計的。然而，Aspose 為其他程式語言提供了類似的函式庫。
+A：Aspose.Page 主要設計給 .NET 應用程式使用。但 Aspose 亦提供其他程式語言的類似函式庫。
 
-### 問題 2：在哪裡可以找到 Aspose.Page for .NET 的其他範例和文件？
+### Q2：在哪裡可以找到 Aspose.Page for .NET 的其他範例與文件？
 
- A2：您可以探索更多範例和詳細文檔[Aspose.Page 文檔](https://reference.aspose.com/page/net/).
+A：您可於 [Aspose.Page documentation](https://reference.aspose.com/page/net/) 探索更多範例與詳細文件。
 
-### 問題 3：Aspose.Page for .NET 是否有免費試用版？
+### Q3：是否提供 Aspose.Page for .NET 的免費試用？
 
- A3：是的，您可以免費試用 Aspose.Page for .NET[這裡](https://releases.aspose.com/).
+A：是的，您可在 [here](https://releases.aspose.com/) 取得 Aspose.Page for .NET 的免費試用。
 
 ### Q4：如何取得 Aspose.Page for .NET 的臨時授權？
 
- A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+A：您可於 [here](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
-### Q5：我可以在哪裡獲得支援或討論與 Aspose.Page 相關的查詢？
+### Q5：在哪裡可以取得支援或討論 Aspose.Page 相關問題？
 
- A5：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持和討論。
+A：請前往 [Aspose.Page forums](https://forum.aspose.com/c/page/39) 取得社群支援與討論。
+
+---
+
+**最後更新：** 2026-01-05  
+**測試環境：** Aspose.Page 24.11 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
