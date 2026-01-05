@@ -1,37 +1,53 @@
 ---
-title: Transformationen XPS mit Aspose.Page für .NET
-linktitle: Transformationen XPS
-second_title: Aspose.Page .NET-API
-description: Transformieren Sie XPS-Dokumente mühelos mit Aspose.Page für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für nahtlose Transformationen.
-weight: 13
+date: 2026-01-05
+description: Erfahren Sie, wie Sie XPS‑Dokumente mühelos mit Aspose.Page für .NET
+  transformieren. Folgen Sie unserer Schritt‑für‑Schritt‑Anleitung für nahtlose Transformationen.
+linktitle: Transformations XPS
+second_title: Aspose.Page .NET API
+title: Wie man XPS mit Aspose.Page für .NET transformiert
 url: /de/net/canvas-manipulation/transformationsxps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transformationen XPS mit Aspose.Page für .NET
+# Wie man XPS mit Aspose.Page für .NET transformiert
 
 ## Einführung
 
-Willkommen in der Welt von Aspose.Page für .NET, einer leistungsstarken Bibliothek, mit der Sie mühelos verschiedene Transformationen an XPS-Dokumenten durchführen können. In diesem Tutorial befassen wir uns mit dem Prozess der Transformation von XPS-Dokumenten mit Aspose.Page für .NET. Unabhängig davon, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, führt Sie dieser Leitfaden durch jeden Schritt und stellt sicher, dass Sie die Konzepte leicht verstehen.
+Willkommen in der Welt von Aspose.Page für .NET, einer leistungsstarken Bibliothek, die es Ihnen ermöglicht, mühelos verschiedene Transformationen an XPS‑Dokumenten durchzuführen. **In diesem Tutorial erfahren Sie, wie Sie XPS‑Dokumente mit Aspose.Page für .NET transformieren**, egal ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen. Wir gehen Schritt für Schritt durch, erklären die Gründe hinter jeder Transformation und geben Ihnen praktische Tipps, die Sie in realen Projekten anwenden können.
+
+## Schnelle Antworten
+- **Was können Sie erreichen?** Create, translate, scale, and rotate XPS canvas elements programmatically.  
+- **Welche Bibliothek wird benötigt?** Aspose.Page for .NET (latest version).  
+- **Benötige ich eine Lizenz?** A free trial works for development; a commercial license is required for production.  
+- **Unterstützte Plattformen?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Wie lange dauert die Implementierung?** About 10‑15 minutes for the basic transformations shown here.
+
+## Was bedeutet „how to transform xps“?
+Der Ausdruck *how to transform xps* bezieht sich darauf, programmgesteuert das Layout, die Größe und die Ausrichtung von Elementen innerhalb eines XPS‑Dokuments (XML Paper Specification) zu ändern. Mit Aspose.Page können Sie matrixbasierte Transformationen auf Canvas‑Objekte anwenden und erhalten so eine feinkörnige Kontrolle über Positionierung, Skalierung und Drehung, ohne das XPS‑XML manuell bearbeiten zu müssen.
+
+## Warum Aspose.Page für XPS‑Transformationen verwenden?
+- **Vollständige .NET-Integration** – funktioniert nahtlos mit Visual Studio, Rider und anderen IDEs.  
+- **Keine externen Abhängigkeiten** – die API übernimmt alle Low‑Level‑XPS‑Details für Sie.  
+- **Umfangreiche Transformationsunterstützung** – verschieben, skalieren, rotieren und mehrere Transformationen in einem Aufruf kombinieren.  
+- **Leistungsoptimiert** – geeignet für die Erstellung von Berichten, Rechnungen oder beliebigen druckbaren Grafiken in Echtzeit.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Folgendes vorhanden ist:
+Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
--  Aspose.Page für .NET-Bibliothek: Laden Sie die Bibliothek herunter und installieren Sie sie von[Aspose.Page für .NET-Dokumentation](https://reference.aspose.com/page/net/).
+- **Aspose.Page for .NET Library** – laden Sie sie von der offiziellen Dokumentation herunter und installieren Sie sie: [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).  
+- **Entwicklungsumgebung** – Visual Studio, Visual Studio Code oder jede andere .NET‑kompatible IDE.  
+- **Dokumentenverzeichnis** – ein Ordner auf Ihrem Rechner, in dem Sie XPS‑Dateien lesen/schreiben. Ersetzen Sie den Platzhalter im Code durch den tatsächlichen Pfad.
 
-- Entwicklungsumgebung: Richten Sie eine kompatible Entwicklungsumgebung ein, z. B. Visual Studio oder ein anderes .NET-Entwicklungstool.
-
-- Ihr Dokumentenverzeichnis: Ersetzen Sie den Platzhalter im Code durch den tatsächlichen Pfad zu Ihrem Dokumentenverzeichnis.
-
-Kommen wir nun zum Tutorial!
+Jetzt, da alles eingerichtet ist, tauchen wir in den Code ein.
 
 ## Namespaces importieren
 
-Stellen Sie zunächst sicher, dass Sie die erforderlichen Namespaces importieren, um die Funktionalitäten von Aspose.Page für .NET in Ihrem Code verfügbar zu machen. Fügen Sie am Anfang Ihres Skripts die folgenden Namespaces hinzu:
+Zuerst importieren Sie die Namespaces, die die Aspose.Page‑Klassen bereitstellen, die Sie benötigen:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -39,136 +55,160 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Schritt 1: Erstellen Sie ein neues XPS-Dokument
+## Wie man XPS transformiert – Schritt‑für‑Schritt‑Anleitung
+
+### Schritt 1: Ein neues XPS‑Dokument erstellen
 
 ```csharp
 // ExStart:1
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Erstellen Sie ein neues XPS-Dokument
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
-## Schritt 2: Erstellen Sie eine Hauptleinwand
+*Erklärung*: Wir beginnen damit, den Ordner zu definieren, der unsere Quell‑ und Ausgabedateien enthält, und dann ein leeres `XpsDocument` zu instanziieren. Dieses Objekt wird die Canvas für alle nachfolgenden Transformationen sein.
+
+### Schritt 2: Ein Haupt‑Canvas erstellen
 
 ```csharp
-// Erstellen Sie eine Hauptleinwand, die allen Seitenelementen gemeinsam ist
+// Create main canvas, common for all page elements
 XpsCanvas canvas1 = doc.AddCanvas();
 
-// Nehmen Sie in der Hauptleinwand Versätze nach links und oben vor
+// Make left and top offsets in the main canvas
 canvas1.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 20, 10);
 ```
 
-## Schritt 3: Erstellen Sie eine rechteckige Pfadgeometrie
+*Warum das wichtig ist*: Das Haupt‑Canvas dient als Container für alle anderen Canvas‑Objekte. Durch das Anwenden eines kleinen Versatzes stellen wir sicher, dass der Inhalt nicht am Seitenrand abgeschnitten wird.
+
+### Schritt 3: Eine Rechteck‑Pfadgeometrie erstellen
 
 ```csharp
-// Erstellen Sie eine rechteckige Pfadgeometrie
+// Create rectangle path geometry
 XpsPathGeometry rectGeom = doc.CreatePathGeometry("M 0,0 L 200,0 200,100 0,100 Z");
 ```
 
-## Schritt 4: Fügen Sie eine Füllung für Rechtecke hinzu
+*Tipp*: Der Pfad‑String folgt der standardmäßigen XPS‑Pfadsyntax (`M` für move, `L` für line, `Z` zum Schließen). Passen Sie die Koordinaten an, um die Rechteckgröße zu ändern.
+
+### Schritt 4: Eine Füllung für Rechtecke hinzufügen
 
 ```csharp
-// Erstellen Sie eine Füllung für Rechtecke
+// Create a fill for rectangles
 XpsBrush fill = doc.CreateSolidColorBrush(doc.CreateColor(12, 15, 159));
 ```
 
-## Schritt 5: Fügen Sie eine neue Leinwand ohne Transformationen hinzu
+*Pro‑Tipp*: Verwenden Sie `CreateColor` mit RGB‑Werten, um Ihre Markenpalette zu treffen.
+
+### Schritt 5: Ein neues Canvas ohne Transformationen hinzufügen
 
 ```csharp
-// Fügen Sie eine neue Leinwand hinzu, ohne dass Änderungen zur Hauptleinwand erforderlich sind
+// Add new canvas without any transformations to the main canvas
 XpsCanvas canvas2 = canvas1.AddCanvas();
 
-// Erstellen Sie ein Rechteck auf dieser Leinwand und füllen Sie es
+// Create rectangle in this canvas and fill it
 XpsPath rect = canvas2.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## Schritt 6: Fügen Sie eine neue Leinwand mit Translate Transformation hinzu
+Hier platzieren wir einfach ein Rechteck auf der Seite ohne zusätzliche Transformation – nützlich als Basiselement.
+
+### Schritt 6: Ein neues Canvas mit Translate‑Transformation hinzufügen
 
 ```csharp
-// Fügen Sie eine neue Leinwand mit Übersetzungstransformation zur Hauptleinwand hinzu
+// Add new canvas with translate transformation to the main canvas
 XpsCanvas canvas3 = canvas1.AddCanvas();
 
-// Verschieben Sie diese Leinwand, um ein neues Rechteck unter dem vorherigen Rechteck zu positionieren
+// Translate this canvas to position a new rectangle below the previous rectangle
 canvas3.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 0, 200);
 
-// Übersetzen Sie diese Leinwand auf die rechte Seite der Seite
+// Translate this canvas to the right side of the page
 canvas3.RenderTransform.Translate(500, 0);
 
-// Erstellen Sie ein Rechteck auf dieser Leinwand und füllen Sie es
+// Create rectangle in this canvas and fill it
 rect = canvas3.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## Schritt 7: Fügen Sie eine neue Leinwand mit doppelter Skalierungstransformation hinzu
+*Was passiert?*: Die erste Matrix verschiebt das Rechteck um 200 Einheiten nach unten. Der nachfolgende `Translate`‑Aufruf verschiebt es 500 Einheiten nach rechts und demonstriert, wie mehrere Verschiebungen verkettet werden können.
+
+### Schritt 7: Ein neues Canvas mit doppelter Skalierungs‑Transformation hinzufügen
 
 ```csharp
-//Fügen Sie der Hauptleinwand eine neue Leinwand mit doppelter Skalierungstransformation hinzu
+// Add new canvas with double scale transformation to the main canvas
 XpsCanvas canvas4 = canvas1.AddCanvas();
 
-// Verschieben Sie diese Leinwand, um ein neues Rechteck unter dem vorherigen Rechteck zu positionieren
+// Translate this canvas to position a new rectangle below the previous rectangle
 canvas4.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 0, 400);
 
-// Skalieren Sie diese Leinwand
+// Scale this canvas
 canvas4.RenderTransform.Scale(2, 2);
 
-// Erstellen Sie ein Rechteck auf dieser Leinwand und füllen Sie es
+// Create rectangle in this canvas and fill it
 rect = canvas4.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## Schritt 8: Fügen Sie eine neue Leinwand mit Drehung um eine Punkttransformation hinzu
+*Warum skalieren?*: Durch Skalieren um 2 verdoppelt sich die Breite und Höhe des Rechtecks, sodass Sie größere Grafiken erstellen können, ohne die Geometrie neu zu definieren.
+
+### Schritt 8: Ein neues Canvas mit Rotation‑um‑einen‑Punkt‑Transformation hinzufügen
 
 ```csharp
-// Fügen Sie der Hauptleinwand eine neue Leinwand mit Drehung um eine Punkttransformation hinzu
+// Add new canvas with rotation around a point transformation to the main canvas
 XpsCanvas canvas5 = canvas1.AddCanvas();
 
-// Verschieben Sie diese Leinwand, um ein neues Rechteck unter dem vorherigen Rechteck zu positionieren
+// Translate this canvas to position a new rectangle below the previous rectangle
 canvas5.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 0, 800);
 
-// Drehen Sie diese Leinwand um einen Punkt um 45 Grad
+// Rotate this canvas around a point on 45 degrees
 canvas5.RenderTransform.RotateAround(45, new PointF(100, 50));
 
-// Erstellen Sie ein Rechteck auf dieser Leinwand und füllen Sie es
+// Create rectangle in this canvas and fill it
 rect = canvas5.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## Schritt 9: Speichern Sie das resultierende XPS-Dokument
+*Wichtige Erkenntnis*: `RotateAround` dreht das Canvas um einen benutzerdefinierten Punkt (hier (100, 50)), wodurch Sie die Drehungsanker präzise steuern können.
+
+### Schritt 9: Ergebnis‑XPS‑Dokument speichern
 
 ```csharp
-// Speichern Sie das resultierende XPS-Dokument
+// Save resultant XPS document
 doc.Save(dataDir + "output1.xps");
 // ExEnd:1
 ```
 
-## Abschluss
+Nachdem alle Transformationen angewendet wurden, wird das Dokument in `output1.xps` gespeichert. Öffnen Sie die Datei in einem beliebigen XPS‑Viewer, um die gestapelten Rechtecke mit ihren jeweiligen Verschiebungen, Skalierungen und Rotationen zu sehen.
 
-Glückwunsch! Sie haben ein XPS-Dokument erfolgreich mit Aspose.Page für .NET transformiert. In diesem Leitfaden wurden wesentliche Schritte behandelt, vom Einrichten der Voraussetzungen bis zur Durchführung verschiedener Transformationen. Experimentieren Sie mit diesen Techniken und nutzen Sie das volle Potenzial von Aspose.Page für .NET in Ihren Projekten.
+## Häufige Probleme & Fehlersuche
 
-## FAQs
+| Symptom | Wahrscheinliche Ursache | Lösung |
+|---------|--------------------------|--------|
+| Leere Ausgabedatei | `dataDir` verweist auf einen nicht vorhandenen Ordner | Stellen Sie sicher, dass das Verzeichnis existiert oder verwenden Sie einen absoluten Pfad |
+| Rechtecke nicht wie erwartet positioniert | Falsche Matrixwerte | Überprüfen Sie die Reihenfolge der Aufrufe `Translate`, `Scale` und `RotateAround` |
+| Farben erscheinen falsch | RGB‑Werte außerhalb des Bereichs 0‑255 | Verwenden Sie gültige Byte‑Werte für jeden Kanal |
 
-### F1: Ist Aspose.Page für .NET mit allen .NET-Entwicklungsumgebungen kompatibel?
+## Häufig gestellte Fragen
 
-A1: Ja, Aspose.Page für .NET ist so konzipiert, dass es nahtlos mit verschiedenen .NET-Entwicklungsumgebungen, einschließlich Visual Studio, zusammenarbeitet.
+**F: Ist Aspose.Page für .NET mit allen .NET‑Entwicklungsumgebungen kompatibel?**  
+A: Ja, es funktioniert nahtlos mit Visual Studio, Visual Studio Code, Rider und jeder IDE, die .NET unterstützt.
 
-### F2: Wo finde ich zusätzliche Beispiele und Dokumentation für Aspose.Page für .NET?
+**F: Wo finde ich zusätzliche Beispiele und detaillierte API‑Dokumentation?**  
+A: Besuchen Sie die offizielle Dokumentation unter [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).
 
- A2: Besuchen Sie die[Aspose.Page für .NET-Dokumentation](https://reference.aspose.com/page/net/) für umfassende Dokumentation und Beispiele.
+**F: Kann ich Aspose.Page vor dem Kauf einer Lizenz testen?**  
+A: Absolut. Eine kostenlose Testversion ist hier verfügbar: [Aspose.Page Free Trial](https://releases.aspose.com/).
 
-### F3: Kann ich Aspose.Page für .NET vor dem Kauf testen?
+**F: Wie erhalte ich eine temporäre Lizenz zum Testen?**  
+A: Sie können eine über die Seite für temporäre Lizenzen anfordern: [Temporary License](https://purchase.aspose.com/temporary-license/).
 
- A3: Ja, Sie können eine kostenlose Testversion ausprobieren, indem Sie hier klicken[Kostenlose Testversion von Aspose.Page](https://releases.aspose.com/).
+**F: Wo kann ich eine Voll‑Lizenz erwerben?**  
+A: Kaufen Sie direkt im Aspose‑Shop: [Aspose.Page Buy](https://purchase.aspose.com/buy).
 
-### F4: Wie kann ich eine temporäre Lizenz für Aspose.Page für .NET erhalten?
+**Zuletzt aktualisiert:** 2026-01-05  
+**Getestet mit:** Aspose.Page 24.11 for .NET  
+**Autor:** Aspose  
 
- A4: Holen Sie sich eine temporäre Lizenz, indem Sie vorbeischauen[Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
-
-### F5: Wo kann ich Aspose.Page für .NET kaufen?
-
- A5: Kaufen Sie Aspose.Page für .NET unter[Aspose.Seite kaufen](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

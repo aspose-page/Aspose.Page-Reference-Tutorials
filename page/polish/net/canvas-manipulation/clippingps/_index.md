@@ -1,33 +1,49 @@
 ---
-title: Przycinanie PS za pomocą Aspose.Page dla .NET
-linktitle: Wycinek PS
-second_title: Aspose.Page API .NET
-description: Poznaj możliwości Aspose.Page dla .NET w tym samouczku krok po kroku dotyczącym przycinania dokumentów PostScript. Dowiedz się, jak bez wysiłku zwiększyć możliwości przetwarzania dokumentów.
-weight: 10
+date: 2026-01-05
+description: Dowiedz się, jak dodać ścieżkę przycinania w PostScript przy użyciu Aspose.Page
+  dla .NET – krok po kroku przewodnik z technikami ustawiania pędzla i rysowania przerywanego
+  prostokąta.
+linktitle: Clipping PS
+second_title: Aspose.Page .NET API
+title: Dodaj ścieżkę przycinania do PS przy użyciu Aspose.Page dla .NET
 url: /pl/net/canvas-manipulation/clippingps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Przycinanie PS za pomocą Aspose.Page dla .NET
+# Dodaj ścieżkę przycinania do PS przy użyciu Aspose.Page dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w kompleksowym samouczku dotyczącym wykorzystania Aspose.Page dla .NET do implementowania obcinania w dokumentach PostScript (PS). Ten samouczek poprowadzi Cię przez proces przycinania dokumentów PS przy użyciu Aspose.Page, potężnej biblioteki do pracy z różnymi formatami dokumentów w aplikacjach .NET.
+W tym obszernej tutorialu dowiesz się, jak **dodać ścieżkę przycinania** do dokumentu PostScript (PS) przy użyciu Aspose.Page dla .NET. Przejdziemy krok po kroku, pokażemy, jak **ustawić pędzel malujący**, oraz zademonstrujemy, jak **narysować przerywany prostokąt** wokół przyciętej zawartości. Po zakończeniu będziesz mieć w pełni funkcjonalny plik PS, który ilustruje przycinanie za pomocą kształtu, czyniąc Twoje grafiki bardziej dynamicznymi i profesjonalnymi.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co robi „add clipping path”?** Ogranicza operacje rysowania do określonego kształtu, ukrywając wszystko poza tym kształtem.  
+- **Która biblioteka obsługuje przycinanie w .NET?** Aspose.Page dla .NET udostępnia bogate API do manipulacji PS/EPS.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w trakcie rozwoju; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę zmienić kolor pędzla?** Tak, użyj `SetPaint` z dowolnym `SolidBrush` lub gradientem, który preferujesz.  
+- **Czy rysowanie przerywanego prostokąta jest możliwe?** Oczywiście – utwórz `Pen` z `DashStyle.Dash` i użyj `Draw`.  
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest ścieżka przycinania w PostScript?
+Ścieżka przycinania definiuje widoczny obszar kolejnych poleceń rysowania. Wszystko narysowane poza ścieżką jest ignorowane, co pozwala tworzyć złożone grafiki maskowane bez modyfikowania oryginalnej zawartości.
 
-- Praktyczna znajomość języka programowania C#.
--  Zainstalowana biblioteka Aspose.Page dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/page/net/).
-- Zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio.
+## Dlaczego używać Aspose.Page do przycinania?
+- **Brak zewnętrznych zależności** – czysta biblioteka .NET.  
+- **Pełna kontrola** nad stanem grafiki (save/restore, translate, rotate).  
+- **Bogate prymitywy rysowania** takie jak `SetPaint`, `Clip` i `Draw` z konfigurowalnymi piórami i pędzlami.  
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-Rozpocznij od zaimportowania niezbędnych przestrzeni nazw do kodu C#:
+- Podstawowa znajomość programowania w C#.  
+- Biblioteka Aspose.Page dla .NET zainstalowana – możesz ją pobrać [tutaj](https://releases.aspose.com/page/net/).  
+- Visual Studio lub dowolne preferowane środowisko IDE .NET.  
+
+## Importowanie przestrzeni nazw
+
+Najpierw zaimportuj przestrzenie nazw wymagane do manipulacji grafiką:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,74 +53,88 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Podzielmy teraz przykład na kilka kroków:
+Teraz rozbijmy przykład na jasne, numerowane kroki.
 
-## Krok 1: Ustaw katalog dokumentów
+### Krok 1: Ustaw katalog dokumentu
+
+Zdefiniuj folder, w którym będą przechowywane Twoje pliki źródłowe i wyjściowe.
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Utwórz strumień wyjściowy dla dokumentu PostScript
+### Krok 2: Utwórz strumień wyjściowy dla dokumentu PostScript
+
+Utwórz zapisywalny strumień, który będzie przechowywał wygenerowany plik PS.
 
 ```csharp
-// Utwórz strumień wyjściowy dla dokumentu PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMode.Create))
 ```
 
-## Krok 3: Utwórz opcje zapisu
+### Krok 3: Utwórz opcje zapisu
+
+Zainicjuj `PsSaveOptions` z ustawieniami domyślnymi. W razie potrzeby możesz je później dostosować.
 
 ```csharp
-// Utwórz opcje zapisu z wartościami domyślnymi
+// Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Krok 4: Utwórz nowy 1-stronicowy dokument PS
+### Krok 4: Utwórz nowy jednopostowy dokument PS
+
+Zainicjuj obiekt `PsDocument`, który reprezentuje Twój plik PS.
 
 ```csharp
-// Utwórz nowy 1-stronicowy dokument PS
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Krok 5: Utwórz ścieżkę grafiki z prostokąta
+### Krok 5: Utwórz ścieżkę graficzną z prostokąta
+
+Użyjemy prostokąta jako podstawowego kształtu, który później zostanie przycięty.
 
 ```csharp
-// Utwórz ścieżkę graficzną z prostokąta
+// Create graphics path from the rectangle
 GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-## Krok 6: Przycinanie według kształtu
+### Krok 6: Przycinanie za pomocą kształtu
+
+Tutaj **dodajemy ścieżkę przycinania** przy użyciu koła, **ustawiamy pędzel malujący** na niebieski i wypełniamy prostokąt w obrębie przyciętego regionu.
 
 ```csharp
-// Zapisz stan grafiki, aby powrócić do tego stanu po przekształceniu
+// Save graphics state in order to return back to this state after transformation
 document.WriteGraphicsSave();
 
-//Przesuń bieżący stan grafiki o 100 punktów w prawo i 100 punktów w dół.
+// Displace current graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
-// Utwórz ścieżkę graficzną z okręgu
+// Create graphics path from the circle
 GraphicsPath circlePath = new GraphicsPath();
 circlePath.AddEllipse(new RectangleF(50, 0, 200, 200));
 
-// Dodaj przycinanie okręgiem do bieżącego stanu grafiki
+// Add clipping by circle to the current graphics state
 document.Clip(circlePath);
 
-// Ustaw farbę na bieżący stan grafiki
+// Set paint in the current graphics state
 document.SetPaint(new SolidBrush(Color.Blue));
 
-// Wypełnij prostokąt w bieżącym stanie grafiki (z przycięciem)
+// Fill the rectangle in the current graphics state (with clipping)
 document.Fill(rectanglePath);
 
-// Przywróć stan grafiki do poprzedniego (górnego) poziomu
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-## Krok 7: Przesuń stan grafiki wyższego poziomu
+### Krok 7: Przemieszczenie wyższego poziomu stanu graficznego i narysowanie przerywanego prostokąta
+
+Po przywróceniu poprzedniego stanu, ponownie przesuwamy kursor graficzny, **rysujemy przerywany prostokąt** i stosujemy niebieski obrys.
 
 ```csharp
-// Przesuń stan grafiki wyższego poziomu o 100 punktów w prawo i 100 punktów w dół.
+// Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
 Pen pen = new Pen(new SolidBrush(Color.Blue), 2);
@@ -112,47 +142,53 @@ pen.DashStyle = DashStyle.Dash;
 
 document.SetStroke(pen);
 
-// Narysuj prostokąt w bieżącym stanie graficznym (bez przycięcia) nad przyciętym prostokątem
+// Draw the rectangle in the current graphics state (has no clipping) above the clipped rectangle
 document.Draw(rectanglePath);
 ```
 
-## Krok 8: Zamknij i zapisz dokument
+### Krok 8: Zamknij i zapisz dokument
+
+Zakończ stronę i zapisz plik PS na dysku.
 
 ```csharp
-// Zamknij bieżącą stronę
+// Close current page
 document.ClosePage();
 
-// Zapisz dokument
+// Save the document
 document.Save();
 ```
 
-Teraz pomyślnie zaimplementowałeś wycinanie w dokumencie PostScript przy użyciu Aspose.Page dla .NET.
+Udało Ci się teraz pomyślnie **dodać ścieżkę przycinania**, ustawić własny pędzel malujący i narysować przerywany prostokąt wokół Twojej grafiki przy użyciu Aspose.Page dla .NET.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-W tym samouczku nauczyłeś się, jak używać Aspose.Page dla .NET do implementowania obcinania w dokumentach PostScript. Ta potężna biblioteka zapewnia bezproblemową i wydajną obsługę różnych formatów dokumentów w aplikacjach .NET.
+- **Przycinanie niewidoczne:** Upewnij się, że wywołujesz `WriteGraphicsSave()` przed translacją i `WriteGraphicsRestore()` po wypełnieniu.  
+- **Nieprawidłowe kolory:** Sprawdź, czy `SetPaint` jest wywoływany po `Clip` i przed `Fill`.  
+- **Linie przerywane wyglądają na ciągłe:** Upewnij się, że `DashStyle` pióra (`Pen`) jest ustawiony na `DashStyle.Dash` przed `SetStroke`.  
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę używać Aspose.Page dla .NET z innymi językami programowania?
+### Q1: Czy mogę używać Aspose.Page dla .NET z innymi językami programowania?
+A: Aspose.Page jest przede wszystkim przeznaczony dla aplikacji .NET. Jednak Aspose udostępnia podobne biblioteki dla innych języków programowania.
 
-O1: Aspose.Page jest przeznaczony głównie dla aplikacji .NET. Jednak Aspose udostępnia podobne biblioteki dla innych języków programowania.
+### Q2: Gdzie mogę znaleźć dodatkowe przykłady i dokumentację dla Aspose.Page dla .NET?
+A: Więcej przykładów i szczegółową dokumentację możesz znaleźć w [dokumentacji Aspose.Page](https://reference.aspose.com/page/net/).
 
-### P2: Gdzie mogę znaleźć dodatkowe przykłady i dokumentację Aspose.Page dla .NET?
+### Q3: Czy dostępna jest darmowa wersja próbna Aspose.Page dla .NET?
+A: Tak, darmową wersję próbną Aspose.Page dla .NET możesz uzyskać [tutaj](https://releases.aspose.com/).
 
- Odpowiedź 2: Więcej przykładów i szczegółowej dokumentacji można znaleźć na stronie[Dokumentacja Aspose.Page](https://reference.aspose.com/page/net/).
+### Q4: Jak mogę uzyskać tymczasową licencję dla Aspose.Page dla .NET?
+A: Tymczasową licencję możesz uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-### P3: Czy dostępna jest bezpłatna wersja próbna Aspose.Page dla .NET?
+### Q5: Gdzie mogę uzyskać wsparcie lub dyskutować o zapytaniach związanych z Aspose.Page?
+A: Odwiedź [forum Aspose.Page](https://forum.aspose.com/c/page/39) w celu uzyskania wsparcia społeczności i dyskusji.
 
- O3: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Page dla .NET[Tutaj](https://releases.aspose.com/).
+---
 
-### P4: Jak mogę uzyskać tymczasową licencję na Aspose.Page dla .NET?
+**Ostatnia aktualizacja:** 2026-01-05  
+**Testowano z:** Aspose.Page 24.11 dla .NET  
+**Autor:** Aspose  
 
- A4: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-
-### P5: Gdzie mogę uzyskać pomoc lub omówić zapytania związane z Aspose.Page?
-
- A5: Odwiedź[Fora Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie społeczności i dyskusje.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

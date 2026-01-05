@@ -1,33 +1,49 @@
 ---
-title: Oříznutí PS pomocí Aspose.Page pro .NET
-linktitle: Výstřižek PS
+date: 2026-01-05
+description: Naučte se, jak přidat ořezovou cestu v PostScriptu pomocí Aspose.Page
+  pro .NET – krok za krokem průvodce s technikami nastavení štětce a kreslení čárkovaného
+  obdélníku.
+linktitle: Clipping PS
 second_title: Aspose.Page .NET API
-description: Prozkoumejte sílu Aspose.Page for .NET v tomto podrobném tutoriálu o ořezávání PostScriptových dokumentů. Naučte se bez námahy vylepšit své možnosti zpracování dokumentů.
-weight: 10
+title: Přidat ořezovou cestu do PS pomocí Aspose.Page pro .NET
 url: /cs/net/canvas-manipulation/clippingps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Oříznutí PS pomocí Aspose.Page pro .NET
+# Přidání ořezové cesty do PS pomocí Aspose.Page pro .NET
 
 ## Úvod
 
-Vítejte v obsáhlém tutoriálu o využití Aspose.Page pro .NET k implementaci ořezávání v dokumentech PostScript (PS). Tento tutoriál vás provede procesem ořezávání dokumentů PS pomocí Aspose.Page, výkonné knihovny pro práci s různými formáty dokumentů v aplikacích .NET.
+V tomto komplexním tutoriálu se dozvíte, jak **přidat ořezovou cestu** do dokumentu PostScript (PS) pomocí Aspose.Page pro .NET. Provedeme vás každým krokem, ukážeme, jak **nastavit malířskou štětec**, a demonstrujeme, jak **nakreslit čárkovaný obdélník** kolem ořezaného obsahu. Na konci budete mít plně funkční PS soubor, který ilustruje ořez podle tvaru, čímž vaše grafika bude dynamičtější a profesionálnější.
+
+## Rychlé odpovědi
+- **Co dělá „přidat ořezovou cestu“?** Omezuje kreslicí operace na definovaný tvar, skrývá vše mimo tento tvar.  
+- **Která knihovna v .NET zpracovává ořez?** Aspose.Page pro .NET poskytuje bohaté API pro manipulaci s PS/EPS.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Mohu změnit barvu štětce?** Ano, použijte `SetPaint` s libovolným `SolidBrush` nebo gradientem, který preferujete.  
+- **Je možné nakreslit čárkovaný obdélník?** Rozhodně – vytvořte `Pen` s `DashStyle.Dash` a použijte `Draw`.  
+
+## Co je ořezová cesta v PostScriptu?
+Ořezová cesta určuje viditelnou oblast následných kreslicích příkazů. Vše, co je nakresleno mimo tuto cestu, je ignorováno, což vám umožní vytvářet složité maskované grafiky bez úpravy původního obsahu.
+
+## Proč použít Aspose.Page pro ořez?
+- **Žádné externí závislosti** – čistá .NET knihovna.  
+- **Plná kontrola** nad stavem grafiky (save/restore, translate, rotate).  
+- **Bohaté kreslicí primitivy** jako `SetPaint`, `Clip` a `Draw` s přizpůsobitelnými pery a štětci.  
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-
-- Pracovní znalost programovacího jazyka C#.
--  Nainstalovaná knihovna Aspose.Page for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/page/net/).
-- Integrované vývojové prostředí (IDE), jako je Visual Studio.
+- Základní znalost programování v C#.  
+- Knihovna Aspose.Page pro .NET nainstalována – můžete si ji stáhnout [zde](https://releases.aspose.com/page/net/).  
+- Visual Studio nebo jakékoli preferované .NET IDE.  
 
 ## Import jmenných prostorů
 
-Začněte importováním potřebných jmenných prostorů do kódu C#:
+Nejprve importujte jmenné prostory potřebné pro manipulaci s grafikou:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,74 +53,88 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Nyní si příklad rozdělíme do několika kroků:
+Nyní rozdělíme příklad na přehledné, číslované kroky.
 
-## Krok 1: Nastavte adresář dokumentů
+### Krok 1: Nastavení adresáře dokumentu
+
+Definujte složku, kde budou umístěny vaše vstupní a výstupní soubory.
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Vytvořte výstupní proud pro dokument PostScript
+### Krok 2: Vytvoření výstupního proudu pro PostScript dokument
+
+Vytvořte zapisovatelný proud, který bude obsahovat vygenerovaný PS soubor.
 
 ```csharp
-// Vytvořte výstupní proud pro dokument PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMode.Create))
 ```
 
-## Krok 3: Vytvořte možnosti uložení
+### Krok 3: Vytvoření možností uložení
+
+Instancujte `PsSaveOptions` s výchozími nastaveními. V případě potřeby je můžete později přizpůsobit.
 
 ```csharp
-// Vytvořte možnosti uložení s výchozími hodnotami
+// Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Krok 4: Vytvořte nový 1stránkový dokument PS
+### Krok 4: Vytvoření nového 1‑stránkového PS dokumentu
+
+Inicializujte objekt `PsDocument`, který představuje váš PS soubor.
 
 ```csharp
-// Vytvořte nový 1stránkový dokument PS
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Krok 5: Vytvořte grafickou cestu z obdélníku
+### Krok 5: Vytvoření grafické cesty z obdélníku
+
+Použijeme obdélník jako základní tvar, který bude později oříznut.
 
 ```csharp
-// Vytvořte cestu grafiky z obdélníku
+// Create graphics path from the rectangle
 GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-## Krok 6: Oříznutí podle tvaru
+### Krok 6: Ořez podle tvaru
+
+Zde **přidáváme ořezovou cestu** pomocí kruhu, **nastavujeme malířský štětec** na modrou a vyplňujeme obdélník v ořezané oblasti.
 
 ```csharp
-// Uložte stav grafiky, abyste se po transformaci vrátili zpět do tohoto stavu
+// Save graphics state in order to return back to this state after transformation
 document.WriteGraphicsSave();
 
-//Přemístit aktuální stav grafiky o 100 bodů doprava a 100 bodů dolů.
+// Displace current graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
-// Vytvořte grafickou cestu z kruhu
+// Create graphics path from the circle
 GraphicsPath circlePath = new GraphicsPath();
 circlePath.AddEllipse(new RectangleF(50, 0, 200, 200));
 
-// Přidejte do aktuálního grafického stavu oříznutí podle kruhu
+// Add clipping by circle to the current graphics state
 document.Clip(circlePath);
 
-// Nastavit malování v aktuálním stavu grafiky
+// Set paint in the current graphics state
 document.SetPaint(new SolidBrush(Color.Blue));
 
-// Vyplňte obdélník v aktuálním grafickém stavu (s oříznutím)
+// Fill the rectangle in the current graphics state (with clipping)
 document.Fill(rectanglePath);
 
-// Obnovte stav grafiky na předchozí (vyšší) úroveň
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-## Krok 7: Přemístění stavu grafiky horní úrovně
+### Krok 7: Posunutí vyšší úrovně grafického stavu a nakreslení čárkovaného obdélníku
+
+Po obnovení předchozího stavu znovu posuneme grafický kurzor, **nakreslíme čárkovaný obdélník** a použijeme modrý tah.
 
 ```csharp
-// Přemístit stav grafiky horní úrovně o 100 bodů doprava a 100 bodů dolů.
+// Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
 Pen pen = new Pen(new SolidBrush(Color.Blue), 2);
@@ -112,47 +142,53 @@ pen.DashStyle = DashStyle.Dash;
 
 document.SetStroke(pen);
 
-// Nakreslete obdélník v aktuálním grafickém stavu (nemá žádné oříznutí) nad oříznutým obdélníkem
+// Draw the rectangle in the current graphics state (has no clipping) above the clipped rectangle
 document.Draw(rectanglePath);
 ```
 
-## Krok 8: Zavřete a uložte dokument
+### Krok 8: Uzavření a uložení dokumentu
+
+Dokončete stránku a zapište PS soubor na disk.
 
 ```csharp
-// Zavřít aktuální stránku
+// Close current page
 document.ClosePage();
 
-// Uložte dokument
+// Save the document
 document.Save();
 ```
 
-Nyní jste úspěšně implementovali oříznutí v dokumentu PostScript pomocí Aspose.Page for .NET.
+Nyní jste úspěšně **přidali ořezovou cestu**, nastavili vlastní malířský štětec a nakreslili čárkovaný obdélník kolem vaší grafiky pomocí Aspose.Page pro .NET.
 
-## Závěr
+## Časté problémy a řešení
 
-V tomto kurzu jste se naučili, jak využít Aspose.Page for .NET k implementaci ořezávání v PostScriptových dokumentech. Tato výkonná knihovna poskytuje bezproblémový a efektivní způsob zpracování různých formátů dokumentů ve vašich aplikacích .NET.
+- **Ořez není viditelný:** Ujistěte se, že voláte `WriteGraphicsSave()` před posunutím a `WriteGraphicsRestore()` po vyplnění.  
+- **Nesprávné barvy:** Ověřte, že `SetPaint` je voláno po `Clip` a před `Fill`.  
+- **Čárkované čáry se zobrazují jako plné:** Ujistěte se, že `Pen` má `DashStyle` nastavený na `DashStyle.Dash` před `SetStroke`.  
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu používat Aspose.Page pro .NET s jinými programovacími jazyky?
+### Q1: Mohu použít Aspose.Page pro .NET s jinými programovacími jazyky?
+A: Aspose.Page je primárně navržena pro .NET aplikace. Nicméně Aspose poskytuje podobné knihovny pro jiné programovací jazyky.
 
-A1: Aspose.Page je primárně určen pro aplikace .NET. Aspose však poskytuje podobné knihovny pro jiné programovací jazyky.
-
-### Q2: Kde najdu další příklady a dokumentaci pro Aspose.Page for .NET?
-
- A2: Můžete prozkoumat další příklady a podrobnou dokumentaci na[Dokumentace Aspose.Page](https://reference.aspose.com/page/net/).
+### Q2: Kde najdu další příklady a dokumentaci pro Aspose.Page pro .NET?
+A: Další příklady a podrobnou dokumentaci můžete prozkoumat na [Aspose.Page documentation](https://reference.aspose.com/page/net/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze pro Aspose.Page pro .NET?
+A: Ano, můžete získat bezplatnou zkušební verzi Aspose.Page pro .NET [zde](https://releases.aspose.com/).
 
- A3: Ano, máte přístup k bezplatné zkušební verzi Aspose.Page pro .NET[tady](https://releases.aspose.com/).
+### Q4: Jak získat dočasnou licenci pro Aspose.Page pro .NET?
+A: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Jak mohu získat dočasnou licenci pro Aspose.Page for .NET?
+### Q5: Kde získám podporu nebo mohu diskutovat o dotazech týkajících se Aspose.Page?
+A: Navštivte [Aspose.Page forums](https://forum.aspose.com/c/page/39) pro komunitní podporu a diskuze.
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+---
 
-### Q5: Kde mohu získat podporu nebo diskutovat o dotazech souvisejících s Aspose.Page?
+**Poslední aktualizace:** 2026-01-05  
+**Testováno s:** Aspose.Page 24.11 pro .NET  
+**Autor:** Aspose  
 
- A5: Navštivte[Aspose.Page fóra](https://forum.aspose.com/c/page/39) za podporu komunity a diskuze.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

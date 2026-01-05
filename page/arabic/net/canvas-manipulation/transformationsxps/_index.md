@@ -1,37 +1,53 @@
 ---
-title: تحويلات XPS مع Aspose.Page لـ .NET
-linktitle: التحولات XPS
+date: 2026-01-05
+description: تعلم كيفية تحويل مستندات XPS بسهولة مع Aspose.Page لـ .NET. اتبع دليلنا
+  خطوة بخطوة للتحويلات السلسة.
+linktitle: Transformations XPS
 second_title: Aspose.Page .NET API
-description: قم بتحويل مستندات XPS بسهولة باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة لإجراء تحويلات سلسة.
-weight: 13
+title: كيفية تحويل XPS باستخدام Aspose.Page لـ .NET
 url: /ar/net/canvas-manipulation/transformationsxps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويلات XPS مع Aspose.Page لـ .NET
+# كيفية تحويل XPS باستخدام Aspose.Page لـ .NET
 
 ## مقدمة
 
-مرحبًا بك في عالم Aspose.Page for .NET، وهي مكتبة قوية تمكنك من إجراء تحويلات متنوعة على مستندات XPS دون عناء. في هذا البرنامج التعليمي، سنتعمق في عملية تحويل مستندات XPS باستخدام Aspose.Page لـ .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل خلال كل خطوة، مما يضمن استيعاب المفاهيم بسهولة.
+مرحبًا بك في عالم Aspose.Page لـ .NET، مكتبة قوية تتيح لك إجراء تحولات مختلفة على مستندات XPS بسهولة. **في هذا البرنامج التعليمي، ستكتشف كيفية تحويل مستندات XPS باستخدام Aspose.Page لـ .NET**، سواء كنت مطورًا متمرسًا أو مبتدئًا. سنستعرض كل خطوة، نشرح السبب وراء كل تحويل، ونقدم لك نصائح عملية يمكنك تطبيقها في مشاريع حقيقية.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما الذي يمكنك تحقيقه؟** إنشاء، نقل، تحجيم، وتدوير عناصر لوحة XPS برمجيًا.  
+- **ما المكتبة المطلوبة؟** Aspose.Page لـ .NET (أحدث إصدار).  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
+- **المنصات المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6+.  
+- **كم يستغرق التنفيذ؟** حوالي 10‑15 دقيقة للتحولات الأساسية المعروضة هنا.
 
-قبل أن نبدأ، تأكد من توفر ما يلي:
+## ما هو “كيفية تحويل XPS”؟
+تشير عبارة *كيفية تحويل XPS* إلى تعديل تخطيط وحجم واتجاه العناصر داخل مستند XPS (XML Paper Specification) برمجيًا. باستخدام Aspose.Page، يمكنك تطبيق تحولات قائمة على المصفوفات على اللوحات، مما يمنحك تحكمًا دقيقًا في الموضع، التحجيم، والتدوير دون الحاجة لتعديل XML الخاص بـ XPS يدويًا.
 
--  Aspose.Page for .NET Library: قم بتنزيل المكتبة وتثبيتها من[Aspose.Page للتوثيق .NET](https://reference.aspose.com/page/net/).
+## لماذا نستخدم Aspose.Page لتحويلات XPS؟
+- **تكامل كامل مع .NET** – يعمل بسلاسة مع Visual Studio، Rider، وغيرها من بيئات التطوير.  
+- **بدون تبعيات خارجية** – تتولى الواجهة البرمجية كل تفاصيل XPS منخفضة المستوى.  
+- **دعم غني للتحولات** – نقل، تحجيم، تدوير، ودمج تحولات متعددة في استدعاء واحد.  
+- **محسن للأداء** – مناسب لإنشاء تقارير، فواتير، أو أي رسومات قابلة للطباعة في الوقت الفعلي.
 
-- بيئة التطوير: قم بإعداد بيئة تطوير متوافقة، مثل Visual Studio أو أي أداة تطوير .NET أخرى.
+## المتطلبات المسبقة
 
-- دليل المستندات الخاص بك: استبدل العنصر النائب في الكود بالمسار الفعلي إلى دليل المستندات الخاص بك.
+قبل أن نبدأ، تأكد من وجود ما يلي:
 
-الآن، دعونا ننتقل إلى البرنامج التعليمي!
+- **Aspose.Page لـ .NET Library** – قم بتنزيله وتثبيته من الوثائق الرسمية: [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).  
+- **بيئة التطوير** – Visual Studio، Visual Studio Code، أو أي بيئة IDE متوافقة مع .NET.  
+- **دليل المستندات** – مجلد على جهازك لقراءة/كتابة ملفات XPS. استبدل العنصر النائب في الشيفرة بالمسار الفعلي.
 
-## استيراد مساحات الأسماء
+الآن بعد أن تم إعداد كل شيء، لنغوص في الشيفرة.
 
-أولاً، تأكد من استيراد مساحات الأسماء الضرورية لجعل وظائف Aspose.Page لـ .NET متوفرة في التعليمات البرمجية الخاصة بك. أضف مساحات الأسماء التالية في بداية البرنامج النصي الخاص بك:
+## استيراد المساحات الاسمية
+
+أولاً، استورد المساحات الاسمية التي تكشف عن فئات Aspose.Page التي ستحتاجها:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -39,136 +55,162 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## الخطوة 1: إنشاء مستند XPS جديد
+## كيفية تحويل XPS – دليل خطوة بخطوة
+
+### الخطوة 1: إنشاء مستند XPS جديد
 
 ```csharp
-// البداية:1
-// المسار إلى دليل المستندات.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// قم بإنشاء مستند XPS جديد
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
-## الخطوة 2: إنشاء قماش رئيسي
+*Explanation*: نبدأ بتحديد المجلد الذي يحتوي على ملفات المصدر والإخراج، ثم ننشئ كائن `XpsDocument` فارغ. هذا الكائن سيكون اللوحة لجميع التحولات اللاحقة.
+
+### الخطوة 2: إنشاء لوحة رئيسية
 
 ```csharp
-// قم بإنشاء لوحة رئيسية مشتركة لجميع عناصر الصفحة
+// Create main canvas, common for all page elements
 XpsCanvas canvas1 = doc.AddCanvas();
 
-// قم بإجراء الإزاحات اليسرى والعليا في اللوحة الرئيسية
+// Make left and top offsets in the main canvas
 canvas1.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 20, 10);
 ```
 
-## الخطوة 3: إنشاء هندسة مسار مستطيل
+*Why this matters*: تعمل اللوحة الرئيسية كحاوية لجميع اللوحات الأخرى. من خلال تطبيق إزاحة صغيرة نضمن عدم قطع المحتوى عند حافة الصفحة.
+
+### الخطوة 3: إنشاء هندسة مسار مستطيل
 
 ```csharp
-// إنشاء هندسة مسار المستطيل
+// Create rectangle path geometry
 XpsPathGeometry rectGeom = doc.CreatePathGeometry("M 0,0 L 200,0 200,100 0,100 Z");
 ```
 
-## الخطوة 4: إضافة تعبئة للمستطيلات
+*Tip*: سلسلة المسار تتبع صيغة مسار XPS القياسية (`M` للتحرك، `L` للخط، `Z` للإغلاق). عدّل الإحداثيات لتغيير حجم المستطيل.
+
+### الخطوة 4: إضافة تعبئة للمستطيلات
 
 ```csharp
-// إنشاء تعبئة للمستطيلات
+// Create a fill for rectangles
 XpsBrush fill = doc.CreateSolidColorBrush(doc.CreateColor(12, 15, 159));
 ```
 
-## الخطوة 5: إضافة قماش جديد بدون تحويلات
+*Pro tip*: استخدم `CreateColor` مع قيم RGB لتطابق لوحة ألوان علامتك التجارية.
+
+### الخطوة 5: إضافة لوحة جديدة بدون تحولات
 
 ```csharp
-// أضف لوحة قماشية جديدة دون أي تحويلات إلى اللوحة الرئيسية
+// Add new canvas without any transformations to the main canvas
 XpsCanvas canvas2 = canvas1.AddCanvas();
 
-// قم بإنشاء مستطيل في هذه اللوحة القماشية واملأها
+// Create rectangle in this canvas and fill it
 XpsPath rect = canvas2.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## الخطوة 6: إضافة لوحة قماشية جديدة مع تحويل الترجمة
+هنا نضع مستطيلًا على الصفحة دون أي تحويل إضافي—مفيد كعنصر أساسي للمقارنة.
+
+### الخطوة 6: إضافة لوحة جديدة مع تحويل نقل
 
 ```csharp
-// أضف لوحة قماشية جديدة مع ترجمة التحويل إلى اللوحة القماشية الرئيسية
+// Add new canvas with translate transformation to the main canvas
 XpsCanvas canvas3 = canvas1.AddCanvas();
 
-// قم بترجمة هذه اللوحة القماشية لوضع مستطيل جديد أسفل المستطيل السابق
+// Translate this canvas to position a new rectangle below the previous rectangle
 canvas3.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 0, 200);
 
-// قم بترجمة هذه اللوحة القماشية إلى الجانب الأيمن من الصفحة
+// Translate this canvas to the right side of the page
 canvas3.RenderTransform.Translate(500, 0);
 
-// قم بإنشاء مستطيل في هذه اللوحة القماشية واملأها
+// Create rectangle in this canvas and fill it
 rect = canvas3.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## الخطوة 7: إضافة لوحة قماشية جديدة ذات تحويل مزدوج النطاق
+*What’s happening?* المصفوفة الأولى تنقل المستطيل إلى الأسفل بمقدار 200 وحدة. استدعاء `Translate` التالي يزحه 500 وحدة إلى اليمين، مظهرًا كيف يمكن ربط عمليات النقل المتعددة.
+
+### الخطوة 7: إضافة لوحة جديدة مع تحويل تحجيم مزدوج
 
 ```csharp
-//أضف لوحة قماشية جديدة ذات تحويل مزدوج الحجم إلى اللوحة الرئيسية
+// Add new canvas with double scale transformation to the main canvas
 XpsCanvas canvas4 = canvas1.AddCanvas();
 
-// قم بترجمة هذه اللوحة القماشية لوضع مستطيل جديد أسفل المستطيل السابق
+// Translate this canvas to position a new rectangle below the previous rectangle
 canvas4.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 0, 400);
 
-// مقياس هذه اللوحة القماشية
+// Scale this canvas
 canvas4.RenderTransform.Scale(2, 2);
 
-// قم بإنشاء مستطيل في هذه اللوحة القماشية واملأها
+// Create rectangle in this canvas and fill it
 rect = canvas4.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## الخطوة 8: إضافة لوحة قماشية جديدة مع التدوير حول تحويل النقطة
+*Why scale?* التحجيم بمقدار 2 يضاعف عرض وارتفاع المستطيل، مما يتيح لك إنشاء رسومات أكبر دون إعادة تعريف الهندسة.
+
+### الخطوة 8: إضافة لوحة جديدة مع تحويل تدوير حول نقطة
 
 ```csharp
-// أضف لوحة قماشية جديدة مع التدوير حول تحويل النقطة إلى اللوحة القماشية الرئيسية
+// Add new canvas with rotation around a point transformation to the main canvas
 XpsCanvas canvas5 = canvas1.AddCanvas();
 
-// قم بترجمة هذه اللوحة القماشية لوضع مستطيل جديد أسفل المستطيل السابق
+// Translate this canvas to position a new rectangle below the previous rectangle
 canvas5.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 0, 800);
 
-// قم بتدوير هذه اللوحة القماشية حول نقطة بزاوية 45 درجة
+// Rotate this canvas around a point on 45 degrees
 canvas5.RenderTransform.RotateAround(45, new PointF(100, 50));
 
-// قم بإنشاء مستطيل في هذه اللوحة القماشية واملأها
+// Create rectangle in this canvas and fill it
 rect = canvas5.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## الخطوة 9: احفظ مستند XPS الناتج
+*Key insight*: `RotateAround` يدور اللوحة حول نقطة مخصصة (هنا (100, 50))، مما يمنحك تحكمًا دقيقًا في محور التدوير.
+
+### الخطوة 9: حفظ مستند XPS الناتج
 
 ```csharp
-// احفظ مستند XPS الناتج
+// Save resultant XPS document
 doc.Save(dataDir + "output1.xps");
-// النهاية:1
+// ExEnd:1
 ```
 
-## خاتمة
+بعد تطبيق جميع التحولات، يتم حفظ المستند إلى `output1.xps`. افتح الملف في أي عارض XPS لرؤية المستطيلات المتراصة مع عمليات النقل، التحجيم، والتدوير الخاصة بها.
 
-تهانينا! لقد نجحت في تحويل مستند XPS باستخدام Aspose.Page لـ .NET. يغطي هذا الدليل الخطوات الأساسية، بدءًا من إعداد المتطلبات الأساسية وحتى إجراء التحويلات المختلفة. قم بتجربة هذه التقنيات واطلق العنان للإمكانات الكاملة لـ Aspose.Page for .NET في مشاريعك.
+## المشكلات الشائعة & استكشاف الأخطاء
 
-## الأسئلة الشائعة
+| العَرَض | السبب المحتمل | الحل |
+|---------|--------------|-----|
+| ملف إخراج فارغ | `dataDir` يشير إلى مجلد غير موجود | تأكد من وجود المجلد أو استخدم مسارًا مطلقًا |
+| المستطيلات غير موضوعة كما هو متوقع | قيم المصفوفة غير صحيحة | راجع ترتيب استدعاءات `Translate`، `Scale`، و `RotateAround` |
+| الألوان غير صحيحة | قيم RGB خارج النطاق 0‑255 | استخدم قيم بايت صالحة لكل قناة |
 
-### س1: هل Aspose.Page for .NET متوافق مع كافة بيئات تطوير .NET؟
+## الأسئلة المتكررة
 
-A1: نعم، تم تصميم Aspose.Page for .NET للعمل بسلاسة مع بيئات تطوير .NET المتنوعة، بما في ذلك Visual Studio.
+**س: هل Aspose.Page لـ .NET متوافق مع جميع بيئات تطوير .NET؟**  
+ج: نعم، يعمل بسلاسة مع Visual Studio، Visual Studio Code، Rider، وأي IDE يدعم .NET.
 
-### س2: أين يمكنني العثور على أمثلة ووثائق إضافية لـ Aspose.Page لـ .NET؟
+**س: أين يمكنني العثور على أمثلة إضافية ووثائق API مفصلة؟**  
+ج: زر الوثائق الرسمية على [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).
 
- ج2: قم بزيارة[Aspose.Page للتوثيق .NET](https://reference.aspose.com/page/net/) للحصول على وثائق وأمثلة شاملة.
+**س: هل يمكنني تجربة Aspose.Page قبل شراء الترخيص؟**  
+ج: بالتأكيد. نسخة تجريبية مجانية متاحة هنا: [Aspose.Page Free Trial](https://releases.aspose.com/).
 
-### س3: هل يمكنني تجربة Aspose.Page لـ .NET قبل الشراء؟
+**س: كيف أحصل على ترخيص مؤقت للاختبار؟**  
+ج: يمكنك طلبه عبر صفحة الترخيص المؤقت: [Temporary License](https://purchase.aspose.com/temporary-license/).
 
- ج3: نعم، يمكنك استكشاف نسخة تجريبية مجانية من خلال زيارة[Aspose.Page تجربة مجانية](https://releases.aspose.com/).
+**س: أين أشتري ترخيصًا كاملاً؟**  
+ج: اشترِ مباشرة من متجر Aspose: [Aspose.Page Buy](https://purchase.aspose.com/buy).
 
-### س٤: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
+---
 
- ج4: احصل على ترخيص مؤقت من خلال الزيارة[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
+**آخر تحديث:** 2026-01-05  
+**تم الاختبار مع:** Aspose.Page 24.11 لـ .NET  
+**المؤلف:** Aspose  
 
-### س5: أين يمكنني شراء Aspose.Page لـ .NET؟
-
- A5: قم بشراء Aspose.Page لـ .NET على[Aspose.Page شراء](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
