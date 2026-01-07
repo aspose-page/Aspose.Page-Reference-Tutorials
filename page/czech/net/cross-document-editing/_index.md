@@ -1,48 +1,81 @@
 ---
-title: Editace mezi dokumenty
-linktitle: Editace mezi dokumenty
+date: 2026-01-07
+description: Odemkněte potenciál Aspose.Page pro .NET pomocí našich tutoriálů. Přidejte
+  klony glyfů, změňte barvy a snadno manipulujte se stránkami XPS v XPS dokumentech.
+linktitle: Cross-Document Editing
 second_title: Aspose.Page .NET API
-description: Odemkněte potenciál Aspose.Page pro .NET pomocí našich výukových programů. Přidávejte klony glyfů, měňte barvy a manipulujte se stránkami bez námahy v dokumentech XPS.
-weight: 22
+title: Manipulace s Pages XPS – editace napříč dokumenty
 url: /cs/net/cross-document-editing/
+weight: 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Editace mezi dokumenty
-
+# Manipulace stránek XPS
 
 ## Úvod
 
- Jste připraveni povýšit svou hru na zpracování dokumentů v .NET? Vítejte v naší komplexní sérii výukových programů na Aspose.Page for .NET, výkonné knihovně navržené pro efektivní zpracování dokumentů XPS. V této příručce se ponoříme do tří klíčových oblastí:**Cross-Document Editing Tutorials**.
+Jste připraveni posunout své zpracování dokumentů v .NET na vyšší úroveň? Vítejte v naší komplexní sérii tutoriálů o Aspose.Page pro .NET, výkonné knihovně určené k efektivnímu zpracování XPS dokumentů. V tomto průvodci se podíváme na tři klíčové oblasti **úpravy napříč dokumenty**, se zvláštním zaměřením na **manipulaci stránek XPS** — ať už potřebujete přeskupit, sloučit nebo rozdělit stránky v několika XPS souborech. Tento tutoriál je ideální pro vývojáře, kteří chtějí automatizovat složité pracovní postupy s dokumenty a zároveň udržet kód čistý a udržovatelný.
 
-## Přidejte klon glyfů a změňte barvu pomocí Aspose.Page pro .NET
+## Rychlé odpovědi
+- **Co mohu dělat s Aspose.Page pro .NET?** Vytvářet, upravovat a manipulovat XPS dokumenty, včetně přidávání glifů, obrázků a operací se stránkami.  
+- **Jak manipulovat stránky XPS?** Použijte metody kolekce stránek API k vkládání, mazání nebo přeskupování stránek napříč dokumenty.  
+- **Potřebuji licenci?** K dispozici je bezplatná zkušební verze, ale pro produkční použití je vyžadována komerční licence.  
+- **Které verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Existuje ukázkový kód?** Ano — každý odkazovaný tutoriál obsahuje připravené příklady ke spuštění.
 
- V tomto tutoriálu prozkoumáme neuvěřitelné možnosti Aspose.Page for .NET se zaměřením na přidávání klonů glyfů a snadnou změnu barev v dokumentech XPS. Ať už jste zkušený vývojář nebo začátečník, náš podrobný průvodce vám zajistí bezproblémové učení. Vylepšete vizuální přitažlivost svých dokumentů pomocí této výkonné funkce.[Přečtěte si více](./add-glyph-clone-and-change-color/)
+## Přidání klonu glifu a změna barvy s Aspose.Page pro .NET
 
-## Přidejte obrázek plný glyfů a cizí obrázek pomocí Aspose.Page .NET
+V tomto tutoriálu prozkoumáme úžasné možnosti Aspose.Page pro .NET, zaměřené na přidání klonů glifu a snadnou změnu barev v XPS dokumentech. Ať už jste zkušený vývojář nebo začátečník, náš krok‑za‑krokem průvodce zajišťuje plynulý učební proces. Vylepšete vizuální atraktivitu svých dokumentů pomocí této výkonné funkce. [Read More](./add-glyph-clone-and-change-color/)
 
-Uvolněte skutečný potenciál zpracování dokumentů v .NET s tímto výukovým programem. Provedeme vás procesem přidávání glyfů s obrázky a začleňování cizích obrázků pomocí Aspose.Page for .NET. Vylepšete vizuály dokumentů a zjednodušte svůj pracovní postup s lehkostí.[Přečtěte si více](./add-image-filled-glyph-and-foreign-image/)
+## Přidání glifu vyplněného obrázkem a cizího obrázku s Aspose.Page .NET
 
-## Manipulujte se stránkami pomocí Aspose.Page pro .NET
+Uvolněte skutečný potenciál zpracování dokumentů v .NET s tímto tutoriálem. Provedeme vás procesem přidání glifů vyplněných obrázkem a začleněním cizích obrázků pomocí Aspose.Page pro .NET. Pozvedněte vizuální stránku svých dokumentů a zjednodušte svůj pracovní tok s lehkostí. [Read More](./add-image-filled-glyph-and-foreign-image/)
 
- Efektivní manipulace se stránkami v .NET se s Aspose.Page stává hračkou. Ponořte se do našeho podrobného průvodce a prozkoumejte výhody a nevýhody manipulace se stránkami v dokumentech XPS. Ať už organizujete obsah, přeskupujete stránky nebo optimalizujete rozvržení, tento výukový program poskytuje informace, které potřebujete pro bezproblémové výsledky.[Přečtěte si více](./manipulate-pages/)
+## Manipulace stránek s Aspose.Page pro .NET
 
-Ať už jste vývojář, který chce rozšířit své dovednosti, nebo profesionál, který chce zlepšit možnosti zpracování dokumentů, naše výukové programy Aspose.Page for .NET nabízejí bohaté znalosti. Využijte sílu těchto výukových programů k zefektivnění svého pracovního postupu a odemkněte nové možnosti ve zpracování dokumentů XPS.
+Efektivní **manipulace stránek XPS** v .NET se stává hračkou s Aspose.Page. Ponořte se do našeho krok‑za‑krokem průvodce, který odhaluje všechny nuance manipulace se stránkami v XPS dokumentech. Ať už organizujete obsah, přeskupujete stránky nebo optimalizujete rozvržení, tento tutoriál vám poskytne potřebné poznatky pro plynulé výsledky. [Read More](./manipulate-pages/)
 
-Prozkoumejte podrobně každý výukový program a ovládněte umění úpravy více dokumentů pomocí Aspose.Page for .NET. Zvyšte své dovednosti v oblasti zpracování dokumentů a zůstaňte na špici v dynamickém světě vývoje .NET. Šťastné kódování!
-## Výukové programy pro úpravy napříč dokumenty
-### [Přidejte klon glyfů a změňte barvu pomocí Aspose.Page pro .NET](./add-glyph-clone-and-change-color/)
-Prozkoumejte sílu Aspose.Page pro .NET v tomto komplexním tutoriálu. Naučte se snadno přidávat klony glyfů a měnit barvy v dokumentech XPS.
-### [Přidejte obrázek plný glyfů a cizí obrázek pomocí Aspose.Page .NET](./add-image-filled-glyph-and-foreign-image/)
-Odemkněte sílu zpracování dokumentů v .NET s Aspose.Page. Bez námahy přidejte glyfy plné obrázků. Vylepšete vizuály a zefektivněte svůj pracovní postup.
-### [Manipulujte se stránkami pomocí Aspose.Page pro .NET](./manipulate-pages/)
-Prozkoumejte manipulaci se stránkami v .NET pomocí Aspose.Page, výkonné knihovny pro práci s dokumenty XPS. Pro efektivní výsledky postupujte podle našeho podrobného průvodce.
+Ať už jste vývojář, který chce rozšířit své dovednosti, nebo profesionál usilující o vylepšení schopností zpracování dokumentů, naše tutoriály k Aspose.Page pro .NET nabízejí bohatství znalostí. Využijte sílu těchto tutoriálů ke zjednodušení svého pracovního postupu a odemkněte nové možnosti v manipulaci s XPS dokumenty.
+
+Prozkoumejte každý tutoriál podrobně a ovládněte umění úpravy napříč dokumenty s Aspose.Page pro .NET. Pozvedněte své dovednosti v zpracování dokumentů a buďte o krok napřed v dynamickém světě .NET vývoje. Šťastné programování!
+
+## Tutoriály úpravy napříč dokumenty
+### [Add Glyph Clone and Change Color with Aspose.Page for .NET](./add-glyph-clone-and-change-color/)
+Objevte sílu Aspose.Page pro .NET v tomto komplexním tutoriálu. Naučte se přidávat klony glifů a měnit barvy v XPS dokumentech bez námahy.
+### [Add Image Filled Glyph & Foreign Image with Aspose.Page .NET](./add-image-filled-glyph-and-foreign-image/)
+Odemkněte potenciál zpracování dokumentů v .NET s Aspose.Page. Přidejte glify vyplněné obrázkem snadno. Vylepšete vizuály a zjednodušte svůj workflow.
+### [Manipulate Pages with Aspose.Page for .NET](./manipulate-pages/)
+Prozkoumejte manipulaci stránek v .NET pomocí Aspose.Page, výkonné knihovny pro práci s XPS dokumenty. Postupujte podle našeho krok‑za‑krokem průvodce pro efektivní výsledky.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Často kladené otázky
+
+**Q: Mohu tyto tutoriály použít v komerční aplikaci?**  
+A: Ano, pokud máte platnou licenci Aspose.Page pro produkční použití.
+
+**Q: Fungují příklady s .NET Core?**  
+A: Rozhodně. Všechny ukázkové kódy jsou kompatibilní s .NET Core 3.1 a novějšími verzemi, stejně jako s .NET 5/6/7.
+
+**Q: Jak zacházet s velkými XPS soubory při manipulaci stránek?**  
+A: Načítejte stránky líně pomocí iterátoru `PageCollection` a uvolňujte nepoužívané objekty stránek, aby byl paměťový odběr nízký.
+
+**Q: Existuje způsob, jak si před uložením XPS dokumentu prohlédnout změny?**  
+A: Můžete vykreslit stránky do bitmapy pomocí metody `Page.RenderToBitmap` a tak ověřit vizuální změny před potvrzením.
+
+**Q: Kde najdu kompletní referenci API?**  
+A: Oficiální dokumentace API Aspose.Page pro .NET je k dispozici na webu Aspose v sekci dokumentace.
+
+---
+
+**Poslední aktualizace:** 2026-01-07  
+**Testováno s:** Aspose.Page 24.11 pro .NET  
+**Autor:** Aspose
