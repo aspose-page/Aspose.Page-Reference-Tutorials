@@ -1,128 +1,190 @@
 ---
-title: .NET için Aspose.Page ile ilgili Kapsamlı Eğitimler ve Örnekler
-linktitle: .NET Eğitimleri için Aspose.Page
-weight: 10
+date: 2026-01-07
+description: Aspose.Page for .NET kullanarak XPS belgesi oluşturmayı öğrenin. Gradient
+  dolgu, özel baskı biletleri, EPS kırpma, XPS'i PDF'ye birleştirme ve doku döşeme
+  desenleri üzerine eğitimleri keşfedin.
+linktitle: Aspose.Page for .NET Tutorials
+title: Aspose.Page for .NET ile XPS Belgesi Oluşturma – Eğitimler
 url: /tr/net/
-description: Oluşturma, düzenleme ve geliştirmeyi kapsayan eğitimlerle Aspose.Page for .NET'in potansiyelini ortaya çıkarın. Temel bilgilerden ileri tekniklere kadar zahmetsizce ustalaşın.
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET için Aspose.Page ile ilgili Kapsamlı Eğitimler ve Örnekler
+# Aspose.Page for .NET ile XPS Belgesi Oluşturma
 
-## giriiş
+## Introduction
 
-Aspose.Page for .NET'in tüm potansiyelini ortaya çıkarmaya hazır mısınız? Başka yerde arama! Kapsamlı eğitimlerimiz, temel işlevlerden ileri tekniklere kadar her konuyu kapsayarak yetkin bir kullanıcı olmanızı sağlar.
+Hızlı ve güvenilir bir şekilde **XPS belgesi** dosyaları oluşturmak ister misiniz? Bu merkez, bir belgeyi yüklemenin temellerinden gelişmiş görsel efektlere kadar ihtiyacınız olan tüm Aspose.Page for .NET öğreticilerini bir araya getirir. Raporlar, faturalar veya özel baskı iş akışları oluşturuyor olun, kütüphanenin tam gücünden yararlanmanızı sağlayacak adım‑adım rehberleri bulacaksınız.
 
-## Başlarken
+## Quick Answers
+- **What can I build?** Zengin grafik ve metin içeren XPS, PostScript ve EPS dosyaları.  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Do I need a license?** Üretim kullanımı için ölçülen veya tam lisans gereklidir.  
+- **Can I convert XPS to PDF?** Evet – “merge XPS to PDF” öğreticisine bakın.  
+- **Is there sample code?** Tüm öğreticiler, aşağıda korunan hazır‑çalıştır kod parçacıklarını içerir.
 
- Aspose.Page for .NET ile yolculuğunuza, ürünlerimizi keşfederek başlayın.[Başlarken](./getting-started/)rehber. Ölçülü lisansları nasıl uygulayacağınızı, dosyalardan veya akışlardan nasıl belge yükleyeceğinizi ve lisansları nasıl güvence altına alacağınızı öğrenin. Adım adım eğitimlerle Aspose.Page'in gücünü hızla açığa çıkaracaksınız.
+## What is “create XPS document”?
 
-## Kanvas Manipülasyonu
+XPS belgesi oluşturmak, Windows platformları arasında sayfa bütünlüğünü koruyan sabit‑düzen bir dosyayı programlı olarak üretmek anlamına gelir. Aspose.Page for .NET, şekiller çizmeyi, metin eklemeyi, görseller gömmeyi ve gelişmiş efektler uygulamayı sağlayan akıcı bir API sunar – Adobe araçlarına ihtiyaç duymadan.
 
- Aspose.Page for .NET ile tuval manipülasyonu dünyasına adım atın. Bizim[Kanvas Manipülasyonu](./canvas-manipulation/) öğreticiler, PS ve XPS belgelerini zahmetsizce kırpma ve dönüştürme konusunda size rehberlik eder. Belge işleme becerilerinizi geliştirin ve tuvallerinizin kontrolünü elinize alın.
+## Why use Aspose.Page for .NET?
+- **Full control** vektör grafikleri, degrade, dokular ve baskı biletleri üzerinde tam kontrol.  
+- **No external dependencies** – saf .NET kütüphanesi.  
+- **High performance** büyük belge setlerinin toplu işlenmesi için yüksek performans.  
+- **Cross‑format support** – PDF, PNG veya EPS’ye kolayca dönüştürme.
 
-## Çapraz Belge Düzenleme
+## Getting Started
 
- Belgeler arası düzenleme potansiyelinin kilidini açın[Çapraz Belge Düzenleme](./cross-document-editing/) öğreticiler. XPS belgelerinde glif klonları ekleyin, renkleri değiştirin ve sayfaları zahmetsizce değiştirin. Aspose.Page for .NET'in geniş yeteneklerini keşfedin.
+Aspose.Page for .NET ile yolculuğunuza [Getting Started](./getting-started/) kılavuzumuzu keşfederek başlayın. Ölçülen lisansları uygulamayı, dosyalardan veya akışlardan belgeleri yüklemeyi ve lisansları güvence altına almayı öğrenin. Adım‑adım öğreticilerle Aspose.Page’in gücünü hızla ortaya çıkaracaksınız.
 
-## Belge Oluşturma
+## Canvas Manipulation
 
- Çarpıcı XPS ve PostScript belgelerini zahmetsizce oluşturun[Belge Oluşturma](./document-creation/) öğreticiler. Projelerinize kusursuz entegrasyon sağlayarak belge oluşturma ve değiştirme dünyasına dalın.
+Aspose.Page for .NET ile canvas manipülasyonu dünyasına dalın. [Canvas Manipulation](./canvas-manipulation/) öğreticilerimiz, PS ve XPS belgelerini sorunsuz bir şekilde kırpma ve dönüştürme konularında size rehberlik eder. Belge işleme becerilerinizi geliştirin ve canvas’larınızın kontrolünü ele alın.
 
-## Belge Dönüştürme
+## Cross-Document Editing
 
- PostScript'i PDF'ye ve XPS'yi PDF'ye zahmetsizce dönüştürün[Belge Dönüştürme](./document-conversion/)öğreticiler. Sağlam ve güvenilir çözümlerimiz, projeleriniz için kolay ve kusursuz belge dönüştürme olanağı sağlar.
+[Cross-Document Editing](./cross-document-editing/) öğreticileriyle çapraz‑belge düzenlemenin potansiyelini ortaya çıkarın. XPS belgelerinde glif klonları ekleyin, renkleri değiştirin ve sayfaları zahmetsizce manipüle edin. Aspose.Page for .NET’in geniş yeteneklerini keşfedin.
 
-## Belge Birleştirme
+## Document Creation
 
- PostScript ve XPS belgelerini zahmetsizce yüksek kaliteli PDF'lerde birleştirin[Belge Birleştirme](./document-merging/) öğreticiler. Belge birleştirmeye yönelik adım adım kılavuzumuzla belge işleme becerilerinizi geliştirin.
+[Document Creation](./document-creation/) öğreticileriyle etkileyici XPS ve PostScript belgeleri oluşturun. Belge oluşturma ve değiştirme dünyasına dalın, projelerinizle sorunsuz entegrasyon sağlayın.
 
-## Görüntü İşleme
+## Document Conversion
 
- Aspose.Page for .NET'in gücünü,[Görüntü İşleme](./image-manipulation/) Öğreticiler. Çarpıcı ve hassas sonuçlar için EPS görüntülerini zahmetsizce kırpın ve yeniden boyutlandırın. Belge görsellerinizi zahmetsizce yükseltin.
+[Document Conversion](./document-conversion/) öğreticileriyle PostScript’i PDF’ye ve XPS’i PDF’ye zahmetsizce dönüştürün. Sağlam ve güvenilir çözümlerimiz, projeleriniz için kolay ve sorunsuz belge dönüşümü sunar.
 
-## Degrade Dolgular
+## Document Merging
 
- .NET'teki degrade dolgu sanatını keşfedin[Degrade Dolgular](./gradient-fills/) öğreticiler. Projelerinizi zahmetsizce yükseltmek için büyüleyici çapraz, yatay ve dikey degradeler ekleyin.
+[Document Merging](./document-merging/) öğreticileriyle PostScript ve XPS belgelerini yüksek‑kaliteli PDF’lere zahmetsizce birleştirin. “merge XPS to PDF” senaryosu, birden çok XPS dosyasını tek bir PDF çıktısına nasıl birleştireceğinizi gösterir.
 
-## İmaj Yönetimi
+## Image Manipulation
 
- Belge görsellerinizi zahmetsizce geliştirin! Keşfetmek[İmaj Yönetimi](./image-management/) resim eklemekten formatları dönüştürmeye kadar her şeyi kapsayan eğitimler. Aspose.Page for .NET ile her adımda ustalaşın.
+[Image Manipulation](./image-manipulation/) öğreticilerimizle Aspose.Page for .NET’in gücünü keşfedin. **crop EPS image** dosyalarını nasıl kırpacağınızı, yeniden boyutlandıracağınızı ve XPS belgelerine gömeceğinizi öğrenerek çarpıcı ve hassas sonuçlar elde edin.
 
-## Sayfa İşleme
+## Gradient Fills
 
- PostScript ve XPS belgelerini işlemede Aspose.Page for .NET'in gücünü keşfedin. Kapsamlı uygulamamızla sayfa eklemeyi, geliştirmeyi ve kaldırmayı öğrenin[Sayfa İşleme](./page-manipulation/)öğreticiler.
+[Gradient Fills](./gradient-fills/) öğreticileriyle .NET’te **apply gradient fill** sanatını keşfedin. Projelerinizi yükselten etkileyici diyagonal, yatay ve dikey degrade ekleyin.
 
-## Bilet Yönetimini Yazdır
+## Image Management
 
- Özel baskı biletleri oluşturun ve düzenleyin[Bilet Yönetimini Yazdır](./print-ticket-management/). Yazdırma deneyiminizi XPS belgelerindeki ayrıntılı kontrolle zahmetsizce uyarlayın.
+Belge görsellerinizi zahmetsizce geliştirin! [Image Management](./image-management/) öğreticileri, görsel eklemekten format dönüştürmeye kadar her şeyi kapsar. Aspose.Page for .NET ile her adımı ustalıkla yönetin.
 
-## Şekil Çizimi
+## Page Manipulation
 
- .NET'te belge oluşturmayı zahmetsizce geliştirin! Aspose.Page .NET'i kullanarak PostScript'e (PS) daire, elips ve dikdörtgen ekleme konusunda adım adım eğitimleri öğrenin[Şekil Çizimi](./drawing-shapes/).
+Aspose.Page for .NET’in PostScript ve XPS belgelerini manipüle etme gücünü keşfedin. Sayfa ekleme, geliştirme ve kaldırma konularını kapsamlı [Page Manipulation](./page-manipulation/) öğreticilerimizle öğrenin.
 
-## Metin İşleme
+## Print Ticket Management
 
- .NET'te metin manipülasyonunda ustalaşın[Metin İşleme](./text-manipulation/) öğreticiler. PostScript ve XPS belgelerine Unicode metin eklemeyi öğrenerek belge işleme becerilerinizi geliştirin.
+[Print Ticket Management](./print-ticket-management/) ile **custom print ticket** dosyalarını oluşturun ve düzenleyin. XPS belgelerinde ince ayarlı kontrolle baskı deneyiminizi zahmetsizce özelleştirin.
 
-## Doku İşleme
+## Drawing Shapes
 
- PostScript belgelerini çarpıcı görsel efektlerle geliştirin! kullanarak doku döşeme desenlerini uygulamayı öğrenin.[Doku İşleme](./texture-handling/) adım adım kılavuzumuzla öğreticiler.
+.NET’te belge oluşturmayı zahmetsizce geliştirin! Aspose.Page .NET kullanarak PostScript (PS) üzerine daire, elips ve dikdörtgen ekleme konularını adım‑adım öğreten [Drawing Shapes](./drawing-shapes/) öğreticileriyle tanışın.
 
-## Şeffaflık Efektleri
+## Text Manipulation
 
- Belgelerinizde şeffaflık efektlerinin büyüsünü keşfedin[Şeffaflık Efektleri](./transparency-effects/). Çarpıcı görsel geliştirmeler için tasarımınızı adım adım eğitimlerle geliştirin.
+[Text Manipulation](./text-manipulation/) öğreticileriyle .NET’te metin manipülasyonunda uzmanlaşın. PostScript ve XPS belgelerine Unicode metin ekleyerek belge manipülasyon becerilerinizi yükseltin.
 
-## Görsel Fırçalar
+## Texture Handling
 
- .NET'te belge işlemenizi geliştirin[Görsel Fırçalar](./visual-brushes/) öğreticiler. Görsel açıdan etkileyici belgeler oluşturma tekniklerinde uzmanlaşarak Görsel Fırçalar dünyasına dalın.
+PostScript belgelerini çarpıcı görsel efektlerle zenginleştirin! [Texture Handling](./texture-handling/) öğreticileriyle **texture tiling pattern** uygulamayı adım‑adım öğrenin.
 
-## EPS Meta Veri Yönetimi
+## Transparency Effects
 
-Aspose.Page for .NET ile EPS organizasyonunu yükseltin. Gelişmiş erişilebilirlik için meta verileri zahmetsizce ekleyin. Keşfetmek[EPS Meta Veri Yönetimi](./eps-metadata-management/) öğreticiler ve EPS belgelerinizi optimize edin. 
+Belgenizde şeffaflık efektlerinin büyüsünü keşfedin. [Transparency Effects](./transparency-effects/) ile adım‑adım öğreticiler sayesinde göz alıcı görsel iyileştirmeler yapın.
 
-Aspose.Page for .NET ile belge işleme deneyiminizde devrim yaratmaya hazır olun. İster yeni başlayan ister ileri düzey bir kullanıcı olun, eğitimlerimiz bu güçlü aracın her alanında uzmanlaşmak için ihtiyacınız olan rehberliği sağlar. Bugün olasılıkların kilidini açın!
-## .NET Eğitimleri için Aspose.Page 
-### [Başlarken](./getting-started/)
-Adım adım eğitimlerle Aspose.Page .NET'in gücünü ortaya çıkarın. Ölçülü lisanslar uygulayın, dosyalardan veya akışlardan yükleme yapın, lisansları güvenli hale getirin ve daha fazlasını yapın.
-### [Kanvas Manipülasyonu](./canvas-manipulation/)
-Aspose.Page for .NET tuval manipülasyonu eğitimlerini keşfedin. PS ve XPS belgelerini kırpmak ve dönüştürmek artık çok kolay. Belge işleme becerilerinizi geliştirin.
-### [Çapraz Belge Düzenleme](./cross-document-editing/)
-Eğitimlerimizle Aspose.Page for .NET'in potansiyelini ortaya çıkarın. XPS belgelerinde glif klonları ekleyin, renkleri değiştirin ve sayfaları zahmetsizce değiştirin.
-### [Belge Oluşturma](./document-creation/)
-Aspose.Page for .NET ile göz alıcı XPS ve PostScript belgelerini zahmetsizce oluşturun. Sorunsuz entegrasyon için belge oluşturma ve değiştirme eğitimlerini keşfedin.
-### [Belge Dönüştürme](./document-conversion/)
-Aspose.Page for .NET eğitimleriyle PostScript'i PDF'ye ve XPS'yi PDF'ye zahmetsizce dönüştürün. Sorunsuz belge dönüştürme için sağlam, güvenilir ve kolay çözümler.
-### [Belge Birleştirme](./document-merging/)
-Aspose.Page for .NET'i kullanarak PostScript ve XPS belgelerini zahmetsizce yüksek kaliteli PDF'lerde birleştirin. Adım adım eğitimlerimizle belge işleme sürecinizi geliştirin.
-### [Görüntü İşleme](./image-manipulation/)
-Görüntü İşleme Eğitimlerimiz aracılığıyla Aspose.Page for .NET'in gücünü keşfedin. Çarpıcı ve hassas sonuçlar için EPS görüntülerini zahmetsizce kırpın ve yeniden boyutlandırın.
-### [Degrade Dolgular](./gradient-fills/)
-Aspose.Page eğitimleriyle .NET'te degrade dolgu sanatını keşfedin. Projelerinizi zahmetsizce yükseltin; büyüleyici çapraz, yatay ve dikey degradeler ekleyin.
-### [İmaj Yönetimi](./image-management/)
-Belge görsellerinizi zahmetsizce geliştirin! Görüntü yönetimini kapsayan Aspose.Page .NET eğitimlerini keşfedin. Görüntü eklemekten formatları dönüştürmeye kadar her adımda ustalaşın.
-### [Sayfa İşleme](./page-manipulation/)
-PostScript ve XPS belgelerini işlemede Aspose.Page for .NET'in gücünü keşfedin. Kapsamlı eğitimlerimizle sayfa eklemeyi, geliştirmeyi ve kaldırmayı öğrenin.
-### [Bilet Yönetimini Yazdır](./print-ticket-management/)
-Aspose.Page for .NET ile özel baskı biletleri oluşturun ve düzenleyin. Yazdırma deneyiminizi XPS belgelerindeki ayrıntılı kontrolle zahmetsizce uyarlayın.
-### [Şekil Çizimi](./drawing-shapes/)
-.NET'te belge oluşturmayı zahmetsizce geliştirin! Aspose.Page .NET'i kullanarak PostScript'e (PS) daire, elips ve dikdörtgen eklemeye ilişkin adım adım eğitimleri öğrenin.
-### [Metin İşleme](./text-manipulation/)
-Aspose.Page eğitimleriyle .NET'te metin manipülasyonunda ustalaşın. PostScript ve XPS belgelerine Unicode metin eklemeyi öğrenin. Belge işleme becerilerinizi geliştirin.
-### [Doku İşleme](./texture-handling/)
-PostScript belgelerini çarpıcı görsel efektlerle geliştirin! Adım adım kılavuzumuzla Aspose.Page for .NET'i kullanarak doku döşeme desenlerini uygulamayı öğrenin.
-### [Şeffaflık Efektleri](./transparency-effects/)
-Aspose.Page .NET ile belgelerinizdeki şeffaflık efektlerinin büyüsünü keşfedin. Çarpıcı görsel geliştirmeler için tasarımınızı adım adım eğitimlerle geliştirin.
-### [Görsel Fırçalar](./visual-brushes/)
-Aspose.Page eğitimleriyle .NET'te belge işlemenizi geliştirin. Görsel açıdan etkileyici belgeler oluşturma tekniklerinde uzmanlaşarak Görsel Fırçalar dünyasına dalın.
-### [EPS Meta Veri Yönetimi](./eps-metadata-management/)
-Aspose.Page for .NET ile EPS organizasyonunu yükseltin. Gelişmiş erişilebilirlik için meta verileri zahmetsizce ekleyin. EPS meta veri yönetimi eğitimlerini keşfedin.
+## Visual Brushes
+
+.NET’te belge işleme deneyiminizi yükseltin. [Visual Brushes](./visual-brushes/) öğreticileriyle Visual Brushes dünyasına dalın, görsel açıdan etkileyici belgeler oluşturma tekniklerini ustalaştırın.
+
+## EPS Metadata Management
+
+Aspose.Page for .NET ile EPS organizasyonunu yükseltin. Metaverileri zahmetsizce ekleyerek erişilebilirliği artırın. [EPS Metadata Management](./eps-metadata-management/) öğreticileriyle EPS belgelerinizi optimize edin. 
+
+Aspose.Page for .NET ile belge işleme deneyiminizi devrim niteliğinde bir seviyeye taşıyın. İster yeni başlayan ister ileri düzey bir kullanıcı olun, öğreticilerimiz bu güçlü aracın her yönünü ustalıkla kullanmanız için gerekli rehberliği sunar. Olanakların kilidini bugün açın!
+
+## Aspose.Page for .NET Tutorials 
+
+### [Getting Started](./getting-started/)
+Aspose.Page .NET’in gücünü adım‑adım öğreticilerle keşfedin. Ölçülen lisansları uygulayın, dosyalardan veya akışlardan yükleyin, lisansları güvence altına alın ve daha fazlasını öğrenin.
+
+### [Canvas Manipulation](./canvas-manipulation/)
+Aspose.Page for .NET canvas manipülasyonu öğreticileriyle tanışın. PS ve XPS belgelerini kırpma ve dönüştürme artık çok kolay. Belge işleme becerilerinizi geliştirin.
+
+### [Cross-Document Editing](./cross-document-editing/)
+Aspose.Page for .NET’in potansiyelini öğreticilerimizle ortaya çıkarın. XPS belgelerinde glif klonları ekleyin, renkleri değiştirin ve sayfaları zahmetsizce manipüle edin.
+
+### [Document Creation](./document-creation/)
+Aspose.Page for .NET ile etkileyici XPS ve PostScript belgeleri oluşturun. Sorunsuz entegrasyon için belge oluşturma ve değiştirme öğreticilerini keşfedin.
+
+### [Document Conversion](./document-conversion/)
+Aspose.Page for .NET öğreticileriyle PostScript’i PDF’ye ve XPS’i PDF’ye zahmetsizce dönüştürün. Sağlam, güvenilir ve kolay çözümlerle sorunsuz belge dönüşümü sağlayın.
+
+### [Document Merging](./document-merging/)
+Aspose.Page for .NET kullanarak PostScript ve XPS belgelerini yüksek‑kaliteli PDF’lere zahmetsizce birleştirin. Adım‑adım öğreticilerimizle belge işleme sürecinizi geliştirin.
+
+### [Image Manipulation](./image-manipulation/)
+Aspose.Page for .NET’in gücünü Image Manipulation öğreticileriyle keşfedin. **crop EPS image** ve EPS görsellerini yeniden boyutlandırarak çarpıcı ve hassas sonuçlar elde edin.
+
+### [Gradient Fills](./gradient-fills/)
+Aspose.Page öğreticileriyle .NET’te **apply gradient fill** sanatını keşfedin. Projelerinizi zahmetsizce yükseltin—çarpıcı diyagonal, yatay ve dikey degrade ekleyin.
+
+### [Image Management](./image-management/)
+Belge görsellerinizi zahmetsizce geliştirin! Aspose.Page .NET öğreticileriyle görüntü yönetimini keşfedin. Görseller eklemekten format dönüştürmeye kadar her adımı ustalıkla yönetin.
+
+### [Page Manipulation](./page-manipulation/)
+Aspose.Page for .NET’in PostScript ve XPS belgelerini manipüle etme gücünü keşfedin. Sayfa ekleme, geliştirme ve kaldırma konularını kapsamlı öğreticilerimizle öğrenin.
+
+### [Print Ticket Management](./print-ticket-management/)
+Aspose.Page for .NET ile **custom print ticket** dosyalarını oluşturun ve düzenleyin. XPS belgelerinde ince ayarlı kontrolle baskı deneyiminizi zahmetsizce özelleştirin.
+
+### [Drawing Shapes](./drawing-shapes/)
+.NET’te belge oluşturmayı zahmetsizce geliştirin! Aspose.Page .NET kullanarak PostScript (PS) üzerine daire, elips ve dikdörtgen ekleme konularını adım‑adım öğreten öğreticilerimizle tanışın.
+
+### [Text Manipulation](./text-manipulation/)
+Aspose.Page öğreticileriyle .NET’te metin manipülasyonunda uzmanlaşın. PostScript ve XPS belgelerine Unicode metin ekleyerek belge manipülasyon becerilerinizi yükseltin.
+
+### [Texture Handling](./texture-handling/)
+PostScript belgelerini çarpıcı görsel efektlerle zenginleştirin! Aspose.Page for .NET ile **texture tiling pattern** uygulamayı adım‑adım rehberimizle öğrenin.
+
+### [Transparency Effects](./transparency-effects/)
+Belgenizde şeffaflık efektlerinin büyüsünü Aspose.Page .NET ile keşfedin. Göz alıcı görsel iyileştirmeler için adım‑adım öğreticilerle tasarımınızı yükseltin.
+
+### [Visual Brushes](./visual-brushes/)
+.NET’te belge işleme deneyiminizi Aspose.Page öğreticileriyle yükseltin. Visual Brushes dünyasına dalın, görsel açıdan etkileyici belgeler oluşturma tekniklerini ustalaştırın.
+
+### [EPS Metadata Management](./eps-metadata-management/)
+Aspose.Page for .NET ile EPS organizasyonunu yükseltin. Metaverileri zahmetsizce ekleyerek erişilebilirliği artırın. EPS metadata yönetimi öğreticilerini keşfedin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+## Frequently Asked Questions
+
+**Q: How do I start a new XPS document from scratch?**  
+A: Use the `XpsDocument` class, create a page, and add graphics or text via the `XpsPage` API.
+
+**Q: Can I apply a gradient fill to shapes in an XPS document?**  
+A: Yes – the `GradientBrush` class lets you define linear or radial gradients and apply them to any drawing object.
+
+**Q: What is the best way to merge multiple XPS files into a single PDF?**  
+A: Load each XPS with `XpsDocument`, then use `PdfSaveOptions` to export and combine them, as shown in the “merge XPS to PDF” tutorial.
+
+**Q: How do I embed a custom print ticket in an XPS file?**  
+A: Create a `PrintTicket` object, configure the desired settings, and attach it to the page using `XpsPage.PrintTicket`.
+
+**Q: Is it possible to crop an EPS image before inserting it?**  
+A: Absolutely – the `Image` class supports cropping via the `CropRectangle` property, demonstrated in the “crop EPS image” section.
+
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.Page for .NET 24.11  
+**Author:** Aspose

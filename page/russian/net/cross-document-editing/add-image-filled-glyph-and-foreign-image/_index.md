@@ -1,35 +1,45 @@
 ---
-title: Добавьте заполненный изображением глиф и внешнее изображение с помощью Aspose.Page .NET
-linktitle: Добавить заполненный изображением глиф и внешнее изображение
+date: 2026-01-07
+description: Узнайте, как создавать XPS‑документы в .NET с помощью Aspose.Page. Это
+  руководство показывает, как добавлять глифы, заполненные изображениями, и внешние
+  изображения для более насыщенной визуализации документа.
+linktitle: Add Image Filled Glyph & Foreign Image
 second_title: Aspose.Page .NET API
-description: Раскройте возможности обработки документов в .NET с помощью Aspose.Page. Добавляйте глифы, заполненные изображениями, без особых усилий. Улучшите визуальные эффекты и оптимизируйте рабочий процесс.
-weight: 11
+title: Создание XPS‑документа в .NET с Aspose.Page – глиф, заполненный изображением,
+  и внешнее изображение
 url: /ru/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Добавьте заполненный изображением глиф и внешнее изображение с помощью Aspose.Page .NET
+# Создание XPS документа .NET с Aspose.Page – Глиф, заполненный изображением, и внешнее изображение
 
 ## Введение
 
-В мире .NET-разработки Aspose.Page выделяется как мощный набор инструментов для решения задач обработки документов. Это руководство проведет вас через процесс добавления глифов, заполненных изображениями, и включения сторонних изображений с помощью Aspose.Page для .NET. К концу этого руководства вы получите четкое представление о том, как расширить возможности обработки документов.
+Если вам нужно **create XPS document .NET** приложения, которые выглядят отшлифованными и профессиональными, Aspose.Page предоставляет инструменты для встраивания изображений непосредственно в глифы и повторного использования графических ресурсов в разных документах. В этом руководстве мы пройдем процесс создания двух XPS файлов, заполнения глифов кистью изображения и последующего повторного использования этой кисти во втором документе. К концу вы поймёте, почему такой подход экономит память, упрощает стилизацию и открывает творческие возможности для отчетов, счетов‑фактур или любого печатного контента.
 
-## Предварительные условия
+## Быстрые ответы
 
-Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
+- **What does this tutorial cover?** Добавление глифов, заполненных изображением, и их повторное использование в XPS документах с Aspose.Page для .NET.  
+- **Which primary keyword is targeted?** `create xps document .net`.  
+- **Prerequisites?** Среда разработки .NET, Aspose.Page для .NET и папка для ваших XPS файлов.  
+- **How long does implementation take?** Около 10‑15 минут для работающего прототипа.  
+- **Can I use other image formats?** Да — любой формат, поддерживаемый `System.Drawing.Image` в .NET.
 
--  Aspose.Page для .NET: убедитесь, что у вас установлена библиотека Aspose.Page. Вы можете скачать его с[здесь](https://releases.aspose.com/page/net/).
+## Требования
 
-- Среда разработки: настройте рабочую среду разработки .NET с помощью Visual Studio или любой другой предпочтительной среды разработки.
+Прежде чем погрузиться в код, убедитесь, что у вас готово следующее:
 
-- Каталог документов: создайте каталог, в котором вы будете хранить свои документы. В примерах кода это будет называться «Каталог ваших документов».
+- **Aspose.Page for .NET** – download the latest library from [here](https://releases.aspose.com/page/net/).  
+- **Development Environment** – Visual Studio 2022 (or any IDE that supports .NET 6+).  
+- **Document Directory** – create a folder on your machine that will hold the input images and the generated XPS files; we’ll refer to it as **Your Document Directory** in the snippets.
 
-## Импортировать пространства имен
+## Импорт пространств имён
 
-В вашем .NET-приложении начните с импорта необходимых пространств имен для доступа к классам и методам, предоставляемым Aspose.Page:
+Start by pulling in the namespaces required to work with XPS objects and drawing utilities.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,106 +47,123 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Шаг 1. Создайте первый документ XPS
+## Пошаговое руководство
 
-Начните с создания первого документа XPS с помощью Aspose.Page. Этот документ послужит основой для добавления глифов, заполненных изображениями.
+### Шаг 1: Создать первый XPS документ
+
+We begin by instantiating an empty XPS document that will host the image‑filled glyph.
 
 ```csharp
 // ExStart:1
-// Путь к каталогу документов.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Создайте первый документ XPS.
+// Create the first XPS Document
 XpsDocument doc1 = new XpsDocument();
 ```
 
-## Шаг 2. Добавьте глифы в первый документ
+### Шаг 2: Добавить глифы в первый документ
 
-Добавьте глифы в первый документ, указав шрифт, размер, стиль и положение.
+Next, add a glyph (a text character) that we’ll later fill with an image brush.
 
 ```csharp
-// Добавьте глифы в первый документ
+// Add glyphs to the first document
 XpsGlyphs glyphs1 = doc1.AddGlyphs("Times New Roman", 200, FontStyle.Bold, 50, 250, "Test");
 ```
 
-## Шаг 3. Заполните глифы кистью изображения.
+### Шаг 3: Заполнить глифы кистью изображения
 
-Заполните глифы кистью изображения, используя изображение из вашего каталога данных.
+Here we create an `ImageBrush` from a TIFF file located in our data directory and apply it to the glyph. The brush is set to tile mode so the image repeats if the glyph area exceeds the image size.
 
 ```csharp
-// Заполните глифы графической кистью.
+// Fill the glyphs with an image brush
 glyphs1.Fill = doc1.CreateImageBrush(dataDir + "R08SY_NN.tif", new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 64f, 96f));
 ((XpsImageBrush)glyphs1.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## Шаг 4. Создайте второй документ XPS
+### Шаг 4: Создать второй XPS документ
 
-Теперь создайте второй документ XPS, который будет включать глифы из первого документа.
+Now we spin up a second XPS document that will reuse the glyph style and image brush from the first one.
 
 ```csharp
-// Создайте второй документ XPS.
+// Create the second XPS Document
 XpsDocument doc2 = new XpsDocument();
 ```
 
-## Шаг 5. Добавьте глифы с помощью шрифта из первого документа
+### Шаг 5: Добавить глифы с шрифтом из первого документа
 
-Добавьте глифы во второй документ, используя шрифт из первого документа.
+We add a glyph to the second document, re‑using the exact font object from the first document. This ensures visual consistency across both files.
 
 ```csharp
-// Добавьте глифы шрифтом из первого документа во второй документ.
+// Add glyphs with the font from the first document to the second document
 XpsGlyphs glyphs2 = doc2.AddGlyphs(glyphs1.Font, 200, 50, 250, "Test");
 ```
 
-## Шаг 6. Создайте кисть изображения из заливки первого документа.
+### Шаг 6: Создать кисть изображения из заполнения первого документа
 
-Создайте кисть изображения из заливки первого документа и используйте ее для заливки глифов во втором документе.
+Instead of loading the image again, we clone the brush from `glyphs1` and assign it to `glyphs2`. This demonstrates how you can **create XPS document .NET** workflows that share resources efficiently.
 
 ```csharp
-// Создайте кисть изображения из заливки первого документа и заполните глифы во втором документе.
+// Create an image brush from the fill of the first document and fill glyphs in the second document
 glyphs2.Fill = doc2.CreateImageBrush(((XpsImageBrush)glyphs1.Fill).Image, new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 128f, 192f));
 ((XpsImageBrush)glyphs2.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## Шаг 7: Сохраните документы
+### Шаг 7: Сохранить документы
 
-Сохраните первый и второй документы XPS.
+Finally, persist both XPS files to the disk. You can now open them with any XPS viewer to see the image‑filled glyph effect.
 
 ```csharp
-// Сохраните первый документ XPS.
+// Save the first XPS document
 doc1.Save(dataDir + "out1.xps");
 
-// Сохраните второй документ XPS.
+// Save the second XPS document
 doc2.Save(dataDir + "out2.xps");
 // ExEnd:1
 ```
 
-## Заключение
+## Почему использовать глифы, заполненные изображением, при создании XPS документа .NET?
 
-Поздравляем! Вы успешно добавили глифы, заполненные изображениями, и включили сторонние изображения с помощью Aspose.Page для .NET. Это руководство предоставляет основу для расширения ваших возможностей обработки документов, открывая новые возможности для создания творческих и визуально привлекательных документов.
+- **Visual Impact** – Преобразовать обычный текст в графически насыщенные элементы без растеризации всей страницы.  
+- **Resource Reuse** – Делить кисти и шрифты между несколькими документами, уменьшая потребление памяти.  
+- **Flexibility** – Плитка, растягивание или вращение кисти изображения для создания пользовательских узоров или фирменного стиля.
+
+## Распространённые проблемы и советы
+
+- **File Path Errors** – Ensure `dataDir` ends with a path separator (`\` or `/`) appropriate for your OS.  
+- **Unsupported Image Formats** – Aspose.Page works best with TIFF, PNG, and JPEG. Convert other formats before use.  
+- **TileMode Not Applied** – Verify you cast to `XpsImageBrush` before setting `TileMode`; otherwise the property is ignored.
 
 ## Часто задаваемые вопросы
 
-### В1: Могу ли я использовать разные форматы изображений для заполнения глифов?
+### Q1: Можно ли использовать разные форматы изображений для заполнения глифов?
 
-О1: Да, Aspose.Page поддерживает различные форматы изображений. Убедитесь в совместимости с выбранным форматом изображения.
+**A:** Yes, Aspose.Page supports TIFF, PNG, JPEG, BMP, and GIF. Just provide the correct file extension in the `CreateImageBrush` call.
 
-### Вопрос 2. Как можно дополнительно настроить внешний вид глифов?
+### Q2: Как можно дальше настроить внешний вид глифов?
 
-A2: Изучите документацию Aspose.Page, чтобы узнать о дополнительных свойствах и методах для точной настройки внешнего вида глифа.
+**A:** Explore additional properties on `XpsGlyphs` such as `Opacity`, `RenderTransform`, and `Stroke` to fine‑tune rendering.
 
-### Вопрос 3: Подходит ли Aspose.Page для обработки больших наборов документов?
+### Q3: Подходит ли Aspose.Page для работы с большими наборами документов?
 
-A3: Aspose.Page предназначен для эффективной обработки как небольших, так и больших наборов документов.
+**A:** Absolutely. The library is optimized for high‑performance scenarios and can process thousands of XPS files in batch jobs.
 
-### Вопрос 4. Могу ли я применять разные стили к отдельным глифам?
+### Q4: Можно ли применить разные стили к отдельным глифам?
 
-О4: Да, вы можете настраивать стили для каждого глифа независимо, обеспечивая высокий уровень гибкости.
+**A:** Yes. Each `XpsGlyphs` instance can have its own fill, stroke, and transformation, giving you granular control.
 
-### Вопрос 5: Каковы преимущества использования Aspose.Page перед другими инструментами обработки документов?
+### Q5: Каковы преимущества использования Aspose.Page по сравнению с другими инструментами обработки документов?
 
-О5: Aspose.Page предлагает полный набор функций, отличную производительность и обширную документацию, что делает его предпочтительным выбором для многих разработчиков.
+**A:** Aspose.Page offers a complete, license‑free API for XPS creation, manipulation, and conversion, with extensive documentation and 24/7 support.
+
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

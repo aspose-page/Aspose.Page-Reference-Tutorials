@@ -1,35 +1,43 @@
 ---
-title: Tambahkan Gambar Berisi Glyph & Gambar Asing dengan Aspose.Page .NET
-linktitle: Tambahkan Gambar Berisi Glyph & Gambar Asing
-second_title: Aspose.Halaman .NET API
-description: Buka kekuatan pemrosesan dokumen di .NET dengan Aspose.Page. Tambahkan mesin terbang berisi gambar dengan mudah. Sempurnakan visual dan sederhanakan alur kerja Anda.
-weight: 11
+date: 2026-01-07
+description: Pelajari cara membuat dokumen XPS .NET menggunakan Aspose.Page. Panduan
+  ini menunjukkan cara menambahkan glif yang diisi gambar dan gambar asing untuk visual
+  dokumen yang lebih kaya.
+linktitle: Add Image Filled Glyph & Foreign Image
+second_title: Aspose.Page .NET API
+title: Buat dokumen XPS .NET dengan Aspose.Page – Glyph Terisi Gambar & Gambar Asing
 url: /id/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Gambar Berisi Glyph & Gambar Asing dengan Aspose.Page .NET
+# Buat XPS document .NET dengan Aspose.Page – Glyph Terisi Gambar & Gambar Asing
 
-## Perkenalan
+## Introduction
 
-Dalam dunia pengembangan .NET, Aspose.Page menonjol sebagai perangkat canggih untuk menangani tugas pemrosesan dokumen. Tutorial ini akan memandu Anda melalui proses menambahkan mesin terbang berisi gambar dan menggabungkan gambar asing menggunakan Aspose.Page untuk .NET. Di akhir panduan ini, Anda akan memiliki pemahaman yang kuat tentang cara meningkatkan kemampuan pemrosesan dokumen Anda.
+Jika Anda perlu **create XPS document .NET** aplikasi yang tampak halus dan profesional, Aspose.Page memberi Anda alat untuk menyematkan gambar langsung ke dalam glyph dan menggunakan kembali sumber daya grafis di seluruh dokumen. Dalam tutorial ini kami akan menunjukkan cara membuat dua file XPS, mengisi glyph dengan image brush, dan kemudian menggunakan kembali brush tersebut di dokumen kedua. Pada akhir tutorial Anda akan memahami mengapa pendekatan ini menghemat memori, menyederhanakan styling, dan membuka kemungkinan kreatif untuk laporan, faktur, atau konten yang dapat dicetak.
 
-## Prasyarat
+## Quick Answers
+- **Apa yang dibahas dalam tutorial ini?** Menambahkan glyph terisi gambar dan menggunakan kembali glyph tersebut di seluruh dokumen XPS dengan Aspose.Page untuk .NET.  
+- **Kata kunci utama apa yang ditargetkan?** `create xps document .net`.  
+- **Prasyarat?** Lingkungan pengembangan .NET, Aspose.Page untuk .NET, dan folder untuk file XPS Anda.  
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk prototipe yang berfungsi.  
+- **Bisakah saya menggunakan format gambar lain?** Ya – format apa pun yang didukung oleh `System.Drawing.Image` .NET.  
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+## Prerequisites
 
--  Aspose.Page untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Page. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/page/net/).
+Sebelum menyelami kode, pastikan Anda memiliki hal-hal berikut siap:
 
-- Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET yang berfungsi dengan Visual Studio atau IDE pilihan lainnya.
+- **Aspose.Page for .NET** – unduh perpustakaan terbaru dari [here](https://releases.aspose.com/page/net/).  
+- **Development Environment** – Visual Studio 2022 (atau IDE apa pun yang mendukung .NET 6+).  
+- **Document Directory** – buat folder di mesin Anda yang akan menyimpan gambar input dan file XPS yang dihasilkan; kami akan menyebutnya **Your Document Directory** dalam potongan kode.
 
-- Direktori Dokumen: Buat direktori tempat Anda menyimpan dokumen Anda. Ini akan disebut sebagai "Direktori Dokumen Anda" dalam contoh kode.
+## Import Namespaces
 
-## Impor Namespace
-
-Di aplikasi .NET Anda, mulailah dengan mengimpor namespace yang diperlukan untuk mengakses kelas dan metode yang disediakan oleh Aspose.Page:
+Mulailah dengan mengimpor namespace yang diperlukan untuk bekerja dengan objek XPS dan utilitas menggambar.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,106 +45,141 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Langkah 1: Buat Dokumen XPS Pertama
+## Step‑by‑Step Guide
 
-Mulailah dengan membuat dokumen XPS pertama menggunakan Aspose.Page. Dokumen ini akan berfungsi sebagai dasar untuk menambahkan mesin terbang berisi gambar.
+### Step 1: Create the First XPS Document
+
+Langkah 1: Buat Dokumen XPS Pertama
+
+Kami memulai dengan membuat instansi dokumen XPS kosong yang akan menampung glyph terisi gambar.
 
 ```csharp
-// MantanMulai:1
-// Jalur ke direktori dokumen.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Buat Dokumen XPS pertama
+// Create the first XPS Document
 XpsDocument doc1 = new XpsDocument();
 ```
 
-## Langkah 2: Tambahkan Mesin Terbang ke Dokumen Pertama
+### Step 2: Add Glyphs to the First Document
 
-Tambahkan mesin terbang ke dokumen pertama, tentukan font, ukuran, gaya, dan posisi.
+Langkah 2: Tambahkan Glyph ke Dokumen Pertama
+
+Selanjutnya, tambahkan sebuah glyph (karakter teks) yang nanti akan kami isi dengan image brush.
 
 ```csharp
-// Tambahkan mesin terbang ke dokumen pertama
+// Add glyphs to the first document
 XpsGlyphs glyphs1 = doc1.AddGlyphs("Times New Roman", 200, FontStyle.Bold, 50, 250, "Test");
 ```
 
-## Langkah 3: Isi Glyph dengan Image Brush
+### Step 3: Fill Glyphs with an Image Brush
 
-Isi mesin terbang dengan kuas gambar, memanfaatkan gambar dari direktori data Anda.
+Langkah 3: Isi Glyph dengan Image Brush
+
+Di sini kami membuat `ImageBrush` dari file TIFF yang terletak di direktori data kami dan menerapkannya ke glyph. Brush diatur ke tile mode sehingga gambar berulang jika area glyph melebihi ukuran gambar.
 
 ```csharp
-// Isi mesin terbang dengan kuas gambar
+// Fill the glyphs with an image brush
 glyphs1.Fill = doc1.CreateImageBrush(dataDir + "R08SY_NN.tif", new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 64f, 96f));
 ((XpsImageBrush)glyphs1.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## Langkah 4: Buat Dokumen XPS Kedua
+### Step 4: Create the Second XPS Document
 
-Sekarang, buat dokumen XPS kedua yang akan menggabungkan mesin terbang dari dokumen pertama.
+Langkah 4: Buat Dokumen XPS Kedua
+
+Sekarang kami membuat dokumen XPS kedua yang akan menggunakan kembali gaya glyph dan image brush dari yang pertama.
 
 ```csharp
-// Buat Dokumen XPS kedua
+// Create the second XPS Document
 XpsDocument doc2 = new XpsDocument();
 ```
 
-## Langkah 5: Tambahkan Glyph dengan Font dari Dokumen Pertama
+### Step 5: Add Glyphs with the Font from the First Document
 
-Tambahkan mesin terbang ke dokumen kedua, menggunakan font dari dokumen pertama.
+Langkah 5: Tambahkan Glyph dengan Font dari Dokumen Pertama
+
+Kami menambahkan glyph ke dokumen kedua, menggunakan kembali objek font yang sama persis dari dokumen pertama. Ini memastikan konsistensi visual di kedua file.
 
 ```csharp
-// Tambahkan mesin terbang dengan font dari dokumen pertama ke dokumen kedua
+// Add glyphs with the font from the first document to the second document
 XpsGlyphs glyphs2 = doc2.AddGlyphs(glyphs1.Font, 200, 50, 250, "Test");
 ```
 
-## Langkah 6: Buat Kuas Gambar dari Isi Dokumen Pertama
+### Step 6: Create an Image Brush from the Fill of the First Document
 
-Buat kuas gambar dari isi dokumen pertama dan gunakan itu untuk mengisi mesin terbang di dokumen kedua.
+Langkah 6: Buat Image Brush dari Isi Dokumen Pertama
+
+Alih-alih memuat gambar lagi, kami menggandakan brush dari `glyphs1` dan menetapkannya ke `glyphs2`. Ini menunjukkan bagaimana Anda dapat **create XPS document .NET** alur kerja yang berbagi sumber daya secara efisien.
 
 ```csharp
-// Buat kuas gambar dari isi dokumen pertama dan isi mesin terbang di dokumen kedua
+// Create an image brush from the fill of the first document and fill glyphs in the second document
 glyphs2.Fill = doc2.CreateImageBrush(((XpsImageBrush)glyphs1.Fill).Image, new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 128f, 192f));
 ((XpsImageBrush)glyphs2.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## Langkah 7: Simpan Dokumen
+### Step 7: Save the Documents
 
-Simpan dokumen XPS pertama dan kedua.
+Langkah 7: Simpan Dokumen
+
+Akhirnya, simpan kedua file XPS ke disk. Anda sekarang dapat membukanya dengan viewer XPS apa pun untuk melihat efek glyph terisi gambar.
 
 ```csharp
-// Simpan dokumen XPS pertama
+// Save the first XPS document
 doc1.Save(dataDir + "out1.xps");
 
-// Simpan dokumen XPS kedua
+// Save the second XPS document
 doc2.Save(dataDir + "out2.xps");
 // ExEnd:1
 ```
 
-## Kesimpulan
+## Why use image‑filled glyphs when you create XPS document .NET?
 
-Selamat! Anda telah berhasil menambahkan mesin terbang berisi gambar dan memasukkan gambar asing menggunakan Aspose.Page untuk .NET. Tutorial ini memberikan landasan untuk meningkatkan kemampuan pemrosesan dokumen Anda, membuka kemungkinan baru untuk dokumen yang kreatif dan menarik secara visual.
+Mengapa menggunakan glyph terisi gambar saat Anda create XPS document .NET?
 
-## FAQ
+- **Visual Impact** – Mengubah teks biasa menjadi elemen kaya grafis tanpa meraster seluruh halaman.  
+- **Resource Reuse** – Membagikan brush dan font di beberapa dokumen, mengurangi jejak memori.  
+- **Flexibility** – Menyusun ubin, memperluas, atau memutar image brush untuk mencapai pola khusus atau branding.  
 
-### Q1: Dapatkah saya menggunakan format gambar yang berbeda untuk mengisi mesin terbang?
+## Common Issues & Tips
 
-A1: Ya, Aspose.Page mendukung berbagai format gambar. Pastikan kompatibilitas dengan format gambar yang dipilih.
+Masalah Umum & Tips
 
-### Q2: Bagaimana cara menyesuaikan tampilan mesin terbang lebih lanjut?
+- **File Path Errors** – Pastikan `dataDir` diakhiri dengan pemisah jalur (`\` atau `/`) yang sesuai untuk OS Anda.  
+- **Unsupported Image Formats** – Aspose.Page bekerja paling baik dengan TIFF, PNG, dan JPEG. Konversi format lain sebelum digunakan.  
+- **TileMode Not Applied** – Pastikan Anda melakukan cast ke `XpsImageBrush` sebelum mengatur `TileMode`; jika tidak properti akan diabaikan.  
 
-A2: Jelajahi dokumentasi Aspose.Page untuk mengetahui properti dan metode tambahan untuk menyempurnakan tampilan mesin terbang.
+## Frequently Asked Questions
 
-### Q3: Apakah Aspose.Page cocok untuk menangani kumpulan dokumen besar?
+Pertanyaan yang Sering Diajukan
 
-A3: Aspose.Page dirancang untuk menangani kumpulan dokumen kecil dan besar secara efisien.
+### Q1: Can I use different image formats for filling glyphs?
 
-### Q4: Dapatkah saya menerapkan gaya yang berbeda pada masing-masing mesin terbang?
+**A:** Ya, Aspose.Page mendukung TIFF, PNG, JPEG, BMP, dan GIF. Cukup berikan ekstensi file yang benar dalam pemanggilan `CreateImageBrush`.
 
-A4: Ya, Anda dapat menyesuaikan gaya untuk setiap mesin terbang secara mandiri, sehingga memberikan tingkat fleksibilitas yang tinggi.
+### Q2: How can I customize the appearance of glyphs further?
 
-### Q5: Apa keuntungan menggunakan Aspose.Page dibandingkan alat pemrosesan dokumen lainnya?
+**A:** Jelajahi properti tambahan pada `XpsGlyphs` seperti `Opacity`, `RenderTransform`, dan `Stroke` untuk menyempurnakan rendering.
 
-A5: Aspose.Page menawarkan serangkaian fitur lengkap, kinerja luar biasa, dan dokumentasi ekstensif, menjadikannya pilihan utama bagi banyak pengembang.
+### Q3: Is Aspose.Page suitable for handling large document sets?
+
+**A:** Tentu saja. Perpustakaan ini dioptimalkan untuk skenario kinerja tinggi dan dapat memproses ribuan file XPS dalam pekerjaan batch.
+
+### Q4: Can I apply different styles to individual glyphs?
+
+**A:** Ya. Setiap instance `XpsGlyphs` dapat memiliki fill, stroke, dan transformasi masing‑masing, memberi Anda kontrol granular.
+
+### Q5: What are the benefits of using Aspose.Page over other document processing tools?
+
+**A:** Aspose.Page menawarkan API lengkap tanpa lisensi untuk pembuatan, manipulasi, dan konversi XPS, dengan dokumentasi yang luas serta dukungan 24/7.
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

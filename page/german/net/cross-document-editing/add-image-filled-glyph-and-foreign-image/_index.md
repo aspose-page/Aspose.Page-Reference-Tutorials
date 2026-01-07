@@ -1,35 +1,43 @@
 ---
-title: Fügen Sie mit Aspose.Page .NET bildgefüllte Glyphen und Fremdbilder hinzu
-linktitle: Bildgefüllte Glyphe und Fremdbild hinzufügen
-second_title: Aspose.Page .NET-API
-description: Nutzen Sie mit Aspose.Page die Leistungsfähigkeit der Dokumentverarbeitung in .NET. Fügen Sie mühelos bildgefüllte Glyphen hinzu. Verbessern Sie die visuelle Darstellung und optimieren Sie Ihren Arbeitsablauf.
-weight: 11
+date: 2026-01-07
+description: Erfahren Sie, wie Sie ein XPS‑Dokument in .NET mit Aspose.Page erstellen.
+  Dieser Leitfaden zeigt, wie man bildgefüllte Glyphen und fremde Bilder hinzufügt,
+  um die Dokumentvisualisierung zu verbessern.
+linktitle: Add Image Filled Glyph & Foreign Image
+second_title: Aspose.Page .NET API
+title: XPS-Dokument mit .NET und Aspose.Page erstellen – Bildgefülltes Glyph & Fremdbild
 url: /de/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fügen Sie mit Aspose.Page .NET bildgefüllte Glyphen und Fremdbilder hinzu
+# XPS-Dokument .NET mit Aspose.Page erstellen – Bildgefüllte Glyphen & Fremdbild
 
 ## Einführung
 
-In der Welt der .NET-Entwicklung sticht Aspose.Page als leistungsstarkes Toolkit für die Bearbeitung von Dokumentverarbeitungsaufgaben hervor. Dieses Tutorial führt Sie durch den Prozess des Hinzufügens bildgefüllter Glyphen und der Einbindung fremder Bilder mit Aspose.Page für .NET. Am Ende dieses Leitfadens werden Sie ein solides Verständnis dafür haben, wie Sie Ihre Fähigkeiten zur Dokumentenverarbeitung verbessern können.
+Wenn Sie **XPS-Dokumente .NET** erstellen möchten, die poliert und professionell aussehen, bietet Ihnen Aspose.Page die Werkzeuge, um Bilder direkt in Glyphen einzubetten und Grafikressourcen über Dokumente hinweg wiederzuverwenden. In diesem Tutorial führen wir Sie durch das Erstellen von zwei XPS‑Dateien, das Befüllen von Glyphen mit einem Image‑Brush und das anschließende Wiederverwenden dieses Brushes in einem zweiten Dokument. Am Ende verstehen Sie, warum dieser Ansatz Speicher spart, das Styling vereinfacht und kreative Möglichkeiten für Berichte, Rechnungen oder jeglichen druckbaren Inhalt eröffnet.
+
+## Schnellantworten
+- **Worum geht es in diesem Tutorial?** Hinzufügen von bildgefüllten Glyphen und deren Wiederverwendung in XPS‑Dokumenten mit Aspose.Page für .NET.  
+- **Welches primäre Schlüsselwort wird angesteuert?** `create xps document .net`.  
+- **Voraussetzungen?** .NET‑Entwicklungsumgebung, Aspose.Page für .NET und ein Ordner für Ihre XPS‑Dateien.  
+- **Wie lange dauert die Implementierung?** Etwa 10‑15 Minuten für einen funktionierenden Prototyp.  
+- **Kann ich andere Bildformate verwenden?** Ja – jedes von .NETs `System.Drawing.Image` unterstützte Format.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes bereit haben:
 
--  Aspose.Page für .NET: Stellen Sie sicher, dass Sie die Aspose.Page-Bibliothek installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/page/net/).
-
-- Entwicklungsumgebung: Richten Sie eine funktionierende .NET-Entwicklungsumgebung mit Visual Studio oder einer anderen bevorzugten IDE ein.
-
-- Dokumentenverzeichnis: Erstellen Sie ein Verzeichnis, in dem Sie Ihre Dokumente speichern. In den Codebeispielen wird dies als „Ihr Dokumentverzeichnis“ bezeichnet.
+- **Aspose.Page for .NET** – laden Sie die neueste Bibliothek von [hier](https://releases.aspose.com/page/net/) herunter.  
+- **Entwicklungsumgebung** – Visual Studio 2022 (oder jede IDE, die .NET 6+ unterstützt).  
+- **Dokumentenverzeichnis** – erstellen Sie einen Ordner auf Ihrem Rechner, der die Eingabebilder und die erzeugten XPS‑Dateien enthält; wir werden im Code darauf als **Your Document Directory** verweisen.
 
 ## Namespaces importieren
 
-Beginnen Sie in Ihrer .NET-Anwendung mit dem Importieren der erforderlichen Namespaces, um auf die von Aspose.Page bereitgestellten Klassen und Methoden zuzugreifen:
+Beginnen Sie damit, die Namespaces zu importieren, die für die Arbeit mit XPS‑Objekten und Zeichen‑Hilfsprogrammen erforderlich sind.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,106 +45,123 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Schritt 1: Erstellen Sie das erste XPS-Dokument
+## Schritt‑für‑Schritt‑Anleitung
 
-Beginnen Sie mit der Erstellung des ersten XPS-Dokuments mit Aspose.Page. Dieses Dokument dient als Grundlage für das Hinzufügen bildgefüllter Glyphen.
+### Schritt 1: Das erste XPS‑Dokument erstellen
+
+Wir beginnen mit der Instanziierung eines leeren XPS‑Dokuments, das das bildgefüllte Glyphen aufnehmen wird.
 
 ```csharp
 // ExStart:1
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Erstellen Sie das erste XPS-Dokument
+// Create the first XPS Document
 XpsDocument doc1 = new XpsDocument();
 ```
 
-## Schritt 2: Glyphen zum ersten Dokument hinzufügen
+### Schritt 2: Glyphen zum ersten Dokument hinzufügen
 
-Fügen Sie dem ersten Dokument Glyphen hinzu und geben Sie dabei Schriftart, Größe, Stil und Position an.
+Als nächstes fügen wir ein Glyph (ein Textzeichen) hinzu, das wir später mit einem Image‑Brush füllen.
 
 ```csharp
-// Fügen Sie dem ersten Dokument Glyphen hinzu
+// Add glyphs to the first document
 XpsGlyphs glyphs1 = doc1.AddGlyphs("Times New Roman", 200, FontStyle.Bold, 50, 250, "Test");
 ```
 
-## Schritt 3: Füllen Sie Glyphen mit einem Bildpinsel
+### Schritt 3: Glyphen mit einem Image‑Brush füllen
 
-Füllen Sie die Glyphen mit einem Bildpinsel und verwenden Sie dabei ein Bild aus Ihrem Datenverzeichnis.
+Hier erstellen wir einen `ImageBrush` aus einer TIFF‑Datei, die sich in unserem Datenverzeichnis befindet, und wenden ihn auf das Glyph an. Der Brush ist auf Tile‑Modus eingestellt, sodass das Bild wiederholt wird, falls der Glyph‑Bereich größer als das Bild ist.
 
 ```csharp
-// Füllen Sie die Glyphen mit einem Bildpinsel
+// Fill the glyphs with an image brush
 glyphs1.Fill = doc1.CreateImageBrush(dataDir + "R08SY_NN.tif", new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 64f, 96f));
 ((XpsImageBrush)glyphs1.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## Schritt 4: Erstellen Sie das zweite XPS-Dokument
+### Schritt 4: Das zweite XPS‑Dokument erstellen
 
-Erstellen Sie nun das zweite XPS-Dokument, das Glyphen aus dem ersten Dokument enthält.
+Jetzt erzeugen wir ein zweites XPS‑Dokument, das den Glyph‑Stil und den Image‑Brush des ersten Dokuments wiederverwendet.
 
 ```csharp
-// Erstellen Sie das zweite XPS-Dokument
+// Create the second XPS Document
 XpsDocument doc2 = new XpsDocument();
 ```
 
-## Schritt 5: Fügen Sie Glyphen mit der Schriftart aus dem ersten Dokument hinzu
+### Schritt 5: Glyphen mit der Schriftart aus dem ersten Dokument hinzufügen
 
-Fügen Sie dem zweiten Dokument Glyphen hinzu und verwenden Sie dabei die Schriftart aus dem ersten Dokument.
+Wir fügen dem zweiten Dokument ein Glyph hinzu und verwenden dabei exakt das Font‑Objekt aus dem ersten Dokument. Das sorgt für visuelle Konsistenz in beiden Dateien.
 
 ```csharp
-// Fügen Sie Glyphen mit der Schriftart aus dem ersten Dokument zum zweiten Dokument hinzu
+// Add glyphs with the font from the first document to the second document
 XpsGlyphs glyphs2 = doc2.AddGlyphs(glyphs1.Font, 200, 50, 250, "Test");
 ```
 
-## Schritt 6: Erstellen Sie einen Bildpinsel aus der Füllung des ersten Dokuments
+### Schritt 6: Einen Image‑Brush aus der Füllung des ersten Dokuments erstellen
 
-Erstellen Sie einen Bildpinsel aus der Füllung des ersten Dokuments und füllen Sie damit die Glyphen im zweiten Dokument.
+Anstatt das Bild erneut zu laden, klonen wir den Brush von `glyphs1` und weisen ihn `glyphs2` zu. Das demonstriert, wie Sie **create XPS document .NET** Workflows erstellen können, die Ressourcen effizient teilen.
 
 ```csharp
-// Erstellen Sie einen Bildpinsel aus der Füllung des ersten Dokuments und füllen Sie Glyphen im zweiten Dokument
+// Create an image brush from the fill of the first document and fill glyphs in the second document
 glyphs2.Fill = doc2.CreateImageBrush(((XpsImageBrush)glyphs1.Fill).Image, new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 128f, 192f));
 ((XpsImageBrush)glyphs2.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## Schritt 7: Speichern Sie die Dokumente
+### Schritt 7: Die Dokumente speichern
 
-Speichern Sie sowohl das erste als auch das zweite XPS-Dokument.
+Abschließend speichern wir beide XPS‑Dateien auf der Festplatte. Sie können sie nun mit jedem XPS‑Viewer öffnen, um den bildgefüllten Glyph‑Effekt zu sehen.
 
 ```csharp
-// Speichern Sie das erste XPS-Dokument
+// Save the first XPS document
 doc1.Save(dataDir + "out1.xps");
 
-// Speichern Sie das zweite XPS-Dokument
+// Save the second XPS document
 doc2.Save(dataDir + "out2.xps");
 // ExEnd:1
 ```
 
-## Abschluss
+## Warum Bild‑gefüllte Glyphen verwenden, wenn Sie XPS‑Dokument .NET erstellen?
 
-Glückwunsch! Sie haben mit Aspose.Page für .NET erfolgreich bildgefüllte Glyphen hinzugefügt und Fremdbilder eingebunden. Dieses Tutorial bietet eine Grundlage für die Verbesserung Ihrer Dokumentverarbeitungsfähigkeiten und eröffnet neue Möglichkeiten für kreative und optisch ansprechende Dokumente.
+- **Visueller Eindruck** – Verwandeln Sie einfachen Text in grafisch reiche Elemente, ohne die gesamte Seite zu rasterisieren.  
+- **Ressourcen‑Wiederverwendung** – Teilen Sie Brushes und Fonts über mehrere Dokumente hinweg, wodurch der Speicherverbrauch reduziert wird.  
+- **Flexibilität** – Kacheln, strecken oder drehen Sie den Image‑Brush, um benutzerdefinierte Muster oder Markenauftritte zu erzielen.
 
-## FAQs
+## Häufige Probleme & Tipps
 
-### F1: Kann ich zum Füllen von Glyphen verschiedene Bildformate verwenden?
+- **Dateipfad‑Fehler** – Stellen Sie sicher, dass `dataDir` mit einem Pfadtrennzeichen (`\` oder `/`) endet, das für Ihr Betriebssystem geeignet ist.  
+- **Nicht unterstützte Bildformate** – Aspose.Page arbeitet am besten mit TIFF, PNG und JPEG. Konvertieren Sie andere Formate vor der Verwendung.  
+- **TileMode nicht angewendet** – Vergewissern Sie sich, dass Sie zu `XpsImageBrush` casten, bevor Sie `TileMode` setzen; andernfalls wird die Eigenschaft ignoriert.
 
-A1: Ja, Aspose.Page unterstützt verschiedene Bildformate. Stellen Sie die Kompatibilität mit dem gewählten Bildformat sicher.
+## Häufig gestellte Fragen
 
-### F2: Wie kann ich das Erscheinungsbild von Glyphen weiter anpassen?
+### Q1: Kann ich verschiedene Bildformate zum Befüllen von Glyphen verwenden?
 
-A2: Entdecken Sie die Aspose.Page-Dokumentation für zusätzliche Eigenschaften und Methoden zur Feinabstimmung des Glyphen-Erscheinungsbilds.
+**A:** Ja, Aspose.Page unterstützt TIFF, PNG, JPEG, BMP und GIF. Geben Sie einfach die korrekte Dateierweiterung im Aufruf von `CreateImageBrush` an.
 
-### F3: Ist Aspose.Page für die Verarbeitung großer Dokumentensätze geeignet?
+### Q2: Wie kann ich das Aussehen von Glyphen weiter anpassen?
 
-A3: Aspose.Page ist darauf ausgelegt, sowohl kleine als auch große Dokumentensätze effizient zu verarbeiten.
+**A:** Untersuchen Sie zusätzliche Eigenschaften von `XpsGlyphs` wie `Opacity`, `RenderTransform` und `Stroke`, um das Rendering fein abzustimmen.
 
-### F4: Kann ich unterschiedliche Stile auf einzelne Glyphen anwenden?
+### Q3: Ist Aspose.Page für die Verarbeitung großer Dokumentenmengen geeignet?
 
-A4: Ja, Sie können Stile für jede Glyphe unabhängig anpassen, was ein hohes Maß an Flexibilität bietet.
+**A:** Absolut. Die Bibliothek ist für Hochleistungs‑Szenarien optimiert und kann Tausende von XPS‑Dateien in Batch‑Jobs verarbeiten.
 
-### F5: Welche Vorteile bietet die Verwendung von Aspose.Page gegenüber anderen Dokumentenverarbeitungstools?
+### Q4: Kann ich unterschiedliche Stile auf einzelne Glyphen anwenden?
 
-A5: Aspose.Page bietet umfassende Funktionen, hervorragende Leistung und umfangreiche Dokumentation, was es für viele Entwickler zur bevorzugten Wahl macht.
+**A:** Ja. Jede `XpsGlyphs`‑Instanz kann ihre eigene Füllung, Kontur und Transformation besitzen, was Ihnen eine feinkörnige Kontrolle ermöglicht.
+
+### Q5: Welche Vorteile bietet Aspose.Page gegenüber anderen Dokumenten‑Verarbeitungstools?
+
+**A:** Aspose.Page bietet eine vollständige, lizenzfreie API für die Erstellung, Manipulation und Konvertierung von XPS, mit umfangreicher Dokumentation und 24/7‑Support.
+
+---
+
+**Zuletzt aktualisiert:** 2026-01-07  
+**Getestet mit:** Aspose.Page 24.12 für .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

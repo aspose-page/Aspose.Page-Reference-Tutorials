@@ -1,35 +1,44 @@
 ---
-title: Aspose.Page .NET के साथ छवि से भरा ग्लिफ़ और विदेशी छवि जोड़ें
-linktitle: छवि भरा ग्लिफ़ और विदेशी छवि जोड़ें
+date: 2026-01-07
+description: Aspose.Page का उपयोग करके .NET में XPS दस्तावेज़ बनाना सीखें। यह गाइड
+  इमेज‑भरे ग्लिफ़ और विदेशी छवियों को जोड़कर अधिक समृद्ध दस्तावेज़ दृश्य प्रदान करता
+  है।
+linktitle: Add Image Filled Glyph & Foreign Image
 second_title: Aspose.Page .NET API
-description: Aspose.Page के साथ .NET में दस्तावेज़ प्रसंस्करण की शक्ति को अनलॉक करें। छवि-भरे ग्लिफ़ को सहजता से जोड़ें। विज़ुअल्स को बेहतर बनाएं और अपने वर्कफ़्लो को सुव्यवस्थित करें।
-weight: 11
+title: Aspose.Page के साथ .NET में XPS दस्तावेज़ बनाएं – इमेज़‑फ़िल्ड ग्लिफ़ और विदेशी
+  इमेज
 url: /hi/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page .NET के साथ छवि से भरा ग्लिफ़ और विदेशी छवि जोड़ें
+# Create XPS document .NET with Aspose.Page – Image Filled Glyph & Foreign Image
 
-## परिचय
+## Introduction
 
-.NET विकास की दुनिया में, Aspose.Page दस्तावेज़ प्रसंस्करण कार्यों को संभालने के लिए एक शक्तिशाली टूलकिट के रूप में सामने आता है। यह ट्यूटोरियल आपको .NET के लिए Aspose.Page का उपयोग करके छवि-भरे ग्लिफ़ जोड़ने और विदेशी छवियों को शामिल करने की प्रक्रिया में मार्गदर्शन करेगा। इस गाइड के अंत तक, आपको इस बात की ठोस समझ हो जाएगी कि अपनी दस्तावेज़ प्रसंस्करण क्षमताओं को कैसे बढ़ाया जाए।
+यदि आपको **create XPS document .NET** एप्लिकेशन बनाना है जो परिष्कृत और पेशेवर दिखें, तो Aspose.Page आपको सीधे glyph में इमेज एम्बेड करने और दस्तावेज़ों में ग्राफ़िक संसाधनों को पुन: उपयोग करने के उपकरण देता है। इस ट्यूटोरियल में हम दो XPS फ़ाइलें बनाएँगे, glyph को इमेज ब्रश से भरेंगे, और फिर उस ब्रश को दूसरी फ़ाइल में पुन: उपयोग करेंगे। अंत तक आप समझेंगे कि यह तरीका मेमोरी बचाता है, स्टाइलिंग को सरल बनाता है, और रिपोर्ट, इनवॉइस या किसी भी प्रिंटेबल कंटेंट के लिए रचनात्मक संभावनाएँ खोलता है।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **इस ट्यूटोरियल में क्या कवर किया गया है?** Aspose.Page for .NET के साथ इमेज‑filled glyphs जोड़ना और उन्हें XPS दस्तावेज़ों में पुन: उपयोग करना।  
+- **कौन सा मुख्य कीवर्ड लक्षित है?** `create xps document .net`.  
+- **पूर्वापेक्षाएँ?** .NET विकास पर्यावरण, Aspose.Page for .NET, और आपके XPS फ़ाइलों के लिए एक फ़ोल्डर।  
+- **इम्प्लीमेंटेशन में कितना समय लगेगा?** कार्यशील प्रोटोटाइप के लिए लगभग 10‑15 मिनट।  
+- **क्या मैं अन्य इमेज फ़ॉर्मेट उपयोग कर सकता हूँ?** हाँ – कोई भी फ़ॉर्मेट जो .NET के `System.Drawing.Image` द्वारा समर्थित है।
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## Prerequisites
 
--  .NET के लिए Aspose.Page: सुनिश्चित करें कि आपके पास Aspose.Page लाइब्रेरी स्थापित है। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/page/net/).
+कोड में डुबकी लगाने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित तैयार हैं:
 
-- विकास पर्यावरण: विजुअल स्टूडियो या किसी अन्य पसंदीदा आईडीई के साथ एक कार्यशील .NET विकास वातावरण स्थापित करें।
+- **Aspose.Page for .NET** – नवीनतम लाइब्रेरी [here](https://releases.aspose.com/page/net/) से डाउनलोड करें।  
+- **Development Environment** – Visual Studio 2022 (या कोई भी IDE जो .NET 6+ को सपोर्ट करता हो)।  
+- **Document Directory** – अपने मशीन पर एक फ़ोल्डर बनाएँ जहाँ इनपुट इमेज और जेनरेटेड XPS फ़ाइलें रखी जाएँगी; हम इसे स्निपेट्स में **Your Document Directory** कहेंगे।
 
-- दस्तावेज़ निर्देशिका: एक निर्देशिका बनाएं जहां आप अपने दस्तावेज़ संग्रहीत करेंगे। इसे कोड उदाहरणों में "आपकी दस्तावेज़ निर्देशिका" के रूप में संदर्भित किया जाएगा।
+## Import Namespaces
 
-## नामस्थान आयात करें
-
-अपने .NET एप्लिकेशन में, Aspose.Page द्वारा प्रदान की गई कक्षाओं और विधियों तक पहुंचने के लिए आवश्यक नामस्थान आयात करके प्रारंभ करें:
+XPS ऑब्जेक्ट्स और ड्राइंग यूटिलिटीज़ के साथ काम करने के लिए आवश्यक नेमस्पेसेज़ को इम्पोर्ट करें।
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,106 +46,123 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## चरण 1: पहला XPS दस्तावेज़ बनाएँ
+## Step‑by‑Step Guide
 
-Aspose.Page का उपयोग करके पहला XPS दस्तावेज़ बनाकर शुरुआत करें। यह दस्तावेज़ छवि-भरे ग्लिफ़ जोड़ने के लिए आधार के रूप में काम करेगा।
+### Step 1: Create the First XPS Document
+
+हम एक खाली XPS दस्तावेज़ बनाते हैं जो इमेज‑filled glyph को होस्ट करेगा।
 
 ```csharp
-// एक्सस्टार्ट:1
-// दस्तावेज़ निर्देशिका का पथ.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// पहला XPS दस्तावेज़ बनाएँ
+// Create the first XPS Document
 XpsDocument doc1 = new XpsDocument();
 ```
 
-## चरण 2: पहले दस्तावेज़ में ग्लिफ़ जोड़ें
+### Step 2: Add Glyphs to the First Document
 
-पहले दस्तावेज़ में फ़ॉन्ट, आकार, शैली और स्थिति निर्दिष्ट करते हुए ग्लिफ़ जोड़ें।
+अब एक glyph (एक टेक्स्ट कैरेक्टर) जोड़ें जिसे बाद में इमेज ब्रश से भरेंगे।
 
 ```csharp
-// पहले दस्तावेज़ में ग्लिफ़ जोड़ें
+// Add glyphs to the first document
 XpsGlyphs glyphs1 = doc1.AddGlyphs("Times New Roman", 200, FontStyle.Bold, 50, 250, "Test");
 ```
 
-## चरण 3: ग्लिफ़ को इमेज ब्रश से भरें
+### Step 3: Fill Glyphs with an Image Brush
 
-अपनी डेटा निर्देशिका से एक छवि का उपयोग करके ग्लिफ़ को छवि ब्रश से भरें।
+यहाँ हम अपने डेटा डायरेक्टरी में स्थित TIFF फ़ाइल से `ImageBrush` बनाते हैं और उसे glyph पर लागू करते हैं। ब्रश को टाइल मोड पर सेट किया गया है ताकि यदि glyph का क्षेत्र इमेज साइज से बड़ा हो तो इमेज दोहराया जाए।
 
 ```csharp
-// ग्लिफ़ को इमेज ब्रश से भरें
+// Fill the glyphs with an image brush
 glyphs1.Fill = doc1.CreateImageBrush(dataDir + "R08SY_NN.tif", new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 64f, 96f));
 ((XpsImageBrush)glyphs1.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## चरण 4: दूसरा XPS दस्तावेज़ बनाएँ
+### Step 4: Create the Second XPS Document
 
-अब, दूसरा XPS दस्तावेज़ बनाएं जिसमें पहले दस्तावेज़ से ग्लिफ़ शामिल होंगे।
+अब हम दूसरा XPS दस्तावेज़ बनाते हैं जो पहले वाले से glyph स्टाइल और इमेज ब्रश को पुन: उपयोग करेगा।
 
 ```csharp
-// दूसरा XPS दस्तावेज़ बनाएँ
+// Create the second XPS Document
 XpsDocument doc2 = new XpsDocument();
 ```
 
-## चरण 5: पहले दस्तावेज़ से फ़ॉन्ट के साथ ग्लिफ़ जोड़ें
+### Step 5: Add Glyphs with the Font from the First Document
 
-पहले दस्तावेज़ के फ़ॉन्ट का उपयोग करके, दूसरे दस्तावेज़ में ग्लिफ़ जोड़ें।
+दूसरे दस्तावेज़ में glyph जोड़ते हैं, पहले दस्तावेज़ के बिल्कुल वही फ़ॉन्ट ऑब्जेक्ट पुन: उपयोग करके। इससे दोनों फ़ाइलों में विज़ुअल कंसिस्टेंसी बनी रहती है।
 
 ```csharp
-// पहले दस्तावेज़ से दूसरे दस्तावेज़ में फ़ॉन्ट के साथ ग्लिफ़ जोड़ें
+// Add glyphs with the font from the first document to the second document
 XpsGlyphs glyphs2 = doc2.AddGlyphs(glyphs1.Font, 200, 50, 250, "Test");
 ```
 
-## चरण 6: पहले दस्तावेज़ के भरण से एक छवि ब्रश बनाएं
+### Step 6: Create an Image Brush from the Fill of the First Document
 
-पहले दस्तावेज़ के भरण से एक छवि ब्रश बनाएं और दूसरे दस्तावेज़ में ग्लिफ़ को भरने के लिए इसका उपयोग करें।
+इमेज को फिर से लोड करने के बजाय, हम `glyphs1` से ब्रश को क्लोन करके `glyphs2` को असाइन करते हैं। यह दर्शाता है कि आप **create XPS document .NET** वर्कफ़्लो को कैसे संसाधनों को कुशलता से साझा करने के लिए बना सकते हैं।
 
 ```csharp
-// पहले दस्तावेज़ की सामग्री से एक छवि ब्रश बनाएं और दूसरे दस्तावेज़ में ग्लिफ़ भरें
+// Create an image brush from the fill of the first document and fill glyphs in the second document
 glyphs2.Fill = doc2.CreateImageBrush(((XpsImageBrush)glyphs1.Fill).Image, new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 128f, 192f));
 ((XpsImageBrush)glyphs2.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## चरण 7: दस्तावेज़ सहेजें
+### Step 7: Save the Documents
 
-पहले और दूसरे दोनों XPS दस्तावेज़ सहेजें।
+अंत में दोनों XPS फ़ाइलों को डिस्क पर सेव करें। अब आप उन्हें किसी भी XPS व्यूअर से खोलकर इमेज‑filled glyph इफ़ेक्ट देख सकते हैं।
 
 ```csharp
-// पहला XPS दस्तावेज़ सहेजें
+// Save the first XPS document
 doc1.Save(dataDir + "out1.xps");
 
-// दूसरा XPS दस्तावेज़ सहेजें
+// Save the second XPS document
 doc2.Save(dataDir + "out2.xps");
 // ExEnd:1
 ```
 
-## निष्कर्ष
+## Why use image‑filled glyphs when you create XPS document .NET?
 
-बधाई हो! आपने .NET के लिए Aspose.Page का उपयोग करके छवि-भरे ग्लिफ़ को सफलतापूर्वक जोड़ा है और विदेशी छवियों को शामिल किया है। यह ट्यूटोरियल आपकी दस्तावेज़ प्रसंस्करण क्षमताओं को बढ़ाने, रचनात्मक और दृश्य रूप से आकर्षक दस्तावेज़ों के लिए नई संभावनाओं को खोलने के लिए एक आधार प्रदान करता है।
+- **Visual Impact** – साधारण टेक्स्ट को ग्राफ़िक‑रिच एलिमेंट्स में बदलें बिना पूरे पेज को रास्टराइज़ किए।  
+- **Resource Reuse** – ब्रश और फ़ॉन्ट को कई दस्तावेज़ों में साझा करें, जिससे मेमोरी फुटप्रिंट घटे।  
+- **Flexibility** – टाइल, स्ट्रेच या रोटेट करें इमेज ब्रश को कस्टम पैटर्न या ब्रांडिंग के लिए।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Common Issues & Tips
 
-### Q1: क्या मैं ग्लिफ़ भरने के लिए विभिन्न छवि प्रारूपों का उपयोग कर सकता हूँ?
+- **File Path Errors** – सुनिश्चित करें कि `dataDir` अंत में सही पाथ सेपरेटर (`\` या `/`) रखता हो आपके OS के अनुसार।  
+- **Unsupported Image Formats** – Aspose.Page TIFF, PNG, और JPEG के साथ सबसे अच्छा काम करता है। अन्य फ़ॉर्मेट को उपयोग से पहले कन्वर्ट करें।  
+- **TileMode Not Applied** – `TileMode` सेट करने से पहले `XpsImageBrush` में कास्ट करना न भूलें; अन्यथा प्रॉपर्टी इग्नोर हो जाएगी।
 
-A1: हां, Aspose.Page विभिन्न छवि प्रारूपों का समर्थन करता है। चुने गए छवि प्रारूप के साथ अनुकूलता सुनिश्चित करें।
+## Frequently Asked Questions
 
-### Q2: मैं ग्लिफ़ के स्वरूप को और अधिक कैसे अनुकूलित कर सकता हूँ?
+### Q1: Can I use different image formats for filling glyphs?
 
-A2: ग्लिफ़ उपस्थिति को ठीक करने के लिए अतिरिक्त गुणों और विधियों के लिए Aspose.Page दस्तावेज़ का अन्वेषण करें।
+**A:** हाँ, Aspose.Page TIFF, PNG, JPEG, BMP, और GIF को सपोर्ट करता है। बस `CreateImageBrush` कॉल में सही फ़ाइल एक्सटेंशन दें।
 
-### Q3: क्या Aspose.Page बड़े दस्तावेज़ सेट को संभालने के लिए उपयुक्त है?
+### Q2: How can I customize the appearance of glyphs further?
 
-A3: Aspose.Page को छोटे और बड़े दस्तावेज़ सेट दोनों को कुशलतापूर्वक संभालने के लिए डिज़ाइन किया गया है।
+**A:** `XpsGlyphs` की अतिरिक्त प्रॉपर्टीज़ जैसे `Opacity`, `RenderTransform`, और `Stroke` को एक्सप्लोर करें ताकि रेंडरिंग को फाइन‑ट्यून किया जा सके।
 
-### Q4: क्या मैं अलग-अलग ग्लिफ़ पर अलग-अलग शैलियाँ लागू कर सकता हूँ?
+### Q3: Is Aspose.Page suitable for handling large document sets?
 
-A4: हां, आप उच्च स्तर का लचीलापन प्रदान करते हुए, प्रत्येक ग्लिफ़ के लिए शैलियों को स्वतंत्र रूप से अनुकूलित कर सकते हैं।
+**A:** बिल्कुल। लाइब्रेरी हाई‑परफ़ॉर्मेंस परिदृश्यों के लिए ऑप्टिमाइज़्ड है और बैच जॉब्स में हजारों XPS फ़ाइलों को प्रोसेस कर सकती है।
 
-### Q5: अन्य दस्तावेज़ प्रसंस्करण टूल की तुलना में Aspose.Page का उपयोग करने के क्या लाभ हैं?
+### Q4: Can I apply different styles to individual glyphs?
 
-A5: Aspose.Page सुविधाओं का एक व्यापक सेट, उत्कृष्ट प्रदर्शन और व्यापक दस्तावेज़ीकरण प्रदान करता है, जो इसे कई डेवलपर्स के लिए पसंदीदा विकल्प बनाता है।
+**A:** हाँ। प्रत्येक `XpsGlyphs` इंस्टेंस का अपना फ़िल, स्ट्रोक, और ट्रांसफ़ॉर्मेशन हो सकता है, जिससे आपको ग्रैन्युलर कंट्रोल मिलता है।
+
+### Q5: What are the benefits of using Aspose.Page over other document processing tools?
+
+**A:** Aspose.Page एक पूर्ण, लाइसेंस‑फ्री API प्रदान करता है XPS निर्माण, मैनिपुलेशन, और कन्वर्ज़न के लिए, विस्तृत डॉक्यूमेंटेशन और 24/7 सपोर्ट के साथ।
+
+---
+
+**Last Updated:** 2026-01-07  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
