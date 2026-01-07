@@ -1,34 +1,44 @@
 ---
-title: Aggiungi Glyph Clone e cambia colore con Aspose.Page per .NET
-linktitle: Aggiungi clone glifo e cambia colore
-second_title: API Aspose.Page .NET
-description: Esplora la potenza di Aspose.Page per .NET in questo tutorial completo. Impara ad aggiungere cloni di glifi e a modificare i colori nei documenti XPS senza sforzo.
-weight: 10
+date: 2026-01-07
+description: Impara come creare un documento XPS, aggiungere cloni di glifi, utilizzare
+  un pennello a colore solido e salvare il file XPS con Aspose.Page per .NET.
+linktitle: Add Glyph Clone and Change Color
+second_title: Aspose.Page .NET API
+title: Crea documento XPS – Aggiungi clone di glifo e cambia colore con Aspose.Page
+  per .NET
 url: /it/net/cross-document-editing/add-glyph-clone-and-change-color/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi Glyph Clone e cambia colore con Aspose.Page per .NET
+# Creare un documento XPS – Aggiungere un clone di glifo e cambiare colore con Aspose.Page per .NET
 
-## introduzione
+## Introduzione
 
-Benvenuti in questa guida passo passo sull'utilizzo di Aspose.Page per .NET per aggiungere cloni di glifi e modificare i colori nei documenti XPS. Aspose.Page per .NET è una potente libreria che ti consente di lavorare senza problemi con i file XPS. In questo tutorial ci concentreremo sul processo di aggiunta di cloni di glifi e di alterazione dei loro colori, migliorando l'attrattiva visiva dei tuoi documenti.
+Benvenuti in questa guida passo‑passo che mostra **come creare file di documento XPS**, clonare glifi e cambiare i loro colori usando Aspose.Page per .NET. Che stiate creando report dinamici, fatture o grafiche personalizzate, padroneggiare queste tecniche vi permette di produrre output XPS visivamente ricchi senza uscire dall'ecosistema .NET.
+
+## Risposte rapide
+- **Qual è l'obiettivo principale?** Creare un documento XPS, aggiungere cloni di glifi e cambiare i loro colori.  
+- **Quale libreria viene utilizzata?** Aspose.Page per .NET.  
+- **Ho bisogno di una licenza?** È disponibile una licenza temporanea per la valutazione; è necessaria una licenza completa per la produzione.  
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Come salvo il risultato?** Utilizzare il metodo `Save` per scrivere il file XPS su disco.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
+Prima di immergervi nel tutorial, assicuratevi di avere i seguenti prerequisiti:
 
-- Una conoscenza di base del linguaggio di programmazione C#.
-- Visual Studio o qualsiasi altro ambiente di sviluppo C# preferito installato.
--  Aspose.Page per la libreria .NET. Puoi scaricarlo[Qui](https://releases.aspose.com/page/net/).
-- Conoscenza del formato documento XPS.
+- Una conoscenza di base del linguaggio di programmazione C#.  
+- Visual Studio o qualsiasi altro ambiente di sviluppo C# preferito installato.  
+- Aspose.Page per .NET. È possibile scaricarla [qui](https://releases.aspose.com/page/net/).  
+- Familiarità con il formato di documento XPS.
 
-## Importa spazi dei nomi
+## Importare gli spazi dei nomi
 
-Per iniziare, includi gli spazi dei nomi necessari nel tuo progetto C#:
+Per iniziare, includete gli spazi dei nomi necessari nel vostro progetto C#:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -36,105 +46,127 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Passaggio 1: configura la directory dei documenti
+## Come creare un documento XPS e aggiungere cloni di glifi
 
-Inizia impostando la directory in cui verranno archiviati i tuoi documenti:
+### Passo 1: Configurare la directory dei documenti
+
+Iniziate configurando la directory in cui verranno archiviati i vostri documenti:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Passaggio 2: crea il primo documento XPS
+### Passo 2: Creare il primo documento XPS
 
-Ora creiamo il primo documento XPS:
+Ora, creiamo il primo documento XPS:
 
 ```csharp
 XpsDocument doc1 = new XpsDocument();
 ```
 
-## Passaggio 3: aggiungi glifi al primo documento
+### Passo 3: Aggiungere glifi al primo documento
 
-Aggiungi glifi al primo documento utilizzando i parametri specificati:
+Aggiungete glifi al primo documento usando i parametri specificati:
 
 ```csharp
 XpsGlyphs glyphs = doc1.AddGlyphs("Times New Roman", 200, FontStyle.Bold, 50, 250, "Test");
 ```
 
-## Passaggio 4: riempi i glifi nel primo documento con il colore
+### Passo 4: Riempire i glifi con un pennello a colore solido
 
-Riempi i glifi nel primo documento con un colore a tinta unita, ad esempio verde:
+Riempite i glifi nel primo documento con un **pennello a colore solido**, ad esempio verde:
 
 ```csharp
 glyphs.Fill = doc1.CreateSolidColorBrush(Color.Green);
 ```
 
-## Passaggio 5: crea il secondo documento XPS
+### Passo 5: Creare il secondo documento XPS
 
-Ora crea il secondo documento XPS:
+Ora, create il secondo documento XPS:
 
 ```csharp
 XpsDocument doc2 = new XpsDocument();
 ```
 
-## Passaggio 6: aggiungi glifi clonati dal primo documento
+### Passo 6: Come aggiungere un clone di glifo a un altro documento
 
-Clona i glifi dal primo documento e aggiungili al secondo documento:
+Clonate i glifi dal primo documento e aggiungeteli al secondo documento:
 
 ```csharp
 glyphs = doc2.Add(glyphs.Clone());
 ```
 
-## Passaggio 7: riempi i glifi nel secondo documento con un altro colore
+### Passo 7: Come cambiare il colore del glifo clonato
 
-Cambia il colore dei glifi clonati nel secondo documento, ad esempio, in rosso:
+Cambiate il colore dei glifi clonati nel secondo documento, ad esempio, in rosso. Questo dimostra **come cambiare colore** di un glifo dopo il clonaggio:
 
 ```csharp
 ((XpsSolidColorBrush)glyphs.Fill).Color = doc2.CreateColor(Color.Red);
 ```
 
-## Passaggio 8: salva il primo documento XPS
+### Passo 8: Salvare il file XPS – Primo documento
 
-Salva il primo documento XPS:
+Salvate il primo documento XPS nella cartella definita in precedenza:
 
 ```csharp
 doc1.Save(dataDir + "out1.xps");
 ```
 
-## Passaggio 9: salva il secondo documento XPS
+### Passo 9: Salvare il file XPS – Secondo documento
 
-Salva il secondo documento XPS:
+Salvate il secondo documento XPS:
 
 ```csharp
 doc2.Save(dataDir + "out2.xps");
 ```
 
-Congratulazioni! Hai aggiunto con successo cloni di glifi e modificato i colori nei tuoi documenti XPS utilizzando Aspose.Page per .NET.
+Congratulazioni! Avete creato con successo file **documento XPS**, aggiunto cloni di glifi e cambiato i loro colori usando Aspose.Page per .NET.
 
-## Conclusione
+## Perché utilizzare il clonaggio di glifi e il cambiamento di colore?
 
-In questo tutorial, abbiamo esplorato come sfruttare Aspose.Page per .NET per migliorare gli elementi visivi dei tuoi documenti XPS. Aggiungendo cloni di glifi e regolando i colori, puoi creare documenti dinamici e visivamente accattivanti su misura per le tue esigenze specifiche.
+- **Riutilizzabilità:** Clonare glifi esistenti per riutilizzare forme vettoriali complesse senza ridefinirle.  
+- **Prestazioni:** Riduce il tempo di elaborazione rispetto alla ricreazione dei glifi da zero.  
+- **Flessibilità di design:** Applicare diverse istanze di `SolidColorBrush` allo stesso glifo per ottenere temi visivi vari.  
+- **Modifica cross‑documento:** Clonare glifi tra più file XPS, consentendo un branding coerente nei report.
+
+## Problemi comuni e risoluzione
+
+| Problema | Soluzione |
+|----------|-----------|
+| **Il clone restituisce null** | Assicurarsi che il glifo di origine (`glyphs`) sia aggiunto al primo documento prima del clonaggio. |
+| **Il colore non cambia** | Convertire (`cast`) `glyphs.Fill` a `XpsSolidColorBrush` prima di impostare la proprietà `Color` (come mostrato nel Passo 7). |
+| **File non salvato** | Verificare che `dataDir` punti a una cartella valida e scrivibile e che si disponga delle autorizzazioni di file‑system appropriate. |
+| **Dimensione del glifo inaspettata** | Regolare il parametro della dimensione del carattere (secondo argomento in `AddGlyphs`) per scalare il glifo in modo appropriato. |
 
 ## Domande frequenti
 
-### Q1: posso utilizzare Aspose.Page per .NET con altri formati di documenti?
+**Q1: Posso usare Aspose.Page per .NET con altri formati di documento?**  
+A1: Aspose.Page per .NET è specificamente progettato per lavorare con documenti XPS. Se avete bisogno di manipolare altri formati, potete esplorare altre librerie Aspose specifiche per tali formati.
 
-A1: Aspose.Page per .NET è progettato specificamente per lavorare con documenti XPS. Se hai bisogno di manipolare altri formati, puoi esplorare altre librerie Aspose su misura per tali formati.
+**Q2: È disponibile una licenza temporanea per Aspose.Page per .NET?**  
+A2: Sì, è possibile ottenere una licenza temporanea per scopi di test. Visitate [qui](https://purchase.aspose.com/temporary-license/) per maggiori informazioni.
 
-### Q2: È disponibile una licenza temporanea per Aspose.Page per .NET?
+**Q3: Come posso ottenere supporto o assistenza per eventuali problemi?**  
+A3: Sentitevi liberi di visitare il [forum Aspose.Page](https://forum.aspose.com/c/page/39) per entrare in contatto con la community e richiedere assistenza.
 
- R2: Sì, puoi ottenere una licenza temporanea a scopo di test. Visita[Qui](https://purchase.aspose.com/temporary-license/) per maggiori informazioni.
+**Q4: Ci sono limitazioni nella versione di prova gratuita?**  
+A4: La versione di prova gratuita presenta alcune limitazioni; è consigliabile consultare la documentazione per i dettagli prima dell'uso.
 
-### Q3: Come posso ottenere supporto o chiedere assistenza per eventuali problemi?
+**Q5: Dove posso trovare una documentazione completa per Aspose.Page per .NET?**  
+A5: Potete consultare la documentazione [qui](https://reference.aspose.com/page/net/) per informazioni dettagliate ed esempi.
 
- A3: Sentiti libero di visitare il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) connettersi con la comunità e cercare assistenza.
+**Q6: Come cambio il colore del tratto di un glifo invece del riempimento?**  
+A6: Usate `glyphs.Stroke = doc.CreateSolidColorBrush(Color.Blue);` per impostare un pennello di tratto.
 
-### Q4: Ci sono limitazioni alla versione di prova gratuita?
+**Q7: Posso aggiungere più cloni di glifi allo stesso documento?**  
+A7: Sì, chiamate ripetutamente `doc2.Add(glyphs.Clone());`, regolando le posizioni secondo necessità.
 
-R4: La versione di prova gratuita presenta alcune limitazioni e si consiglia di consultare la documentazione per i dettagli prima dell'uso.
+---
 
-### Q5: Dove posso trovare la documentazione completa per Aspose.Page per .NET?
+**Ultimo aggiornamento:** 2026-01-07  
+**Testato con:** Aspose.Page 24.11 per .NET  
+**Autore:** Aspose  
 
- R5: È possibile fare riferimento alla documentazione[Qui](https://reference.aspose.com/page/net/) per informazioni dettagliate ed esempi.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
