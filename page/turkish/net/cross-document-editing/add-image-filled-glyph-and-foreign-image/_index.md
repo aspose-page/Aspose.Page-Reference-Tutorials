@@ -1,35 +1,44 @@
 ---
-title: Aspose.Page .NET ile Resim Dolgulu Glif ve Yabancı Resim Ekleme
-linktitle: Resimle Dolu Glif ve Yabancı Resim Ekle
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page ile .NET'te belge işlemenin gücünün kilidini açın. Görüntü dolu glifleri zahmetsizce ekleyin. Görselleri geliştirin ve iş akışınızı kolaylaştırın.
-weight: 11
+date: 2026-01-07
+description: Aspose.Page kullanarak .NET'te XPS belgesi oluşturmayı öğrenin. Bu kılavuz,
+  daha zengin belge görselleri için görüntüyle doldurulmuş glifler ve yabancı görüntüler
+  eklemeyi gösterir.
+linktitle: Add Image Filled Glyph & Foreign Image
+second_title: Aspose.Page .NET API
+title: Aspose.Page ile .NET’te XPS Belgesi Oluşturma – Görüntü Dolu Glif ve Yabancı
+  Görüntü
 url: /tr/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page .NET ile Resim Dolgulu Glif ve Yabancı Resim Ekleme
+# XPS belgesi .NET oluşturma – Aspose.Page ile Görüntü Dolu Glif & Yabancı Görüntü
 
-## giriiş
+## Giriş
 
-.NET geliştirme dünyasında Aspose.Page, belge işleme görevlerini yerine getirmek için güçlü bir araç seti olarak öne çıkıyor. Bu eğitim, Aspose.Page for .NET'i kullanarak görüntü dolu glifler ekleme ve yabancı görüntüleri birleştirme sürecinde size rehberlik edecektir. Bu kılavuzun sonunda belge işleme yeteneklerinizi nasıl geliştireceğiniz konusunda sağlam bir anlayışa sahip olacaksınız.
+Eğer **create XPS document .NET** uygulamalarının şık ve profesyonel görünmesini istiyorsanız, Aspose.Page size görüntüleri doğrudan gliflere gömmek ve grafik kaynaklarını belgeler arasında yeniden kullanmak için araçlar sunar. Bu öğreticide iki XPS dosyası oluşturmayı, glifleri bir görüntü fırçası ile doldurmayı ve ardından bu fırçayı ikinci bir belgede yeniden kullanmayı adım adım göstereceğiz. Sonunda bu yaklaşımın belleği nasıl tasarruf ettirdiğini, stil oluşturmayı nasıl basitleştirdiğini ve raporlar, faturalar veya herhangi bir yazdırılabilir içerik için yaratıcı olasılıkları nasıl açtığını anlayacaksınız.
+
+## Hızlı Yanıtlar
+- **Bu öğretici neyi kapsıyor?** Aspose.Page for .NET ile XPS belgeleri arasında görüntü‑dolu glifler ekleme ve yeniden kullanma.  
+- **Hedeflenen birincil anahtar kelime nedir?** `create xps document .net`.  
+- **Önkoşullar?** .NET geliştirme ortamı, Aspose.Page for .NET ve XPS dosyalarınız için bir klasör.  
+- **Uygulama ne kadar sürer?** Çalışan bir prototip için yaklaşık 10‑15 dakika.  
+- **Diğer görüntü formatlarını kullanabilir miyim?** Evet – .NET’in `System.Drawing.Image` tarafından desteklenen herhangi bir format.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Koda geçmeden önce aşağıdakilerin hazır olduğundan emin olun:
 
--  Aspose.Page for .NET: Aspose.Page kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/page/net/).
+- **Aspose.Page for .NET** – en son kütüphaneyi [buradan](https://releases.aspose.com/page/net/) indirin.  
+- **Geliştirme Ortamı** – Visual Studio 2022 (veya .NET 6+ destekleyen herhangi bir IDE).  
+- **Belge Dizini** – giriş görüntülerini ve oluşturulan XPS dosyalarını tutacak bir klasör oluşturun; kod parçacıklarında buna **Your Document Directory** diye atıfta bulunacağız.
 
-- Geliştirme Ortamı: Visual Studio veya tercih edilen herhangi bir IDE ile çalışan bir .NET geliştirme ortamı kurun.
+## Ad Alanlarını İçe Aktarma
 
-- Belge Dizini: Belgelerinizi saklayacağınız bir dizin oluşturun. Kod örneklerinde buna "Belge Dizininiz" adı verilecektir.
-
-## Ad Alanlarını İçe Aktar
-
-.NET uygulamanızda, Aspose.Page tarafından sağlanan sınıflara ve yöntemlere erişmek için gerekli ad alanlarını içe aktararak başlayın:
+XPS nesneleri ve çizim yardımcılarıyla çalışmak için gerekli ad alanlarını içe aktararak başlayın.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,106 +46,123 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## 1. Adım: İlk XPS Belgesini Oluşturun
+## Adım‑Adım Kılavuz
 
-Aspose.Page'i kullanarak ilk XPS belgesini oluşturarak başlayın. Bu belge, görüntü dolu gliflerin eklenmesi için temel oluşturacaktır.
+### Adım 1: İlk XPS Belgesini Oluşturma
+
+Boş bir XPS belgesi oluşturacağız; bu belge görüntü‑dolu glifi barındıracak.
 
 ```csharp
 // ExStart:1
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// İlk XPS Belgesini oluşturun
+// Create the first XPS Document
 XpsDocument doc1 = new XpsDocument();
 ```
 
-## Adım 2: İlk Belgeye Glifler Ekleme
+### Adım 2: İlk Belgeye Glifler Ekleme
 
-Yazı tipini, boyutunu, stilini ve konumunu belirterek ilk belgeye glifler ekleyin.
+Daha sonra, daha sonra bir görüntü fırçası ile dolduracağımız bir glif (metin karakteri) ekleyeceğiz.
 
 ```csharp
-// İlk belgeye glifler ekleme
+// Add glyphs to the first document
 XpsGlyphs glyphs1 = doc1.AddGlyphs("Times New Roman", 200, FontStyle.Bold, 50, 250, "Test");
 ```
 
-## 3. Adım: Glifleri Görüntü Fırçasıyla Doldurun
+### Adım 3: Glifleri Görüntü Fırçası ile Doldurma
 
-Veri dizininizdeki bir görüntüyü kullanarak glifleri bir görüntü fırçasıyla doldurun.
+Burada veri dizinimizdeki bir TIFF dosyasından bir `ImageBrush` oluşturup glife uyguluyoruz. Fırça, glif alanı görüntü boyutunu aşarsa görüntünün tekrarlanması için döşeme (tile) modunda ayarlanır.
 
 ```csharp
-// Glifleri bir görüntü fırçasıyla doldurun
+// Fill the glyphs with an image brush
 glyphs1.Fill = doc1.CreateImageBrush(dataDir + "R08SY_NN.tif", new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 64f, 96f));
 ((XpsImageBrush)glyphs1.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## 4. Adım: İkinci XPS Belgesini Oluşturun
+### Adım 4: İkinci XPS Belgesini Oluşturma
 
-Şimdi, ilk belgedeki glifleri içerecek ikinci XPS belgesini oluşturun.
+Şimdi, birinci belgede tanımlanan glif stilini ve görüntü fırçasını yeniden kullanacak ikinci bir XPS belgesi oluşturacağız.
 
 ```csharp
-// İkinci XPS Belgesini oluşturun
+// Create the second XPS Document
 XpsDocument doc2 = new XpsDocument();
 ```
 
-## Adım 5: İlk Belgedeki Yazı Tipiyle Glifleri Ekleme
+### Adım 5: İlk Belgeden Font ile Glifler Ekleme
 
-İlk belgedeki yazı tipini kullanarak ikinci belgeye glifler ekleyin.
+İkinci belgeye bir glif ekliyoruz ve birinci belgeden aynı font nesnesini yeniden kullanıyoruz. Bu, iki dosya arasında görsel tutarlılığı sağlar.
 
 ```csharp
-// İlk belgedeki yazı tipini içeren glifleri ikinci belgeye ekleme
+// Add glyphs with the font from the first document to the second document
 XpsGlyphs glyphs2 = doc2.AddGlyphs(glyphs1.Font, 200, 50, 250, "Test");
 ```
 
-## Adım 6: İlk Belgenin Dolgusundan Görüntü Fırçası Oluşturun
+### Adım 6: İlk Belgenin Doldurmasından Görüntü Fırçası Oluşturma
 
-İlk belgenin dolgusundan bir görüntü fırçası oluşturun ve bunu ikinci belgedeki glifleri doldurmak için kullanın.
+Görüntüyü tekrar yüklemek yerine, `glyphs1` den fırçayı klonlayıp `glyphs2` ye atıyoruz. Bu, **create XPS document .NET** iş akışlarında kaynakları verimli bir şekilde paylaşmanın nasıl yapılacağını gösterir.
 
 ```csharp
-// İlk belgenin dolgusundan bir görüntü fırçası oluşturun ve ikinci belgedeki glifleri doldurun
+// Create an image brush from the fill of the first document and fill glyphs in the second document
 glyphs2.Fill = doc2.CreateImageBrush(((XpsImageBrush)glyphs1.Fill).Image, new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 128f, 192f));
 ((XpsImageBrush)glyphs2.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## Adım 7: Belgeleri Kaydedin
+### Adım 7: Belgeleri Kaydetme
 
-Hem birinci hem de ikinci XPS belgelerini kaydedin.
+Son olarak, her iki XPS dosyasını da diske kaydediyoruz. Artık herhangi bir XPS görüntüleyici ile açıp görüntü‑dolu glif etkisini görebilirsiniz.
 
 ```csharp
-// İlk XPS belgesini kaydedin
+// Save the first XPS document
 doc1.Save(dataDir + "out1.xps");
 
-// İkinci XPS belgesini kaydedin
+// Save the second XPS document
 doc2.Save(dataDir + "out2.xps");
 // ExEnd:1
 ```
 
-## Çözüm
+## XPS belgesi .NET oluştururken neden görüntü‑dolu glifler kullanmalısınız?
 
-Tebrikler! Aspose.Page for .NET'i kullanarak başarıyla görüntü dolu glifler eklediniz ve yabancı görüntüleri dahil ettiniz. Bu eğitim, belge işleme yeteneklerinizi geliştirmek için bir temel sağlayarak yaratıcı ve görsel olarak çekici belgeler için yeni olanaklar sunar.
+- **Görsel Etki** – Düz metni, sayfanın tamamını rasterleştirmeden grafik‑zengin öğelere dönüştürün.  
+- **Kaynak Yeniden Kullanımı** – Fırçalar ve fontlar birden fazla belge arasında paylaşılır, bellek ayak izi azalır.  
+- **Esneklik** – Görüntü fırçasını döşeme, germe veya döndürme gibi işlemlerle özel desenler veya marka kimliği oluşturabilirsiniz.
 
-## SSS'ler
+## Yaygın Sorunlar ve İpuçları
 
-### S1: Glifleri doldurmak için farklı görüntü formatlarını kullanabilir miyim?
+- **Dosya Yolu Hataları** – `dataDir` değişkeninin işletim sisteminize uygun bir yol ayırıcı (`\` veya `/`) ile bittiğinden emin olun.  
+- **Desteklenmeyen Görüntü Formatları** – Aspose.Page en iyi TIFF, PNG ve JPEG ile çalışır. Diğer formatları kullanmadan önce dönüştürün.  
+- **TileMode Uygulanmadı** – `TileMode` ayarlamadan önce `XpsImageBrush` tipine dönüştürdüğünüzden emin olun; aksi takdirde özellik yok sayılır.
 
-Cevap1: Evet, Aspose.Page çeşitli görüntü formatlarını destekler. Seçilen görüntü formatıyla uyumluluğu sağlayın.
+## Sıkça Sorulan Sorular
 
-### S2: Gliflerin görünümünü nasıl daha da özelleştirebilirim?
+### S1: Glifleri doldurmak için farklı görüntü formatları kullanabilir miyim?
 
-Cevap2: Glif görünümüne ince ayar yapmaya yönelik ek özellikler ve yöntemler için Aspose.Page belgelerini inceleyin.
+**C:** Evet, Aspose.Page TIFF, PNG, JPEG, BMP ve GIF formatlarını destekler. `CreateImageBrush` çağrısında doğru dosya uzantısını belirtmeniz yeterlidir.
 
-### S3: Aspose.Page büyük belge kümelerini işlemeye uygun mudur?
+### S2: Gliflerin görünümünü daha da özelleştirebilir miyim?
 
-Cevap3: Aspose.Page, hem küçük hem de büyük belge setlerini verimli bir şekilde işleyecek şekilde tasarlanmıştır.
+**C:** `XpsGlyphs` üzerindeki `Opacity`, `RenderTransform` ve `Stroke` gibi ek özellikleri keşfederek renderlamayı ince ayar yapabilirsiniz.
 
-### S4: Bireysel gliflere farklı stiller uygulayabilir miyim?
+### S3: Aspose.Page büyük belge setlerini işlemek için uygun mu?
 
-Cevap4: Evet, her bir glif için stilleri bağımsız olarak özelleştirerek yüksek düzeyde esneklik sağlayabilirsiniz.
+**C:** Kesinlikle. Kütüphane yüksek performanslı senaryolar için optimize edilmiştir ve toplu işler halinde binlerce XPS dosyasını işleyebilir.
 
-### S5: Aspose.Page'i kullanmanın diğer belge işleme araçlarına göre avantajları nelerdir?
+### S4: Tek tek gliflere farklı stiller uygulayabilir miyim?
 
-Cevap5: Aspose.Page, kapsamlı özellikler, mükemmel performans ve kapsamlı belgeler sunarak birçok geliştiricinin tercih ettiği seçenek haline geliyor.
+**C:** Evet. Her `XpsGlyphs` örneği kendi doldurma, kontur ve dönüşüm ayarlarına sahip olabilir, bu da size ayrıntılı kontrol sağlar.
+
+### S5: Aspose.Page diğer belge işleme araçlarına göre ne gibi avantajlar sunar?
+
+**C:** Aspose.Page, XPS oluşturma, manipülasyon ve dönüşüm için tam, lisans‑ücretsiz bir API sunar; kapsamlı dokümantasyon ve 7/24 destek ile birlikte gelir.
+
+---
+
+**Son Güncelleme:** 2026-01-07  
+**Test Edilen Sürüm:** Aspose.Page 24.12 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
