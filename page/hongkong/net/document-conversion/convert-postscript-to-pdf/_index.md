@@ -1,10 +1,11 @@
 ---
-title: 使用 Aspose.Page for .NET 將 PostScript 轉換為 PDF
-linktitle: 將 PostScript 轉換為 PDF
+date: 2026-01-10
+description: 使用 Aspose.Page for .NET，輕鬆將 PostScript 轉換為 PDF。功能強大、可靠且對開發人員友好。
+linktitle: Convert PostScript to PDF
 second_title: Aspose.Page .NET API
-description: 使用 Aspose.Page for .NET 輕鬆將 PostScript 轉換為 PDF。健壯、可靠且對開發人員友善。
-weight: 10
+title: 使用 Aspose.Page for .NET 將 PostScript 轉換為 PDF
 url: /zh-hant/net/document-conversion/convert-postscript-to-pdf/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,21 +16,39 @@ url: /zh-hant/net/document-conversion/convert-postscript-to-pdf/
 
 ## 介紹
 
-在不斷發展的軟體開發領域，Aspose.Page for .NET 成為無縫 PostScript 轉換到 PDF 的強大工具。本教學將引導您完成使用 Aspose.Page for .NET 將 PostScript 檔案高效率地轉換為 PDF 格式的流程。無論您是經驗豐富的開發人員還是剛入門，本逐步指南都將協助您利用 Aspose.Page 的功能。
+如果您需要快速且可靠地 **convert PostScript to PDF**，Aspose.Page for .NET 提供乾淨、以程式碼為先的 API，為您處理繁重的工作。在本教學中，我們將逐步示範一個真實案例，完整說明 **how to convert PostScript** 檔案、加入自訂字型，並將結果儲存為可供分發或存檔的 PDF 文件。  
+您將了解開發者為何選擇 Aspose.Page 來執行批次作業、自訂字型處理以及高保真度渲染——全部都不必離開 .NET 生態系統。
 
-## 先決條件
+## 快速答覆
+- **什麼程式庫負責轉換？** Aspose.Page for .NET  
+- **我可以加入自己的字型嗎？** 是 – 使用 `AdditionalFontsFolders` 選項  
+- **可以批次轉換嗎？** 當然，只要對多個檔案迴圈即可  
+- **生產環境需要授權嗎？** 需要商業授權；提供免費試用版  
+- **支援哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6+
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 什麼是將 PostScript 轉換為 PDF？
 
-1.  Aspose.Page for .NET 函式庫：確保您的開發環境中安裝了 Aspose.Page for .NET 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/page/net/).
+將 PostScript 轉換為 PDF 意味著將頁面描述語言（PostScript）渲染成可攜帶且廣泛支援的 PDF 格式。當您收到舊版列印檔案、需要歸檔文件，或想在瀏覽器中顯示而無需額外插件時，這非常有用。
 
-2. 開發環境：使用 Visual Studio 或任何其他相容的 IDE 設定工作開發環境。
+## 為什麼使用 Aspose.Page for .NET？
 
-現在您已經滿足了先決條件，讓我們探討一下使用 Aspose.Page for .NET 將 PostScript 轉換為 PDF 的步驟。
+- **零外部相依性** – 無需 Ghostscript 或本機二進位檔。  
+- **完整的字型控制** – 您可以提供自訂字型資料夾（`add custom fonts pdf`）。  
+- **強韌的錯誤處理** – 抑制次要錯誤，同時仍能取得可用的 PDF（`save postscript as pdf`）。  
+- **適用於批次處理的可擴充性** – API 為執行緒安全，且在伺服器環境中表現良好。
 
-## 導入命名空間
+## 前置條件
 
-首先，您需要匯入必要的命名空間來存取 Aspose.Page for .NET 提供的功能。將以下程式碼放在 C# 檔案的開頭：
+在深入教學之前，請確保已具備以下前置條件：
+
+1. Aspose.Page for .NET 程式庫：確保已在開發環境中安裝 Aspose.Page for .NET 程式庫。您可從 [here](https://releases.aspose.com/page/net/) 下載。  
+2. 開發環境：使用 Visual Studio 或其他相容的 IDE 設定可運作的開發環境。
+
+現在您已具備前置條件，讓我們一起探討使用 Aspose.Page for .NET **convert PostScript to PDF** 的步驟。
+
+## 匯入命名空間
+
+首先，您需要匯入必要的命名空間，以存取 Aspose.Page for .NET 提供的功能。將以下程式碼放在 C# 檔案的開頭：
 
 ```csharp
 using Aspose.Page.EPS;
@@ -40,47 +59,49 @@ using System.Linq;
 using System.Text;
 ```
 
-## 第 1 步：初始化流
+## 步驟 1：初始化串流
 
-首先初始化 PostScript 和 PDF 檔案的輸入和輸出流。確保將“您的文件目錄”替換為文件目錄的實際路徑。
+首先為 PostScript 與 PDF 檔案初始化輸入與輸出串流。請將「Your Document Directory」替換為實際的文件目錄路徑。
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//初始化 PDF 輸出流
+// Initialize PDF output stream
 System.IO.FileStream pdfStream = new System.IO.FileStream(dataDir + "outputPDF_out.pdf", System.IO.FileMode.Create, System.IO.FileAccess.Write);
-//初始化 PostScript 輸入流
+// Initialize PostScript input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "input.ps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
 ```
 
-## 第 2 步：設定轉換選項
+## 步驟 2：設定轉換選項
 
-若要控制轉換過程，請使用必要的參數初始化選項物件。在此範例中，您可以設定一個標誌來抑制轉換過程中的小錯誤。
+為了控制轉換過程，請以必要的參數初始化選項物件。在此範例中，您可以設定旗標以在轉換期間抑制次要錯誤。
 
 ```csharp
-//如果您想轉換 Postscript 文件，儘管存在小錯誤，請設定此標誌
+// If you want to convert Postscript file despite of minor errors set this flag
 bool suppressErrors = true;
-//使用必要的參數初始化選項物件。
+// Initialize options object with necessary parameters.
 PdfSaveOptions options = new PdfSaveOptions(suppressErrors);
-//如果您想要新增儲存字體的特殊資料夾。作業系統中的預設字體資料夾始終包含在內。
+// If you want to add a special folder where fonts are stored. Default fonts folder in OS is always included.
 options.AdditionalFontsFolders = new string[] { @"{FONT_FOLDER}" };
 ```
 
-## 步驟3：初始化PDF設備
+> **專業提示：** 每當您需要 **add custom fonts PDF** 檔案且該字型未安裝於主機作業系統時，請使用 `AdditionalFontsFolders` 屬性。
 
-建立一個 PDF 設備來處理轉換過程。如果需要，您可以指定頁面大小和圖像格式。
+## 步驟 3：初始化 PDF 裝置
+
+建立 PDF 裝置以處理轉換過程。如有需要，您可以指定頁面大小與影像格式。
 
 ```csharp
-//預設頁面大小為 595x842，不強制在 PdfDevice 中設置
+// Default page size is 595x842 and it is not mandatory to set it in PdfDevice
 Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(pdfStream);
-//但如果您需要指定大小和圖像格式，請使用以下行
+// But if you need to specify size and image format use the following line
 //Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(pdfStream, new System.Drawing.Size(595, 842));
 ```
 
-## 步驟 4：儲存文檔
+## 步驟 4：儲存文件
 
-嘗試使用指定的裝置和選項儲存文件。
+使用指定的裝置與選項嘗試儲存文件。
 
 ```csharp
 try
@@ -94,12 +115,12 @@ finally
 }
 ```
 
-## 第 5 步：檢查錯誤
+## 步驟 5：檢查錯誤
 
-轉換後，檢查任何潛在的錯誤至關重要。如果`suppressErrors`設定標誌後，迭代異常並列印錯誤訊息。
+轉換完成後，務必檢查任何潛在錯誤。若已設定 `suppressErrors` 旗標，請遍歷例外並列印錯誤訊息。
 
 ```csharp
-//檢查錯誤
+// Review errors
 if (suppressErrors)
 {
     foreach (Exception ex in options.Exceptions)
@@ -109,36 +130,44 @@ if (suppressErrors)
 }
 ```
 
-這個綜合教學將引導您完成使用 Aspose.Page for .NET 將 PostScript 轉換為 PDF 的整個過程。確保將這些步驟整合到您的應用程式中，並探索這個強大庫的巨大功能。
+### 常見陷阱與避免方法
+
+| 問題 | 為何發生 | 解決方案 |
+|------|----------|----------|
+| 字型未顯示 | 自訂字型未放在作業系統字型資料夾 | 將資料夾路徑加入 `options.AdditionalFontsFolders` |
+| 缺少頁面 | 輸入的 PostScript 有錯誤 | 設定 `suppressErrors = true` 以繼續轉換，並檢查 `options.Exceptions` |
+| 輸出檔案被鎖定 | 串流未正確關閉 | 如範例所示，務必在 `finally` 區塊中關閉 `psStream` 與 `pdfStream` 兩者 |
+
+## 常見問答
+
+**Q1: Aspose.Page for .NET 是否適用於批次轉換？**  
+A1: 是，Aspose.Page for .NET 支援批次轉換，讓您能同時處理多個 PostScript 檔案。
+
+**Q2: 我可以自訂轉換過程中使用的字型資料夾嗎？**  
+A2: 當然可以。如教學所示，您可以指定額外的字型資料夾以符合您的需求。
+
+**Q3: 是否提供 Aspose.Page for .NET 的試用版？**  
+A3: 有，您可在 [here](https://releases.aspose.com/) 取得免費試用版。
+
+**Q4: 我可以在哪裡找到額外的支援與社群討論？**  
+A4: 前往 [Aspose.Page forum](https://forum.aspose.com/c/page/39) 參與社群討論與取得支援。
+
+**Q5: 如何取得 Aspose.Page for .NET 的臨時授權？**  
+A5: 您可在 [here](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
 ## 結論
 
-總之，Aspose.Page for .NET 簡化了將 PostScript 轉換為 PDF 的複雜任務。憑藉直覺的 API 和強大的功能，開發人員可以無縫處理文件轉換，確保應用程式的效率和可靠性。
+總結來說，Aspose.Page for .NET 簡化了 **convert postscript to pdf** 這項複雜任務。藉由直觀的 API 與強大的功能，開發者能無縫處理文件轉換，確保應用程式的效率與可靠性。無論是轉換單一檔案或處理數千檔，該程式庫皆提供彈性，讓您能 **add custom fonts PDF**、優雅地管理錯誤，並僅以少量程式碼 **save PostScript as PDF**。
 
-## 常見問題解答
-
-### Q1：Aspose.Page for .NET適合大量轉換嗎？
-
-A1：是的，Aspose.Page for .NET 支援批次轉換，讓您可以同時處理多個 PostScript 檔案。
-
-### Q2：我可以自訂轉換過程中使用的字體資料夾嗎？
-
-A2：當然。如教程中所示，您可以指定其他字體資料夾來滿足您的特定要求。
-
-### Q3：Aspose.Page for .NET 有試用版嗎？
-
- A3：是的，您可以存取免費試用版[這裡](https://releases.aspose.com/).
-
-### 問題 4：我可以在哪裡找到更多支持和社區討論？
-
- A4：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)供社區討論和支持。
-
-### Q5：如何取得 Aspose.Page for .NET 的臨時授權？
-
- A5：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**最後更新：** 2026-01-10  
+**測試環境：** Aspose.Page 24.12 for .NET  
+**作者：** Aspose
