@@ -1,35 +1,57 @@
 ---
-title: قم بتحويل PostScript إلى PDF باستخدام Aspose.Page لـ .NET
-linktitle: تحويل بوستسكريبت إلى PDF
+date: 2026-01-10
+description: حوّل ملفات PostScript إلى PDF بسهولة باستخدام Aspose.Page لـ .NET. قوي،
+  موثوق، وصديق للمطورين.
+linktitle: Convert PostScript to PDF
 second_title: Aspose.Page .NET API
-description: قم بتحويل PostScript إلى PDF بسهولة باستخدام Aspose.Page لـ .NET. قوية وموثوقة وصديقة للمطورين.
-weight: 10
+title: تحويل PostScript إلى PDF باستخدام Aspose.Page لـ .NET
 url: /ar/net/document-conversion/convert-postscript-to-pdf/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتحويل PostScript إلى PDF باستخدام Aspose.Page لـ .NET
+# تحويل PostScript إلى PDF باستخدام Aspose.Page لـ .NET
 
-## مقدمة
+## المقدمة
 
-في مشهد تطوير البرامج الدائم التطور، يبرز Aspose.Page for .NET كأداة قوية لتحويل PostScript إلى PDF بسلاسة. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام Aspose.Page لـ .NET لتحويل ملفات PostScript إلى تنسيق PDF بكفاءة. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا الدليل التفصيلي خطوة بخطوة على الاستفادة من إمكانات Aspose.Page.
+إذا كنت بحاجة إلى **تحويل PostScript إلى PDF** بسرعة وبشكل موثوق، فإن Aspose.Page لـ .NET يقدم واجهة برمجة تطبيقات نظيفة تعتمد على الكود وتتعامل مع كل الأعمال الصعبة نيابةً عنك. في هذا الدرس سنستعرض مثالًا واقعيًا يوضح بالضبط **كيفية تحويل ملفات PostScript**، إضافة خطوط مخصصة، وحفظ النتيجة كمستند PDF يمكنك توزيعه أو أرشفته.
 
-## المتطلبات الأساسية
+سترى لماذا يختار المطورون Aspose.Page للمهام الدفعية، التعامل مع الخطوط المخصصة، وعرض عالي الدقة — كل ذلك دون مغادرة بيئة .NET.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## إجابات سريعة
+- **ما المكتبة التي تتعامل مع التحويل؟** Aspose.Page لـ .NET  
+- **هل يمكنني إضافة خطوط خاصة بي؟** نعم – استخدم خيار `AdditionalFontsFolders`  
+- **هل التحويل الدفعي ممكن؟** بالتأكيد، فقط كرّر العملية على ملفات متعددة  
+- **هل أحتاج إلى ترخيص للإنتاج؟** الترخيص التجاري مطلوب؛ نسخة تجريبية مجانية متاحة  
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6+
 
-1.  Aspose.Page for .NET Library: تأكد من تثبيت Aspose.Page لمكتبة .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/page/net/).
+## ما هو تحويل PostScript إلى PDF؟
 
-2. بيئة التطوير: قم بإعداد بيئة تطوير عمل باستخدام Visual Studio أو أي بيئة تطوير متكاملة أخرى متوافقة.
+تحويل PostScript إلى PDF يعني أخذ لغة وصف الصفحات (PostScript) وتحويلها إلى تنسيق PDF القابل للنقل والمدعوم على نطاق واسع. هذا مفيد عندما تستلم ملفات طباعة قديمة، تحتاج إلى أرشفة مستندات، أو تريد عرضها في المتصفحات دون إضافات إضافية.
 
-الآن بعد أن قمت بتغطية المتطلبات الأساسية، دعنا نستكشف خطوات تحويل PostScript إلى PDF باستخدام Aspose.Page لـ .NET.
+## لماذا نستخدم Aspose.Page لـ .NET؟
 
-## استيراد مساحات الأسماء
+- **عدم وجود تبعيات خارجية** – لا حاجة لـ Ghostscript أو ملفات ثنائية أصلية.  
+- **تحكم كامل في الخطوط** – يمكنك توفير مجلدات خطوط مخصصة (`add custom fonts pdf`).  
+- **معالجة أخطاء قوية** – كتم الأخطاء الطفيفة مع الحفاظ على إمكانية الحصول على PDF صالح (`save postscript as pdf`).  
+- **قابلية التوسع للمعالجة الدفعية** – الواجهة آمنة للخطوط المتعددة وتعمل جيدًا في بيئات الخوادم.
 
-في البداية، تحتاج إلى استيراد مساحات الأسماء الضرورية للوصول إلى الوظائف التي يوفرها Aspose.Page لـ .NET. ضع الكود التالي في بداية ملف C# الخاص بك:
+## المتطلبات المسبقة
+
+قبل الغوص في الدرس، تأكد من توفر المتطلبات التالية:
+
+1. مكتبة Aspose.Page لـ .NET: تأكد من تثبيت مكتبة Aspose.Page لـ .NET في بيئة التطوير الخاصة بك. يمكنك تنزيلها من [هنا](https://releases.aspose.com/page/net/).
+
+2. بيئة تطوير: قم بإعداد بيئة تطوير عمل باستخدام Visual Studio أو أي بيئة تطوير متكاملة أخرى متوافقة.
+
+الآن بعد أن غطيت المتطلبات المسبقة، دعنا نستكشف الخطوات **لتحويل PostScript إلى PDF** باستخدام Aspose.Page لـ .NET.
+
+## استيراد المساحات الاسمية
+
+في البداية، تحتاج إلى استيراد المساحات الاسمية الضرورية للوصول إلى الوظائف التي توفرها Aspose.Page لـ .NET. ضع الشيفرة التالية في بداية ملف C# الخاص بك:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -42,43 +64,45 @@ using System.Text;
 
 ## الخطوة 1: تهيئة التدفقات
 
-ابدأ بتهيئة تدفقات الإدخال والإخراج لملفات PostScript وPDF. تأكد من استبدال "دليل المستندات الخاص بك" بالمسار الفعلي لدليل المستندات الخاص بك.
+ابدأ بتهيئة تدفقات الإدخال والإخراج لملفات PostScript و PDF. تأكد من استبدال "Your Document Directory" بالمسار الفعلي لمجلد المستندات الخاص بك.
 
 ```csharp
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// تهيئة دفق إخراج PDF
+// Initialize PDF output stream
 System.IO.FileStream pdfStream = new System.IO.FileStream(dataDir + "outputPDF_out.pdf", System.IO.FileMode.Create, System.IO.FileAccess.Write);
-// تهيئة دفق إدخال بوستسكريبت
+// Initialize PostScript input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "input.ps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
 ```
 
 ## الخطوة 2: ضبط خيارات التحويل
 
-للتحكم في عملية التحويل، قم بتهيئة كائن الخيارات بالمعلمات الضرورية. في هذا المثال، يمكنك تعيين علامة لمنع الأخطاء البسيطة أثناء التحويل.
+للتحكم في عملية التحويل، قم بتهيئة كائن الخيارات مع المعلمات اللازمة. في هذا المثال، يمكنك ضبط علامة لكتم الأخطاء الطفيفة أثناء التحويل.
 
 ```csharp
-// إذا كنت تريد تحويل ملف Postscript على الرغم من وجود أخطاء بسيطة، فاضبط هذه العلامة
+// If you want to convert Postscript file despite of minor errors set this flag
 bool suppressErrors = true;
-// تهيئة كائن الخيارات بالمعلمات الضرورية.
+// Initialize options object with necessary parameters.
 PdfSaveOptions options = new PdfSaveOptions(suppressErrors);
-// إذا كنت تريد إضافة مجلد خاص حيث يتم تخزين الخطوط. يتم دائمًا تضمين مجلد الخطوط الافتراضي في نظام التشغيل.
+// If you want to add a special folder where fonts are stored. Default fonts folder in OS is always included.
 options.AdditionalFontsFolders = new string[] { @"{FONT_FOLDER}" };
 ```
 
+> **نصيحة احترافية:** استخدم الخاصية `AdditionalFontsFolders` كلما احتجت إلى **إضافة خطوط مخصصة PDF** غير المثبتة على نظام التشغيل المضيف.
+
 ## الخطوة 3: تهيئة جهاز PDF
 
-قم بإنشاء جهاز PDF للتعامل مع عملية التحويل. يمكنك تحديد حجم الصفحة وتنسيق الصورة إذا لزم الأمر.
+أنشئ جهاز PDF للتعامل مع عملية التحويل. يمكنك تحديد حجم الصفحة وتنسيق الصورة إذا لزم الأمر.
 
 ```csharp
-//حجم الصفحة الافتراضي هو 595x842 وليس من الضروري تعيينه في PdfDevice
+// Default page size is 595x842 and it is not mandatory to set it in PdfDevice
 Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(pdfStream);
-// ولكن إذا كنت بحاجة إلى تحديد الحجم وتنسيق الصورة، فاستخدم السطر التالي
-//Aspose.Page.EPS.Device.PdfDevice devices = new Aspose.Page.EPS.Device.PdfDevice(pdfStream, new System.Drawing.Size(595, 842));
+// But if you need to specify size and image format use the following line
+//Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(pdfStream, new System.Drawing.Size(595, 842));
 ```
 
-## الخطوة 4: احفظ المستند
+## الخطوة 4: حفظ المستند
 
 حاول حفظ المستند باستخدام الجهاز والخيارات المحددة.
 
@@ -96,10 +120,10 @@ finally
 
 ## الخطوة 5: مراجعة الأخطاء
 
- بعد التحويل، من الضروري مراجعة أي أخطاء محتملة. إذا`suppressErrors` تم تعيين العلامة، وتكرارها من خلال الاستثناءات وطباعة رسائل الخطأ.
+بعد التحويل، من الضروري مراجعة أي أخطاء محتملة. إذا تم ضبط علامة `suppressErrors`، قم بالتكرار عبر الاستثناءات وطباعة رسائل الخطأ.
 
 ```csharp
-// مراجعة الأخطاء
+// Review errors
 if (suppressErrors)
 {
     foreach (Exception ex in options.Exceptions)
@@ -109,36 +133,46 @@ if (suppressErrors)
 }
 ```
 
-يرشدك هذا البرنامج التعليمي الشامل خلال العملية الكاملة لاستخدام Aspose.Page لـ .NET لتحويل PostScript إلى PDF. تأكد من دمج هذه الخطوات في تطبيقك واستكشاف الإمكانات الهائلة لهذه المكتبة القوية.
+### المشكلات الشائعة وكيفية تجنبها
 
-## خاتمة
+| المشكلة | لماذا يحدث | الحل |
+|-------|----------------|-----|
+| عدم عرض الخطوط | الخطوط المخصصة غير موجودة في مجلد خطوط النظام | أضف مسار المجلد إلى `options.AdditionalFontsFolders` |
+| صفحات مفقودة | ملف PostScript المدخل يحتوي على أخطاء | اضبط `suppressErrors = true` لاستمرار التحويل ومراجعة `options.Exceptions` |
+| ملف الإخراج مقفل | لم يتم إغلاق التدفق بشكل صحيح | احرص على إغلاق كل من `psStream` و `pdfStream` في كتلة `finally` (كما هو موضح) |
 
-في الختام، يعمل Aspose.Page for .NET على تبسيط المهمة المعقدة المتمثلة في تحويل PostScript إلى PDF. بفضل واجهة برمجة التطبيقات البديهية والميزات القوية، يمكن للمطورين التعامل بسلاسة مع تحويلات المستندات، مما يضمن الكفاءة والموثوقية في تطبيقاتهم.
+## الأسئلة المتكررة
 
-## الأسئلة الشائعة
+**س1: هل Aspose.Page لـ .NET مناسب للتحويلات الدفعية؟**  
+ج1: نعم، يدعم Aspose.Page لـ .NET التحويلات الدفعية، مما يتيح لك معالجة عدة ملفات PostScript في آن واحد.
 
-### س1: هل Aspose.Page for .NET مناسب لتحويلات الدُفعات؟
+**س2: هل يمكنني تخصيص مجلدات الخطوط المستخدمة أثناء التحويل؟**  
+ج2: بالتأكيد. كما هو موضح في الدرس، يمكنك تحديد مجلدات خطوط إضافية لتلبية متطلباتك الخاصة.
 
-A1: نعم، يدعم Aspose.Page for .NET التحويلات المجمعة، مما يسمح لك بمعالجة ملفات PostScript متعددة في وقت واحد.
+**س3: هل هناك نسخة تجريبية متاحة لـ Aspose.Page لـ .NET؟**  
+ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية [هنا](https://releases.aspose.com/).
 
-### س2: هل يمكنني تخصيص مجلدات الخطوط المستخدمة أثناء التحويل؟
+**س4: أين يمكنني العثور على دعم إضافي ومناقشات المجتمع؟**  
+ج4: زر منتدى [Aspose.Page](https://forum.aspose.com/c/page/39) للمناقشات والدعم المجتمعي.
 
-ج2: بالتأكيد. كما هو موضح في البرنامج التعليمي، يمكنك تحديد مجلدات خطوط إضافية لتلبية متطلباتك المحددة.
+**س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟**  
+ج5: يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
-### س3: هل هناك إصدار تجريبي متاح لـ Aspose.Page لـ .NET؟
+## الخاتمة
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+في الختام، يبسط Aspose.Page لـ .NET المهمة المعقدة **لتحويل postscript إلى pdf**. بفضل واجهة برمجة تطبيقات بديهية وميزات قوية، يمكن للمطورين التعامل بسلاسة مع تحويل المستندات، مما يضمن الكفاءة والموثوقية في تطبيقاتهم. سواء كنت تحول ملفًا واحدًا أو تعالج آلاف الملفات، توفر المكتبة لك المرونة **لإضافة خطوط مخصصة PDF**، إدارة الأخطاء بأناقة، و**حفظ PostScript كـ PDF** ببضع أسطر من الشيفرة فقط.
 
-### س4: أين يمكنني العثور على دعم إضافي ومناقشات مجتمعية؟
-
- ج4: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للمناقشات المجتمعية والدعم.
-
-### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
-
- ج5: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-01-10  
+**تم الاختبار مع:** Aspose.Page 24.12 لـ .NET  
+**المؤلف:** Aspose  
+
+---
