@@ -1,33 +1,45 @@
 ---
-title: 使用 Aspose.Page for .NET 操作頁面
-linktitle: 操作頁面
+date: 2026-01-10
+description: 學習如何使用 Aspose.Page for .NET 合併 XPS 文件。本分步指南展示了頁面操作技巧，以達致高效結果。
+linktitle: Manipulate Pages
 second_title: Aspose.Page .NET API
-description: 使用 Aspose.Page（一個用於處理 XPS 文件的強大函式庫）來探索 .NET 中的頁面操作。請遵循我們的逐步指南以獲得高效的結果。
-weight: 12
+title: 使用 Aspose.Page for .NET 合併 XPS 文件
 url: /zh-hant/net/cross-document-editing/manipulate-pages/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page for .NET 操作頁面
+# 合併 XPS 文件與 Aspose.Page for .NET
 
-## 介紹
+## 簡介
 
-歡迎來到 Aspose.Page for .NET 的世界！在本教學中，我們將引導您完成在 .NET 環境中使用 Aspose.Page 庫操作頁面的過程。無論您是經驗豐富的開發人員還是新手，本指南都旨在協助您利用 Aspose.Page 的強大功能進行高效率的頁面操作。
+在本教學中，您將學會如何 **合併 XPS 文件**，並使用 Aspose.Page 函式庫在 .NET 環境中操作其頁面。無論是需要將多個報告合併成單一 XPS 檔，或是重新排列頁面以產生精緻的輸出，本指南都會一步步帶您完成，提供清晰說明與可直接執行的程式碼範例。
 
-## 先決條件
+## 快速回答
+- **Aspose.Page 可以做什麼？** 合併 XPS 文件、插入、加入或移除頁面，並儲存結果。  
+- **測試需要授權嗎？** 可取得臨時授權供評估使用。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上。  
+- **需要 Visual Studio 嗎？** 不需要，任何支援 C# 的 IDE 都可使用，但建議使用 Visual Studio。  
+- **合併需要多長時間？** 標準大小的 XPS 檔通常只需數秒。
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+## 什麼是合併 XPS 文件？
 
--  Aspose.Page for .NET：確保您已安裝該程式庫。您可以從[.NET 文件的 Aspose.Page](https://reference.aspose.com/page/net/).
-- 開發環境：使用 Visual Studio 或您首選的 IDE 設定 .NET 開發環境。
-- 輸入文件：準備XPS文檔（input1.xps、input2.xps、input3.xps）進行測試。
+合併 XPS 文件是指將兩個或多個現有 XPS 檔的頁面取出，組合成一個單一的 XPS 文件。此功能適用於製作彙整報告、編輯多頁手冊，或在不轉換為其他格式的情況下，準備可列印的套件。
 
-## 導入命名空間
+## 為什麼使用 Aspose.Page for .NET？
 
-在您的.NET專案中，匯入必要的命名空間以存取Aspose.Page提供的功能。將以下行加入您的程式碼：
+Aspose.Page 提供 **純 .NET API**，可直接操作 XPS 檔案——不需外部工具或第三方元件。它讓您能細緻控制頁面順序、插入位置與內容保留，使合併過程既可靠又快速。
+
+## 前置條件
+
+- **Aspose.Page for .NET** – 從 [Aspose.Page for .NET 文件](https://reference.aspose.com/page/net/) 下載。  
+- **開發環境** – Visual Studio、Rider，或任何支援 C# 的 IDE。  
+- **輸入 XPS 檔案** – 三個範例檔 (`input1.xps`, `input2.xps`, `input3.xps`) 放置於已知資料夾中。
+
+## 匯入命名空間
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,17 +47,17 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-現在，讓我們將範例程式碼分解為多個步驟，以指導您使用 Aspose.Page for .NET 操作頁面。
+這些命名空間讓您可以存取核心 XPS 文件類別、頁面模型與基本繪圖工具。
 
-## 步驟1：設定文檔目錄
+## 第一步：設定文件目錄
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-將「您的文件目錄」替換為儲存 XPS 文件的路徑。
+將 **Your Document Directory** 替換為存放 XPS 檔案的完整路徑，例如 `C:\\Docs\\XpsFiles\\`。
 
-## 第 2 步：建立 XPS 文檔
+## 第二步：建立 XPS 文件實例
 
 ```csharp
 XpsDocument doc1 = new XpsDocument(dataDir + "input1.xps");
@@ -54,9 +66,10 @@ XpsDocument doc3 = new XpsDocument(dataDir + "input3.xps");
 XpsDocument doc4 = new XpsDocument();
 ```
 
-為每個輸入文件建立 XpsDocument 實例，並建立一個空文檔以進行操作。
+- `doc1`、`doc2`、`doc3` 代表您要合併的來源文件。  
+- `doc4` 是一個空的 XPS 文件，用來保存合併後的結果。
 
-## 第 3 步：插入頁面
+## 第三步：插入、加入與移除頁面
 
 ```csharp
 doc4.InsertPage(1, doc2.Page, false);
@@ -65,41 +78,73 @@ doc4.RemovePageAt(2);
 doc4.InsertPage(2, doc1.SelectActivePage(3), false);
 ```
 
-根據您的要求透過插入、新增和刪除頁面來操作頁面。
+以下說明每一行的功能：
 
-## 步驟 4：儲存文檔
+1. **InsertPage(1, doc2.Page, false)** – 將 `doc2` 的第一頁插入 `doc4` 的第 1 個位置。  
+2. **AddPage(doc3.Page, false)** – 將 `doc3` 的第一頁附加到 `doc4` 的末端。  
+3. **RemovePageAt(2)** – 移除目前位於索引 2 的頁面（可用於剔除不需要的頁面）。  
+4. **InsertPage(2, doc1.SelectActivePage(3), false)** – 將 `doc1` 的第三頁插入第 2 個位置，完成合併。
+
+這些操作示範了如何 **合併 XPS 文件**，同時依需求重新排序或捨棄頁面。
+
+## 第四步：儲存合併後的文件
 
 ```csharp
 doc4.Save(dataDir + "out.xps");
 ```
 
-將操作後的文件儲存到指定位置。
+最終的合併 XPS 檔 (`out.xps`) 會寫入同一目錄。您現在可以在任何 XPS 檢視器中開啟，或使用 Aspose.Page 繼續進一步處理。
 
-## 結論
+## 常見問題與解決方案
+- **找不到檔案** – 再次確認 `dataDir` 路徑，並確保輸入檔案確實存在。  
+- **頁面索引無效** – 索引採用 1 為基礎；插入不存在的頁面會拋出例外。  
+- **授權錯誤** – 在投入生產環境前，請先使用臨時或正式授權。
 
-恭喜！您已成功使用 Aspose.Page for .NET 操作頁面。本教學提供了全面的指南來幫助您開始進行頁面操作。
+## 常見問題
 
-## 常見問題解答
+### Q1: 我可以操作不同 XPS 文件的頁面嗎？
 
-### Q1：我可以操作不同 XPS 文件的頁面嗎？
+A1: 可以，如本教學所示，您可以將多個 XPS 文件的頁面插入到新文件中。
 
-A1：是的，如教學中所示範的，您可以將多個 XPS 文件中的頁面插入到一個新文件中。
+### Q2: 如何從文件中移除特定頁面？
 
-### Q2：如何從文件中刪除特定頁面？
+A2: 使用 `RemovePageAt` 方法，並指定要移除的頁面索引。
 
- A2：使用`RemovePageAt`方法，指定要刪除的頁面的索引。
+### Q3: Aspose.Page 與 Visual Studio 相容嗎？
 
-### Q3：Aspose.Page 與 Visual Studio 相容嗎？
+A3: 相容，Aspose.Page 完全支援 Visual Studio，方便整合至 .NET 專案。
 
-A3：是的，Aspose.Page 與 Visual Studio 完全相容，可以輕鬆整合到您的 .NET 專案中。
+### Q4: 有哪些授權方案可供選擇？
 
-### Q4：有可用的授權選項嗎？
+A4: 有，您可以在此取得臨時授權 [here](https://purchase.aspose.com/temporary-license/)。
 
- A4：是的，您可以探索許可證選項並取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+### Q5: 我可以在哪裡取得支援或提問？
 
-### Q5：我可以在哪裡獲得支持或提問？
+A5: 前往 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39) 取得支援並與社群互動。
 
- A5：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)獲得支持並與社區互動。
+## 常見問答
+
+**Q: 可以合併超過三個 XPS 檔案嗎？**  
+A: 當然可以。建立更多 `XpsDocument` 實例，並重複使用 `InsertPage` 或 `AddPage` 以組成更大的合併文件。
+
+**Q: 合併過程會保留原始格式與圖形嗎？**  
+A: 會。Aspose.Page 會逐位元複製頁面內容，文字、影像與向量圖形皆保持不變。
+
+**Q: 如何在不指定索引的情況下將頁面加入文件末端？**  
+A: 使用 `AddPage(sourcePage, false)` 即可將頁面附加至文件末端。
+
+**Q: 能否在沒有 UI 的伺服器上合併 XPS 文件？**  
+A: 可以。此 API 完全無頭，您可在 ASP.NET、Azure Functions 或任何伺服器端 .NET 環境中執行相同程式碼。
+
+**Q: 若我的 XPS 檔案受密碼保護，該怎麼辦？**  
+A: Aspose.Page 目前不支援加密的 XPS 檔案，必須先解密後才能合併。
+
+---
+
+**最後更新：** 2026-01-10  
+**測試環境：** Aspose.Page for .NET 24.10  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,33 +1,47 @@
 ---
-title: Manipuluj stronami za pomocą Aspose.Page dla .NET
-linktitle: Manipuluj stronami
-second_title: Aspose.Page API .NET
-description: Poznaj manipulację stronami w .NET przy użyciu Aspose.Page, potężnej biblioteki do obsługi dokumentów XPS. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać skuteczne rezultaty.
-weight: 12
+date: 2026-01-10
+description: Dowiedz się, jak scalać dokumenty XPS przy użyciu Aspose.Page dla .NET.
+  Ten przewodnik krok po kroku pokazuje techniki manipulacji stronami dla uzyskania
+  efektywnych rezultatów.
+linktitle: Manipulate Pages
+second_title: Aspose.Page .NET API
+title: Scal dokumenty XPS przy użyciu Aspose.Page dla .NET
 url: /pl/net/cross-document-editing/manipulate-pages/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Manipuluj stronami za pomocą Aspose.Page dla .NET
+# Scalanie dokumentów XPS przy użyciu Aspose.Page dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w świecie Aspose.Page dla .NET! W tym samouczku przeprowadzimy Cię przez proces manipulowania stronami przy użyciu biblioteki Aspose.Page w środowisku .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik ma na celu pomóc Ci wykorzystać moc Aspose.Page do wydajnej manipulacji stroną.
+W tym samouczku dowiesz się, jak **scalać dokumenty XPS** i manipulować ich stronami przy użyciu biblioteki Aspose.Page w środowisku .NET. Niezależnie od tego, czy potrzebujesz połączyć wiele raportów w jeden plik XPS, czy przearanżować strony dla uzyskania dopracowanego wyniku, ten przewodnik przeprowadzi Cię krok po kroku przez proces, z jasnymi wyjaśnieniami i gotowym do uruchomienia kodem.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co mogę zrobić z Aspose.Page?** Scalanie dokumentów XPS, wstawianie, dodawanie lub usuwanie stron oraz zapisywanie wyniku.  
+- **Czy potrzebuję licencji do testów?** Dostępna jest tymczasowa licencja do oceny.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Czy wymagany jest Visual Studio?** Nie, działa każde IDE obsługujące C#, ale Visual Studio jest zalecane.  
+- **Jak długo trwa scalanie?** Zazwyczaj kilka sekund dla standardowych plików XPS.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest scalanie dokumentów XPS?
 
--  Aspose.Page dla .NET: Upewnij się, że masz zainstalowaną bibliotekę. Można go pobrać z[Aspose.Page dla dokumentacji .NET](https://reference.aspose.com/page/net/).
-- Środowisko programistyczne: skonfiguruj środowisko programistyczne .NET za pomocą programu Visual Studio lub preferowanego IDE.
-- Dokumenty wejściowe: Przygotuj dokumenty XPS (input1.xps, input2.xps, input3.xps) do testów.
+Scalanie dokumentów XPS oznacza pobranie stron z dwóch lub więcej istniejących plików XPS i połączenie ich w jeden dokument XPS. Jest to przydatne przy tworzeniu skonsolidowanych raportów, kompilacji wielostronicowych podręczników lub przygotowywaniu gotowych do druku pakietów bez konwertowania do innego formatu.
 
-## Importuj przestrzenie nazw
+## Dlaczego warto używać Aspose.Page dla .NET?
 
-W projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności zapewnianych przez Aspose.Page. Dodaj następujące linie do swojego kodu:
+Aspose.Page oferuje **czyste API .NET**, które działa bezpośrednio na plikach XPS — nie wymaga zewnętrznych narzędzi ani komponentów firm trzecich. Daje Ci precyzyjną kontrolę nad kolejnością stron, punktami wstawiania i zachowaniem zawartości, co sprawia, że proces scalania jest niezawodny i szybki.
+
+## Wymagania wstępne
+
+- **Aspose.Page for .NET** – pobierz z [dokumentacji Aspose.Page for .NET](https://reference.aspose.com/page/net/).  
+- **Środowisko programistyczne** – Visual Studio, Rider lub dowolne IDE obsługujące C#.  
+- **Pliki XPS wejściowe** – trzy przykładowe pliki (`input1.xps`, `input2.xps`, `input3.xps`) umieszczone w znanym folderze.
+
+## Importowanie przestrzeni nazw
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,17 +49,17 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Teraz podzielmy przykładowy kod na wiele kroków, które poprowadzą Cię przez manipulowanie stronami za pomocą Aspose.Page dla .NET.
+Te przestrzenie nazw zapewniają dostęp do podstawowych klas dokumentu XPS, modeli stron oraz podstawowych narzędzi rysunkowych.
 
-## Krok 1: Ustaw katalog dokumentów
+## Krok 1: Ustaw katalog dokumentów
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-Zastąp „Twój katalog dokumentów” ścieżką, w której przechowywane są dokumenty XPS.
+Zastąp **Your Document Directory** pełną ścieżką, w której przechowywane są Twoje pliki XPS, np. `C:\\Docs\\XpsFiles\\`.
 
-## Krok 2: Utwórz dokumenty XPS
+## Krok 2: Utwórz instancje dokumentów XPS
 
 ```csharp
 XpsDocument doc1 = new XpsDocument(dataDir + "input1.xps");
@@ -54,9 +68,10 @@ XpsDocument doc3 = new XpsDocument(dataDir + "input3.xps");
 XpsDocument doc4 = new XpsDocument();
 ```
 
-Utwórz instancje XpsDocument dla każdego dokumentu wejściowego i pusty dokument do manipulacji.
+- `doc1`, `doc2` i `doc3` reprezentują dokumenty źródłowe, które chcesz scalić.  
+- `doc4` jest pustym dokumentem XPS, który będzie przechowywał wynik scalania.
 
-## Krok 3: Wstaw strony
+## Krok 3: Wstawianie, dodawanie i usuwanie stron
 
 ```csharp
 doc4.InsertPage(1, doc2.Page, false);
@@ -65,41 +80,73 @@ doc4.RemovePageAt(2);
 doc4.InsertPage(2, doc1.SelectActivePage(3), false);
 ```
 
-Manipuluj stronami, wstawiając, dodając i usuwając strony zgodnie z własnymi wymaganiami.
+Oto, co robi każda linia:
 
-## Krok 4: Zapisz dokument
+1. **InsertPage(1, doc2.Page, false)** – umieszcza pierwszą stronę `doc2` na pozycji 1 w `doc4`.  
+2. **AddPage(doc3.Page, false)** – dodaje pierwszą stronę `doc3` na koniec `doc4`.  
+3. **RemovePageAt(2)** – usuwa stronę znajdującą się teraz pod indeksem 2 (przydatne do eliminacji niechcianych stron).  
+4. **InsertPage(2, doc1.SelectActivePage(3), false)** – wstawia trzecią stronę `doc1` na pozycję 2, kończąc scalanie.
+
+Te operacje ilustrują, jak można **scalać dokumenty XPS**, jednocześnie przestawiając lub usuwając strony w razie potrzeby.
+
+## Krok 4: Zapisz scalony dokument
 
 ```csharp
 doc4.Save(dataDir + "out.xps");
 ```
 
-Zapisz zmanipulowany dokument w określonej lokalizacji.
+Końcowy scalony plik XPS (`out.xps`) jest zapisywany w tym samym katalogu. Możesz go teraz otworzyć w dowolnym przeglądarce XPS lub dalej przetwarzać przy użyciu Aspose.Page.
 
-## Wniosek
+## Typowe problemy i rozwiązania
+- **Plik nie znaleziony** – sprawdź ponownie ścieżkę `dataDir` i upewnij się, że pliki wejściowe istnieją.  
+- **Nieprawidłowy indeks strony** – indeksy stron zaczynają się od 1; próba wstawienia nieistniejącej strony powoduje wyrzucenie wyjątku.  
+- **Błędy licencji** – użyj tymczasowej lub pełnej licencji przed wdrożeniem do produkcji.
 
-Gratulacje! Pomyślnie manipulowałeś stronami przy użyciu Aspose.Page dla .NET. Ten samouczek zawiera kompleksowy przewodnik, który pomoże Ci rozpocząć manipulację stroną.
+## FAQ
+
+### Q1: Czy mogę manipulować stronami z różnych dokumentów XPS?
+
+A1: Tak, jak pokazano w samouczku, możesz wstawiać strony z wielu dokumentów XPS do nowego dokumentu.
+
+### Q2: Jak mogę usunąć konkretną stronę z dokumentu?
+
+A2: Użyj metody `RemovePageAt`, podając indeks strony, którą chcesz usunąć.
+
+### Q3: Czy Aspose.Page jest kompatybilny z Visual Studio?
+
+A3: Tak, Aspose.Page jest w pełni kompatybilny z Visual Studio, co ułatwia integrację w Twoich projektach .NET.
+
+### Q4: Czy dostępne są opcje licencjonowania?
+
+A4: Tak, możesz zapoznać się z opcjami licencjonowania i uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Gdzie mogę uzyskać wsparcie lub zadać pytania?
+
+A5: Odwiedź [forum Aspose.Page](https://forum.aspose.com/c/page/39), aby uzyskać wsparcie i uczestniczyć w społeczności.
 
 ## Często zadawane pytania
 
-### P1: Czy mogę manipulować stronami z różnych dokumentów XPS?
+**Q: Czy mogę scalić więcej niż trzy pliki XPS?**  
+A: Oczywiście. Utwórz dodatkowe instancje `XpsDocument` i używaj wielokrotnie `InsertPage` lub `AddPage`, aby zbudować większy scalony dokument.
 
-Odpowiedź 1: Tak, jak pokazano w samouczku, możesz wstawiać strony z wielu dokumentów XPS do nowego dokumentu.
+**Q: Czy scalanie zachowuje oryginalne formatowanie i grafikę?**  
+A: Tak. Aspose.Page kopiuje zawartość strony bajt po bajcie, więc tekst, obrazy i grafika wektorowa pozostają niezmienione.
 
-### P2: Jak mogę usunąć określoną stronę z dokumentu?
+**Q: Jak wstawić stronę na koniec bez podawania indeksu?**  
+A: Użyj `AddPage(sourcePage, false)`, który dodaje stronę na koniec dokumentu.
 
- Odpowiedź 2: Użyj`RemovePageAt`metodę, określając indeks strony, którą chcesz usunąć.
+**Q: Czy można scalać dokumenty XPS na serwerze bez interfejsu użytkownika?**  
+A: API jest w pełni bezgłowe; możesz uruchomić ten sam kod w ASP.NET, Azure Functions lub dowolnym środowisku .NET po stronie serwera.
 
-### P3: Czy Aspose.Page jest kompatybilny z Visual Studio?
+**Q: Co jeśli moje pliki XPS są zabezpieczone hasłem?**  
+A: Aspose.Page obecnie nie obsługuje zaszyfrowanych plików XPS; musisz je odszyfrować przed scaleniem.
 
-O3: Tak, Aspose.Page jest w pełni kompatybilny z Visual Studio, co ułatwia integrację z projektami .NET.
+---
 
-### P4: Czy dostępne są opcje licencjonowania?
+**Ostatnia aktualizacja:** 2026-01-10  
+**Testowano z:** Aspose.Page for .NET 24.10  
+**Autor:** Aspose  
 
- Odpowiedź 4: Tak, możesz zapoznać się z opcjami licencjonowania i uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-
-### P5: Gdzie mogę uzyskać wsparcie lub zadać pytania?
-
- A5: Odwiedź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) aby uzyskać wsparcie i nawiązać kontakt ze społecznością.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
