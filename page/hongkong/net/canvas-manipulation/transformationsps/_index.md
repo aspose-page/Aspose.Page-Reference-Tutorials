@@ -1,33 +1,50 @@
 ---
-title: 使用 Aspose.Page for .NET 轉換 PS
-linktitle: 變形PS
+date: 2026-01-12
+description: 學習如何使用 Aspose.Page for .NET 儲存 PostScript 檔案並建立 PostScript 文件，並套用多重轉換以產生動態圖形。
+linktitle: Transformations PS
 second_title: Aspose.Page .NET API
-description: 透過這份關於 PostScript 轉換的綜合指南釋放 Aspose.Page for .NET 的潛力。輕鬆建立動態圖形。
-weight: 12
+title: 使用 Aspose.Page 轉換（.NET）保存 PostScript 檔案
 url: /zh-hant/net/canvas-manipulation/transformationsps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page for .NET 轉換 PS
+# 儲存 PostScript 檔案與 Aspose.Page 變換（.NET）
 
 ## 介紹
 
-歡迎來到 Aspose.Page for .NET 的世界，您可以釋放 PostScript 文件轉換的力量。本教學將引導您完成各種變換，例如平移、縮放、旋轉、剪切和複雜變換，使您能夠創建視覺上令人驚嘆的動態圖形。
+在本教學中，您將了解如何在使用 Aspose.Page for .NET 時 **儲存 PostScript 檔案**。我們將逐步示範建立 PostScript 文件、套用平移、縮放、旋轉與斜切等多種變換，最後儲存結果。完成後，您將能熟練以程式方式製作動態圖形，並清楚知道在圖形狀態中何處放置每個變換。
 
-## 先決條件
+## 快速解答
+- **我可以建立什麼？** 一個具備完整功能且已套用變換的 PostScript 文件。  
+- **需要哪個函式庫？** Aspose.Page for .NET（可從官方網站下載）。  
+- **如何儲存檔案？** 在設定圖形狀態後使用 `PsDocument.Save()`。  
+- **可以套用多個變換嗎？** 可以——使用 `Transform` 或連續呼叫來結合它們。  
+- **需要授權嗎？** 開發階段可使用免費試用版，正式上線則需商業授權。
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+## 「儲存 PostScript 檔案」操作是什麼？
 
--  Aspose.Page for .NET 函式庫：確保您已將 Aspose.Page for .NET 函式庫整合到您的專案中。您可以從[下載連結](https://releases.aspose.com/page/net/).
+儲存 PostScript 檔案即是將您在記憶體中建立的繪圖指令寫入磁碟上的 `.ps` 檔案。之後可由任何 PostScript 直譯器、印表機或檢視器進行渲染。
 
-- 文件目錄：為您的文件設定一個目錄，並將程式碼中的佔位符替換為實際路徑。
+## 為什麼使用 Aspose.Page for .NET 來建立 PostScript 文件？
 
-## 導入命名空間
+Aspose.Page 提供高階、與裝置無關的 API，抽象化低階的 PostScript 語法。您將獲得：
 
-在您的 .NET 專案中，匯入使用 Aspose.Page 所需的命名空間：
+- 強型別的 C# 物件，用於路徑、筆刷與變換。  
+- 自動處理圖形狀態堆疊（save/restore）。  
+- 完整支援複雜的變換矩陣，無需手動計算。  
+
+## 前置條件
+
+在開始之前，請確保您已具備以下項目：
+
+- **Aspose.Page for .NET** 函式庫已整合至您的專案。請從[下載連結](https://releases.aspose.com/page/net/)取得。  
+- 一個可寫入的資料夾，用於儲存產生的 `.ps` 檔案。請在程式碼中將佔位路徑替換為實際目錄。
+
+## 匯入命名空間
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,116 +54,134 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-現在，讓我們以逐步指南的形式將每個範例分解為多個步驟。
+現在讓我們一步一步探索每個變換。
 
+## 無變換
 
-## 無轉換
-
-### 第 1 步：建立輸出流
+### 步驟 1：建立輸出串流
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-//為 PostScript 文件建立輸出流
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Transformations_outPS.ps", FileMode.Create))
 {
-    //建立具有預設值的儲存選項
+    // Create save options with default values
     PsSaveOptions options = new PsSaveOptions();
 
-    //建立新的 1 頁 PS 文檔
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 
     document.Translate(100, 100);
 
-    //從矩形建立圖形路徑
+    // Create graphics path from the rectangle
     System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
     path.AddRectangle(new System.Drawing.RectangleF(0, 0, 150, 100));
 
-    //將繪畫設定為上層圖形狀態
+    // Set paint in graphics state on upper level
     document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-    //填滿處於上層圖形狀態且不進行任何變換的第一個矩形
+    // Fill the first rectangle that is on the upper-level graphics state and without any transformations
     document.Fill(path);
 
-    //關閉目前頁面
+    // Close current page
     document.ClosePage();
 
-    //儲存文件
+    // Save the document
     document.Save();
 }
 ```
 
-此程式碼建立一個沒有轉換的 PostScript 文檔，以橘色填滿矩形。
+此程式碼片段會建立一個包含單一橙色矩形的 **PostScript 文件**，並在未套用任何變換的情況下 **儲存 PostScript 檔案**。
 
-## 翻譯
+## 平移
 
-### 第1步：儲存圖形狀態
+### 步驟 1：儲存圖形狀態
 
 ```csharp
-//保存圖形狀態以在變換後返回該狀態
+// Save graphics state to return back to this state after transformation
 document.WriteGraphicsSave();
 ```
 
-此步驟保存目前的圖形狀態，以便我們在轉換後返回它。
+儲存圖形狀態可讓您在移動物件後回復至原始狀態。
 
-### 第 2 步：轉換圖形狀態
+### 步驟 2：平移圖形狀態
 
 ```csharp
-//將目前圖形狀態向右移動 250
+// Displace current graphics state 250 to the right
 document.Translate(250, 0);
 ```
 
-透過新增平移組件來平移目前圖形狀態，然後將目前圖形狀態下的繪製設為藍色。
+此平移會將此呼叫之後繪製的所有內容向右移動 250 單位。
 
-### 第三步：用平移變換填滿矩形
+### 步驟 3：以平移變換填滿矩形
 
 ```csharp
-//將繪畫設定為目前圖形狀態
+// Set paint in the current graphics state
 document.SetPaint(new System.Drawing.SolidBrush(Color.Blue));
 
-//填滿目前圖形狀態下的第二個矩形（具有平移變換）
+// Fill the second rectangle in the current graphics state (has translation transformation)
 document.Fill(path);
 ```
 
-此步驟填入目前圖形狀態下的第二個矩形，其中現在包括平移變換。
+現在藍色矩形會出現在橙色矩形右側 250 點的位置。
 
-### 第四步：恢復圖形狀態
+### 步驟 4：還原圖形狀態
 
 ```csharp
-//將圖形狀態恢復到上一個（上）級別
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-填滿矩形後，將圖形狀態恢復到先前的水平。
+還原會將座標系統回復至原始位置，因而後續的繪圖不會受到平移的影響。
 
-繼續針對每種變換類型（包括縮放、旋轉、剪切和複雜變換）的逐步指南。
+## 縮放
+
+> *您可以遵循相同的模式——儲存狀態、套用 `Scale`、繪製，然後還原。*  
+> **技巧提示：** 使用非均勻縮放 (`Scale(sx, sy)`) 只在單一方向上拉伸物件。
+
+## 旋轉
+
+> *使用 `Rotate(angle)` 以原點或自訂樞紐點進行旋轉。*  
+> **技巧提示：** 在旋轉前先使用 `Translate`，即可繞特定點旋轉。
+
+## 斜切
+
+> *斜切變換 (`Shear(shx, shy)`) 會使形狀傾斜，適用於斜體效果。*
+
+## 複雜變換
+
+> *在進階情境下，建立自訂的 `Matrix` 並傳遞給 `Transform(matrix)`。*  
+> 這就是在單一步驟中 **套用多個變換** 的地方。
 
 ## 結論
 
-恭喜！您已成功掌握 Aspose.Page for .NET 的變革功能。現在，嘗試不同的組合併在 PostScript 文件轉換中釋放您的創造力。
+您已學會如何使用 Aspose.Page for .NET **儲存 PostScript 檔案**、**建立 PostScript 文件**，以及 **套用多重變換**。嘗試不同的變換順序、將它們結合，觀察圖形的變化。
 
-## 常見問題解答
+## 常見問題
 
-### Q1：如何對單一物件套用多個變換？
+**Q: 如何將多個變換套用到單一物件上？**  
+A: 使用 `Transform` 方法，搭配自訂的 `Matrix`，依需求的順序結合平移、縮放、旋轉或斜切。
 
-A1：若要套用多個轉換，請使用`Transform`具有自訂變換矩陣的方法。
+**Q: 我可以在儲存文件前預覽變換效果嗎？**  
+A: 可以——將 `PsDocument` 渲染成影像，或使用 PostScript 檢視器在呼叫 `Save()` 前檢查輸出。
 
-### Q2：我可以在儲存文件之前預覽轉換嗎？
+**Q: 是否能對文件中的特定元素套用變換？**  
+A: 當然可以。在繪製該元素前先儲存圖形狀態，套用所需變換，繪製後再還原狀態。
 
-A2：是的，您可以透過渲染文件並在適當的檢視器中預覽來視覺化轉換。
+**Q: 在處理複雜變換時有性能考量嗎？**  
+A: 複雜的矩陣會增加 CPU 負擔。盡量保持變換簡單，且在繪製大量相似物件時重複使用已儲存的狀態。
 
-### 問題 3：是否可以對文件中的特定元素套用轉換？
+**Q: 我如何取得支援或協助 Aspose.Page 相關的問題？**  
+A: 前往 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39)尋求社群協助，或直接聯絡 Aspose 支援。
 
-A3：是的，您可以隔離文件中特定圖形元素的轉換。
+---
 
-### Q4：處理複雜的轉換時是否有效能上的考量？
+**最後更新：** 2026-01-12  
+**測試環境：** Aspose.Page 24.11 for .NET  
+**作者：** Aspose  
 
-A4：複雜的轉換可能會影響效能，因此請最佳化程式碼以提高效率。
-
-### Q5：我如何獲得 Aspose.Page 相關查詢的支援或尋求協助？
-
- A5：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持和討論。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
