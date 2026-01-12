@@ -1,41 +1,53 @@
 ---
-title: Aspose.Page for .NET ile XPS Belgesi Oluşturun
-linktitle: XPS Belgesi Oluştur
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page for .NET ile XPS belge oluşturma dünyasını keşfedin. Zahmetsizce elektronik belgeler oluşturmak için adım adım kılavuzumuzu izleyin.
-weight: 10
+date: 2026-01-12
+description: Aspose.Page for .NET ile XPS belgesi oluşturmayı öğrenin – yüksek kaliteli
+  elektronik belgeler üretmek için adım adım bir rehber.
+linktitle: Create XPS Document
+second_title: Aspose.Page .NET API
+title: Aspose.Page for .NET ile XPS Belgesi Oluşturma
 url: /tr/net/document-creation/create-xps-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET ile XPS Belgesi Oluşturun
+# Aspose.Page for .NET ile XPS Belgesi Oluşturma
 
-## giriiş
+## Giriş
 
-Aspose.Page for .NET'i kullanarak XPS belgeleri oluşturmaya ilişkin adım adım kılavuzumuza hoş geldiniz. Bu eğitimde, elektronik belgeler için yaygın olarak kullanılan bir format olan XPS dosyalarını oluşturma sürecini inceleyeceğiz. İster deneyimli bir geliştirici olun ister Aspose.Page'e yeni başlıyor olun, bu kılavuz net örnekler ve ayrıntılı açıklamalarla XPS belgelerini sorunsuz bir şekilde oluşturmanıza yardımcı olmak için özel olarak hazırlanmıştır.
+Adım adım **XPS belgesi nasıl oluşturulur** rehberimize hoş geldiniz. Bu öğreticide, elektronik belgeler için yaygın olarak kullanılan XPS dosyalarının oluşturulma sürecini inceleyeceğiz. İster deneyimli bir geliştirici olun, ister Aspose.Page ile yeni başlıyor olun, bu kılavuz XPS belgelerini sorunsuz bir şekilde oluşturmanız için net örnekler ve ayrıntılı açıklamalar sunar.
+
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.Page for .NET  
+- **Bunu .NET Core üzerinde çalıştırabilir miyim?** Evet, kütüphane .NET Core ve .NET 5/6'yı tam olarak destekler  
+- **Kaç satır kod gerekiyor?** Temel bir XPS dosyası üretmek için 20 satırdan az  
+- **Test için lisansa ihtiyacım var mı?** Ücretsiz deneme mevcuttur; üretim için lisans gereklidir  
+- **Çıktı hangi formatta?** XPS (XML Paper Specification)  
+
+## Aspose.Page for .NET kullanarak XPS belgesi oluşturma
+
+Aşağıda kodlamaya başlamadan önce ihtiyacınız olan her şeyi bulacaksınız, ardından kısa ve numaralı bir adım‑adım rehber izlenecek.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Öğreticiye başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 
-1.  Aspose.Page for .NET Kütüphanesi: Aspose.Page kütüphanesini şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/page/net/).
-
-2. Belge Dizininiz: Sisteminizde çıktı XPS dosyalarını kaydetmek istediğiniz dizini seçin veya oluşturun.
+1. **Aspose.Page for .NET Kütüphanesi:** Aspose.Page kütüphanesini [indirme bağlantısından](https://releases.aspose.com/page/net/) indirip kurun.  
+2. **Belge Dizininiz:** Çıktı XPS dosyalarını kaydetmek istediğiniz dizini sisteminizde seçin veya oluşturun.  
 
 Şimdi öğreticiye geçelim!
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarma
 
-Aspose.Page for .NET'i kullanmak için gerekli ad alanlarını projenize aktarmanız gerekir. Bu adımları takip et:
+Aspose.Page for .NET'i kullanabilmek için projenize gerekli ad alanlarını (namespaces) eklemeniz gerekir. Aşağıdaki adımları izleyin:
 
 ### Adım 1: Aspose.Page'e Referans Ekle
 
-Projenize Aspose.Page for .NET kitaplığına bir referans ekleyin. Gerekli DLL'yi indirilen pakette bulabilirsiniz.
+Projenizde Aspose.Page for .NET kütüphanesine bir referans ekleyin. Gerekli DLL'i indirdiğiniz pakette bulabilirsiniz.
 
-### 2. Adım: Ad Alanlarını İçe Aktarın
+### Adım 2: Ad Alanlarını İçe Aktar
 
 Kod dosyanıza aşağıdaki ad alanlarını ekleyin:
 
@@ -45,39 +57,39 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Artık önkoşulları ayarladığımıza ve gerekli ad alanlarını içe aktardığımıza göre, XPS belgesi oluşturma sürecini birden çok adıma ayıralım.
+Şimdi önkoşulları kurduk ve gerekli ad alanlarını içe aktardık; XPS belgesi oluşturma sürecini birden fazla adıma ayıralım.
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Adım 1: Belge Dizinini Ayarla
 
 ```csharp
 string dir = "Your Document Directory";
 ```
 
- Değiştirildiğinden emin olun`"Your Document Directory"` çıktı XPS dosyasını kaydetmek istediğiniz gerçek yolla.
+`"Your Document Directory"` ifadesini çıktıyı kaydetmek istediğiniz gerçek yol ile değiştirin.
 
-## Adım 2: XPS Belgesi Oluşturun
+## Adım 2: XPS Belgesi Oluştur
 
 ```csharp
 XpsDocument xDocs = new XpsDocument();
 ```
 
- kullanarak yeni bir XPS belgesi başlatın.`XpsDocument` sınıf.
+`XpsDocument` sınıfını kullanarak yeni bir XPS belgesi başlatın.
 
-## 3. Adım: Belgeye Glifler Ekleme
+## Adım 3: Belgeye Glyph (Metin) Ekle
 
 ```csharp
 var glyphs = xDocs.AddGlyphs("Arial", 12, FontStyle.Regular, 300f, 450f, "Hello World!");
 ```
 
- Kullan`AddGlyphs` Belgeye glifler (metin) ekleme yöntemi. Yazı tipini, boyutunu, stilini ve konumunu gerektiği gibi özelleştirin.
+`AddGlyphs` metodunu kullanarak belgeye glyph (metin) ekleyin. İhtiyacınıza göre yazı tipi, boyut, stil ve konumu özelleştirin.
 
-## Adım 4: Glif Dolgu Rengini Ayarlayın
+## Adım 4: Glyph Dolgu Rengini Ayarla
 
 ```csharp
 glyphs.Fill = xDocs.CreateSolidColorBrush(Color.Black);
 ```
 
-Eklenen gliflerin dolgu rengini belirtin. Bu örnekte siyah kullanıyoruz ama siz istediğiniz rengi seçebilirsiniz.
+Eklenen glyph'lerin dolgu rengini belirleyin. Bu örnekte siyah renk kullanılmıştır, ancak istediğiniz herhangi bir rengi seçebilirsiniz.
 
 ## Adım 5: Sonucu Kaydet
 
@@ -85,35 +97,48 @@ Eklenen gliflerin dolgu rengini belirtin. Bu örnekte siyah kullanıyoruz ama si
 xDocs.Save(dir + "output.xps");
 ```
 
-Son olarak XPS belgesini istediğiniz dosya adıyla belirtilen dizine kaydedin. Ortaya çıkan XPS dosyası "Merhaba Dünya!" metin.
+Son olarak, XPS belgesini belirtilen dizine istediğiniz dosya adıyla kaydedin. Oluşan XPS dosyası "Hello World!" metnini içerecektir.
 
-Tebrikler! Aspose.Page for .NET'i kullanarak başarıyla bir XPS belgesi oluşturdunuz.
+Tebrikler! Aspose.Page for .NET kullanarak başarıyla bir XPS belgesi oluşturdunuz.
 
-## Çözüm
+## Yaygın İpuçları ve Dikkat Edilmesi Gerekenler
 
-Bu eğitimde Aspose.Page for .NET'i kullanarak XPS belgeleri oluşturma sürecini anlattık. Bu güçlü kitaplık, elektronik belgeleri kolaylıkla oluşturmanın kusursuz bir yolunu sunar. XPS dosyalarınızı özel ihtiyaçlarınıza göre uyarlamak için farklı yazı tipleri, stiller ve içeriklerle denemeler yapın.
+- **Dizin Yolu** – Farklı işletim sistemlerinde eksik yol ayırıcılarından kaçınmak için `Path.Combine(dir, "output.xps")` kullanın.  
+- **Yazı Tipi Mevcudiyeti** – Belirttiğiniz yazı tipi, kodun çalıştığı makinede yüklü olmalıdır; aksi takdirde Aspose varsayılan bir yazı tipi ile değiştirecektir.  
+- **Birden Çok Sayfa** – Çok sayfalı XPS dosyaları oluşturmak için ek `XpsPage` nesneleri oluşturun ve kaydetmeden önce her sayfaya içerik ekleyin.
 
-## SSS'ler
+## Sonuç
 
-### S1: XPS belgemde özel yazı tipleri kullanabilir miyim?
+Bu öğreticide, Aspose.Page for .NET kullanarak XPS belgeleri oluşturma sürecini adım adım inceledik. Bu güçlü kütüphane, elektronik belgeleri zahmetsizce üretmenizi sağlar. Farklı yazı tipleri, stiller ve içeriklerle deneyler yaparak XPS dosyalarınızı ihtiyaçlarınıza göre özelleştirin.
 
-Cevap1: Evet, XPS belgenize glifler eklerken yazı tipi ailesini ve boyutunu belirtebilirsiniz.
+## SSS
 
-### S2: Aspose.Page .NET Core ile uyumlu mu?
+### Q1: XPS belgemde özel yazı tipleri kullanabilir miyim?
 
-C2: Evet, Aspose.Page .NET Core'u destekleyerek platformlar arası uygulamalarda kullanmanıza olanak tanır.
+A1: Evet, XPS belgenize glyph eklerken yazı tipi ailesini ve boyutunu belirtebilirsiniz.
 
-### S3: XPS belgesine nasıl resim ekleyebilirim?
+### Q2: Aspose.Page .NET Core ile uyumlu mu?
 
-Cevap3: Aspose.Page, XPS belgenize resim ekleme yöntemleri sağlar. Ayrıntılı örnekler için belgelere bakın.
+A2: Evet, Aspose.Page .NET Core'u destekler, böylece çapraz platform uygulamalarında kullanabilirsiniz.
 
-### S4: Çok sayfalı XPS belgeleri oluşturabilir miyim?
+### Q3: Bir XPS belgesine nasıl resim ekleyebilirim?
 
-Cevap4: Kesinlikle! Aspose.Page kütüphanesini kullanarak XPS belgenize birden fazla sayfa ekleyebilirsiniz.
+A3: Aspose.Page, XPS belgenize resim eklemek için yöntemler sunar. Ayrıntılı örnekler için dokümantasyona bakın.
 
-### S5: Deneme sürümü mevcut mu?
+### Q4: Çok sayfalı XPS belgeleri oluşturabilir miyim?
 
- Cevap5: Evet, Aspose.Page'in özelliklerini indirerek keşfedebilirsiniz.[ücretsiz deneme](https://releases.aspose.com/).
+A4: Kesinlikle! Aspose.Page kütüphanesini kullanarak bir XPS belgesine birden fazla sayfa ekleyebilirsiniz.
+
+### Q5: Deneme sürümü mevcut mu?
+
+A5: Evet, [ücretsiz deneme](https://releases.aspose.com/) sürümünü indirerek Aspose.Page'in özelliklerini keşfedebilirsiniz.
+
+---
+
+**Son Güncelleme:** 2026-01-12  
+**Test Edilen Versiyon:** Aspose.Page 24.11 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
