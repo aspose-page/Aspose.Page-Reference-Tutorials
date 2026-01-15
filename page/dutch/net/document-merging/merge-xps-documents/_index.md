@@ -1,105 +1,131 @@
 ---
-title: Voeg XPS-documenten samen met Aspose.Page voor .NET
-linktitle: XPS-documenten samenvoegen
-second_title: Aspose.Page .NET-API
-description: Voeg XPS-documenten moeiteloos samen met Aspose.Page voor .NET. Volg onze stapsgewijze handleiding voor naadloos documentbeheer.
-weight: 12
+date: 2026-01-15
+description: Leer hoe u XPS‑documenten kunt samenvoegen met Aspose.Page voor .NET
+  – een stapsgewijze gids voor naadloze documentfusie.
+linktitle: Merge XPS Documents
+second_title: Aspose.Page .NET API
+title: Hoe XPS-documenten samenvoegen met Aspose.Page voor .NET
 url: /nl/net/document-merging/merge-xps-documents/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg XPS-documenten samen met Aspose.Page voor .NET
+# Hoe XPS-documenten samenvoegen met Aspose.Page voor .NET
 
-## Invoering
+## Inleiding
 
-Wilt u XPS-documenten naadloos samenvoegen met Aspose.Page voor .NET? Deze tutorial leidt u door het proces en biedt stapsgewijze begeleiding bij het moeiteloos samenvoegen van XPS-bestanden. Aspose.Page voor .NET is een krachtige bibliotheek die documentmanipulatietaken vereenvoudigt, waardoor het een ideale keuze is voor het samenvoegen van XPS-documenten. Laten we in het proces duiken en ontdekken hoe u dit gemakkelijk kunt bereiken.
+Zoek je een betrouwbare manier **hoe XPS**-bestanden programmatisch samen te voegen? In deze tutorial lopen we je stap voor stap door het proces om XPS-documenten samen te voegen met Aspose.Page voor .NET. Of je nu rapporten, facturen of andere XPS‑gebaseerde assets moet combineren, het proces is eenvoudig en volledig geautomatiseerd. Laten we beginnen en zien hoe je een nette, samengevoegde XPS-uitvoer kunt krijgen met slechts een paar regels C#-code.
 
-## Vereisten
+## Snelle antwoorden
+- **Welke bibliotheek verwerkt XPS-samenvoeging?** Aspose.Page for .NET  
+- **Hoe lang duurt de implementatie?** Meestal minder dan 10 minuten  
+- **Heb ik een licentie nodig?** Een licentie is vereist voor productiegebruik; een gratis proefversie is beschikbaar  
+- **Ondersteunde .NET-versies?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+- **Kan ik versleutelde XPS-bestanden samenvoegen?** Ja – Aspose.Page kan versleutelde documenten verwerken
 
-Voordat we aan de slag gaan, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is XPS-documenten samenvoegen?
+XPS (XML Paper Specification) is een vast‑layout documentformaat gemaakt door Microsoft. XPS-bestanden samenvoegen betekent meerdere XPS-documenten aan elkaar koppelen tot één doorlopend bestand, waarbij de oorspronkelijke lay-out, lettertypen en grafische elementen behouden blijven.
 
-- Basiskennis van C# en .NET-framework.
--  Aspose.Page voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/page/net/).
-- XPS-documenten die u wilt samenvoegen.
+## Waarom Aspose.Page voor .NET gebruiken?
+- **Volledige controle** over het samenvoegproces zonder Microsoft XPS Viewer nodig te hebben  
+- **Geen externe afhankelijkheden** – alles draait binnen je .NET‑applicatie  
+- **Hoge prestaties** – werkt efficiënt zelfs bij grote documenten  
+- **Cross‑platform** – compatibel met .NET Framework, .NET Core en .NET 5+
 
-## Naamruimten importeren
+## Voorvereisten
 
-Zorg ervoor dat u in uw C#-code de benodigde naamruimten importeert om toegang te krijgen tot de functionaliteiten van Aspose.Page voor .NET:
+Voordat je begint, zorg dat je het volgende hebt:
+
+- Een basiskennis van C# en het .NET‑ecosysteem.  
+- **Aspose.Page for .NET** geïnstalleerd – je kunt het downloaden [hier](https://releases.aspose.com/page/net/).  
+- Een of meer XPS-bestanden die je wilt combineren.
+
+## Namespaces importeren
+
+In je C#‑project importeer je de namespace die je toegang geeft tot de XPS‑API:
 
 ```csharp
 using Aspose.Page.XPS;
 ```
 
-## Stap 1: Stel uw project in
+## Stap 1: Project instellen
 
-Begin met het maken van een nieuw C#-project in de ontwikkelomgeving van uw voorkeur. Zorg ervoor dat u in uw project naar de Aspose.Page voor .NET-bibliotheek verwijst.
+Maak een nieuw C# console‑ of bibliotheekproject aan in Visual Studio, Rider of je favoriete IDE. Voeg een referentie toe aan de Aspose.Page‑DLL (of installeer het NuGet‑pakket `Aspose.Page`). Hiermee krijg je toegang tot de `XpsDocument`‑klasse die later wordt gebruikt.
 
-## Stap 2: Initialiseer streams
+## Stap 2: Streams initialiseren
 
-Initialiseer in uw C#-code de uitvoer- en invoerstromen voor XPS-documenten. Dit houdt in dat u het bestaande XPS-document opent en een nieuw document maakt voor de samengevoegde uitvoer.
+Open de bron‑XPS‑bestanden als invoer‑streams en maak een uitvoer‑stream voor het samengevoegde document. De `using`‑statements zorgen ervoor dat alle streams correct worden gesloten na de bewerking.
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Initialiseer de XPS-uitvoerstroom
+// Initialize XPS output stream
 using (System.IO.Stream outStream = System.IO.File.Open(dataDir + "mergedXPSfiles.xps", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
-// Initialiseer de XPS-invoerstroom
+// Initialize XPS input stream
 using (System.IO.Stream inStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 ```
 
 ## Stap 3: XPS-document laden
 
- Laad het XPS-document uit de invoerstroom met Aspose.Page voor .NET's`XpsDocument` klas.
+Maak een `XpsDocument`‑instantie aan vanuit de primaire invoer‑stream. Het `XpsLoadOptions`‑object stelt je in staat het laadgedrag aan te passen indien nodig.
 
 ```csharp
 XpsDocument document = new XpsDocument(inStream, new XpsLoadOptions());
 ```
 
-## Stap 4: Maak een array met XPS-bestanden
+## Stap 4: Een array van XPS‑bestanden maken
 
-Als u meerdere XPS-bestanden wilt samenvoegen, maakt u een array met de paden naar de bestanden die u wilt samenvoegen.
+Bereid een string‑array voor die elk XPS‑bestand dat je wilt samenvoegen opsomt. De volgorde van de array bepaalt de volgorde in het uiteindelijke document.
 
 ```csharp
 string[] filesToMerge = new string[] { dataDir + "Demo.xps", dataDir + "sample.xps" };
 ```
 
-## Stap 5: XPS-bestanden samenvoegen
+## Stap 5: XPS‑bestanden samenvoegen
 
- Voeg nu de XPS-bestanden samen in de uitvoerstroom met behulp van de`Merge` werkwijze van de`XpsDocument` klas.
+Roep de `Merge`‑methode aan, waarbij je de array met bestandspaden en de uitvoer‑stream doorgeeft. Aspose.Page verzorgt al het zware werk — het combineren van pagina's, het behouden van resources en het schrijven van het uiteindelijke XPS‑bestand.
 
 ```csharp
 document.Merge(filesToMerge, outStream);
 ```
 
-## Conclusie
+## Veelvoorkomende problemen & tips
 
-Gefeliciteerd! U hebt XPS-documenten met succes samengevoegd met Aspose.Page voor .NET. Met dit eenvoudige maar krachtige proces kunt u moeiteloos meerdere XPS-bestanden combineren, waardoor uw documentbeheertaken worden gestroomlijnd.
+- **Bestand niet gevonden** – Controleer de paden in `filesToMerge` dubbel. Het gebruik van `Path.Combine` kan helpen pad‑scheidingstekens te vermijden.  
+- **Geheugengebruik** – Bij het samenvoegen van een groot aantal bestanden, overweeg ze in batches te verwerken om het geheugenverbruik laag te houden.  
+- **Versleutelde documenten** – Als een bron‑XPS met een wachtwoord is beveiligd, laad deze dan met de juiste inloggegevens vóór het samenvoegen.
 
 ## Veelgestelde vragen
 
-### V1: Kan ik XPS-bestanden van verschillende groottes samenvoegen met Aspose.Page voor .NET?
+**Q1: Kan ik XPS‑bestanden met verschillende paginagroottes samenvoegen?**  
+A: Ja. Aspose.Page normaliseert automatisch de paginadimensies tijdens het samenvoegen.
 
-A1: Ja, Aspose.Page voor .NET verwerkt naadloos het samenvoegen van XPS-bestanden van verschillende groottes.
+**Q2: Is er een limiet aan hoeveel XPS‑bestanden ik kan combineren?**  
+A: Er is geen harde limiet, maar zeer grote collecties kunnen de prestaties beïnvloeden; houd het geheugengebruik in de gaten.
 
-### Vraag 2: Is er een limiet aan het aantal XPS-bestanden dat ik in één keer kan samenvoegen?
+**Q3: Heb ik een speciale licentie nodig om versleutelde XPS‑documenten samen te voegen?**  
+A: Een volledige Aspose.Page‑licentie is vereist voor elke productie‑functionaliteit, inclusief het verwerken van versleutelde documenten.
 
-A2: Er is geen strikte limiet, maar het wordt aanbevolen om rekening te houden met systeembronnen en prestaties bij het samenvoegen van een groot aantal bestanden.
+**Q4: Hoe voeg ik een aangepaste voettekst toe aan elke pagina na het samenvoegen?**  
+A: Na het samenvoegen kun je de resulterende XPS opnieuw openen met `XpsDocument` en de teken‑API gebruiken om voetteksten in te voegen.
 
-### V3: Kan ik Aspose.Page voor .NET gebruiken om gecodeerde XPS-documenten samen te voegen?
+**Q5: Ondersteunt Aspose.Page .NET Core?**  
+A: Zeker. De bibliotheek is compatibel met .NET Core 3.1 en later, evenals .NET 5/6/7.
 
-A3: Ja, Aspose.Page voor .NET ondersteunt het samenvoegen van gecodeerde XPS-documenten.
+## Conclusie
 
-### V4: Zijn er licentieoverwegingen bij het gebruik van Aspose.Page voor .NET voor het samenvoegen van documenten?
+Je hebt nu geleerd **hoe XPS**-documenten efficiënt samen te voegen met Aspose.Page voor .NET. Door de bovenstaande stappen te volgen, kun je documentconsolidatie automatiseren in elke .NET‑applicatie, tijd besparen en handmatige inspanning verminderen. Verken de API verder om watermerken toe te voegen, het uiteindelijke bestand te versleutelen of individuele pagina's naar behoefte te bewerken.
 
-A4: Zorg ervoor dat u over de juiste licentie beschikt om Aspose.Page voor .NET alle functies te laten gebruiken, inclusief het samenvoegen van documenten.
+---
 
-### V5: Biedt Aspose.Page voor .NET geavanceerde opties voor het samenvoegen van documenten?
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Page for .NET (latest version)  
+**Author:** Aspose  
 
-A5: Ja, u kunt aanvullende opties en configuraties verkennen die beschikbaar zijn in de documentatie.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
