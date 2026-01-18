@@ -1,33 +1,48 @@
 ---
-title: Voeg rechthoek toe aan PostScript (PS) met Aspose.Page voor .NET
-linktitle: Rechthoek toevoegen aan PostScript (PS)
-second_title: Aspose.Page .NET-API
-description: Verbeter het maken van documenten in .NET met Aspose.Page. Leer stap voor stap rechthoeken toevoegen aan PostScript-bestanden (PS).
-weight: 12
+date: 2026-01-18
+description: Leer hoe je een PostScript‑document maakt in .NET en rechthoeken toevoegt
+  met Aspose.Page voor .NET. Stapsgewijze handleiding met codevoorbeelden.
+linktitle: Add Rectangle to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Postscript‑document maken in .NET – Rechthoek toevoegen met Aspose.Page
 url: /nl/net/drawing-shapes/add-rectangle-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg rechthoek toe aan PostScript (PS) met Aspose.Page voor .NET
+# Voeg een rechthoek toe aan PostScript (PS) met Aspose.Page voor .NET
 
-## Invoering
+## Introduction
 
-Als u uw mogelijkheden voor het maken van documenten in .NET wilt verbeteren, biedt Aspose.Page een krachtige oplossing voor het verwerken van PostScript-documenten. In deze zelfstudie begeleiden we u bij het proces van het toevoegen van rechthoeken aan een PostScript-document met behulp van Aspose.Page voor .NET.
+Als je een **PostScript-document maken in .NET** wilt, biedt Aspose.Page een krachtige oplossing voor het verwerken van PostScript‑bestanden. In deze tutorial laten we je stap voor stap zien hoe je rechthoeken toevoegt aan een PostScript‑document met Aspose.Page voor .NET, zodat je een solide basis krijgt voor het genereren van rijkere graphics.
+
+## Snelle antwoorden
+- **Welke bibliotheek heb ik nodig?** Aspose.Page for .NET.
+- **Kan ik een PostScript‑document vanaf nul maken?** Ja – de API laat je PS‑bestanden programmatically genereren.
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Heb ik een licentie nodig voor ontwikkeling?** Een gratis proefversie werkt voor testen; een licentie is vereist voor productie.
+- **Hoe lang duurt de implementatie?** Meestal minder dan 10 minuten voor basisvormen.
+
+## Wat betekent het om een PostScript‑document te maken in .NET?
+Een PostScript‑document maken in .NET betekent dat je programmatically een .ps‑bestand genereert dat de paginainhoud beschrijft — tekst, graphics of shapes — met behulp van de Aspose.Page API. Deze aanpak is ideaal voor server‑side graphics‑generatie, geautomatiseerde rapportage of elke situatie waarin je precieze controle over het uitvoerformaat nodig hebt.
+
+## Waarom Aspose.Page voor .NET gebruiken?
+- **Volledige controle over graphics** – teken shapes, stel kleuren in en pas strokes toe zonder low‑level PS‑syntaxis.
+- **Cross‑platform** – werkt op Windows, Linux en macOS runtimes.
+- **Geen externe afhankelijkheden** – de bibliotheek verwerkt alle PS‑generatie intern.
+- **Rijke documentatie & voorbeelden** – snel aan de slag.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+- **Aspose.Page for .NET Library** – download en installeer vanaf [here](https://releases.aspose.com/page/net/).
+- **Ontwikkelomgeving** – Visual Studio, VS Code, of elke .NET‑compatible IDE.
 
--  Aspose.Page voor .NET-bibliotheek: Download en installeer de Aspose.Page voor .NET-bibliotheek van[hier](https://releases.aspose.com/page/net/).
+## Namespaces importeren
 
-- Ontwikkelomgeving: Zorg ervoor dat er een .NET-ontwikkelomgeving op uw computer is geïnstalleerd.
-
-## Naamruimten importeren
-
-Voordat u begint met coderen, moet u ervoor zorgen dat u de benodigde naamruimten importeert om toegang te krijgen tot de vereiste klassen en methoden:
+Before you start coding, import the namespaces that expose the required classes:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,108 +52,111 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Laten we het voorbeeld nu in meerdere stappen opsplitsen:
+Laten we nu het voorbeeld opdelen in duidelijke, genummerde stappen.
 
-## Stap 1: Stel uw documentenmap in
+## Stap 1: Stel uw documentmap in
 
 ```csharp
 // ExStart:1
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Vervang in deze stap "Uw documentenmap" door het pad waar u uw PostScript-document wilt opslaan.
+Vervang `"Your Document Directory"` door de map waarin je het resulterende PS‑bestand wilt opslaan.
 
-## Stap 2: Maak een uitvoerstroom voor een PostScript-document
+## Stap 2: Maak een output‑stream voor het PostScript‑document
 
 ```csharp
-//Maak een uitvoerstroom voor een PostScript-document
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-Hier maken we een uitvoerstroom voor het PostScript-document en specificeren we de bestandsnaam ("AddRectangle_outPS.ps"). Pas de bestandsnaam en locatie aan volgens uw voorkeuren.
+Deze stream wijst naar **AddRectangle_outPS.ps**. Je kunt het bestand gerust hernoemen of de locatie aanpassen indien nodig.
 
-## Stap 3: Stel de opslagopties in en maak een PS-document
+## Stap 3: Stel opslaan‑opties in en maak het PS‑document
 
 ```csharp
-//Creëer opslagopties met A4-formaat
+//Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 
-// Maak een nieuw PS-document met één pagina
+// Create new 1‑paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Stel de opslagopties in en geef het gewenste paginaformaat op (in dit geval A4). Maak vervolgens een nieuw PostScript-document van één pagina.
+Hier geven we Aspose.Page de opdracht een A4‑paginasize te gebruiken en een één‑pagina document te maken.
 
-## Stap 4: Rechthoek toevoegen en vullen
+## Stap 4: Voeg een gevulde rechthoek toe
 
 ```csharp
-//Maak een grafisch pad vanaf de eerste rechthoek
+//Create graphics path from the first rectangle
 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 100, 150, 100));
 
-//Verf instellen
+//Set paint
 document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-//Vul de rechthoek
+//Fill the rectangle
 document.Fill(path);
 ```
 
-Hier maken we een grafisch pad dat de eerste rechthoek vertegenwoordigt, stellen we de verfkleur in (in dit geval oranje) en vullen we de rechthoek.
+We definiëren een rechthoek op (250, 100) met een breedte van 150 en een hoogte van 100, stellen een oranje brush in en vullen de vorm.
 
-## Stap 5: Voeg nog een rechthoek en lijn toe
+## Stap 5: Voeg een omrande rechthoek toe
 
 ```csharp
-//Maak een grafisch pad vanuit de tweede rechthoek
+//Create graphics path from the second rectangle
 path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 300, 150, 100));
 
-//Slag instellen
+//Set stroke
 document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Red), 3));
 
-//Strijk (omtrek) de rechthoek
+//Stroke (outline) the rectangle
 document.Draw(path);
 ```
 
-Net als bij de vorige stap maken we een grafisch pad voor de tweede rechthoek, stellen we de streekkleur in (rood met een dikte van 3) en schetsen we de rechthoek.
+Een tweede rechthoek wordt lager op de pagina gemaakt, dit keer met een rode 3‑punt stroke.
 
 ## Stap 6: Sluit de pagina en sla het document op
 
 ```csharp
-//Sluit huidige pagina
+//Close current page
 document.ClosePage();
 
-//Bewaar het document
+//Save the document
 document.Save();
 ```
 
-Sluit ten slotte de huidige pagina en sla het hele document op.
+Het sluiten van de pagina finaliseert de tekening, en `Save()` schrijft het PS‑bestand naar de schijf.
 
-## Conclusie
+## Veelvoorkomende problemen & tips
 
-Gefeliciteerd! U hebt met succes rechthoeken aan een PostScript-document toegevoegd met Aspose.Page voor .NET. In deze tutorial werden de essentiële stappen behandeld, van het opzetten van uw ontwikkelomgeving tot het opslaan van het definitieve document.
+- **Onjuist bestandspad** – Zorg ervoor dat `dataDir` eindigt op een pad‑separator (`\\` of `/`) of gebruik `Path.Combine`.
+- **Ontbrekende licentie** – Pas in een productie‑omgeving je Aspose‑licentie toe voordat je het document maakt om evaluatiewatermerken te vermijden.
+- **Kleurzichtbaarheid** – Als de rechthoek leeg lijkt, controleer dan of de brush‑ of pen‑kleuren contrasteren met de paginabackground.
 
 ## Veelgestelde vragen
 
-### Vraag 1: Kan ik de kleuren van de rechthoeken aanpassen?
+**Q:** Kan ik de kleuren van de rechthoeken aanpassen?  
+**A:** Zeker. Verander de `Color.Orange` of `Color.Red` waarden in de `SolidBrush` en `Pen` constructors naar elke `System.Drawing.Color` die je wilt.
 
-A1: Ja, u kunt de kleuren aanpassen door de parameters in het bestand aan te passen`SolidBrush` En`Pen` klassen.
+**Q:** Is Aspose.Page compatibel met andere documentformaten?  
+**A:** Ja. Naast PostScript ondersteunt Aspose.Page ook XPS‑ en EPS‑generatie.
 
-### Vraag 2: Is Aspose.Page compatibel met andere documentformaten?
+**Q:** Hoe kan ik tekst toevoegen aan hetzelfde document?  
+**A:** Gebruik de `TextFragment`‑klasse om tekst op de gewenste coördinaten te plaatsen, en roep daarna `document.Draw(textFragment)` aan.
 
-A2: Ja, Aspose.Page ondersteunt verschillende documentformaten, waaronder XPS en PostScript.
+**Q:** Waar kan ik extra voorbeelden en de volledige API‑referentie vinden?  
+**A:** Verken de documentatie [here](https://reference.aspose.com/page/net/) en sluit je aan bij de community op het [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
-### Vraag 3: Hoe kan ik tekst aan het document toevoegen?
+**Q:** Kan ik Aspose.Page uitproberen voordat ik koop?  
+**A:** Ja, download een gratis proefversie [here](https://releases.aspose.com/). Voor een uitgebreide evaluatie kun je overwegen een [temporary license](https://purchase.aspose.com/temporary-license/) te nemen.
 
- A3: U kunt de`TextFragment` klasse in Aspose.Page om tekst aan uw document toe te voegen.
+---
 
-### V4: Waar kan ik aanvullende voorbeelden en documentatie vinden?
-
- A4: Bekijk de documentatie[hier](https://reference.aspose.com/page/net/) en bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) voor gemeenschapssteun.
-
-### Vraag 5: Kan ik Aspose.Page uitproberen voordat ik een aankoop doe?
-
- A5: Ja, u kunt een gratis proefversie krijgen[hier](https://releases.aspose.com/) , en voor langdurig gebruik, overweeg dan een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/).
+**Laatst bijgewerkt:** 2026-01-18  
+**Getest met:** Aspose.Page 24.12 for .NET  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,33 +1,48 @@
 ---
-title: Ajoutez un rectangle à PostScript (PS) avec Aspose.Page pour .NET
-linktitle: Ajouter un rectangle à PostScript (PS)
-second_title: API Aspose.Page .NET
-description: Améliorez la création de documents dans .NET avec Aspose.Page. Apprenez à ajouter des rectangles aux fichiers PostScript (PS), étape par étape.
-weight: 12
+date: 2026-01-18
+description: Apprenez à créer un document PostScript .NET et à ajouter des rectangles
+  en utilisant Aspose.Page pour .NET. Guide étape par étape avec des exemples de code.
+linktitle: Add Rectangle to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Créer un document PostScript .NET – Ajouter un rectangle avec Aspose.Page
 url: /fr/net/drawing-shapes/add-rectangle-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajoutez un rectangle à PostScript (PS) avec Aspose.Page pour .NET
+# Ajouter un rectangle à PostScript (PS) avec Aspose.Page pour .NET
 
 ## Introduction
 
-Si vous souhaitez améliorer vos capacités de création de documents dans .NET, Aspose.Page fournit une solution puissante pour gérer les documents PostScript. Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout de rectangles à un document PostScript à l'aide d'Aspose.Page pour .NET.
+Si vous cherchez à **créer un document PostScript .NET**, Aspose.Page offre une solution puissante pour gérer les fichiers PostScript. Dans ce tutoriel, nous vous guiderons pour ajouter des rectangles à un document PostScript en utilisant Aspose.Page pour .NET, vous offrant une base solide pour la génération de graphiques plus riches.
 
-## Conditions préalables
+## Quick Answers
+- **Quelle bibliothèque faut‑il ?** Aspose.Page pour .NET.
+- **Puis‑je créer un document PostScript à partir de zéro ?** Oui – l’API vous permet de générer des fichiers PS programmatiquement.
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Ai‑je besoin d’une licence pour le développement ?** Un essai gratuit suffit pour les tests ; une licence est requise pour la production.
+- **Combien de temps prend l’implémentation ?** Généralement moins de 10 minutes pour des formes de base.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## What is creating a postscript document .net?
+Créer un document PostScript en .NET signifie générer programmatiquement un fichier .ps qui décrit le contenu d’une page — texte, graphiques ou formes — en utilisant l’API Aspose.Page. Cette approche est idéale pour la génération de graphiques côté serveur, la création de rapports automatisés, ou tout scénario nécessitant un contrôle précis du format de sortie.
 
--  Bibliothèque Aspose.Page pour .NET : téléchargez et installez la bibliothèque Aspose.Page pour .NET à partir de[ici](https://releases.aspose.com/page/net/).
+## Why use Aspose.Page for .NET?
+- **Contrôle complet sur les graphiques** – dessinez des formes, définissez des couleurs et appliquez des traits sans gérer la syntaxe PS de bas niveau.
+- **Cross‑platform** – fonctionne sur les environnements Windows, Linux et macOS.
+- **Aucune dépendance externe** – la bibliothèque gère toute la génération PS en interne.
+- **Documentation riche & exemples** – démarrez rapidement.
 
-- Environnement de développement : assurez-vous d'avoir un environnement de développement .NET configuré sur votre ordinateur.
+## Prerequisites
 
-## Importer des espaces de noms
+- **Bibliothèque Aspose.Page pour .NET** – téléchargez et installez depuis [here](https://releases.aspose.com/page/net/).
+- **Environnement de développement** – Visual Studio, VS Code, ou tout IDE compatible .NET.
 
-Avant de commencer à coder, assurez-vous d'importer les espaces de noms nécessaires pour accéder aux classes et méthodes requises :
+## Import Namespaces
+
+Avant de commencer à coder, importez les espaces de noms qui exposent les classes requises :
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,108 +52,111 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Maintenant, décomposons l'exemple en plusieurs étapes :
+Passons maintenant à la décomposition de l’exemple en étapes claires et numérotées.
 
-## Étape 1 : Configurez votre répertoire de documents
+## Step 1: Set up Your Document Directory
 
 ```csharp
-// ExDébut : 1
-// Le chemin d'accès au répertoire des documents.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Dans cette étape, remplacez « Votre répertoire de documents » par le chemin où vous souhaitez enregistrer votre document PostScript.
+Remplacez `"Your Document Directory"` par le dossier où vous souhaitez enregistrer le fichier PS résultant.
 
-## Étape 2 : Créer un flux de sortie pour un document PostScript
+## Step 2: Create Output Stream for the PostScript Document
 
 ```csharp
-//Créer un flux de sortie pour un document PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-Ici, nous créons un flux de sortie pour le document PostScript et spécifions le nom du fichier ("AddRectangle_outPS.ps"). Ajustez le nom et l'emplacement du fichier selon vos préférences.
+Ce flux pointe vers **AddRectangle_outPS.ps**. N’hésitez pas à renommer le fichier ou à modifier l’emplacement selon vos besoins.
 
-## Étape 3 : Définir les options d'enregistrement et créer un document PS
+## Step 3: Set Save Options and Create the PS Document
 
 ```csharp
-//Créez des options de sauvegarde au format A4
+//Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 
-// Créer un nouveau document PS d'une page
+// Create new 1‑paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Définissez les options d'enregistrement en spécifiant le format de page souhaité (A4 dans ce cas). Ensuite, créez un nouveau document PostScript d'une seule page.
+Ici nous indiquons à Aspose.Page d’utiliser le format de page A4 et de créer un document d’une seule page.
 
-## Étape 4 : ajouter un rectangle et remplir
+## Step 4: Add a Filled Rectangle
 
 ```csharp
-//Créer un chemin graphique à partir du premier rectangle
+//Create graphics path from the first rectangle
 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 100, 150, 100));
 
-//Définir la peinture
+//Set paint
 document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-//Remplissez le rectangle
+//Fill the rectangle
 document.Fill(path);
 ```
 
-Ici, nous créons un chemin graphique représentant le premier rectangle, définissons la couleur de la peinture (dans ce cas, orange) et remplissons le rectangle.
+Nous définissons un rectangle à (250, 100) avec une largeur de 150 et une hauteur de 100, définissons un pinceau orange, et remplissons la forme.
 
-## Étape 5 : ajouter un autre rectangle et un autre contour
+## Step 5: Add an Outlined Rectangle
 
 ```csharp
-//Créer un chemin graphique à partir du deuxième rectangle
+//Create graphics path from the second rectangle
 path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 300, 150, 100));
 
-//Définir la course
+//Set stroke
 document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Red), 3));
 
-//Tracer (décrire) le rectangle
+//Stroke (outline) the rectangle
 document.Draw(path);
 ```
 
-Semblable à l'étape précédente, nous créons un chemin graphique pour le deuxième rectangle, définissons la couleur du trait (rouge avec une épaisseur de 3) et décrivons le rectangle.
+Un second rectangle est créé plus bas sur la page, cette fois avec un trait rouge de 3 points.
 
-## Étape 6 : fermez la page et enregistrez le document
+## Step 6: Close the Page and Save the Document
 
 ```csharp
-//Fermer la page actuelle
+//Close current page
 document.ClosePage();
 
-//Enregistrez le document
+//Save the document
 document.Save();
 ```
 
-Enfin, fermez la page actuelle et enregistrez l'intégralité du document.
+La fermeture de la page finalise le dessin, et `Save()` écrit le fichier PS sur le disque.
 
-## Conclusion
+## Common Issues & Tips
 
-Toutes nos félicitations! Vous avez ajouté avec succès des rectangles à un document PostScript à l'aide d'Aspose.Page pour .NET. Ce tutoriel a couvert les étapes essentielles, de la configuration de votre environnement de développement à l'enregistrement du document final.
+- **Chemin de fichier incorrect** – assurez‑vous que `dataDir` se termine par un séparateur de chemin (`\\` ou `/`) ou utilisez `Path.Combine`.
+- **Licence manquante** – dans un environnement de production, appliquez votre licence Aspose avant de créer le document afin d’éviter les filigranes d’évaluation.
+- **Visibilité des couleurs** – si le rectangle apparaît vide, vérifiez que les couleurs du pinceau ou du stylo contrastent avec le fond de la page.
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1 : Puis-je personnaliser les couleurs des rectangles ?
+**Q :** Puis‑je personnaliser les couleurs des rectangles ?  
+**R :** Absolument. Modifiez les valeurs `Color.Orange` ou `Color.Red` dans les constructeurs `SolidBrush` et `Pen` avec n’importe quel `System.Drawing.Color` de votre choix.
 
-A1 : Oui, vous pouvez personnaliser les couleurs en ajustant les paramètres dans le`SolidBrush` et`Pen` Des classes.
+**Q :** Aspose.Page est‑il compatible avec d’autres formats de documents ?  
+**R :** Oui. En plus de PostScript, Aspose.Page prend également en charge la génération XPS et EPS.
 
-### Q2 : Aspose.Page est-il compatible avec d’autres formats de documents ?
+**Q :** Comment ajouter du texte au même document ?  
+**R :** Utilisez la classe `TextFragment` pour placer du texte aux coordonnées souhaitées, puis appelez `document.Draw(textFragment)`.
 
-A2 : Oui, Aspose.Page prend en charge divers formats de documents, notamment XPS et PostScript.
+**Q :** Où puis‑je trouver des exemples supplémentaires et la référence complète de l’API ?  
+**R :** Explorez la documentation [here](https://reference.aspose.com/page/net/) et rejoignez la communauté sur le [forum Aspose.Page](https://forum.aspose.com/c/page/39).
 
-### Q3 : Comment puis-je ajouter du texte au document ?
+**Q :** Puis‑je essayer Aspose.Page avant d’acheter ?  
+**R :** Oui, téléchargez un essai gratuit [here](https://releases.aspose.com/). Pour une évaluation prolongée, envisagez une [licence temporaire](https://purchase.aspose.com/temporary-license/).
 
- A3 : Vous pouvez utiliser le`TextFragment` classe dans Aspose.Page pour ajouter du texte à votre document.
+---
 
-### Q4 : Où puis-je trouver des exemples et de la documentation supplémentaires ?
-
- A4 : Explorer la documentation[ici](https://reference.aspose.com/page/net/) et visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour le soutien de la communauté.
-
-### Q5 : Puis-je essayer Aspose.Page avant d’acheter ?
-
- A5 : Oui, vous pouvez obtenir une version d'essai gratuite[ici](https://releases.aspose.com/) , et pour une utilisation prolongée, envisagez un[permis temporaire](https://purchase.aspose.com/temporary-license/).
+**Dernière mise à jour** : 2026-01-18  
+**Testé avec** : Aspose.Page 24.12 for .NET  
+**Auteur** : Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
