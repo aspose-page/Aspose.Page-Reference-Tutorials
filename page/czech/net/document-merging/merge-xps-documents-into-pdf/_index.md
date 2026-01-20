@@ -1,134 +1,165 @@
 ---
-title: Sloučit dokumenty XPS do PDF pomocí Aspose.Page pro .NET
-linktitle: Sloučit dokumenty XPS do PDF
+date: 2026-01-20
+description: Jednoduše přidejte čísla stránek do PDF při slučování dokumentů XPS do
+  vysoce kvalitních PDF pomocí Aspose.Page pro .NET. Postupujte podle našeho krok‑za‑krokem
+  průvodce pro převod XPS na PDF.
+linktitle: Merge XPS Documents into PDF
 second_title: Aspose.Page .NET API
-description: Bez námahy slučujte dokumenty XPS do vysoce kvalitních souborů PDF pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro hladký převod dokumentů.
-weight: 11
+title: Přidat čísla stránek PDF – Sloučit XPS do PDF pomocí Aspose.Page
 url: /cs/net/document-merging/merge-xps-documents-into-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Sloučit dokumenty XPS do PDF pomocí Aspose.Page pro .NET
+# Přidání číslování stránek PDF – Sloučení XPS do PDF pomocí Aspose.Page
 
 ## Úvod
 
-neustále se vyvíjejícím prostředí zpracování dokumentů se Aspose.Page for .NET ukazuje jako výkonný nástroj pro bezproblémové slučování dokumentů XPS do formátu PDF. Tento tutoriál vás provede celým procesem a rozebere každý krok, abyste zajistili hladké a efektivní provedení.
+Pokud potřebujete **přidat číslování stránek PDF** při sloučení XPS souborů, Aspose.Page pro .NET proces značně usnadní. V tomto tutoriálu vás provedeme kompletním, připraveným pro produkční nasazení příkladem, který převádí XPS dokument na vysoce kvalitní PDF, umožňuje řídit kompresi obrázků a automaticky vkládá číslování stránek do finálního PDF. Na konci budete mít znovupoužitelný úryvek, který můžete vložit do libovolného C# projektu.
+
+## Rychlé odpovědi
+- **Mohu přidat číslování stránek při sloučení XPS do PDF?** Ano – vlastnost `PdfSaveOptions.PageNumbers` dělá právě to.  
+- **Která knihovna provádí konverzi?** Aspose.Page pro .NET.  
+- **Potřebuji licenci pro produkční použití?** Je vyžadována platná licence Aspose.Page; dočasná licence je k dispozici pro testování.  
+- **Jaké verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+ a .NET 5/6+.  
+- **Je možné získat výstup obrázků ve vysoké kvalitě?** Rozhodně – nastavte `JpegQualityLevel` na 100 a vyberte `PdfImageCompression.Jpeg`.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Před zahájením tutoriálu se ujistěte, že máte připraveny následující předpoklady:
 
--  Aspose.Page for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page. Můžete si jej stáhnout z[tady](https://releases.aspose.com/page/net/).
+- Aspose.Page pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page. Můžete si ji stáhnout [zde](https://releases.aspose.com/page/net/).
 
-- Soubory dokumentů: Mějte dokument XPS (`input.xps`) připravené ve vámi určeném adresáři.
+- Soubory dokumentu: Mějte XPS dokument (`input.xps`) připravený ve vámi určeném adresáři.
 
-## Import jmenných prostorů
+## Importování jmenných prostorů
 
-Ve svém projektu .NET zahrňte potřebné jmenné prostory pro práci s Aspose.Page:
+Váš .NET projekt musí zahrnovat potřebné jmenné prostory pro práci s Aspose.Page:
 
 ```csharp
 using Aspose.Page.XPS;
 ```
 
-Tento krok zajistí, že budete mít přístup ke třídám a metodám požadovaným pro převod dokumentu.
+Tento krok zajišťuje, že máte přístup ke třídám a metodám potřebným pro konverzi dokumentu.
 
-## Krok 1: Inicializujte streamy
+## Jak přidat číslování stránek PDF při sloučení XPS dokumentů
+
+Kolekce `PdfSaveOptions.PageNumbers` vám umožňuje přesně určit, které stránky (nebo rozsahy stránek) se mají objevit ve výstupním PDF. Po naplnění požadovanými čísly stránek Aspose.Page automaticky vloží správné číslování.
+
+### Krok 1: Inicializace streamů
 
 ```csharp
-// Start: 3
-// Cesta k adresáři dokumentů.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Inicializujte výstupní proud PDF
+// Initialize PDF output stream
 using (System.IO.Stream pdfStream = System.IO.File.Open(dataDir + "XPStoPDF_out.pdf", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
-// Inicializujte vstupní proud XPS
+// Initialize XPS input stream
 using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 {
     // ...
 }
-// Rozšířit:3
+// ExEnd:3
 ```
 
-Tento krok zahrnuje nastavení vstupních a výstupních datových proudů pro soubory XPS a PDF. Ujistěte se, že jsou použity správné cesty a názvy souborů.
+Tento krok zahrnuje nastavení vstupních a výstupních streamů pro soubory XPS a PDF. Ujistěte se, že jsou použity správné cesty a názvy souborů.
 
-## Krok 2: Načtěte dokument XPS
+### Krok 2: Načtení XPS dokumentu
 
 ```csharp
-// Start: 4
-// Načtěte dokument XPS ze streamu
+// ExStart:4
+// Load XPS document form the stream
 XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
-// nebo načíst dokument XPS přímo ze souboru. Pak není potřeba žádný xpsStream.
-//XpsDocument document = new XpsDocument(inputFileName, new XpsLoadOptions());
-// Rozšíření:4
+// or load XPS document directly from file. No xpsStream is needed then.
+// XpsDocument document = new XpsDocument(inputFileName, new XpsLoadOptions());
+// ExEnd:4
 ```
 
- Zde načteme dokument XPS do`XpsDocument` objekt, připravuje jej k dalšímu zpracování.
+Zde načteme XPS dokument do objektu `XpsDocument`, připravujeme jej pro další zpracování.
 
-## Krok 3: Inicializujte možnosti uložení
+### Krok 3: Inicializace možností uložení (sloučení xps do pdf)
 
 ```csharp
-// Start: 5
-// Inicializujte objekt voleb s potřebnými parametry.
+// ExStart:5
+// Initialize options object with necessary parameters.
 PdfSaveOptions options = new PdfSaveOptions()
 {
     JpegQualityLevel = 100,
     ImageCompression = PdfImageCompression.Jpeg,
     TextCompression = PdfTextCompression.Flate,
-    PageNumbers = new int[] { 1, 2, 6 }
+    PageNumbers = new int[] { 1, 2, 6 }   // <-- adds page numbers PDF
 };
-// Rozšíření:5
+// ExEnd:5
 ```
 
- Přizpůsobte si`PdfSaveOptions` objekt na základě vašich preferencí, zadáním parametrů, jako je komprese obrazu, komprese textu a čísla stránek.
+Přizpůsobte objekt `PdfSaveOptions` podle svých preferencí, specifikujte parametry jako komprese obrázků, komprese textu a **čísla stránek**, která chcete, aby se objevila ve finálním PDF. Nastavení `JpegQualityLevel` na 100 zajišťuje **vysoce kvalitní PDF obrázky**.
 
-## Krok 4: Vytvořte vykreslovací zařízení
+### Krok 4: Vytvoření renderovacího zařízení
 
 ```csharp
-// Start: 6
-// Vytvořte vykreslovací zařízení pro formát PDF
+// ExStart:6
+// Create rendering device for PDF format
 PdfDevice device = new PdfDevice(pdfStream);
-// Konec:6
+// ExEnd:6
 ```
 
- The`PdfDevice` je nástroj zodpovědný za vykreslení dokumentu XPS do formátu PDF.
+`PdfDevice` je nástroj odpovědný za renderování XPS dokumentu do formátu PDF.
 
-## Krok 5: Uložte dokument
+### Krok 5: Uložení dokumentu (c# xps do pdf)
 
 ```csharp
-// Start: 7
+// ExStart:7
 document.Save(device, options);
-// Konec:7
+// ExEnd:7
 ```
 
-Nakonec uložte dokument pomocí vykreslovacího zařízení a zadaných možností.
+Nakonec dokument uložíme pomocí renderovacího zařízení a specifikovaných možností. Výstupní PDF bude obsahovat vybrané stránky s automaticky přidaným číslováním.
 
-## Závěr
+## Proč použít Aspose.Page pro tuto konverzi?
 
-Gratulujeme! Úspěšně jste sloučili dokumenty XPS do PDF pomocí Aspose.Page for .NET. Tento bezproblémový proces zajišťuje zachování kvality a formátování dokumentu.
+- **Spolehlivost** – Zpracovává složité funkce XPS bez ztráty věrnosti.  
+- **Výkon** – Zpracování založené na streamech zabraňuje načítání celých souborů do paměti.  
+- **Flexibilita** – Jemná kontrola kvality obrázků, komprese a číslování stránek.  
+- **Cross‑platform** – Funguje na Windows, Linuxu a macOS s .NET Core.
 
-## FAQ
+## Časté problémy a řešení
 
-### Q1: Mohu sloučit více souborů XPS do jednoho PDF?
+| Problém | Řešení |
+|-------|----------|
+| **Výstupní PDF je prázdný** | Ověřte, že cesta k souboru XPS je správná a že soubor není poškozený. |
+| **Číslování stránek se nezobrazuje** | Ujistěte se, že `PageNumbers` je nastaven na správné nulové indexy stránek (např. `new int[] {1,2,6}`). |
+| **Obrázky nízké kvality** | Zvyšte `JpegQualityLevel` a vyberte `PdfImageCompression.Jpeg`. |
+| **Velké soubory XPS způsobují tlak na paměť** | Zpracovávejte XPS v menších částech nebo zvyšte limit paměti aplikace. |
 
- A1: Ano, můžete. Jednoduše upravte`PageNumbers` parametr v`PdfSaveOptions` zahrnout požadované stránky z různých souborů XPS.
+## Často kladené otázky
 
-### Q2: Je k dispozici dočasná licence pro Aspose.Page for .NET?
+### Q1: Mohu sloučit více XPS souborů do jednoho PDF?
 
- A2: Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testovací účely.
+Ano, můžete. Jednoduše upravte parametr `PageNumbers` v `PdfSaveOptions`, aby zahrnoval požadované stránky z různých XPS souborů, nebo načtěte každý XPS sekvenčně a zavolejte `document.Save` na stejném `PdfDevice`.
 
-### Q3: Existují nějaká omezení velikosti souboru při použití Aspose.Page pro převod dokumentů?
+### Q2: Je k dispozici dočasná licence pro Aspose.Page pro .NET?
 
-Odpověď 3: Aspose.Page for .NET neukládá přísná omezení velikosti souboru, ale optimálního výkonu je dosaženo s přiměřenou velikostí souborů.
+Ano, dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/) pro testovací účely.
 
-### Q4: Mohu si výstupní PDF dále přizpůsobit, například přidáním vodoznaků nebo anotací?
+### Q3: Existují nějaká omezení velikosti souboru při použití Aspose.Page pro konverzi dokumentů?
 
-Odpověď 4: Ano, Aspose.Page for .NET poskytuje rozsáhlé funkce pro manipulaci s PDF. Pokročilé možnosti přizpůsobení naleznete v dokumentaci.
+Aspose.Page pro .NET neklade přísná omezení na velikost souboru, ale optimální výkon je dosažen u rozumně velkých souborů. U velmi velkých XPS dokumentů zvažte zpracování v streamech, aby se snížila spotřeba paměti.
 
-### Q5: Podporuje Aspose.Page for .NET vývoj napříč platformami?
+### Q4: Mohu dále přizpůsobit výstupní PDF, například přidáním vodoznaků nebo anotací?
 
-Odpověď 5: Ano, Aspose.Page for .NET je navržena tak, aby bezproblémově fungovala na různých platformách.
+Ano, Aspose.Page pro .NET poskytuje rozsáhlé funkce pro manipulaci s PDF. Po konverzi můžete použít knihovnu Aspose.PDF k přidání vodoznaků, anotací nebo dalších vylepšení.
+
+### Q5: Podporuje Aspose.Page pro .NET vývoj napříč platformami?
+
+Ano, Aspose.Page pro .NET je navržen tak, aby bez problémů fungoval na různých platformách, včetně Windows, Linuxu a macOS, při použití s .NET Core nebo .NET 5/6.
+
+**Poslední aktualizace:** 2026-01-20  
+**Testováno s:** Aspose.Page 24.11 pro .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

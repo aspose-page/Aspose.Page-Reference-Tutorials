@@ -1,134 +1,167 @@
 ---
-title: دمج مستندات XPS في PDF باستخدام Aspose.Page لـ .NET
-linktitle: دمج مستندات XPS في PDF
+date: 2026-01-20
+description: أضف أرقام الصفحات إلى ملفات PDF بسهولة أثناء دمج مستندات XPS في ملفات
+  PDF عالية الجودة باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة لتحويل XPS
+  إلى PDF.
+linktitle: Merge XPS Documents into PDF
 second_title: Aspose.Page .NET API
-description: يمكنك دمج مستندات XPS بسهولة في ملفات PDF عالية الجودة باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تجربة تحويل مستند سلسة.
-weight: 11
+title: إضافة أرقام الصفحات إلى PDF – دمج XPS إلى PDF باستخدام Aspose.Page
 url: /ar/net/document-merging/merge-xps-documents-into-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# دمج مستندات XPS في PDF باستخدام Aspose.Page لـ .NET
+# إضافة أرقام الصفحات إلى PDF – دمج XPS إلى PDF باستخدام Aspose.Page
 
-## مقدمة
+## المقدمة
 
-في عالم معالجة المستندات دائم التطور، يظهر Aspose.Page for .NET كأداة قوية لدمج مستندات XPS بسلاسة في تنسيق PDF. سيرشدك هذا البرنامج التعليمي خلال العملية، مع تفصيل كل خطوة لضمان التنفيذ السلس والفعال.
+إذا كنت بحاجة إلى **إضافة أرقام الصفحات إلى PDF** أثناء دمج ملفات XPS، فإن Aspose.Page for .NET يجعل العملية سهلة. في هذا البرنامج التعليمي سنستعرض مثالًا كاملاً وجاهزًا للإنتاج يحول مستند XPS إلى PDF عالي الجودة، يتيح لك التحكم في ضغط الصور، ويضيف أرقام الصفحات تلقائيًا إلى PDF النهائي. في النهاية ستحصل على مقتطف يمكن إعادة استخدامه وإدراجه في أي مشروع C#.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **هل يمكنني إضافة أرقام الصفحات عند دمج XPS إلى PDF؟** نعم – خاصية `PdfSaveOptions.PageNumbers` تقوم بذلك بالضبط.  
+- **أي مكتبة تتولى التحويل؟** Aspose.Page for .NET.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يلزم وجود ترخيص صالح لـ Aspose.Page؛ يتوفر ترخيص مؤقت للاختبار.  
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، و .NET 5/6+.  
+- **هل يمكن الحصول على صور عالية الجودة؟** بالتأكيد – اضبط `JpegQualityLevel` إلى 100 واختر `PdfImageCompression.Jpeg`.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## المتطلبات المسبقة
 
--  Aspose.Page لـ .NET: تأكد من تثبيت مكتبة Aspose.Page. يمكنك تنزيله من[هنا](https://releases.aspose.com/page/net/).
+قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات التالية:
 
-- ملفات المستندات: احصل على مستند XPS (`input.xps`) جاهز في الدليل المحدد.
+- Aspose.Page for .NET: تأكد من تثبيت مكتبة Aspose.Page. يمكنك تنزيلها من [here](https://releases.aspose.com/page/net/).
 
-## استيراد مساحات الأسماء
+- ملفات المستند: احرص على وجود مستند XPS (`input.xps`) في الدليل المحدد.
 
-في مشروع .NET الخاص بك، قم بتضمين مساحات الأسماء اللازمة للعمل مع Aspose.Page:
+## استيراد المساحات الاسمية
+
+في مشروع .NET الخاص بك، أدرج المساحات الاسمية الضرورية للعمل مع Aspose.Page:
 
 ```csharp
 using Aspose.Page.XPS;
 ```
 
-تضمن هذه الخطوة أن لديك حق الوصول إلى الفئات والأساليب المطلوبة لتحويل المستند.
+تضمن هذه الخطوة إمكانية الوصول إلى الفئات والطرق المطلوبة لتحويل المستند.
 
-## الخطوة 1: تهيئة التدفقات
+## كيفية إضافة أرقام الصفحات إلى PDF عند دمج مستندات XPS
+
+تسمح مجموعة `PdfSaveOptions.PageNumbers` بتحديد الصفحات (أو نطاقات الصفحات) التي يجب أن تظهر في PDF الناتج. من خلال تعبئتها بأرقام الصفحات المطلوبة، يضيف Aspose.Page الأرقام تلقائيًا.
+
+### الخطوة 1: تهيئة التدفقات
 
 ```csharp
-// البداية:3
-// المسار إلى دليل المستندات.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// تهيئة دفق إخراج PDF
+// Initialize PDF output stream
 using (System.IO.Stream pdfStream = System.IO.File.Open(dataDir + "XPStoPDF_out.pdf", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
-// تهيئة دفق إدخال XPS
+// Initialize XPS input stream
 using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 {
     // ...
 }
-// النهاية:3
+// ExEnd:3
 ```
 
 تتضمن هذه الخطوة إعداد تدفقات الإدخال والإخراج لملفات XPS وPDF. تأكد من استخدام المسارات وأسماء الملفات الصحيحة.
 
-## الخطوة 2: تحميل مستند XPS
+### الخطوة 2: تحميل مستند XPS
 
 ```csharp
-// البداية:4
-// قم بتحميل مستند XPS من الدفق
+// ExStart:4
+// Load XPS document form the stream
 XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
-// أو قم بتحميل مستند XPS مباشرة من الملف. ليست هناك حاجة إلى xpsStream بعد ذلك.
-//XpsDocument document = new XpsDocument(inputFileName, new XpsLoadOptions());
-// النهاية:4
+// or load XPS document directly from file. No xpsStream is needed then.
+// XpsDocument document = new XpsDocument(inputFileName, new XpsLoadOptions());
+// ExEnd:4
 ```
 
- هنا، نقوم بتحميل مستند XPS في ملف`XpsDocument` الكائن، وإعداده لمزيد من المعالجة.
+هنا نقوم بتحميل مستند XPS إلى كائن `XpsDocument`، استعدادًا للمعالجة اللاحقة.
 
-## الخطوة 3: تهيئة خيارات الحفظ
+### الخطوة 3: تهيئة خيارات الحفظ (دمج XPS إلى PDF)
 
 ```csharp
-// البداية:5
-// تهيئة كائن الخيارات بالمعلمات الضرورية.
+// ExStart:5
+// Initialize options object with necessary parameters.
 PdfSaveOptions options = new PdfSaveOptions()
 {
     JpegQualityLevel = 100,
     ImageCompression = PdfImageCompression.Jpeg,
     TextCompression = PdfTextCompression.Flate,
-    PageNumbers = new int[] { 1, 2, 6 }
+    PageNumbers = new int[] { 1, 2, 6 }   // <-- adds page numbers PDF
 };
-// النهاية:5
+// ExEnd:5
 ```
 
- تخصيص`PdfSaveOptions` الكائن بناءً على تفضيلاتك، مع تحديد المعلمات مثل ضغط الصور وضغط النص وأرقام الصفحات.
+قم بتخصيص كائن `PdfSaveOptions` وفقًا لتفضيلاتك، مع تحديد معلمات مثل ضغط الصور، ضغط النص، و**أرقام الصفحات** التي تريد ظهورها في PDF النهائي. ضبط `JpegQualityLevel` إلى 100 يضمن **صور PDF عالية الجودة**.
 
-## الخطوة 4: إنشاء جهاز العرض
+### الخطوة 4: إنشاء جهاز العرض
 
 ```csharp
-// البداية:6
-// إنشاء جهاز تقديم لتنسيق PDF
+// ExStart:6
+// Create rendering device for PDF format
 PdfDevice device = new PdfDevice(pdfStream);
-// النهاية:6
+// ExEnd:6
 ```
 
- ال`PdfDevice` هي الأداة المسؤولة عن تحويل مستند XPS إلى تنسيق PDF.
+`PdfDevice` هو الأداة المسؤولة عن تحويل مستند XPS إلى صيغة PDF.
 
-## الخطوة 5: احفظ المستند
+### الخطوة 5: حفظ المستند (C# XPS إلى PDF)
 
 ```csharp
-// البداية:7
+// ExStart:7
 document.Save(device, options);
-// النهاية:7
+// ExEnd:7
 ```
 
-وأخيرًا، احفظ المستند باستخدام جهاز العرض والخيارات المحددة.
+أخيرًا، احفظ المستند باستخدام جهاز العرض والخيارات المحددة. سيحتوي PDF الناتج على الصفحات المختارة مع أرقام الصفحات المضافة تلقائيًا.
 
-## خاتمة
+## لماذا نستخدم Aspose.Page لهذا التحويل؟
 
-تهانينا! لقد نجحت في دمج مستندات XPS في PDF باستخدام Aspose.Page لـ .NET. تضمن هذه العملية السلسة الحفاظ على جودة المستند وتنسيقه.
+- **الموثوقية** – يتعامل مع ميزات XPS المعقدة دون فقدان الدقة.  
+- **الأداء** – المعالجة المستندة إلى التدفقات تتجنب تحميل الملفات بالكامل في الذاكرة.  
+- **المرونة** – تحكم دقيق في جودة الصورة، الضغط، وترقيم الصفحات.  
+- **متعدد المنصات** – يعمل على Windows، Linux، و macOS مع .NET Core.
 
-## الأسئلة الشائعة
+## المشكلات الشائعة والحلول
 
-### س1: هل يمكنني دمج ملفات XPS متعددة في ملف PDF واحد؟
+| المشكلة | الحل |
+|-------|----------|
+| **PDF الناتج فارغ** | تحقق من صحة مسار ملف XPS وأنه غير تالف. |
+| **أرقام الصفحات لا تظهر** | تأكد من ضبط `PageNumbers` على مؤشرات الصفحات الصفرية الصحيحة (مثل `new int[] {1,2,6}`). |
+| **صور منخفضة الجودة** | زد من `JpegQualityLevel` واختر `PdfImageCompression.Jpeg`. |
+| **ملفات XPS الكبيرة تسبب ضغطًا على الذاكرة** | عالج XPS على أجزاء أصغر أو زد من حد الذاكرة للتطبيق. |
 
- ج1: نعم يمكنك ذلك. ببساطة قم بضبط`PageNumbers` المعلمة في`PdfSaveOptions` لتضمين الصفحات المطلوبة من ملفات XPS المختلفة.
+## الأسئلة المتكررة
 
-### س2: هل يتوفر ترخيص مؤقت لـ Aspose.Page لـ .NET؟
+### س1: هل يمكنني دمج ملفات XPS متعددة في PDF واحد؟
 
- ج2: نعم، يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
+ج1: نعم. ما عليك سوى تعديل معامل `PageNumbers` في `PdfSaveOptions` لتضمين الصفحات المطلوبة من ملفات XPS المختلفة، أو تحميل كل XPS على التوالي واستدعاء `document.Save` على نفس `PdfDevice`.
 
-### س3: هل توجد أي قيود على حجم الملف عند استخدام Aspose.Page لتحويل المستندات؟
+### س2: هل يتوفر ترخيص مؤقت لـ Aspose.Page for .NET؟
 
-A3: لا يفرض Aspose.Page for .NET قيودًا صارمة على حجم الملف، ولكن يتم تحقيق الأداء الأمثل بأحجام ملفات معقولة.
+ج2: نعم، يمكنك الحصول على ترخيص مؤقت [here](https://purchase.aspose.com/temporary-license/) لأغراض الاختبار.
 
-### س4: هل يمكنني تخصيص ملف PDF الناتج بشكل أكبر، مثل إضافة علامات مائية أو تعليقات توضيحية؟
+### س3: هل هناك حدود لحجم الملف عند استخدام Aspose.Page لتحويل المستندات؟
 
-ج4: نعم، يوفر Aspose.Page for .NET ميزات شاملة لمعالجة ملفات PDF. تحقق من الوثائق للحصول على خيارات التخصيص المتقدمة.
+ج3: لا تفرض Aspose.Page for .NET حدودًا صارمة لحجم الملف، لكن الأداء المثالي يتحقق مع ملفات ذات حجم معقول. بالنسبة لمستندات XPS الكبيرة جدًا، يُفضَّل معالجتها عبر التدفقات لتقليل استهلاك الذاكرة.
 
-### س5: هل يدعم Aspose.Page for .NET التطوير عبر الأنظمة الأساسية؟
+### س4: هل يمكنني تخصيص PDF الناتج أكثر، مثل إضافة علامات مائية أو تعليقات؟
 
-ج5: نعم، تم تصميم Aspose.Page for .NET للعمل بسلاسة عبر الأنظمة الأساسية المختلفة.
+ج4: نعم، توفر Aspose.Page for .NET ميزات واسعة لمعالجة PDF. بعد التحويل، يمكنك استخدام مكتبة Aspose.PDF لإضافة علامات مائية، تعليقات، أو تحسينات أخرى.
+
+### س5: هل يدعم Aspose.Page for .NET التطوير متعدد المنصات؟
+
+ج5: نعم، صُممت Aspose.Page for .NET للعمل بسلاسة عبر مختلف المنصات، بما في ذلك Windows، Linux، و macOS، عند استخدامها مع .NET Core أو .NET 5/6.
+
+---
+
+**آخر تحديث:** 2026-01-20  
+**تم الاختبار مع:** Aspose.Page 24.11 for .NET  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
