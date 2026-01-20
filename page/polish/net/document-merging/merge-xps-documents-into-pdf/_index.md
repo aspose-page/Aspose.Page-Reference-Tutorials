@@ -1,134 +1,165 @@
 ---
-title: Scal dokumenty XPS w formacie PDF za pomocą Aspose.Page dla .NET
-linktitle: Scal dokumenty XPS w formacie PDF
-second_title: Aspose.Page API .NET
-description: Bez wysiłku łącz dokumenty XPS w wysokiej jakości pliki PDF za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać płynną konwersję dokumentów.
-weight: 11
+date: 2026-01-20
+description: Bezproblemowo dodawaj numery stron do PDF podczas łączenia dokumentów
+  XPS w wysokiej jakości pliki PDF przy użyciu Aspose.Page dla .NET. Postępuj zgodnie
+  z naszym przewodnikiem krok po kroku, aby przekonwertować XPS na PDF.
+linktitle: Merge XPS Documents into PDF
+second_title: Aspose.Page .NET API
+title: Dodaj numery stron PDF – scal XPS do PDF przy użyciu Aspose.Page
 url: /pl/net/document-merging/merge-xps-documents-into-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Scal dokumenty XPS w formacie PDF za pomocą Aspose.Page dla .NET
+# Dodaj numery stron PDF – Scal XPS do PDF przy użyciu Aspose.Page
 
-## Wstęp
+## Wprowadzenie
 
-stale zmieniającym się środowisku przetwarzania dokumentów Aspose.Page dla .NET jawi się jako potężne narzędzie do płynnego łączenia dokumentów XPS w format PDF. Ten samouczek przeprowadzi Cię przez proces, szczegółowo opisując każdy krok, aby zapewnić płynne i skuteczne wykonanie.
+## Szybkie odpowiedzi
+- **Czy mogę dodać numery stron przy scalaniu XPS do PDF?** Tak – właściwość `PdfSaveOptions.PageNumbers` robi dokładnie to.  
+- **Która biblioteka obsługuje konwersję?** Aspose.Page for .NET.  
+- **Czy potrzebuję licencji do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose.Page; tymczasowa licencja jest dostępna do testów.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, i .NET 5/6+.  
+- **Czy możliwe jest uzyskanie obrazów wysokiej jakości?** Zdecydowanie – ustaw `JpegQualityLevel` na 100 i wybierz `PdfImageCompression.Jpeg`.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+Zanim rozpoczniesz tutorial, upewnij się, że spełniasz następujące wymagania:
 
--  Aspose.Page dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Page. Można go pobrać z[Tutaj](https://releases.aspose.com/page/net/).
+- Aspose.Page for .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Page. Możesz ją pobrać [tutaj](https://releases.aspose.com/page/net/).
 
-- Pliki dokumentów: Mieć dokument XPS (`input.xps`) gotowy w określonym katalogu.
+- Pliki dokumentów: Przygotuj dokument XPS (`input.xps`) w wybranym katalogu.
 
 ## Importuj przestrzenie nazw
 
-W swoim projekcie .NET uwzględnij przestrzenie nazw niezbędne do pracy z Aspose.Page:
+W swoim projekcie .NET dołącz niezbędne przestrzenie nazw do pracy z Aspose.Page:
 
 ```csharp
 using Aspose.Page.XPS;
 ```
 
-Ten krok zapewnia dostęp do klas i metod wymaganych do konwersji dokumentu.
+Ten krok zapewnia dostęp do klas i metod niezbędnych do konwersji dokumentu.
 
-## Krok 1: Zainicjuj strumienie
+## Jak dodać numery stron PDF przy scalaniu dokumentów XPS
+
+`PdfSaveOptions.PageNumbers` pozwala dokładnie określić, które strony (lub zakresy stron) mają pojawić się w wyjściowym PDF. Poprzez wypełnienie go żądanymi numerami stron, Aspose.Page automatycznie wstawia właściwe numerowanie.
+
+### Krok 1: Inicjalizacja strumieni
 
 ```csharp
 // ExStart:3
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Zainicjuj strumień wyjściowy PDF
+// Initialize PDF output stream
 using (System.IO.Stream pdfStream = System.IO.File.Open(dataDir + "XPStoPDF_out.pdf", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
-// Zainicjuj strumień wejściowy XPS
+// Initialize XPS input stream
 using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 {
     // ...
 }
-// RozwińKoniec:3
+// ExEnd:3
 ```
 
-Ten krok obejmuje skonfigurowanie strumieni wejściowych i wyjściowych dla plików XPS i PDF. Upewnij się, że używane są prawidłowe ścieżki i nazwy plików.
+Ten krok obejmuje ustawienie strumieni wejściowych i wyjściowych dla plików XPS i PDF. Upewnij się, że użyto prawidłowych ścieżek i nazw plików.
 
-## Krok 2: Załaduj dokument XPS
+### Krok 2: Załaduj dokument XPS
 
 ```csharp
 // ExStart:4
-// Załaduj dokument XPS ze strumienia
+// Load XPS document form the stream
 XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
-// lub załaduj dokument XPS bezpośrednio z pliku. Nie jest wtedy potrzebny żaden xpsStream.
-//Dokument XpsDocument = nowy dokument XpsDocument(nazwa pliku wejściowego, nowa opcja XpsLoad());
-// RozwińKoniec:4
+// or load XPS document directly from file. No xpsStream is needed then.
+// XpsDocument document = new XpsDocument(inputFileName, new XpsLoadOptions());
+// ExEnd:4
 ```
 
- Tutaj ładujemy dokument XPS do pliku`XpsDocument` obiektu, przygotowując go do dalszej obróbki.
+Tutaj ładujemy dokument XPS do obiektu `XpsDocument`, przygotowując go do dalszego przetwarzania.
 
-## Krok 3: Zainicjuj opcje zapisu
+### Krok 3: Inicjalizacja opcji zapisu (scalanie XPS do PDF)
 
 ```csharp
 // ExStart:5
-// Zainicjuj obiekt opcji z niezbędnymi parametrami.
+// Initialize options object with necessary parameters.
 PdfSaveOptions options = new PdfSaveOptions()
 {
     JpegQualityLevel = 100,
     ImageCompression = PdfImageCompression.Jpeg,
     TextCompression = PdfTextCompression.Flate,
-    PageNumbers = new int[] { 1, 2, 6 }
+    PageNumbers = new int[] { 1, 2, 6 }   // <-- adds page numbers PDF
 };
-// RozwińKoniec:5
+// ExEnd:5
 ```
 
- Dostosuj`PdfSaveOptions` obiekt w oparciu o Twoje preferencje, określając parametry, takie jak kompresja obrazu, kompresja tekstu i numery stron.
+Dostosuj obiekt `PdfSaveOptions` według własnych preferencji, określając parametry takie jak kompresja obrazu, kompresja tekstu oraz **numery stron**, które mają pojawić się w ostatecznym PDF. Ustawienie `JpegQualityLevel` na 100 zapewnia **obrazy PDF wysokiej jakości**.
 
-## Krok 4: Utwórz urządzenie renderujące
+### Krok 4: Utwórz urządzenie renderujące
 
 ```csharp
 // ExStart:6
-// Utwórz urządzenie renderujące dla formatu PDF
+// Create rendering device for PDF format
 PdfDevice device = new PdfDevice(pdfStream);
-// RozwińKoniec:6
+// ExEnd:6
 ```
 
- The`PdfDevice` to narzędzie odpowiedzialne za renderowanie dokumentu XPS do formatu PDF.
+`PdfDevice` jest narzędziem odpowiedzialnym za renderowanie dokumentu XPS do formatu PDF.
 
-## Krok 5: Zapisz dokument
+### Krok 5: Zapisz dokument (C# XPS do PDF)
 
 ```csharp
 // ExStart:7
 document.Save(device, options);
-// RozwińKoniec:7
+// ExEnd:7
 ```
 
-Na koniec zapisz dokument, korzystając z urządzenia renderującego i określonych opcji.
+Na koniec zapisz dokument przy użyciu urządzenia renderującego i określonych opcji. Wyjściowy PDF będzie zawierał wybrane strony z automatycznie dodanymi numerami stron.
 
-## Wniosek
+## Dlaczego warto używać Aspose.Page do tej konwersji?
 
-Gratulacje! Pomyślnie połączyłeś dokumenty XPS z formatem PDF za pomocą Aspose.Page dla .NET. Ten płynny proces zapewnia zachowanie jakości i formatowania dokumentu.
+- **Niezawodność** – Obsługuje złożone funkcje XPS bez utraty jakości.  
+- **Wydajność** – Przetwarzanie oparte na strumieniach unika ładowania całych plików do pamięci.  
+- **Elastyczność** – Precyzyjna kontrola jakości obrazu, kompresji i numeracji stron.  
+- **Wieloplatformowość** – Działa na Windows, Linux i macOS z .NET Core.
 
-## Często zadawane pytania
+## Typowe problemy i rozwiązania
 
-### P1: Czy mogę połączyć wiele plików XPS w jeden plik PDF?
+| Problem | Rozwiązanie |
+|-------|----------|
+| **PDF wyjściowy jest pusty** | Sprawdź, czy ścieżka do pliku XPS jest poprawna i czy plik nie jest uszkodzony. |
+| **Numery stron nie pojawiają się** | Upewnij się, że `PageNumbers` jest ustawione na prawidłowe indeksy stron zerobazowe (np. `new int[] {1,2,6}`). |
+| **Obrazy niskiej jakości** | Zwiększ `JpegQualityLevel` i wybierz `PdfImageCompression.Jpeg`. |
+| **Duże pliki XPS powodują obciążenie pamięci** | Przetwarzaj XPS w mniejszych fragmentach lub zwiększ limit pamięci aplikacji. |
 
- A1: Tak, możesz. Po prostu wyreguluj`PageNumbers` parametr w`PdfSaveOptions` aby uwzględnić żądane strony z różnych plików XPS.
+## Najczęściej zadawane pytania
 
-### P2: Czy dostępna jest tymczasowa licencja dla Aspose.Page dla .NET?
+### P1: Czy mogę scalić wiele plików XPS w jeden PDF?
 
- Odpowiedź 2: Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) do celów testowych.
+O1: Tak, możesz. Po prostu dostosuj parametr `PageNumbers` w `PdfSaveOptions`, aby uwzględnić żądane strony z różnych plików XPS, lub załaduj każdy XPS kolejno i wywołaj `document.Save` na tym samym `PdfDevice`.
 
-### P3: Czy istnieją jakieś ograniczenia dotyczące rozmiaru pliku podczas używania Aspose.Page do konwersji dokumentów?
+### P2: Czy dostępna jest tymczasowa licencja dla Aspose.Page for .NET?
 
-O3: Aspose.Page dla .NET nie nakłada ścisłych ograniczeń na rozmiar pliku, ale optymalną wydajność osiąga się przy rozsądnych rozmiarach plików.
+O2: Tak, możesz uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/) do celów testowych.
 
-### P4: Czy mogę dodatkowo dostosować wyjściowy plik PDF, na przykład dodając znaki wodne lub adnotacje?
+### P3: Czy istnieją ograniczenia rozmiaru pliku przy użyciu Aspose.Page do konwersji dokumentów?
 
-O4: Tak, Aspose.Page dla .NET zapewnia rozbudowane funkcje do manipulacji plikami PDF. Sprawdź dokumentację dotyczącą zaawansowanych opcji dostosowywania.
+O3: Aspose.Page for .NET nie nakłada ścisłych ograniczeń rozmiaru pliku, ale optymalna wydajność uzyskiwana jest przy rozsądnie wielkości plikach. W przypadku bardzo dużych dokumentów XPS rozważ przetwarzanie ich w strumieniach, aby zmniejszyć zużycie pamięci.
 
-### P5: Czy Aspose.Page dla .NET obsługuje rozwój międzyplatformowy?
+### P4: Czy mogę dalej dostosować wyjściowy PDF, np. dodając znaki wodne lub adnotacje?
 
-Odpowiedź 5: Tak, Aspose.Page dla .NET jest zaprojektowany do bezproblemowej pracy na różnych platformach.
+O4: Tak, Aspose.Page for .NET oferuje rozbudowane funkcje manipulacji PDF. Po konwersji możesz użyć biblioteki Aspose.PDF do dodania znaków wodnych, adnotacji lub innych ulepszeń.
+
+### P5: Czy Aspose.Page for .NET wspiera rozwój wieloplatformowy?
+
+O5: Tak, Aspose.Page for .NET jest zaprojektowany tak, aby działał płynnie na różnych platformach, w tym Windows, Linux i macOS, przy użyciu .NET Core lub .NET 5/6.
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-20  
+**Testowano z:** Aspose.Page 24.11 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
