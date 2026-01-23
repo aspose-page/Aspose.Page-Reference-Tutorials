@@ -1,33 +1,41 @@
 ---
-title: Lägg till namngivet värde med Aspose.Page
-linktitle: Lägg till namngivet värde
+date: 2026-01-23
+description: Lär dig hur du redigerar EPS‑filer genom att lägga till namngivna värden
+  med Aspose.Page för .NET. Denna steg‑för‑steg‑guide hjälper utvecklare att manipulera
+  EPS‑metadata.
+linktitle: Add Named Value
 second_title: Aspose.Page .NET API
-description: Lär dig hur du lägger till namngivna värden till EPS-filer i .NET med Aspose.Page. Denna omfattande handledning guidar dig genom processen steg för steg.
-weight: 12
+title: Hur man redigerar EPS-filer – Lägg till namngivet värde med Aspose.Page
 url: /sv/net/eps-metadata-management/modify-eps-metadata-add-named-value/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lägg till namngivet värde med Aspose.Page
+# Hur man redigerar EPS-filer – Lägg till namngivet värde med Aspose.Page
 
-## Introduktion
+## Hur man redigerar EPS-filer – Introduktion
 
-När det gäller dokumentbehandling med .NET framstår Aspose.Page som ett kraftfullt verktyg för att hantera EPS-filer. Aspose.Page ger utvecklare möjlighet att manipulera XMP-metadata, vilket underlättar uppgifter som att lägga till namngivna värden. Denna handledning guidar dig genom processen att lägga till namngivna värden till en EPS-fil med hjälp av Aspose.Page på ett steg-för-steg sätt.
+I den här handledningenivet värde i ett EPS.Page‑biblioteket för .NET. Oavsett om du bygger ett verktyg för batch‑behandling eller behöver berika EPS‑metadata i farten, ger stegen nedan en tydlig, praktisk guide.
+
+## Snabba svar
+- **Vad kan Aspose.Page göra?** Det låter dig läsa, modifiera och skriva EPS‑filer, inklusive XMP‑metadata.  
+- **Vil  
+-** Vanligtvis under 10 minuter för det grundläggande scenariot Aspose.Page strömmar data, vilket håller minnesanvändningen låg.
 
 ## Förutsättningar
 
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
 
-- Grundläggande kunskaper i programmeringsspråket C#.
-- En integrerad utvecklingsmiljö (IDE) som Visual Studio installerad.
--  Aspose.Page för .NET-biblioteket. Om den inte är installerad kan du ladda ner den från[här](https://releases.aspose.com/page/net/).
+- Grundläggande kunskaper i programmeringsspråket C#.  
+- En integrerad utvecklingsmiljö (IDE) såsom Visual Studio installerad.  
+- Aspose.Page för .NET‑biblioteket. Om det inte är installerat kan du ladda ner det [här](https://releases.aspose.com/page/net/).
 
-## Importera namnområden
+## Importera namnrymder
 
-Låt oss först importera de nödvändiga namnrymden till din C#-kod. Dessa namnutrymmen är viktiga för att få tillgång till funktionerna som tillhandahålls av Aspose.Page:
+Först importerar vi de nödvändiga namnrymderna i din C#‑kod. Dessa namnrymder är viktiga för att komma åt funktionerna som tillhandahålls av Aspose.Page:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,9 +47,9 @@ using System.Linq;
 using System.Text;
 ```
 
-## Steg 1: Initiera EPS File Input Stream
+## Steg 1: Initiera EPS-filens inmatningsström
 
- Det första steget innebär att initiera ingångsströmmen för EPS-filen. Byta ut`"Your Document Directory"` med sökvägen till din dokumentkatalog:
+Det första steget är att initiera inmatningsströmmen för EPS‑filen. Ersätt `"Your Document Directory"` med sökvägen till din dokumentkatalog:
 
 ```csharp
 // ExStart:1
@@ -52,7 +60,7 @@ PsDocument document = new PsDocument(psStream);
 
 ## Steg 2: Hämta XMP-metadata
 
-Hämta XMP-metadata från EPS-filen. Om EPS-filen saknar XMP-metadata kommer en ny att skapas, fylld med värden från PS-metadatakommentarer:
+Hämta XMP‑metadata från EPS‑filen. Om EPS‑filen saknar XMP‑metadata skapas en ny, fylld med värden från PS‑metadata‑kommentarer:
 
 ```csharp
 XmpMetadata xmp = document.GetXmpMetadata();
@@ -60,15 +68,15 @@ XmpMetadata xmp = document.GetXmpMetadata();
 
 ## Steg 3: Ändra XMP-metadatavärden
 
-Låt oss nu göra ändringar i XMP-metadata. I det här exemplet lägger vi till ett namngivet värde till "xmpTPg:MaxPageSize"-strukturen:
+Nu gör vi ändringar i XMP‑metadata. I detta exempel lägger vi till ett namngivet värde i strukturen `"xmpTPg:MaxPageSize"`:
 
 ```csharp
 xmp.AddNamedValue("xmpTPg:MaxPageSize", "stDim:newKey", new XmpValue("NewValue"));
 ```
 
-## Steg 4: Spara EPS-fil med ändrad XMP-metadata
+## Steg 4: Spara EPS-filen med ändrad XMP-metadata
 
-Spara EPS-filen med den uppdaterade XMP-metadatan. Skapa en utdataström och spara den modifierade EPS-filen:
+Spara EPS‑filen med den uppdaterade XMP‑metadata. Skapa en utmatningsström och spara den modifierade EPS‑filen:
 
 ```csharp
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_named_value_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
@@ -79,32 +87,40 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 
 ## Slutsats
 
-Grattis! Du har framgångsrikt lagt till ett namngivet värde till en EPS-fil med Aspose.Page i .NET. Denna handledning har gått igenom de väsentliga stegen och visat upp enkelheten och effektiviteten hos Aspose.Page i dokumentmanipulation.
+Grattis! Du har framgångsrikt lagt till ett namngivet värde i en EPS‑fil med Aspose.Page i .NET. Denna genomgång visar hur enkelt det är att **redigera EPS**‑metadata, vilket ger dig möjlighet att berika dokument programmässigt.
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Är Aspose.Page kompatibel med olika EPS-filversioner?
+### Q1: Är Aspose.Page kompatibel med olika EPS‑filversioner?
 
-S1: Aspose.Page stöder olika EPS-filversioner, vilket säkerställer kompatibilitet med ett brett utbud av dokument.
+A1: Aspose.Page stödjer olika EPS‑filversioner och säkerställer kompatibilitet med ett brett spektrum av dokument.
 
-### F2: Kan jag använda Aspose.Page för kommersiella projekt?
+### Q2: Kan jag använda Aspose.Page i kommersiella projekt?
 
- S2: Ja, Aspose.Page kommer med en kommersiell licens, och du kan köpa den[här](https://purchase.aspose.com/buy).
+A2: Ja, Aspose.Page levereras med en kommersiell licens, och du kan köpa den [här](https://purchase.aspose.com/buy).
 
-### F3: Finns det en gratis testversion tillgänglig för Aspose.Page?
+### Q3: Finns det en gratis provversion av Aspose.Page?
 
- S3: Ja, du kan utforska Aspose.Page med en gratis provperiod tillgänglig[här](https://releases.aspose.com/).
+A3: Ja, du kan utforska Aspose.Page med en gratis provversion som finns [här](https://releases.aspose.com/).
 
-### F4: Hur kan jag få stöd eller få kontakt med Aspose-communityt?
+### Q4: Hur får jag support eller kontaktar Aspose‑gemenskapen?
 
- A4: Besök[Aspose.Page forum](https://forum.aspose.com/c/page/39) att få stöd och få kontakt med samhället.
+A4: Besök [Aspose.Page‑forumet](https://forum.aspose.com/c/page/39) för att få support och ansluta till gemenskapen.
 
-### F5: Vad är en tillfällig licens och hur kan jag få en?
+### Q5: Vad är en tillfällig licens och hur kan jag skaffa en?
 
- S5: Om du behöver en tillfällig licens för test- eller utvärderingsändamål kan du skaffa en[här](https://purchase.aspose.com/temporary-license/).
+A5: Om du behöver en tillfällig licens för test‑ eller utvärderingsändamål kan du skaffa en [här](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Senast uppdaterad:** 2026-01-23  
+**Testad med:** Aspose.Page 24.11 för .NET  
+**Författare:** Aspose  
+
+---

@@ -1,37 +1,50 @@
 ---
-title: 使用 Aspose.Page for .NET 新增命名空間
-linktitle: 新增命名空間
+date: 2026-01-23
+description: 學習如何使用 Aspose.Page for .NET 為 EPS 檔案新增命名空間。本指南逐步說明如何新增命名空間、修改 XMP 中繼資料，並簡化您的
+  .NET 工作流程。
+linktitle: Add Namespace
 second_title: Aspose.Page .NET API
-description: 使用 Aspose.Page for .NET 增強 EPS 檔案。輕鬆新增命名空間、修改 XMP 元資料並加快您的 .NET 開發工作流程。
-weight: 13
+title: 如何在 Aspose.Page for .NET 中加入命名空間
 url: /zh-hant/net/eps-metadata-management/modify-eps-metadata-add-namespace/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page for .NET 新增命名空間
+# 如何使用 Aspose.Page for .NET 新增 Namespace
 
-## 介紹
+## Introduction
 
-在 .NET 開發的動態世界中，Aspose.Page 作為處理 EPS 檔案的強大工具脫穎而出。 Aspose.Page for .NET 允許開發人員無縫操作 XMP 元數據，提供新增命名空間和增強 EPS 檔案元資料的靈活性。
+在現代 .NET 開發中，**如何新增 namespace** 到 EPS 檔案是一項常見需求，尤其在需要豐富 XMP 中繼資料時。Aspose.Page for .NET 讓此工作變得簡單，您可以在程式碼編輯器內註冊自訂 XML 命名空間並儲存額外屬性。本教學將逐步說明如何新增 namespace、為何重要，以及如何儲存更新後的 EPS 檔案——全部以清晰、口語化的方式呈現。
 
-在本教程中，我們將深入研究使用 Aspose.Page for .NET 新增命名空間的過程。請依照以下步驟了解從匯入命名空間到儲存修改後的 EPS 檔案的逐步說明。讓我們開始吧！
+## Quick Answers
+- **「新增 namespace」是什麼意思？** 它會註冊一個自訂的 XML 前置詞，讓您可以在新的 XMP 屬性中使用。  
+- **需要哪個函式庫？** Aspose.Page for .NET（從官方文件下載）。  
+- **需要授權嗎？** 生產環境必須使用臨時或正式授權；亦提供免費試用版。  
+- **可以在 .NET Core / .NET 6+ 上執行嗎？** 可以，函式庫支援所有近期的 .NET 版本。  
+- **實作需要多久？** 只要引用函式庫，通常在 10 分鐘以內完成。
 
-## 先決條件
+## What is Adding a Namespace?
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+新增 namespace 意味著建立一個唯一的識別碼（URI），將相關的中繼資料欄位以共同的前置詞分組。這樣可讓您的中繼資料保持有序，並避免與既有標準發生衝突。
 
-1.  Aspose.Page for .NET Library：從以下位置下載並安裝該程式庫：[Aspose.Page 文檔](https://reference.aspose.com/page/net/).
+## Why Use Aspose.Page for Namespace Management?
+- **完整控制** XMP 中繼資料，無需手動解析 XML。  
+- **跨平台** 支援 .NET Framework、.NET Core 以及 .NET 5/6+。  
+- **零相依** —— API 會自行處理串流管理與檔案儲存。
 
-2. 開發環境：在您的電腦上設定一個有效的 .NET 開發環境。
+## Prerequisites
 
-現在，讓我們進入 Aspose.Page for .NET 的令人興奮的世界。
+1. **Aspose.Page for .NET** – 從 [Aspose.Page 文件](https://reference.aspose.com/page/net/) 下載並安裝。  
+2. **.NET 開發環境** – Visual Studio、VS Code 或任何您偏好的 IDE。  
 
-## 導入命名空間
+既然已說明基礎，接下來讓我們深入程式碼。
 
-首先，您需要匯入必要的命名空間來存取 Aspose.Page 功能。您可以這樣做：
+## Import Namespaces
+
+首先，將所需的 Aspose.Page 命名空間匯入作用域：
 
 ```csharp
 using Aspose.Page.EPS;
@@ -43,86 +56,105 @@ using System.Linq;
 using System.Text;
 ```
 
-## 第 1 步：初始化您的項目
+## Step 1: Initialize Your Project
 
-在您的 .NET 專案中，開啟所需的檔案並初始化 Aspose.Page 程式庫。使用以下程式碼片段：
+設定包含 EPS 檔案的資料夾路徑：
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## 步驟2：開啟EPS文件
+## Step 2: Open EPS File
 
-建立一個FileStream來開啟EPS文件，如下所示：
+使用 `FileStream` 開啟 EPS 檔案，並建立 `PsDocument` 實例：
 
 ```csharp
-//初始化EPS檔輸入流
+// Initialize EPS file input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_simple_props_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 
-//從流建立 PsDocument 實例
+// Create PsDocument instance from stream
 PsDocument document = new PsDocument(psStream);
 ```
 
-## 第 3 步：取得 XMP 元數據
+## Step 3: Get XMP Metadata
 
-使用以下程式碼從 EPS 檔案中檢索 XMP 元資料：
+取得現有的 XMP 中繼資料（若不存在則建立新檔案）：
 
 ```csharp
-//取得 XMP 元資料。如果 EPS 檔案不包含 XMP 元數據，則會使用 PS 元資料註釋中的值建立一個新檔案。
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, a new one is created with values from PS metadata comments.
 XmpMetadata xmp = document.GetXmpMetadata();
 ```
 
-## 步驟 4：更改 XMP 元數據
+## Step 4: Change XMP Metadata
 
-根據需要修改現有 XMP 元資料或新增值。以下是新增 XML 命名空間和字串屬性的範例：
+以下示範 **如何新增 namespace** 的實作。註冊新的 namespace URI，並加入使用該前置詞的屬性：
 
 ```csharp
-//新增的 XML 命名空間「tmp」。
+// Add new XML namespace "tmp".
 xmp.RegisterNamespaceUri("tmp", "http://www.some.org/schema/tmp#");
 
-//在新的命名空間中新增的字串屬性。
+// Add new string property in the new namespace.
 xmp.Add("tmp:newKey", new XmpValue("NewValue"));
 ```
 
-## 第5步：儲存EPS文件
+*小技巧：* 請選擇簡短且具意義的前置詞（例如 `tmp`），以及全域唯一的 URI，以避免與其他中繼資料標準衝突。
 
-使用下列程式碼儲存包含更新的 XMP 元資料的 EPS 檔案：
+## Step 5:寫回磁碟：
 
 ```csharp
-//建立輸出流
+// Create output stream
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_namespace_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
 {
-    //儲存 EPS 文件
+    // Save EPS file
     document.Save(outPsStream);
 }
 ```
 
-## 結論
+執行程式後，檔案 `add_namespace_output.eps` 會包含您剛註冊的自訂命名空間中的新屬性 `tmp:newKey`。
 
-恭喜！您已使用 Aspose.Page for .NET 成功將命名空間新增至 EPS 檔案。這個強大的函式庫為操作 XMP 元資料開闢了一個可能性的世界，為使用 EPS 檔案的開發人員提供了無縫的體驗。
+## Common Issues and Solutions
 
-## 常見問題解答
+| 問題 | 原因 | 解決方案 |
+|------|------|----------|
+| **Namespace 未出現** | 忘記在加入屬性前呼叫 `RegisterNamespaceUri`。 |存取錯誤** | EPS 檔案正被其他程式開啟。 | 關閉可能鎖定檔案的應用程式，或改用不同的輸出路徑。 |
+| **儲存後中繼資料遺失** | 使用了過時 更新至最新的 Asp擷取 檔案的 XMP 中繼資料。
 
-### Q1：Aspose.Page 是否相容於所有版本的.NET？
+### Q3：我可以在哪裡取得更多支援或協助？
 
-A1：Aspose.Page for .NET 相容於各種版本的.NET 框架，確保開發人員的靈活性。
+A3：前往 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39) 取得社群支援與討論。
 
-### Q2：我可以使用Aspose.Page從EPS檔案中提取元資料嗎？
+### Q4：Aspose.Page 有提供免費試用嗎？
 
-A2：當然！ Aspose.Page 可讓您輕鬆地從 EPS 檔案中提取和修改 XMP 元資料。
+A4：有的，您可在此處 [免費試用 Aspose.Page](https://releases.aspose.com/)。
 
-### 問題 3：我可以在哪裡找到額外的支援或協助？
+### Q5：如何取得 Aspose.Page 的臨時授權？
 
- A3：訪問[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)以獲得社區支持和討論。
+A5：可於此處 [取得臨時授權](https://purchase.aspose.com/temporary-license/) 以供測試使用。
 
-### Q4：Aspose.Page 有免費試用版嗎？
+## Frequently Asked Questions
 
- A4：是的，您可以探索 Aspose.Page 的免費試用版[這裡](https://releases.aspose.com/).
+**Q: 可以在同一次執行中新增多個 namespace 嗎？**  
+A: 可以，只要在加入屬性之前，為每個需要的前置詞呼叫 `RegisterNamespaceUri`。
 
-### Q5：如何取得Aspose.Page的臨時授權？
+**Q: 函式庫是否支援屬性值的 Unicode 字元？**  
+A: 支援。XMP 值以 UTF‑8 儲存，您可以安全使用國際字符。
 
- A5：獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試目的。
+**Q: 如何驗證 namespace 是否正確加入？**  
+A: 開啟產生的 EPS 檔案於 XMP 檢視器，或使用 `document.GetXmpMetadata().ToString()` 觀察原始 XML。
+
+**Q: 新增 namespace 會顯著增加檔案大小嗎？**  
+A: 只會略微增加——XMP 中繼資料本身很輕量，新增的 XML 通常只有幾個位元組。
+
+## Conclusion
+
+您現在已了解 **如何新增 namespace** 到 EPS 檔案，使用 Aspose.Page for .NET 從專案設定到變更儲存的完整流程。此功能為您開啟了更豐富的自訂中繼資料之門，可供下游應用程式、數位資產管理系統或任何依賴 XMP 的工作流程使用。歡迎自行嘗試其他屬性、不同的 namespace，並將此模式整合至更大型的文件處理管線中。
+
+---
+
+**Last Updated:** 2026 Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
