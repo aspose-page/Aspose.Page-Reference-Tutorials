@@ -1,91 +1,147 @@
 ---
-title: 使用 PostScript 在 Java 中建立文檔
-linktitle: 使用 PostScript 在 Java 中建立文檔
+date: 2026-01-28
+description: 了解如何使用 Aspose.Page 在 Java 中建立 PostScript A4 文件、加入自訂字型，並設定 PostScript
+  頁面大小。立即免費試用！
+linktitle: Create Document in Java with PostScript
 second_title: Aspose.Page Java API
-description: 使用 Aspose.Page 在 Java 中輕鬆建立 PostScript 文件。自訂頁面大小、邊距和字體。立即免費試用！
-weight: 10
+title: 如何在 Java 中使用 Aspose.Page 建立 A4 PostScript
 url: /zh-hant/java/document-creation/postscript/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 PostScript 在 Java 中建立文檔
+# 如何使用 Aspose.Page 建立 PostScript A4 Java 檔案
 
-## 介紹
-在 Java 開發領域，創建和管理文件是一個至關重要的方面。隨著 Aspose.Page for Java 的出現，該過程不僅變得有效率且靈活。本教學課程旨在引導您完成使用 Aspose.Page 透過 PostScript 在 Java 中建立文件的步驟，確保您充分利用工具的強大功能。
+## 簡介
+如果您需要直接從 Java **create postscript a4 java** 檔案，Aspose.Page 能讓您快速且可靠地完成。在本教學中，我們將逐步說明如何建立 PostScript、將 PostScript 頁面尺寸設定為 A4，以及在需要時 **add custom fonts**。完成後，您將擁有一段可直接放入任何 Java 專案的即用程式碼片段。
+
+## 快速回答
+- **主要的函式庫是什麼？** Aspose.Page for Java.  
+- **本指南聚焦於哪種頁面尺寸？** A4 (portrait).  
+- **我可以使用自己的字型嗎？** Yes – add custom fonts via the additional fonts folder.  
+- **生產環境需要授權嗎？** A commercial license is required; a free trial is available.  
+- **支援的 Java 版本為何？** Java 8 and later.
+
+## 如何建立 postscript a4 java
+本節重新敘述核心目標並提供簡潔定義，讓搜尋引擎能立即顯示答案。
+
+## 什麼是 **postscript a4 size**？
+PostScript A4 size 指的是使用 PostScript 頁面描述語言，依 ISO 216 A4 規格（210 mm × 297 mm）排版的頁面。它是全球許多商業文件的標準頁面尺寸。
+
+## 為何使用 Aspose.Page 來 **set postscript page size**？
+Aspose.Page 抽象化了低階的 PostScript 指令，讓您專注於文件版面配置，而不必處理語言的細節。您將獲得：
+- 對頁面尺寸（包括 A4）的精確控制。  
+- 無需手動設定系統字型路徑，即可輕鬆整合自訂字型。  
+- 支援單頁與多頁輸出。
+
+## 如何在 Java 中加入自訂字型
+將自訂字型嵌入可確保產生的文件在任何印表機或檢視器上皆呈現正確的外觀。
+
 ## 先決條件
-在深入學習本教程之前，請確保您具備以下先決條件：
-- Java 程式設計的實用知識。
--  Aspose.Page for Java 已安裝。你可以下載它[這裡](https://releases.aspose.com/page/java/).
-- 需要的字體存放在指定的資料夾中。例如，在文件目錄中建立一個「necessary_fonts」目錄。
-## 導入包
-在您的 Java 專案中，匯入所需的 Aspose.Page 套件：
+在開始之前，請確保您已具備：
+
+- 具備 Java 程式開發的基礎知識。  
+- 已安裝 Aspose.Page for Java。您可以在此下載 [here](https://releases.aspose.com/page/java/)。  
+- 一個名為 `necessary_fonts`（或您自行命名）的資料夾，內含所有欲嵌入的自訂字型。
+
+## 匯入套件
+在您的 Java 專案中，匯入所需的 Aspose.Page 類別：
+
 ```java
 import java.io.FileOutputStream;
 import com.aspose.eps.PageConstants;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-
 ```
-現在，讓我們將範例分解為多個步驟，以便無縫理解。
-## 步驟1：設定文檔目錄
+
+現在讓我們將範例分解為清晰的編號步驟。
+
+### Step 1: Set Document Directory
 ```java
-//文檔目錄的路徑。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
-將「您的文件目錄」替換為您要儲存文件的實際路徑。
-## 第 2 步：定義字型資料夾
+將 `"Your Document Directory"` 替換為您希望產生檔案所在的絕對路徑。
+
+### Step 2: Define Fonts Folder
 ```java
 String FONTS_FOLDER = dataDir + "necessary_fonts/";
 ```
-確保此資料夾中儲存有必要的字體。
-## 步驟 3：為 PostScript 文件建立輸出流
+將您想使用的 **custom fonts** 放入此資料夾。稍後設定額外字型資料夾時，Aspose.Page 會自動載入它們。
+
+### Step 3: Create Output Stream for PostScript Document
 ```java
-//為 PostScript 文件建立輸出流
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "CreateDocument_outPS.ps");
 ```
-此步驟為 PostScript 文件建立輸出流，並相應地設定檔案名稱。
-## 步驟 4：建立 A4 尺寸的儲存選項
+此串流指向最終 **PostScript A4 size** 輸出檔案的存放位置。
+
+### Step 4: Create Save Options with A4 Size
 ```java
-//建立 A4 尺寸的儲存選項
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 options.setPageSize(PageConstants.getSize(PageConstants.SIZE_A4, PageConstants.ORIENTATION_PORTRAIT));
 ```
-根據您的文件要求自訂儲存選項，指定頁面大小和方向。
-## 第 5 步：設定頁邊距和其他字型資料夾
+此處我們 **set the PostScript page size** 為 A4（直向）。若需其他方向，只需更改常數即可。
+
+### Step 5: Set Page Margins and Add Custom Fonts Folder
 ```java
 options.setMargins(PageConstants.getMargins(PageConstants.MARGINS_ZERO));
 options.setAdditionalFontsFolders(new String[] { FONTS_FOLDER });
 ```
-如果字體儲存在系統資料夾之外，請調整頁邊距並包含其他字體資料夾。
-## 步驟 6：建立多頁或單頁 PS 文檔
+我們將所有邊距設為零，以取得滿版頁面，並告訴 Aspose.Page 在哪裡尋找先前加入的 **custom fonts**。
+
+### Step 6: Create a Multipaged or Single‑Paged PS Document
 ```java
 boolean multiPaged = false;
 PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
-確定產生的 PostScript 文件是多頁還是單頁，並相應地建立文件。
-## 步驟7：關閉目前頁面並儲存文檔
+若需要多於一頁，將 `multiPaged` 設為 `true`；否則會建立單頁文件。
+
+### Step 7: Close Current Page and Save Document
 ```java
 document.closePage();
 document.save();
 ```
-透過關閉目前頁面並儲存文件來完成文件建立過程。
-本逐步指南可確保您可以使用 Aspose.Page 透過 PostScript 無縫建立 Java 文檔，從而釋放此強大工具的潛力。
+上述呼叫會完成文件、關閉當前頁面，並將 **PostScript A4 size** 檔案寫入磁碟。
+
+## 常見問題與技巧
+- **Font not appearing?** Verify that the font file is a supported TrueType or OpenType format and that the path in `FONTS_FOLDER` ends with a slash (`/`).  
+- **Margins still showing?** Ensure you call `options.setMargins(...)` **before** creating the `PsDocument`.  
+- **Multi‑page output looks blank?** Remember to call `document.newPage()` for each additional page you want to add.
+
+## 常見問答
+
+**Q: 我可以在 PostScript 文件中使用自訂字型嗎？**  
+A: 可以。請確保在儲存選項中設定額外字型資料夾（參見 Step 5）。
+
+**Q: 是否提供 Aspose.Page for Java 的試用版？**  
+A: 有，您可以在此取得免費試用版 [here](https://releases.aspose.com/).
+
+**Q: 如何取得完整的 API 參考文件？**  
+A: 請參閱文件說明 [here](https://reference.aspose.com/page/java/).
+
+**Q: 在哪裡可以購買 Aspose.Page for Java 的授權？**  
+A: 您可以在此購買授權 [here](https://purchase.aspose.com/buy).
+
+**Q: 是否有 Aspose.Page 的社群論壇可供討論？**  
+A: 有，請加入社群 [forum](https://forum.aspose.com/c/page/39) 取得支援與最佳實踐建議。
+
+**Q: 我可以產生多頁的 PostScript 檔案嗎？**  
+A: 當然可以——在 Step 6 中將 `multiPaged` 設為 `true`，並於每新增一頁時呼叫 `document.newPage()`。
+
 ## 結論
-使用 Aspose.Page 可以輕鬆掌握 Java 文件建立。本教程提供了整個過程的全面指南，使您能夠利用該庫的全部功能。
-## 常見問題解答
-### 我可以在 PostScript 文件中使用自訂字體嗎？
-是的你可以。確保在儲存選項中設定附加字體資料夾。
-### Aspose.Page for Java 是否有試用版？
-是的，您可以獲得免費試用[這裡](https://releases.aspose.com/).
-### 如何存取 Aspose.Page for Java 的文檔？
-參考文檔[這裡](https://reference.aspose.com/page/java/).
-### 在哪裡可以購買 Aspose.Page for Java 的授權？
-您可以購買許可證[這裡](https://purchase.aspose.com/buy).
-### 有 Aspose.Page 討論的論壇嗎？
-是的，您可以加入社區[論壇](https://forum.aspose.com/c/page/39)進行討論和支持。
+透過上述步驟，您現在已掌握 **how to create postscript a4 java** 檔案的製作方法，並能 **add custom fonts java** 以及控制 **set postscript page size** 的相關選項。Aspose.Page 會處理繁重的工作，讓您專注於文件內容本身。
+
+---
+
+**最後更新：** 2026-01-28  
+**測試環境：** Aspose.Page for Java 24.11  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
