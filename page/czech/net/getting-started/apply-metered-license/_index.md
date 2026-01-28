@@ -1,33 +1,48 @@
 ---
-title: Použít měřenou licenci s Aspose.Page pro .NET
-linktitle: Použít měřenou licenci
+date: 2026-01-28
+description: Naučte se, jak převést EPS na PNG pomocí Aspose.Page pro .NET a použít
+  licenci s měřeným poplatkem pro bezproblémové zpracování dokumentů.
+linktitle: Apply Metered License
 second_title: Aspose.Page .NET API
-description: Prozkoumejte bezproblémovou integraci Aspose.Page for .NET pomocí tohoto podrobného průvodce aplikací měřené licence. Optimalizujte zpracování dokumentů bez námahy.
-weight: 10
+title: Převod EPS na PNG a použití měřené licence s Aspose.Page pro .NET
 url: /cs/net/getting-started/apply-metered-license/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použít měřenou licenci s Aspose.Page pro .NET
+# Převod EPS na PNG a aplikace měřené licence pomocí Aspose.Page pro .NET
 
 ## Úvod
 
-Odemkněte plný potenciál Aspose.Page for .NET použitím měřené licence. Tento tutoriál vás provede procesem nastavení a použití měřené licence a zajistí hladké a optimalizované používání této výkonné knihovny .NET.
+Odemkněte plný potenciál Aspose.Page pro .NET **převodem EPS na PNG** a aplikací měřené licence. Tento tutoriál vás provede každým krokem – od načtení souboru EPS po jeho uložení jako obrázek PNG – abyste mohli efektivně zpracovávat dokumenty bez hodnotících vodoznaků.
+
+## Rychlé odpovědi
+- **Co tento tutoriál pokrývá?** Převod souborů EPS na obrázky PNG a aplikace měřené licence s Aspose.Page pro .NET.  
+- **Potřebuji licenci?** Ano, pro produkční použití je vyžadována měřená licence.  
+- **Které verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Jak dlouho trvá implementace?** Přibližně 10–15 minut pro základní převod.  
+- **Mohu to spustit na Linuxu/macOS?** Rozhodně – Aspose.Page je multiplatformní.
+
+## Co je „převod EPS na PNG“?
+Převod EPS na PNG znamená rasterizaci vektorového souboru Encapsulated PostScript (EPS) do bitmapového obrázku PNG. To je užitečné, když potřebujete zobrazit nebo vložit grafiku do webových stránek, reportů nebo UI komponent, které EPS nepodporují.
+
+## Proč použít měřenou licenci pro převod EPS na obrázek?
+Měřená licence vám umožní platit jen za stránky, které zpracujete, což je ideální pro pracovní zátěže s proměnlivým objemem. Navíc odstraňuje červený hodnotící banner, který se objevuje při používání bezplatné zkušební verze, a zajišťuje čistý výstup pro koncové uživatele.
 
 ## Předpoklady
 
-Než se pustíte do kroků, ujistěte se, že máte splněny následující předpoklady:
+Předtím, než se pustíte do kroků, ujistěte se, že máte následující:
 
--  Platná licence Aspose.Page for .NET: Můžete ji získat z[buy.aspose.com](https://purchase.aspose.com/buy).
--  Nainstalovaná knihovna Aspose.Page: Viz[dokumentace](https://reference.aspose.com/page/net/) pro pokyny k instalaci.
-- Vývojové prostředí .NET: Ujistěte se, že máte na svém počítači nastaveno funkční prostředí .NET.
+- Platná licence Aspose.Page pro .NET: Můžete ji získat na [purchase.aspose.com](https://purchase.aspose.com/buy).
+- Knihovna Aspose.Page nainstalována: Pro pokyny k instalaci se podívejte na [dokumentaci](https://reference.aspose.com/page/net/).
+- Vývojové prostředí .NET: Ujistěte se, že máte na svém počítači nastavené funkční .NET prostředí.
 
-## Import jmenných prostorů
+## Importování jmenných prostorů
 
-Ve svém projektu .NET importujte potřebné jmenné prostory pro přístup k funkcím Aspose.Page:
+Ve vašem .NET projektu importujte potřebné jmenné prostory pro přístup k funkcionalitám Aspose.Page:
 
 ```csharp
 using Aspose.Page;
@@ -40,18 +55,22 @@ using System.Linq;
 using System.Text;
 ```
 
-## Krok 1: Nastavte měřený veřejný a soukromý klíč
+## Jak převést EPS na PNG s měřenou licencí?
 
- Inicializujte`Aspose.Page.Metered` třídy a nastavte měřené veřejné a soukromé klíče. Nahradit`<type public key here>` a`<type private key here>` se svými skutečnými klíči.
+Níže je podrobný průvodce, který pokrývá vše, co potřebujete vědět.
+
+### Krok 1: Nastavte veřejný a soukromý klíč měřené licence
+
+Inicializujte třídu `Aspose.Page.Metered` a nastavte veřejný a soukromý klíč. Nahraďte `<type public key here>` a `<type private key here>` vašimi skutečnými klíči.
 
 ```csharp
 Aspose.Page.Metered metered = new Aspose.Page.Metered();
 metered.SetMeteredKey("<type public key here>", "<type private key here>");
 ```
 
-## Krok 2: Načtěte soubor EPS a vytvořte dokument
+### Krok 2: Načtěte soubor EPS a vytvořte dokument
 
- Zadejte cestu k souboru EPS a vytvořte stream pro čtení jeho obsahu. Poté vytvořte instanci souboru`PsDocument` třídy ze streamu.
+Zadejte cestu k vašemu souboru EPS a vytvořte stream pro načtení jeho obsahu. Poté vytvořte instanci třídy `PsDocument` ze streamu.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -59,26 +78,26 @@ System.IO.Stream psStream = new System.IO.FileStream(dataDir + "input.eps", Syst
 PsDocument document = new PsDocument(psStream);
 ```
 
-## Krok 3: Převeďte obrázek EPS na obrázek PNG
+### Krok 3: Převod EPS na PNG obrázek
 
- Vytvořit`ImageDevice` pro převod souboru EPS na obrázek PNG. Uložte soubor EPS jako obrázek pomocí`ImageSaveOptions`.
+Vytvořte `ImageDevice` pro převod souboru EPS na PNG obrázek. Uložte EPS soubor jako obrázek pomocí `ImageSaveOptions`.
 
 ```csharp
 ImageDevice device = new ImageDevice();
 document.Save(device, new ImageSaveOptions());
 ```
 
-## Krok 4: Načtení bajtů obrázku
+### Krok 4: Získání bajtů obrázku
 
-Získejte bajty obrázku, kde každé pole bajtů představuje jednu stránku. V tomto případě máme jednu stránku.
+Získejte bajty obrázku, kde každý pole bajtů představuje jednu stránku. V tomto případě máme jednu stránku.
 
 ```csharp
 byte[][] imagesBytes = device.ImagesBytes;
 ```
 
-## Krok 5: Uložte bajty obrázku do souboru
+### Krok 5: Uložení bajtů obrázku do souboru
 
-Uložte bajty obrázku do souboru, čímž zajistíte úspěšnou konverzi z EPS do PNG.
+Uložte bajty obrázku do souboru, čímž zajistíte úspěšný převod z EPS na PNG.
 
 ```csharp
 using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
@@ -87,40 +106,68 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 }
 ```
 
-## Krok 6: Ověřte měřenou licenci
+### Krok 6: Ověření měřené licence
 
-Vizuálně zkontrolujte, zda byla měřená licence úspěšně aplikována. Pokud výsledný obrázek neobsahuje červenou hodnotící zprávu, znamená to, že měřená licence je aplikována bez problémů.
+Vizuelně zkontrolujte, zda je měřená licence úspěšně aplikována. Pokud výsledný obrázek neobsahuje červenou hodnotící zprávu, licence byla aplikována bez problémů.
 
-Nyní jste připraveni využít plné schopnosti Aspose.Page for .NET s měřenou licencí!
+Nyní jste připraveni využít plný potenciál Aspose.Page pro .NET s měřenou licencí!
 
-## Závěr
+## Časté problémy a řešení
 
-Tento podrobný průvodce vás vybavil znalostmi pro bezproblémové použití měřené licence pomocí Aspose.Page for .NET. Vylepšete své možnosti zpracování dokumentů a prozkoumejte rozsáhlé funkce, které tato výkonná knihovna nabízí.
+| Problém | Příčina | Řešení |
+|---------|---------|--------|
+| Červený hodnotící banner se stále zobrazuje | Licence není nastavena nebo jsou špatné klíče | Zkontrolujte veřejný/soukromý klíč a ujistěte se, že `SetMeteredKey` je voláno před jakýmkoli zpracováním dokumentu |
+| Nebyl vytvořen výstupní soubor | Nesprávná cesta `dataDir` nebo oprávnění k souborům | Ověřte, že adresář existuje a aplikace má oprávnění k zápisu |
+| Více stránek nebylo uloženo | Byla zapsána pouze první stránka | Procházejte `imagesBytes` a každé pole uložte do samostatného PNG souboru |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Jak získám měřenou licenci pro Aspose.Page for .NET?
+**Q: Mohu použít měřenou licenci v CI/CD pipeline?**  
+A: Ano, můžete klíče bezpečně uložit (např. do proměnných prostředí) a volat `SetMeteredKey` během procesu sestavení.
 
- A1: Návštěva[buy.aspose.com](https://purchase.aspose.com/buy) získat platnou licenci.
+**Q: Podporuje Aspose.Page zachování barevného profilu při převodu do PNG?**  
+A: Výstup PNG zachovává původní barevné informace, ale můžete jej dále přizpůsobit pomocí `ImageSaveOptions`.
 
-### Q2: Kde najdu dokumentaci pro Aspose.Page for .NET?
+**Q: Je možné převést EPS do jiných rastrových formátů (JPEG, BMP)?**  
+A: Rozhodně – stačí změnit `ImageSaveOptions` na požadovaný formát.
 
- A2: Viz[Aspose.Page .NET](https://reference.aspose.com/page/net/) pro komplexní dokumentaci.
+**Q: Jaká je maximální velikost podporovaného souboru EPS?**  
+A: Aspose.Page zvládá velké soubory, ale spotřeba paměti roste s rozlišením obrázku. Pro velmi velké dokumenty zvažte zpracování jednotlivých stránek.
+
+**Q: Jak mohu programově zjistit počet stránek v souboru EPS?**  
+A: Použijte `document.PagesCount` po načtení `PsDocument`.
+
+## FAQ's
+
+### Q1: Jak získat měřenou licenci pro Aspose.Page pro .NET?
+
+A1: Navštivte [purchase.aspose.com](https://purchase.aspose.com/buy) a získejte platnou licenci.
+
+### Q2: Kde najdu dokumentaci pro Aspose.Page pro .NET?
+
+A2: Podívejte se na [Aspose.Page .NET](https://reference.aspose.com/page/net/) pro komplexní dokumentaci.
 
 ### Q3: Existuje fórum pro diskuse a podporu Aspose.Page?
 
- A3: Ano, navštivte[Fórum](https://forum.aspose.com/c/page/39) zapojit se do komunity a vyhledat pomoc.
+A3: Ano, navštivte [forum](https://forum.aspose.com/c/page/39) a zapojte se do komunity a požádejte o pomoc.
 
-### Q4: Mohu vyzkoušet Aspose.Page for .NET před nákupem?
+### Q4: Můžu vyzkoušet Aspose.Page pro .NET před zakoupením?
 
- A4: Rozhodně! Přístup k bezplatné zkušební verzi na[tady](https://releases.aspose.com/).
+A4: Rozhodně! Získejte bezplatnou zkušební verzi na [zde](https://releases.aspose.com/).
 
-### Q5: Jak mohu získat dočasnou licenci pro Aspose.Page for .NET?
+### Q5: Jak získat dočasnou licenci pro Aspose.Page pro .NET?
 
- A5: Návštěva[dočasná licence/](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci.
+A5: Navštivte [temporary license/](https://purchase.aspose.com/temporary-license/) a získejte dočasnou licenci.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+---
+
+**Poslední aktualizace:** 2026-01-28  
+**Testováno s:** Aspose.Page 24.12 for .NET  
+**Autor:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
