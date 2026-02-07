@@ -1,11 +1,11 @@
 ---
-date: 2025-12-02
-description: Aspose.Page के साथ जावा में EPS फ़ाइलों को आसानी से री‑साइज़ करना सीखें।
-  यह चरण‑दर‑चरण गाइड आपको दिखाता है कि पॉइंट्स, इंच, मिलीमीटर या प्रतिशत का उपयोग
-  करके EPS को कैसे री‑साइज़ किया जाए।
+date: 2026-02-07
+description: जावा में EPS फ़ाइलों को री‑साइज़ करना और Aspose.Page का उपयोग करके EPS
+  आयाम बदलना सीखें। यह चरण‑दर‑चरण गाइड आपको दिखाता है कि पॉइंट्स, इंच, मिलीमीटर या
+  प्रतिशत के साथ EPS को कैसे री‑साइज़ किया जाए।
 linktitle: Resize EPS File in Java
 second_title: Aspose.Page Java API
-title: जावा में Aspose.Page के साथ EPS फ़ाइलों को कैसे रीसेज़ करें
+title: Aspose.Page के साथ जावा में EPS फ़ाइलों का आकार कैसे बदलें
 url: /hi/java/manipulation-eps/resize/
 weight: 11
 ---
@@ -14,27 +14,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java में Aspose.Page के साथ EPS फ़ाइलों का आकार कैसे बदलें
+# Java में Aspose.Page के साथ EPS फ़ाइलों को री‑साइज़ कैसे करें
 
-## परिचय
-यदि आप प्रोग्रामेटिक रूप से **EPS फ़ाइलों का आकार बदलने** का विश्वसनीय तरीका खोज रहे हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम Aspose.Page लाइब्रेरी का उपयोग करके Java में EPS इमेजेज़ का आकार बदलने की प्रक्रिया को चरण‑दर‑चरण देखेंगे। चाहे आपको आकार को दोगुना करना हो, किसी विशिष्ट माप में घटाना हो, या प्रतिशत के आधार पर काम करना हो, नीचे दिए गए चरण आपको आउटपुट डायमेंशन पर पूर्ण नियंत्रण देते हैं।
+## Introduction
+यदि आप प्रोग्रामेटिक रूप से **EPS को री‑साइज़ करने का विश्वसनीय तरीका** खोज रहे हैं, तो आप सही जगह पर आए हैं। इस ट्यूटोरियल में हम Aspose.Page लाइब्रेरी का उपयोग करके Java में EPS इमेज को री‑साइज़ करने की प्रक्रिया को चरण‑दर‑चरण समझेंगे। चाहे आपको आकार को दोगुना करना हो, किसी विशिष्ट माप में घटाना हो, या प्रतिशत के आधार पर काम करना हो, नीचे दिए गए कदम आपको आउटपुट डायमेंशन पर पूर्ण नियंत्रण देंगे। **EPS को री‑साइज़ करने का तरीका** समझना आवश्यक है जब आपको विभिन्न प्रिंट लेआउट या स्क्रीन रिज़ॉल्यूशन के लिए ग्राफ़िक्स को अनुकूलित करना हो।
 
-## त्वरित उत्तर
-- **कौन सी लाइब्रेरी चाहिए?** Aspose.Page for Java  
-- **क्या मैं पॉइंट्स, इंच या मिलीमीटर में आकार बदल सकता हूँ?** हाँ – API सभी तीन यूनिट्स के साथ-साथ प्रतिशत को भी सपोर्ट करता है।  
-- **क्या विकास के लिए लाइसेंस चाहिए?** परीक्षण के लिए एक फ्री ट्रायल काम करता है; प्रोडक्शन के लिए लाइसेंस आवश्यक है।  
-- **कौन सा Java संस्करण आवश्यक है?** Java 8 या बाद का संस्करण।  
-- **क्या कोड थ्रेड‑सेफ़ है?** प्रत्येक `PsDocument` इंस्टेंस अलग है, इसलिए आप फ़ाइलों को समानांतर में प्रोसेस कर सकते हैं।
+## Quick Answers
+- **What library is needed?** Aspose.Page for Java  
+- **Can I resize using points, inches, or millimeters?** हाँ – API सभी तीन यूनिट्स और प्रतिशत दोनों को सपोर्ट करता है।  
+- **Do I need a license for development?** परीक्षण के लिए फ्री ट्रायल काम करता है; प्रोडक्शन के लिए लाइसेंस आवश्यक है।  
+- **What Java version is required?** Java 8 या बाद का संस्करण।  
+- **Is the code thread‑safe?** प्रत्येक `PsDocument` इंस्टेंस अलग है, इसलिए आप फ़ाइलों को समानांतर में प्रोसेस कर सकते हैं।  
 
-## पूर्वापेक्षाएँ
+## What is EPS and Why Resize It?
+Encapsulated PostScript (EPS) एक लोकप्रिय वेक्टर ग्राफ़िक्स फ़ॉर्मेट है जो प्रकाशन और प्रिंटिंग में उपयोग होता है। कभी‑कभी मूल EPS फ़ाइल का आकार आपके लक्ष्य आउटपुट से मेल नहीं खाता – उदाहरण के लिए, 72 pts पर डिज़ाइन किया गया लोगो बड़े ब्रोशर के लिए 144 pts चाहिए हो सकता है। **EPS को री‑साइज़ करने का तरीका** जानने से आप वेक्टर क्वालिटी को बनाए रखते हुए किसी भी वर्कफ़्लो के लिए डायमेंशन को अनुकूलित कर सकते हैं।
+
+## Why Use Aspose.Page for Resizing EPS?
+- **Full‑control over units** – पॉइंट्स, इंच, मिलीमीटर या प्रतिशत।  
+- **No external dependencies** – शुद्ध Java API, कोई नेटिव लाइब्रेरी नहीं।  
+- **High performance** – सर्वर पर बैच प्रोसेसिंग के लिए उपयुक्त।  
+- **Preserves vector fidelity** – आउटपुट स्केलेबल रहता है, रास्टराइज़ेशन नहीं होता।  
+
+## Prerequisites
 कोड में डुबकी लगाने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हों:
 
-- आपके मशीन पर स्थापित Java Development Kit (JDK)।  
-- Aspose.Page for Java लाइब्रेरी। आप इसे **[यहाँ](https://releases.aspose.com/page/java/)** से डाउनलोड कर सकते हैं।  
-- Java प्रोग्रामिंग की बुनियादी समझ।
+- आपके मशीन पर Java Development Kit (JDK) स्थापित हो।  
+- Aspose.Page for Java लाइब्रेरी। आप इसे **[here](https://releases.aspose.com/page/java/)** से डाउनलोड कर सकते हैं।  
+- Java प्रोग्रामिंग की बुनियादी समझ।  
 
-## पैकेज इम्पोर्ट करें
-अपने Java प्रोजेक्ट में आवश्यक इम्पोर्ट्स शामिल करें ताकि आप Aspose.Page ऑब्जेक्ट्स और मानक I/O स्ट्रीम्स के साथ काम कर सकें।
+## Import Packages
+अपने Java प्रोजेक्ट में आवश्यक इम्पोर्ट्स शामिल करें ताकि आप Aspose.Page ऑब्जेक्ट्स और स्टैंडर्ड I/O स्ट्रीम्स के साथ काम कर सकें।
 
 ```java
 import java.awt.Dimension;
@@ -45,73 +54,74 @@ import com.aspose.page.DimensionF;
 import com.aspose.page.Units;
 ```
 
-## पॉइंट्स का उपयोग करके EPS का आकार बदलना
-नीचे एक पूर्ण, चरण‑दर‑चरण उदाहरण दिया गया है जो पॉइंट्स को माप इकाई के रूप में उपयोग करके EPS फ़ाइल का आकार दोगुना करता है।
+## How to Change EPS Dimensions with Different Units
+लाइब्रेरी आपको **EPS डायमेंशन बदलने** की सुविधा देती है, बस उपयुक्त `Units` एनेम को चुनें। नीचे हम पॉइंट्स, इंच, मिलीमीटर और प्रतिशत के लिए वही पाँच‑स्टेप पैटर्न दिखाएंगे। केवल `resizeEps` को पास किया गया यूनिट बदलता है।
 
-### चरण 1: इनपुट स्ट्रीम सेट करें
+## How to Resize EPS Using Points
+नीचे एक पूर्ण, चरण‑दर‑चरण उदाहरण है जो पॉइंट्स को माप इकाई के रूप में उपयोग करके EPS फ़ाइल का आकार दोगुना करता है।
+
+### Step 1: Set up the input stream
 ```java
 FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
 ```
 
-### चरण 2: `PsDocument` ऑब्जेक्ट को इनिशियलाइज़ करें
+### Step 2: Initialize the `PsDocument` object
 ```java
 PsDocument doc = new PsDocument(inputEpsStream);
 ```
 
-### चरण 3: EPS इमेज का वर्तमान आकार निकालें
+### Step 3: Extract the current size of the EPS image
 ```java
 Dimension oldSize = doc.extractEpsSize();
 ```
 
-### चरण 4: रिसाइज़्ड फ़ाइल के लिए आउटपुट स्ट्रीम बनाएं
+### Step 4: Create an output stream for the resized file
 ```java
 FileOutputStream outputEpsStream = new FileOutputStream(dataDir + "output_resize_points.eps");
 ```
 
-### चरण 5: पॉइंट्स का उपयोग करके EPS को रिसाइज़ और सेव करें
+### Step 5: Resize and save the EPS using points
 ```java
 doc.resizeEps(outputEpsStream, new Dimension2D.Double(oldSize.width * 2, oldSize.height * 2), Units.Points);
 ```
 
-## इंच का उपयोग करके EPS का आकार बदलना
-उसी पाँच‑चरणीय पैटर्न को लागू करें; केवल `Units.Points` को `Units.Inches` से बदलें और आवश्यकतानुसार स्केलिंग फ़ैक्टर समायोजित करें।
+## How to Resize EPS Using Inches
+उसी पाँच‑स्टेप पैटर्न को लागू करें; केवल `Units.Points` को `Units.Inches` से बदलें और स्केलिंग फ़ैक्टर को इच्छित इंच मान के अनुसार समायोजित करें।
 
-## मिलीमीटर का उपयोग करके EPS का आकार बदलना
-फिर से वही चरण अपनाएँ, यूनिट को `Units.Millimeters` में बदलें। यह प्रिंट वर्कफ़्लो के लिए मीट्रिक‑आधारित डायमेंशन की आवश्यकता होने पर उपयोगी है।
+## How to Resize EPS Using Millimeters
+फिर से वही कदम अपनाएँ, लेकिन यूनिट को `Units.Millimeters` में बदलें। यह तब उपयोगी होता है जब आपको प्रिंट वर्कफ़्लो के लिए मीट्रिक‑आधारित डायमेंशन चाहिए हों।
 
-## प्रतिशत का उपयोग करके EPS का आकार बदलना
-प्रतिशत‑आधारित स्केलिंग के लिए, यूनिट को `Units.Percent` ही रखें। मूल चौड़ाई और ऊँचाई को इच्छित प्रतिशत (जैसे 50 % कमी के लिए `0.5`) से गुणा करें।
+## How to Resize EPS Using Percentages
+प्रतिशत‑आधारित स्केलिंग के लिए यूनिट को `Units.Percent` रखें। मूल चौड़ाई और ऊँचाई को इच्छित प्रतिशत (जैसे 0.5 = 50 % कमी) से गुणा करें।
 
-## सामान्य समस्याएँ एवं टिप्स
-- **स्ट्रीम्स को हमेशा बंद करें** – प्रोडक्शन कोड में फ़ाइल लॉक से बचने के लिए स्ट्रीम्स को `try‑with‑resources` में रैप करें।  
-- **अस्पेक्ट रेशियो बनाए रखें** – जब तक आप जानबूझकर विकृति नहीं चाहते, चौड़ाई और ऊँचाई दोनों को समान फ़ैक्टर से गुणा करें।  
-- **DPI जांचें** – रिसाइज़ करने से DPI नहीं बदलता; यदि आपको अलग DPI चाहिए, तो रिसाइज़ के बाद उसे अलग से समायोजित करें।
+## Common Pitfalls & Tips
+- **Always close streams** – प्रोडक्शन कोड में स्ट्रीम्स को `try‑with‑resources` में रैप करें ताकि फ़ाइल लॉक न हों।  
+- **Preserve aspect ratio** – जब तक आप जानबूझकर विकृति नहीं चाहते, चौड़ाई और ऊँचाई दोनों को समान फ़ैक्टर से गुणा करें।  
+- **Check DPI** – री‑साइज़ करने से DPI नहीं बदलता; यदि अलग DPI चाहिए तो री‑साइज़ के बाद अलग से समायोजित करें।  
+- **Thread safety** – प्रत्येक थ्रेड के लिए नया `PsDocument` बनाएं; एक ही इंस्टेंस को साझा करने से अनपेक्षित परिणाम मिल सकते हैं।  
 
-## निष्कर्ष
-अब आप **EPS फ़ाइलों का आकार बदलना** Java में Aspose.Page का उपयोग करके जानते हैं, चाहे आप पॉइंट्स, इंच, मिलीमीटर या प्रतिशत में काम करना पसंद करें। यह लचीलापन आपको EPS मैनिपुलेशन को ऑटोमेटेड पाइपलाइन, डेस्कटॉप यूटिलिटीज़ या सर्वर‑साइड सर्विसेज़ में एकीकृत करने की अनुमति देता है।
+## Frequently Asked Questions
 
-## अक्सर पूछे जाने वाले प्रश्न
+**Q: Can I use this library for other image formats?**  
+A: नहीं, Aspose.Page केवल PostScript और EPS फ़ाइलों के लिए विशेषीकृत है।
 
-**प्रश्न: क्या मैं इस लाइब्रेरी का उपयोग अन्य इमेज फ़ॉर्मैट्स के लिए कर सकता हूँ?**  
-उत्तर: नहीं, Aspose.Page केवल PostScript और EPS फ़ाइलों के लिए विशेषीकृत है।
+**Q: Is there a free trial available for Aspose.Page for Java?**  
+A: हाँ, आप फ्री ट्रायल **[here](https://releases.aspose.com/)** पर एक्सप्लोर कर सकते हैं।
 
-**प्रश्न: क्या Aspose.Page for Java के लिए फ्री ट्रायल उपलब्ध है?**  
-उत्तर: हाँ, आप फ्री ट्रायल **[यहाँ](https://releases.aspose.com/)** एक्सप्लोर कर सकते हैं।
+**Q: Where can I find additional help and discussions?**  
+A: समुदाय समर्थन के लिए **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** देखें।
 
-**प्रश्न: अतिरिक्त मदद और चर्चा कहां मिल सकती है?**  
-उत्तर: समुदाय समर्थन के लिए **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** देखें।
+**Q: How can I obtain a temporary license?**  
+A: आप अस्थायी लाइसेंस **[here](https://purchase.aspose.com/temporary-license/)** से प्राप्त कर सकते हैं।
 
-**प्रश्न: मैं अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?**  
-उत्तर: आप अस्थायी लाइसेंस **[यहाँ](https://purchase.aspose.com/temporary-license/)** से प्राप्त कर सकते हैं।
-
-**प्रश्न: क्या कोई उदाहरण प्रोजेक्ट उपलब्ध हैं?**  
-उत्तर: हाँ, दस्तावेज़ीकरण **[यहाँ](https://reference.aspose.com/page/java/)** देखें।
+**Q: Are there any example projects available?**  
+A: हाँ, दस्तावेज़ीकरण **[here](https://reference.aspose.com/page/java/)** में देखें।
 
 ---
 
-**अंतिम अपडेट:** 2025-12-02  
-**परीक्षित संस्करण:** Aspose.Page for Java 24.12 (लेखन समय पर नवीनतम)  
-**लेखक:** Aspose  
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
