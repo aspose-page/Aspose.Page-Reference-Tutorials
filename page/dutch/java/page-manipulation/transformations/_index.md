@@ -1,10 +1,11 @@
 ---
-date: 2025-12-07
-description: Leer hoe je een rechthoek schaalt, een vorm verplaatst en een affiene
-  transformatie toepast in Java met Aspose.Page om PostScript‑documenten te maken.
+date: 2026-02-07
+description: Leer hoe je een rechthoek kunt schalen met Aspose.Page voor Java, hoe
+  je een vorm kunt verplaatsen, en een affiene transformatie kunt toepassen om PostScript‑documenten
+  te maken.
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
-title: Hoe een rechthoek schalen en transformaties toepassen met Aspose.Page
+title: Hoe een rechthoek te schalen met Aspose.Page voor Java
 url: /nl/java/page-manipulation/transformations/
 weight: 11
 ---
@@ -13,27 +14,27 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe een rechthoek schalen en transformaties toepassen met Aspose.Page
+# Hoe een rechthoek schalen met Aspose.Page voor Java
 
-## Introductie
-Welkom bij een uitgebreide gids over het benutten van de krachtige functies van **Aspose.Page for Java** om diverse paginatransformaties uit te voeren. In deze tutorial leert u **hoe een rechthoek te schalen**, vormen te verplaatsen, objecten te roteren en **affine transformaties** toe te passen tijdens het maken van een **PostScript‑document**. Deze mogelijkheden stellen u in staat om rijke, grafisch intensieve Java‑toepassingen te bouwen zonder low‑level rendering‑code te hoeven schrijven.
+## Inleiding
+Welkom bij een uitgebreide gids over het benutten van de krachtige functies van **Aspose.Page for Java** om verschillende paginatransformaties uit te voeren. In deze tutorial leer je **how to scale rectangle**, vormen vertalen, objecten roteren en **apply affine transform** technieken toepassen tijdens het maken van een **PostScript document**. Deze mogelijkheden stellen je in staat om rijke, grafisch intensieve Java‑applicaties te bouwen zonder je bezig te houden met low‑level rendering‑code.
 
 ## Snelle antwoorden
 - **Hoe schaal ik een rechthoek in Java met Aspose.Page?** Gebruik de `document.scale()`‑methode vóór het tekenen van de vorm.  
-- **Kan ik een vorm (transleren) verplaatsen zonder andere graphics te beïnvloeden?** Ja—sla de graphics‑state op, roep `document.translate(x, y)` aan, teken, en herstel vervolgens de state.  
+- **Kan ik een vorm verplaatsen (vertalen) zonder andere graphics te beïnvloeden?** Ja—sla de graphics‑status op, roep `document.translate(x, y)` aan, teken, en herstel vervolgens de status.  
 - **Welke klasse maakt een PostScript‑bestand?** `PsDocument` samen met `PsSaveOptions`.  
 - **Heb ik een licentie nodig voor productiegebruik?** Een geldige Aspose.Page‑licentie is vereist voor commerciële implementaties.  
 - **Welke Java‑versie wordt ondersteund?** Aspose.Page werkt met Java 8 en hoger.
 
 ## Voorvereisten
-Voordat we in de stap‑voor‑stap‑gids duiken, zorg ervoor dat u de volgende voorwaarden hebt:
+Voordat we in de stap‑voor‑stap‑gids duiken, zorg ervoor dat je de volgende vereisten hebt:
 
 - Basiskennis van Java‑programmeren.  
-- Aspose.Page for Java‑bibliotheek geïnstalleerd. U kunt deze downloaden via de [Aspose.Page for Java‑documentatie](https://reference.aspose.com/page/java/).  
-- Een Java Integrated Development Environment (IDE) geïnstalleerd op uw machine.
+- Aspose.Page for Java‑bibliotheek geïnstalleerd. Je kunt deze downloaden van de [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
+- Een Java Integrated Development Environment (IDE) geïnstalleerd op je machine.
 
 ## Pakketten importeren
-Importeer in uw Java‑project de benodigde pakketten om Aspose.Page for Java te gebruiken:
+Importeer in je Java‑project de benodigde pakketten om Aspose.Page for Java te gebruiken:
 
 ```java
 import java.awt.Color;
@@ -46,13 +47,13 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## Wat is “how to scale rectangle” in Aspose.Page?
-Het schalen van een rechthoek verandert de grootte langs de X‑ en Y‑as terwijl de vorm behouden blijft. Aspose.Page biedt de `scale(float sx, float sy)`‑methode, die een **affine transform** toepast op de huidige graphics‑state. Dit is de kerntechniek achter het **how to scale rectangle**‑trefwoord.
+Het schalen van een rechthoek verandert de grootte langs de X‑ en Y‑assen terwijl de vorm behouden blijft. Aspose.Page biedt de `scale(float sx, float sy)`‑methode, die een **affine transform** toepast op de huidige graphics‑status. Dit is de kerntechniek achter het **how to scale rectangle**‑trefwoord.
 
 ## Hoe een vorm vertalen met Aspose.Page
-Translatie verplaatst een vorm naar een nieuwe locatie zonder de afmetingen te wijzigen. Dit is de essentie van **how to translate shape**. Door de graphics‑state op te slaan, `translate(dx, dy)` toe te passen, te tekenen en vervolgens de state te herstellen, blijven andere objecten onaangetast.
+Vertalen verplaatst een vorm naar een nieuwe locatie zonder de afmetingen te wijzigen. Dit is de essentie van **how to translate shape**. Door de graphics‑status op te slaan, `translate(dx, dy)` toe te passen, te tekenen en vervolgens de status te herstellen, blijven andere objecten onaangetast.
 
 ## Voorbeeld 1: Geen transformaties
-Het eerste voorbeeld tekent een eenvoudige rechthoek zonder enige transformatie. Dit dient als basislijn voor vergelijking met latere voorbeelden.
+Het eerste voorbeeld tekent een eenvoudige rechthoek zonder toegepaste transformatie. Dit dient als basislijn voor vergelijking met latere voorbeelden.
 
 ```java
 // The path to the documents directory.
@@ -75,7 +76,7 @@ document.closePage();
 document.save();
 ```
 
-## Voorbeeld 2: Translatie
+## Voorbeeld 2: Vertaling
 Hier demonstreren we **how to translate shape** door de graphics‑context 250 eenheden naar rechts te verplaatsen vóór het tekenen van een tweede rechthoek.
 
 ```java
@@ -107,60 +108,62 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Hoe een vorm roteren in Java (rotate shape java)
-Rotatie is een andere veelvoorkomende affine bewerking. Hoewel de code‑fragmenten voor rotatie om beknoptheid te behouden zijn weggelaten, is het patroon identiek: sla de graphics‑state op, roep `document.rotate(angle)` aan, teken de vorm, en herstel vervolgens. Dit demonstreert **rotate shape java** en **how to rotate rectangle** in de praktijk.
+## Hoe een vorm roteren Java (rotate shape java)
+Rotatie is een andere veelvoorkomende affine bewerking. Terwijl de code‑fragmenten voor rotatie om beknoptheid te behouden weggelaten zijn, is het patroon identiek: sla de graphics‑status op, roep `document.rotate(angle)` aan, teken de vorm, en herstel vervolgens. Dit demonstreert **rotate shape java** en **how to rotate rectangle** in de praktijk.
 
-## Waarom Aspose.Page gebruiken voor deze transformaties?
-- **Device‑independent**: Schrijf één keer code, genereer PostScript of XPS zonder platform‑specifieke code.  
-- **Fine‑grained control**: Directe toegang tot de graphics‑state stelt u in staat translatie, schaling, shear en rotatie te combineren.  
-- **Performance**: Low‑overhead API geschikt voor batchverwerking van grote documenten.  
+## Waarom dit belangrijk is – Praktische voordelen
+- **Apparaatonafhankelijke output** – Eén keer schrijven en PostScript of XPS genereren zonder platformspecifieke aanpassingen.  
+- **Fijne controle** – Combineer vertaling, schalen, schuiven en rotatie om exact aan layout‑eisen te voldoen.  
+- **Prestatiegericht** – Low‑overhead API ideaal voor batchverwerking van grootschalige documenten.  
 
 ## Veelvoorkomende gebruikssituaties
-- Het genereren van afdrukbare facturen met dynamische barcodes en logo's.  
-- Het maken van technische diagrammen waarbij nauwkeurige schaling en positionering vereist zijn.  
-- Het automatiseren van de productie van meerpagina‑rapporten in PostScript‑indeling.
+- Het genereren van afdrukbare facturen – bijvoorbeeld een **printable invoice java**‑oplossing die logo’s en barcodes nauwkeurig plaatst.  
+- Het maken van technische diagrammen waarbij precieze schaal en positionering vereist zijn.  
+- Het automatiseren van de productie van meer‑pagina rapporten in PostScript‑formaat.
 
-## Conclusie
-In deze tutorial hebben we verschillende transformaties in Java‑pagina‑manipulatie onderzocht met Aspose.Page for Java, met focus op **how to scale rectangle**, **how to translate shape** en andere affine bewerkingen. Door deze voorbeelden te volgen, kunt u uw Java‑applicaties verrijken met geavanceerde paginamanipulatiemogelijkheden en **PostScript‑document**‑uitvoer genereren die voldoen aan professionele publicatiestandaarden.
+## Veelvoorkomende problemen en oplossingen
+- **Transformatie wordt niet gereset** – Koppel altijd `document.writeGraphicsSave()` met `document.writeGraphicsRestore()` om ongewenste voortzettingseffecten te voorkomen.  
+- **Onverwachte kleuren** – Zorg ervoor dat je de verf instelt na elke transformatie; de graphics‑status behoudt geen eerdere kleuropties na een herstel.  
+- **Bestandsgrootte te groot** – Gebruik `PsSaveOptions` om compressie in te schakelen of de beeldresolutie te verlagen bij het insluiten van raster‑graphics.
 
 ## Veelgestelde vragen
-### Kan ik Aspose.Page voor Java gebruiken voor andere documentformaten?
+### Kan ik Aspose.Page for Java voor andere documentformaten gebruiken?
 Aspose.Page richt zich voornamelijk op paginamanipulatie voor PostScript‑ en XPS‑formaten.
 
-### Waar kan ik meer voorbeelden en documentatie vinden voor Aspose.Page voor Java?
-Bezoek de [Aspose.Page for Java‑documentatie](https://reference.aspose.com/page/java/) voor uitgebreide informatie.
+### Waar kan ik meer voorbeelden en documentatie voor Aspose.Page for Java vinden?
+Bezoek de [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) voor uitgebreide informatie.
 
-### Is er een gratis proefversie beschikbaar voor Aspose.Page voor Java?
-Ja, u kunt een gratis proefversie verkrijgen [hier](https://releases.aspose.com/).
+### Is er een gratis proefversie beschikbaar voor Aspose.Page for Java?
+Ja, je kunt een gratis proefversie krijgen [hier](https://releases.aspose.com/).
 
-### Hoe kan ik een tijdelijke licentie krijgen voor Aspose.Page voor Java?
-Vraag een tijdelijke licentie aan [hier](https://purchase.aspose.com/temporary-license/).
+### Hoe kan ik een tijdelijke licentie voor Aspose.Page for Java krijgen?
+Verkrijg een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/).
 
-### Waar kan ik community‑ondersteuning vinden of vragen stellen over Aspose.Page voor Java?
-Bezoek het [Aspose.Page for Java‑forum](https://forum.aspose.com/c/page/39) voor discussies binnen de community.
+### Waar kan ik community‑ondersteuning zoeken of vragen stellen over Aspose.Page for Java?
+Bezoek het [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) voor community‑discussies.
 
 ## Veelgestelde vragen
 
 **Q: Wat is het verschil tussen `translate` en `scale`?**  
-A: `translate` verplaatst de oorsprong van het coördinatensysteem, terwijl `scale` de grootte van getekende objecten langs de X‑ en/of Y‑as wijzigt.
+A: `translate` verplaatst de oorsprong van het coördinatensysteem, terwijl `scale` de grootte van getekende objecten langs de X‑ en/of Y‑assen wijzigt.
 
-**Q: Kan ik meerdere transformaties combineren in één graphics‑state?**  
-A: Ja—door `translate`, `scale`, `rotate` of `shear` opeenvolgend aan te roepen vóór het tekenen, creëert u een gecombineerde affine transformatie.
+**Q: Kan ik meerdere transformaties combineren in één graphics‑status?**  
+A: Ja—door `translate`, `scale`, `rotate` of `shear` opeenvolgend aan te roepen vóór het tekenen, creëer je een gecombineerde affine transformatie.
 
 **Q: Hoe reset ik transformaties na het tekenen van een vorm?**  
-A: Gebruik `document.writeGraphicsRestore()` om terug te keren naar de eerder opgeslagen graphics‑state.
+A: Gebruik `document.writeGraphicsRestore()` om terug te keren naar de eerder opgeslagen graphics‑status.
 
 **Q: Is het mogelijk om een rechthoek rond zijn middelpunt te roteren?**  
-A: Absoluut. Vertaal de rechthoek naar de oorsprong, pas `rotate(angle)` toe, en vertaal vervolgens terug voordat u tekent.
+A: Absoluut. Vertaal de rechthoek naar de oorsprong, pas `rotate(angle)` toe, en vertaal vervolgens terug vóór het tekenen.
 
 **Q: Ondersteunt Aspose.Page anti‑aliasing voor vloeiendere graphics?**  
 A: Ja—stel de juiste rendering‑opties in `PsSaveOptions` in om anti‑aliasing in te schakelen.
 
 ---
 
-**Last Updated:** 2025-12-07  
-**Tested With:** Aspose.Page for Java 24.12  
-**Author:** Aspose  
+**Laatst bijgewerkt:** 2026-02-07  
+**Getest met:** Aspose.Page for Java 24.12  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
