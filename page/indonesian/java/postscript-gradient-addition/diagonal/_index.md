@@ -1,11 +1,13 @@
 ---
-date: 2025-12-07
+date: 2026-02-13
 description: Tingkatkan dokumen Java PostScript Anda dengan gradien diagonal menggunakan
   Aspose.Page Java. Pelajari cara menambahkan efek gradien dengan LinearGradientPaint
   di Java dan buat transisi warna yang hidup dengan mudah.
-linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
+linktitle: 'How to Add Gradient: Diagonal Gradient in Java PostScript using Aspose.Page
+  Java'
 second_title: Aspose.Page Java API
-title: Tambahkan Gradien Diagonal di Java PostScript menggunakan Aspose.Page Java
+title: 'Cara Menambahkan Gradien: Gradien Diagonal di Java PostScript menggunakan
+  Aspose.Page Java'
 url: /id/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
@@ -14,32 +16,35 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menambahkan Gradien Diagonal di PostScript Java menggunakan Aspose.Page Java
+# Tambahkan Gradien Diagonal di Java PostScript menggunakan Aspose.Page Java
 
-## Pendahuluan
-Jika Anda ingin memperkaya file PostScript dengan transisi warna diagonal yang halus, **Aspose.Page Java** membuatnya terasa sangat mudah. Pada tutorial ini kami akan memandu **cara menambahkan gradien** langkah demi langkah, menggunakan kelas `LinearGradientPaint` dari Java 2D. Pada akhir tutorial Anda akan memiliki potongan kode siap‑jalankan yang menghasilkan dokumen PostScript dengan gradien diagonal yang hidup.
+## Introduction
+Jika Anda ingin memperkaya file PostScript dengan transisi warna diagonal yang halus, **Aspose.Page Java** membuatnya sangat mudah. Dalam tutorial ini kami akan menjelaskan **cara menambahkan gradien** langkah demi langkah, menggunakan kelas `LinearGradientPaint` dari Java 2D. Pada akhir Anda akan memiliki potongan kode siap‑jalankan yang membuat dokumen PostScript dengan gradien diagonal yang hidup.
 
-## Jawaban Cepat
-- **Perpustakaan apa yang dibutuhkan?** Aspose.Page untuk Java.  
+## How to Add Gradient in Java PostScript
+Menambahkan gradien mungkin terdengar seperti tugas grafis saja, tetapi dengan Aspose.Page Anda mendapatkan kontrol penuh atas perintah PostScript yang mendasarinya sambil tetap berada dalam Java murni. Bagian ini menjelaskan mengapa pendekatan ini berhasil dan apa yang Anda dapatkan dibandingkan menulis PostScript mentah secara manual.
+
+## Quick Answers
+- **Perpustakaan apa yang diperlukan?** Aspose.Page for Java.  
 - **Kelas mana yang membuat gradien?** `LinearGradientPaint`.  
-- **Apakah saya dapat mengubah warnanya?** Ya – ubah array `Color[]`.  
+- **Bisakah saya mengubah warna?** Ya – ubah array `Color[]`.  
 - **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan; versi percobaan gratis tersedia.  
 - **Berapa lama implementasinya?** Sekitar 10 menit untuk gradien dasar.
 
-## Apa itu Aspose.Page Java?
-Aspose.Page Java adalah API kuat yang memungkinkan pengembang menghasilkan, mengedit, dan mengonversi file PostScript serta PDF tanpa memerlukan perangkat lunak eksternal. API ini mengekspos seluruh kemampuan grafis bahasa PostScript melalui antarmuka Java yang bersih dan berorientasi objek.
+## What is Aspose.Page Java?
+Aspose.Page Java adalah API yang kuat yang memungkinkan pengembang menghasilkan, mengedit, dan mengonversi file PostScript serta PDF tanpa memerlukan perangkat lunak eksternal. API ini mengekspos seluruh kemampuan grafis bahasa PostScript melalui antarmuka Java berorientasi objek yang bersih.
 
-## Mengapa menggunakan gradien diagonal?
+## Why use a diagonal gradient?
 Gradien diagonal menambah kedalaman dan daya tarik visual pada diagram, spanduk, atau elemen grafis apa pun yang membutuhkan tampilan modern. Karena gradien berjalan dari satu sudut ke sudut berlawanan, ia cocok untuk latar belakang, kulit tombol, dan bentuk dekoratif.
 
-## Prasyarat
-Sebelum memulai, pastikan Anda memiliki:
+## Prerequisites
+Sebelum Anda memulai, pastikan Anda memiliki:
 
 - Java Development Kit (JDK) 8 atau lebih tinggi.  
-- IDE seperti Eclipse, IntelliJ IDEA, atau VS Code.  
-- **Aspose.Page untuk Java** – unduh versi terbaru dari [halaman unduhan resmi](https://releases.aspose.com/page/java/).
+- Sebuah IDE seperti Eclipse, IntelliJ IDEA, atau VS Code.  
+- **Aspose.Page for Java** library – unduh versi terbaru dari [halaman unduhan resmi](https://releases.aspose.com/page/java/).
 
-## Impor Paket
+## Import Packages
 Pertama, impor paket Java 2D dan kelas Aspose yang diperlukan. Impor ini memberi Anda akses ke definisi warna, bentuk geometris, pengecatan gradien, dan API dokumen PostScript.
 
 ```java
@@ -54,7 +59,7 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Langkah 1: Buat Output Stream untuk Dokumen PostScript
+## Step 1: Create Output Stream for PostScript Document
 Kami mulai dengan menentukan folder tempat file akan disimpan dan membuka `FileOutputStream`. Stream ini akan menerima data PostScript yang dihasilkan.
 
 ```java
@@ -64,7 +69,7 @@ String dataDir = "Your Document Directory";
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "DiagonalGradient_outPS.ps");
 ```
 
-## Langkah 2: Buat Opsi Penyimpanan dengan Ukuran A4
+## Step 2: Create Save Options with A4 Size
 `PsSaveOptions` memungkinkan Anda menentukan ukuran halaman, resolusi, dan pengaturan output lainnya. Di sini kami menggunakan ukuran A4 default.
 
 ```java
@@ -72,7 +77,7 @@ FileOutputStream outPsStream = new FileOutputStream(dataDir + "DiagonalGradient_
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Langkah 3: Buat Dokumen PS Baru
+## Step 3: Create New PS Document
 Instansiasi `PsDocument` menggunakan output stream dan opsi penyimpanan. Flag `false` memberi tahu konstruktor untuk tidak secara otomatis membuka halaman baru – kami akan melakukannya nanti.
 
 ```java
@@ -80,7 +85,7 @@ Instansiasi `PsDocument` menggunakan output stream dan opsi penyimpanan. Flag `f
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Langkah 4: Buat Persegi Panjang
+## Step 4: Create a Rectangle
 Tentukan persegi panjang yang akan menerima isian gradien. Posisi persegi panjang (200, 100) dan ukuran (200 × 100) dipilih agar gradien terlihat jelas.
 
 ```java
@@ -88,7 +93,7 @@ Tentukan persegi panjang yang akan menerima isian gradien. Posisi persegi panjan
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
 
-## Langkah 5: Buat Transformasi Gradien
+## Step 5: Create Gradient Transform
 `AffineTransform` memungkinkan kami memutar, menskalakan, dan mentranslasi gradien sehingga berjalan diagonal melintasi persegi panjang. Rumus di bawah menghitung hipotenusa dan menyesuaikan rasio skala secara tepat.
 
 ```java
@@ -103,7 +108,7 @@ transform.scale(-ratio, 1);
 transform.translate(100 / transform.getScaleX(), 0);
 ```
 
-## Langkah 6: Buat Linear Gradient Paint Diagonal
+## Step 6: Create Diagonal Linear Gradient Paint
 Berikut inti **cara menambahkan gradien** – kami membangun `LinearGradientPaint` yang membentang dari kiri‑atas persegi panjang ke kanan‑bawah, menggunakan transformasi yang telah didefinisikan sebelumnya. `MultipleGradientPaint.CycleMethod.NO_CYCLE` memastikan gradien tidak berulang.
 
 ```java
@@ -113,8 +118,8 @@ LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new
         MultipleGradientPaint.ColorSpaceType.SRGB, transform);
 ```
 
-## Langkah 7: Atur Paint dan Isi Persegi Panjang
-Terapkan paint gradien ke dokumen dan isi bentuk persegi panjang. Langkah ini merender transisi warna diagonal pada halaman PostScript.
+## Step 7: Set Paint and Fill the Rectangle
+Terapkan cat gradien ke dokumen dan isi bentuk persegi panjang. Langkah ini merender transisi warna diagonal pada halaman PostScript.
 
 ```java
 // Set paint and fill the rectangle
@@ -122,7 +127,7 @@ document.setPaint(paint);
 document.fill(rectangle);
 ```
 
-## Langkah 8: Tutup Halaman Saat Ini dan Simpan Dokumen
+## Step 8: Close the Current Page and Save the Document
 Akhirnya, tutup halaman, flush stream, dan simpan file. File `DiagonalGradient_outPS.ps` yang dihasilkan dapat dibuka dengan penampil PostScript apa pun.
 
 ```java
@@ -131,34 +136,32 @@ document.closePage();
 document.save();
 ```
 
-Dengan mengikuti delapan langkah ini Anda telah berhasil menambahkan gradien diagonal ke dokumen PostScript menggunakan **Aspose.Page Java**. Silakan bereksperimen dengan warna, sudut, dan ukuran persegi panjang yang berbeda untuk menciptakan efek visual khusus.
+## Common Issues & Tips
+- **Gradien terlihat datar** – periksa kembali sudut rotasi; rotasi 45° menghasilkan diagonal yang sebenarnya.  
+- **Warna tampak pudar** – pastikan Anda menggunakan `MultipleGradientPaint.ColorSpaceType.SRGB` untuk rendering warna yang akurat.  
+- **Kesalahan file tidak ditemukan** – pastikan `dataDir` mengarah ke folder yang ada dan aplikasi memiliki izin menulis.
 
-## Masalah Umum & Tips
-- **Gradien tampak datar** – periksa kembali sudut rotasi; rotasi 45° menghasilkan diagonal yang sesungguhnya.  
-- **Warna terlihat pudar** – pastikan Anda menggunakan `MultipleGradientPaint.ColorSpaceType.SRGB` untuk rendering warna yang akurat.  
-- **Error file tidak ditemukan** – pastikan `dataDir` mengarah ke folder yang ada dan aplikasi memiliki izin menulis.
+## Frequently Asked Questions
 
-## Pertanyaan yang Sering Diajukan
+**Q: Bisakah saya menggunakan perpustakaan ini untuk operasi grafis lain di Java?**  
+A: Ya, Aspose.Page for Java menyediakan rangkaian lengkap primitif menggambar, rendering teks, dan kemampuan penanganan gambar.
 
-**T: Bisakah saya menggunakan perpustakaan ini untuk operasi grafis lain di Java?**  
-J: Ya, Aspose.Page untuk Java menyediakan rangkaian lengkap primitif menggambar, rendering teks, dan kemampuan penanganan gambar.
+**Q: Apakah tersedia versi percobaan gratis untuk Aspose.Page Java?**  
+A: Tentu saja. Anda dapat mengunduh percobaan berfungsi penuh dari [halaman percobaan gratis Aspose](https://releases.aspose.com/).
 
-**T: Apakah ada versi percobaan gratis untuk Aspose.Page Java?**  
-J: Tentu. Anda dapat mengunduh versi percobaan penuh fungsi dari [halaman percobaan gratis Aspose](https://releases.aspose.com/).
+**Q: Di mana saya dapat menemukan dokumentasi untuk Aspose.Page Java?**  
+A: Referensi API resmi tersedia [di sini](https://reference.aspose.com/page/java/).
 
-**T: Di mana saya dapat menemukan dokumentasi untuk Aspose.Page Java?**  
-J: Referensi API resmi tersedia [di sini](https://reference.aspose.com/page/java/).
+**Q: Bagaimana cara membeli lisensi untuk Aspose.Page Java?**  
+A: Lisensi dapat dibeli langsung melalui [portal pembelian Aspose](https://purchase.aspose.com/buy).
 
-**T: Bagaimana cara membeli lisensi untuk Aspose.Page Java?**  
-J: Lisensi dapat dibeli langsung melalui [portal pembelian Aspose](https://purchase.aspose.com/buy).
-
-**T: Butuh bantuan atau memiliki pertanyaan?**  
-J: Kunjungi forum komunitas **[Aspose.Page](https://forum.aspose.com/c/page/39)** untuk bantuan dari insinyur Aspose maupun pengembang lain.
+**Q: Butuh bantuan atau memiliki pertanyaan?**  
+A: Kunjungi forum komunitas [Aspose.Page](https://forum.aspose.com/c/page/39) untuk bantuan dari insinyur Aspose dan pengembang lainnya.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-07  
-**Diuji Dengan:** Aspose.Page untuk Java 24.12 (terbaru)  
+**Terakhir Diperbarui:** 2026-02-13  
+**Diuji Dengan:** Aspose.Page for Java 24.12 (terbaru)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
