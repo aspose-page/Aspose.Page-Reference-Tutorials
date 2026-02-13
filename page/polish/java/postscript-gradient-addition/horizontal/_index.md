@@ -1,10 +1,10 @@
 ---
-date: 2025-12-07
-description: Dowiedz się, jak dodać poziomy gradient w Java PostScript przy użyciu
-  Linear Gradient Paint Java z Aspose.Page dla Javy.
-linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
+date: 2026-02-13
+description: Dowiedz się, jak dodać gradient w Java PostScript przy użyciu Linear
+  Gradient Paint Java z Aspose.Page dla Javy.
+linktitle: How to Add Gradient in Java PostScript with Linear Gradient Paint
 second_title: Aspose.Page Java API
-title: Dodaj gradient w Java PostScript przy użyciu Linear Gradient Paint.
+title: Jak dodać gradient w Java PostScript przy użyciu Linear Gradient Paint
 url: /pl/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
@@ -13,17 +13,20 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj gradient w Java PostScript przy użyciu Linear Gradient Paint Java
+# Jak dodać gradient w Java PostScript przy użyciu Linear Gradient Paint
 
 ## Wprowadzenie
-W tym kompleksowym samouczku dowiesz się, jak stworzyć piękny poziomy gradient w dokumencie PostScript, wykorzystując **Linear Gradient Paint Java**. Aspose.Page for Java ułatwia pracę z formatami PostScript, PDF i innymi wektorowymi, a klasa `LinearGradientPaint` daje precyzyjną kontrolę nad przejściami kolorów. Po zakończeniu tego przewodnika będziesz w stanie renderować gradienty na kształtach **oraz** tekście, nadając swoim dokumentom profesjonalny, przyciągający uwagę wygląd.
+W tym obszernej instrukcji dowiesz się **jak dodać gradient** do dokumentu PostScript przy użyciu Javy. Przeprowadzimy Cię krok po kroku przez tworzenie pięknego poziomego gradientu, wykorzystując **Linear Gradient Paint Java**, klasę dającą precyzyjną kontrolę nad przejściami kolorów. Dzięki Aspose.Page for Java możesz renderować gradienty zarówno na kształtach **jak i** tekście, nadając swoim dokumentom wyrafinowany, przyciągający uwagę wygląd.
 
 ## Szybkie odpowiedzi
-- **Jakiej biblioteki potrzebujesz?** Aspose.Page for Java (obsługuje Linear Gradient Paint Java).  
+- **Jakiej biblioteki potrzebuję?** Aspose.Page for Java (obsługuje Linear Gradient Paint Java).  
 - **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowego gradientu.  
 - **Czy potrzebna jest licencja?** Wymagana jest tymczasowa lub pełna licencja do użytku produkcyjnego.  
 - **Która wersja JDK działa?** Java 8 lub nowsza.  
 - **Czy mogę używać gradientu zarówno na kształtach, jak i tekście?** Tak – możesz wypełniać kształty oraz wypełniać lub obrysowywać tekst tym samym gradientem.
+
+## Co to jest poziomy gradient i dlaczego go używać?
+Poziomy gradient płynnie miesza kolory od lewej do prawej w obrębie kształtu lub tekstu. Jest idealny do tworzenia nowoczesnych elementów UI, wyróżnionych nagłówków lub subtelnych efektów tła w raportach. Korzystanie z **Linear Gradient Paint Java** pozwala określić dokładne kolory początkowe i końcowe, krycie oraz skalowanie, dzięki czemu rezultat jest ostry na każdym urządzeniu.
 
 ## Wymagania wstępne
 Zanim przejdziesz do kodu, upewnij się, że masz następujące elementy:
@@ -49,7 +52,7 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## Krok 1: Utwórz prostokąt
-Najpierw skonfiguruj strumień wyjściowy, dokument i prostokąt, który będzie hostował gradient.
+Najpierw skonfiguruj strumień wyjściowy, dokument oraz prostokąt, w którym umieścisz gradient.
 
 ```java
 // The path to the documents directory.
@@ -65,7 +68,7 @@ Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
 
 ## Krok 2: Utwórz poziomy Linear Gradient Paint
-Tutaj budujemy obiekt **Linear Gradient Paint Java**, który definiuje poziome przejście kolorów. `AffineTransform` skaluję gradient, aby pasował do szerokości i wysokości prostokąta.
+Tutaj budujemy obiekt **Linear Gradient Paint Java**, który definiuje poziome przejście kolorów. `AffineTransform` skaluje gradient, aby pasował do szerokości i wysokości prostokąta.
 
 ```java
 // Create horizontal linear gradient paint. Scale components in the transform must be equal to width and height of the rectangle.
@@ -106,29 +109,29 @@ document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ## Typowe problemy i rozwiązania
 | Problem | Dlaczego się pojawia | Rozwiązanie |
 |---------|----------------------|-------------|
-| Gradient wygląda na rozciągnięty | Nieprawidłowe skalowanie w `AffineTransform` | Upewnij się, że szerokość i wysokość transformacji odpowiadają wymiarom prostokąta (200 × 100 w przykładzie). |
-| Kolory wydają się wyblakłe | Zbyt niskie wartości alfa | Zwiększ komponent alfa (czwartą wartość w `new Color(r,g,b,alpha)`). |
-| Tekst nie jest widoczny | Nie ustawiono farby przed rysowaniem tekstu | Wywołaj `document.setPaint(paint)` **przed** jakimikolwiek wywołaniami `fillAndStrokeText` lub `outlineText`. |
+| Gradient wydaje się rozciągnięty | Nieprawidłowe skalowanie w `AffineTransform` | Upewnij się, że szerokość i wysokość transformacji odpowiadają wymiarom prostokąta (200 × 100 w przykładzie). |
+| Kolory wyglądają na wyblakłe | Zbyt niskie wartości alfa | Zwiększ komponent alfa (czwartą wartość w `new Color(r,g,b,alpha)`). |
+| Tekst nie jest widoczny | Nie ustawiono Paint przed rysowaniem tekstu | Wywołaj `document.setPaint(paint)` **przed** jakimikolwiek wywołaniami `fillAndStrokeText` lub `outlineText`. |
 
 ## Najczęściej zadawane pytania
-### Czy mogę używać Aspose.Page for Java w projektach komercyjnych?
-Tak, Aspose.Page for Java może być używany w projektach komercyjnych. Szczegóły licencjonowania znajdziesz na [Aspose.Purchase](https://purchase.aspose.com/buy).
+**P:** Czy mogę używać Aspose.Page for Java w projektach komercyjnych?  
+**O:** Tak, Aspose.Page for Java może być używany w projektach komercyjnych. Szczegóły licencjonowania znajdziesz pod adresem [Aspose.Purchase](https://purchase.aspose.com/buy).
 
-### Czy dostępna jest darmowa wersja próbna?
-Tak, darmową wersję próbną Aspose.Page for Java możesz uzyskać [tutaj](https://releases.aspose.com/).
+**P:** Czy dostępna jest darmowa wersja próbna?  
+**O:** Tak, darmową wersję próbną Aspose.Page for Java znajdziesz [tutaj](https://releases.aspose.com/).
 
-### Gdzie mogę znaleźć dodatkową dokumentację i wsparcie?
-Odwiedź [dokumentację Aspose.Page Java](https://reference.aspose.com/page/java/) po kompleksowe zasoby. Wsparcie społeczności znajdziesz na [forum Aspose.Page](https://forum.aspose.com/c/page/39).
+**P:** Gdzie mogę znaleźć dodatkową dokumentację i wsparcie?  
+**O:** Odwiedź [dokumentację Aspose.Page Java](https://reference.aspose.com/page/java/) po kompleksowe zasoby. Wsparcie społeczności znajdziesz na [forum Aspose.Page](https://forum.aspose.com/c/page/39).
 
-### Jak mogę uzyskać tymczasową licencję?
-Tymczasową licencję możesz uzyskać na [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
+**P:** Jak mogę uzyskać tymczasową licencję?  
+**O:** Tymczasową licencję można uzyskać na stronie [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 
-### Jakie są wymagania systemowe dla Aspose.Page for Java?
-Szczegółowe wymagania systemowe znajdziesz w [dokumentacji](https://reference.aspose.com/page/java/).
+**P:** Jakie są wymagania systemowe dla Aspose.Page for Java?  
+**O:** Szczegółowe wymagania systemowe znajdują się w [dokumentacji](https://reference.aspose.com/page/java/).
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-07  
+**Ostatnia aktualizacja:** 2026-02-13  
 **Testowano z:** Aspose.Page for Java 24.11  
 **Autor:** Aspose  
 
