@@ -1,11 +1,10 @@
 ---
-date: 2025-12-08
-description: Aprenda a adicionar padrões de hachura a documentos PostScript Java usando
-  Aspose.Page Java. Este guia passo a passo mostra como inserir gráficos de padrão
-  de hachura de forma eficiente.
+date: 2026-02-15
+description: Aprenda como adicionar padrão de hachura a arquivos PostScript Java usando
+  Aspose.Page Java. Este guia passo a passo mostra o código completo e dicas.
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
-title: 'Aspose.Page Java: Adicionar padrão de hachura no PostScript Java'
+title: Como adicionar padrão de hachura no PostScript Java com Aspose.Page
 url: /pt/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
@@ -14,17 +13,20 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adicionar Padrão de Hachura em Java PostScript
+# Como Adicionar Padrão de Hachura em Java PostScript
 
 ## Introdução
-Se você está trabalhando com **Aspose.Page Java** e precisa enriquecer sua saída PostScript com gráficos texturizados, os padrões de hachura são uma solução rápida e flexível. Neste tutorial vamos percorrer **como adicionar designs de hachura** a um documento PostScript, explicar por que eles são úteis e fornecer um exemplo de código completo e pronto‑para‑executar. Ao final, você será capaz de criar formas e textos preenchidos com hachura visualmente atraentes usando apenas algumas linhas de Java.
+Se você está trabalhando com **Aspose.Page Java** e se perguntando **como adicionar padrão de hachura** ao seu output PostScript, os padrões de hachura são uma solução rápida e flexível. Neste tutorial vamos percorrer **como adicionar** designs de hachura a um documento PostScript, explicar por que eles são úteis e fornecer um exemplo de código completo, pronto‑para‑executar. Ao final, você será capaz de criar formas e textos preenchidos com hachura visualmente atraentes com apenas algumas linhas de Java.
 
 ## Respostas Rápidas
 - **Qual biblioteca eu preciso?** Aspose.Page for Java (o SDK “aspose page java”).  
-- **Qual efeito visual estamos adicionando?** Padrões de hachura (por exemplo, linhas diagonais, cruzadas).  
-- **Preciso de licença para executar o exemplo?** Uma avaliação gratuita funciona para desenvolvimento; uma licença é necessária para produção.  
+- **Qual efeito visual estamos adicionando?** Padrões de hachura (ex.: linhas diagonais, cruzadas).  
+- **Preciso de licença para executar o exemplo?** Uma avaliação gratuita funciona para desenvolvimento; licença é necessária para produção.  
 - **Quantas linhas de código?** Cerca de 70 linhas, divididas em etapas claras.  
 - **Posso usar a mesma abordagem para PDFs?** Sim—Aspose.Page suporta múltiplos formatos de saída, incluindo PDF.
+
+## Como Adicionar Padrão de Hachura – Visão Geral
+Os padrões de hachura são texturas vetoriais que são renderizadas de forma limpa em qualquer resolução e funcionam bem em impressoras monocromáticas. Usando Aspose.Page Java, você pode aplicar esses padrões a formas, caminhos e até texto sem lidar com comandos PostScript de baixo nível.
 
 ## Pré‑requisitos
 Antes de começar, certifique‑se de que você tem:
@@ -68,8 +70,8 @@ int width = 500;
 int sumX = 0;
 ```
 
-## Etapa 2: Salvar o Estado Gráfico e Translacionar
-Salvar o estado gráfico permite que retornemos ao sistema de coordenadas original mais tarde, enquanto `translate` move a origem para um ponto de partida conveniente.
+## Etapa 2: Salvar Estado Gráfico e Translatar
+Salvar o estado gráfico nos permite retornar ao sistema de coordenadas original mais tarde, enquanto `translate` move a origem para um ponto de partida conveniente.
 
 ```java
 document.writeGraphicsSave();
@@ -83,7 +85,7 @@ Defina um retângulo reutilizável que representará cada célula preenchida com
 Rectangle2D.Float square = new Rectangle2D.Float(0, 0, squareSide, squareSide);
 ```
 
-## Etapa 4: Configurar a Caneta para o Contorno do Quadrado do Padrão
+## Etapa 4: Configurar Caneta para Contorno do Quadrado de Padrão
 Um `BasicStroke` de 2 pontos fornece um contorno nítido ao redor de cada quadrado.
 
 ```java
@@ -91,7 +93,7 @@ BasicStroke stroke = new BasicStroke(2);
 ```
 
 ## Etapa 5: Iterar pelos Padrões de Hachura
-Percorra cada valor no enum `HatchStyle`, preencha cada quadrado com a textura correspondente e, em seguida, desenhe seu contorno. Esta é a parte central da funcionalidade de **adição de padrão de hachura**.
+Percorra cada valor do enum `HatchStyle`, preencha cada quadrado com a textura correspondente e, em seguida, desenhe seu contorno. Este é o núcleo da funcionalidade de **adição de padrão de hachura**.
 
 ```java
 HatchStyle[] hatchStyles = HatchStyle.values();
@@ -100,7 +102,7 @@ for (int i = 0; i < hatchStyles.length; i++) {
 }
 ```
 
-## Etapa 6: Restaurar o Estado Gráfico
+## Etapa 6: Restaurar Estado Gráfico
 Retorne ao sistema de coordenadas original após terminar de desenhar a grade de quadrados.
 
 ```java
@@ -108,7 +110,7 @@ document.writeGraphicsRestore();
 ```
 
 ## Etapa 7: Preencher Texto com Padrão de Hachura
-Aqui demonstramos como pintar texto usando uma textura de hachura. O exemplo preenche a palavra “ABC” com um padrão diagonal‑cruzado.
+Aqui demonstramos como pintar texto usando uma textura de hachura. O exemplo preenche a palavra “ABC” com um padrão de cruz diagonal.
 
 ```java
 TexturePaint paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.DiagonalCross, Color.RED, Color.YELLOW);
@@ -117,15 +119,15 @@ document.fillAndStrokeText("ABC", font, 200, 320, paint, Color.BLACK, stroke);
 ```
 
 ## Etapa 8: Contornar Texto com Padrão de Hachura
-Agora contornamos o mesmo texto, mas desta vez usando um estilo de hachura de 70 % e um traço mais grosso.
+Agora contornamos o mesmo texto, mas desta vez usando um estilo de hachura de 70 % e uma caneta mais grossa.
 
 ```java
 paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.Percent70, Color.BLUE, Color.WHITE);
 document.outlineText("ABC", font, 200, 420, paint, new BasicStroke(5));
 ```
 
-## Etapa 9: Fechar e Salvar o Documento
-Finalize a página, grave o arquivo no disco e libere os recursos.
+## Etapa 9: Fechar e Salvar Documento
+Finalize a página, escreva o arquivo no disco e libere os recursos.
 
 ```java
 document.closePage();
@@ -137,15 +139,15 @@ Siga estas etapas e você terá um arquivo PostScript que demonstra um conjunto 
 ## Por que Usar Padrões de Hachura com Aspose.Page Java?
 - **Distinção visual** – Preenchimentos de hachura funcionam mesmo quando as impressoras são limitadas a saída monocromática.  
 - **Desempenho** – Texturas são geradas sob demanda, evitando arquivos de imagem grandes.  
-- **Suporte multiplataforma** – O mesmo código pode gerar PDF, EPS ou SVG com alterações mínimas.
+- **Suporte a múltiplos formatos** – O mesmo código pode gerar PDF, EPS ou SVG com mudanças mínimas.
 
-## Armadilhas Comuns e Dicas
-- **Erros de caminho de arquivo** – Certifique‑se de que `dataDir` termina com o separador de arquivos apropriado (`/` ou `\`).  
+## Armadilhas Comuns & Dicas
+- **Erros de caminho de arquivo** – Certifique‑se de que `dataDir` termina com o separador de arquivos adequado (`/` ou `\`).  
 - **Cores não suportadas** – Alguns interpretadores PostScript mais antigos podem não lidar com certos espaços de cor; use RGB básico para máxima compatibilidade.  
-- **Avisos de licença** – Executar o exemplo sem uma licença válida inserirá uma marca d’água na saída.
+- **Avisos de licença** – Executar o exemplo sem licença válida inserirá uma marca d’água no output.
 
 ## Conclusão
-Incorporar padrões de hachura pode melhorar drasticamente a legibilidade e a estética de desenhos técnicos, mapas ou quaisquer gráficos gerados por Java. Com **Aspose.Page Java**, você obtém uma API concisa que abstrai os comandos de baixo nível do PostScript, permitindo que você se concentre no design em vez das particularidades do formato de arquivo.
+Incorporar padrões de hachura pode melhorar drasticamente a legibilidade e a estética de desenhos técnicos, mapas ou quaisquer gráficos gerados por Java. Com **Aspose.Page Java**, você obtém uma API concisa que abstrai os comandos PostScript de baixo nível, permitindo que você se concentre no design em vez das particularidades do formato de arquivo. Agora você sabe **como adicionar padrão de hachura** aos seus documentos PostScript—experimente diferentes valores de `HatchStyle` para criar o visual exato que precisa.
 
 ## Perguntas Frequentes
 
@@ -159,15 +161,21 @@ A: Absolutamente. Baixe uma avaliação gratuita de 30 dias [here](https://r
 A: Solicite uma licença temporária [here](https://purchase.aspose.com/temporary-license/). Ela remove as marcas d’água de avaliação.
 
 **Q: Onde posso encontrar mais tutoriais e suporte da comunidade?**  
-A: Visite o fórum oficial [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) para exemplos adicionais e perguntas‑respostas.
+A: Visite o fórum oficial [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) para exemplos adicionais e perguntas e respostas.
 
 **Q: Existe documentação completa para todas as classes e métodos?**  
 A: Sim, a referência completa da API está disponível [here](https://reference.aspose.com/page/java/).
 
+**Q: Posso renderizar o mesmo padrão de hachura para PDF em vez de PostScript?**  
+A: Claro. Altere o `PsSaveOptions` para `PdfSaveOptions` (ou equivalente) e o restante do código permanece inalterado.
+
+**Q: O que fazer se o arquivo gerado estiver vazio?**  
+A: Verifique se o fluxo de saída aponta para um diretório gravável e se `document.save()` é chamado após todas as operações de desenho.
+
 ---
 
-**Última Atualização:** 2025-12-08  
-**Testado com:** Aspose.Page for Java 24.12 (mais recente no momento da escrita)  
+**Última atualização:** 2026-02-15  
+**Testado com:** Aspose.Page for Java 24.12 (mais recente na data de escrita)  
 **Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
