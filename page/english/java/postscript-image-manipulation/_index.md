@@ -1,29 +1,30 @@
 ---
-title: "Image Manipulation Java – Add Images in PostScript"
-linktitle: "Image Manipulation Java – Add Images in PostScript"
+title: "Convert PNG to PostScript – Add Images in Java"
+linktitle: "Convert PNG to PostScript – Add Images in Java"
 second_title: "Aspose.Page Java API"
-description: "Learn how to perform image manipulation java and how to add image in PostScript using Aspose.Page for Java. Follow step‑by‑step guidance to embed images effortlessly."
+description: "Learn how to convert PNG to PostScript and add images in Java using Aspose.Page. Step‑by‑step guide covers insertion, scaling, rotating, and handling transparent PNGs."
 weight: 28
 url: /java/postscript-image-manipulation/
-date: 2025-12-09
+date: 2026-02-15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Image Manipulation Java – Add Images in PostScript
+# Convert PNG to PostScript – Add Images in Java
 
 ## Introduction
 
-Ready to master **image manipulation java** in your PostScript workflows? In this tutorial we’ll walk you through adding images to PostScript documents with Aspose.Page for Java. You’ll see why this capability matters, how to set up the library, and the exact steps to embed graphics without hassle. By the end, you’ll be confident to enrich PDFs, reports, or any printable content with visual elements.
+Ready to master **convert png to postscript** in your Java applications? In this tutorial we’ll walk you through adding images to PostScript documents with Aspose.Page for Java. You’ll see why this capability matters, how to set up the library, and the exact steps to embed graphics without hassle. By the end, you’ll be confident to enrich PDFs, reports, or any printable content with visual elements.
 
 ## Quick Answers
 - **What is the primary library?** Aspose.Page for Java  
-- **Which keyword does this guide target?** *image manipulation java*  
+- **Which keyword does this guide target?** *convert png to postscript*  
 - **How can I start?** Download the library from the official product page and add it to your project’s classpath.  
 - **Do I need a license?** A free trial works for evaluation; a commercial license is required for production.  
-- **Can I use this with Maven/Gradle?** Yes—add the Aspose.Page Maven artifact to your build file.
+- **Can I use this with Maven/Gradle?** Yes—add the Aspose.Page Maven artifact to your build file.  
+- **Can I convert PNG to PostScript while inserting?** Yes—use the `addImage` API to place PNGs directly into a PostScript stream.
 
 ## What is image manipulation java?
 
@@ -43,6 +44,22 @@ Begin your journey by ensuring a smooth integration of Aspose.Page for Java into
 ## Exploring the Add Image Functionality
 
 Navigate to the [Add Image in Java PostScript](./add-image/) tutorial to delve into the specifics of adding images to your PostScript documents. This comprehensive guide provides detailed insights into the process, breaking it down into easy‑to‑follow steps. You'll soon find yourself seamlessly incorporating images into your Java projects with Aspose.Page.
+
+## How to convert PNG to PostScript using Aspose.Page
+
+Converting a PNG file to PostScript is as simple as loading the PNG, defining where it should appear, and calling the `addImage` method. This approach also lets you **how to insert image** objects, **handle transparent png** files, and apply **scale and rotate image** transformations—all in a single API call.
+
+### Inserting an Image (how to insert image)
+
+When you call `document.addImage(image, rect)`, Aspose.Page takes care of embedding the raster data into the PostScript output. The method works with PNG, JPEG, BMP, and other common formats.
+
+### Handling Transparent PNGs (handle transparent png)
+
+Transparent PNGs are preserved automatically. Just ensure the target PostScript viewer supports alpha channels, and the image will render with its transparency intact.
+
+### Scaling and Rotating (scale and rotate image)
+
+You can control the size and orientation by adjusting the rectangle dimensions or applying a transformation matrix before the `addImage` call. This lets you **scale and rotate image** content without external image processing tools.
 
 ## How to add image – Step‑by‑step overview
 
@@ -88,9 +105,12 @@ A: Yes. Use the `Matrix` transformation API to set rotation before calling `addI
 **Q: How do I handle transparent PNGs?**  
 A: Transparent PNGs are preserved automatically; just ensure the target PostScript viewer supports alpha channels.
 
+**Q: How does converting PNG to PostScript affect file size?**  
+A: The resulting PostScript file size depends on image resolution and compression; down‑sampling the PNG before insertion can keep the output lean.
+
 ---
 
-**Last Updated:** 2025-12-09  
+**Last Updated:** 2026-02-15  
 **Tested With:** Aspose.Page for Java 24.12 (latest)  
 **Author:** Aspose
 
