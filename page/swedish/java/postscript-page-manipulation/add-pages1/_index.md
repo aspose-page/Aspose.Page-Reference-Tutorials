@@ -1,10 +1,10 @@
 ---
-date: 2025-12-11
-description: Lär dig hur du lägger till PostScript‑sidor i Java med Aspose.Page, anger
-  sidstorlek i Java och skapar anpassade PostScript‑sidstorlekar i Java‑applikationer.
+date: 2026-02-18
+description: Lär dig hur du lägger till postscript‑sidor i Java, anger anpassade sidimensioner,
+  ställer in sidstorlek i Java och skapar anpassad postscript‑sidstorlek med Aspose.Page.
 linktitle: Java PostScript Pages
 second_title: Aspose.Page Java API
-title: Lägg till sidor PostScript Java – En sömlös guide med Aspose.Page
+title: Hur man lägger till PostScript‑sidor i Java – En sömlös guide med Aspose.Page
 url: /sv/java/postscript-page-manipulation/add-pages1/
 weight: 10
 ---
@@ -13,13 +13,13 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lägg till sidor PostScript Java – En sömlös guide med Aspose.Page
+# Hur man lägger till PostScript‑sidor i Java – En sömlös guide med Aspose.Page
 
 ## Introduktion
-Välkommen till vår omfattande guide om **add pages postscript java** med Aspose.Page. I den här handledningen går vi igenom hela processen för att lägga till sidor i ett PostScript-dokument, ange sidstorlekar och till och med skapa anpassade sidmått – allt med det kraftfulla Aspose.Page för Java‑biblioteket. Oavsett om du bygger rapporter, fakturor eller någon annan utskrivningsbar output, ger dig behärskning av dessa steg full kontroll över din PostScript‑generering.
+Välkommen till vår omfattande guide om **hur man lägger till postscript**‑sidor i Java med Aspose.Page. I den här handledningen lär du dig steg‑för‑steg hur du lägger till sidor, anger sidstorlek java och till och med definierar en anpassad postscript‑sidstorlek för varje sida. Oavsett om du genererar fakturor, biljetter eller komplexa flersidiga rapporter ger dessa tekniker dig full kontroll över ditt utskrivbara resultat.
 
 ## Snabba svar
-- **Vilket bibliotek låter dig add pages postscript java?** Aspose.Page for Java  
+- **Vilket bibliotek låter dig lägga till postscript‑sidor i Java?** Aspose.Page för Java  
 - **Behöver jag en licens för utveckling?** En gratis tillfällig licens finns tillgänglig; en betald licens krävs för produktion.  
 - **Kan jag ange anpassade sidstorlekar?** Ja – använd `set page size java` eller specificera dimensioner direkt.  
 - **Vilken IDE fungerar bäst?** Alla Java‑IDE:er såsom IntelliJ IDEA eller Eclipse.  
@@ -29,7 +29,7 @@ Välkommen till vår omfattande guide om **add pages postscript java** med Aspos
 Innan vi dyker ner, se till att du har följande förutsättningar på plats:
 
 - Grundläggande kunskaper i Java‑programmering.  
-- Aspose.Page för Java‑biblioteket installerat. Du kan ladda ner det från [här](https://releases.aspose.com/page/java/).  
+- Aspose.Page för Java‑biblioteket installerat. Du kan ladda ner det [här](https://releases.aspose.com/page/java/).  
 - En integrerad utvecklingsmiljö (IDE) för Java, såsom IntelliJ IDEA eller Eclipse.  
 
 ## Importera paket
@@ -41,8 +41,8 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Hur man lägger till sidor postscript java
-Nedan följer en steg‑för‑steg‑genomgång som demonstrerar hur du **add pages postscript java** och styr sidmått.
+## Hur man lägger till postscript‑sidor i Java
+Nedan följer en steg‑för‑steg‑genomgång som visar hur du **lägger till postscript‑sidor java** och styr siddimensionerna.
 
 ### Steg 1: Skapa ett nytt 2‑sidigt PS‑dokument
 ```java
@@ -80,52 +80,57 @@ document.closePage();
 document.save();
 ```
 
-Genom att följa dessa steg kan du enkelt **add pages postscript java** och även **set page size java** för varje sida efter behov.
+Genom att följa dessa steg kan du enkelt **lägga till postscript‑sidor java** och även **ange sidstorlek java** för varje sida efter behov.
 
-## Hur man ställer in sidstorlek java
-Om du behöver en specifik papperstorlek – till exempel ett anpassat kuvert eller en etikett – kan du anropa `openPage(width, height)` med de önskade dimensionerna (i points). Detta är kärnan i **custom page size postscript**‑hantering i Java.
+## Hur man anger sidstorlek java
+Om du behöver en specifik pappersstorlek – till exempel ett anpassat kuvert eller en etikett – kan du anropa `openPage(width, height)` med de önskade dimensionerna (i punkter). Detta är kärnan i **custom postscript page size**‑hantering i Java.
 
-## Vanliga användningsfall
-- **Dynamisk rapportgenerering** där varje avsnitt börjar på en ny sida med en unik storlek.  
+## Hur man anger anpassade siddimensioner
+Metoden `openPage(width, height)` låter dig definiera vilken rektangel du vill, vilket i praktiken **anger anpassade siddimensioner**. Till exempel skapar `openPage(300, 500)` en sida som är 300 × 500 punkter (≈4,17 × 6,94 tum). Använd detta när du behöver icke‑standardstorlekar som kvittopapper eller badge‑kort.
+
+## Ändra sidorientering java
+För att byta orientering, byt helt enkelt plats på bredd‑ och höjdvärden. En liggande sida kan skapas med `openPage(842, 595)` (A4 liggande), medan stående förblir `openPage(595, 842)`. Denna teknik ger dig full kontroll över **change page orientation java** utan extra konfiguration.
+
+## Vanliga användningsområden
+- **Dynamisk rapportgenerering** där varje avsnitt startar på en ny sida med en unik storlek.  
 - **Utskrift av etiketter eller biljetter** som kräver icke‑standarddimensioner.  
 - **Batch‑behandling** av stora dokument där sidstorleken varierar per sida.
 
-## Vanliga frågor
-
+## Vanliga frågor och svar
 ### Är Aspose.Page kompatibel med olika operativsystem?
 Ja, Aspose.Page är kompatibel med olika operativsystem, inklusive Windows, Linux och macOS.
 
 ### Kan jag använda Aspose.Page för både personliga och kommersiella projekt?
-Ja, Aspose.Page kommer med flexibla licensalternativ som passar både personligt och kommersiellt bruk.
+Ja, Aspose.Page har flexibla licensalternativ som passar både personligt och kommersiellt bruk.
 
 ### Var kan jag hitta ytterligare dokumentation för Aspose.Page?
 Du kan hänvisa till dokumentationen [här](https://reference.aspose.com/page/java/).
 
-### Finns det några begränsningar för antalet sidor jag kan lägga till med Aspose.Page?
-Aspose.Page pålägger inga strikta begränsningar på antalet sidor du kan lägga till, vilket gör det lämpligt för projekt av olika skala.
+### Finns det några begränsningar för hur många sidor jag kan lägga till med Aspose.Page?
+Aspose.Page pålägger inga strikta begränsningar för antalet sidor du kan lägga till, vilket gör det lämpligt för projekt av olika storlekar.
 
-### Hur kan jag få en tillfällig licens för Aspose.Page?
-Du kan få en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
+### Hur får jag en tillfällig licens för Aspose.Page?
+Du kan skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
-**Ytterligare Q&A**
+**Ytterligare frågor och svar**
 
 **Q: Hur ändrar jag orienteringen på en sida?**  
 A: Anropa `openPage(width, height)` med bredd större än höjd för liggande, eller byt värdena för stående.
 
-**Q: Kan jag lägga till grafik eller text efter att en sida har öppnats?**  
+**Q: Kan jag lägga till grafik eller text efter att ha öppnat en sida?**  
 A: Ja – använd de rit‑API:er som tillhandahålls av Aspose.Page inom `openPage`/`closePage`‑blocket.
 
 **Q: Vad händer om jag utelämnar sidstorleken i `openPage(null)`?**  
 A: Dokumentet använder standardstorleken som definieras i `PsSaveOptions` (vanligtvis A4).
 
 ## Slutsats
-Sammanfattningsvis förenklar Aspose.Page för Java processen att arbeta med PostScript‑dokument. Att lägga till sidor, ange sidstorlekar och skapa anpassade sidmått är enkla uppgifter med det medföljande API‑et, vilket gör det till ett utmärkt val för utvecklare som söker effektivitet och flexibilitet.
+Sammanfattningsvis förenklar Aspose.Page för Java processen att arbeta med PostScript‑dokument. Att lägga till sidor, ange sidstorlekar, skapa anpassade postscript‑sidstorlekar och ändra sidorientering är enkla uppgifter med det medföljande API‑et, vilket gör det till ett utmärkt val för utvecklare som söker effektivitet och flexibilitet.
 
 ---
 
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page 24.11 for Java  
-**Author:** Aspose  
+**Senast uppdaterad:** 2026-02-18  
+**Testat med:** Aspose.Page 24.11 för Java  
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
