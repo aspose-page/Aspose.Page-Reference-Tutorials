@@ -1,13 +1,40 @@
 ---
-date: 2025-12-14
+date: 2026-02-20
 description: Naučte se, jak nastavit barvu textu v Javě pomocí Aspose.Page pro Javu,
-  přidat text do PostScriptu a použít obrys textu pro bohaté formátování dokumentů.
+  změnit velikost písma v Javě, generovat soubor PostScript, vyplnit a obkreslit text
+  a používat vlastní písma v Javě při vytváření dokumentu PostScript.
 linktitle: Add Text in Java PostScript
 second_title: Aspose.Page Java API
-title: Nastavení barvy textu v Javě s Aspose.Page – Průvodce manipulací s textem
+title: Nastavte barvu textu v Javě pomocí Aspose.Page – Průvodce manipulací s textem
 url: /cs/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
+
+ Font and Changing Text Size.
+
+- Outlining (Stroke) Text – Apply Stroke Text.
+
+- Outlining Text with Custom Font.
+
+- Step 6: Save the Document.
+
+- Why This Matters.
+
+- Common Issues & Solutions table.
+
+- Frequently Asked Questions with Q/A.
+
+- Conclusion.
+
+- Footer details.
+
+Make sure to keep code block placeholders unchanged.
+
+Also keep markdown formatting.
+
+Let's translate each piece.
+
+I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
@@ -16,31 +43,33 @@ weight: 10
 # Nastavení barvy textu v Javě s Aspose.Page – Průvodce manipulací s textem
 
 ## Úvod
-Vítejte v našem podrobném průvodci o **set text color java** při práci se soubory PostScript pomocí Aspose.Page pro Javu. Aspose.Page pro Javu je výkonná knihovna, která umožňuje vývojářům vytvářet a **generate postscript file** dokumenty, manipulovat s fonty a stylovat text s přesností. V tomto tutoriálu se naučíte, jak přidat text, změnit jeho barvu, upravit velikost a dokonce **apply stroke text** pro profesionální vzhled.
+Vítejte v našem krok‑za‑krokem průvodci, jak **nastavit barvu textu v Javě** při práci se soubory PostScript pomocí Aspose.Page pro Javu. Aspose.Page pro Javu je výkonná knihovna, která vývojářům umožňuje **vytvářet postscript dokumenty**, manipulovat s fonty a stylovat text s přesností. V tomto tutoriálu se naučíte, jak přidat text, změnit jeho barvu, **změnit velikost písma v Javě**, a dokonce **aplikovat výplň a obrys textu** pro profesionální vzhled.
 
 ## Rychlé odpovědi
-- **Která knihovna mi umožní nastavit barvu textu v Javě?** Aspose.Page for Java.
-- **Mohu používat systémové fonty i vlastní fonty?** Yes, both are supported.
-- **Jak změním velikost textu?** By specifying the font size when creating the `Font` or `DrFont`.
-- **Je možné najednou obkreslit a vyplnit text?** Absolutely – use `fillAndStrokeText`.
-- **Jaký výstupní formát tento tutoriál vytváří?** A PostScript (`.ps`) document.
+- **Která knihovna mi umožní nastavit barvu textu v Javě?** Aspose.Page pro Javu.  
+- **Mohu použít systémové fonty i vlastní fonty?** Ano, oba jsou podporovány a **použít vlastní fonty v Javě** je snadné.  
+- **Jak změním velikost textu?** Zadáním velikosti písma při vytváření objektu `Font` nebo `DrFont`.  
+- **Je možné najednou obrysovat a vyplnit text?** Rozhodně – použijte `fillAndStrokeText`.  
+- **Jaký výstupní formát tento tutoriál vytváří?** Dokument PostScript (`.ps`), který můžete **programově generovat postscript soubor**.
 
-## Co je “set text color java”?
-Nastavení barvy textu v Javě znamená definování objektu `Color`, který vykreslovací engine (zde Aspose.Page) používá při kreslení znaků na stránku. Tato operace je nezbytná pro vytváření vizuálně odlišných dokumentů, zejména při programovém generování **postscript documents**.
+## Co znamená „nastavit barvu textu v Javě“?
+Nastavení barvy textu v Javě znamená definovat objekt `Color`, který vykreslovací engine (zde Aspose.Page) použije při kreslení znaků na stránku. Tato operace je nezbytná pro tvorbu vizuálně odlišných dokumentů, zejména když potřebujete **programově generovat postscript soubor**.
 
-## Proč používat Aspose.Page pro Javu?
-- **Full control** nad generováním PostScriptu bez potřeby nativního interpretu PostScriptu.
-- **Support for both system and external fonts**, umožňující vložit jakoukoliv typografii, kterou potřebujete.
-- **Easy API** pro vyplnění, obkreslení a **fill and stroke text**, poskytující flexibilitu ve stylování.
-- **Cross‑platform** kompatibilita – napište jednou, spusťte kdekoliv, kde běží Java.
+## Proč použít Aspose.Page pro Javu?
+- **Úplná kontrola** nad generováním PostScriptu bez nutnosti nativního interpreteru.  
+- **Podpora jak systémových, tak externích fontů**, což vám umožní vložit libovolnou typografii.  
+- **Jednoduché API** pro výplň, obrys a **výplň s obrysem textu**, které poskytuje flexibilitu při stylování.  
+- **Cross‑platform** kompatibilita – napište jednou, spusťte kdekoliv, kde běží Java.  
 
-## Požadavky
-- Základní znalost programování v Javě.
-- Knihovna Aspose.Page pro Javu nainstalována. Můžete si ji stáhnout ze [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).
-- Potřebné fonty jsou k dispozici ve specifikovaném adresáři. Další podrobnosti jsou v [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
+## Předpoklady
+Předtím, než se pustíte do kódu, ujistěte se, že máte:
+
+- Základní znalosti programování v Javě.  
+- Knihovnu Aspose.Page pro Javu nainstalovanou. Můžete ji stáhnout ze [stránky ke stažení Aspose.Page pro Javu](https://releases.aspose.com/page/java/).  
+- Potřebné fonty umístěné ve specifikované složce. Další podrobnosti najdete v [dokumentaci Aspose.Page pro Javu](https://reference.aspose.com/page/java/).  
 
 ## Import balíčků
-In your Java project, import the necessary packages for Aspose.Page for Java:
+Ve svém Java projektu importujte potřebné balíčky pro Aspose.Page pro Javu:
 
 ```java
 import java.awt.BasicStroke;
@@ -55,7 +84,7 @@ import com.aspose.page.font.DrFont;
 ```
 
 ## Krok 1: Nastavení dokumentu
-Nejprve vytvoříme nový **PostScript document** a nakonfigurujeme výstupní možnosti.
+Nejprve vytvoříme nový **PostScript dokument** a nakonfigurujeme výstupní možnosti.
 
 ```java
 // The path to the documents directory.
@@ -74,7 +103,7 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
 ## Jak nastavit barvu textu v Javě pomocí systémového fontu
-Nyní ukazujeme **set text color java** s fontem poskytnutým systémem.
+Nyní ukážeme **nastavení barvy textu v Javě** s fontem poskytovaným systémem.
 
 ```java
 // Using system font for filling text
@@ -85,10 +114,10 @@ document.fillText(str, font, 50, 100);
 document.fillText(str, font, 50, 150, Color.BLUE);
 ```
 
-> **Tip:** Metoda `fillText` automaticky používá aktuální barvu, pokud nepředáte argument `Color`, který ve výchozím nastavení je černý.
+> **Tip:** Metoda `fillText` automaticky používá aktuální barvu, pokud nepředáte argument `Color`, který je ve výchozím nastavení černý.
 
 ## Použití vlastního fontu a změna velikosti textu
-Můžete také **change text size** a použít vlastní font uložený ve vaší složce s fonty.
+Můžete také **změnit velikost písma v Javě** a použít vlastní font uložený ve vaší složce s fonty.
 
 ```java
 // Using custom font for filling text
@@ -99,8 +128,8 @@ document.fillText(str, drFont, 50, 200);
 document.fillText(str, drFont, 50, 250, Color.BLUE);
 ```
 
-## Obkreslení (Stroke) textu – Apply Stroke Text
-Obkreslení textu mu dává ostrý okraj. Zde **apply stroke text** pomocí `BasicStroke`.
+## Obrysování (Stroke) textu – Aplikovat obrys textu
+Obrysování textu mu dodá ostrý okraj. Zde **aplikujeme obrys textu** pomocí `BasicStroke`.
 
 ```java
 // Using system font for outlining text
@@ -113,8 +142,8 @@ document.outlineText(str, font, 50, 350, strokeColor, stroke);
 document.fillAndStrokeText(str, font, 50, 400, Color.YELLOW, strokeColor, stroke);
 ```
 
-## Obkreslení textu s vlastním fontem
-Stejná technika funguje s vlastními fonty.
+## Obrysování textu s vlastním fontem
+Stejná technika funguje i s vlastními fonty.
 
 ```java
 // Using custom font for outlining text
@@ -126,7 +155,7 @@ document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, strok
 ```
 
 ## Krok 6: Uložení dokumentu
-Nakonec zavřete stránku a zapište soubor na disk.
+Nakonec zavřeme stránku a zapíšeme soubor na disk.
 
 ```java
 // Close current page
@@ -135,39 +164,42 @@ document.closePage();
 document.save();
 ```
 
+## Proč je to důležité
+Schopnost **nastavit barvu textu v Javě** a kombinovat výplň s obrysem vám poskytuje plnou uměleckou kontrolu nad finálním výstupem PostScriptu. Ať už generujete faktury, certifikáty nebo vlastní grafiku, možnost **vytvářet postscript dokumenty** s přesným stylováním snižuje potřebu následné úpravy v grafických editorech.
+
 ## Časté problémy a řešení
 | Problém | Řešení |
 |-------|----------|
-| **Font nebyl nalezen** | Ensure the font file is placed in `necessary_fonts` and the folder path is correctly added via `options.setAdditionalFontsFolders`. |
-| **Barva nebyla použita** | Verify you are calling the overload of `fillText` or `outlineText` that includes a `Color` argument. |
-| **Obrys je příliš tenký** | Increase the `BasicStroke` width (e.g., `new BasicStroke(3)`). |
-| **Dokument se neotevírá** | Confirm the generated `.ps` file is saved with the correct extension and that your viewer supports PostScript. |
+| **Font nebyl nalezen** | Ujistěte se, že soubor s fontem je umístěn ve složce `necessary_fonts` a že cesta ke složce je správně přidána pomocí `options.setAdditionalFontsFolders`. |
+| **Barva se neaplikovala** | Ověřte, že voláte přetíženou verzi `fillText` nebo `outlineText`, která obsahuje argument `Color`. |
+| **Obrys je příliš tenký** | Zvyšte šířku `BasicStroke` (např. `new BasicStroke(3)`). |
+| **Dokument se neotevírá** | Zkontrolujte, že vygenerovaný soubor `.ps` má správnou příponu a že váš prohlížeč podporuje PostScript. |
 
 ## Často kladené otázky
 
-**Q:** Can I use my own custom fonts with Aspose.Page for Java?  
-A: Yes, you can use custom fonts by specifying the font name and size in the `DrFont` class.
+**Q:** Mohu použít vlastní fonty s Aspose.Page pro Javu?  
+**A:** Ano, můžete **použít vlastní fonty v Javě** zadáním názvu fontu a velikosti ve třídě `DrFont`.
 
-**Q:** How can I change the color of the text?  
-A: You can set the desired color using the `Color` class when filling or outlining the text.
+**Q:** Jak mohu změnit barvu textu?  
+**A:** Barvu nastavíte pomocí třídy `Color` při výplni nebo obrysování textu.
 
-**Q:** Is it possible to add multiple pages to a PostScript document?  
-A: Absolutely! You can create multiple pages by repeating the document creation and saving steps.
+**Q:** Je možné přidat více stránek do PostScript dokumentu?  
+**A:** Rozhodně! Můžete vytvořit více stránek opakováním kroků pro vytvoření a uložení dokumentu.
 
-**Q:** What is the purpose of the `ExternalFontCache` class?  
-A: `ExternalFontCache` is used to fetch custom fonts, ensuring they are available for text manipulation.
+**Q:** K čemu slouží třída `ExternalFontCache`?  
+**A:** `ExternalFontCache` slouží k načtení vlastních fontů, aby byly dostupné pro manipulaci s textem.
 
-**Q:** Can I apply different strokes to the outlined text?  
-A: Yes, you can customize the width and color of the stroke using the `Stroke` class and `Color` class, respectively.
+**Q:** Mohu aplikovat různé obrysy na obrysovaný text?  
+**A:** Ano, šířku a barvu obrysu můžete přizpůsobit pomocí třídy `Stroke` a třídy `Color`.
 
 ## Závěr
-Gratulujeme! Nyní víte, jak **set text color java**, měnit velikosti fontů, **apply stroke text** a **create postscript document** soubory pomocí Aspose.Page pro Javu. Experimentujte s různými fonty, barvami a styly obrysů a vytvořte profesionální výstup ve formátu PostScript.
+Gratulujeme! Nyní víte, jak **nastavit barvu textu v Javě**, **změnit velikost písma v Javě**, **aplikovat výplň a obrys textu** a **vytvářet postscript dokumenty** pomocí Aspose.Page pro Javu. Experimentujte s různými fonty, barvami a styly obrysů a vytvořte profesionální výstup v PostScriptu.
 
 ---
 
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.Page for Java 23.12 (latest)  
-**Author:** Aspose  
+**Poslední aktualizace:** 2026-02-20  
+**Testováno s:** Aspose.Page pro Javu 23.12 (nejnovější)  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
