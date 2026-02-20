@@ -1,12 +1,13 @@
 ---
-date: 2025-12-14
+date: 2026-02-20
 description: Apprenez à définir la couleur du texte en Java avec Aspose.Page for Java,
-  à ajouter du texte au PostScript et à appliquer un contour de texte pour un style
-  de document riche.
+  à modifier la taille de la police en Java, à générer un fichier PostScript, à remplir
+  et tracer le texte, et à utiliser des polices personnalisées en Java lors de la
+  création d’un document PostScript.
 linktitle: Add Text in Java PostScript
 second_title: Aspose.Page Java API
 title: Définir la couleur du texte en Java avec Aspose.Page – Guide de manipulation
-  du texte
+  de texte
 url: /fr/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
@@ -18,32 +19,32 @@ weight: 10
 # Définir la couleur du texte Java avec Aspose.Page – Guide de manipulation de texte
 
 ## Introduction
-Bienvenue dans notre guide étape par étape sur **set text color java** lors de la manipulation de fichiers PostScript avec Aspose.Page pour Java. Aspose.Page pour Java est une bibliothèque puissante qui permet aux développeurs de créer et **générer des fichiers postscript**, de manipuler les polices et de styliser le texte avec précision. Dans ce tutoriel, vous apprendrez comment ajouter du texte, changer sa couleur, ajuster la taille et même **appliquer un texte en contour** pour un rendu soigné.
+Bienvenue dans notre guide étape par étape sur **set text color java** tout en travaillant avec des fichiers PostScript à l'aide d'Aspose.Page pour Java. Aspose.Page pour Java est une bibliothèque puissante qui permet aux développeurs **create postscript document**, de manipuler les polices et de styliser le texte avec précision. Dans ce tutoriel, vous apprendrez comment ajouter du texte, changer sa couleur, **change font size java**, et même **apply fill and stroke text** pour un rendu soigné.
 
-## Quick Answers
-- **Quelle bibliothèque me permet de définir la couleur du texte en Java ?** Aspose.Page pour Java.  
-- **Puis‑je utiliser des polices système et des polices personnalisées ?** Oui, les deux sont prises en charge.  
-- **Comment modifier la taille du texte ?** En spécifiant la taille de la police lors de la création du `Font` ou du `DrFont`.  
-- **Est‑il possible de tracer et remplir le texte simultanément ?** Absolument – utilisez `fillAndStrokeText`.  
-- **Quel format de sortie ce tutoriel produit‑il ?** Un document PostScript (`.ps`).
+## Réponses rapides
+- **Quelle bibliothèque me permet de définir la couleur du texte en Java ?** Aspose.Page for Java.  
+- **Puis-je utiliser des polices système et des polices personnalisées ?** Oui, les deux sont prises en charge, et vous pouvez **use custom fonts java** facilement.  
+- **Comment changer la taille du texte ?** En spécifiant la taille de la police lors de la création du `Font` ou du `DrFont`.  
+- **Est-il possible de tracer et remplir le texte simultanément ?** Absolument – utilisez `fillAndStrokeText`.  
+- **Quel format de sortie ce tutoriel produit‑il ?** Un document PostScript (`.ps`), que vous pouvez **generate postscript file** programmétiquement.
 
-## What is “set text color java”?
-Définir la couleur du texte en Java signifie créer l’objet `Color` que le moteur de rendu (ici, Aspose.Page) utilise lors du dessin des caractères sur une page. Cette opération est essentielle pour créer des documents visuellement distincts, notamment lorsqu’on génère des **postscript documents** de façon programmatique.
+## Qu’est‑ce que “set text color java” ?
+Définir la couleur du texte en Java signifie définir l'objet `Color` que le moteur de rendu (ici, Aspose.Page) utilise lors du dessin des caractères sur une page. Cette opération est essentielle pour créer des documents visuellement distincts, surtout lorsque vous devez **generate postscript file** de manière programmatique.
 
-## Why use Aspose.Page for Java?
-- **Contrôle complet** sur la génération de PostScript sans besoin d’un interpréteur PostScript natif.  
-- **Prise en charge des polices système et externes**, vous permettant d’incorporer n’importe quelle typographie.  
-- **API simple** pour remplir, tracer et **remplir et tracer du texte**, offrant une grande flexibilité de style.  
-- **Compatibilité multiplateforme** – écrivez une fois, exécutez partout où Java fonctionne.
+## Pourquoi utiliser Aspose.Page pour Java ?
+- **Contrôle total** sur la génération de PostScript sans nécessiter d’interpréteur natif.  
+- **Prise en charge des polices système et externes**, vous permettant d’intégrer n’importe quelle typographie dont vous avez besoin.  
+- **API simple** pour remplir, tracer et **fill and stroke text**, vous offrant une flexibilité de style.  
+- **Compatibilité multiplateforme** – écrivez une fois, exécutez partout où Java fonctionne.  
 
-## Prerequisites
-Avant de commencer, assurez‑vous d’avoir :
+## Prérequis
+Avant de commencer, assurez‑vous d’avoir :
 
-- Des connaissances de base en programmation Java.  
-- La bibliothèque Aspose.Page pour Java installée. Vous pouvez la télécharger depuis la [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).  
-- Les polices nécessaires disponibles dans le dossier spécifié. Des détails supplémentaires se trouvent dans la [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
+- Connaissances de base en programmation Java.  
+- Bibliothèque Aspose.Page pour Java installée. Vous pouvez la télécharger depuis la [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).  
+- Polices nécessaires disponibles dans le dossier spécifié. Des détails supplémentaires sont dans la [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
 
-## Import Packages
+## Importer les packages
 Dans votre projet Java, importez les packages nécessaires pour Aspose.Page pour Java :
 
 ```java
@@ -58,8 +59,8 @@ import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
 ```
 
-## Step 1: Set Up the Document
-Tout d’abord, nous créons un nouveau **document PostScript** et configurons les options de sortie.
+## Étape 1 : Configurer le document
+Tout d'abord, nous créons un nouveau **PostScript document** et configurons les options de sortie.
 
 ```java
 // The path to the documents directory.
@@ -77,8 +78,8 @@ int fontSize = 48;
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## How to Set Text Color Java Using System Font
-Nous démontrons maintenant **set text color java** avec une police fournie par le système.
+## Comment définir la couleur du texte Java en utilisant une police système
+Nous allons maintenant démontrer **set text color java** avec une police fournie par le système.
 
 ```java
 // Using system font for filling text
@@ -89,10 +90,10 @@ document.fillText(str, font, 50, 100);
 document.fillText(str, font, 50, 150, Color.BLUE);
 ```
 
-> **Astuce :** La méthode `fillText` utilise automatiquement la couleur courante si vous ne transmettez pas d’argument `Color`, qui est noir par défaut.
+> **Astuce :** La méthode `fillText` utilise automatiquement la couleur actuelle si vous ne passez pas d’argument `Color`, qui par défaut est noir.
 
-## Using Custom Font and Changing Text Size
-Vous pouvez également **changer la taille du texte** et utiliser une police personnalisée stockée dans votre dossier de polices.
+## Utilisation d’une police personnalisée et modification de la taille du texte
+Vous pouvez également **change font size java** et utiliser une police personnalisée stockée dans votre dossier de polices.
 
 ```java
 // Using custom font for filling text
@@ -103,8 +104,8 @@ document.fillText(str, drFont, 50, 200);
 document.fillText(str, drFont, 50, 250, Color.BLUE);
 ```
 
-## Outlining (Stroke) Text – Apply Stroke Text
-Tracer le texte lui donne un bord net. Ici nous **appliquons un texte en contour** à l’aide d’un `BasicStroke`.
+## Contour (Trait) du texte – Appliquer le trait du texte
+Tracer le texte lui donne un bord net. Ici, nous **apply stroke text** en utilisant un `BasicStroke`.
 
 ```java
 // Using system font for outlining text
@@ -117,7 +118,7 @@ document.outlineText(str, font, 50, 350, strokeColor, stroke);
 document.fillAndStrokeText(str, font, 50, 400, Color.YELLOW, strokeColor, stroke);
 ```
 
-## Outlining Text with Custom Font
+## Contour du texte avec police personnalisée
 La même technique fonctionne avec des polices personnalisées.
 
 ```java
@@ -129,7 +130,7 @@ document.outlineText(str, drFont, 50, 500, strokeColor, stroke);
 document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, stroke);
 ```
 
-## Step 6: Save the Document
+## Étape 6 : Enregistrer le document
 Enfin, fermez la page et écrivez le fichier sur le disque.
 
 ```java
@@ -139,39 +140,42 @@ document.closePage();
 document.save();
 ```
 
-## Common Issues & Solutions
+## Pourquoi cela importe
+Pouvoir **set text color java** et combiner remplissage et contour vous donne un contrôle artistique complet sur la sortie PostScript finale. Que vous génériez des factures, des certificats ou des graphiques personnalisés, la capacité de **create postscript document** avec un style précis réduit le besoin de post‑traitement dans les éditeurs graphiques.
+
+## Problèmes courants & solutions
 | Problème | Solution |
 |----------|----------|
-| **Police non trouvée** | Vérifiez que le fichier de police est placé dans `necessary_fonts` et que le chemin du dossier est correctement ajouté via `options.setAdditionalFontsFolders`. |
-| **Couleur non appliquée** | Assurez‑vous d’appeler la surcharge de `fillText` ou `outlineText` qui inclut un argument `Color`. |
-| **Le contour apparaît trop fin** | Augmentez la largeur du `BasicStroke` (par ex., `new BasicStroke(3)`). |
-| **Document qui ne s’ouvre pas** | Confirmez que le fichier `.ps` généré est enregistré avec la bonne extension et que votre visionneuse prend en charge le format PostScript. |
+| **Police non trouvée** | Assurez‑vous que le fichier de police est placé dans `necessary_fonts` et que le chemin du dossier est correctement ajouté via `options.setAdditionalFontsFolders`. |
+| **Couleur non appliquée** | Vérifiez que vous appelez la surcharge de `fillText` ou `outlineText` qui inclut un argument `Color`. |
+| **Le trait apparaît trop fin** | Augmentez la largeur du `BasicStroke` (par ex., `new BasicStroke(3)`). |
+| **Document qui ne s’ouvre pas** | Confirmez que le fichier `.ps` généré est enregistré avec la bonne extension et que votre visualiseur supporte le PostScript. |
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
 **Q :** Puis‑je utiliser mes propres polices personnalisées avec Aspose.Page pour Java ?  
-**R :** Oui, vous pouvez utiliser des polices personnalisées en spécifiant le nom et la taille de la police dans la classe `DrFont`.
+**R :** Oui, vous pouvez **use custom fonts java** en spécifiant le nom et la taille de la police dans la classe `DrFont`.
 
-**Q :** Comment changer la couleur du texte ?  
-**R :** Vous pouvez définir la couleur souhaitée à l’aide de la classe `Color` lors du remplissage ou du tracé du texte.
+**Q :** Comment puis‑je changer la couleur du texte ?  
+**R :** Vous pouvez définir la couleur souhaitée en utilisant la classe `Color` lors du remplissage ou du contour du texte.
 
 **Q :** Est‑il possible d’ajouter plusieurs pages à un document PostScript ?  
 **R :** Absolument ! Vous pouvez créer plusieurs pages en répétant les étapes de création et d’enregistrement du document.
 
-**Q :** Quel est le rôle de la classe `ExternalFontCache` ?  
-**R :** `ExternalFontCache` sert à récupérer les polices personnalisées, garantissant leur disponibilité pour la manipulation du texte.
+**Q :** Quel est le but de la classe `ExternalFontCache` ?  
+**R :** `ExternalFontCache` est utilisée pour récupérer des polices personnalisées, garantissant qu’elles sont disponibles pour la manipulation du texte.
 
-**Q :** Puis‑je appliquer différents contours au texte tracé ?  
-**R :** Oui, vous pouvez personnaliser la largeur et la couleur du contour à l’aide de la classe `Stroke` et de la classe `Color`, respectivement.
+**Q :** Puis‑je appliquer différents traits au texte contourné ?  
+**R :** Oui, vous pouvez personnaliser la largeur et la couleur du trait en utilisant respectivement les classes `Stroke` et `Color`.
 
 ## Conclusion
-Félicitations ! Vous savez maintenant comment **set text color java**, modifier les tailles de police, **appliquer un texte en contour**, et **créer des fichiers de document postscript** à l’aide d’Aspose.Page pour Java. Expérimentez avec différentes polices, couleurs et styles de contour pour produire des sorties PostScript d’aspect professionnel.
+Félicitations ! Vous savez maintenant comment **set text color java**, **change font size java**, **apply fill and stroke text**, et **create postscript document** à l’aide d’Aspose.Page pour Java. Expérimentez avec différentes polices, couleurs et styles de contour pour produire une sortie PostScript d’aspect professionnel.
 
 ---
 
-**Dernière mise à jour :** 2025-12-14  
-**Testé avec :** Aspose.Page pour Java 23.12 (dernière version)  
-**Auteur :** Aspose  
+**Last Updated:** 2026-02-20  
+**Tested With:** Aspose.Page for Java 23.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
