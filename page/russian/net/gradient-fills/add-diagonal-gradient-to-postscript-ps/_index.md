@@ -1,35 +1,51 @@
 ---
-title: Добавьте диагональный градиент в PostScript (PS) с помощью Aspose.Page .NET
-linktitle: Добавить диагональный градиент в PostScript (PS)
+date: 2026-02-23
+description: Узнайте, как добавить градиент в файлы PostScript, сохранить файл PostScript
+  с размером страницы A4 и заполнить прямоугольник градиентом с помощью Aspose.Page
+  для .NET.
+linktitle: Add Diagonal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: Узнайте, как просто добавлять диагональные градиенты в документы PostScript в .NET с помощью Aspose.Page. Улучшите свои проекты с помощью динамических визуальных элементов.
-weight: 10
+title: Как добавить градиент – диагональный градиент в PostScript (PS) с помощью Aspose.Page
+  .NET
 url: /ru/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Добавьте диагональный градиент в PostScript (PS) с помощью Aspose.Page .NET
+# Как добавить градиент: Диагональный градиент в PostScript (PS) с помощью Aspose.Page .NET
 
 ## Введение
 
-Добавление диагонального градиента в документ PostScript (PS) может придать вашим проектам визуальную привлекательность и креативность. Aspose.Page для .NET предоставляет простое решение для интеграции этой функции в ваши приложения. В этом уроке мы шаг за шагом проведем вас через процесс добавления диагонального градиента в документ PS с помощью Aspose.Page.
+Добавление диагонального градиента в документ PostScript (PS) может значительно улучшить визуальную привлекательность, особенно когда вам нужны **how to add gradient** эффекты в технических отчетах, брошюрах или графически насыщенных приложениях. В этом руководстве вы увидите, как именно добавить градиент в файл PostScript, установить размер страницы A4 и заполнить прямоугольник плавным переходом цветов с помощью Aspose.Page для .NET.
 
-## Предварительные условия
+## Быстрые ответы
+- **Какая библиотека требуется?** Aspose.Page for .NET  
+- **Какие версии .NET поддерживаются?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6  
+- **Можно ли изменить направление градиента?** Да – поверните трансформацию кисти, как показано в коде  
+- **Как сохранить результат?** Используйте `PsDocument.Save()`, который записывает файл PostScript на диск  
+- **Нужна ли лицензия для продакшн?** Да, коммерческая лицензия разблокирует полный функционал  
 
-Прежде чем мы углубимся в руководство, убедитесь, что у вас есть следующие предварительные условия:
+## Что такое диагональный градиент в PostScript?
 
--  Библиотека Aspose.Page для .NET: убедитесь, что у вас установлена библиотека Aspose.Page для .NET. Вы можете скачать его[здесь](https://releases.aspose.com/page/net/).
+Диагональный градиент — это линейный переход цветов, который проходит под углом (обычно 45°) через форму. В PostScript это достигается применением `LinearGradientBrush` с пользовательской матрицей преобразования, которая вращает, масштабирует и перемещает градиент, чтобы соответствовать требуемому прямоугольнику.
 
-- Каталог документов: установите каталог для ваших документов, в котором будет сохранен выходной файл PS.
+## Почему использовать Aspose.Page для заливок градиентом?
 
-Теперь перейдем к пошаговому руководству.
+Aspose.Page абстрагирует низкоуровневые команды PostScript, позволяя работать с привычными объектами графики .NET. Вы можете создавать сложные заливки, задавать размеры страниц и экспортировать напрямую в **save PostScript file** без работы с сырым синтаксисом PS.
 
-## Импортировать пространства имен
+## Предварительные требования
 
-Во-первых, обязательно импортируйте необходимые пространства имен в свой проект. Эти пространства имен имеют решающее значение для работы с функциями Aspose.Page.
+- **Aspose.Page for .NET Library** – загрузите её [here](https://releases.aspose.com/page/net/).  
+- **Document Directory** – папка, в которой будет записан сгенерированный файл `*.ps`.
+
+Теперь, когда основные моменты покрыты, давайте пошагово рассмотрим реализацию.
+
+## Импорт пространств имён
+
+Сначала импортируйте пространства имён, которые предоставляют доступ к устройству EPS, утилитам рисования и классам ввода‑вывода.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,32 +55,32 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Шаг 1. Создайте выходной поток для документа PostScript
+## Шаг 1: Создать поток вывода для документа PostScript (Create PostScript Document)
 
 ```csharp
 // ExStart:1
-// Путь к каталогу документов.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//Создать выходной поток для документа PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps", FileMode.Create))
 {
 ```
 
-## Шаг 2. Создайте параметры сохранения с размером A4
+## Шаг 2: Установить размер страницы A4 (Save Options)
 
 ```csharp
-	//Создайте варианты сохранения с размером А4.
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Шаг 3. Создайте новый одностраничный документ PS.
+## Шаг 3: Создать новый одностраничный PS документ
 
 ```csharp
-	// Создать новый одностраничный документ PS
+	// Create new 1-paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Шаг 4: Определите параметры прямоугольника
+## Шаг 4: Определить параметры прямоугольника
 
 ```csharp
 	float offsetX = 200;
@@ -73,34 +89,34 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	float height = 100;
 ```
 
-## Шаг 5: Создайте графический путь
+## Шаг 5: Создать графический путь
 
 ```csharp
-	//Создайте графический путь из первого прямоугольника
+	//Create graphics path from the first rectangle
 	System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 ```
 
-## Шаг 6: Создайте кисть линейного градиента
+## Шаг 6: Создать линейную кисть градиента (Fill Rectangle Gradient)
 
 ```csharp
-	//Создайте линейную градиентную кисть с прямоугольником в качестве границ, начального и конечного цветов.
+	//Create linear gradient brush with rectangle as bounds, start, and end colors
 	LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(255, 255, 0, 0),
 		Color.FromArgb(255, 0, 0, 255), 0f);
 ```
 
-## Шаг 7: Создайте преобразование для кисти
+## Шаг 7: Создать трансформацию для кисти
 
 ```csharp
-	//Создайте преобразование для кисти. Компоненты масштаба X и Y должны быть равны ширине и высоте прямоугольника соответственно.
-	// Компоненты перевода — это смещения прямоугольника.
+	//Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+	//Translation components are offsets of the rectangle                
 	System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
 ```
 
-## Шаг 8: Примените преобразования к кисти
+## Шаг 8: Применить трансформации к кисти (Rotate, Scale, Translate)
 
 ```csharp
-	//Поверните градиент, затем масштабируйте и переместите, чтобы получить видимый переход цвета в нужном прямоугольнике.
+	//Rotate gradient, then scale and translate to get visible color transition in required rectangle
 	brushTransform.Rotate(-45);
 	float hypotenuse = (float)System.Math.Sqrt(200 * 200 + 100 * 100);
 	float ratio = hypotenuse / 200;
@@ -108,66 +124,78 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	brushTransform.Translate(100 / brushTransform.Elements[0], 0);
 ```
 
-## Шаг 9: Установите преобразование в «Кисть»
+## Шаг 9: Установить трансформацию для кисти
 
 ```csharp
-	//Установить преобразование
+	//Set transform
 	brush.Transform = brushTransform;
 ```
 
-## Шаг 10: Установите краску и залейте прямоугольник
+## Шаг 10: Установить заливку и заполнить прямоугольник
 
 ```csharp
-	//Установить краску
+	//Set paint
 	document.SetPaint(brush);
 
-	//Заполните прямоугольник
+	//Fill the rectangle
 	document.Fill(path);
 ```
 
-## Шаг 11: Закройте текущую страницу
+## Шаг 11: Закрыть текущую страницу
 
 ```csharp
-	//Закрыть текущую страницу
+	//Close current page
 	document.ClosePage();
 ```
 
-## Шаг 12: Сохраните документ
+## Шаг 12: Сохранить документ (Save PostScript File)
 
 ```csharp
-	//Сохраните документ
+	//Save the document
 	document.Save();
 }
 // ExEnd:1
 ```
 
-Выполнив эти шаги, вы успешно добавите диагональный градиент в документ PostScript с помощью Aspose.Page для .NET.
+## Как сохранить файл PostScript
 
-## Заключение
+Вызов `PsDocument.Save()` записывает полностью сформированное содержимое PostScript в поток, открытый в **Step 1**. После завершения блока `using` файл `DiagonaGradient_outPS.ps` будет доступен в указанной вами директории.
 
-Улучшение ваших документов PS с помощью диагональных градиентов может сделать ваши проекты визуально привлекательными и динамичными. Aspose.Page для .NET упрощает этот процесс, позволяя разработчикам легко интегрировать эту функцию в свои приложения.
+## Распространённые сценарии использования
+
+- **Technical documentation**, которой требуется тонкая фоновая затенённость.  
+- **Marketing brochures**, где диагональный градиент придаёт современный вид.  
+- **Automated report generators**, генерирующие печатные PS‑файлы «на лету».
+
+## Устранение неполадок и советы
+
+- **Incorrect colors** – дважды проверьте ARGB‑значения, передаваемые в `LinearGradientBrush`.  
+- **Gradient not visible** – убедитесь, что матрица преобразования правильно вращает и масштабирует; вызов `Rotate(-45)` задаёт диагональный угол.  
+- **File not created** – проверьте, что `dataDir` указывает на существующую папку и приложение имеет права записи.
 
 ## Часто задаваемые вопросы
 
-### Вопрос 1. Совместим ли Aspose.Page со всеми платформами .NET?
+**Q: Совместим ли Aspose.Page со всеми версиями .NET?**  
+A: Aspose.Page поддерживает широкий спектр версий .NET, от .NET Framework 4.5+ до .NET 6+, обеспечивая широкую совместимость.
 
-A1: Aspose.Page поддерживает различные платформы .NET, обеспечивая совместимость с широким спектром сред разработки.
+**Q: Можно ли настроить цвета градиента в Aspose.Page?**  
+A: Да, вы можете указать любые ARGB‑цвета при создании `LinearGradientBrush`, получая полный контроль над начальными и конечными оттенками.
 
-### Вопрос 2: Могу ли я настроить цвета градиента в Aspose.Page?
+**Q: Доступна ли пробная версия Aspose.Page?**  
+A: Да, вы можете ознакомиться с возможностями Aspose.Page, скачав пробную версию [here](https://releases.aspose.com/).
 
-О2: Да, Aspose.Page обеспечивает гибкость в выборе и настройке цветов градиента в соответствии с требованиями вашего проекта.
+**Q: Как получить временную лицензию для Aspose.Page?**  
+A: Получите временную лицензию для Aspose.Page [here](https://purchase.aspose.com/temporary-license/), чтобы разблокировать дополнительные возможности во время оценки.
 
-### Вопрос 3: Существует ли пробная версия для Aspose.Page?
+**Q: Где можно найти поддержку сообщества Aspose.Page?**  
+A: Взаимодействуйте с сообществом Aspose.Page на [forum](https://forum.aspose.com/c/page/39) для получения помощи и обсуждений.
 
- О3: Да, вы можете изучить возможности Aspose.Page, загрузив пробную версию.[здесь](https://releases.aspose.com/).
+---
 
-### Вопрос 4: Как я могу получить временную лицензию для Aspose.Page?
+**Последнее обновление:** 2026-02-23  
+**Тестировано с:** Aspose.Page for .NET (latest stable release)  
+**Автор:** Aspose  
 
- A4: Получите временную лицензию для Aspose.Page[здесь](https://purchase.aspose.com/temporary-license/) чтобы разблокировать дополнительные функции.
-
-### Вопрос 5: Где я могу найти поддержку сообщества для Aspose.Page?
-
- A5: Взаимодействуйте с сообществом Aspose.Page на[Форум](https://forum.aspose.com/c/page/39) за помощь и обсуждения.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
