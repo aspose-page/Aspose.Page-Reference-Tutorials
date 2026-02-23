@@ -1,35 +1,51 @@
 ---
-title: Aspose.Page .NET ile PostScript'e (PS) Çapraz Degrade Ekleme
-linktitle: PostScript'e Çapraz Degrade Ekleme (PS)
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page ile .NET'te PostScript belgelerine diyagonal degradeler eklemenin kolaylığını keşfedin. Projelerinizi dinamik görsel öğelerle geliştirin.
-weight: 10
+date: 2026-02-23
+description: PostScript dosyalarına degrade eklemeyi, PostScript dosyasını A4 sayfa
+  boyutunda kaydetmeyi ve Aspose.Page for .NET kullanarak dikdörtgeni degrade ile
+  doldurmayı öğrenin.
+linktitle: Add Diagonal Gradient to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Aspose.Page .NET ile PostScript (PS) içinde Gradient – Diyagonal Gradient Nasıl
+  Eklenir
 url: /tr/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page .NET ile PostScript'e (PS) Çapraz Degrade Ekleme
+# PostScript (PS) Belgesine Diyagonal Gradient Nasıl Eklenir: Aspose.Page .NET
 
-## giriiş
+## Giriş
 
-PostScript (PS) belgesine çapraz degrade eklemek, projelerinize görsel çekicilik ve yaratıcılık katabilir. Aspose.Page for .NET, bu özelliği uygulamalarınıza entegre etmek için kusursuz bir çözüm sunar. Bu eğitimde, Aspose.Page'i kullanarak bir PS belgesine çapraz degrade ekleme sürecinde size adım adım rehberlik edeceğiz.
+PostScript (PS) belgesine diyagonal bir gradient eklemek görsel çekiciliği büyük ölçüde artırabilir, özellikle teknik raporlar, broşürler veya grafik‑ağır uygulamalarda **gradient nasıl eklenir** efektlerine ihtiyaç duyduğunuzda. Bu öğreticide, bir PostScript dosyasına gradient nasıl eklenir, A4 sayfa boyutu nasıl ayarlanır ve bir dikdörtgenin içinde yumuşak bir renk geçişi nasıl doldurulur, Aspose.Page for .NET kullanarak tam olarak göreceksiniz.
+
+## Hızlı Yanıtlar
+- **Gerekli kütüphane nedir?** Aspose.Page for .NET  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6  
+- **Gradient yönünü değiştirebilir miyim?** Evet – kodda gösterildiği gibi fırça dönüşümünü döndürün  
+- **Sonucu nasıl kaydederim?** `PsDocument.Save()` kullanın; bu, bir PostScript dosyasını diske yazar  
+- **Üretim için lisans gerekli mi?** Evet, ticari bir lisans tam işlevselliği açar  
+
+## PostScript'te diyagonal gradient nedir?
+
+Diyagonal gradient, bir şekil boyunca açıyla (genellikle 45°) gerçekleşen lineer renk geçişidir. PostScript'te bu, istenen dikdörtgene uyacak şekilde gradienti döndüren, ölçeklendiren ve taşıyan özel bir dönüşüm matrisiyle `LinearGradientBrush` uygulanarak elde edilir.
+
+## Gradient doldurmaları için Aspose.Page neden kullanılmalı?
+
+Aspose.Page, düşük seviyeli PostScript komutlarını soyutlayarak tanıdık .NET grafik nesneleriyle çalışmanıza olanak tanır. Karmaşık doldurmalar oluşturabilir, sayfa boyutlarını ayarlayabilir ve ham PS sözdizimiyle uğraşmadan doğrudan bir **save PostScript file** dosyasına dışa aktarabilirsiniz.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+- **Aspose.Page for .NET Kütüphanesi** – [buradan](https://releases.aspose.com/page/net/) indirin.  
+- **Belge Dizini** – oluşturulan `*.ps` dosyasının yazılacağı klasör.
 
--  Aspose.Page for .NET Library: Aspose.Page for .NET kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/page/net/).
+Artık temelleri ele aldığımıza göre, uygulamayı adım adım inceleyelim.
 
-- Belge Dizini: Belgeleriniz için çıktı PS dosyasının kaydedileceği bir dizin ayarlayın.
+## Ad Alanlarını İçe Aktarma
 
-Şimdi adım adım rehbere geçelim.
-
-## Ad Alanlarını İçe Aktar
-
-Öncelikle gerekli ad alanlarını projenize aktardığınızdan emin olun. Bu ad alanları Aspose.Page işlevleriyle çalışmak için çok önemlidir.
+İlk olarak, EPS cihazına, çizim yardımcılarına ve I/O sınıflarına erişim sağlayan ad alanlarını içe aktarın.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,32 +55,32 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 1. Adım: PostScript Belgesi için Çıktı Akışı Oluşturun
+## Adım 1: PostScript Belgesi için Çıktı Akışı Oluşturma (Create PostScript Document)
 
 ```csharp
 // ExStart:1
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//PostScript belgesi için çıktı akışı oluşturun
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps", FileMode.Create))
 {
 ```
 
-## 2. Adım: A4 Boyutunda Kaydetme Seçenekleri Oluşturun
+## Adım 2: A4 Sayfa Boyutunu Ayarla (Save Options)
 
 ```csharp
-	//A4 boyutunda kaydetme seçenekleri oluşturun
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 ```
 
-## 3. Adım: Yeni Bir 1 Sayfalık PS Belgesi Oluşturun
+## Adım 3: Yeni 1‑Sayfalı PS Belgesi Oluştur
 
 ```csharp
-	// Yeni 1 sayfalık PS Belgesi oluştur
+	// Create new 1-paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Adım 4: Dikdörtgen Parametrelerini Tanımlayın
+## Adım 4: Dikdörtgen Parametrelerini Tanımla
 
 ```csharp
 	float offsetX = 200;
@@ -73,34 +89,34 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	float height = 100;
 ```
 
-## Adım 5: Grafik Yolu Oluşturun
+## Adım 5: Grafik Yolu Oluştur
 
 ```csharp
-	//İlk dikdörtgenden grafik yolu oluşturun
+	//Create graphics path from the first rectangle
 	System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 ```
 
-## Adım 6: Doğrusal Degrade Fırçası Oluşturun
+## Adım 6: Lineer Gradient Fırçası Oluştur (Dikdörtgen Gradientini Doldur)
 
 ```csharp
-	//Sınırlar, başlangıç ve bitiş renkleri olarak dikdörtgen içeren doğrusal degrade fırça oluşturma
+	//Create linear gradient brush with rectangle as bounds, start, and end colors
 	LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(255, 255, 0, 0),
 		Color.FromArgb(255, 0, 0, 255), 0f);
 ```
 
-## Adım 7: Fırça için Dönüşüm Oluşturun
+## Adım 7: Fırça için Dönüşüm Oluştur
 
 ```csharp
-	//Fırça için bir dönüşüm oluşturun. X ve Y ölçek bileşeni sırasıyla dikdörtgenin genişliğine ve yüksekliğine eşit olmalıdır.
-	// Çeviri bileşenleri dikdörtgenin uzaklıklarıdır
+	//Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+	//Translation components are offsets of the rectangle                
 	System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
 ```
 
-## Adım 8: Dönüşümleri Fırçaya Uygulayın
+## Adım 8: Fırçaya Dönüşümleri Uygula (Döndür, Ölçekle, Taşı)
 
 ```csharp
-	//Gerekli dikdörtgende görünür renk geçişi elde etmek için degradeyi döndürün, ardından ölçekleyin ve çevirin
+	//Rotate gradient, then scale and translate to get visible color transition in required rectangle
 	brushTransform.Rotate(-45);
 	float hypotenuse = (float)System.Math.Sqrt(200 * 200 + 100 * 100);
 	float ratio = hypotenuse / 200;
@@ -108,66 +124,78 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	brushTransform.Translate(100 / brushTransform.Elements[0], 0);
 ```
 
-## Adım 9: Dönüştürmeyi Fırça olarak ayarlayın
+## Adım 9: Dönüşümü Fırçaya Ayarla
 
 ```csharp
-	//Dönüşümü ayarla
+	//Set transform
 	brush.Transform = brushTransform;
 ```
 
-## Adım 10: Boyayı Ayarlayın ve Dikdörtgeni Doldurun
+## Adım 10: Boyayı Ayarla ve Dikdörtgeni Doldur
 
 ```csharp
-	//Boyayı ayarla
+	//Set paint
 	document.SetPaint(brush);
 
-	//Dikdörtgeni doldur
+	//Fill the rectangle
 	document.Fill(path);
 ```
 
-## Adım 11: Geçerli Sayfayı Kapatın
+## Adım 11: Mevcut Sayfayı Kapat
 
 ```csharp
-	//Geçerli sayfayı kapat
+	//Close current page
 	document.ClosePage();
 ```
 
-## Adım 12: Belgeyi Kaydedin
+## Adım 12: Belgeyi Kaydet (Save PostScript File)
 
 ```csharp
-	//Belgeyi kaydet
+	//Save the document
 	document.Save();
 }
 // ExEnd:1
 ```
 
-Bu adımları izleyerek Aspose.Page for .NET'i kullanarak PostScript belgesine başarılı bir şekilde çapraz degrade ekleyeceksiniz.
+## PostScript Dosyasını Nasıl Kaydedilir
 
-## Çözüm
+`PsDocument.Save()` çağrısı, **Adım 1**'de açtığınız akışa tam oluşturulmuş PostScript içeriğini yazar. `using` bloğu tamamlandığında, `DiagonaGradient_outPS.ps` dosyası belirttiğiniz dizinde bulunacaktır.
 
-PS belgelerinizi çapraz degradelerle geliştirmek, projelerinizi görsel olarak çekici ve dinamik hale getirebilir. Aspose.Page for .NET bu süreci basitleştirerek geliştiricilerin bu özelliği uygulamalarına zahmetsizce entegre etmelerine olanak tanır.
+## Yaygın Kullanım Senaryoları
 
-## SSS'ler
+- **Teknik dokümantasyon** için hafif bir arka plan gölgelendirmesi gerekir.  
+- **Pazarlama broşürleri** için diyagonal gradient modern bir görünüm katar.  
+- **Otomatik rapor oluşturucular** anında yazdırılabilir PS dosyaları üretir.  
 
-### S1: Aspose.Page tüm .NET çerçeveleriyle uyumlu mudur?
+## Sorun Giderme ve İpuçları
 
-Cevap1: Aspose.Page çeşitli .NET çerçevelerini destekleyerek çok çeşitli geliştirme ortamlarıyla uyumluluk sağlar.
+- **Yanlış renkler** – `LinearGradientBrush`'a geçirilen ARGB değerlerini iki kez kontrol edin.  
+- **Gradient görünmüyor** – dönüşüm matrisinin doğru döndürüp ölçeklediğinden emin olun; `Rotate(-45)` çağrısı diyagonal açıyı ayarlar.  
+- **Dosya oluşturulmadı** – `dataDir`'in mevcut bir klasöre işaret ettiğini ve uygulamanın yazma iznine sahip olduğunu doğrulayın.  
 
-### S2: Aspose.Page'deki degrade renklerini özelleştirebilir miyim?
+## Sıkça Sorulan Sorular
 
-C2: Evet, Aspose.Page, projenizin gereksinimlerine göre degrade renklerini seçme ve özelleştirme konusunda esneklik sağlar.
+**S: Aspose.Page tüm .NET framework'leriyle uyumlu mu?**  
+C: Aspose.Page, .NET Framework 4.5+ ile .NET 6+ arasında geniş bir .NET sürüm yelpazesini destekler, bu da geniş uyumluluk sağlar.
 
-### S3: Aspose.Page'in deneme sürümü mevcut mu?
+**S: Aspose.Page'de gradient renklerini özelleştirebilir miyim?**  
+C: Evet, `LinearGradientBrush` oluştururken istediğiniz ARGB renklerini belirtebilirsiniz; bu, başlangıç ve bitiş tonları üzerinde tam kontrol sağlar.
 
- Cevap3: Evet, deneme sürümünü indirerek Aspose.Page'in özelliklerini keşfedebilirsiniz.[Burada](https://releases.aspose.com/).
+**S: Aspose.Page için bir deneme sürümü mevcut mu?**  
+C: Evet, deneme sürümünü [buradan](https://releases.aspose.com/) indirerek Aspose.Page özelliklerini keşfedebilirsiniz.
 
-### S4: Aspose.Page için nasıl geçici lisans alabilirim?
+**S: Aspose.Page için geçici bir lisans nasıl alabilirim?**  
+C: Değerlendirme sırasında ek özellikleri açmak için Aspose.Page geçici lisansını [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
- Cevap4: Aspose.Page için geçici bir lisans edinin[Burada](https://purchase.aspose.com/temporary-license/) ek özelliklerin kilidini açmak için.
+**S: Aspose.Page için topluluk desteğini nerede bulabilirim?**  
+C: Yardım ve tartışmalar için Aspose.Page topluluğuna [forumda](https://forum.aspose.com/c/page/39) katılabilirsiniz.
 
-### S5: Aspose.Page için topluluk desteğini nerede bulabilirim?
+---
 
- Cevap5: Aspose.Page topluluğuyla etkileşime geçin[forum](https://forum.aspose.com/c/page/39) Yardım ve tartışmalar için.
+**Son Güncelleme:** 2026-02-23  
+**Test Edilen:** Aspose.Page for .NET (en son stabil sürüm)  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

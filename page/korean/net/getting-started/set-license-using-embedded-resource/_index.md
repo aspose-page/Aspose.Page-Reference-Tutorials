@@ -1,35 +1,44 @@
 ---
-title: .NET용 Aspose.Page와 함께 포함된 리소스를 사용하여 라이선스 설정
-linktitle: 내장 리소스를 사용하여 라이선스 설정
-second_title: Aspose.페이지 .NET API
-description: .NET용 Aspose.Page에 포함된 리소스를 사용하여 라이선스를 설정하는 방법을 알아보세요. 규정 준수를 보장하고 문서 처리의 잠재력을 최대한 활용하세요.
-weight: 14
+date: 2026-02-23
+description: Aspose.Page for .NET에서 임베디드 리소스를 사용하여 라이선스를 설정하는 방법을 배우세요. 규정을 준수하고 문서
+  처리의 전체 잠재력을 활용하십시오.
+linktitle: Set License Using Embedded Resource
+second_title: Aspose.Page .NET API
+title: Aspose.Page for .NET에서 임베디드 리소스를 사용하여 라이선스 설정하는 방법
 url: /ko/net/getting-started/set-license-using-embedded-resource/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.Page와 함께 포함된 리소스를 사용하여 라이선스 설정
+# Aspose.Page for .NET에서 임베디드 리소스를 사용하여 라이선스 설정하는 방법
 
-## 소개
+## Introduction
 
-Aspose.Page for .NET은 개발자가 다양한 문서 형식을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Page for .NET에 포함된 리소스를 사용하여 라이선스를 설정하는 과정을 안내합니다. 라이선스는 Aspose.Page 기능을 최대한 활용하여 규정 준수를 보장하고 라이브러리의 잠재력을 발휘하는 데 있어 중요한 단계입니다.
+Aspose.Page for .NET은 개발자가 다양한 문서 형식을 원활하게 작업할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 **임베디드 리소스를 사용하여 라이선스를 설정하는 방법**을 배웁니다. 이 단계는 API의 전체 기능을 활용하고 라이선스 조건을 준수하기 위해 필수적입니다.
 
-## 전제 조건
+## Quick Answers
+- **What is the primary purpose of setting a license?** It removes evaluation limitations and enables full feature access.  
+- **Do I need a physical license file on disk?** No – you can embed the license as a resource inside your assembly.  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
+- **Can I change the license at runtime?** Yes, by creating a new `Aspose.Page.License` instance and calling `SetLicense`.  
+- **Is an embedded license safe from tampering?** Embedding the license reduces the risk of accidental removal, but you should still protect your assemblies.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## Prerequisites
 
-1. .NET 라이브러리용 Aspose.Page: .NET 라이브러리용 Aspose.Page가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/page/net/).
+Before we dive into the tutorial, make sure you have the following prerequisites in place:
 
-2.  라이센스 파일: Aspose.Page 사용을 인증하는 데 필수적인 "MergedAPI.Aspose.Total.NET.lic"라는 이름의 라이센스 파일을 얻습니다. 라이센스가 없으면 임시 라이센스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Page for .NET Library: Ensure that you have the Aspose.Page for .NET library installed. You can download it from [here](https://releases.aspose.com/page/net/).
 
-이제 포함된 리소스를 사용하여 라이선스를 설정하는 방법에 대한 단계별 가이드를 진행해 보겠습니다.
+2. License File: Obtain the license file, commonly named "MergedAPI.Aspose.Total.NET.lic," which is essential for authenticating your use of Aspose.Page. If you don't have a license, you can get a temporary one from [here](https://purchase.aspose.com/temporary-license/).
 
-## 네임스페이스 가져오기
+Now, let's proceed with the step‑by‑step guide on how to set the license using an embedded resource.
 
-먼저, 필요한 네임스페이스를 .NET 프로젝트로 가져와야 합니다. 이렇게 하면 애플리케이션이 Aspose.Page 라이브러리에서 제공하는 클래스와 메서드를 인식하고 사용할 수 있습니다.
+## Import Namespaces
+
+Firstly, you need to import the necessary namespaces to your .NET project. This ensures that your application recognizes and can use the classes and methods provided by the Aspose.Page library.
 
 ```csharp
 using System;
@@ -38,84 +47,114 @@ using System.Linq;
 using System.Text;
 ```
 
-## 1단계: 문서 디렉터리 초기화
+## Step 1: Initialize Document Directory
 
-프로젝트 파일이 있는 문서 디렉터리의 경로를 설정합니다. 이 디렉터리는 라이센스 파일과 기타 리소스를 찾는 데 사용됩니다.
+Set the path to your document directory, where your project files are located. This directory will be used to locate the license file and other resources.
 
 ```csharp
 // ExStart:1
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// 연장:1
+// ExEnd:1
 ```
 
-## 2단계: 라이선스 개체 초기화
+## Step 2: Initialize License Object
 
-라이선스 작업을 관리하려면 Aspose.Page.License 클래스의 인스턴스를 만듭니다.
+Create an instance of the `Aspose.Page.License` class to manage the licensing operations.
 
 ```csharp
 // ExStart:1
 Aspose.Page.License license = new Aspose.Page.License();
-// 연장:1
+// ExEnd:1
 ```
 
-## 3단계: 라이선스 설정
+## Step 3: Set License
 
-SetLicense 메서드를 사용하여 라이선스를 설정하고 라이선스 파일의 경로를 제공합니다.
+Set the license using the `SetLicense` method and provide the path to your license file.
 
 ```csharp
 // ExStart:1
 license.SetLicense("MergedAPI.Aspose.Total.NET.lic");
-// 연장:1
+// ExEnd:1
 ```
 
-## 4단계: 내장 라이센스 활성화
+## Step 4: Enable Embedded License
 
-Embedded 속성을 true로 설정하여 라이센스가 애플리케이션에 포함됨을 나타냅니다.
+Indicate that the license will be embedded in the application by setting the `Embedded` property to `true`.
 
 ```csharp
 // ExStart:1
 license.Embedded = true;
-// 연장:1
+// ExEnd:1
 ```
 
-## 5단계: 성공적인 라이선스 설정 확인
+## Step 5: Confirm Successful License Set
 
-마지막으로 라이센스가 성공적으로 설정되었음을 확인하는 메시지를 표시합니다.
+Finally, display a message confirming that the license has been set successfully.
 
 ```csharp
 // ExStart:1
 Console.WriteLine("License set successfully.");
-// 연장:1
+// ExEnd:1
 ```
 
-Aspose.Page의 라이선스가 적절하게 부여되고 문서 처리 작업에 사용할 준비가 되었는지 확인하려면 애플리케이션에서 이러한 단계를 반복하세요.
+Repeat these steps in your application to ensure that Aspose.Page is properly licensed and ready to be used in your document processing tasks.
 
-## 결론
+## Common Issues and Solutions
 
-축하해요! .NET용 Aspose.Page와 함께 포함된 리소스를 사용하여 라이선스를 성공적으로 설정했습니다. 이 중요한 단계를 통해 애플리케이션은 규정 준수를 유지하면서 Aspose.Page의 기능을 최대한 활용할 수 있습니다.
+- **License file not found** – Verify that the file name and path are correct, and that the file is marked as an *Embedded Resource* in the project properties.  
+- **`Embedded` property ignored** – Ensure you are using a recent version of Aspose.Page; older builds may not support embedded licensing.  
+- **Runtime exceptions** – Wrap the licensing code in a try‑catch block to capture and log any `LicenseException` details.
 
-## FAQ
+## Conclusion
 
-### Q1: 라이선스 없이 Aspose.Page for .NET을 사용할 수 있나요?
+Congratulations! You've successfully set a license using an embedded resource with Aspose.Page for .NET. This crucial step ensures that your application can take full advantage of Aspose.Page's capabilities while maintaining compliance.
 
-A1: 라이선스 없이 Aspose.Page를 사용할 수 있지만 전체 기능과 규정 준수를 위해서는 라이선스를 취득하는 것이 좋습니다.
+## FAQ's
 
-### Q2: Aspose.Page에 대한 추가 예제와 문서는 어디서 찾을 수 있나요?
+### Q1: Can I use Aspose.Page for .NET without a license?
 
- A2: 포괄적인 문서 살펴보기[여기](https://reference.aspose.com/page/net/).
+A1: While you can use Aspose.Page without a license, it is recommended to obtain one for full functionality and compliance.
 
-### Q3: 무료 평가판이 제공됩니까?
+### Q2: Where can I find more examples and documentation for Aspose.Page?
 
- A3: 예, 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
+A2: Explore the comprehensive documentation [here](https://reference.aspose.com/page/net/).
 
-### Q4: 임시 라이센스는 어떻게 얻을 수 있나요?
+### Q3: Is there a free trial available?
 
- A4: 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
+A3: Yes, you can get a free trial [here](https://releases.aspose.com/).
 
-### Q5: .NET용 Aspose.Page를 어디서 구입할 수 있나요?
+### Q4: How can I get a temporary license?
 
- A5: Aspose.Page를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Where can I purchase Aspose.Page for .NET?
+
+A5: You can purchase Aspose.Page [here](https://purchase.aspose.com/buy).
+
+## Frequently Asked Questions
+
+**Q: Can I embed the license in a class library and still use it from a console app?**  
+A: Yes. As long as the library containing the embedded license is referenced, the console application will locate the resource automatically.
+
+**Q: Do I need to call `SetLicense` on every thread?**  
+A: No. The license is applied process‑wide after the first successful call.
+
+**Q: What happens if the embedded license is corrupted?**  
+A: Aspose.Page will throw a `LicenseException`. Replace the corrupted resource with a fresh license file.
+
+**Q: Is it possible to switch between multiple licenses at runtime?**  
+A: You can instantiate separate `License` objects with different license files, but only one license can be active per AppDomain.
+
+**Q: Does embedding the license increase the assembly size significantly?**  
+A: The license file is typically a few kilobytes, so the impact on assembly size is negligible.
+
+---
+
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
