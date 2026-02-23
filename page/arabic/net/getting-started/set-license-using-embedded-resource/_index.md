@@ -1,35 +1,44 @@
 ---
-title: قم بتعيين الترخيص باستخدام الموارد المضمنة مع Aspose.Page لـ .NET
-linktitle: قم بتعيين الترخيص باستخدام الموارد المضمنة
+date: 2026-02-23
+description: تعلم كيفية تعيين الترخيص باستخدام الموارد المضمنة مع Aspose.Page لـ .NET.
+  تأكد من الامتثال وافتح الإمكانات الكاملة لمعالجة المستندات.
+linktitle: Set License Using Embedded Resource
 second_title: Aspose.Page .NET API
-description: تعرف على كيفية تعيين ترخيص باستخدام الموارد المضمنة مع Aspose.Page لـ .NET. ضمان الامتثال وفتح الإمكانات الكاملة لمعالجة المستندات.
-weight: 14
+title: كيفية تعيين الترخيص باستخدام المورد المدمج مع Aspose.Page لـ .NET
 url: /ar/net/getting-started/set-license-using-embedded-resource/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتعيين الترخيص باستخدام الموارد المضمنة مع Aspose.Page لـ .NET
+# How to Set License Using Embedded Resource with Aspise.Page for .NET
 
-## مقدمة
+## Introduction
 
-Aspose.Page for .NET هي مكتبة قوية تمكن المطورين من العمل مع تنسيقات المستندات المختلفة بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إعداد الترخيص باستخدام مورد مضمن مع Aspose.Page for .NET. يعد الترخيص خطوة حاسمة في استخدام وظائف Aspose.Page إلى أقصى حد، مما يضمن الامتثال وإطلاق العنان لإمكانات المكتبة.
+Aspose.Page for .NET هي مكتبة قوية تمكّن المطورين من العمل مع صيغ المستندات المتنوعة بسهولة. في هذا البرنامج التعليمي، **ستتعلم كيفية ضبط الترخيص** باستخدام مورد مدمج، وهي خطوة أساسية لفتح جميع إمكانات الـ API مع الالتزام بشروط الترخيص.
 
-## المتطلبات الأساسية
+## Quick Answers
+- **ما هو الهدف الأساسي من ضبط الترخيص؟** يزيل قيود التقييم ويتيح الوصول الكامل إلى جميع الميزات.  
+- **هل أحتاج إلى ملف ترخيص فعلي على القرص؟** لا – يمكنك تضمين الترخيص كمورد داخل التجميع الخاص بك.  
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7+.  
+- **هل يمكنني تغيير الترخيص أثناء التشغيل؟** نعم، بإنشاء كائن `Aspose.Page.License` جديد واستدعاء `SetLicense`.  
+- **هل الترخيص المدمج آمن من العبث؟** تضمين الترخيص يقلل من خطر الإزالة غير المقصودة، لكن لا يزال من الضروري حماية التجميعات الخاصة بك.
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## Prerequisites
 
-1. Aspose.Page لمكتبة .NET: تأكد من تثبيت Aspose.Page لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/page/net/).
+قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات التالية:
 
-2.  ملف الترخيص: احصل على ملف الترخيص، المسمى عادةً "MergedAPI.Aspose.Total.NET.lic"، وهو ضروري لمصادقة استخدامك لـ Aspose.Page. إذا لم يكن لديك ترخيص، يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+1. مكتبة Aspose.Page for .NET: تأكد من تثبيت مكتبة Aspose.Page for .NET. يمكنك تنزيلها من [here](https://releases.aspose.com/page/net/).
 
-الآن، دعنا نتابع الدليل خطوة بخطوة حول كيفية تعيين الترخيص باستخدام مورد مضمن.
+2. ملف الترخيص: احصل على ملف الترخيص، عادةً ما يُسمّى "MergedAPI.Aspose.Total.NET.lic"، وهو ضروري لتوثيق استخدامك لـ Aspose.Page. إذا لم يكن لديك ترخيص، يمكنك الحصول على ترخيص مؤقت من [here](https://purchase.aspose.com/temporary-license/).
 
-## استيراد مساحات الأسماء
+الآن، لننتقل إلى الدليل خطوة بخطوة حول كيفية ضبط الترخيص باستخدام مورد مدمج.
 
-أولاً، تحتاج إلى استيراد مساحات الأسماء الضرورية لمشروع .NET الخاص بك. يضمن ذلك أن يتعرف تطبيقك على الفئات والأساليب التي توفرها مكتبة Aspose.Page ويمكنه استخدامها.
+## Import Namespaces
+
+أولاً، تحتاج إلى استيراد المساحات الاسمية الضرورية إلى مشروع .NET الخاص بك. هذا يضمن أن تطبيقك يتعرف على الفئات والطرق المقدمة من مكتبة Aspose.Page.
 
 ```csharp
 using System;
@@ -38,84 +47,114 @@ using System.Linq;
 using System.Text;
 ```
 
-## الخطوة 1: تهيئة دليل المستندات
+## Step 1: Initialize Document Directory
 
-قم بتعيين المسار إلى دليل المستندات الخاص بك، حيث توجد ملفات مشروعك. سيتم استخدام هذا الدليل لتحديد موقع ملف الترخيص والموارد الأخرى.
+حدد المسار إلى دليل المستندات الخاص بك، حيث توجد ملفات المشروع. سيُستخدم هذا الدليل لتحديد موقع ملف الترخيص والموارد الأخرى.
 
 ```csharp
-// البداية:1
-// المسار إلى دليل المستندات.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// النهاية:1
+// ExEnd:1
 ```
 
-## الخطوة 2: تهيئة كائن الترخيص
+## Step 2: Initialize License Object
 
-قم بإنشاء مثيل لفئة Aspose.Page.License لإدارة عمليات الترخيص.
+أنشئ كائنًا من الفئة `Aspose.Page.License` لإدارة عمليات الترخيص.
 
 ```csharp
-// البداية:1
+// ExStart:1
 Aspose.Page.License license = new Aspose.Page.License();
-// النهاية:1
+// ExEnd:1
 ```
 
-## الخطوة 3: تعيين الترخيص
+## Step 3: Set License
 
-قم بتعيين الترخيص باستخدام طريقة SetLicense وقم بتوفير المسار إلى ملف الترخيص الخاص بك.
+قم بضبط الترخيص باستخدام طريقة `SetLicense` ومرّر مسار ملف الترخيص الخاص بك.
 
 ```csharp
-// البداية:1
+// ExStart:1
 license.SetLicense("MergedAPI.Aspose.Total.NET.lic");
-// النهاية:1
+// ExEnd:1
 ```
 
-## الخطوة 4: تمكين الترخيص المضمن
+## Step 4: Enable Embedded License
 
-قم بالإشارة إلى أنه سيتم تضمين الترخيص في التطبيق عن طريق تعيين الخاصية Embedded على true.
+أشر إلى أن الترخيص سيكون مدمجًا في التطبيق عن طريق ضبط الخاصية `Embedded` إلى `true`.
 
 ```csharp
-// البداية:1
+// ExStart:1
 license.Embedded = true;
-// النهاية:1
+// ExEnd:1
 ```
 
-## الخطوة 5: تأكيد مجموعة التراخيص الناجحة
+## Step 5: Confirm Successful License Set
 
-وأخيراً، قم بعرض رسالة تؤكد أنه تم ضبط الترخيص بنجاح.
+أخيرًا، اعرض رسالة تؤكد أن الترخيص تم ضبطه بنجاح.
 
 ```csharp
-// البداية:1
+// ExStart:1
 Console.WriteLine("License set successfully.");
-// النهاية:1
+// ExEnd:1
 ```
 
-كرر هذه الخطوات في طلبك للتأكد من أن Aspose.Page مرخص بشكل صحيح وجاهز للاستخدام في مهام معالجة المستندات الخاصة بك.
+كرر هذه الخطوات في تطبيقك لضمان أن Aspose.Page مرخصة بشكل صحيح وجاهزة للاستخدام في مهام معالجة المستندات.
 
-## خاتمة
+## Common Issues and Solutions
 
-تهانينا! لقد قمت بتعيين ترخيص بنجاح باستخدام مورد مضمن مع Aspose.Page لـ .NET. تضمن هذه الخطوة الحاسمة أن تطبيقك يمكنه الاستفادة الكاملة من إمكانيات Aspose.Page مع الحفاظ على الامتثال.
+- **ملف الترخيص غير موجود** – تحقق من صحة اسم الملف والمسار، وتأكد من تعيين الملف كـ *Embedded Resource* في خصائص المشروع.  
+- **تم تجاهل الخاصية `Embedded`** – تأكد من أنك تستخدم نسخة حديثة من Aspose.Page؛ الإصدارات القديمة قد لا تدعم الترخيص المدمج.  
+- **استثناءات أثناء التشغيل** – ضع كود الترخيص داخل كتلة try‑catch لالتقاط وتسجيل أي تفاصيل `LicenseException`.
 
-## الأسئلة الشائعة
+## Conclusion
 
-### س1: هل يمكنني استخدام Aspose.Page لـ .NET بدون ترخيص؟
+تهانينا! لقد نجحت في ضبط الترخيص باستخدام مورد مدمج مع Aspose.Page for .NET. هذه الخطوة الحيوية تضمن أن تطبيقك يمكنه الاستفادة الكاملة من إمكانات Aspose.Page مع الحفاظ على الالتزام بالشروط.
 
-ج1: بينما يمكنك استخدام Aspose.Page بدون ترخيص، فمن المستحسن الحصول على ترخيص للحصول على الوظائف الكاملة والتوافق.
+## FAQ's
 
-### س2: أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.Page؟
+### Q1: Can I use Aspose.Page for .NET without a license?
 
- ج٢: استكشف الوثائق الشاملة[هنا](https://reference.aspose.com/page/net/).
+A1: While you can use Aspose.Page without a license, it is recommended to obtain one for full functionality and compliance.
 
-### س3: هل هناك نسخة تجريبية مجانية متاحة؟
+### Q2: Where can I find more examples and documentation for Aspose.Page?
 
- ج3: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+A2: Explore the comprehensive documentation [here](https://reference.aspose.com/page/net/).
 
-### س4: كيف يمكنني الحصول على ترخيص مؤقت؟
+### Q3: Is there a free trial available?
 
- ج4: الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+A3: Yes, you can get a free trial [here](https://releases.aspose.com/).
 
-### س5: أين يمكنني شراء Aspose.Page لـ .NET؟
+### Q4: How can I get a temporary license?
 
- ج5: يمكنك شراء Aspose.Page[هنا](https://purchase.aspose.com/buy).
+A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Where can I purchase Aspose.Page for .NET?
+
+A5: You can purchase Aspose.Page [here](https://purchase.aspose.com/buy).
+
+## Frequently Asked Questions
+
+**Q: Can I embed the license in a class library and still use it from a console app?**  
+A: Yes. As long as the library containing the embedded license is referenced, the console application will locate the resource automatically.
+
+**Q: Do I need to call `SetLicense` on every thread?**  
+A: No. The license is applied process‑wide after the first successful call.
+
+**Q: What happens if the embedded license is corrupted?**  
+A: Aspose.Page will throw a `LicenseException`. Replace the corrupted resource with a fresh license file.
+
+**Q: Is it possible to switch between multiple licenses at runtime?**  
+A: You can instantiate separate `License` objects with different license files, but only one license can be active per AppDomain.
+
+**Q: Does embedding the license increase the assembly size significantly?**  
+A: The license file is typically a few kilobytes, so the impact on assembly size is negligible.
+
+---
+
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

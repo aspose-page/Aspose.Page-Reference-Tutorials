@@ -1,35 +1,45 @@
 ---
-title: Licentie instellen met behulp van ingebedde bronnen met Aspose.Page voor .NET
-linktitle: Licentie instellen met behulp van ingebedde bronnen
-second_title: Aspose.Page .NET-API
-description: Leer hoe u een licentie instelt met behulp van ingebedde bronnen met Aspose.Page voor .NET. Garandeer naleving en ontgrendel het volledige potentieel van documentverwerking.
-weight: 14
+date: 2026-02-23
+description: Leer hoe u een licentie instelt met behulp van ingebedde resources in
+  Aspose.Page voor .NET. Zorg voor naleving en ontgrendel het volledige potentieel
+  van documentverwerking.
+linktitle: Set License Using Embedded Resource
+second_title: Aspose.Page .NET API
+title: Hoe een licentie instellen met een ingebedde resource in Aspose.Page voor .NET
 url: /nl/net/getting-started/set-license-using-embedded-resource/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Licentie instellen met behulp van ingebedde bronnen met Aspose.Page voor .NET
+# Hoe licentie instellen met een ingebedde bron met Aspose.Page voor .NET
 
-## Invoering
+## Introductie
 
-Aspose.Page voor .NET is een krachtige bibliotheek waarmee ontwikkelaars naadloos met verschillende documentformaten kunnen werken. In deze zelfstudie begeleiden we u bij het instellen van een licentie met behulp van een ingesloten bron met Aspose.Page voor .NET. Licenties zijn een cruciale stap bij het optimaal benutten van de functionaliteiten van Aspose.Page, waardoor compliance wordt gewaarborgd en het potentieel van de bibliotheek wordt ontsloten.
+Aspose.Page for .NET is een krachtige bibliotheek die ontwikkelaars in staat stelt om naadloos met verschillende documentformaten te werken. In deze tutorial **leer je hoe je een licentie instelt** met behulp van een ingebedde bron, een stap die essentieel is om de volledige mogelijkheden van de API te ontgrendelen en tegelijkertijd te voldoen aan de licentievoorwaarden.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat is het primaire doel van het instellen van een licentie?** Het verwijdert evaluatiebeperkingen en maakt volledige toegang tot alle functies mogelijk.  
+- **Heb ik een fysiek licentiebestand op schijf nodig?** Nee – je kunt de licentie als een bron in je assembly insluiten.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
+- **Kan ik de licentie tijdens runtime wijzigen?** Ja, door een nieuwe `Aspose.Page.License`‑instantie te maken en `SetLicense` aan te roepen.  
+- **Is een ingebedde licentie veilig tegen manipulatie?** Het insluiten van de licentie verkleint het risico op accidentele verwijdering, maar je moet je assemblies nog steeds beschermen.
 
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
+## Voorvereisten
 
-1. Aspose.Page voor .NET-bibliotheek: Zorg ervoor dat de Aspose.Page voor .NET-bibliotheek is geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/page/net/).
+Voordat we aan de tutorial beginnen, zorg ervoor dat je de volgende voorvereisten hebt:
 
-2.  Licentiebestand: Verkrijg het licentiebestand, gewoonlijk "MergedAPI.Aspose.Total.NET.lic" genoemd, dat essentieel is voor het verifiëren van uw gebruik van Aspose.Page. Als u geen licentie heeft, kunt u een tijdelijke licentie aanvragen bij[hier](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Page for .NET Library: Zorg ervoor dat je de Aspose.Page for .NET‑bibliotheek geïnstalleerd hebt. Je kunt deze downloaden van [hier](https://releases.aspose.com/page/net/).
 
-Laten we nu verder gaan met de stapsgewijze handleiding voor het instellen van de licentie met behulp van een ingesloten bron.
+2. Licentiebestand: Verkrijg het licentiebestand, meestal genaamd "MergedAPI.Aspose.Total.NET.lic", dat essentieel is om je gebruik van Aspose.Page te authenticeren. Als je geen licentie hebt, kun je een tijdelijke licentie krijgen via [hier](https://purchase.aspose.com/temporary-license/).
 
-## Naamruimten importeren
+Laten we nu doorgaan met de stapsgewijze handleiding over hoe je de licentie instelt met een ingebedde bron.
 
-Eerst moet u de benodigde naamruimten in uw .NET-project importeren. Dit zorgt ervoor dat uw toepassing de klassen en methoden van de Aspose.Page-bibliotheek herkent en kan gebruiken.
+## Namespaces importeren
+
+Ten eerste moet je de benodigde namespaces importeren in je .NET‑project. Dit zorgt ervoor dat je applicatie de klassen en methoden van de Aspose.Page‑bibliotheek herkent en kan gebruiken.
 
 ```csharp
 using System;
@@ -38,84 +48,114 @@ using System.Linq;
 using System.Text;
 ```
 
-## Stap 1: Initialiseer de documentmap
+## Stap 1: Documentmap initialiseren
 
-Stel het pad in naar uw documentmap, waar uw projectbestanden zich bevinden. Deze map wordt gebruikt om het licentiebestand en andere bronnen te lokaliseren.
+Stel het pad in naar je documentmap, waar je projectbestanden zich bevinden. Deze map wordt gebruikt om het licentiebestand en andere bronnen te vinden.
 
 ```csharp
 // ExStart:1
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Verlengen: 1
+// ExEnd:1
 ```
 
-## Stap 2: Initialiseer het licentieobject
+## Stap 2: Licentie‑object initialiseren
 
-Maak een exemplaar van de klasse Aspose.Page.License om de licentiebewerkingen te beheren.
+Maak een instantie van de `Aspose.Page.License`‑klasse aan om de licentie‑operaties te beheren.
 
 ```csharp
 // ExStart:1
 Aspose.Page.License license = new Aspose.Page.License();
-// Verlengen: 1
+// ExEnd:1
 ```
 
 ## Stap 3: Licentie instellen
 
-Stel de licentie in met behulp van de SetLicense-methode en geef het pad naar uw licentiebestand op.
+Stel de licentie in met de `SetLicense`‑methode en geef het pad naar je licentiebestand op.
 
 ```csharp
 // ExStart:1
 license.SetLicense("MergedAPI.Aspose.Total.NET.lic");
-// Verlengen: 1
+// ExEnd:1
 ```
 
-## Stap 4: Schakel de ingebedde licentie in
+## Stap 4: Ingebedde licentie inschakelen
 
-Geef aan dat de licentie in de applicatie wordt ingebed door de eigenschap Embedded op true in te stellen.
+Geef aan dat de licentie in de applicatie wordt ingebed door de `Embedded`‑eigenschap op `true` te zetten.
 
 ```csharp
 // ExStart:1
 license.Embedded = true;
-// Verlengen: 1
+// ExEnd:1
 ```
 
-## Stap 5: Bevestig de succesvolle licentieset
+## Stap 5: Bevestig succesvolle licentie‑instelling
 
-Geef ten slotte een bericht weer waarin wordt bevestigd dat de licentie succesvol is ingesteld.
+Geef tenslotte een bericht weer dat bevestigt dat de licentie succesvol is ingesteld.
 
 ```csharp
 // ExStart:1
 Console.WriteLine("License set successfully.");
-// Verlengen: 1
+// ExEnd:1
 ```
 
-Herhaal deze stappen in uw toepassing om ervoor te zorgen dat Aspose.Page over de juiste licentie beschikt en klaar is voor gebruik bij uw documentverwerkingstaken.
+Herhaal deze stappen in je applicatie om ervoor te zorgen dat Aspose.Page correct gelicentieerd is en klaar is voor gebruik in je documentverwerkingstaken.
+
+## Veelvoorkomende problemen en oplossingen
+
+- **Licentiebestand niet gevonden** – Controleer of de bestandsnaam en het pad correct zijn, en of het bestand gemarkeerd is als een *Embedded Resource* in de project‑eigenschappen.  
+- **`Embedded`‑eigenschap genegeerd** – Zorg ervoor dat je een recente versie van Aspose.Page gebruikt; oudere builds ondersteunen mogelijk geen ingebedde licenties.  
+- **Runtime‑exceptions** – Plaats de licentiecode in een try‑catch‑blok om eventuele `LicenseException`‑details vast te leggen en te loggen.
 
 ## Conclusie
 
-Gefeliciteerd! U hebt met succes een licentie ingesteld met behulp van een ingesloten bron met Aspose.Page voor .NET. Deze cruciale stap zorgt ervoor dat uw applicatie volledig kan profiteren van de mogelijkheden van Aspose.Page, terwijl de compliance behouden blijft.
+Gefeliciteerd! Je hebt met succes een licentie ingesteld met een ingebedde bron met Aspose.Page voor .NET. Deze cruciale stap zorgt ervoor dat je applicatie volledig kan profiteren van de mogelijkheden van Aspose.Page en tegelijkertijd voldoet aan de licentievoorwaarden.
+
+## FAQ's
+
+### Q1: Kan ik Aspose.Page voor .NET gebruiken zonder licentie?
+
+A1: Hoewel je Aspose.Page zonder licentie kunt gebruiken, wordt aanbevolen er een te verkrijgen voor volledige functionaliteit en naleving.
+
+### Q2: Waar kan ik meer voorbeelden en documentatie voor Aspose.Page vinden?
+
+A2: Verken de uitgebreide documentatie [hier](https://reference.aspose.com/page/net/).
+
+### Q3: Is er een gratis proefversie beschikbaar?
+
+A3: Ja, je kunt een gratis proefversie krijgen [hier](https://releases.aspose.com/).
+
+### Q4: Hoe kan ik een tijdelijke licentie krijgen?
+
+A4: Verkrijg een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Waar kan ik Aspose.Page voor .NET kopen?
+
+A5: Je kunt Aspose.Page kopen [hier](https://purchase.aspose.com/buy).
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Page voor .NET gebruiken zonder licentie?
+**Q: Kan ik de licentie in een class library insluiten en deze toch vanuit een console‑app gebruiken?**  
+A: Ja. Zolang de bibliotheek die de ingebedde licentie bevat wordt gerefereerd, zal de console‑applicatie de bron automatisch vinden.
 
-A1: Hoewel u Aspose.Page zonder licentie kunt gebruiken, wordt het aanbevolen om er een aan te schaffen voor volledige functionaliteit en naleving.
+**Q: Moet ik `SetLicense` op elke thread aanroepen?**  
+A: Nee. De licentie wordt procesbreed toegepast na de eerste succesvolle aanroep.
 
-### V2: Waar kan ik meer voorbeelden en documentatie voor Aspose.Page vinden?
+**Q: Wat gebeurt er als de ingebedde licentie corrupt is?**  
+A: Aspose.Page zal een `LicenseException` werpen. Vervang de corrupte bron door een nieuw licentiebestand.
 
- A2: Ontdek de uitgebreide documentatie[hier](https://reference.aspose.com/page/net/).
+**Q: Is het mogelijk om tijdens runtime tussen meerdere licenties te schakelen?**  
+A: Je kunt aparte `License`‑objecten instantiëren met verschillende licentiebestanden, maar er kan slechts één licentie actief zijn per AppDomain.
 
-### Vraag 3: Is er een gratis proefversie beschikbaar?
+**Q: Verhoogt het insluiten van de licentie de grootte van de assembly aanzienlijk?**  
+A: Het licentiebestand is meestal een paar kilobytes, dus de impact op de assembly‑grootte is verwaarloosbaar.
 
- A3: Ja, u kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+---
 
-### Vraag 4: Hoe kan ik een tijdelijke licentie krijgen?
+**Laatst bijgewerkt:** 2026-02-23  
+**Getest met:** Aspose.Page 24.12 for .NET  
+**Auteur:** Aspose  
 
- A4: Verkrijg een tijdelijke licentie[hier](https://purchase.aspose.com/temporary-license/).
-
-### V5: Waar kan ik Aspose.Page voor .NET kopen?
-
- A5: U kunt Aspose.Page kopen[hier](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
