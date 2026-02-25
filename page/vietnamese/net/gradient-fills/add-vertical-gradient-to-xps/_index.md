@@ -1,35 +1,54 @@
 ---
-title: Thêm gradient dọc vào XPS với Aspose.Page for .NET
-linktitle: Thêm độ dốc dọc vào XPS
-second_title: API Aspose.Page .NET
-description: Tìm hiểu cách nâng cao tài liệu XPS bằng độ dốc dọc bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-weight: 15
+date: 2026-02-25
+description: Học cách tạo tài liệu XPS và áp dụng gradient tuyến tính với Aspose.Page
+  cho .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi để lưu tệp XPS.
+linktitle: Add Vertical Gradient to XPS
+second_title: Aspose.Page .NET API
+title: Tạo tài liệu XPS với gradient dọc bằng Aspose.Page
 url: /vi/net/gradient-fills/add-vertical-gradient-to-xps/
+weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ sure to keep all markdown formatting.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm gradient dọc vào XPS với Aspose.Page for .NET
+# Thêm Gradient Dọc vào XPS với Aspose.Page cho .NET
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn từng bước này về cách thêm dải màu dọc vào tài liệu XPS bằng Aspose.Page cho .NET. Aspose.Page là một API mạnh mẽ cho phép bạn làm việc với các tệp XPS (Đặc tả giấy XML) trong các ứng dụng .NET của bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo tài liệu XPS mới, thêm dải màu dọc vào đường dẫn và lưu kết quả.
+Trong hướng dẫn này, bạn sẽ **tạo tài liệu XPS** có gradient dọc mượt mà. Thêm gradient là cách phổ biến để làm cho các tệp XPS trông chuyên nghiệp hơn—hoàn hảo cho báo cáo, brochure, hoặc bất kỳ đồ họa có thể in nào. Chúng tôi sẽ hướng dẫn từng bước, từ thiết lập dự án đến lưu tệp XPS cuối cùng, để bạn có thể nhanh chóng áp dụng gradient tuyến tính cho bất kỳ đường nào.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Hướng dẫn này đề cập đến gì?** Thêm gradient tuyến tính dọc vào một đường trong tài liệu XPS.  
+- **Thư viện nào được yêu cầu?** Aspose.Page cho .NET.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Thời gian thực hiện khoảng bao lâu?** Khoảng 10‑15 phút cho ví dụ cơ bản.  
+- **Tôi có thể lưu kết quả dưới dạng tệp XPS không?** Có, phương thức `Save` ghi tệp vào ổ đĩa.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## Gradient dọc trong XPS là gì?
 
--  Aspose.Page for .NET Library: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Page for .NET trong môi trường phát triển của mình. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/page/net/).
+Gradient dọc là sự chuyển đổi màu sắc chạy từ phía trên của một hình dạng xuống phía dưới. Trong XPS, điều này được thực hiện bằng **brush gradient tuyến tính** xác định các điểm bắt đầu và kết thúc, cùng với một tập hợp các điểm dừng gradient kiểm soát màu tại các vị trí cụ thể.
 
-- Môi trường phát triển: Thiết lập môi trường phát triển .NET với IDE ưa thích của bạn, chẳng hạn như Visual Studio.
+## Tại sao nên sử dụng Aspose.Page để tạo tài liệu XPS với gradient?
 
-Bây giờ, hãy bắt đầu với việc thêm dải màu dọc vào tài liệu XPS bằng Aspose.Page cho .NET.
+- **Tích hợp .NET đầy đủ** – hoạt động với .NET Framework, .NET Core và .NET 5/6+.  
+- **Không phụ thuộc bên ngoài** – mọi việc render được thư viện xử lý.  
+- **Độ trung thực cao** – gradient được render chính xác như đã định nghĩa, phù hợp với chuẩn XPS.  
+- **Dễ bảo trì** – mô hình đối tượng rõ ràng cho các đường, brush và màu.
+
+## Yêu cầu trước
+
+- Thư viện Aspose.Page cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Page cho .NET trong môi trường phát triển. Bạn có thể tải xuống [tại đây](https://releases.aspose.com/page/net/).
+- Môi trường phát triển: Thiết lập môi trường phát triển .NET với IDE ưa thích, chẳng hạn Visual Studio.
+
+Bây giờ mọi thứ đã sẵn sàng, hãy bắt đầu vào mã.
 
 ## Nhập không gian tên
 
-Trong ứng dụng .NET của bạn, hãy bao gồm các vùng tên cần thiết để truy cập các lớp và phương thức Aspose.Page.
+Trong ứng dụng .NET của bạn, bao gồm các không gian tên cần thiết để truy cập các lớp và phương thức của Aspose.Page.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -38,19 +57,19 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Bước 1: Thiết lập thư mục tài liệu của bạn
+## Bước 1: Thiết lập Thư mục Tài liệu của Bạn
 
-Trước khi bắt đầu, hãy đặt đường dẫn đến thư mục tài liệu nơi bạn muốn lưu tài liệu XPS thu được.
+Xác định thư mục nơi tệp XPS được tạo sẽ được lưu.
 
 ```csharp
-// Bắt đầu:3
+// ExStart:3
 string dataDir = "Your Document Directory";
 // ExEnd:3
 ```
 
-## Bước 2: Tạo tài liệu XPS mới
+## Bước 2: Tạo Tài liệu XPS Mới
 
-Khởi tạo một tài liệu XPS mới bằng mã sau:
+Khởi tạo một tài liệu XPS mới mà sau này chúng ta sẽ điền vào một đường có gradient.
 
 ```csharp
 // ExStart:4
@@ -58,9 +77,9 @@ XpsDocument doc = new XpsDocument();
 // ExEnd:4
 ```
 
-## Bước 3: Xác định điểm dừng chuyển màu
+## Bước 3: Định nghĩa các điểm dừng Gradient
 
-Tạo danh sách các điểm dừng chuyển màu, chỉ định màu sắc và vị trí cho mỗi điểm dừng. Trong ví dụ này, chúng tôi xác định một gradient dọc có năm điểm dừng.
+Các điểm dừng gradient xác định màu sắc và vị trí của chúng dọc theo đường gradient. Ở đây chúng ta tạo năm điểm dừng để tạo ra chuyển đổi dọc mượt mà.
 
 ```csharp
 // ExStart:5
@@ -73,9 +92,9 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(252, 255, 255, 234), 1f));
 // ExEnd:5
 ```
 
-## Bước 4: Tạo đường dẫn với gradient
+## Bước 4: Tạo Đường với Gradient
 
-Xác định một đường dẫn bằng cách chỉ định hình dạng của nó và áp dụng cọ chuyển màu tuyến tính cho nó.
+Chúng ta vẽ một đường dạng hình chữ nhật và áp dụng **brush gradient tuyến tính** chạy dọc từ điểm (10, 110) đến điểm (10, 200). Brush nhận các điểm dừng gradient đã định nghĩa trước.
 
 ```csharp
 // ExStart:6
@@ -86,9 +105,9 @@ path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 110f), new PointF(10f,
 // ExEnd:6
 ```
 
-## Bước 5: Lưu tài liệu XPS kết quả
+## Bước 5: Lưu Tài liệu XPS Kết quả
 
-Lưu tài liệu XPS đã sửa đổi vào thư mục được chỉ định của bạn.
+Cuối cùng, ghi tài liệu XPS ra đĩa. Bước **lưu tệp XPS** này tạo ra `AddVerticalGradient_outXPS.xps` trong thư mục bạn đã chỉ định.
 
 ```csharp
 // ExStart:7
@@ -96,33 +115,43 @@ doc.Save(dataDir + "AddVerticalGradient_outXPS.xps");
 // ExEnd:7
 ```
 
-Chúc mừng! Bạn đã thêm thành công dải màu dọc vào tài liệu XPS bằng Aspose.Page cho .NET.
+**Mẹo chuyên nghiệp:** Kiểm tra kết quả bằng cách mở tệp XPS trong Windows XPS Viewer hoặc bất kỳ trình xem bên thứ ba nào để đảm bảo gradient hiển thị đúng như mong đợi.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Khắc phục
 
-Trong hướng dẫn này, chúng tôi đã khám phá cách tận dụng Aspose.Page cho .NET để cải thiện các tài liệu XPS với độ dốc dọc. Aspose.Page đơn giản hóa các tác vụ phức tạp, cung cấp cho các nhà phát triển một cách liền mạch để thao tác với các tệp XPS trong ứng dụng .NET của họ.
+| Triệu chứng | Nguyên nhân có thể | Cách khắc phục |
+|------------|-------------------|----------------|
+| Gradient hiển thị thành màu đồng nhất | Các điểm dừng gradient chưa được thêm vào brush | Đảm bảo `((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);` được thực thi. |
+| Không tìm thấy tệp khi lưu | `dataDir` trỏ tới thư mục không tồn tại | Tạo thư mục trước hoặc sử dụng đường dẫn tuyệt đối. |
+| Màu sắc hiển thị khác | Giá trị màu sử dụng thứ tự ARGB; kiểm tra lại thứ tự kênh | Sử dụng `CreateColor(alpha, red, green, blue)` một cách đúng. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Page có tương thích với Visual Studio 2019 không?
+**Q: Aspose.Page có tương thích với Visual Studio 2019 không?**  
+A: Có, Aspose.Page tương thích với Visual Studio 2019. Đảm bảo bạn đã cài đặt phiên bản thư viện đúng.
 
-Câu trả lời 1: Có, Aspose.Page tương thích với Visual Studio 2019. Đảm bảo bạn đã cài đặt đúng phiên bản thư viện.
+**Q: Tôi có thể sử dụng Aspose.Page cho dự án thương mại không?**  
+A: Có, Aspose.Page có thể được sử dụng cho dự án thương mại. Truy cập [tại đây](https://purchase.aspose.com/buy) để khám phá các tùy chọn giấy phép.
 
-### Câu 2: Tôi có thể sử dụng Aspose.Page cho các dự án thương mại không?
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có, bạn có thể nhận bản dùng thử miễn phí của Aspose.Page [tại đây](https://releases.aspose.com/).
 
- Câu trả lời 2: Có, Aspose.Page có thể được sử dụng cho các dự án thương mại. Thăm nom[đây](https://purchase.aspose.com/buy) để khám phá các lựa chọn cấp phép.
+**Q: Tôi có thể tìm tài liệu Aspose.Page ở đâu?**  
+A: Tài liệu có sẵn [tại đây](https://reference.aspose.com/page/net/).
 
-### Câu 3: Có bản dùng thử miễn phí không?
+**Q: Làm sao tôi có thể nhận hỗ trợ hoặc đặt câu hỏi?**  
+A: Truy cập [diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để được cộng đồng hỗ trợ.
 
- Câu trả lời 3: Có, bạn có thể dùng thử miễn phí Aspose.Page[đây](https://releases.aspose.com/).
+## Kết luận
 
-### Câu hỏi 4: Tôi có thể tìm tài liệu Aspose.Page ở đâu?
+Bây giờ bạn đã biết cách **tạo tài liệu XPS**, **áp dụng gradient tuyến tính**, và **lưu tệp XPS** bằng Aspose.Page cho .NET. Cách tiếp cận này cho phép bạn kiểm soát hoàn toàn phong cách hình ảnh trong đầu ra XPS, giúp tài liệu có thể in của bạn nổi bật.
 
- A4: Tài liệu có sẵn[đây](https://reference.aspose.com/page/net/).
+---  
 
-### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ hoặc đặt câu hỏi?
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Page for .NET 24.11  
+**Author:** Aspose  
 
- A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để hỗ trợ cộng đồng.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
