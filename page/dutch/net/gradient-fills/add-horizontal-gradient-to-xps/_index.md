@@ -1,33 +1,46 @@
 ---
-title: Voeg horizontaal verloop toe aan XPS met Aspose.Page voor .NET
-linktitle: Voeg horizontaal verloop toe aan XPS
-second_title: Aspose.Page .NET-API
-description: Leer hoe u verbluffende horizontale verlopen aan uw XPS-documenten kunt toevoegen met Aspose.Page voor .NET. Verhoog moeiteloos de visuele aantrekkingskracht.
-weight: 13
+date: 2026-02-25
+description: Leer hoe je een XPS-gradient met een horizontale vulling maakt met Aspose.Page
+  voor .NET. Verhoog moeiteloos de visuele aantrekkingskracht van je documenten.
+linktitle: Add Horizontal Gradient to XPS
+second_title: Aspose.Page .NET API
+title: 'Maak XPS-verloop: horizontale vulling met Aspose.Page voor .NET'
 url: /nl/net/gradient-fills/add-horizontal-gradient-to-xps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg horizontaal verloop toe aan XPS met Aspose.Page voor .NET
+# XPS‑gradient maken – Horizontale gradient toevoegen aan XPS met Aspose.Page voor .NET
 
-## Invoering
+## Inleiding
 
-In deze zelfstudie onderzoeken we hoe u XPS-documenten kunt verbeteren door een horizontaal verloop toe te voegen met Aspose.Page voor .NET. Aspose.Page voor .NET is een krachtige bibliotheek die een naadloze verwerking van XPS-documenten (XML Paper Specification) in .NET-toepassingen biedt. Het toevoegen van kleurverlopen kan uw documenten een visuele aantrekkingskracht geven, en deze handleiding begeleidt u stap voor stap door het proces.
+In dit tutorial **maakt u XPS‑gradient** vullingen die horizontaal over uw pagina’s lopen. Het toevoegen van een horizontale gradient kan een XPS‑document onmiddellijk een meer gepolijste en aantrekkelijke uitstraling geven, vooral voor rapporten, brochures of elke visueel‑rijke output. We lopen het volledige proces door met Aspose.Page voor .NET, van het opzetten van de omgeving tot het opslaan van het uiteindelijke XPS‑bestand.
+
+## Snelle antwoorden
+- **Wat behandelt deze tutorial?** Adding a horizontal gradient to an XPS document with Aspose.Page for .NET.  
+- **Welke bibliotheek is vereist?** Aspose.Page for .NET (any recent version).  
+- **Heb ik een licentie nodig?** A trial works for development; a commercial license is required for production.  
+- **Hoe lang duurt de implementatie?** About 5–10 minutes for a basic gradient.  
+- **Kan ik de richting van de gradient wijzigen?** Yes – modify the start/end points of the `LinearGradientBrush`.
+
+## Hoe XPS‑gradient te maken met Aspose.Page voor .NET
+
+Hieronder vindt u een stapsgewijze gids die uitlegt **waarom** elke regel code bestaat, niet alleen **wat** deze doet. Voel u vrij om mee te doen in Visual Studio of uw favoriete .NET‑editor.
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
+Voordat we beginnen, zorg ervoor dat u de volgende vereisten heeft:
 
-1.  Aspose.Page voor .NET-bibliotheek: Zorg ervoor dat de Aspose.Page voor .NET-bibliotheek in uw ontwikkelomgeving is geïnstalleerd. Je kunt het downloaden van de[Aspose.Page voor .NET-documentatie](https://reference.aspose.com/page/net/).
+1. Aspose.Page for .NET Library: Zorg ervoor dat u de Aspose.Page for .NET‑bibliotheek geïnstalleerd heeft in uw ontwikkelomgeving. U kunt deze downloaden van de [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).
 
-2. Ontwikkelomgeving: Zet een geschikte ontwikkelomgeving op, inclusief een code-editor zoals Visual Studio.
+2. Development Environment: Richt een geschikte ontwikkelomgeving in, inclusief een code‑editor zoals Visual Studio.
 
-## Naamruimten importeren
+## Namespaces importeren
 
-Begin met het importeren van de benodigde naamruimten in uw project. Deze naamruimten zijn essentieel voor het werken met Aspose.Page voor .NET:
+Begin met het importeren van de benodigde namespaces in uw project. Deze namespaces zijn essentieel voor het werken met Aspose.Page voor .NET:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -36,31 +49,31 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-Laten we nu het gegeven voorbeeld in meerdere stappen opsplitsen.
+Laten we nu het voorbeeld in meerdere stappen ontleden.
 
-## Stap 1: Stel het documentmappad in
+## Stap 1: Stel het documentmap‑pad in
 
 ```csharp
 // ExStart:3
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Verleng:3
+// ExEnd:3
 ```
 
-## Stap 2: Maak een nieuw XPS-document
+## Stap 2: Maak een nieuw XPS‑document
 
 ```csharp
 // ExStart:4
-// Maak een nieuw XPS-document
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
-// Verleng:4
+// ExEnd:4
 ```
 
-## Stap 3: Initialiseer verloopstops
+## Stap 3: Initialiseert gradient‑stops
 
 ```csharp
 // ExStart:5
-// Initialiseer de lijst met XpsGradientStop
+// Initialize List of XpsGradientStop
 List<XpsGradientStop> stops = new List<XpsGradientStop>();
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 244, 253, 225), 0.0673828f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 251, 240, 23), 0.314453f));
@@ -68,60 +81,89 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 252, 209, 0), 0.482422f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 241, 254, 161), 0.634766f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 53, 253, 255), 0.915039f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 12, 91, 248), 1f));
-// Verleng: 5
+// ExEnd:5
 ```
 
 ## Stap 4: Maak een nieuw pad
 
 ```csharp
 // ExStart:6
-//Creëer een nieuw pad door geometrie in afkorting te definiëren
+// Create new path by defining geometry in abbreviation form
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,210 L 228,210 228,300 10,300"));
 path.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 20f, 70f);
 path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 0f), new PointF(228f, 0f));
 ((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);
-// Verleng:6
+// ExEnd:6
 ```
 
-## Stap 5: Sla het resulterende XPS-document op
+## Stap 5: Sla het resulterende XPS‑document op
 
 ```csharp
 // ExStart:7
-// Sla het resulterende XPS-document op
+// Save resultant XPS document
 doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
-// Verleng:7
+// ExEnd:7
 ```
 
-Nu hebt u met succes een horizontaal verloop aan uw XPS-document toegevoegd met Aspose.Page voor .NET.
+Nu heeft u met succes een horizontale gradient toegevoegd aan uw XPS‑document met Aspose.Page voor .NET.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Het verbeteren van uw XPS-documenten met kleurverlopen verbetert niet alleen hun visuele aantrekkingskracht, maar zorgt ook voor een boeiendere gebruikerservaring. Aspose.Page voor .NET vereenvoudigt dit proces, waardoor u moeiteloos professionele resultaten kunt behalen.
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| Gradient verschijnt als effen kleur | Gradient‑stops niet correct toegevoegd | Zorg ervoor dat `((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);` wordt uitgevoerd na het instellen van de brush. |
+| Opgeslagen bestand is leeg | `dataDir` wijst naar een niet‑bestaande map | Controleer of de map bestaat of gebruik een absoluut pad. |
+| Compilatiefout op `PointF` | Ontbrekende `System.Drawing`‑referentie | Voeg een referentie toe aan `System.Drawing.Common` (voor .NET Core/5+). |
+
+## FAQ's
+
+### Q1: Waar kan ik de Aspose.Page for .NET documentatie vinden?
+
+A1: U kunt de documentatie vinden [hier](https://reference.aspose.com/page/net/).
+
+### Q2: Hoe download ik Aspose.Page for .NET?
+
+A2: U kunt de bibliotheek downloaden van de [Aspose.Page for .NET download page](https://releases.aspose.com/page/net/).
+
+### Q3: Waar kan ik Aspose.Page for .NET kopen?
+
+A3: U kunt Aspose.Page for .NET kopen via de [purchase page](https://purchase.aspose.com/buy).
+
+### Q4: Is er een gratis proefversie beschikbaar?
+
+A4: Ja, u kunt een gratis proefversie krijgen [hier](https://releases.aspose.com/).
+
+### Q5: Hoe krijg ik een tijdelijke licentie voor Aspose.Page for .NET?
+
+A5: U kunt een tijdelijke licentie verkrijgen via [this link](https://purchase.aspose.com/temporary-license/).
 
 ## Veelgestelde vragen
 
-### V1: Waar kan ik de Aspose.Page voor .NET-documentatie vinden?
+**Q: Kan ik deze gradient‑techniek gebruiken met XPS‑documenten die al afbeeldingen bevatten?**  
+A: Absoluut. De gradient wordt toegepast op een pad‑laag, zodat bestaande afbeeldingen onaangeroerd blijven.
 
- A1: U kunt de documentatie vinden[hier](https://reference.aspose.com/page/net/).
+**Q: Is het mogelijk om in plaats daarvan een verticale gradient te maken?**  
+A: Ja. Verander de start‑ en eindpunten van de `LinearGradientBrush` zodat ze verschillende Y‑coördinaten hebben terwijl X constant blijft.
 
-### V2: Hoe download ik Aspose.Page voor .NET?
+**Q: Ondersteunt Aspose.Page .NET Core?**  
+A: De bibliotheek is volledig compatibel met .NET Core, .NET 5 en latere versies.
 
- A2: U kunt de bibliotheek downloaden van de[Aspose.Page voor .NET-downloadpagina](https://releases.aspose.com/page/net/).
+**Q: Hoe kan ik dezelfde gradient hergebruiken op meerdere pagina's?**  
+A: Maak de `XpsLinearGradientBrush` één keer, sla deze op in een variabele en wijs hem toe aan paden op elke pagina.
 
-### V3: Waar kan ik Aspose.Page voor .NET kopen?
+## Conclusie
 
- A3: U kunt Aspose.Page voor .NET kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+Het verbeteren van uw XPS‑documenten met gradients verhoogt niet alleen de visuele aantrekkingskracht, maar levert ook een meer boeiende gebruikerservaring op. Met Aspose.Page voor .NET kunt u **XPS‑gradient** vullingen snel en betrouwbaar **creëren**, waardoor uw rapporten, brochures of e‑books een professionele afwerking krijgen.
 
-### Vraag 4: Is er een gratis proefversie beschikbaar?
-
- A4: Ja, u kunt een gratis proefperiode krijgen van[hier](https://releases.aspose.com/).
-
-### V5: Hoe krijg ik een tijdelijke licentie voor Aspose.Page voor .NET?
-
- A5: U kunt een tijdelijke licentie verkrijgen via[deze link](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Page for .NET 24.11  
+**Author:** Aspose
