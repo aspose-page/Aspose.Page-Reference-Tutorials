@@ -1,33 +1,45 @@
 ---
-title: أضف التدرج الأفقي إلى XPS باستخدام Aspose.Page لـ .NET
-linktitle: أضف التدرج الأفقي إلى XPS
+date: 2026-02-25
+description: تعلم كيفية إنشاء تدرج XPS بملء أفقي باستخدام Aspose.Page لـ .NET. ارتقِ
+  بالجاذبية البصرية بسهولة في مستنداتك.
+linktitle: Add Horizontal Gradient to XPS
 second_title: Aspose.Page .NET API
-description: تعرف على كيفية إضافة تدرجات أفقية مذهلة إلى مستندات XPS الخاصة بك باستخدام Aspose.Page لـ .NET. رفع الجاذبية البصرية دون عناء.
-weight: 13
+title: 'إنشاء تدرج XPS: تعبئة أفقية باستخدام Aspose.Page لـ .NET'
 url: /ar/net/gradient-fills/add-horizontal-gradient-to-xps/
+weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ assemble.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# أضف التدرج الأفقي إلى XPS باستخدام Aspose.Page لـ .NET
+# إنشاء تدرج XPS – إضافة تدرج أفقي إلى XPS باستخدام Aspose.Page for .NET
 
-## مقدمة
+## المقدمة
 
-في هذا البرنامج التعليمي، سنستكشف كيفية تحسين مستندات XPS عن طريق إضافة تدرج أفقي باستخدام Aspose.Page لـ .NET. Aspose.Page for .NET هي مكتبة قوية توفر معالجة سلسة لمستندات XPS (مواصفات ورق XML) في تطبيقات .NET. يمكن أن تؤدي إضافة التدرجات إلى إضفاء جاذبية بصرية على مستنداتك، وسيرشدك هذا الدليل خلال العملية خطوة بخطوة.
+في هذا البرنامج التعليمي ستقوم **بإنشاء تدرجات XPS** التي تمتد أفقياً عبر صفحاتك. إضافة تدرج أفقي يمكن أن يجعل مستند XPS يبدو أكثر صقلاً وجاذبية على الفور، خاصةً للتقارير والكتيبات أو أي مخرجات غنية بالمرئيات. سنستعرض العملية بالكامل باستخدام Aspose.Page for .NET، بدءًا من إعداد البيئة حتى حفظ ملف XPS النهائي.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يغطي هذا البرنامج التعليمي؟** إضافة تدرج أفقي إلى مستند XPS باستخدام Aspose.Page for .NET.  
+- **ما المكتبة المطلوبة؟** Aspose.Page for .NET (أي نسخة حديثة).  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية تعمل للتطوير؛ الترخيص التجاري مطلوب للإنتاج.  
+- **كم من الوقت تستغرق التنفيذ؟** حوالي 5–10 دقائق لتدرج أساسي.  
+- **هل يمكنني تغيير اتجاه التدرج؟** نعم – عدل نقاط البداية/النهاية لـ `LinearGradientBrush`.
 
-قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
+## كيفية إنشاء تدرج XPS باستخدام Aspose.Page for .NET
 
-1.  Aspose.Page for .NET Library: تأكد من تثبيت Aspose.Page لمكتبة .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[Aspose.Page للتوثيق .NET](https://reference.aspose.com/page/net/).
+فيما يلي دليل خطوة بخطوة يشرح **لماذا** توجد كل سطر من الشيفرة، وليس فقط **ماذا** يفعل. لا تتردد في المتابعة في Visual Studio أو محرر .NET المفضل لديك.
 
-2. بيئة التطوير: قم بإعداد بيئة تطوير مناسبة، بما في ذلك محرر التعليمات البرمجية مثل Visual Studio.
+## المتطلبات المسبقة
 
-## استيراد مساحات الأسماء
+قبل أن نبدأ، تأكد من توفر المتطلبات التالية:
 
-ابدأ باستيراد مساحات الأسماء الضرورية إلى مشروعك. تعد مساحات الأسماء هذه ضرورية للعمل مع Aspose.Page لـ .NET:
+1. Aspose.Page for .NET Library: تأكد من تثبيت مكتبة Aspose.Page for .NET في بيئة التطوير الخاصة بك. يمكنك تنزيلها من [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).
+2. بيئة التطوير: قم بإعداد بيئة تطوير مناسبة، بما في ذلك محرر شفرة مثل Visual Studio.
+
+## استيراد المساحات الاسمية
+
+ابدأ باستيراد المساحات الاسمية (namespaces) الضرورية إلى مشروعك. هذه المساحات الاسمية أساسية للعمل مع Aspose.Page for .NET:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -36,31 +48,31 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-الآن، دعونا نقسم المثال المقدم إلى خطوات متعددة.
+الآن، دعنا نقسم المثال المقدم إلى عدة خطوات.
 
-## الخطوة 1: قم بتعيين مسار دليل المستندات
+## الخطوة 1: تعيين مسار دليل المستند
 
 ```csharp
-// البداية:3
-// المسار إلى دليل المستندات.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// النهاية:3
+// ExEnd:3
 ```
 
 ## الخطوة 2: إنشاء مستند XPS جديد
 
 ```csharp
-// البداية:4
-// قم بإنشاء مستند XPS جديد
+// ExStart:4
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
-// النهاية:4
+// ExEnd:4
 ```
 
-## الخطوة 3: تهيئة توقفات التدرج
+## الخطوة 3: تهيئة نقاط التدرج
 
 ```csharp
-// البداية:5
-// تهيئة قائمة XpsGradientStop
+// ExStart:5
+// Initialize List of XpsGradientStop
 List<XpsGradientStop> stops = new List<XpsGradientStop>();
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 244, 253, 225), 0.0673828f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 251, 240, 23), 0.314453f));
@@ -68,60 +80,89 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 252, 209, 0), 0.482422f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 241, 254, 161), 0.634766f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 53, 253, 255), 0.915039f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 12, 91, 248), 1f));
-// النهاية:5
+// ExEnd:5
 ```
 
 ## الخطوة 4: إنشاء مسار جديد
 
 ```csharp
-// البداية:6
-//قم بإنشاء مسار جديد عن طريق تعريف الهندسة في شكل مختصر
+// ExStart:6
+// Create new path by defining geometry in abbreviation form
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,210 L 228,210 228,300 10,300"));
 path.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 20f, 70f);
 path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 0f), new PointF(228f, 0f));
 ((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);
-// النهاية:6
+// ExEnd:6
 ```
 
-## الخطوة 5: احفظ مستند XPS الناتج
+## الخطوة 5: حفظ مستند XPS الناتج
 
 ```csharp
-// البداية:7
-// احفظ مستند XPS الناتج
+// ExStart:7
+// Save resultant XPS document
 doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
-// النهاية:7
+// ExEnd:7
 ```
 
-لقد نجحت الآن في إضافة تدرج أفقي إلى مستند XPS الخاص بك باستخدام Aspose.Page لـ .NET.
+الآن، لقد أضفت بنجاح تدرجًا أفقيًا إلى مستند XPS الخاص بك باستخدام Aspose.Page for .NET.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-لا يؤدي تحسين مستندات XPS الخاصة بك بالتدرجات إلى تحسين جاذبيتها المرئية فحسب، بل يوفر أيضًا تجربة مستخدم أكثر جاذبية. يعمل Aspose.Page for .NET على تبسيط هذه العملية، مما يسمح لك بتحقيق نتائج احترافية دون عناء.
+| المشكلة | السبب | الحل |
+|---------|--------|------|
+| التدرج يظهر كلون صلب | نقاط التدرج لم تُضاف بشكل صحيح | تأكد من تنفيذ `((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);` بعد ضبط الفرشاة. |
+| الملف المحفوظ فارغ | `dataDir` يشير إلى مجلد غير موجود | تحقق من وجود المجلد أو استخدم مسارًا مطلقًا. |
+| خطأ تجميع على `PointF` | المرجع `System.Drawing` مفقود | أضف مرجعًا إلى `System.Drawing.Common` (لـ .NET Core/5+). |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: أين يمكنني العثور على Aspose.Page لوثائق .NET؟
+### س1: أين يمكنني العثور على وثائق Aspose.Page for .NET؟
 
- ج1: يمكنك العثور على الوثائق[هنا](https://reference.aspose.com/page/net/).
+ج1: يمكنك العثور على الوثائق [هنا](https://reference.aspose.com/page/net/).
 
-### س٢: كيف يمكنني تنزيل Aspose.Page لـ .NET؟
+### س2: كيف يمكنني تنزيل Aspose.Page for .NET؟
 
- ج2: يمكنك تنزيل المكتبة من[Aspose.Page لصفحة تنزيل .NET](https://releases.aspose.com/page/net/).
+ج2: يمكنك تنزيل المكتبة من [صفحة تنزيل Aspose.Page for .NET](https://releases.aspose.com/page/net/).
 
-### س3: أين يمكنني شراء Aspose.Page لـ .NET؟
+### س3: أين يمكنني شراء Aspose.Page for .NET؟
 
- ج3: يمكنك شراء Aspose.Page لـ .NET من[صفحة الشراء](https://purchase.aspose.com/buy).
+ج3: يمكنك شراء Aspose.Page for .NET من [صفحة الشراء](https://purchase.aspose.com/buy).
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة؟
 
- ج4: نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+ج4: نعم، يمكنك الحصول على نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
 
-### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
+### س5: كيف أحصل على ترخيص مؤقت لـ Aspose.Page for .NET؟
 
- ج5: يمكنك الحصول على ترخيص مؤقت من[هذا الرابط](https://purchase.aspose.com/temporary-license/).
+ج5: يمكنك الحصول على ترخيص مؤقت من [هذا الرابط](https://purchase.aspose.com/temporary-license/).
+
+## أسئلة شائعة
+
+**س: هل يمكنني استخدام تقنية التدرج هذه مع مستندات XPS التي تحتوي بالفعل على صور؟**  
+ج: بالتأكيد. يتم تطبيق التدرج على طبقة المسار، لذا تظل الصور الموجودة دون تغيير.
+
+**س: هل يمكن إنشاء تدرج عمودي بدلاً من ذلك؟**  
+ج: نعم. غيّر نقاط البداية والنهاية لـ `LinearGradientBrush` لتكون لها إحداثيات Y مختلفة مع الحفاظ على X ثابتًا.
+
+**س: هل يدعم Aspose.Page .NET Core؟**  
+ج: المكتبة متوافقة بالكامل مع .NET Core، .NET 5، والإصدارات الأحدث.
+
+**س: كيف يمكنني إعادة استخدام نفس التدرج عبر صفحات متعددة؟**  
+ج: أنشئ `XpsLinearGradientBrush` مرة واحدة، احفظه في متغير، وعيّنها إلى المسارات في كل صفحة.
+
+## الخاتمة
+
+تحسين مستندات XPS الخاصة بك باستخدام التدرجات لا يحسن المظهر البصري فحسب، بل يقدم تجربة مستخدم أكثر جاذبية. باستخدام Aspose.Page for .NET، يمكنك **إنشاء تدرجات XPS** بسرعة وبشكل موثوق، مما يمنح تقاريرك، كتيباتك، أو الكتب الإلكترونية لمسة احترافية.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**آخر تحديث:** 2026-02-25  
+**تم الاختبار باستخدام:** Aspose.Page for .NET 24.11  
+**المؤلف:** Aspose

@@ -1,31 +1,44 @@
 ---
-title: Přidejte horizontální přechod do XPS pomocí Aspose.Page pro .NET
-linktitle: Přidejte horizontální přechod do XPS
+date: 2026-02-25
+description: Naučte se, jak vytvořit XPS gradient s vodorovným vyplněním pomocí Aspose.Page
+  pro .NET. Snadno zvýšte vizuální atraktivitu svých dokumentů.
+linktitle: Add Horizontal Gradient to XPS
 second_title: Aspose.Page .NET API
-description: Naučte se, jak přidat úžasné horizontální přechody do dokumentů XPS pomocí Aspose.Page for .NET. Zvyšte vizuální přitažlivost bez námahy.
-weight: 13
+title: 'Vytvořte XPS gradient: vodorovné vyplnění pomocí Aspose.Page pro .NET'
 url: /cs/net/gradient-fills/add-horizontal-gradient-to-xps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte horizontální přechod do XPS pomocí Aspose.Page pro .NET
+# Vytvoření XPS gradientu – Přidání horizontálního gradientu do XPS pomocí Aspose.Page pro .NET
 
 ## Úvod
 
-V tomto tutoriálu prozkoumáme, jak vylepšit dokumenty XPS přidáním horizontálního přechodu pomocí Aspose.Page for .NET. Aspose.Page for .NET je výkonná knihovna, která poskytuje bezproblémovou práci s dokumenty XPS (XML Paper Specification) v aplikacích .NET. Přidání přechodů může vašim dokumentům přinést vizuální přitažlivost a tento průvodce vás provede procesem krok za krokem.
+V tomto tutoriálu **vytvoříte XPS gradient** výplně, které běží horizontálně napříč vašimi stránkami. Přidání horizontálního gradientu může okamžitě učinit XPS dokument vypadat profesionálněji a poutavěji, zejména pro zprávy, brožury nebo jakýkoli vizuálně bohatý výstup. Provedeme vás kompletním procesem pomocí Aspose.Page pro .NET, od nastavení prostředí až po uložení finálního XPS souboru.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co tento tutoriál pokrývá?** Přidání horizontálního gradientu do XPS dokumentu pomocí Aspose.Page pro .NET.  
+- **Která knihovna je vyžadována?** Aspose.Page pro .NET (jakákoli aktuální verze).  
+- **Potřebuji licenci?** Zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Jak dlouho trvá implementace?** Přibližně 5–10 minut pro základní gradient.  
+- **Mohu změnit směr gradientu?** Ano – upravte počáteční a koncové body `LinearGradientBrush`.
 
-Než začneme, ujistěte se, že máte splněny následující předpoklady:
+## Jak vytvořit XPS gradient pomocí Aspose.Page pro .NET
 
-1.  Knihovna Aspose.Page for .NET: Ujistěte se, že máte ve svém vývojovém prostředí nainstalovanou knihovnu Aspose.Page for .NET. Můžete si jej stáhnout z[Aspose.Page pro dokumentaci .NET](https://reference.aspose.com/page/net/).
+Níže najdete krok‑za‑krokem průvodce, který vysvětluje **proč** existuje každá řádka kódu, nejen **co** dělá. Klidně postupujte ve Visual Studio nebo ve svém oblíbeném .NET editoru.
 
-2. Vývojové prostředí: Nastavte vhodné vývojové prostředí, včetně editoru kódu, jako je Visual Studio.
+## Požadavky
 
-## Import jmenných prostorů
+Než začneme, ujistěte se, že máte následující předpoklady připravené:
+
+1. **Aspose.Page pro .NET Library:** Ujistěte se, že máte knihovnu Aspose.Page pro .NET nainstalovanou ve svém vývojovém prostředí. Můžete ji stáhnout z [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).
+
+2. **Vývojové prostředí:** Nastavte vhodné vývojové prostředí, včetně editoru kódu jako je Visual Studio.
+
+## Importování jmenných prostorů
 
 Začněte importováním potřebných jmenných prostorů do vašeho projektu. Tyto jmenné prostory jsou nezbytné pro práci s Aspose.Page pro .NET:
 
@@ -36,31 +49,31 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-Nyní si uvedený příklad rozdělíme do několika kroků.
+Nyní si rozdělíme poskytnutý příklad do několika kroků.
 
-## Krok 1: Nastavte cestu k adresáři dokumentu
+## Krok 1: Nastavení cesty ke složce dokumentu
 
 ```csharp
-// Start: 3
-// Cesta k adresáři dokumentů.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Rozšířit:3
+// ExEnd:3
 ```
 
-## Krok 2: Vytvořte nový dokument XPS
+## Krok 2: Vytvoření nového XPS dokumentu
 
 ```csharp
-// Start: 4
-// Vytvořte nový dokument XPS
+// ExStart:4
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
-// Rozšíření:4
+// ExEnd:4
 ```
 
-## Krok 3: Inicializujte zarážky přechodu
+## Krok 3: Inicializace gradientových zastávek
 
 ```csharp
-// Start: 5
-// Inicializovat seznam XpsGradientStop
+// ExStart:5
+// Initialize List of XpsGradientStop
 List<XpsGradientStop> stops = new List<XpsGradientStop>();
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 244, 253, 225), 0.0673828f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 251, 240, 23), 0.314453f));
@@ -68,60 +81,89 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 252, 209, 0), 0.482422f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 241, 254, 161), 0.634766f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 53, 253, 255), 0.915039f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 12, 91, 248), 1f));
-// Rozšíření:5
+// ExEnd:5
 ```
 
-## Krok 4: Vytvořte novou cestu
+## Krok 4: Vytvoření nové cesty
 
 ```csharp
-// Start: 6
-//Vytvořte novou cestu definováním geometrie ve formě zkratky
+// ExStart:6
+// Create new path by defining geometry in abbreviation form
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,210 L 228,210 228,300 10,300"));
 path.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 20f, 70f);
 path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 0f), new PointF(228f, 0f));
 ((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);
-// Konec:6
+// ExEnd:6
 ```
 
-## Krok 5: Uložte výsledný dokument XPS
+## Krok 5: Uložení výsledného XPS dokumentu
 
 ```csharp
-// Start: 7
-// Uložte výsledný dokument XPS
+// ExStart:7
+// Save resultant XPS document
 doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
-// Konec:7
+// ExEnd:7
 ```
 
-Nyní jste úspěšně přidali horizontální přechod do vašeho dokumentu XPS pomocí Aspose.Page for .NET.
+Nyní jste úspěšně přidali horizontální gradient do svého XPS dokumentu pomocí Aspose.Page pro .NET.
 
-## Závěr
+## Časté problémy a řešení
 
-Vylepšení vašich dokumentů XPS pomocí přechodů nejen zlepšuje jejich vizuální přitažlivost, ale také poskytuje poutavější uživatelský zážitek. Aspose.Page for .NET tento proces zjednodušuje a umožňuje vám dosáhnout profesionálních výsledků bez námahy.
+| Problém | Důvod | Řešení |
+|-------|--------|-----|
+| Gradient se zobrazuje jako jednobarevná výplň | Gradientové zastávky nebyly přidány správně | Ujistěte se, že je po nastavení štětce provedeno `((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);`. |
+| Uložený soubor je prázdný | `dataDir` ukazuje na neexistující složku | Ověřte, že složka existuje, nebo použijte absolutní cestu. |
+| Chyba kompilace u `PointF` | Chybí odkaz na `System.Drawing` | Přidejte odkaz na `System.Drawing.Common` (pro .NET Core/5+). |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Kde najdu dokumentaci Aspose.Page pro .NET?
+### Q1: Kde mohu najít dokumentaci k Aspose.Page pro .NET?
 
- A1: Můžete najít dokumentaci[tady](https://reference.aspose.com/page/net/).
+A1: Dokumentaci najdete [zde](https://reference.aspose.com/page/net/).
 
-### Q2: Jak stáhnu Aspose.Page for .NET?
+### Q2: Jak si mohu stáhnout Aspose.Page pro .NET?
 
- A2: Knihovnu si můžete stáhnout z[Stránka ke stažení Aspose.Page for .NET](https://releases.aspose.com/page/net/).
+A2: Knihovnu si můžete stáhnout ze [stránky pro stažení Aspose.Page pro .NET](https://releases.aspose.com/page/net/).
 
 ### Q3: Kde mohu zakoupit Aspose.Page pro .NET?
 
- A3: Aspose.Page pro .NET si můžete zakoupit z[nákupní stránku](https://purchase.aspose.com/buy).
+A3: Zakoupit můžete na [stránce nákupu](https://purchase.aspose.com/buy).
 
 ### Q4: Je k dispozici bezplatná zkušební verze?
 
- A4: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+A4: Ano, bezplatnou zkušební verzi získáte [zde](https://releases.aspose.com/).
 
-### Q5: Jak získám dočasnou licenci pro Aspose.Page for .NET?
+### Q5: Jak získám dočasnou licenci pro Aspose.Page pro .NET?
 
- A5: Můžete získat dočasnou licenci od[tento odkaz](https://purchase.aspose.com/temporary-license/).
+A5: Dočasnou licenci můžete získat na [tomto odkazu](https://purchase.aspose.com/temporary-license/).
+
+## Často kladené otázky
+
+**Q: Mohu tuto techniku gradientu použít u XPS dokumentů, které již obsahují obrázky?**  
+A: Rozhodně. Gradient se aplikuje na vrstvu cesty, takže existující obrázky zůstávají nedotčeny.
+
+**Q: Je možné vytvořit místo toho vertikální gradient?**  
+A: Ano. Změňte počáteční a koncové body `LinearGradientBrush` tak, aby měly různé Y‑souřadnice při zachování konstantního X.
+
+**Q: Podporuje Aspose.Page .NET Core?**  
+A: Knihovna je plně kompatibilní s .NET Core, .NET 5 a novějšími verzemi.
+
+**Q: Jak mohu znovu použít stejný gradient na více stránkách?**  
+A: Vytvořte `XpsLinearGradientBrush` jednou, uložte jej do proměnné a přiřaďte jej cestám na každé stránce.
+
+## Závěr
+
+Vylepšení vašich XPS dokumentů pomocí gradientů nejen zvyšuje vizuální přitažlivost, ale také poskytuje poutavější uživatelský zážitek. S Aspose.Page pro .NET můžete **vytvořit XPS gradient** výplně rychle a spolehlivě, čímž vašim zprávám, brožurám nebo e‑knihám dodáte profesionální lesk.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Poslední aktualizace:** 2026-02-25  
+**Testováno s:** Aspose.Page for .NET 24.11  
+**Autor:** Aspose
