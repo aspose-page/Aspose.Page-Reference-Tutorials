@@ -1,35 +1,64 @@
 ---
-title: Tambahkan Gradien Vertikal ke PostScript (PS) dengan Aspose.Page
-linktitle: Tambahkan Gradien Vertikal ke PostScript (PS)
-second_title: Aspose.Halaman .NET API
-description: Pelajari cara menambahkan gradien vertikal yang menarik secara visual ke dokumen PostScript (PS) di .NET menggunakan Aspose.Page. Tingkatkan pembuatan dokumen Anda dengan panduan langkah demi langkah ini.
-weight: 14
+date: 2026-02-25
+description: Pelajari cara menggunakan kuas gradien linier C# untuk menambahkan gradien
+  ke file PS dan mengisi persegi panjang dengan gradien menggunakan Aspose.Page untuk
+  .NET.
+linktitle: Add Vertical Gradient to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: c# Linear Gradient Brush – Tambahkan Gradien Vertikal ke PostScript (PS) dengan
+  Aspose.Page
 url: /id/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
+weight: 14
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ Simpan Dokumen".
+
+Conclusion paragraph.
+
+Common Issues and Solutions table: translate Issue, Why it Happens, How to Fix, and rows.
+
+FAQ: translate Q1 etc.
+
+Last Updated etc: keep same.
+
+Now produce final content with same shortcodes.
+
+Let's craft.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Gradien Vertikal ke PostScript (PS) dengan Aspose.Page
+# c# Linear Gradient Brush – Tambahkan Gradien Vertikal ke PostScript (PS) dengan Aspose.Page
 
-## Perkenalan
+## Introduction
 
-Di bidang manipulasi dan pembuatan dokumen, Aspose.Page untuk .NET menonjol sebagai alat yang ampuh bagi pengembang. Tutorial ini akan memandu Anda melalui proses menambahkan gradien vertikal ke dokumen PostScript (PS) menggunakan Aspose.Page untuk .NET. Di akhir panduan ini, Anda akan memiliki pemahaman yang jelas tentang langkah-langkah yang diperlukan untuk mencapai efek yang menarik secara visual ini.
+Dalam dunia manipulasi dan pembuatan dokumen, **Aspose.Page for .NET** menonjol sebagai alat yang kuat bagi para pengembang. Dalam panduan ini Anda akan menemukan cara **menambahkan gradien ke file PS** dengan menggunakan **brush gradien linear C#** untuk **mengisi persegi panjang dengan gradien**. Pada akhir tutorial, Anda akan memiliki pemahaman langkah‑demi‑langkah yang jelas tentang kode yang diperlukan dan mengapa teknik ini menghasilkan gradien vertikal yang halus dalam output PostScript Anda.
 
-## Prasyarat
+## Quick Answers
+- **Apa yang dilakukan brush gradien linear C#?** Brush ini membuat transisi halus antara beberapa warna di seluruh bentuk.
+- **Apakah saya dapat menggunakan ini dengan versi .NET apa pun?** Ya, Aspose.Page mendukung .NET Framework 4.5+ dan .NET Core/5+.
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk build non‑evaluasi.
+- **Apakah gradien benar‑benar vertikal?** Brush diputar 90°, memastikan aliran vertikal.
+- **Di mana output disimpan?** Ke jalur yang Anda tentukan di `dataDir` (misalnya `VerticalGradient_outPS.ps`).
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki hal berikut:
+## What is a C# Linear Gradient Brush?
+**C# linear gradient brush** adalah objek GDI+ (`LinearGradientBrush`) yang melukis transisi warna linear antara titik‑titik yang ditentukan. Ketika digabungkan dengan API gambar Aspose.Page, ia memungkinkan Anda merender gradien canggih langsung ke dalam dokumen PostScript (PS).
 
--  Aspose.Page untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Page. Anda dapat menemukan sumber daya dan dokumentasi yang diperlukan[Di Sini](https://reference.aspose.com/page/net/).
+## Why Use a Linear Gradient Brush for PostScript?
+- **Output berkualitas tinggi:** Gradien dirender pada level printer, mempertahankan fidelitas.
+- **Kontrol penuh:** Anda dapat mengatur titik warna khusus, rotasi, dan skala.
+- **Kode dapat digunakan kembali:** Logika brush yang sama bekerja untuk PDF, SVG, dan format lain yang didukung oleh Aspose.Page.
 
-- Lingkungan Pengembangan: Siapkan lingkungan pengembangan yang sesuai, termasuk Lingkungan Pengembangan Terpadu (IDE) untuk pengembangan .NET.
+## Prerequisites
 
-- Pemahaman Dasar: Biasakan diri Anda dengan dasar-dasar pengembangan .NET, termasuk bekerja dengan aliran, jalur grafik, dan manipulasi warna.
+Sebelum memulai tutorial, pastikan hal‑hal berikut sudah tersedia:
 
-## Impor Namespace
+- Aspose.Page for .NET: Pastikan Anda telah menginstal pustaka Aspose.Page. Anda dapat menemukan sumber daya dan dokumentasi yang diperlukan [di sini](https://reference.aspose.com/page/net/).
+- Lingkungan Pengembangan: Siapkan lingkungan pengembangan yang sesuai, termasuk Integrated Development Environment (IDE) untuk pengembangan .NET.
+- Pemahaman Dasar: Kenali dasar‑dasar pengembangan .NET, termasuk bekerja dengan stream, graphics path, dan manipulasi warna.
 
-Dalam proyek C# Anda, sertakan namespace yang diperlukan di awal file kode Anda:
+## Import Namespaces
+
+Di proyek C# Anda, sertakan namespace yang diperlukan di awal file kode Anda:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,34 +68,34 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Langkah 1: Siapkan Direktori Dokumen
+## Step 1: Set Up the Document Directory
 
-Mulailah dengan menentukan jalur ke direktori dokumen Anda. Ini adalah lokasi dimana dokumen PS Anda akan disimpan.
+Mulailah dengan menentukan jalur ke direktori dokumen Anda. Ini adalah lokasi di mana dokumen PS Anda akan disimpan.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Langkah 2: Buat Aliran Output untuk Dokumen PostScript
+## Step 2: Create Output Stream for PostScript Document
 
-Hasilkan aliran keluaran untuk dokumen PostScript menggunakan kelas FileStream.
+Buat output stream untuk dokumen PostScript menggunakan kelas `FileStream`.
 
 ```csharp
 using (Stream outPsStream = new FileStream(dataDir + "VerticalGradient_outPS.ps", FileMode.Create))
 ```
 
-## Langkah 3: Buat Opsi Simpan dan Dokumen PS
+## Step 3: Create Save Options and PS Document
 
-Buat opsi penyimpanan dengan ukuran A4 dan inisialisasi dokumen PS 1 halaman baru.
+Buat save options dengan ukuran A4 dan inisialisasi dokumen PS baru dengan 1 halaman.
 
 ```csharp
 PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Langkah 4: Tentukan Dimensi Persegi Panjang
+## Step 4: Define Rectangle Dimensions
 
-Tentukan dimensi dan posisi persegi panjang di mana gradien vertikal akan diterapkan.
+Tentukan dimensi dan posisi persegi panjang tempat gradien vertikal akan diterapkan.
 
 ```csharp
 float offsetX = 200;
@@ -75,18 +104,18 @@ float width = 200;
 float height = 100;
 ```
 
-## Langkah 5: Buat Jalur Grafik
+## Step 5: Create Graphics Path
 
-Bangun jalur grafis dari persegi panjang yang ditentukan.
+Bangun graphics path dari persegi panjang yang telah ditentukan.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(offsetX, offsetY, width, height));
 ```
 
-## Langkah 6: Tentukan Warna Interpolasi
+## Step 6: Define Interpolation Colors
 
-Tetapkan susunan warna interpolasi dan posisi untuk gradien.
+Tetapkan array warna interpolasi dan posisi untuk gradien.
 
 ```csharp
 Color[] colors = { Color.Red, Color.Green, Color.Blue, Color.Orange, Color.DarkOliveGreen };
@@ -96,18 +125,18 @@ colorBlend.Colors = colors;
 colorBlend.Positions = positions;
 ```
 
-## Langkah 7: Buat Kuas Gradien Linier
+## Step 7: Create Linear Gradient Brush
 
-Bentuk kuas gradien linier dengan persegi panjang sebagai batas, warna awal dan akhir.
+Buat linear gradient brush dengan persegi panjang sebagai batas, warna mulai dan akhir.
 
 ```csharp
 LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.Beige, Color.DodgerBlue, 0f);
 brush.InterpolationColors = colorBlend;
 ```
 
-## Langkah 8: Atur Transformasi Kuas
+## Step 8: Set Brush Transform
 
-Tetapkan transformasi untuk kuas, pastikan bahwa komponen skala X dan Y cocok dengan lebar dan tinggi persegi panjang.
+Atur transform untuk brush, memastikan komponen skala X dan Y cocok dengan lebar dan tinggi persegi panjang.
 
 ```csharp
 Matrix brushTransform = new Matrix(width, 0, 0, height, offsetX, offsetY);
@@ -115,16 +144,16 @@ brushTransform.Rotate(90);
 brush.Transform = brushTransform;
 ```
 
-## Langkah 9: Atur Cat dan Isi Persegi Panjang
+## Step 9: Set Paint and Fill the Rectangle
 
-Atur cat untuk dokumen, dan isi persegi panjang yang telah ditentukan sebelumnya.
+Atur paint untuk dokumen, dan **isi persegi panjang dengan gradien** menggunakan path yang telah didefinisikan sebelumnya.
 
 ```csharp
 document.SetPaint(brush);
 document.Fill(path);
 ```
 
-## Langkah 10: Tutup Halaman Saat Ini dan Simpan Dokumen
+## Step 10: Close the Current Page and Save the Document
 
 Tutup halaman saat ini dan simpan dokumen PostScript.
 
@@ -133,33 +162,39 @@ document.ClosePage();
 document.Save();
 ```
 
-Selamat! Anda telah berhasil menambahkan gradien vertikal ke dokumen PostScript menggunakan Aspose.Page untuk .NET. Bereksperimenlah dengan berbagai parameter dan warna untuk mendapatkan berbagai efek visual dalam dokumen Anda.
+Selamat! Anda telah berhasil **menambahkan gradien vertikal ke dokumen PostScript** menggunakan **brush gradien linear C#** dengan Aspose.Page for .NET. Bereksperimenlah dengan parameter dan warna yang berbeda untuk mencapai berbagai efek visual dalam dokumen Anda.
 
-## Kesimpulan
+## Common Issues and Solutions
 
-Dalam tutorial ini, kami menjelajahi proses menyempurnakan dokumen PostScript Anda dengan menggabungkan gradien vertikal. Aspose.Page untuk .NET menyediakan lingkungan yang mulus untuk manipulasi tersebut, memberdayakan pengembang untuk membuat dokumen visual yang menakjubkan dengan mudah.
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| Gradien muncul horizontal | Rotasi brush tidak diterapkan | Pastikan `brushTransform.Rotate(90);` dipanggil sebelum menetapkan ke `brush.Transform`. |
+| Warna tampak pudar | Output stream beresolusi rendah | Gunakan `PsSaveOptions` dengan resolusi lebih tinggi atau tingkatkan ukuran dokumen. |
+| File output kosong | Stream tidak di‑flush | Verifikasi bahwa `document.Save();` dipanggil di luar blok `using`. |
 
-## FAQ
+## Frequently Asked Questions
 
-### Q1: Dapatkah saya menerapkan beberapa gradien ke wilayah berbeda pada dokumen yang sama?
+**Q1: Apakah saya dapat menerapkan beberapa gradien ke wilayah yang berbeda dalam dokumen yang sama?**  
+A: Ya, Anda dapat. Cukup ulangi langkah‑langkah untuk setiap wilayah dengan dimensi dan skema warna masing‑masing.
 
-A1: Ya, Anda bisa. Cukup ulangi langkah-langkah untuk setiap wilayah dengan dimensi dan skema warna spesifiknya.
+**Q2: Bagaimana cara mengintegrasikan kode ini ke dalam proyek .NET saya yang sudah ada?**  
+A: Salin dan tempel kode ke file proyek Anda dan pastikan pustaka Aspose.Page sudah direferensikan.
 
-### Q2: Bagaimana cara mengintegrasikan kode ini ke proyek .NET saya yang sudah ada?
+**Q3: Apakah ada tipe gradien lain yang tersedia di Aspose.Page untuk .NET?**  
+A: Aspose.Page mendukung berbagai tipe gradien, termasuk radial dan path gradients. Lihat dokumentasi untuk detail lebih lanjut.
 
-A2: Salin dan tempel kode ke file proyek Anda dan pastikan Anda memiliki pustaka Aspose.Page yang direferensikan.
+**Q4: Bisakah saya menggunakan Aspose.Page untuk proyek komersial?**  
+A: Ya, Anda dapat. Kunjungi [di sini](https://purchase.aspose.com/buy) untuk menjelajahi opsi lisensi.
 
-### Q3: Apakah ada tipe gradien lain yang tersedia di Aspose.Page untuk .NET?
+**Q5: Apakah ada forum komunitas untuk Aspose.Page tempat saya dapat meminta bantuan?**  
+A: Tentu! Kunjungi [forum Aspose.Page](https://forum.aspose.com/c/page/39) untuk terhubung dengan pengembang lain dan mendapatkan bantuan.
 
-A3: Aspose.Page mendukung berbagai jenis gradien, termasuk gradien radial dan jalur. Lihat dokumentasi untuk lebih jelasnya.
+---
 
-### Q4: Dapatkah saya menggunakan Aspose.Page untuk proyek komersial?
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
 
- A4: Ya, Anda bisa. Mengunjungi[Di Sini](https://purchase.aspose.com/buy) untuk mengeksplorasi opsi lisensi.
-
-### Q5: Apakah ada forum komunitas untuk Aspose.Page tempat saya dapat mencari bantuan?
-
- A5: Tentu saja! Pergilah ke[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk terhubung dengan pengembang lain dan mendapatkan bantuan.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

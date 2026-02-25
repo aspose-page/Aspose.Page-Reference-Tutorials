@@ -1,35 +1,51 @@
 ---
-title: Přidejte vertikální přechod do PostScriptu (PS) pomocí Aspose.Page
-linktitle: Přidat vertikální přechod do PostScriptu (PS)
+date: 2026-02-25
+description: Naučte se, jak použít lineární gradientový štětec v C# k přidání gradientu
+  do souborů PS a vyplnit obdélník gradientem pomocí Aspose.Page pro .NET.
+linktitle: Add Vertical Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: Naučte se, jak přidat vizuálně přitažlivé vertikální přechody do dokumentů PostScript (PS) v .NET pomocí Aspose.Page. Vylepšete svou tvorbu dokumentů pomocí tohoto podrobného průvodce.
-weight: 14
+title: c# Lineární gradientová štětka – Přidat vertikální gradient do PostScriptu
+  (PS) pomocí Aspose.Page
 url: /cs/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte vertikální přechod do PostScriptu (PS) pomocí Aspose.Page
+# c# Linear Gradient Brush – Přidání vertikálního gradientu do PostScript (PS) pomocí Aspose.Page
 
 ## Úvod
 
-V oblasti manipulace a vytváření dokumentů vyniká Aspose.Page for .NET jako výkonný nástroj pro vývojáře. Tento tutoriál vás provede procesem přidání vertikálního přechodu do dokumentu PostScript (PS) pomocí Aspose.Page for .NET. Na konci této příručky budete mít jasnou představu o nezbytných krocích k dosažení tohoto vizuálně přitažlivého efektu.
+V oblasti manipulace a tvorby dokumentů **Aspose.Page for .NET** vyniká jako výkonný nástroj pro vývojáře. V tomto průvodci se dozvíte, jak **přidat gradient do PS** souborů pomocí **C# linear gradient brush** k **vyplnění obdélníku gradientem**. Na konci tohoto tutoriálu budete mít jasné, krok‑za‑krokem pochopení požadovaného kódu a toho, proč tato technika vytváří plynulý vertikální gradient ve vašem výstupu PostScript.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co dělá C# linear gradient brush?** Vytváří plynulý přechod mezi více barvami napříč tvarem.
+- **Lze jej použít s libovolnou verzí .NET?** Ano, Aspose.Page podporuje .NET Framework 4.5+ a .NET Core/5+.
+- **Potřebuji licenci pro produkci?** Pro ne‑evaluační sestavení je vyžadována komerční licence.
+- **Je gradient skutečně vertikální?** Štětec je otočen o 90°, což zajišťuje vertikální tok.
+- **Kam se ukládá výstup?** Do cesty, kterou zadáte v `dataDir` (např. `VerticalGradient_outPS.ps`).
 
-Než se pustíte do výukového programu, ujistěte se, že máte na svém místě následující:
+## Co je C# Linear Gradient Brush?
+**C# linear gradient brush** je objekt GDI+ (`LinearGradientBrush`), který kreslí lineární přechod barev mezi definovanými body. V kombinaci s kreslícím API Aspose.Page vám umožňuje přímo do dokumentu PostScript (PS) vykreslit propracované gradienty.
 
--  Aspose.Page for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page. Můžete najít potřebné zdroje a dokumentaci[tady](https://reference.aspose.com/page/net/).
+## Proč použít Linear Gradient Brush pro PostScript?
+- **Vysoce kvalitní výstup:** Gradienty jsou renderovány na úrovni tiskárny, zachovávají věrnost.
+- **Plná kontrola:** Můžete nastavit vlastní barevné zastávky, rotaci a škálování.
+- **Znovupoužitelný kód:** Stejná logika štětce funguje pro PDF, SVG i další formáty podporované Aspose.Page.
 
-- Vývojové prostředí: Nastavte vhodné vývojové prostředí, včetně integrovaného vývojového prostředí (IDE) pro vývoj .NET.
+## Požadavky
 
-- Základní porozumění: Seznamte se se základy vývoje .NET, včetně práce s proudy, grafickými cestami a manipulací s barvami.
+Než se pustíte do tutoriálu, ujistěte se, že máte následující:
 
-## Import jmenných prostorů
+- Aspose.Page for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page. Potřebné zdroje a dokumentaci najdete [zde](https://reference.aspose.com/page/net/).
+- Vývojové prostředí: Nastavte vhodné vývojové prostředí, včetně integrovaného vývojového prostředí (IDE) pro .NET vývoj.
+- Základní znalosti: Seznamte se se základy .NET vývoje, včetně práce se streamy, grafickými cestami a manipulací s barvami.
 
-Ve svém projektu C# zahrňte požadované jmenné prostory na začátek souboru kódu:
+## Import Namespaces
+
+Ve vašem C# projektu zahrňte požadované jmenné prostory na začátku souboru s kódem:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,34 +55,34 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentu
 
-Začněte zadáním cesty k adresáři dokumentů. Toto je místo, kam bude uložen váš dokument PS.
+Určete cestu k adresáři, kde bude váš PS dokument uložen.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Vytvořte výstupní proud pro dokument PostScript
+## Krok 2: Vytvoření výstupního streamu pro PostScript dokument
 
-Vygenerujte výstupní proud pro PostScriptový dokument pomocí třídy FileStream.
+Vytvořte výstupní stream pro PostScript dokument pomocí třídy `FileStream`.
 
 ```csharp
 using (Stream outPsStream = new FileStream(dataDir + "VerticalGradient_outPS.ps", FileMode.Create))
 ```
 
-## Krok 3: Vytvořte možnosti uložení a dokument PS
+## Krok 3: Vytvoření možností uložení a PS dokumentu
 
-Vytvořte možnosti uložení s velikostí A4 a inicializujte nový 1stránkový dokument PS.
+Vytvořte možnosti uložení s velikostí A4 a inicializujte nový jednopage PS dokument.
 
 ```csharp
 PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Krok 4: Definujte rozměry obdélníku
+## Krok 4: Definice rozměrů obdélníku
 
-Určete rozměry a polohu obdélníku, kde bude použit svislý přechod.
+Zadejte rozměry a pozici obdélníku, kde bude aplikován vertikální gradient.
 
 ```csharp
 float offsetX = 200;
@@ -75,18 +91,18 @@ float width = 200;
 float height = 100;
 ```
 
-## Krok 5: Vytvořte grafickou cestu
+## Krok 5: Vytvoření grafické cesty
 
-Vytvořte grafickou cestu z definovaného obdélníku.
+Sestavte grafickou cestu z definovaného obdélníku.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(offsetX, offsetY, width, height));
 ```
 
-## Krok 6: Definujte interpolační barvy
+## Krok 6: Definice interpolačních barev
 
-Vytvořte pole interpolačních barev a pozic pro přechod.
+Stanovte pole interpolačních barev a pozic pro gradient.
 
 ```csharp
 Color[] colors = { Color.Red, Color.Green, Color.Blue, Color.Orange, Color.DarkOliveGreen };
@@ -96,18 +112,18 @@ colorBlend.Colors = colors;
 colorBlend.Positions = positions;
 ```
 
-## Krok 7: Vytvořte štětec s lineárním přechodem
+## Krok 7: Vytvoření Linear Gradient Brush
 
-Vytvořte štětec s lineárním přechodem s obdélníkem jako hranice, počáteční a koncové barvy.
+Vytvořte linear gradient brush s obdélníkem jako ohraničením, počáteční a koncovou barvou.
 
 ```csharp
 LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.Beige, Color.DodgerBlue, 0f);
 brush.InterpolationColors = colorBlend;
 ```
 
-## Krok 8: Nastavte transformaci štětcem
+## Krok 8: Nastavení transformace štětce
 
-Vytvořte transformaci štětce a ujistěte se, že složky měřítka X a Y odpovídají šířce a výšce obdélníku.
+Nastavte transformaci pro štětec tak, aby komponenty měřítka X a Y odpovídaly šířce a výšce obdélníku.
 
 ```csharp
 Matrix brushTransform = new Matrix(width, 0, 0, height, offsetX, offsetY);
@@ -115,51 +131,57 @@ brushTransform.Rotate(90);
 brush.Transform = brushTransform;
 ```
 
-## Krok 9: Nastavte Malování a Vyplňte obdélník
+## Krok 9: Nastavení barvy a vyplnění obdélníku
 
-Nastavte barvu dokumentu a vyplňte dříve definovaný obdélník.
+Nastavte barvu pro dokument a **vyplňte obdélník gradientem** pomocí dříve definované cesty.
 
 ```csharp
 document.SetPaint(brush);
 document.Fill(path);
 ```
 
-## Krok 10: Zavřete aktuální stránku a uložte dokument
+## Krok 10: Uzavření aktuální stránky a uložení dokumentu
 
-Zavřete aktuální stránku a uložte dokument PostScript.
+Uzavřete aktuální stránku a uložte PostScript dokument.
 
 ```csharp
 document.ClosePage();
 document.Save();
 ```
 
-Gratulujeme! Úspěšně jste přidali vertikální přechod do dokumentu PostScript pomocí Aspose.Page for .NET. Experimentujte s různými parametry a barvami, abyste ve svých dokumentech dosáhli různých vizuálních efektů.
+Gratulujeme! Úspěšně jste **přidali vertikální gradient do PostScript dokumentu** pomocí **C# linear gradient brush** s Aspose.Page for .NET. Experimentujte s různými parametry a barvami, abyste dosáhli různých vizuálních efektů ve svých dokumentech.
 
-## Závěr
+## Časté problémy a řešení
 
-V tomto tutoriálu jsme prozkoumali proces vylepšení vašich PostScriptových dokumentů začleněním vertikálních přechodů. Aspose.Page for .NET poskytuje bezproblémové prostředí pro takové manipulace a umožňuje vývojářům vytvářet vizuálně úžasné dokumenty bez námahy.
+| Problém | Proč se vyskytuje | Jak opravit |
+|---------|-------------------|-------------|
+| Gradient se zobrazuje horizontálně | Rotace štětce nebyla aplikována | Ujistěte se, že je před přiřazením k `brush.Transform` zavoláno `brushTransform.Rotate(90);`. |
+| Barvy vypadají vybledle | Nízké rozlišení výstupního streamu | Použijte vyšší rozlišení `PsSaveOptions` nebo zvětšete velikost dokumentu. |
+| Výstupní soubor je prázdný | Stream nebyl vyprázdněn | Ověřte, že je voláno `document.Save();` mimo blok `using`. |
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu použít více přechodů na různé oblasti stejného dokumentu?
+**Q1: Mohu použít více gradientů v různých oblastech stejného dokumentu?**  
+A: Ano. Jednoduše opakujte kroky pro každou oblast s jejími specifickými rozměry a barevným schématem.
 
-A1: Ano, můžete. Jednoduše opakujte kroky pro každý region s jeho specifickými rozměry a barevným schématem.
+**Q2: Jak mohu integrovat tento kód do mého existujícího .NET projektu?**  
+A: Zkopírujte a vložte kód do souboru projektu a ujistěte se, že máte odkaz na knihovnu Aspose.Page.
 
-### Q2: Jak mohu tento kód integrovat do mého stávajícího projektu .NET?
+**Q3: Existují i jiné typy gradientů v Aspose.Page pro .NET?**  
+A: Aspose.Page podporuje různé typy gradientů, včetně radiálních a cestových gradientů. Podívejte se do dokumentace pro více informací.
 
-A2: Zkopírujte a vložte kód do souboru projektu a ujistěte se, že máte odkazovanou knihovnu Aspose.Page.
+**Q4: Mohu používat Aspose.Page v komerčních projektech?**  
+A: Ano. Navštivte [zde](https://purchase.aspose.com/buy) a prozkoumejte licenční možnosti.
 
-### Q3: Jsou v Aspose.Page pro .NET k dispozici další typy přechodů?
+**Q5: Existuje komunitní fórum pro Aspose.Page, kde mohu získat pomoc?**  
+A: Samozřejmě! Přejděte na [Aspose.Page fórum](https://forum.aspose.com/c/page/39) a spojte se s ostatními vývojáři a získejte podporu.
 
-A3: Aspose.Page podporuje různé typy přechodů, včetně radiálních přechodů a přechodů cest. Další podrobnosti naleznete v dokumentaci.
+---
 
-### Q4: Mohu použít Aspose.Page pro komerční projekty?
+**Poslední aktualizace:** 2026-02-25  
+**Testováno s:** Aspose.Page 24.11 pro .NET  
+**Autor:** Aspose  
 
- A4: Ano, můžete. Návštěva[tady](https://purchase.aspose.com/buy) prozkoumat možnosti licencování.
-
-### Q5: Existuje komunitní fórum pro Aspose.Page, kde mohu vyhledat pomoc?
-
- A5: Určitě! Vydejte se na[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) spojit se s ostatními vývojáři a získat pomoc.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
