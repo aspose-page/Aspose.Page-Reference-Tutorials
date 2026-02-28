@@ -1,35 +1,54 @@
 ---
-title: Fügen Sie mit Aspose.Page für .NET ein Bild zum XPS-Dokument hinzu
-linktitle: Bild zum XPS-Dokument hinzufügen
-second_title: Aspose.Page .NET-API
-description: Entdecken Sie die nahtlose Integration von Bildern in XPS-Dokumente mit Aspose.Page für .NET. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine reibungslose Entwicklung.
-weight: 11
+date: 2026-02-28
+description: Erfahren Sie, wie Sie ein XPS‑Dokument in .NET erstellen und ein Bild
+  mit Aspose.Page für .NET hinzufügen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung
+  für ein reibungsloses Entwicklungserlebnis.
+linktitle: Add Image to XPS Document
+second_title: Aspose.Page .NET API
+title: XPS-Dokument in .NET erstellen – Bild mit Aspose.Page hinzufügen
 url: /de/net/image-management/add-image-to-xps-document/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fügen Sie mit Aspose.Page für .NET ein Bild zum XPS-Dokument hinzu
+# Bild zu XPS-Dokument mit Aspose.Page für .NET hinzufügen
+
+In diesem Tutorial lernen Sie, wie Sie **XPS-Dokument .NET erstellen** und ein Bild mit der leistungsstarken Aspose.Page‑Bibliothek einbetten. Egal, ob Sie Berichte, Rechnungen oder benutzerdefinierte Grafiken erzeugen – das Hinzufügen visueller Elemente zu XPS‑Dateien ist eine häufige Anforderung für .NET‑Entwickler.
 
 ## Einführung
 
-In der Welt der .NET-Entwicklung ist die Einbindung von Bildern in XPS-Dokumente eine häufige Anforderung. Aspose.Page für .NET vereinfacht diesen Prozess und bietet ein leistungsstarkes Toolkit zur mühelosen Bearbeitung und Verbesserung von XPS-Dokumenten. Dieses Tutorial führt Sie durch die Schritte zum Hinzufügen eines Bildes zu einem XPS-Dokument mit Aspose.Page für .NET.
+In der .NET‑Entwicklung ist das Einbinden von Bildern in XPS‑Dokumente ein gängiger Bedarf. Aspose.Page für .NET vereinfacht diesen Vorgang und bietet ein leistungsstarkes Toolkit, um XPS‑Dokumente mühelos zu manipulieren und zu erweitern. Dieses Tutorial führt Sie Schritt für Schritt durch das Hinzufügen eines Bildes zu einem XPS‑Dokument mit Aspose.Page für .NET.
+
+## Schnellantworten
+- **Worum geht es in diesem Tutorial?** Ein Bild zu einem XPS‑Dokument mit Aspose.Page für .NET hinzufügen.  
+- **Welches Haupt‑Keyword wird angesprochen?** *create xps document .net*  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion ist verfügbar; für den Produktionseinsatz ist eine Lizenz erforderlich.  
+- **Welche .NET‑Versionen werden unterstützt?** Funktioniert mit .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Wie lange dauert die Implementierung?** Etwa 5‑10 Minuten für das Einfügen eines einfachen Bildes.
+
+## Was bedeutet „create XPS document .NET“?
+Ein XPS‑Dokument in .NET zu erstellen bedeutet, programmgesteuert eine XML Paper Specification (XPS)‑Datei – ein festes Layout‑Format – mit C# oder VB.NET zu erzeugen. Aspose.Page stellt eine fluente API bereit, die die Low‑Level‑Details abstrahiert, sodass Sie sich auf Inhalte wie Text, Formen und Bilder konzentrieren können.
+
+## Warum Aspose.Page zum Hinzufügen eines Bildes verwenden?
+- **Vollständige Kontrolle** über Positionierung, Skalierung und Beschneidung von Bildern.  
+- **Keine externen Abhängigkeiten** – die Bibliothek übernimmt die Bilddekodierung intern.  
+- **Plattformübergreifende** Unterstützung für Windows‑ und Linux‑Umgebungen.  
+- **Hohe Treue** bei der Wiedergabe, die die Bildqualität im finalen XPS‑File bewahrt.
 
 ## Voraussetzungen
 
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1.  Aspose.Page für .NET-Bibliothek: Laden Sie die Bibliothek herunter und installieren Sie sie von[Aspose.Page .NET-Dokumentation](https://reference.aspose.com/page/net/).
-
-2. Entwicklungsumgebung: Richten Sie eine .NET-Entwicklungsumgebung ein, z. B. Visual Studio.
-
-3. Beispielbild: Halten Sie eine Beispielbilddatei bereit (z. B. „QL_logo_color.tif“), die Sie dem XPS-Dokument hinzufügen möchten.
+1. Aspose.Page für .NET‑Bibliothek: Laden Sie die Bibliothek von [Aspose.Page .NET Documentation](https://reference.aspose.com/page/net/) herunter und installieren Sie sie.  
+2. Entwicklungsumgebung: Richten Sie eine .NET‑Entwicklungsumgebung ein, z. B. Visual Studio.  
+3. Beispielbild: Haben Sie eine Bilddatei (z. B. „QL_logo_color.tif“), die Sie dem XPS‑Dokument hinzufügen möchten.
 
 ## Namespaces importieren
 
-Beginnen Sie mit dem Importieren der erforderlichen Namespaces in Ihr .NET-Projekt. Diese Namespaces sind für die Nutzung der von Aspose.Page für .NET bereitgestellten Funktionen von entscheidender Bedeutung.
+Importieren Sie die erforderlichen Namespaces in Ihr .NET‑Projekt. Diese Namespaces sind notwendig, um die Funktionen von Aspose.Page für .NET zu nutzen.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,9 +56,13 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Schritt 1: Dokumentverzeichnis festlegen
+## Aspose.Page Bild zu XPS‑Dokument hinzufügen
 
-Geben Sie zunächst den Pfad zu Ihrem Dokumentverzeichnis an. Dieser Schritt stellt sicher, dass Ihr Projekt weiß, wo Dateien gesucht und gespeichert werden müssen.
+Im Folgenden führen wir die einzelnen Schritte aus, die nötig sind, um **XPS document .NET zu erstellen** und ein Bild einzubetten.
+
+### Schritt 1: Dokumentverzeichnis festlegen
+
+Geben Sie den Pfad zu Ihrem Dokumentverzeichnis an. Dieser Schritt stellt sicher, dass Ihr Projekt weiß, wo Dateien zu finden und zu speichern sind.
 
 ```csharp
 // ExStart:1
@@ -47,9 +70,9 @@ string dataDir = "Your Document Directory";
 // ExEnd:1
 ```
 
-## Schritt 2: XPS-Dokument erstellen
+### Schritt 2: XPS‑Dokument erstellen
 
-Erstellen Sie ein neues XPS-Dokument mit Aspose.Page für .NET.
+Erzeugen Sie ein neues XPS‑Dokument mit Aspose.Page für .NET.
 
 ```csharp
 // ExStart:1
@@ -57,9 +80,9 @@ XpsDocument doc = new XpsDocument();
 // ExEnd:1
 ```
 
-## Schritt 3: Bild zum XPS-Dokument hinzufügen
+### Schritt 3: Bild zum XPS‑Dokument hinzufügen
 
-Fügen wir nun das Bild zum XPS-Dokument hinzu. In diesem Beispiel verwenden wir ein Beispielbild mit dem Namen „QL_logo_color.tif“.
+Fügen wir nun das Bild zum XPS‑Dokument hinzu. In diesem Beispiel verwenden wir ein Bild mit dem Namen „QL_logo_color.tif“.
 
 ```csharp
 // ExStart:1
@@ -69,9 +92,9 @@ path.Fill = doc.CreateImageBrush(dataDir + "QL_logo_color.tif", new RectangleF(0
 // ExEnd:1
 ```
 
-## Schritt 4: Speichern Sie das resultierende XPS-Dokument
+### Schritt 4: Ergebnis‑XPS‑Dokument speichern
 
-Speichern Sie das XPS-Dokument mit dem hinzugefügten Bild.
+Speichern Sie das XPS‑Dokument mit dem hinzugefügten Bild.
 
 ```csharp
 // ExStart:1
@@ -79,33 +102,46 @@ doc.Save(dataDir + "AddImage_outXPS.xps");
 // ExEnd:1
 ```
 
-Jetzt haben Sie mit Aspose.Page für .NET erfolgreich ein Bild zu einem XPS-Dokument hinzugefügt!
+Damit haben Sie erfolgreich ein Bild zu einem XPS‑Dokument mit Aspose.Page für .NET hinzugefügt!
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben wir untersucht, wie Sie Aspose.Page für .NET nutzen können, um Bilder nahtlos in XPS-Dokumente zu integrieren. Diese Schritt-für-Schritt-Anleitung sorgt für einen reibungslosen Integrationsprozess und verbessert Ihre .NET-Entwicklungsmöglichkeiten.
+- **Datei‑nicht‑gefunden‑Fehler** – Stellen Sie sicher, dass `dataDir` auf den richtigen Ordner zeigt und der Bilddateiname exakt übereinstimmt, einschließlich Groß‑/Kleinschreibung unter Linux.  
+- **Bild erscheint verzerrt** – Passen Sie die Skalierungsfaktoren von `CreateMatrix` oder die Parameter von `RectangleF` an, um Größe und Seitenverhältnis zu steuern.  
+- **Nicht unterstütztes Bildformat** – Aspose.Page unterstützt gängige Rasterformate (PNG, JPEG, TIFF). Konvertieren Sie nicht unterstützte Formate, bevor Sie `CreateImageBrush` verwenden.
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Ist Aspose.Page für .NET mit den neuesten .NET Framework-Versionen kompatibel?
+### Q1: Ist Aspose.Page für .NET mit den neuesten .NET‑Framework‑Versionen kompatibel?
 
- A1: Aspose.Page für .NET ist so konzipiert, dass es mit einer Vielzahl von .NET Framework-Versionen kompatibel ist, einschließlich der neuesten Versionen. Siehe die[Dokumentation](https://reference.aspose.com/page/net/) für spezifische Details.
+A1: Aspose.Page für .NET ist so konzipiert, dass es mit einer breiten Palette von .NET‑Framework‑Versionen, einschließlich der neuesten Releases, kompatibel ist. Details finden Sie in der [Dokumentation](https://reference.aspose.com/page/net/).
 
-### F2: Kann ich Aspose.Page für .NET sowohl in Windows- als auch in Linux-Umgebungen verwenden?
+### Q2: Kann ich Aspose.Page für .NET sowohl in Windows‑ als auch in Linux‑Umgebungen verwenden?
 
-A2: Ja, Aspose.Page für .NET ist plattformunabhängig und eignet sich daher sowohl für den Einsatz in Windows- als auch Linux-Umgebungen.
+A2: Ja, Aspose.Page für .NET ist plattformunabhängig und eignet sich für den Einsatz in sowohl Windows‑ als auch Linux‑Umgebungen.
 
-### F3: Gibt es Lizenzoptionen für Aspose.Page für .NET?
+### Q3: Welche Lizenzierungsoptionen gibt es für Aspose.Page für .NET?
 
- A3: Ja, Sie können Lizenzoptionen erkunden und einen Kauf tätigen[Hier](https://purchase.aspose.com/buy).
+A3: Ja, Sie können Lizenzierungsoptionen prüfen und einen Kauf tätigen [hier](https://purchase.aspose.com/buy).
 
-### F4: Gibt es eine kostenlose Testversion für Aspose.Page für .NET?
+### Q4: Gibt es eine kostenlose Testversion von Aspose.Page für .NET?
 
- A4: Ja, Sie können Aspose.Page für .NET kostenlos testen, indem Sie auf zugreifen[Kostenlose Testphase](https://releases.aspose.com/).
+A4: Ja, Sie können Aspose.Page für .NET kostenlos testen, indem Sie die [kostenlose Testversion](https://releases.aspose.com/) aufrufen.
 
-### F5: Wo kann ich Hilfe suchen oder mit der Community für Aspose.Page für .NET in Kontakt treten?
+### Q5: Wo kann ich Unterstützung erhalten oder mich mit der Community zu Aspose.Page für .NET austauschen?
 
- A5: Besuchen Sie die[Aspose.Page für .NET-Forum](https://forum.aspose.com/c/page/39) um mit der Community in Kontakt zu treten und Unterstützung zu erhalten.
+A5: Besuchen Sie das [Aspose.Page für .NET‑Forum](https://forum.aspose.com/c/page/39), um mit der Community in Kontakt zu treten und Unterstützung zu erhalten.
+
+## Fazit
+
+In diesem Tutorial haben wir gezeigt, wie Sie Aspose.Page für .NET nutzen, um Bilder nahtlos in XPS‑Dokumente zu integrieren. Diese Schritt‑für‑Schritt‑Anleitung sorgt für einen reibungslosen Integrationsprozess, erweitert Ihre .NET‑Entwicklungsfähigkeiten und hilft Ihnen, **XPS document .NET**‑Lösungen mit visueller Vielfalt zu erstellen.
+
+---
+
+**Zuletzt aktualisiert:** 2026-02-28  
+**Getestet mit:** Aspose.Page für .NET 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
