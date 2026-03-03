@@ -1,32 +1,49 @@
 ---
-title: Ajouter une image en mosaïque au document XPS avec Aspose.Page pour .NET
-linktitle: Ajouter une image en mosaïque au document XPS
-second_title: API Aspose.Page .NET
-description: Découvrez l'ajout d'images en mosaïque aux documents XPS sans effort avec Aspose.Page pour .NET. Améliorez l’attrait visuel et créez des documents époustouflants.
-weight: 12
+date: 2026-03-03
+description: Apprenez à utiliser Aspose.Page pour .NET afin de disposer les images
+  en mosaïque dans les documents XPS. Ce guide étape par étape montre comment disposer
+  les images efficacement et améliorer l'attrait visuel.
+linktitle: Add Tiled Image to XPS Document
+second_title: Aspose.Page .NET API
+title: Comment utiliser Aspose.Page pour ajouter une image en mosaïque à un document
+  XPS
 url: /fr/net/image-management/add-tiled-image-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter une image en mosaïque au document XPS avec Aspose.Page pour .NET
+# Comment utiliser Aspose.Page pour ajouter une image en mosaïque à un document XPS
 
 ## Introduction
 
-Cherchez-vous à améliorer vos documents XPS en ajoutant des images en mosaïque visuellement attrayantes ? Aspose.Page pour .NET permet aux développeurs d'y parvenir de manière transparente. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'ajout d'une image en mosaïque à un document XPS à l'aide d'Aspose.Page pour .NET.
+Si vous vous demandez **comment utiliser Aspose** pour donner à vos fichiers XPS un style visuel plus riche, vous êtes au bon endroit. Dans ce tutoriel, nous passerons en revue les étapes exactes nécessaires pour **mosaïquer une image** à l’intérieur d’un document XPS en utilisant Aspose.Page pour .NET. À la fin, vous disposerez d’un extrait réutilisable que vous pourrez intégrer à n’importe quel projet .NET afin de créer des graphiques d’images en mosaïque à la volée.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle bibliothèque est nécessaire ?** Aspose.Page pour .NET  
+- **Quelle méthode crée le pinceau en mosaïque ?** `CreateImageBrush` avec `TileMode = XpsTileMode.Tile`  
+- **Puis‑je contrôler l’opacité ?** Oui – définissez `path.Fill.Opacity` (par ex., 0.5f)  
+- **Ai‑je besoin d’une licence pour les tests ?** Une licence temporaire fonctionne pour l’évaluation ; une licence complète est requise en production.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce qu’Aspose.Page et pourquoi mosaïquer des images ?
 
--  Aspose.Page pour .NET : assurez-vous que la bibliothèque Aspose.Page est installée. Vous pouvez trouver une documentation détaillée et télécharger la bibliothèque[ici](https://reference.aspose.com/page/net/).
-- Environnement de développement : configurez votre environnement de développement .NET préféré, tel que Visual Studio.
+Aspose.Page est une API puissante qui permet aux développeurs de générer, modifier et rendre des fichiers XPS, PDF et autres formats basés sur des pages sans dépendre de Microsoft Office. Mosaïquer une image — répéter un bitmap sur une forme — vous aide à remplir de grandes zones avec des motifs, filigranes ou textures d’arrière‑plan tout en maintenant la taille du fichier faible.
 
-## Importer des espaces de noms
+## Comment utiliser Aspose.Page pour mosaïquer des images dans des documents XPS
 
-Pour commencer, importez les espaces de noms nécessaires dans votre projet. Cela garantit que vous avez accès aux classes et méthodes requises pour travailler avec Aspose.Page. Ajoutez les espaces de noms suivants au début de votre code :
+Vous trouverez ci‑dessous un exemple complet, prêt à être exécuté. Chaque étape est expliquée en langage clair avant le bloc de code correspondant, afin que vous puissiez comprendre **pourquoi** chaque ligne est importante.
+
+### Prérequis
+
+- **Aspose.Page pour .NET** – téléchargez et référencez la bibliothèque depuis le site officiel [ici](https://reference.aspose.com/page/net/).  
+- **Environnement de développement** – Visual Studio (toute édition) ou tout autre IDE .NET de votre choix.
+
+### Importer les espaces de noms
+
+Tout d’abord, importez les espaces de noms requis afin que le compilateur sache où trouver les classes XPS.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -34,73 +51,82 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Maintenant, décomposons l'exemple en plusieurs étapes.
+### Étape 1 : Définir le répertoire du document
 
-## Étape 1 : Définir le répertoire des documents
+Spécifiez où le fichier XPS généré et l’image source seront stockés. Remplacez le texte de substitution par un dossier réel sur votre machine.
 
 ```csharp
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Assurez-vous de remplacer « Votre répertoire de documents » par le chemin réel où vous souhaitez enregistrer votre document XPS.
+### Étape 2 : Créer un nouveau document XPS
 
-## Étape 2 : Créer un nouveau document XPS
+Instanciez un document XPS vide qui contiendra le graphique en mosaïque.
 
 ```csharp
-// Créer un nouveau document XPS
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
- Instancier un nouveau document XPS à l'aide de l'outil`XpsDocument` classe.
+### Étape 3 : Ajouter une image en mosaïque
 
-## Étape 3 : ajouter une image en mosaïque
+Ici, nous créons un chemin rectangulaire, le remplissons avec un `ImageBrush`, et définissons le pinceau en mode mosaïque. La propriété `TileMode` indique au moteur de répéter l’image à la fois horizontalement et verticalement. Ajustez les coordonnées du rectangle ou l’image source selon votre scénario.
 
 ```csharp
-// Image de tuile
-// Rectangle rempli d'ImageBrush en haut à droite ci-dessous
+// Tile image
+// ImageBrush filled rectangle in the right top below
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,160 L 228,160 228,305 10,305"));
 path.Fill = doc.CreateImageBrush(dataDir + "R08LN_NN.jpg", new RectangleF(0f, 0f, 128f, 96f), new RectangleF(0f, 0f, 64f, 48f));
 ((XpsImageBrush)path.Fill).TileMode = XpsTileMode.Tile;
 path.Fill.Opacity = 0.5f;
 ```
 
-Cette étape ajoute une image en mosaïque au document XPS. Ajustez les coordonnées et le chemin du fichier image selon vos besoins.
+### Étape 4 : Enregistrer le document XPS résultant
 
-## Étape 4 : Enregistrez le document XPS résultant
+Enfin, écrivez le document sur le disque. Le fichier de sortie peut être ouvert avec n’importe quel visualiseur XPS ou traité davantage avec Aspose.Page.
 
 ```csharp
-// Enregistrer le document XPS résultant
+// Save resultant XPS document
 doc.Save(dataDir + "AddTiledImage_outXPS.xps");
 ```
 
-Enregistrez le document XPS modifié dans le répertoire spécifié.
+## Problèmes courants & astuces
+
+- **Erreurs de chemin** – Assurez‑vous que `dataDir` se termine par un slash ou utilisez `Path.Combine` pour éviter les problèmes de séparateur manquant.  
+- **Incohérences de taille d’image** – L’image source doit être suffisamment grande pour la zone de mosaïque ; sinon le motif peut sembler étiré.  
+- **Opacité non visible** – Certains visualiseurs ignorent l’opacité sur XPS ; testez avec un visualiseur qui prend pleinement en charge le rendu XPS (par ex., XPS Viewer sous Windows).
+
+## Foire aux questions
+
+### Q1 : Aspose.Page est‑il compatible avec tous les environnements de développement .NET ?
+R : Oui, Aspose.Page fonctionne avec Visual Studio, Rider, VS Code et tout IDE supportant .NET.
+
+### Q2 : Puis‑je ajuster l’opacité de l’image en mosaïque ?
+R : Absolument. L’exemple définit `path.Fill.Opacity = 0.5f;`—vous pouvez modifier la valeur flottante entre 0 (transparent) et 1 (opaque).
+
+### Q3 : Existe‑t‑il d’autres modes de mosaïque disponibles dans Aspose.Page pour .NET ?
+R : Oui. En plus de `XpsTileMode.Tile`, vous pouvez utiliser `FlipX`, `FlipY` et `FlipXY` pour créer des motifs miroir.
+
+### Q4 : Comment gérer les licences temporaires pour Aspose.Page ?
+R : Consultez la page de [licence temporaire](https://purchase.aspose.com/temporary-license/) sur le site Aspose pour obtenir des détails sur l’obtention et l’application d’une licence d’évaluation.
+
+### Q5 : Où puis‑je obtenir de l’aide ou rejoindre la communauté Aspose.Page ?
+R : Visitez le [forum Aspose.Page](https://forum.aspose.com/c/page/39) pour poser des questions, partager des extraits et apprendre des autres développeurs.
+
+### Q6 : Puis‑je utiliser cette approche pour créer un effet de filigrane ?
+R : Oui. En réduisant l’opacité et en choisissant une image semi‑transparente, le pinceau en mosaïque fonctionne parfaitement comme filigrane répété.
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment ajouter une image en mosaïque à un document XPS à l'aide d'Aspose.Page pour .NET. Cette fonctionnalité simple mais puissante vous permet d'améliorer l'attrait visuel de vos documents sans effort.
+Vous savez maintenant **comment utiliser Aspose** pour ajouter une image en mosaïque à un document XPS, contrôler son opacité et enregistrer le résultat pour une utilisation ultérieure. Cette technique est idéale pour les motifs d’arrière‑plan, les filigranes ou toute situation où un graphique répété ajoute de l’intérêt visuel sans gonfler la taille du fichier. N’hésitez pas à expérimenter avec différentes formes, images et modes de mosaïque pour répondre aux besoins de votre projet.
 
-## FAQ
+---
 
-### Q1 : Aspose.Page est-il compatible avec tous les environnements de développement .NET ?
+**Dernière mise à jour :** 2026-03-03  
+**Testé avec :** Aspose.Page pour .NET (dernière version)  
+**Auteur :** Aspose  
 
-A1 : Oui, Aspose.Page est conçu pour fonctionner de manière transparente avec divers environnements de développement .NET, y compris Visual Studio.
-
-### Q2 : Puis-je ajuster l'opacité de l'image en mosaïque ?
-
-A2 : Certes, comme démontré dans l'exemple, vous pouvez définir l'opacité du rectangle rempli à l'aide du`Opacity` propriété.
-
-### Q3 : Existe-t-il d'autres modes de vignettes disponibles dans Aspose.Page pour .NET ?
-
- A3 : Oui, Aspose.Page propose différents modes de mosaïque. Dans ce tutoriel, nous avons utilisé`XpsTileMode.Tile`, mais vous pouvez explorer d'autres options dans la documentation.
-
-### Q4 : Comment gérer les licences temporaires pour Aspose.Page ?
-
- A4 : Reportez-vous au[permis temporaire](https://purchase.aspose.com/temporary-license/) sur le site Web d'Aspose pour obtenir des conseils sur l'obtention et la mise en œuvre de licences temporaires.
-
-### Q5 : Où puis-je demander de l'aide ou me connecter à la communauté Aspose.Page ?
-
- A5 : Visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour interagir avec la communauté, poser des questions et trouver des solutions.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
