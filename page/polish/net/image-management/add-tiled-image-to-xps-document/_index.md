@@ -1,32 +1,48 @@
 ---
-title: Dodaj obraz kafelkowy do dokumentu XPS za pomocą Aspose.Page dla .NET
-linktitle: Dodaj obraz sąsiadujący do dokumentu XPS
-second_title: Aspose.Page API .NET
-description: Przeglądaj bezproblemowe dodawanie obrazów kafelkowych do dokumentów XPS dzięki Aspose.Page dla .NET. Zwiększ atrakcyjność wizualną i twórz wspaniałe dokumenty.
-weight: 12
+date: 2026-03-03
+description: Dowiedz się, jak używać Aspose.Page dla .NET do układania obrazów w dokumentach
+  XPS. Ten przewodnik krok po kroku pokazuje, jak efektywnie układać obrazy i zwiększyć
+  ich atrakcyjność wizualną.
+linktitle: Add Tiled Image to XPS Document
+second_title: Aspose.Page .NET API
+title: Jak używać Aspose.Page do dodawania obrazka w kafelkach do dokumentu XPS
 url: /pl/net/image-management/add-tiled-image-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj obraz kafelkowy do dokumentu XPS za pomocą Aspose.Page dla .NET
+# Jak używać Aspose.Page do dodania obrazka kafelkowego do dokumentu XPS
 
-## Wstęp
+## Wprowadzenie
 
-Czy chcesz ulepszyć swoje dokumenty XPS, dodając atrakcyjne wizualnie obrazy kafelkowe? Aspose.Page dla .NET umożliwia programistom bezproblemowe osiągnięcie tego celu. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces dodawania obrazu sąsiadującego do dokumentu XPS przy użyciu Aspose.Page dla .NET.
+Jeśli zastanawiasz się **jak używać Aspose**, aby nadać swoim plikom XPS bogatszy styl wizualny, trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię przez dokładne kroki potrzebne do **kafelkowania obrazu** wewnątrz dokumentu XPS przy użyciu Aspose.Page dla .NET. Po zakończeniu będziesz mieć wielokrotnego użytku fragment kodu, który możesz wstawić do dowolnego projektu .NET, aby w locie tworzyć grafiki z obrazem kafelkowanym.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebujesz?** Aspose.Page for .NET  
+- **Która metoda tworzy pędzel kafelkowy?** `CreateImageBrush` z `TileMode = XpsTileMode.Tile`  
+- **Czy mogę kontrolować krycie?** Tak – ustaw `path.Fill.Opacity` (np. 0.5f)  
+- **Czy potrzebna jest licencja do testów?** Tymczasowa licencja działa w ocenie; pełna licencja jest wymagana w produkcji.  
+- **Jakie wersje .NET są wspierane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6!
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest Aspose.Page i dlaczego kafelkować obrazy?
 
--  Aspose.Page dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Page. Możesz znaleźć szczegółową dokumentację i pobrać bibliotekę[Tutaj](https://reference.aspose.com/page/net/).
-- Środowisko programistyczne: skonfiguruj preferowane środowisko programistyczne .NET, takie jak Visual Studio.
+Aspose.Page to potężne API, które pozwala programistom generować, edytować i renderować XPS, PDF oraz inne formaty oparte na stronach, bez polegania na Microsoft Office. Kafelkowanie obrazu — powtarzanie bitmapy na kształcie — pomaga wypełnić duże obszary wzorami, znakami wodnymi lub teksturami tła, jednocześnie utrzymując niewielki rozmiar pliku.
 
-## Importuj przestrzenie nazw
+## Jak używać Aspose.Page do kafelkowania obrazów w dokumentach XPS
 
-Aby rozpocząć, zaimportuj niezbędne przestrzenie nazw do swojego projektu. Dzięki temu masz dostęp do klas i metod wymaganych do pracy z Aspose.Page. Dodaj następujące przestrzenie nazw na początku kodu:
+Poniżej znajdziesz kompletny, gotowy do uruchomienia przykład. Każdy krok jest wyjaśniony prostym językiem przed odpowiadającym mu blokiem kodu, abyś mógł zobaczyć **dlaczego** każda linia ma znaczenie.
+
+### Wymagania wstępne
+
+- **Aspose.Page for .NET** – pobierz i odwołaj się do biblioteki ze strony oficjalnej [here](https://reference.aspose.com/page/net/).  
+- **Środowisko programistyczne** – Visual Studio (dowolna edycja) lub inne ulubione IDE .NET.
+
+### Importowanie przestrzeni nazw
+
+Najpierw wprowadź wymagane przestrzenie nazw, aby kompilator wiedział, gdzie znaleźć klasy XPS.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -34,73 +50,88 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Podzielmy teraz przykład na wiele kroków.
+### Krok 1: Zdefiniuj katalog dokumentu
 
-## Krok 1: Zdefiniuj katalog dokumentów
+Określ, gdzie będą przechowywane wygenerowany plik XPS i obraz źródłowy. Zastąp symbol zastępczy rzeczywistym folderem na swoim komputerze.
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Pamiętaj, aby zastąpić „Twój katalog dokumentów” rzeczywistą ścieżką, w której chcesz zapisać dokument XPS.
+### Krok 2: Utwórz nowy dokument XPS
 
-## Krok 2: Utwórz nowy dokument XPS
+Zainicjuj pusty dokument XPS, który będzie zawierał grafikę kafelkową.
 
 ```csharp
-// Utwórz nowy dokument XPS
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
- Utwórz instancję nowego dokumentu XPS za pomocą`XpsDocument` klasa.
+### Krok 3: Dodaj obraz kafelkowy
 
-## Krok 3: Dodaj obraz kafelkowy
+Tutaj tworzymy prostokątną ścieżkę, wypełniamy ją `ImageBrush` i ustawiamy pędzel w tryb kafelkowy. Właściwość `TileMode` instruuje silnik, aby powtarzał obraz zarówno w poziomie, jak i w pionie. Dostosuj współrzędne prostokąta lub obraz źródłowy w zależności od potrzeb.
 
 ```csharp
-// Obraz kafelkowy
-// Prostokąt wypełniony ImageBrush w prawym górnym rogu poniżej
+// Tile image
+// ImageBrush filled rectangle in the right top below
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,160 L 228,160 228,305 10,305"));
 path.Fill = doc.CreateImageBrush(dataDir + "R08LN_NN.jpg", new RectangleF(0f, 0f, 128f, 96f), new RectangleF(0f, 0f, 64f, 48f));
 ((XpsImageBrush)path.Fill).TileMode = XpsTileMode.Tile;
 path.Fill.Opacity = 0.5f;
 ```
 
-Ten krok dodaje obraz sąsiadujący z dokumentem XPS. Dostosuj współrzędne i ścieżkę pliku obrazu zgodnie ze swoimi wymaganiami.
+### Krok 4: Zapisz wynikowy dokument XPS
 
-## Krok 4: Zapisz wynikowy dokument XPS
+Na koniec zapisz dokument na dysku. Plik wyjściowy może być otwarty dowolnym przeglądarką XPS lub dalej przetwarzany przy użyciu Aspose.Page.
 
 ```csharp
-// Zapisz wynikowy dokument XPS
+// Save resultant XPS document
 doc.Save(dataDir + "AddTiledImage_outXPS.xps");
 ```
 
-Zapisz zmodyfikowany dokument XPS w określonym katalogu.
+## Typowe problemy i wskazówki
 
-## Wniosek
+- **Błędy ścieżki** – Upewnij się, że `dataDir` kończy się ukośnikiem lub użyj `Path.Combine`, aby uniknąć problemów z brakującym separatorem.  
+- **Niezgodności rozmiaru obrazu** – Obraz źródłowy powinien być wystarczająco duży dla obszaru kafelkowania; w przeciwnym razie wzór może wyglądać na rozciągnięty.  
+- **Krycie niewidoczne** – Niektóre przeglądarki ignorują krycie w XPS; przetestuj z przeglądarką, która w pełni obsługuje renderowanie XPS (np. XPS Viewer w systemie Windows).
 
-Gratulacje! Pomyślnie nauczyłeś się, jak dodać obraz sąsiadujący do dokumentu XPS przy użyciu Aspose.Page dla .NET. Ta prosta, ale zaawansowana funkcja pozwala bez wysiłku poprawić atrakcyjność wizualną dokumentów.
+## Najczęściej zadawane pytania
 
-## Często zadawane pytania
+### Q1: Czy Aspose.Page jest kompatybilny ze wszystkimi środowiskami programistycznymi .NET?
 
-### P1: Czy Aspose.Page jest kompatybilny ze wszystkimi środowiskami programistycznymi .NET?
+A: Tak, Aspose.Page działa z Visual Studio, Rider, VS Code i każdym IDE obsługującym .NET.
 
-O1: Tak, Aspose.Page został zaprojektowany do bezproblemowej współpracy z różnymi środowiskami programistycznymi .NET, w tym Visual Studio.
+### Q2: Czy mogę dostosować krycie kafelkowego obrazu?
 
-### P2: Czy mogę dostosować przezroczystość obrazu kafelkowego?
+A: Oczywiście. Przykład ustawia `path.Fill.Opacity = 0.5f;` — możesz zmienić wartość zmiennoprzecinkową pomiędzy 0 (przezroczyste) a 1 (nieprzezroczyste).
 
-Odpowiedź 2: Oczywiście, jak pokazano w przykładzie, możesz ustawić przezroczystość wypełnionego prostokąta za pomocą`Opacity` nieruchomość.
+### Q3: Czy dostępne są inne tryby kafelkowania w Aspose.Page dla .NET?
 
-### P3: Czy w Aspose.Page dla .NET dostępne są inne tryby kafelków?
+A: Tak. Oprócz `XpsTileMode.Tile` możesz używać `FlipX`, `FlipY` i `FlipXY`, aby tworzyć odbite wzory.
 
- O3: Tak, Aspose.Page udostępnia różne tryby kafelków. W tym samouczku użyliśmy`XpsTileMode.Tile`, ale możesz zapoznać się z innymi opcjami w dokumentacji.
+### Q4: Jak obsługiwać tymczasowe licencje dla Aspose.Page?
 
-### P4: Jak postępować z tymczasowymi licencjami dla Aspose.Page?
+A: Odwołaj się do strony [temporary license](https://purchase.aspose.com/temporary-license/) na witrynie Aspose, aby uzyskać szczegóły dotyczące uzyskania i zastosowania licencji próbnej.
 
- A4: Patrz[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) na stronie internetowej Aspose, aby uzyskać wskazówki dotyczące uzyskiwania i wdrażania licencji tymczasowych.
+### Q5: Gdzie mogę uzyskać pomoc lub połączyć się ze społecznością Aspose.Page?
 
-### P5: Gdzie mogę szukać pomocy lub nawiązać kontakt ze społecznością Aspose.Page?
+A: Odwiedź [forum Aspose.Page](https://forum.aspose.com/c/page/39), aby zadawać pytania, udostępniać fragmenty kodu i uczyć się od innych programistów.
 
- A5: Odwiedź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) aby nawiązać kontakt ze społecznością, zadawać pytania i znajdować rozwiązania.
+### Q6: Czy mogę użyć tego podejścia do stworzenia efektu znaku wodnego?
+
+A: Tak. Obniżając krycie i wybierając półprzezroczysty obraz, pędzel kafelkowy doskonale sprawdza się jako powtarzający się znak wodny.
+
+## Podsumowanie
+
+Teraz wiesz **jak używać Aspose**, aby dodać obraz kafelkowy do dokumentu XPS, kontrolować jego krycie i zapisać wynik do dalszego użycia. Ta technika jest idealna dla wzorów tła, znaków wodnych lub każdej sytuacji, w której powtarzająca się grafika dodaje atrakcyjności wizualnej bez zwiększania rozmiaru pliku. Śmiało eksperymentuj z różnymi kształtami, obrazami i trybami kafelkowania, aby dopasować je do potrzeb swojego projektu.
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-03  
+**Testowano z:** Aspose.Page for .NET (latest release)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

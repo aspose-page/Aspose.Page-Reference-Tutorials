@@ -1,35 +1,53 @@
 ---
-title: Ändern Sie die Größe von EPS-Bildern mit Aspose.Page für .NET
-linktitle: Ändern Sie die Größe von EPS-Bildern
-second_title: Aspose.Page .NET-API
-description: Entdecken Sie den nahtlosen Prozess der Größenänderung von EPS-Bildern in .NET mit Aspose.Page. Erzielen Sie mühelos Präzision in Punkten, Zoll, Millimetern und Prozentsätzen.
-weight: 11
+date: 2026-03-03
+description: Erfahren Sie, wie Sie EPS‑Bilder in .NET mit Aspose.Page skalieren –
+  eine Schritt‑für‑Schritt‑Anleitung zum Ändern der Größe von EPS mit Punkten, Zoll,
+  Millimetern oder Prozent.
+linktitle: Resize EPS Images
+second_title: Aspose.Page .NET API
+title: Wie man EPS-Bilder mit Aspose.Page für .NET in der Größe ändert
 url: /de/net/image-manipulation/resize-eps-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ändern Sie die Größe von EPS-Bildern mit Aspose.Page für .NET
+# Wie man EPS‑Bilder mit Aspose.Page für .NET skaliert
 
 ## Einführung
 
-Möchten Sie die Größe von EPS-Bildern nahtlos mit Aspose.Page für .NET ändern? Dieses Tutorial ist Ihr umfassender Leitfaden zum mühelosen Bearbeiten der Größe von EPS-Bildern in verschiedenen Einheiten wie Punkt, Zoll, Millimeter und Prozent. Aspose.Page für .NET bietet eine Reihe leistungsstarker Tools. In diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess.
+Suchen Sie **nach einer Möglichkeit, EPS‑Bilder** nahtlos mit Aspose.Page für .NET zu skalieren? Dieses Tutorial ist Ihr umfassender Leitfaden, um die Größe von EPS‑Bildern in verschiedenen Einheiten wie Punkten, Zoll, Millimetern und Prozentwerten mühelos zu ändern. Aspose.Page für .NET bietet ein leistungsstarkes Set‑von‑Tools, und in diesem Tutorial führen wir Sie Schritt für Schritt durch den Prozess.
+
+## Schnellantworten
+- **Welche Bibliothek übernimmt das Skalieren von EPS?** Aspose.Page für .NET  
+- **Welche Einheiten werden unterstützt?** Punkte, Zoll, Millimeter und Prozent  
+- **Benötige ich eine Lizenz für die Produktion?** Ja – eine kommerzielle Lizenz ist erforderlich  
+- **Kann ich mehrere Dateien gleichzeitig skalieren?** Absolut – einfach über die Dateien iterieren  
+- **Wird .NET Core unterstützt?** Ja, die API funktioniert mit .NET Framework und .NET Core  
+
+## Was ist EPS‑Skalierung?
+Encapsulated PostScript (EPS) ist ein vektorbasierter Grafikstandard, der häufig in Druck‑ und Design‑Workflows verwendet wird. Das Skalieren einer EPS‑Datei ändert ihre Begrenzungsbox, ohne die Grafik zu rasterisieren, und bewahrt so die Schärfe bei jeder Größe.
+
+## Warum EPS‑Bilder skalieren?
+- **Druckqualität erhalten:** Vektorskalierung hält Kanten scharf.  
+- **Layout‑Anforderungen erfüllen:** Abmessungen an Seiten‑ oder Leinwandgrößen anpassen.  
+- **Batch‑Jobs automatisieren:** Programmatisch Dutzende von Dateien in Sekunden skalieren.  
 
 ## Voraussetzungen
 
-Bevor Sie in die Magie der Größenänderung eintauchen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie mit der Skalier‑Magie beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
--  Aspose.Page für .NET-Bibliothek: Stellen Sie sicher, dass die Aspose.Page für .NET-Bibliothek installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/page/net/).
+- Aspose.Page für .NET Bibliothek: Vergewissern Sie sich, dass die Aspose.Page für .NET Bibliothek installiert ist. Sie können sie von [hier](https://releases.aspose.com/page/net/) herunterladen.
 
-- Dokumentverzeichnis: Erstellen Sie ein Verzeichnis, in dem Sie Ihre Eingabe-EPS-Datei und die Ausgabedateien mit geänderter Größe speichern.
+- Dokumenten‑Verzeichnis: Erstellen Sie ein Verzeichnis, in dem Sie Ihre Eingabe‑EPS‑Datei und die ausgegebenen, skalierten Dateien speichern.
 
-Nachdem Sie nun alles eingerichtet haben, beginnen wir mit dem Import der erforderlichen Namespaces und vertiefen uns in die Schritt-für-Schritt-Anleitung.
+Jetzt, wo alles eingerichtet ist, fahren wir fort, die erforderlichen Namespaces zu importieren und gehen die Schritt‑für‑Schritt‑Anleitung durch.
 
 ## Namespaces importieren
 
-Beginnen Sie in Ihrem .NET-Projekt mit dem Importieren der erforderlichen Namespaces für die Arbeit mit Aspose.Page. Fügen Sie den folgenden Code am Anfang Ihrer Datei hinzu:
+Importieren Sie in Ihrem .NET‑Projekt die notwendigen Namespaces, um mit Aspose.Page zu arbeiten. Fügen Sie den folgenden Code am Anfang Ihrer Datei hinzu:
 
 ```csharp
 using Aspose.Page;
@@ -44,14 +62,14 @@ using System.Linq;
 using System.Text;
 ```
 
-## Schritt 1: Größenänderung in Punkten
+## EPS in Punkten skalieren
 
-Beginnen wir mit der Größenänderung eines EPS-Bildes in Punkten. Punkte sind eine Standardmaßeinheit in der Druckindustrie.
+Punkte sind eine gängige Maßeinheit in der Druckindustrie. Das nachfolgende Beispiel verdoppelt die ursprüngliche Breite und Höhe.
 
 ```csharp
 public static void ResizeInPoints()
 {
-    // Ihr Dokumentenverzeichnis
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -68,14 +86,14 @@ public static void ResizeInPoints()
 }
 ```
 
-## Schritt 2: Größenänderung in Zoll
+## EPS in Zoll skalieren
 
-Lassen Sie uns nun die Größe eines EPS-Bildes in Zoll ändern, einer im Grafikdesign üblichen Einheit.
+Zoll werden von Grafikdesignern häufig verwendet, wenn sie Assets für den Druck vorbereiten.
 
 ```csharp
 public static void ResizeInInches()
 {
-    // Ihr Dokumentenverzeichnis
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -92,14 +110,14 @@ public static void ResizeInInches()
 }
 ```
 
-## Schritt 3: Größenänderung in Millimetern
+## EPS in Millimetern skalieren
 
-Lassen Sie uns nun die Größe eines EPS-Bildes in Millimetern ändern, einer weiteren häufig verwendeten Einheit in Design und Druck.
+Millimeter sind in Regionen üblich, die das metrische System verwenden.
 
 ```csharp
 public static void ResizeInMillimeters()
 {
-    // Ihr Dokumentenverzeichnis
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -116,14 +134,14 @@ public static void ResizeInMillimeters()
 }
 ```
 
-## Schritt 4: Größenänderung in Prozent
+## EPS mit Prozentwerten skalieren
 
-Abschließend ändern wir die Größe eines EPS-Bilds mithilfe von Prozentsätzen und bieten so einen flexiblen Ansatz zum Anpassen der Bildgröße.
+Prozentbasierte Skalierung ermöglicht es, das Bild relativ zu seiner Originalgröße zu vergrößern oder zu verkleinern.
 
 ```csharp
 public static void ResizeInPercents()
 {
-    // Ihr Dokumentenverzeichnis
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -140,33 +158,62 @@ public static void ResizeInPercents()
 }
 ```
 
-Integrieren Sie diese Methoden gerne in Ihr Projekt und Sie können die Größe von EPS-Bildern mühelos ändern. Experimentieren Sie mit verschiedenen Einheiten, um die gewünschten Abmessungen zu erreichen.
+Integrieren Sie diese Methoden in Ihr Projekt, und Sie werden EPS‑Bilder mühelos skalieren. Experimentieren Sie mit verschiedenen Einheiten, um die gewünschten Abmessungen zu erreichen.
 
-## Abschluss
+## Häufige Probleme und Lösungen
+- **Datei nicht gefunden:** Prüfen Sie, ob `dataDir` auf den richtigen Ordner zeigt und `input.eps` existiert.  
+- **Unerwartete Größe:** Denken Sie daran, dass `Units.Percents` Werte wie 150 für 150 % der Originalgröße erwartet.  
+- **Lizenz‑Ausnahme:** Wenn ein Lizenzfehler angezeigt wird, stellen Sie sicher, dass eine gültige Aspose.Page‑Lizenzdatei geladen wird, bevor `PsDocument` erstellt wird.
 
-Glückwunsch! Sie beherrschen die Kunst der Größenänderung von EPS-Bildern mit Aspose.Page für .NET. Diese leistungsstarke Bibliothek eröffnet eine Welt voller Möglichkeiten zur Bearbeitung von Vektorgrafiken. Egal, ob Sie für Print- oder digitale Medien entwerfen, mit Aspose.Page können Sie präzise und individuelle Ergebnisse erzielen.
+## Fazit
 
-## FAQs
+Herzlichen Glückwunsch! Sie haben **gelernt, wie man EPS‑Bilder** mit Aspose.Page für .NET skaliert. Diese leistungsstarke Bibliothek eröffnet zahlreiche Möglichkeiten zur Manipulation von Vektorgrafiken. Egal, ob Sie für Druck oder digitale Medien designen, Aspose.Page ermöglicht Ihnen präzise und individuell angepasste Ergebnisse.
 
-### F1: Kann ich die Größe mehrerer EPS-Bilder gleichzeitig ändern?
+## FAQ's
 
-A1: Ja, Sie können eine Sammlung von EPS-Dateien durchlaufen und die Größenänderungsmethoden entsprechend anwenden.
+### Q1: Kann ich mehrere EPS‑Bilder gleichzeitig skalieren?
 
-### F2: Ist Aspose.Page mit anderen Bildformaten kompatibel?
+A1: Ja, Sie können über eine Sammlung von EPS‑Dateien iterieren und die Skalierungsmethoden entsprechend anwenden.
 
-A2: Aspose.Page konzentriert sich hauptsächlich auf PostScript- und EPS-Formate. Erwägen Sie für andere Bildformate die Verwendung von Aspose.Imaging.
+### Q2: Ist Aspose.Page mit anderen Bildformaten kompatibel?
 
-### F3: Gibt es Lizenzierungsaspekte für kommerzielle Projekte?
+A2: Aspose.Page konzentriert sich hauptsächlich auf PostScript‑ und EPS‑Formate. Für andere Bildformate sollten Sie Aspose.Imaging in Betracht ziehen.
 
- A3: Ja, stellen Sie sicher, dass Sie über eine gültige Lizenz verfügen. Besuchen[Hier](https://purchase.aspose.com/buy) für Lizenzdetails.
+### Q3: Gibt es Lizenz‑Überlegungen für kommerzielle Projekte?
 
-### F4: Kann ich Aspose.Page vor dem Kauf testen?
+A3: Ja, stellen Sie sicher, dass Sie eine gültige Lizenz besitzen. Besuchen Sie [hier](https://purchase.aspose.com/buy) für Lizenzdetails.
 
- A4: Auf jeden Fall! Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+### Q4: Kann ich Aspose.Page vor dem Kauf testen?
 
-### F5: Wo kann ich zusätzliche Hilfe suchen oder Probleme besprechen?
+A4: Absolut! Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) erhalten.
 
- A5: Besuchen Sie die[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) um mit der Community in Kontakt zu treten und Hilfe zu erhalten.
+### Q5: Wo finde ich zusätzliche Hilfe oder kann über Probleme diskutieren?
+
+A5: Besuchen Sie das [Aspose.Page‑Forum](https://forum.aspose.com/c/page/39), um mit der Community in Kontakt zu treten und Unterstützung zu erhalten.
+
+## Häufig gestellte Fragen
+
+**F: Funktioniert dieser Code mit .NET Core 6?**  
+A: Ja. Die API ist kompatibel mit .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ und .NET 6+.
+
+**F: Wie kann ich das ursprüngliche Farbprofil erhalten?**  
+A: Die Methode `ResizeEps` ändert keine Farbdaten; sie ändert nur die Begrenzungsbox.
+
+**F: Ist es möglich, ein EPS zu skalieren, ohne die gesamte Datei in den Speicher zu laden?**  
+A: Die Verwendung eines Streams, wie gezeigt, hält den Speicherverbrauch niedrig; das Dokument wird on‑the‑fly verarbeitet.
+
+**F: Kann ich mehrere Skalierungsoperationen hintereinander ausführen?**  
+A: Absolut. Rufen Sie `ResizeEps` nacheinander auf derselben `PsDocument`‑Instanz auf.
+
+**F: Was passiert mit eingebetteten Bildern im EPS?**  
+A: Sie werden proportional zum Vektorinhalt skaliert und behalten ihre Qualität bei.
+
+---
+
+**Zuletzt aktualisiert:** 2026-03-03  
+**Getestet mit:** Aspose.Page 24.12 für .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

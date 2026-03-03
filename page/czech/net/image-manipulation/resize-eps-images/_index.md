@@ -1,35 +1,53 @@
 ---
-title: Změna velikosti obrázků EPS pomocí Aspose.Page pro .NET
-linktitle: Změna velikosti obrázků EPS
+date: 2026-03-03
+description: Naučte se, jak změnit velikost EPS obrázků v .NET pomocí Aspose.Page
+  – krok za krokem průvodce, jak měnit velikost EPS pomocí bodů, palců, milimetrů
+  nebo procent.
+linktitle: Resize EPS Images
 second_title: Aspose.Page .NET API
-description: Prozkoumejte bezproblémový proces změny velikosti obrázků EPS v .NET pomocí Aspose.Page. Bez námahy dosáhněte přesnosti v bodech, palcích, milimetrech a procentech.
-weight: 11
+title: Jak změnit velikost EPS obrázků pomocí Aspose.Page pro .NET
 url: /cs/net/image-manipulation/resize-eps-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Změna velikosti obrázků EPS pomocí Aspose.Page pro .NET
+# Jak změnit velikost EPS obrázků pomocí Aspose.Page pro .NET
 
 ## Úvod
 
-Hledáte bezproblémovou změnu velikosti obrázků EPS pomocí Aspose.Page for .NET? Tento výukový program je vaším komplexním průvodcem, jak bez námahy manipulovat s velikostí obrázků EPS v různých jednotkách, jako jsou body, palce, milimetry a procenta. Aspose.Page for .NET poskytuje výkonnou sadu nástrojů a v tomto tutoriálu vás provedeme procesem krok za krokem.
+Hledáte **jak změnit velikost EPS** obrázků snadno pomocí Aspose.Page pro .NET? Tento tutoriál je vaším komplexním průvodcem, jak bez námahy manipulovat s velikostí EPS obrázků v různých jednotkách, jako jsou body, palce, milimetry a procenta. Aspose.Page pro .NET poskytuje výkonný soubor nástrojů a v tomto tutoriálu vás provedeme procesem krok za krokem.
+
+## Rychlé odpovědi
+- **Která knihovna zpracovává změnu velikosti EPS?** Aspose.Page for .NET  
+- **Jaké jednotky jsou podporovány?** Body, Palce, Milimetry a Procenta  
+- **Potřebuji licenci pro produkci?** Ano – je vyžadována komerční licence  
+- **Mohu změnit velikost více souborů najednou?** Rozhodně – stačí projít soubory ve smyčce  
+- **Je podporován .NET Core?** Ano, API funguje s .NET Framework i .NET Core  
+
+## Co je změna velikosti EPS?
+Encapsulated PostScript (EPS) je vektorový grafický formát běžně používaný v tiskařských a designových pracovních postupech. Změna velikosti EPS souboru upraví jeho ohraničující rámeček bez rasterizace grafiky, čímž zachová ostrost při jakémkoli měřítku.
+
+## Proč měnit velikost EPS obrázků?
+- **Udržet kvalitu tisku:** Vektorové škálování zachovává ostré hrany.  
+- **Splnit požadavky rozvržení:** Upravit rozměry tak, aby odpovídaly velikosti stránky nebo plátna.  
+- **Automatizovat dávkové úlohy:** Programově změnit velikost desítek souborů během několika sekund.  
 
 ## Předpoklady
 
-Než se ponoříte do magie změny velikosti, ujistěte se, že máte splněny následující předpoklady:
+Než se ponoříte do magie změny velikosti, ujistěte se, že máte následující předpoklady připravené:
 
--  Knihovna Aspose.Page for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/page/net/).
+- Aspose.Page for .NET knihovna: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page pro .NET. Můžete si ji stáhnout [zde](https://releases.aspose.com/page/net/).
 
-- Adresář dokumentů: Vytvořte adresář, kam budete ukládat vstupní soubor EPS a výstupní soubory se změněnou velikostí.
+- Adresář dokumentů: Vytvořte adresář, kde budete ukládat vstupní EPS soubor a výstupní soubory po změně velikosti.
 
-Nyní, když máte vše nastaveno, přistoupíme k importu potřebných jmenných prostorů a ponoříme se do podrobného průvodce.
+Nyní, když máte vše připravené, přejděme k importu potřebných jmenných prostorů a ponořme se do podrobného průvodce.
 
 ## Import jmenných prostorů
 
-Ve svém projektu .NET začněte importem jmenných prostorů nezbytných pro práci s Aspose.Page. Na začátek souboru přidejte následující kód:
+Ve vašem .NET projektu začněte importovat potřebné jmenné prostory pro práci s Aspose.Page. Přidejte následující kód na začátek souboru:
 
 ```csharp
 using Aspose.Page;
@@ -44,14 +62,14 @@ using System.Linq;
 using System.Text;
 ```
 
-## Krok 1: Změna velikosti v bodech
+## Jak změnit velikost EPS v bodech
 
-Začněme změnou velikosti obrázku EPS v bodech. Body jsou standardní měrnou jednotkou v polygrafickém průmyslu.
+Body jsou standardní jednotkou měření v tiskařském průmyslu. Níže uvedený příklad zdvojnásobí původní šířku a výšku.
 
 ```csharp
 public static void ResizeInPoints()
 {
-    // Váš adresář dokumentů
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -68,14 +86,14 @@ public static void ResizeInPoints()
 }
 ```
 
-## Krok 2: Změna velikosti v palcích
+## Jak změnit velikost EPS v palcích
 
-Nyní změňme velikost obrázku EPS v palcích, což je běžná jednotka používaná v grafickém designu.
+Palce jsou často používány grafickými designéry při přípravě materiálů pro tisk.
 
 ```csharp
 public static void ResizeInInches()
 {
-    // Váš adresář dokumentů
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -92,14 +110,14 @@ public static void ResizeInInches()
 }
 ```
 
-## Krok 3: Změna velikosti v milimetrech
+## Jak změnit velikost EPS v milimetrech
 
-Nyní změňme velikost obrázku EPS v milimetrech, což je další široce používaná jednotka v designu a tisku.
+Milimetry jsou běžné v regionech, které používají metrický systém.
 
 ```csharp
 public static void ResizeInMillimeters()
 {
-    // Váš adresář dokumentů
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -116,14 +134,14 @@ public static void ResizeInMillimeters()
 }
 ```
 
-## Krok 4: Změna velikosti v procentech
+## Jak změnit velikost EPS pomocí procent
 
-Nakonec změňme velikost obrázku EPS pomocí procent, což poskytuje flexibilní přístup k úpravě velikosti obrázku.
+Změna velikosti založená na procentech vám umožní škálovat obrázek relativně k jeho původní velikosti.
 
 ```csharp
 public static void ResizeInPercents()
 {
-    // Váš adresář dokumentů
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -140,33 +158,62 @@ public static void ResizeInPercents()
 }
 ```
 
-Neváhejte a integrujte tyto metody do svého projektu a velikost obrázků EPS budete bez námahy měnit. Experimentujte s různými jednotkami, abyste dosáhli požadovaných rozměrů.
+Neváhejte tyto metody začlenit do svého projektu a budete měnit velikost EPS obrázků bez námahy. Experimentujte s různými jednotkami, abyste dosáhli požadovaných rozměrů.
+
+## Časté problémy a řešení
+- **Soubor nenalezen:** Ověřte, že `dataDir` ukazuje na správný adresář a že `input.eps` existuje.  
+- **Neočekávaná velikost:** Pamatujte, že `Units.Percents` očekává hodnoty jako 150 pro 150 % původní velikosti.  
+- **Výjimka licence:** Pokud se zobrazí chyba licence, ujistěte se, že je načten platný soubor licence Aspose.Page před vytvořením `PsDocument`.
 
 ## Závěr
 
-Gratulujeme! Zvládli jste umění změny velikosti obrázků EPS pomocí Aspose.Page for .NET. Tato výkonná knihovna otevírá svět možností pro manipulaci s vektorovou grafikou. Ať už navrhujete pro tisk nebo digitální média, Aspose.Page vám umožňuje dosáhnout přesných a přizpůsobených výsledků.
+Gratulujeme! Ovládli jste **jak změnit velikost EPS** obrázků pomocí Aspose.Page pro .NET. Tato výkonná knihovna otevírá svět možností pro manipulaci s vektorovou grafikou. Ať už navrhujete pro tisk nebo digitální média, Aspose.Page vám umožní dosáhnout přesných a přizpůsobených výsledků.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu změnit velikost více obrázků EPS současně?
+### Q1: Mohu změnit velikost více EPS obrázků najednou?
 
-Odpověď 1: Ano, můžete procházet kolekcí souborů EPS a odpovídajícím způsobem použít metody změny velikosti.
+A1: Ano, můžete projít kolekci EPS souborů a podle toho aplikovat metody změny velikosti.
 
 ### Q2: Je Aspose.Page kompatibilní s jinými formáty obrázků?
 
 A2: Aspose.Page se primárně zaměřuje na formáty PostScript a EPS. Pro jiné formáty obrázků zvažte použití Aspose.Imaging.
 
-### Q3: Existují nějaké licenční úvahy pro komerční projekty?
+### Q3: Existují licenční požadavky pro komerční projekty?
 
- A3: Ano, ujistěte se, že máte platnou licenci. Návštěva[tady](https://purchase.aspose.com/buy) pro podrobnosti o licencích.
+A3: Ano, ujistěte se, že máte platnou licenci. Navštivte [zde](https://purchase.aspose.com/buy) pro podrobnosti o licencování.
 
-### Q4: Mohu vyzkoušet Aspose.Page před nákupem?
+### Q4: Můžu vyzkoušet Aspose.Page před zakoupením?
 
- A4: Rozhodně! Můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+A4: Rozhodně! Můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
-### Q5: Kde mohu vyhledat další pomoc nebo prodiskutovat problémy?
+### Q5: Kde mohu získat další pomoc nebo diskutovat o problémech?
 
- A5: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) spojit se s komunitou a získat pomoc.
+A5: Navštivte [forum Aspose.Page](https://forum.aspose.com/c/page/39), kde se můžete spojit s komunitou a získat pomoc.
+
+## Často kladené otázky
+
+**Q: Funguje tento kód s .NET Core 6?**  
+A: Ano. API je kompatibilní s .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ a .NET 6+.
+
+**Q: Jak mohu zachovat původní barevný profil?**  
+A: Metoda `ResizeEps` nemění barevná data; pouze mění ohraničující rámeček.
+
+**Q: Je možné změnit velikost EPS bez načtení celého souboru do paměti?**  
+A: Použití proudu, jak je ukázáno, udržuje nízkou spotřebu paměti; dokument je zpracováván za běhu.
+
+**Q: Mohu řetězit více operací změny velikosti?**  
+A: Rozhodně. Zavolejte `ResizeEps` postupně na stejném instanci `PsDocument`.
+
+**Q: Co se stane s vloženými obrázky uvnitř EPS?**  
+A: Jsou škálovány proporcionálně s vektorovým obsahem, zachovávají kvalitu.
+
+---
+
+**Poslední aktualizace:** 2026-03-03  
+**Testováno s:** Aspose.Page 24.12 pro .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

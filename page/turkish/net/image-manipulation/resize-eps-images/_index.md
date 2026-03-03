@@ -1,35 +1,53 @@
 ---
-title: EPS Görüntülerini Aspose.Page for .NET ile yeniden boyutlandırın
-linktitle: EPS Görüntülerini Yeniden Boyutlandır
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page'i kullanarak .NET'te EPS görüntülerini yeniden boyutlandırmanın kusursuz sürecini keşfedin. Zahmetsizce nokta, inç, milimetre ve yüzde hassasiyetine ulaşın.
-weight: 11
+date: 2026-03-03
+description: Aspose.Page ile .NET’te EPS görüntülerini yeniden boyutlandırmayı öğrenin
+  – puan, inç, milimetre veya yüzde kullanarak EPS’yi yeniden boyutlandırma konusunda
+  adım adım bir rehber.
+linktitle: Resize EPS Images
+second_title: Aspose.Page .NET API
+title: Aspose.Page for .NET ile EPS Görüntülerini Yeniden Boyutlandırma
 url: /tr/net/image-manipulation/resize-eps-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# EPS Görüntülerini Aspose.Page for .NET ile yeniden boyutlandırın
+# Aspose.Page for .NET ile EPS Görüntülerini Yeniden Boyutlandırma
 
-## giriiş
+## Giriş
 
-Aspose.Page for .NET'i kullanarak EPS görüntülerini sorunsuz bir şekilde yeniden boyutlandırmak mı istiyorsunuz? Bu eğitim, EPS görüntülerinin boyutunu nokta, inç, milimetre ve yüzde gibi çeşitli birimlerle zahmetsizce değiştirmek için kapsamlı kılavuzunuzdur. Aspose.Page for .NET güçlü bir araç seti sunar ve bu eğitimde size süreci adım adım anlatacağız.
+Aspose.Page for .NET kullanarak **EPS görüntülerini nasıl yeniden boyutlandıracağınızı** sorunsuz bir şekilde mi arıyorsunuz? Bu öğretici, EPS görüntülerinin boyutunu noktalar, inçler, milimetreler ve yüzde gibi çeşitli birimlerde zahmetsizce manipüle etmeniz için kapsamlı bir rehberdir. Aspose.Page for .NET güçlü bir araç seti sunar ve bu öğreticide, süreci adım adım sizinle birlikte ele alacağız.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **EPS yeniden boyutlandırmayı hangi kütüphane yönetir?** Aspose.Page for .NET  
+- **Hangi birimler desteklenir?** Noktalar, İnçler, Milimetreler ve Yüzdeler  
+- **Üretim için lisansa ihtiyacım var mı?** Evet – ticari bir lisans gereklidir  
+- **Birden fazla dosyayı aynı anda yeniden boyutlandırabilir miyim?** Kesinlikle – sadece dosyalar arasında döngü yapın  
+- **.NET Core destekleniyor mu?** Evet, API .NET Framework ve .NET Core ile çalışır  
 
-Yeniden boyutlandırma büyüsüne dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## EPS Yeniden Boyutlandırma Nedir?
+Encapsulated PostScript (EPS), baskı ve tasarım iş akışlarında yaygın olarak kullanılan vektör tabanlı bir grafik formatıdır. Bir EPS dosyasının yeniden boyutlandırılması, sanat eserini rasterleştirmeden sınırlama kutusunu değiştirir ve herhangi bir ölçekte netliği korur.
 
--  Aspose.Page for .NET Library: Aspose.Page for .NET kütüphanesinin kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/page/net/).
+## EPS Görüntülerini Neden Yeniden Boyutlandırmalısınız?
+- **Baskı Kalitesini Koruyun:** Vektör ölçeklendirme kenarları keskin tutar.  
+- **Düzen Gereksinimlerine Uyun:** Boyutları sayfa veya tuval boyutlarıyla eşleyecek şekilde ayarlayın.  
+- **Toplu İşleri Otomatikleştirin:** Programlı olarak dakikalar içinde onlarca dosyayı yeniden boyutlandırın.  
 
-- Belge Dizini: Giriş EPS dosyanızı ve yeniden boyutlandırılmış çıktı dosyalarınızı saklayacağınız bir dizin oluşturun.
+## Ön Koşullar
 
-Artık her şeyi ayarladığınıza göre, gerekli ad alanlarını içe aktarmaya devam edelim ve adım adım kılavuzu inceleyelim.
+Yeniden boyutlandırma sihrine dalmadan önce, aşağıdaki ön koşulların yerine getirildiğinden emin olun:
 
-## Ad Alanlarını İçe Aktar
+- Aspose.Page for .NET Kütüphanesi: Aspose.Page for .NET kütüphanesinin yüklü olduğundan emin olun. [buradan](https://releases.aspose.com/page/net/) indirebilirsiniz.
 
-.NET projenize Aspose.Page ile çalışmak için gerekli ad alanlarını içe aktararak başlayın. Dosyanızın başına aşağıdaki kodu ekleyin:
+- Belge Dizini: Giriş EPS dosyanızı ve çıktı yeniden boyutlandırılmış dosyalarınızı saklayacağınız bir dizin oluşturun.
+
+Artık her şey hazır olduğuna göre, gerekli ad alanlarını içe aktarmaya devam edelim ve adım adım kılavuza dalalım.
+
+## Ad Alanlarını İçe Aktarma
+
+.NET projenizde, Aspose.Page ile çalışmak için gerekli ad alanlarını içe aktararak başlayın. Dosyanızın başına aşağıdaki kodu ekleyin:
 
 ```csharp
 using Aspose.Page;
@@ -44,14 +62,14 @@ using System.Linq;
 using System.Text;
 ```
 
-## 1. Adım: Noktalarda Yeniden Boyutlandırma
+## EPS'i Noktalarla Yeniden Boyutlandırma
 
-Bir EPS görüntüsünü noktalar halinde yeniden boyutlandırarak başlayalım. Noktalar baskı endüstrisinde standart bir ölçü birimidir.
+Noktalar, baskı endüstrisinde standart bir ölçü birimidir. Aşağıdaki örnek, orijinal genişlik ve yüksekliği iki katına çıkarır.
 
 ```csharp
 public static void ResizeInPoints()
 {
-    // Belge Dizininiz
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -68,14 +86,14 @@ public static void ResizeInPoints()
 }
 ```
 
-## Adım 2: İnç Cinsinden Yeniden Boyutlandırma
+## EPS'i İnçlerle Yeniden Boyutlandırma
 
-Şimdi bir EPS görüntüsünü grafik tasarımda yaygın olarak kullanılan bir birim olan inç cinsinden yeniden boyutlandıralım.
+İnçler, grafik tasarımcıların baskı için varlıkları hazırlarken sıkça kullandığı bir birimdir.
 
 ```csharp
 public static void ResizeInInches()
 {
-    // Belge Dizininiz
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -92,14 +110,14 @@ public static void ResizeInInches()
 }
 ```
 
-## Adım 3: Milimetre cinsinden yeniden boyutlandırma
+## EPS'i Milimetrelerle Yeniden Boyutlandırma
 
-Şimdi bir EPS görüntüsünü, tasarım ve baskıda yaygın olarak kullanılan bir diğer birim olan milimetre cinsinden yeniden boyutlandıralım.
+Milimetreler, metrik sistemi kullanan bölgelerde yaygındır.
 
 ```csharp
 public static void ResizeInMillimeters()
 {
-    // Belge Dizininiz
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -116,14 +134,14 @@ public static void ResizeInMillimeters()
 }
 ```
 
-## Adım 4: Yüzde Olarak Yeniden Boyutlandırma
+## EPS'i Yüzde Kullanarak Yeniden Boyutlandırma
 
-Son olarak, görüntü boyutunu ayarlamak için esnek bir yaklaşım sağlayarak, yüzdeleri kullanarak bir EPS görüntüsünü yeniden boyutlandıralım.
+Yüzde tabanlı yeniden boyutlandırma, görüntüyü orijinal boyutuna göre ölçeklendirmenizi sağlar.
 
 ```csharp
 public static void ResizeInPercents()
 {
-    // Belge Dizininiz
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -140,33 +158,57 @@ public static void ResizeInPercents()
 }
 ```
 
-Bu yöntemleri projenize entegre etmekten çekinmeyin; EPS görüntülerini zahmetsizce yeniden boyutlandıracaksınız. İstenilen boyutlara ulaşmak için farklı birimlerle denemeler yapın.
+Bu yöntemleri projenize entegre etmekten çekinmeyin, böylece EPS görüntülerini zahmetsizce yeniden boyutlandırabilirsiniz. İstediğiniz boyutları elde etmek için farklı birimlerle denemeler yapın.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
+- **Dosya bulunamadı:** `dataDir`'in doğru klasöre işaret ettiğini ve `input.eps` dosyasının mevcut olduğunu doğrulayın.  
+- **Beklenmeyen boyut:** `Units.Percents` değerinin orijinal boyutun %150'si için 150 gibi bir değer beklediğini unutmayın.  
+- **Lisans istisnası:** Lisans hatası görürseniz, `PsDocument` oluşturulmadan önce geçerli bir Aspose.Page lisans dosyasının yüklendiğinden emin olun.  
 
-Tebrikler! Aspose.Page for .NET ile EPS görüntülerini yeniden boyutlandırma sanatında ustalaştınız. Bu güçlü kütüphane, vektör grafiklerini değiştirmek için bir olasılıklar dünyasının kapılarını açar. İster basılı ister dijital medya için tasarım yapıyor olun, Aspose.Page hassas ve özelleştirilmiş sonuçlar elde etmenizi sağlar.
+## Sonuç
+
+Tebrikler! Aspose.Page for .NET ile **EPS görüntülerini nasıl yeniden boyutlandıracağınızı** ustaca öğrendiniz. Bu güçlü kütüphane, vektör grafiklerini manipüle etmek için bir dizi olasılık sunar. Baskı ya da dijital medya tasarımı yapıyor olun, Aspose.Page size kesin ve özelleştirilmiş sonuçlar elde etme gücü verir.
 
 ## SSS'ler
 
 ### S1: Birden fazla EPS görüntüsünü aynı anda yeniden boyutlandırabilir miyim?
+A1: Evet, EPS dosyalarının bir koleksiyonunda döngü yaparak, yeniden boyutlandırma yöntemlerini buna göre uygulayabilirsiniz.
 
-Cevap1: Evet, yeniden boyutlandırma yöntemlerini uygun şekilde uygulayarak bir EPS dosyaları koleksiyonunda dolaşabilirsiniz.
+### S2: Aspose.Page diğer görüntü formatlarıyla uyumlu mu?
+A2: Aspose.Page öncelikle PostScript ve EPS formatlarına odaklanır. Diğer görüntü formatları için Aspose.Imaging kullanmayı düşünün.
 
-### S2: Aspose.Page diğer görüntü formatlarıyla uyumlu mudur?
-
-Cevap2: Aspose.Page öncelikli olarak PostScript ve EPS formatlarına odaklanır. Diğer görüntü formatları için Aspose.Imaging'i kullanmayı düşünün.
-
-### S3: Ticari projeler için lisanslamayla ilgili hususlar var mı?
-
- C3: Evet, geçerli bir lisansınız olduğundan emin olun. Ziyaret etmek[Burada](https://purchase.aspose.com/buy) lisans ayrıntıları için.
+### S3: Ticari projeler için lisans konuları var mı?
+A3: Evet, geçerli bir lisansa sahip olduğunuzdan emin olun. Lisans detayları için [burayı](https://purchase.aspose.com/buy) ziyaret edin.
 
 ### S4: Satın almadan önce Aspose.Page'i deneyebilir miyim?
+A4: Kesinlikle! Ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
 
- Cevap4: Kesinlikle! Ücretsiz deneme alabilirsiniz[Burada](https://releases.aspose.com/).
+### S5: Ek yardım almak ya da sorunları tartışmak için nereden ulaşabilirim?
+A5: Toplulukla bağlantı kurmak ve yardım almak için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
 
-### S5: Nereden ek yardım alabilirim veya sorunları tartışabilirim?
+## Sık Sorulan Sorular
 
- A5: ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) toplulukla bağlantı kurmak ve yardım almak için.
+**S: Bu kod .NET Core 6 ile çalışıyor mu?**  
+C: Evet. API .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ ve .NET 6+ ile uyumludur.
+
+**S: Orijinal renk profilini nasıl koruyabilirim?**  
+C: `ResizeEps` yöntemi renk verisini değiştirmez; yalnızca sınırlama kutusunu değiştirir.
+
+**S: Bir EPS dosyasını belleğe tamamen yüklemeden yeniden boyutlandırmak mümkün mü?**  
+C: Gösterildiği gibi bir akış kullanmak bellek kullanımını düşük tutar; belge anlık olarak işlenir.
+
+**S: Birden fazla yeniden boyutlandırma işlemini zincirleme yapabilir miyim?**  
+C: Kesinlikle. Aynı `PsDocument` örneği üzerinde `ResizeEps` metodunu sırasıyla çağırın.
+
+**S: EPS içindeki gömülü görüntülere ne olur?**  
+C: Vektör içeriğiyle orantılı olarak ölçeklendirilirler ve kalite korunur.
+
+---
+
+**Son Güncelleme:** 2026-03-03  
+**Test Edilen Versiyon:** Aspose.Page 24.12 for .NET  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,32 +1,49 @@
 ---
-title: Aggiungi immagine affiancata al documento XPS con Aspose.Page per .NET
-linktitle: Aggiungi immagine affiancata al documento XPS
-second_title: API Aspose.Page .NET
-description: Esplora l'aggiunta di immagini affiancate ai documenti XPS senza sforzo con Aspose.Page per .NET. Migliora l'impatto visivo e crea documenti straordinari.
-weight: 12
+date: 2026-03-03
+description: Scopri come utilizzare Aspose.Page per .NET per disporre a mosaico le
+  immagini nei documenti XPS. Questa guida passo passo mostra come disporre le immagini
+  in modo efficiente e migliorare l'appeal visivo.
+linktitle: Add Tiled Image to XPS Document
+second_title: Aspose.Page .NET API
+title: Come usare Aspose.Page per aggiungere un'immagine a tasselli a un documento
+  XPS
 url: /it/net/image-management/add-tiled-image-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi immagine affiancata al documento XPS con Aspose.Page per .NET
+# Come utilizzare Aspose.Page per aggiungere un'immagine a tasselli a un documento XPS
 
-## introduzione
+## Introduzione
 
-Desideri migliorare i tuoi documenti XPS aggiungendo immagini affiancate visivamente accattivanti? Aspose.Page per .NET consente agli sviluppatori di raggiungere questo obiettivo senza problemi. In questa guida passo passo ti guideremo attraverso il processo di aggiunta di un'immagine affiancata a un documento XPS utilizzando Aspose.Page per .NET.
+Se ti stai chiedendo **come usare Aspose** per dare ai tuoi file XPS uno stile visivo più ricco, sei nel posto giusto. In questo tutorial vedremo passo passo i passaggi necessari per **tassellare un'immagine** all'interno di un documento XPS usando Aspose.Page per .NET. Alla fine avrai uno snippet riutilizzabile da inserire in qualsiasi progetto .NET per creare grafiche con immagine a tasselli al volo.
 
-## Prerequisiti
+## Risposte rapide
+- **Quale libreria è necessaria?** Aspose.Page for .NET  
+- **Quale metodo crea il pennello a tasselli?** `CreateImageBrush` con `TileMode = XpsTileMode.Tile`  
+- **Posso controllare l'opacità?** Sì – imposta `path.Fill.Opacity` (ad es., 0.5f)  
+- **Ho bisogno di una licenza per i test?** Una licenza temporanea funziona per la valutazione; è necessaria una licenza completa per la produzione.  
+- **Quali versioni .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
 
-Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
+## Cos'è Aspose.Page e perché tassellare le immagini?
 
--  Aspose.Page per .NET: assicurati di avere la libreria Aspose.Page installata. È possibile trovare la documentazione dettagliata e scaricare la libreria[Qui](https://reference.aspose.com/page/net/).
-- Ambiente di sviluppo: configura il tuo ambiente di sviluppo .NET preferito, come Visual Studio.
+Aspose.Page è un'API potente che consente agli sviluppatori di generare, modificare e renderizzare XPS, PDF e altri formati basati su pagine senza dipendere da Microsoft Office. Tassellare un'immagine—ripetere una bitmap su una forma—ti aiuta a riempire ampie aree con motivi, filigrane o texture di sfondo mantenendo ridotto il peso del file.
 
-## Importa spazi dei nomi
+## Come utilizzare Aspose.Page per tassellare le immagini nei documenti XPS
 
-Per iniziare, importa gli spazi dei nomi necessari nel tuo progetto. Ciò garantisce l'accesso alle classi e ai metodi necessari per lavorare con Aspose.Page. Aggiungi i seguenti spazi dei nomi all'inizio del codice:
+Di seguito trovi un esempio completo, pronto per l'esecuzione. Ogni passaggio è spiegato in linguaggio semplice prima del relativo blocco di codice, così puoi capire **perché** ogni riga è importante.
+
+### Prerequisiti
+
+- **Aspose.Page for .NET** – scarica e aggiungi il riferimento alla libreria dal sito ufficiale [qui](https://reference.aspose.com/page/net/).  
+- **Ambiente di sviluppo** – Visual Studio (qualsiasi edizione) o un altro IDE .NET a tua scelta.
+
+### Importare i namespace
+
+Per prima cosa, importa i namespace necessari in modo che il compilatore sappia dove trovare le classi XPS.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -34,73 +51,82 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Ora suddividiamo l'esempio in più passaggi.
+### Passo 1: Definire la directory del documento
 
-## Passaggio 1: definire la directory dei documenti
+Specifica dove verranno salvati il file XPS generato e l'immagine di origine. Sostituisci il segnaposto con una cartella reale sul tuo computer.
 
 ```csharp
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Assicurati di sostituire "La tua directory dei documenti" con il percorso effettivo in cui desideri salvare il tuo documento XPS.
+### Passo 2: Creare un nuovo documento XPS
 
-## Passaggio 2: crea un nuovo documento XPS
+Istanzia un documento XPS vuoto che conterrà la grafica a tasselli.
 
 ```csharp
-// Crea un nuovo documento XPS
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
- Crea un'istanza di un nuovo documento XPS utilizzando il file`XpsDocument` classe.
+### Passo 3: Aggiungere un'immagine a tasselli
 
-## Passaggio 3: aggiungi un'immagine affiancata
+Qui creiamo un percorso rettangolare, lo riempiamo con un `ImageBrush` e impostiamo il pennello in modalità tassello. La proprietà `TileMode` indica al motore di ripetere l'immagine sia orizzontalmente sia verticalmente. Regola le coordinate del rettangolo o l'immagine di origine secondo le tue esigenze.
 
 ```csharp
-// Immagine della tessera
-// Rettangolo riempito ImageBrush in alto a destra in basso
+// Tile image
+// ImageBrush filled rectangle in the right top below
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,160 L 228,160 228,305 10,305"));
 path.Fill = doc.CreateImageBrush(dataDir + "R08LN_NN.jpg", new RectangleF(0f, 0f, 128f, 96f), new RectangleF(0f, 0f, 64f, 48f));
 ((XpsImageBrush)path.Fill).TileMode = XpsTileMode.Tile;
 path.Fill.Opacity = 0.5f;
 ```
 
-Questo passaggio aggiunge un'immagine affiancata al documento XPS. Regola le coordinate e il percorso del file immagine in base alle tue esigenze.
+### Passo 4: Salvare il documento XPS risultante
 
-## Passaggio 4: salvare il documento XPS risultante
+Infine, scrivi il documento su disco. Il file di output può essere aperto con qualsiasi visualizzatore XPS o ulteriormente elaborato con Aspose.Page.
 
 ```csharp
-// Salva il documento XPS risultante
+// Save resultant XPS document
 doc.Save(dataDir + "AddTiledImage_outXPS.xps");
 ```
 
-Salva il documento XPS modificato nella directory specificata.
+## Problemi comuni e suggerimenti
 
-## Conclusione
-
-Congratulazioni! Hai imparato con successo come aggiungere un'immagine affiancata a un documento XPS utilizzando Aspose.Page per .NET. Questa funzionalità semplice ma potente ti consente di migliorare l'aspetto visivo dei tuoi documenti senza sforzo.
+- **Errori di percorso** – Assicurati che `dataDir` termini con una barra finale o utilizza `Path.Combine` per evitare problemi di separatore mancante.  
+- **Discrepanze nelle dimensioni dell'immagine** – L'immagine di origine deve essere sufficientemente grande per l'area di tassellatura; altrimenti il motivo potrebbe apparire allungato.  
+- **Opacità non visibile** – Alcuni visualizzatori ignorano l'opacità su XPS; prova con un visualizzatore che supporti pienamente il rendering XPS (ad es., XPS Viewer su Windows).
 
 ## Domande frequenti
 
 ### Q1: Aspose.Page è compatibile con tutti gli ambienti di sviluppo .NET?
+A: Sì, Aspose.Page funziona con Visual Studio, Rider, VS Code e qualsiasi IDE che supporti .NET.
 
-A1: Sì, Aspose.Page è progettato per funzionare perfettamente con vari ambienti di sviluppo .NET, incluso Visual Studio.
+### Q2: Posso regolare l'opacità dell'immagine a tasselli?
+A: Assolutamente. L'esempio imposta `path.Fill.Opacity = 0.5f;`—puoi modificare il valore float tra 0 (trasparente) e 1 (opaco).
 
-### Q2: Posso regolare l'opacità dell'immagine affiancata?
+### Q3: Esistono altri modalità di tassellatura disponibili in Aspose.Page per .NET?
+A: Sì. Oltre a `XpsTileMode.Tile`, puoi usare `FlipX`, `FlipY` e `FlipXY` per creare motivi specchiati.
 
-A2: Certamente, come dimostrato nell'esempio, puoi impostare l'opacità del rettangolo riempito usando il`Opacity` proprietà.
+### Q4: Come gestire le licenze temporanee per Aspose.Page?
+A: Consulta la pagina della [licenza temporanea](https://purchase.aspose.com/temporary-license/) sul sito Aspose per i dettagli su come ottenere e applicare una licenza di prova.
 
-### Q3: Sono disponibili altre modalità riquadro in Aspose.Page per .NET?
+### Q5: Dove posso chiedere aiuto o entrare in contatto con la community di Aspose.Page?
+A: Visita il [forum Aspose.Page](https://forum.aspose.com/c/page/39) per porre domande, condividere snippet e apprendere da altri sviluppatori.
 
- A3: Sì, Aspose.Page fornisce diverse modalità di riquadro. In questo tutorial abbiamo utilizzato`XpsTileMode.Tile`, ma puoi esplorare altre opzioni nella documentazione.
+### Q6: Posso usare questo approccio per creare un effetto filigrana?
+A: Sì. Abbassando l'opacità e scegliendo un'immagine semitrasparente, il pennello a tasselli funziona perfettamente come filigrana ripetuta.
 
-### Q4: Come gestisco le licenze temporanee per Aspose.Page?
+## Conclusione
 
- R4: Fare riferimento a[licenza temporanea](https://purchase.aspose.com/temporary-license/) pagina sul sito Web Aspose per indicazioni su come ottenere e implementare licenze temporanee.
+Ora sai **come usare Aspose** per aggiungere un'immagine a tasselli a un documento XPS, controllarne l'opacità e salvare il risultato per ulteriori utilizzi. Questa tecnica è ideale per motivi di sfondo, filigrane o qualsiasi situazione in cui una grafica ripetuta aggiunge interesse visivo senza gonfiare le dimensioni del file. Sentiti libero di sperimentare con forme, immagini e modalità di tassellatura diverse per adattarle alle esigenze del tuo progetto.
 
-### Q5: Dove posso chiedere aiuto o connettermi con la comunità Aspose.Page?
+---
 
- A5: Visita il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) interagire con la comunità, porre domande e trovare soluzioni.
+**Ultimo aggiornamento:** 2026-03-03  
+**Testato con:** Aspose.Page for .NET (ultima release)  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

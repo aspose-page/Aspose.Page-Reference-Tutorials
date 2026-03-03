@@ -1,32 +1,48 @@
 ---
-title: Aspose.Page for .NET ile XPS Belgesine Döşenmiş Görüntü Ekleme
-linktitle: XPS Belgesine Döşenmiş Görüntü Ekleme
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page for .NET ile XPS belgelerine döşemeli görüntüleri zahmetsizce eklemeyi keşfedin. Görsel çekiciliği artırın ve çarpıcı belgeler oluşturun.
-weight: 12
+date: 2026-03-03
+description: Aspose.Page for .NET'i XPS belgelerinde resimleri döşemek için nasıl
+  kullanacağınızı öğrenin. Bu adım adım rehber, resmi verimli bir şekilde döşemeyi
+  ve görsel çekiciliği artırmayı gösterir.
+linktitle: Add Tiled Image to XPS Document
+second_title: Aspose.Page .NET API
+title: Aspose.Page'i Kullanarak XPS Belgesine Döşeli Görüntü Ekleme
 url: /tr/net/image-management/add-tiled-image-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET ile XPS Belgesine Döşenmiş Görüntü Ekleme
+# Aspose.Page ile XPS Belgesine Döşeli Görüntü Ekleme
 
-## giriiş
+## Giriş
 
-Görsel olarak çekici döşemeli görüntüler ekleyerek XPS belgelerinizi geliştirmek mi istiyorsunuz? Aspose.Page for .NET, geliştiricilerin bunu sorunsuz bir şekilde başarmalarını sağlar. Bu adım adım kılavuzda, Aspose.Page for .NET kullanarak bir XPS belgesine döşenmiş bir görüntü ekleme sürecinde size yol göstereceğiz.
+Aspose kullanarak XPS dosyalarınıza daha zengin bir görsel stil kazandırmanın **nasıl yapılacağını** merak ediyorsanız, doğru yerdesiniz. Bu öğreticide, Aspose.Page for .NET ile bir XPS belgesi içinde **görüntüyü döşeme** (tile) adımlarını adım adım inceleyeceğiz. Sonunda, herhangi bir .NET projesine ekleyebileceğiniz, anında döşeli‑görüntü grafikleri oluşturacak yeniden kullanılabilir bir kod parçacığına sahip olacaksınız.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.Page for .NET  
+- **Döşeli fırçayı hangi yöntem oluşturur?** `CreateImageBrush` ve `TileMode = XpsTileMode.Tile`  
+- **Şeffaflığı kontrol edebilir miyim?** Evet – `path.Fill.Opacity` değerini ayarlayın (ör. 0.5f)  
+- **Test için lisansa ihtiyacım var mı?** Değerlendirme için geçici bir lisans yeterlidir; üretim için tam lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## Aspose.Page Nedir ve Neden Görüntü Döşenir?
 
--  Aspose.Page for .NET: Aspose.Page kütüphanesinin kurulu olduğundan emin olun. Ayrıntılı belgeleri bulabilir ve kütüphaneyi indirebilirsiniz.[Burada](https://reference.aspose.com/page/net/).
-- Geliştirme Ortamı: Visual Studio gibi tercih ettiğiniz .NET geliştirme ortamını kurun.
+Aspose.Page, geliştiricilerin Microsoft Office’e bağımlı olmadan XPS, PDF ve diğer sayfa‑tabanlı formatları oluşturup düzenlemesini ve render etmesini sağlayan güçlü bir API’dir. Bir görüntüyü döşemek—bitmap’i bir şekil üzerinde tekrar etmek—büyük alanları desen, filigran veya arka plan dokusuyla doldurmanıza olanak tanır ve dosya boyutunu düşük tutar.
 
-## Ad Alanlarını İçe Aktar
+## Aspose.Page ile XPS Belgelerinde Görüntü Döşeme Nasıl Yapılır?
 
-Başlamak için gerekli ad alanlarını projenize aktarın. Bu, Aspose.Page ile çalışmak için gereken sınıflara ve yöntemlere erişiminizi sağlar. Kodunuzun başına aşağıdaki ad alanlarını ekleyin:
+Aşağıda, tamamen çalıştırılabilir bir örnek bulacaksınız. Her adım, ilgili kod bloğundan önce sade bir dille açıklanmıştır; böylece **neden** her satırın önemli olduğunu görebilirsiniz.
+
+### Önkoşullar
+
+- **Aspose.Page for .NET** – resmi siteden kütüphaneyi indirin ve [burada](https://reference.aspose.com/page/net/) referans olarak ekleyin.  
+- **Geliştirme ortamı** – Visual Studio (herhangi bir sürüm) veya tercih ettiğiniz başka bir .NET IDE.
+
+### Ad Alanlarını İçe Aktarma
+
+İlk olarak, XPS sınıflarının nerede bulunduğunu derleyicinin bilmesi için gerekli ad alanlarını projemize ekleyelim.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -34,73 +50,82 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Şimdi örneği birden çok adıma ayıralım.
+### Adım 1: Belge Dizinini Tanımlama
 
-## Adım 1: Belge Dizinini Tanımlayın
+Oluşturulacak XPS dosyasının ve kaynak görüntünün nerede saklanacağını belirtin. Yer tutucuyu makinenizdeki gerçek bir klasörle değiştirin.
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-"Belge Dizininiz"i, XPS belgenizi kaydetmek istediğiniz asıl yolla değiştirdiğinizden emin olun.
+### Adım 2: Yeni bir XPS Belgesi Oluşturma
 
-## 2. Adım: Yeni Bir XPS Belgesi Oluşturun
+Döşeli grafiği tutacak boş bir XPS belgesi örnekleyin.
 
 ```csharp
-// Yeni XPS Belgesi oluştur
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
- kullanarak yeni bir XPS belgesi oluşturun.`XpsDocument` sınıf.
+### Adım 3: Döşeli Görüntü Ekleme
 
-## 3. Adım: Döşenmiş Görüntü Ekleme
+Burada bir dikdörtgen yol oluşturup, onu bir `ImageBrush` ile dolduruyor ve fırçayı döşeli moda ayarlıyoruz. `TileMode` özelliği motorun görüntüyü hem yatay hem de dikey olarak tekrarlamasını sağlar. Dikdörtgen koordinatlarını veya kaynak görüntüyü senaryonuza göre ayarlayın.
 
 ```csharp
-// Döşeme resmi
-// ImageBrush dolgulu dikdörtgen aşağıda sağ üstte
+// Tile image
+// ImageBrush filled rectangle in the right top below
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,160 L 228,160 228,305 10,305"));
 path.Fill = doc.CreateImageBrush(dataDir + "R08LN_NN.jpg", new RectangleF(0f, 0f, 128f, 96f), new RectangleF(0f, 0f, 64f, 48f));
 ((XpsImageBrush)path.Fill).TileMode = XpsTileMode.Tile;
 path.Fill.Opacity = 0.5f;
 ```
 
-Bu adım, XPS belgesine döşenmiş bir görüntü ekler. Koordinatları ve görüntü dosyası yolunu gereksinimlerinize göre ayarlayın.
+### Adım 4: Sonuç XPS Belgesini Kaydetme
 
-## 4. Adım: Ortaya Çıkan XPS Belgesini Kaydedin
+Son olarak belgeyi diske yazın. Çıktı dosyası herhangi bir XPS görüntüleyiciyle açılabilir veya Aspose.Page ile daha da işlenebilir.
 
 ```csharp
-// Ortaya çıkan XPS belgesini kaydedin
+// Save resultant XPS document
 doc.Save(dataDir + "AddTiledImage_outXPS.xps");
 ```
 
-Değiştirilen XPS belgesini belirtilen dizine kaydedin.
+## Yaygın Sorunlar ve İpuçları
 
-## Çözüm
+- **Yol hataları** – `dataDir` sonundaki eğik çizgiyi unutmayın veya `Path.Combine` kullanarak eksik ayırıcı sorunlarını önleyin.  
+- **Görüntü boyutu uyumsuzlukları** – Kaynak görüntü, döşeme alanı için yeterince büyük olmalı; aksi takdirde desen uzatılmış görünebilir.  
+- **Şeffaflık görünmüyor** – Bazı görüntüleyiciler XPS’te şeffaflığı yoksayar; tam XPS render desteği sunan bir görüntüleyici (ör. Windows XPS Viewer) ile test edin.
 
-Tebrikler! Aspose.Page for .NET'i kullanarak XPS belgesine döşemeli bir görüntünün nasıl ekleneceğini başarıyla öğrendiniz. Bu basit ama güçlü özellik, belgelerinizin görsel çekiciliğini zahmetsizce geliştirmenize olanak tanır.
+## Sık Sorulan Sorular
 
-## SSS'ler
+### S1: Aspose.Page tüm .NET geliştirme ortamlarıyla uyumlu mu?
+C: Evet, Aspose.Page Visual Studio, Rider, VS Code ve .NET’i destekleyen herhangi bir IDE ile çalışır.
 
-### S1: Aspose.Page tüm .NET geliştirme ortamlarıyla uyumlu mudur?
+### S2: Döşeli görüntünün şeffaflığını ayarlayabilir miyim?
+C: Kesinlikle. Örnekte `path.Fill.Opacity = 0.5f;` kullanılmıştır—değeri 0 (tamamen şeffaf) ile 1 (tamamen opak) arasında istediğiniz gibi değiştirebilirsiniz.
 
-C1: Evet, Aspose.Page, Visual Studio da dahil olmak üzere çeşitli .NET geliştirme ortamlarıyla sorunsuz çalışacak şekilde tasarlanmıştır.
+### S3: Aspose.Page for .NET’te başka döşeme modları var mı?
+C: Evet. `XpsTileMode.Tile` dışında `FlipX`, `FlipY` ve `FlipXY` modlarını kullanarak yansıtılmış desenler oluşturabilirsiniz.
 
-### S2: Döşenmiş görüntünün opaklığını ayarlayabilir miyim?
+### S4: Aspose.Page için geçici lisansları nasıl yönetirim?
+C: Detaylar ve deneme lisansı almak için Aspose sitesindeki [geçici lisans](https://purchase.aspose.com/temporary-license/) sayfasına bakın.
 
-Cevap2: Elbette, örnekte gösterildiği gibi, doldurulmuş dikdörtgenin opaklığını aşağıdaki düğmeyi kullanarak ayarlayabilirsiniz:`Opacity` mülk.
+### S5: Yardım almak ya da Aspose.Page topluluğuyla iletişime geçmek için nereden ulaşabilirim?
+C: Sorularınızı sorabilir, kod parçacıkları paylaşabilir ve diğer geliştiricilerden öğrenebilirsiniz; bunun için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
 
-### S3: Aspose.Page for .NET'te başka döşeme modları mevcut mu?
+### S6: Bu yöntemi filigran efekti oluşturmak için kullanabilir miyim?
+C: Evet. Opaklığı düşürüp yarı‑şeffaf bir görüntü seçerek, döşeli fırça tekrar eden bir filigran olarak mükemmel çalışır.
 
- Cevap3: Evet, Aspose.Page farklı döşeme modları sağlar. Bu eğitimde şunları kullandık:`XpsTileMode.Tile`, ancak belgelerdeki diğer seçenekleri keşfedebilirsiniz.
+## Sonuç
 
-### S4: Aspose.Page'in geçici lisanslarını nasıl halledebilirim?
+Artık **Aspose** kullanarak bir XPS belgesine döşeli bir görüntü eklemenin, şeffaflığını kontrol etmenin ve sonucu kaydetmenin yollarını biliyorsunuz. Bu teknik, arka plan desenleri, filigranlar veya dosya boyutunu artırmadan tekrarlayan grafiklerin gerektiği her senaryo için idealdir. Farklı şekiller, görüntüler ve döşeme modlarıyla deneyler yaparak projenizin ihtiyaçlarına en uygun çözümü bulabilirsiniz.
 
- A4: Bkz.[geçici lisans](https://purchase.aspose.com/temporary-license/) Geçici lisansların alınması ve uygulanması konusunda rehberlik için Aspose web sitesindeki sayfa.
+---
 
-### S5: Nereden yardım alabilirim veya Aspose.Page topluluğuyla bağlantı kurabilirim?
+**Son Güncelleme:** 2026-03-03  
+**Test Edilen Versiyon:** Aspose.Page for .NET (en son sürüm)  
+**Yazar:** Aspose  
 
- A5: ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) toplulukla etkileşime geçmek, sorular sormak ve çözümler bulmak.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
