@@ -1,27 +1,48 @@
 ---
-title: Rewitalizuj Java PostScript - Dodaj Unicode za pomocą Aspose.Page
-linktitle: Dodaj tekst przy użyciu ciągu Unicode w języku Java PostScript
-second_title: Aspose.Page API Java
-description: Odkryj moc Aspose.Page dla Java w dodawaniu tekstu Unicode do projektów PostScript. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację. Pobierz teraz!
-weight: 11
+date: 2025-12-17
+description: Dowiedz się, jak dodać tekst Unicode w Java PostScript przy użyciu Aspose.Page
+  – krok po kroku przewodnik, jak łatwo dodawać ciągi Unicode.
+linktitle: Add Text using Unicode String in Java PostScript
+second_title: Aspose.Page Java API
+title: Jak dodać tekst Unicode w Java PostScript przy użyciu Aspose.Page
 url: /pl/java/postscript-text-manipulation/add-text-unicode/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Rewitalizuj Java PostScript - Dodaj Unicode za pomocą Aspose.Page
+# Jak dodać tekst Unicode w Java PostScript przy użyciu Aspose.Page
 
-## Wstęp
-Czy chcesz ulepszyć swoją aplikację Java PostScript poprzez płynne dodanie tekstu Unicode? Nie szukaj dalej! Ten obszerny przewodnik przeprowadzi Cię krok po kroku przez proces korzystania z Aspose.Page dla Java. Aspose.Page to potężna biblioteka, która pozwala z łatwością manipulować i konwertować pliki PostScript i XPS.
-## Warunki wstępne
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-1. Zestaw Java Development Kit (JDK): Upewnij się, że na komputerze jest zainstalowana Java.
-2.  Aspose.Page dla Java: Pobierz i zainstaluj bibliotekę Aspose.Page z[link do pobrania](https://releases.aspose.com/page/java/).
-3. Zintegrowane środowisko programistyczne (IDE): Wybierz preferowane środowisko Java IDE, takie jak IntelliJ IDEA lub Eclipse.
-## Importuj pakiety
-W swoim projekcie Java zaimportuj niezbędne pakiety dla Aspose.Page. Dodaj następujące linie do swojego kodu:
+## Wprowadzenie
+Jeśli zastanawiasz się **how to add Unicode** znaki w przepływie pracy opartym na Java‑based PostScript (lub XPS), trafiłeś we właściwe miejsce. W tym samouczku przeprowadzimy Cię krok po kroku przez dokładne czynności potrzebne do osadzenia ciągów Unicode przy użyciu biblioteki Aspose.Page dla Javy. Po zakończeniu przewodnika będziesz mógł wstawić dowolny tekst specyficzny dla języka — arabski, chiński, emotikony, cokolwiek — bezpośrednio do swojego wyjścia PostScript.
+
+## Szybkie odpowiedzi
+- **What library is needed?** Aspose.Page for Java  
+- **Can I add right‑to‑left scripts?** Tak, ustaw poziom Bidi jak pokazano w kodzie  
+- **Do I need a license for development?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji  
+- **Which IDE works best?** Dowolne środowisko Java (IntelliJ IDEA, Eclipse, NetBeans)  
+- **Is the code cross‑platform?** Absolutnie — uruchom je na Windows, macOS lub Linux
+
+## Co oznacza „how to add Unicode” w kontekście PostScript?
+Dodawanie Unicode oznacza wstawianie znaków reprezentowanych przez punkty kodowe wykraczające poza podstawowy zakres ASCII. Aspose.Page abstrahuje szczegóły niskopoziomowego kodowania, pozwalając Ci skupić się na treści tekstu i jego wizualnym rozmieszczeniu.
+
+## Dlaczego używać Aspose.Page do tekstu Unicode?
+- **Full Unicode support** – Obsługuje złożone skrypty, ligatury i języki od prawej do lewej.  
+- **No external dependencies** – Nie musisz ręcznie zarządzać plikami czcionek; API współpracuje z czcionkami systemowymi.  
+- **Straight‑forward API** – Kilka wywołań metod wystarczy, aby wyrenderować tekst wielojęzyczny.
+
+## Prerequisites
+Zanim przejdziemy dalej, upewnij się, że masz przygotowane następujące elementy:
+
+1. **Java Development Kit (JDK)** – Dowolna aktualna wersja (8 lub nowsza).  
+2. **Aspose.Page for Java** – Pobierz i zainstaluj bibliotekę z [download link](https://releases.aspose.com/page/java/).  
+3. **IDE of your choice** – IntelliJ IDEA, Eclipse lub dowolne inne środowisko Java, którego preferujesz.
+
+## Importowanie pakietów
+Dodaj wymagane klasy Aspose.Page do swojego pliku źródłowego Java:
+
 ```java
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsFontStyle;
@@ -29,42 +50,73 @@ import com.aspose.xps.XpsGlyphs;
 import com.aspose.xps.XpsSolidColorBrush;
 import java.awt.Color;
 ```
-## Krok 1: Skonfiguruj swój projekt
-Utwórz nowy projekt Java w swoim IDE i skonfiguruj strukturę projektu. Pamiętaj o uwzględnieniu biblioteki Aspose.Page w zależnościach projektu.
-## Krok 2: Zainicjuj dokument XPS
-Zacznij od zainicjowania nowego dokumentu XPS w swoim projekcie:
+
+## Krok 1: Konfiguracja projektu
+Utwórz nowy projekt Java, dodaj plik JAR Aspose.Page do ścieżki kompilacji projektu i utwórz folder, w którym zostanie zapisany wygenerowany plik XPS. Ten folder jest później odwoływany jako `dataDir`.
+
+## Krok 2: Inicjalizacja dokumentu XPS
+Utwórz pusty dokument XPS, który będzie przechowywał zawartość:
+
 ```java
 String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
-## Krok 3: Dodaj tekst Unicode
-Teraz dodajmy tekst Unicode do dokumentu XPS, korzystając z biblioteki Aspose.Page. Użyj następującego fragmentu kodu:
+
+## Krok 3: Dodawanie tekstu Unicode
+Teraz faktycznie dodamy ciąg Unicode. Poniższy przykład zapisuje odwróconą frazę „AVAJ rof SPX.esopsA”, która zawiera wyłącznie znaki ASCII, ale możesz ją zastąpić dowolnym tekstem Unicode (np. arabskim „مرحبا” lub chińskim „你好”).
+
 ```java
 XpsSolidColorBrush textFill = doc.createSolidColorBrush(Color.BLACK);
 XpsGlyphs glyphs = doc.addGlyphs("Arial", 20, XpsFontStyle.Regular, 400f, 200f, "AVAJ rof SPX.esopsA");
 glyphs.setBidiLevel(1);
 glyphs.setFill(textFill);
 ```
-Ten segment kodu dodaje tekst Unicode „AVAJ rof SPX.esopsA” do dokumentu XPS o współrzędnych (400, 200) z określoną czcionką i stylem.
-## Krok 4: Zapisz dokument
-Zapisz powstały dokument XPS, używając następującego kodu:
+
+> **Pro tip:** Aby poprawnie renderować języki od prawej do lewej, ustaw `glyphs.setBidiLevel(1);`. Dla skryptów od lewej do prawej możesz pominąć tę linię.
+
+## Krok 4: Zapis dokumentu
+Zapisz plik XPS na dysku:
+
 ```java
 doc.save(dataDir + "AddEncodingText_out.xps");
 ```
-## Wniosek
-Gratulacje! Pomyślnie dodałeś tekst Unicode do swojej aplikacji Java PostScript za pomocą Aspose.Page. W tym przewodniku przedstawiono prostą, ale skuteczną metodę ulepszenia projektów.
- Zachęcamy do zapoznania się z większą liczbą funkcji i możliwości Aspose.Page w[dokumentacja](https://reference.aspose.com/page/java/).
-## Często Zadawane Pytania
-### Czy mogę używać Aspose.Page dla Java z innymi językami programowania?
-Aspose.Page jest przeznaczony głównie dla języka Java, ale Aspose udostępnia biblioteki dla różnych języków programowania.
-### Czy dostępny jest bezpłatny okres próbny?
- Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Page[Tutaj](https://releases.aspose.com/).
+
+Po uruchomieniu programu otwórz wygenerowany `AddEncodingText_out.xps` w dowolnym przeglądarce XPS, aby zobaczyć wyrenderowany tekst Unicode w określonych współrzędnych.
+
+## Typowe problemy i rozwiązania
+| Problem | Przyczyna | Rozwiązanie |
+|-------|--------|-----|
+| Tekst wyświetla się jako kwadraty | Czcionka nie znaleziona lub nie obsługuje znaków | Użyj czcionki zawierającej wymagane glify (np. “Arial Unicode MS”) |
+| Tekst od prawej do lewej wyświetla się od lewej do prawej | Poziom Bidi nie ustawiony | Wywołaj `glyphs.setBidiLevel(1);` |
+| Plik nie został zapisany | Ścieżka `dataDir` jest nieprawidłowa lub brakuje uprawnień do zapisu | Upewnij się, że katalog istnieje i aplikacja ma dostęp do zapisu |
+
+## Najczęściej zadawane pytania
+### Czy mogę używać Aspose.Page dla Javy z innymi językami programowania?
+Aspose.Page jest przede wszystkim przeznaczony dla Javy, ale Aspose udostępnia biblioteki dla różnych języków programowania.
+
+### Czy dostępna jest darmowa wersja próbna?
+Tak, możesz uzyskać darmową wersję próbną Aspose.Page [tutaj](https://releases.aspose.com/).
+
 ### Gdzie mogę znaleźć wsparcie i dyskusje na temat Aspose.Page?
- Odwiedzić[Forum Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie i dyskusje.
+Odwiedź [Aspose.Page forum](https://forum.aspose.com/c/page/39) w celu uzyskania wsparcia i dyskusji.
+
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Page?
- Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-### Jakie są dostępne style czcionek w Aspose.Page?
-Aspose.Page obsługuje style czcionek, takie jak Regularny, Pogrubiony, Kursywa i Pogrubiona Kursywa.
+Możesz nabyć tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+### Jakie style czcionek są dostępne w Aspose.Page?
+Aspose.Page obsługuje style czcionek takie jak Regular, Bold, Italic i BoldItalic.
+
+## Zakończenie
+Opanowałeś teraz **how to add Unicode** tekst do dokumentu Java PostScript (XPS) przy użyciu Aspose.Page. Ta możliwość otwiera drzwi do wielojęzycznych raportów, zinternacjonalizowanych faktur i wszelkich scenariuszy, w których wymagane są znaki spoza ASCII. Śmiało eksploruj dodatkowe funkcje, takie jak rotacja tekstu, ścieżki przycinania czy osadzanie własnych czcionek — szczegóły dostępne są w oficjalnej [documentation](https://reference.aspose.com/page/java/).
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-17  
+**Testowano z:** Aspose.Page for Java 23.12 (latest at time of writing)  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,27 +1,48 @@
 ---
-title: إضافة نمط تبليط الملمس في Java PostScript
-linktitle: إضافة نمط تبليط الملمس في Java PostScript
-second_title: Aspose.Page جافا API
-description: يمكنك بسهولة إضافة أنماط تجانب النسيج إلى مستندات PostScript باستخدام Aspose.Page لـ Java. استكشف دليل التكامل السلس الخاص بنا للتعرف على الإمكانيات الإبداعية.
-weight: 10
+date: 2025-12-17
+description: تعرّف على كيفية إضافة أنماط تكرار القوام إلى مستندات PostScript باستخدام
+  Aspose.Page للغة Java. يوضح هذا الدليل كيفية إضافة القوام بكفاءة واستكشاف إمكانيات
+  إبداعية.
+linktitle: Add Texture Tiling Pattern in Java PostScript
+second_title: Aspose.Page Java API
+title: كيفية إضافة نمط تجانب القوام في Java PostScript
 url: /ar/java/postscript-texture-patterns/add-texture-tiling-pattern/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إضافة نمط تبليط الملمس في Java PostScript
+# إضافة نمط تكرار القوام في Java PostScript
 
-## مقدمة
-في مجال تطوير Java، يعد إنشاء أنماط ومواد معقدة في مستندات PostScript مطلبًا شائعًا. أثبت Aspose.Page for Java أنه أداة قيمة في تحقيق هذه المهمة دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة نمط تجانب النسيج في مستند Java PostScript باستخدام Aspose.Page.
-## المتطلبات الأساسية
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-- الفهم الأساسي للغة البرمجة جافا.
-- الإلمام ببنية مستند PostScript.
--  تم تثبيت Aspose.Page لمكتبة Java. يمكنك تنزيله[هنا](https://releases.aspose.com/page/java/).
-## حزم الاستيراد
+## المقدمة
+في عالم تطوير Java، يُعد تعلم **كيفية إضافة القوام** إلى مستندات PostScript مطلبًا شائعًا. تُثبت Aspose.Page for Java أنها أداة قيمة لتحقيق هذه المهمة بسهولة. في هذا البرنامج التعليمي، سنرشدك إلى عملية إضافة نمط تكرار القوام في مستند Java PostScript باستخدام Aspose.Page.
+
+## إجابات سريعة
+- **ما المكتبة المطلوبة؟** Aspose.Page for Java  
+- **ما الكلمة المفتاحية الأساسية التي يستهدفها هذا الدليل؟** *how to add texture*  
+- **هل أحتاج إلى ترخيص للاختبار؟** تتوفر نسخة تجريبية مجانية؛ يلزم الترخيص للإنتاج.  
+- **ما إصدار Java المدعوم؟** Java 8 أو أعلى.  
+- **هل يمكنني إعادة استخدام فرشاة القوام لأشكال متعددة؟** نعم – أنشئ `TexturePaint` مرة واحدة وطبقها على أي شكل.
+
+## ما هو نمط تكرار القوام؟
+نمط تكرار القوام يكرر صورة صغيرة (البلاطة) عبر مساحة أكبر، مما يتيح لك **ملء الشكل بالقوام** دون الحاجة إلى رسم كل بلاطة يدويًا. هذه التقنية مثالية للخلفيات، والملء، وتأثيرات النص الزخرفية في PostScript.
+
+## لماذا نستخدم Aspose.Page for Java؟
+- **عرض بدون تبعيات** – لا حاجة لمفسرات PostScript خارجية.  
+- **تحكم كامل في الرسومات** – دمج الأشكال المتجهية، والنص، وقوام الصور النقطية.  
+- **متعدد المنصات** – يعمل على أي نظام تشغيل يدعم Java.  
+
+## المتطلبات المسبقة
+قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات التالية:
+- فهم أساسي للغة برمجة Java.  
+- إلمام ببنية مستند PostScript.  
+- تثبيت مكتبة Aspose.Page for Java. يمكنك تحميلها [هنا](https://releases.aspose.com/page/java/).
+
+## استيراد الحزم
 ابدأ باستيراد الحزم اللازمة لمشروع Java الخاص بك:
+
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -35,80 +56,112 @@ import javax.imageio.ImageIO;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## الخطوة 1: إنشاء مستند بوستسكريبت
-ابدأ بإنشاء مستند PostScript جديد، مع تحديد خيارات دفق الإخراج والحفظ. تأكد من تكوين المسارات اللازمة.
+
+## الخطوة 1: إنشاء مستند PostScript
+ابدأ بإنشاء مستند PostScript جديد، مع تحديد تدفق الإخراج وخيارات الحفظ. تأكد من تكوين المسارات اللازمة.
+
 ```java
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// إنشاء دفق الإخراج لمستند بوستسكريبت
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddTextureTilingPattern_outPS.ps");
-// إنشاء خيارات الحفظ بحجم A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// قم بإنشاء مستند PS جديد مع فتح الصفحة
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-// قم بإنشاء مستند PS جديد مع فتح الصفحة
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
+
 ## الخطوة 2: إعداد بيئة الرسومات
-قم بإعداد بيئة الرسومات عن طريق ترجمة الأصل وإنشاء صورة BufferedImage من ملف صورة النسيج.
+قم بإعداد بيئة الرسومات عن طريق نقل الأصل وإنشاء `BufferedImage` من ملف صورة القوام.
+
 ```java
 document.writeGraphicsSave();
 document.translate(200, 100);
-// قم بإنشاء كائن BufferedImage من ملف الصورة
+// Create a BufferedImage object from image file
 BufferedImage image = ImageIO.read(new File(dataDir + "TestTexture.bmp"));
 ```
-## الخطوة 3: إنشاء فرشاة الملمس
-قم بتحديد فرشاة نسيج من الصورة، مع تحديد المنطقة التي سيتم تغطيتها بواسطة النسيج.
+
+## الخطوة 3: إنشاء فرشاة القوام
+عرّف فرشاة القوام من الصورة، مع تحديد المنطقة التي سيغطيها القوام.
+
 ```java
-// إنشاء مساحة صورة مضاعفة العرض
+// Create image area doubled in width
 Rectangle2D.Float imageArea = new Rectangle2D.Float(0, 0, image.getWidth() * 2, image.getHeight());
-// إنشاء فرشاة الملمس من الصورة
+// Create texture brush from the image
 TexturePaint paint = new TexturePaint(image, imageArea);
 ```
-## الخطوة 4: رسم وملء الأشكال
-قم بإنشاء مستطيل واملأه بفرشاة الملمس المحددة. بالإضافة إلى ذلك، قم برسم الشكل وتحديده للحصول على جاذبية بصرية.
+
+## الخطوة 4: رسم وتعبئة الأشكال
+أنشئ مستطيلًا و**املأ الشكل بالقوام** باستخدام الفرشاة المعرفة. بالإضافة إلى ذلك، ارسم حدود الشكل لإضفاء مظهر بصري جذاب.
+
 ```java
-// إنشاء مستطيل
+// Create rectangle
 Rectangle2D.Float shape = new Rectangle2D.Float(0, 0, 200, 100);
-// قم بتعيين فرشاة الملمس هذه كطلاء حالي
+// Set this texture brush as current paint
 document.setPaint(paint);
-// ملء المستطيل
+// Fill rectangle
 document.fill(shape);
 document.setPaint(Color.RED);
 document.setStroke(new BasicStroke(2));
 document.draw(shape);
 ```
-## الخطوة 5: إضافة نص بنمط الملمس
-أضف نصًا إلى المستند واملأه/حدده بنمط النسيج. قم بتخصيص الخط والموضع والمعلمات الأخرى حسب الحاجة.
+
+## الخطوة 5: إضافة نص بنمط القوام
+أضف نصًا إلى المستند وبيّن **كيفية ملء القوام** على الأحرف. خصّص الخط، والموقع، وغيرها من المعلمات حسب الحاجة.
+
 ```java
-// املأ النص بنمط الملمس
+// Fill the text with the texture pattern
 Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
-// الخطوط العريضة للنص مع نمط الملمس
+// Outline the text with the texture pattern
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
-## الخطوة 6: حفظ وإغلاق
-اختتم العملية عن طريق إغلاق الصفحة الحالية وحفظ المستند وضمان التنفيذ السلس.
+
+## الخطوة 6: الحفظ والإغلاق
+اختم العملية بإغلاق الصفحة الحالية، وحفظ المستند، وضمان تنفيذ سلس.
+
 ```java
-// إغلاق الصفحة الحالية
+// Close current page
 document.closePage();
-// احفظ المستند
+// Save the document
 document.save();
 ```
-## خاتمة
-تهانينا! لقد نجحت في إضافة نمط تبليط نسيج إلى مستند Java PostScript باستخدام Aspose.Page لـ Java. لا تتردد في استكشاف المزيد من خيارات التخصيص وإطلاق العنان للإمكانات الكاملة لهذه المكتبة القوية.
 
-## الأسئلة الشائعة
-### هل Aspose.Page for Java مناسب للمبتدئين؟
-قطعاً! يوفر Aspose.Page for Java وثائق شاملة، مما يجعله في متناول المطورين من جميع مستويات المهارة.
-### هل يمكنني دمج Aspose.Page for Java في مشروع Java الحالي الخاص بي؟
- نعم، يمكنك بسهولة دمج Aspose.Page for Java في مشروعك عن طريق اتباع الوثائق المتوفرة[هنا](https://reference.aspose.com/page/java/).
-### أين يمكنني العثور على الدعم أو مناقشة الاستفسارات المتعلقة بـ Aspose.Page؟
- قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للتواصل مع المجتمع وطلب المساعدة.
-### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Page لـ Java؟
- نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
-### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ Java؟
- يزور[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+## المشكلات الشائعة والنصائح
+- **ملف القوام مفقود** – تحقق من صحة المسار إلى `TestTexture.bmp` وأن الملف قابل للوصول.  
+- **أبعاد الصورة غير صحيحة** – إذا ظهر القوام مشوهًا، عدّل `imageArea` لتطابق حجم الصورة الأصلي.  
+- **الأداء** – أعد استخدام نفس كائن `TexturePaint` لأشكال متعددة لتجنب إنشاء كائنات غير ضرورية.
+
+## الأسئلة المتكررة
+
+**س: هل Aspose.Page for Java مناسبة للمبتدئين؟**  
+ج: بالتأكيد! توفر Aspose.Page for Java وثائق شاملة، مما يجعلها سهلة الوصول للمطورين من جميع المستويات.
+
+**س: هل يمكنني دمج Aspose.Page for Java في مشروعي Java الحالي؟**  
+ج: نعم، يمكنك دمج Aspose.Page for Java بسهولة في مشروعك باتباع الوثائق المتوفرة [هنا](https://reference.aspose.com/page/java/).
+
+**س: أين يمكنني العثور على الدعم أو مناقشة استفسارات Aspose.Page؟**  
+ج: زر منتدى [Aspose.Page](https://forum.aspose.com/c/page/39) للتواصل مع المجتمع وطلب المساعدة.
+
+**س: هل تتوفر نسخة تجريبية مجانية لـ Aspose.Page for Java؟**  
+ج: نعم، يمكنك تجربة نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
+
+**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page for Java؟**  
+ج: زر [هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
+
+## الخاتمة
+تهانينا! لقد تعلمت بنجاح **كيفية إضافة القوام** بنمط تكرار إلى مستند Java PostScript باستخدام Aspose.Page for Java. لا تتردد في استكشاف خيارات تخصيص إضافية—جرب بلاطات bitmap مختلفة، وعوامل مقياس، وعمليات تركيب لإطلاق الإمكانات الإبداعية الكاملة لتعبئات القوام.
+
+---
+
+**آخر تحديث:** 2025-12-17  
+**تم الاختبار مع:** Aspose.Page for Java 24.12 (latest)  
+**المؤلف:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

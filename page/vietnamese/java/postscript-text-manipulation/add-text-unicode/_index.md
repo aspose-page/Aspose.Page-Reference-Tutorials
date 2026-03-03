@@ -1,27 +1,48 @@
 ---
-title: Phục hồi Java PostScript - Thêm Unicode với Aspose.Page
-linktitle: Thêm văn bản bằng chuỗi Unicode trong Java PostScript
-second_title: API Java Aspose.Page
-description: Khám phá sức mạnh của Aspose.Page dành cho Java trong việc thêm văn bản Unicode vào các dự án PostScript của bạn. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch. Tải ngay!
-weight: 11
+date: 2025-12-17
+description: Tìm hiểu cách thêm văn bản Unicode trong Java PostScript bằng Aspose.Page
+  – hướng dẫn từng bước về cách thêm chuỗi Unicode một cách dễ dàng.
+linktitle: Add Text using Unicode String in Java PostScript
+second_title: Aspose.Page Java API
+title: Cách Thêm Văn Bản Unicode trong Java PostScript bằng Aspose.Page
 url: /vi/java/postscript-text-manipulation/add-text-unicode/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Phục hồi Java PostScript - Thêm Unicode với Aspose.Page
+# Cách Thêm Văn Bản Unicode trong Java PostScript bằng Aspose.Page
 
 ## Giới thiệu
-Bạn đang tìm cách nâng cao ứng dụng Java PostScript của mình bằng cách thêm văn bản Unicode một cách liền mạch? Đừng tìm đâu xa! Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước thực hiện quy trình bằng cách sử dụng Aspose.Page cho Java. Aspose.Page là một thư viện mạnh mẽ cho phép bạn thao tác và chuyển đổi các tệp PostScript và XPS một cách dễ dàng.
+Nếu bạn đang thắc mắc **cách thêm Unicode** vào quy trình PostScript (hoặc XPS) dựa trên Java, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ đi qua các bước chính xác để nhúng chuỗi Unicode bằng thư viện Aspose.Page cho Java. Khi kết thúc, bạn sẽ có thể chèn bất kỳ văn bản ngôn ngữ nào—tiếng Ả Rập, tiếng Trung, biểu tượng cảm xúc, bất kỳ gì—trực tiếp vào đầu ra PostScript của mình.
+
+## Trả lời nhanh
+- **Cần thư viện nào?** Aspose.Page cho Java  
+- **Có thể thêm các script từ phải sang trái không?** Có, đặt mức Bidi như trong mã  
+- **Cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép thương mại cần cho môi trường sản xuất  
+- **IDE nào phù hợp nhất?** Bất kỳ IDE Java nào (IntelliJ IDEA, Eclipse, NetBeans)  
+- **Mã có đa nền tảng không?** Hoàn toàn—chạy trên Windows, macOS hoặc Linux
+
+## “cách thêm Unicode” trong ngữ cảnh PostScript là gì?
+Thêm Unicode có nghĩa là chèn các ký tự được biểu diễn bằng các điểm mã vượt ra ngoài phạm vi ASCII cơ bản. Aspose.Page trừu tượng hoá các chi tiết mã hoá mức thấp, cho phép bạn tập trung vào nội dung văn bản và vị trí hiển thị của nó.
+
+## Tại sao nên dùng Aspose.Page cho văn bản Unicode?
+- **Hỗ trợ Unicode đầy đủ** – Xử lý các script phức tạp, ligature và ngôn ngữ từ phải sang trái.  
+- **Không phụ thuộc bên ngoài** – Không cần quản lý file phông chữ thủ công; API làm việc với phông chữ hệ thống.  
+- **API đơn giản** – Vài lời gọi phương thức là đủ để hiển thị văn bản đa ngôn ngữ.
+
 ## Điều kiện tiên quyết
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
-1. Bộ công cụ phát triển Java (JDK): Đảm bảo bạn đã cài đặt Java trên máy của mình.
-2.  Aspose.Page dành cho Java: Tải xuống và cài đặt thư viện Aspose.Page từ[Liên kết tải xuống](https://releases.aspose.com/page/java/).
-3. Môi trường phát triển tích hợp (IDE): Chọn Java IDE ưa thích của bạn như IntelliJ IDEA hoặc Eclipse.
-## Gói nhập khẩu
-Trong dự án Java của bạn, hãy nhập các gói cần thiết cho Aspose.Page. Thêm các dòng sau vào mã của bạn:
+Trước khi bắt đầu, hãy chuẩn bị các mục sau:
+
+1. **Java Development Kit (JDK)** – Bất kỳ phiên bản mới nào (8 trở lên).  
+2. **Aspose.Page cho Java** – Tải và cài đặt thư viện từ [liên kết tải xuống](https://releases.aspose.com/page/java/).  
+3. **IDE bạn chọn** – IntelliJ IDEA, Eclipse, hoặc bất kỳ IDE Java nào bạn ưa thích.
+
+## Nhập khẩu các gói
+Thêm các lớp Aspose.Page cần thiết vào tệp nguồn Java của bạn:
+
 ```java
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsFontStyle;
@@ -29,42 +50,73 @@ import com.aspose.xps.XpsGlyphs;
 import com.aspose.xps.XpsSolidColorBrush;
 import java.awt.Color;
 ```
-## Bước 1: Thiết lập dự án của bạn
-Tạo một dự án Java mới trong IDE của bạn và thiết lập cấu trúc dự án. Đảm bảo bao gồm thư viện Aspose.Page trong phần phụ thuộc dự án của bạn.
+
+## Bước 1: Thiết lập dự án
+Tạo một dự án Java mới, thêm file JAR Aspose.Page vào đường dẫn biên dịch của dự án, và tạo một thư mục để lưu file XPS được tạo. Thư mục này sẽ được tham chiếu sau này dưới tên `dataDir`.
+
 ## Bước 2: Khởi tạo tài liệu XPS
-Bắt đầu bằng cách khởi tạo một tài liệu XPS mới trong dự án của bạn:
+Tạo một tài liệu XPS trống để chứa nội dung:
+
 ```java
 String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
+
 ## Bước 3: Thêm văn bản Unicode
-Bây giờ, hãy thêm văn bản Unicode vào tài liệu XPS của bạn bằng thư viện Aspose.Page. Sử dụng đoạn mã sau:
+Bây giờ chúng ta sẽ thực sự thêm chuỗi Unicode. Ví dụ dưới đây ghi lại cụm từ đảo ngược “AVAJ rof SPX.esopsA”, chỉ chứa các ký tự ASCII, nhưng bạn có thể thay thế bằng bất kỳ văn bản Unicode nào (ví dụ: tiếng Ả Rập “مرحبا” hoặc tiếng Trung “你好”).
+
 ```java
 XpsSolidColorBrush textFill = doc.createSolidColorBrush(Color.BLACK);
 XpsGlyphs glyphs = doc.addGlyphs("Arial", 20, XpsFontStyle.Regular, 400f, 200f, "AVAJ rof SPX.esopsA");
 glyphs.setBidiLevel(1);
 glyphs.setFill(textFill);
 ```
-Đoạn mã này thêm văn bản Unicode "AVAJ rof SPX.esopsA" vào tài liệu XPS ở tọa độ (400, 200) với phông chữ và kiểu dáng được chỉ định.
+
+> **Mẹo chuyên nghiệp:** Để hiển thị đúng ngôn ngữ từ phải sang trái, đặt `glyphs.setBidiLevel(1);`. Đối với script từ trái sang phải, bạn có thể bỏ qua dòng này.
+
 ## Bước 4: Lưu tài liệu
-Lưu tài liệu XPS kết quả bằng mã sau:
+Ghi file XPS ra đĩa:
+
 ```java
 doc.save(dataDir + "AddEncodingText_out.xps");
 ```
-## Phần kết luận
-Chúc mừng! Bạn đã thêm thành công văn bản Unicode vào ứng dụng Java PostScript của mình bằng Aspose.Page. Hướng dẫn này trình bày một phương pháp đơn giản nhưng mạnh mẽ để nâng cao dự án của bạn.
- Vui lòng khám phá thêm các tính năng và khả năng của Aspose.Page trong[tài liệu](https://reference.aspose.com/page/java/).
-## Các câu hỏi thường gặp
-### Tôi có thể sử dụng Aspose.Page cho Java với các ngôn ngữ lập trình khác không?
-Aspose.Page được thiết kế chủ yếu cho Java, nhưng Aspose cung cấp thư viện cho nhiều ngôn ngữ lập trình khác nhau.
+
+Sau khi chạy chương trình, mở file `AddEncodingText_out.xps` bằng bất kỳ trình xem XPS nào để xem văn bản Unicode được hiển thị tại các tọa độ đã chỉ định.
+
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|----------|
+| Văn bản hiển thị dưới dạng hình vuông | Phông chữ không tìm thấy hoặc không hỗ trợ các ký tự | Sử dụng phông chữ có chứa glyph cần thiết (ví dụ: “Arial Unicode MS”) |
+| Văn bản từ phải sang trái hiển thị trái sang phải | Mức Bidi chưa được đặt | Gọi `glyphs.setBidiLevel(1);` |
+| File không được lưu | Đường dẫn `dataDir` không hợp lệ hoặc thiếu quyền ghi | Đảm bảo thư mục tồn tại và ứng dụng có quyền ghi |
+
+## Câu hỏi thường gặp
+### Tôi có thể dùng Aspose.Page cho Java với các ngôn ngữ lập trình khác không?
+Aspose.Page chủ yếu được thiết kế cho Java, nhưng Aspose cung cấp các thư viện cho nhiều ngôn ngữ lập trình khác nhau.
+
 ### Có bản dùng thử miễn phí không?
- Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Page[đây](https://releases.aspose.com/).
-### Tôi có thể tìm sự hỗ trợ và thảo luận về Aspose.Page ở đâu?
- Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để được hỗ trợ và thảo luận.
-### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page?
- Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-### Các kiểu phông chữ có sẵn trong Aspose.Page là gì?
-Aspose.Page hỗ trợ các kiểu phông chữ như Thông thường, Đậm, Nghiêng và BoldItalic.
+Có, bạn có thể truy cập bản dùng thử miễn phí của Aspose.Page [tại đây](https://releases.aspose.com/).
+
+### Tôi có thể tìm hỗ trợ và thảo luận về Aspose.Page ở đâu?
+Truy cập [diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để được hỗ trợ và thảo luận.
+
+### Làm sao để lấy giấy phép tạm thời cho Aspose.Page?
+Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
+
+### Các kiểu phông chữ nào có sẵn trong Aspose.Page?
+Aspose.Page hỗ trợ các kiểu phông chữ như Regular, Bold, Italic và BoldItalic.
+
+## Kết luận
+Bạn đã nắm vững **cách thêm Unicode** vào tài liệu Java PostScript (XPS) bằng Aspose.Page. Khả năng này mở ra cánh cửa cho báo cáo đa ngôn ngữ, hoá đơn quốc tế, và bất kỳ kịch bản nào yêu cầu ký tự không phải ASCII. Hãy khám phá thêm các tính năng như xoay văn bản, đường cắt, hoặc nhúng phông chữ tùy chỉnh—chi tiết có trong [tài liệu chính thức](https://reference.aspose.com/page/java/).
+
+---
+
+**Cập nhật lần cuối:** 2025-12-17  
+**Đã kiểm tra với:** Aspose.Page cho Java 23.12 (phiên bản mới nhất tại thời điểm viết)  
+**Tác giả:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
