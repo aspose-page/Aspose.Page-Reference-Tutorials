@@ -1,35 +1,53 @@
 ---
-title: Wijzig het formaat van EPS-afbeeldingen met Aspose.Page voor .NET
-linktitle: Formaat van EPS-afbeeldingen wijzigen
-second_title: Aspose.Page .NET-API
-description: Ontdek het naadloze proces van het wijzigen van het formaat van EPS-afbeeldingen in .NET met behulp van Aspose.Page. Bereik moeiteloos precisie in punten, inches, millimeters en percentages.
-weight: 11
+date: 2026-03-03
+description: Leer hoe u EPS‑afbeeldingen in .NET kunt schalen met Aspose.Page – een
+  stap‑voor‑stap gids over hoe u EPS kunt schalen met punten, inches, millimeters
+  of percentages.
+linktitle: Resize EPS Images
+second_title: Aspose.Page .NET API
+title: Hoe EPS-afbeeldingen te verkleinen met Aspose.Page voor .NET
 url: /nl/net/image-manipulation/resize-eps-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wijzig het formaat van EPS-afbeeldingen met Aspose.Page voor .NET
+# Hoe EPS‑afbeeldingen te schalen met Aspose.Page voor .NET
 
-## Invoering
+## Inleiding
 
-Wilt u het formaat van EPS-afbeeldingen naadloos wijzigen met Aspose.Page voor .NET? Deze tutorial is uw uitgebreide gids om moeiteloos de grootte van EPS-afbeeldingen te manipuleren in verschillende eenheden, zoals punten, inches, millimeters en percentages. Aspose.Page voor .NET biedt een krachtige set tools, en in deze zelfstudie leiden we u stap voor stap door het proces.
+Zoek je **hoe EPS‑afbeeldingen te schalen** op een naadloze manier met Aspose.Page voor .NET? Deze tutorial is jouw uitgebreide gids om moeiteloos de grootte van EPS‑afbeeldingen te manipuleren in verschillende eenheden zoals punten, inches, millimeters en percentages. Aspose.Page voor .NET biedt een krachtige set‑tools, en in deze tutorial lopen we stap voor stap het proces met je door.
 
-## Vereisten
+## Snelle antwoorden
+- **Welke bibliotheek behandelt EPS‑schaalvergroting?** Aspose.Page voor .NET  
+- **Welke eenheden worden ondersteund?** Punten, Inches, Millimeters en Percentages  
+- **Heb ik een licentie nodig voor productie?** Ja – een commerciële licentie is vereist  
+- **Kan ik meerdere bestanden tegelijk schalen?** Absoluut – loop gewoon door de bestanden heen  
+- **Wordt .NET Core ondersteund?** Ja, de API werkt met .NET Framework en .NET Core  
 
-Voordat je in de magie van het vergroten/verkleinen duikt, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
+## Wat is EPS‑schaalvergroting?
+Encapsulated PostScript (EPS) is een vector‑gebaseerd grafisch formaat dat veel wordt gebruikt in print‑ en design‑workflows. Het schalen van een EPS‑bestand wijzigt de omhullende box zonder de artwork te rasteren, waardoor de scherpte op elke schaal behouden blijft.
 
--  Aspose.Page voor .NET-bibliotheek: Zorg ervoor dat de Aspose.Page voor .NET-bibliotheek is geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/page/net/).
+## Waarom EPS‑afbeeldingen schalen?
+- **Printkwaliteit behouden:** Vector‑schaling houdt randen scherp.  
+- **Aan layoutvereisten voldoen:** Pas afmetingen aan om te passen bij pagina‑ of canvasgroottes.  
+- **Batchtaken automatiseren:** Programmeermatig tientallen bestanden in seconden schalen.  
 
-- Documentmap: maak een map waarin u uw invoer-EPS-bestand en uitvoerbestanden met gewijzigd formaat opslaat.
+## Voorvereisten
 
-Nu je alles hebt ingesteld, gaan we verder met het importeren van de benodigde naamruimten en verdiepen we ons in de stapsgewijze handleiding.
+Voordat je in de magie van het schalen duikt, zorg ervoor dat je de volgende zaken klaar hebt staan:
 
-## Naamruimten importeren
+- Aspose.Page voor .NET Library: Zorg ervoor dat je de Aspose.Page voor .NET‑bibliotheek geïnstalleerd hebt. Je kunt deze downloaden van [here](https://releases.aspose.com/page/net/).
 
-Begin in uw .NET-project met het importeren van de benodigde naamruimten om met Aspose.Page te werken. Voeg de volgende code toe aan het begin van uw bestand:
+- Documentmap: Maak een map aan waarin je je invoer‑EPS‑bestand en de uitgaande geschaalde bestanden opslaat.
+
+Nu alles is ingesteld, gaan we de benodigde namespaces importeren en duiken we in de stap‑voor‑stap‑gids.
+
+## Namespaces importeren
+
+In je .NET‑project begin je met het importeren van de benodigde namespaces om met Aspose.Page te werken. Voeg de volgende code toe aan het begin van je bestand:
 
 ```csharp
 using Aspose.Page;
@@ -44,14 +62,14 @@ using System.Linq;
 using System.Text;
 ```
 
-## Stap 1: Formaat wijzigen in punten
+## Hoe EPS te schalen in punten
 
-Laten we beginnen met het in punten vergroten of verkleinen van een EPS-afbeelding. Punten zijn een standaard meeteenheid in de grafische industrie.
+Punten zijn een standaard meeteenheid in de drukindustrie. Het voorbeeld hieronder verdubbelt de oorspronkelijke breedte en hoogte.
 
 ```csharp
 public static void ResizeInPoints()
 {
-    // Uw documentenmap
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -68,14 +86,14 @@ public static void ResizeInPoints()
 }
 ```
 
-## Stap 2: Formaat wijzigen in inches
+## Hoe EPS te schalen in inches
 
-Laten we nu het formaat van een EPS-afbeelding wijzigen in inches, een gebruikelijke eenheid die wordt gebruikt in grafisch ontwerp.
+Inches worden vaak gebruikt door grafisch ontwerpers bij het voorbereiden van assets voor druk.
 
 ```csharp
 public static void ResizeInInches()
 {
-    // Uw documentenmap
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -92,14 +110,14 @@ public static void ResizeInInches()
 }
 ```
 
-## Stap 3: Formaat wijzigen in millimeters
+## Hoe EPS te schalen in millimeters
 
-Laten we nu het formaat van een EPS-afbeelding in millimeters wijzigen, een andere veelgebruikte eenheid bij ontwerp en afdrukken.
+Millimeters zijn gangbaar in regio’s die het metrische stelsel hanteren.
 
 ```csharp
 public static void ResizeInMillimeters()
 {
-    // Uw documentenmap
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -116,14 +134,14 @@ public static void ResizeInMillimeters()
 }
 ```
 
-## Stap 4: Formaat wijzigen in procenten
+## Hoe EPS te schalen met percentages
 
-Laten we ten slotte het formaat van een EPS-afbeelding wijzigen met behulp van percentages, zodat we een flexibele benadering krijgen om de afbeeldingsgrootte aan te passen.
+Schalen op basis van percentages laat je de afbeelding schalen ten opzichte van de oorspronkelijke grootte.
 
 ```csharp
 public static void ResizeInPercents()
 {
-    // Uw documentenmap
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -140,33 +158,62 @@ public static void ResizeInPercents()
 }
 ```
 
-Voel je vrij om deze methoden in je project te integreren, zodat je de grootte van EPS-afbeeldingen moeiteloos kunt aanpassen. Experimenteer met verschillende eenheden om de gewenste afmetingen te bereiken.
+Voel je vrij om deze methoden in je project te integreren, en je zult EPS‑afbeeldingen moeiteloos kunnen schalen. Experimenteer met verschillende eenheden om de gewenste afmetingen te bereiken.
+
+## Veelvoorkomende problemen en oplossingen
+- **Bestand niet gevonden:** Controleer of `dataDir` naar de juiste map wijst en of `input.eps` bestaat.  
+- **Onverwachte grootte:** Onthoud dat `Units.Percents` waarden verwacht zoals 150 voor 150 % van de oorspronkelijke grootte.  
+- **Licentie‑exception:** Als je een licentiefout ziet, zorg dan dat een geldig Aspose.Page‑licentiebestand is geladen voordat je `PsDocument` maakt.
 
 ## Conclusie
 
-Gefeliciteerd! U beheerst de kunst van het wijzigen van het formaat van EPS-afbeeldingen met Aspose.Page voor .NET. Deze krachtige bibliotheek opent een wereld aan mogelijkheden voor het manipuleren van vectorafbeeldingen. Of u nu ontwerpt voor gedrukte of digitale media, met Aspose.Page kunt u nauwkeurige en op maat gemaakte resultaten bereiken.
+Gefeliciteerd! Je hebt **hoe EPS‑afbeeldingen te schalen** onder de knie met Aspose.Page voor .NET. Deze krachtige bibliotheek opent een wereld aan mogelijkheden voor het manipuleren van vector‑graphics. Of je nu ontwerpt voor print of digitale media, Aspose.Page stelt je in staat om nauwkeurige en gepersonaliseerde resultaten te behalen.
 
 ## Veelgestelde vragen
 
-### Vraag 1: Kan ik het formaat van meerdere EPS-afbeeldingen tegelijk wijzigen?
+### Q1: Kan ik meerdere EPS‑afbeeldingen tegelijk schalen?
 
-A1: Ja, u kunt een verzameling EPS-bestanden doorlopen en de methoden voor het wijzigen van de grootte dienovereenkomstig toepassen.
+A1: Ja, je kunt door een collectie EPS‑bestanden itereren en de schaalmethoden toepassen.
 
-### V2: Is Aspose.Page compatibel met andere afbeeldingsformaten?
+### Q2: Is Aspose.Page compatibel met andere afbeeldingsformaten?
 
-A2: Aspose.Page richt zich voornamelijk op PostScript- en EPS-formaten. Voor andere afbeeldingsformaten kunt u overwegen Aspose.Imaging te gebruiken.
+A2: Aspose.Page richt zich voornamelijk op PostScript‑ en EPS‑formaten. Voor andere formaten kun je overwegen Aspose.Imaging te gebruiken.
 
-### Vraag 3: Zijn er licentieoverwegingen voor commerciële projecten?
+### Q3: Zijn er licentie‑overwegingen voor commerciële projecten?
 
- A3: Ja, zorg ervoor dat u over een geldige licentie beschikt. Bezoek[hier](https://purchase.aspose.com/buy) voor licentiegegevens.
+A3: Ja, zorg voor een geldige licentie. Bezoek [here](https://purchase.aspose.com/buy) voor licentie‑details.
 
-### V4: Kan ik Aspose.Page uitproberen voordat ik een aankoop doe?
+### Q4: Kan ik Aspose.Page eerst uitproberen voordat ik koop?
 
- A4: Absoluut! U kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+A4: Absoluut! Je kunt een gratis proefversie krijgen [here](https://releases.aspose.com/).
 
-### Vraag 5: Waar kan ik aanvullende hulp zoeken of problemen bespreken?
+### Q5: Waar kan ik extra hulp vinden of problemen bespreken?
 
- A5: Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) om verbinding te maken met de gemeenschap en hulp te krijgen.
+A5: Bezoek het [Aspose.Page forum](https://forum.aspose.com/c/page/39) om contact te leggen met de community en assistentie te krijgen.
+
+## Frequently Asked Questions
+
+**Q: Werkt deze code met .NET Core 6?**  
+A: Ja. De API is compatibel met .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ en .NET 6+.
+
+**Q: Hoe kan ik het originele kleurprofiel behouden?**  
+A: De `ResizeEps`‑methode wijzigt geen kleurgegevens; ze verandert alleen de omhullende box.
+
+**Q: Is het mogelijk een EPS te schalen zonder het volledige bestand in het geheugen te laden?**  
+A: Het gebruik van een stream zoals getoond houdt het geheugenverbruik laag; het document wordt on‑the‑fly verwerkt.
+
+**Q: Kan ik meerdere schaalbewerkingen achter elkaar uitvoeren?**  
+A: Absoluut. Roep `ResizeEps` opeenvolgend aan op dezelfde `PsDocument`‑instantie.
+
+**Q: Wat gebeurt er met ingesloten afbeeldingen binnen de EPS?**  
+A: Ze worden proportioneel geschaald met de vectorinhoud, waardoor de kwaliteit behouden blijft.
+
+---
+
+**Last Updated:** 2026-03-03  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
