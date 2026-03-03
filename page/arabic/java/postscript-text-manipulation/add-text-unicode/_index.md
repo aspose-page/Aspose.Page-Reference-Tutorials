@@ -109,13 +109,6 @@ Aspose.Page تدعم أنماط الخطوط مثل Regular، Bold، Italic، و
 ## الخاتمة
 لقد أتقنت الآن **كيفية إضافة نص Unicode** إلى مستند Java PostScript (XPS) باستخدام Aspose.Page. تفتح هذه القدرة الباب أمام تقارير متعددة اللغات، فواتير دولية، وأي سيناريو يتطلب أحرفًا غير ASCII. لا تتردد في استكشاف ميزات إضافية مثل تدوير النص، مسارات القص، أو تضمين خطوط مخصصة—التفاصيل متوفرة في [الوثائق الرسمية](https://reference.aspose.com/page/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-17  
@@ -123,3 +116,10 @@ Aspose.Page تدعم أنماط الخطوط مثل Regular، Bold، Italic، و
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

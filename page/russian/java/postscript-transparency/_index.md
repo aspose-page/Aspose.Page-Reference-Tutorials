@@ -67,20 +67,6 @@ Aspose.Page абстрагирует низкоуровневые команды
 ### [Показать псевдо‑прозрачность в Java PostScript](./show-pseudo-transparency/)
 Откройте яркую графику в Java PostScript! Следуйте нашему учебнику Aspose.Page для пошагового создания псевдо‑прозрачности. Скачайте сейчас!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
----
-**Последнее обновление:** 2025-12-17  
-**Тестировано с:** Aspose.Page for Java 24.11  
-**Автор:** Aspose  
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
 ## Часто задаваемые вопросы
 
 **В: Можно ли использовать эти техники с существующими файлами PostScript?**  
@@ -97,3 +83,18 @@ Aspose.Page абстрагирует низкоуровневые команды
 
 **В: Где я могу найти более продвинутые примеры?**  
 **О:** Посетите документацию Aspose.Page for Java и официальный репозиторий примеров кода для более сложных сценариев.
+
+---
+
+**Последнее обновление:** 2025-12-17  
+**Тестировано с:** Aspose.Page for Java 24.11  
+**Автор:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

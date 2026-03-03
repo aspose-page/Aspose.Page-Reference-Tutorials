@@ -154,13 +154,6 @@ R: Visite [este enlace](https://purchase.aspose.com/temporary-license/) para obt
 ## Conclusión
 ¡Felicidades! Ha aprendido con éxito **cómo añadir textura** mediante patrones de mosaico a un documento Java PostScript usando Aspose.Page para Java. Siéntase libre de explorar más opciones de personalización: experimente con diferentes mosaicos bitmap, factores de escala y operaciones compuestas para liberar todo el potencial creativo de los rellenos de textura.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2025-12-17  
@@ -168,3 +161,10 @@ R: Visite [este enlace](https://purchase.aspose.com/temporary-license/) para obt
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -109,13 +109,6 @@ Aspose.Page obsługuje style czcionek takie jak Regular, Bold, Italic i BoldItal
 ## Zakończenie
 Opanowałeś teraz **how to add Unicode** tekst do dokumentu Java PostScript (XPS) przy użyciu Aspose.Page. Ta możliwość otwiera drzwi do wielojęzycznych raportów, zinternacjonalizowanych faktur i wszelkich scenariuszy, w których wymagane są znaki spoza ASCII. Śmiało eksploruj dodatkowe funkcje, takie jak rotacja tekstu, ścieżki przycinania czy osadzanie własnych czcionek — szczegóły dostępne są w oficjalnej [documentation](https://reference.aspose.com/page/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-17  
@@ -123,3 +116,10 @@ Opanowałeś teraz **how to add Unicode** tekst do dokumentu Java PostScript (XP
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -154,13 +154,6 @@ document.save();
 ## Συμπέρασμα
 Συγχαρητήρια! Μάθατε με επιτυχία **πώς να προσθέσετε υφή** σε μοτίβα επικάλυψης σε ένα έγγραφο Java PostScript χρησιμοποιώντας το Aspose.Page for Java. Μη διστάσετε να εξερευνήσετε περαιτέρω επιλογές προσαρμογής—πειραματιστείτε με διαφορετικά bitmap πλακίδια, συντελεστές κλίμακας και σύνθετες λειτουργίες για να αξιοποιήσετε πλήρως το δημιουργικό δυναμικό των γεμισμάτων υφής.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-17  
@@ -168,3 +161,10 @@ document.save();
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

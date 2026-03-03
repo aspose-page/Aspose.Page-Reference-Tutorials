@@ -122,16 +122,16 @@ document.save();
 Evet, Aspose.Page for Java ticari kullanım için mevcuttur. Lisans satın alabilirsiniz **[buradan](https://purchase.aspose.com/buy)**.
 
 ### Ücretsiz deneme mevcut mu?
-Evet, ücretsiz deneme **[buradan](https://releases.aspose.com/)** alınabilir.
+Evet, ücretsiz deneme [buradan](https://releases.aspose.com/) alınabilir.
 
 ### Ek dokümantasyonu nereden bulabilirim?
-Detaylı dokümantasyon **[buradan](https://reference.aspose.com/page/java/)** mevcuttur.
+Detaylı dokümantasyon [buradan](https://reference.aspose.com/page/java/) mevcuttur.
 
 ### Test amaçlı geçici lisans nasıl alınır?
-Geçici bir lisans **[buradan](https://purchase.aspose.com/temporary-license/)** temin edilebilir.
+Geçici bir lisans [buradan](https://purchase.aspose.com/temporary-license/) temin edilebilir.
 
 ### Yardım mı lazım ya da Aspose.Page hakkında konuşmak mı istiyorsunuz?
-**[Aspose.Page Forum](https://forum.aspose.com/c/page/39)** adresini ziyaret edin.
+[Aspose.Page Forum](https://forum.aspose.com/c/page/39) adresini ziyaret edin.
 
 ---
 

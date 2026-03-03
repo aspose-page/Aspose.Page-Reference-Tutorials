@@ -109,13 +109,6 @@ Aspose.Page podporuje styly fontů jako Regular, Bold, Italic a BoldItalic.
 ## Závěr
 Nyní ovládáte **jak přidat Unicode** text do Java PostScript (XPS) dokumentu pomocí Aspose.Page. Tato schopnost otevírá dveře k vícejazyčným reportům, internacionalizovaným fakturám a jakémukoli scénáři, kde jsou potřeba ne‑ASCII znaky. Neváhejte prozkoumat další funkce, jako je rotace textu, ořezové cesty nebo vkládání vlastních fontů — detaily najdete v oficiální [dokumentaci](https://reference.aspose.com/page/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-17  
@@ -123,3 +116,10 @@ Nyní ovládáte **jak přidat Unicode** text do Java PostScript (XPS) dokumentu
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

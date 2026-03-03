@@ -154,13 +154,6 @@ document.save();
 ## Заключение
 Поздравляем! Вы успешно изучили **как добавить текстуру** в виде узоров плитки в документ Java PostScript с использованием Aspose.Page for Java. Не стесняйтесь исследовать дополнительные варианты настройки — экспериментируйте с различными растровыми плитками, коэффициентами масштабирования и комбинированными операциями, чтобы раскрыть весь творческий потенциал текстурных заливок.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-17  
@@ -168,3 +161,10 @@ document.save();
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

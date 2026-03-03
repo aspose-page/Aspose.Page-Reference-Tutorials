@@ -152,13 +152,6 @@ A: 請前往此連結 [this link](https://purchase.aspose.com/temporary-license/
 ## 結論
 恭喜您！您已成功學會 **如何加入紋理** 平鋪圖案至 Java PostScript 文件，並使用 Aspose.Page for Java 完成操作。歡迎進一步探索自訂選項——嘗試不同的點陣圖圖塊、縮放比例與合成方式，釋放紋理填充的全部創意潛力。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-17  
@@ -166,3 +159,10 @@ A: 請前往此連結 [this link](https://purchase.aspose.com/temporary-license/
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

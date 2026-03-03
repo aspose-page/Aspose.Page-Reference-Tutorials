@@ -122,16 +122,16 @@ document.save();
 Ja, Aspose.Page for Java is beschikbaar voor commercieel gebruik. Je kunt een licentie aanschaffen **[hier](https://purchase.aspose.com/buy)**.
 
 ### Is er een gratis proefversie beschikbaar?
-Ja, je kunt een gratis proefversie krijgen **[hier](https://releases.aspose.com/)**.
+Ja, je kunt een gratis proefversie krijgen [hier](https://releases.aspose.com/).
 
 ### Waar vind ik extra documentatie?
-Gedetailleerde documentatie is beschikbaar **[hier](https://reference.aspose.com/page/java/)**.
+Gedetailleerde documentatie is beschikbaar [hier](https://reference.aspose.com/page/java/).
 
 ### Hoe kan ik een tijdelijke licentie krijgen voor testdoeleinden?
-Je kunt een tijdelijke licentie verkrijgen **[hier](https://purchase.aspose.com/temporary-license/)**.
+Je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
 ### Hulp nodig of wil je over Aspose.Page discussiëren?
-Bezoek het **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**.
+Bezoek het [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
 ---
 

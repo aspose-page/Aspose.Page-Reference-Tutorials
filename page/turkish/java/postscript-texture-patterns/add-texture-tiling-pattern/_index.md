@@ -154,13 +154,6 @@ C: Geçici lisans almak için [bu bağlantıyı](https://purchase.aspose.com/tem
 ## Sonuç
 Tebrikler! Aspose.Page for Java kullanarak bir Java PostScript belgesine **doku ekleme** döşeme desenlerini başarıyla uyguladınız. Farklı bitmap döşemeler, ölçek faktörleri ve birleşik işlemlerle denemeler yaparak doku doldurmalarının yaratıcı potansiyelini keşfetmeye devam edin.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-17  
@@ -168,3 +161,10 @@ Tebrikler! Aspose.Page for Java kullanarak bir Java PostScript belgesine **doku 
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

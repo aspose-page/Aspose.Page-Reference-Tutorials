@@ -152,13 +152,6 @@ document.save();
 ## 结论
 恭喜！您已成功学习**如何向 Java PostScript 文档添加纹理**平铺模式，使用了 Aspose.Page for Java。欢迎进一步探索自定义选项——尝试不同的位图瓦片、缩放因子以及复合操作，释放纹理填充的全部创意潜能。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最后更新：** 2025-12-17  
@@ -166,3 +159,10 @@ document.save();
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

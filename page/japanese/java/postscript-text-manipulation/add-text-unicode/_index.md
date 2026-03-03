@@ -109,15 +109,15 @@ Aspose.Page は Regular、Bold、Italic、BoldItalic といったフォントス
 ## 結論
 これで **how to add Unicode** テキストを Aspose.Page を使用して Java の PostScript（XPS）ドキュメントに追加する方法を習得しました。この機能により、多言語レポート、国際化請求書、ASCII 以外の文字が必要なあらゆるシナリオが実現可能になります。テキストの回転、クリッピングパス、カスタムフォントの埋め込みなど、追加機能もぜひ試してみてください。詳細は公式 [documentation](https://reference.aspose.com/page/java/) をご参照ください。
 
+---
+
+**最終更新日:** 2025-12-17  
+**テスト環境:** Aspose.Page for Java 23.12 (執筆時点での最新)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-17  
-**テスト環境:** Aspose.Page for Java 23.12 (執筆時点での最新)  
-**作者:** Aspose

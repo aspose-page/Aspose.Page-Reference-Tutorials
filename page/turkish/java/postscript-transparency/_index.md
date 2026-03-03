@@ -66,20 +66,6 @@ Aspose.Page for Java ile Java PostScript belgelerinde şeffaf görüntülerin so
 ### [Java PostScript'te Sahte‑Şeffaflığı Göster](./show-pseudo-transparency/)
 Java PostScript'te canlı grafiklerin kilidini açın! Adım‑adım sahte‑şeffaflık oluşturma için Aspose.Page öğreticimizi izleyin. Şimdi indirin!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
----
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
 ## Sıkça Sorulan Sorular
 
 **Q:** Bu teknikleri mevcut PostScript dosyalarıyla kullanabilir miyim?  
@@ -96,3 +82,18 @@ Java PostScript'te canlı grafiklerin kilidini açın! Adım‑adım sahte‑şe
 
 **Q:** Daha gelişmiş örnekleri nerede bulabilirim?  
 **A:** Daha derin kullanım senaryoları için Aspose.Page for Java belgelerini ve resmi kod örnekleri deposunu ziyaret edin.
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

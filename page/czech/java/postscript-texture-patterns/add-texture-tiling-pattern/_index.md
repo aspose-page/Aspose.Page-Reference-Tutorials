@@ -154,16 +154,16 @@ A: Navštivte [tento odkaz](https://purchase.aspose.com/temporary-license/), kde
 ## Závěr
 Gratulujeme! Úspěšně jste se naučili **jak přidat texturu** pomocí dlaždicových vzorů do Java PostScript dokumentu s využitím Aspose.Page pro Java. Neváhejte dále zkoumat možnosti přizpůsobení – experimentujte s různými bitmapovými dlaždicemi, měřítky a kompozitními operacemi a uvolněte plný tvůrčí potenciál texturovaných výplní.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Poslední aktualizace:** 2025-12-17**Testováno s:** Aspose.Page pro Java 24.12 (nejnovější)  
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

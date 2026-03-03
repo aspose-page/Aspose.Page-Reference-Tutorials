@@ -153,13 +153,6 @@ document.save();
 ## สรุป
 ขอแสดงความยินดี! คุณได้เรียนรู้ **วิธีเพิ่มเทกซ์เจอร์** แบบเรียงแพทเทิร์นในเอกสาร Java PostScript ด้วย Aspose.Page for Java แล้ว อย่าลังเลที่จะสำรวจตัวเลือกการปรับแต่งเพิ่มเติม—ลองใช้ไทล์บิตแมพต่าง ๆ, ปรับสเกล, และทำการผสมผสานเพื่อเปิดศักยภาพเต็มที่ของการเติมเทกซ์เจอร์
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2025-12-17  
@@ -167,3 +160,10 @@ document.save();
 **ผู้เขียน:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

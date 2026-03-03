@@ -67,20 +67,6 @@ weight: 39
 ### [Εμφάνιση Ψευδο‑Διαφάνειας σε Java PostScript](./show-pseudo-transparency/)
 Αποκτήστε ζωντανά γραφικά σε Java PostScript! Ακολουθήστε το σεμινάριο Aspose.Page για δημιουργία ψευδο‑διαφάνειας βήμα‑βήμα. Κατεβάστε τώρα!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
----
-**Τελευταία Ενημέρωση:** 2025-12-17  
-**Δοκιμή Με:** Aspose.Page for Java 24.11  
-**Συγγραφέας:** Aspose  
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω αυτές τις τεχνικές με υπάρχοντα αρχεία PostScript;**  
@@ -97,3 +83,18 @@ A: Η βιβλιοθήκη διαχειρίζεται εικόνες μέχρι 
 
 **Q: Πού μπορώ να βρω πιο προχωρημένα παραδείγματα;**  
 A: Επισκεφθείτε την τεκμηρίωση Aspose.Page for Java και το επίσημο αποθετήριο παραδειγμάτων κώδικα για πιο σύνθετες περιπτώσεις χρήσης.
+
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-17  
+**Δοκιμή Με:** Aspose.Page for Java 24.11  
+**Συγγραφέας:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -109,15 +109,15 @@ Aspose.Page รองรับสไตล์ฟอนต์เช่น Regular
 ## สรุป
 คุณได้เรียนรู้ **วิธีเพิ่มข้อความ Unicode** ลงในเอกสาร Java PostScript (XPS) ด้วย Aspose.Page แล้ว ความสามารถนี้เปิดประตูสู่การสร้างรายงานหลายภาษา, ใบแจ้งหนี้สากล, หรือสถานการณ์ใด ๆ ที่ต้องการอักขระที่ไม่ใช่ ASCII อย่าลังเลที่จะสำรวจฟีเจอร์เพิ่มเติมเช่น การหมุนข้อความ, เส้นทางคลิป, หรือการฝังฟอนต์แบบกำหนดเอง — รายละเอียดเพิ่มเติมอยู่ใน [documentation](https://reference.aspose.com/page/java/) อย่างเป็นทางการ
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Page for Java 23.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Page for Java 23.12 (latest at time of writing)  
-**Author:** Aspose

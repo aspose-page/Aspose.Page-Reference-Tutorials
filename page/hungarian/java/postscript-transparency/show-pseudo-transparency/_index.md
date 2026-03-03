@@ -122,16 +122,16 @@ document.save();
 Igen, az Aspose.Page for Java kereskedelmi felhasználásra is elérhető. Licencet vásárolhat **[itt](https://purchase.aspose.com/buy)**.
 
 ### Elérhető ingyenes próba?
-Igen, ingyenes próbaverziót szerezhet **[itt](https://releases.aspose.com/)**.
+Igen, ingyenes próbaverziót szerezhet [itt](https://releases.aspose.com/).
 
 ### Hol találok további dokumentációt?
-Részletes dokumentáció elérhető **[itt](https://reference.aspose.com/page/java/)**.
+Részletes dokumentáció elérhető [itt](https://reference.aspose.com/page/java/).
 
 ### Hogyan szerezhetek ideiglenes licencet teszteléshez?
-Ideiglenes licencet szerezhet **[itt](https://purchase.aspose.com/temporary-license/)**.
+Ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
 
 ### Segítségre van szüksége vagy szeretne az Aspose.Page-ről beszélgetni?
-Látogassa meg a **[Aspose.Page Fórumot](https://forum.aspose.com/c/page/39)**.
+Látogassa meg a [Aspose.Page Fórumot](https://forum.aspose.com/c/page/39).
 
 **Utolsó frissítés:** 2025-12-17  
 **Tesztelve:** Aspose.Page for Java 24.12 (legújabb)  

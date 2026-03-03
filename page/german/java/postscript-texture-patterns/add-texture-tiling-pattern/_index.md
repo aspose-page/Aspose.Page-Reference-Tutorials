@@ -154,13 +154,6 @@ A: Besuchen Sie [diesen Link](https://purchase.aspose.com/temporary-license/), u
 ## Fazit
 Herzlichen Glückwunsch! Sie haben erfolgreich **wie man Textur hinzufügt** Kachelmuster zu einem Java‑PostScript‑Dokument mit Aspose.Page für Java erlernt. Erkunden Sie weiterführende Anpassungsoptionen – experimentieren Sie mit verschiedenen Bitmap‑Kacheln, Skalierungsfaktoren und Komposit‑Operationen, um das volle kreative Potenzial von Textur‑Füllungen auszuschöpfen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2025-12-17  
@@ -168,3 +161,10 @@ Herzlichen Glückwunsch! Sie haben erfolgreich **wie man Textur hinzufügt** Kac
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

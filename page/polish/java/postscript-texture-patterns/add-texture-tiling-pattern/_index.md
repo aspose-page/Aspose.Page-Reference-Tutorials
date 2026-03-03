@@ -154,13 +154,6 @@ O: Przejdź do [tego linku](https://purchase.aspose.com/temporary-license/), aby
 ## Podsumowanie
 Gratulacje! Pomyślnie nauczyłeś się **jak dodać teksturę** w postaci wzorców kafelkowania do dokumentu Java PostScript przy użyciu Aspose.Page for Java. Śmiało eksperymentuj z dalszymi opcjami dostosowywania — wypróbuj różne bitmapowe kafelki, współczynniki skali i operacje kompozycji, aby w pełni wykorzystać kreatywny potencjał wypełnień teksturą.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-17  
@@ -168,3 +161,10 @@ Gratulacje! Pomyślnie nauczyłeś się **jak dodać teksturę** w postaci wzorc
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -154,13 +154,6 @@ A: Truy cập [liên kết này](https://purchase.aspose.com/temporary-license/)
 ## Kết luận
 Chúc mừng! Bạn đã học thành công **cách thêm kết cấu** dạng mẫu lát vào tài liệu Java PostScript bằng Aspose.Page for Java. Hãy tiếp tục khám phá các tùy chọn tùy chỉnh—thử nghiệm với các gạch bitmap khác nhau, hệ số tỷ lệ và các thao tác hợp thành để khai thác tối đa tiềm năng sáng tạo của việc điền kết cấu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -168,3 +161,10 @@ Chúc mừng! Bạn đã học thành công **cách thêm kết cấu** dạng m
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

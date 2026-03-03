@@ -110,15 +110,15 @@ Az Aspose.Page támogatja a betűstílusokat, mint a Regular, Bold, Italic és B
 ## Összegzés
 Most már elsajátítottad, **hogyan adjunk hozzá Unicode** szöveget egy Java PostScript (XPS) dokumentumhoz az Aspose.Page segítségével. Ez a lehetőség megnyitja az utat a többnyelvű jelentések, nemzetközi számlák és bármely olyan helyzet előtt, ahol nem‑ASCII karakterekre van szükség. Nyugodtan fedezd fel a további funkciókat, mint a szöveg forgatása, vágóutak vagy egyedi betűkészletek beágyazása – a részletek a hivatalos [dokumentációban](https://reference.aspose.com/page/java/) találhatók.
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Page for Java 23.12 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Page for Java 23.12 (latest at time of writing)  
-**Author:** Aspose

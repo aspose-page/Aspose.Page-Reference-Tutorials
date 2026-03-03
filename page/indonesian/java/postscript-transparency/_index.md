@@ -67,20 +67,6 @@ Jelajahi integrasi mulus gambar transparan dalam dokumen Java PostScript dengan 
 ### [Show Pseudo‑Transparency in Java PostScript](./show-pseudo-transparency/)
 Buka grafik berwarna hidup dalam Java PostScript! Ikuti tutorial Aspose.Page kami untuk langkah‑demi‑langkah pembuatan pseudo‑transparency. Unduh sekarang!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
----
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
 ## Frequently Asked Questions
 
 **Q: Can I use these techniques with existing PostScript files?**  
@@ -97,3 +83,18 @@ A: Perpustakaan ini menangani gambar hingga beberapa megabyte, tetapi gambar yan
 
 **Q: Where can I find more advanced examples?**  
 A: Kunjungi dokumentasi Aspose.Page untuk Java dan repositori contoh kode resmi untuk kasus penggunaan yang lebih mendalam.
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

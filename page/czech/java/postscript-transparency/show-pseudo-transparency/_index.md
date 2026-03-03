@@ -122,16 +122,16 @@ document.save();
 Ano, Aspose.Page pro Java je k dispozici pro komerční použití. Licenci si můžete zakoupit **[zde](https://purchase.aspose.com/buy)**.
 
 ### Je k dispozici bezplatná zkušební verze?
-Ano, bezplatnou zkušební verzi získáte **[zde](https://releases.aspose.com/)**.
+Ano, bezplatnou zkušební verzi získáte [zde](https://releases.aspose.com/).
 
 ### Kde najdu další dokumentaci?
-Podrobná dokumentace je k dispozici **[zde](https://reference.aspose.com/page/java/)**.
+Podrobná dokumentace je k dispozici [zde](https://reference.aspose.com/page/java/).
 
 ### Jak získat dočasnou licenci pro testovací účely?
-Dočasnou licenci můžete získat **[zde](https://purchase.aspose.com/temporary-license/)**.
+Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Potřebujete pomoc nebo chcete diskutovat o Aspose.Page?
-Navštivte **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**.
+Navštivte [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
 ---
 

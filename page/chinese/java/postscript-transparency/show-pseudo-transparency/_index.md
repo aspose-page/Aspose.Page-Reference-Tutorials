@@ -118,19 +118,19 @@ document.save();
 
 ## 常见问答
 ### 我可以在商业项目中使用 Aspose.Page for Java 吗？
-是的，Aspose.Page for Java 可用于商业用途。您可以在 **[here](https://purchase.aspose.com/buy)** 购买许可证。
+是的，Aspose.Page for Java 可用于商业用途。您可以在 [here](https://purchase.aspose.com/buy) 购买许可证。
 
 ### 是否提供免费试用？
-是的，您可以在 **[here](https://releases.aspose.com/)** 获取免费试用。
+是的，您可以在 [here](https://releases.aspose.com/) 获取免费试用。
 
 ### 在哪里可以找到更多文档？
-详细文档可在 **[here](https://reference.aspose.com/page/java/)** 获取。
+详细文档可在 [here](https://reference.aspose.com/page/java/) 获取。
 
 ### 如何获取用于测试的临时许可证？
-您可以在 **[here](https://purchase.aspose.com/temporary-license/)** 获取临时许可证。
+您可以在 [here](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
 
 ### 需要帮助或想讨论 Aspose.Page？
-访问 **[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)**。
+访问 [Aspose.Page 论坛](https://forum.aspose.com/c/page/39)
 
 **最后更新：** 2025-12-17  
 **测试环境：** Aspose.Page for Java 24.12（最新）  

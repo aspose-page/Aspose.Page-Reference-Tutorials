@@ -118,19 +118,19 @@ document.save();
 
 ## คำถามที่พบบ่อย
 ### ฉันสามารถใช้ Aspose.Page สำหรับ Java ในโครงการเชิงพาณิชย์ได้หรือไม่?
-Yes, Aspose.Page for Java is available for commercial use. You can purchase a license **[here](https://purchase.aspose.com/buy)**.
+Yes, Aspose.Page for Java is available for commercial use. You can purchase a license [here](https://purchase.aspose.com/buy).
 
 ### มีรุ่นทดลองใช้งานฟรีหรือไม่?
-Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
+Yes, you can get a free trial [here](https://releases.aspose.com/).
 
 ### ฉันจะหาเอกสารเพิ่มเติมได้จากที่ไหน?
-Detailed documentation is available **[here](https://reference.aspose.com/page/java/)**.
+Detailed documentation is available [here](https://reference.aspose.com/page/java/).
 
 ### ฉันจะขอรับใบอนุญาตชั่วคราวเพื่อการทดสอบได้อย่างไร?
-You can obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
 ### ต้องการความช่วยเหลือหรืออยากพูดคุยเกี่ยวกับ Aspose.Page?
-Visit the **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**.
+Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
 **Last Updated:** 2025-12-17  
 **Tested With:** Aspose.Page for Java 24.12 (latest)  

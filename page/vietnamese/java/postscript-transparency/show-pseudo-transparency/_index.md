@@ -120,19 +120,19 @@ document.save();
 
 ## Câu hỏi thường gặp
 ### Can I use Aspose.Page for Java in commercial projects?
-Có, Aspose.Page for Java có sẵn cho việc sử dụng thương mại. Bạn có thể mua giấy phép **[here](https://purchase.aspose.com/buy)**.
+Có, Aspose.Page for Java có sẵn cho việc sử dụng thương mại. Bạn có thể mua giấy phép [here](https://purchase.aspose.com/buy).
 
 ### Is there a free trial available?
-Có, bạn có thể nhận bản dùng thử miễn phí **[here](https://releases.aspose.com/)**.
+Có, bạn có thể nhận bản dùng thử miễn phí [here](https://releases.aspose.com/).
 
 ### Where can I find additional documentation?
-Tài liệu chi tiết có sẵn **[here](https://reference.aspose.com/page/java/)**.
+Tài liệu chi tiết có sẵn [here](https://reference.aspose.com/page/java/).
 
 ### How can I get temporary licensing for testing purposes?
-Bạn có thể nhận giấy phép tạm thời **[here](https://purchase.aspose.com/temporary-license/)**.
+Bạn có thể nhận giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
 
 ### Need help or want to discuss Aspose.Page?
-Truy cập **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**.
+Truy cập [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
 ---
 

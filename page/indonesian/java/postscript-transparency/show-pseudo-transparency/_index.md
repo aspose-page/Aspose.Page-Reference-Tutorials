@@ -123,16 +123,16 @@ document.save();
 Ya, Aspose.Page untuk Java tersedia untuk penggunaan komersial. Anda dapat membeli lisensi **[di sini](https://purchase.aspose.com/buy)**.
 
 ### Is there a free trial available?
-Ya, Anda dapat mendapatkan percobaan gratis **[di sini](https://releases.aspose.com/)**.
+Ya, Anda dapat mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
 
 ### Where can I find additional documentation?
-Dokumentasi terperinci tersedia **[di sini](https://reference.aspose.com/page/java/)**.
+Dokumentasi terperinci tersedia [di sini](https://reference.aspose.com/page/java/).
 
 ### How can I get temporary licensing for testing purposes?
-Anda dapat memperoleh lisensi sementara **[di sini](https://purchase.aspose.com/temporary-license/)**.
+Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
 ### Need help or want to discuss Aspose.Page?
-Kunjungi **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**.
+Kunjungi [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
 ---
 

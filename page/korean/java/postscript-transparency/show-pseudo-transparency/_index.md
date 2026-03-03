@@ -119,19 +119,19 @@ document.save();
 ## 자주 묻는 질문
 
 ### Aspose.Page for Java를 상업 프로젝트에 사용할 수 있나요?
-예, Aspose.Page for Java는 상업적 사용이 가능합니다. 라이선스는 **[여기](https://purchase.aspose.com/buy)**에서 구매할 수 있습니다.
+예, Aspose.Page for Java는 상업적 사용이 가능합니다. 라이선스는 [여기](https://purchase.aspose.com/buy)에서 구매할 수 있습니다.
 
 ### 무료 체험판이 있나요?
-예, 무료 체험판은 **[여기](https://releases.aspose.com/)**에서 받을 수 있습니다.
+예, 무료 체험판은 [여기](https://releases.aspose.com/)에서 받을 수 있습니다.
 
 ### 추가 문서는 어디에서 찾을 수 있나요?
-자세한 문서는 **[여기](https://reference.aspose.com/page/java/)**에서 확인할 수 있습니다.
+자세한 문서는 [여기](https://reference.aspose.com/page/java/)에서 확인할 수 있습니다.
 
 ### 테스트용 임시 라이선스는 어떻게 얻나요?
-임시 라이선스는 **[여기](https://purchase.aspose.com/temporary-license/)**에서 얻을 수 있습니다.
+임시 라이선스는 [여기](https://purchase.aspose.com/temporary-license/)에서 얻을 수 있습니다.
 
 ### 도움이 필요하거나 Aspose.Page에 대해 논의하고 싶으신가요?
-**[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**을 방문하세요.
+[Aspose.Page Forum](https://forum.aspose.com/c/page/39)을 방문하세요.
 
 ---
 

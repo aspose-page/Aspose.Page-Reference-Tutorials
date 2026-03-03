@@ -123,16 +123,16 @@ document.save();
 Ja, Aspose.Page für Java ist für die kommerzielle Nutzung verfügbar. Sie können eine Lizenz **[hier](https://purchase.aspose.com/buy)** erwerben.
 
 ### Gibt es eine kostenlose Testversion?
-Ja, Sie können eine kostenlose Testversion **[hier](https://releases.aspose.com/)** erhalten.
+Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) erhalten.
 
 ### Wo finde ich zusätzliche Dokumentation?
-Detaillierte Dokumentation ist **[hier](https://reference.aspose.com/page/java/)** verfügbar.
+Detaillierte Dokumentation ist [hier](https://reference.aspose.com/page/java/) verfügbar.
 
 ### Wie kann ich eine temporäre Lizenz für Testzwecke erhalten?
-Sie können eine temporäre Lizenz **[hier](https://purchase.aspose.com/temporary-license/)** erhalten.
+Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
 
 ### Brauchen Sie Hilfe oder möchten Sie Aspose.Page diskutieren?
-Besuchen Sie das **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**.
+Besuchen Sie das [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
 ---
 

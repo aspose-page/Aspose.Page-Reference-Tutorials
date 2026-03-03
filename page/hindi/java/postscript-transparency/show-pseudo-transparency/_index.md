@@ -123,16 +123,16 @@ document.save();
 हाँ, Aspose.Page for Java व्यावसायिक उपयोग के लिए उपलब्ध है। आप लाइसेंस **[यहाँ](https://purchase.aspose.com/buy)** खरीद सकते हैं।
 
 ### क्या मुफ्त ट्रायल उपलब्ध है?
-हाँ, आप मुफ्त ट्रायल **[यहाँ](https://releases.aspose.com/)** प्राप्त कर सकते हैं।
+हाँ, आप मुफ्त ट्रायल [यहाँ](https://releases.aspose.com/) प्राप्त कर सकते हैं।
 
 ### अतिरिक्त दस्तावेज़ीकरण कहाँ मिल सकता है?
-विस्तृत दस्तावेज़ीकरण **[यहाँ](https://reference.aspose.com/page/java/)** उपलब्ध है।
+विस्तृत दस्तावेज़ीकरण [यहाँ](https://reference.aspose.com/page/java/) उपलब्ध है।
 
 ### परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?
-आप अस्थायी लाइसेंस **[यहाँ](https://purchase.aspose.com/temporary-license/)** प्राप्त कर सकते हैं।
+आप अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) प्राप्त कर सकते हैं।
 
 ### मदद चाहिए या Aspose.Page पर चर्चा करना चाहते हैं?
-**[Aspose.Page फ़ोरम](https://forum.aspose.com/c/page/39)** पर जाएँ।
+[Aspose.Page फ़ोरम](https://forum.aspose.com/c/page/39) पर जाएँ।
 
 ---
 

@@ -154,13 +154,6 @@ A: Bezoek [deze link](https://purchase.aspose.com/temporary-license/) om een tij
 ## Conclusie
 Gefeliciteerd! Je hebt met succes **hoe je textuur toevoegt** tiling‑patronen aan een Java‑PostScript‑document geleerd met behulp van Aspose.Page for Java. Voel je vrij om verder te experimenteren met aanpassingsopties — probeer verschillende bitmap‑tegels, schaalfactoren en compositie‑bewerkingen om het volledige creatieve potentieel van textuurvullingen te ontketenen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-17  
@@ -168,3 +161,10 @@ Gefeliciteerd! Je hebt met succes **hoe je textuur toevoegt** tiling‑patronen 
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

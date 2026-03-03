@@ -119,19 +119,19 @@ document.save();
 
 ## FAQ
 ### Aspose.Page for Java を商用プロジェクトで使用できますか？
-はい、商用利用が可能です。ライセンスは **[こちら](https://purchase.aspose.com/buy)** から購入できます。
+はい、商用利用が可能です。ライセンスは [こちら](https://purchase.aspose.com/buy) から購入できます。
 
 ### 無料トライアルはありますか？
-あります。無料トライアルは **[こちら](https://releases.aspose.com/)** から取得できます。
+あります。無料トライアルは [こちら](https://releases.aspose.com/) から取得できます。
 
 ### 追加のドキュメントはどこで見つけられますか？
-詳細なドキュメントは **[こちら](https://reference.aspose.com/page/java/)** にあります。
+詳細なドキュメントは [こちら](https://reference.aspose.com/page/java/) にあります。
 
 ### テスト用の一時ライセンスはどう取得しますか？
-一時ライセンスは **[こちら](https://purchase.aspose.com/temporary-license/)** から取得できます。
+一時ライセンスは [こちら](https://purchase.aspose.com/temporary-license/) から取得できます。
 
 ### Aspose.Page に関する質問や議論がしたいですか？
-**[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)** をご利用ください。
+[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39) をご利用ください。
 
 ---
 

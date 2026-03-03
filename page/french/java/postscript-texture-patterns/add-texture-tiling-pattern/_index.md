@@ -154,15 +154,15 @@ A : Visitez [ce lien](https://purchase.aspose.com/temporary-license/) pour obt
 ## Conclusion
 Félicitations ! Vous avez appris avec succès **comment ajouter une texture** sous forme de motifs de carrelage à un document Java PostScript en utilisant Aspose.Page for Java. N'hésitez pas à explorer d'autres options de personnalisation — expérimentez avec différents carreaux bitmap, facteurs d'échelle et opérations composites pour libérer tout le potentiel créatif des remplissages de texture.
 
+---
+
+**Dernière mise à jour :** 2025-12-17  
+**Testé avec :** Aspose.Page for Java 24.12 (latest)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-17  
-**Testé avec :** Aspose.Page for Java 24.12 (latest)  
-**Auteur :** Aspose

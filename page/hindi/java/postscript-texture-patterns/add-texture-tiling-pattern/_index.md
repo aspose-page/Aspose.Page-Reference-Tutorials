@@ -154,13 +154,6 @@ document.save();
 ## निष्कर्ष
 बधाई हो! आपने Aspose.Page for Java का उपयोग करके Java PostScript दस्तावेज़ में **how to add texture** टाइलिंग पैटर्न सफलतापूर्वक जोड़ना सीख लिया है। आगे के कस्टमाइज़ेशन विकल्पों का अन्वेषण करें—विभिन्न बिटमैप टाइल, स्केल फैक्टर और कॉम्पोज़िट ऑपरेशन के साथ प्रयोग करें और टेक्सचर फ़िल्स की पूरी रचनात्मक क्षमता को उजागर करें।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -168,3 +161,10 @@ document.save();
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

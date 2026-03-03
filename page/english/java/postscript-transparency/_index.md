@@ -65,20 +65,6 @@ Explore the seamless integration of transparent images in Java PostScript docume
 ### [Show Pseudo‑Transparency in Java PostScript](./show-pseudo-transparency/)
 Unlock vibrant graphics in Java PostScript! Follow our Aspose.Page tutorial for step‑by‑step pseudo‑transparency creation. Download now!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
----
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
 ## Frequently Asked Questions
 
 **Q: Can I use these techniques with existing PostScript files?**  
@@ -95,3 +81,17 @@ A: The library handles images up to several megabytes, but very large images may
 
 **Q: Where can I find more advanced examples?**  
 A: Visit the Aspose.Page for Java documentation and the official code examples repository for deeper use‑cases.
+
+---
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

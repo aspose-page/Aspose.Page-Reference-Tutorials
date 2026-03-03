@@ -119,19 +119,19 @@ document.save();
 
 ## Domande frequenti
 ### Posso usare Aspose.Page per Java in progetti commerciali?
-Sì, Aspose.Page per Java è disponibile per uso commerciale. Puoi acquistare una licenza **[qui](https://purchase.aspose.com/buy)**.
+Sì, Aspose.Page per Java è disponibile per uso commerciale. Puoi acquistare una licenza [qui](https://purchase.aspose.com/buy).
 
 ### È disponibile una versione di prova gratuita?
-Sì, puoi ottenere una versione di prova gratuita **[qui](https://releases.aspose.com/)**.
+Sì, puoi ottenere una versione di prova gratuita [qui](https://releases.aspose.com/).
 
 ### Dove posso trovare documentazione aggiuntiva?
-La documentazione dettagliata è disponibile **[qui](https://reference.aspose.com/page/java/)**.
+La documentazione dettagliata è disponibile [qui](https://reference.aspose.com/page/java/).
 
 ### Come posso ottenere una licenza temporanea per scopi di test?
-Puoi ottenere una licenza temporanea **[qui](https://purchase.aspose.com/temporary-license/)**.
+Puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
 ### Hai bisogno di aiuto o vuoi discutere di Aspose.Page?
-Visita il **[Forum Aspose.Page](https://forum.aspose.com/c/page/39)**.
+Visita il [Forum Aspose.Page](https://forum.aspose.com/c/page/39).
 
 ---
 

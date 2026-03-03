@@ -109,13 +109,6 @@ Aspose.Page 支援 Regular、Bold、Italic 與 BoldItalic 等字型樣式。
 ## 結論
 現在你已掌握 **如何在 Java PostScript（XPS）文件中使用 Aspose.Page 添加 Unicode 文字**。此功能讓多語言報表、國際化發票以及任何需要非 ASCII 字元的情境變得輕鬆。歡迎探索更多功能，如文字旋轉、裁切路徑或嵌入自訂字型——相關細節請參考官方 [documentation](https://reference.aspose.com/page/java/)。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2025-12-17  
@@ -123,3 +116,10 @@ Aspose.Page 支援 Regular、Bold、Italic 與 BoldItalic 等字型樣式。
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

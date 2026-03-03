@@ -67,20 +67,6 @@ Entdecken Sie die nahtlose Integration transparenter Bilder in Java PostScript�
 ### [Pseudo‑Transparenz in Java PostScript anzeigen](./show-pseudo-transparency/)
 Entfesseln Sie lebendige Grafiken in Java PostScript! Folgen Sie unserem Aspose.Page‑Tutorial für die schrittweise Erstellung von Pseudo‑Transparenz. Jetzt herunterladen!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
----
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
 ## Häufig gestellte Fragen
 
 **Q:** Kann ich diese Techniken mit bestehenden PostScript‑Dateien verwenden?  
@@ -97,3 +83,18 @@ Entfesseln Sie lebendige Grafiken in Java PostScript! Folgen Sie unserem Aspose.
 
 **Q:** Wo finde ich weiterführende Beispiele?  
 **A:** Besuchen Sie die Aspose.Page für Java‑Dokumentation und das offizielle Repository mit Code‑Beispielen für tiefere Anwendungsfälle.
+
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+
+---

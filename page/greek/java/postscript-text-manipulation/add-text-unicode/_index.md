@@ -16,32 +16,32 @@ weight: 11
 
 # Πώς να προσθέσετε κείμενο Unicode σε Java PostScript με το Aspose.Page
 
-## Introduction
-Αν αναρωτιέστε **πώς να προσθέσετε Unicode** χαρακτήρες σε μια ροή εργασίας Java‑based PostScript (ή XPS), βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα τις ακριβείς ενέργειες που απαιτούνται για την ενσωμάτωση αλφαριθμητικών Unicode χρησιμοποιώντας τη βιβλιοθήκη Aspose.Page για Java. Στο τέλος του οδηγού θα μπορείτε να εισάγετε κείμενο οποιασδήποτε γλώσσας—Αραβικά, Κινέζικα, emojis, ό,τι θέλετε—απευθείας στην έξοδο PostScript.
+## Εισαγωγή
+Αν αναρωτηθείτε **πώς να προσθέσετε Unicode** χαρακτήρες σε μια ροή εργασίας Java-based PostScript (ή XPS), βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα τις ακριβείς ενέργειες που απαιτούνται για την ενσωμάτωση αλφαριθμητικών Unicode χρησιμοποιώντας τη βιβλιοθήκη Aspose.Page για Java. Στο τέλος του οδηγού θα μπορείτε να εισάγετε κείμενο οποιασδήποτε γλώσσας—Αραβικά, Κινέζικα, emojis, ό,τι θέλετε—απευθείας στην έξοδο PostScript.
 
-## Quick Answers
-- **What library is needed?** Aspose.Page for Java  
-- **Can I add right‑to‑left scripts?** Yes, set the Bidi level as shown in the code  
-- **Do I need a license for development?** A free trial works for testing; a commercial license is required for production  
-- **Which IDE works best?** Any Java IDE (IntelliJ IDEA, Eclipse, NetBeans)  
-- **Is the code cross‑platform?** Absolutely—run it on Windows, macOS, or Linux
+## Γρήγορες απαντήσεις
+- **Τι βιβλιοθήκη χρειάζεται;** Aspose.Page για Java
+- **Μπορώ να προσθέσω σενάρια από δεξιά προς τα αριστερά;** Ναι, ορίστε το επίπεδο Bidi όπως φαίνεται στον κώδικα
+- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή λειτουργεί για δοκιμές. απαιτείται εμπορική άδεια για την παραγωγή
+- **Ποιο IDE λειτουργεί καλύτερα;** Οποιοδήποτε Java IDE (IntelliJ IDEA, Eclipse, NetBeans)
+- **Ο κώδικας είναι cross-platform;** Απολύτως—εκτελέστε τον σε Windows, macOS ή Linux
 
-## What is “how to add Unicode” in the context of PostScript?
-Η προσθήκη Unicode σημαίνει την εισαγωγή χαρακτήρων που αντιπροσωπεύονται από κωδικούς σημείων πέρα από το βασικό σύνολο ASCII. Το Aspose.Page αφαιρεί τις λεπτομέρειες κωδικοποίησης χαμηλού επιπέδου, επιτρέποντάς σας να εστιάσετε στο περιεχόμενο του κειμένου και στην οπτική του τοποθέτηση.
+## Τι είναι το "πώς να προσθέσω Unicode" στο πλαίσιο του PostScript;
+Η προσθήκη Unicode σημαίνει την εισαγωγή χαρακτήρων που αντιπροσωπεύονται από κωδικούς σημείων πέρα ​​από το βασικό σύνολο ASCII. Το Aspose.Page αφαιρεί τις λεπτομέρειες κωδικοποίησης χαμηλού επιπέδου, επιτρέποντάς σας να εστιάσετε στο περιεχόμενο του κειμένου και στην οπτική του τοποθέτηση.
 
-## Why use Aspose.Page for Unicode text?
-- **Full Unicode support** – Διαχειρίζεται σύνθετα σενάρια, συνδέσεις γραμμάτων και γλώσσες από δεξιά προς αριστερά.  
-- **No external dependencies** – Δεν χρειάζεται να διαχειρίζεστε χειροκίνητα αρχεία γραμματοσειρών· το API λειτουργεί με τις γραμματοσειρές του συστήματος.  
+## Γιατί να χρησιμοποιήσετε το Aspose.Page για κείμενο Unicode;
+- **Full Unicode support** – Διαχειρίζεται σύνθετα σενάρια, συνδέσεις γραμμάτων και γλώσσες από δεξιά προς αριστερά.
+- **No external dependencies** – Δεν χρειάζεται να διαχειρίζεστε χειροκίνητα αρχεία γραμματοσειρών· το API λειτουργεί με τις γραμματοσειρές του συστήματος.
 - **Straight‑forward API** – Μερικές κλήσεις μεθόδων αρκούν για την απόδοση πολυγλωσσικού κειμένου.
 
-## Prerequisites
+## Προαπαιτούμενα
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε τα παρακάτω:
 
-1. **Java Development Kit (JDK)** – Οποιαδήποτε πρόσφατη έκδοση (8 ή νεότερη).  
-2. **Aspose.Page for Java** – Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη από το [download link](https://releases.aspose.com/page/java/).  
-3. **IDE of your choice** – IntelliJ IDEA, Eclipse ή οποιοδήποτε άλλο Java IDE προτιμάτε.
+1. **Java Development Kit (JDK)** – Οποιαδήποτε πρόσφατη έκδοση (8 ή νεότερη).
+2. **Aspose.Page for Java** – Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη από το [σύνδεσμος λήψης](https://releases.aspose.com/page/java/).
+3. **IDE της επιλογής σας* – IntelliJ IDEA, Eclipse ή άλλο Java IDE προτιμάτε.
 
-## Import Packages
+## Εισαγωγή πακέτων
 Προσθέστε τις απαιτούμενες κλάσεις Aspose.Page στο αρχείο πηγαίου κώδικα Java:
 
 ```java
@@ -52,10 +52,10 @@ import com.aspose.xps.XpsSolidColorBrush;
 import java.awt.Color;
 ```
 
-## Step 1: Set Up Your Project
+## Βήμα 1: Ρύθμιση του έργου σας
 Δημιουργήστε ένα νέο έργο Java, προσθέστε το JAR του Aspose.Page στη διαδρομή κατασκευής του έργου και δημιουργήστε έναν φάκελο όπου θα αποθηκευτεί το παραγόμενο αρχείο XPS. Αυτός ο φάκελος αναφέρεται αργότερα ως `dataDir`.
 
-## Step 2: Initialize XPS Document
+## Βήμα 2: Αρχικοποιήστε το έγγραφο XPS
 Δημιουργήστε ένα κενό έγγραφο XPS που θα περιέχει το περιεχόμενο:
 
 ```java
@@ -63,7 +63,7 @@ String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-## Step 3: Add Unicode Text
+## Βήμα 3: Προσθέστε κείμενο Unicode
 Τώρα θα προσθέσουμε πραγματικά τη συμβολοσειρά Unicode. Το παρακάτω παράδειγμα γράφει την αντίστροφη φράση “AVAJ rof SPX.esopsA”, η οποία περιέχει μόνο χαρακτήρες ASCII, αλλά μπορείτε να την αντικαταστήσετε με οποιοδήποτε κείμενο Unicode (π.χ., Αραβικά “مرحبا” ή Κινέζικα “你好”).
 
 ```java
@@ -75,7 +75,7 @@ glyphs.setFill(textFill);
 
 > **Pro tip:** Για σωστή απόδοση γλωσσών από δεξιά προς αριστερά, ορίστε `glyphs.setBidiLevel(1);`. Για γλώσσες από αριστερά προς δεξιά μπορείτε να παραλείψετε αυτή τη γραμμή.
 
-## Step 4: Save the Document
+## Βήμα 4: Αποθηκεύστε το έγγραφο
 Αποθηκεύστε το αρχείο XPS στον δίσκο:
 
 ```java
@@ -84,38 +84,32 @@ doc.save(dataDir + "AddEncodingText_out.xps");
 
 Μετά την εκτέλεση του προγράμματος, ανοίξτε το παραγόμενο `AddEncodingText_out.xps` με οποιονδήποτε προβολέα XPS για να δείτε το κείμενο Unicode να εμφανίζεται στις καθορισμένες συντεταγμένες.
 
-## Common Issues and Solutions
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| Text appears as squares | Font not found or does not support the characters | Use a font that includes the required glyphs (e.g., “Arial Unicode MS”) |
-| Right‑to‑left text displays left‑to‑right | Bidi level not set | Call `glyphs.setBidiLevel(1);` |
-| File not saved | `dataDir` path invalid or missing write permissions | Ensure the directory exists and the application has write access |
+## Συνήθη Προβλήματα και Λύσεις
+| Πρόβλημα | Αιτία | Διόρθωση |
+|-------|---------|------|
+| Το κείμενο εμφανίζεται ως τετράγωνα | Δεν βρέθηκε γραμματοσειρά ή δεν υποστηρίζει τους χαρακτήρες | Χρησιμοποιήστε μια γραμματοσειρά που περιλαμβάνει τους απαιτούμενους γλύφους (π.χ., "Arial Unicode MS") |
+| Εμφανίζεται κείμενο από δεξιά προς τα αριστερά από αριστερά προς τα δεξιά | Δεν έχει οριστεί επίπεδο Bidi | Κλήση `glyphs.setBidiLevel(1);` |
+| Το αρχείο δεν αποθηκεύτηκε | Η διαδρομή `dataDir` δεν είναι έγκυρη ή λείπουν δικαιώματα εγγραφής | Βεβαιωθείτε ότι ο κατάλογος υπάρχει και η εφαρμογή έχει πρόσβαση εγγραφής |
 
-## Frequently Asked Questions
-### Can I use Aspose.Page for Java with other programming languages?
-Aspose.Page is primarily designed for Java, but Aspose provides libraries for various programming languages.
+## Συχνές Ερωτήσεις
+### Μπορώ να χρησιμοποιήσω το Aspose.Page για Java με άλλες γλώσσες προγραμματισμού;
 
-### Is there a free trial available?
-Yes, you can access a free trial of Aspose.Page [here](https://releases.aspose.com/).
+Το Aspose.Page έχει σχεδιαστεί κυρίως για Java, αλλά το Aspose παρέχει βιβλιοθήκες για διάφορες γλώσσες προγραμματισμού.
 
-### Where can I find support and discussions about Aspose.Page?
-Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for support and discussions.
+### Υπάρχει διαθέσιμη δωρεάν δοκιμαστική έκδοση;
+Ναι, μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση του Aspose.Page [εδώ](https://releases.aspose.com/).
 
-### How can I obtain a temporary license for Aspose.Page?
-You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+### Πού μπορώ να βρω υποστήριξη και συζητήσεις σχετικά με το Aspose.Page;
+Επισκεφθείτε το [φόρουμ Aspose.Page](https://forum.aspose.com/c/page/39) για υποστήριξη και συζητήσεις.
 
-### What are the available font styles in Aspose.Page?
-Aspose.Page supports font styles such as Regular, Bold, Italic, and BoldItalic.
+### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.Page;
+Μπορείτε να αποκτήσετε μια προσωρινή άδεια χρήσης [εδώ](https://purchase.aspose.com/temporary-license/).
 
-## Conclusion
-You’ve now mastered **how to add Unicode** text to a Java PostScript (XPS) document using Aspose.Page. This capability opens the door to multilingual reporting, internationalized invoices, and any scenario where non‑ASCII characters are required. Feel free to explore additional features like text rotation, clipping paths, or embedding custom fonts—details are available in the official [documentation](https://reference.aspose.com/page/java/).
+### Ποια είναι τα διαθέσιμα στυλ γραμματοσειράς στο Aspose.Page;
+Το Aspose.Page υποστηρίζει στυλ γραμματοσειράς όπως Regular, Bold, Italic και BoldItalic.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+## Συμπέρασμα
+Έχετε πλέον κατακτήσει **πώς να προσθέσετε κείμενο Unicode** σε ένα έγγραφο Java PostScript (XPS) χρησιμοποιώντας το Aspose.Page. Αυτή η δυνατότητα ανοίγει την πόρτα σε πολύγλωσσες αναφορές, διεθνοποιημένα τιμολόγια και οποιοδήποτε σενάριο όπου απαιτούνται χαρακτήρες που δεν είναι ASCII. Μη διστάσετε να εξερευνήσετε πρόσθετες λειτουργίες όπως εναλλαγή κειμένου, διαδρομές αποκοπής ή ενσωμάτωση προσαρμοσμένων γραμματοσειρών—λεπτομέρειες είναι διαθέσιμες στην επίσημη [τεκμηρίωση](https://reference.aspose.com/page/java/).
 
 ---
 
@@ -124,3 +118,10 @@ You’ve now mastered **how to add Unicode** text to a Java PostScript (XPS) doc
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

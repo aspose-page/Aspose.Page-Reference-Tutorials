@@ -109,13 +109,6 @@ Aspose.Page hỗ trợ các kiểu phông chữ như Regular, Bold, Italic và B
 ## Kết luận
 Bạn đã nắm vững **cách thêm Unicode** vào tài liệu Java PostScript (XPS) bằng Aspose.Page. Khả năng này mở ra cánh cửa cho báo cáo đa ngôn ngữ, hoá đơn quốc tế, và bất kỳ kịch bản nào yêu cầu ký tự không phải ASCII. Hãy khám phá thêm các tính năng như xoay văn bản, đường cắt, hoặc nhúng phông chữ tùy chỉnh—chi tiết có trong [tài liệu chính thức](https://reference.aspose.com/page/java/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-17  
@@ -123,3 +116,10 @@ Bạn đã nắm vững **cách thêm Unicode** vào tài liệu Java PostScript
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

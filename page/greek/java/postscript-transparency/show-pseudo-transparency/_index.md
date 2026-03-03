@@ -119,19 +119,19 @@ document.save();
 
 ## Συχνές Ερωτήσεις
 ### Μπορώ να χρησιμοποιήσω το Aspose.Page for Java σε εμπορικά έργα;
-Ναι, το Aspose.Page for Java είναι διαθέσιμο για εμπορική χρήση. Μπορείτε να αγοράσετε άδεια **[εδώ](https://purchase.aspose.com/buy)**.
+Ναι, το Aspose.Page for Java είναι διαθέσιμο για εμπορική χρήση. Μπορείτε να αγοράσετε άδεια [εδώ](https://purchase.aspose.com/buy).
 
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή;
-Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή **[εδώ](https://releases.aspose.com/)**.
+Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
 
 ### Πού μπορώ να βρω πρόσθετη τεκμηρίωση;
-Λεπτομερής τεκμηρίωση είναι διαθέσιμη **[εδώ](https://reference.aspose.com/page/java/)**.
+Λεπτομερής τεκμηρίωση είναι διαθέσιμη [εδώ](https://reference.aspose.com/page/java/).
 
 ### Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμαστικούς σκοπούς;
-Μπορείτε να αποκτήσετε προσωρινή άδεια **[εδώ](https://purchase.aspose.com/temporary-license/)**.
+Μπορείτε να αποκτήσετε προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Χρειάζεστε βοήθεια ή θέλετε να συζητήσετε το Aspose.Page;
-Επισκεφθείτε το **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**.
+Επισκεφθείτε το [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
 ---
 

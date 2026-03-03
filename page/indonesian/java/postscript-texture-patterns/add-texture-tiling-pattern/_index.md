@@ -154,13 +154,6 @@ J: Kunjungi [tautan ini](https://purchase.aspose.com/temporary-license/) untuk m
 ## Kesimpulan
 Selamat! Anda telah berhasil mempelajari **how to add texture** pola ubin ke dokumen Java PostScript menggunakan Aspose.Page untuk Java. Jangan ragu untuk mengeksplorasi opsi kustomisasi lebih lanjut—cobalah berbagai ubin bitmap, faktor skala, dan operasi komposit untuk memaksimalkan potensi kreatif dari isian tekstur.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-17  
@@ -168,3 +161,10 @@ Selamat! Anda telah berhasil mempelajari **how to add texture** pola ubin ke dok
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

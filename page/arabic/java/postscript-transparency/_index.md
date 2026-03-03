@@ -66,20 +66,6 @@ weight: 39
 ### [عرض الشفافية شبه الحقيقية في Java PostScript](./show-pseudo-transparency/)
 افتح رسومات نابضة بالحياة في Java PostScript! اتبع دليل Aspose.Page لإنشاء شفافية شبه حقيقية خطوة بخطوة. حمّل الآن!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
----
-**آخر تحديث:** 2025-12-17  
-**تم الاختبار مع:** Aspose.Page for Java 24.11  
-**المؤلف:** Aspose  
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
 ## الأسئلة المتكررة
 
 **Q: هل يمكنني استخدام هذه التقنيات مع ملفات PostScript الموجودة؟**  
@@ -96,3 +82,17 @@ A: المكتبة تدعم صورًا يصل حجمها إلى عدة ميغاب
 
 **Q: أين يمكنني العثور على أمثلة متقدمة؟**  
 A: قم بزيارة وثائق Aspose.Page for Java ومستودع الأمثلة الرسمية للحصول على حالات استخدام أعمق.
+
+---
+**آخر تحديث:** 2025-12-17  
+**تم الاختبار مع:** Aspose.Page for Java 24.11  
+**المؤلف:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

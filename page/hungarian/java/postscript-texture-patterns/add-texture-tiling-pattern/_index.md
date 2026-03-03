@@ -154,15 +154,15 @@ A: Látogasd meg [ezt a linket](https://purchase.aspose.com/temporary-license/),
 ## Összegzés
 Gratulálunk! Sikeresen megtanultad, **hogyan adj hozzá textúrát** csempézési mintákkal egy Java PostScript dokumentumhoz az Aspose.Page for Java használatával. Nyugodtan fedezd fel a további testreszabási lehetőségeket – kísérletezz különböző bitmap csempékkel, skálázási tényezőkkel és kompozíciós műveletekkel, hogy felszabadítsd a textúra kitöltések teljes kreatív potenciálját.
 
+---
+
+**Last Updated:** 2025-12-17  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose

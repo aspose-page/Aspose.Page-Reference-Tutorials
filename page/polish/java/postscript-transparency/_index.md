@@ -67,20 +67,6 @@ Poznaj bezproblemową integrację przezroczystych obrazów w dokumentach Java Po
 ### [Show Pseudo‑Transparency in Java PostScript](./show-pseudo-transparency/)
 Odblokuj żywe grafiki w Java PostScript! Skorzystaj z naszego samouczka Aspose.Page, aby krok po kroku tworzyć pseudo‑przezroczystość. Pobierz teraz!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
----
-**Ostatnia aktualizacja:** 2025-12-17  
-**Testowano z:** Aspose.Page dla Javy 24.11  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
 ## Najczęściej zadawane pytania
 
 **P: Czy mogę używać tych technik w istniejących plikach PostScript?**  
@@ -97,3 +83,18 @@ O: Biblioteka obsługuje obrazy do kilku megabajtów, ale bardzo duże pliki mog
 
 **P: Gdzie znajdę bardziej zaawansowane przykłady?**  
 O: Odwiedź dokumentację Aspose.Page dla Javy oraz oficjalne repozytorium przykładów kodu, aby poznać bardziej rozbudowane scenariusze.
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-17  
+**Testowano z:** Aspose.Page dla Javy 24.11  
+**Autor:** Aspose  
+
+---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

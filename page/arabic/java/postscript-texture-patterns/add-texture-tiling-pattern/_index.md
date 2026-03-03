@@ -154,13 +154,6 @@ document.save();
 ## الخاتمة
 تهانينا! لقد تعلمت بنجاح **كيفية إضافة القوام** بنمط تكرار إلى مستند Java PostScript باستخدام Aspose.Page for Java. لا تتردد في استكشاف خيارات تخصيص إضافية—جرب بلاطات bitmap مختلفة، وعوامل مقياس، وعمليات تركيب لإطلاق الإمكانات الإبداعية الكاملة لتعبئات القوام.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-17  
@@ -168,3 +161,10 @@ document.save();
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

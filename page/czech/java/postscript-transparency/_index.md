@@ -70,20 +70,6 @@ Prozkoumejte bezproblémové začlenění průhledných obrázků do Java PostSc
 ### [Zobrazit pseudo‑průhlednost v Java PostScript](./show-pseudo-transparency/)
 Odemkněte živé grafiky v Java PostScript! Postupujte podle našeho tutoriálu Aspose.Page pro krok‑za‑krokem vytvoření pseudo‑průhlednosti. Stáhněte nyní!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
----
-**Poslední aktualizace:** 2025-12-17  
-**Testováno s:** Aspose.Page for Java 24.11  
-**Autor:** Aspose  
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
----
-
 ## Často kladené otázky
 
 **Q: Mohu tyto techniky použít s existujícími PostScript soubory?**  
@@ -100,3 +86,18 @@ A: Knihovna zvládá obrázky až několik megabajtů, ale velmi velké obrázky
 
 **Q: Kde najdu pokročilejší příklady?**  
 A: Navštivte dokumentaci Aspose.Page pro Java a oficiální repozitář ukázek kódu pro podrobnější případy použití.
+
+---
+
+**Poslední aktualizace:** 2025-12-17  
+**Testováno s:** Aspose.Page for Java 24.11  
+**Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+
+---

@@ -153,15 +153,15 @@ A: 一時ライセンスは [this link](https://purchase.aspose.com/temporary-li
 ## 結論
 おめでとうございます！Aspose.Page for Java を使用して、Java の PostScript ドキュメントに **how to add texture** タイリング パターンを追加する方法を習得しました。さらにカスタマイズオプションを自由に探求してください。さまざまなビットマップタイル、スケール係数、合成操作を試して、テクスチャ塗りつぶしの創造的な可能性を最大限に引き出しましょう。
 
+---
+
+**最終更新日:** 2025-12-17  
+**テスト環境:** Aspose.Page for Java 24.12 (latest)  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2025-12-17  
-**テスト環境:** Aspose.Page for Java 24.12 (latest)  
-**作者:** Aspose

@@ -119,19 +119,19 @@ document.save();
 
 ## Vanliga frågor
 ### Kan jag använda Aspose.Page för Java i kommersiella projekt?
-Ja, Aspose.Page för Java är tillgängligt för kommersiell användning. Du kan köpa en licens **[här](https://purchase.aspose.com/buy)**.
+Ja, Aspose.Page för Java är tillgängligt för kommersiell användning. Du kan köpa en licens [här](https://purchase.aspose.com/buy).
 
 ### Finns det en gratis provversion?
-Ja, du kan få en gratis provversion **[här](https://releases.aspose.com/)**.
+Ja, du kan få en gratis provversion [här](https://releases.aspose.com/).
 
 ### Var kan jag hitta ytterligare dokumentation?
-Detaljerad dokumentation finns **[här](https://reference.aspose.com/page/java/)**.
+Detaljerad dokumentation finns [här](https://reference.aspose.com/page/java/).
 
 ### Hur får jag en tillfällig licens för teständamål?
-Du kan skaffa en tillfällig licens **[här](https://purchase.aspose.com/temporary-license/)**.
+Du kan skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
 ### Behöver du hjälp eller vill du diskutera Aspose.Page?
-Besök **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**.
+Besök [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
 ---
 
