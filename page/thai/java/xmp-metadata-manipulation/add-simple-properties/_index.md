@@ -139,16 +139,16 @@ psStream.close();
 Aspose.Page รองรับหลัก ๆ ที่ Java แต่ก็มีเวอร์ชันสำหรับภาษาอื่นเช่น .NET
 
 ### มีการทดลองใช้ฟรีสำหรับ Aspose.Page for Java หรือไม่?
-มี คุณสามารถสำรวจคุณสมบัติของ Aspose.Page ได้โดยรับการทดลองใช้ **[ที่นี่](https://releases.aspose.com/)**
+มี คุณสามารถสำรวจคุณสมบัติของ Aspose.Page ได้โดยรับการทดลองใช้ [ที่นี่](https://releases.aspose.com/)
 
 ### จะหาเอกสารประกอบละเอียดสำหรับ Aspose.Page for Java ได้จากที่ไหน?
-เอกสารพร้อมใช้งาน **[ที่นี่](https://reference.aspose.com/page/java/)**
+เอกสารพร้อมใช้งาน [ที่นี่](https://reference.aspose.com/page/java/)
 
 ### จะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.Page for Java ได้อย่างไร?
-สามารถขอรับไลเซนส์ชั่วคราว **[ที่นี่](https://purchase.aspose.com/temporary-license/)**
+สามารถขอรับไลเซนส์ชั่วคราว [ที่นี่](https://purchase.aspose.com/temporary-license/)
 
 ### จะซื้อ Aspose.Page for Java ได้จากที่ไหน?
-คุณสามารถสั่งซื้อผลิตภัณฑ์ **[ที่นี่](https://purchase.aspose.com/buy)**
+คุณสามารถสั่งซื้อผลิตภัณฑ์ [ที่นี่](https://purchase.aspose.com/buy)
 
 ---
 

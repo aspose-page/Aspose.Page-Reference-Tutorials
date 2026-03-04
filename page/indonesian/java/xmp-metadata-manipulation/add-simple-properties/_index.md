@@ -140,16 +140,16 @@ Dengan mengikuti langkah‑langkah ini Anda kini tahu cara **create XMP metadata
 Aspose.Page terutama mendukung Java, tetapi ada versi yang tersedia untuk bahasa lain seperti .NET.
 
 ### Apakah tersedia percobaan gratis untuk Aspose.Page untuk Java?
-Ya, Anda dapat menjelajahi fitur Aspose.Page dengan mendapatkan percobaan gratis **[di sini](https://releases.aspose.com/)**.
+Ya, Anda dapat menjelajahi fitur Aspose.Page dengan mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
 
 ### Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.Page untuk Java?
-Dokumentasi tersedia **[di sini](https://reference.aspose.com/page/java/)**.
+Dokumentasi tersedia [di sini](https://reference.aspose.com/page/java/).
 
 ### Bagaimana cara memperoleh lisensi sementara untuk Aspose.Page untuk Java?
-Lisensi sementara dapat diperoleh **[di sini](https://purchase.aspose.com/temporary-license/)**.
+Lisensi sementara dapat diperoleh [di sini](https://purchase.aspose.com/temporary-license/).
 
 ### Di mana saya dapat membeli Aspose.Page untuk Java?
-Anda dapat membeli produk **[di sini](https://purchase.aspose.com/buy)**.
+Anda dapat membeli produk [di sini](https://purchase.aspose.com/buy).
 
 ---
 

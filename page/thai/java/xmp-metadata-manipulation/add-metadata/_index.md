@@ -15,27 +15,27 @@ weight: 11
 
 # เพิ่มเมตาดาต้าใน XMP ด้วย Java
 
-## Introduction
-ใน **aspose page java tutorial** นี้ คุณจะได้เรียนรู้วิธีเพิ่มเมตาดาต้าให้กับเอกสารของคุณโดยการเพิ่มข้อมูล XMP ด้วย Java คู่มือแบบขั้นตอนนี้จะพาคุณผ่านการอ่านไฟล์ EPS ที่มีอยู่แล้ว การสกัดเมตาดาต้า XMP ของมัน และการบันทึกการเปลี่ยนแปลงกลับไปยังดิสก์ด้วยไลบรารี Aspose.Page for Java เมื่อจบบทเรียนคุณจะมีรูปแบบที่มั่นคงและนำกลับมาใช้ใหม่ได้สำหรับการทำงานกับ XMP ในกระบวนการทำงาน EPS ใด ๆ
+## การแนะนำ
+ใน **aspose page java Tutorial** คุณจะได้เพิ่มเมตาดาต้าให้กับเอกสารของคุณโดยส่วนใหญ่เป็นข้อมูล XMP ด้วย Java ส่วนประกอบแบบขั้นตอนเพื่อให้คุณผ่านไฟล์ EPS ส่วนประกอบแล้วการสกัดเมดาต้า XMP ของมันและการวิจัยการดูดซึมของประสิทธิภาพด้วยไลบรารี Aspose.Page สำหรับ Java คุณจะมีรูปแบบใหม่และนำกลับมาใช้ใหม่ได้สำหรับ XMP การทำงาน EPS ใด ๆ
 
-## Quick Answers
-- **ไลบรารีที่ต้องการคืออะไร?** Aspose.Page for Java  
-- **ฉันสามารถเพิ่ม XMP ให้กับไฟล์ EPS ใดก็ได้หรือไม่?** ใช่ – API จะสร้างบล็อก XMP ใหม่หากยังไม่มี  
-- **ฉันต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** การทดลองใช้ฟรีใช้ได้สำหรับการประเมิน; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
-- **เวอร์ชัน Java ที่รองรับคืออะไร?** Java 8 และรุ่นต่อไป  
-- **การดำเนินการใช้เวลานานเท่าไหร่?** โดยทั่วไปใช้เวลาน้อยกว่า 10 นาทีสำหรับการอัปเดตเมตาดาต้าพื้นฐาน  
+## คำตอบด่วน
+- **ไลบรารีต้องการอะไร?** Aspose.Page สำหรับ Java
+- **ฉันจะต้องส่ง XMP ไปยังไฟล์ EPS เพื่อดูหรือไม่** ตรวจสอบ – API สร้างบล็อก XMP ย้อนหลังหากผู้ใช้
+- ** ปรับเปลี่ยนไลเซนส์สำหรับการพัฒนาหรือไม่?** เอกสารฟรีสามารถใช้ได้สำหรับพื้นที่; ควบคุมไลส์เซนส์โดยตรงจริง
+- ** รองรับ Java รองรับอะไร?** Java8 และรุ่นต่อไป
+- ** การดำเนินการทำได้เท่าไหร่?** ใช้เวลา 10 นาทีสำหรับเมตาดาต้าพื้นฐาน
 
-## Aspose Page Java Tutorial Overview
-บทแนะนำนี้แสดงขั้นตอนหลักที่คุณต้องทำเพื่อจัดการเมตาดาต้า XMP ในไฟล์ EPS การเข้าใจขั้นตอนเหล่านี้จะช่วยให้คุณรวมการจัดการเมตาดาต้าเข้าไปในไพป์ไลน์การประมวลผลเอกสารที่ใหญ่ขึ้น ปรับปรุงการค้นหา และปฏิบัติตามมาตรฐานอุตสาหกรรมสำหรับการจัดการสินทรัพย์ดิจิทัล  
+## ภาพรวมการสอน Java Aspose Page
+บทแนะนำนี้แสดงขั้นตอนหลักที่ต้องดำเนินการเพื่อจัดการกับเมตาดาต้า XMP ในไฟล์ EPS การเข้าใจขั้นตอนที่จำเป็นรวมการจัดการเมตาดาต้า...
 
-## Prerequisites
-ก่อนที่เราจะเริ่มบทแนะนำ โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
-- ความรู้พื้นฐานเกี่ยวกับการเขียนโปรแกรม Java  
-- ไลบรารี Aspose.Page for Java ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/page/java/)  
-- ไฟล์ EPS ที่คุณต้องการแก้ไข  
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเริ่มแนะนำการพูดคุยของคุณอีกครั้ง:
+- ความรู้พื้นฐานเกี่ยวกับ Java
+- ไลบรารี Aspose.Page สำหรับ Java ดาวน์โหลดแล้วดาวน์โหลดดาวน์โหลดได้ [ที่นี่](https://releases.aspose.com/page/java/)
+- รองรับ EPS ที่คุณต้องการแก้ไข
 
-## Import Packages
-ก่อนอื่น ให้นำเข้าแพ็กเกจที่จำเป็นเข้าสู่โปรแกรม Java ของคุณ:
+## แพคเกจนำเข้า
+รับประทานอาหารที่นำเข้าและอาหารในโปรแกรม Java ของคุณ:
 
 ```java
 import java.io.FileInputStream;
@@ -45,7 +45,7 @@ import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## Step 1: Get XMP Metadata
+## ขั้นตอนที่ 1: รับข้อมูลเมตา XMP
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -58,49 +58,49 @@ XmpMetadata xmp = document.getXmpMetadata();
 
 แทนที่ `"Your Document Directory"` ด้วยเส้นทางจริงที่เก็บเอกสารของคุณ  
 
-## Step 2: Retrieve CreatorTool Value
+## ขั้นตอนที่ 2: ดึงค่า CreatorTool
 ```java
 // Get "CreatorTool" value
 if (xmp.containsKey("xmp:CreatorTool"))
     System.out.println("CreatorTool: " + xmp.get("xmp:CreatorTool").toStringValue());
 ```
 
-## Step 3: Retrieve CreateDate Value
+## ขั้นตอนที่ 3: ดึงค่า CreateDate
 ```java
 // Get "CreateDate" value
 if (xmp.containsKey("xmp:CreateDate"))
     System.out.println("CreateDate: " + xmp.get("xmp:CreateDate").toStringValue());
 ```
 
-## Step 4: Retrieve Title Value
+## ขั้นตอนที่ 4: ดึงค่า Title
 ```java
 // Get "Title" value
 if (xmp.containsKey("dc:title"))
     System.out.println("Title: " + xmp.get("dc:title").toArray()[0].toStringValue());
 ```
 
-## Step 5: Retrieve Format Value
+## ขั้นตอนที่ 5: ดึงค่า Format
 ```java
 // Get "format" value
 if (xmp.containsKey("dc:format"))
     System.out.println("Format: " + xmp.get("dc:format").toStringValue());
 ```
 
-## Step 6: Retrieve Creator Value
+## ขั้นตอนที่ 6: ดึงค่า Creator
 ```java
 // Get "creator" value
 if (xmp.containsKey("dc:creator"))
     System.out.println("Creator: " + xmp.get("dc:creator").toArray()[0].toStringValue());
 ```
 
-## Step 7: Retrieve MetadataDate Value
+## ขั้นตอนที่ 7: ดึงค่า MetadataDate
 ```java
 // Get "MetadataDate" value
 if (xmp.containsKey("xmp:MetadataDate"))
     System.out.println("MetadataDate: " + xmp.get("xmp:MetadataDate").toStringValue());
 ```
 
-## Step 8: Save Document with New XMP Metadata
+## ขั้นตอนที่ 8: บันทึกเอกสารด้วยข้อมูลเมตา XMP ใหม่
 ```java
 // Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp2_changed.eps");
@@ -121,10 +121,10 @@ psStream.close();
 
 ตอนนี้คุณได้เพิ่มเมตาดาต้าให้กับไฟล์ EPS ของคุณสำเร็จโดยใช้ Aspose.Page for Java แล้ว!  
 
-## Conclusion
-ใน **aspose page java tutorial** นี้ เราได้สำรวจวิธีเพิ่มเมตาดาต้า XMP ให้กับไฟล์ EPS ด้วยไลบรารี Aspose.Page for Java API ที่ทรงพลังนี้ทำให้คุณสามารถจัดการเมตาดาต้าเอกสารได้โดยโปรแกรม ช่วยให้คุณจัดระเบียบและค้นหาสินทรัพย์ได้อย่างมีประสิทธิภาพ  
+## บทสรุป
+ใน **aspose page java Tutorial** มักจะสำรวจวิธีเพิ่มเมตาดาต้า XMP ให้กับไฟล์ EPS ด้วยไลบรารี Aspose.Page สำหรับ Java API ของเบราว์เซอร์นี้ทำให้สามารถจัดการเมตาดาต้าเอกสารได้โปรแกรมที่ช่วยให้เราจัดระเบียบและค้นหาได้อย่างมีประสิทธิภาพอย่างมีประสิทธิภาพ
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
 **Q: Aspose.Page for Java ใช้ได้ฟรีหรือไม่?**  
 A: Aspose.Page for Java เป็นผลิตภัณฑ์เชิงพาณิชย์ คุณสามารถสำรวจคุณลักษณะของมันผ่านการทดลองใช้ฟรี [ที่นี่](https://releases.aspose.com/)  
@@ -149,9 +149,9 @@ A: แน่นอน – คุณสามารถใช้ `xmp.put(key, val
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2025-12-20
+**ทดสอบกับ:** Aspose.Page for Java 24.12 (เวอร์ชันล่าสุด)
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

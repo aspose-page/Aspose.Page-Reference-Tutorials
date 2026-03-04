@@ -140,16 +140,16 @@ Ezekkel a lépésekkel most már tudja, hogyan **hozzon létre XMP metaadat EPS*
 Az Aspose.Page elsősorban Java‑t támogat, de elérhetők verziók más nyelvekhez, például .NET‑hez is.
 
 ### Elérhető ingyenes próba az Aspose.Page for Java-hoz?
-Igen, a **[itt](https://releases.aspose.com/)** elérhető egy ingyenes próba, amely lehetővé teszi a funkciók kipróbálását.
+Igen, a [itt](https://releases.aspose.com/) elérhető egy ingyenes próba, amely lehetővé teszi a funkciók kipróbálását.
 
 ### Hol találom az Aspose.Page for Java részletes dokumentációját?
-A dokumentáció **[itt](https://reference.aspose.com/page/java/)** érhető el.
+A dokumentáció [itt](https://reference.aspose.com/page/java/) érhető el.
 
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Page for Java-hoz?
-Ideiglenes licencet **[itt](https://purchase.aspose.com/temporary-license/)** kaphat.
+Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) kaphat.
 
 ### Hol vásárolhatom meg az Aspose.Page for Java-t?
-A terméket **[itt](https://purchase.aspose.com/buy)** vásárolhatja meg.
+A terméket [itt](https://purchase.aspose.com/buy) vásárolhatja meg.
 
 **Last Updated:** 2025-12-20  
 **Tested With:** Aspose.Page for Java 24.11 (latest at time of writing)  

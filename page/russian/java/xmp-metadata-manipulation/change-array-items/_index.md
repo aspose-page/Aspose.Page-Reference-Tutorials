@@ -5,7 +5,7 @@ description: Узнайте, как изменять элементы масси
   руководством и улучшайте свои EPS‑документы уже сегодня.
 linktitle: Change Array Items in XMP using Java
 second_title: Aspose.Page Java API
-title: 'aspose.page xmp java: Изменение элементов массива в XMP с помощью Java'
+title: 'aspose.page xmp java - Изменение элементов массива в XMP с помощью Java'
 url: /ru/java/xmp-metadata-manipulation/change-array-items/
 weight: 15
 ---
@@ -110,22 +110,6 @@ try {
 
 ## Заключение
 Congratulations! You've successfully learned how to change array items in XMP using **aspose.page xmp java**. This step‑by‑step guide equips you to modify EPS metadata programmatically, opening the door to automated document workflows and richer content management.
-
-## Часто задаваемые вопросы
-### Можно ли использовать Aspose.Page для Java с другими языками программирования?
-Aspose.Page is primarily designed for Java, but Aspose provides similar libraries for other languages.  
-
-### Где можно найти подробную документацию по Aspose.Page для Java?
-The documentation is available [here](https://reference.aspose.com/page/java/).  
-
-### Есть ли бесплатная пробная версия Aspose.Page для Java?
-Yes, you can get a free trial [here](https://releases.aspose.com/).  
-
-### Как получить временную лицензию для Aspose.Page для Java?
-You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).  
-
-### Где можно купить полную версию Aspose.Page для Java?
-You can buy the full version [here](https://purchase.aspose.com/buy).
 
 ## Дополнительные часто задаваемые вопросы
 **В: Можно ли обновить несколько элементов массива одним вызовом?**  

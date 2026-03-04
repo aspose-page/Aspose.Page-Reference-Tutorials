@@ -139,16 +139,16 @@ Al seguir estos pasos ahora sabe cómo **create XMP metadata EPS** archivos usan
 Aspose.Page principalmente soporta Java, pero existen versiones disponibles para otros lenguajes como .NET.
 
 ### ¿Está disponible una prueba gratuita para Aspose.Page for Java?
-Sí, puede explorar las funciones de Aspose.Page obteniendo una prueba gratuita **[here](https://releases.aspose.com/)**.
+Sí, puede explorar las funciones de Aspose.Page obteniendo una prueba gratuita [here](https://releases.aspose.com/).
 
 ### ¿Dónde puedo encontrar documentación detallada para Aspose.Page for Java?
-La documentación está disponible **[here](https://reference.aspose.com/page/java/)**.
+La documentación está disponible [here](https://reference.aspose.com/page/java/).
 
 ### ¿Cómo puedo obtener una licencia temporal para Aspose.Page for Java?
-Una licencia temporal se puede adquirir **[here](https://purchase.aspose.com/temporary-license/)**.
+Una licencia temporal se puede adquirir [here](https://purchase.aspose.com/temporary-license/).
 
 ### ¿Dónde puedo comprar Aspose.Page for Java?
-Puede comprar el producto **[here](https://purchase.aspose.com/buy)**.
+Puede comprar el producto [here](https://purchase.aspose.com/buy).
 
 ---
 

@@ -5,7 +5,7 @@ description: Lär dig hur du ändrar array‑element i XMP med Aspose.Page för 
   EPS‑dokument redan idag.
 linktitle: Change Array Items in XMP using Java
 second_title: Aspose.Page Java API
-title: 'aspose.page xmp java: Ändra array‑element i XMP med Java'
+title: 'aspose.page xmp java - Ändra array‑element i XMP med Java'
 url: /sv/java/xmp-metadata-manipulation/change-array-items/
 weight: 15
 ---
@@ -110,27 +110,6 @@ try {
 
 ## Slutsats
 Grattis! Du har nu lärt dig hur du ändrar array‑element i XMP med **aspose.page xmp java**. Denna steg‑för‑steg‑guide utrustar dig för att programatiskt modifiera EPS‑metadata, vilket öppnar dörren till automatiserade dokumentarbetsflöden och rikare innehållshantering.
-
-## Vanliga frågor
-### Can I use Aspose.Page for Java with other programming languages?
-Kan jag använda Aspose.Page för Java med andra programmeringsspråk?  
-Aspose.Page är främst designat för Java, men Aspose tillhandahåller liknande bibliotek för andra språk.  
-
-### Where can I find detailed documentation for Aspose.Page for Java?
-Var kan jag hitta detaljerad dokumentation för Aspose.Page för Java?  
-Dokumentationen finns [here](https://reference.aspose.com/page/java/).  
-
-### Is there a free trial available for Aspose.Page for Java?
-Finns en gratis provperiod för Aspose.Page för Java?  
-Ja, du kan få en gratis provperiod [here](https://releases.aspose.com/).  
-
-### How can I obtain a temporary license for Aspose.Page for Java?
-Hur kan jag få en tillfällig licens för Aspose.Page för Java?  
-Du kan få en tillfällig licens [here](https://purchase.aspose.com/temporary-license/).  
-
-### Where can I purchase the full version of Aspose.Page for Java?
-Var kan jag köpa fullversionen av Aspose.Page för Java?  
-Du kan köpa fullversionen [here](https://purchase.aspose.com/buy).  
 
 ## Ytterligare vanliga frågor
 **Q: Can I update multiple array items in one call?**  

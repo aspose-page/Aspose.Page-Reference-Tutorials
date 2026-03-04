@@ -139,16 +139,16 @@ Door deze stappen te volgen weet je nu hoe je **XMP‑metadata EPS**‑bestanden
 Aspose.Page ondersteunt voornamelijk Java, maar er zijn versies beschikbaar voor andere talen zoals .NET.
 
 ### Is er een gratis proefversie beschikbaar voor Aspose.Page voor Java?
-Ja, je kunt de functies van Aspose.Page verkennen door een gratis proefversie te verkrijgen **[hier](https://releases.aspose.com/)**.
+Ja, je kunt de functies van Aspose.Page verkennen door een gratis proefversie te verkrijgen [hier](https://releases.aspose.com/).
 
 ### Waar vind ik gedetailleerde documentatie voor Aspose.Page voor Java?
-De documentatie is beschikbaar **[hier](https://reference.aspose.com/page/java/)**.
+De documentatie is beschikbaar [hier](https://reference.aspose.com/page/java/).
 
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Page voor Java?
-Een tijdelijke licentie kan worden verkregen **[hier](https://purchase.aspose.com/temporary-license/)**.
+Een tijdelijke licentie kan worden verkregen [hier](https://purchase.aspose.com/temporary-license/).
 
 ### Waar kan ik Aspose.Page voor Java kopen?
-Je kunt het product aanschaffen **[hier](https://purchase.aspose.com/buy)**.
+Je kunt het product aanschaffen [hier](https://purchase.aspose.com/buy).
 
 ---
 

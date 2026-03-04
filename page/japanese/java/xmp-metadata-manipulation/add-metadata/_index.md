@@ -126,19 +126,19 @@ psStream.close();
 ## よくある質問
 
 **Q: Aspose.Page for Java は無料で使用できますか？**  
-A: Aspose.Page for Java は商用製品です。無料トライアルは[here](https://releases.aspose.com/)からお試しください。
+A: Aspose.Page for Java は商用製品です。無料トライアルは[here](https://releases.aspose.com/) からお試しください。
 
 **Q: Aspose.Page for Java のドキュメントはどこで見つけられますか？**  
-A: ドキュメントは[here](https://reference.aspose.com/page/java/)にあります。
+A: ドキュメントは[here](https://reference.aspose.com/page/java/) にあります。
 
 **Q: Aspose.Page for Java の一時ライセンスはどのように取得できますか？**  
-A: 一時ライセンスは[here](https://purchase.aspose.com/temporary-license/)から取得できます。
+A: 一時ライセンスは[here](https://purchase.aspose.com/temporary-license/) から取得できます。
 
 **Q: Aspose.Page for Java がサポートするファイル形式は何ですか？**  
 A: Aspose.Page for Java は EPS、PDF、XPS など様々な形式をサポートしています。
 
 **Q: Aspose.Page for Java を購入できますか？**  
-A: はい、購入は[here](https://purchase.aspose.com/buy)から可能です。
+A: はい、購入は[here](https://purchase.aspose.com/buy) から可能です。
 
 **Q: 大きな EPS ファイルにメタデータを追加する際の対策は？**  
 A: ストリーミング方式で処理し（上記参照）、メモリ使用量を抑え、ストリームは速やかに閉じてください。

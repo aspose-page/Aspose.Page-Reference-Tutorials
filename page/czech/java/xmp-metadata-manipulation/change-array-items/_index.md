@@ -5,7 +5,7 @@ description: Naučte se, jak měnit položky pole v XMP pomocí Aspose.Page pro 
   EPS dokumenty ještě dnes.
 linktitle: Change Array Items in XMP using Java
 second_title: Aspose.Page Java API
-title: 'aspose.page xmp java: Změna položek pole v XMP pomocí Javy'
+title: 'aspose.page xmp java - Změna položek pole v XMP pomocí Javy'
 url: /cs/java/xmp-metadata-manipulation/change-array-items/
 weight: 15
 ---
@@ -108,18 +108,6 @@ try {
 
 ## Závěr
 Gratulujeme! Úspěšně jste se naučili, jak změnit položky pole v XMP pomocí **aspose.page xmp java**. Tento krok‑za‑krokem průvodce vás vybaví k programové úpravě EPS metadat, čímž otevírá dveře k automatizovaným pracovním postupům a bohatší správě obsahu.
-
-## Často kladené otázky
-### Mohu používat Aspose.Page pro Java s jinými programovacími jazyky?
-Aspose.Page je primárně navrženo pro Java, ale Aspose poskytuje podobné knihovny i pro jiné jazyky.  
-### Kde najdu podrobnou dokumentaci pro Aspose.Page pro Java?
-Dokumentace je dostupná [zde](https://reference.aspose.com/page/java/).  
-### Je k dispozici bezplatná zkušební verze pro Aspose.Page pro Java?
-Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).  
-### Jak mohu získat dočasnou licenci pro Aspose.Page pro Java?
-Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).  
-### Kde mohu zakoupit plnou verzi Aspose.Page pro Java?
-Plnou verzi můžete zakoupit [zde](https://purchase.aspose.com/buy).
 
 ## Další často kladené otázky
 **Q: Mohu aktualizovat více položek pole v jednom volání?**  

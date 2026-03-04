@@ -15,34 +15,34 @@ weight: 13
 
 # aspose.page xmp 教程 – 使用 Java 在 XMP 中添加命名空间
 
-## Introduction
+## 简介
 
 如果您需要修改或丰富 EPS 文件的元数据，**aspose.page xmp 教程** 将向您展示如何使用 Java **添加 XMP 命名空间**。本指南将逐步演示每个步骤——从加载 EPS 文档、注册自定义命名空间、插入新属性，到最终保存更新后的文件。完成后，您将拥有一套清晰、可复用的模式，能够在任何支持 Aspose.Page 的 Java 项目中处理 XMP 元数据。
 
-## Quick Answers
+## 快速解答
 - **主要目标是什么？** 向 EPS 文件添加自定义 XMP 命名空间和属性。  
 - **需要哪个库？** Aspose.Page for Java。  
 - **测试时需要许可证吗？** 开发阶段可使用免费试用版；生产环境需要商业许可证。  
 - **需要多少代码改动？** 仅需五段简短代码片段——每个步骤各一段。  
 - **可以将此模式复用于其他命名空间吗？** 可以，只需在 `registerNamespaceURI` 调用中更改前缀和 URI。
 
-## What is an XMP Namespace?
+## 什么是 XMP 命名空间？
 
 XMP（可扩展元数据平台）命名空间是用于将相关元数据属性归类到同一 URI 下的唯一标识符。注册命名空间后，您可以存储自定义数据（如专有标签），而不会与现有标准冲突。
 
-## Why Use Aspose.Page for XMP Manipulation?
+## 为什么使用 Aspose.Page 进行 XMP 操作？
 
 - **完整控制** EPS 和 PDF 元数据，无需 Adobe 工具。  
 - **自动创建** 当文档中不存在 XMP 块时，基于 PS 注释自动生成。  
 - **跨平台 Java 支持**，便于集成到现有流水线中。
 
-## Prerequisites
+## 前提条件
 
 - Aspose.Page for Java：确保已安装该库。您可以在 [这里](https://releases.aspose.com/page/java/) 下载。  
 - Java 开发环境：在系统上配置好 Java 环境。  
 - 文档文件：准备一份带有 XMP 元数据的 EPS 文件。如果文件中没有 XMP 元数据，库会根据 PS 元数据注释自动创建。
 
-## Import Packages
+## 导入软件包
 
 要开始，请在 Java 项目中导入必要的包：
 
@@ -56,7 +56,7 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## Step 1: Get XMP Metadata
+## 步骤 1：获取 XMP 元数据
 
 ```java
 
@@ -71,30 +71,30 @@ PsDocument document = new PsDocument(psStream);
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-### Why this matters
+### 为什么这很重要
 获取 `XmpMetadata` 对象后，您就拥有了文档元数据的实时句柄，能够在保存之前读取、修改或扩展它。
 
-## Step 2: Register New Namespace *(how to add xmp namespace)*
+## 步骤 2：注册新命名空间（如何添加 XMP 命名空间）
 
 ```java
 // Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
 xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 ```
 
-### Explanation
+### 说明
 `registerNamespaceURI` 方法将短前缀（`tmp`）映射到完整的 URI。此步骤对后续操作至关重要，因为 XMP 属性必须使用已注册的命名空间进行限定。
 
-## Step 3: Add New Property
+## 步骤 3：添加新属性
 
 ```java
 // Add new property "tmp:newKey" in the new XML namespace
 xmp.put("tmp:newKey", new XmpValue("NewValue"));
 ```
 
-### What’s happening?
+### 发生了什么？
 这里我们创建了一个名为 `tmp:newKey` 的自定义属性，并赋值为 `"NewValue"`。您可以根据业务需求替换键和值。
 
-## Step 4: Save Document
+## 步骤 4：保存文档
 
 ```java
 // Initialize output EPS file stream
@@ -108,20 +108,20 @@ try {
 }
 ```
 
-### Tip
+### 提示
 始终在 `try/finally` 块（或使用 try‑with‑resources）中包装 `save` 调用，以确保即使出现异常也能关闭输出流。
 
-## Step 5: Close Streams
+## 步骤 5：关闭流
 
 ```java
 // Close input EPS stream
 psStream.close();
 ```
 
-### Best practice
+### 最佳实践
 关闭输入流可以及时释放文件句柄，防止 Windows 系统出现文件锁定问题。
 
-## Common Issues and Solutions
+## 常见问题及解决方案
 
 | Issue | Likely Cause | Fix |
 |-------|--------------|-----|
@@ -129,32 +129,37 @@ psStream.close();
 | `registerNamespaceURI` 抛出异常 | 前缀已被使用 | 选择唯一前缀或通过 `xmp.getRegisteredNamespaces()` 检查已有命名空间。 |
 | 保存的文件损坏 | 输出流未刷新 | 使用 `try‑with‑resources` 或在关闭前显式调用 `outPsStream.flush()`。 |
 
-## Conclusion
+## 结论
 
 通过本 **aspose.page xmp 教程**，您现在掌握了一种可重复使用的方法，能够使用 Aspose.Page for Java 向 EPS 文件添加自定义命名空间和属性。这一能力为更丰富的元数据策略打开了大门——无论是嵌入工作流标识、专有标签，还是为下游系统提供集成数据。
 
-## FAQs
+## 常见问题解答
 
-### Can I use Aspose.Page for Java with other programming languages?
+### 我可以将 Aspose.Page for Java 用于其他编程语言吗？
+
 Aspose.Page 主要支持 Java，但也提供 .NET 等其他语言的版本。
 
-### Is there a free trial available?
+### 是否有免费试用版？
+
 是的，您可以在 [这里](https://releases.aspose.com/) 试用免费版。
 
-### Where can I find comprehensive documentation?
+### 在哪里可以找到完整的文档？
+
 请参阅文档 [这里](https://reference.aspose.com/page/java/)。
 
-### How can I obtain a temporary license?
+### 如何获得临时许可证？
+
 您可以在 [这里](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
 
-### Are there community forums for Aspose.Page?
+### 是否有 Aspose.Page 的社区论坛？
+
 是的，您可以在 [Aspose.Page 论坛](https://forum.aspose.com/c/page/39) 与社区交流。
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Page for Java 23.12 (latest at time of writing)  
-**Author:** Aspose  
+**上次更新：** 2025-12-20
+**测试版本：** Aspose.Page for Java 23.12（撰写本文时的最新版本）
+**作者：** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

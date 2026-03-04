@@ -5,7 +5,7 @@ description: Học cách thay đổi các mục mảng trong XMP bằng Aspose.P
   tôi và nâng cao tài liệu EPS của bạn ngay hôm nay.
 linktitle: Change Array Items in XMP using Java
 second_title: Aspose.Page Java API
-title: 'aspose.page xmp java: Thay đổi các mục mảng trong XMP bằng Java'
+title: 'aspose.page xmp java - Thay đổi các mục mảng trong XMP bằng Java'
 url: /vi/java/xmp-metadata-manipulation/change-array-items/
 weight: 15
 ---
@@ -110,18 +110,6 @@ try {
 
 ## Kết luận
 Chúc mừng! Bạn đã học cách thay đổi các mục mảng trong XMP bằng **aspose.page xmp java**. Hướng dẫn từng bước này trang bị cho bạn khả năng chỉnh sửa siêu dữ liệu EPS một cách lập trình, mở ra cánh cửa cho các quy trình công việc tự động và quản lý nội dung phong phú hơn.
-
-## Câu hỏi thường gặp
-### Tôi có thể sử dụng Aspose.Page cho Java với các ngôn ngữ lập trình khác không?
-Aspose.Page được thiết kế chủ yếu cho Java, nhưng Aspose cung cấp các thư viện tương tự cho các ngôn ngữ khác.  
-### Tôi có thể tìm tài liệu chi tiết cho Aspose.Page cho Java ở đâu?
-Tài liệu có sẵn [tại đây](https://reference.aspose.com/page/java/).  
-### Có bản dùng thử miễn phí cho Aspose.Page cho Java không?
-Có, bạn có thể nhận bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).  
-### Làm thế nào tôi có thể nhận giấy phép tạm thời cho Aspose.Page cho Java?
-Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).  
-### Tôi có thể mua phiên bản đầy đủ của Aspose.Page cho Java ở đâu?
-Bạn có thể mua phiên bản đầy đủ [tại đây](https://purchase.aspose.com/buy).
 
 ## Các câu hỏi thường gặp bổ sung
 **Q:** Tôi có thể cập nhật nhiều mục mảng trong một lần gọi không?  

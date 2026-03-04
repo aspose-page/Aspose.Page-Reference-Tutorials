@@ -139,16 +139,16 @@ psStream.close();
 Aspose.Page 主要支援 Java，但也提供 .NET 等其他語言的版本。
 
 ### Aspose.Page for Java 有提供免費試用嗎？
-有，您可以在 **[此處](https://releases.aspose.com/)** 取得免費試用。
+有，您可以在 [此處](https://releases.aspose.com/) 取得免費試用。
 
 ### 我在哪裡可以找到 Aspose.Page for Java 的詳細文件？
-文件可於 **[此處](https://reference.aspose.com/page/java/)** 取得。
+文件可於 [此處](https://reference.aspose.com/page/java/) 取得。
 
 ### 我該如何取得 Aspose.Page for Java 的臨時授權？
-臨時授權可在 **[此處](https://purchase.aspose.com/temporary-license/)** 申請。
+臨時授權可在 [此處](https://purchase.aspose.com/temporary-license/) 申請。
 
 ### 我該從哪裡購買 Aspose.Page for Java？
-您可以在 **[此處](https://purchase.aspose.com/buy)** 購買此產品。
+您可以在 [此處](https://purchase.aspose.com/buy) 購買此產品。
 
 **最後更新：** 2025-12-20  
 **測試環境：** Aspose.Page for Java 24.11（撰寫時的最新版本）  

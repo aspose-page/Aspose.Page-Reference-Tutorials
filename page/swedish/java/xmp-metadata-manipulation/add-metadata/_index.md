@@ -15,26 +15,26 @@ weight: 11
 
 # Lägg till metadata i XMP med Java
 
-## Introduction
-I denna **aspose page java tutorial**, du kommer att lära dig hur du förbättrar ditt dokuments metadata genom att lägga till XMP‑information med Java. Denna steg‑för‑steg‑guide visar dig hur du läser en befintlig EPS‑fil, extraherar dess XMP‑metadata och sparar ändringarna tillbaka till disk med Aspose.Page for Java‑biblioteket. I slutet av handledningen har du ett solid, återanvändbart mönster för att arbeta med XMP i alla EPS‑arbetsflöden.
+## Introduktion
+I denna **aspose page java tutorial**, du kommer att lära dig hur du förbättrar ditt dokuments metadata genom att lägga till XMP-information med Java. Denna steg‑för‑steg‑guide visar dig hur du läser en befintlig EPS‑fil, extraherar dess XMP‑metadata och sparar ändringarna tillbaka till disken med Aspose.Page for Java‑biblioteket. I slutet av handledningen har du ett solidt, återanvändbart mönster för att arbeta med XMP i alla EPS‑arbetsflöden.
 
-## Quick Answers
-- **What library is required?** Aspose.Page for Java  
-- **Can I add XMP to any EPS file?** Ja – API‑et skapar ett nytt XMP‑block om ett sådant inte redan finns.  
-- **Do I need a license for development?** En gratis provversion fungerar för utvärdering; en kommersiell licens krävs för produktion.  
-- **Which Java version is supported?** Java 8 and later.  
-- **How long does the implementation take?** Vanligtvis under 10 minutes for a basic metadata update.
+## Snabba svar
+- **Vilket bibliotek krävs?** Aspose.Page för Java
+- **Kan jag lägga till XMP till valfri EPS-fil?** Ja – API‑et skapar ett nytt XMP‑block om ett sådant som redan finns.
+- **Behöver jag en licens för utveckling?** En gratis provversion fungerar för utvärdering; en kommersiell licens krävs för produktion.
+- **Vilken Java-version stöds?** Java8 och senare.
+- **Hur lång tid tar implementeringen?** Vanligtvis under 10 minuter för en grundläggande metadatauppdatering.
 
-## Aspose Page Java Tutorial Overview
-Denna handledning demonstrerar de grundläggande stegen du behöver för att manipulera XMP‑metadata i EPS‑filer. Att förstå dessa steg hjälper dig att integrera metadatahantering i större dokument‑bearbetningspipelines, förbättra sökbarheten och följa branschstandarder för digital tillgångshantering.
+## Aspose Page Java Tutorial Översikt
+Denna handledning demonstrerar de grundläggande stegen du behöver för att manipulera XMP‑metadata i EPS‑filer. Att förstå dessa steg hjälper dig att integrera metadatahantering i större dokumentbearbetningspipelines, förbättra sökbarheten och följa branschstandarder för digital tillgångshantering.
 
-## Prerequisites
+## Förutsättningar
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar:
-- Grundläggande kunskaper i Java‑programmering.  
-- Aspose.Page for Java library installed. You can download it [here](https://releases.aspose.com/page/java/).  
-- En EPS‑fil som du vill modifiera.
+- Grundläggande kunskaper i Java-programmering.
+- Aspose.Page för Java-biblioteket installerat. Du kan ladda ner den [här](https://releases.aspose.com/page/java/).
+- En EPS-fil som du vill modifiera.
 
-## Import Packages
+## Importera paket
 Först, importera de nödvändiga paketen till ditt Java‑program:
 
 ```java
@@ -45,8 +45,7 @@ import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## Step 1: Get XMP Metadata
-Steg 1: Hämta XMP‑metadata
+## Steg 1: Hämta XMP‑metadata
 
 ```java
 // The path to the documents directory.
@@ -60,8 +59,7 @@ XmpMetadata xmp = document.getXmpMetadata();
 
 Ersätt `"Your Document Directory"` med den faktiska sökvägen där dina dokument lagras.
 
-## Step 2: Retrieve CreatorTool Value
-Steg 2: Hämta CreatorTool‑värde
+## Steg 2: Hämta CreatorTool‑värde
 
 ```java
 // Get "CreatorTool" value
@@ -69,8 +67,7 @@ if (xmp.containsKey("xmp:CreatorTool"))
     System.out.println("CreatorTool: " + xmp.get("xmp:CreatorTool").toStringValue());
 ```
 
-## Step 3: Retrieve CreateDate Value
-Steg 3: Hämta CreateDate‑värde
+## Steg 3: Hämta CreateDate‑värde
 
 ```java
 // Get "CreateDate" value
@@ -78,8 +75,7 @@ if (xmp.containsKey("xmp:CreateDate"))
     System.out.println("CreateDate: " + xmp.get("xmp:CreateDate").toStringValue());
 ```
 
-## Step 4: Retrieve Title Value
-Steg 4: Hämta Title‑värde
+## Steg 4: Hämta Title‑värde
 
 ```java
 // Get "Title" value
@@ -87,8 +83,7 @@ if (xmp.containsKey("dc:title"))
     System.out.println("Title: " + xmp.get("dc:title").toArray()[0].toStringValue());
 ```
 
-## Step 5: Retrieve Format Value
-Steg 5: Hämta Format‑värde
+## Steg 5: Hämta Format‑värde
 
 ```java
 // Get "format" value
@@ -105,8 +100,7 @@ if (xmp.containsKey("dc:creator"))
     System.out.println("Creator: " + xmp.get("dc:creator").toArray()[0].toStringValue());
 ```
 
-## Step 7: Retrieve MetadataDate Value
-Steg 7: Hämta MetadataDate‑värde
+## Steg 7: Hämta MetadataDate‑värde
 
 ```java
 // Get "MetadataDate" value
@@ -114,8 +108,7 @@ if (xmp.containsKey("xmp:MetadataDate"))
     System.out.println("MetadataDate: " + xmp.get("xmp:MetadataDate").toStringValue());
 ```
 
-## Step 8: Save Document with New XMP Metadata
-Steg 8: Spara dokumentet med ny XMP‑metadata
+## Steg 8: Spara dokumentet med ny XMP‑metadata
 
 ```java
 // Initialize output EPS file stream
@@ -137,37 +130,37 @@ psStream.close();
 
 Nu har du framgångsrikt lagt till metadata till din EPS‑fil med Aspose.Page for Java!
 
-## Conclusion
-I denna **aspose page java tutorial**, utforskade vi hur man lägger till XMP‑metadata till en EPS‑fil med Aspose.Page for Java‑biblioteket. Detta kraftfulla API låter dig manipulera dokumentmetadata programatiskt, vilket hjälper dig att hålla tillgångar organiserade och sökbara.
+## Slutsats
+I denna **aspose page java tutorial**, utforskade vi hur man lägger till XMP‑metadata till en EPS‑fil med Aspose.Page for Java‑biblioteket. Detta kraftfulla API låter dig manipulera dokumentdata programatiskt, vilket hjälper dig att hålla tillgångar organiserade och sökbara.
 
-## Frequently Asked Questions
+## Vanliga frågor
 
-**Q: Is Aspose.Page for Java free to use?**  
-A: Aspose.Page for Java is a commercial product. You can explore its features through a free trial [here](https://releases.aspose.com/).
+**F: Är Aspose.Page för Java gratis att använda?**
+A: Aspose.Page för Java är en kommersiell produkt. Du kan utforska dess funktioner genom en kostnadsfri provperiod [här](https://releases.aspose.com/).
 
-**Q: Where can I find the documentation for Aspose.Page for Java?**  
-A: The documentation is available [here](https://reference.aspose.com/page/java/).
+**F: Var kan jag hitta dokumentationen för Aspose.Page for Java?**
+S: Dokumentationen finns tillgänglig [här](https://reference.aspose.com/page/java/).
 
-**Q: How can I obtain a temporary license for Aspose.Page for Java?**  
-A: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+**F: Hur kan jag få en tillfällig licens för Aspose.Page för Java?**
+S: Du kan få en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
-**Q: What file formats does Aspose.Page for Java support?**  
-A: Aspose.Page for Java supports various formats, including EPS, PDF, and XPS.
+**F: Vilka filformat stöder Aspose.Page för Java?**
+S: Aspose.Page för Java stöder olika format, inklusive EPS, PDF och XPS.
 
-**Q: Can I purchase Aspose.Page for Java?**  
-A: Yes, you can purchase Aspose.Page for Java [here](https://purchase.aspose.com/buy).
+**F: Kan jag köpa Aspose.Page för Java?**
+S: Ja, du kan köpa Aspose.Page för Java [här](https://purchase.aspose.com/buy).
 
-**Q: How do I handle large EPS files when adding metadata?**  
-A: Process the file in a streaming fashion (as shown) to keep memory usage low, and close streams promptly.
+**F: Hur hanterar jag stora EPS-filer när jag lägger till metadata?**
+S: Bearbeta filen på ett strömmande sätt (som visas) för att hålla minnesanvändningen låg och stänga strömmar snabbt.
 
-**Q: Can I modify existing XMP fields instead of just reading them?**  
-A: Absolutely – you can use `xmp.put(key, value)` to update or add new entries before saving.
+**F: Kan jag ändra befintliga XMP-fält istället för att bara läsa dem?**
+S: Absolut – du kan använda `xmp.put(key, value)` för att uppdatera eller lägga till nya poster innan du sparar.
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose  
+**Senast uppdaterad:** 2025-12-20
+**Testad med:** Aspose.Page för Java 24.12 (senaste)
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

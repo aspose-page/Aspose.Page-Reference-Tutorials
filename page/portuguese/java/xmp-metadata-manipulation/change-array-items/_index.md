@@ -5,7 +5,7 @@ description: Aprenda como alterar itens de array em XMP usando Aspose.Page para 
   e melhore seus documentos EPS hoje.
 linktitle: Change Array Items in XMP using Java
 second_title: Aspose.Page Java API
-title: 'aspose.page xmp java: Alterar itens de array no XMP usando Java'
+title: 'aspose.page xmp java - Alterar itens de array no XMP usando Java'
 url: /pt/java/xmp-metadata-manipulation/change-array-items/
 weight: 15
 ---
@@ -110,18 +110,6 @@ try {
 
 ## Conclusão
 Parabéns! Você aprendeu com sucesso como alterar itens de array em XMP usando **aspose.page xmp java**. Este guia passo a passo capacita você a modificar programaticamente os metadados EPS, abrindo caminho para fluxos de trabalho automatizados e gerenciamento de conteúdo mais rico.
-
-## Perguntas Frequentes
-### Posso usar Aspose.Page para Java com outras linguagens de programação?
-Aspose.Page foi projetado principalmente para Java, mas a Aspose fornece bibliotecas semelhantes para outras linguagens.  
-### Onde posso encontrar documentação detalhada do Aspose.Page para Java?
-A documentação está disponível [aqui](https://reference.aspose.com/page/java/).  
-### Existe um teste gratuito disponível para Aspose.Page para Java?
-Sim, você pode obter um teste gratuito [aqui](https://releases.aspose.com/).  
-### Como posso obter uma licença temporária para Aspose.Page para Java?
-Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).  
-### Onde posso comprar a versão completa do Aspose.Page para Java?
-Você pode comprar a versão completa [aqui](https://purchase.aspose.com/buy).
 
 ## Perguntas Frequentes Adicionais
 **Q: Posso atualizar vários itens de array em uma única chamada?**  

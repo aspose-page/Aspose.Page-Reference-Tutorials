@@ -139,16 +139,16 @@ Postępując zgodnie z tymi krokami, teraz wiesz, jak **tworzyć pliki XMP metad
 Aspose.Page głównie obsługuje Javę, ale dostępne są wersje dla innych języków, takich jak .NET.
 
 ### Czy dostępna jest darmowa wersja próbna Aspose.Page for Java?
-Tak, możesz wypróbować funkcje Aspose.Page, pobierając darmową wersję próbną **[tutaj](https://releases.aspose.com/)**.
+Tak, możesz wypróbować funkcje Aspose.Page, pobierając darmową wersję próbną [tutaj](https://releases.aspose.com/).
 
 ### Gdzie znajdę szczegółową dokumentację Aspose.Page for Java?
-Dokumentacja jest dostępna **[tutaj](https://reference.aspose.com/page/java/)**.
+Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/page/java/).
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Page for Java?
-Tymczasową licencję można uzyskać **[tutaj](https://purchase.aspose.com/temporary-license/)**.
+Tymczasową licencję można uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
 ### Gdzie mogę kupić Aspose.Page for Java?
-Produkt można zakupić **[tutaj](https://purchase.aspose.com/buy)**.
+Produkt można zakupić [tutaj](https://purchase.aspose.com/buy).
 
 ---
 

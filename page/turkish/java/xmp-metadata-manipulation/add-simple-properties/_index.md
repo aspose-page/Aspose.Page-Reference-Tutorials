@@ -139,16 +139,16 @@ Bu adımları izleyerek artık Aspose.Page for Java kullanarak **XMP metadata EP
 Aspose.Page öncelikle Java'yı destekler, ancak .NET gibi diğer diller için de sürümler mevcuttur.
 
 ### Aspose.Page for Java için ücretsiz deneme mevcut mu?
-Evet, **[buradan](https://releases.aspose.com/)** ücretsiz deneme alarak Aspose.Page'in özelliklerini keşfedebilirsiniz.
+Evet, [buradan](https://releases.aspose.com/) ücretsiz deneme alarak Aspose.Page'in özelliklerini keşfedebilirsiniz.
 
 ### Aspose.Page for Java için ayrıntılı belgeleri nerede bulabilirim?
-Dokümantasyon **[burada](https://reference.aspose.com/page/java/)** mevcuttur.
+Dokümantasyon [burada](https://reference.aspose.com/page/java/) mevcuttur.
 
 ### Aspose.Page for Java için geçici lisans nasıl alabilirim?
-Geçici bir lisans **[buradan](https://purchase.aspose.com/temporary-license/)** temin edilebilir.
+Geçici bir lisans [buradan](https://purchase.aspose.com/temporary-license/) temin edilebilir.
 
 ### Aspose.Page for Java'yi nereden satın alabilirim?
-Ürünü **[buradan](https://purchase.aspose.com/buy)** satın alabilirsiniz.
+Ürünü [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
 **Son Güncelleme:** 2025-12-20  
 **Test Edilen Versiyon:** Aspose.Page for Java 24.11 (yazım anındaki en son sürüm)  

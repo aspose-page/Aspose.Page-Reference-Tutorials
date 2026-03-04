@@ -139,16 +139,16 @@ Sau khi thực hiện các bước trên, bạn đã biết cách **tạo XMP me
 Aspose.Page chủ yếu hỗ trợ Java, nhưng cũng có các phiên bản cho các ngôn ngữ khác như .NET.
 
 ### Có bản dùng thử miễn phí cho Aspose.Page for Java không?
-Có, bạn có thể khám phá các tính năng của Aspose.Page bằng cách lấy bản dùng thử **[tại đây](https://releases.aspose.com/)**.
+Có, bạn có thể khám phá các tính năng của Aspose.Page bằng cách lấy bản dùng thử [tại đây](https://releases.aspose.com/).
 
 ### Tôi có thể tìm tài liệu chi tiết cho Aspose.Page for Java ở đâu?
-Tài liệu có sẵn **[tại đây](https://reference.aspose.com/page/java/)**.
+Tài liệu có sẵn [tại đây](https://reference.aspose.com/page/java/).
 
 ### Làm sao để lấy giấy phép tạm thời cho Aspose.Page for Java?
-Bạn có thể nhận giấy phép tạm thời **[tại đây](https://purchase.aspose.com/temporary-license/)**.
+Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
 ### Tôi có thể mua Aspose.Page for Java ở đâu?
-Bạn có thể mua sản phẩm **[tại đây](https://purchase.aspose.com/buy)**.
+Bạn có thể mua sản phẩm [tại đây](https://purchase.aspose.com/buy).
 
 ---
 

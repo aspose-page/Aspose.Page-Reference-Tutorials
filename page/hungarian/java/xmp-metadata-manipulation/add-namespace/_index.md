@@ -13,38 +13,38 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose.page xmp tutorial – XMP névtér hozzáadása Java használatával
+# aspose.page xmp tutori – XMP névtér Java felhasználással
 
-## Introduction
+## Bevezetés
 
-Ha EPS fájlok metaadatait szeretné módosítani vagy gazdagabbá tenni, a **aspose.page xmp tutorial** pontosan megmutatja, **hogyan adjon hozzá XMP névteret** Java-val. Ebben az útmutatóban lépésről lépésre végigvezetjük a folyamatot – az EPS dokumentum betöltésétől, egy egyedi névtér regisztrálásán, új tulajdonság beszúrásán, egészen a frissített fájl mentéséig. A végére egy világos, újrahasználható mintát kap a XMP metaadatok kezeléséhez bármely Aspose.Page‑t támogató Java projektben.
+Ha EPS fájlok metaadatait szeretné módosítani vagy gazdagabbá tenni, a **aspose.page xmp tutorial** pontosan megmutatja, **hogyan adjon hozzá XMP névteret** Java-val. Ebben az útmutatóban lépésről lépésre végigvezetjük a folyamatot – az EPS dokumentum betöltésétől, egy egyedi névtér regisztrálása, új tulajdonság beszúrásán, egészen a frissített fájl mentéséig. A végén egy világos, újrahasznosítható mintát kap az XMP metaadatok kezeléséhez az Aspose.Page-t támogató Java projektben.
 
-## Quick Answers
-- **What is the primary goal?** Add a custom XMP namespace and property to an EPS file.  
-- **Which library is required?** Aspose.Page for Java.  
-- **Do I need a license for testing?** A free trial works for development; a commercial license is required for production.  
-- **How many code changes are needed?** Only five short code snippets—one for each step.  
-- **Can I reuse this pattern for other namespaces?** Yes, just change the prefix and URI in the `registerNamespaceURI` call.
+## Gyors válaszok
+- **Mi az elsődleges cél?** Egyéni XMP névtér és tulajdonság hozzáadása egy EPS fájlhoz.
+- **Melyik könyvtár szükséges?** Aspose.Page Java-hoz.
+- **Szükségem van licencre a teszteléshez?** Fejlesztéshez ingyenes próbaverzió működik; éles környezethez kereskedelmi licenc szükséges.
+- **Hány kódmódosításra van szükség?** Csak öt rövid kódrészlet – lépésenként egy.
+- **Felhasználhatom ezt a mintát más névterekhez?** Igen, csak módosítsa az előtagot és az URI-t a `registerNamespaceURI` hívásban.
 
-## What is an XMP Namespace?
+## Mi az XMP névtér?
 
-Az XMP (Extensible Metadata Platform) névtér egy egyedi azonosító, amely a kapcsolódó metaadat‑tulajdonságokat egy közös URI alá csoportosítja. Egy névtér regisztrálásával egyedi adatokat – például saját címkéket – tárolhat anélkül, hogy ütközne a meglévő szabványokkal.
+Az XMP (Extensible Metadata Platform) névtér egy egyedi azonosító, amelyhez kapcsolódó metaadat-tulajdonságokat egy közös URI alá csoportosítja. Egy névtér regisztrálásával egyedi adatokat – például saját címkéket – tarthat anélkül, hogy ütközne a szabványokkal.
 
-## Why Use Aspose.Page for XMP Manipulation?
+## Miért használja az Aspose.Page-t XMP-manipulációhoz?
 
-- **Full control** over EPS and PDF metadata without needing Adobe tools.  
-- **Automatic creation** of XMP blocks when none exist, based on PS comments.  
-- **Cross‑platform Java support**, making it easy to integrate into existing pipelines.
+- **Teljes ellenőrzés** az EPS és PDF metaadatok felett Adobe-eszközök nélkül.
+- XMP blokkok **automatikus létrehozása**, ha nem léteznek, a PS megjegyzései alapján.
+- **Több platformon átívelő Java támogatás**, amely megkönnyíti a meglévő folyamatokba való integrálást.
 
-## Prerequisites
+## Előfeltételek
 
-- Aspose.Page for Java: Ensure you have the library installed. You can download it [here](https://releases.aspose.com/page/java/).  
-- Java Development Environment: Set up a Java environment on your system.  
-- Document File: Have an EPS file with XMP metadata. If it doesn't contain XMP metadata, the library will create one based on PS metadata comments.
+- Aspose.Page for Java: Győződjön meg arról, hogy a könyvtár telepítve van. Letöltheted [innen](https://releases.aspose.com/page/java/).
+- Java fejlesztői környezet: Állíts be egy Java környezetet a rendszereden.
+- Dokumentumfájl: Készíts egy EPS fájlt XMP metaadatokkal. Ha nem tartalmaz XMP metaadatokat, a könyvtár létrehoz egyet a PS metaadatokra vonatkozó megjegyzések alapján.
 
-## Import Packages
+## Csomagok importálása
 
-To start, import the necessary packages into your Java project:
+A kezdéshez importáld a szükséges csomagokat a Java projektedbe:
 
 ```java
 import java.io.FileInputStream;
@@ -56,7 +56,7 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## Step 1: Get XMP Metadata
+## 1. lépés: XMP metaadatok beszerzése
 
 ```java
 
@@ -71,30 +71,30 @@ PsDocument document = new PsDocument(psStream);
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-### Why this matters
-Retrieving the `XmpMetadata` object gives you a live handle to the document’s metadata, allowing you to read, modify, or extend it before saving.
+### Miért fontos ez?
+Az `XmpMetadata` objektum lekérése élő azonosítót ad a dokumentum metaadataihoz, lehetővé téve azok olvasását, módosítását vagy bővítését a mentés előtt.
 
-## Step 2: Register New Namespace *(how to add xmp namespace)*
+## 2. lépés: Új névtér regisztrálása *(xmp névtér hozzáadása)*
 
 ```java
 // Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
 xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 ```
 
-### Explanation
-The `registerNamespaceURI` method maps a short prefix (`tmp`) to a full URI. This step is essential for the next operation because XMP properties must be qualified with a registered namespace.
+### Magyarázat
+A `registerNamespaceURI` metódus egy rövid előtagot (`tmp`) képez le egy teljes URI-ra. Ez a lépés elengedhetetlen a következő művelethez, mivel az XMP tulajdonságokat regisztrált névtérrel kell minősíteni.
 
-## Step 3: Add New Property
+## 3. lépés: Új tulajdonság hozzáadása
 
 ```java
 // Add new property "tmp:newKey" in the new XML namespace
 xmp.put("tmp:newKey", new XmpValue("NewValue"));
 ```
 
-### What’s happening?
-Here we create a custom property called `tmp:newKey` and assign it the value `"NewValue"`. You can replace the key and value with anything that fits your business logic.
+### Mi történik?
+Itt létrehozunk egy `tmp:newKey` nevű egyéni tulajdonságot, és hozzárendeljük a `"NewValue"` értéket. A kulcsot és az értéket bármire lecserélheti, ami illik az üzleti logikájához.
 
-## Step 4: Save Document
+## 4. lépés: Dokumentum mentése
 
 ```java
 // Initialize output EPS file stream
@@ -108,53 +108,56 @@ try {
 }
 ```
 
-### Tip
-Always wrap the `save` call in a `try/finally` block (or use try‑with‑resources) to guarantee that the output stream is closed, even if an exception occurs.
+### Tipp
+A `save` hívást mindig `try/finally` blokkba kell zárni (vagy try-with-resources használatával), hogy garantáltan lezárjuk a kimeneti adatfolyamot, még kivétel esetén is.
 
-## Step 5: Close Streams
+## 5. lépés: Adatfolyamok bezárása
 
 ```java
 // Close input EPS stream
 psStream.close();
 ```
 
-### Best practice
-Closing the input stream releases the file handle promptly, preventing file‑locking issues on Windows systems.
+### Bevált gyakorlat
+A bemeneti adatfolyam bezárása azonnal feloldja a fájlkezelőt, megakadályozva a fájlzárolási problémákat Windows rendszereken.
 
-## Common Issues and Solutions
+## Gyakori problémák és megoldások
 
-| Issue | Likely Cause | Fix |
-|-------|--------------|-----|
-| No XMP block appears after saving | Original EPS lacked XMP and comments were insufficient | Ensure the EPS contains standard PS comments (`%%Creator`, `%%Title`, etc.) or manually create an empty `XmpMetadata` object before registering a namespace. |
-| `registerNamespaceURI` throws an exception | Prefix already used | Choose a unique prefix or check existing namespaces via `xmp.getRegisteredNamespaces()`. |
-| Saved file is corrupted | Output stream not flushed | Use `try‑with‑resources` or explicitly call `outPsStream.flush()` before closing. |
+| Probléma | Valószínű ok | Javítás |
 
-## Conclusion
+|-------|--------------|------|
+| Mentés után nem jelenik meg XMP blokk | Az eredeti EPS-ből hiányzott az XMP, és a megjegyzések nem voltak elegendőek | Győződjön meg arról, hogy az EPS tartalmazza a szabványos PS megjegyzéseket (`%%Creator`, `%%Title` stb.), vagy hozzon létre manuálisan egy üres `XmpMetadata` objektumot a névtér regisztrálása előtt. |
+| A `registerNamespaceURI` kivételt dob ​​| Az előtag már használatban van | Válasszon egyedi előtagot, vagy ellenőrizze a meglévő névtereket az `xmp.getRegisteredNamespaces()` segítségével. |
+| A mentett fájl sérült | A kimeneti adatfolyam nincs kiürítve | Használja a `try-with-resources` függvényt, vagy hívja meg explicit módon az `outPsStream.flush()` függvényt bezárás előtt. |
 
-By following this **aspose.page xmp tutorial**, you now have a repeatable method for adding custom namespaces and properties to EPS files using Aspose.Page for Java. This capability opens the door to richer metadata strategies—whether you’re embedding workflow identifiers, proprietary tags, or integration data for downstream systems.
+## Konklúzió
 
-## FAQs
+Ezt az **aspose.page xmp oktatóanyagot** követve most már egy ismételhető módszerrel rendelkezel egyéni névterek és tulajdonságok hozzáadásához EPS fájlokhoz az Aspose.Page for Java használatával. Ez a képesség megnyitja az utat a gazdagabb metaadat-stratégiák előtt – akár munkafolyamat-azonosítókat, saját címkéket vagy integrációs adatokat ágyaz be a downstream rendszerekhez.
 
-### Can I use Aspose.Page for Java with other programming languages?
-Aspose.Page primarily supports Java, but there are versions available for other languages such as .NET.
+## GYIK
 
-### Is there a free trial available?
-Yes, you can explore a free trial [here](https://releases.aspose.com/).
+### Használhatom az Aspose.Page for Java programot más programozási nyelvekkel?
 
-### Where can I find comprehensive documentation?
-Refer to the documentation [here](https://reference.aspose.com/page/java/).
+Az Aspose.Page elsősorban Javát támogatja, de vannak verziók más nyelvekhez, például a .NET-hez.
 
-### How can I obtain a temporary license?
-You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+### Van ingyenes próbaverzió?
 
-### Are there community forums for Aspose.Page?
-Yes, you can engage with the community on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+Igen, megtekinthetsz egy ingyenes próbaverziót [itt](https://releases.aspose.com/).
+
+### Hol találok átfogó dokumentációt?
+Tekintsd meg a dokumentációt [itt](https://reference.aspose.com/page/java/).
+
+### Hogyan szerezhetek be ideiglenes licencet?
+Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) szerezhetsz be.
+
+### Vannak közösségi fórumok az Aspose.Page-hez?
+Igen, kapcsolatba léphetsz a közösséggel az [Aspose.Page fórumon](https://forum.aspose.com/c/page/39).
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Page for Java 23.12 (latest at time of writing)  
-**Author:** Aspose  
+**Utolsó frissítés:** 2025-12-20
+**Tesztelve:** Aspose.Page for Java 23.12 (a legújabb verzió az írás idején)
+**Szerző:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

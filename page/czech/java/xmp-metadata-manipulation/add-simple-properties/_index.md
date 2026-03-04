@@ -137,16 +137,16 @@ Po absolvování těchto kroků nyní víte, jak **create XMP metadata EPS** sou
 Aspose.Page primárně podporuje Javu, ale jsou k dispozici verze i pro jiné jazyky, například .NET.
 
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Page for Java?
-Ano, můžete prozkoumat funkce Aspose.Page získáním bezplatné zkušební verze **[zde](https://releases.aspose.com/)**.
+Ano, můžete prozkoumat funkce Aspose.Page získáním bezplatné zkušební verze [zde](https://releases.aspose.com/).
 
 ### Kde najdu podrobnou dokumentaci pro Aspose.Page for Java?
-Dokumentace je k dispozici **[zde](https://reference.aspose.com/page/java/)**.
+Dokumentace je k dispozici [zde](https://reference.aspose.com/page/java/).
 
 ### Jak mohu získat dočasnou licenci pro Aspose.Page for Java?
-Dočasnou licenci lze získat **[zde](https://purchase.aspose.com/temporary-license/)**.
+Dočasnou licenci lze získat [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Kde mohu zakoupit Aspose.Page for Java?
-Produkt můžete zakoupit **[zde](https://purchase.aspose.com/buy)**.
+Produkt můžete zakoupit [zde](https://purchase.aspose.com/buy).
 
 ---
 

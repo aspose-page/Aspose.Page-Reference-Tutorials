@@ -5,7 +5,7 @@ description: Apprenez à modifier les éléments d’un tableau dans XMP avec As
   à notre guide étape par étape et améliorez vos documents EPS dès aujourd’hui.
 linktitle: Change Array Items in XMP using Java
 second_title: Aspose.Page Java API
-title: 'aspose.page xmp java : Modifier les éléments du tableau dans XMP avec Java'
+title: 'aspose.page xmp java - Modifier les éléments du tableau dans XMP avec Java'
 url: /fr/java/xmp-metadata-manipulation/change-array-items/
 weight: 15
 ---
@@ -110,18 +110,6 @@ try {
 
 ## Conclusion
 Félicitations ! Vous avez appris avec succès comment modifier les éléments d’un tableau dans XMP en utilisant **aspose.page xmp java**. Ce guide étape par étape vous permet de modifier les métadonnées EPS de façon programmatique, ouvrant la voie à des flux de travail documentaires automatisés et à une gestion de contenu plus riche.
-
-## FAQ
-### Puis‑je utiliser Aspose.Page pour Java avec d’autres langages de programmation ?
-Aspose.Page est principalement conçu pour Java, mais Aspose propose des bibliothèques similaires pour d’autres langages.  
-### Où puis‑je trouver la documentation détaillée d’Aspose.Page pour Java ?
-La documentation est disponible [ici](https://reference.aspose.com/page/java/).  
-### Existe‑t‑il un essai gratuit disponible pour Aspose.Page pour Java ?
-Oui, vous pouvez obtenir un essai gratuit [ici](https://releases.aspose.com/).  
-### Comment puis‑je obtenir une licence temporaire pour Aspose.Page pour Java ?
-Vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).  
-### Où puis‑je acheter la version complète d’Aspose.Page pour Java ?
-Vous pouvez acheter la version complète [ici](https://purchase.aspose.com/buy).
 
 ## Questions fréquentes supplémentaires
 **Q : Puis‑je mettre à jour plusieurs éléments d’un tableau en un seul appel ?**  

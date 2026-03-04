@@ -15,34 +15,34 @@ weight: 13
 
 # บทแนะนำ aspose.page xmp – เพิ่ม Namespace ใน XMP ด้วย Java
 
-## Introduction
+## การแนะนำ
 
-หากคุณต้องการแก้ไขหรือเพิ่มความสมบูรณ์ให้กับเมตาดาต้าของไฟล์ EPS, **aspose.page xmp tutorial** จะสาธิตให้คุณเห็นอย่างชัดเจน **วิธีเพิ่ม XMP namespace** ด้วย Java ในคู่มือนี้เราจะเดินผ่านแต่ละขั้นตอน—เริ่มจากการโหลดเอกสาร EPS, ลงทะเบียน namespace แบบกำหนดเอง, แทรก property ใหม่, และสุดท้ายบันทึกไฟล์ที่อัปเดตแล้ว เมื่อเสร็จสิ้นคุณจะได้รูปแบบที่ชัดเจนและนำกลับมาใช้ใหม่ได้สำหรับการทำงานกับเมตาดาต้า XMP ในโครงการ Java ที่ใช้ Aspose.Page ใด ๆ
+ข้อมูลแก้ไขหรือเพิ่มให้กับเมตาดาต้าของไฟล์ EPS, **aspose.page xmp Tutorial** จะต้องสาธิตให้คุณเห็นใน ** วิธีเพิ่ม XMP namespace** ด้วย Java ในคู่มือนี้เราจะอธิบายแต่ละขั้นตอน—ในส่วนของเอกสารเอกสาร EPS, ลงทะเบียน namespace ของเว็บ, แทรกคุณสมบัติคำบรรยาย, และสุดท้ายบันทึกไฟล์ที่อัปเดตแล้วก่อนหน้านี้ก่อนที่คุณจะได้รูปแบบและนำกลับมาใช้ใหม่ได้สำหรับเมตาดาต้า XMP ของ Java ใช้ Aspose.Page ใด ๆ
 
-## Quick Answers
-- **What is the primary goal?** เพิ่ม Namespace และ property XMP แบบกำหนดเองลงในไฟล์ EPS.  
-- **Which library is required?** Aspose.Page for Java.  
-- **Do I need a license for testing?** รุ่นทดลองฟรีใช้ได้สำหรับการพัฒนา; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง.  
-- **How many code changes are needed?** มีเพียงห้าชิ้นส่วนโค้ดสั้น—หนึ่งส่วนต่อแต่ละขั้นตอน.  
-- **Can I reuse this pattern for other namespaces?** ได้ เพียงเปลี่ยน prefix และ URI ในการเรียก `registerNamespaceURI`.
+## คำตอบด่วน
+- **เป้าหมายหลักคืออะไร**ไม่ต้องใส่ Namespace และคุณสมบัติ XMP ลงในไฟล์ EPS
+- **ต้องใช้ไลบรารีใด** Aspose.Page สำหรับ Java
+- **ฉันจำเป็นต้องมีใบอนุญาตในการทดสอบหรือไม่** รุ่นทดลองฟรีสำหรับการพัฒนา; ต้องมีลิขสิทธิ์เรื่องนี้เป็นหลัก.
+- **จำเป็นต้องเปลี่ยนแปลงโค้ดกี่ครั้ง?** มีเพียงห้าโค้ดสั้น— หนึ่งส่วนต่อแต่ละขั้นตอน.
+- **ฉันสามารถใช้รูปแบบนี้ซ้ำกับเนมสเปซอื่นได้หรือไม่** ได้เพียงแค่เปลี่ยนคำนำหน้าและ URI ในการเรียก `registerNamespaceURI`
 
-## What is an XMP Namespace?
+## เนมสเปซ XMP คืออะไร
 
-XMP (Extensible Metadata Platform) namespace คือ ตัวระบุที่ไม่ซ้ำกันซึ่งจัดกลุ่ม property เมตาดาต้าที่เกี่ยวข้องภายใต้ URI ร่วม การลงทะเบียน namespace ทำให้คุณสามารถเก็บข้อมูลแบบกำหนดเอง—เช่นแท็กเฉพาะของบริษัท—โดยไม่ชนกับมาตรฐานที่มีอยู่
+เนมสเปซ XMP (Extensible Metadata Platform) คือชื่อที่ระบุในการตรวจสอบซึ่งจัดกลุ่มทรัพย์สิน เมตาดาต้า ไดรฟ์ภายใต้ URI ของเนมสเปซของคุณเองในหลาย ๆ ที่— เช่นแท็กเฉพาะการตรวจสอบเฉพาะ— โดยไม่ชนกับมาตรฐานการตรวจสอบ
 
-## Why Use Aspose.Page for XMP Manipulation?
+## เหตุใดจึงต้องใช้ Aspose.Page เพื่อการจัดการ XMP
 
-- **Full control** over EPS and PDF metadata without needing Adobe tools.  
-- **Automatic creation** of XMP blocks when none exist, based on PS comments.  
-- **Cross‑platform Java support**, making it easy to integrate into existing pipelines.
+- **ควบคุมเต็มรูปแบบ** สำหรับข้อมูลเมตา EPS และ PDF โดยไม่จำเป็นต้องใช้เครื่องมือ Adobe
+- **สร้างอัตโนมัติ** ของบล็อก XMP เมื่อไม่มีอยู่ ตามความคิดเห็นของ PS
+- **รองรับ Java ข้ามแพลตฟอร์ม** ทำให้ง่ายต่อการรวมเข้ากับไปป์ไลน์ที่มีอยู่
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-- Aspose.Page for Java: ตรวจสอบว่าคุณได้ติดตั้งไลบรารีแล้ว คุณสามารถดาวน์โหลดได้จาก [here](https://releases.aspose.com/page/java/).  
-- Java Development Environment: ตั้งค่าสภาพแวดล้อม Java บนระบบของคุณ.  
-- Document File: มีไฟล์ EPS ที่มีเมตาดาต้า XMP หากไม่มีเมตาดาต้า XMP ไลบรารีจะสร้างขึ้นโดยอิงจากคอมเมนต์เมตาดาต้า PS.
+- Aspose.Page สำหรับ Java: ดาวน์โหลดไลบรารีแล้วดาวน์โหลดดาวน์โหลด [ที่นี่](https://releases.aspose.com/page/java/)
+- Java Development Environment: โปรดดู Java บนระบบของคุณ
+- Document File: มีไฟล์ EPS ที่เป็นเมตาดาต้า XMP ตรวจสอบเมตาดาต้า XMP ไลบรารีจะเชื่อมต่อโดยอิงจากคอมเมนต์เมตาดาต้า ปล.
 
-## Import Packages
+## แพคเกจนำเข้า
 
 เพื่อเริ่มต้น ให้นำเข้าแพ็กเกจที่จำเป็นเข้าสู่โครงการ Java ของคุณ:
 
@@ -56,7 +56,7 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## Step 1: Get XMP Metadata
+## ขั้นตอนที่ 1: รับข้อมูลเมตา XMP
 
 ```java
 
@@ -71,30 +71,30 @@ PsDocument document = new PsDocument(psStream);
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-### Why this matters
+### เหตุใดจึงสำคัญ
 การดึงอ็อบเจ็กต์ `XmpMetadata` ให้คุณได้ตัวจับเมตาดาต้าของเอกสารแบบเรียลไทม์ ทำให้คุณสามารถอ่าน, แก้ไข หรือขยายข้อมูลก่อนบันทึกได้
 
-## Step 2: Register New Namespace *(how to add xmp namespace)*
+## ขั้นตอนที่ 2: ลงทะเบียนเนมสเปซใหม่ *(วิธีการเพิ่มเนมสเปซ XMP)*
 
 ```java
 // Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
 xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 ```
 
-### Explanation
+### คำอธิบาย
 เมธอด `registerNamespaceURI` ทำการแมป prefix สั้น (`tmp`) ไปยัง URI เต็มขั้นตอนนี้สำคัญสำหรับการดำเนินการต่อไป เพราะ property ของ XMP ต้องมีการระบุ namespace ที่ลงทะเบียนแล้ว
 
-## Step 3: Add New Property
+## ขั้นตอนที่ 3: เพิ่มพร็อพเพอร์ตี้ใหม่
 
 ```java
 // Add new property "tmp:newKey" in the new XML namespace
 xmp.put("tmp:newKey", new XmpValue("NewValue"));
 ```
 
-### What’s happening?
+### เกิดอะไรขึ้น?
 ที่นี่เราสร้าง property แบบกำหนดเองชื่อ `tmp:newKey` และกำหนดค่าเป็น `"NewValue"` คุณสามารถเปลี่ยนคีย์และค่าตามที่ตรงกับตรรกะธุรกิจของคุณได้
 
-## Step 4: Save Document
+## ขั้นตอนที่ 4: บันทึกเอกสาร
 
 ```java
 // Initialize output EPS file stream
@@ -108,20 +108,20 @@ try {
 }
 ```
 
-### Tip
+### เคล็ดลับ
 ควรห่อการเรียก `save` ไว้ในบล็อก `try/finally` (หรือใช้ try‑with‑resources) เพื่อรับประกันว่าการสตรีมเอาต์พุตจะถูกปิด แม้จะเกิดข้อยกเว้นก็ตาม
 
-## Step 5: Close Streams
+## ขั้นตอนที่ 5: ปิดสตรีม
 
 ```java
 // Close input EPS stream
 psStream.close();
 ```
 
-### Best practice
+### แนวทางปฏิบัติที่ดีที่สุด
 การปิดสตรีมอินพุตจะปล่อยไฟล์แฮนด์เดิลอย่างรวดเร็ว ป้องกันปัญหาไฟล์ล็อกบนระบบ Windows
 
-## Common Issues and Solutions
+## ปัญหาและวิธีแก้ไขที่พบบ่อย
 
 | Issue | Likely Cause | Fix |
 |-------|--------------|-----|
@@ -129,26 +129,27 @@ psStream.close();
 | `registerNamespaceURI` throws an exception | Prefix already used | Choose a unique prefix or check existing namespaces via `xmp.getRegisteredNamespaces()`. |
 | Saved file is corrupted | Output stream not flushed | Use `try‑with‑resources` or explicitly call `outPsStream.flush()` before closing. |
 
-## Conclusion
+## บทสรุป
 
-โดยทำตาม **aspose.page xmp tutorial** นี้ คุณจะได้วิธีการทำซ้ำสำหรับการเพิ่ม namespace และ property แบบกำหนดเองลงในไฟล์ EPS ด้วย Aspose.Page for Java ความสามารถนี้เปิดประตูสู่กลยุทธ์เมตาดาต้าที่ลึกซึ้งกว่า—ไม่ว่าจะเป็นการฝังตัวระบุเวิร์กโฟลว์, แท็กเฉพาะของบริษัท, หรือข้อมูลการบูรณาการสำหรับระบบ downstream
+โดยทำตาม **aspose.page xmp Tutorial** เราจะต้องใช้วิธีการต่างๆ สำหรับเพิมเนมสเปซ และคุณสมบัติ ที่น่าทึ่งลงในไฟล์ EPS ด้วย Aspose.Page สำหรับ Java ความสามารถนี้เปิดประตูสู่กลยุทธ์เมตาดาต้าที่สามารถตรวจสอบได้มากกว่า—การลงทะเบียนการฝังตัวระบุในโฟลว์, แท็กเฉพาะเจาะจง, หรือข้อมูลการจัดเก็บข้อมูลสำหรับระบบดาวน์สตรีม
 
-## FAQs
+## คำถามที่พบบ่อย
 
-### Can I use Aspose.Page for Java with other programming languages?
-Aspose.Page primarily supports Java, but there are versions available for other languages such as .NET.
+### ฉันสามารถใช้ Aspose.Page สำหรับ Java กับภาษาการเขียนโปรแกรมอื่นได้หรือไม่
+Aspose.Page รองรับ Java เป็นหลัก แต่มีเวอร์ชันสำหรับภาษาอื่น เช่น .NET
 
-### Is there a free trial available?
-Yes, you can explore a free trial [here](https://releases.aspose.com/).
+### มีการทดลองใช้ฟรีหรือไม่?
+ใช่ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/)
 
-### Where can I find comprehensive documentation?
-Refer to the documentation [here](https://reference.aspose.com/page/java/).
+### ฉันจะหาเอกสารประกอบที่ครอบคลุมได้ที่ไหน?
+โปรดดูเอกสารประกอบ[ที่นี่](https://reference.aspose.com/page/java/)
 
-### How can I obtain a temporary license?
-You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
+### ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
+คุณสามารถขอรับใบอนุญาตชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)
 
-### Are there community forums for Aspose.Page?
-Yes, you can engage with the community on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+### มีฟอรัมชุมชนสำหรับ Aspose.Page หรือไม่?
+
+ใช่ คุณสามารถมีส่วนร่วมกับชุมชนได้ที่ [ฟอรัม Aspose.Page](https://forum.aspose.com/c/page/39)
 
 ---
 

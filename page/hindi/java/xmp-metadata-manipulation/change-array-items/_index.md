@@ -5,7 +5,7 @@ description: जानेँ कि Aspose.Page for Java (aspose.page xmp java) 
   संशोधित करें और आज ही अपने EPS दस्तावेज़ों को बेहतर बनाएँ।
 linktitle: Change Array Items in XMP using Java
 second_title: Aspose.Page Java API
-title: 'aspose.page xmp java: जावा का उपयोग करके XMP में एरे आइटम बदलें'
+title: 'aspose.page xmp java - जावा का उपयोग करके XMP में एरे आइटम बदलें'
 url: /hi/java/xmp-metadata-manipulation/change-array-items/
 weight: 15
 ---
@@ -110,18 +110,6 @@ try {
 
 ## निष्कर्ष
 बधाई हो! आपने सफलतापूर्वक **aspose.page xmp java** का उपयोग करके XMP में एरे आइटम बदलना सीख लिया है। यह चरण‑दर‑चरण गाइड आपको प्रोग्रामेटिक रूप से EPS मेटाडेटा संशोधित करने में सक्षम बनाता है, जिससे स्वचालित दस्तावेज़ वर्कफ़्लो और समृद्ध कंटेंट प्रबंधन का द्वार खुलता है।
-
-## अक्सर पूछे जाने वाले प्रश्न
-### क्या मैं Aspose.Page for Java को अन्य प्रोग्रामिंग भाषाओं के साथ उपयोग कर सकता हूँ?
-Aspose.Page मुख्यतः Java के लिए डिज़ाइन किया गया है, लेकिन Aspose अन्य भाषाओं के लिए समान लाइब्रेरी प्रदान करता है।  
-### Aspose.Page for Java की विस्तृत दस्तावेज़ीकरण कहाँ मिल सकती है?
-दस्तावेज़ीकरण [here](https://reference.aspose.com/page/java/) पर उपलब्ध है।  
-### क्या Aspose.Page for Java के लिए मुफ्त ट्रायल उपलब्ध है?
-हाँ, आप मुफ्त ट्रायल [here](https://releases.aspose.com/) से प्राप्त कर सकते हैं।  
-### मैं Aspose.Page for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त करूँ?
-आप अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।  
-### मैं Aspose.Page for Java का पूर्ण संस्करण कहाँ खरीद सकता हूँ?
-आप पूर्ण संस्करण [here](https://purchase.aspose.com/buy) से खरीद सकते हैं।
 
 ## अतिरिक्त अक्सर पूछे जाने वाले प्रश्न
 **प्र: क्या मैं एक कॉल में कई एरे आइटम अपडेट कर सकता हूँ?**  

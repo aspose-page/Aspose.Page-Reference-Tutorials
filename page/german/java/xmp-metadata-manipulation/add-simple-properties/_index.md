@@ -140,16 +140,16 @@ Durch Befolgen dieser Schritte wissen Sie jetzt, wie Sie **XMP‑Metadaten‑EPS
 Aspose.Page unterstützt hauptsächlich Java, es gibt jedoch Versionen für andere Sprachen wie .NET.
 
 ### Ist eine kostenlose Testversion für Aspose.Page für Java verfügbar?
-Ja, Sie können die Funktionen von Aspose.Page erkunden, indem Sie eine kostenlose Testversion **[hier](https://releases.aspose.com/)** erhalten.
+Ja, Sie können die Funktionen von Aspose.Page erkunden, indem Sie eine kostenlose Testversion [hier](https://releases.aspose.com/) erhalten.
 
 ### Wo finde ich die ausführliche Dokumentation für Aspose.Page für Java?
-Die Dokumentation ist **[hier](https://reference.aspose.com/page/java/)** verfügbar.
+Die Dokumentation ist [hier](https://reference.aspose.com/page/java/) verfügbar.
 
 ### Wie kann ich eine temporäre Lizenz für Aspose.Page für Java erhalten?
-Eine temporäre Lizenz kann **[hier](https://purchase.aspose.com/temporary-license/)** erworben werden.
+Eine temporäre Lizenz kann [hier](https://purchase.aspose.com/temporary-license/) erworben werden.
 
 ### Wo kann ich Aspose.Page für Java kaufen?
-Sie können das Produkt **[hier](https://purchase.aspose.com/buy)** erwerben.
+Sie können das Produkt [hier](https://purchase.aspose.com/buy) erwerben.
 
 ---
 

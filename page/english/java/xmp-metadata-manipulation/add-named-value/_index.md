@@ -1,5 +1,5 @@
 ---
-title: asp: Add Named Value in XMP Metadata using Java
+title: Add Named Value in XMP Metadata using Java
 linktitle: Add Named Value in XMP using Java
 second_title: Aspose.Page Java API
 description: Master Java document manipulation with asp. Learn how to add XMP metadata using Aspose.Page – a step‑by‑step guide for adding named values.
@@ -12,7 +12,7 @@ date: 2025-12-20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# asp: Add Named Value in XMP Metadata using Java
+# Add Named Value in XMP Metadata using Java
 
 ## Introduction
 In modern Java development, managing **XMP metadata** inside EPS files is essential for preserving document provenance and searchability. With **asp** (Aspose.Page for Java), you can effortlessly inject custom named values into the XMP packet. This tutorial walks you through the exact steps—complete with code snippets—so you can start adding XMP metadata to your EPS documents today.
