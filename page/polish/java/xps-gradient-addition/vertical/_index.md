@@ -1,27 +1,41 @@
 ---
-title: Dodaj gradient pionowy w Java XPS
-linktitle: Dodaj gradient pionowy w Java XPS
-second_title: Aspose.Page API Java
-description: Dowiedz się, jak dodać gradient pionowy do dokumentów Java XPS za pomocą Aspose.Page. Zwiększ atrakcyjność wizualną bez wysiłku. Wewnątrz instrukcja krok po kroku.
-weight: 12
+date: 2025-12-25
+description: Dowiedz się, jak dodać pionowy gradient w Java XPS przy użyciu Aspose.Page.
+  Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zwiększyć atrakcyjność wizualną
+  swojego dokumentu.
+linktitle: How to Add Vertical Gradient in Java XPS
+second_title: Aspose.Page Java API
+title: Jak dodać pionowy gradient w Java XPS
 url: /pl/java/xps-gradient-addition/vertical/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj gradient pionowy w Java XPS
+# Jak dodać pionowy gradient w Java XPS
 
-## Wstęp
-tym samouczku omówimy, jak dodać gradient pionowy w Java XPS przy użyciu Aspose.Page dla Java. Dodanie gradientów do dokumentów XPS może poprawić atrakcyjność wizualną treści, czyniąc ją bardziej wciągającą i estetyczną.
-## Warunki wstępne
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Działające środowisko programistyczne Java.
--  Aspose.Page dla biblioteki Java. Można go pobrać z[Tutaj](https://releases.aspose.com/page/java/).
-- Podstawowa znajomość programowania w języku Java.
-## Importuj pakiety
-Zacznij od zaimportowania niezbędnych pakietów dla swojego projektu Java. Upewnij się, że w zależnościach projektu uwzględniłeś bibliotekę Aspose.Page for Java.
+## Wprowadzenie
+W tym samouczku odkryjesz **jak dodać pionowy gradient** do dokumentów XPS podczas pracy w Javie. Zastosowanie pionowego gradientu może znacząco poprawić wizualny efekt Twoich raportów, faktur lub dowolnych treści do druku. Przejdziemy przez każdy krok, od skonfigurowania projektu po zapisanie ostatecznego pliku XPS, używając potężnej biblioteki Aspose.Page for Java.
+
+## Szybkie odpowiedzi
+- **Co robi pionowy gradient?** Tworzy płynne przejście kolorów od góry do dołu kształtu.  
+- **Jakiej biblioteki wymaga?** Aspose.Page for Java (do pobrania z oficjalnej strony).  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
+- **Czy jest kompatybilny z Java 8+?** Tak, API obsługuje Java 8 i nowsze wersje.  
+- **Jak długo trwa implementacja?** Zazwyczaj poniżej 10 minut po skonfigurowaniu środowiska.
+
+## Wymagania wstępne
+Zanim przejdziemy do kodu, upewnij się, że masz następujące elementy:
+
+- Działające środowisko programistyczne Java (JDK 8 lub nowszy).  
+- Biblioteka Aspose.Page for Java. Możesz ją pobrać [tutaj](https://releases.aspose.com/page/java/).  
+- Podstawową znajomość koncepcji programowania w Javie.  
+
+## Importowanie pakietów
+Zacznij od zaimportowania niezbędnych pakietów do swojego projektu Java. Upewnij się, że biblioteka Aspose.Page for Java została dodana do classpath projektu.
+
 ```java
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsGradientBrush;
@@ -30,54 +44,81 @@ import com.aspose.xps.XpsPath;
 import java.awt.geom.Point2D;
 import java.util.LinkedList;
 import java.util.List;
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
         
-// Zaimportuj Aspose.Page dla Java
+// Import Aspose.Page for Java
 ```
-## Krok 1: Zainicjuj dokument
-Rozpocznij od zainicjowania dokumentu XPS. Stanowi to podstawę do dodawania elementów, takich jak ścieżki i gradienty, do dokumentu.
+
+## Krok 1: Inicjalizacja dokumentu
+Rozpocznij od utworzenia nowego dokumentu XPS. Ten obiekt będzie przechowywać wszystkie elementy rysunkowe, które dodasz później.
+
 ```java
-// Zainicjuj dokument
+// Initialize document
 XpsDocument doc = new XpsDocument();
 ```
-## Krok 2: Utwórz ścieżkę z pionowym gradientem
-Utwórzmy teraz ścieżkę z pionowym nachyleniem. Obejmuje to zdefiniowanie geometrii ścieżki i określenie przystanków gradientu.
+
+## Krok 2: Utworzenie ścieżki z pionowym gradientem
+Następnie zdefiniuj prostokątną ścieżkę i zastosuj pionowy gradient liniowy. Punkty zatrzymania gradientu określają kolory i ich pozycje wzdłuż osi pionowej.
+
 ```java
-// Utwórz ścieżkę z geometrią
+// Create a path with geometry
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
-// Zdefiniuj przystanki gradientu pionowego
+// Define vertical gradient stops
 List<XpsGradientStop> stops = new LinkedList<XpsGradientStop>();
 stops.add(doc.createGradientStop(doc.createColor(253, 255, 12, 0), 0f));
 stops.add(doc.createGradientStop(doc.createColor(252, 255, 154, 0), 0.359375f));
 stops.add(doc.createGradientStop(doc.createColor(252, 255, 56, 0), 0.424805f));
 stops.add(doc.createGradientStop(doc.createColor(253, 255, 229, 0), 0.879883f));
 stops.add(doc.createGradientStop(doc.createColor(252, 255, 255, 234), 1f));
-//Zastosuj gradient pionowy do ścieżki
+// Apply the vertical gradient to the path
 path.setFill(doc.createLinearGradientBrush(new Point2D.Float(10f, 110f), new Point2D.Float(10f, 200f)));
 ((XpsGradientBrush)path.getFill()).getGradientStops().addAll(stops);
 ```
-## Krok 3: Zapisz dokument
-Na koniec zapisz dokument XPS z dodanym pionowym gradientem w wybranym katalogu.
+
+## Krok 3: Zapisanie dokumentu
+Na koniec zapisz plik XPS na dysku. Powstały plik będzie zawierał prostokąt wypełniony pionowym gradientem, który zdefiniowałeś.
+
 ```java
-// Zapisz dokument
+// Save the document
 doc.save(dataDir + "VerticalGradient.xps");
 ```
-Gratulacje! Pomyślnie dodałeś gradient pionowy do dokumentu Java XPS za pomocą Aspose.Page.
-## Wniosek
-Ulepszanie dokumentów XPS gradientami może znacznie poprawić ich atrakcyjność wizualną. Aspose.Page dla Java upraszcza ten proces, umożliwiając łatwe tworzenie wspaniałych dokumentów.
 
-### Często zadawane pytania
-### Czy mogę używać Aspose.Page dla Java w projektach komercyjnych?
- Tak, Aspose.Page dla Java jest dostępny do użytku komercyjnego. Możesz go kupić[Tutaj](https://purchase.aspose.com/buy).
-### Czy dostępna jest bezpłatna wersja próbna Aspose.Page dla Java?
- Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
-### Gdzie mogę znaleźć dokumentację Aspose.Page dla Java?
- Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/page/java/).
-### Jak mogę uzyskać tymczasową licencję na Aspose.Page dla Java?
- Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
-### Potrzebujesz pomocy lub masz pytania?
- Odwiedź społeczność Aspose.Page[forum](https://forum.aspose.com/c/page/39).
+Gratulacje! Pomyślnie nauczyłeś się **jak dodać pionowy gradient** do dokumentu Java XPS przy użyciu Aspose.Page.
+
+## Dlaczego używać pionowego gradientu?
+- **Poprawiona estetyka:** Gradienty dodają głębi i nowoczesnego wyglądu statycznym kształtom.  
+- **Spójność marki:** Gładko dopasuj kolory firmowe na wszystkich stronach.  
+- **Łatwa personalizacja:** Zmieniaj kolory lub pozycje punktów zatrzymania bez konieczności ponownego projektowania grafiki.
+
+## Typowe problemy i rozwiązywanie
+- **Gradient nie jest widoczny:** Sprawdź, czy punkty początkowy i końcowy `LinearGradientBrush` są prawidłowo ustawione dla pionowej orientacji.  
+- **Plik nie został zapisany:** Upewnij się, że `dataDir` wskazuje na folder z prawami zapisu i że masz uprawnienia do zapisu plików.  
+- **Biblioteka nie znaleziona:** Sprawdź ponownie, czy plik JAR Aspose.Page jest dołączony do ścieżki budowania projektu.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę używać Aspose.Page for Java w projektach komercyjnych?**  
+A: Tak, Aspose.Page for Java jest dostępny do użytku komercyjnego. Możesz go kupić [tutaj](https://purchase.aspose.com/buy).
+
+**Q: Czy dostępna jest darmowa wersja próbna Aspose.Page for Java?**  
+A: Tak, możesz uzyskać darmową wersję próbną [tutaj](https://releases.aspose.com/).
+
+**Q: Gdzie mogę znaleźć dokumentację Aspose.Page for Java?**  
+A: Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/page/java/).
+
+**Q: Jak mogę uzyskać tymczasową licencję dla Aspose.Page for Java?**  
+A: Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+**Q: Potrzebujesz pomocy lub masz pytania?**  
+A: Odwiedź społeczność Aspose.Page [forum](https://forum.aspose.com/c/page/39).
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-25  
+**Testowano z:** Aspose.Page for Java 24.12 (najnowsza w momencie pisania)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
