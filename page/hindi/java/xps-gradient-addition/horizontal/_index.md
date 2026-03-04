@@ -14,33 +14,35 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Add Gradient – Horizontal Gradient in Java XPS
+# Java XPS में ग्रेडिएंट – हॉरिजॉन्टल ग्रेडिएंट कैसे जोड़ें
 
-## Introduction
-इस चरण‑दर‑चरण गाइड में आपका स्वागत है, जहाँ आप **ग्रेडिएंट जोड़ना** सीखेंगे XPS दस्तावेज़ में Java का उपयोग करके। इस ट्यूटोरियल में आप सीखेंगे कि क्षैतिज ग्रेडिएंट कैसे जोड़ें, यह दृश्य परिष्कार के लिए क्यों महत्वपूर्ण है, और **ग्रेडिएंट स्टॉप्स** को सटीक रंग नियंत्रण के लिए कैसे **कस्टमाइज़** करें। Aspose.Page for Java XPS (XML Paper Specification) दस्तावेज़ों के साथ काम करना आसान बनाता है, जिससे आप डिज़ाइन पर ध्यान केंद्रित कर सकते हैं न कि लो‑लेवल फ़ाइल हैंडलिंग पर।
+## परिचय
+इस स्टेप-दर-चरण गाइड में आपका स्वागत है, जहाँ आप **ग्रेडिएंट जोड़कर** XPS डॉक्यूमेंट में Java का इस्तेमाल करके सिखाते हैं। इस ट्यूटोरियल में आप सिखाते हैं कि ग्रेडिएंट कैसे जोड़ें, यह व्यू परिष्कार के लिए क्यों ज़रूरी है, और **ग्रेडिएंट स्टॉप्स** को सटीक रंग कंट्रोल के लिए कैसे **कस्टमाइज़** करें। Aspose.Page for Java XPS (XML Paper Specification) डॉक्यूमेंट्स के साथ काम करना आसान बनाता है, जिससे आप डिज़ाइन पर ध्यान केंद्रित कर सकते हैं न कि लो-लेवल फ़ाइल हैंडलिंग पर।
 
-## Quick Answers
-- **कौनसी लाइब्रेरी चाहिए?** Aspose.Page for Java  
-- **कौनसा Java संस्करण काम करता है?** कोई भी Java 8+ रनटाइम  
-- **क्या लाइसेंस चाहिए?** विकास के लिए मुफ्त ट्रायल चलती है; उत्पादन के लिए व्यावसायिक लाइसेंस आवश्यक है  
-- **क्या मैं ग्रेडिएंट की दिशा बदल सकता हूँ?** हाँ – केवल लीनियर ब्रश के प्रारंभ/समाप्त बिंदुओं को बदलें  
-- **क्या कई ग्रेडिएंट जोड़ना संभव है?** बिल्कुल – विभिन्न ब्रश के साथ पाथ निर्माण चरणों को दोहराएँ  
+## क्विक आंसर्स
+- **कौन सी लाइब्रेरी चाहिए?** Aspose.Page for Java
+- **कौन सा Java एडिशन काम करता है?** कोई भी Java8+ रनटाइम
+- **क्या लाइसेंस चाहिए?** डेवलपमेंट के लिए फ्री ट्रायल चलती है; प्रोडक्शन के लिए प्रोफेशनल लाइसेंस ज़रूरी है
+- **क्या मैं ग्रेडिएंट की दिशा बदल सकता हूँ?** हाँ – केवल लीनियर ब्रश के शुरू/समाप्त बिंदुओं को बदलें
+- **क्या कई ग्रेडिएंट जोड़ना मुमकिन है?** बिल्कुल – अलग-अलग ब्रश के साथ पथ निर्माण चरणों को दोहराएँ
 
-## What is a Horizontal Gradient in XPS?
-एक क्षैतिज ग्रेडिएंट का अर्थ है रंगों का बाएँ से दाएँ तक स्मूथ ट्रांज़िशन किसी आकार के भीतर। XPS में इसे लीनियर ग्रेडिएंट ब्रश द्वारा दर्शाया जाता है जो परिभाषित **ग्रेडिएंट स्टॉप्स** के बीच इंटरपोलेशन करता है। यह दृश्य प्रभाव आमतौर पर बैनर, बटन और बैकग्राउंड फ़िल्स में उपयोग किया जाता है।
+## XPS में हॉरिजॉन्टल ग्रेडिएंट क्या है?
 
-## Why Use Aspose.Page for Java?
-- **पूर्ण XPS समर्थन** – थर्ड‑पार्टी टूल्स के बिना बनाएं, संपादित करें और रेंडर करें।  
-- **सरल API** – `XpsDocument`, `XpsPath`, और `XpsGradientBrush` जैसे हाई‑लेवल ऑब्जेक्ट्स XML जटिलता को छुपाते हैं।  
-- **प्रदर्शन** – बड़े दस्तावेज़ों और बैच प्रोसेसिंग के लिए अनुकूलित।  
+एक क्षैतिज ग्रेडिएंट का मतलब है रंगों का बाएँ से दाएँ तक स्मूथ ट्रांज़िशन किसी आकार के अंदर। XPS में इसे लीनियर ग्रेडिएंट ब्रश द्वारा दिखाया जाता है जो परिभाषित **ग्रेडिएंट स्टॉप्स** के बीच इंटरपोलेशन करता है। यह व्यू इफ़ेक्ट आमतौर पर बैनर, बटन और बैकग्राउंड फ़िल्स में इस्तेमाल किया जाता है।
 
-## Prerequisites
+## Java के लिए Aspose.Page का इस्तेमाल क्यों करें?
+- **पूर्ण XPS सपोर्ट** – थर्ड-पार्टी टूल्स के बिना बनाएँ, एडिट करें और रेंडर करें।
+- **सरल API** – `XpsDocument`, `XpsPath`, और `XpsGradientBrush` जैसे हाई-लेवल ऑब्जेक्ट्स XML एन्कोडिंग को छिपाते हैं।
+
+- **प्रदर्शन** – बड़े डॉक्यूमेंट्स और बैच प्रोसेसिंग के लिए सेटअप।
+
+## प्रीरिक्विजिट्स
 शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
 
-1. **Java Development Environment** – नवीनतम JDK को [java.com](https://www.java.com) से इंस्टॉल करें।  
-2. **Aspose.Page for Java Library** – JAR को [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) से डाउनलोड करें।  
+1. **Java Development Environment** – नवीनतम JDK को [java.com](https://www.java.com) से इंस्टॉल करें।
+2. **Aspose.Page for Java Library** – JAR को [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) से डाउनलोड करें।
 
-## Import Packages
+## पैकेज इंपोर्ट करें
 आवश्यक क्लासेज़ को इम्पोर्ट करके शुरू करें। ये इम्पोर्ट्स आपको दस्तावेज़ निर्माण, ग्रेडिएंट हैंडलिंग और बेसिक जियोमेट्री तक पहुँच प्रदान करते हैं।
 
 ```java
@@ -53,7 +55,7 @@ import java.util.LinkedList;
 import java.util.List;
 ```
 
-## Step 1: Initialize the XPS Document
+## स्टेप 1: XPS डॉक्यूमेंट को इनिशियलाइज़ करें
 एक नया `XpsDocument` इंस्टेंस बनाएँ और उस फ़ोल्डर को निर्दिष्ट करें जहाँ आप परिणाम सहेजना चाहते हैं।
 
 ```java
@@ -63,7 +65,7 @@ String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-## Step 2: Create Horizontal Gradient
+## स्टेप 2: हॉरिजॉन्टल ग्रेडिएंट बनाएं
 एक **ग्रेडिएंट स्टॉप्स** की सूची परिभाषित करें जो प्रत्येक ट्रांज़िशन पॉइंट के रंग और स्थिति को नियंत्रित करती है। नीचे दिया गया उदाहरण एक जीवंत इंद्रधनुष‑समान ग्रेडिएंट बनाता है।
 
 ```java
@@ -77,11 +79,11 @@ stops.add(doc.createGradientStop(doc.createColor(255, 53, 253, 255), 0.915039f))
 stops.add(doc.createGradientStop(doc.createColor(255, 12, 91, 248), 1f));
 ```
 
-### How to customize gradient stops
+### ग्रेडिएंट स्टॉप को कस्टमाइज़ कैसे करें
 - **Color** – किसी भी ARGB मान को सेट करने के लिए `doc.createColor(alpha, red, green, blue)` का उपयोग करें।  
 - **Position** – दूसरा आर्गुमेंट (`0` और `1` के बीच `float`) निर्धारित करता है कि स्टॉप ग्रेडिएंट लाइन पर कहाँ दिखेगा। इन मानों को बदलकर रंगों को बाएँ या दाएँ शिफ्ट करें।
 
-## Step 3: Add Path with Gradient
+## स्टेप 3: ग्रेडिएंट के साथ पाथ जोड़ें
 एक आयताकार पाथ बनाएँ, आवश्यकता अनुसार ट्रांसफ़ॉर्म लागू करें, और उसे लीनियर ग्रेडिएंट ब्रश से भरें। ब्रश दो बिंदुओं (`(10,0)` से `(228,0)`) का उपयोग करके क्षैतिज प्रभाव उत्पन्न करता है।
 
 ```java
@@ -95,42 +97,42 @@ stops.clear();
 
 **Pro tip:** कई पाथ्स के लिए वही `stops` सूची पुन: उपयोग करने से प्रदर्शन बेहतर हो सकता है, लेकिन नई स्टॉप्स जोड़ने से पहले `clear()` करना न भूलें।
 
-## Step 4: Save the Document
+## स्टेप 4: डॉक्यूमेंट सेव करें
 XPS फ़ाइल को डिस्क पर सहेजें। अब आप इसे किसी भी XPS व्यूअर में खोलकर क्षैतिज ग्रेडिएंट को देख सकते हैं।
 
 ```java
 doc.save(dataDir + "HorizontalGradient.xps");
 ```
 
-## Common Issues & Solutions
-| Issue | Reason | Fix |
-|-------|--------|-----|
-| Gradient appears solid | No gradient stops added or brush not set | Ensure `path.setFill(...)` uses a `LinearGradientBrush` and that stops are added via `getGradientStops().addAll(stops)`. |
-| Colors look muted | Incorrect alpha value (first parameter) | Use `255` for fully opaque colors unless transparency is desired. |
-| Path size is off | Transform matrix values are wrong | Adjust the matrix parameters (`scaleX, skewY, skewX, scaleY, translateX, translateY`). |
+## आम दिक्कतें और समाधान
+| दिक्कत | कारण | ठीक करें |
+|-------|---------|-----|
+| ग्रेडिएंट सॉलिड दिखता है | कोई ग्रेडिएंट स्टॉप नहीं जोड़ा गया है या ब्रश सेट नहीं है | पक्का करें कि `path.setFill(...)` `LinearGradientBrush` का इस्तेमाल करता है और स्टॉप `getGradientStops().addAll(stops)` के ज़रिए जोड़े गए हैं। |
+| रंग फीके दिखते हैं | गलत अल्फ़ा वैल्यू (पहला पैरामीटर) | जब तक ट्रांसपेरेंसी न चाहिए, पूरी तरह से ओपेक रंगों के लिए `255` का इस्तेमाल करें। |
+| पाथ साइज़ बंद है | ट्रांसफ़ॉर्म मैट्रिक्स वैल्यू गलत हैं | मैट्रिक्स पैरामीटर (`scaleX, skewY, skewX, scaleY, translateX, translateY`) को एडजस्ट करें। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले सवाल
 
-**Q: Can I apply multiple gradients in a single XPS document?**  
-A: Yes, you can add multiple paths, each with its own gradient brush, to create complex layered designs.
+**सवाल: क्या मैं एक ही XPS डॉक्यूमेंट में कई ग्रेडिएंट लगा सकता हूँ?**
+जवाब: हाँ, आप कॉम्प्लेक्स लेयर्ड डिज़ाइन बनाने के लिए कई पाथ जोड़ सकते हैं, हर एक का अपना ग्रेडिएंट ब्रश हो।
 
-**Q: Is Aspose.Page compatible with the latest Java versions?**  
-A: Aspose.Page for Java is regularly updated and works with Java 8 and newer releases.
+**सवाल: क्या Aspose.Page लेटेस्ट Java वर्शन के साथ कम्पैटिबल है?**
+जवाब: Java के लिए Aspose.Page रेगुलर अपडेट होता है और Java8 और नए रिलीज़ के साथ काम करता है।
 
-**Q: Are there other gradient types available in Aspose.Page?**  
-A: Besides linear gradients, Aspose.Page also supports radial gradients for circular color transitions.
+**सवाल: क्या Aspose.Page में दूसरे ग्रेडिएंट टाइप भी उपलब्ध हैं?**
+जवाब: लीनियर ग्रेडिएंट के अलावा, Aspose.Page सर्कुलर कलर ट्रांज़िशन के लिए रेडियल ग्रेडिएंट को भी सपोर्ट करता है।
 
-**Q: Can I customize the colors and positions of gradient stops?**  
-A: Absolutely! You have full control over each stop’s ARGB color and its relative position (0‑1 range).
+**सवाल: क्या मैं ग्रेडिएंट स्टॉप के रंग और पोज़िशन को कस्टमाइज़ कर सकता हूँ?**
+जवाब: बिल्कुल! हर स्टॉप के ARGB कलर और उसकी रिलेटिव पोज़िशन (0‑1 रेंज) पर आपका पूरा कंट्रोल होता है।
 
-**Q: Is there a community forum for Aspose.Page where I can seek help?**  
-A: Yes, you can visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to connect with the community and get assistance.
+**सवाल: क्या Aspose.Page के लिए कोई कम्युनिटी फ़ोरम है जहाँ मैं मदद ले सकूँ?**
+जवाब: हाँ, आप कम्युनिटी से जुड़ने और मदद पाने के लिए [Aspose.Page फ़ोरम](https://forum.aspose.com/c/page/39) पर जा सकते हैं।
 
 ---
 
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
+**पिछला अपडेट:** 2025-12-25
+**इसके साथ टेस्ट किया गया:** Aspose.Page for Java 24.11
+**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

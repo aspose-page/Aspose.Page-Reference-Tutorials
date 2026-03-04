@@ -109,23 +109,7 @@ doc.save(dataDir + "LinearGradient.xps");
 - **Renk hassasiyeti** – Aspose ARGB kullanır; şeffaflık gerekiyorsa renk oluştururken alfa kanalını da ekleyin.  
 - **Dosya yolu** – her zaman mutlak bir yol kullanın veya göreli yolun mevcut ve yazılabilir bir dizine işaret ettiğini doğrulayın.
 
-## Sık Sorulan Sorular
-### S: Aspose.Page for Java'yı diğer Java çerçeveleriyle kullanabilir miyim?
-Aspose.Page, çeşitli Java çerçeveleriyle sorunsuz bir şekilde bütünleşecek şekilde tasarlanmıştır; projelerinizde çok yönlü bir seçimdir.
-
-### S: Aspose.Page için lisans konularında nelere dikkat etmeliyim?
-Evet, **[Aspose.Page satın alma sayfası](https://purchase.aspose.com/buy)** üzerindeki lisans detaylarını inceleyin.
-
-### S: Aspose.Page for Java'yı satın almadan önce deneyebilir miyim?
-Kesinlikle! **[Ücretsiz deneme sürümünü buradan](https://releases.aspose.com/)** keşfedebilirsiniz.
-
-### S: Destek alabilir ya da Aspose topluluğu ile nasıl iletişime geçebilirim?
-**[Aspose.Page forumu](https://forum.aspose.com/c/page/39)**'na giderek toplulukla etkileşime geçebilir ve yardım isteyebilirsiniz.
-
-### S: Geçici lisans sağlanıyor mu?
-Evet, **[geçici lisansı buradan](https://purchase.aspose.com/temporary-license/)** temin edebilirsiniz.
-
-## Ek SSS (AI‑Optimizeli)
+## Ek SSS
 
 **S: Mevcut bir XPS şekline **gradyan nasıl eklenir**?**  
 C: `XpsLinearGradientBrush` oluşturun, gradyan duraklarını tanımlayın ve şeklin `Fill` özelliğine Step 6'da gösterildiği gibi atayın.

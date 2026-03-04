@@ -72,13 +72,6 @@ Apprenez à ajouter un dégradé horizontal époustouflant aux documents XPS en 
 ### [Ajouter un dégradé vertical en Java XPS](./vertical/)
 Apprenez à ajouter un dégradé vertical aux documents Java XPS avec Aspose.Page. Améliorez l’attrait visuel sans effort. Guide étape par étape à l’intérieur.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Questions fréquentes
 
 **Q : Puis‑je utiliser ces techniques de dégradé dans un projet commercial ?**  
@@ -101,3 +94,10 @@ Apprenez à ajouter un dégradé vertical aux documents Java XPS avec Aspose.Pag
 **Last Updated:** 2025-12-25  
 **Testé avec :** Aspose.Page for Java (latest version)  
 **Auteur :** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

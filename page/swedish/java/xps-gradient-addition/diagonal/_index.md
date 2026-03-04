@@ -107,23 +107,7 @@ doc.save(dataDir + "LinearGradient.xps");
 - **Färgprecision** – Aspose använder ARGB; om du behöver transparens, inkludera alfa-kanalen när du skapar färger.  
 - **Filsökväg** – använd alltid en absolut sökväg eller verifiera att den relativa sökvägen pekar på en befintlig skrivbar katalog.  
 
-## Vanliga frågor
-### Q: Kan jag använda Aspose.Page för Java med andra Java-ramverk?
-Aspose.Page är designat för att sömlöst integreras med olika Java-ramverk, vilket gör det till ett mångsidigt val för dina projekt.
-
-### Q: Finns det några licensöverväganden för Aspose.Page?
-Ja, se till att granska licensdetaljerna på **[Aspose.Page köpsida](https://purchase.aspose.com/buy)**.
-
-### Q: Kan jag prova Aspose.Page för Java innan jag köper?
-Absolut! Du kan utforska en **[gratis provversion här](https://releases.aspose.com/)**.
-
-### Q: Hur kan jag få support eller ansluta till Aspose-communityn?
-Besök **[Aspose.Page-forum](https://forum.aspose.com/c/page/39)** för att engagera dig med communityn och söka hjälp.
-
-### Q: Finns det en möjlighet för tillfälliga licenser?
-Ja, du kan erhålla en **[tillfällig licens här](https://purchase.aspose.com/temporary-license/)**.
-
-## Ytterligare FAQ (AI‑optimerad)
+## Ytterligare FAQ
 
 **Q: Hur gör jag **how to add gradient** till en befintlig XPS-form?**  
 A: Skapa en `XpsLinearGradientBrush`, definiera gradientstopp och tilldela den till formens `Fill`-egenskap som visas i Steg 6.

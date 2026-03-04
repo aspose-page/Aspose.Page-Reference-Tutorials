@@ -109,23 +109,7 @@ doc.save(dataDir + "LinearGradient.xps");
 - **isi warna** – Aspose menggunakan ARGB; jika Anda memerlukan transparansi, sertakan kanal alfa saat membuat warna.  
 - **Jalur file** – selalu gunakan jalur absolut atau pastikan jalur relatif mengarah ke direktori yang dapat ditulisi.
 
-## Pertanyaan yang Sering Diajukan
-### Q: Bisakah saya menggunakan Aspose.Page untuk Java dengan kerangka kerja Java lainnya?
-Aspose.Page dirancang untuk terintegrasi mulus dengan berbagai kerangka kerja Java, menjadikannya pilihan serbaguna untuk proyek Anda.
-
-### Q: Apakah ada pertimbangan lisensi untuk Aspose.Page?
-Ya, pastikan Anda meninjau detail lisensi pada **[halaman pembelian Aspose.Page](https://purchase.aspose.com/buy)**.
-
-### Q: Bisakah saya mencoba Aspose.Page untuk Java sebelum membeli?
-Tentu saja! Anda dapat menjelajahi **[versi percobaan gratis di sini](https://releases.aspose.com/)**.
-
-### Q: Bagaimana cara mendapatkan dukungan atau terhubung dengan komunitas Aspose?
-Kunjungi **[forum Aspose.Page](https://forum.aspose.com/c/page/39)** untuk berinteraksi dengan komunitas dan meminta bantuan.
-
-### Q: Apakah ada ketentuan untuk lisensi sementara?
-Ya, Anda dapat memperoleh **[lisensi sementara di sini](https://purchase.aspose.com/temporary-license/)**.
-
-## FAQ Tambahan (AI‑Optimized)
+## FAQ Tambahan
 
 **Q: Bagaimana cara **menambahkan gradien** ke bentuk XPS yang sudah ada?**  
 A: Buat `XpsLinearGradientBrush`, definisikan gradient stops, dan tetapkan ke properti `Fill` bentuk seperti yang ditunjukkan pada Langkah 6.

@@ -69,13 +69,6 @@ Aspose Page XPS هو واجهة برمجة تطبيقات Java تتيح إنشا
 ### [إضافة تدرج عمودي في Java XPS](./vertical/)
 تعلم كيفية إضافة تدرج عمودي إلى مستندات Java XPS باستخدام Aspose.Page. عزّز الجاذبية البصرية بسهولة. دليل خطوة بخطوة داخل.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام تقنيات التدرج هذه في مشروع تجاري؟**  
@@ -98,3 +91,10 @@ Aspose Page XPS هو واجهة برمجة تطبيقات Java تتيح إنشا
 **آخر تحديث:** 2025-12-25  
 **تم الاختبار مع:** Aspose.Page for Java (الإصدار الأخير)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

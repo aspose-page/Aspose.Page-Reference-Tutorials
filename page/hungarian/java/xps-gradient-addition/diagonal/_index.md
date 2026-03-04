@@ -108,24 +108,7 @@ doc.save(dataDir + "LinearGradient.xps");
 - **Színprecizitás** – az Aspose ARGB-t használ; ha átlátszóságra van szükség, a színek létrehozásakor vegye fel az alfa csatornát.  
 - **Fájlútvonal** – mindig használjon abszolút útvonalat, vagy ellenőrizze, hogy a relatív útvonal egy létező, írható könyvtárra mutat.  
 
-## Gyakran Ismételt Kérdések
-
-### K: Használhatom-e az Aspose.Page for Java-t más Java keretrendszerekkel?
-Az Aspose.Page úgy lett tervezve, hogy zökkenőmentesen integrálódjon különböző Java keretrendszerekbe, így sokoldalú választás a projektjeihez.
-
-### K: Vannak-e licencelési szempontok az Aspose.Page-hez?
-Igen, győződjön meg róla, hogy áttekinti a licenc részleteket a **[Aspose.Page vásárlási oldalon](https://purchase.aspose.com/buy)**.
-
-### K: Kipróbálhatom az Aspose.Page for Java-t vásárlás előtt?
-Természetesen! Felfedezheti a **[ingyenes próbaverziót itt](https://releases.aspose.com/)**.
-
-### K: Hogyan kaphatok támogatást vagy csatlakozhatok az Aspose közösséghez?
-Látogassa meg a **[Aspose.Page fórumot](https://forum.aspose.com/c/page/39)**, hogy kapcsolatba lépjen a közösséggel és segítséget kérjen.
-
-### K: Van lehetőség ideiglenes licencekre?
-Igen, egy **[ideiglenes licencet itt](https://purchase.aspose.com/temporary-license/)** szerezhet.
-
-## További GYIK (AI‑optimalizált)
+## További GYIK
 
 **K: Hogyan **adjak hozzá színátmenetet** egy meglévő XPS alakzathoz?**  
 Hozzon létre egy `XpsLinearGradientBrush`-t, definiálja a gradient stop‑okat, és rendelje hozzá az alakzat `Fill` tulajdonságához, ahogy a 6. lépésben látható.

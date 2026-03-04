@@ -72,13 +72,6 @@ Aspose Page XPS — это Java‑API, позволяющее программ
 ### [Добавить вертикальный градиент в Java XPS](./vertical/)
 Узнайте, как добавить вертикальный градиент в Java‑XPS‑документы с помощью Aspose.Page. Легко улучшайте визуальную привлекательность. Пошаговое руководство внутри.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **В: Могу ли я использовать эти техники градиентов в коммерческом проекте?**  
@@ -101,3 +94,10 @@ Aspose Page XPS — это Java‑API, позволяющее программ
 **Последнее обновление:** 2025-12-25  
 **Тестировано с:** Aspose.Page for Java (latest version)  
 **Автор:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

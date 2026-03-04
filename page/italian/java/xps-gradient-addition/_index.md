@@ -72,13 +72,6 @@ Scopri come aggiungere un impressionante gradiente orizzontale ai documenti XPS 
 ### [Aggiungi Gradiente Verticale in Java XPS](./vertical/)
 Scopri come aggiungere un gradiente verticale ai documenti Java XPS con Aspose.Page. Migliora l'appeal visivo senza sforzo. Guida passo‑per‑passo all'interno.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Domande Frequenti
 
 **D: Posso usare queste tecniche di gradiente in un progetto commerciale?**  
@@ -101,3 +94,10 @@ R: I gradienti sono basati su vettori, quindi aggiungono una dimensione minima a
 **Ultimo Aggiornamento:** 2025-12-25  
 **Testato Con:** Aspose.Page for Java (latest version)  
 **Autore:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

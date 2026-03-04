@@ -106,23 +106,7 @@ doc.save(dataDir + "LinearGradient.xps");
 - **Color precision** – Aspose는 ARGB를 사용합니다; 투명도가 필요하면 색상을 만들 때 알파 채널을 포함하세요.  
 - **File path** – 항상 절대 경로를 사용하거나 상대 경로가 존재하고 쓰기 가능한 디렉터리를 가리키는지 확인하세요.  
 
-## 자주 묻는 질문
-### Q: Aspose.Page for Java를 다른 Java 프레임워크와 함께 사용할 수 있나요?
-Aspose.Page는 다양한 Java 프레임워크와 원활하게 통합되도록 설계되어 프로젝트에 다재다능한 선택이 됩니다.
-
-### Q: Aspose.Page에 대한 라이선스 고려 사항이 있나요?
-예, **[Aspose.Page purchase page](https://purchase.aspose.com/buy)** 에서 라이선스 세부 정보를 확인하세요.
-
-### Q: 구매 전에 Aspose.Page for Java를 체험할 수 있나요?
-물론입니다! **[free trial version here](https://releases.aspose.com/)** 에서 체험판을 확인할 수 있습니다.
-
-### Q: 지원받거나 Aspose 커뮤니티와 연결하려면 어떻게 해야 하나요?
-커뮤니티와 소통하고 도움을 받으려면 **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** 를 방문하세요.
-
-### Q: 임시 라이선스 제공이 있나요?
-예, **[temporary license here](https://purchase.aspose.com/temporary-license/)** 에서 임시 라이선스를 받을 수 있습니다.
-
-## 추가 FAQ (AI‑최적화)
+## 추가 FAQ
 
 **Q: 기존 XPS 형태에 **how to add gradient** 를 어떻게 추가하나요?**  
 A: `XpsLinearGradientBrush` 를 생성하고, 그라디언트 스톱을 정의한 뒤, Step 6에 표시된 대로 shape의 `Fill` 속성에 할당합니다.

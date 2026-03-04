@@ -72,13 +72,6 @@ Tanulja meg, hogyan adhat hozzá lenyűgöző vízszintes színátmenetet XPS do
 ### [Add Vertical Gradient in Java XPS](./vertical/)
 Tanulja meg, hogyan adhat hozzá függőleges színátmenetet Java XPS dokumentumaihoz az Aspose.Page segítségével. Növelje a vizuális vonzerőt könnyedén. Részletes lépés‑ről‑lépésre útmutató a belső.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom ezeket a színátmenet technikákat kereskedelmi projektben?**  
@@ -101,3 +94,10 @@ A: A színátmenetek vektor‑alapúak, így csak minimális fájlméret‑növe
 **Tesztelve:** Aspose.Page for Java (legújabb verzió)  
 **Szerző:** Aspose  
 **Utolsó frissítés:** 2025-12-25
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -72,13 +72,6 @@ Leer hoe u een verbluffende horizontale gradient aan XPS‑documenten in Java ku
 ### [Verticale Gradient Toevoegen in Java XPS](./vertical/)
 Leer hoe u een verticale gradient aan Java XPS‑documenten kunt toevoegen met Aspose.Page. Verhoog de visuele aantrekkingskracht moeiteloos. Stap‑voor‑stap‑gids binnen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde Vragen
 
 **Q: Kan ik deze gradient‑technieken gebruiken in een commercieel project?**  
@@ -101,3 +94,10 @@ A: Gradients zijn vector‑gebaseerd, dus ze voegen minimale bestandsgrootte toe
 **Laatst bijgewerkt:** 2025-12-25  
 **Getest met:** Aspose.Page for Java (latest version)  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

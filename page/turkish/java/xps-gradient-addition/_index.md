@@ -72,13 +72,6 @@ Aspose.Page kullanarak Java’da XPS belgelerinize çarpıcı bir yatay degrade 
 ### [Add Vertical Gradient in Java XPS](./vertical/)
 Aspose.Page ile Java XPS belgelerinize dikey bir degrade eklemeyi öğrenin. Görsel çekiciliği zahmetsizce artırın. İçeride adım‑adım rehber bulacaksınız.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Sıkça Sorulan Sorular
 
 **S: Bu degrade tekniklerini ticari bir projede kullanabilir miyim?**  
@@ -101,3 +94,10 @@ C: Degradeler vektör tabanlıdır, bu yüzden dosya boyutuna minimal ek yapar v
 **Son Güncelleme:** 2025-12-25  
 **Test Edilen Versiyon:** Aspose.Page for Java (en son sürüm)  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -107,24 +107,7 @@ doc.save(dataDir + "LinearGradient.xps");
 - **色の精度** – Aspose は ARGB を使用します。透明度が必要な場合は、色を作成する際にアルファチャンネルを含めてください。  
 - **ファイルパス** – 常に絶対パスを使用するか、相対パスが書き込み可能な既存ディレクトリを指していることを確認してください。  
 
-## よくある質問
-
-### Q: Aspose.Page for Java を他の Java フレームワークと併用できますか？
-Aspose.Page はさまざまな Java フレームワークとシームレスに統合できるよう設計されており、プロジェクトで柔軟に利用できます。
-
-### Q: Aspose.Page のライセンスに関する考慮事項はありますか？
-はい、**[Aspose.Page 購入ページ](https://purchase.aspose.com/buy)** のライセンス詳細をご確認ください。
-
-### Q: 購入前に Aspose.Page for Java を試すことはできますか？
-もちろんです！**[こちらの無料トライアル版](https://releases.aspose.com/)** でお試しいただけます。
-
-### Q: サポートを受けるか、Aspose コミュニティとつながるにはどうすればよいですか？
-**[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)** でコミュニティと交流し、支援を受けることができます。
-
-### Q: 一時ライセンスの提供はありますか？
-はい、**[こちらの一時ライセンス](https://purchase.aspose.com/temporary-license/)** で取得可能です。
-
-## 追加 FAQ（AI 最適化）
+## 追加 FAQ
 
 **Q: 既存の XPS シェイプに **グラデーションを追加する方法** は？**  
 A: `XpsLinearGradientBrush` を作成し、グラデーション ストップを定義して、シェイプの `Fill` プロパティに割り当てます（ステップ 6 を参照）。

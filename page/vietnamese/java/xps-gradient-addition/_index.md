@@ -72,13 +72,6 @@ Tìm hiểu cách thêm một gradient ngang ấn tượng vào tài liệu XPS 
 ### [Thêm Gradient Dọc trong Java XPS](./vertical/)
 Tìm hiểu cách thêm một gradient dọc vào tài liệu XPS Java với Aspose.Page. Nâng cao sức hấp dẫn hình ảnh một cách dễ dàng. Hướng dẫn chi tiết bên trong.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu hỏi thường gặp
 
 **Q: Tôi có thể sử dụng các kỹ thuật gradient này trong dự án thương mại không?**  
@@ -101,3 +94,10 @@ A: Gradient dựa trên vector, vì vậy chúng chỉ làm tăng kích thước
 **Last Updated:** 2025-12-25  
 **Tested With:** Aspose.Page cho Java (phiên bản mới nhất)  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

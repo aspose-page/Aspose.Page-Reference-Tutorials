@@ -72,13 +72,6 @@ Dowiedz się, jak dodać oszałamiający gradient poziomy do dokumentów XPS w J
 ### [Dodaj gradient pionowy w Java XPS](./vertical/)
 Dowiedz się, jak dodać gradient pionowy do dokumentów Java XPS przy użyciu Aspose.Page. Zwiększ atrakcyjność wizualną bez wysiłku. Przewodnik krok po kroku w środku.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Najczęściej zadawane pytania
 
 **Q: Czy mogę używać tych technik gradientowych w projekcie komercyjnym?**  
@@ -101,3 +94,10 @@ A: Gradienty są wektorowe, więc dodają minimalny rozmiar pliku i renderują s
 **Ostatnia aktualizacja:** 2025-12-25  
 **Testowano z:** Aspose.Page for Java (latest version)  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

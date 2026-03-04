@@ -106,24 +106,7 @@ doc.save(dataDir + "LinearGradient.xps");
 - **顏色精度** – Aspose 使用 ARGB；若需要透明度，建立顏色時請包含 alpha 通道。  
 - **檔案路徑** – 建議使用絕對路徑，或確認相對路徑指向可寫入的目錄。
 
-## 常見問題
-
-### Q: 我可以將 Aspose.Page for Java 與其他 Java 框架一起使用嗎？
-Aspose.Page 設計上可無縫整合各種 Java 框架，是您專案的多功能選擇。
-
-### Q: Aspose.Page 有哪些授權考量？
-是的，請務必查閱 **[Aspose.Page purchase page](https://purchase.aspose.com/buy)** 上的授權細節。
-
-### Q: 我可以在購買前試用 Aspose.Page for Java 嗎？
-當然可以！您可於 **[free trial version here](https://releases.aspose.com/)** 取得試用版。
-
-### Q: 我如何取得支援或與 Aspose 社群聯繫？
-請造訪 **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** 與社群互動並尋求協助。
-
-### Q: 是否提供臨時授權？
-是的，您可於 **[temporary license here](https://purchase.aspose.com/temporary-license/)** 取得臨時授權。
-
-## 其他常見問題 (AI 優化)
+## 其他常見問題
 
 **Q: 我該如何 **how to add gradient** 到現有的 XPS 形狀？**  
 A: 建立 `XpsLinearGradientBrush`，定義漸層停止點，並將其指派給形狀的 `Fill` 屬性，如 Step 6 所示。

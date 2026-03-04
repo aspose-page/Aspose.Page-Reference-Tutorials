@@ -72,13 +72,6 @@ weight: 26
 ### [Προσθήκη Κατακόρυφου Gradient σε Java XPS](./vertical/)
 Μάθετε πώς να προσθέσετε ένα κατακόρυφο gradient σε Java XPS έγγραφα με το Aspose.Page. Ενισχύστε την οπτική έλξη χωρίς κόπο. Οδηγός βήμα‑βήμα μέσα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Ε: Μπορώ να χρησιμοποιήσω αυτές τις τεχνικές gradient σε εμπορικό έργο;**  
@@ -101,3 +94,10 @@ weight: 26
 **Τελευταία ενημέρωση:** 2025-12-25  
 **Δοκιμή με:** Aspose.Page for Java (τελευταία έκδοση)  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
