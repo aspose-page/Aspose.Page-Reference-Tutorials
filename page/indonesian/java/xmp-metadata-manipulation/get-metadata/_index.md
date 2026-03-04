@@ -134,15 +134,15 @@ A: Anda dapat mengambil data biner dari properti `xmpGImg:data` setiap entri thu
 ## Kesimpulan
 Anda kini telah menguasai **cara membaca XMP** metadata menggunakan Java dan Aspose.Page. Dengan mengikuti langkah‑langkah ini Anda dapat mengekstrak alat pembuat, cap waktu, thumbnail, informasi format, dan ID dokumen—memberikan wawasan penuh tentang metadata yang disematkan di file EPS Anda. Jangan ragu untuk bereksperimen dengan namespace XMP tambahan untuk menarik data yang lebih kaya bagi aplikasi Anda.
 
+---
+
+**Terakhir Diperbarui:** 2025-12-21  
+**Diuji Dengan:** Aspose.Page for Java 24.12 (latest)  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-21  
-**Diuji Dengan:** Aspose.Page for Java 24.12 (latest)  
-**Penulis:** Aspose

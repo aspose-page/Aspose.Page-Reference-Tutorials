@@ -132,15 +132,15 @@ A: Bạn có thể lấy dữ liệu nhị phân từ thuộc tính `xmpGImg:dat
 ## Kết luận
 Bạn đã nắm vững **cách đọc XMP** siêu dữ liệu bằng Java và Aspose.Page. Bằng cách thực hiện các bước này, bạn có thể trích xuất công cụ tạo, thời gian, thumbnail, thông tin định dạng và ID tài liệu—cung cấp cho bạn cái nhìn toàn diện về siêu dữ liệu nhúng trong các tệp EPS của mình. Hãy tự do thử nghiệm các không gian tên XMP khác để lấy thêm dữ liệu phong phú cho ứng dụng của bạn.
 
+---
+
+**Cập nhật lần cuối:** 2025-12-21  
+**Đã kiểm tra với:** Aspose.Page for Java 24.12 (latest)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-21  
-**Đã kiểm tra với:** Aspose.Page for Java 24.12 (latest)  
-**Tác giả:** Aspose

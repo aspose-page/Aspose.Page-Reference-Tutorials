@@ -133,15 +133,15 @@ A: 각 썸네일 항목의 `xmpGImg:data` 속성에서 바이너리 데이터를
 ## 결론
 이제 Java와 Aspose.Page를 사용하여 **XMP를 읽는 방법**을 마스터했습니다. 이 단계들을 따라 하면 작성자 도구, 타임스탬프, 썸네일, 포맷 정보 및 문서 ID를 추출할 수 있어 EPS 파일에 포함된 메타데이터를 완전히 파악할 수 있습니다. 추가 XMP 네임스페이스를 실험하여 애플리케이션에 더 풍부한 데이터를 가져오세요.
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose

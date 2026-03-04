@@ -131,15 +131,15 @@ Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.
 ### Tôi có thể mua Aspose.Page for Java ở đâu?
 Để mua Aspose.Page for Java, hãy truy cập [trang mua hàng](https://purchase.aspose.com/buy).
 
+---
+
+**Cập nhật lần cuối:** 2025-12-21  
+**Đã kiểm tra với:** Aspose.Page for Java (bản phát hành mới nhất)  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-21  
-**Đã kiểm tra với:** Aspose.Page for Java (bản phát hành mới nhất)  
-**Tác giả:** Aspose

@@ -131,15 +131,15 @@ Puede adquirir una licencia temporal [aquí](https://purchase.aspose.com/tempora
 ### ¿Dónde puedo comprar Aspose.Page for Java?
 Para comprar Aspose.Page for Java, visite la [página de compra](https://purchase.aspose.com/buy).
 
+---
+
+**Última actualización:** 2025-12-21  
+**Probado con:** Aspose.Page for Java (última versión)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-21  
-**Probado con:** Aspose.Page for Java (última versión)  
-**Autor:** Aspose

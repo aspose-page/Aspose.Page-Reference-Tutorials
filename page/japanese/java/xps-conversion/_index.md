@@ -16,7 +16,7 @@ weight: 22
 
 ## はじめに
 
-If you need to **java convert xps files** quickly and reliably, the Aspose.Page XPS conversion library is built exactly for that purpose. In this guide you’ll discover how to transform XPS documents into BMP, JPEG, PDF, PNG, or TIFF formats using straightforward Java code. Whether you’re building a batch‑processing service or adding one‑off conversion to an existing application, the steps below will get you up and running in minutes.
+**JavaでXPSファイルを変換** 迅速かつ確実に行う必要がある場合、Aspose.Page XPS変換ライブラリはまさにその目的のために開発されました。このガイドでは、分かりやすいJavaコードを使ってXPSドキュメントをBMP、JPEG、PDF、PNG、またはTIFF形式に変換する方法を説明します。バッチ処理サービスを構築する場合でも、既存のアプリケーションに単発の変換機能を追加する場合でも、以下の手順に従えば数分で作業を開始できます。
 
 ## クイック回答
 - **Aspose.Page XPS 変換は何をしますか？** XPS ファイルを Java から直接、一般的なラスタおよびベクタ形式に変換します。  

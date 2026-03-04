@@ -131,15 +131,15 @@ Ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-licens
 ### Hol vásárolhatom meg az Aspose.Page for Java-t?
 Az Aspose.Page for Java megvásárlásához látogassa meg a [vásárlási oldalt](https://purchase.aspose.com/buy).
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java (latest release)  
-**Author:** Aspose

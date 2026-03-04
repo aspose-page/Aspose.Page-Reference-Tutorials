@@ -129,15 +129,15 @@ Je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/te
 ### Waar kan ik Aspose.Page for Java kopen?
 Om Aspose.Page for Java te kopen, bezoek de [aankooppagina](https://purchase.aspose.com/buy).
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java (latest release)  
-**Author:** Aspose

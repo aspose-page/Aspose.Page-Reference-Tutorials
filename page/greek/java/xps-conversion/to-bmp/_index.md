@@ -14,44 +14,44 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convert XPS to BMP in Java
+# Μετατροπή XPS σε BMP σε Java
 
-## Introduction
-Καλώς ήρθατε σε αυτόν τον οδηγό βήμα‑βήμα σχετικά με **πώς να ορίσετε την ανάλυση** κατά τη μετατροπή αρχείων XPS (XML Paper Specification) σε μορφή BMP (Bitmap) σε Java χρησιμοποιώντας το Aspose.Page. Το Aspose.Page for Java είναι μια ισχυρή βιβλιοθήκη που παρέχει ολοκληρωμένες δυνατότητες για εργασία με έγγραφα XPS. Σε αυτό το tutorial, θα σας καθοδηγήσουμε στη διαδικασία μετατροπής αρχείων XPS σε εικόνες BMP με ευκολία.
+## Εισαγωγή
+Καλώς ήρθατε σε αυτόν τον οδηγό βήμα‑βήμα σχετικά με **πώς να ορίσετε την ανάλυση** κατά τη μετατροπή αρχείων XPS (XML Paper Specification) σε μορφή BMP (Bitmap) σε Java χρησιμοποιώντας το Aspose.Page. Το Aspose.Page for Java είναι μια ισχυρή βιβλιοθήκη που παρέχει ολοκληρωμένες δυνατότητες για εργασίες με έγγραφα XPS. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία μετατροπής αρχείων XPS σε εικόνες BMP με ευκολία.
 
-## Quick Answers
-- **What library should I use?** Aspose.Page for Java provides the most complete XPS → BMP conversion features.  
-- **Can I control image quality?** Yes – use `BmpSaveOptions` to set the resolution and smoothing mode.  
-- **Do I need to convert specific pages only?** Absolutely, `options.setPageNumbers()` lets you pick exact pages.  
-- **Is this a true java image conversion?** The API renders XPS pages directly to bitmap data, so no intermediate formats are required.  
-- **What Java version is supported?** All modern Java versions (8 and above) are compatible.
+## Γρήγορες απαντήσεις
+- **Τι βιβλιοθήκη να χρησιμοποιήσω;** Το Aspose.Page για Java παρέχει τις πιο ολοκληρωμένες δυνατότητες μετατροπής XPS→BMP.
+- **Μπορώ να ελέγξω την ποιότητα της εικόνας;** Ναι – χρησιμοποιήστε το «BmpSaveOptions» για να ορίσετε την ανάλυση και τη λειτουργία εξομάλυνσης.
+- **Χρειάζεται να μετατρέψω μόνο συγκεκριμένες σελίδες;** Απολύτως, το `options.setPageNumbers()` σάς επιτρέπει να επιλέξετε ακριβείς σελίδες.
+- **Είναι μια πραγματική μετατροπή εικόνας java;** Το API αποδίδει σελίδες XPS απευθείας σε δεδομένα bitmap, επομένως δεν απαιτούνται ενδιάμεσες μορφές.
+- **Ποια έκδοση Java υποστηρίζεται;** Όλες οι σύγχρονες εκδόσεις Java (8 και άνω) είναι συμβατές.
 
-## What is the purpose of setting resolution?
-Η ανάλυση καθορίζει τον αριθμό των κουκκίδων ανά ίντσα (DPI) στην παραγόμενη εικόνα BMP. Μια υψηλότερη τιμή DPI προσφέρει πιο οξείες εικόνες, κάτι που είναι απαραίτητο για εκτύπωση ή λεπτομερή γραφική εργασία. Η ρύθμιση της ανάλυσης σας δίνει πλήρη έλεγχο στην ποιότητα εξόδου της **java convert xps** ροής εργασίας.
+## Ποιος είναι ο σκοπός της ρύθμισης της ανάλυσης;
+Η ανάλυση καθορίζει τον αριθμό των κουκίδων ανά ίντσα (DPI) στην παραγόμενη εικόνα BMP. Μια υψηλότερη τιμή DPI προσφέρει πιο οξείες εικόνες, κάτι που είναι απαραίτητο για εκτύπωση ή λεπτομερή γραφική εργασία. Η ρύθμιση της ανάλυσης σας δίνει πλήρη έλεγχο στην ποιότητα της εξόδου της **java convert xps** ροής εργασίας.
 
-## Why use Aspose.Page for XPS → BMP conversion?
-- **High fidelity** – retains vector quality of the original XPS.  
-- **Fine‑grained control** – you can set DPI, smoothing, and even select specific pages to convert.  
-- **No external dependencies** – pure Java, no native libraries required.  
-- **Scalable** – works for single‑page documents as well as large multi‑page XPS files.
+## Γιατί να χρησιμοποιήσετε το Aspose.Page για μετατροπή XPS→BMP;
+- **Υψηλή πιστότητα** – διατηρεί τη διανυσματική ποιότητα του αρχικού XPS.
+- **Λικτός έλεγχος** – μπορείτε να ορίσετε DPI, εξομάλυνση, ακόμη και να επιλέξετε συγκεκριμένες σελίδες για μετατροπή.
+- **Δεν υπάρχουν εξωτερικές εξαρτήσεις** - καθαρή Java, δεν απαιτούνται εγγενείς βιβλιοθήκες.
+- **Κλιμακόμενο** – λειτουργεί για έγγραφα μιας σελίδας καθώς και για μεγάλα αρχεία XPS πολλών σελίδων.
 
-## Prerequisites
+## Προαπαιτούμενα
 Πριν ξεκινήσετε τη διαδικασία μετατροπής, βεβαιωθείτε ότι διαθέτετε τα παρακάτω:
-- **Java Development Environment** – Java 8 or newer installed on your machine.  
-- **Aspose.Page for Java Library** – Download and include the Aspose.Page for Java library in your project. You can find the library [here](https://releases.aspose.com/page/java/).  
-- **Sample XPS File** – Prepare a sample XPS document that you want to convert to BMP.
+- **Περιβάλλον Ανάπτυξης Java** – Java 8 ή νεότερη εγκατεστημένη στον υπολογιστή σας.
+- **Aspose.Page για Java Library** – Κάντε λήψη και συμπεριλάβετε τη βιβλιοθήκη Aspose.Page για Java στο έργο σας. Μπορείτε να βρείτε τη βιβλιοθήκη [εδώ](https://releases.aspose.com/page/java/).
+- **Δείγμα αρχείου XPS** – Προετοιμάστε ένα δείγμα εγγράφου XPS που θέλετε να μετατρέψετε σε BMP.
 
-## Import Packages
-Include the necessary Aspose.Page packages in your Java code:
+## Εισαγωγή πακέτων
+Συμπεριλάβετε τα απαραίτητα πακέτα Aspose.Page στον κώδικα Java σας:
 ```java
 import com.aspose.xps.XpsDocument;
 import java.io.FileOutputStream;
 ```
 
-## How to Set Resolution for XPS to BMP Conversion
-Below is a concise, numbered walkthrough that shows exactly where and how to set the resolution, as well as how to **convert specific pages**.
+## Πώς να ορίσετε την ανάλυση για τη μετατροπή από XPS σε BMP
+Παρακάτω είναι μια συνοπτική, αριθμημένη επεξήγηση που δείχνει ακριβώς πού και πώς να ορίσετε την ανάλυση, καθώς και πώς να **μετατρέψετε συγκεκριμένες σελίδες**.
 
-### Step 1: Load XPS Document
+### Βήμα 1: Φόρτωση εγγράφου XPS
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -59,7 +59,7 @@ String dataDir = "Your Document Directory";
 XpsDocument document = new XpsDocument(dataDir + "input.xps");
 ```
 
-### Step 2: Initialize Options (Resolution & Page Selection)
+### Βήμα 2: Αρχικοποίηση επιλογών (ανάλυση και επιλογή σελίδας)
 ```java
 // Initialize options object with necessary parameters.
 BmpSaveOptions options = new BmpSaveOptions();
@@ -72,19 +72,19 @@ options.setResolution(300);               // 300 DPI for high‑quality output
 options.setPageNumbers(new int[]{1, 2, 6});
 ```
 
-### Step 3: Create Rendering Device
+### Βήμα 3: Δημιουργία συσκευής απόδοσης
 ```java
 // Create rendering device for BMP format
 ImageDevice device = new ImageDevice();
 ```
 
-### Step 4: Save Document Using Options
+### Βήμα 4: Αποθήκευση εγγράφου χρησιμοποιώντας τις επιλογές
 ```java
 // Save XPS document to BMP using options and device
 document.save(device, options);
 ```
 
-### Step 5: Iterate Through Rendered Images and Write Files
+### Βήμα 5: Επανάληψη μέσω εικόνων απόδοσης και εγγραφή αρχείων
 ```java
 // Iterate through document partitions
 for (int i = 0; i < device.getResult().length; i++) {
@@ -99,37 +99,36 @@ for (int i = 0; i < device.getResult().length; i++) {
 }
 ```
 
-Repeat these steps for any additional customization or modification you may need in the conversion process.
+Επαναλάβετε αυτά τα βήματα για οποιαδήποτε πρόσθετη προσαρμογή ή τροποποίηση που μπορεί να χρειαστείτε στη διαδικασία μετατροπής.
 
-## Common Issues and Solutions
-| Issue | Solution |
+## Συνήθη προβλήματα και λύσεις
+| Πρόβλημα | Λύση |
 |-------|----------|
-| **Low‑quality BMP output** | Verify `options.setResolution()` is set to a value ≥ 300 DPI. |
-| **Only part of the document is converted** | Ensure `options.setPageNumbers()` includes all desired page indices. |
-| **OutOfMemoryError on large XPS files** | Process the document in smaller partitions or increase JVM heap size (`-Xmx`). |
-| **File not found** | Double‑check the `dataDir` path and that the input XPS file exists. |
+| **Έξοδος BMP χαμηλής ποιότητας** | Επαληθεύστε ότι το `options.setResolution()` έχει οριστεί σε τιμή ≥300 DPI. |
+| **Μόνο ένα μέρος του εγγράφου μετατρέπεται** | Βεβαιωθείτε ότι το `options.setPageNumbers()` περιλαμβάνει όλους τους επιθυμητούς δείκτες σελίδων. |
+| **OutOfMemoryError σε μεγάλα αρχεία XPS** | Επεξεργαστείτε το έγγραφο σε μικρότερα διαμερίσματα ή αυξήστε το μέγεθος σωρού JVM (`-Xmx`). |
+| **Δεν βρέθηκε αρχείο** | Ελέγξτε ξανά τη διαδρομή `dataDir` και ότι το αρχείο εισόδου XPS υπάρχει. |
 
-## Frequently Asked Questions
-### Q: Can I customize the resolution of the BMP images?
-A: Yes, you can adjust the resolution by modifying the `options.setResolution()` parameter in the code.
+## Συνήθεις ερωτήσεις
+### Ε: Μπορώ να προσαρμόσω την ανάλυση των εικόνων BMP; Α: Ναι, μπορείτε να προσαρμόσετε την ανάλυση τροποποιώντας την παράμετρο `options.setResolution()` στον κώδικα.
 
-### Q: Is Aspose.Page compatible with different Java versions?
-A: Yes, Aspose.Page supports a wide range of Java versions. Ensure you have a compatible version installed.
+### Ε: Είναι το Aspose.Page συμβατό με διαφορετικές εκδόσεις Java;
+Α: Ναι, το Aspose.Page υποστηρίζει ένα ευρύ φάσμα εκδόσεων Java. Βεβαιωθείτε ότι έχετε εγκαταστήσει μια συμβατή έκδοση.
 
-### Q: How can I convert XPS files from a specific page range?
-A: Use the `options.setPageNumbers()` method to specify the page numbers you want to convert.
+### Ε: Πώς μπορώ να μετατρέψω αρχεία XPS από ένα συγκεκριμένο εύρος σελίδων;
+Α: Χρησιμοποιήστε τη μέθοδο `options.setPageNumbers()` για να καθορίσετε τους αριθμούς σελίδων που θέλετε να μετατρέψετε.
 
-### Q: Are there other output formats supported by Aspose.Page?
-A: Yes, Aspose.Page supports various output formats. Refer to the documentation for a comprehensive list.
+### Ε: Υπάρχουν άλλες μορφές εξόδου που υποστηρίζονται από το Aspose.Page;
+Α: Ναι, το Aspose.Page υποστηρίζει διάφορες μορφές εξόδου. Ανατρέξτε στην τεκμηρίωση για μια ολοκληρωμένη λίστα.
 
-### Q: Where can I find additional help or support?
-A: Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) for community support and discussions.
+### Ε: Πού μπορώ να βρω επιπλέον βοήθεια ή υποστήριξη;
+Α: Επισκεφθείτε το [Φόρουμ Aspose.Page](https://forum.aspose.com/c/page/39) για υποστήριξη και συζητήσεις της κοινότητας.
 
 ---
 
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java 24.12  
-**Author:** Aspose  
+**Τελευταία ενημέρωση:** 2025-12-21
+**Δοκιμάστηκε με:** Aspose.Page για Java 24.12
+**Συγγραφέας:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

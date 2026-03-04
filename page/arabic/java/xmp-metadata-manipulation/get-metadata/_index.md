@@ -133,15 +133,15 @@ if (xmp.containsKey("xmpMM:DocumentID"))
 ## الخلاصة
 لقد أتقنت الآن **كيفية قراءة XMP** باستخدام Java و Aspose.Page. باتباع هذه الخطوات يمكنك استخراج أدوات الإنشاء، الطوابع الزمنية، الصور المصغرة، معلومات التنسيق، ومعرفات المستند — مما يمنحك رؤية كاملة للبيانات الوصفية المضمّنة في ملفات EPS الخاصة بك. لا تتردد في تجربة مساحات اسمية XMP إضافية لاستخراج بيانات أغنى لتطبيقاتك.
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose

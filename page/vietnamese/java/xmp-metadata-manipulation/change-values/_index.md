@@ -141,15 +141,15 @@ Chúc mừng! Bạn đã thành công thực hiện **aspose.page modify xmp** c
 
 ---
 
+**Cập nhật lần cuối:** 2025-12-21  
+**Đã kiểm tra với:** Aspose.Page cho Java (phiên bản mới nhất)  
+**Tác giả:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Cập nhật lần cuối:** 2025-12-21  
-**Đã kiểm tra với:** Aspose.Page cho Java (phiên bản mới nhất)  
-**Tác giả:** Aspose  
-
----

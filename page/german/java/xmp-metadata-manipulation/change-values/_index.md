@@ -141,13 +141,13 @@ Herzlichen Glückwunsch! Sie haben erfolgreich **aspose.page modify xmp**‑Wert
 
 ---
 
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java (latest release)  
-**Author:** Aspose

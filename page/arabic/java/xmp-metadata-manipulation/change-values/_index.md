@@ -141,15 +141,15 @@ try {
 
 ---
 
+**آخر تحديث:** 2025-12-21  
+**تم الاختبار مع:** Aspose.Page للغة Java (أحدث إصدار)  
+**المؤلف:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**آخر تحديث:** 2025-12-21  
-**تم الاختبار مع:** Aspose.Page للغة Java (أحدث إصدار)  
-**المؤلف:** Aspose  
-
----

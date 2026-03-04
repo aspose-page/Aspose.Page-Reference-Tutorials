@@ -141,13 +141,13 @@ Tebrikler! Aspose.Page for Java kullanarak EPS belgelerinde **aspose.page modify
 
 ---
 
+**Son Güncelleme:** 2025-12-21  
+**Test Edilen:** Aspose.Page for Java (latest release)  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Son Güncelleme:** 2025-12-21  
-**Test Edilen:** Aspose.Page for Java (latest release)  
-**Yazar:** Aspose

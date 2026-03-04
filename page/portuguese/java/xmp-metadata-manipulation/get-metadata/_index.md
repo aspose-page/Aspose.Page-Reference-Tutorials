@@ -133,15 +133,15 @@ A: Você pode recuperar os dados binários da propriedade `xmpGImg:data` de cada
 ## Conclusão
 Você agora domina **como ler XMP** metadados usando Java e Aspose.Page. Seguindo estas etapas, pode extrair ferramentas do criador, timestamps, miniaturas, informações de formato e IDs de documento — proporcionando total visibilidade dos metadados incorporados em seus arquivos EPS. Sinta‑se à vontade para experimentar namespaces XMP adicionais e obter dados ainda mais ricos para suas aplicações.
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose

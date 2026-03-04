@@ -14,51 +14,51 @@ weight: 22
 
 # Aspose Page XPS 转换
 
-## Introduction
+## 简介
 
 如果您需要 **java convert xps files** 快速且可靠地进行转换，Aspose.Page XPS 转换库正是为此而生。在本指南中，您将了解如何使用简洁的 Java 代码将 XPS 文档转换为 BMP、JPEG、PDF、PNG 或 TIFF 格式。无论是构建批量处理服务，还是在现有应用中添加一次性转换，下面的步骤都能让您在几分钟内完成部署。
 
-## Quick Answers
+## 快速解答
 - **Aspose.Page XPS 转换的作用是什么？** 它可以直接在 Java 中将 XPS 文件转换为流行的光栅和矢量格式。  
 - **支持哪些输出格式？** BMP、JPEG、PDF、PNG 和 TIFF。  
 - **生产环境需要许可证吗？** 是的——商业许可证可去除评估限制。  
 - **最低要求是什么？** Java 8+ 与 Aspose.Page for Java JAR。  
 - **API 是否线程安全？** 是的，可安全用于多线程环境。
 
-## What is Aspose Page XPS Conversion?
+## 什么是 Aspose Page XPS 转换？
 Aspose.Page XPS 转换是一组 API，能够读取 XPS 文档、渲染每一页，并将结果写入所选的图像或文档格式。整个过程在内存中完全管理，无需任何外部工具或本地依赖。
 
-## Why use Aspose Page XPS Conversion in Java?
+## 为什么要在 Java 中使用 Aspose Page XPS 转换？
 - **高保真** – 将 XPS 转换为 PDF 或 PNG 时保留矢量信息。  
 - **性能优化** – 即使是大型文档，批量转换也能快速完成。  
 - **简洁 API** – 只需几行代码即可获得高质量输出。  
 - **跨平台** – 在 Windows、Linux 和 macOS 上均可运行，无需额外安装。
 
-## Convert XPS to BMP in Java
+## 在 Java 中将 XPS 转换为 BMP
 
 使用 Aspose.Page for Java 轻松将 XPS 转换为 BMP。该格式在需要未压缩位图图像的旧系统中尤为理想。
 
 了解如何轻松将 XPS 转换为 BMP 的完整教程，请点击[这里](./to-bmp/)。
 
-## Convert XPS to JPEG in Java
+## 在 Java 中将 XPS 转换为 JPEG
 
 使用 Aspose.Page 在 Java 中释放 XPS 到 JPEG 转换的潜力。JPEG 适用于对文件大小有要求的网页友好图像。
 
 完整指南提供了逐步说明，帮助您无缝集成并高效完成转换，请访问[这里](./to-jpeg/)。
 
-## Convert XPS to PDF in Java
+## 在 Java 中将 XPS 转换为 PDF
 
 使用 Aspose.Page 在 Java 中实现无缝的 XPS 到 PDF 转换。PDF 保留矢量质量，且在各平台上得到广泛支持。
 
 按照我们的分步指南进行高效精准的文档处理，请点击[这里](./to-pdf/)。
 
-## Convert XPS to PNG in Java
+## 在 Java 中将 XPS 转换为 PNG
 
 当您需要无损且支持透明度的图像时，可将 XPS 转换为 PNG。
 
 使用 Aspose.Page 在 Java 中轻松完成 XPS 到 PNG 的转换。我们的开发者友好方案简化了文档任务，提供可靠且易用的体验，了解更多请前往[这里](./to-png/)。
 
-## Convert XPS to TIFF in Java
+## 在 Java 中将 XPS 转换为 TIFF
 
 TIFF 常用于高分辨率打印工作流或归档存储。
 
@@ -66,7 +66,7 @@ TIFF 常用于高分辨率打印工作流或归档存储。
 
 探索 Aspose.Page for Java 教程的世界，提升您的文档转换技能。XPS 文件的转换从未如此简单——立即解锁其潜力！
 
-## Conversion - XPS Tutorials
+## XPS 转换教程
 ### [Convert XPS to BMP in Java](./to-bmp/)
 了解如何使用 Aspose.Page 在 Java 中将 XPS 转换为 BMP。遵循我们的简易指南，实现高效且高质量的文档转换。
 
@@ -82,7 +82,7 @@ TIFF 常用于高分辨率打印工作流或归档存储。
 ### [Convert XSP to TIFF in Java](./to-tiff/)
 使用 Aspose.Page for Java 轻松将 XPS 转换为 TIFF。遵循我们的分步指南，实现无缝集成。立即下载！
 
-## Frequently Asked Questions
+## 常见问题解答
 
 **Q: 我可以在商业应用中使用 Aspose.Page XPS 转换吗？**  
 A: 可以。购买商业许可证即可去除评估限制并获得完整支持。

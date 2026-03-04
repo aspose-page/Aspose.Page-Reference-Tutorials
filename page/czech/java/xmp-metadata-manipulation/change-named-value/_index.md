@@ -132,15 +132,15 @@ Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-l
 ### Kde mohu zakoupit Aspose.Page for Java?
 Pro nákup Aspose.Page for Java navštivte [stránku nákupu](https://purchase.aspose.com/buy).
 
+---
+
+**Poslední aktualizace:** 2025-12-21  
+**Testováno s:** Aspose.Page for Java (latest release)  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-21  
-**Testováno s:** Aspose.Page for Java (latest release)  
-**Autor:** Aspose

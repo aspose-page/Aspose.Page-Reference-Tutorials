@@ -132,15 +132,15 @@ if (xmp.containsKey("xmpMM:DocumentID"))
 ## 结论
 您已经掌握了使用 Java 和 Aspose.Page **读取 XMP** 元数据的全部步骤。通过这些操作，您可以提取创建工具、时间戳、缩略图、格式信息和文档 ID，从而全面了解 EPS 文件中嵌入的元数据。欢迎尝试更多 XMP 命名空间，以获取更丰富的数据来服务您的应用。
 
+---
+
+**最后更新：** 2025-12-21  
+**测试环境：** Aspose.Page for Java 24.12（最新）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-21  
-**测试环境：** Aspose.Page for Java 24.12（最新）  
-**作者：** Aspose

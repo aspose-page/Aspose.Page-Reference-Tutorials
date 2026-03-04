@@ -141,15 +141,15 @@ Selamat! Anda telah berhasil menyelesaikan proses **aspose.page modify xmp** nil
 
 ---
 
+**Terakhir Diperbarui:** 2025-12-21  
+**Diuji Dengan:** Aspose.Page for Java (latest release)  
+**Penulis:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Terakhir Diperbarui:** 2025-12-21  
-**Diuji Dengan:** Aspose.Page for Java (latest release)  
-**Penulis:** Aspose  
-
----

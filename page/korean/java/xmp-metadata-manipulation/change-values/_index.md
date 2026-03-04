@@ -133,13 +133,13 @@ A: 물론입니다—저장 후 문서를 닫기 전에 `xmp.get("dc:creator")`(
 
 ---
 
+**마지막 업데이트:** 2025-12-21  
+**테스트 환경:** Aspose.Page for Java (latest release)  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**마지막 업데이트:** 2025-12-21  
-**테스트 환경:** Aspose.Page for Java (latest release)  
-**작성자:** Aspose

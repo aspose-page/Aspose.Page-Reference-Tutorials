@@ -130,15 +130,15 @@ Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/te
 ### Di mana saya dapat membeli Aspose.Page untuk Java?
 Untuk membeli Aspose.Page untuk Java, kunjungi [halaman pembelian](https://purchase.aspose.com/buy).
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java (latest release)  
-**Author:** Aspose

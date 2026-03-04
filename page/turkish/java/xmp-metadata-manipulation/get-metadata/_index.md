@@ -134,15 +134,15 @@ C: Her küçük resim girişinin `xmpGImg:data` özelliğinden ikili veriyi alab
 ## Sonuç
 Artık Java ve Aspose.Page kullanarak **XMP'yi nasıl okuyacağınızı** ustaca biliyorsunuz. Bu adımları izleyerek oluşturucu araçları, zaman damgalarını, küçük resimleri, format bilgilerini ve belge kimliklerini çıkarabilir; EPS dosyalarınızda gömülü metaveriye tam bir bakış elde edebilirsiniz. Uygulamalarınız için daha zengin veri elde etmek amacıyla ek XMP namespace'leriyle denemeler yapmaktan çekinmeyin.
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose

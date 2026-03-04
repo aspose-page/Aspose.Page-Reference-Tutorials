@@ -140,15 +140,15 @@ try {
 
 ---
 
+**最后更新：** 2025-12-21  
+**测试环境：** Aspose.Page for Java（最新发布）  
+**作者：** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**最后更新：** 2025-12-21  
-**测试环境：** Aspose.Page for Java（最新发布）  
-**作者：** Aspose  
-
----

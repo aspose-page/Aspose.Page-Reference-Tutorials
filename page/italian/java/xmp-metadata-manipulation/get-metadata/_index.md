@@ -134,15 +134,15 @@ Esplorate la completa [documentazione](https://reference.aspose.com/page/java/) 
 ## Conclusione
 Ora avete padroneggiato **come leggere i metadati XMP** usando Java e Aspose.Page. Seguendo questi passaggi potete estrarre gli strumenti del creatore, i timestamp, le miniature, le informazioni sul formato e gli ID dei documenti—ottenendo una visione completa dei metadati incorporati nei vostri file EPS. Sentitevi liberi di sperimentare con namespace XMP aggiuntivi per estrarre dati ancora più ricchi per le vostre applicazioni.
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose

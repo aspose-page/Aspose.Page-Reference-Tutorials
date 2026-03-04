@@ -141,15 +141,15 @@ A: 當然可以——在儲存且關閉文件前，直接呼叫 `xmp.get("dc:cre
 
 ---
 
+**最後更新：** 2025-12-21  
+**測試環境：** Aspose.Page for Java（最新版本）  
+**作者：** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**最後更新：** 2025-12-21  
-**測試環境：** Aspose.Page for Java（最新版本）  
-**作者：** Aspose  
-
----

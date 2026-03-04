@@ -141,13 +141,13 @@ Gratulálunk! Sikeresen végigvitte a **aspose.page modify xmp** értékek módo
 
 ---
 
+**Utoljára frissítve:** 2025-12-21  
+**Tesztelve ezzel:** Aspose.Page for Java (legújabb kiadás)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Utoljára frissítve:** 2025-12-21  
-**Tesztelve ezzel:** Aspose.Page for Java (legújabb kiadás)  
-**Szerző:** Aspose

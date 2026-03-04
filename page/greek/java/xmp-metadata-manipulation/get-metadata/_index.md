@@ -134,15 +134,15 @@ if (xmp.containsKey("xmpMM:DocumentID"))
 ## Συμπέρασμα
 Τώρα έχετε κατακτήσει **πώς να διαβάσετε XMP** μεταδεδομένα χρησιμοποιώντας Java και Aspose.Page. Ακολουθώντας αυτά τα βήματα μπορείτε να εξάγετε εργαλεία δημιουργού, χρονικές σφραγίδες, μικρογραφίες, πληροφορίες μορφής και IDs εγγράφων—σας παρέχοντας πλήρη εικόνα των ενσωματωμένων μεταδεδομένων των αρχείων EPS σας. Μη διστάσετε να πειραματιστείτε με πρόσθετα namespaces XMP για να εξάγετε ακόμη πιο πλούσια δεδομένα για τις εφαρμογές σας.
 
+---
+
+**Τελευταία ενημέρωση:** 2025-12-21  
+**Δοκιμή με:** Aspose.Page for Java 24.12 (latest)  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία ενημέρωση:** 2025-12-21  
-**Δοκιμή με:** Aspose.Page for Java 24.12 (latest)  
-**Συγγραφέας:** Aspose

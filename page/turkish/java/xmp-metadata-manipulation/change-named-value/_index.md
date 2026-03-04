@@ -131,15 +131,15 @@ Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) e
 ### Aspose.Page for Java'yi nereden satın alabilirim?
 Aspose.Page for Java'yi satın almak için [satın alma sayfasını](https://purchase.aspose.com/buy) ziyaret edin.
 
+---
+
+**Last Updated:** 2025-12-21  
+**Tested With:** Aspose.Page for Java (latest release)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-21  
-**Tested With:** Aspose.Page for Java (latest release)  
-**Author:** Aspose

@@ -134,15 +134,15 @@ V: A `xmpGImg:data` tulajdonságból lekérheted a bináris adatot minden bélye
 ## Összegzés
 Most már elsajátítottad, **hogyan olvassunk XMP** metaadatot Java és az Aspose.Page segítségével. Ezekkel a lépésekkel ki tudod nyerni a szerzői eszközöket, időbélyegeket, bélyegképeket, formátuminformációkat és dokumentum‑azonosítókat – teljes betekintést nyújtva az EPS fájlokba ágyazott metaadatokba. Nyugodtan kísérletezz további XMP névterekkel, hogy még gazdagabb adatokat nyerj ki alkalmazásaid számára.
 
+---
+
+**Utolsó frissítés:** 2025-12-21  
+**Tesztelt verzió:** Aspose.Page for Java 24.12 (legújabb)  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2025-12-21  
-**Tesztelt verzió:** Aspose.Page for Java 24.12 (legújabb)  
-**Szerző:** Aspose

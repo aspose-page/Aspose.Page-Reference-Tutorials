@@ -141,15 +141,15 @@ Congratulazioni! Hai completato con successo la procedura di **aspose.page modif
 
 ---
 
+**Ultimo aggiornamento:** 2025-12-21  
+**Testato con:** Aspose.Page per Java (ultima release)  
+**Autore:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Ultimo aggiornamento:** 2025-12-21  
-**Testato con:** Aspose.Page per Java (ultima release)  
-**Autore:** Aspose  
-
----

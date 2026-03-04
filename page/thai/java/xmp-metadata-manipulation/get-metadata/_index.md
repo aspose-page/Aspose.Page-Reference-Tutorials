@@ -133,15 +133,15 @@ if (xmp.containsKey("xmpMM:DocumentID"))
 ## สรุป
 คุณได้เรียนรู้ **วิธีอ่าน XMP** metadata ด้วย Java และ Aspose.Page แล้ว  ด้วยขั้นตอนเหล่านี้คุณสามารถสกัดเครื่องมือผู้สร้าง, เวลา, thumbnail, ข้อมูลรูปแบบ, และ DocumentID — ให้คุณเห็นข้อมูลเมตาที่ฝังอยู่ในไฟล์ EPS ของคุณอย่างครบถ้วน  อย่าลังเลที่จะทดลองใช้ namespace ของ XMP เพิ่มเติมเพื่อดึงข้อมูลที่ลึกซึ้งยิ่งขึ้นสำหรับแอปพลิเคชันของคุณ
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-21  
+**ทดสอบกับ:** Aspose.Page for Java 24.12 (ล่าสุด)  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-21  
-**ทดสอบกับ:** Aspose.Page for Java 24.12 (ล่าสุด)  
-**ผู้เขียน:** Aspose

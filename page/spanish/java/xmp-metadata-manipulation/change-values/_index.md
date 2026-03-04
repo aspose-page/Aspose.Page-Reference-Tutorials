@@ -141,15 +141,15 @@ A: Por supuesto—simplemente llame a `xmp.get("dc:creator")` (o la clave corres
 
 ---
 
+**Última actualización:** 2025-12-21  
+**Probado con:** Aspose.Page for Java (latest release)  
+**Autor:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-**Última actualización:** 2025-12-21  
-**Probado con:** Aspose.Page for Java (latest release)  
-**Autor:** Aspose  
-
----
