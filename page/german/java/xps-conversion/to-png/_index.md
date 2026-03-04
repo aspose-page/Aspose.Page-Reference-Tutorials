@@ -106,22 +106,6 @@ Durch Befolgen dieser Schritte können Sie **XPS mühelos in Bilddateien** im PN
 ## Fazit
 Zusammenfassend vereinfacht Aspose.Page für Java den XPS‑zu‑PNG‑Konvertierungsprozess und bietet Entwicklern ein zuverlässiges und effizientes Werkzeug. Integrieren Sie diese Bibliothek in Ihre Java‑Projekte, um Aufgaben der Dokumentenmanipulation zu optimieren.
 
-## FAQs
-### Kann ich Aspose.Page für Java in kommerziellen Projekten verwenden?
-Ja, Aspose.Page ist ein kommerzielles Produkt. Lizenzinformationen finden Sie [hier](https://purchase.aspose.com/buy).
-
-### Gibt es eine kostenlose Testversion?
-Ja, Sie können eine kostenlose Testversion [hier](https://releases.aspose.com/) ausprobieren.
-
-### Wo finde ich die Dokumentation für Aspose.Page für Java?
-Die umfassende Dokumentation ist [hier](https://reference.aspose.com/page/java/) verfügbar.
-
-### Wie erhalte ich eine temporäre Lizenz für Testzwecke?
-Eine temporäre Lizenz erhalten Sie [hier](https://purchase.aspose.com/temporary-license/).
-
-### Gibt es Community‑Foren für Aspose.Page‑Diskussionen?
-Ja, besuchen Sie die Community‑Foren [hier](https://forum.aspose.com/c/page/39).
-
 ## Weitere häufig gestellte Fragen
 
 **F: Kann ich nur ausgewählte Seiten einer XPS‑Datei konvertieren?**  

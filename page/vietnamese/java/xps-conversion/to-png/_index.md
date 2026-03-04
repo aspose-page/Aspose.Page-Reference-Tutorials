@@ -105,22 +105,6 @@ Bằng cách thực hiện các bước này, bạn có thể dễ dàng **rende
 ## Kết luận
 Nhìn chung, Aspose.Page cho Java đơn giản hoá quy trình chuyển đổi XPS sang PNG, cung cấp cho nhà phát triển một công cụ đáng tin cậy và hiệu quả. Hãy tích hợp thư viện này vào các dự án Java của bạn để tối ưu hoá các nhiệm vụ xử lý tài liệu.
 
-## Câu hỏi thường gặp
-### Tôi có thể sử dụng Aspose.Page cho Java trong các dự án thương mại không?
-Đúng, Aspose.Page là sản phẩm thương mại. Bạn có thể tìm thông tin giấy phép [tại đây](https://purchase.aspose.com/buy).
-
-### Có bản dùng thử miễn phí không?
-Đúng, bạn có thể khám phá bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
-
-### Tôi có thể tìm tài liệu cho Aspose.Page cho Java ở đâu?
-Tài liệu đầy đủ có sẵn [tại đây](https://reference.aspose.com/page/java/).
-
-### Làm thế nào để tôi lấy giấy phép tạm thời cho mục đích thử nghiệm?
-Bạn có thể nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
-
-### Có diễn đàn cộng đồng cho các thảo luận về Aspose.Page không?
-Đúng, hãy truy cập các diễn đàn cộng đồng [tại đây](https://forum.aspose.com/c/page/39).
-
 ## Các câu hỏi thường gặp bổ sung
 
 **Q: Tôi có thể chỉ chuyển đổi các trang được chọn của tệp XPS không?**  

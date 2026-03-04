@@ -105,22 +105,6 @@ for (int i = 0; i < device.getResult().length; i++) {
 ## 结论
 总之，Aspose.Page for Java 简化了 XPS 到 PNG 的转换过程，为开发者提供了可靠且高效的工具。将此库集成到您的 Java 项目中，可简化文档处理任务。
 
-## 常见问题
-### 我可以在商业项目中使用 Aspose.Page for Java 吗？
-是的，Aspose.Page 是商业产品。您可以在[此处](https://purchase.aspose.com/buy)找到授权信息。
-
-### 是否提供免费试用？
-是的，您可以在[此处](https://releases.aspose.com/)获取免费试用。
-
-### 哪里可以找到 Aspose.Page for Java 的文档？
-完整文档可在[此处](https://reference.aspose.com/page/java/)查看。
-
-### 如何获取用于测试的临时许可证？
-您可以在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
-
-### 是否有 Aspose.Page 的社区论坛？
-有，访问社区论坛[此处](https://forum.aspose.com/c/page/39)。
-
 ## 其他常见问题
 
 **问：我可以只转换 XPS 文件的选定页面吗？**  

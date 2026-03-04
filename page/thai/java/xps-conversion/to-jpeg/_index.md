@@ -15,36 +15,36 @@ weight: 11
 
 # วิธีแปลง XPS เป็น JPEG ด้วย Java
 
-## Introduction
-ในบทแนะนำนี้, **คุณจะได้เรียนรู้วิธีแปลง XPS เป็น JPEG** ด้วยไลบรารี Aspose.Page ที่ทรงพลังสำหรับ Java. การแปลงไฟล์ XPS เป็นรูปภาพเป็นความต้องการทั่วไปเมื่อคุณต้องการแสดง, ดูตัวอย่าง, หรือประมวลผลต่อหน้าของเอกสารในแอปพลิเคชันเว็บหรือเดสก์ท็อป. เราจะเดินผ่านแต่ละขั้นตอน, อธิบายว่าทำไมแต่ละบรรทัดจึงสำคัญ, และให้เคล็ดลับเชิงปฏิบัติเพื่อให้คุณสามารถผสานตรรกะการแปลงเข้าไปในโครงการของคุณได้อย่างมั่นใจ.
+## การแนะนำ
+ในบทแนะนำนี้ ** เราจะแปลง XPS เป็น JPEG** ด้วยไลบรารี Aspose.Page สำหรับ Java ไฟล์ XPS เป็นรูปภาพที่ต้องการทั่วไปเมื่อต้องการแสดง ดูตัวอย่าง หรืออย่างเป็นทางการของเอกสารในแอปพลิเคชันเว็บหรือตามคำขอ สิ่งสำคัญในแต่ละขั้นตอน อธิบายว่าทำไมแต่ละบรรทัดจึงมีความสำคัญ และให้เคล็ดลับเชิงปฏิบัติเพื่อให้คุณสามารถใช้แนวทางปฏิบัติสำหรับโครงการของคุณได้อย่างมั่นใจ
 
-## Quick Answers
-- **What library handles the conversion?** Aspose.Page for Java  
-- **Can I select specific pages?** Yes – use `setPageNumbers` in `JpegSaveOptions`  
-- **What image quality can I control?** Smoothing mode, resolution, and JPEG quality settings  
-- **Do I need a license for production?** Yes, a commercial license is required (a free trial is available)  
-- **Is the code Java 8 compatible?** Absolutely – the API works with Java 8 and newer  
+## คำตอบด่วน
+- **ไลบรารีใดที่จัดการการแปลง** Aspose.Page สำหรับ Java
+- **ฉันสามารถเลือกหน้าที่ต้องการได้หรือไม่** ได้ – ใช้ `setPageNumbers` ใน `JpegSaveOptions`
+- **ฉันสามารถควบคุมคุณภาพของภาพแบบใดได้** โหมดการปรับให้เรียบ ความละเอียด และการตั้งค่าคุณภาพ JPEG
+- **ฉันต้องมีใบอนุญาตสำหรับการผลิตหรือไม่** ใช่ จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์ (สามารถทดลองใช้ฟรีได้)
+- **โค้ด Java8 เข้ากันได้หรือไม่** แน่นอน – API ใช้งานได้กับ Java8 และใหม่กว่า
 
-## What is XPS and Why Convert it to JPEG?
-XPS (XML Paper Specification) เป็นรูปแบบเอกสารแบบจัดวางคงที่ที่คล้ายกับ PDF. การแปลง XPS เป็น JPEG มีประโยชน์เมื่อคุณต้องการภาพเรสเตอร์สำหรับภาพขนาดย่อ, แนบอีเมล, หรือเมื่อผสานกับระบบที่รับไฟล์รูปภาพเท่านั้น. JPEG ให้สมดุลที่ดีระหว่างคุณภาพภาพและขนาดไฟล์, ทำให้เหมาะสำหรับการแสดงตัวอย่างบนเว็บ.
+## XPS คืออะไร และเหตุใดจึงต้องแปลงเป็น JPEG
+XPS (XML Paper Specification) ในรูปแบบเอกสารแบบจัดวางความเสียหายที่มีความสำคัญ PDF. ไฟล์ XPS เป็น JPEG มีประโยชน์เมื่อต้องการให้ภาพเรสเตอร์สำหรับภาพขนาดย่อ, แนบอีเมล์, หรือเมื่อท่องเที่ยวกับระบบที่รับไฟล์รูปภาพเท่านั้น JPEG ให้ความสมดุลที่ดีระหว่างคุณภาพภาพและขนาดไฟล์ ซึ่งเหมาะสำหรับการแสดงตัวอย่างคำอธิบาย
 
-## Prerequisites
-Before we dive into the code, ensure you have the following:
+## ข้อกำหนดเบื้องต้น
+ก่อนที่เราจะเจาะลึกโค้ด ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 
-- **Java Development Environment** – JDK 8 or later installed and configured.  
-- **Aspose.Page for Java** – Download the latest library from the official site [here](https://releases.aspose.com/page/java/).  
-- **Sample XPS Document** – An XPS file you want to transform into JPEG images.  
+- **Java Development Environment** – ติดตั้งและกำหนดค่า JDK 8 หรือใหม่กว่า
+- **Aspose.Page สำหรับ Java** – ดาวน์โหลดไลบรารีล่าสุดจากเว็บไซต์อย่างเป็นทางการ[ที่นี่](https://releases.aspose.com/page/java/)
+- **ตัวอย่างเอกสาร XPS** – ไฟล์ XPS ที่คุณต้องการแปลงเป็นภาพ JPEG
 
-## Import Packages
-Begin by importing the necessary classes into your Java source file:
+## แพคเกจนำเข้า
+เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็นลงในซอร์สไฟล์ Java ของคุณ:
 
 ```java
 import com.aspose.xps.XpsDocument;
 import java.io.FileOutputStream;
 ```
 
-## Step 1: Initialize Paths and Load the XPS Document
-Set the directory that contains your source XPS file and create an `XpsDocument` instance:
+## ขั้นตอนที่ 1: เริ่มต้นเส้นทางและโหลดเอกสาร XPS
+ตั้งค่าไดเรกทอรีที่มีไฟล์ XPS ต้นทางของคุณและสร้างอินสแตนซ์ `XpsDocument`:
 
 ```java
 // The path to the documents directory.
@@ -53,12 +53,12 @@ String dataDir = "Your Document Directory";
 XpsDocument document = new XpsDocument(dataDir + "input.xps");
 ```
 
-> **Pro tip:** Use `Paths.get()` from `java.nio.file` for platform‑independent path handling.
+> **เคล็ดลับมือโปร:** ใช้ `Paths.get()` จาก `java.nio.file` สำหรับการจัดการเส้นทางที่ไม่ขึ้นอยู่กับแพลตฟอร์ม
 
-เคล็ดลับระดับมืออาชีพ: ใช้ `Paths.get()` จาก `java.nio.file` เพื่อจัดการเส้นทางที่เป็นอิสระต่อแพลตฟอร์ม.
+คำแนะนำ: ใช้ `Paths.get()` จาก `java.nio.file` เพื่อควบคุมเส้นทางที่เรียกดูต่อแพลตฟอร์ม
 
-## Step 2: Configure JPEG Save Options
-Define how the JPEG images should be rendered—resolution, smoothing, and which pages to export:
+## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการบันทึก JPEG
+กำหนดวิธีการเรนเดอร์ภาพ JPEG เช่น ความละเอียด การปรับให้เรียบ และหน้าที่จะส่งออก:
 
 ```java
 // Initialize options object with necessary parameters.
@@ -68,32 +68,32 @@ options.setResolution(300);
 options.setPageNumbers(new int[] { 1, 2, 6 });
 ```
 
-- `setResolution(300)` produces high‑resolution output suitable for printing.  
-  `setResolution(300)` สร้างผลลัพธ์ความละเอียดสูงที่เหมาะสำหรับการพิมพ์.  
-- `setPageNumbers` lets you pick only the pages you need, saving time and memory.  
-  `setPageNumbers` ให้คุณเลือกเฉพาะหน้าที่ต้องการ, ช่วยประหยัดเวลาและหน่วยความจำ.
+- `setResolution(300)` ให้เอาต์พุตที่มีความละเอียดสูงซึ่งเหมาะสำหรับการพิมพ์ 
+`setResolution(300)` สร้างผลลัพธ์ที่ยอดเยี่ยมสำหรับการพิมพ์
+- `setPageNumbers` ช่วยให้คุณสามารถเลือกเฉพาะหน้าที่คุณต้องการ ซึ่งช่วยประหยัดเวลาและหน่วยความจำ 
+`setPageNumbers` ให้คุณเลือกเฉพาะหน้าที่ต้องการ ช่วยประหยัดเวลาและคำอธิบาย
 
-## Step 3: Create the Rendering Device
-The `ImageDevice` captures the rendered pages as byte arrays:
+## ขั้นตอนที่ 3: สร้างอุปกรณ์แสดงผล
+`ImageDevice` จับหน้าที่แสดงผลเป็นอาร์เรย์ไบต์:
 
 ```java
 // Create rendering device for PDF format
 ImageDevice device = new ImageDevice();
 ```
 
-## Step 4: Render the XPS Document to JPEG
-Invoke the `save` method, passing the device and the options you configured:
+## ขั้นตอนที่ 4: เรนเดอร์เอกสาร XPS เป็น JPEG
+เรียกใช้เมธอด "บันทึก" โดยส่งอุปกรณ์และตัวเลือกที่คุณกำหนดค่า:
 
 ```java
 document.save(device, options);
 ```
 
-At this point the `device` holds a two‑dimensional array where each element represents a JPEG‑encoded page.
+ณ จุดนี้ "อุปกรณ์" จะเก็บอาร์เรย์สองมิติโดยที่แต่ละองค์ประกอบแสดงถึงหน้าที่เข้ารหัส JPEG
 
-ในขั้นตอนนี้ `device` จะถืออาเรย์สองมิติที่แต่ละองค์ประกอบเป็นหน้าที่เข้ารหัสเป็น JPEG.
+ในขั้นตอนนี้ `อุปกรณ์` จะถืออาเรย์สองมิติที่แต่ละเรื่องราวเป็นหน้าที่ของ JPEG
 
-## Step 5: Iterate Through the Result and Write Files
-Loop over the rendered pages and write each byte array to a separate JPEG file:
+## ขั้นตอนที่ 5: วนซ้ำผลลัพธ์และเขียนไฟล์
+วนซ้ำหน้าที่แสดงผลและเขียนแต่ละอาร์เรย์ไบต์ไปยังไฟล์ JPEG แยกกัน:
 
 ```java
 // Iterate through document partitions (fixed documents, in XPS terms)
@@ -110,36 +110,36 @@ for (int i = 0; i < device.getResult().length; i++) {
 }
 ```
 
-Each file will be named `XPStoJPEG_<documentIndex>_<pageIndex>.jpeg`, making it easy to identify the source document and page number.
+แต่ละไฟล์จะมีชื่อว่า `XPStoJPEG_<documentIndex>_<pageIndex>.jpeg` ทำให้ง่ายต่อการระบุเอกสารต้นฉบับและหมายเลขหน้า
 
-แต่ละไฟล์จะถูกตั้งชื่อเป็น `XPStoJPEG_<documentIndex>_<pageIndex>.jpeg`, ทำให้ง่ายต่อการระบุเอกสารต้นฉบับและหมายเลขหน้า.
+ไฟล์ที่สามารถตรวจพบได้คือ `XPStoJPEG_<documentIndex>_<pageIndex>.jpeg`, ซึ่งส่วนใหญ่จะระบุเอกสารต้นฉบับและหมายเลขหน้า
 
-## Common Issues & Troubleshooting
-| อาการ | สาเหตุที่เป็นไปได้ | วิธีแก้ |
+## ปัญหาทั่วไปและการแก้ไขปัญหา
+| นั่น | สาเหตุที่ทำให้ | วิธีแก้ |
 |---------|--------------|-----|
-| **ไฟล์ JPEG ว่างเปล่า** | สตรีมเอาต์พุตไม่ได้ทำการ flush หรือ close อย่างถูกต้อง | ตรวจสอบให้แน่ใจว่า `imageStream.close()` ถูกเรียกภายในลูปภายใน (ตามที่แสดง). |
-| **ข้อผิดพลาด Out‑of‑memory** บนไฟล์ XPS ขนาดใหญ่ | การเรนเดอร์ทุกหน้าพร้อมกันใช้ RAM มากเกินไป | ประมวลผลหน้าเป็นชุดเล็ก ๆ หรือเพิ่มขนาด heap ของ JVM (`-Xmx`). |
-| **หน้าหายไป** | `setPageNumbers` ไม่ได้รวมหน้าที่ต้องการ | ตรวจสอบว่าอาร์เรย์หมายเลขหน้าตรงกับดัชนีหน้าจริงของ XPS (เริ่มจาก 1). |
+| ** ไฟล์ JPEG สลิง** | สตรีมดังกล่าวไม่ได้ทำการล้างหรือปิด | เครื่องตัด `imageStream.close()` มีประโยชน์เรียกภายในอันงดงามภายใน (ตามอุปกรณ์เสริม) |
+| **เสื้อ Out‑of‑memory** บนไฟล์ XPS ขนาดใหญ่ | การเรนเดอร์ทุกหน้าพร้อมกันใช้ RAM เพิ่มเติม | กำหนดให้หน้าเป็นชุดเล็ก ๆ หรือเพิ่มขนาด heap ของ JVM (`-Xmx`) |
+| **หน้าหายไป** | `setPageNumbers` เพื่อการรวมหน้าที่ต้องการ | เพื่อตรวจสอบหมายเลขหน้าดัชนีหน้าจริงของ XPS (ส่วนที่ 1) |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-### Q: Aspose.Page เหมาะสำหรับโครงการเชิงพาณิชย์หรือไม่?
-A: ใช่, Aspose.Page เป็นผลิตภัณฑ์เชิงพาณิชย์ที่มีตัวเลือกการให้ใบอนุญาต. ตรวจสอบรายละเอียดได้ที่ [here](https://purchase.aspose.com/buy).
+### ถาม: Aspose.Page สำหรับโครงการของเราหรือไม่?
+คำตอบ: ถูกต้อง, Aspose.Page เป็นผลิตภัณฑ์ที่เป็นความเชื่อส่วนบุคคลเท่านั้น รายละเอียดการถ่ายภาพได้ที่ [ที่นี่](https://purchase.aspose.com/buy)
 
-### Q: ฉันสามารถลอง Aspose.Page ก่อนซื้อได้หรือไม่?
-A: ใช่, คุณสามารถรับการทดลองใช้งานฟรีได้ [here](https://releases.aspose.com/).
+### Q: และลอง Aspose.Page ก่อนที่จะซื้อก็ได้?
+ตอบ: จริง ๆ แล้วไม่เคยยอมรับการใช้งานฟรีได้ [ที่นี่](https://releases.aspose.com/)
 
-### Q: จะหาเอกสารประกอบของ Aspose.Page ได้จากที่ไหน?
-A: เอกสารประกอบพร้อมให้บริการ [here](https://reference.aspose.com/page/java/).
+### ถาม: เอกสารประกอบของ Aspose.Page จากที่ไหน?
+A: เอกสารประกอบพร้อมใช้งาน [ที่นี่](https://reference.aspose.com/page/java/)
 
-### Q: จะขอรับการสนับสนุนสำหรับ Aspose.Page ได้อย่างไร?
-A: เยี่ยมชม [Aspose.Page Forum](https://forum.aspose.com/c/page/39) เพื่อรับการสนับสนุนจากชุมชน.
+### ถาม: จะขอรับพิเศษสำหรับ Aspose.Page ได้อย่างไร?
+ตอบ: [Aspose.Page Forum](https://forum.aspose.com/c/page/39) จะได้รับในชุมชนนี้
 
-### Q: ฉันต้องการใบอนุญาตชั่วคราวสำหรับการทดสอบหรือไม่?
-A: ใช่, คุณสามารถรับใบอนุญาตชั่วคราวได้ [here](https://purchase.aspose.com/temporary-license/).
+### ถาม: ยืนยันอีกครั้งชั่วคราวสำหรับการทดสอบหรือไม่?
+ตอบ: เป็นไปได้ไม่เคยรับเลยชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)
 
-## Conclusion
-You’ve now mastered **how to convert XPS to JPEG** using Aspose.Page for Java. By following the step‑by‑step guide, you can integrate this conversion pipeline into any Java application—whether it’s a desktop tool, a web service, or a batch‑processing utility. Feel free to experiment with different resolutions, page selections, and image formats to suit your project's needs.
+## บทสรุป
+ตอนนี้คุณเชี่ยวชาญ **วิธีแปลง XPS เป็น JPEG** โดยใช้ Aspose.Page สำหรับ Java แล้ว ด้วยการทำตามคำแนะนำทีละขั้นตอน คุณสามารถรวมไปป์ไลน์การแปลงนี้เข้ากับแอปพลิเคชัน Java ใดก็ได้ ไม่ว่าจะเป็นเครื่องมือเดสก์ท็อป บริการบนเว็บ หรือยูทิลิตีการประมวลผลแบบแบตช์ คุณสามารถทดลองใช้ความละเอียด การเลือกหน้า และรูปแบบรูปภาพต่างๆ ได้ตามต้องการเพื่อให้เหมาะกับความต้องการของโปรเจ็กต์ของคุณ
 
 ---
 

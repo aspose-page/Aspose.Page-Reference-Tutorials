@@ -16,30 +16,30 @@ weight: 14
 
 在当今快速发展的软件环境中，**aspose page java** 让 Java 文档转换变得简单可靠。无论您是需要 **convert XPS to TIFF** 用于归档、打印或批量处理，本教程将逐步演示具体操作，解释每一步背后的原因，并提供可立即应用的实用技巧。
 
-## Quick Answers
+## 快速解答
 - **处理 XPS‑to‑TIFF 转换的库是什么？** Aspose.Page Java.  
 - **生产环境是否需要许可证？** 是的，需要有效的 Aspose.Page Java 许可证。  
 - **支持的 Java 版本是？** JDK 8 或更高。  
 - **可以一次转换多个 XPS 文件吗？** 可以——您可以围绕相同的代码构建批量 XPS 转换循环。  
 - **打印就绪的 TIFF 最佳分辨率是多少？** 300 DPI 是常用选择，但您可以通过 TiffSaveOptions 调整。
 
-## What is Aspose.Page Java?
+## 什么是 Aspose.Page Java？
 Aspose.Page Java 是一个强大的 API，能够实现 **java document conversion**，将 XPS（XML Paper Specification）转换为包括 TIFF 在内的多种光栅和矢量格式。它能够处理复杂的页面布局、字体和图形，无需 Microsoft XPS Document Writer。
 
-## Why Use Aspose.Page Java for XPS to TIFF Conversion?
+## 为什么使用 Aspose.Page Java 进行 XPS 转 TIFF 转换？
 - **高保真度：** 保持矢量数据和文本渲染。  
 - **性能：** 为大文件和批量 XPS 转换场景进行优化。  
 - **灵活性：** 使用 `tiff save options`（如分辨率、压缩和页面选择）细调输出。  
 - **跨平台：** 在任何支持 Java 的操作系统上均可运行，适合服务器端处理。
 
-## Prerequisites
+## 前提条件
 在深入转换过程之前，请确保您已具备：
 
 - 已在机器上安装 Java Development Kit（JDK）。  
 - Aspose.Page for Java 库。您可以在[此处](https://releases.aspose.com/page/java/)下载。  
 - 有效的 Aspose.Page for Java 许可证。您可以在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证，或在[此处](https://purchase.aspose.com/buy)购买完整许可证。
 
-## Import Packages
+## 导入包
 在 Java 项目中导入必要的包。确保已将 Aspose.Page for Java 的 JAR 添加到构建路径中。
 
 ```java
@@ -47,21 +47,21 @@ import com.aspose.xps.XpsDocument;
 import java.io.FileOutputStream;
 ```
 
-## Step 1: Set Up Document Directory
+## 步骤 1：设置文档目录
 定义包含源 XPS 文件的文件夹路径。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Load XPS Document
+## 步骤 2：加载 XPS 文档
 创建指向输入文件的 `XpsDocument` 实例。
 
 ```java
 XpsDocument document = new XpsDocument(dataDir + "input.xps");
 ```
 
-## Step 3: Initialize TiffSaveOptions
+## 步骤 3：初始化 TiffSaveOptions
 配置控制图像质量、分辨率以及导出页面的 **tiff save options**。
 
 ```java
@@ -71,21 +71,21 @@ options.setResolution(300);
 options.setPageNumbers(new int[] { 1, 2, 6 });
 ```
 
-## Step 4: Create Rendering Device
+## 步骤 4：创建渲染设备
 实例化一个 `ImageDevice`，用于将页面渲染为 TIFF 图像。
 
 ```java
 ImageDevice device = new ImageDevice();
 ```
 
-## Step 5: Save Document to TIFF
+## 步骤 5：将文档保存为 TIFF 格式
 使用设备和前面定义的选项渲染 XPS 文档。
 
 ```java
 document.save(device, options);
 ```
 
-## Step 6: Iterate and Save TIFF Images
+## 步骤 6：遍历并保存 TIFF 图像
 遍历渲染后的图像缓冲区，将每页写入单独的 TIFF 文件。
 
 ```java
@@ -100,10 +100,10 @@ for (int i = 0; i < device.getResult().length; i++) {
 
 恭喜！您已成功使用 **aspose page java** 在 Java 中 **convert XPS to TIFF**。欢迎在[文档](https://reference.aspose.com/page/java/)中探索该库的更多功能和特性。
 
-## Conclusion
+## 结论
 本教程涵盖了从环境搭建到细调 `tiff save options`，完成 **java document conversion** 从 XPS 到 TIFF 所需的全部内容。使用 Aspose.Page Java，您还可以构建 **batch XPS conversion** 流水线，自动处理数十甚至数百个文件。
 
-## Frequently Asked Questions
+## 常见问题解答
 ### 我可以在没有许可证的情况下使用 Aspose.Page for Java 吗？
 虽然您可以获取临时许可证进行评估，但生产环境必须使用有效许可证。请在[此处](https://purchase.aspose.com/buy)获取许可证。
 

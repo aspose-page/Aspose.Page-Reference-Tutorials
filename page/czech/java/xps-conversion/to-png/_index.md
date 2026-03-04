@@ -106,23 +106,6 @@ Dodržením těchto kroků můžete snadno **vykreslit XPS do obrázkových** so
 ## Závěr
 Na závěr, Aspose.Page pro Javu zjednodušuje proces převodu XPS na PNG a poskytuje vývojářům spolehlivý a efektivní nástroj. Začleňte tuto knihovnu do svých Java projektů, abyste zefektivnili úlohy manipulace s dokumenty.
 
-## Často kladené otázky
-
-### Mohu používat Aspose.Page pro Javu v komerčních projektech?
-Ano, Aspose.Page je komerční produkt. Informace o licencování najdete [zde](https://purchase.aspose.com/buy).
-
-### Je k dispozici bezplatná zkušební verze?
-Ano, můžete vyzkoušet bezplatnou verzi [zde](https://releases.aspose.com/).
-
-### Kde najdu dokumentaci k Aspose.Page pro Javu?
-Komplexní dokumentace je k dispozici [zde](https://reference.aspose.com/page/java/).
-
-### Jak získám dočasnou licenci pro testovací účely?
-Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
-
-### Existují komunitní fóra pro diskuse o Aspose.Page?
-Ano, navštivte komunitní fóra [zde](https://forum.aspose.com/c/page/39).
-
 ## Další často kladené otázky
 
 **Q: Mohu převést jen vybrané stránky XPS souboru?**  

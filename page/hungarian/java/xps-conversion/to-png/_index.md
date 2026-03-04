@@ -106,22 +106,6 @@ Ezeknek a lépéseknek a követésével könnyedén **renderelhet XPS-t képfáj
 ## Összegzés
 Összefoglalva, az Aspose.Page for Java egyszerűsíti az XPS PNG-re konvertálás folyamatát, megbízható és hatékony eszközt biztosítva a fejlesztőknek. Integrálja ezt a könyvtárat Java projektjeibe a dokumentumkezelési feladatok egyszerűsítése érdekében.
 
-## GYIK
-### Használhatom az Aspose.Page for Java-t kereskedelmi projektekben?
-Igen, az Aspose.Page egy kereskedelmi termék. A licencinformációkat [itt](https://purchase.aspose.com/buy) találja.
-
-### Elérhető ingyenes próbaverzió?
-Igen, egy ingyenes próbaverziót [itt](https://releases.aspose.com/) tekinthet meg.
-
-### Hol találom az Aspose.Page for Java dokumentációját?
-A részletes dokumentáció [itt](https://reference.aspose.com/page/java/) érhető el.
-
-### Hogyan szerezhetek ideiglenes licencet teszteléshez?
-Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) szerezhet.
-
-### Vannak közösségi fórumok az Aspose.Page megbeszélésekhez?
-Igen, a közösségi fórumokat [itt](https://forum.aspose.com/c/page/39) tekintheti meg.
-
 ## További gyakran ismételt kérdések
 
 **K: Konvertálhatok csak kiválasztott oldalakat egy XPS fájlból?**  
