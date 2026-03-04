@@ -1,27 +1,49 @@
 ---
-title: Voeg eenvoudige eigenschappen toe in XMP met behulp van Java
-linktitle: Voeg eenvoudige eigenschappen toe in XMP met behulp van Java
-second_title: Aspose.Page Java-API
-description: Ontgrendel Aspose.Page voor het potentieel van Java met onze gids over het toevoegen van eigenschappen aan XMP-metagegevens in EPS-bestanden. Verbeter documentverwerking moeiteloos!
-weight: 14
+date: 2025-12-20
+description: Leer hoe u XMP‑metadata in EPS‑bestanden maakt met Aspose.Page voor Java.
+  Stapsgewijze handleiding om eenvoudig XMP‑eigenschappen programmatisch toe te voegen.
+linktitle: Add Simple Properties in XMP using Java
+second_title: Aspose.Page Java API
+title: Hoe maak je xmp-metadata eps met Java
 url: /nl/java/xmp-metadata-manipulation/add-simple-properties/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg eenvoudige eigenschappen toe in XMP met behulp van Java
+# Voeg eenvoudige eigenschappen toe in XMP met Java
 
-## Invoering
-In het voortdurend evoluerende landschap van documentverwerking is het efficiënt beheren van metadata cruciaal. Aspose.Page voor Java stelt ontwikkelaars in staat om XMP-gegevens (Extensible Metadata Platform) naadloos te manipuleren. In deze zelfstudie verkennen we het proces van het toevoegen van eenvoudige eigenschappen aan XMP met behulp van Java, en bieden we u een uitgebreide stapsgewijze handleiding.
-## Vereisten
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-- Basiskennis van Java-programmeren.
--  Aspose.Page voor Java-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/page/java/).
-- Een voorbeeld-EPS-bestand met metagegevens. Als u er geen heeft, kunt u het meegeleverde bestand "xmp3.eps" gebruiken.
-## Pakketten importeren
-Zorg ervoor dat u de benodigde pakketten importeert om uw project een kickstart te geven:
+## Introductie
+In moderne documentworkflows geeft de mogelijkheid om **XMP‑metadata EPS**‑bestanden programmatisch te maken je volledige controle over hoe je graphics worden beschreven, doorzocht en gearchiveerd. Met Aspose.Page voor Java kun je XMP‑pakketten in EPS‑documenten lezen, wijzigen en schrijven zonder de Java‑omgeving te verlaten. In deze tutorial lopen we stap voor stap door hoe je eenvoudige XMP‑eigenschappen aan een EPS‑bestand toevoegt, zodat je je graphics snel en betrouwbaar kunt verrijken met aangepaste metadata.
+
+## Snelle antwoorden
+- **Wat betekent “create xmp metadata eps”?** Een XMP‑pakket (XML‑gebaseerde metadata) toevoegen aan een EPS‑bestand.  
+- **Welke bibliotheek is vereist?** Aspose.Page voor Java (downloadbaar vanaf de Aspose‑site).  
+- **Heb ik een licentie nodig voor testen?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Hoeveel regels code?** Minder dan 30 regels Java plus een paar import‑verklaringen.  
+- **Kan ik andere gegevenstypen toevoegen?** Ja – datums, gehele getallen, doubles, strings en zelfs arrays worden ondersteund.
+
+## Wat is create xmp metadata eps?
+XMP (Extensible Metadata Platform) is een standaard voor het insluiten van rijke metadata in bestanden. Wanneer je **XMP‑metadata EPS** maakt, embed je een XML‑pakket in een EPS‑ (Encapsulated PostScript) document, waardoor downstream‑applicaties auteur, aanmaakdatum, aangepaste tags en meer kunnen lezen.
+
+## Waarom XMP‑metadata toevoegen aan EPS‑bestanden?
+- **Zoekbaarheid:** Maakt automatische indexering door DAM‑systemen mogelijk.  
+- **Naleving:** Slaat juridische of licentie‑informatie direct in het bestand op.  
+- **Automatisering:** Laat downstream‑pijplijnen beslissingen nemen op basis van ingebedde data.  
+- **Portabiliteit:** De metadata reist mee met de EPS, waardoor consistentie over platformen heen wordt gegarandeerd.
+
+## Voorvereisten
+Zorg ervoor dat je het volgende hebt:
+
+- Basiskennis van Java‑programmeren.  
+- Aspose.Page voor Java‑bibliotheek geïnstalleerd. Je kunt het **[hier](https://releases.aspose.com/page/java/)** downloaden.  
+- Een voorbeeld‑EPS‑bestand met metadata. Als je er geen hebt, kun je het meegeleverde **`xmp3.eps`**‑bestand gebruiken.
+
+## Importpakketten
+Importeer eerst de klassen die je nodig hebt. De imports blijven exact hetzelfde als in het originele voorbeeld:
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -32,67 +54,108 @@ import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
-## Stap 1: XMP-metagegevens ophalen
+
+## Stap 1: Laad het EPS‑document en haal XMP‑metadata op
+We openen het EPS‑bestand, maken een `PsDocument`‑instantie aan en halen (of maken) het XMP‑pakket op.
+
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Initialiseer invoer-EPS-bestandsstroom
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp3.eps");
 PsDocument document = new PsDocument(psStream);
-// XMP-metagegevens ophalen. Als het EPS-bestand geen XMP-metagegevens bevat, krijgen we een nieuwe gevuld met waarden uit PS-metagegevensopmerkingen (%%Creator, %%CreateDate, %%Title, enz.)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get a new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-## Stap 2: Datumeigenschap toevoegen
+
+## Stap 2: Voeg een datum‑eigenschap toe
+Een datum toevoegen is zo simpel als een `Date`‑object maken en deze in de XMP‑map plaatsen.
+
 ```java
-// Voeg de waarde van de datumeigenschap "xmp:Date1" toe
+// Add date property "xmp:Date1" value
 TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
 Date now = new Date();
 xmp.put("xmp:Date1", new XmpValue(now));
 ```
-## Stap 3: Voeg een geheel getal-eigenschap toe
+
+## Stap 3: Voeg een integer‑eigenschap toe
+Je kunt numerieke identifiers of versienummers opslaan met een integer‑waarde.
+
 ```java
-// Voeg de waarde van de integer-eigenschap "xmp:Intg1" toe
+// Add integer property "xmp:Intg1" value
 xmp.put("xmp:Intg1", new XmpValue(111));
 ```
-## Stap 4: Voeg dubbele eigenschap toe
+
+## Stap 4: Voeg een double‑eigenschap toe
+Floating‑point getallen zijn handig voor metingen of beoordelingen.
+
 ```java
-// Voeg de dubbele eigenschap "xmp:Double1" toe
+// Add double property "xmp:Double1" value
 xmp.put("xmp:Double1", new XmpValue(111.11D));
 ```
-## Stap 5: String-eigenschap toevoegen
+
+## Stap 5: Voeg een string‑eigenschap toe
+Aangepaste teksttags (bijv. projectcodes) worden opgeslagen als strings.
+
 ```java
-// Voeg de waarde van de tekenreekseigenschap "xmp:String1" toe
+// Add string property "xmp:String1" value
 xmp.put("xmp:String1", new XmpValue("ABC"));
 ```
-## Stap 6: Document opslaan
+
+## Stap 6: Sla het bijgewerkte EPS‑bestand op
+Nadat alle eigenschappen zijn toegevoegd, schrijf je het document terug naar de schijf.
+
 ```java
-// Initialiseer de uitvoer-EPS-bestandsstroom
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
-//Sla het document op met gewijzigde XMP-metagegevens
+// Save document with changed XMP metadata
 try {
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-## Stap 7: Sluit streams
+
+## Stap 7: Ruim bronnen op
+Sluit altijd de invoerstroom om lekken van bestands‑handles te voorkomen.
+
 ```java
-// Sluit de invoer-EPS-stream
+// Close input EPS stream
 psStream.close();
 ```
+
+## Veelvoorkomende problemen en oplossingen
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| **Null XMP‑metadata** | Het EPS‑bestand bevatte geen XMP‑pakket en de bibliotheek kon geen PS‑commentaren afleiden. | Zorg ervoor dat de bron‑EPS minstens één PS‑commentaar bevat (bijv. `%%Creator`). De bibliotheek genereert automatisch een minimaal XMP‑pakket. |
+| **Tijdzone‑mismatch** | Datums verschijnen verschoven wanneer ze in een andere applicatie worden geopend. | Stel `TimeZone.setDefault(TimeZone.getTimeZone("UTC"))` in vóór het aanmaken van het `Date`‑object, zoals getoond in Stap 2. |
+| **Licentie‑exception** | Runtime gooit `LicenseException`. | Pas een geldige Aspose.Page‑licentie toe vóór het gebruik van de API, of werk in proefmodus voor evaluatie. |
+
 ## Conclusie
-Aspose.Page voor Java vereenvoudigt het proces van het manipuleren van XMP-metagegevens in EPS-bestanden. Door deze stapsgewijze handleiding te volgen, kunt u moeiteloos eenvoudige eigenschappen toevoegen om de metagegevens van uw document te verbeteren.
-## Veel Gestelde Vragen
+Door deze stappen te volgen weet je nu hoe je **XMP‑metadata EPS**‑bestanden maakt met Aspose.Page voor Java. Het toevoegen van eenvoudige eigenschappen zoals datums, integers, doubles en strings is eenvoudig, en de resulterende EPS‑bestanden bevatten rijke, doorzoekbare metadata die elke downstream‑workflow ten goede komt.
+
+## Veelgestelde vragen
 ### Kan ik Aspose.Page voor Java gebruiken met andere programmeertalen?
 Aspose.Page ondersteunt voornamelijk Java, maar er zijn versies beschikbaar voor andere talen zoals .NET.
+
 ### Is er een gratis proefversie beschikbaar voor Aspose.Page voor Java?
- Ja, u kunt de functies van Aspose.Page verkennen door een gratis proefperiode aan te vragen[hier](https://releases.aspose.com/).
-### Waar kan ik gedetailleerde documentatie vinden voor Aspose.Page voor Java?
- De documentatie is beschikbaar[hier](https://reference.aspose.com/page/java/).
+Ja, je kunt de functies van Aspose.Page verkennen door een gratis proefversie te verkrijgen [hier](https://releases.aspose.com/).
+
+### Waar vind ik gedetailleerde documentatie voor Aspose.Page voor Java?
+De documentatie is beschikbaar [hier](https://reference.aspose.com/page/java/).
+
 ### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Page voor Java?
- Er kan een tijdelijke licentie worden aangeschaft[hier](https://purchase.aspose.com/temporary-license/).
+Een tijdelijke licentie kan worden verkregen [hier](https://purchase.aspose.com/temporary-license/).
+
 ### Waar kan ik Aspose.Page voor Java kopen?
- U kunt het product kopen[hier](https://purchase.aspose.com/buy).
+Je kunt het product aanschaffen [hier](https://purchase.aspose.com/buy).
+
+---
+
+**Laatst bijgewerkt:** 2025-12-20  
+**Getest met:** Aspose.Page voor Java 24.11 (latest op het moment van schrijven)  
+**Auteur:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

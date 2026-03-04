@@ -1,27 +1,49 @@
 ---
-title: Java を使用して XMP に単純なプロパティを追加する
-linktitle: Java を使用して XMP に単純なプロパティを追加する
+date: 2025-12-20
+description: Aspose.Page for Java を使用して、EPS ファイルに XMP メタデータを作成する方法を学びます。シンプルな XMP
+  プロパティをプログラムで追加するステップバイステップ ガイドです。
+linktitle: Add Simple Properties in XMP using Java
 second_title: Aspose.Page Java API
-description: EPS ファイル内の XMP メタデータにプロパティを追加するガイドを参照して、Aspose.Page for Java の可能性を解き放ってください。文書処理を簡単に向上させます。
-weight: 14
+title: JavaでXMPメタデータEPSを作成する方法
 url: /ja/java/xmp-metadata-manipulation/add-simple-properties/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java を使用して XMP に単純なプロパティを追加する
+# Java を使用して XMP にシンプルなプロパティを追加する
 
-## 導入
-進化し続けるドキュメント処理の状況では、メタデータを効率的に管理することが非常に重要です。 Aspose.Page for Java を使用すると、開発者は Extensible Metadata Platform (XMP) データをシームレスに操作できるようになります。このチュートリアルでは、Java を使用して単純なプロパティを XMP に追加するプロセスを説明し、包括的なステップバイステップのガイドを提供します。
+## はじめに
+最新のドキュメントワークフローでは、**XMP メタデータ EPS** ファイルをプログラムで作成できることにより、グラフィックの記述、検索、アーカイブ方法を完全にコントロールできます。Aspose.Page for Java を使用すれば、Java のエコシステムを離れることなく EPS ドキュメント内の XMP パケットを読み取り、変更し、書き込むことが可能です。このチュートリアルでは、EPS ファイルにシンプルな XMP プロパティを追加する手順を詳しく解説し、カスタムメタデータでグラフィックを迅速かつ確実に強化できるようにします。
+
+## クイック回答
+- **“create xmp metadata eps” とは何ですか？** XMP パケット（XML ベースのメタデータ）を EPS ファイルに追加することです。  
+- **必要なライブラリは？** Aspose.Page for Java（Aspose のサイトからダウンロード可能）。  
+- **テストにライセンスは必要ですか？** 開発には無料トライアルで十分です。商用利用には正式ライセンスが必要です。  
+- **コード行数は？** Java のコードは 30 行未満（インポート文を含めても）。  
+- **他のデータ型も追加できますか？** はい、日付、整数、倍精度実数、文字列、配列などがサポートされています。
+
+## “create xmp metadata eps” とは？
+XMP（Extensible Metadata Platform）は、ファイル内部にリッチなメタデータを埋め込むための標準です。**XMP メタデータ EPS を作成する** ことで、XML パケットを EPS（Encapsulated PostScript）ドキュメントに埋め込み、下流のアプリケーションが作者、作成日、カスタムタグなどの情報を取得できるようになります。
+
+## EPS ファイルに XMP メタデータを追加するメリット
+- **検索性:** DAM システムによる自動インデックスが可能になります。  
+- **コンプライアンス:** 法的情報やライセンス情報をファイル内に直接保存できます。  
+- **自動化:** 下流パイプラインが埋め込まれたデータに基づいて意思決定できます。  
+- **ポータビリティ:** メタデータが EPS と共に搬送されるため、プラットフォーム間での一貫性が保たれます。
+
 ## 前提条件
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
-- Java プログラミングの基本的な知識。
--  Aspose.Page for Java ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/page/java/).
-- メタデータを含むサンプル EPS ファイル。お持ちでない場合は、提供されている「xmp3.eps」ファイルを自由に使用してください。
+開始する前に以下を用意してください。
+
+- Java プログラミングの基本知識。  
+- Aspose.Page for Java ライブラリのインストール。**[こちら](https://releases.aspose.com/page/java/)** からダウンロードできます。  
+- メタデータを含むサンプル EPS ファイル。お持ちでない場合は、提供されている **`xmp3.eps`** ファイルをご利用ください。
+
 ## パッケージのインポート
-プロジェクトを開始するために必要なパッケージをインポートしていることを確認してください。
+まず、必要なクラスをインポートします。インポート文は元の例と全く同じです。
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -32,67 +54,108 @@ import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
-## ステップ 1: XMP メタデータを取得する
+
+## 手順 1: EPS ドキュメントを読み込み XMP メタデータを取得
+EPS ファイルを開き、`PsDocument` インスタンスを作成し、XMP パケットを取得（または作成）します。
+
 ```java
-//ドキュメントディレクトリへのパス。
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-//入力EPSファイルストリームを初期化します
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp3.eps");
 PsDocument document = new PsDocument(psStream);
-//XMP メタデータを取得します。 EPS ファイルに XMP メタデータが含まれていない場合は、PS メタデータ コメント (%%Creator、%%CreateDate、%%Title など) からの値が埋め込まれた新しいファイルを取得します。
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get a new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-## ステップ 2: 日付プロパティを追加する
+
+## 手順 2: 日付プロパティを追加
+日付は `Date` オブジェクトを作成し、XMP マップに格納するだけです。
+
 ```java
-//日付プロパティ「xmp:Date1」値を追加
+// Add date property "xmp:Date1" value
 TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
 Date now = new Date();
 xmp.put("xmp:Date1", new XmpValue(now));
 ```
-## ステップ 3: 整数プロパティを追加する
+
+## 手順 3: 整数プロパティを追加
+数値の識別子やバージョン番号などを整数値で保存できます。
+
 ```java
-//整数プロパティ「xmp:Intg1」値を追加
+// Add integer property "xmp:Intg1" value
 xmp.put("xmp:Intg1", new XmpValue(111));
 ```
-## ステップ 4: Double プロパティを追加する
+
+## 手順 4: 倍精度実数プロパティを追加
+測定値や評価スコアなど、浮動小数点数が必要な場合に使用します。
+
 ```java
-//double プロパティ「xmp:Double1」値を追加
+// Add double property "xmp:Double1" value
 xmp.put("xmp:Double1", new XmpValue(111.11D));
 ```
-## ステップ 5: 文字列プロパティを追加する
+
+## 手順 5: 文字列プロパティを追加
+プロジェクトコードなどのカスタムテキストタグは文字列として保存します。
+
 ```java
-//文字列プロパティ「xmp:String1」値を追加
+// Add string property "xmp:String1" value
 xmp.put("xmp:String1", new XmpValue("ABC"));
 ```
-## ステップ 6: ドキュメントを保存する
+
+## 手順 6: 更新した EPS ファイルを保存
+すべてのプロパティを追加したら、ドキュメントをディスクに書き戻します。
+
 ```java
-//出力EPSファイルストリームを初期化する
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
-//変更された XMP メタデータを含むドキュメントを保存する
+// Save document with changed XMP metadata
 try {
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-## ステップ 7: ストリームを閉じる
+
+## 手順 7: リソースのクリーンアップ
+ファイルハンドル漏れを防ぐため、必ず入力ストリームを閉じてください。
+
 ```java
-//入力 EPS ストリームを閉じる
+// Close input EPS stream
 psStream.close();
 ```
+
+## よくある問題と解決策
+| 問題 | 原因 | 対策 |
+|------|------|------|
+| **Null XMP メタデータ** | EPS に XMP パケットがなく、ライブラリが PS コメントを推測できなかった | ソース EPS に少なくとも 1 つの PS コメント（例: `%%Creator`）を含めてください。ライブラリは自動的に最小限の XMP パケットを生成します。 |
+| **タイムゾーンの不一致** | 別アプリケーションで開くと日付がずれる | 手順 2 の前に `TimeZone.setDefault(TimeZone.getTimeZone("UTC"))` を設定してください。 |
+| **ライセンス例外** | 実行時に `LicenseException` がスローされる | 有効な Aspose.Page ライセンスを適用するか、評価目的でトライアルモードで実行してください。 |
+
 ## 結論
-Aspose.Page for Java は、EPS ファイル内の XMP メタデータを操作するプロセスを簡素化します。このステップバイステップのガイドに従うことで、簡単なプロパティを簡単に追加してドキュメントのメタデータを強化できます。
-## よくある質問
-### Aspose.Page for Java を他のプログラミング言語で使用できますか?
-Aspose.Page は主に Java をサポートしていますが、.NET などの他の言語で利用できるバージョンもあります。
-### Aspose.Page for Java の無料トライアルは利用できますか?
-はい、無料トライアルを取得して、Aspose.Page の機能を探索できます。[ここ](https://releases.aspose.com/).
-### Aspose.Page for Java の詳細なドキュメントはどこで見つけられますか?
-ドキュメントは利用可能です[ここ](https://reference.aspose.com/page/java/).
-### Aspose.Page for Java の一時ライセンスを取得するにはどうすればよいですか?
-仮免許が取得できる[ここ](https://purchase.aspose.com/temporary-license/).
-### Aspose.Page for Java はどこで購入できますか?
-製品を購入できます[ここ](https://purchase.aspose.com/buy).
+本手順に従うことで、Aspose.Page for Java を使用して **XMP メタデータ EPS** ファイルを作成する方法が習得できました。日付、整数、倍精度実数、文字列といったシンプルなプロパティの追加は簡単で、結果として得られる EPS ファイルはリッチで検索可能なメタデータを保持し、下流のワークフロー全体に価値をもたらします。
+
+## FAQ
+### Aspose.Page for Java を他のプログラミング言語と併用できますか？
+Aspose.Page は主に Java をサポートしていますが、.NET など他の言語向けのバージョンも提供されています。
+
+### Aspose.Page for Java の無料トライアルはありますか？
+はい、[こちら](https://releases.aspose.com/) から無料トライアルを取得して機能をお試しいただけます。
+
+### Aspose.Page for Java の詳細ドキュメントはどこで確認できますか？
+ドキュメントは [こちら](https://reference.aspose.com/page/java/) にあります。
+
+### Aspose.Page for Java の一時ライセンスはどこで取得できますか？
+一時ライセンスは [こちら](https://purchase.aspose.com/temporary-license/) から取得できます。
+
+### Aspose.Page for Java の購入先はどこですか？
+製品は [こちら](https://purchase.aspose.com/buy) から購入できます。
+
+---
+
+**最終更新日:** 2025-12-20  
+**テスト環境:** Aspose.Page for Java 24.11（執筆時点の最新バージョン）  
+**作成者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

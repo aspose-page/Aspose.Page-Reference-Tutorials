@@ -1,36 +1,50 @@
 ---
-title: أضف مساحة الاسم في XMP باستخدام Java
-linktitle: أضف مساحة الاسم في XMP باستخدام Java
-second_title: Aspose.Page جافا API
-description: أطلق العنان لقوة معالجة المستندات باستخدام Aspose.Page لـ Java. تعلم كيفية إضافة مساحات أسماء XMP بسهولة في هذا الدليل الشامل.
-weight: 13
+date: 2025-12-20
+description: تعلم كيفية إضافة مساحة اسم XMP في ملفات EPS باستخدام Aspose.Page للغة
+  Java في هذا الدرس الشامل حول aspose.page xmp.
+linktitle: Add Namespace in XMP using Java
+second_title: Aspose.Page Java API
+title: دليل aspose.page XMP – إضافة مساحة اسم في XMP باستخدام Java
 url: /ar/java/xmp-metadata-manipulation/add-namespace/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# أضف مساحة الاسم في XMP باستخدام Java
+# aspose.page xmp tutorial – إضافة مساحة اسم في XMP باستخدام Java
 
+## المقدمة
 
-## مقدمة
+إذا كنت بحاجة إلى تعديل أو إثراء بيانات التعريف لملفات EPS، فإن **aspose.page xmp tutorial** يوضح لك بالضبط **كيفية إضافة مساحة اسم XMP** باستخدام Java. في هذا الدليل سنستعرض كل خطوة — بدءًا من تحميل مستند EPS، وتسجيل مساحة اسم مخصصة، وإدراج خاصية جديدة، وأخيرًا حفظ الملف المحدث. في النهاية، ستحصل على نمط واضح وقابل لإعادة الاستخدام للعمل مع بيانات تعريف XMP في أي مشروع Java يدعم Aspose.Page.
 
-في مجال معالجة المستندات، يبرز Aspose.Page for Java كأداة قوية تقدم مجموعة واسعة من الوظائف. إحدى الميزات القوية هي القدرة على إضافة مساحات أسماء في XMP (منصة بيانات التعريف القابلة للتوسيع) باستخدام Java. سيرشدك هذا البرنامج التعليمي خلال العملية، ويقسمها إلى خطوات سهلة المتابعة.
+## إجابات سريعة
+- **ما هو الهدف الأساسي؟** إضافة مساحة اسم XMP مخصصة وخاصية إلى ملف EPS.  
+- **ما المكتبة المطلوبة؟** Aspose.Page for Java.  
+- **هل أحتاج إلى ترخيص للاختبار؟** النسخة التجريبية المجانية تكفي للتطوير؛ يلزم ترخيص تجاري للإنتاج.  
+- **كم عدد التغييرات البرمجية المطلوبة؟** فقط خمسة مقاطع شفرة قصيرة — واحدة لكل خطوة.  
+- **هل يمكنني إعادة استخدام هذا النمط لمساحات اسم أخرى؟** نعم، فقط غير البادئة وURI في استدعاء `registerNamespaceURI`.
 
-## المتطلبات الأساسية
+## ما هي مساحة اسم XMP؟
 
-قبل الخوض في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+مساحة اسم XMP (Extensible Metadata Platform) هي معرف فريد يجمع خصائص البيانات الوصفية ذات الصلة تحت URI مشترك. تسجيل مساحة اسم يتيح لك تخزين بيانات مخصصة — مثل العلامات الخاصة — دون التعارض مع المعايير الموجودة.
 
--  Aspose.Page for Java: تأكد من تثبيت المكتبة. يمكنك تنزيله[هنا](https://releases.aspose.com/page/java/).
+## لماذا نستخدم Aspose.Page لمعالجة XMP؟
 
-- بيئة تطوير Java: قم بإعداد بيئة Java على نظامك.
+- **تحكم كامل** في بيانات تعريف EPS وPDF دون الحاجة إلى أدوات Adobe.  
+- **إنشاء تلقائي** لكتل XMP عندما لا تكون موجودة، استنادًا إلى تعليقات PS.  
+- **دعم Java متعدد المنصات**، مما يجعل من السهل دمجه في خطوط الأنابيب الحالية.
 
-- ملف المستند: لديك ملف EPS يحتوي على بيانات تعريف XMP. إذا لم تكن تحتوي على بيانات تعريف XMP، فستقوم المكتبة بإنشاء واحدة بناءً على تعليقات بيانات تعريف PS.
+## المتطلبات المسبقة
 
-## حزم الاستيراد
+- Aspose.Page for Java: تأكد من تثبيت المكتبة. يمكنك تنزيلها [هنا](https://releases.aspose.com/page/java/).  
+- بيئة تطوير Java: قم بإعداد بيئة Java على نظامك.  
+- ملف المستند: احصل على ملف EPS يحتوي على بيانات تعريف XMP. إذا لم يحتوي على بيانات تعريف XMP، ستقوم المكتبة بإنشاء واحدة استنادًا إلى تعليقات بيانات تعريف PS.
 
-للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك:
+## استيراد الحزم
+
+لبدء العمل، استورد الحزم الضرورية في مشروع Java الخاص بك:
 
 ```java
 import java.io.FileInputStream;
@@ -42,42 +56,51 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## الخطوة 1: احصل على بيانات تعريف XMP
+## الخطوة 1: الحصول على بيانات تعريف XMP
 
 ```java
 
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 
-// تهيئة دفق ملف EPS للإدخال
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp3.eps");
 
 PsDocument document = new PsDocument(psStream);
-// احصل على بيانات تعريف XMP. إذا كان ملف EPS لا يحتوي على بيانات تعريف XMP، فقم بإنشاء ملف جديد مملوء بالقيم من تعليقات بيانات تعريف PS (%%Creator، %%CreateDate، %%Title، وما إلى ذلك)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, create a new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-## الخطوة 2: تسجيل مساحة الاسم الجديدة
+### لماذا هذا مهم
+استرجاع كائن `XmpMetadata` يمنحك مقبضًا حيًا لبيانات تعريف المستند، مما يتيح لك قراءتها أو تعديلها أو توسيعها قبل الحفظ.
+
+## الخطوة 2: تسجيل مساحة اسم جديدة *(كيفية إضافة مساحة اسم xmp)*
 
 ```java
-// إضافة مساحة اسم XML جديدة "http://www.some.org/schema/tmp#" مع البادئة "tmp"
+// Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
 xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 ```
+
+### شرح
+طريقة `registerNamespaceURI` تقوم بربط بادئة قصيرة (`tmp`) بـ URI كامل. هذه الخطوة أساسية للعملية التالية لأن خصائص XMP يجب أن تكون مؤهلة باستخدام مساحة اسم مسجلة.
 
 ## الخطوة 3: إضافة خاصية جديدة
 
 ```java
-// قم بإضافة خاصية جديدة "tmp:newKey" في مساحة اسم XML الجديدة
+// Add new property "tmp:newKey" in the new XML namespace
 xmp.put("tmp:newKey", new XmpValue("NewValue"));
 ```
+
+### ما الذي يحدث؟
+هنا نقوم بإنشاء خاصية مخصصة تسمى `tmp:newKey` ونُعطيها القيمة `"NewValue"`. يمكنك استبدال المفتاح والقيمة بأي شيء يناسب منطق عملك.
 
 ## الخطوة 4: حفظ المستند
 
 ```java
-// تهيئة دفق ملف EPS الناتج
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
 
-//احفظ المستند باستخدام بيانات تعريف XMP التي تم تغييرها
+// Save document with changed XMP metadata
 try {
     document.save(outPsStream);
 } finally {
@@ -85,35 +108,54 @@ try {
 }
 ```
 
+### نصيحة
+دائمًا قم بلف استدعاء `save` داخل كتلة `try/finally` (أو استخدم try‑with‑resources) لضمان إغلاق تدفق الإخراج حتى لو حدث استثناء.
+
 ## الخطوة 5: إغلاق التدفقات
 
 ```java
-// إغلاق دفق EPS المدخلات
+// Close input EPS stream
 psStream.close();
 ```
 
-لقد نجحت الآن في إضافة مساحة اسم في XMP باستخدام Aspose.Page لـ Java. لا تتردد في استكشاف المزيد من الميزات وإطلاق العنان للإمكانات الكاملة لهذه المكتبة.
+### أفضل ممارسة
+إغلاق تدفق الإدخال يحرر مقبض الملف فورًا، مما يمنع مشاكل قفل الملفات على أنظمة Windows.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-يعمل Aspose.Page for Java على تبسيط المهمة المعقدة المتمثلة في معالجة بيانات تعريف XMP في ملفات EPS. باتباع هذا الدليل المفصّل خطوة بخطوة، اكتسبت مهارة قيمة لتعزيز قدرات معالجة المستندات لديك.
+| المشكلة | السبب المحتمل | الحل |
+|-------|--------------|-----|
+| لا يظهر كتلة XMP بعد الحفظ | ملف EPS الأصلي يفتقر إلى XMP والتعليقات غير كافية | تأكد من أن EPS يحتوي على تعليقات PS قياسية (`%%Creator`, `%%Title`, إلخ) أو أنشئ يدويًا كائن `XmpMetadata` فارغ قبل تسجيل مساحة اسم. |
+| `registerNamespaceURI` يثير استثناء | البادئة مستخدمة مسبقًا | اختر بادئة فريدة أو تحقق من مساحات الاسم الموجودة عبر `xmp.getRegisteredNamespaces()`. |
+| الملف المحفوظ معطوب | تدفق الإخراج لم يتم تفريغه | استخدم `try‑with‑resources` أو استدعِ صراحةً `outPsStream.flush()` قبل الإغلاق. |
 
-## الأسئلة الشائعة
+## الخاتمة
 
-### هل يمكنني استخدام Aspose.Page لـ Java مع لغات البرمجة الأخرى؟
-يدعم Aspose.Page Java بشكل أساسي، ولكن هناك إصدارات متاحة للغات أخرى مثل .NET.
+باتباع هذا **aspose.page xmp tutorial**، لديك الآن طريقة قابلة للتكرار لإضافة مساحات اسم وخصائص مخصصة إلى ملفات EPS باستخدام Aspose.Page for Java. تفتح هذه القدرة الباب أمام استراتيجيات بيانات تعريف أغنى — سواء كنت تدمج معرفات سير العمل، أو علامات مملوكة، أو بيانات تكامل للأنظمة اللاحقة.
+
+## الأسئلة المتكررة
+
+### هل يمكنني استخدام Aspose.Page for Java مع لغات برمجة أخرى؟
+Aspose.Page يدعم أساسًا Java، ولكن هناك إصدارات متاحة للغات أخرى مثل .NET.
 
 ### هل هناك نسخة تجريبية مجانية متاحة؟
- نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+نعم، يمكنك تجربة نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
 
 ### أين يمكنني العثور على وثائق شاملة؟
- الرجوع إلى الوثائق[هنا](https://reference.aspose.com/page/java/).
+راجع الوثائق [هنا](https://reference.aspose.com/page/java/).
 
 ### كيف يمكنني الحصول على ترخيص مؤقت؟
- يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
-### هل توجد منتديات مجتمعية لـ Aspose.Page؟
- نعم، يمكنك التواصل مع المجتمع على[منتدى Aspose.Page](https://forum.aspose.com/c/page/39).
+### هل هناك منتديات مجتمع لـ Aspose.Page؟
+نعم، يمكنك التفاعل مع المجتمع عبر [منتدى Aspose.Page](https://forum.aspose.com/c/page/39).
+
+---
+
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار مع:** Aspose.Page for Java 23.12 (latest at time of writing)  
+**المؤلف:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

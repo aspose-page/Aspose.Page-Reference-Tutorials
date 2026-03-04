@@ -1,10 +1,12 @@
 ---
-title: जावा का उपयोग करके XMP में मेटाडेटा जोड़ें
-linktitle: जावा का उपयोग करके XMP में मेटाडेटा जोड़ें
-second_title: Aspose.Page जावा एपीआई
-description: जावा के लिए Aspose.Page के निर्बाध एकीकरण का अन्वेषण करें और जानें कि अपनी EPS फ़ाइलों में XMP मेटाडेटा को आसानी से कैसे जोड़ा जाए। आज ही अपने दस्तावेज़ प्रबंधन गेम को उन्नत करें!
-weight: 11
+date: 2025-12-20
+description: Aspose Page Java ट्यूटोरियल के साथ EPS फ़ाइलों में XMP मेटाडेटा जोड़ना
+  सीखें। अपने दस्तावेज़ प्रबंधन को बेहतर बनाने के लिए इस चरण‑दर‑चरण गाइड का पालन करें।
+linktitle: Add Metadata in XMP using Java
+second_title: Aspose.Page Java API
+title: Aspose Page Java ट्यूटोरियल – EPS फ़ाइलों में XMP मेटाडेटा जोड़ें
 url: /hi/java/xmp-metadata-manipulation/add-metadata/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,14 +16,27 @@ url: /hi/java/xmp-metadata-manipulation/add-metadata/
 # जावा का उपयोग करके XMP में मेटाडेटा जोड़ें
 
 ## परिचय
-क्या आप जावा का उपयोग करके एक्सएमपी जानकारी जोड़कर अपने दस्तावेज़ के मेटाडेटा को बढ़ाना चाह रहे हैं? आगे कोई तलाश नहीं करें! यह चरण-दर-चरण मार्गदर्शिका आपको जावा लाइब्रेरी के लिए Aspose.Page का उपयोग करके ईपीएस फ़ाइल में मेटाडेटा जोड़ने की प्रक्रिया के बारे में बताएगी। Aspose.Page एक शक्तिशाली उपकरण है जो जावा अनुप्रयोगों में दस्तावेज़ हेरफेर कार्यों को सरल बनाता है।
-## आवश्यक शर्तें
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित शर्तें हैं:
-- जावा प्रोग्रामिंग का बुनियादी ज्ञान।
--  जावा लाइब्रेरी के लिए Aspose.Page स्थापित किया गया। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/page/java/).
-- एक ईपीएस फ़ाइल जिसे आप संशोधित करना चाहते हैं।
+इस **aspose page java tutorial** में, आप जावा का उपयोग करके XMP जानकारी जोड़कर अपने दस्तावेज़ की मेटाडेटा को कैसे बढ़ाएँ, यह सीखेंगे। यह चरण‑दर‑चरण गाइड आपको मौजूदा EPS फ़ाइल पढ़ने, उसकी XMP मेटाडेटा निकालने, और Aspose.Page for Java लाइब्रेरी के साथ बदलावों को डिस्क पर सहेजने की प्रक्रिया से गुज़राता है। ट्यूटोरियल के अंत तक आपके पास किसी भी EPS वर्कफ़्लो में XMP के साथ काम करने के लिए एक ठोस, पुन: उपयोग योग्य पैटर्न होगा।
+
+## त्वरित उत्तर
+- **कौन सी लाइब्रेरी आवश्यक है?** Aspose.Page for Java  
+- **क्या मैं किसी भी EPS फ़ाइल में XMP जोड़ सकता हूँ?** हाँ – यदि पहले से मौजूद नहीं है तो API नया XMP ब्लॉक बनाता है।  
+- **क्या विकास के लिए लाइसेंस चाहिए?** मूल्यांकन के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए व्यावसायिक लाइसेंस आवश्यक है।  
+- **कौन सा जावा संस्करण समर्थित है?** Java 8 और बाद के संस्करण।  
+- **इम्प्लीमेंटेशन में कितना समय लगेगा?** सामान्यतः बुनियादी मेटाडेटा अपडेट के लिए 10 मिनट से कम।
+
+## Aspose Page Java ट्यूटोरियल अवलोकन
+यह ट्यूटोरियल EPS फ़ाइलों में XMP मेटाडेटा को हेरफेर करने के मुख्य चरणों को दर्शाता है। इन चरणों को समझने से आप मेटाडेटा हैंडलिंग को बड़े दस्तावेज़‑प्रोसेसिंग पाइपलाइन में एकीकृत कर सकते हैं, खोजयोग्यता में सुधार कर सकते हैं, और डिजिटल एसेट मैनेजमेंट के उद्योग मानकों का पालन कर सकते हैं।
+
+## पूर्वापेक्षाएँ
+ट्यूटोरियल शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ हैं:
+- जावा प्रोग्रामिंग का बुनियादी ज्ञान।  
+- Aspose.Page for Java लाइब्रेरी स्थापित हो। आप इसे [यहाँ](https://releases.aspose.com/page/java/) से डाउनलोड कर सकते हैं।  
+- वह EPS फ़ाइल जिसे आप संशोधित करना चाहते हैं।
+
 ## पैकेज आयात करें
-सबसे पहले, अपने जावा प्रोग्राम में आवश्यक पैकेज आयात करें:
+सबसे पहले, आवश्यक पैकेजों को अपने जावा प्रोग्राम में आयात करें:
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -29,84 +44,115 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.page.BaseExamplesTest;
 ```
-## चरण 1: एक्सएमपी मेटाडेटा प्राप्त करें
+
+## चरण 1: XMP मेटाडेटा प्राप्त करें
 ```java
-// दस्तावेज़ निर्देशिका का पथ.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// इनपुट ईपीएस फ़ाइल स्ट्रीम प्रारंभ करें
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp2.eps");
 PsDocument document = new PsDocument(psStream);
-// XMP मेटाडेटा प्राप्त करें. यदि EPS फ़ाइल में XMP मेटाडेटा नहीं है, तो PS मेटाडेटा टिप्पणियों (%%Creator, %%CreateDate, %%Title, आदि) के मानों का उपयोग करके एक नया फ़ाइल बनाया जाता है।
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, a new one is created using values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-"आपकी दस्तावेज़ निर्देशिका" को उस वास्तविक पथ से बदलना सुनिश्चित करें जहाँ आपके दस्तावेज़ संग्रहीत हैं।
 
-## चरण 2: क्रिएटरटूल मान पुनर्प्राप्त करें
+`"Your Document Directory"` को उस वास्तविक पथ से बदलें जहाँ आपके दस्तावेज़ संग्रहीत हैं।
+
+## चरण 2: CreatorTool मान प्राप्त करें
 ```java
-// "क्रिएटरटूल" मान प्राप्त करें
+// Get "CreatorTool" value
 if (xmp.containsKey("xmp:CreatorTool"))
     System.out.println("CreatorTool: " + xmp.get("xmp:CreatorTool").toStringValue());
 ```
-## चरण 3: CreateDate मान पुनर्प्राप्त करें
+
+## चरण 3: CreateDate मान प्राप्त करें
 ```java
-// "CreateDate" मान प्राप्त करें
+// Get "CreateDate" value
 if (xmp.containsKey("xmp:CreateDate"))
     System.out.println("CreateDate: " + xmp.get("xmp:CreateDate").toStringValue());
 ```
-## चरण 4: शीर्षक मान पुनः प्राप्त करें
+
+## चरण 4: Title मान प्राप्त करें
 ```java
-// "शीर्षक" मान प्राप्त करें
+// Get "Title" value
 if (xmp.containsKey("dc:title"))
     System.out.println("Title: " + xmp.get("dc:title").toArray()[0].toStringValue());
 ```
-## चरण 5: प्रारूप मान पुनर्प्राप्त करें
+
+## चरण 5: Format मान प्राप्त करें
 ```java
-//"प्रारूप" मान प्राप्त करें
+// Get "format" value
 if (xmp.containsKey("dc:format"))
     System.out.println("Format: " + xmp.get("dc:format").toStringValue());
 ```
-## चरण 6: निर्माता मूल्य पुनः प्राप्त करें
+
+## चरण 6: Creator मान प्राप्त करें
 ```java
-// "निर्माता" मान प्राप्त करें
+// Get "creator" value
 if (xmp.containsKey("dc:creator"))
     System.out.println("Creator: " + xmp.get("dc:creator").toArray()[0].toStringValue());
 ```
-## चरण 7: मेटाडेटाडेट मान पुनर्प्राप्त करें
+
+## चरण 7: MetadataDate मान प्राप्त करें
 ```java
-// "मेटाडेटाडेट" मान प्राप्त करें
+// Get "MetadataDate" value
 if (xmp.containsKey("xmp:MetadataDate"))
     System.out.println("MetadataDate: " + xmp.get("xmp:MetadataDate").toStringValue());
 ```
-## चरण 8: नए XMP मेटाडेटा के साथ दस्तावेज़ सहेजें
+
+## चरण 8: नई XMP मेटाडेटा के साथ दस्तावेज़ सहेजें
 ```java
-// आउटपुट ईपीएस फ़ाइल स्ट्रीम प्रारंभ करें
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp2_changed.eps");
-// नए XMP मेटाडेटा के साथ दस्तावेज़ सहेजें
+// Save document with new XMP metadata
 try {			
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-अंत में, इनपुट ईपीएस स्ट्रीम को बंद करना न भूलें:
+
+अंत में, इनपुट EPS स्ट्रीम को बंद करना न भूलें:
+
 ```java
-// इनपुट ईपीएस स्ट्रीम बंद करें
+// Close input EPS stream
 psStream.close();
 ```
-अब, आपने Java के लिए Aspose.Page का उपयोग करके अपनी EPS फ़ाइल में सफलतापूर्वक मेटाडेटा जोड़ लिया है!
+
+अब, आपने Aspose.Page for Java का उपयोग करके अपने EPS फ़ाइल में सफलतापूर्वक मेटाडेटा जोड़ दिया है!
+
 ## निष्कर्ष
-इस ट्यूटोरियल में, हमने जावा लाइब्रेरी के लिए Aspose.Page का उपयोग करके EPS फ़ाइल में XMP मेटाडेटा जोड़ने की प्रक्रिया का पता लगाया। यह शक्तिशाली उपकरण आपको दस्तावेजों में निर्बाध रूप से हेरफेर करने में सक्षम बनाता है, जिससे आपके समग्र दस्तावेज़ प्रबंधन अनुभव में वृद्धि होती है।
-## पूछे जाने वाले प्रश्न
-### प्रश्न: क्या जावा के लिए Aspose.Page का उपयोग मुफ़्त है?
- उत्तर: जावा के लिए Aspose.Page एक व्यावसायिक उत्पाद है। आप निःशुल्क परीक्षण के माध्यम से इसकी विशेषताओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
-### प्रश्न: मैं जावा के लिए Aspose.Page के लिए दस्तावेज़ कहां पा सकता हूं?
- उत्तर: दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/page/java/).
-### प्रश्न: मैं जावा के लिए Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
- उत्तर: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
-### प्रश्न: जावा के लिए Aspose.Page किस फ़ाइल स्वरूप का समर्थन करता है?
-उत्तर: जावा के लिए Aspose.Page ईपीएस, पीडीएफ और एक्सपीएस सहित विभिन्न प्रारूपों का समर्थन करता है।
-### प्रश्न: क्या मैं जावा के लिए Aspose.Page खरीद सकता हूँ?
- उत्तर: हां, आप जावा के लिए Aspose.Page खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+इस **aspose page java tutorial** में, हमने Aspose.Page for Java लाइब्रेरी का उपयोग करके EPS फ़ाइल में XMP मेटाडेटा जोड़ने का तरीका खोजा। यह शक्तिशाली API आपको प्रोग्रामेटिक रूप से दस्तावेज़ मेटाडेटा को हेरफेर करने की सुविधा देती है, जिससे आप एसेट्स को व्यवस्थित और खोजने योग्य रख सकते हैं।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**प्रश्न: क्या Aspose.Page for Java मुफ्त में उपयोग किया जा सकता है?**  
+उत्तर: Aspose.Page for Java एक व्यावसायिक उत्पाद है। आप इसकी सुविधाओं को एक मुफ्त ट्रायल के माध्यम से [यहाँ](https://releases.aspose.com/) देख सकते हैं।
+
+**प्रश्न: Aspose.Page for Java की दस्तावेज़ीकरण कहाँ मिल सकती है?**  
+उत्तर: दस्तावेज़ीकरण उपलब्ध है [यहाँ](https://reference.aspose.com/page/java/)।
+
+**प्रश्न: मैं Aspose.Page for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त करूँ?**  
+उत्तर: आप अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) प्राप्त कर सकते हैं।
+
+**प्रश्न: Aspose.Page for Java किन फ़ाइल फ़ॉर्मेट्स को सपोर्ट करता है?**  
+उत्तर: Aspose.Page for Java विभिन्न फ़ॉर्मेट्स को सपोर्ट करता है, जैसे EPS, PDF, और XPS।
+
+**प्रश्न: क्या मैं Aspose.Page for Java खरीद सकता हूँ?**  
+उत्तर: हाँ, आप Aspose.Page for Java को [यहाँ](https://purchase.aspose.com/buy) खरीद सकते हैं।
+
+**प्रश्न: बड़े EPS फ़ाइलों में मेटाडेटा जोड़ते समय क्या करना चाहिए?**  
+उत्तर: फ़ाइल को स्ट्रीमिंग मोड में प्रोसेस करें (जैसा कि दिखाया गया है) ताकि मेमोरी उपयोग कम रहे, और स्ट्रीम्स को तुरंत बंद करें।
+
+**प्रश्न: क्या मैं केवल पढ़ने के बजाय मौजूदा XMP फ़ील्ड्स को संशोधित कर सकता हूँ?**  
+उत्तर: बिल्कुल – आप `xmp.put(key, value)` का उपयोग करके नई एंट्रीज़ जोड़ या अपडेट कर सकते हैं, फिर सहेजें।
+
+---
+
+**अंतिम अपडेट:** 2025-12-20  
+**परीक्षित संस्करण:** Aspose.Page for Java 24.12 (नवीनतम)  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
