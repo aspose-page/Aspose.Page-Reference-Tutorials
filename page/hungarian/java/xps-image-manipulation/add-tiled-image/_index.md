@@ -115,13 +115,6 @@ Csatlakozz az Aspose.Page közösséghez a [fórumban](https://forum.aspose.com/
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Page‑hez?
 Ideiglenes licencet kaphatsz [itt](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-12-28  
@@ -129,3 +122,10 @@ Ideiglenes licencet kaphatsz [itt](https://purchase.aspose.com/temporary-license
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -56,13 +56,6 @@ Na závěr, tutoriály Aspose.Page pro Java o manipulaci se stránkami v XPS dok
 ### [Přidání stránky v Java XPS](./add-page/)
 Pozvedněte Java XPS dokumenty pomocí Aspose.Page. Naučte se snadno přidávat stránky pro rozšířenou funkčnost aplikace. Ponořte se do tutoriálu hned!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Často kladené otázky
 
 **Q:** *Mohu použít java xps page manipulation ve webové aplikaci?*  
@@ -85,3 +78,10 @@ Pozvedněte Java XPS dokumenty pomocí Aspose.Page. Naučte se snadno přidávat
 **Poslední aktualizace:** 2025-12-28  
 **Testováno s:** Aspose.Page for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

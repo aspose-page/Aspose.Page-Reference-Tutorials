@@ -100,15 +100,15 @@ Aspose.Page verarbeitet XPS‑Dokumente unterschiedlicher Größe effizient, jed
 ### Wo finde ich zusätzliche Unterstützung für Aspose.Page?
 Besuchen Sie das [Aspose.Page Forum](https://forum.aspose.com/c/page/39) für Community‑Support und Diskussionen.
 
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.Page for Java 23.9 (latest at time of writing)  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.Page for Java 23.9 (latest at time of writing)  
-**Author:** Aspose

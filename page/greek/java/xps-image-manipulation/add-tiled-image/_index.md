@@ -114,13 +114,6 @@ doc.save(dataDir + "AddTiledImage_out.xps");
 ### Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.Page;
 Αποκτήστε μια προσωρινή άδεια [here](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Τελευταία ενημέρωση:** 2025-12-28  
@@ -128,3 +121,10 @@ doc.save(dataDir + "AddTiledImage_out.xps");
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

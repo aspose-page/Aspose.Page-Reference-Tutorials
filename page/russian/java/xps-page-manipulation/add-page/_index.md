@@ -99,13 +99,6 @@ Aspose.Page эффективно обрабатывает XPS‑документ
 ### Где можно найти дополнительную поддержку для Aspose.Page?
 Посетите [Aspose.Page Forum](https://forum.aspose.com/c/page/39) для получения поддержки от сообщества и обсуждений.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2025-12-28  
@@ -113,3 +106,10 @@ Aspose.Page эффективно обрабатывает XPS‑документ
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -56,13 +56,6 @@ Készen állsz, hogy elindulj ezen a felfedező úton? Látogasd meg a [Add Page
 ### [Oldal hozzáadása Java XPS-ben](./add-page/)
 Emeld fel Java XPS dokumentumaidat az Aspose.Page segítségével. Tanuld meg, hogyan adj hozzá oldalakat könnyedén a fejlett alkalmazásfunkcionalitás érdekében. Merülj el most a tutorialban!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q:** *Használhatom a java xps page manipulation‑t webalkalmazásban?*  
@@ -85,3 +78,10 @@ Emeld fel Java XPS dokumentumaidat az Aspose.Page segítségével. Tanuld meg, h
 **Last Updated:** 2025-12-28  
 **Tested With:** Aspose.Page for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

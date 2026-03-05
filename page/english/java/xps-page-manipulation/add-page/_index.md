@@ -98,13 +98,6 @@ Aspose.Page handles XPS documents of varying sizes efficiently, but it's always 
 ### Where can I find additional support for Aspose.Page?
 Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) for community support and discussions.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-28  
@@ -112,3 +105,10 @@ Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) for community 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

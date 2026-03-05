@@ -101,15 +101,15 @@ Aspose.Page gère efficacement les documents XPS de tailles variées, mais il es
 ### Où puis‑je trouver un support supplémentaire pour Aspose.Page ?
 Visitez le [forum Aspose.Page](https://forum.aspose.com/c/page/39) pour le support communautaire et les discussions.
 
+---
+
+**Dernière mise à jour :** 2025-12-28  
+**Testé avec :** Aspose.Page for Java 23.9 (latest at time of writing)  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2025-12-28  
-**Testé avec :** Aspose.Page for Java 23.9 (latest at time of writing)  
-**Auteur :** Aspose

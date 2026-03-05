@@ -16,25 +16,25 @@ weight: 10
 
 XPS ファイルに画像を追加することは、レポートや請求書、その他のビジュアルドキュメントを充実させる必要がある Java 開発者にとって一般的な要件です。このチュートリアルでは、強力な Aspose.Page for Java ライブラリを使用して **画像を追加する方法** を学びます。各手順を順に解説し、各行の意味を説明し、典型的な落とし穴を回避するためのヒントを提供します。
 
-## Quick Answers
-- **What library is needed?** Aspose.Page for Java  
-- **Can I add multiple images?** Yes – repeat the image‑adding steps for each picture  
-- **Supported image formats?** TIFF, JPEG, PNG, GIF (and others supported by .NET)  
-- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production  
-- **Typical implementation time?** About 10‑15 minutes for a basic image insertion
+## クイックアンサー
+- **必要なライブラリは？** Aspose.Page for Java
+- **複数の画像を追加できますか？** はい – 画像ごとに画像追加の手順を繰り返してください
+- **サポートされている画像形式は？** TIFF、JPEG、PNG、GIF（および.NETでサポートされているその他の形式）
+- **ライセンスは必要ですか？** 評価には無料トライアルをご利用いただけますが、本番環境では商用ライセンスが必要です
+- **標準的な実装時間は？** 基本的な画像挿入は約10～15分です
 
-## Introduction
+## はじめに
 画像を XPS ドキュメントに追加することは、多くの Java アプリケーションで一般的な要件です。レポート生成からドキュメント処理まで、さまざまなシナリオで利用されます。Aspose.Page for Java はこの作業を簡素化し、画像を XPS ファイルにシームレスに統合するための効率的なメソッドを提供します。本チュートリアルでは、Aspose.Page for Java を使用して XPS ドキュメントに画像を追加する手順を示します。
 
-## Prerequisites
+## 前提条件
 チュートリアルに入る前に、以下の前提条件が整っていることを確認してください。
-1. **Aspose.Page for Java Library** – Download and install the Aspose.Page for Java library from the [website](https://releases.aspose.com/page/java/).  
-2. **Java Development Environment** – Ensure that you have a Java development environment set up on your machine.
+1. **Aspose.Page for Java ライブラリ** – [Web サイト](https://releases.aspose.com/page/java/) から Aspose.Page for Java ライブラリをダウンロードしてインストールします。
+2. **Java 開発環境** – お使いのマシンに Java 開発環境がセットアップされていることを確認します。
 
-Now, let's move on to the next steps.
+それでは、次の手順に進みましょう。
 
-## Import Packages
-In your Java project, import the necessary Aspose.Page for Java packages to access the required classes and methods.
+## パッケージのインポート
+Java プロジェクトで、必要なクラスとメソッドにアクセスするために必要な Aspose.Page for Java パッケージをインポートします。
 
 ```java
 import com.aspose.xps.XpsDocument;
@@ -42,22 +42,22 @@ import com.aspose.xps.XpsPath;
 import java.awt.geom.Rectangle2D;
 ```
 
-## Step 1: Set Up Document Directory
-Define the path to your document directory where the XPS document and image files will be stored.
+## ステップ 1: ドキュメントディレクトリの設定
+XPS ドキュメントと画像ファイルを保存するドキュメントディレクトリへのパスを定義します。
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Create a New XPS Document
-Initialize a new XPS document using the following code snippet:
+## ステップ 2: 新しい XPS ドキュメントの作成
+次のコードスニペットを使用して、新しい XPS ドキュメントを初期化します。
 
 ```java
 XpsDocument doc = new XpsDocument();
 ```
 
-## Step 3: Add Image to XPS Document
-To add an image, create a path in the XPS document, and set the image brush using the provided image file and coordinates.
+## ステップ 3: XPS ドキュメントへの画像の追加
+画像を追加するには、XPS ドキュメント内にパスを作成し、提供された画像ファイルと座標を使用して画像ブラシを設定します。
 
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
@@ -65,44 +65,44 @@ path.setRenderTransform(doc.createMatrix(0.7f, 0f, 0f, 0.7f, 0f, 20f));
 path.setFill(doc.createImageBrush(dataDir + "QL_logo_color.tif", new Rectangle2D.Double(0f, 0f, 258.24f, 56.64f), new Rectangle2D.Double(50f, 20f, 193.68f, 42.48f)));
 ```
 
-## Step 4: Save Resultant XPS Document
-Save the modified XPS document to your specified directory.
+## ステップ 4: 結果の XPS ドキュメントの保存
+変更した XPS ドキュメントを指定したディレクトリに保存します。
 
 ```java
 doc.save(dataDir + "AddImage_out.xps");
 ```
 
-Repeat these steps to add more images or customize the existing ones according to your project requirements.
+これらの手順を繰り返して、画像を追加したり、プロジェクトの要件に合わせて既存の画像をカスタマイズしたりできます。
 
-## Conclusion
-Congratulations! You've successfully learned **how to add image** to an XPS document using Aspose.Page for Java. This skill is invaluable for enhancing the visual appeal of your Java applications and documents.
+## まとめ
+おめでとうございます！Aspose.Page for Java を使用して XPS ドキュメントに **画像を追加する方法** を習得しました。このスキルは、Java アプリケーションやドキュメントの見た目を向上させるために非常に役立ちます。
 
-### Frequently Asked Questions
-### Can I add multiple images to the same XPS document using Aspose.Page for Java?
-Yes, you can add multiple images by repeating the steps outlined in this tutorial for each image.
+### よくある質問
+### Aspose.Page for Java を使用して、同じ XPS ドキュメントに複数の画像を追加できますか？
+はい。このチュートリアルで説明されている手順を各画像に対して繰り返すことで、複数の画像を追加できます。
 
-### What image formats are supported by Aspose.Page for Java?
-Aspose.Page for Java supports various image formats, including TIFF, JPEG, PNG, and GIF.
+### Aspose.Page for Java でサポートされている画像形式は何ですか？
+Aspose.Page for Java は、TIFF、JPEG、PNG、GIF など、さまざまな画像形式をサポートしています。
 
-### Is there a trial version of Aspose.Page for Java available?
-Yes, you can obtain a free trial of Aspose.Page for Java from [this link](https://releases.aspose.com/).
+### Aspose.Page for Java の試用版はありますか？
+はい。[このリンク](https://releases.aspose.com/) から Aspose.Page for Java の無料試用版を入手できます。
 
-### How can I get a temporary license for Aspose.Page for Java?
-You can obtain a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+### Aspose.Page for Java の一時ライセンスはどこで入手できますか？
+一時ライセンスは [このリンク](https://purchase.aspose.com/temporary-license/) から入手できます。
 
-### Where can I find additional support or discuss issues related to Aspose.Page for Java?
-Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to seek help, share experiences, and connect with the Aspose.Page community.
+### Aspose.Page for Java に関する追加サポートや問題について議論するには、どこで確認できますか？
+[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39) にアクセスして、ヘルプを求めたり、経験を共有したり、Aspose.Page コミュニティに参加したりしてください。
 
-## Additional Tips & Common Pitfalls
-- **Path Geometry Accuracy** – Ensure the SVG‑style path string matches the dimensions of your image; otherwise the image may appear stretched or clipped.  
-- **Image Brush Scaling** – The `createImageBrush` method takes source and destination rectangles; tweaking these values lets you control positioning and scaling precisely.  
-- **License Activation** – If you run the code without a valid license, Aspose will add a watermark to the generated XPS file.
+## その他のヒントとよくある落とし穴
+- **パスジオメトリの精度** – SVG スタイルのパス文字列が画像のサイズと一致していることを確認してください。一致していないと、画像が引き伸ばされたり、切り取られたりする可能性があります。
+- **イメージブラシのスケーリング** – `createImageBrush` メソッドは、ソースとターゲットの四角形を受け取ります。これらの値を調整することで、位置とスケーリングを正確に制御できます。
+- **ライセンスアクティベーション** – 有効なライセンスなしでコードを実行すると、Aspose は生成された XPS ファイルに透かしを追加します。
 
 ---
 
-**Last Updated:** 2025-12-28  
-**Tested With:** Aspose.Page for Java 23.12 (latest at time of writing)  
-**Author:** Aspose  
+**最終更新日:** 2025年12月28日
+**テスト環境:** Aspose.Page for Java 23.12 (執筆時点の最新版)
+**作成者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

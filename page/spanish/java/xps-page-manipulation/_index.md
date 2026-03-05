@@ -56,13 +56,6 @@ En conclusión, los tutoriales de Aspose.Page for Java sobre la manipulación de
 ### [Agregar Página en Java XPS](./add-page/)
 Eleva los documentos Java XPS con Aspose.Page. Aprende a agregar páginas sin esfuerzo para mejorar la funcionalidad de la aplicación. ¡Sumérgete en el tutorial ahora!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas Frecuentes
 
 **Q:** *¿Puedo usar java xps page manipulation en una aplicación web?*  
@@ -85,3 +78,10 @@ Eleva los documentos Java XPS con Aspose.Page. Aprende a agregar páginas sin es
 **Última actualización:** 2025-12-28  
 **Probado con:** Aspose.Page for Java 24.12  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

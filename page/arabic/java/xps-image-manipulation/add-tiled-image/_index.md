@@ -114,13 +114,6 @@ doc.save(dataDir + "AddTiledImage_out.xps");
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page؟
 احصل على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2025-12-28  
@@ -128,3 +121,10 @@ doc.save(dataDir + "AddTiledImage_out.xps");
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

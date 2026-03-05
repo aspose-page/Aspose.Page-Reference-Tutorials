@@ -113,13 +113,6 @@ Engage with the Aspose.Page community on the [forum](https://forum.aspose.com/c/
 ### How can I obtain a temporary license for Aspose.Page?
 Acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-28  
@@ -127,3 +120,10 @@ Acquire a temporary license [here](https://purchase.aspose.com/temporary-license
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

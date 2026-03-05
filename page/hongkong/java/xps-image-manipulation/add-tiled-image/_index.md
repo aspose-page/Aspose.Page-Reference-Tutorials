@@ -111,15 +111,15 @@ Aspose.Page 設計可在多種 Java 版本上運作。請透過檢查文件 [her
 ### 如何取得 Aspose.Page 的臨時授權？
 請於 [here](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
 
+---
+
+**最後更新：** 2025-12-28  
+**測試環境：** Aspose.Page for Java 24.12 (latest)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-28  
-**測試環境：** Aspose.Page for Java 24.12 (latest)  
-**作者：** Aspose

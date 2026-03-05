@@ -114,13 +114,6 @@ Berinteraksilah dengan komunitas Aspose.Page di [forum](https://forum.aspose.com
 ### Bagaimana cara memperoleh lisensi sementara untuk Aspose.Page?
 Dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Terakhir Diperbarui:** 2025-12-28  
@@ -128,3 +121,10 @@ Dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-licen
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -56,13 +56,6 @@ Sammanfattningsvis öppnar Aspose.Page for Java-handledningar om sidhantering i 
 ### [Lägg till sida i Java XPS](./add-page/)
 Höj Java XPS-dokument med Aspose.Page. Lär dig att enkelt lägga till sidor för förbättrad applikationsfunktionalitet. Dyka in i handledningen nu!
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Vanliga frågor
 
 **Q:** *Kan jag använda java xps page manipulation i en webbapplikation?*  
@@ -85,3 +78,10 @@ Höj Java XPS-dokument med Aspose.Page. Lär dig att enkelt lägga till sidor f�
 **Last Updated:** 2025-12-28  
 **Tested With:** Aspose.Page for Java 24.12  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

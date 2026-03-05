@@ -112,13 +112,6 @@ Aspose.Page topluluğu ile [forumda](https://forum.aspose.com/c/page/39) etkile�
 ### Aspose.Page için geçici bir lisans nasıl alabilirim?
 Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2025-12-28  
@@ -126,3 +119,10 @@ Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) e
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

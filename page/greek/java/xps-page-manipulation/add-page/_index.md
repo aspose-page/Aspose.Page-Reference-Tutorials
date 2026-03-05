@@ -101,13 +101,6 @@ doc.save(dataDir + "AddPages_out.xps");
 ### Πού μπορώ να βρω πρόσθετη υποστήριξη για το Aspose.Page;
 Επισκεφθείτε το [Aspose.Page Forum](https://forum.aspose.com/c/page/39) για υποστήριξη κοινότητας και συζητήσεις.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-28  
@@ -115,3 +108,10 @@ doc.save(dataDir + "AddPages_out.xps");
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -114,13 +114,6 @@ Aspose.Page समुदाय से जुड़ें [फ़ोरम](https
 ### Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?
 अस्थायी लाइसेंस प्राप्त करने के लिए [यहाँ](https://purchase.aspose.com/temporary-license/) जाएँ।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **अंतिम अपडेट:** 2025-12-28  
@@ -128,3 +121,10 @@ Aspose.Page समुदाय से जुड़ें [फ़ोरम](https
 **लेखक:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

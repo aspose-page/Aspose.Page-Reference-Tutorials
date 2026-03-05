@@ -114,15 +114,15 @@ Partecipa alla community di Aspose.Page sul [forum](https://forum.aspose.com/c/p
 ### Come posso ottenere una licenza temporanea per Aspose.Page?
 Ottieni una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Ultimo aggiornamento:** 2025-12-28  
+**Testato con:** Aspose.Page for Java 24.12 (latest)  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-28  
-**Testato con:** Aspose.Page for Java 24.12 (latest)  
-**Autore:** Aspose

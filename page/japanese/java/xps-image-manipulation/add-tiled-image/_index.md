@@ -113,13 +113,6 @@ Aspose.Pageコミュニティは[フォーラム](https://forum.aspose.com/c/pag
 ### Aspose.Pageの一時ライセンスはどう取得できますか？
 一時ライセンスは[こちら](https://purchase.aspose.com/temporary-license/)から取得できます。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-28  
@@ -127,3 +120,10 @@ Aspose.Pageコミュニティは[フォーラム](https://forum.aspose.com/c/pag
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

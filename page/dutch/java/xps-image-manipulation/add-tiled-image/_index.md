@@ -112,13 +112,6 @@ Doe mee met de Aspose.Page‑community op het [forum](https://forum.aspose.com/c
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Page verkrijgen?
 Verkrijg een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2025-12-28  
@@ -126,3 +119,10 @@ Verkrijg een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-li
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

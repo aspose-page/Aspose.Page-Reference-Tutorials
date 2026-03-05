@@ -113,15 +113,15 @@ Aspose.Page 设计用于兼容多种 Java 版本。请通过查看文档[此处]
 ### 如何获取 Aspose.Page 的临时许可证？
 可在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
 
+---
+
+**最后更新：** 2025-12-28  
+**测试环境：** Aspose.Page for Java 24.12（最新）  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-28  
-**测试环境：** Aspose.Page for Java 24.12（最新）  
-**作者：** Aspose

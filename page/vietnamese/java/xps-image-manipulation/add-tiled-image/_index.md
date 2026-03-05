@@ -114,13 +114,6 @@ Tham gia cộng đồng Aspose.Page trên [diễn đàn](https://forum.aspose.co
 ### Làm sao để có được giấy phép tạm thời cho Aspose.Page?
 Nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2025-12-28  
@@ -128,3 +121,10 @@ Nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/tempo
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

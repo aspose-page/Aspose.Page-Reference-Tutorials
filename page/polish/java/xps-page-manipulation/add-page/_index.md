@@ -100,13 +100,6 @@ Aspose.Page radzi sobie efektywnie z dokumentami XPS o różnej wielkości, jedn
 ### Gdzie mogę uzyskać dodatkowe wsparcie dla Aspose.Page?
 Odwiedź [Forum Aspose.Page](https://forum.aspose.com/c/page/39), aby uzyskać wsparcie społeczności i uczestniczyć w dyskusjach.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-28  
@@ -114,3 +107,10 @@ Odwiedź [Forum Aspose.Page](https://forum.aspose.com/c/page/39), aby uzyskać w
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

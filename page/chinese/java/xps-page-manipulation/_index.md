@@ -55,13 +55,6 @@ Aspose.Page 以其用户友好的方式和无与伦比的能力脱颖而出。�
 ### [在 Java XPS 中添加页面](./add-page/)
 提升 Java XPS 文档的功能，使用 Aspose.Page 学会轻松添加页面，以增强应用功能。立即深入教程！
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常见问题
 
 **Q:** *我可以在 Web 应用程序中使用 java xps page manipulation 吗？*  
@@ -84,3 +77,10 @@ Aspose.Page 以其用户友好的方式和无与伦比的能力脱颖而出。�
 **最后更新：** 2025-12-28  
 **测试环境：** Aspose.Page for Java 24.12  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

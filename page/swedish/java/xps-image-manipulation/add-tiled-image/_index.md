@@ -112,15 +112,15 @@ Engagera dig med Aspose.Page‑communityn på [forumet](https://forum.aspose.com
 ### Hur kan jag skaffa en tillfällig licens för Aspose.Page?
 Skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Senast uppdaterad:** 2025-12-28  
+**Testat med:** Aspose.Page for Java 24.12 (latest)  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-28  
-**Testat med:** Aspose.Page for Java 24.12 (latest)  
-**Författare:** Aspose

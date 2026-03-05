@@ -99,15 +99,15 @@ Aspose.Page 能高效处理不同大小的 XPS 文档，但最佳实践仍是进
 ### 在哪里可以找到 Aspose.Page 的其他支持？
 访问 [Aspose.Page 论坛](https://forum.aspose.com/c/page/39) 获取社区支持和讨论。
 
+---
+
+**最后更新：** 2025-12-28  
+**测试环境：** Aspose.Page for Java 23.9 (latest at time of writing)  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-28  
-**测试环境：** Aspose.Page for Java 23.9 (latest at time of writing)  
-**作者：** Aspose
