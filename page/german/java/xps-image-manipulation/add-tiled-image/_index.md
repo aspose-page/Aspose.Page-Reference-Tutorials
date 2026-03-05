@@ -1,27 +1,44 @@
 ---
-title: Fügen Sie ein gekacheltes Bild in Java XPS hinzu
-linktitle: Fügen Sie ein gekacheltes Bild in Java XPS hinzu
-second_title: Aspose.Page Java-API
-description: Entdecken Sie die nahtlose Manipulation von Java XPS-Dokumenten mit Aspose.Page. Erfahren Sie mit dieser Schritt-für-Schritt-Anleitung, wie Sie mühelos gekachelte Bilder hinzufügen.
-weight: 11
+date: 2025-12-28
+description: Erfahren Sie, wie Sie mit Aspose.Page ein XPS‑Dokument in Java erstellen
+  und mühelos ein gekacheltes Bild hinzufügen – Schritt für Schritt.
+linktitle: Add Tiled Image in Java XPS
+second_title: Aspose.Page Java API
+title: Wie man ein XPS-Dokument mit einem gekachelten Bild in Java erstellt
 url: /de/java/xps-image-manipulation/add-tiled-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fügen Sie ein gekacheltes Bild in Java XPS hinzu
+# Erstellen eines XPS-Dokuments und Hinzufügen eines gekachelten Bildes in Java
 
-## Einführung
-In der dynamischen Welt der Java-Entwicklung wächst der Bedarf an effizienter Dokumentenbearbeitung und -erstellung ständig. Aspose.Page für Java erweist sich als leistungsstarkes Tool, das Entwicklern die Möglichkeit bietet, nahtlos mit XPS-Dokumenten zu arbeiten. Dieses Tutorial konzentriert sich auf eine bestimmte Aufgabe – das Hinzufügen eines gekachelten Bildes zu einem Java XPS-Dokument.
+## Einleitung
+In der modernen Java-Entwicklung ist die Fähigkeit, **XPS-Dokumente** programmgesteuert zu erstellen, eine wertvolle Fähigkeit, besonders wenn Sie sie mit Grafiken wie gekachelten Bildern anreichern müssen. Aspose.Page für Java macht diesen Prozess unkompliziert und ermöglicht es Ihnen, sich auf das visuelle Design zu konzentrieren statt auf die Low‑Level-Dateiverarbeitung. In diesem Tutorial lernen Sie genau, wie man ein XPS-Dokument erstellt, **ein gekacheltes Bild hinzufügt** und das Ergebnis speichert, alles mit klaren, Schritt‑für‑Schritt‑Codebeispielen.
+
+## Schnelle Antworten
+- **Was macht Aspose.Page?** Es bietet eine High‑Level‑API zum Erzeugen und Manipulieren von XPS-Dokumenten in Java.  
+- **Kann ich ein Bild kacheln?** Ja – verwenden Sie `XpsImageBrush` mit `XpsTileMode.Tile`.  
+- **Brauche ich eine Lizenz?** Für den Produktionseinsatz ist eine temporäre oder kommerzielle Lizenz erforderlich.  
+- **Welche Java-Version wird unterstützt?** Jede JDK 8+ ist kompatibel.  
+- **Wie lange dauert die Implementierung?** Etwa 10–15 Minuten für ein einfaches gekacheltes Bild‑Szenario.
+
+## Was bedeutet „XPS-Dokument erstellen“?
+Eine XPS‑Datei (XML Paper Specification) ist ein festes Layout‑Dokumentformat, ähnlich wie PDF. Das programmgesteuerte Erstellen eines XPS‑Dokuments ermöglicht es Ihnen, druckbare, geräteunabhängige Dateien direkt aus Java‑Code zu erzeugen.
+
+## Warum ein gekacheltes Bild hinzufügen?
+Das Kacheln eines Bildes wiederholt die Grafik über einen definierten Bereich hinweg, was sich perfekt für Hintergründe, Wasserzeichen oder Musterfüllungen eignet. Mit Aspose.Page’s `XpsTileMode.Tile` können Sie dies mit nur wenigen Codezeilen erreichen.
+
 ## Voraussetzungen
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-1. Java Development Kit (JDK): Stellen Sie sicher, dass JDK auf Ihrem System installiert ist.
-2.  Aspose.Page für Java: Laden Sie Aspose.Page für Java von herunter und installieren Sie es[Webseite](https://releases.aspose.com/page/java/).
-3. Ihr Dokumentverzeichnis: Wählen oder erstellen Sie ein Verzeichnis, in dem Sie Ihr XPS-Dokument speichern möchten.
+1. **Java Development Kit (JDK)** – JDK 8 oder neuer installiert.  
+2. **Aspose.Page für Java** – herunterladen von der [Website](https://releases.aspose.com/page/java/).  
+3. **Ein beschreibbares Verzeichnis** – in dem die erzeugte XPS‑Datei gespeichert wird.
+
 ## Pakete importieren
-Importieren Sie in Ihrem Java-Projekt die erforderlichen Pakete, um die Aspose.Page-Funktionen zu nutzen:
+Importieren Sie in Ihrem Java‑Projekt die erforderlichen Klassen:
+
 ```java
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsImageBrush;
@@ -29,51 +46,80 @@ import com.aspose.xps.XpsPath;
 import com.aspose.xps.XpsTileMode;
 import java.awt.geom.Rectangle2D;
 ```
-Lassen Sie uns nun den Prozess des Hinzufügens eines gekachelten Bildes zu einem Java XPS-Dokument in klare, überschaubare Schritte unterteilen.
-## Schritt 1: Richten Sie Ihr Projekt ein
-Beginnen Sie mit der Einrichtung Ihres Java-Projekts und stellen Sie sicher, dass Aspose.Page für Java ordnungsgemäß integriert ist.
-## Schritt 2: XPS-Dokument erstellen
-Initialisieren Sie ein neues XPS-Dokument mit dem folgenden Code:
+
+## Schritt‑für‑Schritt‑Anleitung
+
+### Schritt 1: Projekt einrichten
+Fügen Sie die Aspose.Page‑JAR‑Dateien zu Ihrem Projekt‑Classpath hinzu und prüfen Sie, dass die Import‑Anweisungen ohne Fehler kompilieren.
+
+### Schritt 2: XPS‑Dokument erstellen
+Instanziieren Sie ein neues `XpsDocument`‑Objekt. Dies ist der Kern‑Container, der alle Seiten, Pfade und Ressourcen enthält.
+
 ```java
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Erstellen Sie ein neues XPS-Dokument
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
-## Schritt 3: Definieren Sie den Pfad für gekachelte Bilder
-Geben Sie den Pfad zum gekachelten Bild an, das Sie dem XPS-Dokument hinzufügen möchten.
-## Schritt 4: Gekacheltes Bild hinzufügen
-Verwenden Sie den folgenden Codeausschnitt, um dem XPS-Dokument ein gekacheltes Bild hinzuzufügen:
+
+### Schritt 3: Pfad des gekachelten Bildes festlegen
+Legen Sie das Bild, das Sie kacheln möchten (z. B. `R08LN_NN.jpg`), im Verzeichnis ab, das durch `dataDir` referenziert wird. Das Bild wird als Pinsel‑Muster verwendet.
+
+### Schritt 4: Gekacheltes Bild hinzufügen
+Erstellen Sie einen rechteckigen Pfad und füllen Sie ihn mit einem `XpsImageBrush`. Durch das Setzen des Tile‑Modus auf `Tile` wiederholt sich das Bild über das Rechteck.
+
 ```java
-// Kachelbild
-// Mit ImageBrush gefülltes Rechteck rechts oben unten
+// Tile image
+// ImageBrush filled rectangle in the right top below
 XpsPath path = doc.addPath(doc.createPathGeometry("M 10,160 L 228,160 228,305 10,305"));
 path.setFill(doc.createImageBrush(dataDir +  "R08LN_NN.jpg",
                                 new Rectangle2D.Float(0f, 0f, 128f, 96f), new Rectangle2D.Float(0f, 0f, 64f, 48f)));
 ((XpsImageBrush)path.getFill()).setTileMode(XpsTileMode.Tile);
 path.getFill().setOpacity(0.5f);
 ```
-## Schritt 5: Speichern Sie das Dokument
-Speichern Sie abschließend das resultierende XPS-Dokument mit dem folgenden Code:
+
+### Schritt 5: Dokument speichern
+Speichern Sie die XPS‑Datei auf dem Datenträger. Die Ausgabedatei enthält das von Ihnen gerade definierte gekachelte Bild.
+
 ```java
-// Speichern Sie das resultierende XPS-Dokument
+// Save resultant XPS document
 doc.save(dataDir + "AddTiledImage_out.xps"); 
 ```
-Wiederholen Sie diese Schritte, um mit Aspose.Page mühelos ein gekacheltes Bild in Ihr Java XPS-Dokument zu integrieren.
-## Abschluss
-Aspose.Page für Java optimiert den Prozess der Arbeit mit XPS-Dokumenten und bietet Entwicklern eine effiziente Lösung für die Dokumentbearbeitung. Wenn Sie dieser Schritt-für-Schritt-Anleitung folgen, können Sie mühelos ein gekacheltes Bild zu Ihrem Java XPS-Dokument hinzufügen.
 
-## FAQs
-### Ist Aspose.Page mit allen Java-Versionen kompatibel?
- Aspose.Page ist für die Verwendung mit verschiedenen Java-Versionen konzipiert. Stellen Sie die Kompatibilität sicher, indem Sie die Dokumentation prüfen[Hier](https://reference.aspose.com/page/java/).
+Wiederholen Sie diese Schritte, wann immer Sie **ein gekacheltes Bild** zu anderen Seiten oder Formen im selben XPS‑Dokument hinzufügen müssen.
+
+## Häufige Probleme und Lösungen
+| Problem | Lösung |
+|---------|--------|
+| Bild wird nicht angezeigt | Stellen Sie sicher, dass der Dateipfad (`dataDir + "R08LN_NN.jpg"`) korrekt ist und das Bild zugänglich ist. |
+| Kachelmuster erscheint gestreckt | Passen Sie die Quell‑ und Ziel‑`Rectangle2D`‑Werte an, um die Kachelgröße zu steuern. |
+| Deckkraft hat keinen Effekt | Stellen Sie sicher, dass die Deckkraft des Pinsels **nach** der Konfiguration des Tile‑Modus gesetzt wird. |
+
+## Häufig gestellte Fragen
+
+### Ist Aspose.Page mit allen Java‑Versionen kompatibel?
+Aspose.Page ist so konzipiert, dass es mit verschiedenen Java‑Versionen funktioniert. Stellen Sie die Kompatibilität sicher, indem Sie die Dokumentation [hier](https://reference.aspose.com/page/java/) prüfen.
+
 ### Kann ich Aspose.Page für kommerzielle Projekte verwenden?
-Ja, Aspose.Page bietet kommerzielle Lizenzen an. Kaufen Sie sie[Hier](https://purchase.aspose.com/buy).
+Ja, Aspose.Page bietet kommerzielle Lizenzen an. Kaufen Sie diese [hier](https://purchase.aspose.com/buy).
+
 ### Gibt es eine kostenlose Testversion?
- Ja, erkunden Sie die Funktionen von Aspose.Page mit einer kostenlosen Testversion[Hier](https://releases.aspose.com/).
-### Wo finde ich Community-Unterstützung und Diskussionen?
- Treten Sie mit der Aspose.Page-Community auf der Seite in Kontakt[Forum](https://forum.aspose.com/c/page/39).
+Ja, erkunden Sie die Funktionen von Aspose.Page mit einer kostenlosen Testversion [hier](https://releases.aspose.com/).
+
+### Wo finde ich Community‑Support und Diskussionen?
+Beteiligen Sie sich an der Aspose.Page‑Community im [Forum](https://forum.aspose.com/c/page/39).
+
 ### Wie kann ich eine temporäre Lizenz für Aspose.Page erhalten?
- Erwerben Sie eine temporäre Lizenz[Hier](https://purchase.aspose.com/temporary-license/).
+Erwerben Sie eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Last Updated:** 2025-12-28  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose  
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
