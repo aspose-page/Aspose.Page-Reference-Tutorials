@@ -1,57 +1,61 @@
 ---
-date: 2025-12-21
-description: Lär dig hur du ställer in upplösning när du konverterar XPS till BMP
-  i Java med Aspose.Page. Denna Java‑bildkonverteringsguide säkerställer högkvalitativa
-  resultat.
+date: 2026-03-08
+description: Lär dig hur du konverterar XPS till BMP i Java och ställer in BMP‑upplösning
+  med Aspose.Page java‑bildkonverteringsbiblioteket. Denna guide täcker högkvalitativ
+  utdata och minnesvänliga tips.
 linktitle: Convert XPS to BMP in Java
 second_title: Aspose.Page Java API
-title: Hur man ställer in upplösning vid konvertering av XPS till BMP i Java
+title: Konvertera XPS till BMP i Java – Ställ in upplösning för högkvalitativ utdata
 url: /sv/java/xps-conversion/to-bmp/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ unchanged.
+
+Make sure to keep all markdown formatting.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertera XPS till BMP i Java
 
 ## Introduktion
-Välkommen till denna steg‑för‑steg‑guide om **hur man ställer in upplösning** när man konverterar XPS (XML Paper Specification)-filer till BMP (Bitmap)-format i Java med Aspose.Page. Aspose.Page för Java är ett kraftfullt bibliotek som erbjuder omfattande funktioner för att arbeta med XPS-dokument. I den här handledningen kommer vi att gå igenom processen för att enkelt konvertera XPS-filer till BMP-bilder.
+Välkommen till den här steg‑för‑steg‑guiden om hur du **konverterar XPS till BMP** i Java och ställer in upplösningen för optimal bildkvalitet med Aspose.Page. Oavsett om du bygger en utskriftspipeline, genererar miniatyrbilder eller behöver högupplösta grafik, ger kontroll av DPI dig flexibiliteten att möta alla krav.
 
 ## Snabba svar
-- **Vilket bibliotek bör jag använda?** Aspose.Page för Java tillhandahåller de mest kompletta XPS → BMP-konverteringsfunktionerna.  
-- **Kan jag kontrollera bildkvaliteten?** Ja – använd `BmpSaveOptions` för att ställa in upplösning och utjämningsläge.  
-- **Behöver jag bara konvertera specifika sidor?** Absolut, `options.setPageNumbers()` låter dig välja exakt vilka sidor.  
-- **Är detta en riktig java-bildkonvertering?** API:et renderar XPS-sidor direkt till bitmapdata, så inga mellanformat behövs.  
-- **Vilken Java-version stöds?** Alla moderna Java-versioner (8 och senare) är kompatibla.
+- **Vilket bibliotek ska jag använda?** Aspose.Page for Java är det mest kompletta **java image conversion library** för XPS → BMP.  
+- **Kan jag kontrollera bildkvaliteten?** Ja – använd `BmpSaveOptions` för att **set BMP resolution** och smoothing mode.  
+- **Hur undviker jag OutOfMemoryError Java när jag bearbetar stora XPS‑filer?** Rendera sidor i partitioner eller öka JVM‑heapen (`-Xmx`).  
+- **Behöver jag bara konvertera specifika sidor?** Absolut, `options.setPageNumbers()` låter dig välja exakta sidor.  
+- **Vilka Java‑versioner stöds?** Alla moderna Java‑versioner (8 och senare) fungerar sömlöst.
 
 ## Vad är syftet med att ställa in upplösning?
-Upplösning bestämmer antalet punkter per tum (DPI) i den genererade BMP-bilden. En högre DPI ger skarpare bilder, vilket är avgörande för utskrift eller detaljerat grafiskt arbete. Genom att justera upplösning får du full kontroll över utdata kvaliteten i ditt **java convert xps**‑arbetsflöde.
+Upplösning bestämmer antalet punkter per tum (DPI) i den genererade BMP‑bilden. En högre DPI ger skarpare bilder, vilket är avgörande för utskrift eller detaljerat grafiskt arbete. Genom att justera upplösningen får du full kontroll över utdata­kvaliteten i ditt **convert xps to bmp**‑arbetsflöde.
 
-## Varför använda Aspose.Page för XPS → BMP-konvertering?
-- **Hög trohet** – bevarar vektor kvaliteten i den ursprungliga XPS.  
-- **Fin‑granulär kontroll** – du kan ställa in DPI, utjämning och till och med välja specifika sidor att konvertera.  
-- **Inga externa beroenden** – ren Java, inga inhemska bibliotek krävs.  
-- **Skalbar** – fungerar för enkelsidiga dokument såväl som stora flersidiga XPS-filer.
+## Varför använda Aspose.Page för XPS → BMP‑konvertering?
+- **High fidelity** – behåller vektor­kvaliteten i den ursprungliga XPS.  
+- **Fine‑grained control** – du kan ställa in DPI, smoothing och till och med välja specifika sidor att konvertera.  
+- **No external dependencies** – ren Java, inga inhemska bibliotek krävs.  
+- **Scalable** – fungerar för enkelsidiga dokument såväl som stora flersidiga XPS‑filer.  
 
 ## Förutsättningar
 Innan du dyker ner i konverteringsprocessen, se till att du har följande förutsättningar:
-- **Java-utvecklingsmiljö** – Java 8 eller nyare installerat på din maskin.  
-- **Aspose.Page för Java-bibliotek** – Ladda ner och inkludera Aspose.Page för Java-biblioteket i ditt projekt. Du kan hitta biblioteket [här](https://releases.aspose.com/page/java/).  
-- **Exempel XPS-fil** – Förbered ett exempel XPS-dokument som du vill konvertera till BMP.
+- **Java Development Environment** – Java 8 eller nyare installerat på din maskin.  
+- **Aspose.Page for Java Library** – Ladda ner och inkludera Aspose.Page for Java‑biblioteket i ditt projekt. Du kan hitta biblioteket [here](https://releases.aspose.com/page/java/).  
+- **Sample XPS File** – Förbered ett exempel‑XPS‑dokument som du vill konvertera till BMP.
 
 ## Importera paket
-Inkludera de nödvändiga Aspose.Page-paketen i din Java-kod:
+Inkludera de nödvändiga Aspose.Page‑paketen i din Java‑kod:
 ```java
 import com.aspose.xps.XpsDocument;
 import java.io.FileOutputStream;
 ```
 
-## Hur man ställer in upplösning för XPS till BMP-konvertering
-Nedan följer en kortfattad, numrerad genomgång som visar exakt var och hur man ställer in upplösning, samt hur man **konverterar specifika sidor**.
+## Hur man ställer in upplösning för XPS till BMP‑konvertering
+Nedan är en kortfattad, numrerad genomgång som visar exakt var och hur du ställer in upplösningen, samt hur du **konverterar specifika sidor**.
 
-### Steg 1: Ladda XPS-dokument
+### Steg 1: Ladda XPS‑dokument
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -99,36 +103,41 @@ for (int i = 0; i < device.getResult().length; i++) {
 }
 ```
 
-Upprepa dessa steg för eventuella ytterligare anpassningar eller ändringar du kan behöva i konverteringsprocessen.
+Upprepa dessa steg för eventuell ytterligare anpassning eller modifiering du kan behöva i konverteringsprocessen.
+
+## Hur man undviker OutOfMemoryError Java vid konvertering av stora XPS‑filer
+- **Process in partitions** – Exemplet renderar redan dokumentet i partitioner (`device.getResult()`), vilket minskar minnesbelastningen.  
+- **Increase JVM heap** – Använd flaggan `-Xmx` (t.ex. `-Xmx2g`) för att tilldela mer minne för stora dokument.  
+- **Dispose of resources** – Anropa `document.close()` när du är klar för att frigöra inhemska resurser.
 
 ## Vanliga problem och lösningar
 | Issue | Solution |
 |-------|----------|
-| **Lågkvalitativ BMP-utdata** | Verifiera att `options.setResolution()` är inställd på ett värde ≥ 300 DPI. |
+| **Lågkvalitativ BMP‑utdata** | Verifiera att `options.setResolution()` är inställd på ett värde ≥ 300 DPI. |
 | **Endast en del av dokumentet konverteras** | Se till att `options.setPageNumbers()` inkluderar alla önskade sidindex. |
-| **OutOfMemoryError på stora XPS-filer** | Bearbeta dokumentet i mindre partitioner eller öka JVM:s heap-storlek (`-Xmx`). |
-| **Fil ej hittad** | Dubbelkolla `dataDir`-sökvägen och att den angivna XPS-filen finns. |
+| **OutOfMemoryError på stora XPS‑filer** | Processa dokumentet i mindre partitioner eller öka JVM‑heap‑storleken (`-Xmx`). |
+| **Filen hittades inte** | Dubbelkolla `dataDir`‑sökvägen och att den inmatade XPS‑filen finns. |
 
 ## Vanliga frågor
-### Q: Kan jag anpassa upplösningen på BMP-bilderna?
+### Q: Kan jag anpassa upplösningen på BMP‑bilderna?
 A: Ja, du kan justera upplösningen genom att ändra parametern `options.setResolution()` i koden.
 
-### Q: Är Aspose.Page kompatibel med olika Java-versioner?
-A: Ja, Aspose.Page stödjer ett brett spektrum av Java-versioner. Se till att du har en kompatibel version installerad.
+### Q: Är Aspose.Page kompatibel med olika Java‑versioner?
+A: Ja, Aspose.Page stödjer ett brett spektrum av Java‑versioner. Se till att du har en kompatibel version installerad.
 
-### Q: Hur kan jag konvertera XPS-filer från ett specifikt sidintervall?
+### Q: Hur kan jag konvertera XPS‑filer från ett specifikt sidintervall?
 A: Använd metoden `options.setPageNumbers()` för att ange de sidnummer du vill konvertera.
 
 ### Q: Finns det andra utdataformat som stöds av Aspose.Page?
-A: Ja, Aspose.Page stödjer olika utdataformat. Se dokumentationen för en komplett lista.
+A: Ja, Aspose.Page stödjer olika utdataformat. Se dokumentationen för en fullständig lista.
 
 ### Q: Var kan jag hitta ytterligare hjälp eller support?
-A: Besök [Aspose.Page Forum](https://forum.aspose.com/c/page/39) för community-support och diskussioner.
+A: Besök [Aspose.Page Forum](https://forum.aspose.com/c/page/39) för community‑support och diskussioner.
 
 ---
 
-**Senast uppdaterad:** 2025-12-21  
-**Testad med:** Aspose.Page for Java 24.12  
+**Senast uppdaterad:** 2026-03-08  
+**Testat med:** Aspose.Page for Java 24.12  
 **Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

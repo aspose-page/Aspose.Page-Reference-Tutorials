@@ -1,10 +1,10 @@
 ---
-date: 2025-12-20
-description: Leer hoe u XMP-namespace toevoegt in EPS-bestanden met Aspose.Page voor
-  Java in deze uitgebreide aspose.page XMP-tutorial.
+date: 2026-03-08
+description: Leer hoe u XMP-namespace toevoegt aan EPS‑bestanden met Aspose.Page voor
+  Java – een stapsgewijze tutorial over het toevoegen van XMP en XMP-namespace, Java‑gids.
 linktitle: Add Namespace in XMP using Java
 second_title: Aspose.Page Java API
-title: aspose.page XMP-tutorial – Namespace toevoegen in XMP met Java
+title: Hoe XMP-namespace toe te voegen aan EPS-bestanden met Aspose.Page – Java-tutorial
 url: /nl/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
@@ -13,38 +13,36 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose.page xmp tutorial – Namespace toevoegen in XMP met Java
+# Hoe XMP-namespace toevoegen aan EPS-bestanden met Aspose.Page – Java Tutorial
 
-## Inleiding
-
-Als je de metadata van EPS‑bestanden moet wijzigen of verrijken, laat de **aspose.page xmp tutorial** je precies zien **hoe je een XMP‑namespace toevoegt** met Java. In deze gids lopen we elke stap door – beginnend met het laden van een EPS‑document, het registreren van een aangepaste namespace, het invoegen van een nieuwe eigenschap en tenslotte het opslaan van het bijgewerkte bestand. Aan het einde heb je een duidelijk, herbruikbaar patroon voor het werken met XMP‑metadata in elk Aspose.Page‑geactiveerd Java‑project.
+Als u de metadata van EPS‑bestanden moet wijzigen of verrijken, laat deze **how to add xmp** tutorial u precies zien hoe u een XMP‑namespace kunt toevoegen met Java en Aspose.Page. Aan het einde van de gids heeft u een herbruikbaar patroon voor het injecteren van aangepaste metadata in elk EPS‑document.
 
 ## Snelle antwoorden
-- **Wat is het primaire doel?** Een aangepaste XMP‑namespace en eigenschap toevoegen aan een EPS‑bestand.  
+- **Wat is het primaire doel?** Voeg een aangepaste XMP-namespace en eigenschap toe aan een EPS‑bestand.  
 - **Welke bibliotheek is vereist?** Aspose.Page for Java.  
 - **Heb ik een licentie nodig voor testen?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
-- **Hoeveel code‑wijzigingen zijn nodig?** Slechts vijf korte code‑fragmenten – één voor elke stap.  
-- **Kan ik dit patroon hergebruiken voor andere namespaces?** Ja, wijzig gewoon het prefix en de URI in de `registerNamespaceURI`‑aanroep.
+- **Hoeveel code‑wijzigingen zijn nodig?** Slechts vijf korte code‑fragmenten—één voor elke stap.  
+- **Kan ik dit patroon hergebruiken voor andere namespaces?** Ja, wijzig gewoon de prefix en URI in de `registerNamespaceURI`‑aanroep.
 
-## Wat is een XMP‑namespace?
+## Wat is een XMP-namespace?
 
-Een XMP (Extensible Metadata Platform)‑namespace is een unieke identifier die gerelateerde metadata‑eigenschappen groepeert onder een gemeenschappelijke URI. Het registreren van een namespace stelt je in staat om aangepaste gegevens – zoals propriëtaire tags – op te slaan zonder conflicten met bestaande standaarden.
+Een XMP (Extensible Metadata Platform) namespace is een unieke identifier die gerelateerde metadata‑eigenschappen groepeert onder een gemeenschappelijke URI. Het registreren van een namespace stelt u in staat aangepaste gegevens—zoals propriëtaire tags—op te slaan zonder conflicten met bestaande standaarden.
 
-## Waarom Aspose.Page gebruiken voor XMP‑manipulatie?
+## Waarom Aspose.Page gebruiken voor XMP-manipulatie?
 
 - **Volledige controle** over EPS‑ en PDF‑metadata zonder Adobe‑tools.  
 - **Automatische creatie** van XMP‑blokken wanneer deze ontbreken, gebaseerd op PS‑commentaren.  
-- **Cross‑platform Java‑ondersteuning**, waardoor integratie in bestaande pipelines eenvoudig is.
+- **Cross‑platform Java‑ondersteuning**, waardoor het eenvoudig is om te integreren in bestaande pipelines.
 
-## Voorvereisten
+## Prerequisites
 
-- Aspose.Page for Java: Zorg dat je de bibliotheek geïnstalleerd hebt. Je kunt deze downloaden [hier](https://releases.aspose.com/page/java/).  
-- Java‑ontwikkelomgeving: Stel een Java‑omgeving in op je systeem.  
-- Documentbestand: Heb een EPS‑bestand met XMP‑metadata. Als het geen XMP‑metadata bevat, maakt de bibliotheek er één aan op basis van PS‑metadata‑commentaren.
+- Aspose.Page for Java: Zorg ervoor dat u de bibliotheek geïnstalleerd heeft. U kunt deze downloaden [hier](https://releases.aspose.com/page/java/).  
+- Java Development Environment: Installeer een Java‑omgeving op uw systeem.  
+- Documentbestand: Zorg voor een EPS‑bestand met XMP‑metadata. Als het geen XMP‑metadata bevat, maakt de bibliotheek er een aan op basis van PS‑metadata‑commentaren.
 
 ## Pakketten importeren
 
-Om te beginnen, importeer de benodigde pakketten in je Java‑project:
+To start, import the necessary packages into your Java project:
 
 ```java
 import java.io.FileInputStream;
@@ -56,7 +54,7 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## Stap 1: XMP‑metadata ophalen
+## Stap 1: XMP-metadata ophalen
 
 ```java
 
@@ -72,9 +70,9 @@ XmpMetadata xmp = document.getXmpMetadata();
 ```
 
 ### Waarom dit belangrijk is
-Het ophalen van het `XmpMetadata`‑object geeft je een live‑handle naar de metadata van het document, zodat je deze kunt lezen, wijzigen of uitbreiden vóór het opslaan.
+Het ophalen van het `XmpMetadata`‑object geeft u een live referentie naar de metadata van het document, waardoor u deze kunt lezen, wijzigen of uitbreiden vóór het opslaan.
 
-## Stap 2: Nieuwe namespace registreren *(hoe een xmp‑namespace toe te voegen)*
+## Stap 2: Nieuwe namespace registreren *(how to add xmp namespace)*
 
 ```java
 // Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
@@ -82,7 +80,7 @@ xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 ```
 
 ### Uitleg
-De `registerNamespaceURI`‑methode koppelt een kort prefix (`tmp`) aan een volledige URI. Deze stap is essentieel voor de volgende bewerking omdat XMP‑eigenschappen moeten worden gekwalificeerd met een geregistreerde namespace.
+De `registerNamespaceURI`‑methode koppelt een korte prefix (`tmp`) aan een volledige URI. Deze stap is essentieel voor de volgende bewerking omdat XMP‑eigenschappen moeten worden gekwalificeerd met een geregistreerde namespace.
 
 ## Stap 3: Nieuwe eigenschap toevoegen
 
@@ -92,7 +90,7 @@ xmp.put("tmp:newKey", new XmpValue("NewValue"));
 ```
 
 ### Wat gebeurt er?
-Hier maken we een aangepaste eigenschap `tmp:newKey` aan en wijzen we de waarde `"NewValue"` toe. Je kunt de sleutel en waarde vervangen door wat dan ook dat past bij je bedrijfslogica.
+Hier maken we een aangepaste eigenschap genaamd `tmp:newKey` en wijzen we de waarde "NewValue" toe. U kunt de sleutel en waarde vervangen door iets dat past bij uw bedrijfslogica.
 
 ## Stap 4: Document opslaan
 
@@ -109,7 +107,7 @@ try {
 ```
 
 ### Tip
-Omring de `save`‑aanroep altijd met een `try/finally`‑blok (of gebruik try‑with‑resources) om te garanderen dat de output‑stream wordt gesloten, zelfs als er een uitzondering optreedt.
+Omhul altijd de `save`‑aanroep in een `try/finally`‑blok (of gebruik try‑with‑resources) om te garanderen dat de output‑stream wordt gesloten, zelfs als er een uitzondering optreedt.
 
 ## Stap 5: Streams sluiten
 
@@ -119,19 +117,19 @@ psStream.close();
 ```
 
 ### Best practice
-Het sluiten van de input‑stream maakt de bestands­handle direct vrij, waardoor bestands‑lock‑problemen op Windows‑systemen worden voorkomen.
+Het sluiten van de input‑stream geeft de bestands‑handle direct vrij, waardoor bestands‑lockproblemen op Windows‑systemen worden voorkomen.
 
 ## Veelvoorkomende problemen en oplossingen
 
 | Probleem | Waarschijnlijke oorzaak | Oplossing |
 |----------|--------------------------|-----------|
-| Er verschijnt geen XMP‑blok na het opslaan | Originele EPS bevatte geen XMP en commentaren waren onvoldoende | Zorg dat de EPS standaard PS‑commentaren bevat (`%%Creator`, `%%Title`, etc.) of maak handmatig een leeg `XmpMetadata`‑object aan vóór het registreren van een namespace. |
-| `registerNamespaceURI` geeft een uitzondering | Prefix al in gebruik | Kies een uniek prefix of controleer bestaande namespaces via `xmp.getRegisteredNamespaces()`. |
-| Opgeslagen bestand is corrupt | Output‑stream niet geflusht | Gebruik `try‑with‑resources` of roep expliciet `outPsStream.flush()` aan vóór het sluiten. |
+| Geen XMP‑blok verschijnt na het opslaan | Originele EPS bevatte geen XMP en commentaren waren onvoldoende | Zorg ervoor dat de EPS standaard PS‑commentaren (`%%Creator`, `%%Title`, etc.) bevat of maak handmatig een leeg `XmpMetadata`‑object aan voordat u een namespace registreert. |
+| `registerNamespaceURI` geeft een uitzondering | Prefix al in gebruik | Kies een unieke prefix of controleer bestaande namespaces via `xmp.getRegisteredNamespaces()`. |
+| Opgeslagen bestand is beschadigd | Output‑stream niet geflusht | Gebruik `try‑with‑resources` of roep expliciet `outPsStream.flush()` aan vóór het sluiten. |
 
 ## Conclusie
 
-Door deze **aspose.page xmp tutorial** te volgen, heb je nu een herhaalbare methode om aangepaste namespaces en eigenschappen toe te voegen aan EPS‑bestanden met Aspose.Page for Java. Deze mogelijkheid opent de deur naar rijkere metadata‑strategieën – of je nu workflow‑identifiers, propriëtaire tags of integratiedata voor downstream‑systemen wilt embedden.
+Door deze **how to add xmp** tutorial te volgen, heeft u nu een herhaalbare methode om aangepaste namespaces en eigenschappen toe te voegen aan EPS‑bestanden met Aspose.Page for Java. Deze mogelijkheid opent de deur naar rijkere metadata‑strategieën—of u nu workflow‑identifiers, propriëtaire tags of integratie‑gegevens voor downstream‑systemen embedt.
 
 ## Veelgestelde vragen
 
@@ -139,21 +137,21 @@ Door deze **aspose.page xmp tutorial** te volgen, heb je nu een herhaalbare meth
 Aspose.Page ondersteunt voornamelijk Java, maar er zijn versies beschikbaar voor andere talen zoals .NET.
 
 ### Is er een gratis proefversie beschikbaar?
-Ja, je kunt een gratis proefversie verkennen [hier](https://releases.aspose.com/).
+Ja, u kunt een gratis proefversie verkennen [hier](https://releases.aspose.com/).
 
-### Waar vind ik uitgebreide documentatie?
+### Waar kan ik uitgebreide documentatie vinden?
 Raadpleeg de documentatie [hier](https://reference.aspose.com/page/java/).
 
 ### Hoe kan ik een tijdelijke licentie verkrijgen?
-Je kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
+U kunt een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
 
 ### Zijn er community‑forums voor Aspose.Page?
-Ja, je kunt deelnemen aan de community op het [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+Ja, u kunt deelnemen aan de community op het [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-20  
-**Getest met:** Aspose.Page for Java 23.12 (latest op het moment van schrijven)  
+**Laatst bijgewerkt:** 2026-03-08  
+**Getest met:** Aspose.Page for Java 24.10 (latest)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,77 +1,100 @@
 ---
-title: Manipulation des métadonnées XMP - Java
-linktitle: Manipulation des métadonnées XMP - Java
-second_title: API Java Aspose.Page
-description: Améliorez sans effort les fichiers EPS grâce à la manipulation des métadonnées XMP, de l'ajout d'éléments à l'extraction. Améliorez votre gestion documentaire avec nos guides.
-weight: 42
+date: 2026-03-08
+description: Apprenez à ajouter des métadonnées XMP en Java avec Aspose.Page. Ce guide
+  couvre l’ajout, la modification et l’extraction des métadonnées XMP dans les fichiers
+  EPS.
+linktitle: Add XMP Metadata Java – Aspose.Page XMP Manipulation
+second_title: Aspose.Page Java API
+title: Ajouter des métadonnées XMP en Java – Manipulation XMP avec Aspose.Page
 url: /fr/java/xmp-metadata-manipulation/
+weight: 42
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ !"
+
+Then closing shortcodes.
+
+Make sure to keep all shortcodes exactly.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulation des métadonnées XMP - Java
 
+Avec **Aspose.Page for Java**, vous pouvez ajouter programmétiquement **des métadonnées XMP** aux fichiers EPS, offrant à vos documents des descriptions plus riches, une meilleure recherchabilité et une conformité totale aux normes de l'industrie. Dans ce hub, vous trouverez des tutoriels pas à pas qui montrent comment **add xmp metadata java** pour une variété de scénarios, des propriétés simples aux tableaux complexes.
+
+## add xmp metadata java – Ce que vous pouvez réaliser
+
+Ces guides démontrent comment **add xmp metadata java** efficacement selon différents cas d'utilisation — que vous intégriez des informations d'auteur, des données de licence ou des balises personnalisées. Chaque tutoriel vous guide à travers les appels d'API exacts, les objets requis et les conseils de bonnes pratiques afin que vous puissiez intégrer la gestion XMP dans vos applications Java en toute confiance.
 
 ## Introduction
 
-Êtes-vous prêt à libérer tout le potentiel d'Aspose.Page pour Java et à élever votre niveau de gestion de documents ? Plongez dans nos didacticiels Java complets sur la manipulation des métadonnées XMP et découvrez des techniques transparentes pour améliorer vos fichiers EPS.
+Êtes‑vous prêt à exploiter tout le potentiel d'Aspose.Page for Java et à améliorer votre gestion de documents ? Plongez dans nos tutoriels Java complets sur la manipulation des métadonnées XMP et découvrez des techniques fluides pour enrichir vos fichiers EPS.
 
-## Ajouter des éléments de tableau dans les métadonnées XMP à l'aide de Java
+## Add Array Items in XMP Metadata using Java
 
- Boostez vos capacités de traitement de documents avec Aspose.Page pour Java ! Notre didacticiel vous guide dans l'ajout sans effort d'éléments de tableau aux métadonnées XMP dans les fichiers EPS. Explorez les instructions étape par étape et améliorez facilement vos fichiers.[Explorer le didacticiel](./add-array-items/)
+Boostez vos capacités de traitement de documents avec Aspose.Page for Java ! Notre tutoriel vous guide pour ajouter facilement des éléments de tableau aux métadonnées XMP dans les fichiers EPS. Explorez des instructions pas à pas et améliorez vos fichiers en toute simplicité. [Explore Tutorial](./add-array-items/)
 
-## Ajouter des métadonnées dans XMP à l'aide de Java
+## Add Metadata in XMP using Java
 
- Intégrez de manière transparente Aspose.Page pour Java et apprenez l'art d'ajouter des métadonnées XMP à vos fichiers EPS. Améliorez votre jeu de gestion de documents avec notre guide étape par étape. Plongez et améliorez votre contenu sans effort.[Explorer le didacticiel](./add-metadata/)
+Intégrez sans effort Aspose.Page for Java et apprenez l'art d'ajouter des métadonnées XMP à vos fichiers EPS. Améliorez votre gestion de documents grâce à notre guide pas à pas. Plongez‑y et enrichissez votre contenu sans effort. [Explore Tutorial](./add-metadata/)
 
-## Ajouter une valeur nommée dans XMP à l'aide de Java
+## Add Named Value in XMP using Java
 
-Maîtrisez l'art de la manipulation de documents Java avec Aspose.Page ! Notre didacticiel fournit un guide étape par étape sur l'ajout de valeurs nommées aux métadonnées XMP. Libérez le potentiel d’une intégration transparente et améliorez le traitement de vos documents.[Explorer le didacticiel](./add-named-value/)
+Maîtrisez l'art de la manipulation de documents Java avec Aspose.Page ! Notre tutoriel fournit un guide pas à pas pour ajouter des valeurs nommées aux métadonnées XMP. Débloquez le potentiel d'une intégration fluide et améliorez votre traitement de documents. [Explore Tutorial](./add-named-value/)
 
-## Ajouter un espace de noms dans XMP à l'aide de Java
+## Add Namespace in XMP using Java
 
- Libérez la puissance de la manipulation de documents avec Aspose.Page pour Java ! Apprenez à ajouter sans effort des espaces de noms XMP avec notre guide complet. Plongez et découvrez la clé d’un traitement amélioré des documents.[Explorer le didacticiel](./add-namespace/)
+Déverrouillez la puissance de la manipulation de documents avec Aspose.Page for Java ! Apprenez à ajouter facilement des espaces de noms XMP grâce à notre guide complet. Plongez‑y et découvrez la clé d'un traitement de documents amélioré. [Explore Tutorial](./add-namespace/)
 
-## Ajouter des propriétés simples dans XMP à l'aide de Java
+## Add Simple Properties in XMP using Java
 
- Maximisez le potentiel d'Aspose.Page pour Java avec notre guide sur l'ajout de propriétés aux métadonnées XMP dans les fichiers EPS. Améliorez le traitement de vos documents sans effort grâce à notre didacticiel étape par étape.[Explorer le didacticiel](./add-simple-properties/)
+Maximisez le potentiel d'Aspose.Page for Java avec notre guide sur l'ajout de propriétés aux métadonnées XMP dans les fichiers EPS. Élevez votre traitement de documents sans effort grâce à notre tutoriel pas à pas. [Explore Tutorial](./add-simple-properties/)
 
-## Modifier les éléments du tableau dans XMP à l'aide de Java
+## Change Array Items in XMP using Java
 
- Modifiez les métadonnées sans effort avec Aspose.Page pour Java ! Notre guide étape par étape vous apprend à modifier les éléments du tableau dans XMP, améliorant ainsi vos documents EPS. Élevez votre contenu maintenant ![Explorer le didacticiel](./change-array-items/)
+Modifiez les métadonnées sans effort avec Aspose.Page for Java ! Notre guide pas à pas vous apprend à changer les éléments de tableau dans XMP, améliorant vos documents EPS. Élevez votre contenu dès maintenant ! [Explore Tutorial](./change-array-items/)
 
-## Modifier la valeur nommée dans XMP à l'aide de Java
+## Change Named Value in XMP using Java
 
-Modifiez sans effort les métadonnées XMP dans les fichiers EPS avec Aspose.Page pour Java. Découvrez le traitement rationalisé des documents grâce à notre guide étape par étape. Élevez votre contenu sans effort.[Explorer le didacticiel](./change-named-value/)
+Modifiez sans effort les métadonnées XMP dans les fichiers EPS avec Aspose.Page for Java. Découvrez un traitement de documents rationalisé grâce à notre guide pas à pas. Élevez votre contenu sans effort. [Explore Tutorial](./change-named-value/)
 
-## Modifier les valeurs dans XMP à l'aide de Java
+## Change Values in XMP using Java
 
- Améliorez vos documents EPS sans effort avec Aspose.Page pour Java. Modifiez les métadonnées XMP pour un contenu personnalisé et professionnel avec notre guide étape par étape. Élevez votre analyse de documents maintenant ![Explorer le didacticiel](./change-values/)
+Améliorez vos documents EPS sans effort avec Aspose.Page for Java. Modifiez les métadonnées XMP pour un contenu personnalisé et professionnel grâce à notre guide pas à pas. Élevez votre analyse de documents dès maintenant ! [Explore Tutorial](./change-values/)
 
-## Obtenez des métadonnées de XMP en utilisant Java
+## Get Metadata from XMP using Java
 
- Libérez la puissance d'Aspose.Page pour Java pour extraire sans effort les métadonnées XMP. Améliorez l’analyse des documents avec notre guide étape par étape. Plongez dans une extraction transparente et améliorez votre contenu sans effort.[Explorer le didacticiel](./get-metadata/)
+Déverrouillez la puissance d'Aspose.Page for Java pour extraire facilement les métadonnées XMP. Élevez l'analyse de documents avec notre guide pas à pas. Plongez dans une extraction fluide et améliorez votre contenu sans effort. [Explore Tutorial](./get-metadata/)
+
 ## Manipulation des métadonnées XMP - Tutoriels Java
-### [Ajouter des éléments de tableau dans les métadonnées XMP à l'aide de Java](./add-array-items/)
-Améliorez les fichiers EPS avec Aspose.Page pour Java. Apprenez à ajouter des éléments de tableau aux métadonnées XMP sans effort. Suivez notre guide étape par étape dès maintenant !
-### [Ajouter des métadonnées dans XMP à l'aide de Java](./add-metadata/)
-Explorez l'intégration transparente d'Aspose.Page pour Java et découvrez comment ajouter facilement des métadonnées XMP à vos fichiers EPS. Améliorez votre jeu de gestion de documents dès aujourd'hui !
-### [Ajouter une valeur nommée dans XMP à l'aide de Java](./add-named-value/)
-Maîtrisez la manipulation de documents Java avec Aspose.Page ! Ajoutez sans effort des valeurs nommées dans les métadonnées XMP grâce à notre guide étape par étape pour une intégration transparente.
-### [Ajouter un espace de noms dans XMP à l'aide de Java](./add-namespace/)
-Libérez la puissance de la manipulation de documents avec Aspose.Page pour Java. Apprenez à ajouter des espaces de noms XMP sans effort dans ce guide complet.
-### [Ajouter des propriétés simples dans XMP à l'aide de Java](./add-simple-properties/)
-Libérez le potentiel d'Aspose.Page pour Java avec notre guide sur l'ajout de propriétés aux métadonnées XMP dans les fichiers EPS. Améliorez le traitement des documents sans effort !
-### [Modifier les éléments du tableau dans XMP à l'aide de Java](./change-array-items/)
-Découvrez comment modifier les éléments du tableau dans XMP à l'aide d'Aspose.Page pour Java. Modifiez les métadonnées sans effort grâce à notre guide étape par étape. Améliorez vos documents EPS dès maintenant !
-### [Modifier la valeur nommée dans XMP à l'aide de Java](./change-named-value/)
-Découvrez Aspose.Page pour Java - Modifiez sans effort les métadonnées XMP dans les fichiers EPS grâce à notre guide étape par étape pour un traitement rationalisé des documents.
-### [Modifier les valeurs dans XMP à l'aide de Java](./change-values/)
-Améliorez les documents EPS avec Aspose.Page pour Java. Modifiez sans effort les métadonnées XMP pour un contenu personnalisé et professionnel.
-### [Obtenez des métadonnées de XMP en utilisant Java](./get-metadata/)
-Libérez la puissance d'Aspose.Page pour Java pour extraire sans effort les métadonnées XMP. Améliorez l’analyse des documents avec notre guide étape par étape !
+### [Ajouter des éléments de tableau aux métadonnées XMP avec Java](./add-array-items/)
+Améliorez les fichiers EPS avec Aspose.Page for Java. Apprenez à ajouter des éléments de tableau aux métadonnées XMP sans effort. Suivez notre guide pas à pas dès maintenant !
+
+### [Ajouter des métadonnées XMP avec Java](./add-metadata/)
+Explorez l'intégration fluide d'Aspose.Page for Java et apprenez à ajouter des métadonnées XMP à vos fichiers EPS sans effort. Améliorez votre gestion de documents dès aujourd'hui !
+
+### [Ajouter une valeur nommée XMP avec Java](./add-named-value/)
+Maîtrisez la manipulation de documents Java avec Aspose.Page ! Ajoutez sans effort des valeurs nommées aux métadonnées XMP grâce à notre guide pas à pas pour une intégration fluide.
+
+### [Ajouter un espace de noms XMP avec Java](./add-namespace/)
+Déverrouillez la puissance de la manipulation de documents avec Aspose.Page for Java. Apprenez à ajouter des espaces de noms XMP sans effort grâce à ce guide complet.
+
+### [Ajouter des propriétés simples XMP avec Java](./add-simple-properties/)
+Débloquez le potentiel d'Aspose.Page for Java avec notre guide sur l'ajout de propriétés aux métadonnées XMP dans les fichiers EPS. Élevez le traitement de documents sans effort !
+
+### [Modifier les éléments de tableau XMP avec Java](./change-array-items/)
+Apprenez à modifier les éléments de tableau dans XMP avec Aspose.Page for Java. Modifiez les métadonnées sans effort grâce à notre guide pas à pas. Améliorez vos documents EPS dès maintenant !
+
+### [Modifier une valeur nommée XMP avec Java](./change-named-value/)
+Découvrez Aspose.Page for Java – Modifiez sans effort les métadonnées XMP dans les fichiers EPS grâce à notre guide pas à pas pour un traitement de documents rationalisé.
+
+### [Modifier les valeurs XMP avec Java](./change-values/)
+Améliorez les documents EPS avec Aspose.Page for Java. Modifiez sans effort les métadonnées XMP pour un contenu personnalisé et professionnel.
+
+### [Obtenir les métadonnées XMP avec Java](./get-metadata/)
+Déverrouillez la puissance d'Aspose.Page for Java pour extraire facilement les métadonnées XMP. Élevez l'analyse de documents avec notre guide pas à pas !
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

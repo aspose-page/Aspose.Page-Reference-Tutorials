@@ -1,11 +1,10 @@
 ---
-date: 2025-12-20
-description: Tanulja meg, hogyan adhat XMP metaadatokat EPS fájlokhoz az Aspose Page
-  Java útmutató segítségével. Kövesse ezt a lépésről‑lépésre útmutatót, hogy javítsa
-  dokumentumkezelését.
+date: 2026-03-08
+description: Ismerje meg, hogyan adhat XMP metaadatokat EPS fájlokhoz az Aspose Page
+  Java útmutatóval. Kövesse ezt a lépésről‑lépésre útmutatót, hogy javítsa dokumentumkezelését.
 linktitle: Add Metadata in XMP using Java
 second_title: Aspose.Page Java API
-title: Aspose Page Java oktatóanyag – XMP metaadatok hozzáadása EPS fájlokhoz
+title: Aspose Page Java útmutató – XMP metaadatok hozzáadása EPS fájlokhoz
 url: /hu/java/xmp-metadata-manipulation/add-metadata/
 weight: 11
 ---
@@ -14,28 +13,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Metaadatok hozzáadása XMP-hez Java-val
+# Metaadatok hozzáadása XMP-ben Java-val
 
-## Bevezetés
-Ebben a **aspose page java tutorial**‑ban megtanulja, hogyan bővítheti dokumentuma metaadatait XMP információk hozzáadásával Java‑val. Ez a lépésről‑lépésre útmutató végigvezeti Önt egy meglévő EPS fájl beolvasásán, XMP metaadatainak kinyerésén, és a változások lemezre mentésén az Aspose.Page for Java könyvtárral. A tutorial végére egy stabil, újrahasználható mintát kap az XMP kezeléséhez bármely EPS munkafolyamatban.
+## Introduction
+Ebben a **aspose page java tutorial**-ban megtanulja, hogyan bővítheti dokumentuma metaadatait XMP információk hozzáadásával Java segítségével. Ez a lépésről‑lépésre útmutató végigvezeti a meglévő EPS fájl beolvasásán, XMP metaadatainak kinyerésén, és a változások lemezre mentésén az Aspose.Page for Java könyvtárral. A tutorial végére egy stabil, újrahasználható mintát kap az XMP kezelésére bármely EPS munkafolyamatban.
 
-## Gyors válaszok
-- **Melyik könyvtár szükséges?** Aspose.Page for Java  
-- **Hozzáadhatok XMP‑t bármely EPS fájlhoz?** Igen – az API új XMP blokkot hoz létre, ha még nem létezik.  
-- **Szükségem van licencre a fejlesztéshez?** Egy ingyenes próba verzió elegendő értékeléshez; a termeléshez kereskedelmi licenc szükséges.  
-- **Melyik Java verzió támogatott?** Java 8 és újabb.  
-- **Mennyi időt vesz igénybe a megvalósítás?** Általában 10 perc alatt egy alap metaadat‑frissítéshez.
+## Quick Answers
+- **What library is required?** Aspose.Page for Java  
+- **Can I add XMP to any EPS file?** Igen – az API új XMP blokkot hoz létre, ha még nem létezik.  
+- **Do I need a license for development?** A ingyenes próba a kiértékeléshez működik; a termeléshez kereskedelmi licenc szükséges.  
+- **Which Java version is supported?** Java 8 és újabb.  
+- **How long does the implementation take?** Általában 10 perc alatt egy alap metaadat frissítéshez.
 
-## Aspose Page Java Tutorial áttekintése
-Ez a tutorial bemutatja az alapvető lépéseket, amelyekkel XMP metaadatokat kezelhet EPS fájlokban. A lépések megértése segít a metaadat‑kezelés integrálásában nagyobb dokumentum‑feldolgozó csővezetékekbe, a kereshetőség javításában, és az iparági szabványoknak való megfelelésben a digitális eszközkezelés terén.
+## What is Aspose Page Java?
+Az Aspose.Page for Java (gyakran **aspose page java**‑ként hivatkoznak rá) egy nagy teljesítményű API, amely lehetővé teszi a fejlesztők számára PostScript és EPS fájlok létrehozását, szerkesztését és konvertálását Adobe szoftver nélkül. Emellett teljes hozzáférést biztosít az XMP metaadatokhoz, lehetővé téve kereshető információk beágyazását közvetlenül a grafikus fájlokba.
 
-## Előfeltételek
-Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik a következőkkel:
+## Why add XMP metadata to EPS files?
+Az XMP metaadatok beágyazása javítja az eszközkezelést, a kereshetőséget, és megfelel az iparági szabványoknak, mint az IPTC és a Dublin Core. Ha olyan mezőket ad hozzá, mint a szerző, cím vagy létrehozás dátuma, a downstream rendszerek (DAM-ek, keresőmotorok vagy nyomtatási munkafolyamatok) automatikusan indexelni és rendszerezni tudják az EPS eszközöket.
+
+## Aspose Page Java Tutorial Overview
+Ez a tutorial bemutatja az alapvető lépéseket, amelyekre szükség van az XMP metaadatok manipulálásához EPS fájlokban. E lépések megértése segít a metaadatkezelés integrálásában nagyobb dokumentumfeldolgozó csővezetékekbe, javítja a kereshetőséget, és megfelel a digitális eszközkezelés iparági szabványainak.
+
+## Prerequisites
+Mielőtt belemerülnénk a tutorialba, győződjön meg róla, hogy rendelkezik a következő előfeltételekkel:
 - Alapvető Java programozási ismeretek.  
-- Aspose.Page for Java könyvtár telepítve. Letöltheti [itt](https://releases.aspose.com/page/java/).  
-- Egy EPS fájl, amelyet módosítani szeretne.
+- Telepített Aspose.Page for Java könyvtár. Letöltheti [itt](https://releases.aspose.com/page/java/).  
+- Egy módosítani kívánt EPS fájl.
 
-## Csomagok importálása
+## Import Packages
 Először importálja a szükséges csomagokat a Java programjába:
 
 ```java
@@ -46,7 +51,9 @@ import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## 1. lépés: XMP metaadatok lekérése
+## Step 1: Get XMP Metadata
+1. lépés: XMP metaadatok lekérése
+
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -57,51 +64,65 @@ PsDocument document = new PsDocument(psStream);
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-Cserélje le a `"Your Document Directory"`‑t a tényleges útvonalra, ahol a dokumentumai vannak tárolva.
+Cserélje le a `"Your Document Directory"`-t a tényleges útvonalra, ahol a dokumentumai tárolva vannak.
 
-## 2. lépés: CreatorTool érték lekérése
+## Step 2: Retrieve CreatorTool Value
+2. lépés: CreatorTool érték lekérése
+
 ```java
 // Get "CreatorTool" value
 if (xmp.containsKey("xmp:CreatorTool"))
     System.out.println("CreatorTool: " + xmp.get("xmp:CreatorTool").toStringValue());
 ```
 
-## 3. lépés: CreateDate érték lekérése
+## Step 3: Retrieve CreateDate Value
+3. lépés: CreateDate érték lekérése
+
 ```java
 // Get "CreateDate" value
 if (xmp.containsKey("xmp:CreateDate"))
     System.out.println("CreateDate: " + xmp.get("xmp:CreateDate").toStringValue());
 ```
 
-## 4. lépés: Title érték lekérése
+## Step 4: Retrieve Title Value
+4. lépés: Title érték lekérése
+
 ```java
 // Get "Title" value
 if (xmp.containsKey("dc:title"))
     System.out.println("Title: " + xmp.get("dc:title").toArray()[0].toStringValue());
 ```
 
-## 5. lépés: Format érték lekérése
+## Step 5: Retrieve Format Value
+5. lépés: Format érték lekérése
+
 ```java
 // Get "format" value
 if (xmp.containsKey("dc:format"))
     System.out.println("Format: " + xmp.get("dc:format").toStringValue());
 ```
 
-## 6. lépés: Creator érték lekérése
+## Step 6: Retrieve Creator Value
+6. lépés: Creator érték lekérése
+
 ```java
 // Get "creator" value
 if (xmp.containsKey("dc:creator"))
     System.out.println("Creator: " + xmp.get("dc:creator").toArray()[0].toStringValue());
 ```
 
-## 7. lépés: MetadataDate érték lekérése
+## Step 7: Retrieve MetadataDate Value
+7. lépés: MetadataDate érték lekérése
+
 ```java
 // Get "MetadataDate" value
 if (xmp.containsKey("xmp:MetadataDate"))
     System.out.println("MetadataDate: " + xmp.get("xmp:MetadataDate").toStringValue());
 ```
 
-## 8. lépés: Dokumentum mentése új XMP metaadatokkal
+## Step 8: Save Document with New XMP Metadata
+8. lépés: Dokumentum mentése új XMP metaadatokkal
+
 ```java
 // Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp2_changed.eps");
@@ -120,37 +141,44 @@ Végül ne felejtse el bezárni a bemeneti EPS adatfolyamot:
 psStream.close();
 ```
 
-Most sikeresen hozzáadta a metaadatokat az EPS fájlhoz az Aspose.Page for Java használatával!
+Most sikeresen hozzáadta a metaadatokat az EPS fájlhoz az Aspose.Page for Java segítségével!
 
-## Következtetés
-Ebben a **aspose page java tutorial**‑ban megvizsgáltuk, hogyan adhatunk XMP metaadatokat egy EPS fájlhoz az Aspose.Page for Java könyvtár segítségével. Ez a hatékony API lehetővé teszi a dokumentum‑metaadatok programozott módon történő manipulálását, segítve az eszközök szervezését és kereshetőségét.
+## Common Issues and Solutions
+**Missing XMP block** – Az API automatikusan létrehoz egyet, de győződjön meg róla, hogy az EPS fájl nem sérült.  
+**Unsupported characters** – Az XMP értékeknek UTF‑8‑nak kell lenniük; kerüljön el a nem szabványos szimbólumokat a metaadat mezőkben.  
+**Large EPS files** – A fájlt stream-ekkel dolgozza fel (ahogy a példában látható), hogy alacsonyan tartsa a memóriahasználatot, és mindig zárja be a stream-eket egy `finally` blokkban.
 
-## Gyakran Ismételt Kérdések
+## Conclusion
+Összegzés
 
-**Q: A Aspose.Page for Java ingyenes használatra?**  
-A: Az Aspose.Page for Java egy kereskedelmi termék. Funkcióit egy ingyenes próba verzióval [itt](https://releases.aspose.com/) tekintheti meg.
+Ebben a **aspose page java tutorial**-ban bemutattuk, hogyan adhatunk XMP metaadatokat egy EPS fájlhoz az Aspose.Page for Java könyvtár segítségével. Ez a hatékony API lehetővé teszi a dokumentum metaadatok programozott manipulálását, segítve az eszközök szervezett és kereshető állapotban tartását.
+
+## Frequently Asked Questions
+
+**Q: Az Aspose.Page for Java ingyenes használatra?**  
+A: Az Aspose.Page for Java egy kereskedelmi termék. Funkcióit egy ingyenes próba során ismerheti meg [itt](https://releases.aspose.com/).
 
 **Q: Hol találom az Aspose.Page for Java dokumentációját?**  
-A: A dokumentáció elérhető [itt](https://reference.aspose.com/page/java/).
+A: A dokumentáció [itt](https://reference.aspose.com/page/java/) érhető el.
 
-**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.Page for Java‑hoz?**  
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.Page for Java-hoz?**  
 A: Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) kaphat.
 
 **Q: Milyen fájlformátumokat támogat az Aspose.Page for Java?**  
-A: Az Aspose.Page for Java számos formátumot támogat, többek között EPS, PDF és XPS.
+A: Az Aspose.Page for Java különféle formátumokat támogat, többek között EPS, PDF és XPS.
 
-**Q: Megvásárolhatom az Aspose.Page for Java‑t?**  
-A: Igen, megvásárolhatja az Aspose.Page for Java‑t [itt](https://purchase.aspose.com/buy).
+**Q: Megvásárolhatom az Aspose.Page for Java-t?**  
+A: Igen, az Aspose.Page for Java-t [itt](https://purchase.aspose.com/buy) vásárolhatja meg.
 
 **Q: Hogyan kezeljem a nagy EPS fájlokat metaadatok hozzáadása közben?**  
-A: A fájlt streaming módon dolgozza fel (ahogy a példában is látható), hogy alacsony maradjon a memóriahasználat, és a stream‑eket időben zárja be.
+A: A fájlt stream‑elés módon dolgozza fel (ahogy a példában látható), hogy alacsonyan tartsa a memóriahasználatot, és a stream-eket gyorsan zárja be.
 
-**Q: Módosíthatom a meglévő XMP mezőket a csak olvasás helyett?**  
-A: Természetesen – használhatja a `xmp.put(key, value)` metódust a bejegyzések frissítéséhez vagy új hozzáadásához a mentés előtt.
+**Q: Módosíthatok meglévő XMP mezőket is, vagy csak olvashatom őket?**  
+A: Természetesen – a `xmp.put(key, value)` használatával frissíthet vagy új bejegyzéseket adhat hozzá a mentés előtt.
 
 ---
 
-**Last Updated:** 2025-12-20  
+**Last Updated:** 2026-03-08  
 **Tested With:** Aspose.Page for Java 24.12 (latest)  
 **Author:** Aspose  
 
