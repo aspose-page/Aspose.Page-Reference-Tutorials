@@ -1,43 +1,47 @@
 ---
-date: 2025-12-21
-description: Aspose.Page kullanarak Java’da XPS’yi BMP’ye dönüştürürken çözünürlüğü
-  nasıl ayarlayacağınızı öğrenin. Bu Java görüntü dönüştürme rehberi yüksek kaliteli
-  sonuçlar sağlar.
+date: 2026-03-08
+description: Java'da XPS'yi BMP'ye nasıl dönüştüreceğinizi ve Aspose.Page java görüntü
+  dönüştürme kütüphanesini kullanarak BMP çözünürlüğünü nasıl ayarlayacağınızı öğrenin.
+  Bu rehber yüksek kaliteli çıktı ve bellek dostu ipuçlarını kapsar.
 linktitle: Convert XPS to BMP in Java
 second_title: Aspose.Page Java API
-title: Java'da XPS'yi BMP'ye Dönüştürürken Çözünürlüğü Nasıl Ayarlarsınız
+title: Java’da XPS’yi BMP’ye Dönüştür – Yüksek Kaliteli Çıktı İçin Çözünürlüğü Ayarla
 url: /tr/java/xps-conversion/to-bmp/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ missed items: The list under Quick Answers, bullet points. Ensure bold formatting preserved.
+
+Also ensure we didn't translate URLs.
+
+Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # XPS'yi Java'da BMP'ye Dönüştür
 
 ## Giriş
-Bu adım adım kılavuza hoş geldiniz; Java'da Aspose.Page kullanarak XPS (XML Paper Specification) dosyalarını BMP (Bitmap) formatına dönüştürürken **çözünürlüğün nasıl ayarlanacağını** gösterir. Aspose.Page for Java, XPS belgeleriyle çalışmak için kapsamlı özellikler sunan güçlü bir kütüphanedir. Bu öğreticide, XPS dosyalarını BMP görüntülerine sorunsuz bir şekilde dönüştürme sürecini size anlatacağız.
+Java'da **XPS'yi BMP'ye dönüştürme** ve Aspose.Page kullanarak optimal görüntü kalitesi için çözünürlüğü ayarlama konusunda adım adım bir rehbere hoş geldiniz. Baskı hattı oluşturuyor, küçük resimler üretiyor ya da yüksek çözünürlüklü grafiklere ihtiyacınız olsun, DPI kontrolü herhangi bir gereksinimi karşılamak için size esneklik sağlar.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphaneyi kullanmalıyım?** Aspose.Page for Java, en eksiksiz XPS → BMP dönüşüm özelliklerini sağlar.  
-- **Görüntü kalitesini kontrol edebilir miyim?** Evet – çözünürlüğü ve yumuşatma modunu ayarlamak için `BmpSaveOptions` kullanın.  
-- **Yalnızca belirli sayfaları dönüştürmem gerekiyor mu?** Kesinlikle, `options.setPageNumbers()` ile tam olarak istediğiniz sayfaları seçebilirsiniz.  
-- **Bu gerçek bir Java görüntü dönüşümü mü?** API, XPS sayfalarını doğrudan bitmap verisine işler, bu yüzden ara formatlara ihtiyaç yoktur.  
-- **Hangi Java sürümü destekleniyor?** Tüm modern Java sürümleri (8 ve üzeri) uyumludur.
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose.Page for Java, XPS → BMP için en eksiksiz **java image conversion library**'dir.  
+- **Görüntü kalitesini kontrol edebilir miyim?** Evet – `BmpSaveOptions` kullanarak **BMP çözünürlüğünü ayarlayın** ve yumuşatma modunu belirleyin.  
+- **Büyük XPS dosyalarını işlerken Java OutOfMemoryError hatasından nasıl kaçınırım?** Sayfaları bölümlerde render edin veya JVM yığınını (`-Xmx`) artırın.  
+- **Sadece belirli sayfaları dönüştürmem gerekiyor mu?** Kesinlikle, `options.setPageNumbers()` tam olarak istediğiniz sayfaları seçmenizi sağlar.  
+- **Hangi Java sürümleri destekleniyor?** Tüm modern Java sürümleri (8 ve üzeri) sorunsuz çalışır.
 
-## Çözünürlük ayarlamanın amacı nedir?
-Çözünürlük, oluşturulan BMP görüntüsündeki inç başına düşen nokta sayısını (DPI) belirler. Daha yüksek DPI, daha keskin görüntüler sağlar; bu, baskı veya ayrıntılı grafik çalışmaları için gereklidir. Çözünürlüğü ayarlamak, **java convert xps** iş akışınızın çıktı kalitesi üzerinde tam kontrol sağlar.
+## Çözünürlüğü ayarlamanın amacı nedir?
+Çözünürlük, oluşturulan BMP görüntüsündeki inç başına düşen nokta sayısını (DPI) belirler. Daha yüksek DPI, daha keskin görüntüler sağlar; bu, baskı veya detaylı grafik çalışmaları için gereklidir. Çözünürlüğü ayarlamak, **convert xps to bmp** iş akışınızın çıktı kalitesi üzerinde tam kontrol sağlar.
 
-## XPS → BMP dönüşümü için Aspose.Page neden kullanılmalı?
+## Neden XPS → BMP dönüşümü için Aspose.Page kullanmalısınız?
 - **Yüksek doğruluk** – orijinal XPS'nin vektör kalitesini korur.  
-- **İnce ayarlı kontrol** – DPI, yumuşatma ayarlarını yapabilir ve hatta dönüştürmek istediğiniz belirli sayfaları seçebilirsiniz.  
+- **Detaylı kontrol** – DPI, yumuşatma ayarlarını yapabilir ve hatta belirli sayfaları dönüştürmeyi seçebilirsiniz.  
 - **Harici bağımlılık yok** – saf Java, yerel kütüphane gerektirmez.  
-- **Ölçeklenebilir** – tek sayfalı belgeler ve büyük çok sayfalı XPS dosyaları için çalışır.
+- **Ölçeklenebilir** – tek sayfalı belgeler ve büyük çok sayfalı XPS dosyaları için çalışır.  
 
 ## Önkoşullar
 Dönüşüm sürecine başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-- **Java Geliştirme Ortamı** – Makinenizde Java 8 veya daha yeni bir sürüm kurulu.  
+- **Java Geliştirme Ortamı** – Makinenizde Java 8 veya daha yeni bir sürüm yüklü.  
 - **Aspose.Page for Java Kütüphanesi** – Aspose.Page for Java kütüphanesini projenize indirin ve ekleyin. Kütüphaneyi [burada](https://releases.aspose.com/page/java/) bulabilirsiniz.  
 - **Örnek XPS Dosyası** – BMP'ye dönüştürmek istediğiniz bir örnek XPS belgesi hazırlayın.
 
@@ -48,8 +52,8 @@ import com.aspose.xps.XpsDocument;
 import java.io.FileOutputStream;
 ```
 
-## XPS'den BMP'ye Dönüşümde Çözünürlüğü Nasıl Ayarlarsınız
-Aşağıda, çözünürlüğün tam olarak nerede ve nasıl ayarlanacağını ve **belirli sayfaları nasıl dönüştüreceğinizi** gösteren kısa, numaralı bir rehber bulunmaktadır.
+## XPS'yi BMP'ye Dönüştürürken Çözünürlüğü Nasıl Ayarlarsınız
+Aşağıda, çözünürlüğün tam olarak nerede ve nasıl ayarlanacağını ve **belirli sayfaları dönüştürmeyi** gösteren kısa, numaralı bir adım adım kılavuz bulunmaktadır.
 
 ### Adım 1: XPS Belgesini Yükle
 ```java
@@ -72,7 +76,7 @@ options.setResolution(300);               // 300 DPI for high‑quality output
 options.setPageNumbers(new int[]{1, 2, 6});
 ```
 
-### Adım 3: İşleme Aygıtı Oluştur
+### Adım 3: Render Cihazı Oluştur
 ```java
 // Create rendering device for BMP format
 ImageDevice device = new ImageDevice();
@@ -84,7 +88,7 @@ ImageDevice device = new ImageDevice();
 document.save(device, options);
 ```
 
-### Adım 5: Oluşturulan Görüntüler Üzerinde Döngü Yap ve Dosyalara Yaz
+### Adım 5: Render Edilen Görüntüler Üzerinde Döngü Oluştur ve Dosyalara Yaz
 ```java
 // Iterate through document partitions
 for (int i = 0; i < device.getResult().length; i++) {
@@ -99,7 +103,12 @@ for (int i = 0; i < device.getResult().length; i++) {
 }
 ```
 
-Dönüşüm sürecinde ihtiyaç duyabileceğiniz ek özelleştirme veya değişiklikler için bu adımları tekrarlayın.
+Dönüşüm sürecinde ihtiyaç duyabileceğiniz ek özelleştirmeler veya değişiklikler için bu adımları tekrarlayın.
+
+## Büyük XPS Dosyalarını Dönüştürürken Java OutOfMemoryError Hatasından Kaçınma
+- **Bölümler halinde işleyin** – Örnek, belgeyi bölümler halinde (`device.getResult()`) render eder, bu da bellek baskısını azaltır.  
+- **JVM yığınını artırın** – Büyük belgeler için daha fazla bellek ayırmak amacıyla `-Xmx` bayrağını (ör. `-Xmx2g`) kullanın.  
+- **Kaynakları serbest bırakın** – İşiniz bittiğinde yerel kaynakları serbest bırakmak için `document.close()` çağırın.
 
 ## Yaygın Sorunlar ve Çözümleri
 | Sorun | Çözüm |
@@ -107,14 +116,14 @@ Dönüşüm sürecinde ihtiyaç duyabileceğiniz ek özelleştirme veya değişi
 | **Düşük kaliteli BMP çıktısı** | `options.setResolution()` değerinin ≥ 300 DPI olduğundan emin olun. |
 | **Belgenin yalnızca bir kısmı dönüştürülüyor** | `options.setPageNumbers()`'ın istenen tüm sayfa indekslerini içerdiğinden emin olun. |
 | **Büyük XPS dosyalarında OutOfMemoryError** | Belgeyi daha küçük bölümlerde işleyin veya JVM yığın boyutunu (`-Xmx`) artırın. |
-| **Dosya bulunamadı** | `dataDir` yolunu ve giriş XPS dosyasının var olduğunu iki kez kontrol edin. |
+| **Dosya bulunamadı** | `dataDir` yolunu ve giriş XPS dosyasının mevcut olduğunu iki kez kontrol edin. |
 
 ## Sıkça Sorulan Sorular
 ### Q: BMP görüntülerinin çözünürlüğünü özelleştirebilir miyim?
 A: Evet, kodda `options.setResolution()` parametresini değiştirerek çözünürlüğü ayarlayabilirsiniz.
 
 ### Q: Aspose.Page farklı Java sürümleriyle uyumlu mu?
-A: Evet, Aspose.Page geniş bir Java sürüm yelpazesini destekler. Uy compatible bir sürüm kurduğunuzdan emin olun.
+A: Evet, Aspose.Page geniş bir Java sürüm yelpazesini destekler. Uyumlulu bir sürümün yüklü olduğundan emin olun.
 
 ### Q: XPS dosyalarını belirli bir sayfa aralığından nasıl dönüştürebilirim?
 A: Dönüştürmek istediğiniz sayfa numaralarını belirtmek için `options.setPageNumbers()` metodunu kullanın.
@@ -122,12 +131,12 @@ A: Dönüştürmek istediğiniz sayfa numaralarını belirtmek için `options.se
 ### Q: Aspose.Page tarafından desteklenen başka çıktı formatları var mı?
 A: Evet, Aspose.Page çeşitli çıktı formatlarını destekler. Kapsamlı liste için belgelere bakın.
 
-### Q: Ek yardım veya destek nereden bulabilirim?
+### Q: Ek yardım veya destek nereden bulunabilir?
 A: Topluluk desteği ve tartışmalar için [Aspose.Page Forum](https://forum.aspose.com/c/page/39) adresini ziyaret edin.
 
 ---
 
-**Son Güncelleme:** 2025-12-21  
+**Son Güncelleme:** 2026-03-08  
 **Test Edilen Versiyon:** Aspose.Page for Java 24.12  
 **Yazar:** Aspose  
 
