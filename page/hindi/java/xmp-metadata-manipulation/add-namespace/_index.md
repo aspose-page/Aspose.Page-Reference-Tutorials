@@ -1,10 +1,10 @@
 ---
-date: 2025-12-20
-description: इस व्यापक aspose.page xmp ट्यूटोरियल में Aspose.Page for Java के साथ
-  EPS फ़ाइलों में XMP नेमस्पेस कैसे जोड़ें, सीखें।
+date: 2026-03-08
+description: Aspose.Page for Java के साथ EPS फ़ाइलों में XMP नेमस्पेस कैसे जोड़ें
+  सीखें – चरण‑दर‑चरण XMP और XMP नेमस्पेस जोड़ने का ट्यूटोरियल जावा गाइड।
 linktitle: Add Namespace in XMP using Java
 second_title: Aspose.Page Java API
-title: aspose.page xmp ट्यूटोरियल – जावा का उपयोग करके XMP में नेमस्पेस जोड़ें
+title: Aspose.Page का उपयोग करके EPS फ़ाइलों में XMP नेमस्पेस कैसे जोड़ें – जावा ट्यूटोरियल
 url: /hi/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
@@ -13,38 +13,36 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose.page xmp ट्यूटोरियल – Java का उपयोग करके XMP में नेमस्पेस जोड़ें
+# Aspose.Page – Java ट्यूटोरियल का उपयोग करके EPS फ़ाइलों में XMP नेमस्पेस कैसे जोड़ें
 
-## परिचय
+यदि आपको EPS फ़ाइलों के मेटाडेटा को संशोधित या समृद्ध करने की आवश्यकता है, तो यह **how to add xmp** ट्यूटोरियल आपको जावा और Aspose.Page का उपयोग करके XMP नेमस्पेस जोड़ने का सटीक तरीका दिखाता है। गाइड के अंत तक आपके पास किसी भी EPS दस्तावेज़ में कस्टम मेटाडेटा इंजेक्ट करने के लिए पुन: उपयोग योग्य पैटर्न होगा।
 
-यदि आपको EPS फ़ाइलों के मेटाडेटा को संशोधित या समृद्ध करने की आवश्यकता है, तो **aspose.page xmp ट्यूटोरियल** आपको Java का उपयोग करके **XMP नेमस्पेस कैसे जोड़ें** यह बिल्कुल दिखाता है। इस गाइड में हम प्रत्येक चरण से गुजरेंगे—EPS दस्तावेज़ को लोड करने से शुरू करके, एक कस्टम नेमस्पेस पंजीकृत करने, नई प्रॉपर्टी डालने, और अंत में अपडेटेड फ़ाइल को सहेजने तक। अंत तक, आपके पास किसी भी Aspose.Page‑सक्षम Java प्रोजेक्ट में XMP मेटाडेटा के साथ काम करने के लिए एक स्पष्ट, पुन: उपयोग योग्य पैटर्न होगा।
+## Quick Answers
+- **What is the primary goal?** EPS फ़ाइल में एक कस्टम XMP नेमस्पेस और प्रॉपर्टी जोड़ना।  
+- **Which library is required?** Aspose.Page for Java।  
+- **Do I need a license for testing?** विकास के लिए एक फ्री ट्रायल काम करता है; प्रोडक्शन के लिए एक कमर्शियल लाइसेंस आवश्यक है।  
+- **How many code changes are needed?** केवल पाँच छोटे कोड स्निपेट—प्रत्येक चरण के लिए एक।  
+- **Can I reuse this pattern for other namespaces?** हाँ, `registerNamespaceURI` कॉल में प्रीफ़िक्स और URI बदल दें।
 
-## त्वरित उत्तर
-- **मुख्य लक्ष्य क्या है?** EPS फ़ाइल में एक कस्टम XMP नेमस्पेस और प्रॉपर्टी जोड़ना।  
-- **कौन सी लाइब्रेरी आवश्यक है?** Aspose.Page for Java।  
-- **परीक्षण के लिए लाइसेंस चाहिए?** विकास के लिए एक फ्री ट्रायल काम करता है; उत्पादन के लिए एक व्यावसायिक लाइसेंस आवश्यक है।  
-- **कितनी कोड परिवर्तन आवश्यक हैं?** केवल पाँच छोटे कोड स्निपेट—प्रत्येक चरण के लिए एक।  
-- **क्या मैं इस पैटर्न को अन्य नेमस्पेस के लिए पुन: उपयोग कर सकता हूँ?** हाँ, केवल `registerNamespaceURI` कॉल में प्रिफिक्स और URI बदलें।
+## What is an XMP Namespace?
 
-## XMP नेमस्पेस क्या है?
+एक XMP (Extensible Metadata Platform) नेमस्पेस एक अद्वितीय पहचानकर्ता है जो संबंधित मेटाडेटा प्रॉपर्टीज़ को एक सामान्य URI के तहत समूहित करता है। नेमस्पेस को रजिस्टर करने से आप कस्टम डेटा—जैसे प्रोपायटरी टैग—को मौजूदा मानकों के साथ टकराव किए बिना संग्रहीत कर सकते हैं।
 
-एक XMP (Extensible Metadata Platform) नेमस्पेस एक अद्वितीय पहचानकर्ता है जो संबंधित मेटाडेटा प्रॉपर्टी को एक सामान्य URI के तहत समूहित करता है। नेमस्पेस पंजीकृत करने से आप कस्टम डेटा—जैसे स्वामित्व टैग—को मौजूदा मानकों के साथ टकराव किए बिना संग्रहीत कर सकते हैं।
+## Why Use Aspose.Page for XMP Manipulation?
 
-## XMP हेरफेर के लिए Aspose.Page क्यों उपयोग करें?
+- **Full control** EPS और PDF मेटाडेटा पर, Adobe टूल्स की आवश्यकता के बिना।  
+- **Automatic creation** XMP ब्लॉक्स की जब वे मौजूद नहीं होते, PS कमेंट्स के आधार पर।  
+- **Cross‑platform Java support**, जिससे इसे मौजूदा पाइपलाइन में आसानी से इंटीग्रेट किया जा सकता है।
 
-- **पूर्ण नियंत्रण** EPS और PDF मेटाडेटा पर, Adobe टूल्स की आवश्यकता नहीं।  
-- **स्वचालित निर्माण** XMP ब्लॉक्स का, जब कोई मौजूद नहीं हो, PS टिप्पणियों के आधार पर।  
-- **क्रॉस‑प्लेटफ़ॉर्म Java समर्थन**, जिससे मौजूदा पाइपलाइन में एकीकरण आसान हो जाता है।
+## Prerequisites
 
-## पूर्वापेक्षाएँ
+- Aspose.Page for Java: सुनिश्चित करें कि आपके पास लाइब्रेरी इंस्टॉल है। आप इसे [here](https://releases.aspose.com/page/java/) से डाउनलोड कर सकते हैं।  
+- Java Development Environment: अपने सिस्टम पर जावा वातावरण सेट अप करें।  
+- Document File: एक EPS फ़ाइल जिसमें XMP मेटाडेटा हो। यदि इसमें XMP मेटाडेटा नहीं है, तो लाइब्रेरी PS मेटाडेटा कमेंट्स के आधार पर एक बना देगी।
 
-- Aspose.Page for Java: सुनिश्चित करें कि आपके पास लाइब्रेरी स्थापित है। आप इसे [यहाँ](https://releases.aspose.com/page/java/) से डाउनलोड कर सकते हैं।  
-- Java Development Environment: अपने सिस्टम पर एक Java वातावरण सेट करें।  
-- Document File: XMP मेटाडेटा वाली EPS फ़ाइल रखें। यदि इसमें XMP मेटाडेटा नहीं है, तो लाइब्रेरी PS मेटाडेटा टिप्पणियों के आधार पर एक बनाती है।
+## Import Packages
 
-## पैकेज आयात करें
-
-शुरू करने के लिए, अपने Java प्रोजेक्ट में आवश्यक पैकेज आयात करें:
+शुरू करने के लिए, आवश्यक पैकेजों को अपने जावा प्रोजेक्ट में इम्पोर्ट करें:
 
 ```java
 import java.io.FileInputStream;
@@ -56,7 +54,7 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## चरण 1: XMP मेटाडेटा प्राप्त करें
+## Step 1: Get XMP Metadata
 
 ```java
 
@@ -71,30 +69,30 @@ PsDocument document = new PsDocument(psStream);
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-### यह क्यों महत्वपूर्ण है
-`XmpMetadata` ऑब्जेक्ट प्राप्त करने से आपको दस्तावेज़ के मेटाडेटा का लाइव हैंडल मिलता है, जिससे आप इसे पढ़, संशोधित या विस्तारित कर सकते हैं, फिर सहेजने से पहले।
+### Why this matters
+`XmpMetadata` ऑब्जेक्ट को प्राप्त करने से आपको दस्तावेज़ के मेटाडेटा का लाइव हैंडल मिलता है, जिससे आप इसे पढ़, संशोधित या विस्तारित कर सकते हैं, फिर सेव करने से पहले।
 
-## चरण 2: नया नेमस्पेस पंजीकृत करें *(xmp नेमस्पेस कैसे जोड़ें)*
+## Step 2: Register New Namespace *(how to add xmp namespace)*
 
 ```java
 // Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
 xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 ```
 
-### व्याख्या
-`registerNamespaceURI` मेथड एक छोटा प्रिफिक्स (`tmp`) को पूर्ण URI से मैप करता है। यह चरण अगली ऑपरेशन के लिए आवश्यक है क्योंकि XMP प्रॉपर्टी को पंजीकृत नेमस्पेस के साथ क्वालिफ़ाई करना होता है।
+### Explanation
+`registerNamespaceURI` मेथड एक छोटा प्रीफ़िक्स (`tmp`) को पूर्ण URI से मैप करता है। यह चरण अगली ऑपरेशन के लिए आवश्यक है क्योंकि XMP प्रॉपर्टीज़ को रजिस्टर्ड नेमस्पेस के साथ क्वालिफ़ाई करना पड़ता है।
 
-## चरण 3: नया प्रॉपर्टी जोड़ें
+## Step 3: Add New Property
 
 ```java
 // Add new property "tmp:newKey" in the new XML namespace
 xmp.put("tmp:newKey", new XmpValue("NewValue"));
 ```
 
-### क्या हो रहा है?
-यहाँ हम `tmp:newKey` नामक एक कस्टम प्रॉपर्टी बनाते हैं और उसे मान `"NewValue"` असाइन करते हैं। आप अपनी व्यावसायिक लॉजिक के अनुसार की और वैल्यू को बदल सकते हैं।
+### What’s happening?
+यहाँ हम `tmp:newKey` नामक एक कस्टम प्रॉपर्टी बनाते हैं और उसे मान `"NewValue"` असाइन करते हैं। आप अपनी बिजनेस लॉजिक के अनुसार की और वैल्यू को बदल सकते हैं।
 
-## चरण 4: दस्तावेज़ सहेजें
+## Step 4: Save Document
 
 ```java
 // Initialize output EPS file stream
@@ -108,53 +106,53 @@ try {
 }
 ```
 
-### टिप
-`save` कॉल को हमेशा `try/finally` ब्लॉक (या try‑with‑resources) में रखें ताकि आउटपुट स्ट्रीम बंद हो जाए, चाहे कोई अपवाद आए या न आए।
+### Tip
+`save` कॉल को हमेशा `try/finally` ब्लॉक (या try‑with‑resources) में रैप करें ताकि आउटपुट स्ट्रीम बंद हो जाए, चाहे कोई एक्सेप्शन हो या न हो।
 
-## चरण 5: स्ट्रीम बंद करें
+## Step 5: Close Streams
 
 ```java
 // Close input EPS stream
 psStream.close();
 ```
 
-### सर्वोत्तम अभ्यास
-इनपुट स्ट्रीम को बंद करने से फ़ाइल हैंडल तुरंत रिलीज़ हो जाता है, जिससे Windows सिस्टम पर फ़ाइल‑लॉकिंग समस्याएँ नहीं आतीं।
+### Best practice
+इनपुट स्ट्रीम को बंद करने से फ़ाइल हैंडल तुरंत रिलीज़ हो जाता है, जिससे Windows सिस्टम पर फ़ाइल‑लॉकिंग समस्याओं से बचा जा सकता है।
 
-## सामान्य समस्याएँ और समाधान
+## Common Issues and Solutions
 
-| समस्या | संभावित कारण | समाधान |
+| Issue | Likely Cause | Fix |
 |-------|--------------|-----|
-| सहेजने के बाद कोई XMP ब्लॉक नहीं दिखता | मूल EPS में XMP नहीं था और टिप्पणियाँ अपर्याप्त थीं | सुनिश्चित करें कि EPS में मानक PS टिप्पणियाँ (`%%Creator`, `%%Title`, आदि) हों या नेमस्पेस पंजीकृत करने से पहले एक खाली `XmpMetadata` ऑब्जेक्ट मैन्युअली बनाएं। |
-| `registerNamespaceURI` अपवाद फेंकता है | प्रिफिक्स पहले से उपयोग में है | एक अद्वितीय प्रिफिक्स चुनें या `xmp.getRegisteredNamespaces()` के माध्यम से मौजूदा नेमस्पेस जाँचें। |
-| सहेजी गई फ़ाइल भ्रष्ट है | आउटपुट स्ट्रीम फ्लश नहीं हुई | `try‑with‑resources` का उपयोग करें या बंद करने से पहले स्पष्ट रूप से `outPsStream.flush()` कॉल करें। |
+| No XMP block appears after saving | Original EPS lacked XMP and comments were insufficient | Ensure the EPS contains standard PS comments (`%%Creator`, `%%Title`, etc.) or manually create an empty `XmpMetadata` object before registering a namespace. |
+| `registerNamespaceURI` throws an exception | Prefix already used | Choose a unique prefix or check existing namespaces via `xmp.getRegisteredNamespaces()`. |
+| Saved file is corrupted | Output stream not flushed | Use `try‑with‑resources` or explicitly call `outPsStream.flush()` before closing. |
 
-## निष्कर्ष
+## Conclusion
 
-इस **aspose.page xmp ट्यूटोरियल** का पालन करके, अब आपके पास Java के लिए Aspose.Page का उपयोग करके EPS फ़ाइलों में कस्टम नेमस्पेस और प्रॉपर्टी जोड़ने की एक दोहराने योग्य विधि है। यह क्षमता अधिक समृद्ध मेटाडेटा रणनीतियों के द्वार खोलती है—चाहे आप वर्कफ़्लो पहचानकर्ता, स्वामित्व टैग, या डाउनस्ट्रीम सिस्टम के लिए इंटीग्रेशन डेटा एम्बेड कर रहे हों।
+इस **how to add xmp** ट्यूटोरियल को फॉलो करके, अब आपके पास Aspose.Page for Java का उपयोग करके EPS फ़ाइलों में कस्टम नेमस्पेस और प्रॉपर्टीज़ जोड़ने की एक दोहराने योग्य विधि है। यह क्षमता अधिक समृद्ध मेटाडेटा रणनीतियों के द्वार खोलती है—चाहे आप वर्कफ़्लो आइडेंटिफ़ायर, प्रोपायटरी टैग, या डाउनस्ट्रीम सिस्टम के लिए इंटीग्रेशन डेटा एम्बेड कर रहे हों।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## FAQs
 
-### क्या मैं Aspose.Page for Java को अन्य प्रोग्रामिंग भाषाओं के साथ उपयोग कर सकता हूँ?
-Aspose.Page मुख्यतः Java को सपोर्ट करता है, लेकिन .NET जैसी अन्य भाषाओं के लिए भी संस्करण उपलब्ध हैं।
+### Can I use Aspose.Page for Java with other programming languages?
+Aspose.Page primarily supports Java, but there are versions available for other languages such as .NET.
 
-### क्या कोई फ्री ट्रायल उपलब्ध है?
-हाँ, आप एक फ्री ट्रायल [यहाँ](https://releases.aspose.com/) एक्सप्लोर कर सकते हैं।
+### Is there a free trial available?
+Yes, you can explore a free trial [here](https://releases.aspose.com/).
 
-### विस्तृत दस्तावेज़ीकरण कहाँ मिल सकता है?
-दस्तावेज़ीकरण के लिए देखें [यहाँ](https://reference.aspose.com/page/java/)।
+### Where can I find comprehensive documentation?
+Refer to the documentation [here](https://reference.aspose.com/page/java/).
 
-### मैं अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
-आप अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
+### How can I obtain a temporary license?
+You can acquire a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Aspose.Page के लिए कम्युनिटी फ़ोरम हैं क्या?
-हाँ, आप कम्युनिटी के साथ जुड़ सकते हैं [Aspose.Page फ़ोरम](https://forum.aspose.com/c/page/39) पर।
+### Are there community forums for Aspose.Page?
+Yes, you can engage with the community on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
 ---
 
-**अंतिम अपडेट:** 2025-12-20  
-**परीक्षित संस्करण:** Aspose.Page for Java 23.12 (लेखन के समय नवीनतम)  
-**लेखक:** Aspose  
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Page for Java 24.10 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
