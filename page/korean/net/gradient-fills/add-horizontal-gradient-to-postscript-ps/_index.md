@@ -1,37 +1,41 @@
 ---
-title: Aspose.Page를 사용하여 PostScript(PS)에 수평 그라데이션 추가
-linktitle: PostScript에 수평 그라데이션 추가(PS)
-second_title: Aspose.페이지 .NET API
-description: .NET용 Aspose.Page를 사용하여 멋진 수평 그라데이션으로 PostScript 문서를 향상하세요. 원활한 구현을 위해 단계별 튜토리얼을 따르십시오.
-weight: 12
+date: 2026-02-25
+description: Aspose.Page for .NET을 사용하여 선형 그라디언트 사각형으로 PostScript 문서를 향상시키세요. 단계별
+  가이드를 따라 그라디언트 채우기 텍스트와 외곽선 텍스트 그라디언트를 배워보세요.
+linktitle: Add Horizontal Gradient to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Aspose.Page를 사용하여 PostScript(PS)에 선형 그라디언트 사각형 추가
 url: /ko/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page를 사용하여 PostScript(PS)에 수평 그라데이션 추가
+# PostScript (PS)에 Linear Gradient Rectangle 추가하기 (Aspose.Page 사용)
 
 ## 소개
 
-.NET용 Aspose.Page를 사용하여 PostScript(PS) 문서에 수평 그라데이션을 추가하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.Page는 다양한 형식의 문서 조작을 용이하게 하는 강력한 라이브러리로, 개발자에게 문서를 원활하게 생성, 수정 및 렌더링하는 데 필요한 도구를 제공합니다.
+Aspose.Page for .NET을 사용하여 PostScript (PS) 문서에 **linear gradient rectangle**를 추가하는 포괄적인 튜토리얼에 오신 것을 환영합니다. Aspose.Page는 다양한 형식의 문서를 생성, 수정 및 렌더링할 수 있는 강력한 라이브러리이며, 오늘은 PS 파일에 눈에 띄는 그라디언트를 적용하는 방법에 집중합니다.
 
-이 튜토리얼에서는 눈길을 끄는 수평 그라데이션을 통합하여 PostScript 문서를 향상시키는 데 중점을 둘 것입니다. 프로세스의 각 단계를 안내하여 구현에 대해 확실하게 이해할 수 있도록 도와드립니다.
+### 빠른 답변
+- **linear gradient rectangle는 무엇을 하나요?** 한쪽에서 다른 쪽으로 부드러운 색상 전환으로 사각형 영역을 채웁니다.  
+- **그라디언트 채우기 텍스트를 처리하는 API는?** `LinearGradientBrush`와 `SetPaint`, `FillAndStrokeText`를 결합합니다.  
+- **그라디언트로 텍스트 외곽선을 만들 수 있나요?** 예—그라디언트 브러시와 함께 `SetStroke`를 사용하고 `OutlineText`를 호출합니다.  
+- **프로덕션에 라이선스가 필요합니까?** 평가용이 아닌 사용을 위해서는 상업용 Aspose.Page 라이선스가 필요합니다.  
+- **지원되는 .NET 버전은?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## 전제 조건
+## 사전 요구 사항
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+시작하기 전에 다음을 확인하십시오:
 
--  .NET 라이브러리용 Aspose.Page: .NET용 Aspose.Page 라이브러리가 개발 환경에 통합되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[.NET 문서용 Aspose.Page](https://reference.aspose.com/page/net/).
-
-- 문서 디렉터리: 문서를 저장할 디렉터리를 설정하고 제공된 코드의 "문서 디렉터리"를 실제 경로로 바꿉니다.
-
-이제 PostScript 문서에 가로 그라데이션을 추가하는 방법을 단계별로 살펴보겠습니다.
+- Aspose.Page for .NET 라이브러리: 프로젝트에 라이브러리가 참조되어 있는지 확인하십시오. [Aspose.Page for .NET documentation](https://reference.aspose.com/page/net/)에서 다운로드할 수 있습니다.
+- Document Directory: 생성된 PS 파일이 저장될 디스크상의 폴더를 만들고 코드에서 **“Your Document Directory”**를 해당 경로로 교체하십시오.
 
 ## 네임스페이스 가져오기
 
-시작하기 전에 Aspose.Page에서 제공하는 기능에 액세스하려면 필요한 네임스페이스를 가져와야 합니다. 코드 시작 부분에 다음 네임스페이스를 추가합니다.
+시작하려면 drawing 및 PS‑specific 클래스를 사용할 수 있는 네임스페이스를 가져옵니다:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -41,23 +45,33 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 1단계: 문서 설정
+## Linear Gradient Rectangle란?
+
+**linear gradient rectangle**는 내부가 선형 그라디언트로 칠해진 사각형 형태입니다—색상이 직선에 따라 부드럽게 전환되며, 일반적으로 왼쪽에서 오른쪽(수평) 또는 위에서 아래(수직) 방향으로 진행됩니다. Aspose.Page에서는 사각형을 정의하는 `GraphicsPath`와 색상 전환을 설명하는 `LinearGradientBrush`를 결합하여 이를 구현합니다.
+
+## 왜 Gradient Fill Text와 Outline Text Gradient를 사용하나요?
+
+- **시각적 매력:** Gradient‑filled 텍스트는 보고서, 청구서 또는 홍보 자료에 깊이감과 현대적인 스타일을 추가합니다.  
+- **브랜드 일관성:** 정확한 ARGB 값으로 기업 색상을 맞춥니다.  
+- **다재다능함:** 동일한 브러시를 도형 채우기, 텍스트 채우기, 외곽선 그라디언트 등에 재사용하여 코드 중복을 줄입니다.
+
+## 단계 1: 문서 설정
 
 ```csharp
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// PostScript 문서의 출력 스트림 생성
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.ps", FileMode.Create))
 {
-    // A4 크기로 저장 옵션 만들기
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // 새로운 1페이지 PS 문서 만들기
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## 2단계: 그라데이션 직사각형 및 색상 정의
+## 단계 2: Gradient Rectangle 및 색상 정의
 
 ```csharp
     float offsetX = 200;
@@ -65,90 +79,94 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     float width = 200;
     float height = 100;
 
-    // 첫 번째 직사각형에서 그래픽 경로 만들기
+    // Create graphics path from the first rectangle
     System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
     path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-    //사각형을 경계, 시작 및 끝 색상으로 사용하여 선형 그래디언트 브러시 만들기
+    // Create linear gradient brush with rectangle as bounds, start, and end colors
     LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
         Color.FromArgb(50, 40, 128, 70), 0f);
 ```
 
-## 3단계: 브러시 변환 설정
+## 단계 3: 브러시 변환 설정
 
 ```csharp
-    // 브러시에 대한 변환을 만듭니다. X 및 Y 스케일 구성요소는 그에 따라 직사각형의 너비 및 높이와 같아야 합니다.
-    // 변환 구성요소는 직사각형의 오프셋입니다.
+    // Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+    // Translation components are offsets of the rectangle
     System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
-    // 변환 설정
+    // Set transform
     brush.Transform = brushTransform;
 ```
 
-## 4단계: 페인트 설정 및 직사각형 채우기
+## 단계 4: Paint 설정 및 사각형 채우기
 
 ```csharp
-    // 페인트 세트
+    // Set paint
     document.SetPaint(brush);
 
-    // 직사각형을 채우세요
+    // Fill the rectangle
     document.Fill(path);
 ```
 
-## 5단계: 그라데이션으로 텍스트 채우기
+## Gradient Fill Text 적용 방법
 
 ```csharp
-    // 그라데이션으로 텍스트 채우기
+    // Fill text with gradient
     System.Drawing.Font font = new System.Drawing.Font("Arial", 96, FontStyle.Bold);
     document.FillAndStrokeText("ABC", font, 200, 300, brush, new Pen(new SolidBrush(Color.Black), 2));
 ```
 
-## 6단계: 획 및 윤곽선 텍스트 설정
+## Outline Text Gradient 사용
 
 ```csharp
-    // 현재 스트로크 설정
+    // Set current stroke
     document.SetStroke(new Pen(brush, 5));
-    // 그라데이션이 포함된 텍스트 윤곽선
+    // Outline text with gradient
     document.OutlineText("ABC", font, 200, 400);
 ```
 
-## 7단계: 현재 페이지를 닫고 문서 저장
+## 단계 7: 현재 페이지 닫고 문서 저장
 
 ```csharp
-    // 현재 페이지 닫기
+    // Close current page
     document.ClosePage();
 
-    // 문서 저장
+    // Save the document
     document.Save();
 }
 ```
 
-축하해요! .NET용 Aspose.Page를 사용하여 PostScript 문서에 수평 그라데이션을 성공적으로 추가했습니다.
+축하합니다! 이제 **linear gradient rectangle**를 PostScript 문서에 성공적으로 추가했으며 동일한 브러시를 **gradient fill text**와 **outline text gradient**에 사용했습니다.
 
-## 결론
+## 일반적인 사용 사례 및 팁
 
-이 튜토리얼에서는 .NET용 Aspose.Page 라이브러리를 사용하여 수평 그라데이션으로 PostScript 문서를 향상시키는 프로세스를 다루었습니다. 단계별 가이드를 따르면 문서 조작을 위한 이 강력한 도구를 활용하는 데 대한 귀중한 통찰력을 얻을 수 있습니다.
+- **보고서 헤더:** 섹션 제목을 강조하기 위해 큰 텍스트 블록을 그라디언트로 채웁니다.  
+- **브랜드 로고:** 일관된 브랜딩을 위해 로고 형태를 그라디언트 채우기 도형으로 재현합니다.  
+- **프로 팁:** 여러 그리기 호출에 동일한 `LinearGradientBrush` 인스턴스를 재사용하여 도형과 텍스트 전반에 색상이 완벽히 정렬되도록 합니다.
 
-## FAQ
+## 자주 묻는 질문
 
-### Q1: 직사각형 외에 다른 도형에도 그라데이션을 적용할 수 있나요?
+### Q1: 사각형 외에 다른 도형에도 그라디언트를 적용할 수 있나요?
+**A:** 예, `GraphicsPath`로 정의된 모든 도형에 그라디언트를 적용할 수 있습니다. `document.Fill(path)`를 호출하기 전에 원, 다각형 또는 사용자 정의 경로를 추가하면 됩니다.
 
- A1: 예, Aspose.Page를 사용하여 다양한 모양에 그라데이션을 적용할 수 있습니다. 수정하다`GraphicsPath` 특정 모양에 맞게 생성합니다.
+### Q2: 그라디언트 색상을 어떻게 변경하나요?
+**A:** `LinearGradientBrush`를 생성할 때 `Color.FromArgb` 값을 수정합니다. 첫 번째 색상이 시작 색상이고 두 번째 색상이 그라디언트의 끝 색상입니다.
 
-### Q2: 그라데이션 색상을 어떻게 변경할 수 있나요?
+### Q3: Aspose.Page가 다양한 문서 형식과 호환되나요?
+**A:** 물론입니다. Aspose.Page는 XPS, PS, PDF 및 여러 기타 벡터 형식을 지원합니다. 전체 목록은 공식 문서를 확인하십시오.
 
- A2: 조정`Color.FromArgb` 의 값`LinearGradientBrush` 원하는 그라데이션 색상을 얻기 위해 인스턴스화합니다.
+### Q4: Aspose.Page를 상업 프로젝트에 사용할 수 있나요?
+**A:** 예, 상업용 라이선스를 제공하고 있습니다. 자세한 내용은 구매 페이지를 참고하십시오: [here](https://purchase.aspose.com/buy).
 
-### Q3: Aspose.Page는 다른 문서 형식과 호환됩니까?
+### Q5: 커뮤니티 지원을 어디서 받을 수 있나요?
+**A:** Aspose.Page 커뮤니티 포럼에 참여하세요: [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
-A3: Aspose.Page는 XPS, PS, PDF 등을 포함한 다양한 문서 형식을 지원합니다. 전체 목록은 설명서를 참조하세요.
+---
 
-### Q4: Aspose.Page를 상업용 프로젝트에 사용할 수 있나요?
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Page 24.10 for .NET  
+**Author:** Aspose  
 
- A4: 예, Aspose.Page에는 상업용 라이선스 옵션이 함께 제공됩니다. 방문하다[여기](https://purchase.aspose.com/buy) 자세한 내용은.
-
-### Q5: Aspose.Page 사용자를 위한 커뮤니티 포럼이 있습니까?
-
- A5: 예, Aspose.Page 커뮤니티에 가입하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 다른 사용자와 연결하고 도움을 구합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

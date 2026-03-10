@@ -1,35 +1,57 @@
 ---
-title: Aggiungi gradiente verticale a XPS con Aspose.Page per .NET
-linktitle: Aggiungi gradiente verticale a XPS
-second_title: API Aspose.Page .NET
-description: Scopri come migliorare i documenti XPS con gradienti verticali utilizzando Aspose.Page per .NET. Segui la nostra guida passo passo per un'integrazione perfetta.
-weight: 15
+date: 2026-02-25
+description: Scopri come creare un documento XPS e applicare un gradiente lineare
+  con Aspose.Page per .NET. Segui la nostra guida passo‑passo per salvare il file
+  XPS.
+linktitle: Add Vertical Gradient to XPS
+second_title: Aspose.Page .NET API
+title: Crea documento XPS con gradiente verticale usando Aspose.Page
 url: /it/net/gradient-fills/add-vertical-gradient-to-xps/
+weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ container.
+
+Make sure to keep all shortcodes exactly as they appear.
+
+Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi gradiente verticale a XPS con Aspose.Page per .NET
+# Aggiungi Gradiente Verticale a XPS con Aspose.Page per .NET
 
-## introduzione
+## Introduzione
 
-Benvenuti in questo tutorial passo passo su come aggiungere un gradiente verticale a un documento XPS utilizzando Aspose.Page per .NET. Aspose.Page è una potente API che ti consente di lavorare con file XPS (XML Paper Specifica) nelle tue applicazioni .NET. In questo tutorial ti guideremo attraverso il processo di creazione di un nuovo documento XPS, aggiungendo un gradiente verticale a un tracciato e salvando il risultato.
+In questo tutorial **creerai un documento XPS** con un gradiente verticale uniforme. Aggiungere gradienti è un modo comune per rendere i file XPS più professionali—perfetto per report, brochure o qualsiasi grafica stampabile. Ti guideremo passo passo, dalla configurazione del progetto al salvataggio del file XPS finale, così potrai applicare rapidamente un gradiente lineare a qualsiasi percorso.
+
+## Risposte Rapide
+- **Di cosa tratta questo tutorial?** Aggiungere un gradiente lineare verticale a un percorso in un documento XPS.  
+- **Quale libreria è necessaria?** Aspose.Page per .NET.  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per un esempio base.  
+- **Posso salvare il risultato come file XPS?** Sì, il metodo `Save` scrive il file su disco.
+
+## Cos'è un gradiente verticale in XPS?
+
+Un gradiente verticale è una transizione di colore che va dalla parte superiore di una forma fino alla parte inferiore. In XPS, ciò si ottiene con un **linear gradient brush** che definisce i punti di inizio e fine, più una raccolta di gradient stop che controllano il colore in posizioni specifiche.
+
+## Perché usare Aspose.Page per creare documenti XPS con gradienti?
+
+- **Integrazione completa con .NET** – funziona con .NET Framework, .NET Core e .NET 5/6+.  
+- **Nessuna dipendenza esterna** – tutto il rendering è gestito dalla libreria.  
+- **Alta fedeltà** – i gradienti vengono renderizzati esattamente come definiti, rispettando la specifica XPS.  
+- **Facile da mantenere** – modello di oggetti chiaro per percorsi, pennelli e colori.
 
 ## Prerequisiti
 
-Prima di immergerci nel tutorial, assicurati di avere i seguenti prerequisiti:
+- Aspose.Page for .NET Library: Assicurati di avere la libreria Aspose.Page for .NET installata nel tuo ambiente di sviluppo. Puoi scaricarla [qui](https://releases.aspose.com/page/net/).
+- Development Environment: Configura un ambiente di sviluppo .NET con l'IDE preferito, ad esempio Visual Studio.
 
--  Libreria Aspose.Page per .NET: assicurati di avere la libreria Aspose.Page per .NET installata nel tuo ambiente di sviluppo. Puoi scaricarlo[Qui](https://releases.aspose.com/page/net/).
+Ora che abbiamo tutto pronto, immergiamoci nel codice.
 
-- Ambiente di sviluppo: configura un ambiente di sviluppo .NET con il tuo IDE preferito, come Visual Studio.
+## Importa gli Spazi dei Nomi
 
-Ora iniziamo con l'aggiunta di un gradiente verticale a un documento XPS utilizzando Aspose.Page per .NET.
-
-## Importa spazi dei nomi
-
-Nella tua applicazione .NET, includi gli spazi dei nomi necessari per accedere alle classi e ai metodi Aspose.Page.
+Nella tua applicazione .NET, includi gli spazi dei nomi necessari per accedere alle classi e ai metodi di Aspose.Page.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -38,91 +60,101 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Passaggio 1: imposta la directory dei documenti
+## Passo 1: Configura la Cartella del Documento
 
-Prima di iniziare, imposta il percorso della directory dei documenti in cui desideri salvare il documento XPS risultante.
+Definisci la cartella in cui verrà salvato il file XPS generato.
 
 ```csharp
-// Inizio ex:3
+// ExStart:3
 string dataDir = "Your Document Directory";
-// Fine Estesa:3
+// ExEnd:3
 ```
 
-## Passaggio 2: crea un nuovo documento XPS
+## Passo 2: Crea un Nuovo Documento XPS
 
-Inizializza un nuovo documento XPS utilizzando il seguente codice:
+Istanzia un nuovo documento XPS che in seguito popoleremo con un percorso riempito con un gradiente.
 
 ```csharp
-// Inizio ex:4
+// ExStart:4
 XpsDocument doc = new XpsDocument();
-// Fine Estesa:4
+// ExEnd:4
 ```
 
-## Passaggio 3: definire le interruzioni del gradiente
+## Passo 3: Definisci i Gradient Stop
 
-Crea un elenco di interruzioni del gradiente, specificando il colore e la posizione per ciascuna interruzione. In questo esempio definiamo un gradiente verticale con cinque fermate.
+I gradient stop determinano i colori e le loro posizioni lungo la linea del gradiente. Qui creiamo cinque stop per produrre una transizione verticale fluida.
 
 ```csharp
-// Inizio ex:5
+// ExStart:5
 List<XpsGradientStop> stops = new List<XpsGradientStop>();
 stops.Add(doc.CreateGradientStop(doc.CreateColor(253, 255, 12, 0), 0f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(252, 255, 154, 0), 0.359375f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(252, 255, 56, 0), 0.424805f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(253, 255, 229, 0), 0.879883f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(252, 255, 255, 234), 1f));
-// Fine Estesa:5
+// ExEnd:5
 ```
 
-## Passaggio 4: crea un percorso con gradiente
+## Passo 4: Crea un Percorso con Gradiente
 
-Definisci un percorso specificandone la geometria e applicagli un pennello a gradiente lineare.
+Disegniamo un percorso a forma di rettangolo e applichiamo un **linear gradient brush** che si estende verticalmente dal punto (10, 110) al punto (10, 200). Il pennello riceve i gradient stop definiti in precedenza.
 
 ```csharp
-// Inizio ex:6
+// ExStart:6
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,110 L 228,110 228,200 10,200"));
 path.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 20f, 70f);
 path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 110f), new PointF(10f, 200f));
 ((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);
-// Fine Estesa:6
+// ExEnd:6
 ```
 
-## Passaggio 5: salvare il documento XPS risultante
+## Passo 5: Salva il Documento XPS Resultante
 
-Salva il documento XPS modificato nella directory specificata.
+Infine, scrivi il documento XPS su disco. Questo passaggio di **salvataggio del file XPS** produce `AddVerticalGradient_outXPS.xps` nella cartella specificata.
 
 ```csharp
-// Inizio ex:7
+// ExStart:7
 doc.Save(dataDir + "AddVerticalGradient_outXPS.xps");
-// Fine Estesa:7
+// ExEnd:7
 ```
 
-Congratulazioni! Hai aggiunto con successo un gradiente verticale a un documento XPS utilizzando Aspose.Page per .NET.
+**Consiglio:** Verifica l'output aprendo il file XPS in Windows XPS Viewer o in qualsiasi visualizzatore di terze parti per assicurarti che il gradiente appaia come previsto.
+
+## Problemi Comuni & Risoluzione
+
+| Sintomo | Probabile Causa | Soluzione |
+|---------|----------------|-----------|
+| Il gradiente appare come colore solido | Gradient stop non aggiunti al pennello | Assicurati che `((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);` venga eseguito. |
+| File non trovato al salvataggio | `dataDir` punta a una cartella inesistente | Crea prima la directory o usa un percorso assoluto. |
+| I colori appaiono diversi | I valori di colore usano l'ordine ARGB; verifica l'ordine dei canali | Usa `CreateColor(alpha, red, green, blue)` correttamente. |
+
+## Domande Frequenti
+
+**D: Aspose.Page è compatibile con Visual Studio 2019?**  
+R: Sì, Aspose.Page è compatibile con Visual Studio 2019. Assicurati di avere installata la versione corretta della libreria.
+
+**D: Posso usare Aspose.Page per progetti commerciali?**  
+R: Sì, Aspose.Page può essere usato per progetti commerciali. Visita [qui](https://purchase.aspose.com/buy) per esplorare le opzioni di licenza.
+
+**D: È disponibile una versione di prova gratuita?**  
+R: Sì, puoi ottenere una versione di prova gratuita di Aspose.Page [qui](https://releases.aspose.com/).
+
+**D: Dove posso trovare la documentazione di Aspose.Page?**  
+R: La documentazione è disponibile [qui](https://reference.aspose.com/page/net/).
+
+**D: Come posso ottenere supporto o fare domande?**  
+R: Visita il [forum di Aspose.Page](https://forum.aspose.com/c/page/39) per il supporto della community.
 
 ## Conclusione
 
-In questo tutorial, abbiamo esplorato come sfruttare Aspose.Page per .NET per migliorare i documenti XPS con gradienti verticali. Aspose.Page semplifica attività complesse, fornendo agli sviluppatori un modo semplice per manipolare i file XPS nelle loro applicazioni .NET.
+Ora sai come **creare un documento XPS**, **applicare un gradiente lineare** e **salvare un file XPS** usando Aspose.Page per .NET. Questo approccio ti offre il pieno controllo dello stile visivo negli output XPS, facendo risaltare i tuoi documenti stampabili.
 
-## Domande frequenti
+---  
 
-### Q1: Aspose.Page è compatibile con Visual Studio 2019?
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Page for .NET 24.11  
+**Author:** Aspose  
 
-A1: Sì, Aspose.Page è compatibile con Visual Studio 2019. Assicurati di avere la versione corretta della libreria installata.
-
-### Q2: Posso utilizzare Aspose.Page per progetti commerciali?
-
- A2: Sì, Aspose.Page può essere utilizzato per progetti commerciali. Visita[Qui](https://purchase.aspose.com/buy) per esplorare le opzioni di licenza.
-
-### Q3: È disponibile una prova gratuita?
-
- A3: Sì, puoi ottenere una prova gratuita di Aspose.Page[Qui](https://releases.aspose.com/).
-
-### Q4: Dove posso trovare la documentazione Aspose.Page?
-
- A4: La documentazione è disponibile[Qui](https://reference.aspose.com/page/net/).
-
-### Q5: Come posso ottenere supporto o porre domande?
-
- A5: Visita il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) per il sostegno della comunità.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

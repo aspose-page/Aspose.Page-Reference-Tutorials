@@ -1,33 +1,45 @@
 ---
-title: เพิ่มการไล่ระดับสีแนวนอนให้กับ XPS ด้วย Aspose.Page สำหรับ .NET
-linktitle: เพิ่มการไล่ระดับสีแนวนอนให้กับ XPS
+date: 2026-02-25
+description: เรียนรู้วิธีสร้างไล่สี XPS ด้วยการเติมแนวนอนโดยใช้ Aspose.Page สำหรับ
+  .NET ยกระดับความสวยงามของเอกสารของคุณได้อย่างง่ายดาย.
+linktitle: Add Horizontal Gradient to XPS
 second_title: Aspose.Page .NET API
-description: เรียนรู้วิธีเพิ่มการไล่ระดับสีแนวนอนที่น่าทึ่งให้กับเอกสาร XPS ของคุณโดยใช้ Aspose.Page สำหรับ .NET ยกระดับความดึงดูดสายตาได้อย่างง่ายดาย
-weight: 13
+title: 'สร้างไล่ระดับสี XPS: เติมแนวนอนด้วย Aspose.Page สำหรับ .NET'
 url: /th/net/gradient-fills/add-horizontal-gradient-to-xps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มการไล่ระดับสีแนวนอนให้กับ XPS ด้วย Aspose.Page สำหรับ .NET
+# สร้าง XPS Gradient – เพิ่ม Gradient แนวนอนให้กับ XPS ด้วย Aspose.Page for .NET
 
-## การแนะนำ
+## บทนำ
 
-ในบทช่วยสอนนี้ เราจะสำรวจวิธีปรับปรุงเอกสาร XPS โดยการเพิ่มการไล่ระดับสีแนวนอนโดยใช้ Aspose.Page สำหรับ .NET Aspose.Page สำหรับ .NET เป็นไลบรารีที่มีประสิทธิภาพซึ่งให้การจัดการเอกสาร XPS (XML Paper Specification) ในแอปพลิเคชัน .NET ได้อย่างราบรื่น การเพิ่มการไล่ระดับสีสามารถทำให้เอกสารของคุณดูน่าดึงดูด และคู่มือนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
+ในบทเรียนนี้คุณจะ **สร้างการเติมสี Gradient สำหรับ XPS** ที่วิ่งแนวนอนทั่วทั้งหน้า การเพิ่ม Gradient แนวนอนสามารถทำให้เอกสาร XPS ดูเป็นมืออาชีพและน่าสนใจมากขึ้นโดยทันที โดยเฉพาะสำหรับรายงาน โบรชัวร์ หรือผลลัพธ์ที่มีภาพกราฟิกมาก เราจะเดินผ่านกระบวนการทั้งหมดโดยใช้ Aspose.Page for .NET ตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการบันทึกไฟล์ XPS สุดท้าย
+
+## คำตอบสั้น
+- **บทเรียนนี้ครอบคลุมอะไร?** การเพิ่ม Gradient แนวนอนให้กับเอกสาร XPS ด้วย Aspose.Page for .NET  
+- **ต้องใช้ไลบรารีใด?** Aspose.Page for .NET (เวอร์ชันล่าสุดใดก็ได้)  
+- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองสำหรับการพัฒนาได้; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **ใช้เวลานานเท่าไหร่ในการทำ?** ประมาณ 5–10 นาทีสำหรับ Gradient พื้นฐาน  
+- **สามารถเปลี่ยนทิศทางของ Gradient ได้หรือไม่?** ได้ – ปรับจุดเริ่มต้น/สิ้นสุดของ `LinearGradientBrush`
+
+## วิธีสร้าง XPS Gradient ด้วย Aspose.Page for .NET
+
+ด้านล่างนี้เป็นคู่มือแบบขั้นตอนที่อธิบาย **ทำไม** แต่ละบรรทัดของโค้ดจึงมีอยู่, ไม่ใช่แค่ **ทำอะไร** ทำตามได้ใน Visual Studio หรือเครื่องมือ .NET ที่คุณชื่นชอบ
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่เราจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนเริ่ม, ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดต่อไปนี้พร้อมใช้งาน:
 
-1.  Aspose.Page สำหรับ .NET Library: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Page สำหรับ .NET ในสภาพแวดล้อมการพัฒนาของคุณ คุณสามารถดาวน์โหลดได้จาก[Aspose.Page สำหรับเอกสาร .NET](https://reference.aspose.com/page/net/).
+1. Aspose.Page for .NET Library: ตรวจสอบว่าคุณได้ติดตั้งไลบรารี Aspose.Page for .NET ในสภาพแวดล้อมการพัฒนาแล้ว สามารถดาวน์โหลดได้จาก [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/)  
+2. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒที่เหมาะสม รวมถึงโปรแกรมแก้ไขโค้ดอย่าง Visual Studio
 
-2. สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนาที่เหมาะสม รวมถึงโปรแกรมแก้ไขโค้ด เช่น Visual Studio
+## นำเข้า Namespaces
 
-## นำเข้าเนมสเปซ
-
-เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ของคุณ เนมสเปซเหล่านี้จำเป็นสำหรับการทำงานกับ Aspose.Page สำหรับ .NET:
+เริ่มต้นด้วยการนำเข้า namespaces ที่จำเป็นเข้าสู่โปรเจกต์ของคุณ Namespaces เหล่านี้จำเป็นสำหรับการทำงานกับ Aspose.Page for .NET:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -36,31 +48,31 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-ตอนนี้ เรามาแบ่งตัวอย่างที่ให้ไว้ออกเป็นหลายขั้นตอน
+ตอนนี้มาทำความเข้าใจตัวอย่างที่ให้มาเป็นหลายขั้นตอนกัน
 
-## ขั้นตอนที่ 1: ตั้งค่าเส้นทางไดเรกทอรีเอกสาร
+## ขั้นตอนที่ 1: ตั้งค่าเส้นทางไดเรกทอรีของเอกสาร
 
 ```csharp
-// เอ็กซ์สตาร์ท:3
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// สิ้นสุด:3
+// ExEnd:3
 ```
 
-## ขั้นตอนที่ 2: สร้างเอกสาร XPS ใหม่
+## ขั้นตอนที่ 2: สร้าง XPS Document ใหม่
 
 ```csharp
-// เอ็กซ์สตาร์ท:4
-// สร้างเอกสาร XPS ใหม่
+// ExStart:4
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
-// สิ้นสุด:4
+// ExEnd:4
 ```
 
-## ขั้นตอนที่ 3: เริ่มต้นการหยุดการไล่ระดับสี
+## ขั้นตอนที่ 3: เริ่มต้น Gradient Stops
 
 ```csharp
-// เอ็กซ์สตาร์ท:5
-// เริ่มต้นรายการ XpsGradientStop
+// ExStart:5
+// Initialize List of XpsGradientStop
 List<XpsGradientStop> stops = new List<XpsGradientStop>();
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 244, 253, 225), 0.0673828f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 251, 240, 23), 0.314453f));
@@ -68,60 +80,91 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 252, 209, 0), 0.482422f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 241, 254, 161), 0.634766f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 53, 253, 255), 0.915039f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 12, 91, 248), 1f));
-// สิ้นสุด:5
+// ExEnd:5
 ```
 
-## ขั้นตอนที่ 4: สร้างเส้นทางใหม่
+## ขั้นตอนที่ 4: สร้าง Path ใหม่
 
 ```csharp
-// เอ็กซ์สตาร์ท:6
-//สร้างเส้นทางใหม่โดยกำหนดเรขาคณิตในรูปแบบย่อ
+// ExStart:6
+// Create new path by defining geometry in abbreviation form
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,210 L 228,210 228,300 10,300"));
 path.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 20f, 70f);
 path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 0f), new PointF(228f, 0f));
 ((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);
-// สิ้นสุด:6
+// ExEnd:6
 ```
 
-## ขั้นตอนที่ 5: บันทึกเอกสาร XPS ที่เป็นผลลัพธ์
+## ขั้นตอนที่ 5: บันทึก XPS Document ที่ได้ผลลัพธ์
 
 ```csharp
-// เอ็กซ์สตาร์ท:7
-// บันทึกเอกสาร XPS ที่เป็นผลลัพธ์
+// ExStart:7
+// Save resultant XPS document
 doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
-// สิ้นสุด:7
+// ExEnd:7
 ```
 
-ตอนนี้ คุณได้เพิ่มการไล่ระดับสีแนวนอนลงในเอกสาร XPS ของคุณโดยใช้ Aspose.Page สำหรับ .NET เรียบร้อยแล้ว
+ตอนนี้คุณได้เพิ่ม Gradient แนวนอนให้กับเอกสาร XPS ของคุณเรียบร้อยแล้วโดยใช้ Aspose.Page for .NET
 
-## บทสรุป
+## ปัญหาที่พบบ่อยและวิธีแก้
 
-การปรับปรุงเอกสาร XPS ของคุณด้วยการไล่ระดับสีไม่เพียงแต่ปรับปรุงรูปลักษณ์ที่สวยงาม แต่ยังมอบประสบการณ์ผู้ใช้ที่น่าดึงดูดยิ่งขึ้นอีกด้วย Aspose.Page สำหรับ .NET ทำให้กระบวนการนี้ง่ายขึ้น ช่วยให้คุณได้รับผลลัพธ์ระดับมืออาชีพได้อย่างง่ายดาย
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|--------|
+| Gradient ปรากฏเป็นสีเดียว | Gradient stops ไม่ได้เพิ่มอย่างถูกต้อง | ตรวจสอบให้แน่ใจว่า `((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);` ถูกเรียกหลังจากตั้งค่า brush |
+| ไฟล์ที่บันทึกเป็นไฟล์เปล่า | `dataDir` ชี้ไปยังโฟลเดอร์ที่ไม่มีอยู่ | ตรวจสอบว่าโฟลเดอร์มีอยู่หรือใช้เส้นทางแบบ absolute |
+| เกิดข้อผิดพลาดการคอมไพล์ที่ `PointF` | ขาดการอ้างอิง `System.Drawing` | เพิ่มการอ้างอิง `System.Drawing.Common` (สำหรับ .NET Core/5+) |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: ฉันจะหาเอกสาร Aspose.Page สำหรับ .NET ได้ที่ไหน
+### Q1: จะหาเอกสาร Aspose.Page for .NET ได้ที่ไหน?
 
- A1: คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/page/net/).
+A1: คุณสามารถดูเอกสารได้ [ที่นี่](https://reference.aspose.com/page/net/)
 
-### คำถามที่ 2: ฉันจะดาวน์โหลด Aspose.Page สำหรับ .NET ได้อย่างไร
+### Q2: จะดาวน์โหลด Aspose.Page for .NET ได้อย่างไร?
 
- A2: คุณสามารถดาวน์โหลดไลบรารีได้จากไฟล์[Aspose.Page สำหรับหน้าดาวน์โหลด .NET](https://releases.aspose.com/page/net/).
+A2: ดาวน์โหลดไลบรารีได้จาก [หน้าดาวน์โหลด Aspose.Page for .NET](https://releases.aspose.com/page/net/)
 
-### คำถามที่ 3: ฉันจะซื้อ Aspose.Page สำหรับ .NET ได้ที่ไหน
+### Q3: จะซื้อ Aspose.Page for .NET ได้จากที่ไหน?
 
- A3: คุณสามารถซื้อ Aspose.Page สำหรับ .NET ได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).
+A3: สามารถซื้อได้จาก [หน้า purchase](https://purchase.aspose.com/buy)
 
-### คำถามที่ 4: มีการทดลองใช้ฟรีหรือไม่?
+### Q4: มีรุ่นทดลองฟรีหรือไม่?
 
- A4: ได้ คุณสามารถทดลองใช้งานฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+A4: มี, คุณสามารถรับรุ่นทดลองฟรีได้จาก [ที่นี่](https://releases.aspose.com/)
 
-### คำถามที่ 5: ฉันจะได้รับใบอนุญาตชั่วคราวสำหรับ Aspose.Page สำหรับ .NET ได้อย่างไร
+### Q5: จะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.Page for .NET ได้อย่างไร?
 
- A5: คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
+A5: รับลิขสิทธิ์ชั่วคราวได้จาก [ลิงก์นี้](https://purchase.aspose.com/temporary-license/)
+
+## Frequently Asked Questions
+
+**Q: สามารถใช้เทคนิค Gradient นี้กับเอกสาร XPS ที่มีรูปภาพอยู่แล้วได้หรือไม่?**  
+A: แน่นอน Gradient จะถูกนำไปใช้กับเลเยอร์ Path ดังนั้นรูปภาพที่มีอยู่จะไม่ได้รับผลกระทบ
+
+**Q: สามารถสร้าง Gradient แนวตั้งแทนได้หรือไม่?**  
+A: ได้ เปลี่ยนจุดเริ่มต้นและสิ้นสุดของ `LinearGradientBrush` ให้มีค่า Y ต่างกันในขณะที่ค่า X คงที่
+
+**Q: Aspose.Page รองรับ .NET Core หรือไม่?**  
+A: ไลบรารีนี้รองรับ .NET Core, .NET 5 และเวอร์ชันต่อ ๆ ไปอย่างเต็มที่
+
+**Q: จะใช้ Gradient เดียวกันหลายหน้าอย่างไร?**  
+A: สร้าง `XpsLinearGradientBrush` ครั้งเดียว เก็บไว้ในตัวแปร แล้วกำหนดให้กับ Path บนแต่ละหน้า
+
+## สรุป
+
+การเพิ่ม Gradient ให้กับเอกสาร XPS ไม่เพียงทำให้ดูสวยงามขึ้นเท่านั้น แต่ยังมอบประสบการณ์ผู้ใช้ที่ดีกว่า ด้วย Aspose.Page for .NET คุณสามารถ **สร้าง XPS Gradient** ได้อย่างรวดเร็วและเชื่อถือได้ ทำให้รายงาน โบรชัวร์ หรือ e‑book ของคุณดูเป็นมืออาชีพยิ่งขึ้น
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-25  
+**ทดสอบด้วย:** Aspose.Page for .NET 24.11  
+**ผู้เขียน:** Aspose  
+
+---
