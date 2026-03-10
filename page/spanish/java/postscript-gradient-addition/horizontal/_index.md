@@ -1,10 +1,10 @@
 ---
-date: 2025-12-07
-description: Aprenda cómo agregar un degradado horizontal en Java PostScript usando
-  Linear Gradient Paint Java con Aspose.Page para Java.
-linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
+date: 2026-02-13
+description: Aprende cómo añadir un degradado en Java PostScript usando Linear Gradient
+  Paint Java con Aspose.Page para Java.
+linktitle: How to Add Gradient in Java PostScript with Linear Gradient Paint
 second_title: Aspose.Page Java API
-title: Agregar degradado en Java PostScript usando Linear Gradient Paint Java
+title: Cómo añadir un degradado en Java PostScript con pintura de degradado lineal
 url: /es/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
@@ -13,20 +13,23 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Añadir degradado en Java PostScript usando Linear Gradient Paint Java
+# Cómo agregar degradado en Java PostScript con Linear Gradient Paint
 
 ## Introducción
-En este tutorial exhaustivo descubrirás cómo crear un hermoso degradado horizontal en un documento PostScript aprovechando **Linear Gradient Paint Java**. Aspose.Page for Java facilita el trabajo con PostScript, PDF y otros formatos vectoriales, y la clase `LinearGradientPaint` te brinda un control detallado sobre las transiciones de color. Al final de esta guía, podrás renderizar degradados en formas **y** texto, dando a tus documentos un aspecto profesional y llamativo.
+En este tutorial completo descubrirás **cómo agregar degradado** a un documento PostScript usando Java. Te guiaremos paso a paso para crear un hermoso degradado horizontal aprovechando **Linear Gradient Paint Java**, una clase que te brinda control pixel‑perfecto sobre las transiciones de color. Con Aspose.Page for Java puedes renderizar degradados tanto en formas **como** en texto, dando a tus documentos un aspecto pulido y llamativo que destaca.
 
 ## Respuestas rápidas
 - **¿Qué biblioteca se requiere?** Aspose.Page for Java (compatible con Linear Gradient Paint Java).  
 - **¿Cuánto tiempo lleva la implementación?** Aproximadamente 10‑15 minutos para un degradado básico.  
 - **¿Necesito una licencia?** Se requiere una licencia temporal o completa para uso en producción.  
-- **¿Qué versión de JDK funciona?** Java 8 o superior.  
-- **¿Puedo usar el degradado tanto en formas como en texto?** Sí – puedes rellenar formas y trazar o rellenar texto con el mismo degradado.
+- **¿Qué versión de JDK funciona?** Java 8 o superior.  
+- **¿Puedo usar el degradado en formas y texto?** Sí – puedes rellenar formas y trazar o rellenar texto con el mismo degradado.
+
+## Qué es un degradado horizontal y por qué usarlo?
+Un degradado horizontal combina suavemente los colores de izquierda a derecha a lo largo de una forma o texto. Es ideal para crear elementos de UI modernos, encabezados resaltados o efectos de fondo sutiles en informes. Usar **Linear Gradient Paint Java** te permite definir los colores de inicio y fin exactos, la opacidad y el escalado, de modo que el resultado se vea nítido en cualquier dispositivo.
 
 ## Requisitos previos
-Antes de sumergirte en el código, asegúrate de contar con lo siguiente:
+Antes de sumergirte en el código, asegúrate de tener lo siguiente:
 
 - Java Development Kit (JDK) instalado en tu máquina.  
 - Biblioteca Aspose.Page for Java. Puedes descargarla desde la [documentación de Aspose.Page Java](https://reference.aspose.com/page/java/).
@@ -86,7 +89,7 @@ Ahora rellena el rectángulo con el degradado que acabamos de definir.
 document.fill(rectangle);
 ```
 
-## Paso 4: Rellenar texto con el degradado
+## Paso 4: Rellenar un texto con el degradado
 También puedes aplicar el mismo degradado al texto, creando un efecto visual impactante.
 
 ```java
@@ -95,8 +98,8 @@ Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
 ```
 
-## Paso 5: Trazar texto con el degradado
-Finalmente, contornea el texto usando el degradado como color de trazo.
+## Paso 5: Trazar un texto con el degradado
+Finalmente, delinear el texto usando el degradado como color de trazo.
 
 ```java
 // Stroke a text with the gradient
@@ -106,29 +109,29 @@ document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ## Problemas comunes y soluciones
 | Problema | Por qué ocurre | Solución |
 |----------|----------------|----------|
-| El degradado aparece estirado | Escalado incorrecto en `AffineTransform` | Asegúrate de que el ancho y alto del transform coincidan con las dimensiones del rectángulo (200 × 100 en el ejemplo). |
-| Los colores se ven desvanecidos | Valores alfa demasiado bajos | Incrementa el componente alfa (el cuarto valor en `new Color(r,g,b,alpha)`). |
-| El texto no es visible | No se estableció la pintura antes de dibujar el texto | Llama a `document.setPaint(paint)` **antes** de cualquier llamada a `fillAndStrokeText` o `outlineText`. |
+| El degradado aparece estirado | Escalado incorrecto del `AffineTransform` | Asegúrate de que el ancho y alto del transform coincidan con las dimensiones del rectángulo (200 × 100 en el ejemplo). |
+| Los colores se ven desvanecidos | Los valores alfa están configurados demasiado bajos | Aumenta el componente alfa (el cuarto valor en `new Color(r,g,b,alpha)`). |
+| El texto no es visible | Paint no se establece antes de dibujar el texto | Llama a `document.setPaint(paint)` **antes** de cualquier llamada a `fillAndStrokeText` o `outlineText`. |
 
 ## Preguntas frecuentes
-### ¿Puedo usar Aspose.Page for Java en proyectos comerciales?
-Sí, Aspose.Page for Java puede usarse en proyectos comerciales. Para detalles de licenciamiento, visita [Aspose.Purchase](https://purchase.aspose.com/buy).
+**P:** ¿Puedo usar Aspose.Page for Java en proyectos comerciales?  
+**R:** Sí, Aspose.Page for Java puede usarse en proyectos comerciales. Para detalles de licenciamiento, visita [Aspose.Purchase](https://purchase.aspose.com/buy).
 
-### ¿Hay una versión de prueba gratuita disponible?
-Sí, puedes acceder a una prueba gratuita de Aspose.Page for Java [aquí](https://releases.aspose.com/).
+**P:** ¿Hay una prueba gratuita disponible?  
+**R:** Sí, puedes acceder a una prueba gratuita de Aspose.Page for Java [aquí](https://releases.aspose.com/).
 
-### ¿Dónde puedo encontrar documentación adicional y soporte?
-Visita la [documentación de Aspose.Page Java](https://reference.aspose.com/page/java/) para recursos completos. Para soporte comunitario, consulta el [foro de Aspose.Page](https://forum.aspose.com/c/page/39).
+**P:** ¿Dónde puedo encontrar documentación y soporte adicional?  
+**R:** Visita la [documentación de Aspose.Page Java](https://reference.aspose.com/page/java/) para recursos completos. Para soporte comunitario, revisa el [foro de Aspose.Page](https://forum.aspose.com/c/page/39).
 
-### ¿Cómo puedo obtener una licencia temporal?
-Puedes obtener una licencia temporal en [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
+**P:** ¿Cómo puedo obtener una licencia temporal?  
+**R:** Puedes obtener una licencia temporal en [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 
-### ¿Cuáles son los requisitos del sistema para Aspose.Page for Java?
-Consulta la [documentación](https://reference.aspose.com/page/java/) para obtener los requisitos del sistema detallados.
+**P:** ¿Cuáles son los requisitos del sistema para Aspose.Page for Java?  
+**R:** Consulta la [documentación](https://reference.aspose.com/page/java/) para obtener requisitos detallados del sistema.
 
 ---
 
-**Última actualización:** 2025-12-07  
+**Última actualización:** 2026-02-13  
 **Probado con:** Aspose.Page for Java 24.11  
 **Autor:** Aspose  
 

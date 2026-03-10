@@ -1,8 +1,8 @@
 ---
-date: 2025-12-09
-description: Tìm hiểu cách tạo gradient PostScript trong Java bằng Aspose.Page. Hướng
-  dẫn từng bước này sẽ chỉ cho bạn cách thêm gradient dọc vào tài liệu PostScript
-  một cách dễ dàng.
+date: 2026-02-13
+description: Học cách tạo gradient PostScript trong Java bằng Aspose.Page. Hướng dẫn
+  từng bước này cho bạn biết cách thêm gradient dọc vào tài liệu PostScript một cách
+  dễ dàng.
 linktitle: Add Vertical Gradient in Java PostScript
 second_title: Aspose.Page Java API
 title: Tạo Gradient PostScript trong Java – Thêm Gradient Dọc
@@ -10,29 +10,43 @@ url: /vi/java/postscript-gradient-addition/vertical/
 weight: 14
 ---
 
+ keep same link text? The link text can be translated? The rule says preserve markdown links format, but we can translate the link text while keeping URL unchanged. Usually we can translate link text. We'll translate link text.
+
+Also for images none present.
+
+Let's produce final content.
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tạo Gradient PostScript trong Java – Thêm Gradient Dọc
 
-## Introduction
-Trong hướng dẫn toàn diện này, bạn sẽ học cách **tạo gradient PostScript trong Java** với Aspose.Page cho Java. Thêm một gradient dọc có thể làm cho tài liệu của bạn trông sinh động và chuyên nghiệp hơn, và chỉ với vài dòng mã bạn có thể đạt được hiệu ứng hình ảnh ấn tượng. Chúng tôi sẽ hướng dẫn bạn qua từng bước, giải thích lý do mỗi phần quan trọng, và cung cấp các mẹo thực tế để tránh những lỗi thường gặp.  
-Trong hướng dẫn này, chúng tôi sẽ **tạo gradient postscript java** từng bước.
+## Giới thiệu
+Trong hướng dẫn toàn diện này, bạn sẽ học cách **tạo gradient PostScript trong Java** với Aspose.Page for Java. Thêm một gradient dọc có thể làm cho tài liệu của bạn trông sinh động và chuyên nghiệp hơn, và chỉ với vài dòng mã bạn đã có thể đạt được các hiệu ứng hình ảnh ấn tượng. Chúng tôi sẽ hướng dẫn bạn từng bước, giải thích lý do mỗi phần quan trọng, và cung cấp các mẹo thực tế để tránh những lỗi thường gặp. Khi kết thúc hướng dẫn này, bạn sẽ có thể tạo các tệp PostScript có chuyển đổi màu dọc mượt mà, bắt mắt.
 
-## Quick Answers
-- **What library is needed?** Aspose.Page for Java  
-- **Can I customize colors?** Yes, any `java.awt.Color` can be used  
-- **Is rotation supported?** Yes, you can rotate the gradient with an `AffineTransform`  
-- **What output format is produced?** A standard PostScript (.ps) file  
-- **Do I need a license for production?** Yes, a commercial license is required  
+## Câu trả lời nhanh
+- **Thư viện nào cần thiết?** Aspose.Page for Java  
+- **Có thể tùy chỉnh màu sắc không?** Có, bất kỳ `java.awt.Color` nào cũng có thể sử dụng  
+- **Có hỗ trợ xoay không?** Có, bạn có thể xoay gradient bằng một `AffineTransform`  
+- **Định dạng đầu ra là gì?** Tệp PostScript tiêu chuẩn (.ps)  
+- **Có cần giấy phép cho môi trường sản xuất không?** Có, cần giấy phép thương mại  
 
-## Prerequisites
-Trước khi bắt đầu hướng dẫn, hãy chắc chắn rằng bạn đã chuẩn bị các điều kiện tiên quyết sau:
-- Java Development Kit (JDK) đã được cài đặt trên máy của bạn.  
-- Aspose.Page for Java library. Bạn có thể tải xuống [tại đây](https://releases.aspose.com/page/java/).
+## Tại sao nên thêm gradient dọc vào tài liệu PostScript?
+Gradient dọc mang lại độ sâu cho các trang mà không làm tăng kích thước tệp. Chúng hoàn hảo cho:
 
-## Import Packages
+* Đầu trang hoặc chân trang báo cáo cần một nền màu nhẹ nhàng.  
+* Làm nổi bật các phần trong tài liệu kỹ thuật hoặc white‑paper.  
+* Tạo phong cách hiện đại cho biểu đồ, sơ đồ, hoặc tờ rơi quảng cáo.
+
+Vì gradient được định nghĩa dưới dạng vector, đầu ra luôn sắc nét ở bất kỳ độ phân giải nào.
+
+## Yêu cầu trước
+Trước khi bắt đầu tutorial, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
+- Java Development Kit (JDK) đã được cài đặt trên máy tính của bạn.  
+- Thư viện Aspose.Page for Java. Bạn có thể tải xuống [tại đây](https://releases.aspose.com/page/java/).
+
+## Nhập gói
 Trong dự án Java của bạn, nhập các gói cần thiết để bắt đầu:
 ```java
 import java.awt.Color;
@@ -46,49 +60,49 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-Bây giờ, chúng ta sẽ phân tích quá trình thêm gradient dọc trong PostScript Java thành nhiều bước.
+Bây giờ, chúng ta sẽ đi qua quy trình thêm gradient dọc từng bước một.
 
-## How to create PostScript gradient Java
-Dưới đây là hướng dẫn từng bước cho thấy cách **tạo gradient PostScript trong Java** bằng API Aspose.Page.
+## Cách tạo gradient PostScript trong Java
+Dưới đây là hướng dẫn chi tiết từng bước cho thấy cách **tạo gradient PostScript trong Java** bằng API Aspose.Page.
 
-### Step 1: Set up Your Document Directory
+### Bước 1: Thiết lập thư mục tài liệu của bạn
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Create Output Stream for PostScript Document
+### Bước 2: Tạo luồng xuất cho tài liệu PostScript
 ```java
 // Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "VerticalGradient_outPS.ps");
 ```
 
-### Step 3: Create Save Options with A4 Size
+### Bước 3: Tạo tùy chọn lưu với kích thước A4
 ```java
 // Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-### Step 4: Create a New PS Document
+### Bước 4: Tạo tài liệu PS mới
 ```java
 // Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-### Step 5: Create a Rectangle
+### Bước 5: Tạo một hình chữ nhật
 ```java
 // Create a rectangle
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
 
-### Step 6: Set Up Colors and Fractions for the Gradient
+### Bước 6: Thiết lập màu và tỉ lệ cho gradient
 ```java
 // Create arrays of colors and fractions for the gradient.
 Color[] colors = { Color.RED, Color.GREEN, Color.BLUE, Color.ORANGE, new Color(85, 107, 47) };
 float[] fractions = { 0.0f, 0.1873f, 0.492f, 0.734f, 1.0f };
 ```
 
-### Step 7: Create the Gradient Transform
+### Bước 7: Tạo phép biến đổi gradient
 ```java
 // Create the gradient transform. Scale components in the transform must be equal to width and height of the rectangle.
 // Translation components are offsets of the rectangle.
@@ -97,7 +111,7 @@ AffineTransform transform = new AffineTransform(200, 0, 0, 100, 200, 100);
 transform.rotate(90 * (Math.PI / 180));
 ```
 
-### Step 8: Create Vertical Linear Gradient Paint
+### Bước 8: Tạo Paint gradient tuyến tính dọc
 ```java
 // Create vertical linear gradient paint.
 LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new Point2D.Float(200, 100),
@@ -105,7 +119,7 @@ LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new
         transform);
 ```
 
-### Step 9: Set Paint and Fill the Rectangle
+### Bước 9: Đặt Paint và tô đầy hình chữ nhật
 ```java
 // Set paint
 document.setPaint(paint);
@@ -113,7 +127,7 @@ document.setPaint(paint);
 document.fill(rectangle);
 ```
 
-### Step 10: Close Current Page and Save the Document
+### Bước 10: Đóng trang hiện tại và lưu tài liệu
 ```java
 // Close current page
 document.closePage();
@@ -121,51 +135,45 @@ document.closePage();
 document.save();
 ```
 
-Chúc mừng! Bạn đã thành công thêm gradient dọc vào tài liệu PostScript Java của mình bằng Aspose.Page cho Java.
+Chúc mừng! Bạn đã thành công thêm gradient dọc vào tài liệu PostScript Java của mình bằng Aspose.Page for Java.
 
-## Why use vertical gradients in PostScript?
-Gradient dọc mang lại độ sâu và sự thu hút trực quan cho các trang mà không làm tăng kích thước tệp đáng kể. Chúng đặc biệt hữu ích cho:
-- Tiêu đề và chân trang báo cáo  
-- Nền cho biểu đồ hoặc sơ đồ  
-- Làm nổi bật các phần trong tài liệu kỹ thuật  
+## Các vấn đề thường gặp và giải pháp
+- **Gradient trông phẳng:** Đảm bảo phép biến đổi `AffineTransform` có tỷ lệ phù hợp với kích thước hình chữ nhật.  
+- **Màu sắc bị nhạt:** Kiểm tra bạn đang sử dụng đúng `ColorSpaceType` (SRGB) và mảng fractions được sắp xếp từ 0.0 đến 1.0.  
+- **Không tạo được tệp:** Kiểm tra thư mục đầu ra (`dataDir`) có tồn tại và ứng dụng có quyền ghi.
 
-## Common Issues and Solutions
-- **Gradient appears flat:** Đảm bảo tỷ lệ `AffineTransform` phù hợp với kích thước hình chữ nhật.  
-- **Colors look washed out:** Xác minh bạn đang sử dụng `ColorSpaceType` (SRGB) đúng và mảng tỷ lệ được sắp xếp từ 0.0 đến 1.0.  
-- **File not generated:** Kiểm tra thư mục đầu ra (`dataDir`) tồn tại và ứng dụng có quyền ghi.  
+## Câu hỏi thường gặp
+### Tôi có thể sử dụng Aspose.Page for Java cùng với các thư viện Java khác không?
+Có, Aspose.Page for Java được thiết kế để hoạt động liền mạch với các thư viện Java khác.
 
-## Frequently Asked Questions
-### Can I use Aspose.Page for Java with other Java libraries?
-Có, Aspose.Page cho Java được thiết kế để hoạt động liền mạch với các thư viện Java khác.
-
-### Is there a free trial available for Aspose.Page for Java?
+### Có bản dùng thử miễn phí cho Aspose.Page for Java không?
 Có, bạn có thể nhận bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
-### Where can I find additional documentation?
+### Tôi có thể tìm tài liệu bổ sung ở đâu?
 Tài liệu chi tiết có sẵn [tại đây](https://reference.aspose.com/page/java/).
 
-### How can I purchase Aspose.Page for Java?
-Bạn có thể mua Aspose.Page cho Java [tại đây](https://purchase.aspose.com/buy).
+### Làm sao để mua Aspose.Page for Java?
+Bạn có thể mua Aspose.Page for Java [tại đây](https://purchase.aspose.com/buy).
 
-### Is there a forum for Aspose.Page discussions?
+### Có diễn đàn thảo luận về Aspose.Page không?
 Có, bạn có thể tham gia diễn đàn cộng đồng [tại đây](https://forum.aspose.com/c/page/39).
 
-## Additional Frequently Asked Questions
+## Các câu hỏi thường gặp bổ sung
 
-**Q: Can I create other gradient directions (horizontal, diagonal)?**  
-A: Chắc chắn. Điều chỉnh điểm bắt đầu và kết thúc trong `LinearGradientPaint` và thay đổi góc xoay trong `AffineTransform`.
+**H: Tôi có thể tạo các hướng gradient khác (ngang, chéo) không?**  
+Đ: Chắc chắn. Điều chỉnh các điểm bắt đầu và kết thúc trong `LinearGradientPaint` và thay đổi góc xoay trong `AffineTransform`.
 
-**Q: Does this work with PDF output as well?**  
-A: Logic gradient tương tự có thể áp dụng khi lưu thành PDF bằng cách sử dụng `PdfSaveOptions` thay vì `PsSaveOptions`.
+**H: Điều này có hoạt động với đầu ra PDF không?**  
+Đ: Logic gradient tương tự có thể áp dụng khi lưu dưới dạng PDF bằng cách sử dụng `PdfSaveOptions` thay vì `PsSaveOptions`.
 
-**Q: How do I change the gradient size dynamically?**  
-A: Tính toán kích thước hình chữ nhật tại thời gian chạy và truyền các giá trị đó cho cả `Rectangle2D` và hàm khởi tạo `AffineTransform`.
+**H: Làm sao để thay đổi kích thước gradient một cách động?**  
+Đ: Tính toán kích thước hình chữ nhật tại thời gian chạy và truyền các giá trị đó cho cả `Rectangle2D` và hàm khởi tạo `AffineTransform`.
 
 ---
 
-**Last Updated:** 2025-12-09  
-**Tested With:** Aspose.Page for Java 24.11 (latest)  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-02-13  
+**Đã kiểm tra với:** Aspose.Page for Java 24.11 (phiên bản mới nhất)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
