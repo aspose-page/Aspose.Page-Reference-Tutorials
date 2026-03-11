@@ -1,66 +1,81 @@
 ---
-title: قم بتحويل XPS إلى PDF باستخدام Aspose.Page لـ .NET
-linktitle: تحويل XPS إلى PDF
+date: 2026-01-10
+description: حوّل XPS إلى PDF بسهولة في .NET باستخدام Aspose.Page. حمّل المكتبة، استكشف
+  الوثائق، واحصل على نسخة تجريبية مجانية.
+linktitle: Convert XPS to PDF
 second_title: Aspose.Page .NET API
-description: قم بتحويل XPS إلى PDF بسهولة في .NET باستخدام Aspose.Page. قم بتنزيل المكتبة واستكشف الوثائق واحصل على نسخة تجريبية مجانية.
-weight: 11
+title: تحويل XPS إلى PDF باستخدام Aspose.Page لـ .NET
 url: /ar/net/document-conversion/convert-xps-to-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتحويل XPS إلى PDF باستخدام Aspose.Page لـ .NET
+# تحويل XPS إلى PDF باستخدام Aspose.Page لـ .NET
 
-## مقدمة
+## Introduction
 
-في هذا البرنامج التعليمي، سوف نتعمق في عملية تحويل مستندات XPS (مواصفات ورق XML) إلى PDF (تنسيق المستندات المحمولة) باستخدام مكتبة Aspose.Page القوية لـ .NET. يوفر Aspose.Page for .NET مجموعة قوية من الميزات للعمل مع ملفات XPS، مما يتيح للمطورين تحويلها بسلاسة إلى تنسيق PDF مع خيارات التخصيص المتنوعة.
+في هذا البرنامج التعليمي ستتعلم **كيفية تحويل XPS إلى PDF** باستخدام مكتبة Aspose.Page لـ .NET. تحويل XPS إلى PDF هو طلب شائع عندما تحتاج إلى مشاركة مستندات XPS مع مستخدمين لديهم فقط قارئات PDF، أو عندما تريد تضمين محتوى XPS في سير عمل PDF أكبر. سنستعرض كل خطوة، نشرح لماذا كل إعداد مهم، ونظهر لك كيفية ضبط المخرجات بدقة—مثل ضبط جودة JPEG وتطبيق ضغط صور PDF.
 
-## المتطلبات الأساسية
+## Quick Answers
+- **ما هي المكتبة الأفضل لتحويل XPS إلى PDF؟** Aspose.Page for .NET
+- **هل أحتاج إلى ترخيص للإنتاج؟** نعم، يلزم ترخيص تجاري؛ يتوفر نسخة تجريبية مجانية.
+- **هل يمكنني التحكم في جودة الصورة؟** بالتأكيد—استخدم `JpegQualityLevel` و `PdfImageCompression`.
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7.
+- **هل يمكن تحويل ملفات XPS متعددة إلى PDF واحد؟** نعم، عبر تكرار الملفات ودمج النتائج.
 
-قبل أن نبدأ رحلة التحويل هذه، تأكد من توفر المتطلبات الأساسية التالية:
+## Prerequisites
 
--  Aspose.Page for .NET Library: تأكد من تثبيت Aspose.Page لمكتبة .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[Aspose.Page الوثائق](https://reference.aspose.com/page/net/).
+قبل أن نبدأ رحلة التحويل هذه، تأكد من توفر المتطلبات التالية:
 
-- بيئة التطوير: قم بإعداد بيئة تطوير .NET باستخدام Visual Studio أو أي بيئة تطوير متكاملة أخرى متوافقة.
+- **Aspose.Page for .NET Library** – تأكد من تثبيت مكتبة Aspose.Page لـ .NET في بيئة التطوير الخاصة بك. يمكنك تنزيلها من [Aspose.Page documentation](https://reference.aspose.com/page/net/).
+- **Development Environment** – قم بإعداد بيئة تطوير .NET باستخدام Visual Studio أو أي بيئة تطوير متكاملة أخرى متوافقة.
+- **XPS Document** – حضّر مستند XPS الذي تريد تحويله إلى PDF. يمكن أن يكون ملف XPS النموذجي المخزن في دليل مخصص.
 
-- مستند XPS: قم بإعداد مستند XPS الذي تريد تحويله إلى PDF. يمكن أن يكون هذا هو نموذج ملف XPS الخاص بك والمخزن في دليل معين.
+## Import Namespaces
 
-## استيراد مساحات الأسماء
-
-قبل التعمق في التعليمات البرمجية، فلنستورد مساحات الأسماء الضرورية لتسهيل الوصول إلى وظائف Aspose.Page لـ .NET في التعليمات البرمجية الخاصة بنا:
+قبل الغوص في الكود، لنقم باستيراد مساحة الاسم اللازمة لجعل وظائف Aspose.Page لـ .NET متاحة في مشروعنا:
 
 ```csharp
 using Aspose.Page.XPS;
 ```
 
-## الخطوة 1: تهيئة دليل المستندات
+## Step‑by‑Step Guide
+
+### Step 1: Initialize Document Directory
+
+حدد المجلد الذي يحتوي على ملف XPS المصدر وحيث سيتم حفظ ملف PDF الناتج.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-استبدل "دليل المستندات الخاص بك" بالمسار إلى الدليل الذي يحتوي على مستند XPS الخاص بك.
+استبدل `"Your Document Directory"` بالمسار المطلق أو النسبي للمجلد الذي يحتوي على مستند XPS الخاص بك.
 
-## الخطوة 2: تهيئة تدفقات PDF وXPS
+### Step 2: Open Streams for PDF Output and XPS Input
+
+نستخدم تدفقين للملفات—أحدهما لقراءة ملف XPS والآخر لكتابة ملف PDF المُنشأ.
 
 ```csharp
 using (System.IO.Stream pdfStream = System.IO.File.Open(dataDir + "XPStoPDF_out.pdf", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
 using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 ```
 
-افتح التدفقات لكل من ملف PDF الناتج وملف XPS المدخل. تأكد من تعيين مسارات الملفات المناسبة.
+> **Pro tip:** تأكد من صحة المسارات وأن التطبيق يمتلك صلاحيات القراءة/الكتابة على المجلد المستهدف.
 
-## الخطوة 3: تحميل مستند XPS
+### Step 3: Load the XPS Document
+
+أنشئ كائن `XpsDocument` من تدفق XPS. يتيح لك كائن `XpsLoadOptions` تحديد تفضيلات التحميل، لكن الإعداد الافتراضي يعمل في معظم السيناريوهات.
 
 ```csharp
 XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
 ```
 
-قم بتحميل مستند XPS باستخدام Aspose.Page لمكتبة .NET.
+### Step 4: Configure PDF Save Options
 
-## الخطوة 4: تهيئة خيارات حفظ PDF
+هنا نحدد تفضيلات إخراج PDF. لاحظ استخدام **ضغط صور PDF** (`PdfImageCompression.Jpeg`) و **جودة JPEG** (`JpegQualityLevel = 100`). هذه الإعدادات تؤثر مباشرة على حجم الملف وجودته البصرية.
 
 ```csharp
 PdfSaveOptions options = new PdfSaveOptions()
@@ -72,49 +87,92 @@ PdfSaveOptions options = new PdfSaveOptions()
 };
 ```
 
-قم بإعداد خيارات حفظ PDF، بما في ذلك المعلمات مثل مستوى جودة JPEG، وضغط الصور، وضغط النص، وأرقام الصفحات المحددة المراد تضمينها.
+- **`JpegQualityLevel`** – يتحكم في جودة صور JPEG المدمجة في PDF (كلما ارتفعت القيمة زادت الجودة وحجم الملف).
+- **`ImageCompression`** – يختار خوارزمية الضغط؛ JPEG مثالية للصور الفوتوغرافية.
+- **`TextCompression`** – ضغط Flate يقلل حجم PDF دون فقدان جودة النص.
+- **`PageNumbers`** – يتيح لك **حفظ XPS كـ PDF** للصفحات المختارة فقط.
 
-## الخطوة 5: إنشاء جهاز عرض PDF
+### Step 5: Create a PDF Rendering Device
+
+يعمل `PdfDevice` كهدف للعرض الذي يكتب بيانات PDF إلى التدفق الذي فتحناه مسبقًا.
 
 ```csharp
 PdfDevice device = new PdfDevice(pdfStream);
 ```
 
-قم بإنشاء جهاز عرض لتنسيق PDF باستخدام Aspose.Page لمكتبة .NET.
+### Step 6: Save the Document to PDF
 
-## الخطوة 6: حفظ المستند إلى PDF
+أخيرًا، استدعِ طريقة `Save`، مع تمرير جهاز العرض والإعدادات المكوّنة.
 
 ```csharp
 document.Save(device, options);
 ```
 
-احفظ مستند XPS في ملف PDF باستخدام جهاز العرض والخيارات المحددة.
+عند انتهاء تنفيذ الكود، سيظهر الملف `XPStoPDF_out.pdf` في الدليل المحدد، يحتوي على الصفحات المحوّلة مع إعدادات الضغط والجودة التي حددتها.
 
-## خاتمة
+## Why Convert XPS to PDF?
 
-تهانينا! لقد نجحت في تحويل مستند XPS إلى PDF باستخدام Aspose.Page لـ .NET. توفر هذه المكتبة متعددة الاستخدامات للمطورين مجموعة أدوات قوية للتعامل مع تنسيقات المستندات المختلفة دون عناء.
+- **إتاحة شاملة** – مشغلات PDF مثبتة على كل جهاز تقريبًا، بينما قارئات XPS نادرة.
+- **الحفاظ على التخطيط** – PDF يحتفظ بالتخطيط البصري الدقيق، الخطوط، والرسومات الأصلية لـ XPS.
+- **معالجة إضافية** – بمجرد تحويله إلى PDF، يمكنك دمج، إضافة تعليقات، أو توقيع المستند رقميًا باستخدام مكتبات Aspose الأخرى.
 
-## الأسئلة الشائعة
+## Common Use Cases
 
-### س١: هل يمكنني تحويل عدة ملفات XPS إلى ملف PDF واحد باستخدام Aspose.Page لـ .NET؟
+- **تقارير المؤسسات** – إنشاء تقارير XPS من الأنظمة القديمة وتحويلها إلى PDF للتوزيع.
+- **الأرشفة** – حفظ المستندات كـ PDF للحفظ طويل الأمد مع القدرة على إنشائها من مصادر XPS.
+- **خدمات الويب** – تقديم نقطة نهاية API تستقبل ملفات XPS وتعيد ملفات PDF فورًا.
 
-ج1: نعم، يمكنك التنقل عبر ملفات XPS متعددة واتباع نفس الخطوات لدمجها في ملف PDF واحد.
+## Troubleshooting & Tips
 
-### س2: هل هناك تنسيقات إخراج أخرى يدعمها Aspose.Page لـ .NET؟
+- **الملف غير موجود** – تحقق مرة أخرى من مسار `dataDir` وتأكد من تطابق اسم ملف XPS تمامًا.
+- **أخطاء الصلاحيات** – شغّل Visual Studio كمسؤول أو امنح صلاحيات كتابة للمجلد الهدف.
+- **ملفات PDF الكبيرة** – إذا كان PDF الناتج كبيرًا جدًا، قلل `JpegQualityLevel` أو غيّر `ImageCompression` إلى `PdfImageCompression.Zip`.
 
-ج2: نعم، يدعم Aspose.Page for .NET تنسيقات الإخراج المتنوعة، بما في ذلك TIFF وJPEG وPNG والمزيد.
+## FAQ's
 
-### س3: كيف يمكنني تخصيص مظهر مستند PDF المحول؟
+### Q1: Can I convert multiple XPS files to a single PDF using Aspose.Page for .NET?
 
-A3: يمكنك تعديل معلمات كائن الخيارات، مثل ضغط الصورة وضغط النص، لتحقيق المظهر المطلوب.
+A1: نعم، يمكنك تكرار الملفات المتعددة واتباع نفس الخطوات لدمجها في PDF واحد.
 
-### س4: هل هناك إصدار تجريبي متاح لـ Aspose.Page لـ .NET؟
+### Q2: Are there other output formats supported by Aspose.Page for .NET?
 
- ج4: نعم، يمكنك استكشاف إمكانيات Aspose.Page لـ .NET من خلال الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+A2: نعم، تدعم Aspose.Page لـ .NET صيغ إخراج متعددة، بما في ذلك TIFF، JPEG، PNG، وأكثر.
 
-### س5: أين يمكنني الحصول على دعم المجتمع لـ Aspose.Page لـ .NET؟
+### Q3: How can I customize the appearance of the converted PDF document?
 
- ج5: قم بزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للمناقشات المجتمعية والدعم.
+A3: يمكنك تعديل معلمات كائن الخيارات، مثل ضغط الصور وضغط النص، للحصول على المظهر المطلوب.
+
+### Q4: Is there a trial version available for Aspose.Page for .NET?
+
+A4: نعم، يمكنك استكشاف قدرات Aspose.Page لـ .NET بالحصول على نسخة تجريبية مجانية من [here](https://releases.aspose.com/).
+
+### Q5: Where can I get community support for Aspose.Page for .NET?
+
+A5: زر [Aspose.Page forum](https://forum.aspose.com/c/page/39) للمناقشات المجتمعية والحصول على الدعم.
+
+## Frequently Asked Questions (AI‑Friendly)
+
+**س: كيف أضبط جودة JPEG عند تحويل XPS إلى PDF؟**  
+ج: استخدم الخاصية `JpegQualityLevel` داخل `PdfSaveOptions`. ضبطها على 100 يعطي أقصى جودة.
+
+**س: ماذا يعني “ضغط صور PDF” في هذا السياق؟**  
+ج: يشير إلى خيار `ImageCompression` الذي يحدد كيفية ضغط الصور داخل PDF (مثل JPEG، Zip).
+
+**س: هل يمكنني إنشاء PDF برمجيًا دون مصدر XPS؟**  
+ج: نعم، تدعم Aspose.Page أيضًا **c# generate pdf** مباشرة من أوامر الرسم، لكن هذا خارج نطاق هذا الدرس.
+
+**س: هل هناك طريقة لتحويل XPS إلى PDF دون فقدان الرسومات المتجهة؟**  
+ج: التحويل يحتفظ بالبيانات المتجهة؛ فقط تجنب تحويل الصور إلى نقطية بالحفاظ على `ImageCompression` مضبوطة على JPEG أو Zip حسب الحاجة.
+
+**س: هل تدعم المكتبة .NET Core؟**  
+ج: بالتأكيد – تعمل Aspose.Page لـ .NET مع .NET Core، .NET 5، .NET 6، والإصدارات الأحدث.
+
+---
+
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
