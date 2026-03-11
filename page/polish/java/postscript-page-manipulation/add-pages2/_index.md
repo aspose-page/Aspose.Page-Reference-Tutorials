@@ -1,5 +1,5 @@
 ---
-date: 2025-12-11
+date: 2026-02-18
 description: Dowiedz się, jak ustawić niestandardowy rozmiar strony i dodawać strony
   do dokumentów PostScript w Javie przy użyciu Aspose.Page. Skorzystaj z naszego przewodnika
   krok po kroku, aby płynnie manipulować dokumentami.
@@ -15,22 +15,25 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Poradnik Aspose.Page Java – ustaw niestandardowy rozmiar strony podczas dodawania stron w PostScript
+# Samouczek Aspose.Page Java – ustaw niestandardowy rozmiar strony podczas dodawania stron w PostScript
 
 ## Wprowadzenie
-W nowoczesnych aplikacjach Java często wymaga się **ustawiania niestandardowego rozmiaru strony** dla wyjścia PostScript — niezależnie od tego, czy generujesz faktury, bilety, czy własne grafiki. Aspose.Page for Java ułatwia to zadanie. W tym poradniku nauczysz się, jak dodawać strony i ustawiać niestandardowe rozmiary stron w dokumencie PostScript, krok po kroku, abyś za każdym razem uzyskał idealny układ.
+W nowoczesnych aplikacjach Java **ustawianie niestandardowego rozmiaru strony** dla wyjścia PostScript jest często wymagane — niezależnie od tego, czy generujesz faktury, bilety, czy własne grafiki. W tym samouczku dowiesz się, jak **ustawić niestandardowy rozmiar strony** dla każdej strony, dodać wiele stron oraz ostatecznie **wygenerować plik PostScript**, który dokładnie odpowiada Twoim potrzebom układu. Przejdziemy krok po kroku przez kod, abyś mógł szybko zastosować tę technikę w własnych projektach.
 
 ## Szybkie odpowiedzi
-- **Czy mogę ustawić różne rozmiary stron dla każdej strony?** Tak, możesz otwierać strony z niestandardowymi wymiarami używając `document.openPage(width, height)`.  
+- **Czy mogę ustawić różne rozmiary stron dla każdej strony?** Tak, możesz otwierać strony o własnych wymiarach używając `document.openPage(width, height)`.  
 - **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose.Page dla wdrożeń nie‑ewaluacyjnych.  
-- **Jakie wersje Java są wspierane?** Biblioteka działa z Java 8 i nowszymi.  
-- **Czy API jest bezpieczne wątkowo?** Instancje dokumentu nie są bezpieczne wątkowo; utwórz osobny `PsDocument` dla każdego wątku.  
-- **Jak duży może być plik PostScript?** Aspose.Page obsługuje pliki wielokrotnych megabajtów efektywnie; zużycie pamięci skaluje się z zawartością, a nie z liczbą stron.
+- **Jakie wersje Javy są obsługiwane?** Biblioteka działa z Java 8 i nowszymi.  
+- **Czy API jest wątkowo‑bezpieczne?** Instancje dokumentów nie są wątkowo‑bezpieczne; utwórz osobny `PsDocument` dla każdego wątku.  
+- **Jak duży może być plik PostScript?** Aspose.Page efektywnie obsługuje pliki wielo‑megabajtowe; zużycie pamięci skaluje się wraz z zawartością, a nie liczbą stron.  
+- **Czy mogę użyć przeciążenia openPage width/height?** Oczywiście — `openPage(double width, double height)` pozwala określić dowolne wymiary w punktach.  
 
 ## Wymagania wstępne
-- Podstawowa znajomość programowania w języku Java.  
-- Dodany do projektu Aspose.Page for Java (Maven/Gradle lub ręczny JAR).  
-- Środowisko programistyczne Java (IDE, JDK 8+).  
+Zanim przejdziesz dalej, upewnij się, że masz:
+
+- Podstawową znajomość programowania w Javie.  
+- Aspose.Page dla Javy dodany do projektu (Maven/Gradle lub ręcznie JAR).  
+- Środowisko programistyczne Javy (IDE, JDK 8+).  
 
 ## Importowanie pakietów
 Aby rozpocząć, zaimportuj niezbędne klasy z biblioteki Aspose.Page.
@@ -58,7 +61,7 @@ PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
 
 ## Krok 2: Dodaj zawartość do pierwszej strony
-Gdy dokument jest gotowy, możesz dodać dowolną zawartość do pierwszej strony. Po zakończeniu zamknij stronę, aby zablokować jej zawartość.
+Po przygotowaniu dokumentu możesz dodać dowolną zawartość do pierwszej strony. Po zakończeniu zamknij stronę, aby zablokować jej treść.
 
 ```java
 // Add content to the first page
@@ -70,7 +73,7 @@ document.closePage();
 Jeśli domyślny rozmiar strony nie spełnia Twoich wymagań, możesz **ustawić niestandardowy rozmiar strony** przy otwieraniu nowej strony. Jest to przydatne przy paragonach, etykietach lub dowolnym niestandardowym układzie.
 
 ## Krok 3: Dodaj drugą stronę o innym rozmiarze
-Poniżej otwieramy drugą stronę i jawnie podajemy niestandardową szerokość i wysokość (w punktach). To pokazuje, jak ustawić niestandardowy rozmiar strony dla poszczególnych stron.
+Poniżej otwieramy drugą stronę i wyraźnie podajemy własną szerokość oraz wysokość (w punktach). To pokazuje, jak ustawić niestandardowy rozmiar strony dla poszczególnych stron, dając możliwość pracy z **różnymi rozmiarami stron** w tym samym dokumencie.
 
 ```java
 // Add the second page with a different size
@@ -81,46 +84,62 @@ document.closePage();
 ```
 
 ## Krok 4: Zapisz dokument
-Na koniec zachowaj zmiany, zapisując dokument. Wszystkie strony — w tym te o niestandardowych rozmiarach — zostaną zapisane do pliku wyjściowego.
+Na koniec zapisz zmiany, zapisując dokument. Wszystkie strony — w tym te o niestandardowych rozmiarach — zostaną zapisane do pliku wyjściowego.
 
 ```java
 // Save the document
 document.save();
 ```
 
-Postępując zgodnie z tymi krokami, możesz płynnie dodawać strony i **ustawiać niestandardowe rozmiary stron** w dokumencie PostScript Java przy użyciu Aspose.Page, co daje pełną kontrolę nad układem każdej strony.
+Postępując zgodnie z tymi krokami, możesz płynnie dodawać strony i **ustawiać niestandardowy rozmiar strony** w dokumencie PostScript w Javie przy użyciu Aspose.Page, uzyskując pełną kontrolę nad układem każdej strony.
 
-## Zakończenie
-Aspose.Page for Java oferuje solidne, przyjazne dla programistów API do obsługi dokumentów PostScript. Teraz wiesz, jak dodać wiele stron, zastosować niestandardowe wymiary i zapisać wynik — co umożliwia generowanie precyzyjnie sformatowanego wyjścia dla dowolnego rozwiązania opartego na Javie.
+## Dlaczego warto używać Aspose.Page do ustawiania niestandardowego rozmiaru strony?
+- **Precyzja:** Wymiary definiowane są w punktach, co daje dokładną kontrolę nad szerokością i wysokością strony.  
+- **Elastyczność:** Możesz mieszać **różne rozmiary stron** w jednym pliku PostScript.  
+- **Wydajność:** Biblioteka strumieniuje zawartość bezpośrednio do pliku wyjściowego, co sprawia, że jest odpowiednia dla scenariuszy **generowania dużych plików PostScript**.  
+- **Bogate API:** Obsługuje rysowanie grafiki, osadzanie obrazów i dodawanie tekstu — wszystko przy zachowaniu ustawionych wymiarów.  
+
+## Typowe problemy i rozwiązania
+| Problem | Rozwiązanie |
+|---------|-------------|
+| **Wymiary strony wydają się zamienione** | Pamiętaj, że `openPage(width, height)` oczekuje najpierw szerokość, a potem wysokość (obie w punktach). |
+| **Zawartość wykracza poza stronę** | Skorzystaj z układu współrzędnych `PsGraphics`, aby pozycjonować elementy w obrębie niestandardowych granic lub skaluj rysunek. |
+| **Błędy braku pamięci przy bardzo dużych dokumentach** | Włącz strumieniowanie, zapisując bezpośrednio do `FileOutputStream`, jak pokazano, i unikaj ładowania dużych obrazów do pamięci jednocześnie. |
 
 ## Najczęściej zadawane pytania
 ### Czy mogę dodać strony o różnych rozmiarach w jednym dokumencie PostScript?
-Tak, jak pokazano w tym poradniku, możesz dodawać strony o różnych rozmiarach w wielostronicowym dokumencie PostScript.  
+Tak, jak pokazano w tym samouczku, możesz dodawać strony o różnych rozmiarach w wielostronicowym dokumencie PostScript.  
+
 ### Czy istnieją ograniczenia co do liczby stron, które mogę dodać?
-Aspose.Page umożliwia dodawanie praktycznie nieograniczonej liczby stron do dokumentu.  
-### Czy mogę dodać własną zawartość, taką jak obrazy lub grafiki, na strony?
-Oczywiście! Aspose.Page pozwala dodawać szeroką gamę treści, w tym tekst, obrazy i inne elementy graficzne.  
+Aspose.Page obsługuje praktycznie nieograniczoną liczbę stron w dokumencie.  
+
+### Czy mogę dodać własną zawartość, taką jak obrazy lub grafiki, na stronach?
+Oczywiście! Aspose.Page pozwala dodawać szeroki zakres treści, w tym tekst, obrazy i inne elementy graficzne.  
+
 ### Czy Aspose.Page nadaje się do obsługi dużych dokumentów?
-Tak, Aspose.Page jest zaprojektowany tak, aby efektywnie obsługiwać zarówno małe, jak i duże dokumenty.  
+Tak, Aspose.Page jest zaprojektowany tak, aby efektywnie radzić sobie zarówno z małymi, jak i dużymi dokumentami.  
+
 ### Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Page?
-Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/), or visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support.  
+Odwiedź [dokumentację Aspose.Page](https://reference.aspose.com/page/java/), lub zajrzyj na [forum Aspose.Page](https://forum.aspose.com/c/page/39) w celu uzyskania pomocy od społeczności.  
 
-**Additional Q&A**
+**Dodatkowe pytania i odpowiedzi**
 
-**Q:** *Jakie formaty obrazów są obsługiwane przy rysowaniu na stronie PostScript?*  
-**A:** Możesz osadzać obrazy PNG, JPEG, BMP i GIF bezpośrednio przy użyciu API rysowania.  
+**P:** *Jakie formaty obrazów są obsługiwane przy rysowaniu na stronie PostScript?*  
+**O:** Możesz osadzać obrazy PNG, JPEG, BMP i GIF bezpośrednio przy użyciu API rysowania.  
 
-**Q:** *Jak zmienić domyślną rozdzielczość DPI dokumentu?*  
-**A:** Ustaw `PsSaveOptions.setResolution(int dpi)` przed utworzeniem `PsDocument`.  
+**P:** *Jak zmienić domyślną rozdzielczość DPI dokumentu?*  
+**O:** Ustaw `PsSaveOptions.setResolution(int dpi)` przed utworzeniem `PsDocument`.  
 
-**Q:** *Czy mogę zaszyfrować plik PostScript hasłem?*  
-**A:** Sam format PostScript nie obsługuje szyfrowania, ale możesz opakować wyjście w PDF i zastosować ustawienia zabezpieczeń w razie potrzeby.  
+**P:** *Czy mogę zaszyfrować plik PostScript hasłem?*  
+**O:** Sam format PostScript nie obsługuje szyfrowania, ale możesz opakować wynik w PDF i zastosować zabezpieczenia, jeśli jest to potrzebne.  
 
 ---
 
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page for Java 24.10  
-**Author:** Aspose
+**Ostatnia aktualizacja:** 2026-02-18  
+**Testowano z:** Aspose.Page for Java 24.10  
+**Autor:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

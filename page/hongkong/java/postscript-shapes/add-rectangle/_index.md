@@ -1,6 +1,6 @@
 ---
-date: 2025-12-11
-description: 學習如何在 Java PostScript 中使用 Aspose.Page 繪製矩形形狀。本分步指南展示如何設定畫筆、設定矩形顏色（Java），並創建充滿活力的圖形。
+date: 2026-02-18
+description: 學習如何使用 Aspose.Page 在 Java PostScript 中繪製矩形形狀。本分步指南將示範如何設定畫筆、設定矩形顏色（Java），以及如何創建生動的圖形，同時說明如何高效繪製矩形。
 linktitle: Add Rectangle in Java PostScript
 second_title: Aspose.Page Java API
 title: 如何在 Java PostScript 中使用 Aspose.Page 繪製矩形
@@ -8,30 +8,56 @@ url: /zh-hant/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
+ Chinese. Eg "Aspose.Page for Java 文件說明". Keep link.
+
+Similarly other links.
+
+Also bullet list items.
+
+Let's produce final content.
+
+Be careful with "Quick Answers" section bullet items.
+
+Translate accordingly.
+
+Also "Common Use Cases for Rectangle Drawing" etc.
+
+Make sure to preserve markdown formatting.
+
+Now produce final content.
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 如何在 Java PostScript 中使用 Aspose.Page 繪製矩形
 
-## 簡介
-如果您需要在 Java PostScript 檔案中 **how to draw rectangle** 繪製矩形形狀，您來對地方了。在本教學中，我們將示範如何使用 Aspose.Page for Java 新增彩色矩形、控制填充與描邊，並將結果儲存為 PostScript 文件。您將會看到 **how to set paint** 的具體做法、如何定義矩形的幾何形狀，以及為何此方法適合以程式方式產生可列印的圖形。
+## 介紹
+如果您需要在 Java PostScript 檔案中 **繪製矩形**，您來對地方了。在本教學中，我們將示範如何使用 Aspose.Page for Java 新增彩色矩形、控制填色與描邊，並將結果儲存為 PostScript 文件。您將會看到 **如何設定 Paint**、如何定義矩形的幾何形狀，以及為什麼此方法非常適合以程式方式產生可列印的圖形。完成本指南後，您也會了解 **draw rectangle java** 技術的更廣泛應用，以及它在 **java awt rectangle drawing** 工作流程中的角色。
 
 ## 快速回答
-- **What library is required?** Aspose.Page for Java  
-- **Can I change rectangle colors?** Yes – use `setPaint` with any `java.awt.Color`  
-- **Do I need a license for development?** A free trial works for testing; a license is required for production  
-- **Which page size is used in the example?** A4 (default `PsSaveOptions`)  
-- **Is the code compatible with Java 8+?** Absolutely – it uses standard AWT classes  
+- **需要哪個函式庫？** Aspose.Page for Java  
+- **可以更改矩形顏色嗎？** 可以 – 使用 `setPaint` 搭配任意 `java.awt.Color`  
+- **開發階段需要授權嗎？** 免費試用版可用於測試；正式上線需購買授權  
+- **範例使用哪種頁面尺寸？** A4（`PsSaveOptions` 的預設值）  
+- **程式碼支援 Java 8+ 嗎？** 完全支援 – 使用標準 AWT 類別  
 
-## 先決條件
-在開始本教學之前，請確保您已具備以下條件：
-- 具備基本的 Java 程式設計概念。  
-- 已安裝 Aspose.Page for Java 函式庫。若尚未安裝，請從 [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) 下載。  
-- 在您的機器上已設定 Java 開發環境。
+## 什麼是 PostScript 中的「繪製矩形」？
+在 PostScript 文件中繪製矩形意味著定義一個矩形區域，然後填色、描邊或同時執行兩者。使用 Aspose.Page 時，您可以透過熟悉的 **java awt rectangle drawing** 類別來完成，讓程式碼易於閱讀與維護。
+
+## 為什麼選擇 Aspose.Page 來處理矩形圖形？
+- **跨平台**：產生符合標準的 PostScript，可在任何印表機上使用。  
+- **細緻控制**：可分別設定填色、描邊顏色與線寬。  
+- **無外部相依**：僅使用內建的 AWT 幾何類別，無需額外圖形函式庫。  
+
+## 前置條件
+在開始教學之前，請確保您已具備以下條件：
+- 基本的 Java 程式設計知識。  
+- 已安裝 Aspose.Page for Java 函式庫。若尚未安裝，請從 [Aspose.Page for Java 文件說明](https://reference.aspose.com/page/java/) 下載。  
+- 在您的機器上已設定好 Java 開發環境。
 
 ## 匯入套件
-在您的 Java 專案中，先匯入必要的套件：
+在 Java 專案中，先匯入必要的套件。這些匯入讓您可以使用 AWT 的 `Color`、`BasicStroke`、`Rectangle2D` 類別，以及 Aspose.Page 的核心文件處理類別。
 
 ```java
 import java.awt.BasicStroke;
@@ -42,11 +68,10 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## 如何在 Java PostScript 中繪製矩形
-以下是完整的工作流程，分為清晰的步驟說明。每個步驟皆包含簡短說明，並附上原始程式碼區塊（保持不變）。
+## 步驟說明：在 Java PostScript 中繪製矩形
 
-### 步驟 1：設定矩形填充的 Paint  
-**How to set paint** – 我們為第一個矩形選擇橙色作為填充顏色。
+### 步驟 1：設定填充矩形的 Paint  
+**如何設定 Paint** – 我們為第一個矩形選擇橙色填充，示範 **set rectangle color java** 的功能。
 
 ```java
 // The path to the documents directory.
@@ -63,8 +88,8 @@ document.setPaint(Color.ORANGE);
 document.fill(new Rectangle2D.Float(250, 100, 150, 100));
 ```
 
-### 步驟 2：設定矩形描邊的 Paint  
-**Set rectangle color java** – 接著將 Paint 改為紅色，並定義描邊寬度。
+### 步驟 2：設定描邊矩形的 Paint  
+**set rectangle color java** – 接著將 Paint 改為紅色，並定義描邊寬度。此範例說明如何使用自訂線寬 **draw rectangle java**。
 
 ```java
 // Set paint for stroking rectangle
@@ -76,7 +101,7 @@ document.draw(new Rectangle2D.Float(250, 300, 150, 100));
 ```
 
 ### 步驟 3：關閉當前頁面並儲存文件  
-繪製完成後，我們關閉頁面並將檔案寫入磁碟。
+繪製完成後，我們關閉頁面並將檔案寫入磁碟。關閉頁面可確保所有繪圖指令都已寫入 PostScript 串流。
 
 ```java
 // Close current page
@@ -85,52 +110,54 @@ document.closePage();
 document.save();
 ```
 
-## 為什麼使用 Aspose.Page 繪製矩形圖形？
-- **Cross‑platform**：產生符合標準的 PostScript，可在任何印表機上使用。  
-- **Fine‑grained control**：可分別設定填充顏色、描邊顏色與線寬。  
-- **No external dependencies**：僅使用內建的 AWT 幾何類別。  
+## 矩形繪製的常見應用情境
+- **發票或收據產生** – 矩形作為邊框或突顯區塊。  
+- **標籤製作** – 繪製彩色方框以區分商品資訊。  
+- **簡易圖表** – 使用填充矩形作為長條圖元素。  
+- **自訂可列印表單** – 結合矩形與文字建立表單欄位。  
 
 ## 常見問題與技巧
-- **File path errors** – 請確保 `dataDir` 以檔案分隔符結尾（`/` 或 `\\`）。  
-- **License exceptions** – 試用版會加入浮水印；正式使用時請取得完整授權。  
-- **Color visibility** – 某些印表機可能對特定 RGB 值的呈現不同，建議先測試簡單的黑色矩形。
-
-## 結論
-本指南示範了 **how to draw rectangle** 在 Java PostScript 文件中的實作方式，說明了 **how to set paint** 的步驟，並展示了如何 **set rectangle color java**。歡迎自行嘗試不同的形狀、顏色與線條樣式，為報表、發票或自訂列印建立豐富的可列印圖形。
+- **檔案路徑錯誤** – 確認 `dataDir` 以檔案分隔符 (`/` 或 `\\`) 結尾。  
+- **授權例外** – 試用版會加上浮水印，正式使用請取得完整授權。  
+- **顏色可見度** – 部分印表機對某些 RGB 值的解讀不同，建議先測試黑色矩形。  
+- **記憶體使用** – 大型文件建議在每頁結束後呼叫 `document.closePage()` 以釋放資源。  
 
 ## 常見問答
 
-### 我可以在其他程式語言中使用 Aspose.Page for Java 嗎？
-Aspose.Page 主要支援 Java，但其他語言亦有類似的函式庫可供使用。
+**Q:** *我可以在其他程式語言中使用 Aspose.Page for Java 嗎？*  
+A: Aspose.Page 主要支援 Java，但其他語言也有類似的函式庫可供選擇。
 
-### 是否提供 Aspose.Page for Java 的試用版？
-是的，您可以透過 [free trial version](https://releases.aspose.com/) 體驗 Aspose.Page for Java 的功能。
+**Q:** *是否有 Aspose.Page for Java 的試用版？*  
+A: 有，您可以透過 [免費試用版](https://releases.aspose.com/) 了解功能。
 
-### 我可以在哪裡找到更多協助與討論？
-請前往 [Aspose.Page forum](https://forum.aspose.com/c/page/39) 與社群互動並取得協助。
+**Q:** *哪裡可以找到更多協助與討論？*  
+A: 前往 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39) 與社群互動取得協助。
 
-### 如何取得 Aspose.Page for Java 的臨時授權？
-請至 [here](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
+**Q:** *如何取得 Aspose.Page for Java 的臨時授權？*  
+A: 請至 [此處](https://purchase.aspose.com/temporary-license/) 申請臨時授權。
 
-### 我該從哪裡購買 Aspose.Page for Java 的授權版本？
-請至 [here](https://purchase.aspose.com/buy) 購買授權版本。
+**Q:** *哪裡可以購買 Aspose.Page for Java 的正式授權？*  
+A: 前往 [此處](https://purchase.aspose.com/buy) 購買授權版本。
 
-**Additional Q&A**
+**其他問答**
 
-**Q:** *我可以動態變更矩形的大小嗎？*  
-**A:** 可以 – 只要在呼叫 `fill` 或 `draw` 前，修改 `Rectangle2D.Float(x, y, width, height)` 的參數即可。
+**Q:** *我可以動態調整矩形大小嗎？*  
+A: 可以 – 在呼叫 `fill` 或 `draw` 前，只需修改 `Rectangle2D.Float(x, y, width, height)` 的參數。
 
 **Q:** *能否在矩形內加入文字？*  
-**A:** 當然可以。繪製矩形後，使用 `document.drawString(...)` 並指定字型與位置即可。
+A: 完全可以。繪製矩形後，使用 `document.drawString(...)` 並指定字型與位置即可。
 
-**Q:** *Aspose.Page 是否支援其他形狀，如圓形或多邊形？*  
-**A:** 支援，API 提供 `drawEllipse`、`drawPolygon` 等方法，可繪製各種向量圖形。
+**Q:** *Aspose.Page 是否支援其他形狀，例如圓形或多邊形？*  
+A: 支援，API 提供 `drawEllipse`、`drawPolygon` 等方法，可繪製各種向量圖形。
+
+## 結論
+本指南示範了 **如何在 Java PostScript 文件中繪製矩形**，說明了 **如何設定 Paint**，並展示了 **set rectangle color java** 的用法。現在您已具備建立多彩可列印圖形的基礎，無論是發票、標籤或自訂表單，都能輕鬆上手。歡迎嘗試不同的顏色、線條樣式以及其他 AWT 形狀，讓輸出更加豐富。
 
 ---
 
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose  
+**最後更新：** 2026-02-18  
+**測試環境：** Aspose.Page for Java 24.12（最新）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
