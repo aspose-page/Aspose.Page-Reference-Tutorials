@@ -1,10 +1,10 @@
 ---
-date: 2025-12-09
-description: Java ile PostScript belgesi oluşturmayı ve Aspose.Page kullanarak görüntüyü
-  çevirip döndürmeyi öğrenin; sorunsuz görüntü işleme için.
+date: 2026-02-15
+description: Aspose.Page for Java kullanarak PostScript Java belgeleri oluşturmayı
+  ve görüntü çevirme ve döndürme ile PostScript belge dosyaları üretmeyi öğrenin.
 linktitle: Add Image in Java PostScript
 second_title: Aspose.Page Java API
-title: Java ile PostScript Belgesi Oluştur – Java PostScript'te Resim Ekle
+title: PostScript Java Oluştur – Java PostScript’te Görsel Ekle
 url: /tr/java/postscript-image-manipulation/add-image/
 weight: 10
 ---
@@ -13,36 +13,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PostScript Belgesi Oluşturma Java – Java PostScript'te Görüntü Ekleme
+# PostScript Java Oluştur – Java PostScript'te Görüntü Ekle
 
 ## Giriş
-Bu öğreticide, **PostScript belge Java** oluşturmayı ve Aspose.Page for Java kütüphanesini kullanarak görüntüleri gömmeyi öğreneceksiniz. Belgeyi ayarlamaktan **görüntüyü çevirme ve döndürme** gibi dönüşümler uygulamaya kadar her adımı birlikte inceleyeceğiz. Sonunda, programlı olarak zengin PostScript dosyaları oluşturabilecek ve görüntü yerleşimini tam ihtiyaçlarınıza göre özelleştirebileceksiniz.
+Bu öğreticide, **postscript java** belgeleri oluşturmayı ve Aspose.Page for Java kütüphanesini kullanarak görüntüleri gömmeyi öğreneceksiniz. Yeni bir PostScript dosyası başlatmaktan **translate and rotate image** dönüşümlerini uygulamaya kadar her adımı adım adım inceleyeceğiz. Sonunda, PostScript dosyalarını programlı olarak üretebilecek ve görüntü yerleşimini piksel‑tam doğrulukla kontrol edebileceksiniz—otomatik raporlama, baskı iş akışları veya Java’dan **generate postscript document** çıktısı almanız gereken herhangi bir senaryo için mükemmel.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphane gereklidir?** Aspose.Page for Java  
+- **Hangi kütüphane gerekiyor?** Aspose.Page for Java  
 - **Birden fazla görüntü ekleyebilir miyim?** Evet – dönüşüm ve çizim adımlarını tekrarlayın  
-- **Geliştirme için lisansa ihtiyacım var mı?** Ücretsiz deneme test için çalışır; üretim için lisans gereklidir  
-- **Hangi Java sürümü destekleniyor?** Java 8 ve sonrası  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme yeterli; üretim için lisans gereklidir  
+- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri  
 - **Görüntü döndürme destekleniyor mu?** Kesinlikle – `AffineTransform.rotate()` kullanın  
 
-## Java'da PostScript belgesi oluşturmak nedir?
-PostScript belgesi, metin, grafik ve görüntüleri tanımlayan bir sayfa tanımlama dili dosyasıdır. Aspose.Page kullanarak, bu dosyaları Java'da programlı olarak oluşturabilir, düzen, grafik durumu ve görüntü işleme üzerinde tam kontrol sahibi olabilirsiniz; bir PostScript yorumlayıcıya ihtiyaç duymazsınız.
+## create postscript java nedir?
+Bir **create postscript java** işlemi, metin, vektör grafikleri ve raster görüntüleri kodlayan bir PostScript sayfa tanım dosyası üretir. Aspose.Page ile bu dosyaları doğrudan Java kodundan oluşturabilir, yerleşim, ölçekleme ve döndürme üzerinde tam programatik kontrol sağlayabilirsiniz; ayrı bir PostScript yorumlayıcıya ihtiyaç duymazsınız.
 
-## Görüntü işleme için Aspose.Page neden kullanılmalı?
-- **High‑level API:** Karmaşık PostScript komutlarını basitleştirir.  
-- **Cross‑platform:** Java'yı destekleyen herhangi bir işletim sisteminde çalışır.  
-- **Full graphics state control:** Grafikleri kolayca kaydedebilir, geri yükleyebilir, çevirip, ölçeklendirebilir ve döndürebilirsiniz.  
-- **No external dependencies:** Görüntü yükleme ve dönüşümü dahili olarak yönetir.  
+## Aspose.Page'i görüntü işleme için neden kullanmalısınız?
+- **Yüksek‑seviye API:** Düşük‑seviye PostScript komutlarını basit Java metodlarına dönüştürür.  
+- **Çapraz‑platform:** Java destekleyen herhangi bir işletim sisteminde çalışır.  
+- **Tam grafik‑durumu kontrolü:** Grafikleri istediğiniz gibi kaydedebilir, geri yükleyebilir, çevirtebilir, ölçeklendirebilir ve döndürebilirsiniz.  
+- **Harici bağımlılık yok:** Görüntü yükleme, format dönüşümü ve gömme işlemlerini dahili olarak yönetir.
 
 ## Önkoşullar
-Kodun içine dalmadan önce şunların kurulu olduğundan emin olun:
+Kodlamaya başlamadan önce şunların yüklü olduğundan emin olun:
 
-- Sisteminizde Java Development Kit (JDK) yüklü olduğundan emin olun.  
-- Aspose.Page for Java kütüphanesi. Bunu [buradan](https://releases.aspose.com/page/java/) indirebilirsiniz.  
-- Java programlamaya temel bir anlayış.  
+- Sisteminizde Java Development Kit (JDK) kurulu olmalı.  
+- Aspose.Page for Java kütüphanesi. İndirmek için [buraya](https://releases.aspose.com/page/java/) tıklayın.  
+- Java programlamaya temel bir anlayış.
 
 ## Paketleri İçe Aktarma
-Başlamak için, Java projenizde gerekli paketleri içe aktarın. Aşağıdaki kod parçacığını referans olarak kullanın:
+Başlamak için Java projenizde gerekli paketleri içe aktarın. Aşağıdaki kod parçacığını referans olarak kullanın:
 
 ```java
 import java.awt.geom.AffineTransform;
@@ -55,7 +55,7 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## Adım 1: Grafik Kaydetme Yazma
-İlk adım, belgeye grafik kaydetme komutunu yazmayı içerir. Bu, sonradan yapılan herhangi bir dönüşüm veya değişikliğin gerektiğinde geri alınabilmesini sağlar.
+İlk adım, belgeye grafik kaydetme komutunu yazmaktır. Bu, sonradan yapılan dönüşüm veya değişikliklerin gerektiğinde geri alınabilmesini sağlar.
 
 ```java
 // The path to the documents directory.
@@ -69,8 +69,8 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 document.writeGraphicsSave();
 ```
 
-## Adım 2: Çevirme ve Dönüştürme (görüntüyü çevirme ve döndürme)
-Sonra, belgeyi çevirin ve görüntü dosyasından bir `BufferedImage` nesnesi oluşturun. `AffineTransform` kullanarak ölçekleme ve döndürme gibi bir dizi dönüşüm uygulayın. İşte **görüntüyü çevirme ve döndürme** işleminin gerçekleştiği yer.
+## Adım 2: Çevirme ve Dönüştürme (translate and rotate image)
+Sonra, belgeyi çevirin ve görüntü dosyasından bir `BufferedImage` nesnesi oluşturun. `AffineTransform` kullanarak ölçekleme ve döndürme gibi bir dizi dönüşüm uygulayın. İşte **translate and rotate image** işleminin gerçekleştiği yer.
 
 ```java
 document.translate(100, 100);
@@ -91,14 +91,14 @@ document.drawImage(image, transform, null);
 ```
 
 ## Adım 4: Grafik Geri Yükleme Yazma
-Görüntüyü ekledikten sonra, yapılan değişiklikleri tamamlamak için grafik geri yükleme komutunu yazın.
+Görüntüyü ekledikten sonra, yapılan değişiklikleri sonlandırmak için grafik geri yükleme komutunu yazın.
 
 ```java
 document.writeGraphicsRestore();
 ```
 
-## Adım 5: Mevcut Sayfayı Kapat ve Kaydet
-Mevcut sayfayı kapatın ve belgeyi kaydedin.
+## Adım 5: Geçerli Sayfayı Kapat ve Kaydet
+Geçerli sayfayı kapatın ve belgeyi kaydedin.
 
 ```java
 document.closePage();
@@ -109,33 +109,33 @@ Bu adımları tekrarlayarak birden fazla görüntü ekleyebilir veya gereksiniml
 
 ## Yaygın Sorunlar ve Çözümler
 - **FileNotFoundException:** `dataDir` yolunun bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden ve görüntü dosya adının tam olarak eşleştiğinden emin olun.  
-- **ImageIO.read returns null:** Görüntü formatının desteklendiğini (ör. JPEG, PNG) doğrulayın.  
-- **Incorrect rotation angle:** `AffineTransform.rotate` radyan bekler. Gerekirse dereceyi radyana çevirin (`Math.toRadians(degrees)`).  
+- **ImageIO.read null döndürüyor:** Görüntü formatının desteklendiğini (ör. JPEG, PNG) doğrulayın.  
+- **Yanlış döndürme açısı:** `AffineTransform.rotate` radyan bekler. Gerekirse dereceyi radyana çevirin (`Math.toRadians(degrees)`).
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-**S: Aspose.Page for Java'ı diğer programlama dilleriyle kullanabilir miyim?**  
-A: Aspose.Page öncelikle Java'yı destekler, ancak diğer programlama dilleri için de sürümler mevcuttur.
+**S: Aspose.Page for Java’yı başka programlama dilleriyle kullanabilir miyim?**  
+C: Aspose.Page öncelikle Java’yı destekler, ancak diğer programlama dilleri için de sürümler mevcuttur.
 
-**S: Aspose.Page for Java için ücretsiz deneme mevcut mu?**  
-A: Evet, ücretsiz denemeye [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+**S: Aspose.Page for Java için ücretsiz bir deneme mevcut mu?**  
+C: Evet, ücretsiz denemeye [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-**S: Aspose.Page for Java için geçici lisans nasıl alabilirim?**  
-A: Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
+**S: Aspose.Page for Java için geçici bir lisans nasıl alınır?**  
+C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-**S: Aspose.Page for Java ile ilgili topluluk desteği ve tartışmaları nerede bulabilirim?**  
-A: Topluluk desteği için [Aspose.Page Forum](https://forum.aspose.com/c/page/39) adresini ziyaret edin.
+**S: Aspose.Page for Java ile ilgili topluluk desteği ve tartışmalara nereden ulaşabilirim?**  
+C: Topluluk desteği için [Aspose.Page Forum](https://forum.aspose.com/c/page/39) adresini ziyaret edin.
 
 **S: Aspose.Page for Java satın almak için ek kaynaklar var mı?**  
-A: Kütüphaneyi [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
+C: Kütüphaneyi [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
 ## Sonuç
-Tebrikler! Aspose.Page for Java kullanarak **PostScript belge Java** oluşturmayı ve görüntüleri gömmeyi başarıyla öğrendiniz. Vektör grafikleri, metin renderleme ve özel sayfa boyutları gibi daha gelişmiş özellik ve işlevler için [belgelere](https://reference.aspose.com/page/java/) göz atın.
+Tebrikler! Aspose.Page for Java kullanarak **postscript java** belgeleri oluşturmayı ve görüntüleri gömmeyi başarıyla öğrendiniz. Daha gelişmiş özellikler ve işlevler için [belgelere](https://reference.aspose.com/page/java/) göz atın; vektör grafikleri, metin işleme ve özel sayfa boyutları gibi konulara da ulaşabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-09  
-**Test Edilen:** Aspose.Page for Java 23.11  
+**Son Güncelleme:** 2026-02-15  
+**Test Edilen Versiyon:** Aspose.Page for Java 23.11  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
