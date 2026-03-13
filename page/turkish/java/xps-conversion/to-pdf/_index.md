@@ -1,48 +1,58 @@
 ---
-date: 2025-12-23
-description: Aspose.Page kullanarak Java’da XPS’yi PDF’ye nasıl dönüştüreceğinizi
-  öğrenin. Bu kılavuz, adım adım dönüşümü, XPS’den PDF oluşturmayı ve PDF sayfa numaralarını
-  belirtmeyi gösterir.
+date: 2026-03-13
+description: Java'da XPS'den PDF'ye Aspose Page dönüşümünü nasıl gerçekleştireceğinizi
+  öğrenin. Bu adım adım kılavuz, XPS'den PDF'yi nasıl oluşturacağınızı, PDF sayfa
+  numaralarını nasıl ayarlayacağınızı ve çıktıyı nasıl optimize edeceğinizi gösterir.
 linktitle: How to Convert XPS to PDF in Java
 second_title: Aspose.Page Java API
-title: Java'da XPS'yi PDF'ye Dönüştürme
+title: Aspose Sayfa Dönüştürme – Java’da XPS’yi PDF’ye Nasıl Dönüştürürsünüz
 url: /tr/java/xps-conversion/to-pdf/
 weight: 12
 ---
+
+"Author:" => "Yazar:".
+
+Now ensure we keep bold formatting.
+
+Also keep code block placeholders unchanged.
+
+Now produce final content with shortcodes at top and bottom unchanged.
+
+Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XPS'yi Java'da PDF'ye Dönüştürme
+# Aspose Page Dönüştürme – Java’da XPS’yi PDF’ye Nasıl Dönüştürülür
 
-## XPS'yi Java'da PDF'ye Dönüştürme
-Java geliştirme dünyasında, **XPS'yi PDF'ye nasıl dönüştürülür** sık sorulan bir sorudur. İster bir belge yönetim sistemi oluşturuyor olun ister yazdırılabilir raporlar üretmeniz gerekiyor olsun, XPS dosyalarını güvenilir bir şekilde dönüştürmek büyük bir fark yaratabilir. Neyse ki, Aspose.Page for Java, sadece birkaç satır kodla **XPS'den PDF oluşturmayı** kolaylaştırır.
+XPS dosyalarını PDF’ye dönüştürmek, evrensel olarak görüntülenebilir bir belge formatına ihtiyaç duyduğunuzda yaygın bir gereksinimdir. Bu öğreticide, Aspose.Page for Java kullanarak **aspose page conversion** işlemini, sadece birkaç kod satırıyla **XPS’den PDF oluşturma** şeklinde keşfedeceksiniz. Belge yönetim sistemi oluşturuyor, yazdırılabilir raporlar üretiyor ya da dosyaları arşivliyor olun, bu rehber ön koşullardan sorun giderme adımlarına kadar tüm süreci adım adım anlatıyor.
 
 ## Quick Answers
-- **Dönüştürmeyi hangi kütüphane yönetir?** Aspose.Page for Java.
-- **Uygulama ne kadar sürer?** Temel bir kurulum için yaklaşık 10‑15 dakika.
-- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için bir lisans gereklidir.
-- **Sadece seçili sayfaları dönüştürebilir miyim?** Evet – *specify PDF page numbers* seçeneğini kullanın.
-- **Dönüştürme kayıpsız mı?** Kütüphane vektör grafikleri ve metin doğruluğunu korur.
+- **Dönüşümü hangi kütüphane yönetir?** Aspose.Page for Java.  
+- **Uygulama ne kadar sürer?** Temel bir kurulum için yaklaşık 10‑15 dakika.  
+- **Lisans gerekiyor mu?** Değerlendirme için ücretsiz deneme çalışır; üretim için bir lisans gereklidir.  
+- **Sadece seçili sayfaları dönüştürebilir miyim?** Evet – *specify PDF page numbers* seçeneğini kullanın.  
+- **Dönüşüm kayıpsız mı?** Kütüphane vektör grafikleri ve metin doğruluğunu korur.  
 
-## XPS'den PDF'ye Dönüştürme Nedir?
-XPS (XML Paper Specification), Microsoft'un sabit‑düzen belge formatıdır. Bunu PDF'ye dönüştürmek, evrensel olarak kabul edilen PDF standardını kullanarak belgeleri paylaşmanıza, yazdırmanıza veya arşivlemenize olanak tanır.
+## Aspose Page Dönüştürmesi XPS’den PDF’ye Nedir?
+Aspose Page dönüşümü, XPS (XML Paper Specification) belgelerini—Microsoft’un sabit‑düzen formatını—PDF’ye, paylaşım ve baskı için de‑facto standart olan formata dönüştürür. Dönüşüm, düzeni, yazı tiplerini ve vektör grafikleri korur, böylece ortaya çıkan PDF, orijinal XPS gibi görünür.
 
-## Neden Aspose.Page for Java'ı XPS'den PDF oluşturmak için kullanmalısınız?
-- **High fidelity** – vektör grafikleri, yazı tiplerini ve düzeni korur.
-- **Fine‑grained control** – görüntü kalitesini, sıkıştırmayı ayarlayabilir ve hatta belirli sayfaları seçebilirsiniz.
-- **No external dependencies** – saf Java, JDK'yı destekleyen herhangi bir platformda çalışır.
+## Neden Aspose.Page for Java’yı XPS’den PDF Oluşturmak İçin Kullanmalısınız?
+- **Yüksek doğruluk** – vektör grafikleri, yazı tipleri ve düzeni korur.  
+- **İnce ayar kontrol** – görüntü kalitesini, sıkıştırmayı ayarlayabilir ve hatta belirli sayfaları seçebilirsiniz.  
+- **Harici bağımlılık yok** – saf Java, JDK’yı destekleyen herhangi bir platformda çalışır.  
+- **Yerleşik sayfa seçimi** – dosya boyutunu azaltmak için **specify PDF page numbers** kolayca kullanılabilir.
 
 ## Ön Koşullar
-Başlamadan önce, şunların olduğundan emin olun:
+Başlamadan önce şunların kurulu olduğundan emin olun:
 
-- **Java Development Kit (JDK)** – herhangi bir güncel sürüm (8+ önerilir).
-- **Aspose.Page for Java** – kütüphaneyi resmi [documentation](https://reference.aspose.com/page/java/) adresinden indirin.
+- **Java Development Kit (JDK)** – herhangi bir güncel sürüm (8+ önerilir).  
+- **Aspose.Page for Java** – kütüphaneyi resmi [documentation](https://reference.aspose.com/page/java/) adresinden indirin.  
 - Dönüştürmek istediğiniz bir XPS dosyası.
 
-## Paketleri İçe Aktarın
-Java projenizde, Aspose.Page for Java ile çalışmak için gerekli paketleri içe aktarın. Bu adım, XPS'den PDF'ye dönüşüm için gereken işlevlere erişim sağlamak açısından kritiktir.
+## Paketleri İçe Aktarma
+Java projenizde, Aspose.Page for Java ile çalışmak için gerekli paketleri içe aktarın. Bu adım, XPS’den PDF’ye dönüşüm için gereken işlevlere erişim sağlamak açısından kritiktir.
 
 ```java
 import com.aspose.xps.XpsDocument;
@@ -51,7 +61,7 @@ import java.io.FileOutputStream;
 
 ## Adım‑Adım Kılavuz
 
-### Adım 1: Belge Dizinini Ayarla
+### Adım 1: Belge Dizini Ayarla
 Kaynak XPS dosyanızın bulunduğu klasörün yolunu tanımlayın.
 
 ```java
@@ -59,7 +69,7 @@ String dataDir = "Your Document Directory";
 ```
 
 ### Adım 2: PDF Çıktı Akışını Başlat
-Oluşturulan PDF'yi alacak bir `FileOutputStream` oluşturun.
+Oluşturulan PDF’yi alacak bir `FileOutputStream` oluşturun.
 
 ```java
 FileOutputStream pdfStream = new FileOutputStream(dataDir + "XPStoPDF.pdf");
@@ -73,7 +83,7 @@ XpsDocument document = new XpsDocument(dataDir + "input.xps");
 ```
 
 ### Adım 4: PDF Kaydetme Seçeneklerini Başlat  
-Dönüşüm için seçenekler oluşturun. Burada **specify PDF page numbers** belirtebilir, görüntü kalitesini ayarlayabilir ve sıkıştırmayı belirleyebilirsiniz.
+Dönüşüm için seçenekler oluşturun. Burada **specify PDF page numbers** kullanabilir, görüntü kalitesini ayarlayabilir ve sıkıştırmayı belirleyebilirsiniz.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -83,50 +93,48 @@ options.setTextCompression(PdfTextCompression.Flate);
 options.setPageNumbers(new int[] { 1, 2, 6 });
 ```
 
-### Adım 5: PDF Oluşturma Aygıtını Oluştur  
-PDF çıktısını yazacak bir renderleme aygıtı kurun.
+### Adım 5: PDF Render Cihazı Oluştur  
+PDF çıktısını yazacak bir render cihazı ayarlayın.
 
 ```java
 PdfDevice device = new PdfDevice(pdfStream);
 ```
 
 ### Adım 6: Belgeyi Kaydet  
-Son olarak, yapılandırdığınız seçenekler ve aygıtı kullanarak XPS belgesini PDF olarak kaydedin.
+Son olarak, yapılandırdığınız seçenekler ve cihazı kullanarak XPS belgesini PDF olarak kaydedin.
 
 ```java
 document.save(device, options);
 ```
 
-Bu adımları tekrarlayın, dosya yollarını ve seçenekleri belirli senaryonuza göre ayarlayın.
+Bu adımları tekrarlayın, dosya yollarını ve seçenekleri kendi senaryonuza göre ayarlayın.
 
 ## XPS Dönüştürürken PDF Sayfa Numaralarını Nasıl Belirlenir
-Orijinal XPS'ten yalnızca bir alt küme sayfaya ihtiyacınız varsa, `setPageNumbers` dizisini istediğiniz sayfa indeksleriyle (1'den başlayarak) doldurun. Bu, dosya boyutunu ve işleme süresini azaltmaya yardımcı olur.
+Orijinal XPS’den sadece belirli sayfalara ihtiyacınız varsa, `setPageNumbers` dizisini istediğiniz sayfa indeksleriyle (1’den başlayarak) doldurun. Bu, dosya boyutunu ve işleme süresini azaltmaya yardımcı olur.
 
-## Yaygın Sorunlar ve Sorun Giderme
-- **FileNotFoundException** – `dataDir`'in doğru klasöre işaret ettiğini ve XPS dosya adının eşleştiğini doğrulayın.
-- **LicenseException** – Üretim kullanımı için geçerli bir Aspose.Page lisansı gereklidir; aksi takdirde kütüphane değerlendirme modunda filigranla çalışır.
-- **Low image quality** – Gerekirse `setJpegQualityLevel`'ı artırın veya kayıpsız sıkıştırmaya geçin.
+## Yaygın Sorunlar & Sorun Giderme
+- **FileNotFoundException** – `dataDir` değişkeninin doğru klasöre işaret ettiğini ve XPS dosya adının eşleştiğini doğrulayın.  
+- **LicenseException** – Üretim kullanımı için geçerli bir Aspose.Page lisansı gerekir; aksi takdirde kütüphane, filigranlı değerlendirme modunda çalışır.  
+- **Düşük görüntü kalitesi** – Gerekirse `setJpegQualityLevel` değerini artırın veya kayıpsız sıkıştırmaya geçin.
 
-## Sık Sorulan Sorular
+## Sıkça Sorulan Sorular
 ### Aspose.Page for Java kullanarak çok sayfalı XPS dosyalarını dönüştürebilir miyim?
-Evet, `PdfSaveOptions` içinde **specify PDF page numbers** belirterek (Adım 4'e bakın) ihtiyacınız olan sayfaları dahil edebilirsiniz.
+Evet, `PdfSaveOptions` içinde **specify PDF page numbers** kullanarak ihtiyacınız olan sayfaları dahil edebilirsiniz (Bkz. Adım 4).
 
-### Ek destek nereden bulabilirim veya Aspose.Page‑ile ilgili soruları nerede tartışabilirim?
+### Ek destek bulabileceğim ya da Aspose.Page ile ilgili soruları tartışabileceğim yer neresi?
 Topluluk desteği ve tartışmalar için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
 
 ### Aspose.Page for Java için ücretsiz deneme mevcut mu?
 Evet, özellikleri bir [free trial](https://releases.aspose.com/) ile keşfedebilirsiniz.
 
-### Aspose.Page for Java için geçici bir lisans nasıl alabilirim?
-Geçici lisans detayları için [bu linki](https://purchase.aspose.com/temporary-license/) ziyaret edin.
+### Aspose.Page for Java için geçici lisans nasıl alınır?
+[Bu linki](https://purchase.aspose.com/temporary-license/) ziyaret ederek geçici lisans detaylarını görebilirsiniz.
 
 ### Aspose.Page for Java lisansını nereden satın alabilirim?
 Lisansı [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
----
-
-**Son Güncelleme:** 2025-12-23  
-**Test Edilen Versiyon:** Aspose.Page for Java 24.11  
+**Son Güncelleme:** 2026-03-13  
+**Test Edilen:** Aspose.Page for Java 24.11  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
