@@ -1,11 +1,11 @@
 ---
-date: 2025-12-28
-description: Dowiedz się, jak dodać obraz do dokumentów XPS w Javie przy użyciu Aspose.Page.
-  Ten przewodnik krok po kroku pokaże Ci, jak łatwo dodawać obrazy i usprawniać przetwarzanie
-  dokumentów.
+date: 2026-03-16
+description: Dowiedz się, jak asp asp i jak dodać obraz do dokumentów XPS w Javie
+  przy użyciu Aspose.Page. Ten przewodnik krok po kroku pokaże Ci, jak szybko dodawać
+  obrazy.
 linktitle: Add Image in Java XPS
 second_title: Aspose.Page Java API
-title: Jak dodać obraz do dokumentów XPS w Javie – prosty przewodnik z Aspose.Page
+title: asp asp – Dodaj obraz do dokumentów XPS w Javie z Aspose.Page
 url: /pl/java/xps-image-manipulation/add-image/
 weight: 10
 ---
@@ -14,23 +14,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak dodać obraz do dokumentów Java XPS przy użyciu Aspose.Page
+# asp asp – Dodaj obraz do dokumentów Java XPS przy użyciu Aspose.Page
 
-Dodawanie obrazów do plików XPS jest powszechnym wymaganiem dla programistów Java, którzy potrzebują wzbogacić raporty, faktury lub dowolny dokument wizualny. W tym samouczku odkryjesz **jak dodać obraz** do dokumentu XPS przy użyciu potężnej biblioteki Aspose.Page for Java. Przejdziemy przez każdy krok, wyjaśnimy, dlaczego każda linia ma znaczenie, i podpowiemy, jak uniknąć typowych pułapek.
+Dodawanie obrazów do plików XPS jest częstą potrzebą programistów Java, którzy chcą wzbogacić raporty, faktury lub dowolny dokument wizualny. W tym samouczku nauczysz się **jak dodać obraz** do dokumentu XPS przy użyciu potężnej biblioteki Aspose.Page for Java oraz zobaczysz, dlaczego podejście **asp asp** sprawia, że proces jest niezawodny i szybki. Przejdziemy przez każdy krok, wyjaśnimy, dlaczego każda linia ma znaczenie, i podamy praktyczne wskazówki, jak uniknąć typowych pułapek.
 
 ## Szybkie odpowiedzi
 - **Jakiej biblioteki potrzebujesz?** Aspose.Page for Java  
-- **Czy mogę dodać wiele obrazów?** Tak – powtórz kroki dodawania obrazu dla każdego zdjęcia  
-- **Obsługiwane formaty obrazów?** TIFF, JPEG, PNG, GIF (i inne obsługiwane przez .NET)  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w ocenie; licencja komercyjna jest wymagana w produkcji  
-- **Typowy czas implementacji?** Około 10‑15 minut dla podstawowego wstawienia obrazu
+- **Czy mogę dodać wiele obrazów?** Yes – repeat the image‑adding steps for each picture  
+- **Jakie formaty obrazów są obsługiwane?** TIFF, JPEG, PNG, GIF (and others supported by .NET)  
+- **Czy potrzebna jest licencja?** A free trial works for evaluation; a commercial license is required for production  
+- **Typowy czas implementacji?** About 10‑15 minutes for a basic image insertion  
+
+## asp asp: Dodawanie obrazów do dokumentów XPS
+Metodologia **asp asp** opiera się na prostym, powtarzalnym wzorcu: utworzyć dokument, zdefiniować ścieżkę, zastosować pędzel obrazu i zapisać. Ten wzorzec utrzymuje kod w czystości i ułatwia późniejsze wstawianie dodatkowych grafik.
+
+## Czym jest Aspose.Page for Java?
+Aspose.Page to dedykowane API, które umożliwia tworzenie, edytowanie i renderowanie dokumentów XPS (XML Paper Specification) bez konieczności używania Microsoft XPS Viewer. Abstrahuje szczegóły niskiego poziomu składni XPS, dzięki czemu możesz skupić się na wizualnym układzie swoich dokumentów.
+
+## Dlaczego dodawać obrazy do XPS?
+- **Profesjonalny wygląd:** Obrazy takie jak logotypy, wykresy czy zdjęcia produktów nadają Twoim dokumentom wykończony wygląd.  
+- **Spójność marki:** Osadzenie logo firmy zapewnia, że każda wygenerowana faktura lub raport zawiera Twoją markę.  
+- **Dynamiczna zawartość:** Możesz programowo wstawiać kody QR, kody kreskowe lub grafiki generowane przez użytkownika w czasie wykonywania.  
 
 ## Wprowadzenie
 Dodawanie obrazów do dokumentów XPS jest powszechnym wymaganiem w wielu aplikacjach Java, od generowania raportów po przetwarzanie dokumentów. Aspose.Page for Java upraszcza to zadanie, oferując wydajne metody umożliwiające płynne integrowanie obrazów w plikach XPS. W tym samouczku pokażemy, jak dodać obraz do dokumentu XPS przy użyciu Aspose.Page for Java.
 
 ## Wymagania wstępne
-Zanim zagłębisz się w samouczek, upewnij się, że masz następujące wymagania wstępne:
-1. **Aspose.Page for Java Library** – Pobierz i zainstaluj bibliotekę Aspose.Page for Java z [strony internetowej](https://releases.aspose.com/page/java/).  
+Before diving into the tutorial, make sure you have the following prerequisites in place:
+1. **Aspose.Page for Java Library** – Pobierz i zainstaluj bibliotekę Aspose.Page for Java ze [strony internetowej](https://releases.aspose.com/page/java/).  
 2. **Java Development Environment** – Upewnij się, że masz skonfigurowane środowisko programistyczne Java na swoim komputerze.
 
 Teraz przejdźmy do kolejnych kroków.
@@ -44,22 +55,22 @@ import com.aspose.xps.XpsPath;
 import java.awt.geom.Rectangle2D;
 ```
 
-## Krok 1: Ustaw katalog dokumentu
-Zdefiniuj ścieżkę do katalogu dokumentu, w którym będą przechowywane plik XPS oraz pliki obrazów.
+## Krok 1: Konfiguracja katalogu dokumentu
+Zdefiniuj ścieżkę do katalogu dokumentów, w którym będą przechowywane plik XPS oraz pliki obrazów.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Utwórz nowy dokument XPS
+## Krok 2: Utworzenie nowego dokumentu XPS
 Zainicjalizuj nowy dokument XPS przy użyciu poniższego fragmentu kodu:
 
 ```java
 XpsDocument doc = new XpsDocument();
 ```
 
-## Krok 3: Dodaj obraz do dokumentu XPS
-Aby dodać obraz, utwórz ścieżkę w dokumencie XPS i ustaw pędzel obrazu przy użyciu podanego pliku obrazu oraz współrzędnych.
+## Krok 3: Dodanie obrazu do dokumentu XPS
+Aby dodać obraz, utwórz ścieżkę w dokumencie XPS i ustaw pędzel obrazu przy użyciu podanego pliku graficznego oraz współrzędnych.
 
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
@@ -76,8 +87,13 @@ doc.save(dataDir + "AddImage_out.xps");
 
 Powtórz te kroki, aby dodać więcej obrazów lub dostosować istniejące zgodnie z wymaganiami projektu.
 
+## Typowe problemy i rozwiązania
+- **Obraz jest rozciągnięty:** Zweryfikuj, czy prostokąt źródłowy (`new Rectangle2D.Double(0f, 0f, 258.24f, 56.64f)`) odpowiada rzeczywistym wymiarom Twojego obrazu. Dostosuj prostokąt docelowy, aby zachować proporcje.  
+- **Pojawia się znak wodny:** Jeśli uruchomisz kod bez ważnej licencji, Aspose dodaje znak wodny. Aktywuj licencję na początku aplikacji, aby tego uniknąć.  
+- **FileNotFoundException:** Upewnij się, że `dataDir` wskazuje właściwy folder i że nazwa pliku obrazu (`QL_logo_color.tif`) zgadza się z plikiem na dysku.
+
 ## Zakończenie
-Gratulacje! Pomyślnie nauczyłeś się **jak dodać obraz** do dokumentu XPS przy użyciu Aspose.Page for Java. Ta umiejętność jest nieoceniona w podnoszeniu atrakcyjności wizualnej Twoich aplikacji Java i dokumentów.
+Gratulacje! Pomyślnie nauczyłeś się **jak dodać obraz** do dokumentu XPS przy użyciu Aspose.Page for Java. Ta umiejętność jest nieoceniona w podnoszeniu atrakcyjności wizualnej Twoich aplikacji Java i dokumentów. Stosując wzorzec **asp asp**, możesz łatwo rozbudować ten przykład, aby wstawiać wiele grafik, skalować je dynamicznie lub nawet generować wykresy w locie.
 
 ### Najczęściej zadawane pytania
 ### Czy mogę dodać wiele obrazów do tego samego dokumentu XPS przy użyciu Aspose.Page for Java?
@@ -87,7 +103,7 @@ Tak, możesz dodać wiele obrazów, powtarzając kroki opisane w tym samouczku d
 Aspose.Page for Java obsługuje różne formaty obrazów, w tym TIFF, JPEG, PNG i GIF.
 
 ### Czy dostępna jest wersja próbna Aspose.Page for Java?
-Tak, możesz uzyskać darmową wersję próbną Aspose.Page for Java z [tego linku](https://releases.aspose.com/).
+Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Page for Java z [tego linku](https://releases.aspose.com/).
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Page for Java?
 Możesz uzyskać tymczasową licencję pod [tym linkiem](https://purchase.aspose.com/temporary-license/).
@@ -95,15 +111,10 @@ Możesz uzyskać tymczasową licencję pod [tym linkiem](https://purchase.aspose
 ### Gdzie mogę znaleźć dodatkowe wsparcie lub dyskutować o problemach związanych z Aspose.Page for Java?
 Odwiedź [forum Aspose.Page](https://forum.aspose.com/c/page/39), aby uzyskać pomoc, podzielić się doświadczeniami i połączyć się ze społecznością Aspose.Page.
 
-## Dodatkowe wskazówki i typowe pułapki
-- **Dokładność geometrii ścieżki** – Upewnij się, że ciąg ścieżki w stylu SVG odpowiada wymiarom Twojego obrazu; w przeciwnym razie obraz może wyglądać rozciągnięty lub przycięty.  
-- **Skalowanie pędzla obrazu** – Metoda `createImageBrush` przyjmuje prostokąty źródłowy i docelowy; dostosowanie tych wartości pozwala precyzyjnie kontrolować pozycjonowanie i skalowanie.  
-- **Aktywacja licencji** – Jeśli uruchomisz kod bez ważnej licencji, Aspose doda znak wodny do wygenerowanego pliku XPS.
-
 ---
 
-**Last Updated:** 2025-12-28  
-**Testowane z:** Aspose.Page for Java 23.12 (najnowsza w momencie pisania)  
+**Ostatnia aktualizacja:** 2026-03-16  
+**Testowano z:** Aspose.Page for Java 23.12 (latest at time of writing)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
