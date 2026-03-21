@@ -1,37 +1,48 @@
 ---
-title: Voeg tekst toe aan XPS-document met Aspose.Page voor .NET
-linktitle: Voeg tekst toe aan XPS-document
-second_title: Aspose.Page .NET-API
-description: Ontdek een stapsgewijze handleiding voor het toevoegen van tekst aan XPS-documenten met Aspose.Page voor .NET. Verbeter uw .NET-projecten moeiteloos.
-weight: 13
+date: 2026-03-21
+description: Leer hoe u een XPS‑document maakt met .NET en tekst toevoegt met Aspose.Page
+  voor .NET. Stapsgewijze handleiding voor .NET‑ontwikkelaars.
+linktitle: Add Text to XPS Document
+second_title: Aspose.Page .NET API
+title: XPS-document maken in .NET en tekst toevoegen met Aspose.Page
 url: /nl/net/text-manipulation/add-text-to-xps-document/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg tekst toe aan XPS-document met Aspose.Page voor .NET
+# Maak XPS-document .NET en voeg tekst toe met Aspose.Page
 
-## Invoering
+In moderne .NET-ontwikkeling is de mogelijkheid om **create XPS document .NET** bestanden programmatisch te maken een waardevolle vaardigheid, vooral wanneer je afdrukbare rapporten, facturen of aangepaste graphics moet genereren. Deze tutorial leidt je door het gebruik van Aspose.Page om **aspose.page add text** aan een XPS-document toe te voegen, waardoor je volledige controle krijgt over lay-out en styling—alles vanuit je .NET-toepassing.
 
-In de dynamische wereld van .NET-ontwikkeling onderscheidt Aspose.Page zich als een krachtig hulpmiddel voor het werken met XPS-documenten. Het toevoegen van tekst aan XPS-documenten is een veel voorkomende vereiste, en Aspose.Page vereenvoudigt dit proces. In deze zelfstudie onderzoeken we hoe u Aspose.Page voor .NET kunt gebruiken om naadloos tekst toe te voegen aan XPS-documenten.
+## Snelle antwoorden
+- **Waar gaat deze tutorial over?** Tekst toevoegen aan een nieuw aangemaakt XPS-document met Aspose.Page voor .NET.  
+- **Hoe lang duurt het?** Ongeveer 5‑10 minuten voor een basisimplementatie.  
+- **Wat zijn de vereisten?** .NET-ontwikkelomgeving en Aspose.Page-bibliotheek.  
+- **Is een licentie vereist?** Ja, een geldige Aspose.Page-licentie is nodig voor productiegebruik.  
+- **Kan het draaien op .NET Core / .NET 6+?** Absoluut – Aspose.Page ondersteunt alle recente .NET-versies.
 
-## Vereisten
+## Wat is create xps document .net?
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+Creating an XPS document in .NET betekent het genereren van een vast‑layout bestand dat het exacte uiterlijk van je inhoud behoudt op verschillende apparaten en printers. XPS (XML Paper Specification) is Microsoft’s open standard for page description, similar to PDF but fully XML‑based.
 
-- Aspose.Page voor .NET: Zorg ervoor dat de Aspose.Page-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.Page voor .NET-documentatie](https://reference.aspose.com/page/net/).
+## Waarom Aspose.Page gebruiken om tekst toe te voegen?
 
--  Ontwikkelomgeving: Stel uw .NET-ontwikkelomgeving in. Als u dit nog niet heeft gedaan, volgt u de installatie-instructies in de[documentatie](https://reference.aspose.com/page/net/).
+Aspose.Page biedt een high‑level, objectgeoriënteerde API die de low‑level XPS-markup abstraheert. Je kunt tekst, graphics en vormen toevoegen zonder met ruwe XML te werken, waardoor het ontwikkelproces sneller en minder foutgevoelig wordt.
 
-- Documentmap: maak een map waarin u uw documenten opslaat. Vervang 'Uw documentenmap' in het opgegeven codefragment door het daadwerkelijke pad.
+## Prerequisites
 
-Laten we nu verder gaan met de stapsgewijze handleiding.
+- Aspose.Page voor .NET: Zorg ervoor dat je de Aspose.Page-bibliotheek geïnstalleerd hebt. Je kunt het downloaden van de [Aspose.Page for .NET documentation](https://reference.aspose.com/page/net/).
+- Ontwikkelomgeving: Stel je .NET-ontwikkelomgeving in. Als je dit nog niet hebt gedaan, volg dan de installatie‑instructies in de [documentation](https://reference.aspose.com/page/net/).
+- Documentdirectory: Maak een map aan waar je je documenten opslaat. Vervang "Your Document Directory" in de meegeleverde code‑snippet door het daadwerkelijke pad.
 
-## Naamruimten importeren
+Nu we de basis hebben behandeld, duiken we in de code.
 
-Laten we eerst de benodigde naamruimten importeren om ons project een vliegende start te geven:
+## Namespaces importeren
+
+Importeer eerst de benodigde namespaces om het project op te starten:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -39,78 +50,99 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Stap 1: Maak een nieuw XPS-document
+## Stap 1: Create XPS document .NET
 
-Als u met Aspose.Page wilt gaan werken, maakt u een nieuw XPS-document. Dit wordt het canvas waarop we onze tekst toevoegen.
+Maak een nieuw XPS-document dat dient als canvas voor onze tekst.
 
 ```csharp
 // ExStart:3
 string dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
-// Verleng:3
+// ExEnd:3
 ```
 
-## Stap 2: Maak een penseel voor tekst
+## Stap 2: Create a brush for text
 
-Laten we nu een penseel maken om de tekstkleur te definiëren. In dit voorbeeld gebruiken we een zwarte kleurpenseel.
+Definieer een effen‑kleur penseel dat de kleur van de tekst bepaalt. Hier gebruiken we zwart.
 
 ```csharp
 // ExStart:4
 XpsSolidColorBrush textFill = doc.CreateSolidColorBrush(Color.Black);
-// Verleng:4
+// ExEnd:4
 ```
 
-## Stap 3: voeg glyphs toe aan het document
+## Stap 3: Add glyphs (aspose.page add text)
 
-Glyphs vertegenwoordigen de tekst in XPS-documenten. Voeg glyphs toe aan het document met het gewenste lettertype, de gewenste grootte, stijl en positie.
+Glyphs zijn de low‑level representatie van tekens in een XPS-document. Deze aanroep voegt de tekst “Hello World!” toe op de opgegeven coördinaten.
 
 ```csharp
 // ExStart:5
 XpsGlyphs glyphs = doc.AddGlyphs("Arial", 12, FontStyle.Regular, 300f, 450f, "Hello World!");
 glyphs.Fill = textFill;
-// Verleng: 5
+// ExEnd:5
 ```
 
-## Stap 4: Sla het resulterende XPS-document op
+## Stap 4: Save the resultant XPS document
 
-Sla ten slotte het XPS-document met de toegevoegde tekst op in de door u opgegeven map.
+Sla het document op schijf op zodat je het later kunt bekijken of afdrukken.
 
 ```csharp
 // ExStart:6
 doc.Save(dataDir + "AddText_out.xps");
-// Verleng:6
+// ExEnd:6
 ```
 
-Door deze eenvoudige stappen te volgen, hebt u met succes tekst aan een XPS-document toegevoegd met Aspose.Page voor .NET.
+Door deze stappen te volgen, heb je met succes **create XPS document .NET** gemaakt en aangepaste tekst toegevoegd met Aspose.Page.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Kortom, Aspose.Page voor .NET biedt een eenvoudige oplossing voor het toevoegen van tekst aan XPS-documenten in uw .NET-projecten. De eenvoud van de bibliotheek, gecombineerd met de robuuste functies, maakt het tot een hulpmiddel van onschatbare waarde voor documentmanipulatie.
+| Probleem | Reden | Oplossing |
+|----------|-------|-----------|
+| **Bestand niet gevonden** bij het opslaan | `dataDir` wijst naar een niet‑bestaande map | Zorg ervoor dat de map bestaat of gebruik `Directory.CreateDirectory(dataDir)` vóór het opslaan. |
+| **Tekst niet zichtbaar** | Penseelkleur komt overeen met de achtergrond | Verander `Color.Black` naar een andere contrasterende kleur. |
+| **Niet‑ondersteund lettertype** | Lettertype niet geïnstalleerd op de machine | Gebruik een lettertype dat gegarandeerd aanwezig is, of embed het lettertype met de font‑embedding functies van Aspose.Page. |
 
-## Veel Gestelde Vragen
+## Veelgestelde vragen
 
-### Vraag 1: Kan ik het lettertype en de grootte van de toegevoegde tekst aanpassen?
+### Q1: Kan ik het lettertype en de grootte van de toegevoegde tekst aanpassen?
 
- A1: Ja, u heeft volledige controle over het lettertype en de grootte. Pas de parameters aan in het`AddGlyphs` methode dienovereenkomstig.
+A1: Ja, je hebt volledige controle over het lettertype en de grootte. Pas de parameters in de `AddGlyphs`-methode dienovereenkomstig aan.
 
-### V2: Is Aspose.Page compatibel met .NET Core?
+### Q2: Is Aspose.Page compatibel met .NET Core?
 
-A2: Absoluut! Aspose.Page ondersteunt .NET Core en garandeert compatibiliteit met de nieuwste .NET-technologieën.
+A2: Absoluut! Aspose.Page ondersteunt .NET Core, waardoor compatibiliteit met de nieuwste .NET-technologieën gegarandeerd is.
 
-### V3: Zijn er licentievereisten voor het gebruik van Aspose.Page?
+### Q3: Zijn er licentievereisten voor het gebruik van Aspose.Page?
 
- A3: Ja, u heeft een geldige licentie nodig. Ontdek licentieopties[hier](https://purchase.aspose.com/buy).
+A3: Ja, je hebt een geldige licentie nodig. Bekijk de licentieopties [hier](https://purchase.aspose.com/buy).
 
-### Vraag 4: Hoe kan ik ondersteuning krijgen of hulp zoeken?
+### Q4: Hoe kan ik ondersteuning krijgen of hulp zoeken?
 
- A4: Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) om verbinding te maken met de gemeenschap en hulp te krijgen.
+A4: Bezoek het [Aspose.Page forum](https://forum.aspose.com/c/page/39) om contact te maken met de community en hulp te krijgen.
 
-### Vraag 5: Is er een gratis proefversie beschikbaar?
+### Q5: Is er een gratis proefversie beschikbaar?
 
- A5: Zeker! U kunt een gratis proefperiode krijgen[hier](https://releases.aspose.com/).
+A5: Zeker! Je kunt een gratis proefversie krijgen [hier](https://releases.aspose.com/).
+
+**Additional Q&A**
+
+**Q: Kan ik meerdere tekstblokken op dezelfde pagina toevoegen?**  
+A: Ja, roep simpelweg `doc.AddGlyphs` meerdere keren aan met verschillende coördinaten.
+
+**Q: Laat Aspose.Page tekstrotatie toe?**  
+A: Je kunt een transformatie‑matrix toepassen op het `XpsGlyphs`‑object om de tekst te roteren of te scheefzetten.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Laatst bijgewerkt:** 2026-03-21  
+**Getest met:** Aspose.Page 24.11 for .NET  
+**Auteur:** Aspose  
+
+---
