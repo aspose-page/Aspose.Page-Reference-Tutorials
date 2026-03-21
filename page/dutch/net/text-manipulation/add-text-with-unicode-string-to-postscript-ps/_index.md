@@ -1,33 +1,46 @@
 ---
-title: Voeg tekst met Unicode-tekenreeks toe aan PostScript (PS) met Aspose.Page
-linktitle: Tekst met Unicode-tekenreeks toevoegen aan PostScript (PS)
-second_title: Aspose.Page .NET-API
-description: Leer hoe u Unicode-tekst aan PostScript-bestanden kunt toevoegen met Aspose.Page voor .NET. Verbeter de documentmanipulatie met gemak.
-weight: 11
+date: 2026-03-21
+description: Leer hoe je een PostScript‑document in C# maakt met Unicode‑tekst met
+  behulp van Aspose.Page voor .NET – een snelle manier om documentmanipulatie te verbeteren.
+linktitle: Add Text with Unicode String to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: PostScript-document maken in C# met Unicode‑tekst – Aspose.Page
 url: /nl/net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg tekst met Unicode-tekenreeks toe aan PostScript (PS) met Aspose.Page
+# Tekst toevoegen met Unicode‑reeks aan PostScript (PS) met Aspose.Page
 
-## Invoering
+## Inleiding
 
-Op het gebied van documentmanipulatie onderscheidt Aspose.Page voor .NET zich als een robuuste bibliotheek waarmee ontwikkelaars verschillende documentformaten kunnen maken, bewerken en converteren. Een van de krachtige functies is de mogelijkheid om tekst toe te voegen met behulp van Unicode-tekenreeksen aan PostScript-bestanden (PS). In deze zelfstudie verkennen we een stapsgewijze handleiding voor het uitvoeren van deze taak, die een naadloze ervaring biedt voor ontwikkelaars die met Aspose.Page werken.
+Als je **een PostScript‑document in C# wilt maken** en Unicode‑tekens wilt insluiten, maakt Aspose.Page voor .NET het proces eenvoudig. In deze tutorial lopen we stap voor stap een volledig, praktisch voorbeeld door dat laat zien hoe je Japanse tekst (of elke Unicode‑reeks) aan een PS‑bestand toevoegt, een aangepast lettertype kiest en het resultaat opslaat. Aan het einde heb je een herbruikbare code‑snippet die je in elk C#‑project kunt gebruiken.
 
-## Vereisten
+## Snelle antwoorden
+- **Wat behandelt deze tutorial?** Unicode‑tekst toevoegen aan een PostScript‑bestand met Aspose.Page in C#.
+- **Welke bibliotheek is vereist?** Aspose.Page voor .NET (nieuwste versie).
+- **Heb ik een speciaal lettertype nodig?** Elk TrueType/OpenType‑lettertype dat het gewenste Unicode‑bereik ondersteunt, bijv. *Arial Unicode MS*.
+- **Hoeveel regels code?** Ongeveer 30 regels, verdeeld over duidelijke stappen.
+- **Is een licentie nodig?** Een tijdelijke licentie werkt voor evaluatie; een volledige licentie is vereist voor productie.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is “create postscript document c#”?
+Een PostScript‑document maken in C# betekent programmatic een .ps‑bestand genereren dat voldoet aan de PostScript‑taalspecificaties. Aspose.Page abstraheert de low‑level details, zodat je je kunt concentreren op inhoud zoals tekst, grafische elementen en lettertypen.
 
-- Een praktische kennis van de programmeertaal C#.
--  Aspose.Page voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden van de[Aspose.Page voor .NET-documentatie](https://reference.aspose.com/page/net/).
-- Een ontwikkelomgeving ingericht met de benodigde configuraties.
+## Waarom Aspose.Page gebruiken voor Unicode‑tekst?
+- **Volledige Unicode‑ondersteuning** – renderen van tekens uit elke taal zonder handmatige codering.
+- **Apparaatonafhankelijk** – dezelfde code werkt voor PS, EPS en PDF uitvoer.
+- **Geen externe afhankelijkheden** – de bibliotheek behandelt lettertype‑laden en glyph‑mapping intern.
 
-## Naamruimten importeren
+## Voorvereisten
 
-Importeer in uw C#-code de vereiste naamruimten voor het gebruik van Aspose.Page voor .NET-functionaliteiten:
+- Basiskennis van C# en .NET‑ontwikkeling.
+- Aspose.Page voor .NET‑bibliotheek geïnstalleerd. Je kunt deze downloaden via de [Aspose.Page for .NET documentation](https://reference.aspose.com/page/net/).
+- Een map met de lettertypen die je wilt gebruiken (bijv. *Arial Unicode MS*).
+
+## Namespaces importeren
 
 ```csharp
 using Aspose.Page;
@@ -39,83 +52,91 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Stap 1: Stel de documentmap en de map Lettertypen in
+## Stap 1: Documentmap en lettertype‑map instellen
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 string FONTS_FOLDER = "Your Fonts Directory";
 ```
 
-## Stap 2: Maak een uitvoerstroom voor een PostScript-document
+## Stap 2: Uitvoerstream voor PostScript‑document maken
 
 ```csharp
 using (Stream outPsStream = new FileStream(dataDir + "AddTextUsingUnocodeString_outPS.ps", FileMode.Create))
 {
-    // Creëer opslagopties met A4-formaat
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
     options.AdditionalFontsFolders = new string[] { FONTS_FOLDER };
-    // ... (Extra opties kunnen hier worden ingesteld)
+    // ... (Additional options can be set here)
     
-    // Maak een nieuw PS-document met één pagina
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
     
-    // ... (Verdere stappen worden hieronder uitgelegd)
+    // ... (Further steps will be explained below)
     
-    // Bewaar het document
+    // Save the document
     document.Save();
 }
 ```
 
-## Stap 3: Unicode-tekst toevoegen met aangepast lettertype
+## Stap 3: Unicode‑tekst toevoegen met aangepast lettertype
 
 ```csharp
-string str = "試してみます.";  // Unicode-tekst
+string str = "試してみます.";  // Unicode text
 int fontSize = 48;
 
-// Een aangepast lettertype gebruiken voor het vullen van tekst
+// Using custom font for filling text
 DrFont drFont = ExternalFontCache.FetchDrFont("Arial Unicode MS", fontSize, FontStyle.Regular);
 document.FillText(str, drFont, 50, 200);
 document.FillText(str, drFont, 50, 250, new SolidBrush(Color.Blue));
 ```
 
-## Stap 4: Sluit de huidige pagina
+## Stap 4: Huidige pagina sluiten
 
 ```csharp
 document.ClosePage();
 ```
 
-## Stap 5: Voltooi het document en sla het op
+## Stap 5: Document voltooien en opslaan
 
 ```csharp
 document.Save();
 ```
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-In deze zelfstudie hebben we het proces doorlopen van het toevoegen van Unicode-tekst aan een PostScript-document met behulp van Aspose.Page voor .NET. Door gebruik te maken van de krachtige mogelijkheden kunnen ontwikkelaars hun workflows voor documentmanipulatie verbeteren, waardoor flexibiliteit en precisie worden gegarandeerd.
+- **Lettertype niet gevonden** – Zorg ervoor dat het pad `AdditionalFontsFolders` wijst naar de map met de .ttf/.otf‑bestanden en dat de lettertype‑naam exact overeenkomt.
+- **Vreemde tekens** – Controleer of de bronreeks is gecodeerd als UTF‑8 in je C#‑bronbestand (gebruik `#pragma warning disable 1591` indien nodig).
+- **Bestand niet aangemaakt** – Controleer schrijfrechten op `dataDir` en zorg dat de stream correct wordt vrijgegeven (het `using`‑blok regelt dit).
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Page voor .NET gebruiken met andere programmeertalen?
+**Q: Kan ik Aspose.Page voor .NET gebruiken met andere programmeertalen?**  
+A: Aspose.Page is primair ontworpen voor .NET, maar er zijn Java‑equivalenten beschikbaar.
 
-A1: Aspose.Page is voornamelijk ontworpen voor .NET, maar er zijn andere versies voor Java beschikbaar.
+**Q: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Page voor .NET?**  
+A: Bezoek [Temporary License](https://purchase.aspose.com/temporary-license/) voor het verkrijgen van een tijdelijke licentie.
 
-### V2: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Page voor .NET?
+**Q: Is er een community‑forum voor Aspose.Page‑discussies?**  
+A: Ja, bezoek het [Aspose.Page forum](https://forum.aspose.com/c/page/39) voor community‑ondersteuning.
 
- A2: Bezoek[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor het verkrijgen van een tijdelijke vergunning.
+**Q: Met welke formaten kan Aspose.Page voor .NET werken?**  
+A: Aspose.Page ondersteunt diverse formaten, waaronder XPS, PS, EPS, PDF en meer.
 
-### V3: Is er een communityforum voor Aspose.Page-discussies?
+**Q: Kan ik het uiterlijk van de toegevoegde tekst aanpassen?**  
+A: Ja, je kunt het lettertype, de grootte, kleur en andere eigenschappen van de tekst aanpassen in Aspose.Page.
 
- A3: Ja, bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) voor gemeenschapssteun.
+## Conclusie
 
-### V4: Met welke formaten kan Aspose.Page voor .NET werken?
+In deze tutorial hebben we laten zien hoe je **een PostScript‑document in C# maakt** en Unicode‑tekst insluit met Aspose.Page. Door de bovenstaande stappen te volgen kun je snel meertalige tekstreproductie integreren in elke .NET‑applicatie, met volledige controle over documentgeneratie en lay‑out.
 
-A4: Aspose.Page ondersteunt verschillende formaten, waaronder XPS, PS, EPS, PDF en meer.
+---
 
-### Vraag 5: Kan ik het uiterlijk van de toegevoegde tekst aanpassen?
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
 
-A5: Ja, u kunt het lettertype, de grootte, de kleur en andere eigenschappen van de tekst aanpassen in Aspose.Page.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

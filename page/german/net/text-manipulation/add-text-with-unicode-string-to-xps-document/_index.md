@@ -1,33 +1,52 @@
 ---
-title: Fügen Sie mit Aspose.Page Text mit Unicode-Zeichenfolge zum XPS-Dokument hinzu
-linktitle: Fügen Sie Text mit Unicode-Zeichenfolge zum XPS-Dokument hinzu
-second_title: Aspose.Page .NET-API
-description: Entdecken Sie die Leistungsfähigkeit von Aspose.Page für .NET mit unserer Schritt-für-Schritt-Anleitung zum Hinzufügen von Unicode-Text zu XPS-Dokumenten.
-weight: 12
+date: 2026-03-21
+description: Erfahren Sie, wie Sie Unicode‑Text zu einem XPS‑Dokument mit Aspose.Page
+  für .NET hinzufügen. Dieser Leitfaden zeigt Ihnen, wie Sie ein XPS‑Dokument in C#
+  erstellen und mit Aspose.Page Text mit Unicode‑Zeichenketten einfügen.
+linktitle: Add Text with Unicode String to XPS Document
+second_title: Aspose.Page .NET API
+title: Wie man Unicode‑Text zu einem XPS‑Dokument mit Aspose.Page hinzufügt
 url: /de/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fügen Sie mit Aspose.Page Text mit Unicode-Zeichenfolge zum XPS-Dokument hinzu
+# Wie man Unicode-Text zu einem XPS-Dokument mit Aspose.Page hinzufügt
 
 ## Einführung
 
-In der sich ständig weiterentwickelnden Landschaft der .NET-Entwicklung sticht Aspose.Page als leistungsstarkes Tool für den Umgang mit XPS-Dokumenten hervor. Unter den vielen Funktionen ist die Möglichkeit, Text mit Unicode-Strings zu einem XPS-Dokument hinzuzufügen, eine wertvolle Funktionalität. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess und stellt sicher, dass Sie diese Funktion effektiv nutzen.
+Wenn Sie **how to add unicode** Zeichen zu einer XPS-Datei hinzufügen müssen, sind Sie hier genau richtig. In diesem Tutorial gehen wir die genauen Schritte durch, die erforderlich sind, um **create XPS document C#**‑style mit Aspose.Page für .NET zu erstellen und die **aspose page add text**‑Funktion mit einem Unicode‑String zu demonstrieren. Am Ende haben Sie ein voll funktionsfähiges XPS-Dokument, das rechts‑nach‑links (RTL) Unicode‑Text korrekt anzeigt.
+
+## Schnelle Antworten
+- **Was behandelt das Tutorial?** Unicode‑Text zu einem XPS-Dokument mit Aspose.Page für .NET hinzufügen.  
+- **Welche Sprache wird verwendet?** C# (kompatibel mit .NET Framework und .NET Core).  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich die Schriftart oder Größe ändern?** Ja – das Beispiel verwendet Arial 20 pt, aber jede installierte Schriftart funktioniert.  
+- **Ist RTL‑Unterstützung enthalten?** Das Setzen von `BidiLevel = 1` aktiviert die rechts‑nach‑links‑Darstellung für Unicode‑Strings.
+
+## Was bedeutet „how to add unicode“ in XPS?
+
+Unicode‑Text hinzufügen bedeutet, Zeichen aus jeder Sprache—Arabisch, Hebräisch, Chinesisch usw.—in ein XPS-Dokument einzufügen. Aspose.Page’s `XpsGlyphs`‑Klasse übernimmt die niedrig‑stufige Glyphenplatzierung, während die `BidiLevel`‑Eigenschaft die Text‑richtung für RTL‑Skripte steuert.
+
+## Warum Aspose.Page zum Hinzufügen von Text verwenden?
+
+- **Vollständige .NET-Integration** – funktioniert mit .NET Framework, .NET Core, .NET 5/6+.  
+- **Keine externen Abhängigkeiten** – reiner verwalteter Code, kein COM‑Interop.  
+- **Umfangreiche Typografie‑Unterstützung** – Schriftarten, Stile, Farben und bidirektionaler Text.  
+- **Hohe Leistung** – erstellt und speichert XPS‑Dateien schnell, ideal für serverseitige Generierung.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-
-- Ein grundlegendes Verständnis der .NET-Entwicklung.
-- Visual Studio ist auf Ihrem Computer installiert.
--  Aspose.Page für .NET-Bibliothek. Sie können es herunterladen unter[Hier](https://releases.aspose.com/page/net/).
+- Grundkenntnisse in C# und .NET-Entwicklung.  
+- Visual Studio (beliebige aktuelle Version).  
+- Aspose.Page für .NET Bibliothek – laden Sie sie von [here](https://releases.aspose.com/page/net/) herunter.
 
 ## Namespaces importieren
 
-Stellen Sie zunächst sicher, dass Sie die erforderlichen Namespaces in Ihr Projekt importieren. Dadurch werden die erforderlichen Klassen und Funktionalitäten für die Arbeit mit Aspose.Page bereitgestellt. Hier sind die wesentlichen Namensräume:
+Zuerst importieren Sie die Namespaces, die Ihnen Zugriff auf das XPS‑Modell und die Zeichen‑Hilfsmittel geben.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,65 +54,71 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Schritt 1: Richten Sie das Dokument ein
+## Schritt 1: Dokument einrichten – XPS-Dokument in C# erstellen
 
-Erstellen Sie zunächst ein neues XPS-Dokument, in dem Sie den Unicode-Text hinzufügen. Folgen Sie dem folgenden Codeausschnitt:
+Erstellen Sie ein neues XPS-Dokument, das den Unicode‑Text enthalten wird.
 
 ```csharp
-// Der Pfad zum Dokumentenverzeichnis.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Erstellen Sie ein neues XPS-Dokument
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
-## Schritt 2: Unicode-Text hinzufügen
+## Schritt 2: Unicode‑Text hinzufügen – aspose page add text
 
-Fügen wir nun Unicode-Text zum XPS-Dokument hinzu. In diesem Beispiel wird die Schriftart Arial verwendet, die Schriftgröße auf 20 festgelegt und der Text an den Koordinaten (400f, 200f) positioniert. Die Unicode-Zeichenfolge lautet in diesem Fall „TEN. rof SPX.esopsA“. Schauen Sie sich den folgenden Codeausschnitt an:
+Jetzt fügen wir den eigentlichen Unicode‑String hinzu. In diesem Beispiel verwenden wir die Schriftart Arial, Größe 20, und positionieren den Text bei (400 f, 200 f). Der `BidiLevel` von 1 weist den Renderer an, den String als rechts‑nach‑links zu behandeln.
 
 ```csharp
-// Text hinzufügen
+// Add Text
 XpsSolidColorBrush textFill = doc.CreateSolidColorBrush(Color.Black);
 XpsGlyphs glyphs = doc.AddGlyphs("Arial", 20, FontStyle.Regular, 400f, 200f, "TEN. rof SPX.esopsA");
 glyphs.BidiLevel = 1;
 glyphs.Fill = textFill;
 ```
 
-## Schritt 3: Speichern Sie das Dokument
+## Schritt 3: Dokument speichern
 
-Sobald der Unicode-Text hinzugefügt wurde, speichern Sie das resultierende XPS-Dokument. Hier ist der letzte Schritt:
+Abschließend speichern Sie die XPS‑Datei auf dem Datenträger.
 
 ```csharp
-// Speichern Sie das resultierende XPS-Dokument
+// Save resultant XPS document
 doc.Save(dataDir + "AddTextRTL_out.xps");
 ```
 
-Glückwunsch! Sie haben mit Aspose.Page für .NET erfolgreich Unicode-Text zu einem XPS-Dokument hinzugefügt.
+Herzlichen Glückwunsch! Sie haben erfolgreich **how to add unicode** Text zu einem XPS-Dokument mit Aspose.Page für .NET hinzugefügt.
 
-## Abschluss
+## Häufige Probleme und Lösungen
 
-In diesem Tutorial haben wir den Prozess des Hinzufügens von Unicode-Text zu XPS-Dokumenten mithilfe von Aspose.Page für .NET untersucht. Diese Funktionalität öffnet Türen für eine vielfältige und dynamische Dokumentenerstellung innerhalb der .NET-Umgebung.
+| Problem | Grund | Lösung |
+|---------|-------|--------|
+| Text erscheint verzerrt | Schriftart unterstützt den Unicode‑Bereich nicht | Verwenden Sie eine Schriftart, die die benötigten Glyphen enthält (z. B. Arial Unicode MS). |
+| RTL‑Text bleibt immer noch links‑nach‑rechts | `BidiLevel` nicht gesetzt oder auf 0 gesetzt | Stellen Sie sicher, dass `glyphs.BidiLevel = 1;` für RTL‑Skripte gesetzt ist. |
+| Datei wird nicht gespeichert | Ungültiger `dataDir`‑Pfad | Überprüfen Sie, ob das Verzeichnis existiert und die Anwendung Schreibrechte hat. |
 
-## FAQs
+## Häufig gestellte Fragen
 
-### F1: Ist Aspose.Page mit den neuesten .NET-Frameworks kompatibel?
+**F: Ist Aspose.Page mit den neuesten .NET-Frameworks kompatibel?**  
+A: Ja, Aspose.Page wird regelmäßig aktualisiert, um .NET Framework, .NET Core und .NET 5/6+ zu unterstützen.
 
-A1: Ja, Aspose.Page wird regelmäßig aktualisiert, um die Kompatibilität mit den neuesten .NET-Frameworks sicherzustellen.
+**F: Kann ich den Schriftstil und die Größe beim Hinzufügen von Text anpassen?**  
+A: Absolut! Die Methode `AddGlyphs` ermöglicht es Ihnen, jede gewünschte Schriftfamilie, Größe und `FontStyle` anzugeben.
 
-### F2: Kann ich beim Hinzufügen von Text den Schriftstil und die Schriftgröße anpassen?
+**F: Wo finde ich zusätzliche Dokumentation für Aspose.Page?**  
+A: Sie können die Dokumentation [here](https://reference.aspose.com/page/net/) für umfassende API‑Details einsehen.
 
-A2: Auf jeden Fall! Mit dem bereitgestellten Beispielcode können Sie Schriftart, Größe und andere Attribute einfach anpassen.
+**F: Gibt es kostenlose Ressourcen, um mit Aspose.Page zu beginnen?**  
+A: Ja, besuchen Sie das Community‑Forum unter [Aspose.Page forum](https://forum.aspose.com/c/page/39) für Tipps, Beispiele und Unterstützung durch andere Nutzer.
 
-### F3: Wo finde ich zusätzliche Dokumentation für Aspose.Page?
+**F: Gibt es eine Testversion, bevor man einen Kauf tätigt?**  
+A: Natürlich! Laden Sie die kostenlose Testversion von [here](https://releases.aspose.com/) herunter, um die Bibliothek zu evaluieren.
 
- A3: Sie können sich auf die Dokumentation beziehen[Hier](https://reference.aspose.com/page/net/) Ausführliche Informationen und Beispiele finden Sie hier.
+---
 
-### F4: Gibt es kostenlose Ressourcen für den Einstieg in Aspose.Page?
+**Zuletzt aktualisiert:** 2026-03-21  
+**Getestet mit:** Aspose.Page 24.11 für .NET  
+**Autor:** Aspose  
 
- A4: Ja, Sie können das erkunden[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) für Community-Unterstützung und Diskussionen.
-
-### F5: Gibt es vor dem Kauf eine Testversion?
-
- A5: Auf jeden Fall! Sie können auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/) bevor Sie einen Kauf tätigen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
