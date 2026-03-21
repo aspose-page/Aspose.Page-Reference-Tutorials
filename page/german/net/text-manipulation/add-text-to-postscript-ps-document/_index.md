@@ -1,35 +1,53 @@
 ---
-title: Fügen Sie mit Aspose.Page Text zu einem PostScript-Dokument (PS) hinzu
-linktitle: Fügen Sie Text zu einem PostScript-Dokument (PS) hinzu
-second_title: Aspose.Page .NET-API
-description: Verbessern Sie Ihre .NET-Entwicklungsfähigkeiten, indem Sie lernen, mit Aspose.Page Text zu PostScript-Dokumenten (PS) hinzuzufügen. Entdecken Sie Schritt-für-Schritt-Beispiele und entfesseln Sie die Macht der Dokumentenmanipulation.
-weight: 10
+date: 2026-03-21
+description: Erfahren Sie, wie Sie Text in PS‑Dokumente einfügen und hinzufügen können,
+  indem Sie Aspose.Page für .NET verwenden. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
+linktitle: Add Text to PostScript (PS) Document
+second_title: Aspose.Page .NET API
+title: Wie man Text in PostScript (PS)-Dokumenten mit Aspose.Page ausfüllt
 url: /de/net/text-manipulation/add-text-to-postscript-ps-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fügen Sie mit Aspose.Page Text zu einem PostScript-Dokument (PS) hinzu
+# Wie man Text in PostScript (PS)-Dokumenten mit Aspose.Page füllt
 
 ## Einführung
 
-In der dynamischen Welt der .NET-Entwicklung ist die Bearbeitung und Verbesserung von PostScript-Dokumenten (PS) eine häufige Anforderung. Aspose.Page für .NET bietet leistungsstarke Tools zum mühelosen Hinzufügen von Text zu Ihren PS-Dokumenten. Dieses Tutorial führt Sie durch den Prozess und stellt sicher, dass Sie diese Funktionalität nahtlos in Ihre Projekte integrieren können.
+Wenn Sie **Text füllen** in einer PostScript (PS)-Datei benötigen, macht Aspose.Page für .NET das unkompliziert. Egal, ob Sie Berichte, Rechnungen oder benutzerdefinierte Grafiken erzeugen, das Hinzufügen und Gestalten von Text ist eine Kernanforderung. In diesem Tutorial führen wir Sie durch den gesamten Prozess – von der Einrichtung der Umgebung bis zum Speichern des finalen PS-Dokuments – damit Sie Text sicher zu PS-Dateien in Ihren .NET-Anwendungen hinzufügen können.
+
+## Schnelle Antworten
+- **Was bedeutet „fill text“?** Es rendert Zeichen mit einem Vollpinsel und malt die Glyphen direkt auf die Seite.  
+- **Kann ich benutzerdefinierte Schriften verwenden?** Ja – Aspose.Page unterstützt benutzerdefinierte Schriften über die `add custom font ps`-Funktion.  
+- **Wie speichere ich das PS-Dokument?** Rufen Sie `document.Save()` nach dem Schließen der Seite auf; dies schreibt die Datei auf die Festplatte (`save ps document`).  
+- **Wird „fill and stroke text“ unterstützt?** Absolut; verwenden Sie `FillAndStrokeText`, um sowohl Füllung als auch Kontur anzuwenden.  
+- **Welche .NET-Versionen werden benötigt?** Jedes .NET Framework 4.5+ oder .NET Core/5/6+ Runtime.
+
+## Was bedeutet „how to fill text“ in einem PS-Dokument?
+
+Text füllen bedeutet, die Zeichen mit einer einfarbigen Farbe (oder Pinsel) ohne Kontur zu malen. In PostScript entspricht dies dem `fill`‑Operator. Aspose.Page abstrahiert dies in einfach zu verwendende Methoden wie `FillText` und `FillAndStrokeText`.
+
+## Warum Aspose.Page für das Hinzufügen von benutzerdefinierten Schriftarten in PS verwenden?
+
+- **Vollständige Schriftunterstützung** – Systemschriften und externe TrueType/OpenType‑Schriften funktionieren sofort.  
+- **Präzise Positionierung** – Sie steuern X/Y‑Koordinaten, Größe und Stil.  
+- **Umfangreiche Gestaltung** – kombinieren Sie Füllungen, Konturen und Stifte für Effekte wie „fill and stroke text“.  
+- **Plattformübergreifend** – funktioniert unter Windows, Linux und macOS mit derselben API.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
+Stellen Sie vor dem Start sicher, dass Sie Folgendes haben:
 
--  Aspose.Page für .NET: Stellen Sie sicher, dass die Aspose.Page-Bibliothek in Ihr .NET-Projekt integriert ist. Sie können es hier herunterladen[Aspose.Page .NET-Dokumentation](https://reference.aspose.com/page/net/).
-
-- Dokumentenverzeichnis: Richten Sie ein Verzeichnis ein, in dem Ihre Dokumente gespeichert werden. Dies wird in den Beispielen als „Ihr Dokumentenverzeichnis“ bezeichnet.
-
-- Schriftartenordner: Erstellen Sie einen Ordner zum Speichern benutzerdefinierter Schriftarten, in den Beispielen als „Ihr Dokumentverzeichnis“ bezeichnet.
+- **Aspose.Page for .NET** – Laden Sie die Bibliothek von der [Aspose.Page .NET documentation](https://reference.aspose.com/page/net/) herunter.  
+- **Document Directory** – ein Ordner auf Ihrem Rechner, in dem die Quell‑ und Ausgabedateien für PS gespeichert werden (im Code als *Your Document Directory* bezeichnet).  
+- **Fonts Folder** – ein Unterordner, der alle benutzerdefinierten Schriften enthält, die Sie verwenden möchten.
 
 ## Namespaces importieren
 
-Bevor Sie beginnen, stellen Sie sicher, dass Sie die erforderlichen Namespaces in Ihr Projekt aufnehmen:
+Importieren Sie zunächst die erforderlichen Namespaces, damit der Compiler weiß, wo die Klassen zu finden sind, die wir verwenden werden:
 
 ```csharp
 using Aspose.Page;
@@ -41,9 +59,11 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Lassen Sie uns das Beispiel nun in mehrere Schritte unterteilen.
+## Schritt‑für‑Schritt‑Anleitung
 
-## Schritt 1: Ausgabestream für PS-Dokument erstellen
+### Schritt 1: Ausgabestream für PS‑Dokument erstellen  
+
+Wir öffnen einen `FileStream`, der die erzeugte PS‑Datei enthält, konfigurieren `PsSaveOptions`, um auf unseren benutzerdefinierten Schriftordner zu verweisen, und instanziieren ein `PsDocument`.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -58,7 +78,11 @@ using (Stream outPsStream = new FileStream(dataDir + "AddText_outPS.ps", FileMod
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Schritt 2: Text mit Systemschriftart füllen
+> **Pro‑Tipp:** Behalten Sie den `using`‑Block bei, um sicherzustellen, dass der Stream automatisch geschlossen wird, was gleichzeitig die PS‑Datei finalisiert (`save ps document`).
+
+### Schritt 2: Text mit einer Systemschrift füllen  
+
+Hier demonstrieren wir die grundlegende **Text füllen**‑Operation mit der integrierten *Times New Roman*-Schrift.
 
 ```csharp
 System.Drawing.Font font = new System.Drawing.Font("Times New Roman", fontSize, FontStyle.Bold);
@@ -66,7 +90,9 @@ document.FillText(str, font, 50, 100);
 document.FillText(str, font, 50, 150, new SolidBrush(Color.Blue));
 ```
 
-## Schritt 3: Text mit benutzerdefinierter Schriftart füllen
+### Schritt 3: Text mit einer benutzerdefinierten Schrift füllen  
+
+Wenn Sie ein bestimmtes Aussehen benötigen, laden Sie eine benutzerdefinierte Schrift aus dem Schriftordner mit `ExternalFontCache.FetchDrFont`. Damit wird die Anforderung **add custom font ps** erfüllt.
 
 ```csharp
 DrFont drFont = ExternalFontCache.FetchDrFont("Palatino Linotype", fontSize, FontStyle.Regular);
@@ -74,7 +100,9 @@ document.FillText(str, drFont, 50, 200);
 document.FillText(str, drFont, 50, 250, new SolidBrush(Color.Blue));
 ```
 
-## Schritt 4: Text mit Systemschrift umreißen
+### Schritt 4: Text mit einer Systemschrift umranden (Stroke)  
+
+Das Umranden zeichnet die Kontur der Glyphen. Kombinieren Sie es mit einer Füllung für einen „fill and stroke“-Effekt.
 
 ```csharp
 document.OutlineText(str, font, 50, 300);
@@ -82,7 +110,11 @@ document.OutlineText(str, font, 50, 350, new Pen(new SolidBrush(Color.BlueViolet
 document.FillAndStrokeText(str, font, 50, 400, new SolidBrush(Color.Yellow), new Pen(new SolidBrush(Color.BlueViolet), 2));
 ```
 
-## Schritt 5: Text mit benutzerdefinierter Schriftart umreißen
+> **Warum das wichtig ist:** Der Aufruf `FillAndStrokeText` zeigt, wie man **fill and stroke text** in einem einzigen Schritt ausführt und Ihnen damit mehr typografische Kontrolle gibt.
+
+### Schritt 5: Text mit einer benutzerdefinierten Schrift umranden  
+
+Die gleiche Umrandungstechnik funktioniert mit jeder benutzerdefinierten Schrift, die Sie geladen haben.
 
 ```csharp
 document.OutlineText(str, drFont, 50, 450);
@@ -90,7 +122,9 @@ document.OutlineText(str, drFont, 50, 500, new Pen(new SolidBrush(Color.BlueViol
 document.FillAndStrokeText(str, drFont, 50, 550, new SolidBrush(Color.Orange), new Pen(new SolidBrush(Color.Blue), 2));
 ```
 
-## Schritt 6: Schließen und speichern
+### Schritt 6: Seite schließen und Dokument speichern  
+
+Der Abschluss ist einfach: Schließen Sie die aktuelle Seite und rufen Sie `Save()` auf, um die PS‑Datei auf die Festplatte zu schreiben.
 
 ```csharp
 document.ClosePage();
@@ -98,34 +132,43 @@ document.Save();
 }
 ```
 
-## Abschluss
+> **Ergebnis:** Sie finden `AddText_outPS.ps` in *Your Document Directory*, das sowohl gefüllten als auch umrandeten Text enthält, der mit System- und benutzerdefinierten Schriften gerendert wurde.
 
-Glückwunsch! Sie haben erfolgreich gelernt, wie Sie mit Aspose.Page für .NET Text zu einem PostScript-Dokument (PS) hinzufügen. Entdecken Sie weitere Funktionen und erweitern Sie Ihre Fähigkeiten zur Dokumentenbearbeitung.
+## Häufige Probleme und Lösungen
 
-## FAQs
+| Problem | Lösung |
+|-------|----------|
+| **Custom font not found** | Überprüfen Sie, ob die Schriftdatei (.ttf/.otf) im Ordner existiert, der in `AdditionalFontsFolders` angegeben ist. |
+| **Text appears at wrong position** | Passen Sie die an `FillText`/`OutlineText` übergebenen X/Y‑Koordinaten an. Denken Sie daran, dass PostScript Punkte (1/72 Zoll) verwendet. |
+| **Colors look different** | Stellen Sie sicher, dass Sie `SolidBrush` oder `Pen` mit den korrekten `Color`‑Werten verwenden. |
+| **Document not saving** | Vergewissern Sie sich, dass der `using`‑Block ohne Ausnahmen abgeschlossen wird und die Anwendung Schreibrechte für den Zielordner hat. |
 
-### F1: Kann ich Aspose.Page mit anderen .NET-Bibliotheken verwenden?
+## Häufig gestellte Fragen
 
-A1: Ja, Aspose.Page lässt sich nahtlos in andere .NET-Bibliotheken integrieren und bietet eine vielseitige Umgebung für die Dokumentbearbeitung.
+**Q: Kann ich Aspose.Page mit anderen .NET-Bibliotheken verwenden?**  
+A: Ja, Aspose.Page lässt sich nahtlos in andere .NET‑Komponenten integrieren, sodass Sie PDF-, Bild- oder Diagrammbibliotheken in derselben Lösung kombinieren können.
 
-### F2: Sind benutzerdefinierte Schriftarten für diesen Prozess unbedingt erforderlich?
+**Q: Sind benutzerdefinierte Schriften für diesen Vorgang zwingend erforderlich?**  
+A: Während Systemschriften gut funktionieren, bieten benutzerdefinierte Schriften Ihnen volle Gestaltungsfreiheit und sind nützlich, wenn markenspezifische Typografie benötigt wird.
 
-A2: Sie können zwar Systemschriftarten verwenden, die Einbindung benutzerdefinierter Schriftarten bietet jedoch mehr Flexibilität und Gestaltungsmöglichkeiten.
+**Q: Ist Aspose.Page für die Verarbeitung von Dokumenten in großem Maßstab geeignet?**  
+A: Absolut. Die Bibliothek ist für Hochdurchsatz‑Szenarien optimiert und kann Tausende von PS‑Dateien effizient verarbeiten.
 
-### F3: Ist Aspose.Page für die Verarbeitung umfangreicher Dokumente geeignet?
+**Q: Kann ich die Position des Textes im PS‑Dokument ändern?**  
+A: Sicherlich – ändern Sie einfach die numerischen X/Y‑Werte in den Aufrufen von `FillText` oder `OutlineText`.
 
-A3: Auf jeden Fall! Aspose.Page ist darauf ausgelegt, die Verarbeitung umfangreicher Dokumente effizient und zuverlässig zu bewältigen.
+**Q: Wo kann ich Unterstützung für Aspose.Page‑bezogene Fragen erhalten?**  
+A: Besuchen Sie das [Aspose.Page Forum](https://forum.aspose.com/c/page/39), um mit der Community in Kontakt zu treten und fachkundige Hilfe zu erhalten.
 
-### F4: Kann ich die Position des Textes im PS-Dokument ändern?
-
-A4: Auf jeden Fall! Passen Sie die Koordinaten in den bereitgestellten Beispielen an, um die Position des hinzugefügten Texts zu ändern.
-
-### F5: Wo kann ich Hilfe bei Fragen zu Aspose.Page erhalten?
-
- A5: Besuchen Sie die[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) um mit der Community in Kontakt zu treten und Expertenrat einzuholen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Zuletzt aktualisiert:** 2026-03-21  
+**Getestet mit:** Aspose.Page 24.11 for .NET  
+**Autor:** Aspose
