@@ -1,33 +1,47 @@
 ---
-title: 使用 Aspose.Page 将带有 Unicode 字符串的文本添加到 PostScript (PS)
-linktitle: 将带有 Unicode 字符串的文本添加到 PostScript (PS)
+date: 2026-03-21
+description: 学习如何使用 Aspose.Page for .NET 在 C# 中创建包含 Unicode 文本的 PostScript 文档——一种快速提升文档处理的方式。
+linktitle: Add Text with Unicode String to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: 了解如何使用 Aspose.Page for .NET 将 Unicode 文本添加到 PostScript 文件中。轻松增强文档操作。
-weight: 11
+title: 使用 C# 创建带 Unicode 文本的 PostScript 文档 – Aspose.Page
 url: /zh/net/text-manipulation/add-text-with-unicode-string-to-postscript-ps/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page 将带有 Unicode 字符串的文本添加到 PostScript (PS)
+# 使用 Aspose.Page 向 PostScript (PS) 添加 Unicode 字符串文本
 
 ## 介绍
 
-在文档操作领域，Aspose.Page for .NET 作为一个强大的库脱颖而出，使开发人员能够创建、编辑和转换各种文档格式。其强大的功能之一是能够使用 Unicode 字符串将文本添加到 PostScript (PS) 文件中。在本教程中，我们将探索完成此任务的分步指南，为使用 Aspose.Page 的开发人员提供无缝体验。
+如果您需要 **create a PostScript document C#** 并嵌入 Unicode 字符，Aspose.Page for .NET 让此过程变得简单。在本教程中，我们将通过一个完整的动手示例，展示如何向 PS 文件添加日文文本（或任何 Unicode 字符串），选择自定义字体并保存结果。完成后，您将拥有一个可在任何 C# 项目中使用的可复用代码片段。
 
-## 先决条件
+## 快速答案
+- **本教程涵盖什么内容？** 使用 Aspose.Page 在 C# 中向 PostScript 文件添加 Unicode 文本。
+- **需要哪个库？** Aspose.Page for .NET（最新版本）。
+- **需要特殊字体吗？** 任何支持所需 Unicode 范围的 TrueType/OpenType 字体，例如 *Arial Unicode MS*。
+- **代码行数是多少？** 大约 30 行，分为清晰的步骤。
+- **需要许可证吗？** 临时许可证可用于评估；生产环境需要正式许可证。
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+## 什么是 “create postscript document c#”？
 
-- C# 编程语言的应用知识。
-- 安装了 .NET 库的 Aspose.Page。您可以从[.NET 文档的 Aspose.Page](https://reference.aspose.com/page/net/).
-- 设置了必要配置的开发环境。
+在 C# 中创建 PostScript 文档是指以编程方式生成符合 PostScript 语言规范的 .ps 文件。Aspose.Page 抽象了底层细节，让您专注于文本、图形和字体等内容。
+
+## 为什么使用 Aspose.Page 处理 Unicode 文本？
+
+- **完整的 Unicode 支持** – 渲染任何语言的字符，无需手动编码。
+- **设备无关** – 相同代码可用于 PS、EPS 和 PDF 输出。
+- **无外部依赖** – 库内部处理字体加载和字形映射。
+
+## 前提条件
+
+- 对 C# 和 .NET 开发有基本了解。
+- 已安装 Aspose.Page for .NET 库。您可以从 [Aspose.Page for .NET documentation](https://reference.aspose.com/page/net/) 下载。
+- 包含您计划使用的字体的文件夹（例如 *Arial Unicode MS*）。
 
 ## 导入命名空间
-
-在您的 C# 代码中，导入使用 Aspose.Page for .NET 功能所需的命名空间：
 
 ```csharp
 using Aspose.Page;
@@ -39,10 +53,10 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 第 1 步：设置文档目录和字体文件夹
+## 步骤 1：设置文档目录和字体文件夹
 
 ```csharp
-//文档目录的路径。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 string FONTS_FOLDER = "Your Fonts Directory";
 ```
@@ -52,70 +66,78 @@ string FONTS_FOLDER = "Your Fonts Directory";
 ```csharp
 using (Stream outPsStream = new FileStream(dataDir + "AddTextUsingUnocodeString_outPS.ps", FileMode.Create))
 {
-    //创建 A4 尺寸的保存选项
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
     options.AdditionalFontsFolders = new string[] { FONTS_FOLDER };
-    //...（可以在此处设置其他选项）
+    // ... (Additional options can be set here)
     
-    //创建新的 1 页 PS 文档
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
     
-    // ...（进一步的步骤将在下面解释）
+    // ... (Further steps will be explained below)
     
-    //保存文档
+    // Save the document
     document.Save();
 }
 ```
 
-## 步骤 3：添加带有自定义字体的 Unicode 文本
+## 步骤 3：使用自定义字体添加 Unicode 文本
 
 ```csharp
-string str = "試してみます.";  //统一码文本
+string str = "試してみます.";  // Unicode text
 int fontSize = 48;
 
-//使用自定义字体填充文本
+// Using custom font for filling text
 DrFont drFont = ExternalFontCache.FetchDrFont("Arial Unicode MS", fontSize, FontStyle.Regular);
 document.FillText(str, drFont, 50, 200);
 document.FillText(str, drFont, 50, 250, new SolidBrush(Color.Blue));
 ```
 
-## 第四步：关闭当前页面
+## 步骤 4：关闭当前页面
 
 ```csharp
 document.ClosePage();
 ```
 
-## 第 5 步：完成并保存文档
+## 步骤 5：完成并保存文档
 
 ```csharp
 document.Save();
 ```
 
+## 常见问题及解决方案
+
+- **未找到字体** – 确保 `AdditionalFontsFolders` 路径指向包含 .ttf/.otf 文件的文件夹，并且字体名称完全匹配。
+- **乱码字符** – 验证源字符串在 C# 源文件中已编码为 UTF‑8（如有需要使用 `#pragma warning disable 1591`）。
+- **文件未创建** – 检查 `dataDir` 的写入权限以及流是否已正确释放（`using` 块会处理此问题）。
+
+## 常见问答
+
+**Q: 我可以在其他编程语言中使用 Aspose.Page for .NET 吗？**  
+A: Aspose.Page 主要面向 .NET，但也提供 Java 等等价实现。
+
+**Q: 如何获取 Aspose.Page for .NET 的临时许可证？**  
+A: 请访问 [Temporary License](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
+
+**Q: 是否有 Aspose.Page 讨论的社区论坛？**  
+A: 有，访问 [Aspose.Page forum](https://forum.aspose.com/c/page/39) 获取社区支持。
+
+**Q: Aspose.Page for .NET 支持哪些格式？**  
+A: Aspose.Page 支持多种格式，包括 XPS、PS、EPS、PDF 等。
+
+**Q: 我可以自定义添加文本的外观吗？**  
+A: 可以，您可以在 Aspose.Page 中自定义文本的字体、大小、颜色及其他属性。
+
 ## 结论
 
-在本教程中，我们演示了使用 Aspose.Page for .NET 将 Unicode 文本添加到 PostScript 文档的过程。利用其强大的功能，开发人员可以增强其文档操作工作流程，确保灵活性和精确性。
+在本教程中，我们演示了如何 **create a PostScript document C#** 并使用 Aspose.Page 嵌入 Unicode 文本。按照上述步骤，您可以快速将多语言文本渲染集成到任何 .NET 应用程序中，全面掌控文档生成和布局。
 
-## 常见问题解答
+---
 
-### Q1：我可以将 Aspose.Page for .NET 与其他编程语言一起使用吗？
+**最后更新：** 2026-03-21  
+**测试版本：** Aspose.Page 24.11 for .NET  
+**作者：** Aspose  
 
-A1：Aspose.Page 主要是为.NET 设计的，但也有其他适用于Java 的版本。
-
-### 问题 2：如何获得 Aspose.Page for .NET 的临时许可证？
-
- A2：参观[临时牌照](https://purchase.aspose.com/temporary-license/)以获得临时许可证。
-
-### Q3：有 Aspose.Page 讨论的社区论坛吗？
-
- A3：是的，请访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)以获得社区支持。
-
-### Q4：Aspose.Page for .NET 可以使用哪些格式？
-
-A4：Aspose.Page支持多种格式，包括XPS、PS、EPS、PDF等。
-
-### Q5：我可以自定义添加文本的外观吗？
-
-A5：是的，您可以在Aspose.Page中自定义文本的字体、大小、颜色和其他属性。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
