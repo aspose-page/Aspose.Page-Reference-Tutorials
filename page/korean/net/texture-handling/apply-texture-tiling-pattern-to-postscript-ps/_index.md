@@ -1,34 +1,41 @@
 ---
-title: Aspose.Page를 사용하여 PostScript(PS)에 텍스처 타일링 패턴 적용
-linktitle: PostScript에 텍스처 타일링 패턴 적용(PS)
-second_title: Aspose.페이지 .NET API
-description: .NET용 Aspose.Page를 사용하여 텍스처 타일링 패턴으로 PostScript(PS) 문서를 향상하세요. 창의적인 터치를 위한 단계별 가이드를 따르세요.
-weight: 10
+date: 2026-03-26
+description: Aspose.Page를 사용하여 텍스처 타일링 패턴이 적용된 .NET PostScript 문서를 만드는 방법을 배워보세요.
+  단계별 가이드를 따라 PS 파일에 풍부한 텍스처를 추가하세요.
+linktitle: Create PostScript .NET document with texture tiling
+second_title: Aspose.Page .NET API
+title: 텍스처 타일링을 사용하여 PostScript .NET 문서 만들기
 url: /ko/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page를 사용하여 PostScript(PS)에 텍스처 타일링 패턴 적용
+# 텍스처 타일링을 사용한 PostScript .NET 문서 만들기
 
-## 소개
+## 텍스처 타일링을 사용하여 PostScript .NET 문서를 만드는 방법
 
-.NET용 Aspose.Page를 사용하여 PS(PostScript) 문서에 텍스처 타일링 패턴을 적용하는 방법에 대한 단계별 튜토리얼에 오신 것을 환영합니다. Aspose.Page는 다양한 문서 형식으로 작업할 수 있는 강력한 라이브러리이며, 이 튜토리얼에서는 텍스처 타일링 패턴을 추가하여 PS 문서를 향상시키는 방법을 살펴보겠습니다.
+이 튜토리얼에서는 **PostScript document .NET**을 만드는 방법과 Aspose.Page 라이브러리를 사용하여 텍스처 타일링 패턴으로 풍부하게 만드는 방법을 배웁니다. 프로젝트 설정부터 텍스처 브러시를 사용한 텍스트 채우기 및 스트로크까지 각 단계를 차례대로 안내하므로 몇 분 안에 시각적으로 매력적인 PS 파일을 만들 수 있습니다.
 
-## 전제 조건
+## 빠른 답변
+- **사용된 라이브러리는 무엇인가요?** Aspose.Page for .NET  
+- **.NET Core를 사용할 수 있나요?** Yes, the library supports .NET Core and .NET 5/6  
+- **텍스처에 사용할 수 있는 이미지 형식은 무엇인가요?** Any format supported by System.Drawing (BMP, PNG, JPEG, etc.)  
+- **구현에 얼마나 걸리나요?** About 10‑15 minutes for a basic example  
+- **라이선스가 필요합니까?** A free trial works for testing; a license is required for production  
 
-튜토리얼을 시작하기 전에 다음 사항이 있는지 확인하세요.
+## 사전 요구 사항
 
-- [비주얼 스튜디오](https://visualstudio.microsoft.com/) 귀하의 컴퓨터에 설치되었습니다.
-- C# 프로그래밍에 대한 기본 지식.
--  다운로드 및 설치[.NET 라이브러리용 Aspose.Page](https://releases.aspose.com/page/net/).
-- 텍스처 패턴에 대한 이미지 파일(예: "TestTexture.bmp").
+- [Visual Studio](https://visualstudio.microsoft.com/)가 머신에 설치되어 있어야 합니다.  
+- C# 프로그래밍에 대한 기본 지식.  
+- [Aspose.Page for .NET library](https://releases.aspose.com/page/net/)를 다운로드하고 설치합니다.  
+- 텍스처 패턴에 사용할 이미지 파일 (예: **TestTexture.bmp**).
 
 ## 네임스페이스 가져오기
 
-C# 코드에서 필요한 네임스페이스를 가져왔는지 확인하세요.
+In your C# file, import the required namespaces so the compiler knows where to find the types we’ll use:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,130 +45,135 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-제공된 예제를 여러 단계로 나누어 프로세스를 안내해 보겠습니다.
-
-## 1단계: 문서 디렉토리 설정
+## 단계 1: 문서 디렉터리 설정
 
 ```csharp
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-"Your Document Directory"를 PS 문서를 저장하려는 경로로 바꾸십시오.
+Replace **Your Document Directory** with the folder where you want the generated PS file to be saved.
 
-## 2단계: PS 문서용 출력 스트림 생성
+## 단계 2: PS 문서를 위한 출력 스트림 생성
 
 ```csharp
-// PostScript 문서의 출력 스트림 생성
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddTextureTilingPattern_outPS.ps", FileMode.Create))
 {
-    // A4 크기로 저장 옵션 만들기
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // 새로운 1페이지 PS 문서 만들기
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-이 단계에서는 문서 크기 정의를 포함하여 PS 문서의 출력 스트림을 설정합니다.
+This block opens a file stream, configures the page size (A4 by default), and creates a fresh **PsDocument** instance that we will draw on.
 
-## 3단계: 텍스처 타일링 패턴 적용
+## 단계 3: 텍스처 타일링 패턴 적용
 
 ```csharp
-// 이미지 파일에서 비트맵 개체 만들기
+// Create a Bitmap object from the image file
 using (Bitmap image = new Bitmap(dataDir + "TestTexture.bmp"))
 {
-    // 이미지에서 텍스처 브러시 만들기
+    // Create texture brush from the image
     TextureBrush brush = new TextureBrush(image, WrapMode.Tile);
 
-    //패턴에 X 방향의 크기 조정 추가
+    // Add scaling in X direction to the pattern
     Matrix transform = new Matrix(2, 0, 0, 1, 0, 0);
     brush.Transform = transform;
 
-    // 이 텍스처 브러시를 현재 페인트로 설정
+    // Set this texture brush as the current paint
     document.SetPaint(brush);
 }
 ```
 
-이 단계에는 이미지에서 텍스처 브러시를 만들고 이를 문서의 현재 페인트로 설정하는 작업이 포함됩니다.
+Here we load the bitmap, wrap it in a **TextureBrush**, optionally stretch it horizontally, and tell the **PsDocument** to use this brush for subsequent drawing operations.
 
-## 4단계: 직사각형 경로 만들기 및 채우기
+## 단계 4: 사각형 경로 생성 및 채우기
 
 ```csharp
-// 직사각형 경로 만들기
+// Create rectangle path
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(0, 0, 200, 100));
 
-// 직사각형 채우기
+// Fill rectangle
 document.Fill(path);
 ```
 
-여기서는 직사각형 경로를 정의하고 이전에 설정된 텍스처 브러시로 채웁니다.
+A simple rectangle is defined and filled with the texture brush we set earlier.
 
-## 5단계: 획 설정 및 그리기
+## 단계 5: 스트로크 설정 및 그리기
 
 ```csharp
-// 현재 페인트 가져오기
+// Get current paint
 Brush paint = document.GetPaint();
 
-// 빨간색 획 설정
+// Set red stroke
 document.SetStroke(new Pen(new SolidBrush(Color.Red), 2));
 
-// 직사각형을 획을 긋습니다.
+// Stroke the rectangle
 document.Draw(path);
 ```
 
-이 단계에는 획 속성을 설정하고 윤곽선이 있는 사각형을 그리는 작업이 포함됩니다.
+We retrieve the current paint (the texture brush), create a red pen for the outline, and draw the rectangle’s border.
 
-## 6단계: 텍스처 패턴으로 텍스트 채우기 및 윤곽선 지정
+## 단계 6: 텍스처 패턴으로 텍스트 채우기 및 스트로크
 
 ```csharp
-// 텍스처 패턴으로 텍스트 채우기
+// Fill text with texture pattern                
 Font font = new Font("Arial", 96, FontStyle.Bold);
 document.FillAndStrokeText("ABC", font, 200, 300, paint, new Pen(Color.Black, 2));
 
-// 텍스처 패턴이 있는 텍스트 개요
+// Outline text with texture pattern
 document.OutlineText("ABC", font, 200, 400, new Pen(paint, 5));
 ```
 
-마지막으로 텍스처 패턴으로 텍스트를 채우고 윤곽을 잡아 문서의 시각적 매력을 향상시킵니다.
+This step demonstrates the **fill and stroke text** capability: the characters “ABC” are filled with the texture brush and then outlined, giving a striking visual effect.
 
-## 7단계: 문서 저장 및 닫기
+## 단계 7: 문서 저장 및 닫기
 
 ```csharp
-// 현재 페이지 닫기
+// Close current page
 document.ClosePage();
 
-// 문서 저장
+// Save the document
 document.Save();
 ```
 
-변경 사항을 적용하려면 현재 페이지를 닫고 문서를 저장하세요.
+Closing the page finalizes the drawing commands, and `Save()` writes the PostScript file to disk.
+
+## 일반적인 문제 및 해결책
+
+- **텍스처가 잘못 늘어나는 경우** – `Matrix` 값을 조정하여 X/Y 방향의 스케일을 제어합니다.  
+- **이미지를 찾을 수 없음** – `dataDir`이 올바른 폴더를 가리키는지, 파일 이름이 대소문자를 포함해 정확히 일치하는지 확인합니다.  
+- **색상이 이상하게 보임** – PostScript는 장치 독립적인 색상 공간을 사용한다는 점을 기억하고, `Color` 객체가 올바르게 매핑되는지 확인합니다.
+
+## 자주 묻는 질문
+
+**Q:** 텍스처 패턴에 다른 이미지 형식을 사용할 수 있나요?  
+**A:** 예, `System.Drawing.Bitmap`에서 지원하는 모든 형식(BMP, PNG, JPEG, GIF 등)이 작동합니다.
+
+**Q:** Aspose.Page가 .NET Core와 호환되나요?  
+**A:** 물론입니다. 이 라이브러리는 .NET Framework, .NET Core, 그리고 .NET 5/6에서 실행됩니다.
+
+**Q:** 텍스처가 적용된 사각형의 크기를 어떻게 변경하나요?  
+**A:** 사각형 생성 단계에서 `RectangleF` 값을 수정합니다(예: `new RectangleF(0, 0, 300, 150)`).
+
+**Q:** 하나의 문서에 여러 텍스처 패턴을 적용할 수 있나요?  
+**A:** 예. 다른 이미지를 사용해 새로운 `TextureBrush`를 만든 뒤, 다음 도형이나 텍스트를 그리기 전에 `SetPaint`를 다시 호출하면 됩니다.
+
+**Q:** 더 많은 예제와 API 레퍼런스는 어디서 찾을 수 있나요?  
+**A:** 커뮤니티 지원을 위해 [Aspose.Page Forum](https://forum.aspose.com/c/page/39)을 방문하고, 자세한 API 사용법은 공식 [documentation](https://reference.aspose.com/page/net/)을 참고하세요.
 
 ## 결론
 
-축하해요! .NET용 Aspose.Page를 사용하여 PostScript 문서에 텍스처 타일링 패턴을 적용하는 방법을 성공적으로 배웠습니다. 다양한 이미지와 패턴을 실험하여 PS 문서를 더욱 맞춤화하세요.
+You now know how to **create PostScript document .NET** and apply a texture tiling pattern, including how to **fill and stroke text** with that texture. Experiment with different images, scaling matrices, and drawing primitives to produce custom‑styled PS files for reports, flyers, or any graphic‑heavy output.
 
-## FAQ
+---
 
-### Q1: 텍스처 패턴에 다른 이미지 형식을 사용할 수 있나요?
-
-A1: 예, Aspose.Page는 다양한 이미지 형식을 지원합니다. 라이브러리 문서와의 호환성을 확인하세요.
-
-### Q2: Aspose.Page는 .NET Core와 호환됩니까?
-
-A2: 예, Aspose.Page는 .NET Framework 및 .NET Core와 모두 호환됩니다.
-
-### Q3: 질감이 있는 직사각형의 크기를 어떻게 조정할 수 있나요?
-
- A3: 치수를 수정하세요.`RectangleF` 경로 생성 중 매개변수.
-
-### Q4: 단일 문서에 여러 텍스처 패턴을 추가할 수 있습니까?
-
-A4: 예, 다른 이미지와 경로로 프로세스를 반복할 수 있습니다.
-
-### Q5: 추가 리소스와 지원은 어디서 찾을 수 있나요?
-
- A5: 다음을 방문하세요.[Aspose.페이지 포럼](https://forum.aspose.com/c/page/39) 지역사회 지원을 위해[선적 서류 비치](https://reference.aspose.com/page/net/).
+**마지막 업데이트:** 2026-03-26  
+**테스트 환경:** Aspose.Page 24.11 for .NET  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

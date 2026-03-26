@@ -1,34 +1,42 @@
 ---
-title: Applica il motivo di piastrellatura della trama a PostScript (PS) con Aspose.Page
-linktitle: Applica motivo di affiancamento texture a PostScript (PS)
-second_title: API Aspose.Page .NET
-description: Migliora i tuoi documenti PostScript (PS) con modelli di piastrellatura di texture utilizzando Aspose.Page per .NET. Segui la nostra guida passo passo per un tocco creativo.
-weight: 10
+date: 2026-03-26
+description: Scopri come creare documenti PostScript .NET con pattern di piastrellatura
+  di texture usando Aspose.Page. Segui la nostra guida passo‑passo per aggiungere
+  texture ricche ai tuoi file PS.
+linktitle: Create PostScript .NET document with texture tiling
+second_title: Aspose.Page .NET API
+title: Crea documento PostScript .NET con tessellazione di texture
 url: /it/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Applica il motivo di piastrellatura della trama a PostScript (PS) con Aspose.Page
+# Crea documento PostScript .NET con piastrellatura di texture
 
-## introduzione
+## Come creare un documento PostScript .NET con piastrellatura di texture
 
-Benvenuti in questo tutorial passo passo su come applicare un modello di piastrellatura della trama a un documento PostScript (PS) utilizzando Aspose.Page per .NET. Aspose.Page è una potente libreria che ti consente di lavorare con vari formati di documenti e in questo tutorial esploreremo come migliorare i tuoi documenti PS aggiungendo modelli di piastrellatura delle texture.
+In questo tutorial imparerai a **creare un documento PostScript .NET** e ad arricchirlo con un motivo di piastrellatura di texture usando la libreria Aspose.Page. Ti guideremo passo dopo passo, dalla configurazione del progetto al riempimento e al contorno del testo con il pennello texture, così potrai produrre file PS visivamente accattivanti in pochi minuti.
+
+## Risposte rapide
+- **Quale libreria viene usata?** Aspose.Page per .NET  
+- **Posso usare .NET Core?** Sì, la libreria supporta .NET Core e .NET 5/6  
+- **Quali formati immagine funzionano per la texture?** Qualsiasi formato supportato da System.Drawing (BMP, PNG, JPEG, ecc.)  
+- **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per un esempio base  
+- **È necessaria una licenza?** Una versione di prova gratuita è sufficiente per i test; è richiesta una licenza per la produzione  
 
 ## Prerequisiti
 
-Prima di immergerci nel tutorial, assicurati di avere quanto segue:
+- [Visual Studio](https://visualstudio.microsoft.com/) installato sulla tua macchina.  
+- Conoscenza di base della programmazione C#.  
+- Scarica e installa la [libreria Aspose.Page per .NET](https://releases.aspose.com/page/net/).  
+- Un file immagine per il motivo di texture (ad es., **TestTexture.bmp**).
 
-- [Studio visivo](https://visualstudio.microsoft.com/) installato sulla tua macchina.
-- Conoscenza base della programmazione C#.
--  Scarica e installa il[Aspose.Page per la libreria .NET](https://releases.aspose.com/page/net/).
-- Un file immagine per il modello di texture (ad esempio, "TestTexture.bmp").
+## Importare gli spazi dei nomi
 
-## Importa spazi dei nomi
-
-Nel codice C# assicurati di importare gli spazi dei nomi necessari:
+Nel tuo file C#, importa gli spazi dei nomi necessari affinché il compilatore sappia dove trovare i tipi che utilizzeremo:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,130 +46,135 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Suddividiamo l'esempio fornito in più passaggi per guidarti attraverso il processo.
-
-## Passaggio 1: impostare la directory dei documenti
+## Passo 1: Configurare la directory del documento
 
 ```csharp
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Assicurati di sostituire "La tua directory dei documenti" con il percorso in cui desideri salvare il tuo documento PS.
+Sostituisci **Your Document Directory** con la cartella in cui desideri salvare il file PS generato.
 
-## Passaggio 2: crea il flusso di output per il documento PS
+## Passo 2: Creare lo stream di output per il documento PS
 
 ```csharp
-// Crea flusso di output per il documento PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddTextureTilingPattern_outPS.ps", FileMode.Create))
 {
-    // Crea opzioni di salvataggio con il formato A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Crea un nuovo documento PS di 1 pagina
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Questo passaggio configura il flusso di output per il documento PS, inclusa la definizione della dimensione del documento.
+Questo blocco apre uno stream di file, configura la dimensione della pagina (A4 per impostazione predefinita) e crea una nuova istanza **PsDocument** su cui disegneremo.
 
-## Passaggio 3: applicare il motivo di piastrellatura della trama
+## Passo 3: Applicare il motivo di piastrellatura di texture
 
 ```csharp
-// Crea un oggetto Bitmap dal file immagine
+// Create a Bitmap object from the image file
 using (Bitmap image = new Bitmap(dataDir + "TestTexture.bmp"))
 {
-    // Crea un pennello texture dall'immagine
+    // Create texture brush from the image
     TextureBrush brush = new TextureBrush(image, WrapMode.Tile);
 
-    //Aggiungi il ridimensionamento nella direzione X al modello
+    // Add scaling in X direction to the pattern
     Matrix transform = new Matrix(2, 0, 0, 1, 0, 0);
     brush.Transform = transform;
 
-    // Imposta questo pennello texture come vernice corrente
+    // Set this texture brush as the current paint
     document.SetPaint(brush);
 }
 ```
 
-Questo passaggio prevede la creazione di un pennello texture da un'immagine e l'impostazione come disegno corrente per il documento.
+Qui carichiamo il bitmap, lo avvolgiamo in un **TextureBrush**, opzionalmente lo allunghiamo orizzontalmente e indichiamo al **PsDocument** di usare questo pennello per le operazioni di disegno successive.
 
-## Passaggio 4: crea un percorso rettangolare e riempilo
+## Passo 4: Creare il percorso rettangolare e riempirlo
 
 ```csharp
-// Crea un percorso rettangolare
+// Create rectangle path
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(0, 0, 200, 100));
 
-// Riempi il rettangolo
+// Fill rectangle
 document.Fill(path);
 ```
 
-Qui definiamo un tracciato rettangolare e lo riempiamo con il pennello texture precedentemente impostato.
+Viene definito un semplice rettangolo e riempito con il pennello texture impostato in precedenza.
 
-## Passaggio 5: imposta tratto e disegno
+## Passo 5: Impostare il contorno e disegnare
 
 ```csharp
-// Ottieni la vernice attuale
+// Get current paint
 Brush paint = document.GetPaint();
 
-// Imposta il tratto rosso
+// Set red stroke
 document.SetStroke(new Pen(new SolidBrush(Color.Red), 2));
 
-// Traccia il rettangolo
+// Stroke the rectangle
 document.Draw(path);
 ```
 
-Questo passaggio prevede l'impostazione delle proprietà del tratto e il disegno del rettangolo delineato.
+Recuperiamo il paint corrente (il pennello texture), creiamo una penna rossa per il contorno e disegniamo il bordo del rettangolo.
 
-## Passaggio 6: riempire e delineare il testo con il motivo texture
+## Passo 6: Riempire e tracciare il testo con il motivo di texture
 
 ```csharp
-// Riempi il testo con un motivo a trama
+// Fill text with texture pattern                
 Font font = new Font("Arial", 96, FontStyle.Bold);
 document.FillAndStrokeText("ABC", font, 200, 300, paint, new Pen(Color.Black, 2));
 
-// Testo del contorno con motivo a trama
+// Outline text with texture pattern
 document.OutlineText("ABC", font, 200, 400, new Pen(paint, 5));
 ```
 
-Infine, riempiamo e delineamo il testo con il motivo texture, migliorando l'impatto visivo del tuo documento.
+Questo passo dimostra la capacità di **riempire e tracciare il testo**: i caratteri “ABC” sono riempiti con il pennello texture e poi contornati, creando un effetto visivo sorprendente.
 
-## Passaggio 7: salva e chiudi il documento
+## Passo 7: Salvare e chiudere il documento
 
 ```csharp
-// Chiudi la pagina corrente
+// Close current page
 document.ClosePage();
 
-// Salva il documento
+// Save the document
 document.Save();
 ```
 
-Assicurati di chiudere la pagina corrente e salvare il documento per applicare le modifiche.
+La chiusura della pagina finalizza i comandi di disegno e `Save()` scrive il file PostScript su disco.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-Congratulazioni! Hai imparato con successo come applicare un modello di piastrellatura della trama a un documento PostScript utilizzando Aspose.Page per .NET. Sperimenta immagini e modelli diversi per personalizzare ulteriormente i tuoi documenti PS.
+- **La texture appare allungata in modo errato** – Regola i valori della `Matrix` per controllare la scala nelle direzioni X/Y.  
+- **Immagine non trovata** – Verifica che `dataDir` punti alla cartella corretta e che il nome del file corrisponda esattamente, compresa la differenza tra maiuscole e minuscole.  
+- **I colori sembrano sbagliati** – Ricorda che PostScript utilizza uno spazio colore indipendente dal dispositivo; assicurati di usare oggetti `Color` che vengano mappati correttamente.
 
 ## Domande frequenti
 
-### Q1: Posso utilizzare altri formati di immagine per il motivo della trama?
+**D:** Posso usare altri formati immagine per il motivo di texture?  
+**R:** Sì, qualsiasi formato supportato da `System.Drawing.Bitmap` (BMP, PNG, JPEG, GIF, ecc.) funziona.
 
-A1: Sì, Aspose.Page supporta vari formati di immagine. Garantire la compatibilità con la documentazione della biblioteca.
+**D:** Aspose.Page è compatibile con .NET Core?  
+**R:** Assolutamente. La libreria funziona su .NET Framework, .NET Core e .NET 5/6.
 
-### Q2: Aspose.Page è compatibile con .NET Core?
+**D:** Come faccio a cambiare le dimensioni del rettangolo texturizzato?  
+**R:** Modifica i valori di `RectangleF` nel passo di creazione del rettangolo (ad es., `new RectangleF(0, 0, 300, 150)`).
 
-A2: Sì, Aspose.Page è compatibile sia con .NET Framework che con .NET Core.
+**D:** Posso applicare più motivi di texture in un unico documento?  
+**R:** Sì. Basta creare un nuovo `TextureBrush` con un’immagine diversa e chiamare nuovamente `SetPaint` prima di disegnare la forma o il testo successivo.
 
-### Q3: Come posso regolare la dimensione del rettangolo con texture?
+**D:** Dove posso trovare altri esempi e la reference dell'API?  
+**R:** Visita il [Forum Aspose.Page](https://forum.aspose.com/c/page/39) per l’aiuto della community e la [documentazione ufficiale](https://reference.aspose.com/page/net/) per un uso dettagliato dell’API.
 
- A3: Modifica le dimensioni in`RectangleF` parametri durante la creazione del percorso.
+## Conclusione
 
-### Q4: Posso aggiungere più motivi di texture a un singolo documento?
+Ora sai come **creare un documento PostScript .NET** e applicare un motivo di piastrellatura di texture, inclusa la capacità di **riempire e tracciare il testo** con quella texture. Sperimenta con immagini diverse, matrici di scala e primitive di disegno per produrre file PS dal design personalizzato per report, volantini o qualsiasi output grafico intensivo.
 
-R4: Sì, puoi ripetere il processo con immagini e percorsi diversi.
+---
 
-### Q5: Dove posso trovare risorse e supporto aggiuntivi?
-
- A5: Visita il[Aspose.Page Forum](https://forum.aspose.com/c/page/39) per il supporto della comunità ed esplorare il[documentazione](https://reference.aspose.com/page/net/).
+**Ultimo aggiornamento:** 2026-03-26  
+**Testato con:** Aspose.Page 24.11 per .NET  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,34 +1,40 @@
 ---
-title: قم بتطبيق نمط تبليط الملمس على PostScript (PS) باستخدام Aspose.Page
-linktitle: تطبيق نمط تبليط الملمس على PostScript (PS)
+date: 2026-03-26
+description: تعلم كيفية إنشاء مستند PostScript باستخدام .NET مع أنماط تجانب القوام
+  باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة لإضافة قوام غني إلى ملفات PS الخاصة
+  بك.
+linktitle: Create PostScript .NET document with texture tiling
 second_title: Aspose.Page .NET API
-description: قم بتحسين مستندات PostScript (PS) الخاصة بك باستخدام أنماط تجانب النسيج باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على لمسة إبداعية.
-weight: 10
+title: إنشاء مستند PostScript .NET مع تجانب القوام
 url: /ar/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتطبيق نمط تبليط الملمس على PostScript (PS) باستخدام Aspose.Page
+# إنشاء مستند PostScript .NET مع نمط تجانب القوام
 
-## مقدمة
+## كيفية إنشاء مستند PostScript .NET مع نمط تجانب القوام
 
-مرحبًا بك في هذا البرنامج التعليمي خطوة بخطوة حول كيفية تطبيق نمط تجانب النسيج على مستند PostScript (PS) باستخدام Aspose.Page لـ .NET. Aspose.Page هي مكتبة قوية تسمح لك بالعمل مع تنسيقات المستندات المختلفة، وفي هذا البرنامج التعليمي، سنستكشف كيفية تحسين مستندات PS الخاصة بك عن طريق إضافة أنماط تجانب النسيج.
+## إجابات سريعة
+- **ما المكتبة المستخدمة؟** Aspose.Page for .NET  
+- **هل يمكنني استخدام .NET Core؟** نعم، المكتبة تدعم .NET Core و .NET 5/6  
+- **ما صيغ الصور التي تعمل مع القوام؟** أي صيغة يدعمها System.Drawing (BMP، PNG، JPEG، إلخ).  
+- **كم من الوقت تستغرق التنفيذ؟** حوالي 10‑15 دقيقة للمثال الأساسي  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للاختبار؛ الترخيص مطلوب للإنتاج  
 
-## المتطلبات الأساسية
+## المتطلبات المسبقة
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك ما يلي:
-
-- [استوديو مرئي](https://visualstudio.microsoft.com/) المثبتة على جهازك.
-- المعرفة الأساسية ببرمجة C#.
--  تحميل وتثبيت[Aspose.Page لمكتبة .NET](https://releases.aspose.com/page/net/).
-- ملف صورة لنمط النسيج (على سبيل المثال، "TestTexture.bmp").
+- [Visual Studio](https://visualstudio.microsoft.com/) مثبت على جهازك.  
+- معرفة أساسية ببرمجة C#.  
+- تحميل وتثبيت [Aspose.Page for .NET library](https://releases.aspose.com/page/net/).  
+- ملف صورة لنمط القوام (مثال: **TestTexture.bmp**).
 
 ## استيراد مساحات الأسماء
 
-في كود C# الخاص بك، تأكد من استيراد مساحات الأسماء الضرورية:
+في ملف C# الخاص بك، استورد مساحات الأسماء المطلوبة حتى يعرف المترجم أين يجد الأنواع التي سنستخدمها:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,130 +44,135 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-دعنا نقسم المثال المقدم إلى خطوات متعددة لإرشادك خلال العملية.
-
-## الخطوة 1: إعداد دليل المستندات
+## الخطوة 1: إعداد دليل المستند
 
 ```csharp
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-تأكد من استبدال "دليل المستندات الخاص بك" بالمسار الذي تريد حفظ مستند PS الخاص بك فيه.
+استبدل **Your Document Directory** بالمجلد الذي تريد حفظ ملف PS المُولد فيه.
 
-## الخطوة 2: إنشاء دفق الإخراج لمستند PS
+## الخطوة 2: إنشاء تدفق الإخراج لمستند PS
 
 ```csharp
-// إنشاء دفق الإخراج لمستند بوستسكريبت
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddTextureTilingPattern_outPS.ps", FileMode.Create))
 {
-    // إنشاء خيارات الحفظ بحجم A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // قم بإنشاء مستند PS جديد مكون من صفحة واحدة
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-تقوم هذه الخطوة بإعداد دفق الإخراج لمستند PS، بما في ذلك تحديد حجم المستند.
+هذا الجزء يفتح تدفق ملف، يضبط حجم الصفحة (A4 افتراضيًا)، وينشئ كائن **PsDocument** جديد سنرسم عليه.
 
-## الخطوة 3: تطبيق نمط تبليط الملمس
+## الخطوة 3: تطبيق نمط تجانب القوام
 
 ```csharp
-// قم بإنشاء كائن نقطي من ملف الصورة
+// Create a Bitmap object from the image file
 using (Bitmap image = new Bitmap(dataDir + "TestTexture.bmp"))
 {
-    // إنشاء فرشاة الملمس من الصورة
+    // Create texture brush from the image
     TextureBrush brush = new TextureBrush(image, WrapMode.Tile);
 
-    //أضف مقياسًا في اتجاه X إلى النمط
+    // Add scaling in X direction to the pattern
     Matrix transform = new Matrix(2, 0, 0, 1, 0, 0);
     brush.Transform = transform;
 
-    // قم بتعيين فرشاة الملمس هذه كالطلاء الحالي
+    // Set this texture brush as the current paint
     document.SetPaint(brush);
 }
 ```
 
-تتضمن هذه الخطوة إنشاء فرشاة نسيج من صورة وتعيينها كالطلاء الحالي للمستند.
+هنا نقوم بتحميل الـ bitmap، نغلفه بـ **TextureBrush**، نمدده أفقيًا اختياريًا، ونخبر **PsDocument** باستخدام هذه الفرشاة للعمليات الرسومية اللاحقة.
 
-## الخطوة 4: إنشاء مسار مستطيل وملء
+## الخطوة 4: إنشاء مسار مستطيل وتعبئته
 
 ```csharp
-// إنشاء مسار مستطيل
+// Create rectangle path
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(0, 0, 200, 100));
 
-// ملء المستطيل
+// Fill rectangle
 document.Fill(path);
 ```
 
-هنا، نحدد مسارًا مستطيلًا ونملأه بفرشاة الملمس المحددة مسبقًا.
+يتم تعريف مستطيل بسيط وتعبئته بفرشاة القوام التي حددناها مسبقًا.
 
-## الخطوة 5: ضبط السكتة الدماغية والرسم
+## الخطوة 5: ضبط الحد والرسم
 
 ```csharp
-// احصل على الطلاء الحالي
+// Get current paint
 Brush paint = document.GetPaint();
 
-// تعيين السكتة الدماغية الحمراء
+// Set red stroke
 document.SetStroke(new Pen(new SolidBrush(Color.Red), 2));
 
-// السكتة الدماغية المستطيل
+// Stroke the rectangle
 document.Draw(path);
 ```
 
-تتضمن هذه الخطوة ضبط خصائص الحد ورسم المستطيل المحدد.
+نسترجع اللون الحالي (فرشاة القوام)، ننشئ قلمًا أحمر للحد، ونرسم حدود المستطيل.
 
-## الخطوة 6: ملء النص وتحديده بنمط الملمس
+## الخطوة 6: تعبئة ونقش النص بنمط القوام
 
 ```csharp
-// تعبئة النص بنمط الملمس
+// Fill text with texture pattern                
 Font font = new Font("Arial", 96, FontStyle.Bold);
 document.FillAndStrokeText("ABC", font, 200, 300, paint, new Pen(Color.Black, 2));
 
-// مخطط تفصيلي للنص مع نمط الملمس
+// Outline text with texture pattern
 document.OutlineText("ABC", font, 200, 400, new Pen(paint, 5));
 ```
 
-أخيرًا، نقوم بملء النص وتحديد الخطوط العريضة له باستخدام نمط النسيج، مما يعزز المظهر المرئي للمستند الخاص بك.
+هذه الخطوة توضح قدرة **تعبئة ونقش النص**: يتم تعبئة الأحرف “ABC” بفرشاة القوام ثم يتم نقشها، مما ينتج تأثيرًا بصريًا بارزًا.
 
 ## الخطوة 7: حفظ وإغلاق المستند
 
 ```csharp
-// إغلاق الصفحة الحالية
+// Close current page
 document.ClosePage();
 
-// احفظ المستند
+// Save the document
 document.Save();
 ```
 
-تأكد من إغلاق الصفحة الحالية وحفظ المستند لتطبيق التغييرات.
+إغلاق الصفحة يُنهي أوامر الرسم، و`Save()` يكتب ملف PostScript إلى القرص.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-تهانينا! لقد تعلمت بنجاح كيفية تطبيق نمط تجانب النسيج على مستند PostScript باستخدام Aspose.Page لـ .NET. قم بتجربة صور وأنماط مختلفة لتخصيص مستندات PS الخاصة بك بشكل أكبر.
+- **القوام يبدو مشدودًا بشكل غير صحيح** – عدل قيم `Matrix` للتحكم في التحجيم في اتجاهي X/Y.  
+- **الصورة غير موجودة** – تأكد أن `dataDir` يشير إلى المجلد الصحيح وأن اسم الملف مطابق تمامًا، بما في ذلك حالة الأحرف.  
+- **الألوان غير صحيحة** – تذكر أن PostScript يستخدم مساحة ألوان مستقلة عن الجهاز؛ تأكد من استخدام كائنات `Color` التي تُطابق بشكل صحيح.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني استخدام تنسيقات صور أخرى لنمط النسيج؟
+**س:** هل يمكنني استخدام صيغ صور أخرى لنمط القوام؟  
+**ج:** نعم، أي صيغة يدعمها `System.Drawing.Bitmap` (BMP، PNG، JPEG، GIF، إلخ) تعمل.
 
-A1: نعم، يدعم Aspose.Page تنسيقات الصور المختلفة. التأكد من التوافق مع وثائق المكتبة.
+**س:** هل Aspose.Page متوافق مع .NET Core؟  
+**ج:** بالتأكيد. المكتبة تعمل على .NET Framework و .NET Core و .NET 5/6.
 
-### س2: هل Aspose.Page متوافق مع .NET Core؟
+**س:** كيف أغير حجم المستطيل المملوء بالقوام؟  
+**ج:** عدل قيم `RectangleF` في خطوة إنشاء المستطيل (مثال: `new RectangleF(0, 0, 300, 150)`).
 
-ج2: نعم، Aspose.Page متوافق مع كل من .NET Framework و.NET Core.
+**س:** هل يمكنني تطبيق أنماط قوام متعددة في مستند واحد؟  
+**ج:** نعم. فقط أنشئ `TextureBrush` جديد بصورة مختلفة واستدعِ `SetPaint` مرة أخرى قبل رسم الشكل أو النص التالي.
 
-### س3: كيف يمكنني ضبط حجم المستطيل المزخرف؟
+**س:** أين يمكنني العثور على المزيد من الأمثلة ومرجع الـ API؟  
+**ج:** زر [Aspose.Page Forum](https://forum.aspose.com/c/page/39) للحصول على مساعدة المجتمع و[documentation](https://reference.aspose.com/page/net/) الرسمي للحصول على تفاصيل استخدام الـ API.
 
- A3: قم بتعديل الأبعاد في`RectangleF` المعلمات أثناء إنشاء المسار.
+## الخلاصة
 
-### س4: هل يمكنني إضافة أنماط نسيج متعددة إلى مستند واحد؟
+أنت الآن تعرف كيف **تنشئ مستند PostScript .NET** وتطبق نمط تجانب القوام، بما في ذلك كيفية **تعبئة ونقش النص** بهذا القوام. جرّب صورًا مختلفة، ومصفوفات تحجيم، وبدائيات الرسم لإنتاج ملفات PS ذات نمط مخصص للتقارير، والنشرات، أو أي مخرجات غنية بالرسومات.
 
-ج4: نعم، يمكنك تكرار العملية بصور ومسارات مختلفة.
+---
 
-### س5: أين يمكنني العثور على موارد ودعم إضافيين؟
-
- ج5: قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) لدعم المجتمع واستكشاف[توثيق](https://reference.aspose.com/page/net/).
+**آخر تحديث:** 2026-03-26  
+**تم الاختبار مع:** Aspose.Page 24.11 for .NET  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
