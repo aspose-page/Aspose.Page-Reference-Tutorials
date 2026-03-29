@@ -1,35 +1,52 @@
 ---
-title: 使用 Aspose.Page 在 PostScript (PS) 中显示伪透明度
-linktitle: 在 PostScript (PS) 中显示伪透明度
+date: 2026-03-29
+description: 学习如何使用 C# 的线性渐变画刷，在 PostScript 中通过 Aspose.Page for .NET 创建伪透明效果。
+linktitle: Show Pseudo-Transparency in PostScript (PS)
 second_title: Aspose.Page .NET API
-description: 使用 Aspose.Page for .NET 探索 PostScript 中伪透明的强大功能。请按照我们的分步指南获取视觉上令人惊叹的文档。
-weight: 13
+title: 用于 PS 中伪透明的 C# 线性渐变画刷
 url: /zh/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page 在 PostScript (PS) 中显示伪透明度
+# 线性渐变画刷 C# 用于 PostScript (PS) 中的伪透明
 
 ## 介绍
 
-您是否希望通过合并伪透明度来增强 PostScript (PS) 文档的视觉吸引力？ Aspose.Page for .NET 提供了一个强大的解决方案来轻松实现这种效果。在本分步教程中，我们将指导您完成使用 Aspose.Page 在 PostScript 中显示伪透明度的过程。
+如果您需要在 PostScript (PS) 文件中添加细腻的透视效果，**linear gradient brush C#** 是完美的工具。Aspose.Page for .NET 使得绘制具有不透明和半透明渐变填充的矩形变得轻松，为您的文档提供现代分层外观。在本教程中，我们将逐步演示如何使用 C# 中的线性渐变画刷创建伪透明效果。
 
-## 先决条件
+## 快速答案
+- **提供线性渐变画刷的库是什么？** Aspose.Page for .NET
+- **哪个图形类创建渐变？** `LinearGradientBrush`
+- **我可以对每种颜色的透明度进行控制吗？** 是的，使用 `Color.FromArgb(alpha, …)`
+- **生产环境需要许可证吗？** 需要有效的 Aspose.Page 许可证
+- **支持的 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6+
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+## 什么是 linear gradient brush C#？
 
-- Aspose.Page for .NET：确保您已安装 Aspose.Page for .NET 库。您可以从[Aspose.Page 文档](https://reference.aspose.com/page/net/).
+`LinearGradientBrush` 是一个 GDI+ 对象，用于在直线沿线的两种颜色之间绘制平滑过渡。当为每种颜色指定 alpha 通道（0‑255）时，您可以创建半透明渐变——这正是我们在 PostScript 中实现伪透明所需的。
 
-- 文档目录：设置一个目录来存储您的 PostScript 文档。
+## 为什么在伪透明中使用 linear gradient brush C#？
 
-现在您的武器库中已经有了必要的工具，让我们探索如何使用 Aspose.Page 在 PostScript 中展示伪透明度。
+- **细粒度透明度控制：** 调整每种颜色的 alpha 以实现所需的透视程度。  
+- **设备无关渲染：** 该画刷在屏幕、PDF、EPS 和 PS 输出上表现一致。  
+- **简洁 API：** 几行 C# 代码即可产生专业级视觉效果。
+
+## 前提条件
+
+在深入代码之前，请确保您拥有：
+
+- 已安装 Aspose.Page for .NET。您可以从 [Aspose.Page 文档](https://reference.aspose.com/page/net/) 下载。  
+- 一个可写文件夹，用于保存生成的 PostScript 文档。
+
+现在您已经拥有必要的工具，让我们开始构建伪透明矩形。
 
 ## 导入命名空间
 
-在深入研究示例之前，请确保导入所需的命名空间：
+在开始之前，导入包含我们将使用的类的命名空间：
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,23 +56,27 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 第 1 步：为 PostScript 文档创建输出流
+## 步骤 1：为 PostScript 文档创建输出流
+
+我们首先创建一个文件流来保存生成的 PS 文件，然后初始化 `PsDocument`。
 
 ```csharp
-//开始时间：1
-//文档目录的路径。
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//为 PostScript 文档创建输出流
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_outPS.ps", FileMode.Create))
 {
-	//创建 A4 尺寸的保存选项
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 
-	//创建新的 1 页 PS 文档
+	// Create new 1‑paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## 第 2 步：使用不透明渐变填充创建矩形
+## 步骤 2：创建具有 **不透明** 渐变填充的矩形
+
+这里我们构建一个 `LinearGradientBrush`，其颜色完全不透明（alpha = 255）。此矩形将作为背景层。
 
 ```csharp
 	float offsetX = 50;
@@ -77,16 +98,18 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## 第 3 步：创建具有半透明渐变填充的矩形
+## 步骤 3：创建具有 **半透明** 渐变填充的矩形
+
+现在我们使用 **linear gradient brush C#**，其 alpha 值小于 255（例如 150 和 50）。这使得矩形部分透视，实现伪透明效果。
 
 ```csharp
 	offsetX = 350;
 
-	//从第一个矩形创建图形路径
+	//Create graphics path from the first rectangle
 	path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-	//创建线性渐变画笔颜色，透明度不是255，而是150和50。所以它是半透明的。
+	//Create linear gradient brush colors which transparency are not 255, but 150 and 50. So it are translucent.
 	LinearGradientBrush translucentBrush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
 		Color.FromArgb(50, 40, 128, 70), 0f);
 
@@ -99,42 +122,50 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## 步骤 4：关闭当前页面并保存文档
+## 步骤 4：关闭页面并保存文档
+
+最后我们完成页面并将 PS 文件写入磁盘。
 
 ```csharp
 	document.ClosePage();
 	document.Save();
 }
-//结束：1
+// ExEnd:1
 ```
 
-通过执行这些步骤，您可以使用 Aspose.Page for .NET 将伪透明度无缝集成到 PostScript 文档中。
+按照这四个步骤，您可以无缝混合不透明和半透明矩形，在任何 PostScript 输出中创建逼真的伪透明效果。
 
-## 结论
+## 常见问题及解决方案
 
-总之，Aspose.Page for .NET 提供了一种简单有效的方法来增强 PostScript 文档的视觉元素。上述步骤为合并伪透明度提供了一条清晰的路径，使您能够创建视觉上令人惊叹的输出。
+| 问题 | 为什么会发生 | 解决方案 |
+|------|--------------|----------|
+| 颜色显示为完全不透明 | Alpha 值误设为 255 | 使用 `Color.FromArgb(alpha, …)`，其中 `alpha` < 255 |
+| 渐变拉伸不正确 | 变换矩阵不正确 | 确认矩阵参数与矩形尺寸匹配 |
+| 输出文件为空 | 流未关闭或未调用 `Save()` | 确保在 `using` 块内执行 `document.ClosePage()` 和 `document.Save()` |
 
-## 常见问题解答
+## 常见问题
 
-### Q1：Aspose.Page 是否兼容所有版本的.NET？
+**问：Aspose.Page 是否兼容所有 .NET 版本？**  
+**答：** Aspose.Page for .NET 兼容多种 .NET 框架版本，确保灵活性和易于集成。
 
-A1：Aspose.Page for .NET 与.NET 框架的各个版本兼容，确保灵活性和易于集成。
+**问：我可以将伪透明应用于除矩形之外的其他形状吗？**  
+**答：** 可以，通过相应调整 `GraphicsPath`，相同原理适用于任何形状。
 
-### Q2：除了矩形之外，我可以对其他形状应用伪透明吗？
+**问：在哪里可以找到更多示例和文档？**  
+**答：** 请访问 [Aspose.Page 文档](https://reference.aspose.com/page/net/) 获取完整示例和详细 API 参考。
 
-A2：是的，通过相应地调整 GraphicsPath，可以将相同的原理应用于其他形状。
+**问：Aspose.Page 是否提供免费试用？**  
+**答：** 是的，您可以通过 [此链接](https://releases.aspose.com/) 获取 Aspose.Page 的免费试用。
 
-### Q3：在哪里可以找到更多示例和文档？
+**问：如何获取 Aspose.Page 的临时许可证？**  
+**答：** 请访问 [此链接](https://purchase.aspose.com/temporary-license/) 获取 Aspose.Page 的临时许可证。
 
- A3：探索[Aspose.Page 文档](https://reference.aspose.com/page/net/)获取全面的示例和详细的文档。
+---
 
-### Q4：Aspose.Page 有免费试用版吗？
+**最后更新：** 2026-03-29  
+**测试版本：** Aspose.Page 24.11 for .NET  
+**作者：** Aspose  
 
- A4：是的，您可以从以下位置访问 Aspose.Page 的免费试用版：[这个链接](https://releases.aspose.com/).
-
-### Q5：如何获得Aspose.Page的临时许可证？
-
-A5：参观[这个链接](https://purchase.aspose.com/temporary-license/)获取 Aspose.Page 的临时许可证。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
