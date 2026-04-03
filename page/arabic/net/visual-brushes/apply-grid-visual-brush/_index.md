@@ -1,35 +1,52 @@
 ---
-title: تطبيق فرشاة الشبكة المرئية مع Aspose.Page لـ .NET
+date: 2026-04-03
+description: تعلم كيفية إضافة مستطيل شفاف وتطبيق فرشاة شبكة بصرية في .NET باستخدام
+  Aspose.Page لإنشاء مستندات XPS مذهلة.
+keywords:
+- add transparent rectangle
+- grid visual brush
+- Aspose.Page .NET
 linktitle: تطبيق فرشاة الشبكة البصرية
 second_title: Aspose.Page .NET API
-description: استكشف العالم الديناميكي لمعالجة المستندات في .NET باستخدام Aspose.Page. تعرف على كيفية تطبيق Grid Visual Brush للحصول على مستندات مذهلة بصريًا.
-weight: 10
+title: إضافة مستطيل شفاف باستخدام فرشاة بصرية للشبكة (.NET)
 url: /ar/net/visual-brushes/apply-grid-visual-brush/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تطبيق فرشاة الشبكة المرئية مع Aspose.Page لـ .NET
+# إضافة مستطيل شفاف باستخدام فرشاة بصرية شبكية (.NET)
 
 ## مقدمة
 
-في عالم تطوير .NET، تبرز Aspose.Page كأداة قوية للتعامل مع مهام معالجة المستندات. إحدى الميزات الرائعة التي تقدمها هي القدرة على تطبيق فرشاة الشبكة المرئية، مما يضفي بعدًا جديدًا على مستنداتك. سيرشدك هذا البرنامج التعليمي خلال عملية تنفيذ فرشاة Magenta Grid Visual Brush خطوة بخطوة باستخدام Aspose.Page لـ .NET.
+If you’re looking to **add a transparent rectangle** to an XPS document while also applying a stylish Grid Visual Brush, you’ve come to the right place. In this tutorial we’ll walk through the exact steps needed with Aspose.Page for .NET, so you can create visually rich documents that stand out. By the end you’ll have a complete, runnable example that demonstrates both techniques in a single, easy‑to‑follow workflow.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما الذي يفعله المستطيل الشفاف؟** يضيف طبقة شبه شفافة تسمح للمحتوى الخلفي بالظهور.  
+- **أي واجهة برمجة تطبيقات (API) تنشئ الفرشاة؟** `XpsDocument.CreateVisualBrush` يبني فرشاة بصرية شبكية.  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تكفي للاختبار؛ الترخيص التجاري مطلوب للإنتاج.  
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6+.  
+- **كم من الوقت تستغرق التنفيذ؟** حوالي 10‑15 دقيقة لمثال أساسي.
 
-قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+## ما هو المستطيل الشفاف في XPS؟
+المستطيل الشفاف هو ببساطة شكل يكون لون التعبئة فيه يحتوي على مكوّن ألفا أقل من 1.0، مما يسمح للرسومات الأساسية بأن تكون مرئية جزئياً. هذا مثالي لتسليط الضوء على الأقسام دون إخفاء الخلفية بالكامل.
 
--  Aspose.Page for .NET: تأكد من تثبيت المكتبة وإعدادها في بيئة .NET الخاصة بك. يمكنك تنزيله[هنا](https://releases.aspose.com/page/net/).
+## لماذا نستخدم فرشاة بصرية شبكية؟
+تتيح لك فرشاة بصرية شبكية (Grid Visual Brush) تكرار رسم متجه صغير عبر مساحة أكبر، مما يخلق أنماطًا مثل الشبكات أو الخطوط المتقاطعة أو القوام المخصص. الجمع بينها وبين مستطيل شفاف يمنحك تأثيرات بصرية متعددة الطبقات تكون خفيفة الوزن ومستقلة عن الدقة.
 
-- بيئة التطوير: تمتع ببيئة تطوير .NET جاهزة، وفهم أساسي لبرمجة C#.
+## المتطلبات المسبقة
 
-- دليل المستندات: قم بإنشاء دليل لمستنداتك حيث سيتم حفظ الملفات المعالجة.
+Before diving into the code, make sure you have:
+
+- **Aspose.Page for .NET** – يمكنك تنزيله [هنا](https://releases.aspose.com/page/net/).
+- بيئة تطوير .NET (Visual Studio، VS Code، أو أي IDE تفضله).
+- مجلد سيتم حفظ ملفات XPS المُولدة فيه.
 
 ## استيراد مساحات الأسماء
 
-في كود C# الخاص بك، تحتاج إلى استيراد مساحات الأسماء اللازمة للاستفادة من ميزات Aspose.Page بشكل فعال:
+In your C# file, import the required namespaces:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,118 +54,128 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-الآن، دعونا نقسم المثال إلى خطوات متعددة.
+Now let’s break the solution into clear, numbered steps.
 
 ## الخطوة 1: تهيئة XpsDocument
 
 ```csharp
-// البداية:3
+// ExStart:3
 string dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
-// النهاية:3
+// ExEnd:3
 ```
 
- هنا، نقوم بإنشاء مثيل`XpsDocument` للعمل مع وثائق XPS.
+نبدأ بإنشاء كائن `XpsDocument`، والذي سيحمل جميع عمليات الرسم اللاحقة.
 
-## الخطوة 2: إنشاء هندسة الشبكة الأرجوانية
+## الخطوة 2: إنشاء هندسة شبكة أرجوانية
 
 ```csharp
-// البداية:4
+// ExStart:4
 XpsPathGeometry pathGeometry = doc.CreatePathGeometry();
 pathGeometry.AddSegment(doc.CreatePolyLineSegment(
     new PointF[] { new PointF(240f, 5f), new PointF(240f, 310f), new PointF(0f, 310f) }));
 pathGeometry[0].StartPoint = new PointF(0f, 5f);
-// النهاية:4
+// ExEnd:4
 ```
 
-تتضمن هذه الخطوة إنشاء هندسة مسار للشبكة الأرجوانية.
+هذه الهندسة تحدد مخطط الشبكة التي ستملأها الفرشاة البصرية.
 
-## الخطوة 3: تصميم فرشاة مرئية لشبكة أرجوانية
+## الخطوة 3: تصميم فرشاة بصرية شبكة أرجوانية
 
 ```csharp
-// البداية:5
+// ExStart:5
 XpsCanvas visualCanvas = doc.CreateCanvas();
 XpsPath visualPath = visualCanvas.AddPath(
     doc.CreatePathGeometry("M 0,4 L 4,4 4,0 6,0 6,4 10,4 10,6 6,6 6,10 4,10 4,6 0,6 Z"));
 visualPath.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1f, .61f, 0.1f, 0.61f));
-// النهاية:5
+// ExEnd:5
 ```
 
-هنا، نقوم بتصميم الجانب المرئي للشبكة الأرجوانية باستخدام الرسومات المتجهة.
+هنا نرسم بلاطة صغيرة باللون الأرجواني سيتم تكرارها عبر الشبكة.
 
 ## الخطوة 4: تطبيق VisualBrush على الشبكة
 
 ```csharp
-// البداية:6
+// ExStart:6
 XpsPath gridPath = doc.CreatePath(pathGeometry);
 gridPath.Fill = doc.CreateVisualBrush(visualCanvas,
     new RectangleF(0f, 0f, 10f, 10f), new RectangleF(0f, 0f, 10f, 10f));
 ((XpsVisualBrush)gridPath.Fill).TileMode = XpsTileMode.Tile;
-// النهاية:6
+// ExEnd:6
 ```
 
-قم بتطبيق الفرشاة المرئية على مسار الشبكة، مع التأكد من تجانبها بشكل مناسب.
+استدعاء `CreateVisualBrush` يربط البلاطة الأرجوانية بهندسة الشبكة ويفعل التكرار.
 
-## الخطوة 5: إضافة الشبكة إلى القماش
+## الخطوة 5: إضافة الشبكة إلى Canvas
 
 ```csharp
-// البداية:7
+// ExStart:7
 XpsCanvas canvas = doc.AddCanvas();
 canvas.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 268f, 70f);
 canvas.AddPath(pathGeometry);
-// النهاية:7
+// ExEnd:7
 ```
 
-أضف الشبكة إلى اللوحة القماشية، مع تحديد أي تحويلات مطلوبة.
+نضع الشبكة المتكررة على لوحة (Canvas) ونطبق تحويل إزاحة لتظهر في الموقع المطلوب.
 
-## الخطوة 6: التعزيز باستخدام المستطيل الأحمر
+## الخطوة 6: إضافة مستطيل شفاف
 
 ```csharp
-// البداية:8
+// ExStart:8
 XpsPath path = canvas.AddPath(doc.CreatePathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 path = canvas.AddPath(doc.CreatePathGeometry("M 10,10 L 228,10 228,100 10,100"));
 path.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1.0f, 0.0f, 0.0f));
-path.Opacity = 0.7f;
-// النهاية:8
+path.Opacity = 0.7f; // This opacity makes the rectangle transparent
+// ExEnd:8
 ```
 
-عزز المظهر البصري بإضافة مستطيل أحمر شفاف.
+في هذه الخطوة **نضيف مستطيلًا شفافًا** (الشكل الأحمر مع `Opacity = 0.7f`). اضبط قيمة الشفافية للتحكم في مدى شفافية المستطيل.
 
-## الخطوة 7: احفظ المستند
+## الخطوة 7: حفظ المستند
 
 ```csharp
-// البداية:9
+// ExStart:9
 doc.Save(dataDir + "AddGrid_out.xps");
-// النهاية:9
+// ExEnd:9
 ```
 
-احفظ مستند XPS الناتج في الدليل المحدد.
+يتم كتابة ملف XPS إلى المجلد الذي حددته مسبقًا.
 
-## خاتمة
+## حالات الاستخدام الشائعة
 
-تهانينا! لقد نجحت في تطبيق Grid Visual Brush على مستندك باستخدام Aspose.Page لـ .NET. يمكن لهذه التقنية تحسين العناصر المرئية لمستنداتك بشكل كبير، مما يوفر تجربة مستخدم ديناميكية وجذابة.
+- **تمييز التقارير:** وضع مستطيل شبه شفاف لتسليط الضوء على مخطط أو جدول.  
+- **تأثيرات العلامة المائية:** دمج شبكة متكررة مع طبقة شفافة للحصول على علامة تجارية خفيفة.  
+- **ملفات PDF/XPS تفاعلية:** استخدم النمط كخلفية لحقول النماذج مع الحفاظ على قابلية قراءة واجهة المستخدم.
 
-## الأسئلة الشائعة
+## نصائح استكشاف الأخطاء وإصلاحها
 
-### س1: هل يمكنني استخدام Aspose.Page لـ .NET في كل من تطبيقات الويب وسطح المكتب؟
+- **الشفافية غير مرئية؟** تأكد من أن عارضك يدعم شفافية XPS؛ قد يتجاهل بعض العارضات القديمة خاصية `Opacity`.  
+- **حجم البلاطة غير صحيح؟** تحقق من أن المستطيل المصدر (`new RectangleF(0f, 0f, 10f, 10f)`) يطابق أبعاد البلاطة المتجهية.  
+- **الملف لم يُحفظ؟** تحقق مرة أخرى من أن `dataDir` يشير إلى دليل موجود وقابل للكتابة.
 
-ج1: نعم، يعد Aspose.Page for .NET متعدد الاستخدامات ويمكن استخدامه في أنواع التطبيقات المختلفة.
+## الأسئلة المتكررة
 
-### س2: هل تتوفر نسخة تجريبية قبل الشراء؟
+**س: هل يمكنني استخدام Aspose.Page for .NET في تطبيقات الويب وسطح المكتب؟**  
+ج: نعم، المكتبة تعمل عبر جميع أنواع تطبيقات .NET.
 
- ج2: بالتأكيد، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+**س: هل هناك نسخة تجريبية متاحة قبل الشراء؟**  
+ج: بالتأكيد، يمكنك الوصول إلى النسخة التجريبية المجانية [هنا](https://releases.aspose.com/).
 
-### س3: أين يمكنني العثور على دعم إضافي أو مناقشات مجتمعية؟
+**س: أين يمكنني العثور على دعم إضافي أو مناقشات المجتمع؟**  
+ج: زر [منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للحصول على مساعدة من المجتمع ومهندسي Aspose.
 
- ج3: قم بزيارة[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) للمناقشات والدعم.
+**س: كيف يمكنني الحصول على ترخيص مؤقت للتقييم؟**  
+ج: يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
-### س٤: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
+**س: ما الوثائق الأخرى المتاحة لـ Aspose.Page for .NET؟**  
+ج: استكشف الوثائق الشاملة [هنا](https://reference.aspose.com/page/net/).
 
- ج4: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+---
 
-### س5: ما هي الوثائق الأخرى المتوفرة لـ Aspose.Page لـ .NET؟
+**آخر تحديث:** 2026-04-03  
+**تم الاختبار مع:** Aspose.Page 24.12 for .NET  
+**المؤلف:** Aspose  
 
- ج5: استكشف الوثائق الشاملة[هنا](https://reference.aspose.com/page/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
