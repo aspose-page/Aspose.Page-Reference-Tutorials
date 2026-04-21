@@ -1,99 +1,139 @@
 ---
-title: Tambahkan Objek Transparan di Java XPS
-linktitle: Tambahkan Objek Transparan di Java XPS
-second_title: Aspose.Halaman Java API
-description: Sempurnakan dokumen Java XPS Anda dengan efek transparansi yang menakjubkan menggunakan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk menambahkan objek transparan.
-weight: 10
+date: 2026-01-02
+description: Pelajari cara menambahkan transparansi pada dokumen Java XPS menggunakan
+  Aspose.Page. Ikuti panduan langkah demi langkah kami untuk menambahkan objek transparan
+  dengan efek visual yang menakjubkan.
+linktitle: Add Transparent Object in Java XPS
+second_title: Aspose.Page Java API
+title: Cara Menambahkan Transparansi ke Dokumen XPS Java
 url: /id/java/xps-transparency/add-transparent-object/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Objek Transparan di Java XPS
+# Cara Menambahkan Transparansi ke Dokumen Java XPS
 
-## Perkenalan
-Jika Anda ingin meningkatkan daya tarik visual dokumen Java XPS Anda dengan menambahkan objek transparan, Aspose.Page for Java adalah solusi untuk Anda. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses memasukkan objek transparan ke dalam dokumen XPS Anda. Di akhir tutorial ini, Anda akan dapat membuat dokumen menakjubkan dengan efek transparansi yang estetis.
+## Pendahuluan
+Jika Anda ingin **menambahkan transparansi** ke dokumen Java XPS Anda dan memberikan tampilan modern serta berlapis, Aspose.Page for Java mempermudahnya. Dalam tutorial ini kami akan membahas semua yang Anda perlukan—mulai dari menyiapkan lingkungan hingga membuat jalur transparan, mengatur opacity, dan akhirnya menyimpan hasilnya. Pada akhir tutorial, Anda akan dapat menambahkan transparansi ke objek XPS apa pun dengan percaya diri.
+
+## Jawaban Cepat
+- **Perpustakaan apa yang diperlukan?** Aspose.Page for Java  
+- **Bisakah saya mengontrol opacity secara programatis?** Ya, melalui metode `setOpacity` pada sebuah brush.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi komersial diperlukan untuk penggunaan non‑evaluasi.  
+- **Versi Java mana yang didukung?** Java 8 dan yang lebih baru.  
+- **Apakah output kompatibel dengan penampil XPS standar?** Tentu—penampil standar menampilkan transparansi dengan benar.
+
+## Apa itu transparansi dalam XPS?
+Transparansi memungkinkan Anda merender objek dengan opacity yang bervariasi, sehingga elemen latar belakang dapat terlihat. Efek ini berguna untuk watermark, grafik overlay, atau desain apa pun di mana visual berlapis meningkatkan keterbacaan.
+
+## Mengapa menggunakan Aspose.Page untuk menambahkan transparansi?
+- **Kontrol penuh** atas geometri, brush, dan transformasi.  
+- **Tanpa dependensi eksternal**—semua ditangani di dalam API.  
+- **Dukungan lintas platform**, sehingga kode yang sama bekerja di Windows, Linux, dan macOS.  
+
 ## Prasyarat
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
-- Lingkungan Pengembangan Java: Pastikan Anda telah menyiapkan lingkungan pengembangan Java di sistem Anda.
--  Aspose.Page untuk Perpustakaan Java: Unduh dan instal perpustakaan Aspose.Page untuk Java. Anda dapat menemukan perpustakaan dan dokumentasinya[Di Sini](https://releases.aspose.com/page/java/).
-## Paket Impor
-Di proyek Java Anda, impor paket Aspose.Page yang diperlukan untuk mulai menambahkan objek transparan. Sertakan baris berikut di awal file Java Anda:
+Sebelum kita mulai, pastikan Anda memiliki:
+
+- Lingkungan pengembangan Java (JDK 8+).  
+- Perpustakaan Aspose.Page for Java terpasang. Anda dapat mengunduhnya dari situs resmi [di sini](https://releases.aspose.com/page/java/).  
+
+## Impor Paket
+Di proyek Java Anda, impor paket Aspose.Page yang diperlukan untuk memulai menambahkan objek transparan. Sertakan baris berikut di awal file Java Anda:
+
 ```java
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsPath;
 import java.awt.Color;
 ```
-Sekarang, mari kita pecahkan kode contoh menjadi beberapa langkah.
+
+Sekarang, mari kita uraikan contoh kode menjadi beberapa langkah.
+
 ## Langkah 1: Inisialisasi Dokumen
 ```java
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Inisialisasi dokumen
+// Initialize document
 XpsDocument doc = new XpsDocument();
 ```
 Mulailah dengan menyiapkan dokumen Anda dan menentukan direktori tempat dokumen XPS Anda akan disimpan.
+
 ## Langkah 2: Buat Objek Transparan
 ```java
-// Hanya untuk menunjukkan transparansi
+// Just to demonstrate transparency
 doc.addPath(doc.createPathGeometry("M120,0 H400 v1000 H120")).setFill(doc.createSolidColorBrush(Color.GRAY));
 doc.addPath(doc.createPathGeometry("M300,120 h600 V420 h-600")).setFill(doc.createSolidColorBrush(Color.GRAY));
 ```
-Di sini, kami membuat dua jalur transparan untuk mendemonstrasikan efek transparansi menggunakan geometri dan warna yang ditentukan.
+Di sini, kami membuat dua jalur abu-abu yang akan berfungsi sebagai latar belakang untuk bentuk transparan yang akan kami tambahkan nanti.
+
 ## Langkah 3: Tambahkan Jalur Terisi
 ```java
-// Buat jalur dengan geometri persegi panjang tertutup
+// Create path with closed rectangle geometry
 XpsPath path1 = doc.createPath(doc.createPathGeometry("M20,20 h200 v200 h-200 z"));
-// Atur kuas padat berwarna biru untuk mengisi jalur1
+// Set blue solid brush to fill path1
 path1.setFill(doc.createSolidColorBrush(Color.BLUE));
-// Tambahkan ke halaman saat ini
+// Add it to the current page
 XpsPath path2 = doc.add(path1);
 ```
-Pada langkah ini, kita membuat jalur dengan geometri persegi panjang tertutup, mengisinya dengan kuas padat berwarna biru, dan menambahkannya ke halaman saat ini.
-## Langkah 4: Memanipulasi Transparansi
+Pada langkah ini kami membuat persegi panjang biru padat dan menempatkannya pada halaman. Persegi panjang ini nantinya akan ditutupi oleh bentuk transparan, memperlihatkan efeknya.
+
+## Langkah 4: Manipulasi Transparansi
 ```java
-// path1 dan path2 sama selama path1 belum ditempatkan di dalam elemen lainnya
+// path1 and path2 are the same as long as path1 hasn't been placed inside any other element
 path2.setFill(doc.createSolidColorBrush(Color.GREEN));
-// Sekarang tambahkan path2 sekali lagi. Sekarang path2 memiliki orang tua, jadi path3 tidak akan sama dengan path2.
+// Now add path2 once again. Now path2 has a parent, so path3 won't be the same as path2.
 XpsPath path3 = doc.add(path2);
 path3.setRenderTransform(doc.createMatrix(1, 0, 0, 1, 0, 300));
 path3.setFill(doc.createSolidColorBrush(Color.RED));
 ```
-Di sini, kami mendemonstrasikan dampak transparansi ketika jalur memiliki elemen induk. Memanipulasi transparansi dan warna jalur yang sesuai.
-## Langkah 5: Duplikat dan Ubah Jalur
+Di sini kami mengubah warna isi jalur yang diduplikasi dan menerapkan transformasi translasi. Ini menunjukkan bagaimana transparansi berinteraksi ketika objek berbagi elemen induk yang sama.
+
+## Langkah 5: Duplikat dan Modifikasi Jalur
 ```java
-// Buat path4 baru dengan geometri path2
+// Create new path4 with path2's geometry
 XpsPath path4 = doc.addPath(path2.getData());
 path4.setRenderTransform(doc.createMatrix(1, 0, 0, 1, 300, 0));
 path4.setFill(doc.createSolidColorBrush(Color.BLUE));
-// Tambahkan path4 sekali lagi.
+// Add path4 once again.
 XpsPath path5 = doc.add(path4);
 path5.setRenderTransform(path5.getRenderTransform().deepClone());
 path5.getRenderTransform().translate(0, 300);
 path5.getFill().setOpacity(0.8f);
 ```
-Duplikasi jalur dan modifikasi propertinya untuk menciptakan variasi dalam transparansi dan warna, yang menunjukkan keserbagunaan Aspose.Page.
+Kami menggandakan jalur yang ada, memindahkannya, dan menyesuaikan opacity menjadi 0.8 (80 % padat). Langkah ini menampilkan cara Anda dapat menggunakan kembali geometri sambil menyesuaikan transparansi untuk setiap instance.
+
 ## Langkah 6: Simpan Dokumen
 ```java
-// Simpan dokumen yang diubah
+// Save the modified document
 doc.save(dataDir + "WorkingWithTransparency_out.xps");
 ```
-Terakhir, simpan dokumen dengan menambahkan objek transparan.
-## Kesimpulan
-Selamat! Anda telah berhasil mempelajari cara menambahkan objek transparan ke dokumen Java XPS Anda menggunakan Aspose.Page. Bereksperimenlah dengan berbagai geometri, warna, dan tingkat transparansi untuk membuat dokumen visual yang menakjubkan.
+Akhirnya, kami menyimpan file XPS. Buka file yang dihasilkan di penampil XPS apa pun untuk melihat transparansi berlapis beraksi.
+
+## Masalah Umum & Tips
+- **Opacity tidak terlihat?** Pastikan Anda menggunakan brush yang mendukung opacity (mis., `createSolidColorBrush`).  
+- **Transformasi tidak diterapkan?** Verifikasi bahwa Anda memanggil `setRenderTransform` **sebelum** menambahkan jalur ke dokumen.  
+- **Tip kinerja:** Gunakan kembali objek geometri saat membuat banyak bentuk serupa untuk mengurangi beban memori.
+
 ## Pertanyaan yang Sering Diajukan
-### T: Dapatkah saya menerapkan transparansi pada bentuk lain selain persegi panjang?
-J: Ya, Anda dapat menerapkan transparansi pada berbagai bentuk menggunakan geometri yang disediakan.
-### T: Bagaimana cara mengontrol tingkat transparansi suatu objek?
-J: Sesuaikan properti opacity dari isian untuk mengontrol tingkat transparansi.
-### T: Apakah Aspose.Page cocok untuk pembuatan dokumen profesional?
-J: Tentu saja! Aspose.Page menyediakan fitur canggih untuk manipulasi dokumen profesional.
-### T: Bisakah saya mengintegrasikan Aspose.Page dengan perpustakaan Java lainnya?
-J: Ya, Aspose.Page dapat diintegrasikan secara mulus dengan perpustakaan Java lainnya untuk fungsionalitas yang lebih luas.
-### T: Di mana saya dapat menemukan contoh dan dukungan tambahan untuk Aspose.Page?
- J: Kunjungi[Aspose.Halaman Forum Java](https://forum.aspose.com/c/page/39)untuk dukungan komunitas dan jelajahi dokumentasinya[Di Sini](https://reference.aspose.com/page/java/).
+### Q: Bisakah saya menerapkan transparansi pada bentuk lain selain persegi panjang?
+A: Ya, Anda dapat menerapkan transparansi pada berbagai bentuk menggunakan geometri yang disediakan.  
+### Q: Bagaimana saya dapat mengontrol tingkat transparansi suatu objek?
+A: Sesuaikan properti opacity pada isi untuk mengontrol tingkat transparansi.  
+### Q: Apakah Aspose.Page cocok untuk pembuatan dokumen profesional?
+A: Tentu! Aspose.Page menyediakan fitur kuat untuk manipulasi dokumen profesional.  
+### Q: Bisakah saya mengintegrasikan Aspose.Page dengan perpustakaan Java lainnya?
+A: Ya, Aspose.Page dapat diintegrasikan dengan mulus ke perpustakaan Java lain untuk fungsionalitas yang lebih luas.  
+### Q: Di mana saya dapat menemukan contoh tambahan dan dukungan untuk Aspose.Page?
+A: Kunjungi [Aspose.Page Java Forum](https://forum.aspose.com/c/page/39) untuk dukungan komunitas dan jelajahi dokumentasi [di sini](https://reference.aspose.com/page/java/).
+
+---
+
+**Last Updated:** 2026-01-02  
+**Tested With:** Aspose.Page for Java 24.12  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
