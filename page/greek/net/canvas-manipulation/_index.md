@@ -67,13 +67,6 @@ weight: 21
 ### [Μετασχηματισμοί XPS με Aspose.Page for .NET](./transformationsxps/)
 Μετασχηματίστε έγγραφα XPS με ευκολία χρησιμοποιώντας το Aspose.Page for .NET. Ακολουθήστε τον βήμα‑βήμα οδηγό μας για απρόσκοπτους μετασχηματισμούς.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω αυτές τις τεχνικές σε ένα ASP.NET Core web API;**  
@@ -96,3 +89,10 @@ A: Για μεγάλα αρχεία PS/XPS, επεξεργαστείτε τις 
 **Τελευταία ενημέρωση:** 2026-01-02  
 **Δοκιμή με:** Aspose.Page for .NET 24.11  
 **Συγγραφέας:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

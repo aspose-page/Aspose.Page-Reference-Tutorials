@@ -65,13 +65,6 @@ weight: 21
 ### [تحويلات XPS باستخدام Aspose.Page for .NET](./transformationsxps/)
 حوّل مستندات XPS بسهولة باستخدام Aspose.Page for .NET. اتبع دليلنا خطوة بخطوة للحصول على تحويلات سلسة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## الأسئلة المتكررة
 
 **Q:** هل يمكنني استخدام هذه التقنيات في واجهة برمجة تطبيقات ويب ASP.NET Core؟  
@@ -94,3 +87,10 @@ weight: 21
 **آخر تحديث:** 2026-01-02  
 **تم الاختبار مع:** Aspose.Page for .NET 24.11  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

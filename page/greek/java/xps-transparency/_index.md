@@ -95,12 +95,6 @@ weight: 40
 Βελτιώστε τα Java XPS έγγραφά σας με εντυπωσιακά εφέ διαφάνειας χρησιμοποιώντας το Aspose.Page. Ακολουθήστε τον βήμα‑βήμα οδηγό για την προσθήκη διαφανών αντικειμένων. 
 ### [Set Opacity Mask in Java XPS](./set-opacity-mask/)
 Ανακαλύψτε τη δύναμη του ορισμού μασκών αδιαφάνειας σε Java XPS με το Aspose.Page. Ακολουθήστε τον βήμα‑βήμα οδηγό για μια οπτικά ενισχυμένη εμπειρία εγγράφου.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -109,3 +103,10 @@ weight: 40
 **Συγγραφέας:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -65,13 +65,6 @@ Mở khóa tiềm năng của Aspose.Page for .NET với hướng dẫn toàn di
 ### [Biến Đổi XPS với Aspose.Page for .NET](./transformationsxps/)
 Biến đổi tài liệu XPS một cách dễ dàng với Aspose.Page for .NET. Thực hiện các bước hướng dẫn của chúng tôi để thực hiện các biến đổi liền mạch.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Câu Hỏi Thường Gặp
 
 **Q: Tôi có thể sử dụng các kỹ thuật này trong ASP.NET Core web API không?**  
@@ -94,3 +87,10 @@ A: Đối với các tệp PS/XPS lớn, hãy xử lý từng trang một và gi
 **Cập nhật lần cuối:** 2026-01-02  
 **Kiểm tra với:** Aspose.Page for .NET 24.11  
 **Tác giả:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

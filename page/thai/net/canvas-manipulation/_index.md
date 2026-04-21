@@ -65,13 +65,6 @@ weight: 21
 ### [การแปลง XPS ด้วย Aspose.Page for .NET](./transformationsxps/)
 แปลงเอกสาร XPS อย่างไม่มีอุปสรรคด้วย Aspose.Page for .NET ทำตามคู่มือขั้นตอนของเราเพื่อการแปลงที่ราบรื่น
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## คำถามที่พบบ่อย
 
 **Q:** **Can I use these techniques in an ASP.NET Core web API?**  
@@ -94,3 +87,10 @@ weight: 21
 **Last Updated:** 2026-01-02  
 **Tested With:** Aspose.Page for .NET 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

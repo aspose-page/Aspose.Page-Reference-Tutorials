@@ -87,15 +87,16 @@ A: नवीनतम स्थिर रिलीज़ (2026 तक) पार
 Aspose.Page का उपयोग करके अपने Java XPS दस्तावेज़ों में शानदार पारदर्शिता प्रभाव जोड़ें। पारदर्शी ऑब्जेक्ट जोड़ने के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।  
 ### [Java XPS में अपारदर्शिता मास्क सेट करें](./set-opacity-mask/)
 Aspose.Page के साथ Java XPS में अपारदर्शिता मास्क सेट करने की शक्ति की खोज करें। दृश्य रूप से उन्नत दस्तावेज़ अनुभव के लिए हमारे चरण‑दर‑चरण गाइड का पालन करें।  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **अंतिम अपडेट:** 2026-01-02  
 **परीक्षण किया गया:** Aspose.Page for Java (latest 2026 release)  
 **लेखक:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

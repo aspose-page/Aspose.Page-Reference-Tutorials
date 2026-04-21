@@ -65,13 +65,6 @@ PostScript 変換に関する包括的なガイドで、Aspose.Page for .NET の
 ### [Transformations XPS with Aspose.Page for .NET](./transformationsxps/)
 Aspose.Page for .NET を使用して XPS ドキュメントを簡単に変換します。シームレスな変換のためのステップバイステップガイドをご利用ください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## よくある質問
 
 **Q: これらの手法を ASP.NET Core Web API で使用できますか？**  
@@ -94,3 +87,10 @@ A: 大きな PS/XPS ファイルの場合、ページ単位で処理し、各ペ
 **最終更新日:** 2026-01-02  
 **テスト環境:** Aspose.Page for .NET 24.11  
 **作者:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

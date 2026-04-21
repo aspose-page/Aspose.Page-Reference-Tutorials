@@ -95,12 +95,6 @@ A: A versão estável mais recente (até 2026) suporta totalmente os recursos de
 Aprimore seus documentos Java XPS com efeitos de transparência impressionantes usando Aspose.Page. Siga nosso guia passo a passo para adicionar objetos transparentes. 
 ### [Set Opacity Mask in Java XPS](./set-opacity-mask/)
 Descubra o poder de definir máscaras de opacidade em Java XPS com Aspose.Page. Siga nosso guia passo a passo para uma experiência de documento visualmente aprimorada.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -109,3 +103,10 @@ Descubra o poder de definir máscaras de opacidade em Java XPS com Aspose.Page. 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

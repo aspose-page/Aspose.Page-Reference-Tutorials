@@ -67,13 +67,6 @@ Nyissa ki az Aspose.Page for .NET lehetőségeit ebben az átfogó útmutatóban
 ### [Transformations XPS with Aspose.Page for .NET](./transformationsxps/)
 Alakítsa át az XPS dokumentumokat könnyedén az Aspose.Page for .NET‑el. Kövesse lépésről‑lépésre útmutatónkat a zökkenőmentes átalakításokhoz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Használhatom ezeket a technikákat egy ASP.NET Core web API‑ban?**  
@@ -96,3 +89,10 @@ A: Nagy PS/XPS fájloknál érdemes oldalanként feldolgozni, és minden oldal u
 **Utoljára frissítve:** 2026-01-02  
 **Tesztelt verzió:** Aspose.Page for .NET 24.11  
 **Szerző:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

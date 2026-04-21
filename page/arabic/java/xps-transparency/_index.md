@@ -96,15 +96,16 @@ weight: 40
 
 ### [تعيين قناع شفافية في Java XPS](./set-opacity-mask/)
 اكتشف قوة تعيين أقنعة الشفافية في Java XPS مع Aspose.Page. اتبع دليلنا خطوة بخطوة لتجربة مستند بصرية محسّنة.  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **آخر تحديث:** 2026-01-02  
 **تم الاختبار مع:** Aspose.Page for Java (أحدث إصدار 2026)  
 **المؤلف:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

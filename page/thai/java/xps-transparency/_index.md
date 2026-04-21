@@ -86,15 +86,16 @@ A: The latest stable release (as of 2026) fully supports transparency features. 
 
 ### [Set Opacity Mask in Java XPS](./set-opacity-mask/)
 ค้นพบพลังของการตั้งค่า opacity masks ใน Java XPS ด้วย Aspose.Page ทำตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อประสบการณ์เอกสารที่มีภาพสวยงามยิ่งขึ้น  
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **อัปเดตล่าสุด:** 2026-01-02  
 **ทดสอบกับ:** Aspose.Page for Java (latest 2026 release)  
 **ผู้เขียน:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

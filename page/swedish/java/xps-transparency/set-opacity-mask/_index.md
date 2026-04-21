@@ -14,35 +14,35 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ställ in opacitetsmask i Java XPS med Aspose.Page Java
+# Ställ i opacitetsmask i Java XPS med Aspose.Page Java
 
-## Introduction
+## Introduktion
 Välkommen till vår omfattande guide om **aspose page java** opacitetsmasker. I den här handledningen kommer du att lära dig hur du skapar ett XPS-dokument, lägger till en canvas och applicerar en opacitetsmask på en rektangel – allt med det kraftfulla Aspose.Page Java API:et. I slutet kommer du att kunna lägga till opacitetsmask‑rektanglar som ger dina XPS-filer ett polerat, halvgenomskinligt utseende.
 
-## Quick Answers
-- **What does an opacity mask do?** Vad gör en opacitetsmask? Den definierar varierande transparensnivåer för en form, så att underliggande innehåll kan visas igenom.  
-- **Which library is required?** Vilket bibliotek krävs? Aspose.Page for Java (aspose page java).  
-- **Do I need a license?** Behöver jag en licens? En tillfällig licens fungerar för testning; en full licens krävs för produktion.  
-- **How many lines of code?** Hur många kodrader? Ungefär 20 rader Java plus några installationssatser.  
-- **Can I reuse the mask on multiple shapes?** Kan jag återanvända masken på flera former? Ja, du kan tilldela samma ImageBrush till flera vägar.
+## Snabba svar
+- **Vad gör en opacitetsmask?** Vad gör en opacitetsmask? Den definierar varierande transparensnivåer för en form, så att underliggande innehåll kan visa igenom.
+- **Vilket bibliotek krävs?** Vilket bibliotek krävs? Aspose.Page för Java (aspose page java).
+- **Behöver jag en licens?** Behöver jag en licens? En tillfällig licens fungerar för testning; en fullständig licens krävs för produktion.
+- **Hur många rader kod?** Hur många kodrader? Ungefär 20 rader Java plus några installationssatser.
+- **Kan jag återanvända masken på flera former?** Kan jag återanvända masken på flera former? Ja, du kan tilldela samma ImageBrush till flera vägar.
 
-## What is an Opacity Mask in XPS?
-En opacitetsmask är en bitmap eller vektor som styr alfan (transparensen) för varje pixel i en form. När den appliceras på en rektangel blir delar av rektangeln helt ogenomskinliga, delvis genomskinliga eller helt genomskinliga, vilket skapar sofistikerade visuella effekter.
+## Vad är en opacitetsmask i XPS?
+En opacitetsmask är en bitmap eller vektor som styr alfan (transparens) för varje pixel i en form. När den appliceras på en rektangel blir delar av rektangeln helt ochenomskinliga, delvis genomskinliga eller helt genomskinliga, vilket skapar sofistikerade visuella effekter.
 
-## Why Use Aspose.Page Java for Opacity Masks?
-- **Full .NET‑style API in Java** – intuitiv objektmodell.  
-- **No external dependencies** – fungerar med ren Java.  
-- **High‑fidelity rendering** – maskerna renderas exakt enligt XPS‑specifikationen.  
-- **Cross‑platform** – körs på Windows, Linux eller macOS utan ändringar.
+## Varför använda Aspose.Page Java för opacitetsmasker?
+- **Fullständig .NET-stil API i Java** – intuitiv objektmodell.
+- **Inga externa beroenden** – fungerar med ren Java.
+- **High-fidelity rendering** – maskerna renderas exakt enligt XPS‑specifikationen.
+- **Cross-platform** – körs på Windows, Linux eller macOS utan ändringar.
 
-## Prerequisites
+## Förutsättningar
 Innan du börjar, se till att du har:
-- En grundläggande förståelse för Java‑programmering.  
-- Aspose.Page for Java‑biblioteket installerat. Du kan ladda ner det **[here](https://releases.aspose.com/page/java/)**.  
-- En giltig licens för Aspose.Page. Om du inte har en, skaffa en tillfällig licens **[here](https://purchase.aspose.com/temporary-license/)**.  
+- En grundläggande förståelse för Java‑programmering.
+- Aspose.Page för Java‑biblioteket installerat. Du kan ladda ner det **[här](https://releases.aspose.com/page/java/)**.
+- En giltig licens för Aspose.Page. Om du inte har en, skaffa en tillfällig licens **[här](https://purchase.aspose.com/temporary-license/)**.
 - En utvecklingsmiljö som kan kompilera och köra Java‑applikationer (t.ex. IntelliJ IDEA, Eclipse eller VS Code).
 
-## Import Packages
+## Importera paket
 Starta med att importera de nödvändiga klasserna från Aspose.Page‑biblioteket. Detta säkerställer att API:et är tillgängligt för ditt projekt.
 
 ```java
@@ -54,9 +54,9 @@ import com.aspose.xps.XpsTileMode;
 import java.awt.geom.Rectangle2D;
 ```
 
-## Step‑by‑Step Guide
+## Steg-för-steg-guide
 
-### Step 1: Create a New XPS Document
+### Steg 1: Skapa ett nytt XPS-dokument
 Först, instansiera ett nytt XPS‑dokument som kommer att innehålla all vår grafik.
 
 ```java
@@ -64,7 +64,7 @@ Först, instansiera ett nytt XPS‑dokument som kommer att innehålla all vår g
 XpsDocument doc = new XpsDocument();
 ```
 
-### Step 2: Add a Canvas
+### Steg 2: Lägg till en arbetsyta
 En canvas fungerar som en rityta inne i XPS‑sidan.
 
 ```java
@@ -72,7 +72,7 @@ En canvas fungerar som en rityta inne i XPS‑sidan.
 XpsCanvas canvas = doc.addCanvas();
 ```
 
-### Step 3: Add a Rectangle and Apply a Solid Fill
+### Steg 3: Lägg till en rektangel och applicera en helfyllning
 Här skapar vi en rektangelväg och ger den en solid röd fyllning. Denna rektangel kommer senare att få en opacitetsmask.
 
 ```java
@@ -81,7 +81,7 @@ XpsPath path = canvas.addPath(doc.createPathGeometry("M 10,180 L 228,180 228,285
 path.setFill(doc.createSolidColorBrush(doc.createColor(1.0f, 0.0f, 0.0f)));
 ```
 
-### Step 4: Add Opacity Mask Using an ImageBrush
+### Steg 4: Lägg till en opacitetsmask med en ImageBrush
 Vi laddar en TIFF‑bild, definierar käll‑ och destinationsrektanglar och sätter penseln till tile‑läge så att masken upprepas om det behövs.
 
 ```java
@@ -90,7 +90,7 @@ path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif",
 ((XpsImageBrush)path.getOpacityMask()).setTileMode(XpsTileMode.Tile);
 ```
 
-### Step 5: Save the Resultant XPS Document
+### Steg 5: Spara det resulterande XPS-dokumentet
 Slutligen sparar vi dokumentet till disk. Utdatafilen kommer att innehålla rektangeln med den applicerade opacitetsmasken.
 
 ```java
@@ -100,33 +100,33 @@ doc.save(dataDir + "OpacityMask_out.xps");
 
 Följ dessa steg noggrant för att integrera **add opacity mask**‑funktionalitet i ditt Java XPS‑dokument med Aspose.Page.
 
-## Common Issues & Troubleshooting
-- **Image not found** – Bilden hittades inte – Verifiera att `dataDir` pekar på rätt mapp och att `R08SY_NN.tif` finns.  
-- **Mask appears solid** – Masken ser solid ut – Säkerställ att källbilden faktiskt innehåller varierande alfa‑värden; en helt ogenomskinlig bild visar ingen transparens.  
+## Vanliga problem och felsökning
+- **Image not found** – Bilden hittades inte – Verifiera att `dataDir` pekar på rätt mapp och att `R08SY_NN.tif` finns.
+- **Mask appears solid** – Masken ser solid ut – Säkerställ att källbilden faktiskt innehåller varierande alfa‑värden; en helt ogenomskinlig bild visar ingen transparens.
 - **Tile mode not respected** – Tile‑läget respekteras inte – Destinationsrektangeln måste vara mindre än källrektangeln för att tiling ska märkas.
 
-## Frequently Asked Questions
+## Vanliga frågor
 
-**Q: Is Aspose.Page compatible with all Java development environments?**  
+**F: Är Aspose.Page kompatibel med alla Java-utvecklingsmiljöer?**
 A: Ja, Aspose.Page är designat för att fungera sömlöst med olika Java‑IDE:er och byggverktyg.
 
-**Q: Can I use Aspose.Page without a license?**  
-A: Även om du kan utvärdera biblioteket med en tillfällig licens, krävs en full licens för produktionsanvändning.
+**F: Kan jag använda Aspose.Page utan licens?**
+A: Även om du kan utvärdera biblioteket med en tillfällig licens, krävs en fullständig licens för produktionsanvändning.
 
-**Q: Are there any limitations on the trial version?**  
+**F: Finns det några begränsningar för testversionen?**
 A: Utvärderingsversionen kan ha storleks‑ eller funktionsbegränsningar; konsultera den officiella dokumentationen för detaljer.
 
-**Q: How can I get support for Aspose.Page?**  
+**F: Hur kan jag få support för Aspose.Page?**
 A: Besök **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** för community‑hjälp eller köp en licens för premium‑support.
 
-**Q: Is there a money‑back guarantee for Aspose.Page?**  
-A: Se **[purchase page](https://purchase.aspose.com/buy)** för information om återbetalningspolicy.
+**F: Finns det en pengarna-tillbaka-garanti för Aspose.Page?**
+A: Se **[köpsida](https://purchase.aspose.com/buy)** för information om återbetalningspolicy.
 
 ---
 
-**Last Updated:** 2026-01-02  
-**Tested With:** Aspose.Page Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Senast uppdaterad:** 2026-01-02
+**Testad med:** Aspose.Page Java 24.11 (senast i skrivande stund)
+**Författare:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

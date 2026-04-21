@@ -68,13 +68,6 @@ weight: 21
 ### [使用 Aspose.Page for .NET 轉換 XPS](./transformationsxps/)
 使用 Aspose.Page for .NET 輕鬆轉換 XPS 文件。遵循我們的逐步指南，完成順暢的轉換。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## 常見問題
 
 **Q: 我可以在 ASP.NET Core Web API 中使用這些技術嗎？**  
@@ -97,3 +90,10 @@ A: 對於大型 PS/XPS 檔案，建議逐頁處理，並在每頁完成後釋放
 **最後更新：** 2026-01-02  
 **測試環境：** Aspose.Page for .NET 24.11  
 **作者：** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

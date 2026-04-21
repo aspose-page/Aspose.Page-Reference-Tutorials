@@ -14,33 +14,33 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak dodać przezroczystość do dokumentów Java XPS
+# Jak przezroczystość do dokumentów Java XPS
 
-## Introduction
-Jeśli chcesz **dodać przezroczystość** do swoich dokumentów Java XPS i nadać im nowoczesny, warstwowy wygląd, Aspose.Page for Java ułatwia to zadanie. W tym samouczku przeprowadzimy Cię przez wszystko, czego potrzebujesz — od konfiguracji środowiska po tworzenie przezroczystych ścieżek, manipulację kryciem i ostateczne zapisanie wyniku. Po zakończeniu będziesz mógł dodać przezroczystość do dowolnego obiektu XPS z pewnością.
+## Wstęp
+Jeśli chcesz **dodać przezroczystość** do swoich dokumentów Java XPS i następuje im nowoczesny, warstwowy wygląd, Aspose.Page for Java ułatwiający zadanie. W tym samouczku przeprowadziliśmy Cię przez wszystko, co powstało — od tworzenia środowiska po tworzeniu przezroczystych technologii, manipulacji pokryciem i ostatecznego zapisanie wyniku. Po wydaniu wyroku można zgłosić sprawę XPS z naruszeniem.
 
-## Quick Answers
-- **Jakiej biblioteki wymaga?** Aspose.Page for Java  
-- **Czy mogę sterować kryciem programowo?** Tak, za pomocą metody `setOpacity` na pędzlu.  
-- **Czy potrzebna jest licencja do produkcji?** Wymagana jest licencja komercyjna do użytku nie‑ewaluacyjnego.  
-- **Która wersja Java jest wspierana?** Java 8 i nowsze.  
-- **Czy wynik jest kompatybilny ze standardowymi przeglądarkami XPS?** Absolutnie — standardowe przeglądarki prawidłowo renderują przezroczystość.
+## Szybkie odpowiedzi
+- **Jakiej biblioteki wymaga?** Aspose.Page dla Java
+- **Czy mogę sterować pokryciem programowym?** Tak, za pomocą metod `setOpacity` na pędzlu.
+- **Czy jest to licencja do produkcji?** Wymagana jest licencja komercyjna do użytku nieewaluacyjnego.
+- **Która wersja Java jest wspierana?** Java8 i nowsze.
+- **Czy wynik jest zgodny ze standardowymi przeglądarkami XPS?** Absolutnie — standardowe wyposażenie renderują przezroczystość.
 
-## What is transparency in XPS?
-Przezroczystość pozwala renderować obiekty o różnym stopniu krycia, umożliwiając prześwitywanie elementów tła. Efekt ten jest przydatny przy znakach wodnych, nakładkach graficznych lub w każdym projekcie, w którym warstwowe wizualizacje zwiększają czytelność.
+## Czym jest przezroczystość w XPS?
+Przezroczystość pozwala na renderowanie obiektów o zastosowaniu rozszerzonych pokryć, umożliwiając prześwitywanie elementów tła. Efekt ten jest źródłem przy znakach wodnych, nakładach na ekranach lub w każdym przypadku, z warstwowymi wizualizacjami zapewniającymi czytelność.
 
-## Why use Aspose.Page for adding transparency?
-- **Pełna kontrola** nad geometrią, pędzlami i transformacjami.  
-- **Brak zewnętrznych zależności** — wszystko obsługiwane jest wewnątrz API.  
-- **Wsparcie wieloplatformowe**, dzięki czemu ten sam kod działa na Windows, Linux i macOS.  
+## Dlaczego warto używać Aspose.Page do dodawania przezroczystości?
+- **Pełna kontrola** nad geometrią, pędzlami i transformacjami.
+- **Brak zewnętrznego wpływu** — wszystko odprowadzane jest wewnątrz API.
+- **Wsparcie wieloplatformowe**, dzięki któremu dziesięć kodów działa na Windows, Linux i macOS.
 
-## Prerequisites
-Zanim zaczniemy, upewnij się, że masz:
+## Warunki wstępne
+Zanim uruchomimy, wykonamy, że masz:
 
-- Środowisko programistyczne Java (JDK 8+).  
-- Zainstalowaną bibliotekę Aspose.Page for Java. Możesz ją pobrać z oficjalnej strony [tutaj](https://releases.aspose.com/page/java/).
+- Środowisko programistyczne Java (JDK8+).
+- Zainstalowana bibliotekę Aspose.Page dla Java. Możesz ją zabrać z strony [tutaj](https://releases.aspose.com/page/java/).
 
-## Import Packages
+## Importuj pakiety
 W swoim projekcie Java zaimportuj niezbędne pakiety Aspose.Page, aby rozpocząć dodawanie przezroczystych obiektów. Dołącz następujące linie na początku pliku Java:
 
 ```java
@@ -51,7 +51,7 @@ import java.awt.Color;
 
 Teraz rozbijmy przykładowy kod na kilka kroków.
 
-## Step 1: Initialize the Document
+## Krok 1: Zainicjuj dokument
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -60,7 +60,7 @@ XpsDocument doc = new XpsDocument();
 ```
 Rozpocznij od skonfigurowania dokumentu i określenia katalogu, w którym zostanie zapisany dokument XPS.
 
-## Step 2: Create Transparent Objects
+## Krok 2: Utwórz obiekty przezroczyste
 ```java
 // Just to demonstrate transparency
 doc.addPath(doc.createPathGeometry("M120,0 H400 v1000 H120")).setFill(doc.createSolidColorBrush(Color.GRAY));
@@ -79,7 +79,7 @@ XpsPath path2 = doc.add(path1);
 ```
 W tym kroku tworzymy solidny niebieski prostokąt i umieszczamy go na stronie. Ten prostokąt zostanie później pokryty przezroczystymi kształtami, ilustrując efekt.
 
-## Step 4: Manipulate Transparency
+## Krok 4: Manipuluj przezroczystością
 ```java
 // path1 and path2 are the same as long as path1 hasn't been placed inside any other element
 path2.setFill(doc.createSolidColorBrush(Color.GREEN));
@@ -90,7 +90,7 @@ path3.setFill(doc.createSolidColorBrush(Color.RED));
 ```
 Tutaj zmieniamy kolor wypełnienia zduplikowanej ścieżki i stosujemy transformację translacji. To pokazuje, jak przezroczystość działa, gdy obiekty współdzielą element nadrzędny.
 
-## Step 5: Duplicate and Modify Paths
+## Krok 5: Duplikuj i modyfikuj ścieżki
 ```java
 // Create new path4 with path2's geometry
 XpsPath path4 = doc.addPath(path2.getData());
@@ -104,7 +104,7 @@ path5.getFill().setOpacity(0.8f);
 ```
 Klonujemy istniejącą ścieżkę, przesuwamy ją i ustawiamy krycie na 0,8 (80 % nieprzezroczyste). Ten krok pokazuje, jak można ponownie wykorzystać geometrię, dostosowując przezroczystość dla każdej instancji.
 
-## Step 6: Save the Document
+## Krok 6: Zapisz dokument
 ```java
 // Save the modified document
 doc.save(dataDir + "WorkingWithTransparency_out.xps");
@@ -116,23 +116,23 @@ Na koniec zapisujemy plik XPS. Otwórz powstały plik w dowolnym przeglądarce X
 - **Transformacja nie zastosowana?** Sprawdź, czy wywołujesz `setRenderTransform` **przed** dodaniem ścieżki do dokumentu.  
 - **Wskazówka dotycząca wydajności:** Ponownie używaj obiektów geometrii przy tworzeniu wielu podobnych kształtów, aby zmniejszyć zużycie pamięci.
 
-## Frequently Asked Questions
-### Q: Czy mogę zastosować przezroczystość do innych kształtów niż prostokąty?
-A: Tak, możesz zastosować przezroczystość do różnych kształtów, używając dostarczonych geometrii.  
+## Często zadawane pytania
+### Q: Czy mogę wykryć przezroczystość do innych kształtów niż ideały?
+A: Tak, można określić przezroczystość do różnych kształtów, wykorzystując dane geometryczne.
 ### Q: Jak mogę kontrolować poziom przezroczystości obiektu?
-A: Dostosuj właściwość krycia (opacity) wypełnienia, aby kontrolować poziom przezroczystości.  
-### Q: Czy Aspose.Page nadaje się do profesjonalnego tworzenia dokumentów?
-A: Absolutnie! Aspose.Page oferuje solidne funkcje do profesjonalnej manipulacji dokumentami.  
-### Q: Czy mogę zintegrować Aspose.Page z innymi bibliotekami Java?
-A: Tak, Aspose.Page może być płynnie zintegrowany z innymi bibliotekami Java w celu rozszerzenia funkcjonalności.  
+A: Dostosuj pokrycie (nieprzezroczystość) wypełnienia, aby kontrolować poziom przezroczystości.
+### P: Czy Aspose.Page nadaje się do profesjonalnego tworzenia dokumentów?
+O: Absolutnie! Aspose.Page oferuje solidne funkcje do profesjonalnej manipulacji dokumentami.
+### Q: Czy można zintegrować Aspose.Page z innymi bibliotekami Java?
+A: Tak, Aspose.Page może być płynnie udostępniany z innymi bibliotekami Java w celu udostępniania.
 ### Q: Gdzie mogę znaleźć dodatkowe przykłady i wsparcie dla Aspose.Page?
-A: Odwiedź [Aspose.Page Java Forum](https://forum.aspose.com/c/page/39) w celu uzyskania wsparcia społeczności oraz zapoznaj się z dokumentacją [tutaj](https://reference.aspose.com/page/java/).
+A: Odwiedź [Aspose.Page Java Forum](https://forum.aspose.com/c/page/39) w celu tworzenia wsparcia społeczności oraz zapoznaj się z dokumentacją [tutaj](https://reference.aspose.com/page/java/).
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-02  
-**Testowano z:** Aspose.Page for Java 24.12  
-**Autor:** Aspose  
+**Aktualizacja Ostatnia:** 2026-01-02
+**Testowano z:** Aspose.Page dla Java 24.12
+**Autor:** Asponuj 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

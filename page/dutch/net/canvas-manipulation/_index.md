@@ -67,13 +67,6 @@ Ontgrendel het potentieel van Aspose.Page for .NET met deze uitgebreide gids ove
 ### [Transformaties XPS met Aspose.Page for .NET](./transformationsxps/)
 Transformeer XPS‑documenten moeiteloos met Aspose.Page for .NET. Volg onze stap‑voor‑stap gids voor naadloze transformaties.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Veelgestelde vragen
 
 **Q: Kan ik deze technieken gebruiken in een ASP.NET Core web‑API?**  
@@ -96,3 +89,10 @@ A: Voor grote PS/XPS‑bestanden verwerk je pagina’s afzonderlijk en geef je b
 **Laatst bijgewerkt:** 2026-01-02  
 **Getest met:** Aspose.Page for .NET 24.11  
 **Auteur:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

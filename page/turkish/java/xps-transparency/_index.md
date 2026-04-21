@@ -87,15 +87,16 @@ C: En son kararlı sürüm (2026 itibarıyla) şeffaflık özelliklerini tam ola
 Aspose.Page kullanarak Java XPS belgelerinizi çarpıcı şeffaflık efektleriyle geliştirin. Şeffaf nesneler eklemek için adım adım rehberimizi izleyin. 
 ### [Java XPS'te Opaklık Maskesi Ayarlama](./set-opacity-mask/)
 Aspose.Page ile Java XPS'te opaklık maskesi ayarlamanın gücünü keşfedin. Görsel olarak zenginleştirilmiş bir belge deneyimi için adım adım rehberimizi izleyin.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Son Güncelleme:** 2026-01-02  
 **Test Edilen:** Aspose.Page for Java (2026'nın en son sürümü)  
 **Yazar:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
