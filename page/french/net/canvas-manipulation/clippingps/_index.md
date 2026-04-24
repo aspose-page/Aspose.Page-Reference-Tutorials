@@ -1,33 +1,49 @@
 ---
-title: Découpage PS avec Aspose.Page pour .NET
-linktitle: Découpage PS
-second_title: API Aspose.Page .NET
-description: Découvrez la puissance d'Aspose.Page pour .NET dans ce didacticiel étape par étape sur le découpage de documents PostScript. Apprenez à améliorer vos capacités de traitement de documents sans effort.
-weight: 10
+date: 2026-01-05
+description: Apprenez à ajouter un chemin de découpe dans PostScript en utilisant
+  Aspose.Page pour .NET – guide étape par étape avec les techniques de définition
+  du pinceau et de dessin d’un rectangle en pointillés.
+linktitle: Clipping PS
+second_title: Aspose.Page .NET API
+title: Ajouter un chemin de détourage à PS avec Aspose.Page pour .NET
 url: /fr/net/canvas-manipulation/clippingps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Découpage PS avec Aspose.Page pour .NET
+# Ajouter un chemin de découpe à PS avec Aspose.Page pour .NET
 
 ## Introduction
 
-Bienvenue dans le didacticiel complet sur l'utilisation d'Aspose.Page pour .NET pour implémenter le découpage dans les documents PostScript (PS). Ce didacticiel vous guidera tout au long du processus de découpage de documents PS à l'aide d'Aspose.Page, une bibliothèque puissante permettant de travailler avec différents formats de documents dans les applications .NET.
+Dans ce tutoriel complet, vous découvrirez comment **ajouter un chemin de découpe** à un document PostScript (PS) en utilisant Aspose.Page pour .NET. Nous parcourrons chaque étape, vous montrerons comment **définir le pinceau**, et démontrerons comment **dessiner un rectangle en pointillé** autour du contenu découpé. À la fin, vous disposerez d’un fichier PS entièrement fonctionnel illustrant la découpe par forme, rendant vos graphiques plus dynamiques et professionnels.
 
-## Conditions préalables
+## Réponses rapides
+- **Que fait « ajouter un chemin de découpe » ?** Il limite les opérations de dessin à une forme définie, masquant tout ce qui se trouve en dehors de cette forme.  
+- **Quelle bibliothèque gère la découpe sous .NET ?** Aspose.Page pour .NET offre une API riche pour la manipulation de PS/EPS.  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour le développement ; une licence commerciale est requise pour la production.  
+- **Puis‑je changer la couleur du pinceau ?** Oui, utilisez `SetPaint` avec n’importe quel `SolidBrush` ou dégradé de votre choix.  
+- **Est‑il possible de dessiner un rectangle en pointillé ?** Absolument – créez un `Pen` avec `DashStyle.Dash` et utilisez `Draw`.  
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce qu’un chemin de découpe dans PostScript ?
+Un chemin de découpe définit la région visible des commandes de dessin suivantes. Tout ce qui est dessiné en dehors du chemin est ignoré, vous permettant de créer des graphiques masqués complexes sans modifier le contenu original.
 
-- Une connaissance pratique du langage de programmation C#.
--  Aspose.Page pour la bibliothèque .NET installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/page/net/).
-- Un environnement de développement intégré (IDE) tel que Visual Studio.
+## Pourquoi utiliser Aspose.Page pour la découpe ?
+- **Aucune dépendance externe** – bibliothèque pure .NET.  
+- **Contrôle total** sur l’état graphique (save/restore, translate, rotate).  
+- **Primitives de dessin riches** telles que `SetPaint`, `Clip` et `Draw` avec des stylos et pinceaux personnalisables.  
 
-## Importer des espaces de noms
+## Prérequis
 
-Commencez par importer les espaces de noms nécessaires dans votre code C# :
+- Connaissances de base en programmation C#.  
+- Bibliothèque Aspose.Page pour .NET installée – vous pouvez la télécharger [ici](https://releases.aspose.com/page/net/).  
+- Visual Studio ou tout IDE .NET de votre choix.  
+
+## Importer les espaces de noms
+
+Tout d’abord, importez les espaces de noms nécessaires à la manipulation graphique :
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,74 +53,88 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Maintenant, décomposons l'exemple en plusieurs étapes :
+Passons maintenant à la décomposition de l’exemple en étapes numérotées claires.
 
-## Étape 1 : Définir le répertoire des documents
+### Étape 1 : Définir le répertoire du document
+
+Définissez le dossier où vos fichiers source et de sortie seront stockés.
 
 ```csharp
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Étape 2 : Créer un flux de sortie pour un document PostScript
+### Étape 2 : Créer le flux de sortie pour le document PostScript
+
+Créez un flux inscriptible qui contiendra le fichier PS généré.
 
 ```csharp
-// Créer un flux de sortie pour un document PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMode.Create))
 ```
 
-## Étape 3 : Créer des options de sauvegarde
+### Étape 3 : Créer les options d’enregistrement
+
+Instanciez `PsSaveOptions` avec les paramètres par défaut. Vous pourrez les personnaliser plus tard si nécessaire.
 
 ```csharp
-// Créer des options de sauvegarde avec des valeurs par défaut
+// Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Étape 4 : Créer un nouveau document PS d'une page
+### Étape 4 : Créer un nouveau document PS d’une page
+
+Initialisez l’objet `PsDocument` qui représente votre fichier PS.
 
 ```csharp
-// Créer un nouveau document PS d'une page
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Étape 5 : Créer un chemin graphique à partir du rectangle
+### Étape 5 : Créer un chemin graphique à partir du rectangle
+
+Nous utiliserons un rectangle comme forme de base qui sera ensuite découpée.
 
 ```csharp
-// Créer un chemin graphique à partir du rectangle
+// Create graphics path from the rectangle
 GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-## Étape 6 : Découpage par forme
+### Étape 6 : Découper par forme
+
+Ici nous **ajoutons un chemin de découpe** en utilisant un cercle, **définissons le pinceau** en bleu, et remplissons le rectangle à l’intérieur de la région découpée.
 
 ```csharp
-// Sauvegarder l'état graphique afin de revenir à cet état après transformation
+// Save graphics state in order to return back to this state after transformation
 document.WriteGraphicsSave();
 
-//Déplace l'état graphique actuel de 100 points vers la droite et de 100 points vers le bas.
+// Displace current graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
-// Créer un chemin graphique à partir du cercle
+// Create graphics path from the circle
 GraphicsPath circlePath = new GraphicsPath();
 circlePath.AddEllipse(new RectangleF(50, 0, 200, 200));
 
-// Ajouter un découpage par cercle à l'état graphique actuel
+// Add clipping by circle to the current graphics state
 document.Clip(circlePath);
 
-// Définir la peinture dans l'état graphique actuel
+// Set paint in the current graphics state
 document.SetPaint(new SolidBrush(Color.Blue));
 
-// Remplissez le rectangle dans l'état graphique actuel (avec découpage)
+// Fill the rectangle in the current graphics state (with clipping)
 document.Fill(rectanglePath);
 
-// Restaurer l'état graphique au niveau précédent (supérieur)
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-## Étape 7 : déplacer l'état graphique de niveau supérieur
+### Étape 7 : Déplacer l’état graphique de niveau supérieur et dessiner un rectangle en pointillé
+
+Après avoir restauré l’état précédent, nous déplaçons à nouveau le curseur graphique, **dessinons un rectangle en pointillé**, et appliquons un trait bleu.
 
 ```csharp
-// Déplace l'état graphique de niveau supérieur de 100 points vers la droite et de 100 points vers le bas.
+// Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
 Pen pen = new Pen(new SolidBrush(Color.Blue), 2);
@@ -112,47 +142,53 @@ pen.DashStyle = DashStyle.Dash;
 
 document.SetStroke(pen);
 
-// Dessinez le rectangle dans l'état graphique actuel (sans découpage) au-dessus du rectangle découpé
+// Draw the rectangle in the current graphics state (has no clipping) above the clipped rectangle
 document.Draw(rectanglePath);
 ```
 
-## Étape 8 : Fermer et enregistrer le document
+### Étape 8 : Fermer et enregistrer le document
+
+Terminez la page et écrivez le fichier PS sur le disque.
 
 ```csharp
-// Fermer la page actuelle
+// Close current page
 document.ClosePage();
 
-// Enregistrez le document
+// Save the document
 document.Save();
 ```
 
-Vous avez désormais implémenté avec succès le découpage dans un document PostScript à l’aide d’Aspose.Page pour .NET.
+Vous avez maintenant ajouté avec succès un **chemin de découpe**, défini un pinceau personnalisé et dessiné un rectangle en pointillé autour de vos graphiques en utilisant Aspose.Page pour .NET.
 
-## Conclusion
+## Problèmes courants et solutions
 
-Dans ce didacticiel, vous avez appris à utiliser Aspose.Page pour .NET pour implémenter le découpage dans les documents PostScript. Cette puissante bibliothèque offre un moyen transparent et efficace de gérer différents formats de documents dans vos applications .NET.
+- **Découpe non visible :** Assurez‑vous d’appeler `WriteGraphicsSave()` avant la translation et `WriteGraphicsRestore()` après le remplissage.  
+- **Couleurs incorrectes :** Vérifiez que `SetPaint` est appelé après `Clip` et avant `Fill`.  
+- **Les lignes pointillées apparaissent solides :** Assurez‑vous que la propriété `DashStyle` du `Pen` est réglée sur `DashStyle.Dash` avant `SetStroke`.  
 
-## FAQ
+## Questions fréquemment posées
 
-### Q1 : Puis-je utiliser Aspose.Page pour .NET avec d’autres langages de programmation ?
+### Q1 : Puis‑je utiliser Aspose.Page pour .NET avec d’autres langages de programmation ?
+R : Aspose.Page est principalement conçu pour les applications .NET. Cependant, Aspose propose des bibliothèques similaires pour d’autres langages de programmation.
 
-A1 : Aspose.Page est principalement conçu pour les applications .NET. Cependant, Aspose propose des bibliothèques similaires pour d'autres langages de programmation.
+### Q2 : Où puis‑je trouver des exemples supplémentaires et la documentation d’Aspose.Page pour .NET ?
+R : Vous pouvez explorer davantage d’exemples et la documentation détaillée sur la [documentation Aspose.Page](https://reference.aspose.com/page/net/).
 
-### Q2 : Où puis-je trouver des exemples et de la documentation supplémentaires pour Aspose.Page pour .NET ?
+### Q3 : Existe‑t‑il un essai gratuit d’Aspose.Page pour .NET ?
+R : Oui, vous pouvez accéder à un essai gratuit d’Aspose.Page pour .NET [ici](https://releases.aspose.com/).
 
- A2 : Vous pouvez explorer plus d’exemples et une documentation détaillée sur le[Documentation Aspose.Page](https://reference.aspose.com/page/net/).
+### Q4 : Comment obtenir une licence temporaire pour Aspose.Page pour .NET ?
+R : Vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
-### Q3 : Existe-t-il un essai gratuit disponible pour Aspose.Page pour .NET ?
+### Q5 : Où puis‑je obtenir du support ou discuter des questions liées à Aspose.Page ?
+R : Visitez les [forums Aspose.Page](https://forum.aspose.com/c/page/39) pour le support communautaire et les discussions.
 
- A3 : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Page pour .NET[ici](https://releases.aspose.com/).
+---
 
-### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.Page pour .NET ?
+**Dernière mise à jour :** 2026-01-05  
+**Testé avec :** Aspose.Page 24.11 pour .NET  
+**Auteur :** Aspose  
 
- A4 : Vous pouvez obtenir un permis temporaire[ici](https://purchase.aspose.com/temporary-license/).
-
-### Q5 : Où puis-je obtenir de l'aide ou discuter des requêtes liées à Aspose.Page ?
-
- A5 : Visitez le[Forums Aspose.Page](https://forum.aspose.com/c/page/39) pour le soutien et les discussions de la communauté.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

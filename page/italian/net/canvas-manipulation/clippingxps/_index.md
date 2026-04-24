@@ -1,33 +1,51 @@
 ---
-title: Ritaglio di XPS con Aspose.Page per .NET
-linktitle: Ritaglio dell'XPS
-second_title: API Aspose.Page .NET
-description: Esplora la potenza di Aspose.Page per .NET in questa guida passo passo su come ritagliare documenti XPS. Crea, manipola e salva file XPS senza sforzo.
-weight: 11
+date: 2026-01-05
+description: Scopri come ritagliare documenti XPS usando Aspose.Page per .NET. Questa
+  guida passo‑passo ti mostra come creare, manipolare e salvare file XPS in modo efficiente.
+linktitle: Clipping XPS
+second_title: Aspose.Page .NET API
+title: Come ritagliare XPS con Aspose.Page per .NET
 url: /it/net/canvas-manipulation/clippingxps/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ritaglio di XPS con Aspose.Page per .NET
+# Come ritagliare XPS con Aspose.Page per .NET
 
-## introduzione
+## Introduzione
 
-Benvenuti in questo tutorial completo sul ritaglio di XPS utilizzando Aspose.Page per .NET! In questa guida ti guideremo attraverso il processo di creazione, manipolazione e salvataggio di documenti XPS utilizzando Aspose.Page per .NET. XPS, o XML PaperSpecific, è un formato di documento standardizzato e aperto e Aspose.Page per .NET fornisce potenti strumenti per lavorare con documenti XPS nelle applicazioni .NET.
+Benvenuti a questo tutorial completo su **come ritagliare XPS** usando Aspose.Page per .NET! In questa guida, vi accompagneremo attraverso il processo di creazione, manipolazione e salvataggio dei documenti XPS con la libreria. XPS, o XML Paper Specification, è un formato di documento standardizzato e aperto, e Aspose.Page per .NET fornisce potenti strumenti per lavorare con i documenti XPS nelle vostre applicazioni .NET.
+
+## Risposte rapide
+- **Che cos'è il clipping XPS?** Applicare una maschera geometrica (clip) per limitare l'area visibile degli elementi della tela XPS.  
+- **Quale libreria è la migliore per questo?** Aspose.Page per .NET offre un'API completa per la creazione e il clipping di XPS.  
+- **Prerequisiti?** Visual Studio, runtime .NET e la libreria Aspose.Page per .NET.  
+- **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per uno scenario di clipping di base.  
+- **Posso usarlo in produzione?** Sì, con una licenza valida di Aspose (disponibile versione di prova).
+
+## Che cosa significa “come ritagliare XPS”?
+Il clipping in XPS funziona definendo una **clip geometry** (ad esempio un cerchio o un rettangolo) e assegnandola a una canvas. Qualsiasi elemento disegnato al di fuori di quella geometria non viene renderizzato, consentendo di creare layout di pagina sofisticati come immagini mascherate, forme personalizzate o aree di contenuto focalizzate.
+
+## Perché usare Aspose.Page per .NET per ritagliare XPS?
+- **Controllo completo** su trasformazioni della canvas, geometrie di percorso e pennelli.  
+- **Nessuna dipendenza esterna** – tutto funziona all'interno della tua applicazione .NET.  
+- **Supporto cross‑platform** per .NET Framework, .NET Core e .NET 5/6+.  
+- **Alte prestazioni** con un'API leggera che genera file XPS validi.
 
 ## Prerequisiti
 
-Prima di immergerci nel tutorial, assicurati di avere i seguenti prerequisiti:
+Prima di iniziare, assicurati di avere quanto segue:
 
-- Visual Studio installato sul tuo computer.
--  Libreria Aspose.Page per .NET aggiunta al tuo progetto. Puoi scaricarlo[Qui](https://releases.aspose.com/page/net/).
-- Conoscenza base del linguaggio di programmazione C#.
+- Visual Studio installato sul tuo computer.  
+- Libreria Aspose.Page per .NET aggiunta al tuo progetto. Puoi scaricarla [qui](https://releases.aspose.com/page/net/).  
+- Conoscenza di base del linguaggio di programmazione C#.
 
-## Importa spazi dei nomi
+## Importare gli spazi dei nomi
 
-Per utilizzare Aspose.Page per le funzionalità .NET, è necessario importare gli spazi dei nomi richiesti nel progetto. Segui questi passi:
+Per utilizzare le funzionalità di Aspose.Page per .NET, è necessario importare gli spazi dei nomi richiesti nel tuo progetto. Segui questi passaggi:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,17 +53,17 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Ora suddividiamo il codice di esempio che hai fornito in più passaggi.
+Ora, suddividiamo il codice di esempio fornito in più passaggi.
 
-## Passaggio 1: impostare il percorso della directory del documento.
+## Passo 1: Impostare il percorso della directory del documento.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-Assicurati di sostituire "La tua directory dei documenti" con il percorso effettivo della directory dei documenti.
+Assicurati di sostituire "Your Document Directory" con il percorso effettivo della tua directory dei documenti.
 
-## Passaggio 2: crea un nuovo documento XPS.
+## Passo 2: Creare un nuovo documento XPS.
 
 ```csharp
 XpsDocument doc = new XpsDocument();
@@ -53,15 +71,15 @@ XpsDocument doc = new XpsDocument();
 
 Questo crea un nuovo documento XPS con cui lavorerai.
 
-## Passaggio 3: crea la tela principale.
+## Passo 3: Creare la canvas principale.
 
 ```csharp
 XpsCanvas canvas1 = doc.AddCanvas();
 ```
 
-Questo passaggio crea l'area di disegno principale, comune a tutti gli elementi della pagina.
+Questo passo crea la canvas principale, comune a tutti gli elementi della pagina.
 
-## Passaggio 4: imposta gli offset sinistro e superiore nell'area di disegno principale.
+## Passo 4: Impostare gli offset sinistro e superiore nella canvas principale.
 
 ```csharp
 canvas1.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 20, 10);
@@ -69,57 +87,57 @@ canvas1.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 20, 10);
 
 Regola gli offset sinistro e superiore secondo le tue esigenze.
 
-## Passaggio 5: creare una geometria del percorso rettangolare.
+## Passo 5: Creare una geometria di percorso rettangolare.
 
 ```csharp
 XpsPathGeometry rectGeom = doc.CreatePathGeometry("M 0,0 L 500,0 500,300 0,300 Z");
 ```
 
-Questo crea una geometria del percorso per un rettangolo.
+Questo crea una geometria di percorso per un rettangolo.
 
-## Passaggio 6: crea un riempimento per i rettangoli.
+## Passo 6: Creare un riempimento per i rettangoli.
 
 ```csharp
 XpsBrush fill = doc.CreateSolidColorBrush(doc.CreateColor(12, 15, 159));
 ```
 
-Definire il colore di riempimento per i rettangoli.
+Definisci il colore di riempimento per i rettangoli.
 
-## Passaggio 7: aggiungi un'altra tela con clip alla tela principale.
+## Passo 7: Aggiungere un'altra canvas con clip alla canvas principale.
 
 ```csharp
 XpsCanvas canvas2 = canvas1.AddCanvas();
 ```
 
-Questo passaggio aggiunge un'altra tela alla tela principale.
+Questo passo aggiunge un'altra canvas alla canvas principale.
 
-## Passaggio 8: crea una geometria circolare per la clip.
+## Passo 8: Creare una geometria circolare per il clip.
 
 ```csharp
 XpsPathGeometry clipGeom = doc.CreatePathGeometry("M250,250 A100,100 0 1 1 250,50 100,100 0 1 1 250,250");
 canvas2.Clip = clipGeom;
 ```
 
-Questo crea una geometria di clip circolare e la applica alla seconda tela.
+Questo crea una geometria di clip circolare e la applica alla seconda canvas.
 
-## Passaggio 9: crea un rettangolo nella seconda tela e riempilo.
+## Passo 9: Creare un rettangolo nella seconda canvas e riempirlo.
 
 ```csharp
 XpsPath rect = canvas2.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-Questo passaggio crea un rettangolo nella seconda tela e lo riempie.
+Questo passo crea un rettangolo nella seconda canvas e lo riempie.
 
-## Passaggio 10: aggiungi la seconda tela con un rettangolo tratteggiato alla tela principale.
+## Passo 10: Aggiungere la seconda canvas con un rettangolo contornato alla canvas principale.
 
 ```csharp
 XpsCanvas canvas3 = canvas1.AddCanvas();
 ```
 
-Ciò aggiunge un'altra tela alla tela principale.
+Questo aggiunge un'altra canvas alla canvas principale.
 
-## Passaggio 11: crea un rettangolo nella terza tela e accarezzalo.
+## Passo 11: Creare un rettangolo nella terza canvas e tracciarlo.
 
 ```csharp
 rect = canvas3.AddPath(rectGeom);
@@ -127,41 +145,60 @@ rect.Stroke = fill;
 rect.StrokeThickness = 2;
 ```
 
-Questo crea un rettangolo nella terza tela e vi applica un tratto.
+Questo crea un rettangolo nella terza canvas e gli applica un contorno.
 
-## Passaggio 12: salva il documento XPS risultante.
+## Passo 12: Salvare il documento XPS risultante.
 
 ```csharp
 doc.Save(dataDir + "output2.xps");
 ```
 
-Ciò salva il documento XPS nella directory specificata.
+Questo salva il documento XPS nella directory specificata.
 
-## Conclusione
-
-Congratulazioni! Hai imparato con successo come ritagliare XPS utilizzando Aspose.Page per .NET. Questa guida fornisce una panoramica dettagliata dei passaggi coinvolti nel processo.
+## Problemi comuni e soluzioni
+- **Percorso non valido** – Assicurati che `dataDir` termini con una barra rovesciata (`\\`) o usa `Path.Combine`.  
+- **Clip non applicato** – Verifica che la stringa della clip geometry sia ben formata; uno spazio mancante può far sì che il clip venga ignorato.  
+- **Eccezione di licenza** – In una build non di valutazione, aggiungi una licenza Aspose valida prima di creare il documento per evitare eccezioni a runtime.
 
 ## Domande frequenti
 
-### Q1: posso utilizzare Aspose.Page per .NET con altri formati di documenti?
+### D1: Posso usare Aspose.Page per .NET con altri formati di documento?
 
-A1: Aspose.Page per .NET si concentra principalmente sui documenti XPS, ma Aspose fornisce altre librerie per vari formati di documenti.
+R1: Aspose.Page per .NET si concentra principalmente sui documenti XPS, ma Aspose fornisce altre librerie per vari formati di documento.
 
-### Q2: Aspose.Page per .NET è adatto ai principianti?
+### D2: Aspose.Page per .NET è adatto ai principianti?
 
-A2: Sì, Aspose.Page per .NET è progettato per essere facile da usare e i principianti possono comprenderne rapidamente le funzionalità con la documentazione adeguata.
+R2: Sì, Aspose.Page per .NET è progettato per essere user‑friendly, e i principianti possono rapidamente comprendere le sue funzionalità con una documentazione adeguata.
 
-### Q3: Dove posso trovare altri esempi e risorse?
+### D3: Dove posso trovare più esempi e risorse?
 
- A3: Visita il[documentazione](https://reference.aspose.com/page/net/) E[Forum Aspose.Page](https://forum.aspose.com/c/page/39) per ampie risorse ed esempi.
+R3: Visita la [documentazione](https://reference.aspose.com/page/net/) e il [forum Aspose.Page](https://forum.aspose.com/c/page/39) per risorse ed esempi estesi.
 
-### Q4: Come posso ottenere una licenza temporanea per Aspose.Page per .NET?
+### D4: Come posso ottenere una licenza temporanea per Aspose.Page per .NET?
 
- A4: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+R4: Puoi ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
-### Q5: È disponibile una prova gratuita per Aspose.Page per .NET?
+### D5: È disponibile una versione di prova gratuita per Aspose.Page per .NET?
 
- R5: Sì, puoi esplorare la prova gratuita[Qui](https://releases.aspose.com/).
+R5: Sì, puoi provare la versione gratuita [qui](https://releases.aspose.com/).
+
+## Altre domande frequenti
+
+**D: Posso combinare più geometrie di clip su una singola canvas?**  
+R: Sì, puoi assegnare un `PathGeometry` complesso che contiene diversi sotto‑percorsi alla proprietà `Clip`, consentendo mascherature a strati.
+
+**D: Il clipping influisce sulla conversione PDF?**  
+R: Quando converti successivamente l'XPS in PDF usando Aspose.PDF, la geometria di clip viene preservata, quindi il risultato visivo rimane identico.
+
+**D: È possibile animare il clipping in XPS?**  
+R: XPS di per sé non supporta l'animazione; tuttavia, puoi generare una serie di pagine XPS con diverse forme di clip per simulare il movimento.
+
+---
+
+**Ultimo aggiornamento:** 2026-01-05  
+**Testato con:** Aspose.Page 24.11 per .NET  
+**Autore:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

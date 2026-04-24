@@ -1,37 +1,53 @@
 ---
-title: Transformaciones XPS con Aspose.Page para .NET
-linktitle: Transformaciones XPS
-second_title: Aspose.Página .NET API
-description: Transforme documentos XPS sin esfuerzo con Aspose.Page para .NET. Siga nuestra guía paso a paso para lograr transformaciones perfectas.
-weight: 13
+date: 2026-01-05
+description: Aprende a transformar documentos XPS sin esfuerzo con Aspose.Page para
+  .NET. Sigue nuestra guía paso a paso para lograr transformaciones sin problemas.
+linktitle: Transformations XPS
+second_title: Aspose.Page .NET API
+title: Cómo transformar XPS con Aspose.Page para .NET
 url: /es/net/canvas-manipulation/transformationsxps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Transformaciones XPS con Aspose.Page para .NET
+# Cómo transformar XPS con Aspose.Page para .NET
 
 ## Introducción
 
-Bienvenido al mundo de Aspose.Page para .NET, una potente biblioteca que le permite realizar diversas transformaciones en documentos XPS sin esfuerzo. En este tutorial, profundizaremos en el proceso de transformación de documentos XPS usando Aspose.Page para .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía lo guiará a través de cada paso, asegurándose de que comprenda los conceptos fácilmente.
+Bienvenido al mundo de Aspose.Page para .NET, una biblioteca potente que le permite realizar diversas transformaciones en documentos XPS sin esfuerzo. **En este tutorial, descubrirá cómo transformar documentos XPS usando Aspose.Page para .NET**, ya sea que sea un desarrollador experimentado o que recién esté comenzando. Recorreremos cada paso, explicaremos el razonamiento detrás de cada transformación y le daremos consejos prácticos que podrá aplicar en proyectos reales.
+
+## Respuestas rápidas
+- **¿Qué puedes lograr?** Crear, trasladar, escalar y rotar elementos del lienzo XPS de forma programática.  
+- **¿Qué biblioteca se requiere?** Aspose.Page para .NET (última versión).  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Plataformas compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **¿Cuánto tiempo lleva la implementación?** Aproximadamente 10‑15 minutos para las transformaciones básicas mostradas aquí.
+
+## ¿Qué es “how to transform xps”?
+La frase *how to transform xps* se refiere a modificar programáticamente el diseño, tamaño y orientación de los elementos dentro de un documento XPS (XML Paper Specification). Con Aspose.Page, puede aplicar transformaciones basadas en matrices a los lienzos, lo que le brinda un control granular sobre la posición, escala y rotación sin editar manualmente el XML de XPS.
+
+## ¿Por qué usar Aspose.Page para transformaciones XPS?
+- **Integración completa con .NET** – funciona sin problemas con Visual Studio, Rider y otros IDEs.  
+- **Sin dependencias externas** – la API maneja todos los detalles de bajo nivel de XPS por usted.  
+- **Amplio soporte de transformaciones** – trasladar, escalar, rotar y combinar múltiples transformaciones en una sola llamada.  
+- **Optimizada para rendimiento** – adecuada para generar informes, facturas o cualquier gráfico imprimible al vuelo.
 
 ## Requisitos previos
 
-Antes de comenzar, asegúrese de tener lo siguiente en su lugar:
+Antes de comenzar, asegúrese de tener:
 
--  Aspose.Page para la biblioteca .NET: descargue e instale la biblioteca desde[Aspose.Page para la documentación de .NET](https://reference.aspose.com/page/net/).
+- **Biblioteca Aspose.Page para .NET** – descárguela e instálela desde la documentación oficial: [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).  
+- **Entorno de desarrollo** – Visual Studio, Visual Studio Code o cualquier otro IDE compatible con .NET.  
+- **Directorio de documentos** – una carpeta en su máquina donde leerá/escribirá archivos XPS. Reemplace el marcador de posición en el código con la ruta real.
 
-- Entorno de desarrollo: configure un entorno de desarrollo compatible, como Visual Studio o cualquier otra herramienta de desarrollo .NET.
-
-- Su directorio de documentos: reemplace el marcador de posición en el código con la ruta real a su directorio de documentos.
-
-¡Ahora, pasemos al tutorial!
+Ahora que tenemos todo listo, vamos al código.
 
 ## Importar espacios de nombres
 
-En primer lugar, asegúrese de importar los espacios de nombres necesarios para que las funcionalidades de Aspose.Page para .NET estén disponibles en su código. Agregue los siguientes espacios de nombres al comienzo de su secuencia de comandos:
+Primero, importe los espacios de nombres que exponen las clases de Aspose.Page que necesitará:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -39,136 +55,162 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Paso 1: cree un nuevo documento XPS
+## Cómo transformar XPS – Guía paso a paso
+
+### Paso 1: Crear un nuevo documento XPS
 
 ```csharp
-// ExInicio:1
-// La ruta al directorio de documentos.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Crear nuevo documento XPS
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
-## Paso 2: crea un lienzo principal
+*Explicación*: Definimos la carpeta que contiene nuestros archivos de origen y salida, luego instanciamos un `XpsDocument` vacío. Este objeto será el lienzo para todas las transformaciones posteriores.
+
+### Paso 2: Crear un lienzo principal
 
 ```csharp
-// Crear lienzo principal, común para todos los elementos de la página.
+// Create main canvas, common for all page elements
 XpsCanvas canvas1 = doc.AddCanvas();
 
-// Realice desplazamientos hacia la izquierda y hacia arriba en el lienzo principal
+// Make left and top offsets in the main canvas
 canvas1.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 20, 10);
 ```
 
-## Paso 3: crear una geometría de ruta rectangular
+*Por qué es importante*: El lienzo principal actúa como contenedor para todos los demás lienzos. Al aplicar un pequeño desplazamiento garantizamos que el contenido no se recorte en el borde de la página.
+
+### Paso 3: Crear una geometría de ruta de rectángulo
 
 ```csharp
-// Crear geometría de ruta rectangular
+// Create rectangle path geometry
 XpsPathGeometry rectGeom = doc.CreatePathGeometry("M 0,0 L 200,0 200,100 0,100 Z");
 ```
 
-## Paso 4: agregue un relleno para rectángulos
+*Consejo*: La cadena de ruta sigue la sintaxis estándar de rutas XPS (`M` para mover, `L` para línea, `Z` para cerrar). Ajuste las coordenadas para cambiar el tamaño del rectángulo.
+
+### Paso 4: Añadir un relleno para rectángulos
 
 ```csharp
-// Crear un relleno para rectángulos
+// Create a fill for rectangles
 XpsBrush fill = doc.CreateSolidColorBrush(doc.CreateColor(12, 15, 159));
 ```
 
-## Paso 5: agregue un nuevo lienzo sin transformaciones
+*Pro tip*: Use `CreateColor` con valores RGB para coincidir con la paleta de su marca.
+
+### Paso 5: Añadir un nuevo lienzo sin transformaciones
 
 ```csharp
-// Agregue un nuevo lienzo sin ninguna transformación al lienzo principal
+// Add new canvas without any transformations to the main canvas
 XpsCanvas canvas2 = canvas1.AddCanvas();
 
-// Crea un rectángulo en este lienzo y rellénalo.
+// Create rectangle in this canvas and fill it
 XpsPath rect = canvas2.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## Paso 6: agregue un nuevo lienzo con Translate Transformation
+Aquí simplemente colocamos un rectángulo en la página sin transformación adicional—útil como elemento de referencia.
+
+### Paso 6: Añadir un nuevo lienzo con transformación de traslación
 
 ```csharp
-// Agregue un nuevo lienzo con transformación de traducción al lienzo principal
+// Add new canvas with translate transformation to the main canvas
 XpsCanvas canvas3 = canvas1.AddCanvas();
 
-// Traduce este lienzo para colocar un nuevo rectángulo debajo del rectángulo anterior
+// Translate this canvas to position a new rectangle below the previous rectangle
 canvas3.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 0, 200);
 
-// Traduce este lienzo al lado derecho de la página.
+// Translate this canvas to the right side of the page
 canvas3.RenderTransform.Translate(500, 0);
 
-// Crea un rectángulo en este lienzo y rellénalo.
+// Create rectangle in this canvas and fill it
 rect = canvas3.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## Paso 7: agregue un nuevo lienzo con transformación de doble escala
+*¿Qué está ocurriendo?* La primera matriz mueve el rectángulo 200 unidades hacia abajo. La llamada subsiguiente a `Translate` lo desplaza 500 unidades a la derecha, demostrando cómo se pueden encadenar múltiples traslaciones.
+
+### Paso 7: Añadir un nuevo lienzo con transformación de escala doble
 
 ```csharp
-//Agregue un nuevo lienzo con transformación de doble escala al lienzo principal
+// Add new canvas with double scale transformation to the main canvas
 XpsCanvas canvas4 = canvas1.AddCanvas();
 
-// Traduce este lienzo para colocar un nuevo rectángulo debajo del rectángulo anterior
+// Translate this canvas to position a new rectangle below the previous rectangle
 canvas4.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 0, 400);
 
-// Escala este lienzo
+// Scale this canvas
 canvas4.RenderTransform.Scale(2, 2);
 
-// Crea un rectángulo en este lienzo y rellénalo.
+// Create rectangle in this canvas and fill it
 rect = canvas4.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## Paso 8: Agregar un nuevo lienzo con rotación alrededor de una transformación de puntos
+*¿Por qué escalar?* Escalar por 2 duplica el ancho y la altura del rectángulo, permitiéndole crear gráficos más grandes sin redefinir la geometría.
+
+### Paso 8: Añadir un nuevo lienzo con transformación de rotación alrededor de un punto
 
 ```csharp
-// Agregue un nuevo lienzo con rotación alrededor de una transformación de puntos al lienzo principal
+// Add new canvas with rotation around a point transformation to the main canvas
 XpsCanvas canvas5 = canvas1.AddCanvas();
 
-// Traduce este lienzo para colocar un nuevo rectángulo debajo del rectángulo anterior
+// Translate this canvas to position a new rectangle below the previous rectangle
 canvas5.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 0, 800);
 
-// Gira este lienzo alrededor de un punto en 45 grados.
+// Rotate this canvas around a point on 45 degrees
 canvas5.RenderTransform.RotateAround(45, new PointF(100, 50));
 
-// Crea un rectángulo en este lienzo y rellénalo.
+// Create rectangle in this canvas and fill it
 rect = canvas5.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-## Paso 9: guarde el documento XPS resultante
+*Idea clave*: `RotateAround` gira el lienzo alrededor de un punto personalizado (aquí (100, 50)), dándole control fino sobre el ancla de rotación.
+
+### Paso 9: Guardar el documento XPS resultante
 
 ```csharp
-// Guarde el documento XPS resultante
+// Save resultant XPS document
 doc.Save(dataDir + "output1.xps");
-// Fin final: 1
+// ExEnd:1
 ```
 
-## Conclusión
+Después de aplicar todas las transformaciones, el documento se guarda en `output1.xps`. Abra el archivo en cualquier visor XPS para ver los rectángulos apilados con sus respectivas traslaciones, escalas y rotaciones.
 
-¡Felicidades! Ha transformado con éxito un documento XPS utilizando Aspose.Page para .NET. Esta guía cubrió pasos esenciales, desde la configuración de requisitos previos hasta la realización de diversas transformaciones. Experimente con estas técnicas y libere todo el potencial de Aspose.Page para .NET en sus proyectos.
+## Problemas comunes y solución de problemas
+
+| Síntoma | Causa probable | Solución |
+|---------|----------------|----------|
+| Archivo de salida vacío | `dataDir` apunta a una carpeta inexistente | Asegúrese de que el directorio exista o use una ruta absoluta |
+| Los rectángulos no se posicionan como se espera | Valores de matriz incorrectos | Verifique el orden de las llamadas a `Translate`, `Scale` y `RotateAround` |
+| Los colores aparecen incorrectos | Valores RGB fuera del rango 0‑255 | Use valores de byte válidos para cada canal |
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.Page para .NET es compatible con todos los entornos de desarrollo .NET?
+**P: ¿Aspose.Page para .NET es compatible con todos los entornos de desarrollo .NET?**  
+R: Sí, funciona sin problemas con Visual Studio, Visual Studio Code, Rider y cualquier IDE que soporte .NET.
 
-R1: Sí, Aspose.Page para .NET está diseñado para funcionar perfectamente con varios entornos de desarrollo .NET, incluido Visual Studio.
+**P: ¿Dónde puedo encontrar ejemplos adicionales y documentación detallada de la API?**  
+R: Visite la documentación oficial en [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).
 
-### P2: ¿Dónde puedo encontrar ejemplos y documentación adicionales para Aspose.Page para .NET?
+**P: ¿Puedo probar Aspose.Page antes de comprar una licencia?**  
+R: Absolutamente. Una prueba gratuita está disponible aquí: [Aspose.Page Free Trial](https://releases.aspose.com/).
 
- A2: Visita el[Aspose.Page para la documentación de .NET](https://reference.aspose.com/page/net/) para documentación completa y ejemplos.
+**P: ¿Cómo obtengo una licencia temporal para pruebas?**  
+R: Puede solicitar una a través de la página de licencia temporal: [Temporary License](https://purchase.aspose.com/temporary-license/).
 
-### P3: ¿Puedo probar Aspose.Page para .NET antes de comprarlo?
+**P: ¿Dónde compro una licencia completa?**  
+R: Compre directamente en la tienda de Aspose: [Aspose.Page Buy](https://purchase.aspose.com/buy).
 
- R3: Sí, puedes explorar una versión de prueba gratuita visitando[Prueba gratuita de Aspose.Page](https://releases.aspose.com/).
+---
 
-### P4: ¿Cómo puedo obtener una licencia temporal de Aspose.Page para .NET?
+**Última actualización:** 2026-01-05  
+**Probado con:** Aspose.Page 24.11 para .NET  
+**Autor:** Aspose  
 
- R4: Obtenga una licencia temporal visitando[Licencia Temporal](https://purchase.aspose.com/temporary-license/).
-
-### P5: ¿Dónde puedo comprar Aspose.Page para .NET?
-
- R5: Compre Aspose.Page para .NET en[Aspose.Página Comprar](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

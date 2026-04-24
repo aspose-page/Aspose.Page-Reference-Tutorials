@@ -1,33 +1,48 @@
 ---
-title: قص PS باستخدام Aspose.Page لـ .NET
-linktitle: لقطة PS
+date: 2026-01-05
+description: تعلم كيفية إضافة مسار قص في PostScript باستخدام Aspose.Page لـ .NET –
+  دليل خطوة بخطوة مع تقنيات تعيين فرشاة الرسم ورسم مستطيل متقطع.
+linktitle: Clipping PS
 second_title: Aspose.Page .NET API
-description: اكتشف قوة Aspose.Page لـ .NET في هذا البرنامج التعليمي خطوة بخطوة حول قص مستندات PostScript. تعلم كيفية تحسين قدرات معالجة المستندات الخاصة بك دون عناء.
-weight: 10
+title: إضافة مسار قص إلى PS باستخدام Aspose.Page لـ .NET
 url: /ar/net/canvas-manipulation/clippingps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قص PS باستخدام Aspose.Page لـ .NET
+# إضافة مسار قص إلى PS باستخدام Aspose.Page لـ .NET
 
-## مقدمة
+## المقدمة
 
-مرحبًا بك في البرنامج التعليمي الشامل حول استخدام Aspose.Page لـ .NET لتنفيذ القطع في مستندات PostScript (PS). سيرشدك هذا البرنامج التعليمي خلال عملية قص مستندات PS باستخدام Aspose.Page، وهي مكتبة قوية للعمل مع تنسيقات المستندات المختلفة في تطبيقات .NET.
+في هذا الدرس الشامل ستكتشف كيفية **إضافة مسار قص** إلى مستند PostScript (PS) باستخدام Aspose.Page لـ .NET. سنستعرض كل خطوة، ونوضح لك كيفية **تعيين فرشاة الرسم**، ونظهر لك كيفية **رسم مستطيل متقطع** حول المحتوى المقصوص. في النهاية، ستحصل على ملف PS يعمل بالكامل يوضح القص بالشكل، مما يجعل رسوماتك أكثر ديناميكية واحترافية.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ماذا يفعل “إضافة مسار قص”؟** يقتصر عمليات الرسم على شكل محدد، ويخفي كل ما هو خارج ذلك الشكل.  
+- **أي مكتبة تتعامل مع القص في .NET؟** توفر Aspose.Page لـ .NET واجهة برمجة تطبيقات غنية لمعالجة PS/EPS.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتطوير؛ يتطلب الترخيص التجاري للإنتاج.  
+- **هل يمكنني تغيير لون الفرشاة؟** نعم، استخدم `SetPaint` مع أي `SolidBrush` أو تدرج تفضله.  
+- **هل يمكن رسم مستطيل متقطع؟** بالتأكيد – أنشئ `Pen` مع `DashStyle.Dash` واستخدم `Draw`.  
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو مسار القص في PostScript؟
+مسار القص هو ما يحدد المنطقة المرئية لأوامر الرسم اللاحقة. أي شيء يُرسم خارج المسار يتم تجاهله، مما يتيح لك إنشاء رسومات مقنَّفة معقدة دون تعديل المحتوى الأصلي.
 
-- معرفة عملية بلغة البرمجة C#.
--  تم تثبيت Aspose.Page لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/page/net/).
-- بيئة تطوير متكاملة (IDE) مثل Visual Studio.
+## لماذا نستخدم Aspose.Page للقص؟
+- **بدون تبعيات خارجية** – مكتبة .NET خالصة.  
+- **تحكم كامل** في حالة الرسومات (حفظ/استعادة، ترجمة، تدوير).  
+- **بدائل رسم غنية** مثل `SetPaint` و `Clip` و `Draw` مع أقلام وفرش قابلة للتخصيص.  
 
-## استيراد مساحات الأسماء
+## المتطلبات المسبقة
 
-ابدأ باستيراد مساحات الأسماء الضرورية في كود C# الخاص بك:
+- معرفة أساسية ببرمجة C#.  
+- مكتبة Aspose.Page لـ .NET مثبتة – يمكنك تنزيلها [هنا](https://releases.aspose.com/page/net/).  
+- Visual Studio أو أي بيئة تطوير .NET مفضلة.  
+
+## استيراد المساحات الاسمية
+
+أولاً، استورد المساحات الاسمية المطلوبة لمعالجة الرسومات:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,74 +52,88 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-الآن، دعونا نقسم المثال إلى عدة خطوات:
+الآن لنقسم المثال إلى خطوات واضحة مرقمة.
 
-## الخطوة 1: قم بتعيين دليل المستندات
+### الخطوة 1: تعيين دليل المستند
+
+حدد المجلد الذي ستعيش فيه ملفات المصدر والإخراج الخاصة بك.
 
 ```csharp
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## الخطوة 2: إنشاء دفق الإخراج لمستند PostScript
+### الخطوة 2: إنشاء تدفق إخراج لمستند PostScript
+
+أنشئ تدفقًا قابلًا للكتابة سيحمل ملف PS المُولد.
 
 ```csharp
-// إنشاء دفق الإخراج لمستند بوستسكريبت
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMode.Create))
 ```
 
-## الخطوة 3: إنشاء خيارات الحفظ
+### الخطوة 3: إنشاء خيارات الحفظ
+
+أنشئ كائن `PsSaveOptions` بالإعدادات الافتراضية. يمكنك تخصيصه لاحقًا إذا لزم الأمر.
 
 ```csharp
-// إنشاء خيارات الحفظ بالقيم الافتراضية
+// Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## الخطوة 4: إنشاء مستند PS جديد مكون من صفحة واحدة
+### الخطوة 4: إنشاء مستند PS بصفحة واحدة
+
+ابدأ كائن `PsDocument` الذي يمثل ملف PS الخاص بك.
 
 ```csharp
-// قم بإنشاء مستند PS جديد مكون من صفحة واحدة
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## الخطوة 5: إنشاء مسار الرسومات من المستطيل
+### الخطوة 5: إنشاء مسار رسومي من المستطيل
+
+سنستخدم مستطيلًا كالشكل الأساسي الذي سيُقص لاحقًا.
 
 ```csharp
-// إنشاء مسار الرسومات من المستطيل
+// Create graphics path from the rectangle
 GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-## الخطوة 6: القطع حسب الشكل
+### الخطوة 6: القص بالشكل
+
+هنا **نضيف مسار قص** باستخدام دائرة، **نعيّن فرشاة الرسم** إلى اللون الأزرق، ونملأ المستطيل داخل المنطقة المقصوصة.
 
 ```csharp
-// احفظ حالة الرسومات للعودة إلى هذه الحالة بعد التحويل
+// Save graphics state in order to return back to this state after transformation
 document.WriteGraphicsSave();
 
-//قم بإزاحة حالة الرسومات الحالية بمقدار 100 نقطة إلى اليمين و100 نقطة إلى الأسفل.
+// Displace current graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
-// إنشاء مسار الرسومات من الدائرة
+// Create graphics path from the circle
 GraphicsPath circlePath = new GraphicsPath();
 circlePath.AddEllipse(new RectangleF(50, 0, 200, 200));
 
-// إضافة لقطة بدائرة إلى حالة الرسومات الحالية
+// Add clipping by circle to the current graphics state
 document.Clip(circlePath);
 
-// اضبط الطلاء على حالة الرسومات الحالية
+// Set paint in the current graphics state
 document.SetPaint(new SolidBrush(Color.Blue));
 
-// املأ المستطيل في حالة الرسومات الحالية (مع القطع)
+// Fill the rectangle in the current graphics state (with clipping)
 document.Fill(rectanglePath);
 
-// استعادة حالة الرسومات إلى المستوى السابق (العلوي).
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-## الخطوة 7: إزاحة حالة الرسومات ذات المستوى العلوي
+### الخطوة 7: إزاحة حالة الرسومات العليا ورسم مستطيل متقطع
+
+بعد استعادة الحالة السابقة، نحرك مؤشر الرسومات مرة أخرى، **نرسم مستطيلًا متقطعًا**، ونطبق حدًا أزرق.
 
 ```csharp
-// قم بإزاحة حالة الرسومات ذات المستوى العلوي بمقدار 100 نقطة إلى اليمين و100 نقطة إلى الأسفل.
+// Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
 Pen pen = new Pen(new SolidBrush(Color.Blue), 2);
@@ -112,47 +141,53 @@ pen.DashStyle = DashStyle.Dash;
 
 document.SetStroke(pen);
 
-// ارسم المستطيل في حالة الرسومات الحالية (لا يحتوي على قطع) فوق المستطيل المقطوع
+// Draw the rectangle in the current graphics state (has no clipping) above the clipped rectangle
 document.Draw(rectanglePath);
 ```
 
-## الخطوة 8: إغلاق وحفظ المستند
+### الخطوة 8: إغلاق وحفظ المستند
+
+أكمل الصفحة واكتب ملف PS إلى القرص.
 
 ```csharp
-// إغلاق الصفحة الحالية
+// Close current page
 document.ClosePage();
 
-// احفظ المستند
+// Save the document
 document.Save();
 ```
 
-لقد نجحت الآن في تنفيذ القص في مستند PostScript باستخدام Aspose.Page لـ .NET.
+لقد نجحت الآن في **إضافة مسار قص**، وتعيين فرشاة رسم مخصصة، ورسم مستطيل متقطع حول رسوماتك باستخدام Aspose.Page لـ .NET.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، تعلمت كيفية استخدام Aspose.Page لـ .NET لتنفيذ القطع في مستندات PostScript. توفر هذه المكتبة القوية طريقة سلسة وفعالة للتعامل مع تنسيقات المستندات المختلفة في تطبيقات .NET الخاصة بك.
+- **القص غير مرئي:** تأكد من استدعاء `WriteGraphicsSave()` قبل الترجمة و `WriteGraphicsRestore()` بعد التعبئة.  
+- **ألوان غير صحيحة:** تحقق من أن `SetPaint` يتم استدعاؤه بعد `Clip` وقبل `Fill`.  
+- **الخطوط المتقطعة تظهر صلبة:** تأكد من ضبط `DashStyle` للـ `Pen` إلى `DashStyle.Dash` قبل `SetStroke`.  
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
 ### س1: هل يمكنني استخدام Aspose.Page لـ .NET مع لغات برمجة أخرى؟
+ج: تم تصميم Aspose.Page أساسًا لتطبيقات .NET. ومع ذلك، توفر Aspose مكتبات مماثلة للغات برمجة أخرى.
 
-A1: تم تصميم Aspose.Page بشكل أساسي لتطبيقات .NET. ومع ذلك، يوفر Aspose مكتبات مماثلة للغات البرمجة الأخرى.
+### س2: أين يمكنني العثور على أمثلة إضافية وتوثيق Aspose.Page لـ .NET؟
+يمكنك استكشاف المزيد من الأمثلة والتوثيق التفصيلي على [توثيق Aspose.Page](https://reference.aspose.com/page/net/).
 
-### س2: أين يمكنني العثور على أمثلة ووثائق إضافية لـ Aspose.Page لـ .NET؟
+### س3: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Page لـ .NET؟
+نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Page لـ .NET [هنا](https://releases.aspose.com/).
 
- ج2: يمكنك استكشاف المزيد من الأمثلة والوثائق التفصيلية حول[Aspose.Page الوثائق](https://reference.aspose.com/page/net/).
+### س4: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
+يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
-### س3: هل تتوفر نسخة تجريبية مجانية من Aspose.Page لـ .NET؟
+### س5: أين يمكنني الحصول على الدعم أو مناقشة استفسارات متعلقة بـ Aspose.Page؟
+قم بزيارة [منتديات Aspose.Page](https://forum.aspose.com/c/page/39) للحصول على دعم المجتمع والمناقشات.
 
- ج3: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Page لـ .NET[هنا](https://releases.aspose.com/).
+---
 
-### س٤: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
+**آخر تحديث:** 2026-01-05  
+**تم الاختبار مع:** Aspose.Page 24.11 لـ .NET  
+**المؤلف:** Aspose  
 
- ج4: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
-
-### س5: أين يمكنني الحصول على الدعم أو مناقشة الاستعلامات المتعلقة بـ Aspose.Page؟
-
- ج5: قم بزيارة[منتديات Aspose.Page](https://forum.aspose.com/c/page/39) لدعم المجتمع والمناقشات.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

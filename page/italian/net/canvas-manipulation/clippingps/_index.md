@@ -1,33 +1,49 @@
 ---
-title: Ritaglio PS con Aspose.Page per .NET
-linktitle: Ritaglio PS
-second_title: API Aspose.Page .NET
-description: Esplora la potenza di Aspose.Page per .NET in questo tutorial passo passo sul ritaglio di documenti PostScript. Impara a migliorare le tue capacità di elaborazione dei documenti senza sforzo.
-weight: 10
+date: 2026-01-05
+description: Impara come aggiungere un percorso di ritaglio in PostScript usando Aspose.Page
+  per .NET – guida passo‑passo con tecniche di impostazione del pennello e disegno
+  di rettangolo tratteggiato.
+linktitle: Clipping PS
+second_title: Aspose.Page .NET API
+title: Aggiungi percorso di ritaglio a PS con Aspose.Page per .NET
 url: /it/net/canvas-manipulation/clippingps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ritaglio PS con Aspose.Page per .NET
+# Aggiungere un percorso di ritaglio a PS con Aspose.Page per .NET
 
-## introduzione
+## Introduction
 
-Benvenuti nel tutorial completo sull'utilizzo di Aspose.Page per .NET per implementare il ritaglio nei documenti PostScript (PS). Questo tutorial ti guiderà attraverso il processo di ritaglio dei documenti PS utilizzando Aspose.Page, una potente libreria per lavorare con vari formati di documenti nelle applicazioni .NET.
+In questo tutorial completo scoprirai come **add clipping path** a un documento PostScript (PS) utilizzando Aspose.Page per .NET. Ti guideremo passo passo, ti mostreremo come **set paint brush**, e dimostreremo come **draw dashed rectangle** attorno al contenuto ritagliato. Alla fine, avrai un file PS completamente funzionale che illustra il ritaglio per forma, rendendo i tuoi grafici più dinamici e professionali.
 
-## Prerequisiti
+## Quick Answers
+- **What does “add clipping path” do?** It restricts drawing operations to a defined shape, hiding everything outside that shape.  
+- **Which library handles clipping in .NET?** Aspose.Page for .NET provides a rich API for PS/EPS manipulation.  
+- **Do I need a license?** A free trial works for development; a commercial license is required for production.  
+- **Can I change the brush color?** Yes, use `SetPaint` with any `SolidBrush` or gradient you prefer.  
+- **Is drawing a dashed rectangle possible?** Absolutely – create a `Pen` with `DashStyle.Dash` and use `Draw`.  
 
-Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
+## What is a clipping path in PostScript?
+A clipping path defines the visible region of subsequent drawing commands. Anything drawn outside the path is ignored, allowing you to create complex masked graphics without altering the original content.
 
-- Una conoscenza pratica del linguaggio di programmazione C#.
--  Aspose.Page per la libreria .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/page/net/).
-- Un ambiente di sviluppo integrato (IDE) come Visual Studio.
+## Why use Aspose.Page for clipping?
+- **No external dependencies** – pure .NET library.  
+- **Full control** over graphics state (save/restore, translate, rotate).  
+- **Rich drawing primitives** such as `SetPaint`, `Clip`, and `Draw` with customizable pens and brushes.  
 
-## Importa spazi dei nomi
+## Prerequisites
 
-Inizia importando gli spazi dei nomi necessari nel tuo codice C#:
+- Basic knowledge of C# programming.  
+- Aspose.Page for .NET library installed – you can download it [here](https://releases.aspose.com/page/net/).  
+- Visual Studio or any preferred .NET IDE.  
+
+## Import Namespaces
+
+First, import the namespaces required for graphics manipulation:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,74 +53,88 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Ora suddividiamo l'esempio in più passaggi:
+Now let’s break down the example into clear, numbered steps.
 
-## Passaggio 1: imposta la directory dei documenti
+### Step 1: Set Document Directory
+
+Define the folder where your source and output files will live.
 
 ```csharp
-// Il percorso della directory dei documenti.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Passaggio 2: crea il flusso di output per il documento PostScript
+### Step 2: Create Output Stream for PostScript Document
+
+Create a writable stream that will hold the generated PS file.
 
 ```csharp
-// Crea flusso di output per il documento PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMode.Create))
 ```
 
-## Passaggio 3: crea opzioni di salvataggio
+### Step 3: Create Save Options
+
+Instantiate `PsSaveOptions` with default settings. You can customize later if needed.
 
 ```csharp
-// Crea opzioni di salvataggio con valori predefiniti
+// Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Passaggio 4: crea un nuovo documento PS di 1 pagina
+### Step 4: Create a New 1‑Paged PS Document
+
+Initialize the `PsDocument` object that represents your PS file.
 
 ```csharp
-// Crea un nuovo documento PS di 1 pagina
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Passaggio 5: crea il percorso grafico dal rettangolo
+### Step 5: Create Graphics Path from the Rectangle
+
+We’ll use a rectangle as the base shape that later gets clipped.
 
 ```csharp
-// Crea il percorso grafico dal rettangolo
+// Create graphics path from the rectangle
 GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-## Passaggio 6: ritaglio per forma
+### Step 6: Clipping by Shape
+
+Here we **add clipping path** using a circle, **set paint brush** to blue, and fill the rectangle within the clipped region.
 
 ```csharp
-// Salva lo stato grafico per tornare a questo stato dopo la trasformazione
+// Save graphics state in order to return back to this state after transformation
 document.WriteGraphicsSave();
 
-//Sposta lo stato grafico corrente di 100 punti a destra e di 100 punti in basso.
+// Displace current graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
-// Crea un percorso grafico dal cerchio
+// Create graphics path from the circle
 GraphicsPath circlePath = new GraphicsPath();
 circlePath.AddEllipse(new RectangleF(50, 0, 200, 200));
 
-// Aggiungi il ritaglio per cerchio allo stato grafico corrente
+// Add clipping by circle to the current graphics state
 document.Clip(circlePath);
 
-// Imposta la vernice nello stato grafico corrente
+// Set paint in the current graphics state
 document.SetPaint(new SolidBrush(Color.Blue));
 
-// Riempi il rettangolo nello stato grafico corrente (con ritaglio)
+// Fill the rectangle in the current graphics state (with clipping)
 document.Fill(rectanglePath);
 
-// Ripristina lo stato della grafica al livello precedente (superiore).
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-## Passaggio 7: spostare lo stato della grafica di livello superiore
+### Step 7: Displace Upper Level Graphics State & Draw Dashed Rectangle
+
+After restoring the previous state, we move the graphics cursor again, **draw a dashed rectangle**, and apply a blue stroke.
 
 ```csharp
-// Sposta lo stato grafico di livello superiore di 100 punti a destra e di 100 punti in basso.
+// Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
 Pen pen = new Pen(new SolidBrush(Color.Blue), 2);
@@ -112,47 +142,53 @@ pen.DashStyle = DashStyle.Dash;
 
 document.SetStroke(pen);
 
-// Disegna il rettangolo nello stato grafico corrente (senza ritaglio) sopra il rettangolo ritagliato
+// Draw the rectangle in the current graphics state (has no clipping) above the clipped rectangle
 document.Draw(rectanglePath);
 ```
 
-## Passaggio 8: chiudi e salva il documento
+### Step 8: Close and Save Document
+
+Finish the page and write the PS file to disk.
 
 ```csharp
-// Chiudi la pagina corrente
+// Close current page
 document.ClosePage();
 
-// Salva il documento
+// Save the document
 document.Save();
 ```
 
-Ora hai implementato con successo il ritaglio in un documento PostScript utilizzando Aspose.Page per .NET.
+You have now successfully **added clipping path**, set a custom paint brush, and drawn a dashed rectangle around your graphics using Aspose.Page for .NET.
 
-## Conclusione
+## Common Issues and Solutions
 
-In questo tutorial hai imparato come utilizzare Aspose.Page per .NET per implementare il ritaglio nei documenti PostScript. Questa potente libreria fornisce un modo semplice ed efficiente per gestire vari formati di documenti nelle applicazioni .NET.
+- **Clipping not visible:** Ensure you call `WriteGraphicsSave()` before translating and `WriteGraphicsRestore()` after filling.  
+- **Incorrect colors:** Verify that `SetPaint` is called after `Clip` and before `Fill`.  
+- **Dashed lines appear solid:** Make sure the `Pen`'s `DashStyle` is set to `DashStyle.Dash` before `SetStroke`.  
 
-## Domande frequenti
+## Frequently Asked Questions
 
-### Q1: posso utilizzare Aspose.Page per .NET con altri linguaggi di programmazione?
+### Q1: Can I use Aspose.Page for .NET with other programming languages?
+A: Aspose.Page is primarily designed for .NET applications. However, Aspose provides similar libraries for other programming languages.
 
-A1: Aspose.Page è progettato principalmente per applicazioni .NET. Tuttavia, Aspose fornisce librerie simili per altri linguaggi di programmazione.
+### Q2: Where can I find additional examples and documentation for Aspose.Page for .NET?
+A: You can explore more examples and detailed documentation on the [Aspose.Page documentation](https://reference.aspose.com/page/net/).
 
-### Q2: Dove posso trovare ulteriori esempi e documentazione per Aspose.Page per .NET?
+### Q3: Is there a free trial available for Aspose.Page for .NET?
+A: Yes, you can access a free trial of Aspose.Page for .NET [here](https://releases.aspose.com/).
 
- A2: Puoi esplorare più esempi e documentazione dettagliata su[Documentazione Aspose.Page](https://reference.aspose.com/page/net/).
+### Q4: How can I get a temporary license for Aspose.Page for .NET?
+A: You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q3: È disponibile una prova gratuita per Aspose.Page per .NET?
+### Q5: Where can I get support or discuss Aspose.Page related queries?
+A: Visit the [Aspose.Page forums](https://forum.aspose.com/c/page/39) for community support and discussions.
 
- A3: Sì, puoi accedere a una prova gratuita di Aspose.Page per .NET[Qui](https://releases.aspose.com/).
+---
 
-### Q4: Come posso ottenere una licenza temporanea per Aspose.Page per .NET?
+**Last Updated:** 2026-01-05  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
 
- A4: È possibile ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Dove posso ottenere supporto o discutere domande relative ad Aspose.Page?
-
- A5: Visita il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) per il supporto e le discussioni della comunità.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

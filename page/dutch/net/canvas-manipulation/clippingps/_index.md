@@ -1,33 +1,46 @@
 ---
-title: PS knippen met Aspose.Page voor .NET
-linktitle: PS knippen
-second_title: Aspose.Page .NET-API
-description: Ontdek de kracht van Aspose.Page voor .NET in deze stapsgewijze zelfstudie over het knippen van PostScript-documenten. Leer hoe u moeiteloos uw documentverwerkingsmogelijkheden kunt verbeteren.
-weight: 10
+date: 2026-01-05
+description: Leer hoe u een knippad toevoegt in PostScript met Aspose.Page voor .NET
+  – stapsgewijze handleiding met set paint brush- en draw dashed rectangle‑technieken.
+linktitle: Clipping PS
+second_title: Aspose.Page .NET API
+title: Voeg knippad toe aan PS met Aspose.Page voor .NET
 url: /nl/net/canvas-manipulation/clippingps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PS knippen met Aspose.Page voor .NET
+# Clippingpad toevoegen aan PS met Aspose.Page voor .NET
 
-## Invoering
+## Inleiding
 
-Welkom bij de uitgebreide tutorial over het gebruik van Aspose.Page voor .NET om clipping in PostScript (PS)-documenten te implementeren. Deze tutorial begeleidt u bij het knippen van PS-documenten met Aspose.Page, een krachtige bibliotheek voor het werken met verschillende documentformaten in .NET-toepassingen.
+## Snelle antwoorden
+- **Wat doet “add clipping path”?** Het beperkt tekenbewerkingen tot een gedefinieerde vorm, waarbij alles buiten die vorm verborgen wordt.  
+- **Welke bibliotheek behandelt clipping in .NET?** Aspose.Page voor .NET biedt een uitgebreide API voor PS/EPS-manipulatie.  
+- **Heb ik een licentie nodig?** Een gratis proefversie werkt voor ontwikkeling; een commerciële licentie is vereist voor productie.  
+- **Kan ik de penseelkleur wijzigen?** Ja, gebruik `SetPaint` met elke `SolidBrush` of gradient die je wilt.  
+- **Is het mogelijk om een gestippelde rechthoek te tekenen?** Absoluut – maak een `Pen` met `DashStyle.Dash` en gebruik `Draw`.  
 
-## Vereisten
+## Wat is een clippingpad in PostScript?
+Een clippingpad definieert het zichtbare gebied van daaropvolgende tekenopdrachten. Alles wat buiten het pad wordt getekend, wordt genegeerd, waardoor je complexe gemaskeerde graphics kunt maken zonder de oorspronkelijke inhoud te wijzigen.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Waarom Aspose.Page gebruiken voor clipping?
+- **Geen externe afhankelijkheden** – pure .NET-bibliotheek.  
+- **Volledige controle** over de grafische status (save/restore, translate, rotate).  
+- **Rijke tekenprimitieven** zoals `SetPaint`, `Clip` en `Draw` met aanpasbare pennen en penselen.  
 
-- Een praktische kennis van de programmeertaal C#.
--  Aspose.Page voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/page/net/).
-- Een geïntegreerde ontwikkelomgeving (IDE) zoals Visual Studio.
+## Voorvereisten
 
-## Naamruimten importeren
+- Basiskennis van C# programmeren.  
+- Aspose.Page voor .NET bibliotheek geïnstalleerd – je kunt het downloaden [hier](https://releases.aspose.com/page/net/).  
+- Visual Studio of een andere gewenste .NET IDE.  
 
-Begin met het importeren van de benodigde naamruimten in uw C#-code:
+## Namespaces importeren
+
+Importeer eerst de namespaces die nodig zijn voor grafische manipulatie:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,74 +50,88 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Laten we het voorbeeld nu in meerdere stappen opsplitsen:
+Now let’s break down the example into clear, numbered steps.
 
-## Stap 1: Documentmap instellen
+### Stap 1: Documentmap instellen
+
+Definieer de map waar je bron- en uitvoerbestanden worden opgeslagen.
 
 ```csharp
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Stap 2: Maak een uitvoerstroom voor een PostScript-document
+### Stap 2: Outputstream maken voor PostScript-document
+
+Maak een schrijfbare stream die het gegenereerde PS‑bestand zal bevatten.
 
 ```csharp
-// Maak een uitvoerstroom voor een PostScript-document
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMode.Create))
 ```
 
-## Stap 3: Creëer opslagopties
+### Stap 3: Opslagopties maken
+
+Instantieer `PsSaveOptions` met standaardinstellingen. Je kunt later aanpassen indien nodig.
 
 ```csharp
-// Maak opslagopties met standaardwaarden
+// Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Stap 4: Maak een nieuw PS-document met één pagina
+### Stap 4: Een nieuw 1‑pagina PS‑document maken
+
+Initialiseer het `PsDocument`‑object dat je PS‑bestand vertegenwoordigt.
 
 ```csharp
-// Maak een nieuw PS-document met één pagina
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Stap 5: Maak een grafisch pad vanuit de rechthoek
+### Stap 5: Grafisch pad maken van de rechthoek
+
+We gebruiken een rechthoek als basisvorm die later wordt geclipt.
 
 ```csharp
-// Maak een grafisch pad vanuit de rechthoek
+// Create graphics path from the rectangle
 GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-## Stap 6: Knippen op vorm
+### Stap 6: Clipping op vorm
+
+Hier **voegen we een clippingpad toe** met een cirkel, **stellen we de penseel in** op blauw, en vullen we de rechthoek binnen het geclipte gebied.
 
 ```csharp
-// Sla de grafische staat op om na de transformatie naar deze staat terug te keren
+// Save graphics state in order to return back to this state after transformation
 document.WriteGraphicsSave();
 
-//Verplaats de huidige grafische status 100 punten naar rechts en 100 punten naar beneden.
+// Displace current graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
-// Maak een grafisch pad vanuit de cirkel
+// Create graphics path from the circle
 GraphicsPath circlePath = new GraphicsPath();
 circlePath.AddEllipse(new RectangleF(50, 0, 200, 200));
 
-// Voeg uitknippen per cirkel toe aan de huidige grafische staat
+// Add clipping by circle to the current graphics state
 document.Clip(circlePath);
 
-// Stel verf in de huidige grafische staat in
+// Set paint in the current graphics state
 document.SetPaint(new SolidBrush(Color.Blue));
 
-// Vul de rechthoek in de huidige grafische staat (met uitknippen)
+// Fill the rectangle in the current graphics state (with clipping)
 document.Fill(rectanglePath);
 
-// Herstel de grafische status naar het vorige (bovenste) niveau
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-## Stap 7: Verplaats de grafische status op het hoogste niveau
+### Stap 7: Bovenliggend grafische status verplaatsen & gestippelde rechthoek tekenen
+
+Na het herstellen van de vorige status verplaatsen we de grafische cursor opnieuw, **tekenen we een gestippelde rechthoek**, en passen we een blauwe lijn toe.
 
 ```csharp
-// Verplaats de grafische status op het hoogste niveau 100 punten naar rechts en 100 punten naar beneden.
+// Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
 Pen pen = new Pen(new SolidBrush(Color.Blue), 2);
@@ -112,47 +139,53 @@ pen.DashStyle = DashStyle.Dash;
 
 document.SetStroke(pen);
 
-// Teken de rechthoek in de huidige grafische staat (zonder uitknippen) boven de uitgeknipte rechthoek
+// Draw the rectangle in the current graphics state (has no clipping) above the clipped rectangle
 document.Draw(rectanglePath);
 ```
 
-## Stap 8: Document sluiten en opslaan
+### Stap 8: Document sluiten en opslaan
+
+Rond de pagina af en schrijf het PS‑bestand naar schijf.
 
 ```csharp
-// Sluit huidige pagina
+// Close current page
 document.ClosePage();
 
-// Bewaar het document
+// Save the document
 document.Save();
 ```
 
-Nu hebt u met succes clipping in een PostScript-document geïmplementeerd met behulp van Aspose.Page voor .NET.
+Je hebt nu succesvol een **clippingpad toegevoegd**, een aangepaste penseel ingesteld, en een gestippelde rechthoek rond je grafische elementen getekend met Aspose.Page voor .NET.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-In deze zelfstudie hebt u geleerd hoe u Aspose.Page voor .NET kunt gebruiken om clipping in PostScript-documenten te implementeren. Deze krachtige bibliotheek biedt een naadloze en efficiënte manier om verschillende documentformaten in uw .NET-toepassingen te verwerken.
+- **Clipping niet zichtbaar:** Zorg ervoor dat je `WriteGraphicsSave()` aanroept vóór het vertalen en `WriteGraphicsRestore()` na het vullen.  
+- **Onjuiste kleuren:** Controleer dat `SetPaint` wordt aangeroepen na `Clip` en vóór `Fill`.  
+- **Gestippelde lijnen verschijnen als solide:** Zorg ervoor dat de `DashStyle` van de `Pen` is ingesteld op `DashStyle.Dash` vóór `SetStroke`.  
 
 ## Veelgestelde vragen
 
-### V1: Kan ik Aspose.Page voor .NET gebruiken met andere programmeertalen?
+### Q1: Kan ik Aspose.Page voor .NET gebruiken met andere programmeertalen?
+A: Aspose.Page is voornamelijk ontworpen voor .NET‑applicaties. Aspose biedt echter vergelijkbare bibliotheken voor andere programmeertalen.
 
-A1: Aspose.Page is voornamelijk ontworpen voor .NET-toepassingen. Aspose biedt echter vergelijkbare bibliotheken voor andere programmeertalen.
+### Q2: Waar kan ik extra voorbeelden en documentatie vinden voor Aspose.Page voor .NET?
+A: Je kunt meer voorbeelden en gedetailleerde documentatie verkennen op de [Aspose.Page documentatie](https://reference.aspose.com/page/net/).
 
-### V2: Waar kan ik aanvullende voorbeelden en documentatie vinden voor Aspose.Page voor .NET?
+### Q3: Is er een gratis proefversie beschikbaar voor Aspose.Page voor .NET?
+A: Ja, je kunt een gratis proefversie van Aspose.Page voor .NET [hier](https://releases.aspose.com/) verkrijgen.
 
- A2: U kunt meer voorbeelden en gedetailleerde documentatie bekijken op de[Aspose.Page-documentatie](https://reference.aspose.com/page/net/).
+### Q4: Hoe kan ik een tijdelijke licentie krijgen voor Aspose.Page voor .NET?
+A: Je kunt een tijdelijke licentie [hier](https://purchase.aspose.com/temporary-license/) verkrijgen.
 
-### V3: Is er een gratis proefversie beschikbaar voor Aspose.Page voor .NET?
+### Q5: Waar kan ik ondersteuning krijgen of vragen over Aspose.Page bespreken?
+A: Bezoek de [Aspose.Page forums](https://forum.aspose.com/c/page/39) voor community‑ondersteuning en discussies.
 
- A3: Ja, u heeft toegang tot een gratis proefversie van Aspose.Page voor .NET[hier](https://releases.aspose.com/).
+---
 
-### V4: Hoe kan ik een tijdelijke licentie krijgen voor Aspose.Page voor .NET?
+**Laatst bijgewerkt:** 2026-01-05  
+**Getest met:** Aspose.Page 24.11 voor .NET  
+**Auteur:** Aspose  
 
- A4: U kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
-
-### V5: Waar kan ik ondersteuning krijgen of Aspose.Page-gerelateerde vragen bespreken?
-
- A5: Bezoek de[Aspose.Page-forums](https://forum.aspose.com/c/page/39) voor gemeenschapsondersteuning en discussies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

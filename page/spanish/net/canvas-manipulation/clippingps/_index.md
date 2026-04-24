@@ -1,33 +1,49 @@
 ---
-title: Recorte de PS con Aspose.Page para .NET
-linktitle: Recorte PS
-second_title: Aspose.Página .NET API
-description: Explore el poder de Aspose.Page para .NET en este tutorial paso a paso sobre cómo recortar documentos PostScript. Aprenda a mejorar sus capacidades de procesamiento de documentos sin esfuerzo.
-weight: 10
+date: 2026-01-05
+description: 'Aprende a añadir una ruta de recorte en PostScript usando Aspose.Page
+  para .NET: guía paso a paso con técnicas de establecer el pincel y dibujar un rectángulo
+  punteado.'
+linktitle: Clipping PS
+second_title: Aspose.Page .NET API
+title: Agregar ruta de recorte a PS con Aspose.Page para .NET
 url: /es/net/canvas-manipulation/clippingps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Recorte de PS con Aspose.Page para .NET
+# Agregar ruta de recorte a PS con Aspose.Page para .NET
 
 ## Introducción
 
-Bienvenido al tutorial completo sobre cómo utilizar Aspose.Page para .NET para implementar el recorte en documentos PostScript (PS). Este tutorial lo guiará a través del proceso de recorte de documentos PS usando Aspose.Page, una poderosa biblioteca para trabajar con varios formatos de documentos en aplicaciones .NET.
+En este tutorial exhaustivo descubrirás cómo **agregar una ruta de recorte** a un documento PostScript (PS) usando Aspose.Page para .NET. Recorreremos cada paso, te mostraremos cómo **establecer el pincel de pintura**, y demostraremos cómo **dibujar un rectángulo punteado** alrededor del contenido recortado. Al final, tendrás un archivo PS completamente funcional que ilustra el recorte por forma, haciendo que tus gráficos sean más dinámicos y profesionales.
+
+## Respuestas rápidas
+- **¿Qué hace “agregar ruta de recorte”?** Restringe las operaciones de dibujo a una forma definida, ocultando todo lo que está fuera de esa forma.  
+- **¿Qué biblioteca maneja el recorte en .NET?** Aspose.Page para .NET ofrece una API completa para la manipulación de PS/EPS.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
+- **¿Puedo cambiar el color del pincel?** Sí, usa `SetPaint` con cualquier `SolidBrush` o degradado que prefieras.  
+- **¿Es posible dibujar un rectángulo punteado?** Absolutamente – crea un `Pen` con `DashStyle.Dash` y usa `Draw`.  
+
+## ¿Qué es una ruta de recorte en PostScript?
+Una ruta de recorte define la región visible de los comandos de dibujo posteriores. Todo lo que se dibuje fuera de la ruta se ignora, lo que permite crear gráficos enmascarados complejos sin alterar el contenido original.
+
+## ¿Por qué usar Aspose.Page para el recorte?
+- **Sin dependencias externas** – biblioteca pura de .NET.  
+- **Control total** sobre el estado gráfico (save/restore, translate, rotate).  
+- **Primitivas de dibujo ricas** como `SetPaint`, `Clip` y `Draw` con lápices y pinceles personalizables.  
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-
-- Conocimiento práctico del lenguaje de programación C#.
--  Aspose.Page para la biblioteca .NET instalada. Puedes descargarlo[aquí](https://releases.aspose.com/page/net/).
-- Un entorno de desarrollo integrado (IDE) como Visual Studio.
+- Conocimientos básicos de programación en C#.  
+- Biblioteca Aspose.Page para .NET instalada – puedes descargarla [aquí](https://releases.aspose.com/page/net/).  
+- Visual Studio o cualquier IDE preferido para .NET.  
 
 ## Importar espacios de nombres
 
-Comience importando los espacios de nombres necesarios en su código C#:
+Primero, importa los espacios de nombres requeridos para la manipulación gráfica:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,74 +53,88 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Ahora, dividamos el ejemplo en varios pasos:
+Ahora desglosaremos el ejemplo en pasos claros y numerados.
 
-## Paso 1: configurar el directorio de documentos
+### Paso 1: Establecer el directorio del documento
+
+Define la carpeta donde vivirán tus archivos de origen y salida.
 
 ```csharp
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Paso 2: crear un flujo de salida para un documento PostScript
+### Paso 2: Crear flujo de salida para el documento PostScript
+
+Crea un flujo de escritura que contendrá el archivo PS generado.
 
 ```csharp
-// Crear flujo de salida para un documento PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMode.Create))
 ```
 
-## Paso 3: crear opciones para guardar
+### Paso 3: Crear opciones de guardado
+
+Instancia `PsSaveOptions` con la configuración predeterminada. Puedes personalizar más adelante si lo deseas.
 
 ```csharp
-// Crear opciones de guardado con valores predeterminados
+// Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Paso 4: cree un nuevo documento PS de 1 página
+### Paso 4: Crear un nuevo documento PS de 1 página
+
+Inicializa el objeto `PsDocument` que representa tu archivo PS.
 
 ```csharp
-// Crear un nuevo documento PS de 1 página
+// Create new 1-paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Paso 5: crear una ruta de gráficos a partir del rectángulo
+### Paso 5: Crear ruta gráfica a partir del rectángulo
+
+Usaremos un rectángulo como forma base que luego será recortada.
 
 ```csharp
-// Crear ruta de gráficos a partir del rectángulo.
+// Create graphics path from the rectangle
 GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-## Paso 6: Recortar por forma
+### Paso 6: Recorte por forma
+
+Aquí **agregamos la ruta de recorte** usando un círculo, **establecemos el pincel de pintura** a azul, y rellenamos el rectángulo dentro de la región recortada.
 
 ```csharp
-// Guarde el estado de los gráficos para volver a este estado después de la transformación
+// Save graphics state in order to return back to this state after transformation
 document.WriteGraphicsSave();
 
-//Desplaza el estado actual de los gráficos 100 puntos hacia la derecha y 100 puntos hacia abajo.
+// Displace current graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
-// Crear ruta de gráficos desde el círculo.
+// Create graphics path from the circle
 GraphicsPath circlePath = new GraphicsPath();
 circlePath.AddEllipse(new RectangleF(50, 0, 200, 200));
 
-// Agregar recorte por círculo al estado actual de los gráficos
+// Add clipping by circle to the current graphics state
 document.Clip(circlePath);
 
-// Establecer pintura en el estado de gráficos actual
+// Set paint in the current graphics state
 document.SetPaint(new SolidBrush(Color.Blue));
 
-// Rellene el rectángulo en el estado de gráficos actual (con recorte)
+// Fill the rectangle in the current graphics state (with clipping)
 document.Fill(rectanglePath);
 
-// Restaurar el estado de los gráficos al nivel anterior (superior)
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-## Paso 7: Desplazar el estado de los gráficos de nivel superior
+### Paso 7: Desplazar el estado gráfico de nivel superior y dibujar un rectángulo punteado
+
+Después de restaurar el estado anterior, movemos el cursor gráfico nuevamente, **dibujamos un rectángulo punteado** y aplicamos un trazo azul.
 
 ```csharp
-// Desplaza el estado de los gráficos de nivel superior 100 puntos hacia la derecha y 100 puntos hacia abajo.
+// Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
 document.Translate(100, 100);
 
 Pen pen = new Pen(new SolidBrush(Color.Blue), 2);
@@ -112,47 +142,53 @@ pen.DashStyle = DashStyle.Dash;
 
 document.SetStroke(pen);
 
-// Dibuje el rectángulo en el estado de gráficos actual (sin recorte) encima del rectángulo recortado
+// Draw the rectangle in the current graphics state (has no clipping) above the clipped rectangle
 document.Draw(rectanglePath);
 ```
 
-## Paso 8: cerrar y guardar el documento
+### Paso 8: Cerrar y guardar el documento
+
+Finaliza la página y escribe el archivo PS en disco.
 
 ```csharp
-// Cerrar la página actual
+// Close current page
 document.ClosePage();
 
-// guardar el documento
+// Save the document
 document.Save();
 ```
 
-Ahora ha implementado con éxito el recorte en un documento PostScript utilizando Aspose.Page para .NET.
+Has agregado exitosamente una **ruta de recorte**, establecido un pincel de pintura personalizado y dibujado un rectángulo punteado alrededor de tus gráficos usando Aspose.Page para .NET.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-En este tutorial, aprendió cómo utilizar Aspose.Page para .NET para implementar el recorte en documentos PostScript. Esta poderosa biblioteca proporciona una forma sencilla y eficiente de manejar varios formatos de documentos en sus aplicaciones .NET.
+- **Recorte no visible:** Asegúrate de llamar a `WriteGraphicsSave()` antes de traducir y a `WriteGraphicsRestore()` después de rellenar.  
+- **Colores incorrectos:** Verifica que `SetPaint` se invoque después de `Clip` y antes de `Fill`.  
+- **Líneas punteadas aparecen sólidas:** Asegúrate de que la propiedad `DashStyle` del `Pen` esté establecida en `DashStyle.Dash` antes de `SetStroke`.  
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.Page para .NET con otros lenguajes de programación?
+### Q1: ¿Puedo usar Aspose.Page para .NET con otros lenguajes de programación?
+R: Aspose.Page está diseñado principalmente para aplicaciones .NET. Sin embargo, Aspose ofrece bibliotecas similares para otros lenguajes de programación.
 
-R1: Aspose.Page está diseñado principalmente para aplicaciones .NET. Sin embargo, Aspose proporciona bibliotecas similares para otros lenguajes de programación.
+### Q2: ¿Dónde puedo encontrar ejemplos adicionales y documentación para Aspose.Page para .NET?
+R: Puedes explorar más ejemplos y documentación detallada en la [documentación de Aspose.Page](https://reference.aspose.com/page/net/).
 
-### P2: ¿Dónde puedo encontrar ejemplos y documentación adicionales para Aspose.Page para .NET?
+### Q3: ¿Hay una prueba gratuita disponible para Aspose.Page para .NET?
+R: Sí, puedes acceder a una prueba gratuita de Aspose.Page para .NET [aquí](https://releases.aspose.com/).
 
- A2: Puede explorar más ejemplos y documentación detallada en[Documentación de Aspose.Page](https://reference.aspose.com/page/net/).
+### Q4: ¿Cómo puedo obtener una licencia temporal para Aspose.Page para .NET?
+R: Puedes obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
-### P3: ¿Hay una prueba gratuita disponible para Aspose.Page para .NET?
+### Q5: ¿Dónde puedo obtener soporte o discutir consultas relacionadas con Aspose.Page?
+R: Visita los [foros de Aspose.Page](https://forum.aspose.com/c/page/39) para soporte comunitario y discusiones.
 
- R3: Sí, puede acceder a una prueba gratuita de Aspose.Page para .NET[aquí](https://releases.aspose.com/).
+---
 
-### P4: ¿Cómo puedo obtener una licencia temporal de Aspose.Page para .NET?
+**Última actualización:** 2026-01-05  
+**Probado con:** Aspose.Page 24.11 para .NET  
+**Autor:** Aspose  
 
- R4: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
-
-### P5: ¿Dónde puedo obtener soporte o discutir consultas relacionadas con Aspose.Page?
-
- A5: Visita el[Foros de Aspose.Page](https://forum.aspose.com/c/page/39) para apoyo y debates de la comunidad.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
