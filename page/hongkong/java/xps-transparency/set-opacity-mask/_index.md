@@ -1,9 +1,13 @@
 ---
-date: 2026-01-02
-description: 學習如何使用 Aspose.Page Java 為 XPS 文件添加不透明遮罩。一步一步的指南，教您建立不透明遮罩矩形並提升視覺品質。
-linktitle: Set Opacity Mask in Java XPS
+date: 2026-04-30
+description: 學習如何使用 Aspose.Page Java 在 Java 中建立 XPS 文件並加入不透明遮罩。提供程式碼範例的逐步指南。
+keywords:
+- create xps document java
+- opacity mask java
+- aspose.page java
+linktitle: 在 Java XPS 中設定不透明遮罩
 second_title: Aspose.Page Java API
-title: 在 Java XPS 中使用 Aspose.Page Java 設定不透明遮罩
+title: 建立 XPS 文件（Java） – 使用 Aspose.Page 設定不透明遮罩
 url: /zh-hant/java/xps-transparency/set-opacity-mask/
 weight: 11
 ---
@@ -15,32 +19,38 @@ weight: 11
 # 在 Java XPS 中使用 Aspose.Page Java 設定不透明遮罩
 
 ## 介紹
-歡迎閱讀我們關於 **aspose page java** 不透明遮罩的完整指南。在本教學中，您將學習如何建立 XPS 文件、加入畫布，並將不透明遮罩套用到矩形——全部使用功能強大的 Aspose.Page Java API。完成後，您將能夠新增不透明遮罩矩形，為您的 XPS 檔案帶來精緻的半透明效果。
+在本教學中，你將 **建立 XPS document Java** 檔案，並學習如何套用不透明遮罩，使圖形呈現精緻的半透明效果。我們會一步步說明整個流程——從初始化 XPS 文件、加入畫布、繪製矩形，到套用基於影像的不透明遮罩——全部使用直觀的 Aspose.Page Java API。完成後，你即可以程式方式產生專業的 XPS 檔，並在任何需要的形狀上重複使用此遮罩。
 
-## 快速解答
-- **不透明遮罩的作用是什麼？** 它為形狀定義不同的透明度等級，讓底層內容得以顯示。  
+## 快速回答
+- **不透明遮罩的作用是什麼？** 它為形狀定義不同的透明度等級，讓底層內容得以透視。  
 - **需要哪個函式庫？** Aspose.Page for Java（aspose page java）。  
-- **我需要授權嗎？** 測試時可使用臨時授權；正式環境則需完整授權。  
-- **程式碼有多少行？** 大約 20 行 Java 程式碼，加上少量設定語句。  
-- **我可以在多個形狀上重複使用同一個遮罩嗎？** 可以，您可以將相同的 ImageBrush 指派給多條路徑。  
+- **需要授權嗎？** 測試時可使用臨時授權；正式環境必須使用正式授權。  
+- **程式碼行數大約多少？** 約 20 行 Java 程式碼，加上少量設定語句。  
+- **可以在多個形狀上重複使用遮罩嗎？** 可以，將相同的 `ImageBrush` 指派給多條路徑即可。
 
-## XPS 中的不透明遮罩是什麼？
-不透明遮罩是一種位圖或向量，用於控制形狀中每個像素的 alpha（透明度）值。將其套用於矩形時，矩形的部分會變為完全不透明、部分透明或完全透明，從而產生精緻的視覺效果。
+## 什麼是不透明遮罩（Opacity Mask）？
+不透明遮罩是一種位圖或向量，用來控制形狀中每個像素的 alpha（透明度）。將其套用於矩形時，矩形的部分區域會變成完全不透明、部分透明或完全透明，從而在不增加額外繪圖層的情況下產生複雜的視覺效果。
 
-## 為何使用 Aspose.Page Java 來處理不透明遮罩？
-- **完整的 .NET 風格 API（Java 版）** – 直觀的物件模型。  
-- **無外部相依性** – 可在純 Java 環境下運作。  
-- **高保真度渲染** – 遮罩的呈現與 XPS 規範完全一致。  
-- **跨平台** – 可在 Windows、Linux 或 macOS 上執行，無需修改。  
+## 為什麼使用 Aspose.Page Java 來 **create XPS document java**？
+- **純 Java API** – 無需本機相依，程式碼可在 Windows、Linux 或 macOS 上執行。  
+- **完整符合 XPS 規範** – 遮罩的呈現與 XPS 標準完全一致。  
+- **物件導向設計** – 與 .NET 類似，若曾使用過其他語言的 Aspose，學習曲線平緩。  
+- **高效能** – 為大型文件與批次處理進行了最佳化。
+
+## 常見使用情境
+- **浮水印** – 在頁面上套用半透明的商標。  
+- **動態佈景主題** – 在產生的報表中變更 UI 元素的視覺風格。  
+- **列印前預覽** – 在送至印表機前，先顯示不同透明度的設計效果。
 
 ## 前置條件
-- 具備 Java 程式設計的基礎知識。  
-- 已安裝 Aspose.Page for Java 函式庫。您可於 **[此處](https://releases.aspose.com/page/java/)** 下載。  
-- 擁有有效的 Aspose.Page 授權。若尚未取得，可於 **[此處](https://purchase.aspose.com/temporary-license/)** 取得臨時授權。  
-- 具備能編譯與執行 Java 應用程式的開發環境（例如 IntelliJ IDEA、Eclipse 或 VS Code）。  
+在開始之前，請確保你已具備以下條件：
+- 基本的 Java 程式設計知識。  
+- 已安裝 Aspose.Page for Java 函式庫。你可以在 **[此處](https://releases.aspose.com/page/java/)** 下載。  
+- 有效的 Aspose.Page 授權。若尚未取得，可在 **[此處](https://purchase.aspose.com/temporary-license/)** 取得臨時授權。  
+- 可編譯與執行 Java 應用程式的開發環境（如 IntelliJ IDEA、Eclipse 或 VS Code）。
 
 ## 匯入套件
-首先從 Aspose.Page 函式庫匯入所需的類別，以確保 API 可在您的專案中使用。
+先匯入 Aspose.Page 函式庫中所需的類別，確保 API 可在專案中使用。
 
 ```java
 import com.aspose.xps.XpsCanvas;
@@ -54,7 +64,7 @@ import java.awt.geom.Rectangle2D;
 ## 步驟說明
 
 ### 步驟 1：建立新的 XPS 文件
-首先，實例化一個全新的 XPS 文件，用於容納所有圖形。
+首先，實例化一個全新的 XPS 文件，用來容納所有圖形。
 
 ```java
 // Create a new XPS document
@@ -70,7 +80,7 @@ XpsCanvas canvas = doc.addCanvas();
 ```
 
 ### 步驟 3：加入矩形並套用實心填色
-此處我們建立一條矩形路徑，並以實心紅色填色。此矩形稍後將套用不透明遮罩。
+此處建立矩形路徑，並以實心紅色填充。稍後會為此矩形套用不透明遮罩。
 
 ```java
 // Rectangle in the middle left with opacity masked by ImageBrush
@@ -79,7 +89,7 @@ path.setFill(doc.createSolidColorBrush(doc.createColor(1.0f, 0.0f, 0.0f)));
 ```
 
 ### 步驟 4：使用 ImageBrush 加入不透明遮罩
-我們載入一張 TIFF 圖片，定義來源與目標矩形，並將畫筆設定為平鋪模式，使遮罩在需要時可重複。
+我們載入 TIFF 影像，定義來源與目標矩形，並將畫筆設定為平鋪模式，使遮罩在需要時重複。
 
 ```java
 path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif", 
@@ -95,33 +105,33 @@ path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif",
 doc.save(dataDir + "OpacityMask_out.xps"); 
 ```
 
-請依照上述步驟，將 **add opacity mask** 功能整合至您的 Java XPS 文件中，使用 Aspose.Page。
+依照上述步驟操作，即可在 Java XPS 文件中加入 **add opacity mask** 功能，並使用 Aspose.Page 完成。
 
-## 常見問題與疑難排解
-- **找不到影像** – 請確認 `dataDir` 指向正確的資料夾，且 `R08SY_NN.tif` 確實存在。  
-- **遮罩呈現為實心** – 請確認來源影像確實包含不同的 alpha 值；若影像完全不透明，則不會顯示透明效果。  
-- **平鋪模式未生效** – 目標矩形必須小於來源矩形，才能明顯看到平鋪效果。  
+## 常見問題與除錯
+- **找不到影像** – 請確認 `dataDir` 指向正確資料夾，且 `R08SY_NN.tif` 確實存在。  
+- **遮罩呈現為實心** – 請確保來源影像本身具有不同的 alpha 值；全不透明的影像不會顯示透明效果。  
+- **平鋪模式未生效** – 必須讓目標矩形小於來源矩形，才能觀察到平鋪效果。
 
 ## 常見問答
 
-**Q: Aspose.Page 是否相容於所有 Java 開發環境？**  
-A: 是的，Aspose.Page 設計上可與各種 Java IDE 與建置工具無縫合作。
+**Q: Aspose.Page 是否相容所有 Java 開發環境？**  
+A: 是，Aspose.Page 設計可無縫配合各種 Java IDE 與建置工具。
 
-**Q: 我可以在沒有授權的情況下使用 Aspose.Page 嗎？**  
-A: 雖然您可使用臨時授權來評估此函式庫，但正式使用仍需完整授權。
+**Q: 可以在沒有授權的情況下使用 Aspose.Page 嗎？**  
+A: 雖然可使用臨時授權進行評估，但正式環境必須取得正式授權。
 
-**Q: 試用版有什麼限制嗎？**  
-A: 試用版可能會對檔案大小或功能施加限制，詳情請參考官方文件。
+**Q: 試用版有什麼限制？**  
+A: 試用版可能會對檔案大小或功能施加限制，詳情請參閱官方文件。
 
 **Q: 如何取得 Aspose.Page 的支援？**  
-A: 前往 **[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)** 取得社群協助，或購買授權以獲得高階支援。
+A: 前往 **[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)** 取得社群協助，或購買授權以獲得專業支援。
 
-**Q: Aspose.Page 有提供退款保證嗎？**  
+**Q: Aspose.Page 提供退款保證嗎？**  
 A: 請參考 **[購買頁面](https://purchase.aspose.com/buy)** 了解退款政策。
 
 ---
 
-**最後更新：** 2026-01-02  
+**最後更新：** 2026-04-30  
 **測試環境：** Aspose.Page Java 24.11（撰寫時的最新版本）  
 **作者：** Aspose  
 

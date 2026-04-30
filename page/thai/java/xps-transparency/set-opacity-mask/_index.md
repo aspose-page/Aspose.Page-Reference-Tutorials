@@ -1,10 +1,14 @@
 ---
-date: 2026-01-02
-description: เรียนรู้วิธีเพิ่มมาสก์ความทึบแสงให้กับเอกสาร XPS ด้วย Aspose.Page Java
-  คู่มือแบบขั้นตอนต่อขั้นตอนในการสร้างสี่เหลี่ยมมาสก์ความทึบแสงและเพิ่มคุณภาพภาพ
-linktitle: Set Opacity Mask in Java XPS
+date: 2026-04-30
+description: เรียนรู้วิธีสร้างเอกสาร XPS ด้วย Java และเพิ่มมาสก์ความโปร่งใสโดยใช้
+  Aspose.Page Java คู่มือแบบขั้นตอนพร้อมตัวอย่างโค้ด
+keywords:
+- create xps document java
+- opacity mask java
+- aspose.page java
+linktitle: ตั้งค่า มาสก์ความทึบแสงใน Java XPS
 second_title: Aspose.Page Java API
-title: ตั้งค่า Opacity Mask ใน Java XPS โดยใช้ Aspose.Page Java
+title: สร้างเอกสาร XPS ด้วย Java – ตั้งค่า Opacity Mask ด้วย Aspose.Page
 url: /th/java/xps-transparency/set-opacity-mask/
 weight: 11
 ---
@@ -13,35 +17,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ตั้งค่า Opacity Mask ใน Java XPS โดยใช้ Aspose.Page Java
+# ตั้งค่า Opacity Mask ใน Java XPS ด้วย Aspose.Page Java
 
 ## บทนำ
-Welcome to our comprehensive guide on **aspose page java** opacity masks. In this tutorial you’ll learn how to create an XPS document, add a canvas, and apply an opacity mask to a rectangle—all with the powerful Aspose.Page Java API. By the end you’ll be able to add opacity mask rectangles that give your XPS files a polished, semi‑transparent look.
+ในบทแนะนำนี้คุณจะ **create XPS document Java** ไฟล์และเรียนรู้วิธีการใช้ opacity mask ที่ทำให้กราฟิกของคุณดูเรียบหรูและกึ่ง‑โปร่งใส เราจะเดินผ่านกระบวนการทั้งหมด—ตั้งแต่การเริ่มต้นเอกสาร XPS, การเพิ่ม canvas, การวาดสี่เหลี่ยม, จนถึงการแนบ opacity mask ที่มาจากภาพ—โดยใช้ Aspose.Page Java API ที่ใช้งานง่าย เมื่อเสร็จคุณจะสามารถสร้างไฟล์ XPS ระดับมืออาชีพโดยอัตโนมัติและนำ mask ไปใช้ซ้ำกับรูปทรงใดก็ได้ที่ต้องการ
 
 ## คำตอบอย่างรวดเร็ว
-- **Opacity mask ทำหน้าที่อะไร?** It defines varying transparency levels for a shape, letting underlying content show through.
-- **ต้องใช้ไลบรารีอะไร?** Aspose.Page for Java (aspose page java).
-- **ต้องการไลเซนส์หรือไม่?** A temporary license works for testing; a full license is required for production.
-- **ต้องเขียนโค้ดกี่บรรทัด?** About 20 lines of Java plus a few setup statements.
-- **สามารถใช้ mask ซ้ำกับหลายรูปทรงได้หรือไม่?** Yes, you can assign the same ImageBrush to several paths.
+- **Opacity mask ทำหน้าที่อะไร?** มันกำหนดระดับความโปร่งใสที่แตกต่างกันสำหรับรูปทรงหนึ่ง ๆ ทำให้เนื้อหาที่อยู่ด้านล่างสามารถมองเห็นได้.  
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Page for Java (aspose page java).  
+- **ต้องการลิขสิทธิ์หรือไม่?** ลิขสิทธิ์ชั่วคราวใช้ได้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานจริง.  
+- **ต้องใช้โค้ดกี่บรรทัด?** ประมาณ 20 บรรทัดของ Java พร้อมกับคำสั่งตั้งค่าเล็กน้อย.  
+- **สามารถใช้ mask ซ้ำกับหลายรูปทรงได้หรือไม่?** ใช่, คุณสามารถกำหนด `ImageBrush` เดียวกันให้กับหลาย path.
 
 ## Opacity Mask คืออะไรใน XPS?
-An opacity mask is a bitmap or vector that controls the alpha (transparency) of each pixel in a shape. When applied to a rectangle, parts of the rectangle become fully opaque, partially transparent, or fully transparent, creating sophisticated visual effects.
+Opacity mask คือภาพบิตแมพหรือเวกเตอร์ที่ควบคุมค่าอัลฟา (ความโปร่งใส) ของแต่ละพิกเซลในรูปทรง เมื่อใช้กับสี่เหลี่ยมส่วนต่าง ๆ ของสี่เหลี่ยมจะกลายเป็นทึบเต็ม, กึ่งโปร่งใส, หรือโปร่งใสเต็ม ทำให้เกิดเอฟเฟกต์ภาพที่ซับซ้อนโดยไม่ต้องใช้เลเยอร์การวาดเพิ่มเติม
 
-## ทำไมต้องใช้ Aspose.Page Java สำหรับ Opacity Masks?
-- **Full .NET‑style API in Java** – intuitive object model.
-- **ไม่มีการพึ่งพาภายนอก** – works with pure Java.
-- **การเรนเดอร์คุณภาพสูง** – masks render exactly as in the XPS specification.
-- **ข้ามแพลตฟอร์ม** – run on Windows, Linux, or macOS without changes.
+## ทำไมต้องใช้ Aspose.Page Java เพื่อ **create XPS document java**?
+- **Pure Java API** – ไม่มีการพึ่งพา native, ดังนั้นโค้ดเดียวกันทำงานได้บน Windows, Linux หรือ macOS.  
+- **Full XPS spec compliance** – Mask แสดงผลตรงตามมาตรฐาน XPS.  
+- **Object‑oriented design** – คล้าย .NET ทำให้เรียนรู้ได้ง่ายหากคุณเคยใช้ Aspose ในภาษาอื่น.  
+- **High performance** – ปรับให้ทำงานได้อย่างมีประสิทธิภาพกับเอกสารขนาดใหญ่และการประมวลผลแบบแบตช์.
+
+## กรณีการใช้งานทั่วไป
+- **Watermarking** – ใส่โลโก้กึ่ง‑โปร่งใสทั่วทั้งหน้า.  
+- **Dynamic theming** – เปลี่ยนสไตล์การแสดงผลของ UI ในรายงานที่สร้างขึ้น.  
+- **Print‑ready previews** – แสดงว่าการออกแบบจะเป็นอย่างไรเมื่อมีความโปร่งใสต่าง ๆ ก่อนส่งไปพิมพ์.
 
 ## ข้อกำหนดเบื้องต้น
+ก่อนเริ่ม, โปรดตรวจสอบว่าคุณมี:
 - ความเข้าใจพื้นฐานของการเขียนโปรแกรม Java.  
-- Aspose.Page for Java library installed. You can download it **[here](https://releases.aspose.com/page/java/)**.  
-- ไลเซนส์ที่ใช้งานได้สำหรับ Aspose.Page. If you don’t have one, obtain a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.  
-- สภาพแวดล้อมการพัฒนาที่สามารถคอมไพล์และรันแอปพลิเคชัน Java (เช่น IntelliJ IDEA, Eclipse, or VS Code).
+- ไลบรารี Aspose.Page for Java ติดตั้งแล้ว คุณสามารถดาวน์โหลดได้ **[ที่นี่](https://releases.aspose.com/page/java/)**.  
+- ลิขสิทธิ์ที่ถูกต้องสำหรับ Aspose.Page หากคุณไม่มี สามารถรับลิขสิทธิ์ชั่วคราว **[ที่นี่](https://purchase.aspose.com/temporary-license/)**.  
+- สภาพแวดล้อมการพัฒนาที่สามารถคอมไพล์และรันแอปพลิเคชัน Java ได้ (เช่น IntelliJ IDEA, Eclipse หรือ VS Code).
 
 ## นำเข้าแพ็กเกจ
-Start by importing the necessary classes from the Aspose.Page library. This ensures the API is available to your project.
+เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็นจากไลบรารี Aspose.Page เพื่อให้ API พร้อมใช้งานในโปรเจกต์ของคุณ.
 
 ```java
 import com.aspose.xps.XpsCanvas;
@@ -52,10 +62,10 @@ import com.aspose.xps.XpsTileMode;
 import java.awt.geom.Rectangle2D;
 ```
 
-## คู่มือแบบขั้นตอน
+## คู่มือขั้นตอนต่อขั้นตอน
 
-### ขั้นตอนที่ 1: สร้างเอกสาร XPS ใหม่
-First, instantiate a fresh XPS document that will hold all of our graphics.
+### ขั้นตอนที่ 1: สร้าง XPS Document ใหม่
+แรกสุด, สร้างอินสแตนซ์ของ XPS Document ใหม่ที่จะเก็บกราฟิกทั้งหมดของเรา.
 
 ```java
 // Create a new XPS document
@@ -63,15 +73,15 @@ XpsDocument doc = new XpsDocument();
 ```
 
 ### ขั้นตอนที่ 2: เพิ่ม Canvas
-A canvas acts as a drawing surface inside the XPS page.
+Canvas ทำหน้าที่เป็นพื้นผิวการวาดภายในหน้า XPS.
 
 ```java
 // New canvas
 XpsCanvas canvas = doc.addCanvas();
 ```
 
-### ขั้นตอนที่ 3: เพิ่มสี่เหลี่ยมและใช้การเติมสีทึบ
-Here we create a rectangle path and give it a solid red fill. This rectangle will later receive the opacity mask.
+### ขั้นตอนที่ 3: เพิ่มสี่เหลี่ยมและใช้สีเติมแบบ Solid
+ที่นี่เราสร้างเส้นทางสี่เหลี่ยมและเติมสีแดงแบบ solid สี่เหลี่ยมนี้จะได้รับ opacity mask ในภายหลัง.
 
 ```java
 // Rectangle in the middle left with opacity masked by ImageBrush
@@ -80,7 +90,7 @@ path.setFill(doc.createSolidColorBrush(doc.createColor(1.0f, 0.0f, 0.0f)));
 ```
 
 ### ขั้นตอนที่ 4: เพิ่ม Opacity Mask ด้วย ImageBrush
-We load a TIFF image, define source and destination rectangles, and set the brush to tile mode so the mask repeats if needed.
+เราจะโหลดภาพ TIFF, กำหนดสี่เหลี่ยมต้นทางและปลายทาง, และตั้งค่า brush เป็นโหมด tile เพื่อให้ mask ทำซ้ำหากจำเป็น.
 
 ```java
 path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif", 
@@ -88,41 +98,41 @@ path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif",
 ((XpsImageBrush)path.getOpacityMask()).setTileMode(XpsTileMode.Tile);
 ```
 
-### ขั้นตอนที่ 5: บันทึกเอกสาร XPS ที่ได้
-Finally, persist the document to disk. The output file will contain the rectangle with the applied opacity mask.
+### ขั้นตอนที่ 5: บันทึก XPS Document ที่ได้
+สุดท้าย, บันทึกเอกสารลงดิสก์ ไฟล์ผลลัพธ์จะมีสี่เหลี่ยมพร้อมกับ opacity mask ที่ได้ใส่ไว้.
 
 ```java
 // Save resultant XPS document
 doc.save(dataDir + "OpacityMask_out.xps"); 
 ```
 
-Follow these steps carefully to incorporate **add opacity mask** functionality into your Java XPS document using Aspose.Page.
+ทำตามขั้นตอนเหล่านี้อย่างระมัดระวังเพื่อรวมฟังก์ชัน **add opacity mask** เข้าไปใน Java XPS document ของคุณโดยใช้ Aspose.Page.
 
-## ปัญหาทั่วไปและการแก้ไข
-- **ไม่พบภาพ** – Verify that `dataDir` points to the correct folder and that `R08SY_NN.tif` exists.
-- **Mask ปรากฏเป็นสีทึบ** – Ensure the source image actually contains varying alpha values; a fully opaque image will not show transparency.
-- **โหมด tile ไม่ทำงาน** – The destination rectangle must be smaller than the source rectangle for tiling to be noticeable.
+## ปัญหาทั่วไปและการแก้ไขข้อผิดพลาด
+- **Image not found** – ตรวจสอบว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่ถูกต้องและไฟล์ `R08SY_NN.tif` มีอยู่.  
+- **Mask appears solid** – ตรวจสอบว่าภาพต้นทางมีค่าอัลฟาที่แตกต่างกัน; ภาพที่ทึบเต็มจะไม่แสดงความโปร่งใส.  
+- **Tile mode not respected** – สี่เหลี่ยมปลายทางต้องมีขนาดเล็กกว่าสี่เหลี่ยมต้นทางเพื่อให้การทำซ้ำเป็นที่สังเกต.
 
 ## คำถามที่พบบ่อย
 
 **Q: Aspose.Page รองรับสภาพแวดล้อมการพัฒนา Java ทั้งหมดหรือไม่?**  
-A: Yes, Aspose.Page is designed to work seamlessly with various Java IDEs and build tools.
+A: ใช่, Aspose.Page ถูกออกแบบให้ทำงานร่วมกับ IDE และเครื่องมือ build ของ Java ได้อย่างราบรื่น.
 
-**Q: สามารถใช้ Aspose.Page โดยไม่มีไลเซนส์ได้หรือไม่?**  
-A: While you can evaluate the library with a temporary license, a full license is required for production use.
+**Q: สามารถใช้ Aspose.Page โดยไม่ต้องมีลิขสิทธิ์ได้หรือไม่?**  
+A: แม้ว่าคุณจะประเมินไลบรารีด้วยลิขสิทธิ์ชั่วคราวได้, แต่ต้องมีลิขสิทธิ์เต็มสำหรับการใช้งานจริง.
 
 **Q: มีข้อจำกัดใดในเวอร์ชันทดลองหรือไม่?**  
-A: The trial may impose size or feature restrictions; consult the official documentation for details.
+A: เวอร์ชันทดลองอาจมีการจำกัดขนาดหรือคุณสมบัติบางอย่าง; โปรดตรวจสอบเอกสารอย่างเป็นทางการสำหรับรายละเอียด.
 
 **Q: จะขอรับการสนับสนุนสำหรับ Aspose.Page อย่างไร?**  
-A: Visit the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** for community help or purchase a license for premium assistance.
+A: เยี่ยมชม **[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39)** เพื่อขอความช่วยเหลือจากชุมชนหรือซื้อไลเซนส์เพื่อรับการช่วยเหลือระดับพรีเมียม.
 
 **Q: มีการรับประกันคืนเงินสำหรับ Aspose.Page หรือไม่?**  
-A: Refer to the **[purchase page](https://purchase.aspose.com/buy)** for information on refund policies.
+A: ดู **[หน้าซื้อ](https://purchase.aspose.com/buy)** เพื่อข้อมูลเกี่ยวกับนโยบายการคืนเงิน.
 
 ---
 
-**อัปเดตล่าสุด:** 2026-01-02  
+**อัปเดตล่าสุด:** 2026-04-30  
 **ทดสอบด้วย:** Aspose.Page Java 24.11 (latest at time of writing)  
 **ผู้เขียน:** Aspose  
 
