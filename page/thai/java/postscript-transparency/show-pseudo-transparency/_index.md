@@ -1,8 +1,12 @@
 ---
-date: 2025-12-17
-description: เรียนรู้วิธีสร้างความโปร่งใสเทียมใน Java ด้วย Aspose.Page ทำตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อเพิ่มกราฟิกที่สดใสในไฟล์
+date: 2026-05-05
+description: เรียนรู้วิธีสร้าง pseudo transparency ใน Java ด้วย Aspose.Page ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนของเราเพื่อเพิ่มกราฟิกที่สดใสในไฟล์
   PostScript.
-linktitle: Show Pseudo-Transparency in Java PostScript
+keywords:
+- create pseudo transparency java
+- Aspose.Page Java
+- PostScript pseudo transparency
+linktitle: แสดงการทำให้ดูเหมือนโปร่งใสใน Java PostScript
 second_title: Aspose.Page Java API
 title: วิธีสร้างความโปร่งใสเทียมใน Java ด้วย Aspose.Page
 url: /th/java/postscript-transparency/show-pseudo-transparency/
@@ -13,35 +17,39 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java PostScript Pseudo-Transparency กับ Aspose.Page
+# Java PostScript พีซูโด‑ความโปร่งใสด้วย Aspose.Page
 
 ## บทนำ
-ในบทแนะนำที่ครอบคลุมนี้ คุณจะ **สร้างกราฟิก pseudo transparency java** ด้วย Aspose.Page สำหรับ Java เราจะเดินผ่านทุกขั้นตอน—ตั้งแต่การตั้งค่าสภาพแวดล้อมจนถึงการเรนเดอร์สี่เหลี่ยมสองรูปที่ทับกันซึ่งให้ภาพลวงของความโปร่งใสในไฟล์ PostScript เมื่อเสร็จสิ้น คุณจะเข้าใจว่าทำไม pseudo‑transparency จึงมีประโยชน์ วิธีการนำไปใช้ และวิธีปรับพารามิเตอร์สำหรับการออกแบบของคุณเอง
+ในบทแนะนำที่ครอบคลุมนี้ คุณจะ **create pseudo transparency java** กราฟิกด้วย Aspose.Page สำหรับ Java เราจะเดินผ่านทุกขั้นตอน — ตั้งค่าสภาพแวดล้อมจนถึงการเรนเดอร์สี่เหลี่ยมสองรูปที่ทับกันซึ่งให้ภาพลวงของความโปร่งใสในไฟล์ PostScript เมื่อเสร็จสิ้น คุณจะเข้าใจว่าทำไม pseudo‑transparency จึงมีประโยชน์ วิธีการนำไปใช้ และวิธีปรับแต่งพารามิเตอร์สำหรับการออกแบบของคุณเอง
 
-## คำตอบด่วน
-- **What does pseudo‑transparency mean?** It simulates transparency by blending translucent gradients.
-- **Which library is required?** Aspose.Page for Java.
-- **Do I need a license to run the example?** A free trial works for development; a commercial license is needed for production.
-- **What IDE can I use?** Any Java IDE (IntelliJ IDEA, Eclipse, VS Code) that supports Java 8+.
-- **How long does the implementation take?** Approximately 10‑15 minutes for a basic example.
+## คำตอบสั้น
+- **pseudo‑transparency หมายถึงอะไร?** มันจำลองความโปร่งใสโดยการผสมผสานกราเดียนท์แบบกึ่งโปร่งใส
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Page for Java
+- **ต้องการไลเซนส์เพื่อรันตัวอย่างหรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการพัฒนา; ต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง
+- **ใช้ IDE ใดได้บ้าง?** IDE Java ใดก็ได้ (IntelliJ IDEA, Eclipse, VS Code) ที่รองรับ Java 8+
+- **ใช้เวลานานเท่าไหร่ในการทำงานนี้?** ประมาณ 10‑15 นาทีสำหรับตัวอย่างพื้นฐาน
+
+## วิธีสร้าง pseudo transparency java ด้วย Aspose.Page
+การเข้าใจ “ทำไม” ของแต่ละขั้นตอนช่วยให้คุณปรับเทคนิคนี้ไปใช้กับสถานการณ์กราฟิกอื่น ๆ ได้ ด้านล่างเราจะแบ่งกระบวนการออกเป็นขั้นตอนที่ชัดเจนและทำได้จริง เพื่อให้คุณตามได้แม้จะใหม่กับการสร้าง PostScript
 
 ## pseudo transparency คืออะไรใน Java PostScript?
-Pseudo transparency เป็นเทคนิคที่ใช้การเติม Gradient แบบกึ่งโปร่งใสเพื่อให้เกิดเอฟเฟกต์ของวัตถุที่มองทะลุได้ เนื่องจาก PostScript แบบดั้งเดิมไม่รองรับช่องสีอัลฟาแบบจริง ๆ Aspose.Page จึงจำลองโดยการวางชั้นรูปทรงที่โปร่งแสงซ้อนกัน
+pseudo transparency เป็นเทคนิคที่ใช้การเติมกราเดียนท์กึ่งโปร่งใสเพื่อให้เกิดเอฟเฟกต์ของวัตถุที่มองทะลุได้ เนื่องจาก PostScript แบบดั้งเดิมไม่รองรับแชนแนลอัลฟาจริง ๆ Aspose.Page จำลองสิ่งนี้โดยการวางชั้นรูปทรงกึ่งโปร่งใสซ้อนกัน
 
 ## ทำไมต้องใช้ Aspose.Page สำหรับ pseudo transparency?
-- **Cross‑platform** – Generates valid PostScript on any OS.
-- **No external dependencies** – Pure Java API.
-- **Fine‑grained control** – Adjust colors, opacity, and gradient direction programmatically.
-- **Consistent output** – Works the same across printers and viewers.
+- **Cross‑platform** – สร้าง PostScript ที่ถูกต้องบนระบบปฏิบัติการใดก็ได้  
+- **No external dependencies** – API Java แท้  
+- **Fine‑grained control** – ปรับสี, ความทึบ, และทิศทางของกราเดียนท์โดยโปรแกรม  
+- **Consistent output** – ทำงานเหมือนกันบนเครื่องพิมพ์และโปรแกรมดูไฟล์
 
 ## ข้อกำหนดเบื้องต้น
-- Basic knowledge of Java.
-- Familiarity with PostScript concepts.
-- Aspose.Page for Java library installed. If you haven’t downloaded it yet, get it **[here](https://releases.aspose.com/page/java/)**.
-- A Java IDE or build tool (Maven/Gradle) ready.
+ก่อนเริ่มทำงาน ให้แน่ใจว่าคุณมี:
+- ความรู้พื้นฐานของ Java  
+- ความคุ้นเคยกับแนวคิดของ PostScript  
+- ไลบรารี Aspose.Page for Java ติดตั้งแล้ว หากคุณยังไม่ได้ดาวน์โหลด ให้รับได้จาก **[here](https://releases.aspose.com/page/java/)**  
+- IDE Java หรือเครื่องมือสร้าง (Maven/Gradle) พร้อมใช้งาน
 
 ## นำเข้าแพ็กเกจ
-Begin by importing the necessary classes so you can work with colors, gradients, and the PostScript document object.
+เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็นเพื่อให้คุณสามารถทำงานกับสี, กราดิเอนท์, และอ็อบเจ็กต์เอกสาร PostScript
 
 ```java
 import java.awt.Color;
@@ -56,7 +64,7 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## ขั้นตอนที่ 1: สร้าง PS Document
-First, we create an output stream and initialize a new `PsDocument`. This sets up the canvas where we’ll draw our shapes.
+แรกสุด เราจะสร้าง output stream และเริ่มต้น `PsDocument` ใหม่ ซึ่งจะเป็นผืนแคนวาสสำหรับวาดรูปทรงของเรา
 
 ```java
 // The path to the documents directory.
@@ -69,7 +77,7 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
 ## ขั้นตอนที่ 2: กำหนดสี่เหลี่ยมด้วยการเติม Gradient แบบทึบ
-We draw the first rectangle using a fully opaque gradient. This will serve as the background for our pseudo‑transparent overlay.
+เราวาดสี่เหลี่ยมแรกโดยใช้กราเดียนท์ที่เต็มอิ่มและทึบทั้งหมด ซึ่งจะทำหน้าที่เป็นพื้นหลังสำหรับการทับ pseudo‑transparent
 
 ```java
 float offsetX = 50;
@@ -87,8 +95,8 @@ document.setPaint(paint);
 document.fill(rectangle);
 ```
 
-## ขั้นตอนที่ 3: กำหนดสี่เหลี่ยมด้วยการเติม Gradient แบบโปร่งแสง
-Next, we place a second rectangle that uses a gradient with alpha values. This creates the **pseudo transparency** effect when it overlaps the first shape.
+## ขั้นตอนที่ 3: กำหนดสี่เหลี่ยมด้วยการเติม Gradient แบบกึ่งโปร่งใส
+ต่อไป เราวางสี่เหลี่ยมที่สองที่ใช้กราเดียนท์พร้อมค่าตัวอัลฟา ซึ่งจะสร้างเอฟเฟกต์ **pseudo transparency** เมื่อทับกับรูปแรก
 
 ```java
 offsetX = 350;
@@ -104,37 +112,37 @@ document.fill(rectangle);
 ```
 
 ## ขั้นตอนที่ 4: ปิดหน้าและบันทึกเอกสาร
-Finally, we close the current page and write the PostScript file to disk.
+สุดท้าย เราปิดหน้าปัจจุบันและเขียนไฟล์ PostScript ลงดิสก์
 
 ```java
 document.closePage();
 document.save();
 ```
 
-## ปัญหาทั่วไป & การแก้ไขปัญหา
-- **FileNotFoundException** – Verify that `dataDir` points to an existing folder and that your application has write permissions.
-- **Incorrect colors** – Ensure you’re using the `Color(int r, int g, int b, int a)` constructor for translucent colors; the fourth parameter is the alpha (0‑255).
-- **Gradient not visible** – Check that the `AffineTransform` parameters correctly map the gradient to the rectangle dimensions.
+## ปัญหาทั่วไปและการแก้ไข
+- **FileNotFoundException** – ตรวจสอบว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่มีอยู่และแอปพลิเคชันของคุณมีสิทธิ์เขียน  
+- **Incorrect colors** – ตรวจสอบว่าคุณใช้คอนสตรัคเตอร์ `Color(int r, int g, int b, int a)` สำหรับสีกึ่งโปร่งใส; พารามิเตอร์ที่สี่คือค่า alpha (0‑255)  
+- **Gradient not visible** – ตรวจสอบว่าพารามิเตอร์ `AffineTransform` แมปกราเดียนท์ให้ตรงกับขนาดของสี่เหลี่ยมอย่างถูกต้อง
 
 ## คำถามที่พบบ่อย
-### ฉันสามารถใช้ Aspose.Page สำหรับ Java ในโครงการเชิงพาณิชย์ได้หรือไม่?
-Yes, Aspose.Page for Java is available for commercial use. You can purchase a license [here](https://purchase.aspose.com/buy).
+### ฉันสามารถใช้ Aspose.Page for Java ในโครงการเชิงพาณิชย์ได้หรือไม่?
+ใช่, Aspose.Page for Java สามารถใช้ในเชิงพาณิชย์ได้ คุณสามารถซื้อไลเซนส์ได้จาก [here](https://purchase.aspose.com/buy)
 
-### มีรุ่นทดลองใช้งานฟรีหรือไม่?
-Yes, you can get a free trial [here](https://releases.aspose.com/).
+### มีรุ่นทดลองใช้ฟรีหรือไม่?
+ใช่, คุณสามารถรับรุ่นทดลองใช้ฟรีได้จาก [here](https://releases.aspose.com/)
 
 ### ฉันจะหาเอกสารเพิ่มเติมได้จากที่ไหน?
-Detailed documentation is available [here](https://reference.aspose.com/page/java/).
+เอกสารโดยละเอียดพร้อมให้บริการที่ [here](https://reference.aspose.com/page/java/)
 
-### ฉันจะขอรับใบอนุญาตชั่วคราวเพื่อการทดสอบได้อย่างไร?
-You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+### ฉันจะขอรับไลเซนส์ชั่วคราวเพื่อการทดสอบได้อย่างไร?
+คุณสามารถขอรับไลเซนส์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/)
 
 ### ต้องการความช่วยเหลือหรืออยากพูดคุยเกี่ยวกับ Aspose.Page?
-Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
+เยี่ยมชม [Aspose.Page Forum](https://forum.aspose.com/c/page/39)
 
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-05-05  
+**ทดสอบด้วย:** Aspose.Page for Java 24.12 (latest)  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

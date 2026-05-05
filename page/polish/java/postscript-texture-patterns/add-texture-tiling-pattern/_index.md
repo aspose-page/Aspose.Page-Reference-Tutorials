@@ -1,11 +1,15 @@
 ---
-date: 2025-12-17
-description: Dowiedz się, jak dodać wzory tekstur kafelkowych do dokumentów PostScript
+date: 2026-05-05
+description: Dowiedz się, jak dodawać wzory tekstur kafelkowych do dokumentów PostScript
   przy użyciu Aspose.Page dla Javy. Ten przewodnik pokazuje, jak efektywnie dodawać
   teksturę i odkrywać kreatywne możliwości.
-linktitle: Add Texture Tiling Pattern in Java PostScript
+keywords:
+- how to add texture
+- fill shape with texture
+- fill rectangle with texture
+linktitle: Dodaj wzór kafelkowania tekstury w Java PostScript
 second_title: Aspose.Page Java API
-title: Jak dodać wzór tekstury kafelkowej w Java PostScript
+title: Jak dodać wzór kafelkowania tekstury w Java PostScript
 url: /pl/java/postscript-texture-patterns/add-texture-tiling-pattern/
 weight: 10
 ---
@@ -14,31 +18,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj Wzorzec Kafelkowania Tekstury w Java PostScript
+# Jak dodać wzorzec kafelkowania tekstury w Java PostScript
 
 ## Wprowadzenie
-W świecie programowania w Javie nauka **jak dodać teksturę** do dokumentów PostScript jest powszechnym wymaganiem. Aspose.Page for Java okazuje się cennym narzędziem, które umożliwia wykonanie tego zadania bez wysiłku. W tym samouczku poprowadzimy Cię krok po kroku przez proces dodawania wzorca kafelkowania tekstury w dokumencie Java PostScript przy użyciu Aspose.Page.
+W świecie programowania w Javie, nauka **jak dodać teksturę** do dokumentów PostScript jest częstym wymaganiem. Aspose.Page for Java upraszcza to zadanie, pozwalając skupić się na projekcie, a nie na niskopoziomowej składni PostScript. W tym samouczku przeprowadzimy Cię przez każdy krok potrzebny do dodania wzorca kafelkowania tekstury, wypełniania kształtów oraz tekstu teksturą w dokumencie Java PostScript.
 
 ## Szybkie odpowiedzi
 - **Jakiej biblioteki potrzebujesz?** Aspose.Page for Java  
-- **Jakie główne słowo kluczowe jest celem tego przewodnika?** *how to add texture*  
-- **Czy potrzebuję licencji do testowania?** Dostępna jest darmowa wersja próbna; licencja jest wymagana w środowisku produkcyjnym.  
-- **Jaką wersję Javy obsługuje?** Java 8 lub nowsza.  
-- **Czy mogę ponownie używać pędzla tekstury dla wielu kształtów?** Tak – utwórz `TexturePaint` raz i zastosuj go do dowolnego kształtu.
+- **Które główne słowo kluczowe jest celem tego przewodnika?** *how to add texture*  
+- **Czy potrzebuję licencji do testowania?** Dostępna jest bezpłatna wersja próbna; licencja jest wymagana w produkcji.  
+- **Jaką wersję Javy obsługuje?** Java 8 lub wyższą.  
+- **Czy mogę ponownie używać pędzla tekstury dla wielu kształtów?** Tak – utwórz `TexturePaint` raz i zastosuj go do dowolnego kształtu.  
+- **Jak wypełnić prostokąt teksturą?** Użyj `document.fill(shape)` po ustawieniu `TexturePaint` jako bieżącego pędzla.
 
 ## Czym jest wzorzec kafelkowania tekstury?
-Wzorzec kafelkowania tekstury powtarza mały obraz (kafelek) na większej powierzchni, umożliwiając **wypełnienie kształtu teksturą** bez ręcznego rysowania każdego kafelka. Technika ta jest idealna dla tła, wypełnień i dekoracyjnych efektów tekstowych w PostScript.
+Wzorzec kafelkowania tekstury powtarza mały obraz (kafelek) na większym obszarze, umożliwiając **wypełnianie kształtu teksturą** bez ręcznego rysowania każdego kafelka. Technika ta jest idealna dla tła, wypełnień i dekoracyjnych efektów tekstowych w PostScript.
 
-## Dlaczego używać Aspose.Page for Java?
+## Dlaczego warto używać Aspose.Page for Java?
 - **Renderowanie bez zależności** – nie wymaga zewnętrznych interpreterów PostScript.  
-- **Pełna kontrola nad grafiką** – łączy kształty wektorowe, tekst i bitmapowe tekstury.  
-- **Wieloplatformowość** – działa na każdym systemie operacyjnym obsługującym Javę.  
+- **Pełna kontrola nad grafiką** – łącz wektory, tekst i bitmapowe tekstury.  
+- **Cross‑platform** – działa na każdym systemie operacyjnym obsługującym Javę.  
 
 ## Wymagania wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania:
 - Podstawowa znajomość języka programowania Java.  
 - Znajomość struktury dokumentu PostScript.  
-- Biblioteka Aspose.Page for Java zainstalowana. Możesz ją pobrać [tutaj](https://releases.aspose.com/page/java/).
+- Zainstalowana biblioteka Aspose.Page for Java. Możesz ją pobrać [tutaj](https://releases.aspose.com/page/java/).
 
 ## Importowanie pakietów
 Rozpocznij od zaimportowania niezbędnych pakietów do swojego projektu Java:
@@ -57,8 +62,11 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Krok 1: Utwórz dokument PostScript
-Rozpocznij od utworzenia nowego dokumentu PostScript, określając strumień wyjściowy oraz opcje zapisu. Upewnij się, że masz skonfigurowane wymagane ścieżki.
+## Jak dodać wzorzec kafelkowania tekstury w Java PostScript
+Poniżej znajduje się przewodnik krok po kroku. Każdy krok zawiera krótkie wyjaśnienie oraz dokładny kod, który należy skopiować.
+
+### Krok 1: Utwórz dokument PostScript
+Rozpocznij od utworzenia nowego dokumentu PostScript, określając strumień wyjściowy i opcje zapisu. Upewnij się, że masz skonfigurowane niezbędne ścieżki.
 
 ```java
 // The path to the documents directory.
@@ -73,8 +81,8 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Krok 2: Skonfiguruj środowisko graficzne
-Skonfiguruj środowisko graficzne, przesuwając początek układu i tworząc `BufferedImage` z pliku obrazu tekstury.
+### Krok 2: Skonfiguruj środowisko graficzne
+Przesuń początek układu do wygodnej lokalizacji i załaduj bitmapę, która będzie służyć jako kafelek tekstury.
 
 ```java
 document.writeGraphicsSave();
@@ -83,8 +91,8 @@ document.translate(200, 100);
 BufferedImage image = ImageIO.read(new File(dataDir + "TestTexture.bmp"));
 ```
 
-## Krok 3: Utwórz pędzel tekstury
-Zdefiniuj pędzel tekstury z obrazu, określając obszar, który ma być pokryty teksturą.
+### Krok 3: Utwórz pędzel tekstury
+Zdefiniuj `TexturePaint`, który powtarza bitmapę na obszarze kształtu. Dostosuj rozmiar prostokąta, jeśli chcesz, aby kafelek był większy lub mniejszy.
 
 ```java
 // Create image area doubled in width
@@ -93,8 +101,8 @@ Rectangle2D.Float imageArea = new Rectangle2D.Float(0, 0, image.getWidth() * 2, 
 TexturePaint paint = new TexturePaint(image, imageArea);
 ```
 
-## Krok 4: Rysuj i wypełniaj kształty
-Utwórz prostokąt i **wypełnij kształt teksturą** przy użyciu zdefiniowanego pędzla. Dodatkowo narysuj i obrysuj kształt dla lepszego efektu wizualnego.
+### Krok 4: Rysuj i wypełniaj kształty
+Utwórz prostokąt i **wypełnij prostokąt teksturą** przy użyciu pędzla. Następnie obrysuj kształt, aby wynik był wizualnie wyraźny.
 
 ```java
 // Create rectangle
@@ -108,8 +116,8 @@ document.setStroke(new BasicStroke(2));
 document.draw(shape);
 ```
 
-## Krok 5: Dodaj tekst z wzorcem tekstury
-Dodaj tekst do dokumentu i pokaż **jak wypełnić teksturą** glify. Dostosuj czcionkę, pozycję i inne parametry w razie potrzeby.
+### Krok 5: Dodaj tekst ze wzorcem tekstury
+Możesz również zastosować tę samą teksturę do glifów tekstu. To pokazuje **jak wypełnić teksturą** znaki, jednocześnie umożliwiając ich obrysowanie.
 
 ```java
 // Fill the text with the texture pattern
@@ -119,8 +127,8 @@ document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicS
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
 
-## Krok 6: Zapisz i zamknij
-Zakończ proces, zamykając bieżącą stronę, zapisując dokument i zapewniając płynne wykonanie.
+### Krok 6: Zapisz i zamknij
+Na koniec zamknij stronę, zapisz dokument i zwolnij zasoby.
 
 ```java
 // Close current page
@@ -129,34 +137,35 @@ document.closePage();
 document.save();
 ```
 
-## Typowe problemy i wskazówki
-- **Brak pliku tekstury** – Sprawdź, czy ścieżka do `TestTexture.bmp` jest prawidłowa i plik jest dostępny.  
-- **Nieprawidłowe wymiary obrazu** – Jeśli tekstura wydaje się rozciągnięta, dostosuj `imageArea`, aby odpowiadało oryginalnemu rozmiarowi obrazu.  
-- **Wydajność** – Ponownie używaj tej samej instancji `TexturePaint` dla wielu kształtów, aby uniknąć niepotrzebnego tworzenia obiektów.
+## Częste problemy i wskazówki
+- **Brakujący plik tekstury** – Sprawdź, czy ścieżka do `TestTexture.bmp` jest poprawna i plik jest dostępny.  
+- **Nieprawidłowe wymiary obrazu** – Jeśli tekstura jest rozciągnięta, dostosuj `imageArea` do rozmiaru oryginalnego obrazu.  
+- **Wydajność** – Ponownie używaj tej samej instancji `TexturePaint` dla wielu kształtów, aby uniknąć niepotrzebnego tworzenia obiektów.  
+- **Porada:** Użyj bitmapy wysokiej rozdzielczości jako kafelka, aby tekstura pozostała wyraźna po skalowaniu.
 
 ## Najczęściej zadawane pytania
 
-**P: Czy Aspose.Page for Java jest odpowiedni dla początkujących?**  
-O: Zdecydowanie! Aspose.Page for Java oferuje obszerną dokumentację, dzięki czemu jest dostępny dla programistów o różnym poziomie zaawansowania.
+**Q: Czy Aspose.Page for Java jest odpowiedni dla początkujących?**  
+A: Zdecydowanie tak!
 
-**P: Czy mogę zintegrować Aspose.Page for Java z istniejącym projektem Java?**  
-O: Tak, możesz łatwo włączyć Aspose.Page for Java do swojego projektu, postępując zgodnie z udostępnioną dokumentacją [tutaj](https://reference.aspose.com/page/java/).
+**Q: Czy mogę zintegrować Aspose.Page for Java z istniejącym projektem Java?**  
+A: Tak, możesz łatwo zintegrować Aspose.Page for Java ze swoim projektem, postępując zgodnie z dokumentacją udostępnioną [tutaj](https://reference.aspose.com/page/java/).
 
-**P: Gdzie mogę znaleźć wsparcie lub dyskutować o zagadnieniach związanych z Aspose.Page?**  
-O: Odwiedź [forum Aspose.Page](https://forum.aspose.com/c/page/39), aby skontaktować się ze społecznością i uzyskać pomoc.
+**Q: Gdzie mogę znaleźć wsparcie lub dyskutować o zapytaniach związanych z Aspose.Page?**  
+A: Odwiedź [forum Aspose.Page](https://forum.aspose.com/c/page/39), aby skontaktować się ze społecznością i uzyskać pomoc.
 
-**P: Czy dostępna jest darmowa wersja próbna Aspose.Page for Java?**  
-O: Tak, darmową wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
+**Q: Czy dostępna jest bezpłatna wersja próbna Aspose.Page for Java?**  
+A: Tak, możesz wypróbować bezpłatną wersję próbną [tutaj](https://releases.aspose.com/).
 
-**P: Jak mogę uzyskać tymczasową licencję dla Aspose.Page for Java?**  
-O: Przejdź do [tego linku](https://purchase.aspose.com/temporary-license/), aby uzyskać tymczasową licencję.
+**Q: Jak mogę uzyskać tymczasową licencję na Aspose.Page for Java?**  
+A: Odwiedź [ten link](https://purchase.aspose.com/temporary-license/), aby uzyskać tymczasową licencję.
 
-## Podsumowanie
-Gratulacje! Pomyślnie nauczyłeś się **jak dodać teksturę** w postaci wzorców kafelkowania do dokumentu Java PostScript przy użyciu Aspose.Page for Java. Śmiało eksperymentuj z dalszymi opcjami dostosowywania — wypróbuj różne bitmapowe kafelki, współczynniki skali i operacje kompozycji, aby w pełni wykorzystać kreatywny potencjał wypełnień teksturą.
+## Zakończenie
+Gratulacje! Pomyślnie nauczyłeś się **jak dodać teksturę** w postaci wzorców kafelkowania do dokumentu Java PostScript przy użyciu Aspose.Page for Java. Śmiało eksperymentuj z różnymi bitmapowymi kafelkami, współczynnikami skali i operacjami kompozycji, aby w pełni wykorzystać kreatywny potencjał wypełnień teksturą.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-17  
+**Last Updated:** 2026-05-05  
 **Testowano z:** Aspose.Page for Java 24.12 (latest)  
 **Autor:** Aspose  
 

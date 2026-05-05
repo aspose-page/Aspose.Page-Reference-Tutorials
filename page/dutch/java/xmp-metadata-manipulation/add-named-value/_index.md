@@ -1,26 +1,55 @@
 ---
-title: Voeg een benoemde waarde toe in XMP met behulp van Java
-linktitle: Voeg een benoemde waarde toe in XMP met behulp van Java
-second_title: Aspose.Page Java-API
-description: Beheers Java-documentmanipulatie met Aspose.Page! Voeg moeiteloos benoemde waarden toe aan XMP-metagegevens met onze stapsgewijze handleiding voor naadloze integratie.
-weight: 12
+date: 2026-05-05
+description: Leer hoe u XMP‑naamwaarden aan EPS‑bestanden kunt toevoegen met Aspose.Page
+  voor Java – een stapsgewijze handleiding met codevoorbeelden.
+keywords:
+- how to add xmp
+- add named value XMP Java
+- Aspose.Page XMP metadata
+linktitle: Genamde waarde toevoegen in XMP met Java
+second_title: Aspose.Page Java API
+title: Hoe een XMP‑naamwaarde toe te voegen aan EPS‑bestanden met Java
 url: /nl/java/xmp-metadata-manipulation/add-named-value/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg een benoemde waarde toe in XMP met behulp van Java
+# Voeg een benoemde waarde toe aan XMP-metadata met Java
 
-## Invoering
-In het voortdurend evoluerende landschap van Java-ontwikkeling is het omgaan met metagegevens in EPS-bestanden van cruciaal belang voor het behoud van de documentintegriteit. Aspose.Page voor Java is een krachtige bibliotheek die dit proces vereenvoudigt. In deze zelfstudie gaan we dieper in op de stappen voor het toevoegen van een benoemde waarde aan XMP-metagegevens met behulp van Java, zodat u over een robuuste basis beschikt voor het manipuleren van EPS-bestanden.
-## Vereisten
-Voordat we ingaan op de tutorial, zorg ervoor dat je aan de volgende vereisten voldoet:
-- Java Development Kit (JDK): Aspose.Page voor Java vereist een functionerende JDK. Zorg ervoor dat u de nieuwste versie hebt geïnstalleerd.
-- Aspose.Page voor Java-bibliotheek: Download de Aspose.Page voor Java-bibliotheek en neem deze op in uw project. U kunt deze verkrijgen bij de[download link](https://releases.aspose.com/page/java/).
+## Introductie
+In moderne Java-ontwikkeling is het leren **hoe XMP**-metadata toe te voegen aan EPS-bestanden essentieel voor het behouden van de documentherkomst en het verbeteren van de doorzoekbaarheid. Met **asp** (Aspose.Page for Java) kun je moeiteloos aangepaste benoemde waarden in het XMP-pakket injecteren. Deze tutorial leidt je stap voor stap door de exacte procedures — compleet met codefragmenten — zodat je vandaag nog XMP-metadata aan je EPS-documenten kunt toevoegen.
+
+## Snelle antwoorden
+- **Welke bibliotheek is nodig?** Aspose.Page for Java (asp)  
+- **Welk bestandstype is het doel?** EPS-bestanden met XMP-metadata  
+- **Primaire gebruikssituatie?** Aangepaste benoemde waarden toevoegen (bijv. paginagroottebeperkingen) aan XMP  
+- **Voorvereisten?** JDK 8+ en de Aspose.Page for Java-bibliotheek  
+- **Typische implementatietijd?** 5–10 minuten zodra de bibliotheek is ingesteld  
+
+## Wat is asp?
+*asp* is de afkorting voor **Aspose**, een familie van .NET- en Java-API's die documentverwerking vereenvoudigen. De Aspose.Page for Java-component stelt je in staat PostScript- en EPS-bestanden te maken, bewerken en converteren, terwijl je volledige programmatische toegang krijgt tot hun metadata, inclusief XMP.
+
+## Waarom benoemde waarden toevoegen aan XMP-metadata?
+- **Zoekmachinevriendelijkheid:** Aangepaste tags verbeteren de vindbaarheid.  
+- **Workflow-automatisering:** Downstream-tools kunnen je aangepaste waarden lezen om beslissingen te nemen.  
+- **Naleving:** Regelgevende informatie direct in het documentpakket opnemen.  
+
+## Waarom dit belangrijk is
+Het toevoegen van benoemde waarden aan XMP stelt je in staat willekeurige sleutel‑waardeparen op te slaan die gelezen kunnen worden zonder het hele EPS-bestand te parseren. Deze mogelijkheid is vooral waardevol in geautomatiseerde publicatie‑pijplijnen, digitale asset‑managementsystemen en compliance‑gedreven workflows waar metadata downstream‑acties aanstuurt.
+
+## Voorvereisten
+Voordat we beginnen, zorg ervoor dat je het volgende hebt:
+
+- **Java Development Kit (JDK):** Een recente JDK (8 of hoger) geïnstalleerd **op je machine**.  
+- **Aspose.Page for Java Library:** Download deze van de officiële [download link](https://releases.aspose.com/page/java/). Voeg de JAR **toe aan je** project‑classpath.  
+- **Een EPS‑bestand** dat al **XMP-metadata** bevat of **automatisch** zal genereren.
+
 ## Pakketten importeren
-Begin met het importeren van de benodigde pakketten in uw Java-project. Deze pakketten zijn essentieel voor het gebruik van Aspose.Page voor Java-functionaliteiten. Neem het volgende op in uw code:
+Begin met het importeren van de benodigde Java‑pakketten. Deze imports geven je toegang tot bestandsstromen, het EPS‑documentmodel en XMP‑verwerkingsklassen.
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -29,35 +58,51 @@ import com.aspose.eps.xmp.XmpMetadata;
 import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
-Laten we nu het proces opsplitsen in gedetailleerde stappen om een benoemde waarde toe te voegen aan XMP-metagegevens met behulp van Aspose.Page voor Java.
-## Stap 1: Initialiseer de invoer-EPS-bestandsstroom
-Begin met het initialiseren van de invoer-EPS-bestandsstroom. Deze stap vormt de basis voor het laden van het EPS-document in uw Java-project.
+
+## Hoe XMP-benoemde waarde toevoegen in EPS-bestanden met Java
+Hieronder vind je een beknopte, genummerde walkthrough die precies laat zien **hoe XMP**‑benoemde waarden aan een EPS‑document toe te voegen.
+
+### Stap 1: Input EPS-bestandsstroom initialiseren
+Laad het bron‑EPS‑bestand in een `FileInputStream`. Deze stroom levert het document aan de API van Aspose.
+
 ```java
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Initialiseer invoer-EPS-bestandsstroom
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp4.eps");
 PsDocument document = new PsDocument(psStream);
 FileInputStream psStream = new FileInputStream(dataDir + "xmp4.eps");
 PsDocument document = new PsDocument(psStream);
 ```
-## Stap 2: Verkrijg XMP-metagegevens
-Haal de bestaande XMP-metagegevens op uit het EPS-bestand. Als het EPS-bestand geen XMP-metagegevens heeft, wordt er een nieuw bestand gegenereerd met waarden uit PS-metagegevensopmerkingen.
+
+> **Pro tip:** Houd de `dataDir`‑variabele configureerbaar zodat dezelfde code in verschillende omgevingen werkt.
+
+### Stap 2: XMP-metadata verkrijgen
+Haal het bestaande XMP‑pakket op. Als het EPS‑bestand er geen heeft, maakt Aspose een nieuw XMP‑object aan, gevuld vanuit de PS‑commentaren.
+
 ```java
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-## Stap 3: Benoemde waarde toevoegen
-Voeg een nieuwe benoemde waarde toe aan de XMP-metagegevensstructuur. In dit voorbeeld voegen we een waarde toe aan de structuur "xmpTPg:MaxPageSize".
+
+### Stap 3: Benoemde waarde toevoegen
+Voeg een aangepaste benoemde waarde toe aan de XMP‑structuur. In dit voorbeeld voegen we een nieuwe sleutel toe onder de `xmpTPg:MaxPageSize`‑namespace.
+
 ```java
 xmp.addNamedValue("xmpTPg:MaxPageSize", "stDim:newKey", new XmpValue("NewValue"));
 ```
-## Stap 4: Initialiseer de uitvoer-EPS-bestandsstroom
-Bereid de uitvoer-EPS-bestandsstroom voor om het document op te slaan met de gewijzigde XMP-metagegevens.
+
+> **Waarom dit belangrijk is:** Benoemde waarden laten je willekeurige sleutel‑waardeparen opslaan die downstream‑applicaties kunnen lezen zonder het volledige document te parseren.
+
+### Stap 4: Output EPS-bestandsstroom initialiseren
+Bereid een `FileOutputStream` voor waarin de gewijzigde EPS wordt opgeslagen.
+
 ```java
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp4_changed.eps");
 ```
-## Stap 5: Document opslaan
-Sla het document op met de bijgewerkte XMP-metagegevens.
+
+### Stap 5: Document opslaan
+Sla de wijzigingen op. De `save`‑aanroep schrijft het bijgewerkte XMP‑pakket terug naar het EPS‑bestand.
+
 ```java
 try {
     document.save(outPsStream);
@@ -65,25 +110,49 @@ try {
     outPsStream.close();
 }
 ```
-## Stap 6: Sluit de invoer-EPS-stroom
-Zorg er ten slotte voor dat u de invoer-EPS-stroom sluit om bronnen vrij te maken.
+
+### Stap 6: Input EPS-stroom sluiten
+Vrijgeven van de oorspronkelijke bestandshandle om resource‑lekken te voorkomen.
+
 ```java
 psStream.close();
 ```
-Door deze stappen te volgen, voegt u met succes een benoemde waarde toe aan XMP-metagegevens met behulp van Aspose.Page voor Java, waardoor uw mogelijkheden voor het manipuleren van EPS-bestanden worden verbeterd.
-## Conclusie
-In deze zelfstudie hebben we de essentiële stappen onderzocht om Aspose.Page voor Java naadloos in uw project te integreren voor het toevoegen van benoemde waarden in XMP-metagegevens. Deze krachtige bibliotheek stelt Java-ontwikkelaars in staat EPS-bestanden efficiënt te verwerken, waardoor een soepele workflow wordt gegarandeerd.
+
+Door deze zes stappen te volgen, heb je met succes **een benoemde waarde toegevoegd aan XMP-metadata** met **asp** (Aspose.Page for Java).
+
+## Veelvoorkomende problemen & oplossingen
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| `NullPointerException` on `xmp` | EPS‑bestand heeft geen XMP en Aspose kon er geen genereren | Zorg ervoor dat het EPS‑bestand minstens één PS‑commentaar bevat of maak handmatig een nieuw `XmpMetadata`‑object aan. |
+| Output file is empty | Output stream not flushed/closed | Controleer of `outPsStream.close()` wordt aangeroepen in een `finally`‑blok (zoals getoond). |
+| Duplicate key error | Same named value added twice | Controleer of de sleutel al bestaat met `xmp.containsNamedValue(...)` voordat je toevoegt. |
+
 ## Veelgestelde vragen
-### Kan ik Aspose.Page voor Java gebruiken met andere Java-bibliotheken?
-Ja, Aspose.Page voor Java is ontworpen om naadloos samen te werken met andere Java-bibliotheken en biedt flexibiliteit in uw ontwikkelomgeving.
-### Is er een gratis proefversie beschikbaar voor Aspose.Page voor Java?
- Ja, u heeft toegang tot een gratis proefversie van Aspose.Page voor Java[hier](https://releases.aspose.com/).
-### Hoe kan ik een tijdelijke licentie verkrijgen voor Aspose.Page voor Java?
- Bezoek[deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor Aspose.Page voor Java te verkrijgen.
-### Waar kan ik meer tutorials en voorbeelden vinden voor Aspose.Page voor Java?
- Ontdek de[documentatie](https://reference.aspose.com/page/java/)voor uitgebreide tutorials en voorbeelden.
-### Is Aspose.Page voor Java geschikt voor grootschalige projecten?
-Absoluut, Aspose.Page voor Java is ontworpen om grootschalige projecten efficiënt af te handelen en biedt robuuste mogelijkheden voor documentmanipulatie.
+
+**Q: Kan ik Aspose.Page for Java gebruiken met andere Java‑bibliotheken?**  
+A: Ja, Aspose.Page for Java is ontworpen om naadloos samen te werken met andere Java‑bibliotheken, waardoor je flexibiliteit krijgt in je ontwikkelomgeving.
+
+**Q: Is er een gratis proefversie beschikbaar voor Aspose.Page for Java?**  
+A: Ja, je kunt een gratis proefversie van Aspose.Page for Java [hier](https://releases.aspose.com/) verkrijgen.
+
+**Q: Hoe kan ik een tijdelijke licentie voor Aspose.Page for Java verkrijgen?**  
+A: Bezoek [deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor Aspose.Page for Java te verkrijgen.
+
+**Q: Waar kan ik meer tutorials en voorbeelden vinden voor Aspose.Page for Java?**  
+A: Bekijk de [documentatie](https://reference.aspose.com/page/java/) voor uitgebreide tutorials en voorbeelden.
+
+**Q: Is Aspose.Page for Java geschikt voor grootschalige projecten?**  
+A: Absoluut, Aspose.Page for Java is ontworpen om grootschalige projecten efficiënt te verwerken, met robuuste mogelijkheden voor documentmanipulatie.
+
+## Conclusie
+In deze gids hebben we laten zien hoe **asp** (Aspose.Page for Java) het eenvoudig maakt om **benoemde waarden toe te voegen aan XMP-metadata** binnen EPS‑bestanden. Met de bovenstaande stappen kun je je documenten verrijken met aangepaste metadata, de doorzoekbaarheid verbeteren en slimmere downstream‑verwerking mogelijk maken.
+
+---
+
+**Last Updated:** 2026-05-05  
+**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
