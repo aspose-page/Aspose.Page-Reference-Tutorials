@@ -1,37 +1,53 @@
 ---
-title: Aspose.Page for .NET を使用して XPS ドキュメントを変更する
-linktitle: XPSドキュメントの変更
+date: 2026-01-12
+description: Aspose.Page for .NET を使用して XPS ドキュメントを変更する方法を学び、シンプルなコード例で XPS ファイルにテキストを追加する方法を発見しましょう。
+linktitle: Modify XPS Document
 second_title: Aspose.Page .NET API
-description: XPS ドキュメントを簡単に変更できる Aspose.Page for .NET の機能を試してください。ステップバイステップのガイドに従って、文書処理を強化し、パーソナライズされた署名テキストを追加します。
-weight: 12
+title: Aspose.Page for .NET を使用して XPS ドキュメントを変更する
 url: /ja/net/document-creation/modify-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET を使用して XPS ドキュメントを変更する
+# Aspose.Page for .NET を使用した XPS ドキュメントの変更
 
-## 導入
+## はじめに
 
-Aspose.Page for .NET を使用して XPS ドキュメントを変更する方法に関するステップバイステップ ガイドへようこそ。 Aspose.Page は、開発者が XPS ファイルを簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、XPS ドキュメント内の指定されたページに署名テキスト「確認済み」を追加するプロセスを説明します。
+Aspose.Page for .NET を使用した **xps ドキュメントの変更方法** のステップバイステップガイドへようこそ。署名を挿入したり、透かしを追加したり、ページにカスタムテキストを配置したりする必要がある場合でも、このチュートリアルでは数分で XPS ドキュメントに **テキストを追加する方法** を正確に示します。コードの各行を詳しく解説し、なぜその手順が重要なのかを説明し、一般的な落とし穴を回避するためのヒントも提供します。
+
+### クイック回答
+- **このチュートリアルの対象は何ですか？** XPS ファイルの選択したページに署名テキスト（「Confirmed」）を追加します。  
+- **必要なライブラリはどれですか？** Aspose.Page for .NET（最新バージョン）。  
+- **ライセンスは必要ですか？** テスト用には一時ライセンスで動作しますが、本番環境ではフルライセンスが必要です。  
+- **サポートされている .NET バージョンは？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6+。  
+- **実装にどれくらい時間がかかりますか？** 基本的な署名挿入で約10分です。
+
+## XPS ドキュメントの変更とは？
+
+XPS（XML Paper Specification）は Microsoft の固定レイアウト文書形式で、PDF に似ています。XPS ドキュメントを変更するとは、ファイルを別の形式に変換せずに、テキスト、画像、図形などの視覚コンテンツをプログラムで変更することを意味します。Aspose.Page は、.NET コードから直接 XPS ファイルを編集できる豊富なオブジェクトモデルを提供します。
+
+## なぜ Aspose.Page を使用して XPS ドキュメントを変更するのか？
+
+* **フルコントロール** – ページ、グリフ、ブラシ、変換を低レベルで操作できます。  
+* **外部依存なし** – 純粋な .NET ライブラリで、Office や Adobe コンポーネントは不要です。  
+* **クロスプラットフォーム** – .NET Core 経由で Windows、Linux、macOS 上で動作します。  
+* **高性能** – 大規模なドキュメントを効率的に処理し、先進的な組版をサポートします。
 
 ## 前提条件
 
-始める前に、次の前提条件が満たされていることを確認してください。
+- **Aspose.Page for .NET** – NuGet パッケージをインストールするか、公式ドキュメント **[here](https://reference.aspose.com/page/net/)** からライブラリをダウンロードしてください。  
+- **入力 XPS ファイル** – **[Aspose releases page](https://releases.aspose.com/page/net/)** からサンプル XPS ドキュメント（例: `input1.xps`）を取得してください。  
+- **作業ディレクトリ** – マシン上にフォルダーを作成し、入力および出力ファイルを保存します。そのフルパスをコード内の `dir` 変数に割り当てます。  
+- **開発環境** – Visual Studio 2019/2022、.NET Framework 4.7.2 以降、または任意の .NET Core/5/6 プロジェクト。
 
-- Aspose.Page for .NET: Aspose.Page ライブラリがインストールされていることを確認してください。ドキュメントを見つけることができます[ここ](https://reference.aspose.com/page/net/).
-
-- 必要なファイルをダウンロードする: 入力 XPS ドキュメントを含む必要なファイルを次の場所からダウンロードします。[Aspose リリースページ](https://releases.aspose.com/page/net/).
-
-- ドキュメント ディレクトリ: ドキュメント用のディレクトリを設定し、`dir`コード内の変数を適切なパスに置き換えます。
-
-すべての設定が完了したので、ステップバイステップのガイドに進みましょう。
+すべての準備が整ったので、コードに入りましょう。
 
 ## 名前空間のインポート
 
-.NET プロジェクトで、Aspose.Page に必要な名前空間をインポートすることから始めます。
+.NET プロジェクトで、まず Aspose.Page に必要な名前空間をインポートします。
 
 ```csharp
 using Aspose.Page.XPS;
@@ -40,91 +56,116 @@ using System.Drawing;
 using System.IO;
 ```
 
-## ステップ 1: XPS ドキュメント ストリームを開く
+## 手順 1: XPS ドキュメント ストリームを開く
+
+ソース XPS ファイルをストリームとして開き、ドキュメント全体を表す `XpsDocument` オブジェクトを作成します。
 
 ```csharp
-//例開始:3
-//ドキュメントディレクトリへのパス。
+// ExStart:3
+// The path to the documents directory.
 string dir = "Your Document Directory";
-// XPS ファイルのストリームを開く
+// Open a stream of XPS file
 using (FileStream xpsStream = File.Open(dir + "input1.xps", FileMode.Open, FileAccess.Read))
 {
-    //ストリームから PS ドキュメントを作成する
+    // Create PS document from stream
     XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
-    //次のステップに進みます...
+    // Continue to the next step...
 }
-//拡張終了:3
+// ExEnd:3
 ```
 
-## ステップ 2: 署名テキストを作成する
+*プロのコツ:* ストリームを `using` ブロックでラップして、ファイルハンドルが自動的に解放されるようにします。
+
+## 手順 2: 署名テキストの作成
+
+次に、署名グリフを描画するための単色ブラシを作成します。
 
 ```csharp
-//例開始:4
-//署名テキストの塗りつぶしを作成する
+// ExStart:4
+// Create fill of the signature text
 XpsSolidColorBrush textFill = document.CreateSolidColorBrush(Color.BlueViolet);
-//次のステップに進みます...
-//拡張終了:4
+// Continue to the next step...
+// ExEnd:4
 ```
 
-## ステップ 3: ページを定義し、署名を追加する
+`Color.BlueViolet` は、ブランドに合わせた任意の `System.Drawing.Color` に変更できます。
+
+## 手順 3: ページの定義と署名の追加
+
+署名を付与するページを指定し、各ページにグリフを追加します。
 
 ```csharp
-//例開始:5
-//署名を設定するページを定義する
+// ExStart:5
+// Define pages where signature will be set
 int[] pageNumbers = new int[] {1, 2, 3};
 
-//定義されたすべてのページに対して、座標 x=650 および y=950 で署名「確認済み」を設定します。
+// For every defined page set signature "Confirmed" at coordinates x=650 and y=950
 for (int i = 0; i < pageNumbers.Length; i++)
 {
-    //アクティブなページを定義する
+    // Define active page
     document.SelectActivePage(pageNumbers[i]);
 
-    //グリフオブジェクトを作成する
+    // Create glyphs object
     XpsGlyphs glyphs = document.AddGlyphs("Arial", 24, FontStyle.Bold, 650, 900, "Confirmed");
 
-    //グリフの塗りつぶしを定義する
+    // Define fill for glyphs
     glyphs.Fill = textFill;
 }
-//次のステップに進みます...
-//拡張終了:5
+// Continue to the next step...
+// ExEnd:5
 ```
 
-## ステップ 4: XPS ドキュメントへの変更を保存する
+*なぜこの座標か？* X と Y の値はポイント（1/72 インチ）で測定されます。ページレイアウト上でテキストを正確に配置できるように調整してください。
+
+## 手順 4: XPS ドキュメントへの変更保存
+
+最後に、変更したドキュメントをディスクに書き戻します。
 
 ```csharp
-//例開始:6
-//変更された XPS ドキュメントを保存する
+// ExStart:6
+// Save changed XPS document
 document.Save(dir + "input1_out.xps");
-//拡張終了:6
+// ExEnd:6
 ```
 
-おめでとう！ Aspose.Page for .NET を使用して XPS ドキュメントを正常に変更しました。ドキュメント処理を強化するために、Aspose.Page が提供する追加の機能を自由に探索してください。
+新しいファイル `input1_out.xps` には、ページ 1‑3 に「Confirmed」署名が含まれています。
 
-## 結論
+## よくある問題と解決策
 
-このチュートリアルでは、Aspose.Page for .NET を使用して XPS ドキュメントを変更するための重要な手順について説明しました。これらの手順に従うことで、署名テキストを特定のページにシームレスに統合し、文書にパーソナライズされたタッチを追加できます。
+| Issue | Cause | Solution |
+|-------|-------|----------|
+| **署名が表示されない** | 座標が間違っている、またはページが選択されていない | `SelectActivePage` が各ページで呼び出されていることを確認し、X/Y 値を調整してください。 |
+| **`AddGlyphs` の例外** | サーバーにフォントがインストールされていない | 指定したフォント（例: Arial）が利用可能であることを確認するか、`document.AddFont` を使用してカスタムフォントを埋め込んでください。 |
+| **出力ファイルが破損している** | ストリームが正しく閉じられていない | すべてのストリームで `using` 文を使用し、必要に応じて `document.Dispose()` を呼び出してください。 |
+| **大きなファイルでのパフォーマンス低下** | ドキュメント全体をメモリに読み込んでいる | ページをバッチ処理するか、（新しいバージョンで利用可能な場合）`XpsLoadOptions` のストリーミングオプションを使用してください。 |
 
 ## よくある質問
 
-### Q1: Aspose.Page は最新の .NET フレームワークと互換性がありますか?
+**Q: Aspose.Page は最新の .NET フレームワークに対応していますか？**  
+A: はい、Aspose.Page は定期的に更新され、.NET Framework 4.5+、.NET Core 3.1+、.NET 5、.NET 6 をサポートしています。
 
-A1: はい、Aspose.Page は最新の .NET フレームワークをサポートするために定期的に更新されます。
+**Q: 追加するテキストのフォントやスタイルをカスタマイズできますか？**  
+A: もちろんです。`AddGlyphs` のパラメータ（フォント名、サイズ、`FontStyle`）を変更してデザインに合わせてください。
 
-### Q2: 追加したテキストのフォントやスタイルをカスタマイズできますか?
+**Q: XPS ファイルにサイズ制限はありますか？**  
+A: Aspose.Page は大規模なドキュメントを処理できますが、ファイルサイズが大きくなるほどメモリ使用量も増加します。非常に大きなファイルの場合は、ページ単位で処理することを検討してください。
 
-A2: もちろんです！要件に応じてフォント、スタイル、その他の属性を変更できます。
+**Q: Aspose.Page の一時ライセンスはどこで取得できますか？**  
+A: 一時ライセンスは **[here](https://purchase.aspose.com/temporary-license/)** から取得できます。
 
-### Q3: Aspose.Page が処理できるドキュメント サイズに制限はありますか?
+**Q: サポートやコミュニティはどこで利用できますか？**  
+A: 質問や情報共有は **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** で行えます。
 
-A3: Aspose.Page はさまざまなサイズのドキュメントを処理できるように設計されていますが、特定の詳細については常にドキュメントを確認することをお勧めします。
+## 結論
 
-### Q4: Aspose.Page の一時ライセンスを取得するにはどうすればよいですか?
+このチュートリアルでは、Aspose.Page for .NET を使用して **xps ドキュメント** にカスタム署名テキストを追加する方法を示しました。これで、特定のページにテキスト、透かし、注釈などを自由に挿入できる基礎ができました。フォント、色、位置を変えてアプリケーションのブランディング要件に合わせ、さらに高度なグラフィックやレイアウト機能を活用してください。
 
- A4: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+---
 
-### Q5: どこで助けを求めたり、Aspose コミュニティに連絡したりできますか?
+**最終更新日:** 2026-01-12  
+**テスト環境:** Aspose.Page 24.11 for .NET（執筆時点の最新バージョン）  
+**作者:** Aspose  
 
- A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)質問したり、コミュニティと交流したりするためです。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

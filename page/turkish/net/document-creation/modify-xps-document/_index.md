@@ -1,35 +1,54 @@
 ---
-title: XPS Belgesini Aspose.Page for .NET ile değiştirin
-linktitle: XPS Belgesini Değiştir
-second_title: Aspose.Page .NET API'si
-description: XPS belgelerini zahmetsizce değiştirmek için Aspose.Page for .NET'in gücünü keşfedin. Adım adım kılavuzumuzu takip edin, belge işleme sürecinizi geliştirin ve kişiselleştirilmiş imza metinleri ekleyin.
-weight: 12
+date: 2026-01-12
+description: Aspose.Page for .NET kullanarak XPS belgesini nasıl değiştireceğinizi
+  öğrenin ve basit kod örnekleriyle XPS dosyalarına nasıl metin ekleyeceğinizi keşfedin.
+linktitle: Modify XPS Document
+second_title: Aspose.Page .NET API
+title: Aspose.Page for .NET ile XPS Belgesini Değiştir
 url: /tr/net/document-creation/modify-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XPS Belgesini Aspose.Page for .NET ile değiştirin
+# Aspose.Page for .NET ile XPS Belgesi Değiştirme
 
-## giriiş
+## Giriş
 
-Aspose.Page for .NET kullanarak XPS belgelerini nasıl değiştireceğinizi gösteren adım adım kılavuzumuza hoş geldiniz. Aspose.Page, geliştiricilerin XPS dosyalarıyla zahmetsizce çalışmasını sağlayan güçlü bir kütüphanedir. Bu öğreticide, bir XPS belgesindeki belirli sayfalara "Onaylandı" imza metnini ekleme sürecinde size yol göstereceğiz.
+Aspose.Page for .NET kullanarak **xps belge** dosyalarını nasıl değiştireceğinize dair adım‑adım rehberimize hoş geldiniz. İmza eklemek, filigran yerleştirmek ya da sadece bir sayfaya özel metin koymak ister misiniz, bu öğretici size birkaç dakika içinde bir XPS belgesine **metin eklemenin** tam olarak nasıl yapılacağını gösterir. Her kod satırını inceleyecek, her adımın neden önemli olduğunu açıklayacak ve yaygın hatalardan kaçınmanız için ipuçları vereceğiz.
+
+### Hızlı Yanıtlar
+- **Bu öğreticide ne anlatılıyor?** Bir XPS dosyasının seçili sayfalarına imza metni ("Confirmed") eklemek.  
+- **Hangi kütüphane gerekli?** Aspose.Page for .NET (en son sürüm).  
+- **Lisans gerekli mi?** Test için geçici bir lisans yeterli; üretim için tam lisans gerekir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Uygulama ne kadar sürer?** Temel bir imza ekleme için yaklaşık 10 dakika.
+
+## XPS belgesi değiştirme nedir?
+
+XPS (XML Paper Specification), Microsoft’un PDF benzeri sabit‑düzen belge formatıdır. XPS belgesini değiştirmek, dosyayı başka bir formata dönüştürmeden, görsel içeriğini programlı olarak değiştirmek demektir—metin, resim veya şekil eklemek gibi. Aspose.Page, XPS dosyalarını doğrudan .NET kodunuzdan düzenlemenizi sağlayan zengin bir nesne modeli sunar.
+
+## Neden XPS belgelerini değiştirmek için Aspose.Page kullanmalı?
+
+* **Tam kontrol** – sayfalar, glifler, fırçalar ve dönüşümler üzerinde düşük seviyede çalışın.  
+* **Harici bağımlılık yok** – saf .NET kütüphanesi, Office veya Adobe bileşenlerine ihtiyaç duymaz.  
+* **Çapraz‑platform** – .NET Core sayesinde Windows, Linux ve macOS’ta çalışır.  
+* **Sağlam performans** – büyük belgeleri verimli bir şekilde işler ve gelişmiş tipografi destekler.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
 
-- Aspose.Page for .NET: Aspose.Page kütüphanesinin kurulu olduğundan emin olun. Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/page/net/).
+- **Aspose.Page for .NET** – NuGet paketini kurun veya resmi dokümantasyondan **[burada](https://reference.aspose.com/page/net/)** kütüphaneyi indirin.  
+- **Giriş XPS dosyası** – **[Aspose sürüm sayfasından](https://releases.aspose.com/page/net/)** örnek bir XPS belgesi (ör. `input1.xps`) edinin.  
+- **Çalışma dizini** – Giriş ve çıkış dosyalarını saklayacağınız bir klasör oluşturun ve tam yolunu not alın; bu yolu kodda `dir` değişkenine atayacaksınız.  
+- **Geliştirme ortamı** – Visual Studio 2019/2022, .NET Framework 4.7.2 veya daha yeni bir sürüm, ya da herhangi bir .NET Core/5/6 projesi.
 
--  Gerekli Dosyaları İndirin: Giriş XPS belgesi de dahil olmak üzere gerekli dosyaları şuradan indirin:[Aspose sürümler sayfası](https://releases.aspose.com/page/net/).
+Her şey hazır olduğuna göre, koda dalalım.
 
--  Belge Dizini: Belgeleriniz için bir dizin oluşturun ve`dir` koddaki değişkeni uygun yolla.
-
-Artık her şeyi ayarladığınıza göre, adım adım kılavuza geçelim.
-
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını İçe Aktarma
 
 .NET projenizde Aspose.Page için gerekli ad alanlarını içe aktararak başlayın:
 
@@ -40,91 +59,116 @@ using System.Drawing;
 using System.IO;
 ```
 
-## 1. Adım: XPS Belge Akışını açın
+## Adım 1: XPS Belge Akışını Açma
+
+Kaynak XPS dosyasını bir akış olarak açacağız ve tüm belgeyi temsil eden bir `XpsDocument` nesnesi oluşturacağız.
 
 ```csharp
 // ExStart:3
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dir = "Your Document Directory";
-// Bir XPS dosyası akışı açın
+// Open a stream of XPS file
 using (FileStream xpsStream = File.Open(dir + "input1.xps", FileMode.Open, FileAccess.Read))
 {
-    // Akıştan PS belgesi oluşturun
+    // Create PS document from stream
     XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
-    // Sonraki adıma devam et...
+    // Continue to the next step...
 }
 // ExEnd:3
 ```
 
-## 2. Adım: İmza Metni Oluşturun
+*İpucu:* Akışı bir `using` bloğu içinde tutarak dosya tutamacının otomatik olarak serbest bırakılmasını sağlayın.
+
+## Adım 2: İmza Metnini Oluşturma
+
+Ardından, imza gliflerini boyamak için kullanılacak katı‑renkli bir fırça tanımlayacağız.
 
 ```csharp
 // ExStart:4
-// İmza metninin dolgusunu oluşturun
+// Create fill of the signature text
 XpsSolidColorBrush textFill = document.CreateSolidColorBrush(Color.BlueViolet);
-// Sonraki adıma devam et...
-// ExBitiş:4
+// Continue to the next step...
+// ExEnd:4
 ```
 
-## 3. Adım: Sayfaları Tanımlayın ve İmza Ekleyin
+`Color.BlueViolet` değerini, markanıza uygun herhangi bir `System.Drawing.Color` ile değiştirebilirsiniz.
+
+## Adım 3: Sayfaları Tanımlama ve İmzayı Ekleme
+
+İmzayı alması gereken sayfaları belirleyecek ve ardından her sayfaya glifleri ekleyeceğiz.
 
 ```csharp
 // ExStart:5
-// İmzanın belirleneceği sayfaları tanımlayın
+// Define pages where signature will be set
 int[] pageNumbers = new int[] {1, 2, 3};
 
-//Tanımlanan her sayfa için imzayı x=650 ve y=950 koordinatlarında "Onaylandı" olarak ayarlayın
+// For every defined page set signature "Confirmed" at coordinates x=650 and y=950
 for (int i = 0; i < pageNumbers.Length; i++)
 {
-    // Etkin sayfayı tanımla
+    // Define active page
     document.SelectActivePage(pageNumbers[i]);
 
-    // Glif nesnesi oluştur
+    // Create glyphs object
     XpsGlyphs glyphs = document.AddGlyphs("Arial", 24, FontStyle.Bold, 650, 900, "Confirmed");
 
-    // Glifler için dolguyu tanımlama
+    // Define fill for glyphs
     glyphs.Fill = textFill;
 }
-// Sonraki adıma devam et...
-// ExBitiş:5
+// Continue to the next step...
+// ExEnd:5
 ```
 
-## 4. Adım: Değişiklikleri XPS Belgesine Kaydetme
+*Bu koordinatlar neden?* X ve Y değerleri nokta biriminde ölçülür (1/72 inç). Metni sayfa düzeninizde tam istediğiniz konuma yerleştirmek için değerleri ayarlayın.
+
+## Adım 4: Değişiklikleri XPS Belgesine Kaydetme
+
+Son olarak, değiştirilmiş belgeyi diske yazacağız.
 
 ```csharp
 // ExStart:6
-// Değiştirilen XPS belgesini kaydet
+// Save changed XPS document
 document.Save(dir + "input1_out.xps");
-// ExBitiş:6
+// ExEnd:6
 ```
 
-Tebrikler! Aspose.Page for .NET'i kullanarak bir XPS belgesini başarıyla değiştirdiniz. Belge işleme sürecinizi geliştirmek için Aspose.Page tarafından sunulan ek özellikleri ve işlevleri keşfetmekten çekinmeyin.
+Yeni dosya `input1_out.xps` artık 1‑3. sayfalarda “Confirmed” imzasını içeriyor.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu eğitimde, XPS belgelerini Aspose.Page for .NET kullanarak değiştirmek için gerekli adımları ele aldık. Bu adımları izleyerek imza metinlerini belirli sayfalara sorunsuz bir şekilde entegre edebilir ve belgelerinize kişiselleştirilmiş bir dokunuş katabilirsiniz.
+| Sorun | Neden | Çözüm |
+|-------|-------|----------|
+| **İmza görünmüyor** | Koordinatlar yanlış veya sayfa seçilmemiş | `SelectActivePage` her sayfa için çağrıldığından emin olun ve X/Y değerlerini ayarlayın. |
+| **`AddGlyphs` üzerinde istisna** | Sunucuda font yüklü değil | Belirtilen fontun (ör. Arial) mevcut olduğundan emin olun, ya da `document.AddFont` ile özel bir font gömün. |
+| **Çıktı dosyası bozuk** | Akış doğru kapanmamış | Tüm akışlar için `using` ifadeleri kullanın ve gerekirse `document.Dispose()` çağırın. |
+| **Büyük dosyalarda performans yavaşlıyor** | Belgenin tamamı belleğe yükleniyor | Sayfaları partiler halinde işleyin veya (yeni sürümlerde mevcutsa) akış seçenekleriyle `XpsLoadOptions` kullanın. |
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Aspose.Page en yeni .NET çerçeveleriyle uyumlu mu?
+**S: Aspose.Page en yeni .NET framework’leriyle uyumlu mu?**  
+C: Evet, Aspose.Page düzenli olarak .NET Framework 4.5+, .NET Core 3.1+, .NET 5 ve .NET 6’yı destekleyecek şekilde güncellenir.
 
-Cevap1: Evet, Aspose.Page en son .NET çerçevelerini desteklemek için düzenli olarak güncellenmektedir.
+**S: Eklenen metnin font ve stilini özelleştirebilir miyim?**  
+C: Kesinlikle. `AddGlyphs` parametrelerini (font adı, boyut, `FontStyle`) değiştirerek tasarımınıza uygun hâle getirebilirsiniz.
 
-### S2: Eklenen metnin yazı tipini ve stilini özelleştirebilir miyim?
+**S: XPS dosyaları için boyut sınırlamaları var mı?**  
+C: Aspose.Page büyük belgeleri işleyebilir, ancak bellek tüketimi dosya boyutuyla artar. Çok büyük dosyalar için sayfaları tek tek işlemek akıllıca olur.
 
-A2: Kesinlikle! Gereksinimlerinize göre yazı tipini, stili ve diğer nitelikleri değiştirebilirsiniz.
+**S: Aspose.Page için geçici bir lisans nasıl alınır?**  
+C: Geçici lisansı **[buradan](https://purchase.aspose.com/temporary-license/)** edinebilirsiniz.
 
-### S3: Aspose.Page'in işleyebileceği belge boyutunda herhangi bir sınırlama var mı?
+**S: Yardım almak ya da Aspose topluluğuyla iletişime geçmek için nereden ulaşabilirim?**  
+C: Sorularınızı sorup deneyimlerinizi paylaşmak için **[Aspose.Page forumunu](https://forum.aspose.com/c/page/39)** ziyaret edin.
 
-Cevap3: Aspose.Page, farklı boyutlardaki belgeleri işlemek için tasarlanmıştır, ancak belirli ayrıntılar için her zaman belgelere göz atılması önerilir.
+## Sonuç
 
-### S4: Aspose.Page için nasıl geçici lisans alabilirim?
+Bu öğreticide **xps belge** dosyalarını Aspose.Page for .NET kullanarak özel imza metni ekleyerek nasıl **değiştireceğinizi** gösterdik. Artık belirli sayfalara herhangi bir metin, filigran veya açıklama eklemek için sağlam bir temele sahipsiniz. Farklı fontlar, renkler ve konumlarla deneyler yaparak uygulamanızın marka gereksinimlerini karşılayın ve gelişmiş grafik ve düzen yetenekleri için Aspose.Page API’sinin daha geniş özelliklerini keşfedin.
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+---
 
-### S5: Nereden yardım alabilirim veya Aspose topluluğuyla bağlantı kurabilirim?
+**Son Güncelleme:** 2026-01-12  
+**Test Edilen Sürüm:** Aspose.Page 24.11 for .NET (yazım anındaki en son sürüm)  
+**Yazar:** Aspose  
 
- A5: ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) soru sormak ve toplulukla etkileşime geçmek.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

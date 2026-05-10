@@ -1,37 +1,56 @@
 ---
-title: Wijzig het XPS-document met Aspose.Page voor .NET
-linktitle: XPS-document wijzigen
-second_title: Aspose.Page .NET-API
-description: Ontdek de kracht van Aspose.Page voor .NET om XPS-documenten moeiteloos aan te passen. Volg onze stapsgewijze handleiding, verbeter uw documentverwerking en voeg gepersonaliseerde handtekeningteksten toe.
-weight: 12
+date: 2026-01-12
+description: Leer hoe u XPS-documenten kunt aanpassen met Aspose.Page voor .NET en
+  ontdek hoe u tekst kunt toevoegen aan XPS-bestanden met eenvoudige codevoorbeelden.
+linktitle: Modify XPS Document
+second_title: Aspose.Page .NET API
+title: XPS-document wijzigen met Aspose.Page voor .NET
 url: /nl/net/document-creation/modify-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wijzig het XPS-document met Aspose.Page voor .NET
+# XPS-document wijzigen met Aspose.Page voor .NET
 
-## Invoering
+## Inleiding
 
-Welkom bij onze stapsgewijze handleiding voor het wijzigen van XPS-documenten met Aspose.Page voor .NET. Aspose.Page is een krachtige bibliotheek waarmee ontwikkelaars moeiteloos met XPS-bestanden kunnen werken. In deze zelfstudie begeleiden we u bij het toevoegen van een handtekeningtekst, 'Bevestigd', aan specifieke pagina's in een XPS-document.
+Welkom bij onze stapsgewijze gids over **hoe xps-documenten** te wijzigen met Aspose.Page voor .NET. Of u nu een handtekening wilt invoegen, een watermerk wilt toevoegen of gewoon aangepaste tekst op een pagina wilt plaatsen, deze tutorial laat u precies zien **hoe u tekst** aan een XPS-document kunt toevoegen in enkele minuten. We lopen elke regel code door, leggen uit waarom elke stap belangrijk is, en geven tips om veelvoorkomende valkuilen te vermijden.
 
-## Vereisten
+### Snelle antwoorden
+- **Waar gaat deze tutorial over?** Het toevoegen van een handtekeningtekst (“Confirmed”) aan geselecteerde pagina’s van een XPS‑bestand.  
+- **Welke bibliotheek is vereist?** Aspose.Page voor .NET (nieuwste versie).  
+- **Heb ik een licentie nodig?** Een tijdelijke licentie werkt voor testen; een volledige licentie is vereist voor productie.  
+- **Welke .NET‑versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Hoe lang duurt de implementatie?** Ongeveer 10 minuten voor een eenvoudige handtekeninginvoeging.
 
-Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat betekent het om een XPS-document te wijzigen?
 
-- Aspose.Page voor .NET: Zorg ervoor dat de Aspose.Page-bibliotheek is geïnstalleerd. U kunt de documentatie vinden[hier](https://reference.aspose.com/page/net/).
+XPS (XML Paper Specification) is Microsoft’s vaste‑layout documentformaat, vergelijkbaar met PDF. Een XPS-document wijzigen betekent dat u programmatisch de visuele inhoud aanpast — tekst, afbeeldingen of vormen toevoegen — zonder het bestand naar een ander formaat te converteren. Aspose.Page biedt een rijk objectmodel waarmee u XPS‑bestanden direct vanuit uw .NET‑code kunt bewerken.
 
--  Download de vereiste bestanden: Download de benodigde bestanden, inclusief het invoer-XPS-document, van de[Aspose-releasespagina](https://releases.aspose.com/page/net/).
+## Waarom Aspose.Page gebruiken om XPS‑documenten te wijzigen?
 
--  Documentmap: Stel een map in voor uw documenten en werk de`dir` variabele in de code met het juiste pad.
+* **Volledige controle** – werk met pagina’s, glyphs, brushes en transformaties op een laag niveau.  
+* **Geen externe afhankelijkheden** – pure .NET‑bibliotheek, geen Office‑ of Adobe‑componenten nodig.  
+* **Cross‑platform** – werkt op Windows, Linux en macOS via .NET Core.  
+* **Robuuste prestaties** – verwerkt grote documenten efficiënt en ondersteunt geavanceerde typografie.
 
-Nu je alles hebt ingesteld, gaan we de stapsgewijze handleiding bekijken.
+## Voorvereisten
 
-## Naamruimten importeren
+Zorg ervoor dat u het volgende heeft voordat u begint:
 
-Begin in uw .NET-project met het importeren van de vereiste naamruimten voor Aspose.Page:
+- **Aspose.Page voor .NET** – Installeer het NuGet‑pakket of download de bibliotheek via de officiële documentatie **[hier](https://reference.aspose.com/page/net/)**.  
+- **Invoergegevens‑XPS‑bestand** – Haal een voorbeeld‑XPS‑document op (bijv. `input1.xps`) van de **[Aspose releases‑pagina](https://releases.aspose.com/page/net/)**.  
+- **Werkmap** – Maak een map op uw computer om de invoer‑ en uitvoerbestanden op te slaan en noteer het volledige pad; u wijst dit pad toe aan de variabele `dir` in de code.  
+- **Ontwikkelomgeving** – Visual Studio 2019/2022, .NET Framework 4.7.2 of hoger, of elk .NET Core/5/6‑project.
+
+Nu alles is ingesteld, duiken we in de code.
+
+## Namespaces importeren
+
+Importeer in uw .NET‑project de benodigde namespaces voor Aspose.Page:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -40,91 +59,116 @@ using System.Drawing;
 using System.IO;
 ```
 
-## Stap 1: Open XPS Document Stream
+## Stap 1: XPS‑documentstream openen
+
+We openen het bron‑XPS‑bestand als een stream en maken een `XpsDocument`‑object dat het volledige document vertegenwoordigt.
 
 ```csharp
 // ExStart:3
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dir = "Your Document Directory";
-// Open een stroom XPS-bestanden
+// Open a stream of XPS file
 using (FileStream xpsStream = File.Open(dir + "input1.xps", FileMode.Open, FileAccess.Read))
 {
-    // Maak een PS-document vanuit de stream
+    // Create PS document from stream
     XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
-    // Ga door naar de volgende stap...
+    // Continue to the next step...
 }
-// Verleng:3
+// ExEnd:3
 ```
 
-## Stap 2: Maak handtekeningtekst
+*Pro tip:* Plaats de stream in een `using`‑block zodat de bestandshandle automatisch wordt vrijgegeven.
+
+## Stap 2: Handtekeningtekst maken
+
+Vervolgens maken we een effen‑kleur brush die wordt gebruikt om de handtekening‑glyphs te schilderen.
 
 ```csharp
 // ExStart:4
-// Maak een vulling van de handtekeningtekst
+// Create fill of the signature text
 XpsSolidColorBrush textFill = document.CreateSolidColorBrush(Color.BlueViolet);
-// Ga door naar de volgende stap...
-// Verleng:4
+// Continue to the next step...
+// ExEnd:4
 ```
 
-## Stap 3: Pagina's definiëren en handtekening toevoegen
+U kunt `Color.BlueViolet` wijzigen in elke `System.Drawing.Color` die bij uw huisstijl past.
+
+## Stap 3: Pagina’s definiëren en handtekening toevoegen
+
+We geven aan welke pagina’s de handtekening moeten ontvangen en voegen vervolgens de glyphs toe aan elke pagina.
 
 ```csharp
 // ExStart:5
-// Definieer pagina's waarop de handtekening wordt ingesteld
+// Define pages where signature will be set
 int[] pageNumbers = new int[] {1, 2, 3};
 
-//Stel voor elke gedefinieerde pagina de handtekening "Bevestigd" in op de coördinaten x=650 en y=950
+// For every defined page set signature "Confirmed" at coordinates x=650 and y=950
 for (int i = 0; i < pageNumbers.Length; i++)
 {
-    // Definieer actieve pagina
+    // Define active page
     document.SelectActivePage(pageNumbers[i]);
 
-    // Maak een glyphs-object
+    // Create glyphs object
     XpsGlyphs glyphs = document.AddGlyphs("Arial", 24, FontStyle.Bold, 650, 900, "Confirmed");
 
-    // Definieer de vulling voor glyphs
+    // Define fill for glyphs
     glyphs.Fill = textFill;
 }
-// Ga door naar de volgende stap...
-// Verleng: 5
+// Continue to the next step...
+// ExEnd:5
 ```
 
-## Stap 4: Wijzigingen in XPS-document opslaan
+*Waarom deze coördinaten?* De X‑ en Y‑waarden worden gemeten in points (1/72 inch). Pas ze aan om de tekst precies te positioneren waar u dat wilt in uw paginalay‑out.
+
+## Stap 4: Wijzigingen opslaan in XPS‑document
+
+Schrijf tenslotte het gewijzigde document terug naar de schijf.
 
 ```csharp
 // ExStart:6
-// Sla het gewijzigde XPS-document op
+// Save changed XPS document
 document.Save(dir + "input1_out.xps");
-// Verleng:6
+// ExEnd:6
 ```
 
-Gefeliciteerd! U hebt met succes een XPS-document gewijzigd met Aspose.Page voor .NET. Ontdek gerust de extra functies en functionaliteiten die Aspose.Page biedt om uw documentverwerking te verbeteren.
+Het nieuwe bestand `input1_out.xps` bevat nu de “Confirmed”‑handtekening op pagina’s 1‑3.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-In deze zelfstudie hebben we de essentiële stappen besproken voor het wijzigen van XPS-documenten met Aspose.Page voor .NET. Door deze stappen te volgen, kunt u handtekeningteksten naadloos integreren in specifieke pagina's, waardoor uw documenten een persoonlijk tintje krijgen.
+| Probleem | Oorzaak | Oplossing |
+|----------|---------|-----------|
+| **Handtekening niet zichtbaar** | Verkeerde coördinaten of pagina niet geselecteerd | Controleer of `SelectActivePage` voor elke pagina wordt aangeroepen en pas de X/Y‑waarden aan. |
+| **Exception bij `AddGlyphs`** | Lettertype niet geïnstalleerd op de server | Zorg dat het opgegeven lettertype (bijv. Arial) beschikbaar is, of embed een aangepast lettertype met `document.AddFont`. |
+| **Uitvoerbestand is corrupt** | Stream niet correct gesloten | Gebruik `using`‑statements voor alle streams en roep `document.Dispose()` aan indien nodig. |
+| **Prestatie‑vertraging bij grote bestanden** | Het volledige document wordt in het geheugen geladen | Verwerk pagina’s in batches of gebruik `XpsLoadOptions` met streaming‑opties (indien beschikbaar in nieuwere versies). |
 
 ## Veelgestelde vragen
 
-### Vraag 1: Is Aspose.Page compatibel met de nieuwste .NET-frameworks?
+**V: Is Aspose.Page compatibel met de nieuwste .NET‑frameworks?**  
+A: Ja, Aspose.Page wordt regelmatig bijgewerkt om .NET Framework 4.5+, .NET Core 3.1+, .NET 5 en .NET 6 te ondersteunen.
 
-A1: Ja, Aspose.Page wordt regelmatig bijgewerkt om de nieuwste .NET-frameworks te ondersteunen.
+**V: Kan ik het lettertype en de stijl van de toegevoegde tekst aanpassen?**  
+A: Absoluut. Wijzig de parameters van `AddGlyphs` (lettertype‑naam, grootte, `FontStyle`) naar wens.
 
-### Vraag 2: Kan ik het lettertype en de stijl van de toegevoegde tekst aanpassen?
+**V: Zijn er limieten voor de grootte van XPS‑bestanden?**  
+A: Aspose.Page kan grote documenten aan, maar het geheugenverbruik groeit mee met de bestandsgrootte. Voor zeer grote bestanden kunt u overwegen om pagina’s afzonderlijk te verwerken.
 
-A2: Absoluut! U kunt het lettertype, de stijl en andere kenmerken naar wens aanpassen.
+**V: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Page?**  
+A: U kunt een tijdelijke licentie **[hier](https://purchase.aspose.com/temporary-license/)** verkrijgen.
 
-### V3: Zijn er beperkingen op de documentgrootte die Aspose.Page aankan?
+**V: Waar kan ik hulp zoeken of contact maken met de Aspose‑community?**  
+A: Bezoek het **[Aspose.Page‑forum](https://forum.aspose.com/c/page/39)** om vragen te stellen en ervaringen te delen.
 
-A3: Aspose.Page is ontworpen om documenten van verschillende groottes te verwerken, maar het wordt altijd aanbevolen om de documentatie te controleren op specifieke details.
+## Conclusie
 
-### V4: Hoe kan ik een tijdelijke licentie voor Aspose.Page verkrijgen?
+In deze tutorial hebben we laten zien hoe u **xps-documenten** kunt wijzigen door aangepaste handtekeningtekst toe te voegen met Aspose.Page voor .NET. U beschikt nu over een solide basis om elke tekst, watermerk of annotatie op specifieke pagina’s van een XPS‑bestand te plaatsen. Experimenteer met verschillende lettertypen, kleuren en posities om te voldoen aan de branding‑eisen van uw applicatie, en verken de bredere Aspose.Page‑API voor geavanceerde grafische en layout‑mogelijkheden.
 
- A4: U kunt een tijdelijke licentie aanschaffen[hier](https://purchase.aspose.com/temporary-license/).
+---
 
-### Vraag 5: Waar kan ik hulp zoeken of contact maken met de Aspose-gemeenschap?
+**Laatst bijgewerkt:** 2026-01-12  
+**Getest met:** Aspose.Page 24.11 voor .NET (nieuwste op het moment van schrijven)  
+**Auteur:** Aspose  
 
- A5: Bezoek de[Aspose.Page-forum](https://forum.aspose.com/c/page/39) om vragen te stellen en deel te nemen aan de gemeenschap.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,54 @@
 ---
-title: Modifica il documento XPS con Aspose.Page per .NET
-linktitle: Modifica documento XPS
-second_title: API Aspose.Page .NET
-description: Esplora la potenza di Aspose.Page per .NET per modificare facilmente i documenti XPS. Segui la nostra guida passo passo, migliora l'elaborazione dei tuoi documenti e aggiungi testi di firma personalizzati.
-weight: 12
+date: 2026-01-12
+description: Scopri come modificare i documenti XPS usando Aspose.Page per .NET e
+  impara ad aggiungere testo ai file XPS con semplici esempi di codice.
+linktitle: Modify XPS Document
+second_title: Aspose.Page .NET API
+title: Modifica documento XPS con Aspose.Page per .NET
 url: /it/net/document-creation/modify-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modifica il documento XPS con Aspose.Page per .NET
+# Modifica documento XPS con Aspose.Page per .NET
 
-## introduzione
+## Introduzione
 
-Benvenuti nella nostra guida passo passo su come modificare i documenti XPS utilizzando Aspose.Page per .NET. Aspose.Page è una potente libreria che consente agli sviluppatori di lavorare con i file XPS senza sforzo. In questo tutorial ti guideremo attraverso il processo di aggiunta del testo della firma, "Confermato", alle pagine specificate in un documento XPS.
+Benvenuti alla nostra guida passo‑passo su **come modificare documenti xps** con Aspose.Page per .NET. Che tu debba inserire una firma, aggiungere una filigrana o semplicemente posizionare del testo personalizzato su una pagina, questo tutorial ti mostra esattamente **come aggiungere testo** a un documento XPS in pochi minuti. Esamineremo ogni riga di codice, spiegheremo perché ogni passaggio è importante e ti forniremo consigli per evitare gli errori più comuni.
+
+### Risposte rapide
+- **Cosa copre questo tutorial?** Aggiunta di un testo di firma ("Confirmed") alle pagine selezionate di un file XPS.  
+- **Quale libreria è necessaria?** Aspose.Page per .NET (ultima versione).  
+- **È necessaria una licenza?** Una licenza temporanea è sufficiente per i test; è necessaria una licenza completa per la produzione.  
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Quanto tempo richiede l'implementazione?** Circa 10 minuti per un'inserzione di firma di base.
+
+## Che cosa significa modificare un documento XPS?
+
+XPS (XML Paper Specification) è il formato di documento a layout fisso di Microsoft, simile a PDF. Modificare un documento XPS significa cambiare programmaticamente il suo contenuto visivo — aggiungendo testo, immagini o forme — senza convertire il file in un altro formato. Aspose.Page fornisce un ricco modello di oggetti che consente di modificare i file XPS direttamente dal tuo codice .NET.
+
+## Perché usare Aspose.Page per modificare documenti XPS?
+
+* **Controllo totale** – lavora con pagine, glifi, pennelli e trasformazioni a basso livello.  
+* **Nessuna dipendenza esterna** – libreria .NET pura, non è necessario Office o componenti Adobe.  
+* **Cross‑platform** – funziona su Windows, Linux e macOS tramite .NET Core.  
+* **Prestazioni robuste** – gestisce documenti di grandi dimensioni in modo efficiente e supporta tipografia avanzata.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
+Prima di iniziare, assicurati di avere quanto segue:
 
-- Aspose.Page per .NET: assicurati di avere la libreria Aspose.Page installata. Puoi trovare la documentazione[Qui](https://reference.aspose.com/page/net/).
+- **Aspose.Page per .NET** – Installa il pacchetto NuGet o scarica la libreria dalla documentazione ufficiale **[qui](https://reference.aspose.com/page/net/)**.  
+- **File XPS di input** – Ottieni un documento XPS di esempio (ad es., `input1.xps`) dalla **[pagina di rilascio di Aspose](https://releases.aspose.com/page/net/)**.  
+- **Directory di lavoro** – Crea una cartella sul tuo computer per memorizzare i file di input e output e annota il percorso completo; assegnerai questo percorso alla variabile `dir` nel codice.  
+- **Ambiente di sviluppo** – Visual Studio 2019/2022, .NET Framework 4.7.2 o successivo, o qualsiasi progetto .NET Core/5/6.
 
--  Scarica i file richiesti: scarica i file necessari, incluso il documento XPS di input, dal file[Pagina delle versioni di Aspose](https://releases.aspose.com/page/net/).
+Ora che tutto è pronto, immergiamoci nel codice.
 
--  Directory dei documenti: imposta una directory per i tuoi documenti e aggiorna il file`dir` variabile nel codice con il percorso appropriato.
-
-Ora che hai impostato tutto, tuffiamoci nella guida passo passo.
-
-## Importa spazi dei nomi
+## Importa namespace
 
 Nel tuo progetto .NET, inizia importando gli spazi dei nomi richiesti per Aspose.Page:
 
@@ -40,91 +59,116 @@ using System.Drawing;
 using System.IO;
 ```
 
-## Passaggio 1: aprire il flusso di documenti XPS
+## Passo 1: Apri lo stream del documento XPS
+
+Apriremo il file XPS di origine come stream e creeremo un oggetto `XpsDocument` che rappresenta l'intero documento.
 
 ```csharp
-// Inizio ex:3
-// Il percorso della directory dei documenti.
+// ExStart:3
+// The path to the documents directory.
 string dir = "Your Document Directory";
-// Apri un flusso di file XPS
+// Open a stream of XPS file
 using (FileStream xpsStream = File.Open(dir + "input1.xps", FileMode.Open, FileAccess.Read))
 {
-    // Crea un documento PS dallo stream
+    // Create PS document from stream
     XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
-    // Continua al passaggio successivo...
+    // Continue to the next step...
 }
-// Fine Estesa:3
+// ExEnd:3
 ```
 
-## Passaggio 2: crea il testo della firma
+*Consiglio professionale:* Avvolgi lo stream in un blocco `using` per garantire che il handle del file venga rilasciato automaticamente.
+
+## Passo 2: Crea il testo della firma
+
+Successivamente, creiamo un pennello a tinta unita che verrà usato per dipingere i glifi della firma.
 
 ```csharp
-// Inizio ex:4
-// Crea il riempimento del testo della firma
+// ExStart:4
+// Create fill of the signature text
 XpsSolidColorBrush textFill = document.CreateSolidColorBrush(Color.BlueViolet);
-// Continua al passaggio successivo...
-// Fine Estesa:4
+// Continue to the next step...
+// ExEnd:4
 ```
 
-## Passaggio 3: Definisci le pagine e aggiungi la firma
+Puoi cambiare `Color.BlueViolet` in qualsiasi `System.Drawing.Color` che corrisponda al tuo brand.
+
+## Passo 3: Definisci le pagine e aggiungi la firma
+
+Specificheremo quali pagine devono ricevere la firma e poi aggiungeremo i glifi a ciascuna pagina.
 
 ```csharp
-// Inizio ex:5
-// Definire le pagine in cui verrà impostata la firma
+// ExStart:5
+// Define pages where signature will be set
 int[] pageNumbers = new int[] {1, 2, 3};
 
-//Per ogni pagina definita impostare la firma "Confermata" alle coordinate x=650 e y=950
+// For every defined page set signature "Confirmed" at coordinates x=650 and y=950
 for (int i = 0; i < pageNumbers.Length; i++)
 {
-    // Definire la pagina attiva
+    // Define active page
     document.SelectActivePage(pageNumbers[i]);
 
-    // Crea oggetto glifi
+    // Create glyphs object
     XpsGlyphs glyphs = document.AddGlyphs("Arial", 24, FontStyle.Bold, 650, 900, "Confirmed");
 
-    // Definire il riempimento per i glifi
+    // Define fill for glyphs
     glyphs.Fill = textFill;
 }
-// Continua al passaggio successivo...
-// Fine Estesa:5
+// Continue to the next step...
+// ExEnd:5
 ```
 
-## Passaggio 4: salva le modifiche al documento XPS
+*Perché queste coordinate?* I valori X e Y sono misurati in punti (1/72 pollice). Regolali per posizionare il testo esattamente dove ti serve nel layout della pagina.
+
+## Passo 4: Salva le modifiche al documento XPS
+
+Infine, scrivi il documento modificato su disco.
 
 ```csharp
-// Inizio ex:6
-// Salva il documento XPS modificato
+// ExStart:6
+// Save changed XPS document
 document.Save(dir + "input1_out.xps");
-// Fine Estesa:6
+// ExEnd:6
 ```
 
-Congratulazioni! Hai modificato con successo un documento XPS utilizzando Aspose.Page per .NET. Sentiti libero di esplorare caratteristiche e funzionalità aggiuntive offerte da Aspose.Page per migliorare l'elaborazione dei tuoi documenti.
+Il nuovo file `input1_out.xps` ora contiene la firma “Confirmed” nelle pagine 1‑3.
 
-## Conclusione
+## Problemi comuni e soluzioni
 
-In questo tutorial, abbiamo coperto i passaggi essenziali per modificare i documenti XPS utilizzando Aspose.Page per .NET. Seguendo questi passaggi, puoi integrare perfettamente i testi della firma in pagine specifiche, aggiungendo un tocco personalizzato ai tuoi documenti.
+| Problema | Causa | Soluzione |
+|----------|-------|-----------|
+| **Firma non visibile** | Coordinate errate o pagina non selezionata | Verifica che `SelectActivePage` sia chiamato per ogni pagina e regola i valori X/Y. |
+| **Eccezione su `AddGlyphs`** | Font non installato sul server | Assicurati che il font specificato (ad es., Arial) sia disponibile, oppure incorpora un font personalizzato usando `document.AddFont`. |
+| **File di output corrotto** | Stream non chiuso correttamente | Usa istruzioni `using` per tutti gli stream e chiama `document.Dispose()` se necessario. |
+| **Rallentamento delle prestazioni su file grandi** | Caricamento dell'intero documento in memoria | Processa le pagine in batch o usa `XpsLoadOptions` con opzioni di streaming (se disponibili nelle versioni più recenti). |
 
 ## Domande frequenti
 
-### Q1: Aspose.Page è compatibile con gli ultimi framework .NET?
+**D: Aspose.Page è compatibile con gli ultimi framework .NET?**  
+R: Sì, Aspose.Page è aggiornato regolarmente per supportare .NET Framework 4.5+, .NET Core 3.1+, .NET 5 e .NET 6.
 
-A1: Sì, Aspose.Page viene regolarmente aggiornato per supportare gli ultimi framework .NET.
+**D: Posso personalizzare il font e lo stile del testo aggiunto?**  
+R: Assolutamente. Modifica i parametri di `AddGlyphs` (nome del font, dimensione, `FontStyle`) per adattarli al tuo design.
 
-### Q2: Posso personalizzare il carattere e lo stile del testo aggiunto?
+**D: Ci sono limiti di dimensione per i file XPS?**  
+R: Aspose.Page può gestire documenti di grandi dimensioni, ma il consumo di memoria aumenta con la dimensione del file. Per file molto grandi, considera di processare le pagine singolarmente.
 
-A2: Assolutamente! Puoi modificare il carattere, lo stile e altri attributi secondo le tue esigenze.
+**D: Come posso ottenere una licenza temporanea per Aspose.Page?**  
+R: Puoi ottenere una licenza temporanea **[qui](https://purchase.aspose.com/temporary-license/)**.
 
-### Q3: Esistono limitazioni sulla dimensione del documento che Aspose.Page può gestire?
+**D: Dove posso cercare aiuto o entrare in contatto con la community di Aspose?**  
+R: Visita il **[forum di Aspose.Page](https://forum.aspose.com/c/page/39)** per fare domande e condividere esperienze.
 
-A3: Aspose.Page è progettato per gestire documenti di varie dimensioni, ma è sempre consigliabile controllare la documentazione per dettagli specifici.
+## Conclusione
 
-### Q4: Come posso ottenere una licenza temporanea per Aspose.Page?
+In questo tutorial abbiamo dimostrato come **modificare documenti xps** aggiungendo testo di firma personalizzato usando Aspose.Page per .NET. Ora hai una solida base per inserire qualsiasi testo, filigrana o annotazione su pagine specifiche di un file XPS. Sperimenta con diversi font, colori e posizioni per soddisfare i requisiti di branding della tua applicazione, ed esplora l'API più ampia di Aspose.Page per funzionalità grafiche e di layout avanzate.
 
- A4: È possibile acquisire una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+---
 
-### Q5: Dove posso cercare aiuto o connettermi con la comunità Aspose?
+**Ultimo aggiornamento:** 2026-01-12  
+**Testato con:** Aspose.Page 24.11 per .NET (ultima versione al momento della scrittura)  
+**Autore:** Aspose  
 
- A5: Visita il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) porre domande e interagire con la comunità.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

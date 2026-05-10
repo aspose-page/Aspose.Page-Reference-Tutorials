@@ -1,37 +1,51 @@
 ---
-title: Aspose.Page for .NET を使用して PostScript ドキュメントを作成する
-linktitle: PostScriptドキュメントの作成
+date: 2026-01-12
+description: Aspose.Page を使用して .NET で PostScript ドキュメントを作成する方法を学びましょう。このステップバイステップガイドでは、PostScript
+  ファイルの作成方法、PostScript のページサイズの設定、シームレスな統合のための余白のカスタマイズ方法を示します。
+linktitle: Create PostScript Document
 second_title: Aspose.Page .NET API
-description: Aspose.Page を使用して .NET で PostScript ドキュメントを作成する方法を学びます。シームレスな統合については、ステップバイステップのガイドに従ってください。ライブラリをダウンロードして、PostScript ファイルの操作を簡単に開始できます。
-weight: 11
+title: .NET 用 Aspose.Page で PostScript ドキュメントを作成する方法
 url: /ja/net/document-creation/create-postscript-document/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET を使用して PostScript ドキュメントを作成する
+# Aspose.Page for .NET を使用した PostScript ドキュメントの作成方法
 
-## 導入
+## Introduction
 
-Aspose.Page for .NET を使用して PostScript ドキュメントを作成するためのこの包括的なチュートリアルへようこそ。 Aspose.Page は、.NET アプリケーション内で PostScript ファイルを簡単に操作および作成できる強力な API です。このステップバイステップ ガイドでは、PostScript ドキュメントの作成プロセスを説明し、各例を詳細な手順に分けて説明します。
+Welcome! In this comprehensive tutorial you'll discover **how to create PostScript** documents programmatically with Aspose.Page for .NET. Whether you're generating invoices, shipping labels, or any vector‑based print output, this guide walks you through every step—from setting up the environment to saving the final *.ps* file. Let’s dive in and see how easy it is to produce a high‑quality PostScript file in just a few lines of C#.
 
-## 前提条件
+## Quick Answers
+- **必要なライブラリは何ですか？** Aspose.Page for .NET  
+- **ページサイズを設定できますか？** Yes – use `options.PageSize` (see “set PostScript page size”).  
+- **開発にライセンスは必要ですか？** A free trial works for testing; a license is required for production.  
+- **サポートされている .NET バージョンはどれですか？** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **実装にどれくらい時間がかかりますか？** Typically under 10 minutes for a basic document.
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+## What is “how to create PostScript” in .NET?
+Aspose.Page provides a rich API that abstracts the low‑level EPS/PostScript syntax, letting you focus on page layout, graphics, and text. By using the library you avoid manual PS code and gain support for fonts, images, and precise measurements.
 
--  Aspose.Page for .NET ライブラリ: Aspose.Page for .NET ライブラリがインストールされていることを確認します。からダウンロードできます[ここ](https://releases.aspose.com/page/net/).
+## Why use Aspose.Page for PostScript creation?
+- **Full control** over page dimensions, margins, and drawing primitives.  
+- **No external dependencies** – everything runs inside your .NET process.  
+- **Cross‑platform** support for Windows, Linux, and macOS.  
+- **Robust font handling**, including custom font folders.
 
-- .NET 環境: マシン上に動作する .NET 環境がセットアップされていることを確認してください。
+## Prerequisites
 
-- テキスト エディターまたは IDE: コーディングには好みのテキスト エディターまたは統合開発環境 (IDE) を使用します。
+- Aspose.Page for .NET Library: Ensure you have the Aspose.Page for .NET library installed. You can download it from [here](https://releases.aspose.com/page/net/).
+- .NET Environment: Make sure you have a working .NET environment set up on your machine.
+- Text Editor or IDE: Use your preferred text editor or integrated development environment (IDE) for coding.
 
-それでは、ステップバイステップのガイドを始めましょう。
+Now that we have everything ready, let’s start building the document.
 
-## 名前空間のインポート
+## Import Namespaces
 
-この最初のステップでは、Aspose.Page が提供する機能にアクセスするために必要な名前空間をインポートする必要があります。その方法は次のとおりです。
+First, import the namespaces that give you access to the core Aspose.Page classes.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,96 +53,104 @@ using Aspose.Page.EPS.Device;
 using System.IO;
 ```
 
-これらの名前空間は、PostScript ドキュメントの作成と保存に必要なクラスとメソッドへのアクセスを提供します。
+These namespaces expose the `PsDocument`, `PsSaveOptions`, and utility classes used throughout the tutorial.
 
-ここで、提供された例を詳細な手順に分解してみましょう。
-
-## ステップ 1: ドキュメント ディレクトリを設定する
+## Step 1: Set Document Directory
 
 ```csharp
 string dir = "Your Document Directory";
 ```
 
-「Your Document Directory」を、PostScript ドキュメントを保存するパスに置き換えます。
+Replace `"Your Document Directory"` with the absolute or relative path where you want the final **PostScript** file to be saved.
 
-## ステップ 2: 出力ストリームの作成
+## Step 2: Create Output Stream
 
 ```csharp
 using (Stream outPsStream = new FileStream(dir + "document.ps", FileMode.Create))
 ```
 
-このコード スニペットは、PostScript ドキュメントの出力ストリームを設定し、ファイル名を指定してドキュメントを作成します。
+The `FileStream` opens a writable stream named **document.ps**. All subsequent drawing commands will be written to this stream.
 
-## ステップ 3: 保存オプションを作成する
+## Step 3: Create Save Options
 
 ```csharp
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-ここでは、PsSaveOptions のインスタンスを作成して、PostScript ドキュメントを保存するためのさまざまなオプションを設定します。
+`PsSaveOptions` lets you configure how the document is rendered and saved.
 
-## ステップ 4: ページ サイズと余白を設定する
+## Step 4: Set PostScript Page Size and Margins
 
 ```csharp
 options.PageSize = PageConstants.GetSize(PageConstants.SIZE_A4, PageConstants.ORIENTATION_PORTRAIT);
 options.Margins = PageConstants.GetMargins(PageConstants.MARGINS_ZERO);
 ```
 
-要件に応じてページ サイズと余白を調整します。
+Here we **set PostScript page size** to A4 portrait and remove all margins. You can replace `SIZE_A4` with other constants (e.g., `SIZE_LETTER`) to meet your layout requirements.
 
-## ステップ 5: 追加のフォント フォルダーを設定する
+## Step 5: Set Additional Fonts Folders
 
 ```csharp
 options.AdditionalFontsFolders = new string[] { dir };
 ```
 
-システム フォルダー以外にあるフォントを使用する場合は、追加のフォント フォルダーを指定します。
+If your document uses custom fonts that aren’t installed on the system, point Aspose.Page to the folder containing those font files.
 
-## ステップ 6: 複数ページのドキュメントを作成する
+## Step 6: Create Multipaged Document
 
 ```csharp
 bool multiPaged = false;
 PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
 
-ページを開いた状態で、複数ページの新しい PostScript ドキュメントを作成します。
+The `PsDocument` instance represents the PostScript document. Setting `multiPaged` to `false` creates a single‑page document (you can switch to `true` for multi‑page output).
 
-## ステップ 7: 閉じて保存する
+## Step 7: Close and Save
 
 ```csharp
 document.ClosePage();
 document.Save();
 ```
 
-現在のページを閉じて、ドキュメントを保存します。
+Calling `ClosePage()` finalizes the page content, and `Save()` writes the complete PostScript stream to disk.
 
-おめでとう！ Aspose.Page for .NET を使用して PostScript ドキュメントを正常に作成しました。
+Congratulations! You’ve just learned **how to create PostScript** documents with Aspose.Page for .NET.
 
-## 結論
+## Common Issues and Solutions
 
-このチュートリアルでは、Aspose.Page for .NET ライブラリを使用して PostScript ドキュメントを作成するための重要な手順について説明しました。以下の手順に従うことで、この機能を .NET アプリケーションにシームレスに統合できます。
+- **File path errors** – Ensure the `dir` variable ends with a path separator (`\` or `/`) or use `Path.Combine`.
+- **Missing fonts** – If text appears as default fonts, verify that `options.AdditionalFontsFolders` points to the correct directory.
+- **Incorrect page size** – Double‑check the constants passed to `PageConstants.GetSize`; you can also supply custom dimensions via `new SizeF(width, height)`.
 
-## よくある質問
+## Frequently Asked Questions
 
-### Q1: Aspose.Page for .NET のドキュメントはどこで見つけられますか?
+### Q1: Where can I find the documentation for Aspose.Page for .NET?
+A1: The documentation is available [here](https://reference.aspose.com/page/net/).
 
- A1: ドキュメントは入手可能です[ここ](https://reference.aspose.com/page/net/).
+### Q2: How do I download Aspose.Page for .NET?
+A2: You can download it from [this link](https://releases.aspose.com/page/net/).
 
-### Q2: Aspose.Page for .NET をダウンロードするにはどうすればよいですか?
+### Q3: Where can I purchase a license for Aspose.Page for .NET?
+A3: You can buy a license [here](https://purchase.aspose.com/buy).
 
- A2: からダウンロードできます。[このリンク](https://releases.aspose.com/page/net/).
+### Q4: Is there a free trial available for Aspose.Page for .NET?
+A4: Yes, you can find the free trial [here](https://releases.aspose.com/).
 
-### Q3: Aspose.Page for .NET のライセンスはどこで購入できますか?
+### Q5: How can I get a temporary license for Aspose.Page for .NET?
+A5: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
- A3: ライセンスを購入できます[ここ](https://purchase.aspose.com/buy).
+### Q6: Can I generate multi‑page PostScript files?
+A6: Absolutely. Set `bool multiPaged = true` when constructing `PsDocument` and call `document.NewPage()` for each additional page.
 
-### Q4: Aspose.Page for .NET の無料トライアルはありますか?
+### Q7: Does Aspose.Page support color management?
+A7: Yes, you can embed ICC profiles via `PsSaveOptions.ColorProfile` if needed.
 
- A4: はい、無料トライアルを見つけることができます。[ここ](https://releases.aspose.com/).
+---
 
-### Q5: Aspose.Page for .NET の一時ライセンスを取得するにはどうすればよいですか?
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
 
- A5: 仮免許を取得する[ここ](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

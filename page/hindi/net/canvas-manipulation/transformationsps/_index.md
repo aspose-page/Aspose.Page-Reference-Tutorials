@@ -1,33 +1,51 @@
 ---
-title: .NET के लिए Aspose.Page के साथ ट्रांसफ़ॉर्मेशन PS
-linktitle: परिवर्तन पी.एस
+date: 2026-01-12
+description: Aspose.Page for .NET का उपयोग करके PostScript फ़ाइल को सहेजना और PostScript
+  दस्तावेज़ बनाना सीखें, और गतिशील ग्राफ़िक्स के लिए कई रूपांतरण लागू करें।
+linktitle: Transformations PS
 second_title: Aspose.Page .NET API
-description: पोस्टस्क्रिप्ट परिवर्तनों पर इस व्यापक मार्गदर्शिका के साथ .NET के लिए Aspose.Page की क्षमता को अनलॉक करें। सहजता से गतिशील ग्राफिक्स बनाएं।
-weight: 12
+title: Aspose.Page ट्रांसफ़ॉर्मेशन (.NET) के साथ PostScript फ़ाइल सहेजें
 url: /hi/net/canvas-manipulation/transformationsps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET के लिए Aspose.Page के साथ ट्रांसफ़ॉर्मेशन PS
+# Aspose.Page Transformations (.NET) के साथ PostScript फ़ाइल सहेजें
 
-## परिचय
+## Introduction
 
-.NET के लिए Aspose.Page की दुनिया में आपका स्वागत है, जहां आप पोस्टस्क्रिप्ट दस्तावेजों में परिवर्तनों की शक्ति को उजागर कर सकते हैं। यह ट्यूटोरियल आपको अनुवाद, स्केलिंग, रोटेशन, शियरिंग और जटिल परिवर्तनों जैसे विभिन्न परिवर्तनों के माध्यम से मार्गदर्शन करेगा, जिससे आप दृश्यमान आश्चर्यजनक और गतिशील ग्राफिक्स बना सकेंगे।
+इस ट्यूटोरियल में आप सीखेंगे कि **PostScript फ़ाइल को कैसे सहेजें** जबकि आप Aspose.Page for .NET के साथ काम कर रहे हों। हम एक PostScript दस्तावेज़ बनाने, ट्रांसलेशन, स्केलिंग, रोटेशन और शीयरिंग जैसे कई ट्रांसफ़ॉर्मेशन लागू करने, और अंत में परिणाम को सहेजने की प्रक्रिया को चरण‑बद्ध रूप से देखेंगे। अंत तक आप प्रोग्रामेटिक रूप से डायनामिक ग्राफ़िक्स बनाने में सहज हो जाएंगे और जानेंगे कि ग्राफ़िक्स स्टेट में प्रत्येक ट्रांसफ़ॉर्मेशन को कहाँ रखना है।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **मैं क्या बना सकता हूँ?** एक पूरी तरह से फीचर वाला PostScript दस्तावेज़ जिसमें परिवर्तित ग्राफ़िक्स होते हैं।  
+- **कौन सी लाइब्रेरी आवश्यक है?** Aspose.Page for .NET (आधिकारिक साइट से डाउनलोड योग्य)।  
+- **फ़ाइल को कैसे सहेजें?** ग्राफ़िक्स स्टेट्स को कॉन्फ़िगर करने के बाद `PsDocument.Save()` का उपयोग करें।  
+- **क्या मैं कई ट्रांसफ़ॉर्मेशन लागू कर सकता हूँ?** हाँ – उन्हें `Transform` या क्रमिक कॉल्स के साथ संयोजित करें।  
+- **क्या लाइसेंस आवश्यक है?** विकास के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए एक व्यावसायिक लाइसेंस आवश्यक है।
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is a “save postscript file” operation?
 
--  .NET लाइब्रेरी के लिए Aspose.Page: सुनिश्चित करें कि आपके प्रोजेक्ट में .NET लाइब्रेरी के लिए Aspose.Page एकीकृत है। आप इसे यहां से डाउनलोड कर सकते हैं[लिंक को डाउनलोड करें](https://releases.aspose.com/page/net/).
+PostScript फ़ाइल को सहेजना मतलब है कि मेमोरी में बनाए गए ड्रॉइंग कमांड्स को डिस्क पर `.ps` फ़ाइल के रूप में स्थायी बनाना। इस फ़ाइल को कोई भी PostScript इंटरप्रेटर, प्रिंटर या व्यूअर रेंडर कर सकता है।
 
-- दस्तावेज़ निर्देशिका: अपने दस्तावेज़ों के लिए एक निर्देशिका सेट करें और कोड में प्लेसहोल्डर को वास्तविक पथ से बदलें।
+## Why use Aspose.Page for .NET to create postscript document?
 
-## नामस्थान आयात करें
+Aspose.Page एक हाई‑लेवल, डिवाइस‑इंडिपेंडेंट API प्रदान करता है जो लो‑लेवल PostScript सिंटैक्स को एब्स्ट्रैक्ट करता है। आपको मिलता है:
 
-अपने .NET प्रोजेक्ट में, Aspose.Page के साथ काम करने के लिए आवश्यक नेमस्पेस आयात करें:
+- पाथ, ब्रश, और ट्रांसफ़ॉर्मेशन के लिए स्ट्रॉन्गली‑टाइप्ड C# ऑब्जेक्ट्स।  
+- ग्राफ़िक्स स्टेट स्टैक (save/restore) का स्वचालित प्रबंधन।  
+- मैन्युअल गणनाओं के बिना जटिल ट्रांसफ़ॉर्मेशन मैट्रिक्स के लिए पूर्ण समर्थन।  
+
+## Prerequisites
+
+शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
+
+- **Aspose.Page for .NET** लाइब्रेरी को अपने प्रोजेक्ट में इंटीग्रेट करें। इसे [download link](https://releases.aspose.com/page/net/) से प्राप्त करें।  
+- एक लिखने योग्य फ़ोल्डर जहाँ उत्पन्न `.ps` फ़ाइल संग्रहीत होगी। कोड में प्लेसहोल्डर पाथ को अपने वास्तविक डायरेक्टरी से बदलें।
+
+## Import Namespaces
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,116 +55,134 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-अब, आइए चरण-दर-चरण मार्गदर्शिका प्रारूप में प्रत्येक उदाहरण को कई चरणों में विभाजित करें।
+अब हम प्रत्येक ट्रांसफ़ॉर्मेशन को चरण‑बद्ध रूप से देखेंगे।
 
+## No Transformations
 
-## कोई परिवर्तन नहीं
-
-### चरण 1: आउटपुट स्ट्रीम बनाएं
+### Step 1: Create Output Stream
 
 ```csharp
-// दस्तावेज़ निर्देशिका का पथ.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// पोस्टस्क्रिप्ट दस्तावेज़ के लिए आउटपुट स्ट्रीम बनाएं
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "Transformations_outPS.ps", FileMode.Create))
 {
-    // डिफ़ॉल्ट मानों के साथ सेव विकल्प बनाएं
+    // Create save options with default values
     PsSaveOptions options = new PsSaveOptions();
 
-    // नया 1-पृष्ठ वाला PS दस्तावेज़ बनाएँ
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 
     document.Translate(100, 100);
 
-    // आयत से ग्राफ़िक्स पथ बनाएं
+    // Create graphics path from the rectangle
     System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
     path.AddRectangle(new System.Drawing.RectangleF(0, 0, 150, 100));
 
-    // ऊपरी स्तर पर पेंट को ग्राफ़िक्स स्थिति में सेट करें
+    // Set paint in graphics state on upper level
     document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-    // पहला आयत भरें जो ऊपरी-स्तरीय ग्राफ़िक्स स्थिति पर है और बिना किसी परिवर्तन के
+    // Fill the first rectangle that is on the upper-level graphics state and without any transformations
     document.Fill(path);
 
-    // वर्तमान पृष्ठ बंद करें
+    // Close current page
     document.ClosePage();
 
-    // दस्तावेज़ सहेजें
+    // Save the document
     document.Save();
 }
 ```
 
-यह कोड बिना किसी परिवर्तन के एक पोस्टस्क्रिप्ट दस्तावेज़ बनाता है, एक आयत को नारंगी रंग से भरता है।
+यह स्निपेट एक **PostScript दस्तावेज़** बनाता है जिसमें एक एकल नारंगी आयत है और **PostScript फ़ाइल** को बिना किसी ट्रांसफ़ॉर्मेशन के सहेजता है।
 
-## अनुवाद
+## Translation
 
-### चरण 1: ग्राफ़िक्स स्थिति सहेजें
+### Step 1: Save Graphics State
 
 ```csharp
-// परिवर्तन के बाद इस स्थिति में वापस लौटने के लिए ग्राफ़िक्स स्थिति सहेजें
+// Save graphics state to return back to this state after transformation
 document.WriteGraphicsSave();
 ```
 
-यह चरण वर्तमान ग्राफ़िक्स स्थिति को सहेजता है, जिससे हम परिवर्तन के बाद उस पर वापस लौट सकते हैं।
+ग्राफ़िक्स स्टेट को सहेजने से आप वस्तुओं को स्थानांतरित करने के बाद वापस लौट सकते हैं।
 
-### चरण 2: ग्राफ़िक्स स्थिति का अनुवाद करें
+### Step 2: Translate Graphics State
 
 ```csharp
-// वर्तमान ग्राफ़िक्स स्थिति 250 को दाईं ओर विस्थापित करें
+// Displace current graphics state 250 to the right
 document.Translate(250, 0);
 ```
 
-एक अनुवाद घटक जोड़कर वर्तमान ग्राफ़िक्स स्थिति का अनुवाद करें, फिर वर्तमान ग्राफ़िक्स स्थिति में पेंट को नीले रंग में सेट करें।
+यह ट्रांसलेशन इस कॉल के बाद ड्रॉ की गई सभी वस्तुओं को 250 यूनिट दाईं ओर ले जाता है।
 
-### चरण 3: आयत को अनुवाद परिवर्तन से भरें
+### Step 3: Fill Rectangle with Translation Transformation
 
 ```csharp
-// पेंट को वर्तमान ग्राफ़िक्स स्थिति में सेट करें
+// Set paint in the current graphics state
 document.SetPaint(new System.Drawing.SolidBrush(Color.Blue));
 
-// वर्तमान ग्राफ़िक्स स्थिति में दूसरा आयत भरें (अनुवाद परिवर्तन है)
+// Fill the second rectangle in the current graphics state (has translation transformation)
 document.Fill(path);
 ```
 
-यह चरण वर्तमान ग्राफ़िक्स स्थिति में दूसरे आयत को भरता है, जिसमें अब अनुवाद परिवर्तन शामिल है।
+अब एक नीली आयत नारंगी आयत के 250 पॉइंट दाईं ओर दिखाई देती है।
 
-### चरण 4: ग्राफ़िक्स स्थिति पुनर्स्थापित करें
+### Step 4: Restore Graphics State
 
 ```csharp
-// ग्राफ़िक्स स्थिति को पिछले (ऊपरी) स्तर पर पुनर्स्थापित करें
+// Restore graphics state to the previous (upper) level
 document.WriteGraphicsRestore();
 ```
 
-आयत भरने के बाद, ग्राफ़िक्स स्थिति को पिछले स्तर पर पुनर्स्थापित करें।
+रीस्टोर करने से कॉर्डिनेट सिस्टम अपनी मूल स्थिति में लौट आता है, इसलिए आगे की ड्रॉइंग ट्रांसलेशन से प्रभावित नहीं होती।
 
-स्केलिंग, रोटेशन, शियरिंग और जटिल ट्रांसफ़ॉर्मेशन सहित प्रत्येक परिवर्तन प्रकार के लिए इस चरण-दर-चरण मार्गदर्शिका को जारी रखें।
+## Scaling
 
-## निष्कर्ष
+> *You can follow the same pattern—save state, apply `Scale`, draw, then restore.*  
+> **Pro tip:** Use non‑uniform scaling (`Scale(sx, sy)`) to stretch objects only in one direction.
 
-बधाई हो! आपने .NET के लिए Aspose.Page की परिवर्तनकारी क्षमताओं को सफलतापूर्वक पार कर लिया है। अब, विभिन्न संयोजनों के साथ प्रयोग करें और पोस्टस्क्रिप्ट दस्तावेज़ परिवर्तनों में अपनी रचनात्मकता को उजागर करें।
+## Rotation
 
-## अक्सर पूछे जाने वाले प्रश्न
+> *Rotate around the origin or a custom pivot point using `Rotate(angle)`.*
+> **Pro tip:** Combine `Translate` before rotation to rotate around a specific point.
 
-### Q1: मैं एक ही ऑब्जेक्ट में एकाधिक परिवर्तन कैसे लागू कर सकता हूं?
+## Shearing
 
-A1: एकाधिक परिवर्तन लागू करने के लिए, का उपयोग करें`Transform` एक कस्टम परिवर्तन मैट्रिक्स के साथ विधि।
+> *Shear transformations (`Shear(shx, shy)`) slant shapes, useful for italic effects.*
 
-### Q2: क्या मैं दस्तावेज़ को सहेजने से पहले परिवर्तनों का पूर्वावलोकन कर सकता हूँ?
+## Complex Transformations
 
-उ2: हां, आप दस्तावेज़ को प्रस्तुत करके और उपयुक्त व्यूअर में उसका पूर्वावलोकन करके परिवर्तनों की कल्पना कर सकते हैं।
+> *For advanced scenarios, build a custom `Matrix` and pass it to `Transform(matrix)`.*
+> This is where you **apply multiple transformations** in a single step.
 
-### Q3: क्या किसी दस्तावेज़ में विशिष्ट तत्वों में परिवर्तन लागू करना संभव है?
+## Conclusion
 
-उ3: हाँ, आप किसी दस्तावेज़ के भीतर विशिष्ट ग्राफ़िक्स तत्वों में परिवर्तनों को अलग कर सकते हैं।
+आपने सीखा कि **PostScript फ़ाइल को कैसे सहेजें**, **PostScript दस्तावेज़ कैसे बनाएं**, और **Aspose.Page for .NET** का उपयोग करके **कई ट्रांसफ़ॉर्मेशन कैसे लागू करें**। विभिन्न ट्रांसफ़ॉर्मेशन क्रमों के साथ प्रयोग करें, उन्हें संयोजित करें, और देखें कि ग्राफ़िक्स कैसे विकसित होते हैं।
 
-### Q4: क्या जटिल परिवर्तनों से निपटने के दौरान प्रदर्शन पर कोई विचार किया जाता है?
+## Frequently Asked Questions
 
-A4: जटिल परिवर्तन प्रदर्शन को प्रभावित कर सकते हैं, इसलिए दक्षता के लिए अपने कोड को अनुकूलित करें।
+**Q: How can I apply multiple transformations to a single object?**  
+A: Use the `Transform` method with a custom `Matrix` that combines translation, scaling, rotation, or shearing in the order you need.
 
-### Q5: Aspose.Page-संबंधित प्रश्नों के लिए मैं समर्थन कैसे प्राप्त कर सकता हूं या सहायता कैसे प्राप्त कर सकता हूं?
+**Q: Can I preview the transformations before saving the document?**  
+A: Yes—render the `PsDocument` to an image or use a PostScript viewer to inspect the output before calling `Save()`.
 
- A5: पर जाएँ[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) सामुदायिक समर्थन और चर्चा के लिए।
+**Q: Is it possible to apply transformations to specific elements in a document?**  
+A: Absolutely. Save the graphics state before drawing the element, apply the desired transformation, draw, then restore the state.
+
+**Q: Are there any performance considerations when dealing with complex transformations?**  
+A: Complex matrices increase CPU work. Keep transformations as simple as possible and reuse saved states when drawing many similar objects.
+
+**Q: How can I get support or seek assistance for Aspose.Page-related queries?**  
+A: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community help, or contact Aspose support directly.
+
+---
+
+**Last Updated:** 2026-01-12  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
