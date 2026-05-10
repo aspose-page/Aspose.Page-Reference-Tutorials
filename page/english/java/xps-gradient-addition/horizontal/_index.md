@@ -5,7 +5,7 @@ second_title: Aspose.Page Java API
 description: Learn how to add gradient to XPS documents in Java using Aspose.Page and how to customize gradient stops for stunning horizontal effects.
 weight: 11
 url: /java/xps-gradient-addition/horizontal/
-date: 2025-12-25
+date: 2026-03-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -80,7 +80,7 @@ stops.add(doc.createGradientStop(doc.createColor(255, 12, 91, 248), 1f));
 - **Position** – The second argument (`float` between `0` and `1`) defines where the stop appears along the gradient line. Adjust these values to shift colors left or right.
 
 ## Step 3: Add Path with Gradient
-Create a rectangular path, apply a transform if needed, and fill it with the linear gradient brush. The brush uses two points (`(10,0)` to `(228,0)`) to produce a horizontal effect.
+Create a rectangular path, apply a transform if needed, and fill it with the linear gradient brush. The brush uses two points (`(10,0)` to `(228,0)`) to produce a horizontal effect. Because the Y‑coordinates are identical, this brush acts as a **horizontal gradient brush**.
 
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
@@ -99,6 +99,14 @@ Persist the XPS file to disk. You can now open it with any XPS viewer to see the
 ```java
 doc.save(dataDir + "HorizontalGradient.xps");
 ```
+
+## How to Apply Multiple Gradients
+If you want to **apply multiple gradients** within the same XPS document, simply repeat the “Create Horizontal Gradient” and “Add Path with Gradient” steps for each new shape. Use a fresh list of `XpsGradientStop` objects (or clear the existing list) and assign a new `LinearGradientBrush` with its own start/end points. This approach lets you layer gradients, create complex backgrounds, or highlight different UI elements in a single page.
+
+## Why This Matters – Benefits of the Horizontal Gradient Brush
+- **Visual depth:** A horizontal gradient brush adds a subtle three‑dimensional feel without extra images.  
+- **File size efficiency:** Gradients are stored as vector definitions, keeping the XPS file lightweight.  
+- **Scalability:** Because the gradient is vector‑based, it scales cleanly on high‑resolution displays.  
 
 ## Common Issues & Solutions
 | Issue | Reason | Fix |
@@ -126,7 +134,7 @@ A: Yes, you can visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39
 
 ---
 
-**Last Updated:** 2025-12-25  
+**Last Updated:** 2026-03-13  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 

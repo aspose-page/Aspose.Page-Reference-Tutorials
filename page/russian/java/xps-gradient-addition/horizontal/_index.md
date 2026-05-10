@@ -1,46 +1,48 @@
 ---
-date: 2025-12-25
+date: 2026-03-13
 description: Узнайте, как добавить градиент в XPS‑документы на Java с помощью Aspose.Page
-  и как настроить остановки градиента для потрясающих горизонтальных эффектов.
+  и как настроить остановки градиента для впечатляющих горизонтальных эффектов.
 linktitle: Add Horizontal Gradient in Java XPS
 second_title: Aspose.Page Java API
-title: Как добавить градиент – горизонтальный градиент в Java XPS
+title: Как добавить градиент — горизонтальный градиент в Java XPS
 url: /ru/java/xps-gradient-addition/horizontal/
 weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+. Also ensure markdown formatting.
+
+Let's write final.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Как добавить градиент – горизонтальный градиент в Java XPS
 
-## Введение
-Добро пожаловать в пошаговое руководство по **добавлению градиента** в документ XPS с помощью Java. В этом уроке вы узнаете, как добавить горизонтальный градиент, почему это важно для визуального полирования и как **настраивать градиентные стопы** для точного управления цветом. Aspose.Page for Java упрощает работу с документами XPS (XML Paper Specification), позволяя сосредоточиться на дизайне, а не на низкоуровневой обработке файлов.
+## Introduction
+Welcome to this step‑by‑step guide on **how to add gradient** to an XPS document using Java. In this tutorial you’ll learn how to add a horizontal gradient, why it matters for visual polish, and how to **customize gradient stops** for precise color control. Aspose.Page for Java makes working with XPS (XML Paper Specification) documents straightforward, letting you focus on design rather than low‑level file handling.
 
-## Быстрые ответы
+## Quick Answers
 - **Какая библиотека нужна?** Aspose.Page for Java  
-- **Какая версия Java поддерживается?** Любой runtime Java 8+  
-- **Нужна ли лицензия?** Бесплатная пробная версия подходит для разработки; коммерческая лицензия требуется для продакшна  
-- **Можно ли изменить направление градиента?** Да – достаточно изменить начальные/конечные точки линейного кисти  
-- **Можно ли добавить несколько градиентов?** Конечно – повторите шаги создания пути с разными кистями  
+- **Какая версия Java поддерживается?** Any Java 8+ runtime  
+- **Нужна ли лицензия?** A free trial works for development; a commercial license is required for production  
+- **Можно ли изменить направление градиента?** Yes – just modify the start/end points of the linear brush  
+- **Можно ли добавить несколько градиентов?** Absolutely – repeat the path creation steps with different brushes  
 
-## Что такое горизонтальный градиент в XPS?
-Горизонтальный градиент – это плавный переход цветов слева направо по фигуре. В XPS он представлен линейной градиентной кистью, которая интерполирует между заданными **градиентными стопами**. Этот визуальный эффект часто используется для баннеров, кнопок и фоновых заливок.
+## What is a Horizontal Gradient in XPS?
+A horizontal gradient is a smooth transition of colors from left to right across a shape. In XPS it is represented by a linear gradient brush that interpolates between defined **gradient stops**. This visual effect is commonly used for banners, buttons, and background fills.
 
-## Почему использовать Aspose.Page для Java?
-- **Полная поддержка XPS** – создание, редактирование и рендеринг без сторонних инструментов.  
-- **Простой API** – высокоуровневые объекты, такие как `XpsDocument`, `XpsPath` и `XpsGradientBrush`, скрывают сложность XML.  
-- **Производительность** – оптимизировано для больших документов и пакетной обработки.  
+## Why Use Aspose.Page for Java?
+- **Full XPS support** – create, edit, and render without third‑party tools.  
+- **Simple API** – high‑level objects like `XpsDocument`, `XpsPath`, and `XpsGradientBrush` hide the XML complexity.  
+- **Performance** – optimized for large documents and batch processing.  
 
-## Требования
-Прежде чем начать, убедитесь, что у вас есть:
+## Prerequisites
+Before you begin, ensure you have:
 
-1. **Среда разработки Java** – установите последнюю JDK с [java.com](https://www.java.com).  
-2. **Библиотека Aspose.Page for Java** – скачайте JAR с [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
+1. **Среда разработки Java** – Install the latest JDK from [java.com](https://www.java.com).  
+2. **Библиотека Aspose.Page for Java** – Download the JAR from the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
 
-## Импорт пакетов
-Начните с импорта необходимых классов. Эти импорты дают вам доступ к созданию документов, работе с градиентами и базовой геометрии.
+## Import Packages
+Start by importing the necessary classes. These imports give you access to document creation, gradient handling, and basic geometry.
 
 ```java
 import com.aspose.xps.XpsDocument;
@@ -52,8 +54,8 @@ import java.util.LinkedList;
 import java.util.List;
 ```
 
-## Шаг 1: Инициализация XPS‑документа
-Создайте новый экземпляр `XpsDocument` и укажите папку, в которую хотите сохранить результат.
+## Step 1: Initialize the XPS Document
+Create a fresh `XpsDocument` instance and point to the folder where you want to save the result.
 
 ```java
 // The path to the documents directory.
@@ -62,8 +64,8 @@ String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-## Шаг 2: Создание горизонтального градиента
-Определите список **градиентных стопов**, которые контролируют цвет и позицию каждой точки перехода. Пример ниже формирует яркий радужный градиент.
+## Step 2: Create Horizontal Gradient
+Define a list of **gradient stops** that control the color and position of each transition point. The example below builds a vibrant rainbow‑like gradient.
 
 ```java
 // Horizontal gradient
@@ -76,12 +78,12 @@ stops.add(doc.createGradientStop(doc.createColor(255, 53, 253, 255), 0.915039f))
 stops.add(doc.createGradientStop(doc.createColor(255, 12, 91, 248), 1f));
 ```
 
-### Как настроить градиентные стопы
-- **Цвет** – используйте `doc.createColor(alpha, red, green, blue)`, чтобы задать любое значение ARGB.  
-- **Позиция** – второй аргумент (`float` от `0` до `1`) определяет, где стоп появляется вдоль линии градиента. Регулируйте эти значения, чтобы сдвигать цвета влево или вправо.
+### How to customize gradient stops
+- **Цвет** – Use `doc.createColor(alpha, red, green, blue)` to set any ARGB value.  
+- **Позиция** – The second argument (`float` between `0` and `1`) defines where the stop appears along the gradient line. Adjust these values to shift colors left or right.
 
-## Шаг 3: Добавление пути с градиентом
-Создайте прямоугольный путь, при необходимости примените трансформацию и заполните его линейной градиентной кистью. Кисть использует две точки (`(10,0)` до `(228,0)`) для создания горизонтального эффекта.
+## Step 3: Add Path with Gradient
+Create a rectangular path, apply a transform if needed, and fill it with the linear gradient brush. The brush uses two points (`(10,0)` to `(228,0)`) to produce a horizontal effect. Because the Y‑coordinates are identical, this brush acts as a **horizontal gradient brush**.
 
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
@@ -92,44 +94,52 @@ path.setFill(doc.createLinearGradientBrush(new Point2D.Float(10f, 0f), new Point
 stops.clear();
 ```
 
-**Совет:** Повторное использование одного и того же списка `stops` для нескольких путей может повысить производительность, но не забудьте вызвать `clear()` перед добавлением новых стопов.
+**Pro tip:** Re‑using the same `stops` list for multiple paths can improve performance, but remember to `clear()` it before adding new stops.
 
-## Шаг 4: Сохранение документа
-Сохраните файл XPS на диск. Теперь вы можете открыть его в любом XPS‑просмотрщике, чтобы увидеть горизонтальный градиент в действии.
+## Step 4: Save the Document
+Persist the XPS file to disk. You can now open it with any XPS viewer to see the horizontal gradient in action.
 
 ```java
 doc.save(dataDir + "HorizontalGradient.xps");
 ```
 
-## Распространённые проблемы и решения
+## How to Apply Multiple Gradients
+If you want to **apply multiple gradients** within the same XPS document, simply repeat the “Create Horizontal Gradient” and “Add Path with Gradient” steps for each new shape. Use a fresh list of `XpsGradientStop` objects (or clear the existing list) and assign a new `LinearGradientBrush` with its own start/end points. This approach lets you layer gradients, create complex backgrounds, or highlight different UI elements in a single page.
+
+## Why This Matters – Benefits of the Horizontal Gradient Brush
+- **Визуальная глубина:** A horizontal gradient brush adds a subtle three‑dimensional feel without extra images.  
+- **Эффективность размера файла:** Gradients are stored as vector definitions, keeping the XPS file lightweight.  
+- **Масштабируемость:** Because the gradient is vector‑based, it scales cleanly on high‑resolution displays.  
+
+## Common Issues & Solutions
 | Проблема | Причина | Решение |
-|----------|----------|----------|
-| Градиент выглядит сплошным | Не добавлены градиентные стопы или кисть не установлена | Убедитесь, что `path.setFill(...)` использует `LinearGradientBrush` и что стопы добавлены через `getGradientStops().addAll(stops)`. |
-| Цвета выглядят тускло | Неправильное значение альфа (первый параметр) | Используйте `255` для полностью непрозрачных цветов, если не требуется прозрачность. |
-| Размер пути неверный | Неправильные значения матрицы трансформации | Скорректируйте параметры матрицы (`scaleX, skewY, skewX, scaleY, translateX, translateY`). |
+|----------|---------|----------|
+| Градиент выглядит сплошным | Не добавлены градиентные остановки или кисть не установлена | Убедитесь, что `path.setFill(...)` использует `LinearGradientBrush` и что остановки добавляются через `getGradientStops().addAll(stops)`. |
+| Цвета выглядят тускло | Неправильное значение альфа (первый параметр) | Используйте `255` для полностью непрозрачных цветов, если только не требуется прозрачность. |
+| Размер пути неверен | Значения матрицы трансформации неверны | Отрегулируйте параметры матрицы (`scaleX, skewY, skewX, scaleY, translateX, translateY`). |
 
-## Часто задаваемые вопросы
+## Frequently Asked Questions
 
-**Q: Можно ли применить несколько градиентов в одном документе XPS?**  
-**A:** Да, вы можете добавить несколько путей, каждый со своей градиентной кистью, чтобы создать сложные слоистые дизайны.
+**Q: Can I apply multiple gradients in a single XPS document?**  
+A: Yes, you can add multiple paths, each with its own gradient brush, to create complex layered designs.
 
-**Q: Совместима ли Aspose.Page с последними версиями Java?**  
-**A:** Aspose.Page for Java регулярно обновляется и работает с Java 8 и более новыми версиями.
+**Q: Is Aspose.Page compatible with the latest Java versions?**  
+A: Aspose.Page for Java is regularly updated and works with Java 8 and newer releases.
 
-**Q: Есть ли другие типы градиентов в Aspose.Page?**  
-**A:** Помимо линейных градиентов, Aspose.Page поддерживает радиальные градиенты для круглых цветовых переходов.
+**Q: Are there other gradient types available in Aspose.Page?**  
+A: Besides linear gradients, Aspose.Page also supports radial gradients for circular color transitions.
 
-**Q: Можно ли настраивать цвета и позиции градиентных стопов?**  
-**A:** Абсолютно! Вы полностью контролируете ARGB‑цвет каждого стопа и его относительную позицию (диапазон 0‑1).
+**Q: Can I customize the colors and positions of gradient stops?**  
+A: Absolutely! You have full control over each stop’s ARGB color and its relative position (0‑1 range).
 
-**Q: Есть ли форум сообщества Aspose.Page, где можно получить помощь?**  
-**A:** Да, посетите [Aspose.Page forum](https://forum.aspose.com/c/page/39), чтобы связаться с сообществом и получить поддержку.
+**Q: Is there a community forum for Aspose.Page where I can seek help?**  
+A: Yes, you can visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to connect with the community and get assistance.
 
 ---
 
-**Последнее обновление:** 2025-12-25  
-**Тестировано с:** Aspose.Page for Java 24.11  
-**Автор:** Aspose  
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

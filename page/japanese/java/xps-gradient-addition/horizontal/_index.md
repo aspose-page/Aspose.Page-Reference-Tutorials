@@ -1,6 +1,6 @@
 ---
-date: 2025-12-25
-description: Aspose.Page を使用して Java で XPS ドキュメントにグラデーションを追加する方法と、見事な水平効果を得るためにグラデーションストップをカスタマイズする方法を学びましょう。
+date: 2026-03-13
+description: Aspose.Page を使用して Java で XPS ドキュメントにグラデーションを追加する方法と、見事な水平効果を実現するためにグラデーションストップをカスタマイズする方法を学びましょう。
 linktitle: Add Horizontal Gradient in Java XPS
 second_title: Aspose.Page Java API
 title: Java XPSでグラデーションを追加する方法 – 水平グラデーション
@@ -14,32 +14,32 @@ weight: 11
 
 # Java XPSでグラデーションを追加する方法 – 水平グラデーション
 
-## はじめに
-このステップバイステップガイドへようこそ。**グラデーションを XPS ドキュメントに追加する方法**を Java で解説します。本チュートリアルでは水平グラデーションの追加方法、その視覚的な効果の重要性、そして**グラデーション ストップのカスタマイズ**による正確な色制御について学びます。Aspose.Page for Java を使用すれば、XPS (XML Paper Specification) ドキュメントの操作がシンプルになり、低レベルのファイル処理に煩わされることなくデザインに集中できます。
+## Introduction
+このステップバイステップガイドへようこそ。Javaを使用してXPSドキュメントに**グラデーションを追加する方法**を説明します。このチュートリアルでは水平グラデーションの追加方法、視覚的な仕上げに重要な理由、そして正確な色制御のための**グラデーションストップのカスタマイズ**方法を学びます。Aspose.Page for Java を使用すれば、XPS（XML Paper Specification）ドキュメントの操作がシンプルになり、低レベルのファイル処理ではなくデザインに集中できます。
 
-## クイックアンサー
+## Quick Answers
 - **必要なライブラリは？** Aspose.Page for Java  
-- **対応 Java バージョンは？** Java 8 以上のランタイム  
-- **ライセンスは必要？** 開発目的であれば無料トライアルで可。商用利用には製品ライセンスが必要です。  
-- **グラデーションの方向は変更できる？** はい – リニア ブラシの開始点/終了点を変更するだけです。  
-- **複数のグラデーションを追加できる？** もちろん – 異なるブラシでパス作成手順を繰り返すだけです。  
+- **対応するJavaバージョンは？** Java 8以降のランタイムならすべて対応  
+- **ライセンスは必要ですか？** 開発目的であれば無料トライアルで利用可能。商用利用には製品ライセンスが必要です。  
+- **グラデーションの方向を変更できますか？** はい – 線形ブラシの開始点/終了点を変更するだけです。  
+- **複数のグラデーションを追加できますか？** もちろんです – 異なるブラシでパス作成手順を繰り返すだけです。  
 
-## XPS の水平グラデーションとは？
-水平グラデーションとは、形状全体を左から右へ滑らかに色が変化する効果です。XPS では、定義された **グラデーション ストップ** 間を補間するリニア グラデーション ブラシで表現されます。この視覚効果はバナー、ボタン、背景塗りつぶしなどで頻繁に使用されます。
+## What is a Horizontal Gradient in XPS?
+水平グラデーションとは、形状全体を左から右へ色が滑らかに変化するものです。XPSでは、定義された**グラデーションストップ**間を補間する線形グラデーションブラシで表現されます。この視覚効果はバナー、ボタン、背景の塗りつぶしなどで一般的に使用されます。
 
-## Aspose.Page for Java を使う理由
-- **フル XPS サポート** – サードパーティーツール不要で作成、編集、レンダリングが可能。  
-- **シンプル API** – `XpsDocument`、`XpsPath`、`XpsGradientBrush` などの高レベルオブジェクトが XML の複雑さを隠蔽します。  
+## Why Use Aspose.Page for Java?
+- **フルXPSサポート** – サードパーティツールなしで作成、編集、レンダリングが可能です。  
+- **シンプルなAPI** – `XpsDocument`、`XpsPath`、`XpsGradientBrush` などのハイレベルオブジェクトがXMLの複雑さを隠蔽します。  
 - **パフォーマンス** – 大規模ドキュメントやバッチ処理に最適化されています。  
 
-## 前提条件
-開始する前に以下を確認してください。
+## Prerequisites
+Before you begin, ensure you have:
 
-1. **Java 開発環境** – 最新の JDK を [java.com](https://www.java.com) からインストール。  
-2. **Aspose.Page for Java ライブラリ** – [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) から JAR をダウンロード。  
+1. **Java開発環境** – 最新のJDKを[java.com](https://www.java.com)からインストールしてください。  
+2. **Aspose.Page for Java ライブラリ** – [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) からJARをダウンロードしてください。  
 
-## パッケージのインポート
-必要なクラスをインポートします。このインポートにより、ドキュメント作成、グラデーション操作、基本ジオメトリへのアクセスが可能になります。
+## Import Packages
+必要なクラスをインポートします。このインポートにより、ドキュメント作成、グラデーション操作、基本的なジオメトリにアクセスできます。
 
 ```java
 import com.aspose.xps.XpsDocument;
@@ -51,8 +51,8 @@ import java.util.LinkedList;
 import java.util.List;
 ```
 
-## ステップ 1: XPS ドキュメントの初期化
-新しい `XpsDocument` インスタンスを作成し、結果を保存したいフォルダーを指定します。
+## Step 1: Initialize the XPS Document
+Create a fresh `XpsDocument` instance and point to the folder where you want to save the result.
 
 ```java
 // The path to the documents directory.
@@ -61,8 +61,8 @@ String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-## ステップ2: 水平グラデーションを作成する
-**グラデーション ストップ** のリストを定義します。これにより各遷移点の色と位置が制御されます。以下の例は鮮やかな虹色のグラデーションを構築します。
+## Step 2: Create Horizontal Gradient
+Define a list of **gradient stops** that control the color and position of each transition point. The example below builds a vibrant rainbow‑like gradient.
 
 ```java
 // Horizontal gradient
@@ -75,12 +75,8 @@ stops.add(doc.createGradientStop(doc.createColor(255, 53, 253, 255), 0.915039f))
 stops.add(doc.createGradientStop(doc.createColor(255, 12, 91, 248), 1f));
 ```
 
-### グラデーションの境界をカスタマイズする方法
-- **Color** – 任意の ARGB 値は `doc.createColor(alpha, red, green, blue)` で設定します。  
-- **Position** – 2 番目の引数（`0` から `1` の `float`）がグラデーションライン上の停止位置を決めます。値を調整して色を左または右にシフトできます。
-
-## ステップ3: グラデーション付きのパスを追加する
-矩形パスを作成し、必要に応じて変形を適用し、リニア グラデーション ブラシで塗りつぶします。ブラシは `(10,0)` から `(228,0)` の 2 点を使用し、水平効果を実現します。
+## Step 3: Add Path with Gradient
+Create a rectangular path, apply a transform if needed, and fill it with the linear gradient brush. The brush uses two points (`(10,0)` to `(228,0)`) to produce a horizontal effect. Because the Y‑coordinates are identical, this brush acts as a **horizontal gradient brush**.
 
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
@@ -91,44 +87,52 @@ path.setFill(doc.createLinearGradientBrush(new Point2D.Float(10f, 0f), new Point
 stops.clear();
 ```
 
-**Pro tip:** 複数のパスで同じ `stops` リストを再利用するとパフォーマンスが向上しますが、新しい停止を追加する前に必ず `clear()` してください。
+**Pro tip:** Re‑using the same `stops` list for multiple paths can improve performance, but remember to `clear()` it before adding new stops.
 
-## ステップ4: ドキュメントを保存する
-XPS ファイルをディスクに保存します。保存後は任意の XPS ビューアで開き、水平グラデーションが正しく表示されることを確認できます。
+## Step 4: Save the Document
+Persist the XPS file to disk. You can now open it with any XPS viewer to see the horizontal gradient in action.
 
 ```java
 doc.save(dataDir + "HorizontalGradient.xps");
 ```
 
-## よくある問題と解決策
-| 問題 | 理由 | 修正 |
-|-------|-------|-----|
-| グラデーションが単色で表示される | グラデーションストップが追加されていないか、ブラシが設定されていない | `path.setFill(...)` で `LinearGradientBrush` が使用され、`getGradientStops().addAll(stops)` によってストップが追加されていることを確認してください。 |
-| 色がくすんで見える | アルファ値が正しくありません (最初のパラメータ) | 透明化が必要な場合を除き、完全に不透明な色には `255` を使用してください。 |
-| パスのサイズが間違っている | 変換マトリックスの値が間違っている | マトリックスパラメータ (`scaleX, skewY, skewX, scaleY, translateX, translateY`) を調整してください。 |
+## How to Apply Multiple Gradients
+If you want to **apply multiple gradients** within the same XPS document, simply repeat the “Create Horizontal Gradient” and “Add Path with Gradient” steps for each new shape. Use a fresh list of `XpsGradientStop` objects (or clear the existing list) and assign a new `LinearGradientBrush` with its own start/end points. This approach lets you layer gradients, create complex backgrounds, or highlight different UI elements in a single page.
 
-## よくある質問
+## Why This Matters – Benefits of the Horizontal Gradient Brush
+- **Visual depth:** A horizontal gradient brush adds a subtle three‑dimensional feel without extra images.  
+- **File size efficiency:** Gradients are stored as vector definitions, keeping the XPS file lightweight.  
+- **Scalability:** Because the gradient is vector‑based, it scales cleanly on high‑resolution displays.  
 
-**Q: 1 つの XPS ドキュメントに複数のグラデーションを適用できますか？**
-A: はい。複数のパスを追加し、それぞれにグラデーションブラシを適用することで、複雑なレイヤーデザインを作成できます。
+## Common Issues & Solutions
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| グラデーションが単色に見える | グラデーションストップが追加されていない、またはブラシが設定されていない | `path.setFill(...)` が `LinearGradientBrush` を使用していること、`getGradientStops().addAll(stops)` でストップが追加されていることを確認してください。 |
+| 色がくすんで見える | アルファ値（最初のパラメータ）が正しくない | 透過が不要な場合は `255` を使用して完全不透明にしてください。 |
+| パスのサイズがずれる | 変換行列の値が間違っている | 行列パラメータ（`scaleX, skewY, skewX, scaleY, translateX, translateY`）を調整してください。 |
 
-**Q: Aspose.Page は最新の Java バージョンと互換性がありますか？**
-A: Aspose.Page for Java は定期的に更新されており、Java 8 以降のリリースで動作します。
+## Frequently Asked Questions
 
-**Q: Aspose.Page では、他の種類のグラデーションも利用できますか？**
-A: 線形グラデーションに加えて、Aspose.Page は円形のカラートランジションを実現する放射状グラデーションもサポートしています。
+**Q: Can I apply multiple gradients in a single XPS document?**  
+A: Yes, you can add multiple paths, each with its own gradient brush, to create complex layered designs.
 
-**Q: グラデーションストップの色と位置をカスタマイズできますか？**
-A: もちろんです！各ストップの ARGB カラーとその相対位置（0 ～ 1 の範囲）を完全に制御できます。
+**Q: Is Aspose.Page compatible with the latest Java versions?**  
+A: Aspose.Page for Java is regularly updated and works with Java 8 and newer releases.
 
-**Q: Aspose.Page に関するサポートを得られるコミュニティフォーラムはありますか？**
-A: はい、[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39) にアクセスしてコミュニティとつながり、サポートを受けることができます。
+**Q: Are there other gradient types available in Aspose.Page?**  
+A: Besides linear gradients, Aspose.Page also supports radial gradients for circular color transitions.
+
+**Q: Can I customize the colors and positions of gradient stops?**  
+A: Absolutely! You have full control over each stop’s ARGB color and its relative position (0‑1 range).
+
+**Q: Is there a community forum for Aspose.Page where I can seek help?**  
+A: Yes, you can visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to connect with the community and get assistance.
 
 ---
 
-**最終更新日:** 2025年12月25日
-**テスト環境:** Aspose.Page for Java 24.11
-**作成者:** Aspose  
+**Last Updated:** 2026-03-13  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

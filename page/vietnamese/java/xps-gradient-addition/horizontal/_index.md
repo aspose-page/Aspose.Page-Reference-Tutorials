@@ -1,10 +1,10 @@
 ---
-date: 2025-12-25
+date: 2026-03-13
 description: Tìm hiểu cách thêm gradient vào tài liệu XPS trong Java bằng Aspose.Page
   và cách tùy chỉnh các điểm dừng gradient để tạo hiệu ứng ngang ấn tượng.
 linktitle: Add Horizontal Gradient in Java XPS
 second_title: Aspose.Page Java API
-title: Cách Thêm Độ Dốc – Độ Dốc Ngang trong Java XPS
+title: Cách Thêm Gradient – Gradient Ngang trong Java XPS
 url: /vi/java/xps-gradient-addition/horizontal/
 weight: 11
 ---
@@ -16,17 +16,17 @@ weight: 11
 # Cách Thêm Gradient – Gradient Ngang trong Java XPS
 
 ## Giới thiệu
-Chào mừng bạn đến với hướng dẫn từng bước **cách thêm gradient** vào tài liệu XPS bằng Java. Trong tutorial này, bạn sẽ học cách thêm gradient ngang, tại sao nó quan trọng đối với việc hoàn thiện hình ảnh, và cách **tùy chỉnh các điểm dừng gradient** để kiểm soát màu sắc một cách chính xác. Aspose.Page for Java giúp làm việc với tài liệu XPS (XML Paper Specification) trở nên đơn giản, cho phép bạn tập trung vào thiết kế thay vì xử lý tệp ở mức độ thấp.
+Chào mừng bạn đến với hướng dẫn **cách thêm gradient** vào tài liệu XPS bằng Java. Trong tutorial này, bạn sẽ học cách thêm một gradient ngang, tại sao nó quan trọng đối với độ hoàn thiện hình ảnh, và cách **tùy chỉnh gradient stops** để kiểm soát màu sắc một cách chính xác. Aspose.Page for Java giúp làm việc với tài liệu XPS (XML Paper Specification) trở nên đơn giản, cho phép bạn tập trung vào thiết kế thay vì xử lý tệp ở mức độ thấp.
 
 ## Câu trả lời nhanh
 - **Thư viện cần thiết là gì?** Aspose.Page for Java  
-- **Phiên bản Java nào hỗ trợ?** Bất kỳ runtime Java 8+ nào  
-- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; giấy phép thương mại cần cho môi trường sản xuất  
-- **Có thể thay đổi hướng gradient không?** Có – chỉ cần sửa các điểm bắt đầu/kết thúc của brush tuyến tính  
-- **Có thể thêm nhiều gradient không?** Chắc chắn – lặp lại các bước tạo đường dẫn với các brush khác nhau  
+- **Phiên bản Java nào hoạt động?** Bất kỳ runtime Java 8+ nào  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí đủ cho phát triển; cần giấy phép thương mại cho môi trường sản xuất  
+- **Có thể thay đổi hướng gradient không?** Có – chỉ cần chỉnh sửa các điểm bắt đầu/kết thúc của brush tuyến tính  
+- **Có thể thêm nhiều gradient không?** Chắc chắn – lặp lại các bước tạo đường với các brush khác nhau  
 
-## Gradient ngang trong XPS là gì?
-Gradient ngang là sự chuyển đổi màu mượt mà từ trái sang phải trên một hình dạng. Trong XPS, nó được biểu diễn bằng một brush gradient tuyến tính, nội suy giữa các **điểm dừng gradient** đã định nghĩa. Hiệu ứng này thường được dùng cho banner, nút bấm và nền màu.
+## Gradient Ngang trong XPS là gì?
+Gradient ngang là sự chuyển đổi màu mượt mà từ trái sang phải trên một hình dạng. Trong XPS, nó được biểu diễn bằng một brush gradient tuyến tính, nội suy giữa các **gradient stops** đã định nghĩa. Hiệu ứng này thường được dùng cho banner, nút bấm và nền.
 
 ## Tại sao nên dùng Aspose.Page for Java?
 - **Hỗ trợ XPS đầy đủ** – tạo, chỉnh sửa và render mà không cần công cụ bên thứ ba.  
@@ -34,13 +34,13 @@ Gradient ngang là sự chuyển đổi màu mượt mà từ trái sang phải 
 - **Hiệu năng** – tối ưu cho tài liệu lớn và xử lý hàng loạt.  
 
 ## Yêu cầu trước
-Trước khi bắt đầu, hãy đảm bảo bạn có:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
 1. **Môi trường phát triển Java** – Cài đặt JDK mới nhất từ [java.com](https://www.java.com).  
 2. **Thư viện Aspose.Page for Java** – Tải JAR từ [tài liệu Aspose.Page for Java](https://reference.aspose.com/page/java/).  
 
-## Nhập các gói
-Bắt đầu bằng việc nhập các lớp cần thiết. Những import này cho phép bạn truy cập vào việc tạo tài liệu, xử lý gradient và hình học cơ bản.
+## Nhập khẩu các gói
+Bắt đầu bằng việc nhập các lớp cần thiết. Những import này cho phép bạn tạo tài liệu, xử lý gradient và các hình học cơ bản.
 
 ```java
 import com.aspose.xps.XpsDocument;
@@ -53,7 +53,7 @@ import java.util.List;
 ```
 
 ## Bước 1: Khởi tạo tài liệu XPS
-Tạo một thể hiện `XpsDocument` mới và chỉ định thư mục nơi bạn muốn lưu kết quả.
+Tạo một thể hiện mới của `XpsDocument` và chỉ định thư mục nơi bạn muốn lưu kết quả.
 
 ```java
 // The path to the documents directory.
@@ -62,8 +62,8 @@ String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-## Bước 2: Tạo Gradient ngang
-Xác định danh sách **điểm dừng gradient** để kiểm soát màu sắc và vị trí của mỗi điểm chuyển đổi. Ví dụ dưới đây tạo một gradient giống cầu vồng sống động.
+## Bước 2: Tạo Gradient Ngang
+Xác định một danh sách các **gradient stops** kiểm soát màu sắc và vị trí của mỗi điểm chuyển đổi. Ví dụ dưới đây tạo một gradient giống cầu vồng sống động.
 
 ```java
 // Horizontal gradient
@@ -76,12 +76,12 @@ stops.add(doc.createGradientStop(doc.createColor(255, 53, 253, 255), 0.915039f))
 stops.add(doc.createGradientStop(doc.createColor(255, 12, 91, 248), 1f));
 ```
 
-### Cách tùy chỉnh các điểm dừng gradient
-- **Màu** – Dùng `doc.createColor(alpha, red, green, blue)` để đặt bất kỳ giá trị ARGB nào.  
-- **Vị trí** – Tham số thứ hai (`float` từ `0` đến `1`) xác định điểm dừng xuất hiện trên đường gradient. Điều chỉnh các giá trị này để dịch màu sang trái hoặc phải.
+### Cách tùy chỉnh gradient stops
+- **Màu** – Sử dụng `doc.createColor(alpha, red, green, blue)` để đặt bất kỳ giá trị ARGB nào.  
+- **Vị trí** – Tham số thứ hai (`float` từ `0` tới `1`) xác định vị trí của stop trên đường gradient. Điều chỉnh các giá trị này để dịch màu sang trái hoặc phải.
 
-## Bước 3: Thêm Path với Gradient
-Tạo một path hình chữ nhật, áp dụng biến đổi nếu cần, và tô đầy nó bằng brush gradient tuyến tính. Brush sử dụng hai điểm (`(10,0)` đến `(228,0)`) để tạo hiệu ứng ngang.
+## Bước 3: Thêm Đường với Gradient
+Tạo một đường hình chữ nhật, áp dụng biến đổi nếu cần, và tô nó bằng brush gradient tuyến tính. Brush này dùng hai điểm (`(10,0)` tới `(228,0)`) để tạo hiệu ứng ngang. Vì các tọa độ Y giống nhau, brush này hoạt động như một **brush gradient ngang**.
 
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
@@ -92,43 +92,51 @@ path.setFill(doc.createLinearGradientBrush(new Point2D.Float(10f, 0f), new Point
 stops.clear();
 ```
 
-**Mẹo chuyên nghiệp:** Việc tái sử dụng cùng một danh sách `stops` cho nhiều path có thể cải thiện hiệu năng, nhưng nhớ gọi `clear()` trước khi thêm các điểm dừng mới.
+**Mẹo chuyên nghiệp:** Việc tái sử dụng cùng một danh sách `stops` cho nhiều đường có thể cải thiện hiệu năng, nhưng nhớ gọi `clear()` trước khi thêm các stop mới.
 
 ## Bước 4: Lưu tài liệu
-Ghi tệp XPS ra đĩa. Bây giờ bạn có thể mở nó bằng bất kỳ trình xem XPS nào để xem gradient ngang hoạt động.
+Ghi tệp XPS ra đĩa. Bây giờ bạn có thể mở nó bằng bất kỳ trình xem XPS nào để thấy gradient ngang hoạt động.
 
 ```java
 doc.save(dataDir + "HorizontalGradient.xps");
 ```
 
-## Các vấn đề thường gặp & Giải pháp
+## Cách Áp Dụng Nhiều Gradient
+Nếu bạn muốn **áp dụng nhiều gradient** trong cùng một tài liệu XPS, chỉ cần lặp lại các bước “Tạo Gradient Ngang” và “Thêm Đường với Gradient” cho mỗi hình dạng mới. Sử dụng một danh sách mới của các đối tượng `XpsGradientStop` (hoặc xóa danh sách hiện có) và gán một `LinearGradientBrush` mới với các điểm bắt đầu/kết thúc riêng. Cách này cho phép bạn xếp lớp gradient, tạo nền phức tạp, hoặc làm nổi bật các thành phần UI khác nhau trên một trang.
+
+## Tại sao Điều Này Quan Trọng – Lợi Ích của Brush Gradient Ngang
+- **Độ sâu thị giác:** Brush gradient ngang tạo cảm giác ba‑chiều nhẹ nhàng mà không cần hình ảnh bổ sung.  
+- **Tiết kiệm dung lượng:** Gradient được lưu dưới dạng định nghĩa vector, giữ cho tệp XPS nhẹ.  
+- **Khả năng mở rộng:** Vì gradient dựa trên vector, nó mở rộng mượt mà trên các màn hình độ phân giải cao.  
+
+## Các Vấn Đề Thường Gặp & Giải Pháp
 | Vấn đề | Nguyên nhân | Cách khắc phục |
-|--------|-------------|----------------|
-| Gradient hiển thị thành màu đồng nhất | Không có điểm dừng gradient được thêm hoặc brush chưa được đặt | Đảm bảo `path.setFill(...)` sử dụng `LinearGradientBrush` và các điểm dừng được thêm qua `getGradientStops().addAll(stops)`. |
-| Màu sắc bị nhạt | Giá trị alpha (tham số đầu) không đúng | Dùng `255` cho màu hoàn toàn không trong suốt trừ khi bạn muốn độ trong suốt. |
-| Kích thước path sai | Giá trị ma trận biến đổi không đúng | Điều chỉnh các tham số ma trận (`scaleX, skewY, skewX, scaleY, translateX, translateY`). |
+|-------|------------|----------------|
+| Gradient xuất hiện đồng nhất | Không có gradient stops được thêm hoặc brush chưa được đặt | Đảm bảo `path.setFill(...)` sử dụng `LinearGradientBrush` và các stop được thêm qua `getGradientStops().addAll(stops)`. |
+| Màu sắc trông nhạt | Giá trị alpha (tham số đầu) không đúng | Dùng `255` cho màu không trong suốt trừ khi muốn có độ trong suốt. |
+| Kích thước đường không đúng | Giá trị ma trận biến đổi sai | Điều chỉnh các tham số ma trận (`scaleX, skewY, skewX, scaleY, translateX, translateY`). |
 
-## Câu hỏi thường gặp
+## Câu Hỏi Thường Gặp
 
-**H: Tôi có thể áp dụng nhiều gradient trong một tài liệu XPS không?**  
-Đ: Có, bạn có thể thêm nhiều path, mỗi path có brush gradient riêng, để tạo các thiết kế lớp phức tạp.
+**Q: Tôi có thể áp dụng nhiều gradient trong một tài liệu XPS duy nhất không?**  
+A: Có, bạn có thể thêm nhiều đường, mỗi đường có brush gradient riêng, để tạo thiết kế lớp phức tạp.
 
-**H: Aspose.Page có tương thích với các phiên bản Java mới nhất không?**  
-Đ: Aspose.Page for Java được cập nhật thường xuyên và hoạt động với Java 8 và các phiên bản mới hơn.
+**Q: Aspose.Page có tương thích với các phiên bản Java mới nhất không?**  
+A: Aspose.Page for Java được cập nhật thường xuyên và hoạt động với Java 8 và các phiên bản mới hơn.
 
-**H: Có các loại gradient khác nào trong Aspose.Page không?**  
-Đ: Ngoài gradient tuyến tính, Aspose.Page còn hỗ trợ gradient bán kính cho các chuyển đổi màu vòng tròn.
+**Q: Có các loại gradient khác nào trong Aspose.Page không?**  
+A: Ngoài gradient tuyến tính, Aspose.Page còn hỗ trợ gradient bán kính cho các chuyển đổi màu vòng tròn.
 
-**H: Tôi có thể tùy chỉnh màu sắc và vị trí của các điểm dừng gradient không?**  
-Đ: Hoàn toàn có thể! Bạn có toàn quyền kiểm soát màu ARGB và vị trí tương đối (khoảng 0‑1) của mỗi điểm dừng.
+**Q: Tôi có thể tùy chỉnh màu sắc và vị trí của gradient stops không?**  
+A: Chắc chắn! Bạn có toàn quyền kiểm soát màu ARGB và vị trí tương đối (khoảng 0‑1) của mỗi stop.
 
-**H: Có diễn đàn cộng đồng nào cho Aspose.Page để tôi có thể hỏi đáp không?**  
-Đ: Có, bạn có thể truy cập [diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với cộng đồng và nhận hỗ trợ.
+**Q: Có diễn đàn cộng đồng cho Aspose.Page để tôi có thể hỏi đáp không?**  
+A: Có, bạn có thể truy cập [diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với cộng đồng và nhận hỗ trợ.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-25  
-**Đã kiểm tra với:** Aspose.Page for Java 24.11  
+**Cập nhật lần cuối:** 2026-03-13  
+**Kiểm tra với:** Aspose.Page for Java 24.11  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
