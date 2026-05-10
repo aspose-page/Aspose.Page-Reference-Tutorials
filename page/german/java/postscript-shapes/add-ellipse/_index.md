@@ -1,11 +1,11 @@
 ---
-date: 2025-12-11
-description: Erfahren Sie, wie Sie mit Aspose.Page in Java eine PostScript‑Ellipse
-  erstellen. Diese Schritt‑für‑Schritt‑Anleitung zeigt Ihnen, wie Sie eine Ellipse
-  mit Farbe füllen und eine Ellipse mit Java zeichnen.
+date: 2026-02-18
+description: Erfahren Sie, wie Sie die Farbe festlegen und eine PostScript‑Ellipse
+  in Java mit Aspose.Page erstellen. Dieser Leitfaden zeigt, wie man eine Ellipse
+  in Java füllt, die Kontur der Ellipse zeichnet und die Strichstärke einstellt.
 linktitle: Add Ellipse in Java PostScript
 second_title: Aspose.Page Java API
-title: Wie man eine PostScript‑Ellipse in Java mit Aspose.Page erstellt
+title: Farbe festlegen, um eine PostScript‑Ellipsе in Java zu zeichnen
 url: /de/java/postscript-shapes/add-ellipse/
 weight: 10
 ---
@@ -14,32 +14,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wie man eine PostScript‑Ellipse in Java mit Aspose.Page erstellt
+# Set paint color to draw PostScript ellipse in Java
 
-## Einführung
-Das programmgesteuerte Erstellen einer **PostScript‑Ellipse** gibt Ihnen feinkörnige Kontrolle über Vektorgrafiken in Berichten, Rechnungen oder jedem druckbaren Dokument. In diesem Tutorial lernen Sie, wie Sie **PostScript‑Ellipse**‑Formen mit der Aspose.Page‑Bibliothek für Java erzeugen, eine Ellipse mit Farbe füllen und eine Ellipse umranden. Am Ende sind Sie bereit, benutzerdefinierte Grafiken direkt in Ihre PostScript‑Ausgabe einzubetten.
+## Einleitung
+Wenn Sie beim Zeichnen von Vektorgrafiken **Farbe festlegen** müssen, bietet Ihnen die Aspose.Page for Java Bibliothek die volle Kontrolle über jeden Strich und jede Füllung. In diesem Tutorial erfahren Sie, wie Sie **Farbe festlegen**, **Ellipse in Java füllen** und **Ellipseumriss zeichnen** mit einem einfachen, schrittweisen Ansatz. Am Ende können Sie hochwertige PostScript-Ellipsen zu Rechnungen, Berichten oder jedem druckbaren Dokument hinzufügen.
 
-## Schnellantworten
-- **Welche Bibliothek ist am besten zum Zeichnen von PostScript‑Grafiken in Java?** Aspose.Page für Java.  
+## Schnelle Antworten
+- **Welche Bibliothek ist am besten zum Zeichnen von PostScript-Grafiken in Java?** Aspose.Page for Java.  
 - **Kann ich eine Ellipse mit einer Vollfarbe füllen?** Ja – verwenden Sie `document.setPaint(Color.YOUR_COLOR)` vor `fill`.  
-- **Wie zeichne ich nur die Kontur einer Ellipse?** Setzen Sie die Farbe und den Stroke und rufen Sie dann `document.draw(...)` auf.  
-- **Benötige ich eine Lizenz für den Produktionseinsatz?** Eine kommerzielle Lizenz ist erforderlich; eine temporäre Lizenz steht für Tests zur Verfügung.  
-- **Welche Java‑Version wird unterstützt?** Jede Java‑8+ Runtime funktioniert mit der aktuellen Aspose.Page‑Version.
+- **Wie zeichne ich nur den Umriss einer Ellipse?** Setzen Sie die Farbe und den Strich, dann rufen Sie `document.draw(...)` auf.  
+- **Benötige ich eine Lizenz für den Produktionseinsatz?** Eine kommerzielle Lizenz ist erforderlich; eine temporäre Lizenz ist für Tests verfügbar.  
+- **Welche Java-Version wird unterstützt?** Jede Java‑8‑+ Laufzeit funktioniert mit der aktuellen Aspose.Page‑Version.
 
-## Was ist eine PostScript‑Ellipse?
-Eine PostScript‑Ellipse ist eine Vektorform, die durch ein umgebendes Rechteck definiert wird. Im Gegensatz zu Rasterbildern skaliert sie ohne Qualitätsverlust, was sie ideal für hochauflösenden Druck und PDF‑Konvertierung macht.
+## Was ist eine PostScript-Ellipse?
+Eine PostScript-Ellipse ist eine Vektorform, die durch ein Begrenzungsrechteck definiert wird. Im Gegensatz zu Rasterbildern skaliert sie ohne Qualitätsverlust, was sie ideal für hochauflösenden Druck und PDF‑Konvertierung macht.
 
-## Warum Aspose.Page zum Erstellen einer PostScript‑Ellipse verwenden?
-- **Vollständige Kontrolle** über Zeichen‑Primitive (Linien, Kurven, Ellipsen).  
+## Warum Aspose.Page verwenden, um eine PostScript-Ellipse zu erstellen?
+- **Vollständige Kontrolle** über Zeichenprimitive (Linien, Kurven, Ellipsen).  
 - **Plattformübergreifend** – funktioniert unter Windows, Linux und macOS.  
 - **Keine externen Abhängigkeiten** – reine Java‑API, kein nativer Code.  
-- **Einfache Integration** in bestehende Java‑Anwendungen und Build‑Tools.
+- **Einfache Integration** mit bestehenden Java‑Anwendungen und Build‑Tools.
 
 ## Voraussetzungen
 Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
 
-1. Eine funktionierende Java‑Entwicklungsumgebung (JDK 8 oder höher).  
-2. Die Aspose.Page‑Bibliothek für Java in Ihrem Projekt eingebunden. Sie können sie **[hier](https://releases.aspose.com/page/java/)** herunterladen.  
+1. Eine funktionierende Java‑Entwicklungsumgebung (JDK 8 oder neuer).  
+2. Die Aspose.Page for Java Bibliothek zu Ihrem Projekt hinzugefügt. Sie können sie **[hier](https://releases.aspose.com/page/java/)** herunterladen.  
 
 ## Pakete importieren
 Importieren Sie in Ihrer Java‑Quelldatei die Klassen, die zum Zeichnen und Speichern von PostScript‑Inhalten erforderlich sind.
@@ -53,10 +53,11 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Schritt‑für‑Schritt‑Anleitung
+## Wie man die Farbe für eine Ellipse festlegt
+Das Festlegen der Farbe ist der erste Schritt vor jeder Füll‑ oder Strich‑Operation. Die Methode `setPaint` bestimmt die Farbe, die für den nächsten Zeichenbefehl verwendet wird.
 
-### Schritt 1: Das PostScript‑Dokument einrichten
-Erzeugen Sie einen Output‑Stream, konfigurieren Sie die Seitengröße und instanziieren Sie ein `PsDocument`.
+### Schritt 1: PostScript-Dokument einrichten
+Erstellen Sie einen Ausgabestream, konfigurieren Sie die Seitengröße und instanziieren Sie ein `PsDocument`.
 
 ```java
 // The path to the documents directory.
@@ -69,8 +70,8 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-### Schritt 2: Ellipse mit Farbe füllen
-Setzen Sie die Farbe auf die gewünschte Füllfarbe und rufen Sie `fill` mit einer `Ellipse2D`‑Instanz auf.
+### Schritt 2: Wie man eine Ellipse füllt – Farbe festlegen
+Um **eine Ellipse zu füllen**, müssen Sie zuerst `setPaint` mit der gewünschten Füllfarbe aufrufen und anschließend `fill` mit einer `Ellipse2D`‑Instanz ausführen.
 
 ```java
 // Set paint for filling ellipse
@@ -79,8 +80,8 @@ document.setPaint(Color.ORANGE);
 document.fill(new Ellipse2D.Float(250, 100, 150, 100));
 ```
 
-### Schritt 3: Ellipse mit Stroke umranden
-Wechseln Sie die Farbe zum Stroke, definieren Sie einen `BasicStroke` für die Linienstärke und zeichnen Sie die Kontur der Ellipse.
+### Schritt 3: Ellipseumriss zeichnen und Strichstärke festlegen
+Nach dem Füllen können Sie die Farbe zu einer anderen ändern, ein `BasicStroke` definieren, um die Linienbreite zu steuern, und den Ellipseumriss zeichnen.
 
 ```java
 // Set paint for stroking ellipse
@@ -92,7 +93,7 @@ document.draw(new Ellipse2D.Float(250, 300, 150, 100));
 ```
 
 ### Schritt 4: Dokument schließen und speichern
-Beenden Sie die Seite und schreiben Sie die PostScript‑Datei auf die Festplatte.
+Schließen Sie die Seite ab und schreiben Sie die PostScript‑Datei auf die Festplatte.
 
 ```java
 // Close current page
@@ -101,38 +102,38 @@ document.closePage();
 document.save();
 ```
 
-Sie haben nun eine PostScript‑Datei, die zwei Ellipsen enthält – eine gefüllt mit Orange und eine umrandet in Rot. Experimentieren Sie gern mit anderen Koordinaten, Größen und Farben, um Ihre Design‑Anforderungen zu erfüllen.
+Sie haben jetzt eine PostScript‑Datei, die zwei Ellipsen enthält – eine mit Orange gefüllt und eine andere mit rotem Umriss. Experimentieren Sie gern mit verschiedenen Koordinaten, Größen und Farben, um Ihren Designanforderungen zu entsprechen.
 
-## Häufige Stolperfallen und Fehlersuche
-- **Falscher Dateipfad** – Stellen Sie sicher, dass `dataDir` mit einem Trennzeichen (`/` oder `\\`) endet, das zu Ihrem Betriebssystem passt.  
+## Häufige Fallstricke und Fehlersuche
+- **Falscher Dateipfad** – Stellen Sie sicher, dass `dataDir` mit einem Trennzeichen (`/` oder `\\`) endet, das für Ihr Betriebssystem geeignet ist.  
 - **Fehlende Lizenz** – Ohne gültige Lizenz läuft die Bibliothek im Evaluierungsmodus und kann Wasserzeichen hinzufügen.  
-- **Farbe wird nicht angewendet** – Denken Sie daran, `document.setPaint(...)` *vor* jedem `fill`‑ oder `draw`‑Aufruf zu setzen; die Farbeinstellung bleibt nicht automatisch über separate Vorgänge hinweg erhalten.
+- **Farbe nicht angewendet** – Denken Sie daran, `document.setPaint(...)` *vor* jedem `fill`‑ oder `draw`‑Aufruf zu setzen; die Farbeinstellung bleibt nicht automatisch über separate Vorgänge hinweg erhalten.
 
 ## Häufig gestellte Fragen
 
-**F: Kann ich Aspose.Page für Java mit anderen Java‑Bibliotheken verwenden?**  
-A: Ja, Aspose.Page für Java ist so konzipiert, dass es nahtlos mit anderen Java‑Bibliotheken zusammenarbeitet.
+**Q: Kann ich Aspose.Page für Java mit anderen Java‑Bibliotheken verwenden?**  
+A: Ja, Aspose.Page for Java ist so konzipiert, dass es nahtlos mit anderen Java‑Bibliotheken integriert werden kann.
 
-**F: Wie erhalte ich eine temporäre Lizenz für Aspose.Page für Java?**  
+**Q: Wie kann ich eine temporäre Lizenz für Aspose.Page für Java erhalten?**  
 A: Holen Sie sich eine temporäre Lizenz **[hier](https://purchase.aspose.com/temporary-license/)** für Testzwecke.
 
-**F: Ist Aspose.Page für kommerzielle Projekte geeignet?**  
-A: Absolut! Besuchen Sie **[hier](https://purchase.aspose.com/buy)**, um Lizenzoptionen für den kommerziellen Einsatz zu erkunden.
+**Q: Ist Aspose.Page für kommerzielle Projekte geeignet?**  
+A: Auf jeden Fall! Besuchen Sie **[hier](https://purchase.aspose.com/buy)**, um Lizenzoptionen für die kommerzielle Nutzung zu erkunden.
 
-**F: Wo kann ich Hilfe erhalten oder Fragen zu Aspose.Page stellen?**  
-A: Treten Sie der Community im **[Aspose.Page‑Forum](https://forum.aspose.com/c/page/39)** bei für Diskussionen und Unterstützung.
+**Q: Wo kann ich Hilfe erhalten oder Aspose.Page‑bezogene Fragen diskutieren?**  
+A: Treten Sie der Community im **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)** bei für Diskussionen und Unterstützung.
 
-**F: Gibt es kostenlose Ressourcen, um mehr über Aspose.Page für Java zu lernen?**  
+**Q: Gibt es kostenlose Ressourcen, um mehr über Aspose.Page für Java zu lernen?**  
 A: Nutzen Sie die **[kostenlose Testversion](https://releases.aspose.com/)** und erkunden Sie Beispiele in der Dokumentation.
 
 ## Fazit
-Aspose.Page für Java macht das **Erstellen von PostScript‑Ellipse**‑Grafiken unkompliziert, egal ob Sie eine einfache gefüllte Form oder eine komplexe umrandete Kontur benötigen. Mit den obigen Schritten können Sie schnell professionelle Vektorgrafiken zu jedem druckbaren Dokument hinzufügen. Für weiterführende Themen – wie das Kombinieren mehrerer Formen, das Anwenden von Farbverläufen oder die Konvertierung zu PDF – lesen Sie die offizielle **[Dokumentation](https://reference.aspose.com/page/java/)**.
+Aspose.Page for Java macht es einfach, **Farbe festzulegen**, **Ellipse zu füllen** und **Ellipseumriss zu zeichnen** – egal, ob Sie eine einfache gefüllte Form oder eine komplexe Strichgrafik benötigen. Mit den obigen Schritten können Sie schnell professionelle Vektorgrafiken zu jedem druckbaren Dokument hinzufügen. Für weiterführende Themen – wie das Kombinieren mehrerer Formen, das Anwenden von Farbverläufen oder das Konvertieren zu PDF – siehe die offizielle **[Dokumentation](https://reference.aspose.com/page/java/)**.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-11  
-**Getestet mit:** Aspose.Page für Java 24.11  
-**Autor:** Aspose
+**Last Updated:** 2026-02-18  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

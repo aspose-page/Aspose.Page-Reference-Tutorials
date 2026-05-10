@@ -1,39 +1,46 @@
 ---
-date: 2025-12-11
-description: Aspose.Page を使用して Java で PostScript ページを追加し、Java でページサイズを設定し、Java アプリケーションでカスタムページサイズの
-  PostScript を作成する方法を学びましょう。
+date: 2026-02-18
+description: JavaでPostScriptページを追加する方法、カスタムページ寸法を設定する方法、Javaでページサイズを設定する方法、そしてAspose.Pageを使用してカスタムPostScriptページサイズを作成する方法を学びましょう。
 linktitle: Java PostScript Pages
 second_title: Aspose.Page Java API
-title: Add Pages PostScript Java – Aspose.Page を使ったシームレスガイド
+title: JavaでPostScriptページを追加する方法 – Aspose.Pageを使用したシームレスガイド
 url: /ja/java/postscript-page-manipulation/add-pages1/
 weight: 10
 ---
+
+Translate "Quick Answers" etc.
+
+Let's do.
+
+We'll keep code block placeholders unchanged.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Pages PostScript Java – Aspose.Page を使用したシームレスガイド
+# JavaでPostScriptページを追加する方法 – Aspose.Pageによるシームレスガイド
 
-## はじめに
-Aspose.Page を使用した **add pages postscript java** の包括的なガイドへようこそ。本チュートリアルでは、PostScript ドキュメントへのページ追加、ページサイズの設定、さらにはカスタムページ寸法の作成まで、強力な Aspose.Page for Java ライブラリを使って手順をすべて解説します。レポートや請求書、その他印刷可能な出力を作成する際に、これらの手順をマスターすれば、PostScript の生成を完全にコントロールできます。
+## Introduction
+Aspose.Page を使用して **JavaでPostScriptページを追加する方法** の包括的なガイドへようこそ。このチュートリアルでは、ページの追加方法、ページサイズの設定方法（java）、さらには各ページごとにカスタムPostScriptページサイズを定義する方法をステップバイステップで学びます。請求書、チケット、複雑なマルチページレポートの生成など、印刷出力を完全にコントロールしたい方に最適です。
 
-## クイック回答
-- **add pages postscript java を実現できるライブラリは？** Aspose.Page for Java  
-- **開発時にライセンスは必要ですか？** 無料の一時ライセンスが利用可能です。製品版では有料ライセンスが必要です。  
-- **カスタムページサイズは設定できますか？** はい – `set page size java` を使用するか、直接寸法を指定してください。  
-- **どの IDE が最適ですか？** IntelliJ IDEA や Eclipse など、任意の Java IDE が使用できます。  
-- **作成できるページ数に制限はありますか？** ハードな上限はありません。メモリが許す限りページを追加できます。
+## Quick Answers
+- **PostScriptページをJavaで追加できるライブラリは？** Aspose.Page for Java  
+- **開発用にライセンスは必要ですか？** 無料の一時ライセンスが利用可能です。製品版では有料ライセンスが必要です。  
+- **カスタムページサイズは設定できますか？** はい – `set page size java` を使用するか、直接寸法を指定します。  
+- **どのIDEが最適ですか？** IntelliJ IDEA や Eclipse など、任意の Java IDE が使用できます。  
+- **作成できるページ数に制限はありますか？** ハードリミットはありません。メモリが許す限りページを追加できます。
 
-## 前提条件
-作業を始める前に、以下の前提条件を満たしていることを確認してください。
+## Prerequisites
+本題に入る前に、以下の前提条件を満たしていることを確認してください。
 
-- Java プログラミングの基本的な知識。  
+- Java プログラミングの基本知識。  
 - Aspose.Page for Java ライブラリがインストール済み。ダウンロードは [here](https://releases.aspose.com/page/java/) から。  
-- IntelliJ IDEA や Eclipse などの Java 用統合開発環境 (IDE)。  
+- IntelliJ IDEA や Eclipse などの Java 用統合開発環境（IDE）。
 
-## パッケージのインポート
-Java プロジェクトに必要なパッケージをインポートしてください。以下はインポート例です。
+## Import Packages
+必要なパッケージを Java プロジェクトにインポートしてください。以下はインポート例です。
 
 ```java
 import java.io.FileOutputStream;
@@ -41,10 +48,10 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## add pages postscript java の方法
-以下は **add pages postscript java** を実行し、ページ寸法を制御する手順をステップバイステップで示したものです。
+## How to add postscript pages in Java
+以下は **JavaでPostScriptページを追加** し、ページ寸法を制御する手順を示したステップバイステップの解説です。
 
-### 手順 1: 新しい 2 ページの PS ドキュメントを作成
+### Step 1: Create a New 2‑Paged PS Document
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -56,7 +63,7 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, 2);
 ```
 
-### 手順 2: ドキュメントのページサイズで最初のページを追加
+### Step 2: Add the First Page with the Document's Page Size
 ```java
 // Add the first page with the document's page size
 document.openPage(null);
@@ -65,7 +72,7 @@ document.openPage(null);
 document.closePage();
 ```
 
-### 手順 3: 異なるサイズで 2 番目のページを追加
+### Step 3: Add the Second Page with a Different Size
 ```java
 // Add the second page with a different size
 document.openPage(400, 700);
@@ -74,55 +81,61 @@ document.openPage(400, 700);
 document.closePage();
 ```
 
-### 手順 4: ドキュメントを保存
+### Step 4: Save the Document
 ```java
 // Save the document
 document.save();
 ```
 
-これらの手順に従うことで、簡単に **add pages postscript java** ができ、必要に応じて各ページに **set page size java** を設定できます。
+これらの手順に従うことで、簡単に **JavaでPostScriptページを追加** でき、必要に応じて各ページの **set page size java** も設定できます。
 
-## page size java の設定方法
-特定の用紙サイズ（たとえばカスタム封筒やラベル）が必要な場合は、`openPage(width, height)` に目的の寸法（ポイント単位）を渡して呼び出します。これが Java における **custom page size postscript** の本質です。
+## How to set page size java
+特定の用紙サイズ（例: カスタム封筒やラベル）が必要な場合は、`openPage(width, height)` に希望の寸法（ポイント単位）を渡して呼び出します。これが **JavaでカスタムPostScriptページサイズ** を扱う本質です。
 
-## 主な使用例
-- **動的レポート生成** – 各セクションが異なるサイズの新しいページで開始される。  
-- **ラベルやチケットの印刷** – 標準外の寸法が必要な場合。  
-- **バッチ処理** – 大量文書でページごとにサイズが異なるケース。  
+## How to set custom page dimensions
+`openPage(width, height)` メソッドを使用すれば、任意の矩形を定義でき、実質的に **カスタムページ寸法を設定** できます。たとえば `openPage(300, 500)` は 300 × 500 ポイント（≈4.17 × 6.94 インチ）のページを作成します。レシート用紙やバッジカードなど、標準外サイズが必要な場合に便利です。
 
-## よくある質問
-### Aspose.Page はさまざまな OS と互換性がありますか？
-はい、Aspose.Page は Windows、Linux、macOS などの主要なオペレーティングシステムと互換性があります。
+## Change page orientation java
+向きを変更するには、幅と高さの値を入れ替えるだけです。`openPage(842, 595)`（A4横向き）でランドスケープページを作成し、`openPage(595, 842)` でポートレートを維持します。このテクニックにより **Javaでページ向きを変更** でき、追加設定は不要です。
 
-### Aspose.Page は個人・商用プロジェクトの両方で使用できますか？
-はい、Aspose.Page は個人利用・商用利用の両方に対応した柔軟なライセンスオプションを提供しています。
+## Common Use Cases
+- **動的レポート生成** – 各セクションが異なるサイズの新しいページで開始されるケース。  
+- **ラベルやチケットの印刷** – 標準外寸法が必要な場合。  
+- **大規模文書のバッチ処理** – ページごとにサイズが異なるシナリオ。
 
-### Aspose.Page の追加ドキュメントはどこで確認できますか？
-ドキュメントは [here](https://reference.aspose.com/page/java/) で参照できます。
+## Frequently Asked Questions
+### Is Aspose.Page compatible with different operating systems?
+Yes, Aspose.Page is compatible with various operating systems, including Windows, Linux, and macOS.
 
-### Aspose.Page で追加できるページ数に制限はありますか？
-Aspose.Page はページ数に厳格な制限を設けていないため、さまざまな規模のプロジェクトに適しています。
+### Can I use Aspose.Page for both personal and commercial projects?
+Yes, Aspose.Page comes with flexible licensing options suitable for both personal and commercial use.
 
-### Aspose.Page の一時ライセンスはどこで取得できますか？
-一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
+### Where can I find additional documentation for Aspose.Page?
+You can refer to the documentation [here](https://reference.aspose.com/page/java/).
 
-**追加の Q&A**
+### Are there any limitations to the number of pages I can add using Aspose.Page?
+Aspose.Page does not impose strict limitations on the number of pages you can add, making it suitable for projects of various scales.
 
-**Q: ページの向きを変更するにはどうすればよいですか？**  
-A: 横向きにしたい場合は `openPage(width, height)` の width を height より大きく指定し、縦向きにしたい場合はその逆にします。
+### How can I get a temporary license for Aspose.Page?
+You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-**Q: ページを開いた後にグラフィックやテキストを追加できますか？**  
-A: はい、`openPage`/`closePage` ブロック内で Aspose.Page が提供する描画 API を使用して追加できます。
+**Additional Q&A**
 
-**Q: `openPage(null)` のようにページサイズを省略した場合はどうなりますか？**  
-A: ドキュメントは `PsSaveOptions` で定義されたデフォルトサイズ（通常は A4）を使用します。
+**Q: How do I change the orientation of a page?**  
+A: Call `openPage(width, height)` with width greater than height for landscape, or swap the values for portrait.
 
-## 結論
-まとめると、Aspose.Page for Java は PostScript ドキュメントの操作をシンプルにします。ページの追加、ページサイズの設定、カスタム寸法の作成は提供された API で容易に行えるため、開発者が効率と柔軟性を追求する際の優れた選択肢です。
+**Q: Can I add graphics or text after opening a page?**  
+A: Yes—use the drawing APIs provided by Aspose.Page within the `openPage`/`closePage` block.
+
+**Q: What happens if I omit the page size in `openPage(null)`?**  
+A: The document uses the default size defined in the `PsSaveOptions` (typically A4).
+
+## Conclusion
+結論として、Aspose.Page for Java は PostScript 文書の操作をシンプルにします。ページの追加、ページサイズの設定、カスタムPostScriptページサイズの作成、ページ向きの変更はすべて提供された API で簡単に実現でき、開発者にとって効率と柔軟性を兼ね備えた優れた選択肢です。
 
 ---
 
-**Last Updated:** 2025-12-11  
+**Last Updated:** 2026-02-18  
 **Tested With:** Aspose.Page 24.11 for Java  
 **Author:** Aspose  
 

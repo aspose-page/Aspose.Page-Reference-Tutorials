@@ -1,11 +1,12 @@
 ---
-date: 2025-12-11
-description: Pelajari cara menambahkan halaman PostScript di Java dengan Aspose.Page,
-  mengatur ukuran halaman di Java, dan membuat ukuran halaman PostScript khusus dalam
-  aplikasi Java.
+date: 2026-02-18
+description: Pelajari cara menambahkan halaman PostScript di Java, mengatur dimensi
+  halaman khusus, mengatur ukuran halaman di Java, dan membuat ukuran halaman PostScript
+  khusus menggunakan Aspose.Page.
 linktitle: Java PostScript Pages
 second_title: Aspose.Page Java API
-title: Menambahkan Halaman PostScript Java – Panduan Tanpa Hambatan dengan Aspose.Page
+title: Cara Menambahkan Halaman PostScript di Java – Panduan Tanpa Hambatan dengan
+  Aspose.Page
 url: /id/java/postscript-page-manipulation/add-pages1/
 weight: 10
 ---
@@ -14,26 +15,26 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menambahkan Halaman PostScript Java – Panduan Tanpa Hambatan dengan Aspose.Page
+# Cara Menambahkan Halaman PostScript di Java – Panduan Tanpa Hambatan dengan Aspose.Page
 
-## Introduction
-Selamat datang di panduan komprehensif kami tentang **add pages postscript java** menggunakan Aspose.Page. Dalam tutorial ini, kami akan memandu Anda melalui seluruh proses menambahkan halaman ke dokumen PostScript, mengatur ukuran halaman, dan bahkan membuat dimensi halaman khusus—semua dengan pustaka Aspose.Page untuk Java yang kuat. Baik Anda membuat laporan, faktur, atau output yang dapat dicetak lainnya, menguasai langkah‑langkah ini akan memberi Anda kontrol penuh atas pembuatan PostScript Anda.
+## Pendahuluan
+Selamat datang di panduan komprehensif kami tentang **cara menambahkan postscript** halaman di Java menggunakan Aspose.Page. Dalam tutorial ini Anda akan belajar langkah demi langkah cara menambahkan halaman, set page size java, dan bahkan mendefinisikan ukuran halaman postscript khusus untuk setiap halaman. Baik Anda membuat faktur, tiket, atau laporan multi‑halaman yang kompleks, menguasai teknik ini memberi Anda kontrol penuh atas output yang dapat dicetak.
 
-## Quick Answers
-- **Library apa yang memungkinkan Anda menambahkan halaman postscript java?** Aspose.Page for Java  
+## Jawaban Cepat
+- **Perpustakaan apa yang memungkinkan Anda menambahkan halaman postscript java?** Aspose.Page for Java  
 - **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi sementara gratis tersedia; lisensi berbayar diperlukan untuk produksi.  
 - **Bisakah saya mengatur ukuran halaman khusus?** Ya – gunakan `set page size java` atau tentukan dimensi secara langsung.  
-- **IDE mana yang paling cocok?** Semua IDE Java seperti IntelliJ IDEA atau Eclipse.  
-- **Berapa banyak halaman yang dapat saya buat?** Tidak ada batasan keras; Anda dapat menambahkan sebanyak mungkin halaman sesuai memori yang tersedia.
+- **IDE mana yang paling cocok?** IDE Java apa pun seperti IntelliJ IDEA atau Eclipse.  
+- **Berapa banyak halaman yang dapat saya buat?** Tidak ada batas keras; Anda dapat menambahkan sebanyak mungkin halaman sesuai memori yang tersedia.
 
-## Prerequisites
+## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 - Pengetahuan dasar tentang pemrograman Java.  
-- Aspose.Page for Java library installed. You can download it from [here](https://releases.aspose.com/page/java/).  
-- Lingkungan Pengembangan Terintegrasi (IDE) untuk Java, seperti IntelliJ IDEA atau Eclipse.  
+- Aspose.Page for Java library terpasang. Anda dapat mengunduhnya dari [here](https://releases.aspose.com/page/java/).  
+- Lingkungan pengembangan terintegrasi (IDE) untuk Java, seperti IntelliJ IDEA atau Eclipse.  
 
-## Import Packages
+## Impor Paket
 Pastikan Anda mengimpor paket yang diperlukan ke proyek Java Anda. Berikut contoh cara mengimpor paket yang dibutuhkan:
 
 ```java
@@ -42,10 +43,10 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## How to add pages postscript java
-Berikut adalah panduan langkah demi langkah yang menunjukkan cara **add pages postscript java** dan mengontrol dimensi halaman.
+## Cara menambahkan halaman postscript di Java
+Berikut adalah panduan langkah demi langkah yang menunjukkan cara **menambahkan halaman postscript java** dan mengontrol dimensi halaman.
 
-### Step 1: Create a New 2‑Paged PS Document
+### Langkah 1: Buat Dokumen PS 2‑Halaman Baru
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -57,7 +58,7 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, 2);
 ```
 
-### Step 2: Add the First Page with the Document's Page Size
+### Langkah 2: Tambahkan Halaman Pertama dengan Ukuran Halaman Dokumen
 ```java
 // Add the first page with the document's page size
 document.openPage(null);
@@ -66,7 +67,7 @@ document.openPage(null);
 document.closePage();
 ```
 
-### Step 3: Add the Second Page with a Different Size
+### Langkah 3: Tambahkan Halaman Kedua dengan Ukuran Berbeda
 ```java
 // Add the second page with a different size
 document.openPage(400, 700);
@@ -75,28 +76,34 @@ document.openPage(400, 700);
 document.closePage();
 ```
 
-### Step 4: Save the Document
+### Langkah 4: Simpan Dokumen
 ```java
 // Save the document
 document.save();
 ```
 
-Dengan mengikuti langkah‑langkah ini, Anda dapat dengan mudah **add pages postscript java** dan juga **set page size java** untuk setiap halaman sesuai kebutuhan.
+Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah **menambahkan halaman postscript java** dan juga **set page size java** untuk setiap halaman sesuai kebutuhan.
 
-## How to set page size java
-Jika Anda memerlukan ukuran kertas tertentu—misalnya, amplop khusus atau label—Anda dapat memanggil `openPage(width, height)` dengan dimensi yang diinginkan (dalam poin). Inilah inti dari penanganan **custom page size postscript** dalam Java.
+## Cara mengatur ukuran halaman java
+Jika Anda memerlukan ukuran kertas tertentu—misalnya amplop khusus atau label—Anda dapat memanggil `openPage(width, height)` dengan dimensi yang diinginkan (dalam poin). Inilah inti dari penanganan **custom postscript page size** dalam Java.
 
-## Common Use Cases
+## Cara mengatur dimensi halaman khusus
+Metode `openPage(width, height)` memungkinkan Anda mendefinisikan persegi panjang apa pun yang Anda inginkan, secara efektif **set custom page dimensions**. Misalnya, `openPage(300, 500)` membuat halaman berukuran 300 × 500 poin (≈4,17 × 6,94 inci). Gunakan ini ketika Anda memerlukan ukuran non‑standar seperti kertas struk atau kartu lencana.
+
+## Mengubah orientasi halaman java
+Untuk mengubah orientasi, cukup tukar nilai lebar dan tinggi. Halaman lanskap dapat dibuat dengan `openPage(842, 595)` (A4 lanskap), sementara potret tetap `openPage(595, 842)`. Teknik ini memberi Anda kontrol penuh atas **change page orientation java** tanpa konfigurasi tambahan.
+
+## Kasus Penggunaan Umum
 - **Pembuatan laporan dinamis** di mana setiap bagian dimulai pada halaman baru dengan ukuran unik.  
 - **Mencetak label atau tiket** yang memerlukan dimensi non‑standar.  
 - **Pemrosesan batch** dokumen besar di mana ukuran halaman bervariasi per halaman.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 ### Apakah Aspose.Page kompatibel dengan berbagai sistem operasi?
 Ya, Aspose.Page kompatibel dengan berbagai sistem operasi, termasuk Windows, Linux, dan macOS.
 
-### Apakah saya dapat menggunakan Aspose.Page untuk proyek pribadi dan komersial?
-Ya, Aspose.Page memiliki opsi lisensi fleksibel yang cocok untuk penggunaan pribadi maupun komersial.
+### Bisakah saya menggunakan Aspose.Page untuk proyek pribadi dan komersial?
+Ya, Aspose.Page menawarkan opsi lisensi fleksibel yang cocok untuk penggunaan pribadi maupun komersial.
 
 ### Di mana saya dapat menemukan dokumentasi tambahan untuk Aspose.Page?
 Anda dapat merujuk ke dokumentasi [here](https://reference.aspose.com/page/java/).
@@ -109,21 +116,21 @@ Anda dapat memperoleh lisensi sementara [here](https://purchase.aspose.com/tempo
 
 **Additional Q&A**
 
-**Q: How do I change the orientation of a page?**  
-A: Call `openPage(width, height)` with width greater than height for landscape, or swap the values for portrait.
+**Q: Bagaimana cara mengubah orientasi halaman?**  
+A: Panggil `openPage(width, height)` dengan lebar lebih besar dari tinggi untuk lanskap, atau tukar nilai untuk potret.
 
-**Q: Can I add graphics or text after opening a page?**  
-A: Yes—use the drawing APIs provided by Aspose.Page within the `openPage`/`closePage` block.
+**Q: Bisakah saya menambahkan grafik atau teks setelah membuka halaman?**  
+A: Ya—gunakan API menggambar yang disediakan oleh Aspose.Page dalam blok `openPage`/`closePage`.
 
-**Q: What happens if I omit the page size in `openPage(null)`?**  
-A: The document uses the default size defined in the `PsSaveOptions` (typically A4).
+**Q: Apa yang terjadi jika saya mengabaikan ukuran halaman dalam `openPage(null)`?**  
+A: Dokumen akan menggunakan ukuran default yang didefinisikan dalam `PsSaveOptions` (biasanya A4).
 
-## Conclusion
-Kesimpulannya, Aspose.Page untuk Java menyederhanakan proses kerja dengan dokumen PostScript. Menambahkan halaman, mengatur ukuran halaman, dan membuat dimensi halaman khusus adalah tugas yang mudah dengan API yang disediakan, menjadikannya pilihan yang sangat baik bagi pengembang yang mencari efisiensi dan fleksibilitas.
+## Kesimpulan
+Sebagai kesimpulan, Aspose.Page untuk Java menyederhanakan proses bekerja dengan dokumen PostScript. Menambahkan halaman, mengatur ukuran halaman, membuat custom postscript page size, dan mengubah orientasi halaman adalah tugas yang mudah dengan API yang disediakan, menjadikannya pilihan yang sangat baik bagi pengembang yang menginginkan efisiensi dan fleksibilitas.
 
 ---
 
-**Last Updated:** 2025-12-11  
+**Last Updated:** 2026-02-18  
 **Tested With:** Aspose.Page 24.11 for Java  
 **Author:** Aspose  
 

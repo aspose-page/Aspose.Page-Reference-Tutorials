@@ -1,7 +1,7 @@
 ---
-date: 2025-12-11
-description: เรียนรู้วิธีวาดรูปสี่เหลี่ยมใน Java PostScript ด้วย Aspose.Page คู่มือขั้นตอนนี้แสดงวิธีตั้งค่าสีทาสี
-  ตั้งค่าสีสี่เหลี่ยมใน Java และสร้างกราฟิกที่สดใส
+date: 2026-02-18
+description: เรียนรู้วิธีวาดรูปสี่เหลี่ยมใน Java PostScript ด้วย Aspose.Page คู่มือแบบขั้นตอนนี้แสดงวิธีตั้งค่า
+  Paint, ตั้งค่าสีสี่เหลี่ยมใน Java, และสร้างกราฟิกที่มีสีสันสดใสพร้อมอธิบายวิธีวาดสี่เหลี่ยมอย่างมีประสิทธิภาพ.
 linktitle: Add Rectangle in Java PostScript
 second_title: Aspose.Page Java API
 title: วิธีวาดสี่เหลี่ยมใน Java PostScript ด้วย Aspose.Page
@@ -9,30 +9,46 @@ url: /th/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+6-02-18  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose  
+
+Then closing shortcodes.
+
+Make sure to keep markdown formatting.
+
+Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # วิธีวาดสี่เหลี่ยมใน Java PostScript ด้วย Aspose.Page
 
-## บทนำ
-หากคุณต้องการ **วิธีวาดสี่เหลี่ยม** ภายในไฟล์ Java PostScript คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะอธิบายการใช้ Aspose.Page for Java เพื่อเพิ่มสี่เหลี่ยมสีสัน, ควบคุมการเติมสีและเส้นขอบ, และบันทึกผลลัพธ์เป็นเอกสาร PostScript คุณจะได้เห็นอย่างชัดเจน **วิธีตั้งค่า paint**, วิธีกำหนดรูปทรงของสี่เหลี่ยม, และทำไมวิธีนี้จึงเหมาะสำหรับการสร้างกราฟิกที่พิมพ์ได้โดยอัตโนมัติ
+## Introduction
+หากคุณต้องการ **วิธีวาดสี่เหลี่ยม** ภายในไฟล์ Java PostScript คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะอธิบายการใช้ Aspose.Page for Java เพื่อเพิ่มสี่เหลี่ยมสีสันต่าง ๆ ควบคุมการเติมสีและการวาดเส้นขอบ และบันทึกผลลัพธ์เป็นเอกสาร PostScript คุณจะได้เห็น **วิธีตั้งค่า paint**, วิธีกำหนดเรขาคณิตของสี่เหลี่ยม, และทำไมวิธีนี้จึงเหมาะสำหรับการสร้างกราฟิกที่พิมพ์ได้โดยอัตโนมัติ ในตอนท้ายของคู่มือคุณจะเข้าใจบริบทกว้างของเทคนิค **draw rectangle java** และวิธีที่พวกมันเข้ากับกระบวนการ **java awt rectangle drawing** 
 
-## คำตอบสั้น
-- **What library is required?** Aspose.Page for Java  
-- **Can I change rectangle colors?** ใช่ – ใช้ `setPaint` กับ `java.awt.Color` ใดก็ได้  
-- **Do I need a license for development?** เวอร์ชันทดลองฟรีใช้ได้สำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานจริง  
-- **Which page size is used in the example?** A4 (ค่าเริ่มต้นของ `PsSaveOptions`)  
-- **Is the code compatible with Java 8+?** แน่นอน – ใช้คลาสมาตรฐานของ AWT  
+## Quick Answers
+- **ไลบรารีที่ต้องการคืออะไร?** Aspose.Page for Java  
+- **ฉันสามารถเปลี่ยนสีสี่เหลี่ยมได้หรือไม่?** ใช่ – ใช้ `setPaint` กับ `java.awt.Color` ใดก็ได้  
+- **ฉันต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** ทดลองใช้ฟรีได้สำหรับการทดสอบ; ต้องมีไลเซนส์สำหรับการใช้งานจริง  
+- **ขนาดหน้าที่ใช้ในตัวอย่างคืออะไร?** A4 (ค่าเริ่มต้น `PsSaveOptions`)  
+- **โค้ดนี้เข้ากันได้กับ Java 8+ หรือไม่?** แน่นอน – ใช้คลาส AWT มาตรฐาน  
 
-## ข้อกำหนดเบื้องต้น
-ก่อนจะเริ่มทำตามบทแนะนำนี้ โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมอยู่:
+## What Is “How to Draw Rectangle” in PostScript?
+การวาดสี่เหลี่ยมในเอกสาร PostScript หมายถึงการกำหนดพื้นที่สี่เหลี่ยมและเติมสี, วาดเส้นขอบ, หรือทั้งสองอย่าง ด้วย Aspose.Page คุณสามารถทำได้โดยใช้คลาส **java awt rectangle drawing** ที่คุ้นเคย ซึ่งทำให้โค้ดอ่านง่ายและบำรุงรักษาได้  
+
+## Why Use Aspose.Page for Rectangle Graphics?
+- **ข้ามแพลตฟอร์ม**: สร้าง PostScript มาตรฐานที่ทำงานกับเครื่องพิมพ์ใดก็ได้  
+- **การควบคุมละเอียด**: คุณสามารถตั้งค่าสีเติม, สีเส้นขอบ, และความกว้างของเส้นแยกกันได้  
+- **ไม่มีการพึ่งพาภายนอก**: ใช้เฉพาะคลาสเรขาคณิตของ AWT ที่มีอยู่แล้ว จึงไม่ต้องการไลบรารีกราฟิกเพิ่มเติม  
+
+## Prerequisites
+ก่อนเริ่มทำตามบทแนะนำ โปรดตรวจสอบว่าคุณมีเงื่อนไขต่อไปนี้พร้อมอยู่แล้ว:
 - ความเข้าใจพื้นฐานของการเขียนโปรแกรม Java  
-- ติดตั้งไลบรารี Aspose.Page for Java หากยังไม่ได้ติดตั้ง ให้ดาวน์โหลดจาก [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/)  
+- ไลบรารี Aspose.Page for Java ติดตั้งแล้ว หากยังไม่มี ดาวน์โหลดได้จาก [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/)  
 - มีสภาพแวดล้อมการพัฒนา Java ตั้งค่าไว้บนเครื่องของคุณ  
 
-## นำเข้าแพ็กเกจ
-ในโครงการ Java ของคุณ ให้เริ่มด้วยการนำเข้าแพ็กเกจที่จำเป็น:
+## Import Packages
+ในโปรเจกต์ Java ของคุณ ให้เริ่มต้นด้วยการนำเข้าแพ็กเกจที่จำเป็น การนำเข้าต่าง ๆ นี้จะให้คุณเข้าถึงคลาส `Color`, `BasicStroke`, และ `Rectangle2D` ของ AWT รวมถึงคลาสการจัดการเอกสารหลักของ Aspose.Page  
 
 ```java
 import java.awt.BasicStroke;
@@ -43,11 +59,10 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## วิธีวาดสี่เหลี่ยมใน Java PostScript
-ด้านล่างเป็นขั้นตอนการทำงานทั้งหมดที่แบ่งเป็นขั้นตอนชัดเจน แต่ละขั้นตอนจะมีคำอธิบายสั้น ๆ ตามด้วยบล็อกโค้ดต้นฉบับ (ไม่เปลี่ยนแปลง)
+## Step‑by‑Step Guide to Draw Rectangle in Java PostScript
 
-### ขั้นตอนที่ 1: ตั้งค่า Paint สำหรับเติมสี่เหลี่ยม  
-**วิธีตั้งค่า paint** – เราเลือกสีส้มเป็นสีเติมสำหรับสี่เหลี่ยมแรก
+### Step 1: Set Paint for Filling Rectangle  
+**How to set paint** – เราเลือกสีส้มเป็นสีเติมสำหรับสี่เหลี่ยมแรก ส่วนนี้แสดงความสามารถของ **set rectangle color java**  
 
 ```java
 // The path to the documents directory.
@@ -64,8 +79,8 @@ document.setPaint(Color.ORANGE);
 document.fill(new Rectangle2D.Float(250, 100, 150, 100));
 ```
 
-### ขั้นตอนที่ 2: ตั้งค่า Paint สำหรับเส้นขอบสี่เหลี่ยม  
-**Set rectangle color java** – ตอนนี้เราจะเปลี่ยนสี paint เป็นสีแดงและกำหนดความกว้างของเส้นขอบ
+### Step 2: Set Paint for Stroking Rectangle  
+**Set rectangle color java** – ตอนนี้เราจะเปลี่ยนสีเป็นสีแดงและกำหนดความกว้างของเส้นขอบ ส่วนนี้ของตัวอย่างแสดงวิธี **draw rectangle java** ด้วยความหนาของเส้นที่กำหนดเอง  
 
 ```java
 // Set paint for stroking rectangle
@@ -76,8 +91,8 @@ document.setStroke(new BasicStroke(3));
 document.draw(new Rectangle2D.Float(250, 300, 150, 100));
 ```
 
-### ขั้นตอนที่ 3: ปิดหน้าเดิมและบันทึกเอกสาร  
-หลังจากวาดเสร็จ เราจะปิดหน้าและบันทึกไฟล์
+### Step 3: Close Current Page and Save Document  
+หลังจากวาดเสร็จ เราจะปิดหน้าและบันทึกไฟล์ การปิดหน้าจะทำให้คำสั่งวาดทั้งหมดถูกส่งออกไปยังสตรีม PostScript  
 
 ```java
 // Close current page
@@ -86,52 +101,54 @@ document.closePage();
 document.save();
 ```
 
-## ทำไมต้องใช้ Aspose.Page สำหรับกราฟิกสี่เหลี่ยม?
-- **Cross‑platform**: สร้าง PostScript มาตรฐานที่ทำงานได้กับเครื่องพิมพ์ทุกเครื่อง  
-- **Fine‑grained control**: สามารถตั้งค่าสีเติม, สีเส้นขอบ, และความกว้างของเส้นได้อย่างอิสระ  
-- **No external dependencies**: ใช้เฉพาะคลาสเรขาคณิตของ AWT ที่มีมาในตัว  
+## Common Use Cases for Rectangle Drawing
+- **การสร้างใบแจ้งหนี้หรือใบเสร็จ** – สี่เหลี่ยมทำหน้าที่เป็นกรอบหรือไฮไลท์ส่วนต่าง ๆ  
+- **การสร้างป้าย** – วาดกล่องสีเพื่อแยกข้อมูลสินค้า  
+- **แผนภูมิแบบง่าย** – ใช้สี่เหลี่ยมเติมสีเป็นองค์ประกอบของแผนภูมิบาร์  
+- **ฟอร์มพิมพ์แบบกำหนดเอง** – ผสานสี่เหลี่ยมกับข้อความเพื่อสร้างฟิลด์ฟอร์ม  
 
-## ปัญหาที่พบบ่อยและเคล็ดลับ
-- **File path errors** – ตรวจสอบให้แน่ใจว่า `dataDir` ลงท้ายด้วยตัวคั่นไฟล์ (`/` หรือ `\\`)  
-- **License exceptions** – เวอร์ชันทดลองจะเพิ่มลายน้ำ; ควรซื้อไลเซนส์เต็มสำหรับการใช้งานจริง  
-- **Color visibility** – เครื่องพิมพ์บางรุ่นอาจตีความค่า RGB แตกต่างกัน; ควรทดสอบด้วยสี่เหลี่ยมสีดำง่าย ๆ ก่อน  
+## Common Issues & Tips
+- **ข้อผิดพลาดของเส้นทางไฟล์** – ตรวจสอบให้ `dataDir` ลงท้ายด้วยตัวคั่นไฟล์ (`/` หรือ `\\`)  
+- **ข้อยกเว้นไลเซนส์** – รุ่นทดลองจะใส่ลายน้ำ; ควรได้รับไลเซนส์เต็มสำหรับการใช้งานจริง  
+- **การมองเห็นสี** – เครื่องพิมพ์บางรุ่นอาจตีความค่า RGB แตกต่างกัน; ทดสอบด้วยสี่เหลี่ยมสีดำง่าย ๆ ก่อน  
+- **การใช้หน่วยความจำ** – สำหรับเอกสารขนาดใหญ่ ควรทำการ flush สตรีมหลังจากแต่ละหน้า (`document.closePage()`)  
 
-## สรุป
-ในคู่มือนี้เราได้สาธิต **วิธีวาดสี่เหลี่ยม** ในเอกสาร Java PostScript, ครอบคลุม **วิธีตั้งค่า paint**, และแสดง **Set rectangle color java** ด้วย Aspose.Page คุณสามารถทดลองสร้างรูปทรง, สี, และสไตล์เส้นต่าง ๆ เพื่อสร้างกราฟิกที่พิมพ์ได้สวยงามสำหรับรายงาน, ใบแจ้งหนี้, หรือการพิมพ์แบบกำหนดเองได้ตามต้องการ  
+## Frequently Asked Questions
 
-## คำถามที่พบบ่อย
+**Q:** *ฉันสามารถใช้ Aspose.Page for Java กับภาษาโปรแกรมอื่นได้หรือไม่?*  
+A: Aspose.Page รองรับ Java เป็นหลัก แต่มีไลบรารีที่คล้ายกันสำหรับภาษาอื่น ๆ  
 
-### สามารถใช้ Aspose.Page for Java กับภาษาโปรแกรมอื่นได้หรือไม่?
-Aspose.Page รองรับหลัก ๆ คือ Java แต่ก็มีไลบรารีที่คล้ายกันสำหรับภาษาอื่น ๆ  
+**Q:** *มีรุ่นทดลองของ Aspose.Page for Java ให้ใช้งานหรือไม่?*  
+A: มี คุณสามารถสำรวจคุณสมบัติของ Aspose.Page for Java ได้จาก [free trial version](https://releases.aspose.com/)  
 
-### มีเวอร์ชันทดลองของ Aspose.Page for Java หรือไม่?
-มี – คุณสามารถสำรวจคุณสมบัติของ Aspose.Page for Java ได้จาก [free trial version](https://releases.aspose.com/)  
+**Q:** *จะหาแหล่งช่วยเหลือและการสนทนาเพิ่มเติมได้จากที่ไหน?*  
+A: เยี่ยมชม [Aspose.Page forum](https://forum.aspose.com/c/page/39) เพื่อเข้าร่วมชุมชนและขอความช่วยเหลือ  
 
-### จะหาแหล่งช่วยเหลือและการสนทนาเพิ่มเติมได้ที่ไหน?
-เยี่ยมชม [Aspose.Page forum](https://forum.aspose.com/c/page/39) เพื่อเข้าร่วมชุมชนและขอความช่วยเหลือ  
+**Q:** *จะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.Page for Java ได้อย่างไร?*  
+A: รับไลเซนส์ชั่วคราวได้จาก [here](https://purchase.aspose.com/temporary-license/)  
 
-### จะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.Page for Java ได้อย่างไร?
-รับไลเซนส์ชั่วคราวได้ที่ [here](https://purchase.aspose.com/temporary-license/)  
-
-### จะซื้อเวอร์ชันที่มีไลเซนส์ของ Aspose.Page for Java ได้ที่ไหน?
-ซื้อเวอร์ชันที่มีไลเซนส์ได้ที่ [here](https://purchase.aspose.com/buy)  
+**Q:** *จะซื้อเวอร์ชันที่มีไลเซนส์ของ Aspose.Page for Java ได้จากที่ไหน?*  
+A: ซื้อเวอร์ชันที่มีไลเซนส์ได้จาก [here](https://purchase.aspose.com/buy)  
 
 **Additional Q&A**
 
-**Q:** *Can I change the rectangle size dynamically?*  
-**A:** ใช่ – เพียงแก้ไขพารามิเตอร์ `Rectangle2D.Float(x, y, width, height)` ก่อนเรียก `fill` หรือ `draw`  
+**Q:** *ฉันสามารถเปลี่ยนขนาดสี่เหลี่ยมแบบไดนามิกได้หรือไม่?*  
+A: ได้ – เพียงแก้ไขพารามิเตอร์ `Rectangle2D.Float(x, y, width, height)` ก่อนเรียก `fill` หรือ `draw`  
 
-**Q:** *Is it possible to add text inside the rectangle?*  
-**A:** แน่นอน หลังจากวาดสี่เหลี่ยมแล้ว ให้ใช้ `document.drawString(...)` พร้อมฟอนต์และตำแหน่งที่ต้องการ  
+**Q:** *สามารถใส่ข้อความภายในสี่เหลี่ยมได้หรือไม่?*  
+A: แน่นอน หลังจากวาดสี่เหลี่ยมแล้ว ใช้ `document.drawString(...)` พร้อมฟอนต์และตำแหน่งที่ต้องการ  
 
-**Q:** *Does Aspose.Page support other shapes like circles or polygons?*  
-**A:** ใช่, API มีเมธอดเช่น `drawEllipse` และ `drawPolygon` สำหรับกราฟิกเวกเตอร์หลากหลายรูปแบบ  
+**Q:** *Aspose.Page รองรับรูปทรงอื่น ๆ เช่น วงกลมหรือหลายเหลี่ยมหรือไม่?*  
+A: รองรับ API มีเมธอดเช่น `drawEllipse` และ `drawPolygon` สำหรับกราฟิกเวกเตอร์หลากหลายรูปแบบ  
+
+## Conclusion
+ในคู่มือนี้เราได้สาธิต **วิธีวาดสี่เหลี่ยม** ในเอกสาร Java PostScript, ครอบคลุม **วิธีตั้งค่า paint**, และแสดงวิธี **set rectangle color java** ด้วย Aspose.Page ตอนนี้คุณมีพื้นฐานที่มั่นคงสำหรับการสร้างกราฟิกที่พิมพ์ได้อย่างมีสีสัน ไม่ว่าจะเป็นการสร้างใบแจ้งหนี้, ป้าย, หรือฟอร์มแบบกำหนดเอง อย่ากลัวที่จะทดลองใช้สีต่าง ๆ, สไตล์เส้น, และรูปทรง AWT เพิ่มเติมเพื่อทำให้ผลลัพธ์ของคุณสมบูรณ์ยิ่งขึ้น  
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-11  
-**ทดสอบกับ:** Aspose.Page for Java 24.12 (latest)  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2026-02-18  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

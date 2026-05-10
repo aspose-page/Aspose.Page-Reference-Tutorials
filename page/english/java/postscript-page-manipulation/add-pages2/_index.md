@@ -5,7 +5,7 @@ second_title: Aspose.Page Java API
 description: "Learn how to set custom page size and add pages to Java PostScript documents using Aspose.Page. Follow our step‑by‑step guide for seamless document manipulation."
 weight: 11
 url: /java/postscript-page-manipulation/add-pages2/
-date: 2025-12-11
+date: 2026-02-18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,14 +15,15 @@ date: 2025-12-11
 # Aspose.Page Java Tutorial – set custom page size while Adding Pages in PostScript
 
 ## Introduction
-In modern Java applications, **setting a custom page size** for PostScript output is often required—whether you’re generating invoices, tickets, or custom graphics. Aspose.Page for Java makes this task straightforward. In this tutorial you’ll learn how to add pages and set custom page sizes in a PostScript document, step by step, so you can produce exactly‑the‑right layout every time.
+In modern Java applications, **setting a custom page size** for PostScript output is often required—whether you’re generating invoices, tickets, or custom graphics. In this tutorial you’ll learn how to **set custom page size** for each page, add multiple pages, and finally **generate a PostScript file** that matches your exact layout needs. We’ll walk through the code step‑by‑step so you can quickly apply the technique in your own projects.
 
 ## Quick Answers
 - **Can I set different page sizes for each page?** Yes, you can open pages with custom dimensions using `document.openPage(width, height)`.  
 - **Do I need a license for production use?** A valid Aspose.Page license is required for non‑evaluation deployments.  
 - **Which Java versions are supported?** The library works with Java 8 and newer.  
 - **Is the API thread‑safe?** Document instances are not thread‑safe; create a separate `PsDocument` per thread.  
-- **How large can a PostScript file be?** Aspose.Page handles multi‑megabyte files efficiently; memory usage scales with content, not page count.
+- **How large can a PostScript file be?** Aspose.Page handles multi‑megabyte files efficiently; memory usage scales with content, not page count.  
+- **Can I use the open page width/height overload?** Absolutely—`openPage(double width, double height)` lets you specify any dimensions in points.  
 
 ## Prerequisites
 Before we dive in, make sure you have:
@@ -69,7 +70,7 @@ document.closePage();
 If the default page size isn’t what you need, you can **set a custom page size** when opening a new page. This is useful for receipts, labels, or any non‑standard layout.
 
 ## Step 3: Add a Second Page with Different Size
-Below we open a second page and explicitly provide a custom width and height (in points). This demonstrates how to set a custom page size for individual pages.
+Below we open a second page and explicitly provide a custom width and height (in points). This demonstrates how to set a custom page size for individual pages, giving you the ability to work with **different page sizes** within the same document.
 
 ```java
 // Add the second page with a different size
@@ -87,20 +88,34 @@ Finally, persist the changes by saving the document. All pages—including those
 document.save();
 ```
 
-By following these steps, you can seamlessly add pages and **set custom page sizes** in a Java PostScript document using Aspose.Page, giving you full control over the layout of each page.
+By following these steps, you can seamlessly add pages and **set custom page size** in a Java PostScript document using Aspose.Page, giving you full control over the layout of each page.
 
-## Conclusion
-Aspose.Page for Java provides a robust, developer‑friendly API for handling PostScript documents. You now know how to add multiple pages, apply custom dimensions, and save the result—empowering you to generate precisely formatted output for any Java‑based solution.
+## Why use Aspose.Page to set custom page size?
+- **Precision:** Dimensions are defined in points, so you get exact control over page width and height.  
+- **Flexibility:** Mix and match **different page sizes** in a single PostScript file.  
+- **Performance:** The library streams content directly to the output file, making it suitable for large‑scale **generate PostScript file** scenarios.  
+- **Rich API:** Supports drawing graphics, embedding images, and adding text—all while respecting the custom dimensions you set.
+
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Page dimensions appear swapped** | Remember that `openPage(width, height)` expects width first, then height (both in points). |
+| **Content overflows the page** | Use the `PsGraphics` coordinate system to position elements within the custom bounds, or scale your drawing. |
+| **Out‑of‑memory errors on huge documents** | Enable streaming by writing directly to a `FileOutputStream` as shown, and avoid loading large images into memory all at once. |
 
 ## Frequently Asked Questions
 ### Can I add pages of different sizes in a single PostScript document?
 Yes, as demonstrated in this tutorial, you can add pages with varying sizes in a multipaged PostScript document.  
+
 ### Are there any limitations on the number of pages I can add?
 Aspose.Page supports adding a virtually unlimited number of pages to a document.  
+
 ### Can I add custom content, such as images or graphics, to the pages?
 Absolutely! Aspose.Page allows you to add a wide range of content, including text, images, and other graphical elements.  
+
 ### Is Aspose.Page suitable for handling large documents?
 Yes, Aspose.Page is designed to efficiently handle both small and large documents with ease.  
+
 ### Where can I find additional resources and support for Aspose.Page?
 Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/), or visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support.  
 
@@ -117,7 +132,7 @@ Explore the [Aspose.Page documentation](https://reference.aspose.com/page/java/)
 
 ---
 
-**Last Updated:** 2025-12-11  
+**Last Updated:** 2026-02-18  
 **Tested With:** Aspose.Page for Java 24.10  
 **Author:** Aspose  
 

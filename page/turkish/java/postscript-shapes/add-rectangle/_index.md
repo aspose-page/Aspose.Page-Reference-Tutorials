@@ -1,8 +1,9 @@
 ---
-date: 2025-12-11
-description: Java PostScript'te dikdörtgen şekilleri çizmeyi öğrenin. Bu adım adım
-  kılavuz, boya ayarlamayı, dikdörtgen rengini java'da ayarlamayı ve canlı grafikler
-  oluşturmayı gösterir.
+date: 2026-02-18
+description: Aspose.Page kullanarak Java PostScript'te dikdörtgen şekilleri çizmeyi
+  öğrenin. Bu adım adım kılavuz, boya ayarlamayı, Java'da dikdörtgen rengini belirlemeyi
+  ve canlı grafikler oluşturmayı gösterirken, dikdörtgeni verimli bir şekilde nasıl
+  çizeceğinizi açıklar.
 linktitle: Add Rectangle in Java PostScript
 second_title: Aspose.Page Java API
 title: Aspose.Page ile Java PostScript'te Dikdörtgen Nasıl Çizilir
@@ -17,23 +18,31 @@ weight: 11
 # Java PostScript'te Aspose.Page ile Dikdörtgen Çizme
 
 ## Giriş
-Java PostScript dosyası içinde **how to draw rectangle** şekillerine ihtiyacınız varsa, doğru yerdesiniz. Bu öğreticide Aspose.Page for Java kullanarak renkli dikdörtgenler eklemeyi, dolgu ve kontur kontrolünü ve sonucu bir PostScript belgesi olarak kaydetmeyi adım adım göstereceğiz. **how to set paint**'i tam olarak nasıl yapacağınızı, dikdörtgenin geometrisini nasıl tanımlayacağınızı ve bu yaklaşımın programatik olarak yazdırılabilir grafikler üretmek için neden ideal olduğunu göreceksiniz.
+Java PostScript dosyası içinde **dikdörtgen çizme** şekilleri eklemeniz gerekiyorsa doğru yere geldiniz. Bu öğreticide Aspose.Page for Java kullanarak renkli dikdörtgenler eklemeyi, doldurma ve kontur ayarlarını kontrol etmeyi ve sonucu bir PostScript belgesi olarak kaydetmeyi adım adım göstereceğiz. **Boyama ayarlama**, dikdörtgenin geometrisini tanımlama ve bu yaklaşımın programatik olarak yazdırılabilir grafikler üretmek için neden ideal olduğunu tam olarak göreceksiniz. Kılavuzun sonunda **draw rectangle java** tekniklerinin daha geniş bağlamını ve **java awt rectangle drawing** iş akışlarına nasıl uyduğunu da anlayacaksınız.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphane gereklidir?** Aspose.Page for Java  
-- **Dikdörtgen renklerini değiştirebilir miyim?** Yes – use `setPaint` with any `java.awt.Color`  
-- **Geliştirme için lisansa ihtiyacım var mı?** A free trial works for testing; a license is required for production  
-- **Örnekte hangi sayfa boyutu kullanılıyor?** A4 (default `PsSaveOptions`)  
-- **Kod Java 8+ ile uyumlu mu?** Absolutely – it uses standard AWT classes  
+- **Hangi kütüphane gerekiyor?** Aspose.Page for Java  
+- **Dikdörtgen renklerini değiştirebilir miyim?** Evet – herhangi bir `java.awt.Color` ile `setPaint` kullanın  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü yeterli; üretim için lisans gereklidir  
+- **Örnekte hangi sayfa boyutu kullanılıyor?** A4 (varsayılan `PsSaveOptions`)  
+- **Kod Java 8+ ile uyumlu mu?** Kesinlikle – standart AWT sınıflarını kullanıyor  
+
+## PostScript'te “How to Draw Rectangle” Nedir?
+PostScript belgesinde bir dikdörtgen çizmek, bir dikdörtgen bölge tanımlamak ve ya doldurmak, konturunu çizmek ya da her ikisini yapmak anlamına gelir. Aspose.Page ile bunu tanıdık **java awt rectangle drawing** sınıflarını kullanarak yapabilirsiniz; bu da kodun okunmasını ve bakımını kolaylaştırır.
+
+## Neden Dikdörtgen Grafikleri İçin Aspose.Page Kullanmalı?
+- **Çapraz platform**: Her türlü yazıcıda çalışan standart PostScript üretir.  
+- **İnce ayar kontrolü**: Doldurma renklerini, kontur renklerini ve çizgi kalınlıklarını bağımsız olarak ayarlayabilirsiniz.  
+- **Harici bağımlılık yok**: Sadece yerleşik AWT geometri sınıflarını kullanır, ekstra grafik kütüphanesine ihtiyaç duymazsınız.  
 
 ## Ön Koşullar
-Öğreticiye başlamadan önce aşağıdaki ön koşulların yerine getirildiğinden emin olun:
+Öğreticiye başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
 - Java programlamaya temel bir anlayış.  
-- Aspose.Page for Java kütüphanesi yüklü. Yüklü değilse, [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) adresinden indirin.  
+- Aspose.Page for Java kütüphanesi yüklü. Yüklü değilse, [Aspose.Page for Java belgelerinden](https://reference.aspose.com/page/java/) indirebilirsiniz.  
 - Makinenizde bir Java geliştirme ortamı kurulu.  
 
 ## Paketleri İçe Aktarma
-Java projenizde, gerekli paketleri içe aktararak başlayın:
+Java projenizde gerekli paketleri içe aktararak başlayın. Bu içe aktarmalar, AWT’nin `Color`, `BasicStroke` ve `Rectangle2D` sınıflarına ve Aspose.Page’in temel belge işleme sınıflarına erişim sağlar.
 
 ```java
 import java.awt.BasicStroke;
@@ -44,11 +53,10 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Java PostScript'te Dikdörtgen Çizme
-Aşağıda, net adımlara bölünmüş tam iş akışı yer almaktadır. Her adım kısa bir açıklama ve ardından orijinal kod bloğu (değiştirilmemiş) içerir.
+## Java PostScript'te Dikdörtgen Çizmek İçin Adım Adım Kılavuz
 
-### Adım 1: Dikdörtgeni Doldurmak İçin Paint Ayarla  
-**How to set paint** – ilk dikdörtgen için turuncu bir dolgu rengi seçiyoruz.
+### Adım 1: Dikdörtgeni Doldurmak İçin Boyama Ayarla  
+**Boyama ayarlama** – ilk dikdörtgen için turuncu bir doldurma rengi seçiyoruz. Bu, **set rectangle color java** yeteneğini gösterir.
 
 ```java
 // The path to the documents directory.
@@ -65,8 +73,8 @@ document.setPaint(Color.ORANGE);
 document.fill(new Rectangle2D.Float(250, 100, 150, 100));
 ```
 
-### Adım 2: Dikdörtgeni Çizmek İçin Paint Ayarla  
-**Set rectangle color java** – şimdi paint'i kırmızıya değiştirip bir kontur genişliği tanımlıyoruz.
+### Adım 2: Dikdörtgeni Konturlamak İçin Boyama Ayarla  
+**Set rectangle color java** – şimdi boyamayı kırmızıya değiştirip bir kontur kalınlığı tanımlıyoruz. Bu örnek kısmı, **draw rectangle java** işlemini özel bir çizgi kalınlığıyla nasıl yapacağınızı gösterir.
 
 ```java
 // Set paint for stroking rectangle
@@ -78,7 +86,7 @@ document.draw(new Rectangle2D.Float(250, 300, 150, 100));
 ```
 
 ### Adım 3: Mevcut Sayfayı Kapat ve Belgeyi Kaydet  
-Çizimden sonra sayfayı kapatıp dosyayı kalıcı hâle getiriyoruz.
+Çizim tamamlandıktan sonra sayfayı kapatıp dosyayı kalıcı hale getiriyoruz. Sayfayı kapatmak, tüm çizim komutlarının PostScript akışına gönderilmesini sağlar.
 
 ```java
 // Close current page
@@ -87,51 +95,53 @@ document.closePage();
 document.save();
 ```
 
-## Neden Dikdörtgen Grafiklerinde Aspose.Page Kullanmalı?
-- **Cross‑platform**: Her yazıcıda çalışan standart PostScript üretir.  
-- **Fine‑grained control**: Dolgu renklerini, kontur renklerini ve çizgi kalınlıklarını bağımsız olarak ayarlayabilirsiniz.  
-- **No external dependencies**: Yalnızca yerleşik AWT geometri sınıflarını kullanır.  
+## Dikdörtgen Çizme İçin Yaygın Kullanım Senaryoları
+- **Fatura veya makbuz oluşturma** – dikdörtgenler kenarlık veya vurgulama bölümleri olarak kullanılır.  
+- **Etiket oluşturma** – ürün bilgilerini ayırmak için renkli kutular çizin.  
+- **Basit grafikler** – doldurulmuş dikdörtgenleri çubuk grafik elemanları olarak kullanın.  
+- **Özel yazdırılabilir formlar** – dikdörtgenleri metinle birleştirerek form alanları oluşturun.  
 
 ## Yaygın Sorunlar ve İpuçları
-- **File path errors** – `dataDir`'in bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.  
-- **License exceptions** – deneme sürümü bir filigran ekler; üretim kullanımı için tam lisans alın.  
-- **Color visibility** – bazı yazıcılar belirli RGB değerlerini farklı yorumlayabilir; önce basit bir siyah dikdörtgenle test edin.  
+- **Dosya yolu hataları** – `dataDir` değişkeninin bir dosya ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.  
+- **Lisans istisnaları** – deneme sürümü bir filigran ekler; üretim kullanımı için tam lisans alın.  
+- **Renk görünürlüğü** – bazı yazıcılar belirli RGB değerlerini farklı yorumlayabilir; önce basit bir siyah dikdörtgenle test edin.  
+- **Bellek kullanımı** – büyük belgeler için her sayfadan sonra akışı boşaltmayı (`document.closePage()`) düşünün.  
 
-## Sonuç
-Bu rehberde Java PostScript belgesinde **how to draw rectangle** şekillerini nasıl çizeceğimizi gösterdik, **how to set paint** konusunu ele aldık ve Aspose.Page kullanarak **set rectangle color java**'yu nasıl yapacağınızı gösterdik. Raporlar, faturalar veya özel baskılar için zengin yazdırılabilir grafikler oluşturmak amacıyla farklı şekiller, renkler ve çizgi stilleriyle denemeler yapmaktan çekinmeyin.
+## Sık Sorulan Sorular
 
-## Sıkça Sorulan Sorular
+**S:** *Aspose.Page for Java’yı başka programlama dilleriyle kullanabilir miyim?*  
+**C:** Aspose.Page öncelikle Java’yı destekler, ancak diğer diller için benzer kütüphaneler mevcuttur.
 
-### Aspose.Page for Java'yu diğer programlama dilleriyle kullanabilir miyim?
-Aspose.Page öncelikle Java'yı destekler, ancak diğer diller için benzer kütüphaneler mevcuttur.
+**S:** *Aspose.Page for Java için bir deneme sürümü var mı?*  
+**C:** Evet, [ücretsiz deneme sürümünü](https://releases.aspose.com/) inceleyebilirsiniz.
 
-### Aspose.Page for Java için bir deneme sürümü mevcut mu?
-Evet, Aspose.Page for Java özelliklerini [free trial version](https://releases.aspose.com/) ile keşfedebilirsiniz.
+**S:** *Ek yardım ve tartışma platformları nerede?*  
+**C:** Toplulukla etkileşimde bulunmak ve destek almak için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
 
-### Ek yardım ve tartışmaları nerede bulabilirim?
-Toplulukla etkileşimde bulunmak ve yardım almak için [Aspose.Page forum](https://forum.aspose.com/c/page/39) adresini ziyaret edin.
+**S:** *Aspose.Page for Java için geçici bir lisans nasıl alınır?*  
+**C:** Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-### Aspose.Page for Java için geçici bir lisans nasıl alabilirim?
-Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
+**S:** *Aspose.Page for Java’nın lisanslı sürümünü nereden satın alabilirim?*  
+**C:** Lisanslı sürümü [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-### Aspose.Page for Java'nın lisanslı sürümünü nereden satın alabilirim?
-Lisanslı bir sürümü [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
-
-**Ek Soru&Cevap**
+**Ek Soru‑Cevap**
 
 **S:** *Dikdörtgen boyutunu dinamik olarak değiştirebilir miyim?*  
-**C:** Evet – `fill` veya `draw` çağırmadan önce `Rectangle2D.Float(x, y, width, height)` parametrelerini değiştirmeniz yeterlidir.
+**C:** Evet – `fill` veya `draw` çağırmadan önce `Rectangle2D.Float(x, y, width, height)` parametrelerini istediğiniz gibi değiştirin.
 
 **S:** *Dikdörtgenin içine metin eklemek mümkün mü?*  
-**C:** Kesinlikle. Dikdörtgeni çektikten sonra istediğiniz yazı tipi ve konumla `document.drawString(...)` kullanın.
+**C:** Kesinlikle. Dikdörtgeni çektikten sonra istediğiniz font ve konumla `document.drawString(...)` kullanın.
 
-**S:** *Aspose.Page daireler veya çokgenler gibi diğer şekilleri destekliyor mu?*  
-**C:** Evet, API `drawEllipse` ve `drawPolygon` gibi çeşitli vektör grafikler için yöntemler sunar.
+**S:** *Aspose.Page da daire veya çokgen gibi diğer şekiller destekleniyor mu?*  
+**C:** Evet, API `drawEllipse` ve `drawPolygon` gibi çeşitli vektör grafik metodları sunar.
+
+## Sonuç
+Bu rehberde **dikdörtgen çizme** işlemini Java PostScript belgesinde nasıl gerçekleştireceğinizi, **boyama ayarlama** yöntemlerini ve Aspose.Page kullanarak **set rectangle color java** nasıl yapılacağını gösterdik. Artık faturalar, etiketler veya özel formlar gibi canlı yazdırılabilir grafikler oluşturmak için sağlam bir temele sahipsiniz. Farklı renkler, çizgi stilleri ve ek AWT şekilleriyle denemeler yaparak çıktınızı zenginleştirmekten çekinmeyin.
 
 ---
 
-**Son Güncelleme:** 2025-12-11  
-**Test Edilen Versiyon:** Aspose.Page for Java 24.12 (latest)  
+**Son Güncelleme:** 2026-02-18  
+**Test Edilen Versiyon:** Aspose.Page for Java 24.12 (en yeni)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

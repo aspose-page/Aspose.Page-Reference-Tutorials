@@ -1,8 +1,9 @@
 ---
-date: 2025-12-11
+date: 2026-02-18
 description: Apprenez à dessiner des formes rectangulaires en Java PostScript avec
   Aspose.Page. Ce guide étape par étape montre comment définir la peinture, définir
-  la couleur du rectangle en Java et créer des graphiques vibrants.
+  la couleur du rectangle en Java, et créer des graphiques éclatants tout en expliquant
+  comment dessiner un rectangle efficacement.
 linktitle: Add Rectangle in Java PostScript
 second_title: Aspose.Page Java API
 title: Comment dessiner un rectangle en Java PostScript avec Aspose.Page
@@ -10,30 +11,40 @@ url: /fr/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ keep all shortcodes exactly as original.
+
+Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comment dessiner un rectangle en Java PostScript avec Aspose.Page
 
 ## Introduction
-If you need to **how to draw rectangle** shapes inside a Java PostScript file, you’ve come to the right place. In this tutorial we’ll walk through using Aspose.Page for Java to add colorful rectangles, control their fill and stroke, and save the result as a PostScript document. You’ll see exactly **how to set paint**, how to define the rectangle’s geometry, and why this approach is ideal for generating printable graphics programmatically.
+Si vous avez besoin de **how to draw rectangle** formes à l'intérieur d'un fichier Java PostScript, vous êtes au bon endroit. Dans ce tutoriel, nous allons parcourir l'utilisation d'Aspose.Page pour Java afin d'ajouter des rectangles colorés, de contrôler leur remplissage et leur contour, et d'enregistrer le résultat sous forme de document PostScript. Vous verrez exactement **how to set paint**, comment définir la géométrie du rectangle, et pourquoi cette approche est idéale pour générer des graphiques imprimables de manière programmatique. À la fin du guide, vous comprendrez également le contexte plus large des techniques **draw rectangle java** et comment elles s'intègrent aux flux de travail **java awt rectangle drawing**.
 
-## Quick Answers
-- **What library is required?** Aspose.Page for Java  
-- **Can I change rectangle colors?** Yes – use `setPaint` with any `java.awt.Color`  
-- **Do I need a license for development?** A free trial works for testing; a license is required for production  
-- **Which page size is used in the example?** A4 (default `PsSaveOptions`)  
-- **Is the code compatible with Java 8+?** Absolutely – it uses standard AWT classes  
+## Réponses rapides
+- **Quelle bibliothèque est requise ?** Aspose.Page for Java  
+- **Puis-je changer les couleurs du rectangle ?** Oui – utilisez `setPaint` avec n'importe quel `java.awt.Color`  
+- **Ai-je besoin d'une licence pour le développement ?** Une version d'essai gratuite fonctionne pour les tests ; une licence est requise pour la production  
+- **Quelle taille de page est utilisée dans l'exemple ?** A4 (par défaut `PsSaveOptions`)  
+- **Le code est-il compatible avec Java 8+ ?** Absolument – il utilise les classes standard AWT  
 
-## Prerequisites
-Before diving into the tutorial, ensure you have the following prerequisites in place:
-- Basic understanding of Java programming.  
-- Aspose.Page for Java library installed. If not, download it from the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
-- A Java development environment set up on your machine.
+## Qu’est‑ce que “How to Draw Rectangle” en PostScript ?
+Dessiner un rectangle dans un document PostScript signifie définir une région rectangulaire et soit la remplir, soit tracer son contour, ou les deux. Avec Aspose.Page, vous pouvez le faire en utilisant les classes familières de **java awt rectangle drawing**, ce qui rend le code facile à lire et à maintenir.
 
-## Import Packages
-In your Java project, start by importing the necessary packages:
+## Pourquoi utiliser Aspose.Page pour les graphiques de rectangles ?
+- **Cross‑platform** : Génère du PostScript standard qui fonctionne sur n'importe quelle imprimante.  
+- **Fine‑grained control** : Vous pouvez définir les couleurs de remplissage, les couleurs de contour et les épaisseurs de ligne de façon indépendante.  
+- **No external dependencies** : Utilise uniquement les classes de géométrie AWT intégrées, vous n'avez donc pas besoin de bibliothèques graphiques supplémentaires.  
+
+## Prérequis
+Avant de plonger dans le tutoriel, assurez‑vous d'avoir les prérequis suivants en place :
+- Compréhension de base de la programmation Java.  
+- Bibliothèque Aspose.Page pour Java installée. Sinon, téléchargez‑la depuis la [documentation Aspose.Page pour Java](https://reference.aspose.com/page/java/).  
+- Un environnement de développement Java configuré sur votre machine.
+
+## Importer les packages
+Dans votre projet Java, commencez par importer les packages nécessaires. Ces imports vous donnent accès aux classes `Color`, `BasicStroke` et `Rectangle2D` d'AWT, ainsi qu'aux classes de gestion de documents du cœur d'Aspose.Page.
 
 ```java
 import java.awt.BasicStroke;
@@ -44,11 +55,10 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## How to Draw Rectangle in Java PostScript
-Below is the complete workflow broken into clear steps. Each step includes a short explanation followed by the original code block (unchanged).
+## Guide étape par étape pour dessiner un rectangle en Java PostScript
 
-### Step 1: Set Paint for Filling Rectangle  
-**How to set paint** – we choose an orange fill color for the first rectangle.
+### Étape 1 : Définir la peinture pour remplir le rectangle  
+**How to set paint** – nous choisissons une couleur de remplissage orange pour le premier rectangle. Cela montre la capacité **set rectangle color java**.
 
 ```java
 // The path to the documents directory.
@@ -65,8 +75,8 @@ document.setPaint(Color.ORANGE);
 document.fill(new Rectangle2D.Float(250, 100, 150, 100));
 ```
 
-### Step 2: Set Paint for Stroking Rectangle  
-**Set rectangle color java** – now we change the paint to red and define a stroke width.
+### Étape 2 : Définir la peinture pour le contour du rectangle  
+**Set rectangle color java** – maintenant nous changeons la peinture en rouge et définissons une épaisseur de contour. Cette partie de l'exemple montre comment **draw rectangle java** avec une épaisseur de ligne personnalisée.
 
 ```java
 // Set paint for stroking rectangle
@@ -77,8 +87,8 @@ document.setStroke(new BasicStroke(3));
 document.draw(new Rectangle2D.Float(250, 300, 150, 100));
 ```
 
-### Step 3: Close Current Page and Save Document  
-After drawing, we close the page and persist the file.
+### Étape 3 : Fermer la page actuelle et enregistrer le document  
+Après le dessin, nous fermons la page et persistons le fichier. Fermer la page garantit que toutes les commandes de dessin sont vidées dans le flux PostScript.
 
 ```java
 // Close current page
@@ -87,52 +97,54 @@ document.closePage();
 document.save();
 ```
 
-## Why Use Aspose.Page for Rectangle Graphics?
-- **Cross‑platform**: Generates standard PostScript that works on any printer.  
-- **Fine‑grained control**: You can set fill colors, stroke colors, and line widths independently.  
-- **No external dependencies**: Uses only the built‑in AWT geometry classes.  
+## Cas d’utilisation courants pour le dessin de rectangles
+- **Génération de factures ou de reçus** – les rectangles servent de bordures ou mettent en évidence des sections.  
+- **Création d'étiquettes** – dessinez des boîtes colorées pour séparer les informations produit.  
+- **Graphiques simples** – utilisez des rectangles remplis comme éléments de diagrammes à barres.  
+- **Formulaires imprimables personnalisés** – combinez des rectangles avec du texte pour créer des champs de formulaire.  
 
-## Common Issues & Tips
-- **File path errors** – ensure `dataDir` ends with a file separator (`/` or `\\`).  
-- **License exceptions** – the trial version adds a watermark; obtain a full license for production use.  
-- **Color visibility** – some printers may interpret certain RGB values differently; test with a simple black rectangle first.
+## Problèmes courants et astuces
+- **Erreurs de chemin de fichier** – assurez‑vous que `dataDir` se termine par un séparateur de fichier (`/` ou `\\`).  
+- **Exceptions de licence** – la version d'essai ajoute un filigrane ; obtenez une licence complète pour une utilisation en production.  
+- **Visibilité des couleurs** – certaines imprimantes peuvent interpréter différemment certaines valeurs RVB ; testez d'abord avec un simple rectangle noir.  
+- **Utilisation de la mémoire** – pour les gros documents, envisagez de vider le flux après chaque page (`document.closePage()`).  
+
+## Questions fréquemment posées
+
+**Q :** *Puis-je utiliser Aspose.Page pour Java avec d'autres langages de programmation ?*  
+**R :** Aspose.Page prend principalement en charge Java, mais des bibliothèques similaires sont disponibles pour d'autres langages.
+
+**Q :** *Existe‑t‑il une version d'essai d'Aspose.Page pour Java disponible ?*  
+**R :** Oui, vous pouvez explorer les fonctionnalités d'Aspose.Page pour Java avec la [version d'essai gratuite](https://releases.aspose.com/).
+
+**Q :** *Où puis‑je trouver de l'aide supplémentaire et des discussions ?*  
+**R :** Visitez le [forum Aspose.Page](https://forum.aspose.com/c/page/39) pour interagir avec la communauté et obtenir de l'aide.
+
+**Q :** *Comment obtenir une licence temporaire pour Aspose.Page pour Java ?*  
+**R :** Obtenez une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+
+**Q :** *Où puis‑je acheter une version sous licence d'Aspose.Page pour Java ?*  
+**R :** Achetez une version sous licence [ici](https://purchase.aspose.com/buy).
+
+### Q&A supplémentaires
+
+**Q :** *Puis‑je changer la taille du rectangle dynamiquement ?*  
+**R :** Oui – modifiez simplement les paramètres `Rectangle2D.Float(x, y, width, height)` avant d'appeler `fill` ou `draw`.
+
+**Q :** *Est‑il possible d'ajouter du texte à l'intérieur du rectangle ?*  
+**R :** Absolument. Après avoir dessiné le rectangle, utilisez `document.drawString(...)` avec la police et la position souhaitées.
+
+**Q :** *Aspose.Page prend‑il en charge d'autres formes comme des cercles ou des polygones ?*  
+**R :** Oui, l'API fournit des méthodes telles que `drawEllipse` et `drawPolygon` pour une variété de graphiques vectoriels.
 
 ## Conclusion
-In this guide we demonstrated **how to draw rectangle** shapes in a Java PostScript document, covered **how to set paint**, and showed how to **set rectangle color java** using Aspose.Page. Feel free to experiment with different shapes, colors, and line styles to create rich printable graphics for reports, invoices, or custom prints.
-
-## Frequently Asked Questions
-
-### Can I use Aspose.Page for Java with other programming languages?
-Aspose.Page primarily supports Java, but similar libraries are available for other languages.
-
-### Is there a trial version of Aspose.Page for Java available?
-Yes, you can explore the features of Aspose.Page for Java with the [free trial version](https://releases.aspose.com/).
-
-### Where can I find additional help and discussions?
-Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to engage with the community and get assistance.
-
-### How can I obtain a temporary license for Aspose.Page for Java?
-Get a temporary license [here](https://purchase.aspose.com/temporary-license/).
-
-### Where can I purchase a licensed version of Aspose.Page for Java?
-Buy a licensed version [here](https://purchase.aspose.com/buy).
-
-**Additional Q&A**
-
-**Q:** *Can I change the rectangle size dynamically?*  
-**A:** Yes – simply modify the `Rectangle2D.Float(x, y, width, height)` parameters before calling `fill` or `draw`.
-
-**Q:** *Is it possible to add text inside the rectangle?*  
-**A:** Absolutely. After drawing the rectangle, use `document.drawString(...)` with the desired font and position.
-
-**Q:** *Does Aspose.Page support other shapes like circles or polygons?*  
-**A:** Yes, the API provides methods such as `drawEllipse` and `drawPolygon` for a variety of vector graphics.
+Dans ce guide, nous avons démontré comment **how to draw rectangle** des formes dans un document Java PostScript, couvert **how to set paint**, et montré comment **set rectangle color java** en utilisant Aspose.Page. Vous disposez désormais d'une base solide pour créer des graphiques imprimables vibrants, que vous construisiez des factures, des étiquettes ou des formulaires personnalisés. N'hésitez pas à expérimenter avec différentes couleurs, styles de ligne et formes AWT supplémentaires pour enrichir votre sortie.
 
 ---
 
-**Last Updated:** 2025-12-11  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose  
+**Dernière mise à jour :** 2026-02-18  
+**Testé avec :** Aspose.Page for Java 24.12 (latest)  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
