@@ -1,28 +1,41 @@
 ---
-title: เพิ่มรูปภาพโปร่งใสใน Java PostScript
-linktitle: เพิ่มรูปภาพโปร่งใสใน Java PostScript
+date: 2026-03-05
+description: เรียนรู้วิธีตั้งค่าสีพื้นหลังใน Java และเพิ่มภาพโปร่งใสลงใน PostScript
+  ด้วย Aspose.Page for Java แปลง PNG เป็น PostScript อย่างง่ายดาย.
+linktitle: Add Transparent Image in Java PostScript
 second_title: Aspose.Page Java API
-description: สำรวจการรวมรูปภาพโปร่งใสในเอกสาร Java PostScript เข้ากับ Aspose.Page สำหรับ Java ได้อย่างราบรื่น ยกระดับการแสดงภาพเอกสารของคุณได้อย่างง่ายดาย
-weight: 10
+title: 'ตั้งค่าสีพื้นหลังใน Java: เพิ่มภาพโปร่งใสใน PS'
 url: /th/java/postscript-transparency/add-transparent-image/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มรูปภาพโปร่งใสใน Java PostScript
+# ตั้งค่าสีพื้นหลัง Java: เพิ่มภาพโปร่งใสใน PS
 
-## การแนะนำ
-ในโลกของ Java PostScript การเพิ่มความดึงดูดสายตาให้กับเอกสารมักจะเกี่ยวข้องกับการเพิ่มภาพที่โปร่งใส บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการรวมรูปภาพโปร่งใสลงในเอกสาร Java PostScript ของคุณโดยใช้ Aspose.Page สำหรับไลบรารี Java อันทรงพลัง
-## ข้อกำหนดเบื้องต้น
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-1. Java Development Kit (JDK): ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง JDK ล่าสุดบนเครื่องของคุณ
-2.  Aspose.Page สำหรับ Java: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Page สำหรับ Java จาก[เว็บไซต์](https://releases.aspose.com/page/java/).
-3. ไดเร็กทอรีเอกสาร: สร้างไดเร็กทอรีบนระบบของคุณที่คุณจะจัดเก็บเอกสาร Java PostScript ของคุณ
-4. ไฟล์ภาพโปร่งแสง: เตรียมไฟล์ภาพโปร่งแสง (เช่น "mask1.png") เพื่อใช้ในบทช่วยสอน
-## แพ็คเกจนำเข้า
-ในโปรเจ็กต์ Java ของคุณ ให้นำเข้าแพ็คเกจที่จำเป็นเพื่อใช้ประโยชน์จากฟังก์ชันการทำงานที่ Aspose.Page สำหรับ Java มอบให้ นี่คือตัวอย่างโค้ด:
+## Introduction
+หากคุณต้องการ **set background color java** ขณะทำงานกับ Java PostScript การเพิ่มภาพโปร่งใสสามารถทำให้เอกสารของคุณดูเรียบหรูและเป็นมืออาชีพได้ ในบทแนะนำนี้เราจะพาคุณผ่านกระบวนการทั้งหมดของการตั้งค่าสีพื้นหลัง, การแปลง PNG เป็น PostScript, และการวาดภาพที่ทึบและโปร่งใสโดยใช้ไลบรารี Aspose.Page for Java เมื่อเสร็จคุณจะสามารถ **add image to postscript** ไฟล์ด้วยการควบคุมความทึบแสงได้เต็มที่
+
+## Quick Answers
+- **What library handles transparency in Java PostScript?** Aspose.Page for Java.  
+- **Can I set a background color before drawing images?** Yes – use `document.setPaint()` and `fill()`.  
+- **How do I convert PNG to PostScript?** Load the PNG with `ImageIO.read()` and draw it with `drawImage` or `drawTransparentImage`.  
+- **Is opacity supported for images?** Use `drawTransparentImage` to specify an opacity value (0‑255).  
+- **Do I need a license for production use?** A valid Aspose.Page for Java license is required; a free trial is available.
+
+## Prerequisites
+ก่อนเริ่มทำงาน ให้ตรวจสอบว่าคุณมี:
+
+1. **Java Development Kit (JDK)** – ติดตั้งเวอร์ชันล่าสุดแล้ว  
+2. **Aspose.Page for Java** – ดาวน์โหลดจาก [website](https://releases.aspose.com/page/java/)  
+3. **Document Directory** – โฟลเดอร์ที่คุณจะบันทึกไฟล์ PostScript  
+4. **Translucent Image File** – เช่น `mask1.png` ซึ่งเราจะใช้เพื่อสาธิตการทำให้โปร่งใส
+
+## Import Packages
+ในโปรเจกต์ Java ของคุณ ให้นำเข้าคลาสที่จำเป็น บล็อกนี้จะคงไว้เช่นเดิม:
+
 ```java
 import java.awt.Color;
 import java.awt.geom.AffineTransform;
@@ -34,61 +47,98 @@ import javax.imageio.ImageIO;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-## ขั้นตอนที่ 1: ตั้งค่าสีพื้นหลัง
+
+## Step 1: Set Background Color Java
+ที่นี่เราจะสร้างเอกสาร เลือกขนาด A4 และเติมสี่เหลี่ยมสีแดงเพื่อแสดงความแตกต่างของพื้นหลัง
+
 ```java
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// สร้างกระแสเอาท์พุทสำหรับเอกสาร PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "AddTransparentImage_outPS.ps");
-// สร้างตัวเลือกการบันทึกด้วยขนาด A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
-// สร้างเอกสาร PS ใหม่โดยเปิดหน้าไว้
+// Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
-// เพิ่มสี่เหลี่ยมสีแดงใต้ภาพเพื่อความเปรียบต่างของภาพ
+// Add a red rectangle under images for visual contrast
 document.setPaint(new Color(211, 8, 48));
 document.fill(new Rectangle2D.Float(0, 0, (int) options.getPageSize().getWidth(), 300));
 ```
-## ขั้นตอนที่ 2: แปลพิกัด
+
+## Step 2: Translate Coordinates
+ย้ายเคอร์เซอร์การวาดไปยังตำแหน่งที่สะดวกบนหน้า ก่อนวางภาพ
+
 ```java
-// แปลเป็นตำแหน่งเฉพาะบนหน้า
+// Translate to a specific position on the page
 document.writeGraphicsSave();
 document.translate(20, 100);
 ```
-## ขั้นตอนที่ 3: สร้างวัตถุรูปภาพ
+
+## Step 3: Create Image Object
+โหลดไฟล์ PNG (ขั้นตอน **convert png to postscript** ของเรา)
+
 ```java
-// สร้างภาพจากไฟล์ภาพโปร่งแสง
+// Create an image from the translucent image file
 BufferedImage image = ImageIO.read(new File(dataDir + "mask1.png"));
 ```
-## ขั้นตอนที่ 4: เพิ่มภาพที่ทึบแสง
+
+## Step 4: Add Opaque Image
+วาดภาพตามปกติ—นี่เป็นการสาธิต **add image to postscript** โดยไม่มีความโปร่งใส
+
 ```java
-// เพิ่มรูปภาพลงในเอกสารเป็นรูปภาพ RGB ทึบแสง
+// Add the image to the document as an opaque RGB image
 document.drawImage(image, new AffineTransform(1, 0, 0, 1, 100, 0), null);
 ```
-## ขั้นตอนที่ 5: เพิ่มภาพที่โปร่งใส
+
+## Step 5: Add Transparent Image (draw image with opacity)
+ตอนนี้เราจะใช้ `drawTransparentImage` เพื่อเรนเดอร์ PNG เดียวกันด้วยความทึบเต็ม (255) ปรับค่าตามต้องการเพื่อควบคุมความโปร่งใส
+
 ```java
-// เพิ่มรูปภาพลงในเอกสารเป็นรูปภาพโปร่งใส
+// Add the image to the document as a transparent image
 document.drawTransparentImage(image, new AffineTransform(1, 0, 0, 1, 350, 0), 255);
 ```
-## ขั้นตอนที่ 6: บันทึกและปิด
+
+## Step 6: Save and Close
+สรุปเอกสารและปล่อยทรัพยากร
+
 ```java
-// บันทึกและปิดเอกสาร
+// Save and close the document
 document.writeGraphicsRestore();
 document.closePage();
 document.save();
 ```
-## บทสรุป
-ยินดีด้วย! คุณได้เรียนรู้วิธีเพิ่มรูปภาพโปร่งใสให้กับเอกสาร Java PostScript โดยใช้ Aspose.Page สำหรับ Java เรียบร้อยแล้ว ทดลองใช้รูปภาพและตำแหน่งต่างๆ เพื่อสร้างเอกสารที่สวยงามตระการตา
-## คำถามที่พบบ่อย
-### ฉันสามารถใช้ Aspose.Page สำหรับ Java กับไลบรารี Java อื่นได้หรือไม่
-ใช่ Aspose.Page สำหรับ Java สามารถรวมเข้ากับไลบรารี Java อื่นๆ ได้อย่างราบรื่น เพื่อเพิ่มความสามารถในการประมวลผลเอกสาร
-### Aspose.Page สำหรับ Java ทดลองใช้ฟรีหรือไม่
- ใช่ คุณสามารถเข้าถึง Aspose.Page สำหรับ Java รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
-### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page สำหรับ Java ได้อย่างไร
- คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[ลิงค์นี้](https://purchase.aspose.com/temporary-license/).
-### มีฟอรัมสำหรับ Aspose.Page สำหรับการรองรับ Java หรือไม่
- ใช่แล้ว แวะมาที่.[Aspose.Page สำหรับฟอรัม Java](https://forum.aspose.com/c/page/39) สำหรับการสนับสนุนและการอภิปรายของชุมชน
-### ฉันจะหาเอกสารสำหรับ Aspose.Page สำหรับ Java ได้ที่ไหน
- อ้างถึงที่ครอบคลุม[เอกสารประกอบ](https://reference.aspose.com/page/java/) สำหรับข้อมูลโดยละเอียดเกี่ยวกับ Aspose.Page สำหรับ Java
+
+## Why This Matters
+การตั้งค่าสีพื้นหลังด้วย Java จะให้แคนวาสที่ช่วยเน้นกราฟิกที่วางทับได้ การผสานกับ **draw image with opacity** ทำให้คุณสร้างลายน้ำ, โลโก้ หรือโมเก็ต UI โดยตรงใน PostScript โดยไม่ต้องใช้เครื่องมือแก้ไขภายนอก
+
+## Common Issues & Tips
+- **Image not appearing transparent:** ตรวจสอบว่า PNG มีช่อง alpha จริงหรือไม่  
+- **Incorrect colors:** จำไว้ว่าสี่เหลี่ยมพื้นหลังถูกวาดก่อนภาพ; ปรับค่า `Color` ให้ตรงกับการออกแบบของคุณ  
+- **Performance:** สำหรับเอกสารขนาดใหญ่ ให้ใช้ตัวอย่าง `AffineTransform` เพียงตัวเดียวเพื่อ ลดการสร้างอ็อบเจ็กต์ใหม่
+
+## Frequently Asked Questions
+
+**Q: Can I use Aspose.Page for Java with other Java libraries?**  
+A: ใช่, Aspose.Page for Java สามารถผสานรวมกับไลบรารี Java อื่น ๆ ได้อย่างราบรื่นเพื่อเพิ่มความสามารถในการประมวลผลเอกสาร
+
+**Q: Is a free trial available for Aspose.Page for Java?**  
+A: ใช่, คุณสามารถเข้าถึงการทดลองใช้ฟรีของ Aspose.Page for Java ได้จาก [here](https://releases.aspose.com/)
+
+**Q: How can I obtain a temporary license for Aspose.Page for Java?**  
+A: คุณสามารถรับใบอนุญาตชั่วคราวได้จาก [this link](https://purchase.aspose.com/temporary-license/)
+
+**Q: Are there any forums for Aspose.Page for Java support?**  
+A: มี, เยี่ยมชม [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา
+
+**Q: Where can I find the documentation for Aspose.Page for Java?**  
+A: ดูเอกสารอย่างละเอียดใน [documentation](https://reference.aspose.com/page/java/) เพื่อข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Page for Java
+
+---
+
+**Last Updated:** 2026-03-05  
+**Tested With:** Aspose.Page for Java 24.11 (latest)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

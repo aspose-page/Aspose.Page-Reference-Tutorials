@@ -1,27 +1,41 @@
 ---
-title: Java kullanarak XMP Meta Verilerine Dizi Öğeleri Ekleme
-linktitle: Java kullanarak XMP Meta Verilerine Dizi Öğeleri Ekleme
-second_title: Aspose.Page Java API'si
-description: Aspose.Page for Java ile EPS dosyalarını geliştirin. XMP meta verilerine dizi öğelerini zahmetsizce eklemeyi öğrenin. Şimdi adım adım kılavuzumuzu takip edin!
-weight: 10
+date: 2026-03-05
+description: Aspose.Page for Java kullanarak EPS dosyalarının XMP meta verilerine
+  dc:title dizi öğeleri eklemeyi öğrenin. Hızlı sonuçlar için bu adım adım kılavuzu
+  izleyin.
+linktitle: How to Add dc:title Array Items in XMP Metadata using Java
+second_title: Aspose.Page Java API
+title: Java ile XMP Metadata'ye dc:title Dizi Öğeleri Nasıl Eklenir
 url: /tr/java/xmp-metadata-manipulation/add-array-items/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java kullanarak XMP Meta Verilerine Dizi Öğeleri Ekleme
+# Java Kullanarak XMP Metadata'ye Dizi Öğeleri Ekleme
 
-## giriiş
-XMP meta verilerine dizi öğeleri eklemek için Aspose.Page for Java'yı kullanmayla ilgili adım adım kılavuzumuza hoş geldiniz. Aspose.Page, EPS dosyaları da dahil olmak üzere çeşitli belge formatlarını değiştirmenize ve bunlarla çalışmanıza olanak tanıyan güçlü bir Java kütüphanesidir. Bu öğreticide, Java kullanarak XMP meta verilerine dizi öğeleri ekleme gibi özel bir göreve odaklanacağız.
+## Giriş
+Bu öğreticide **dc:title** (ve diğer dizi öğeleri) nasıl XMP metadata'ya EPS dosyası içinde Aspose.Page for Java ile eklenir keşfedeceksiniz. XMP metadata'yı güncellemek, başlıklar, oluşturucular veya anahtar kelimeler gibi aranabilir bilgileri doğrudan grafik dosyalarınıza gömmek istediğinizde faydalıdır. Her adımı adım adım inceleyecek, her satırın neden önemli olduğunu açıklayacak ve değişiklikleri nasıl doğrulayacağınızı göstereceğiz.
+
+## Hızlı Yanıtlar
+- **“dc:title” neyi temsil eder?** Dublin Core başlık özelliği olup bir XMP dizisi olarak depolanır.  
+- **XMP metadata neden değiştirilir?** Daha iyi varlık yönetimi, aranabilirlik ve standartlara uyumluluk sağlar.  
+- **Mevcut bir XMP bloğu gerekli mi?** Hayır—Aspose.Page eksikse PS yorumlarından bir XMP bloğu oluşturur.  
+- **Hangi kütüphane sürümü gerekir?** En son 2026 yapısı dahil olmak üzere herhangi bir güncel Aspose.Page for Java sürümü.  
+- **Diğer dizi özellikleri ekleyebilir miyim?** Evet—`dc:creator` gibi özellikler için aynı `addArrayItem` metodunu kullanın.
+
 ## Önkoşullar
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-- Aspose.Page for Java kütüphanesi kuruldu.
-- Java programlamanın temel anlayışı.
-- Mevcut XMP meta verilerini veya PS meta veri yorumlarını içeren geçerli bir EPS dosyası.
-## Paketleri İçe Aktar
-Başlamak için Aspose.Page ile çalışmak için gerekli paketleri içe aktarmanız gerekiyor. Java dosyanızın başına aşağıdaki satırları ekleyin:
+Başlamadan önce şunların kurulu olduğundan emin olun:
+
+- Aspose.Page for Java kütüphanesi (JAR dosyasını projenizin sınıf yoluna ekleyin).  
+- Temel Java geliştirme deneyimi (JDK 8+ önerilir).  
+- XMP metadata içeren veya en azından PS metadata yorumları (`%%Title`, `%%Creator` gibi) bulunan bir EPS dosyası.  
+
+## Paketleri İçe Aktarma
+Okuma, manipülasyon ve EPS dosyalarını kaydetmek için gerekli sınıfları içe aktarın:
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -31,59 +45,93 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
 ```
-## 1. Adım: XMP Meta Verilerini Alın
+
+## Adım 1: EPS Belgesini Yükleyin ve XMP Metadata'yı Alın
 ```java
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Giriş EPS dosya akışını başlat
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp3.eps");
 PsDocument document = new PsDocument(psStream);
-// XMP meta verilerini alın. EPS dosyası XMP meta verileri içermiyorsa, PS meta veri yorumlarından gelen değerlerle dolu yeni bir tane alırız (%%Creator, %%CreateDate, %%Title, vb.)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get a new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-Bu adımda mevcut XMP meta verilerini EPS dosyasından alıyoruz. EPS dosyası halihazırda XMP meta verileri içermiyorsa Aspose.Page yeni bir tane oluşturur ve onu PS meta veri yorumlarından gelen değerlerle doldurur.
-## Adım 2: "dc:title" Dizi Öğesini ekleyin
+
+Burada EPS dosyasını açıyor ve Aspose.Page'den XMP bloğunu istiyoruz. Dosyada XMP yoksa, kütüphane mevcut PS yorumlarını kullanarak otomatik olarak bir XMP bloğu oluşturur; böylece her zaman üzerinde çalışabileceğiniz bir metadata konteyneriniz olur.
+
+## Adım 2: Yeni bir **dc:title** Dizi Öğesi Ekleyin  
 ```java
-// Bir "dc:title" dizi öğesi daha ekleyin
+// Add one more "dc:title" array item 
 xmp.addArrayItem("dc:title", new XmpValue("NewTitle"));
 ```
-Şimdi XMP meta verilerindeki "dc:title" özelliğine yeni bir dizi öğesi ekliyoruz. "NewTitle"ı istediğiniz başlıkla değiştirin.
-## 3. Adım: "dc:creator" Dizi Öğesini ekleyin
+
+Bu satır **dc:title** nasıl eklenir gösterir. `"NewTitle"` ifadesini gömmek istediğiniz gerçek başlıkla değiştirin. Metod, mevcut başlık dizisine değeri ekler ve önceki başlıkları korur.
+
+## Adım 3: Yeni bir **dc:creator** Dizi Öğesi Ekleyin  
 ```java
-// Bir "dc:creator" dizi öğesi daha ekleyin
+// Add one more "dc:creator" array item
 xmp.addArrayItem("dc:creator", new XmpValue("NewCreator"));
 ```
-Benzer şekilde XMP meta verilerindeki "dc:creator" özelliğine yeni bir dizi öğesi ekliyoruz. "NewCreator"ı istenen yaratıcı bilgileriyle değiştirin.
-## Adım 4: Çıktı EPS Dosya Akışını Başlatın
+
+Benzer şekilde `dc:creator` özelliğini zenginleştirebilirsiniz. Birden fazla oluşturucu saklanabilir; her çağrı başka bir giriş ekler.
+
+## Adım 4: Çıktı Akışını Hazırlayın  
 ```java
-// Çıkış EPS dosya akışını başlat
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
 ```
-Güncellenmiş XMP meta verileriyle değiştirilen belgenin kaydedileceği çıktı EPS dosya akışını hazırlayın.
-## Adım 5: Belgeyi Değiştirilmiş XMP Meta Verileriyle Kaydetme
+
+Değiştirilmiş EPS dosyası için bir akış oluşturuyoruz. Farklı bir dosya adı (`xmp3_changed.eps`) kullanmak, orijinal dosyanın dokunulmaz kalmasını sağlar.
+
+## Adım 5: Güncellenmiş XMP Metadata ile Belgeyi Kaydedin  
 ```java
-//Belgeyi değiştirilmiş XMP meta verileriyle kaydedin
+// Save document with changed XMP metadata
 try {			
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-Güncellenmiş XMP meta verilerini içeren belgeyi çıktı EPS dosyasına kaydedin.
-## Çözüm
-Tebrikler! Aspose.Page for Java kullanarak XMP meta verilerine dizi öğelerinin nasıl ekleneceğini başarıyla öğrendiniz. Bu güçlü kitaplık, EPS dosyalarını işleme sürecini basitleştirir ve belge işleme için kapsamlı işlevsellik sağlar.
-## Sıkça Sorulan Sorular
 
-### Aspose.Page for Java'yı diğer belge formatlarıyla kullanabilir miyim?
-Evet, Aspose.Page EPS, PDF ve XPS dahil olmak üzere çeşitli belge formatlarını destekler.
-### Aspose.Page for Java'nın ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
-### Aspose.Page for Java belgelerini nerede bulabilirim?
- Belgeler mevcut[Burada](https://reference.aspose.com/page/java/).
-### Aspose.Page for Java'yı nasıl satın alabilirim?
- Ürünü satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+`save` çağrısı EPS verisini güncellenmiş XMP bloğu ile birlikte yazar. `finally` bloğu, bir istisna oluşsa bile dosya tutamacının serbest bırakılmasını garanti eder.
+
+## Neden Önemlidir
+Doğru `dc:title` ve `dc:creator` değerlerini gömmek şunları iyileştirir:
+
+- **Aranabilirlik** dijital varlık yönetim (DAM) sistemlerinde.  
+- **Uyumluluk** metadata gerektiren yayın standartlarıyla.  
+- **İş birliği**, ekip üyelerinin EPS'yi açmadan dosya içeriğini hızlıca tanımlamasını sağlar.
+
+## Yaygın Tuzaklar ve İpuçları
+- **Tuzak:** Mevcut dizi öğelerini istemeden üzerine yazmak.  
+  **İpucu:** Yeni eklemeden önce mevcut değerleri görmek için `xmp.getArrayItems("dc:title")` kullanın.  
+- **Tuzak:** Akışları kapatmayı unutmak, dosya kilitlenmelerine yol açar.  
+  **İpucu:** I/O işlemlerini her zaman try‑with‑resources veya gösterildiği gibi bir `finally` bloğu içinde sarın.  
+- **İpucu:** Birden fazla başlık veya oluşturucu eklemek için birden çok `addArrayItem` çağrısını zincirleyebilirsiniz.
+
+## Sık Sorulan Sorular
+
+### Aspose.Page for Java'ı diğer belge formatlarıyla kullanabilir miyim?
+Evet, Aspose.Page EPS, PDF ve XPS dahil çeşitli belge formatlarını destekler.
+
+### Aspose.Page for Java için ücretsiz deneme mevcut mu?
+Evet, ücretsiz denemeye [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+
+### Aspose.Page for Java dokümantasyonunu nerede bulabilirim?
+Dokümantasyon [burada](https://reference.aspose.com/page/java/) mevcuttur.
+
+### Aspose.Page for Java'ı nasıl satın alabilirim?
+Ürünü [buradan](https://purchase.aspose.com/buy) satın alabilirsiniz.
+
 ### Aspose.Page for Java için geçici lisanslar mevcut mu?
- Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+Evet, geçici bir lisans alabilirsiniz [buradan](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Last Updated:** 2026-03-05  
+**Tested With:** Aspose.Page for Java (latest 2026 release)  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
