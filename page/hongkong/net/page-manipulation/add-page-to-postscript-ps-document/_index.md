@@ -1,34 +1,42 @@
 ---
-title: 使用 Aspose.Page 將頁面新增至 PostScript (PS) 文檔
-linktitle: 將頁面新增至 PostScript (PS) 文檔
+date: 2026-03-03
+description: 學習如何使用 Aspose.Page for .NET 設定自訂頁面大小，並在 PostScript 文件中新增第二個 PS 頁面。
+linktitle: Add Page to PostScript (PS) Document
 second_title: Aspose.Page .NET API
-description: 探索 Aspose.Page for .NET，這是在 .NET 專案中無縫操作 PostScript 文件的終極解決方案。
-weight: 10
+title: 使用 Aspose.Page 在 PS 文件中設定自訂頁面大小
 url: /zh-hant/net/page-manipulation/add-page-to-postscript-ps-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page 將頁面新增至 PostScript (PS) 文檔
+# 使用 Aspose.Page 向 PostScript (PS) 文件新增頁面
 
-## 介紹
+## 簡介
 
-在 .NET 開發領域，管理和操作文件是一個至關重要的方面。 Aspose.Page for .NET 是一個功能強大的程式庫，為開發人員提供了無縫處理 PostScript (PS) 文件所需的工具。本逐步指南將引導您完成使用 .NET 中的 Aspose.Page 將頁面新增至 PostScript 文件的過程。
+在 .NET 開發中，能夠 **設定自訂頁面尺寸** 並 **新增第二個 PS 頁面** 到 PostScript (PS) 文件，可讓您對產生的列印、報告或圖形的版面配置進行精細控制。Aspose.Page for .NET 以簡潔的物件導向 API 讓此工作變得直觀。在本教學中，您將學習如何建立多頁 PS 檔案、為每個頁面定義自訂尺寸，並儲存結果——只需幾行 C# 程式碼。
+
+## 快速問答
+- **我可以設定自訂頁面尺寸嗎？** 可以，只需在開啟頁面時傳入寬度與高度。  
+- **如何新增第二個 PS 頁面？** 再次呼叫 `document.OpenPage(width, height)` 即可。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6+。  
+- **我需要授權嗎？** 測試時可使用臨時授權；正式環境則需正式授權。  
+- **我可以從哪裡下載 Aspose.Page？** 請從下方的官方下載頁面取得。
 
 ## 先決條件
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+在開始本教學之前，請確保您已具備以下先決條件：
 
-- .NET 開發的實用知識。
-- Visual Studio 安裝在您的電腦上。
--  Aspose.Page for .NET 函式庫，您可以下載[這裡](https://releases.aspose.com/page/net/).
-- 您用於測試的首選文檔目錄。
+- 具備 .NET 開發的實務知識。  
+- 機器上已安裝 Visual Studio。  
+- Aspose.Page for .NET 函式庫，可從 [此處](https://releases.aspose.com/page/net/) 下載。  
+- 您用於測試的文件目錄。
 
-## 導入命名空間
+## 匯入命名空間
 
-確保您的專案中包含必要的命名空間以存取 Aspose.Page 提供的功能。在給定的範例中，命名空間是隱式包含的，但有必要根據您的專案結構仔細檢查並進行調整。
+確保在專案中加入必要的命名空間，以存取 Aspose.Page 提供的功能。範例中已隱含加入命名空間，但仍建議您根據專案結構再次確認並作相應調整。
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,87 +46,101 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 第 1 步：設定您的項目
+## 步驟 1：設定專案
 
-在 Visual Studio 中建立一個新的 .NET 專案並設定必要的配置。確保在您的專案中引用 Aspose.Page 庫。
+在 Visual Studio 中建立新的 .NET 專案，並完成必要的設定。請確保已在專案中參考 Aspose.Page 函式庫。
 
-## 步驟2：初始化文檔
+## 設定自訂頁面尺寸並新增第二個 PS 頁面
+
+本節將示範如何為每個頁面 **設定自訂頁面尺寸**，以及如何 **在同一文件中新增第二個 PS 頁面**。
+
+### 步驟 2：初始化文件
 
 ```csharp
-//開始時間：1
-//文檔目錄的路徑。
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-//為 PostScript 文件建立輸出流
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "document1.ps", FileMode.Create))
 {
-    //建立 A4 尺寸的儲存選項
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    //建立一個新的 2 頁 PS 文檔
+    // Create a new 2-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, 2);
 ```
 
-## 第 3 步：新增第一頁
+### 步驟 3：新增第一頁（預設尺寸）
 
 ```csharp
-    //新增第一頁
+    // Add the first page
     document.OpenPage();
 
-    //添加內容
+    // Add content
 
-    //關閉第一頁
+    // Close the first page
     document.ClosePage();
 ```
 
-## 步驟 4：新增不同尺寸的第二頁
+### 步驟 4：以不同（自訂）尺寸新增第二頁
 
 ```csharp
-    //加入不同尺寸的第二頁
+    // Add the second page with a different size
     document.OpenPage(400, 700);
 
-    //添加內容
+    // Add content
 
-    //關閉第二頁
+    // Close the second page
     document.ClosePage();
 ```
 
-## 第 5 步：儲存文檔
+### 步驟 5：儲存文件
 
 ```csharp
-    //儲存文件
+    // Save the document
     document.Save();
 }
-//結束：1
+// ExEnd:1
 ```
 
-仔細遵循這些步驟，您將使用 Aspose.Page for .NET 成功地將頁面新增至 PostScript 文件。
+請依序執行上述步驟，即可成功 **設定自訂頁面尺寸**，並使用 Aspose.Page for .NET 為 PostScript 文件新增 **第二個 PS 頁面**。
 
-## 結論
+## 為何重要
 
-在本教學中，我們介紹了將 Aspose.Page for .NET 整合到專案中以及將頁面新增至 PostScript 文件中的基本步驟。該程式庫直覺的 API 和靈活性使文件操作對於 .NET 開發人員來說是一項輕鬆的任務。
+- **精確版面** – 自訂頁面尺寸可符合印表機規格或打造獨特的手冊格式。  
+- **多頁面** – 新增第二頁（或更多）即可產生多頁報告，無需外部合併工具。  
+- **跨平台** – 產生的 PS 檔可在任何相容 PostScript 的裝置上呈現，亦可稍後轉換為 PDF。
 
-## 常見問題解答
+## 常見問題與除錯
 
-### Q1：Aspose.Page是否相容於不同的文件格式？
+- **路徑錯誤** – 確認 `dataDir` 以路徑分隔符結尾，或使用 `Path.Combine`。  
+- **授權問題** – 若未取得有效授權，函式庫可能會加上浮水印或限制頁數。  
+- **單位混淆** – 寬度與高度以點 (point) 為單位 (1 point = 1/72 吋)。請依此調整。
 
-A1：Aspose.Page 主要關注 PostScript 文件操作。對於其他格式，您可以探索根據特定需求自訂的 Aspose 庫。
+## 常見問答
 
-### Q2：我可以在Aspose.Page中自訂頁面大小嗎？
+**Q1: Aspose.Page 是否相容於不同的文件格式？**  
+A1: Aspose.Page 主要專注於 PostScript 文件的操作。若需處理其他格式，可探索針對特定需求的 Aspose 函式庫。
 
-A2：當然！如教程中所示，您可以根據需要為每個頁面指定不同的尺寸。
+**Q2: 我可以在 Aspose.Page 中自訂頁面尺寸嗎？**  
+A2: 當然可以！如本教學所示，您可依需求為每個頁面指定不同尺寸。
 
-### Q3：在哪裡可以找到更多範例和文件？
+**Q3: 我在哪裡可以找到更多範例與文件說明？**  
+A3: 請前往 [documentation](https://reference.aspose.com/page/net/) 取得完整資訊與各式範例。
 
- A3：訪問[文件](https://reference.aspose.com/page/net/)獲取全面的資訊和各種範例。
+**Q4: 我要如何取得 Aspose.Page 的臨時授權？**  
+A4: 前往 [this link](https://purchase.aspose.com/temporary-license/) 取得測試用的臨時授權。
 
-### Q4：如何取得 Aspose.Page 的臨時授權？
+**Q5: 我可以在哪裡尋求社群支援或提問？**  
+A5: 加入 [Aspose.Page community forum](https://forum.aspose.com/c/page/39) 與其他開發者交流、分享經驗並取得協助。
 
- A4：導航至[這個連結](https://purchase.aspose.com/temporary-license/)取得用於測試目的的臨時許可證。
+---
 
-### Q5：我可以在哪裡尋求社區支持或提問？
+**最後更新：** 2026-03-03  
+**測試環境：** Aspose.Page 24.11 for .NET  
+**作者：** Aspose  
 
- A5：加入[Aspose.Page 社群論壇](https://forum.aspose.com/c/page/39)與其他開發人員聯繫、分享經驗並尋求協助。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

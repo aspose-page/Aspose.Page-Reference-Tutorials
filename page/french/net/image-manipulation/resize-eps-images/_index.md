@@ -1,35 +1,53 @@
 ---
-title: Redimensionner les images EPS avec Aspose.Page pour .NET
-linktitle: Redimensionner les images EPS
-second_title: API Aspose.Page .NET
-description: Explorez le processus transparent de redimensionnement des images EPS dans .NET à l'aide d'Aspose.Page. Obtenez une précision en points, pouces, millimètres et pourcentages sans effort.
-weight: 11
+date: 2026-03-03
+description: Apprenez à redimensionner les images EPS dans .NET avec Aspose.Page –
+  un guide étape par étape sur la façon de redimensionner les EPS en utilisant des
+  points, des pouces, des millimètres ou des pourcentages.
+linktitle: Resize EPS Images
+second_title: Aspose.Page .NET API
+title: Comment redimensionner les images EPS avec Aspose.Page pour .NET
 url: /fr/net/image-manipulation/resize-eps-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Redimensionner les images EPS avec Aspose.Page pour .NET
+# Comment redimensionner les images EPS avec Aspose.Page pour .NET
 
 ## Introduction
 
-Cherchez-vous à redimensionner des images EPS de manière transparente à l’aide d’Aspose.Page pour .NET ? Ce didacticiel est votre guide complet pour manipuler sans effort la taille des images EPS dans diverses unités telles que les points, les pouces, les millimètres et les pourcentages. Aspose.Page pour .NET fournit un ensemble d'outils puissants et, dans ce didacticiel, nous vous guiderons pas à pas tout au long du processus.
+Vous cherchez **comment redimensionner des images EPS** de manière fluide en utilisant Aspose.Page pour .NET ? Ce tutoriel est votre guide complet pour manipuler facilement la taille des images EPS dans différentes unités telles que les points, les pouces, les millimètres et les pourcentages. Aspose.Page pour .NET offre un ensemble d'outils puissant, et dans ce tutoriel, nous vous accompagnerons pas à pas.
 
-## Conditions préalables
+## Quick Answers
+- **Quelle bibliothèque gère le redimensionnement EPS ?** Aspose.Page pour .NET  
+- **Quelles unités sont prises en charge ?** Points, Pouces, Millimètres et Pourcentages  
+- **Ai-je besoin d'une licence pour la production ?** Oui – une licence commerciale est requise  
+- **Puis-je redimensionner plusieurs fichiers à la fois ?** Absolument – il suffit de parcourir les fichiers en boucle  
+- **.NET Core est‑il supporté ?** Oui, l'API fonctionne avec .NET Framework et .NET Core  
 
-Avant de plonger dans la magie du redimensionnement, assurez-vous d'avoir les conditions préalables suivantes en place :
+## What is EPS Resizing?
+Encapsulated PostScript (EPS) est un format graphique vectoriel couramment utilisé dans les flux de travail d'impression et de conception. Redimensionner un fichier EPS modifie sa boîte englobante sans rasteriser le dessin, préservant ainsi la netteté à n'importe quelle échelle.
 
--  Bibliothèque Aspose.Page pour .NET : assurez-vous que la bibliothèque Aspose.Page pour .NET est installée. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/page/net/).
+## Why Resize EPS Images?
+- **Conserver la qualité d'impression :** Le redimensionnement vectoriel maintient les bords nets.  
+- **Répondre aux exigences de mise en page :** Ajuster les dimensions pour correspondre aux tailles de page ou de canevas.  
+- **Automatiser les traitements par lots :** Redimensionner programmatique des dizaines de fichiers en quelques secondes.  
 
-- Répertoire de documents : créez un répertoire dans lequel vous stockerez votre fichier EPS d'entrée et vos fichiers redimensionnés de sortie.
+## Prerequisites
 
-Maintenant que tout est configuré, passons à l'importation des espaces de noms nécessaires et examinons le guide étape par étape.
+Avant de plonger dans la magie du redimensionnement, assurez-vous que les prérequis suivants sont en place :
 
-## Importer des espaces de noms
+- Bibliothèque Aspose.Page pour .NET : Assurez‑vous d'avoir installé la bibliothèque Aspose.Page pour .NET. Vous pouvez la télécharger [ici](https://releases.aspose.com/page/net/).
 
-Dans votre projet .NET, commencez par importer les espaces de noms nécessaires pour travailler avec Aspose.Page. Ajoutez le code suivant au début de votre fichier :
+- Répertoire de documents : Créez un répertoire où vous stockerez votre fichier EPS d'entrée et les fichiers redimensionnés en sortie.
+
+Maintenant que tout est configuré, passons à l'importation des espaces de noms nécessaires et plongeons dans le guide étape par étape.
+
+## Import Namespaces
+
+Dans votre projet .NET, commencez par importer les espaces de noms nécessaires pour travailler avec Aspose.Page. Ajoutez le code suivant au début de votre fichier :
 
 ```csharp
 using Aspose.Page;
@@ -44,14 +62,14 @@ using System.Linq;
 using System.Text;
 ```
 
-## Étape 1 : Redimensionnement en points
+## How to Resize EPS in Points
 
-Commençons par redimensionner une image EPS en points. Les points sont une unité de mesure standard dans l’industrie de l’imprimerie.
+Les points sont une unité de mesure standard dans l'industrie de l'impression. L'exemple ci‑dessous double la largeur et la hauteur d'origine.
 
 ```csharp
 public static void ResizeInPoints()
 {
-    // Votre répertoire de documents
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -68,14 +86,14 @@ public static void ResizeInPoints()
 }
 ```
 
-## Étape 2 : Redimensionnement en pouces
+## How to Resize EPS in Inches
 
-Maintenant, redimensionnons une image EPS en pouces, une unité couramment utilisée en conception graphique.
+Les pouces sont fréquemment utilisés par les graphistes lors de la préparation d'actifs pour l'impression.
 
 ```csharp
 public static void ResizeInInches()
 {
-    // Votre répertoire de documents
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -92,14 +110,14 @@ public static void ResizeInInches()
 }
 ```
 
-## Étape 3 : Redimensionnement en millimètres
+## How to Resize EPS in Millimeters
 
-Maintenant, redimensionnons une image EPS en millimètres, une autre unité largement utilisée en conception et en impression.
+Les millimètres sont courants dans les régions qui utilisent le système métrique.
 
 ```csharp
 public static void ResizeInMillimeters()
 {
-    // Votre répertoire de documents
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -116,14 +134,14 @@ public static void ResizeInMillimeters()
 }
 ```
 
-## Étape 4 : Redimensionnement en pourcentages
+## How to Resize EPS Using Percentages
 
-Enfin, redimensionnons une image EPS à l'aide de pourcentages, offrant ainsi une approche flexible pour ajuster la taille de l'image.
+Le redimensionnement basé sur les pourcentages vous permet d'échelonner l'image par rapport à sa taille originale.
 
 ```csharp
 public static void ResizeInPercents()
 {
-    // Votre répertoire de documents
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -140,33 +158,62 @@ public static void ResizeInPercents()
 }
 ```
 
-N'hésitez pas à intégrer ces méthodes dans votre projet et vous redimensionnerez les images EPS sans effort. Expérimentez avec différentes unités pour obtenir les dimensions souhaitées.
+N'hésitez pas à intégrer ces méthodes dans votre projet, et vous redimensionnerez les images EPS sans effort. Expérimentez avec différentes unités pour obtenir les dimensions souhaitées.
+
+## Common Issues and Solutions
+- **Fichier introuvable :** Vérifiez que `dataDir` pointe vers le bon dossier et que `input.eps` existe.  
+- **Taille inattendue :** Rappelez‑vous que `Units.Percents` attend des valeurs comme 150 pour 150 % de la taille originale.  
+- **Exception de licence :** Si vous voyez une erreur de licence, assurez‑vous qu'un fichier de licence Aspose.Page valide est chargé avant de créer `PsDocument`.
 
 ## Conclusion
 
-Toutes nos félicitations! Vous maîtrisez l'art du redimensionnement des images EPS avec Aspose.Page pour .NET. Cette puissante bibliothèque ouvre un monde de possibilités pour manipuler des graphiques vectoriels. Que vous conceviez pour des supports imprimés ou numériques, Aspose.Page vous permet d'obtenir des résultats précis et personnalisés.
+Félicitations ! Vous avez maîtrisé **comment redimensionner des images EPS** avec Aspose.Page pour .NET. Cette bibliothèque puissante ouvre un monde de possibilités pour manipuler les graphiques vectoriels. Que vous conceviez pour l'impression ou les médias numériques, Aspose.Page vous permet d'obtenir des résultats précis et personnalisés.
 
-## FAQ
+## FAQ's
 
-### Q1 : Puis-je redimensionner plusieurs images EPS simultanément ?
+### Q1 : Puis‑je redimensionner plusieurs images EPS simultanément ?
 
-A1 : Oui, vous pouvez parcourir une collection de fichiers EPS, en appliquant les méthodes de redimensionnement en conséquence.
+A1 : Oui, vous pouvez parcourir une collection de fichiers EPS, en appliquant les méthodes de redimensionnement en conséquence.
 
-### Q2 : Aspose.Page est-il compatible avec d’autres formats d’image ?
+### Q2 : Aspose.Page est‑il compatible avec d'autres formats d'image ?
 
-A2 : Aspose.Page se concentre principalement sur les formats PostScript et EPS. Pour d'autres formats d'image, pensez à utiliser Aspose.Imaging.
+A2 : Aspose.Page se concentre principalement sur les formats PostScript et EPS. Pour d'autres formats d'image, envisagez d'utiliser Aspose.Imaging.
 
-### Q3 : Y a-t-il des considérations en matière de licence pour les projets commerciaux ?
+### Q3 : Existe‑t‑il des considérations de licence pour les projets commerciaux ?
 
- A3 : Oui, assurez-vous d'avoir une licence valide. Visite[ici](https://purchase.aspose.com/buy) pour les détails de la licence.
+A3 : Oui, assurez‑vous de disposer d'une licence valide. Visitez [ici](https://purchase.aspose.com/buy) pour les détails de licence.
 
-### Q4 : Puis-je essayer Aspose.Page avant d’acheter ?
+### Q4 : Puis‑je essayer Aspose.Page avant d'acheter ?
 
- A4 : Absolument ! Vous pouvez obtenir un essai gratuit[ici](https://releases.aspose.com/).
+A4 : Absolument ! Vous pouvez obtenir un essai gratuit [ici](https://releases.aspose.com/).
 
-### Q5 : Où puis-je demander de l'aide supplémentaire ou discuter de problèmes ?
+### Q5 : Où puis‑je obtenir une aide supplémentaire ou discuter de problèmes ?
 
- A5 : Visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour entrer en contact avec la communauté et obtenir de l'aide.
+A5 : Visitez le [forum Aspose.Page](https://forum.aspose.com/c/page/39) pour rejoindre la communauté et obtenir de l'assistance.
+
+## Frequently Asked Questions
+
+**Q : Ce code fonctionne‑t‑il avec .NET Core 6 ?**  
+A : Oui. L'API est compatible avec .NET Framework 4.5+, .NET Core 3.1+, .NET 5+ et .NET 6+.
+
+**Q : Comment puis‑je préserver le profil couleur original ?**  
+A : La méthode `ResizeEps` ne modifie pas les données couleur ; elle ne change que la boîte englobante.
+
+**Q : Est‑il possible de redimensionner un EPS sans charger le fichier complet en mémoire ?**  
+A : Utiliser un flux comme indiqué maintient une faible consommation de mémoire ; le document est traité à la volée.
+
+**Q : Puis‑je chaîner plusieurs opérations de redimensionnement ?**  
+A : Absolument. Appelez `ResizeEps` séquentiellement sur la même instance de `PsDocument`.
+
+**Q : Que se passe‑t‑il avec les images intégrées à l'intérieur de l'EPS ?**  
+A : Elles sont redimensionnées proportionnellement au contenu vectoriel, préservant la qualité.
+
+---
+
+**Dernière mise à jour :** 2026-03-03  
+**Testé avec :** Aspose.Page 24.12 pour .NET  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

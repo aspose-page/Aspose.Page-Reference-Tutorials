@@ -1,35 +1,52 @@
 ---
-title: Aspose.Page for .NET を使用して EPS 画像のサイズを変更する
-linktitle: EPS画像のサイズを変更する
+date: 2026-03-03
+description: Aspose.Page を使用して .NET で EPS 画像のサイズ変更方法を学びましょう – ポイント、インチ、ミリメートル、またはパーセンテージで
+  EPS をリサイズするステップバイステップガイド。
+linktitle: Resize EPS Images
 second_title: Aspose.Page .NET API
-description: Aspose.Page を使用して、.NET で EPS 画像のサイズを変更するシームレスなプロセスを調べてください。ポイント、インチ、ミリメートル、パーセント単位の精度を簡単に実現します。
-weight: 11
+title: .NET 用 Aspose.Page で EPS 画像をリサイズする方法
 url: /ja/net/image-manipulation/resize-eps-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET を使用して EPS 画像のサイズを変更する
+# Aspose.Page for .NET を使用した EPS 画像のリサイズ方法
 
-## 導入
+## はじめに
 
-Aspose.Page for .NET を使用して EPS 画像のサイズをシームレスに変更したいと考えていますか?このチュートリアルは、EPS 画像のサイズをポイント、インチ、ミリメートル、パーセンテージなどのさまざまな単位で簡単に操作するための包括的なガイドです。 Aspose.Page for .NET は強力なツール セットを提供します。このチュートリアルでは、そのプロセスを段階的に説明します。
+**EPS 画像のリサイズ方法** をシームレスに実現したいですか？本チュートリアルは、ポイント、インチ、ミリメートル、パーセンテージといったさまざまな単位で EPS 画像のサイズを簡単に操作するための包括的なガイドです。Aspose.Page for .NET は強力なツールセットを提供しており、本チュートリアルでは手順を一つずつ解説します。
+
+## クイック回答
+- **どのライブラリが EPS のリサイズを扱いますか？** Aspose.Page for .NET  
+- **対応している単位は何ですか？** ポイント、インチ、ミリメートル、パーセンテージ  
+- **本番環境でライセンスは必要ですか？** はい – 商用ライセンスが必要です  
+- **複数ファイルを同時にリサイズできますか？** もちろんです – ファイルをループ処理するだけです  
+- **.NET Core はサポートされていますか？** はい、API は .NET Framework と .NET Core の両方で動作します  
+
+## EPS リサイズとは？
+Encapsulated PostScript (EPS) は、印刷やデザインのワークフローで一般的に使用されるベクターベースのグラフィック形式です。EPS ファイルのリサイズは、アートワークをラスタライズせずにバウンディングボックスを変更することで、任意のスケールでも鮮明さを保ちます。
+
+## EPS 画像をリサイズする理由
+- **印刷品質の維持:** ベクタースケーリングによりエッジがシャープに保たれます。  
+- **レイアウト要件への適合:** ページやキャンバスサイズに合わせて寸法を調整できます。  
+- **バッチジョブの自動化:** 数十個のファイルを数秒でプログラム的にリサイズできます。  
 
 ## 前提条件
 
-サイズ変更のマジックに入る前に、次の前提条件が満たされていることを確認してください。
+リサイズの魔法に入る前に、以下の前提条件が整っていることを確認してください。
 
--  Aspose.Page for .NET ライブラリ: Aspose.Page for .NET ライブラリがインストールされていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/page/net/).
+- Aspose.Page for .NET ライブラリ: Aspose.Page for .NET ライブラリがインストールされていることを確認してください。ダウンロードは [here](https://releases.aspose.com/page/net/) から可能です。
 
-- ドキュメント ディレクトリ: 入力 EPS ファイルとサイズ変更された出力ファイルを保存するディレクトリを作成します。
+- ドキュメントディレクトリ: 入力 EPS ファイルと出力リサイズファイルを保存するディレクトリを作成してください。
 
-すべての設定が完了したので、必要な名前空間のインポートに進み、ステップバイステップのガイドを詳しく見てみましょう。
+これで準備が整いましたので、必要な名前空間をインポートし、ステップバイステップのガイドに進みましょう。
 
 ## 名前空間のインポート
 
-.NET プロジェクトで、Aspose.Page を操作するために必要な名前空間をインポートすることから始めます。ファイルの先頭に次のコードを追加します。
+.NET プロジェクトで Aspose.Page を使用するために、必要な名前空間をインポートします。ファイルの先頭に以下のコードを追加してください。
 
 ```csharp
 using Aspose.Page;
@@ -44,14 +61,14 @@ using System.Linq;
 using System.Text;
 ```
 
-## ステップ 1: ポイント単位でサイズを変更する
+## ポイント単位で EPS をリサイズする方法
 
-EPS 画像のサイズをポイント単位で変更することから始めましょう。ポイントは印刷業界の標準測定単位です。
+ポイントは印刷業界で標準的に使用される測定単位です。以下の例は、元の幅と高さを 2 倍にします。
 
 ```csharp
 public static void ResizeInPoints()
 {
-    //あなたのドキュメントディレクトリ
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -68,14 +85,14 @@ public static void ResizeInPoints()
 }
 ```
 
-## ステップ 2: インチ単位でサイズを変更する
+## インチ単位で EPS をリサイズする方法
 
-ここで、グラフィック デザインでよく使用される単位であるインチで EPS 画像のサイズを変更しましょう。
+インチは、グラフィックデザイナーが印刷用アセットを準備する際に頻繁に使用します。
 
 ```csharp
 public static void ResizeInInches()
 {
-    //あなたのドキュメントディレクトリ
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -92,14 +109,14 @@ public static void ResizeInInches()
 }
 ```
 
-## ステップ 3: ミリメートル単位でサイズを変更する
+## ミリメートル単位で EPS をリサイズする方法
 
-ここで、デザインや印刷で広く使用されているもう 1 つの単位であるミリメートルで EPS 画像のサイズを変更してみましょう。
+ミリメートルはメートル法を使用する地域で一般的です。
 
 ```csharp
 public static void ResizeInMillimeters()
 {
-    //あなたのドキュメントディレクトリ
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -116,14 +133,14 @@ public static void ResizeInMillimeters()
 }
 ```
 
-## ステップ 4: パーセント単位でサイズを変更する
+## パーセンテージで EPS をリサイズする方法
 
-最後に、パーセンテージを使用して EPS 画像のサイズを変更し、画像サイズを調整する柔軟な方法を提供します。
+パーセンテージベースのリサイズは、元のサイズに対する相対的なスケーリングを可能にします。
 
 ```csharp
 public static void ResizeInPercents()
 {
-    //あなたのドキュメントディレクトリ
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -140,33 +157,62 @@ public static void ResizeInPercents()
 }
 ```
 
-これらの方法をプロジェクトに自由に統合すると、EPS 画像のサイズを簡単に変更できるようになります。希望の寸法を達成するために、さまざまな単位を試してください。
+これらのメソッドをプロジェクトに組み込めば、EPS 画像のリサイズが簡単に行えます。目的の寸法が得られるまで、さまざまな単位で試してみてください。
+
+## よくある問題と解決策
+- **ファイルが見つからない:** `dataDir` が正しいフォルダーを指しているか、`input.eps` が存在するか確認してください。  
+- **サイズが予期せぬものになる:** `Units.Percents` は 150 のように「150 %」を表す数値を期待します。  
+- **ライセンス例外:** ライセンスエラーが表示された場合、`PsDocument` を作成する前に有効な Aspose.Page ライセンスファイルがロードされていることを確認してください。
 
 ## 結論
 
-おめでとう！ Aspose.Page for .NET を使用して EPS 画像のサイズを変更する技術を習得しました。この強力なライブラリは、ベクター グラフィックスを操作する可能性の世界を開きます。印刷メディア用にデザインしている場合でも、デジタル メディア用にデザインしている場合でも、Aspose.Page を使用すると、正確でカスタマイズされた結果を達成できます。
+おめでとうございます！Aspose.Page for .NET を使用した **EPS 画像のリサイズ方法** を習得しました。この強力なライブラリは、ベクターグラフィックの操作に無限の可能性をもたらします。印刷でもデジタルメディアでも、Aspose.Page を活用して正確かつカスタマイズされた結果を実現してください。
 
-## よくある質問
+## FAQ
 
-### Q1: 複数の EPS 画像を同時にサイズ変更できますか?
+### Q1: 複数の EPS 画像を同時にリサイズできますか？
 
-A1: はい、EPS ファイルのコレクションをループして、それに応じてサイズ変更方法を適用できます。
+A1: はい、EPS ファイルのコレクションをループ処理し、リサイズメソッドを適用できます。
 
-### Q2: Aspose.Page は他の画像形式と互換性がありますか?
+### Q2: Aspose.Page は他の画像形式にも対応していますか？
 
-A2: Aspose.Page は主に PostScript および EPS 形式に焦点を当てています。他の画像形式の場合は、Aspose.Imaging の使用を検討してください。
+A2: Aspose.Page は主に PostScript と EPS 形式に焦点を当てています。他の画像形式については Aspose.Imaging の使用をご検討ください。
 
-### Q3: 商用プロジェクトの場合、ライセンスに関する考慮事項はありますか?
+### Q3: 商用プロジェクトでのライセンスに関する考慮事項はありますか？
 
- A3: はい、有効なライセンスを持っていることを確認してください。訪問[ここ](https://purchase.aspose.com/buy)ライセンスの詳細については、
+A3: はい、有効なライセンスが必要です。ライセンスの詳細は [here](https://purchase.aspose.com/buy) をご覧ください。
 
-### Q4: 購入する前に Aspose.Page を試すことはできますか?
+### Q4: 購入前に Aspose.Page を試すことはできますか？
 
- A4：もちろんです！無料トライアルを利用できます[ここ](https://releases.aspose.com/).
+A4: もちろんです！無料トライアルは [here](https://releases.aspose.com/) から入手できます。
 
-### Q5: 追加のサポートを求めたり、問題について話し合ったりできる場所はどこですか?
+### Q5: 追加のサポートや問題の議論はどこで行えますか？
 
- A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティとつながり、支援を受けることができます。
+A5: コミュニティと交流しサポートを受けるには、[Aspose.Page forum](https://forum.aspose.com/c/page/39) をご利用ください。
+
+## Frequently Asked Questions
+
+**Q: このコードは .NET Core 6 でも動作しますか？**  
+A: はい。API は .NET Framework 4.5 以降、.NET Core 3.1 以降、.NET 5 以降、.NET 6 以降と互換性があります。
+
+**Q: 元のカラープロファイルを保持するにはどうすればよいですか？**  
+A: `ResizeEps` メソッドはカラー データを変更せず、バウンディングボックスのみを変更します。
+
+**Q: EPS 全体をメモリに読み込まずにリサイズできますか？**  
+A: ストリームを使用することでメモリ使用量を抑え、ドキュメントはオンザフライで処理されます。
+
+**Q: 複数のリサイズ操作をチェーンできますか？**  
+A: もちろんです。同じ `PsDocument` インスタンスで `ResizeEps` を順次呼び出せます。
+
+**Q: EPS 内に埋め込まれた画像はどうなりますか？**  
+A: ベクタ コンテンツと同様に比例してスケーリングされ、品質が保たれます。
+
+---
+
+**最終更新日:** 2026-03-03  
+**テスト環境:** Aspose.Page 24.12 for .NET  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

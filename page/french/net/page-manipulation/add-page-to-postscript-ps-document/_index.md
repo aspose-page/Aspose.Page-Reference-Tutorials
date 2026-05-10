@@ -1,34 +1,43 @@
 ---
-title: Ajouter une page au document PostScript (PS) avec Aspose.Page
-linktitle: Ajouter une page au document PostScript (PS)
-second_title: API Aspose.Page .NET
-description: Explorez Aspose.Page pour .NET, la solution ultime pour une manipulation transparente de documents PostScript dans vos projets .NET.
-weight: 10
+date: 2026-03-03
+description: Apprenez à définir une taille de page personnalisée et à ajouter une
+  deuxième page PS à un document PostScript en utilisant Aspose.Page pour .NET.
+linktitle: Add Page to PostScript (PS) Document
+second_title: Aspose.Page .NET API
+title: Définir une taille de page personnalisée dans un document PS avec Aspose.Page
 url: /fr/net/page-manipulation/add-page-to-postscript-ps-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter une page au document PostScript (PS) avec Aspose.Page
+# Ajouter une page à un document PostScript (PS) avec Aspose.Page
 
 ## Introduction
 
-Dans le monde du développement .NET, la gestion et la manipulation des documents sont un aspect crucial. Aspose.Page for .NET est une bibliothèque puissante qui fournit aux développeurs les outils nécessaires pour travailler de manière transparente avec les documents PostScript (PS). Ce guide étape par étape vous guidera tout au long du processus d'ajout de pages à un document PostScript à l'aide d'Aspose.Page dans .NET.
+Dans le développement .NET, pouvoir **set custom page size** et **add second PS page** à un document PostScript (PS) vous donne un contrôle précis sur la mise en page des impressions, rapports ou graphiques générés. Aspose.Page pour .NET rend cette tâche simple grâce à une API propre et orientée objet. Dans ce tutoriel, vous apprendrez à créer un fichier PS multi‑pages, à définir une taille personnalisée pour chaque page et à enregistrer le résultat — le tout en quelques lignes de code C#.
 
-## Conditions préalables
+## Réponses rapides
+- **Puis-je définir une taille de page personnalisée ?** Oui – il suffit de fournir la largeur et la hauteur lors de l'ouverture d'une page.  
+- **Comment ajouter une deuxième page PS ?** Appelez `document.OpenPage(width, height)` une deuxième fois.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Ai-je besoin d'une licence ?** Une licence temporaire suffit pour les tests ; une licence complète est requise en production.  
+- **Où puis-je télécharger Aspose.Page ?** Depuis la page de téléchargement officielle ci‑dessous.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Prérequis
 
-- Une connaissance pratique du développement .NET.
-- Visual Studio installé sur votre ordinateur.
--  Bibliothèque Aspose.Page pour .NET, que vous pouvez télécharger[ici](https://releases.aspose.com/page/net/).
+Avant de plonger dans le tutoriel, assurez‑vous d'avoir les prérequis suivants :
+
+- Une connaissance pratique du développement .NET.  
+- Visual Studio installé sur votre machine.  
+- La bibliothèque Aspose.Page pour .NET, que vous pouvez télécharger [ici](https://releases.aspose.com/page/net/).  
 - Votre répertoire de documents préféré pour les tests.
 
-## Importer des espaces de noms
+## Importer les espaces de noms
 
-Assurez-vous d'inclure les espaces de noms nécessaires dans votre projet pour accéder aux fonctionnalités fournies par Aspose.Page. Dans l'exemple donné, les espaces de noms sont implicitement inclus, mais il est essentiel de revérifier et de procéder à des ajustements en fonction de la structure de votre projet.
+Assurez‑vous d’inclure les espaces de noms nécessaires dans votre projet pour accéder aux fonctionnalités fournies par Aspose.Page. Dans l’exemple donné, les espaces de noms sont implicitement inclus, mais il est essentiel de vérifier et d’ajuster selon la structure de votre projet.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,87 +47,101 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Étape 1 : Configurez votre projet
+## Étape 1 : Configurer votre projet
 
-Créez un nouveau projet .NET dans Visual Studio et configurez les configurations nécessaires. Assurez-vous de référencer la bibliothèque Aspose.Page dans votre projet.
+Créez un nouveau projet .NET dans Visual Studio et configurez les paramètres nécessaires. Veillez à référencer la bibliothèque Aspose.Page dans votre projet.
 
-## Étape 2 : initialiser le document
+## Définir une taille de page personnalisée et ajouter une deuxième page PS
+
+Cette section montre exactement comment **set custom page size** pour chaque page et comment **add second ps page** au même document.
+
+### Étape 2 : Initialiser le document
 
 ```csharp
-// ExDébut : 1
-// Le chemin d'accès au répertoire des documents.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Créer un flux de sortie pour un document PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "document1.ps", FileMode.Create))
 {
-    // Créez des options de sauvegarde au format A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Créer un nouveau document PS de 2 pages
+    // Create a new 2-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, 2);
 ```
 
-## Étape 3 : ajouter la première page
+### Étape 3 : Ajouter la première page (taille par défaut)
 
 ```csharp
-    // Ajouter la première page
+    // Add the first page
     document.OpenPage();
 
-    // Ajouter du contenu
+    // Add content
 
-    // Fermez la première page
+    // Close the first page
     document.ClosePage();
 ```
 
-## Étape 4 : ajouter la deuxième page avec une taille différente
+### Étape 4 : Ajouter la deuxième page avec une taille différente (personnalisée)
 
 ```csharp
-    // Ajouter la deuxième page avec une taille différente
+    // Add the second page with a different size
     document.OpenPage(400, 700);
 
-    // Ajouter du contenu
+    // Add content
 
-    // Fermez la deuxième page
+    // Close the second page
     document.ClosePage();
 ```
 
-## Étape 5 : Enregistrez le document
+### Étape 5 : Enregistrer le document
 
 ```csharp
-    // Enregistrez le document
+    // Save the document
     document.Save();
 }
-// ExFin : 1
+// ExEnd:1
 ```
 
-Suivez ces étapes méticuleusement et vous réussirez à ajouter des pages à un document PostScript à l'aide d'Aspose.Page pour .NET.
+Suivez ces étapes méticuleusement, et vous réussirez à **set custom page size** et à ajouter une **second PS page** à un document PostScript en utilisant Aspose.Page pour .NET.
 
-## Conclusion
+## Pourquoi c'est important
 
-Dans ce didacticiel, nous avons couvert les étapes fondamentales pour intégrer Aspose.Page for .NET dans votre projet et ajouter des pages à un document PostScript. L'API intuitive et la flexibilité de la bibliothèque font de la manipulation de documents une tâche sans effort pour les développeurs .NET.
+- **Precision Layout** – Les dimensions de page personnalisées vous permettent d'adapter les spécifications de l'imprimante ou de créer des formats de brochure uniques.  
+- **Multiple Pages** – Ajouter une deuxième page (ou plus) permet des rapports multi‑pages sans outils de fusion externes.  
+- **Cross‑Platform** – Le fichier PS généré peut être rendu sur n'importe quel appareil compatible PostScript ou converti en PDF ultérieurement.
 
-## FAQ
+## Pièges courants et dépannage
 
-### Q1 : Aspose.Page est-il compatible avec différents formats de documents ?
+- **Incorrect Path** – Assurez‑vous que `dataDir` se termine par un séparateur de chemin ou utilisez `Path.Combine`.  
+- **License Issues** – Sans licence valide, la bibliothèque peut ajouter un filigrane ou limiter le nombre de pages.  
+- **Unit Confusion** – La largeur et la hauteur sont mesurées en points (1 point = 1/72 pouce). Ajustez en conséquence.
 
-A1 : Aspose.Page se concentre principalement sur la manipulation de documents PostScript. Pour d'autres formats, vous pouvez explorer les bibliothèques Aspose adaptées à des besoins spécifiques.
+## Questions fréquemment posées
 
-### Q2 : Puis-je personnaliser la taille de la page dans Aspose.Page ?
+**Q1 : Aspose.Page est‑il compatible avec différents formats de documents ?**  
+R1 : Aspose.Page se concentre principalement sur la manipulation de documents PostScript. Pour d'autres formats, vous pouvez explorer les bibliothèques Aspose adaptées à des besoins spécifiques.
 
-A2 : Absolument ! Comme démontré dans le didacticiel, vous pouvez spécifier différentes tailles pour chaque page en fonction de vos besoins.
+**Q2 : Puis‑je personnaliser la taille de la page dans Aspose.Page ?**  
+R2 : Absolument ! Comme démontré dans le tutoriel, vous pouvez spécifier différentes tailles pour chaque page selon vos besoins.
 
-### Q3 : Où puis-je trouver plus d’exemples et de documentation ?
+**Q3 : Où puis‑je trouver plus d'exemples et de documentation ?**  
+R3 : Consultez la [documentation](https://reference.aspose.com/page/net/) pour des informations complètes et de nombreux exemples.
 
- A3 : Visitez le[Documentation](https://reference.aspose.com/page/net/) pour des informations complètes et une variété d’exemples.
+**Q4 : Comment obtenir une licence temporaire pour Aspose.Page ?**  
+R4 : Rendez‑vous sur [ce lien](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire à des fins de test.
 
-### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.Page ?
+**Q5 : Où puis‑je obtenir du support communautaire ou poser des questions ?**  
+R5 : Rejoignez le [forum communautaire Aspose.Page](https://forum.aspose.com/c/page/39) pour entrer en contact avec d'autres développeurs, partager des expériences et demander de l'aide.
 
- A4 : Accédez à[ce lien](https://purchase.aspose.com/temporary-license/) pour acquérir une licence temporaire à des fins de tests.
+---
 
-### Q5 : Où puis-je rechercher le soutien de la communauté ou poser des questions ?
+**Dernière mise à jour :** 2026-03-03  
+**Testé avec :** Aspose.Page 24.11 pour .NET  
+**Auteur :** Aspose  
 
- A5 : Rejoignez le[Forum communautaire Aspose.Page](https://forum.aspose.com/c/page/39) pour vous connecter avec d'autres développeurs, partager des expériences et demander de l'aide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

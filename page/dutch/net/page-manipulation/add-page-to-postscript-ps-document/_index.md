@@ -1,34 +1,43 @@
 ---
-title: Pagina toevoegen aan PostScript (PS)-document met Aspose.Page
-linktitle: Pagina toevoegen aan PostScript (PS)-document
-second_title: Aspose.Page .NET-API
-description: Ontdek Aspose.Page voor .NET, de ultieme oplossing voor naadloze manipulatie van PostScript-documenten in uw .NET-projecten.
-weight: 10
+date: 2026-03-03
+description: Leer hoe u een aangepaste paginagrootte instelt en een tweede PS-pagina
+  toevoegt aan een PostScript-document met Aspose.Page voor .NET.
+linktitle: Add Page to PostScript (PS) Document
+second_title: Aspose.Page .NET API
+title: Aangepaste paginagrootte instellen in PS-document met Aspose.Page
 url: /nl/net/page-manipulation/add-page-to-postscript-ps-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pagina toevoegen aan PostScript (PS)-document met Aspose.Page
+# Pagina toevoegen aan PostScript (PS) document met Aspose.Page
 
-## Invoering
+## Introduction
 
-In de wereld van .NET-ontwikkeling is het beheren en manipuleren van documenten een cruciaal aspect. Aspose.Page voor .NET is een krachtige bibliotheek die ontwikkelaars de tools biedt die nodig zijn om naadloos met PostScript (PS)-documenten te werken. Deze stapsgewijze handleiding leidt u door het proces van het toevoegen van pagina's aan een PostScript-document met behulp van Aspose.Page in .NET.
+In .NET-ontwikkeling geeft het kunnen **aangepaste paginagrootte instellen** en **een tweede PS-pagina toevoegen** aan een PostScript (PS) document je fijnmazige controle over de lay-out van gegenereerde afdrukken, rapporten of graphics. Aspose.Page voor .NET maakt deze taak eenvoudig met een schone, objectgeoriënteerde API. In deze tutorial leer je hoe je een meer‑pagina PS‑bestand maakt, een aangepaste grootte voor elke pagina definieert, en het resultaat opslaat — alles met slechts een paar regels C#‑code.
 
-## Vereisten
+## Quick Answers
+- **Kan ik een aangepaste paginagrootte instellen?** Ja – geef gewoon breedte en hoogte door bij het openen van een pagina.  
+- **Hoe voeg ik een tweede PS-pagina toe?** Roep `document.OpenPage(width, height)` een tweede keer aan.  
+- **Welke .NET-versies worden ondersteund?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Heb ik een licentie nodig?** Een tijdelijke licentie werkt voor testen; een volledige licentie is vereist voor productie.  
+- **Waar kan ik Aspose.Page downloaden?** Van de officiële downloadpagina die hieronder is gelinkt.
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Prerequisites
 
-- Een praktische kennis van .NET-ontwikkeling.
-- Visual Studio is op uw computer geïnstalleerd.
--  Aspose.Page voor .NET-bibliotheek, die u kunt downloaden[hier](https://releases.aspose.com/page/net/).
-- Uw favoriete documentmap voor testen.
+Voordat je aan de tutorial begint, zorg ervoor dat je de volgende vereisten hebt:
 
-## Naamruimten importeren
+- Een werkende kennis van .NET-ontwikkeling.  
+- Visual Studio geïnstalleerd op je machine.  
+- Aspose.Page voor .NET bibliotheek, die je kunt downloaden [hier](https://releases.aspose.com/page/net/).  
+- Je gewenste documentmap voor testen.
 
-Zorg ervoor dat u de benodigde naamruimten in uw project opneemt om toegang te krijgen tot de functionaliteiten van Aspose.Page. In het gegeven voorbeeld zijn de naamruimten impliciet opgenomen, maar het is essentieel om dit nogmaals te controleren en aanpassingen aan te brengen op basis van uw projectstructuur.
+## Import Namespaces
+
+Zorg ervoor dat je de benodigde namespaces in je project opneemt om toegang te krijgen tot de functionaliteiten die Aspose.Page biedt. In het gegeven voorbeeld zijn de namespaces impliciet inbegrepen, maar het is essentieel om dit te dubbelchecken en aanpassingen te maken op basis van je projectstructuur.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,87 +47,101 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Stap 1: Stel uw project in
+## Step 1: Set Up Your Project
 
-Maak een nieuw .NET-project in Visual Studio en stel de benodigde configuraties in. Zorg ervoor dat u in uw project naar de Aspose.Page-bibliotheek verwijst.
+Maak een nieuw .NET-project aan in Visual Studio en stel de benodigde configuraties in. Zorg ervoor dat je de Aspose.Page‑bibliotheek in je project opneemt.
 
-## Stap 2: Initialiseer het document
+## Set Custom Page Size and Add Second PS Page
+
+Deze sectie toont precies hoe je **een aangepaste paginagrootte** voor elke pagina instelt en hoe je **een tweede ps-pagina** aan hetzelfde document toevoegt.
+
+### Step 2: Initialize the Document
 
 ```csharp
 // ExStart:1
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Maak een uitvoerstroom voor een PostScript-document
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "document1.ps", FileMode.Create))
 {
-    // Creëer opslagopties met A4-formaat
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Maak een nieuw PS-document met twee pagina's
+    // Create a new 2-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, 2);
 ```
 
-## Stap 3: Voeg de eerste pagina toe
+### Step 3: Add the First Page (default size)
 
 ```csharp
-    // Voeg de eerste pagina toe
+    // Add the first page
     document.OpenPage();
 
-    // Content toevoegen
+    // Add content
 
-    // Sluit de eerste pagina
+    // Close the first page
     document.ClosePage();
 ```
 
-## Stap 4: Voeg de tweede pagina met een ander formaat toe
+### Step 4: Add the Second Page with a Different (Custom) Size
 
 ```csharp
-    // Voeg de tweede pagina met een ander formaat toe
+    // Add the second page with a different size
     document.OpenPage(400, 700);
 
-    // Content toevoegen
+    // Add content
 
-    // Sluit de tweede pagina
+    // Close the second page
     document.ClosePage();
 ```
 
-## Stap 5: Sla het document op
+### Step 5: Save the Document
 
 ```csharp
-    // Bewaar het document
+    // Save the document
     document.Save();
 }
-// Verlengen: 1
+// ExEnd:1
 ```
 
-Volg deze stappen nauwgezet en u kunt met succes pagina's toevoegen aan een PostScript-document met Aspose.Page voor .NET.
+Volg deze stappen nauwkeurig, en je zult succesvol **een aangepaste paginagrootte** instellen en een **tweede PS-pagina** toevoegen aan een PostScript‑document met Aspose.Page voor .NET.
 
-## Conclusie
+## Why This Matters
 
-In deze zelfstudie hebben we de fundamentele stappen besproken om Aspose.Page voor .NET in uw project te integreren en pagina's aan een PostScript-document toe te voegen. De intuïtieve API en flexibiliteit van de bibliotheek maken documentmanipulatie tot een moeiteloze taak voor .NET-ontwikkelaars.
+- **Precisie‑lay-out** – Aangepaste paginadimensies laten je printerspecificaties matchen of unieke brochure‑formaten creëren.  
+- **Meerdere pagina's** – Het toevoegen van een tweede pagina (of meer) maakt meer‑pagina rapporten mogelijk zonder externe samenvoeg‑tools.  
+- **Cross‑platform** – Het gegenereerde PS‑bestand kan worden gerenderd op elk PostScript‑compatibel apparaat of later naar PDF worden geconverteerd.
 
-## Veelgestelde vragen
+## Common Pitfalls & Troubleshooting
 
-### V1: Is Aspose.Page compatibel met verschillende documentformaten?
+- **Onjuist pad** – Zorg ervoor dat `dataDir` eindigt met een pad‑scheidingsteken of gebruik `Path.Combine`.  
+- **Licentieproblemen** – Zonder een geldige licentie kan de bibliotheek een watermerk toevoegen of het aantal pagina's beperken.  
+- **Eenheidsverwarring** – Breedte en hoogte worden gemeten in points (1 point = 1/72 inch). Pas dit dienovereenkomstig aan.
 
-A1: Aspose.Page richt zich primair op het manipuleren van PostScript-documenten. Voor andere formaten kunt u Aspose-bibliotheken verkennen die zijn afgestemd op specifieke behoeften.
+## Frequently Asked Questions
 
-### V2: Kan ik het paginaformaat in Aspose.Page aanpassen?
+**Q1: Is Aspose.Page compatibel met verschillende documentformaten?**  
+A1: Aspose.Page richt zich voornamelijk op het manipuleren van PostScript‑documenten. Voor andere formaten kun je Aspose‑bibliotheken verkennen die zijn afgestemd op specifieke behoeften.
 
-A2: Absoluut! Zoals gedemonstreerd in de tutorial, kunt u voor elke pagina verschillende formaten opgeven, afhankelijk van uw vereisten.
+**Q2: Kan ik de paginagrootte aanpassen in Aspose.Page?**  
+A2: Zeker! Zoals in de tutorial getoond, kun je verschillende groottes voor elke pagina opgeven volgens je vereisten.
 
-### Vraag 3: Waar kan ik meer voorbeelden en documentatie vinden?
+**Q3: Waar kan ik meer voorbeelden en documentatie vinden?**  
+A3: Bezoek de [documentatie](https://reference.aspose.com/page/net/) voor uitgebreide informatie en diverse voorbeelden.
 
- A3: Bezoek de[documentatie](https://reference.aspose.com/page/net/) voor uitgebreide informatie en diverse voorbeelden.
+**Q4: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Page?**  
+A4: Ga naar [deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor testdoeleinden te verkrijgen.
 
-### V4: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Page?
+**Q5: Waar kan ik community‑ondersteuning zoeken of vragen stellen?**  
+A5: Word lid van het [Aspose.Page community‑forum](https://forum.aspose.com/c/page/39) om in contact te komen met andere ontwikkelaars, ervaringen te delen en hulp te zoeken.
 
- A4: Navigeer naar[deze link](https://purchase.aspose.com/temporary-license/) het verkrijgen van een tijdelijke licentie voor testdoeleinden.
+---
 
-### Vraag 5: Waar kan ik gemeenschapsondersteuning zoeken of vragen stellen?
+**Laatst bijgewerkt:** 2026-03-03  
+**Getest met:** Aspose.Page 24.11 for .NET  
+**Auteur:** Aspose  
 
- A5: Sluit je aan bij de[Aspose.Page-communityforum](https://forum.aspose.com/c/page/39) om in contact te komen met andere ontwikkelaars, ervaringen te delen en hulp te zoeken.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

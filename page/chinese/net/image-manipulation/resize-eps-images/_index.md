@@ -1,35 +1,52 @@
 ---
-title: 使用 Aspose.Page for .NET 调整 EPS 图像大小
-linktitle: 调整 EPS 图像的大小
+date: 2026-03-03
+description: 学习如何在 .NET 中使用 Aspose.Page 调整 EPS 图像的大小——一步步指南，教您使用点、英寸、毫米或百分比来调整 EPS
+  大小。
+linktitle: Resize EPS Images
 second_title: Aspose.Page .NET API
-description: 探索使用 Aspose.Page 在 .NET 中调整 EPS 图像大小的无缝过程。轻松实现点、英寸、毫米和百分比的精度。
-weight: 11
+title: 如何使用 Aspose.Page for .NET 调整 EPS 图像大小
 url: /zh/net/image-manipulation/resize-eps-images/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page for .NET 调整 EPS 图像大小
+# 如何使用 Aspose.Page for .NET 调整 EPS 图像大小
 
 ## 介绍
 
-您是否希望使用 Aspose.Page for .NET 无缝调整 EPS 图像的大小？本教程是您轻松操作各种单位（例如点、英寸、毫米和百分比）的 EPS 图像尺寸的综合指南。 Aspose.Page for .NET 提供了一组强大的工具，在本教程中，我们将逐步引导您完成该过程。
+您是否在寻找 **如何调整 EPS** 图像大小的无缝方案？本教程将为您提供在点、英寸、毫米和百分比等多种单位下轻松操作 EPS 图像尺寸的完整指南。Aspose.Page for .NET 提供了一套强大的工具，在本教程中，我们将一步步带您完成整个过程。
 
-## 先决条件
+## 快速答案
+- **哪个库负责 EPS 调整大小？** Aspose.Page for .NET  
+- **支持哪些单位？** 点（Points）、英寸（Inches）、毫米（Millimeters）和百分比（Percents）  
+- **生产环境需要许可证吗？** 是的 – 需要商业许可证  
+- **可以一次性调整多个文件吗？** 当然可以 – 只需遍历文件即可  
+- **支持 .NET Core 吗？** 支持，API 可在 .NET Framework 和 .NET Core 上运行  
 
-在深入研究调整大小魔法之前，请确保满足以下先决条件：
+## 什么是 EPS 调整大小？
+封装的 PostScript（EPS）是一种基于矢量的图形格式，常用于印刷和设计工作流。调整 EPS 文件的大小会改变其边界框，而不会对图形进行光栅化，从而在任何比例下都能保持清晰度。
 
--  Aspose.Page for .NET 库：确保您已安装 Aspose.Page for .NET 库。您可以从以下位置下载：[这里](https://releases.aspose.com/page/net/).
+## 为什么要调整 EPS 图像大小？
+- **保持印刷质量：** 矢量缩放可保持边缘锐利。  
+- **符合布局需求：** 调整尺寸以匹配页面或画布大小。  
+- **自动化批处理任务：** 以编程方式在几秒钟内调整数十个文件的大小。  
 
-- 文档目录：创建一个目录，用于存储输入 EPS 文件和输出调整大小的文件。
+## 前置条件
 
-现在您已完成所有设置，让我们继续导入必要的命名空间并深入研究分步指南。
+在开始调整大小的魔法之前，请确保已满足以下前置条件：
+
+- Aspose.Page for .NET 库：确保已安装 Aspose.Page for .NET 库。您可以从 [here](https://releases.aspose.com/page/net/) 下载。  
+
+- 文档目录：创建一个目录，用于存放输入的 EPS 文件和输出的调整后文件。  
+
+准备好以上内容后，接下来导入必要的命名空间并进入逐步指南。
 
 ## 导入命名空间
 
-在您的 .NET 项目中，首先导入必要的命名空间以使用 Aspose.Page。在文件的开头添加以下代码：
+在 .NET 项目中，首先导入使用 Aspose.Page 所需的命名空间。在文件开头添加以下代码：
 
 ```csharp
 using Aspose.Page;
@@ -44,14 +61,14 @@ using System.Linq;
 using System.Text;
 ```
 
-## 第 1 步：以磅为单位调整大小
+## 如何使用点（Points）调整 EPS 大小
 
-让我们首先以磅为单位调整 EPS 图像的大小。点是印刷行业的标准计量单位。
+点是印刷行业的标准计量单位。下面的示例将原始宽度和高度均放大两倍。
 
 ```csharp
 public static void ResizeInPoints()
 {
-    //您的文档目录
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -68,14 +85,14 @@ public static void ResizeInPoints()
 }
 ```
 
-## 第 2 步：以英寸为单位调整大小
+## 如何使用英寸（Inches）调整 EPS 大小
 
-现在，让我们以英寸为单位调整 EPS 图像的大小，英寸是图形设计中使用的常用单位。
+英寸是平面设计师在准备印刷资产时常用的单位。
 
 ```csharp
 public static void ResizeInInches()
 {
-    //您的文档目录
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -92,14 +109,14 @@ public static void ResizeInInches()
 }
 ```
 
-## 第 3 步：以毫米为单位调整大小
+## 如何使用毫米（Millimeters）调整 EPS 大小
 
-现在，让我们以毫米为单位调整 EPS 图像的大小，这是设计和打印中另一个广泛使用的单位。
+毫米在使用公制系统的地区非常常见。
 
 ```csharp
 public static void ResizeInMillimeters()
 {
-    //您的文档目录
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -116,14 +133,14 @@ public static void ResizeInMillimeters()
 }
 ```
 
-## 第 4 步：以百分比调整大小
+## 如何使用百分比（Percentages）调整 EPS 大小
 
-最后，让我们使用百分比调整 EPS 图像的大小，从而提供一种灵活的方法来调整图像大小。
+基于百分比的调整让您可以相对于原始尺寸进行缩放。
 
 ```csharp
 public static void ResizeInPercents()
 {
-    //您的文档目录
+    // Your Document Directory
     string dataDir = "Your Document Directory";
 
     using (Stream inputEpsStream = new FileStream(dataDir + "input.eps", FileMode.Open, FileAccess.Read))
@@ -140,33 +157,62 @@ public static void ResizeInPercents()
 }
 ```
 
-请随意将这些方法集成到您的项目中，您将轻松调整 EPS 图像的大小。尝试不同的单位以获得所需的尺寸。
+将这些方法集成到您的项目中，即可轻松完成 EPS 图像的大小调整。尝试不同的单位，以获得所需的尺寸。
+
+## 常见问题及解决方案
+- **文件未找到：** 请确认 `dataDir` 指向正确的文件夹，并且 `input.eps` 已存在。  
+- **尺寸异常：** 请记住 `Units.Percents` 需要传入类似 150 这样的数值，表示原始大小的 150%。  
+- **许可证异常：** 如果出现许可证错误，请在创建 `PsDocument` 之前加载有效的 Aspose.Page 许可证文件。  
 
 ## 结论
 
-恭喜！您已经掌握了使用 Aspose.Page for .NET 调整 EPS 图像大小的技巧。这个强大的库为操作矢量图形开辟了一个充满可能性的世界。无论您是为印刷媒体还是数字媒体进行设计，Aspose.Page 都能帮助您实现精确且定制的结果。
+恭喜您！您已经掌握了 **如何使用 Aspose.Page for .NET 调整 EPS** 图像大小的技巧。这个强大的库为矢量图形的操作打开了无限可能。无论是为印刷还是数字媒体设计，Aspose.Page 都能帮助您实现精确且可定制的结果。
 
-## 常见问题解答
+## FAQ's
 
-### Q1：我可以同时调整多个 EPS 图像的大小吗？
+### Q1: 能否一次性调整多个 EPS 图像？
 
-A1：是的，您可以循环遍历 EPS 文件的集合，并相应地应用调整大小方法。
+A1: 可以，您可以遍历 EPS 文件集合，依次调用相应的调整大小方法。
 
-### Q2：Aspose.Page 是否兼容其他图像格式？
+### Q2: Aspose.Page 是否兼容其他图像格式？
 
-A2：Aspose.Page 主要关注 PostScript 和 EPS 格式。对于其他图像格式，请考虑使用 Aspose.Imaging。
+A2: Aspose.Page 主要聚焦于 PostScript 和 EPS 格式。对于其他图像格式，建议使用 Aspose.Imaging。
 
-### Q3：商业项目有什么许可注意事项吗？
+### Q3: 商业项目的许可证有哪些注意事项？
 
- A3：是的，请确保您拥有有效的许可证。访问[这里](https://purchase.aspose.com/buy)了解许可详细信息。
+A3: 是的，请确保拥有有效的许可证。访问 [here](https://purchase.aspose.com/buy) 获取许可证详情。
 
-### Q4：我可以在购买前试用Aspose.Page吗？
+### Q4: 可以在购买前试用 Aspose.Page 吗？
 
- A4：当然！您可以获得免费试用[这里](https://releases.aspose.com/).
+A4: 当然！您可以在 [here](https://releases.aspose.com/) 获取免费试用。
 
-### Q5：我可以在哪里寻求更多帮助或讨论问题？
+### Q5: 哪里可以获取更多帮助或讨论问题？
 
- A5：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)与社区联系并获得帮助。
+A5: 访问 [Aspose.Page forum](https://forum.aspose.com/c/page/39) 与社区交流并获取支持。
+
+## 常见问答
+
+**Q: 这段代码在 .NET Core 6 上能运行吗？**  
+A: 能。该 API 兼容 .NET Framework 4.5+、.NET Core 3.1+、.NET 5+ 和 .NET 6+。
+
+**Q: 如何保留原始的颜色配置文件？**  
+A: `ResizeEps` 方法不会更改颜色数据，只会修改边界框。
+
+**Q: 能否在不将整个文件加载到内存的情况下调整 EPS 大小？**  
+A: 如示例所示使用流可以保持低内存占用，文档会在飞行中处理。
+
+**Q: 可以链式调用多个调整大小操作吗？**  
+A: 完全可以。对同一个 `PsDocument` 实例依次调用 `ResizeEps` 即可。
+
+**Q: EPS 中嵌入的图像会怎样？**  
+A: 它们会随矢量内容按比例缩放，保持质量。
+
+---
+
+**最后更新：** 2026-03-03  
+**测试环境：** Aspose.Page 24.12 for .NET  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

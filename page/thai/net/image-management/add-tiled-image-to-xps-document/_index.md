@@ -1,32 +1,47 @@
 ---
-title: เพิ่มรูปภาพที่เรียงต่อกันลงในเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET
-linktitle: เพิ่มรูปภาพที่เรียงต่อกันลงในเอกสาร XPS
+date: 2026-03-03
+description: เรียนรู้วิธีใช้ Aspose.Page สำหรับ .NET เพื่อจัดเรียงภาพแบบต่อกันในเอกสาร
+  XPS คู่มือขั้นตอนนี้จะแสดงวิธีจัดเรียงภาพอย่างมีประสิทธิภาพและเพิ่มความสวยงามให้กับภาพ
+linktitle: Add Tiled Image to XPS Document
 second_title: Aspose.Page .NET API
-description: สำรวจการเพิ่มรูปภาพแบบเรียงต่อกันลงในเอกสาร XPS ได้อย่างง่ายดายด้วย Aspose.Page สำหรับ .NET เพิ่มความดึงดูดสายตาและสร้างเอกสารที่น่าทึ่ง
-weight: 12
+title: วิธีใช้ Aspose.Page เพื่อเพิ่มภาพแบบต่อกระเบื้องในเอกสาร XPS
 url: /th/net/image-management/add-tiled-image-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มรูปภาพที่เรียงต่อกันลงในเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET
+# วิธีใช้ Aspose.Page เพื่อเพิ่มภาพแบบต่อกันในเอกสาร XPS
 
-## การแนะนำ
+## Introduction
 
-คุณต้องการปรับปรุงเอกสาร XPS ของคุณโดยการเพิ่มรูปภาพที่เรียงต่อกันสวยงามหรือไม่? Aspose.Page สำหรับ .NET ช่วยให้นักพัฒนาสามารถบรรลุเป้าหมายนี้ได้อย่างราบรื่น ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มรูปภาพแบบเรียงต่อกันลงในเอกสาร XPS โดยใช้ Aspose.Page สำหรับ .NET
+หากคุณกำลังสงสัย **วิธีใช้ Aspose** เพื่อให้ไฟล์ XPS ของคุณมีสไตล์ภาพที่หลากหลายยิ่งขึ้น คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะอธิบายขั้นตอนที่จำเป็นเพื่อ **ทำภาพเป็นลายต่อกัน** ภายในเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET. เมื่อเสร็จคุณจะได้โค้ดสั้นที่สามารถนำไปใช้ในโปรเจกต์ .NET ใดก็ได้เพื่อสร้างกราฟิกภาพต่อกันแบบเรียลไทม์.
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **What library is needed?** Aspose.Page for .NET  
+- **Which method creates the tiled brush?** `CreateImageBrush` with `TileMode = XpsTileMode.Tile`  
+- **Can I control opacity?** Yes – set `path.Fill.Opacity` (e.g., 0.5f)  
+- **Do I need a license for testing?** A temporary license works for evaluation; a full license is required for production.  
+- **What .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## What is Aspose.Page and Why Tile Images?
 
--  Aspose.Page สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Page แล้ว คุณสามารถดูเอกสารโดยละเอียดและดาวน์โหลดไลบรารีได้[ที่นี่](https://reference.aspose.com/page/net/).
-- สภาพแวดล้อมการพัฒนา: ตั้งค่าสภาพแวดล้อมการพัฒนา .NET ที่คุณต้องการ เช่น Visual Studio
+Aspose.Page เป็น API ที่ทรงพลังซึ่งช่วยให้นักพัฒนาสร้าง แก้ไข และเรนเดอร์ XPS, PDF และรูปแบบหน้าอื่น ๆ ได้โดยไม่ต้องพึ่งพา Microsoft Office การทำภาพเป็นลายต่อกัน—การทำซ้ำบิตแมพบนรูปทรง—ช่วยให้คุณเติมพื้นที่ขนาดใหญ่ด้วยลวดลาย, ลายน้ำ, หรือพื้นหลังโดยคงขนาดไฟล์ให้เล็กลง.
 
-## นำเข้าเนมสเปซ
+## How to Use Aspose.Page to Tile Images in XPS Documents
 
-ในการเริ่มต้น ให้นำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ของคุณ สิ่งนี้ทำให้แน่ใจได้ว่าคุณจะสามารถเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับการทำงานกับ Aspose.Page เพิ่มเนมสเปซต่อไปนี้ที่จุดเริ่มต้นของโค้ดของคุณ:
+Below you’ll find a complete, ready‑to‑run example. Each step is explained in plain language before the corresponding code block, so you can see **why** each line matters.
+
+### Prerequisites
+
+- **Aspose.Page for .NET** – download and reference the library from the official site [ที่นี่](https://reference.aspose.com/page/net/).  
+- **Development environment** – Visual Studio (any edition) or another .NET IDE you prefer.
+
+### Import Namespaces
+
+First, bring the required namespaces into scope so the compiler knows where to find the XPS classes.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -34,73 +49,82 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-ตอนนี้ เรามาแบ่งตัวอย่างออกเป็นหลายขั้นตอนกัน
+### Step 1: Define the Document Directory
 
-## ขั้นตอนที่ 1: กำหนดไดเร็กทอรีเอกสาร
+Specify where the generated XPS file and source image will live. Replace the placeholder with an actual folder on your machine.
 
 ```csharp
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-ตรวจสอบให้แน่ใจว่าได้แทนที่ "Your Document Directory" ด้วยเส้นทางจริงที่คุณต้องการบันทึกเอกสาร XPS ของคุณ
+### Step 2: Create a New XPS Document
 
-## ขั้นตอนที่ 2: สร้างเอกสาร XPS ใหม่
+Instantiate an empty XPS document that will hold the tiled graphic.
 
 ```csharp
-// สร้างเอกสาร XPS ใหม่
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
- สร้างอินสแตนซ์เอกสาร XPS ใหม่โดยใช้`XpsDocument` ระดับ.
+### Step 3: Add a Tiled Image
 
-## ขั้นตอนที่ 3: เพิ่มรูปภาพที่เรียงต่อกัน
+Here we create a rectangular path, fill it with an `ImageBrush`, and set the brush to tile mode. The `TileMode` property tells the engine to repeat the image both horizontally and vertically. Adjust the rectangle coordinates or the source image as needed for your scenario.
 
 ```csharp
-// ภาพไทล์
-// ImageBrush เต็มไปด้วยสี่เหลี่ยมที่ด้านบนขวาด้านล่าง
+// Tile image
+// ImageBrush filled rectangle in the right top below
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,160 L 228,160 228,305 10,305"));
 path.Fill = doc.CreateImageBrush(dataDir + "R08LN_NN.jpg", new RectangleF(0f, 0f, 128f, 96f), new RectangleF(0f, 0f, 64f, 48f));
 ((XpsImageBrush)path.Fill).TileMode = XpsTileMode.Tile;
 path.Fill.Opacity = 0.5f;
 ```
 
-ขั้นตอนนี้จะเพิ่มรูปภาพแบบเรียงต่อกันลงในเอกสาร XPS ปรับพิกัดและเส้นทางไฟล์รูปภาพตามความต้องการของคุณ
+### Step 4: Save the Resultant XPS Document
 
-## ขั้นตอนที่ 4: บันทึกเอกสาร XPS ที่เป็นผลลัพธ์
+Finally, write the document to disk. The output file can be opened with any XPS viewer or further processed with Aspose.Page.
 
 ```csharp
-// บันทึกเอกสาร XPS ที่เป็นผลลัพธ์
+// Save resultant XPS document
 doc.Save(dataDir + "AddTiledImage_outXPS.xps");
 ```
 
-บันทึกเอกสาร XPS ที่แก้ไขไปยังไดเร็กทอรีที่ระบุ
+## Common Issues & Tips
 
-## บทสรุป
+- **Path errors** – Ensure `dataDir` ends with a trailing slash or use `Path.Combine` to avoid missing‑separator problems.  
+- **Image size mismatches** – The source image should be large enough for the tiling area; otherwise the pattern may appear stretched.  
+- **Opacity not visible** – Some viewers ignore opacity on XPS; test with a viewer that fully supports XPS rendering (e.g., XPS Viewer on Windows).
 
-ยินดีด้วย! คุณได้เรียนรู้วิธีเพิ่มรูปภาพเรียงต่อกันลงในเอกสาร XPS โดยใช้ Aspose.Page สำหรับ .NET เรียบร้อยแล้ว คุณสมบัติที่เรียบง่ายแต่ทรงพลังนี้ช่วยให้คุณสามารถเพิ่มความดึงดูดสายตาให้กับเอกสารของคุณได้อย่างง่ายดาย
+## Frequently Asked Questions
 
-## คำถามที่พบบ่อย
+### Q1: Is Aspose.Page compatible with all .NET development environments?
+A: Yes, Aspose.Page works with Visual Studio, Rider, VS Code, and any IDE that supports .NET.
 
-### คำถามที่ 1: Aspose.Page เข้ากันได้กับสภาพแวดล้อมการพัฒนา .NET ทั้งหมดหรือไม่
+### Q2: Can I adjust the opacity of the tiled image?
+A: Absolutely. The example sets `path.Fill.Opacity = 0.5f;`—you can change the float value between 0 (transparent) and 1 (opaque).
 
-ตอบ 1: ใช่ Aspose.Page ได้รับการออกแบบมาให้ทำงานได้อย่างราบรื่นกับสภาพแวดล้อมการพัฒนา .NET ต่างๆ รวมถึง Visual Studio
+### Q3: Are there other tile modes available in Aspose.Page for .NET?
+A: Yes. Besides `XpsTileMode.Tile`, you can use `FlipX`, `FlipY`, and `FlipXY` to create mirrored patterns.
 
-### คำถามที่ 2: ฉันสามารถปรับความทึบของภาพที่เรียงต่อกันได้หรือไม่
+### Q4: How do I handle temporary licenses for Aspose.Page?
+A: Refer to the [temporary license](https://purchase.aspose.com/temporary-license/) page on the Aspose website for details on obtaining and applying a trial license.
 
-A2: แน่นอน ดังที่แสดงในตัวอย่าง คุณสามารถตั้งค่าความทึบของสี่เหลี่ยมที่เติมได้โดยใช้`Opacity` คุณสมบัติ.
+### Q5: Where can I seek help or connect with the Aspose.Page community?
+A: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to ask questions, share snippets, and learn from other developers.
 
-### คำถามที่ 3: มีโหมดไทล์อื่นๆ ใน Aspose.Page สำหรับ .NET หรือไม่
+### Q6: Can I use this approach to create a watermark effect?
+A: Yes. By lowering the opacity and choosing a semi‑transparent image, the tiled brush works perfectly as a repeating watermark.
 
- A3: ใช่ Aspose.Page มีโหมดไทล์ที่แตกต่างกัน ในบทช่วยสอนนี้ เราใช้`XpsTileMode.Tile`แต่คุณสามารถสำรวจตัวเลือกอื่นๆ ได้ในเอกสารประกอบ
+## Conclusion
 
-### คำถามที่ 4: ฉันจะจัดการสิทธิ์ใช้งานชั่วคราวสำหรับ Aspose.Page ได้อย่างไร
+You now know **how to use Aspose** to add a tiled image to an XPS document, control its opacity, and save the result for further use. This technique is ideal for background patterns, watermarks, or any situation where a repeating graphic adds visual interest without inflating file size. Feel free to experiment with different shapes, images, and tile modes to suit your project’s needs.
 
- A4: โปรดดูที่[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) บนเว็บไซต์ Aspose เพื่อดูคำแนะนำในการรับและดำเนินการใบอนุญาตชั่วคราว
+---
 
-### คำถามที่ 5: ฉันจะขอความช่วยเหลือหรือติดต่อกับชุมชน Aspose.Page ได้ที่ไหน
+**Last Updated:** 2026-03-03  
+**Tested With:** Aspose.Page for .NET (latest release)  
+**Author:** Aspose  
 
- A5: เยี่ยมชม[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อมีส่วนร่วมกับชุมชน ถามคำถาม และค้นหาแนวทางแก้ไข
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
