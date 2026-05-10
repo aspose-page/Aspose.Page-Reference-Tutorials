@@ -1,10 +1,10 @@
 ---
-date: 2025-12-03
-description: Leer hoe u EPS als PNG opslaat met Aspose.Page voor Java terwijl u een
-  meterlicentie configureert. Stapsgewijze handleiding met volledige codevoorbeeld.
+date: 2026-02-05
+description: Leer hoe je EPS opslaat als PNG met Aspose.Page voor Java terwijl je
+  een meterlicentie configureert. Stapsgewijze gids met volledig code‑voorbeeld.
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
-title: EPS opslaan als PNG met Aspose.Page Java (metered licentie)
+title: EPS opslaan als PNG met Aspose.Page Java (Metered-licentie)
 url: /nl/java/license-management/set-metered-license/
 weight: 10
 ---
@@ -15,34 +15,34 @@ weight: 10
 
 # EPS opslaan als PNG met Aspose.Page Java (Metered License)
 
-## Introductie
-Als je **EPS als PNG wilt opslaan** in een Java‑applicatie en een probleemloze manier wilt om licenties te beheren, ben je op de juiste plek. Deze tutorial leidt je door het configureren van een metered‑licentie voor Aspose.Page, het laden van een PostScript (EPS)‑bestand, en het converteren ervan naar een PNG‑afbeelding — allemaal met duidelijke, hapklare stappen die je direct kunt volgen.
+## Inleiding
+Als je **EPS als PNG wilt opslaan** in een Java‑applicatie en een probleemloze manier wilt om licenties te beheren, ben je hier aan het juiste adres. Deze tutorial leidt je door het configureren van een metered‑licentie voor Aspose.Page, het laden van een PostScript (EPS)‑bestand, en het converteren ervan naar een PNG‑afbeelding — allemaal met duidelijke, hapklare stappen die je direct kunt volgen. Aan het einde begrijp je ook hoe je **EPS naar PNG rendert** en **PNG‑bestand Java** code schrijft die in productieomgevingen werkt.
 
 ## Snelle antwoorden
 - **Wat betekent “save EPS as PNG”?** Het converteert een vector‑EPS‑bestand naar een raster‑PNG‑afbeelding.  
-- **Waarom een metered‑licentie gebruiken?** Het laat je alleen betalen voor de pagina's die je verwerkt, perfect voor variabele workloads.  
+- **Waarom een metered‑licentie gebruiken?** Je betaalt alleen voor de pagina's die je verwerkt, perfect voor variabele workloads.  
 - **Heb ik een internetverbinding nodig?** Nee, de metered‑sleutels worden lokaal gevalideerd.  
 - **Welke Java‑versie is vereist?** Java 8 of hoger.  
-- **Hoe lang duurt de installatie?** Ongeveer 10 minuten voor een basisimplementatie.
+- **Hoe lang duurt de installatie?** Ongeveer 10 minuten voor een basisimplementatie.  
 
 ## Wat is “save EPS as PNG”?
 Het opslaan van EPS als PNG zet een schaalbaar Encapsulated PostScript‑document om naar een breed ondersteund bitmap‑formaat. PNG behoudt transparantie en biedt verliesloze compressie, waardoor het ideaal is voor web‑graphics, miniaturen en afdruk‑voorbeelden.
 
-## Waarom Aspose.Page voor deze taak gebruiken?
-- **Pure Java API** – geen native afhankelijkheden.  
-- **High fidelity** – vector‑graphics worden nauwkeurig gerenderd.  
-- **Metered licensing** – je betaalt alleen voor wat je converteert.  
-- **Support for multiple output formats** – PNG, JPEG, TIFF, enz.
+## Waarom EPS renderen naar PNG met Aspose.Page?
+- **Pure Java API** – geen native afhankelijkheden, zodat je het overal kunt uitvoeren waar de JVM wordt ondersteund.  
+- **Hoge getrouwe weergave** – vector‑graphics worden nauwkeurig gerasterd, waardoor de lijnkwaliteit behouden blijft.  
+- **Metered‑licenties** – je betaalt alleen voor wat je converteert, waardoor de kosten voorspelbaar blijven.  
+- **Meerdere uitvoeropties** – naast PNG kun je ook JPEG, TIFF en meer genereren, wat je flexibiliteit geeft voor verschillende projecten.
 
-## Vereisten
-Voordat je begint, zorg dat je het volgende hebt:
+## Voorvereisten
+Voordat je begint, zorg ervoor dat je het volgende hebt:
 
 - Basiskennis van Java‑programmeren.  
-- Aspose.Page‑bibliotheek geïnstalleerd – download deze van [here](https://releases.aspose.com/page/java/).  
+- Aspose.Page‑bibliotheek geïnstalleerd – download deze van [hier](https://releases.aspose.com/page/java/).  
 - Metered publieke en private sleutels, die je kunt verkrijgen via je Aspose‑account.
 
-## Import pakketten
-Importeer eerst de klassen die we nodig hebben. Houd het import‑blok precies zoals getoond zodat de code zonder wijzigingen compileert.
+## Pakketten importeren
+Importeer eerst de klassen die we nodig hebben. Houd het import‑blok exact zoals weergegeven zodat de code zonder wijzigingen compileert.
 
 ```java
 import java.io.FileInputStream;
@@ -53,7 +53,10 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.ImageSaveOptions;
 ```
 
-## Stap 1: Document en afbeeldingsformaat initialiseren
+## Hoe EPS opslaan als PNG met Aspose.Page Java
+Hieronder vind je de stapsgewijze gids die licentiëren, laden, renderen en het schrijven van het uiteindelijke PNG‑bestand combineert.
+
+### Stap 1: Document en afbeeldingsformaat initialiseren
 Hier stellen we de metered‑sleutels in en definiëren we het uitvoerformaat (PNG). Dit is de basis voor de **save EPS as PNG**‑operatie.
 
 ```java
@@ -68,7 +71,7 @@ String dataDir = "Your Document Directory";
 ImageFormat imageFormat = ImageFormat.PNG;
 ```
 
-## Stap 2: PostScript‑invoerstroom initialiseren
+### Stap 2: PostScript‑invoerstroom initialiseren
 Open het EPS‑bestand dat je wilt converteren. De stream levert het document aan Aspose.Page.
 
 ```java
@@ -77,8 +80,8 @@ FileInputStream psStream = new FileInputStream(dataDir + "input.ps");
 PsDocument document = new PsDocument(psStream);
 ```
 
-## Stap 3: Documentlicentie controleren
-Controleer altijd dat de metered‑licentie correct is toegepast voordat je verwerkt.
+### Stap 3: Documentlicentie controleren
+Controleer altijd dat de metered‑licentie correct is toegepast voordat je verder gaat.
 
 ```java
 // Check if the document is licensed
@@ -88,8 +91,8 @@ else
     System.out.println("Metered License is not set.");
 ```
 
-## Stap 4: Opties en afbeeldingsapparaat initialiseren
-Maak het opties‑object dat de conversie‑instellingen beheert en het apparaat dat de gerenderde afbeelding ontvangt.
+### Stap 4: Opties en afbeeldingsapparaat initialiseren
+Maak het opties‑object aan dat de conversie‑instellingen regelt en het apparaat dat de gerenderde afbeelding ontvangt.
 
 ```java
 // Initialize options object with default parameters.
@@ -98,7 +101,7 @@ ImageSaveOptions options = new ImageSaveOptions();
 com.aspose.eps.device.ImageDevice device = new com.aspose.eps.device.ImageDevice();
 ```
 
-## Stap 5: EPS‑bestand opslaan als afbeelding
+### Stap 5: EPS‑bestand opslaan als afbeelding
 Dit is de kern **save EPS as PNG**‑aanroep. Het document wordt gerenderd naar het afbeeldingsapparaat met behulp van de geconfigureerde opties.
 
 ```java
@@ -110,8 +113,8 @@ try {
 }
 ```
 
-## Stap 6: Image‑bytes ophalen en opslaan
-Haal de PNG‑bytes uit het apparaat en schrijf ze naar een bestand op schijf.
+### Stap 6: Afbeeldingsbytes ophalen en opslaan
+Haal de PNG‑bytes uit het apparaat en schrijf ze naar een bestand op schijf. Deze stap laat zien hoe je **write PNG file Java** veilig kunt uitvoeren.
 
 ```java
 // Get images bytes. One bytes array for one page. In our case, we have one page.
@@ -128,34 +131,44 @@ try {
 ```
 
 ## Veelvoorkomende problemen en oplossingen
-| Probleem | Waarom het gebeurt | Oplossing |
-|----------|--------------------|-----------|
-| **Licentie niet herkend** | Sleutels zijn onjuist of in de verkeerde volgorde geplaatst. | Controleer de publieke/private sleutel‑strings en zorg dat `setMeteredKey` wordt aangeroepen vóór enige documentverwerking. |
+| Issue | Why it Happens | Fix |
+|-------|----------------|-----|
+| **Licentie niet herkend** | Sleutels zijn onjuist of in de verkeerde volgorde geplaatst. | Controleer de publieke/private sleutel‑strings nogmaals en zorg ervoor dat `setMeteredKey` wordt aangeroepen vóór enige documentverwerking. |
 | **Uitvoerbestand is leeg** | `device.getImagesBytes()` gaf `null` terug. | Controleer of het EPS‑bestand geldig is en dat de `ImageSaveOptions` niet op een canvas met nul‑grootte zijn ingesteld. |
-| **OutOfMemoryError bij grote EPS** | Het renderen van grote vectorbestanden verbruikt veel geheugen. | Verwerk pagina's één‑voor‑één of vergroot de JVM‑heap (`-Xmx2g`). |
+| **OutOfMemoryError bij grote EPS** | Het renderen van grote vectorbestanden verbruikt veel geheugen. | Verwerk pagina's één voor één of vergroot de JVM‑heap (`-Xmx2g`). |
 
 ## Veelgestelde vragen
 
-**V: Hoe krijg ik metered publieke en private sleutels?**  
+**Q: Hoe krijg ik metered publieke en private sleutels?**  
 A: Je kunt deze sleutels verkrijgen via je Aspose‑account.
 
-**V: Is de Aspose.Page‑bibliotheek gratis?**  
-A: Aspose.Page biedt zowel gratis proefversies als betaalde versies. Bezoek [here](https://releases.aspose.com/) voor een gratis proefversie.
+**Q: Is de Aspose.Page‑bibliotheek gratis?**  
+A: Aspose.Page biedt zowel een gratis proefversie als betaalde versies. Bezoek [hier](https://releases.aspose.com/) voor een gratis proefversie.
 
-**V: Kan ik Aspose.Page gebruiken voor commerciële projecten?**  
-A: Ja, Aspose.Page biedt commerciële licenties. Je kunt ze aanschaffen [here](https://purchase.aspose.com/buy).
+**Q: Kan ik Aspose.Page gebruiken voor commerciële projecten?**  
+A: Ja, Aspose.Page biedt commerciële licenties. Je kunt ze aanschaffen [hier](https://purchase.aspose.com/buy).
 
-**V: Waar kan ik extra documentatie vinden?**  
-A: Raadpleeg de documentatie [here](https://reference.aspose.com/page/java/).
+**Q: Waar kan ik aanvullende documentatie vinden?**  
+A: Raadpleeg de documentatie [hier](https://reference.aspose.com/page/java/).
 
-**V: Hoe kan ik tijdelijke licenties krijgen?**  
-A: Tijdelijke licenties zijn verkrijgbaar [here](https://purchase.aspose.com/temporary-license/).
+**Q: Hoe kan ik tijdelijke licenties krijgen?**  
+A: Tijdelijke licenties zijn verkrijgbaar [hier](https://purchase.aspose.com/temporary-license/).
+
+**Q: Wat als ik multi‑page EPS‑bestanden moet converteren?**  
+A: Loop door elke pagina met `device.getImagesBytes()` en schrijf elke byte‑array naar een apart PNG‑bestand.
+
+**Q: Kan ik de PNG‑kwaliteit of kleurdiepte aanpassen?**  
+A: Ja, configureer `ImageSaveOptions` (bijv. `options.setCompressionLevel(...)`) vóór het aanroepen van `document.save(...)`.
 
 ---
 
 **Laatst bijgewerkt:** 2025-12-03  
-**Getest met:** Aspose.Page 24.12 voor Java  
-**Auteur:** Aspose
+**Getest met:** Aspose.Page 24.12 for Java  
+**Auteur:** Aspose  
+
+**Laatst bijgewerkt:** 2026-02-05  
+**Getest met:** Aspose.Page 24.12 for Java (latest)  
+**Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
