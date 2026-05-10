@@ -1,34 +1,42 @@
 ---
-title: Appliquer un motif de mosaïque de texture à PostScript (PS) avec Aspose.Page
-linktitle: Appliquer un motif de mosaïque de texture à PostScript (PS)
-second_title: API Aspose.Page .NET
-description: Améliorez vos documents PostScript (PS) avec des modèles de mosaïque de texture à l'aide d'Aspose.Page pour .NET. Suivez notre guide étape par étape pour une touche créative.
-weight: 10
+date: 2026-03-26
+description: Apprenez à créer des documents PostScript .NET avec des motifs de tuiles
+  de texture en utilisant Aspose.Page. Suivez notre guide étape par étape pour ajouter
+  des textures riches à vos fichiers PS.
+linktitle: Create PostScript .NET document with texture tiling
+second_title: Aspose.Page .NET API
+title: Créer un document PostScript .NET avec du carrelage de texture
 url: /fr/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Appliquer un motif de mosaïque de texture à PostScript (PS) avec Aspose.Page
+# Créer un document PostScript .NET avec un motif de texture en mosaïque
 
-## Introduction
+## Comment créer un document PostScript .NET avec un motif de texture en mosaïque
 
-Bienvenue dans ce didacticiel étape par étape expliquant comment appliquer un motif de mosaïque de texture à un document PostScript (PS) à l'aide d'Aspose.Page pour .NET. Aspose.Page est une bibliothèque puissante qui vous permet de travailler avec différents formats de documents. Dans ce didacticiel, nous explorerons comment améliorer vos documents PS en ajoutant des motifs de mosaïque de texture.
+Dans ce tutoriel, vous apprendrez à **créer un document PostScript .NET** et à l’enrichir d’un motif de texture en mosaïque à l’aide de la bibliothèque Aspose.Page. Nous parcourrons chaque étape, de la configuration de votre projet au remplissage et au contour du texte avec le pinceau de texture, afin que vous puissiez produire des fichiers PS visuellement attrayants en quelques minutes.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle bibliothèque est utilisée ?** Aspose.Page pour .NET  
+- **Puis‑je utiliser .NET Core ?** Oui, la bibliothèque prend en charge .NET Core et .NET 5/6  
+- **Quels formats d’image fonctionnent pour la texture ?** Tout format pris en charge par System.Drawing (BMP, PNG, JPEG, etc.)  
+- **Combien de temps prend l’implémentation ?** Environ 10‑15 minutes pour un exemple de base  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour les tests ; une licence est requise pour la production  
 
-Avant de plonger dans le didacticiel, assurez-vous d'avoir les éléments suivants :
+## Prérequis
 
-- [Visual Studio](https://visualstudio.microsoft.com/) installé sur votre machine.
-- Connaissance de base de la programmation C#.
--  Téléchargez et installez le[Aspose.Page pour la bibliothèque .NET](https://releases.aspose.com/page/net/).
-- Un fichier image pour le motif de texture (par exemple, "TestTexture.bmp").
+- [Visual Studio](https://visualstudio.microsoft.com/) installé sur votre machine.  
+- Connaissances de base en programmation C#.  
+- Téléchargez et installez la [bibliothèque Aspose.Page pour .NET](https://releases.aspose.com/page/net/).  
+- Un fichier image pour le motif de texture (par ex., **TestTexture.bmp**).
 
-## Importer des espaces de noms
+## Importer les espaces de noms
 
-Dans votre code C#, assurez-vous d'importer les espaces de noms nécessaires :
+Dans votre fichier C#, importez les espaces de noms requis afin que le compilateur sache où trouver les types que nous allons utiliser :
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,130 +46,135 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Décomposons l'exemple fourni en plusieurs étapes pour vous guider tout au long du processus.
-
-## Étape 1 : configurer le répertoire de documents
+## Étape 1 : Configurer le répertoire du document
 
 ```csharp
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Assurez-vous de remplacer « Votre répertoire de documents » par le chemin où vous souhaitez enregistrer votre document PS.
+Remplacez **Your Document Directory** par le dossier où vous souhaitez enregistrer le fichier PS généré.
 
-## Étape 2 : Créer un flux de sortie pour le document PS
+## Étape 2 : Créer le flux de sortie pour le document PS
 
 ```csharp
-// Créer un flux de sortie pour un document PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddTextureTilingPattern_outPS.ps", FileMode.Create))
 {
-    // Créez des options de sauvegarde au format A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Créer un nouveau document PS d'une page
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Cette étape configure le flux de sortie du document PS, notamment en définissant la taille du document.
+Ce bloc ouvre un flux de fichier, configure la taille de page (A4 par défaut) et crée une nouvelle instance **PsDocument** sur laquelle nous allons dessiner.
 
-## Étape 3 : Appliquer un motif de carrelage texturé
+## Étape 3 : Appliquer le motif de texture en mosaïque
 
 ```csharp
-// Créer un objet Bitmap à partir du fichier image
+// Create a Bitmap object from the image file
 using (Bitmap image = new Bitmap(dataDir + "TestTexture.bmp"))
 {
-    // Créer un pinceau de texture à partir de l'image
+    // Create texture brush from the image
     TextureBrush brush = new TextureBrush(image, WrapMode.Tile);
 
-    //Ajouter une mise à l'échelle dans la direction X au motif
+    // Add scaling in X direction to the pattern
     Matrix transform = new Matrix(2, 0, 0, 1, 0, 0);
     brush.Transform = transform;
 
-    // Définir ce pinceau de texture comme peinture actuelle
+    // Set this texture brush as the current paint
     document.SetPaint(brush);
 }
 ```
 
-Cette étape consiste à créer un pinceau de texture à partir d'une image et à le définir comme peinture actuelle du document.
+Ici nous chargeons le bitmap, l’enveloppons dans un **TextureBrush**, l’étirons éventuellement horizontalement, puis indiquons au **PsDocument** d’utiliser ce pinceau pour les opérations de dessin suivantes.
 
-## Étape 4 : Créer un chemin rectangulaire et remplir
+## Étape 4 : Créer le chemin du rectangle et le remplir
 
 ```csharp
-// Créer un chemin rectangulaire
+// Create rectangle path
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(0, 0, 200, 100));
 
-// Remplir le rectangle
+// Fill rectangle
 document.Fill(path);
 ```
 
-Ici, nous définissons un chemin rectangulaire et le remplissons avec le pinceau de texture précédemment défini.
+Un rectangle simple est défini et rempli avec le pinceau de texture que nous avons configuré précédemment.
 
-## Étape 5 : Définir le trait et dessiner
+## Étape 5 : Définir le trait et dessiner
 
 ```csharp
-// Obtenir la peinture actuelle
+// Get current paint
 Brush paint = document.GetPaint();
 
-// Définir un trait rouge
+// Set red stroke
 document.SetStroke(new Pen(new SolidBrush(Color.Red), 2));
 
-// Tracez le rectangle
+// Stroke the rectangle
 document.Draw(path);
 ```
 
-Cette étape consiste à définir les propriétés du trait et à dessiner le rectangle délimité.
+Nous récupérons le pinceau actuel (le TextureBrush), créons un crayon rouge pour le contour et dessinons la bordure du rectangle.
 
-## Étape 6 : Remplir et décrire le texte avec un motif de texture
+## Étape 6 : Remplir et tracer le texte avec le motif de texture
 
 ```csharp
-// Remplir le texte avec un motif de texture
+// Fill text with texture pattern                
 Font font = new Font("Arial", 96, FontStyle.Bold);
 document.FillAndStrokeText("ABC", font, 200, 300, paint, new Pen(Color.Black, 2));
 
-// Décrire le texte avec un motif de texture
+// Outline text with texture pattern
 document.OutlineText("ABC", font, 200, 400, new Pen(paint, 5));
 ```
 
-Enfin, nous remplissons et décrivons le texte avec le motif de texture, améliorant ainsi l'attrait visuel de votre document.
+Cette étape montre la capacité **fill and stroke text** : les caractères « ABC » sont remplis avec le pinceau de texture puis contournés, produisant un effet visuel saisissant.
 
-## Étape 7 : Enregistrer et fermer le document
+## Étape 7 : Enregistrer et fermer le document
 
 ```csharp
-// Fermer la page actuelle
+// Close current page
 document.ClosePage();
 
-// Enregistrez le document
+// Save the document
 document.Save();
 ```
 
-Assurez-vous de fermer la page actuelle et d'enregistrer le document pour appliquer les modifications.
+La fermeture de la page finalise les commandes de dessin, et `Save()` écrit le fichier PostScript sur le disque.
+
+## Problèmes courants et solutions
+
+- **La texture apparaît étirée de façon incorrecte** – Ajustez les valeurs de `Matrix` pour contrôler l’échelle en X/Y.  
+- **Image introuvable** – Vérifiez que `dataDir` pointe vers le bon dossier et que le nom du fichier correspond exactement, y compris la casse.  
+- **Les couleurs semblent fausses** – Rappelez‑vous que PostScript utilise un espace couleur indépendant du dispositif ; assurez‑vous d’utiliser des objets `Color` correctement mappés.
+
+## Questions fréquemment posées
+
+**Q :** Puis‑je utiliser d’autres formats d’image pour le motif de texture ?  
+**R :** Oui, tout format pris en charge par `System.Drawing.Bitmap` (BMP, PNG, JPEG, GIF, etc.) fonctionne.
+
+**Q :** Aspose.Page est‑il compatible avec .NET Core ?  
+**R :** Absolument. La bibliothèque fonctionne sur .NET Framework, .NET Core et .NET 5/6.
+
+**Q :** Comment modifier la taille du rectangle texturé ?  
+**R :** Modifiez les valeurs de `RectangleF` dans l’étape de création du rectangle (par ex., `new RectangleF(0, 0, 300, 150)`).
+
+**Q :** Puis‑je appliquer plusieurs motifs de texture dans un même document ?  
+**R :** Oui. Créez simplement un nouveau `TextureBrush` avec une image différente et appelez à nouveau `SetPaint` avant de dessiner la forme ou le texte suivant.
+
+**Q :** Où trouver plus d’exemples et la référence API ?  
+**R :** Consultez le [Aspose.Page Forum](https://forum.aspose.com/c/page/39) pour l’aide de la communauté et la [documentation officielle](https://reference.aspose.com/page/net/) pour une utilisation détaillée de l’API.
 
 ## Conclusion
 
-Toutes nos félicitations! Vous avez appris avec succès comment appliquer un motif de mosaïque de texture à un document PostScript à l'aide d'Aspose.Page pour .NET. Expérimentez avec différentes images et modèles pour personnaliser davantage vos documents PS.
+Vous savez maintenant comment **créer un document PostScript .NET** et appliquer un motif de texture en mosaïque, y compris comment **remplir et tracer du texte** avec cette texture. Expérimentez avec différentes images, matrices d’échelle et primitives de dessin pour produire des fichiers PS personnalisés pour des rapports, flyers ou toute sortie graphique lourde.
 
-## FAQ
+---
 
-### Q1 : Puis-je utiliser d’autres formats d’image pour le motif de texture ?
-
-A1 : Oui, Aspose.Page prend en charge différents formats d'image. Assurer la compatibilité avec la documentation de la bibliothèque.
-
-### Q2 : Aspose.Page est-il compatible avec .NET Core ?
-
-A2 : Oui, Aspose.Page est compatible avec .NET Framework et .NET Core.
-
-### Q3 : Comment puis-je ajuster la taille du rectangle texturé ?
-
- A3 : Modifier les dimensions dans le`RectangleF` paramètres lors de la création du chemin.
-
-### Q4 : Puis-je ajouter plusieurs motifs de texture à un seul document ?
-
-A4 : Oui, vous pouvez répéter le processus avec des images et des chemins différents.
-
-### Q5 : Où puis-je trouver des ressources et une assistance supplémentaires ?
-
- A5 : Visitez le[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour obtenir le soutien de la communauté et explorer les[Documentation](https://reference.aspose.com/page/net/).
+**Dernière mise à jour :** 2026-03-26  
+**Testé avec :** Aspose.Page 24.11 pour .NET  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

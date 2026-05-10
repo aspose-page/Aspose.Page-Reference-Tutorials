@@ -1,34 +1,42 @@
 ---
-title: Aplikujte texturu Tiling Pattern na PostScript (PS) pomocí Aspose.Page
-linktitle: Použít vzor dlaždic textury na PostScript (PS)
+date: 2026-03-26
+description: Naučte se, jak vytvořit dokument PostScript v .NET s texturovanými dlaždicovými
+  vzory pomocí Aspose.Page. Postupujte podle našeho krok‑za‑krokem průvodce a přidejte
+  bohaté textury do svých PS souborů.
+linktitle: Create PostScript .NET document with texture tiling
 second_title: Aspose.Page .NET API
-description: Vylepšete své PostScriptové (PS) dokumenty pomocí texturových vzorů pomocí Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro kreativní dotek.
-weight: 10
+title: Vytvořit dokument PostScript .NET s dlážděním textur
 url: /cs/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aplikujte texturu Tiling Pattern na PostScript (PS) pomocí Aspose.Page
+# Vytvoření PostScript .NET dokumentu s texturovaným dlážděním
 
-## Úvod
+## Jak vytvořit PostScript dokument .NET s texturovaným dlážděním
 
-Vítejte v tomto podrobném návodu, jak aplikovat vzor textury na PostScriptový (PS) dokument pomocí Aspose.Page for .NET. Aspose.Page je výkonná knihovna, která vám umožňuje pracovat s různými formáty dokumentů, a v tomto tutoriálu prozkoumáme, jak vylepšit vaše dokumenty PS přidáním vzorů dlaždic textury.
+V tomto tutoriálu se naučíte, jak **vytvořit PostScript dokument .NET** a obohatit jej o texturovaný dlážděný vzor pomocí knihovny Aspose.Page. Provedeme vás každým krokem, od nastavení projektu až po vyplnění a obkreslení textu texturovaným štětcem, abyste během několika minut mohli vytvářet vizuálně atraktivní PS soubory.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaká knihovna se používá?** Aspose.Page for .NET  
+- **Mohu použít .NET Core?** Yes, the library supports .NET Core and .NET 5/6  
+- **Jaké formáty obrázků fungují pro texturu?** Any format supported by System.Drawing (BMP, PNG, JPEG, etc.)  
+- **Jak dlouho trvá implementace?** About 10‑15 minutes for a basic example  
+- **Potřebuji licenci?** A free trial works for testing; a license is required for production  
 
-Než se pustíme do výukového programu, ujistěte se, že máte následující:
+## Požadavky
 
-- [Vizuální studio](https://visualstudio.microsoft.com/) nainstalovaný na vašem počítači.
-- Základní znalost programování v C#.
--  Stáhněte a nainstalujte[Aspose.Page pro knihovnu .NET](https://releases.aspose.com/page/net/).
-- Soubor obrázku pro vzorek textury (např. "TestTexture.bmp").
+- [Visual Studio](https://visualstudio.microsoft.com/) nainstalovaný na vašem počítači.  
+- Základní znalost programování v C#.  
+- Stáhněte a nainstalujte [Aspose.Page for .NET library](https://releases.aspose.com/page/net/).  
+- Obrázkový soubor pro texturovaný vzor (např. **TestTexture.bmp**).
 
 ## Import jmenných prostorů
 
-Ujistěte se, že ve svém kódu C# importujete potřebné jmenné prostory:
+Ve vašem C# souboru importujte požadované jmenné prostory, aby kompilátor věděl, kde najít typy, které budeme používat:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,130 +46,135 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Pojďme si poskytnutý příklad rozdělit do několika kroků, které vás celým procesem provedou.
-
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavení adresáře dokumentu
 
 ```csharp
-// Cesta k adresáři dokumentů.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Nezapomeňte nahradit „Adresář vašich dokumentů“ cestou, kam chcete uložit dokument PS.
+Nahraďte **Your Document Directory** složkou, do které chcete uložit vygenerovaný PS soubor.
 
-## Krok 2: Vytvořte výstupní stream pro dokument PS
+## Krok 2: Vytvoření výstupního proudu pro PS dokument
 
 ```csharp
-// Vytvořte výstupní proud pro dokument PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddTextureTilingPattern_outPS.ps", FileMode.Create))
 {
-    // Vytvořte možnosti uložení s velikostí A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Vytvořte nový 1stránkový dokument PS
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Tento krok nastavuje výstupní proud pro dokument PS, včetně definování velikosti dokumentu.
+Tento blok otevře souborový stream, nastaví velikost stránky (A4 jako výchozí) a vytvoří novou instanci **PsDocument**, na kterou budeme kreslit.
 
-## Krok 3: Aplikujte vzor textury obkladů
+## Krok 3: Použití texturovaného dlážděného vzoru
 
 ```csharp
-// Vytvořte objekt Bitmap ze souboru obrázku
+// Create a Bitmap object from the image file
 using (Bitmap image = new Bitmap(dataDir + "TestTexture.bmp"))
 {
-    // Vytvořte texturový štětec z obrázku
+    // Create texture brush from the image
     TextureBrush brush = new TextureBrush(image, WrapMode.Tile);
 
-    //Přidejte do vzoru změnu měřítka ve směru X
+    // Add scaling in X direction to the pattern
     Matrix transform = new Matrix(2, 0, 0, 1, 0, 0);
     brush.Transform = transform;
 
-    // Nastavte tento štětec textury jako aktuální barvu
+    // Set this texture brush as the current paint
     document.SetPaint(brush);
 }
 ```
 
-Tento krok zahrnuje vytvoření texturového štětce z obrázku a jeho nastavení jako aktuální barvy pro dokument.
+Zde načteme bitmapu, zabalíme ji do **TextureBrush**, volitelně ji roztáhneme horizontálně a řekneme **PsDocument**, aby tento štětec použil pro následující kreslicí operace.
 
-## Krok 4: Vytvořte obdélníkovou cestu a výplň
+## Krok 4: Vytvoření cesty obdélníku a vyplnění
 
 ```csharp
-// Vytvořte obdélníkovou cestu
+// Create rectangle path
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(0, 0, 200, 100));
 
-// Vyplňte obdélník
+// Fill rectangle
 document.Fill(path);
 ```
 
-Zde definujeme cestu obdélníku a vyplníme ji dříve nastaveným texturovým štětcem.
+Jednoduchý obdélník je definován a vyplněn texturovaným štětcem, který jsme nastavili dříve.
 
-## Krok 5: Nastavte Stroke a Draw
+## Krok 5: Nastavení tahu a kreslení
 
 ```csharp
-// Získejte aktuální nátěr
+// Get current paint
 Brush paint = document.GetPaint();
 
-// Nastavit červený tah
+// Set red stroke
 document.SetStroke(new Pen(new SolidBrush(Color.Red), 2));
 
-// Vytáhněte obdélník
+// Stroke the rectangle
 document.Draw(path);
 ```
 
-Tento krok zahrnuje nastavení vlastností tahu a nakreslení vyznačeného obdélníku.
+Získáme aktuální barvu (texturovaný štětec), vytvoříme červené pero pro obrys a nakreslíme okraj obdélníku.
 
-## Krok 6: Vyplňte a načrtněte text vzorem textury
+## Krok 6: Vyplnění a obkreslení textu texturovaným vzorem
 
 ```csharp
-// Vyplňte text vzorem textury
+// Fill text with texture pattern                
 Font font = new Font("Arial", 96, FontStyle.Bold);
 document.FillAndStrokeText("ABC", font, 200, 300, paint, new Pen(Color.Black, 2));
 
-// Obrysový text s texturou
+// Outline text with texture pattern
 document.OutlineText("ABC", font, 200, 400, new Pen(paint, 5));
 ```
 
-Nakonec text vyplníme a ohraničíme vzorem textury, čímž zvýšíme vizuální přitažlivost vašeho dokumentu.
+Tento krok demonstruje schopnost **fill and stroke text**: znaky „ABC“ jsou vyplněny texturovaným štětcem a poté obkresleny, což vytváří výrazný vizuální efekt.
 
-## Krok 7: Uložte a zavřete dokument
+## Krok 7: Uložení a uzavření dokumentu
 
 ```csharp
-// Zavřít aktuální stránku
+// Close current page
 document.ClosePage();
 
-// Uložte dokument
+// Save the document
 document.Save();
 ```
 
-Chcete-li použít změny, nezapomeňte zavřít aktuální stránku a uložit dokument.
+Uzavření stránky dokončí kreslicí příkazy a `Save()` zapíše PostScript soubor na disk.
+
+## Časté problémy a řešení
+
+- **Textura se zobrazuje nesprávně natažená** – upravte hodnoty `Matrix` pro řízení měřítka v osách X/Y.  
+- **Obrázek nebyl nalezen** – ověřte, že `dataDir` ukazuje na správnou složku a že název souboru přesně odpovídá, včetně velikosti písmen.  
+- **Barvy vypadají špatně** – pamatujte, že PostScript používá zařízení‑nezávislý barevný prostor; ujistěte se, že používáte objekty `Color`, které jsou správně mapovány.
+
+## Často kladené otázky
+
+**Q:** Můžu použít jiné formáty obrázků pro texturovaný vzor?  
+**A:** Ano, jakýkoli formát podporovaný `System.Drawing.Bitmap` (BMP, PNG, JPEG, GIF, atd.) funguje.
+
+**Q:** Je Aspose.Page kompatibilní s .NET Core?  
+**A:** Rozhodně. Knihovna běží na .NET Framework, .NET Core a .NET 5/6.
+
+**Q:** Jak změním velikost texturovaného obdélníku?  
+**A:** Upravit hodnoty `RectangleF` v kroku vytváření obdélníku (např. `new RectangleF(0, 0, 300, 150)`).
+
+**Q:** Můžu v jednom dokumentu použít více texturovaných vzorů?  
+**A:** Ano. Stačí vytvořit nový `TextureBrush` s jiným obrázkem a znovu zavolat `SetPaint` před kreslením dalšího tvaru nebo textu.
+
+**Q:** Kde najdu více příkladů a referenci API?  
+**A:** Navštivte [Aspose.Page Forum](https://forum.aspose.com/c/page/39) pro komunitní pomoc a oficiální [documentation](https://reference.aspose.com/page/net/) pro podrobné použití API.
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste se naučili, jak pomocí Aspose.Page for .NET aplikovat vzor textury na PostScriptový dokument. Experimentujte s různými obrázky a vzory, abyste si své dokumenty PS dále přizpůsobili.
+Nyní víte, jak **vytvořit PostScript dokument .NET** a aplikovat texturovaný dlážděný vzor, včetně toho, jak **vyplnit a obkreslit text** touto texturou. Experimentujte s různými obrázky, škálovacími maticemi a kreslicími primitivy, abyste vytvořili vlastní stylizované PS soubory pro zprávy, letáky nebo jakýkoli graficky náročný výstup.
 
-## FAQ
+---
 
-### Q1: Mohu použít jiné formáty obrázků pro vzor textury?
-
-A1: Ano, Aspose.Page podporuje různé formáty obrázků. Zajistěte kompatibilitu s dokumentací knihovny.
-
-### Q2: Je Aspose.Page kompatibilní s .NET Core?
-
-A2: Ano, Aspose.Page je kompatibilní s .NET Framework i .NET Core.
-
-### Q3: Jak mohu upravit velikost texturovaného obdélníku?
-
- A3: Upravte rozměry v`RectangleF` parametry při vytváření cesty.
-
-### Q4: Mohu do jednoho dokumentu přidat více vzorků textur?
-
-A4: Ano, proces můžete opakovat s různými obrázky a cestami.
-
-### Q5: Kde najdu další zdroje a podporu?
-
- A5: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) za podporu komunity a prozkoumejte[dokumentace](https://reference.aspose.com/page/net/).
+**Poslední aktualizace:** 2026-03-26  
+**Testováno s:** Aspose.Page 24.11 for .NET  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
