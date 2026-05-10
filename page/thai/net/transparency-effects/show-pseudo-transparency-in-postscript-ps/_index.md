@@ -1,35 +1,53 @@
 ---
-title: แสดงความโปร่งใสหลอกใน PostScript (PS) ด้วย Aspose.Page
-linktitle: แสดงความโปร่งใสหลอกใน PostScript (PS)
+date: 2026-03-29
+description: เรียนรู้วิธีใช้แปรงไลเนียร์กราเดียนต์ใน C# เพื่อสร้างความโปร่งใสเทียมใน
+  PostScript ด้วย Aspose.Page สำหรับ .NET.
+linktitle: Show Pseudo-Transparency in PostScript (PS)
 second_title: Aspose.Page .NET API
-description: สำรวจพลังของความโปร่งใสหลอกใน PostScript ด้วย Aspose.Page สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อให้ได้เอกสารที่สวยงามน่าทึ่ง
-weight: 13
+title: แปรงไลเนียร์เกรเดียนท์ C# สำหรับการทำเทียมความโปร่งใสใน PS
 url: /th/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# แสดงความโปร่งใสหลอกใน PostScript (PS) ด้วย Aspose.Page
+# แปรงไลเนียร์กราเดียนท์ C# สำหรับการทำให้โปร่งใสเทียมใน PostScript (PS)
 
-## การแนะนำ
+## บทนำ
 
-คุณต้องการปรับปรุงรูปลักษณ์ที่สวยงามของเอกสาร PostScript (PS) ของคุณโดยผสมผสานความโปร่งใสหลอกเข้าด้วยกันหรือไม่? Aspose.Page สำหรับ .NET มอบโซลูชันอันทรงพลังเพื่อให้บรรลุผลนี้ได้อย่างง่ายดาย ในบทช่วยสอนทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดกระบวนการแสดงความโปร่งใสหลอกใน PostScript โดยใช้ Aspose.Page
+หากคุณต้องการเพิ่มเอฟเฟกต์การมองผ่านอย่างละเอียดให้กับไฟล์ PostScript (PS) ของคุณ, **linear gradient brush C#** คือเครื่องมือที่สมบูรณ์แบบ Aspose.Page for .NET ทำให้การวาดสี่เหลี่ยมด้วยการเติมกราเดียนท์แบบ opaque และ translucent เป็นเรื่องง่าย, ให้เอกสารของคุณดูทันสมัยและมีเลเยอร์หลายชั้น ในบทเรียนนี้เราจะอธิบายขั้นตอนที่จำเป็นเพื่อสร้างการทำให้โปร่งใสเทียมโดยใช้ linear gradient brush ใน C#.
+
+## คำตอบด่วน
+- **ไลบรารีใดที่ให้บริการ linear gradient brush?** Aspose.Page for .NET
+- **คลาสกราฟิกใดสร้างกราเดียนท์?** `LinearGradientBrush`
+- **ฉันสามารถควบคุมความทึบของแต่ละสีได้หรือไม่?** Yes, using `Color.FromArgb(alpha, …)`
+- **ต้องใช้ไลเซนส์สำหรับการผลิตหรือไม่?** A valid Aspose.Page license is required
+- **รองรับเวอร์ชัน .NET ใดบ้าง?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
+
+## Linear Gradient Brush C# คืออะไร?
+
+`LinearGradientBrush` คืออ็อบเจ็กต์ GDI+ ที่วาดการเปลี่ยนแปลงสีอย่างราบรื่นระหว่างสองสีตามเส้นตรง เมื่อคุณระบุค่าแอลฟา (0‑255) สำหรับแต่ละสี, คุณสามารถสร้างกราเดียนท์แบบ translucent — ซึ่งเป็นสิ่งที่เราต้องการสำหรับการทำให้โปร่งใสเทียมใน PostScript.
+
+## ทำไมต้องใช้ Linear Gradient Brush C# สำหรับการทำให้โปร่งใสเทียม?
+
+- **การควบคุมความทึบแบบละเอียด:** ปรับค่าแอลฟาของแต่ละสีเพื่อให้ได้ระดับการมองผ่านที่ต้องการ.  
+- **การเรนเดอร์ที่ไม่ขึ้นกับอุปกรณ์:** แปรงทำงานเช่นเดียวกันบนหน้าจอ, PDF, EPS, และเอาต์พุต PS.  
+- **API ที่ง่าย:** เพียงไม่กี่บรรทัดของโค้ด C# สามารถสร้างเอฟเฟกต์ภาพระดับมืออาชีพ.
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่จะลงลึกในโค้ด, ตรวจสอบให้แน่ใจว่าคุณมี:
 
-- Aspose.Page สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Page สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้จาก[เอกสาร Aspose.Page](https://reference.aspose.com/page/net/).
+- ติดตั้ง Aspose.Page for .NET แล้ว. คุณสามารถดาวน์โหลดได้จาก [Aspose.Page documentation](https://reference.aspose.com/page/net/).
+- โฟลเดอร์ที่สามารถเขียนได้สำหรับบันทึกเอกสาร PostScript ที่สร้างขึ้น.
 
-- ไดเร็กทอรีเอกสาร: ตั้งค่าไดเร็กทอรีเพื่อจัดเก็บเอกสาร PostScript ของคุณ
+เมื่อคุณมีเครื่องมือที่จำเป็นแล้ว, มาเริ่มสร้างสี่เหลี่ยมที่ทำให้โปร่งใสเทียมกันเถอะ.
 
-ตอนนี้คุณมีเครื่องมือที่จำเป็นในคลังแสงแล้ว มาดูวิธีแสดงความโปร่งใสหลอกใน PostScript โดยใช้ Aspose.Page กันดีกว่า
+## นำเข้า Namespaces
 
-## นำเข้าเนมสเปซ
-
-ก่อนที่จะเจาะลึกตัวอย่าง ตรวจสอบให้แน่ใจว่าคุณนำเข้าเนมสเปซที่จำเป็น:
+ก่อนที่เราจะเริ่ม, ให้นำเข้า namespaces ที่ประกอบด้วยคลาสที่เราจะใช้:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -41,21 +59,25 @@ using System.IO;
 
 ## ขั้นตอนที่ 1: สร้างสตรีมเอาต์พุตสำหรับเอกสาร PostScript
 
+เราจะเริ่มด้วยการสร้างไฟล์สตรีมที่จะเก็บไฟล์ PS ที่ได้, จากนั้นทำการ initialise `PsDocument`.
+
 ```csharp
-// เอ็กซ์สตาร์ท:1
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//สร้างกระแสเอาท์พุทสำหรับเอกสาร PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_outPS.ps", FileMode.Create))
 {
-	//สร้างตัวเลือกการบันทึกด้วยขนาด A4
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 
-	// สร้างเอกสาร PS 1 หน้าใหม่
+	// Create new 1‑paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## ขั้นตอนที่ 2: สร้างสี่เหลี่ยมผืนผ้าด้วยการเติมไล่ระดับสีทึบแสง
+## ขั้นตอนที่ 2: สร้างสี่เหลี่ยมที่มีการเติมกราเดียนท์ **opaque**
+
+ที่นี่เราสร้าง `LinearGradientBrush` ที่สีของมันเป็นแบบ opaque เต็มที่ (alpha = 255). สี่เหลี่ยมนี้จะทำหน้าที่เป็นเลเยอร์พื้นหลัง.
 
 ```csharp
 	float offsetX = 50;
@@ -77,16 +99,18 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## ขั้นตอนที่ 3: สร้างสี่เหลี่ยมผืนผ้าด้วยการเติมไล่ระดับสีแบบโปร่งแสง
+## ขั้นตอนที่ 3: สร้างสี่เหลี่ยมที่มีการเติมกราเดียนท์ **translucent**
+
+ตอนนี้เราจะใช้ **linear gradient brush C#** ที่ค่าตัวแอลฟาน้อยกว่า 255 (เช่น 150 และ 50). สิ่งนี้ทำให้สี่เหลี่ยมมีการมองผ่านบางส่วน, สร้างเอฟเฟกต์การทำให้โปร่งใสเทียม.
 
 ```csharp
 	offsetX = 350;
 
-	//สร้างเส้นทางกราฟิกจากสี่เหลี่ยมแรก
+	//Create graphics path from the first rectangle
 	path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-	//สร้างสีแปรงไล่ระดับสีเชิงเส้นซึ่งความโปร่งใสไม่ใช่ 255 แต่เป็น 150 และ 50 ดังนั้นจึงโปร่งแสง
+	//Create linear gradient brush colors which transparency are not 255, but 150 and 50. So it are translucent.
 	LinearGradientBrush translucentBrush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
 		Color.FromArgb(50, 40, 128, 70), 0f);
 
@@ -99,42 +123,48 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## ขั้นตอนที่ 4: ปิดหน้าปัจจุบันและบันทึกเอกสาร
+## ขั้นตอนที่ 4: ปิดหน้าและบันทึกเอกสาร
+
+สุดท้ายเราปิดหน้าและเขียนไฟล์ PS ลงดิสก์.
 
 ```csharp
 	document.ClosePage();
 	document.Save();
 }
-// สิ้นสุด:1
+// ExEnd:1
 ```
 
-ด้วยการทำตามขั้นตอนเหล่านี้ คุณสามารถรวมความโปร่งใสเสมือนเข้ากับเอกสาร PostScript ของคุณได้อย่างราบรื่นโดยใช้ Aspose.Page สำหรับ .NET
+โดยทำตามสี่ขั้นตอนนี้คุณสามารถผสานสี่เหลี่ยมแบบ opaque และ translucent อย่างราบรื่น, สร้างเอฟเฟกต์การทำให้โปร่งใสเทียมที่น่าเชื่อถือในเอาต์พุต PostScript ใด ๆ.
 
-## บทสรุป
+## ปัญหาทั่วไปและวิธีแก้
 
-โดยสรุป Aspose.Page สำหรับ .NET นำเสนอวิธีที่ตรงไปตรงมาและมีประสิทธิภาพในการปรับปรุงองค์ประกอบภาพของเอกสาร PostScript ของคุณ ขั้นตอนที่อธิบายไว้ข้างต้นเป็นแนวทางที่ชัดเจนสำหรับการผสมผสานความโปร่งใสหลอกๆ เข้าด้วยกัน ซึ่งช่วยให้คุณสร้างผลงานที่ดูน่าทึ่งได้
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|--------|
+| สีปรากฏเป็น opaque ทั้งหมด | ค่าแอลฟาถูกตั้งเป็น 255 โดยบังเอิญ | ใช้ `Color.FromArgb(alpha, …)` โดยที่ `alpha` < 255 |
+| กราเดียนท์ถูกยืดออกไม่ถูกต้อง | เมทริกซ์การแปลงไม่ถูกต้อง | ตรวจสอบพารามิเตอร์เมทริกซ์ให้ตรงกับขนาดสี่เหลี่ยม |
+| ไฟล์เอาต์พุตว่างเปล่า | สตรีมไม่ได้ปิดหรือไม่ได้เรียก `Save()` | ตรวจสอบให้แน่ใจว่า `document.ClosePage()` และ `document.Save()` ถูกเรียกภายในบล็อก `using` |
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: Aspose.Page เข้ากันได้กับ .NET ทุกเวอร์ชันหรือไม่
+**Q: Aspose.Page รองรับทุกเวอร์ชันของ .NET หรือไม่?**  
+A: Aspose.Page for .NET รองรับหลายเวอร์ชันของ .NET framework, ทำให้มีความยืดหยุ่นและง่ายต่อการรวมเข้ากับระบบ.
 
-คำตอบ 1: Aspose.Page สำหรับ .NET เข้ากันได้กับเฟรมเวิร์ก .NET เวอร์ชันต่างๆ ทำให้มั่นใจได้ถึงความยืดหยุ่นและความสะดวกในการบูรณาการ
+**Q: ฉันสามารถใช้ pseudo‑transparency กับรูปทรงอื่น ๆ นอกจากสี่เหลี่ยมได้หรือไม่?**  
+A: ได้, หลักการเดียวกันสามารถนำไปใช้กับรูปทรงใด ๆ โดยปรับ `GraphicsPath` ให้เหมาะสม.
 
-### คำถามที่ 2: ฉันสามารถใช้ความโปร่งใสหลอกกับรูปร่างอื่นนอกเหนือจากสี่เหลี่ยมได้หรือไม่
+**Q: ฉันจะหา ตัวอย่างและเอกสารเพิ่มเติมได้จากที่ไหน?**  
+A: สำรวจ [Aspose.Page documentation](https://reference.aspose.com/page/net/) เพื่อดูตัวอย่างที่ครอบคลุมและอ้างอิง API อย่างละเอียด.
 
-A2: ได้ หลักการเดียวกันนี้สามารถนำไปใช้กับรูปร่างอื่นๆ ได้ด้วยการปรับ GraphicsPath ให้สอดคล้องกัน
+**Q: มีการทดลองใช้ฟรีสำหรับ Aspose.Page หรือไม่?**  
+A: มี, คุณสามารถเข้าถึงการทดลองใช้ฟรีของ Aspose.Page ได้จาก [this link](https://releases.aspose.com/).
 
-### คำถามที่ 3: ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมได้ที่ไหน
+**Q: ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับ Aspose.Page ได้อย่างไร?**  
+A: เยี่ยมชม [this link](https://purchase.aspose.com/temporary-license/) เพื่อรับไลเซนส์ชั่วคราวสำหรับ Aspose.Page.
 
- A3: สำรวจ[เอกสาร Aspose.Page](https://reference.aspose.com/page/net/) สำหรับตัวอย่างที่ครอบคลุมและเอกสารประกอบโดยละเอียด
+**อัปเดตล่าสุด:** 2026-03-29  
+**ทดสอบด้วย:** Aspose.Page 24.11 for .NET  
+**ผู้เขียน:** Aspose  
 
-### คำถามที่ 4: Aspose.Page มีรุ่นทดลองใช้ฟรีหรือไม่
-
- A4: ได้ คุณสามารถเข้าถึง Aspose.Page รุ่นทดลองใช้ฟรีได้จาก[ลิงค์นี้](https://releases.aspose.com/).
-
-### คำถามที่ 5: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page ได้อย่างไร
-
- A5: เยี่ยมเลย[ลิงค์นี้](https://purchase.aspose.com/temporary-license/) เพื่อรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

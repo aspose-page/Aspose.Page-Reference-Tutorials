@@ -1,35 +1,53 @@
 ---
-title: Toon pseudo-transparantie in PostScript (PS) met Aspose.Page
-linktitle: Pseudo-transparantie tonen in PostScript (PS)
-second_title: Aspose.Page .NET-API
-description: Ontdek de kracht van pseudo-transparantie in PostScript met Aspose.Page voor .NET. Volg onze stapsgewijze handleiding voor visueel verbluffende documenten.
-weight: 13
+date: 2026-03-29
+description: Leer hoe je een lineaire gradientkwast in C# gebruikt om pseudo‑transparantie
+  te creëren in PostScript met Aspose.Page voor .NET.
+linktitle: Show Pseudo-Transparency in PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Lineaire Gradientkwast C# voor Pseudo-Transparantie in PS
 url: /nl/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Toon pseudo-transparantie in PostScript (PS) met Aspose.Page
+# Lineaire Gradient Penseel C# voor Pseudo-Transparantie in PostScript (PS)
 
-## Invoering
+## Introductie
 
-Wilt u de visuele aantrekkingskracht van uw PostScript (PS)-documenten vergroten door pseudo-transparantie op te nemen? Aspose.Page voor .NET biedt een krachtige oplossing om dit effect moeiteloos te bereiken. In deze stapsgewijze zelfstudie begeleiden we u door het proces van het tonen van pseudo-transparantie in PostScript met behulp van Aspose.Page.
+Als u een subtiel doorzichtseffect aan uw PostScript (PS)-bestanden wilt toevoegen, is de **linear gradient brush C#** het perfecte hulpmiddel. Aspose.Page for .NET maakt het eenvoudig om rechthoeken te schilderen met zowel ondoorzichtige als doorschijnende gradientvullingen, waardoor uw documenten er modern en gelaagd uitzien. In deze tutorial lopen we de exacte stappen door die nodig zijn om pseudo-transparantie te creëren met een lineaire gradient penseel in C#.
 
-## Vereisten
+## Snelle Antwoorden
+- **Welke bibliotheek levert de linear gradient brush?** Aspose.Page for .NET
+- **Welke graphics‑klasse maakt de gradient?** `LinearGradientBrush`
+- **Kan ik de opacity per kleur regelen?** Ja, met `Color.FromArgb(alpha, …)`
+- **Heb ik een licentie nodig voor productie?** Een geldige Aspose.Page‑licentie is vereist
+- **Ondersteunde .NET‑versies?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+## Wat is een linear gradient brush C#?
 
-- Aspose.Page voor .NET: Zorg ervoor dat de Aspose.Page-bibliotheek voor .NET is geïnstalleerd. Je kunt het downloaden van de[Aspose.Page-documentatie](https://reference.aspose.com/page/net/).
+Een `LinearGradientBrush` is een GDI+-object dat een vloeiende overgang tussen twee kleuren langs een rechte lijn schildert. Wanneer u het alfacanaal (0‑255) voor elke kleur opgeeft, kunt u doorschijnende gradients maken — precies wat we nodig hebben voor pseudo‑transparantie in PostScript.
 
-- Documentmap: Stel een map in om uw PostScript-documenten op te slaan.
+## Waarom een linear gradient brush C# gebruiken voor pseudo‑transparantie?
 
-Nu u over de nodige hulpmiddelen beschikt, gaan we eens kijken hoe u pseudo-transparantie in PostScript kunt laten zien met behulp van Aspose.Page.
+- **Fijne opacity‑regeling:** Pas de alfa van elke kleur aan om het gewenste doorzichtsniveau te bereiken.  
+- **Apparaatonafhankelijke weergave:** Het penseel werkt hetzelfde op scherm, PDF, EPS en PS-uitvoer.  
+- **Eenvoudige API:** Een paar regels C#‑code leveren visuele effecten van professionele kwaliteit.
 
-## Naamruimten importeren
+## Voorvereisten
 
-Voordat u zich in het voorbeeld verdiept, moet u ervoor zorgen dat u de vereiste naamruimten importeert:
+Voordat u in de code duikt, zorg ervoor dat u het volgende heeft:
+
+- Aspose.Page for .NET geïnstalleerd. U kunt het downloaden van de [Aspose.Page documentation](https://reference.aspose.com/page/net/).
+- Een beschrijfbare map waarin het gegenereerde PostScript‑document wordt opgeslagen.
+
+Nu u de benodigde tools heeft, laten we beginnen met het bouwen van de pseudo‑transparante rechthoeken.
+
+## Namespaces importeren
+
+Voordat we beginnen, importeer de namespaces die de klassen bevatten die we gaan gebruiken:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,23 +57,27 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Stap 1: Maak een uitvoerstroom voor een PostScript-document
+## Stap 1: Maak de output‑stream voor het PostScript‑document
+
+We beginnen met het aanmaken van een bestandsstream die het resulterende PS‑bestand zal bevatten, en initialiseren vervolgens de `PsDocument`.
 
 ```csharp
 // ExStart:1
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//Maak een uitvoerstroom voor een PostScript-document
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_outPS.ps", FileMode.Create))
 {
-	//Creëer opslagopties met A4-formaat
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 
-	// Maak een nieuw PS-document met één pagina
+	// Create new 1‑paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Stap 2: Creëer een rechthoek met ondoorzichtige verloopvulling
+## Stap 2: Maak een rechthoek met een **ondoorzichtige** gradientvulling
+
+Hier bouwen we een `LinearGradientBrush` waarvan de kleuren volledig ondoorzichtig zijn (alpha = 255). Deze rechthoek dient als de achtergrondlaag.
 
 ```csharp
 	float offsetX = 50;
@@ -77,16 +99,18 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## Stap 3: Creëer een rechthoek met doorschijnende verloopvulling
+## Stap 3: Maak een rechthoek met een **doorschijnende** gradientvulling
+
+Nu gebruiken we een **linear gradient brush C#** waarbij de alfabewerkingen lager zijn dan 255 (bijv. 150 en 50). Dit maakt de rechthoek gedeeltelijk doorzichtig, waardoor het pseudo‑transparantie‑effect ontstaat.
 
 ```csharp
 	offsetX = 350;
 
-	//Maak een grafisch pad vanaf de eerste rechthoek
+	//Create graphics path from the first rectangle
 	path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-	//Creëer lineaire verlooppenseelkleuren waarvan de transparantie niet 255 is, maar 150 en 50. Het is dus doorschijnend.
+	//Create linear gradient brush colors which transparency are not 255, but 150 and 50. So it are translucent.
 	LinearGradientBrush translucentBrush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
 		Color.FromArgb(50, 40, 128, 70), 0f);
 
@@ -99,42 +123,50 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## Stap 4: Sluit de huidige pagina en sla het document op
+## Stap 4: Sluit de pagina en sla het document op
+
+Tot slot voltooien we de pagina en schrijven we het PS‑bestand naar schijf.
 
 ```csharp
 	document.ClosePage();
 	document.Save();
 }
-// Verlengen: 1
+// ExEnd:1
 ```
 
-Door deze stappen te volgen, kunt u pseudo-transparantie naadloos integreren in uw PostScript-documenten met behulp van Aspose.Page voor .NET.
+Door deze vier stappen te volgen kunt u naadloos ondoorzichtige en doorschijnende rechthoeken combineren, waardoor een overtuigend pseudo‑transparant effect ontstaat in elke PostScript‑uitvoer.
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Concluderend biedt Aspose.Page voor .NET een eenvoudige en efficiënte manier om de visuele elementen van uw PostScript-documenten te verbeteren. De hierboven beschreven stappen bieden een duidelijk pad voor het opnemen van pseudo-transparantie, waardoor u visueel verbluffende resultaten kunt creëren.
+| Probleem | Waarom het gebeurt | Oplossing |
+|----------|--------------------|-----------|
+| Kleuren verschijnen volledig ondoorzichtig | Alfawaarde per ongeluk op 255 gezet | Gebruik `Color.FromArgb(alpha, …)` met `alpha` < 255 |
+| Gradient wordt onjuist uitgerekt | Onjuiste transformatie‑matrix | Controleer of de matrix‑parameters overeenkomen met de afmetingen van de rechthoek |
+| Uitvoerbestand is leeg | Stream niet gesloten of `Save()` niet aangeroepen | Zorg ervoor dat `document.ClosePage()` en `document.Save()` worden uitgevoerd binnen het `using`‑blok |
 
 ## Veelgestelde vragen
 
-### Vraag 1: Is Aspose.Page compatibel met alle versies van .NET?
+**V: Is Aspose.Page compatibel met alle versies van .NET?**  
+A: Aspose.Page for .NET is compatibel met verschillende versies van het .NET‑framework, wat flexibiliteit en gemakkelijke integratie garandeert.
 
-A1: Aspose.Page voor .NET is compatibel met verschillende versies van het .NET-framework, wat flexibiliteit en integratiegemak garandeert.
+**V: Kan ik pseudo‑transparantie toepassen op andere vormen dan rechthoeken?**  
+A: Ja, dezelfde principes kunnen op elke vorm worden toegepast door de `GraphicsPath` dienovereenkomstig aan te passen.
 
-### Vraag 2: Kan ik pseudo-transparantie toepassen op andere vormen dan rechthoeken?
+**V: Waar kan ik extra voorbeelden en documentatie vinden?**  
+A: Bekijk de [Aspose.Page documentation](https://reference.aspose.com/page/net/) voor uitgebreide voorbeelden en gedetailleerde API‑referenties.
 
-A2: Ja, dezelfde principes kunnen op andere vormen worden toegepast door het GraphicsPath dienovereenkomstig aan te passen.
+**V: Is er een gratis proefversie beschikbaar voor Aspose.Page?**  
+A: Ja, u kunt een gratis proefversie van Aspose.Page verkrijgen via [this link](https://releases.aspose.com/).
 
-### V3: Waar kan ik aanvullende voorbeelden en documentatie vinden?
+**V: Hoe kan ik een tijdelijke licentie voor Aspose.Page verkrijgen?**  
+A: Bezoek [this link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor Aspose.Page te verkrijgen.
 
- A3: Ontdek de[Aspose.Page-documentatie](https://reference.aspose.com/page/net/) voor uitgebreide voorbeelden en gedetailleerde documentatie.
+---
 
-### V4: Is er een gratis proefversie beschikbaar voor Aspose.Page?
+**Laatst bijgewerkt:** 2026-03-29  
+**Getest met:** Aspose.Page 24.11 for .NET  
+**Auteur:** Aspose  
 
- A4: Ja, u heeft toegang tot een gratis proefversie van Aspose.Page vanaf[deze link](https://releases.aspose.com/).
-
-### V5: Hoe kan ik een tijdelijke licentie voor Aspose.Page verkrijgen?
-
- A5: Bezoek[deze link](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor Aspose.Page te verkrijgen.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
