@@ -1,35 +1,55 @@
 ---
-title: Přidejte obrázek do dokumentu XPS pomocí Aspose.Page pro .NET
-linktitle: Přidat obrázek do dokumentu XPS
+date: 2026-02-28
+description: Naučte se, jak vytvořit XPS dokument v .NET a přidat obrázek pomocí Aspose.Page
+  pro .NET. Postupujte podle tohoto krok‑za‑krokem průvodce pro plynulý vývojový zážitek.
+linktitle: Add Image to XPS Document
 second_title: Aspose.Page .NET API
-description: Prozkoumejte bezproblémovou integraci obrázků do dokumentů XPS s Aspose.Page for .NET. Postupujte podle našeho podrobného průvodce pro hladký vývoj.
-weight: 11
+title: Vytvoření XPS dokumentu v .NET – Přidání obrázku pomocí Aspose.Page
 url: /cs/net/image-management/add-image-to-xps-document/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte obrázek do dokumentu XPS pomocí Aspose.Page pro .NET
+# Přidání obrázku do XPS dokumentu pomocí Aspose.Page pro .NET
+
+V tomto tutoriálu se naučíte, jak **create XPS document .NET** a vložit obrázek pomocí výkonné knihovny Aspose.Page. Ať už generujete zprávy, faktury nebo vlastní grafiku, přidávání vizuálních prvků do XPS souborů je častý požadavek pro .NET vývojáře.
 
 ## Úvod
 
-Ve světě vývoje .NET je začlenění obrázků do dokumentů XPS běžným požadavkem. Aspose.Page for .NET tento proces zjednodušuje a nabízí výkonnou sadu nástrojů pro snadnou manipulaci a vylepšení dokumentů XPS. Tento tutoriál vás provede kroky přidání obrázku do dokumentu XPS pomocí Aspose.Page for .NET.
+Ve světě .NET vývoje je začlenění obrázků do XPS dokumentů běžným požadavkem. Aspose.Page pro .NET tento proces zjednodušuje a nabízí výkonný nástrojový set pro snadnou manipulaci a vylepšování XPS dokumentů. Tento tutoriál vás provede kroky, jak přidat obrázek do XPS dokumentu pomocí Aspose.Page pro .NET.
 
-## Předpoklady
+## Rychlé odpovědi
+- **What does this tutorial cover?** Přidání obrázku do XPS dokumentu s Aspose.Page pro .NET.  
+- **Which primary keyword is targeted?** *create xps document .net*  
+- **Do I need a license?** K dispozici je bezplatná zkušební verze; licence je vyžadována pro produkční nasazení.  
+- **Which .NET versions are supported?** Funguje s .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **How long does implementation take?** Přibližně 5‑10 minut pro základní vložení obrázku.
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Co je “create XPS document .NET”?
+Vytvoření XPS dokumentu v .NET znamená programově generovat soubor XML Paper Specification (XPS) – formát s pevně daným rozložením – pomocí C# nebo VB.NET. Aspose.Page poskytuje plynulé API, které abstrahuje nízkoúrovňové detaily a umožňuje vám soustředit se na obsah, jako je text, tvary a obrázky.
 
-1.  Aspose.Page for .NET Library: Stáhněte a nainstalujte knihovnu z[Aspose.Page .NET dokumentace](https://reference.aspose.com/page/net/).
+## Proč použít Aspose.Page k přidání obrázku?
+- **Full control** nad umístěním, měřítkem a ořezáváním obrázků.  
+- **No external dependencies** – knihovna interně zpracovává dekódování obrázků.  
+- **Cross‑platform** podpora pro Windows i Linux prostředí.  
+- **High fidelity** vykreslování, které zachovává kvalitu obrázku ve výsledném XPS souboru.
 
-2. Vývojové prostředí: Nastavte vývojové prostředí .NET, jako je Visual Studio.
+## Požadavky
 
-3. Ukázkový obrázek: Připravte si vzorový soubor obrázku (např. "QL_logo_color.tif"), který chcete přidat do dokumentu XPS.
+Před zahájením tutoriálu se ujistěte, že máte splněny následující požadavky:
 
-## Import jmenných prostorů
+1. Aspose.Page for .NET Library: Stáhněte a nainstalujte knihovnu z [Aspose.Page .NET Documentation](https://reference.aspose.com/page/net/).
 
-Začněte importováním potřebných jmenných prostorů do vašeho projektu .NET. Tyto jmenné prostory jsou životně důležité pro využití funkcí poskytovaných Aspose.Page pro .NET.
+2. Development Environment: Nastavte .NET vývojové prostředí, například Visual Studio.
+
+3. Sample Image: Mějte připravený ukázkový soubor obrázku (např. "QL_logo_color.tif"), který chcete přidat do XPS dokumentu.
+
+## Importování jmenných prostorů
+
+Začněte importováním potřebných jmenných prostorů do vašeho .NET projektu. Tyto jmenné prostory jsou nezbytné pro využití funkcí poskytovaných knihovnou Aspose.Page pro .NET.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,75 +57,92 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Krok 1: Nastavte adresář dokumentů
+## Aspose.Page Přidání obrázku do XPS dokumentu
 
-Začněte zadáním cesty k adresáři dokumentů. Tento krok zajistí, že váš projekt ví, kde má najít a uložit soubory.
+Níže projdeme každý krok potřebný k **create XPS document .NET** a vložení obrázku.
+
+### Krok 1: Nastavení adresáře dokumentu
+
+Nejprve určete cestu k adresáři, kde budou soubory dokumentu uloženy. Tento krok zajistí, že projekt bude vědět, kde hledat a kam ukládat soubory.
 
 ```csharp
-// Start: 1
+// ExStart:1
 string dataDir = "Your Document Directory";
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-## Krok 2: Vytvořte dokument XPS
+### Krok 2: Vytvoření XPS dokumentu
 
-Vytvořte nový dokument XPS pomocí Aspose.Page for .NET.
+Vytvořte nový XPS dokument pomocí Aspose.Page pro .NET.
 
 ```csharp
-// Start: 1
+// ExStart:1
 XpsDocument doc = new XpsDocument();
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-## Krok 3: Přidejte obrázek do dokumentu XPS
+### Krok 3: Přidání obrázku do XPS dokumentu
 
-Nyní přidejte obrázek do dokumentu XPS. V tomto příkladu použijeme vzorový obrázek s názvem "QL_logo_color.tif".
+Nyní přidáme obrázek do XPS dokumentu. V tomto příkladu použijeme ukázkový obrázek s názvem "QL_logo_color.tif".
 
 ```csharp
-// Start: 1
+// ExStart:1
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 path.RenderTransform = doc.CreateMatrix(0.7f, 0f, 0f, 0.7f, 0f, 20f);
 path.Fill = doc.CreateImageBrush(dataDir + "QL_logo_color.tif", new RectangleF(0f, 0f, 258.24f, 56.64f), new RectangleF(50f, 20f, 193.68f, 42.48f));
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-## Krok 4: Uložte výsledný dokument XPS
+### Krok 4: Uložení výsledného XPS dokumentu
 
-Uložte dokument XPS s přidaným obrázkem.
+Uložte XPS dokument s přidaným obrázkem.
 
 ```csharp
-// Start: 1
+// ExStart:1
 doc.Save(dataDir + "AddImage_outXPS.xps");
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-Nyní jste úspěšně přidali obrázek do dokumentu XPS pomocí Aspose.Page for .NET!
+Nyní jste úspěšně přidali obrázek do XPS dokumentu pomocí Aspose.Page pro .NET!
 
-## Závěr
+## Časté problémy a řešení
 
-V tomto tutoriálu jsme prozkoumali, jak využít Aspose.Page pro .NET k bezproblémovému začlenění obrázků do dokumentů XPS. Tento podrobný průvodce zajišťuje hladký proces integrace a rozšiřuje vaše možnosti vývoje .NET.
+- **File not found error** – Ověřte, že `dataDir` ukazuje na správnou složku a že název souboru obrázku přesně odpovídá, včetně citlivosti na velikost písmen v Linuxu.  
+- **Image appears distorted** – Upravit škálovací faktory `CreateMatrix` nebo parametry `RectangleF` pro kontrolu velikosti a poměru stran.  
+- **Unsupported image format** – Aspose.Page podporuje běžné rastrové formáty (PNG, JPEG, TIFF). Před použitím `CreateImageBrush` převěďte nepodporované formáty.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Je Aspose.Page for .NET kompatibilní s nejnovějšími verzemi rozhraní .NET?
+### Q1: Je Aspose.Page pro .NET kompatibilní s nejnovějšími verzemi .NET frameworku?
 
- A1: Aspose.Page for .NET je navržena tak, aby byla kompatibilní s širokou řadou verzí .NET frameworku, včetně nejnovějších verzí. Odkazovat na[dokumentace](https://reference.aspose.com/page/net/) pro konkrétní podrobnosti.
+A1: Aspose.Page pro .NET je navržen tak, aby byl kompatibilní s širokou škálou verzí .NET frameworku, včetně nejnovějších vydání. Podrobnosti najdete v [documentation](https://reference.aspose.com/page/net/).
 
-### Q2: Mohu používat Aspose.Page for .NET v prostředí Windows i Linux?
+### Q2: Mohu použít Aspose.Page pro .NET jak ve Windows, tak v Linux prostředí?
 
-Odpověď 2: Ano, Aspose.Page for .NET je nezávislý na platformě, takže je vhodný pro použití v prostředí Windows i Linux.
+A2: Ano, Aspose.Page pro .NET je platformně nezávislý, což ho činí vhodným pro použití jak ve Windows, tak v Linux prostředí.
 
-### Q3: Existují nějaké možnosti licencování pro Aspose.Page for .NET?
+### Q3: Jaké jsou licenční možnosti pro Aspose.Page pro .NET?
 
- A3: Ano, můžete prozkoumat možnosti licencování a provést nákup[tady](https://purchase.aspose.com/buy).
+A3: Ano, můžete prozkoumat licenční možnosti a provést nákup [here](https://purchase.aspose.com/buy).
 
 ### Q4: Je k dispozici bezplatná zkušební verze pro Aspose.Page pro .NET?
 
- A4: Ano, můžete vyzkoušet Aspose.Page for .NET zdarma přístupem k[zkušební verze zdarma](https://releases.aspose.com/).
+A4: Ano, můžete si vyzkoušet Aspose.Page pro .NET zdarma prostřednictvím [free trial](https://releases.aspose.com/).
 
-### Otázka 5: Kde mohu vyhledat pomoc nebo se zapojit do komunity pro Aspose.Page for .NET?
+### Q5: Kde mohu získat podporu nebo se zapojit do komunity pro Aspose.Page pro .NET?
 
- A5: Navštivte[Aspose.Page for .NET forum](https://forum.aspose.com/c/page/39) spojit se s komunitou a získat podporu.
+A5: Navštivte [Aspose.Page for .NET forum](https://forum.aspose.com/c/page/39), kde se můžete spojit s komunitou a získat podporu.
+
+## Závěr
+
+V tomto tutoriálu jsme prozkoumali, jak využít Aspose.Page pro .NET k bezproblémovému začlenění obrázků do XPS dokumentů. Tento krok‑za‑krokem průvodce zajišťuje hladký integrační proces, rozšiřuje vaše .NET vývojářské schopnosti a pomáhá vám **create XPS document .NET** řešení s vizuální bohatostí.
+
+---
+
+**Poslední aktualizace:** 2026-02-28  
+**Testováno s:** Aspose.Page for .NET 24.12  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

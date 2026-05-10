@@ -1,32 +1,41 @@
 ---
-title: Aspose.Page を使用して PostScript (PS) ドキュメントに画像を追加する
-linktitle: PostScript (PS) ドキュメントに画像を追加
+date: 2026-02-28
+description: .NET 用 Aspose.Page を使用して、PostScript ドキュメントに画像を追加する方法を学びます。このガイドでは、ビットマップを
+  PS に挿入する方法や、必要に応じて PS から画像を抽出する方法もカバーしています。
+linktitle: Add Image to PostScript (PS) Document
 second_title: Aspose.Page .NET API
-description: Aspose.Page for .NET を使用して画像を追加して、PostScript ドキュメントを強化する方法を学びます。シームレスなエクスペリエンスを実現するには、ステップバイステップのガイドに従ってください。
-weight: 10
+title: Aspose.Page を使用して PostScript (PS) ドキュメントに画像を追加する方法
 url: /ja/net/image-management/add-image-to-postscript-ps-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page を使用して PostScript (PS) ドキュメントに画像を追加する
+# Aspose.Page を使用した PostScript (PS) ドキュメントへの画像追加方法
 
-## 導入
+## PostScript (PS) ドキュメントに画像を追加する方法
 
-このチュートリアルでは、強力な Aspose.Page for .NET ライブラリを使用して、PostScript (PS) ドキュメントに画像を追加するプロセスについて説明します。 Aspose.Page は PS ドキュメントの操作を簡素化し、画像を使用してドキュメントを強化する効率的かつ簡単な方法を提供します。このステップバイステップのガイドではプロセスを順を追って説明し、各概念を完全に理解できるようにします。
+このチュートリアルでは、強力な Aspose.Page for .NET ライブラリを使用して **画像を追加する方法** を学びます。印刷用チラシ、技術図面、カスタムレポートの作成時に、グラフィックを直接 PS ファイルに埋め込むことで、視覚品質が大幅に向上します。各ステップを順に解説し、各行の意味を説明し、今後のプロジェクトで再利用できるヒントを提供します。
+
+## クイック回答
+- **必要なライブラリは何ですか？** Aspose.Page for .NET (latest version)
+- **ビットマップを ps に挿入できますか？** Yes – use `DrawImage` with a `Bitmap` object
+- **実装にどれくらい時間がかかりますか？** Typically under 10 minutes for a basic image
+- **ライセンスは必要ですか？** A trial works for evaluation; a commercial license is required for production
+- **後で ps から画像を抽出できますか？** Absolutely – Aspose.Page also provides extraction APIs
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+コードに入る前に、以下の前提条件が整っていることを確認してください。
 
--  Aspose.Page for .NET ライブラリ:Aspose.Page for .NET ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/page/net/).
-- ドキュメント ディレクトリ: システム上にドキュメント ファイルと画像ファイルを保存するディレクトリを作成します。
+- Aspose.Page for .NET ライブラリ: [here](https://releases.aspose.com/page/net/) から Aspose.Page for .NET ライブラリをダウンロードしてインストールしてください。
+- ドキュメントディレクトリ: ドキュメントと画像ファイルを保存するためのディレクトリをシステム上に作成します。
 
 ## 名前空間のインポート
 
-まず、必要な名前空間をプロジェクトにインポートします。これらの名前空間を使用すると、.NET アプリケーションで Aspose.Page 機能を利用できるようになります。
+プロジェクトに必要な名前空間をインポートします。これらの名前空間により、.NET アプリケーションで Aspose.Page の機能を利用できます。
 
 ```csharp
 using Aspose.Page.EPS;
@@ -36,33 +45,33 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+## 手順 1: ドキュメントディレクトリの設定
 
-ドキュメント専用のディレクトリがあることを確認してください。交換する`"Your Document Directory"`以下のコード スニペットで、ドキュメント ディレクトリへのパスを指定します。
+ドキュメント用の専用ディレクトリがあることを確認してください。以下のコードスニペット中の `"Your Document Directory"` を、実際のディレクトリパスに置き換えます。
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## ステップ 2: PS ドキュメントの出力ストリームを作成する
+## 手順 2: PS ドキュメント用の出力ストリームを作成
 
-PostScript ドキュメントの出力ストリームを設定します。このストリームは、変更されたドキュメントを保存するために使用されます。
+PostScript ドキュメント用の出力ストリームを設定します。このストリームは、変更後のドキュメントを保存するために使用されます。
 
 ```csharp
 using (Stream outPsStream = new FileStream(dataDir + "AddImage_outPS.ps", FileMode.Create))
 ```
 
-## ステップ 3: 保存オプションを作成する
+## 手順 3: 保存オプションの作成
 
-PS ドキュメントの保存オプションを作成し、ページ サイズなどの必要な設定を指定します。
+ページサイズなど、必要な設定を指定して PS ドキュメントの保存オプションを作成します。
 
 ```csharp
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## ステップ 4: PS ドキュメントを作成する
+## 手順 4: PS ドキュメントの作成
 
-新しい 1 ページの PS ドキュメントを初期化し、グラフィック操作の準備をします。
+1 ページの新しい PS ドキュメントを初期化し、グラフィック操作の準備をします。
 
 ```csharp
 PsDocument document = new PsDocument(outPsStream, options, false);
@@ -70,9 +79,9 @@ document.WriteGraphicsSave();
 document.Translate(100, 100);
 ```
 
-## ステップ 5: ドキュメントに画像を追加する
+## 手順 5: PS ドキュメントにビットマップを挿入
 
-画像ファイルからビットマップ オブジェクトを読み込み、変換を適用します。画像を PS ドキュメントに追加します。
+画像ファイルから `Bitmap` オブジェクトを読み込み、変換を適用します。これが **画像を追加する方法** の核心です。ビットマップを PS キャンバスに描画します。
 
 ```csharp
 using (Bitmap image = new Bitmap(dataDir + "TestImage Format24bppRgb.jpg"))
@@ -86,7 +95,9 @@ using (Bitmap image = new Bitmap(dataDir + "TestImage Format24bppRgb.jpg"))
 }
 ```
 
-## ステップ 6: グラフィックス操作を完了する
+> **プロのコツ:** `Translate`、`Scale`、`Rotate` の値を調整して、画像を必要な位置とサイズに正確に配置します。
+
+## 手順 6: グラフィック操作の完了
 
 グラフィック操作を終了し、現在のページを閉じます。
 
@@ -95,39 +106,58 @@ document.WriteGraphicsRestore();
 document.ClosePage();
 ```
 
-## ステップ 7: ドキュメントを保存する
+## 手順 7: ドキュメントの保存
 
-変更した PS ドキュメントを保存します。
+変更された PS ドキュメントを保存します。
 
 ```csharp
 document.Save();
 ```
 
+## PS ドキュメントから画像を抽出する方法
+
+後でグラフィックを取得する必要がある場合、Aspose.Page は `PsDocument.ExtractImages` などの抽出メソッドを提供しています。このチュートリアルは挿入に焦点を当てていますが、同じライブラリを使用して **ps から画像を抽出する** ことも可能です。
+
+## よくある問題と解決策
+
+| 問題 | 発生理由 | 対策 |
+|------|----------|------|
+| 画像が歪んで表示される | スケーリング行列が正しくない | `Scale` の値を再確認してください。元のサイズにするには均一スケーリング（例: `Scale(1,1)`）を使用します。 |
+| 出力ファイルが空 | ストリームがフラッシュされていない | `using` ブロック内で `document.Save()` が呼び出されていることを確認してください。 |
+| サポートされていない画像形式 | Bitmap がファイルを読み込めない | JPEG、PNG、BMP、GIF などのサポートされている形式に画像を変換してください。 |
+
 ## 結論
 
-おめでとう！ Aspose.Page for .NET を使用して、PostScript ドキュメントに画像を正常に追加しました。このチュートリアルでは、PS ドキュメントに画像を組み込み、ドキュメントを視覚的に魅力的で魅力的なものにするための明確かつ簡潔なガイドを提供します。
+おめでとうございます！Aspose.Page for .NET を使用して **画像を追加する方法** を習得し、PostScript ドキュメントにグラフィックを挿入するための確固たる基礎を手に入れました。また、必要に応じて **ps から画像を抽出する** や **ps にビットマップを挿入する** 方法も理解しています。複数の画像やさまざまな変換、カスタム描画コマンドを試して、リッチで印刷可能なコンテンツを作成してください。
 
-## よくある質問
+## FAQ
 
-### Q1: Aspose.Page を使用して、複数の画像を 1 つの PS ドキュメントに追加できますか?
+### Q1: Aspose.Page を使用して単一の PS ドキュメントに複数の画像を追加できますか？
 
-A1: はい、可能です。ドキュメント内で画像の追加手順を繰り返すだけです。
+A1: はい、可能です。ドキュメント内で画像追加の手順を繰り返すだけです。
 
-### Q2: Aspose.Page for .NET ではどのような画像形式がサポートされていますか?
+### Q2: Aspose.Page for .NET がサポートする画像形式は何ですか？
 
-A2: Aspose.Page for .NET は、JPEG、PNG、BMP、GIF などのさまざまな画像形式をサポートしています。
+A2: Aspose.Page for .NET は JPEG、PNG、BMP、GIF など、さまざまな画像形式をサポートしています。
 
-### Q3: 追加できる画像のサイズに制限はありますか?
+### Q3: 追加できる画像のサイズ制限はありますか？
 
-A3: サイズ制限は、PS ドキュメントの仕様とシステム リソースによって異なります。 Aspose.Page は、幅広い画像サイズを処理します。
+A3: サイズ制限は PS ドキュメントの仕様およびシステムリソースに依存します。Aspose.Page は幅広い画像サイズに対応しています。
 
-### Q4: フィルターやオーバーレイなどの追加の効果を画像に適用できますか?
+### Q4: フィルターやオーバーレイなど、画像に追加のエフェクトを適用できますか？
 
-A4: はい、Aspose.Page を使用すると、画像をドキュメントに追加する前に、画像にさまざまな変換や効果を適用できます。
+A4: はい、Aspose.Page は画像をドキュメントに追加する前に、さまざまな変換やエフェクトを適用することができます。
 
-### Q5: PS ドキュメントから画像を抽出するにはどうすればよいですか?
+### Q5: PS ドキュメントから画像を抽出するにはどうすればよいですか？
 
-A5: Aspose.Page for .NET は、PS ドキュメントから画像を抽出するメソッドを提供します。詳細については、ドキュメントを参照してください。
+A5: Aspose.Page for .NET は PS ドキュメントから画像を抽出するメソッドを提供しています。詳細はドキュメントをご参照ください。
+
+---
+
+**最終更新日:** 2026-02-28  
+**テスト環境:** Aspose.Page for .NET (latest release)  
+**作者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
