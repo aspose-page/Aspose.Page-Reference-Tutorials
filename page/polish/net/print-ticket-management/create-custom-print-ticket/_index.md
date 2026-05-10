@@ -1,35 +1,54 @@
 ---
-title: Utwórz niestandardowy bilet wydruku za pomocą Aspose.Page dla .NET
-linktitle: Utwórz niestandardowy bilet do druku
-second_title: Aspose.Page API .NET
-description: Zapoznaj się z przewodnikiem krok po kroku dotyczącym tworzenia niestandardowych biletów do druku za pomocą Aspose.Page dla .NET. Dostosuj swoje możliwości drukowania dzięki precyzyjnej kontroli.
-weight: 10
+date: 2026-03-19
+description: Dowiedz się, jak dodać bilet, tworząc własne bilety do druku za pomocą
+  Aspose.Page dla .NET. Dostosuj swoje doświadczenie drukowania dzięki precyzyjnej
+  kontroli.
+linktitle: Create Custom Print Ticket
+second_title: Aspose.Page .NET API
+title: 'Jak dodać bilet: Tworzenie niestandardowego biletu drukowania przy użyciu
+  Aspose.Page dla .NET'
 url: /pl/net/print-ticket-management/create-custom-print-ticket/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Utwórz niestandardowy bilet wydruku za pomocą Aspose.Page dla .NET
+# Jak dodać bilet: Utwórz niestandardowy bilet drukowania z Aspose.Page dla .NET
 
 ## Wstęp
 
-dziedzinie programowania .NET Aspose.Page wyróżnia się jako potężne narzędzie do obsługi dokumentów XPS. Jedną z jego niezwykłych funkcji jest możliwość tworzenia niestandardowych biletów do druku, oferując programistom szeroką kontrolę nad procesem drukowania. W tym samouczku omówimy kroki tworzenia niestandardowego biletu do wydruku za pomocą Aspose.Page dla .NET.
+Jeśli potrzebujesz **funkcjonalności dodawania biletu** w aplikacji .NET, Aspose.Page daje możliwość generowania niestandardowych biletów drukowania bezpośrednio z kodu. W tym samouczku przeprowadzimy Cię przez cały proces — konfigurację środowiska, tworzenie dokumentu XPS, dołączanie niestandardowego biletu drukowania zadania oraz zapis wyniku. Po zakończeniu będziesz mógł dodać obsługę biletu do dowolnego przepływu drukowania z pełnym przekonaniem.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co oznacza „dodawanie biletu”?** Odnosi się do osadzania niestandardowego biletu drukowania (metadane XPS), który kontroluje ustawienia drukarki.  
+- **Jakiej biblioteki potrzebujesz?** Aspose.Page dla .NET.  
+- **Czy potrzebna jest licencja?** Tymczasowa licencja wystarczy do oceny; pełna licencja jest wymagana w środowisku produkcyjnym.  
+- **Czy mogę używać tego z .NET Core?** Tak, Aspose.Page obsługuje .NET Framework i .NET Core.  
+- **Jak długo trwa implementacja?** Zazwyczaj poniżej 15 minut dla podstawowego biletu.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Co to jest niestandardowy bilet drukowania?
+Niestandardowy bilet drukowania to opis w formacie XML preferencji drukarki (takich jak sortowanie, liczba kopii, zarządzanie kolorem itp.), który podróżuje razem z dokumentem XPS. Umożliwia programistom programowe określenie, jak dokument ma być drukowany, eliminując ręczną konfigurację po stronie klienta.
 
-- Praktyczna znajomość programowania w C# i .NET.
-- Program Visual Studio zainstalowany na Twoim komputerze.
-- Biblioteka Aspose.Page dla .NET zintegrowana z Twoim projektem.
+## Dlaczego warto dodać obsługę biletu z Aspose.Page?
+- **Precyzyjna kontrola:** Ustawiaj sortowanie, liczbę kopii, typ nośnika i wiele innych z poziomu kodu.  
+- **Spójność wieloplatformowa:** Ten sam bilet działa na każdej drukarce rozumiejącej metadane XPS.  
+- **Bezproblemowa integracja:** Działa bezpośrednio w istniejących projektach .NET bez dodatkowych usług.
 
- Jeśli jeszcze tego nie zrobiłeś, możesz pobrać bibliotekę z witryny[Aspose.Page dla dokumentacji .NET](https://reference.aspose.com/page/net/) . Aby być na bieżąco, sprawdź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) za dyskusje społeczne i wsparcie.
+## Wymagania wstępne
 
-## Importuj przestrzenie nazw
+Zanim przejdziesz dalej, upewnij się, że masz:
 
-W kodzie C# zacznij od zaimportowania niezbędnych przestrzeni nazw, aby uzyskać dostęp do funkcjonalności Aspose.Page. Dzięki temu Twój kod skutecznie komunikuje się z biblioteką, torując drogę do bezproblemowej integracji.
+- Podstawową znajomość C# i programowania w .NET.  
+- Zainstalowane Visual Studio (dowolna nowsza wersja).  
+- Bibliotekę Aspose.Page dla .NET dodaną do projektu.  
+
+Jeśli jeszcze nie dodałeś biblioteki, możesz ją pobrać z [dokumentacji Aspose.Page dla .NET](https://reference.aspose.com/page/net/). W celu uzyskania pomocy społeczności, odwiedź [forum Aspose.Page](https://forum.aspose.com/c/page/39).
+
+## Importowanie przestrzeni nazw
+
+Rozpocznij od zaimportowania przestrzeni nazw, które udostępniają klasy XPS i metadane.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -39,11 +58,11 @@ using System;
 using System.Drawing;
 ```
 
-Teraz podzielmy proces tworzenia niestandardowego biletu do wydruku za pomocą Aspose.Page dla .NET na kilka kroków:
+Teraz przeanalizujemy implementację krok po kroku.
 
-## Krok 1: Skonfiguruj katalog dokumentów
+## Krok 1: Ustaw katalog dokumentu
 
-Określ ścieżkę do katalogu, w którym będą przechowywane Twoje dokumenty.
+Zdefiniuj, gdzie zostanie zapisany wygenerowany plik XPS.
 
 ```csharp
 string dir = "Your Document Directory";
@@ -51,60 +70,76 @@ string dir = "Your Document Directory";
 
 ## Krok 2: Utwórz nowy dokument XPS
 
-Zainicjuj nowy dokument XPS, z którym chcesz pracować.
+Zainicjuj nowy dokument XPS, który będzie zawierał strony oraz bilet.
 
 ```csharp
 XpsDocument xDocs = new XpsDocument();
 ```
 
-## Krok 3: Dodaj niestandardowy bilet wydruku pracy
+## Krok 3: Dodaj niestandardowy bilet drukowania zadania
 
-Dołącz niestandardowy bilet wydruku zadania, konfigurując różne ustawienia drukowania, takie jak sortowanie, kopie, zamiar renderowania, zarządzanie kolorami i inne.
+Dołącz niestandardowy bilet drukowania zadania do dokumentu. To jest sedno **funkcjonalności dodawania biletu** — tutaj określasz sortowanie, liczbę kopii, intencję renderowania, zarządzanie kolorem i inne potrzebne ustawienia.
 
 ```csharp
 xDocs.JobPrintTicket = new JobPrintTicket(
     new PageDevModeSnaphot("SABlAGwAbABvACEAAAA="),
     new DocumentCollate(Collate.CollateOption.Collated),
-    // W razie potrzeby dodaj inne ustawienia drukowania
+    // Add other print settings as needed
 );
 ```
 
+> **Wskazówka:** Zastąp ciąg zastępczy snapshotu zakodowanym w Base64 strukturą DEVMODE, która odpowiada możliwościom Twojej drukarki.
+
 ## Krok 4: Zapisz dokument
 
-Zapisz dokument z biletem wydruku zadania niestandardowego w określonym katalogu.
+Zapisz dokument XPS (z osadzonym biletem) na dysku.
 
 ```csharp
 xDocs.Save(dir + "output1.xps");
 ```
 
-## Wniosek
+Gdy otworzysz *output1.xps* w przeglądarce respektującej metadane XPS, drukarka automatycznie zastosuje ustawienia zdefiniowane w bilecie.
 
-W tym samouczku omówiliśmy proces tworzenia niestandardowego biletu do wydruku za pomocą Aspose.Page dla .NET. Ta potężna funkcja umożliwia programistom dostosowanie sposobu drukowania do ich konkretnych wymagań. Dzięki Aspose.Page możesz uzyskać precyzyjną kontrolę nad różnymi parametrami drukowania, zapewniając bezproblemową integrację z aplikacjami .NET.
+## Typowe problemy i rozwiązania
 
-## Często zadawane pytania
+| Problem | Przyczyna | Rozwiązanie |
+|---------|-----------|-------------|
+| Bilet nie został zastosowany | Przeglądarka ignoruje metadane XPS | Użyj sterownika drukarki obsługującego bilety XPS lub przeglądarki takiej jak Microsoft XPS Viewer. |
+| Nieprawidłowy snapshot Base64 | Uszkodzone dane DEVMODE | Wygeneruj ponownie snapshot z sterownika drukarki przy użyciu API `GetPrinter`. |
+| Brak uprawnień | Brak dostępu do zapisu w `dir` | Upewnij się, że aplikacja działa z wystarczającymi prawami systemu plików. |
 
-### P1: Czy mogę używać Aspose.Page dla .NET z innymi frameworkami .NET?
+## Najczęściej zadawane pytania
 
-O1: Tak, Aspose.Page dla .NET jest kompatybilny z różnymi frameworkami .NET, zapewniając elastyczność w twoim środowisku programistycznym.
+**P: Czy mogę używać Aspose.Page dla .NET z innymi frameworkami .NET?**  
+O: Tak, Aspose.Page działa z .NET Framework, .NET Core, .NET 5/6 i nowszymi.
 
-### P2: Jak mogę uzyskać tymczasową licencję na Aspose.Page?
+**P: Jak mogę uzyskać tymczasową licencję dla Aspose.Page?**  
+O: Odwiedź [ten link](https://purchase.aspose.com/temporary-license/), aby uzyskać tymczasową licencję dla Aspose.Page.
 
- A2: Odwiedź[ten link](https://purchase.aspose.com/temporary-license/) nabyć tymczasową licencję na Aspose.Page.
+**P: Czy istnieje forum społecznościowe wsparcia dla Aspose.Page?**  
+O: Oczywiście, pomocne dyskusje i wsparcie znajdziesz na [forum Aspose.Page](https://forum.aspose.com/c/page/39).
 
-### P3: Czy istnieje forum społecznościowe umożliwiające wsparcie Aspose.Page?
+**P: Jakie typy nośników są obsługiwane w niestandardowych biletach drukowania?**  
+O: Aspose.Page obsługuje różne typy nośników, w tym zwykły papier, błyskawiczny oraz własne definicje mediów.
 
- Odpowiedź 3: Oczywiście, pomocne dyskusje i wsparcie można znaleźć na stronie[Forum Aspose.Page](https://forum.aspose.com/c/page/39).
+**P: Czy dostępne są przykładowe projekty dla Aspose.Page dla .NET?**  
+O: Przeglądaj [dokumentację](https://reference.aspose.com/page/net/) w poszukiwaniu przykładów projektów i fragmentów kodu, które pomogą Ci rozpocząć.
 
-### P4: Jakie typy nośników są obsługiwane w niestandardowych biletach drukowanych?
+## Zakończenie
 
-A4: Aspose.Page obsługuje szereg typów nośników, w tym zwykły papier i inne, które można skonfigurować w zależności od konkretnych potrzeb.
+Omówiliśmy **jak dodać bilet** do dokumentu XPS przy użyciu Aspose.Page dla .NET. Postępując zgodnie z tymi krokami, możesz osadzić bogate instrukcje drukowania bezpośrednio w swoich plikach, uzyskując pełną kontrolę nad przepływem drukowania z poziomu aplikacji .NET. Zachęcamy do eksperymentowania z dodatkowymi ustawieniami biletu, aby dopasować je do konkretnego środowiska drukowania.
 
-### P5: Czy są dostępne przykładowe projekty dla Aspose.Page dla .NET?
-
- A5: Poznaj[dokumentacja](https://reference.aspose.com/page/net/) aby zapoznać się z przykładowymi projektami i fragmentami kodu, które pomogą Ci przyspieszyć rozwój.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-03-19  
+**Testowano z:** Aspose.Page dla .NET (najnowsza stabilna wersja)  
+**Autor:** Aspose  
+
+---

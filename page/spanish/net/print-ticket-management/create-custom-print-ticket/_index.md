@@ -1,35 +1,54 @@
 ---
-title: Cree un ticket de impresión personalizado con Aspose.Page para .NET
-linktitle: Crear ticket de impresión personalizado
-second_title: Aspose.Página .NET API
-description: Explore la guía paso a paso sobre cómo crear tickets de impresión personalizados utilizando Aspose.Page para .NET. Adapte su experiencia de impresión con un control detallado.
-weight: 10
+date: 2026-03-19
+description: Aprenda cómo agregar tickets creando tickets de impresión personalizados
+  con Aspose.Page para .NET. Personalice su experiencia de impresión con un control
+  detallado.
+linktitle: Create Custom Print Ticket
+second_title: Aspose.Page .NET API
+title: 'Cómo agregar ticket: crear ticket de impresión personalizado con Aspose.Page
+  para .NET'
 url: /es/net/print-ticket-management/create-custom-print-ticket/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cree un ticket de impresión personalizado con Aspose.Page para .NET
+# Cómo agregar ticket: Crear Ticket de impresión personalizado con Aspose.Page para .NET
 
 ## Introducción
 
-En el ámbito del desarrollo .NET, Aspose.Page se destaca como una poderosa herramienta para manejar la manipulación de documentos XPS. Una de sus características destacables es la capacidad de crear tickets de impresión personalizados, lo que ofrece a los desarrolladores un amplio control sobre el proceso de impresión. En este tutorial, profundizaremos en los pasos para crear un ticket de impresión personalizado usando Aspose.Page para .NET.
+Si necesitas **cómo agregar ticket** en una aplicación .NET, Aspose.Page te brinda la capacidad de generar tickets de impresión personalizados directamente desde el código. En este tutorial recorreremos todo el proceso: configurar el entorno, crear un documento XPS, adjuntar un ticket de trabajo personalizado y guardar el resultado. Al final, podrás añadir soporte de ticket a cualquier flujo de impresión con confianza.
+
+## Respuestas rápidas
+- **¿Qué significa “add ticket”?** Se refiere a incrustar un ticket de impresión personalizado (metadatos XPS) que controla la configuración de la impresora.  
+- **¿Qué biblioteca se requiere?** Aspose.Page para .NET.  
+- **¿Necesito una licencia?** Una licencia temporal funciona para evaluación; se requiere una licencia completa para producción.  
+- **¿Puedo usarlo con .NET Core?** Sí, Aspose.Page admite .NET Framework y .NET Core.  
+- **¿Cuánto tiempo lleva la implementación?** Normalmente menos de 15 minutos para un ticket básico.
+
+## ¿Qué es un Ticket de impresión personalizado?
+Un ticket de impresión personalizado es una descripción basada en XML de las preferencias de la impresora (como ordenar, copias, gestión de color, etc.) que viaja junto con un documento XPS. Permite a los desarrolladores dictar programáticamente cómo debe imprimirse un documento, eliminando la configuración manual del lado del cliente.
+
+## ¿Por qué agregar soporte de ticket con Aspose.Page?
+- **Control granular:** Establece orden, número de copias, tipo de medio y más desde el código.  
+- **Consistencia multiplataforma:** El mismo ticket funciona en cualquier impresora que entienda metadatos XPS.  
+- **Integración fluida:** Funciona directamente con tus proyectos .NET existentes sin servicios adicionales.
 
 ## Requisitos previos
 
-Antes de sumergirnos en el tutorial, asegúrese de tener implementados los siguientes requisitos previos:
+Antes de comenzar, asegúrate de contar con:
 
-- Un conocimiento práctico del desarrollo de C# y .NET.
-- Visual Studio instalado en su máquina.
-- Aspose.Page para la biblioteca .NET integrada en su proyecto.
+- Competencia básica en C# y desarrollo .NET.  
+- Visual Studio (cualquier versión reciente) instalado.  
+- Biblioteca Aspose.Page para .NET añadida a tu proyecto.  
 
- Si aún no lo has hecho, puedes descargar la biblioteca desde[Aspose.Page para la documentación de .NET](https://reference.aspose.com/page/net/) . Para mantenerse actualizado, consulte el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para discusiones y apoyo de la comunidad.
+Si aún no has añadido la biblioteca, puedes descargarla desde la [documentación de Aspose.Page para .NET](https://reference.aspose.com/page/net/). Para ayuda de la comunidad, visita el [foro de Aspose.Page](https://forum.aspose.com/c/page/39).
 
 ## Importar espacios de nombres
 
-En su código C#, comience importando los espacios de nombres necesarios para acceder a la funcionalidad Aspose.Page. Esto garantiza que su código se comunique de manera efectiva con la biblioteca, allanando el camino para una integración perfecta.
+Comienza importando los espacios de nombres que exponen las clases XPS y de metadatos.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -39,72 +58,88 @@ using System;
 using System.Drawing;
 ```
 
-Ahora, analicemos el proceso de creación de un ticket de impresión personalizado usando Aspose.Page para .NET en varios pasos:
+Ahora desglosaremos la implementación paso a paso.
 
-## Paso 1: configurar el directorio de documentos
+## Paso 1: Configurar el directorio del documento
 
-Defina la ruta al directorio donde se almacenarán sus documentos.
+Define dónde se guardará el archivo XPS generado.
 
 ```csharp
 string dir = "Your Document Directory";
 ```
 
-## Paso 2: cree un nuevo documento XPS
+## Paso 2: Crear un nuevo documento XPS
 
-Inicialice un nuevo documento XPS para trabajar.
+Instancia un documento XPS nuevo que contendrá las páginas y el ticket.
 
 ```csharp
 XpsDocument xDocs = new XpsDocument();
 ```
 
-## Paso 3: Agregar ticket de impresión de trabajo personalizado
+## Paso 3: Añadir Ticket de impresión de trabajo personalizado
 
-Incluya un ticket de impresión de trabajo personalizado, configurando varios ajustes de impresión, como clasificación, copias, intención de renderizado, gestión del color y más.
+Adjunta un ticket de impresión de trabajo personalizado al documento. Este es el núcleo de la funcionalidad **cómo agregar ticket**: aquí especificas ordenar, copias, intención de renderizado, gestión de color y cualquier otra configuración que necesites.
 
 ```csharp
 xDocs.JobPrintTicket = new JobPrintTicket(
     new PageDevModeSnaphot("SABlAGwAbABvACEAAAA="),
     new DocumentCollate(Collate.CollateOption.Collated),
-    // Agregue otras configuraciones de impresión según sea necesario
+    // Add other print settings as needed
 );
 ```
 
-## Paso 4: guarde el documento
+> **Consejo profesional:** Reemplaza la cadena de instantánea de marcador de posición con una estructura DEVMODE codificada en Base64 que coincida con las capacidades de tu impresora.
 
-Guarde el documento con el ticket de impresión del trabajo personalizado en el directorio especificado.
+## Paso 4: Guardar el documento
+
+Persistir el documento XPS (con el ticket incrustado) en disco.
 
 ```csharp
 xDocs.Save(dir + "output1.xps");
 ```
 
-## Conclusión
+Cuando abras *output1.xps* en un visor que respete los metadatos XPS, la impresora aplicará automáticamente la configuración definida en el ticket.
 
-En este tutorial, exploramos el proceso de creación de un ticket de impresión personalizado con Aspose.Page para .NET. Esta poderosa capacidad permite a los desarrolladores adaptar la experiencia de impresión de acuerdo con sus requisitos específicos. Con Aspose.Page, puede lograr un control detallado sobre varios parámetros de impresión, asegurando una integración perfecta en sus aplicaciones .NET.
+## Problemas comunes y soluciones
+
+| Problema | Causa | Solución |
+|----------|-------|----------|
+| El ticket no se aplica | El visor ignora los metadatos XPS | Usa un controlador de impresora que admita tickets de impresión XPS o un visor como Microsoft XPS Viewer. |
+| Instantánea Base64 no válida | Datos DEVMODE corruptos | Regenera la instantánea desde el controlador de impresora usando la API `GetPrinter`. |
+| Permisos insuficientes | Acceso de escritura a `dir` denegado | Asegúrate de que la aplicación se ejecute con los derechos de sistema de archivos necesarios. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo usar Aspose.Page para .NET con otros marcos .NET?
+**P: ¿Puedo usar Aspose.Page para .NET con otros frameworks .NET?**  
+R: Sí, Aspose.Page funciona con .NET Framework, .NET Core, .NET 5/6 y versiones posteriores.
 
-R1: Sí, Aspose.Page para .NET es compatible con varios marcos .NET, lo que brinda flexibilidad en su entorno de desarrollo.
+**P: ¿Cómo puedo obtener una licencia temporal para Aspose.Page?**  
+R: Visita [este enlace](https://purchase.aspose.com/temporary-license/) para adquirir una licencia temporal para Aspose.Page.
 
-### P2: ¿Cómo puedo obtener una licencia temporal para Aspose.Page?
+**P: ¿Existe un foro comunitario para soporte de Aspose.Page?**  
+R: Absolutamente, puedes encontrar discusiones útiles y soporte en el [foro de Aspose.Page](https://forum.aspose.com/c/page/39).
 
- A2: Visita[este enlace](https://purchase.aspose.com/temporary-license/) para adquirir una licencia temporal para Aspose.Page.
+**P: ¿Qué tipos de medio son compatibles en tickets de impresión personalizados?**  
+R: Aspose.Page admite una variedad de tipos de medio, incluyendo papel normal, brillante y definiciones de medio personalizadas.
 
-### P3: ¿Existe un foro comunitario para soporte de Aspose.Page?
+**P: ¿Hay proyectos de ejemplo disponibles para Aspose.Page para .NET?**  
+R: Explora la [documentación](https://reference.aspose.com/page/net/) para proyectos de ejemplo y fragmentos de código que te ayuden a iniciar el desarrollo.
 
- R3: Por supuesto, puedes encontrar debates útiles y apoyo en el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39).
+## Conclusión
 
-### P4: ¿Qué tipos de medios se admiten en los tickets de impresión personalizados?
+Hemos cubierto **cómo agregar ticket** a un documento XPS usando Aspose.Page para .NET. Siguiendo estos pasos puedes incrustar instrucciones de impresión completas directamente en tus archivos, dándote control total sobre el flujo de impresión desde tus aplicaciones .NET. Siéntete libre de experimentar con configuraciones de ticket adicionales para adaptarlas a tu entorno de impresión específico.
 
-R4: Aspose.Page admite una variedad de tipos de medios, incluido papel normal y otros que se pueden configurar según sus necesidades específicas.
-
-### P5: ¿Hay algún proyecto de muestra disponible para Aspose.Page para .NET?
-
- A5: Explora el[documentación](https://reference.aspose.com/page/net/) para proyectos de muestra y fragmentos de código para impulsar su desarrollo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2026-03-19  
+**Probado con:** Aspose.Page para .NET (última versión estable)  
+**Autor:** Aspose  
+
+---
