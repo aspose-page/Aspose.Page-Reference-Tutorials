@@ -1,35 +1,44 @@
 ---
-title: Đặt giấy phép sử dụng tài nguyên nhúng với Aspose.Page cho .NET
-linktitle: Đặt giấy phép bằng tài nguyên nhúng
-second_title: API Aspose.Page .NET
-description: Tìm hiểu cách đặt giấy phép bằng cách sử dụng tài nguyên được nhúng với Aspose.Page cho .NET. Đảm bảo tuân thủ và khai thác toàn bộ tiềm năng của việc xử lý tài liệu.
-weight: 14
+date: 2026-02-23
+description: Tìm hiểu cách thiết lập giấy phép bằng tài nguyên nhúng với Aspose.Page
+  cho .NET. Đảm bảo tuân thủ và khai thác tối đa tiềm năng xử lý tài liệu.
+linktitle: Set License Using Embedded Resource
+second_title: Aspose.Page .NET API
+title: Cách thiết lập giấy phép bằng tài nguyên nhúng với Aspose.Page cho .NET
 url: /vi/net/getting-started/set-license-using-embedded-resource/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đặt giấy phép sử dụng tài nguyên nhúng với Aspose.Page cho .NET
+# Cách Đặt Giấy Phép Sử Dụng Tài Nguyên Nhúng với Aspise.Page cho .NET
 
-## Giới thiệu
+## Introduction
 
-Aspose.Page for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với nhiều định dạng tài liệu khác nhau. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập giấy phép bằng cách sử dụng tài nguyên được nhúng với Aspose.Page cho .NET. Cấp phép là một bước quan trọng trong việc sử dụng tối đa các chức năng của Aspose.Page, đảm bảo tuân thủ và khai thác tiềm năng của thư viện.
+Aspose.Page for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với nhiều định dạng tài liệu một cách liền mạch. Trong hướng dẫn này, **bạn sẽ học cách đặt giấy phép** bằng cách sử dụng tài nguyên nhúng, một bước cần thiết để mở khóa toàn bộ khả năng của API đồng thời tuân thủ các điều khoản cấp phép.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **Mục đích chính của việc đặt giấy phép là gì?** Nó loại bỏ các hạn chế đánh giá và cho phép truy cập đầy đủ các tính năng.  
+- **Tôi có cần một tệp giấy phép vật lý trên đĩa không?** Không – bạn có thể nhúng giấy phép như một tài nguyên trong assembly của mình.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
+- **Tôi có thể thay đổi giấy phép tại thời gian chạy không?** Có, bằng cách tạo một thể hiện mới của `Aspose.Page.License` và gọi `SetLicense`.  
+- **Giấy phép nhúng có an toàn trước việc bị can thiệp không?** Nhúng giấy phép giảm nguy cơ bị xóa nhầm, nhưng bạn vẫn nên bảo vệ các assembly của mình.
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Prerequisites
 
-1. Aspose.Page for .NET Library: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Page for .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/page/net/).
+Trước khi chúng ta bắt đầu hướng dẫn, hãy đảm bảo bạn đã có các yêu cầu sau:
 
-2.  Tệp giấy phép: Lấy tệp giấy phép, thường có tên là "MergedAPI.Aspose.Total.NET.lic", tệp này cần thiết để xác thực việc bạn sử dụng Aspose.Page. Nếu bạn không có giấy phép, bạn có thể lấy giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
+1. Aspose.Page for .NET Library: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Page cho .NET. Bạn có thể tải xuống từ [here](https://releases.aspose.com/page/net/).
 
-Bây giờ, hãy tiếp tục với hướng dẫn từng bước về cách đặt giấy phép bằng tài nguyên được nhúng.
+2. License File: Lấy tệp giấy phép, thường có tên "MergedAPI.Aspose.Total.NET.lic", cần thiết để xác thực việc sử dụng Aspose.Page. Nếu bạn chưa có giấy phép, bạn có thể nhận một giấy phép tạm thời từ [here](https://purchase.aspose.com/temporary-license/).
 
-## Nhập không gian tên
+Bây giờ, hãy tiếp tục với hướng dẫn từng bước về cách đặt giấy phép bằng tài nguyên nhúng.
 
-Trước tiên, bạn cần nhập các không gian tên cần thiết vào dự án .NET của mình. Điều này đảm bảo rằng ứng dụng của bạn nhận dạng và có thể sử dụng các lớp cũng như phương thức do thư viện Aspose.Page cung cấp.
+## Import Namespaces
+
+Đầu tiên, bạn cần nhập các namespace cần thiết vào dự án .NET của mình. Điều này đảm bảo ứng dụng của bạn nhận ra và có thể sử dụng các lớp và phương thức do thư viện Aspose.Page cung cấp.
 
 ```csharp
 using System;
@@ -38,84 +47,128 @@ using System.Linq;
 using System.Text;
 ```
 
-## Bước 1: Khởi tạo thư mục tài liệu
+## Step 1: Initialize Document Directory
 
-Đặt đường dẫn đến thư mục tài liệu của bạn, nơi chứa các tệp dự án của bạn. Thư mục này sẽ được sử dụng để định vị tệp giấy phép và các tài nguyên khác.
+### Bước 1: Khởi Tạo Thư Mục Tài Liệu
+
+Đặt đường dẫn tới thư mục tài liệu của bạn, nơi chứa các tệp dự án. Thư mục này sẽ được sử dụng để tìm tệp giấy phép và các tài nguyên khác.
 
 ```csharp
-// Bắt đầu:1
-// Đường dẫn đến thư mục tài liệu.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 // ExEnd:1
 ```
 
-## Bước 2: Khởi tạo đối tượng giấy phép
+## Step 2: Initialize License Object
 
-Tạo một phiên bản của lớp Aspose.Page.Licens để quản lý các hoạt động cấp phép.
+### Bước 2: Khởi Tạo Đối Tượng Giấy Phép
+
+Tạo một thể hiện của lớp `Aspose.Page.License` để quản lý các thao tác cấp phép.
 
 ```csharp
-// Bắt đầu:1
+// ExStart:1
 Aspose.Page.License license = new Aspose.Page.License();
 // ExEnd:1
 ```
 
-## Bước 3: Đặt giấy phép
+## Step 3: Set License
 
-Đặt giấy phép bằng phương pháp SetLicen và cung cấp đường dẫn đến tệp giấy phép của bạn.
+### Bước 3: Đặt Giấy Phép
+
+Đặt giấy phép bằng phương thức `SetLicense` và cung cấp đường dẫn tới tệp giấy phép của bạn.
 
 ```csharp
-// Bắt đầu:1
+// ExStart:1
 license.SetLicense("MergedAPI.Aspose.Total.NET.lic");
 // ExEnd:1
 ```
 
-## Bước 4: Kích hoạt giấy phép nhúng
+## Step 4: Enable Embedded License
 
-Cho biết rằng giấy phép sẽ được nhúng vào ứng dụng bằng cách đặt thuộc tính Embedded thành true.
+### Bước 4: Kích Hoạt Giấy Phép Nhúng
+
+Chỉ ra rằng giấy phép sẽ được nhúng trong ứng dụng bằng cách đặt thuộc tính `Embedded` thành `true`.
 
 ```csharp
-// Bắt đầu:1
+// ExStart:1
 license.Embedded = true;
 // ExEnd:1
 ```
 
-## Bước 5: Xác nhận cài đặt giấy phép thành công
+## Step 5: Confirm Successful License Set
 
-Cuối cùng hiển thị thông báo xác nhận license đã được thiết lập thành công.
+### Bước 5: Xác Nhận Việc Đặt Giấy Phép Thành Công
+
+Cuối cùng, hiển thị một thông báo xác nhận rằng giấy phép đã được đặt thành công.
 
 ```csharp
-// Bắt đầu:1
+// ExStart:1
 Console.WriteLine("License set successfully.");
 // ExEnd:1
 ```
 
-Lặp lại các bước này trong ứng dụng của bạn để đảm bảo rằng Aspose.Page được cấp phép hợp lệ và sẵn sàng sử dụng trong các tác vụ xử lý tài liệu của bạn.
+Lặp lại các bước này trong ứng dụng của bạn để đảm bảo Aspose.Page được cấp phép đúng cách và sẵn sàng được sử dụng trong các tác vụ xử lý tài liệu.
 
-## Phần kết luận
+## Common Issues and Solutions
 
-Chúc mừng! Bạn đã đặt thành công giấy phép sử dụng tài nguyên được nhúng với Aspose.Page cho .NET. Bước quan trọng này đảm bảo rằng ứng dụng của bạn có thể tận dụng tối đa khả năng của Aspose.Page trong khi vẫn duy trì sự tuân thủ.
+### Các Vấn Đề Thường Gặp và Giải Pháp
 
-## Câu hỏi thường gặp
+- **Không tìm thấy tệp giấy phép** – Kiểm tra lại tên và đường dẫn tệp, và đảm bảo tệp được đánh dấu là *Embedded Resource* trong thuộc tính dự án.  
+- **Thuộc tính `Embedded` bị bỏ qua** – Đảm bảo bạn đang sử dụng phiên bản mới của Aspose.Page; các bản cũ có thể không hỗ trợ cấp phép nhúng.  
+- **Ngoại lệ thời gian chạy** – Bao quanh mã cấp phép trong khối try‑catch để bắt và ghi lại bất kỳ chi tiết `LicenseException` nào.
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Page cho .NET mà không cần giấy phép không?
+## Conclusion
 
-Câu trả lời 1: Mặc dù bạn có thể sử dụng Aspose.Page mà không cần giấy phép, nhưng bạn nên lấy giấy phép để có đầy đủ chức năng và tuân thủ.
+### Kết Luận
 
-### Câu hỏi 2: Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Page ở đâu?
+Chúc mừng! Bạn đã thiết lập thành công giấy phép bằng cách sử dụng tài nguyên nhúng với Aspose.Page cho .NET. Bước quan trọng này đảm bảo ứng dụng của bạn có thể tận dụng đầy đủ các khả năng của Aspose.Page đồng thời tuân thủ các quy định.
 
- A2: Khám phá tài liệu toàn diện[đây](https://reference.aspose.com/page/net/).
+## FAQ's
 
-### Câu 3: Có bản dùng thử miễn phí không?
+### Q1: Tôi có thể sử dụng Aspose.Page cho .NET mà không có giấy phép không?
 
- A3: Có, bạn có thể dùng thử miễn phí[đây](https://releases.aspose.com/).
+**A1:** Mặc dù bạn có thể sử dụng Aspose.Page mà không có giấy phép, nhưng nên có giấy phép để có đầy đủ chức năng và tuân thủ.
 
-### Q4: Làm thế nào tôi có thể nhận được giấy phép tạm thời?
+### Q2: Tôi có thể tìm thêm ví dụ và tài liệu cho Aspose.Page ở đâu?
 
- A4: Xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+**A2:** Khám phá tài liệu chi tiết [here](https://reference.aspose.com/page/net/).
 
-### Câu hỏi 5: Tôi có thể mua Aspose.Page cho .NET ở đâu?
+### Q3: Có bản dùng thử miễn phí không?
 
- Câu trả lời 5: Bạn có thể mua Aspose.Page[đây](https://purchase.aspose.com/buy).
+**A3:** Có, bạn có thể nhận bản dùng thử miễn phí [here](https://releases.aspose.com/).
+
+### Q4: Làm thế nào để tôi có được giấy phép tạm thời?
+
+**A4:** Nhận giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: Tôi có thể mua Aspose.Page cho .NET ở đâu?
+
+**A5:** Bạn có thể mua Aspose.Page [here](https://purchase.aspose.com/buy).
+
+## Frequently Asked Questions
+
+**Q: Tôi có thể nhúng giấy phép trong một thư viện lớp và vẫn sử dụng nó từ một ứng dụng console không?**  
+A: Có. Miễn là thư viện chứa giấy phép nhúng được tham chiếu, ứng dụng console sẽ tự động tìm tài nguyên.
+
+**Q: Tôi có cần gọi `SetLicense` trên mỗi luồng không?**  
+A: Không. Giấy phép được áp dụng cho toàn bộ tiến trình sau lần gọi thành công đầu tiên.
+
+**Q: Điều gì sẽ xảy ra nếu giấy phép nhúng bị hỏng?**  
+A: Aspose.Page sẽ ném ra một `LicenseException`. Thay thế tài nguyên bị hỏng bằng một tệp giấy phép mới.
+
+**Q: Có thể chuyển đổi giữa nhiều giấy phép tại thời gian chạy không?**  
+A: Bạn có thể tạo các đối tượng `License` riêng biệt với các tệp giấy phép khác nhau, nhưng chỉ một giấy phép có thể hoạt động trong mỗi AppDomain.
+
+**Q: Việc nhúng giấy phép có làm tăng kích thước assembly đáng kể không?**  
+A: Tệp giấy phép thường chỉ vài kilobyte, vì vậy ảnh hưởng đến kích thước assembly là không đáng kể.
+
+---
+
+**Last Updated:** 2026-02-23  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

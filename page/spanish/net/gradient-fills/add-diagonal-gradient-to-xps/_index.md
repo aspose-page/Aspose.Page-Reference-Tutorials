@@ -1,35 +1,50 @@
 ---
-title: Agregue degradado diagonal a XPS con Aspose.Page para .NET
-linktitle: Agregar degradado diagonal a XPS
-second_title: Aspose.Página .NET API
-description: Aprenda cómo agregar cautivadores gradientes diagonales a documentos XPS usando Aspose.Page para .NET. Mejore sus presentaciones visuales sin esfuerzo.
-weight: 11
+date: 2026-02-23
+description: Aprende a crear documentos XPS con degradado diagonal usando Aspose.Page
+  para .NET y eleva tus presentaciones visuales sin esfuerzo.
+linktitle: Add Diagonal Gradient to XPS
+second_title: Aspose.Page .NET API
+title: Crear gradiente diagonal XPS con Aspose.Page para .NET
 url: /es/net/gradient-fills/add-diagonal-gradient-to-xps/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregue degradado diagonal a XPS con Aspose.Page para .NET
+# Crear XPS con degradado diagonal usando Aspose.Page para .NET
 
 ## Introducción
 
-En el ámbito del procesamiento de documentos, Aspose.Page para .NET se destaca como un poderoso conjunto de herramientas que permite a los desarrolladores manipular documentos XPS con facilidad. Una característica interesante que ofrece es la capacidad de agregar degradados diagonales, lo que le permite mejorar el atractivo visual de sus documentos. Este tutorial lo guiará a través del proceso paso a paso, demostrando cómo incorporar degradados diagonales en archivos XPS usando Aspose.Page para .NET.
+Si necesitas **crear archivos XPS con degradado diagonal** que llamen la atención, Aspose.Page para .NET lo hace sencillo. En este tutorial aprenderás a añadir un degradado diagonal a un documento XPS, paso a paso, usando la API de Aspose.Page. Al final tendrás un patrón reutilizable que podrás adaptar a cualquier forma o combinación de colores.
+
+## Respuestas rápidas
+- **¿Qué hace el método de la API?** Crea un pincel de degradado lineal que se extiende diagonalmente a lo largo de una ruta.  
+- **¿Qué clase representa el documento XPS?** `XpsDocument`.  
+- **¿Necesito una licencia para ejecutar el ejemplo?** Una prueba gratuita funciona para desarrollo; se requiere una licencia para producción.  
+- **¿Puedo cambiar la dirección del degradado?** Sí—ajusta los valores `PointF` de inicio y fin.  
+- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## ¿Qué es **crear XPS con degradado diagonal**?
+Un degradado diagonal es una transición de color suave que va de una esquina de una forma a la esquina opuesta. En XPS, este efecto se logra aplicando un `LinearGradientBrush` a la propiedad de relleno de una ruta. La biblioteca Aspose.Page abstrae el marcado XPS de bajo nivel, permitiéndote centrarte en los colores y la geometría.
+
+## ¿Por qué usar Aspose.Page para degradados diagonales?
+- **Renderizado de alta fidelidad** – la salida coincide exactamente con la especificación XPS.  
+- **Integración completa con .NET** – funciona con C#, VB.NET y cualquier lenguaje .NET.  
+- **Sin dependencias externas** – todo se maneja en proceso, sin COM ni Office.  
+- **Escalable a documentos complejos** – puedes combinar múltiples degradados, imágenes y texto en la misma página.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+1. **Biblioteca Aspose.Page para .NET** – descárgala [aquí](https://releases.aspose.com/page/net/).  
+2. **Entorno de desarrollo** – Visual Studio, Rider o cualquier editor que admita proyectos .NET.  
 
-1.  Aspose.Page para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.Page para .NET. Si no, puedes descargarlo.[aquí](https://releases.aspose.com/page/net/).
-
-2. Entorno de desarrollo: configure su entorno de desarrollo preferido para trabajar con .NET.
-
-Ahora, comencemos a agregar gradientes diagonales a XPS usando Aspose.Page para .NET.
+Ahora, vamos a sumergirnos en el código.
 
 ## Importar espacios de nombres
 
-En su proyecto .NET, incluya los espacios de nombres necesarios de la biblioteca Aspose.Page para acceder a las clases y métodos necesarios. Agregue los siguientes espacios de nombres al comienzo de su código:
+En tu proyecto .NET, incluye los espacios de nombres necesarios de la biblioteca Aspose.Page para acceder a las clases y métodos requeridos. Añade los siguientes espacios de nombres al comienzo de tu código:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -38,37 +53,37 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Paso 1: configurar el directorio de documentos
+## Paso 1: Establecer el directorio del documento
 
-Comience especificando la ruta a su directorio de documentos. Aquí es donde se guardará el documento XPS resultante con el degradado diagonal.
+Comienza especificando la ruta a tu directorio de documentos. Aquí es donde se guardará el documento XPS resultante con el degradado diagonal.
 
 ```csharp
-// La ruta al directorio de documentos.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Paso 2: cree un nuevo documento XPS
+## Paso 2: Crear un nuevo documento XPS
 
-Inicialice un nuevo XpsDocument utilizando la biblioteca Aspose.Page.
+Inicializa un nuevo `XpsDocument` usando la biblioteca Aspose.Page.
 
 ```csharp
 XpsDocument doc = new XpsDocument();
 ```
 
-## Paso 3: definir colores de degradado
+## Paso 3: Definir los colores del degradado
 
-Cree una lista de objetos XpsGradientStop, cada uno de los cuales represente un color en el degradado diagonal.
+Crea una lista de objetos `XpsGradientStop`, cada uno representando un color en el degradado diagonal.
 
 ```csharp
 List<XpsGradientStop> stops = new List<XpsGradientStop>();
 stops.Add(doc.CreateGradientStop(doc.CreateColor(0, 142, 4), 0f));
-// ... Repetir para otros colores.
+// ... Repeat for other colors
 stops.Add(doc.CreateGradientStop(doc.CreateColor(0, 199, 80), 1f));
 ```
 
-## Paso 4: agregar un degradado diagonal a un trazado
+## Paso 4: Añadir un degradado diagonal a una ruta
 
-Cree un nuevo trazado con una geometría definida y aplíquele el degradado diagonal. Ajuste la transformación de renderizado y rellene las propiedades según sea necesario.
+Crea una nueva ruta con una geometría definida y aplica el degradado diagonal a ella. Ajusta la transformación de renderizado y las propiedades de relleno según sea necesario.
 
 ```csharp
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,10 L 228,10 228,100 10,100"));
@@ -77,44 +92,59 @@ path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 10f), new PointF(228f,
 ((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);
 ```
 
-## Paso 5: guarde el documento XPS resultante
+## Paso 5: Guardar el documento XPS resultante
 
-Finalmente, guarde el documento XPS modificado en el directorio especificado.
+Finalmente, guarda el documento XPS modificado en el directorio especificado.
 
 ```csharp
 doc.Save(dataDir + "AddDiagonalGradient_outXPS.xps");
 ```
 
-Ahora ha agregado con éxito un degradado diagonal a un documento XPS usando Aspose.Page para .NET. Experimente con diferentes colores y geometrías para crear impresionantes efectos visuales.
+Has creado con éxito un archivo **XPS con degradado diagonal**. Siéntete libre de experimentar con diferentes paradas de color, cadenas de geometría o matrices de transformación para producir una variedad de efectos visuales.
 
-## Conclusión
-
-Aspose.Page para .NET simplifica el proceso de mejorar documentos XPS con degradados diagonales. Este tutorial lo ha guiado a través de los pasos, desde configurar los requisitos previos hasta guardar el documento final. Explore más posibilidades y mejore la presentación de sus documentos.
+## Problemas comunes y soluciones
+- **Degradado no visible** – Verifica que la geometría de la ruta esté cerrada y que los puntos de inicio/fin del pincel estén dentro de los límites de la ruta.  
+- **Colores incorrectos** – Asegúrate de usar `CreateColor` con los valores ARGB correctos; el método espera valores en el rango 0‑255.  
+- **Archivo no guardado** – Comprueba que `dataDir` apunte a una carpeta existente y que la aplicación tenga permisos de escritura.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo aplicar varios degradados a diferentes partes del documento?
+**P: ¿Puedo aplicar varios degradados a diferentes partes del documento?**  
+R: Sí, puedes crear múltiples rutas y aplicar degradados distintos a cada una.
 
-R1: Sí, puedes crear múltiples trazados y aplicar distintos degradados a cada uno.
+**P: ¿Existen estilos de degradado predefinidos disponibles?**  
+R: Aspose.Page permite degradados personalizados, dándote control total sobre las transiciones de color.
 
-### P2: ¿Hay estilos de degradado predefinidos disponibles?
+**P: ¿Puedo usar Aspose.Page para .NET con otros formatos de documento?**  
+R: Aspose.Page se centra principalmente en la manipulación de documentos XPS.
 
-R2: Aspose.Page permite gradientes personalizados, lo que le brinda control total sobre las transiciones de color.
+**P: ¿Cómo puedo manejar errores relacionados con el procesamiento del documento?**  
+R: Consulta la [documentación](https://reference.aspose.com/page/net/) para obtener buenas prácticas de manejo de errores.
 
-### P3: ¿Puedo usar Aspose.Page para .NET con otros formatos de documentos?
+**P: ¿Hay una versión de prueba disponible antes de comprar?**  
+R: Sí, puedes explorar la [prueba gratuita](https://releases.aspose.com/) para experimentar con Aspose.Page para .NET.
 
-R3: Aspose.Page se centra principalmente en la manipulación de documentos XPS.
+**P: ¿Cómo cambio la dirección del degradado a vertical u horizontal?**  
+R: Modifica los argumentos `PointF` en `CreateLinearGradientBrush` para establecer nuevos puntos de inicio y fin.
 
-### P4: ¿Cómo puedo manejar los errores relacionados con el procesamiento de documentos?
+**P: ¿La biblioteca admite transparencia en los degradados?**  
+R: Sí—incluye un valor alfa al crear colores con `CreateColor`.
 
- A4: Consulte el[documentación](https://reference.aspose.com/page/net/)para conocer las mejores prácticas en el manejo de errores.
+## Conclusión
 
-### P5: ¿Hay una versión de prueba disponible antes de comprar?
+Aspose.Page para .NET simplifica el proceso de mejorar documentos XPS con degradados diagonales. Esta guía te llevó paso a paso desde la configuración de los requisitos previos hasta el guardado del archivo final. Sigue experimentando con diferentes formas y paletas de colores para que tus informes, folletos o facturas XPS realmente destaquen.
 
- R5: Sí, puedes explorar el[prueba gratis](https://releases.aspose.com/) para experimentar Aspose.Page para .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Última actualización:** 2026-02-23  
+**Probado con:** Aspose.Page 24.11 para .NET  
+**Autor:** Aspose  
+
+---

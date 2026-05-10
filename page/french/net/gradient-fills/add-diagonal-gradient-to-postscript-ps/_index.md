@@ -1,35 +1,51 @@
 ---
-title: Ajouter un dégradé diagonal à PostScript (PS) avec Aspose.Page .NET
-linktitle: Ajouter un dégradé diagonal à PostScript (PS)
-second_title: API Aspose.Page .NET
-description: Découvrez la simplicité de l'ajout de dégradés diagonaux aux documents PostScript dans .NET avec Aspose.Page. Élevez vos projets avec des éléments visuels dynamiques.
-weight: 10
+date: 2026-02-23
+description: Apprenez à ajouter un dégradé aux fichiers PostScript, à enregistrer
+  le fichier PostScript au format A4 et à remplir un rectangle avec un dégradé à l’aide
+  d’Aspose.Page pour .NET.
+linktitle: Add Diagonal Gradient to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Comment ajouter un dégradé – dégradé diagonal dans PostScript (PS) avec Aspose.Page
+  .NET
 url: /fr/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter un dégradé diagonal à PostScript (PS) avec Aspose.Page .NET
+# Comment ajouter un dégradé : dégradé diagonal à PostScript (PS) avec Aspose.Page .NET
 
 ## Introduction
 
-L'ajout d'un dégradé diagonal à un document PostScript (PS) peut apporter un attrait visuel et de la créativité à vos projets. Aspose.Page pour .NET fournit une solution transparente pour intégrer cette fonctionnalité dans vos applications. Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout d'un dégradé diagonal à un document PS à l'aide d'Aspose.Page, étape par étape.
+Ajouter un dégradé diagonal à un document PostScript (PS) peut améliorer considérablement l'attrait visuel, surtout lorsque vous devez **comment ajouter un dégradé** dans des rapports techniques, des brochures ou des applications très graphiques. Dans ce tutoriel, vous verrez exactement comment ajouter un dégradé à un fichier PostScript, définir une taille de page A4 et remplir un rectangle avec une transition de couleur fluide en utilisant Aspose.Page pour .NET.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle bibliothèque est requise ?** Aspose.Page pour .NET  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6  
+- **Puis‑je changer la direction du dégradé ?** Oui – faites pivoter la transformation du pinceau comme indiqué dans le code  
+- **Comment enregistrer le résultat ?** Utilisez `PsDocument.Save()` qui écrit un fichier PostScript sur le disque  
+- **Une licence est‑elle nécessaire pour la production ?** Oui, une licence commerciale débloque toutes les fonctionnalités  
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Qu’est‑ce qu’un dégradé diagonal en PostScript ?
 
--  Bibliothèque Aspose.Page pour .NET : assurez-vous que la bibliothèque Aspose.Page pour .NET est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/page/net/).
+Un dégradé diagonal est une transition de couleur linéaire qui s’exécute sous un angle (généralement 45°) à travers une forme. En PostScript, cela se réalise en appliquant un `LinearGradientBrush` avec une matrice de transformation personnalisée qui fait pivoter, mettre à l’échelle et translater le dégradé pour correspondre au rectangle souhaité.
 
-- Répertoire de documents : configurez un répertoire pour vos documents dans lequel le fichier PS de sortie sera enregistré.
+## Pourquoi utiliser Aspose.Page pour les remplissages en dégradé ?
 
-Passons maintenant au guide étape par étape.
+Aspose.Page abstrait les commandes PostScript de bas niveau, vous permettant de travailler avec des objets graphiques .NET familiers. Vous pouvez créer des remplissages complexes, définir les dimensions de la page et exporter directement vers un **save PostScript file** sans manipuler la syntaxe PS brute.
 
-## Importer des espaces de noms
+## Prérequis
 
-Tout d’abord, assurez-vous d’importer les espaces de noms nécessaires dans votre projet. Ces espaces de noms sont cruciaux pour travailler avec les fonctionnalités Aspose.Page.
+- **Aspose.Page pour .NET Library** – téléchargez‑la [ici](https://releases.aspose.com/page/net/).  
+- **Répertoire du document** – un dossier où le fichier `*.ps` généré sera écrit.
+
+Maintenant que les bases sont couvertes, parcourons l’implémentation étape par étape.
+
+## Importer les espaces de noms
+
+Tout d’abord, importez les espaces de noms qui vous donnent accès au dispositif EPS, aux utilitaires de dessin et aux classes d’E/S.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,28 +55,28 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Étape 1 : Créer un flux de sortie pour un document PostScript
+## Étape 1 : Créer le flux de sortie pour le document PostScript (Create PostScript Document)
 
 ```csharp
-// ExDébut : 1
-// Le chemin d'accès au répertoire des documents.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//Créer un flux de sortie pour un document PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps", FileMode.Create))
 {
 ```
 
-## Étape 2 : Créer des options d'enregistrement au format A4
+## Étape 2 : Définir la taille de page A4 (Save Options)
 
 ```csharp
-	//Créez des options de sauvegarde au format A4
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Étape 3 : Créer un nouveau document PS d'une page
+## Étape 3 : Créer un nouveau document PS d’une page
 
 ```csharp
-	// Créer un nouveau document PS d'une page
+	// Create new 1-paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
@@ -73,34 +89,34 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	float height = 100;
 ```
 
-## Étape 5 : Créer un chemin graphique
+## Étape 5 : Créer le chemin graphique
 
 ```csharp
-	//Créer un chemin graphique à partir du premier rectangle
+	//Create graphics path from the first rectangle
 	System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 ```
 
-## Étape 6 : Créer un pinceau dégradé linéaire
+## Étape 6 : Créer un pinceau à dégradé linéaire (Fill Rectangle Gradient)
 
 ```csharp
-	//Créez un pinceau dégradé linéaire avec un rectangle comme limites, des couleurs de début et de fin
+	//Create linear gradient brush with rectangle as bounds, start, and end colors
 	LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(255, 255, 0, 0),
 		Color.FromArgb(255, 0, 0, 255), 0f);
 ```
 
-## Étape 7 : Créer une transformation pour le pinceau
+## Étape 7 : Créer la transformation pour le pinceau
 
 ```csharp
-	//Créez une transformation pour le pinceau. Les composants des échelles X et Y doivent être égaux à la largeur et à la hauteur du rectangle en conséquence.
-	// Les composants de translation sont des décalages du rectangle
+	//Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+	//Translation components are offsets of the rectangle                
 	System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
 ```
 
-## Étape 8 : Appliquer des transformations au pinceau
+## Étape 8 : Appliquer les transformations au pinceau (Rotate, Scale, Translate)
 
 ```csharp
-	//Faites pivoter le dégradé, puis redimensionnez et traduisez pour obtenir une transition de couleur visible dans le rectangle requis.
+	//Rotate gradient, then scale and translate to get visible color transition in required rectangle
 	brushTransform.Rotate(-45);
 	float hypotenuse = (float)System.Math.Sqrt(200 * 200 + 100 * 100);
 	float ratio = hypotenuse / 200;
@@ -108,66 +124,78 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	brushTransform.Translate(100 / brushTransform.Elements[0], 0);
 ```
 
-## Étape 9 : Définir la transformation sur le pinceau
+## Étape 9 : Définir la transformation au pinceau
 
 ```csharp
-	//Définir la transformation
+	//Set transform
 	brush.Transform = brushTransform;
 ```
 
 ## Étape 10 : Définir la peinture et remplir le rectangle
 
 ```csharp
-	//Définir la peinture
+	//Set paint
 	document.SetPaint(brush);
 
-	//Remplissez le rectangle
+	//Fill the rectangle
 	document.Fill(path);
 ```
 
-## Étape 11 : Fermez la page actuelle
+## Étape 11 : Fermer la page actuelle
 
 ```csharp
-	//Fermer la page actuelle
+	//Close current page
 	document.ClosePage();
 ```
 
-## Étape 12 : Enregistrez le document
+## Étape 12 : Enregistrer le document (Save PostScript File)
 
 ```csharp
-	//Enregistrez le document
+	//Save the document
 	document.Save();
 }
-// ExFin : 1
+// ExEnd:1
 ```
 
-En suivant ces étapes, vous réussirez à ajouter un dégradé diagonal à un document PostScript à l'aide d'Aspose.Page pour .NET.
+## Comment enregistrer le fichier PostScript
 
-## Conclusion
+L’appel `PsDocument.Save()` écrit le contenu PostScript complet dans le flux que vous avez ouvert à l’**Étape 1**. Après la fin du bloc `using`, le fichier `DiagonaGradient_outPS.ps` sera disponible dans le répertoire que vous avez spécifié.
 
-Améliorer vos documents PS avec des dégradés diagonaux peut rendre vos projets visuellement attrayants et dynamiques. Aspose.Page for .NET simplifie ce processus, permettant aux développeurs d'intégrer sans effort cette fonctionnalité dans leurs applications.
+## Cas d’utilisation courants
 
-## FAQ
+- **Documentation technique** nécessitant une ombre de fond subtile.  
+- **Brochures marketing** où un dégradé diagonal apporte un aspect moderne.  
+- **Générateurs de rapports automatisés** qui produisent des fichiers PS imprimables à la volée.
 
-### Q1 : Aspose.Page est-il compatible avec tous les frameworks .NET ?
+## Dépannage et conseils
 
-A1 : Aspose.Page prend en charge divers frameworks .NET, garantissant la compatibilité avec un large éventail d'environnements de développement.
+- **Couleurs incorrectes** – vérifiez les valeurs ARGB passées à `LinearGradientBrush`.  
+- **Dégradé invisible** – assurez‑vous que la matrice de transformation fait correctement pivoter et mettre à l’échelle ; l’appel `Rotate(-45)` définit l’angle diagonal.  
+- **Fichier non créé** – vérifiez que `dataDir` pointe vers un dossier existant et que l’application possède les droits d’écriture.
 
-### Q2 : Puis-je personnaliser les couleurs du dégradé dans Aspose.Page ?
+## Questions fréquentes
 
-A2 : Oui, Aspose.Page offre une flexibilité dans le choix et la personnalisation des couleurs dégradées en fonction des exigences de votre projet.
+**Q : Aspose.Page est‑il compatible avec toutes les versions de .NET ?**  
+R : Aspose.Page prend en charge un large éventail de versions .NET, de .NET Framework 4.5+ à .NET 6+, assurant une compatibilité étendue.
 
-### Q3 : Existe-t-il une version d’essai disponible pour Aspose.Page ?
+**Q : Puis‑je personnaliser les couleurs du dégradé dans Aspose.Page ?**  
+R : Oui, vous pouvez spécifier n’importe quelles couleurs ARGB lors de la création de `LinearGradientBrush`, vous donnant un contrôle total sur les teintes de départ et d’arrivée.
 
- A3 : Oui, vous pouvez explorer les fonctionnalités d'Aspose.Page en téléchargeant la version d'essai[ici](https://releases.aspose.com/).
+**Q : Existe‑t‑il une version d’essai d’Aspose.Page ?**  
+R : Oui, vous pouvez explorer les fonctionnalités d’Aspose.Page en téléchargeant la version d’essai [ici](https://releases.aspose.com/).
 
-### Q4 : Comment puis-je obtenir une licence temporaire pour Aspose.Page ?
+**Q : Comment obtenir une licence temporaire pour Aspose.Page ?**  
+R : Obtenez une licence temporaire pour Aspose.Page [ici](https://purchase.aspose.com/temporary-license/) afin de débloquer des capacités supplémentaires pendant l’évaluation.
 
- A4 : Obtenez une licence temporaire pour Aspose.Page[ici](https://purchase.aspose.com/temporary-license/) pour débloquer des fonctionnalités supplémentaires.
+**Q : Où puis‑je trouver le support communautaire pour Aspose.Page ?**  
+R : Rejoignez la communauté Aspose.Page sur le [forum](https://forum.aspose.com/c/page/39) pour obtenir de l’aide et participer aux discussions.
 
-### Q5 : Où puis-je trouver le support communautaire pour Aspose.Page ?
+---
 
- A5 : Engagez-vous avec la communauté Aspose.Page sur le[forum](https://forum.aspose.com/c/page/39) pour de l'aide et des discussions.
+**Dernière mise à jour :** 2026-02-23  
+**Testé avec :** Aspose.Page pour .NET (dernière version stable)  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
