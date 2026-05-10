@@ -1,21 +1,21 @@
 ---
-title: "Radial Gradient Example: Java PostScript with Aspose.Page"
+title: "Fill Shape with Gradient: Java PostScript Radial Example"
 linktitle: "Java PostScript Radial Gradient with Aspose.Page"
 second_title: "Aspose.Page Java API"
-description: "Learn how to create a radial gradient example in Java PostScript using Aspose.Page. Step‑by‑step guide with full code and troubleshooting."
+description: "Learn how to fill shape with gradient and draw circle with gradient in Java PostScript using Aspose.Page. Step‑by‑step guide with code and tips."
 weight: 13
 url: /java/postscript-gradient-addition/radial2/
-date: 2025-12-08
+date: 2026-02-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Radial Gradient Example: Java PostScript with Aspose.Page
+# Fill Shape with Gradient: Java PostScript Radial Example
 
 ## Introduction
-In this tutorial you’ll build a **radial gradient example** for a PostScript document using Aspose.Page for Java. We’ll walk through every step—from setting up the project to rendering a circle filled with a smooth radial gradient—so you can add eye‑catching graphics to your Java applications instantly.
+In this tutorial you’ll learn how to **fill shape with gradient** by building a radial gradient example for a PostScript document using Aspose.Page for Java. We’ll walk through every step—from setting up the project to rendering a circle filled with a smooth radial gradient—so you can add eye‑catching graphics to your Java applications instantly.
 
 ## Quick Answers
 - **What does this tutorial create?** A PostScript file (`.ps`) containing a circle filled with a radial gradient.  
@@ -23,6 +23,9 @@ In this tutorial you’ll build a **radial gradient example** for a PostScript d
 - **How long does implementation take?** Approximately 10‑15 minutes for a working example.  
 - **Do I need a license?** A temporary or full license is required for production use; a free trial works for development.  
 - **Can I reuse the code for PDF or SVG?** Yes—Aspose.Page supports multiple output formats with minimal changes.
+
+## How to Fill Shape with Gradient in PostScript
+Before we dive into the code, let’s clarify why “fill shape with gradient” matters. Using gradients gives your graphics a professional, three‑dimensional feel without the need for raster images. With Aspose.Page you can apply the same gradient logic to any vector shape—circles, rectangles, or custom paths—across all supported output formats (PostScript, PDF, SVG).
 
 ## What Is a Radial Gradient?
 A radial gradient transitions colors outward from a central point, creating a smooth, circular blend. It’s ideal for highlights, button backgrounds, or any visual that needs a natural “glow” effect.
@@ -89,6 +92,9 @@ We’ll draw a circle using `Ellipse2D.Float`. The parameters are `(x, y, width,
 Ellipse2D.Float circle = new Ellipse2D.Float(200, 100, 200, 200);
 ```
 
+## How to Draw Circle with Gradient
+Now that we have a shape, the next step is to **draw circle with gradient**. By applying a `RadialGradientPaint` to the circle, the fill operation will automatically use the gradient we define.
+
 ## Step 6: Define Gradient Colors
 Prepare two arrays: one for the colors that will appear in the gradient and another for the corresponding fractional positions (0 = center, 1 = edge).
 
@@ -120,7 +126,7 @@ RadialGradientPaint paint = new RadialGradientPaint(
 ```
 
 ## Step 9: Set Paint and Fill Circle
-Apply the gradient paint to the document and fill the previously defined circle. This is the core of our **radial gradient example**.
+Apply the gradient paint to the document and fill the previously defined circle. This is the core of our **radial gradient example** and demonstrates how to **fill shape with gradient**.
 
 ```java
 document.setPaint(paint);
@@ -135,7 +141,7 @@ document.closePage();
 document.save();
 ```
 
-Congratulations! You have successfully created a radial gradient example in Java PostScript using Aspose.Page.
+Congratulations! You have successfully created a radial gradient example in Java PostScript using Aspose.Page. You now have a reusable pattern for **fill shape with gradient** that can be adapted to other shapes and output formats.
 
 ## Common Issues and Solutions
 | Problem | Solution |
@@ -162,11 +168,11 @@ A: Absolutely, request one from the [temporary license page](https://purchase.as
 A: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
 ## Conclusion
-In this guide we built a complete **radial gradient example** for a PostScript document using Aspose.Page for Java. By following the steps you now have a reusable pattern for creating sophisticated gradients, which you can adapt to PDF, SVG, or other supported formats. Experiment with different colors, radii, and shapes to enrich your Java graphics projects.
+In this guide we built a complete **radial gradient example** for a PostScript document using Aspose.Page for Java. By following the steps you now have a reusable pattern for **fill shape with gradient**, which you can adapt to PDF, SVG, or any other format supported by Aspose.Page. Experiment with different colors, radii, and shapes to enrich your Java graphics projects.
 
 ---
 
-**Last Updated:** 2025-12-08  
+**Last Updated:** 2026-02-13  
 **Tested With:** Aspose.Page for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 

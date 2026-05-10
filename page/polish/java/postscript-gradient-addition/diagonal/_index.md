@@ -1,11 +1,13 @@
 ---
-date: 2025-12-07
-description: Ulepsz swoje dokumenty Java PostScript za pomocą gradientów diagonalnych,
+date: 2026-02-13
+description: Ulepsz swoje dokumenty Java PostScript za pomocą przekątnych gradientów,
   korzystając z Aspose.Page Java. Dowiedz się, jak dodać efekty gradientu przy użyciu
   LinearGradientPaint w Javie i tworzyć żywe przejścia kolorów bez wysiłku.
-linktitle: Add Diagonal Gradient in Java PostScript using Aspose.Page Java
+linktitle: 'How to Add Gradient: Diagonal Gradient in Java PostScript using Aspose.Page
+  Java'
 second_title: Aspose.Page Java API
-title: Dodaj gradient skośny w Java PostScript przy użyciu Aspose.Page Java
+title: 'Jak dodać gradient: gradient diagonalny w Java PostScript przy użyciu Aspose.Page
+  Java'
 url: /pl/java/postscript-gradient-addition/diagonal/
 weight: 10
 ---
@@ -17,28 +19,31 @@ weight: 10
 # Dodaj gradient skośny w Java PostScript przy użyciu Aspose.Page Java
 
 ## Wprowadzenie
-Jeśli chcesz wzbogacić plik PostScript o płynne przejście kolorów po przekątnej, **Aspose.Page Java** czyni to niesamowicie łatwym. W tym samouczku przeprowadzimy Cię krok po kroku przez **dodawanie gradientu**, używając klasy `LinearGradientPaint` z Java 2D. Po zakończeniu będziesz mieć gotowy fragment kodu, który tworzy dokument PostScript z żywym gradientem skośnym.
+Jeśli chcesz wzbogacić plik PostScript o płynne skośne przejście kolorów, **Aspose.Page Java** czyni to zaskakująco łatwym. W tym samouczku przeprowadzimy Cię krok po kroku przez **dodawanie gradientu**, używając klasy `LinearGradientPaint` z Java 2D. Po zakończeniu będziesz mieć gotowy fragment kodu, który tworzy dokument PostScript z żywym skośnym gradientem.
+
+## Jak dodać gradient w Java PostScript
+Dodanie gradientu może brzmieć jak zadanie wyłącznie graficzne, ale dzięki Aspose.Page uzyskasz pełną kontrolę nad podstawowymi poleceniami PostScript, pozostając w czystej Javie. Ta sekcja wyjaśnia, dlaczego podejście działa i co zyskujesz w porównaniu z ręcznym kodowaniem surowego PostScript.
 
 ## Szybkie odpowiedzi
 - **Jakiej biblioteki wymaga?** Aspose.Page for Java.  
 - **Która klasa tworzy gradient?** `LinearGradientPaint`.  
 - **Czy mogę zmienić kolory?** Tak – zmodyfikuj tablicę `Color[]`.  
-- **Czy potrzebna jest licencja do produkcji?** Wymagana jest licencja komercyjna; dostępna jest darmowa wersja próbna.  
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest licencja komercyjna; dostępna jest bezpłatna wersja próbna.  
 - **Jak długo trwa implementacja?** Około 10 minut dla podstawowego gradientu.
 
 ## Czym jest Aspose.Page Java?
 Aspose.Page Java to potężne API, które pozwala programistom generować, edytować i konwertować pliki PostScript oraz PDF bez potrzeby używania dodatkowego oprogramowania. Udostępnia pełne możliwości graficzne języka PostScript poprzez czysty, obiektowo‑zorientowany interfejs Java.
 
 ## Dlaczego używać gradientu skośnego?
-Gradient skośny dodaje głębi i atrakcyjności wizualnej wykresom, banerom lub dowolnym elementom graficznym, które potrzebują nowoczesnego wyglądu. Ponieważ gradient przebiega od jednego rogu do przeciwległego, dobrze sprawdza się jako tło, skórka przycisków i kształty dekoracyjne.
+Gradient skośny dodaje głębi i atrakcyjności wizualnej wykresom, banerom lub dowolnym elementom graficznym, które potrzebują nowoczesnego wyglądu. Ponieważ gradient przebiega od jednego rogu do przeciwległego, sprawdza się doskonale jako tło, skórka przycisków i kształty dekoracyjne.
 
 ## Wymagania wstępne
-- Java Development Kit (JDK) 8 lub wyższy.  
+- Java Development Kit (JDK) 8 lub wyższy.  
 - IDE, takie jak Eclipse, IntelliJ IDEA lub VS Code.  
-- **Aspose.Page for Java** – pobierz najnowszą wersję ze [oficjalnej strony pobierania](https://releases.aspose.com/page/java/).
+- **Biblioteka Aspose.Page for Java** – pobierz najnowszą wersję ze [oficjalnej strony pobierania](https://releases.aspose.com/page/java/).
 
 ## Importowanie pakietów
-Najpierw zaimportuj potrzebne klasy Java 2D i Aspose. Te importy dają dostęp do definicji kolorów, kształtów geometrycznych, malowania gradientem oraz API dokumentu PostScript.
+Najpierw zaimportuj potrzebne klasy Java 2D oraz Aspose. Te importy dają dostęp do definicji kolorów, kształtów geometrycznych, malowania gradientów oraz API dokumentu PostScript.
 
 ```java
 import java.awt.Color;
@@ -87,7 +92,7 @@ Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
 
 ## Krok 5: Utwórz transformację gradientu
-`AffineTransform` pozwala nam obracać, skalować i przesuwać gradient, aby przebiegał po przekątnej prostokąta. Poniższe obliczenia wyznaczają przeciwprostokątną i odpowiednio dostosowują współczynnik skalowania.
+`AffineTransform` pozwala obracać, skalować i przesuwać gradient, aby przebiegał skośnie przez prostokąt. Poniższe obliczenia wyznaczają przeciwprostokątną i odpowiednio dostosowują współczynnik skalowania.
 
 ```java
 // Create the gradient transform. Scale components must be equal to the rectangle width and height.
@@ -101,7 +106,7 @@ transform.scale(-ratio, 1);
 transform.translate(100 / transform.getScaleX(), 0);
 ```
 
-## Krok 6: Utwórz skośny gradient liniowy
+## Krok 6: Utwórz skośny liniowy gradient Paint
 Oto sedno **dodawania gradientu** – tworzymy `LinearGradientPaint`, który rozciąga się od lewego górnego rogu prostokąta do prawego dolnego, używając wcześniej zdefiniowanej transformacji. `MultipleGradientPaint.CycleMethod.NO_CYCLE` zapewnia, że gradient się nie powtarza.
 
 ```java
@@ -111,8 +116,8 @@ LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new
         MultipleGradientPaint.ColorSpaceType.SRGB, transform);
 ```
 
-## Krok 7: Ustaw farbę i wypełnij prostokąt
-Zastosuj farbę gradientu do dokumentu i wypełnij kształt prostokąta. Ten krok renderuje skośne przejście kolorów na stronie PostScript.
+## Krok 7: Ustaw Paint i wypełnij prostokąt
+Zastosuj gradient Paint do dokumentu i wypełnij kształt prostokąta. Ten krok renderuje skośne przejście kolorów na stronie PostScript.
 
 ```java
 // Set paint and fill the rectangle
@@ -129,33 +134,29 @@ document.closePage();
 document.save();
 ```
 
-Postępując zgodnie z tymi ośmioma krokami, pomyślnie dodałeś skośny gradient do dokumentu PostScript przy użyciu **Aspose.Page Java**. Śmiało eksperymentuj z różnymi kolorami, kątami i rozmiarami prostokątów, aby tworzyć własne efekty wizualne.
-
 ## Typowe problemy i wskazówki
-- **Gradient wygląda płasko** – sprawdź ponownie kąt obrotu; obrót o 45° tworzy prawdziwy przekrój skośny.  
+- **Gradient wygląda płasko** – sprawdź ponownie kąt obrotu; obrót o 45° tworzy prawdziwy skośny gradient.  
 - **Kolory wyglądają wyblakłe** – upewnij się, że używasz `MultipleGradientPaint.ColorSpaceType.SRGB` dla dokładnego odwzorowania kolorów.  
 - **Błąd pliku nie znaleziono** – sprawdź, czy `dataDir` wskazuje istniejący folder i czy aplikacja ma uprawnienia do zapisu.
 
 ## Najczęściej zadawane pytania
 
-**P: Czy mogę używać tej biblioteki do innych operacji graficznych w Javie?**  
-O: Tak, Aspose.Page for Java udostępnia pełny zestaw prymitywów rysowania, renderowania tekstu i obsługi obrazów.
+**Q: Czy mogę używać tej biblioteki do innych operacji graficznych w Javie?**  
+A: Tak, Aspose.Page for Java udostępnia pełny zestaw prymitywów rysowania, renderowania tekstu i możliwości obsługi obrazów.
 
-**P: Czy dostępna jest darmowa wersja próbna Aspose.Page Java?**  
-O: Oczywiście. Możesz pobrać w pełni funkcjonalną wersję próbną ze [strony darmowej wersji próbnej Aspose](https://releases.aspose.com/).
+**Q: Czy dostępna jest bezpłatna wersja próbna Aspose.Page Java?**  
+A: Oczywiście. Możesz pobrać w pełni funkcjonalną wersję próbną ze [strony bezpłatnej wersji próbnej Aspose](https://releases.aspose.com/).
 
-**P: Gdzie mogę znaleźć dokumentację Aspose.Page Java?**  
-O: Oficjalna referencja API jest dostępna [tutaj](https://reference.aspose.com/page/java/).
+**Q: Gdzie mogę znaleźć dokumentację Aspose.Page Java?**  
+A: Oficjalna referencja API jest dostępna [tutaj](https://reference.aspose.com/page/java/).
 
-**P: Jak mogę kupić licencję na Aspose.Page Java?**  
-O: Licencje można nabyć bezpośrednio w [portalu zakupowym Aspose](https://purchase.aspose.com/buy).
+**Q: Jak mogę zakupić licencję na Aspose.Page Java?**  
+A: Licencje można kupić bezpośrednio w [portalu zakupowym Aspose](https://purchase.aspose.com/buy).
 
-**P: Potrzebujesz pomocy lub masz pytania?**  
-O: Odwiedź prowadzony przez społeczność [forum Aspose.Page](https://forum.aspose.com/c/page/39), aby uzyskać pomoc od inżynierów Aspose oraz innych programistów.
+**Q: Potrzebujesz pomocy lub masz pytania?**  
+A: Odwiedź społecznościowe [forum Aspose.Page](https://forum.aspose.com/c/page/39), aby uzyskać pomoc od inżynierów Aspose oraz innych programistów.
 
----
-
-**Ostatnia aktualizacja:** 2025-12-07  
+**Ostatnia aktualizacja:** 2026-02-13  
 **Testowano z:** Aspose.Page for Java 24.12 (latest)  
 **Autor:** Aspose  
 

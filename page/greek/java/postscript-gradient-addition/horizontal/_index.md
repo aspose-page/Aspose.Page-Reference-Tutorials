@@ -1,39 +1,73 @@
 ---
-date: 2025-12-07
-description: Μάθετε πώς να προσθέσετε οριζόντια διαβάθμιση χρώματος σε Java PostScript
-  χρησιμοποιώντας το Linear Gradient Paint Java με το Aspose.Page για Java.
-linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
+date: 2026-02-13
+description: Μάθετε πώς να προσθέσετε διαβάθμιση σε Java PostScript χρησιμοποιώντας
+  το Linear Gradient Paint Java με το Aspose.Page για Java.
+linktitle: How to Add Gradient in Java PostScript with Linear Gradient Paint
 second_title: Aspose.Page Java API
-title: Προσθήκη διαβάθμισης σε Java PostScript χρησιμοποιώντας Linear Gradient Paint
-  Java
+title: Πώς να προσθέσετε διαβάθμιση σε Java PostScript με γραμμική βαφή διαβάθμισης
 url: /el/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+quisites" list.
+
+"Import Packages" etc.
+
+Then placeholders.
+
+"Step 1: Create a Rectangle" etc.
+
+"Step 2: Create Horizontal Linear Gradient Paint" etc.
+
+"Step 3: Fill the Rectangle" etc.
+
+"Step 4: Fill a Text with the Gradient" etc.
+
+"Step 5: Stroke a Text with the Gradient" etc.
+
+"Common Issues and Solutions" table.
+
+Translate rows.
+
+"Frequently Asked Questions" etc.
+
+Each Q/A.
+
+"Last Updated:" etc.
+
+Now produce final markdown with same shortcodes.
+
+Let's craft Greek translation.
+
+Be careful with bold formatting (**text**) keep same.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Προσθήκη Διαβάθμισης σε Java PostScript χρησιμοποιώντας Linear Gradient Paint Java
+# Πώς να προσθέσετε διαβάθμιση σε Java PostScript με Linear Gradient Paint
 
 ## Εισαγωγή
-Σε αυτό το ολοκληρωμένο tutorial θα ανακαλύψετε πώς να δημιουργήσετε μια όμορφη οριζόντια διαβάθμιση σε ένα έγγραφο PostScript αξιοποιώντας **Linear Gradient Paint Java**. Το Aspose.Page for Java κάνει εύκολη τη δουλειά με PostScript, PDF και άλλες διανυσματικές μορφές, και η κλάση `LinearGradientPaint` σας παρέχει λεπτομερή έλεγχο των μεταβάσεων χρωμάτων. Στο τέλος αυτού του οδηγού, θα μπορείτε να αποδίδετε διαβάθμιση σε σχήματα **και** κείμενο, δίνοντας στα έγγραφά σας μια επαγγελματική, εντυπωσιακή εμφάνιση.
+Σε αυτό το ολοκληρωμένο tutorial θα ανακαλύψετε **πώς να προσθέσετε διαβάθμιση** σε ένα έγγραφο PostScript χρησιμοποιώντας Java. Θα περάσουμε βήμα-βήμα τη δημιουργία μιας όμορφης οριζόντιας διαβάθμισης αξιοποιώντας το **Linear Gradient Paint Java**, μια κλάση που σας δίνει έλεγχο pixel‑perfect στις μεταβάσεις χρωμάτων. Με το Aspose.Page for Java μπορείτε να αποδώσετε διαβαθμίσεις τόσο σε σχήματα **και** σε κείμενο, προσφέροντας στα έγγραφά σας ένα επαγγελματικό, εντυπωσιακό στυλ που ξεχωρίζει.
 
 ## Γρήγορες Απαντήσεις
-- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Page for Java (supports Linear Gradient Paint Java).  
+- **Ποια βιβλιοθήκη απαιτείται;** Aspose.Page for Java (υποστηρίζει Linear Gradient Paint Java).  
 - **Πόσο χρόνο διαρκεί η υλοποίηση;** Περίπου 10‑15 λεπτά για μια βασική διαβάθμιση.  
-- **Χρειάζομαι άδεια;** Απαιτείται προσωρινή ή πλήρης άδεια για χρήση σε παραγωγή.  
-- **Ποια έκδοση JDK λειτουργεί;** Java 8 ή νεότερη.  
-- **Μπορώ να χρησιμοποιήσω τη διαβάθμιση και σε σχήματα και σε κείμενο;** Ναι – μπορείτε να γεμίσετε σχήματα και να σχεδιάσετε ή να γεμίσετε κείμενο με την ίδια διαβάθμιση.
+- **Χρειάζεται άδεια;** Απαιτείται προσωρινή ή πλήρης άδεια για χρήση σε παραγωγή.  
+- **Ποια έκδοση JDK λειτουργεί;** Java 8 ή νεότερη.  
+- **Μπορώ να χρησιμοποιήσω τη διαβάθμιση και σε σχήματα και σε κείμενο;** Ναι – μπορείτε να γεμίσετε σχήματα και να γεμίσετε ή να περιγράψετε κείμενο με την ίδια διαβάθμιση.
+
+## Τι είναι η Οριζόντια Διαβάθμιση και γιατί να τη χρησιμοποιήσετε;
+Μια οριζόντια διαβάθμιση ενώνει ομαλά χρώματα από αριστερά προς δεξιά σε ένα σχήμα ή κείμενο. Είναι ιδανική για τη δημιουργία σύγχρονων στοιχείων UI, επισημασμένων τίτλων ή ήπιων εφέ φόντου σε αναφορές. Χρησιμοποιώντας το **Linear Gradient Paint Java** μπορείτε να ορίσετε ακριβώς τα αρχικά‑και τελικά‑χρώματα, τη διαφάνεια και την κλίμακα, ώστε το αποτέλεσμα να είναι καθαρό σε οποιαδήποτε συσκευή.
 
 ## Προαπαιτούμενα
-Πριν βυθιστείτε στον κώδικα, βεβαιωθείτε ότι έχετε τα παρακάτω:
+Πριν βυθιστείτε στον κώδικα, βεβαιωθείτε ότι έχετε τα εξής:
 
-- Java Development Kit (JDK) εγκατεστημένο στο μηχάνημά σας.  
-- Aspose.Page for Java library. Μπορείτε να το κατεβάσετε από την [Aspose.Page Java documentation](https://reference.aspose.com/page/java/).
+- Εγκατεστημένο Java Development Kit (JDK) στον υπολογιστή σας.  
+- Βιβλιοθήκη Aspose.Page for Java. Μπορείτε να τη κατεβάσετε από την [τεκμηρίωση Aspose.Page Java](https://reference.aspose.com/page/java/).
 
 ## Εισαγωγή Πακέτων
-Ξεκινήστε εισάγοντας τα απαραίτητα πακέτα στο έργο Java σας. Αυτές οι εισαγωγές σας δίνουν πρόσβαση σε primitives γραφικών, διαχείριση διαβάθμισης και το API του Aspose.Page.
+Ξεκινήστε εισάγοντας τα απαραίτητα πακέτα στο έργο Java. Αυτές οι εισαγωγές σας δίνουν πρόσβαση σε γραφικά primitives, διαχείριση διαβαθμίσεων και το API του Aspose.Page.
 
 ```java
 import java.awt.BasicStroke;
@@ -50,7 +84,7 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## Βήμα 1: Δημιουργία Ορθογωνίου
-Πρώτα, ρυθμίστε το ρεύμα εξόδου, το έγγραφο και ένα ορθογώνιο που θα φιλοξενήσει τη διαβάθμιση.
+Πρώτα, ρυθμίστε το output stream, το έγγραφο και ένα ορθογώνιο που θα φιλοξενήσει τη διαβάθμιση.
 
 ```java
 // The path to the documents directory.
@@ -80,7 +114,7 @@ document.setPaint(paint);
 ```
 
 ## Βήμα 3: Γέμισμα του Ορθογωνίου
-Τώρα γεμίστε το ορθογώνιο με τη διαβάθμιση που μόλις ορίσαμε.
+Τώρα γεμίζουμε το ορθογώνιο με τη διαβάθμιση που ορίσαμε.
 
 ```java
 // Fill the rectangle
@@ -96,7 +130,7 @@ Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
 ```
 
-## Βήμα 5: Σχεδίαση Κειμένου με τη Διαβάθμιση
+## Βήμα 5: Περιγράψτε Κείμενο με τη Διαβάθμιση
 Τέλος, περιγράψτε το κείμενο χρησιμοποιώντας τη διαβάθμιση ως χρώμα περιγράμματος.
 
 ```java
@@ -104,33 +138,33 @@ document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicS
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
 
-## Συχνά Προβλήματα και Λύσεις
-| Πρόβλημα | Γιατί Συμβαίνει | Διόρθωση |
+## Συνηθισμένα Προβλήματα και Λύσεις
+| Πρόβλημα | Γιατί συμβαίνει | Διόρθωση |
 |----------|----------------|----------|
-| Η διαβάθμιση εμφανίζεται τεντωμένη | Λανθασμένη κλιμάκωση `AffineTransform` | Βεβαιωθείτε ότι το πλάτος και το ύψος του μετασχηματισμού ταιριάζουν με τις διαστάσεις του ορθογωνίου (200 × 100 στο παράδειγμα). |
-| Τα χρώματα φαίνονται ξεθωριασμένα | Οι τιμές alpha είναι πολύ χαμηλές | Αυξήστε το στοιχείο alpha (την τέταρτη τιμή στο `new Color(r,g,b,alpha)`). |
-| Το κείμενο δεν είναι ορατό | Το Paint δεν έχει οριστεί πριν το σχεδιασμό του κειμένου | Καλέστε `document.setPaint(paint)` **πριν** από οποιαδήποτε κλήση `fillAndStrokeText` ή `outlineText`. |
+| Η διαβάθμιση εμφανίζεται τεντωμένη | Λανθασμένη κλίμακα `AffineTransform` | Βεβαιωθείτε ότι το πλάτος και το ύψος του μετασχηματισμού ταιριάζουν με τις διαστάσεις του ορθογωνίου (200 × 100 στο παράδειγμα). |
+| Τα χρώματα φαίνονται ξεθωριασμένα | Οι τιμές alpha είναι πολύ χαμηλές | Αυξήστε το συστατικό alpha (η τέταρτη τιμή στο `new Color(r,g,b,alpha)`). |
+| Το κείμενο δεν είναι ορατό | Δεν έχει οριστεί το Paint πριν το σχεδιαστεί το κείμενο | Καλέστε `document.setPaint(paint)` **πριν** οποιαδήποτε κλήση `fillAndStrokeText` ή `outlineText`. |
 
 ## Συχνές Ερωτήσεις
-### Μπορώ να χρησιμοποιήσω το Aspose.Page for Java σε εμπορικά έργα;
-Ναι, το Aspose.Page for Java μπορεί να χρησιμοποιηθεί σε εμπορικά έργα. Για λεπτομέρειες αδειοδότησης, επισκεφθείτε [Aspose.Purchase](https://purchase.aspose.com/buy).
+**Ε:** Μπορώ να χρησιμοποιήσω το Aspose.Page for Java σε εμπορικά έργα;  
+**Α:** Ναι, το Aspose.Page for Java μπορεί να χρησιμοποιηθεί σε εμπορικά έργα. Για λεπτομέρειες άδειας, επισκεφθείτε το [Aspose.Purchase](https://purchase.aspose.com/buy).
 
-### Υπάρχει διαθέσιμη δωρεάν δοκιμή;
-Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή του Aspose.Page for Java [εδώ](https://releases.aspose.com/).
+**Ε:** Υπάρχει διαθέσιμη δωρεάν δοκιμή;  
+**Α:** Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή του Aspose.Page for Java [εδώ](https://releases.aspose.com/).
 
-### Πού μπορώ να βρω πρόσθετη τεκμηρίωση και υποστήριξη;
-Επισκεφθείτε την [τεκμηρίωση Aspose.Page Java](https://reference.aspose.com/page/java/) για ολοκληρωμένους πόρους. Για υποστήριξη της κοινότητας, δείτε το [φόρουμ Aspose.Page](https://forum.aspose.com/c/page/39).
+**Ε:** Πού μπορώ να βρω πρόσθετη τεκμηρίωση και υποστήριξη;  
+**Α:** Επισκεφθείτε την [τεκμηρίωση Aspose.Page Java](https://reference.aspose.com/page/java/) για πλήρεις πόρους. Για υποστήριξη της κοινότητας, δείτε το [φόρουμ Aspose.Page](https://forum.aspose.com/c/page/39).
 
-### Πώς μπορώ να αποκτήσω προσωρινή άδεια;
-Μπορείτε να αποκτήσετε προσωρινή άδεια από το [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
+**Ε:** Πώς μπορώ να αποκτήσω προσωρινή άδεια;  
+**Α:** Μπορείτε να λάβετε προσωρινή άδεια από το [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 
-### Ποιες είναι οι απαιτήσεις συστήματος για το Aspose.Page for Java;
-Ανατρέξτε στην [τεκμηρίωση](https://reference.aspose.com/page/java/) για λεπτομερείς απαιτήσεις συστήματος.
+**Ε:** Ποιες είναι οι απαιτήσεις συστήματος για το Aspose.Page for Java;  
+**Α:** Ανατρέξτε στην [τεκμηρίωση](https://reference.aspose.com/page/java/) για λεπτομερείς απαιτήσεις συστήματος.
 
 ---
 
-**Τελευταία ενημέρωση:** 2025-12-07  
-**Δοκιμή με:** Aspose.Page for Java 24.11  
+**Τελευταία ενημέρωση:** 2026-02-13  
+**Δοκιμάστηκε με:** Aspose.Page for Java 24.11  
 **Συγγραφέας:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

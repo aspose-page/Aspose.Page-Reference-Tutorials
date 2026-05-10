@@ -1,21 +1,21 @@
 ---
-title: Add Gradient in Java PostScript using Linear Gradient Paint Java
-linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
+title: How to Add Gradient in Java PostScript with Linear Gradient Paint
+linktitle: How to Add Gradient in Java PostScript with Linear Gradient Paint
 second_title: Aspose.Page Java API
-description: Learn how to add a horizontal gradient in Java PostScript using Linear Gradient Paint Java with Aspose.Page for Java.
+description: Learn how to add gradient in Java PostScript using Linear Gradient Paint Java with Aspose.Page for Java.
 weight: 11
 url: /java/postscript-gradient-addition/horizontal/
-date: 2025-12-07
+date: 2026-02-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Gradient in Java PostScript using Linear Gradient Paint Java
+# How to Add Gradient in Java PostScript with Linear Gradient Paint
 
 ## Introduction
-In this comprehensive tutorial you'll discover how to create a beautiful horizontal gradient in a PostScript document by leveraging **Linear Gradient Paint Java**. Aspose.Page for Java makes it straightforward to work with PostScript, PDF, and other vector formats, and the `LinearGradientPaint` class gives you fine‑grained control over color transitions. By the end of this guide, you’ll be able to render gradients on shapes **and** text, giving your documents a professional, eye‑catching look.
+In this comprehensive tutorial you’ll discover **how to add gradient** to a PostScript document using Java. We’ll walk through creating a beautiful horizontal gradient by leveraging **Linear Gradient Paint Java**, a class that gives you pixel‑perfect control over color transitions. With Aspose.Page for Java you can render gradients on both shapes **and** text, giving your documents a polished, eye‑catching look that stands out.
 
 ## Quick Answers
 - **What library is required?** Aspose.Page for Java (supports Linear Gradient Paint Java).  
@@ -23,6 +23,9 @@ In this comprehensive tutorial you'll discover how to create a beautiful horizon
 - **Do I need a license?** A temporary or full license is required for production use.  
 - **Which JDK version works?** Java 8 or newer.  
 - **Can I use the gradient on both shapes and text?** Yes – you can fill shapes and stroke or fill text with the same gradient.
+
+## What is a Horizontal Gradient and Why Use It?
+A horizontal gradient smoothly blends colors from left to right across a shape or text. It’s ideal for creating modern UI elements, highlighted headings, or subtle background effects in reports. Using **Linear Gradient Paint Java** lets you define the exact start‑ and end‑colors, opacity, and scaling, so the result looks crisp on any device.
 
 ## Prerequisites
 Before diving into the code, make sure you have the following:
@@ -110,24 +113,24 @@ document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 | Text is not visible | Paint not set before drawing text | Call `document.setPaint(paint)` **before** any `fillAndStrokeText` or `outlineText` calls. |
 
 ## Frequently Asked Questions
-### Can I use Aspose.Page for Java in commercial projects?
-Yes, Aspose.Page for Java can be used in commercial projects. For licensing details, visit [Aspose.Purchase](https://purchase.aspose.com/buy).
+**Q:** Can I use Aspose.Page for Java in commercial projects?  
+**A:** Yes, Aspose.Page for Java can be used in commercial projects. For licensing details, visit [Aspose.Purchase](https://purchase.aspose.com/buy).
 
-### Is there a free trial available?
-Yes, you can access a free trial of Aspose.Page for Java [here](https://releases.aspose.com/).
+**Q:** Is there a free trial available?  
+**A:** Yes, you can access a free trial of Aspose.Page for Java [here](https://releases.aspose.com/).
 
-### Where can I find additional documentation and support?
-Visit the [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) for comprehensive resources. For community support, check the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+**Q:** Where can I find additional documentation and support?  
+**A:** Visit the [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) for comprehensive resources. For community support, check the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
-### How can I obtain a temporary license?
-You can obtain a temporary license from [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
+**Q:** How can I obtain a temporary license?  
+**A:** You can obtain a temporary license from [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 
-### What are the system requirements for Aspose.Page for Java?
-Refer to the [documentation](https://reference.aspose.com/page/java/) for detailed system requirements.
+**Q:** What are the system requirements for Aspose.Page for Java?  
+**A:** Refer to the [documentation](https://reference.aspose.com/page/java/) for detailed system requirements.
 
 ---
 
-**Last Updated:** 2025-12-07  
+**Last Updated:** 2026-02-13  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 

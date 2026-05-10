@@ -1,38 +1,67 @@
 ---
-date: 2025-12-07
-description: Erfahren Sie, wie Sie in Java PostScript einen horizontalen Farbverlauf
-  mit Linear Gradient Paint Java und Aspose.Page für Java hinzufügen.
-linktitle: Add Gradient in Java PostScript using Linear Gradient Paint Java
+date: 2026-02-13
+description: Erfahren Sie, wie Sie in Java PostScript einen Farbverlauf mit Linear Gradient Paint Java
+  und Aspose.Page für Java hinzufügen.
+linktitle: How to Add Gradient in Java PostScript with Linear Gradient Paint
 second_title: Aspose.Page Java API
-title: Verlauf in Java PostScript mit Linear‑Gradient‑Paint hinzufügen
+title: Wie man in Java PostScript einen Farbverlauf mit Linear Gradient Paint hinzufügt
 url: /de/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
+
+ hinzu"
+
+Second heading "## Introduction" -> "## Einführung"
+
+Paragraph: translate.
+
+Need to keep **bold** formatting.
+
+Also keep code block placeholders unchanged.
+
+Lists: bullet points.
+
+Table: translate headers and content but keep pipe formatting.
+
+FAQ: translate Q and A but keep links unchanged.
+
+Make sure to keep URLs unchanged.
+
+Also keep "Last Updated" etc.
+
+Let's craft translation.
+
+Be careful with "Linear Gradient Paint Java" keep as is? Technical term maybe keep English, but we can keep as is. The instruction: keep technical terms in English. So keep "Linear Gradient Paint Java". Also keep "Aspose.Page for Java". Keep "JDK". Keep "API". Keep "class". Keep "code block placeholders". So translate surrounding text.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verlauf in Java PostScript mit Linear Gradient Paint Java hinzufügen
+# So fügen Sie einen Farbverlauf in Java PostScript mit Linear Gradient Paint hinzu
 
 ## Einführung
-In diesem umfassenden Tutorial erfahren Sie, wie Sie einen schönen horizontalen Verlauf in einem PostScript-Dokument erstellen, indem Sie **Linear Gradient Paint Java** nutzen. Aspose.Page for Java erleichtert die Arbeit mit PostScript, PDF und anderen Vektorformaten, und die Klasse `LinearGradientPaint` bietet Ihnen eine feinkörnige Kontrolle über Farbübergänge. Am Ende dieses Leitfadens können Sie Verläufe auf Formen **und** Text rendern, wodurch Ihre Dokumente ein professionelles, auffälliges Aussehen erhalten.
+In diesem umfassenden Tutorial erfahren Sie **wie Sie einen Farbverlauf** zu einem PostScript‑Dokument mit Java hinzufügen. Wir zeigen Ihnen, wie Sie einen schönen horizontalen Farbverlauf erstellen, indem Sie **Linear Gradient Paint Java** nutzen, eine Klasse, die Ihnen pixelgenaue Kontrolle über Farbübergänge gibt. Mit Aspose.Page for Java können Sie Farbverläufe sowohl auf Formen **als auch** auf Text anwenden und Ihren Dokumenten ein poliertes, auffälliges Aussehen verleihen.
 
-## Schnelle Antworten
+## Schnellantworten
 - **Welche Bibliothek wird benötigt?** Aspose.Page for Java (unterstützt Linear Gradient Paint Java).  
-- **Wie lange dauert die Implementierung?** Etwa 10‑15 Minuten für einen einfachen Verlauf.  
+- **Wie lange dauert die Implementierung?** Etwa 10‑15 Minuten für einen einfachen Farbverlauf.  
 - **Benötige ich eine Lizenz?** Für den Produktionseinsatz ist eine temporäre oder vollständige Lizenz erforderlich.  
-- **Welche JDK-Version funktioniert?** Java 8 oder neuer.  
-- **Kann ich den Verlauf sowohl für Formen als auch für Text verwenden?** Ja – Sie können Formen füllen und Text mit demselben Verlauf umranden oder füllen.
+- **Welche JDK‑Version funktioniert?** Java 8 oder neuer.  
+- **Kann ich den Farbverlauf sowohl auf Formen als auch auf Text anwenden?** Ja – Sie können Formen füllen und Text mit demselben Farbverlauf füllen oder umranden.
+
+## Was ist ein horizontaler Farbverlauf und warum verwenden?
+Ein horizontaler Farbverlauf mischt Farben sanft von links nach rechts über eine Form oder einen Text. Er eignet sich ideal für moderne UI‑Elemente, hervorgehobene Überschriften oder dezente Hintergrundeﬂekte in Berichten. Mit **Linear Gradient Paint Java** können Sie die genauen Start‑ und Endfarben, die Opazität und die Skalierung festlegen, sodass das Ergebnis auf jedem Gerät scharf aussieht.
 
 ## Voraussetzungen
 Bevor Sie in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
 
 - Java Development Kit (JDK) auf Ihrem Rechner installiert.  
-- Aspose.Page for Java Bibliothek. Sie können sie von der [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) herunterladen.
+- Aspose.Page for Java‑Bibliothek. Sie können sie aus der [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) herunterladen.
 
 ## Pakete importieren
-Beginnen Sie damit, die erforderlichen Pakete in Ihrem Java-Projekt zu importieren. Diese Importe geben Ihnen Zugriff auf Grafikprimitive, Verlaufshandhabung und die Aspose.Page API.
+Beginnen Sie damit, die notwendigen Pakete in Ihrem Java‑Projekt zu importieren. Diese Importe geben Ihnen Zugriff auf Grafik‑Primitive, Farbverlauf‑Verarbeitung und die Aspose.Page‑API.
 
 ```java
 import java.awt.BasicStroke;
@@ -48,8 +77,8 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Schritt 1: Ein Rechteck erstellen
-Zuerst richten Sie den Ausgabestream, das Dokument und ein Rechteck ein, das den Verlauf enthält.
+## Schritt 1: Ein Rechteck erstellen
+Richten Sie zunächst den Ausgabestream, das Dokument und ein Rechteck ein, das den Farbverlauf aufnehmen wird.
 
 ```java
 // The path to the documents directory.
@@ -64,8 +93,8 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
 
-## Schritt 2: Horizontalen Linear Gradient Paint erstellen
-Hier erstellen wir das **Linear Gradient Paint Java** Objekt, das einen horizontalen Farbverlauf definiert. Der `AffineTransform` skaliert den Verlauf, um die Breite und Höhe des Rechtecks anzupassen.
+## Schritt 2: Horizontalen Linear Gradient Paint erstellen
+Hier bauen wir das **Linear Gradient Paint Java**‑Objekt, das einen horizontalen Farbübergang definiert. Der `AffineTransform` skaliert den Farbverlauf, sodass er zur Breite und Höhe des Rechtecks passt.
 
 ```java
 // Create horizontal linear gradient paint. Scale components in the transform must be equal to width and height of the rectangle.
@@ -78,16 +107,16 @@ LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new
 document.setPaint(paint);
 ```
 
-## Schritt 3: Das Rechteck füllen
-Füllen Sie nun das Rechteck mit dem gerade definierten Verlauf.
+## Schritt 3: Das Rechteck füllen
+Füllen Sie nun das Rechteck mit dem gerade definierten Farbverlauf.
 
 ```java
 // Fill the rectangle
 document.fill(rectangle);
 ```
 
-## Schritt 4: Text mit dem Verlauf füllen
-Sie können denselben Verlauf auch auf Text anwenden und damit einen eindrucksvollen visuellen Effekt erzeugen.
+## Schritt 4: Text mit dem Farbverlauf füllen
+Sie können denselben Farbverlauf auch auf Text anwenden und so einen eindrucksvollen visuellen Effekt erzeugen.
 
 ```java
 // Fill a text with the gradient
@@ -95,8 +124,8 @@ Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
 ```
 
-## Schritt 5: Text mit dem Verlauf umranden
-Abschließend umranden Sie Text, wobei Sie den Verlauf als Strichfarbe verwenden.
+## Schritt 5: Text mit dem Farbverlauf umranden
+Zum Schluss umranden Sie Text, wobei der Farbverlauf als Strichfarbe verwendet wird.
 
 ```java
 // Stroke a text with the gradient
@@ -105,30 +134,30 @@ document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 
 ## Häufige Probleme und Lösungen
 | Problem | Warum es passiert | Lösung |
-|---------|-------------------|--------|
-| Verlauf erscheint gestreckt | Falsche Skalierung des `AffineTransform` | Stellen Sie sicher, dass die Breite und Höhe der Transformation den Abmessungen des Rechtecks entsprechen (200 × 100 im Beispiel). |
-| Farben wirken verblasst | Alpha-Werte zu niedrig eingestellt | Erhöhen Sie die Alpha-Komponente (den vierten Wert in `new Color(r,g,b,alpha)`). |
-| Text ist nicht sichtbar | Paint nicht gesetzt, bevor Text gezeichnet wird | Rufen Sie `document.setPaint(paint)` **vor** allen Aufrufen von `fillAndStrokeText` oder `outlineText` auf. |
+|-------|----------------|-----|
+| Der Farbverlauf erscheint gestreckt | Falsche Skalierung im `AffineTransform` | Stellen Sie sicher, dass Breite und Höhe des Transforms den Rechtecks‑Abmessungen (200 × 100 im Beispiel) entsprechen. |
+| Farben wirken verblasst | Alpha‑Werte zu niedrig gesetzt | Erhöhen Sie den Alpha‑Wert (den vierten Parameter in `new Color(r,g,b,alpha)`). |
+| Text ist nicht sichtbar | Paint wurde nicht gesetzt, bevor Text gezeichnet wurde | Rufen Sie `document.setPaint(paint)` **vor** allen `fillAndStrokeText`‑ oder `outlineText`‑Aufrufen auf. |
 
 ## Häufig gestellte Fragen
-### Kann ich Aspose.Page for Java in kommerziellen Projekten verwenden?
-Ja, Aspose.Page for Java kann in kommerziellen Projekten verwendet werden. Für Lizenzdetails besuchen Sie [Aspose.Purchase](https://purchase.aspose.com/buy).
+**F:** Kann ich Aspose.Page for Java in kommerziellen Projekten verwenden?  
+**A:** Ja, Aspose.Page for Java kann in kommerziellen Projekten eingesetzt werden. Lizenzdetails finden Sie unter [Aspose.Purchase](https://purchase.aspose.com/buy).
 
-### Gibt es eine kostenlose Testversion?
-Ja, Sie können eine kostenlose Testversion von Aspose.Page for Java [hier](https://releases.aspose.com/) erhalten.
+**F:** Gibt es eine kostenlose Testversion?  
+**A:** Ja, Sie können eine kostenlose Testversion von Aspose.Page for Java [hier](https://releases.aspose.com/) erhalten.
 
-### Wo finde ich zusätzliche Dokumentation und Support?
-Besuchen Sie die [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) für umfassende Ressourcen. Für Community‑Support schauen Sie im [Aspose.Page forum](https://forum.aspose.com/c/page/39) nach.
+**F:** Wo finde ich weitere Dokumentation und Support?  
+**A:** Besuchen Sie die [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) für umfassende Ressourcen. Für Community‑Support schauen Sie im [Aspose.Page forum](https://forum.aspose.com/c/page/39) nach.
 
-### Wie kann ich eine temporäre Lizenz erhalten?
-Sie können eine temporäre Lizenz von [Aspose.Purchase](https://purchase.aspose.com/temporary-license/) erhalten.
+**F:** Wie kann ich eine temporäre Lizenz erhalten?  
+**A:** Eine temporäre Lizenz erhalten Sie über [Aspose.Purchase](https://purchase.aspose.com/temporary-license/).
 
-### Was sind die Systemanforderungen für Aspose.Page for Java?
-Siehe die [documentation](https://reference.aspose.com/page/java/) für detaillierte Systemanforderungen.
+**F:** Was sind die Systemanforderungen für Aspose.Page for Java?  
+**A:** Die detaillierten Systemanforderungen finden Sie in der [Dokumentation](https://reference.aspose.com/page/java/).
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-07  
+**Zuletzt aktualisiert:** 2026-02-13  
 **Getestet mit:** Aspose.Page for Java 24.11  
 **Autor:** Aspose  
 

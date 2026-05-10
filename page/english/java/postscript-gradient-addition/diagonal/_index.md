@@ -1,11 +1,11 @@
 ---
-title: "Add Diagonal Gradient in Java PostScript using Aspose.Page Java"
-linktitle: "Add Diagonal Gradient in Java PostScript using Aspose.Page Java"
+title: "How to Add Gradient: Diagonal Gradient in Java PostScript using Aspose.Page Java"
+linktitle: "How to Add Gradient: Diagonal Gradient in Java PostScript using Aspose.Page Java"
 second_title: "Aspose.Page Java API"
 description: "Enhance your Java PostScript documents with diagonal gradients using Aspose.Page Java. Learn how to add gradient effects with LinearGradientPaint in Java and create vibrant color transitions effortlessly."
 weight: 10
 url: /java/postscript-gradient-addition/diagonal/
-date: 2025-12-07
+date: 2026-02-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,6 +16,9 @@ date: 2025-12-07
 
 ## Introduction
 If you’re looking to enrich a PostScript file with a smooth diagonal color transition, **Aspose.Page Java** makes it surprisingly easy. In this tutorial we’ll walk through **how to add gradient** effects step‑by‑step, using the `LinearGradientPaint` class from Java 2D. By the end you’ll have a ready‑to‑run snippet that creates a PostScript document with a vibrant diagonal gradient.
+
+## How to Add Gradient in Java PostScript
+Adding a gradient might sound like a graphics‑only task, but with Aspose.Page you get full control over the underlying PostScript commands while staying in pure Java. This section explains why the approach works and what you gain compared to hand‑coding raw PostScript.
 
 ## Quick Answers
 - **What library is required?** Aspose.Page for Java.  
@@ -129,11 +132,9 @@ document.closePage();
 document.save();
 ```
 
-By following these eight steps you’ve successfully added a diagonal gradient to a PostScript document using **Aspose.Page Java**. Feel free to experiment with different colors, angles, and rectangle sizes to create custom visual effects.
-
 ## Common Issues & Tips
-- **Gradient appears flat** – double‑check the rotation angle; a 45° rotation creates a true diagonal.
-- **Colors look washed out** – ensure you’re using `MultipleGradientPaint.ColorSpaceType.SRGB` for accurate color rendering.
+- **Gradient appears flat** – double‑check the rotation angle; a 45° rotation creates a true diagonal.  
+- **Colors look washed out** – ensure you’re using `MultipleGradientPaint.ColorSpaceType.SRGB` for accurate color rendering.  
 - **File not found error** – verify that `dataDir` points to an existing folder and that the application has write permissions.
 
 ## Frequently Asked Questions
@@ -155,7 +156,7 @@ A: Visit the community‑run [Aspose.Page forum](https://forum.aspose.com/c/page
 
 ---
 
-**Last Updated:** 2025-12-07  
+**Last Updated:** 2026-02-13  
 **Tested With:** Aspose.Page for Java 24.12 (latest)  
 **Author:** Aspose  
 
