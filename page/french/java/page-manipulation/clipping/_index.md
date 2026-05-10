@@ -1,12 +1,11 @@
 ---
-date: 2025-12-03
-description: Découvrez comment enregistrer au format PostScript et découper des formes
-  à l’aide d’Aspose.Page pour Java. Apprenez à définir le style de trait et à appliquer
-  une région de découpe dans le découpage graphique Java.
-linktitle: Save as PostScript – Clipping in Java Page Manipulation
+date: 2026-02-07
+description: Apprenez à créer un fichier PostScript en Java avec Aspose.Page, à découper
+  des formes, à définir le style de trait et à appliquer des régions de découpe pour
+  des graphiques précis.
+linktitle: Create PostScript File Java – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
-title: Enregistrer au format PostScript – Découpage dans la manipulation de pages
-  Java
+title: Créer un fichier PostScript Java – Clipping dans la manipulation de pages Java
 url: /fr/java/page-manipulation/clipping/
 weight: 10
 ---
@@ -15,36 +14,41 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Enregistrer en PostScript – Découpage dans la manipulation de pages Java
+# Créer un fichier PostScript Java – Découpage dans la manipulation de pages Java
 
 ## Introduction
-Lorsque vous devez **enregistrer en PostScript** tout en créant des graphiques complexes, le découpage devient votre allié le plus puissant. Dans la manipulation de pages Java avec Aspose.Page, le découpage vous permet de définir des régions exactes où les opérations de dessin sont visibles, vous offrant un contrôle précis sur le résultat final. Ce tutoriel vous guide à travers **comment découper des formes**, **définir le style du trait**, et **appliquer une région de découpage** en utilisant la bibliothèque Aspose.Page pour Java, afin que vous puissiez produire des fichiers PostScript soignés en toute confiance.
+Lorsque vous devez **créer un fichier PostScript en Java**, le découpage devient votre allié le plus puissant. Dans la manipulation de pages Java avec Aspose.Page, le découpage vous permet de définir des régions exactes où les opérations de dessin sont visibles, vous offrant un contrôle fin sur le rendu final. Ce tutoriel vous guide à travers **comment découper des formes**, **définir le style de trait**, et **appliquer une région de découpage** à l’aide de la bibliothèque Aspose.Page for Java, afin que vous puissiez produire des fichiers PostScript soignés en toute confiance.
 
-## Quick Answers
-- **Que signifie « enregistrer en PostScript » ?**  
-  Il crée un fichier .ps qui stocke des graphiques vectoriels au format PostScript, idéal pour l’impression et le rendu haute résolution.  
+## Réponses rapides
+- **Que signifie « save as PostScript » ?**  
+  Cela crée un fichier .ps qui stocke des graphiques vectoriels au format PostScript, idéal pour l’impression et le rendu haute résolution.  
 - **Quelle bibliothèque gère le découpage en Java ?**  
-  Aspose.Page pour Java fournit une API simple pour le `java graphics clipping`.  
+  Aspose.Page for Java fournit une API simple pour le `java graphics clipping`.  
 - **Ai‑je besoin d’une licence pour exécuter l’exemple ?**  
   Une licence temporaire suffit pour les tests ; une licence commerciale est requise pour la production.  
 - **Puis‑je modifier l’apparence du trait ?**  
-  Oui—utilisez `set stroke style` avec `BasicStroke` pour personnaliser la largeur, le motif de tirets et les extrémités.  
+  Oui — utilisez `set stroke style` avec `BasicStroke` pour personnaliser la largeur, le motif de tirets et les extrémités.  
 - **Le code est‑il compatible avec Java 8+ ?**  
-  Absolument, l’exemple fonctionne sur tout environnement Java 8 ou supérieur.
+  Absolument, l’exemple fonctionne avec n’importe quel runtime Java 8 ou supérieur.  
+- **Quel est le principal avantage du découpage ?**  
+  Il isole le dessin à une forme définie, réduisant la taille du fichier et améliorant la concentration visuelle.  
 
-## What is “save as PostScript” in Aspose.Page?
-Enregistrer un document en PostScript convertit vos commandes de dessin en langage de description de page PostScript. Le fichier `.ps` résultant peut être ouvert par des imprimantes, des visionneuses, ou converti en PDF sans perte de qualité.
+## Comment créer un fichier PostScript Java avec Aspose.Page
+Enregistrer un document au format PostScript convertit vos commandes de dessin en langage de description de page PostScript. Le fichier `.ps` résultant peut être ouvert par des imprimantes, des visionneuses ou converti en PDF sans perte de qualité. En maîtrisant l’API de découpage, vous obtenez un contrôle précis sur les parties de vos graphiques qui sont rendues.
 
-## Why use clipping in Java graphics?
-Le découpage vous permet **d’appliquer une région de découpage** pour restreindre le dessin à des formes spécifiques—idéal pour créer des masques, des mises en page complexes, ou attirer l’attention sur une zone particulière d’une page. Il aide également à réduire la taille du fichier en évitant les commandes de dessin inutiles en dehors de la région visible.
+## Qu’est‑ce que « save as PostScript » dans Aspose.Page ?
+Enregistrer un document au format PostScript convertit vos commandes de dessin en langage de description de page PostScript. Le fichier `.ps` résultant peut être ouvert par des imprimantes, des visionneuses ou converti en PDF sans perte de qualité.
 
-## Prerequisites
-Avant de commencer, assurez-vous d’avoir :
+## Pourquoi utiliser le découpage dans les graphiques Java ?
+Le découpage vous permet **d’appliquer une région de découpage** pour restreindre le dessin à des formes spécifiques—parfait pour créer des masques, des mises en page complexes ou focaliser l’attention sur une zone particulière d’une page. Il aide également à réduire la taille du fichier en évitant les commandes de dessin inutiles en dehors de la région visible.
+
+## Prérequis
+Avant de commencer, assurez‑vous d’avoir :
 
 - **Aspose.Page for Java** – téléchargez depuis la [documentation Aspose.Page](https://reference.aspose.com/page/java/).  
-- **Environnement de développement Java** – JDK 8 ou supérieur, avec votre IDE préféré (IntelliJ, Eclipse, etc.).
+- **Environnement de développement Java** – JDK 8 ou ultérieur, avec votre IDE préféré (IntelliJ, Eclipse, etc.).  
 
-## Import Packages
+## Importer les packages
 Dans votre projet Java, importez les classes nécessaires :
 
 ```java
@@ -60,10 +64,10 @@ import com.aspose.eps.device.PsSaveOptions;
 
 Ces imports vous donnent accès aux définitions de formes, à la gestion des couleurs, à la configuration des traits, et à l’API Aspose.Page pour créer un document PostScript.
 
-## Step‑by‑Step Guide
+## Guide étape par étape
 
-### Étape 1 : Configurer le document et le flux de sortie
-Tout d’abord, créez un `PsDocument` et pointez-le vers un flux de sortie où le fichier **PostScript** sera écrit.
+### Étape 1 : Configurer le document et le flux de sortie
+Tout d’abord, créez un `PsDocument` et pointez‑le vers un flux de sortie où le fichier **PostScript** sera écrit.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -72,10 +76,10 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-> **Astuce :** Gardez `dataDir` absolu ou utilisez `Paths.get(...)` pour des chemins indépendants de la plateforme.
+> **Astuce :** Conservez `dataDir` en chemin absolu ou utilisez `Paths.get(...)` pour des chemins indépendants de la plateforme.
 
-### Step 2: Create Shapes and **how to clip shapes**
-Nous définissons maintenant la géométrie avec laquelle nous travaillerons : un rectangle et un cercle. Nous **appliquons ensuite une région de découpage** à l’aide du cercle afin que seule la partie du rectangle à l’intérieur du cercle soit rendue.
+### Étape 2 : Créer des formes et **comment découper des formes**
+Nous définissons maintenant la géométrie avec laquelle nous travaillerons — un rectangle et un cercle. Nous **appliquons ensuite une région de découpage** à l’aide du cercle afin que seule la partie du rectangle à l’intérieur du cercle soit rendue.
 
 ```java
 Shape rectangle = new Rectangle2D.Float(0, 0, 300, 200);
@@ -91,8 +95,8 @@ document.writeGraphicsRestore();
 
 La paire `writeGraphicsSave()` / `writeGraphicsRestore()` préserve l’état graphique, garantissant que le découpage n’affecte que les commandes de dessin prévues.
 
-### Step 3: **Set stroke style** and draw the outline
-Après avoir rempli le rectangle découpé, nous démontrons le **java graphics clipping** en dessinant la bordure du rectangle avec un motif de tirets personnalisé.
+### Étape 3 : **Définir le style de trait** et tracer le contour
+Après avoir rempli le rectangle découpé, nous démontrons le **java graphics clipping** en dessinant le bord du rectangle avec un motif de tirets personnalisé.
 
 ```java
 document.translate(100, 100);
@@ -101,9 +105,9 @@ document.setStroke(stroke);
 document.draw(rectangle);
 ```
 
-Ici, `BasicStroke` définit une ligne de 2 pixels de largeur avec un tiret de 5 pixels, illustrant comment **définir le style du trait** pour des effets visuels plus riches.
+Ici, `BasicStroke` définit une ligne de 2 pixels de large avec un tiret de 5 pixels, illustrant comment **définir le style de trait** pour des effets visuels plus riches.
 
-### Step 4: Close the page and **save as PostScript**
+### Étape 4 : Fermer la page et **enregistrer en PostScript**
 Enfin, finalisez la page et écrivez le fichier de sortie.
 
 ```java
@@ -111,51 +115,51 @@ document.closePage();
 document.save();
 ```
 
-Votre fichier `Clipping_outPS.ps` contient maintenant un rectangle bleu découpé par une région circulaire, avec un contour en pointillés—prêt pour l’impression ou une conversion ultérieure.
+Votre fichier `Clipping_outPS.ps` contient maintenant un rectangle bleu découpé par une région circulaire, avec un contour en tirets—prêt pour l’impression ou une conversion ultérieure.
 
-## Common Issues & Solutions
+## Problèmes courants & solutions
 | Problème | Cause | Solution |
 |----------|-------|----------|
-| **Fichier non trouvé** | `dataDir` chemin incorrect | Utilisez un chemin absolu ou `new File(dataDir).mkdirs()` avant de créer le flux. |
-| **Le découpage n’est pas appliqué** | Appel manquant à `writeGraphicsSave()` / `writeGraphicsRestore()` | Assurez‑vous d’envelopper le code de découpage avec ces appels pour préserver l’état. |
-| **Le trait apparaît plein** | Tableau de tirets de `BasicStroke` non défini | Vérifiez que le tableau du motif de tirets (`new float[]{5.0f}`) est correctement passé. |
+| **Fichier introuvable** | Chemin `dataDir` incorrect | Utilisez un chemin absolu ou `new File(dataDir).mkdirs()` avant de créer le flux. |
+| **Découpage non appliqué** | Absence de `writeGraphicsSave()` / `writeGraphicsRestore()` | Assurez‑vous d’envelopper le code de découpage avec ces appels pour préserver l’état. |
+| **Le trait apparaît plein** | Tableau de tirets `BasicStroke` non défini | Vérifiez que le tableau de motif (`new float[]{5.0f}`) est correctement passé. |
 
-## Frequently Asked Questions
+## Questions fréquentes
 
 ### Aspose.Page est‑il compatible avec différents formats de documents ?
 Oui, Aspose.Page prend en charge divers formats de documents, offrant une grande polyvalence dans les tâches de traitement de documents.
 
-### Puis‑je utiliser Aspose.Page pour Java dans mes projets commerciaux ?
+### Puis‑je utiliser Aspose.Page for Java dans mes projets commerciaux ?
 Absolument ! Aspose.Page propose une licence commerciale pour les développeurs, garantissant son utilisation tant dans des projets personnels que commerciaux.
 
 ### Comment obtenir une licence temporaire pour les tests ?
-Obtain a temporary license for testing from [here](https://purchase.aspose.com/temporary-license/).
+Obtenez une licence temporaire pour les tests [ici](https://purchase.aspose.com/temporary-license/).
 
-### Où puis‑je trouver plus d’exemples et de documentation ?
-Explore the [documentation](https://reference.aspose.com/page/java/) and [Aspose.Page forum](https://forum.aspose.com/c/page/39) for a wealth of resources.
+### Où trouver plus d’exemples et de documentation ?
+Explorez la [documentation](https://reference.aspose.com/page/java/) et le [forum Aspose.Page](https://forum.aspose.com/c/page/39) pour une multitude de ressources.
 
-### Une version d’essai gratuite est‑elle disponible ?
-Yes, you can access the free trial of Aspose.Page [here](https://releases.aspose.com/).
+### Existe‑t‑il une version d’essai gratuite ?
+Oui, vous pouvez accéder à l’essai gratuit d’Aspose.Page [ici](https://releases.aspose.com/).
 
-**Additional Q&A**
+**Questions supplémentaires**
 
-**Q:** *Que fait réellement « appliquer une région de découpage » dans le pipeline de rendu ?*  
-**A:** Il indique au moteur graphique d’ignorer toutes les commandes de dessin qui se trouvent en dehors de la forme définie, masquant ainsi la sortie.
+**Q :** *Que fait réellement « apply clipping region » dans le pipeline de rendu ?*  
+**R :** Cela indique au moteur graphique d’ignorer toutes les commandes de dessin qui se trouvent en dehors de la forme définie, masquant ainsi la sortie.
 
-**Q:** *Puis‑je combiner plusieurs formes de découpage ?*  
-**A:** Oui—appelez `document.clip()` plusieurs fois ; chaque appel intersecte la région de découpage actuelle avec la nouvelle forme.
+**Q :** *Puis‑je combiner plusieurs formes de découpage ?*  
+**R :** Oui—appelez `document.clip()` plusieurs fois ; chaque appel intersecte la région de découpage actuelle avec la nouvelle forme.
 
-**Q:** *Est‑il possible de changer la forme de découpage après le dessin ?*  
-**A:** Seulement dans un état graphique sauvegardé. Utilisez `writeGraphicsSave()` avant le découpage et `writeGraphicsRestore()` pour revenir en arrière.
+**Q :** *Est‑il possible de changer la forme de découpage après le dessin ?*  
+**R :** Uniquement à l’intérieur d’un état graphique sauvegardé. Utilisez `writeGraphicsSave()` avant le découpage et `writeGraphicsRestore()` pour revenir en arrière.
 
 ## Conclusion
-En maîtrisant **enregistrer en PostScript**, **comment découper des formes**, **définir le style du trait**, et **appliquer une région de découpage**, vous obtenez un contrôle précis sur le rendu graphique Java avec Aspose.Page. Expérimentez avec différentes géométries, motifs de tirets et couleurs pour exploiter tout le potentiel de la création de documents vectoriels.
+En maîtrisant **create PostScript file Java**, **how to clip shapes**, **set stroke style**, et **apply clipping region**, vous obtenez un contrôle précis du rendu graphique Java avec Aspose.Page. Expérimentez avec différentes géométries, motifs de tirets et couleurs pour exploiter tout le potentiel de la création de documents vectoriels.
 
 ---
 
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose
+**Dernière mise à jour :** 2026-02-07  
+**Testé avec :** Aspose.Page for Java 24.11  
+**Auteur :** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
