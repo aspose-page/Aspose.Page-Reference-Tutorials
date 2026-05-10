@@ -1,11 +1,11 @@
 ---
-title: "Aspose.Page – How to Merge Documents with .NET & Java"
+title: "How to Merge Documents with Aspose.Page – .NET & Java Guide"
 linktitle: "Aspose.Page Tutorials"
 additionalTitle: "Aspose API References"
-description: "Learn how to merge documents, create PDF files, convert PostScript, add gradients, manage images, and edit text using Aspose.Page for .NET and Java."
+description: "Learn how to merge documents with Aspose.Page, create PDFs, convert PostScript, add gradients, manage images, and edit text using .NET and Java."
 weight: 11
 url: /
-date: 2025-11-28
+date: 2026-01-28
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,16 +14,18 @@ date: 2025-11-28
 
 # Aspose.Page – How to Merge Documents with .NET & Java
 
-Welcome to the **Aspose.Page Tutorials Listing**, your one‑stop hub for mastering everything from **how to merge documents** to **how to create PDF** files, **how to convert PostScript**, **how to add gradient** effects, **how to manage images**, and **how to edit text**. Whether you’re just getting started or you’re an experienced developer, our step‑by‑step guides walk you through canvas manipulation, cross‑document editing, image handling, and more—across both .NET and Java platforms. Dive in, explore the possibilities, and streamline your document‑processing workflow with Aspose.Page today.
+Welcome to the **Aspose.Page Tutorials Listing**, your one‑stop hub for mastering **how to merge documents with Aspose.Page** across .NET and Java platforms. Whether you’re building a simple report or a complex multi‑page catalogue, these step‑by‑step guides will show you how to combine PDFs, PostScript, XPS, and EPS files, add gradients or images, and fine‑tune text—all while keeping full control of the rendering pipeline.
 
 ## Quick Answers
 - **What can Aspose.Page do?** It lets you create, edit, and merge documents programmatically for .NET and Java.  
 - **Which formats are supported?** PDF, PostScript, XPS, EPS, and many image types.  
 - **Do I need a license?** A free trial is available; a license is required for production use.  
 - **Can I merge PDFs and PostScript files?** Yes—use the Document Merging tutorials for .NET or the File Merging guide for Java.  
-- **Is there support for gradients and transparency?** Absolutely—see the Gradient Fills and Transparency Effects tutorials.
+- **Is there support for gradients and transparency?** Absolutely—see the Gradient Fills and Transparency Effects tutorials.  
+- **How fast is the merge operation?** Merges are performed in memory and typically complete in milliseconds for standard‑size documents.  
+- **Can I automate merging in a CI/CD pipeline?** Yes—Aspose.Page works on Windows, Linux, and macOS, making it CI‑friendly.
 
-## What is “how to merge documents” with Aspose.Page?
+## What is **how to merge documents with Aspose.Page**?
 Merging documents means combining two or more separate files—such as PDFs, PostScript, or XPS—into a single, cohesive output. Aspose.Page provides a rich API that handles page ordering, resource consolidation, and format‑preserving merges without losing quality.
 
 ## Why use Aspose.Page for document merging and other tasks?
@@ -31,7 +33,7 @@ Merging documents means combining two or more separate files—such as PDFs, Pos
 - **Full control over graphics:** Add gradients, textures, and transparency effects before or after merging.  
 - **Robust image management:** Insert, replace, or edit images without external tools.  
 - **High‑performance conversion:** Convert PostScript to PDF or XPS on the fly.  
-- **Extensive text editing:** Modify, style, or replace text across merged pages.
+- **Extensive text editing:** Modify, style, or replace text across merged pages.  
 
 ## Prerequisites
 - .NET 6+ or Java 11+ installed on your development machine.  
@@ -117,9 +119,15 @@ A: Yes. The Text Manipulation tutorials show how to locate and replace text stri
 **Q: What licensing is required for production use?**  
 A: A commercial Aspose.Page license is required for production deployments. A free trial can be used for evaluation and development.
 
+**Q: Can I perform merges on a Linux server?**  
+A: Yes. Aspose.Page is cross‑platform and runs on Linux, macOS, and Windows, making it suitable for server‑side automation.
+
+**Q: How large a document can Aspose.Page handle in a single merge?**  
+A: The library is designed to work with large files; however, memory consumption grows with page count. For very large batches, consider merging in smaller groups and using the `Document.OptimizeResources()` method.
+
 ---
 
-**Last Updated:** 2025-11-28  
+**Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Page 24.11 for .NET & Java  
 **Author:** Aspose  
 

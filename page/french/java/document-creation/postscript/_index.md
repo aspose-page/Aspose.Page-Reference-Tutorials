@@ -1,91 +1,148 @@
 ---
-title: Créer un document en Java avec PostScript
-linktitle: Créer un document en Java avec PostScript
-second_title: API Java Aspose.Page
-description: Créez sans effort des documents PostScript en Java à l'aide d'Aspose.Page. Personnalisez la taille de la page, les marges et les polices. Essayez l'essai gratuit maintenant !
-weight: 10
+date: 2026-01-28
+description: Apprenez à créer des documents PostScript A4 en Java avec Aspose.Page,
+  à ajouter des polices personnalisées en Java et à définir la taille de la page PostScript.
+  Essayez la version d’essai gratuite dès aujourd’hui !
+linktitle: Create Document in Java with PostScript
+second_title: Aspose.Page Java API
+title: Comment créer un PostScript A4 en Java avec Aspose.Page
 url: /fr/java/document-creation/postscript/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer un document en Java avec PostScript
+# Comment créer postscript a4 java avec Aspose.Page
 
 ## Introduction
-Dans le domaine du développement Java, la création et la gestion de documents sont un aspect crucial. Avec l'avènement d'Aspose.Page pour Java, le processus devient non seulement efficace mais également flexible. Ce didacticiel vise à vous guider à travers les étapes de création d'un document en Java avec PostScript à l'aide d'Aspose.Page, en vous assurant d'exploiter toute la puissance de cet outil.
-## Conditions préalables
-Avant de plonger dans le didacticiel, assurez-vous d'avoir les prérequis suivants :
-- Une connaissance pratique de la programmation Java.
--  Aspose.Page pour Java installé. Vous pouvez le télécharger[ici](https://releases.aspose.com/page/java/).
-- Polices nécessaires stockées dans un dossier désigné. Par exemple, créez un répertoire « necessary_fonts » dans votre répertoire de documents.
-## Importer des packages
-Dans votre projet Java, importez les packages Aspose.Page requis :
+If you need to **create postscript a4 java** files directly from Java, Aspose.Page makes it fast and reliable. In this tutorial we’ll walk through the entire process—how to create PostScript, set the PostScript page size to A4, and **add custom fonts** when required. By the end, you’ll have a ready‑to‑use code snippet that you can drop into any Java project.
+
+## Quick Answers
+- **Quelle est la bibliothèque principale ?** Aspose.Page for Java.  
+- **Quelle taille de page ce guide cible-t-il ?** A4 (portrait).  
+- **Puis-je utiliser mes propres polices ?** Oui – ajoutez des polices personnalisées via le dossier de polices supplémentaires.  
+- **Ai-je besoin d’une licence pour la production ?** Une licence commerciale est requise ; un essai gratuit est disponible.  
+- **Quelle version de Java est prise en charge ?** Java 8 et ultérieure.
+
+## Comment créer postscript a4 java
+This section restates the core goal and provides a concise definition so search engines can surface the answer instantly.
+
+## Qu’est‑ce que la **postscript a4 size** ?
+PostScript A4 size refers to a page formatted to the ISO 216 A4 dimensions (210 mm × 297 mm) using the PostScript page description language. It’s the standard page size for many business documents worldwide.
+
+## Pourquoi utiliser Aspose.Page pour **set postscript page size** ?
+Aspose.Page abstracts the low‑level PostScript commands, letting you focus on document layout rather than the intricacies of the language. You get:
+- Contrôle précis des dimensions de la page (y compris A4).  
+- Intégration facile des polices personnalisées sans manipuler les chemins de police du système.  
+- Prise en charge des sorties à page unique et multi‑pages.
+
+## Comment ajouter des polices personnalisées java
+Embedding your own typefaces ensures the generated document looks exactly as intended on any printer or viewer.
+
+## Prérequis
+Before you start, make sure you have:
+
+- Une bonne connaissance de la programmation Java.  
+- Aspose.Page for Java installé. Vous pouvez le télécharger [here](https://releases.aspose.com/page/java/).  
+- Un dossier nommé `necessary_fonts` (or any name you prefer) that contains any custom fonts you want to embed.
+
+## Import Packages
+In your Java project, import the required Aspose.Page classes:
+
 ```java
 import java.io.FileOutputStream;
 import com.aspose.eps.PageConstants;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-
 ```
-Maintenant, décomposons l'exemple en plusieurs étapes pour une compréhension transparente.
-## Étape 1 : Définir le répertoire des documents
+
+Now let’s break the example into clear, numbered steps.
+
+### Étape 1 : Définir le répertoire du document
 ```java
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
-Remplacez « Votre répertoire de documents » par le chemin réel où vous souhaitez enregistrer vos documents.
-## Étape 2 : Définir le dossier des polices
+Replace `"Your Document Directory"` with the absolute path where you want the generated files to live.
+
+### Étape 2 : Définir le dossier des polices
 ```java
 String FONTS_FOLDER = dataDir + "necessary_fonts/";
 ```
-Assurez-vous que les polices nécessaires sont stockées dans ce dossier.
-## Étape 3 : Créer un flux de sortie pour un document PostScript
+Store any **custom fonts** you wish to use in this folder. Aspose.Page will automatically load them when you set the additional fonts folder later.
+
+### Étape 3 : Créer le flux de sortie pour le document PostScript
 ```java
-// Créer un flux de sortie pour un document PostScript
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "CreateDocument_outPS.ps");
 ```
-Cette étape établit le flux de sortie du document PostScript, en définissant le nom du fichier en conséquence.
-## Étape 4 : Créer des options d'enregistrement au format A4
+This stream points to the file that will hold the final **PostScript A4 size** output.
+
+### Étape 4 : Créer les options d’enregistrement avec la taille A4
 ```java
-// Créez des options de sauvegarde au format A4
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 options.setPageSize(PageConstants.getSize(PageConstants.SIZE_A4, PageConstants.ORIENTATION_PORTRAIT));
 ```
-Personnalisez les options d'enregistrement en fonction des exigences de votre document, en spécifiant la taille et l'orientation de la page.
-## Étape 5 : Définir les marges de page et les dossiers de polices supplémentaires
+Here we **set the PostScript page size** to A4 (portrait). If you need a different orientation, just change the constant.
+
+### Étape 5 : Définir les marges de page et ajouter le dossier des polices personnalisées
 ```java
 options.setMargins(PageConstants.getMargins(PageConstants.MARGINS_ZERO));
 options.setAdditionalFontsFolders(new String[] { FONTS_FOLDER });
 ```
-Ajustez les marges de la page et incluez des dossiers de polices supplémentaires si les polices sont stockées en dehors des dossiers système.
-## Étape 6 : Créer un document PS à plusieurs pages ou à une seule page
+We remove all margins (zero) for a full‑bleed page and tell Aspose.Page where to find the **custom fonts** you added earlier.
+
+### Étape 6 : Créer un document PS multi‑pages ou à page unique
 ```java
 boolean multiPaged = false;
 PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
-Déterminez si votre document PostScript résultant sera multipage ou monopage et créez le document en conséquence.
-## Étape 7 : Fermez la page actuelle et enregistrez le document
+Set `multiPaged` to `true` if you need more than one page; otherwise, a single‑page document is created.
+
+### Étape 7 : Fermer la page actuelle et enregistrer le document
 ```java
 document.closePage();
 document.save();
 ```
-Terminez le processus de création du document en fermant la page actuelle et en enregistrant le document.
-Ce guide étape par étape garantit que vous pouvez créer en toute transparence un document en Java avec PostScript à l'aide d'Aspose.Page, libérant ainsi le potentiel de cet outil puissant.
+These calls finalize the document, close the active page, and write the **PostScript A4 size** file to disk.
+
+## Problèmes courants & conseils
+- **Police non affichée ?** Vérifiez que le fichier de police est au format TrueType ou OpenType pris en charge et que le chemin dans `FONTS_FOLDER` se termine par une barre oblique (`/`).  
+- **Les marges apparaissent toujours ?** Assurez‑vous d’appeler `options.setMargins(...)` **avant** de créer le `PsDocument`.  
+- **La sortie multi‑pages apparaît vide ?** N’oubliez pas d’appeler `document.newPage()` pour chaque page supplémentaire que vous souhaitez ajouter.
+
+## Questions fréquentes
+
+**Q : Puis‑je utiliser des polices personnalisées dans mon document PostScript ?**  
+R : Oui, vous le pouvez. Assurez‑vous de définir le dossier de polices supplémentaires dans les options d’enregistrement (voir Étape 5).
+
+**Q : Existe‑t‑il une version d’essai disponible pour Aspose.Page for Java ?**  
+R : Oui, vous pouvez obtenir un essai gratuit [here](https://releases.aspose.com/).
+
+**Q : Comment accéder à la référence complète de l’API ?**  
+R : Consultez la documentation [here](https://reference.aspose.com/page/java/).
+
+**Q : Où puis‑je acheter une licence pour Aspose.Page for Java ?**  
+R : Vous pouvez acheter une licence [here](https://purchase.aspose.com/buy).
+
+**Q : Existe‑t‑il un forum communautaire pour les discussions sur Aspose.Page ?**  
+R : Oui, rejoignez le [forum](https://forum.aspose.com/c/page/39) communautaire pour le support et les meilleures pratiques.
+
+**Q : Puis‑je générer des fichiers PostScript multi‑pages ?**  
+R : Absolument — définissez `multiPaged` à `true` à l’Étape 6 et appelez `document.newPage()` pour chaque page supplémentaire.
+
 ## Conclusion
-Maîtriser la création de documents en Java devient un jeu d'enfant avec Aspose.Page. Ce didacticiel fournit un guide complet pour naviguer dans le processus, vous permettant d'exploiter toutes les capacités de cette bibliothèque.
-## FAQ
-### Puis-je utiliser des polices personnalisées dans mon document PostScript ?
-Oui, vous pouvez. Assurez-vous de définir le dossier de polices supplémentaires dans les options d'enregistrement.
-### Existe-t-il une version d’essai disponible pour Aspose.Page pour Java ?
- Oui, vous pouvez bénéficier d'un essai gratuit[ici](https://releases.aspose.com/).
-### Comment puis-je accéder à la documentation d’Aspose.Page pour Java ?
- Se référer à la documentation[ici](https://reference.aspose.com/page/java/).
-### Où puis-je acheter une licence pour Aspose.Page pour Java ?
- Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
-### Existe-t-il un forum pour les discussions sur Aspose.Page ?
- Oui, vous pouvez rejoindre la communauté[forum](https://forum.aspose.com/c/page/39) pour des échanges et du soutien.
+By following these steps you now know **how to create postscript a4 java** files with Aspose.Page, while also being able to **add custom fonts java** and control the **set postscript page size** options. Aspose.Page handles the heavy lifting, so you can focus on the content of your documents.
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

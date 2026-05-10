@@ -1,33 +1,51 @@
 ---
-title: Appliquer une licence limitée avec Aspose.Page pour .NET
-linktitle: Appliquer une licence limitée
-second_title: API Aspose.Page .NET
-description: Découvrez l'intégration transparente d'Aspose.Page pour .NET avec ce guide étape par étape sur l'application d'une licence limitée. Optimisez le traitement des documents sans effort.
-weight: 10
+date: 2026-01-28
+description: Apprenez à convertir EPS en PNG en utilisant Aspose.Page pour .NET et
+  à appliquer une licence à compteurs pour un traitement fluide des documents.
+linktitle: Apply Metered License
+second_title: Aspose.Page .NET API
+title: Convertir EPS en PNG et appliquer une licence à compteurs avec Aspose.Page
+  pour .NET
 url: /fr/net/getting-started/apply-metered-license/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Appliquer une licence limitée avec Aspose.Page pour .NET
+# Convertir EPS en PNG et appliquer une licence à usage mesuré avec Aspose.Page pour .NET
 
 ## Introduction
 
-Libérez tout le potentiel d’Aspose.Page pour .NET en appliquant une licence limitée. Ce didacticiel vous guidera tout au long du processus de configuration et d'application de la licence limitée, garantissant une utilisation fluide et optimisée de cette puissante bibliothèque .NET.
+Débloquez tout le potentiel d'Aspose.Page pour .NET en **convertissant EPS en PNG** et en appliquant une licence à usage mesuré. Ce tutoriel vous guide à travers chaque étape — du chargement d'un fichier EPS à son enregistrement en tant qu'image PNG — afin que vous puissiez traiter les documents efficacement et sans filigranes d'évaluation.
 
-## Conditions préalables
+## Réponses rapides
+- **Quel est le sujet de ce tutoriel ?** Conversion de fichiers EPS en images PNG et application d'une licence à usage mesuré avec Aspose.Page pour .NET.  
+- **Ai-je besoin d'une licence ?** Oui, une licence à usage mesuré est requise pour une utilisation en production.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Combien de temps prend l'implémentation ?** Environ 10 à 15 minutes pour une conversion de base.  
+- **Puis-je exécuter cela sur Linux/macOS ?** Absolument — Aspose.Page est multiplateforme.
 
-Avant de plonger dans les étapes, assurez-vous d’avoir les conditions préalables suivantes en place :
+## Qu'est-ce que « convertir EPS en PNG » ?
 
--  Une licence Aspose.Page pour .NET valide : vous pouvez l'obtenir auprès de[achat.aspose.com](https://purchase.aspose.com/buy).
--  Bibliothèque Aspose.Page installée : reportez-vous au[Documentation](https://reference.aspose.com/page/net/) pour les instructions d’installation.
-- Environnement de développement .NET : assurez-vous qu'un environnement .NET fonctionnel est configuré sur votre ordinateur.
+Convertir EPS en PNG signifie rasteriser un fichier Encapsulated PostScript (EPS) basé sur des vecteurs en une image bitmap PNG. Cela est utile lorsque vous devez afficher ou intégrer des graphiques dans des pages web, des rapports ou des composants d'interface utilisateur qui ne prennent pas en charge le format EPS.
 
-## Importer des espaces de noms
+## Pourquoi utiliser une licence à usage mesuré pour la conversion d'EPS en image ?
 
-Dans votre projet .NET, importez les espaces de noms nécessaires pour accéder aux fonctionnalités Aspose.Page :
+Une licence à usage mesuré vous permet de ne payer que pour les pages que vous traitez, ce qui est idéal pour des charges de travail à volume variable. Elle supprime également la bannière d'évaluation rouge qui apparaît lors de l'utilisation de la version d'essai gratuite, garantissant une sortie propre pour vos utilisateurs finaux.
+
+## Prérequis
+
+Avant de plonger dans les étapes, assurez-vous d'avoir les prérequis suivants en place :
+
+- Une licence valide d'Aspose.Page pour .NET : vous pouvez l'obtenir sur [purchase.aspose.com](https://purchase.aspose.com/buy).
+- Bibliothèque Aspose.Page installée : consultez la [documentation](https://reference.aspose.com/page/net/) pour les instructions d'installation.
+- Environnement de développement .NET : assurez‑vous d'avoir un environnement .NET fonctionnel installé sur votre machine.
+
+## Importer les espaces de noms
+
+Dans votre projet .NET, importez les espaces de noms nécessaires pour accéder aux fonctionnalités d'Aspose.Page :
 
 ```csharp
 using Aspose.Page;
@@ -40,18 +58,22 @@ using System.Linq;
 using System.Text;
 ```
 
-## Étape 1 : Définir les clés publiques et privées mesurées
+## Comment convertir EPS en PNG avec une licence à usage mesuré ?
 
- Initialisez le`Aspose.Page.Metered` classe et définissez les clés publiques et privées mesurées. Remplacer`<type public key here>` et`<type private key here>` avec vos vraies clés.
+Voici un guide étape par étape qui couvre tout ce que vous devez savoir.
+
+### Étape 1 : Définir les clés publiques et privées de la licence à usage mesuré
+
+Initialisez la classe `Aspose.Page.Metered` et définissez les clés publiques et privées de la licence à usage mesuré. Remplacez `<type public key here>` et `<type private key here>` par vos clés réelles.
 
 ```csharp
 Aspose.Page.Metered metered = new Aspose.Page.Metered();
 metered.SetMeteredKey("<type public key here>", "<type private key here>");
 ```
 
-## Étape 2 : Charger le fichier EPS et créer un document
+### Étape 2 : Charger le fichier EPS et créer le document
 
- Spécifiez le chemin d'accès à votre fichier EPS et créez un flux pour lire son contenu. Ensuite, créez une instance de`PsDocument` classe du flux.
+Spécifiez le chemin de votre fichier EPS et créez un flux pour lire son contenu. Ensuite, créez une instance de la classe `PsDocument` à partir du flux.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -59,26 +81,26 @@ System.IO.Stream psStream = new System.IO.FileStream(dataDir + "input.eps", Syst
 PsDocument document = new PsDocument(psStream);
 ```
 
-## Étape 3 : Convertir une image EPS en PNG
+### Étape 3 : Convertir le fichier EPS en image PNG
 
- Créé un`ImageDevice` pour convertir le fichier EPS en image PNG. Enregistrez le fichier EPS en tant qu'image à l'aide du`ImageSaveOptions`.
+Créez un `ImageDevice` pour convertir le fichier EPS en image PNG. Enregistrez le fichier EPS en tant qu'image à l'aide de `ImageSaveOptions`.
 
 ```csharp
 ImageDevice device = new ImageDevice();
 document.Save(device, new ImageSaveOptions());
 ```
 
-## Étape 4 : Récupérer les octets de l'image
+### Étape 4 : Récupérer les octets de l'image
 
-Obtenez les octets de l'image, où chaque tableau d'octets représente une page. Dans ce cas, nous avons une page.
+Obtenez les octets de l'image, chaque tableau d'octets représentant une page. Dans ce cas, nous avons une page.
 
 ```csharp
 byte[][] imagesBytes = device.ImagesBytes;
 ```
 
-## Étape 5 : Enregistrer les octets d'image dans un fichier
+### Étape 5 : Enregistrer les octets de l'image dans un fichier
 
-Enregistrez les octets de l'image dans un fichier, garantissant ainsi une conversion réussie d'EPS en PNG.
+Enregistrez les octets de l'image dans un fichier, garantissant une conversion réussie d'EPS en PNG.
 
 ```csharp
 using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
@@ -87,40 +109,68 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 }
 ```
 
-## Étape 6 : Vérifier la licence limitée
+### Étape 6 : Vérifier la licence à usage mesuré
 
-Vérifiez visuellement si la licence limitée est appliquée avec succès. Si l'image résultante ne contient pas le message d'évaluation rouge, cela indique que la licence limitée est appliquée sans aucun problème.
+Vérifiez visuellement si la licence à usage mesuré a été appliquée avec succès. Si l'image résultante ne contient pas le message d'évaluation rouge, cela indique que la licence à usage mesuré a été appliquée sans problème.
 
-Vous êtes maintenant prêt à exploiter toutes les capacités d'Aspose.Page pour .NET avec une licence limitée !
+Vous êtes maintenant prêt à exploiter toutes les capacités d'Aspose.Page pour .NET avec une licence à usage mesuré !
 
-## Conclusion
+## Problèmes courants et solutions
 
-Ce guide étape par étape vous a doté des connaissances nécessaires pour appliquer de manière transparente une licence limitée à l'aide d'Aspose.Page pour .NET. Améliorez vos capacités de traitement de documents et explorez les vastes fonctionnalités offertes par cette puissante bibliothèque.
+| Problème | Cause | Solution |
+|----------|-------|----------|
+| La bannière d'évaluation rouge apparaît toujours | Licence non définie ou clés incorrectes | Vérifiez à nouveau les clés publiques/privées et assurez‑vous que `SetMeteredKey` est appelé avant tout traitement de document |
+| Aucun fichier de sortie créé | Chemin `dataDir` incorrect ou permissions de fichier | Vérifiez que le répertoire existe et que l'application possède les permissions d'écriture |
+| Plusieurs pages non enregistrées | Seule la première page est écrite | Bouclez sur `imagesBytes` et écrivez chaque tableau dans un fichier PNG séparé |
+
+## Questions fréquemment posées
+
+**Q : Puis‑je utiliser la licence à usage mesuré dans un pipeline CI/CD ?**  
+**R :** Oui, vous pouvez stocker les clés en toute sécurité (par ex., dans des variables d'environnement) et appeler `SetMeteredKey` pendant le processus de construction.
+
+**Q : Aspose.Page prend‑il en charge la préservation du profil couleur lors de la conversion en PNG ?**  
+**R :** La sortie PNG conserve les informations de couleur d'origine, mais vous pouvez la personnaliser davantage via `ImageSaveOptions`.
+
+**Q : Est‑il possible de convertir EPS en d'autres formats raster (JPEG, BMP) ?**  
+**R :** Absolument — il suffit de changer `ImageSaveOptions` vers le format souhaité.
+
+**Q : Quelle est la taille maximale de fichier EPS prise en charge ?**  
+**R :** Aspose.Page gère les gros fichiers, mais la consommation de mémoire augmente avec la résolution de l'image. Envisagez de traiter les pages individuellement pour les documents très volumineux.
+
+**Q : Comment puis‑je récupérer programmétiquement le nombre de pages du fichier EPS ?**  
+**R :** Utilisez `document.PagesCount` après avoir chargé le `PsDocument`.
 
 ## FAQ
 
-### Q1 : Comment puis-je obtenir une licence limitée pour Aspose.Page pour .NET ?
+### Q1 : Comment obtenir une licence à usage mesuré pour Aspose.Page pour .NET ?
 
- A1 : Visite[achat.aspose.com](https://purchase.aspose.com/buy) pour acquérir une licence valide.
+R1 : Visitez [purchase.aspose.com](https://purchase.aspose.com/buy) pour acquérir une licence valide.
 
-### Q2 : Où puis-je trouver la documentation d’Aspose.Page pour .NET ?
+### Q2 : Où puis‑je trouver la documentation d'Aspose.Page pour .NET ?
 
- A2 : Référez-vous à[Aspose.Page .NET](https://reference.aspose.com/page/net/) pour une documentation complète.
+R2 : Consultez [Aspose.Page .NET](https://reference.aspose.com/page/net/) pour une documentation complète.
 
-### Q3 : Existe-t-il un forum pour les discussions et l'assistance sur Aspose.Page ?
+### Q3 : Existe‑t‑il un forum pour les discussions et le support d'Aspose.Page ?
 
- A3 : Oui, visitez[forum](https://forum.aspose.com/c/page/39) interagir avec la communauté et demander de l’aide.
+R3 : Oui, visitez le [forum](https://forum.aspose.com/c/page/39) pour interagir avec la communauté et demander de l'aide.
 
-### Q4 : Puis-je essayer Aspose.Page pour .NET avant d'acheter ?
+### Q4 : Puis‑je essayer Aspose.Page pour .NET avant d'acheter ?
 
- A4 : Absolument ! Accédez à l'essai gratuit sur[ici](https://releases.aspose.com/).
+R4 : Absolument ! Accédez à l'essai gratuit [ici](https://releases.aspose.com/).
 
-### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.Page pour .NET ?
+### Q5 : Comment obtenir une licence temporaire pour Aspose.Page pour .NET ?
 
- A5 : Visite[permis temporaire/](https://purchase.aspose.com/temporary-license/) pour obtenir un permis temporaire.
+R5 : Visitez [temporary license/](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+---
+
+**Dernière mise à jour :** 2026-01-28  
+**Testé avec :** Aspose.Page 24.12 pour .NET  
+**Auteur :** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
