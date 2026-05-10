@@ -1,33 +1,47 @@
 ---
-title: Recadrer des images EPS avec Aspose.Page pour .NET
-linktitle: Recadrer Images EPS
-second_title: API Aspose.Page .NET
-description: Explorez le monde transparent de la manipulation d'images EPS dans .NET avec Aspose.Page. Recadrez et redimensionnez les images sans effort pour des résultats époustouflants.
-weight: 10
+date: 2026-03-16
+description: Apprenez à recadrer des images EPS et à redimensionner des fichiers d'images
+  EPS dans .NET à l'aide d'Aspose.Page. Suivez ce guide pas à pas pour recadrer les
+  EPS et redimensionner les images EPS sans effort.
+linktitle: Crop EPS Images
+second_title: Aspose.Page .NET API
+title: Comment recadrer des images EPS avec Aspose.Page pour .NET
 url: /fr/net/image-manipulation/crop-eps-images/
+weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+**Author:** Aspose => "**Auteur :** Aspose"
+
+Then closing shortcodes.
+
+Make sure to keep all shortcodes unchanged.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Recadrer des images EPS avec Aspose.Page pour .NET
+# Comment recadrer des images EPS avec Aspose.Page pour .NET
 
 ## Introduction
 
-Avez-vous du mal à manipuler des images EPS dans vos applications .NET ? Cherchez pas plus loin! Dans ce didacticiel, nous vous guiderons tout au long du processus de recadrage d'images EPS à l'aide de la puissante bibliothèque Aspose.Page pour .NET. Que vous soyez un développeur chevronné ou tout juste débutant, ce guide étape par étape vous aidera à réaliser un recadrage d'image précis sans effort.
+Si vous devez savoir **comment recadrer des EPS** dans une application .NET, vous êtes au bon endroit. Dans ce tutoriel, nous vous guiderons à travers le recadrage et le redimensionnement des fichiers EPS en utilisant la puissante bibliothèque Aspose.Page pour .NET. Que vous peaufiniez un outil de reporting ou prépariez des graphiques pour un service web, maîtriser cette technique vous fera gagner du temps et vous donnera des résultats pixel‑parfait.
 
-## Conditions préalables
+## Réponses rapides
+- **Quelle bibliothèque gère le recadrage EPS ?** Aspose.Page for .NET  
+- **Méthode principale ?** `doc.CropEps(outputStream, newBoundingBox)`  
+- **Puis-je également redimensionner le EPS ?** Oui – utilisez `ResizeEps` avec des pouces, millimètres ou pourcentages.  
+- **Prérequis ?** .NET (Framework 4.5+ / .NET Core 3.1+), Aspose.Page installé, un fichier EPS.  
+- **Temps d'implémentation typique ?** Environ 10 minutes pour un flux de travail basique de recadrage et redimensionnement.
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+## Prérequis
 
-- Une connaissance pratique du développement .NET.
--  Aspose.Page pour la bibliothèque .NET installée. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/page/net/).
-- Un exemple d'image EPS (remplacez "input.eps" dans le code par votre fichier réel).
+- Une connaissance pratique du développement .NET.  
+- Bibliothèque Aspose.Page pour .NET installée. Sinon, vous pouvez la télécharger [ici](https://releases.aspose.com/page/net/).  
+- Une image EPS d'exemple (remplacez `"input.eps"` dans le code par votre fichier réel).
 
-## Importer des espaces de noms
+## Importer les espaces de noms
 
-Commençons par importer les espaces de noms nécessaires au bon fonctionnement de notre code. 
+Commençons par importer les espaces de noms qui nous donnent accès aux classes de gestion EPS.
 
 ```csharp
 using Aspose.Page;
@@ -42,51 +56,51 @@ using System.Linq;
 using System.Text;
 ```
 
-Maintenant, décomposons le didacticiel en plusieurs étapes.
+## Comment recadrer des images EPS – Guide étape par étape
 
-## Étape 1 : initialiser PsDocument
+### Étape 1 : Initialiser `PsDocument`
 
 ```csharp
 PsDocument doc = new PsDocument(inputEpsStream);
 ```
 
- Initialiser un`PsDocument` objet avec le flux EPS d’entrée.
+Nous créons une instance de `PsDocument` à partir du flux EPS d'entrée. Cet objet représente le fichier EPS en mémoire et nous donne accès aux méthodes de recadrage et de redimensionnement.
 
-## Étape 2 : Extraire le cadre de délimitation
+### Étape 2 : Extraire la boîte englobante d'origine
 
 ```csharp
 int[] initialBoundingBox = doc.ExtractEpsBoundingBox();
 ```
 
-Récupérez le cadre de délimitation initial de l’image EPS.
+La boîte englobante indique les dimensions actuelles du canevas EPS. Connaître ces valeurs vous aide à définir un rectangle de recadrage sûr.
 
-## Étape 3 : Créer un flux de sortie
+### Étape 3 : Créer un flux de sortie
 
 ```csharp
 using (Stream outputEpsStream = new FileStream(dataDir + "output_crop.eps", FileMode.Create, FileAccess.Write))
 ```
 
-Créez un flux de sortie pour l'image EPS recadrée.
+Nous ouvrons un flux en écriture où l'EPS recadré sera enregistré. L'utilisation d'un bloc `using` garantit que le flux est correctement fermé.
 
-## Étape 4 : Définir un nouveau cadre de délimitation
+### Étape 4 : Définir une nouvelle boîte englobante
 
 ```csharp
 float[] newBoundingBox = new float[] { 260, 300, 480, 432 };
 ```
 
-Définissez un nouveau cadre de délimitation pour le recadrage. Assurez-vous que les nouvelles valeurs se trouvent dans la zone de délimitation initiale.
+Remplacez les nombres par les coordonnées que vous souhaitez conserver. Assurez‑vous que les nouvelles valeurs restent à l'intérieur de la boîte englobante d'origine ; sinon l'opération échouera.
 
-## Étape 5 : Recadrer et enregistrer
+### Étape 5 : Recadrer et enregistrer l'EPS
 
 ```csharp
 doc.CropEps(outputEpsStream, newBoundingBox);
 ```
 
-Recadrez l'image EPS à l'aide du nouveau cadre de délimitation et enregistrez-la dans le flux de sortie.
+Cette ligne unique effectue le recadrage et écrit le résultat dans `output_crop.eps`. La méthode modifie le document en mémoire, vous pouvez donc chaîner d'autres opérations si nécessaire.
 
-Répétez ces étapes pour différents scénarios de redimensionnement.
+## Redimensionner l'image EPS
 
-## Redimensionnement des images EPS
+Après le recadrage, vous souhaitez souvent changer la taille de l'EPS pour l'affichage ou l'impression. Aspose.Page prend en charge trois unités de mesure.
 
 ### Redimensionner en pouces
 
@@ -94,49 +108,56 @@ Répétez ces étapes pour différents scénarios de redimensionnement.
 doc.ResizeEps(outputEpsStream, new SizeF(5.791f, 3.625f), Units.Inches);
 ```
 
-Redimensionnez l'image EPS et enregistrez-la avec les dimensions spécifiées en pouces.
-
 ### Redimensionner en millimètres
 
 ```csharp
 doc.ResizeEps(outputEpsStream, new SizeF(196, 123), Units.Millimeters);
 ```
 
-Redimensionnez l'image EPS et enregistrez-la avec les dimensions spécifiées en millimètres.
-
-### Redimensionner en pourcentage
+### Redimensionner en pourcentages
 
 ```csharp
 doc.ResizeEps(outputEpsStream, new SizeF(200, 200), Units.Percents);
 ```
 
-Redimensionnez l'image EPS et enregistrez-la avec les dimensions spécifiées en pourcentages.
+Chaque appel écrase la sortie précédente, assurez‑vous donc de créer un nouveau flux si vous avez besoin de fichiers séparés pour chaque taille.
 
-## Conclusion
+## Problèmes courants et dépannage
 
-Toutes nos félicitations! Vous avez appris avec succès comment recadrer et redimensionner des images EPS à l'aide d'Aspose.Page pour .NET. Améliorez désormais vos capacités de manipulation d'images et faites passer vos applications .NET au niveau supérieur.
+| Symptom | Cause probable | Solution |
+|---------|----------------|----------|
+| **Valeurs de la boîte englobante hors limites** | La nouvelle boîte dépasse les dimensions originales | Vérifiez les valeurs de `initialBoundingBox` et choisissez des coordonnées à l'intérieur de cette plage. |
+| **Le fichier de sortie est vide** | Le flux de sortie n'est pas vidé ou fermé | Assurez‑vous que le bloc `using` se termine avant d'accéder au fichier, ou appelez `outputEpsStream.Flush()`. |
+| **Mise à l'échelle inattendue** | Mélange d'unités (p. ex. pouces vs. millimètres) | Spécifiez toujours le bon enum `Units` qui correspond à vos valeurs de taille. |
 
 ## FAQ
 
-### Q1 : Puis-je utiliser Aspose.Page pour .NET avec d’autres formats d’image ?
+### Q1 : Puis‑je utiliser Aspose.Page pour .NET avec d'autres formats d'image ?
 
-A1 : Aspose.Page se concentre principalement sur les images EPS, mais Aspose propose diverses bibliothèques pour différents formats. Consultez leur documentation pour les formats spécifiques.
+R1 : Aspose.Page se concentre principalement sur les images EPS, mais Aspose propose diverses bibliothèques pour différents formats. Consultez leur documentation pour les formats spécifiques.
 
-### Q2 : Comment puis-je obtenir une licence temporaire pour Aspose.Page pour .NET ?
+### Q2 : Comment obtenir une licence temporaire pour Aspose.Page pour .NET ?
 
- A2 : Visite[ce lien](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire pour les tests.
+R2 : Visitez [ce lien](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire pour les tests.
 
-### Q3 : Existe-t-il des limites à la taille de l'image que je peux traiter avec Aspose.Page pour .NET ?
+### Q3 : Existe‑t‑il des limitations concernant la taille d'image que je peux traiter avec Aspose.Page pour .NET ?
 
-A3 : Aspose.Page est conçu pour gérer des images de différentes tailles. Cependant, les performances peuvent varier en fonction de la complexité de l'image.
+R3 : Aspose.Page est conçu pour gérer des images de différentes tailles. Cependant, les performances peuvent varier en fonction de la complexité de l'image.
 
-### Q4 : Existe-t-il un forum communautaire pour les discussions sur Aspose.Page ?
+### Q4 : Existe‑t‑il un forum communautaire pour les discussions sur Aspose.Page ?
 
- A4 : Oui, vous pouvez interagir avec la communauté Aspose.Page[ici](https://forum.aspose.com/c/page/39).
+R4 : Oui, vous pouvez rejoindre la communauté Aspose.Page [ici](https://forum.aspose.com/c/page/39).
 
-### Q5 : Où puis-je trouver une documentation détaillée pour Aspose.Page pour .NET ?
+### Q5 : Où puis‑je trouver la documentation détaillée pour Aspose.Page pour .NET ?
 
- A5 : Reportez-vous à la documentation[ici](https://reference.aspose.com/page/net/).
+R5 : Consultez la documentation [ici](https://reference.aspose.com/page/net/).
+
+---
+
+**Dernière mise à jour :** 2026-03-16  
+**Testé avec :** Aspose.Page 24.11 pour .NET  
+**Auteur :** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

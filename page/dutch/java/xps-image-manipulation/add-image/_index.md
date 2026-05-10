@@ -1,12 +1,10 @@
 ---
-date: 2025-12-28
-description: Leer hoe u afbeeldingen aan XPS‑documenten kunt toevoegen in Java met
-  Aspose.Page. Deze stapsgewijze gids laat u zien hoe u moeiteloos afbeeldingen kunt
-  toevoegen en uw documentverwerking kunt verbeteren.
+date: 2026-03-16
+description: Leer hoe asp asp en hoe je een afbeelding toevoegt aan XPS‑documenten
+  in Java met Aspose.Page. Deze gids leidt je snel door het toevoegen van afbeeldingen.
 linktitle: Add Image in Java XPS
 second_title: Aspose.Page Java API
-title: Hoe een afbeelding toe te voegen aan Java XPS-documenten – Een eenvoudige gids
-  met Aspose.Page
+title: asp asp – Afbeelding toevoegen aan Java XPS‑documenten met Aspose.Page
 url: /nl/java/xps-image-manipulation/add-image/
 weight: 10
 ---
@@ -15,23 +13,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hoe een afbeelding toe te voegen aan Java XPS-documenten met Aspose.Page
+# asp asp – Afbeelding toevoegen aan Java XPS-documenten met Aspose.Page
 
-Het toevoegen van afbeeldingen aan XPS‑bestanden is een veelvoorkomende vereiste voor Java‑ontwikkelaars die rapporten, facturen of andere visuele documenten willen verrijken. In deze tutorial ontdek je **hoe je een afbeelding toevoegt** aan een XPS‑document met behulp van de krachtige Aspose.Page for Java‑bibliotheek. We lopen elke stap door, leggen uit waarom elke regel belangrijk is, en geven je tips om typische valkuilen te vermijden.
+Afbeeldingen toevoegen aan XPS‑bestanden is een veelvoorkomende behoefte voor Java‑ontwikkelaars die rapporten, facturen of elk visueel document willen verrijken. In deze tutorial leer je **hoe je een afbeelding toevoegt** aan een XPS‑document met de krachtige Aspose.Page for Java‑bibliotheek, en zie je waarom de **asp asp**‑aanpak het proces betrouwbaar en snel maakt. We lopen elke stap door, leggen uit waarom elke regel belangrijk is, en geven je praktische tips om veelvoorkomende valkuilen te vermijden.
 
-## Snelle antwoorden
+## Quick Answers
 - **Welke bibliotheek is nodig?** Aspose.Page for Java  
-- **Kan ik meerdere afbeeldingen toevoegen?** Ja – herhaal de stappen voor het toevoegen van afbeeldingen voor elke afbeelding  
+- **Kan ik meerdere afbeeldingen toevoegen?** Ja – herhaal de image‑adding stappen voor elke afbeelding  
 - **Ondersteunde afbeeldingsformaten?** TIFF, JPEG, PNG, GIF (en andere ondersteund door .NET)  
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie  
-- **Typische implementatietijd?** Ongeveer 10‑15 minuten voor een basisafbeeldingsinvoeging
+- **Typische implementatietijd?** Ongeveer 10‑15 minuten voor een basisafbeeldingsinvoeging  
+
+## asp asp: Afbeeldingen toevoegen aan XPS-documenten
+De **asp asp**‑methodologie draait om een eenvoudig, herhaalbaar patroon: een document maken, een pad definiëren, een image brush toepassen en opslaan. Dit patroon houdt je code overzichtelijk en maakt het eenvoudig om later extra grafische elementen in te voegen.
+
+## Wat is Aspose.Page voor Java?
+Aspose.Page is een speciale API die je in staat stelt XPS (XML Paper Specification)-documenten te maken, bewerken en renderen zonder Microsoft XPS Viewer te hoeven gebruiken. Het abstraheert de low‑level details van XPS-markup, zodat je je kunt concentreren op de visuele lay-out van je documenten.
+
+## Waarom afbeeldingen toevoegen aan XPS?
+- **Professional look:** Afbeeldingen zoals logo's, grafieken of productfoto's geven je documenten een gepolijste uitstraling.  
+- **Brand consistency:** Het insluiten van je bedrijfslogo zorgt ervoor dat elke gegenereerde factuur of rapport je merk draagt.  
+- **Dynamic content:** Je kunt programmatisch QR‑codes, barcodes of door gebruikers gegenereerde graphics invoegen tijdens runtime.
 
 ## Introductie
-Het toevoegen van afbeeldingen aan XPS‑documenten is een veelvoorkomende vereiste in veel Java‑applicaties, variërend van rapportgeneratie tot documentverwerking. Aspose.Page for Java vereenvoudigt deze taak en biedt efficiënte methoden om afbeeldingen naadloos in je XPS‑bestanden te integreren. In deze tutorial laten we zien hoe je een afbeelding toevoegt aan een XPS‑document met Aspose.Page for Java.
+Afbeeldingen toevoegen aan XPS-documenten is een veelvoorkomende eis in vele Java‑applicaties, variërend van rapportgeneratie tot documentverwerking. Aspose.Page voor Java vereenvoudigt deze taak en biedt efficiënte methoden om naadloos afbeeldingen in je XPS‑bestanden te integreren. In deze tutorial laten we zien hoe je een afbeelding toevoegt aan een XPS‑document met Aspose.Page voor Java.
 
-## Vereisten
-Voordat je aan de tutorial begint, zorg ervoor dat je de volgende vereisten hebt:
-1. **Aspose.Page for Java Library** – Download en installeer de Aspose.Page for Java‑bibliotheek vanaf de [website](https://releases.aspose.com/page/java/).  
+## Voorvereisten
+Before diving into the tutorial, make sure you have the following prerequisites in place:
+1. **Aspose.Page for Java Library** – Download en installeer de Aspose.Page for Java library van de [website](https://releases.aspose.com/page/java/).  
 2. **Java Development Environment** – Zorg ervoor dat je een Java‑ontwikkelomgeving op je machine hebt ingesteld.
 
 Laten we nu doorgaan naar de volgende stappen.
@@ -53,7 +62,7 @@ String dataDir = "Your Document Directory";
 ```
 
 ## Stap 2: Een nieuw XPS‑document maken
-Initialiseer een nieuw XPS‑document met behulp van de volgende code‑fragment:
+Initialiseer een nieuw XPS‑document met de volgende code‑fragment:
 
 ```java
 XpsDocument doc = new XpsDocument();
@@ -69,7 +78,7 @@ path.setFill(doc.createImageBrush(dataDir + "QL_logo_color.tif", new Rectangle2D
 ```
 
 ## Stap 4: Het resulterende XPS‑document opslaan
-Sla het gewijzigde XPS‑document op in de opgegeven map.
+Sla het gewijzigde XPS‑document op in de door jou opgegeven map.
 
 ```java
 doc.save(dataDir + "AddImage_out.xps");
@@ -77,34 +86,34 @@ doc.save(dataDir + "AddImage_out.xps");
 
 Herhaal deze stappen om meer afbeeldingen toe te voegen of de bestaande aan te passen volgens de vereisten van je project.
 
+## Veelvoorkomende problemen en oplossingen
+- **Afbeelding verschijnt uitgerekt:** Controleer of de bronrechthoek (`new Rectangle2D.Double(0f, 0f, 258.24f, 56.64f)`) overeenkomt met de werkelijke afmetingen van je afbeelding. Pas de bestemmingsrechthoek aan om de beeldverhouding te behouden.  
+- **Watermerk verschijnt:** Als je de code uitvoert zonder een geldige licentie, voegt Aspose een watermerk toe. Activeer je licentie vroeg in de applicatie om dit te voorkomen.  
+- **FileNotFoundException:** Zorg ervoor dat `dataDir` naar de juiste map wijst en dat de bestandsnaam van de afbeelding (`QL_logo_color.tif`) overeenkomt met het bestand op schijf.
+
 ## Conclusie
-Gefeliciteerd! Je hebt met succes geleerd **hoe je een afbeelding toevoegt** aan een XPS‑document met Aspose.Page for Java. Deze vaardigheid is van onschatbare waarde voor het verbeteren van de visuele aantrekkingskracht van je Java‑applicaties en documenten.
+Gefeliciteerd! Je hebt met succes **hoe je een afbeelding toevoegt** geleerd voor een XPS‑document met Aspose.Page voor Java. Deze vaardigheid is van onschatbare waarde voor het verbeteren van de visuele aantrekkingskracht van je Java‑applicaties en documenten. Door het **asp asp**‑patroon te volgen, kun je dit voorbeeld eenvoudig uitbreiden om meerdere graphics in te voegen, ze dynamisch te schalen, of zelfs grafieken on‑the‑fly te genereren.
 
 ### Veelgestelde vragen
-### Kan ik meerdere afbeeldingen toevoegen aan hetzelfde XPS‑document met Aspose.Page for Java?
+### Kan ik meerdere afbeeldingen toevoegen aan hetzelfde XPS‑document met Aspose.Page voor Java?
 Ja, je kunt meerdere afbeeldingen toevoegen door de stappen die in deze tutorial worden beschreven voor elke afbeelding te herhalen.
 
-### Welke afbeeldingsformaten worden ondersteund door Aspose.Page for Java?
-Aspose.Page for Java ondersteunt verschillende afbeeldingsformaten, waaronder TIFF, JPEG, PNG en GIF.
+### Welke afbeeldingsformaten ondersteunt Aspose.Page voor Java?
+Aspose.Page voor Java ondersteunt verschillende afbeeldingsformaten, waaronder TIFF, JPEG, PNG en GIF.
 
-### Is er een proefversie van Aspose.Page for Java beschikbaar?
-Ja, je kunt een gratis proefversie van Aspose.Page for Java verkrijgen via [deze link](https://releases.aspose.com/).
+### Is er een proefversie van Aspose.Page voor Java beschikbaar?
+Ja, je kunt een gratis proefversie van Aspose.Page voor Java verkrijgen via [deze link](https://releases.aspose.com/).
 
-### Hoe kan ik een tijdelijke licentie krijgen voor Aspose.Page for Java?
+### Hoe kan ik een tijdelijke licentie krijgen voor Aspose.Page voor Java?
 Je kunt een tijdelijke licentie verkrijgen via [deze link](https://purchase.aspose.com/temporary-license/).
 
-### Waar kan ik extra ondersteuning vinden of discussies over problemen met Aspose.Page for Java?
+### Waar kan ik extra ondersteuning vinden of discussies over problemen met Aspose.Page voor Java voeren?
 Bezoek het [Aspose.Page forum](https://forum.aspose.com/c/page/39) om hulp te zoeken, ervaringen te delen en in contact te komen met de Aspose.Page‑gemeenschap.
-
-## Extra tips & veelvoorkomende valkuilen
-- **Nauwkeurigheid van padgeometrie** – Zorg ervoor dat de SVG‑stijl pad‑string overeenkomt met de afmetingen van je afbeelding; anders kan de afbeelding uitgerekt of bijgesneden verschijnen.  
-- **Schalen van image brush** – De `createImageBrush`‑methode neemt bron‑ en doel‑rechthoeken; het aanpassen van deze waarden stelt je in staat om positie en schaal nauwkeurig te regelen.  
-- **Licentie‑activatie** – Als je de code uitvoert zonder een geldige licentie, voegt Aspose een watermerk toe aan het gegenereerde XPS‑bestand.
 
 ---
 
-**Laatst bijgewerkt:** 2025-12-28  
-**Getest met:** Aspose.Page for Java 23.12 (latest op het moment van schrijven)  
+**Laatst bijgewerkt:** 2026-03-16  
+**Getest met:** Aspose.Page for Java 23.12 (latest at time of writing)  
 **Auteur:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
