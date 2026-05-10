@@ -1,46 +1,48 @@
 ---
-date: 2025-12-20
-description: Aprende cómo agregar el espacio de nombres XMP en archivos EPS con Aspose.Page
-  para Java en este completo tutorial de aspose.page xmp.
+date: 2026-03-08
+description: 'Aprenda cómo agregar el espacio de nombres XMP en archivos EPS con Aspose.Page
+  para Java: una guía paso a paso sobre cómo añadir XMP y el espacio de nombres XMP,
+  tutorial de Java.'
 linktitle: Add Namespace in XMP using Java
 second_title: Aspose.Page Java API
-title: aspose.page xmp tutorial – Agregar espacio de nombres en XMP usando Java
+title: Cómo agregar el espacio de nombres XMP en archivos EPS usando Aspose.Page –
+  Tutorial de Java
 url: /es/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ same formatting. Ensure code block placeholders remain as is.
+
+Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# tutorial de aspose.page xmp – Añadir espacio de nombres en XMP usando Java
+# Cómo agregar un espacio de nombres XMP en archivos EPS usando Aspose.Page – Tutorial de Java
 
-## Introducción
-
-Si necesita modificar o enriquecer los metadatos de archivos EPS, **aspose.page xmp tutorial** le muestra exactamente **cómo añadir un espacio de nombres XMP** usando Java. En esta guía recorreremos cada paso—desde cargar un documento EPS, registrar un espacio de nombres personalizado, insertar una nueva propiedad y, finalmente, guardar el archivo actualizado. Al final, tendrá un patrón claro y reutilizable para trabajar con metadatos XMP en cualquier proyecto Java compatible con Aspose.Page.
+Si necesita modificar o enriquecer los metadatos de archivos EPS, este tutorial **cómo agregar xmp** le muestra exactamente cómo agregar un espacio de nombres XMP usando Java y Aspose.Page. Al final de la guía tendrá un patrón reutilizable para inyectar metadatos personalizados en cualquier documento EPS.
 
 ## Respuestas rápidas
-- **¿Cuál es el objetivo principal?** Añadir un espacio de nombres XMP personalizado y una propiedad a un archivo EPS.  
+- **¿Cuál es el objetivo principal?** Agregar un espacio de nombres XMP personalizado y una propiedad a un archivo EPS.  
 - **¿Qué biblioteca se requiere?** Aspose.Page for Java.  
 - **¿Necesito una licencia para pruebas?** Una prueba gratuita funciona para desarrollo; se requiere una licencia comercial para producción.  
-- **¿Cuántos cambios de código son necesarios?** Sólo cinco fragmentos de código cortos—uno para cada paso.  
-- **¿Puedo reutilizar este patrón para otros espacios de nombres?** Sí, basta con cambiar el prefijo y la URI en la llamada `registerNamespaceURI`.
+- **¿Cuántos cambios de código son necesarios?** Solo cinco fragmentos de código cortos, uno para cada paso.  
+- **¿Puedo reutilizar este patrón para otros espacios de nombres?** Sí, solo cambie el prefijo y el URI en la llamada `registerNamespaceURI`.
 
 ## ¿Qué es un espacio de nombres XMP?
 
-Un espacio de nombres XMP (Extensible Metadata Platform) es un identificador único que agrupa propiedades de metadatos relacionadas bajo una URI común. Registrar un espacio de nombres le permite almacenar datos personalizados—como etiquetas propietarias—sin colisionar con estándares existentes.
+Un espacio de nombres XMP (Extensible Metadata Platform) es un identificador único que agrupa propiedades de metadatos relacionadas bajo un URI común. Registrar un espacio de nombres le permite almacenar datos personalizados—como etiquetas propietarias—sin colisionar con estándares existentes.
 
 ## ¿Por qué usar Aspose.Page para la manipulación de XMP?
 
-- **Control total** sobre los metadatos de EPS y PDF sin necesidad de herramientas Adobe.  
-- **Creación automática** de bloques XMP cuando no existen, basándose en comentarios PS.  
-- **Compatibilidad multiplataforma Java**, lo que facilita su integración en pipelines existentes.
+- **Control total** sobre los metadatos de EPS y PDF sin necesidad de herramientas de Adobe.  
+- **Creación automática** de bloques XMP cuando no existen, basada en comentarios PS.  
+- **Soporte Java multiplataforma**, lo que facilita la integración en pipelines existentes.
 
 ## Requisitos previos
 
 - Aspose.Page for Java: Asegúrese de tener la biblioteca instalada. Puede descargarla [aquí](https://releases.aspose.com/page/java/).  
 - Entorno de desarrollo Java: Configure un entorno Java en su sistema.  
-- Archivo de documento: Disponga de un archivo EPS con metadatos XMP. Si no contiene metadatos XMP, la biblioteca creará uno basándose en los comentarios de metadatos PS.
+- Archivo de documento: Tenga un archivo EPS con metadatos XMP. Si no contiene metadatos XMP, la biblioteca creará uno basado en los comentarios de metadatos PS.
 
 ## Importar paquetes
 
@@ -72,9 +74,9 @@ XmpMetadata xmp = document.getXmpMetadata();
 ```
 
 ### Por qué es importante
-Obtener el objeto `XmpMetadata` le brinda un manejador activo de los metadatos del documento, permitiéndole leer, modificar o ampliarlos antes de guardarlos.
+Obtener el objeto `XmpMetadata` le brinda un manejador en tiempo real de los metadatos del documento, permitiéndole leer, modificar o ampliarlos antes de guardar.
 
-## Paso 2: Registrar nuevo espacio de nombres *(cómo añadir espacio de nombres xmp)*
+## Paso 2: Registrar un nuevo espacio de nombres *(cómo agregar espacio de nombres xmp)*
 
 ```java
 // Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
@@ -82,7 +84,7 @@ xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 ```
 
 ### Explicación
-El método `registerNamespaceURI` asigna un prefijo corto (`tmp`) a una URI completa. Este paso es esencial para la siguiente operación porque las propiedades XMP deben estar calificadas con un espacio de nombres registrado.
+El método `registerNamespaceURI` asigna un prefijo corto (`tmp`) a un URI completo. Este paso es esencial para la siguiente operación porque las propiedades XMP deben estar calificadas con un espacio de nombres registrado.
 
 ## Paso 3: Añadir nueva propiedad
 
@@ -119,24 +121,24 @@ psStream.close();
 ```
 
 ### Mejores prácticas
-Cerrar el flujo de entrada libera el manejador del archivo de inmediato, evitando problemas de bloqueo de archivos en sistemas Windows.
+Cerrar el flujo de entrada libera el manejador del archivo rápidamente, evitando problemas de bloqueo de archivos en sistemas Windows.
 
 ## Problemas comunes y soluciones
 
 | Problema | Causa probable | Solución |
 |----------|----------------|----------|
-| No aparece un bloque XMP después de guardar | El EPS original carecía de XMP y los comentarios fueron insuficientes | Asegúrese de que el EPS contenga comentarios PS estándar (`%%Creator`, `%%Title`, etc.) o cree manualmente un objeto `XmpMetadata` vacío antes de registrar un espacio de nombres. |
-| `registerNamespaceURI` lanza una excepción | El prefijo ya está en uso | Elija un prefijo único o verifique los espacios de nombres existentes mediante `xmp.getRegisteredNamespaces()`. |
-| El archivo guardado está corrupto | El flujo de salida no se vació | Use `try‑with‑resources` o llame explícitamente a `outPsStream.flush()` antes de cerrar. |
+| No aparece bloque XMP después de guardar | El EPS original carecía de XMP y los comentarios fueron insuficientes | Asegúrese de que el EPS contenga comentarios PS estándar (`%%Creator`, `%%Title`, etc.) o cree manualmente un objeto `XmpMetadata` vacío antes de registrar un espacio de nombres. |
+| `registerNamespaceURI` lanza una excepción | Prefijo ya utilizado | Elija un prefijo único o verifique los espacios de nombres existentes mediante `xmp.getRegisteredNamespaces()`. |
+| El archivo guardado está corrupto | Flujo de salida no vaciado | Use `try‑with‑resources` o llame explícitamente a `outPsStream.flush()` antes de cerrar. |
 
 ## Conclusión
 
-Al seguir este **aspose.page xmp tutorial**, ahora dispone de un método repetible para añadir espacios de nombres y propiedades personalizadas a archivos EPS usando Aspose.Page for Java. Esta capacidad abre la puerta a estrategias de metadatos más ricas—ya sea que esté incorporando identificadores de flujo de trabajo, etiquetas propietarias o datos de integración para sistemas posteriores.
+Al seguir este tutorial **how to add xmp**, ahora tiene un método repetible para agregar espacios de nombres y propiedades personalizados a archivos EPS usando Aspose.Page for Java. Esta capacidad abre la puerta a estrategias de metadatos más ricas—ya sea que esté incrustando identificadores de flujo de trabajo, etiquetas propietarias o datos de integración para sistemas descendentes.
 
 ## Preguntas frecuentes
 
-### ¿Puedo usar Aspose.Page for Java con otros lenguajes de programación?
-Aspose.Page admite principalmente Java, pero existen versiones disponibles para otros lenguajes como .NET.
+### ¿Puedo usar Aspose.Page para Java con otros lenguajes de programación?
+Aspose.Page soporta principalmente Java, pero existen versiones disponibles para otros lenguajes como .NET.
 
 ### ¿Hay una prueba gratuita disponible?
 Sí, puede explorar una prueba gratuita [aquí](https://releases.aspose.com/).
@@ -152,8 +154,8 @@ Sí, puede participar con la comunidad en el [foro de Aspose.Page](https://forum
 
 ---
 
-**Última actualización:** 2025-12-20  
-**Probado con:** Aspose.Page for Java 23.12 (última versión al momento de escribir)  
+**Última actualización:** 2026-03-08  
+**Probado con:** Aspose.Page for Java 24.10 (latest)  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

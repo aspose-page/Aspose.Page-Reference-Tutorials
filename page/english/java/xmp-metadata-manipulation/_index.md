@@ -1,8 +1,9 @@
 ---
-title: XMP Metadata Manipulation - Java
-linktitle: XMP Metadata Manipulation - Java
+title: Add XMP Metadata Java – Aspose.Page XMP Manipulation
+linktitle: Add XMP Metadata Java – Aspose.Page XMP Manipulation
 second_title: Aspose.Page Java API
-description: Effortlessly enhance EPS files with XMP metadata manipulation—from adding items to extraction. Elevate your document management with our guides.
+description: Learn how to add XMP metadata using Java with Aspose.Page. This guide covers adding, changing, and extracting XMP metadata in EPS files.
+date: 2026-03-08
 weight: 42
 url: /java/xmp-metadata-manipulation/
 ---
@@ -13,6 +14,11 @@ url: /java/xmp-metadata-manipulation/
 
 # XMP Metadata Manipulation - Java
 
+With **Aspose.Page for Java** you can programmatically **add XMP metadata** to EPS files, giving your documents richer descriptions, better searchability, and full compliance with industry standards. In this hub you’ll find step‑by‑step tutorials that show you **add xmp metadata java** for a variety of scenarios, from simple properties to complex arrays.
+
+## add xmp metadata java – What you can achieve
+
+These guides demonstrate how to **add xmp metadata java** efficiently across different use cases—whether you’re embedding author information, licensing data, or custom tags. Each tutorial walks you through the exact API calls, required objects, and best‑practice tips so you can integrate XMP handling into your Java applications with confidence.
 
 ## Introduction
 
@@ -53,6 +59,7 @@ Enhance your EPS documents effortlessly with Aspose.Page for Java. Modify XMP me
 ## Get Metadata from XMP using Java
 
 Unlock the power of Aspose.Page for Java to effortlessly extract XMP metadata. Elevate document analysis with our step-by-step guide. Dive into seamless extraction and enhance your content effortlessly. [Explore Tutorial](./get-metadata/)
+
 ## XMP Metadata Manipulation - Java Tutorials
 ### [Add Array Items in XMP Metadata using Java](./add-array-items/)
 Enhance EPS files with Aspose.Page for Java. Learn to add array items to XMP metadata effortlessly. Follow our step-by-step guide now!

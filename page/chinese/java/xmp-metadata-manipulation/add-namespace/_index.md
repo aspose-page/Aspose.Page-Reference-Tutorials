@@ -1,50 +1,52 @@
 ---
-date: 2025-12-20
-description: 在本全面的 aspose.page xmp 教程中，学习如何使用 Aspose.Page for Java 在 EPS 文件中添加 XMP
-  命名空间。
+date: 2026-03-08
+description: 了解如何使用 Aspose.Page for Java 在 EPS 文件中添加 XMP 命名空间——一步一步的 XMP 与 XMP 命名空间添加教程
+  Java 指南。
 linktitle: Add Namespace in XMP using Java
 second_title: Aspose.Page Java API
-title: aspose.page XMP 教程 – 使用 Java 在 XMP 中添加命名空间
+title: 如何使用 Aspose.Page 在 EPS 文件中添加 XMP 命名空间 – Java 教程
 url: /zh/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ block placeholders unchanged.
+
+Make sure to keep markdown formatting.
+
+Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose.page xmp 教程 – 使用 Java 在 XMP 中添加命名空间
+# 如何使用 Aspose.Page 在 EPS 文件中添加 XMP 命名空间 – Java 教程
 
-## 简介
+如果您需要修改或丰富 EPS 文件的元数据，本 **how to add xmp** 教程将向您展示如何使用 Java 和 Aspose.Page 添加 XMP 命名空间。阅读完本指南后，您将拥有一个可复用的模式，用于向任何 EPS 文档注入自定义元数据。
 
-如果您需要修改或丰富 EPS 文件的元数据，**aspose.page xmp 教程** 将向您展示如何使用 Java **添加 XMP 命名空间**。本指南将逐步演示每个步骤——从加载 EPS 文档、注册自定义命名空间、插入新属性，到最终保存更新后的文件。完成后，您将拥有一套清晰、可复用的模式，能够在任何支持 Aspose.Page 的 Java 项目中处理 XMP 元数据。
-
-## 快速解答
+## 快速回答
 - **主要目标是什么？** 向 EPS 文件添加自定义 XMP 命名空间和属性。  
 - **需要哪个库？** Aspose.Page for Java。  
-- **测试时需要许可证吗？** 开发阶段可使用免费试用版；生产环境需要商业许可证。  
-- **需要多少代码改动？** 仅需五段简短代码片段——每个步骤各一段。  
+- **测试需要许可证吗？** 开发阶段可使用免费试用版；生产环境需要商业许可证。  
+- **需要多少代码改动？** 仅五段简短代码片段——每一步各一段。  
 - **可以将此模式复用于其他命名空间吗？** 可以，只需在 `registerNamespaceURI` 调用中更改前缀和 URI。
 
 ## 什么是 XMP 命名空间？
 
-XMP（可扩展元数据平台）命名空间是用于将相关元数据属性归类到同一 URI 下的唯一标识符。注册命名空间后，您可以存储自定义数据（如专有标签），而不会与现有标准冲突。
+XMP（Extensible Metadata Platform）命名空间是一个唯一标识符，用于将相关的元数据属性归类到同一 URI 下。注册命名空间后，您可以存储自定义数据（如专有标签），而不会与现有标准冲突。
 
 ## 为什么使用 Aspose.Page 进行 XMP 操作？
 
-- **完整控制** EPS 和 PDF 元数据，无需 Adobe 工具。  
-- **自动创建** 当文档中不存在 XMP 块时，基于 PS 注释自动生成。  
-- **跨平台 Java 支持**，便于集成到现有流水线中。
+- **完全控制** EPS 和 PDF 元数据，无需 Adobe 工具。  
+- **自动创建** XMP 块（如果不存在），基于 PS 注释生成。  
+- **跨平台 Java 支持**，便于集成到现有流水线。
 
-## 前提条件
+## 前置条件
 
-- Aspose.Page for Java：确保已安装该库。您可以在 [这里](https://releases.aspose.com/page/java/) 下载。  
+- Aspose.Page for Java：确保已安装该库。您可以在[此处](https://releases.aspose.com/page/java/)下载。  
 - Java 开发环境：在系统上配置好 Java 环境。  
-- 文档文件：准备一份带有 XMP 元数据的 EPS 文件。如果文件中没有 XMP 元数据，库会根据 PS 元数据注释自动创建。
+- 文档文件：准备好带有 XMP 元数据的 EPS 文件。如果文件中没有 XMP 元数据，库会根据 PS 元数据注释自动创建。
 
-## 导入软件包
+## 导入包
 
-要开始，请在 Java 项目中导入必要的包：
+首先，将必要的包导入到您的 Java 项目中：
 
 ```java
 import java.io.FileInputStream;
@@ -71,10 +73,10 @@ PsDocument document = new PsDocument(psStream);
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-### 为什么这很重要
-获取 `XmpMetadata` 对象后，您就拥有了文档元数据的实时句柄，能够在保存之前读取、修改或扩展它。
+### 为什么重要
+获取 `XmpMetadata` 对象后，您即可实时操作文档的元数据，在保存前读取、修改或扩展它。
 
-## 步骤 2：注册新命名空间（如何添加 XMP 命名空间）
+## 步骤 2：注册新命名空间 *(how to add xmp namespace)*
 
 ```java
 // Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
@@ -91,7 +93,7 @@ xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 xmp.put("tmp:newKey", new XmpValue("NewValue"));
 ```
 
-### 发生了什么？
+### 正在发生什么？
 这里我们创建了一个名为 `tmp:newKey` 的自定义属性，并赋值为 `"NewValue"`。您可以根据业务需求替换键和值。
 
 ## 步骤 4：保存文档
@@ -123,43 +125,38 @@ psStream.close();
 
 ## 常见问题及解决方案
 
-| Issue | Likely Cause | Fix |
+| 问题 | 可能原因 | 解决办法 |
 |-------|--------------|-----|
-| 未在保存后看到 XMP 块 | 原始 EPS 缺少 XMP 且注释不足 | 确保 EPS 包含标准 PS 注释（`%%Creator`、`%%Title` 等），或在注册命名空间前手动创建空的 `XmpMetadata` 对象。 |
-| `registerNamespaceURI` 抛出异常 | 前缀已被使用 | 选择唯一前缀或通过 `xmp.getRegisteredNamespaces()` 检查已有命名空间。 |
-| 保存的文件损坏 | 输出流未刷新 | 使用 `try‑with‑resources` 或在关闭前显式调用 `outPsStream.flush()`。 |
+| 保存后未出现 XMP 块 | 原始 EPS 缺少 XMP，且注释不足 | 确保 EPS 包含标准 PS 注释（`%%Creator`、`%%Title` 等），或在注册命名空间前手动创建空的 `XmpMetadata` 对象。 |
+| `registerNamespaceURI` 抛出异常 | 前缀已被使用 | 选择唯一前缀，或通过 `xmp.getRegisteredNamespaces()` 检查已有命名空间。 |
+| 保存的文件损坏 | 输出流未刷新 | 使用 try‑with‑resources，或在关闭前显式调用 `outPsStream.flush()`。 |
 
 ## 结论
 
-通过本 **aspose.page xmp 教程**，您现在掌握了一种可重复使用的方法，能够使用 Aspose.Page for Java 向 EPS 文件添加自定义命名空间和属性。这一能力为更丰富的元数据策略打开了大门——无论是嵌入工作流标识、专有标签，还是为下游系统提供集成数据。
+通过本 **how to add xmp** 教程，您现在掌握了一种可重复使用的方法，能够使用 Aspose.Page for Java 向 EPS 文件添加自定义命名空间和属性。这一能力为更丰富的元数据策略打开了大门——无论是嵌入工作流标识、专有标签，还是为下游系统提供集成数据。
 
-## 常见问题解答
+## 常见问答
 
-### 我可以将 Aspose.Page for Java 用于其他编程语言吗？
-
+### 我可以在其他编程语言中使用 Aspose.Page for Java 吗？
 Aspose.Page 主要支持 Java，但也提供 .NET 等其他语言的版本。
 
-### 是否有免费试用版？
+### 有免费试用吗？
+有，您可以在[此处](https://releases.aspose.com/)获取免费试用。
 
-是的，您可以在 [这里](https://releases.aspose.com/) 试用免费版。
+### 哪里可以找到完整文档？
+请参阅[此处](https://reference.aspose.com/page/java/)的文档。
 
-### 在哪里可以找到完整的文档？
+### 如何获取临时许可证？
+您可以在[此处](https://purchase.aspose.com/temporary-license/)获取临时许可证。
 
-请参阅文档 [这里](https://reference.aspose.com/page/java/)。
-
-### 如何获得临时许可证？
-
-您可以在 [这里](https://purchase.aspose.com/temporary-license/) 获取临时许可证。
-
-### 是否有 Aspose.Page 的社区论坛？
-
-是的，您可以在 [Aspose.Page 论坛](https://forum.aspose.com/c/page/39) 与社区交流。
+### 有 Aspose.Page 的社区论坛吗？
+有，您可以在[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)与社区交流。
 
 ---
 
-**上次更新：** 2025-12-20
-**测试版本：** Aspose.Page for Java 23.12（撰写本文时的最新版本）
-**作者：** Aspose 
+**最后更新：** 2026-03-08  
+**测试环境：** Aspose.Page for Java 24.10（最新）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

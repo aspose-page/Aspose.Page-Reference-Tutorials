@@ -1,77 +1,87 @@
 ---
-title: XMP metaadat-manipuláció – Java
-linktitle: XMP metaadat-manipuláció – Java
+date: 2026-03-08
+description: Ismerje meg, hogyan adhat hozzá XMP metaadatokat Java-val az Aspose.Page
+  segítségével. Ez az útmutató bemutatja az XMP metaadatok hozzáadását, módosítását
+  és kinyerését EPS fájlokban.
+linktitle: Add XMP Metadata Java – Aspose.Page XMP Manipulation
 second_title: Aspose.Page Java API
-description: Könnyedén javíthatja az EPS-fájlokat XMP-metaadat-manipulációval – az elemek hozzáadásától a kibontásig. Útmutatóink segítségével javítsa ki dokumentumkezelését.
-weight: 42
+title: XMP metaadatok hozzáadása Java – Aspose.Page XMP manipuláció
 url: /hu/java/xmp-metadata-manipulation/
+weight: 42
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XMP metaadat-manipuláció – Java
+# XMP metaadat-manipuláció - Java
 
+Az **Aspose.Page for Java** segítségével programozott módon **XMP metaadatokat adhat hozzá** EPS fájlokhoz, így dokumentumai gazdagabb leírásokat, jobb kereshetőséget és a ipari szabványok teljes megfelelését kapják. Ebben a központban lépésről‑lépésre útmutatókat talál, amelyek megmutatják, hogyan **add xmp metadata java** különféle helyzetekben, az egyszerű tulajdonságoktól a komplex tömbökig.
+
+## add xmp metadata java – Amit elérhet
+
+Ezek az útmutatók bemutatják, hogyan lehet **add xmp metadata java** hatékonyan különböző felhasználási esetekben – legyen szó szerzői információk, licencadatok vagy egyedi címkék beágyazásáról. Minden tutorial részletesen végigvezet a pontos API hívásokon, a szükséges objektumokon és a legjobb gyakorlatok tippein, így magabiztosan integrálhatja az XMP kezelését Java alkalmazásaiba.
 
 ## Bevezetés
 
-Készen áll arra, hogy kiaknázza az Aspose.Page for Java-ban rejlő lehetőségeket, és javítsa dokumentumkezelő játékát? Merüljön el átfogó Java-oktatóanyagainkban az XMP-metaadat-manipulációról, és fedezze fel az EPS-fájlok javításának zökkenőmentes technikáit.
+Készen áll arra, hogy felszabadítsa az Aspose.Page for Java teljes potenciálját és felemelje dokumentumkezelési szintjét? Merüljön el átfogó Java útmutatóinkban az XMP metaadat-manipulációról, és fedezze fel a zökkenőmentes technikákat EPS fájljainak fejlesztéséhez.
 
-## Adjon hozzá tömbelemeket az XMP metaadatokhoz Java használatával
+## Tömbelemek hozzáadása XMP metaadatokhoz Java használatával
 
- Növelje dokumentumfeldolgozási képességeit az Aspose.Page for Java segítségével! Oktatóanyagunk végigvezeti Önt, hogyan adhat hozzá tömbelemeket az EPS-fájlok XMP-metaadataihoz. Fedezze fel a lépésenkénti utasításokat, és könnyedén javíthatja fájljait.[Fedezze fel az oktatóanyagot](./add-array-items/)
+Növelje dokumentumfeldolgozási képességeit az Aspose.Page for Java segítségével! Tutorialunk lépésről‑lépésre bemutatja, hogyan adhat hozzá egyszerűen tömbelemeket az XMP metaadatokhoz EPS fájlokban. Fedezze fel a részletes útmutatót, és könnyedén fejlessze fájljait. [Explore Tutorial](./add-array-items/)
 
-## Metaadatok hozzáadása az XMP-ben Java használatával
+## Metaadatok hozzáadása XMP-hez Java használatával
 
- Zökkenőmentesen integrálja az Aspose.Page for Java oldalt, és tanulja meg az XMP-metaadatok EPS-fájlokhoz való hozzáadásának művészetét. Emelje fel dokumentumkezelési játékát lépésenkénti útmutatónkkal. Merüljön el és tökéletesítse tartalmait erőfeszítés nélkül.[Fedezze fel az oktatóanyagot](./add-metadata/)
+Zökkenőmentesen integrálja az Aspose.Page for Java-t, és tanulja meg az XMP metaadatok EPS fájlokhoz való hozzáadásának művészetét. Emelje dokumentumkezelési szintjét részletes útmutatónkkal. Merüljön el, és könnyedén fejlessze tartalmát. [Explore Tutorial](./add-metadata/)
 
-## Adjon hozzá Név szerinti értéket az XMP-ben Java használatával
+## Neves érték hozzáadása XMP-hez Java használatával
 
-Sajátítsa el a Java dokumentumkezelés művészetét az Aspose.Page segítségével! Oktatóanyagunk lépésről lépésre nyújt útmutatót az XMP metaadatokhoz elnevezett értékek hozzáadásához. Használja ki a zökkenőmentes integrációban rejlő lehetőségeket, és javítsa dokumentumfeldolgozását.[Fedezze fel az oktatóanyagot](./add-named-value/)
+Mesteri szintre emeli a Java dokumentummanipulációt az Aspose.Page segítségével! Tutorialunk lépésről‑lépésre bemutatja, hogyan adhat hozzá neves értékeket az XMP metaadatokhoz. Nyissa ki a zökkenőmentes integráció lehetőségét, és emelje dokumentumfeldolgozását. [Explore Tutorial](./add-named-value/)
 
-## Adjon hozzá névteret az XMP-hez Java használatával
+## Névtér hozzáadása XMP-hez Java használatával
 
- Fedezze fel a dokumentumkezelés erejét az Aspose.Page for Java segítségével! Tanuljon meg könnyedén XMP-névtereket hozzáadni átfogó útmutatónkkal. Merüljön el, és fedezze fel a továbbfejlesztett dokumentumfeldolgozás kulcsát.[Fedezze fel az oktatóanyagot](./add-namespace/)
+Fedezze fel a dokumentummanipuláció erejét az Aspose.Page for Java segítségével! Tanulja meg, hogyan adhat hozzá egyszerűen XMP névtereket átfogó útmutatónkkal. Merüljön el, és ismerje meg a fejlett dokumentumfeldolgozás kulcsát. [Explore Tutorial](./add-namespace/)
 
-## Egyszerű tulajdonságok hozzáadása az XMP-hez Java használatával
+## Egyszerű tulajdonságok hozzáadása XMP-hez Java használatával
 
- Maximalizálja az Aspose.Page-t a Java-ban az EPS-fájlokban lévő XMP-metaadatok tulajdonságainak hozzáadására vonatkozó útmutatónkkal. Lépésről lépésre bemutató oktatóanyagunk segítségével könnyedén javíthatja dokumentumfeldolgozását.[Fedezze fel az oktatóanyagot](./add-simple-properties/)
+Maximalizálja az Aspose.Page for Java potenciálját útmutatónkkal, amely az XMP metaadatokhoz való tulajdonságok hozzáadását mutatja be EPS fájlokban. Emelje dokumentumfeldolgozását könnyedén részletes tutorialunkkal. [Explore Tutorial](./add-simple-properties/)
 
 ## Tömbelemek módosítása XMP-ben Java használatával
 
- Az Aspose.Page for Java segítségével könnyedén módosíthatja a metaadatokat! Lépésről lépésre szóló útmutatónk megtanítja Önnek, hogyan módosíthatja a tömb elemeit az XMP-ben, javítva ezzel az EPS-dokumentumokat. Emelje fel a tartalmat most![Fedezze fel az oktatóanyagot](./change-array-items/)
+Módosítsa a metaadatokat könnyedén az Aspose.Page for Java segítségével! Részletes útmutatónk megmutatja, hogyan változtathatja meg a tömbelemeket az XMP-ben, ezáltal javítva EPS dokumentumait. Emelje tartalmát most! [Explore Tutorial](./change-array-items/)
 
-## Módosítsa a Név szerinti értéket az XMP-ben Java használatával
+## Neves érték módosítása XMP-ben Java használatával
 
-Az Aspose.Page for Java segítségével könnyedén módosíthatja az XMP metaadatokat az EPS-fájlokban. Fedezze fel az egyszerűsített dokumentumfeldolgozást lépésenkénti útmutatónkkal. Emelje fel a tartalmat könnyedén.[Fedezze fel az oktatóanyagot](./change-named-value/)
+Könnyedén módosítsa az XMP metaadatokat EPS fájlokban az Aspose.Page for Java segítségével. Fedezze fel a hatékony dokumentumfeldolgozást részletes útmutatónk révén. Emelje tartalmát egyszerűen. [Explore Tutorial](./change-named-value/)
 
-## Módosítsa az értékeket az XMP-ben Java használatával
+## Értékek módosítása XMP-ben Java használatával
 
- Az Aspose.Page for Java segítségével könnyedén javíthatja EPS-dokumentumait. Módosítsa az XMP metaadatokat a személyre szabott és professzionális tartalom érdekében lépésenkénti útmutatónkkal. Emelje fel dokumentumelemzését most![Fedezze fel az oktatóanyagot](./change-values/)
+Fejlessze EPS dokumentumait könnyedén az Aspose.Page for Java segítségével. Módosítsa az XMP metaadatokat testreszabott és professzionális tartalomhoz részletes útmutatónkkal. Emelje dokumentumelemzését most! [Explore Tutorial](./change-values/)
 
-## Metaadatok beszerzése az XMP-ből Java használatával
+## Metaadatok lekérése XMP-ből Java használatával
 
- Fedezze fel az Aspose.Page for Java erejét, amellyel könnyedén kinyerheti az XMP metaadatokat. Emelje fel a dokumentumelemzést lépésenkénti útmutatónkkal. Merüljön el a zökkenőmentes kinyerésben, és könnyítsen tartalmait.[Fedezze fel az oktatóanyagot](./get-metadata/)
-## XMP metaadat-manipuláció – Java oktatóanyagok
-### [Adjon hozzá tömbelemeket az XMP metaadatokhoz Java használatával](./add-array-items/)
-Javítsa az EPS-fájlokat az Aspose.Page for Java segítségével. Tanuljon meg tömbelemeket könnyedén hozzáadni XMP-metaadatokhoz. Kövesse lépésről lépésre útmutatónkat most!
-### [Metaadatok hozzáadása az XMP-ben Java használatával](./add-metadata/)
-Fedezze fel az Aspose.Page for Java zökkenőmentes integrációját, és tanulja meg, hogyan adhat hozzá XMP-metaadatokat könnyedén EPS-fájljaihoz. Emelje fel dokumentumkezelési játékát még ma!
-### [Adjon hozzá Név szerinti értéket az XMP-ben Java használatával](./add-named-value/)
-Sajátítsa el a Java dokumentumkezelést az Aspose.Page segítségével! A zökkenőmentes integrációhoz lépésenkénti útmutatónkkal könnyedén hozzáadhat elnevezett értékeket az XMP metaadatokhoz.
-### [Adjon hozzá névteret az XMP-hez Java használatával](./add-namespace/)
-Fedezze fel a dokumentumkezelés erejét az Aspose.Page for Java segítségével. Ebből az átfogó útmutatóból megtanulhatja, hogyan adhat hozzá XMP névtereket könnyedén.
-### [Egyszerű tulajdonságok hozzáadása az XMP-hez Java használatával](./add-simple-properties/)
-Oldja fel az Aspose.Page-t a Java-ban rejlő lehetőségekhez az EPS-fájlokban lévő XMP-metaadatok tulajdonságainak hozzáadására vonatkozó útmutatónkkal. Emelje fel a dokumentumfeldolgozást könnyedén!
+Használja ki az Aspose.Page for Java erejét, hogy könnyedén kinyerje az XMP metaadatokat. Emelje dokumentumelemzését részletes útmutatónkkal. Merüljön el a zökkenőmentes kinyerésben, és fejlessze tartalmát egyszerűen. [Explore Tutorial](./get-metadata/)
+
+## XMP metaadat-manipuláció - Java útmutatók
+### [Tömbelemek hozzáadása XMP metaadatokhoz Java használatával](./add-array-items/)
+Fejlessze EPS fájljait az Aspose.Page for Java segítségével. Tanulja meg, hogyan adhat hozzá tömbelemeket az XMP metaadatokhoz könnyedén. Kövesse részletes útmutatónkat most!
+### [Metaadatok hozzáadása XMP-hez Java használatával](./add-metadata/)
+Fedezze fel a zökkenőmentes integrációt az Aspose.Page for Java-val, és tanulja meg, hogyan adhat hozzá XMP metaadatokat EPS fájljaihoz könnyedén. Emelje dokumentumkezelési szintjét még ma!
+### [Neves érték hozzáadása XMP-hez Java használatával](./add-named-value/)
+Mesteri szintre emeli a Java dokumentummanipulációt az Aspose.Page segítségével! Könnyedén adjon hozzá neves értékeket az XMP metaadatokhoz részletes útmutatónkkal a zökkenőmentes integráció érdekében.
+### [Névtér hozzáadása XMP-hez Java használatával](./add-namespace/)
+Fedezze fel a dokumentummanipuláció erejét az Aspose.Page for Java segítségével. Tanulja meg, hogyan adhat hozzá XMP névtereket könnyedén ebben az átfogó útmutatóban.
+### [Egyszerű tulajdonságok hozzáadása XMP-hez Java használatával](./add-simple-properties/)
+Fedezze fel az Aspose.Page for Java potenciálját útmutatónkkal, amely az XMP metaadatokhoz való tulajdonságok hozzáadását mutatja be EPS fájlokban. Emelje dokumentumfeldolgozását könnyedén!
 ### [Tömbelemek módosítása XMP-ben Java használatával](./change-array-items/)
-Ismerje meg, hogyan módosíthatja a tömbelemeket az XMP-ben az Aspose.Page for Java használatával. Módosítsa könnyedén a metaadatokat lépésről lépésre szóló útmutatónkkal. Bővítse EPS-dokumentumait most!
-### [Módosítsa a Név szerinti értéket az XMP-ben Java használatával](./change-named-value/)
-Fedezze fel az Aspose.Page for Java oldalt – Könnyedén módosíthatja az XMP-metaadatokat az EPS-fájlokban az egyszerűsített dokumentumfeldolgozáshoz lépésről lépésre szóló útmutatónkkal.
-### [Módosítsa az értékeket az XMP-ben Java használatával](./change-values/)
-Javítsa az EPS-dokumentumokat az Aspose.Page for Java segítségével. Könnyedén módosíthatja az XMP metaadatokat a személyre szabott és professzionális tartalom érdekében.
-### [Metaadatok beszerzése az XMP-ből Java használatával](./get-metadata/)
-Fedezze fel az Aspose.Page for Java erejét, amellyel könnyedén kinyerheti az XMP metaadatokat. Emelje fel a dokumentumelemzést lépésenkénti útmutatónkkal!
+Tanulja meg, hogyan módosíthatja a tömbelemeket az XMP-ben az Aspose.Page for Java segítségével. Módosítsa a metaadatokat könnyedén részletes útmutatónkkal. Fejlessze EPS dokumentumait most!
+### [Neves érték módosítása XMP-ben Java használatával](./change-named-value/)
+Fedezze fel az Aspose.Page for Java-t – Könnyedén módosítsa az XMP metaadatokat EPS fájlokban részletes útmutatónkkal a hatékony dokumentumfeldolgozás érdekében.
+### [Értékek módosítása XMP-ben Java használatával](./change-values/)
+Fejlessze EPS dokumentumait az Aspose.Page for Java segítségével. Könnyedén módosítsa az XMP metaadatokat testreszabott és professzionális tartalomhoz.
+### [Metaadatok lekérése XMP-ből Java használatával](./get-metadata/)
+Használja ki az Aspose.Page for Java erejét, hogy könnyedén kinyerje az XMP metaadatokat. Emelje dokumentumelemzését részletes útmutatónkkal!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
