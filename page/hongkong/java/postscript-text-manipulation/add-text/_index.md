@@ -1,9 +1,10 @@
 ---
-date: 2025-12-14
-description: 了解如何使用 Aspose.Page for Java 設定文字顏色、將文字加入 PostScript，並套用描邊文字以實現豐富的文件樣式。
+date: 2026-02-20
+description: 學習如何使用 Aspose.Page for Java 設定文字顏色、變更字型大小、產生 PostScript 檔案、填色與描邊文字，並在建立
+  PostScript 文件時使用自訂字型。
 linktitle: Add Text in Java PostScript
 second_title: Aspose.Page Java API
-title: 使用 Aspose.Page（Java）設定文字顏色 – 文字操作指南
+title: 在 Java 中使用 Aspose.Page 設定文字顏色 – 文字操作指南
 url: /zh-hant/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
@@ -12,35 +13,35 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page 的 Java 設定文字顏色 – 文字操作指南
+# 使用 Aspose.Page 設定文字顏色 Java – 文字操作指南
 
-## Introduction
-歡迎閱讀本步驟教學，內容說明在使用 Aspose.Page for Java 處理 PostScript 檔案時，如何 **set text color。Aspose.Page for Java 是一套功能強大的程式庫，讓開發者能夠建立與 **generate postscript file** 文件、操作字型、精確地為文字設定樣式。在本教學中，您將學會如何加入文字、變更顏色、調整大小，甚至 **apply stroke text**，打造更精緻的版面效果。
+## 介紹
+歡迎閱讀我們的逐步指南，說明在使用 Aspose.Page for Java 處理 PostScript 檔案時，如何 **set text color java**。Aspose.Page for Java 是一個功能強大的函式庫，讓開發人員能 **create postscript document** 檔案、操作字型，並精確地設定文字樣式。在本教學中，您將學會如何新增文字、變更其顏色、**change font size java**，甚至 **apply fill and stroke text**，以獲得精緻的效果。
 
-## Quick Answers
-- **What library lets me set text color in Java?** Aspose.Page for Java.  
-- **Can I use system fonts and custom fonts?** Yes, both are supported.  
-- **How do I change the text size?** By specifying the font size when creating the `Font` or `DrFont`.  
-- **Is it possible to outline and fill text together?** Absolutely – use `fillAndStrokeText`.  
-- **What output format does this tutorial produce?** A PostScript (`.ps`) document.
+## 快速解答
+- **什麼函式庫可以讓我在 Java 中設定文字顏色？** Aspose.Page for Java.  
+- **我可以使用系統字型和自訂字型嗎？** 可以，兩者皆受支援，且您可以輕鬆 **use custom fonts java**。  
+- **如何變更文字大小？** 在建立 `Font` 或 `DrFont` 時指定字型大小即可。  
+- **是否可以同時描邊與填充文字？** 當然可以 – 使用 `fillAndStrokeText`。  
+- **本教學產生的輸出格式為何？** 為 PostScript（`.ps`）文件，您可以程式化 **generate postscript file**。
 
-## What is “set text color java”?
-在 Java 中設定文字顏色，即是為渲染引擎（此處為 Aspose.Page）定義 `Color` 物件，讓它在將字元繪製到頁面時使用。此操作對於程式化產生 **postscript documents** 時，製作視覺上有區別的文件相當重要。
+## 什麼是「set text color java」？
+在 Java 中設定文字顏色是指定 `Color` 物件，讓渲染引擎（此處為 Aspose.Page）在頁面上繪製字元時使用。此操作對於建立視覺上有區別的文件至關重要，尤其在需要程式化 **generate postscript file** 時。
 
-## Why use Aspose.Page for Java?
-- **Full control** over PostScript generation without needing a native PostScript interpreter.  
-- **Support for both system and external fonts**, letting you embed any typography you need.  
-- **Easy API** to fill, outline, and **fill and stroke text**, giving you flexibility in styling.  
-- **Cross‑platform** compatibility – write once, run anywhere Java runs.
+## 為何使用 Aspose.Page for Java？
+- **完整控制** PostScript 產生過程，無需本機解譯器。  
+- **支援系統字型與外部字型**，讓您嵌入任何所需的排版。  
+- **簡易 API** 以填充、描邊以及 **fill and stroke text**，提供樣式上的彈性。  
+- **跨平台** 相容性 – 一次編寫，於任何支援 Java 的環境執行。  
 
-## Prerequisites
-在開始之前，請確保您已具備：
+## 前置條件
+在深入之前，請確保您已具備：
 
-- 基本的 Java 程式開發知識。  
-- 已安裝 Aspose.Page for Java 程式庫。您可從 [Aspose.Page for Java download page](https://releases.aspose.com/page/java/) 下載。  
-- 指定資料夾內已放置必要的字型。更多資訊請參閱 [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/)。
+- 具備 Java 程式設計的基礎知識。  
+- 已安裝 Aspose.Page for Java 函式庫。您可從 [Aspose.Page for Java download page](https://releases.aspose.com/page/java/) 下載。  
+- 必要的字型已放置於指定資料夾。更多細節請參閱 [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/)。  
 
-## Import Packages
+## 匯入套件
 在您的 Java 專案中，匯入 Aspose.Page for Java 所需的套件：
 
 ```java
@@ -55,8 +56,8 @@ import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
 ```
 
-## Step 1: Set Up the Document
-首先，建立一個新的 **PostScript document**，並設定輸出選項。
+## 步驟 1：設定文件
+首先，我們建立一個新的 **PostScript document**，並設定輸出選項。
 
 ```java
 // The path to the documents directory.
@@ -74,8 +75,8 @@ int fontSize = 48;
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## How to Set Text Color Java Using System Font
-以下示範如何使用系統預設字型執行 **set text color java**。
+## 如何使用系統字型設定文字顏色 Java
+現在示範如何使用系統提供的字型進行 **set text color java**。
 
 ```java
 // Using system font for filling text
@@ -86,10 +87,10 @@ document.fillText(str, font, 50, 100);
 document.fillText(str, font, 50, 150, Color.BLUE);
 ```
 
-> **Tip:** The `fillText` method automatically uses the current color if you don’t pass a `Color` argument, which defaults to black.
+> **提示：** 若未傳入 `Color` 參數，`fillText` 方法會自動使用目前的顏色，預設為黑色。
 
-## Using Custom Font and Changing Text Size
-您也可以 **change text size**，並使用儲存在字型資料夾中的自訂字型。
+## 使用自訂字型與變更文字大小
+您也可以 **change font size java**，並使用儲存在字型資料夾中的自訂字型。
 
 ```java
 // Using custom font for filling text
@@ -100,8 +101,8 @@ document.fillText(str, drFont, 50, 200);
 document.fillText(str, drFont, 50, 250, Color.BLUE);
 ```
 
-## Outlining (Stroke) Text – Apply Stroke Text
-為文字加上描邊可產生銳利的邊緣。此處示範使用 `BasicStroke` **apply stroke text**。
+## 文字描邊（Stroke） – 套用描邊文字
+文字描邊可產生清晰的輪廓。此處我們使用 `BasicStroke` **apply stroke text**。
 
 ```java
 // Using system font for outlining text
@@ -114,8 +115,8 @@ document.outlineText(str, font, 50, 350, strokeColor, stroke);
 document.fillAndStrokeText(str, font, 50, 400, Color.YELLOW, strokeColor, stroke);
 ```
 
-## Outlining Text with Custom Font
-相同的技巧同樣適用於自訂字型。
+## 使用自訂字型的文字描邊
+相同的技巧亦適用於自訂字型。
 
 ```java
 // Using custom font for outlining text
@@ -126,7 +127,7 @@ document.outlineText(str, drFont, 50, 500, strokeColor, stroke);
 document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, stroke);
 ```
 
-## Step 6: Save the Document
+## 步驟 6：儲存文件
 最後，關閉頁面並將檔案寫入磁碟。
 
 ```java
@@ -136,39 +137,42 @@ document.closePage();
 document.save();
 ```
 
-## Common Issues & Solutions
-| Issue | Solution |
+## 為何這很重要
+能夠 **set text color java** 並將填充與描邊結合，讓您對最終的 PostScript 輸出擁有完整的藝術控制。無論是產生發票、證書或自訂圖形，具備 **create postscript document** 檔案的精確樣式，皆可減少在圖形編輯器中後製的需求。
+
+## 常見問題與解決方案
+| 問題 | 解決方案 |
 |-------|----------|
-| **Font not found** | Ensure the font file is placed in `necessary_fonts` and the folder path is correctly added via `options.setAdditionalFontsFolders`. |
-| **Color not applied** | Verify you are calling the overload of `fillText` or `outlineText` that includes a `Color` argument. |
-| **Stroke appears too thin** | Increase the `BasicStroke` width (e.g., `new BasicStroke(3)`). |
-| **Document not opening** | Confirm the generated `.ps` file is saved with the correct extension and that your viewer supports PostScript. |
+| **找不到字型** | 確保字型檔案放置於 `necessary_fonts`，且透過 `options.setAdditionalFontsFolders` 正確加入資料夾路徑。 |
+| **顏色未套用** | 確認您呼叫的 `fillText` 或 `outlineText` 重載版本包含 `Color` 參數。 |
+| **描邊過細** | 增加 `BasicStroke` 的寬度（例如 `new BasicStroke(3)`）。 |
+| **文件無法開啟** | 確認產生的 `.ps` 檔案已使用正確的副檔名，且您的檢視器支援 PostScript。 |
 
-## Frequently Asked Questions
+## 常見問答
 
-**Q:** Can I use my own custom fonts with Aspose.Page for Java?  
-**A:** Yes, you can use custom fonts by specifying the font name and size in the `DrFont` class.
+**Q:** 我可以在 Aspose.Page for Java 中使用自訂字型嗎？  
+A: 可以，您可透過在 `DrFont` 類別中指定字型名稱與大小來 **use custom fonts java**。
 
-**Q:** How can I change the color of the text?  
-**A:** You can set the desired color using the `Color` class when filling or outlining the text.
+**Q:** 如何變更文字的顏色？  
+A: 您可在填充或描邊文字時使用 `Color` 類別設定所需的顏色。
 
-**Q:** Is it possible to add multiple pages to a PostScript document?  
-**A:** Absolutely! You can create multiple pages by repeating the document creation and saving steps.
+**Q:** 是否可以在 PostScript 文件中加入多頁？  
+A: 當然可以！只要重複文件建立與儲存的步驟，即可產生多頁。
 
-**Q:** What is the purpose of the `ExternalFontCache` class?  
-**A:** `ExternalFontCache` is used to fetch custom fonts, ensuring they are available for text manipulation.
+**Q:** `ExternalFontCache` 類別的用途是什麼？  
+A: `ExternalFontCache` 用於取得自訂字型，確保其可供文字操作使用。
 
-**Q:** Can I apply different strokes to the outlined text?  
-**A:** Yes, you can customize the width and color of the stroke using the `Stroke` class and `Color` class, respectively.
+**Q:** 我可以為描邊文字套用不同的描邊嗎？  
+A: 可以，您可分別使用 `Stroke` 類別與 `Color` 類別自訂描邊的寬度與顏色。
 
-## Conclusion
-恭喜您！現在您已掌握 **set text color java**、變更字型大小、**apply stroke text**，以及使用 Aspose.Page for Java 產生 **postscript document** 檔案的技巧。可自行嘗試不同的字型、顏色與描邊樣式，製作出專業水準的 PostScript 輸出。
+## 結論
+恭喜！您現在已了解如何使用 Aspose.Page for Java **set text color java**、**change font size java**、**apply fill and stroke text**，以及 **create postscript document** 檔案。請嘗試不同的字型、顏色與描邊樣式，以產生專業外觀的 PostScript 輸出。
 
 ---
 
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.Page for Java 23.12 (latest)  
-**Author:** Aspose  
+**最後更新：** 2026-02-20  
+**測試環境：** Aspose.Page for Java 23.12 (latest)  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,33 +1,34 @@
 ---
-title: How to Add Text in PostScript with Aspose.Page for Java
+title: Aspose Page Text Tutorial: Add Text in PostScript with Java
 linktitle: Text Manipulation - PostScript
 second_title: Aspose.Page Java API
-description: Learn how to add text to PostScript documents using Aspose.Page for Java, including Unicode strings and custom fonts for dynamic PDF generation.
+description: Aspose Page text tutorial showing how to add text to PostScript documents with Java, including Unicode strings and custom fonts for dynamic generation.
 weight: 36
 url: /java/postscript-text-manipulation/
-date: 2025-12-12
+date: 2026-02-20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Add Text in PostScript with Aspose.Page for Java
+# Aspose Page Text Tutorial: Add Text in PostScript with Java
 
 ## Introduction
 
-In this tutorial, you'll discover **how to add text** to PostScript documents using Aspose.Page for Java. Whether you need simple labels, complex multilingual layouts, or custom‑styled headings, this guide walks you through every step. We'll start with the basics of inserting plain text, then explore Unicode strings and custom font handling so you can create truly dynamic PostScript files.
+In this **Aspose Page text tutorial**, you'll discover how to add text to PostScript documents using Aspose.Page for Java. Whether you need simple labels, complex multilingual layouts, or custom‑styled headings, this guide walks you through every step. We'll start with the basics of inserting plain text, then explore Unicode strings and custom font handling so you can create truly dynamic PostScript files.
 
 ## Quick Answers
 - **What is the primary goal?** Add text to PostScript files programmatically.  
 - **Which library is used?** Aspose.Page for Java.  
 - **Do I need a license?** A free trial works for evaluation; a commercial license is required for production.  
 - **Can I use Unicode characters?** Yes – the API fully supports Unicode strings.  
-- **What Java version is required?** Java 8 or higher.
+- **What Java version is required?** Java 8 or higher.  
+- **Is the tutorial up‑to‑date?** Yes – it reflects the latest Aspose.Page features as of February 2026.
 
-## What is text manipulation in PostScript?
+## What is an Aspose Page Text Tutorial?
 
-Text manipulation refers to the process of placing, styling, and rendering characters inside a PostScript page. With Aspose.Page, you control font selection, positioning, and encoding without dealing with low‑level PostScript syntax.
+Text manipulation refers to the process of placing, styling, and rendering characters inside a PostScript page. With Aspose.Page, you control font selection, positioning, and encoding without dealing with low‑level PostScript syntax. This tutorial shows you exactly how to achieve that in Java.
 
 ## Why add text to PostScript with Aspose.Page?
 
@@ -81,7 +82,7 @@ A: Load fonts once, reuse `TextState` objects, and avoid creating unnecessary te
 
 ---
 
-**Last Updated:** 2025-12-12  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 

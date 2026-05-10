@@ -1,11 +1,11 @@
 ---
-date: 2025-12-11
-description: Tanulja meg, hogyan rajzolhat téglalapot Java-ban PostScriptben az Aspose.Page
-  for Java használatával. Kövesse a lépésről‑lépésre útmutatókat ellipszisek, téglalapok
-  hozzáadásához és a formák egyszerű testreszabásához.
+date: 2026-02-20
+description: Tanulja meg, hogyan rajzoljon téglalapot Java-ban PostScript-ben az Aspose.Page
+  for Java használatával. Kövesse a lépésről‑lépésre útmutatókat, hogy könnyedén hozzáadhasson
+  ellipsziseket, téglalapokat, és testreszabhassa a formákat.
 linktitle: How to Draw Rectangle Java in PostScript with Aspose.Page
 second_title: Aspose.Page Java API
-title: Hogyan rajzoljunk téglalapot Java-val PostScriptben az Aspose.Page használatával
+title: Hogyan rajzoljunk téglalapot Java-ban PostScript-ben az Aspose.Page segítségével
 url: /hu/java/postscript-shapes/
 weight: 34
 ---
@@ -14,130 +14,142 @@ weight: 34
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan rajzoljunk téglalapot Java-ban PostScript-ben az Aspose.Page használatával
+# Hogyan rajzoljunk téglalapot Java-ban PostScript-ben az Aspose.Page segítségével
 
-## Bevezetés
+## Introduction
 
-Ha Java PostScript‑tel dolgozol, és tudni szeretnéd, **how to draw rectangle java**, az Aspose.Page for Java a tökéletes társ. Ez a tutorial sorozat végigvezet a szemrevaló formák—ellipszisek és téglalapok—létrehozásán PostScript dokumentumokban. A végére képes leszel téglalapokat (és más alakzatokat) hozzáadni, stílusozni és menteni néhány kódsorral.
+If you're working with Java PostScript and need to know **how to draw rectangle java**, Aspose.Page for Java is the perfect companion. This tutorial series walks you through creating eye‑catching shapes—ellipses and rectangles—in PostScript documents. By the end, you’ll be able to add, style, and save rectangles (and other shapes) with just a few lines of code.
 
-## Gyors válaszok
-
+## Quick Answers
 - **Melyik könyvtár szükséges?** Aspose.Page for Java
-- **Rajzolhatok-e téglalapokat programozottan?** Yes, using the PostScript API
-- **Szükségem van licencre a termeléshez?** A commercial license is required; a free trial is available
-- **Mely Java verziók támogatottak?** Java 8 and higher
-- **Valóban PostScript a kimenet?** Yes, the generated file conforms to the PostScript standard
+- **Rajzolhatok-e téglalapokat programozottan?** Igen, a PostScript API használatával
+- **Szükségem van licencre a termeléshez?** Kereskedelmi licenc szükséges; ingyenes próbaverzió elérhető
+- **Mely Java verziók támogatottak?** Java 8 és újabb
+- **Valóban PostScript a kimenet?** Igen, a generált fájl megfelel a PostScript szabványnak
 
-## Mi a téglalap rajzolása Java PostScript-ben?
+## What is draw rectangle java?
+A téglalap rajzolása Java PostScript-ben azt jelenti, hogy az Aspose.Page API-ját használva definiálod az alakzat pozícióját, méretét és vizuális attribútumait, majd beágyazod egy .ps fájlba. Ez a magas szintű megközelítés megszünteti a nyers PostScript parancsok írásának szükségességét, miközben pixel‑pontos irányítást biztosít.
 
-A téglalap rajzolása Java PostScript-ben azt jelenti, hogy az Aspose.Page API-ját használod egy alakzat pozíciójának, méretének és vizuális attribútumainak meghatározására, majd beágyazod egy .ps fájlba. Ez a megközelítés pixel‑pontos irányítást biztosít a elrendezés felett, anélkül, hogy alacsony szintű PostScript szintaxissal kellene foglalkoznod.
+## How to draw rectangle java in PostScript
+Az alábbiakban egy tömör útmutató látható, amely pontosan bemutatja, hogyan hozhatsz létre egy téglalapot, állíthatod be a megjelenését, és mentheted a dokumentumot. A lépések tükrözik a hivatalos API-ban található kódot, így a logikát közvetlenül beillesztheted a projektedbe.
 
-## Miért használjuk az Aspose.Page for Java‑t téglalapok rajzolásához?
+1. **Állítsd be az Aspose.Page környezetet** – add hozzá a Maven/Gradle függőséget, és importáld a szükséges névtereket.  
+2. **Hozz létre egy új PostScript dokumentumot** – példányosítsd a `Document` osztályt.  
+3. **Érj hozzá a grafikai vászonhoz** – szerezd meg a `Graphics` objektumot a rajzolás megkezdéséhez.  
+4. **Határozd meg a téglalap paramétereit** – add meg a bal‑alsó sarkot, a szélességet és a magasságot.  
+5. **Alkalmazd a stílusokat** – válaszd ki a kitöltő színt, a körvonal színét és a vonalvastagságot (itt tudod **set rectangle color**).  
+6. **Rendereld a téglalapot** – hívd meg a `drawRectangle` metódust a grafikai vásznon.  
+7. **Mentsd a fájlt** – exportáld a dokumentumot .ps fájlként vagy konvertáld PDF‑be.
 
-- **High‑level abstraction:** Nincs szükség nyers PostScript parancsok írására.
-- **Full styling support:** Colors, gradients, line widths, and transparency.
-- **Cross‑platform output:** Generate .ps files that work on any PostScript viewer or printer.
-- **Seamless integration:** Works with existing Java build tools (Maven, Gradle).
+> **Pro tipp:** Ha sok téglalapot kell rajzolnod, csoportosítsd a rajzolási parancsokat egyetlen `Graphics` munkamenetben a teljesítmény javítása érdekében.
 
-## Ellipszis hozzáadása Java PostScript-ben
+## Why use Aspose.Page for Java to draw rectangles?
 
-Esztétikailag vonzó dokumentumok létrehozása gyakran megköveteli ellipszisek beillesztését. Az Aspose.Page for Java‑val a feladat gyerekjáték. Kövesd ezeket az egyszerű lépéseket egy ellipszis hozzáadásához a PostScript dokumentumodhoz:
+- **Magas szintű absztrakció:** Nincs szükség nyers PostScript parancsok írására.  
+- **Teljes stílus támogatás:** Színek, színátmenetek, vonalvastagságok és átlátszóság.  
+- **Keresztplatformos kimenet:** .ps fájlok generálása, amelyek bármely PostScript megjelenítő vagy nyomtató számára működnek.  
+- **Zökkenőmentes integráció:** Működik a meglévő Java build eszközökkel (Maven, Gradle).
 
-#### Aspose.Page for Java inicializálása:
+## Adding Ellipse in Java PostScript
 
-Kezdd azzal, hogy integrálod az Aspose.Page‑t a Java projektedbe. Ha még nem tetted meg, tekintsd meg a [documentation](https://reference.aspose.com/page/java/) oldalt a gyors beállításhoz.
+Az esztétikailag vonzó dokumentumok gyakran igénylik ellipszisek beillesztését. Az Aspose.Page for Java segítségével a feladat egyszerű. Kövesd ezeket az egyszerű lépéseket egy ellipszis hozzáadásához a PostScript dokumentumodhoz:
 
-#### A PostScript API elérése:
+#### Inicializáld az Aspose.Page for Java-t:
 
-Miután integráltad, férj hozzá az Aspose.Page által biztosított PostScript API-hoz. Ez az API lesz a kapud a dokumentumban lévő alakzatok manipulálásához.
-
-#### Ellipszis hozzáadása:
-
-Használd a kijelölt metódust egy ellipszis hozzáadásához a PostScript dokumentumodhoz. Az Aspose.Page leegyszerűsíti a folyamatot, lehetővé téve a pozíció, méret és stílus paraméterek meghatározását.
-
-#### Ellipszis testreszabása:
-
-Fejleszd az ellipszist a szín, átlátszóság és keret attribútumok módosításával. Az Aspose.Page átfogó lehetőségeket biztosít a dokumentum vizuális aspektusainak testreszabásához.
-
-#### Dokumentum mentése:
-
-Miután tökéletesre csináltad az ellipszis hozzáadását, mentse el a PostScript dokumentumot. Különböző formátumok közül választhatsz, biztosítva a kompatibilitást különböző alkalmazásokkal.
-
-Ezeket a lépéseket követve zökkenőmentesen integrálhatsz lenyűgöző ellipsziseket a Java PostScript dokumentumaidba.
-
-#### [Continue to Add Ellipse Tutorial](./add-ellipse/)
-
-## Téglalap hozzáadása Java PostScript-ben
-
-A téglalapok alapvető alakzatok, amelyek hozzájárulnak a dokumentumaid vizuális vonzerejéhez. Az Aspose.Page for Java lehetővé teszi, hogy könnyedén élénk téglalapokat adj hozzá. Íme egy lépésről‑lépésre útmutató:
-
-#### Aspose.Page for Java integrálása:
-
-Az ellipszis tutorialhoz hasonlóan, győződj meg róla, hogy az Aspose.Page integrálva van a Java projektedbe. Ha nem, tekintsd meg a [documentation](https://reference.aspose.com/page/java/) oldalt a gyors beállításhoz.
+Begin by integrating Aspose.Page into your Java project. If you haven't done this yet, refer to the [documentation](https://reference.aspose.com/page/java/) for a quick setup.
 
 #### PostScript API elérése:
+Once integrated, access the PostScript API provided by Aspose.Page. This API will be your gateway to manipulating shapes in the document.
 
-Használd az Aspose.Page által biztosított PostScript API-t az alakzatok manipulálásához. Ez az API a szerszámkészleted a téglalapok és egyéb elemek kezeléséhez.
+#### Ellipszis hozzáadása:
+Use the designated method to add an ellipse to your PostScript document. Aspose.Page simplifies the process, allowing you to define parameters such as position, size, and styling.
 
-#### Téglalap hozzáadása:
-
-Használd a dedikált metódust egy téglalap hozzáadásához a PostScript dokumentumodhoz. Könnyedén add meg a pozíció, méretek és stílus paramétereit.
-
-#### A téglalap megjelenésének testreszabása:
-
-Növeld a dokumentum vizuális vonzerejét a téglalap testreszabásával. Állítsd be a szín, árnyékolás és keretek attribútumait a kívánt megjelenés eléréséhez.
+#### Ellipszis testreszabása:
+Enhance your ellipse by adjusting attributes like color, transparency, and border. Aspose.Page provides comprehensive options to tailor the visual aspects of your document.
 
 #### Dokumentum mentése:
+Once you've perfected the ellipse addition, save your PostScript document. You can choose from various formats, ensuring compatibility with different applications.
 
-Miután elégedett vagy a téglalap hozzáadásával, mentse el a PostScript dokumentumot a kívánt formátumban. Az Aspose.Page rugalmasságot biztosít a kimeneti formátum kiválasztásában.
+By following these steps, you'll seamlessly integrate captivating ellipses into your Java PostScript documents.
 
-Ezeket a lépéseket alkalmazva a Java PostScript projektjeidben, zökkenőmentes fejlesztést tapasztalhatsz a dokumentum testreszabásában.
+#### [Folytasd az Ellipszis hozzáadása tutorialt](./add-ellipse/)
 
-#### [Continue to Add Rectangle Tutorial](./add-rectangle/)
+## Adding Rectangle in Java PostScript
 
-## Gyakori felhasználási esetek a téglalapok rajzolásához Java PostScript-ben
+A téglalapok alapvető alakzatok, amelyek hozzájárulnak a dokumentumaid vizuális vonzerejéhez. Az Aspose.Page for Java lehetővé teszi, hogy könnyedén adj hozzá élénk téglalapokat. Íme egy lépésről‑lépésre útmutató:
 
-- **Report headers:** Használj téglalapokat színes bannerek vagy szekcióelválasztókként.
-- **Invoice tables:** Keretezd a cellákat vagy emeld ki az összegösszegeket stílusos téglalapokkal.
-- **Graphic badges:** Készíts egyedi pecséteket, vízjeleket vagy felhívásdobozokat.
-- **Print‑ready layouts:** Tervezd meg a szórólapokat vagy brosúrákat, amelyek pontos geometriai elemeket igényelnek.
+#### Integráld az Aspose.Page for Java-t:
+Similar to the ellipse tutorial, ensure Aspose.Page is integrated into your Java project. If not, refer to the [documentation](https://reference.aspose.com/page/java/) for a quick setup.
 
-## Hibaelhárítási tippek
+#### PostScript API elérése:
+Utilize the PostScript API provided by Aspose.Page to manipulate shapes. This API serves as your toolkit for interacting with rectangles and other elements.
 
-- **Incorrect dimensions:** Ellenőrizd a PostScript által használt koordináta rendszert (pontok); a kiindulási pont a bal alsó sarokban van.
-- **Missing colors:** Győződj meg róla, hogy mind a kitöltési, mind a körvonal színe be van állítva; különben a téglalap láthatatlan lehet.
-- **Performance concerns:** Teljesítményproblémák esetén: ezrek alakzatot tartalmazó dokumentumoknál csoportosítsd a rajzolási parancsokat a feldolgozási terhelés csökkentése érdekében.
+#### Téglalap hozzáadása:
+Employ the dedicated method to add a rectangle to your PostScript document. Specify parameters like position, dimensions, and styling with ease.
 
-## Gyakran feltett kérdések
+#### Téglalap megjelenésének testreszabása:
+Elevate your document's visual appeal by customizing the rectangle. Adjust attributes such as color, shading, and borders to achieve the desired look.
+
+#### Dokumentum mentése:
+Once satisfied with the rectangle addition, save your PostScript document in the preferred format. Aspose.Page offers flexibility in choosing the output format.
+
+Incorporate these steps into your Java PostScript projects, and witness a seamless enhancement in document customization.
+
+#### [Folytasd a Téglalap hozzáadása tutorialt](./add-rectangle/)
+
+## How to set rectangle color in Java PostScript
+Egy téglalap színezése olyan egyszerű, mint a kitöltő és körvonal ecsetek beállítása a draw metódus hívása előtt. Használd a `Color.getRGB(r, g, b)`-t szilárd színekhez, vagy a `Color.getARGB(a, r, g, b)`-t, ha átlátszóságra van szükség. Ne feledd, hogy mind a kitöltést, mind a körvonalat be kell állítani; különben az alakzat láthatatlan lehet.
+
+## How to add ellipse java in PostScript
+Ugyanaz az API, amelyet a téglalapokhoz használtál, támogatja az ellipsziseket is. Hívd meg a `drawEllipse` metódust, és add meg a körülhatároló téglalap koordinátáit. Ez a **add ellipse java** képesség lehetővé teszi körök, oválisok és lekerekített téglalapok egyetlen dokumentumban való kombinálását.
+
+## How to export PostScript to PDF using Aspose.Page
+Miután befejezted az alakzatok rajzolását, egyetlen sorral konvertálhatod a .ps fájlt PDF‑be: `document.save("output.pdf", SaveFormat.PDF);`. Ez a **export postscript to pdf** funkció hasznos, ha nyomtatható PDF‑verzióra van szükséged a tervezésedből, anélkül, hogy elveszítenéd a vektor minőséget.
+
+## Common Use Cases for Drawing Rectangles in Java PostScript
+
+- **Jelentésfejlécek:** Használj téglalapokat színes bannereként vagy szekcióelválasztóként.  
+- **Számla táblázatok:** Keretezd a cellákat vagy emeld ki a végösszegeket stílusos téglalapokkal.  
+- **Grafikus jelvények:** Készíts egyedi pecséteket, vízjeleket vagy felhívó dobozokat.  
+- **Nyomtatásra kész elrendezések:** Tervezd szórólapokat vagy brosúrákat, amelyek pontos geometriai elemeket igényelnek.
+
+## Troubleshooting Tips
+
+- **Helytelen méretek:** Ellenőrizd a PostScript által használt koordináta rendszert (pontok); az origó a bal‑alsó sarokban van.  
+- **Hiányzó színek:** Győződj meg róla, hogy mind a kitöltő, mind a körvonal színt beállítottad; különben a téglalap láthatatlan lehet.  
+- **Teljesítmény aggályok:** Több ezer alakzattal rendelkező dokumentumok esetén csoportosítsd a rajzolási parancsokat a feldolgozási terhelés csökkentése érdekében.
+
+## Frequently Asked Questions
 
 **Q: Rajzolhatok-e több téglalapot egyetlen dokumentumban?**  
-A: Természetesen. Hívja meg a téglalap‑hozzáadási metódust többször különböző koordinátákkal és stílusokkal.
+A: Természetesen. Hívd meg a téglalap‑hozzáadási metódust többször különböző koordinátákkal és stílusokkal.
 
 **Q: Támogatja-e az Aspose.Page a téglalapok átlátszóságát?**  
-A: Igen, beállíthatja az alfa csatornát a kitöltő színeken a félig átlátszó hatás eléréséhez.
+A: Igen, beállíthatod az alfa csatornát a kitöltő színeken a félig átlátszó hatás eléréséhez.
 
-**Q: Lehetőség van egy téglalap elforgatására?**  
-A: Alkalmazhat egy transzformációs mátrixot a forma rajzolása előtt, hogy elforgassa, méretezze vagy torzítsa.
+**Q: Lehet-e elforgatni egy téglalapot?**  
+A: Alkalmazhatsz transzformációs mátrixot a forma rajzolása előtt, hogy elforgass, méretez vagy torzítsd azt.
 
-**Q: Milyen fájlformátumokra exportálhatok alakzatok hozzáadása után?**  
-A: A natív PostScript (.ps) mellett konvertálhat PDF, XPS vagy képfájl formátumokra, mint a PNG és JPEG.
+**Q: Milyen fájlformátumokra exportálhatok a formák hozzáadása után?**  
+A: A natív PostScript (.ps) mellett konvertálhatsz PDF‑re, XPS‑re vagy képfájl formátumokra, mint a PNG és JPEG.
 
 **Q: Szükségem van licencre fejlesztési használathoz?**  
 A: Egy ideiglenes értékelő licenc elegendő fejlesztéshez és teszteléshez; a teljes licenc szükséges a termelési környezethez.
 
-## Következő lépések
+## Next Steps
 
-Miután elsajátítottad az ellipszisek és téglalapok hozzáadását, fedezd fel a többi alakzati primitívet, mint a vonalak, sokszögek és Bézier‑görbék. Tekintsd meg az alábbi **Shapes - PostScript Tutorials** listát a mélyebb bemutatókhoz.
+Miután elsajátítottad az ellipszisek és téglalapok hozzáadását, fedezz fel más alakzat primitíveket, mint vonalak, sokszögek és Bézier görbék. Nézd meg az alábbi teljes **Shapes - PostScript Tutorials** listát a mélyebb bemutatókhoz.
 
-## Alakzatok – PostScript oktatóanyagok
+## Shapes - PostScript Tutorials
+### [Ellipszis hozzáadása Java PostScript-ben](./add-ellipse/)
+Mesteri módon hozd létre a lenyűgöző PostScript dokumentumokat Java-ban az Aspose.Page segítségével. Tanuld meg lépésről‑lépésre ellipszisek hozzáadását a vizuálisan vonzó tartalomhoz.
 
-### [Add Ellipse in Java PostScript](./add-ellipse/)
-Mesteri módon hozhatsz létre lenyűgöző PostScript dokumentumokat Java-ban az Aspose.Page segítségével. Tanuld meg lépésről‑lépésre ellipszisek hozzáadását a vizuálisan vonzó tartalom érdekében.
+### [Téglalap hozzáadása Java PostScript-ben](./add-rectangle/)
+Fedezd fel a lépésről‑lépésre útmutatót élénk téglalapok hozzáadásához Java PostScript dokumentumokhoz az Aspose.Page for Java használatával. Emeld dokumentumod testreszabását könnyedén!
 
-### [Add Rectangle in Java PostScript](./add-rectangle/)
-Fedezd fel a lépésről‑lépésre útmutatót a vibráló téglalapok hozzáadásához Java PostScript dokumentumokhoz az Aspose.Page for Java használatával. Emeld dokumentumod testreszabását könnyedén!
+---
 
-**Legutóbb frissítve:** 2025-12-11  
+**Legutóbb frissítve:** 2026-02-20  
 **Tesztelve:** Aspose.Page 24.11 for Java  
 **Szerző:** Aspose  
 

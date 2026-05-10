@@ -1,9 +1,10 @@
 ---
-date: 2025-12-14
-description: 学习如何使用 Aspose.Page for Java 设置文本颜色、向 PostScript 添加文本，以及应用描边文本以实现丰富的文档样式。
+date: 2026-02-20
+description: 学习如何使用 Aspose.Page for Java 设置文本颜色、修改字体大小、生成 PostScript 文件、填充和描边文本，并在创建
+  PostScript 文档时使用自定义字体（Java）。
 linktitle: Add Text in Java PostScript
 second_title: Aspose.Page Java API
-title: 使用 Aspose.Page 在 Java 中设置文本颜色 – 文本操作指南
+title: 使用 Aspose.Page 的 Java 设置文本颜色 – 文本操作指南
 url: /zh/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
@@ -14,34 +15,34 @@ weight: 10
 
 # 使用 Aspose.Page 设置文本颜色 Java – 文本操作指南
 
-## Introduction
-欢迎阅读本分步指南，了解在使用 Aspose.Page for Java 处理 PostScript 文件时如何 **set text color java**。Aspose.Page for Java 是一个强大的库，帮助开发者创建并 **generate postscript file** 文档、操作字体以及精准地设置文本样式。在本教程中，你将学习如何添加文本、修改颜色、调整大小，甚至 **apply stroke text**，以获得精致的效果。
+## 简介
+欢迎阅读我们的分步指南，介绍在使用 Aspose.Page for Java 处理 PostScript 文件时 **set text color java**。Aspose.Page for Java 是一个强大的库，允许开发者 **create postscript document** 文件，操作字体，并精确地设置文本样式。在本教程中，您将学习如何添加文本、改变其颜色、**change font size java**，甚至 **apply fill and stroke text**，以获得精致的效果。
 
-## Quick Answers
-- **What library lets me set text color in Java?** Aspose.Page for Java.  
-- **Can I use system fonts and custom fonts?** Yes, both are supported.  
-- **How do I change the text size?** By specifying the font size when creating the `Font` or `DrFont`.  
-- **Is it possible to outline and fill text together?** Absolutely – use `fillAndStrokeText`.  
-- **What output format does this tutorial produce?** A PostScript (`.ps`) document.
+## 快速回答
+- **什么库可以让我在 Java 中设置文本颜色？** Aspose.Page for Java。  
+- **我可以使用系统字体和自定义字体吗？** 是的，两者都受支持，您可以轻松 **use custom fonts java**。  
+- **如何更改文本大小？** 通过在创建 `Font` 或 `DrFont` 时指定字体大小。  
+- **是否可以同时描边和填充文本？** 当然——使用 `fillAndStrokeText`。  
+- **本教程生成的输出格式是什么？** 一个 PostScript（`.ps`）文档，您可以通过编程 **generate postscript file**。
 
-## What is “set text color java”?
-在 Java 中设置文本颜色是指定 `Color` 对象，渲染引擎（此处为 Aspose.Page）在将字符绘制到页面时会使用该颜色。此操作对于创建视觉上区分度高的文档尤为重要，尤其是以编程方式 **postscript documents**。
+## 什么是 “set text color java”？
+在 Java 中设置文本颜色意味着定义渲染引擎（此处为 Aspose.Page）在页面上绘制字符时使用的 `Color` 对象。此操作对于创建视觉上区分度高的文档至关重要，尤其是在需要通过编程 **generate postscript file** 时。
 
-## Why use Aspose.Page for Java?
-- **Full control** over PostScript generation without needing a native PostScript interpreter.  
-- **Support for both system and external fonts**, letting you embed any typography you need.  
-- **Easy API** to fill, outline, and **fill and stroke text**, giving you flexibility in styling.  
-- **Cross‑platform** compatibility – write once, run anywhere Java runs.
+## 为什么使用 Aspose.Page for Java？
+- **完全控制** PostScript 生成，无需本地解释器。  
+- **支持系统字体和外部字体**，让您可以嵌入所需的任何排版。  
+- **简易 API** 用于填充、描边以及 **fill and stroke text**，提供样式上的灵活性。  
+- **跨平台** 兼容性——一次编写，随处运行 Java。
 
-## Prerequisites
-在开始之前，请确保你具备以下条件：
+## 先决条件
+在开始之前，请确保您拥有：
 
-- 基本的 Java 编程知识。  
-- 已安装 Aspose.Page for Java 库。你可以从 [Aspose.Page for Java download page](https://releases.aspose.com/page/java/) 下载。  
-- 指定文件夹中已有必要的字体。更多细节请参阅 [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/)。
+- Java 编程的基础知识。  
+- 已安装 Aspose.Page for Java 库。您可以从 [Aspose.Page for Java download page](https://releases.aspose.com/page/java/) 下载。  
+- 在指定文件夹中提供必要的字体。更多细节请参阅 [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/)。
 
-## Import Packages
-在你的 Java 项目中，导入 Aspose.Page for Java 所需的包：
+## 导入包
+在您的 Java 项目中，导入 Aspose.Page for Java 所需的包：
 
 ```java
 import java.awt.BasicStroke;
@@ -55,8 +56,8 @@ import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
 ```
 
-## Step 1: Set Up the Document
-首先，创建一个新的 **PostScript document** 并配置输出选项。
+## 步骤 1：设置文档
+首先，我们创建一个新的 **PostScript document** 并配置输出选项。
 
 ```java
 // The path to the documents directory.
@@ -74,8 +75,8 @@ int fontSize = 48;
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## How to Set Text Color Java Using System Font
-下面演示使用系统提供的字体进行 **set text color java**。
+## 如何使用系统字体设置文本颜色 Java
+现在我们演示使用系统提供的字体进行 **set text color java**。
 
 ```java
 // Using system font for filling text
@@ -86,10 +87,10 @@ document.fillText(str, font, 50, 100);
 document.fillText(str, font, 50, 150, Color.BLUE);
 ```
 
-> **Tip:** `fillText` 方法在未传入 `Color` 参数时会自动使用当前颜色，默认是黑色。
+> **提示：**如果未传递 `Color` 参数，`fillText` 方法会自动使用当前颜色，默认是黑色。
 
-## Using Custom Font and Changing Text Size
-你也可以 **change text size** 并使用存放在字体文件夹中的自定义字体。
+## 使用自定义字体并更改文本大小
+您还可以 **change font size java** 并使用存放在字体文件夹中的自定义字体。
 
 ```java
 // Using custom font for filling text
@@ -100,8 +101,8 @@ document.fillText(str, drFont, 50, 200);
 document.fillText(str, drFont, 50, 250, Color.BLUE);
 ```
 
-## Outlining (Stroke) Text – Apply Stroke Text
-为文本描边可以获得更清晰的边缘。这里我们使用 `BasicStroke` **apply stroke text**。
+## 描边（Stroke）文本 – 应用描边文本
+描边文本可以获得清晰的边缘。这里我们使用 `BasicStroke` **apply stroke text**。
 
 ```java
 // Using system font for outlining text
@@ -114,7 +115,7 @@ document.outlineText(str, font, 50, 350, strokeColor, stroke);
 document.fillAndStrokeText(str, font, 50, 400, Color.YELLOW, strokeColor, stroke);
 ```
 
-## Outlining Text with Custom Font
+## 使用自定义字体描边文本
 相同的技术同样适用于自定义字体。
 
 ```java
@@ -126,7 +127,7 @@ document.outlineText(str, drFont, 50, 500, strokeColor, stroke);
 document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, stroke);
 ```
 
-## Step 6: Save the Document
+## 步骤 6：保存文档
 最后，关闭页面并将文件写入磁盘。
 
 ```java
@@ -136,39 +137,43 @@ document.closePage();
 document.save();
 ```
 
-## Common Issues & Solutions
-| Issue | Solution |
+## 为什么这很重要
+能够 **set text color java** 并将填充与描边结合，使您对最终的 PostScript 输出拥有完整的艺术控制。无论是生成发票、证书还是自定义图形，能够使用精确样式 **create postscript document** 文件都能减少在图形编辑器中后期处理的需求。
+
+## 常见问题与解决方案
+
+| 问题 | 解决方案 |
 |-------|----------|
-| **Font not found** | Ensure the font file is placed in `necessary_fonts` and the folder path is correctly added via `options.setAdditionalFontsFolders`. |
-| **Color not applied** | Verify you are calling the overload of `fillText` or `outlineText` that includes a `Color` argument. |
-| **Stroke appears too thin** | Increase the `BasicStroke` width (e.g., `new BasicStroke(3)`). |
-| **Document not opening** | Confirm the generated `.ps` file is saved with the correct extension and that your viewer supports PostScript. |
+| **未找到字体** | 确保字体文件放置在 `necessary_fonts` 中，并通过 `options.setAdditionalFontsFolders` 正确添加文件夹路径。 |
+| **颜色未应用** | 确认您调用的 `fillText` 或 `outlineText` 重载包含 `Color` 参数。 |
+| **描边太细** | 增加 `BasicStroke` 的宽度（例如 `new BasicStroke(3)`）。 |
+| **文档无法打开** | 确认生成的 `.ps` 文件已使用正确的扩展名保存，并且您的查看器支持 PostScript。 |
 
-## Frequently Asked Questions
+## 常见问题
 
-**Q:** Can I use my own custom fonts with Aspose.Page for Java?  
-**A:** Yes, you can use custom fonts by specifying the font name and size in the `DrFont` class.
+**Q:** 我可以在 Aspose.Page for Java 中使用自己的自定义字体吗？  
+A: 是的，您可以通过在 `DrFont` 类中指定字体名称和大小来 **use custom fonts java**。
 
-**Q:** How can I change the color of the text?  
-**A:** You can set the desired color using the `Color` class when filling or outlining the text.
+**Q:** 我如何更改文本颜色？  
+A: 在填充或描边文本时，您可以使用 `Color` 类设置所需颜色。
 
-**Q:** Is it possible to add multiple pages to a PostScript document?  
-**A:** Absolutely! You can create multiple pages by repeating the document creation and saving steps.
+**Q:** 是否可以向 PostScript 文档添加多个页面？  
+A: 当然！您可以通过重复文档创建和保存步骤来创建多个页面。
 
-**Q:** What is the purpose of the `ExternalFontCache` class?  
-**A:** `ExternalFontCache` is used to fetch custom fonts, ensuring they are available for text manipulation.
+**Q:** `ExternalFontCache` 类的作用是什么？  
+A: `ExternalFontCache` 用于获取自定义字体，确保它们可用于文本操作。
 
-**Q:** Can I apply different strokes to the outlined text?  
-**A:** Yes, you can customize the width and color of the stroke using the `Stroke` class and `Color` class, respectively.
+**Q:** 我可以为描边文本应用不同的描边吗？  
+A: 可以，您可以使用 `Stroke` 类和 `Color` 类分别自定义描边的宽度和颜色。
 
-## Conclusion
-恭喜！你现在已经掌握了如何 **set text color java**、更改字体大小、**apply stroke text**，以及使用 Aspose.Page for Java 创建 **postscript document** 文件。尝试不同的字体、颜色和描边样式，生成专业级的 PostScript 输出。
+## 结论
+恭喜！您现在已经掌握了使用 Aspose.Page for Java **set text color java**、**change font size java**、**apply fill and stroke text** 以及 **create postscript document** 文件的方法。尝试不同的字体、颜色和描边样式，以生成专业外观的 PostScript 输出。
 
 ---
 
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.Page for Java 23.12 (latest)  
-**Author:** Aspose  
+**最后更新：** 2026-02-20  
+**测试环境：** Aspose.Page for Java 23.12（最新）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
