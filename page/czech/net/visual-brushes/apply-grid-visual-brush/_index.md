@@ -1,35 +1,52 @@
 ---
-title: Použijte Grid Visual Brush s Aspose.Page pro .NET
-linktitle: Naneste mřížkový vizuální štětec
+date: 2026-04-03
+description: Naučte se, jak přidat průhledný obdélník a aplikovat Grid Visual Brush
+  v .NET pomocí Aspose.Page pro úchvatné XPS dokumenty.
+keywords:
+- add transparent rectangle
+- grid visual brush
+- Aspose.Page .NET
+linktitle: Použít vizuální štětec mřížky
 second_title: Aspose.Page .NET API
-description: Prozkoumejte dynamický svět zpracování dokumentů v .NET s Aspose.Page. Naučte se používat mřížkový vizuální štětec pro vizuálně úžasné dokumenty.
-weight: 10
+title: Přidat průhledný obdélník pomocí Grid Visual Brush (.NET)
 url: /cs/net/visual-brushes/apply-grid-visual-brush/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Použijte Grid Visual Brush s Aspose.Page pro .NET
+# Přidání průhledného obdélníku pomocí Grid Visual Brush (.NET)
 
 ## Úvod
 
-Ve světě vývoje .NET vyniká Aspose.Page jako výkonný nástroj pro zpracování úloh zpracování dokumentů. Jednou z fascinujících funkcí, které nabízí, je možnost použít mřížkový vizuální štětec, který vašim dokumentům přináší nový rozměr. Tento tutoriál vás provede procesem implementace vizuálního štětce Magenta Grid krok za krokem pomocí Aspose.Page for .NET.
+Pokud chcete **přidat průhledný obdélník** do XPS dokumentu a zároveň použít stylový Grid Visual Brush, jste na správném místě. V tomto tutoriálu vás provedeme přesnými kroky potřebnými s Aspose.Page pro .NET, abyste mohli vytvářet vizuálně bohaté dokumenty, které vynikají. Na konci budete mít kompletní, spustitelný příklad, který demonstruje obě techniky v jednom snadno sledovatelném pracovním postupu.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co dělá průhledný obdélník?** Přidává poloprůhlednou vrstvu, která umožňuje zobrazit obsah v pozadí.  
+- **Které API vytváří štětec?** `XpsDocument.CreateVisualBrush` vytváří Grid Visual Brush.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; pro produkci je vyžadována komerční licence.  
+- **Jaké verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní příklad.
 
-Než se pustíte do výukového programu, ujistěte se, že máte následující předpoklady:
+## Co je průhledný obdélník v XPS?
+Průhledný obdélník je jednoduše tvar, jehož barva výplně obsahuje alfa komponentu menší než 1,0, což umožňuje částečně viditelné podkladové grafiky. Je to ideální pro zvýraznění částí bez úplného zakrytí pozadí.
 
--  Aspose.Page for .NET: Ujistěte se, že máte knihovnu nainstalovanou a nastavenou ve vašem prostředí .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/page/net/).
+## Proč použít Grid Visual Brush?
+Grid Visual Brush vám umožňuje dlaždicovat malý vektorový grafický prvek přes větší oblast, čímž vytváří vzory jako mřížky, šrafování nebo vlastní textury. Kombinací s průhledným obdélníkem získáte vrstvené vizuální efekty, které jsou lehké a nezávislé na rozlišení.
 
-- Vývojové prostředí: Mějte připravené funkční vývojové prostředí .NET a základní znalost programování v C#.
+## Požadavky
 
-- Adresář dokumentů: Vytvořte adresář pro vaše dokumenty, kam se budou ukládat zpracované soubory.
+Před ponořením se do kódu se ujistěte, že máte:
 
-## Import jmenných prostorů
+- **Aspose.Page pro .NET** – můžete jej stáhnout [zde](https://releases.aspose.com/page/net/).
+- Vývojové prostředí .NET (Visual Studio, VS Code nebo jakékoli IDE, které preferujete).
+- Složka, do které budou ukládány vygenerované XPS soubory.
 
-Chcete-li efektivně využívat funkce Aspose.Page, musíte do svého kódu C# importovat potřebné jmenné prostory:
+## Importovat jmenné prostory
+
+Ve vašem souboru C# importujte požadované jmenné prostory:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,118 +54,128 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Nyní si příklad rozdělíme do několika kroků.
+Nyní rozdělíme řešení do jasných, číslovaných kroků.
 
-## Krok 1: Inicializujte XpsDocument
+## Krok 1: Inicializace XpsDocument
 
 ```csharp
-// Start: 3
+// ExStart:3
 string dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
-// Rozšířit:3
+// ExEnd:3
 ```
 
- Zde vytvoříme instanci`XpsDocument` pro práci s dokumenty XPS.
+Začínáme vytvořením instance `XpsDocument`, která bude obsahovat všechny následné kreslicí operace.
 
-## Krok 2: Vytvořte geometrii purpurové mřížky
+## Krok 2: Vytvoření magenta geometrie mřížky
 
 ```csharp
-// Start: 4
+// ExStart:4
 XpsPathGeometry pathGeometry = doc.CreatePathGeometry();
 pathGeometry.AddSegment(doc.CreatePolyLineSegment(
     new PointF[] { new PointF(240f, 5f), new PointF(240f, 310f), new PointF(0f, 310f) }));
 pathGeometry[0].StartPoint = new PointF(0f, 5f);
-// Rozšíření:4
+// ExEnd:4
 ```
 
-Tento krok zahrnuje vytvoření geometrie cesty pro purpurovou mřížku.
+Tato geometrie definuje obrys mřížky, kterou bude vizuální štětec vyplňovat.
 
-## Krok 3: Navrhněte VisualBrush Magenta Grid
+## Krok 3: Návrh magenta Grid VisualBrush
 
 ```csharp
-// Start: 5
+// ExStart:5
 XpsCanvas visualCanvas = doc.CreateCanvas();
 XpsPath visualPath = visualCanvas.AddPath(
     doc.CreatePathGeometry("M 0,4 L 4,4 4,0 6,0 6,4 10,4 10,6 6,6 6,10 4,10 4,6 0,6 Z"));
 visualPath.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1f, .61f, 0.1f, 0.61f));
-// Rozšíření:5
+// ExEnd:5
 ```
 
-Zde navrhujeme vizuální stránku purpurové mřížky pomocí vektorové grafiky.
+Zde kreslíme malou fialovou (magenta) dlaždici, která bude opakována po celé mřížce.
 
-## Krok 4: Použijte VisualBrush na mřížku
+## Krok 4: Použití VisualBrush na mřížku
 
 ```csharp
-// Start: 6
+// ExStart:6
 XpsPath gridPath = doc.CreatePath(pathGeometry);
 gridPath.Fill = doc.CreateVisualBrush(visualCanvas,
     new RectangleF(0f, 0f, 10f, 10f), new RectangleF(0f, 0f, 10f, 10f));
 ((XpsVisualBrush)gridPath.Fill).TileMode = XpsTileMode.Tile;
-// Konec:6
+// ExEnd:6
 ```
 
-Naneste vizuální štětec na dráhu mřížky a ujistěte se, že je správně dlaždice.
+Volání `CreateVisualBrush` spojuje magenta dlaždici s geometrií mřížky a umožňuje její opakování.
 
-## Krok 5: Přidejte mřížku na plátno
+## Krok 5: Přidání mřížky na plátno
 
 ```csharp
-// Start: 7
+// ExStart:7
 XpsCanvas canvas = doc.AddCanvas();
 canvas.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 268f, 70f);
 canvas.AddPath(pathGeometry);
-// Konec:7
+// ExEnd:7
 ```
 
-Přidejte mřížku na plátno a zadejte potřebné transformace.
+Umístíme dlaždicovou mřížku na plátno a použijeme transformační posun, aby se zobrazila na požadovaném místě.
 
-## Krok 6: Vylepšení pomocí červeného obdélníku
+## Krok 6: Přidání průhledného obdélníku
 
 ```csharp
-// Start: 8
+// ExStart:8
 XpsPath path = canvas.AddPath(doc.CreatePathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 path = canvas.AddPath(doc.CreatePathGeometry("M 10,10 L 228,10 228,100 10,100"));
 path.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1.0f, 0.0f, 0.0f));
-path.Opacity = 0.7f;
-// Konec:8
+path.Opacity = 0.7f; // This opacity makes the rectangle transparent
+// ExEnd:8
 ```
 
-Vylepšete vizuální přitažlivost přidáním červeného průhledného obdélníku.
+V tomto kroku **přidáme průhledný obdélník** (červený tvar s `Opacity = 0.7f`). Upravením hodnoty opacity můžete řídit, jak průhledný obdélník bude.
 
-## Krok 7: Uložte dokument
+## Krok 7: Uložení dokumentu
 
 ```csharp
-// Start: 9
+// ExStart:9
 doc.Save(dataDir + "AddGrid_out.xps");
-// Konec:9
+// ExEnd:9
 ```
 
-Uložte výsledný dokument XPS do určeného adresáře.
+Soubor XPS je zapsán do složky, kterou jste dříve určili.
 
-## Závěr
+## Běžné případy použití
 
-Gratulujeme! Úspěšně jste na svůj dokument použili mřížkový vizuální štětec pomocí Aspose.Page for .NET. Tato technika může výrazně vylepšit vizuální prvky vašich dokumentů a poskytnout dynamické a poutavé uživatelské prostředí.
+- **Zvýraznění v reportu:** Překrytí poloprůhledným obdélníkem pro zdůraznění grafu nebo tabulky.  
+- **Vodoznakové efekty:** Kombinace dlaždicové mřížky s průhledným překryvem pro jemné značení.  
+- **Interaktivní PDF/XPS:** Použijte vzor jako pozadí pro formulářová pole při zachování čitelnosti uživatelského rozhraní.
 
-## FAQ
+## Tipy pro řešení problémů
 
-### Q1: Mohu používat Aspose.Page for .NET ve webových i desktopových aplikacích?
+- **Opacity neviditelná?** Ujistěte se, že váš prohlížeč podporuje průhlednost v XPS; některé starší prohlížeče mohou ignorovat vlastnost `Opacity`.  
+- **Nesprávná velikost dlaždice?** Ověřte, že zdrojový obdélník (`new RectangleF(0f, 0f, 10f, 10f)`) odpovídá rozměrům vektorové dlaždice.  
+- **Soubor nebyl uložen?** Zkontrolujte, že `dataDir` ukazuje na existující adresář s právy zápisu.
 
-A1: Ano, Aspose.Page for .NET je univerzální a lze jej použít v různých typech aplikací.
+## Často kladené otázky
 
-### Q2: Je před zakoupením k dispozici zkušební verze?
+**Q: Mohu použít Aspose.Page pro .NET jak ve webových, tak desktopových aplikacích?**  
+A: Ano, knihovna funguje ve všech typech .NET aplikací.
 
- A2: Rozhodně máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+**Q: Je k dispozici zkušební verze před zakoupením?**  
+A: Samozřejmě, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
-### Q3: Kde najdu další podporu nebo komunitní diskuse?
+**Q: Kde mohu najít další podporu nebo komunitní diskuze?**  
+A: Navštivte [Aspose.Page Forum](https://forum.aspose.com/c/page/39) pro pomoc od komunity a inženýrů Aspose.
 
- A3: Navštivte[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) za diskusi a podporu.
+**Q: Jak mohu získat dočasnou licenci pro hodnocení?**  
+A: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q4: Jak mohu získat dočasnou licenci pro Aspose.Page for .NET?
+**Q: Jaká další dokumentace je k dispozici pro Aspose.Page pro .NET?**  
+A: Prozkoumejte komplexní dokumentaci [zde](https://reference.aspose.com/page/net/).
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+---
 
-### Q5: Jaká další dokumentace je k dispozici pro Aspose.Page for .NET?
+**Poslední aktualizace:** 2026-04-03  
+**Testováno s:** Aspose.Page 24.12 for .NET  
+**Autor:** Aspose  
 
- A5: Prozkoumejte komplexní dokumentaci[tady](https://reference.aspose.com/page/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

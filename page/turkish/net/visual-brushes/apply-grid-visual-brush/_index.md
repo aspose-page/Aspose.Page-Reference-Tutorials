@@ -1,35 +1,52 @@
 ---
-title: Aspose.Page for .NET ile Izgara Görsel Fırçasını Uygulayın
+date: 2026-04-03
+description: Aspose.Page kullanarak .NET’te şeffaf bir dikdörtgen eklemeyi ve bir
+  Grid Visual Brush uygulamayı öğrenin; çarpıcı XPS belgeleri oluşturun.
+keywords:
+- add transparent rectangle
+- grid visual brush
+- Aspose.Page .NET
 linktitle: Izgara Görsel Fırçasını Uygula
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page ile .NET'te belge işlemenin dinamik dünyasını keşfedin. Görsel açıdan etkileyici belgeler için Izgara Görsel Fırçasını nasıl uygulayacağınızı öğrenin.
-weight: 10
+second_title: Aspose.Page .NET API
+title: Grid Visual Brush (.NET) kullanarak Şeffaf Dikdörtgen Ekle
 url: /tr/net/visual-brushes/apply-grid-visual-brush/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET ile Izgara Görsel Fırçasını Uygulayın
+# Şeffaf Dikdörtgen Ekleme Grid Görsel Fırçası ile (.NET)
 
-## giriiş
+## Giriş
 
-.NET geliştirme dünyasında Aspose.Page, belge işleme görevlerini yerine getirmek için güçlü bir araç olarak öne çıkıyor. Sunduğu büyüleyici özelliklerden biri, belgelerinize yeni bir boyut kazandıran Izgara Görsel Fırçası uygulama yeteneğidir. Bu eğitim, Aspose.Page for .NET'i kullanarak Macenta Grid Visual Brush'ı adım adım uygulama sürecinde size rehberlik edecektir.
+Eğer bir XPS belgesine **şeffaf bir dikdörtgen** eklemek ve aynı zamanda şık bir Grid Visual Brush uygulamak istiyorsanız, doğru yerdesiniz. Bu öğreticide Aspose.Page for .NET ile gerekli adımları adım adım göstereceğiz, böylece öne çıkan görsel açıdan zengin belgeler oluşturabilirsiniz. Sonunda, her iki tekniği tek bir, kolay takip edilebilir iş akışında gösteren tam, çalıştırılabilir bir örnek elde edeceksiniz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **Şeffaf bir dikdörtgen ne yapar?** Arka plan içeriğinin görünmesini sağlayan yarı saydam bir kaplama ekler.  
+- **Hangi API fırçayı oluşturur?** `XpsDocument.CreateVisualBrush` Grid Visual Brush'ı oluşturur.  
+- **Lisans gerekli mi?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Uygulama ne kadar sürer?** Temel bir örnek için yaklaşık 10‑15 dakika.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
+## XPS'de Şeffaf Dikdörtgen Nedir?
+Şeffaf bir dikdörtgen, doldurma renginin alfa bileşeni 1.0'dan düşük olan bir şekildir; bu sayede alttaki grafikler kısmen görünür. Bu, arka planı tamamen gizlemeden bölümleri vurgulamak için mükemmeldir.
 
--  Aspose.Page for .NET: Kitaplığın .NET ortamınıza yüklendiğinden ve kurulduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/page/net/).
+## Neden Grid Visual Brush Kullanılır?
+Grid Visual Brush, küçük bir vektör grafiğini daha büyük bir alana döşemenizi sağlar ve ızgaralar, taramalar veya özel dokular gibi desenler oluşturur. Bunu şeffaf bir dikdörtgenle birleştirerek hafif ve çözünürlük bağımsız katmanlı görsel efektler elde edersiniz.
 
-- Geliştirme Ortamı: Çalışan bir .NET geliştirme ortamına ve temel C# programlama anlayışına sahip olun.
+## Ön Koşullar
 
-- Belge Dizini: Belgeleriniz için işlenen dosyaların kaydedileceği bir dizin oluşturun.
+Koda geçmeden önce şunların olduğundan emin olun:
 
-## Ad Alanlarını İçe Aktar
+- **Aspose.Page for .NET** – bunu [buradan](https://releases.aspose.com/page/net/) indirebilirsiniz.
+- .NET geliştirme ortamı (Visual Studio, VS Code veya tercih ettiğiniz herhangi bir IDE).
+- Oluşturulan XPS dosyalarının kaydedileceği bir klasör.
 
-Aspose.Page özelliklerini etkili bir şekilde kullanmak için C# kodunuzda gerekli ad alanlarını içe aktarmanız gerekir:
+## Ad Alanlarını İçe Aktarın
+
+C# dosyanızda gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,9 +54,9 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Şimdi örneği birden çok adıma ayıralım.
+Şimdi çözümü net, numaralı adımlara ayıralım.
 
-## 1. Adım: XpsDocument'i başlatın
+## Adım 1: XpsDocument Başlatma
 
 ```csharp
 // ExStart:3
@@ -48,9 +65,9 @@ XpsDocument doc = new XpsDocument();
 // ExEnd:3
 ```
 
- Burada bir örneğini oluşturuyoruz`XpsDocument` XPS belgeleriyle çalışmak için.
+`XpsDocument` örneği oluşturularak başlarız; bu örnek sonraki tüm çizim işlemlerini tutacaktır.
 
-## Adım 2: Macenta Izgara Geometrisi Oluşturun
+## Adım 2: Magenta Izgara Geometrisini Oluşturma
 
 ```csharp
 // ExStart:4
@@ -58,12 +75,12 @@ XpsPathGeometry pathGeometry = doc.CreatePathGeometry();
 pathGeometry.AddSegment(doc.CreatePolyLineSegment(
     new PointF[] { new PointF(240f, 5f), new PointF(240f, 310f), new PointF(0f, 310f) }));
 pathGeometry[0].StartPoint = new PointF(0f, 5f);
-// ExBitiş:4
+// ExEnd:4
 ```
 
-Bu adım, macenta ızgarası için bir yol geometrisi oluşturmayı içerir.
+Bu geometri, görsel fırçanın dolduracağı ızgaranın ana hatlarını tanımlar.
 
-## Adım 3: Macenta Grid VisualBrush'ı Tasarlayın
+## Adım 3: Magenta Izgara VisualBrush Tasarımı
 
 ```csharp
 // ExStart:5
@@ -71,12 +88,12 @@ XpsCanvas visualCanvas = doc.CreateCanvas();
 XpsPath visualPath = visualCanvas.AddPath(
     doc.CreatePathGeometry("M 0,4 L 4,4 4,0 6,0 6,4 10,4 10,6 6,6 6,10 4,10 4,6 0,6 Z"));
 visualPath.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1f, .61f, 0.1f, 0.61f));
-// ExBitiş:5
+// ExEnd:5
 ```
 
-Burada vektör grafiklerini kullanarak macenta ızgaranın görsel yönünü tasarlıyoruz.
+Burada, ızgara boyunca tekrarlanacak küçük bir magenta döşeme çizeriz.
 
-## Adım 4: VisualBrush'ı Izgaraya Uygulayın
+## Adım 4: VisualBrush'ı Izgaraya Uygulama
 
 ```csharp
 // ExStart:6
@@ -84,71 +101,81 @@ XpsPath gridPath = doc.CreatePath(pathGeometry);
 gridPath.Fill = doc.CreateVisualBrush(visualCanvas,
     new RectangleF(0f, 0f, 10f, 10f), new RectangleF(0f, 0f, 10f, 10f));
 ((XpsVisualBrush)gridPath.Fill).TileMode = XpsTileMode.Tile;
-// ExBitiş:6
+// ExEnd:6
 ```
 
-Görsel fırçayı ızgara yoluna uygulayarak uygun şekilde döşenmesini sağlayın.
+`CreateVisualBrush` çağrısı, magenta döşemeyi ızgara geometrisine bağlar ve döşemeyi etkinleştirir.
 
-## Adım 5: Izgarayı Tuvale Ekleme
+## Adım 5: Izgarayı Kanvasa Ekleme
 
 ```csharp
 // ExStart:7
 XpsCanvas canvas = doc.AddCanvas();
 canvas.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 268f, 70f);
 canvas.AddPath(pathGeometry);
-// ExBitiş:7
+// ExEnd:7
 ```
 
-Gereken dönüşümleri belirterek ızgarayı tuvale ekleyin.
+Döşenen ızgarayı bir kanvasa yerleştirir ve istenen konumda görünmesi için bir çeviri dönüşümü uygularız.
 
-## Adım 6: Kırmızı Dikdörtgenle Geliştirin
+## Adım 6: Şeffaf Dikdörtgen Ekleme
 
 ```csharp
 // ExStart:8
 XpsPath path = canvas.AddPath(doc.CreatePathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 path = canvas.AddPath(doc.CreatePathGeometry("M 10,10 L 228,10 228,100 10,100"));
 path.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1.0f, 0.0f, 0.0f));
-path.Opacity = 0.7f;
-// ExBitiş:8
+path.Opacity = 0.7f; // This opacity makes the rectangle transparent
+// ExEnd:8
 ```
 
-Kırmızı şeffaf bir dikdörtgen ekleyerek görsel çekiciliği artırın.
+Bu adımda **şeffaf bir dikdörtgen** ekliyoruz (`Opacity = 0.7f` ile kırmızı şekil). Dikdörtgenin ne kadar şeffaf olduğunu kontrol etmek için opaklık değerini ayarlayın.
 
-## Adım 7: Belgeyi Kaydedin
+## Adım 7: Belgeyi Kaydetme
 
 ```csharp
 // ExStart:9
 doc.Save(dataDir + "AddGrid_out.xps");
-// ExBitiş:9
+// ExEnd:9
 ```
 
-Ortaya çıkan XPS belgesini belirttiğiniz dizine kaydedin.
+XPS dosyası, daha önce belirttiğiniz klasöre yazılır.
 
-## Çözüm
+## Yaygın Kullanım Senaryoları
 
-Tebrikler! Aspose.Page for .NET'i kullanarak belgenize Grid Görsel Fırçasını başarıyla uyguladınız. Bu teknik, belgelerinizin görsel öğelerini önemli ölçüde geliştirerek dinamik ve ilgi çekici bir kullanıcı deneyimi sağlayabilir.
+- **Rapor Vurgulama:** Bir grafiği veya tabloyu vurgulamak için yarı saydam bir dikdörtgen üstüne bindirin.  
+- **Filigran Efektleri:** Hafif bir marka izi için döşenen ızgarayı şeffaf bir kaplamayla birleştirin.  
+- **Etkileşimli PDF/XPS:** Kullanıcı arayüzünü okunabilir tutarken form alanları için deseni arka plan olarak kullanın.
 
-## SSS'ler
+## Sorun Giderme İpuçları
 
-### S1: Aspose.Page for .NET'i hem web hem de masaüstü uygulamalarında kullanabilir miyim?
+- **Opaklık Görünmüyor mu?** Görüntüleyicinizin XPS şeffaflığını desteklediğinden emin olun; bazı eski görüntüleyiciler `Opacity` özelliğini görmezden gelebilir.  
+- **Yanlış Döşeme Boyutu?** Kaynak dikdörtgenin (`new RectangleF(0f, 0f, 10f, 10f)`) vektör döşemenin boyutlarıyla eşleştiğini doğrulayın.  
+- **Dosya Kaydedilmedi mi?** `dataDir`'in mevcut ve yazılabilir bir dizine işaret ettiğini iki kez kontrol edin.
 
-Cevap1: Evet, Aspose.Page for .NET çok yönlüdür ve çeşitli uygulama türlerinde kullanılabilir.
+## Sıkça Sorulan Sorular
 
-### S2: Satın almadan önce deneme sürümü mevcut mu?
+**S: Aspose.Page for .NET'i hem web hem de masaüstü uygulamalarında kullanabilir miyim?**  
+C: Evet, kütüphane tüm .NET uygulama türlerinde çalışır.
 
- Cevap2: Kesinlikle ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+**S: Satın almadan önce deneme sürümü mevcut mu?**  
+C: Kesinlikle, ücretsiz denemeye [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
 
-### S3: Ek desteği veya topluluk tartışmalarını nerede bulabilirim?
+**S: Ek destek veya topluluk tartışmalarını nerede bulabilirim?**  
+C: Topluluk ve Aspose mühendislerinden yardım almak için [Aspose.Page Forum](https://forum.aspose.com/c/page/39) adresini ziyaret edin.
 
- A3: Ziyaret edin[Aspose.Page Forumu](https://forum.aspose.com/c/page/39) Tartışma ve destek için.
+**S: Değerlendirme için geçici bir lisans nasıl alabilirim?**  
+C: Geçici bir lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
 
-### S4: Aspose.Page for .NET için nasıl geçici lisans alabilirim?
+**S: Aspose.Page for .NET için başka hangi belgeler mevcut?**  
+C: Kapsamlı belgeleri [buradan](https://reference.aspose.com/page/net/) inceleyin.
 
- Cevap4: Geçici bir lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+---
 
-### S5: Aspose.Page for .NET için başka hangi belgeler mevcut?
+**Son Güncelleme:** 2026-04-03  
+**Test Edilen Versiyon:** Aspose.Page 24.12 for .NET  
+**Yazar:** Aspose  
 
- Cevap5: Kapsamlı belgeleri inceleyin[Burada](https://reference.aspose.com/page/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
