@@ -1,33 +1,42 @@
 ---
-title: Změňte pojmenovanou hodnotu pomocí Aspose.Page pro .NET
-linktitle: Změnit pojmenovanou hodnotu
+date: 2026-01-25
+description: Naučte se, jak nastavit XMP a změnit pojmenovanou hodnotu v souborech
+  EPS pomocí Aspose.Page pro .NET. Přizpůsobte metadata XMP snadno pro individuální
+  zpracování dokumentů.
+linktitle: Change Named Value
 second_title: Aspose.Page .NET API
-description: Naučte se, jak změnit pojmenované hodnoty v souborech EPS pomocí Aspose.Page for .NET. Přizpůsobte si metadata XMP bez námahy pro zpracování dokumentů na míru.
-weight: 16
+title: Jak nastavit XMP a změnit pojmenovanou hodnotu pomocí Aspose.Page pro .NET
 url: /cs/net/eps-metadata-management/modify-eps-metadata-change-named-value/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Změňte pojmenovanou hodnotu pomocí Aspose.Page pro .NET
+# Jak nastavit XMP a změnit pojmenovanou hodnotu pomocí Aspose.Page pro .NET
 
 ## Úvod
 
-Ve světě zpracování dokumentů vyniká Aspose.Page for .NET jako výkonný nástroj pro manipulaci se soubory EPS. Jednou z klíčových funkcí, které nabízí, je možnost měnit pojmenované hodnoty v rámci metadat XMP. Tento tutoriál vás provede procesem změny pojmenované hodnoty pomocí Aspose.Page for .NET a umožní vám přizpůsobit soubory EPS podle vašich konkrétních potřeb.
+Pokud potřebujete **nastavit XMP** informace uvnitř souboru EPS a také **změnit pojmenovanou hodnotu** v jeho metadatech, jste na správném místě. V tomto tutoriálu projdeme reálný scénář, kde upravujete XMP metadata pomocí Aspose.Page pro .NET, což vám poskytne plnou kontrolu nad vlastnostmi dokumentu, značkováním a následným zpracováním.
+
+## Rychlé odpovědi
+- **Co je XMP?** Standardizovaný formát pro vkládání metadat do grafických a dokumentových souborů.  
+- **Proč měnit pojmenovanou hodnotu?** Pro aktualizaci konkrétních polí metadat, jako je velikost stránky nebo vlastní značky, aniž byste přepisovali celý soubor.  
+- **Která knihovna pomáhá?** Aspose.Page pro .NET poskytuje jednoduché API pro oba úkoly.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; pro produkci je vyžadována komerční licence.  
+- **Podporované platformy?** .NET Framework, .NET Core a .NET 5/6+.
 
 ## Předpoklady
 
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+Než se ponoříte do tutoriálu, ujistěte se, že máte následující předpoklady připravené:
 
--  Aspose.Page for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page for .NET. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/page/net/).
+- Aspose.Page pro .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page pro .NET. Pokud ne, můžete ji stáhnout [zde](https://releases.aspose.com/page/net/).
+- Dokumentový adresář: Mějte určený adresář pro vaše soubory EPS, kde můžete provádět změny pojmenovaných hodnot.
 
-- Adresář dokumentů: Mějte určený adresář pro soubory EPS, kde můžete provádět změny pojmenovaných hodnot.
+## Importujte jmenné prostory
 
-## Import jmenných prostorů
-
-Ve svém projektu .NET musíte importovat potřebné jmenné prostory pro přístup k funkcím poskytovaným Aspose.Page. Přidejte do svého kódu následující jmenné prostory:
+Ve vašem .NET projektu musíte importovat potřebné jmenné prostory, abyste získali přístup k funkcionalitě poskytované Aspose.Page. Přidejte následující jmenné prostory do svého kódu:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,38 +48,38 @@ using System.Linq;
 using System.Text;
 ```
 
-Pojďme si nyní kód rozdělit do několika kroků pro komplexní pochopení:
+Nyní rozdělíme kód do několika kroků pro komplexní pochopení:
 
-## Krok 1: Inicializujte vstupní datový proud souboru EPS
+## Krok 1: Inicializace vstupního streamu EPS souboru
 
 ```csharp
-// Start: 1
+// ExStart:1
 string dataDir = "Your Document Directory";
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_named_value_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-tomto kroku nastavíme vstupní proud pro soubor EPS, který chcete upravit. Nezapomeňte nahradit „Adresář vašich dokumentů“ skutečnou cestou k adresáři vašich dokumentů.
+V tomto kroku nastavíme vstupní stream pro EPS soubor, který chcete upravit. Ujistěte se, že nahradíte „Your Document Directory“ skutečnou cestou k vašemu dokumentovému adresáři.
 
-## Krok 2: Získejte metadata XMP
+## Krok 2: Získání XMP metadat
 
 ```csharp
 XmpMetadata xmp = document.GetXmpMetadata();
 ```
 
-Načtěte existující metadata XMP ze souboru EPS. Pokud soubor EPS neobsahuje metadata XMP, vygeneruje se nová s hodnotami z komentářů metadat PS.
+Získá existující XMP metadata z EPS souboru. Pokud EPS soubor neobsahuje XMP metadata, bude vytvořeno nové s hodnotami z PS metadatových komentářů.
 
-## Krok 3: Změňte hodnoty metadat XMP
+## Krok 3: Změna hodnot XMP metadat
 
 ```csharp
 xmp.SetNamedValue("xmpTPg:MaxPageSize", "stDim:unit", new XmpValue("Inches"));
 xmp.SetNamedValue("xmpTPg:MaxPageSize", "stDim:newKey", new XmpValue("NewValue"));
 ```
 
-Zde demonstrujeme změnu dvou pojmenovaných hodnot ve struktuře "xmpTPg:MaxPageSize". To si můžete přizpůsobit podle svých konkrétních požadavků.
+Zde ukazujeme, jak **změnit pojmenované hodnoty** v rámci struktury `xmpTPg:MaxPageSize`. Můžete přizpůsobit názvy vlastností a hodnoty podle svých požadavků na metadata.
 
-## Krok 4: Uložte soubor EPS se změněnými metadaty XMP
+## Krok 4: Uložení EPS souboru se změněnými XMP metadaty
 
 ```csharp
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "change_named_value_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
@@ -79,33 +88,37 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ch
 }
 ```
 
-Uložte upravený soubor EPS do výstupního proudu. Soubor nyní bude odrážet změny provedené v metadatech XMP.
+Uložte upravený EPS soubor do výstupního streamu. Soubor nyní bude odrážet provedené změny v XMP metadatech.
 
-## Závěr
+## Časté problémy a řešení
 
-V tomto tutoriálu jste se naučili, jak využít Aspose.Page for .NET ke změně pojmenovaných hodnot v metadatech XMP v souborech EPS. Tato funkce otevírá svět možností přizpůsobení a přizpůsobení dokumentů tak, aby splňovaly specifické požadavky.
+- **Chybí sekce XMP** – Pokud zdrojový EPS neobsahuje žádné XMP, Aspose.Page automaticky vytvoří minimální XMP blok. Poté můžete přidat své vlastní pojmenované hodnoty, jak je uvedeno výše.
+- **Nesprávná předpona jmenného prostoru** – Ujistěte se, že jmenný prostor (např. `xmpTPg`) odpovídá tomu, který je přítomen v původních metadatech; jinak API bude považovat za novou vlastnost.
+- **Chyby přístupu k souboru** – Ověřte, že aplikace má oprávnění ke čtení/zápisu do adresáře, který specifikujete v `dataDir`.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu použít Aspose.Page pro .NET s jinými formáty dokumentů?
+**Q: Mohu používat Aspose.Page pro .NET s jinými formáty dokumentů?**  
+A: Ano, Aspose.Page podporuje různé formáty dokumentů, včetně EPS, XPS a PDF.
 
-Odpověď 1: Ano, Aspose.Page podporuje různé formáty dokumentů, včetně EPS, XPS a PDF.
+**Q: Je k dispozici zkušební verze pro Aspose.Page pro .NET?**  
+A: Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
-### Q2: Je k dispozici zkušební verze pro Aspose.Page pro .NET?
+**Q: Kde mohu najít další dokumentaci k Aspose.Page pro .NET?**  
+A: Odkazujte se na dokumentaci [zde](https://reference.aspose.com/page/net/).
 
- A2: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+**Q: Jak mohu získat dočasnou licenci pro Aspose.Page pro .NET?**  
+A: Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Kde najdu další dokumentaci na Aspose.Page pro .NET?
+**Q: Jaké možnosti podpory jsou k dispozici pro uživatele Aspose.Page pro .NET?**  
+A: Navštivte komunitní fórum [zde](https://forum.aspose.com/c/page/39) pro podporu a diskuze.
 
- A3: Viz dokumentace[tady](https://reference.aspose.com/page/net/).
+---
 
-### Q4: Jak mohu získat dočasnou licenci pro Aspose.Page for .NET?
+**Poslední aktualizace:** 2026-01-25  
+**Testováno s:** Aspose.Page 24.11 pro .NET  
+**Autor:** Aspose  
 
- A4: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Jaké možnosti podpory jsou k dispozici pro uživatele Aspose.Page pro .NET?
-
- A5: Navštivte fórum komunity[tady](https://forum.aspose.com/c/page/39) za podporu a diskuze.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

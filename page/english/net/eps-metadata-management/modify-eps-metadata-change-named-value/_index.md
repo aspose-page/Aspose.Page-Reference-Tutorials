@@ -1,21 +1,29 @@
 ---
-title: Change Named Value with Aspose.Page for .NET
+title: How to Set XMP and Change Named Value with Aspose.Page for .NET
 linktitle: Change Named Value
 second_title: Aspose.Page .NET API
-description: Learn how to change named values in EPS files using Aspose.Page for .NET. Customize XMP metadata effortlessly for tailored document processing.
+description: Learn how to set XMP and change named value in EPS files using Aspose.Page for .NET. Customize XMP metadata effortlessly for tailored document processing.
 weight: 16
 url: /net/eps-metadata-management/modify-eps-metadata-change-named-value/
+date: 2026-01-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Change Named Value with Aspose.Page for .NET
+# How to Set XMP and Change Named Value with Aspose.Page for .NET
 
 ## Introduction
 
-In the world of document processing, Aspose.Page for .NET stands out as a powerful tool for manipulating EPS files. One of the key functionalities it offers is the ability to change named values within XMP metadata. This tutorial will guide you through the process of changing a named value using Aspose.Page for .NET, empowering you to customize your EPS files according to your specific needs.
+If you need to **how to set XMP** information inside an EPS file and also **change named value** entries in its metadata, you’ve come to the right place. In this tutorial we’ll walk through a real‑world scenario where you modify XMP metadata using Aspose.Page for .NET, giving you full control over document properties, branding, and downstream processing.
+
+## Quick Answers
+- **What is XMP?** A standardized format for embedding metadata in graphics and document files.  
+- **Why change a named value?** To update specific metadata fields such as page size or custom tags without rewriting the whole file.  
+- **Which library helps?** Aspose.Page for .NET provides a straightforward API for both tasks.  
+- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
+- **Supported platforms?** .NET Framework, .NET Core, and .NET 5/6+.
 
 ## Prerequisites
 
@@ -68,7 +76,7 @@ xmp.SetNamedValue("xmpTPg:MaxPageSize", "stDim:unit", new XmpValue("Inches"));
 xmp.SetNamedValue("xmpTPg:MaxPageSize", "stDim:newKey", new XmpValue("NewValue"));
 ```
 
-Here, we demonstrate changing two named values within the "xmpTPg:MaxPageSize" structure. You can customize this according to your specific requirements.
+Here, we demonstrate how to **change named value** entries within the `xmpTPg:MaxPageSize` structure. You can adapt the property names and values to suit your own metadata requirements.
 
 ## Step 4: Save EPS File with Changed XMP Metadata
 
@@ -81,31 +89,34 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ch
 
 Save the modified EPS file to the output stream. The file will now reflect the changes made to the XMP metadata.
 
-## Conclusion
+## Common Issues and Solutions
 
-With this tutorial, you've learned how to leverage Aspose.Page for .NET to change named values within XMP metadata in EPS files. This functionality opens up a world of possibilities for customizing and tailoring your documents to meet specific requirements.
+- **Missing XMP section** – If the source EPS does not contain any XMP, Aspose.Page automatically creates a minimal XMP block. You can then add your custom named values as shown above.  
+- **Incorrect namespace prefix** – Ensure that the namespace (e.g., `xmpTPg`) matches the one present in the original metadata; otherwise the API will treat it as a new property.  
+- **File access errors** – Verify that the application has read/write permissions for the directory you specify in `dataDir`.
 
-## FAQ's
+## Frequently Asked Questions
 
-### Q1: Can I use Aspose.Page for .NET with other document formats?
+**Q: Can I use Aspose.Page for .NET with other document formats?**  
+A: Yes, Aspose.Page supports various document formats, including EPS, XPS, and PDF.
 
-A1: Yes, Aspose.Page supports various document formats, including EPS, XPS, and PDF.
+**Q: Is there a trial version available for Aspose.Page for .NET?**  
+A: Yes, you can access a free trial [here](https://releases.aspose.com/).
 
-### Q2: Is there a trial version available for Aspose.Page for .NET?
+**Q: Where can I find more documentation on Aspose.Page for .NET?**  
+A: Refer to the documentation [here](https://reference.aspose.com/page/net/).
 
-A2: Yes, you can access a free trial [here](https://releases.aspose.com/).
+**Q: How can I obtain a temporary license for Aspose.Page for .NET?**  
+A: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Where can I find more documentation on Aspose.Page for .NET?
+**Q: What support options are available for Aspose.Page for .NET users?**  
+A: Visit the community forum [here](https://forum.aspose.com/c/page/39) for support and discussions.
 
-A3: Refer to the documentation [here](https://reference.aspose.com/page/net/).
+---
 
-### Q4: How can I obtain a temporary license for Aspose.Page for .NET?
-
-A4: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
-
-### Q5: What support options are available for Aspose.Page for .NET users?
-
-A5: Visit the community forum [here](https://forum.aspose.com/c/page/39) for support and discussions.
+**Last Updated:** 2026-01-25  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

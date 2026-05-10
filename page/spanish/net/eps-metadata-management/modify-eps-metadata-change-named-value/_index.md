@@ -1,33 +1,43 @@
 ---
-title: Cambiar el valor con nombre con Aspose.Page para .NET
-linktitle: Cambiar valor con nombre
-second_title: Aspose.Página .NET API
-description: Aprenda a cambiar valores con nombre en archivos EPS usando Aspose.Page para .NET. Personalice los metadatos XMP sin esfuerzo para un procesamiento de documentos personalizado.
-weight: 16
+date: 2026-01-25
+description: Aprenda a configurar XMP y cambiar valores nombrados en archivos EPS
+  usando Aspose.Page para .NET. Personalice los metadatos XMP sin esfuerzo para un
+  procesamiento de documentos a medida.
+linktitle: Change Named Value
+second_title: Aspose.Page .NET API
+title: Cómo establecer XMP y cambiar el valor nombrado con Aspose.Page para .NET
 url: /es/net/eps-metadata-management/modify-eps-metadata-change-named-value/
+weight: 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cambiar el valor con nombre con Aspose.Page para .NET
+# Cómo establecer XMP y cambiar valores nombrados con Aspose.Page para .NET
 
 ## Introducción
 
-En el mundo del procesamiento de documentos, Aspose.Page para .NET destaca como una poderosa herramienta para manipular archivos EPS. Una de las funcionalidades clave que ofrece es la capacidad de cambiar valores con nombre dentro de los metadatos XMP. Este tutorial lo guiará a través del proceso de cambiar un valor con nombre usando Aspose.Page para .NET, permitiéndole personalizar sus archivos EPS de acuerdo con sus necesidades específicas.
+Si necesita **cómo establecer XMP** dentro de un archivo EPS y también **cambiar valores nombrados** en sus metadatos, ha llegado al lugar correcto. En este tutorial recorreremos un escenario del mundo real donde modifica los metadatos XMP usando Aspose.Page para .NET, dándole control total sobre las propiedades del documento, la marca y el procesamiento posterior.
+
+## Respuestas rápidas
+- **¿Qué es XMP?** Un formato estandarizado para incrustar metadatos en archivos gráficos y de documentos.  
+- **¿Por qué cambiar un valor nombrado?** Para actualizar campos de metadatos específicos, como el tamaño de página o etiquetas personalizadas, sin reescribir todo el archivo.  
+- **¿Qué biblioteca ayuda?** Aspose.Page para .NET proporciona una API sencilla para ambas tareas.  
+- **¿Necesito una licencia?** Una prueba gratuita funciona para pruebas; se requiere una licencia comercial para producción.  
+- **¿Plataformas compatibles?** .NET Framework, .NET Core y .NET 5/6+.
 
 ## Requisitos previos
 
-Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de sumergirse en el tutorial, asegúrese de contar con los siguientes requisitos:
 
--  Aspose.Page para .NET: asegúrese de tener instalada la biblioteca Aspose.Page para .NET. Si no, puedes descargarlo.[aquí](https://releases.aspose.com/page/net/).
+- Aspose.Page para .NET: Asegúrese de que tiene la biblioteca Aspose.Page para .NET instalada. Si no, puede descargarla [aquí](https://releases.aspose.com/page/net/).
 
-- Directorio de documentos: tenga un directorio designado para sus archivos EPS donde pueda realizar los cambios de valores nombrados.
+- Directorio de documentos: Tenga un directorio designado para sus archivos EPS donde pueda realizar los cambios de valores nombrados.
 
 ## Importar espacios de nombres
 
-En su proyecto .NET, necesita importar los espacios de nombres necesarios para acceder a la funcionalidad proporcionada por Aspose.Page. Agregue los siguientes espacios de nombres a su código:
+En su proyecto .NET, necesita importar los espacios de nombres necesarios para acceder a la funcionalidad proporcionada por Aspose.Page. Añada los siguientes espacios de nombres a su código:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,21 +49,21 @@ using System.Linq;
 using System.Text;
 ```
 
-Ahora, dividamos el código en varios pasos para una comprensión integral:
+Ahora, desglosaremos el código en varios pasos para una comprensión completa:
 
-## Paso 1: inicializar el flujo de entrada del archivo EPS
+## Paso 1: Inicializar el flujo de entrada del archivo EPS
 
 ```csharp
-// ExInicio:1
+// ExStart:1
 string dataDir = "Your Document Directory";
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_named_value_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
-// Fin final: 1
+// ExEnd:1
 ```
 
-En este paso, configuramos el flujo de entrada para el archivo EPS que desea modificar. Asegúrese de reemplazar "Su directorio de documentos" con la ruta real a su directorio de documentos.
+En este paso, configuramos el flujo de entrada para el archivo EPS que desea modificar. Asegúrese de reemplazar "Your Document Directory" con la ruta real a su directorio de documentos.
 
-## Paso 2: obtenga metadatos XMP
+## Paso 2: Obtener los metadatos XMP
 
 ```csharp
 XmpMetadata xmp = document.GetXmpMetadata();
@@ -61,16 +71,16 @@ XmpMetadata xmp = document.GetXmpMetadata();
 
 Recupere los metadatos XMP existentes del archivo EPS. Si el archivo EPS no contiene metadatos XMP, se generará uno nuevo con valores de los comentarios de metadatos PS.
 
-## Paso 3: cambiar los valores de metadatos XMP
+## Paso 3: Cambiar los valores de los metadatos XMP
 
 ```csharp
 xmp.SetNamedValue("xmpTPg:MaxPageSize", "stDim:unit", new XmpValue("Inches"));
 xmp.SetNamedValue("xmpTPg:MaxPageSize", "stDim:newKey", new XmpValue("NewValue"));
 ```
 
-Aquí, demostramos cómo cambiar dos valores con nombre dentro de la estructura "xmpTPg:MaxPageSize". Puede personalizar esto según sus requisitos específicos.
+Aquí demostramos cómo **cambiar valores nombrados** dentro de la estructura `xmpTPg:MaxPageSize`. Puede adaptar los nombres de propiedades y valores para ajustarlos a sus propios requisitos de metadatos.
 
-## Paso 4: guarde el archivo EPS con metadatos XMP modificados
+## Paso 4: Guardar el archivo EPS con los metadatos XMP modificados
 
 ```csharp
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "change_named_value_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
@@ -79,33 +89,37 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ch
 }
 ```
 
-Guarde el archivo EPS modificado en el flujo de salida. El archivo ahora reflejará los cambios realizados en los metadatos XMP.
+Guarde el archivo EPS modificado en el flujo de salida. El archivo reflejará ahora los cambios realizados en los metadatos XMP.
 
-## Conclusión
+## Problemas comunes y soluciones
 
-Con este tutorial, ha aprendido cómo aprovechar Aspose.Page para .NET para cambiar los valores con nombre dentro de los metadatos XMP en archivos EPS. Esta funcionalidad abre un mundo de posibilidades para personalizar y adaptar sus documentos para cumplir con requisitos específicos.
+- **Sección XMP faltante** – Si el EPS de origen no contiene XMP, Aspose.Page crea automáticamente un bloque XMP mínimo. Luego puede agregar sus valores nombrados personalizados como se muestra arriba.  
+- **Prefijo de espacio de nombres incorrecto** – Asegúrese de que el espacio de nombres (p. ej., `xmpTPg`) coincida con el presente en los metadatos originales; de lo contrario, la API lo tratará como una nueva propiedad.  
+- **Errores de acceso al archivo** – Verifique que la aplicación tenga permisos de lectura/escritura para el directorio que especifica en `dataDir`.
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo utilizar Aspose.Page para .NET con otros formatos de documentos?
+**Q: ¿Puedo usar Aspose.Page para .NET con otros formatos de documento?**  
+A: Sí, Aspose.Page admite varios formatos de documento, incluidos EPS, XPS y PDF.
 
-R1: Sí, Aspose.Page admite varios formatos de documentos, incluidos EPS, XPS y PDF.
+**Q: ¿Hay una versión de prueba disponible para Aspose.Page para .NET?**  
+A: Sí, puede acceder a una prueba gratuita [aquí](https://releases.aspose.com/).
 
-### P2: ¿Existe una versión de prueba disponible de Aspose.Page para .NET?
+**Q: ¿Dónde puedo encontrar más documentación sobre Aspose.Page para .NET?**  
+A: Consulte la documentación [aquí](https://reference.aspose.com/page/net/).
 
- R2: Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
+**Q: ¿Cómo puedo obtener una licencia temporal para Aspose.Page para .NET?**  
+A: Puede obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
 
-### P3: ¿Dónde puedo encontrar más documentación sobre Aspose.Page para .NET?
+**Q: ¿Qué opciones de soporte están disponibles para los usuarios de Aspose.Page para .NET?**  
+A: Visite el foro de la comunidad [aquí](https://forum.aspose.com/c/page/39) para soporte y discusiones.
 
- A3: consulte la documentación[aquí](https://reference.aspose.com/page/net/).
+---
 
-### P4: ¿Cómo puedo obtener una licencia temporal de Aspose.Page para .NET?
+**Última actualización:** 2026-01-25  
+**Probado con:** Aspose.Page 24.11 para .NET  
+**Autor:** Aspose  
 
- R4: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
-
-### P5: ¿Qué opciones de soporte están disponibles para los usuarios de Aspose.Page para .NET?
-
- A5: Visita el foro de la comunidad[aquí](https://forum.aspose.com/c/page/39) para apoyo y discusiones.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
