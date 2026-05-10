@@ -1,37 +1,48 @@
 ---
-title: Tambahkan Teks ke Dokumen XPS dengan Aspose.Page untuk .NET
-linktitle: Tambahkan Teks ke Dokumen XPS
-second_title: Aspose.Halaman .NET API
-description: Jelajahi panduan langkah demi langkah tentang menambahkan teks ke dokumen XPS menggunakan Aspose.Page untuk .NET. Tingkatkan proyek .NET Anda dengan mudah.
-weight: 13
+date: 2026-03-21
+description: Pelajari cara membuat dokumen XPS .NET dan menambahkan teks menggunakan
+  Aspose.Page untuk .NET. Panduan langkah demi langkah untuk pengembang .NET.
+linktitle: Add Text to XPS Document
+second_title: Aspose.Page .NET API
+title: Buat dokumen XPS .NET dan tambahkan teks dengan Aspose.Page
 url: /id/net/text-manipulation/add-text-to-xps-document/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tambahkan Teks ke Dokumen XPS dengan Aspose.Page untuk .NET
+# Buat dokumen XPS .NET dan tambahkan teks dengan Aspose.Page
 
-## Perkenalan
+Dalam pengembangan .NET modern, kemampuan untuk **create XPS document .NET** file secara programatis adalah keterampilan yang berharga, terutama ketika Anda perlu menghasilkan laporan yang dapat dicetak, faktur, atau grafik khusus. Tutorial ini memandu Anda menggunakan Aspose.Page untuk **aspose.page add text** ke dokumen XPS, memberi Anda kontrol penuh atas tata letak dan gaya—semua dari dalam aplikasi .NET Anda.
 
-Dalam dunia pengembangan .NET yang dinamis, Aspose.Page menonjol sebagai alat yang ampuh untuk bekerja dengan dokumen XPS. Menambahkan teks ke dokumen XPS adalah persyaratan umum, dan Aspose.Page menyederhanakan proses ini. Dalam tutorial ini, kita akan mempelajari cara menggunakan Aspose.Page untuk .NET untuk menambahkan teks ke dokumen XPS dengan lancar.
+## Jawaban Cepat
+- **What does this tutorial cover?** Menambahkan teks ke dokumen XPS yang baru dibuat menggunakan Aspose.Page untuk .NET.  
+- **How long does it take?** Sekitar 5‑10 menit untuk implementasi dasar.  
+- **What are the prerequisites?** Lingkungan pengembangan .NET dan pustaka Aspose.Page.  
+- **Is a license required?** Ya, lisensi Aspose.Page yang valid diperlukan untuk penggunaan produksi.  
+- **Can it run on .NET Core / .NET 6+?** Tentu – Aspose.Page mendukung semua versi .NET terbaru.
+
+## Apa itu create xps document .net?
+
+Membuat dokumen XPS di .NET berarti menghasilkan file tata letak tetap yang mempertahankan tampilan tepat dari konten Anda di berbagai perangkat dan printer. XPS (XML Paper Specification) adalah standar terbuka Microsoft untuk deskripsi halaman, mirip dengan PDF tetapi sepenuhnya berbasis XML.
+
+## Mengapa menggunakan Aspose.Page untuk menambahkan teks?
+
+Aspose.Page menawarkan API tingkat tinggi yang berorientasi objek yang mengabstraksi markup XPS tingkat rendah. Anda dapat menambahkan teks, grafik, dan bentuk tanpa harus berurusan dengan XML mentah, membuat proses pengembangan lebih cepat dan kurang rawan kesalahan.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+- Aspose.Page untuk .NET: Pastikan Anda telah menginstal pustaka Aspose.Page. Anda dapat mengunduhnya dari [dokumentasi Aspose.Page untuk .NET](https://reference.aspose.com/page/net/).
+- Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET Anda. Jika belum melakukannya, ikuti petunjuk instalasi yang disediakan dalam [dokumentasi](https://reference.aspose.com/page/net/).
+- Direktori Dokumen: Buat direktori tempat Anda akan menyimpan dokumen. Ganti "Your Document Directory" dalam potongan kode yang disediakan dengan jalur yang sebenarnya.
 
-- Aspose.Page untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Page. Anda dapat mengunduhnya dari[Aspose.Page untuk dokumentasi .NET](https://reference.aspose.com/page/net/).
-
--  Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET Anda. Jika Anda belum melakukannya, ikuti petunjuk instalasi yang disediakan di[dokumentasi](https://reference.aspose.com/page/net/).
-
-- Direktori Dokumen: Buat direktori tempat Anda menyimpan dokumen Anda. Ganti "Direktori Dokumen Anda" di cuplikan kode yang disediakan dengan jalur sebenarnya.
-
-Sekarang, mari beralih ke panduan langkah demi langkah.
+Sekarang setelah kami membahas dasar-dasarnya, mari selami kode.
 
 ## Impor Namespace
 
-Pertama, mari impor namespace yang diperlukan untuk memulai proyek kita:
+Pertama, impor namespace yang diperlukan untuk memulai proyek:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -39,78 +50,99 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Langkah 1: Buat Dokumen XPS Baru
+## Langkah 1: Buat dokumen XPS .NET
 
-Untuk mulai bekerja dengan Aspose.Page, buat dokumen XPS baru. Ini akan menjadi kanvas tempat kita menambahkan teks.
+Buat dokumen XPS baru yang akan menjadi kanvas untuk teks kami.
 
 ```csharp
-// MantanMulai:3
+// ExStart:3
 string dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 // ExEnd:3
 ```
 
-## Langkah 2: Buat Kuas untuk Teks
+## Langkah 2: Buat kuas untuk teks
 
-Sekarang, mari buat kuas untuk menentukan warna teks. Dalam contoh ini, kita menggunakan kuas warna hitam.
+Tentukan kuas berwarna solid yang menentukan warna teks. Di sini kami menggunakan hitam.
 
 ```csharp
-// MantanMulai:4
+// ExStart:4
 XpsSolidColorBrush textFill = doc.CreateSolidColorBrush(Color.Black);
 // ExEnd:4
 ```
 
-## Langkah 3: Tambahkan Mesin Terbang ke Dokumen
+## Langkah 3: Tambahkan glyphs (aspose.page add text)
 
-Mesin terbang mewakili teks dalam dokumen XPS. Tambahkan mesin terbang ke dokumen dengan font, ukuran, gaya, dan posisi yang diinginkan.
+Glyphs adalah representasi tingkat rendah dari karakter dalam dokumen XPS. Panggilan ini menambahkan teks “Hello World!” pada koordinat yang ditentukan.
 
 ```csharp
-// MantanMulai:5
+// ExStart:5
 XpsGlyphs glyphs = doc.AddGlyphs("Arial", 12, FontStyle.Regular, 300f, 450f, "Hello World!");
 glyphs.Fill = textFill;
 // ExEnd:5
 ```
 
-## Langkah 4: Simpan Dokumen XPS yang Dihasilkan
+## Langkah 4: Simpan dokumen XPS hasil
 
-Terakhir, simpan dokumen XPS dengan teks tambahan ke direktori yang Anda tentukan.
+Simpan dokumen ke disk sehingga Anda dapat melihat atau mencetaknya nanti.
 
 ```csharp
-// MantanMulai:6
+// ExStart:6
 doc.Save(dataDir + "AddText_out.xps");
 // ExEnd:6
 ```
 
-Dengan mengikuti langkah-langkah sederhana ini, Anda telah berhasil menambahkan teks ke dokumen XPS menggunakan Aspose.Page untuk .NET.
+Dengan mengikuti langkah-langkah ini, Anda telah berhasil **create XPS document .NET** dan menambahkan teks khusus menggunakan Aspose.Page.
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Kesimpulannya, Aspose.Page untuk .NET memberikan solusi langsung untuk menambahkan teks ke dokumen XPS di proyek .NET Anda. Kesederhanaan perpustakaan, dipadukan dengan fitur-fiturnya yang canggih, menjadikannya alat yang sangat berharga untuk manipulasi dokumen.
+| Masalah | Alasan | Solusi |
+|-------|--------|-----|
+| **File not found** when saving | `dataDir` points to a non‑existent folder | Pastikan direktori ada atau gunakan `Directory.CreateDirectory(dataDir)` sebelum menyimpan. |
+| **Text not visible** | Brush color matches background | Ubah `Color.Black` ke warna kontras lainnya. |
+| **Unsupported font** | Font not installed on the machine | Gunakan font yang dijamin ada, atau sematkan font menggunakan fitur font‑embedding Aspose.Page. |
 
 ## Pertanyaan yang Sering Diajukan
 
-### Q1: Dapatkah saya menyesuaikan font dan ukuran teks yang ditambahkan?
+### Q1: Bisakah saya menyesuaikan font dan ukuran teks yang ditambahkan?
 
- A1: Ya, Anda memiliki kendali penuh atas font dan ukurannya. Sesuaikan parameter di`AddGlyphs` metode yang sesuai.
+A1: Ya, Anda memiliki kontrol penuh atas font dan ukuran. Sesuaikan parameter dalam metode `AddGlyphs` sesuai kebutuhan.
 
 ### Q2: Apakah Aspose.Page kompatibel dengan .NET Core?
 
-A2: Tentu saja! Aspose.Page mendukung .NET Core, memastikan kompatibilitas dengan teknologi .NET terbaru.
+A2: Tentu! Aspose.Page mendukung .NET Core, memastikan kompatibilitas dengan teknologi .NET terbaru.
 
 ### Q3: Apakah ada persyaratan lisensi untuk menggunakan Aspose.Page?
 
- A3: Ya, Anda memerlukan lisensi yang valid. Jelajahi opsi lisensi[Di Sini](https://purchase.aspose.com/buy).
+A3: Ya, Anda memerlukan lisensi yang valid. Jelajahi opsi lisensi [di sini](https://purchase.aspose.com/buy).
 
-### Q4: Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan?
+### Q4: Bagaimana saya dapat mendapatkan dukungan atau bantuan?
 
- A4: Kunjungi[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk berhubungan dengan masyarakat dan mendapatkan bantuan.
+A4: Kunjungi [forum Aspose.Page](https://forum.aspose.com/c/page/39) untuk terhubung dengan komunitas dan mendapatkan bantuan.
 
-### Q5: Apakah tersedia uji coba gratis?
+### Q5: Apakah tersedia percobaan gratis?
 
- A5: Tentu saja! Anda bisa mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+A5: Tentu! Anda dapat mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
+
+**Pertanyaan Tambahan**
+
+**Q: Bisakah saya menambahkan beberapa blok teks pada halaman yang sama?**  
+A: Ya, cukup panggil `doc.AddGlyphs` beberapa kali dengan koordinat yang berbeda.
+
+**Q: Apakah Aspose.Page memungkinkan rotasi teks?**  
+A: Anda dapat menerapkan matriks transformasi ke objek `XpsGlyphs` untuk memutar atau memiringkan teks.
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+**Terakhir Diperbarui:** 2026-03-21  
+**Diuji dengan:** Aspose.Page 24.11 untuk .NET  
+**Penulis:** Aspose  
+
+---

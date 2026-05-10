@@ -1,33 +1,52 @@
 ---
-title: أضف نصًا باستخدام سلسلة Unicode إلى مستند XPS باستخدام Aspose.Page
-linktitle: أضف نصًا بسلسلة Unicode إلى مستند XPS
+date: 2026-03-21
+description: تعلم كيفية إضافة نص يونيكود إلى مستند XPS باستخدام Aspose.Page لـ .NET.
+  يوضح لك هذا الدليل كيفية إنشاء مستند XPS بلغة C# وإضافة نص باستخدام سلاسل يونيكود
+  عبر Aspose.Page.
+linktitle: Add Text with Unicode String to XPS Document
 second_title: Aspose.Page .NET API
-description: اكتشف قوة Aspose.Page لـ .NET من خلال دليلنا خطوة بخطوة حول إضافة نص Unicode إلى مستندات XPS.
-weight: 12
+title: كيفية إضافة نص يونيكود إلى مستند XPS باستخدام Aspose.Page
 url: /ar/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# أضف نصًا باستخدام سلسلة Unicode إلى مستند XPS باستخدام Aspose.Page
+# كيفية إضافة نص يونيكود إلى مستند XPS باستخدام Aspose.Page
 
-## مقدمة
+## المقدمة
 
-في مشهد تطوير .NET دائم التطور، تبرز Aspose.Page كأداة قوية للتعامل مع مستندات XPS. من بين ميزاته العديدة، تعد القدرة على إضافة نص باستخدام سلاسل Unicode إلى مستند XPS وظيفة قيمة. سيرشدك هذا الدليل المفصّل خطوة بخطوة خلال العملية، مما يضمن لك الاستفادة من هذه الإمكانية بفعالية.
+إذا كنت بحاجة إلى **how to add unicode** أحرف إلى ملف XPS، فقد وجدت المكان المناسب. في هذا البرنامج التعليمي سنستعرض الخطوات الدقيقة المطلوبة لإنشاء مستند XPS بأسلوب **create XPS document C#**‑style باستخدام Aspose.Page لـ .NET ونظهر قدرة **aspose page add text** مع سلسلة يونيكود. في النهاية ستحصل على مستند XPS يعمل بالكامل ويعرض نص يونيكود من اليمين إلى اليسار (RTL) بشكل صحيح.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **What does the tutorial cover?** إضافة نص يونيكود إلى مستند XPS باستخدام Aspose.Page لـ .NET.  
+- **Which language is used?** C# (متوافق مع .NET Framework و .NET Core).  
+- **Do I need a license?** النسخة التجريبية المجانية تعمل للتطوير؛ يلزم الحصول على ترخيص تجاري للإنتاج.  
+- **Can I change the font or size?** نعم – المثال يستخدم Arial 20 pt، ولكن أي خط مثبت يعمل.  
+- **Is RTL support included?** ضبط `BidiLevel = 1` يتيح عرض من اليمين إلى اليسار لسلاسل يونيكود.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو “how to add unicode” في XPS؟
 
-- فهم أساسي لتطوير .NET.
-- تم تثبيت Visual Studio على جهازك.
--  Aspose.Page لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/page/net/).
+إضافة نص يونيكود يعني إدراج أحرف من أي لغة — العربية، العبرية، الصينية، إلخ — في مستند XPS. تتعامل فئة `XpsGlyphs` في Aspose.Page مع وضع الحروف على مستوى منخفض، بينما تتحكم خاصية `BidiLevel` في اتجاه النص للغات من اليمين إلى اليسار.
+
+## لماذا تستخدم Aspose.Page لإضافة نص؟
+
+- **Full .NET integration** – يعمل مع .NET Framework، .NET Core، .NET 5/6+.  
+- **No external dependencies** – شفرة مُدارة خالصة، بدون تفاعل COM.  
+- **Rich typography support** – الخطوط، الأنماط، الألوان، والنص ثنائي الاتجاه.  
+- **High performance** – ينشئ ويحفظ ملفات XPS بسرعة، مثالي لإنشاء الخادم.
+
+## المتطلبات المسبقة
+
+- معرفة أساسية بـ C# وتطوير .NET.  
+- Visual Studio (أي نسخة حديثة).  
+- مكتبة Aspose.Page لـ .NET – حمّلها من [here](https://releases.aspose.com/page/net/).
 
 ## استيراد مساحات الأسماء
 
-للبدء، تأكد من استيراد مساحات الأسماء الضرورية إلى مشروعك. سيوفر هذا الفئات والوظائف المطلوبة للعمل مع Aspose.Page. فيما يلي مساحات الأسماء الأساسية:
+أولاً، استورد مساحات الأسماء التي تمنحك الوصول إلى نموذج XPS وأدوات الرسم.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,65 +54,69 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## الخطوة 1: إعداد المستند
+## الخطوة 1: إعداد المستند – create XPS document C#
 
-أولاً، قم بإنشاء مستند XPS جديد حيث ستضيف نص Unicode. اتبع مقتطف الكود أدناه:
+أنشئ مستند XPS جديد سيستضيف نص يونيكود.
 
 ```csharp
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// قم بإنشاء مستند XPS جديد
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
-## الخطوة 2: إضافة نص Unicode
+## الخطوة 2: إضافة نص يونيكود – aspose page add text
 
-الآن، دعونا نضيف نص Unicode إلى مستند XPS. يستخدم هذا المثال الخط Arial، ويضبط حجم الخط على 20، ويضع النص عند الإحداثيات (400f، 200f). سلسلة Unicode في هذه الحالة هي "TEN.rof SPX.esopsA". تحقق من مقتطف الكود أدناه:
+الآن نضيف سلسلة يونيكود الفعلية. في هذا المثال نستخدم خط Arial بحجم 20، ونضع النص عند (400 f, 200 f). الخاصية `BidiLevel` بقيمة 1 تخبر المُعالج بمعاملة السلسلة من اليمين إلى اليسار.
 
 ```csharp
-// إضافة نص
+// Add Text
 XpsSolidColorBrush textFill = doc.CreateSolidColorBrush(Color.Black);
 XpsGlyphs glyphs = doc.AddGlyphs("Arial", 20, FontStyle.Regular, 400f, 200f, "TEN. rof SPX.esopsA");
 glyphs.BidiLevel = 1;
 glyphs.Fill = textFill;
 ```
 
-## الخطوة 3: احفظ المستند
+## الخطوة 3: حفظ المستند
 
-بمجرد إضافة نص Unicode، احفظ مستند XPS الناتج. ها هي الخطوة النهائية:
+أخيرًا، احفظ ملف XPS على القرص.
 
 ```csharp
-// احفظ مستند XPS الناتج
+// Save resultant XPS document
 doc.Save(dataDir + "AddTextRTL_out.xps");
 ```
 
-تهانينا! لقد نجحت في إضافة نص Unicode إلى مستند XPS باستخدام Aspose.Page لـ .NET.
+تهانينا! لقد نجحت في إضافة نص **how to add unicode** إلى مستند XPS باستخدام Aspose.Page لـ .NET.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في هذا البرنامج التعليمي، استكشفنا عملية إضافة نص Unicode إلى مستندات XPS باستخدام Aspose.Page لـ .NET. تفتح هذه الوظيفة الأبواب أمام إنشاء مستندات متنوعة وديناميكية داخل بيئة .NET.
+| المشكلة | السبب | الحل |
+|-------|--------|-----|
+| النص يظهر مشوشًا | الخط لا يدعم نطاق يونيكود | استخدم خطًا يحتوي على الحروف المطلوبة (مثل Arial Unicode MS). |
+| النص RTL لا يزال من اليسار إلى اليمين | `BidiLevel` غير مضبوط أو مضبوط على 0 | تأكد من `glyphs.BidiLevel = 1;` للنصوص RTL. |
+| الملف غير محفوظ | مسار `dataDir` غير صالح | تحقق من وجود الدليل وأن التطبيق لديه أذونات الكتابة. |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل Aspose.Page متوافق مع أحدث أطر عمل .NET؟
+**س: هل Aspose.Page متوافق مع أحدث أطر .NET؟**  
+ج: نعم، يتم تحديث Aspose.Page بانتظام لدعم .NET Framework، .NET Core، و .NET 5/6+.
 
-ج1: نعم، يتم تحديث Aspose.Page بانتظام لضمان التوافق مع أحدث أطر عمل .NET.
+**س: هل يمكنني تخصيص نمط الخط وحجمه عند إضافة النص؟**  
+ج: بالتأكيد! تسمح لك طريقة `AddGlyphs` بتحديد أي عائلة خط، حجم، و `FontStyle` تحتاجه.
 
-### س2: هل يمكنني تخصيص نمط الخط وحجمه عند إضافة نص؟
+**س: أين يمكنني العثور على وثائق إضافية لـ Aspose.Page؟**  
+ج: يمكنك الرجوع إلى الوثائق [here](https://reference.aspose.com/page/net/) للحصول على تفاصيل شاملة حول الـ API.
 
-ج2: بالتأكيد! يسمح لك رمز المثال المقدم بتخصيص نمط الخط وحجمه والسمات الأخرى بسهولة.
+**س: هل هناك موارد مجانية للبدء مع Aspose.Page؟**  
+ج: نعم، استكشف منتدى المجتمع على [Aspose.Page forum](https://forum.aspose.com/c/page/39) للحصول على نصائح، أمثلة، ودعم من الأقران.
 
-### س3: أين يمكنني العثور على وثائق إضافية لـ Aspose.Page؟
+**س: هل هناك نسخة تجريبية متاحة قبل الشراء؟**  
+ج: بالتأكيد! حمّل النسخة التجريبية المجانية من [here](https://releases.aspose.com/) لتقييم المكتبة.
 
- ج3: يمكنك الرجوع إلى الوثائق[هنا](https://reference.aspose.com/page/net/) للحصول على معلومات وأمثلة شاملة.
+**آخر تحديث:** 2026-03-21  
+**تم الاختبار مع:** Aspose.Page 24.11 لـ .NET  
+**المؤلف:** Aspose  
 
-### س 4: هل هناك أي موارد مجانية للبدء في استخدام Aspose.Page؟
-
- ج4: نعم، يمكنك استكشاف[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لدعم المجتمع والمناقشات.
-
-### س5: هل هناك نسخة تجريبية متاحة قبل إجراء عملية الشراء؟
-
- ج5: بالتأكيد! يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/) قبل إجراء عملية الشراء.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

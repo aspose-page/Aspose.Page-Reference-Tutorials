@@ -1,35 +1,53 @@
 ---
-title: Aspose.Page ile PostScript (PS) Belgesine Metin Ekleme
-linktitle: PostScript (PS) Belgesine Metin Ekleme
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page'i kullanarak PostScript (PS) belgelerine metin eklemeyi öğrenerek .NET geliştirme becerilerinizi geliştirin. Adım adım örnekleri keşfedin ve belge manipülasyonunun gücünü açığa çıkarın.
-weight: 10
+date: 2026-03-21
+description: Aspose.Page for .NET kullanarak PS belgelerine metin doldurmayı ve metin
+  eklemeyi öğrenin. Kod örnekleriyle adım adım rehber.
+linktitle: Add Text to PostScript (PS) Document
+second_title: Aspose.Page .NET API
+title: Aspose.Page ile PostScript (PS) Belgelerinde Metni Nasıl Doldurulur
 url: /tr/net/text-manipulation/add-text-to-postscript-ps-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page ile PostScript (PS) Belgesine Metin Ekleme
+# PostScript (PS) Belgelerinde Metin Doldurma (Fill Text) Nasıl Yapılır – Aspose.Page
 
-## giriiş
+## Giriş
 
-.NET geliştirmenin dinamik dünyasında, PostScript (PS) belgelerini değiştirmek ve geliştirmek ortak bir gereksinimdir. Aspose.Page for .NET, PS belgelerinize zahmetsizce metin eklemek için güçlü bir araç seti sağlar. Bu eğitim, süreç boyunca size rehberlik edecek ve bu işlevselliği projelerinize sorunsuz bir şekilde entegre edebilmenizi sağlayacaktır.
+PostScript (PS) dosyası içinde **metni doldurmak (fill text)** istiyorsanız, Aspose.Page for .NET bu işlemi çok basitleştirir. Rapor, fatura ya da özel grafikler oluşturuyor olun, metin ekleme ve biçimlendirme temel bir gereksinimdir. Bu öğreticide ortamı kurmaktan son PS belgesini kaydetmeye kadar tüm süreci adım adım göstereceğiz; böylece .NET uygulamalarınızda PS dosyalarına güvenle metin ekleyebileceksiniz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **“Metni doldurmak” ne demektir?** Karakterleri katı bir fırça ile çizer, glifleri doğrudan sayfaya boyar.  
+- **Özel yazı tipleri kullanabilir miyim?** Evet—Aspose.Page, `add custom font ps` özelliği sayesinde özel yazı tiplerini destekler.  
+- **PS belgesini nasıl kaydederim?** Sayfayı kapattıktan sonra `document.Save()` çağırın; bu dosyayı diske yazar (`save ps document`).  
+- **“Metni doldur ve kenarlıkla (stroke) çizmek” destekleniyor mu?** Kesinlikle; hem doldurma hem de dış hat için `FillAndStrokeText` kullanın.  
+- **Hangi .NET sürümleri gereklidir?** .NET Framework 4.5+ veya .NET Core/5/6+ çalışma zamanı yeterlidir.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+## PS belgesinde “metni doldurmak” (how to fill text) nedir?
 
--  Aspose.Page for .NET: Aspose.Page kütüphanesinin .NET projenize entegre olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.Page .NET belgeleri](https://reference.aspose.com/page/net/).
+Metni doldurmak, karakterleri bir kenarlık olmadan katı bir renk (veya fırça) ile boyamaktır. PostScript’te bu, `fill` operatörüne eşdeğerdir. Aspose.Page, bu işlemi `FillText` ve `FillAndStrokeText` gibi kullanımı kolay metodlarla soyutlar.
 
-- Doküman Dizini: Dokümanlarınızın saklanacağı bir dizin ayarlayın. Bu, örneklerde "Belge Dizininiz" olarak anılacaktır.
+## Neden özel yazı tipi ps eklemek için Aspose.Page kullanmalıyım?
 
-- Yazı Tipleri Klasörü: Özel yazı tiplerini depolamak için örneklerde "Belge Dizininiz" olarak adlandırılan bir klasör oluşturun.
+- **Tam yazı tipi desteği** – sistem yazı tipleri ve harici TrueType/OpenType yazı tipleri kutudan çıkar çıkmaz çalışır.  
+- **Hassas konumlandırma** – X/Y koordinatlarını, boyutu ve stili siz kontrol edersiniz.  
+- **Zengin biçimlendirme** – doldurma, kenarlık ve kalemleri birleştirerek “fill and stroke text” gibi efektler oluşturabilirsiniz.  
+- **Çapraz platform** – aynı API ile Windows, Linux ve macOS’ta çalışır.
 
-## Ad Alanlarını İçe Aktar
+## Ön Koşullar
 
-Başlamadan önce projenize gerekli ad alanlarını eklediğinizden emin olun:
+Başlamadan önce şunların kurulu olduğundan emin olun:
+
+- **Aspose.Page for .NET** – kütüphaneyi [Aspose.Page .NET documentation](https://reference.aspose.com/page/net/) adresinden indirin.  
+- **Belge Dizini** – kaynak ve çıktı PS dosyalarının bulunacağı makinenizdeki klasör (*Your Document Directory* kod içinde referans verilen).  
+- **Yazı Tipi Klasörü** – kullanmayı planladığınız özel yazı tiplerini içeren bir alt klasör.
+
+## Ad Alanlarını (Namespaces) İçe Aktarma
+
+Derleyicinin sınıfları nereden bulacağını bilmesi için gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Page;
@@ -41,9 +59,11 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Şimdi örneği birden çok adıma ayıralım.
+## Adım Adım Kılavuz
 
-## 1. Adım: PS Belgesi için Çıktı Akışı Oluşturun
+### Adım 1: PS Belgesi için Çıktı Akışı Oluşturma  
+
+Oluşturulacak PS dosyasını tutacak bir `FileStream` açın, `PsSaveOptions`’ı özel yazı tipleri klasörüne yönlendirin ve bir `PsDocument` örneği oluşturun.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -58,7 +78,11 @@ using (Stream outPsStream = new FileStream(dataDir + "AddText_outPS.ps", FileMod
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Adım 2: Metni Sistem Yazı Tipiyle Doldurun
+> **İpucu:** `using` bloğunu tutarak akışın otomatik olarak kapanmasını sağlayın; bu aynı zamanda PS dosyasını (`save ps document`) sonlandırır.
+
+### Adım 2: Sistem Yazı Tipi ile Metni Doldurma  
+
+Yerleşik *Times New Roman* yazı tipini kullanarak temel **metni doldurma (how to fill text)** işlemini gösteriyoruz.
 
 ```csharp
 System.Drawing.Font font = new System.Drawing.Font("Times New Roman", fontSize, FontStyle.Bold);
@@ -66,7 +90,9 @@ document.FillText(str, font, 50, 100);
 document.FillText(str, font, 50, 150, new SolidBrush(Color.Blue));
 ```
 
-## 3. Adım: Metni Özel Yazı Tipiyle Doldurun
+### Adım 3: Özel Yazı Tipi ile Metni Doldurma  
+
+Belirli bir görünüm istiyorsanız, `ExternalFontCache.FetchDrFont` ile yazı tipleri klasöründen özel bir yazı tipi yükleyin. Bu, **add custom font ps** gereksinimini karşılar.
 
 ```csharp
 DrFont drFont = ExternalFontCache.FetchDrFont("Palatino Linotype", fontSize, FontStyle.Regular);
@@ -74,7 +100,9 @@ document.FillText(str, drFont, 50, 200);
 document.FillText(str, drFont, 50, 250, new SolidBrush(Color.Blue));
 ```
 
-## Adım 4: Sistem Yazı Tipiyle Metni Anahat
+### Adım 4: Sistem Yazı Tipi ile Metni Kenarlıkla (Stroke) Çizme  
+
+Kenarlık, glifin konturunu çizer. Bunu bir doldurma ile birleştirerek “fill and stroke” etkisi elde edebilirsiniz.
 
 ```csharp
 document.OutlineText(str, font, 50, 300);
@@ -82,7 +110,11 @@ document.OutlineText(str, font, 50, 350, new Pen(new SolidBrush(Color.BlueViolet
 document.FillAndStrokeText(str, font, 50, 400, new SolidBrush(Color.Yellow), new Pen(new SolidBrush(Color.BlueViolet), 2));
 ```
 
-## Adım 5: Özel Yazı Tipiyle Metni Anahat
+> **Neden önemli?** `FillAndStrokeText` çağrısı, tek adımda **fill and stroke text** yapmanızı gösterir ve tipografik kontrolünüzü zenginleştirir.
+
+### Adım 5: Özel Yazı Tipi ile Metni Kenarlıkla (Stroke) Çizme  
+
+Aynı kenarlık tekniği, yüklediğiniz herhangi bir özel yazı tipiyle de çalışır.
 
 ```csharp
 document.OutlineText(str, drFont, 50, 450);
@@ -90,7 +122,9 @@ document.OutlineText(str, drFont, 50, 500, new Pen(new SolidBrush(Color.BlueViol
 document.FillAndStrokeText(str, drFont, 50, 550, new SolidBrush(Color.Orange), new Pen(new SolidBrush(Color.Blue), 2));
 ```
 
-## Adım 6: Kapatın ve Kaydedin
+### Adım 6: Sayfayı Kapat ve Belgeyi Kaydet  
+
+İşlemi tamamlamak çok basit: geçerli sayfayı kapatın ve `Save()` çağırarak PS dosyasını diske yazın.
 
 ```csharp
 document.ClosePage();
@@ -98,34 +132,43 @@ document.Save();
 }
 ```
 
-## Çözüm
+> **Sonuç:** *Your Document Directory* içinde `AddText_outPS.ps` dosyasını bulacaksınız; bu dosya sistem ve özel yazı tipleriyle doldurulmuş ve kenarlıklı metinleri içerir.
 
-Tebrikler! Aspose.Page for .NET'i kullanarak PostScript (PS) belgesine nasıl metin ekleyeceğinizi başarıyla öğrendiniz. Daha fazla özelliği keşfetmekten ve belge işleme yeteneklerinizi geliştirmekten çekinmeyin.
+## Yaygın Sorunlar ve Çözümler
 
-## SSS'ler
+| Sorun | Çözüm |
+|-------|----------|
+| **Özel yazı tipi bulunamadı** | `AdditionalFontsFolders` ile işaretlenen klasörde yazı tipi dosyasının (.ttf/.otf) mevcut olduğunu doğrulayın. |
+| **Metin yanlış konumda görünüyor** | `FillText`/`OutlineText` metodlarına verilen X/Y koordinatlarını ayarlayın. PostScript birimleri puandır (1/72 inç). |
+| **Renkler farklı görünüyor** | Doğru `Color` değerlerine sahip `SolidBrush` veya `Pen` kullandığınızdan emin olun. |
+| **Belge kaydedilmiyor** | `using` bloğunun istisna atmadan tamamlandığını ve uygulamanın hedef klasöre yazma izni olduğunu kontrol edin. |
 
-### S1: Aspose.Page'i diğer .NET kitaplıklarıyla kullanabilir miyim?
+## Sık Sorulan Sorular
 
-Cevap1: Evet, Aspose.Page diğer .NET kitaplıklarıyla sorunsuz bir şekilde bütünleşerek belge işleme için çok yönlü bir ortam sağlar.
+**S: Aspose.Page’i diğer .NET kütüphaneleriyle birlikte kullanabilir miyim?**  
+C: Evet, Aspose.Page diğer .NET bileşenleriyle sorunsuz entegre olur; aynı çözüm içinde PDF, görüntü veya grafik kütüphanelerini birleştirebilirsiniz.
 
-### S2: Özel yazı tipleri bu işlem için gerekli midir?
+**S: Bu süreçte özel yazı tipleri zorunlu mu?**  
+C: Sistem yazı tipleri de çalışır, ancak özel yazı tipleri tam tasarım özgürlüğü sağlar ve marka‑özel tipografi gerektiğinde faydalıdır.
 
-Cevap2: Sistem yazı tiplerini kullanabilseniz de, özel yazı tiplerinin dahil edilmesi daha fazla esneklik ve tasarım seçenekleri sağlar.
+**S: Aspose.Page büyük ölçekli belge işleme için uygun mu?**  
+C: Kesinlikle. Kütüphane yüksek verimlilik senaryoları için optimize edilmiştir ve binlerce PS dosyasını verimli bir şekilde işleyebilir.
 
-### S3: Aspose.Page büyük ölçekli belge işlemeye uygun mudur?
+**S: PS belgesindeki metnin konumunu değiştirebilir miyim?**  
+C: Tabii—`FillText` veya `OutlineText` çağrılarındaki sayısal X/Y değerlerini değiştirmeniz yeterlidir.
 
-A3: Kesinlikle! Aspose.Page, büyük ölçekli belge işlemeyi verimlilik ve güvenilirlikle gerçekleştirmek üzere tasarlanmıştır.
+**S: Aspose.Page‑ile ilgili sorular için nereden destek alabilirim?**  
+C: Topluluk ve uzman yardımı için [Aspose.Page Forum](https://forum.aspose.com/c/page/39) adresini ziyaret edin.
 
-### S4: PS belgesindeki metnin konumunu değiştirebilir miyim?
-
-A4: Kesinlikle! Eklenen metnin konumunu değiştirmek için sağlanan örneklerdeki koordinatları ayarlayın.
-
-### S5: Aspose.Page ile ilgili sorgular için nereden yardım alabilirim?
-
- A5: ziyaret edin[Aspose.Page Forumu](https://forum.aspose.com/c/page/39) toplulukla bağlantı kurmak ve uzman tavsiyesi almak.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-03-21  
+**Test Edilen Versiyon:** Aspose.Page 24.11 for .NET  
+**Yazar:** Aspose
