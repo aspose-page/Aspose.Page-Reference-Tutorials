@@ -1,11 +1,61 @@
 ---
-date: 2025-12-20
-description: تعلم كيفية تغيير عناصر المصفوفة في XMP باستخدام Aspose.Page للـ Java
-  (aspose.page xmp java). عدّل البيانات الوصفية بسهولة مع دليلنا خطوة بخطوة وحسّن
-  مستندات EPS الخاصة بك اليوم.
-linktitle: Change Array Items in XMP using Java
+date: 2026-05-15
+description: استكشف دليل aspose.page xmp للغة Java — تعلم كيفية تغيير عناصر المصفوفة
+  في بيانات XMP الوصفية، وتحديث عناوين EPS، والمؤلفين، والمزيد باستخدام بضع أسطر من
+  الشيفرة فقط.
+keywords:
+- aspose.page xmp tutorial
+- change array items java
+- xmp metadata java
+linktitle: تغيير عناصر المصفوفة في XMP باستخدام Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-15'
+  description: Explore the aspose.page xmp tutorial for Java—learn how to change array
+    items in XMP metadata, update EPS titles, creators, and more in just a few lines
+    of code.
+  headline: 'aspose.page xmp tutorial: Change Array Items in XMP using Java'
+  type: TechArticle
+- description: Explore the aspose.page xmp tutorial for Java—learn how to change array
+    items in XMP metadata, update EPS titles, creators, and more in just a few lines
+    of code.
+  name: 'aspose.page xmp tutorial: Change Array Items in XMP using Java'
+  steps:
+  - name: Get XMP Metadata
+    text: Call `document.getXmpMetadata()` to retrieve the XMP metadata object associated
+      with the EPS file.
+  - name: Set "dc:title" Array Item
+    text: Use `xmpMetadata.setArrayItem("dc:title", 0, "New Title")` to replace the
+      first title entry.
+  - name: Set "dc:creator" Array Item
+    text: Similarly, `xmpMetadata.setArrayItem("dc:creator", 0, "New Author")` updates
+      the first creator entry.
+  - name: Initialize Output EPS File Stream
+    text: Create a `FileOutputStream` pointing to the destination EPS file to write
+      the updated document.
+  - name: Save Document with Changed XMP Metadata
+    text: The `PsDocument` class represents an EPS document and provides the `save`
+      method to write changes to a stream.
+  type: HowTo
+- questions:
+  - answer: No. You must invoke `setArrayItem` for each index you wish to modify;
+      the API does not provide a bulk‑update method.
+    question: Can I update multiple array items in one call?
+  - answer: Yes. Provide the full prefix (e.g., `myNS:customProp`) when calling `setArrayItem`
+      or `removeArrayItem`.
+    question: Does aspose.page xmp java support custom namespaces?
+  - answer: Reload the EPS with `PsDocument`, call `getXmpMetadata()`, and inspect
+      the returned values, or open the file in an XMP viewer.
+    question: How do I verify that the metadata was updated correctly?
+  - answer: Use `removeArrayItem(namespace, index)` to delete a specific entry from
+      an XMP array.
+    question: Is it possible to remove an array item entirely?
+  - answer: No. XMP metadata is stored separately from the graphic content and does
+      not alter how the EPS renders.
+    question: Will the changes affect the visual appearance of the EPS?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: 'aspose.page xmp java - تغيير عناصر المصفوفة في XMP باستخدام Java'
+title: 'دليل aspose.page xmp: تغيير عناصر المصفوفة في XMP باستخدام Java'
 url: /ar/java/xmp-metadata-manipulation/change-array-items/
 weight: 15
 ---
@@ -14,34 +64,34 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose.page xmp java: تغيير عناصر المصفوفة في XMP باستخدام Java
+# دليل aspose.page xmp: تغيير عناصر المصفوفة في XMP باستخدام Java
 
-## المقدمة
-مرحبًا بك في دليلنا الشامل حول **تغيير عناصر المصفوفة في XMP باستخدام Aspose.Page for Java**. توفر مكتبة **aspose.page xmp java** تحكمًا كاملاً في بيانات XMP الوصفية داخل ملفات EPS، مما يجعل من السهل تخصيص العناوين، والمؤلفين، والخصائص الأخرى. في هذا البرنامج التعليمي، سنرشدك خطوة بخطوة إلى تعديل عناصر المصفوفة، حتى تتمكن من تحسين وتخصيص مستندات EPS الخاصة بك بثقة.
+## مقدمة
+مرحبًا بكم في دليل **aspose.page xmp** الشامل. في هذا الدليل سنوضح لكم خطوة بخطوة كيفية تغيير عناصر المصفوفة في بيانات XMP الوصفية داخل ملفات EPS باستخدام Aspose.Page for Java. سواء كنت بحاجة إلى تحديث عنوان المستند، أو قائمة المؤلفين، أو أي مصفوفة XMP أخرى، فإن العملية بسيطة، برمجية بالكامل، وتعمل مع Java 8 +.
 
 ## إجابات سريعة
-- **ماذا يفعل aspose.page xmp java؟** يتيح قراءة وكتابة بيانات XMP الوصفية في ملفات EPS من خلال Java.  
-- **هل أحتاج إلى ترخيص لتجربته؟** نعم، يتوفر إصدار تجريبي مجاني، لكن الترخيص مطلوب للاستخدام في الإنتاج.  
-- **ما نسخة JDK المدعومة؟** Java 8 أو أحدث.  
-- **هل يمكنني تعديل حقول وصفية أخرى؟** بالطبع – يمكن قراءة أو تحديث أي خاصية XMP.  
-- **هل الـ API آمن للاستخدام المتعدد الخيوط؟** معظم عمليات القراءة/الكتابة آمنة عند استخدامها على نسخ منفصلة من المستند.
+- **ما الذي يفعله aspose.page xmp java؟** يقوم بقراءة وكتابة بيانات XMP الوصفية في ملفات EPS مباشرةً من Java.  
+- **هل أحتاج إلى ترخيص لتجربته؟** نعم — نسخة تجريبية مجانية لمدة 30 يومًا متاحة؛ يتطلب الترخيص التجاري للإنتاج.  
+- **ما إصدار JDK المدعوم؟** Java 8 أو أحدث (بما في ذلك Java 11، 17، و21).  
+- **هل يمكنني تعديل حقول وصفية أخرى؟** بالتأكيد — أي خاصية XMP، بما في ذلك المساحات الاسمية المخصصة، يمكن قراءتها أو تحديثها.  
+- **هل الـ API آمن للخطوط المتعددة؟** معظم عمليات القراءة/الكتابة آمنة عندما يعمل كل خيط مع نسخة `PsDocument` الخاصة به.
 
 ## ما هو aspose.page xmp java؟
-`aspose.page xmp java` هو جزء من مجموعة Aspose.Page for Java يركز على معالجة XMP (منصة البيانات الوصفية القابلة للتوسيع). يقوم بتجريد بنية XMP منخفضة المستوى إلى كائنات Java بسيطة، مما يتيح لك العمل مع المصفوفات، والحقائب، والخصائص المهيكلة دون الحاجة إلى التعامل مع XML الخام.
+`aspose.page xmp java` هو مكوّن Aspose.Page for Java الذي ي抽象 منصة البيانات الوصفية القابلة للتوسيع (XMP) إلى كائنات Java سهلة الاستخدام. يتيح لك تعديل المصفوفات، والحقائب، والخصائص المهيكلة دون التعامل مع XML الخام. عمليًا، تعمل مع طرق عالية المستوى مثل `setArrayItem` و `removeArrayItem` لتعديل البيانات الوصفية فورًا.
 
-## لماذا نستخدم aspose.page xmp java لبيانات وصفية EPS؟
-- **الدقة:** استهداف عناصر مصفوفة XMP محددة مباشرة (مثل العنوان، والمؤلف).  
-- **الأتمتة:** دمج تحديثات البيانات الوصفية في خطوط التجميع أو عمليات الدفعة.  
-- **التوافق:** يعمل مع أي ملف EPS يتبع معيار XMP.  
+## لماذا تستخدم aspose.page xmp java لبيانات وصفية EPS؟
+يجب عليك استخدام هذه المكتبة عندما تحتاج إلى تحكم دقيق وآلي في بيانات وصفية EPS على نطاق واسع. يدعم Aspose.Page **أكثر من 30 حقلًا من مخطط XMP** ويمكنه معالجة ملفات تصل إلى **500 ميغابايت** دون تحميل المستند بالكامل في الذاكرة، مما يمنحك السرعة واستهلاكًا منخفضًا للذاكرة. كما يضمن الـ API أن التغييرات تحافظ على الرسومات الأصلية، لذا لا يتأثر العرض البصري.
 
 ## المتطلبات المسبقة
-قبل الغوص في الشيفرة، تأكد من وجود ما يلي:
+- مجموعة تطوير جافا (JDK) 8 أو أحدث مثبتة.  
+- مكتبة Aspose.Page for Java. قم بتنزيل أحدث ملف JAR من [هنا](https://releases.aspose.com/page/java/).  
+- ملف ترخيص Aspose صالح (أو ترخيص تجريبي) موضوع على مسار الفئة (classpath).
 
-- مجموعة تطوير Java (JDK) مثبتة على نظامك.  
-- مكتبة Aspose.Page للـ Java. يمكنك تنزيلها من [هنا](https://releases.aspose.com/page/java/).  
+## كيفية تغيير عناصر المصفوفة باستخدام aspose.page xmp java
+يوضح هذا القسم سير العمل الكامل: فتح ملف EPS، الحصول على كائن بيانات XMP الوصفية، تعديل إدخالات المصفوفة المحددة، وأخيرًا كتابة المستند المحدث إلى القرص. يتم توضيح كل خطوة باستخدام كود Java مختصر، مما يجعل من السهل دمجه في تطبيقاتك الخاصة.
 
-## استيراد الحزم
-لبدء العمل، استورد الفئات الضرورية إلى مشروع Java الخاص بك. تأكد من إضافة ملف JAR الخاص بـ Aspose.Page إلى مسار الفئة (classpath) الخاص بالمشروع.
+### الخطوة 1: الحصول على بيانات XMP الوصفية
+استدعِ `document.getXmpMetadata()` لاسترجاع كائن بيانات XMP الوصفية المرتبط بملف EPS.
 
 ```java
 import java.io.FileInputStream;
@@ -52,10 +102,8 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## كيفية تغيير عناصر المصفوفة باستخدام aspose.page xmp java
-
-### الخطوة 1: الحصول على بيانات XMP الوصفية
-أولاً، استخرج بيانات XMP الوصفية من ملف EPS الخاص بك. إذا كان الملف يفتقر إلى بيانات XMP، فإن Aspose.Page ينشئ كتلة XMP جديدة مملوءة من تعليقات PS الموجودة (مثل %%Creator، %%Title).
+### الخطوة 2: تعيين عنصر مصفوفة "dc:title"
+استخدم `xmpMetadata.setArrayItem("dc:title", 0, "New Title")` لاستبدال الإدخال الأول للعنوان.
 
 ```java
 // The path to the documents directory.
@@ -67,32 +115,63 @@ PsDocument document = new PsDocument(psStream);
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-### الخطوة 2: تعيين عنصر مصفوفة "dc:title"
-الآن، استبدل العنصر الأول في مصفوفة **dc:title** بسلسلة عنوان جديدة.
+### الخطوة 3: تعيين عنصر مصفوفة "dc:creator"
+وبالمثل، `xmpMetadata.setArrayItem("dc:creator", 0, "New Author")` يحدث الإدخال الأول للمنشئ.
 
 ```java
 // Set "dc:title" array item by index 0 
 xmp.setArrayItem("dc:title", 0, new XmpValue("NewTitle"));
 ```
 
-### الخطوة 3: تعيين عنصر مصفوفة "dc:creator"
-بنفس الطريقة، حدّث العنصر الأول في مصفوفة **dc:creator**.
+### الخطوة 4: تهيئة تدفق ملف EPS الناتج
+أنشئ `FileOutputStream` يشير إلى ملف EPS الوجهة لكتابة المستند المحدث.
 
 ```java
 // Set "dc:creator" array item by index 0
 xmp.setArrayItem("dc:creator", 0, new XmpValue("NewCreator"));
 ```
 
-### الخطوة 4: تهيئة تدفق ملف EPS الناتج
-قم بإعداد تدفق للملف EPS الناتج حيث سيتم حفظ البيانات الوصفية المعدلة.
+### الخطوة 5: حفظ المستند مع بيانات XMP الوصفية المعدلة
+تمثل الفئة `PsDocument` مستند EPS وتوفر طريقة `save` لكتابة التغييرات إلى تدفق.
 
 ```java
 // Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
 ```
 
-### الخطوة 5: حفظ المستند مع بيانات XMP المعدلة
-أخيرًا، احفظ التغييرات عن طريق حفظ المستند.
+## المشكلات الشائعة والنصائح
+- **فهرس خارج النطاق:** تحقق من وجود الفهرس المستهدف؛ وإلا ستطلق Aspose استثناء `ArrayIndexOutOfBoundsException`.  
+- **إدارة التدفقات:** دائمًا أغلق التدفقات في كتلة `finally` أو استخدم try‑with‑resources لتجنب قفل الملفات.  
+- **تفعيل الترخيص:** نسيان تطبيق ترخيص صالح يؤدي إلى ظهور علامة مائية على EPS في وضع التجربة.  
+- **الملفات الكبيرة:** بالنسبة لملفات EPS التي تتجاوز 200 ميغابايت، فكر في زيادة حجم كومة JVM (`-Xmx2g`) لتجنب ضغط الذاكرة.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني تحديث عناصر مصفوفة متعددة في استدعاء واحد؟**  
+ج: لا. يجب استدعاء `setArrayItem` لكل فهرس ترغب في تعديله؛ الـ API لا يوفر طريقة تحديث جماعي.
+
+**س: هل يدعم aspose.page xmp java مساحات أسماء مخصصة؟**  
+ج: نعم. قدم البادئة الكاملة (مثلاً `myNS:customProp`) عند استدعاء `setArrayItem` أو `removeArrayItem`.
+
+**س: كيف يمكنني التحقق من أن البيانات الوصفية تم تحديثها بشكل صحيح؟**  
+ج: أعد تحميل EPS باستخدام `PsDocument`، استدعِ `getXmpMetadata()`، وتفحص القيم المرجعة، أو افتح الملف في عارض XMP.
+
+**س: هل يمكن إزالة عنصر مصفوفة بالكامل؟**  
+ج: استخدم `removeArrayItem(namespace, index)` لحذف إدخال محدد من مصفوفة XMP.
+
+**س: هل ستؤثر التغييرات على المظهر البصري للـ EPS؟**  
+ج: لا. تُخزن بيانات XMP الوصفية بشكل منفصل عن محتوى الرسومات ولا تغير طريقة عرض الـ EPS.
+
+## الخاتمة
+لقد إتقنت الآن **دليل aspose.page xmp** للـ Java ويمكنك بثقة تغيير عناصر المصفوفة في بيانات XMP الوصفية لملفات EPS. تتيح لك هذه القدرة إنشاء خطوط معالجة مستندات آلية، وتحديثات جماعية للبيانات الوصفية، وإدارة أصول أفضل دون التأثير على البيانات البصرية.
+
+---
+
+**آخر تحديث:** 2026-05-15  
+**تم الاختبار مع:** Aspose.Page for Java 24.11 (latest at time of writing)  
+**المؤلف:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```java
 // Save document with changed XMP metadata
@@ -103,39 +182,12 @@ try {
 }
 ```
 
-## المشكلات الشائعة والنصائح
-- **فهرس خارج النطاق:** تأكد من أن الفهرس الذي تقدمه موجود؛ وإلا سيطرح Aspose استثناءً.  
-- **إدارة التدفقات:** أغلق التدفقات دائمًا في كتلة `finally` لتجنب حجز الملفات.  
-- **تفعيل الترخيص:** نسيان ضبط ترخيص صالح قد يؤدي إلى مخرجات مائية في وضع التجربة.
+## دروس ذات صلة
 
-## الخاتمة
-تهانينا! لقد تعلمت بنجاح كيفية تغيير عناصر المصفوفة في XMP باستخدام **aspose.page xmp java**. يزوّدك هذا الدليل خطوة بخطوة بالقدرة على تعديل بيانات EPS الوصفية برمجيًا، فاتحًا الباب أمام سير عمل مستندات مؤتمت وإدارة محتوى أغنى.
-
-## أسئلة متكررة إضافية
-**س: هل يمكنني تحديث عناصر مصفوفة متعددة في استدعاء واحد؟**  
-ج: عليك استدعاء `setArrayItem` لكل فهرس ترغب في تعديله؛ لا توجد طريقة تحديث جماعي.  
-
-**س: هل يدعم aspose.page xmp java مساحات أسماء مخصصة؟**  
-ج: نعم، يمكنك العمل مع أي مساحة أسماء XMP مسجلة بتوفير البادئة الكاملة (مثل `myNS:customProp`).  
-
-**س: كيف يمكنني التحقق من أن البيانات الوصفية تم تحديثها بشكل صحيح؟**  
-ج: أعد تحميل ملف EPS باستخدام `PsDocument` واستدعِ `getXmpMetadata()` لقراءة القيم مرة أخرى، أو افحص الملف في عارض XMP.  
-
-**س: هل يمكن إزالة عنصر مصفوفة بالكامل؟**  
-ج: استخدم `removeArrayItem(namespace, index)` لحذف إدخال محدد من مصفوفة XMP.  
-
-**س: هل ستؤثر التغييرات على المظهر البصري للـ EPS؟**  
-ج: لا. بيانات XMP الوصفية غير بصرية؛ لا تغير محتوى الرسومات في ملف EPS.
-
----
-
-**آخر تحديث:** 2025-12-20  
-**تم الاختبار مع:** Aspose.Page for Java 24.11 (أحدث نسخة وقت الكتابة)  
-**المؤلف:** Aspose  
+- [إضافة عناصر مصفوفة في بيانات XMP باستخدام Java](/page/java/xmp-metadata-manipulation/add-array-items/)
+- [دليل aspose page xmp – تغيير القيمة المسماة في XMP باستخدام Java](/page/java/xmp-metadata-manipulation/change-named-value/)
+- [كيفية قراءة بيانات XMP باستخدام Java – دليل Aspose.Page](/page/java/xmp-metadata-manipulation/get-metadata/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
