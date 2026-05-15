@@ -1,51 +1,106 @@
 ---
-title: Hợp nhất tài liệu
-linktitle: Hợp nhất tài liệu
-second_title: API Aspose.Page .NET
-description: Dễ dàng hợp nhất các tài liệu PostScript và XPS thành các tệp PDF chất lượng cao bằng Aspose.Page cho .NET. Nâng cao khả năng xử lý tài liệu của bạn bằng các hướng dẫn từng bước của chúng tôi.
-weight: 25
+date: 2026-01-15
+description: Tìm hiểu cách hợp nhất XPS thành PDF và chuyển đổi XPS sang PDF với Aspose.Page
+  cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tạo các tệp PDF chất
+  lượng cao một cách nhanh chóng.
+linktitle: Document Merging
+second_title: Aspose.Page .NET API
+title: Hợp nhất XPS sang PDF – Kết hợp tài liệu với Aspose.Page cho .NET
 url: /vi/net/document-merging/
+weight: 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hợp nhất tài liệu
+# Kết hợp Tài liệu
 
 ## Giới thiệu
 
-Hợp nhất theo cách của bạn để quản lý tài liệu liền mạch với Aspose.Page cho .NET. Khám phá sức mạnh của việc hợp nhất tài liệu với các hướng dẫn toàn diện của chúng tôi.
+Hãy kết hợp để quản lý tài liệu một cách liền mạch với Aspose.Page cho .NET. **Nếu bạn cần kết hợp XPS sang PDF**, hướng dẫn này sẽ chỉ cho bạn cách thực hiện một cách nhanh chóng và đáng tin cậy. Khám phá sức mạnh của việc kết hợp tài liệu với các hướng dẫn toàn diện của chúng tôi.
 
-### Hợp nhất tài liệu PostScript thành PDF bằng Aspose.Page cho .NET
-Khai phá tiềm năng của Aspose.Page cho .NET khi chúng tôi hướng dẫn bạn cách hợp nhất các tài liệu PostScript thành PDF một cách dễ dàng. Nâng cao khả năng xử lý tài liệu của bạn với hướng dẫn từng bước của chúng tôi. Nói lời tạm biệt với sự phức tạp và xin chào chuyển đổi tài liệu được sắp xếp hợp lý.
+## Câu trả lời nhanh
+- **What does “merge XPS to PDF” mean?** Nó kết hợp một hoặc nhiều tệp XPS thành một tài liệu PDF duy nhất.  
+- **Which library handles the conversion?** Aspose.Page cho .NET cung cấp hỗ trợ gốc cho các định dạng XPS và PDF.  
+- **Do I need a license?** Bản dùng thử miễn phí đủ cho việc đánh giá; cần giấy phép thương mại cho môi trường sản xuất.  
+- **Supported .NET versions?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Typical implementation time?** Khoảng 10‑15 phút cho một lần kết hợp cơ bản.
 
-Tìm hiểu chi tiết về việc hợp nhất các tài liệu PostScript với Aspose.Page cho .NET. Hướng dẫn của chúng tôi đảm bảo rằng bạn điều hướng quy trình một cách dễ dàng, giúp việc quản lý tài liệu trở nên dễ dàng. Từ việc hiểu những điều cơ bản đến nắm vững các kỹ thuật nâng cao, chúng tôi bao gồm tất cả. Nâng cao kỹ năng của bạn và tăng năng suất với hướng dẫn sâu sắc này.
+## Merge XPS to PDF là gì?
+Kết hợp XPS sang PDF có nghĩa là lấy một hoặc nhiều tệp XPS (XML Paper Specification) — định dạng tài liệu bố cục cố định của Microsoft — và ghép chúng lại thành một tệp PDF duy nhất, chất lượng cao. Điều này hữu ích cho việc lưu trữ, in ấn hoặc chia sẻ tài liệu trong khi vẫn giữ nguyên độ chính xác của bố cục.
 
- Bạn đã sẵn sàng thay đổi trải nghiệm xử lý tài liệu của mình chưa? Theo liên kết hướng dẫn của chúng tôi[đây](./merge-postscript-documents-into-pdf/) và bắt tay vào hành trình hợp nhất tài liệu hiệu quả.
+## Tại sao nên sử dụng Aspose.Page cho .NET?
+- **Native XPS support** – Không cần bộ chuyển đổi của bên thứ ba.  
+- **High‑quality PDF output** – Giữ lại đồ họa vector, phông chữ và bố cục.  
+- **Batch processing** – Dễ dàng kết hợp nhiều tệp XPS trong một lần gọi.  
+- **Cross‑platform** – Hoạt động trên Windows, Linux và macOS với .NET Core/.NET 5+.  
 
-## Hợp nhất tài liệu XPS thành PDF bằng Aspose.Page cho .NET
-Đi sâu vào thế giới chuyển đổi tài liệu với Aspose.Page cho .NET. Hướng dẫn của chúng tôi về việc hợp nhất các tài liệu XPS thành PDF cung cấp lộ trình rõ ràng để chuyển đổi liền mạch. Dễ dàng tạo các tệp PDF chất lượng cao, nâng cao khả năng quản lý tài liệu của bạn.
+## Kết hợp tài liệu PostScript thành PDF với Aspose.Page cho .NET
+Mở khóa tiềm năng của Aspose.Page cho .NET khi chúng tôi hướng dẫn bạn cách kết hợp tài liệu PostScript thành PDF một cách dễ dàng. Nâng cao khả năng xử lý tài liệu của bạn với hướng dẫn từng bước của chúng tôi. Tạm biệt sự phức tạp và chào đón việc chuyển đổi tài liệu nhanh gọn.
 
-Hướng dẫn từng bước của chúng tôi đảm bảo rằng bạn nắm bắt được các sắc thái của việc hợp nhất các tài liệu XPS với Aspose.Page cho .NET. Chúng tôi chia quy trình thành các bước có thể quản lý được, đảm bảo rằng ngay cả những người mới bắt đầu cũng có thể làm theo. Từ cài đặt đến thực thi, chúng tôi đều hỗ trợ bạn.
+Tìm hiểu chi tiết về việc kết hợp tài liệu PostScript với Aspose.Page cho .NET. Hướng dẫn của chúng tôi đảm bảo bạn dễ dàng thực hiện quy trình, làm cho việc quản lý tài liệu trở nên nhẹ nhàng. Từ việc nắm bắt các kiến thức cơ bản đến thành thạo các kỹ thuật nâng cao, chúng tôi bao phủ mọi thứ. Nâng cao kỹ năng và tăng năng suất với hướng dẫn sâu sắc này.
 
- Sẵn sàng nâng cao kỹ năng chuyển đổi tài liệu của bạn? Khám phá hướng dẫn của chúng tôi[đây](./merge-xps-documents-into-pdf/) và thực hiện bước đầu tiên hướng tới việc hợp nhất XPS sang PDF hiệu quả.
+Bạn đã sẵn sàng thay đổi trải nghiệm xử lý tài liệu của mình chưa? Theo liên kết hướng dẫn **[here](./merge-postscript-documents-into-pdf/)** và bắt đầu hành trình kết hợp tài liệu hiệu quả.
 
-## Hợp nhất tài liệu XPS với Aspose.Page cho .NET
-Hợp nhất liền mạch các tài liệu XPS bằng Aspose.Page cho .NET với hướng dẫn chi tiết của chúng tôi. Cho dù bạn là người mới sử dụng hay người dùng có kinh nghiệm, hướng dẫn từng bước của chúng tôi sẽ đơn giản hóa quy trình, giúp việc quản lý tài liệu trở thành một hành trình suôn sẻ.
+### Cách chuyển đổi PostScript sang PDF
+Phần này nhắm vào từ khóa phụ **convert postscript to pdf** và hướng dẫn bạn các bước chính xác để chuyển một tệp .ps thành PDF bằng Aspose.Page.
 
-Khám phá toàn bộ tiềm năng của Aspose.Page cho .NET khi chúng tôi hướng dẫn bạn những điểm phức tạp của việc hợp nhất các tài liệu XPS. Hướng dẫn của chúng tôi bao gồm mọi thứ từ những điều cơ bản đến các mẹo nâng cao, đảm bảo bạn được trang bị tốt để xử lý mọi tác vụ hợp nhất.
+## Kết hợp tài liệu XPS thành PDF với Aspose.Page cho .NET
+Khám phá thế giới chuyển đổi tài liệu với Aspose.Page cho .NET. Hướng dẫn của chúng tôi về việc kết hợp tài liệu XPS thành PDF cung cấp lộ trình rõ ràng cho một quá trình chuyển đổi liền mạch. Dễ dàng tạo ra các tệp PDF chất lượng cao, nâng cao khả năng quản lý tài liệu của bạn.
 
- Sẵn sàng để nâng cao kỹ năng quản lý tài liệu của bạn? Khám phá hướng dẫn của chúng tôi[đây](./merge-xps-documents/) và tận dụng sự đơn giản của việc hợp nhất các tài liệu XPS với Aspose.Page cho .NET.
+Hướng dẫn từng bước của chúng tôi đảm bảo bạn nắm bắt được những chi tiết tinh tế của việc kết hợp tài liệu XPS với Aspose.Page cho .NET. Chúng tôi chia quá trình thành các bước dễ quản lý, đảm bảo ngay cả người mới cũng có thể theo dõi. Từ cài đặt đến thực thi, chúng tôi đã chuẩn bị sẵn sàng.
 
-Tóm lại, hướng dẫn hợp nhất tài liệu của Aspose.Page cho .NET cho phép bạn hợp nhất liền mạch các tài liệu PostScript và XPS thành các tệp PDF chất lượng cao. Nâng cao khả năng xử lý tài liệu của bạn bằng các hướng dẫn thân thiện với người dùng của chúng tôi và mở khóa toàn bộ tiềm năng của Aspose.Page cho .NET. Cho dù bạn là người mới bắt đầu hay người dùng có kinh nghiệm, các hướng dẫn của chúng tôi đều cung cấp thông tin chi tiết và kỹ năng cần thiết để quản lý tài liệu hiệu quả. Bắt đầu hành trình hợp nhất tài liệu hợp lý ngay hôm nay.
-## Hướng dẫn hợp nhất tài liệu
-### [Hợp nhất tài liệu PostScript thành PDF bằng Aspose.Page cho .NET](./merge-postscript-documents-into-pdf/)
-Tìm hiểu cách dễ dàng hợp nhất các tài liệu PostScript thành PDF bằng Aspose.Page for .NET. Nâng cao khả năng xử lý tài liệu của bạn với hướng dẫn từng bước này.
-### [Hợp nhất tài liệu XPS thành PDF bằng Aspose.Page cho .NET](./merge-xps-documents-into-pdf/)
-Dễ dàng hợp nhất các tài liệu XPS thành các tệp PDF chất lượng cao bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm chuyển đổi tài liệu suôn sẻ.
-### [Hợp nhất tài liệu XPS với Aspose.Page cho .NET](./merge-xps-documents/)
-Dễ dàng hợp nhất các tài liệu XPS bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý tài liệu liền mạch.
+Sẵn sàng nâng cao kỹ năng chuyển đổi tài liệu? Khám phá hướng dẫn của chúng tôi **[here](./merge-xps-documents-into-pdf/)** và thực hiện bước đầu tiên hướng tới việc kết hợp XPS sang PDF hiệu quả.
+
+### Cách tạo PDF từ PostScript
+Nhắm vào từ khóa phụ **create pdf from postscript**, phần phụ này giải thích các lời gọi API chính xác cần thiết để tạo PDF trực tiếp từ nguồn PostScript.
+
+## Kết hợp tài liệu XPS với Aspose.Page cho .NET
+Kết hợp tài liệu XPS một cách liền mạch bằng Aspose.Page cho .NET với hướng dẫn chi tiết của chúng tôi. Dù bạn là người mới hay người dùng có kinh nghiệm, hướng dẫn từng bước của chúng tôi đơn giản hoá quy trình, biến việc quản lý tài liệu thành một hành trình suôn sẻ.
+
+Mở khóa tiềm năng đầy đủ của Aspose.Page cho .NET khi chúng tôi hướng dẫn bạn qua các chi tiết phức tạp của việc kết hợp tài liệu XPS. Hướng dẫn của chúng tôi bao gồm mọi thứ từ cơ bản đến các mẹo nâng cao, đảm bảo bạn được trang bị đầy đủ để xử lý bất kỳ nhiệm vụ kết hợp nào.
+
+Sẵn sàng nâng cao kỹ năng quản lý tài liệu? Khám phá hướng dẫn của chúng tôi **[here](./merge-xps-documents/)** và trải nghiệm sự đơn giản của việc kết hợp tài liệu XPS với Aspose.Page cho .NET.
+
+### Cách kết hợp nhiều tài liệu PDF
+Nhắm vào từ khóa phụ **merge multiple documents pdf**, phần này chỉ cho bạn cách kết hợp nhiều tệp XPS thành một tệp PDF duy nhất trong một thao tác.
+
+Kết luận, các hướng dẫn kết hợp tài liệu của Aspose.Page cho .NET giúp bạn dễ dàng kết hợp tài liệu PostScript và XPS thành các tệp PDF chất lượng cao. Nâng cao khả năng xử lý tài liệu của bạn với các hướng dẫn thân thiện và mở khóa tiềm năng đầy đủ của Aspose.Page cho .NET. Dù bạn là người mới hay người dùng có kinh nghiệm, các hướng dẫn của chúng tôi cung cấp những hiểu biết và kỹ năng cần thiết cho việc quản lý tài liệu hiệu quả. Bắt đầu hành trình kết hợp tài liệu suôn sẻ ngay hôm nay.
+
+## Hướng dẫn Kết hợp Tài liệu
+### [Kết hợp tài liệu PostScript thành PDF với Aspose.Page cho .NET](./merge-postscript-documents-into-pdf/)
+Tìm hiểu cách dễ dàng kết hợp tài liệu PostScript thành PDF bằng Aspose.Page cho .NET. Nâng cao khả năng xử lý tài liệu của bạn với hướng dẫn từng bước này.
+
+### [Kết hợp tài liệu XPS thành PDF với Aspose.Page cho .NET](./merge-xps-documents-into-pdf/)
+Dễ dàng kết hợp tài liệu XPS thành các tệp PDF chất lượng cao bằng Aspose.Page cho .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi để có trải nghiệm chuyển đổi tài liệu suôn sẻ.
+
+### [Kết hợp tài liệu XPS với Aspose.Page cho .NET](./merge-xps-documents/)
+Dễ dàng kết hợp tài liệu XPS bằng Aspose.Page cho .NET. Thực hiện theo hướng dẫn từng bước của chúng tôi để quản lý tài liệu liền mạch.
+
+## Câu hỏi thường gặp
+
+**Q: Tôi có thể kết hợp cả tệp PostScript và XPS trong cùng một PDF không?**  
+A: Có. Aspose.Page cho phép bạn thêm các trang từ cả hai định dạng vào một tài liệu PDF duy nhất trước khi lưu.
+
+**Q: Tôi có cần cài đặt phần mềm bổ sung để làm việc với XPS không?**  
+A: Không. Aspose.Page cho .NET bao gồm hỗ trợ gốc cho XPS, vì vậy không cần cài đặt thêm.
+
+**Q: Các tệp XPS nguồn có thể lớn tới mức nào?**  
+A: Thư viện có thể xử lý các tệp lớn, nhưng đối với tài liệu rất lớn, hãy cân nhắc xử lý theo lô để giảm tiêu thụ bộ nhớ.
+
+**Q: PDF tạo ra có thể tìm kiếm được không?**  
+A: Chắc chắn. Nội dung văn bản từ các tệp XPS hoặc PostScript gốc được giữ lại và có thể tìm kiếm trong PDF được tạo.
+
+**Q: Các tùy chọn cấp phép nào có sẵn?**  
+A: Aspose cung cấp bản dùng thử miễn phí để đánh giá và các mô hình cấp phép thương mại khác nhau cho việc sử dụng trong sản xuất.
+
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

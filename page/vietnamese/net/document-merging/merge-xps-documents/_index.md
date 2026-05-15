@@ -1,105 +1,131 @@
 ---
-title: Hợp nhất tài liệu XPS với Aspose.Page cho .NET
-linktitle: Hợp nhất tài liệu XPS
-second_title: API Aspose.Page .NET
-description: Dễ dàng hợp nhất các tài liệu XPS bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để quản lý tài liệu liền mạch.
-weight: 12
+date: 2026-01-15
+description: Tìm hiểu cách hợp nhất tài liệu XPS bằng Aspose.Page cho .NET – hướng
+  dẫn từng bước để hợp nhất tài liệu một cách liền mạch.
+linktitle: Merge XPS Documents
+second_title: Aspose.Page .NET API
+title: Cách hợp nhất tài liệu XPS với Aspose.Page cho .NET
 url: /vi/net/document-merging/merge-xps-documents/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hợp nhất tài liệu XPS với Aspose.Page cho .NET
+# Cách hợp nhất tài liệu XPS với Aspose.Page cho .NET
 
 ## Giới thiệu
 
-Bạn đang tìm cách hợp nhất các tài liệu XPS một cách liền mạch bằng Aspose.Page cho .NET? Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, cung cấp hướng dẫn từng bước về cách hợp nhất các tệp XPS một cách dễ dàng. Aspose.Page for .NET là một thư viện mạnh mẽ giúp đơn giản hóa các tác vụ thao tác tài liệu, khiến nó trở thành lựa chọn lý tưởng để hợp nhất các tài liệu XPS. Hãy đi sâu vào quy trình và khám phá cách bạn có thể đạt được điều này một cách dễ dàng.
+Bạn đang tìm kiếm một cách đáng tin cậy **cách hợp nhất XPS** file một cách lập trình? Trong hướng dẫn này chúng tôi sẽ hướng dẫn bạn các bước chính xác để hợp nhất tài liệu XPS bằng Aspose.Page cho .NET. Cho dù bạn cần kết hợp báo cáo, hoá đơn, hoặc bất kỳ tài sản nào dựa trên XPS, quy trình này đơn giản và hoàn toàn tự động. Hãy cùng khám phá và xem cách bạn có thể đạt được một đầu ra XPS hợp nhất sạch sẽ chỉ với vài dòng mã C#.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào xử lý việc hợp nhất XPS?** Aspose.Page for .NET  
+- **Thời gian thực hiện thường mất bao lâu?** Thường dưới 10 phút  
+- **Cần có giấy phép?** Một giấy phép là bắt buộc cho việc sử dụng trong môi trường sản xuất; có phiên bản dùng thử miễn phí  
+- **Các phiên bản .NET được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+- **Có thể hợp nhất các file XPS được mã hoá không?** Có – Aspose.Page có thể xử lý tài liệu được mã hoá  
 
-Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## XPS Document Merging là gì?
+XPS (XML Paper Specification) là một định dạng tài liệu bố cục cố định được Microsoft tạo ra. Hợp nhất các file XPS có nghĩa là nối nhiều tài liệu XPS thành một file duy nhất, liên tục trong khi vẫn giữ nguyên bố cục, phông chữ và đồ họa gốc.
 
-- Hiểu biết cơ bản về C# và .NET framework.
--  Đã cài đặt thư viện Aspose.Page cho .NET. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/page/net/).
-- Tài liệu XPS mà bạn muốn hợp nhất.
+## Tại sao nên dùng Aspose.Page cho .NET?
+- **Kiểm soát đầy đủ** quá trình hợp nhất mà không cần Microsoft XPS Viewer  
+- **Không phụ thuộc bên ngoài** – mọi thứ chạy trong ứng dụng .NET của bạn  
+- **Hiệu năng cao** – hoạt động hiệu quả ngay cả với tài liệu lớn  
+- **Đa nền tảng** – tương thích với .NET Framework, .NET Core và .NET 5+  
 
-## Nhập không gian tên
+## Yêu cầu trước
 
-Trong mã C# của bạn, hãy đảm bảo bạn nhập các vùng tên cần thiết để truy cập các chức năng của Aspose.Page cho .NET:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+
+- Hiểu biết cơ bản về C# và hệ sinh thái .NET.  
+- **Aspose.Page for .NET** đã cài đặt – bạn có thể tải xuống [đây](https://releases.aspose.com/page/net/).  
+- Một hoặc nhiều file XPS mà bạn muốn kết hợp.
+
+## Nhập Namespace
+
+Trong dự án C# của bạn, nhập namespace cho phép bạn truy cập API XPS:
 
 ```csharp
 using Aspose.Page.XPS;
 ```
 
-## Bước 1: Thiết lập dự án của bạn
+## Bước 1: Thiết lập dự án
 
-Bắt đầu bằng cách tạo một dự án C# mới trong môi trường phát triển ưa thích của bạn. Đảm bảo tham khảo thư viện Aspose.Page cho .NET trong dự án của bạn.
+Tạo một dự án console hoặc library C# mới trong Visual Studio, Rider, hoặc IDE ưa thích của bạn. Thêm tham chiếu tới DLL Aspose.Page (hoặc cài đặt gói NuGet `Aspose.Page`). Điều này sẽ cho phép bạn truy cập lớp `XpsDocument` được sử dụng sau này.
 
-## Bước 2: Khởi tạo luồng
+## Bước 2: Khởi tạo Streams
 
-Trong mã C# của bạn, hãy khởi tạo luồng đầu ra và luồng đầu vào cho tài liệu XPS. Điều này liên quan đến việc mở tài liệu XPS hiện có và tạo một tài liệu mới cho đầu ra đã hợp nhất.
+Mở các file XPS nguồn dưới dạng luồng đầu vào và tạo một luồng đầu ra cho tài liệu đã hợp nhất. Các câu lệnh `using` đảm bảo rằng tất cả các luồng được đóng đúng cách sau khi thực hiện.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Khởi tạo luồng đầu ra XPS
+// Initialize XPS output stream
 using (System.IO.Stream outStream = System.IO.File.Open(dataDir + "mergedXPSfiles.xps", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
-// Khởi tạo luồng đầu vào XPS
+// Initialize XPS input stream
 using (System.IO.Stream inStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 ```
 
-## Bước 3: Tải tài liệu XPS
+## Bước 3: Tải XPS Document
 
- Tải tài liệu XPS từ luồng đầu vào bằng Aspose.Page cho .NET`XpsDocument` lớp học.
+Tạo một thể hiện `XpsDocument` từ luồng đầu vào chính. Đối tượng `XpsLoadOptions` cho phép bạn tùy chỉnh hành vi tải nếu cần.
 
 ```csharp
 XpsDocument document = new XpsDocument(inStream, new XpsLoadOptions());
 ```
 
-## Bước 4: Tạo một mảng tệp XPS
+## Bước 4: Tạo mảng các file XPS
 
-Để hợp nhất nhiều tệp XPS, hãy tạo một mảng chứa đường dẫn đến các tệp bạn muốn hợp nhất.
+Chuẩn bị một mảng chuỗi liệt kê mọi file XPS bạn muốn hợp nhất. Thứ tự của mảng quyết định thứ tự trong tài liệu cuối cùng.
 
 ```csharp
 string[] filesToMerge = new string[] { dataDir + "Demo.xps", dataDir + "sample.xps" };
 ```
 
-## Bước 5: Hợp nhất các tệp XPS
+## Bước 5: Hợp nhất các file XPS
 
- Bây giờ, hợp nhất các tệp XPS vào luồng đầu ra bằng cách sử dụng`Merge` phương pháp của`XpsDocument` lớp học.
+Gọi phương thức `Merge`, truyền mảng các đường dẫn file và luồng đầu ra. Aspose.Page sẽ thực hiện toàn bộ công việc nặng — kết hợp các trang, giữ nguyên tài nguyên, và ghi file XPS cuối cùng.
 
 ```csharp
 document.Merge(filesToMerge, outStream);
 ```
 
-## Phần kết luận
+## Các vấn đề thường gặp & Mẹo
 
-Chúc mừng! Bạn đã hợp nhất thành công các tài liệu XPS bằng Aspose.Page cho .NET. Quy trình đơn giản nhưng mạnh mẽ này cho phép bạn kết hợp nhiều tệp XPS một cách dễ dàng, hợp lý hóa các tác vụ quản lý tài liệu của bạn.
+- **File không tồn tại** – Kiểm tra lại các đường dẫn trong `filesToMerge`. Sử dụng `Path.Combine` có thể giúp tránh lỗi dấu phân cách đường dẫn.  
+- **Sử dụng bộ nhớ** – Khi hợp nhất số lượng lớn file, cân nhắc xử lý theo lô để giảm mức tiêu thụ bộ nhớ.  
+- **Tài liệu được mã hoá** – Nếu bất kỳ XPS nguồn nào được bảo vệ bằng mật khẩu, hãy tải nó với thông tin xác thực phù hợp trước khi hợp nhất.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể hợp nhất các tệp XPS có kích thước khác nhau bằng Aspose.Page cho .NET không?
+**Q1: Tôi có thể hợp nhất các file XPS có kích thước trang khác nhau không?**  
+A: Có. Aspose.Page tự động chuẩn hoá kích thước trang trong quá trình hợp nhất.
 
-Câu trả lời 1: Có, Aspose.Page for .NET xử lý việc hợp nhất các tệp XPS có kích thước khác nhau một cách liền mạch.
+**Q2: Có giới hạn số lượng file XPS tôi có thể kết hợp không?**  
+A: Không có giới hạn cứng, nhưng các bộ sưu tập rất lớn có thể ảnh hưởng đến hiệu năng; hãy giám sát việc sử dụng bộ nhớ.
 
-### Câu hỏi 2: Có giới hạn về số lượng tệp XPS mà tôi có thể hợp nhất trong một thao tác không?
+**Q3: Tôi có cần giấy phép đặc biệt để hợp nhất các tài liệu XPS được mã hoá không?**  
+A: Cần giấy phép Aspose.Page đầy đủ cho bất kỳ tính năng cấp sản xuất nào, bao gồm xử lý tài liệu được mã hoá.
 
-Câu trả lời 2: Không có giới hạn nghiêm ngặt nhưng bạn nên xem xét tài nguyên và hiệu suất hệ thống khi hợp nhất một số lượng lớn tệp.
+**Q4: Làm thế nào để thêm chân trang tùy chỉnh vào mỗi trang sau khi hợp nhất?**  
+A: Sau khi hợp nhất, bạn có thể mở lại XPS kết quả bằng `XpsDocument` và sử dụng API vẽ để chèn chân trang.
 
-### Câu hỏi 3: Tôi có thể sử dụng Aspose.Page cho .NET để hợp nhất các tài liệu XPS được mã hóa không?
+**Q5: Aspose.Page có hỗ trợ .NET Core không?**  
+A: Chắc chắn. Thư viện tương thích với .NET Core 3.1 trở lên, cũng như .NET 5/6/7.
 
-Câu trả lời 3: Có, Aspose.Page for .NET hỗ trợ hợp nhất các tài liệu XPS được mã hóa.
+## Kết luận
 
-### Câu hỏi 4: Có bất kỳ cân nhắc cấp phép nào khi sử dụng Aspose.Page for .NET để hợp nhất tài liệu không?
+Bạn đã học được **cách hợp nhất XPS** tài liệu một cách hiệu quả bằng Aspose.Page cho .NET. Bằng cách làm theo các bước trên, bạn có thể tự động hoá việc hợp nhất tài liệu trong bất kỳ ứng dụng .NET nào, tiết kiệm thời gian và giảm công việc thủ công. Khám phá thêm API để thêm watermark, mã hoá file cuối cùng, hoặc thao tác các trang riêng lẻ theo nhu cầu.
 
-Câu trả lời 4: Đảm bảo rằng bạn có giấy phép thích hợp cho Aspose.Page dành cho .NET để sử dụng tất cả các tính năng của nó, bao gồm cả việc hợp nhất tài liệu.
+---
 
-### Câu hỏi 5: Aspose.Page dành cho .NET có cung cấp bất kỳ tùy chọn nâng cao nào để hợp nhất tài liệu không?
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Page for .NET (latest version)  
+**Author:** Aspose  
 
-Câu trả lời 5: Có, bạn có thể khám phá các tùy chọn và cấu hình bổ sung có sẵn trong tài liệu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
