@@ -1,40 +1,47 @@
 ---
-date: 2025-12-08
-description: Scopri come aggiungere motivi a trama ai documenti Java PostScript utilizzando
-  Aspose.Page Java. Questa guida passo‑passo ti mostra come inserire grafiche a trama
-  in modo efficiente.
+date: 2026-02-15
+description: Scopri come aggiungere un motivo a tratteggio ai file PostScript Java
+  usando Aspose.Page Java. Questa guida passo passo mostra il codice completo e i
+  consigli.
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
-title: 'Aspose.Page Java: Aggiungi motivo a tratteggio in PostScript Java'
+title: Come aggiungere un motivo a tratteggio in Java PostScript con Aspose.Page
 url: /it/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
+
+ at top and bottom.
+
+Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungere un motivo a trama in Java PostScript
+# Come aggiungere un hatch pattern in Java PostScript
 
 ## Introduzione
-Se stai lavorando con **Aspose.Page Java** e hai bisogno di arricchire l'output PostScript con grafiche testurizzate, i motivi a trama sono una soluzione rapida e flessibile. In questo tutorial ti mostreremo **come aggiungere motivi a trama** a un documento PostScript, spiegheremo perché sono utili e ti forniremo un esempio di codice completo, pronto‑da‑eseguire. Alla fine, sarai in grado di creare forme e testo riempiti con motivi a trama visivamente accattivanti con poche righe di Java.
+Se stai lavorando con **Aspose.Page Java** e ti chiedi **come aggiungere un hatch pattern** al tuo output PostScript, i hatch pattern sono una soluzione rapida e flessibile. In questo tutorial vedremo **come aggiungere hatch** ai disegni di un documento PostScript, spiegheremo perché sono utili e ti forniremo un esempio di codice completo, pronto all'uso. Alla fine, sarai in grado di creare forme e testo riempiti con hatch visivamente accattivanti con poche righe di Java.
 
 ## Risposte rapide
-- **Quale libreria è necessaria?** Aspose.Page for Java (l'SDK “aspose page java”).  
-- **Quale effetto visivo stiamo aggiungendo?** Motivi a trama (ad es. linee diagonali, reticolato).  
-- **È necessaria una licenza per eseguire il campione?** Una versione di prova gratuita funziona per lo sviluppo; è richiesta una licenza per la produzione.  
+- **Quale libreria è necessaria?** Aspose.Page per Java (l'SDK “aspose page java”).  
+- **Quale effetto visivo aggiungiamo?** Hatch pattern (ad es. linee diagonali, crosshatch).  
+- **È necessaria una licenza per eseguire il campione?** Una versione di prova gratuita è sufficiente per lo sviluppo; è richiesta una licenza per la produzione.  
 - **Quante righe di codice?** Circa 70 righe, suddivise in passaggi chiari.  
 - **Posso usare lo stesso approccio per i PDF?** Sì—Aspose.Page supporta più formati di output, incluso PDF.
+
+## Come aggiungere un hatch pattern – Panoramica
+Gli hatch pattern sono texture vettoriali che si rendono nitide a qualsiasi risoluzione e funzionano bene su stampanti monocromatiche. Con Aspose.Page Java, puoi applicare questi pattern a forme, percorsi e persino al testo senza dover gestire comandi PostScript a basso livello.
 
 ## Prerequisiti
 Prima di iniziare, assicurati di avere:
 
 - **Ambiente di sviluppo Java** – JDK 8 o superiore e un IDE a tua scelta.  
-- **Libreria Aspose.Page for Java** – Scarica l'ultimo JAR dal sito ufficiale [qui](https://releases.aspose.com/page/java/).  
+- **Libreria Aspose.Page per Java** – Scarica l'ultimo JAR dal sito ufficiale [qui](https://releases.aspose.com/page/java/).  
 - **Accesso in scrittura** a una cartella dove verrà salvato il file PostScript generato.
 
-## Importazione dei pacchetti
-Per prima cosa, porta le classi necessarie nel tuo progetto. Queste importazioni ti danno accesso alle primitive di disegno, alla gestione dei colori e all'API Aspose.Page.
+## Importare i pacchetti
+Per prima cosa, importa le classi necessarie nel tuo progetto. Queste importazioni ti danno accesso alle primitive di disegno, alla gestione dei colori e all'API Aspose.Page.
 
 ```java
 import java.awt.BasicStroke;
@@ -50,7 +57,7 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## Passo 1: Impostare i parametri iniziali
-Crea lo stream di output, configura la dimensione della pagina (A4) e definisci alcune variabili di layout che saranno riutilizzate durante il disegno di ogni quadrato riempito a trama.
+Crea lo stream di output, configura la dimensione della pagina (A4) e definisci alcune variabili di layout che verranno riutilizzate durante il disegno di ogni quadrato riempito con hatch.
 
 ```java
 // The path to the documents directory.
@@ -68,30 +75,30 @@ int width = 500;
 int sumX = 0;
 ```
 
-## Passo 2: Salvare lo stato grafico e traslare
-Salvare lo stato grafico ci consente di tornare al sistema di coordinate originale in seguito, mentre `translate` sposta l'origine a un punto di partenza conveniente.
+## Passo 2: Salvare lo stato grafico e tradurre
+Salvare lo stato grafico consente di tornare al sistema di coordinate originale in seguito, mentre `translate` sposta l'origine in un punto di partenza conveniente.
 
 ```java
 document.writeGraphicsSave();
 document.translate(x0, y0);
 ```
 
-## Passo 3: Creare il quadrato per ogni motivo
-Definisci un rettangolo riutilizzabile che rappresenterà ogni cella riempita a trama.
+## Passo 3: Creare il quadrato per ogni pattern
+Definisci un rettangolo riutilizzabile che rappresenterà ogni cella riempita con hatch.
 
 ```java
 Rectangle2D.Float square = new Rectangle2D.Float(0, 0, squareSide, squareSide);
 ```
 
-## Passo 4: Configurare la penna per il contorno del quadrato motivo
+## Passo 4: Configurare la penna per il contorno del quadrato di pattern
 Un `BasicStroke` di 2 punti fornisce un contorno nitido attorno a ogni quadrato.
 
 ```java
 BasicStroke stroke = new BasicStroke(2);
 ```
 
-## Passo 5: Iterare attraverso i motivi a trama
-Scorri tutti i valori dell'enumerazione `HatchStyle`, riempi ogni quadrato con la texture corrispondente e poi disegna il suo contorno. Questo è il cuore della funzionalità di **aggiunta di motivi a trama**.
+## Passo 5: Iterare attraverso gli Hatch Pattern
+Scorri tutti i valori dell'enumerazione `HatchStyle`, riempi ogni quadrato con la texture corrispondente e poi disegna il suo contorno. Questo è il cuore della funzionalità di **aggiunta di hatch pattern**.
 
 ```java
 HatchStyle[] hatchStyles = HatchStyle.values();
@@ -107,8 +114,8 @@ Ritorna al sistema di coordinate originale dopo aver terminato il disegno della 
 document.writeGraphicsRestore();
 ```
 
-## Passo 7: Riempire il testo con un motivo a trama
-Qui dimostriamo come dipingere il testo usando una texture a trama. L'esempio riempie la parola “ABC” con un motivo a croce diagonale.
+## Passo 7: Riempire il testo con Hatch Pattern
+Qui dimostriamo come dipingere il testo usando una texture hatch. L'esempio riempie la parola “ABC” con un pattern a croce diagonale.
 
 ```java
 TexturePaint paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.DiagonalCross, Color.RED, Color.YELLOW);
@@ -116,8 +123,8 @@ Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 320, paint, Color.BLACK, stroke);
 ```
 
-## Passo 8: Contornare il testo con un motivo a trama
-Ora contorniamo lo stesso testo, ma questa volta usando uno stile a trama del 70 % e un tratto più spesso.
+## Passo 8: Contornare il testo con Hatch Pattern
+Ora contorniamo lo stesso testo, ma questa volta usando uno stile hatch al 70 % e un tratto più spesso.
 
 ```java
 paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.Percent70, Color.BLUE, Color.WHITE);
@@ -132,20 +139,20 @@ document.closePage();
 document.save();
 ```
 
-Segui questi passaggi e otterrai un file PostScript che mostra un set completo di motivi a trama applicati sia a forme che a testo—tutto alimentato da **aspose page java**.
+Segui questi passaggi e otterrai un file PostScript che mostra l'intera serie di hatch pattern applicati sia a forme che a testo—tutto alimentato da **aspose page java**.
 
-## Perché utilizzare i motivi a trama con Aspose.Page Java?
-- **Distinzione visiva** – I riempimenti a trama funzionano anche quando le stampanti sono limitate a output monocromatico.  
-- **Prestazioni** – Le texture sono generate al volo, così eviti file immagine di grandi dimensioni.  
-- **Supporto multi‑formato** – Lo stesso codice può generare PDF, EPS o SVG con modifiche minime.
+## Perché usare gli Hatch Pattern con Aspose.Page Java?
+- **Distinzione visiva** – I riempimenti hatch funzionano anche quando le stampanti sono limitate a output monocromatico.  
+- **Prestazioni** – Le texture sono generate al volo, evitando grandi file immagine.  
+- **Supporto cross‑format** – Lo stesso codice può puntare a PDF, EPS o SVG con modifiche minime.
 
 ## Problemi comuni e consigli
-- **Errori nei percorsi file** – Assicurati che `dataDir` termini con il separatore di file appropriato (`/` o `\`).  
-- **Colori non supportati** – Alcuni interpreter PostScript più vecchi potrebbero non gestire certi spazi colore; usa RGB di base per massima compatibilità.  
-- **Avvisi di licenza** – Eseguire ilione senza licenza valida inserirà una filigrana nell'output.
+- **Errori di percorso file** – Assicurati che `dataDir` termini con il separatore di file appropriato (`/` o `\`).  
+- **Colori non supportati** – Alcuni interpreti PostScript più vecchi potrebbero non gestire certi spazi colore; usa RGB di base per massima compatibilità.  
+- **Avvisi di licenza** – Eseguire il campione senza licenza valida inserirà una filigrana nell'output.
 
 ## Conclusione
-Incorporare i motivi a trama può migliorare drasticamente la leggibilità e l'estetica di disegni tecnici, mappe o qualsiasi grafica generata da Java. Con **Aspose.Page Java**, ottieni un'API concisa che astrae i comandi PostScript a basso livello, permettendoti di concentrarti sul design anziché sulle particolarità del formato file.
+L'integrazione degli hatch pattern può migliorare notevolmente la leggibilità e l'estetica di disegni tecnici, mappe o qualsiasi grafica generata da Java. Con **Aspose.Page Java**, ottieni un'API concisa che astrae i comandi PostScript di basso livello, permettendoti di concentrarti sul design anziché sulle particolarità del formato file. Ora sai **come aggiungere un hatch pattern** ai tuoi documenti PostScript—sperimenta con diversi valori di `HatchStyle` per ottenere l'aspetto esatto di cui hai bisogno.
 
 ## Domande frequenti
 
@@ -155,19 +162,25 @@ R: Sì, la libreria è indipendente dal framework e funziona con Spring, Jakarta
 **D: È disponibile una versione di prova per Aspose.Page Java?**  
 R: Assolutamente. Scarica una prova gratuita di 30 giorni [qui](https://releases.aspose.com/).
 
-**D: Come posso ottenere una licenza temporanea per lo sviluppo?**  
+**D: Come ottengo una licenza temporanea per lo sviluppo?**  
 R: Richiedi una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/). Rimuove le filigrane di valutazione.
 
 **D: Dove posso trovare altri tutorial e supporto della community?**  
 R: Visita il forum ufficiale [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) per esempi aggiuntivi e Q&A.
 
 **D: Esiste una documentazione completa per tutte le classi e i metodi?**  
-R: Sì, il riferimento completo dell'API è disponibile [qui](https://reference.aspose.com/page/java/).
+R: Sì, il riferimento API completo è disponibile [qui](https://reference.aspose.com/page/java/).
+
+**D: Posso renderizzare lo stesso hatch pattern in PDF invece di PostScript?**  
+R: Certamente. Cambia `PsSaveOptions` in `PdfSaveOptions` (o l'equivalente) e il resto del codice rimane invariato.
+
+**D: Cosa fare se il file generato è vuoto?**  
+R: Verifica che lo stream di output punti a una directory scrivibile e che `document.save()` sia chiamato dopo tutte le operazioni di disegno.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-08  
-**Testato con:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Ultimo aggiornamento:** 2026-02-15  
+**Testato con:** Aspose.Page per Java 24.12 (ultima versione al momento della scrittura)  
 **Autore:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}

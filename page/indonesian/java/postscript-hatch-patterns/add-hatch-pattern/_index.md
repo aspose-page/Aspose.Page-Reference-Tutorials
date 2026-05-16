@@ -1,11 +1,11 @@
 ---
-date: 2025-12-08
-description: Pelajari cara menambahkan pola hatch ke dokumen Java PostScript menggunakan
-  Aspose.Page Java. Panduan langkah demi langkah ini menunjukkan cara menambahkan
-  grafik pola hatch secara efisien.
+date: 2026-02-15
+description: Pelajari cara menambahkan pola hatch ke file PostScript Java menggunakan
+  Aspose.Page Java. Panduan langkah demi langkah ini menampilkan kode lengkap dan
+  tips.
 linktitle: Add Hatch Pattern in Java PostScript
 second_title: Aspose.Page Java API
-title: 'Aspose.Page Java: Tambahkan Pola Hatch di PostScript Java'
+title: Cara Menambahkan Pola Hatch di Java PostScript dengan Aspose.Page
 url: /id/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
@@ -14,17 +14,20 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Menambahkan Pola Hatch di Java PostScript
+# Cara Menambahkan Pola Hatch di Java PostScript
 
 ## Pendahuluan
-Jika Anda bekerja dengan **Aspose.Page Java** dan perlu memperkaya output PostScript Anda dengan grafik bertekstur, pola hatch merupakan solusi yang cepat dan fleksibel. Pada tutorial ini kami akan menjelaskan **cara menambahkan desain hatch** ke dokumen PostScript, mengapa pola ini berguna, dan memberikan contoh kode lengkap yang siap dijalankan. Pada akhir tutorial, Anda akan dapat membuat bentuk dan teks yang diisi hatch secara visual menarik hanya dengan beberapa baris Java.
+Jika Anda bekerja dengan **Aspose.Page Java** dan bertanya‑tanya **cara menambahkan pola hatch** ke output PostScript Anda, pola hatch merupakan solusi yang cepat dan fleksibel. Pada tutorial ini kami akan menuntun Anda melalui **cara menambahkan hatch** ke dokumen PostScript, menjelaskan mengapa pola ini berguna, dan memberikan contoh kode lengkap yang siap dijalankan. Pada akhir tutorial, Anda akan dapat membuat bentuk dan teks yang diisi pola hatch secara visual menarik hanya dengan beberapa baris Java.
 
 ## Jawaban Cepat
 - **Perpustakaan apa yang saya perlukan?** Aspose.Page untuk Java (SDK “aspose page java”).  
-- **Efek visual apa yang kita tambahkan?** Pola hatch (misalnya garis diagonal, crosshatch).  
-- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi diperlukan untuk produksi.  
+- **Efek visual apa yang ditambahkan?** Pola hatch (misalnya garis diagonal, crosshatch).  
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis cukup untuk pengembangan; lisensi diperlukan untuk produksi.  
 - **Berapa banyak baris kode?** Sekitar 70 baris, dibagi menjadi langkah‑langkah yang jelas.  
 - **Bisakah saya menggunakan pendekatan yang sama untuk PDF?** Ya—Aspose.Page mendukung banyak format output, termasuk PDF.
+
+## Cara Menambahkan Pola Hatch – Gambaran Umum
+Pola hatch adalah tekstur berbasis vektor yang dirender bersih pada resolusi apa pun dan bekerja dengan baik pada printer monokrom. Dengan Aspose.Page Java, Anda dapat menerapkan pola ini pada bentuk, jalur, bahkan teks tanpa harus berurusan dengan perintah PostScript tingkat rendah.
 
 ## Prasyarat
 Sebelum memulai, pastikan Anda memiliki:
@@ -33,7 +36,7 @@ Sebelum memulai, pastikan Anda memiliki:
 - **Perpustakaan Aspose.Page untuk Java** – Unduh JAR terbaru dari situs resmi [di sini](https://releases.aspose.com/page/java/).  
 - **Akses menulis** ke folder tempat file PostScript yang dihasilkan akan disimpan.
 
-## Impor Paket
+## Mengimpor Paket
 Pertama, masukkan kelas‑kelas yang diperlukan ke dalam proyek Anda. Impor ini memberi Anda akses ke primitif menggambar, penanganan warna, dan API Aspose.Page.
 
 ```java
@@ -68,7 +71,7 @@ int width = 500;
 int sumX = 0;
 ```
 
-## Langkah 2: Simpan Status Grafik dan Translasi
+## Langkah 2: Menyimpan Status Grafik dan Mentranslate
 Menyimpan status grafik memungkinkan kita kembali ke sistem koordinat asli nanti, sementara `translate` memindahkan asal ke titik awal yang nyaman.
 
 ```java
@@ -76,22 +79,22 @@ document.writeGraphicsSave();
 document.translate(x0, y0);
 ```
 
-## Langkah 3: Buat Persegi untuk Setiap Pola
+## Langkah 3: Membuat Persegi untuk Setiap Pola
 Definisikan persegi panjang yang dapat digunakan kembali yang akan mewakili setiap sel berisi hatch.
 
 ```java
 Rectangle2D.Float square = new Rectangle2D.Float(0, 0, squareSide, squareSide);
 ```
 
-## Langkah 4: Siapkan Pen untuk Garis Luar Persegi Pola
+## Langkah 4: Menyiapkan Pen untuk Garis Luar Persegi Pola
 `BasicStroke` dengan ketebalan 2 point memberikan garis luar yang tajam di sekitar setiap persegi.
 
 ```java
 BasicStroke stroke = new BasicStroke(2);
 ```
 
-## Langkah 5: Iterasi Melalui Pola Hatch
-Lakukan perulangan pada setiap nilai dalam enum `HatchStyle`, isi setiap kotak dengan tekstur yang bersesuaian, lalu gambar garis luarnya. Inilah inti dari fungsionalitas **menambahkan pola hatch**.
+## Langkah 5: Mengiterasi Pola Hatch
+Loop melalui setiap nilai dalam enum `HatchStyle`, isi setiap persegi dengan tekstur yang bersesuaian, lalu gambar garis luarnya. Inilah inti dari fungsi **menambahkan pola hatch**.
 
 ```java
 HatchStyle[] hatchStyles = HatchStyle.values();
@@ -100,15 +103,15 @@ for (int i = 0; i < hatchStyles.length; i++) {
 }
 ```
 
-## Langkah 6: Pulihkan Status Grafik
+## Langkah 6: Mengembalikan Status Grafik
 Kembali ke sistem koordinat asli setelah selesai menggambar grid persegi.
 
 ```java
 document.writeGraphicsRestore();
 ```
 
-## Langkah 7: Isi Teks dengan Pola Hatch
-Di sini kami menunjukkan cara melukis teks menggunakan tekstur hatch. Contoh mengisi kata “ABC” dengan pola diagonal‑cross.
+## Langkah 7: Mengisi Teks dengan Pola Hatch
+Di sini kami mendemonstrasikan cara melukis teks menggunakan tekstur hatch. Contoh mengisi kata “ABC” dengan pola diagonal‑cross.
 
 ```java
 TexturePaint paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.DiagonalCross, Color.RED, Color.YELLOW);
@@ -116,15 +119,15 @@ Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 320, paint, Color.BLACK, stroke);
 ```
 
-## Langkah 8: Garis Luar Teks dengan Pola Hatch
-Sekarang kami menggambar garis luar pada teks yang sama, namun kali ini menggunakan gaya hatch 70 % dan goresan yang lebih tebal.
+## Langkah 8: Membuat Garis Luar Teks dengan Pola Hatch
+Sekarang kami membuat garis luar teks yang sama, tetapi kali ini menggunakan gaya hatch 70 % dan stroke yang lebih tebal.
 
 ```java
 paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.Percent70, Color.BLUE, Color.WHITE);
 document.outlineText("ABC", font, 200, 420, paint, new BasicStroke(5));
 ```
 
-## Langkah 9: Tutup dan Simpan Dokumen
+## Langkah 9: Menutup dan Menyimpan Dokumen
 Selesaikan halaman, tulis file ke disk, dan bebaskan sumber daya.
 
 ```java
@@ -135,7 +138,7 @@ document.save();
 Ikuti langkah‑langkah ini, dan Anda akan memiliki file PostScript yang menampilkan seluruh set pola hatch yang diterapkan pada bentuk maupun teks—semua didukung oleh **aspose page java**.
 
 ## Mengapa Menggunakan Pola Hatch dengan Aspose.Page Java?
-- **Pembedaan visual** – Isian hatch tetap terlihat meskipun printer terbatas pada output monokrom.  
+- **Pembedaan visual** – Isi hatch tetap terlihat bahkan ketika printer terbatas pada output monokrom.  
 - **Kinerja** – Tekstur dihasilkan secara dinamis, sehingga Anda menghindari file gambar berukuran besar.  
 - **Dukungan lintas format** – Kode yang sama dapat menargetkan PDF, EPS, atau SVG dengan perubahan minimal.
 
@@ -145,29 +148,35 @@ Ikuti langkah‑langkah ini, dan Anda akan memiliki file PostScript yang menampi
 - **Peringatan lisensi** – Menjalankan contoh tanpa lisensi yang valid akan menambahkan watermark pada output.
 
 ## Kesimpulan
-Mengintegrasikan pola hatch dapat secara dramatis meningkatkan keterbacaan dan estetika gambar teknis, peta, atau grafik apa pun yang dihasilkan oleh Java. Dengan **Aspose.Page Java**, Anda mendapatkan API ringkas yang mengabstraksi perintah PostScript tingkat rendah, memungkinkan Anda fokus pada desain daripada detail format file.
+Mengintegrasikan pola hatch dapat secara dramatis meningkatkan keterbacaan dan estetika gambar teknik, peta, atau grafik apa pun yang dihasilkan oleh Java. Dengan **Aspose.Page Java**, Anda mendapatkan API ringkas yang mengabstraksi perintah PostScript tingkat rendah, memungkinkan Anda fokus pada desain daripada detail format file. Sekarang Anda tahu **cara menambahkan pola hatch** ke dokumen PostScript Anda—cobalah nilai `HatchStyle` yang berbeda untuk menciptakan tampilan yang tepat.
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bisakah saya menggunakan Aspose.Page Java dengan kerangka kerja Java lainnya?**  
-J: Ya, perpustakaan ini tidak bergantung pada kerangka kerja dan dapat bekerja dengan Spring, Jakarta EE, Android (terbatas), serta Java SE biasa.
+**T: Bisakah saya menggunakan Aspose.Page Java dengan kerangka kerja Java lain?**  
+J: Ya, perpustakaan ini bersifat agnostik terhadap kerangka kerja dan bekerja dengan Spring, Jakarta EE, Android (terbatas), serta Java SE biasa.
 
 **T: Apakah tersedia versi percobaan untuk Aspose.Page Java?**  
-J: Tentu. Unduh percobaan gratis 30 hari [di sini](https://releases.aspose.com/).
+J: Tentu. Unduh percobaan gratis 30‑hari [di sini](https://releases.aspose.com/).
 
 **T: Bagaimana cara mendapatkan lisensi sementara untuk pengembangan?**  
 J: Minta lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/). Lisensi ini menghilangkan watermark evaluasi.
 
 **T: Di mana saya dapat menemukan lebih banyak tutorial dan dukungan komunitas?**  
-J: Kunjungi forum resmi [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) untuk contoh tambahan dan tanya‑jawab.
+J: Kunjungi forum resmi [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) untuk contoh tambahan dan Q&A.
 
 **T: Apakah ada dokumentasi lengkap untuk semua kelas dan metode?**  
 J: Ya, referensi API lengkap tersedia [di sini](https://reference.aspose.com/page/java/).
 
+**T: Bisakah saya merender pola hatch yang sama ke PDF alih‑alih PostScript?**  
+J: Tentu. Ganti `PsSaveOptions` dengan `PdfSaveOptions` (atau yang setara) dan sisanya tetap sama.
+
+**T: Apa yang harus saya lakukan jika file yang dihasilkan kosong?**  
+J: Pastikan aliran output mengarah ke direktori yang dapat ditulisi dan bahwa `document.save()` dipanggil setelah semua operasi menggambar selesai.
+
 ---
 
-**Terakhir Diperbarui:** 2025-12-08  
-**Diuji Dengan:** Aspose.Page untuk Java 24.12 (versi terbaru pada saat penulisan)  
+**Terakhir Diperbarui:** 2026-02-15  
+**Diuji Dengan:** Aspose.Page untuk Java 24.12 (terbaru pada saat penulisan)  
 **Penulis:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
