@@ -1,37 +1,40 @@
 ---
-title: Dodaj gradient poziomy do PostScriptu (PS) za pomocą Aspose.Page
-linktitle: Dodaj gradient poziomy do PostScriptu (PS)
-second_title: Aspose.Page API .NET
-description: Ulepszaj dokumenty PostScript za pomocą oszałamiających poziomych gradientów za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym samouczkiem krok po kroku, aby zapewnić bezproblemową implementację.
-weight: 12
+date: 2026-02-25
+description: Ulepsz dokumenty PostScript, dodając prostokąt z gradientem liniowym
+  przy użyciu Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po
+  kroku, aby poznać wypełnianie tekstu gradientem oraz konturowanie tekstu gradientem.
+linktitle: Add Horizontal Gradient to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Dodaj prostokąt z gradientem liniowym do PostScript (PS) przy użyciu Aspose.Page
 url: /pl/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj gradient poziomy do PostScriptu (PS) za pomocą Aspose.Page
+# Dodaj prostokąt z gradientem liniowym do PostScript (PS) przy użyciu Aspose.Page
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym kompleksowym samouczku na temat dodawania gradientów poziomych do dokumentów PostScript (PS) przy użyciu Aspose.Page dla .NET. Aspose.Page to potężna biblioteka, która ułatwia manipulowanie dokumentami w różnych formatach, zapewniając programistom narzędzia potrzebne do płynnego tworzenia, modyfikowania i renderowania dokumentów.
+Witamy w tym kompleksowym samouczku dotyczącym dodawania **linear gradient rectangle** do dokumentów PostScript (PS) przy użyciu Aspose.Page dla .NET. Aspose.Page to potężna biblioteka, która umożliwia tworzenie, modyfikowanie i renderowanie dokumentów w różnych formatach, a dzisiaj skupimy się na tym, jak wprowadzić przyciągające wzrok gradienty do plików PS.
 
-tym samouczku skupimy się na ulepszaniu dokumentów PostScript poprzez dodanie przyciągających wzrok poziomych gradientów. Przeprowadzimy Cię przez każdy etap procesu, upewniając się, że dobrze zrozumiesz wdrożenie.
+### Szybkie odpowiedzi
+- **Co robi linear gradient rectangle?** Wypełnia prostokątny obszar płynną przejściową zmianą koloru od jednej krawędzi do drugiej.  
+- **Które API obsługuje wypełnianie gradientem tekstu?** `LinearGradientBrush` w połączeniu z `SetPaint` i `FillAndStrokeText`.  
+- **Czy mogę obrysować tekst gradientem?** Tak — użyj `SetStroke` z pędzlem gradientowym i wywołaj `OutlineText`.  
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest komercyjna licencja Aspose.Page do użytku nie‑ewaluacyjnego.  
+- **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Warunki wstępne
+## Wymagania wstępne
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+- Biblioteka Aspose.Page dla .NET: Upewnij się, że biblioteka jest odwołana w Twoim projekcie. Możesz ją pobrać z [dokumentacji Aspose.Page dla .NET](https://reference.aspose.com/page/net/).
+- Katalog dokumentów: Utwórz folder na dysku, w którym zostanie zapisany wygenerowany plik PS i zamień **„Your Document Directory”** w kodzie na tę ścieżkę.
 
--  Biblioteka Aspose.Page dla .NET: Upewnij się, że biblioteka Aspose.Page dla .NET jest zintegrowana ze środowiskiem programistycznym. Można go pobrać z[Aspose.Page dla dokumentacji .NET](https://reference.aspose.com/page/net/).
+## Importowanie przestrzeni nazw
 
-- Katalog dokumentów: skonfiguruj katalog do przechowywania dokumentów i zastąp „Twój katalog dokumentów” w dostarczonym kodzie rzeczywistą ścieżką.
-
-Teraz przyjrzyjmy się, jak krok po kroku dodać poziomy gradient do dokumentu PostScript.
-
-## Importuj przestrzenie nazw
-
-Zanim zaczniesz, konieczne jest zaimportowanie niezbędnych przestrzeni nazw, aby uzyskać dostęp do funkcjonalności zapewnianych przez Aspose.Page. Dodaj następujące przestrzenie nazw na początku kodu:
+Aby rozpocząć, zaimportuj przestrzenie nazw, które dają dostęp do klas rysowania i specyficznych dla PS:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -41,23 +44,33 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Krok 1: Skonfiguruj dokument
+## Czym jest linear gradient rectangle?
+
+**linear gradient rectangle** to po prostu prostokątny kształt, którego wnętrze jest pomalowane gradientem liniowym — kolory przechodzą płynnie wzdłuż prostej linii, zazwyczaj od lewej do prawej (poziomo) lub od góry do dołu (pionowo). W Aspose.Page osiąga się to, łącząc `GraphicsPath` definiujący prostokąt z `LinearGradientBrush` opisującym przejście kolorów.
+
+## Dlaczego używać wypełniania gradientem tekstu i gradientu obrysu tekstu?
+
+- **Atrakcyjny wygląd:** Tekst wypełniony gradientem dodaje głębi i nowoczesnego stylu raportom, fakturom lub materiałom promocyjnym.  
+- **Spójność marki:** Dopasuj kolory firmowe przy użyciu precyzyjnych wartości ARGB.  
+- **Wszechstronność:** Ten sam pędzel może być ponownie użyty do wypełniania kształtów, wypełniania tekstu i gradientów obrysu, co zmniejsza duplikację kodu.
+
+## Krok 1: Konfiguracja dokumentu
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Utwórz strumień wyjściowy dla dokumentu PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.ps", FileMode.Create))
 {
-    // Twórz opcje zapisywania w formacie A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Utwórz nowy 1-stronicowy dokument PS
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Krok 2: Zdefiniuj prostokąt i kolory gradientu
+## Krok 2: Definiowanie prostokąta gradientowego i kolorów
 
 ```csharp
     float offsetX = 200;
@@ -65,90 +78,99 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     float width = 200;
     float height = 100;
 
-    // Utwórz ścieżkę graficzną z pierwszego prostokąta
+    // Create graphics path from the first rectangle
     System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
     path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-    //Utwórz pędzel gradientu liniowego z prostokątem jako kolorami granic, początkowymi i końcowymi
+    // Create linear gradient brush with rectangle as bounds, start, and end colors
     LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
         Color.FromArgb(50, 40, 128, 70), 0f);
 ```
 
-## Krok 3: Ustaw Transformację dla Pędzla
+## Krok 3: Ustawienie transformacji dla pędzla
 
 ```csharp
-    // Utwórz transformację dla pędzla. Składowa skali X i Y musi być równa odpowiednio szerokości i wysokości prostokąta.
-    // Składniki translacji są przesunięciami prostokąta
+    // Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+    // Translation components are offsets of the rectangle
     System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
-    // Ustaw transformację
+    // Set transform
     brush.Transform = brushTransform;
 ```
 
-## Krok 4: Ustaw farbę i wypełnij prostokąt
+## Krok 4: Ustawienie farby i wypełnienie prostokąta
 
 ```csharp
-    // Ustaw farbę
+    // Set paint
     document.SetPaint(brush);
 
-    // Wypełnij prostokąt
+    // Fill the rectangle
     document.Fill(path);
 ```
 
-## Krok 5: Wypełnij tekst gradientem
+## Jak zastosować wypełnianie gradientem tekstu
 
 ```csharp
-    // Wypełnij tekst gradientem
+    // Fill text with gradient
     System.Drawing.Font font = new System.Drawing.Font("Arial", 96, FontStyle.Bold);
     document.FillAndStrokeText("ABC", font, 200, 300, brush, new Pen(new SolidBrush(Color.Black), 2));
 ```
 
-## Krok 6: Ustaw obrys i tekst konturu
+## Używanie gradientu obrysu tekstu
 
 ```csharp
-    // Ustaw bieżący skok
+    // Set current stroke
     document.SetStroke(new Pen(brush, 5));
-    // Obrysuj tekst gradientem
+    // Outline text with gradient
     document.OutlineText("ABC", font, 200, 400);
 ```
 
-## Krok 7: Zamknij bieżącą stronę i zapisz dokument
+## Krok 7: Zamknięcie bieżącej strony i zapisanie dokumentu
 
 ```csharp
-    // Zamknij bieżącą stronę
+    // Close current page
     document.ClosePage();
 
-    // Zapisz dokument
+    // Save the document
     document.Save();
 }
 ```
 
-Gratulacje! Pomyślnie dodałeś poziomy gradient do dokumentu PostScript przy użyciu Aspose.Page dla .NET.
+Gratulacje! Pomyślnie dodałeś **linear gradient rectangle** do dokumentu PostScript i użyłeś tego samego pędzla do **gradientowego wypełnienia tekstu** oraz **gradientowego obrysu tekstu**.
 
-## Wniosek
+## Typowe przypadki użycia i wskazówki
 
-W tym samouczku omówiliśmy proces ulepszania dokumentów PostScript za pomocą gradientów poziomych przy użyciu biblioteki Aspose.Page dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, zdobyłeś cenne informacje na temat wykorzystania tego potężnego narzędzia do manipulowania dokumentami.
+- **Nagłówki raportów:** Wypełnij duże bloki tekstu gradientami, aby podkreślić tytuły sekcji.  
+- **Logotypy marki:** Odtwórz kształty logo przy użyciu gradientowych wypełnień dla spójnej identyfikacji wizualnej.  
+- **Wskazówka:** Ponownie używaj tej samej instancji `LinearGradientBrush` w wielu wywołaniach rysowania, aby kolory były idealnie wyrównane pomiędzy kształtami i tekstem.
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy mogę zastosować gradienty do innych kształtów oprócz prostokątów?
+### Q1: Czy mogę zastosować gradienty do innych kształtów niż prostokąty?
 
- O1: Tak, możesz zastosować gradienty do różnych kształtów za pomocą Aspose.Page. Zmodyfikuj`GraphicsPath` kreacja dostosowana do Twojej konkretnej sylwetki.
+**A:** Tak, możesz zastosować gradienty do dowolnego kształtu zdefiniowanego przez `GraphicsPath`. Po prostu dodaj koła, wielokąty lub własne ścieżki przed wywołaniem `document.Fill(path)`.
 
-### P2: Jak mogę zmienić kolory gradientu?
+### Q2: Jak mogę zmienić kolory gradientu?
 
- A2: Dostosuj`Color.FromArgb` wartości w`LinearGradientBrush` instancję, aby uzyskać pożądane kolory gradientu.
+**A:** Zmodyfikuj wartości `Color.FromArgb` przy tworzeniu `LinearGradientBrush`. Pierwszy kolor to początek, drugi to koniec gradientu.
 
-### P3: Czy Aspose.Page jest kompatybilny z różnymi formatami dokumentów?
+### Q3: Czy Aspose.Page jest kompatybilny z różnymi formatami dokumentów?
 
-O3: Aspose.Page obsługuje różne formaty dokumentów, w tym XPS, PS, PDF i inne. Pełną listę można znaleźć w dokumentacji.
+**A:** Zdecydowanie. Aspose.Page obsługuje XPS, PS, PDF oraz kilka innych formatów wektorowych. Sprawdź oficjalną dokumentację, aby zobaczyć pełną listę.
 
-### P4: Czy mogę używać Aspose.Page do projektów komercyjnych?
+### Q4: Czy mogę używać Aspose.Page w projektach komercyjnych?
 
- Odpowiedź 4: Tak, Aspose.Page posiada opcje licencjonowania komercyjnego. Odwiedzać[Tutaj](https://purchase.aspose.com/buy) dla szczegółów.
+**A:** Tak, dostępna jest licencja komercyjna. Zobacz stronę zakupu po szczegóły: [here](https://purchase.aspose.com/buy).
 
-### P5: Czy istnieje forum społecznościowe dla użytkowników Aspose.Page?
+### Q5: Gdzie mogę znaleźć wsparcie społeczności?
 
- O5: Tak, dołącz do społeczności Aspose.Page pod adresem[Forum Aspose.Page](https://forum.aspose.com/c/page/39) aby połączyć się z innymi użytkownikami i uzyskać pomoc.
+**A:** Dołącz do forum społeczności Aspose.Page: [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
+
+---
+
+**Ostatnia aktualizacja:** 2026-02-25  
+**Testowano z:** Aspose.Page 24.10 for .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

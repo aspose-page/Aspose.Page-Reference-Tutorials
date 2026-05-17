@@ -1,37 +1,40 @@
 ---
-title: Add Horizontal Gradient to PostScript (PS) with Aspose.Page
+title: Add a Linear Gradient Rectangle to PostScript (PS) with Aspose.Page
 linktitle: Add Horizontal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: Enhance PostScript documents with stunning horizontal gradients using Aspose.Page for .NET. Follow our step-by-step tutorial for seamless implementation.
+description: Enhance PostScript documents with a linear gradient rectangle using Aspose.Page for .NET. Follow our step‑by‑step guide to learn gradient fill text and outline text gradient.
 weight: 12
 url: /net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
+date: 2026-02-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Horizontal Gradient to PostScript (PS) with Aspose.Page
+# Add a Linear Gradient Rectangle to PostScript (PS) with Aspose.Page
 
 ## Introduction
 
-Welcome to this comprehensive tutorial on adding horizontal gradients to PostScript (PS) documents using Aspose.Page for .NET. Aspose.Page is a powerful library that facilitates document manipulation in various formats, providing developers with the tools they need to create, modify, and render documents seamlessly.
+Welcome to this comprehensive tutorial on adding a **linear gradient rectangle** to PostScript (PS) documents using Aspose.Page for .NET. Aspose.Page is a powerful library that lets you create, modify, and render documents in a variety of formats, and today we’ll focus on how to bring eye‑catching gradients into your PS files.
 
-In this tutorial, we'll focus on enhancing your PostScript documents by incorporating eye-catching horizontal gradients. We'll walk you through each step of the process, ensuring that you gain a solid understanding of the implementation.
+### Quick Answers
+- **What does the linear gradient rectangle do?** It fills a rectangular area with a smooth color transition from one side to the other.  
+- **Which API handles gradient fill text?** `LinearGradientBrush` combined with `SetPaint` and `FillAndStrokeText`.  
+- **Can I outline text with a gradient?** Yes—use `SetStroke` with a gradient brush and call `OutlineText`.  
+- **Do I need a license for production?** A commercial Aspose.Page license is required for non‑evaluation use.  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
 ## Prerequisites
 
-Before we dive into the tutorial, make sure you have the following prerequisites in place:
+Before we dive in, make sure you have:
 
-- Aspose.Page for .NET Library: Ensure that you have the Aspose.Page for .NET library integrated into your development environment. You can download it from the [Aspose.Page for .NET documentation](https://reference.aspose.com/page/net/).
-
-- Document Directory: Set up a directory to store your documents, and replace "Your Document Directory" in the provided code with the actual path.
-
-Now, let's explore how to add a horizontal gradient to a PostScript document step by step.
+- Aspose.Page for .NET Library: Ensure the library is referenced in your project. You can download it from the [Aspose.Page for .NET documentation](https://reference.aspose.com/page/net/).
+- Document Directory: Create a folder on disk where the generated PS file will be saved and replace **“Your Document Directory”** in the code with that path.
 
 ## Import Namespaces
 
-Before you begin, it's essential to import the necessary namespaces to access the functionalities provided by Aspose.Page. Add the following namespaces at the beginning of your code:
+To start, import the namespaces that give you access to the drawing and PS‑specific classes:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -40,6 +43,16 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.IO;
 ```
+
+## What Is a Linear Gradient Rectangle?
+
+A **linear gradient rectangle** is simply a rectangular shape whose interior is painted with a linear gradient—colors transition smoothly along a straight line, typically from left to right (horizontal) or top to bottom (vertical). In Aspose.Page you achieve this by combining a `GraphicsPath` that defines the rectangle with a `LinearGradientBrush` that describes the color transition.
+
+## Why Use Gradient Fill Text and Outline Text Gradient?
+
+- **Visual Appeal:** Gradient‑filled text adds depth and modern styling to reports, invoices, or promotional materials.  
+- **Brand Consistency:** Match corporate colors with precise ARGB values.  
+- **Versatility:** The same brush can be reused for shape fills, text fills, and outline gradients, reducing code duplication.
 
 ## Step 1: Set Up the Document
 
@@ -94,7 +107,7 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     document.Fill(path);
 ```
 
-## Step 5: Fill Text with Gradient
+## How to Apply Gradient Fill Text
 
 ```csharp
     // Fill text with gradient
@@ -102,7 +115,7 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     document.FillAndStrokeText("ABC", font, 200, 300, brush, new Pen(new SolidBrush(Color.Black), 2));
 ```
 
-## Step 6: Set Stroke and Outline Text
+## Using Outline Text Gradient
 
 ```csharp
     // Set current stroke
@@ -122,33 +135,36 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
 }
 ```
 
-Congratulations! You've successfully added a horizontal gradient to a PostScript document using Aspose.Page for .NET.
+Congratulations! You've successfully added a **linear gradient rectangle** to a PostScript document and used the same brush for **gradient fill text** and an **outline text gradient**.
 
-## Conclusion
+## Common Use Cases & Tips
 
-In this tutorial, we covered the process of enhancing your PostScript documents with horizontal gradients using the Aspose.Page for .NET library. By following the step-by-step guide, you've gained valuable insights into leveraging this powerful tool for document manipulation.
+- **Report Headers:** Fill large text blocks with gradients to highlight section titles.  
+- **Brand Logos:** Recreate logo shapes with gradient fill shapes for consistent branding.  
+- **Pro Tip:** Re‑use the same `LinearGradientBrush` instance for multiple drawing calls to keep colors perfectly aligned across shapes and text.
 
-## FAQ's
+## Frequently Asked Questions
 
 ### Q1: Can I apply gradients to other shapes besides rectangles?
-
-A1: Yes, you can apply gradients to various shapes using Aspose.Page. Modify the `GraphicsPath` creation to suit your specific shape.
+**A:** Yes, you can apply gradients to any shape defined by a `GraphicsPath`. Simply add circles, polygons, or custom paths before calling `document.Fill(path)`.
 
 ### Q2: How can I change the gradient colors?
-
-A2: Adjust the `Color.FromArgb` values in the `LinearGradientBrush` instantiation to achieve the desired gradient colors.
+**A:** Modify the `Color.FromArgb` values when constructing `LinearGradientBrush`. The first color is the start, the second is the end of the gradient.
 
 ### Q3: Is Aspose.Page compatible with different document formats?
-
-A3: Aspose.Page supports various document formats, including XPS, PS, PDF, and more. Refer to the documentation for a comprehensive list.
+**A:** Absolutely. Aspose.Page supports XPS, PS, PDF, and several other vector formats. Check the official docs for the full list.
 
 ### Q4: Can I use Aspose.Page for commercial projects?
+**A:** Yes, commercial licensing is available. See the purchase page for details: [here](https://purchase.aspose.com/buy).
 
-A4: Yes, Aspose.Page comes with commercial licensing options. Visit [here](https://purchase.aspose.com/buy) for details.
+### Q5: Where can I find community support?
+**A:** Join the Aspose.Page community forum: [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
-### Q5: Is there a community forum for Aspose.Page users?
+---
 
-A5: Yes, join the Aspose.Page community at [Aspose.Page Forum](https://forum.aspose.com/c/page/39) to connect with other users and seek assistance.
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Page 24.10 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

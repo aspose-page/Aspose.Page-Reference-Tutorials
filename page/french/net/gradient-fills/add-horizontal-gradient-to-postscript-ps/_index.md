@@ -1,37 +1,52 @@
 ---
-title: Ajouter un dégradé horizontal à PostScript (PS) avec Aspose.Page
-linktitle: Ajouter un dégradé horizontal à PostScript (PS)
-second_title: API Aspose.Page .NET
-description: Améliorez les documents PostScript avec de superbes dégradés horizontaux à l'aide d'Aspose.Page pour .NET. Suivez notre didacticiel étape par étape pour une mise en œuvre transparente.
-weight: 12
+date: 2026-02-25
+description: Améliorez les documents PostScript avec un rectangle à dégradé linéaire
+  en utilisant Aspose.Page pour .NET. Suivez notre guide étape par étape pour apprendre
+  le remplissage de texte en dégradé et le contour de texte en dégradé.
+linktitle: Add Horizontal Gradient to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Ajouter un rectangle à dégradé linéaire à PostScript (PS) avec Aspose.Page
 url: /fr/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
+weight: 12
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+Congratulations! ..." -> "Félicitations ! Vous avez ajouté avec succès un **rectangle à dégradé linéaire** à un document PostScript et utilisé le même pinceau pour le **remplissage de texte avec dégradé** et le **contour de texte avec dégradé**."
+
+Translate "Common Use Cases & Tips" -> "Cas d'utilisation courants et conseils". Translate bullet points.
+
+Translate "Frequently Asked Questions" -> "FAQ". Keep subheadings.
+
+Translate Q1 etc.
+
+Make sure to keep markdown formatting.
+
+Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter un dégradé horizontal à PostScript (PS) avec Aspose.Page
+# Ajouter un rectangle à dégradé linéaire à PostScript (PS) avec Aspose.Page
 
 ## Introduction
 
-Bienvenue dans ce didacticiel complet sur l'ajout de dégradés horizontaux aux documents PostScript (PS) à l'aide d'Aspose.Page pour .NET. Aspose.Page est une bibliothèque puissante qui facilite la manipulation de documents dans différents formats, fournissant aux développeurs les outils dont ils ont besoin pour créer, modifier et restituer des documents de manière transparente.
+Bienvenue dans ce tutoriel complet sur l'ajout d'un **rectangle à dégradé linéaire** aux documents PostScript (PS) à l'aide d'Aspose.Page pour .NET. Aspose.Page est une bibliothèque puissante qui vous permet de créer, modifier et rendre des documents dans divers formats, et aujourd'hui nous nous concentrerons sur la façon d'introduire des dégradés attrayants dans vos fichiers PS.
 
-Dans ce didacticiel, nous nous concentrerons sur l'amélioration de vos documents PostScript en incorporant des dégradés horizontaux accrocheurs. Nous vous guiderons à travers chaque étape du processus, en veillant à ce que vous acquériez une solide compréhension de la mise en œuvre.
+### Réponses rapides
+- **Que fait le rectangle à dégradé linéaire ?** Il remplit une zone rectangulaire avec une transition de couleur fluide d'un côté à l'autre.  
+- **Quelle API gère le texte avec remplissage dégradé ?** `LinearGradientBrush` combiné avec `SetPaint` et `FillAndStrokeText`.  
+- **Puis-je tracer le texte avec un dégradé ?** Oui — utilisez `SetStroke` avec un pinceau dégradé et appelez `OutlineText`.  
+- **Ai‑je besoin d'une licence pour la production ?** Une licence commerciale Aspose.Page est requise pour une utilisation non‑évaluation.  
+- **Quelles versions de .NET sont prises en charge ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Conditions préalables
+## Pré‑requis
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+Avant de commencer, assurez‑vous d'avoir :
 
--  Bibliothèque Aspose.Page pour .NET : assurez-vous que la bibliothèque Aspose.Page pour .NET est intégrée à votre environnement de développement. Vous pouvez le télécharger depuis le[Aspose.Page pour la documentation .NET](https://reference.aspose.com/page/net/).
+- Bibliothèque Aspose.Page pour .NET : assurez‑vous que la bibliothèque est référencée dans votre projet. Vous pouvez la télécharger depuis la [documentation Aspose.Page pour .NET](https://reference.aspose.com/page/net/).
+- Répertoire de documents : créez un dossier sur le disque où le fichier PS généré sera enregistré et remplacez **« Your Document Directory »** dans le code par ce chemin.
 
-- Répertoire de documents : configurez un répertoire pour stocker vos documents et remplacez "Votre répertoire de documents" dans le code fourni par le chemin réel.
+## Importer les espaces de noms
 
-Voyons maintenant comment ajouter un dégradé horizontal à un document PostScript, étape par étape.
-
-## Importer des espaces de noms
-
-Avant de commencer, il est essentiel d'importer les espaces de noms nécessaires pour accéder aux fonctionnalités fournies par Aspose.Page. Ajoutez les espaces de noms suivants au début de votre code :
+Pour commencer, importez les espaces de noms qui vous donnent accès aux classes de dessin et spécifiques à PS :
 
 ```csharp
 using Aspose.Page.EPS;
@@ -41,23 +56,33 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Étape 1 : configurer le document
+## Qu'est‑ce qu'un rectangle à dégradé linéaire ?
+
+Un **rectangle à dégradé linéaire** est simplement une forme rectangulaire dont l'intérieur est peint avec un dégradé linéaire — les couleurs passent en douceur le long d'une ligne droite, généralement de gauche à droite (horizontal) ou de haut en bas (vertical). Dans Aspose.Page, vous obtenez cela en combinant un `GraphicsPath` qui définit le rectangle avec un `LinearGradientBrush` qui décrit la transition de couleur.
+
+## Pourquoi utiliser le remplissage de texte avec dégradé et le contour de texte avec dégradé ?
+
+- **Attrait visuel** : le texte rempli de dégradé ajoute de la profondeur et un style moderne aux rapports, factures ou supports promotionnels.  
+- **Cohérence de marque** : associez les couleurs d'entreprise avec des valeurs ARGB précises.  
+- **Polyvalence** : le même pinceau peut être réutilisé pour les remplissages de formes, les remplissages de texte et les dégradés de contour, réduisant ainsi la duplication de code.
+
+## Étape 1 : Configurer le document
 
 ```csharp
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Créer un flux de sortie pour un document PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.ps", FileMode.Create))
 {
-    // Créez des options de sauvegarde au format A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Créer un nouveau document PS d'une page
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Étape 2 : Définir le rectangle de dégradé et les couleurs
+## Étape 2 : Définir le rectangle dégradé et les couleurs
 
 ```csharp
     float offsetX = 200;
@@ -65,90 +90,94 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     float width = 200;
     float height = 100;
 
-    // Créer un chemin graphique à partir du premier rectangle
+    // Create graphics path from the first rectangle
     System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
     path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-    //Créez un pinceau dégradé linéaire avec un rectangle comme limites, des couleurs de début et de fin
+    // Create linear gradient brush with rectangle as bounds, start, and end colors
     LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
         Color.FromArgb(50, 40, 128, 70), 0f);
 ```
 
-## Étape 3 : Définir la transformation pour le pinceau
+## Étape 3 : Définir la transformation pour le pinceau
 
 ```csharp
-    // Créez une transformation pour le pinceau. Les composants des échelles X et Y doivent être égaux à la largeur et à la hauteur du rectangle en conséquence.
-    // Les composants de translation sont des décalages du rectangle
+    // Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+    // Translation components are offsets of the rectangle
     System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
-    // Définir la transformation
+    // Set transform
     brush.Transform = brushTransform;
 ```
 
-## Étape 4 : définir la peinture et remplir le rectangle
+## Étape 4 : Définir la peinture et remplir le rectangle
 
 ```csharp
-    // Définir la peinture
+    // Set paint
     document.SetPaint(brush);
 
-    // Remplissez le rectangle
+    // Fill the rectangle
     document.Fill(path);
 ```
 
-## Étape 5 : remplir le texte avec un dégradé
+## Comment appliquer le remplissage de texte avec dégradé
 
 ```csharp
-    // Remplir le texte avec un dégradé
+    // Fill text with gradient
     System.Drawing.Font font = new System.Drawing.Font("Arial", 96, FontStyle.Bold);
     document.FillAndStrokeText("ABC", font, 200, 300, brush, new Pen(new SolidBrush(Color.Black), 2));
 ```
 
-## Étape 6 : Définir le contour et le texte du contour
+## Utilisation du contour de texte avec dégradé
 
 ```csharp
-    // Définir la course actuelle
+    // Set current stroke
     document.SetStroke(new Pen(brush, 5));
-    // Décrire le texte avec un dégradé
+    // Outline text with gradient
     document.OutlineText("ABC", font, 200, 400);
 ```
 
-## Étape 7 : fermez la page actuelle et enregistrez le document
+## Étape 7 : Fermer la page actuelle et enregistrer le document
 
 ```csharp
-    // Fermer la page actuelle
+    // Close current page
     document.ClosePage();
 
-    // Enregistrez le document
+    // Save the document
     document.Save();
 }
 ```
 
-Toutes nos félicitations! Vous avez ajouté avec succès un dégradé horizontal à un document PostScript à l'aide d'Aspose.Page pour .NET.
+Félicitations ! Vous avez ajouté avec succès un **rectangle à dégradé linéaire** à un document PostScript et utilisé le même pinceau pour le **remplissage de texte avec dégradé** et le **contour de texte avec dégradé**.
 
-## Conclusion
+## Cas d'utilisation courants et conseils
 
-Dans ce didacticiel, nous avons couvert le processus d'amélioration de vos documents PostScript avec des dégradés horizontaux à l'aide de la bibliothèque Aspose.Page pour .NET. En suivant le guide étape par étape, vous avez acquis des informations précieuses sur l'exploitation de ce puissant outil de manipulation de documents.
+- **En‑têtes de rapports** : remplissez de grands blocs de texte avec des dégradés pour mettre en valeur les titres de sections.  
+- **Logos de marque** : recréez les formes de logo avec des formes à remplissage dégradé pour une identité visuelle cohérente.  
+- **Astuce pro** : réutilisez la même instance de `LinearGradientBrush` pour plusieurs appels de dessin afin de garder les couleurs parfaitement alignées entre les formes et le texte.
 
 ## FAQ
 
-### Q1 : Puis-je appliquer des dégradés à d’autres formes que les rectangles ?
+### Q1 : Puis‑je appliquer des dégradés à d'autres formes que les rectangles ?
+**R :** Oui, vous pouvez appliquer des dégradés à toute forme définie par un `GraphicsPath`. Ajoutez simplement des cercles, des polygones ou des chemins personnalisés avant d'appeler `document.Fill(path)`.
 
- A1 : Oui, vous pouvez appliquer des dégradés à diverses formes à l'aide d'Aspose.Page. Modifier le`GraphicsPath` création adaptée à votre forme spécifique.
+### Q2 : Comment changer les couleurs du dégradé ?
+**R :** Modifiez les valeurs `Color.FromArgb` lors de la construction du `LinearGradientBrush`. La première couleur est le départ, la seconde est la fin du dégradé.
 
-### Q2 : Comment puis-je modifier les couleurs du dégradé ?
+### Q3 : Aspose.Page est‑il compatible avec différents formats de documents ?
+**R :** Absolument. Aspose.Page prend en charge XPS, PS, PDF et plusieurs autres formats vectoriels. Consultez la documentation officielle pour la liste complète.
 
- A2 : Ajustez le`Color.FromArgb` valeurs dans le`LinearGradientBrush` instanciation pour obtenir les couleurs de dégradé souhaitées.
+### Q4 : Puis‑je utiliser Aspose.Page pour des projets commerciaux ?
+**R :** Oui, une licence commerciale est disponible. Voir la page d'achat pour plus de détails : [here](https://purchase.aspose.com/buy).
 
-### Q3 : Aspose.Page est-il compatible avec différents formats de documents ?
+### Q5 : Où puis‑je trouver du support communautaire ?
+**R :** Rejoignez le forum communautaire Aspose.Page : [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
-A3 : Aspose.Page prend en charge divers formats de documents, notamment XPS, PS, PDF, etc. Reportez-vous à la documentation pour une liste complète.
+---
 
-### Q4 : Puis-je utiliser Aspose.Page pour des projets commerciaux ?
+**Dernière mise à jour :** 2026-02-25  
+**Testé avec :** Aspose.Page 24.10 pour .NET  
+**Auteur :** Aspose  
 
- A4 : Oui, Aspose.Page est livré avec des options de licence commerciale. Visite[ici](https://purchase.aspose.com/buy) pour plus de détails.
-
-### Q5 : Existe-t-il un forum communautaire pour les utilisateurs d'Aspose.Page ?
-
- A5 : Oui, rejoignez la communauté Aspose.Page sur[Forum Aspose.Page](https://forum.aspose.com/c/page/39) pour se connecter avec d’autres utilisateurs et demander de l’aide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

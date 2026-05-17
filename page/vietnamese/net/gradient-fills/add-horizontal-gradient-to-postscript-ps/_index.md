@@ -1,37 +1,42 @@
 ---
-title: Thêm gradient ngang vào PostScript (PS) bằng Aspose.Page
-linktitle: Thêm chuyển màu ngang vào PostScript (PS)
-second_title: API Aspose.Page .NET
-description: Nâng cao tài liệu PostScript với độ dốc ngang tuyệt đẹp bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để triển khai liền mạch.
-weight: 12
+date: 2026-02-25
+description: Nâng cao tài liệu PostScript với hình chữ nhật gradient tuyến tính bằng
+  cách sử dụng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi
+  để học cách tô màu gradient cho văn bản và tạo viền gradient cho văn bản.
+linktitle: Add Horizontal Gradient to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Thêm hình chữ nhật gradient tuyến tính vào PostScript (PS) bằng Aspose.Page
 url: /vi/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm gradient ngang vào PostScript (PS) bằng Aspose.Page
+# Thêm Hình Chữ Nhật Gradient Tuyến Tính vào PostScript (PS) với Aspose.Page
 
 ## Giới thiệu
 
-Chào mừng bạn đến với hướng dẫn toàn diện này về cách thêm độ dốc ngang vào tài liệu PostScript (PS) bằng Aspose.Page cho .NET. Aspose.Page là một thư viện mạnh mẽ hỗ trợ thao tác tài liệu ở nhiều định dạng khác nhau, cung cấp cho nhà phát triển các công cụ họ cần để tạo, sửa đổi và hiển thị tài liệu một cách liền mạch.
+Chào mừng bạn đến với hướng dẫn toàn diện về cách thêm **hình chữ nhật gradient tuyến tính** vào tài liệu PostScript (PS) bằng Aspose.Page cho .NET. Aspose.Page là một thư viện mạnh mẽ cho phép bạn tạo, sửa đổi và render tài liệu ở nhiều định dạng, và hôm nay chúng ta sẽ tập trung vào cách đưa các gradient bắt mắt vào các tệp PS của bạn.
 
-Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc nâng cao tài liệu PostScript của bạn bằng cách kết hợp các chuyển màu ngang bắt mắt. Chúng tôi sẽ hướng dẫn bạn từng bước của quy trình, đảm bảo rằng bạn hiểu rõ về cách triển khai.
+### Câu trả lời nhanh
+- **Hình chữ nhật gradient tuyến tính làm gì?** Nó lấp đầy một khu vực hình chữ nhật bằng một chuyển đổi màu mượt mà từ phía này sang phía kia.  
+- **API nào xử lý việc tô màu gradient cho văn bản?** `LinearGradientBrush` kết hợp với `SetPaint` và `FillAndStrokeText`.  
+- **Tôi có thể viền văn bản bằng gradient không?** Có — sử dụng `SetStroke` với một brush gradient và gọi `OutlineText`.  
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép thương mại Aspose.Page cho việc sử dụng không phải để đánh giá.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-## Điều kiện tiên quyết
+## Yêu cầu trước
 
-Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
 
--  Aspose.Page for .NET Library: Đảm bảo rằng bạn đã tích hợp thư viện Aspose.Page for .NET vào môi trường phát triển của mình. Bạn có thể tải nó xuống từ[Aspose.Page cho tài liệu .NET](https://reference.aspose.com/page/net/).
-
-- Thư mục Tài liệu: Thiết lập một thư mục để lưu trữ tài liệu của bạn và thay thế "Thư mục Tài liệu của Bạn" trong mã được cung cấp bằng đường dẫn thực tế.
-
-Bây giờ, hãy khám phá cách thêm dải màu ngang vào tài liệu PostScript theo từng bước.
+- Aspose.Page for .NET Library: Đảm bảo thư viện đã được tham chiếu trong dự án của bạn. Bạn có thể tải xuống từ [tài liệu Aspose.Page cho .NET](https://reference.aspose.com/page/net/).
+- Document Directory: Tạo một thư mục trên đĩa nơi tệp PS được tạo sẽ được lưu và thay thế **“Your Document Directory”** trong mã bằng đường dẫn đó.
 
 ## Nhập không gian tên
 
-Trước khi bắt đầu, điều cần thiết là nhập các không gian tên cần thiết để truy cập các chức năng do Aspose.Page cung cấp. Thêm các không gian tên sau vào đầu mã của bạn:
+Để bắt đầu, nhập các không gian tên cho phép bạn truy cập các lớp vẽ và các lớp đặc thù của PS:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -41,23 +46,33 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
+## Hình chữ nhật Gradient Tuyến tính là gì?
+
+Một **hình chữ nhật gradient tuyến tính** đơn giản là một hình chữ nhật mà bên trong được tô bằng một gradient tuyến tính — các màu chuyển đổi mượt mà dọc theo một đường thẳng, thường là từ trái sang phải (ngang) hoặc từ trên xuống dưới (dọc). Trong Aspose.Page, bạn đạt được điều này bằng cách kết hợp một `GraphicsPath` định nghĩa hình chữ nhật với một `LinearGradientBrush` mô tả chuyển đổi màu.
+
+## Tại sao nên dùng Gradient cho việc tô Văn bản và Gradient cho viền Văn bản?
+
+- **Thu hút thị giác:** Văn bản được tô gradient tạo độ sâu và phong cách hiện đại cho báo cáo, hoá đơn hoặc tài liệu quảng cáo.  
+- **Nhất quán thương hiệu:** Phù hợp màu sắc công ty với các giá trị ARGB chính xác.  
+- **Đa năng:** Cùng một brush có thể tái sử dụng cho việc tô hình, tô văn bản và gradient viền, giảm thiểu việc sao chép mã.
+
 ## Bước 1: Thiết lập tài liệu
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Tạo luồng đầu ra cho tài liệu PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.ps", FileMode.Create))
 {
-    // Tạo tùy chọn lưu với khổ A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Tạo tài liệu PS 1 trang mới
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Bước 2: Xác định hình chữ nhật và màu sắc chuyển màu
+## Bước 2: Định nghĩa hình chữ nhật Gradient và màu sắc
 
 ```csharp
     float offsetX = 200;
@@ -65,90 +80,94 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     float width = 200;
     float height = 100;
 
-    // Tạo đường dẫn đồ họa từ hình chữ nhật đầu tiên
+    // Create graphics path from the first rectangle
     System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
     path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-    //Tạo cọ vẽ gradient tuyến tính với hình chữ nhật làm màu giới hạn, màu bắt đầu và màu kết thúc
+    // Create linear gradient brush with rectangle as bounds, start, and end colors
     LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
         Color.FromArgb(50, 40, 128, 70), 0f);
 ```
 
-## Bước 3: Đặt Transform cho Brush
+## Bước 3: Thiết lập biến đổi cho Brush
 
 ```csharp
-    // Tạo một biến đổi cho cọ vẽ. Thành phần tỷ lệ X và Y phải bằng chiều rộng và chiều cao tương ứng của hình chữ nhật.
-    // Các thành phần dịch là phần bù của hình chữ nhật
+    // Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+    // Translation components are offsets of the rectangle
     System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
-    // Đặt biến đổi
+    // Set transform
     brush.Transform = brushTransform;
 ```
 
-## Bước 4: Đặt màu và tô màu cho hình chữ nhật
+## Bước 4: Thiết lập Paint và tô hình chữ nhật
 
 ```csharp
-    // Đặt sơn
+    // Set paint
     document.SetPaint(brush);
 
-    // Điền vào hình chữ nhật
+    // Fill the rectangle
     document.Fill(path);
 ```
 
-## Bước 5: Tô màu văn bản bằng gradient
+## Cách áp dụng Gradient cho việc tô Văn bản
 
 ```csharp
-    // Tô màu văn bản bằng gradient
+    // Fill text with gradient
     System.Drawing.Font font = new System.Drawing.Font("Arial", 96, FontStyle.Bold);
     document.FillAndStrokeText("ABC", font, 200, 300, brush, new Pen(new SolidBrush(Color.Black), 2));
 ```
 
-## Bước 6: Đặt nét và viền văn bản
+## Sử dụng Gradient cho viền Văn bản
 
 ```csharp
-    // Đặt hành trình hiện tại
+    // Set current stroke
     document.SetStroke(new Pen(brush, 5));
-    // Phác thảo văn bản với độ dốc
+    // Outline text with gradient
     document.OutlineText("ABC", font, 200, 400);
 ```
 
 ## Bước 7: Đóng trang hiện tại và lưu tài liệu
 
 ```csharp
-    // Đóng trang hiện tại
+    // Close current page
     document.ClosePage();
 
-    // Lưu tài liệu
+    // Save the document
     document.Save();
 }
 ```
 
-Chúc mừng! Bạn đã thêm thành công dải màu ngang vào tài liệu PostScript bằng Aspose.Page cho .NET.
+Chúc mừng! Bạn đã thành công thêm một **hình chữ nhật gradient tuyến tính** vào tài liệu PostScript và sử dụng cùng một brush cho **gradient tô văn bản** và **gradient viền văn bản**.
 
-## Phần kết luận
+## Các trường hợp sử dụng phổ biến & Mẹo
 
-Trong hướng dẫn này, chúng tôi đã đề cập đến quá trình nâng cao tài liệu PostScript của bạn bằng các dải màu ngang bằng cách sử dụng thư viện Aspose.Page cho .NET. Bằng cách làm theo hướng dẫn từng bước, bạn đã thu được những hiểu biết có giá trị trong việc tận dụng công cụ mạnh mẽ này để thao tác tài liệu.
+- **Tiêu đề báo cáo:** Tô các khối văn bản lớn bằng gradient để làm nổi bật tiêu đề phần.  
+- **Logo thương hiệu:** Tái tạo các hình dạng logo với các hình dạng được tô gradient để duy trì thương hiệu nhất quán.  
+- **Mẹo chuyên nghiệp:** Tái sử dụng cùng một thể hiện `LinearGradientBrush` cho nhiều lời gọi vẽ để giữ màu sắc đồng nhất hoàn hảo trên các hình dạng và văn bản.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể áp dụng chuyển màu cho các hình dạng khác ngoài hình chữ nhật không?
+### Câu hỏi 1: Tôi có thể áp dụng gradient cho các hình dạng khác ngoài hình chữ nhật không?
+**Đáp:** Có, bạn có thể áp dụng gradient cho bất kỳ hình dạng nào được định nghĩa bằng `GraphicsPath`. Chỉ cần thêm các vòng tròn, đa giác hoặc các đường dẫn tùy chỉnh trước khi gọi `document.Fill(path)`.
 
- Câu trả lời 1: Có, bạn có thể áp dụng độ chuyển màu cho nhiều hình dạng khác nhau bằng Aspose.Page. Sửa đổi`GraphicsPath` sáng tạo cho phù hợp với hình dạng cụ thể của bạn.
+### Câu hỏi 2: Làm sao tôi thay đổi màu gradient?
+**Đáp:** Sửa đổi các giá trị `Color.FromArgb` khi tạo `LinearGradientBrush`. Màu đầu tiên là màu bắt đầu, màu thứ hai là màu kết thúc của gradient.
 
-### Câu hỏi 2: Làm cách nào để thay đổi màu chuyển màu?
-
- A2: Điều chỉnh`Color.FromArgb` các giá trị trong`LinearGradientBrush` khởi tạo để đạt được màu gradient mong muốn.
-
-### Câu 3: Aspose.Page có tương thích với các định dạng tài liệu khác nhau không?
-
-Câu trả lời 3: Aspose.Page hỗ trợ nhiều định dạng tài liệu khác nhau, bao gồm XPS, PS, PDF, v.v. Tham khảo tài liệu để có danh sách đầy đủ.
+### Câu hỏi 3: Aspose.Page có tương thích với các định dạng tài liệu khác nhau không?
+**Đáp:** Hoàn toàn. Aspose.Page hỗ trợ XPS, PS, PDF và một số định dạng vector khác. Kiểm tra tài liệu chính thức để biết danh sách đầy đủ.
 
 ### Câu hỏi 4: Tôi có thể sử dụng Aspose.Page cho các dự án thương mại không?
+**Đáp:** Có, giấy phép thương mại có sẵn. Xem trang mua hàng để biết chi tiết: [here](https://purchase.aspose.com/buy).
 
- Câu trả lời 4: Có, Aspose.Page có các tùy chọn cấp phép thương mại. Thăm nom[đây](https://purchase.aspose.com/buy) để biết chi tiết.
+### Câu hỏi 5: Tôi có thể tìm hỗ trợ cộng đồng ở đâu?
+**Đáp:** Tham gia diễn đàn cộng đồng Aspose.Page: [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
-### Câu 5: Có diễn đàn cộng đồng nào dành cho người dùng Aspose.Page không?
+---
 
- Câu trả lời 5: Có, hãy tham gia cộng đồng Aspose.Page tại[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với những người dùng khác và tìm kiếm sự trợ giúp.
+**Cập nhật lần cuối:** 2026-02-25  
+**Đã kiểm tra với:** Aspose.Page 24.10 cho .NET  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

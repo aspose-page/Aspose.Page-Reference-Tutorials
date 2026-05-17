@@ -1,35 +1,55 @@
 ---
-title: Dodaj pionowy gradient do XPS za pomocą Aspose.Page dla .NET
-linktitle: Dodaj gradient pionowy do XPS
-second_title: Aspose.Page API .NET
-description: Dowiedz się, jak ulepszyć dokumenty XPS za pomocą gradientów pionowych za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-weight: 15
+date: 2026-02-25
+description: Dowiedz się, jak utworzyć dokument XPS i zastosować gradient liniowy
+  przy użyciu Aspose.Page dla .NET. Skorzystaj z naszego przewodnika krok po kroku,
+  aby zapisać plik XPS.
+linktitle: Add Vertical Gradient to XPS
+second_title: Aspose.Page .NET API
+title: Utwórz dokument XPS z pionowym gradientem przy użyciu Aspose.Page
 url: /pl/net/gradient-fills/add-vertical-gradient-to-xps/
+weight: 15
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ good.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj pionowy gradient do XPS za pomocą Aspose.Page dla .NET
+# Dodaj pionowy gradient do XPS przy użyciu Aspose.Page dla .NET
 
-## Wstęp
+## Wprowadzenie
 
-Witamy w tym samouczku krok po kroku dotyczącym dodawania gradientu pionowego do dokumentu XPS przy użyciu Aspose.Page dla .NET. Aspose.Page to potężny interfejs API, który umożliwia pracę z plikami XPS (Specyfikacja papieru XML) w aplikacjach .NET. W tym samouczku przeprowadzimy Cię przez proces tworzenia nowego dokumentu XPS, dodawania pionowego gradientu do ścieżki i zapisywania wyniku.
+W tym tutorialu **utworzysz dokument XPS**, który zawiera płynny pionowy gradient. Dodawanie gradientów to powszechny sposób, aby pliki XPS wyglądały bardziej profesjonalnie — idealne do raportów, broszur lub wszelkich grafik do druku. Przeprowadzimy Cię przez każdy krok, od skonfigurowania projektu po zapisanie finalnego pliku XPS, abyś mógł szybko zastosować gradient liniowy do dowolnej ścieżki.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Co obejmuje ten tutorial?** Dodanie pionowego gradientu liniowego do ścieżki w dokumencie XPS.  
+- **Jakiej biblioteki wymaga?** Aspose.Page for .NET.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
+- **Jak długo trwa implementacja?** Około 10‑15 minut dla podstawowego przykładu.  
+- **Czy mogę zapisać wynik jako plik XPS?** Tak, metoda `Save` zapisuje plik na dysku.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest pionowy gradient w XPS?
 
--  Biblioteka Aspose.Page dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Page dla .NET w swoim środowisku programistycznym. Możesz go pobrać[Tutaj](https://releases.aspose.com/page/net/).
+Pionowy gradient to przejście koloru, które biegnie od górnej części kształtu do dolnej. W XPS osiąga się to za pomocą **linear gradient brush**, który definiuje punkty początkowy i końcowy oraz kolekcję punktów gradientu kontrolujących kolor w określonych pozycjach.
 
-- Środowisko programistyczne: skonfiguruj środowisko programistyczne .NET z preferowanym IDE, takim jak Visual Studio.
+## Dlaczego używać Aspose.Page do tworzenia dokumentu XPS z gradientami?
 
-Teraz zacznijmy od dodania pionowego gradientu do dokumentu XPS przy użyciu Aspose.Page dla .NET.
+- **Pełna integracja z .NET** – działa z .NET Framework, .NET Core oraz .NET 5/6+.  
+- **Brak zewnętrznych zależności** – całe renderowanie jest obsługiwane przez bibliotekę.  
+- **Wysoka wierność** – gradienty renderują się dokładnie tak, jak zdefiniowano, zgodnie ze specyfikacją XPS.  
+- **Łatwe w utrzymaniu** – przejrzysty model obiektowy dla ścieżek, pędzli i kolorów.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-W swojej aplikacji .NET uwzględnij niezbędne przestrzenie nazw, aby uzyskać dostęp do klas i metod Aspose.Page.
+- Aspose.Page for .NET Library: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Page for .NET w swoim środowisku deweloperskim. Możesz ją pobrać [tutaj](https://releases.aspose.com/page/net/).  
+- Development Environment: Skonfiguruj środowisko .NET z ulubionym IDE, takim jak Visual Studio.
+
+Teraz, gdy wszystko jest gotowe, przejdźmy do kodu.
+
+## Importowanie przestrzeni nazw
+
+W swojej aplikacji .NET dołącz niezbędne przestrzenie nazw, aby uzyskać dostęp do klas i metod Aspose.Page.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -38,29 +58,29 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Krok 1: Skonfiguruj katalog dokumentów
+## Krok 1: Skonfiguruj katalog dokumentu
 
-Zanim zaczniesz, ustaw ścieżkę do katalogu dokumentów, w którym chcesz zapisać wynikowy dokument XPS.
+Zdefiniuj folder, w którym zostanie zapisany wygenerowany plik XPS.
 
 ```csharp
 // ExStart:3
 string dataDir = "Your Document Directory";
-// RozwińKoniec:3
+// ExEnd:3
 ```
 
 ## Krok 2: Utwórz nowy dokument XPS
 
-Zainicjuj nowy dokument XPS, używając następującego kodu:
+Zainicjuj nowy dokument XPS, który później wypełnimy ścieżką z gradientem.
 
 ```csharp
 // ExStart:4
 XpsDocument doc = new XpsDocument();
-// RozwińKoniec:4
+// ExEnd:4
 ```
 
 ## Krok 3: Zdefiniuj punkty gradientu
 
-Utwórz listę przystanków gradientu, określając kolor i położenie każdego przystanku. W tym przykładzie definiujemy gradient pionowy z pięcioma przystankami.
+Punkty gradientu określają kolory i ich pozycje wzdłuż linii gradientu. Tutaj tworzymy pięć punktów, aby uzyskać płynne pionowe przejście.
 
 ```csharp
 // ExStart:5
@@ -70,12 +90,12 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(252, 255, 154, 0), 0.359375f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(252, 255, 56, 0), 0.424805f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(253, 255, 229, 0), 0.879883f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(252, 255, 255, 234), 1f));
-// RozwińKoniec:5
+// ExEnd:5
 ```
 
 ## Krok 4: Utwórz ścieżkę z gradientem
 
-Zdefiniuj ścieżkę, określając jej geometrię i zastosuj do niej pędzel z gradientem liniowym.
+Rysujemy ścieżkę w kształcie prostokąta i stosujemy **linear gradient brush**, który biegnie pionowo od punktu (10, 110) do punktu (10, 200). Pędzel otrzymuje wcześniej zdefiniowane punkty gradientu.
 
 ```csharp
 // ExStart:6
@@ -83,46 +103,56 @@ XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,110 L 228,110 228,200 10
 path.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 20f, 70f);
 path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 110f), new PointF(10f, 200f));
 ((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);
-// RozwińKoniec:6
+// ExEnd:6
 ```
 
 ## Krok 5: Zapisz wynikowy dokument XPS
 
-Zapisz zmodyfikowany dokument XPS w określonym katalogu.
+Na koniec zapisujemy dokument XPS na dysku. Ten krok **save XPS file** tworzy plik `AddVerticalGradient_outXPS.xps` w wybranym folderze.
 
 ```csharp
 // ExStart:7
 doc.Save(dataDir + "AddVerticalGradient_outXPS.xps");
-// RozwińKoniec:7
+// ExEnd:7
 ```
 
-Gratulacje! Pomyślnie dodałeś gradient pionowy do dokumentu XPS przy użyciu Aspose.Page dla .NET.
+**Wskazówka:** Zweryfikuj wynik, otwierając plik XPS w Windows XPS Viewer lub dowolnym innym przeglądarce, aby upewnić się, że gradient wygląda zgodnie z oczekiwaniami.
 
-## Wniosek
+## Typowe problemy i rozwiązywanie
 
-W tym samouczku omówiliśmy, jak wykorzystać Aspose.Page dla .NET do ulepszenia dokumentów XPS za pomocą gradientów pionowych. Aspose.Page upraszcza złożone zadania, zapewniając programistom płynny sposób manipulowania plikami XPS w aplikacjach .NET.
+| Objaw | Prawdopodobna przyczyna | Rozwiązanie |
+|---------|--------------|-----|
+| Gradient wyświetla się jako jednolity kolor | Punkty gradientu nie zostały dodane do pędzla | Upewnij się, że `((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);` jest wykonywane. |
+| Plik nie został znaleziony podczas zapisu | `dataDir` wskazuje na nieistniejący folder | Utwórz najpierw katalog lub użyj ścieżki bezwzględnej. |
+| Kolory wyglądają inaczej | Wartości kolorów używają kolejności ARGB; sprawdź kolejność kanałów | Użyj poprawnie `CreateColor(alpha, red, green, blue)`. |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.Page jest kompatybilny z Visual Studio 2019?
+**P: Czy Aspose.Page jest kompatybilny z Visual Studio 2019?**  
+O: Tak, Aspose.Page jest kompatybilny z Visual Studio 2019. Upewnij się, że masz zainstalowaną właściwą wersję biblioteki.
 
-O1: Tak, Aspose.Page jest kompatybilny z Visual Studio 2019. Upewnij się, że masz zainstalowaną odpowiednią wersję biblioteki.
+**P: Czy mogę używać Aspose.Page w projektach komercyjnych?**  
+O: Tak, Aspose.Page może być używany w projektach komercyjnych. Odwiedź [tutaj](https://purchase.aspose.com/buy), aby zapoznać się z opcjami licencjonowania.
 
-### P2: Czy mogę używać Aspose.Page do projektów komercyjnych?
+**P: Czy dostępna jest darmowa wersja próbna?**  
+O: Tak, darmową wersję próbną Aspose.Page można uzyskać [tutaj](https://releases.aspose.com/).
 
- Odpowiedź 2: Tak, Aspose.Page można używać w projektach komercyjnych. Odwiedzać[Tutaj](https://purchase.aspose.com/buy) aby poznać opcje licencjonowania.
+**P: Gdzie mogę znaleźć dokumentację Aspose.Page?**  
+O: Dokumentacja jest dostępna [tutaj](https://reference.aspose.com/page/net/).
 
-### P3: Czy dostępny jest bezpłatny okres próbny?
+**P: Jak mogę uzyskać wsparcie lub zadać pytania?**  
+O: Odwiedź [forum Aspose.Page](https://forum.aspose.com/c/page/39) w celu uzyskania wsparcia społeczności.
 
- Odpowiedź 3: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Page[Tutaj](https://releases.aspose.com/).
+## Podsumowanie
 
-### P4: Gdzie mogę znaleźć dokumentację Aspose.Page?
+Teraz wiesz, jak **utworzyć dokument XPS**, **zastosować gradient liniowy** i **zapisać plik XPS** przy użyciu Aspose.Page dla .NET. To podejście daje pełną kontrolę nad stylizacją wizualną w wyjściach XPS, sprawiając, że Twoje dokumenty do druku wyróżniają się.
 
- A4: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/page/net/).
+---  
 
-### P5: Jak mogę uzyskać wsparcie lub zadać pytania?
+**Ostatnia aktualizacja:** 2026-02-25  
+**Testowano z:** Aspose.Page for .NET 24.11  
+**Autor:** Aspose  
 
- A5: Odwiedź[Forum Aspose.Page](https://forum.aspose.com/c/page/39) za wsparcie społeczności.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

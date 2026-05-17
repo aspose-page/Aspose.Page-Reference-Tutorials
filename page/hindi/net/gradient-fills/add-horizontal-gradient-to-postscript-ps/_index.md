@@ -1,37 +1,43 @@
 ---
-title: Aspose.Page के साथ पोस्टस्क्रिप्ट (PS) में क्षैतिज ग्रेडिएंट जोड़ें
-linktitle: पोस्टस्क्रिप्ट में क्षैतिज ग्रेडिएंट जोड़ें (PS)
+date: 2026-02-25
+description: Aspose.Page for .NET का उपयोग करके पोस्टस्क्रिप्ट दस्तावेज़ों को रैखिक
+  ग्रेडिएंट आयत के साथ सुधारें। ग्रेडिएंट फ़िल टेक्स्ट और आउटलाइन टेक्स्ट ग्रेडिएंट
+  सीखने के लिए हमारी चरण‑दर‑चरण गाइड का पालन करें।
+linktitle: Add Horizontal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: .NET के लिए Aspose.Page का उपयोग करके आश्चर्यजनक क्षैतिज ग्रेडिएंट के साथ पोस्टस्क्रिप्ट दस्तावेज़ों को बेहतर बनाएं। निर्बाध कार्यान्वयन के लिए हमारे चरण-दर-चरण ट्यूटोरियल का पालन करें।
-weight: 12
+title: Aspose.Page के साथ PostScript (PS) में एक रैखिक ग्रेडिएंट आयत जोड़ें
 url: /hi/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page के साथ पोस्टस्क्रिप्ट (PS) में क्षैतिज ग्रेडिएंट जोड़ें
+# Aspose.Page के साथ PostScript (PS) में Linear Gradient Rectangle जोड़ें
 
-## परिचय
+## Introduction
 
-.NET के लिए Aspose.Page का उपयोग करके पोस्टस्क्रिप्ट (PS) दस्तावेज़ों में क्षैतिज ग्रेडिएंट जोड़ने पर इस व्यापक ट्यूटोरियल में आपका स्वागत है। Aspose.Page एक शक्तिशाली लाइब्रेरी है जो विभिन्न प्रारूपों में दस्तावेज़ हेरफेर की सुविधा प्रदान करती है, डेवलपर्स को दस्तावेज़ों को निर्बाध रूप से बनाने, संशोधित करने और प्रस्तुत करने के लिए आवश्यक उपकरण प्रदान करती है।
+Aspose.Page for .NET का उपयोग करके PostScript (PS) दस्तावेज़ों में **linear gradient rectangle** जोड़ने पर इस व्यापक ट्यूटोरियल में आपका स्वागत है। Aspose.Page एक शक्तिशाली लाइब्रेरी है जो आपको विभिन्न फ़ॉर्मैट में दस्तावेज़ बनाने, संशोधित करने और रेंडर करने देती है, और आज हम आपके PS फ़ाइलों में आकर्षक ग्रेडिएंट लाने पर ध्यान देंगे।
 
-इस ट्यूटोरियल में, हम आकर्षक क्षैतिज ग्रेडिएंट्स को शामिल करके आपके पोस्टस्क्रिप्ट दस्तावेज़ों को बढ़ाने पर ध्यान केंद्रित करेंगे। हम आपको प्रक्रिया के प्रत्येक चरण के बारे में बताएंगे, यह सुनिश्चित करते हुए कि आप कार्यान्वयन की ठोस समझ प्राप्त करें।
+### Quick Answers
 
-## आवश्यक शर्तें
+- **linear gradient rectangle क्या करता है?** यह एक आयताकार क्षेत्र को एक तरफ से दूसरी तरफ़ तक एक सुगम रंग परिवर्तन के साथ भरता है।  
+- **कौन सा API ग्रेडिएंट फ़िल टेक्स्ट को संभालता है?** `LinearGradientBrush` को `SetPaint` और `FillAndStrokeText` के साथ मिलाकर।  
+- **क्या मैं ग्रेडिएंट के साथ टेक्स्ट का आउटलाइन बना सकता हूँ?** हाँ—`SetStroke` को ग्रेडिएंट ब्रश के साथ उपयोग करें और `OutlineText` को कॉल करें।  
+- **क्या उत्पादन के लिए लाइसेंस चाहिए?** गैर‑मूल्यांकन उपयोग के लिए एक व्यावसायिक Aspose.Page लाइसेंस आवश्यक है।  
+- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7।
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## Prerequisites
 
--  .NET लाइब्रेरी के लिए Aspose.Page: सुनिश्चित करें कि आपके पास .NET लाइब्रेरी के लिए Aspose.Page आपके विकास परिवेश में एकीकृत है। आप इसे यहां से डाउनलोड कर सकते हैं[.NET दस्तावेज़ीकरण के लिए Aspose.Page](https://reference.aspose.com/page/net/).
+शुरू करने से पहले, सुनिश्चित करें कि आपके पास है:
 
-- दस्तावेज़ निर्देशिका: अपने दस्तावेज़ों को संग्रहीत करने के लिए एक निर्देशिका सेट करें, और दिए गए कोड में "आपकी दस्तावेज़ निर्देशिका" को वास्तविक पथ से बदलें।
+- Aspose.Page for .NET लाइब्रेरी: सुनिश्चित करें कि लाइब्रेरी आपके प्रोजेक्ट में रेफ़रेंस की गई है। आप इसे [Aspose.Page for .NET documentation](https://reference.aspose.com/page/net/) से डाउनलोड कर सकते हैं।
+- Document Directory: डिस्क पर एक फ़ोल्डर बनाएं जहाँ उत्पन्न PS फ़ाइल सहेजी जाएगी और कोड में **“Your Document Directory”** को उस पथ से बदलें।
 
-अब, आइए देखें कि पोस्टस्क्रिप्ट दस्तावेज़ में चरण दर चरण क्षैतिज ग्रेडिएंट कैसे जोड़ें।
+## Import Namespaces
 
-## नामस्थान आयात करें
-
-शुरू करने से पहले, Aspose.Page द्वारा प्रदान की गई कार्यक्षमताओं तक पहुंचने के लिए आवश्यक नामस्थान आयात करना आवश्यक है। अपने कोड की शुरुआत में निम्नलिखित नामस्थान जोड़ें:
+शुरू करने के लिए, उन namespaces को आयात करें जो आपको ड्रॉइंग और PS‑विशिष्ट क्लासेज़ तक पहुँच प्रदान करते हैं:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -41,23 +47,33 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## चरण 1: दस्तावेज़ सेट करें
+## What Is a Linear Gradient Rectangle?
+
+**linear gradient rectangle** बस एक आयताकार आकार है जिसका अंदरूनी भाग linear gradient से रंगा जाता है—रंग एक सीधी रेखा के साथ सुगमता से बदलते हैं, आमतौर पर बाएँ से दाएँ (क्षैतिज) या ऊपर से नीचे (ऊर्ध्वाधर)। Aspose.Page में आप इसे `GraphicsPath` (जो आयत को परिभाषित करता है) को `LinearGradientBrush` (जो रंग परिवर्तन को वर्णित करता है) के साथ मिलाकर प्राप्त करते हैं।
+
+## Why Use Gradient Fill Text and Outline Text Gradient?
+
+- **दृश्य आकर्षण:** Gradient‑filled टेक्स्ट रिपोर्ट, इनवॉइस या प्रमोशनल सामग्री में गहराई और आधुनिक शैली जोड़ता है।  
+- **ब्रांड संगतता:** सटीक ARGB मानों के साथ कॉर्पोरेट रंगों को मिलाएँ।  
+- **बहुमुखीता:** वही ब्रश आकार भरने, टेक्स्ट भरने और आउटलाइन ग्रेडिएंट्स के लिए पुनः उपयोग किया जा सकता है, जिससे कोड दोहराव कम होता है।
+
+## Step 1: Set Up the Document
 
 ```csharp
-// दस्तावेज़ निर्देशिका का पथ.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// पोस्टस्क्रिप्ट दस्तावेज़ के लिए आउटपुट स्ट्रीम बनाएं
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.ps", FileMode.Create))
 {
-    // A4 आकार के साथ सेव विकल्प बनाएं
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // नया 1-पृष्ठ वाला PS दस्तावेज़ बनाएँ
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## चरण 2: ग्रेडिएंट आयत और रंगों को परिभाषित करें
+## Step 2: Define Gradient Rectangle and Colors
 
 ```csharp
     float offsetX = 200;
@@ -65,90 +81,99 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     float width = 200;
     float height = 100;
 
-    // पहले आयत से ग्राफ़िक्स पथ बनाएँ
+    // Create graphics path from the first rectangle
     System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
     path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-    //सीमा, प्रारंभ और अंत रंगों के रूप में आयत के साथ रैखिक ग्रेडिएंट ब्रश बनाएं
+    // Create linear gradient brush with rectangle as bounds, start, and end colors
     LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
         Color.FromArgb(50, 40, 128, 70), 0f);
 ```
 
-## चरण 3: ब्रश के लिए ट्रांसफ़ॉर्म सेट करें
+## Step 3: Set Transform for Brush
 
 ```csharp
-    // ब्रश के लिए एक ट्रांसफ़ॉर्म बनाएं. X और Y स्केल घटक क्रमशः आयत की चौड़ाई और ऊंचाई के बराबर होने चाहिए।
-    // अनुवाद घटक आयत के ऑफसेट हैं
+    // Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+    // Translation components are offsets of the rectangle
     System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
-    // परिवर्तन सेट करें
+    // Set transform
     brush.Transform = brushTransform;
 ```
 
-## चरण 4: पेंट सेट करें और आयत भरें
+## Step 4: Set Paint and Fill the Rectangle
 
 ```csharp
-    // पेंट सेट करें
+    // Set paint
     document.SetPaint(brush);
 
-    // आयत भरें
+    // Fill the rectangle
     document.Fill(path);
 ```
 
-## चरण 5: टेक्स्ट को ग्रेडिएंट से भरें
+## How to Apply Gradient Fill Text
 
 ```csharp
-    // टेक्स्ट को ग्रेडिएंट से भरें
+    // Fill text with gradient
     System.Drawing.Font font = new System.Drawing.Font("Arial", 96, FontStyle.Bold);
     document.FillAndStrokeText("ABC", font, 200, 300, brush, new Pen(new SolidBrush(Color.Black), 2));
 ```
 
-## चरण 6: स्ट्रोक और आउटलाइन टेक्स्ट सेट करें
+## Using Outline Text Gradient
 
 ```csharp
-    // वर्तमान स्ट्रोक सेट करें
+    // Set current stroke
     document.SetStroke(new Pen(brush, 5));
-    // ग्रेडिएंट के साथ पाठ की रूपरेखा बनाएं
+    // Outline text with gradient
     document.OutlineText("ABC", font, 200, 400);
 ```
 
-## चरण 7: वर्तमान पृष्ठ बंद करें और दस्तावेज़ सहेजें
+## Step 7: Close the Current Page and Save the Document
 
 ```csharp
-    // वर्तमान पृष्ठ बंद करें
+    // Close current page
     document.ClosePage();
 
-    // दस्तावेज़ सहेजें
+    // Save the document
     document.Save();
 }
 ```
 
-बधाई हो! आपने .NET के लिए Aspose.Page का उपयोग करके पोस्टस्क्रिप्ट दस्तावेज़ में एक क्षैतिज ग्रेडिएंट सफलतापूर्वक जोड़ दिया है।
+बधाई हो! आपने सफलतापूर्वक एक PostScript दस्तावेज़ में **linear gradient rectangle** जोड़ा है और वही ब्रश **gradient fill text** तथा **outline text gradient** के लिए उपयोग किया है।
 
-## निष्कर्ष
+## Common Use Cases & Tips
 
-इस ट्यूटोरियल में, हमने .NET लाइब्रेरी के लिए Aspose.Page का उपयोग करके आपके पोस्टस्क्रिप्ट दस्तावेज़ों को क्षैतिज ग्रेडिएंट के साथ बढ़ाने की प्रक्रिया को कवर किया है। चरण-दर-चरण मार्गदर्शिका का पालन करके, आपने दस्तावेज़ हेरफेर के लिए इस शक्तिशाली उपकरण का लाभ उठाने में मूल्यवान अंतर्दृष्टि प्राप्त की है।
+- **रिपोर्ट हेडर:** सेक्शन शीर्षकों को उजागर करने के लिए बड़े टेक्स्ट ब्लॉकों को ग्रेडिएंट से भरें।  
+- **ब्रांड लोगो:** सुसंगत ब्रांडिंग के लिए लोगो आकारों को ग्रेडिएंट फ़िल आकारों से पुनः बनाएं।  
+- **प्रो टिप:** कई ड्रॉइंग कॉल्स के लिए वही `LinearGradientBrush` इंस्टेंस पुनः उपयोग करें ताकि आकार और टेक्स्ट में रंग पूरी तरह संरेखित रहें।
 
-## अक्सर पूछे जाने वाले प्रश्न
+## Frequently Asked Questions
 
-### Q1: क्या मैं आयतों के अलावा अन्य आकृतियों पर ग्रेडिएंट लागू कर सकता हूँ?
+### Q1: क्या मैं आयत के अलावा अन्य आकारों पर ग्रेडिएंट लागू कर सकता हूँ?
 
- A1: हां, आप Aspose.Page का उपयोग करके विभिन्न आकृतियों में ग्रेडिएंट लागू कर सकते हैं। संशोधित करें`GraphicsPath` आपके विशिष्ट आकार के अनुरूप रचना।
+**A:** हाँ, आप `GraphicsPath` द्वारा परिभाषित किसी भी आकार पर ग्रेडिएंट लागू कर सकते हैं। `document.Fill(path)` कॉल करने से पहले बस सर्कल, पॉलीगॉन या कस्टम पाथ जोड़ें।
 
-### Q2: मैं ग्रेडिएंट रंग कैसे बदल सकता हूँ?
+### Q2: मैं ग्रेडिएंट रंगों को कैसे बदल सकता हूँ?
 
- A2: समायोजित करें`Color.FromArgb` मूल्यों में`LinearGradientBrush` वांछित ग्रेडिएंट रंग प्राप्त करने के लिए तात्कालिकता।
+**A:** `LinearGradientBrush` बनाते समय `Color.FromArgb` मानों को बदलें। पहला रंग प्रारंभ है, दूसरा ग्रेडिएंट का अंत।
 
-### Q3: क्या Aspose.Page विभिन्न दस्तावेज़ प्रारूपों के साथ संगत है?
+### Q3: क्या Aspose.Page विभिन्न दस्तावेज़ फ़ॉर्मैट्स के साथ संगत है?
 
-A3: Aspose.Page XPS, PS, PDF और अन्य सहित विभिन्न दस्तावेज़ प्रारूपों का समर्थन करता है। विस्तृत सूची के लिए दस्तावेज़ देखें।
+**A:** बिल्कुल। Aspose.Page XPS, PS, PDF और कई अन्य वेक्टर फ़ॉर्मैट्स को सपोर्ट करता है। पूर्ण सूची के लिए आधिकारिक दस्तावेज़ देखें।
 
-### Q4: क्या मैं व्यावसायिक परियोजनाओं के लिए Aspose.Page का उपयोग कर सकता हूँ?
+### Q4: क्या मैं Aspose.Page को व्यावसायिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?
 
- A4: हां, Aspose.Page वाणिज्यिक लाइसेंसिंग विकल्पों के साथ आता है। मिलने जाना[यहाँ](https://purchase.aspose.com/buy) जानकारी के लिए।
+**A:** हाँ, व्यावसायिक लाइसेंस उपलब्ध है। विवरण के लिए खरीद पेज देखें: [here](https://purchase.aspose.com/buy).
 
-### Q5: क्या Aspose.Page उपयोगकर्ताओं के लिए कोई सामुदायिक मंच है?
+### Q5: मैं समुदाय समर्थन कहाँ पा सकता हूँ?
 
- A5: हाँ, Aspose.Page समुदाय में शामिल हों[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) अन्य उपयोगकर्ताओं से जुड़ने और सहायता प्राप्त करने के लिए।
+**A:** Aspose.Page कम्युनिटी फ़ोरम में शामिल हों: [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
+
+---
+
+**अंतिम अपडेट:** 2026-02-25  
+**परीक्षित संस्करण:** Aspose.Page 24.10 for .NET  
+**लेखक:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

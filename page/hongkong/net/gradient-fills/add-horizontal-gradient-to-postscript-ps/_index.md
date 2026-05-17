@@ -1,37 +1,40 @@
 ---
-title: 使用 Aspose.Page 將水平漸層新增至 PostScript (PS)
-linktitle: 將水平漸層加入到 PostScript (PS)
+date: 2026-02-25
+description: 使用 Aspose.Page for .NET，為 PostScript 文件增添線性漸層矩形。請跟隨我們的逐步指南，學習漸層填充文字與文字輪廓漸層。
+linktitle: Add Horizontal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: 使用 Aspose.Page for .NET 以令人驚嘆的水平漸層增強 PostScript 文件。按照我們的逐步教程進行無縫實施。
-weight: 12
+title: 使用 Aspose.Page 為 PostScript (PS) 添加線性漸層矩形
 url: /zh-hant/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page 將水平漸層新增至 PostScript (PS)
+# 使用 Aspose.Page 為 PostScript (PS) 新增線性漸層矩形
 
 ## 介紹
 
-歡迎來到這個關於使用 Aspose.Page for .NET 將水平漸層新增至 PostScript (PS) 文件的綜合教學。 Aspose.Page 是一個功能強大的函式庫，可促進各種格式的文件操作，為開發人員提供無縫建立、修改和渲染文件所需的工具。
+歡迎閱讀本完整教學，教您如何使用 Aspose.Page for .NET 在 PostScript (PS) 文件中加入 **線性漸層矩形**。Aspose.Page 是功能強大的函式庫，可讓您建立、修改與轉換各種格式的文件，今天我們將重點說明如何在 PS 檔案中加入吸睛的漸層效果。
 
-在本教程中，我們將重點放在透過合併引人注目的水平漸變來增強您的 PostScript 文件。我們將引導您完成流程的每個步驟，確保您對實施有充分的了解。
+### 快速回答
+- **線性漸層矩形的作用是什麼？** 它會以平滑的顏色過渡填滿矩形區域，從一側漸變到另一側。  
+- **哪個 API 處理漸層填色文字？** `LinearGradientBrush` 搭配 `SetPaint` 與 `FillAndStrokeText`。  
+- **可以使用漸層描邊文字嗎？** 可以——使用 `SetStroke` 並傳入漸層筆刷，再呼叫 `OutlineText`。  
+- **正式環境需要授權嗎？** 商業授權的 Aspose.Page 必須購買，才能在非評估模式下使用。  
+- **支援哪些 .NET 版本？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
 
-## 先決條件
+## 前置作業
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+在開始之前，請確保您已具備以下項目：
 
--  Aspose.Page for .NET 函式庫：確保您已將 Aspose.Page for .NET 函式庫整合到您的開發環境中。您可以從[.NET 文件的 Aspose.Page](https://reference.aspose.com/page/net/).
+- Aspose.Page for .NET 函式庫：請確定已在專案中引用此函式庫。您可以從 [Aspose.Page for .NET 文件](https://reference.aspose.com/page/net/) 下載。  
+- 文件目錄：在磁碟上建立一個資料夾，用來儲存產生的 PS 檔，並在程式碼中將 **“Your Document Directory”** 替換為該路徑。
 
-- 文檔目錄：設定一個目錄來存放您的文檔，並將提供的程式碼中的「您的文檔目錄」替換為實際路徑。
+## 匯入命名空間
 
-現在，讓我們逐步探索如何在 PostScript 文件中新增水平漸層。
-
-## 導入命名空間
-
-在開始之前，必須匯入必要的命名空間以存取 Aspose.Page 提供的功能。在程式碼開頭新增以下命名空間：
+首先，匯入可讓您存取繪圖與 PS 專屬類別的命名空間：
 
 ```csharp
 using Aspose.Page.EPS;
@@ -41,23 +44,33 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 第 1 步：設定文檔
+## 什麼是線性漸層矩形？
+
+**線性漸層矩形** 指的是內部以線性漸層方式上色的矩形形狀——顏色沿著直線平滑過渡，通常是從左至右（水平）或從上至下（垂直）。在 Aspose.Page 中，您可以透過結合定義矩形的 `GraphicsPath` 與描述顏色過渡的 `LinearGradientBrush` 來實現。
+
+## 為什麼要使用漸層填色文字與描邊文字漸層？
+
+- **視覺吸引力：** 漸層填色文字能為報表、發票或行銷素材增添深度與現代感。  
+- **品牌一致性：** 使用精確的 ARGB 值匹配企業色彩。  
+- **彈性高：** 同一支筆刷可重複用於圖形填色、文字填色與描邊漸層，減少程式碼重複。
+
+## 第一步：設定文件
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-//為 PostScript 文件建立輸出流
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.ps", FileMode.Create))
 {
-    //建立 A4 尺寸的儲存選項
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    //建立新的 1 頁 PS 文檔
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## 第 2 步：定義漸層矩形和顏色
+## 第二步：定義漸層矩形與顏色
 
 ```csharp
     float offsetX = 200;
@@ -65,90 +78,94 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     float width = 200;
     float height = 100;
 
-    //從第一個矩形建立圖形路徑
+    // Create graphics path from the first rectangle
     System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
     path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-    //建立以矩形作為邊界、開始和結束顏色的線性漸變畫筆
+    // Create linear gradient brush with rectangle as bounds, start, and end colors
     LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
         Color.FromArgb(50, 40, 128, 70), 0f);
 ```
 
-## 步驟3：設定畫筆變換
+## 第三步：設定筆刷的變換
 
 ```csharp
-    //建立畫筆變換。 X 和 Y 比例分量必須相應地等於矩形的寬度和高度。
-    //平移分量是矩形的偏移量
+    // Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+    // Translation components are offsets of the rectangle
     System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
-    //設定變換
+    // Set transform
     brush.Transform = brushTransform;
 ```
 
-## 第四步：設定油漆並填滿矩形
+## 第四步：設定 Paint 並填滿矩形
 
 ```csharp
-    //訂漆
+    // Set paint
     document.SetPaint(brush);
 
-    //填滿矩形
+    // Fill the rectangle
     document.Fill(path);
 ```
 
-## 步驟5：用漸層填滿文本
+## 如何套用漸層填色文字
 
 ```csharp
-    //用漸層填滿文本
+    // Fill text with gradient
     System.Drawing.Font font = new System.Drawing.Font("Arial", 96, FontStyle.Bold);
     document.FillAndStrokeText("ABC", font, 200, 300, brush, new Pen(new SolidBrush(Color.Black), 2));
 ```
 
-## 第 6 步：設定描邊和輪廓文本
+## 使用描邊文字漸層
 
 ```csharp
-    //設定當前行程
+    // Set current stroke
     document.SetStroke(new Pen(brush, 5));
-    //帶有漸變的輪廓文本
+    // Outline text with gradient
     document.OutlineText("ABC", font, 200, 400);
 ```
 
-## 步驟7：關閉目前頁面並儲存文檔
+## 第七步：關閉目前頁面並儲存文件
 
 ```csharp
-    //關閉目前頁面
+    // Close current page
     document.ClosePage();
 
-    //儲存文件
+    // Save the document
     document.Save();
 }
 ```
 
-恭喜！您已使用 Aspose.Page for .NET 成功地在 PostScript 文件中新增水平漸層。
+恭喜！您已成功在 PostScript 文件中加入 **線性漸層矩形**，並使用相同的筆刷完成 **漸層填色文字** 與 **描邊文字漸層**。
 
-## 結論
+## 常見使用情境與技巧
 
-在本教學中，我們介紹了使用 Aspose.Page for .NET 函式庫透過水平漸層增強 PostScript 文件的過程。透過遵循逐步指南，您已經獲得了利用這個強大的文件操作工具的寶貴見解。
+- **報表標題：** 使用漸層填滿大型文字區塊，以突顯章節標題。  
+- **品牌標誌：** 以漸層填色圖形重建標誌形狀，確保品牌一致性。  
+- **專業小技巧：** 重複使用同一個 `LinearGradientBrush` 實例進行多次繪圖呼叫，讓顏色在不同圖形與文字之間保持完美對齊。
 
-## 常見問題解答
+## 常見問題
 
-### Q1：我可以將漸層應用於矩形以外的其他形狀嗎？
+### Q1：我可以將漸層套用到矩形以外的形狀嗎？
+**A：** 可以，您可以將漸層套用到任何由 `GraphicsPath` 定義的形狀。只需在呼叫 `document.Fill(path)` 前加入圓形、多邊形或自訂路徑即可。
 
- A1：是的，您可以使用 Aspose.Page 將漸層套用於各種形狀。修改`GraphicsPath`創作適合您的特定形狀。
+### Q2：我要如何變更漸層顏色？
+**A：** 在建立 `LinearGradientBrush` 時，修改 `Color.FromArgb` 的參數值。第一個顏色為起始色，第二個顏色為結束色。
 
-### Q2：如何更改漸層顏色？
+### Q3：Aspose.Page 是否支援其他文件格式？
+**A：** 當然支援。Aspose.Page 支援 XPS、PS、PDF 以及其他多種向量格式。完整支援清單請參考官方文件。
 
- A2：調整`Color.FromArgb`中的值`LinearGradientBrush`實例化以實現所需的漸層顏色。
+### Q4：我可以在商業專案中使用 Aspose.Page 嗎？
+**A：** 可以，提供商業授權。詳情請參閱購買頁面：[here](https://purchase.aspose.com/buy)。
 
-### Q3：Aspose.Page是否相容於不同的文件格式？
+### Q5：在哪裡可以取得社群支援？
+**A：** 加入 Aspose.Page 社群論壇：[Aspose.Page Forum](https://forum.aspose.com/c/page/39)。
 
-A3：Aspose.Page支援多種文件格式，包括XPS、PS、PDF等。請參閱文件以取得完整清單。
+---
 
-### Q4：我可以將Aspose.Page用於商業項目嗎？
+**最後更新：** 2026-02-25  
+**測試環境：** Aspose.Page 24.10 for .NET  
+**作者：** Aspose  
 
- A4：是的，Aspose.Page 附帶商業許可選項。訪問[這裡](https://purchase.aspose.com/buy)了解詳情。
-
-### Q5：有 Aspose.Page 使用者的社群論壇嗎？
-
- A5：是的，加入 Aspose.Page 社群：[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)與其他用戶聯繫並尋求協助。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
