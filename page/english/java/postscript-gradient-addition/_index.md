@@ -2,10 +2,10 @@
 title: "How to Create Radial Gradient – Gradient Addition in PostScript"
 linktitle: "How to Create Radial Gradient – Gradient Addition in PostScript"
 second_title: "Aspose.Page Java API"
-description: "Learn how to create radial gradient effects in Java PostScript documents using Aspose.Page. Step‑by‑step guides for diagonal, horizontal, radial, and vertical gradients."
+description: "Learn how to create radial gradient and add vertical gradient effects in Java PostScript documents using Aspose.Page. Step‑by‑step guides for diagonal, horizontal, radial, and vertical gradients."
 weight: 25
 url: /java/postscript-gradient-addition/
-date: 2025-12-05
+date: 2026-02-10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,14 +16,14 @@ date: 2025-12-05
 
 ## Introduction
 
-If you're looking to **how to create radial gradient** effects in your Java PostScript documents, Aspose.Page for Java is the perfect tool. This tutorial series walks you through adding diagonal, horizontal, radial, and vertical gradients, giving you the confidence to produce visually striking documents that capture attention. We'll start with a quick‑answer snapshot, then dive into each gradient type with clear, actionable steps.
+If you're looking to **create radial gradient** effects in your Java PostScript documents, Aspose.Page for Java is the perfect tool. This tutorial series walks you through adding diagonal, horizontal, radial, and vertical gradients, giving you the confidence to produce visually striking documents that capture attention. We'll start with a quick‑answer snapshot, then dive into each gradient type with clear, actionable steps.
 
 ## Quick Answers
 - **What is a radial gradient?** A smooth color transition that radiates outward from a central point.  
 - **Why use Aspose.Page for gradients?** It abstracts low‑level PostScript commands, letting you focus on design.  
 - **Do I need a license?** A free trial works for development; a commercial license is required for production.  
 - **Which Java version is supported?** Java 8+ (compatible with newer releases).  
-- **How long does implementation take?** Typically under 15 minutes per gradient type.
+- **How long does implementation take?** Typically under 15 minutes per gradient type.  
 
 ## What is a Radial Gradient in PostScript?
 A radial gradient blends colors from a focal point outward in a circular fashion. In PostScript, this is achieved by defining a shading dictionary that describes the start and end colors, the radius, and the center point. Aspose.Page simplifies this by exposing a fluent API that generates the necessary PostScript code behind the scenes.
@@ -33,6 +33,24 @@ A radial gradient blends colors from a focal point outward in a circular fashion
 - **Precision:** Control color stops, radius, and transformation matrix with type‑safe methods.  
 - **Portability:** Generated PostScript works across printers, viewers, and converters.  
 - **Scalability:** Combine multiple gradients (diagonal, horizontal, vertical) in a single document.
+
+## How to Create Radial Gradient in PostScript
+Below is a concise walkthrough of the steps you’ll follow in each dedicated guide:
+
+1. **Instantiate the Document** – Create a new `Page` object using Aspose.Page.  
+2. **Define the Gradient Parameters** – Set the center point, radius, and color stops.  
+3. **Apply the Shading** – Use the `addShading` method to embed the radial gradient into the page.  
+4. **Save the Output** – Export the document as a `.ps` file ready for printing or further processing.
+
+> **Pro tip:** Re‑using the same `Shading` object for multiple shapes reduces memory usage and keeps your code tidy.
+
+## Common Use Cases for Radial Gradient
+- **Background fills** for flyers, brochures, or certificates where a subtle color shift adds depth.  
+- **Highlighting focal points** such as logos or call‑to‑action buttons in a PDF that will later be converted to PostScript.  
+- **Creating realistic lighting effects** in technical diagrams or engineering schematics.
+
+## Adding a Vertical Gradient (Secondary Keyword)
+If you also need to **add vertical gradient** to the same document, the API provides a `VerticalGradient` helper that works in parallel with the radial shading. The workflow mirrors the radial steps—just swap the gradient type. This makes it easy to layer a vertical gradient underneath a radial one for a richer visual effect.
 
 ## Diagonal Gradients – Adding Elegance to Your Documents
 ### [Add Diagonal Gradient in Java PostScript](./diagonal/)
@@ -90,7 +108,7 @@ A: Aspose offers perpetual and subscription licenses; a free evaluation license 
 
 ---
 
-**Last Updated:** 2025-12-05  
+**Last Updated:** 2026-02-10  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 
