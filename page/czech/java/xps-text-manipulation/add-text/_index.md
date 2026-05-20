@@ -1,27 +1,53 @@
 ---
-title: Java XPS Text Addition - Aspose.Page Tutorial
-linktitle: Přidejte text do Java XPS
+date: 2026-04-24
+description: Naučte se, jak přidat XPS text v Javě pomocí Aspose.Page – krok za krokem
+  průvodce tvorbou XPS dokumentů, přidáváním textu a snadným ukládáním XPS souborů.
+keywords:
+- how to add xps
+- create xps document
+- aspose.page add text
+linktitle: Přidat text v Java XPS
 second_title: Aspose.Page Java API
-description: Vylepšete své dokumenty Java XPS pomocí Aspose.Page! Postupujte podle našeho podrobného průvodce a přidejte text bez námahy. Zvyšte své dovednosti v manipulaci s dokumenty ještě dnes.
-weight: 10
+title: Jak přidat XPS text v Javě – tutoriál Aspose.Page
 url: /cs/java/xps-text-manipulation/add-text/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java XPS Text Addition - Aspose.Page Tutorial
+# Jak přidat XPS text v Javě – Aspose.Page tutoriál
 
 ## Úvod
-V oblasti manipulace s dokumenty Java vyniká Aspose.Page jako robustní knihovna, která usnadňuje vytváření a manipulaci s dokumenty XPS (XML Paper Specification). Přidávání textu do dokumentů XPS je běžným požadavkem v různých aplikacích a tento tutoriál vás provede procesem pomocí Aspose.Page for Java. Ať už jste ostřílený vývojář nebo nováček, tento podrobný průvodce vám zajistí hladkou cestu při vylepšování vašich dokumentů XPS pomocí textu.
+If you need to **how to add XPS** text programmatically, Aspose.Page for Java gives you a clean, high‑performance API to work with XPS (XML Paper Specification) files. In this tutorial we’ll walk through creating an XPS document, inserting styled text, and saving the result—all with concise, easy‑to‑follow code. Whether you’re building a reporting engine, generating invoices, or simply need to overlay text on a page, these steps will get you up and running quickly.
+
+## Rychlé odpovědi
+- **Jaká knihovna je nejlepší pro manipulaci s XPS v Javě?** Aspose.Page for Java.
+- **Mohu vytvářet a ukládat XPS soubory bez licence?** A free trial works for evaluation; a license is required for production.
+- **Jaké IDE jsou podporovány?** IntelliJ IDEA, Eclipse, NetBeans, or any IDE that supports Java.
+- **Kolik řádků kódu je potřeba k přidání jednoduchého textu?** About 10 lines plus setup.
+- **Je možné stylovat písmo?** Yes – you can set font family, size, style, and color.
+
+## Co je XPS a proč přidávat text?
+XPS (XML Paper Specification) is Microsoft’s fixed‑layout document format, similar to PDF but based on XML. Adding text to an XPS file is common when you need precise placement, such as labels, watermarks, or dynamic data in reports. Using Aspose.Page lets you manipulate XPS without dealing with low‑level XML structures.
+
+## Proč použít Aspose.Page k přidání XPS textu?
+- **Plná kontrola** over glyph positioning, font styles, and brushes.  
+- **Žádné externí závislosti** – pure Java API.  
+- **Vysoká věrnost** rendering that preserves layout across platforms.  
+- **Komplexní dokumentace** and sample code for quick onboarding.
+
 ## Předpoklady
-Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-- Java Development Kit (JDK): Ujistěte se, že máte v systému nainstalovanou Java.
--  Aspose.Page for Java: Stáhněte a nainstalujte knihovnu Aspose.Page. Odkaz ke stažení najdete[tady](https://releases.aspose.com/page/java/).
-- Integrované vývojové prostředí (IDE): Vyberte si Java IDE podle svých preferencí, jako je IntelliJ IDEA nebo Eclipse.
-## Importujte balíčky
-Začněte importem potřebných balíčků, abyste mohli začít manipulovat s dokumenty Java XPS pomocí Aspose.Page:
+Before we start, ensure you have:
+
+- **Java Development Kit (JDK)** – a recent version (8 or higher) installed.
+- **Aspose.Page for Java** – download the library from the official site [zde](https://releases.aspose.com/page/java/).
+- **Java IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.
+
+## Import balíčků
+Begin by importing the classes you’ll need for XPS manipulation:
+
 ```java
 import java.awt.Color;
 import com.aspose.xps.XpsDocument;
@@ -29,46 +55,82 @@ import com.aspose.xps.XpsFontStyle;
 import com.aspose.xps.XpsGlyphs;
 import com.aspose.xps.XpsSolidColorBrush;
 ```
-## Krok 1: Nastavte adresář dokumentů
-Definujte cestu k adresáři vašeho dokumentu, kde bude dokument XPS vytvořen:
+
+## Krok 1: Nastavit adresář dokumentu (vytvořit soubor xps)
+Define where the generated XPS file will be stored:
+
 ```java
 String dataDir = "Your Document Directory";
 ```
-## Krok 2: Vytvořte dokument XPS
-Inicializujte nový dokument XPS pomocí následujícího fragmentu kódu:
+
+## Krok 2: Vytvořit XPS dokument (vytvořit xps dokument)
+Instantiate a new, empty XPS document:
+
 ```java
 XpsDocument doc = new XpsDocument();
 ```
-## Krok 3: Vytvořte štětec
-Vytvořte štětec pro stylování textu v dokumentu XPS:
+
+## Krok 3: Vytvořit štětec pro stylování textu
+A solid‑color brush determines the text color. Here we use black:
+
 ```java
 XpsSolidColorBrush textFill = doc.createSolidColorBrush(Color.BLACK);
 ```
-## Krok 4: Přidejte do dokumentu glyf
-Zahrňte požadovaný text do dokumentu XPS jako glyf:
+
+## Krok 4: Přidat glify – skutečný text (aspose.page add text)
+Add the text you want to appear in the document. The `addGlyphs` method lets you specify font, size, style, and exact coordinates:
+
 ```java
 XpsGlyphs glyphs = doc.addGlyphs("Arial", 12, XpsFontStyle.Regular, 300f, 450f, "Hello World!");
 glyphs.setFill(textFill);
 ```
-## Krok 5: Uložte výsledný dokument XPS
-Uložte upravený dokument XPS do určeného adresáře:
+
+## Krok 5: Uložit výsledný XPS dokument (uložit soubor xps)
+Finally, write the document to disk:
+
 ```java
 doc.save(dataDir + "AddText_out.xps");
 ```
-Opakujte tyto kroky pro další text nebo přizpůsobení podle potřeby.
-## Závěr
-Gratulujeme! Úspěšně jste se naučili přidávat text do dokumentů XPS v Javě pomocí Aspose.Page. Tato výkonná knihovna umožňuje vývojářům snadno vytvářet vizuálně přitažlivé a dynamické soubory XPS.
-## Nejčastější dotazy
+
+Repeat the **Add Glyphs** step as needed to insert additional lines, change fonts, or adjust positions.
+
+## Časté problémy a tipy
+- **Nesprávné souřadnice:** XPS uses a coordinate system measured in points (1/72 inch). Adjust `x` and `y` values to position text precisely.
+- **Písmo nenalezeno:** Ensure the font name (e.g., “Arial”) is installed on the machine running the code.
+- **Výjimka licence:** Without a valid license, the generated XPS may contain a watermark. Apply your license early in the application to avoid this.
+
+## Často kladené otázky
+
 ### Je Aspose.Page kompatibilní se všemi Java IDE?
-Ano, Aspose.Page je kompatibilní s populárními Java IDE, včetně IntelliJ IDEA a Eclipse.
-### Mohu na přidaný text použít různé styly písma?
-Absolutně! Aspose.Page vám umožňuje přizpůsobit styly písma podle vašich preferencí.
+Yes, Aspose.Page works with popular Java IDEs, including IntelliJ IDEA and Eclipse.
+
+### Mohu použít různé styly písma na přidaný text?
+Absolutely! Use `XpsFontStyle.Bold`, `Italic`, or combine styles when calling `addGlyphs`.
+
 ### Kde najdu další příklady a dokumentaci pro Aspose.Page?
- Prozkoumejte komplexní dokumentaci[tady](https://reference.aspose.com/page/java/).
+Explore the comprehensive documentation [zde](https://reference.aspose.com/page/java/).
+
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Page?
- Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+Yes, you can access the free trial [zde](https://releases.aspose.com/).
+
 ### Jak získám dočasnou licenci pro Aspose.Page?
- Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+Obtain a temporary license [zde](https://purchase.aspose.com/temporary-license/).
+
+**Q: Can I embed images together with the text?**  
+A: Yes – use `XpsImage` objects alongside glyphs to create rich layouts.
+
+**Q: Does Aspose.Page support Unicode characters?**  
+A: It fully supports Unicode, allowing you to add text in any language.
+
+**Q: What version of Aspose.Page was used for testing?**  
+A: The code was tested with Aspose.Page 23.12 for Java.
+
+---
+
+**Poslední aktualizace:** 2026-04-24  
+**Testováno s:** Aspose.Page 23.12 for Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

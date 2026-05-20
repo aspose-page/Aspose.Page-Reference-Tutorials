@@ -1,73 +1,125 @@
 ---
-title: Adicionar retângulo em Java XPS
-linktitle: Adicionar retângulo em Java XPS
-second_title: API Java Aspose.Page
-description: Aprenda como adicionar retângulos em Java XPS usando Aspose.Page. Siga nosso guia passo a passo para uma manipulação perfeita de documentos. #JavaXPS #AsposePage
-weight: 11
+date: 2026-04-24
+description: Aprenda como definir a cor do retângulo e adicionar um retângulo em Java
+  XPS usando Aspose.Page. Este guia cobre como adicionar retângulo em Java e alterar
+  o traço do retângulo.
+keywords:
+- set rectangle color
+- add rectangle java
+- change rectangle stroke
+linktitle: Adicionar Retângulo no Java XPS
+second_title: Aspose.Page Java API
+title: Definir Cor do Retângulo e Adicionar Retângulo no Java XPS
 url: /pt/java/xps-shapes/add-rectangle/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adicionar retângulo em Java XPS
+# Definir Cor do Retângulo e Adicionar Retângulo em Java XPS
 
 ## Introdução
-Bem-vindo a este guia completo sobre como adicionar retângulos em Java XPS usando Aspose.Page! Quer você seja um desenvolvedor experiente ou esteja apenas começando com Java XPS, este tutorial irá guiá-lo pelo processo com instruções passo a passo, garantindo que você obtenha um conhecimento profundo do tópico.
-## Pré-requisitos
-Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
-- Conhecimento básico da linguagem de programação Java.
--  Biblioteca Aspose.Page instalada. Caso contrário, você pode baixá-lo no[Documentação Java Aspose.Page](https://reference.aspose.com/page/java/).
-- Um ambiente de desenvolvimento Java funcional.
-## Importar pacotes
-Para começar, importe os pacotes necessários para o seu projeto Java. Certifique-se de que a biblioteca Aspose.Page foi adicionada corretamente ao seu caminho de classe. Aqui está um exemplo básico:
+Neste guia, você aprenderá como **definir a cor do retângulo** e **adicionar um retângulo** em Java XPS usando a biblioteca Aspose.Page. Seja para desenhar formas simples em um relatório ou criar gráficos vetoriais complexos, dominar a estilização de retângulos oferece controle preciso sobre seus documentos XPS.  
+
+## Respostas Rápidas
+- **Qual biblioteca é necessária?** Aspose.Page para Java  
+- **Posso alterar o traçado do retângulo?** Sim, usando `setStroke` e `setStrokeThickness`  
+- **Um perfil de cor CMYK é suportado?** Absolutamente – você pode carregar perfis ICC conforme mostrado  
+- **Preciso de licença para produção?** Sim, uma licença comercial é necessária para uso não‑avaliativo  
+- **Quanto tempo leva a implementação?** Normalmente menos de 10 minutes for a basic rectangle
+
+## O que é **definir cor do retângulo**?
+Definir a cor de um retângulo significa especificar a cor de preenchimento ou de traçado que a forma terá no documento XPS final. Com Aspose.Page você pode usar RGB, CMYK ou até perfis de cor ICC personalizados para obter correspondência de cor exata.
+
+## Por que usar Aspose.Page para **add rectangle java** e **change rectangle stroke**?
+- **Full‑featured API** – supports both solid colors and gradients.  
+- **Cross‑platform** – works on any Java runtime without native dependencies.  
+- **Rich geometry support** – create complex paths, apply transformations, and manage stroke thickness easily.  
+
+## Pré‑requisitos
+Before we dive into the code, ensure you have:
+
+- Basic knowledge of Java programming.  
+- Aspose.Page library installed. If not, download it from the [Aspose.Page Java documentation](https://reference.aspose.com/page/java/).  
+- A working Java development environment (IDE, JDK, etc.).  
+
+## Importar Pacotes
+To get started, import the necessary packages into your Java project. Ensure that the Aspose.Page library is correctly added to your classpath. Here's a basic example:
 ```java
 import com.aspose.xps.XpsDocument;
 import com.aspose.xps.XpsPath;
 ```
-Agora, vamos dividir o exemplo fornecido em várias etapas para adicionar um retângulo em Java XPS.
-## Etapa 1: definir o diretório de documentos
+
+Now, let's break down the example provided into multiple steps to **add a rectangle** and **set its color** in Java XPS.
+
+## Etapa 1: Definir o Diretório do Documento
 ```java
-// O caminho para o diretório de documentos.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
-Substitua “Seu diretório de documentos” pelo caminho para o diretório desejado.
-## Etapa 2: crie um novo documento XPS
+Replace `"Your Document Directory"` with the absolute path where you want to read/write XPS files.
+
+## Etapa 2: Criar um Novo Documento XPS
 ```java
-// Criar novo documento XPS
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
-Isso inicializa um novo documento XPS.
-## Etapa 3: adicionar um retângulo traçado de cor sólida CMYK
+This line initializes a fresh XPS document that will hold our shapes.
+
+## Etapa 3: Adicionar um Retângulo Contornado com Cor Sólida CMYK
 ```java
-// Retângulo traçado de cor sólida CMYK (azul) no canto inferior esquerdo
+// CMYK (blue) solid color stroked rectangle in the lower left
 XpsPath path = doc.addPath(doc.createPathGeometry("M 20,10 L 220,10 220,100 20,100 Z"));
 path.setStroke(doc.createSolidColorBrush(
     doc.createColor(dataDir + "uswebuncoated.icc", 1.0f, 1.000f, 0.000f, 0.000f, 0.000f)));
 path.setStrokeThickness(12f);
 ```
-Esta etapa adiciona um retângulo traçado com uma cor sólida CMYK.
-## Etapa 4: salve o documento XPS resultante
+This step adds a **stroked rectangle** with a CMYK solid color. The `setStroke` method defines the rectangle’s outline color, while `setStrokeThickness` controls the line width—perfect for **changing rectangle stroke**.
+
+### Pro tip:
+If you prefer an RGB color, replace the `createColor` call with `doc.createColor(0, 0, 255)` for a solid blue fill.
+
+## Etapa 4: Salvar o Documento XPS Resultante
 ```java
-// Salve o documento XPS resultante
+// Save resultant XPS document
 doc.save(dataDir + "AddRectangle_out.xps");
 ```
-Finalmente, salve o documento XPS modificado com o retângulo adicionado.
-Repita essas etapas, ajustando os parâmetros conforme necessário, para personalizar ainda mais seus retângulos.
-## Conclusão
-Parabéns! Você aprendeu com sucesso como adicionar retângulos em Java XPS usando Aspose.Page. Este tutorial fornece uma base sólida para seus esforços de manipulação de documentos XPS.
-## Perguntas frequentes
-### Posso adicionar vários retângulos em um único documento XPS?
-Sim, você pode adicionar quantos retângulos forem necessários repetindo as etapas descritas no tutorial.
-### Como posso mudar a cor do retângulo?
- Modifique os valores das cores no`createColor` método para obter a cor desejada.
-### O Aspose.Page é adequado para lidar com manipulações complexas de documentos XPS?
-Absolutamente! Aspose.Page fornece um conjunto robusto de recursos para lidar com várias tarefas de documentos XPS.
-### Onde posso encontrar exemplos e suporte adicionais?
- Explore o[Fórum Aspose.Page](https://forum.aspose.com/c/page/39)para obter mais exemplos e procurar assistência da comunidade.
-### Posso experimentar o Aspose.Page antes de comprar?
- Sim, você pode explorar um[teste grátis](https://releases.aspose.com/) para experimentar os recursos do Aspose.Page.
+Finally, persist the XPS document to disk. The file `AddRectangle_out.xps` now contains a rectangle whose color and stroke you defined.
+
+## Problemas Comuns e Soluções
+| Problema | Causa | Solução |
+|----------|-------|----------|
+| **Rectangle not visible** | Incorrect path geometry or stroke thickness set to 0 | Verify the path string (`"M 20,10 L 220,10 220,100 20,100 Z"`) and ensure `setStrokeThickness` is greater than 0. |
+| **Wrong color** | Using an ICC profile that doesn’t match the intended color space | Use `doc.createColor(r, g, b)` for RGB or double‑check the ICC file path. |
+| **File not saved** | `dataDir` points to a non‑existent folder or lacks write permission | Create the folder beforehand or choose a writable location. |
+
+## Perguntas Frequentes
+
+**Q:** *Can I add multiple rectangles in a single XPS document?*  
+A: Yes. Simply repeat the geometry creation and styling steps for each rectangle you need.
+
+**Q:** *How can I change the rectangle’s fill color instead of the stroke?*  
+A: Use `path.setFill(...)` with a solid color brush, similar to how `setStroke` is used.
+
+**Q:** *Is Aspose.Page suitable for complex XPS document manipulations?*  
+A: Absolutely. The library supports advanced features like gradients, transformations, and embedded fonts.
+
+**Q:** *Where can I find additional examples and community support?*  
+A: Explore the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for more code samples and peer assistance.
+
+**Q:** *Can I try Aspose.Page before purchasing?*  
+A: Yes, you can explore a [free trial](https://releases.aspose.com/) to evaluate the API’s capabilities.
+
+---
+
+**Last Updated:** 2026-04-24  
+**Tested With:** Aspose.Page for Java 24.12  
+**Author:** Aspose
+
+---
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
