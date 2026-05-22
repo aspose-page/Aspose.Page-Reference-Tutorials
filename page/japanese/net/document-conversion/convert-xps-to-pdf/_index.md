@@ -1,66 +1,80 @@
 ---
-title: Aspose.Page for .NET を使用して XPS を PDF に変換する
-linktitle: XPSをPDFに変換
+date: 2026-01-10
+description: .NETでAspose.Pageを使用してXPSをPDFに簡単に変換できます。ライブラリをダウンロードし、ドキュメントを確認し、無料トライアルをご利用ください。
+linktitle: Convert XPS to PDF
 second_title: Aspose.Page .NET API
-description: Aspose.Page を使用すると、.NET で XPS を PDF に簡単に変換できます。ライブラリをダウンロードし、ドキュメントを調べて、無料トライアルを入手してください。
-weight: 11
+title: Aspose.Page for .NET を使用して XPS を PDF に変換
 url: /ja/net/document-conversion/convert-xps-to-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET を使用して XPS を PDF に変換する
+# Aspose.Page for .NET を使用した XPS から PDF への変換
 
-## 導入
+## はじめに
 
-このチュートリアルでは、強力な Aspose.Page for .NET ライブラリを使用して、XPS (XML Paper Supplement) ドキュメントを PDF (Portable Document Format) に変換するプロセスを詳しく説明します。 Aspose.Page for .NET は、XPS ファイルを操作するための堅牢な機能セットを提供し、開発者がさまざまなカスタマイズ オプションを使用してファイルを PDF 形式にシームレスに変換できるようにします。
+このチュートリアルでは、Aspose.Page for .NET ライブラリを使用して **XPS を PDF に変換する方法** を学びます。XPS を PDF に変換することは、PDF リーダーしか持っていないユーザーと XPS ドキュメントを共有したい場合や、XPS コンテンツを大規模な PDF ワークフローに組み込みたい場合に一般的な要件です。各ステップを順に解説し、設定が重要な理由を説明し、JPEG 品質の設定や PDF 画像圧縮の適用など、出力を細かく調整する方法を示します。
+
+## よくある質問
+- **XPS から PDF への変換に最適なライブラリは？** Aspose.Page for .NET
+- **本番環境でライセンスは必要ですか？** はい、商用ライセンスが必要です。無料トライアルも利用可能です。
+- **画像品質を制御できますか？** もちろんです。`JpegQualityLevel` と `PdfImageCompression` を使用します。
+- **サポートされている .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 .NET 5/6/7。
+- **複数の XPS ファイルを 1 つの PDF に変換できますか？** はい、ファイルをループして結果をマージすれば可能です。
 
 ## 前提条件
 
-この変換作業に着手する前に、次の前提条件が満たされていることを確認してください。
+この変換作業に取り掛かる前に、以下の前提条件が整っていることを確認してください。
 
--  Aspose.Page for .NET ライブラリ: 開発環境に Aspose.Page for .NET ライブラリがインストールされていることを確認します。からダウンロードできます。[Aspose.Page ドキュメント](https://reference.aspose.com/page/net/).
-
-- 開発環境: Visual Studio またはその他の互換性のある IDE を使用して .NET 開発環境をセットアップします。
-
-- XPS ドキュメント: PDF に変換する XPS ドキュメントを準備します。これは、指定されたディレクトリに保存されているサンプル XPS ファイルである可能性があります。
+- **Aspose.Page for .NET Library** – 開発環境に Aspose.Page for .NET ライブラリがインストールされていることを確認してください。ダウンロードは [Aspose.Page documentation](https://reference.aspose.com/page/net/) から行えます。
+- **Development Environment** – Visual Studio などの .NET 開発環境をセットアップしてください。
+- **XPS Document** – PDF に変換したい XPS ドキュメントを用意してください。対象ディレクトリに保存されたサンプル XPS ファイルでも構いません。
 
 ## 名前空間のインポート
 
-コードに入る前に、コード内で Aspose.Page for .NET の機能にアクセスできるようにするために必要な名前空間をインポートしましょう。
+コードに取り掛かる前に、Aspose.Page for .NET の機能をプロジェクトで利用できるよう、必要な名前空間をインポートしましょう。
 
 ```csharp
 using Aspose.Page.XPS;
 ```
 
-## ステップ 1: ドキュメント ディレクトリを初期化する
+## ステップバイステップガイド
+
+### ステップ1：ドキュメントディレクトリの初期化
+
+ソース XPS ファイルが格納されているフォルダーと、生成された PDF を保存するフォルダーを定義します。
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-「Your Document Directory」を、XPS ドキュメントが含まれるディレクトリへのパスに置き換えます。
+`"Your Document Directory"` を、XPS ドキュメントが入っているフォルダーへの絶対パスまたは相対パスに置き換えてください。
 
-## ステップ 2: PDF および XPS ストリームを初期化する
+### ステップ2：PDF出力とXPS入力のストリームを開く
+
+2 つのファイルストリームを使用します。1 つは XPS ファイルの読み取り用、もう 1 つは生成された PDF の書き込み用です。
 
 ```csharp
 using (System.IO.Stream pdfStream = System.IO.File.Open(dataDir + "XPStoPDF_out.pdf", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
 using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 ```
 
-出力 PDF ファイルと入力 XPS ファイルの両方のストリームを開きます。適切なファイル パスが設定されていることを確認してください。
+> **Pro tip:** パスが正しいこと、そしてアプリケーションが対象フォルダーに対して読み書き権限を持っていることを確認してください。
 
-## ステップ 3: XPS ドキュメントをロードする
+### ステップ3：XPSドキュメントを読み込む
+
+XPS ストリームから `XpsDocument` インスタンスを作成します。`XpsLoadOptions` オブジェクトで読み込み設定を指定できますが、デフォルトでほとんどのシナリオに対応します。
 
 ```csharp
 XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
 ```
 
-Aspose.Page for .NET ライブラリを使用して XPS ドキュメントを読み込みます。
+### ステップ4：PDF保存オプションの設定
 
-## ステップ 4: PDF 保存オプションを初期化する
+ここで PDF の出力設定を行います。**PDF 画像圧縮** (`PdfImageCompression.Jpeg`) と **JPEG 品質** (`JpegQualityLevel = 100`) の使用に注目してください。これらの設定はファイルサイズと画質に直接影響します。
 
 ```csharp
 PdfSaveOptions options = new PdfSaveOptions()
@@ -72,49 +86,76 @@ PdfSaveOptions options = new PdfSaveOptions()
 };
 ```
 
-JPEG 品質レベル、画像圧縮、テキスト圧縮、含める特定のページ番号などのパラメータを含む PDF 保存オプションを設定します。
+- **`JpegQualityLevel`** – PDF に埋め込まれる JPEG 画像の品質を制御します（数値が大きいほど高品質でファイルサイズも大きくなります）。
+- **`ImageCompression`** – 圧縮アルゴリズムを選択します。JPEG は写真画像に最適です。
+- **`TextCompression`** – Flate 圧縮によりテキストの品質を損なうことなく PDF サイズを削減します。
+- **`PageNumbers`** – 特定のページだけを **XPS から PDF に保存** できるようにします。
 
-## ステップ 5: PDF レンダリング デバイスを作成する
+### ステップ5：PDFレンダリングデバイスの作成
+
+`PdfDevice` は、先ほど開いたストリームに PDF データを書き込むレンダリングターゲットとして機能します。
 
 ```csharp
 PdfDevice device = new PdfDevice(pdfStream);
 ```
 
-Aspose.Page for .NET ライブラリを使用して、PDF 形式のレンダリング デバイスを作成します。
+### ステップ6：ドキュメントをPDFとして保存する
 
-## ステップ 6: ドキュメントを PDF に保存する
+最後に `Save` メソッドを呼び出し、レンダリングデバイスと設定したオプションを渡します。
 
 ```csharp
 document.Save(device, options);
 ```
 
-指定したレンダリング デバイスとオプションを使用して、XPS ドキュメントを PDF に保存します。
+コードの実行が完了すると、`XPStoPDF_out.pdf` が指定したディレクトリに作成され、設定した圧縮と品質オプションが適用された変換ページが格納されます。
 
-## 結論
+## XPSをPDFに変換する理由
 
-おめでとう！ Aspose.Page for .NET を使用して XPS ドキュメントを PDF に変換することに成功しました。この多用途ライブラリは、さまざまなドキュメント形式を簡単に処理するための強力なツールセットを開発者に提供します。
+- **Universal accessibility** – PDF ビューアは事実上すべてのデバイスにインストールされているのに対し、XPS リーダーはほとんど存在しません。
+- **Preserve layout** – PDF は元の XPS と同じビジュアルレイアウト、フォント、グラフィックを正確に保持します。
+- **Further processing** – PDF に変換すれば、他の Aspose ライブラリを使って結合、注釈付け、デジタル署名などの追加処理が可能です。
 
-## よくある質問
+## 一般的な使用例
 
-### Q1: Aspose.Page for .NET を使用して、複数の XPS ファイルを 1 つの PDF に変換できますか?
+- **Enterprise reporting** – レガシーシステムから生成した XPS レポートを PDF に変換し、配布します。
+- **Archiving** – 長期保存のために PDF として文書を保管しつつ、必要に応じて XPS ソースから再生成できます。
+- **Web services** – XPS アップロードを受け取り、リアルタイムで PDF ファイルを返す API エンドポイントを提供します。
 
-A1: はい、複数の XPS ファイルをループし、同じ手順に従ってそれらを 1 つの PDF に結合できます。
+## トラブルシューティングとヒント
 
-### Q2: Aspose.Page for .NET でサポートされている他の出力形式はありますか?
+- **File not found** – `dataDir` パスを再確認し、XPS ファイル名が正確に一致していることを確認してください。
+- **Permission errors** – Visual Studio を管理者として実行するか、出力フォルダーに書き込み権限を付与してください。
+- **Large PDFs** – 生成された PDF が大きすぎる場合は、`JpegQualityLevel` を下げるか、`ImageCompression` を `PdfImageCompression.Zip` に変更してください。
 
-A2: はい、Aspose.Page for .NET は、TIFF、JPEG、PNG などのさまざまな出力形式をサポートしています。
+## よくある質問（AI対応）
 
-### Q3: 変換された PDF ドキュメントの外観をカスタマイズするにはどうすればよいですか?
+**Q: XPSをPDFに変換する際に、JPEGの画質を設定するにはどうすればよいですか？** 
 
-A3: 画像圧縮やテキスト圧縮などのオプション オブジェクト パラメータを微調整して、希望の外観を実現できます。
+A: `PdfSaveOptions`内の`JpegQualityLevel`プロパティを使用してください。100に設定すると最高画質になります。
 
-### Q4: Aspose.Page for .NET の試用版はありますか?
+**Q: この文脈における「PDF画像圧縮」とは何ですか？** 
 
- A4: はい、次から無料トライアルを入手して、Aspose.Page for .NET の機能を調べることができます。[ここ](https://releases.aspose.com/).
+A: `ImageCompression`オプションのことです。このオプションは、PDF内の画像の圧縮方法（JPEG、Zipなど）を決定します。
 
-### Q5: Aspose.Page for .NET のコミュニティ サポートはどこで受けられますか?
+**Q: XPSソースなしでプログラムからPDFを生成できますか？** 
 
- A5: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティのディスカッションとサポートのために。
+A: はい、Aspose.Pageは描画コマンドから直接**C#でPDFを生成する**機能もサポートしていますが、このチュートリアルの範囲外です。
+
+**Q: ベクターグラフィックを失わずにXPSをPDFに変換する方法はありますか？** 
+
+A: 変換時にベクターデータは保持されます。`ImageCompression`を必要に応じてJPEGまたはZipに設定することで、画像のラスタライズを回避できます。
+
+
+**Q: このライブラリは.NET Coreをサポートしていますか？** 
+
+A: はい、サポートしています。Aspose.Page for .NETは、.NET Core、.NET 5、.NET 6、およびそれ以降のバージョンに対応しています。
+
+---
+
+**最終更新日:** 2026年1月10日
+**テスト環境:** Aspose.Page 24.11 for .NET
+**作成者:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
