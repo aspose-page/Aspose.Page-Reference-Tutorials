@@ -70,13 +70,6 @@ weight: 24
 ### [Convert XPS to PDF with Aspose.Page for .NET](./convert-xps-to-pdf/)
 Легко конвертируйте XPS в PDF в .NET с помощью Aspose.Page. Скачайте библиотеку, изучите документацию и получите бесплатную пробную версию.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Часто задаваемые вопросы
 
 **Q: Как программно конвертировать PostScript в PDF?**  
@@ -99,3 +92,10 @@ A: Aspose.Page отобразит поддерживаемые элементы 
 **Last Updated:** 2026-01-10  
 **Tested With:** Aspose.Page 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

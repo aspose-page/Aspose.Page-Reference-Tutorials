@@ -101,23 +101,6 @@ Het uiteindelijke samengevoegde XPS‑bestand (`out.xps`) wordt weggeschreven na
 
 ## Veelgestelde vragen
 
-### Q1: Kan ik pagina's van verschillende XPS‑documenten manipuleren?
-A1: Ja, zoals in de tutorial getoond, kun je pagina's van meerdere XPS‑documenten invoegen in een nieuw document.
-
-### Q2: Hoe kan ik een specifieke pagina uit een document verwijderen?
-A2: Gebruik de `RemovePageAt`‑methode en geef de index van de pagina die je wilt verwijderen op.
-
-### Q3: Is Aspose.Page compatibel met Visual Studio?
-A3: Ja, Aspose.Page is volledig compatibel met Visual Studio, waardoor het eenvoudig te integreren is in je .NET‑projecten.
-
-### Q4: Zijn er licentieopties beschikbaar?
-A4: Ja, je kunt licentieopties verkennen en een tijdelijke licentie verkrijgen [hier](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Waar kan ik ondersteuning krijgen of vragen stellen?
-A5: Bezoek het [Aspose.Page‑forum](https://forum.aspose.com/c/page/39) voor ondersteuning en om deel te nemen aan de community.
-
-## Veelgestelde vragen
-
 **Q: Kan ik meer dan drie XPS‑bestanden samenvoegen?**  
 A: Absoluut. Maak extra `XpsDocument`‑instanties aan en gebruik herhaaldelijk `InsertPage` of `AddPage` om een groter samengevoegd document te bouwen.
 

@@ -129,28 +129,6 @@ Amikor a kód befejeződik, a `XPStoPDF_out.pdf` a megadott könyvtárban jeleni
 - **Jogosultsági hibák** – Futtassa a Visual Studio-t rendszergazdaként, vagy adjon írási jogosultságot a kimeneti mappára.
 - **Nagy PDF-ek** – Ha a létrehozott PDF túl nagy, csökkentse a `JpegQualityLevel` értékét, vagy állítsa az `ImageCompression`-t `PdfImageCompression.Zip`-re.
 
-## GYIK
-
-### Q1: Több XPS fájlt konvertálhatok egyetlen PDF-be az Aspose.Page for .NET használatával?
-
-A1: Igen, több XPS fájlt is bejárhat, és ugyanazokat a lépéseket követve egyetlen PDF-be egyesítheti őket.
-
-### Q2: Vannak más kimeneti formátumok, amelyeket az Aspose.Page for .NET támogat?
-
-A2: Igen, az Aspose.Page for .NET számos kimeneti formátumot támogat, többek között TIFF, JPEG, PNG és egyebek.
-
-### Q3: Hogyan szabhatom testre a konvertált PDF dokumentum megjelenését?
-
-A3: A beállítási objektum paramétereit, például a képtömörítést és a szövegtömörítést módosíthatja a kívánt megjelenés eléréséhez.
-
-### Q4: Elérhető próba verzió az Aspose.Page for .NET-hez?
-
-A4: Igen, a [itt](https://releases.aspose.com/) elérhető ingyenes próba verzióval felfedezheti az Aspose.Page for .NET funkcióit.
-
-### Q5: Hol kaphatok közösségi támogatást az Aspose.Page for .NET-hez?
-
-A5: Látogassa meg a [Aspose.Page fórumot](https://forum.aspose.com/c/page/39) a közösségi megbeszélésekért és támogatásért.
-
 ## Gyakran Ismételt Kérdések (AI‑Barát)
 
 **Q: Hogyan állíthatom be a JPEG minőséget XPS PDF‑be konvertálásakor?**  

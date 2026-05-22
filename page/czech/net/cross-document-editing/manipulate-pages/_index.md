@@ -103,28 +103,6 @@ Finální sloučený XPS soubor (`out.xps`) je zapsán do stejného adresáře. 
 
 ## Často kladené otázky
 
-### Q1: Mohu manipulovat se stránkami z různých XPS dokumentů?
-
-A1: Ano, jak je ukázáno v tutoriálu, můžete vkládat stránky z více XPS dokumentů do nového dokumentu.
-
-### Q2: Jak mohu odstranit konkrétní stránku z dokumentu?
-
-A2: Použijte metodu `RemovePageAt` a zadejte index stránky, kterou chcete odstranit.
-
-### Q3: Je Aspose.Page kompatibilní s Visual Studio?
-
-A3: Ano, Aspose.Page je plně kompatibilní s Visual Studio, což usnadňuje integraci do vašich .NET projektů.
-
-### Q4: Existují nějaké licenční možnosti?
-
-A4: Ano, můžete prozkoumat licenční možnosti a získat dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Kde mohu získat podporu nebo položit otázky?
-
-A5: Navštivte [Aspose.Page fórum](https://forum.aspose.com/c/page/39), kde získáte podporu a můžete se zapojit do komunity.
-
-## Často kladené otázky
-
 **Q: Mohu sloučit více než tři XPS soubory?**  
 A: Rozhodně. Vytvořte další instance `XpsDocument` a opakovaně používejte `InsertPage` nebo `AddPage` k vytvoření většího sloučeného dokumentu.
 

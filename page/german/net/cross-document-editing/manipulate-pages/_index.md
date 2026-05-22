@@ -100,28 +100,6 @@ Die endgültige zusammengeführte XPS‑Datei (`out.xps`) wird in dasselbe Verze
 - **Ungültiger Seitenindex** – Seitenindizes beginnen bei 1; der Versuch, eine nicht vorhandene Seite einzufügen, löst eine Ausnahme aus.  
 - **Lizenzfehler** – verwenden Sie eine temporäre oder vollständige Lizenz, bevor Sie in die Produktion gehen.
 
-## FAQ
-
-### Q1: Kann ich Seiten aus verschiedenen XPS-Dokumenten manipulieren?
-
-A1: Ja, wie im Tutorial gezeigt, können Sie Seiten aus mehreren XPS-Dokumenten in ein neues Dokument einfügen.
-
-### Q2: Wie kann ich eine bestimmte Seite aus einem Dokument entfernen?
-
-A2: Verwenden Sie die Methode `RemovePageAt` und geben Sie den Index der zu entfernenden Seite an.
-
-### Q3: Ist Aspose.Page mit Visual Studio kompatibel?
-
-A3: Ja, Aspose.Page ist vollständig mit Visual Studio kompatibel, sodass es sich leicht in Ihre .NET-Projekte integrieren lässt.
-
-### Q4: Gibt es Lizenzoptionen?
-
-A4: Ja, Sie können Lizenzoptionen erkunden und eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
-
-### Q5: Wo kann ich Unterstützung erhalten oder Fragen stellen?
-
-A5: Besuchen Sie das [Aspose.Page‑Forum](https://forum.aspose.com/c/page/39), um Unterstützung zu erhalten und sich mit der Community auszutauschen.
-
 ## Häufig gestellte Fragen
 
 **F: Kann ich mehr als drei XPS‑Dateien zusammenführen?**  

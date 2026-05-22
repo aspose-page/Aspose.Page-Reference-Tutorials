@@ -70,13 +70,6 @@ Convierte PostScript a PDF sin esfuerzo usando Aspose.Page para .NET. Robustez, 
 ### [Convert XPS to PDF with Aspose.Page for .NET](./convert-xps-to-pdf/)
 Convierte XPS a PDF en .NET con Aspose.Page. Descarga la biblioteca, explora la documentación y obtén una prueba gratuita.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ## Preguntas frecuentes
 
 **P: ¿Cómo convierto PostScript a PDF programáticamente?**  
@@ -99,3 +92,10 @@ R: Aspose.Page renderizará los elementos compatibles y omitirá los desconocido
 **Última actualización:** 2026-01-10  
 **Probado con:** Aspose.Page 24.11 para .NET  
 **Autor:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

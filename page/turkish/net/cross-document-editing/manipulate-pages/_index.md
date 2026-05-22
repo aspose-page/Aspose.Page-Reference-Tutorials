@@ -101,23 +101,6 @@ Son birleştirilmiş XPS dosyası (`out.xps`) aynı dizine yazılır. Artık her
 - **Invalid page index** – sayfa indeksleri 1‑tabanlıdır; var olmayan bir sayfayı eklemeye çalışmak istisna fırlatır.  
 - **License errors** – üretime dağıtmadan önce geçici veya tam lisans kullanın.
 
-## SSS'ler
-
-### Q1: Farklı XPS belgelerinden sayfaları manipüle edebilir miyim?
-A1: Evet, öğreticide gösterildiği gibi, birden fazla XPS belgesinden sayfaları yeni bir belgeye ekleyebilirsiniz.
-
-### Q2: Belgeden belirli bir sayfayı nasıl kaldırabilirim?
-A2: Kaldırmak istediğiniz sayfanın indeksini belirterek `RemovePageAt` metodunu kullanın.
-
-### Q3: Aspose.Page Visual Studio ile uyumlu mu?
-A3: Evet, Aspose.Page Visual Studio ile tamamen uyumludur, .NET projelerinize entegre etmeyi kolaylaştırır.
-
-### Q4: Kullanılabilir lisans seçenekleri var mı?
-A4: Evet, lisans seçeneklerini inceleyebilir ve geçici bir lisans alabilirsiniz [buradan](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Destek alabileceğim veya soru sorabileceğim yer neresi?
-A5: Destek almak ve toplulukla etkileşimde bulunmak için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
-
 ## Sık Sorulan Sorular
 
 **S: Üçten fazla XPS dosyasını birleştirebilir miyim?**  

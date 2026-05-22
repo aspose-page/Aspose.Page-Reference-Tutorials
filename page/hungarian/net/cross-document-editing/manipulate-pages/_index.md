@@ -102,23 +102,6 @@ A végleges egyesített XPS fájl (`out.xps`) ugyanabba a könyvtárba kerül. M
 - **Invalid page index** – az oldalak indexelése 1‑től kezdődik; egy nem létező oldal beszúrására tett kísérlet kivételt dob.  
 - **License errors** – használjon ideiglenes vagy teljes licencet a termelésbe való telepítés előtt.
 
-## GYIK
-
-### Q1: Manipulálhatok oldalakat különböző XPS dokumentumokból?
-A1: Igen, ahogy a bemutatóban is látható, több XPS dokumentumból származó oldalakat is beilleszthet egy új dokumentumba.
-
-### Q2: Hogyan távolíthatok el egy adott oldalt egy dokumentumból?
-A2: Használja a `RemovePageAt` metódust, megadva a eltávolítandó oldal indexét.
-
-### Q3: Az Aspose.Page kompatibilis a Visual Studio-val?
-A3: Igen, az Aspose.Page teljes mértékben kompatibilis a Visual Studio-val, így könnyen integrálható .NET projektjeibe.
-
-### Q4: Van elérhető licencelési lehetőség?
-A4: Igen, a licencelési lehetőségeket megtekintheti, és ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Hol kaphatok támogatást vagy tehetek fel kérdéseket?
-A5: Látogassa meg az [Aspose.Page fórumot](https://forum.aspose.com/c/page/39), hogy támogatást kapjon és részt vegyen a közösségben.
-
 ## Gyakran Ismételt Kérdések
 
 **Q: Egyesíthetek több mint három XPS fájlt?**  

@@ -98,28 +98,6 @@ The final merged XPS file (`out.xps`) is written to the same directory. You can 
 - **Invalid page index** – page indexes are 1‑based; attempting to insert a non‑existent page throws an exception.  
 - **License errors** – use a temporary or full license before deploying to production.
 
-## FAQ's
-
-### Q1: Can I manipulate pages from different XPS documents?
-
-A1: Yes, as demonstrated in the tutorial, you can insert pages from multiple XPS documents into a new document.
-
-### Q2: How can I remove a specific page from a document?
-
-A2: Use the `RemovePageAt` method, specifying the index of the page you want to remove.
-
-### Q3: Is Aspose.Page compatible with Visual Studio?
-
-A3: Yes, Aspose.Page is fully compatible with Visual Studio, making it easy to integrate into your .NET projects.
-
-### Q4: Are there any licensing options available?
-
-A4: Yes, you can explore licensing options and obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Where can I get support or ask questions?
-
-A5: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to get support and engage with the community.
-
 ## Frequently Asked Questions
 
 **Q: Can I merge more than three XPS files?**  

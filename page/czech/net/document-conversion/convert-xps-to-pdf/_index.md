@@ -128,28 +128,6 @@ Po dokončení provádění kódu se v určeném adresáři objeví soubor `XPSt
 - **Chyby oprávnění** – Spusťte Visual Studio jako administrátor nebo udělte oprávnění zápisu do výstupní složky.
 - **Velké PDF** – Pokud je výsledné PDF příliš velké, snižte `JpegQualityLevel` nebo přepněte `ImageCompression` na `PdfImageCompression.Zip`.
 
-## Často kladené otázky
-
-### Q1: Mohu převést více XPS souborů do jednoho PDF pomocí Aspose.Page pro .NET?
-
-A1: Ano, můžete smyčkou projít více XPS souborů a následovat stejné kroky pro jejich sloučení do jednoho PDF.
-
-### Q2: Existují další výstupní formáty podporované Aspose.Page pro .NET?
-
-A2: Ano, Aspose.Page pro .NET podporuje různé výstupní formáty, včetně TIFF, JPEG, PNG a dalších.
-
-### Q3: Jak mohu přizpůsobit vzhled převedeného PDF dokumentu?
-
-A3: Můžete upravit parametry objektu možností, jako je komprese obrázků a komprese textu, abyste dosáhli požadovaného vzhledu.
-
-### Q4: Je k dispozici zkušební verze pro Aspose.Page pro .NET?
-
-A4: Ano, můžete si vyzkoušet možnosti Aspose.Page pro .NET získáním bezplatné zkušební verze [zde](https://releases.aspose.com/).
-
-### Q5: Kde mohu získat komunitní podporu pro Aspose.Page pro .NET?
-
-A5: Navštivte [forum Aspose.Page](https://forum.aspose.com/c/page/39) pro komunitní diskuze a podporu.
-
 ## Často kladené otázky (AI‑přátelské)
 
 **Q: Jak nastavit kvalitu JPEG při převodu XPS na PDF?**  

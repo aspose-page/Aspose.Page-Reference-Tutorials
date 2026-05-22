@@ -99,28 +99,6 @@ Den slutgiltiga sammanslagna XPS-filen (`out.xps`) skrivs till samma katalog. Du
 - **Ogiltigt sidindex** – sidindex är 1‑baserade; försök att infoga en icke‑existerande sida kastar ett undantag.  
 - **Licensfel** – använd en tillfällig eller fullständig licens innan du distribuerar till produktion.
 
-## Vanliga frågor
-
-### Q1: Kan jag manipulera sidor från olika XPS-dokument?
-
-A1: Ja, som demonstrerat i handledningen kan du infoga sidor från flera XPS-dokument i ett nytt dokument.
-
-### Q2: Hur kan jag ta bort en specifik sida från ett dokument?
-
-A2: Använd metoden `RemovePageAt` och ange indexet för den sida du vill ta bort.
-
-### Q3: Är Aspose.Page kompatibel med Visual Studio?
-
-A3: Ja, Aspose.Page är fullt kompatibel med Visual Studio, vilket gör det enkelt att integrera i dina .NET‑projekt.
-
-### Q4: Finns det några licensalternativ tillgängliga?
-
-A4: Ja, du kan utforska licensalternativ och skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Var kan jag få support eller ställa frågor?
-
-A5: Besök [Aspose.Page‑forumet](https://forum.aspose.com/c/page/39) för att få support och engagera dig med communityn.
-
 ## Vanligt förekommande frågor
 
 **Q: Kan jag slå ihop mer än tre XPS‑filer?**  

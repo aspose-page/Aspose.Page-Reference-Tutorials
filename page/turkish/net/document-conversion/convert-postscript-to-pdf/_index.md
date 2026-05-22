@@ -15,43 +15,43 @@ weight: 10
 
 # PostScript'i PDF'ye Dönüştürme Aspose.Page for .NET ile
 
-## Introduction
+## Giriiş
 
-Eğer **PostScript'i PDF'ye dönüştürmek** istiyor ve bunu hızlı ve güvenilir bir şekilde yapmak istiyorsanız, Aspose.Page for .NET, sizin için ağır işleri halleden temiz, kod‑öncelikli bir API sunar. Bu öğreticide, **PostScript dosyalarını nasıl dönüştüreceğinizi**, özel yazı tipleri eklemeyi ve sonucu dağıtabileceğiniz ya da arşivleyebileceğiniz bir PDF belgesi olarak kaydetmeyi gösteren gerçek bir örnek üzerinden ilerleyeceğiz.
+**PostScript'i PDF'ye dönüştürmek** istiyor ve bunu hızlı ve güvenilir bir şekilde yapmak istiyorsanız, Aspose.Page for .NET, sizin için ağır işlerin halledildiği temiz, kod‑öncelikli bir API sunar. Bu öğreticide, **PostScript'i nasıl dönüştüreceğiniz**, özel yazı türleri eklemeyi ve sonuç olarak dağıtabileceğiniz ya da arşivlenebilir bir PDF belgesi olarak kaydetmeyi gösteren gerçek bir örnek üzerinden ilerleyin.
 
-Geliştiricilerin .NET ekosisteminden çıkmadan toplu işler, özel yazı tipi yönetimi ve yüksek doğruluklu render alma için Aspose.Page'i neden tercih ettiğini göreceksiniz.
+Geliştiricilerin .NET ekosisteminden çıkmadan toplu işler, özel yazı tipi yönetimi ve yüksek doğruluklu render alma için Aspose.Page'i neden tercih edeceğinizi göreceksiniz.
 
-## Quick Answers
-- **Dönüşümü hangi kütüphane gerçekleştirir?** Aspose.Page for .NET  
-- **Kendi yazı tiplerimi ekleyebilir miyim?** Evet – `AdditionalFontsFolders` seçeneğini kullanın  
-- **Toplu dönüşüm mümkün mü?** Kesinlikle, sadece birden fazla dosya üzerinde döngü kurun  
-- **Üretim için lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcuttur  
-- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
+## Hızlı Yanıtlar
+- **Dönüşümü hangi politikacılar?** Aspose.Page for .NET
+- **Kendi yazı türlerimi seçeneklerim var mı?** Evet – `AdditionalFontsFolders` seçeneğini kullanın
+- **Toplu dönüşüm mümkün mü?** kesinlikle, sadece birden fazla dosya üzerinde döngü kurulumu
+- **Üretim için lisansa ihtiyacınız var mı?** Ticari bir lisans gereklidir; ücretsiz deneme sürümü mevcut
+- **Hangi .NET uzantısı destekleniyor mu?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
 
-## What is converting PostScript to PDF?
+## PostScript'i PDF'ye dönüştürmek nedir?
 
-PostScript'i PDF'ye dönüştürmek, bir sayfa tanımlama dili (PostScript) alıp onu taşınabilir, yaygın olarak desteklenen PDF formatına render etmektir. Bu, eski baskı dosyaları aldığınızda, belgeleri arşivlemeniz gerektiğinde veya tarayıcılarda ekstra eklentiler olmadan görüntülemek istediğinizde faydalıdır.
+PostScript'i PDF'ye dönüştürmek, bir sayfa tanımlama dilini (PostScript) alıp taşınabilir, yaygın olarak dağıtmak PDF formatına dönüştürmektir. Bu, eski baskı dosyalarının ayrıntıları, belgeleri arşivlemeniz dosyaları veya tarayıcılarda ekstra eklentiler olmadan görüntülenmek istendiğinde faydalıdır.
 
-## Why use Aspose.Page for .NET?
+## Neden .NET için Aspose.Page'i kullanmalısınız?
 
-- **Sıfır dış bağımlılık** – Ghostscript ya da yerel ikili dosyalara ihtiyaç yok.  
-- **Yazı tipleri üzerinde tam kontrol** – özel yazı tipi klasörleri sağlayabilirsiniz (`add custom fonts pdf`).  
-- **Sağlam hata yönetimi** – küçük hataları bastırırken yine de kullanılabilir bir PDF elde edebilirsiniz (`save postscript as pdf`).  
-- **Toplu işleme ölçeklenebilir** – API iş parçacığı‑güvenlidir ve sunucu ortamlarında iyi çalışır.
+- **Sıfır dış ilişkiler** – Ghostscript ya da yerel ikili dosyalara ihtiyaç yoktur.
+- **Yazı türleri üzerinde tam kontrol** – özel yazı tipi klasörlerini sağlayabilirsiniz (`add özel yazı tipleri pdf`).
+- **Sağlam hata yönetimi** – küçük hatalar bastırılırken yine de kullanılabilir bir PDF elde edebilirsiniz (`postscript'i pdf olarak kaydet`).
+- **Toplu işleme ölçeklenebilir** – API iş parçasıcığı‑güvenlidir ve sunucu ortamlarında iyi çalışır.
 
-## Prerequisites
+## Önkoşullar
 
 Öğreticiye başlamadan önce aşağıdaki önkoşulları yerine getirdiğinizden emin olun:
 
-1. Aspose.Page for .NET Library: Geliştirme ortamınıza Aspose.Page for .NET kütüphanesinin kurulu olduğundan emin olun. İndirmek için [buraya](https://releases.aspose.com/page/net/) tıklayın.
+1. Aspose.Page for .NET Library: Ortamınızı geliştirmede Aspose.Page for .NET kütüphanesinin kurulu olduğundan emin olun. İndirmek için [buraya](https://releases.aspose.com/page/net/) tıklayın.
 
-2. Development Environment: Visual Studio ya da başka bir uyumlu IDE ile çalışan bir geliştirme ortamı kurun.
+2. Geliştirme Ortamı: Visual Studio ya da başka bir uyumlu IDE ile çalışan bir geliştirme ortamı kurun.
 
-Artık önkoşulları karşıladığınıza göre, Aspose.Page for .NET kullanarak **PostScript'i PDF'ye dönüştürme** adımlarını inceleyelim.
+Artık önkoşulları karşınıza göre, Aspose.Page for .NET kullanarak **PostScript'i PDF'ye dönüştürme** adımlarını inceleyelim.
 
-## Import Namespaces
+## Ad Alanlarını İçe Aktar
 
-Başlangıçta, Aspose.Page for .NET tarafından sağlanan işlevselliğe erişmek için gerekli ad alanlarını içe aktarmanız gerekir. Aşağıdaki kodu C# dosyanızın en üstüne ekleyin:
+Bölgede, Aspose.Page for .NET tarafından sağlanan işlevselliğe genişleme için uygun ad alanına dahili olarak yedeklemeniz gerekir. Aşağıdaki kodu C# dosyanızın tamamını ekleyin:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -62,7 +62,7 @@ using System.Linq;
 using System.Text;
 ```
 
-## Step 1: Initialize Streams
+## Adım 1: Akışları Başlatın
 
 PostScript ve PDF dosyaları için giriş ve çıkış akışlarını başlatın. "Your Document Directory" kısmını gerçek belge dizininizle değiştirin.
 
@@ -76,7 +76,7 @@ System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "input.ps", S
 PsDocument document = new PsDocument(psStream);
 ```
 
-## Step 2: Set Conversion Options
+## Adım 2: Dönüştürme Seçeneklerini Ayarlayın
 
 Dönüşüm sürecini kontrol etmek için gerekli parametrelerle seçenek nesnesini başlatın. Bu örnekte, dönüşüm sırasında küçük hataları bastırmak için bir bayrak ayarlayabilirsiniz.
 
@@ -91,7 +91,7 @@ options.AdditionalFontsFolders = new string[] { @"{FONT_FOLDER}" };
 
 > **Pro tip:** `AdditionalFontsFolders` özelliğini, ana işletim sisteminde yüklü olmayan **add custom fonts PDF** dosyalarını eklemeniz gerektiğinde kullanın.
 
-## Step 3: Initialize PDF Device
+## Adım 3: PDF Aygıtını Başlatın
 
 Dönüşüm sürecini yönetecek bir PDF cihazı oluşturun. Gerekirse sayfa boyutu ve görüntü formatını belirtebilirsiniz.
 
@@ -102,7 +102,7 @@ Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(p
 //Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(pdfStream, new System.Drawing.Size(595, 842));
 ```
 
-## Step 4: Save the Document
+## Adım 4: Belgeyi Kaydedin
 
 Belirtilen cihaz ve seçeneklerle belgeyi kaydetmeye çalışın.
 
@@ -118,7 +118,7 @@ finally
 }
 ```
 
-## Step 5: Review Errors
+## Adım 5: Hataları İnceleyin
 
 Dönüşümden sonra olası hataları gözden geçirmek önemlidir. `suppressErrors` bayrağı ayarlıysa, istisnalar üzerinden döngü kurarak hata mesajlarını yazdırın.
 
@@ -133,34 +133,46 @@ if (suppressErrors)
 }
 ```
 
-### Common Pitfalls & How to Avoid Them
+### Sık Karşılaşılan Hatalar ve Bunlardan Nasıl Kaçınılır
 
-| Issue | Why It Happens | Fix |
+| Sorun | Neden Oluşur | Çözüm |
+
 |-------|----------------|-----|
-| Fonts not displayed | Custom fonts not in OS font folder | Add the folder path to `options.AdditionalFontsFolders` |
-| Missing pages | Input PostScript has errors | Set `suppressErrors = true` to continue conversion and review `options.Exceptions` |
-| Output file locked | Stream not closed properly | Always close both `psStream` and `pdfStream` in a `finally` block (as shown) |
 
-## Frequently Asked Questions
+| Yazı tipleri görüntülenmiyor | Özel yazı tipleri işletim sistemi yazı tipi klasöründe değil | Klasör yolunu `options.AdditionalFontsFolders`'a ekleyin |
 
-**Q1: Aspose.Page for .NET toplu dönüşümler için uygun mu?**  
-A1: Evet, Aspose.Page for .NET toplu dönüşümleri destekler ve birden fazla PostScript dosyasını aynı anda işleyebilir.
+| Eksik sayfalar | Giriş PostScript'inde hatalar var | Dönüştürmeye devam etmek için `suppressErrors = true` olarak ayarlayın ve `options.Exceptions`'ı inceleyin |
 
-**Q2: Dönüşüm sırasında kullanılan yazı tipi klasörlerini özelleştirebilir miyim?**  
-A2: Kesinlikle. Öğreticide gösterildiği gibi, özel gereksinimlerinizi karşılamak için ek yazı tipi klasörleri belirtebilirsiniz.
+| Çıkış dosyası kilitli | Akış düzgün kapatılmadı | Her zaman `psStream` ve `pdfStream`'i bir `finally` bloğunda (gösterildiği gibi) kapatın |
 
-**Q3: Aspose.Page for .NET için deneme sürümü mevcut mu?**  
-A3: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+## Sıkça Sorulan Sorular
 
-**Q4: Ek destek ve topluluk tartışmalarını nerede bulabilirim?**  
-A4: Topluluk tartışmaları ve destek için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
+**S1: Aspose.Page .NET toplu dönüşümler için uygun mu?**
+C1: Evet, Aspose.Page for .NET toplu dönüşümleri desteklenebilir ve birden fazla PostScript kopyası aynı anda işlenebilir.
 
-**Q5: Aspose.Page for .NET için geçici bir lisans nasıl alabilirim?**  
+**S2: Dönüşüm sırasında kullanılan yazı tipi klasörlerini özelleştirebilir miyim?**
+A2: elbette. Öğreticide gösterildiği gibi, özel gereksinimlerinizi karşılamak için ek yazı tipi klasörlerini belirtebilirsiniz.
+
+**S3: .NET için Aspose.Page'in deneme sürümü mevcut mu?**
+C3: Evet, ücretsiz deneme sürümüne [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+
+**S4: Ek destek ve topluluk tartışmalarını nerede öğrenebilirim?**
+C4: Topluluk tartışmaları ve desteği için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
+
+**S5: Aspose.Page for .NET için geçici bir lisans nasıl alınabilirim?**
 A5: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
 
-## Conclusion
+## Çözüm
 
-Sonuç olarak, Aspose.Page for .NET **convert postscript to pdf** işlemini basitleştirir. Sezgisel bir API ve sağlam özellikler sayesinde geliştiriciler belge dönüşümlerini sorunsuz bir şekilde yönetebilir, uygulamalarında verimlilik ve güvenilirlik sağlayabilir. Tek bir dosya ya da binlerce dosya işleseniz de, kütüphane **add custom fonts PDF** ekleme, hataları nazikçe yönetme ve sadece birkaç satır kodla **save PostScript as PDF** yapma esnekliğini sunar.
+Sonuç olarak, Aspose.Page for .NET **postscript'i pdf'ye dönüştürme** işlemi basitleştirir. Sezgisel bir API ve sağlam özellikleri sayesinde geliştiricilerin belge dönüşümlerini sorunsuz bir şekilde yönetebilir, uygulamaların verimliliğini ve dağıtılmasını sağlar. Tek bir dosya ya da binlerce dosyayı çalıştırırsanız, kütüphane **özel yazı tipleri PDF ekleme** ekleme, hataların düzenlenmesi ve sadece birkaç satır kodla **PostScript'i PDF olarak kaydetme** yapma olanağı sunar.
+
+---
+
+**Son Güncelleme:** 2026-01-10
+**Şunlarla test edilmiştir:** Aspose.Page 24.12 for .NET
+**Yazar:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -168,11 +180,3 @@ Sonuç olarak, Aspose.Page for .NET **convert postscript to pdf** işlemini basi
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-10  
-**Tested With:** Aspose.Page 24.12 for .NET  
-**Author:** Aspose  
-
----

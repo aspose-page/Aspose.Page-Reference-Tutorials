@@ -162,15 +162,15 @@ A5: Puede adquirir una licencia temporal [here](https://purchase.aspose.com/temp
 
 En conclusión, Aspose.Page para .NET simplifica la compleja tarea de **convertir postscript a pdf**. Con una API intuitiva y características robustas, los desarrolladores pueden manejar sin problemas las conversiones de documentos, garantizando eficiencia y fiabilidad en sus aplicaciones. Ya sea que esté convirtiendo un solo archivo o procesando miles, la biblioteca le brinda la flexibilidad de **agregar fuentes personalizadas PDF**, gestionar errores de forma elegante y **guardar PostScript como PDF** con solo unas pocas líneas de código.
 
+---
+
+**Última actualización:** 2026-01-10  
+**Probado con:** Aspose.Page 24.12 for .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-01-10  
-**Probado con:** Aspose.Page 24.12 for .NET  
-**Autor:** Aspose

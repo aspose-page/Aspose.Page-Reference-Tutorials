@@ -100,23 +100,6 @@ File XPS yang telah digabungkan akhir (`out.xps`) ditulis ke direktori yang sama
 - **Indeks halaman tidak valid** – indeks halaman dimulai dari 1; mencoba menyisipkan halaman yang tidak ada akan menghasilkan pengecualian.  
 - **Kesalahan lisensi** – gunakan lisensi sementara atau penuh sebelum menerapkan ke produksi.
 
-## FAQ
-
-### Q1: Bisakah saya memanipulasi halaman dari dokumen XPS yang berbeda?
-A1: Ya, seperti yang ditunjukkan dalam tutorial, Anda dapat menyisipkan halaman dari beberapa dokumen XPS ke dalam dokumen baru.
-
-### Q2: Bagaimana cara menghapus halaman tertentu dari dokumen?
-A2: Gunakan metode `RemovePageAt`, dengan menentukan indeks halaman yang ingin Anda hapus.
-
-### Q3: Apakah Aspose.Page kompatibel dengan Visual Studio?
-A3: Ya, Aspose.Page sepenuhnya kompatibel dengan Visual Studio, memudahkan integrasi ke dalam proyek .NET Anda.
-
-### Q4: Apakah ada opsi lisensi yang tersedia?
-A4: Ya, Anda dapat menjelajahi opsi lisensi dan memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Di mana saya dapat mendapatkan dukungan atau mengajukan pertanyaan?
-A5: Kunjungi [forum Aspose.Page](https://forum.aspose.com/c/page/39) untuk mendapatkan dukungan dan berinteraksi dengan komunitas.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Bisakah saya menggabungkan lebih dari tiga file XPS?**  

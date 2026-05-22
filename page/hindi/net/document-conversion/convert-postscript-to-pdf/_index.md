@@ -161,15 +161,15 @@ A5: आप अस्थायी लाइसेंस [here](https://purchase.a
 
 निष्कर्षतः, Aspose.Page for .NET जटिल कार्य **PostScript को PDF में बदलने** को सरल बनाता है। एक सहज API और मजबूत सुविधाओं के साथ, डेवलपर्स दस्तावेज़ रूपांतरण को सहजता से संभाल सकते हैं, जिससे उनके अनुप्रयोगों में दक्षता और विश्वसनीयता सुनिश्चित होती है। चाहे आप एक फ़ाइल बदल रहे हों या हजारों को प्रोसेस कर रहे हों, लाइब्रेरी आपको **कस्टम फ़ॉन्ट PDF** जोड़ने, त्रुटियों को सुगमता से प्रबंधित करने, और केवल कुछ पंक्तियों के कोड से **PostScript को PDF के रूप में सहेजने** की लचीलापन देती है।
 
+---
+
+**Last Updated:** 2026-01-10  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-10  
-**Tested With:** Aspose.Page 24.12 for .NET  
-**Author:** Aspose

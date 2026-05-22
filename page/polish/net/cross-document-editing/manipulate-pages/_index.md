@@ -102,28 +102,6 @@ Końcowy scalony plik XPS (`out.xps`) jest zapisywany w tym samym katalogu. Moż
 - **Nieprawidłowy indeks strony** – indeksy stron zaczynają się od 1; próba wstawienia nieistniejącej strony powoduje wyrzucenie wyjątku.  
 - **Błędy licencji** – użyj tymczasowej lub pełnej licencji przed wdrożeniem do produkcji.
 
-## FAQ
-
-### Q1: Czy mogę manipulować stronami z różnych dokumentów XPS?
-
-A1: Tak, jak pokazano w samouczku, możesz wstawiać strony z wielu dokumentów XPS do nowego dokumentu.
-
-### Q2: Jak mogę usunąć konkretną stronę z dokumentu?
-
-A2: Użyj metody `RemovePageAt`, podając indeks strony, którą chcesz usunąć.
-
-### Q3: Czy Aspose.Page jest kompatybilny z Visual Studio?
-
-A3: Tak, Aspose.Page jest w pełni kompatybilny z Visual Studio, co ułatwia integrację w Twoich projektach .NET.
-
-### Q4: Czy dostępne są opcje licencjonowania?
-
-A4: Tak, możesz zapoznać się z opcjami licencjonowania i uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Gdzie mogę uzyskać wsparcie lub zadać pytania?
-
-A5: Odwiedź [forum Aspose.Page](https://forum.aspose.com/c/page/39), aby uzyskać wsparcie i uczestniczyć w społeczności.
-
 ## Często zadawane pytania
 
 **Q: Czy mogę scalić więcej niż trzy pliki XPS?**  

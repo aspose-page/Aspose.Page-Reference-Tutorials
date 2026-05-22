@@ -127,28 +127,6 @@ document.Save(device, options);
 - **權限錯誤** – 以系統管理員身分執行 Visual Studio，或為輸出資料夾授予寫入權限。  
 - **PDF 檔過大** – 若產生的 PDF 太大，可降低 `JpegQualityLevel`，或將 `ImageCompression` 改為 `PdfImageCompression.Zip`。
 
-## 常見問答
-
-### Q1: 能否使用 Aspose.Page for .NET 將多個 XPS 檔合併成單一 PDF？
-
-A1: 可以，您可以迭代多個 XPS 檔，依相同步驟合併為一個 PDF。
-
-### Q2: Aspose.Page for .NET 支援其他輸出格式嗎？
-
-A2: 支援多種輸出格式，包括 TIFF、JPEG、PNG 等。
-
-### Q3: 如何自訂轉換後 PDF 的外觀？
-
-A3: 可調整選項物件的參數，例如影像壓縮與文字壓縮，以達到期望的外觀。
-
-### Q4: 有提供 Aspose.Page for .NET 的試用版嗎？
-
-A4: 有，您可從 [此處](https://releases.aspose.com/) 取得免費試用版。
-
-### Q5: 在哪裡可以取得 Aspose.Page for .NET 的社群支援？
-
-A5: 請造訪 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39) 參與社群討論與支援。
-
 ## 常見問題 (AI 友好版)
 
 **Q: 如何在將 XPS 轉 PDF 時設定 JPEG 品質？**  

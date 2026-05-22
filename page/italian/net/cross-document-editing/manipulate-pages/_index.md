@@ -99,28 +99,6 @@ Il file XPS finale unito (`out.xps`) viene scritto nella stessa directory. Ora p
 - **Indice di pagina non valido** – gli indici delle pagine partono da 1; tentare di inserire una pagina inesistente genera un'eccezione.  
 - **Errori di licenza** – utilizza una licenza temporanea o completa prima di distribuire in produzione.
 
-## FAQ
-
-### Q1: Posso manipolare pagine da diversi documenti XPS?
-
-A1: Sì, come mostrato nel tutorial, puoi inserire pagine da più documenti XPS in un nuovo documento.
-
-### Q2: Come posso rimuovere una pagina specifica da un documento?
-
-A2: Usa il metodo `RemovePageAt`, specificando l'indice della pagina da rimuovere.
-
-### Q3: Aspose.Page è compatibile con Visual Studio?
-
-A3: Sì, Aspose.Page è pienamente compatibile con Visual Studio, facilitando l'integrazione nei progetti .NET.
-
-### Q4: Sono disponibili opzioni di licenza?
-
-A4: Sì, puoi esplorare le opzioni di licenza e ottenere una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Dove posso ottenere supporto o fare domande?
-
-A5: Visita il [forum di Aspose.Page](https://forum.aspose.com/c/page/39) per ricevere supporto e interagire con la community.
-
 ## Domande frequenti
 
 **D: Posso unire più di tre file XPS?**  

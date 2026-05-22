@@ -162,13 +162,6 @@ if (suppressErrors)
 
 في الختام، يبسط Aspose.Page لـ .NET المهمة المعقدة **لتحويل postscript إلى pdf**. بفضل واجهة برمجة تطبيقات بديهية وميزات قوية، يمكن للمطورين التعامل بسلاسة مع تحويل المستندات، مما يضمن الكفاءة والموثوقية في تطبيقاتهم. سواء كنت تحول ملفًا واحدًا أو تعالج آلاف الملفات، توفر المكتبة لك المرونة **لإضافة خطوط مخصصة PDF**، إدارة الأخطاء بأناقة، و**حفظ PostScript كـ PDF** ببضع أسطر من الشيفرة فقط.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-10  
@@ -176,3 +169,10 @@ if (suppressErrors)
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

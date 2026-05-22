@@ -100,28 +100,6 @@ El archivo XPS final fusionado (`out.xps`) se escribe en el mismo directorio. Ah
 
 ## Preguntas frecuentes
 
-### P1: ¿Puedo manipular páginas de diferentes documentos XPS?
-
-A1: Sí, como se muestra en el tutorial, puede insertar páginas de varios documentos XPS en un nuevo documento.
-
-### P2: ¿Cómo puedo eliminar una página específica de un documento?
-
-A2: Utilice el método `RemovePageAt`, especificando el índice de la página que desea eliminar.
-
-### P3: ¿Aspose.Page es compatible con Visual Studio?
-
-A3: Sí, Aspose.Page es totalmente compatible con Visual Studio, lo que facilita su integración en sus proyectos .NET.
-
-### P4: ¿Hay opciones de licencia disponibles?
-
-A4: Sí, puede explorar las opciones de licencia y obtener una licencia temporal [aquí](https://purchase.aspose.com/temporary-license/).
-
-### P5: ¿Dónde puedo obtener soporte o hacer preguntas?
-
-A5: Visite el [foro de Aspose.Page](https://forum.aspose.com/c/page/39) para obtener soporte y participar con la comunidad.
-
-## Preguntas frecuentes
-
 **P: ¿Puedo fusionar más de tres archivos XPS?**  
 A: Absolutamente. Cree instancias adicionales de `XpsDocument` y use `InsertPage` o `AddPage` repetidamente para crear un documento fusionado más grande.
 

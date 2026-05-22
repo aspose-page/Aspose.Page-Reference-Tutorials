@@ -127,28 +127,6 @@ When the code finishes executing, `XPStoPDF_out.pdf` will appear in your specifi
 - **Permission errors** – Run Visual Studio as Administrator or grant write permissions to the output folder.
 - **Large PDFs** – If the resulting PDF is too big, lower `JpegQualityLevel` or switch `ImageCompression` to `PdfImageCompression.Zip`.
 
-## FAQ's
-
-### Q1: Can I convert multiple XPS files to a single PDF using Aspose.Page for .NET?
-
-A1: Yes, you can loop through multiple XPS files and follow the same steps to merge them into a single PDF.
-
-### Q2: Are there other output formats supported by Aspose.Page for .NET?
-
-A2: Yes, Aspose.Page for .NET supports various output formats, including TIFF, JPEG, PNG, and more.
-
-### Q3: How can I customize the appearance of the converted PDF document?
-
-A3: You can tweak the options object parameters, such as image compression and text compression, to achieve the desired appearance.
-
-### Q4: Is there a trial version available for Aspose.Page for .NET?
-
-A4: Yes, you can explore the capabilities of Aspose.Page for .NET by obtaining a free trial from [here](https://releases.aspose.com/).
-
-### Q5: Where can I get community support for Aspose.Page for .NET?
-
-A5: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community discussions and support.
-
 ## Frequently Asked Questions (AI‑Friendly)
 
 **Q: How do I set JPEG quality when converting XPS to PDF?**  

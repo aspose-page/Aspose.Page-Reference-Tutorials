@@ -98,28 +98,6 @@ doc4.Save(dataDir + "out.xps");
 - **页面索引无效** – 页面索引从 1 开始；尝试插入不存在的页面会抛出异常。  
 - **许可证错误** – 在生产环境部署前，请使用临时许可证或完整许可证。
 
-## 常见问答
-
-### Q1：我可以操作来自不同 XPS 文档的页面吗？
-
-A1：可以，正如本教程所示，您可以将多个 XPS 文档的页面插入到一个新文档中。
-
-### Q2：如何从文档中删除特定页面？
-
-A2：使用 `RemovePageAt` 方法，指定要删除的页面索引即可。
-
-### Q3：Aspose.Page 与 Visual Studio 兼容吗？
-
-A3：兼容，Aspose.Page 完全支持 Visual Studio，便于集成到 .NET 项目中。
-
-### Q4：是否有可用的许可证选项？
-
-A4：有，您可以在此处获取临时许可证 [here](https://purchase.aspose.com/temporary-license/)。
-
-### Q5：在哪里可以获取支持或提问？
-
-A5：访问 [Aspose.Page 论坛](https://forum.aspose.com/c/page/39) 获取帮助并与社区交流。
-
 ## 常见问题
 
 **Q：我可以合并超过三个 XPS 文件吗？**  

@@ -100,28 +100,6 @@ doc4.Save(dataDir + "out.xps");
 - **頁面索引無效** – 索引採用 1 為基礎；插入不存在的頁面會拋出例外。  
 - **授權錯誤** – 在投入生產環境前，請先使用臨時或正式授權。
 
-## 常見問題
-
-### Q1: 我可以操作不同 XPS 文件的頁面嗎？
-
-A1: 可以，如本教學所示，您可以將多個 XPS 文件的頁面插入到新文件中。
-
-### Q2: 如何從文件中移除特定頁面？
-
-A2: 使用 `RemovePageAt` 方法，並指定要移除的頁面索引。
-
-### Q3: Aspose.Page 與 Visual Studio 相容嗎？
-
-A3: 相容，Aspose.Page 完全支援 Visual Studio，方便整合至 .NET 專案。
-
-### Q4: 有哪些授權方案可供選擇？
-
-A4: 有，您可以在此取得臨時授權 [here](https://purchase.aspose.com/temporary-license/)。
-
-### Q5: 我可以在哪裡取得支援或提問？
-
-A5: 前往 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39) 取得支援並與社群互動。
-
 ## 常見問答
 
 **Q: 可以合併超過三個 XPS 檔案嗎？**  

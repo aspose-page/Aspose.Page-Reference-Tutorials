@@ -162,15 +162,15 @@ A5: Ideiglenes licencet szerezhetsz [itt](https://purchase.aspose.com/temporary-
 
 Összefoglalva, az Aspose.Page for .NET leegyszerűsíti a **postscript PDF‑re konvertálásának** bonyolult feladatát. Egy intuitív API‑val és robusztus funkciókkal a fejlesztők zökkenőmentesen kezelhetik a dokumentumkonverziókat, biztosítva a hatékonyságot és megbízhatóságot alkalmazásaikban. Legyen szó egyetlen fájl konvertálásáról vagy több ezer feldolgozásáról, a könyvtár rugalmasságot biztosít a **egyedi betűkészletek PDF‑hez** hozzáadásához, a hibák elegáns kezeléséhez, és a **PostScript PDF‑ként mentéséhez** néhány kódsorral.
 
+---
+
+**Legutóbb frissítve:** 2026-01-10  
+**Tesztelve:** Aspose.Page 24.12 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2026-01-10  
-**Tesztelve:** Aspose.Page 24.12 for .NET  
-**Szerző:** Aspose
