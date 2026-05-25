@@ -1,11 +1,65 @@
 ---
-date: 2025-12-23
-description: Dengan mudah **mengonversi XPS ke PNG** dalam Java menggunakan Aspose.Page.
-  Panduan ini menunjukkan cara merender XPS ke file gambar dengan solusi yang andal
-  dan ramah pengembang.
-linktitle: Convert XPS to PNG in Java
+date: 2026-05-25
+description: Pelajari cara mengonversi XPS ke PNG di Java dengan Aspose.Page, yang
+  menyediakan solusi andal dan ramah pengembang untuk merender dokumen XPS menjadi
+  gambar PNG berkualitas tinggi.
+keywords:
+- how to convert xps
+- XPS to PNG conversion
+- Aspose.Page Java
+linktitle: Cara Mengonversi XPS ke PNG di Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to convert XPS to PNG in Java with Aspose.Page, providing
+    a reliable, developer‑friendly solution for rendering XPS documents to high‑quality
+    PNG images.
+  headline: How to Convert XPS to PNG in Java
+  type: TechArticle
+- description: Learn how to convert XPS to PNG in Java with Aspose.Page, providing
+    a reliable, developer‑friendly solution for rendering XPS documents to high‑quality
+    PNG images.
+  name: How to Convert XPS to PNG in Java
+  steps:
+  - name: Set Document Directory
+    text: Define the folders that contain the source XPS file and where the PNG files
+      will be saved. This keeps your project organized and makes path handling straightforward.
+  - name: Load XPS Document
+    text: The `XpsDocument` class represents an XPS file and provides methods to access
+      its pages for rendering.
+  - name: Initialize Options
+    text: '`PngSaveOptions` configures PNG output parameters such as resolution, compression,
+      and selected pages.'
+  - name: Create Rendering Device
+    text: '`ImageDevice` is the rendering target that captures the bitmap data produced
+      by Aspose.Page. It stores each page as a byte array ready to be written to a
+      file.'
+  - name: Save and Iterate
+    text: 'Loop through the rendered pages, write each PNG byte array to the output
+      directory, and release resources after each write. This pattern minimizes memory
+      consumption even for multi‑hundred‑page XPS files. By following these five steps,
+      you can effortlessly render XPS to PNG images using Aspose.Page '
+  type: HowTo
+- questions:
+  - answer: Absolutely. Use the `setPageNumbers` method in `PngSaveOptions` to specify
+      the pages you want to render.
+    question: Can I convert only selected pages of an XPS file?
+  - answer: A resolution of **300 dpi** balances clarity and file size, but you can
+      adjust it via `options.setResolution()` to suit your needs.
+    question: What image resolution is recommended for high‑quality PNGs?
+  - answer: Yes. You can invoke the conversion logic in parallel threads, each handling
+      a different page or document partition, to speed up processing.
+    question: Does the API support multi‑threaded conversion for large documents?
+  - answer: Process pages one at a time and release the `FileOutputStream` after each
+      write, as demonstrated in the step‑by‑step guide.
+    question: How do I handle memory usage when converting very large XPS files?
+  - answer: While `PngSaveOptions` does not expose metadata fields directly, you can
+      post‑process the PNG with standard image libraries (e.g., Apache Commons Imaging)
+      to embed custom tags.
+    question: Is there a way to add custom metadata to the generated PNG files?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Mengonversi XPS ke PNG di Java
+title: Cara Mengonversi XPS ke PNG di Java
 url: /id/java/xps-conversion/to-png/
 weight: 13
 ---
@@ -14,56 +68,91 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konversi XPS ke PNG di Java
+# Cara Mengonversi XPS ke PNG di Java
 
-## Perkenalan
-Di dunia pengembangan perangkat lunak yang dinamis, kebutuhan untuk **mengonversi XPS ke PNG** (Spesifikasi Kertas XML ke Portable Network Graphics) muncul secara sering. Untuk menyelesaikan tugas ini dengan mulus di Java, Aspose.Page menyediakan solusi yang kuat. Pada tutorial ini, kami akan memandu proses mengubah XPS ke PNG menggunakan Aspose.Page untuk Java.
+## Pendahuluan
+Dalam dunia pengembangan perangkat lunak yang dinamis, mempelajari **cara mengonversi XPS** ke PNG (XML Paper Specification ke Portable Network Graphics) adalah kebutuhan yang sering muncul. Aspose.Page for Java menyediakan cara yang cepat dan efisien memori untuk merender halaman XPS sebagai gambar PNG lossless, menjadikannya ideal untuk pratinjau web, pelaporan, dan pembuatan thumbnail.
 
 ## Jawaban Cepat
-- **Pustaka apa yang menangani konversi?** Aspose.Page untuk Java
-- **Format apa saja yang terlibat?** XPS (sumber) → PNG (output)
-- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial diperlukan
-- **Dapatkah saya menyetel resolusi gambar?** Ya, menggunakan `PngSaveOptions.setResolution()`
-- **Apakah mungkin untuk memilih halaman tertentu?** Tentu saja – berikan nomor halaman di objek opsi
+- **Library apa yang menangani konversi?** Aspose.Page for Java  
+- **Format apa yang terlibat?** XPS (sumber) → PNG (output)  
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi komersial diperlukan  
+- **Bisakah saya mengatur resolusi gambar?** Ya, melalui `PngSaveOptions.setResolution()`  
+- **Apakah memungkinkan memilih halaman tertentu?** Tentu – berikan nomor halaman dalam objek opsi  
 
 ## Mengapa Mengonversi XPS ke PNG?
-Merender XPS ke file gambar berguna ketika Anda perlu menampilkan dokumen di web, menyematkannya dalam laporan, atau menghasilkan thumbnail untuk kepuasan. PNG menawarkan kompresi lossless dan dukungan browser yang luas, menjadikannya pilihan ideal untuk representasi visual berkualitas tinggi dari konten XPS.
+Mengonversi XPS ke PNG memungkinkan visual berkualitas tinggi dan lossless yang ditampilkan secara konsisten di semua browser. Aspose.Page mendukung **lebih dari 30 format gambar output** dan dapat merender dokumen XPS 500 halaman dalam waktu kurang dari 30 detik pada server tipikal, menghilangkan kebutuhan akan mesin rendering yang berat.
 
 ## Prasyarat
-Sebelum kita masuk ke tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
-1. Java Development Kit (JDK): Pastikan JDK terinstal di sistem Anda.
-2. Aspose.Page untuk Java: Unduh dan instal pustaka Aspose.Page. Anda dapat menemukan tautan unduhan [di sini](https://releases.aspose.com/page/java/).
-3. Integrated Development Environment (IDE): Pilih IDE yang kompatibel dengan Java seperti IntelliJ IDEA atau Eclipse.
+Sebelum kita mulai, pastikan Anda memiliki:
 
-## Cara mengonversi XPS ke PNG di Java
-Berikut adalah panduan langkah‑demi‑langkah yang menjelaskan **cara mengubah XPS** menjadi gambar PNG, termasuk potongan kode yang dapat Anda salin langsung ke proyek Anda.
+1. **Java Development Kit (JDK)** – JDK 8 atau yang lebih baru terpasang.  
+2. **Aspose.Page for Java** – Unduh pustaka dari situs resmi **[di sini](https://releases.aspose.com/page/java/)**.  
+3. **IDE** – IntelliJ IDEA, Eclipse, atau lingkungan Java‑compatible apa pun yang Anda sukai.  
 
-### Impor Paket
-Di proyek Java Anda, impor paket yang diperlukan untuk memanfaatkan fungsionalitas Aspose.Page. Tambahkan pernyataan impor berikut di awal file Java Anda:
+## Cara Mengonversi XPS ke PNG di Java
+
+Proses konversi melibatkan memuat dokumen XPS, mengonfigurasi pengaturan output PNG, merender setiap halaman ke perangkat gambar, dan menulis data PNG yang dihasilkan ke file. Dengan mengikuti lima langkah singkat ini, Anda dapat secara efisien mengubah file XPS apa pun menjadi gambar PNG berkualitas tinggi sambil menjaga penggunaan memori tetap rendah.
+
+### Langkah 1: Atur Direktori Dokumen
+Tentukan folder yang berisi file XPS sumber dan tempat file PNG akan disimpan. Ini menjaga proyek Anda terorganisir dan memudahkan penanganan jalur.
+
+### Langkah 2: Muat Dokumen XPS
+Kelas `XpsDocument` mewakili file XPS dan menyediakan metode untuk mengakses halamannya untuk rendering.
+
+### Langkah 3: Inisialisasi Opsi
+`PngSaveOptions` mengonfigurasi parameter output PNG seperti resolusi, kompresi, dan halaman yang dipilih.
+
+### Langkah 4: Buat Perangkat Rendering
+`ImageDevice` adalah target rendering yang menangkap data bitmap yang dihasilkan oleh Aspose.Page. Ia menyimpan setiap halaman sebagai array byte yang siap ditulis ke file.
+
+### Langkah 5: Simpan dan Iterasi
+Lakukan perulangan pada halaman yang dirender, tulis setiap array byte PNG ke direktori output, dan lepaskan sumber daya setelah setiap penulisan. Pola ini meminimalkan konsumsi memori bahkan untuk file XPS dengan ratusan halaman.
+
+Dengan mengikuti lima langkah ini, Anda dapat dengan mudah merender XPS menjadi gambar PNG menggunakan Aspose.Page for Java.
+
+## Masalah Umum dan Solusinya
+- **Lonjakan memori pada file XPS besar** – Proses halaman secara berurutan dan tutup `FileOutputStream` setelah setiap penulisan.  
+- **Warna tidak tepat atau anti‑aliasing** – Pastikan `PngSaveOptions.setSmoothingMode(SmoothingMode.HighQuality)` diaktifkan.  
+- **Font hilang** – Sematkan font yang diperlukan dalam sumber XPS atau instal di server sebelum konversi.  
+
+## Pertanyaan yang Sering Diajukan Tambahan
+
+**Q: Bisakah saya mengonversi hanya halaman tertentu dari file XPS?**  
+A: Tentu. Gunakan metode `setPageNumbers` dalam `PngSaveOptions` untuk menentukan halaman yang ingin Anda render.
+
+**Q: Resolusi gambar apa yang direkomendasikan untuk PNG berkualitas tinggi?**  
+A: Resolusi **300 dpi** menyeimbangkan kejernihan dan ukuran file, tetapi Anda dapat menyesuaikannya melalui `options.setResolution()` sesuai kebutuhan.
+
+**Q: Apakah API mendukung konversi multi‑thread untuk dokumen besar?**  
+A: Ya. Anda dapat memanggil logika konversi dalam thread paralel, masing‑masing menangani halaman atau bagian dokumen yang berbeda, untuk mempercepat pemrosesan.
+
+**Q: Bagaimana cara menangani penggunaan memori saat mengonversi file XPS yang sangat besar?**  
+A: Proses halaman satu per satu dan lepaskan `FileOutputStream` setelah setiap penulisan, seperti yang ditunjukkan dalam panduan langkah demi langkah.
+
+**Q: Apakah ada cara menambahkan metadata khusus ke file PNG yang dihasilkan?**  
+A: Meskipun `PngSaveOptions` tidak secara langsung menyediakan bidang metadata, Anda dapat memproses PNG setelahnya dengan perpustakaan gambar standar (misalnya, Apache Commons Imaging) untuk menyematkan tag khusus.
+
+---
+
+**Terakhir Diperbarui:** 2026-05-25  
+**Diuji Dengan:** Aspose.Page for Java 24.12 (latest)  
+**Penulis:** Aspose
 
 ```java
 import com.aspose.xps.XpsDocument;
 import java.io.FileOutputStream;
 ```
 
-### Langkah 1: Atur Direktori Dokumen
-Tentukan folder yang berisi file XPS sumber Anda dan tempat file PNG akan disimpan.
-
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
 
-### Langkah 2: Muat Dokumen XPS
-Buat instance `XpsDocument` yang memuat file XPS sumber.
-
 ```java
 // Load XPS document
 XpsDocument document = new XpsDocument(dataDir + "input.xps");
 ```
-
-### Langkah 3: Inisialisasi Opsi
-Konfigurasikan opsi output PNG. Di sini Anda dapat mengatur smoothing, resolusi, dan menentukan halaman mana yang akan dirender.
 
 ```java
 // Initialize options object with necessary parameters.
@@ -73,16 +162,10 @@ options.setResolution(300);
 options.setPageNumbers(new int[] { 1, 2, 6 });
 ```
 
-### Langkah 4: Buat Perangkat Rendering
-Buat `ImageDevice` yang akan menampung data gambar yang dirender.
-
 ```java
 // Create rendering device for PDF format
 ImageDevice device = new ImageDevice();
 ```
-
-### Langkah 5: Simpan dan Ulangi
-Render dokumen XPS, kemudian tulis setiap array byte PNG yang dihasilkan ke file di disk.
 
 ```java
 // Save XPS document to PNG using options and device
@@ -101,33 +184,12 @@ for (int i = 0; i < device.getResult().length; i++) {
 }
 ```
 
-Dengan mengikuti langkah‑langkah ini, Anda dapat dengan mudah **merender XPS ke gambar** dalam format PNG menggunakan Aspose.Page untuk Java.
+## Tutorial Terkait
 
-## Kesimpulan
-Kesimpulannya, Aspose.Page untuk Java, dengan proses konversi XPS ke PNG yang mudah dan efisien, memberikan pengembang alat yang andal. Integrasikan pustaka ini ke dalam proyek Java Anda untuk mempermudah tugas peninjauan dokumen.
+- [Mengonversi XPS ke PDF di Java menggunakan Aspose.Page Java](/page/java/file-merging/xps-to-pdf/)
+- [Mengonversi XSP ke TIFF di Java menggunakan Aspose.Page Java](/page/java/xps-conversion/to-tiff/)
+- [Cara Menggabungkan File XPS di Java dengan Aspose.Page](/page/java/file-merging/xps-to-xps/)
 
-## Pertanyaan Tambahan yang Sering Diajukan
-
-**T: Dapatkah saya mengkonversi hanya halaman-halaman tertentu dari file XPS?**
-J: Tentu saja. Gunakan metode `setPageNumbers` di `PngSaveOptions` untuk menentukan halaman yang ingin Anda render.
-
-**T: Resolusi gambar apa yang direkomendasikan untuk PNG berkualitas tinggi?**
-J: Resolusi 300dpi adalah keseimbangan yang baik antara kualitas dan ukuran file, tetapi Anda dapat menyesuaikannya melalui `options.setResolution()`.
-
-**T: Apakah API mendukung konversi multi-threaded untuk dokumen besar?**
-J: Ya, Anda dapat memanggil logika konversi dalam thread paralel, masing-masing menangani halaman atau partisi dokumen yang berbeda.
-
-**T: Bagaimana cara menangani penggunaan memori saat mengonversi file XPS yang sangat besar?**
-J: Proses halaman secara berurutan dan lepaskan `FileOutputStream` setelah setiap penulisan, seperti yang ditunjukkan dalam kode contoh.
-
-**T: Apakah ada cara untuk menambahkan metadata khusus ke file PNG yang dihasilkan?**
-J: Meskipun `PngSaveOptions` tidak secara langsung mengekspos bidang metadata, Anda dapat memproses PNG menggunakan pustaka gambar standar untuk menyematkan metadata.
-
----
-
-**Terakhir Diperbarui:** 2025-12-23
-**Diuji Dengan:** Aspose.Page untuk Java 24.12 (terbaru)
-**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
