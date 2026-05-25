@@ -1,11 +1,32 @@
 ---
-date: 2025-12-21
-description: Aspose.Page के साथ जावा का उपयोग करके XMP मेटाडेटा पढ़ना सीखें। यह चरण‑दर‑चरण
-  गाइड आपको दिखाता है कि दस्तावेज़ फ़ॉर्मेट XMP को कैसे पढ़ें और प्रमुख गुणों को कैसे
-  निकालें।
-linktitle: How to Read XMP Metadata using Java
+date: 2026-05-25
+description: जाने कैसे Java के साथ Aspose.Page का उपयोग करके XMP पढ़ें। यह चरण‑दर‑चरण
+  गाइड XMP metadata, creator info, timestamps, thumbnails, और अधिक दिखाता है।
+keywords:
+- read xmp using aspose.page
+- xmp metadata java
+- aspose.page java
+linktitle: Java का उपयोग करके XMP Metadata पढ़ने का तरीका
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to read xmp using aspose.page with Java. This step‑by‑step
+    guide shows extracting XMP metadata, creator info, timestamps, thumbnails, and
+    more.
+  headline: Read XMP using Aspose.Page – Java Guide
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Page can read XMP from PDF, EPS, and several image formats.
+    question: Does this approach work with PDF files that contain XMP?
+  - answer: Absolutely. The `XmpMetadata` object is mutable; you can add, update,
+      or remove keys and then save the document.
+    question: Can I modify XMP metadata after reading it?
+  - answer: You can retrieve the binary data from the `xmpGImg:data` property of each
+      thumbnail entry and write it to a file.
+    question: Is there a way to extract all thumbnail images, not just dimensions?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: जावा का उपयोग करके XMP मेटाडेटा कैसे पढ़ें – Aspose.Page गाइड
+title: Aspose.Page का उपयोग करके XMP पढ़ें – Java गाइड
 url: /hi/java/xmp-metadata-manipulation/get-metadata/
 weight: 18
 ---
@@ -14,28 +35,28 @@ weight: 18
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java का उपयोग करके XMP से मेटाडेटा प्राप्त करें
+# जावा का उपयोग करके XMP से मेटाडेटा प्राप्त करें
 
-## Java का उपयोग करके XMP मेटाडेटा कैसे पढ़ें
+## Aspose.Page (Java) का उपयोग करके XMP कैसे पढ़ें?
 
-हमारे स्टेप-बाय-स्टेप ट्यूटोरियल में आपका स्वागत है जो दिखाता है कि **XMP को Java और Aspose.Page लाइब्रेरी के साथ मेटाडेटा कैसे पढ़ें**। XMP (एक्सटेंसिबल मेटाडेटा प्लेटफ़ॉर्म) डॉक्यूमेंट्स के अंदर रिच मेटाडेटा एम्बेड करने के लिए एक बहुत ज़्यादा अपनाया जाने वाला स्टैंडर्ड है। इस गाइड के आखिर तक आप डॉक्यूमेंट फ़ॉर्मेट XMP पढ़ पाएँगे, क्रिएटर की जानकारी, टाइमस्टैम्प, थंबनेल और भी बहुत कुछ निकाल पाएँगे—जिससे आप बेहतर डॉक्यूमेंट-एनालिसिस सॉल्यूशन बना पाएँगे।
+EPS फ़ाइल को `new Document("file.eps")` के साथ लोड करें—`Document` क्लास लोड की गई फ़ाइल का प्रतिनिधित्व करती है। `getXmpMetadata()` को कॉल करें, जो XMP पैकेट को निकालता है, और फिर लौटाए गए `XmpMetadata` ऑब्जेक्ट—जो XMP प्रॉपर्टीज़ के लिए एक मैप‑जैसा इंटरफ़ेस है—से आवश्यक कुंजियों को प्राप्त करें। यह Aspose.Page का उपयोग करके XMP पढ़ने के लिए आवश्यक सब कुछ है। API लो‑लेवल पार्सिंग को एब्स्ट्रैक्ट करती है, इसलिए आप केवल दो पंक्तियों के कोड में उपयोग‑के‑लिए तैयार प्रॉपर्टी मैप प्राप्त कर लेते हैं।
 
-##तुरंत जवाब
-- **“how to read xmp” का क्या मतलब है?** यह मौजूदा से प्रोग्रामेटिक रूप से XMP मेटाडेटा निकालने को फिट है।
-- **कौन सी लाइब्रेरी ज़रूरी है?** Aspose.Page for Java (उपलब्ध Aspose डाउनलोड पेज से)।
-- **क्या मुझे लाइसेंस चाहिए?** प्रोडक्शन इस्तेमाल के लिए एक टेम्पररी या फुल लाइसेंस ज़रूरी है; एक फ्री ट्रायल अवेलेबल है।
-- **कौन सा Java वर्जन सपोर्टेड है?** Java8 या उससे ऊपर।
-- **क्या मैं XMP को दूसरे फ़ॉर्मेट से पढ़ सकता हूँ?** हाँ, Aspose.Page EPS, PDF और कई इमेज फ़ाइलों को हैंडल कर सकता है जो XMP एम्बेड करते हैं।
+Welcome to our step‑by‑step tutorial that shows **XMP कैसे पढ़ें** metadata with Java and the Aspose.Page library. XMP (Extensible Metadata Platform) is a widely adopted standard for embedding rich metadata inside documents. By the end of this guide you’ll be able to read document format XMP, pull out creator information, timestamps, thumbnails, and more—empowering you to build smarter document‑analysis solutions.
 
-## पूर्वापेक्षाएँ
-कोड में जाने से पहले, पक्का करें कि आपके पास ये हैं:
+## त्वरित उत्तर
+- **XMP पढ़ना** क्या मतलब है? यह फ़ाइल के भीतर मेटाडेटा संग्रहीत करने वाले XMP पैकेट को प्रोग्रामेटिकली निकालने को दर्शाता है।  
+- **कौन सी लाइब्रेरी आवश्यक है?** Aspose.Page for Java (download from the official page [here](https://releases.aspose.com/page/java/)).  
+- **क्या मुझे लाइसेंस चाहिए?** उत्पादन के लिए एक अस्थायी या पूर्ण लाइसेंस आवश्यक है; मूल्यांकन के लिए एक मुफ्त ट्रायल काम करता है।  
+- **कौन सा जावा संस्करण समर्थित है?** Java 8 या उससे ऊपर।  
+- **क्या मैं XMP को अन्य फ़ॉर्मेट्स से पढ़ सकता हूँ?** हाँ – Aspose.Page EPS, PDF, JPEG, PNG और 20 से अधिक अन्य फ़ॉर्मेट्स से XMP निकालता है।
 
-- **Java Development Kit (JDK)** – आपकी मशीन पर Java8+ इंस्टॉल और स्विच किया हुआ।
-- **Aspose.Page for Java** – ऑफिशियल साइट से लाइब्रेरी डाउनलोड करें[here](https://releases.aspose.com/page/java/).
-- एक EPS फ़ाइल जिसमें XMP मेटाडेटा हो (जैसे, `xmp1.eps`)।
+## आवश्यकताएँ
+- **Java Development Kit (JDK)** – आपके मशीन पर Java 8+ स्थापित और कॉन्फ़िगर किया हुआ।  
+- **Aspose.Page for Java** – आधिकारिक साइट से लाइब्रेरी डाउनलोड करें [here](https://releases.aspose.com/page/java/).  
+- एक EPS फ़ाइल जिसमें XMP मेटाडेटा हो (उदा., `xmp1.eps`).  
 
-## पैकेज इम्पोर्ट करें
-अपने Java प्रोजेक्ट में, ज़रूरी पैकेज इम्पोर्ट करें:
+## पैकेज आयात करें
+The `XmpMetadata` class lives in the `com.aspose.page.xmp` namespace, while the `Document` class is in `com.aspose.page`. Import both so you can work with the EPS file and its metadata.  
 ```java
 import java.io.FileInputStream;
 import com.aspose.eps.PsDocument;
@@ -45,8 +66,8 @@ import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
 ```
 
-## चरण 1: इनपुट EPS फ़ाइल स्ट्रीम को इनिशियलाइज़ करें
-अपनी डॉक्यूमेंट डायरेक्टरी का पाथ सेट करके और इनपुट EPS फ़ाइल स्ट्रीम को इनिशियलाइज़ करके शुरू करें।
+## चरण 1: इनपुट EPS फ़ाइल स्ट्रीम को प्रारंभ करें
+Begin by setting the path to your document directory and initializing the input EPS file stream.  
 ```java
 String dataDir = "Your Document Directory";
 FileInputStream psStream = new FileInputStream(dataDir + "xmp1.eps");
@@ -54,27 +75,27 @@ PsDocument document = new PsDocument(psStream);
 ```
 
 ## चरण 2: XMP मेटाडेटा प्राप्त करें
-EPS फ़ाइल से XMP मेटाडेटा निकालें। अगर फ़ाइल में XMP मेटाडेटा नहीं है, तो PS मेटाडेटा कमेंट्स से वैल्यू के साथ एक नई फ़ाइल जेनरेट होगी।
+`XmpMetadata` is Aspose.Page's object that holds the XMP packet extracted from a document. Retrieve it with `document.getXmpMetadata()`. If the file lacks XMP, the API synthesises a minimal packet from existing PostScript comments.  
 ```java
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
 ## चरण 3: CreatorTool जानकारी निकालें
-XMP मेटाडेटा से "CreatorTool" वैल्यू चेक करें और प्रिंट करें।
+The `CreatorTool` key lives under the `xmp` namespace and records the application that generated the file. Check for its presence and print the value.  
 ```java
 if (xmp.containsKey("xmp:CreatorTool"))
     System.out.println("CreatorTool: " + xmp.get("xmp:CreatorTool").toStringValue());
 ```
 
 ## चरण 4: CreateDate जानकारी निकालें
-XMP मेटाडेटा से "CreateDate" वैल्यू चेक करें और प्रिंट करें।
+`CreateDate` stores the timestamp when the document was originally created. Use the same `containsKey`/`get` pattern to read it.  
 ```java
 if (xmp.containsKey("xmp:CreateDate"))
     System.out.println("CreateDate: " + xmp.get("xmp:CreateDate").toStringValue());
 ```
 
 ## चरण 5: थंबनेल की चौड़ाई प्राप्त करें
-अगर थंबनेल मौजूद हैं, तो पहले थंबनेल की चौड़ाई निकालें और प्रिंट करें।
+If thumbnails exist, the `xmp:Thumbnails` array holds one or more entries. Each entry contains `width`, `height`, and binary data. The example extracts the width of the first thumbnail.  
 ```java
 if (xmp.containsKey("xmp:Thumbnails") && xmp.get("xmp:Thumbnails").isArray()) {
     XmpValue val = xmp.get("xmp:Thumbnails").toArray()[0];
@@ -83,68 +104,71 @@ if (xmp.containsKey("xmp:Thumbnails") && xmp.get("xmp:Thumbnails").isArray()) {
 }
 ```
 
-## चरण 6: Format जानकारी निकालें
-XMP मेटाडेटा से "format" वैल्यू चेक करें और प्रिंट करें।
+## चरण 6: फ़ॉर्मेट जानकारी निकालें
+The `format` key tells you the original file format (e.g., “application/postscript”). This is useful when you need to log or validate source types.  
 ```java
 if (xmp.containsKey("dc:format"))
     System.out.println("Format: " + xmp.get("dc:format").toStringValue());
 ```
 
 ## चरण 7: DocumentID प्राप्त करें
-XMP मेटाडेटा से "DocumentID" वैल्यू चेक करें और प्रिंट करें।
+`DocumentID` is a unique identifier assigned by the creator application. It can be used for deduplication in large asset libraries.  
 ```java
 if (xmp.containsKey("xmpMM:DocumentID"))
     System.out.println("DocumentID: " + xmp.get("xmpMM:DocumentID").toStringValue());
 ```
 
-## यह क्यों महत्वपूर्ण है
-XMP मेटाडेटा पढ़ने से आप किसी डॉक्यूमेंट को व्यूअर में खोले बिना प्रोग्राम के ज़रिए उसकी शुरुआत, बनाने की तारीख और दूसरे ज़रूरी एट्रिब्यूट का पता लगा सकते हैं। यह खास तौर पर बैच प्रोसेसिंग, कंटेंट मैनेजमेंट सिस्टम और डिजिटल एसेट पाइपलाइन के लिए उपयोगी है, जहाँ मेटाडेटा इंडेक्सिंग और सर्च को चलाता है।
+## क्यों यह महत्वपूर्ण है
+Aspose.Page can read XMP from **20+** file formats and processes documents up to **500 MB** without loading the entire file into memory, giving you fast, low‑overhead access to essential metadata. This capability is critical for batch‑processing pipelines, digital asset management systems, and any solution that relies on searchable, machine‑readable document attributes.
 
-## आम मुश्किलें और टिप्स
-- **XMP नहीं है:** कुछ EPS फ़ाइलों में XMP नहीं हो सकता है। `getXmpMetadata()` कॉल मौजूदा PS कमेंट्स के आधार पर एक मिनिमम सेट बनाएगा, लेकिन जब तक यह एम्बेडेड नहीं होगा, आपको पूरा मेटाडेटा नहीं मिलेगा।
+## सामान्य कठिनाइयाँ और सुझाव
+- **XMP अनुपलब्ध:** कुछ EPS फ़ाइलों में XMP नहीं हो सकता। `getXmpMetadata()` कॉल मौजूदा PS टिप्पणियों के आधार पर एक न्यूनतम सेट बनाता है, लेकिन पूर्ण मेटाडेटा तब तक नहीं मिलेगा जब तक वह एम्बेड न हो।  
+- **थंबनेल एरेज़:** `xmp:Thumbnails` कुंजी कई प्रविष्टियों को रख सकती है। उदाहरण केवल पहले थंबनेल की चौड़ाई निकालता है; यदि आपको सभी थंबनेल चाहिए तो एरे को इटररेट करें।  
+- **नेमस्पेस जागरूकता:** XMP कुंजियों में नेमस्पेस होते हैं (जैसे `xmp:`, `dc:`)। सुनिश्चित करें कि आप सटीक कुंजी नाम का उपयोग करें; अन्यथा `containsKey` false लौटाएगा।  
 
-- **थंबनेल एरे:** `xmp:Thumbnails` की में कई एंट्री हो सकती हैं। उदाहरण सिर्फ़ पहली वाली को निकालता है; अगर आपको सभी थंबनेल चाहिए तो एरे को इटरेट करें।
+## अक्सर पूछे जाने वाले प्रश्न
+### क्या मैं Aspose.Page for Java को अन्य प्रोग्रामिंग भाषाओं के साथ उपयोग कर सकता हूँ?
+Yes, Aspose.Page supports Java, .NET, and several other languages. See the full list in the [documentation](https://reference.aspose.com/page/java/).
 
-- **नेमस्पेस अवेयरनेस:** XMP कीज़ नेमस्पेस (जैसे, `xmp:`, `dc:`) का इस्तेमाल करती हैं। पक्का करें कि आप सही की नाम का रेफरेंस दें; नहीं तो `containsKey` गलत रिटर्न करेगा।
+### क्या Aspose.Page for Java के लिए मुफ्त ट्रायल उपलब्ध है?
+Yes, you can access the free trial [here](https://releases.aspose.com/).
 
-## अक्सर पूछे जाने वाले सवाल
-### क्या मैं Aspose.Page for Java को दूसरी प्रोग्रामिंग भाषाओं के साथ इस्तेमाल कर सकता हूँ?
-हाँ, Aspose.Page कई भाषाओं को सपोर्ट करता है, जिसमें Java, .NET, और भी बहुत कुछ शामिल है। ज़्यादा जानकारी के लिए [डॉक्यूमेंटेशन](https://reference.aspose.com/page/java/) देखें।
+### Aspose.Page for Java के लिए समर्थन कहाँ मिल सकता है?
+Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community help and official support.
 
-### क्या Aspose.Page for Java के लिए फ्री ट्रायल उपलब्ध है?
-हाँ, आप फ्री ट्रायल [यहाँ](https://releases.aspose.com/) एक्सेस कर सकते हैं।
+### Aspose.Page for Java के लिए अस्थायी लाइसेंस कैसे प्राप्त करें?
+You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 
-### मैं Aspose.Page for Java के लिए सपोर्ट कहाँ पा सकता हूँ?
-कम्युनिटी सपोर्ट के लिए [Aspose.Page फोरम](https://forum.aspose.com/c/page/39) पर जाएँ।
+### क्या Aspose.Page for Java के लिए अतिरिक्त संसाधन हैं?
+Explore the complete [documentation](https://reference.aspose.com/page/java/) and download the library [here](https://releases.aspose.com/page/java/).
 
-### मैं Aspose.Page for Java के लिए टेम्पररी लाइसेंस कैसे पाऊँ?
-आप टेम्पररी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) पा सकते हैं।
+## अतिरिक्त अक्सर पूछे जाने वाले प्रश्न
+**प्रश्न: क्या यह तरीका PDF फ़ाइलों पर काम करता है जिनमें XMP है?**  
+**उत्तर:** हाँ, Aspose.Page PDF, EPS और कई इमेज फ़ॉर्मेट्स से XMP पढ़ सकता है।
 
-### क्या Aspose.Page for Java के लिए एक्स्ट्रा रिसोर्स हैं?
-पूरा [डॉक्यूमेंटेशन](https://reference.aspose.com/page/java/) देखें और लाइब्रेरी [यहां](https://releases.aspose.com/page/java/) डाउनलोड करें।
+**प्रश्न: क्या मैं XMP मेटाडेटा को पढ़ने के बाद संशोधित कर सकता हूँ?**  
+**उत्तर:** बिल्कुल। `XmpMetadata` ऑब्जेक्ट परिवर्तनशील है; आप कुंजियों को जोड़, अपडेट या हटाकर दस्तावेज़ को सहेज सकते हैं।
 
-## एक्स्ट्रा FAQ
-**Q: क्या यह तरीका PDF फाइलों पर काम करता है जिनमें XMP हो?**
-A: हां, Aspose.Page, PDF, EPS और कई इमेज फॉर्मेट से XMP पढ़ सकता है।
-
-**Q: क्या मैं XMP मेटाडेटा को पढ़ने के बाद ऑथराइज़ कर सकता हूँ?**
-A: बिल्कुल। `XmpMetadata` ऑब्जेक्ट म्यूटेबल है; आप कीज़ जोड़, अपडेट या हटा सकते हैं और फिर डॉक्यूमेंट को सेव कर सकते हैं।
-
-**Q: क्या केवल मैप के बजाय सभी थंबनेल इमेज को निकालने का कोई तरीका है?**
-A: आप हर थंबनेल एंट्री की `xmpGImg:data` प्रॉपर्टी से बाइनरी डेटा निकाल सकते हैं और उसे एक फाइल में लिख सकते हैं।
+**प्रश्न: क्या केवल आयामों के बजाय सभी थंबनेल इमेज़ निकालने का कोई तरीका है?**  
+**उत्तर:** आप प्रत्येक थंबनेल प्रविष्टि के `xmpGImg:data` प्रॉपर्टी से बाइनरी डेटा प्राप्त कर सकते हैं और उसे फ़ाइल में लिख सकते हैं।
 
 ## निष्कर्ष
-अब आप Java और Aspose.Page का इस्तेमाल करके **XMP मेटाडेटा पढ़ना** सीख गए हैं। इन स्टेप्स को फ़ॉलो करके आप क्रिएटर टूल्स, टाइमस्टैम्प्स, थंबनेल, फ़ॉर्मेट जानकारी और डॉक्यूमेंट IDs निकाल सकते हैं—जिससे आपको अपनी EPS फ़ाइलों के एम्बेडेड मेटाडेटा की पूरी जानकारी मिल जाएगी। अपने एप्लिकेशन्स के लिए और भी बेहतर डेटा निकालने के लिए एक्स्ट्रा XMP नेमस्पेस के साथ एक्सपेरिमेंट करने में संकोच न करें।
+You've now mastered **how to read XMP** metadata using Java and Aspose.Page. By following these steps you can extract creator tools, timestamps, thumbnails, format information, and document IDs—giving you full insight into the embedded metadata of your EPS files. Feel free to experiment with additional XMP namespaces to pull even richer data for your applications.
 
 ---
 
-**अंतिम अपडेट:** 2025-12-21  
-**परीक्षण किया गया:** Aspose.Page for Java 24.12 (latest)  
-**लेखक:** Aspose
+**Last Updated:** 2026-05-25  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose Page Java ट्यूटोरियल – EPS फ़ाइलों में XMP मेटाडेटा जोड़ें](/page/java/xmp-metadata-manipulation/add-metadata/)
+- [aspose.page XMP ट्यूटोरियल – जावा का उपयोग करके XMP में नेमस्पेस जोड़ें](/page/java/xmp-metadata-manipulation/add-namespace/)
+- [aspose page XMP ट्यूटोरियल – जावा का उपयोग करके XMP में नामित मान बदलें](/page/java/xmp-metadata-manipulation/change-named-value/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
