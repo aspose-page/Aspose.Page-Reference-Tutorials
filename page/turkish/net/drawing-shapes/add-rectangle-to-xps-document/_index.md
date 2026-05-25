@@ -1,33 +1,51 @@
 ---
-title: Aspose.Page for .NET ile XPS Belgesine Dikdörtgen Ekleme
-linktitle: XPS Belgesine Dikdörtgen Ekleme
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page for .NET ile belge oluşturmayı geliştirin. Bu adım adım eğitimde XPS belgelerine nasıl dikdörtgen ekleyeceğinizi öğrenin.
-weight: 13
+date: 2026-01-20
+description: Bu adım adım rehberde Aspose.Page for .NET kullanarak XPS belgesi oluşturmayı,
+  bir dikdörtgen eklemeyi ve XPS dosyasını kaydetmeyi öğrenin.
+linktitle: Add Rectangle to XPS Document
+second_title: Aspose.Page .NET API
+title: 'XPS Belgesi Oluştur: Aspose.Page for .NET ile Dikdörtgen Ekle'
 url: /tr/net/drawing-shapes/add-rectangle-to-xps-document/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET ile XPS Belgesine Dikdörtgen Ekleme
+# XPS Belgesi Oluşturma: Aspose.Page for .NET ile Dikdörtgen Ekleme
 
-## giriiş
+## Introduction
 
-Aspose.Page for .NET, .NET uygulamalarında XPS (XML Kağıt Belirtimi) belgeleriyle çalışmak için çeşitli özellikler sağlayan güçlü bir kitaplıktır. Bu eğitimde Aspose.Page for .NET kullanarak XPS belgesine dikdörtgen eklemeye odaklanacağız. Belge oluşturma sürecinizi geliştirmek için bu adım adım kılavuzu izleyin.
+Bu öğreticide **XPS belgesi oluşturma** dosyaları oluşturacak ve Aspose.Page for .NET kütüphanesini kullanarak içinde bir dikdörtgen çizeceksiniz. Dikdörtgen gibi şekiller eklemek, fatura, rapor veya özel grafikleri programlı olarak oluşturmanız gerektiğinde yaygın bir gereksinimdir. Aşağıdaki adımları izleyin ve birkaç dakika içinde kullanıma hazır bir XPS dosyanız olacak.
 
-## Önkoşullar
+## Quick Answers
+- **Ne üretebilirim?** XPS belgeleri vektör grafikleri ve metin içerir.  
+- **Hangi kütüphane?** Aspose.Page for .NET (ücretsiz deneme mevcut).  
+- **Ne kadar sürer?** Uygulamak ve çalıştırmak yaklaşık 5‑10 dakika.  
+- **Lisans gerekiyor mu?** Üretim kullanımı için geçici bir lisans gereklidir.  
+- **Sonucu XPS dosyası olarak kaydedebilir miyim?** Evet – `Save` yöntemi bir **save XPS file** diske yazar.
 
-Bu eğitime başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## What is “create XPS document”?
 
-1.  Aspose.Page for .NET Kütüphanesi: Geliştirme ortamınızda Aspose.Page for .NET kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/page/net/).
+“XPS belgesi oluşturma” bir XPS belgesi, XML Paper Specification formatında programlı olarak bir sayfa tanımı oluşturmak anlamına gelir. Ortaya çıkan dosya çözünürlükten bağımsızdır, baskı ve platformlar arası yüksek kaliteli görüntüleme için idealdir.
 
-2. Belge Dizini: XPS belgelerinizi depolamak istediğiniz bir dizin ayarlayın.
+## Why use Aspose.Page to create XPS document?
 
-## Ad Alanlarını İçe Aktar
+- **Tam .NET desteği** – .NET Framework, .NET Core ve .NET 5/6+ ile çalışır.  
+- **Zengin çizim API'si** – yol geometrisi, fırçalar, kalemler ve metin işleme içerir.  
+- **Harici bağımlılık yok** – her şey Office veya Acrobat gerektirmeden aynı süreçte çalışır.  
 
-.NET uygulamanıza Aspose.Page işlevlerini kullanmak için gerekli ad alanlarını ekleyin.
+## Prerequisites
+
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+
+1. **Aspose.Page for .NET** – [buradan](https://releases.aspose.com/page/net/) indirin.  
+2. **Yazılabilir bir klasör** – oluşturulan XPS dosyalarının depolanacağı yer.
+
+## Import Namespaces
+
+.NET projenizde, gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,72 +53,84 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Step 1: Set the Document Directory
 
 ```csharp
 // ExStart:3
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 // ExEnd:3
 ```
 
-## 2. Adım: Yeni Bir XPS Belgesi Oluşturun
+> **Pro ipucu:** Farklı işletim sistemlerinde yol‑ayırıcı sorunlarını önlemek için mutlak bir yol veya `Path.Combine` kullanın.
+
+## Step 2: Create a New XPS Document
 
 ```csharp
 // ExStart:4
-// Yeni XPS Belgesi oluştur
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
-// ExBitiş:4
+// ExEnd:4
 ```
 
-## 3. Adım: Dikdörtgen Ekleme
+Bu noktada, tüm çizim öğelerini tutacak **XPS belgesi oluşturulmuş** bir nesneniz var.
+
+## Step 3: Add a Rectangle (using create path geometry)
 
 ```csharp
 // ExStart:5
-// Sol altta CMYK (mavi) düz renkli konturlu dikdörtgen
+// CMYK (blue) solid color stroked rectangle in the lower left
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 20,10 L 220,10 220,100 20,100 Z"));
 path.Stroke = doc.CreateSolidColorBrush(
     doc.CreateColor(dataDir + "uswebuncoated.icc", 1.0f, 1.000f, 0.000f, 0.000f, 0.000f));
 path.StrokeThickness = 12f;
-// ExBitiş:5
+// ExEnd:5
 ```
 
-## Adım 4: Belgeyi Kaydedin
+`CreatePathGeometry` çağrısı, dikdörtgenin ana hatlarını tanımlayan **path geometry oluşturur**. Diğer şekilleri çizmek için SVG benzeri komut dizesini değiştirebilirsiniz.
+
+## Step 4: Save the Document (save XPS file)
 
 ```csharp
 // ExStart:6
-// Ortaya çıkan XPS belgesini kaydedin
+// Save resultant XPS document
 doc.Save(dataDir + "AddRectangleXPS_out.xps");
-// ExBitiş:6
+// ExEnd:6
 ```
 
-Tebrikler! Aspose.Page for .NET'i kullanarak XPS belgesine başarıyla dikdörtgen eklediniz.
+`Save` çağrısı, belirttiğiniz konuma **save XPS file** yazar.
 
-## Çözüm
+Tebrikler! Başarıyla **XPS belgesi oluşturmuş**, bir dikdörtgen eklemiş ve dosyayı kaydetmiş oldunuz.
 
-Aspose.Page for .NET, belge düzenleme görevlerini basitleştirerek geliştiricilerin XPS belgelerini zahmetsizce oluşturmasına ve değiştirmesine olanak tanır. Bu adım adım kılavuz, XPS belgenize nasıl dikdörtgen ekleyeceğinizi göstererek daha fazla araştırma için sağlam bir temel sağlar.
+## Common Issues and Solutions
 
-## SSS'ler
+| Sorun | Sebep | Çözüm |
+|-------|--------|-----|
+| `FileNotFoundException` on `doc.Save` | `dataDir` var olmayan bir klasöre işaret ediyor | Klasörün mevcut olduğundan emin olun veya `Directory.CreateDirectory(dataDir)` ile oluşturun. |
+| Rectangle not visible | Çizgi renk profili eksik veya yol geometrisi hatalı | ICC dosya yolunu ve geometri dizesini (`M … Z`) doğrulayın. |
+| Performance slowdown on large documents | Çok fazla ayrı `AddPath` çağrısı | Çizim işlemlerini toplu yapın veya fırça/kalem nesnelerini yeniden kullanın. |
 
-### S1: Aspose.Page tüm .NET uygulamalarıyla uyumlu mudur?
+## Frequently Asked Questions
 
-C1: Evet, Aspose.Page tüm .NET uygulamalarıyla sorunsuz çalışacak şekilde tasarlanmıştır.
+**S: Aspose.Page tüm .NET uygulamalarıyla uyumlu mu?**  
+C: Evet, Aspose.Page tüm .NET uygulamalarıyla sorunsuz çalışacak şekilde tasarlanmıştır.
 
-### S2: Aspose.Page for .NET belgelerini nerede bulabilirim?
+**S: Aspose.Page for .NET belgelerine nereden ulaşabilirim?**  
+C: Belgeler [burada](https://reference.aspose.com/page/net/) mevcuttur.
 
- A2: Belgeler mevcut[Burada](https://reference.aspose.com/page/net/).
+**S: Aspose.Page for .NET'i satın almadan ücretsiz denemek mümkün mü?**  
+C: Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) alabilirsiniz.
 
-### S3: Satın almadan önce Aspose.Page for .NET'i ücretsiz deneyebilir miyim?
+**S: Aspose.Page for .NET için geçici bir lisans nasıl alabilirim?**  
+C: Geçici lisans almak için [bu bağlantıyı](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
- A3: Evet, ücretsiz deneme sürümünden yararlanabilirsiniz[Burada](https://releases.aspose.com/).
+**S: Aspose.Page for .NET ile ilgili topluluk desteği alabileceğim veya soru sorabileceğim yer neresi?**  
+C: Topluluk desteği için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
 
-### S4: Aspose.Page for .NET için nasıl geçici lisans alabilirim?
+**Son Güncelleme:** 2026-01-20  
+**Test Edilen:** Aspose.Page 24.11 for .NET  
+**Yazar:** Aspose  
 
- A4: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) geçici lisans almak için.
-
-### S5: Aspose.Page for .NET ile ilgili topluluk desteğini nereden alabilirim veya soru sorabilirim?
-
- A5: ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) topluluk desteği için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

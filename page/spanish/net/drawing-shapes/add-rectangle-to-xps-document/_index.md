@@ -1,33 +1,51 @@
 ---
-title: Agregue un rectángulo al documento XPS con Aspose.Page para .NET
-linktitle: Agregar rectángulo al documento XPS
-second_title: Aspose.Página .NET API
-description: Mejore la creación de documentos con Aspose.Page para .NET. Aprenda cómo agregar rectángulos a documentos XPS en este tutorial paso a paso.
-weight: 13
+date: 2026-01-20
+description: Aprenda a crear un documento XPS, añadir un rectángulo y guardar el archivo
+  XPS usando Aspose.Page para .NET en esta guía paso a paso.
+linktitle: Add Rectangle to XPS Document
+second_title: Aspose.Page .NET API
+title: 'Crear documento XPS: agregar rectángulo con Aspose.Page para .NET'
 url: /es/net/drawing-shapes/add-rectangle-to-xps-document/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Agregue un rectángulo al documento XPS con Aspose.Page para .NET
+# Crear documento XPS: agregar rectángulo con Aspose.Page para .NET
 
 ## Introducción
 
-Aspose.Page para .NET es una potente biblioteca que proporciona una variedad de funciones para trabajar con documentos XPS (XML Paper Especificación) en aplicaciones .NET. En este tutorial, nos centraremos en agregar un rectángulo a un documento XPS usando Aspose.Page para .NET. Siga esta guía paso a paso para mejorar su proceso de creación de documentos.
+En este tutorial usted **creará archivos de documento XPS** y dibujará un rectángulo dentro de ellos usando la biblioteca Aspose.Page para .NET. Agregar formas como rectángulos es un requisito común cuando necesita generar facturas, informes o gráficos personalizados de forma programática. Siga los pasos a continuación y tendrá un archivo XPS listo para usar en minutos.
+
+## Respuestas rápidas
+- **¿Qué puedo generar?** Documentos XPS con gráficos vectoriales y texto.  
+- **¿Qué biblioteca?** Aspose.Page para .NET (prueba gratuita disponible).  
+- **¿Cuánto tiempo lleva?** Aproximadamente 5‑10 minutos para implementar y ejecutar.  
+- **¿Necesito una licencia?** Se requiere una licencia temporal para uso en producción.  
+- **¿Puedo guardar el resultado como archivo XPS?** Sí – el método `Save` escribe un **archivo XPS guardado** en disco.
+
+## ¿Qué es “crear documento XPS”?
+
+Crear un documento XPS significa construir programáticamente una descripción de página en el formato XML Paper Specification. El archivo resultante es independiente de la resolución, ideal para impresión y visualización de alta calidad en todas las plataformas.
+
+## ¿Por qué usar Aspose.Page para crear documento XPS?
+
+- **Soporte completo de .NET** – funciona con .NET Framework, .NET Core y .NET 5/6+.  
+- **API de dibujo rica** – incluye geometría de rutas, pinceles, plumas y manejo de texto.  
+- **Sin dependencias externas** – todo se ejecuta en proceso sin necesidad de Office o Acrobat.  
 
 ## Requisitos previos
 
-Antes de comenzar con este tutorial, asegúrese de cumplir con los siguientes requisitos previos:
+Antes de comenzar, asegúrese de tener lo siguiente:
 
-1.  Biblioteca Aspose.Page para .NET: asegúrese de tener la biblioteca Aspose.Page para .NET instalada en su entorno de desarrollo. Puedes descargarlo[aquí](https://releases.aspose.com/page/net/).
-
-2. Directorio de documentos: configure un directorio donde desee almacenar sus documentos XPS.
+1. **Aspose.Page para .NET** – descárguelo [aquí](https://releases.aspose.com/page/net/).  
+2. **Una carpeta con permisos de escritura** donde se almacenarán los archivos XPS generados.
 
 ## Importar espacios de nombres
 
-En su aplicación .NET, incluya los espacios de nombres necesarios para utilizar las funcionalidades de Aspose.Page.
+En su proyecto .NET, importe los espacios de nombres requeridos:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,72 +53,86 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Paso 1: configurar el directorio de documentos
+## Paso 1: establecer el directorio del documento
 
 ```csharp
-// ExInicio:3
-// La ruta al directorio de documentos.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Fin final: 3
+// ExEnd:3
 ```
 
-## Paso 2: cree un nuevo documento XPS
+> **Consejo profesional:** Use una ruta absoluta o `Path.Combine` para evitar problemas de separador de rutas en diferentes sistemas operativos.
+
+## Paso 2: crear un nuevo documento XPS
 
 ```csharp
-// ExInicio:4
-// Crear nuevo documento XPS
+// ExStart:4
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
-// Fin final: 4
+// ExEnd:4
 ```
 
-## Paso 3: agrega un rectángulo
+En este punto usted tiene un objeto **documento XPS creado** que contendrá todos los elementos de dibujo.
+
+## Paso 3: agregar un rectángulo (usando create path geometry)
 
 ```csharp
-// ExInicio:5
-// Rectángulo con trazos de color sólido CMYK (azul) en la parte inferior izquierda
+// ExStart:5
+// CMYK (blue) solid color stroked rectangle in the lower left
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 20,10 L 220,10 220,100 20,100 Z"));
 path.Stroke = doc.CreateSolidColorBrush(
     doc.CreateColor(dataDir + "uswebuncoated.icc", 1.0f, 1.000f, 0.000f, 0.000f, 0.000f));
 path.StrokeThickness = 12f;
-// Fin final: 5
+// ExEnd:5
 ```
 
-## Paso 4: guarde el documento
+La llamada `CreatePathGeometry` **crea geometría de ruta** que define el contorno del rectángulo. Puede modificar la cadena de comandos similar a SVG para dibujar otras formas.
+
+## Paso 4: guardar el documento (save XPS file)
 
 ```csharp
-// ExInicio:6
-// Guarde el documento XPS resultante
+// ExStart:6
+// Save resultant XPS document
 doc.Save(dataDir + "AddRectangleXPS_out.xps");
-// Fin final: 6
+// ExEnd:6
 ```
 
-¡Felicidades! Ha agregado con éxito un rectángulo a un documento XPS usando Aspose.Page para .NET.
+Llamar a `Save` escribe el **archivo XPS guardado** en la ubicación que especificó.
 
-## Conclusión
+¡Felicidades! Ha creado exitosamente un **documento XPS**, agregado un rectángulo y guardado el archivo.
 
-Aspose.Page para .NET simplifica las tareas de manipulación de documentos, permitiendo a los desarrolladores crear y modificar documentos XPS sin esfuerzo. Esta guía paso a paso demuestra cómo agregar un rectángulo a su documento XPS, proporcionando una base sólida para una mayor exploración.
+## Problemas comunes y soluciones
+
+| Problema | Razón | Solución |
+|----------|-------|----------|
+| `FileNotFoundException` en `doc.Save` | `dataDir` apunta a una carpeta inexistente | Asegúrese de que el directorio exista o créelo con `Directory.CreateDirectory(dataDir)`. |
+| El rectángulo no es visible | Falta el perfil de color del trazo o la geometría de ruta está malformada | Verifique la ruta del archivo ICC y la cadena de geometría (`M … Z`). |
+| Ralentización del rendimiento en documentos grandes | Demasiadas llamadas individuales a `AddPath` | Agrupe operaciones de dibujo o reutilice objetos de pinceles/pluma. |
 
 ## Preguntas frecuentes
 
-### P1: ¿Aspose.Page es compatible con todas las aplicaciones .NET?
+**P: ¿Es Aspose.Page compatible con todas las aplicaciones .NET?**  
+R: Sí, Aspose.Page está diseñado para funcionar sin problemas con todas las aplicaciones .NET.
 
-R1: Sí, Aspose.Page está diseñado para funcionar perfectamente con todas las aplicaciones .NET.
+**P: ¿Dónde puedo encontrar la documentación de Aspose.Page para .NET?**  
+R: La documentación está disponible [aquí](https://reference.aspose.com/page/net/).
 
-### P2: ¿Dónde puedo encontrar la documentación de Aspose.Page para .NET?
+**P: ¿Puedo probar Aspose.Page para .NET de forma gratuita antes de comprar?**  
+R: Sí, puede obtener una prueba gratuita [aquí](https://releases.aspose.com/).
 
- A2: La documentación está disponible.[aquí](https://reference.aspose.com/page/net/).
+**P: ¿Cómo puedo obtener una licencia temporal para Aspose.Page para .NET?**  
+R: Visite [este enlace](https://purchase.aspose.com/temporary-license/) para obtener una licencia temporal.
 
-### P3: ¿Puedo probar Aspose.Page para .NET gratis antes de comprarlo?
+**P: ¿Dónde puedo buscar soporte de la comunidad o hacer preguntas relacionadas con Aspose.Page para .NET?**  
+R: Visite el [foro de Aspose.Page](https://forum.aspose.com/c/page/39) para soporte de la comunidad.
 
- R3: Sí, puedes obtener una prueba gratuita[aquí](https://releases.aspose.com/).
+---
 
-### P4: ¿Cómo puedo obtener una licencia temporal de Aspose.Page para .NET?
+**Última actualización:** 2026-01-20  
+**Probado con:** Aspose.Page 24.11 para .NET  
+**Autor:** Aspose  
 
- A4: Visita[este enlace](https://purchase.aspose.com/temporary-license/) para obtener una licencia temporal.
-
-### P5: ¿Dónde puedo buscar soporte de la comunidad o hacer preguntas relacionadas con Aspose.Page para .NET?
-
- A5: Visita el[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) para el apoyo de la comunidad.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

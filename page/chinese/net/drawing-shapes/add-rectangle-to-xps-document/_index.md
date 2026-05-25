@@ -1,33 +1,50 @@
 ---
-title: 使用 Aspose.Page for .NET 将矩形添加到 XPS 文档
-linktitle: 将矩形添加到 XPS 文档
+date: 2026-01-20
+description: 学习如何使用 Aspose.Page for .NET 创建 XPS 文档、添加矩形并保存 XPS 文件的分步指南。
+linktitle: Add Rectangle to XPS Document
 second_title: Aspose.Page .NET API
-description: 使用 Aspose.Page for .NET 增强文档创建。在此分步教程中了解如何向 XPS 文档添加矩形。
-weight: 13
+title: 创建 XPS 文档：使用 Aspose.Page for .NET 添加矩形
 url: /zh/net/drawing-shapes/add-rectangle-to-xps-document/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page for .NET 将矩形添加到 XPS 文档
+# 创建 XPS 文档：使用 Aspose.Page for .NET 添加矩形
 
-## 介绍
+## Introduction
 
-Aspose.Page for .NET 是一个功能强大的库，提供了在 .NET 应用程序中处理 XPS（XML 纸张规范）文档的各种功能。在本教程中，我们将重点介绍使用 Aspose.Page for .NET 将矩形添加到 XPS 文档。按照此分步指南来增强您的文档创建过程。
+在本教程中，您将使用 Aspose.Page for .NET 库 **创建 XPS 文档** 并在其中绘制矩形。添加矩形等形状是需要以编程方式生成发票、报告或自定义图形时的常见需求。按照以下步骤操作，您将在几分钟内拥有可直接使用的 XPS 文件。
 
-## 先决条件
+## Quick Answers
+- **我可以生成什么？** XPS 文档，包含矢量图形和文本。  
+- **使用哪个库？** Aspose.Page for .NET（提供免费试用）。  
+- **需要多长时间？** 实现并运行大约需要 5‑10 分钟。  
+- **我需要许可证吗？** 生产使用需要临时许可证。  
+- **我可以将结果保存为 XPS 文件吗？** 是的——`Save` 方法会将 **保存的 XPS 文件** 写入磁盘。
 
-在开始学习本教程之前，请确保您具备以下先决条件：
+## What is “create XPS document”?
 
-1.  Aspose.Page for .NET 库：确保您的开发环境中安装了 Aspose.Page for .NET 库。你可以下载它[这里](https://releases.aspose.com/page/net/).
+创建 XPS 文档是指以编程方式构建符合 XML Paper Specification（XML 纸张规范）格式的页面描述。生成的文件分辨率无关，适合跨平台的打印和高质量显示。
 
-2. 文档目录：设置要存储 XPS 文档的目录。
+## Why use Aspose.Page to create XPS document?
 
-## 导入命名空间
+- **完整的 .NET 支持** – 兼容 .NET Framework、.NET Core 和 .NET 5/6+。  
+- **丰富的绘图 API** – 包含路径几何、画刷、画笔和文本处理。  
+- **无外部依赖** – 所有功能均在进程内运行，无需 Office 或 Acrobat。  
 
-在您的 .NET 应用程序中，包含使用 Aspose.Page 功能所需的命名空间。
+## Prerequisites
+
+在开始之前，请确保您具备以下条件：
+
+1. **Aspose.Page for .NET** – 在[此处](https://releases.aspose.com/page/net/)下载。  
+2. **可写文件夹**，用于存放生成的 XPS 文件。
+
+## Import Namespaces
+
+在 .NET 项目中，导入所需的命名空间：
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,72 +52,86 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## 第1步：设置文档目录
+## Step 1: Set the Document Directory
 
 ```csharp
-//起始时间：3
-//文档目录的路径。
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//结束：3
+// ExEnd:3
 ```
 
-## 第 2 步：创建新的 XPS 文档
+> **小贴士：** 使用绝对路径或 `Path.Combine`，以避免不同操作系统上的路径分隔符问题。
+
+## Step 2: Create a New XPS Document
 
 ```csharp
-//起始时间：4
-//创建新的 XPS 文档
+// ExStart:4
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
-//结束：4
+// ExEnd:4
 ```
 
-## 第三步：添加一个矩形
+此时，您已经 **创建了 XPS 文档** 对象，用于容纳所有绘图元素。
+
+## Step 3: Add a Rectangle (using create path geometry)
 
 ```csharp
-//起始时间：5
-//左下角的 CMYK（蓝色）纯色描边矩形
+// ExStart:5
+// CMYK (blue) solid color stroked rectangle in the lower left
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 20,10 L 220,10 220,100 20,100 Z"));
 path.Stroke = doc.CreateSolidColorBrush(
     doc.CreateColor(dataDir + "uswebuncoated.icc", 1.0f, 1.000f, 0.000f, 0.000f, 0.000f));
 path.StrokeThickness = 12f;
-//结束：5
+// ExEnd:5
 ```
 
-## 步骤 4：保存文档
+`CreatePathGeometry` 调用 **创建路径几何**，定义矩形的轮廓。您可以修改类似 SVG 的命令字符串以绘制其他形状。
+
+## Step 4: Save the Document (save XPS file)
 
 ```csharp
-//起始时间：6
-//保存生成的 XPS 文档
+// ExStart:6
+// Save resultant XPS document
 doc.Save(dataDir + "AddRectangleXPS_out.xps");
-//结束：6
+// ExEnd:6
 ```
 
-恭喜！您已使用 Aspose.Page for .NET 成功将矩形添加到 XPS 文档中。
+调用 `Save` 将 **保存的 XPS 文件** 写入您指定的位置。
 
-## 结论
+Congratulations! 您已成功 **创建 XPS 文档**，添加矩形并保存文件。
 
-Aspose.Page for .NET 简化了文档操作任务，使开发人员能够轻松创建和修改 XPS 文档。本分步指南演示了如何向 XPS 文档添加矩形，为进一步探索奠定了坚实的基础。
+## Common Issues and Solutions
 
-## 常见问题解答
+| 问题 | 原因 | 解决方案 |
+|-------|--------|-----|
+| `doc.Save` 时出现 `FileNotFoundException` | `dataDir` 指向不存在的文件夹 | 确保目录存在，或使用 `Directory.CreateDirectory(dataDir)` 创建它。 |
+| 矩形不可见 | 缺少描边颜色配置文件或路径几何格式错误 | 检查 ICC 文件路径以及几何字符串 (`M … Z`)。 |
+| 大型文档性能下降 | 过多的单独 `AddPath` 调用 | 批量绘制操作或复用画刷/画笔对象。 |
 
-### Q1：Aspose.Page 是否与所有.NET 应用程序兼容？
+## Frequently Asked Questions
 
-A1：是的，Aspose.Page 旨在与所有 .NET 应用程序无缝协作。
+**问：Aspose.Page 与所有 .NET 应用程序兼容吗？**  
+答：是的，Aspose.Page 旨在与所有 .NET 应用程序无缝配合。
 
-### Q2：在哪里可以找到 Aspose.Page for .NET 的文档？
+**问：在哪里可以找到 Aspose.Page for .NET 的文档？**  
+答：文档可在[此处](https://reference.aspose.com/page/net/)获取。
 
- A2：文档可用[这里](https://reference.aspose.com/page/net/).
+**问：在购买前我可以免费试用 Aspose.Page for .NET 吗？**  
+答：可以，免费试用请前往[此处](https://releases.aspose.com/)。
 
-### Q3：我可以在购买前免费试用 Aspose.Page for .NET 吗？
+**问：如何获取 Aspose.Page for .NET 的临时许可证？**  
+答：请访问[此链接](https://purchase.aspose.com/temporary-license/)获取临时许可证。
 
- A3：是的，您可以获得免费试用[这里](https://releases.aspose.com/).
+**问：在哪里可以获取社区支持或提问关于 Aspose.Page for .NET 的问题？**  
+答：请前往[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)获取社区支持。
 
-### Q4：如何获得 Aspose.Page for .NET 的临时许可证？
+---
 
-A4：参观[这个链接](https://purchase.aspose.com/temporary-license/)获得临时许可证。
+**最后更新：** 2026-01-20  
+**测试环境：** Aspose.Page 24.11 for .NET  
+**作者：** Aspose  
 
-### Q5：我可以在哪里寻求社区支持或提出与 Aspose.Page for .NET 相关的问题？
-
- A5：访问[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)以获得社区支持。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

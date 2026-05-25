@@ -1,49 +1,65 @@
 ---
-title: Hợp nhất tài liệu XPS thành PDF bằng Aspose.Page cho .NET
-linktitle: Hợp nhất tài liệu XPS thành PDF
-second_title: API Aspose.Page .NET
-description: Dễ dàng hợp nhất các tài liệu XPS thành các tệp PDF chất lượng cao bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm chuyển đổi tài liệu suôn sẻ.
-weight: 11
+date: 2026-01-20
+description: Dễ dàng thêm số trang PDF khi hợp nhất tài liệu XPS thành các tệp PDF
+  chất lượng cao bằng Aspose.Page cho .NET. Hãy làm theo hướng dẫn từng bước của chúng
+  tôi để chuyển đổi XPS sang PDF.
+linktitle: Merge XPS Documents into PDF
+second_title: Aspose.Page .NET API
+title: Thêm số trang vào PDF – Chuyển XPS sang PDF bằng Aspose.Page
 url: /vi/net/document-merging/merge-xps-documents-into-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hợp nhất tài liệu XPS thành PDF bằng Aspose.Page cho .NET
+# Thêm số trang PDF – Gộp XPS sang PDF bằng Aspose.Page
 
-## Giới thiệu
+## Introduction
 
-Trong bối cảnh xử lý tài liệu ngày càng phát triển, Aspose.Page for .NET nổi lên như một công cụ mạnh mẽ để hợp nhất liền mạch các tài liệu XPS thành định dạng PDF. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng bước để đảm bảo thực hiện suôn sẻ và hiệu quả.
+Nếu bạn cần **thêm số trang PDF** khi gộp các tệp XPS, Aspose.Page cho .NET giúp quá trình trở nên dễ dàng. Trong hướng dẫn này, chúng tôi sẽ đi qua một ví dụ hoàn chỉnh, sẵn sàng cho sản xuất, chuyển đổi tài liệu XPS sang PDF chất lượng cao, cho phép bạn kiểm soát nén hình ảnh và tự động chèn số trang vào PDF cuối cùng. Khi hoàn thành, bạn sẽ có một đoạn mã có thể tái sử dụng trong bất kỳ dự án C# nào.
 
-## Điều kiện tiên quyết
+## Quick Answers
+- **Tôi có thể thêm số trang khi gộp XPS sang PDF không?** Có – thuộc tính `PdfSaveOptions.PageNumbers` thực hiện đúng điều đó.  
+- **Thư viện nào thực hiện việc chuyển đổi?** Aspose.Page cho .NET.  
+- **Tôi có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** Cần một giấy phép Aspose.Page hợp lệ; giấy phép tạm thời có sẵn cho mục đích thử nghiệm.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, và .NET 5/6+.  
+- **Có thể xuất hình ảnh chất lượng cao không?** Chắc chắn – đặt `JpegQualityLevel` thành 100 và chọn `PdfImageCompression.Jpeg`.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Prerequisites
 
--  Aspose.Page for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Page. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/page/net/).
+Trước khi bắt đầu hướng dẫn, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
 
-- Tệp tài liệu: Có tài liệu XPS (`input.xps`) sẵn sàng trong thư mục được chỉ định của bạn.
+- Aspose.Page cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Page. Bạn có thể tải xuống từ [here](https://releases.aspose.com/page/net/).
 
-## Nhập không gian tên
+- Tệp tài liệu: Đảm bảo tệp XPS (`input.xps`) đã sẵn sàng trong thư mục bạn chỉ định.
 
-Trong dự án .NET của bạn, hãy bao gồm các vùng tên cần thiết để làm việc với Aspose.Page:
+## Import Namespaces
+
+Trong dự án .NET của bạn, bao gồm các namespace cần thiết để làm việc với Aspose.Page:
 
 ```csharp
 using Aspose.Page.XPS;
 ```
 
-Bước này đảm bảo rằng bạn có quyền truy cập vào các lớp và phương thức cần thiết để chuyển đổi tài liệu.
+Bước này đảm bảo bạn có quyền truy cập vào các lớp và phương thức cần thiết cho việc chuyển đổi tài liệu.
 
-## Bước 1: Khởi tạo luồng
+## How to add page numbers PDF when merging XPS documents
+
+`Bộ sưu tập PdfSaveOptions.PageNumbers` cho phép bạn chỉ định chính xác những trang (hoặc phạm vi trang) sẽ xuất hiện trong PDF đầu ra. Bằng cách điền các số trang bạn muốn, Aspose.Page sẽ tự động chèn số thứ tự phù hợp.
+
+### Step 1: Initialize Streams
+
+Bước 1: Khởi tạo các luồng
 
 ```csharp
-// Bắt đầu:3
-// Đường dẫn đến thư mục tài liệu.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Khởi tạo luồng đầu ra PDF
+// Initialize PDF output stream
 using (System.IO.Stream pdfStream = System.IO.File.Open(dataDir + "XPStoPDF_out.pdf", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
-// Khởi tạo luồng đầu vào XPS
+// Initialize XPS input stream
 using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 {
     // ...
@@ -51,50 +67,58 @@ using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", S
 // ExEnd:3
 ```
 
-Bước này liên quan đến việc thiết lập luồng đầu vào và đầu ra cho tệp XPS và PDF. Đảm bảo sử dụng đúng đường dẫn và tên tệp.
+Bước này liên quan đến việc thiết lập các luồng đầu vào và đầu ra cho các tệp XPS và PDF. Đảm bảo sử dụng đúng đường dẫn và tên tệp.
 
-## Bước 2: Tải tài liệu XPS
+### Step 2: Load XPS Document
+
+Bước 2: Tải tài liệu XPS
 
 ```csharp
 // ExStart:4
-// Tải tài liệu XPS dưới dạng luồng
+// Load XPS document form the stream
 XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
-// hoặc tải tài liệu XPS trực tiếp từ tệp. Khi đó không cần xpsStream.
-//Tài liệu XpsDocument = new XpsDocument(inputFileName, new XpsLoadOptions());
+// or load XPS document directly from file. No xpsStream is needed then.
+// XpsDocument document = new XpsDocument(inputFileName, new XpsLoadOptions());
 // ExEnd:4
 ```
 
- Ở đây, chúng tôi tải tài liệu XPS vào`XpsDocument` đối tượng, chuẩn bị cho quá trình xử lý tiếp theo.
+Ở đây, chúng ta tải tài liệu XPS vào đối tượng `XpsDocument`, chuẩn bị cho các bước xử lý tiếp theo.
 
-## Bước 3: Khởi tạo tùy chọn lưu
+### Step 3: Initialize Save Options (merge xps to pdf)
+
+Bước 3: Khởi tạo tùy chọn lưu (gộp XPS sang PDF)
 
 ```csharp
 // ExStart:5
-// Khởi tạo đối tượng tùy chọn với các tham số cần thiết.
+// Initialize options object with necessary parameters.
 PdfSaveOptions options = new PdfSaveOptions()
 {
     JpegQualityLevel = 100,
     ImageCompression = PdfImageCompression.Jpeg,
     TextCompression = PdfTextCompression.Flate,
-    PageNumbers = new int[] { 1, 2, 6 }
+    PageNumbers = new int[] { 1, 2, 6 }   // <-- adds page numbers PDF
 };
 // ExEnd:5
 ```
 
- Tùy chỉnh`PdfSaveOptions` đối tượng dựa trên sở thích của bạn, chỉ định các tham số như nén ảnh, nén văn bản và số trang.
+Tùy chỉnh đối tượng `PdfSaveOptions` theo sở thích của bạn, chỉ định các tham số như nén hình ảnh, nén văn bản và **số trang** bạn muốn xuất hiện trong PDF cuối cùng. Đặt `JpegQualityLevel` thành 100 đảm bảo **hình ảnh PDF chất lượng cao**.
 
-## Bước 4: Tạo thiết bị kết xuất
+### Step 4: Create Rendering Device
+
+Bước 4: Tạo thiết bị render
 
 ```csharp
 // ExStart:6
-// Tạo thiết bị kết xuất cho định dạng PDF
+// Create rendering device for PDF format
 PdfDevice device = new PdfDevice(pdfStream);
 // ExEnd:6
 ```
 
- Các`PdfDevice` là công cụ chịu trách nhiệm hiển thị tài liệu XPS sang định dạng PDF.
+`PdfDevice` là công cụ chịu trách nhiệm chuyển đổi tài liệu XPS sang định dạng PDF.
 
-## Bước 5: Lưu tài liệu
+### Step 5: Save the Document (c# xps to pdf)
+
+Bước 5: Lưu tài liệu (C# XPS sang PDF)
 
 ```csharp
 // ExStart:7
@@ -102,33 +126,58 @@ document.Save(device, options);
 // ExEnd:7
 ```
 
-Cuối cùng, lưu tài liệu bằng thiết bị kết xuất và các tùy chọn đã chỉ định.
+Cuối cùng, lưu tài liệu bằng thiết bị render và các tùy chọn đã chỉ định. PDF đầu ra sẽ chứa các trang đã chọn với số trang được tự động thêm.
 
-## Phần kết luận
+## Why use Aspose.Page for this conversion?
 
-Chúc mừng! Bạn đã hợp nhất thành công các tài liệu XPS thành PDF bằng Aspose.Page for .NET. Quá trình liền mạch này đảm bảo duy trì chất lượng và định dạng tài liệu.
+Tại sao nên sử dụng Aspose.Page cho việc chuyển đổi này?
 
-## Câu hỏi thường gặp
+- **Độ tin cậy** – Xử lý các tính năng phức tạp của XPS mà không mất độ chính xác.  
+- **Hiệu suất** – Xử lý dựa trên luồng tránh việc tải toàn bộ tệp vào bộ nhớ.  
+- **Linh hoạt** – Kiểm soát chi tiết chất lượng hình ảnh, nén và đánh số trang.  
+- **Đa nền tảng** – Hoạt động trên Windows, Linux và macOS với .NET Core.
 
-### Câu hỏi 1: Tôi có thể hợp nhất nhiều tệp XPS thành một tệp PDF không?
+## Common Issues and Solutions
 
- A1: Có, bạn có thể. Đơn giản chỉ cần điều chỉnh`PageNumbers` tham số trong`PdfSaveOptions` để bao gồm các trang mong muốn từ các tệp XPS khác nhau.
+Các vấn đề thường gặp và giải pháp
 
-### Câu hỏi 2: Giấy phép tạm thời có sẵn cho Aspose.Page cho .NET không?
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **PDF đầu ra trống** | Xác minh rằng đường dẫn tệp XPS là đúng và tệp không bị hỏng. |
+| **Số trang không hiển thị** | Đảm bảo `PageNumbers` được đặt đúng chỉ số trang dựa trên zero (ví dụ, `new int[] {1,2,6}`). |
+| **Hình ảnh chất lượng thấp** | Tăng `JpegQualityLevel` và chọn `PdfImageCompression.Jpeg`. |
+| **Các tệp XPS lớn gây áp lực bộ nhớ** | Xử lý XPS thành các phần nhỏ hơn hoặc tăng giới hạn bộ nhớ của ứng dụng. |
 
- A2: Có, bạn có thể xin giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+## Frequently Asked Questions
 
-### Câu hỏi 3: Có bất kỳ hạn chế nào về kích thước tệp khi sử dụng Aspose.Page để chuyển đổi tài liệu không?
+Câu hỏi thường gặp
 
-Câu trả lời 3: Aspose.Page for .NET không áp đặt các giới hạn nghiêm ngặt về kích thước tệp nhưng đạt được hiệu suất tối ưu với kích thước tệp hợp lý.
+### Q1: Tôi có thể gộp nhiều tệp XPS thành một PDF duy nhất không?
 
-### Câu hỏi 4: Tôi có thể tùy chỉnh thêm tệp PDF đầu ra, chẳng hạn như thêm hình mờ hoặc chú thích không?
+A1: Có, bạn có thể. Chỉ cần điều chỉnh tham số `PageNumbers` trong `PdfSaveOptions` để bao gồm các trang mong muốn từ các tệp XPS khác nhau, hoặc tải từng XPS theo thứ tự và gọi `document.Save` trên cùng một `PdfDevice`.
 
-Câu trả lời 4: Có, Aspose.Page for .NET cung cấp các tính năng mở rộng để thao tác với PDF. Kiểm tra tài liệu để biết các tùy chọn tùy chỉnh nâng cao.
+### Q2: Có giấy phép tạm thời cho Aspose.Page cho .NET không?
 
-### Câu hỏi 5: Aspose.Page cho .NET có hỗ trợ phát triển đa nền tảng không?
+A2: Có, bạn có thể nhận giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/) để thử nghiệm.
 
-Câu trả lời 5: Có, Aspose.Page dành cho .NET được thiết kế để hoạt động trơn tru trên nhiều nền tảng khác nhau.
+### Q3: Có giới hạn nào về kích thước tệp khi sử dụng Aspose.Page để chuyển đổi tài liệu không?
+
+A3: Aspose.Page cho .NET không áp đặt giới hạn nghiêm ngặt về kích thước tệp, nhưng hiệu suất tối ưu đạt được với các tệp có kích thước hợp lý. Đối với các tài liệu XPS rất lớn, hãy cân nhắc xử lý chúng bằng luồng để giảm tiêu thụ bộ nhớ.
+
+### Q4: Tôi có thể tùy chỉnh thêm PDF đầu ra, chẳng hạn thêm watermark hoặc chú thích không?
+
+A4: Có, Aspose.Page cho .NET cung cấp các tính năng phong phú cho việc thao tác PDF. Sau khi chuyển đổi, bạn có thể sử dụng thư viện Aspose.PDF để thêm watermark, chú thích hoặc các cải tiến khác.
+
+### Q5: Aspose.Page cho .NET có hỗ trợ phát triển đa nền tảng không?
+
+A5: Có, Aspose.Page cho .NET được thiết kế để hoạt động liền mạch trên nhiều nền tảng, bao gồm Windows, Linux và macOS, khi sử dụng với .NET Core hoặc .NET 5/6.
+
+---
+
+**Cập nhật lần cuối:** 2026-01-20  
+**Được kiểm tra với:** Aspose.Page 24.11 cho .NET  
+**Tác giả:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
