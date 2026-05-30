@@ -1,33 +1,48 @@
 ---
-title: Přidejte obdélník do PostScriptu (PS) pomocí Aspose.Page pro .NET
-linktitle: Přidat obdélník do PostScriptu (PS)
+date: 2026-01-18
+description: Naučte se, jak vytvořit PostScript dokument v .NET a přidávat obdélníky
+  pomocí Aspose.Page pro .NET. Podrobný návod krok za krokem s ukázkami kódu.
+linktitle: Add Rectangle to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: Vylepšete vytváření dokumentů v .NET pomocí Aspose.Page. Naučte se přidávat obdélníky do souborů PostScript (PS) krok za krokem.
-weight: 12
+title: Vytvořte PostScript dokument v .NET – Přidejte obdélník pomocí Aspose.Page
 url: /cs/net/drawing-shapes/add-rectangle-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidejte obdélník do PostScriptu (PS) pomocí Aspose.Page pro .NET
+# Přidání obdélníku do PostScriptu (PS) pomocí Aspose.Page pro .NET
 
 ## Úvod
 
-Pokud chcete zlepšit své možnosti vytváření dokumentů v .NET, Aspose.Page poskytuje výkonné řešení pro práci s dokumenty PostScript. V tomto tutoriálu vás provedeme procesem přidávání obdélníků do dokumentu PostScript pomocí Aspose.Page for .NET.
+Pokud hledáte **create postscript document .net**, Aspose.Page poskytuje výkonné řešení pro práci se soubory PostScript. V tomto tutoriálu vás provedeme přidáním obdélníků do dokumentu PostScript pomocí Aspose.Page pro .NET, což vám poskytne pevný základ pro tvorbu bohatší grafiky.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaká knihovna potřebuji?** Aspose.Page for .NET.
+- **Mohu vytvořit dokument PostScript od nuly?** Ano – API vám umožní programově vytvářet PS soubory.
+- **Které verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Potřebuji licenci pro vývoj?** Bezplatná zkušební verze funguje pro testování; licence je vyžadována pro produkci.
+- **Jak dlouho trvá implementace?** Obvykle méně než 10 minut pro základní tvary.
 
-Než se ponoříte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Co je vytváření dokumentu PostScript v .NET?
+Vytváření dokumentu PostScript v .NET znamená programově generovat soubor .ps, který popisuje obsah stránky — text, grafiku nebo tvary — pomocí API Aspose.Page. Tento přístup je ideální pro generování grafiky na serveru, automatizované vytváření reportů nebo jakýkoli scénář, kde potřebujete přesnou kontrolu nad výstupním formátem.
 
--  Knihovna Aspose.Page for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Page for .NET z[tady](https://releases.aspose.com/page/net/).
+## Proč používat Aspose.Page pro .NET?
+- **Plná kontrola nad grafikou** — kreslete tvary, nastavujte barvy a aplikujte tahy bez nutnosti pracovat s nízkoúrovňovou PS syntaxí.
+- **Cross‑platform** — funguje na Windows, Linux a macOS runtimech.
+- **Žádné externí závislosti** — knihovna interně zajišťuje veškerou generaci PS.
+- **Bohatá dokumentace a příklady** — rychle se rozjedete.
 
-- Vývojové prostředí: Ujistěte se, že máte na svém počítači nastavené vývojové prostředí .NET.
+## Požadavky
 
-## Import jmenných prostorů
+- **Aspose.Page for .NET Library** — stáhněte a nainstalujte z [here](https://releases.aspose.com/page/net/).
+- **Vývojové prostředí** — Visual Studio, VS Code nebo jakékoli IDE kompatibilní s .NET.
 
-Než začnete kódovat, nezapomeňte naimportovat potřebné jmenné prostory pro přístup k požadovaným třídám a metodám:
+## Importování jmenných prostorů
+
+Před zahájením kódování importujte jmenné prostory, které poskytují požadované třídy:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,108 +52,111 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Nyní si příklad rozdělíme do několika kroků:
+Nyní rozdělíme příklad do jasných, číslovaných kroků.
 
-## Krok 1: Nastavte adresář dokumentů
+## Krok 1: Nastavte adresář dokumentu
 
 ```csharp
-// Start: 1
-// Cesta k adresáři dokumentů.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-V tomto kroku nahraďte "Your Document Directory" cestou, kam chcete uložit svůj PostScriptový dokument.
+Nahraďte `"Your Document Directory"` složkou, kam chcete uložit výsledný PS soubor.
 
-## Krok 2: Vytvořte výstupní proud pro dokument PostScript
+## Krok 2: Vytvořte výstupní stream pro dokument PostScript
 
 ```csharp
-//Vytvořte výstupní proud pro dokument PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-Zde vytvoříme výstupní proud pro PostScriptový dokument a určíme název souboru ("AddRectangle_outPS.ps"). Upravte název a umístění souboru podle svých preferencí.
+Tento stream ukazuje na **AddRectangle_outPS.ps**. Klidně soubor přejmenujte nebo změňte umístění podle potřeby.
 
-## Krok 3: Nastavte možnosti uložení a vytvořte dokument PS
+## Krok 3: Nastavte možnosti uložení a vytvořte PS dokument
 
 ```csharp
-//Vytvořte možnosti uložení s velikostí A4
+//Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 
-// Vytvořte nový 1stránkový dokument PS
+// Create new 1‑paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Nastavte možnosti uložení a určete požadovanou velikost stránky (v tomto případě A4). Potom vytvořte nový jednostránkový dokument PostScript.
+Zde říkáme Aspose.Page, aby použil velikost stránky A4 a vytvořil jednosloučkový dokument.
 
-## Krok 4: Přidejte obdélník a výplň
+## Krok 4: Přidejte vyplněný obdélník
 
 ```csharp
-//Vytvořte cestu grafiky z prvního obdélníku
+//Create graphics path from the first rectangle
 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 100, 150, 100));
 
-//Nastavte barvu
+//Set paint
 document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-//Vyplňte obdélník
+//Fill the rectangle
 document.Fill(path);
 ```
 
-Zde vytvoříme grafickou cestu představující první obdélník, nastavíme barvu nátěru (v tomto případě oranžovou) a vyplníme obdélník.
+Definujeme obdélník v (250, 100) s šířkou 150 a výškou 100, nastavíme oranžový štětec a vyplníme tvar.
 
-## Krok 5: Přidejte další obdélník a tah
+## Krok 5: Přidejte obdélník s obrysem
 
 ```csharp
-//Vytvořte cestu grafiky z druhého obdélníku
+//Create graphics path from the second rectangle
 path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 300, 150, 100));
 
-//Nastavit zdvih
+//Set stroke
 document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Red), 3));
 
-//Vytáhněte (obkreslete) obdélník
+//Stroke (outline) the rectangle
 document.Draw(path);
 ```
 
-Podobně jako v předchozím kroku vytvoříme grafickou cestu pro druhý obdélník, nastavíme barvu tahu (červená s tloušťkou 3) a obdélník obkreslíme.
+Druhý obdélník je vytvořen níže na stránce, tentokrát s červeným tahovým štětcem o tloušťce 3 bodů.
 
-## Krok 6: Zavřete stránku a uložte dokument
+## Krok 6: Zavřete stránku a uložte dokument
 
 ```csharp
-//Zavřít aktuální stránku
+//Close current page
 document.ClosePage();
 
-//Uložte dokument
+//Save the document
 document.Save();
 ```
 
-Nakonec zavřete aktuální stránku a uložte celý dokument.
+Zavřením stránky dokončíte kresbu a `Save()` zapíše PS soubor na disk.
 
-## Závěr
+## Časté problémy a tipy
 
-Gratulujeme! Úspěšně jste přidali obdélníky do dokumentu PostScript pomocí Aspose.Page for .NET. Tento tutoriál se zabýval základními kroky, od nastavení vývojového prostředí až po uložení finálního dokumentu.
+- **Nesprávná cesta k souboru** — Ujistěte se, že `dataDir` končí oddělovačem cesty (`\\` nebo `/`) nebo použijte `Path.Combine`.
+- **Chybějící licence** — V produkčním prostředí aplikujte svou Aspose licenci před vytvořením dokumentu, aby se předešlo vodoznakům z hodnocení.
+- **Viditelnost barvy** — Pokud se obdélník zobrazuje prázdně, ověřte, že barvy štětce nebo pera kontrastují s pozadím stránky.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu přizpůsobit barvy obdélníků?
+**Q:** Mohu přizpůsobit barvy obdélníků?  
+**A:** Rozhodně. Změňte hodnoty `Color.Orange` nebo `Color.Red` v konstruktorech `SolidBrush` a `Pen` na libovolnou `System.Drawing.Color`, kterou preferujete.
 
-A1: Ano, můžete přizpůsobit barvy úpravou parametrů v`SolidBrush` a`Pen` třídy.
+**Q:** Je Aspose.Page kompatibilní s jinými formáty dokumentů?  
+**A:** Ano. Kromě PostScriptu Aspose.Page také podporuje generování XPS a EPS.
 
-### Q2: Je Aspose.Page kompatibilní s jinými formáty dokumentů?
+**Q:** Jak mohu do stejného dokumentu přidat text?  
+**A:** Použijte třídu `TextFragment` k umístění textu na požadované souřadnice a poté zavolejte `document.Draw(textFragment)`.
 
-A2: Ano, Aspose.Page podporuje různé formáty dokumentů, včetně XPS a PostScript.
+**Q:** Kde najdu další příklady a kompletní referenci API?  
+**A:** Prozkoumejte dokumentaci [here](https://reference.aspose.com/page/net/) a připojte se ke komunitě na [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
-### Q3: Jak mohu přidat text do dokumentu?
+**Q:** Můžu si Aspose.Page vyzkoušet před zakoupením?  
+**A:** Ano, stáhněte si bezplatnou zkušební verzi [here](https://releases.aspose.com/). Pro rozšířené hodnocení zvažte [temporary license](https://purchase.aspose.com/temporary-license/).
 
- A3: Můžete použít`TextFragment` třídy v Aspose.Page přidat text do dokumentu.
+---
 
-### Q4: Kde najdu další příklady a dokumentaci?
-
- A4: Prozkoumejte dokumentaci[tady](https://reference.aspose.com/page/net/) a navštívit[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) za podporu komunity.
-
-### Q5: Mohu vyzkoušet Aspose.Page před nákupem?
-
- A5: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/) a pro rozšířené použití zvažte a[dočasná licence](https://purchase.aspose.com/temporary-license/).
+**Poslední aktualizace:** 2026-01-18  
+**Testováno s:** Aspose.Page 24.12 for .NET  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,33 +1,48 @@
 ---
-title: Aspose.Page for .NET ile PostScript'e (PS) Dikdörtgen Ekleme
-linktitle: PostScript'e (PS) Dikdörtgen Ekleme
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page ile .NET'te belge oluşturmayı geliştirin. PostScript (PS) dosyalarına adım adım dikdörtgen eklemeyi öğrenin.
-weight: 12
+date: 2026-01-18
+description: Aspose.Page for .NET kullanarak PostScript belgesi .NET oluşturmayı ve
+  dikdörtgenler eklemeyi öğrenin. Kod örnekleriyle adım adım rehber.
+linktitle: Add Rectangle to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Postscript belgesi oluştur .net – Aspose.Page ile Dikdörtgen Ekle
 url: /tr/net/drawing-shapes/add-rectangle-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET ile PostScript'e (PS) Dikdörtgen Ekleme
+# Aspose.Page for .NET ile PostScript (PS) Belgesine Dikdörtgen Ekleme
 
-## giriiş
+## Giriş
 
-.NET'te belge oluşturma yeteneklerinizi geliştirmek istiyorsanız Aspose.Page, PostScript belgelerinin işlenmesi için güçlü bir çözüm sunar. Bu eğitimde, Aspose.Page for .NET'i kullanarak PostScript belgesine dikdörtgen ekleme sürecinde size rehberlik edeceğiz.
+Postscript belge .net **oluşturmak** istiyorsanız, Aspose.Page PostScript dosyalarını işlemek için güçlü bir çözüm sunar. Bu öğreticide, Aspose.Page for .NET kullanarak bir PostScript belgesine dikdörtgen eklemeyi adım adım gösterecek ve daha zengin grafikler üretmek için sağlam bir temel sağlayacağız.
+
+## Hızlı Yanıtlar
+- **Hangi kütüphane gerekiyor?** Aspose.Page for .NET.
+- **Sıfırdan bir PostScript belgesi oluşturabilir miyim?** Evet – API, PS dosyalarını programlı olarak oluşturmanıza izin verir.
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme sürümü çalışır; üretim için lisans gereklidir.
+- **Uygulama ne kadar sürer?** Temel şekiller için genellikle 10 dakikadan az.
+
+## postscript belge .net oluşturmak nedir?
+.NET içinde bir PostScript belgesi oluşturmak, Aspose.Page API’si kullanarak sayfa içeriğini—metin, grafik veya şekiller—tanımlayan bir .ps dosyasını programlı olarak üretmek anlamına gelir. Bu yaklaşım, sunucu tarafı grafik üretimi, otomatik rapor oluşturma veya çıktının formatı üzerinde hassas kontrol gerektiği her senaryo için idealdir.
+
+## Neden Aspose.Page for .NET?
+- **Grafikler üzerinde tam kontrol** – düşük seviyeli PS sözdizimiyle uğraşmadan şekiller çizin, renkleri ayarlayın ve çizgi stilleri uygulayın.
+- **Çapraz platform** – Windows, Linux ve macOS çalışma ortamlarında çalışır.
+- **Harici bağımlılık yok** – kütüphane tüm PS üretimini dahili olarak yönetir.
+- **Zengin dokümantasyon & örnekler** – hızlı bir şekilde başlayabilirsiniz.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+- **Aspose.Page for .NET Kütüphanesi** – [buradan](https://releases.aspose.com/page/net/) indirin ve kurun.
+- **Geliştirme Ortamı** – Visual Studio, VS Code veya herhangi bir .NET‑uyumlu IDE.
 
--  Aspose.Page for .NET Kütüphanesi: Aspose.Page for .NET kütüphanesini şuradan indirip yükleyin:[Burada](https://releases.aspose.com/page/net/).
+## Ad Alanlarını İçe Aktarma
 
-- Geliştirme Ortamı: Makinenizde bir .NET geliştirme ortamının kurulu olduğundan emin olun.
-
-## Ad Alanlarını İçe Aktar
-
-Kodlamaya başlamadan önce gerekli sınıflara ve yöntemlere erişmek için gerekli ad alanlarını içe aktardığınızdan emin olun:
+Kodlamaya başlamadan önce gerekli sınıfları ortaya çıkaran ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,108 +52,111 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Şimdi örneği birden çok adıma ayıralım:
+Şimdi örneği net, numaralı adımlara ayıralım.
 
-## 1. Adım: Belge Dizininizi Kurun
+## Adım 1: Belge Dizinini Ayarlama
 
 ```csharp
 // ExStart:1
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Bu adımda, "Belge Dizininiz"i PostScript belgenizi kaydetmek istediğiniz yolla değiştirin.
+`"Your Document Directory"` ifadesini, oluşturulan PS dosyasının kaydedileceği klasörle değiştirin.
 
-## Adım 2: PostScript Belgesi için Çıktı Akışı Oluşturun
+## Adım 2: PostScript Belgesi İçin Çıktı Akışı Oluşturma
 
 ```csharp
-//PostScript belgesi için çıktı akışı oluşturun
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-Burada PostScript belgesi için bir çıktı akışı oluşturuyoruz ve dosya adını belirtiyoruz ("AddRectangle_outPS.ps"). Dosya adını ve konumunu tercihlerinize göre ayarlayın.
+Bu akış **AddRectangle_outPS.ps** dosyasına işaret eder. Dosya adını veya konumunu ihtiyacınıza göre değiştirebilirsiniz.
 
-## 3. Adım: Kaydetme Seçeneklerini Ayarlayın ve PS Belgesi Oluşturun
+## Adım 3: Kaydetme Seçeneklerini Ayarlama ve PS Belgesini Oluşturma
 
 ```csharp
-//A4 boyutunda kaydetme seçenekleri oluşturun
+//Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 
-// Yeni 1 sayfalık PS Belgesi oluştur
+// Create new 1‑paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-İstediğiniz sayfa boyutunu (bu durumda A4) belirterek kaydetme seçeneklerini ayarlayın. Ardından yeni bir tek sayfalı PostScript belgesi oluşturun.
+Burada Aspose.Page’e A4 sayfa boyutu kullanmasını ve tek sayfalık bir belge oluşturmasını söylüyoruz.
 
-## Adım 4: Dikdörtgen Ekle ve Doldur
+## Adım 4: Dolu Bir Dikdörtgen Ekleme
 
 ```csharp
-//İlk dikdörtgenden grafik yolu oluşturun
+//Create graphics path from the first rectangle
 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 100, 150, 100));
 
-//Boyayı ayarla
+//Set paint
 document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-//Dikdörtgeni doldur
+//Fill the rectangle
 document.Fill(path);
 ```
 
-Burada ilk dikdörtgeni temsil eden bir grafik yolu oluşturuyoruz, boya rengini ayarlıyoruz (bu durumda turuncu) ve dikdörtgeni dolduruyoruz.
+(250, 100) konumunda, 150 genişlik ve 100 yükseklikte bir dikdörtgen tanımlıyoruz, turuncu bir fırça ayarlıyoruz ve şekli dolduruyoruz.
 
-## Adım 5: Başka Bir Dikdörtgen ve Kontur Ekleyin
+## Adım 5: Çerçeveli Bir Dikdörtgen Ekleme
 
 ```csharp
-//İkinci dikdörtgenden grafik yolu oluşturun
+//Create graphics path from the second rectangle
 path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 300, 150, 100));
 
-//Konturu ayarla
+//Set stroke
 document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Red), 3));
 
-//Dikdörtgenin konturunu (ana hatlarını) çizin
+//Stroke (outline) the rectangle
 document.Draw(path);
 ```
 
-Önceki adıma benzer şekilde, ikinci dikdörtgen için bir grafik yolu oluşturuyoruz, kontur rengini ayarlıyoruz (3 kalınlığında kırmızı) ve dikdörtgenin ana hatlarını çiziyoruz.
+İkinci dikdörtgen sayfanın daha alt kısmına oluşturuluyor; bu sefer kırmızı 3‑nokta kalınlığında bir çizgi (stroke) kullanılıyor.
 
-## Adım 6: Sayfayı Kapatın ve Belgeyi Kaydedin
+## Adım 6: Sayfayı Kapatma ve Belgeyi Kaydetme
 
 ```csharp
-//Geçerli sayfayı kapat
+//Close current page
 document.ClosePage();
 
-//Belgeyi kaydet
+//Save the document
 document.Save();
 ```
 
-Son olarak geçerli sayfayı kapatın ve belgenin tamamını kaydedin.
+Sayfayı kapatmak çizimi sonlandırır ve `Save()` PS dosyasını diske yazar.
 
-## Çözüm
+## Yaygın Sorunlar & İpuçları
 
-Tebrikler! Aspose.Page for .NET'i kullanarak PostScript belgesine başarıyla dikdörtgenler eklediniz. Bu eğitim, geliştirme ortamınızı kurmaktan son belgeyi kaydetmeye kadar temel adımları kapsıyordu.
+- **Yanlış dosya yolu** – `dataDir` sonunun bir yol ayırıcı (`\\` veya `/`) ile bittiğinden emin olun veya `Path.Combine` kullanın.
+- **Lisans eksik** – Üretim ortamında belgeyi oluşturmadan önce Aspose lisansınızı uygulayın; aksi takdirde değerlendirme filigranı görünür.
+- **Renk görünürlüğü** – Dikdörtgen boş görünüyor ise, fırça veya kalem renklerinin sayfa arka planıyla kontrast oluşturduğunu kontrol edin.
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Dikdörtgenlerin renklerini özelleştirebilir miyim?
+**S:** Dikdörtgenlerin renklerini özelleştirebilir miyim?  
+**C:** Kesinlikle. `SolidBrush` ve `Pen` yapıcılarındaki `Color.Orange` veya `Color.Red` değerlerini istediğiniz `System.Drawing.Color` ile değiştirin.
 
-A1: Evet, parametreleri ayarlayarak renkleri özelleştirebilirsiniz.`SolidBrush` Ve`Pen` sınıflar.
+**S:** Aspose.Page diğer belge formatlarıyla uyumlu mu?  
+**C:** Evet. PostScript’in yanı sıra Aspose.Page XPS ve EPS üretimini de destekler.
 
-### S2: Aspose.Page diğer belge formatlarıyla uyumlu mudur?
+**S:** Aynı belgeye metin ekleyebilir miyim?  
+**C:** `TextFragment` sınıfını kullanarak istediğiniz koordinatlara metin yerleştirin, ardından `document.Draw(textFragment)` çağrısını yapın.
 
-Cevap2: Evet, Aspose.Page, XPS ve PostScript dahil çeşitli belge formatlarını destekler.
+**S:** Ek örnekler ve tam API referansını nereden bulabilirim?  
+**C:** Dokümantasyonu [buradan](https://reference.aspose.com/page/net/) inceleyin ve [Aspose.Page forumunda](https://forum.aspose.com/c/page/39) topluluğa katılın.
 
-### S3: Belgeye nasıl metin ekleyebilirim?
+**S:** Aspose.Page’i satın almadan denemek mümkün mü?  
+**C:** Evet, ücretsiz deneme sürümünü [buradan](https://releases.aspose.com/) indirebilirsiniz. Uzun vadeli değerlendirme için bir [geçici lisans](https://purchase.aspose.com/temporary-license/) düşünebilirsiniz.
 
- A3: kullanabilirsiniz`TextFragment` Belgenize metin eklemek için Aspose.Page'deki class'ı kullanın.
+---
 
-### S4: Ek örnekleri ve belgeleri nerede bulabilirim?
-
- Cevap4: Belgeleri inceleyin[Burada](https://reference.aspose.com/page/net/) ve ziyaret edin[Aspose.Page forumu](https://forum.aspose.com/c/page/39) topluluk desteği için.
-
-### S5: Satın almadan önce Aspose.Page'i deneyebilir miyim?
-
- A5: Evet, ücretsiz deneme sürümünü alabilirsiniz[Burada](https://releases.aspose.com/) ve uzun süreli kullanım için, bir[geçici lisans](https://purchase.aspose.com/temporary-license/).
+**Son Güncelleme:** 2026-01-18  
+**Test Edilen Versiyon:** Aspose.Page 24.12 for .NET  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

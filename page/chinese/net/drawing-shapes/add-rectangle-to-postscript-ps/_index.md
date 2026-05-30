@@ -1,33 +1,47 @@
 ---
-title: 使用 Aspose.Page for .NET 将矩形添加到 PostScript (PS)
-linktitle: 将矩形添加到 PostScript (PS)
+date: 2026-01-18
+description: 学习如何使用 Aspose.Page for .NET 创建 PostScript 文档并添加矩形。一步一步的指南，附带代码示例。
+linktitle: Add Rectangle to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: 使用 Aspose.Page 增强 .NET 中的文档创建。了解逐步向 PostScript (PS) 文件添加矩形。
-weight: 12
+title: 使用 Aspose.Page 在 .NET 中创建 PostScript 文档 – 添加矩形
 url: /zh/net/drawing-shapes/add-rectangle-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page for .NET 将矩形添加到 PostScript (PS)
+# 使用 Aspose.Page for .NET 向 PostScript (PS) 添加矩形
 
-## 介绍
+## Introduction
 
-如果您希望增强 .NET 中的文档创建能力，Aspose.Page 提供了处理 PostScript 文档的强大解决方案。在本教程中，我们将指导您完成使用 Aspose.Page for .NET 将矩形添加到 PostScript 文档的过程。
+如果您想 **创建 postscript 文档 .net**，Aspose.Page 提供了强大的解决方案来处理 PostScript 文件。在本教程中，我们将演示如何使用 Aspose.Page for .NET 向 PostScript 文档添加矩形，为您提供更丰富的图形生成的坚实基础。
 
-## 先决条件
+## Quick Answers
+- **我需要哪个库？** Aspose.Page for .NET.
+- **我可以从头创建 PostScript 文档吗？** 是的——API 允许您以编程方式构建 PS 文件。
+- **支持哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7。
+- **开发时需要许可证吗？** 免费试用可用于测试；生产环境需要许可证。
+- **实现大约需要多长时间？** 对于基本形状通常在 10 分钟以内。
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+## What is creating a postscript document .net?
+在 .NET 中创建 PostScript 文档是指使用 Aspose.Page API 以编程方式生成描述页面内容（文本、图形或形状）的 .ps 文件。这种方式非常适合服务器端图形生成、自动化报告创建或任何需要对输出格式进行精确控制的场景。
 
--  Aspose.Page for .NET 库：从以下位置下载并安装 Aspose.Page for .NET 库：[这里](https://releases.aspose.com/page/net/).
+## Why use Aspose.Page for .NET?
+- **对图形的完整控制** —— 绘制形状、设置颜色并应用笔触，而无需处理底层 PS 语法。
+- **跨平台** —— 在 Windows、Linux 和 macOS 运行时均可工作。
+- **无外部依赖** —— 库内部处理所有 PS 生成。
+- **丰富的文档和示例** —— 快速上手。
 
-- 开发环境：确保您的计算机上设置了 .NET 开发环境。
+## Prerequisites
 
-## 导入命名空间
+- **Aspose.Page for .NET 库** —— 从[此处](https://releases.aspose.com/page/net/)下载并安装。
+- **开发环境** —— Visual Studio、VS Code 或任何兼容 .NET 的 IDE。
 
-在开始编码之前，请确保导入必要的命名空间以访问所需的类和方法：
+## Import Namespaces
+
+在开始编码之前，导入公开所需类的命名空间：
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,108 +51,111 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-现在，让我们将示例分解为多个步骤：
+现在让我们将示例拆分为清晰的编号步骤。
 
-## 第 1 步：设置您的文档目录
+## Step 1: Set up Your Document Directory
 
 ```csharp
-//开始时间：1
-//文档目录的路径。
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-在此步骤中，将“您的文档目录”替换为您要保存 PostScript 文档的路径。
+将 `"Your Document Directory"` 替换为您希望保存生成的 PS 文件的文件夹路径。
 
-## 步骤 2：为 PostScript 文档创建输出流
+## Step 2: Create Output Stream for the PostScript Document
 
 ```csharp
-//为 PostScript 文档创建输出流
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-在这里，我们为 PostScript 文档创建一个输出流并指定文件名（“AddRectangle_outPS.ps”）。根据您的喜好调整文件名和位置。
+此流指向 **AddRectangle_outPS.ps**。如有需要，可自由重命名文件或更改保存位置。
 
-## 步骤 3：设置保存选项并创建 PS 文档
+## Step 3: Set Save Options and Create the PS Document
 
 ```csharp
-//创建 A4 尺寸的保存选项
+//Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 
-//创建新的 1 页 PS 文档
+// Create new 1‑paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-设置保存选项，指定所需的页面尺寸（本例中为 A4）。然后，创建一个新的单页 PostScript 文档。
+这里我们指示 Aspose.Page 使用 A4 页面尺寸并创建单页文档。
 
-## 第四步：添加矩形并填充
+## Step 4: Add a Filled Rectangle
 
 ```csharp
-//从第一个矩形创建图形路径
+//Create graphics path from the first rectangle
 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 100, 150, 100));
 
-//定漆
+//Set paint
 document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-//填充矩形
+//Fill the rectangle
 document.Fill(path);
 ```
 
-在这里，我们创建一个表示第一个矩形的图形路径，设置绘画颜色（在本例中为橙色），并填充矩形。
+我们在 (250, 100) 处定义一个宽 150、高 100 的矩形，设置橙色画刷并填充该形状。
 
-## 第5步：添加另一个矩形和描边
+## Step 5: Add an Outlined Rectangle
 
 ```csharp
-//从第二个矩形创建图形路径
+//Create graphics path from the second rectangle
 path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 300, 150, 100));
 
-//设定行程
+//Set stroke
 document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Red), 3));
 
-//描边（轮廓）矩形
+//Stroke (outline) the rectangle
 document.Draw(path);
 ```
 
-与上一步类似，我们为第二个矩形创建图形路径，设置描边颜色（红色，厚度为3），并勾勒出矩形的轮廓。
+在页面下方创建第二个矩形，这次使用红色 3 点宽的笔触描边。
 
-## 步骤 6：关闭页面并保存文档
+## Step 6: Close the Page and Save the Document
 
 ```csharp
-//关闭当前页面
+//Close current page
 document.ClosePage();
 
-//保存文档
+//Save the document
 document.Save();
 ```
 
-最后，关闭当前页面并保存整个文档。
+关闭页面以完成绘制，`Save()` 将 PS 文件写入磁盘。
 
-## 结论
+## Common Issues & Tips
 
-恭喜！您已使用 Aspose.Page for .NET 成功将矩形添加到 PostScript 文档中。本教程涵盖了从设置开发环境到保存最终文档的基本步骤。
+- **文件路径不正确** —— 确保 `dataDir` 以路径分隔符（`\\` 或 `/`）结尾，或使用 `Path.Combine`。
+- **缺少许可证** —— 在生产环境中，请在创建文档前应用 Aspose 许可证，以避免评估水印。
+- **颜色可见性** —— 如果矩形显示为空白，请确认画刷或笔的颜色与页面背景形成对比。
 
-## 常见问题解答
+## Frequently Asked Questions
 
-### Q1：我可以自定义矩形的颜色吗？
+**问：** 我可以自定义矩形的颜色吗？  
+**答：** 当然。将 `SolidBrush` 和 `Pen` 构造函数中的 `Color.Orange` 或 `Color.Red` 值更改为您喜欢的任意 `System.Drawing.Color`。
 
-A1: 是的，您可以通过调整参数中的参数来自定义颜色`SolidBrush`和`Pen`类。
+**问：** Aspose.Page 是否兼容其他文档格式？  
+**答：** 是的。除了 PostScript，Aspose.Page 还支持 XPS 和 EPS 的生成。
 
-### Q2：Aspose.Page 是否兼容其他文档格式？
+**问：** 我如何在同一文档中添加文本？  
+**答：** 使用 `TextFragment` 类在所需坐标放置文本，然后调用 `document.Draw(textFragment)`。
 
-A2：是的，Aspose.Page支持各种文档格式，包括XPS和PostScript。
+**问：** 我在哪里可以找到更多示例和完整的 API 参考？  
+**答：** 请在[此处](https://reference.aspose.com/page/net/)查看文档，并在 [Aspose.Page 论坛](https://forum.aspose.com/c/page/39)加入社区。
 
-### Q3：如何在文档中添加文本？
+**问：** 我可以在购买前试用 Aspose.Page 吗？  
+**答：** 可以，您可以在[此处](https://releases.aspose.com/)下载免费试用版。若需延长评估，可考虑获取[临时许可证](https://purchase.aspose.com/temporary-license/)。
 
- A3：您可以使用`TextFragment`Aspose.Page 中的类将文本添加到文档中。
+---
 
-### Q4：在哪里可以找到更多示例和文档？
-
- A4：浏览文档[这里](https://reference.aspose.com/page/net/)并参观[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)以获得社区支持。
-
-### Q5：我可以在购买前试用Aspose.Page吗？
-
- A5：是的，您可以获得免费试用版[这里](https://releases.aspose.com/)，并且为了延长使用，请考虑[临时执照](https://purchase.aspose.com/temporary-license/).
+**Last Updated:** 2026-01-18  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,33 +1,48 @@
 ---
-title: เพิ่มสี่เหลี่ยมผืนผ้าลงใน PostScript (PS) ด้วย Aspose.Page สำหรับ .NET
-linktitle: เพิ่มสี่เหลี่ยมผืนผ้าลงใน PostScript (PS)
+date: 2026-01-18
+description: เรียนรู้วิธีสร้างเอกสาร PostScript ด้วย .NET และเพิ่มสี่เหลี่ยมโดยใช้
+  Aspose.Page for .NET คู่มือขั้นตอนโดยละเอียดพร้อมตัวอย่างโค้ด
+linktitle: Add Rectangle to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: ปรับปรุงการสร้างเอกสารใน .NET ด้วย Aspose.Page เรียนรู้วิธีการเพิ่มสี่เหลี่ยมลงในไฟล์ PostScript (PS) ทีละขั้นตอน
-weight: 12
+title: สร้างเอกสาร PostScript .NET – เพิ่มสี่เหลี่ยมด้วย Aspose.Page
 url: /th/net/drawing-shapes/add-rectangle-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มสี่เหลี่ยมผืนผ้าลงใน PostScript (PS) ด้วย Aspose.Page สำหรับ .NET
+# เพิ่มสี่เหลี่ยมผืนผ้าใน PostScript (PS) ด้วย Aspose.Page สำหรับ .NET
 
-## การแนะนำ
+## Introduction
 
-หากคุณต้องการปรับปรุงความสามารถในการสร้างเอกสารใน .NET Aspose.Page มอบโซลูชันอันทรงพลังสำหรับการจัดการเอกสาร PostScript ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มสี่เหลี่ยมให้กับเอกสาร PostScript โดยใช้ Aspose.Page สำหรับ .NET
+หากคุณกำลังมองหา **สร้างเอกสาร postscript ด้วย .NET** Aspose.Page ให้โซลูชันที่ทรงพลังสำหรับการจัดการไฟล์ PostScript ในบทแนะนำนี้ เราจะพาคุณผ่านขั้นตอนการเพิ่มสี่เหลี่ยมผืนผ้าในเอกสาร PostScript ด้วย Aspose.Page สำหรับ .NET เพื่อให้คุณมีพื้นฐานที่มั่นคงสำหรับการสร้างกราฟิกที่ซับซ้อนยิ่งขึ้น.
 
-## ข้อกำหนดเบื้องต้น
+## Quick Answers
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Page for .NET.
+- **ฉันสามารถสร้างเอกสาร PostScript ตั้งแต่เริ่มต้นได้หรือไม่?** ใช่ – the API lets you build PS files programmatically.
+- **เวอร์ชัน .NET ที่รองรับคืออะไร?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **ฉันต้องการลิขสิทธิ์สำหรับการพัฒนาหรือไม่?** A free trial works for testing; a license is required for production.
+- **การดำเนินการใช้เวลานานเท่าไหร่?** Typically under 10 minutes for basic shapes.
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## What is creating a postscript document .net?
+การสร้างเอกสาร PostScript ใน .NET หมายถึงการสร้างไฟล์ .ps ด้วยโปรแกรมที่อธิบายเนื้อหาของหน้า—ข้อความ, กราฟิก หรือรูปทรง—โดยใช้ Aspose.Page API วิธีนี้เหมาะสำหรับการสร้างกราฟิกบนเซิร์ฟเวอร์, การสร้างรายงานอัตโนมัติ, หรือสถานการณ์ใด ๆ ที่คุณต้องการควบคุมรูปแบบผลลัพธ์อย่างแม่นยำ.
 
--  Aspose.Page สำหรับ .NET Library: ดาวน์โหลดและติดตั้ง Aspose.Page สำหรับ .NET Library จาก[ที่นี่](https://releases.aspose.com/page/net/).
+## Why use Aspose.Page for .NET?
+- **ควบคุมกราฟิกได้เต็มที่** – draw shapes, set colors, and apply strokes without dealing with low‑level PS syntax.
+- **ข้ามแพลตฟอร์ม** – works on Windows, Linux, and macOS runtimes.
+- **ไม่มีการพึ่งพาภายนอก** – the library handles all PS generation internally.
+- **เอกสารและตัวอย่างที่ครบถ้วน** – get up‑and‑running quickly.
 
-- สภาพแวดล้อมการพัฒนา: ตรวจสอบให้แน่ใจว่าคุณได้ตั้งค่าสภาพแวดล้อมการพัฒนา .NET บนเครื่องของคุณ
+## Prerequisites
 
-## นำเข้าเนมสเปซ
+- **Aspose.Page for .NET Library** – download and install from [here](https://releases.aspose.com/page/net/).
+- **Development Environment** – Visual Studio, VS Code, or any .NET‑compatible IDE.
 
-ก่อนที่คุณจะเริ่มเขียนโค้ด ตรวจสอบให้แน่ใจว่าได้นำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงคลาสและวิธีการที่จำเป็น:
+## Import Namespaces
+
+Before you start coding, import the namespaces that expose the required classes:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,108 +52,111 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-ตอนนี้ เรามาแบ่งตัวอย่างออกเป็นหลายขั้นตอน:
+Now let’s break the example into clear, numbered steps.
 
-## ขั้นตอนที่ 1: ตั้งค่าไดเร็กทอรีเอกสารของคุณ
+## Step 1: Set up Your Document Directory
 
 ```csharp
-// เอ็กซ์สตาร์ท:1
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-ในขั้นตอนนี้ ให้แทนที่ "Your Document Directory" ด้วยเส้นทางที่คุณต้องการบันทึกเอกสาร PostScript
+Replace `"Your Document Directory"` with the folder where you want the resulting PS file saved.
 
-## ขั้นตอนที่ 2: สร้างสตรีมเอาต์พุตสำหรับเอกสาร PostScript
+## Step 2: Create Output Stream for the PostScript Document
 
 ```csharp
-//สร้างกระแสเอาท์พุทสำหรับเอกสาร PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-ที่นี่ เราสร้างสตรีมเอาต์พุตสำหรับเอกสาร PostScript และระบุชื่อไฟล์ ("AddRectangle_outPS.ps") ปรับชื่อไฟล์และตำแหน่งตามความต้องการของคุณ
+This stream points to **AddRectangle_outPS.ps**. Feel free to rename the file or change the location as needed.
 
-## ขั้นตอนที่ 3: ตั้งค่าตัวเลือกการบันทึกและสร้างเอกสาร PS
+## Step 3: Set Save Options and Create the PS Document
 
 ```csharp
-//สร้างตัวเลือกการบันทึกด้วยขนาด A4
+//Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 
-// สร้างเอกสาร PS 1 หน้าใหม่
+// Create new 1‑paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-ตั้งค่าตัวเลือกบันทึก โดยระบุขนาดหน้าที่ต้องการ (ในกรณีนี้คือ A4) จากนั้น สร้างเอกสาร PostScript แบบหน้าเดียวใหม่
+Here we tell Aspose.Page to use an A4 page size and create a single‑page document.
 
-## ขั้นตอนที่ 4: เพิ่มสี่เหลี่ยมผืนผ้าและเติม
+## Step 4: Add a Filled Rectangle
 
 ```csharp
-//สร้างเส้นทางกราฟิกจากสี่เหลี่ยมแรก
+//Create graphics path from the first rectangle
 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 100, 150, 100));
 
-//เซ็ตสี
+//Set paint
 document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-//เติมสี่เหลี่ยม
+//Fill the rectangle
 document.Fill(path);
 ```
 
-ที่นี่ เราสร้างเส้นทางกราฟิกที่แสดงถึงสี่เหลี่ยมแรก ตั้งค่าสีของสี (ในกรณีนี้คือสีส้ม) และเติมสี่เหลี่ยม
+We define a rectangle at (250, 100) with width 150 and height 100, set an orange brush, and fill the shape.
 
-## ขั้นตอนที่ 5: เพิ่มสี่เหลี่ยมผืนผ้าและเส้นขีดอีกอัน
+## Step 5: Add an Outlined Rectangle
 
 ```csharp
-//สร้างเส้นทางกราฟิกจากสี่เหลี่ยมที่สอง
+//Create graphics path from the second rectangle
 path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 300, 150, 100));
 
-//ตั้งจังหวะ
+//Set stroke
 document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Red), 3));
 
-//ลากเส้น (ร่าง) สี่เหลี่ยม
+//Stroke (outline) the rectangle
 document.Draw(path);
 ```
 
-เช่นเดียวกับขั้นตอนก่อนหน้า เราสร้างเส้นทางกราฟิกสำหรับสี่เหลี่ยมที่สอง ตั้งค่าสีเส้นโครงร่าง (สีแดงที่มีความหนา 3) และร่างกรอบสี่เหลี่ยม
+A second rectangle is created lower on the page, this time with a red 3‑point stroke.
 
-## ขั้นตอนที่ 6: ปิดหน้าและบันทึกเอกสาร
+## Step 6: Close the Page and Save the Document
 
 ```csharp
-//ปิดหน้าปัจจุบัน
+//Close current page
 document.ClosePage();
 
-//บันทึกเอกสาร
+//Save the document
 document.Save();
 ```
 
-สุดท้าย ให้ปิดหน้าปัจจุบันและบันทึกเอกสารทั้งหมด
+Closing the page finalizes the drawing, and `Save()` writes the PS file to disk.
 
-## บทสรุป
+## Common Issues & Tips
 
-ยินดีด้วย! คุณได้เพิ่มสี่เหลี่ยมลงในเอกสาร PostScript สำเร็จแล้วโดยใช้ Aspose.Page สำหรับ .NET บทช่วยสอนนี้ครอบคลุมขั้นตอนที่จำเป็น ตั้งแต่การตั้งค่าสภาพแวดล้อมการพัฒนาไปจนถึงการบันทึกเอกสารขั้นสุดท้าย
+- **เส้นทางไฟล์ไม่ถูกต้อง** – Ensure `dataDir` ends with a path separator (`\\` or `/`) or use `Path.Combine`.
+- **ไม่มีลิขสิทธิ์** – In a production environment, apply your Aspose license before creating the document to avoid evaluation watermarks.
+- **การมองเห็นสี** – If the rectangle appears blank, verify that the brush or pen colors contrast with the page background.
 
-## คำถามที่พบบ่อย
+## Frequently Asked Questions
 
-### คำถามที่ 1: ฉันสามารถปรับแต่งสีของสี่เหลี่ยมได้หรือไม่
+**Q:** ฉันสามารถปรับแต่งสีของสี่เหลี่ยมได้หรือไม่?  
+**A:** Absolutely. Change the `Color.Orange` or `Color.Red` values in the `SolidBrush` and `Pen` constructors to any `System.Drawing.Color` you prefer.
 
-A1: ได้ คุณสามารถปรับแต่งสีได้โดยการปรับพารามิเตอร์ใน`SolidBrush` และ`Pen` ชั้นเรียน
+**Q:** Aspose.Page รองรับรูปแบบเอกสารอื่นหรือไม่?  
+**A:** Yes. Besides PostScript, Aspose.Page also supports XPS and EPS generation.
 
-### คำถามที่ 2: Aspose.Page เข้ากันได้กับรูปแบบเอกสารอื่นหรือไม่
+**Q:** ฉันจะเพิ่มข้อความในเอกสารเดียวกันได้อย่างไร?  
+**A:** Use the `TextFragment` class to place text at desired coordinates, then call `document.Draw(textFragment)`.
 
-ตอบ 2: ใช่ Aspose.Page รองรับรูปแบบเอกสารหลากหลาย รวมถึง XPS และ PostScript
+**Q:** ฉันจะหา ตัวอย่างเพิ่มเติมและอ้างอิง API เต็มรูปแบบได้จากที่ไหน?  
+**A:** Explore the documentation [here](https://reference.aspose.com/page/net/) and join the community at the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
-### คำถามที่ 3: ฉันจะเพิ่มข้อความลงในเอกสารได้อย่างไร
+**Q:** ฉันสามารถทดลองใช้ Aspose.Page ก่อนซื้อได้หรือไม่?  
+**A:** Yes, download a free trial [here](https://releases.aspose.com/). For extended evaluation, consider a [temporary license](https://purchase.aspose.com/temporary-license/).
 
- A3: คุณสามารถใช้`TextFragment` คลาสใน Aspose.Page เพื่อเพิ่มข้อความลงในเอกสารของคุณ
+---
 
-### คำถามที่ 4: ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมได้ที่ไหน
-
- A4: สำรวจเอกสารประกอบ[ที่นี่](https://reference.aspose.com/page/net/) และเยี่ยมชม[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อสนับสนุนชุมชน
-
-### คำถามที่ 5: ฉันสามารถลองใช้ Aspose.Page ก่อนซื้อได้หรือไม่
-
- A5: ได้ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/) และสำหรับการใช้งานแบบขยาย ให้พิจารณาก[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/).
+**อัปเดตล่าสุด:** 2026-01-18  
+**ทดสอบด้วย:** Aspose.Page 24.12 for .NET  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

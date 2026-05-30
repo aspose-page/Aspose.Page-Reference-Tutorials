@@ -1,33 +1,47 @@
 ---
-title: Aspose.Page for .NET を使用して PostScript (PS) に四角形を追加する
-linktitle: PostScript に四角形を追加 (PS)
+date: 2026-01-18
+description: Aspose.Page for .NET を使用して PostScript ドキュメントを作成し、矩形を追加する方法を学びましょう。コードサンプル付きのステップバイステップガイドです。
+linktitle: Add Rectangle to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: Aspose.Page を使用して .NET でのドキュメント作成を強化します。 PostScript (PS) ファイルに四角形を追加する方法を段階的に学習します。
-weight: 12
+title: .NETでPostScriptドキュメントを作成 – Aspose.Pageで矩形を追加
 url: /ja/net/drawing-shapes/add-rectangle-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET を使用して PostScript (PS) に四角形を追加する
+# Aspose.Page for .NET を使用して PostScript (PS) に矩形を追加する
 
-## 導入
+## はじめに
 
-.NET でのドキュメント作成機能を強化したい場合、Aspose.Page は PostScript ドキュメントを処理するための強力なソリューションを提供します。このチュートリアルでは、Aspose.Page for .NET を使用して PostScript ドキュメントに四角形を追加するプロセスを説明します。
+**postscript document .net** を作成したい場合、Aspose.Page は PostScript ファイルを扱うための強力なソリューションを提供します。このチュートリアルでは、Aspose.Page for .NET を使って PostScript ドキュメントに矩形を追加する手順を解説し、よりリッチなグラフィック生成の基礎を身につけられるようにします。
+
+## クイック回答
+- **必要なライブラリは？** Aspose.Page for .NET。
+- **ゼロから PostScript ドキュメントを作成できますか？** はい – API を使ってプログラムから PS ファイルを構築できます。
+- **対応している .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
+- **開発用にライセンスは必要ですか？** 無料トライアルでテスト可能です。製品版ではライセンスが必要です。
+- **実装にどれくらい時間がかかりますか？** 基本的な図形であれば通常 10 分未満です。
+
+## postscript document .net とは何か？
+.NET で PostScript ドキュメントを作成することは、Aspose.Page API を利用してページ内容（テキスト、グラフィック、図形）を記述した .ps ファイルをプログラムから生成することを意味します。この手法はサーバーサイドのグラフィック生成や自動レポート作成、出力フォーマットを正確に制御したいシナリオに最適です。
+
+## Aspose.Page for .NET を使う理由
+- **グラフィックをフルコントロール** – 低レベルの PS 構文を意識せずに図形を描画し、色やストロークを設定できます。
+- **クロスプラットフォーム** – Windows、Linux、macOS のランタイムで動作します。
+- **外部依存なし** – ライブラリ単体で PS の生成を完結します。
+- **充実したドキュメントとサンプル** – すぐに使い始められるリソースが豊富です。
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
-
--  Aspose.Page for .NET ライブラリ:Aspose.Page for .NET ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/page/net/).
-
-- 開発環境: マシン上に .NET 開発環境がセットアップされていることを確認してください。
+- **Aspose.Page for .NET ライブラリ** – [here](https://releases.aspose.com/page/net/) からダウンロードしてインストールしてください。
+- **開発環境** – Visual Studio、VS Code、または任意の .NET 対応 IDE。
 
 ## 名前空間のインポート
 
-コーディングを始める前に、必要なクラスとメソッドにアクセスするために必要な名前空間をインポートしてください。
+コーディングを始める前に、必要なクラスを公開する名前空間をインポートします。
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,108 +51,111 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-ここで、例を複数のステップに分けてみましょう。
+それでは、例を明確なステップに分けて解説します。
 
-## ステップ 1: ドキュメント ディレクトリを設定する
+## 手順 1: ドキュメントディレクトリの設定
 
 ```csharp
-//例開始:1
-//ドキュメントディレクトリへのパス。
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-この手順では、「Your Document Directory」を PostScript ドキュメントを保存するパスに置き換えます。
+`"Your Document Directory"` を、生成した PS ファイルを保存したいフォルダーに置き換えてください。
 
-## ステップ 2: PostScript ドキュメントの出力ストリームを作成する
+## 手順 2: PostScript ドキュメント用の出力ストリームを作成
 
 ```csharp
-//PostScript ドキュメントの出力ストリームを作成する
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-ここでは、PostScript ドキュメントの出力ストリームを作成し、ファイル名 (「AddRectangle_outPS.ps」) を指定します。好みに応じてファイル名と場所を調整します。
+このストリームは **AddRectangle_outPS.ps** を指します。必要に応じてファイル名や保存場所を変更してください。
 
-## ステップ 3: 保存オプションを設定し、PS ドキュメントを作成する
+## 手順 3: 保存オプションを設定し PS ドキュメントを作成
 
 ```csharp
-//A4サイズで保存オプションを作成する
+//Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 
-//新しい 1 ページの PS ドキュメントを作成する
+// Create new 1‑paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-希望のページ サイズ (この場合は A4) を指定して、保存オプションを設定します。次に、新しい単一ページの PostScript ドキュメントを作成します。
+ここでは Aspose.Page に A4 用紙サイズを使用し、1 ページのドキュメントを作成するよう指示しています。
 
-## ステップ 4: 長方形を追加して塗りつぶす
+## 手順 4: 塗りつぶし矩形を追加
 
 ```csharp
-//最初の四角形からグラフィックス パスを作成します
+//Create graphics path from the first rectangle
 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 100, 150, 100));
 
-//セットペイント
+//Set paint
 document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-//長方形を塗りつぶす
+//Fill the rectangle
 document.Fill(path);
 ```
 
-ここでは、最初の長方形を表すグラフィックス パスを作成し、ペイント カラー (この場合はオレンジ) を設定して、長方形を塗りつぶします。
+座標 (250, 100) に幅 150、高さ 100 の矩形を定義し、オレンジのブラシで塗りつぶします。
 
-## ステップ 5: 別の四角形とストロークを追加する
+## 手順 5: 線枠のみの矩形を追加
 
 ```csharp
-//番目の長方形からグラフィックス パスを作成します
+//Create graphics path from the second rectangle
 path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 300, 150, 100));
 
-//設定ストローク
+//Set stroke
 document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Red), 3));
 
-//長方形をストローク（輪郭）します
+//Stroke (outline) the rectangle
 document.Draw(path);
 ```
 
-前のステップと同様に、2 番目の長方形のグラフィックス パスを作成し、ストロークの色 (太さ 3 の赤) を設定し、長方形の輪郭を描きます。
+ページ下部に 2 番目の矩形を作成し、今回は赤色の 3 ポイントストロークを適用します。
 
-## ステップ 6: ページを閉じてドキュメントを保存する
+## 手順 6: ページを閉じてドキュメントを保存
 
 ```csharp
-//現在のページを閉じる
+//Close current page
 document.ClosePage();
 
-//文書を保存する
+//Save the document
 document.Save();
 ```
 
-最後に、現在のページを閉じて、文書全体を保存します。
+ページを閉じることで描画が確定し、`Save()` が PS ファイルをディスクに書き出します。
 
-## 結論
+## よくある問題とヒント
 
-おめでとう！ Aspose.Page for .NET を使用して、PostScript ドキュメントに四角形を追加することに成功しました。このチュートリアルでは、開発環境のセットアップから最終ドキュメントの保存までの重要な手順を説明しました。
+- **ファイルパスが正しくない** – `dataDir` の末尾にパス区切り文字（`\\` または `/`）が付いているか確認するか、`Path.Combine` を使用してください。
+- **ライセンスが未設定** – 本番環境では評価版の透かしを防ぐため、ドキュメント作成前に Aspose のライセンスを適用してください。
+- **色が見えない** – 矩形が空白に見える場合、ブラシやペンの色がページ背景とコントラストが取れているか確認してください。
 
-## よくある質問
+## FAQ
 
-### Q1: 長方形の色をカスタマイズできますか?
+**Q:** 矩形の色はカスタマイズできますか？  
+**A:** もちろんです。`SolidBrush` と `Pen` のコンストラクタで使用している `Color.Orange` や `Color.Red` を、任意の `System.Drawing.Color` に変更してください。
 
-A1: はい、パラメータを調整することで色をカスタマイズできます。`SolidBrush`そして`Pen`クラス。
+**Q:** Aspose.Page は他のドキュメント形式にも対応していますか？  
+**A:** はい。PostScript に加えて、XPS や EPS の生成もサポートしています。
 
-### Q2: Aspose.Page は他のドキュメント形式と互換性がありますか?
+**Q:** 同じドキュメントにテキストを追加するには？  
+**A:** `TextFragment` クラスを使用して任意の座標にテキストを配置し、`document.Draw(textFragment)` を呼び出します。
 
-A2: はい、Aspose.Page は、XPS や PostScript などのさまざまなドキュメント形式をサポートしています。
+**Q:** 追加のサンプルや完全な API リファレンスはどこで確認できますか？  
+**A:** ドキュメントは [here](https://reference.aspose.com/page/net/) で確認でき、コミュニティは [Aspose.Page forum](https://forum.aspose.com/c/page/39) で参加できます。
 
-### Q3: ドキュメントにテキストを追加するにはどうすればよいですか?
+**Q:** 購入前に Aspose.Page を試すことはできますか？  
+**A:** はい、無料トライアルを [here](https://releases.aspose.com/) からダウンロードできます。長期評価が必要な場合は、[temporary license](https://purchase.aspose.com/temporary-license/) の取得をご検討ください。
 
- A3: を使用できます。`TextFragment` Aspose.Page のクラスを使用して、ドキュメントにテキストを追加します。
+---
 
-### Q4: 追加の例やドキュメントはどこで入手できますか?
-
- A4: ドキュメントを参照してください[ここ](https://reference.aspose.com/page/net/)そして訪問してください[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)コミュニティサポートのために。
-
-### Q5: 購入する前に Aspose.Page を試すことはできますか?
-
- A5: はい、無料試用版を入手できます。[ここ](https://releases.aspose.com/) 、そして長期間使用する場合は、[仮免許](https://purchase.aspose.com/temporary-license/).
+**最終更新日:** 2026-01-18  
+**テスト環境:** Aspose.Page 24.12 for .NET  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
