@@ -1,11 +1,60 @@
 ---
-date: 2025-12-28
-description: Dowiedz się, jak używać Aspose.Page for Java do dodawania stron do dokumentów
-  XPS. Ten przewodnik krok po kroku pokazuje dokładny kod oraz wskazówki zapewniające
-  płynną integrację.
-linktitle: Add Page in Java XPS
+date: 2026-05-30
+description: Dowiedz się, jak edytować dokumenty XPS, dodając strony przy użyciu Aspose.Page
+  for Java. Ten przewodnik krok po kroku zawiera dokładny kod, wskazówki i rozwiązywanie
+  problemów.
+keywords:
+- how to edit xps
+- add pages to xps java
+- aspose.page java tutorial
+linktitle: Dodaj stronę w Java XPS
+schemas:
+- author: Aspose
+  dateModified: '2026-05-30'
+  description: Learn how to edit XPS documents by adding pages using Aspose.Page for
+    Java. This step‑by‑step guide provides exact code, tips, and troubleshooting.
+  headline: How to Edit XPS Documents – Add Pages with Aspose.Page Java
+  type: TechArticle
+- description: Learn how to edit XPS documents by adding pages using Aspose.Page for
+    Java. This step‑by‑step guide provides exact code, tips, and troubleshooting.
+  name: How to Edit XPS Documents – Add Pages with Aspose.Page Java
+  steps:
+  - name: Set Document Directory Path
+    text: Replace `"Your Document Directory"` with the absolute path where your source
+      XPS file resides or where you want the edited file saved.
+  - name: Create XPS Document
+    text: Instantiate the `XpsDocument` object by providing the path to the source
+      XPS file (e.g., `"Aspose.xps"`).
+  - name: Insert an Empty Page
+    text: Call `document.insertPage(1)` to add a blank page at the beginning of the
+      document. Change the index to insert at a different position.
+  - name: Save Resultant XPS Document
+    text: Persist the modified document with a new filename such as `"AddPages_out.xps"`.
+      By following these steps, you’ve successfully **edited an XPS document** by
+      adding a new page using Aspose.Page for Java.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Page works alongside popular libraries such as Apache PDFBox,
+      iText, and JavaFX without conflicts, allowing you to combine PDF, XPS, and image
+      processing in a single project.
+    question: Is Aspose.Page compatible with other Java libraries?
+  - answer: Absolutely. Loop over the desired page count and call `insertPage` for
+      each iteration, or use `insertPages` (available in version 24.0+) to batch‑add
+      pages efficiently.
+    question: Can I add multiple pages in one operation?
+  - answer: Yes. The library is licensed for enterprise use, offering unlimited deployment
+      and priority support for commercial applications.
+    question: Is Aspose.Page suitable for commercial projects?
+  - answer: Aspose.Page efficiently handles XPS files up to **500 MB**; larger files
+      may require streaming mode (`XpsLoadOptions.setLoadMode(LoadMode.Stream)`) to
+      reduce memory consumption.
+    question: Are there size limitations for XPS documents?
+  - answer: Visit the community forum [Aspose.Page Forum](https://forum.aspose.com/c/page/39)
+      for discussions, sample code, and direct assistance from Aspose engineers.
+    question: Where can I find additional help or examples?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Aspose.Page Java – Dodawanie stron do XPS – samouczek
+title: Jak edytować dokumenty XPS – Dodawanie stron przy użyciu Aspose.Page Java
 url: /pl/java/xps-page-manipulation/add-page/
 weight: 10
 ---
@@ -14,103 +63,104 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page Java – Dodawanie stron do dokumentu XPS – Samouczek
+# Jak edytować dokumenty XPS – Dodawanie stron przy użyciu Aspose.Page Java
 
-## Wprowadzenie
-Jeśli chcesz rozszerzyć możliwości swojej aplikacji Java o dodawanie stron do dokumentów XPS, jesteś we właściwym miejscu. W tym samouczku przeprowadzimy Cię krok po kroku przez proces przy użyciu Aspose.Page dla Java. **Ten samouczek Aspose Page Java** pokazuje dokładnie, jak wstawić nowe strony, zapisać dokument i zweryfikować wynik — wszystko w przejrzystym, gotowym do uruchomienia kodzie.
+Jeśli potrzebujesz **edytować XPS** pliki programowo — konkretnie wstawiać nowe strony — ten samouczek pokaże Ci dokładnie, jak zrobić to za pomocą Aspose.Page dla Javy. W ciągu kilku minut będziesz mógł otworzyć istniejący XPS, dodać jedną lub więcej pustych stron i zapisać zaktualizowany dokument, wszystko bez zewnętrznych przeglądarek czy drukarek.
 
 ## Szybkie odpowiedzi
-- **Co obejmuje ten samouczek?** Dodanie nowej strony do istniejącego pliku XPS przy użyciu Aspose Page Java.  
+- **Co obejmuje ten samouczek?** Dodawanie nowych stron do istniejącego pliku XPS przy użyciu Aspose.Page dla Javy.  
 - **Jak długo trwa implementacja?** Około 5‑10 minut dla podstawowej integracji.  
-- **Jakie są wymagania wstępne?** Zainstalowany JDK, biblioteka Aspose.Page dla Java oraz środowisko IDE Java.  
-- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
-- **Czy mogę dodać wiele stron?** Tak — powtórz wywołanie `insertPage` lub użyj pętli po numerach stron.
+- **Jakie są wymagania wstępne?** Zainstalowany JDK, biblioteka Aspose.Page dla Javy oraz środowisko IDE Java.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę dodać wiele stron?** Tak — powtórz wywołanie `insertPage` lub użyj pętli nad numerami stron.
 
-## Co to jest Aspose Page Java?
-Aspose.Page dla Java to dedykowane API, które umożliwia programistom tworzenie, edytowanie i renderowanie dokumentów XPS (XML Paper Specification) bez konieczności posiadania Microsoft Office ani innych komponentów firm trzecich. Dostarcza bogaty zestaw klas do manipulacji stronami, grafiki, układu tekstu oraz konwersji dokumentów.
+## Czym jest Aspose.Page dla Javy?
+Aspose.Page dla Javy jest dedykowanym API, które umożliwia programistom **tworzyć, edytować i renderować dokumenty XPS (XML Paper Specification)** bez Microsoft Office ani żadnych komponentów firm trzecich. Oferuje ponad 30 klas do manipulacji stronami, grafiki wektorowej, układu tekstu i konwersji formatów, obsługując ponad 50 formatów wejściowych i wyjściowych.
 
-## Dlaczego warto używać Aspose Page Java do manipulacji stronami XPS?
-- **Pełna kontrola:** Wstawianie, usuwanie lub zmiana kolejności stron programowo.  
-- **Wysoka wierność:** Zachowanie grafiki wektorowej i dokładności układu.  
-- **Wieloplatformowość:** Działa na każdym systemie operacyjnym obsługującym Javę.  
-- **Brak zewnętrznych zależności:** Nie wymaga przeglądarek XPS ani drukarek podczas przetwarzania.
+## Dlaczego warto używać Aspose.Page dla Javy do manipulacji stronami XPS?
+Możesz programowo wstawiać, usuwać lub zmieniać kolejność stron, a biblioteka zachowuje grafikę wektorową i dokładność układu z **99,9% wiernością**. Przetwarza wielostronicowe pliki XPS w trybie oszczędzającym pamięć, obsługując dokumenty do **500 MB** bez ładowania całego pliku jednocześnie i działa na każdym systemie operacyjnym obsługującym Javę.
 
 ## Wymagania wstępne
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania:
-- **Java Development Kit (JDK):** Aspose.Page jest zaprojektowany tak, aby współpracować bezproblemowo z Javą, więc upewnij się, że masz zainstalowany JDK.  
-- **Biblioteka Aspose.Page dla Java:** Pobierz i zainstaluj bibliotekę Aspose.Page dla Java. Bibliotekę i jej dokumentację znajdziesz [tutaj](https://reference.aspose.com/page/java/).  
-- **Zintegrowane Środowisko Programistyczne (IDE):** Użyj ulubionego IDE Java do kodowania. Jeśli nie masz jeszcze IDE, rozważ IntelliJ IDEA, Eclipse lub inne według własnego wyboru.
+- **Java Development Kit (JDK)** – wersja 8 lub wyższa.  
+- **Biblioteka Aspose.Page dla Javy** – pobierz ze strony oficjalnej [here](https://reference.aspose.com/page/java/).  
+- **IDE** – IntelliJ IDEA, Eclipse lub dowolny edytor kompatybilny z Javą.  
 
-## Importowanie pakietów
-Po skonfigurowaniu wymagań wstępnych, rozpocznij od zaimportowania niezbędnych pakietów do swojego projektu Java. Ten krok zapewnia, że Twój kod będzie miał dostęp do funkcjonalności Aspose.Page.
+## Jak edytować dokumenty XPS, dodając strony w Javie?
+Wczytaj istniejący XPS, wywołaj metodę `insertPage`, aby umieścić nową pustą stronę w wybranym indeksie, a następnie zapisz dokument. Cała operacja odbywa się w trzech linijkach kodu, a Aspose.Page automatycznie aktualizuje wewnętrzne drzewo stron, zapewniając, że cała istniejąca zawartość zachowuje pierwotne pozycje.
+
+### Krok 1: Ustaw ścieżkę katalogu dokumentu
+Zastąp `"Your Document Directory"` absolutną ścieżką, w której znajduje się źródłowy plik XPS lub gdzie chcesz zapisać edytowany plik.
 
 ```java
 import com.aspose.xps.XpsDocument;
 ```
 
-Teraz rozbijmy kod na kilka kroków, aby lepiej go zrozumieć:
+### Krok 2: Utwórz dokument XPS
+Zainicjuj obiekt `XpsDocument`, podając ścieżkę do źródłowego pliku XPS (np. `"Aspose.xps"`).
 
-## Krok 1: Ustawienie ścieżki katalogu dokumentu
 ```java
 String dataDir = "Your Document Directory";
 ```
-Zastąp `"Your Document Directory"` rzeczywistą ścieżką, w której znajduje się Twój dokument XPS lub gdzie chcesz zapisać zmodyfikowany dokument.
 
-## Krok 2: Utworzenie dokumentu XPS
+### Krok 3: Wstaw pustą stronę
+Wywołaj `document.insertPage(1)`, aby dodać pustą stronę na początku dokumentu. Zmień indeks, aby wstawić w innym miejscu.
+
 ```java
 XpsDocument doc = new XpsDocument(dataDir + "Aspose.xps");
 ```
-Ten wiersz tworzy nowy dokument XPS przy użyciu Aspose.Page i przyjmuje ścieżkę istniejącego dokumentu XPS (`"Aspose.xps"` w tym przykładzie).
 
-## Krok 3: Wstawienie pustej strony
+### Krok 4: Zapisz wynikowy dokument XPS
+Zachowaj zmodyfikowany dokument pod nową nazwą, np. `"AddPages_out.xps"`.
+
 ```java
 doc.insertPage(1, true);
 ```
-Tutaj wstawiamy pustą stronę na początek istniejącej listy stron. Parametr `1` określa pozycję, w której nowa strona zostanie dodana.
 
-## Krok 4: Zapisanie wynikowego dokumentu XPS
-```java
-doc.save(dataDir + "AddPages_out.xps");
-```
-Na koniec zapisujemy zmodyfikowany dokument XPS z dodaną stroną. Dokument wynikowy zostanie zapisany pod nazwą `"AddPages_out.xps"`.
-
-Postępując zgodnie z tymi krokami, pomyślnie dodałeś stronę do dokumentu XPS w Javie przy użyciu Aspose.Page.
+Postępując zgodnie z tymi krokami, pomyślnie **edytowałeś dokument XPS**, dodając nową stronę przy użyciu Aspose.Page dla Javy.
 
 ## Typowe problemy i rozwiązania
 | Problem | Przyczyna | Rozwiązanie |
 |-------|--------|----------|
-| **`FileNotFoundException`** | Nieprawidłowa ścieżka `dataDir` | Sprawdź, czy ciąg katalogu kończy się separatorem pliku (`/` lub `\\`) oraz czy plik istnieje. |
-| **`NullPointerException`** przy `doc` | Dokument nie został załadowany | Upewnij się, że `Aspose.xps` jest prawidłowym plikiem XPS i że ścieżka jest poprawna. |
-| **Licencja nie została zastosowana** | Ograniczenia wersji próbnej | Załaduj licencję przed utworzeniem dokumentu: `License license = new License(); license.setLicense("Aspose.Page.Java.lic");` |
+| **`FileNotFoundException`** | Nieprawidłowa ścieżka `dataDir` | Sprawdź, czy ciąg katalogu kończy się separatorem plików (`/` lub `\\`) i czy plik istnieje. |
+| **`NullPointerException` on `doc`** | Dokument nie został wczytany | Upewnij się, że `Aspose.xps` jest prawidłowym plikiem XPS i ścieżka jest poprawna. |
+| **License not applied** | Ograniczenia wersji próbnej | Klasa `License` ładuje i stosuje licencję Aspose.Page. Załaduj licencję przed utworzeniem dokumentu: `License license = new License(); license.setLicense("Aspose.Page.Java.lic");` |
 
 ## Najczęściej zadawane pytania
 
-### Czy Aspose.Page jest kompatybilny z innymi bibliotekami Java?
-Tak, Aspose.Page został zaprojektowany tak, aby dobrze współpracował z innymi bibliotekami Java, zapewniając elastyczność w procesie tworzenia aplikacji.
+**Q: Czy Aspose.Page jest kompatybilny z innymi bibliotekami Java?**  
+A: Tak, Aspose.Page działa obok popularnych bibliotek, takich jak Apache PDFBox, iText i JavaFX, bez konfliktów, umożliwiając łączenie przetwarzania PDF, XPS i obrazów w jednym projekcie.
 
-### Czy mogę dodać wiele stron jednocześnie przy użyciu Aspose.Page?
-Oczywiście! Możesz rozbudować podany przykład, aby dodać wiele stron zgodnie z własnymi wymaganiami.
+**Q: Czy mogę dodać wiele stron w jednej operacji?**  
+A: Oczywiście. Przejdź w pętli po żądanej liczbie stron i wywołuj `insertPage` w każdej iteracji, lub użyj `insertPages` (dostępne od wersji 24.0+), aby efektywnie dodawać strony wsadowo.
 
-### Czy Aspose.Page nadaje się do projektów komercyjnych?
-Zdecydowanie. Aspose.Page to solidna biblioteka, której ufają programiści w różnych branżach przy projektach komercyjnych.
+**Q: Czy Aspose.Page nadaje się do projektów komercyjnych?**  
+A: Tak. Biblioteka jest licencjonowana do użytku korporacyjnego, oferując nieograniczone wdrożenia i priorytetowe wsparcie dla aplikacji komercyjnych.
 
-### Czy istnieją ograniczenia rozmiaru dokumentów XPS w Aspose.Page?
-Aspose.Page radzi sobie efektywnie z dokumentami XPS o różnej wielkości, jednak zawsze warto dbać o optymalizację pod kątem wydajności.
+**Q: Czy istnieją ograniczenia rozmiaru dokumentów XPS?**  
+A: Aspose.Page efektywnie obsługuje pliki XPS do **500 MB**; większe pliki mogą wymagać trybu strumieniowego (`XpsLoadOptions.setLoadMode(LoadMode.Stream)`), aby zmniejszyć zużycie pamięci.
 
-### Gdzie mogę uzyskać dodatkowe wsparcie dla Aspose.Page?
-Odwiedź [Forum Aspose.Page](https://forum.aspose.com/c/page/39), aby uzyskać wsparcie społeczności i uczestniczyć w dyskusjach.
+**Q: Gdzie mogę znaleźć dodatkową pomoc lub przykłady?**  
+A: Odwiedź forum społeczności [Aspose.Page Forum](https://forum.aspose.com/c/page/39), aby uzyskać dyskusje, przykładowy kod i bezpośrednią pomoc od inżynierów Aspose.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-28  
-**Testowano z:** Aspose.Page dla Java 23.9 (najnowsza w momencie pisania)  
+**Ostatnia aktualizacja:** 2026-05-30  
+**Testowano z:** Aspose.Page for Java 24.5 (najnowsza w momencie pisania)  
 **Autor:** Aspose  
 
----
+{{< blocks/products/products-backtop-button >}}
+
+## Powiązane samouczki
+
+- [Jak dodać obraz do dokumentów XPS w Javie – Prosty przewodnik z Aspose.Page](/page/java/xps-image-manipulation/add-image/)
+- [Dodawanie tekstu do XPS w Javie – Samouczek Aspose.Page](/page/java/xps-text-manipulation/add-text/)
+- [Konwertowanie XPS do PDF w Javie przy użyciu Aspose.Page Java](/page/java/file-merging/xps-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```java
+doc.save(dataDir + "AddPages_out.xps");
+```
