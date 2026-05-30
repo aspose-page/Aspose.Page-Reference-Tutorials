@@ -1,8 +1,59 @@
 ---
-date: 2025-12-28
+date: 2026-05-30
 description: Μάθετε πώς να δημιουργήσετε έγγραφο XPS σε Java χρησιμοποιώντας το Aspose.Page
-  και να προσθέσετε εύκολα εικόνα σε πλακίδια με αυτόν τον βήμα‑βήμα οδηγό.
-linktitle: Add Tiled Image in Java XPS
+  και να προσθέσετε εικόνα σε πλακίδια εύκολα με αυτόν τον οδηγό βήμα‑βήμα. Πώς να
+  δημιουργήσετε αρχεία XPS γρήγορα.
+keywords:
+- how to create xps
+- add tiled image java
+- Aspose.Page XPS tutorial
+linktitle: Προσθήκη εικόνας σε πλακίδια σε Java XPS
+schemas:
+- author: Aspose
+  dateModified: '2026-05-30'
+  description: Learn how to create XPS document in Java using Aspose.Page and add
+    tiled image effortlessly with this step‑by‑step guide. How to create XPS files
+    quickly.
+  headline: How to Create XPS Document with a Tiled Image in Java
+  type: TechArticle
+- description: Learn how to create XPS document in Java using Aspose.Page and add
+    tiled image effortlessly with this step‑by‑step guide. How to create XPS files
+    quickly.
+  name: How to Create XPS Document with a Tiled Image in Java
+  steps:
+  - name: Set Up Your Project
+    text: Add the Aspose.Page JAR files to your project’s classpath and verify the
+      import statements compile without errors.
+  - name: Create XPS Document
+    text: '`XpsDocument` is the core container that holds pages, paths, and resources.
+      Instantiate it with the desired page size, then you can start adding graphical
+      elements.'
+  - name: Define the Tiled Image Path
+    text: Place the image you want to tile (e.g., `R08LN_NN.jpg`) inside the directory
+      referenced by `dataDir`. The image will be used as a brush pattern.
+  - name: Add Tiled Image
+    text: Create a rectangular path and fill it with an `XpsImageBrush`. By setting
+      the tile mode to `Tile`, the image repeats across the rectangle. Adjust the
+      source and destination rectangles to control tile size and positioning.
+  - name: Save the Document
+    text: Persist the XPS file to disk. The output file will contain the tiled image
+      you just defined and can be opened with any XPS viewer. Repeat these steps whenever
+      you need to **add tiled image** to other pages or shapes within the same XPS
+      document.
+  type: HowTo
+- questions:
+  - answer: It provides a high‑level API to generate and manipulate XPS documents
+      in Java.
+    question: What does Aspose.Page do?
+  - answer: Yes – use `XpsImageBrush` with `XpsTileMode.Tile`.
+    question: Can I tile an image?
+  - answer: A temporary or commercial license is required for production use.
+    question: Do I need a license?
+  - answer: Any JDK 8+ is compatible.
+    question: What Java version is supported?
+  - answer: Roughly 10–15 minutes for a basic tiled‑image scenario.
+    question: How long does implementation take?
+  type: FAQPage
 second_title: Aspose.Page Java API
 title: Πώς να δημιουργήσετε έγγραφο XPS με εικόνα σε πλακίδια σε Java
 url: /el/java/xps-image-manipulation/add-tiled-image/
@@ -13,33 +64,38 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία εγγράφου XPS και προσθήκη ταμπλαρισμένης εικόνας σε Java
+# Πώς να δημιουργήσετε έγγραφο XPS με εικόνα σε μοτίβο πλακιδίων σε Java
 
 ## Εισαγωγή
-Στη σύγχρονη ανάπτυξη Java, η δυνατότητα **create XPS document** αρχείων προγραμματιστικά είναι μια πολύτιμη δεξιότητα, ειδικά όταν χρειάζεται να τα εμπλουτίσετε με γραφικά όπως ταμπλαρισμένες εικόνες. Το Aspose.Page for Java κάνει αυτή τη διαδικασία απλή, επιτρέποντάς σας να εστιάσετε στον οπτικό σχεδιασμό αντί για τη χαμηλού επιπέδου διαχείριση αρχείων. Σε αυτό το tutorial θα μάθετε ακριβώς πώς να δημιουργήσετε ένα έγγραφο XPS, **add tiled image**, και να αποθηκεύσετε το αποτέλεσμα, όλα με σαφή, βήμα‑βήμα παραδείγματα κώδικα.
+Η δημιουργία εγγράφων XPS προγραμματιστικά είναι μια βασική δεξιότητα για προγραμματιστές Java που χρειάζονται εκτυπώσιμη, ανεξάρτητη από τη συσκευή έξοδο. **Πώς να δημιουργήσετε XPS** αρχεία αποδοτικά απαντάται από το Aspose.Page for Java, το οποίο αφαιρεί τις λεπτομέρειες του χαμηλού επιπέδου XML Paper Specification και σας επιτρέπει να εστιάσετε στον οπτικό σχεδιασμό. Σε αυτόν τον οδηγό θα δείτε ακριβώς πώς να δημιουργήσετε ένα έγγραφο XPS, να προσθέσετε μια εικόνα σε μοτίβο πλακιδίων ως φόντο ή μοτίβο, και να αποθηκεύσετε το αποτέλεσμα — όλα με σύντομο, έτοιμο για παραγωγή κώδικα.
 
-## Γρήγορες Απαντήσεις
-- **What does Aspose.Page do?** Παρέχει ένα υψηλού επιπέδου API για τη δημιουργία και τη διαχείριση εγγράφων XPS σε Java.  
-- **Can I tile an image?** Ναι – χρησιμοποιήστε `XpsImageBrush` με `XpsTileMode.Tile`.  
-- **Do I need a license?** Απαιτείται προσωρινή ή εμπορική άδεια για χρήση σε παραγωγή.  
-- **What Java version is supported?** Οποιαδήποτε έκδοση JDK 8+ είναι συμβατή.  
-- **How long does implementation take?** Περίπου 10–15 λεπτά για ένα βασικό σενάριο ταμπλαρισμένης εικόνας.
+## Γρήγορες απαντήσεις
+- **Τι κάνει το Aspose.Page;** Παρέχει ένα API υψηλού επιπέδου για τη δημιουργία και τη διαχείριση εγγράφων XPS σε Java.  
+- **Μπορώ να τοποθετήσω μια εικόνα σε μοτίβο πλακιδίων;** Ναι – χρησιμοποιήστε `XpsImageBrush` με `XpsTileMode.Tile`.  
+- **Χρειάζομαι άδεια;** Απαιτείται προσωρινή ή εμπορική άδεια για χρήση σε παραγωγή.  
+- **Ποια έκδοση Java υποστηρίζεται;** Οποιοδήποτε JDK 8+ είναι συμβατό.  
+- **Πόσο χρόνο διαρκεί η υλοποίηση;** Περίπου 10–15 λεπτά για ένα βασικό σενάριο εικόνας σε μοτίβο πλακιδίων.
 
-## Τι είναι η “create XPS document”;
-Ένα αρχείο XPS (XML Paper Specification) είναι μια μορφή σταθερού layout παρόμοια με το PDF. Η δημιουργία ενός εγγράφου XPS προγραμματιστικά σας επιτρέπει να παράγετε εκτυπώσιμα, ανεξάρτητα από τη συσκευή αρχεία απευθείας από κώδικα Java.
+## Τι είναι η «δημιουργία εγγράφου XPS»;
+`XpsDocument` είναι το κορυφαίο αντικείμενο του Aspose.Page που αντιπροσωπεύει ένα μόνο αρχείο XPS στη μνήμη. Συμπεριλαμβάνει σελίδες, πόρους και μεταδεδομένα, επιτρέποντάς σας να δημιουργήσετε το έγγραφο προγραμματιστικά. Η δημιουργία ενός εγγράφου XPS σημαίνει η δημιουργία μιας στιγμής αυτής της κλάσης, η προσθήκη οπτικών στοιχείων και, τελικά, η κλήση του `save` για να γράψετε το αρχείο σταθερής διάταξης στο δίσκο. Αυτή η προσέγγιση εξαλείφει την χειροκίνητη διαχείριση XML και εγγυάται τη συμμόρφωση με το XML Paper Specification.
 
-## Γιατί να προσθέσετε ταμπλαρισμένη εικόνα;
-Η ταμπλαρισμένη εικόνα επαναλαμβάνει το γραφικό σε μια καθορισμένη περιοχή, κάτι που είναι ιδανικό για φόντα, υδατογραφήματα ή γεμίσεις με μοτίβα. Χρησιμοποιώντας το `XpsTileMode.Tile` του Aspose.Page μπορείτε να το πετύχετε με λίγες μόνο γραμμές κώδικα.
+## Γιατί να προσθέσετε μια εικόνα σε μοτίβο πλακιδίων;
+Η τοποθέτηση (tiling) επαναλαμβάνει ένα γραφικό στοιχείο σε ορισμένη περιοχή, κάτι ιδανικό για φόντα, υδατογραφήματα ή γεμίσματα μοτίβων. Χρησιμοποιώντας το `XpsTileMode.Tile` η εικόνα επαναλαμβάνεται αυτόματα χωρίς χειροκίνητη αντιγραφή, εξοικονομώντας χρόνο ανάπτυξης και εξασφαλίζοντας συνεπή απόδοση σε οποιαδήποτε συσκευή. Οι εικόνες σε μοτίβο πλακιδίων διατηρούν επίσης μικρότερο μέγεθος αρχείου επειδή ο ίδιος πόρος bitmap επαναχρησιμοποιείται αντί να ενσωματώνεται πολλές φορές.
 
 ## Προαπαιτούμενα
 Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε:
 
 1. **Java Development Kit (JDK)** – Εγκατεστημένο JDK 8 ή νεότερο.  
-2. **Aspose.Page for Java** – Κατεβάστε το από την [website](https://releases.aspose.com/page/java/).  
-3. **A writable directory** – όπου θα αποθηκευτεί το παραγόμενο αρχείο XPS.
+2. **Aspose.Page for Java** – κατεβάστε από την [website](https://releases.aspose.com/page/java/).  
+3. **Ένας εγγράψιμος φάκελος** – όπου θα αποθηκευτεί το παραγόμενο αρχείο XPS.
 
-## Εισαγωγή Πακέτων
+## Εισαγωγή πακέτων
 Στο έργο Java, εισάγετε τις απαραίτητες κλάσεις:
+
+`XpsDocument` είναι το κύριο αντικείμενο που αντιπροσωπεύει ένα αρχείο XPS.  
+`XpsImageBrush` ζωγραφίζει σχήματα χρησιμοποιώντας μια πηγή εικόνας.  
+`XpsTileMode` καθορίζει πώς τοποθετείται μια εικόνα.  
+`Rectangle2D` περιγράφει μια ορθογώνια περιοχή για τοποθέτηση.
 
 ```java
 import com.aspose.xps.XpsDocument;
@@ -49,13 +105,13 @@ import com.aspose.xps.XpsTileMode;
 import java.awt.geom.Rectangle2D;
 ```
 
-## Οδηγός βήμα‑βήμα
+## Οδηγός βήμα προς βήμα
 
-### Βήμα 1: Ρύθμιση του έργου σας
-Προσθέστε τα JAR του Aspose.Page στο classpath του έργου σας και βεβαιωθείτε ότι οι δηλώσεις εισαγωγής (import) μεταγλωττίζονται χωρίς σφάλματα.
+### Βήμα 1: Ρυθμίστε το έργο σας
+Προσθέστε τα JAR αρχεία του Aspose.Page στο classpath του έργου σας και βεβαιωθείτε ότι οι δηλώσεις εισαγωγής συντάσσονται χωρίς σφάλματα.
 
-### Βήμα 2: Δημιουργία εγγράφου XPS
-Δημιουργήστε ένα νέο αντικείμενο `XpsDocument`. Αυτό είναι ο βασικός container που θα περιέχει όλες τις σελίδες, τα paths και τους πόρους.
+### Βήμα 2: Δημιουργήστε έγγραφο XPS
+`XpsDocument` είναι ο πυρήνας που περιέχει σελίδες, διαδρομές και πόρους. Δημιουργήστε μια στιγμιότυπο με το επιθυμητό μέγεθος σελίδας, ώστε να μπορείτε να αρχίσετε να προσθέτετε γραφικά στοιχεία.
 
 ```java
 // The path to the documents directory.
@@ -64,11 +120,11 @@ String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-### Βήμα 3: Ορισμός διαδρομής ταμπλαρισμένης εικόνας
-Τοποθετήστε την εικόνα που θέλετε να ταμπλαρίσετε (π.χ. `R08LN_NN.jpg`) μέσα στον φάκελο που αναφέρεται από το `dataDir`. Η εικόνα θα χρησιμοποιηθεί ως μοτίβο βούρτσας.
+### Βήμα 3: Ορίστε τη διαδρομή της εικόνας σε μοτίβο πλακιδίων
+Τοποθετήστε την εικόνα που θέλετε να χρησιμοποιήσετε σε μοτίβο (π.χ., `R08LN_NN.jpg`) μέσα στον φάκελο που αναφέρεται από το `dataDir`. Η εικόνα θα χρησιμοποιηθεί ως μοτίβο πινέλου.
 
-### Βήμα 4: Προσθήκη ταμπλαρισμένης εικόνας
-Δημιουργήστε ένα ορθογώνιο path και γεμίστε το με ένα `XpsImageBrush`. Ορίζοντας το tile mode σε `Tile`, η εικόνα επαναλαμβάνεται σε όλο το ορθογώνιο.
+### Βήμα 4: Προσθέστε εικόνα σε μοτίβο πλακιδίων
+Δημιουργήστε μια ορθογώνια διαδρομή και γεμίστε την με ένα `XpsImageBrush`. Ορίζοντας το tile mode σε `Tile`, η εικόνα επαναλαμβάνεται σε όλο το ορθογώνιο. Ρυθμίστε τα ορθογώνια πηγής και προορισμού για να ελέγξετε το μέγεθος και τη θέση των πλακιδίων.
 
 ```java
 // Tile image
@@ -80,51 +136,58 @@ path.setFill(doc.createImageBrush(dataDir +  "R08LN_NN.jpg",
 path.getFill().setOpacity(0.5f);
 ```
 
-### Βήμα 5: Αποθήκευση του εγγράφου
-Αποθηκεύστε το αρχείο XPS στο δίσκο. Το αρχείο εξόδου θα περιέχει την ταμπλαρισμένη εικόνα που ορίσατε.
+### Βήμα 5: Αποθηκεύστε το έγγραφο
+Αποθηκεύστε το αρχείο XPS στο δίσκο. Το αρχείο εξόδου θα περιέχει την εικόνα σε μοτίβο που μόλις ορίσατε και μπορεί να ανοιχθεί με οποιονδήποτε προβολέα XPS.
 
 ```java
 // Save resultant XPS document
 doc.save(dataDir + "AddTiledImage_out.xps"); 
 ```
 
-Επαναλάβετε αυτά τα βήματα όποτε χρειαστεί να **add tiled image** σε άλλες σελίδες ή σχήματα εντός του ίδιου εγγράφου XPS.
+Επαναλάβετε αυτά τα βήματα όποτε χρειαστεί να **προσθέσετε εικόνα σε μοτίβο πλακιδίων** σε άλλες σελίδες ή σχήματα εντός του ίδιου εγγράφου XPS.
 
-## Συχνά Προβλήματα και Λύσεις
+## Κοινά προβλήματα και λύσεις
 | Πρόβλημα | Λύση |
 |----------|------|
-| Image not showing | Επαληθεύστε ότι η διαδρομή αρχείου (`dataDir + "R08LN_NN.jpg"`) είναι σωστή και ότι η εικόνα είναι προσβάσιμη. |
-| Tile pattern appears stretched | Προσαρμόστε τις τιμές `Rectangle2D` προέλευσης και προορισμού για να ελέγξετε το μέγεθος του μοτίβου. |
-| Opacity has no effect | Βεβαιωθείτε ότι η διαφάνεια της βούρτσας έχει οριστεί **after** τη ρύθμιση του tile mode. |
+| Η εικόνα δεν εμφανίζεται | Επαληθεύστε ότι η διαδρομή αρχείου (`dataDir + "R08LN_NN.jpg"`) είναι σωστή και ότι η εικόνα είναι προσβάσιμη. |
+| Το μοτίβο πλακιδίων εμφανίζεται τεντωμένο | Προσαρμόστε τις τιμές του `Rectangle2D` πηγής και προορισμού για να ελέγξετε το μέγεθος των πλακιδίων. |
+| Η αδιαφάνεια δεν έχει αποτέλεσμα | Βεβαιωθείτε ότι η αδιαφάνεια του πινέλου έχει οριστεί **μετά** τη ρύθμιση του tile mode. |
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
-### Είναι το Aspose.Page συμβατό με όλες τις εκδόσεις της Java;
-Το Aspose.Page σχεδιάστηκε για να λειτουργεί με διάφορες εκδόσεις της Java. Εξασφαλίστε τη συμβατότητα ελέγχοντας την τεκμηρίωση [here](https://reference.aspose.com/page/java/).
+**Q:** Είναι το Aspose.Page συμβατό με όλες τις εκδόσεις Java;  
+**A:** Το Aspose.Page υποστηρίζει Java 8 έως Java 21· μπορείτε να βρείτε τον πλήρη πίνακα συμβατότητας [εδώ](https://reference.aspose.com/page/java/).
 
-### Μπορώ να χρησιμοποιήσω το Aspose.Page για εμπορικά έργα;
-Ναι, το Aspose.Page προσφέρει εμπορικές άδειες. Αγοράστε τις [here](https://purchase.aspose.com/buy).
+**Q:** Μπορώ να χρησιμοποιήσω το Aspose.Page για εμπορικά έργα;  
+**A:** Ναι, απαιτείται εμπορική άδεια για χρήση σε παραγωγή. Οι επιλογές αγοράς αναφέρονται [εδώ](https://purchase.aspose.com/buy).
 
-### Υπάρχει διαθέσιμη δωρεάν δοκιμή;
-Ναι, εξερευνήστε τις δυνατότητες του Aspose.Page με μια δωρεάν δοκιμή [here](https://releases.aspose.com/).
+**Q:** Υπάρχει διαθέσιμη δωρεάν δοκιμή;  
+**A:** Μπορείτε να κατεβάσετε μια πλήρως λειτουργική δωρεάν δοκιμή από τη σελίδα κυκλοφορίας του Aspose [εδώ](https://releases.aspose.com/).
 
-### Πού μπορώ να βρω υποστήριξη κοινότητας και συζητήσεις;
-Συμμετέχετε στην κοινότητα του Aspose.Page στο [forum](https://forum.aspose.com/c/page/39).
+**Q:** Πού μπορώ να βρω υποστήριξη από την κοινότητα;  
+**A:** Εγγραφείτε στο φόρουμ κοινότητας Aspose.Page στο [forum](https://forum.aspose.com/c/page/39) για να κάνετε ερωτήσεις και να μοιραστείτε παραδείγματα.
 
-### Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.Page;
-Αποκτήστε μια προσωρινή άδεια [here](https://purchase.aspose.com/temporary-license/).
+**Q:** Πώς μπορώ να αποκτήσω προσωρινή άδεια για αξιολόγηση;  
+**A:** Οι προσωρινές άδειες παρέχονται κατόπιν αιτήματος μέσω της πύλης Aspose [εδώ](https://purchase.aspose.com/temporary-license/).
 
----
-
-**Τελευταία ενημέρωση:** 2025-12-28  
-**Δοκιμή με:** Aspose.Page for Java 24.12 (latest)  
-**Συγγραφέας:** Aspose  
+## Συμπέρασμα
+Τώρα έχετε μια πλήρη, έτοιμη για παραγωγή ροή εργασίας για **πώς να δημιουργήσετε XPS** έγγραφα με εικόνες σε μοτίβο πλακιδίων χρησιμοποιώντας το Aspose.Page for Java. Εκμεταλλευόμενοι το `XpsImageBrush` και το `XpsTileMode.Tile`, μπορείτε να δημιουργήσετε πλούσια, επαναλαμβανόμενα γραφικά χωρίς να αυξήσετε το μέγεθος του αρχείου. Πειραματιστείτε με διαφορετικά μεγέθη πλακιδίων, επίπεδα αδιαφάνειας και σχήματα για να δημιουργήσετε σύνθετες διατάξεις εγγράφων. Στο επόμενο βήμα, εξερευνήστε την προσθήκη διανυσματικών σχημάτων ή κειμένου για περαιτέρω βελτίωση των αρχείων XPS σας.
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-05-30  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Σχετικές οδηγίες
+
+- [Πώς να προσθέσετε εικόνα σε έγγραφα XPS Java – Ένας απλός οδηγός με Aspose.Page](/page/java/xps-image-manipulation/add-image/)
+- [Aspose.Page Java - Προσθήκη σελίδων σε οδηγό XPS](/page/java/xps-page-manipulation/add-page/)
+- [Μετατροπή XPS σε PDF σε Java χρησιμοποιώντας Aspose.Page Java](/page/java/file-merging/xps-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
