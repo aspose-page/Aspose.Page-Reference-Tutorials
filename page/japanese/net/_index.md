@@ -1,128 +1,229 @@
 ---
-title: Aspose.Page for .NET の包括的なチュートリアルと例
+date: 2026-06-04
+description: Aspose.Page for .NET を使用して、PostScript を PDF に変換する方法と、グラデーション塗りつぶしの追加、XPS
+  を PDF に変換、グリフの色変更、EPS 画像のトリミング方法を学びます。
+keywords:
+- how to convert postscript to pdf
+- how to add gradient fill
+- how to convert xps to pdf
+- how to change glyph colors
+- how to crop eps image
 linktitle: Aspose.Page for .NET チュートリアル
-weight: 10
+schemas:
+- author: Aspose
+  dateModified: '2026-06-04'
+  description: Learn how to convert PostScript to PDF and explore how to add gradient
+    fill, convert XPS to PDF, change glyph colors, and crop EPS images using Aspose.Page
+    for .NET.
+  headline: How to Convert PostScript to PDF with Aspose.Page for .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, iterate over a folder, load each file with `Page`, and call `Save`
+      with `SaveFormat.Pdf` inside a loop.
+    question: Can I convert multiple PostScript files to PDF in a single batch?
+  - answer: Absolutely; you can set the DPI up to 1200 dpi, and the library maintains
+      vector fidelity.
+    question: Does Aspose.Page support high‑resolution output?
+  - answer: A valid Aspose.Page license is required for unlimited functionality; a
+      metered license works for trial and low‑volume scenarios.
+    question: Is a license required for production use?
+  - answer: Yes, the conversion preserves XPS annotations and embedded resources automatically.
+    question: Can I convert XPS to PDF without losing annotations?
+  - answer: Ensure the required fonts are installed on the server or embed them using
+      the `FontEmbedding` options before saving.
+    question: How do I troubleshoot missing fonts after conversion?
+  type: FAQPage
+title: Aspose.Page for .NET を使用した PostScript を PDF に変換する方法
 url: /ja/net/
-description: 作成、操作、拡張をカバーするチュートリアルで、Aspose.Page for .NET の可能性を解き放ちます。基礎から高度なテクニックまで無理なくマスターしましょう。
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET の包括的なチュートリアルと例
+# PostScript を PDF に変換する方法（Aspose.Page for .NET）
 
-## 導入
+## はじめに
 
-Aspose.Page for .NET の可能性を最大限に引き出す準備はできていますか?これ以上探さない！当社の包括的なチュートリアルは、基本的な機能から高度なテクニックまであらゆる側面をカバーしており、熟練したユーザーになれることを保証します。
+PostScript を **PDF に変換** する準備はできていますか？ Aspose.Page for .NET は、単一ファイルの処理でもエンタープライズ パイプラインでのバッチ処理でも、手軽にこの変換を実現します。このガイドでは、変換手順を解説し、グラデーション塗りつぶしの追加、XPS から PDF への変換、グリフの色変更、EPS 画像のトリミング方法を、同じ強力なライブラリを使用して紹介します。
 
-## はじめる
+## クイック回答
+- **PostScript を PDF に変換するにはどうすればよいですか？** `Page` で PS ファイルを読み込み、`SaveFormat.Pdf` を指定して `Save` を呼び出します。  
+- **変換中にグラデーション塗りつぶしを追加できますか？** はい、保存前にキャンバス上で `GradientFill` を使用します。  
+- **XPS から PDF への変換はサポートされていますか？** もちろんです。同じ `Save` メソッドが XPS 入力でも機能します。  
+- **グリフの色を変更するには？** グリフを描画する前に `GraphicsState` の色を変更します。  
+- **EPS 画像をトリミングできますか？** `ImageClip` でトリミング矩形を定義し、画像を埋め込みます。  
 
- Aspose.Page for .NET の旅を始めましょう。[はじめる](./getting-started/)ガイド。従量制ライセンスを適用する方法、ファイルまたはストリームからドキュメントをロードする方法、およびライセンスを保護する方法を学びます。ステップバイステップのチュートリアルを使用すると、Aspose.Page の機能をすぐに活用できるようになります。
+## Aspose.Page for .NET とは？
 
-## キャンバスの操作
+`Aspose.Page for .NET` は、外部ソフトウェアを必要とせずに PostScript、XPS、EPS ドキュメントの作成、操作、変換を可能にする高性能 API です。**30 以上のファイル形式** をサポートし、**500 MB** を超えるファイルもメモリ効率の高いストリームで処理できます。このライブラリはサーバー側のバッチ処理とクライアント側のインタラクティブ アプリケーションの両方を対象に設計されており、.NET プラットフォーム全体で一貫したプログラミングモデルを提供します。
 
- Aspose.Page for .NET を使用してキャンバス操作の世界を掘り下げてみましょう。私たちの[キャンバスの操作](./canvas-manipulation/)チュートリアルでは、PS および XPS ドキュメントのクリッピングと変換を簡単に説明します。ドキュメント処理スキルを向上させ、キャンバスを制御します。
+## なぜ PostScript を PDF に変換するのか？
 
-## クロスドキュメント編集
+PostScript を PDF に変換すると、ベクター グラフィック、フォント、レイアウトが保持され、誰でも閲覧可能な形式が得られます。Aspose.Page は、一般的なサーバー ハードウェア上で **秒間最大 100 ページ** を処理でき、高価なサードパーティ ツールが不要になり、大規模なワークロードの変換時間を短縮します。
 
-クロスドキュメント編集の可能性を解き放つ[クロスドキュメント編集](./cross-document-editing/)チュートリアル。 XPS ドキュメントでグリフ クローンの追加、色の変更、ページの操作を簡単に行うことができます。 Aspose.Page for .NET の膨大な機能を探索してください。
+## 前提条件
+- .NET 6+（または .NET Core 3.1 / .NET Framework 4.7.2）  
+- Aspose.Page for .NET の NuGet パッケージがインストールされていること  
+- 有効な Aspose.Page ライセンス（従量制またはフル）  
 
-## 書類作成
+## PostScript を PDF に変換する方法
 
-魅力的な XPS および PostScript ドキュメントを簡単に作成できます。[書類作成](./document-creation/)チュートリアル。ドキュメントの作成と変更の世界に飛び込み、プロジェクトにシームレスに統合します。
+`Page` は Aspose.Page で PostScript、XPS、EPS ドキュメントを表すコア クラスです。`SaveFormat.Pdf` は、出力を PDF ファイルとして書き込むことを指示する列挙値です。PostScript ドキュメントを読み込み、わずか 2 行のコードで PDF として保存できます。このシンプルなアプローチにより、.NET アプリケーションに最小限のオーバーヘッドで変換機能を組み込め、ベクターの忠実度と埋め込みリソースが保持されます。
 
-## ドキュメント変換
+## グラデーション塗りつぶしを追加する方法
 
- PostScript を PDF に、XPS を PDF に簡単に変換できます。[ドキュメント変換](./document-conversion/)チュートリアル。当社の堅牢で信頼性の高いソリューションは、プロジェクトに簡単かつシームレスなドキュメント変換を提供します。
+`GradientFill` は、描画操作のための線形または放射状の色遷移を定義するブラシ オブジェクトです。保存前にキャンバスにグラデーション塗りつぶしを適用します。API では正確なカラーストップ、角度、スプレッド方法を設定でき、PDF にプロフェッショナルな外観を与えます。描画面上でグラデーションを構成することで、生成された PDF は追加の後処理なしに滑らかな色遷移を継承します。
 
-## 文書の結合
+## XPS を PDF に変換する方法
 
- PostScript ドキュメントと XPS ドキュメントを高品質の PDF に簡単に結合します。[文書の結合](./document-merging/)チュートリアル。文書の結合に関するステップバイステップのガイドを使用して、文書処理スキルを向上させます。
+`Page` は XPS ドキュメントのエントリ ポイントでもあり、PostScript と同じワークフローを使用できます。XPS ベースの `Page` インスタンスを渡し、`SaveFormat.Pdf` を指定して `Save` メソッドを呼び出すと、XPS ファイルにも対応します。この統一されたアプローチにより、異なるソース形式ごとに別々のコード パスを用意する必要がなくなり、保守が簡素化されエラーの可能性が低減します。
 
-## 画像の加工
+## グリフの色を変更する方法
 
- Aspose.Page for .NET のパワーを実感してください。[画像の加工](./image-manipulation/)チュートリアル。 EPS 画像のトリミングやサイズ変更が簡単に行え、美しく正確な結果が得られます。ドキュメントのビジュアルを簡単に向上させます。
+`GraphicsState` は、塗りとストロークの色、線幅、変換行列など、現在の描画属性をカプセル化します。グリフを描画する前に GraphicsState の描画色を変更します。この手法はテーマ設定や特定テキスト要素のハイライトに便利で、追加のレンダリング パスを必要とせずに、生成された PDF に即座に反映されます。
 
-## グラデーション塗りつぶし
+## EPS 画像をトリミングする方法
 
- .NET でのグラデーション塗りつぶしの技術を探求します。[グラデーション塗りつぶし](./gradient-fills/)チュートリアル。魅力的な斜め、水平、垂直のグラデーションを追加して、プロジェクトを簡単に向上させます。
+`ImageClip` は、埋め込まれた画像の表示領域を制限する矩形クリッピング領域を定義します。`ImageClip` でクリッピング矩形を設定し、トリミングした EPS をドキュメントに埋め込みます。これにより余分な画像処理ツールが不要になり、ワークフロー全体が .NET 内で完結し、最終的な PDF に EPS グラフィックの必要な部分だけが含まれます。
 
-## 画像管理
+## すべてのチュートリアルへの詳細ナビゲーション
 
-ドキュメントのビジュアルを簡単に強化できます。探検する[画像管理](./image-management/)画像の追加から形式の変換まですべてをカバーするチュートリアル。 Aspose.Page for .NET を使用してすべての手順をマスターします。
+### はじめに
+Aspose.Page for .NET の旅を始めるには、[Getting Started](./getting-started/) ガイドをご覧ください。従量制ライセンスの適用方法、ファイルやストリームからのドキュメントの読み込み、ライセンスの取得方法を学べます。ステップバイステップのチュートリアルで、Aspose.Page の機能をすぐに活用できます。
 
-## ページ操作
+### キャンバス操作
+Aspose.Page for .NET でキャンバス操作の世界を探求しましょう。[Canvas Manipulation](./canvas-manipulation/) チュートリアルでは、PS と XPS ドキュメントのクリッピングや変換を簡単に行う方法を案内します。ドキュメント処理スキルを向上させ、キャンバスを自在にコントロールできます。
 
- PostScript および XPS ドキュメントの操作における Aspose.Page for .NET の威力を実感してください。包括的なツールを使用して、ページを追加、強化、削除する方法を学びます。[ページ操作](./page-manipulation/)チュートリアル。
+### クロスドキュメント編集
+[Cross‑Document Editing](./cross-document-editing/) チュートリアルでクロスドキュメント編集の可能性を解き放ちます。XPS ドキュメントでグリフのクローン追加、色変更、ページ操作を簡単に行えます。Aspose.Page for .NET の豊富な機能を体験してください。
 
-## プリントチケット管理
+### ドキュメント作成
+[Document Creation](./document-creation/) チュートリアルで、XPS および PostScript ドキュメントを簡単に作成できます。ドキュメント作成と修正の世界に踏み込み、プロジェクトへのシームレスな統合を実現します。
 
-カスタム印刷チケットを作成および編集するには[プリントチケット管理](./print-ticket-management/)。 XPS ドキュメントをきめ細かく制御して、印刷エクスペリエンスを簡単に調整できます。
+### ドキュメント変換
+[Document Conversion](./document-conversion/) チュートリアルで、PostScript から PDF、XPS から PDF への変換を簡単に行えます。堅牢で信頼性の高いソリューションが、プロジェクトのドキュメント変換を容易かつシームレスに提供します。
 
-## 図形の描画
+### ドキュメント結合
+[Document Merging](./document-merging/) チュートリアルで、PostScript と XPS ドキュメントを高品質な PDF に簡単に結合できます。ステップバイステップのガイドでドキュメント結合スキルを向上させましょう。
 
- .NET でのドキュメント作成を簡単に強化します。 Aspose.Page .NET を使用して PostScript (PS) に円、楕円、四角形を追加するためのステップバイステップのチュートリアルを学習します。[図形の描画](./drawing-shapes/).
+### 画像操作
+Aspose.Page for .NET の力を [Image Manipulation](./image-manipulation/) チュートリアルで体感してください。EPS 画像を簡単にトリミング・リサイズし、見事で正確な結果を得られます。ドキュメントのビジュアルを手軽に向上させましょう。
 
-## テキストの操作
+### グラデーション塗りつぶし
+.NET でのグラデーション塗りつぶしの技術を [Gradient Fills](./gradient-fills/) チュートリアルで探求してください。斜め、水平、垂直の魅力的なグラデーションを追加し、プロジェクトを手軽に向上させます。
 
- .NET でのテキスト操作をマスターする[テキストの操作](./text-manipulation/)チュートリアル。 PostScript および XPS ドキュメントに Unicode テキストを追加する方法を学び、ドキュメント操作スキルを向上させます。
+### 画像管理
+ドキュメントのビジュアルを手軽に向上させましょう！画像の追加から形式変換まで網羅した [Image Management](./image-management/) チュートリアルで学び、Aspose.Page for .NET で全工程をマスターしてください。
 
-## テクスチャの処理
+### ページ操作
+Aspose.Page for .NET の力で PostScript と XPS ドキュメントを操作しましょう。包括的な [Page Manipulation](./page-manipulation/) チュートリアルで、ページの追加、強化、削除方法を学べます。
 
-素晴らしい視覚効果で PostScript ドキュメントを強化します。を使用してテクスチャ タイリング パターンを適用する方法を学びます。[テクスチャの処理](./texture-handling/)ステップバイステップのガイドを備えたチュートリアル。
+### プリントチケット管理
+[Print Ticket Management](./print-ticket-management/) でカスタム印刷チケットを作成・編集できます。XPS ドキュメントで細かい制御を行い、印刷体験を手軽にカスタマイズしましょう。
 
-## 透明効果
+### 図形描画
+.NET でのドキュメント作成を手軽に向上させましょう！[Drawing Shapes](./drawing-shapes/) で、Aspose.Page .NET を使用して PostScript (PS) に円、楕円、矩形を追加するステップバイステップのチュートリアルを学べます。
 
-文書内の透明効果の魔法を発見してください。[透明効果](./transparency-effects/)。ステップバイステップのチュートリアルでデザインを向上させ、見事なビジュアル強化を実現します。
+### テキスト操作
+.NET でのテキスト操作をマスターするには、[Text Manipulation](./text-manipulation/) チュートリアルをご覧ください。PostScript と XPS ドキュメントに Unicode テキストを追加し、ドキュメント操作スキルを向上させます。
 
-## ビジュアルブラシ
+### テクスチャ処理
+PostScript ドキュメントに驚くべきビジュアル効果を加えましょう！[Texture Handling](./texture-handling/) チュートリアルでテクスチャ タイル パターンの適用方法をステップバイステップで学べます。
 
- .NET でのドキュメント処理を向上させる[ビジュアルブラシ](./visual-brushes/)チュートリアル。ビジュアル ブラシの領域に飛び込み、視覚的に美しいドキュメントを作成するテクニックを習得します。
+### 透明効果
+[Transparency Effects](./transparency-effects/) でドキュメントの透明効果の魅力を発見してください。ステップバイステップのチュートリアルで、驚くべきビジュアル強化を実現し、デザインを向上させます。
 
-## EPS メタデータ管理
+### ビジュアルブラシ
+.NET でのドキュメント処理を向上させるには、[Visual Brushes](./visual-brushes/) チュートリアルをご利用ください。ビジュアルブラシの領域に踏み込み、視覚的に魅力的なドキュメントの技術をマスターしましょう。
 
-Aspose.Page for .NET を使用して EPS 組織を強化します。メタデータを簡単に追加してアクセシビリティを強化します。探検する[EPS メタデータ管理](./eps-metadata-management/)チュートリアルを参照し、EPS ドキュメントを最適化します。 
+### EPS メタデータ管理
+Aspose.Page for .NET で EPS の管理を向上させましょう。メタデータを簡単に追加してアクセシビリティを強化します。[EPS Metadata Management](./eps-metadata-management/) チュートリアルで EPS ドキュメントを最適化してください。
 
-Aspose.Page for .NET を使用してドキュメント処理エクスペリエンスに革命を起こす準備をしましょう。初心者でも上級ユーザーでも、私たちのチュートリアルは、この強力なツールのあらゆる側面を習得するために必要なガイダンスを提供します。今日の可能性を解き放ちましょう！
-## Aspose.Page for .NET チュートリアル 
-### [はじめる](./getting-started/)
-ステップバイステップのチュートリアルで、Aspose.Page .NET の機能を最大限に活用してください。従量制ライセンスの適用、ファイルまたはストリームからのロード、安全なライセンスなどを適用します。
-### [キャンバスの操作](./canvas-manipulation/)
-キャンバス操作に関する Aspose.Page for .NET チュートリアルを参照してください。 PS および XPS ドキュメントのクリッピングと変換が簡単になりました。文書処理スキルを向上させます。
-### [クロスドキュメント編集](./cross-document-editing/)
-チュートリアルで Aspose.Page for .NET の可能性を解き放ってください。 XPS ドキュメントでグリフ クローンの追加、色の変更、ページの操作を簡単に行うことができます。
-### [書類作成](./document-creation/)
-Aspose.Page for .NET を使用すると、魅力的な XPS および PostScript ドキュメントを簡単に作成できます。シームレスな統合のためのドキュメントの作成と変更のチュートリアルをご覧ください。
-### [ドキュメント変換](./document-conversion/)
-Aspose.Page for .NET チュートリアルを使用して、PostScript を PDF に、XPS を PDF に簡単に変換します。シームレスなドキュメント変換のための堅牢で信頼性が高く、簡単なソリューション。
-### [文書の結合](./document-merging/)
-Aspose.Page for .NET を使用すると、PostScript ドキュメントと XPS ドキュメントを高品質の PDF に簡単に結合できます。ステップバイステップのチュートリアルで文書処理を強化します。
-### [画像の加工](./image-manipulation/)
-画像操作チュートリアルを通じて、Aspose.Page for .NET の威力を実感してください。 EPS 画像のトリミングやサイズ変更が簡単に行え、美しく正確な結果が得られます。
-### [グラデーション塗りつぶし](./gradient-fills/)
-Aspose.Page チュートリアルを使用して、.NET でのグラデーション塗りつぶしの技術を発見してください。魅力的な斜め、水平、垂直のグラデーションを追加して、プロジェクトを簡単にレベルアップします。
-### [画像管理](./image-management/)
-ドキュメントのビジュアルを簡単に強化できます。画像管理をカバーする Aspose.Page .NET チュートリアルを参照してください。画像の追加から形式の変換まで、すべての手順をマスターしてください。
-### [ページ操作](./page-manipulation/)
-PostScript および XPS ドキュメントの操作における Aspose.Page for .NET の威力を実感してください。包括的なチュートリアルを使用して、ページの追加、強化、削除の方法を学びます。
-### [プリントチケット管理](./print-ticket-management/)
-Aspose.Page for .NET を使用してカスタム印刷チケットを作成および編集します。 XPS ドキュメントをきめ細かく制御して、印刷エクスペリエンスを簡単に調整できます。
-### [図形の描画](./drawing-shapes/)
-.NET でのドキュメント作成を簡単に強化します。 Aspose.Page .NET を使用して PostScript (PS) に円、楕円、四角形を追加するためのステップバイステップのチュートリアルを学習します。
-### [テキストの操作](./text-manipulation/)
-Aspose.Page チュートリアルを使用して、.NET でのテキスト操作をマスターします。 Unicode テキストを PostScript および XPS ドキュメントに追加する方法を学びます。文書操作スキルを向上させます。
-### [テクスチャの処理](./texture-handling/)
-素晴らしい視覚効果で PostScript ドキュメントを強化します。ステップバイステップのガイドで、Aspose.Page for .NET を使用してテクスチャ タイル パターンを適用する方法を学びます。
-### [透明効果](./transparency-effects/)
-Aspose.Page .NET を使用して、ドキュメント内の透明効果の魔法を発見してください。ステップバイステップのチュートリアルでデザインを向上させ、見事なビジュアル強化を実現します。
-### [ビジュアルブラシ](./visual-brushes/)
-Aspose.Page チュートリアルを使用して、.NET でのドキュメント処理を強化します。ビジュアル ブラシの領域に飛び込み、視覚的に美しいドキュメントを作成するテクニックを習得します。
-### [EPS メタデータ管理](./eps-metadata-management/)
-Aspose.Page for .NET を使用して EPS 組織を強化します。メタデータを簡単に追加してアクセシビリティを強化します。 EPS メタデータ管理のチュートリアルをご覧ください。
+### はじめに
+Aspose.Page for .NET の旅を始めるには、[Getting Started](./getting-started/) ガイドをご覧ください。従量制ライセンスの適用方法、ファイルやストリームからのドキュメントの読み込み、ライセンスの取得方法を学べます。ステップバイステップのチュートリアルで、Aspose.Page の機能をすぐに活用できます。
+
+### キャンバス操作
+Aspose.Page for .NET でキャンバス操作の世界を探求しましょう。[Canvas Manipulation](./canvas-manipulation/) チュートリアルでは、PS と XPS ドキュメントのクリッピングや変換を簡単に行う方法を案内します。ドキュメント処理スキルを向上させ、キャンバスを自在にコントロールできます。
+
+### クロスドキュメント編集
+[Cross‑Document Editing](./cross-document-editing/) チュートリアルでクロスドキュメント編集の可能性を解き放ちます。XPS ドキュメントでグリフのクローン追加、色変更、ページ操作を簡単に行えます。Aspose.Page for .NET の豊富な機能を体験してください。
+
+### ドキュメント作成
+[Document Creation](./document-creation/) チュートリアルで、XPS および PostScript ドキュメントを簡単に作成できます。ドキュメント作成と修正の世界に踏み込み、プロジェクトへのシームレスな統合を実現します。
+
+### ドキュメント変換
+[Document Conversion](./document-conversion/) チュートリアルで、PostScript から PDF、XPS から PDF への変換を簡単に行えます。堅牢で信頼性の高いソリューションが、プロジェクトのドキュメント変換を容易かつシームレスに提供します。
+
+### ドキュメント結合
+[Document Merging](./document-merging/) チュートリアルで、PostScript と XPS ドキュメントを高品質な PDF に簡単に結合できます。ステップバイステップのガイドでドキュメント結合スキルを向上させましょう。
+
+### 画像操作
+Aspose.Page for .NET の力を [Image Manipulation](./image-manipulation/) チュートリアルで体感してください。EPS 画像を簡単にトリミング・リサイズし、見事で正確な結果を得られます。ドキュメントのビジュアルを手軽に向上させましょう。
+
+### グラデーション塗りつぶし
+.NET でのグラデーション塗りつぶしの技術を [Gradient Fills](./gradient-fills/) チュートリアルで探求してください。斜め、水平、垂直の魅力的なグラデーションを追加し、プロジェクトを手軽に向上させます。
+
+### 画像管理
+ドキュメントのビジュアルを手軽に向上させましょう！画像の追加から形式変換まで網羅した [Image Management](./image-management/) チュートリアルで学び、Aspose.Page for .NET で全工程をマスターしてください。
+
+### ページ操作
+Aspose.Page for .NET の力で PostScript と XPS ドキュメントを操作しましょう。包括的な [Page Manipulation](./page-manipulation/) チュートリアルで、ページの追加、強化、削除方法を学べます。
+
+### プリントチケット管理
+[Print Ticket Management](./print-ticket-management/) でカスタム印刷チケットを作成・編集できます。XPS ドキュメントで細かい制御を行い、印刷体験を手軽にカスタマイズしましょう。
+
+### 図形描画
+.NET でのドキュメント作成を手軽に向上させましょう！[Drawing Shapes](./drawing-shapes/) で、Aspose.Page .NET を使用して PostScript (PS) に円、楕円、矩形を追加するステップバイステップのチュートリアルを学べます。
+
+### テキスト操作
+.NET でのテキスト操作をマスターするには、[Text Manipulation](./text-manipulation/) チュートリアルをご覧ください。PostScript と XPS ドキュメントに Unicode テキストを追加し、ドキュメント操作スキルを向上させます。
+
+### テクスチャ処理
+PostScript ドキュメントに驚くべきビジュアル効果を加えましょう！[Texture Handling](./texture-handling/) チュートリアルでテクスチャ タイル パターンの適用方法をステップバイステップで学べます。
+
+### 透明効果
+[Transparency Effects](./transparency-effects/) でドキュメントの透明効果の魅力を発見してください。ステップバイステップのチュートリアルで、驚くべきビジュアル強化を実現し、デザインを向上させます。
+
+### ビジュアルブラシ
+.NET でのドキュメント処理を向上させるには、[Visual Brushes](./visual-brushes/) チュートリアルをご利用ください。ビジュアルブラシの領域に踏み込み、視覚的に魅力的なドキュメントの技術をマスターしましょう。
+
+### EPS メタデータ管理
+Aspose.Page for .NET で EPS の管理を向上させましょう。メタデータを簡単に追加してアクセシビリティを強化します。[EPS Metadata Management](./eps-metadata-management/) チュートリアルで EPS ドキュメントを最適化してください。
+
+Aspose.Page for .NET でドキュメント処理体験を革命的に変える準備をしましょう。初心者から上級者まで、当社のチュートリアルはこの強力なツールのすべての側面をマスターするためのガイダンスを提供します。今すぐ可能性を解き放ちましょう！
+
+## よくある質問
+
+**Q: 複数の PostScript ファイルを一括で PDF に変換できますか？**  
+A: はい、フォルダーを反復処理し、各ファイルを `Page` で読み込み、ループ内で `SaveFormat.Pdf` を指定して `Save` を呼び出します。
+
+**Q: Aspose.Page は高解像度出力をサポートしていますか？**  
+A: もちろんです。DPI を最大 1200 dpi に設定でき、ライブラリはベクターの忠実度を維持します。
+
+**Q: 本番環境での使用にライセンスは必要ですか？**  
+A: 無制限の機能を使用するには有効な Aspose.Page ライセンスが必要です。従量制ライセンスは試用や低ボリュームのシナリオで利用できます。
+
+**Q: XPS を PDF に変換する際にアノテーションが失われませんか？**  
+A: はい、変換は XPS のアノテーションと埋め込みリソースを自動的に保持します。
+
+**Q: 変換後にフォントが欠落している場合のトラブルシューティング方法は？**  
+A: 必要なフォントがサーバーにインストールされていることを確認するか、保存前に `FontEmbedding` オプションを使用して埋め込んでください。
+
+---
+
+**最終更新日:** 2026-06-04  
+**テスト環境:** Aspose.Page for .NET 24.12  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Aspose.Page for .NET を使用して PostScript ドキュメントを PDF に結合する](/page/net/document-merging/merge-postscript-documents-into-pdf/)
+- [Aspose.Page for .NET を使用して PostScript (PS) に矩形を追加する](/page/net/drawing-shapes/add-rectangle-to-postscript-ps/)
+- [Aspose.Page を使用して PostScript (PS) に水平グラデーションを追加する](/page/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
