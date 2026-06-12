@@ -157,15 +157,15 @@ A4: Посетите [форум Aspose.Page](https://forum.aspose.com/c/page/39
 
 A5: Приобретите временную лицензию [здесь](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Последнее обновление:** 2026-01-15  
+**Тестировано с:** Aspose.Page 24.11 для .NET  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-01-15  
-**Тестировано с:** Aspose.Page 24.11 для .NET  
-**Автор:** Aspose

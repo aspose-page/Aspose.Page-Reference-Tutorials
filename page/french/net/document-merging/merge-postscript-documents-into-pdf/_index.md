@@ -157,15 +157,15 @@ Vous avez maintenant appris comment **créer un PDF PostScript** en fusionnant u
 
 **R5 :** Obtenez une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.Page 24.11 for .NET  
-**Author:** Aspose

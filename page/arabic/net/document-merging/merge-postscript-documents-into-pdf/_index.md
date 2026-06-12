@@ -156,15 +156,15 @@ if (suppressErrors)
 
 ج5: احصل على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**آخر تحديث:** 2026-01-15  
+**تم الاختبار مع:** Aspose.Page 24.11 لـ .NET  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-01-15  
-**تم الاختبار مع:** Aspose.Page 24.11 لـ .NET  
-**المؤلف:** Aspose

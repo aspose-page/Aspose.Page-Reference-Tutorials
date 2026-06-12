@@ -16,48 +16,48 @@ weight: 25
 
 # Penggabungan Dokumen
 
-## Introduction
+## Perkenalan
 
-Gabungkan dokumen Anda dengan mudah menggunakan Aspose.Page untuk .NET. **Jika Anda perlu menggabungkan XPS ke PDF**, panduan ini menunjukkan secara tepat cara melakukannya—dengan cepat dan dapat diandalkan. Temukan kekuatan penggabungan dokumen dengan tutorial lengkap kami.
+Gabungkan dokumen Anda dengan mudah menggunakan Aspose.Page untuk .NET. **Jika Anda perlu menggabungkan XPS ke PDF**, panduan ini menunjukkan cara yang tepat—dengan cepat dan dapat diandalkan. Temukan kekuatan penggabungan dokumen dengan tutorial lengkap kami.
 
-## Quick Answers
-- **Apa arti “merge XPS to PDF”?** Itu menggabungkan satu atau lebih file XPS menjadi satu dokumen PDF.  
-- **Perpustakaan mana yang menangani konversi?** Aspose.Page untuk .NET menyediakan dukungan native untuk format XPS dan PDF.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
-- **Versi .NET yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+## Jawaban Cepat
+- **Apa arti “menggabungkan XPS ke PDF”?** Itu menggabungkan satu atau lebih file XPS menjadi satu dokumen PDF.
+- **Perpustakaan mana yang menangani konversi?** Aspose.Page untuk .NET menyediakan dukungan asli untuk format XPS dan PDF.
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.
+- **Versi .NET yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 - **Waktu implementasi tipikal?** Sekitar 10‑15 menit untuk penggabungan dasar.
 
-## What is merge XPS to PDF?
-Menggabungkan XPS ke PDF berarti mengambil satu atau lebih file XPS (XML Paper Specification) — format dokumen tata letak tetap milik Microsoft — dan menyatukannya menjadi satu file PDF berkualitas tinggi. Ini berguna untuk pengarsipan, pencetakan, atau berbagi dokumen sambil mempertahankan kesetiaan tata letak.
+## Apa yang dimaksud dengan menggabungkan XPS ke PDF?
+Menggabungkan XPS ke PDF berarti mengambil satu atau lebih file XPS (Spesifikasi Kertas XML) — format dokumen tata letak tetap milik Microsoft — dan menyatukannya menjadi satu file PDF berkualitas tinggi. Ini berguna untuk mengarsipan, mencetak, atau berbagi dokumen sambil menjaga kesetiaan tata letak.
 
-## Why use Aspose.Page for .NET?
-- **Dukungan XPS native** – Tidak memerlukan konverter pihak ketiga.  
-- **Output PDF berkualitas tinggi** – Mempertahankan grafik vektor, font, dan tata letak.  
-- **Pemrosesan batch** – Dengan mudah menggabungkan beberapa file XPS dalam satu panggilan.  
-- **Cross‑platform** – Berfungsi di Windows, Linux, dan macOS dengan .NET Core/.NET 5+.
+## Mengapa menggunakan Aspose.Page untuk .NET?
+- **Dukungan XPS native** – Tidak memerlukan konverter pihak ketiga.
+- **Output PDF berkualitas tinggi** – Mempertahankan grafik vektor, font, dan tata letak.
+- **Pemrosesan batch** – Dengan mudah menggabungkan beberapa file XPS dalam satu panggilan.
+- **Lintas‑platform** – Berfungsi di Windows, Linux, dan macOS dengan .NET Core/.NET 5+.
 
 ## Menggabungkan Dokumen PostScript ke PDF dengan Aspose.Page untuk .NET
 Buka potensi Aspose.Page untuk .NET saat kami memandu Anda menggabungkan dokumen PostScript ke PDF dengan mudah. Tingkatkan kemampuan pemrosesan dokumen Anda dengan tutorial langkah demi langkah kami. Ucapkan selamat tinggal pada kerumitan dan sambut konversi dokumen yang terstruktur.
 
 Pelajari seluk-beluk menggabungkan dokumen PostScript dengan Aspose.Page untuk .NET. Tutorial kami memastikan Anda dapat menavigasi proses dengan mudah, menjadikan manajemen dokumen menjadi sederhana. Dari memahami dasar hingga menguasai teknik lanjutan, kami membahas semuanya. Tingkatkan keterampilan Anda dan tingkatkan produktivitas dengan panduan yang informatif ini.
 
-Apakah Anda siap mengubah pengalaman pemrosesan dokumen Anda? Ikuti tautan tutorial kami **[di sini](./merge-postscript-documents-into-pdf/)** dan mulailah perjalanan menuju penggabungan dokumen yang efisien.
+Apakah Anda siap mengubah pengalaman mengubah dokumen Anda? Ikuti tautan tutorial kami **[di sini](./merge-postscript-documents-into-pdf/)** dan mulailah perjalanan menuju penggabungan dokumen yang efisien.
 
-### Cara mengonversi PostScript ke PDF
-Bagian ini menargetkan kata kunci sekunder **convert postscript to pdf** dan memandu Anda melalui langkah-langkah tepat untuk mengubah file .ps menjadi PDF menggunakan Aspose.Page.
+### Cara mengubah PostScript ke PDF
+Bagian ini bertujuan untuk kata kunci sekunder **convert postscript to pdf** dan memandu Anda melalui langkah-langkah yang tepat untuk mengubah file .ps menjadi PDF menggunakan Aspose.Page.
 
-## Menggabungkan Dokumen XPS ke PDF dengan Aspose.Page untuk .NET
-Menyelami dunia konversi dokumen dengan Aspose.Page untuk .NET. Tutorial kami tentang menggabungkan dokumen XPS ke PDF memberikan panduan jelas untuk transisi yang mulus. Dengan mudah buat PDF berkualitas tinggi, meningkatkan kemampuan manajemen dokumen Anda.
+## Menggabungkan Dokumen XPS ke PDF dengan Aspose.Page ke .NET
+Menyelami dunia konversi dokumen dengan Aspose.Page untuk .NET. Tutorial kami tentang menggabungkan dokumen XPS ke PDF memberikan panduan jelas untuk transisi yang mulus. Dengan mudah membuat PDF berkualitas tinggi, tingkatkan kemampuan manajemen dokumen Anda.
 
-Panduan langkah demi langkah kami memastikan Anda memahami seluk-beluk menggabungkan dokumen XPS dengan Aspose.Page untuk .NET. Kami memecah proses menjadi langkah-langkah yang dapat dikelola, sehingga bahkan pemula pun dapat mengikutinya. Dari instalasi hingga eksekusi, kami siap membantu Anda.
+Panduan langkah demi langkah kami memastikan Anda memahami seluk-beluk menggabungkan dokumen XPS dengan Aspose.Page untuk .NET. Kami memahami proses menjadi langkah-langkah yang dapat dikelola, sehingga bahkan pemula pun dapat mengikutinya. Dari instalasi hingga eksekusi, kami siap membantu Anda.
 
 Siap meningkatkan keterampilan konversi dokumen Anda? Jelajahi tutorial kami **[di sini](./merge-xps-documents-into-pdf/)** dan ambil langkah pertama menuju penggabungan XPS ke PDF yang efisien.
 
 ### Cara membuat PDF dari PostScript
-Menargetkan kata kunci sekunder **create pdf from postscript**, subbagian ini menjelaskan panggilan API tepat yang diperlukan untuk menghasilkan PDF langsung dari sumber PostScript.
+Menargetkan kata kunci sekunder **membuat pdf dari postscript**, subbagian ini menjelaskan panggilan API tepat yang diperlukan untuk menghasilkan PDF langsung dari sumber PostScript.
 
 ## Menggabungkan Dokumen XPS dengan Aspose.Page untuk .NET
-Gabungkan dokumen XPS secara mulus menggunakan Aspose.Page untuk .NET dengan tutorial detail kami. Baik Anda pemula maupun pengguna berpengalaman, panduan langkah demi langkah kami menyederhanakan proses, menjadikan manajemen dokumen perjalanan yang lancar.
+Gabungkan dokumen XPS secara mulus menggunakan Aspose.Page untuk .NET dengan detail tutorial kami. Baik Anda pemula maupun pengguna berpengalaman, panduan langkah demi langkah kami mengubah proses, menjadikan manajemen dokumen perjalanan menjadi lancar.
 
 Buka potensi penuh Aspose.Page untuk .NET saat kami memandu Anda melalui seluk-beluk menggabungkan dokumen XPS. Tutorial kami mencakup semua hal mulai dari dasar hingga tip lanjutan, memastikan Anda siap menangani tugas penggabungan apa pun.
 

@@ -157,15 +157,15 @@ Agora você aprendeu como **criar PDF PostScript** mesclando um ou mais document
 
 **R5:** Adquira uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Última atualização:** 2026-01-15  
+**Testado com:** Aspose.Page 24.11 para .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-01-15  
-**Testado com:** Aspose.Page 24.11 para .NET  
-**Autor:** Aspose

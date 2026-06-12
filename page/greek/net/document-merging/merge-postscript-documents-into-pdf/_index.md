@@ -157,15 +157,15 @@ A4: Επισκεφθείτε το [Aspose.Page Forum](https://forum.aspose.com/c
 
 A5: Αποκτήστε μια προσωρινή άδεια [εδώ](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.Page 24.11 for .NET  
-**Author:** Aspose

@@ -155,15 +155,15 @@ A4: 请访问 [Aspose.Page 论坛](https://forum.aspose.com/c/page/39) 获取社
 
 A5: 请在此处获取临时许可证 [here](https://purchase.aspose.com/temporary-license/)。  
 
+---
+
+**最后更新：** 2026-01-15  
+**测试环境：** Aspose.Page 24.11 for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-15  
-**测试环境：** Aspose.Page 24.11 for .NET  
-**作者：** Aspose

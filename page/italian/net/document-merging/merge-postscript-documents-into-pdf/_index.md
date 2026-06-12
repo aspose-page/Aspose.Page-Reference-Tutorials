@@ -156,15 +156,15 @@ A4: Visita il [Forum Aspose.Page](https://forum.aspose.com/c/page/39) per suppor
 
 A5: Acquista una licenza temporanea [qui](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Ultimo Aggiornamento:** 2026-01-15  
+**Testato Con:** Aspose.Page 24.11 per .NET  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo Aggiornamento:** 2026-01-15  
-**Testato Con:** Aspose.Page 24.11 per .NET  
-**Autore:** Aspose

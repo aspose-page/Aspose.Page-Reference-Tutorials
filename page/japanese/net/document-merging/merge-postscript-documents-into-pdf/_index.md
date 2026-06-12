@@ -15,18 +15,18 @@ weight: 10
 
 # PDF PostScript の作成 – Aspose.Page for .NET を使用して PostScript ドキュメントを PDF に結合
 
-## Introduction
+## はじめに
 
 複数の PostScript ドキュメントを組み合わせて **PDF PostScript** ファイルを作成する必要がある場合、Aspose.Page for .NET が作業を簡単にします。このチュートリアルでは、PostScript ファイルを単一の PDF に結合する方法、なぜこのアプローチが有用か、そして一般的な落とし穴への対処方法をステップバイステップで学びます。
 
-## Quick Answers
+## よくある質問
 - **このチュートリアルの内容は何ですか？** Aspose.Page for .NET を使用して複数の PostScript ファイルを 1 つの PDF に結合すること。  
 - **主な利点は？** すべての元の PostScript ドキュメントのレイアウトを保持した、検索可能な単一の PDF。  
 - **前提条件は？** .NET 開発環境と Aspose.Page ライブラリ。  
 - **実装にかかる時間は？** 基本的な結合で通常 15 分未満です。  
 - **ライセンスは必要ですか？** 本番環境で使用するには一時ライセンスまたはフルライセンスが必要です。
 
-## Prerequisites
+## 前提条件
 
 コードに入る前に、以下のものが準備できていることを確認してください：
 
@@ -34,7 +34,7 @@ weight: 10
 2. **ドキュメントディレクトリ** – すべての `.ps` ファイルをフォルダーに配置し、パスをメモしてください（スニペット内の “Your Document Directory” を置き換えます）。  
 3. **フォント（オプション）** – PostScript ファイルでカスタムフォントを使用している場合、フォントフォルダーのパスを特定してください。OS のフォントは自動的に含まれます。
 
-## Import Namespaces
+## 名前空間のインポート
 
 これらの名前空間により、PostScript ファイルの読み取りと PDF の書き込みに必要なクラスにアクセスできます。
 
@@ -47,20 +47,20 @@ using System.Linq;
 using System.Text;
 ```
 
-## What is **create pdf postscript**?
+## **PostScript PDF作成**とは？
 
 「create pdf postscript」というフレーズは、1 つまたは複数の PostScript（PS）ストリームを PDF ドキュメントに変換することを指します。これは、レガシーなグラフィックや印刷ジョブを最新のポータブル形式でアーカイブまたは共有する必要がある場合に一般的な要件です。
 
-## Why use Aspose.Page for .NET to **postscript to pdf tutorial**?
+## Aspose.Page for .NET を使って **PostScript から PDF へのチュートリアル**を作成する理由
 
 - **外部依存なし** – 純粋な .NET API で、Ghostscript は不要です。  
 - **高忠実度** – ベクターグラフィック、フォント、ページレイアウトを保持します。  
 - **スケーラブル** – 単ページまたはマルチページの PS ファイルに対応し、**postscript to pdf tutorial** に最適です。  
 - **エラーハンドリング** – 変換時の警告を取得する組み込みオプションがあります。
 
-## Step‑by‑Step Guide
+## ステップバイステップガイド
 
-### Step 1: Initialize Paths and Streams
+### ステップ 1: パスとストリームの初期化
 
 入力の PostScript ストリームと出力の PDF ストリームを設定します。
 
@@ -70,7 +70,7 @@ System.IO.FileStream pdfStream = new System.IO.FileStream(dataDir + "outputPDF_o
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "input.ps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 ```
 
-### Step 2: Create **PsDocument** Object
+### ステップ 2: **PsDocument** オブジェクトを作成する
 
 PostScript コンテンツを Aspose の `PsDocument` にロードします。
 
@@ -78,7 +78,7 @@ PostScript コンテンツを Aspose の `PsDocument` にロードします。
 PsDocument document = new PsDocument(psStream);
 ```
 
-### Step 3: Set Conversion Options
+### ステップ 3: 変換オプションを設定する
 
 変換の動作を設定します。`suppressErrors` を有効にすると、致命的でない問題が発生しても処理が継続します。
 
@@ -88,7 +88,7 @@ PdfSaveOptions options = new PdfSaveOptions(suppressErrors);
 options.AdditionalFontsFolders = new string[] { @"{FONT_FOLDER}" };
 ```
 
-### Step 4: Initialize **PdfDevice**
+### ステップ 4: **PdfDevice** を初期化する
 
 `PdfDevice` が PDF 出力を書き込みます。ページサイズや画像形式を任意で指定できます。
 
@@ -98,7 +98,7 @@ Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(p
 // Aspose.Page.EPS.Device.PdfDevice device = new Aspose.Page.EPS.Device.PdfDevice(pdfStream, new System.Drawing.Size(595, 842));
 ```
 
-### Step 5: Save Document and Handle Errors
+### ステップ 5: ドキュメントを保存してエラーを処理する
 
 変換を実行し、リソースをクリーンアップします。`suppressErrors` が true の場合、変換警告はコンソールに出力されます。
 
@@ -123,17 +123,17 @@ if (suppressErrors)
 }
 ```
 
-## Common Issues & Pro Tips
+## よくある問題とプロのヒント
 
 - **フォントが見つからない** – 文字化けが発生した場合、欠落しているフォントが入っているフォルダーを `AdditionalFontsFolders` に追加してください。  
 - **大きなファイル** – 非常に大きな PS ファイルの場合、チャンクに分割して処理するか、`FileStream` のバッファサイズを増やすことを検討してください。  
 - **AspNet Merge PDF** – このコードを ASP.NET アプリケーションに統合する際は、ファイルストリームを適切な権限で開き、正しく破棄することを確認してください（`using` ステートメントの使用を推奨）。
 
-## Conclusion
+## まとめ
 
 これで、Aspose.Page for .NET を使用して 1 つまたは複数の PostScript ドキュメントを単一の PDF に結合し、**PDF PostScript を作成**する方法を学びました。この方法は信頼性が高く、迅速で、.NET コードベースから完全に制御できます。
 
-## FAQ's
+## よくある質問
 
 ### Q1: Aspose.Page for .NET を使用して他のドキュメント形式に変換できますか？
 
@@ -155,15 +155,15 @@ A4: コミュニティサポートやディスカッションは [Aspose.Page Fo
 
 A5: 一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得してください。
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.Page 24.11 for .NET  
-**Author:** Aspose

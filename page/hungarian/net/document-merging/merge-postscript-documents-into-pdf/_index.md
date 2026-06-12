@@ -157,15 +157,15 @@ A4: Látogasd meg az [Aspose.Page Forum](https://forum.aspose.com/c/page/39) kö
 
 A5: Szerezz ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Utolsó frissítés:** 2026-01-15  
+**Tesztelve ezzel:** Aspose.Page 24.11 for .NET  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-15  
-**Tesztelve ezzel:** Aspose.Page 24.11 for .NET  
-**Szerző:** Aspose

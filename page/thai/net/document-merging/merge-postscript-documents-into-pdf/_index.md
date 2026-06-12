@@ -157,15 +157,15 @@ A4: เยี่ยมชม [Aspose.Page Forum](https://forum.aspose.com/c/page
 
 A5: ขอรับใบอนุญาตชั่วคราวได้ที่ [นี้](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**อัปเดตล่าสุด:** 2026-01-15  
+**ทดสอบด้วย:** Aspose.Page 24.11 for .NET  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2026-01-15  
-**ทดสอบด้วย:** Aspose.Page 24.11 for .NET  
-**ผู้เขียน:** Aspose

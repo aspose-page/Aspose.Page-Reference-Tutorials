@@ -155,15 +155,15 @@ A4: 커뮤니티 지원 및 토론을 위해 [Aspose.Page 포럼](https://forum.
 
 A5: 임시 라이선스를 [여기](https://purchase.aspose.com/temporary-license/)에서 얻을 수 있습니다.
 
+---
+
+**Last Updated:** 2026-01-15  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-15  
-**Tested With:** Aspose.Page 24.11 for .NET  
-**Author:** Aspose

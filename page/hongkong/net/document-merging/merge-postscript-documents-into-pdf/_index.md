@@ -155,15 +155,15 @@ A4：請前往[Aspose.Page 論壇](https://forum.aspose.com/c/page/39)取得社�
 
 A5：請在此取得臨時授權[here](https://purchase.aspose.com/temporary-license/)。  
 
+---
+
+**最後更新：** 2026-01-15  
+**測試環境：** Aspose.Page 24.11 for .NET  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-15  
-**測試環境：** Aspose.Page 24.11 for .NET  
-**作者：** Aspose

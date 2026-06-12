@@ -157,15 +157,15 @@ O4: Odwiedź [Aspose.Page Forum](https://forum.aspose.com/c/page/39), aby uzyska
 
 O5: Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-15  
+**Testowano z:** Aspose.Page 24.11 dla .NET  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-15  
-**Testowano z:** Aspose.Page 24.11 dla .NET  
-**Autor:** Aspose
