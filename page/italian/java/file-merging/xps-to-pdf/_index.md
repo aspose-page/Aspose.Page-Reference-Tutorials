@@ -1,10 +1,11 @@
 ---
-date: 2025-11-29
-description: Learn how to save XPS as PDF in Java with Aspose.Page Java. Follow our
-  step‑by‑step guide for efficient XPS to PDF conversion and PDF compression settings.
-linktitle: Convert XPS to PDF in Java using Aspose.Page Java
+date: 2026-02-02
+description: Scopri come comprimere i PDF durante la conversione da XPS a PDF in Java
+  con Aspose.Page. Questa guida copre la conversione da XPS a PDF, le impostazioni
+  di compressione dei PDF e i consigli per la conversione batch.
+linktitle: How to Compress PDF when Converting XPS to PDF in Java
 second_title: Aspose.Page Java API
-title: Converti XPS in PDF in Java usando Aspose.Page Java
+title: Come comprimere PDF durante la conversione da XPS a PDF in Java
 url: /it/java/file-merging/xps-to-pdf/
 weight: 11
 ---
@@ -13,36 +14,34 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Convertire XPS in PDF in Java con Aspose.Page Java
+# Come comprimere PDF durante la conversione da XPS a PDF in Java
 
 ## Introduzione
-In questo tutorial imparerai **come convertire XPS in PDF in Java usando Aspose.Page Java**, una libreria robusta progettata per la conversione di documenti Java. Che tu debba elaborare in batch fatture, generare report stampabili o semplicemente migrare file XPS legacy, Aspose.Page Java rende il lavoro veloce, affidabile e completamente configurabile.
+In questo tutorial, scoprirai **come comprimere PDF** durante la conversione di file XPS in PDF usando **Aspose.Page Java**. Che tu stia gestendo una singola fattura o abbia bisogno di **convertire in batch XPS PDF** per l'archiviazione, questa guida ti accompagna passo passo—dall'apertura del file XPS all'applicazione delle impostazioni ottimali di **compressione PDF** che mantengono le dimensioni dei file ridotte senza perdere qualità.
 
 ## Risposte Rapide
-- **Quale libreria gestisce la conversione da XPS a PDF?** Aspose.Page Java  
-- **Quanto tempo richiede una conversione di base?** Tipicamente meno di un secondo per un file XPS a pagina singola.  
-- **È necessaria una licenza per lo sviluppo?** Una versione di prova gratuita è sufficiente per la valutazione; è richiesta una licenza per la produzione.  
-- **Posso controllare la compressione PDF?** Sì – usa `PdfSaveOptions` per impostare la compressione di immagini e testo.  
-- **Quale versione di Java è richiesta?** Java 8 o successiva (JDK 11+ consigliato).
+-  
+- **Quanto tempo richiede una di un secondo per un file XPS a pagina singola.  
+- **È necessaria una licenza per lo sviluppo?** Una prova gratuita è sufficiente per la valutazione; è richiesta una licenza per la produzione.  
+- **Posso controllare la compressione PDF?** Sì – usa `PdfSaveOptions` per impostare la versione di Java è richiesta?** Java 8 o successiva (consigliato JDK 11+).
+
+## Come comprimere PDF conAspose.Page offre unOptions`. gli algoritmi di compressione delle immagini e abilitando la compressione dei flussi di testo, è possibile ridurre drasticamente le dimensioni del risultato. Le sezioni seguenti mostrano il codice esatto necessario per **salvare XPS come PDF** applicando queste impostazioni.
 
 ## Cos'è Aspose.Page Java?
-Aspose.Page Java è una **API ad alte prestazioni** che consente agli sviluppatori di creare, modificare e convertire documenti XPS programmaticamente. Supporta il rendering di XPS in PDF, PNG, JPEG e altri formati, offrendo un controllo dettagliato sulle impostazioni di output come **set PDF compression**.
-
-## Perché usare Aspose.Page Java per la conversione da XPS a PDF?
+Aspose.Page Java è una **API ad alte prestazioni** che consente agli sviluppatori di creare, modificare e convertire documenti XPS in modo programmatico. Supporta, offrendo un output come **set PDF compression conversione da XPS a PDF?
 - **Rendering senza dipendenze** – nessuna libreria nativa o strumenti esterni.  
-- **Preservazione accurata del layout** – l'output PDF rispecchia fedelmente l'aspetto originale dell'XPS.  
-- **Controllo totale sull'output PDF** – puoi regolare la qualità delle immagini, scegliere gli algoritmi di compressione e selezionare pagine specifiche da renderizzare.  
+- **Preservazione accurata del layout** – l'output PDF rispecchia l'aspetto originale del XPS.  
+- **Controllo completo sull'output PDF** – è possibile regolare la qualità delle immagini, scegliere gli algoritmi di compressione e selezionare pagine specifiche da renderizzare.  
 - **Cross‑platform** – funziona su Windows, Linux e macOS con qualsiasi JDK standard.
 
 ## Prerequisiti
 Prima di iniziare, assicurati di avere:
 
-1. **Java Development Kit (JDK) 8+** – si consiglia l'ultima versione del JDK per prestazioni e sicurezza.  
-2. **Aspose.Page for Java library** – scarica il JAR dalla documentazione ufficiale di [Aspose.Page Java](https://reference.aspose.com/page/java/).  
-3. Un **IDE** (IntelliJ IDEA, Eclipse, VS Code) o un semplice editor di testo più strumenti di build da riga di comando (Maven/Gradle).  
+1. **Java Development Kit (** – si consiglia l'ultima versione delose.Page per Java** – scarica il JAR dalla [documentazione ufficiale di Aspose.Page Java](https://reference.aspose.com/page/java/).  
+3. Un **IDE** (IntelliJ IDEA, Eclipse, VS Code) o un semplice editor di testo più strumenti di build da riga di comando (Maven/Gradle).
 
 ## Importare i Pacchetti
-Aggiungi gli import necessari alla tua classe Java per lavorare con i documenti XPS e l'output PDF.
+Aggiungi le importazioni necessarie alla tua classe Java per poter lavorare con documenti XPS e output PDF.
 
 ```java
 import com.aspose.xps.XpsDocument;
@@ -55,7 +54,7 @@ import java.io.FileOutputStream;
 
 ## Guida Passo‑Passo
 
-### Passo 1: Impostare il Percorso della Directory del Documento
+### Passo 1: Impostare il Percorso della Directory dei Documenti
 Definisci la cartella che contiene il tuo file XPS di origine e dove verrà salvato il PDF.
 
 ```java
@@ -69,7 +68,7 @@ Crea un `FileOutputStream` che punti al file PDF di destinazione.
 FileOutputStream pdfStream = new FileOutputStream(dataDir + "XPStoPDF.pdf");
 ```
 
-> **Suggerimento professionale:** Usa `try‑with‑resources` per chiudere automaticamente lo stream ed evitare perdite di risorse.
+> **Suggerimento professionale:** Usa `try‑with‑resources` per chiudere automaticamente lo stream e evitare perdite di risorse.
 
 ### Passo 3: Caricare il Documento XPS
 Istanzia un oggetto `XpsDocument` caricando il file XPS di origine.
@@ -79,7 +78,7 @@ XpsDocument document = new XpsDocument(dataDir + "input.xps");
 ```
 
 ### Passo 4: Inizializzare le Opzioni di Salvataggio PDF (Impostare la Compressione PDF)
-Configura come il PDF deve essere compresso. Questo passaggio ti consente di **set PDF compression** per immagini e testo, riducendo le dimensioni del file senza sacrificare la qualità.
+Configura come deve essere compresso il PDF. Questo passo ti consente di **impostare la compressione PDF** per immagini e testo, riducendo le dimensioni del file senza sacrificare la qualità.
 
 ```java
 PdfSaveOptions options = new PdfSaveOptions();
@@ -105,15 +104,19 @@ Infine, renderizza il contenuto XPS in PDF usando le opzioni configurate.
 document.save(device, options);
 ```
 
-> **Risultato:** Dopo l'esecuzione, `XPStoPDF.pdf` apparirà nella cartella `dataDir`, contenente le pagine convertite con le impostazioni di compressione specificate.
+> **Risultato:** Dopo l'esecuzione, `XPStoPDF.pdf` apparirà nella cartella `dataDir`, contenendo le pagine convertite con le impostazioni di compressione specificate.
+
+## Come Convertire XPS in PDF in Batch (e comprimere i PDF)
+Se devi **convertire in batch file XPS PDF**, basta posizionare tutti i file XPS in una cartella e iterare su di essi con la stessa logica di codice. Applica le stesse `PdfSaveOptions` a ogni iterazione per mantenere ogni PDF costantemente compresso. Questo approccio scala bene per grandi repository di documenti.
 
 ## Problemi Comuni & Soluzioni
+
 | Problema | Causa | Soluzione |
 |----------|-------|-----------|
 | **`FileNotFoundException`** | Percorso `dataDir` errato | Verifica che la directory esista e che l'applicazione abbia i permessi di lettura/scrittura. |
 | **Pagine PDF vuote** | Inizializzazione `PdfDevice` mancante | Assicurati che `PdfDevice` sia creato con lo stesso `FileOutputStream` usato per l'output. |
-| **Dimensione PDF grande** | La compressione predefinita è bassa | Aumenta `setJpegQualityLevel` o passa a `PdfImageCompression.Jpeg` con un livello di qualità più basso. |
-| **Appaiono solo alcune pagine** | Il filtro `setPageNumbers` esclude pagine | Regola l'array per includere tutti i numeri di pagina necessari o rimuovi la chiamata per esportare tutte le pagine. |
+| **Dimensione PDF elevata** | Compressione predefinita bassa | Riduci `setJpegQualityLevel` o passa a un'impostazione diversa di `PdfImageCompression`. |
+| **Appaiono solo alcune pagine** | Il filtro `setPageNumbers` esclude pagine | Modifica l'array per includere tutti i numeri di pagina necessari o rimuovi la chiamata per esportare tutte le pagine. |
 
 ## Domande Frequenti
 
@@ -124,20 +127,20 @@ R: Sì, Aspose.Page Java supporta Java 8 fino a Java 21, includendo sia le d
 R: Assolutamente. Usa `PdfSaveOptions` per impostare la qualità JPEG, il tipo di compressione delle immagini e la compressione del testo come mostrato al Passo 4.
 
 **D: Dove posso trovare supporto aggiuntivo o discussioni della community?**  
-R: Visita il [Forum Aspose.Page](https://forum.aspose.com/c/page/39) per aiuto della community, esempi di codice e suggerimenti di risoluzione problemi.
+R: Visita il [Forum Aspose.Page](https://forum.aspose.com/c/page/39) per aiuto della community, esempi di codice e suggerimenti per la risoluzione dei problemi.
 
 **D: È disponibile una versione di prova gratuita per Aspose.Page?**  
-R: Sì, puoi scaricare una versione di prova completamente funzionale dalla [pagina di download di Aspose](https://releases.aspose.com/).
+R: Sì, puoi scaricare una versione di prova completa dalla [pagina di download di Aspose](https://releases.aspose.com/).
 
 **D: Come posso ottenere una licenza temporanea per Aspose.Page?**  
 R: Una licenza temporanea può essere richiesta [qui](https://purchase.aspose.com/temporary-license/).
 
 ## Conclusione
-Sfruttando **Aspose.Page Java**, puoi convertire XPS in PDF in modo semplice e controllare ogni aspetto dell'output, dalla selezione delle pagine alla compressione. Questo tutorial ha coperto tutto il necessario per integrare la conversione da XPS a PDF nelle tue applicazioni Java, sia che tu stia creando un'utilità puntuale sia una pipeline di elaborazione documenti su larga scala.
+Sfruttando **Aspose.Page Java**, puoi facilmente **salvare XPS come PDF**, applicare precise **impostazioni di compressione PDF**, e persino **convertire in batch file XPS PDF**—tutto mantenendo il pieno controllo sulla qualità delle immagini e sulle dimensioni del file. Questo tutorial ha coperto tutto ciò di cui hai bisogno per integrare la conversione da XPS a PDF nelle tue applicazioni Java, sia che tu stia creando un'utilità singola sia una pipeline di elaborazione documenti su larga scala.
 
 ---
 
-**Last Updated:** 2025-11-29  
+**Ultimo aggiornamento:** 2026-02-02  
 **Testato con:** Aspose.Page for Java 24.10  
 **Autore:** Aspose  
 
