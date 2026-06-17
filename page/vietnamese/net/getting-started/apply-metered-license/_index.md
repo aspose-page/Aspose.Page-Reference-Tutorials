@@ -138,37 +138,15 @@ Bây giờ bạn đã sẵn sàng tận dụng toàn bộ khả năng của Aspo
 **Hỏi: Làm sao tôi có thể lấy số trang trong tệp EPS một cách lập trình?**  
 Đáp: Sử dụng `document.PagesCount` sau khi tải `PsDocument`.
 
-## FAQ's
-
-### Q1: Làm sao tôi có thể lấy giấy phép metered cho Aspose.Page cho .NET?
-
-A1: Truy cập [purchase.aspose.com](https://purchase.aspose.com/buy) để mua giấy phép hợp lệ.
-
-### Q2: Tôi có thể tìm tài liệu cho Aspose.Page cho .NET ở đâu?
-
-A2: Tham khảo [Aspose.Page .NET](https://reference.aspose.com/page/net/) để có tài liệu đầy đủ.
-
-### Q3: Có diễn đàn thảo luận và hỗ trợ cho Aspose.Page không?
-
-A3: Có, truy cập [forum](https://forum.aspose.com/c/page/39) để tham gia cộng đồng và tìm kiếm hỗ trợ.
-
-### Q4: Tôi có thể dùng thử Aspose.Page cho .NET trước khi mua không?
-
-A4: Chắc chắn! Truy cập bản dùng thử miễn phí tại [here](https://releases.aspose.com/).
-
-### Q5: Làm sao tôi có thể lấy giấy phép tạm thời cho Aspose.Page cho .NET?
-
-A5: Truy cập [temporary license/](https://purchase.aspose.com/temporary-license/) để lấy giấy phép tạm thời.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Page 24.12 for .NET  
 **Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -103,27 +103,33 @@ Wenn `SetLicense` ausgeführt wird, ohne eine Ausnahme zu werfen, läuft Ihre An
 
 ### Q1: Wo finde ich die Dokumentation für Aspose.Page für .NET?
 
-Die ausführliche Dokumentation finden Sie **[hier](https://reference.aspose.com/page/net/)**.
+Die ausführliche Dokumentation finden Sie **[hier](https://reference.aspose.com/page/net/) **.
 
 ### Q2: Wie lade ich die Aspose.Page für .NET‑Bibliothek herunter?
 
-Sie können die Bibliothek von der Release‑Seite **[hier](https://releases.aspose.com/page/net/)** herunterladen.
+Sie können die Bibliothek von der Release‑Seite **[hier](https://releases.aspose.com/page/net/) ** herunterladen.
 
 ### Q3: Wo kann ich eine Lizenz für Aspose.Page für .NET erwerben?
 
-Sie können eine Lizenz **[hier](https://purchase.aspose.com/buy)** erwerben.
+Sie können eine Lizenz **[hier](https://purchase.aspose.com/buy) ** erwerben.
 
 ### Q4: Gibt es eine kostenlose Testversion?
 
-Ja, Sie können eine kostenlose Testversion **[hier](https://releases.aspose.com/)** ausprobieren.
+Ja, Sie können eine kostenlose Testversion **[hier](https://releases.aspose.com/) ** ausprobieren.
 
 ### Q5: Benötigen Sie Unterstützung oder haben Sie Fragen?
 
-Besuchen Sie das **[Aspose.Page‑Forum](https://forum.aspose.com/c/page/39)** für Community‑Support.
+Besuchen Sie das **[Aspose.Page‑Forum](https://forum.aspose.com/c/page/39) ** für Community‑Support.
 
 ## Fazit
 
 Sie haben nun gelernt, **wie man Lizenzdateien** für Aspose.Page in C# lädt. Indem Sie die Lizenz frühzeitig in Ihrer Anwendung setzen, schalten Sie die volle Leistungsfähigkeit der API frei und vermeiden häufige Laufzeitprobleme. Erkunden Sie gern weitere Aspose.Page‑Funktionen wie PDF‑Erstellung, XPS‑Rendering und erweiterte Typografie – jetzt, wo die Lizenzhürde weg ist.
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Page for .NET 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,9 +137,3 @@ Sie haben nun gelernt, **wie man Lizenzdateien** für Aspose.Page in C# lädt. I
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Page for .NET 24.11  
-**Author:** Aspose

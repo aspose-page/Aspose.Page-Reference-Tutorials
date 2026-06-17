@@ -137,37 +137,15 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 **Ε: Πώς μπορώ προγραμματιστικά να λάβω τον αριθμό των σελίδων στο αρχείο EPS;**  
 Α: Χρησιμοποιήστε το `document.PagesCount` μετά τη φόρτωση του `PsDocument`.
 
-## Συχνές Ερωτήσεις
-
-### Ε1: Πώς μπορώ να αποκτήσω μια μετρημένη άδεια για το Aspose.Page για .NET;
-
-Α1: Επισκεφθείτε το [purchase.aspose.com](https://purchase.aspose.com/buy) για να αποκτήσετε μια έγκυρη άδεια.
-
-### Ε2: Πού μπορώ να βρω την τεκμηρίωση για το Aspose.Page για .NET;
-
-Α2: Ανατρέξτε στο [Aspose.Page .NET](https://reference.aspose.com/page/net/) για ολοκληρωμένη τεκμηρίωση.
-
-### Ε3: Υπάρχει φόρουμ για συζητήσεις και υποστήριξη του Aspose.Page;
-
-Α3: Ναι, επισκεφθείτε το [forum](https://forum.aspose.com/c/page/39) για να συμμετάσχετε στην κοινότητα και να ζητήσετε βοήθεια.
-
-### Ε4: Μπορώ να δοκιμάσω το Aspose.Page για .NET πριν τοσω;
-
-Α4: Απόλυτα! Πρόσβαση στη δωρεάν δοκιμή στο [here](https://releases.aspose.com/).
-
-### Ε5: Πώς μπορώ να αποκτήσω προσωρινή άδεια για το Aspose.Page για .NET;
-
-Α5: Επισκεφθείτε το [temporary license/](https://purchase.aspose.com/temporary-license/) για να αποκτήσετε προσωρινή άδεια.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Page 24.12 for .NET  
 **Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

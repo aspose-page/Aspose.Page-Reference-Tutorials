@@ -103,34 +103,27 @@ Amikor a `SetLicense` kivétel nélkül lefut, az alkalmazás **teljes licenc m�
 
 ### Q1: Hol találom az Aspose.Page for .NET dokumentációját?
 
-A részletes dokumentáció **[itt](https://reference.aspose.com/page/net/)** érhető el.
+A részletes dokumentáció **[itt](https://reference.aspose.com/page/net/) ** érhető el.
 
 ### Q2: Hogyan tölthetem le az Aspose.Page for .NET könyvtárat?
 
-A könyvtárat a kiadási oldalról **[itt](https://releases.aspose.com/page/net/)** töltheted le.
+A könyvtárat a kiadási oldalról **[itt](https://releases.aspose.com/page/net/) ** töltheted le.
 
 ### Q3: Hol vásárolhatok licencet az Aspose.Page for .NET-hez?
 
-Licencet **[itt](https://purchase.aspose.com/buy)** vásárolhatsz.
+Licencet **[itt](https://purchase.aspose.com/buy) ** vásárolhatsz.
 
 ### Q4: Van ingyenes próba verzió?
 
-Igen, ingyenes próbát **[itt](https://releases.aspose.com/)** próbálhatsz ki.
+Igen, ingyenes próbát **[itt](https://releases.aspose.com/) ** próbálhatsz ki.
 
 ### Q5: Segítségre van szükséged vagy kérdésed van? 
 
-Látogass el az **[Aspose.Page Fórumra](https://forum.aspose.com/c/page/39)** a közösségi támogatásért.
+Látogass el az **[Aspose.Page Fórumra](https://forum.aspose.com/c/page/39) ** a közösségi támogatásért.
 
 ## Összegzés
 
 Most már **tudod, hogyan tölts be licencfájlokat** az Aspose.Page-hez C#‑ban. A licenc korai beállításával feloldod az API teljes erejét, és elkerülöd a gyakori futásidejű problémákat. Fedezd fel az Aspose.Page további lehetőségeit, például PDF‑készítést, XPS renderelést és fejlett tipográfiát – most, hogy a licenckorlátok már nincsenek.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -139,3 +132,10 @@ Most már **tudod, hogyan tölts be licencfájlokat** az Aspose.Page-hez C#‑ba
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

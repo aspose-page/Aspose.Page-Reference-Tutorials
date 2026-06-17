@@ -137,37 +137,15 @@ C: Aspose.Page büyük dosyaları işleyebilir, ancak bellek tüketimi görünt�
 **S: EPS dosyasındaki sayfa sayısını programlı olarak nasıl alabilirim?**  
 C: `PsDocument` yüklendikten sonra `document.PagesCount` özelliğini kullanın.
 
-## SSS'ler
-
-### S1: Aspose.Page for .NET için ölçülen lisansı nasıl temin ederim?
-
-C1: Geçerli bir lisans almak için [purchase.aspose.com](https://purchase.aspose.com/buy) adresini ziyaret edin.
-
-### S2: Aspose.Page for .NET dokümantasyonunu nerede bulabilirim?
-
-C2: Kapsamlı dokümantasyon için [Aspose.Page .NET](https://reference.aspose.com/page/net/) sayfasına bakın.
-
-### S3: Aspose.Page tartışma ve destek forumu var mı?
-
-C3: Evet, toplulukla etkileşime geçmek ve yardım almak için [forum](https://forum.aspose.com/c/page/39) adresini ziyaret edin.
-
-### S4: Aspose.Page for .NET'i satın almadan denemek mümkün mü?
-
-C4: Kesinlikle! Ücretsiz deneme sürümüne [here](https://releases.aspose.com/) üzerinden ulaşabilirsiniz.
-
-### S5: Aspose.Page for .NET için geçici bir lisans nasıl alınır?
-
-C5: Geçici lisans için [temporary license/](https://purchase.aspose.com/temporary-license/) adresini ziyaret edin.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Son Güncelleme:** 2026-01-28  
 **Test Edilen Versiyon:** Aspose.Page 24.12 for .NET  
 **Yazar:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

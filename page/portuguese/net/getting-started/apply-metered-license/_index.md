@@ -137,37 +137,15 @@ R: O Aspose.Page lida com arquivos grandes, porém o consumo de memória aumenta
 **P: Como obter programaticamente o número de páginas no arquivo EPS?**  
 R: Use `document.PagesCount` após carregar o `PsDocument`.
 
-## FAQ's
-
-### Q1: Como obtenho uma licença metered para o Aspose.Page para .NET?
-
-A1: Acesse [purchase.aspose.com](https://purchase.aspose.com/buy) para adquirir uma licença válida.
-
-### Q2: Onde encontro a documentação do Aspose.Page para .NET?
-
-A2: Consulte [Aspose.Page .NET](https://reference.aspose.com/page/net/) para documentação completa.
-
-### Q3: Existe um fórum para discussões e suporte do Aspose.Page?
-
-A3: Sim, visite o [forum](https://forum.aspose.com/c/page/39) para interagir com a comunidade e buscar assistência.
-
-### Q4: Posso experimentar o Aspose.Page para .NET antes de comprar?
-
-A4: Absolutamente! Acesse o teste gratuito [aqui](https://releases.aspose.com/).
-
-### Q5: Como obtenho uma licença temporária para o Aspose.Page para .NET?
-
-A5: Visite [temporary license/](https://purchase.aspose.com/temporary-license/) para obter uma licença temporária.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Última Atualização:** 2026-01-28  
 **Testado com:** Aspose.Page 24.12 para .NET  
 **Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

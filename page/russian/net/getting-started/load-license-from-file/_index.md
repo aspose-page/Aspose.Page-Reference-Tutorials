@@ -102,37 +102,37 @@ Console.WriteLine("License set successfully.");
 
 ### Q1: Где можно найти документацию по Aspose.Page for .NET?
 
-A1: Подробную документацию можно найти **[здесь](https://reference.aspose.com/page/net/)**.
+A1: Подробную документацию можно найти **[здесь](https://reference.aspose.com/page/net/) **.
 
 ### Q2: Как скачать библиотеку Aspose.Page for .NET?
 
-A2: Библиотеку можно скачать со страницы релизов **[здесь](https://releases.aspose.com/page/net/)**.
+A2: Библиотеку можно скачать со страницы релизов **[здесь](https://releases.aspose.com/page/net/) **.
 
 ### Q3: Где можно приобрести лицензию на Aspose.Page for .NET?
 
-A3: Лицензию можно приобрести **[здесь](https://purchase.aspose.com/buy)**.
+A3: Лицензию можно приобрести **[здесь](https://purchase.aspose.com/buy) **.
 
 ### Q4: Есть ли доступна бесплатная пробная версия?
 
-A4: Да, бесплатную пробную версию можно изучить **[здесь](https://releases.aspose.com/)**.
+A4: Да, бесплатную пробную версию можно изучить **[здесь](https://releases.aspose.com/) **.
 
 ### Q5: Нужна помощь или есть вопросы?
 
-A5: Посетите **[форум Aspose.Page](https://forum.aspose.com/c/page/39)** для поддержки сообщества.
+A5: Посетите **[форум Aspose.Page](https://forum.aspose.com/c/page/39) ** для поддержки сообщества.
 
 ## Заключение
 
 Теперь вы освоили **как загружать файлы лицензий** для Aspose.Page в C#. Установив лицензию в начале работы приложения, вы раскрываете полную мощность API и избегаете распространённых проблем во время выполнения. Не стесняйтесь исследовать другие возможности Aspose.Page, такие как создание PDF, рендеринг XPS и продвинутая типография — теперь, когда барьер лицензии снят.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Page for .NET 24.11  
 **Author:** Aspose
+ 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

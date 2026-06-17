@@ -116,32 +116,32 @@ document.save();
 
 ## Часто задаваемые вопросы
 
-**Q: Can I use custom fonts in my PostScript document?**  
-A: Да, можете. Убедитесь, что задали дополнительную папку шрифтов в параметрах сохранения (см. Шаг 5).
+**В: Могу ли я использовать собственные шрифты в своем документе PostScript?**
+А: Да, можно. Убедитесь, что задали дополнительные дополнительные шрифты в параметрах сохранения (см. Шаг5).
 
-**Q: Is there a trial version available for Aspose.Page for Java?**  
-A: Да, вы можете получить бесплатную пробную версию [here](https://releases.aspose.com/).
+**В: Доступна ли пробная версия Aspose.Page для Java?**
+О: Да, вы можете получить бесплатную пробную версию [здесь](https://releases.aspose.com/).
 
-**Q: How can I access the full API reference?**  
-A: Обратитесь к документации [here](https://reference.aspose.com/page/java/).
+**В: Как я могу получить доступ к полному справочнику по API?**
+О: Обратитесь к документации [здесь](https://reference.aspose.com/page/java/).
 
-**Q: Where do I purchase a license for Aspose.Page for Java?**  
-A: Вы можете купить лицензию [here](https://purchase.aspose.com/buy).
+**В: Где я могу приобрести лицензию на Aspose.Page для Java?**
+О: Вы можете купить лицензию [здесь](https://purchase.aspose.com/buy).
 
-**Q: Is there a community forum for Aspose.Page discussions?**  
-A: Да, присоединяйтесь к сообществу [forum](https://forum.aspose.com/c/page/39) для поддержки и советов по лучшим практикам.
+**В: Существует ли форум сообщества для обсуждений Aspose.Page?**
+О: Да, присоединяйтесь к сообществу [форум](https://forum.aspose.com/c/page/39) для поддержки и советов по лучшим практикам.
 
-**Q: Can I generate multi‑page PostScript files?**  
-A: Конечно — установите `multiPaged` в `true` в Шаге 6 и вызовите `document.newPage()` для каждой дополнительной страницы.
+**В: Могу ли я создавать многостраничные файлы PostScript?**
+О: Конечно — установите «multiPaged» в «true» на Шаге6 и вызовите «document.newPage()» для каждой дополнительной страницы.
 
 ## Заключение
-Следуя этим шагам, вы теперь знаете **how to create postscript a4 java** файлы с помощью Aspose.Page, а также как **add custom fonts java** и управлять параметрами **set postscript page size**. Aspose.Page берёт на себя сложную часть, позволяя вам сосредоточиться на содержимом ваших документов.
+Следуя этим шагам, вы теперь знаете, **как создавать файлы Postscript a4 Java** с помощью Aspose.Page, а также как **добавлять пользовательские шрифты Java** и управлять параметрами **устанавливать размер страницы Postscript**. Aspose.Page берет на себя сложную часть, поэтому вам нужно сосредоточиться на содержимом ваших документов.
 
 ---
 
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
+**Последнее обновление:** 28.01.2026
+**Протестировано с:** Aspose.Page for Java 24.11
+**Автор:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

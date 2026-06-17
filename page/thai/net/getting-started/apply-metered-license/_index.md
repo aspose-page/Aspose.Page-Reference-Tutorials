@@ -136,37 +136,15 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 **Q: จะดึงจำนวนหน้าของไฟล์ EPS ได้อย่างโปรแกรมmatically อย่างไร?**  
 **A:** ใช้ `document.PagesCount` หลังจากโหลด `PsDocument`
 
-## FAQ's
-
-### Q1: วิธีการขอรับใบอนุญาตแบบ Metered สำหรับ Aspose.Page สำหรับ .NET?
-
-A1: เยี่ยมชม [purchase.aspose.com](https://purchase.aspose.com/buy) เพื่อรับใบอนุญาตที่ถูกต้อง
-
-### Q2: จะหาเอกสารประกอบของ Aspose.Page สำหรับ .NET ได้จากที่ไหน?
-
-A2: ดูที่ [Aspose.Page .NET](https://reference.aspose.com/page/net/) สำหรับเอกสารครบถ้วน
-
-### Q3: มีฟอรั่มสำหรับการสนทนาและสนับสนุน Aspose.Page หรือไม่?
-
-A3: มีครับ เยี่ยมชม [forum](https://forum.aspose.com/c/page/39) เพื่อเข้าร่วมชุมชนและขอความช่วยเหลือ
-
-### Q4: สามารถทดลองใช้ Aspose.Page สำหรับ .NET ก่อนซื้อได้หรือไม่?
-
-A4: แน่นอน! เข้าถึงเวอร์ชันทดลองฟรีได้ที่ [here](https://releases.aspose.com/)
-
-### Q5: จะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page สำหรับ .NET ได้อย่างไร?
-
-A5: เยี่ยมชม [temporary license/](https://purchase.aspose.com/temporary-license/) เพื่อรับใบอนุญาตชั่วคราว
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **อัปเดตล่าสุด:** 2026-01-28  
 **ทดสอบด้วย:** Aspose.Page 24.12 สำหรับ .NET  
 **ผู้เขียน:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

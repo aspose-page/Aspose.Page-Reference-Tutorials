@@ -137,37 +137,15 @@ A: Az Aspose.Page nagy fájlokkal is megbirkózik, de a memóriahasználat nő a
 **K: Hogyan tudom programozottan lekérni az EPS fájl oldalszámát?**  
 A: Használd a `document.PagesCount`‑t a `PsDocument` betöltése után.
 
-## GyIK
-
-### Q1: Hogyan szerezzek metered licencet az Aspose.Page for .NET-hez?
-
-A1: Látogasd meg a [purchase.aspose.com](https://purchase.aspose.com/buy) oldalt, hogy érvényes licencet szerezz.
-
-### Q2: Hol találom az Aspose.Page for .NET dokumentációját?
-
-A2: Tekintsd meg a [Aspose.Page .NET](https://reference.aspose.com/page/net/) oldalt a részletes dokumentációért.
-
-### Q3: Van fórum az Aspose.Page megbeszélésekhez és támogatáshoz?
-
-A3: Igen, látogasd meg a [forum](https://forum.aspose.com/c/page/39) oldalt, hogy csatlakozz a közösséghez és segítséget kérj.
-
-### Q4: Kipróbálhatom az Aspose.Page for .NET-et vásárlás előtt?
-
-A4: Természetesen! A ingyenes próbaverziót elérheted [itt](https://releases.aspose.com/).
-
-### Q5: Hogyan szerezhetek ideiglenes licencet az Aspose.Page for .NET-hez?
-
-A5: Látogasd meg a [temporary license/](https://purchase.aspose.comtemporary-license/) oldalt, hogy ideiglenes licencet szerezz.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Utoljára frissítve:** 2026-01-28  
 **Tesztelt verzióval:** Aspose.Page 24.12 for .NET  
 **Szerző:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

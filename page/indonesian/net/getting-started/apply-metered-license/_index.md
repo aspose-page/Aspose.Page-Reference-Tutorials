@@ -15,32 +15,32 @@ weight: 10
 
 # Konversi EPS ke PNG dan Terapkan Lisensi Metered dengan Aspose.Page untuk .NET
 
-## Introduction
+## Perkenalan
 
-Buka potensi penuh Aspose.Page untuk .NET dengan **mengonversi EPS ke PNG** dan menerapkan lisensi metered. Tutorial ini memandu Anda melalui setiap langkah—dari memuat file EPS hingga menyimpannya sebagai gambar PNG—sehingga Anda dapat memproses dokumen secara efisien dan tanpa watermark evaluasi.
+Buka potensi penuh Aspose.Page untuk .NET dengan **mengonversi EPS ke PNG** dan menerapkan lisensi metered. Tutorial ini memandu Anda melalui setiap langkah—dari mengunggah file EPS hingga menyimpannya sebagai gambar PNG—sehingga Anda dapat memproses dokumen secara efisien dan tanpa evaluasi watermark.
 
-## Quick Answers
-- **What does this tutorial cover?** Converting EPS files to PNG images and applying a metered license with Aspose.Page for .NET.  
-- **Do I need a license?** Yes, a metered license is required for production use.  
-- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **How long does the implementation take?** About 10–15 minutes for a basic conversion.  
-- **Can I run this on Linux/macOS?** Absolutely—Aspose.Page is cross‑platform.
+## Jawaban Cepat
+- **Apa saja yang tercakup dalam tutorial ini?** Mengonversi file EPS ke gambar PNG dan menerapkan lisensi terukur dengan Aspose.Page untuk .NET.
+- **Apakah saya memerlukan lisensi?** Ya, lisensi bermeter diperlukan untuk penggunaan produksi.
+- **Versi .NET manakah yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Berapa lama waktu penerapannya?** Sekitar 10–15 menit untuk konversi dasar.
+- **Bisakah saya menjalankan ini di Linux/macOS?** Tentu saja—Aspose.Page bersifat lintas platform.
 
-## What is “convert EPS to PNG”?
+## Apa itu “konversi EPS ke PNG”?
 Mengonversi EPS ke PNG berarti merasterkan file Encapsulated PostScript (EPS) berbasis vektor menjadi gambar bitmap PNG. Ini berguna ketika Anda perlu menampilkan atau menyematkan grafik di halaman web, laporan, atau komponen UI yang tidak mendukung EPS.
 
-## Why use a metered license for EPS to image conversion?
-Lisensi metered memungkinkan Anda membayar hanya untuk halaman yang diproses, yang ideal untuk beban kerja dengan volume variabel. Lisensi ini juga menghilangkan banner evaluasi merah yang muncul saat menggunakan versi percobaan, memastikan output bersih untuk pengguna akhir Anda.
+## Mengapa menggunakan lisensi terukur untuk konversi EPS ke gambar?
+Lisensi meteran memungkinkan Anda membayar hanya untuk halaman yang diproses, yang ideal untuk beban kerja dengan variabel volume. Lisensi ini juga menghilangkan banner evaluasi merah yang muncul saat menggunakan versi percobaan, memastikan output bersih untuk pengguna akhir Anda.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum menyelami langkah‑langkahnya, pastikan Anda memiliki prasyarat berikut:
 
 - Lisensi Aspose.Page untuk .NET yang valid: Anda dapat memperolehnya dari [purchase.aspose.com](https://purchase.aspose.com/buy).
-- Library Aspose.Page terpasang: Lihat [documentation](https://reference.aspose.com/page/net/) untuk instruksi instalasi.
+- Library Aspose.Page terpasang: Lihat [dokumentasi](https://reference.aspose.com/page/net/) untuk proses instalasi.
 - Lingkungan pengembangan .NET: Pastikan Anda memiliki lingkungan .NET yang berfungsi di mesin Anda.
 
-## Import Namespaces
+## Impor Namespace
 
 Di proyek .NET Anda, impor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.Page:
 
@@ -55,11 +55,11 @@ using System.Linq;
 using System.Text;
 ```
 
-## How to convert EPS to PNG with a metered license?
+## Cara Mengonversi EPS ke PNG dengan Lisensi Meteran?
 
-Berikut adalah panduan langkah‑demi‑langkah yang mencakup semua yang perlu Anda ketahui.
+Berikut adalah panduan langkah-demi-langkah yang mencakup semua yang perlu Anda ketahui.
 
-### Step 1: Set Metered Public and Private Keys
+### Langkah 1: Atur Kunci Publik dan Privat Meteran
 
 Inisialisasi kelas `Aspose.Page.Metered` dan atur kunci publik serta privat metered. Ganti `<type public key here>` dan `<type private key here>` dengan kunci Anda yang sebenarnya.
 
@@ -68,7 +68,7 @@ Aspose.Page.Metered metered = new Aspose.Page.Metered();
 metered.SetMeteredKey("<type public key here>", "<type private key here>");
 ```
 
-### Step 2: Load EPS File and Create Document
+### Langkah 2: Muat File EPS dan Buat Dokumen
 
 Tentukan jalur ke file EPS Anda dan buat stream untuk membaca isinya. Kemudian, buat instance kelas `PsDocument` dari stream tersebut.
 
@@ -78,7 +78,7 @@ System.IO.Stream psStream = new System.IO.FileStream(dataDir + "input.eps", Syst
 PsDocument document = new PsDocument(psStream);
 ```
 
-### Step 3: Convert EPS to PNG Image
+### Langkah 3: Konversi EPS ke Gambar PNG
 
 Buat `ImageDevice` untuk mengonversi file EPS menjadi gambar PNG. Simpan file EPS sebagai gambar menggunakan `ImageSaveOptions`.
 
@@ -87,7 +87,7 @@ ImageDevice device = new ImageDevice();
 document.Save(device, new ImageSaveOptions());
 ```
 
-### Step 4: Retrieve Image Bytes
+### Langkah 4: Ambil Byte Gambar
 
 Dapatkan byte gambar, di mana setiap array byte mewakili satu halaman. Dalam kasus ini, kita memiliki satu halaman.
 
@@ -95,7 +95,7 @@ Dapatkan byte gambar, di mana setiap array byte mewakili satu halaman. Dalam kas
 byte[][] imagesBytes = device.ImagesBytes;
 ```
 
-### Step 5: Save Image Bytes to File
+### Langkah 5: Simpan Byte Gambar ke File
 
 Simpan byte gambar ke file, memastikan konversi dari EPS ke PNG berhasil.
 
@@ -106,68 +106,50 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 }
 ```
 
-### Step 6: Verify Metered License
+### Langkah 6: Verifikasi Lisensi Meteran
 
 Periksa secara visual apakah lisensi metered telah diterapkan dengan sukses. Jika gambar yang dihasilkan tidak mengandung pesan evaluasi merah, itu menandakan lisensi metered telah diterapkan tanpa masalah.
 
 Sekarang Anda siap memanfaatkan kemampuan penuh Aspose.Page untuk .NET dengan lisensi metered!
 
-## Common Issues and Solutions
+## Masalah dan Solusi Umum
 
-| Issue | Cause | Fix |
+| Masalah | Penyebab | Perbaikan |
+
 |-------|-------|-----|
-| Red evaluation banner still appears | License not set or wrong keys | Double‑check the public/private keys and ensure `SetMeteredKey` is called before any document processing |
-| No output file created | Incorrect `dataDir` path or file permissions | Verify the directory exists and the application has write permissions |
-| Multiple pages not saved | Only first page written | Loop through `imagesBytes` and write each array to a separate PNG file |
 
-## Frequently Asked Questions
+| Banner evaluasi merah masih muncul | Lisensi belum diatur atau kunci salah | Periksa kembali kunci publik/pribadi dan pastikan `SetMeteredKey` dipanggil sebelum pemrosesan dokumen apa pun |
 
-**Q: Can I use the metered license in a CI/CD pipeline?**  
-A: Yes, you can store the keys securely (e.g., in environment variables) and call `SetMeteredKey` during the build process.
+| Tidak ada file output yang dibuat | Jalur `dataDir` atau izin file salah | Verifikasi direktori ada dan aplikasi memiliki izin tulis |
 
-**Q: Does Aspose.Page support color profile preservation when converting to PNG?**  
-A: The PNG output retains the original color information, but you can customize it further via `ImageSaveOptions`.
+| Beberapa halaman tidak tersimpan | Hanya halaman pertama yang ditulis | Lakukan perulangan melalui `imagesBytes` dan tulis setiap array ke file PNG terpisah |
 
-**Q: Is it possible to convert EPS to other raster formats (JPEG, BMP)?**  
-A: Absolutely—simply change the `ImageSaveOptions` to the desired format.
+## Pertanyaan yang Sering Diajukan
 
-**Q: What is the maximum EPS file size supported?**  
-A: Aspose.Page handles large files, but memory consumption grows with image resolution. Consider processing pages individually for very large documents.
+**T: Dapatkah saya menggunakan lisensi terukur dalam pipeline CI/CD?**
+J: Ya, Anda dapat menyimpan kunci dengan aman (misalnya, dalam variabel lingkungan) dan memanggil `SetMeteredKey` selama proses build.
 
-**Q: How can I programmatically retrieve the number of pages in the EPS file?**  
-A: Use `document.PagesCount` after loading the `PsDocument`.
+**T: Apakah Aspose.Page mendukung pelestarian profil warna saat mengkonversi ke PNG?**
+J: Output PNG mempertahankan informasi warna asli, tetapi Anda dapat menyesuaikannya lebih lanjut melalui `ImageSaveOptions`.
 
-## FAQ's
+**T: Apakah mungkin untuk mengkonversi EPS ke format raster lain (JPEG, BMP)?**
+J: Tentu saja—cukup ubah `ImageSaveOptions` ke format yang diinginkan.
 
-### Q1: How do I obtain a metered license for Aspose.Page for .NET?
+**T: Berapa ukuran file EPS maksimum yang didukung?**
+J: Aspose.Page menangani file besar, tetapi konsumsi memori meningkat seiring dengan resolusi gambar. Pertimbangkan untuk memproses halaman secara individual untuk dokumen yang sangat besar.
 
-A1: Visit [purchase.aspose.com](https://purchase.aspose.com/buy) to acquire a valid license.
+**T: Bagaimana cara saya mengambil jumlah halaman dalam file EPS secara terprogram?**
+J: Gunakan `document.PagesCount` setelah memuat `PsDocument`.
 
-### Q2: Where can I find the documentation for Aspose.Page for .NET?
+---
 
-A2: Refer to [Aspose.Page .NET](https://reference.aspose.com/page/net/) for comprehensive documentation.
-
-### Q3: Is there a forum for Aspose.Page discussions and support?
-
-A3: Yes, visit [forum](https://forum.aspose.com/c/page/39) to engage with the community and seek assistance.
-
-### Q4: Can I try Aspose.Page for .NET before purchasing?
-
-A4: Absolutely! Access the free trial at [here](https://releases.aspose.com/).
-
-### Q5: How can I obtain a temporary license for Aspose.Page for .NET?
-
-A5: Visit [temporary license/](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
+**Terakhir Diperbarui:** 28 Januari 2026
+**Diuji Dengan:** Aspose.Page 24.12 untuk .NET
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
----
-
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Page 24.12 for .NET  
-**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}

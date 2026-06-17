@@ -100,34 +100,27 @@ Console.WriteLine("License set successfully.");
 
 ### S1: Aspose.Page for .NET dokümantasyonunu nerede bulabilirim?
 
-C1: Ayrıntılı dokümantasyonu **[burada](https://reference.aspose.com/page/net/)** bulabilirsiniz.
+C1: Ayrıntılı dokümantasyonu **[burada](https://reference.aspose.com/page/net/) ** bulabilirsiniz.
 
 ### S2: Aspose.Page for .NET kütüphanesini nasıl indirebilirim?
 
-C2: Kütüphaneyi sürüm sayfasından **[buradan](https://releases.aspose.com/page/net/)** indirebilirsiniz.
+C2: Kütüphaneyi sürüm sayfasından **[buradan](https://releases.aspose.com/page/net/) ** indirebilirsiniz.
 
 ### S3: Aspose.Page for .NET için lisans nereden satın alabilirim?
 
-C3: Lisansı **[buradan](https://purchase.aspose.com/buy)** satın alabilirsiniz.
+C3: Lisansı **[buradan](https://purchase.aspose.com/buy) ** satın alabilirsiniz.
 
 ### S4: Ücretsiz deneme mevcut mu?
 
-C4: Evet, ücretsiz denemeyi **[burada](https://releases.aspose.com/)** keşfedebilirsiniz.
+C4: Evet, ücretsiz denemeyi **[burada](https://releases.aspose.com/) ** keşfedebilirsiniz.
 
 ### S5: Yardıma mı ihtiyacınız var ya da sorularınız mı var?
 
-C5: Topluluk desteği için **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)** adresini ziyaret edin.
+C5: Topluluk desteği için **[Aspose.Page Forum](https://forum.aspose.com/c/page/39) ** adresini ziyaret edin.
 
 ## Sonuç
 
 Artık C# içinde Aspose.Page için **lisans dosyalarını nasıl yükleyeceğinizi** öğrendiniz. Lisansı uygulamanızın başında ayarlayarak API'nin tam gücünü açar ve yaygın çalışma zamanı sorunlarından kaçınırsınız. Lisans engeli ortadan kalktığı için PDF oluşturma, XPS renderleme ve gelişmiş tipografi gibi diğer Aspose.Page yeteneklerini keşfetmekten çekinmeyin.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -136,3 +129,10 @@ Artık C# içinde Aspose.Page için **lisans dosyalarını nasıl yükleyeceğin
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

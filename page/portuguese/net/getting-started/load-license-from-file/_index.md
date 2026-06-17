@@ -103,34 +103,27 @@ Quando `SetLicense` é executado sem lançar uma exceção, sua aplicação est�
 
 ### Q1: Onde posso encontrar a documentação do Aspose.Page para .NET?
 
-A1: Você pode encontrar a documentação detalhada **[aqui](https://reference.aspose.com/page/net/)**.
+A1: Você pode encontrar a documentação detalhada **[aqui](https://reference.aspose.com/page/net/) **.
 
 ### Q2: Como faço o download da biblioteca Aspose.Page para .NET?
 
-A2: Você pode baixar a biblioteca na página de lançamentos **[aqui](https://releases.aspose.com/page/net/)**.
+A2: Você pode baixar a biblioteca na página de lançamentos **[aqui](https://releases.aspose.com/page/net/) **.
 
 ### Q3: Onde posso comprar uma licença para Aspose.Page para .NET?
 
-A3: Você pode comprar uma licença **[aqui](https://purchase.aspose.com/buy)**.
+A3: Você pode comprar uma licença **[aqui](https://purchase.aspose.com/buy) **.
 
 ### Q4: Existe uma versão de avaliação gratuita disponível?
 
-A4: Sim, você pode experimentar a versão de avaliação **[aqui](https://releases.aspose.com/)**.
+A4: Sim, você pode experimentar a versão de avaliação **[aqui](https://releases.aspose.com/) **.
 
 ### Q5: Precisa de assistência ou tem perguntas?
 
-A5: Visite o **[Fórum Aspose.Page](https://forum.aspose.com/c/page/39)** para suporte da comunidade.
+A5: Visite o **[Fórum Aspose.Page](https://forum.aspose.com/c/page/39) ** para suporte da comunidade.
 
 ## Conclusão
 
 Agora você dominou **como carregar licenças** para o Aspose.Page em C#. Definindo a licença logo no início da sua aplicação, você desbloqueia todo o poder da API e evita problemas comuns em tempo de execução. Sinta-se à vontade para explorar outras capacidades do Aspose.Page, como criação de PDF, renderização XPS e tipografia avançada—agora que a barreira da licença foi removida.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -139,3 +132,10 @@ Agora você dominou **como carregar licenças** para o Aspose.Page em C#. Defini
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

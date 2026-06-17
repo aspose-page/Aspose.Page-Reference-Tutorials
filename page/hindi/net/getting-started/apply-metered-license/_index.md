@@ -137,32 +137,15 @@ A: Aspose.Page बड़ी फ़ाइलों को संभालता �
 **Q: मैं प्रोग्रामेटिकली EPS फ़ाइल में पेजों की संख्या कैसे प्राप्त कर सकता हूँ?**  
 A: `PsDocument` लोड करने के बाद `document.PagesCount` का उपयोग करें।
 
-## अक्सर पूछे जाने वाले प्रश्न
-
-### Q1: मैं Aspose.Page for .NET के लिए मीटर लाइसेंस कैसे प्राप्त करूँ?
-A1: वैध लाइसेंस प्राप्त करने के लिए [purchase.aspose.com](https://purchase.aspose.com/buy) पर जाएँ।
-
-### Q2: मैं Aspose.Page for .NET की दस्तावेज़ीकरण कहाँ पा सकता हूँ?
-A2: व्यापक दस्तावेज़ीकरण के लिए [Aspose.Page .NET](https://reference.aspose.com/page/net/) देखें।
-
-### Q3: क्या Aspose.Page चर्चा और समर्थन के लिए कोई फ़ोरम है?
-A3: हाँ, समुदाय से जुड़ने और सहायता प्राप्त करने के लिए [forum](https://forum.aspose.com/c/page/39) पर जाएँ।
-
-### Q4: क्या मैं Aspose.Page for .NET को खरीदने से पहले आज़मा सकता हूँ?
-A4: बिल्कुल! मुफ्त ट्रायल के लिए [here](https://releases.aspose.com/) पर जाएँ।
-
-### Q5: मैं Aspose.Page for .NET के लिए अस्थायी लाइसेंस कैसे प्राप्त करूँ?
-A5: अस्थायी लाइसेंस प्राप्त करने के लिए [temporary license/](https://purchase.aspose.com/temporary-license/) पर जाएँ।
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Page 24.12 for .NET  
 **Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -88,24 +88,24 @@ XPS هو تنسيق مستند ثابت التخطيط من مايكروسوفت
 
 ## الأسئلة المتكررة
 
-**Q: Can I use Aspose.Page for XPS to PDF conversion in a web application?**  
-A: بالتأكيد. المكتبة آمنة للاستخدام عبر الخيوط وتعمل جيدًا في حاويات الـ servlet أو خدمات Spring Boot.
+**س: هل يمكنني استخدام Aspose.Page لتحويل XPS إلى PDF في تطبيق ويب؟**
+ج: مؤكد. مؤسسة آمنة للاستخدام عبر العقود الجيدة في وثيقة الـ servlet أو خدمات Spring Boot.
 
-**Q: Is there a size limitation for the XPS files I can convert?**  
-A: لا توجد حدود صلبة في الـ API نفسها، لكن يجب مراعاة حجم heap في JVM للوثائق الكبيرة جدًا.
+**س: هل هناك حدود لحجم ملفات XPS التي يمكنني تحويلها؟**
+ج: لا توجد حدود خارجية في API نفسها، ولكن يجب أن يكون حجم الكومة في JVM للوثائق كبيرة جدًا.
 
-**Q: Do I need to install any additional fonts on the server?**  
-A: تستخدم Aspose.Page الخطوط النظامية بشكل افتراضي. إذا كان XPS المصدر يشير إلى خط مخصص، تأكد من تثبيته أو تضمينه في XPS.
+**س: هل أحتاج إلى تثبيت أي خطوط إضافية على الخادم؟**
+ج: تستخدم Aspose.Page نظام الخطوط الجوية الافتراضي بشكل افتراضي. إذا كان مصدر XPS يشير إلى خط مخصص، تأكد من تثبيته أو تضمينه في XPS.
 
-**Q: How do I handle password‑protected XPS files?**  
-A: استخدم الفئة `LoadOptions` لتوفير كلمة المرور عند تحميل مستند XPS.
+**س: كيف يمكنني التعامل مع ملفات XPS المحمية بكلمة مرور؟**
+ج: استخدم فئة `LoadOptions` لتحسين كلمة المرور عند تحميل XPS الأصلي.
 
-**Q: Can I convert XPS to PDF without losing vector graphics?**  
-A: نعم. تحافظ Aspose.Page على الرسومات المتجهة، مما يضمن أن يكون PDF الناتج مطابقًا تمامًا للـ XPS الأصلي.
+**س: هل يمكنني تحويل XPS إلى PDF دون فقدان الرسومات المتجهة؟**
+ج: نعم. تحافظ على Aspose.Page على الرسومات المتجهة، مما يضمن أن يكون PDF الناتج مطابقًا تمامًا للـ XPS الأصلي.
 
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
+**آخر تحديث:** ٢٨ يناير ٢٠٢٦
+**تم الاختبار باستخدام:** Aspose.Page لجافا ٢٤.١١
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

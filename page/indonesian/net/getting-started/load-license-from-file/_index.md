@@ -102,34 +102,27 @@ Ketika `SetLicense` dijalankan tanpa melempar pengecualian, aplikasi Anda kini b
 
 ### Q1: Di mana saya dapat menemukan dokumentasi untuk Aspose.Page untuk .NET?
 
-A1: Anda dapat menemukan dokumentasi lengkap **[di sini](https://reference.aspose.com/page/net/)**.
+A1: Anda dapat menemukan dokumentasi lengkap **[di sini](https://reference.aspose.com/page/net/) **.
 
 ### Q2: Bagaimana cara mengunduh pustaka Aspose.Page untuk .NET?
 
-A2: Anda dapat mengunduh pustaka tersebut dari halaman rilis **[di sini](https://releases.aspose.com/page/net/)**.
+A2: Anda dapat mengunduh pustaka tersebut dari halaman rilis **[di sini](https://releases.aspose.com/page/net/) **.
 
 ### Q3: Di mana saya dapat membeli lisensi untuk Aspose.Page untuk .NET?
 
-A3: Anda dapat membeli lisensi **[di sini](https://purchase.aspose.com/buy)**.
+A3: Anda dapat membeli lisensi **[di sini](https://purchase.aspose.com/buy) **.
 
 ### Q4: Apakah ada percobaan gratis yang tersedia?
 
-A4: Ya, Anda dapat menjelajahi percobaan gratis **[di sini](https://releases.aspose.com/)**.
+A4: Ya, Anda dapat menjelajahi percobaan gratis **[di sini](https://releases.aspose.com/) **.
 
 ### Q5: Membutuhkan bantuan atau memiliki pertanyaan? 
 
-A5: Kunjungi **[Forum Aspose.Page](https://forum.aspose.com/c/page/39)** untuk dukungan komunitas.
+A5: Kunjungi **[Forum Aspose.Page](https://forum.aspose.com/c/page/39) ** untuk dukungan komunitas.
 
 ## Kesimpulan
 
 Anda kini telah menguasai **cara memuat lisensi** untuk Aspose.Page dalam C#. Dengan mengatur lisensi di awal aplikasi, Anda membuka seluruh kekuatan API dan menghindari masalah runtime yang umum. Jangan ragu untuk menjelajahi kemampuan Aspose.Page lainnya seperti pembuatan PDF, rendering XPS, dan tipografi lanjutan—sekarang hambatan lisensi telah teratasi.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -138,3 +131,10 @@ Anda kini telah menguasai **cara memuat lisensi** untuk Aspose.Page dalam C#. De
 **Penulis:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -139,37 +139,15 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 **س: كيف يمكنني برمجيًا استرجاع عدد الصفحات في ملف EPS؟**  
 ج: استخدم `document.PagesCount` بعد تحميل `PsDocument`.
 
-## الأسئلة المتكررة
-
-### س1: كيف أحصل على ترخيص مترّف لـ Aspose.Page لـ .NET؟
-
-ج1: زر [purchase.aspose.com](https://purchase.aspose.com/buy) للحصول على ترخيص صالح.
-
-### س2: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Page لـ .NET؟
-
-ج2: راجع [Aspose.Page .NET](https://reference.aspose.com/page/net/) للحصول على وثائق شاملة.
-
-### س3: هل هناك منتدى لمناقشات ودعم Aspose.Page؟
-
-ج3: نعم، زر [forum](https://forum.aspose.com/c/page/39) للتفاعل مع المجتمع وطلب المساعدة.
-
-### س4: هل يمكنني تجربة Aspose.Page لـ .NET قبل الشراء؟
-
-ج4: بالتأكيد! الوصول إلى النسخة التجريبية المجانية عبر [here](https://releases.aspose.com/).
-
-### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page لـ .NET؟
-
-ج5: زر [temporary license/](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **آخر تحديث:** 2026-01-28  
 **تم الاختبار مع:** Aspose.Page 24.12 لـ .NET  
 **المؤلف:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

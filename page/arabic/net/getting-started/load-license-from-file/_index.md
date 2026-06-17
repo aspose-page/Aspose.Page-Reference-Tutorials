@@ -102,34 +102,27 @@ Console.WriteLine("License set successfully.");
 
 ### س1: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Page لـ .NET؟
 
-ج1: يمكنك العثور على الوثائق التفصيلية **[من هنا](https://reference.aspose.com/page/net/)**.
+ج1: يمكنك العثور على الوثائق التفصيلية **[من هنا](https://reference.aspose.com/page/net/) **.
 
 ### س2: كيف يمكنني تحميل مكتبة Aspose.Page لـ .NET؟
 
-ج2: يمكنك تحميل المكتبة من صفحة الإصدارات **[من هنا](https://releases.aspose.com/page/net/)**.
+ج2: يمكنك تحميل المكتبة من صفحة الإصدارات **[من هنا](https://releases.aspose.com/page/net/) **.
 
 ### س3: أين يمكنني شراء ترخيص لـ Aspose.Page لـ .NET؟
 
-ج3: يمكنك شراء الترخيص **[من هنا](https://purchase.aspose.com/buy)**.
+ج3: يمكنك شراء الترخيص **[من هنا](https://purchase.aspose.com/buy) **.
 
 ### س4: هل هناك نسخة تجريبية مجانية متاحة؟
 
-ج4: نعم، يمكنك تجربة نسخة تجريبية مجانية **[من هنا](https://releases.aspose.com/)**.
+ج4: نعم، يمكنك تجربة نسخة تجريبية مجانية **[من هنا](https://releases.aspose.com/) **.
 
 ### س5: هل تحتاج إلى مساعدة أو لديك أسئلة؟
 
-ج5: زر **[منتدى Aspose.Page](https://forum.aspose.com/c/page/39)** للحصول على دعم المجتمع.
+ج5: زر **[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) ** للحصول على دعم المجتمع.
 
 ## الخاتمة
 
 لقد أصبحت الآن متمكنًا من **كيفية تحميل ملفات الترخيص** لـ Aspose.Page في C#. من خلال ضبط الترخيص مبكرًا في تطبيقك، تفتح كامل قوة الـ API وتتفادى المشكلات الشائعة أثناء التشغيل. لا تتردد في استكشاف قدرات أخرى لـ Aspose.Page مثل إنشاء PDF، عرض XPS، والطباعة المتقدمة—الآن بعد أن أزيلت حاجز الترخيص.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -138,3 +131,10 @@ Console.WriteLine("License set successfully.");
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

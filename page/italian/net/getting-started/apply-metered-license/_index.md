@@ -139,35 +139,13 @@ A: Aspose.Page gestisce file di grandi dimensioni, ma il consumo di memoria aume
 **Q: Come posso recuperare programmaticamente il numero di pagine nel file EPS?**  
 A: Usa `document.PagesCount` dopo aver caricato il `PsDocument`.
 
-## FAQ
-
-### Q1: Come posso ottenere una licenza a consumo per Aspose.Page per .NET?
-
-A1: Visita [purchase.aspose.com](https://purchase.aspose.com/buy) per acquisire una licenza valida.
-
-### Q2: Dove posso trovare la documentazione per Aspose.Page per .NET?
-
-A2: Consulta [Aspose.Page .NET](https://reference.aspose.com/page/net/) per una documentazione completa.
-
-### Q3: Esiste un forum per discussioni e supporto su Aspose.Page?
-
-A3: Sì, visita il [forum](https://forum.aspose.com/c/page/39) per interagire con la community e chiedere assistenza.
-
-### Q4: Posso provare Aspose.Page per .NET prima di acquistarlo?
-
-A4: Assolutamente! Accedi alla prova gratuita [qui](https://releases.aspose.com/).
-
-### Q5: Come posso ottenere una licenza temporanea per Aspose.Page per .NET?
-
-A5: Visita [temporary license/](https://purchase.aspose.com/temporary-license/) per ottenere una licenza temporanea.
+**Ultimo aggiornamento:** 2026-01-28  
+**Testato con:** Aspose.Page 24.12 for .NET  
+**Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-**Ultimo aggiornamento:** 2026-01-28  
-**Testato con:** Aspose.Page 24.12 for .NET  
-**Autore:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}

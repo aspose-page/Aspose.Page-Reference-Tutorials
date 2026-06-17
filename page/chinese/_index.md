@@ -17,7 +17,7 @@ weight: 11
 
 欢迎来到 **Aspose.Page 教程列表**，这是您掌握 **使用 Aspose.Page 合并文档** 的一站式中心，支持 .NET 和 Java 平台。无论您是构建简易报告还是复杂的多页目录，这些循序渐进的指南都将展示如何合并 PDF、PostScript、XPS 和 EPS 文件，添加渐变或图像，并微调文本——同时保持对渲染管道的完整控制。
 
-## Quick Answers
+## 快速解答
 - **Aspose.Page 能做什么？** 它让您能够在 .NET 和 Java 上以编程方式创建、编辑和合并文档。  
 - **支持哪些格式？** PDF、PostScript、XPS、EPS 以及多种图像格式。  
 - **需要许可证吗？** 提供免费试用版；生产环境需购买许可证。  
@@ -26,22 +26,22 @@ weight: 11
 - **合并操作的速度如何？** 合并在内存中完成，标准大小文档通常在毫秒级完成。  
 - **能在 CI/CD 流水线中自动化合并吗？** 能——Aspose.Page 可在 Windows、Linux 和 macOS 上运行，适合 CI 环境。
 
-## What is **how to merge documents with Aspose.Page**?
+## 如何使用 Aspose.Page 合并文档？
 合并文档是指将两个或多个独立文件（如 PDF、PostScript 或 XPS）组合成一个统一的输出。Aspose.Page 提供丰富的 API，处理页面顺序、资源合并以及保持格式的合并操作，且不会损失质量。
 
-## Why use Aspose.Page for document merging and other tasks?
+## 为什么选择 Aspose.Page 进行文档合并和其他任务？
 - **跨平台一致性：** 编写一次代码，可在 .NET 或 Java 上运行。  
 - **完整的图形控制：** 在合并前后添加渐变、纹理和透明效果。  
 - **强大的图像管理：** 插入、替换或编辑图像，无需外部工具。  
 - **高性能转换：** 实时将 PostScript 转换为 PDF 或 XPS。  
 - **广泛的文本编辑：** 在合并后的页面中修改、样式化或替换文本。  
 
-## Prerequisites
+## 前提条件
 - 已在开发机器上安装 .NET 6+ 或 Java 11+。  
 - 拥有 Aspose.Page 许可证（或试用密钥），以获得完整功能。  
 - 对 C# 或 Java 语法有基本了解。
 
-## How to merge documents – .NET tutorials
+## 如何合并文档 – .NET 教程
 {{% alert color="primary" %}}
 探索我们为 .NET 提供的 Aspose.Page 教程的无限可能。无论您是新手还是有经验的用户，我们的完整指南都能帮助您充分发挥此强大工具的潜力。从入门和画布操作的基础步骤，到跨文档编辑和图像管理的高级技术，我们的教程涵盖方方面面。轻松进入文档创建、操作和增强的世界。提升技能，简化文档处理工作流，让每一步都高效且有效。
 {{% /alert %}}
@@ -66,7 +66,7 @@ weight: 11
 - [视觉画刷](./net/visual-brushes/)
 - [EPS 元数据管理](./net/eps-metadata-management/)
 
-## How to merge documents – Java tutorials
+## 如何合并文档 – Java 教程
 {{% alert color="primary" %}}
 解锁 Java 文档操作的无限可能，尽在 Aspose.Page 教程。无论您是资深开发者还是刚入门，我们的完整指南都能帮助您掌握从基础页面操作到高级转换的复杂技术。深入了解 Aspose.Page for Java，轻松提升文档处理技能。通过自定义页面元素到无缝格式转换，轻松打造视觉惊艳的文档。借助我们友好的教程，让复杂任务变得简单。发现高效文档创建与操作的艺术——您的旅程从 Aspose.Page for Java 开始。
 {{% /alert %}}
@@ -96,14 +96,14 @@ weight: 11
 - [视觉元素 - Java](./java/visual-elements/)
 - [XMP 元数据操作 - Java](./java/xmp-metadata-manipulation/)
 
-## Common Use Cases & Tips
+## 常见用例和技巧
 - **将多个 PDF 合并为单个报告：** 使用 .NET 的 *Document Merging* 教程或 Java 的 *File Merging*。  
 - **在合并前添加渐变页眉：** 先使用 *Gradient Fills* 指南应用渐变，然后再合并页面。  
 - **在合并前转换 PostScript 文件：** 通过 *PostScript Conversion* 教程进行转换，再合并生成的 PDF。  
 - **在合并文档时管理图像：** 使用 *Image Management* 教程统一图像分辨率，以降低文件体积。  
 - **合并后编辑文本：** 参考 *Text Manipulation* 指南，在合并后替换占位符或更新页脚。
 
-## Frequently Asked Questions
+## 常见问题解答
 
 **Q: 能否在一次操作中同时合并 PDF 和 PostScript 文件？**  
 A: 可以。先将 PostScript 文件转换为 PDF（参见 PostScript Conversion 教程），然后使用 Document Merging 指南合并这些 PDF。

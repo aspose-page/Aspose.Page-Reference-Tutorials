@@ -103,27 +103,33 @@ Cuando `SetLicense` se ejecuta sin lanzar una excepción, tu aplicación está a
 
 ### P1: ¿Dónde puedo encontrar la documentación de Aspose.Page para .NET?
 
-R1: Puedes encontrar la documentación detallada **[aquí](https://reference.aspose.com/page/net/)**.
+R1: Puedes encontrar la documentación detallada **[aquí](https://reference.aspose.com/page/net/) **.
 
 ### P2: ¿Cómo descargo la biblioteca Aspose.Page para .NET?
 
-R2: Puedes descargar la biblioteca desde la página de lanzamientos **[aquí](https://releases.aspose.com/page/net/)**.
+R2: Puedes descargar la biblioteca desde la página de lanzamientos **[aquí](https://releases.aspose.com/page/net/) **.
 
 ### P3: ¿Dónde puedo comprar una licencia para Aspose.Page para .NET?
 
-R3: Puedes comprar una licencia **[aquí](https://purchase.aspose.com/buy)**.
+R3: Puedes comprar una licencia **[aquí](https://purchase.aspose.com/buy) **.
 
 ### P4: ¿Hay una prueba gratuita disponible?
 
-R4: Sí, puedes explorar una prueba gratuita **[aquí](https://releases.aspose.com/)**.
+R4: Sí, puedes explorar una prueba gratuita **[aquí](https://releases.aspose.com/) **.
 
 ### P5: ¿Necesitas asistencia o tienes preguntas?
 
-R5: Visita el **[Foro de Aspose.Page](https://forum.aspose.com/c/page/39)** para soporte de la comunidad.
+R5: Visita el **[Foro de Aspose.Page](https://forum.aspose.com/c/page/39) ** para soporte de la comunidad.
 
 ## Conclusión
 
 Ahora dominas **cómo cargar archivos de licencia** para Aspose.Page en C#. Al establecer la licencia al inicio de tu aplicación, desbloqueas todo el poder de la API y evitas problemas comunes en tiempo de ejecución. Siéntete libre de explorar otras capacidades de Aspose.Page como la creación de PDF, renderizado XPS y tipografía avanzada—ahora que la barrera de la licencia ha sido superada.
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Page for .NET 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -131,9 +137,3 @@ Ahora dominas **cómo cargar archivos de licencia** para Aspose.Page en C#. Al e
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Page for .NET 24.11  
-**Author:** Aspose

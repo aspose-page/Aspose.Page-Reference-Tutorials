@@ -102,27 +102,33 @@ Gdy `SetLicense` wykona się bez wyrzucenia wyjątku, Twoja aplikacja działa w 
 
 ### Q1: Gdzie mogę znaleźć dokumentację Aspose.Page dla .NET?
 
-A1: Szczegółową dokumentację znajdziesz **[tutaj](https://reference.aspose.com/page/net/)**.
+A1: Szczegółową dokumentację znajdziesz **[tutaj](https://reference.aspose.com/page/net/) **.
 
 ### Q2: Jak pobrać bibliotekę Aspose.Page dla .NET?
 
-A2: Bibliotekę możesz pobrać ze strony wydania **[tutaj](https://releases.aspose.com/page/net/)**.
+A2: Bibliotekę możesz pobrać ze strony wydania **[tutaj](https://releases.aspose.com/page/net/) **.
 
 ### Q3: Gdzie mogę kupić licencję na Aspose.Page dla .NET?
 
-A3: Licencję możesz zakupić **[tutaj](https://purchase.aspose.com/buy)**.
+A3: Licencję możesz zakupić **[tutaj](https://purchase.aspose.com/buy) **.
 
 ### Q4: Czy dostępna jest darmowa wersja próbna?
 
-A4: Tak, darmową wersję próbną możesz wypróbować **[tutaj](https://releases.aspose.com/)**.
+A4: Tak, darmową wersję próbną możesz wypróbować **[tutaj](https://releases.aspose.com/) **.
 
 ### Q5: Potrzebujesz pomocy lub masz pytania?
 
-A5: Odwiedź **[forum Aspose.Page](https://forum.aspose.com/c/page/39)**, aby uzyskać wsparcie społeczności.
+A5: Odwiedź **[forum Aspose.Page](https://forum.aspose.com/c/page/39) **, aby uzyskać wsparcie społeczności.
 
 ## Podsumowanie
 
 Teraz opanowałeś **jak ładować licencje** dla Aspose.Page w C#. Ustawiając licencję na wczesnym etapie aplikacji, odblokowujesz pełną moc API i unikasz typowych problemów w czasie działania. Śmiało eksploruj inne możliwości Aspose.Page, takie jak tworzenie PDF, renderowanie XPS i zaawansowana typografia — teraz, gdy bariera licencyjna została usunięta.
+
+---
+
+**Last Updated:** 2026-01-28  
+**Tested With:** Aspose.Page for .NET 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -130,9 +136,3 @@ Teraz opanowałeś **jak ładować licencje** dla Aspose.Page w C#. Ustawiając 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-28  
-**Tested With:** Aspose.Page for .NET 24.11  
-**Author:** Aspose

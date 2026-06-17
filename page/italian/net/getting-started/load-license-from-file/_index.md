@@ -124,13 +124,6 @@ A5: Visita il **[Forum Aspose.Page](https://forum.aspose.com/c/page/39)** per il
 
 Ora hai imparato a **caricare i file di licenza** per Aspose.Page in C#. Impostando la licenza all'inizio della tua applicazione, sblocchi tutta la potenza dell'API ed eviti problemi comuni a runtime. Sentiti libero di esplorare altre funzionalità di Aspose.Page come la creazione di PDF, il rendering XPS e la tipografia avanzata—ora che la barriera della licenza è stata rimossa.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-28  
@@ -138,3 +131,10 @@ Ora hai imparato a **caricare i file di licenza** per Aspose.Page in C#. Imposta
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

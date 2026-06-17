@@ -14,24 +14,24 @@ weight: 10
 
 # EPS を PNG に変換し、Aspose.Page for .NET でメーターライセンスを適用する方法
 
-## Introduction
+## はじめに
 
 Aspose.Page for .NET の **EPS から PNG への変換** とメーターライセンスの適用により、機能を最大限に活用できます。このチュートリアルでは、EPS ファイルの読み込みから PNG 画像として保存するまでの手順をすべて解説し、評価版の透かしなしでドキュメントを効率的に処理できるようにします。
 
-## Quick Answers
+## よくある質問
 - **このチュートリアルで扱う内容は？** EPS ファイルを PNG 画像に変換し、Aspose.Page for .NET でメーターライセンスを適用する方法。  
 - **ライセンスは必要ですか？** はい、本番環境で使用するにはメーターライセンスが必要です。  
 - **対応している .NET バージョンは？** .NET Framework 4.5 以降、.NET Core 3.1 以降、.NET 5/6/7。  
 - **実装にかかる時間は？** 基本的な変換で約 10〜15 分。  
 - **Linux/macOS でも実行できますか？** もちろんです。Aspose.Page はクロスプラットフォームです。
 
-## What is “convert EPS to PNG”?
+## 「EPSからPNGへの変換」とは？
 EPS から PNG への変換とは、ベクターベースの Encapsulated PostScript (EPS) ファイルをビットマップ画像の PNG にラスタライズすることです。EPS をサポートしないウェブページやレポート、UI コンポーネントにグラフィックを表示・埋め込む際に便利です。
 
-## Why use a metered license for EPS to image conversion?
+## EPSから画像への変換に従量制ライセンスを使用する理由
 メーターライセンスを使用すると、処理したページ数に応じて支払うだけで済むため、変動するワークロードに最適です。また、無料トライアルで表示される赤い評価バナーが除去され、エンドユーザーに対してクリーンな出力が提供できます。
 
-## Prerequisites
+## 前提条件
 
 手順に入る前に、以下の前提条件が整っていることを確認してください。
 
@@ -39,7 +39,7 @@ EPS から PNG への変換とは、ベクターベースの Encapsulated PostSc
 - Aspose.Page ライブラリがインストール済み: インストール手順は [documentation](https://reference.aspose.com/page/net/) を参照してください。  
 - .NET 開発環境: マシンに動作する .NET 環境が構築されていることを確認してください。
 
-## Import Namespaces
+## 名前空間のインポート
 
 .NET プロジェクトで Aspose.Page の機能にアクセスするために、必要な名前空間をインポートします。
 
@@ -54,11 +54,11 @@ using System.Linq;
 using System.Text;
 ```
 
-## How to convert EPS to PNG with a metered license?
+## 従量制ライセンスでEPSファイルをPNGファイルに変換する方法
 
 以下は、必要な手順をすべて網羅したステップバイステップガイドです。
 
-### Step 1: Set Metered Public and Private Keys
+### ステップ1：従量制ライセンス用の公開鍵と秘密鍵を設定する
 
 `Aspose.Page.Metered` クラスを初期化し、メーターの公開キーとプライベートキーを設定します。`<type public key here>` と `<type private key here>` を実際のキーに置き換えてください。
 
@@ -67,7 +67,7 @@ Aspose.Page.Metered metered = new Aspose.Page.Metered();
 metered.SetMeteredKey("<type public key here>", "<type private key here>");
 ```
 
-### Step 2: Load EPS File and Create Document
+### ステップ2：EPSファイルを読み込み、ドキュメントを作成する
 
 EPS ファイルへのパスを指定し、ストリームで内容を読み取ります。その後、ストリームから `PsDocument` クラスのインスタンスを作成します。
 
@@ -77,7 +77,7 @@ System.IO.Stream psStream = new System.IO.FileStream(dataDir + "input.eps", Syst
 PsDocument document = new PsDocument(psStream);
 ```
 
-### Step 3: Convert EPS to PNG Image
+### ステップ3：EPSファイルをPNG画像に変換する
 
 EPS ファイルを PNG 画像に変換するための `ImageDevice` を作成します。`ImageSaveOptions` を使用して画像として保存します。
 
@@ -86,7 +86,7 @@ ImageDevice device = new ImageDevice();
 document.Save(device, new ImageSaveOptions());
 ```
 
-### Step 4: Retrieve Image Bytes
+### ステップ4：画像バイトを取得する
 
 画像バイト列を取得します。各バイト配列は 1 ページを表します。この例では 1 ページだけです。
 
@@ -94,7 +94,7 @@ document.Save(device, new ImageSaveOptions());
 byte[][] imagesBytes = device.ImagesBytes;
 ```
 
-### Step 5: Save Image Bytes to File
+### ステップ5：画像バイトをファイルに保存する
 
 取得したバイト列をファイルに保存し、EPS から PNG への変換が正常に行われたことを確認します。
 
@@ -105,13 +105,13 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 }
 ```
 
-### Step 6: Verify Metered License
+### ステップ6：従量制ライセンスを確認する
 
 メーターライセンスが正しく適用されたか目視で確認します。結果画像に赤い評価メッセージが表示されていなければ、ライセンスは問題なく適用されています。
 
 これで、メーターライセンスを使用した Aspose.Page for .NET のフル機能を活用できるようになりました！
 
-## Common Issues and Solutions
+## よくある問題と解決策
 
 | 問題 | 原因 | 対策 |
 |------|------|------|
@@ -119,7 +119,7 @@ using (FileStream fos = File.OpenWrite(dataDir + "eps_out.png"))
 | 出力ファイルが作成されない | `dataDir` パスが間違っている、または書き込み権限がない | ディレクトリが存在するか確認し、アプリケーションに書き込み権限があることを確認 |
 | 複数ページが保存されない | 最初のページだけを書き出している | `imagesBytes` をループし、各配列を別々の PNG ファイルとして書き出す |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: CI/CD パイプラインでメーターライセンスを使用できますか？**  
 A: はい。キーを環境変数などで安全に保管し、ビルドプロセス中に `SetMeteredKey` を呼び出すことができます。
@@ -136,37 +136,15 @@ A: Aspose.Page は大容量ファイルを処理できますが、画像解像�
 **Q: プログラムから EPS ファイルのページ数を取得する方法は？**  
 A: `PsDocument` をロードした後、`document.PagesCount` を使用します。
 
-## FAQ's
-
-### Q1: Aspose.Page for .NET のメーターライセンスはどうやって取得しますか？
-
-A1: 有効なライセンスは [purchase.aspose.com](https://purchase.aspose.com/buy) から取得してください。
-
-### Q2: Aspose.Page for .NET のドキュメントはどこにありますか？
-
-A2: 詳細なドキュメントは [Aspose.Page .NET](https://reference.aspose.com/page/net/) を参照してください。
-
-### Q3: Aspose.Page のフォーラムやサポートはありますか？
-
-A3: はい、[forum](https://forum.aspose.com/c/page/39) でコミュニティと交流し、支援を受けられます。
-
-### Q4: 購入前に Aspose.Page for .NET を試すことはできますか？
-
-A4: もちろんです！無料トライアルは [here](https://releases.aspose.com/) からアクセスできます。
-
-### Q5: Aspose.Page for .NET の一時ライセンスはどう取得しますか？
-
-A5: 一時ライセンスは [temporary license/](https://purchase.aspose.com/temporary-license/) から取得できます。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Last Updated:** 2026-01-28  
 **Tested With:** Aspose.Page 24.12 for .NET  
 **Author:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

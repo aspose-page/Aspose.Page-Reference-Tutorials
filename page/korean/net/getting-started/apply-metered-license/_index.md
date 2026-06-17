@@ -137,37 +137,15 @@ A: Aspose.Page는 대용량 파일을 처리하지만 이미지 해상도에 따
 **Q: 프로그램matically EPS 파일의 페이지 수를 어떻게 가져올 수 있나요?**  
 A: `PsDocument`를 로드한 후 `document.PagesCount`를 사용하십시오.
 
-## FAQ
-
-### Q1: Aspose.Page for .NET 메터드 라이선스를 어떻게 얻나요?
-
-A1: 유효한 라이선스를 얻으려면 [purchase.aspose.com](https://purchase.aspose.com/buy)를 방문하십시오.
-
-### Q2: Aspose.Page for .NET 문서는 어디서 찾을 수 있나요?
-
-A2: 포괄적인 문서는 [Aspose.Page .NET](https://reference.aspose.com/page/net/)을 참고하십시오.
-
-### Q3: Aspose.Page 토론 및 지원을 위한 포럼이 있나요?
-
-A3: 예, 커뮤니티와 소통하고 도움을 받으려면 [forum](https://forum.aspose.com/c/page/39)을 방문하십시오.
-
-### Q4: 구매 전에 Aspose.Page for .NET을 체험할 수 있나요?
-
-A4: 물론입니다! 무료 체험은 [here](https://releases.aspose.com/)에서 이용하십시오.
-
-### Q5: Aspose.Page for .NET 임시 라이선스를 어떻게 얻나요?
-
-A5: 임시 라이선스는 [temporary license/](https://purchase.aspose.com/temporary-license/)를 방문하여 얻을 수 있습니다.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **마지막 업데이트:** 2026-01-28  
 **테스트 환경:** Aspose.Page 24.12 for .NET  
 **작성자:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

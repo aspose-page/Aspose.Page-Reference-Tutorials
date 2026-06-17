@@ -136,37 +136,15 @@ A: Aspose.Page 能處理大型檔案，但記憶體使用量會隨圖像解析�
 **Q: 如何以程式方式取得 EPS 檔案的頁數？**  
 A: 載入 `PsDocument` 後，可使用 `document.PagesCount` 取得頁數。
 
-## 常見問答集
-
-### Q1：如何取得 Aspose.Page for .NET 的計量授權？
-
-A1：請前往 [purchase.aspose.com](https://purchase.aspose.com/buy) 取得有效授權。
-
-### Q2：在哪裡可以找到 Aspose.Page for .NET 的文件說明？
-
-A2：請參考 [Aspose.Page .NET](https://reference.aspose.com/page/net/) 取得完整文件。
-
-### Q3：是否有 Aspose.Page 的討論論壇與支援渠道？
-
-A3：有，請造訪 [forum](https://forum.aspose.com/c/page/39) 與社群互動並尋求協助。
-
-### Q4：在購買前我可以先試用 Aspose.Page for .NET 嗎？
-
-A4：當然可以！請前往 [here](https://releases.aspose.com/) 下載免費試用版。
-
-### Q5：如何取得 Aspose.Page for .NET 的臨時授權？
-
-A5：請前往 [temporary license/](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **最後更新：** 2026-01-28  
 **測試環境：** Aspose.Page 24.12 for .NET  
 **作者：** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

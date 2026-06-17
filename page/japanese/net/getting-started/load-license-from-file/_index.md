@@ -123,13 +123,6 @@ A5: コミュニティ サポートは **[Aspose.Page フォーラム](https://f
 
 これで C# で Aspose.Page の **ライセンス ファイルのロード方法** をマスターしました。アプリケーションの起動時にライセンスを設定すれば、API のフルパワーを解放でき、一般的なランタイム問題も回避できます。ライセンスの壁が取り除かれた今、PDF 作成、XPS レンダリング、先進的なタイポグラフィなど、他の Aspose.Page 機能もぜひ探求してください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2026-01-28  
@@ -137,3 +130,10 @@ A5: コミュニティ サポートは **[Aspose.Page フォーラム](https://f
 **作者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

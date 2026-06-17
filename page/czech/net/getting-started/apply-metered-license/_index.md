@@ -137,37 +137,15 @@ A: Aspose.Page zvládá velké soubory, ale spotřeba paměti roste s rozlišen�
 **Q: Jak mohu programově zjistit počet stránek v souboru EPS?**  
 A: Použijte `document.PagesCount` po načtení `PsDocument`.
 
-## FAQ's
-
-### Q1: Jak získat měřenou licenci pro Aspose.Page pro .NET?
-
-A1: Navštivte [purchase.aspose.com](https://purchase.aspose.com/buy) a získejte platnou licenci.
-
-### Q2: Kde najdu dokumentaci pro Aspose.Page pro .NET?
-
-A2: Podívejte se na [Aspose.Page .NET](https://reference.aspose.com/page/net/) pro komplexní dokumentaci.
-
-### Q3: Existuje fórum pro diskuse a podporu Aspose.Page?
-
-A3: Ano, navštivte [forum](https://forum.aspose.com/c/page/39) a zapojte se do komunity a požádejte o pomoc.
-
-### Q4: Můžu vyzkoušet Aspose.Page pro .NET před zakoupením?
-
-A4: Rozhodně! Získejte bezplatnou zkušební verzi na [zde](https://releases.aspose.com/).
-
-### Q5: Jak získat dočasnou licenci pro Aspose.Page pro .NET?
-
-A5: Navštivte [temporary license/](https://purchase.aspose.com/temporary-license/) a získejte dočasnou licenci.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Poslední aktualizace:** 2026-01-28  
 **Testováno s:** Aspose.Page 24.12 for .NET  
 **Autor:** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

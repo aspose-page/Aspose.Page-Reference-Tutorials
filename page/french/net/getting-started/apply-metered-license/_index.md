@@ -162,15 +162,15 @@ R4 : Absolument ! Accédez à l'essai gratuit [ici](https://releases.aspose.
 
 R5 : Visitez [temporary license/](https://purchase.aspose.com/temporary-license/) pour obtenir une licence temporaire.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ---
 
 **Dernière mise à jour :** 2026-01-28  
 **Testé avec :** Aspose.Page 24.12 pour .NET  
 **Auteur :** Aspose  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

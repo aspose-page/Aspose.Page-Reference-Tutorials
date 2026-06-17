@@ -101,34 +101,27 @@ When `SetLicense` executes without throwing an exception, your application is no
 
 ### Q1: Where can I find the documentation for Aspose.Page for .NET?
 
-A1: You can find the detailed documentation **[here](https://reference.aspose.com/page/net/)**.
+A1: You can find the detailed documentation **[here](https://reference.aspose.com/page/net/) **.
 
 ### Q2: How do I download the Aspose.Page for .NET library?
 
-A2: You can download the library from the release page **[here](https://releases.aspose.com/page/net/)**.
+A2: You can download the library from the release page **[here](https://releases.aspose.com/page/net/) **.
 
 ### Q3: Where can I purchase a license for Aspose.Page for .NET?
 
-A3: You can purchase a license **[here](https://purchase.aspose.com/buy)**.
+A3: You can purchase a license **[here](https://purchase.aspose.com/buy) **.
 
 ### Q4: Is there a free trial available?
 
-A4: Yes, you can explore a free trial **[here](https://releases.aspose.com/)**.
+A4: Yes, you can explore a free trial **[here](https://releases.aspose.com/) **.
 
 ### Q5: Need assistance or have questions? 
 
-A5: Visit the **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)** for community support.
+A5: Visit the **[Aspose.Page Forum](https://forum.aspose.com/c/page/39) ** for community support.
 
 ## Conclusion
 
 You’ve now mastered **how to load license** files for Aspose.Page in C#. By setting the license early in your application, you unlock the full power of the API and avoid common runtime issues. Feel free to explore other Aspose.Page capabilities such as PDF creation, XPS rendering, and advanced typography—now that the license barrier is out of the way.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 ---
 
@@ -137,3 +130,10 @@ You’ve now mastered **how to load license** files for Aspose.Page in C#. By se
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
