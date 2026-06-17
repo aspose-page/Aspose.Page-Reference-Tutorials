@@ -14,34 +14,34 @@ weight: 12
 
 # 使用 Aspose.Page for .NET 為 PostScript (PS) 新增矩形
 
-## Introduction
+## 簡介
 
 如果您想 **create postscript document .net**，Aspose.Page 提供了一個強大的解決方案來處理 PostScript 檔案。於本教學中，我們將指導您如何使用 Aspose.Page for .NET 在 PostScript 文件中新增矩形，為更豐富的圖形生成奠定堅實基礎。
 
-## Quick Answers
+## 快速解答
 - **我需要哪個函式庫？** Aspose.Page for .NET.
 - **我可以從頭開始建立 PostScript 文件嗎？** 可以 – API 允許您以程式方式建立 PS 檔案。
 - **支援哪些 .NET 版本？** .NET Framework 4.5+、.NET Core 3.1+、.NET 5/6/7.
 - **開發時需要授權嗎？** 免費試用可用於測試；正式環境需購買授權。
 - **實作大約需要多久？** 基本圖形通常在 10 分鐘內完成。
 
-## What is creating a postscript document .net?
+## 什麼是 .NET PostScript 文件？
 在 .NET 中建立 PostScript 文件是指使用 Aspose.Page API 以程式方式產生描述頁面內容（文字、圖形或形狀）的 .ps 檔案。此方式非常適合伺服器端圖形產生、自動化報告產生，或任何需要精確控制輸出格式的情境。
 
-## Why use Aspose.Page for .NET?
+## 為什麼選擇 Aspose.Page for .NET？
 - **完整的圖形控制** – 繪製形狀、設定顏色、套用筆畫，無需處理低階 PS 語法。
 - **跨平台** – 可在 Windows、Linux、macOS 執行環境上運作。
 - **無外部相依性** – 函式庫在內部處理所有 PS 產生。
 - **豐富的文件與範例** – 快速上手。
 
-## Prerequisites
+## 前提條件
 
 - **Aspose.Page for .NET Library** – 從 [here](https://releases.aspose.com/page/net/) 下載並安裝。
 - **開發環境** – Visual Studio、VS Code 或任何相容 .NET 的 IDE。
 
-## Import Namespaces
+## 匯入命名空間
 
-Before you start coding, import the namespaces that expose the required classes:
+在開始編寫程式碼之前，請先匯入公開所需類別的命名空間：
 
 ```csharp
 using Aspose.Page.EPS;
@@ -51,9 +51,9 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Now let’s break the example into clear, numbered steps.
+现在让我们把示例分解成清晰的步骤。
 
-## Step 1: Set up Your Document Directory
+## 步骤 1：设置文档目录
 
 ```csharp
 // ExStart:1
@@ -63,7 +63,7 @@ string dataDir = "Your Document Directory";
 
 將 `"Your Document Directory"` 替換為您希望儲存產生的 PS 檔案的資料夾路徑。
 
-## Step 2: Create Output Stream for the PostScript Document
+## 步骤 2：创建 PostScript 文档的输出流
 
 ```csharp
 //Create output stream for PostScript document
@@ -72,7 +72,7 @@ using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", Fi
 
 此串流指向 **AddRectangle_outPS.ps**。您可以自行重新命名檔案或依需求變更儲存位置。
 
-## Step 3: Set Save Options and Create the PS Document
+## 步骤 3：设置保存选项并创建 PS 文档
 
 ```csharp
 //Create save options with A4 size
@@ -84,7 +84,7 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 
 在此我們告訴 Aspose.Page 使用 A4 頁面尺寸，並建立單頁文件。
 
-## Step 4: Add a Filled Rectangle
+## 步骤 4：添加实心矩形
 
 ```csharp
 //Create graphics path from the first rectangle
@@ -100,7 +100,7 @@ document.Fill(path);
 
 我們在 (250, 100) 定義一個寬 150、高 100 的矩形，設定橙色筆刷，並填滿形狀。
 
-## Step 5: Add an Outlined Rectangle
+## 步骤 5：添加轮廓矩形
 
 ```csharp
 //Create graphics path from the second rectangle
@@ -116,7 +116,7 @@ document.Draw(path);
 
 第二個矩形位於頁面較低處，這次使用紅色 3 點寬的筆畫。
 
-## Step 6: Close the Page and Save the Document
+## 步骤 6：关闭页面并保存文档
 
 ```csharp
 //Close current page
@@ -128,13 +128,13 @@ document.Save();
 
 關閉頁面即完成繪圖，`Save()` 會將 PS 檔寫入磁碟。
 
-## Common Issues & Tips
+## 常見問題及建議
 
 - **檔案路徑不正確** – 確認 `dataDir` 以路徑分隔符 (`\\` 或 `/`) 結尾，或使用 `Path.Combine`。
 - **缺少授權** – 在正式環境中，於建立文件前套用 Aspose 授權，以避免評估水印。
 - **顏色可見性** – 若矩形顯示為空白，請確認筆刷或筆的顏色與頁面背景形成對比。
 
-## Frequently Asked Questions
+## 常見問題解答
 
 **Q:** 我可以自訂矩形的顏色嗎？  
 **A:** 當然可以。將 `SolidBrush` 與 `Pen` 建構式中的 `Color.Orange` 或 `Color.Red` 改成您想要的任何 `System.Drawing.Color` 即可。

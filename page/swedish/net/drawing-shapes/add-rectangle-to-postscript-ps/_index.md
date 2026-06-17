@@ -15,33 +15,33 @@ weight: 12
 
 # Lägg till rektangel i PostScript (PS) med Aspose.Page för .NET
 
-## Introduction
+## Introduktion
 
-Om du vill **create postscript document .net**, så erbjuder Aspose.Page en kraftfull lösning för att hantera PostScript‑filer. I den här handledningen går vi igenom hur du lägger till rektanglar i ett PostScript‑dokument med Aspose.Page för .NET, vilket ger dig en solid grund för rikare grafikgenerering.
+Om du vill **skapa postscript-dokument .net**, så erbjuder Aspose.Page en kraftfull lösning för att hantera PostScript‑filer. I den här handledningen går vi igenom hur du lägger till rektanglar i ett PostScript‑dokument med Aspose.Page för .NET, vilket ger dig en solid grund för rika grafikgenerering.
 
-## Quick Answers
-- **What library do I need?** Aspose.Page for .NET.
-- **Can I create a PostScript document from scratch?** Ja – API‑et låter dig bygga PS‑filer programatiskt.
-- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
-- **Do I need a license for development?** En gratis provversion fungerar för testning; en licens krävs för produktion.
-- **How long does the implementation take?** Vanligtvis under 10 minuter för grundläggande former.
+## Snabba svar
+- **Vilket bibliotek behöver jag?** Aspose.Page för .NET.
+- **Kan jag skapa ett PostScript-dokument från början?** Ja – API‑et låter dig bygga PS‑filer programatiskt.
+- **Vilka .NET-versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Behöver jag en licens för utveckling?** En gratis provversion fungerar för testning; en licens krävs för produktion.
+- **Hur lång tid tar implementeringen?** Vanligtvis under 10minuter för grundläggande former.
 
-## What is creating a postscript document .net?
+## Vad är att skapa ett postscript-dokument .net?
 
-Att skapa ett PostScript‑dokument i .NET innebär att programatiskt generera en .ps‑fil som beskriver sidinnehåll—text, grafik eller former—med hjälp av Aspose.Page‑API:t. Detta tillvägagångssätt är idealiskt för server‑sidig grafikgenerering, automatiserad rapportskapning eller någon situation där du behöver exakt kontroll över utdataformatet.
+Att skapa ett PostScript‑dokument i .NET innebär att programatiskt generera en.ps‑fil som beskriver sidinnehåll—text, grafik eller tidigare—med hjälp av Aspose.Page‑API:t. Detta tillvägagångssätt är idealiskt för server-sidig grafikgenerering, automatiserad rapportskapning eller någon situation där du behöver exakt kontroll över utdataformatet.
 
-## Why use Aspose.Page for .NET?
-- **Full control over graphics** – Full kontroll över grafik – rita former, sätt färger och applicera linjer utan att behöva hantera låg‑nivå PS‑syntax.
-- **Cross‑platform** – Plattformsoberoende – fungerar på Windows, Linux och macOS‑miljöer.
-- **No external dependencies** – Inga externa beroenden – biblioteket hanterar all PS‑generering internt.
-- **Rich documentation & examples** – Rik dokumentation & exempel – kom snabbt igång.
+## Varför använda Aspose.Page för .NET?
+- **Full kontroll över grafik** – Full kontroll över grafik – rita former, sätt färger och applicera linjer utan att behöva hantera låg‑nivå PS‑syntax.
+- **Cross-platform** – Plattformsoberoende – fungerar på Windows, Linux och macOS‑miljöer.
+- **Inga externa beroenden** – Inga externa beroenden – biblioteket hanterar all PS-generering internt.
+- **Rik dokumentation & exempel** – Rik dokumentation & exempel – kom snabbt igång.
 
-## Prerequisites
+## Förutsättningar
 
-- **Aspose.Page for .NET Library** – Aspose.Page för .NET‑biblioteket – ladda ner och installera från [here](https://releases.aspose.com/page/net/).
-- **Development Environment** – Utvecklingsmiljö – Visual Studio, VS Code eller någon .NET‑kompatibel IDE.
+- **Aspose.Page for .NET Library** – Aspose.Page för .NET‑biblioteket – ladda ner och installera från [här](https://releases.aspose.com/page/net/).
+- **Utvecklingsmiljö** – Utvecklingsmiljö – Visual Studio, VS Code eller någon .NET-kompatibel IDE.
 
-## Import Namespaces
+## Importera namnområden
 
 Innan du börjar koda, importera de namnrymder som exponerar de nödvändiga klasserna:
 
@@ -55,7 +55,7 @@ using System.IO;
 
 Låt oss nu dela upp exemplet i tydliga, numrerade steg.
 
-## Step 1: Set up Your Document Directory
+## Steg 1: Konfigurera din dokumentkatalog
 
 ```csharp
 // ExStart:1
@@ -65,7 +65,7 @@ string dataDir = "Your Document Directory";
 
 Byt ut `"Your Document Directory"` mot den mapp där du vill spara den resulterande PS‑filen.
 
-## Step 2: Create Output Stream for the PostScript Document
+## Steg 2: Skapa utdataström för PostScript-dokumentet
 
 ```csharp
 //Create output stream for PostScript document
@@ -74,7 +74,7 @@ using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", Fi
 
 Denna ström pekar på **AddRectangle_outPS.ps**. Du kan gärna byta namn på filen eller ändra platsen vid behov.
 
-## Step 3: Set Save Options and Create the PS Document
+## Steg 3: Ange sparalternativ och skapa PS-dokumentet
 
 ```csharp
 //Create save options with A4 size
@@ -86,7 +86,7 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 
 Här instruerar vi Aspose.Page att använda en A4‑sidstorlek och skapa ett enkelsidigt dokument.
 
-## Step 4: Add a Filled Rectangle
+## Steg 4: Lägg till en fylld rektangel
 
 ```csharp
 //Create graphics path from the first rectangle
@@ -102,7 +102,7 @@ document.Fill(path);
 
 Vi definierar en rektangel vid (250, 100) med bredd 150 och höjd 100, sätter en orange pensel och fyller formen.
 
-## Step 5: Add an Outlined Rectangle
+## Steg 5: Lägg till en konturerad rektangel
 
 ```csharp
 //Create graphics path from the second rectangle
@@ -118,7 +118,7 @@ document.Draw(path);
 
 En andra rektangel skapas längre ner på sidan, den här gången med en röd 3‑punkts linje.
 
-## Step 6: Close the Page and Save the Document
+## Steg 6: Stäng sidan och spara dokumentet
 
 ```csharp
 //Close current page
@@ -130,34 +130,34 @@ document.Save();
 
 När sidan stängs slutförs ritningen, och `Save()` skriver PS‑filen till disk.
 
-## Common Issues & Tips
+## Vanliga frågor och tips
 
-- **Incorrect file path** – Felaktig filsökväg – Se till att `dataDir` slutar med en sökvägsseparator (`\\` eller `/`) eller använd `Path.Combine`.
-- **Missing license** – Saknad licens – I en produktionsmiljö, applicera din Aspose‑licens innan du skapar dokumentet för att undvika utvärderingsvattenstämplar.
-- **Color visibility** – Färgens synlighet – Om rektangeln visas tom, kontrollera att pensel‑ eller linjefärgerna kontrasterar mot sidans bakgrund.
+- **Felaktig filsökväg** – Felaktig filsökväg – Se till att `dataDir` slutar med en sökvägsseparator (`\\` eller `/`) eller använd `Path.Combine`.
+- **Saknad licens** – Saknad licens – I en produktionsmiljö, applicera din Aspose‑licens innan du skapar dokumentet för att undvika utvärderingsvattenstämplar.
+- **Color visibility** – Färgens synlighet – Om rektangeln visa tom, kontrollera att pensel‑ eller linjefärgerna kontrasterar mot sidans bakgrund.
 
-## Frequently Asked Questions
+## Vanliga frågor
 
-**Q:** Kan jag anpassa färgerna på rektanglarna?  
-**A:** Absolut. Ändra `Color.Orange` eller `Color.Red` i `SolidBrush`‑ och `Pen`‑konstruktörerna till vilken `System.Drawing.Color` du föredrar.
+**F:** Kan jag anpassa färgerna på rektanglarna?
+**S:** Absolut. Ändra `Color.Orange` eller `Color.Red` i `SolidBrush`‑ och `Pen`‑konstruktörerna till vilken `System.Drawing.Color` du föredrar.
 
-**Q:** Är Aspose.Page kompatibel med andra dokumentformat?  
-**A:** Ja. Förutom PostScript stödjer Aspose.Page även generering av XPS och EPS.
+**F:** Är Aspose.Page kompatibel med andra dokumentformat?
+**A:** Ja. Förutom PostScript-stödjer Aspose.Page även generering av XPS och EPS.
 
-**Q:** Hur kan jag lägga till text i samma dokument?  
+**F:** Hur kan jag lägga till text i samma dokument?
 **A:** Använd `TextFragment`‑klassen för att placera text på önskade koordinater, och anropa sedan `document.Draw(textFragment)`.
 
-**Q:** Var kan jag hitta fler exempel och fullständig API‑referens?  
-**A:** Utforska dokumentationen [here](https://reference.aspose.com/page/net/) och gå med i communityn på [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+**F:** Kan jag hitta fler exempel och fullständiga API‑referens?
+**A:** Utforska dokumentationen [här](https://reference.aspose.com/page/net/) och gå med i communityn på [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
-**Q:** Kan jag prova Aspose.Page innan jag köper?  
-**A:** Ja, ladda ner en gratis provversion [here](https://releases.aspose.com/). För förlängd utvärdering, överväg en [temporary license](https://purchase.aspose.com/temporary-license/).
+**F:** Kan jag prova Aspose.Page innan jag köper?
+**S:** Ja, ladda ner en gratis provversion [här](https://releases.aspose.com/). För förlängd utvärdering, överväg en [tillfällig licens](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Senast uppdaterad:** 2026-01-18  
-**Testat med:** Aspose.Page 24.12 for .NET  
-**Författare:** Aspose  
+**Senast uppdaterad:** 2026-01-18
+**Testat med:** Aspose.Page 24.12 för .NET
+**Författare:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -16,24 +16,24 @@ weight: 31
 
 # Aspose.Page .NET – Dibujar Formas
 
-## Introducción
+##Introducción
 
-Aspose.Page .NET facilita a los desarrolladores dibujar formas en aplicaciones .NET, ya sea que trabajes con archivos PostScript (PS) o XPS. En esta guía descubrirás cómo agregar círculos, elipses, rectángulos y más, mientras aprendes **cómo agregar formas .NET**. Exploremos las posibilidades y veamos por qué dibujar formas con Aspose.Page .NET es tanto poderoso como intuitivo.
+Aspose.Page .NET facilita a los desarrolladores dibujar formas en aplicaciones .NET, ya sea que trabajen con archivos PostScript (PS) o XPS. En esta guía descubrirás cómo agregar círculos, elipses, rectángulos y más, mientras aprendes **cómo agregar formas .NET**. Exploremos las posibilidades y veamos por qué dibujar formas con Aspose.Page .NET es tanto poderoso como intuitivo.
 
-## Quick Answers
-- **¿Qué hace Aspose.Page .NET?** Permite la creación y manipulación programática de documentos PS y XPS, incluyendo el dibujo de formas geométricas.  
-- **¿Qué formas puedo dibujar?** Círculos, elipses, rectángulos y rutas personalizadas.  
-- **¿Necesito una licencia?** Hay una prueba gratuita disponible; se requiere una licencia comercial para uso en producción.  
-- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+## Respuestas rápidas
+- **¿Qué hace Aspose.Page .NET?** Permite la creación y manipulación programática de documentos PS y XPS, incluyendo el dibujo de formas geométricas.
+- **¿Qué formas puedo dibujar?** Círculos, elipses, rectángulos y rutas personalizadas.
+- **¿Necesito una licencia?** Hay una prueba gratuita disponible; se requiere una licencia comercial para uso en producción.
+- **¿Qué versiones de .NET son compatibles?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 - **¿Hay código de ejemplo?** Sí – cada tutorial enlazado proporciona ejemplos listos para ejecutar.
 
 ## ¿Qué es Aspose.Page .NET?
 Aspose.Page .NET es una biblioteca .NET que te permite generar y editar documentos PostScript y XPS sin necesidad de herramientas de Adobe. Ofrece una API completa para dibujar formas, aplicar colores, degradados y gestionar el diseño de página, todo desde código limpio y administrado.
 
 ## ¿Por qué dibujar formas .NET con Aspose.Page?
-- **Compatibilidad multiplataforma:** Escribe una vez, exporta a PS o XPS.  
-- **Alta fidelidad:** Los gráficos vectoriales mantienen la calidad a cualquier escala.  
-- **Sin dependencias externas:** Puro .NET, no se requieren bibliotecas nativas.  
+- **Compatibilidad multiplataforma:** Escribe una vez, exporta a PS o XPS.
+- **Alta fidelidad:** Los gráficos gráficos mantienen la calidad a cualquier escala.
+- **Sin dependencias externas:** Puro .NET, no se requieren bibliotecas nativas.
 - **API amigable para desarrolladores:** Métodos fluidos y nombres claros facilitan **dibujar formas .NET** en aplicaciones.
 
 ## Agregar Círculo Elipse a PostScript (PS) con Aspose.Page

@@ -1,5 +1,5 @@
 ---
-title: How to Use Aspose: Add Circle Ellipse to XPS Document
+title: How to Use Aspose Add Circle Ellipse to XPS Document
 linktitle: Add Circle Ellipse to XPS Document
 second_title: Aspose.Page .NET API
 description: Learn how to use Aspose to add a circle ellipse with radial gradients, adjust stroke thickness, and save XPS document using Aspose.Page for .NET.

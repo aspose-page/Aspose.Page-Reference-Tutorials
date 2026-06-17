@@ -15,34 +15,34 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Téglalap hozzáadása a PostScript (PS) fájlhoz az Aspose.Page for .NET segítségével
+# Téglalap a PostScript (PS) fájlhoz az Aspose.Page for .NET segítségével
 
-## Introduction
+## Bevezetés
 
-Ha **postscript dokumentumot .net** szeretnél létrehozni, az Aspose.Page erőteljes megoldást kínál a PostScript fájlok kezelésére. Ebben az útmutatóban végigvezetünk a téglalapok hozzáadásán egy PostScript dokumentumhoz az Aspose.Page for .NET használatával, így szilárd alapot adva a gazdagabb grafika generálásához.
+Ha **postscript dokumentumot .net** szeretnél létrehozni, az Aspose.Page legjobb megoldást kínálja a PostScript fájlok kezelésére. Ebben az útmutatóban végigvezetünk a téglalapok hozzáadásán egy PostScript dokumentumhoz az Aspose.Page for .NET segítségével, így szilárd alapot adva a gazdagabb grafika generálásához.
 
-## Quick Answers
+## Gyors válaszok
 - **Milyen könyvtárra van szükségem?** Aspose.Page for .NET.
 - **Létrehozhatok-e PostScript dokumentumot a semmiből?** Igen – az API lehetővé teszi a PS fájlok programozott építését.
 - **Mely .NET verziók támogatottak?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
-- **Szükségem van licencre a fejlesztéshez?** A ingyenes próba verzió teszteléshez megfelelő; licenc szükséges a termeléshez.
-- **Mennyi időt vesz igénybe a megvalósítás?** Általában 10 perc alatt a alapvető alakzatokhoz.
+- **Szükségem van licencre a fejlesztéshez?** Az ingyenes próba verzió teszteléshez megfelelő; licenc szükséges a termeléshez.
+- **Mennyi időt vesz igénybe a megvalósítást?** 10perc alatt a alapvető alakzatokhoz.
 
-## What is creating a postscript document .net?
-A PostScript dokumentum létrehozása .NET-ben azt jelenti, hogy programozottan generálunk egy .ps fájlt, amely leírja az oldal tartalmát – szöveget, grafikát vagy alakzatokat – az Aspose.Page API használatával. Ez a megközelítés ideális szerver‑oldali grafika generáláshoz, automatizált jelentéskészítéshez, vagy bármely olyan esethez, ahol pontos kontrollra van szükség a kimeneti formátum felett.
+## Mit jelent egy .net postscript dokumentum létrehozása?
+A PostScript dokumentum létrehozása .NET-ben azt jelenti, hogy programan generálunk egy .ps fájlt, amely leírja az oldal tartalmát – szöveget, grafikát vagy alakzatokat – az Aspose.Page API segítségével. Ez a megközelítés ideális szerver-oldali grafika generáláshoz, automatizált jelentéskészítéshez, vagy bármilyen olyan esethez, ahol pontos kontrollra van szükség kimeneti formátum felett.
 
-## Why use Aspose.Page for .NET?
+## Miért használja az Aspose.Page-t .NET-hez?
 - **Teljes kontroll a grafika felett** – alakzatok rajzolása, színek beállítása és vonalak alkalmazása alacsony szintű PS szintaxis nélkül.
 - **Keresztplatformos** – működik Windows, Linux és macOS környezetekben.
 - **Nincsenek külső függőségek** – a könyvtár belsőleg kezeli a PS generálást.
 - **Gazdag dokumentáció és példák** – gyorsan belevághatsz.
 
-## Prerequisites
+## Előfeltételek
 
-- **Aspose.Page for .NET Library** – töltsd le és telepítsd innen: [here](https://releases.aspose.com/page/net/).
+- **Aspose.Page for .NET Library** – töltsd le és telepítsd innen: [itt](https://releases.aspose.com/page/net/).
 - **Fejlesztői környezet** – Visual Studio, VS Code vagy bármely .NET‑kompatibilis IDE.
 
-## Import Namespaces
+## Névterek importálása
 
 Mielőtt elkezdenéd a kódolást, importáld a szükséges osztályokat tartalmazó névtereket:
 

@@ -18,23 +18,23 @@ weight: 31
 
 ## Introduktion
 
-Aspose.Page .NET gör det enkelt för utvecklare att rita former i .NET‑applikationer, oavsett om du arbetar med PostScript (PS) eller XPS‑filer. I den här guiden kommer du att upptäcka hur du lägger till cirklar, ellipser, rektanglar och mer, samtidigt som du lär dig **hur man lägger till former .NET** stil. Låt oss utforska möjligheterna och se varför ritning av former med Aspose.Page .NET är både kraftfullt och intuitivt.
+Aspose.Page .NET gör det enkelt för att utvecklas med rita tidigare i .NET-applikationer, oavsett om du arbetar med PostScript (PS) eller XPS-filer. I den här guiden kommer du att upptäcka hur du lägger till cirklar, ellipser, rektanglar och mer, samtidigt som du lär dig **hur man lägger till former .NET** stil. Låt oss utforska möjligheterna och varför ritning av tidigare med Aspose.Page .NET är både kraftfullt och intuitivt.
 
-## Quick Answers
-- **Vad gör Aspose.Page .NET?** Den möjliggör programmatisk skapande och manipulering av PS‑ och XPS‑dokument, inklusive ritning av geometriska former.  
-- **Vilka former kan jag rita?** Cirklar, ellipser, rektanglar och anpassade banor.  
-- **Behöver jag en licens?** En gratis provversion finns tillgänglig; en kommersiell licens krävs för produktionsanvändning.  
-- **Vilka .NET‑versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+## Snabba svar
+- **Vad gör Aspose.Page .NET?** Den kan programmera skapande och manipulera av PS‑ ​​och XPS‑dokument, inklusive ritning av geometriska former.
+- **Vilka former kan jag rita?** Cirklar, ellipser, rektanglar och anpassade banor.
+- **Behöver jag en licens?** En gratis provversion finns tillgänglig; en kommersiell licens krävs för produktionsanvändning.
+- **Vilka .NET-versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 - **Finns det exempel på kod?** Ja – varje länkad handledning innehåller färdiga exempel som kan köras.
 
-## What is Aspose.Page .NET?
+## Vad är Aspose.Page .NET?
 Aspose.Page .NET är ett .NET‑bibliotek som låter dig generera och redigera PostScript‑ och XPS‑dokument utan att behöva Adobe‑verktyg. Det erbjuder ett rikt API för att rita former, applicera färger, gradienter och hantera sidlayout – allt från ren, hanterad kod.
 
-## Why draw shapes .NET with Aspose.Page?
-- **Stöd för flera format:** Skriv en gång, exportera till PS eller XPS.  
-- **Hög noggrannhet:** Vektorgrafik behåller kvaliteten i alla skalor.  
-- **Inga externa beroenden:** Ren .NET, inga inhemska bibliotek behövs.  
-- **Utvecklarvänligt API:** Flytande metoder och tydliga namn gör det enkelt att **rita former .NET** applikationer.
+## Varför rita former .NET med Aspose.Page?
+- **Stöd för flera format:** Skriv en gång, exportera till PS eller XPS.
+- **Hög noggrannhet:** Vektorgrafik behåller kvalitet i alla skalor.
+- **Inga externa beroenden:** Ren .NET, inga inhemska bibliotek behövs.
+- **Utvecklarvänligt API:** Flytande metoder och tydligt namn gör det enkelt att **rita former .NET** applikationer.
 
 ## Lägg till cirkel/ellips i PostScript (PS) med Aspose.Page
 Utnyttja kraften i Aspose.Page för .NET när vi guidar dig genom att enkelt lägga till cirkel‑ellipser i dina PostScript (PS)-dokument. Höj dina PS‑filer med sömlös integration och visuellt imponerande effekter. Följ vår handledning [här](./add-circle-ellipse-to-postscript-ps/) för en smidig resa.
