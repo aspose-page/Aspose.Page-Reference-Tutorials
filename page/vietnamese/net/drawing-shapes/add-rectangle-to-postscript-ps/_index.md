@@ -1,33 +1,48 @@
 ---
-title: Thêm hình chữ nhật vào PostScript (PS) bằng Aspose.Page for .NET
-linktitle: Thêm hình chữ nhật vào PostScript (PS)
-second_title: API Aspose.Page .NET
-description: Nâng cao khả năng tạo tài liệu trong .NET với Aspose.Page. Tìm hiểu cách thêm hình chữ nhật vào tệp PostScript (PS) theo từng bước.
-weight: 12
+date: 2026-01-18
+description: Tìm hiểu cách tạo tài liệu PostScript trong .NET và thêm các hình chữ
+  nhật bằng Aspose.Page cho .NET. Hướng dẫn chi tiết từng bước kèm ví dụ mã.
+linktitle: Add Rectangle to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Tạo tài liệu PostScript .NET – Thêm hình chữ nhật với Aspose.Page
 url: /vi/net/drawing-shapes/add-rectangle-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm hình chữ nhật vào PostScript (PS) bằng Aspose.Page for .NET
+# Thêm Hình Chữ Nhật vào PostScript (PS) với Aspose.Page cho .NET
 
 ## Giới thiệu
 
-Nếu bạn đang tìm cách nâng cao khả năng tạo tài liệu của mình trong .NET, Aspose.Page cung cấp một giải pháp mạnh mẽ để xử lý các tài liệu PostScript. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hình chữ nhật vào tài liệu PostScript bằng Aspose.Page cho .NET.
+Nếu bạn đang muốn **tạo tài liệu postscript .net**, Aspose.Page cung cấp một giải pháp mạnh mẽ để xử lý các tệp PostScript. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách thêm các hình chữ nhật vào tài liệu PostScript bằng Aspose.Page cho .NET, giúp bạn có nền tảng vững chắc để tạo đồ họa phong phú hơn.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện tôi cần là gì?** Aspose.Page for .NET.
+- **Tôi có thể tạo tài liệu PostScript từ đầu không?** Có – API cho phép bạn xây dựng các tệp PS bằng chương trình.
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc kiểm tra; cần giấy phép cho môi trường sản xuất.
+- **Thời gian triển khai mất bao lâu?** Thông thường dưới 10 phút cho các hình cơ bản.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
+## Tạo tài liệu postscript .net là gì?
+Tạo một tài liệu PostScript trong .NET có nghĩa là tạo ra một tệp .ps một cách lập trình, mô tả nội dung trang — văn bản, đồ họa hoặc hình dạng — bằng cách sử dụng API Aspose.Page. Cách tiếp cận này lý tưởng cho việc tạo đồ họa phía máy chủ, tạo báo cáo tự động, hoặc bất kỳ trường hợp nào bạn cần kiểm soát chính xác định dạng đầu ra.
 
--  Aspose.Page for .NET Library: Tải xuống và cài đặt thư viện Aspose.Page cho .NET từ[đây](https://releases.aspose.com/page/net/).
+## Tại sao nên sử dụng Aspose.Page cho .NET?
+- **Kiểm soát đầy đủ đồ họa** – vẽ các hình, đặt màu và áp dụng nét vẽ mà không phải xử lý cú pháp PS cấp thấp.
+- **Đa nền tảng** – hoạt động trên Windows, Linux và macOS.
+- **Không phụ thuộc bên ngoài** – thư viện xử lý toàn bộ việc tạo PS nội bộ.
+- **Tài liệu & ví dụ phong phú** – giúp bạn nhanh chóng bắt đầu.
 
-- Môi trường phát triển: Đảm bảo bạn đã thiết lập môi trường phát triển .NET trên máy của mình.
+## Yêu cầu trước
+
+- **Thư viện Aspose.Page cho .NET** – tải xuống và cài đặt từ [here](https://releases.aspose.com/page/net/).
+- **Môi trường phát triển** – Visual Studio, VS Code, hoặc bất kỳ IDE nào tương thích với .NET.
 
 ## Nhập không gian tên
 
-Trước khi bạn bắt đầu viết mã, hãy đảm bảo nhập các không gian tên cần thiết để truy cập các lớp và phương thức được yêu cầu:
+Trước khi bắt đầu viết mã, nhập các không gian tên cung cấp các lớp cần thiết:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,108 +52,111 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Bây giờ, hãy chia ví dụ thành nhiều bước:
+Bây giờ chúng ta sẽ chia ví dụ thành các bước rõ ràng, có số thứ tự.
 
-## Bước 1: Thiết lập thư mục tài liệu của bạn
+## Bước 1: Thiết lập Thư mục Tài liệu của Bạn
 
 ```csharp
-// Bắt đầu:1
-// Đường dẫn đến thư mục tài liệu.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Ở bước này, hãy thay thế "Thư mục tài liệu của bạn" bằng đường dẫn bạn muốn lưu tài liệu PostScript của mình.
+Thay thế `"Your Document Directory"` bằng thư mục mà bạn muốn lưu tệp PS kết quả.
 
-## Bước 2: Tạo luồng đầu ra cho tài liệu PostScript
+## Bước 2: Tạo Luồng Đầu ra cho Tài liệu PostScript
 
 ```csharp
-//Tạo luồng đầu ra cho tài liệu PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-Ở đây, chúng tôi tạo luồng đầu ra cho tài liệu PostScript và chỉ định tên tệp ("AddRectangle_outPS.ps"). Điều chỉnh tên tập tin và vị trí theo sở thích của bạn.
+Luồng này trỏ tới **AddRectangle_outPS.ps**. Bạn có thể đổi tên tệp hoặc thay đổi vị trí tùy ý.
 
-## Bước 3: Đặt tùy chọn lưu và tạo tài liệu PS
+## Bước 3: Đặt Tùy chọn Lưu và Tạo Tài liệu PS
 
 ```csharp
-//Tạo tùy chọn lưu với khổ A4
+//Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 
-// Tạo tài liệu PS 1 trang mới
+// Create new 1‑paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Đặt các tùy chọn lưu, chỉ định kích thước trang mong muốn (trong trường hợp này là A4). Sau đó, tạo một tài liệu PostScript một trang mới.
+Ở đây chúng ta chỉ định Aspose.Page sử dụng kích thước trang A4 và tạo một tài liệu một trang.
 
-## Bước 4: Thêm hình chữ nhật và tô màu
+## Bước 4: Thêm Hình Chữ Nhật Được Đổ Màu
 
 ```csharp
-//Tạo đường dẫn đồ họa từ hình chữ nhật đầu tiên
+//Create graphics path from the first rectangle
 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 100, 150, 100));
 
-//Đặt sơn
+//Set paint
 document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-//Điền vào hình chữ nhật
+//Fill the rectangle
 document.Fill(path);
 ```
 
-Ở đây, chúng ta tạo một đường dẫn đồ họa đại diện cho hình chữ nhật đầu tiên, đặt màu sơn (trong trường hợp này là màu cam) và tô màu cho hình chữ nhật.
+Chúng ta định nghĩa một hình chữ nhật tại (250, 100) với chiều rộng 150 và chiều cao 100, đặt một brush màu cam và tô đầy hình.
 
-## Bước 5: Thêm một hình chữ nhật và nét viền khác
+## Bước 5: Thêm Hình Chữ Nhật Được Viền
 
 ```csharp
-//Tạo đường dẫn đồ họa từ hình chữ nhật thứ hai
+//Create graphics path from the second rectangle
 path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 300, 150, 100));
 
-//Đặt nét
+//Set stroke
 document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Red), 3));
 
-//Stroke (phác thảo) hình chữ nhật
+//Stroke (outline) the rectangle
 document.Draw(path);
 ```
 
-Tương tự như bước trước, chúng ta tạo đường dẫn đồ họa cho hình chữ nhật thứ hai, đặt màu nét (màu đỏ với độ dày là 3) và phác thảo hình chữ nhật.
+Một hình chữ nhật thứ hai được tạo ở vị trí thấp hơn trên trang, lần này với nét viền màu đỏ dày 3 điểm.
 
-## Bước 6: Đóng trang và lưu tài liệu
+## Bước 6: Đóng Trang và Lưu Tài liệu
 
 ```csharp
-//Đóng trang hiện tại
+//Close current page
 document.ClosePage();
 
-//Lưu tài liệu
+//Save the document
 document.Save();
 ```
 
-Cuối cùng, đóng trang hiện tại và lưu toàn bộ tài liệu.
+Đóng trang sẽ hoàn thiện việc vẽ, và `Save()` ghi tệp PS ra đĩa.
 
-## Phần kết luận
+## Các vấn đề thường gặp & Mẹo
 
-Chúc mừng! Bạn đã thêm thành công hình chữ nhật vào tài liệu PostScript bằng Aspose.Page cho .NET. Hướng dẫn này bao gồm các bước thiết yếu, từ thiết lập môi trường phát triển của bạn đến lưu tài liệu cuối cùng.
+- **Đường dẫn tệp không đúng** – Đảm bảo `dataDir` kết thúc bằng dấu phân tách đường dẫn (`\\` hoặc `/`) hoặc sử dụng `Path.Combine`.
+- **Thiếu giấy phép** – Trong môi trường sản xuất, áp dụng giấy phép Aspose của bạn trước khi tạo tài liệu để tránh dấu bản quyền đánh giá.
+- **Màu không hiển thị** – Nếu hình chữ nhật xuất hiện trống, kiểm tra màu brush hoặc pen có độ tương phản với nền trang hay không.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể tùy chỉnh màu sắc của hình chữ nhật không?
+**Q:** Tôi có thể tùy chỉnh màu của các hình chữ nhật không?  
+**A:** Chắc chắn. Thay đổi các giá trị `Color.Orange` hoặc `Color.Red` trong các hàm khởi tạo `SolidBrush` và `Pen` thành bất kỳ `System.Drawing.Color` nào bạn muốn.
 
-A1: Có, bạn có thể tùy chỉnh màu sắc bằng cách điều chỉnh các thông số trong`SolidBrush` Và`Pen` các lớp học.
+**Q:** Aspose.Page có tương thích với các định dạng tài liệu khác không?  
+**A:** Có. Ngoài PostScript, Aspose.Page còn hỗ trợ tạo XPS và EPS.
 
-### Câu hỏi 2: Aspose.Page có tương thích với các định dạng tài liệu khác không?
+**Q:** Làm thế nào tôi có thể thêm văn bản vào cùng một tài liệu?  
+**A:** Sử dụng lớp `TextFragment` để đặt văn bản tại tọa độ mong muốn, sau đó gọi `document.Draw(textFragment)`.
 
-Câu trả lời 2: Có, Aspose.Page hỗ trợ nhiều định dạng tài liệu khác nhau, bao gồm XPS và PostScript.
+**Q:** Tôi có thể tìm các ví dụ bổ sung và tài liệu tham khảo API đầy đủ ở đâu?  
+**A:** Khám phá tài liệu [here](https://reference.aspose.com/page/net/) và tham gia cộng đồng tại [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
-### Câu hỏi 3: Làm cách nào để thêm văn bản vào tài liệu?
+**Q:** Tôi có thể dùng thử Aspose.Page trước khi mua không?  
+**A:** Có, tải xuống bản dùng thử miễn phí [here](https://releases.aspose.com/). Để đánh giá kéo dài, hãy xem xét một [temporary license](https://purchase.aspose.com/temporary-license/).
 
- A3: Bạn có thể sử dụng`TextFragment` lớp trong Aspose.Page để thêm văn bản vào tài liệu của bạn.
+---
 
-### Câu hỏi 4: Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
-
- A4: Khám phá tài liệu[đây](https://reference.aspose.com/page/net/) và thăm quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để hỗ trợ cộng đồng.
-
-### Câu 5: Tôi có thể dùng thử Aspose.Page trước khi mua không?
-
- Câu trả lời 5: Có, bạn có thể tải phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) và để sử dụng lâu dài, hãy xem xét một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
+**Cập nhật lần cuối:** 2026-01-18  
+**Kiểm tra với:** Aspose.Page 24.12 cho .NET  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

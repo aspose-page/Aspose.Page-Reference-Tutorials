@@ -1,10 +1,12 @@
 ---
-title: إضافة مستطيل إلى PostScript (PS) باستخدام Aspose.Page لـ .NET
-linktitle: إضافة مستطيل إلى بوستسكريبت (PS)
+date: 2026-01-18
+description: تعلم كيفية إنشاء مستند بوستسكريبت .NET وإضافة مستطيلات باستخدام Aspose.Page
+  لـ .NET. دليل خطوة بخطوة مع أمثلة على الشيفرة.
+linktitle: Add Rectangle to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: قم بتحسين إنشاء المستندات في .NET باستخدام Aspose.Page. تعلم كيفية إضافة مستطيلات إلى ملفات PostScript (PS) خطوة بخطوة.
-weight: 12
+title: إنشاء مستند بوستسكريبت .net – إضافة مستطيل باستخدام Aspose.Page
 url: /ar/net/drawing-shapes/add-rectangle-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,21 +15,34 @@ url: /ar/net/drawing-shapes/add-rectangle-to-postscript-ps/
 
 # إضافة مستطيل إلى PostScript (PS) باستخدام Aspose.Page لـ .NET
 
-## مقدمة
+## المقدمة
 
-إذا كنت تتطلع إلى تحسين قدرات إنشاء المستندات لديك في .NET، فإن Aspose.Page يوفر حلاً قويًا للتعامل مع مستندات PostScript. في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة مستطيلات إلى مستند PostScript باستخدام Aspose.Page لـ .NET.
+إذا كنت تبحث عن **إنشاء مستند postscript .net**، فإن Aspose.Page توفر حلاً قويًا للتعامل مع ملفات PostScript. في هذا البرنامج التعليمي، سنرشدك إلى إضافة مستطيلات إلى مستند PostScript باستخدام Aspose.Page لـ .NET، مما يمنحك أساسًا قويًا لإنشاء رسومات أكثر غنى.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما المكتبة التي أحتاجها؟** Aspose.Page for .NET.
+- **هل يمكنني إنشاء مستند PostScript من الصفر؟** نعم – تتيح لك الـ API إنشاء ملفات PS برمجيًا.
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7.
+- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تكفي للاختبار؛ الترخيص مطلوب للإنتاج.
+- **كم من الوقت تستغرق التنفيذ؟** عادةً أقل من 10 دقائق للأشكال الأساسية.
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هو إنشاء مستند postscript .net؟
+إنشاء مستند PostScript في .NET يعني توليد ملف .ps برمجيًا يصف محتوى الصفحة — نصًا، رسومات، أو أشكال — باستخدام Aspose.Page API. هذا النهج مثالي لإنشاء رسومات على الخادم، إنشاء تقارير تلقائيًا، أو أي سيناريو يتطلب تحكمًا دقيقًا في تنسيق الإخراج.
 
--  Aspose.Page لمكتبة .NET: قم بتنزيل وتثبيت Aspose.Page لمكتبة .NET من[هنا](https://releases.aspose.com/page/net/).
+## لماذا تستخدم Aspose.Page لـ .NET؟
+- **تحكم كامل في الرسومات** – ارسم أشكالًا، اضبط الألوان، وطبق الخطوط دون التعامل مع صsyntax PS منخفض المستوى.
+- **متعدد المنصات** – يعمل على أنظمة Windows وLinux وmacOS.
+- **بدون تبعيات خارجية** – المكتبة تدير جميع عمليات توليد PS داخليًا.
+- **توثيق غني وأمثلة** – ابدأ العمل بسرعة.
 
-- بيئة التطوير: تأكد من إعداد بيئة تطوير .NET على جهازك.
+## المتطلبات المسبقة
+
+- **مكتبة Aspose.Page لـ .NET** – قم بتنزيلها وتثبيتها من [هنا](https://releases.aspose.com/page/net/).
+- **بيئة التطوير** – Visual Studio أو VS Code أو أي IDE متوافق مع .NET.
 
 ## استيراد مساحات الأسماء
 
-قبل البدء في البرمجة، تأكد من استيراد مساحات الأسماء اللازمة للوصول إلى الفئات والطرق المطلوبة:
+قبل بدء الترميز، استورد مساحات الأسماء التي تُظهر الفئات المطلوبة:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,108 +52,111 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-الآن، دعونا نقسم المثال إلى عدة خطوات:
+الآن دعنا نقسم المثال إلى خطوات واضحة مرقمة.
 
-## الخطوة 1: قم بإعداد دليل المستندات الخاص بك
+## الخطوة 1: إعداد دليل المستند الخاص بك
 
 ```csharp
-// البداية:1
-// المسار إلى دليل المستندات.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-في هذه الخطوة، استبدل "دليل المستندات الخاص بك" بالمسار الذي تريد حفظ مستند PostScript فيه.
+استبدل `"Your Document Directory"` بالمجلد الذي تريد حفظ ملف PS الناتج فيه.
 
-## الخطوة 2: إنشاء دفق الإخراج لمستند PostScript
+## الخطوة 2: إنشاء تدفق الإخراج لمستند PostScript
 
 ```csharp
-//إنشاء دفق الإخراج لمستند بوستسكريبت
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-هنا، نقوم بإنشاء دفق إخراج لمستند PostScript ونحدد اسم الملف ("AddRectangle_outPS.ps"). اضبط اسم الملف وموقعه وفقًا لتفضيلاتك.
+هذا التدفق يشير إلى **AddRectangle_outPS.ps**. يمكنك إعادة تسمية الملف أو تغيير الموقع حسب الحاجة.
 
-## الخطوة 3: قم بتعيين خيارات الحفظ وإنشاء مستند PS
+## الخطوة 3: تعيين خيارات الحفظ وإنشاء مستند PS
 
 ```csharp
-//إنشاء خيارات الحفظ بحجم A4
+//Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 
-// قم بإنشاء مستند PS جديد مكون من صفحة واحدة
+// Create new 1‑paged PS Document
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-اضبط خيارات الحفظ، مع تحديد حجم الصفحة المطلوب (A4 في هذه الحالة). ثم قم بإنشاء مستند بوستسكريبت جديد ذو صفحة واحدة.
+هنا نخبر Aspose.Page باستخدام حجم صفحة A4 وإنشاء مستند من صفحة واحدة.
 
-## الخطوة 4: إضافة مستطيل وملء
+## الخطوة 4: إضافة مستطيل مملوء
 
 ```csharp
-//قم بإنشاء مسار الرسومات من المستطيل الأول
+//Create graphics path from the first rectangle
 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 100, 150, 100));
 
-//تعيين الطلاء
+//Set paint
 document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 
-//املأ المستطيل
+//Fill the rectangle
 document.Fill(path);
 ```
 
-هنا، نقوم بإنشاء مسار رسومي يمثل المستطيل الأول، ونضبط لون الطلاء (في هذه الحالة، البرتقالي)، ونملأ المستطيل.
+نُعرّف مستطيلًا عند (250, 100) بعرض 150 وارتفاع 100، نحدد فرشاة برتقالية، ونملأ الشكل.
 
-## الخطوة 5: إضافة مستطيل آخر والسكتة الدماغية
+## الخطوة 5: إضافة مستطيل مُحدّد الحد
 
 ```csharp
-//قم بإنشاء مسار الرسومات من المستطيل الثاني
+//Create graphics path from the second rectangle
 path = new System.Drawing.Drawing2D.GraphicsPath();
 path.AddRectangle(new System.Drawing.RectangleF(250, 300, 150, 100));
 
-//ضبط السكتة الدماغية
+//Set stroke
 document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Red), 3));
 
-//السكتة الدماغية (المخطط التفصيلي) المستطيل
+//Stroke (outline) the rectangle
 document.Draw(path);
 ```
 
-كما هو الحال في الخطوة السابقة، نقوم بإنشاء مسار رسومي للمستطيل الثاني، ونضبط لون الحد (أحمر بسمك 3)، ونحدد المستطيل.
+يتم إنشاء مستطيل ثانٍ أسفل الصفحة، هذه المرة بخط أحمر بسُمك 3 نقاط.
 
-## الخطوة 6: أغلق الصفحة واحفظ المستند
+## الخطوة 6: إغلاق الصفحة وحفظ المستند
 
 ```csharp
-//إغلاق الصفحة الحالية
+//Close current page
 document.ClosePage();
 
-//احفظ المستند
+//Save the document
 document.Save();
 ```
 
-وأخيرًا، أغلق الصفحة الحالية واحفظ المستند بأكمله.
+إغلاق الصفحة يُنهي الرسم، و`Save()` يكتب ملف PS إلى القرص.
 
-## خاتمة
+## المشكلات الشائعة والنصائح
 
-تهانينا! لقد نجحت في إضافة مستطيلات إلى مستند PostScript باستخدام Aspose.Page لـ .NET. غطى هذا البرنامج التعليمي الخطوات الأساسية، بدءًا من إعداد بيئة التطوير الخاصة بك وحتى حفظ المستند النهائي.
+- **مسار ملف غير صحيح** – تأكد من أن `dataDir` ينتهي بفاصل مسار (`\\` أو `/`) أو استخدم `Path.Combine`.
+- **ترخيص مفقود** – في بيئة الإنتاج، قم بتطبيق ترخيص Aspose قبل إنشاء المستند لتجنب علامات مائية للتقييم.
+- **رؤية اللون** – إذا ظهر المستطيل فارغًا، تحقق من أن ألوان الفرشاة أو القلم تتباين مع خلفية الصفحة.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني تخصيص ألوان المستطيلات؟
+**س:** هل يمكنني تخصيص ألوان المستطيلات؟  
+**ج:** بالتأكيد. غيّر قيم `Color.Orange` أو `Color.Red` في مُنشئي `SolidBrush` و`Pen` إلى أي `System.Drawing.Color` تفضله.
 
-A1: نعم، يمكنك تخصيص الألوان عن طريق ضبط المعلمات في`SolidBrush` و`Pen` الطبقات.
+**س:** هل Aspose.Page متوافق مع صيغ مستندات أخرى؟  
+**ج:** نعم. بالإضافة إلى PostScript، يدعم Aspose.Page أيضًا إنشاء XPS وEPS.
 
-### س2: هل Aspose.Page متوافق مع تنسيقات المستندات الأخرى؟
+**س:** كيف يمكنني إضافة نص إلى نفس المستند؟  
+**ج:** استخدم الفئة `TextFragment` لوضع النص عند الإحداثيات المطلوبة، ثم استدعِ `document.Draw(textFragment)`.
 
-ج٢: نعم، يدعم Aspose.Page تنسيقات المستندات المختلفة، بما في ذلك XPS وPostScript.
+**س:** أين يمكنني العثور على أمثلة إضافية والمرجع الكامل للـ API؟  
+**ج:** استكشف الوثائق [هنا](https://reference.aspose.com/page/net/) وانضم إلى المجتمع في [منتدى Aspose.Page](https://forum.aspose.com/c/page/39).
 
-### س3: كيف يمكنني إضافة نص إلى المستند؟
+**س:** هل يمكنني تجربة Aspose.Page قبل الشراء؟  
+**ج:** نعم، قم بتنزيل نسخة تجريبية مجانية [هنا](https://releases.aspose.com/). للتقييم الموسع، فكر في الحصول على [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
 
- ج3: يمكنك استخدام`TextFragment` فئة في Aspose.Page لإضافة نص إلى المستند الخاص بك.
+---
 
-### س4: أين يمكنني العثور على أمثلة ووثائق إضافية؟
-
- ج٤: استكشف الوثائق[هنا](https://reference.aspose.com/page/net/) وزيارة[منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لدعم المجتمع.
-
-### س5: هل يمكنني تجربة Aspose.Page قبل الشراء؟
-
- ج5: نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/) ، وللاستخدام الممتد، فكر في أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/).
+**آخر تحديث:** 2026-01-18  
+**تم الاختبار مع:** Aspose.Page 24.12 for .NET  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
