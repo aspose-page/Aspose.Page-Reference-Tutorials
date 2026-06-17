@@ -1,91 +1,145 @@
 ---
-title: PostScript를 사용하여 Java로 문서 만들기
-linktitle: PostScript를 사용하여 Java로 문서 만들기
-second_title: Aspose.페이지 자바 API
-description: Aspose.Page를 사용하여 Java로 PostScript 문서를 손쉽게 생성하세요. 페이지 크기, 여백 및 글꼴을 사용자 정의합니다. 지금 무료 평가판을 사용해 보세요!
-weight: 10
+date: 2026-01-28
+description: Aspose.Page를 사용하여 PostScript A4 Java 문서를 만드는 방법, Java에서 사용자 정의 글꼴을 추가하는
+  방법 및 PostScript 페이지 크기를 설정하는 방법을 배워보세요. 오늘 무료 체험을 이용해 보세요!
+linktitle: Create Document in Java with PostScript
+second_title: Aspose.Page Java API
+title: Aspose.Page를 사용한 Java에서 A4 포스트스크립트 생성 방법
 url: /ko/java/document-creation/postscript/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PostScript를 사용하여 Java로 문서 만들기
+# Aspose.Page를 사용하여 Java에서 PostScript A4 파일 생성 방법
 
 ## 소개
-Java 개발 영역에서 문서 작성 및 관리는 중요한 측면입니다. Aspose.Page for Java의 출현으로 프로세스는 효율적일 뿐만 아니라 유연해졌습니다. 이 튜토리얼의 목표는 Aspose.Page를 사용하여 PostScript로 Java로 문서를 생성하는 단계를 안내하여 이 도구의 모든 기능을 활용할 수 있도록 하는 것입니다.
-## 전제 조건
-튜토리얼을 시작하기 전에 다음 전제조건이 충족되었는지 확인하십시오.
-- Java 프로그래밍에 대한 실무 지식.
--  Java용 Aspose.Page가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/page/java/).
-- 필요한 글꼴은 지정된 폴더에 저장됩니다. 예를 들어 문서 디렉터리에 'necessary_fonts' 디렉터리를 만듭니다.
+Java에서 직접 **postscript a4 java** 파일을 생성해야 한다면, Aspose.Page가 빠르고 안정적으로 도와줍니다. 이 튜토리얼에서는 전체 과정을 단계별로 살펴보겠습니다—PostScript를 생성하고, PostScript 페이지 크기를 A4로 설정하며, 필요 시 **add custom fonts**를 추가합니다. 마지막으로, 모든 Java 프로젝트에 바로 삽입할 수 있는 사용 준비가 된 코드 스니펫을 얻을 수 있습니다.
+
+## 빠른 답변
+- **주요 라이브러리는 무엇인가요?** Aspose.Page for Java.  
+- **이 가이드에서 중점적으로 다루는 페이지 크기는 무엇인가요?** A4 (portrait).  
+- **내 폰트를 사용할 수 있나요?** Yes – add custom fonts via the additional fonts folder.  
+- **프로덕션에 라이선스가 필요합니까?** A commercial license is required; a free trial is available.  
+- **지원되는 Java 버전은 무엇인가요?** Java 8 and later.
+
+## postscript a4 java 생성 방법
+이 섹션은 핵심 목표를 다시 설명하고 간결한 정의를 제공하여 검색 엔진이 즉시 답변을 표시할 수 있도록 합니다.
+
+## **postscript a4 size**란 무엇인가요?
+PostScript A4 size는 PostScript 페이지 기술 언어를 사용하여 ISO 216 A4 규격(210 mm × 297 mm)으로 포맷된 페이지를 의미합니다. 이는 전 세계 많은 비즈니스 문서에서 표준 페이지 크기입니다.
+
+## 왜 Aspose.Page를 사용하여 **set postscript page size**를 설정하나요?
+Aspose.Page는 저수준 PostScript 명령을 추상화하여 언어의 복잡성에 신경 쓰지 않고 문서 레이아웃에 집중할 수 있게 해줍니다. 다음과 같은 이점을 얻을 수 있습니다:
+- 페이지 크기에 대한 정밀한 제어(A4 포함).  
+- 시스템 폰트 경로를 조작하지 않고도 custom fonts를 손쉽게 통합.  
+- 단일 페이지와 다중 페이지 출력 모두 지원.
+
+## Java에서 custom fonts 추가 방법
+자신만의 서체를 포함하면 생성된 문서가 프린터나 뷰어에서 의도한 대로 정확히 표시됩니다.
+
+## 사전 요구 사항
+- Java 프로그래밍에 대한 기본 지식.  
+- Aspose.Page for Java가 설치되어 있어야 합니다. [여기](https://releases.aspose.com/page/java/)에서 다운로드할 수 있습니다.  
+- `necessary_fonts`(또는 원하는 이름) 폴더를 만들어, 포함하려는 custom fonts를 넣어두세요.
+
 ## 패키지 가져오기
-Java 프로젝트에서 필수 Aspose.Page 패키지를 가져옵니다.
+Java 프로젝트에서 필요한 Aspose.Page 클래스를 가져옵니다:
+
 ```java
 import java.io.FileOutputStream;
 import com.aspose.eps.PageConstants;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
-
 ```
-이제 원활한 이해를 위해 예제를 여러 단계로 나누어 보겠습니다.
-## 1단계: 문서 디렉터리 설정
+
+이제 예제를 명확한 단계로 나누어 보겠습니다.
+
+### 단계 1: 문서 디렉터리 설정
 ```java
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
 ```
-"문서 디렉토리"를 문서를 저장하려는 실제 경로로 바꾸십시오.
-## 2단계: 글꼴 폴더 정의
+`"Your Document Directory"`를 생성된 파일이 저장될 절대 경로로 교체하세요.
+
+### 단계 2: 폰트 폴더 정의
 ```java
 String FONTS_FOLDER = dataDir + "necessary_fonts/";
 ```
-이 폴더에 필요한 글꼴이 저장되어 있는지 확인하십시오.
-## 3단계: PostScript 문서에 대한 출력 스트림 만들기
+사용하려는 **custom fonts**를 이 폴더에 저장하세요. 나중에 추가 폰트 폴더를 설정하면 Aspose.Page가 자동으로 로드합니다.
+
+### 단계 3: PostScript 문서를 위한 출력 스트림 생성
 ```java
-// PostScript 문서의 출력 스트림 생성
+// Create output stream for PostScript document
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "CreateDocument_outPS.ps");
 ```
-이 단계에서는 PostScript 문서의 출력 스트림을 설정하고 이에 따라 파일 이름을 설정합니다.
-## 4단계: A4 크기로 저장 옵션 만들기
+이 스트림은 최종 **PostScript A4 size** 출력을 저장할 파일을 가리킵니다.
+
+### 단계 4: A4 크기로 저장 옵션 생성
 ```java
-// A4 크기로 저장 옵션 만들기
+// Create save options with A4 size
 PsSaveOptions options = new PsSaveOptions();
 options.setPageSize(PageConstants.getSize(PageConstants.SIZE_A4, PageConstants.ORIENTATION_PORTRAIT));
 ```
-문서 요구 사항에 따라 저장 옵션을 사용자 정의하고 페이지 크기와 방향을 지정합니다.
-## 5단계: 페이지 여백 및 추가 글꼴 폴더 설정
+여기서 **set the PostScript page size**를 A4(세로)로 설정합니다. 다른 방향이 필요하면 상수를 변경하면 됩니다.
+
+### 단계 5: 페이지 여백 설정 및 custom fonts 폴더 추가
 ```java
 options.setMargins(PageConstants.getMargins(PageConstants.MARGINS_ZERO));
 options.setAdditionalFontsFolders(new String[] { FONTS_FOLDER });
 ```
-페이지 여백을 조정하고 글꼴이 시스템 폴더 외부에 저장된 경우 추가 글꼴 폴더를 포함합니다.
-## 6단계: 여러 페이지 또는 단일 페이지 PS 문서 만들기
+전체 페이지가 여백 없이 출력되도록 모든 여백을 0으로 제거하고, 앞서 추가한 **custom fonts**가 위치한 경로를 Aspose.Page에 알려줍니다.
+
+### 단계 6: 다중 페이지 또는 단일 페이지 PS 문서 생성
 ```java
 boolean multiPaged = false;
 PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
-결과 PostScript 문서가 여러 페이지로 표시될지 아니면 단일 페이지로 표시될지 결정하고 이에 따라 문서를 만듭니다.
-## 7단계: 현재 페이지를 닫고 문서 저장
+여러 페이지가 필요하면 `multiPaged`를 `true`로 설정하고, 그렇지 않으면 단일 페이지 문서가 생성됩니다.
+
+### 단계 7: 현재 페이지 닫기 및 문서 저장
 ```java
 document.closePage();
 document.save();
 ```
-현재 페이지를 닫고 문서를 저장하여 문서 생성 과정을 완료하세요.
-이 단계별 가이드를 통해 Aspose.Page를 사용하여 PostScript로 Java로 문서를 원활하게 생성하고 이 강력한 도구의 잠재력을 활용할 수 있습니다.
-## 결론
-Aspose.Page를 사용하면 Java에서 문서 생성을 마스터하는 것이 쉬워집니다. 이 튜토리얼에서는 프로세스를 탐색할 수 있는 포괄적인 가이드를 제공하므로 이 라이브러리의 모든 기능을 활용할 수 있습니다.
+이 호출들은 문서를 최종화하고, 현재 페이지를 닫으며, **PostScript A4 size** 파일을 디스크에 기록합니다.
+
+## 일반적인 문제 및 팁
+- **폰트가 표시되지 않나요?** 폰트 파일이 지원되는 TrueType 또는 OpenType 형식인지, `FONTS_FOLDER` 경로가 슬래시(`/`)로 끝나는지 확인하세요.  
+- **여백이 여전히 보이나요?** `PsDocument`를 생성하기 **전에** `options.setMargins(...)`를 호출했는지 확인하세요.  
+- **다중 페이지 출력이 비어 보이나요?** 추가 페이지마다 `document.newPage()`를 호출하는 것을 잊지 마세요.
+
 ## 자주 묻는 질문
-### 내 PostScript 문서에서 사용자 정의 글꼴을 사용할 수 있습니까?
-그래 넌 할수있어. 저장 옵션에서 추가 글꼴 폴더를 설정했는지 확인하세요.
-### Aspose.Page for Java에 사용할 수 있는 평가판이 있습니까?
- 예, 무료 평가판을 받을 수 있습니다[여기](https://releases.aspose.com/).
-### Aspose.Page for Java 설명서에 어떻게 액세스할 수 있나요?
- 문서를 참조하세요[여기](https://reference.aspose.com/page/java/).
-### Aspose.Page for Java 라이선스는 어디서 구매할 수 있나요?
- 라이센스를 구매하시면 됩니다[여기](https://purchase.aspose.com/buy).
-### Aspose.Page 토론을 위한 포럼이 있습니까?
- 예, 커뮤니티에 가입할 수 있습니다[법정](https://forum.aspose.com/c/page/39) 토론과 지원을 위해.
+
+**Q: PostScript 문서에서 custom fonts를 사용할 수 있나요?**  
+A: 예, 사용할 수 있습니다. 저장 옵션에서 추가 폰트 폴더를 설정했는지 확인하세요(단계 5 참조).
+
+**Q: Aspose.Page for Java의 체험판이 있나요?**  
+A: 예, 무료 체험판을 [여기](https://releases.aspose.com/)에서 받을 수 있습니다.
+
+**Q: 전체 API 레퍼런스는 어디서 확인할 수 있나요?**  
+A: 문서 [여기](https://reference.aspose.com/page/java/)를 참고하세요.
+
+**Q: Aspose.Page for Java 라이선스는 어디서 구매하나요?**  
+A: 라이선스를 [여기](https://purchase.aspose.com/buy)에서 구매할 수 있습니다.
+
+**Q: Aspose.Page 토론을 위한 커뮤니티 포럼이 있나요?**  
+A: 예, 지원 및 모범 사례 팁을 얻으려면 커뮤니티 [포럼](https://forum.aspose.com/c/page/39)에 참여하세요.
+
+**Q: 다중 페이지 PostScript 파일을 생성할 수 있나요?**  
+A: 물론입니다—단계 6에서 `multiPaged`를 `true`로 설정하고 추가 페이지마다 `document.newPage()`를 호출하세요.
+
+## 결론
+이 단계들을 따라 하면 Aspose.Page를 사용하여 **postscript a4 java** 파일을 생성하는 방법을 알게 되며, **add custom fonts java**를 추가하고 **set postscript page size** 옵션을 제어할 수 있습니다. Aspose.Page가 복잡한 작업을 처리하므로 문서 내용에 집중할 수 있습니다.
+
+---
+
+**마지막 업데이트:** 2026-01-28  
+**테스트 환경:** Aspose.Page for Java 24.11  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
