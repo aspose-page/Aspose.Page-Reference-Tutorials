@@ -1,11 +1,11 @@
 ---
-date: 2025-12-07
-description: Pelajari cara mengubah skala persegi panjang, mentranslasi bentuk, dan
-  menerapkan transformasi afine dalam Java menggunakan Aspose.Page untuk membuat dokumen
+date: 2026-02-07
+description: Pelajari cara memperbesar persegi panjang dengan Aspose.Page untuk Java,
+  cara memindahkan bentuk, dan menerapkan transformasi afinn untuk membuat dokumen
   PostScript.
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
-title: Cara Menskalakan Persegi Panjang dan Menerapkan Transformasi dengan Aspose.Page
+title: Cara Menskalakan Persegi Panjang dengan Aspose.Page untuk Java
 url: /id/java/page-manipulation/transformations/
 weight: 11
 ---
@@ -14,27 +14,27 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menskalakan Persegi Panjang dan Menerapkan Transformasi dengan Aspose.Page
+# Cara Menskalakan Persegi Panjang dengan Aspose.Page untuk Java
 
 ## Pendahuluan
-Selamat datang di panduan komprehensif tentang memanfaatkan fitur kuat **Aspose.Page for Java** untuk melakukan berbagai transformasi halaman. Dalam tutorial ini Anda akan belajar **cara menskalakan persegi panjang**, memindahkan (mentranslate) bentuk, memutar objek, dan **menerapkan transformasi afinn** saat membuat **dokumen PostScript**. Kemampuan ini memungkinkan Anda membangun aplikasi Java yang kaya grafis tanpa harus menulis kode rendering tingkat rendah.
+Selamat datang di panduan komprehensif tentang memanfaatkan fitur kuat **Aspose.Page for Java** untuk melakukan berbagai transformasi halaman. Dalam tutorial ini Anda akan belajar **how to scale rectangle**, menerjemahkan bentuk, memutar objek, dan **apply affine transform** teknik sambil membuat **PostScript document**. Kemampuan ini memungkinkan Anda membangun aplikasi Java yang kaya grafis tanpa harus menangani kode rendering tingkat rendah.
 
 ## Jawaban Cepat
-- **Bagaimana cara menskalakan persegi panjang di Java dengan Aspose.Page?** Gunakan metode `document.scale()` sebelum menggambar bentuk.  
-- **Bisakah saya memindahkan (mentranslate) sebuah bentuk tanpa memengaruhi grafik lain?** Ya—simpan keadaan grafik, panggil `document.translate(x, y)`, gambar, lalu pulihkan keadaan.  
-- **Kelas apa yang membuat file PostScript?** `PsDocument` bersama dengan `PsSaveOptions`.  
-- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi Aspose.Page yang valid diperlukan untuk penyebaran komersial.  
-- **Versi Java mana yang didukung?** Aspose.Page bekerja dengan Java 8 ke atas.
+- **How do I scale a rectangle in Java with Aspose.Page?** Gunakan metode `document.scale()` sebelum menggambar bentuk.  
+- **Can I move (translate) a shape without affecting other graphics?** Ya—simpan keadaan grafik, panggil `document.translate(x, y)`, gambar, lalu pulihkan keadaan.  
+- **What class creates a PostScript file?** `PsDocument` bersama dengan `PsSaveOptions`.  
+- **Do I need a license for production use?** Lisensi Aspose.Page yang valid diperlukan untuk penyebaran komersial.  
+- **Which Java version is supported?** Aspose.Page bekerja dengan Java 8 dan yang lebih baru.
 
 ## Prasyarat
-Sebelum kita masuk ke panduan langkah demi langkah, pastikan Anda telah menyiapkan prasyarat berikut:
+Sebelum kita menyelam ke panduan langkah‑demi‑langkah, pastikan Anda memiliki prasyarat berikut:
 
-- Pengetahuan dasar pemrograman Java.  
-- Perpustakaan Aspose.Page for Java terpasang. Anda dapat mengunduhnya dari [dokumentasi Aspose.Page for Java](https://reference.aspose.com/page/java/).  
-- Lingkungan Pengembangan Terintegrasi (IDE) Java yang sudah terkonfigurasi di mesin Anda.
+- Pengetahuan dasar tentang pemrograman Java.  
+- Perpustakaan Aspose.Page for Java terpasang. Anda dapat mengunduhnya dari [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
+- Integrated Development Environment (IDE) Java yang terpasang di mesin Anda.
 
 ## Impor Paket
-Di proyek Java Anda, impor paket yang diperlukan untuk menggunakan Aspose.Page for Java:
+Dalam proyek Java Anda, impor paket yang diperlukan untuk memanfaatkan Aspose.Page for Java:
 
 ```java
 import java.awt.Color;
@@ -46,14 +46,14 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Apa itu “cara menskalakan persegi panjang” di Aspose.Page?
-Menskalakan persegi panjang mengubah ukurannya sepanjang sumbu X dan Y sambil mempertahankan bentuknya. Aspose.Page menyediakan metode `scale(float sx, float sy)`, yang menerapkan **transformasi afinn** pada keadaan grafik saat ini. Inilah teknik inti di balik kata kunci **cara menskalakan persegi panjang**.
+## Apa itu “how to scale rectangle” dalam Aspose.Page?
+Menskalakan persegi panjang mengubah ukurannya sepanjang sumbu X dan Y sambil mempertahankan bentuknya. Aspose.Page menyediakan metode `scale(float sx, float sy)`, yang menerapkan **affine transform** pada keadaan grafik saat ini. Ini adalah teknik inti di balik kata kunci **how to scale rectangle**.
 
-## Cara Mentranslate Bentuk dengan Aspose.Page
-Translasi memindahkan sebuah bentuk ke lokasi baru tanpa mengubah dimensinya. Inilah esensi dari **cara mentranslate bentuk**. Dengan menyimpan keadaan grafik, menerapkan `translate(dx, dy)`, menggambar, dan kemudian memulihkan keadaan, Anda menjaga objek lain tetap tidak terpengaruh.
+## Cara Menerjemahkan Bentuk dengan Aspose.Page
+Translasi memindahkan bentuk ke lokasi baru tanpa mengubah dimensinya. Ini adalah inti dari **how to translate shape**. Dengan menyimpan keadaan grafik, menerapkan `translate(dx, dy)`, menggambar, dan kemudian memulihkan keadaan, Anda menjaga objek lain tetap tidak terpengaruh.
 
 ## Contoh 1: Tanpa Transformasi
-Contoh pertama menggambar persegi panjang sederhana tanpa transformasi apa pun. Ini berfungsi sebagai dasar perbandingan dengan contoh‑contoh selanjutnya.
+Contoh pertama menggambar persegi panjang sederhana tanpa transformasi yang diterapkan. Ini berfungsi sebagai dasar untuk perbandingan dengan contoh selanjutnya.
 
 ```java
 // The path to the documents directory.
@@ -77,7 +77,7 @@ document.save();
 ```
 
 ## Contoh 2: Translasi
-Di sini kami mendemonstrasikan **cara mentranslate bentuk** dengan memindahkan konteks grafik 250 unit ke kanan sebelum menggambar persegi panjang kedua.
+Di sini kami mendemonstrasikan **how to translate shape** dengan memindahkan konteks grafik 250 unit ke kanan sebelum menggambar persegi panjang kedua.
 
 ```java
 // Save graphics state to return back after transformation
@@ -92,8 +92,8 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Contoh 3: Skalasi
-Contoh ini menjawab pertanyaan utama **cara menskalakan persegi panjang**. Kami memperkecil persegi panjang menjadi 50 % lebar asli dan 75 % tinggi aslinya.
+## Contoh 3: Menskalakan
+Contoh ini menjawab pertanyaan utama **how to scale rectangle**. Kami memperkecil persegi panjang menjadi 50 % dari lebar aslinya dan 75 % dari tingginya.
 
 ```java
 // Save graphics state to return back after transformation
@@ -108,60 +108,62 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Cara Memutar Bentuk di Java (rotate shape java)
-Rotasi adalah operasi afinn lain yang umum. Meskipun potongan kode untuk rotasi dihilangkan demi kepraktisan, pola kerjanya identik: simpan keadaan grafik, panggil `document.rotate(angle)`, gambar bentuk, lalu pulihkan. Ini memperlihatkan **rotate shape java** dan **cara memutar persegi panjang** dalam praktik.
+## Cara Memutar Bentuk Java (rotate shape java)
+Rotasi adalah operasi affine umum lainnya. Meskipun potongan kode untuk rotasi dihilangkan demi kepraktisan, pola tersebut identik: simpan keadaan grafik, panggil `document.rotate(angle)`, gambar bentuk, lalu pulihkan. Ini mendemonstrasikan **rotate shape java** dan **how to rotate rectangle** dalam praktik.
 
-## Mengapa Menggunakan Aspose.Page untuk Transformasi Ini?
-- **Tidak bergantung pada perangkat**: Tulis sekali, hasilkan PostScript atau XPS tanpa kode khusus platform.  
-- **Kontrol halus**: Akses langsung ke keadaan grafik memungkinkan Anda menggabungkan translasi, skalasi, shearing, dan rotasi.  
-- **Kinerja**: API berbiaya rendah cocok untuk pemrosesan batch dokumen besar.  
+## Mengapa Ini Penting – Manfaat di Dunia Nyata
+- **Device‑independent output** – Tulis sekali dan hasilkan PostScript atau XPS tanpa penyesuaian khusus platform.  
+- **Fine‑grained control** – Gabungkan translasi, skala, shear, dan rotasi untuk memenuhi persyaratan tata letak yang tepat.  
+- **Performance‑oriented** – API dengan overhead rendah ideal untuk pemrosesan batch dokumen berskala besar.  
 
 ## Kasus Penggunaan Umum
-- Menghasilkan faktur cetak dengan barcode dan logo yang dinamis.  
-- Membuat diagram teknis di mana skalasi dan penempatan yang tepat diperlukan.  
-- Mengotomatiskan produksi laporan multi‑halaman dalam format PostScript.
+- Membuat faktur yang dapat dicetak – misalnya, solusi **printable invoice java** yang menempatkan logo dan kode batang secara tepat.  
+- Membuat diagram teknis di mana skala dan posisi yang tepat diperlukan.  
+- Mengotomatiskan produksi laporan multi‑halaman dalam format PostScript.  
 
-## Kesimpulan
-Dalam tutorial ini, kami mengeksplorasi berbagai transformasi dalam Manipulasi Halaman Java menggunakan Aspose.Page for Java, dengan fokus pada **cara menskalakan persegi panjang**, **cara mentranslate bentuk**, dan operasi afinn lainnya. Dengan mengikuti contoh‑contoh ini, Anda dapat meningkatkan aplikasi Java Anda dengan kemampuan manipulasi halaman tingkat lanjut dan **membuat output dokumen PostScript** yang memenuhi standar penerbitan profesional.
+## Masalah Umum dan Solusinya
+- **Transformation not resetting** – Selalu pasangkan `document.writeGraphicsSave()` dengan `document.writeGraphicsRestore()` untuk menghindari efek carry‑over yang tidak diinginkan.  
+- **Unexpected colors** – Pastikan Anda mengatur cat setelah setiap transformasi; keadaan grafik tidak menyimpan pengaturan warna sebelumnya setelah pemulihan.  
+- **File size too large** – Gunakan `PsSaveOptions` untuk mengaktifkan kompresi atau mengurangi resolusi gambar saat menyematkan grafik raster.  
 
 ## FAQ
-### Bisakah saya menggunakan Aspose.Page for Java untuk format dokumen lain?
-Aspose.Page terutama berfokus pada manipulasi halaman untuk format PostScript dan XPS.
+### Can I use Aspose.Page for Java for other document formats?
+Aspose.Page terutama fokus pada manipulasi halaman untuk format PostScript dan XPS.
 
-### Di mana saya dapat menemukan contoh dan dokumentasi lebih lanjut untuk Aspose.Page for Java?
-Kunjungi [dokumentasi Aspose.Page for Java](https://reference.aspose.com/page/java/) untuk informasi lengkap.
+### Where can I find more examples and documentation for Aspose.Page for Java?
+Kunjungi [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) untuk informasi lengkap.
 
-### Apakah ada percobaan gratis untuk Aspose.Page for Java?
+### Is there a free trial available for Aspose.Page for Java?
 Ya, Anda dapat mengakses percobaan gratis [di sini](https://releases.aspose.com/).
 
-### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page for Java?
+### How can I get a temporary license for Aspose.Page for Java?
 Dapatkan lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-### Di mana saya dapat mencari dukungan komunitas atau mengajukan pertanyaan tentang Aspose.Page for Java?
-Kunjungi [forum Aspose.Page for Java](https://forum.aspose.com/c/page/39) untuk diskusi komunitas.
+### Where can I seek community support or ask questions about Aspose.Page for Java?
+Kunjungi [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) untuk diskusi komunitas.
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Apa perbedaan antara `translate` dan `scale`?**  
-J: `translate` memindahkan asal sistem koordinat, sedangkan `scale` mengubah ukuran objek yang digambar sepanjang sumbu X dan/atau Y.
+**Q: Apa perbedaan antara `translate` dan `scale`?**  
+A: `translate` memindahkan asal sistem koordinat, sementara `scale` mengubah ukuran objek yang digambar sepanjang sumbu X dan/atau Y.
 
-**T: Bisakah saya menggabungkan beberapa transformasi dalam satu keadaan grafik?**  
-J: Ya—dengan memanggil `translate`, `scale`, `rotate`, atau `shear` secara berurutan sebelum menggambar, Anda menciptakan transformasi afinn gabungan.
+**Q: Bisakah saya menggabungkan beberapa transformasi dalam satu keadaan grafik?**  
+A: Ya—dengan memanggil `translate`, `scale`, `rotate`, atau `shear` secara berurutan sebelum menggambar, Anda membuat transformasi affine gabungan.
 
-**T: Bagaimana cara mengatur ulang transformasi setelah menggambar sebuah bentuk?**  
-J: Gunakan `document.writeGraphicsRestore()` untuk kembali ke keadaan grafik yang sebelumnya disimpan.
+**Q: Bagaimana cara mereset transformasi setelah menggambar sebuah bentuk?**  
+A: Gunakan `document.writeGraphicsRestore()` untuk kembali ke keadaan grafik yang sebelumnya disimpan.
 
-**T: Apakah memungkinkan memutar persegi panjang di sekitar pusatnya?**  
-J: Tentu saja. Translasi persegi panjang ke asal, terapkan `rotate(angle)`, lalu translasi kembali sebelum menggambar.
+**Q: Apakah mungkin memutar persegi panjang di sekitar pusatnya?**  
+A: Tentu saja. Translasi persegi panjang ke asal, terapkan `rotate(angle)`, lalu translasi kembali sebelum menggambar.
 
-**T: Apakah Aspose.Page mendukung anti‑aliasing untuk grafik yang lebih halus?**  
-J: Ya—atur opsi rendering yang sesuai dalam `PsSaveOptions` untuk mengaktifkan anti‑aliasing.
+**Q: Apakah Aspose.Page mendukung anti‑aliasing untuk grafik yang lebih halus?**  
+A: Ya—atur opsi rendering yang sesuai dalam `PsSaveOptions` untuk mengaktifkan anti‑aliasing.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-07  
-**Diuji Dengan:** Aspose.Page for Java 24.12  
-**Penulis:** Aspose  
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.Page for Java 24.12  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

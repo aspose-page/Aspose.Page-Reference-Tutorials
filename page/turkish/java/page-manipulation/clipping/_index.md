@@ -1,11 +1,11 @@
 ---
-date: 2025-12-03
-description: Aspose.Page for Java kullanarak PostScript olarak kaydetmeyi ve şekilleri
-  kırpmayı keşfedin. Java grafik kırpma işleminde çizgi stilini ayarlamayı ve kırpma
-  bölgesini uygulamayı öğrenin.
-linktitle: Save as PostScript – Clipping in Java Page Manipulation
+date: 2026-02-07
+description: Aspose.Page kullanarak Java'da bir PostScript dosyası oluşturmayı, şekilleri
+  kırpmayı, çizgi stilini ayarlamayı ve hassas grafikler için kırpma bölgeleri uygulamayı
+  öğrenin.
+linktitle: Create PostScript File Java – Clipping in Java Page Manipulation
 second_title: Aspose.Page Java API
-title: PostScript olarak Kaydet – Java Sayfa Manipülasyonunda Kırpma
+title: Java’da PostScript Dosyası Oluşturma – Java Sayfa Manipülasyonunda Kırpma
 url: /tr/java/page-manipulation/clipping/
 weight: 10
 ---
@@ -14,37 +14,42 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PostScript Olarak Kaydet – Java Sayfa Manipülasyonunda Kırpma
+# Java’da PostScript Dosyası Oluşturma – Java Sayfa Manipülasyonunda Kırpma
 
-## Giriş
-Karmaşık grafikler oluştururken **PostScript olarak kaydet** ihtiyacınız olduğunda, kırpma en güçlü yardımcınız olur. Aspose.Page for Java ile Java Sayfa Manipülasyonunda kırpma, çizim işlemlerinin görünür olduğu kesin bölgeleri tanımlamanızı sağlar ve nihai çıktınız üzerinde ince ayar kontrolü sunar. Bu öğreticide **şekilleri nasıl kırpacağınızı**, **çizgi stilini nasıl ayarlayacağınızı** ve **kırpma bölgesini nasıl uygulayacağınızı** Aspose.Page for Java kütüphanesini kullanarak adım adım gösteriyoruz, böylece güvenle profesyonel PostScript dosyaları üretebilirsiniz.
+## Introduction
+Java’da **PostScript dosyası oluşturmanız** gerektiğinde, kırpma en güçlü yardımcınız olur. Aspose.Page ile Java Sayfa Manipülasyonunda, kırpma çizim işlemlerinin görünür olduğu kesin bölgeleri tanımlamanızı sağlar ve nihai çıktının ince ayarlı kontrolünü verir. Bu öğreticide, Aspose.Page for Java kütüphanesini kullanarak **how to clip shapes**, **set stroke style**, ve **apply clipping region** adımlarını göstererek güvenle profesyonel PostScript dosyaları üretmenizi sağlayacağız.
 
-## Hızlı Yanıtlar
-- **“PostScript olarak kaydet” ne anlama geliyor?**  
-  Vektör grafikleri PostScript dilinde saklayan bir .ps dosyası oluşturur; bu dosya baskı ve yüksek çözünürlüklü render için idealdir.  
-- **Java’da kırpmayı hangi kütüphane yönetiyor?**  
-  Aspose.Page for Java, `java graphics clipping` için basit bir API sağlar.  
-- **Örneği çalıştırmak için lisansa ihtiyacım var mı?**  
-  Test için geçici bir lisans yeterlidir; üretim ortamı için ticari lisans gereklidir.  
-- **Çizgi görünümünü değiştirebilir miyim?**  
-  Evet—`set stroke style` ile `BasicStroke` kullanarak genişlik, kesik desen ve uçları özelleştirebilirsiniz.  
-- **Kod Java 8+ ile uyumlu mu?**  
-  Kesinlikle, örnek herhangi bir Java 8 veya daha yeni çalışma zamanı üzerinde çalışır.
+## Quick Answers
+- **What does “save as PostScript” mean?**  
+  It creates a .ps file that stores vector graphics in the PostScript language, ideal for printing and high‑resolution rendering.  
+- **Which library handles clipping in Java?**  
+  Aspose.Page for Java provides a straightforward API for `java graphics clipping`.  
+- **Do I need a license to run the sample?**  
+  A temporary license works for testing; a commercial license is required for production.  
+- **Can I change the stroke appearance?**  
+  Yes—use `set stroke style` with `BasicStroke` to customize width, dash pattern, and caps.  
+- **Is the code compatible with Java 8+?**  
+  Absolutely, the sample runs on any Java 8 or newer runtime.  
+- **What is the main benefit of clipping?**  
+  It isolates drawing to a defined shape, reducing file size and improving visual focus.  
 
-## Aspose.Page’de “PostScript olarak kaydet” nedir?
-Bir belgeyi PostScript olarak kaydetmek, çizim komutlarınızı PostScript sayfa tanım dili haline dönüştürür. Oluşan `.ps` dosyası yazıcılar, görüntüleyiciler tarafından açılabilir veya kalite kaybı olmadan PDF’ye dönüştürülebilir.
+## How to create PostScript file Java using Aspose.Page
+Bir belgeyi PostScript olarak kaydetmek, çizim komutlarınızı PostScript sayfa tanım dili haline dönüştürür. Ortaya çıkan `.ps` dosyası yazıcılar, görüntüleyiciler tarafından açılabilir veya kalite kaybı olmadan PDF’ye dönüştürülebilir. Kırpma API’sini ustalıkla kullanarak grafiklerinizin hangi bölümlerinin işleneceği üzerinde kesin kontrol elde edersiniz.
 
-## Java grafiklerinde kırpma neden kullanılır?
-Kırpma, **kırpma bölgesi** uygulayarak çizimi belirli şekillerle sınırlamanızı sağlar—maskeler, karmaşık düzenler oluşturmak veya sayfanın belirli bir alanına odaklanmak için mükemmeldir. Ayrıca görünür bölge dışındaki gereksiz çizim komutlarını ortadan kaldırarak dosya boyutunu azaltmaya yardımcı olur.
+## What is “save as PostScript” in Aspose.Page?
+Saving a document as PostScript converts your drawing commands into the PostScript page description language. The resulting `.ps` file can be opened by printers, viewers, or converted to PDF without loss of quality.
 
-## Önkoşullar
-Başlamadan önce şunların kurulu olduğundan emin olun:
+## Why use clipping in Java graphics?
+Kırpma, **apply clipping region** sayesinde çizimi belirli şekillere sınırlamanıza olanak tanır—maskeler, karmaşık düzenler oluşturmak veya bir sayfanın belirli bir alanına odaklanmak için mükemmeldir. Ayrıca görünür bölge dışındaki gereksiz çizim komutlarını ortadan kaldırarak dosya boyutunu azaltmaya yardımcı olur.
 
-- **Aspose.Page for Java** – [Aspose.Page documentation](https://reference.aspose.com/page/java/) adresinden indirin.  
-- **Java Geliştirme Ortamı** – JDK 8 veya üzeri, tercih ettiğiniz IDE (IntelliJ, Eclipse vb.).
+## Prerequisites
+Before we dive in, make sure you have:
 
-## Paketleri İçe Aktarma
-Java projenizde gerekli sınıfları şu şekilde içe aktarın:
+- **Aspose.Page for Java** – download from the [Aspose.Page documentation](https://reference.aspose.com/page/java/).  
+- **Java Development Environment** – JDK 8 or later, with your favorite IDE (IntelliJ, Eclipse, etc.).  
+
+## Import Packages
+In your Java project, import the necessary classes:
 
 ```java
 import java.awt.BasicStroke;
@@ -57,12 +62,12 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-Bu içe aktarmalar, şekil tanımları, renk işleme, çizgi yapılandırması ve bir PostScript belgesi oluşturmak için Aspose.Page API’sine erişim sağlar.
+These imports give you access to shape definitions, color handling, stroke configuration, and the Aspose.Page API for creating a PostScript document.
 
-## Adım‑Adım Kılavuz
+## Step‑by‑Step Guide
 
-### Adım 1: Belgeyi ve Çıktı Akışını Ayarlama
-İlk olarak bir `PsDocument` oluşturun ve **PostScript** dosyasının yazılacağı çıktı akışını belirtin.
+### Step 1: Set Up Document and Output Stream
+First, create a `PsDocument` and point it to an output stream where the **PostScript** file will be written.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -71,10 +76,10 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-> **İpucu:** `dataDir` yolunu mutlak tutun veya platform bağımsız yollar için `Paths.get(...)` kullanın.
+> **Pro tip:** Keep `dataDir` absolute or use `Paths.get(...)` for platform‑independent paths.
 
-### Adım 2: Şekilleri Oluşturma ve **şekilleri nasıl kırpacağınız**
-Şimdi çalışacağımız geometrileri—bir dikdörtgen ve bir daire—tanımlıyoruz. Ardından daireyi kullanarak **kırpma bölgesi** uyguluyoruz; böylece sadece dairenin içindeki dikdörtgen kısmı render ediliyor.
+### Step 2: Create Shapes and **how to clip shapes**
+Now we define the geometry we’ll work with—a rectangle and a circle. We then **apply clipping region** using the circle so that only the part of the rectangle inside the circle is rendered.
 
 ```java
 Shape rectangle = new Rectangle2D.Float(0, 0, 300, 200);
@@ -88,10 +93,10 @@ document.fill(rectangle);
 document.writeGraphicsRestore();
 ```
 
-`writeGraphicsSave()` / `writeGraphicsRestore()` çifti, grafik durumunu korur ve kırpmanın yalnızca amaçlanan çizim komutlarını etkilemesini sağlar.
+The `writeGraphicsSave()` / `writeGraphicsRestore()` pair preserves the graphics state, ensuring the clipping only affects the intended drawing commands.
 
-### Adım 3: **Çizgi stilini ayarlama** ve konturu çizme
-Kırpılmış dikdörtgeni doldurduktan sonra, özel bir kesik desenle dikdörtgenin kenarını çizerek **java graphics clipping** örneğini gösteriyoruz.
+### Step 3: **Set stroke style** and draw the outline
+After filling the clipped rectangle, we demonstrate **java graphics clipping** by drawing the rectangle’s border with a custom dash pattern.
 
 ```java
 document.translate(100, 100);
@@ -100,61 +105,61 @@ document.setStroke(stroke);
 document.draw(rectangle);
 ```
 
-Burada `BasicStroke`, 2 piksel genişliğinde ve 5 piksel kesik bir çizgi tanımlar; bu da **çizgi stilini ayarlama** sayesinde daha zengin görsel efektler elde etmenizi sağlar.
+Here, `BasicStroke` defines a 2‑pixel wide line with a 5‑pixel dash, showcasing how to **set stroke style** for richer visual effects.
 
-### Adım 4: Sayfayı kapatma ve **PostScript olarak kaydetme**
-Son olarak sayfayı sonlandırın ve çıktı dosyasını yazın.
+### Step 4: Close the page and **save as PostScript**
+Finally, finalize the page and write the output file.
 
 ```java
 document.closePage();
 document.save();
 ```
 
-`Clipping_outPS.ps` dosyanız artık dairesel bir bölgeyle kırpılmış mavi bir dikdörtgen ve kesikli bir kontur içeriyor—baskı veya daha ileri dönüşüm için hazır.
+Your `Clipping_outPS.ps` file now contains a blue rectangle clipped by a circular region, with a dashed outline—ready for printing or further conversion.
 
-## Yaygın Sorunlar & Çözümler
+## Common Issues & Solutions
 | Sorun | Neden | Çözüm |
-|-------|-------|------|
-| **Dosya bulunamadı** | `dataDir` yolu hatalı | Mutlak yol kullanın veya akışı oluştururken `new File(dataDir).mkdirs()` çağırın. |
-| **Kırpma uygulanmadı** | `writeGraphicsSave()` / `writeGraphicsRestore()` eksik | Kırpma kodunu bu çağrılarla sarmaladığınızdan emin olun. |
-| **Çizgi düz görünüyor** | `BasicStroke` kesik dizisi ayarlanmamış | Kesik desen dizisini (`new float[]{5.0f}`) doğru şekilde geçtiğinizi kontrol edin. |
+|-------|-------|-----|
+| **File not found** | `dataDir` path incorrect | Use absolute path or `new File(dataDir).mkdirs()` before creating the stream. |
+| **Clipping not applied** | Missing `writeGraphicsSave()` / `writeGraphicsRestore()` | Ensure you wrap clipping code with these calls to preserve state. |
+| **Stroke appears solid** | `BasicStroke` dash array not set | Verify the dash pattern array (`new float[]{5.0f}`) is passed correctly. |
 
-## Sık Sorulan Sorular
+## Frequently Asked Questions
 
-### Aspose.Page farklı belge formatlarıyla uyumlu mu?
-Evet, Aspose.Page çeşitli belge formatlarını destekler ve belge işleme görevlerinde çok yönlülük sağlar.
+### Is Aspose.Page compatible with different document formats?
+Yes, Aspose.Page supports various document formats, providing versatility in document processing tasks.
 
-### Aspose.Page for Java’yı ticari projelerimde kullanabilir miyim?
-Kesinlikle! Aspose.Page, kişisel ve ticari projelerde kullanılabilecek bir ticari lisans sunar.
+### Can I use Aspose.Page for Java in my commercial projects?
+Absolutely! Aspose.Page offers a commercial license for developers, ensuring its usage in both personal and commercial projects.
 
-### Test amaçlı geçici bir lisans nasıl alabilirim?
-Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edebilirsiniz.
+### How can I get a temporary license for testing purposes?
+Obtain a temporary license for testing from [here](https://purchase.aspose.com/temporary-license/).
 
-### Daha fazla örnek ve dokümantasyon nerede bulunur?
-Zengin kaynaklar için [documentation](https://reference.aspose.com/page/java/) ve [Aspose.Page forum](https://forum.aspose.com/c/page/39) sayfalarını keşfedin.
+### Where can I find more examples and documentation?
+Explore the [documentation](https://reference.aspose.com/page/java/) and [Aspose.Page forum](https://forum.aspose.com/c/page/39) for a wealth of resources.
 
-### Ücretsiz deneme mevcut mu?
-Evet, Aspose.Page’in ücretsiz denemesine [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+### Is there a free trial available?
+Yes, you can access the free trial of Aspose.Page [here](https://releases.aspose.com/).
 
-**Ek Soru‑Cevap**
+**Additional Q&A**
 
-**S:** *“apply clipping region” aslında render pipeline’ına ne yapar?*  
-**C:** Grafik motoruna tanımlı şeklin dışındaki tüm çizim komutlarını yok saymasını söyler; böylece çıktıyı maskeleyerek sadece istenen bölgeyi gösterir.
+**Q:** *What does “apply clipping region” actually do to the rendering pipeline?*  
+**A:** It tells the graphics engine to ignore any drawing commands that fall outside the defined shape, effectively masking the output.
 
-**S:** *Birden fazla kırpma şekli birleştirilebilir mi?*  
-**C:** Evet—`document.clip()` metodunu birden çok kez çağırın; her çağrı mevcut kırpma bölgesiyle yeni şeklin kesişimini alır.
+**Q:** *Can I combine multiple clipping shapes?*  
+**A:** Yes—call `document.clip()` multiple times; each call intersects the current clipping region with the new shape.
 
-**S:** *Çizimden sonra kırpma şekli değiştirilebilir mi?*  
-**C:** Yalnızca kaydedilmiş bir grafik durumu içinde mümkündür. Kırpmadan önce `writeGraphicsSave()` kullanın ve geri dönmek için `writeGraphicsRestore()` çağırın.
+**Q:** *Is it possible to change the clipping shape after drawing?*  
+**A:** Only within a saved graphics state. Use `writeGraphicsSave()` before clipping and `writeGraphicsRestore()` to revert.
 
-## Sonuç
-**PostScript olarak kaydet**, **şekilleri nasıl kırpacağınız**, **çizgi stilini ayarlama** ve **kırpma bölgesi uygulama** konularında uzmanlaşarak Aspose.Page ile Java grafik render’ını tam kontrol edebilirsiniz. Farklı geometriler, kesik desenler ve renklerle deneyler yaparak vektör tabanlı belge oluşturmanın tam potansiyelini ortaya çıkarın.
+## Conclusion
+By mastering **create PostScript file Java**, **how to clip shapes**, **set stroke style**, and **apply clipping region**, you gain precise control over Java graphics rendering with Aspose.Page. Experiment with different geometries, dash patterns, and colors to unlock the full potential of vector‑based document creation.
 
 ---
 
-**Son Güncelleme:** 2025-12-03  
-**Test Edilen Versiyon:** Aspose.Page for Java 24.11  
-**Yazar:** Aspose
+**Last Updated:** 2026-02-07  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

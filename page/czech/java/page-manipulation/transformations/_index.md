@@ -1,10 +1,10 @@
 ---
-date: 2025-12-07
-description: Naučte se, jak v Javě pomocí Aspose.Page škálovat obdélník, posunout
-  tvar a aplikovat afinní transformaci k vytváření dokumentů PostScript.
+date: 2026-02-07
+description: Naučte se, jak škálovat obdélník pomocí Aspose.Page pro Javu, jak přesunout
+  tvar a aplikovat afinní transformaci k vytvoření dokumentů PostScript.
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
-title: Jak škálovat obdélník a aplikovat transformace pomocí Aspose.Page
+title: Jak škálovat obdélník pomocí Aspose.Page pro Javu
 url: /cs/java/page-manipulation/transformations/
 weight: 11
 ---
@@ -13,27 +13,27 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak škálovat obdélník a aplikovat transformace s Aspose.Page
+# Jak škálovat obdélník pomocí Aspose.Page pro Java
 
 ## Úvod
-Vítejte v komplexním průvodci využíváním výkonných funkcí **Aspose.Page for Java** k provádění různých transformací stránky. V tomto tutoriálu se naučíte **jak škálovat obdélník**, posouvat tvary, otáčet objekty a **aplikovat afinní transformaci** při vytváření **PostScript dokumentu**. Tyto možnosti vám umožní vytvářet bohaté, graficky náročné Java aplikace bez nutnosti pracovat s nízkoúrovňovým vykreslovacím kódem.
+Vítejte v komplexním průvodci využíváním výkonných funkcí **Aspose.Page for Java** k provádění různých transformací stránek. V tomto tutoriálu se naučíte **jak škálovat obdélník**, přesouvat tvary, otáčet objekty a **aplikovat afinní transformaci** při vytváření **PostScript dokumentu**. Tyto možnosti vám umožní vytvářet bohaté, graficky náročné Java aplikace bez nutnosti pracovat s nízkoúrovňovým renderovacím kódem.
 
 ## Rychlé odpovědi
-- **Jak mohu v Javě s Aspose.Page škálovat obdélník?** Použijte metodu `document.scale()` před vykreslením tvaru.  
-- **Mohu posunout (přeložit) tvar, aniž by to ovlivnilo ostatní grafiku?** Ano — uložte stav grafiky, zavolejte `document.translate(x, y)`, vykreslete a poté obnovte stav.  
-- **Která třída vytváří PostScript soubor?** `PsDocument` spolu s `PsSaveOptions`.  
-- **Potřebuji licenci pro produkční použití?** Pro komerční nasazení je vyžadována platná licence Aspose.Page.  
-- **Jaká verze Javy je podporována?** Aspose.Page funguje s Java 8 a novějšími.
+- **Jak mohu v Javě se Aspose.Page škálovat obdélník?** Použijte metodu `document.scale()` před vykreslením tvaru.  
+- **Mohu přesunout (přeložit) tvar, aniž by to ovlivnilo ostatní grafiku?** Ano—uložte stav grafiky, zavolejte `document.translate(x, y)`, vykreslete a poté obnovte stav.  
+- **Jaká třída vytváří soubor PostScript?** `PsDocument` spolu s `PsSaveOptions`.  
+- **Potřebuji licenci pro produkční použití?** Platná licence Aspose.Page je vyžadována pro komerční nasazení.  
+- **Která verze Javy je podporována?** Aspose.Page funguje s Java 8 a novějšími.
 
 ## Požadavky
-Než se pustíme do podrobného návodu, ujistěte se, že máte splněny následující požadavky:
+Než se pustíme do podrobného návodu, ujistěte se, že máte následující předpoklady:
 
-- Základní znalosti programování v Javě.  
-- Knihovna Aspose.Page for Java nainstalovaná. Můžete si ji stáhnout z [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
+- Základní znalost programování v Javě.  
+- Knihovna Aspose.Page pro Java nainstalována. Můžete si ji stáhnout z [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
 - Integrované vývojové prostředí (IDE) pro Javu nastavené na vašem počítači.
 
 ## Import balíčků
-Ve svém Java projektu importujte potřebné balíčky pro využití Aspose.Page for Java:
+Ve vašem Java projektu importujte potřebné balíčky pro využití Aspose.Page for Java:
 
 ```java
 import java.awt.Color;
@@ -45,14 +45,14 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Co znamená „jak škálovat obdélník“ v Aspose.Page?
-Škálování obdélníka mění jeho velikost podél os X a Y při zachování tvaru. Aspose.Page poskytuje metodu `scale(float sx, float sy)`, která aplikuje **afinní transformaci** na aktuální stav grafiky. Toto je hlavní technika za klíčovým slovem **jak škálovat obdélník**.
+## Co je „jak škálovat obdélník“ v Aspose.Page?
+Škálování obdélníku mění jeho velikost podél os X a Y při zachování tvaru. Aspose.Page poskytuje metodu `scale(float sx, float sy)`, která aplikuje **afinní transformaci** na aktuální stav grafiky. Toto je hlavní technika stojící za klíčovým slovem **how to scale rectangle**.
 
-## Jak posunout tvar s Aspose.Page
-Posunutí (translation) přesune tvar na nové místo, aniž by změnilo jeho rozměry. To je podstata **jak posunout tvar**. Uložením stavu grafiky, aplikací `translate(dx, dy)`, vykreslením a následným obnovením stavu zajistíte, že ostatní objekty zůstanou nedotčeny.
+## Jak přesunout tvar pomocí Aspose.Page
+Překlad (translation) přesouvá tvar na nové místo, aniž by změnil jeho rozměry. To je podstata **how to translate shape**. Uložením stavu grafiky, aplikací `translate(dx, dy)`, vykreslením a následným obnovením stavu zajistíte, že ostatní objekty zůstanou nedotčeny.
 
 ## Příklad 1: Žádné transformace
-První příklad vykresluje jednoduchý obdélník bez aplikované transformace. Slouží jako výchozí bod pro srovnání s následujícími příklady.
+První příklad vykresluje jednoduchý obdélník bez jakékoli aplikované transformace. Slouží jako výchozí bod pro srovnání s následujícími příklady.
 
 ```java
 // The path to the documents directory.
@@ -75,8 +75,8 @@ document.closePage();
 document.save();
 ```
 
-## Příklad 2: Posunutí
-Zde demonstrujeme **jak posunout tvar** přesunutím grafického kontextu o 250 jednotek doprava před vykreslením druhého obdélníka.
+## Příklad 2: Překlad
+Zde demonstrujeme **how to translate shape** přesunutím grafického kontextu o 250 jednotek doprava před vykreslením druhého obdélníku.
 
 ```java
 // Save graphics state to return back after transformation
@@ -92,7 +92,7 @@ document.writeGraphicsRestore();
 ```
 
 ## Příklad 3: Škálování
-Tento příklad odpovídá na hlavní otázku **jak škálovat obdélník**. Zmenšíme obdélník na 50 % jeho původní šířky a 75 % jeho výšky.
+Tento příklad odpovídá na hlavní otázku **how to scale rectangle**. Zmenšíme obdélník na 50 % původní šířky a 75 % výšky.
 
 ```java
 // Save graphics state to return back after transformation
@@ -108,57 +108,60 @@ document.writeGraphicsRestore();
 ```
 
 ## Jak otáčet tvar v Javě (rotate shape java)
-Otáčení je další běžná afinní operace. I když jsou úryvky kódu pro otáčení vynechány pro stručnost, vzor je stejný: uložte stav grafiky, zavolejte `document.rotate(angle)`, vykreslete tvar a poté obnovte. Toto ukazuje **rotate shape java** a **jak otáčet obdélník** v praxi.
+Rotace je další běžná afinní operace. Kódové úryvky pro rotaci jsou vynechány z důvodu stručnosti, ale postup je stejný: uložte stav grafiky, zavolejte `document.rotate(angle)`, vykreslete tvar a poté obnovte stav. To ukazuje **rotate shape java** a **how to rotate rectangle** v praxi.
 
-## Proč použít Aspose.Page pro tyto transformace?
-- **Zařízení‑nezávislé**: Napište jednou, generujte PostScript nebo XPS bez platformně specifického kódu.  
-- **Detailní kontrola**: Přímý přístup ke stavu grafiky vám umožní kombinovat posunutí, škálování, sklon a otáčení.  
-- **Výkon**: Nízká režie API vhodná pro dávkové zpracování velkých dokumentů.  
+## Proč je to důležité – Praktické výhody
+- **Výstup nezávislý na zařízení** – Napište jednou a generujte PostScript nebo XPS bez úprav specifických pro platformu.  
+- **Detailní kontrola** – Kombinujte překlad, škálování, zkosení a rotaci pro splnění přesných požadavků na rozvržení.  
+- **Výkonnostně orientované** – API s nízkou režijní zátěží ideální pro dávkové zpracování rozsáhlých dokumentů.  
 
-## Běžné scénáře použití
-- Generování tisknutelných faktur s dynamickými čárovými kódy a logy.  
+## Běžné případy použití
+- Generování tisknutelných faktur – například řešení **printable invoice java**, které přesně umisťuje loga a čárové kódy.  
 - Vytváření technických diagramů, kde je vyžadováno přesné škálování a umístění.  
-- Automatizace tvorby vícestránkových zpráv ve formátu PostScript.
+- Automatizace tvorby vícestránkových zpráv ve formátu PostScript.  
 
-## Závěr
-V tomto tutoriálu jsme prozkoumali různé transformace v Java Page Manipulation pomocí Aspose.Page for Java, se zaměřením na **jak škálovat obdélník**, **jak posunout tvar** a další afinní operace. Dodržením těchto příkladů můžete vylepšit své Java aplikace o pokročilé možnosti manipulace se stránkami a **vytvářet PostScript dokumenty**, které splňují profesionální standardy publikování.
+## Běžné problémy a řešení
+- **Transformace se neobnovuje** – Vždy spárujte `document.writeGraphicsSave()` s `document.writeGraphicsRestore()`, aby nedocházelo k nechtěnému přenášení efektů.  
+- **Neočekávané barvy** – Ujistěte se, že po každé transformaci nastavíte barvu; stav grafiky po obnovení neuchovává předchozí nastavení barvy.  
+- **Velikost souboru je příliš velká** – Použijte `PsSaveOptions` k povolení komprese nebo snížení rozlišení obrázku při vkládání rastrové grafiky.  
 
-## FAQ's
-### Mohu použít Aspose.Page for Java i pro jiné formáty dokumentů?
+## Často kladené otázky
+
+### Mohu použít Aspose.Page pro Java i pro jiné formáty dokumentů?
 Aspose.Page se primárně zaměřuje na manipulaci stránek pro formáty PostScript a XPS.
 
-### Kde najdu více příkladů a dokumentaci k Aspose.Page for Java?
+### Kde najdu více příkladů a dokumentaci pro Aspose.Page pro Java?
 Navštivte [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) pro komplexní informace.
 
-### Je k dispozici bezplatná zkušební verze Aspose.Page for Java?
-Ano, bezplatnou zkušební verzi získáte [zde](https://releases.aspose.com/).
+### Je k dispozici bezplatná zkušební verze Aspose.Page pro Java?
+Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
 
-### Jak získat dočasnou licenci pro Aspose.Page for Java?
-Dočasnou licenci můžete získat [zde](https://purchase.aspose.com/temporary-license/).
+### Jak získat dočasnou licenci pro Aspose.Page pro Java?
+Získejte dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
 
-### Kde mohu získat komunitní podporu nebo klást otázky ohledně Aspose.Page for Java?
-Navštivte [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) pro diskuse v komunitě.
+### Kde mohu získat komunitní podporu nebo klást otázky ohledně Aspose.Page pro Java?
+Navštivte [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) pro komunitní diskuse.
 
 ## Často kladené otázky
 
 **Q: Jaký je rozdíl mezi `translate` a `scale`?**  
-A: `translate` posouvá počátek souřadnicového systému, zatímco `scale` mění velikost vykreslovaných objektů podél os X a/nebo Y.
+A: `translate` posouvá počátek souřadnicového systému, zatímco `scale` mění velikost vykreslených objektů podél os X a/nebo Y.
 
 **Q: Mohu kombinovat více transformací v jednom stavu grafiky?**  
-A: Ano — voláním `translate`, `scale`, `rotate` nebo `shear` postupně před vykreslením vytvoříte kombinovanou afinní transformaci.
+A: Ano—voláním `translate`, `scale`, `rotate` nebo `shear` postupně před vykreslením vytvoříte kombinovanou afinní transformaci.
 
 **Q: Jak resetuji transformace po vykreslení tvaru?**  
 A: Použijte `document.writeGraphicsRestore()` k návratu k dříve uloženému stavu grafiky.
 
-**Q: Je možné otáčet obdélník kolem jeho středu?**  
-A: Rozhodně. Přesuňte obdélník do počátku, aplikujte `rotate(angle)`, poté jej vraťte zpět před vykreslením.
+**Q: Je možné otočit obdélník kolem jeho středu?**  
+A: Rozhodně. Přesuňte obdélník do počátku, aplikujte `rotate(angle)`, pak jej vraťte zpět před vykreslením.
 
 **Q: Podporuje Aspose.Page anti‑aliasing pro hladší grafiku?**  
-A: Ano — nastavte odpovídající možnosti vykreslování v `PsSaveOptions` pro povolení anti‑aliasingu.
+A: Ano—nastavte příslušné možnosti vykreslování v `PsSaveOptions` pro povolení anti‑aliasingu.
 
 ---
 
-**Poslední aktualizace:** 2025-12-07  
+**Poslední aktualizace:** 2026-02-07  
 **Testováno s:** Aspose.Page for Java 24.12  
 **Autor:** Aspose  
 

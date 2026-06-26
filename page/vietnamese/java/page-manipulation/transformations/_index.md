@@ -1,10 +1,10 @@
 ---
-date: 2025-12-07
-description: Tìm hiểu cách co dãn hình chữ nhật, dịch chuyển hình dạng và áp dụng
-  biến đổi affine trong Java bằng Aspose.Page để tạo tài liệu PostScript.
+date: 2026-02-07
+description: Tìm hiểu cách phóng to hình chữ nhật bằng Aspose.Page cho Java, cách
+  dịch chuyển hình dạng và áp dụng biến đổi affine để tạo tài liệu PostScript.
 linktitle: Transformations in Java Page Manipulation
 second_title: Aspose.Page Java API
-title: Cách thu phóng hình chữ nhật và áp dụng các phép biến đổi với Aspose.Page
+title: Cách thu phóng hình chữ nhật bằng Aspose.Page cho Java
 url: /vi/java/page-manipulation/transformations/
 weight: 11
 ---
@@ -13,27 +13,27 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Thu Phóng Hình Chữ Nhật và Áp Dụng Biến Đổi với Aspose.Page
+# Cách Thu Phóng Hình Chữ Nhật với Aspose.Page cho Java
 
 ## Giới thiệu
-Chào mừng bạn đến với hướng dẫn toàn diện về việc sử dụng các tính năng mạnh mẽ của **Aspose.Page for Java** để thực hiện đa dạng các biến đổi trang. Trong tutorial này, bạn sẽ học **cách thu phóng hình chữ nhật**, dịch chuyển các hình dạng, xoay các đối tượng, và **áp dụng kỹ thuật biến đổi affine** khi tạo **tài liệu PostScript**. Những khả năng này cho phép bạn xây dựng các ứng dụng Java giàu đồ họa mà không cần viết mã render cấp thấp.
+Chào mừng đến với hướng dẫn toàn diện về việc sử dụng các tính năng mạnh mẽ của **Aspose.Page for Java** để thực hiện đa dạng các phép biến đổi trang. Trong tutorial này, bạn sẽ học **how to scale rectangle**, dịch chuyển các hình, xoay các đối tượng, và **apply affine transform** khi tạo **PostScript document**. Những khả năng này cho phép bạn xây dựng các ứng dụng Java giàu đồ họa mà không cần xử lý mã render cấp thấp.
 
-## Trả lời nhanh
-- **Làm sao để thu phóng một hình chữ nhật trong Java với Aspose.Page?** Sử dụng phương thức `document.scale()` trước khi vẽ hình.  
-- **Tôi có thể di chuyển (dịch) một hình dạng mà không ảnh hưởng đến các đồ họa khác không?** Có — lưu trạng thái đồ họa, gọi `document.translate(x, y)`, vẽ, rồi khôi phục trạng thái.  
-- **Lớp nào tạo file PostScript?** `PsDocument` kết hợp với `PsSaveOptions`.  
-- **Có cần giấy phép cho việc sử dụng trong môi trường production không?** Cần một giấy phép Aspose.Page hợp lệ cho các triển khai thương mại.  
-- **Phiên bản Java nào được hỗ trợ?** Aspose.Page hoạt động với Java 8 trở lên.
+## Câu trả lời nhanh
+- **Làm thế nào để thu phóng một hình chữ nhật trong Java với Aspose.Page?** Sử dụng phương thức `document.scale()` trước khi vẽ hình.  
+- **Tôi có thể di chuyển (dịch chuyển) một hình mà không ảnh hưởng đến các đồ họa khác không?** Có — lưu trạng thái đồ họa, gọi `document.translate(x, y)`, vẽ, sau đó khôi phục trạng thái.  
+- **Lớp nào tạo file PostScript?** `PsDocument` cùng với `PsSaveOptions`.  
+- **Tôi có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?** Cần có giấy phép Aspose.Page hợp lệ cho các triển khai thương mại.  
+- **Phiên bản Java nào được hỗ trợ?** Aspose.Page hoạt động với Java 8 trở lên.
 
-## Điều kiện tiên quyết
-Trước khi bắt đầu hướng dẫn chi tiết, hãy chắc chắn bạn đã chuẩn bị các điều kiện sau:
+## Yêu cầu trước
+Trước khi chúng ta đi sâu vào hướng dẫn từng bước, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
 
 - Kiến thức cơ bản về lập trình Java.  
-- Thư viện Aspose.Page for Java đã được cài đặt. Bạn có thể tải xuống từ [tài liệu Aspose.Page for Java](https://reference.aspose.com/page/java/).  
-- Một môi trường phát triển tích hợp (IDE) cho Java đã được thiết lập trên máy tính của bạn.
+- Thư viện Aspose.Page for Java đã được cài đặt. Bạn có thể tải xuống từ [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
+- Môi trường phát triển tích hợp Java (IDE) đã được thiết lập trên máy của bạn.
 
-## Nhập gói
-Trong dự án Java của bạn, nhập các gói cần thiết để sử dụng Aspose.Page for Java:
+## Nhập các gói
+Trong dự án Java của bạn, nhập các gói cần thiết để sử dụng Aspose.Page cho Java:
 
 ```java
 import java.awt.Color;
@@ -45,14 +45,14 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## “how to scale rectangle” trong Aspose.Page là gì?
-Việc thu phóng một hình chữ nhật thay đổi kích thước của nó theo trục X và Y trong khi vẫn giữ nguyên hình dạng. Aspose.Page cung cấp phương thức `scale(float sx, float sy)`, áp dụng một **biến đổi affine** lên trạng thái đồ họa hiện tại. Đây là kỹ thuật cốt lõi đằng sau từ khóa **how to scale rectangle**.
+## “how to scale rectangle” là gì trong Aspose.Page?
+Việc thu phóng một hình chữ nhật thay đổi kích thước của nó theo trục X và Y trong khi vẫn giữ nguyên hình dạng. Aspose.Page cung cấp phương thức `scale(float sx, float sy)`, áp dụng một **affine transform** lên trạng thái đồ họa hiện tại. Đây là kỹ thuật cốt lõi phía sau từ khóa **how to scale rectangle**.
 
-## Cách Dịch Chuyển Hình Dạng với Aspose.Page
-Dịch chuyển di chuyển một hình dạng tới vị trí mới mà không thay đổi kích thước của nó. Đây là bản chất của **how to translate shape**. Bằng cách lưu trạng thái đồ họa, áp dụng `translate(dx, dy)`, vẽ, và sau đó khôi phục trạng thái, bạn giữ cho các đối tượng khác không bị ảnh hưởng.
+## Cách Dịch Chuyển Hình với Aspose.Page
+Dịch chuyển di chuyển một hình tới vị trí mới mà không thay đổi kích thước của nó. Đây là bản chất của **how to translate shape**. Bằng cách lưu trạng thái đồ họa, áp dụng `translate(dx, dy)`, vẽ, và sau đó khôi phục trạng thái, bạn giữ các đối tượng khác không bị ảnh hưởng.
 
-## Ví dụ 1: Không Có Biến Đổi
-Ví dụ đầu tiên vẽ một hình chữ nhật đơn giản mà không áp dụng bất kỳ biến đổi nào. Đây là cơ sở để so sánh với các ví dụ sau.
+## Ví dụ 1: Không có biến đổi
+Ví dụ đầu tiên vẽ một hình chữ nhật đơn giản mà không áp dụng bất kỳ biến đổi nào. Điều này làm nền tảng để so sánh với các ví dụ sau.
 
 ```java
 // The path to the documents directory.
@@ -75,7 +75,7 @@ document.closePage();
 document.save();
 ```
 
-## Ví dụ 2: Dịch Chuyển
+## Ví dụ 2: Dịch chuyển
 Ở đây chúng tôi minh họa **how to translate shape** bằng cách di chuyển ngữ cảnh đồ họa 250 đơn vị sang phải trước khi vẽ hình chữ nhật thứ hai.
 
 ```java
@@ -91,7 +91,7 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Ví dụ 3: Thu Phóng
+## Ví dụ 3: Thu phóng
 Ví dụ này trả lời câu hỏi chính **how to scale rectangle**. Chúng tôi thu nhỏ hình chữ nhật xuống 50 % chiều rộng gốc và 75 % chiều cao gốc.
 
 ```java
@@ -107,59 +107,61 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Cách Xoay Hình Dạng Java (rotate shape java)
-Xoay là một thao tác affine phổ biến khác. Mặc dù các đoạn mã xoay bị bỏ qua để ngắn gọn, mẫu thực hiện vẫn giống nhau: lưu trạng thái đồ họa, gọi `document.rotate(angle)`, vẽ hình, rồi khôi phục. Điều này minh họa **rotate shape java** và **how to rotate rectangle** trong thực tế.
+## Cách Xoay Hình Java (rotate shape java)
+Xoay là một phép biến đổi affine phổ biến khác. Mặc dù các đoạn mã xoay bị bỏ qua để ngắn gọn, mẫu thực hiện là giống nhau: lưu trạng thái đồ họa, gọi `document.rotate(angle)`, vẽ hình, sau đó khôi phục. Điều này minh họa **rotate shape java** và **how to rotate rectangle** trong thực tế.
 
-## Tại sao nên dùng Aspose.Page cho các biến đổi này?
-- **Không phụ thuộc vào thiết bị**: Viết một lần, tạo PostScript hoặc XPS mà không cần mã đặc thù nền tảng.  
-- **Kiểm soát chi tiết**: Truy cập trực tiếp vào trạng thái đồ họa cho phép bạn kết hợp dịch chuyển, thu phóng, kéo dãn và xoay.  
-- **Hiệu năng**: API nhẹ, phù hợp cho xử lý hàng loạt tài liệu lớn.  
+## Tại sao điều này quan trọng – Lợi ích thực tế
+- **Device‑independent output** – Viết một lần và tạo PostScript hoặc XPS mà không cần tinh chỉnh theo nền tảng.  
+- **Fine‑grained control** – Kết hợp dịch chuyển, thu phóng, cắt xén và xoay để đáp ứng yêu cầu bố cục chính xác.  
+- **Performance‑oriented** – API nhẹ, lý tưởng cho xử lý hàng loạt tài liệu quy mô lớn.  
 
 ## Các trường hợp sử dụng phổ biến
-- Tạo hoá đơn có thể in được với mã vạch và logo động.  
-- Thiết kế sơ đồ kỹ thuật yêu cầu độ chính xác cao trong việc thu phóng và định vị.  
-- Tự động hoá việc sản xuất báo cáo đa trang ở định dạng PostScript.
+- Tạo hoá đơn có thể in – ví dụ, giải pháp **printable invoice java** đặt logo và mã vạch một cách chính xác.  
+- Tạo sơ đồ kỹ thuật nơi cần thu phóng và định vị chính xác.  
+- Tự động tạo báo cáo đa trang ở định dạng PostScript.  
 
-## Kết luận
-Trong tutorial này, chúng ta đã khám phá các biến đổi khác nhau trong việc thao tác trang Java bằng Aspose.Page for Java, tập trung vào **how to scale rectangle**, **how to translate shape**, và các thao tác affine khác. Bằng cách làm theo các ví dụ này, bạn có thể nâng cao ứng dụng Java của mình với khả năng thao tác trang nâng cao và **tạo tài liệu PostScript** đáp ứng tiêu chuẩn xuất bản chuyên nghiệp.
+## Các vấn đề thường gặp và giải pháp
+- **Transformation not resetting** – Luôn luôn ghép `document.writeGraphicsSave()` với `document.writeGraphicsRestore()` để tránh các hiệu ứng kéo theo không mong muốn.  
+- **Unexpected colors** – Đảm bảo bạn đặt màu sau mỗi biến đổi; trạng thái đồ họa không giữ lại cài đặt màu trước khi khôi phục.  
+- **File size too large** – Sử dụng `PsSaveOptions` để bật nén hoặc giảm độ phân giải ảnh khi nhúng đồ họa raster.  
 
 ## Câu hỏi thường gặp
-### Tôi có thể dùng Aspose.Page for Java cho các định dạng tài liệu khác không?
-Aspose.Page chủ yếu tập trung vào thao tác trang cho định dạng PostScript và XPS.
+### Tôi có thể sử dụng Aspose.Page cho Java cho các định dạng tài liệu khác không?
+Aspose.Page chủ yếu tập trung vào việc thao tác trang cho các định dạng PostScript và XPS.
 
-### Tôi có thể tìm thêm ví dụ và tài liệu cho Aspose.Page for Java ở đâu?
-Truy cập [tài liệu Aspose.Page for Java](https://reference.aspose.com/page/java/) để có thông tin chi tiết.
+### Tôi có thể tìm thêm ví dụ và tài liệu cho Aspose.Page cho Java ở đâu?
+Truy cập [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) để có thông tin toàn diện.
 
-### Có bản dùng thử miễn phí cho Aspose.Page for Java không?
+### Có bản dùng thử miễn phí cho Aspose.Page cho Java không?
 Có, bạn có thể truy cập bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
-### Làm sao để lấy giấy phép tạm thời cho Aspose.Page for Java?
+### Làm sao tôi có thể nhận giấy phép tạm thời cho Aspose.Page cho Java?
 Nhận giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
-### Tôi có thể tìm hỗ trợ cộng đồng hoặc đặt câu hỏi về Aspose.Page for Java ở đâu?
-Tham gia diễn đàn [Aspose.Page for Java](https://forum.aspose.com/c/page/39) để thảo luận với cộng đồng.
+### Tôi có thể tìm hỗ trợ cộng đồng hoặc đặt câu hỏi về Aspose.Page cho Java ở đâu?
+Truy cập [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) để thảo luận cộng đồng.
 
-## Các câu hỏi thường gặp khác
+## Câu hỏi thường gặp
 
-**H: Sự khác nhau giữa `translate` và `scale` là gì?**  
-Đ: `translate` di chuyển gốc của hệ tọa độ, trong khi `scale` thay đổi kích thước của các đối tượng được vẽ theo trục X và/hoặc Y.
+**Q: Sự khác nhau giữa `translate` và `scale` là gì?**  
+A: `translate` di chuyển gốc của hệ tọa độ, trong khi `scale` thay đổi kích thước của các đối tượng được vẽ theo trục X và/hoặc Y.
 
-**H: Tôi có thể kết hợp nhiều biến đổi trong một trạng thái đồ họa không?**  
-Đ: Có — bằng cách gọi `translate`, `scale`, `rotate`, hoặc `shear` liên tiếp trước khi vẽ, bạn tạo ra một biến đổi affine tổng hợp.
+**Q: Tôi có thể kết hợp nhiều biến đổi trong một trạng thái đồ họa duy nhất không?**  
+A: Có — bằng cách gọi `translate`, `scale`, `rotate`, hoặc `shear` liên tiếp trước khi vẽ, bạn tạo ra một phép biến đổi affine kết hợp.
 
-**H: Làm sao để đặt lại các biến đổi sau khi vẽ một hình dạng?**  
-Đ: Sử dụng `document.writeGraphicsRestore()` để quay lại trạng thái đồ họa đã lưu trước đó.
+**Q: Làm sao tôi đặt lại các biến đổi sau khi vẽ một hình?**  
+A: Sử dụng `document.writeGraphicsRestore()` để quay lại trạng thái đồ họa đã lưu trước đó.
 
-**H: Có thể xoay một hình chữ nhật quanh trung tâm của nó không?**  
-Đ: Chắc chắn. Dịch chuyển hình chữ nhật tới gốc, áp dụng `rotate(angle)`, rồi dịch chuyển lại vị trí ban đầu trước khi vẽ.
+**Q: Có thể xoay một hình chữ nhật quanh trung tâm của nó không?**  
+A: Hoàn toàn có thể. Dịch chuyển hình chữ nhật tới gốc, áp dụng `rotate(angle)`, sau đó dịch chuyển lại về vị trí ban đầu trước khi vẽ.
 
-**H: Aspose.Page có hỗ trợ anti‑aliasing để làm mịn đồ họa không?**  
-Đ: Có — đặt các tùy chọn render phù hợp trong `PsSaveOptions` để bật anti‑aliasing.
+**Q: Aspose.Page có hỗ trợ anti‑aliasing để đồ họa mượt hơn không?**  
+A: Có — đặt các tùy chọn render phù hợp trong `PsSaveOptions` để bật anti‑aliasing.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-07  
-**Đã kiểm tra với:** Aspose.Page for Java 24.12  
+**Cập nhật lần cuối:** 2026-02-07  
+**Kiểm tra với:** Aspose.Page for Java 24.12  
 **Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
