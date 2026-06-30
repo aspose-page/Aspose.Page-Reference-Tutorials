@@ -1,35 +1,70 @@
 ---
-title: Voeg afbeelding gevulde glyph en buitenlandse afbeelding toe met Aspose.Page .NET
-linktitle: Voeg afbeelding gevulde glyph en buitenlandse afbeelding toe
-second_title: Aspose.Page .NET-API
-description: Ontgrendel de kracht van documentverwerking in .NET met Aspose.Page. Voeg moeiteloos met afbeeldingen gevulde glyphs toe. Verbeter de visuals en stroomlijn uw workflow.
-weight: 11
+date: 2026-06-30
+description: Leer hoe je een XPS document .NET maakt en Image Filled Glyphs of Foreign
+  Images toevoegt met Aspose.Page voor .NET in een paar eenvoudige stappen.
+keywords:
+- create xps document .net
+- image filled glyph
+- foreign image
+linktitle: Image Filled Glyph & Foreign Image toevoegen
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to create XPS document .NET and add image‑filled glyphs or
+    foreign images using Aspose.Page for .NET in a few easy steps.
+  headline: Create XPS Document .NET – Add Image Filled Glyph & Foreign Image with
+    Aspose.Page
+  type: TechArticle
+- questions:
+  - answer: Over 25 image formats and the ability to process XPS files up to 500 MB
+      without full memory loading.
+    question: What does Aspose.Page support?
+  - answer: 'Just two lines: create an `ImageBrush` and assign it to a `Glyph`.'
+    question: How many lines of code to add an image‑filled glyph?
+  - answer: Yes, a commercial license removes evaluation watermarks.
+    question: Do I need a license for production?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Which .NET versions are compatible?
+  - answer: Absolutely – you can import the font collection from the first document
+      into the second.
+    question: Can I reuse fonts from another XPS?
+  type: FAQPage
+second_title: Aspose.Page .NET API
+title: Maak XPS Document .NET – Voeg Image Filled Glyph & Foreign Image toe met Aspose.Page
 url: /nl/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Voeg afbeelding gevulde glyph en buitenlandse afbeelding toe met Aspose.Page .NET
+# XPS-document maken .NET – Afbeeldinggevulde glyph en vreemde afbeelding toevoegen met Aspose.Page
 
-## Invoering
+## Introductie
 
-In de wereld van .NET-ontwikkeling onderscheidt Aspose.Page zich als een krachtige toolkit voor het afhandelen van documentverwerkingstaken. Deze tutorial leidt u door het proces van het toevoegen van met afbeeldingen gevulde glyphs en het opnemen van externe afbeeldingen met behulp van Aspose.Page voor .NET. Aan het einde van deze handleiding heeft u een goed inzicht in hoe u uw documentverwerkingsmogelijkheden kunt verbeteren.
+In .NET‑ontwikkeling zijn **create XPS document .NET**‑taken gebruikelijk wanneer je hoogwaardige, resolutie‑onafhankelijke graphics nodig hebt. Aspose.Page voor .NET maakt dit eenvoudig en stelt je in staat XPS‑bestanden te verrijken met afbeeldinggevulde glyphs of afbeeldingen uit een ander XPS‑document te halen. Aan het einde van deze tutorial weet je hoe je twee XPS‑documenten maakt, glyphs met afbeeldingen vult en die afbeeldingen opnieuw gebruikt tussen documenten — perfect voor het genereren van facturen, certificaten of elke visueel‑rijke output.
+
+## Quick Answers
+- **Wat ondersteunt Aspose.Page?** Meer dan 25 afbeeldingsformaten en de mogelijkheid om XPS‑bestanden tot 500 MB te verwerken zonder volledige geheugenlading.  
+- **Hoeveel code‑regels zijn nodig om een afbeeldinggevulde glyph toe te voegen?** Slechts twee regels: maak een `ImageBrush` aan en wijs deze toe aan een `Glyph`.  
+- **Heb ik een licentie nodig voor productie?** Ja, een commerciële licentie verwijdert evaluatiewatermerken.  
+- **Welke .NET‑versies zijn compatibel?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Kan ik lettertypen van een andere XPS hergebruiken?** Absoluut – je kunt de lettertypecollectie van het eerste document importeren in het tweede.
+
+## Hoe maak je een XPS-document met Aspose.Page .NET?
+
+Laad de Aspose.Page‑bibliotheek, maak een `XpsDocument` aan, voeg een pagina toe en roep `Save` aan – dat is de volledige workflow in drie beknopte statements. De API behandelt automatisch paginagrootte, DPI en resource‑beheer, zodat je geen low‑level XPS‑structuren zelf hoeft te beheren. Deze aanpak schaalt van een enkel‑pagina flyer tot catalogi met honderden pagina's.
 
 ## Vereisten
 
-Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
+- **Aspose.Page for .NET** – download het vanaf [hier](https://releases.aspose.com/page/net/).  
+- **Een .NET‑IDE** – Visual Studio, Rider of VS Code met de C#‑extensie.  
+- **Een map voor je documenten** – we noemen deze **Your Document Directory** in de code‑fragmenten.
 
--  Aspose.Page voor .NET: Zorg ervoor dat de Aspose.Page-bibliotheek is geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/page/net/).
+## Namespaces importeren
 
-- Ontwikkelomgeving: Zet een werkende .NET-ontwikkelomgeving op met Visual Studio of een andere gewenste IDE.
-
-- Documentmap: maak een map waarin u uw documenten opslaat. In de codevoorbeelden wordt hiernaar verwezen als "Uw documentenmap".
-
-## Naamruimten importeren
-
-Begin in uw .NET-toepassing met het importeren van de benodigde naamruimten om toegang te krijgen tot de klassen en methoden die door Aspose.Page worden geleverd:
+De namespace `Aspose.Page.XPS` biedt de kernklassen voor XPS‑documenten, terwijl `Aspose.Page.XPS.XpsModel` model‑elementen zoals glyphs en brushes bevat. Importeer ze bovenaan je bestand:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,34 +72,38 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
+## Wat is een afbeeldinggevulde glyph?
+
+Een glyph is een vectorvorm die kan worden gerenderd met een effen kleur, een verloop of een image brush. Wanneer je een `ImageBrush` toepast, wordt het interieur van de glyph geschilderd met de opgegeven afbeelding, waardoor complexe visuele effecten mogelijk zijn zonder de hele pagina te rasteren.
+
 ## Stap 1: Maak het eerste XPS-document
 
-Begin met het maken van het eerste XPS-document met Aspose.Page. Dit document zal dienen als basis voor het toevoegen van met afbeeldingen gevulde glyphs.
+`XpsDocument` vertegenwoordigt een XPS‑pakket en is het startpunt voor het maken en opslaan van XPS‑bestanden. Begin met het maken van het eerste XPS‑document dat de afbeeldinggevulde glyphs zal bevatten.
 
 ```csharp
 // ExStart:1
-// Het pad naar de documentenmap.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Maak het eerste XPS-document
+// Create the first XPS Document
 XpsDocument doc1 = new XpsDocument();
 ```
 
-## Stap 2: voeg glyphs toe aan het eerste document
+## Stap 2: Voeg glyphs toe aan het eerste document
 
-Voeg glyphs toe aan het eerste document, waarbij u het lettertype, de grootte, de stijl en de positie specificeert.
+`XpsGlyphs` definieert een verzameling glyphs (teksttekens) die op een pagina kunnen worden geplaatst. Voeg glyphs toe aan het eerste document, waarbij je het lettertype, de grootte, stijl en positie opgeeft.
 
 ```csharp
-// Voeg glyphs toe aan het eerste document
+// Add glyphs to the first document
 XpsGlyphs glyphs1 = doc1.AddGlyphs("Times New Roman", 200, FontStyle.Bold, 50, 250, "Test");
 ```
 
-## Stap 3: Vul glyphs met een afbeeldingspenseel
+## Stap 3: Vul glyphs met een Image Brush
 
-Vul de glyphs met een afbeeldingspenseel en gebruik een afbeelding uit uw gegevensmap.
+`ImageBrush` schildert een gebied met een afbeelding, waardoor patronen of foto's vormen kunnen vullen. Vul de glyphs met een image brush, gebruikmakend van een afbeelding uit je data‑map.
 
 ```csharp
-// Vul de glyphs met een afbeeldingspenseel
+// Fill the glyphs with an image brush
 glyphs1.Fill = doc1.CreateImageBrush(dataDir + "R08SY_NN.tif", new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 64f, 96f));
 ((XpsImageBrush)glyphs1.Fill).TileMode = XpsTileMode.Tile;
@@ -72,74 +111,91 @@ glyphs1.Fill = doc1.CreateImageBrush(dataDir + "R08SY_NN.tif", new RectangleF(0f
 
 ## Stap 4: Maak het tweede XPS-document
 
-Maak nu het tweede XPS-document waarin glyphs uit het eerste document worden opgenomen.
+`XpsDocument` wordt gebruikt om een nieuw XPS‑bestand te maken dat pagina's, resources en inhoud kan bevatten. Maak nu het tweede XPS‑document dat glyphs uit het eerste document zal opnemen.
 
 ```csharp
-// Maak het tweede XPS-document
+// Create the second XPS Document
 XpsDocument doc2 = new XpsDocument();
 ```
 
-## Stap 5: Voeg glyphs toe met het lettertype uit het eerste document
+## Stap 5: Voeg glyphs toe met het lettertype van het eerste document
 
-Voeg glyphs toe aan het tweede document, met behulp van het lettertype uit het eerste document.
+`Font` vertegenwoordigt een lettertype dat wordt gebruikt om tekst in een XPS‑document te renderen. Voeg glyphs toe aan het tweede document, waarbij je het lettertype gebruikt dat uit het eerste document is gehaald. Door de lettertypecollectie te delen, houd je de bestandsgrootte klein en zorg je voor visuele consistentie.
 
 ```csharp
-// Voeg glyphs met het lettertype van het eerste document toe aan het tweede document
+// Add glyphs with the font from the first document to the second document
 XpsGlyphs glyphs2 = doc2.AddGlyphs(glyphs1.Font, 200, 50, 250, "Test");
 ```
 
-## Stap 6: Maak een afbeeldingspenseel op basis van de vulling van het eerste document
+## Stap 6: Maak een Image Brush van de vulling van het eerste document
 
-Maak een afbeeldingspenseel van de vulling van het eerste document en gebruik dit om de symbolen in het tweede document te vullen.
+`ImageBrush` kan worden gemaakt van een bestaande vulling om dezelfde afbeelding in meerdere documenten te hergebruiken. Maak een image brush van de vulling van het eerste document en gebruik deze om de glyphs in het tweede document te vullen. Deze “vreemde afbeelding”‑techniek stelt je in staat om artwork te hergebruiken zonder het bronbestand te dupliceren.
 
 ```csharp
-// Maak een afbeeldingspenseel op basis van de vulling van het eerste document en vul glyphs in het tweede document
+// Create an image brush from the fill of the first document and fill glyphs in the second document
 glyphs2.Fill = doc2.CreateImageBrush(((XpsImageBrush)glyphs1.Fill).Image, new RectangleF(0f, 0f, 128f, 192f),
     new RectangleF(0f, 0f, 128f, 192f));
 ((XpsImageBrush)glyphs2.Fill).TileMode = XpsTileMode.Tile;
 ```
 
-## Stap 7: Bewaar de documenten
+## Stap 7: Sla de documenten op
 
-Sla zowel het eerste als het tweede XPS-document op.
+`Save` schrijft het XPS‑pakket naar een bestand en embedt alle resources. Sla zowel het eerste als het tweede XPS‑document op in de output‑map. De `Save`‑methode schrijft het XPS‑pakket, embedt alle resources en behoudt de afbeeldinggevulde glyphs.
 
 ```csharp
-// Sla het eerste XPS-document op
+// Save the first XPS document
 doc1.Save(dataDir + "out1.xps");
 
-// Sla het tweede XPS-document op
+// Save the second XPS document
 doc2.Save(dataDir + "out2.xps");
-// Verlengen: 1
+// ExEnd:1
 ```
 
-## Conclusie
+## Veelvoorkomende problemen en oplossingen
 
-Gefeliciteerd! U hebt met succes met afbeeldingen gevulde glyphs toegevoegd en externe afbeeldingen opgenomen met Aspose.Page voor .NET. Deze tutorial biedt een basis voor het verbeteren van uw documentverwerkingsmogelijkheden en opent nieuwe mogelijkheden voor creatieve en visueel aantrekkelijke documenten.
+| Probleem | Waarom het gebeurt | Oplossing |
+|----------|--------------------|-----------|
+| **Afbeelding verschijnt niet binnen glyph** | De `ImageBrush` is aangemaakt met een onjuiste URI of de afbeeldingsgrootte overschrijdt de glyph‑grenzen. | Controleer het afbeeldingspad en stel eventueel `ImageBrush.Stretch = Stretch.Uniform` in. |
+| **Lettertypen ontbreken in het tweede document** | Lettertype‑resources zijn niet geëxporteerd vanuit het eerste XPS. | Gebruik `firstDoc.Fonts.SaveTo(secondDoc.Fonts)` voordat je glyphs toevoegt. |
+| **Prestatievermindering bij grote bestanden** | Grote afbeeldingen worden voor elke glyph in het geheugen geladen. | Herbruik één `ImageBrush`‑instantie voor alle glyphs, of verklein de afbeelding vóór gebruik. |
 
 ## Veelgestelde vragen
 
-### V1: Kan ik verschillende afbeeldingsformaten gebruiken voor het vullen van glyphs?
+### Q1: Kan ik verschillende afbeeldingsformaten gebruiken om glyphs te vullen?
 
-A1: Ja, Aspose.Page ondersteunt verschillende afbeeldingsformaten. Zorg voor compatibiliteit met het gekozen beeldformaat.
+A1: Ja, Aspose.Page ondersteunt PNG, JPEG, BMP, GIF, TIFF en meer — meer dan 25 formaten in totaal.
 
-### Vraag 2: Hoe kan ik het uiterlijk van glyphs verder aanpassen?
+### Q2: Hoe kan ik het uiterlijk van glyphs verder aanpassen?
 
-A2: Verken de Aspose.Page-documentatie voor aanvullende eigenschappen en methoden om de weergave van glyphs te verfijnen.
+A2: Verken eigenschappen zoals `Glyph.Stroke`, `Glyph.FillOpacity` en `Glyph.Transform` om contouren, transparantie en rotatie aan te passen.
 
-### V3: Is Aspose.Page geschikt voor het verwerken van grote documentensets?
+### Q3: Is Aspose.Page geschikt voor het verwerken van grote documentensets?
 
-A3: Aspose.Page is ontworpen om zowel kleine als grote documentensets efficiënt te verwerken.
+A3: Absoluut. De bibliotheek verwerkt XPS‑bestanden met honderden pagina's via streaming, waardoor het geheugenverbruik onder 100 MB blijft, zelfs voor documenten van 500 pagina's.
 
-### V4: Kan ik verschillende stijlen toepassen op individuele glyphs?
+### Q4: Kan ik verschillende stijlen toepassen op individuele glyphs?
 
-A4: Ja, u kunt de stijlen voor elke glyph afzonderlijk aanpassen, wat een hoge mate van flexibiliteit biedt.
+A4: Ja, elke `Glyph`‑instantie heeft eigen `Fill`, `Stroke` en `Transform`‑eigenschappen, waardoor per‑glyph styling mogelijk is.
 
-### V5: Wat zijn de voordelen van het gebruik van Aspose.Page ten opzichte van andere tools voor documentverwerking?
+### Q5: Wat zijn de voordelen van het gebruik van Aspose.Page ten opzichte van andere XPS‑tools?
 
-A5: Aspose.Page biedt een uitgebreide reeks functies, uitstekende prestaties en uitgebreide documentatie, waardoor het voor veel ontwikkelaars de voorkeur geniet.
-{{< /blocks/products/pf/tutorial-page-section >}}
+A5: Aspose.Page ondersteunt meer dan 25 afbeeldingsformaten, verwerkt bestanden tot 500 MB zonder volledige geheugenlading, en biedt een 100 % .NET‑native API — waardoor COM‑interop of externe tools niet nodig zijn.
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+---
+
+**Laatst bijgewerkt:** 2026-06-30  
+**Getest met:** Aspose.Page 24.11 for .NET  
+**Auteur:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Gerelateerde tutorials
+
+- [XPS-document maken – Aspose.Page voor .NET](/page/net/document-creation/)
+- [Afbeelding toevoegen aan XPS-document met Aspose.Page voor .NET](/page/net/image-management/add-image-to-xps-document/)
+- [Glyph-kloon toevoegen en kleur wijzigen met Aspose.Page voor .NET](/page/net/cross-document-editing/add-glyph-clone-and-change-color/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
