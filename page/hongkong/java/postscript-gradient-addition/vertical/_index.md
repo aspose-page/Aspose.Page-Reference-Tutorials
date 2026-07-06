@@ -1,10 +1,10 @@
 ---
-date: 2025-12-09
-description: 學習如何在 Java 中使用 Aspose.Page 建立 PostScript 漸層。此一步一步的指南會教您如何輕鬆地在 PostScript
+date: 2026-02-13
+description: 學習如何使用 Aspose.Page 在 Java 中建立 PostScript 漸層。此一步一步的指南將教您如何輕鬆地在 PostScript
   文件中加入垂直漸層。
 linktitle: Add Vertical Gradient in Java PostScript
 second_title: Aspose.Page Java API
-title: 在 Java 中建立 PostScript 漸層 – 加入垂直漸層
+title: 在 Java 中建立 PostScript 漸層 – 添加垂直漸層
 url: /zh-hant/java/postscript-gradient-addition/vertical/
 weight: 14
 ---
@@ -15,25 +15,32 @@ weight: 14
 
 # 在 Java 中建立 PostScript 漸層 – 新增垂直漸層
 
-## Introduction
-在本完整教學中，您將學習如何使用 Aspose.Page for Java **在 Java 中建立 PostScript 漸層**。新增垂直漸層可以讓您的文件更具活力與專業感，只需幾行程式碼即可呈現驚豔的視覺效果。我們會逐步帶您走過每個步驟，說明每個環節的重要性，並提供實用技巧以避免常見陷阱。  
-在本指南中，我們將 **一步一步建立 postscript 漸層 java**。
+## 簡介
+在本完整教學中，您將學習如何使用 Aspose.Page for Java **在 Java 中建立 PostScript 漸層**。新增垂直漸層可以讓您的文件看起來更鮮明且更專業，只需幾行程式碼即可實現驚人的視覺效果。我們會逐步帶領您完成每個步驟，說明每個環節的重要性，並提供實用技巧以避免常見的陷阱。完成本指南後，您將能產生具有平滑、吸睛垂直顏色過渡的 PostScript 檔案。
 
-## Quick Answers
-- **需要的函式庫是什麼？** Aspose.Page for Java  
-- **我可以自訂顏色嗎？** 可以，任何 `java.awt.Color` 都可使用  
+## 快速答覆
+- **需要哪個函式庫？** Aspose.Page for Java  
+- **可以自訂顏色嗎？** 可以，任何 `java.awt.Color` 都可使用  
 - **支援旋轉嗎？** 可以，您可以使用 `AffineTransform` 旋轉漸層  
-- **產生的輸出格式為何？** 標準的 PostScript (.ps) 檔案  
-- **正式環境需要授權嗎？** 需要，必須購買商業授權  
+- **產生的輸出格式是什麼？** 標準的 PostScript (.ps) 檔案  
+- **生產環境需要授權嗎？** 需要，必須取得商業授權  
 
-## Prerequisites
-在深入教學之前，請確保已具備以下前置條件：
-- 已在電腦上安裝 Java Development Kit (JDK)。  
-- Aspose.Page for Java 函式庫。您可於 [此處](https://releases.aspose.com/page/java/) 下載。
+## 為何在 PostScript 文件中加入垂直漸層？
+垂直漸層能為頁面增添層次感，同時不會增加檔案大小。它們非常適合：
 
-## Import Packages
+* 需要細膩背景點綴的報告頁首或頁尾。  
+* 在技術手冊或白皮書中突顯特定章節。  
+* 為圖表、示意圖或宣傳單張提供現代化外觀。
+
+由於漸層以向量形式定義，輸出在任何解析度下皆保持清晰。
+
+## 先決條件
+在開始本教學之前，請確保已具備以下先決條件：
+- 已在您的電腦上安裝 Java Development Kit (JDK)。  
+- Aspose.Page for Java 函式庫。您可在此處下載 [here](https://releases.aspose.com/page/java/)。
+
+## 匯入套件
 在您的 Java 專案中，匯入必要的套件以開始使用：
-
 ```java
 import java.awt.Color;
 import java.awt.LinearGradientPaint;
@@ -46,7 +53,7 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-現在，讓我們將在 Java PostScript 中新增垂直漸層的過程分解為多個步驟。
+現在，讓我們一步一步走過新增垂直漸層的過程。
 
 ## 如何在 Java 中建立 PostScript 漸層
 以下是逐步指南，說明如何使用 Aspose.Page API **在 Java 中建立 PostScript 漸層**。
@@ -113,7 +120,7 @@ document.setPaint(paint);
 document.fill(rectangle);
 ```
 
-### 步驟 10：關閉當前頁面並儲存文件
+### 步驟 10：關閉目前頁面並儲存文件
 ```java
 // Close current page
 document.closePage();
@@ -123,48 +130,42 @@ document.save();
 
 恭喜！您已成功使用 Aspose.Page for Java 為 Java PostScript 文件新增垂直漸層。
 
-## 為什麼在 PostScript 中使用垂直漸層？
-垂直漸層能為頁面增添深度與視覺趣味，同時不會大幅增加檔案大小。它特別適用於：
-- 報告的頁首與頁尾  
-- 圖表或示意圖的背景填充  
-- 技術文件中段落的突顯  
-
 ## 常見問題與解決方案
-- **漸層看起來平坦：** 確認 `AffineTransform` 的縮放比例與矩形尺寸相符。  
-- **顏色顯得淡薄：** 確認使用正確的 `ColorSpaceType`（SRGB），且比例陣列的順序為 0.0 到 1.0。  
+- **漸層呈平面狀：** 確認 `AffineTransform` 的縮放比例與矩形尺寸相符。  
+- **顏色顯得黯淡：** 確認使用正確的 `ColorSpaceType` (SRGB)，且 fractions 陣列的順序為 0.0 到 1.0。  
 - **檔案未產生：** 檢查輸出目錄 (`dataDir`) 是否存在，且應用程式具有寫入權限。  
 
 ## 常見問答
 ### 我可以將 Aspose.Page for Java 與其他 Java 函式庫一起使用嗎？
-可以，Aspose.Page for Java 設計上能與其他 Java 函式庫無縫整合。
+可以，Aspose.Page for Java 設計上能與其他 Java 函式庫無縫協作。
 
 ### 是否提供 Aspose.Page for Java 的免費試用？
-可以，您可於 [此處](https://releases.aspose.com/) 取得免費試用。
+可以，您可在此取得免費試用 [here](https://releases.aspose.com/)。
 
 ### 我可以在哪裡找到更多文件？
-詳細文件可於 [此處](https://reference.aspose.com/page/java/) 取得。
+詳細文件可在此取得 [here](https://reference.aspose.com/page/java/)。
 
-### 我要如何購買 Aspose.Page for Java？
-您可於 [此處](https://purchase.aspose.com/buy) 購買 Aspose.Page for Java。
+### 我該如何購買 Aspose.Page for Java？
+您可於此處購買 Aspose.Page for Java [here](https://purchase.aspose.com/buy)。
 
 ### 是否有 Aspose.Page 討論論壇？
-可以，您可於 [此處](https://forum.aspose.com/c/page/39) 加入社群論壇。
+可以，您可在此加入社群論壇 [here](https://forum.aspose.com/c/page/39)。
 
-## Additional Frequently Asked Questions
+## 其他常見問答
 
 **Q: 我可以建立其他方向的漸層（水平、對角線）嗎？**  
 A: 當然可以。調整 `LinearGradientPaint` 的起點與終點，並在 `AffineTransform` 中修改旋轉角度。
 
 **Q: 這也適用於 PDF 輸出嗎？**  
-A: 相同的漸層邏輯可在儲存為 PDF 時使用 `PdfSaveOptions` 取代 `PsSaveOptions` 來套用。
+A: 相同的漸層邏輯可在儲存為 PDF 時使用，只需將 `PsSaveOptions` 換成 `PdfSaveOptions`。
 
-**Q: 我要如何動態變更漸層大小？**  
-A: 在執行時計算矩形尺寸，並將這些值傳遞給 `Rectangle2D` 與 `AffineTransform` 的建構子。
+**Q: 如何動態變更漸層大小？**  
+A: 在執行時計算矩形尺寸，並將這些值傳入 `Rectangle2D` 與 `AffineTransform` 的建構子。
 
 ---
 
-**最後更新：** 2025-12-09  
-**測試環境：** Aspose.Page for Java 24.11（最新）  
+**最後更新：** 2026-02-13  
+**測試環境：** Aspose.Page for Java 24.11 (latest)  
 **作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

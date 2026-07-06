@@ -1,47 +1,50 @@
 ---
-date: 2025-12-08
-description: เรียนรู้วิธีสร้างตัวอย่างการไล่สีแบบรัศมีใน Java PostScript ด้วย Aspose.Page
-  คู่มือขั้นตอนโดยละเอียดพร้อมโค้ดเต็มและการแก้ไขปัญหา
+date: 2026-02-13
+description: เรียนรู้วิธีเติมรูปด้วยไล่ระดับสีและวาดวงกลมด้วยไล่ระดับสีใน Java PostScript
+  โดยใช้ Aspose.Page คู่มือขั้นตอนต่อขั้นตอนพร้อมโค้ดและเคล็ดลับ
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
-title: 'ตัวอย่างการไล่สีแบบรัศมี: Java PostScript กับ Aspose.Page'
+title: 'เติมรูปร่างด้วยการไล่สี: ตัวอย่าง Java PostScript แบบรัศมี'
 url: /th/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ตัวอย่างการไล่สีแบบรัศมี: Java PostScript กับ Aspose.Page
+# เติมรูปทรงด้วยการไล่สี: Java PostScript Radial Example
 
 ## Introduction
-ในบทแนะนำนี้คุณจะสร้าง **radial gradient example** สำหรับเอกสาร PostScript โดยใช้ Aspose.Page for Java เราจะเดินผ่านทุกขั้นตอน—from ตั้งค่าโครงการจนถึงการเรนเดอร์วงกลมที่เติมด้วยไล่สีแบบรัศมีที่เรียบลื่น—เพื่อให้คุณสามารถเพิ่มกราฟิกที่ดึงดูดสายตาในแอปพลิเคชัน Java ของคุณได้ทันที.
+ในบทเรียนนี้คุณจะได้เรียนรู้วิธี **เติมรูปทรงด้วยการไล่สี** โดยสร้างตัวอย่างการไล่สีแบบรัศมีสำหรับเอกสาร PostScript ด้วย Aspose.Page for Java  เราจะเดินผ่านทุกขั้นตอน—from ตั้งค่าโปรเจกต์จนถึงการเรนเดอร์วงกลมที่เติมด้วยการไล่สีรัศมีที่เรียบลื่น—เพื่อให้คุณสามารถเพิ่มกราฟิกที่ดึงดูดสายตาให้กับแอปพลิเคชัน Java ของคุณได้ทันที
 
 ## Quick Answers
-- **What does this tutorial create?** ไฟล์ PostScript (`.ps`) ที่มีวงกลมที่เติมด้วย radial gradient.  
-- **Which library is required?** Aspose.Page for Java (เวอร์ชันล่าสุด).  
-- **How long does implementation take?** ประมาณ 10‑15 นาทีสำหรับตัวอย่างที่ทำงานได้.  
-- **Do I need a license?** จำเป็นต้องมีลิขสิทธิ์แบบชั่วคราวหรือเต็มสำหรับการใช้งานในผลิตภัณฑ์; เวอร์ชันทดลองฟรีใช้ได้สำหรับการพัฒนา.  
-- **Can I reuse the code for PDF or SVG?** ใช่—Aspose.Page รองรับหลายรูปแบบเอาต์พุตโดยเปลี่ยนแปลงเพียงเล็กน้อย.
+- **What does this tutorial create?** ไฟล์ PostScript (`.ps`) ที่มีวงกลมที่เติมด้วยการไล่สีแบบรัศมี  
+- **Which library is required?** Aspose.Page for Java (เวอร์ชันล่าสุด)  
+- **How long does implementation take?** ประมาณ 10‑15 นาทีสำหรับตัวอย่างที่ทำงานได้  
+- **Do I need a license?** จำเป็นต้องมีไลเซนส์ชั่วคราวหรือเต็มสำหรับการใช้งานในผลิตภัณฑ์; เวอร์ชันทดลองฟรีใช้ได้สำหรับการพัฒนา  
+- **Can I reuse the code for PDF or SVG?** ได้—Aspose.Page รองรับหลายรูปแบบเอาต์พุตโดยต้องเปลี่ยนแปลงเพียงเล็กน้อย  
+
+## How to Fill Shape with Gradient in PostScript
+ก่อนที่เราจะลงลึกไปในโค้ด, มาทำความเข้าใจกันว่าทำไม “เติมรูปทรงด้วยการไล่สี” ถึงสำคัญ การใช้การไล่สีทำให้กราฟิกของคุณดูเป็นมืออาชีพและมีมิติสาม‑มิติ โดยไม่ต้องพึ่งพาภาพราสเตอร์ ด้วย Aspose.Page คุณสามารถใช้ตรรกะการไล่สีเดียวกันกับรูปเวกเตอร์ใด ๆ—วงกลม, สี่เหลี่ยม, หรือเส้นทางที่กำหนดเอง—ในทุกรูปแบบเอาต์พุตที่รองรับ (PostScript, PDF, SVG)
 
 ## What Is a Radial Gradient?
-Radial gradient คือการเปลี่ยนสีจากจุดศูนย์กลางออกไปด้านนอก สร้างการผสมสีแบบรอบวงที่เรียบลื่น เหมาะสำหรับไฮไลท์, พื้นหลังปุ่ม, หรือภาพใด ๆ ที่ต้องการเอฟเฟกต์ “แสงเรืองแสง” ธรรมชาติ.
+การไล่สีแบบรัศมีเปลี่ยนสีจากจุดศูนย์กลางออกไปด้านนอก สร้างการผสมสีที่เรียบและเป็นวงกลม เหมาะสำหรับไฮไลท์, พื้นหลังปุ่ม, หรือภาพใด ๆ ที่ต้องการเอฟเฟกต์ “เรืองแสง” ธรรมชาติ
 
 ## Why Use Aspose.Page for Radial Gradients?
-- **Device‑independent rendering** – ทำงานเช่นเดียวกันบน PostScript, PDF, SVG, และอื่น ๆ  
-- **Full Java integration** – ไม่มีโค้ดเนทีฟ, เพียง API ของ Java ธรรมดา  
-- **High‑quality output** – รองรับการแอนติเอเลียสและการควบคุม color‑space  
+- **Device‑independent rendering** – ทำงานเหมือนกันบน PostScript, PDF, SVG, และอื่น ๆ  
+- **Full Java integration** – ไม่ต้องใช้โค้ดเนทีฟ, เพียง API ของ Java ธรรมดา  
+- **High‑quality output** – รองรับการแอนติเอเลียสและการควบคุมสีสเปซ  
 
 ## Prerequisites
 ก่อนที่เราจะเริ่ม, โปรดตรวจสอบว่าคุณมี:
 
 - ความคุ้นเคยพื้นฐานกับการเขียนโปรแกรม Java  
-- JDK 8 หรือใหม่กว่า ติดตั้งบนเครื่องของคุณ  
+- ติดตั้ง JDK 8 หรือใหม่กว่าในเครื่องของคุณ  
 - ไลบรารี Aspose.Page for Java (ดาวน์โหลดจาก [Aspose.Page Java documentation](https://reference.aspose.com/page/java/))  
 
 ## Import Packages
-แรกเริ่ม, นำเข้าคลาสที่เราต้องการ ซึ่งรวมถึงประเภทกราฟิก AWT มาตรฐานและ API ของ Aspose.Page.
+First, import the classes we’ll need. These include standard AWT graphics types and the Aspose.Page API.
 
 ```java
 import java.awt.Color;
@@ -56,42 +59,45 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## Step 1: Set Up Document Directory
-กำหนดโฟลเดอร์ที่ไฟล์ PostScript ที่สร้างจะถูกบันทึก แทนที่ placeholder ด้วยพาธจริงบนระบบของคุณ.
+Define the folder where the generated PostScript file will be saved. Replace the placeholder with an actual path on your system.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
 ## Step 2: Create Output Stream
-เปิด `FileOutputStream` ที่ชี้ไปยังไฟล์ `.ps` เป้าหมาย สตรีมนี้จะรับข้อมูลไบนารีที่สร้างโดย Aspose.Page.
+Open a `FileOutputStream` that points to the target `.ps` file. This stream feeds the binary data generated by Aspose.Page.
 
 ```java
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "RadialGradient2_outPS.ps");
 ```
 
 ## Step 3: Create Save Options
-สร้างอินสแตนซ์ `PsSaveOptions` คุณสามารถปรับขนาดหน้า, การบีบอัด ฯลฯ แต่ค่าตั้งต้นก็เพียงพอสำหรับตัวอย่างนี้.
+Instantiate `PsSaveOptions`. You can customize page size, compression, etc., but the defaults are fine for this example.
 
 ```java
 PsSaveOptions options = new PsSaveOptions();
 ```
 
 ## Step 4: Create PS Document
-สร้างอ็อบเจกต์ `PsDocument` โดยส่งสตรีมเอาต์พุตและตัวเลือกการบันทึก ธง `false` บอก Aspose.Page ไม่ให้เปิดหน้าโดยอัตโนมัติ (เราจะทำเอง).
+Create the `PsDocument` object, passing the output stream and save options. The `false` flag tells Aspose.Page not to automatically open a page (we’ll do it manually).
 
 ```java
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
 ## Step 5: Create a Circle
-เราจะวาดวงกลมโดยใช้ `Ellipse2D.Float` พารามิเตอร์คือ `(x, y, width, height)` การตั้งค่า width = height จะสร้างวงกลมที่สมบูรณ์.
+We’ll draw a circle using `Ellipse2D.Float`. The parameters are `(x, y, width, height)`. Setting width = height creates a perfect circle.
 
 ```java
 Ellipse2D.Float circle = new Ellipse2D.Float(200, 100, 200, 200);
 ```
 
+## How to Draw Circle with Gradient
+Now that we have a shape, the next step is to **draw circle with gradient**. By applying a `RadialGradientPaint` to the circle, the fill operation will automatically use the gradient we define.
+
 ## Step 6: Define Gradient Colors
-เตรียมอาเรย์สองชุด: หนึ่งสำหรับสีที่จะแสดงใน gradient และอีกหนึ่งสำหรับตำแหน่งเศษส่วนที่สอดคล้อง (0 = ศูนย์กลาง, 1 = ขอบ).
+Prepare two arrays: one for the colors that will appear in the gradient and another for the corresponding fractional positions (0 = center, 1 = edge).
 
 ```java
 Color[] colors = { Color.WHITE, Color.WHITE, Color.BLUE };
@@ -99,14 +105,14 @@ float[] fractions = { 0.0f, 0.2f, 1.0f };
 ```
 
 ## Step 7: Create AffineTransform
-`AffineTransform` ปรับสเกลและย้ายตำแหน่ง gradient ให้พอดีกับวงกลมของเรา เมทริกซ์ `(scaleX, 0, 0, scaleY, translateX, translateY)` ทำหน้าที่นี้.
+The `AffineTransform` scales and translates the gradient to fit our circle. The matrix `(scaleX, 0, 0, scaleY, translateX, translateY)` does the job.
 
 ```java
 AffineTransform transform = new AffineTransform(200, 0, 0, 200, 200, 100);
 ```
 
 ## Step 8: Create Radial Gradient Paint
-ตอนนี้เราจะสร้างอ็อบเจกต์ `RadialGradientPaint` ซึ่งรับจุดศูนย์กลาง, รัศมี, จุดโฟกัส, เศษส่วนสี, อาเรย์สี, วิธีวน, color space, และการแปลงที่เรากำหนดไว้.
+Now we build the `RadialGradientPaint` object. It takes the center point, radius, focus point, color fractions, color array, cycle method, color space, and the transform we just defined.
 
 ```java
 RadialGradientPaint paint = new RadialGradientPaint(
@@ -121,7 +127,7 @@ RadialGradientPaint paint = new RadialGradientPaint(
 ```
 
 ## Step 9: Set Paint and Fill Circle
-ใช้ gradient paint กับเอกสารและเติมวงกลมที่กำหนดไว้ก่อนหน้านี้ นี่คือหัวใจของ **radial gradient example** ของเรา.
+Apply the gradient paint to the document and fill the previously defined circle. This is the core of our **radial gradient example** and demonstrates how to **fill shape with gradient**.
 
 ```java
 document.setPaint(paint);
@@ -129,47 +135,47 @@ document.fill(circle);
 ```
 
 ## Step 10: Close Page and Save Document
-ปิดหน้าสุดท้าย, เขียนเนื้อหาไปยังดิสก์, และปิดสตรีม ไฟล์ PostScript ของคุณพร้อมสำหรับการดูด้วยโปรแกรมดู PS ใด ๆ.
+Finalize the page, write the content to disk, and close the stream. Your PostScript file is now ready to view with any PS viewer.
 
 ```java
 document.closePage();
 document.save();
 ```
 
-ยินดีด้วย! คุณได้สร้าง **radial gradient example** ใน Java PostScript ด้วย Aspose.Page อย่างสำเร็จ.
+Congratulations! You have successfully created a radial gradient example in Java PostScript using Aspose.Page. You now have a reusable pattern for **fill shape with gradient** that can be adapted to other shapes and output formats.
 
 ## Common Issues and Solutions
 | ปัญหา | วิธีแก้ |
 |---------|----------|
-| **FileNotFoundException** when opening the output stream | ตรวจสอบว่า `dataDir` ชี้ไปยังโฟลเดอร์ที่มีอยู่และคุณมีสิทธิ์เขียน. |
-| Gradient looks flat or missing | ตรวจสอบว่าอาเรย์ `fractions` มีความยาวเท่ากับอาเรย์ `colors` และ `AffineTransform` ปรับสเกลอย่างถูกต้อง. |
-| Colors appear inverted | สลับลำดับของสีในอาเรย์ `colors` หรือปรับพิกัดของจุด `focus`. |
+| **FileNotFoundException** when opening the output stream | Verify that `dataDir` points to an existing folder and you have write permissions. |
+| Gradient looks flat or missing | Ensure the `fractions` array matches the `colors` array length and that the `AffineTransform` scales correctly. |
+| Colors appear inverted | Swap the order of colors in the `colors` array or adjust the `focus` point coordinates. |
 
 ## Frequently Asked Questions
 
 **Q: ฉันสามารถหาเอกสารสำหรับ Aspose.Page for Java ได้จากที่ไหน?**  
-A: การอ้างอิง API เต็มรูปแบบมีให้ที่ [here](https://reference.aspose.com/page/java/).
+A: The full API reference is available [here](https://reference.aspose.com/page/java/).
 
 **Q: ฉันจะดาวน์โหลด Aspose.Page for Java ได้อย่างไร?**  
 A: ดาวน์โหลด JAR เวอร์ชันล่าสุดจาก [releases page](https://releases.aspose.com/page/java/).
 
-**Q: มีเวอร์ชันทดลองฟรีหรือไม่?**  
-A: มี—ดาวน์โหลดเวอร์ชันทดลองได้ [here](https://releases.aspose.com/).
+**Q: มีรุ่นทดลองฟรีหรือไม่?**  
+A: ใช่—ดาวน์โหลดรุ่นทดลองได้ [ที่นี่](https://releases.aspose.com/).
 
-**Q: ฉันสามารถขอรับลิขสิทธิ์ชั่วคราวสำหรับการทดสอบได้หรือไม่?**  
-A: แน่นอน, ขอได้จาก [temporary license page](https://purchase.aspose.com/temporary-license/).
+**Q: ฉันสามารถขอรับไลเซนส์ชั่วคราวสำหรับการทดสอบได้หรือไม่?**  
+A: แน่นอน, ขอรับได้จาก [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Q: ฉันจะหาแหล่งสนับสนุนจากชุมชนได้จากที่ไหน?**  
 A: เข้าร่วมการสนทนาที่ [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
 ## Conclusion
-ในคู่มือนี้เราได้สร้าง **radial gradient example** ที่สมบูรณ์สำหรับเอกสาร PostScript โดยใช้ Aspose.Page for Java ด้วยการทำตามขั้นตอนคุณจะมีรูปแบบที่นำกลับมาใช้ใหม่ได้สำหรับการสร้างไล่สีที่ซับซ้อน ซึ่งคุณสามารถปรับใช้กับ PDF, SVG หรือรูปแบบที่รองรับอื่น ๆ ทดลองใช้สี, รัศมี, และรูปทรงที่แตกต่างเพื่อเพิ่มความหลากหลายให้กับโครงการกราฟิก Java ของคุณ.
+ในคู่มือนี้เราได้สร้าง **radial gradient example** ที่สมบูรณ์สำหรับเอกสาร PostScript ด้วย Aspose.Page for Java โดยทำตามขั้นตอนคุณจะได้รูปแบบที่นำกลับมาใช้ใหม่ได้สำหรับ **fill shape with gradient** ซึ่งสามารถปรับใช้กับ PDF, SVG หรือรูปแบบอื่นใดที่ Aspose.Page รองรับ ทดลองเปลี่ยนสี, รัศมี, และรูปทรงต่าง ๆ เพื่อเพิ่มความหลากหลายให้กับโครงการกราฟิก Java ของคุณ
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-08  
-**ทดสอบด้วย:** Aspose.Page for Java 24.11 (รุ่นล่าสุด ณ เวลาที่เขียน)  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2026-02-13  
+**Tested With:** Aspose.Page for Java 24.11 (latest at time of writing)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

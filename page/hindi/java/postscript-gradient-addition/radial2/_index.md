@@ -1,10 +1,10 @@
 ---
-date: 2025-12-08
-description: Aspose.Page का उपयोग करके Java PostScript में रेडियल ग्रेडिएंट उदाहरण
-  कैसे बनाएं, सीखें। पूर्ण कोड और समस्या निवारण के साथ चरण‑दर‑चरण गाइड।
+date: 2026-02-13
+description: Aspose.Page का उपयोग करके Java PostScript में ग्रेडिएंट के साथ आकार को
+  भरना और ग्रेडिएंट के साथ वृत्त बनाना सीखें। कोड और टिप्स के साथ चरण‑दर‑चरण गाइड।
 linktitle: Java PostScript Radial Gradient with Aspose.Page
 second_title: Aspose.Page Java API
-title: 'रेडियल ग्रेडिएंट उदाहरण: Aspose.Page के साथ जावा पोस्टस्क्रिप्ट'
+title: 'ग्रेडिएंट के साथ आकार भरें: जावा पोस्टस्क्रिप्ट रेडियल उदाहरण'
 url: /hi/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
@@ -13,35 +13,38 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Radial Gradient Example: Java PostScript with Aspose.Page
+# ग्रेडिएंट के साथ आकार भरें: जावा पोस्टस्क्रिप्ट रेडियल उदाहरण
 
-## Introduction
-इस ट्यूटोरियल में आप Aspose.Page for Java का उपयोग करके एक PostScript दस्तावेज़ के लिए **रेडियल ग्रेडिएंट उदाहरण** बनाएँगे। हम प्रोजेक्ट सेट‑अप से लेकर एक सर्कल को स्मूथ रेडियल ग्रेडिएंट से भरने तक हर कदम को विस्तार से बताएँगे—ताकि आप अपने Java एप्लिकेशन में तुरंत आकर्षक ग्राफ़िक्स जोड़ सकें।
+## परिचय
+इस ट्यूटोरियल में आप **fill shape with gradient** को सीखेंगे, जिसमें Aspose.Page for Java का उपयोग करके एक पोस्टस्क्रिप्ट दस्तावेज़ के लिए रेडियल ग्रेडिएंट उदाहरण बनाया जाएगा। हम हर कदम को विस्तार से दिखाएंगे—प्रोजेक्ट सेटअप से लेकर एक स्मूथ रेडियल ग्रेडिएंट से भरे सर्कल को रेंडर करने तक—ताकि आप तुरंत अपने जावा एप्लिकेशन में आकर्षक ग्राफिक्स जोड़ सकें।
 
-## Quick Answers
-- **यह ट्यूटोरियल क्या बनाता है?** एक PostScript फ़ाइल (`.ps`) जिसमें रेडियल ग्रेडिएंट से भरा हुआ सर्कल होता है।  
-- **कौन‑सी लाइब्रेरी आवश्यक है?** Aspose.Page for Java (नवीनतम संस्करण)।  
-- **इम्प्लीमेंटेशन में कितना समय लगेगा?** लगभग 10‑15 मिनट एक कार्यशील उदाहरण के लिए।  
-- **क्या लाइसेंस चाहिए?** प्रोडक्शन उपयोग के लिए एक टेम्पररी या फुल लाइसेंस आवश्यक है; विकास के लिए फ्री ट्रायल काम करता है।  
-- **क्या कोड को PDF या SVG के लिए पुनः उपयोग किया जा सकता है?** हाँ—Aspose.Page न्यूनतम बदलावों के साथ कई आउटपुट फ़ॉर्मेट्स को सपोर्ट करता है।
+## त्वरित उत्तर
+- **इस ट्यूटोरियल से क्या बनता है?** A PostScript file (`.ps`) containing a circle filled with a radial gradient.  
+- **कौन सा लाइब्रेरी आवश्यक है?** Aspose.Page for Java (latest version).  
+- **इम्प्लीमेंटेशन में कितना समय लगता है?** Approximately 10‑15 minutes for a working example.  
+- **क्या मुझे लाइसेंस चाहिए?** A temporary or full license is required for production use; a free trial works for development.  
+- **क्या मैं कोड को PDF या SVG के लिए पुन: उपयोग कर सकता हूँ?** Yes—Aspose.Page supports multiple output formats with minimal changes.
 
-## What Is a Radial Gradient?
-रेडियल ग्रेडिएंट केंद्र बिंदु से बाहर की ओर रंगों को ट्रांज़िशन करता है, जिससे एक स्मूथ, सर्कुलर ब्लेंड बनता है। यह हाइलाइट्स, बटन बैकग्राउंड, या किसी भी विज़ुअल के लिए आदर्श है जिसे प्राकृतिक “ग्लो” इफ़ेक्ट चाहिए।
+## पोस्टस्क्रिप्ट में ग्रेडिएंट के साथ आकार कैसे भरें
+कोड में जाने से पहले, चलिए स्पष्ट करते हैं कि “fill shape with gradient” क्यों महत्वपूर्ण है। ग्रेडिएंट का उपयोग करने से आपके ग्राफिक्स को पेशेवर, त्रि‑आयामी एहसास मिलता है बिना रास्टर इमेज की आवश्यकता के। Aspose.Page के साथ आप समान ग्रेडिएंट लॉजिक को किसी भी वेक्टर आकार—सर्कल, आयत, या कस्टम पाथ—पर सभी समर्थित आउटपुट फॉर्मेट्स (PostScript, PDF, SVG) में लागू कर सकते हैं।
 
-## Why Use Aspose.Page for Radial Gradients?
-- **डिवाइस‑इंडिपेंडेंट रेंडरिंग** – PostScript, PDF, SVG, आदि पर समान रूप से काम करता है।  
-- **पूर्ण Java इंटीग्रेशन** – कोई नेटिव कोड नहीं, सिर्फ साधारण Java APIs।  
-- **हाई‑क्वालिटी आउटपुट** – एंटी‑एलियासिंग और कलर‑स्पेस कंट्रोल को सपोर्ट करता है।
+## रेडियल ग्रेडिएंट क्या है?
+रेडियल ग्रेडिएंट केंद्र बिंदु से बाहर की ओर रंगों को बदलता है, जिससे एक स्मूथ, गोलाकार मिश्रण बनता है। यह हाइलाइट्स, बटन बैकग्राउंड, या किसी भी दृश्य के लिए आदर्श है जिसे प्राकृतिक “ग्लो” प्रभाव चाहिए।
 
-## Prerequisites
-शुरू करने से पहले सुनिश्चित करें कि आपके पास है:
+## रेडियल ग्रेडिएंट्स के लिए Aspose.Page क्यों उपयोग करें?
+- **Device‑independent rendering** – यह PostScript, PDF, SVG और अन्य पर समान रूप से काम करता है।  
+- **Full Java integration** – कोई नेटिव कोड नहीं, केवल साधारण जावा API।  
+- **High‑quality output** – एंटी‑एलियासिंग और कलर‑स्पेस कंट्रोल को सपोर्ट करता है।
 
-- Java प्रोग्रामिंग की बेसिक समझ।  
-- आपके मशीन पर JDK 8 या नया इंस्टॉल हो।  
-- Aspose.Page for Java लाइब्रेरी (डाउनलोड करें [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) से)।  
+## पूर्वापेक्षाएँ
+Before we dive in, make sure you have:
 
-## Import Packages
-सबसे पहले, उन क्लासेज़ को इम्पोर्ट करें जिनकी हमें आवश्यकता होगी। इनमें स्टैंडर्ड AWT ग्राफ़िक्स टाइप्स और Aspose.Page API शामिल हैं।
+- Java प्रोग्रामिंग की बुनियादी जानकारी।  
+- JDK 8 या उससे नया आपके मशीन पर स्थापित हो।  
+- Aspose.Page for Java लाइब्रेरी (डाउनलोड करें [Aspose.Page Java दस्तावेज़](https://reference.aspose.com/page/java/))।
+
+## पैकेज इम्पोर्ट करें
+First, import the classes we’ll need. These include standard AWT graphics types and the Aspose.Page API.
 
 ```java
 import java.awt.Color;
@@ -55,58 +58,61 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Step 1: Set Up Document Directory
-उस फ़ोल्डर को परिभाषित करें जहाँ जेनरेट की गई PostScript फ़ाइल सेव होगी। प्लेसहोल्डर को अपने सिस्टम के वास्तविक पाथ से बदलें।
+## चरण 1: दस्तावेज़ डायरेक्टरी सेट अप करें
+Define the folder where the generated PostScript file will be saved. Replace the placeholder with an actual path on your system.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Create Output Stream
-एक `FileOutputStream` खोलें जो टार्गेट `.ps` फ़ाइल की ओर इशारा करता हो। यह स्ट्रीम Aspose.Page द्वारा जेनरेट किए गए बाइनरी डेटा को फीड करता है।
+## चरण 2: आउटपुट स्ट्रीम बनाएं
+Open a `FileOutputStream` that points to the target `.ps` file. This stream feeds the binary data generated by Aspose.Page.
 
 ```java
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "RadialGradient2_outPS.ps");
 ```
 
-## Step 3: Create Save Options
-`PsSaveOptions` का एक इंस्टेंस बनाएँ। आप पेज साइज, कम्प्रेशन आदि को कस्टमाइज़ कर सकते हैं, लेकिन इस उदाहरण के लिए डिफ़ॉल्ट ठीक हैं।
+## चरण 3: सेव ऑप्शन बनाएं
+Instantiate `PsSaveOptions`. You can customize page size, compression, etc., but the defaults are fine for this example.
 
 ```java
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Step 4: Create PS Document
-`PsDocument` ऑब्जेक्ट बनाएँ, आउटपुट स्ट्रीम और सेव ऑप्शन्स पास करें। `false` फ्लैग Aspose.Page को ऑटोमैटिकली पेज खोलने से रोकता है (हम इसे मैन्युअली करेंगे)।
+## चरण 4: PS दस्तावेज़ बनाएं
+Create the `PsDocument` object, passing the output stream and save options. The `false` flag tells Aspose.Page not to automatically open a page (we’ll do it manually).
 
 ```java
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Step 5: Create a Circle
-हम `Ellipse2D.Float` का उपयोग करके एक सर्कल ड्रॉ करेंगे। पैरामीटर्स हैं `(x, y, width, height)`। `width = height` सेट करने से परफेक्ट सर्कल बनता है।
+## चरण 5: एक सर्कल बनाएं
+We’ll draw a circle using `Ellipse2D.Float`. The parameters are `(x, y, width, height)`. Setting width = height creates a perfect circle.
 
 ```java
 Ellipse2D.Float circle = new Ellipse2D.Float(200, 100, 200, 200);
 ```
 
-## Step 6: Define Gradient Colors
-दो एरे तैयार करें: एक ग्रेडिएंट में दिखने वाले रंगों के लिए और दूसरा उनके संबंधित फ्रैक्शनल पोज़िशन (0 = सेंटर, 1 = एज) के लिए।
+## ग्रेडिएंट के साथ सर्कल कैसे ड्रॉ करें
+Now that we have a shape, the next step is to **draw circle with gradient**. By applying a `RadialGradientPaint` to the circle, the fill operation will automatically use the gradient we define.
+
+## चरण 6: ग्रेडिएंट रंग निर्धारित करें
+Prepare two arrays: one for the colors that will appear in the gradient and another for the corresponding fractional positions (0 = center, 1 = edge).
 
 ```java
 Color[] colors = { Color.WHITE, Color.WHITE, Color.BLUE };
 float[] fractions = { 0.0f, 0.2f, 1.0f };
 ```
 
-## Step 7: Create AffineTransform
-`AffineTransform` ग्रेडिएंट को हमारे सर्कल में फिट करने के लिए स्केल और ट्रांसलेट करता है। मैट्रिक्स `(scaleX, 0, 0, scaleY, translateX, translateY)` यही काम करता है।
+## चरण 7: AffineTransform बनाएं
+The `AffineTransform` scales and translates the gradient to fit our circle. The matrix `(scaleX, 0, 0, scaleY, translateX, translateY)` does the job.
 
 ```java
 AffineTransform transform = new AffineTransform(200, 0, 0, 200, 200, 100);
 ```
 
-## Step 8: Create Radial Gradient Paint
-अब हम `RadialGradientPaint` ऑब्जेक्ट बनाते हैं। यह सेंटर पॉइंट, रेडियस, फोकस पॉइंट, कलर फ्रैक्शन्स, कलर एरे, साइक्ल मेथड, कलर स्पेस और ऊपर परिभाषित ट्रांसफ़ॉर्म को लेता है।
+## चरण 8: रेडियल ग्रेडिएंट पेंट बनाएं
+Now we build the `RadialGradientPaint` object. It takes the center point, radius, focus point, color fractions, color array, cycle method, color space, and the transform we just defined.
 
 ```java
 RadialGradientPaint paint = new RadialGradientPaint(
@@ -120,54 +126,54 @@ RadialGradientPaint paint = new RadialGradientPaint(
         transform);
 ```
 
-## Step 9: Set Paint and Fill Circle
-डॉक्यूमेंट पर ग्रेडिएंट पेंट लागू करें और पहले परिभाषित सर्कल को फ़िल करें। यह हमारे **रेडियल ग्रेडिएंट उदाहरण** का मुख्य भाग है।
+## चरण 9: पेंट सेट करें और सर्कल भरें
+Apply the gradient paint to the document and fill the previously defined circle. This is the core of our **radial gradient example** and demonstrates how to **fill shape with gradient**.
 
 ```java
 document.setPaint(paint);
 document.fill(circle);
 ```
 
-## Step 10: Close Page and Save Document
-पेज को फाइनलाइज़ करें, कंटेंट को डिस्क पर लिखें, और स्ट्रीम को बंद करें। आपकी PostScript फ़ाइल अब किसी भी PS व्यूअर से देखी जा सकती है।
+## चरण 10: पेज बंद करें और दस्तावेज़ सहेजें
+Finalize the page, write the content to disk, and close the stream. Your PostScript file is now ready to view with any PS viewer.
 
 ```java
 document.closePage();
 document.save();
 ```
 
-Congratulations! You have successfully created a radial gradient example in Java PostScript using Aspose.Page.
+बधाई हो! आपने Aspose.Page का उपयोग करके जावा पोस्टस्क्रिप्ट में सफलतापूर्वक एक रेडियल ग्रेडिएंट उदाहरण बनाया है। अब आपके पास **fill shape with gradient** के लिए एक पुन: उपयोग योग्य पैटर्न है जिसे अन्य आकारों और आउटपुट फॉर्मेट्स के लिए अनुकूलित किया जा सकता है।
 
-## Common Issues and Solutions
-| Problem | Solution |
+## सामान्य समस्याएँ और समाधान
+| समस्या | समाधान |
 |---------|----------|
-| **FileNotFoundException** when opening the output stream | Verify that `dataDir` points to an existing folder and you have write permissions. |
-| Gradient looks flat or missing | Ensure the `fractions` array matches the `colors` array length and that the `AffineTransform` scales correctly. |
-| Colors appear inverted | Swap the order of colors in the `colors` array or adjust the `focus` point coordinates. |
+| **FileNotFoundException** जब आउटपुट स्ट्रीम खोल रहे हों | `dataDir` एक मौजूदा फ़ोल्डर की ओर इशारा करता है और आपके पास लिखने की अनुमति है, यह सुनिश्चित करें। |
+| ग्रेडिएंट सपाट दिख रहा है या गायब है | `fractions` एरे `colors` एरे की लंबाई से मेल खाता हो और `AffineTransform` सही से स्केल हो, यह सुनिश्चित करें। |
+| रंग उल्टे दिख रहे हैं | `colors` एरे में रंगों का क्रम बदलें या `focus` पॉइंट कोऑर्डिनेट्स को समायोजित करें। |
 
-## Frequently Asked Questions
+## अक्सर पूछे जाने वाले प्रश्न
 
-**Q: Where can I find the documentation for Aspose.Page for Java?**  
-A: The full API reference is available [here](https://reference.aspose.com/page/java/).
+**Q: Aspose.Page for Java की दस्तावेज़ीकरण कहाँ मिल सकता है?**  
+A: पूरा API रेफ़रेंस उपलब्ध है [यहाँ](https://reference.aspose.com/page/java/).
 
-**Q: How can I download Aspose.Page for Java?**  
-A: Grab the latest JAR from the [releases page](https://releases.aspose.com/page/java/).
+**Q: मैं Aspose.Page for Java को कैसे डाउनलोड कर सकता हूँ?**  
+A: नवीनतम JAR को [रिलीज़ पेज](https://releases.aspose.com/page/java/) से प्राप्त करें।
 
-**Q: Is there a free trial available?**  
-A: Yes—download a trial version [here](https://releases.aspose.com/).
+**Q: क्या कोई फ्री ट्रायल उपलब्ध है?**  
+A: हाँ—ट्रायल संस्करण को [यहाँ](https://releases.aspose.com/) डाउनलोड करें।
 
-**Q: Can I obtain a temporary license for testing?**  
-A: Absolutely, request one from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+**Q: क्या मैं परीक्षण के लिए अस्थायी लाइसेंस प्राप्त कर सकता हूँ?**  
+A: बिल्कुल, आप इसे [अस्थायी लाइसेंस पेज](https://purchase.aspose.com/temporary-license/) से अनुरोध कर सकते हैं।
 
-**Q: Where can I get community support?**  
-A: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+**Q: मैं समुदाय समर्थन कहाँ प्राप्त कर सकता हूँ?**  
+A: [Aspose.Page फ़ोरम](https://forum.aspose.com/c/page/39) पर चर्चा में शामिल हों।
 
-## Conclusion
-इस गाइड में हमने Aspose.Page for Java का उपयोग करके एक PostScript दस्तावेज़ के लिए पूर्ण **रेडियल ग्रेडिएंट उदाहरण** बनाया। चरणों का पालन करके अब आपके पास जटिल ग्रेडिएंट बनाने का एक पुन: उपयोग योग्य पैटर्न है, जिसे आप PDF, SVG या अन्य सपोर्टेड फ़ॉर्मेट्स में भी एडेप्ट कर सकते हैं। विभिन्न रंगों, रेडियस और आकारों के साथ प्रयोग करें और अपने Java ग्राफ़िक्स प्रोजेक्ट्स को समृद्ध बनाएं।
+## निष्कर्ष
+इस गाइड में हमने Aspose.Page for Java का उपयोग करके पोस्टस्क्रिप्ट दस्तावेज़ के लिए एक पूर्ण **radial gradient example** बनाया। चरणों का पालन करके अब आपके पास **fill shape with gradient** के लिए एक पुन: उपयोग योग्य पैटर्न है, जिसे आप PDF, SVG, या Aspose.Page द्वारा समर्थित किसी भी अन्य फॉर्मेट में अनुकूलित कर सकते हैं। विभिन्न रंगों, रेडियस और आकारों के साथ प्रयोग करके अपने जावा ग्राफिक्स प्रोजेक्ट को समृद्ध बनाएं।
 
 ---
 
-**Last Updated:** 2025-12-08  
+**Last Updated:** 2026-02-13  
 **Tested With:** Aspose.Page for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 

@@ -1,10 +1,11 @@
 ---
-date: 2025-12-08
-description: Aspose.Page ile Java PostScript'te radyal degrade eklemeyi öğrenin. Bu
-  adım adım rehber, belgelerinizde çarpıcı degrade efektleri oluşturmayı gösterir.
+date: 2026-02-13
+description: Aspose.Page for Java kullanarak radyal renk duraklarıyla PostScript gradyanı
+  nasıl oluşturacağınızı öğrenin. Bu adım adım kılavuz, belgelerinize renk durakları
+  gradyanı eklemenizi gösterir.
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
-title: Aspose.Page ile Java PostScript'te Radial Gradient Nasıl Eklenir
+title: PostScript Gradyanı Oluştur – Java'da Radyal Gradyan
 url: /tr/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
@@ -16,32 +17,37 @@ weight: 12
 # Java PostScript'te Aspose.Page ile Radial Gradient Nasıl Eklenir
 
 ## Giriş
-Eğer PostScript çıktınıza yumuşak, göz alıcı bir renk geçişi vermeniz gerektiğinde, **radial gradient nasıl eklenir** öğrenmek başlamak için mükemmel bir yerdir. Bu öğreticide, **Aspose.Page for Java** kütüphanes kullanarak güzel bir radial gradient içeren bir PostScript dosyası oluşturmak için gereken tüm adımları adım adım göstereceğiz. Sonunda API'yi anlayacak, tam çalışan bir örnek görecek ve renkleri, konumları ve yarıçapları istediğiniz tasarıma göre nasıl ayarlayacağınızı öğreneceksiniz.
+Eğer **PostScript gradient** oluşturmanız gerektiğinde pürüzsüz ve göz alıcı bir renk geçişi istiyorsanız, radial gradient eklemeyi öğrenmek başlamak için mükemmel bir yerdir. Bu öğreticide, **Aspose.Page for Java** kütüphanesini kullanarak güzel bir radial gradient içeren bir PostScript dosyası üretmek için gereken tüm adımları adım adım göstereceğiz. Sonunda API'yi anlayacak, tam çalışan bir örnek görecek ve renkleri, konumları ve yarıçapları istediğiniz tasarıma göre nasıl ayarlayacağınızı öğreneceksiniz.
 
 ## Hızlı Yanıtlar
 - **PostScript'te radial gradient oluşturan kütüphane nedir?** Aspose.Page for Java.  
 - **Uygulamanın süresi ne kadar?** Temel bir örnek için yaklaşık 10‑15 dakika.  
 - **Kodu çalıştırmak için lisansa ihtiyacım var mı?** Geliştirme için ücretsiz deneme sürümü yeterlidir; üretim için ticari lisans gereklidir.  
 - **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.  
-- **Gradient'in şeklini değiştirebilir miyim?** Evet – `RadialGradientPaint` yapıcısında yarıçap ve merkez noktasını ayarlayarak.
+- **Gradient'in şeklini değiştirebilir miyim?** Evet – `RadialGradientPaint` yapıcısında yarıçapı ve merkez noktasını ayarlayarak.
+
+## Radial Doldurma ile PostScript Gradient Nasıl Oluşturulur
+Aşağıda, radial doldurma kullanarak **PostScript gradient** içeriği oluşturmanın tam olarak nasıl yapılacağını gösteren kısa ve adım adım bir rehber bulacaksınız. Her adım kısa bir açıklama ve ardından (değiştirilmemiş) orijinal kod bloğu içerir.
 
 ## Radial Gradient Nedir?
-Radial gradient, renkleri merkezi bir noktadan dışa doğru yayarak, kenarlara doğru yavaşça karıştıran bir boyamadır. Lineer gradient'lerin aksine, renk geçişi dairesel (veya eliptik) bir desen izler; bu, vurgular, spot ışıklar veya yumuşak arka plan doldurmaları için idealdir.
+Radial gradient, renkleri merkezi bir noktadan dışa doğru yayarak, kenarlara doğru yavaşça karıştıran bir boyamadır. Lineer gradientlerin aksine, renk geçişi dairesel (veya eliptik) bir desen izler; bu da vurgular, spot ışıklar veya yumuşak arka plan doldurmaları için idealdir.
 
-## Neden Radial Gradient'ler İçin Aspose.Page Kullanmalı?
+## Neden Aspose.Page'i Radial Gradientler İçin Kullanmalısınız?
 - **PostScript çıktısı üzerinde tam kontrol** – düşük seviyeli PS komutlarını elle yazmaya gerek yok.  
 - **Çapraz platform** – Java çalıştıran herhangi bir işletim sisteminde çalışır.  
 - **Zengin renk yönetimi** – birden fazla renk durağı, farklı renk uzayları ve döngü yöntemlerini destekler.  
 - **Entegrasyona hazır** – metin, resim ve vektör şekilleri gibi diğer Aspose.Page özellikleriyle birleştirilebilir.
 
-## Ön Koşullar
+## Önkoşullar
+Kodun içine dalmadan önce aşağıdakilerin hazır olduğundan emin olun:
+
 - **Java Development Kit (JDK) 8+** – `java -version` ile doğrulayın.  
 - **Aspose.Page for Java** – resmi [Aspose.Page indirme sayfasından](https://releases.aspose.com/page/java/) en son JAR'ı indirin.  
 - **Tercih ettiğiniz IDE** – Eclipse, IntelliJ IDEA veya Java uzantılarına sahip VS Code.  
 - **Yazılabilir bir klasör** – oluşturulan `.ps` dosyasının kaydedileceği yer.
 
 ## Paketleri İçe Aktarma
-İlk olarak ihtiyacımız olan sınıfları içe aktaracağız. `java.awt` paketi gradient boya nesnelerini sağlarken, `com.aspose.eps` PostScript belge işleme sınıflarını içerir.
+İhtiyacımız olan sınıfları önce içe aktaralım. `java.awt` paketi gradient boya nesnelerini sağlarken, `com.aspose.eps` PostScript belge işleme sınıflarını içerir.
 
 ```java
 import java.awt.Color;
@@ -73,10 +79,10 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 200);
 ```
 
-> **Pro tip:** Gradient'i sayfanın istediğiniz yerine yerleştirmek için dikdörtgenin koordinatlarını (`200, 100, 200, 200`) ayarlayın.
+> **Pro ipucu:** Gradient'i sayfanın istediğiniz yerine konumlandırmak için dikdörtgenin koordinatlarını (`200, 100, 200, 200`) ayarlayın.
 
 ### Adım 2: Renkleri ve Kesirleri Tanımlayın
-Radial gradient, *renk durakları* (renkler) ve *kesirler* (bu durakların göreceli konumları) ile oluşturulur. Burada altı renk ve bunlara karşılık gelen kesirler dizisi oluşturuyoruz.
+Radial gradient, *color stops* (renkler) ve *fractions* (bu durakların göreli konumları) ile oluşturulur. Burada altı renk ve bunlara karşılık gelen kesirleri içeren bir dizi oluşturuyoruz.
 
 ```java
 // Create arrays of colors and fractions for the gradient
@@ -84,7 +90,10 @@ Color[] colors = { Color.GREEN, Color.BLUE, Color.BLACK, Color.YELLOW, new Color
 float[] fractions = { 0.0f, 0.2f, 0.3f, 0.4f, 0.9f, 1.0f };
 ```
 
-> **Neden önemli:** `fractions` değerlerini değiştirerek renk geçişinin ne kadar hızlı olacağını kontrol eder, ince ya da dramatik etkiler elde edersiniz.
+> **Neden önemli:** `fractions` değerlerini ayarlayarak renk geçişinin hızını kontrol eder, ince ya da dramatik etkiler elde edersiniz.
+
+Radial Doldurmanıza Renk Durağı Gradient'i Eklemek  
+Renk durakları gradient'i **add color stops gradient** eklemeniz gerektiğinde `colors` ve `fractions` dizileri anahtar rol oynar. Görsel tasarımınıza uygun şekilde öğeleri yeniden sıralamaktan, eklemekten veya kaldırmaktan çekinmeyin.
 
 ### Adım 3: Radial Gradient Paint Oluşturun
 Şimdi `RadialGradientPaint` nesnesini oluşturuyoruz. Yapıcı, gradient'in merkez noktası, yarıçap, odak noktası, kesirler, renkler, döngü yöntemi, renk uzayı ve isteğe bağlı bir dönüşüm alır.
@@ -102,10 +111,10 @@ RadialGradientPaint paint = new RadialGradientPaint(
         transform);
 ```
 
-> **Not:** Ek ölçekleme veya döndürme ihtiyacınız yoksa `transform` `null` olabilir. Eğik gradientler için `AffineTransform` ile denemeler yapmaktan çekinmeyin.
+> **Not:** `transform` ek ölçekleme veya döndürme ihtiyacınız yoksa `null` olabilir. Eğik gradientler için `AffineTransform` ile denemeler yapabilirsiniz.
 
 ### Adım 4: Boyayı Ayarlayın ve Dikdörtgeni Doldurun
-Boyamayı hazırladıktan sonra `PsDocument`'e uyguluyor ve daha önce tanımladığımız dikdörtgeni dolduruyoruz.
+Boyamız hazır olduğunda, `PsDocument`'e bunu kullanmasını söyler ve daha önce tanımladığımız dikdörtgeni doldururuz.
 
 ```java
 // Set paint
@@ -117,7 +126,7 @@ document.fill(rectangle);
 Bu noktada PostScript sayfası, yapılandırdığımız radial gradient ile sorunsuz bir şekilde doldurulmuş bir dikdörtgen içerir.
 
 ### Adım 5: Belgeyi Kapatın ve Kaydedin
-Son olarak mevcut sayfayı kapatıyor ve dosyayı diske yazıyoruz.
+Son olarak mevcut sayfayı kapatır ve dosyayı diske yazarız.
 
 ```java
 // Close current page
@@ -126,39 +135,39 @@ document.closePage();
 document.save();
 ```
 
-`RadialGradient1_outPS.ps` dosyasını herhangi bir PostScript görüntüleyicide (ör. Ghostscript) açın; gradient'in tanımlandığı gibi render edildiğini göreceksiniz.
+`RadialGradient1_outPS.ps` dosyasını herhangi bir PostScript görüntüleyicide (ör. Ghostscript) açın; gradient'in tam olarak tanımlandığı gibi render edildiğini göreceksiniz.
 
 ## Yaygın Sorunlar ve Çözümler
 | Belirti | Muhtemel Neden | Çözüm |
 |---------|----------------|-------|
-| Gradient tek renk gibi görünüyor | `fractions` dizisi `0.0f` ile başlamıyor ya da `1.0f` ile bitmiyor | İlk kesirin `0.0f` ve son kesirin `1.0f` olduğundan emin olun. |
-| Renkler soluk görünüyor | Yanlış `ColorSpaceType` kullanılması | Daha canlı bir çıktı için `MultipleGradientPaint.ColorSpaceType.LINEAR_RGB`'ye geçin. |
-| Çıktı dosyası oluşturulmadı | `FileOutputStream` yolu geçersiz ya da yazılamaz | `dataDir`'in var olduğunu ve uygulamanın yazma iznine sahip olduğunu doğrulayın. |
+| Gradient tek renk gibi görünüyor | `fractions` dizisi `0.0f` ile başlamıyor ya da `1.0f` ile bitmiyor | İlk kesirin `0.0f`, sonuncusunun ise `1.0f` olduğundan emin olun. |
+| Renkler soluk görünüyor | `ColorSpaceType`'ın yanlış kullanılması | Daha canlı çıktı için `MultipleGradientPaint.ColorSpaceType.LINEAR_RGB`'ye geçin. |
+| Çıktı dosyası oluşturulmadı | `FileOutputStream` yolu geçersiz ya da yazılabilir değil | `dataDir`'in mevcut olduğunu ve uygulamanın yazma iznine sahip olduğunu doğrulayın. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.Page for Java'yı ticari projelerde kullanabilir miyim?**  
-C: Evet. Üretim ortamı için ticari bir lisans gereklidir. Lisansı [Aspose lisans sayfasından](https://purchase.aspose.com/buy) satın alabilirsiniz.
+**Q: Aspose.Page for Java'yi ticari projelerde kullanabilir miyim?**  
+A: Evet. Üretim kullanımı için ticari bir lisans gereklidir. Lisansı [Aspose lisans sayfasından](https://purchase.aspose.com/buy) satın alabilirsiniz.
 
-**S: Resmi API referansını nerede bulabilirim?**  
-C: Tam dokümantasyon [burada](https://reference.aspose.com/page/java/) mevcuttur.
+**Q: Resmi API referansını nereden bulabilirim?**  
+A: Tam dokümantasyon [burada](https://reference.aspose.com/page/java/) mevcuttur.
 
-**S: Test amaçlı ücretsiz bir deneme sürümü var mı?**  
-C: Kesinlikle. Deneme sürümünü [Aspose.Page sürüm sayfasından](https://releases.aspose.com/) indirebilirsiniz.
+**Q: Test için ücretsiz bir deneme sürümü var mı?**  
+A: Kesinlikle. Deneme sürümünü [Aspose.Page releases sayfasından](https://releases.aspose.com/) indirebilirsiniz.
 
-**S: Değerlendirme için geçici bir lisans nasıl alınır?**  
-C: Geçici lisans talebini [buradan](https://purchase.aspose.com/temporary-license/) yapabilirsiniz.
+**Q: Değerlendirme için geçici bir lisans nasıl alınır?**  
+A: Geçici lisans [buradan](https://purchase.aspose.com/temporary-license/) talep edilebilir.
 
-**S: Topluluk desteği nereden alınır?**  
-C: Aspose.Page topluluk forumuna [forum.aspose.com/c/page/39](https://forum.aspose.com/c/page/39) adresinden katılabilirsiniz.
+**Q: Topluluk desteği nereden alınır?**  
+A: Aspose.Page topluluk forumuna [forum.aspose.com/c/page/39](https://forum.aspose.com/c/page/39) adresinden katılabilirsiniz.
 
 ## Sonuç
-Artık **Java PostScript belgesine radial gradient nasıl eklenir** konusunda bilgi sahibisiniz. Dikdörtgen boyutunu, renk duraklarını ve gradient yarıçapını ayarlayarak sayısız görsel etki yaratabilirsiniz – ince arka plan doldurmalarından cesur spot ışık grafiklerine kadar. Farklı `AffineTransform` değerleriyle gradient'i döndürmeyi veya eğmeyi deneyin ve bu tekniği metin ve resimlerle birleştirerek daha zengin PDF veya EPS çıktıları elde edin.
+Artık Aspose.Page kullanarak Java PostScript belgesine **radial gradient eklemeyi** biliyorsunuz. Dikdörtgen boyutunu, renk duraklarını ve gradient yarıçapını ayarlayarak sayısız görsel etki yaratabilirsiniz – ince arka plan doldurmalarından cesur spot ışık grafiklerine kadar. Farklı `AffineTransform` değerleriyle gradient'i döndürmek veya eğmek için deney yapmaktan çekinmeyin ve bu tekniği metin ve resimlerle birleştirerek daha zengin PDF veya EPS çıktıları elde edin.
 
 ---
 
-**Son Güncelleme:** 2025-12-08  
-**Test Edilen:** Aspose.Page for Java 24.12 (yazım anındaki en yeni sürüm)  
+**Son Güncelleme:** 2026-02-13  
+**Test Edilen:** Aspose.Page for Java latest (as of writing)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

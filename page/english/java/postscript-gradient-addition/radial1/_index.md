@@ -1,11 +1,11 @@
 ---
-title: How to Add Radial Gradient in Java PostScript with Aspose.Page
+title: Create PostScript Gradient – Radial Gradient in Java
 linktitle: Mastering Radial Gradients in Java
 second_title: Aspose.Page Java API
-description: Learn how to add radial gradient in Java PostScript with Aspose.Page. This step‑by‑step guide shows you how to create stunning gradient effects in your documents.
+description: Learn how to create PostScript gradient with a radial color stops gradient using Aspose.Page for Java. This step‑by‑step guide shows you how to add color stops gradient in your documents.
 weight: 12
 url: /java/postscript-gradient-addition/radial1/
-date: 2025-12-08
+date: 2026-02-13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,7 +15,7 @@ date: 2025-12-08
 # How to Add Radial Gradient in Java PostScript with Aspose.Page
 
 ## Introduction
-If you’ve ever needed to give your PostScript output a smooth, eye‑catching color transition, learning **how to add radial gradient** is the perfect place to start. In this tutorial we’ll walk through every step required to generate a PostScript file that contains a beautiful radial gradient, using the **Aspose.Page for Java** library. By the end you’ll understand the API, see a complete runnable example, and know how to tweak colors, positions, and radii to suit any design.
+If you’ve ever needed to **create a PostScript gradient** with a smooth, eye‑catching color transition, learning how to add a radial gradient is the perfect place to start. In this tutorial we’ll walk through every step required to generate a PostScript file that contains a beautiful radial gradient, using the **Aspose.Page for Java** library. By the end you’ll understand the API, see a complete runnable example, and know how to tweak colors, positions, and radii to suit any design.
 
 ## Quick Answers
 - **What library creates radial gradients in PostScript?** Aspose.Page for Java.  
@@ -23,6 +23,9 @@ If you’ve ever needed to give your PostScript output a smooth, eye‑catching 
 - **Do I need a license to run the code?** A free trial works for development; a commercial license is required for production.  
 - **Which Java version is supported?** Java 8 or higher.  
 - **Can I change the gradient’s shape?** Yes – adjust the radius and center point in the `RadialGradientPaint` constructor.
+
+## How to Create PostScript Gradient with Radial Fill
+Below you’ll find a concise, step‑by‑step walkthrough that shows exactly how to **create PostScript gradient** content using a radial fill. Each step includes a short explanation followed by the original code block (unchanged).
 
 ## What is a Radial Gradient?
 A radial gradient paints colors that radiate outward from a central point, gradually blending toward the edges. Unlike linear gradients, the color transition follows a circular (or elliptical) pattern, which is ideal for highlights, spotlights, or soft background fills.
@@ -86,6 +89,9 @@ float[] fractions = { 0.0f, 0.2f, 0.3f, 0.4f, 0.9f, 1.0f };
 ```
 
 > **Why this matters:** By tweaking `fractions` you control how quickly the colors transition, enabling subtle or dramatic effects.
+
+### Adding Color Stops Gradient to Your Radial Fill
+When you need to **add color stops gradient**, the `colors` and `fractions` arrays are the key. Feel free to reorder, add, or remove entries to suit your visual design.
 
 ### Step 3: Create Radial Gradient Paint
 Now we build the `RadialGradientPaint` object. The constructor takes the gradient’s center point, radius, focus point, fractions, colors, cycle method, color space, and an optional transform.
@@ -158,8 +164,8 @@ You now know **how to add radial gradient** to a Java PostScript document using 
 
 ---
 
-**Last Updated:** 2025-12-08  
-**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
+**Last Updated:** 2026-02-13  
+**Tested With:** Aspose.Page for Java latest (as of writing)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
