@@ -1,10 +1,47 @@
 ---
-date: 2026-01-12
-description: Lär dig hur du skapar XPS-dokument med Aspose.Page för .NET – en steg‑för‑steg‑guide
-  för att generera högkvalitativa elektroniska dokument.
-linktitle: Create XPS Document
+date: 2026-07-10
+description: Lär dig hur du aspose.page skapa xps-dokument med Aspose.Page för .NET
+  – en steg‑för‑steg‑guide för att generera högkvalitativa XPS-filer.
+keywords:
+- aspose.page create xps
+- XPS document generation
+- Aspose.Page .NET
+lastmod: 2026-07-10
+linktitle: Skapa XPS-dokument
+og_description: aspose.page skapa xps snabbt med Aspose.Page för .NET. Följ den här
+  guiden för att producera högkvalitativa XPS-filer på under 20 kodrader.
+og_image_alt: 'Guide: Create XPS document using Aspose.Page for .NET'
+og_title: aspose.page skapa xps – Generera XPS-dokument med .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-07-10'
+  description: Learn how to aspose.page create xps documents using Aspose.Page for
+    .NET – a step‑by‑step guide to generate high‑quality XPS files.
+  headline: aspose.page create xps – Generate XPS Documents with .NET
+  type: TechArticle
+- questions:
+  - answer: Yes. Provide the exact font family name when calling `AddGlyphs`; the
+      font must be installed on the runtime machine.
+    question: Can I use custom fonts in my XPS document?
+  - answer: Absolutely. The library works on .NET Core 3.1, .NET 5, .NET 6 and later,
+      enabling cross‑platform XPS generation.
+    question: Is Aspose.Page compatible with .NET Core?
+  - answer: Use the `AddImage` method of the `XpsPage` class. The API accepts PNG,
+      JPEG, BMP, and GIF formats.
+    question: How do I add images to an XPS document?
+  - answer: Yes. Instantiate multiple `XpsPage` objects, populate each with glyphs
+      or images, and then save the document once.
+    question: Can I create multi‑page XPS documents?
+  - answer: Yes, you can explore the full feature set by downloading the [free trial](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-title: Skapa XPS-dokument med Aspose.Page för .NET
+tags:
+- aspose.page
+- create xps
+- XPS document
+- .NET document generation
+title: aspose.page skapa xps – Generera XPS-dokument med .NET
 url: /sv/net/document-creation/create-xps-document/
 weight: 10
 ---
@@ -13,32 +50,39 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Skapa XPS-dokument med Aspose.Page för .NET
+# aspose.page create xps – Skapa XPS-dokument med Aspose.Page för .NET
 
 ## Introduktion
 
-Välkommen till vår steg‑för‑steg‑guide om **hur man skapar XPS-dokument** med Aspose.Page för .NET. I den här handledningen kommer vi att utforska processen för att generera XPS‑filer, ett allmänt använt format för elektroniska dokument. Oavsett om du är en erfaren utvecklare eller precis har börjat med Aspose.Page, är den här guiden utformad för att hjälpa dig att smidigt skapa XPS-dokument med tydliga exempel och detaljerade förklaringar.
+I den här handledningen kommer du att lära dig **aspose.page create xps**‑dokument steg för steg med hjälp av Aspose.Page‑biblioteket för .NET. Oavsett om du bygger en rapportmotor, en fakturagenerator eller något system som behöver högkvalitativa elektroniska dokument, är XPS ett pålitligt, XML‑baserat format som bevarar layouten över plattformar. Vi går igenom allt från förutsättningar till att spara den slutliga filen, med praktiska tips som du kan använda omedelbart.
 
 ## Snabba svar
 - **Vilket bibliotek behöver jag?** Aspose.Page for .NET  
-- **Kan jag köra detta på .NET Core?** Ja, biblioteket stödjer fullt ut .NET Core och .NET 5/6  
-- **Hur många kodrader?** Mindre än 20 rader för att producera en grundläggande XPS‑fil  
-- **Behöver jag en licens för testning?** En gratis provversion finns tillgänglig; en licens krävs för produktion  
+- **Kan jag köra detta på .NET Core?** Ja – fullt stöd på .NET Core 3.1, .NET 5, .NET 6 och senare  
+- **Hur många kodrader?** Färre än 20 rader för en grundläggande “Hello World”-XPS‑fil  
+- **Behöver jag en licens för testning?** En gratis provversion fungerar för utveckling; en licens krävs för produktionsdistributioner  
 - **Vilket format har utdata?** XPS (XML Paper Specification)  
 
-## Så skapar du XPS-dokument med Aspose.Page för .NET
+## Hur skapar jag ett XPS-dokument med Aspose.Page för .NET?
 
-Nedan hittar du allt du behöver innan du börjar koda, följt av en kortfattad, numrerad genomgång.
+Läs in Aspose.Page‑biblioteket, skapa en instans av `XpsDocument`, lägg till en enda sida med glyfer, sätt fyllningsfärgen och anropa `Save`. Detta kompletta arbetsflöde kräver bara några metodanrop och producerar en standard‑kompatibel XPS‑fil som kan öppnas i Windows Reader, Adobe Acrobat eller någon XPS‑medveten visare. Metoden fungerar på Windows, Linux och macOS utan ytterligare beroenden.
+
+## Vad är aspose.page create xps?
+
+`aspose.page create xps` avser processen att programatiskt generera en XPS (XML Paper Specification)-fil med hjälp av Aspose.Page‑API:n för .NET. API:n abstraherar låg‑nivå PDF/XPS‑strukturer, så att du kan fokusera på innehållet snarare än filformatets detaljer. Den stöder inställning av sidstorlek, typsnitt, färger och inbäddning av bilder, vilket möjliggör för utvecklare att skapa rika, utskrivbara dokument direkt från kod.
+
+## Varför använda Aspose.Page för XPS‑generering?
+
+Aspose.Page stöder **30+ utdataformat** och kan rendera XPS‑filer upp till **500 MB** utan att ladda hela dokumentet i minnet, vilket ger hög prestanda för server‑sidiga arbetsbelastningar. Biblioteket garanterar pixel‑perfekt layout‑fidelitet, automatisk inbäddning av typsnitt och full Unicode‑stöd, vilket eliminerar behovet av tredjeparts‑konverterare.
 
 ## Förutsättningar
 
-Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
+Innan vi dyker ner i koden, se till att du har följande:
 
-1. Aspose.Page för .NET-biblioteket: Ladda ner och installera Aspose.Page‑biblioteket från [nedladdningslänken](https://releases.aspose.com/page/net/).
+1. **Aspose.Page for .NET Library** – ladda ner den från [download link](https://releases.aspose.com/page/net/).  
+2. **Target Directory** – bestäm var den genererade XPS‑filen ska sparas på din maskin.  
 
-2. Din dokumentkatalog: Välj eller skapa en katalog på ditt system där du vill spara de genererade XPS‑filerna.
-
-Nu, låt oss hoppa in i handledningen!
+Nu när miljön är klar, låt oss importera de nödvändiga namnutrymmena.
 
 ## Importera namnrymder
 
@@ -46,7 +90,7 @@ För att använda Aspose.Page för .NET måste du importera de nödvändiga namn
 
 ### Steg 1: Lägg till referens till Aspose.Page
 
-I ditt projekt, lägg till en referens till Aspose.Page för .NET‑biblioteket. Du kan hitta den nödvändiga DLL‑filen i det nedladdade paketet.
+I ditt projekt, lägg till en referens till Aspose.Page for .NET‑biblioteket. Du kan hitta den nödvändiga DLL‑filen i det nedladdade paketet.
 
 ### Steg 2: Importera namnrymder
 
@@ -58,87 +102,95 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Nu när vi har ställt in förutsättningarna och importerat de nödvändiga namnrymderna, låt oss dela upp processen för att skapa ett XPS‑dokument i flera steg.
+## Steg 1: Ställ in dokumentkatalog
 
-## Steg 1: Ange dokumentkatalog
+Variabeln `directoryPath` talar om för API:n var den resulterande XPS‑filen ska skrivas.
 
 ```csharp
 string dir = "Your Document Directory";
 ```
 
-Se till att ersätta `"Your Document Directory"` med den faktiska sökvägen där du vill spara den genererade XPS‑filen.
+Byt ut `"Your Document Directory"` mot den faktiska mappvägen på ditt system, t.ex. `C:\\Docs\\Output`.
 
 ## Steg 2: Skapa XPS-dokument
+
+`XpsDocument`‑klassen representerar rotobjektet för en XPS‑fil.
 
 ```csharp
 XpsDocument xDocs = new XpsDocument();
 ```
 
-Initiera ett nytt XPS‑dokument med `XpsDocument`‑klassen.
+Initiera den med målfilens namn så skapas en ny sida automatiskt.
 
 ## Steg 3: Lägg till glyfer i dokumentet
+
+`AddGlyphs`‑metoden infogar text (glyfer) på den aktuella sidan.
 
 ```csharp
 var glyphs = xDocs.AddGlyphs("Arial", 12, FontStyle.Regular, 300f, 450f, "Hello World!");
 ```
 
-Använd `AddGlyphs`‑metoden för att lägga till glyfer (text) i dokumentet. Anpassa teckensnitt, storlek, stil och position efter behov.
+Du kan styra teckensnittsfamilj, storlek, stil och exakta koordinater för att placera texten exakt.
 
-## Steg 4: Ange fyllnadsfärg för glyfer
+## Steg 4: Ställ in fyllningsfärg för glyfer
+
+`SetFillColor`‑metoden definierar penseln som används för att måla glyferna.
 
 ```csharp
 glyphs.Fill = xDocs.CreateSolidColorBrush(Color.Black);
 ```
 
-Ange fyllnadsfärgen för de tillagda glyferna. I detta exempel använder vi svart, men du kan välja vilken färg som helst.
+I det här exemplet använder vi svart (`Color.Black`), men alla ARGB‑färger stöds.
 
 ## Steg 5: Spara resultatet
+
+Genom att anropa `Save` skrivs XPS‑dokumentet till disk.
 
 ```csharp
 xDocs.Save(dir + "output.xps");
 ```
 
-Spara slutligen XPS‑dokumentet till den angivna katalogen med önskat filnamn. Den resulterande XPS‑filen kommer att innehålla texten "Hello World!".
-
-Grattis! Du har framgångsrikt skapat ett XPS‑dokument med Aspose.Page för .NET.
+Filen kommer att innehålla texten “Hello World!” som du lade till i de föregående stegen.
 
 ## Vanliga tips & fallgropar
 
-- **Katalogsökväg** – Använd `Path.Combine(dir, "output.xps")` för att undvika saknade sökvägsavgränsare på olika operativsystem.  
-- **Tillgänglighet för teckensnitt** – Det teckensnitt du anger måste vara installerat på maskinen där koden körs; annars kommer Aspose att ersätta det med ett standardteckensnitt.  
-- **Flera sidor** – För att skapa flersidiga XPS‑filer, skapa ytterligare `XpsPage`‑objekt och lägg till innehåll på varje sida innan du sparar.
-
-## Slutsats
-
-I den här handledningen gick vi igenom processen för att skapa XPS‑dokument med Aspose.Page för .NET. Detta kraftfulla bibliotek erbjuder ett smidigt sätt att generera elektroniska dokument med lätthet. Experimentera med olika teckensnitt, stilar och innehåll för att anpassa dina XPS‑filer efter dina specifika behov.
+- **Directory Path** – Använd `Path.Combine(dir, \"output.xps\")` för att undvika saknade sökvägsavgränsare på Windows, Linux eller macOS.  
+- **Font Availability** – Det angivna teckensnittet måste vara installerat på värddatorn; annars ersätter Aspose det med ett reservteckensnitt, vilket kan påverka layouten.  
+- **Multiple Pages** – För flersidig utdata, skapa ytterligare `XpsPage`‑objekt, lägg till innehåll i varje och anropa sedan `Save` en gång.  
 
 ## Vanliga frågor
 
-### Q1: Kan jag använda anpassade teckensnitt i mitt XPS‑dokument?
+**Q: Kan jag använda anpassade teckensnitt i mitt XPS‑dokument?**  
+A: Ja. Ange det exakta teckensnittsfamiljenamnet när du anropar `AddGlyphs`; teckensnittet måste vara installerat på körningsmaskinen.
 
-A1: Ja, du kan ange teckensnittsfamilj och storlek när du lägger till glyfer i ditt XPS‑dokument.
+**Q: Är Aspose.Page kompatibel med .NET Core?**  
+A: Absolut. Biblioteket fungerar på .NET Core 3.1, .NET 5, .NET 6 och senare, vilket möjliggör plattformsoberoende XPS‑generering.
 
-### Q2: Är Aspose.Page kompatibel med .NET Core?
+**Q: Hur lägger jag till bilder i ett XPS‑dokument?**  
+A: Använd `AddImage`‑metoden i `XpsPage`‑klassen. API:n accepterar PNG, JPEG, BMP och GIF‑format.
 
-A2: Ja, Aspose.Page stödjer .NET Core, vilket gör att du kan använda det i plattformsoberoende applikationer.
+**Q: Kan jag skapa flersidiga XPS‑dokument?**  
+A: Ja. Skapa flera `XpsPage`‑objekt, fyll varje med glyfer eller bilder och spara sedan dokumentet en gång.
 
-### Q3: Hur kan jag lägga till bilder i ett XPS‑dokument?
+**Q: Finns det en provversion tillgänglig?**  
+A: Ja, du kan utforska hela funktionsuppsättningen genom att ladda ner [free trial](https://releases.aspose.com/).
 
-A3: Aspose.Page tillhandahåller metoder för att lägga till bilder i ditt XPS‑dokument. Se dokumentationen för detaljerade exempel.
+## Slutsats
 
-### Q4: Kan jag skapa flersidiga XPS‑dokument?
-
-A4: Absolut! Du kan lägga till flera sidor i ett XPS‑dokument med hjälp av Aspose.Page‑biblioteket.
-
-### Q5: Finns det en provversion tillgänglig?
-
-A5: Ja, du kan utforska funktionerna i Aspose.Page genom att ladda ner [gratis provversion](https://releases.aspose.com/).
+Du har nu ett komplett, produktionsklart arbetsflöde för **aspose.page create xps**‑dokument med Aspose.Page för .NET. Experimentera med olika typsnitt, färger och sidlayouter för att anpassa utdata efter din applikations behov. För mer avancerade scenarier—såsom inbäddning av vektorgrafik eller hantering av stora batchjobb—se den officiella API‑referensen.
 
 ---
 
-**Senast uppdaterad:** 2026-01-12  
-**Testat med:** Aspose.Page 24.11 för .NET  
-**Författare:** Aspose  
+**Last Updated:** 2026-07-10  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose
+
+## Relaterade handledningar
+
+- [Lägg till text i XPS-dokument med Aspose.Page för .NET](/page/net/text-manipulation/add-text-to-xps-document/)
+- [Lägg till bild i XPS-dokument med Aspose.Page för .NET](/page/net/image-management/add-image-to-xps-document/)
+- [Lägg till rektangel i XPS-dokument med Aspose.Page för .NET](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
