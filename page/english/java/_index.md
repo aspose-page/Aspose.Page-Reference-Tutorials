@@ -1,9 +1,9 @@
 ---
-title: Java Document Generation: Convert PostScript to PDF with Aspose.Page for Java – Comprehensive Tutorials & Examples
+title: "Java Document Generation: Convert PostScript to PDF with Aspose.Page for Java – Comprehensive Tutorials & Examples"
 linktitle: Aspose.Page for Java Tutorials
 weight: 10
 url: /java/
-description: Learn java document generation by converting PostScript to PDF, merging PDFs, and managing licenses with Aspose.Page for Java.
+description: "Learn java document generation by converting PostScript to PDF, merging PDFs, and managing licenses with Aspose.Page for Java."
 date: 2026-02-05
 ---
 
@@ -45,6 +45,22 @@ Converting PostScript to PDF means taking a page description written in the Post
 1. **Add the Aspose.Page Maven dependency** to your `pom.xml` (or the equivalent Gradle entry).  
 2. **Load the PostScript file** with `PostScriptDocument`.  
 3. **Save the document** as PDF by calling `save("output.pdf", SaveFormat.PDF)`.  
+
+Here is a minimal example you can run:
+
+```java
+import com.aspose.page.PostScriptDocument;
+import com.aspose.page.SaveFormat;
+
+public class ConvertPsToPdf {
+    public static void main(String[] args) throws Exception {
+        // Load the PostScript file
+        PostScriptDocument psDoc = new PostScriptDocument("input.ps");
+        // Save as PDF
+        psDoc.save("output.pdf", SaveFormat.PDF);
+    }
+}
+```
 
 > *The actual code snippet is provided in the dedicated tutorial linked below.*
 

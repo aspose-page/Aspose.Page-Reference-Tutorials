@@ -1,5 +1,5 @@
 ---
-title: "Save EPS as PNG with Aspose.Page Java (Metered License)"
+title: "Convert EPS to PNG with Aspose.Page Java (Metered License)"
 linktitle: Set Metered License in Java
 second_title: Aspose.Page Java API
 description: "Learn how to save EPS as PNG using Aspose.Page for Java while configuring a metered license. Step‑by‑step guide with full code example."
@@ -12,7 +12,7 @@ date: 2026-02-05
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Save EPS as PNG with Aspose.Page Java (Metered License)
+# Convert EPS to PNG with Aspose.Page Java (Metered License)
 
 ## Introduction
 If you need to **save EPS as PNG** in a Java application and want a hassle‑free way to manage licensing, you’re in the right place. This tutorial walks you through configuring a metered license for Aspose.Page, loading a PostScript (EPS) file, and converting it to a PNG image—all with clear, bite‑size steps you can follow right away. By the end you’ll also understand how to **render EPS to PNG** efficiently and **write PNG file Java** code that works in production environments.

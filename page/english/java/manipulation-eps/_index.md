@@ -47,6 +47,25 @@ Resizing EPS files is often the first step when you need to fit graphics into a 
 
 > **Pro tip:** When you only need a different size for printing, keep the original EPS untouched and generate a temporary resized copy. This preserves the master file for future reuse.
 
+### Sample Code: Resizing an EPS File
+```java
+import com.aspose.page.*;
+
+public class ResizeEps {
+    public static void main(String[] args) throws Exception {
+        // Load the EPS file
+        try (Page page = new Page("input.eps")) {
+            // Set new size (width x height) in points
+            page.getPageInfo().setWidth(400);
+            page.getPageInfo().setHeight(300);
+
+            // Save the resized EPS
+            page.save("output_resized.eps", SaveFormat.Eps);
+        }
+    }
+}
+```
+
 ### Explore the Resize EPS Tutorial
 [Explore the Resize EPS Tutorial](./resize/)
 

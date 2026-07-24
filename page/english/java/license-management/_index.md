@@ -1,5 +1,5 @@
 ---
-title: "How to Set License for Aspose Page Java – License Management"
+title: "How to Set License for Aspose.Page Java API – License Management"
 linktitle: "License Management"
 second_title: "Aspose.Page Java API"
 description: "Learn how to set license for Aspose Page Java, monitor metered usage, and validate Aspose license with a pay‑per‑use model. Step‑by‑step guide for Java developers."
@@ -12,7 +12,7 @@ date: 2026-02-05
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Set License for Aspose Page Java – License Management
+# How to Set License for Aspose.Page Java API – License Management
 
 ## How to Set License – Introduction
 
@@ -59,6 +59,20 @@ Metered licensing removes the need for upfront purchases and eliminates the risk
 1. **Obtain your metered license key** from the Aspose customer portal.  
 2. **Add the license file** (or key string) to your project resources.  
 3. **Initialize the license in code** before any Aspose.Page operation.  
+
+```java
+import com.aspose.page.License;
+
+public class LicenseUtil {
+    public static void setMeteredLicense() {
+        License license = new License();
+        // Replace with your metered license key
+        license.setMeteredKey("YOUR_METERED_LICENSE_KEY");
+        System.out.println("Aspose.Page license set successfully.");
+    }
+}
+```
+
 4. **Verify that usage is being reported** by checking the console or the Aspose usage dashboard.  
 
 > **Pro tip:** Keep the license initialization code in a single utility class to avoid duplication across your codebase.
@@ -103,10 +117,10 @@ Once the metered license is active, you’ll notice:
 
 By mastering **how to set license** for Aspose.Page with a **pay‑per‑use** model, you unlock a powerful, flexible, and cost‑effective way to handle document processing in Java. Follow the steps above, keep an eye on your usage, and you’ll be ready to scale your applications without worrying about licensing constraints.
 
-Ready to get started? [Set Metered License in Java](./set-metered-license/) and witness the transformation in your Java development journey. Happy coding!
+Ready to get started? {{< relref "set-metered-license/_index.md" >}} and witness the transformation in your Java development journey. Happy coding!
 
 ## License Management Tutorials
-### [Set Metered License in Java](./set-metered-license/)
+### {{< relref "set-metered-license/_index.md" >}}
 Explore the seamless integration of Aspose.Page with Java. Set up metered licenses effortlessly and enhance your document processing capabilities.
 
 ## Frequently Asked Questions
