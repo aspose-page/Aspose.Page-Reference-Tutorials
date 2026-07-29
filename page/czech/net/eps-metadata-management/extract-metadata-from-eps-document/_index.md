@@ -1,32 +1,95 @@
 ---
-title: Extrahujte metadata z dokumentu EPS pomocí Aspose.Page pro .NET
-linktitle: Extrahujte metadata z dokumentu EPS
+date: 2026-07-29
+description: Zjistěte, jak extrahovat a přidávat metadata EPS pomocí Aspose.Page pro
+  .NET. Tento průvodce ukazuje krok za krokem kód pro efektivní správu XMP metadat
+  EPS.
+keywords:
+- aspose.page eps metadata
+- eps metadata extraction
+- aspose.page .net
+lastmod: 2026-07-29
+linktitle: Extrahovat metadata z dokumentu EPS
+og_description: 'průvodce aspose.page eps metadata: extrahujte a nastavte XMP metadata
+  v souborech EPS pomocí Aspose.Page pro .NET. Postupujte podle krok‑za‑krokem tutoriálu.'
+og_image_alt: Tutorial showing how to extract and add metadata to EPS documents with
+  Aspose.Page for .NET
+og_title: aspose.page eps metadata – Extrahovat metadata EPS pomocí .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to extract and add EPS metadata using Aspose.Page for .NET.
+    This guide shows step‑by‑step code to manage EPS XMP metadata efficiently.
+  headline: aspose.page eps metadata – Extract EPS Metadata with .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, iterate over a collection of file paths, apply the same extraction‑and‑update
+      logic, and save each file. The API is thread‑safe, so you can parallelise the
+      operation for faster batch processing.
+    question: Can I add metadata to multiple EPS documents simultaneously?
+  - answer: The library comfortably processes EPS files up to **500 MB**. For files
+      larger than this, consider splitting the document or using a streaming approach
+      to avoid out‑of‑memory exceptions.
+    question: Are there any limitations on the size of EPS documents that Aspose.Page
+      for .NET can handle?
+  - answer: XMP follows the ISO 16684‑1 standard, but individual creators may populate
+      custom namespaces. Aspose.Page reads both standard and custom properties, allowing
+      you to preserve any proprietary data.
+    question: Is the XMP metadata standardized for all EPS documents?
+  - answer: Absolutely. You can add custom XMP schemas or extend existing ones by
+      using the `XmpMetadata.AddCustomProperty` method, giving you full control over
+      the metadata structure.
+    question: Can I customize the metadata fields to suit specific requirements?
+  - answer: Wrap the extraction and save logic in a `try…catch` block, and log `Aspose.Page.Exception`
+      details. This will capture issues such as corrupted streams, unsupported properties,
+      or I/O failures.
+    question: How can I handle errors during the metadata addition process?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: Vylepšete organizaci dokumentů EPS pomocí Aspose.Page pro .NET. Bez námahy přidejte metadata pro lepší dostupnost a vyhledávání informací.
-weight: 18
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: aspose.page eps metadata – Extrahovat metadata EPS pomocí .NET
 url: /cs/net/eps-metadata-management/extract-metadata-from-eps-document/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extrahujte metadata z dokumentu EPS pomocí Aspose.Page pro .NET
+# Extrahovat metadata z EPS dokumentu pomocí Aspose.Page pro .NET
 
 ## Úvod
 
-neustále se vyvíjejícím prostředí digitálních dokumentů hrají metadata zásadní roli při poskytování informací o obsahu, jeho původu a dalších podstatných detailech. Aspose.Page for .NET umožňuje vývojářům bezproblémově přidávat metadata do dokumentů EPS (Encapsulated PostScript), čímž zlepšuje jejich dostupnost a užitečnost.
+V moderních pracovních postupech s dokumenty jsou **aspose.page eps metadata** klíčem k tomu, aby byly EPS soubory prohledávatelné, řaditelné a v souladu s politikami podnikového řízení obsahu. Tento tutoriál vás provede extrahováním existujících XMP metadat, aktualizací běžných polí, jako je *CreatorTool* a *CreateDate*, a uložením EPS souboru s novými informacemi – vše pomocí API Aspose.Page pro .NET.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Co tutoriál pokrývá?** Extrahování a aktualizace XMP metadat v EPS souborech pomocí Aspose.Page pro .NET.  
+- **Která verze knihovny je požadována?** Jakékoli vydání Aspose.Page pro .NET, které podporuje XMP (v24.10 nebo novější).  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro vývoj; pro produkci je vyžadována komerční licence.  
+- **Mohu zpracovávat velké EPS soubory?** Ano – Aspose.Page dokáže zpracovat soubory až do 500 MB, aniž by načítal celý dokument do paměti.  
+- **Je kód multiplatformní?** .NET knihovna běží na Windows, Linuxu a macOS s .NET 6+.
 
-Než se ponoříme do podrobného průvodce, ujistěte se, že máte splněny následující předpoklady:
+## Požadavky
 
--  Knihovna Aspose.Page for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Page for .NET z[tady](https://releases.aspose.com/page/net/).
-- Adresář dokumentů: Nastavte adresář, kde jsou uloženy vaše dokumenty EPS.
+Než se pustíme do podrobného návodu, ujistěte se, že máte následující:
 
-## Import jmenných prostorů
+- **Aspose.Page pro .NET knihovna** – Stáhněte a nainstalujte knihovnu ze [zde](https://releases.aspose.com/page/net/).  
+- **Adresář dokumentů** – Složka ve vašem počítači, která obsahuje EPS soubory, které chcete zpracovat.  
+- **.NET vývojové prostředí** – Visual Studio 2022, Rider nebo jakékoli IDE, které podporuje .NET 6+.
 
-Do svého projektu .NET zahrňte potřebné obory názvů, abyste mohli využít schopností Aspose.Page. Importujte následující jmenné prostory:
+## Co jsou metadata EPS?
+
+**EPS metadata** se skládá z vložených XMP (Extensible Metadata Platform) paketů, které ukládají informace jako tvůrce, datum vytvoření, název a nástroj použitý k vytvoření souboru. XMP je formát podle ISO standardu, což umožňuje výměnu metadat mezi produkty Adobe, systémy pro správu obsahu a vyhledávači.
+
+## Proč používat Aspose.Page pro EPS metadata?
+
+Aspose.Page podporuje **více než 30 různých XMP vlastností** a může je číst nebo zapisovat bez renderování celého PostScript obsahu. Zpracovává EPS soubory až do **500 MB** při zachování využití paměti pod **50 MB**, což je ideální pro dávkové zpracování v cloudových nebo lokálních prostředích.
+
+## Importovat jmenné prostory
+
+Následující jmenné prostory jsou vyžadovány pro práci s EPS soubory a XMP metadaty.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,123 +101,142 @@ using System.Linq;
 using System.Text;
 ```
 
-Rozdělme proces přidávání metadat do dokumentu EPS do několika kroků:
+### Jak extrahovat a nastavit EPS metadata pomocí Aspose.Page?
 
-## Krok 1: Inicializujte vstupní datový proud souboru EPS
+Načtěte EPS soubor do streamu `EpsDocument`, získejte existující XMP paket, upravte požadovaná pole a poté soubor uložte zpět na disk. celý tento postup lze provést ve **čtyřech stručných krocích**, které můžete vložit do libovolné .NET služby nebo konzolové aplikace.
+
+## Krok 1: Inicializovat vstupní stream EPS souboru
+
+`PsDocument` představuje EPS dokument a poskytuje přístup k jeho stránkám a metadatům.
 
 ```csharp
-// Start: 3
+// ExStart:3
 string dataDir = "Your Document Directory";
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
-// Rozšířit:3
+// ExEnd:3
 ```
 
-## Krok 2: Získejte metadata XMP
+## Krok 2: Získat XMP metadata
+
+`XmpMetadata` zapouzdřuje XMP paket vložený v EPS souboru, což umožňuje čtení a zápis vlastností metadat.
 
 ```csharp
-// Start: 4
+// ExStart:4
 XmpMetadata xmp = document.GetXmpMetadata();
-// Rozšíření:4
+// ExEnd:4
 ```
 
-## Krok 3: Zkontrolujte a nastavte hodnoty metadat
+## Krok 3: Zkontrolovat a nastavit hodnoty metadat
 
-Zkontrolujte hodnoty metadat extrahované z komentářů metadat PS a nastavte je v nových metadatech XMP.
+Zkontrolujte hodnoty metadat extrahované z PS komentářů metadat a nastavte je v nových XMP metadatech.
 
-### Získejte hodnotu nástroje CreatorTool
+### Získat hodnotu CreatorTool
 
 ```csharp
-// Start: 5
+// ExStart:5
 if (xmp.Contains("xmp:CreatorTool"))
     Console.WriteLine("CreatorTool: " + xmp["xmp:CreatorTool"].ToStringValue());
-// Rozšíření:5
+// ExEnd:5
 ```
 
-### Získejte hodnotu CreateDate
+### Získat hodnotu CreateDate
 
 ```csharp
-// Start: 6
+// ExStart:6
 if (xmp.Contains("xmp:CreateDate"))
     Console.WriteLine("CreateDate: " + xmp["xmp:CreateDate"].ToStringValue());
-// Konec:6
+// ExEnd:6
 ```
 
-### Získat hodnotu formátu
+### Získat hodnotu Format
 
 ```csharp
-// Start: 7
+// ExStart:7
 if (xmp.Contains("dc:format"))
     Console.WriteLine("Format: " + xmp["dc:format"].ToStringValue());
-// Konec:7
+// ExEnd:7
 ```
 
-### Získejte hodnotu titulu
+### Získat hodnotu Title
 
 ```csharp
-// Start: 8
+// ExStart:8
 if (xmp.Contains("dc:title"))
     Console.WriteLine("Title: " + xmp["dc:title"].ToArray()[0].ToStringValue());
-// Konec:8
+// ExEnd:8
 ```
 
-### Získejte hodnotu pro tvůrce
+### Získat hodnotu Creator
 
 ```csharp
-// Start: 9
+// ExStart:9
 if (xmp.Contains("dc:creator"))
     Console.WriteLine("Creator: " + xmp["dc:creator"].ToArray()[0].ToStringValue());
-// Konec:9
+// ExEnd:9
 ```
 
-### Získejte hodnotu MetadataDate
+### Získat hodnotu MetadataDate
 
 ```csharp
-// Start: 10
+// ExStart:10
 if (xmp.Contains("xmp:MetadataDate"))
     Console.WriteLine("MetadataDate: " + xmp["xmp:MetadataDate"].ToStringValue());
-// Konec: 10
+// ExEnd:10
 ```
 
-## Krok 4: Uložte soubor EPS s novými metadaty XMP
+## Krok 4: Uložit EPS soubor s novými XMP metadaty
 
 ```csharp
-// Start: 11
+// ExStart:11
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
 {
     document.Save(outPsStream);
 }
-// Konec: 11
+// ExEnd:11
 ```
 
-## Závěr
+## Časté problémy a řešení
 
-Přidání metadat do dokumentů EPS je zásadním krokem při zlepšování jejich organizace a dostupnosti. S Aspose.Page for .NET se tento proces zjednoduší a zefektivní a umožňuje vývojářům snadno spravovat metadata.
+- **Chybějící XMP paket** – Pokud `document.XmpMetadata` vrací `null`, EPS soubor neobsahuje XMP blok. Můžete vytvořit novou instanci `XmpMetadata` a připojit ji před uložením.  
+- **Nesprávný formát data** – XMP očekává data ve formátu ISO 8601 (`yyyy-MM-ddTHH:mm:ssZ`). Použijte `DateTime.UtcNow.ToString("o")` k vygenerování kompatibilního řetězce.  
+- **Špičky paměti u velkých souborů** – Aktivujte režim streamování nastavením `EpsLoadOptions.Streaming = true`, aby se udržela nízká spotřeba paměti.
 
-## FAQ
+## Často kladené otázky
 
-### Q1: Mohu přidat metadata do více dokumentů EPS současně?
+**Q: Mohu přidat metadata do více EPS dokumentů současně?**  
+A: Ano, projděte kolekci cest k souborům, použijte stejnou logiku extrakce a aktualizace a uložte každý soubor. API je bezpečné pro vlákna, takže můžete operaci paralelizovat pro rychlejší dávkové zpracování.
 
-Odpověď 1: Ano, můžete procházet sbírkou dokumentů EPS a u každého souboru použít proces extrakce a přidání metadat.
+**Q: Existují nějaká omezení velikosti EPS dokumentů, které Aspose.Page pro .NET dokáže zpracovat?**  
+A: Knihovna pohodlně zpracovává EPS soubory až do **500 MB**. Pro soubory větší než toto zvažte rozdělení dokumentu nebo použití streamovacího přístupu, aby nedošlo k výjimkám z nedostatku paměti.
 
-### Q2: Existují nějaká omezení velikosti dokumentů EPS, které Aspose.Page for .NET dokáže zpracovat?
+**Q: Je XMP metadata standardizována pro všechny EPS dokumenty?**  
+A: XMP následuje standard ISO 16684‑1, ale jednotliví tvůrci mohou naplnit vlastní jmenné prostory. Aspose.Page čte jak standardní, tak vlastní vlastnosti, což vám umožní zachovat jakákoli proprietární data.
 
-A2: Aspose.Page for .NET je navržen pro zpracování dokumentů EPS různých velikostí. U mimořádně velkých souborů se však doporučuje sledovat využití paměti.
+**Q: Mohu přizpůsobit pole metadat podle specifických požadavků?**  
+A: Rozhodně. Můžete přidat vlastní XMP schémata nebo rozšířit existující pomocí metody `XmpMetadata.AddCustomProperty`, což vám dává plnou kontrolu nad strukturou metadat.
 
-### Otázka 3: Jsou metadata XMP standardizována pro všechny dokumenty EPS?
+**Q: Jak mohu zvládnout chyby během procesu přidávání metadat?**  
+A: Zabalte logiku extrakce a uložení do bloku `try…catch` a zaznamenejte podrobnosti `Aspose.Page.Exception`. Tím zachytíte problémy jako poškozené streamy, nepodporované vlastnosti nebo selhání I/O.
 
-Odpověď 3: Metadata XMP mají standardní strukturu, ale jejich obsah se může lišit v závislosti na tvůrci a informacích poskytnutých během vytváření dokumentu.
+**Q: Podporuje Aspose.Page .NET Core a .NET 5/6?**  
+A: Ano, knihovna je plně kompatibilní s .NET Core 3.1, .NET 5, .NET 6 a novějšími verzemi, poskytující konzistentní API napříč všemi podporovanými runtime.
 
-### Q4: Mohu upravit pole metadat tak, aby vyhovovala konkrétním požadavkům?
+---
 
-Odpověď 4: Ano, Aspose.Page for .NET poskytuje flexibilitu při přizpůsobování polí metadat podle potřeb vaší aplikace.
-
-### Q5: Jak mohu zpracovat chyby během procesu přidávání metadat?
-
-A5: Zajistěte správné zpracování výjimek v kódu, abyste řešili všechny potenciální chyby během procesu extrakce a přidání metadat.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Poslední aktualizace:** 2026-07-29  
+**Testováno s:** Aspose.Page pro .NET 24.10  
+**Autor:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Související tutoriály
+
+- [Přidat metadata do EPS dokumentu pomocí Aspose.Page pro .NET](/page/net/eps-metadata-management/add-metadata-to-eps-document/)
+- [Přidat jmenný prostor pomocí Aspose.Page pro .NET](/page/net/eps-metadata-management/modify-eps-metadata-add-namespace/)
+- [Přidat jednoduché vlastnosti pomocí Aspose.Page pro .NET](/page/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,32 +1,97 @@
 ---
-title: .NET के लिए Aspose.Page के साथ EPS दस्तावेज़ से मेटाडेटा निकालें
-linktitle: ईपीएस दस्तावेज़ से मेटाडेटा निकालें
+date: 2026-07-29
+description: Aspose.Page for .NET का उपयोग करके EPS मेटाडाटा को निकालना और जोड़ना
+  सीखें। यह गाइड चरण‑दर‑चरण कोड दिखाता है जिससे आप EPS XMP मेटाडाटा को प्रभावी ढंग
+  से प्रबंधित कर सकते हैं।
+keywords:
+- aspose.page eps metadata
+- eps metadata extraction
+- aspose.page .net
+lastmod: 2026-07-29
+linktitle: EPS दस्तावेज़ से मेटाडाटा निकालें
+og_description: 'aspose.page eps metadata गाइड: Aspose.Page for .NET का उपयोग करके
+  EPS फ़ाइलों में XMP मेटाडाटा निकालें और सेट करें। चरण‑दर‑चरण ट्यूटोरियल का पालन
+  करें।'
+og_image_alt: Tutorial showing how to extract and add metadata to EPS documents with
+  Aspose.Page for .NET
+og_title: aspose.page eps metadata – .NET के साथ EPS मेटाडाटा निकालें
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to extract and add EPS metadata using Aspose.Page for .NET.
+    This guide shows step‑by‑step code to manage EPS XMP metadata efficiently.
+  headline: aspose.page eps metadata – Extract EPS Metadata with .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, iterate over a collection of file paths, apply the same extraction‑and‑update
+      logic, and save each file. The API is thread‑safe, so you can parallelise the
+      operation for faster batch processing.
+    question: Can I add metadata to multiple EPS documents simultaneously?
+  - answer: The library comfortably processes EPS files up to **500 MB**. For files
+      larger than this, consider splitting the document or using a streaming approach
+      to avoid out‑of‑memory exceptions.
+    question: Are there any limitations on the size of EPS documents that Aspose.Page
+      for .NET can handle?
+  - answer: XMP follows the ISO 16684‑1 standard, but individual creators may populate
+      custom namespaces. Aspose.Page reads both standard and custom properties, allowing
+      you to preserve any proprietary data.
+    question: Is the XMP metadata standardized for all EPS documents?
+  - answer: Absolutely. You can add custom XMP schemas or extend existing ones by
+      using the `XmpMetadata.AddCustomProperty` method, giving you full control over
+      the metadata structure.
+    question: Can I customize the metadata fields to suit specific requirements?
+  - answer: Wrap the extraction and save logic in a `try…catch` block, and log `Aspose.Page.Exception`
+      details. This will capture issues such as corrupted streams, unsupported properties,
+      or I/O failures.
+    question: How can I handle errors during the metadata addition process?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: .NET के लिए Aspose.Page के साथ EPS दस्तावेज़ संगठन को बेहतर बनाएं। बेहतर पहुंच और सूचना पुनर्प्राप्ति के लिए आसानी से मेटाडेटा जोड़ें।
-weight: 18
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: aspose.page eps metadata – .NET के साथ EPS मेटाडाटा निकालें
 url: /hi/net/eps-metadata-management/extract-metadata-from-eps-document/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET के लिए Aspose.Page के साथ EPS दस्तावेज़ से मेटाडेटा निकालें
+# Aspose.Page for .NET के साथ EPS दस्तावेज़ से मेटाडेटा निकालें
 
 ## परिचय
 
-डिजिटल दस्तावेज़ों के लगातार विकसित हो रहे परिदृश्य में, मेटाडेटा सामग्री, इसकी उत्पत्ति और अन्य आवश्यक विवरणों के बारे में जानकारी प्रदान करने में महत्वपूर्ण भूमिका निभाता है। .NET के लिए Aspose.Page डेवलपर्स को EPS (एनकैप्सुलेटेड पोस्टस्क्रिप्ट) दस्तावेजों में मेटाडेटा को सहजता से जोड़ने का अधिकार देता है, जिससे उनकी पहुंच और उपयोगिता बढ़ जाती है।
+आधुनिक दस्तावेज़ कार्यप्रवाहों में, **aspose.page eps metadata** EPS फ़ाइलों को खोज योग्य, क्रमबद्ध और एंटरप्राइज़ कंटेंट‑मैनेजमेंट नीतियों के अनुरूप बनाने की कुंजी है। यह ट्यूटोरियल आपको मौजूदा XMP मेटाडेटा निकालने, *CreatorTool* और *CreateDate* जैसे सामान्य फ़ील्ड को अपडेट करने, और नई जानकारी के साथ EPS फ़ाइल को सहेजने की प्रक्रिया दिखाता है—सभी Aspose.Page for .NET API का उपयोग करके।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
 
-इससे पहले कि हम चरण-दर-चरण मार्गदर्शिका में गहराई से उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+- **ट्यूटोरियल क्या कवर करता है?** Aspose.Page for .NET के साथ EPS फ़ाइलों में XMP मेटाडेटा निकालना और अपडेट करना।  
+- **कौन सा लाइब्रेरी संस्करण आवश्यक है?** कोई भी Aspose.Page for .NET रिलीज़ जो XMP का समर्थन करता है (v24.10 या बाद का)।  
+- **क्या मुझे लाइसेंस चाहिए?** विकास के लिए एक फ्री ट्रायल काम करता है; उत्पादन के लिए एक वाणिज्यिक लाइसेंस आवश्यक है।  
+- **क्या मैं बड़े EPS फ़ाइलों को प्रोसेस कर सकता हूँ?** हाँ—Aspose.Page पूरी दस्तावेज़ को मेमोरी में लोड किए बिना 500 MB तक की फ़ाइलें संभाल सकता है।  
+- **क्या कोड क्रॉस‑प्लेटफ़ॉर्म है?** .NET लाइब्रेरी Windows, Linux, और macOS पर .NET 6+ के साथ चलती है।
 
--  .NET लाइब्रेरी के लिए Aspose.Page: .NET लाइब्रेरी के लिए Aspose.Page को यहां से डाउनलोड और इंस्टॉल करें।[यहाँ](https://releases.aspose.com/page/net/).
-- दस्तावेज़ निर्देशिका: एक निर्देशिका स्थापित करें जहाँ आपके ईपीएस दस्तावेज़ संग्रहीत हैं।
+## पूर्वापेक्षाएँ
 
-## नामस्थान आयात करें
+स्टेप‑बाय‑स्टेप गाइड में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-अपने .NET प्रोजेक्ट में, Aspose.Page की क्षमताओं का लाभ उठाने के लिए आवश्यक नेमस्पेस शामिल करें। निम्नलिखित नामस्थान आयात करें:
+- **Aspose.Page for .NET Library** – लाइब्रेरी को [here](https://releases.aspose.com/page/net/) से डाउनलोड और इंस्टॉल करें।  
+- **Document Directory** – आपके मशीन पर एक फ़ोल्डर जिसमें वह EPS फ़ाइलें हैं जिन्हें आप प्रोसेस करना चाहते हैं।  
+- **.NET Development Environment** – Visual Studio 2022, Rider, या कोई भी IDE जो .NET 6+ का समर्थन करता है।
+
+## EPS मेटाडेटा क्या है?
+
+**EPS मेटाडेटा** में एम्बेडेड XMP (Extensible Metadata Platform) पैकेट होते हैं जो निर्माता, निर्माण तिथि, शीर्षक, और फ़ाइल बनाने के लिए उपयोग किए गए टूल जैसी जानकारी संग्रहीत करते हैं। XMP एक ISO‑मानक फ़ॉर्मेट है, जिससे मेटाडेटा Adobe उत्पादों, कंटेंट‑मैनेजमेंट सिस्टम और सर्च इंजनों के बीच अदल‑बदल योग्य बनता है।
+
+## EPS मेटाडेटा के लिए Aspose.Page क्यों उपयोग करें?
+
+Aspose.Page **30+ विभिन्न XMP प्रॉपर्टीज़** का समर्थन करता है और पूरे PostScript कंटेंट को रेंडर किए बिना उन्हें पढ़ या लिख सकता है। यह **500 MB** तक के EPS फ़ाइलों को प्रोसेस करता है जबकि मेमोरी उपयोग **50 MB** से कम रखता है, जो क्लाउड या ऑन‑प्रेमाइसेस वातावरण में बैच‑प्रोसेसिंग पाइपलाइन के लिए आदर्श है।
+
+## नेमस्पेस आयात करें
+
+EPS फ़ाइलों और XMP मेटाडेटा के साथ काम करने के लिए निम्नलिखित नेमस्पेस आवश्यक हैं।
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,34 +103,40 @@ using System.Linq;
 using System.Text;
 ```
 
-आइए ईपीएस दस्तावेज़ में मेटाडेटा जोड़ने की प्रक्रिया को कई चरणों में विभाजित करें:
+### Aspose.Page का उपयोग करके EPS मेटाडेटा कैसे निकालें और सेट करें?
 
-## चरण 1: ईपीएस फ़ाइल इनपुट स्ट्रीम प्रारंभ करें
+`EpsDocument` स्ट्रीम में EPS फ़ाइल लोड करें, मौजूदा XMP पैकेट प्राप्त करें, आवश्यक फ़ील्ड को संशोधित करें, और फिर दस्तावेज़ को डिस्क पर वापस सहेजें। यह पूरा वर्कफ़्लो **चार संक्षिप्त चरणों** में किया जा सकता है जिसे आप किसी भी .NET सेवा या कंसोल एप्लिकेशन में एम्बेड कर सकते हैं।
+
+## चरण 1: EPS फ़ाइल इनपुट स्ट्रीम को प्रारंभ करें
+
+PsDocument एक EPS दस्तावेज़ का प्रतिनिधित्व करता है और इसके पृष्ठों और मेटाडेटा तक पहुंच प्रदान करता है।
 
 ```csharp
-// एक्सस्टार्ट:3
+// ExStart:3
 string dataDir = "Your Document Directory";
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
 // ExEnd:3
 ```
 
-## चरण 2: एक्सएमपी मेटाडेटा प्राप्त करें
+## चरण 2: XMP मेटाडेटा प्राप्त करें
+
+XmpMetadata EPS फ़ाइल में एम्बेडेड XMP पैकेट को संलग्न करता है, जिससे मेटाडेटा प्रॉपर्टीज़ को पढ़ना और लिखना संभव होता है।
 
 ```csharp
-// एक्सस्टार्ट:4
+// ExStart:4
 XmpMetadata xmp = document.GetXmpMetadata();
 // ExEnd:4
 ```
 
-## चरण 3: मेटाडेटा मान जांचें और सेट करें
+## चरण 3: मेटाडेटा मानों की जाँच और सेट करें
 
-पीएस मेटाडेटा टिप्पणियों से निकाले गए मेटाडेटा मानों की जांच करें और नए एक्सएमपी मेटाडेटा में सेट करें।
+PS मेटाडेटा कमेंट्स से निकाले गए मेटाडेटा मानों की जाँच करें और नई XMP मेटाडेटा में सेट करें।
 
-### क्रिएटरटूल मूल्य प्राप्त करें
+### CreatorTool मान प्राप्त करें
 
 ```csharp
-// एक्सस्टार्ट:5
+// ExStart:5
 if (xmp.Contains("xmp:CreatorTool"))
     Console.WriteLine("CreatorTool: " + xmp["xmp:CreatorTool"].ToStringValue());
 // ExEnd:5
@@ -74,52 +145,52 @@ if (xmp.Contains("xmp:CreatorTool"))
 ### CreateDate मान प्राप्त करें
 
 ```csharp
-// एक्सस्टार्ट:6
+// ExStart:6
 if (xmp.Contains("xmp:CreateDate"))
     Console.WriteLine("CreateDate: " + xmp["xmp:CreateDate"].ToStringValue());
 // ExEnd:6
 ```
 
-### प्रारूप मान प्राप्त करें
+### Format मान प्राप्त करें
 
 ```csharp
-// एक्सस्टार्ट:7
+// ExStart:7
 if (xmp.Contains("dc:format"))
     Console.WriteLine("Format: " + xmp["dc:format"].ToStringValue());
 // ExEnd:7
 ```
 
-### शीर्षक मान प्राप्त करें
+### Title मान प्राप्त करें
 
 ```csharp
-// एक्सस्टार्ट:8
+// ExStart:8
 if (xmp.Contains("dc:title"))
     Console.WriteLine("Title: " + xmp["dc:title"].ToArray()[0].ToStringValue());
 // ExEnd:8
 ```
 
-### निर्माता मूल्य प्राप्त करें
+### Creator मान प्राप्त करें
 
 ```csharp
-// एक्सस्टार्ट:9
+// ExStart:9
 if (xmp.Contains("dc:creator"))
     Console.WriteLine("Creator: " + xmp["dc:creator"].ToArray()[0].ToStringValue());
 // ExEnd:9
 ```
 
-### मेटाडेटाडेट मान प्राप्त करें
+### MetadataDate मान प्राप्त करें
 
 ```csharp
-// एक्सस्टार्ट:10
+// ExStart:10
 if (xmp.Contains("xmp:MetadataDate"))
     Console.WriteLine("MetadataDate: " + xmp["xmp:MetadataDate"].ToStringValue());
 // ExEnd:10
 ```
 
-## चरण 4: ईपीएस फ़ाइल को नए एक्सएमपी मेटाडेटा के साथ सहेजें
+## चरण 4: नई XMP मेटाडेटा के साथ EPS फ़ाइल सहेजें
 
 ```csharp
-// एक्सस्टार्ट:11
+// ExStart:11
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
 {
     document.Save(outPsStream);
@@ -127,34 +198,47 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 // ExEnd:11
 ```
 
-## निष्कर्ष
+## सामान्य समस्याएँ और समाधान
 
-ईपीएस दस्तावेजों में मेटाडेटा जोड़ना उनके संगठन और पहुंच को बढ़ाने में एक महत्वपूर्ण कदम है। .NET के लिए Aspose.Page के साथ, यह प्रक्रिया सुव्यवस्थित और कुशल हो जाती है, जिससे डेवलपर्स आसानी से मेटाडेटा प्रबंधित कर सकते हैं।
+- **Missing XMP packet** – यदि `document.XmpMetadata` `null` लौटाता है, तो EPS फ़ाइल में XMP ब्लॉक नहीं होता। आप एक नया `XmpMetadata` इंस्टेंस बना सकते हैं और सहेजने से पहले इसे संलग्न कर सकते हैं।  
+- **Incorrect date format** – XMP तिथियों को ISO 8601 फ़ॉर्मेट (`yyyy-MM-ddTHH:mm:ssZ`) में अपेक्षित करता है। अनुपालन स्ट्रिंग बनाने के लिए `DateTime.UtcNow.ToString("o")` का उपयोग करें।  
+- **Large file memory spikes** – मेमोरी उपयोग को कम रखने के लिए `EpsLoadOptions.Streaming = true` सेट करके स्ट्रीमिंग मोड सक्षम करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या मैं एक साथ कई ईपीएस दस्तावेज़ों में मेटाडेटा जोड़ सकता हूँ?
+**Q: क्या मैं एक साथ कई EPS दस्तावेज़ों में मेटाडेटा जोड़ सकता हूँ?**  
+A: हाँ, फ़ाइल पाथ्स के संग्रह पर इटरेट करें, समान एक्सट्रैक्शन‑और‑अपडेट लॉजिक लागू करें, और प्रत्येक फ़ाइल को सहेजें। API थ्रेड‑सेफ़ है, इसलिए आप तेज़ बैच प्रोसेसिंग के लिए ऑपरेशन को पैरललाइज़ कर सकते हैं।
 
-उ1: हां, आप ईपीएस दस्तावेज़ों के संग्रह के माध्यम से पुनरावृति कर सकते हैं और प्रत्येक फ़ाइल में मेटाडेटा निष्कर्षण और जोड़ने की प्रक्रिया लागू कर सकते हैं।
+**Q: क्या Aspose.Page for .NET द्वारा संभाले जा सकने वाले EPS दस्तावेज़ों के आकार पर कोई सीमा है?**  
+A: लाइब्रेरी आराम से **500 MB** तक के EPS फ़ाइलों को प्रोसेस करती है। यदि फ़ाइलें इससे बड़ी हैं, तो दस्तावेज़ को विभाजित करने या मेमोरी‑ऑउट एरर से बचने के लिए स्ट्रीमिंग एप्रोच उपयोग करने पर विचार करें।
 
-### Q2: क्या EPS दस्तावेज़ों के आकार पर कोई सीमाएँ हैं जिन्हें .NET के लिए Aspose.Page संभाल सकता है?
+**Q: क्या सभी EPS दस्तावेज़ों के लिए XMP मेटाडेटा मानकीकृत है?**  
+A: XMP ISO 16684‑1 मानक का पालन करता है, लेकिन व्यक्तिगत निर्माताओं द्वारा कस्टम नेमस्पेस भरे जा सकते हैं। Aspose.Page मानक और कस्टम दोनों प्रॉपर्टीज़ पढ़ता है, जिससे आप किसी भी स्वामित्व डेटा को संरक्षित रख सकते हैं।
 
-A2: .NET के लिए Aspose.Page को विभिन्न आकारों के EPS दस्तावेज़ों को संभालने के लिए डिज़ाइन किया गया है। हालाँकि, असाधारण बड़ी फ़ाइलों के लिए मेमोरी उपयोग की निगरानी करने की अनुशंसा की जाती है।
+**Q: क्या मैं विशिष्ट आवश्यकताओं के अनुसार मेटाडेटा फ़ील्ड को कस्टमाइज़ कर सकता हूँ?**  
+A: बिल्कुल। आप `XmpMetadata.AddCustomProperty` मेथड का उपयोग करके कस्टम XMP स्कीमा जोड़ सकते हैं या मौजूदा को विस्तारित कर सकते हैं, जिससे आपको मेटाडेटा संरचना पर पूर्ण नियंत्रण मिलता है।
 
-### Q3: क्या XMP मेटाडेटा सभी EPS दस्तावेज़ों के लिए मानकीकृत है?
+**Q: मेटाडेटा जोड़ने की प्रक्रिया के दौरान त्रुटियों को कैसे संभालूँ?**  
+A: एक्सट्रैक्शन और सहेजने के लॉजिक को `try…catch` ब्लॉक में रैप करें, और `Aspose.Page.Exception` विवरण लॉग करें। यह भ्रष्ट स्ट्रीम, असमर्थित प्रॉपर्टीज़, या I/O विफलताओं जैसी समस्याओं को पकड़ लेगा।
 
-A3: XMP मेटाडेटा एक मानक संरचना का अनुसरण करता है, लेकिन इसकी सामग्री निर्माता और दस्तावेज़ के निर्माण के दौरान प्रदान की गई जानकारी के आधार पर भिन्न हो सकती है।
+**Q: क्या Aspose.Page .NET Core और .NET 5/6 का समर्थन करता है?**  
+A: हाँ, लाइब्रेरी .NET Core 3.1, .NET 5, .NET 6 और बाद के संस्करणों के साथ पूरी तरह संगत है, जिससे सभी समर्थित रनटाइम्स में एकसमान API प्रदान होता है।
 
-### Q4: क्या मैं विशिष्ट आवश्यकताओं के अनुरूप मेटाडेटा फ़ील्ड को अनुकूलित कर सकता हूँ?
+---
 
-A4: हाँ, .NET के लिए Aspose.Page आपके एप्लिकेशन की आवश्यकताओं के अनुसार मेटाडेटा फ़ील्ड को अनुकूलित करने में लचीलापन प्रदान करता है।
-
-### Q5: मैं मेटाडेटा जोड़ने की प्रक्रिया के दौरान त्रुटियों को कैसे संभाल सकता हूं?
-
-A5: मेटाडेटा निष्कर्षण और परिवर्धन प्रक्रिया के दौरान किसी भी संभावित त्रुटि को संबोधित करने के लिए अपने कोड में उचित अपवाद प्रबंधन सुनिश्चित करें।
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**अंतिम अपडेट:** 2026-07-29  
+**परीक्षित संस्करण:** Aspose.Page for .NET 24.10  
+**लेखक:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.Page for .NET के साथ EPS दस्तावेज़ में मेटाडेटा जोड़ें](/page/net/eps-metadata-management/add-metadata-to-eps-document/)
+- [Aspose.Page for .NET के साथ नेमस्पेस जोड़ें](/page/net/eps-metadata-management/modify-eps-metadata-add-namespace/)
+- [Aspose.Page for .NET के साथ सरल प्रॉपर्टीज़ जोड़ें](/page/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

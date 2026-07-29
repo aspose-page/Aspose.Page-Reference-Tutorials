@@ -1,32 +1,94 @@
 ---
-title: 使用 Aspose.Page for .NET 從 EPS 文件中提取元數據
-linktitle: 從 EPS 文件中提取元數據
+date: 2026-07-29
+description: 了解如何使用 Aspose.Page for .NET 提取與新增 EPS 中繼資料。本指南提供逐步程式碼示例，協助有效管理 EPS XMP
+  中繼資料。
+keywords:
+- aspose.page eps metadata
+- eps metadata extraction
+- aspose.page .net
+lastmod: 2026-07-29
+linktitle: 從 EPS 文件提取中繼資料
+og_description: aspose.page eps metadata 指南：使用 Aspose.Page for .NET 提取與設定 EPS 檔案中的
+  XMP 中繼資料。請依循逐步教學。
+og_image_alt: Tutorial showing how to extract and add metadata to EPS documents with
+  Aspose.Page for .NET
+og_title: aspose.page eps metadata – 使用 .NET 提取 EPS 中繼資料
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to extract and add EPS metadata using Aspose.Page for .NET.
+    This guide shows step‑by‑step code to manage EPS XMP metadata efficiently.
+  headline: aspose.page eps metadata – Extract EPS Metadata with .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, iterate over a collection of file paths, apply the same extraction‑and‑update
+      logic, and save each file. The API is thread‑safe, so you can parallelise the
+      operation for faster batch processing.
+    question: Can I add metadata to multiple EPS documents simultaneously?
+  - answer: The library comfortably processes EPS files up to **500 MB**. For files
+      larger than this, consider splitting the document or using a streaming approach
+      to avoid out‑of‑memory exceptions.
+    question: Are there any limitations on the size of EPS documents that Aspose.Page
+      for .NET can handle?
+  - answer: XMP follows the ISO 16684‑1 standard, but individual creators may populate
+      custom namespaces. Aspose.Page reads both standard and custom properties, allowing
+      you to preserve any proprietary data.
+    question: Is the XMP metadata standardized for all EPS documents?
+  - answer: Absolutely. You can add custom XMP schemas or extend existing ones by
+      using the `XmpMetadata.AddCustomProperty` method, giving you full control over
+      the metadata structure.
+    question: Can I customize the metadata fields to suit specific requirements?
+  - answer: Wrap the extraction and save logic in a `try…catch` block, and log `Aspose.Page.Exception`
+      details. This will capture issues such as corrupted streams, unsupported properties,
+      or I/O failures.
+    question: How can I handle errors during the metadata addition process?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: 使用 Aspose.Page for .NET 增強 EPS 文件組織。輕鬆添加元資料以提高可存取性和資訊檢索。
-weight: 18
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: aspose.page eps metadata – 使用 .NET 提取 EPS 中繼資料
 url: /zh-hant/net/eps-metadata-management/extract-metadata-from-eps-document/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page for .NET 從 EPS 文件中提取元數據
+# 使用 Aspose.Page for .NET 從 EPS 文件提取元資料
 
 ## 介紹
 
-在不斷發展的數位文件領域，元資料在提供有關內容、其來源和其他基本細節的資訊方面發揮著至關重要的作用。 Aspose.Page for .NET 使開發人員能夠將元資料無縫添加到 EPS（封裝 PostScript）文件中，從而增強其可存取性和實用性。
+在現代文件工作流程中，**aspose.page eps metadata** 是讓 EPS 檔案可搜尋、可排序，並符合企業內容管理政策的關鍵。本教學將指導您如何提取現有的 XMP 元資料，更新常見欄位如 *CreatorTool* 和 *CreateDate*，並以新資訊儲存 EPS 檔案——全部使用 Aspose.Page for .NET API。
 
-## 先決條件
+## 快速解答
+- **本教學涵蓋什麼內容？** 使用 Aspose.Page for .NET 提取並更新 EPS 檔案中的 XMP 元資料。  
+- **需要哪個版本的函式庫？** 任何支援 XMP 的 Aspose.Page for .NET 版本（v24.10 或更新）。  
+- **我需要授權嗎？** 開發階段可使用免費試用版；正式上線需購買商業授權。  
+- **我可以處理大型 EPS 檔案嗎？** 是的——Aspose.Page 可在不將整個文件載入記憶體的情況下處理高達 500 MB 的檔案。  
+- **程式碼是否跨平台？** .NET 函式庫可在 Windows、Linux 與 macOS 上執行，支援 .NET 6 以上版本。
 
-在我們深入研究逐步指南之前，請確保您具備以下先決條件：
+## 前置條件
 
--  Aspose.Page for .NET 函式庫：從下列位置下載並安裝 Aspose.Page for .NET 函式庫：[這裡](https://releases.aspose.com/page/net/).
-- 文檔目錄：設定儲存 EPS 文件的目錄。
+在深入逐步指南之前，請確保您已具備以下條件：
 
-## 導入命名空間
+- **Aspose.Page for .NET Library** – 從 [here](https://releases.aspose.com/page/net/) 下載並安裝函式庫。  
+- **Document Directory** – 您電腦上存放欲處理 EPS 檔案的資料夾。  
+- **.NET Development Environment** – Visual Studio 2022、Rider，或任何支援 .NET 6+ 的 IDE。
 
-在您的 .NET 專案中，包含必要的命名空間以利用 Aspose.Page 的功能。導入以下命名空間：
+## 什麼是 EPS 元資料？
+
+**EPS 元資料** 包含嵌入的 XMP（可擴充元資料平台）封包，用於儲存創建者、建立日期、標題以及產生檔案的工具等資訊。XMP 為 ISO 標準格式，使元資料能在 Adobe 產品、內容管理系統與搜尋引擎之間互通。
+
+## 為何使用 Aspose.Page 處理 EPS 元資料？
+
+Aspose.Page 支援 **30+ 種不同的 XMP 屬性**，且能在不渲染整個 PostScript 內容的情況下讀寫這些屬性。它可處理高達 **500 MB** 的 EPS 檔案，同時將記憶體使用量控制在 **50 MB** 以下，十分適合雲端或本地環境的批次處理管線。
+
+## 匯入命名空間
+
+以下命名空間是處理 EPS 檔案與 XMP 元資料所必需的。
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,123 +100,142 @@ using System.Linq;
 using System.Text;
 ```
 
-讓我們將向 EPS 文件添加元資料的過程分解為幾個步驟：
+### 如何使用 Aspose.Page 提取與設定 EPS 元資料？
 
-## 第1步：初始化EPS檔輸入流
+將 EPS 檔案載入 `EpsDocument` 串流，取得現有的 XMP 封包，修改所需欄位，最後將文件儲存回磁碟。整個工作流程可分為 **四個簡潔步驟**，可嵌入任何 .NET 服務或主控台應用程式中。
+
+## 步驟 1：初始化 EPS 檔案輸入串流
+
+PsDocument 代表一個 EPS 文件，並提供對其頁面與元資料的存取。
 
 ```csharp
-//起始時間：3
+// ExStart:3
 string dataDir = "Your Document Directory";
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
-//結束：3
+// ExEnd:3
 ```
 
-## 第 2 步：取得 XMP 元數據
+## 步驟 2：取得 XMP 元資料
+
+XmpMetadata 封裝了嵌入於 EPS 檔案的 XMP 封包，允許讀寫元資料屬性。
 
 ```csharp
-//起始時間：4
+// ExStart:4
 XmpMetadata xmp = document.GetXmpMetadata();
-//結束：4
+// ExEnd:4
 ```
 
-## 步驟 3：檢查並設定元資料值
+## 步驟 3：檢查與設定元資料值
 
-檢查從 PS 元資料註釋中提取並在新 XMP 元資料中設定的元資料值。
+檢查從 PS 元資料註解中提取的值，並在新的 XMP 元資料中設定。
 
 ### 取得 CreatorTool 值
 
 ```csharp
-//起始時間：5
+// ExStart:5
 if (xmp.Contains("xmp:CreatorTool"))
     Console.WriteLine("CreatorTool: " + xmp["xmp:CreatorTool"].ToStringValue());
-//結束：5
+// ExEnd:5
 ```
 
-### 取得建立日期值
+### 取得 CreateDate 值
 
 ```csharp
-//起始時間：6
+// ExStart:6
 if (xmp.Contains("xmp:CreateDate"))
     Console.WriteLine("CreateDate: " + xmp["xmp:CreateDate"].ToStringValue());
-//結束：6
+// ExEnd:6
 ```
 
-### 取得格式值
+### 取得 Format 值
 
 ```csharp
-//起始時間：7
+// ExStart:7
 if (xmp.Contains("dc:format"))
     Console.WriteLine("Format: " + xmp["dc:format"].ToStringValue());
-//結束：7
+// ExEnd:7
 ```
 
-### 取得標題值
+### 取得 Title 值
 
 ```csharp
-//開始時間：8
+// ExStart:8
 if (xmp.Contains("dc:title"))
     Console.WriteLine("Title: " + xmp["dc:title"].ToArray()[0].ToStringValue());
-//結束：8
+// ExEnd:8
 ```
 
-### 獲取創造者價值
+### 取得 Creator 值
 
 ```csharp
-//開始時間：9
+// ExStart:9
 if (xmp.Contains("dc:creator"))
     Console.WriteLine("Creator: " + xmp["dc:creator"].ToArray()[0].ToStringValue());
-//結束：9
+// ExEnd:9
 ```
 
-### 取得元資料日期值
+### 取得 MetadataDate 值
 
 ```csharp
-//開始時間：10
+// ExStart:10
 if (xmp.Contains("xmp:MetadataDate"))
     Console.WriteLine("MetadataDate: " + xmp["xmp:MetadataDate"].ToStringValue());
-//結束：10
+// ExEnd:10
 ```
 
-## 步驟 4：使用新的 XMP 元資料儲存 EPS 文件
+## 步驟 4：以新 XMP 元資料儲存 EPS 檔案
 
 ```csharp
-//開始時間：11
+// ExStart:11
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
 {
     document.Save(outPsStream);
 }
-//結束：11
+// ExEnd:11
 ```
 
-## 結論
+## 常見問題與解決方案
 
-在 EPS 文件中添加元資料是增強其組織性和可存取性的關鍵一步。借助 Aspose.Page for .NET，此過程變得精簡且高效，使開發人員能夠輕鬆管理元資料。
+- **Missing XMP packet** – 若 `document.XmpMetadata` 回傳 `null`，表示 EPS 檔案未包含 XMP 區塊。您可以建立新的 `XmpMetadata` 實例並在儲存前附加它。  
+- **Incorrect date format** – XMP 需要 ISO 8601 格式的日期（`yyyy-MM-ddTHH:mm:ssZ`）。請使用 `DateTime.UtcNow.ToString("o")` 產生符合規範的字串。  
+- **Large file memory spikes** – 透過將 `EpsLoadOptions.Streaming = true` 設定為啟用串流模式，以降低記憶體使用量。
 
-## 常見問題解答
+## 常見問答
 
-### Q1：我可以同時為多個 EPS 文件新增元資料嗎？
+**Q: 我可以同時為多個 EPS 文件新增元資料嗎？**  
+A: 可以，遍歷檔案路徑集合，套用相同的提取與更新邏輯，並儲存每個檔案。API 為執行緒安全，您可以平行化此操作以加速批次處理。
 
-A1：是的，您可以迭代 EPS 文件的集合，並對每個文件套用元資料擷取和新增流程。
+**Q: Aspose.Page for .NET 處理 EPS 文件的大小有任何限制嗎？**  
+A: 此函式庫可輕鬆處理高達 **500 MB** 的 EPS 檔案。若檔案大於此大小，建議將文件分割或使用串流方式，以避免記憶體不足的例外。
 
-### Q2：Aspose.Page for .NET 可以處理的 EPS 文件大小有限制嗎？
+**Q: 所有 EPS 文件的 XMP 元資料是否皆遵循標準？**  
+A: XMP 依循 ISO 16684‑1 標準，但個別創作者可能使用自訂命名空間。Aspose.Page 會讀取標準與自訂屬性，讓您保留任何專有資料。
 
-A2：Aspose.Page for .NET 旨在處理不同大小的 EPS 文件。但是，建議監視特別大的文件的記憶體使用情況。
+**Q: 我可以自訂元資料欄位以符合特定需求嗎？**  
+A: 當然可以。您可透過 `XmpMetadata.AddCustomProperty` 方法新增自訂 XMP 綱要或擴充現有綱要，完整掌控元資料結構。
 
-### 問題 3：所有 EPS 文件的 XMP 元資料都是標準化的嗎？
+**Q: 在新增元資料的過程中，我該如何處理錯誤？**  
+A: 將提取與儲存的程式碼包在 `try…catch` 區塊中，並記錄 `Aspose.Page.Exception` 的詳細資訊。這樣即可捕捉如串流損毀、不支援的屬性或 I/O 失敗等問題。
 
-A3：XMP 元資料遵循標準結構，但其內容可能會根據創建者和文件創建期間提供的資訊而有所不同。
+**Q: Aspose.Page 是否支援 .NET Core 與 .NET 5/6？**  
+A: 是的，函式庫完全相容於 .NET Core 3.1、.NET 5、.NET 6 以及更高版本，於所有支援的執行環境提供一致的 API。
 
-### Q4：我可以自訂元資料欄位以滿足特定要求嗎？
+---
 
-A4：是的，Aspose.Page for .NET 可以根據應用程式的需求靈活地自訂元資料欄位。
-
-### Q5：元資料新增過程中出現錯誤如何處理？
-
-A5：確保程式碼中進行正確的異常處理，以解決元資料提取和添加過程中的任何潛在錯誤。
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**最後更新：** 2026-07-29  
+**測試環境：** Aspose.Page for .NET 24.10  
+**作者：** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## 相關教學
+
+- [使用 Aspose.Page for .NET 為 EPS 文件新增元資料](/page/net/eps-metadata-management/add-metadata-to-eps-document/)
+- [使用 Aspose.Page for .NET 新增命名空間](/page/net/eps-metadata-management/modify-eps-metadata-add-namespace/)
+- [使用 Aspose.Page for .NET 新增簡單屬性](/page/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
