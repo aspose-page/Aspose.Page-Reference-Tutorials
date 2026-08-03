@@ -1,5 +1,5 @@
 ---
-title: How to Convert Postscript to PDF with Aspose Page Java
+title: How to Convert PostScript to PDF Using Aspose.Page Java API
 linktitle: Aspose Page Java Tutorial - Convert PostScript to PDF
 second_title: Aspose.Page Java API
 description: Learn how to convert PostScript files to PDF using Aspose.Page, a java pdf conversion library that also supports EPS conversion. This pdf conversion tutorial java shows step‑by‑step usage.
@@ -189,7 +189,8 @@ A: The latest release is always available on the official download page linked e
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

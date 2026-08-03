@@ -1,6 +1,6 @@
 ---
-title: "How to Create Radial Gradient – Gradient Addition in PostScript"
-linktitle: "How to Create Radial Gradient – Gradient Addition in PostScript"
+title: "Create Radial Gradient in PostScript with Aspose.Page for Java"
+linktitle: "Create Radial Gradient in PostScript with Aspose.Page for Java"
 second_title: "Aspose.Page Java API"
 description: "Learn how to create radial gradient and add vertical gradient effects in Java PostScript documents using Aspose.Page. Step‑by‑step guides for diagonal, horizontal, radial, and vertical gradients."
 weight: 25
@@ -44,6 +44,18 @@ Below is a concise walkthrough of the steps you’ll follow in each dedicated gu
 
 > **Pro tip:** Re‑using the same `Shading` object for multiple shapes reduces memory usage and keeps your code tidy.
 
+```java
+// Create a new Aspose.Page document
+Page page = new Page();
+Shading radial = new Shading()
+    .setCenter(new Point2D(200, 200))
+    .setRadius(150)
+    .addColorStop(0.0, Color.getRGB(255, 0, 0))   // Red at center
+    .addColorStop(1.0, Color.getRGB(0, 0, 255)); // Blue at edge
+page.addShading(radial);
+page.save("RadialGradient.ps");
+```
+
 ## Common Use Cases for Radial Gradient
 - **Background fills** for flyers, brochures, or certificates where a subtle color shift adds depth.  
 - **Highlighting focal points** such as logos or call‑to‑action buttons in a PDF that will later be converted to PostScript.  
@@ -53,40 +65,40 @@ Below is a concise walkthrough of the steps you’ll follow in each dedicated gu
 If you also need to **add vertical gradient** to the same document, the API provides a `VerticalGradient` helper that works in parallel with the radial shading. The workflow mirrors the radial steps—just swap the gradient type. This makes it easy to layer a vertical gradient underneath a radial one for a richer visual effect.
 
 ## Diagonal Gradients – Adding Elegance to Your Documents
-### [Add Diagonal Gradient in Java PostScript](./diagonal/)
+### {{< relref "diagonal/_index.md" >}}Add Diagonal Gradient in Java PostScript{{< /relref >}}
 
 Diagonal gradients can bring a touch of elegance to your Java PostScript documents. With Aspose.Page for Java, the process is both seamless and visually appealing. Follow our step‑by‑step guide to effortlessly incorporate diagonal gradients into your projects. Elevate your documents to a new level of sophistication.
 
 ## Horizontal Gradients – Creating Visually Stunning Documents
-### [Add Horizontal Gradient in Java PostScript](./horizontal/)
+### {{< relref "horizontal/_index.md" >}}Add Horizontal Gradient in Java PostScript{{< /relref >}}
 
 Creating visually stunning documents is now within your reach. Learn how to add horizontal gradients in Java PostScript using Aspose.Page for Java. Our comprehensive guide ensures a smooth process, allowing you to captivate your audience with visually appealing content. Elevate your document design effortlessly.
 
 ## Radial Gradients – Mastering the Art
-### [Mastering Radial Gradients in Java](./radial1/)
-### [Java PostScript Radial Gradient with Aspose.Page](./radial2/)
+### {{< relref "radial1/_index.md" >}}Mastering Radial Gradients in Java{{< /relref >}}
+### {{< relref "radial2/_index.md" >}}Java PostScript Radial Gradient with Aspose.Page{{< /relref >}}
 
 Mastering radial gradients in Java PostScript has never been easier. With Aspose.Page for Java, you can elevate your graphics and create stunning visual effects effortlessly. Explore our step‑by‑step guides on radial gradients to bring a new dimension to your Java applications. Unleash the power of Aspose.Page for Java for stunning graphics.
 
 ## Vertical Gradients – Enhancing Documents with Vibrant Visuals
-### [Add Vertical Gradient in Java PostScript](./vertical/)
+### {{< relref "vertical/_index.md" >}}Add Vertical Gradient in Java PostScript{{< /relref >}}
 
 Enhance your documents effortlessly with vibrant visuals using vertical gradients in Java PostScript. Aspose.Page for Java provides a user‑friendly guide to help you incorporate vertical gradients seamlessly. Elevate your documents and captivate your audience with visually striking content. 
 
 ## Gradient Addition – PostScript Tutorials
-### [Add Diagonal Gradient in Java PostScript](./diagonal/)
+### {{< relref "diagonal/_index.md" >}}Add Diagonal Gradient in Java PostScript{{< /relref >}}
 Enhance your Java PostScript documents with diagonal gradients using Aspose.Page for Java. Follow our step‑by‑step guide to add vibrant color transitions effortlessly.
 
-### [Add Horizontal Gradient in Java PostScript](./horizontal/)
+### {{< relref "horizontal/_index.md" >}}Add Horizontal Gradient in Java PostScript{{< /relref >}}
 Learn how to add a horizontal gradient in Java PostScript with Aspose.Page for Java. Create visually stunning documents effortlessly.
 
-### [Mastering Radial Gradients in Java](./radial1/)
+### {{< relref "radial1/_index.md" >}}Mastering Radial Gradients in Java{{< /relref >}}
 Learn how to add stunning radial gradients in Java PostScript using Aspose.Page for Java. Elevate your PostScript documents with this step‑by‑step guide.
 
-### [Java PostScript Radial Gradient with Aspose.Page](./radial2/)
+### {{< relref "radial2/_index.md" >}}Java PostScript Radial Gradient with Aspose.Page{{< /relref >}}
 Explore the step‑by‑step guide to add Radial Gradient in Java PostScript using Aspose.Page for stunning graphics in your Java applications.
 
-### [Add Vertical Gradient in Java PostScript](./vertical/)
+### {{< relref "vertical/_index.md" >}}Add Vertical Gradient in Java PostScript{{< /relref >}}
 Explore the step‑by‑step guide to adding vertical gradients in Java PostScript with Aspose.Page for Java. Enhance your documents effortlessly with vibrant visuals.
 
 ## Frequently Asked Questions
@@ -115,6 +127,5 @@ A: Aspose offers perpetual and subscription licenses; a free evaluation license 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -1,5 +1,5 @@
 ---
-title: aspose.page save eps – Save Image as EPS in Java
+title: Convert Image to EPS with Aspose.Page – Save Image as EPS in Java
 linktitle: Save Image as EPS in Java
 second_title: Aspose.Page Java API
 description: Learn how to aspose.page save eps in Java using Aspose.Page, the powerful library for graphics and printing.
@@ -120,6 +120,6 @@ Feel free to explore more features of Aspose.Page for Java by referring to the o
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
