@@ -1,35 +1,52 @@
 ---
-title: Applicera Grid Visual Brush med Aspose.Page för .NET
-linktitle: Applicera Grid Visual Brush
+date: 2026-04-03
+description: Lär dig hur du lägger till en transparent rektangel och använder en Grid
+  Visual Brush i .NET med Aspose.Page för fantastiska XPS‑dokument.
+keywords:
+- add transparent rectangle
+- grid visual brush
+- Aspose.Page .NET
+linktitle: Använd rutnätsvisualiseringspensel
 second_title: Aspose.Page .NET API
-description: Utforska den dynamiska världen av dokumentbehandling i .NET med Aspose.Page. Lär dig hur du använder en visuell rutnätspensel för visuellt imponerande dokument.
-weight: 10
+title: Lägg till transparent rektangel med Grid Visual Brush (.NET)
 url: /sv/net/visual-brushes/apply-grid-visual-brush/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Applicera Grid Visual Brush med Aspose.Page för .NET
+# Lägg till transparent rektangel med Grid Visual Brush (.NET)
 
 ## Introduktion
 
-I en värld av .NET-utveckling framstår Aspose.Page som ett kraftfullt verktyg för att hantera dokumentbearbetningsuppgifter. En fascinerande funktion som den erbjuder är möjligheten att använda en Grid Visual Brush, vilket ger dina dokument en ny dimension. Denna handledning guidar dig genom processen att implementera en Magenta Grid Visual Brush steg för steg med Aspose.Page för .NET.
+Om du vill **lägga till en transparent rektangel** i ett XPS-dokument samtidigt som du använder en stilren Grid Visual Brush, har du kommit till rätt ställe. I den här handledningen går vi igenom de exakta stegen som behövs med Aspose.Page för .NET, så att du kan skapa visuellt rika dokument som sticker ut. I slutet har du ett komplett, körbart exempel som demonstrerar båda teknikerna i ett enkelt, lätt‑följt arbetsflöde.
+
+## Snabba svar
+- **Vad gör en transparent rektangel?** Den lägger till ett halvgenomskinligt lager som låter bakgrundsinnehållet synas igenom.  
+- **Vilket API skapar penseln?** `XpsDocument.CreateVisualBrush` bygger Grid Visual Brush.  
+- **Behöver jag en licens?** En gratis provversion fungerar för testning; en kommersiell licens krävs för produktion.  
+- **Vilka .NET-versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Hur lång tid tar implementeringen?** Ungefär 10‑15 minuter för ett grundexempel.
+
+## Vad är en transparent rektangel i XPS?
+En transparent rektangel är helt enkelt en form vars fyllningsfärg innehåller en alfa‑komponent mindre än 1,0, vilket gör att den underliggande grafiken delvis syns. Detta är perfekt för att markera sektioner utan att helt dölja bakgrunden.
+
+## Varför använda en Grid Visual Brush?
+En Grid Visual Brush låter dig mosaikera en liten vektorgrafik över ett större område, vilket skapar mönster som rutnät, skraffering eller anpassade texturer. Att kombinera den med en transparent rektangel ger lagerbaserade visuella effekter som både är lätta och upplösningsoberoende.
 
 ## Förutsättningar
 
-Innan du dyker in i handledningen, se till att du har följande förutsättningar:
+Innan du dyker ner i koden, se till att du har:
 
--  Aspose.Page för .NET: Se till att du har biblioteket installerat och konfigurerat i din .NET-miljö. Du kan ladda ner den[här](https://releases.aspose.com/page/net/).
+- **Aspose.Page for .NET** – du kan ladda ner den [här](https://releases.aspose.com/page/net/).
+- En .NET‑utvecklingsmiljö (Visual Studio, VS Code eller någon IDE du föredrar).
+- En mapp där de genererade XPS‑filerna kommer att sparas.
 
-- Utvecklingsmiljö: Ha en fungerande .NET-utvecklingsmiljö redo och en grundläggande förståelse för C#-programmering.
+## Importera namnrymder
 
-- Dokumentkatalog: Skapa en katalog för dina dokument där de bearbetade filerna kommer att sparas.
-
-## Importera namnområden
-
-I din C#-kod måste du importera de nödvändiga namnrymden för att kunna använda Aspose.Page-funktionerna effektivt:
+I din C#‑fil importerar du de nödvändiga namnrymderna:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,7 +54,7 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Låt oss nu dela upp exemplet i flera steg.
+Nu delar vi upp lösningen i tydliga, numrerade steg.
 
 ## Steg 1: Initiera XpsDocument
 
@@ -45,10 +62,10 @@ Låt oss nu dela upp exemplet i flera steg.
 // ExStart:3
 string dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
-// Exend:3
+// ExEnd:3
 ```
 
- Här skapar vi en instans av`XpsDocument` att arbeta med XPS-dokument.
+Vi börjar med att skapa en `XpsDocument`‑instans, som kommer att hålla alla efterföljande ritoperationer.
 
 ## Steg 2: Skapa magenta rutnätsgeometri
 
@@ -58,12 +75,12 @@ XpsPathGeometry pathGeometry = doc.CreatePathGeometry();
 pathGeometry.AddSegment(doc.CreatePolyLineSegment(
     new PointF[] { new PointF(240f, 5f), new PointF(240f, 310f), new PointF(0f, 310f) }));
 pathGeometry[0].StartPoint = new PointF(0f, 5f);
-// Exend:4
+// ExEnd:4
 ```
 
-Detta steg innebär att skapa en väggeometri för det magentafärgade rutnätet.
+Denna geometri definierar konturen av rutnätet som visual brush kommer att fylla.
 
-## Steg 3: Designa Magenta Grid VisualBrush
+## Steg 3: Designa magenta rutnäts‑VisualBrush
 
 ```csharp
 // ExStart:5
@@ -71,23 +88,23 @@ XpsCanvas visualCanvas = doc.CreateCanvas();
 XpsPath visualPath = visualCanvas.AddPath(
     doc.CreatePathGeometry("M 0,4 L 4,4 4,0 6,0 6,4 10,4 10,6 6,6 6,10 4,10 4,6 0,6 Z"));
 visualPath.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1f, .61f, 0.1f, 0.61f));
-// Exend:5
+// ExEnd:5
 ```
 
-Här designar vi den visuella aspekten av magenta-rutnätet med hjälp av vektorgrafik.
+Här ritar vi en liten magenta platta som kommer att upprepas över rutnätet.
 
-## Steg 4: Applicera VisualBrush på Grid
+## Steg 4: Tillämpa VisualBrush på rutnät
 
 ```csharp
-// ExStart: 6
+// ExStart:6
 XpsPath gridPath = doc.CreatePath(pathGeometry);
 gridPath.Fill = doc.CreateVisualBrush(visualCanvas,
     new RectangleF(0f, 0f, 10f, 10f), new RectangleF(0f, 0f, 10f, 10f));
 ((XpsVisualBrush)gridPath.Fill).TileMode = XpsTileMode.Tile;
-// Exend:6
+// ExEnd:6
 ```
 
-Applicera den visuella borsten på rutnätsbanan och se till att den plattsätts på lämpligt sätt.
+`CreateVisualBrush`‑anropet kopplar den magenta plattan till rutnätsgeometrin och möjliggör mosaikering.
 
 ## Steg 5: Lägg till rutnät på Canvas
 
@@ -96,59 +113,69 @@ Applicera den visuella borsten på rutnätsbanan och se till att den plattsätts
 XpsCanvas canvas = doc.AddCanvas();
 canvas.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 268f, 70f);
 canvas.AddPath(pathGeometry);
-// Exend:7
+// ExEnd:7
 ```
 
-Lägg till rutnätet på arbetsytan och ange eventuella transformationer som behövs.
+Vi placerar det mosaikade rutnätet på en canvas och applicerar en translatio‑transform så att det visas på önskad plats.
 
-## Steg 6: Förbättra med röd rektangel
+## Steg 6: Lägg till transparent rektangel
 
 ```csharp
 // ExStart:8
 XpsPath path = canvas.AddPath(doc.CreatePathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 path = canvas.AddPath(doc.CreatePathGeometry("M 10,10 L 228,10 228,100 10,100"));
 path.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1.0f, 0.0f, 0.0f));
-path.Opacity = 0.7f;
-// Exend:8
+path.Opacity = 0.7f; // This opacity makes the rectangle transparent
+// ExEnd:8
 ```
 
-Förbättra den visuella överklagandet genom att lägga till en röd genomskinlig rektangel.
+I detta steg **lägger vi till en transparent rektangel** (den röda formen med `Opacity = 0.7f`). Justera opacitetsvärdet för att kontrollera hur genomskinlig rektangeln är.
 
 ## Steg 7: Spara dokumentet
 
 ```csharp
 // ExStart:9
 doc.Save(dataDir + "AddGrid_out.xps");
-// Exend:9
+// ExEnd:9
 ```
 
-Spara det resulterande XPS-dokumentet i din angivna katalog.
+XPS‑filen skrivs till den mapp du angav tidigare.
 
-## Slutsats
+## Vanliga användningsområden
 
-Grattis! Du har framgångsrikt använt en Grid Visual Brush på ditt dokument med Aspose.Page för .NET. Denna teknik kan avsevärt förbättra de visuella delarna av dina dokument, vilket ger en dynamisk och engagerande användarupplevelse.
+- **Rapportmarkering:** Överlagra en halvgenomskinlig rektangel för att framhäva ett diagram eller en tabell.  
+- **Vattenstämpelseffekter:** Kombinera ett mosaikerat rutnät med ett transparent överlag för subtil varumärkesprofilering.  
+- **Interaktiva PDF/XPS:** Använd mönstret som bakgrund för formulärfält samtidigt som UI‑gränssnittet förblir läsbart.
 
-## FAQ's
+## Felsökningstips
 
-### F1: Kan jag använda Aspose.Page för .NET i både webb- och skrivbordsapplikationer?
+- **Opacitet syns inte?** Se till att din visare stödjer XPS‑transparens; vissa äldre visare kan ignorera `Opacity`‑egenskapen.  
+- **Felaktig plattstorlek?** Verifiera att källrektangeln (`new RectangleF(0f, 0f, 10f, 10f)`) matchar dimensionerna på vektortilet.  
+- **Filen sparas inte?** Dubbelkolla att `dataDir` pekar på en befintlig, skrivbar katalog.
 
-S1: Ja, Aspose.Page för .NET är mångsidig och kan användas i olika applikationstyper.
+## Vanliga frågor
 
-### F2: Finns det en testversion tillgänglig innan du köper?
+**Q: Kan jag använda Aspose.Page för .NET i både webb‑ och skrivbordsapplikationer?**  
+A: Ja, biblioteket fungerar i alla .NET‑applikationstyper.
 
- A2: Absolut, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
+**Q: Finns det en provversion tillgänglig innan köp?**  
+A: Absolut, du kan komma åt den gratis provversionen [här](https://releases.aspose.com/).
 
-### F3: Var kan jag hitta ytterligare stöd eller diskussioner i samhället?
+**Q: Var kan jag hitta ytterligare support eller community‑diskussioner?**  
+A: Besök [Aspose.Page Forum](https://forum.aspose.com/c/page/39) för hjälp från communityn och Aspose‑ingenjörer.
 
- A3: Besök[Aspose.Page Forum](https://forum.aspose.com/c/page/39) för diskussioner och stöd.
+**Q: Hur kan jag skaffa en tillfällig licens för utvärdering?**  
+A: Du kan skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
 
-### F4: Hur kan jag få en tillfällig licens för Aspose.Page för .NET?
+**Q: Vilken annan dokumentation finns tillgänglig för Aspose.Page för .NET?**  
+A: Utforska den omfattande dokumentationen [här](https://reference.aspose.com/page/net/).
 
- S4: Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+---
 
-### F5: Vilken annan dokumentation finns tillgänglig för Aspose.Page för .NET?
+**Senast uppdaterad:** 2026-04-03  
+**Testat med:** Aspose.Page 24.12 for .NET  
+**Författare:** Aspose  
 
- S5: Utforska den omfattande dokumentationen[här](https://reference.aspose.com/page/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

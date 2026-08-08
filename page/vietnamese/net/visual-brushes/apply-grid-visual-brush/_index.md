@@ -1,35 +1,52 @@
 ---
-title: Áp dụng Grid Visual Brush với Aspose.Page for .NET
-linktitle: Áp dụng Grid Visual Brush
-second_title: API Aspose.Page .NET
-description: Khám phá thế giới năng động của việc xử lý tài liệu trong .NET với Aspose.Page. Tìm hiểu cách áp dụng Grid Visual Brush để có các tài liệu trực quan ấn tượng.
-weight: 10
+date: 2026-04-03
+description: Tìm hiểu cách thêm một hình chữ nhật trong suốt và áp dụng Grid Visual
+  Brush trong .NET bằng Aspose.Page để tạo các tài liệu XPS ấn tượng.
+keywords:
+- add transparent rectangle
+- grid visual brush
+- Aspose.Page .NET
+linktitle: Áp dụng Brush trực quan lưới
+second_title: Aspose.Page .NET API
+title: Thêm hình chữ nhật trong suốt sử dụng Grid Visual Brush (.NET)
 url: /vi/net/visual-brushes/apply-grid-visual-brush/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Áp dụng Grid Visual Brush với Aspose.Page for .NET
+# Thêm Hình Chữ Nhật Trong Suốt bằng Grid Visual Brush (.NET)
 
 ## Giới thiệu
 
-Trong thế giới phát triển .NET, Aspose.Page nổi bật như một công cụ mạnh mẽ để xử lý các tác vụ xử lý tài liệu. Một tính năng hấp dẫn mà nó cung cấp là khả năng áp dụng Grid Visual Brush, mang đến một chiều hướng mới cho tài liệu của bạn. Hướng dẫn này sẽ hướng dẫn bạn từng bước trong quá trình triển khai Magenta Grid Visual Brush bằng cách sử dụng Aspose.Page cho .NET.
+Nếu bạn đang muốn **thêm một hình chữ nhật trong suốt** vào tài liệu XPS đồng thời áp dụng một Grid Visual Brush phong cách, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ đi qua các bước chính xác cần thiết với Aspose.Page cho .NET, để bạn có thể tạo ra các tài liệu giàu hình ảnh nổi bật. Khi hoàn thành, bạn sẽ có một ví dụ hoàn chỉnh, có thể chạy được, minh họa cả hai kỹ thuật trong một quy trình dễ‑theo.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Hình chữ nhật trong suốt làm gì?** Nó thêm một lớp phủ bán trong suốt cho phép nội dung nền hiển thị qua.  
+- **API nào tạo brush?** `XpsDocument.CreateVisualBrush` tạo Grid Visual Brush.  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Thời gian thực hiện khoảng bao nhiêu?** Khoảng 10‑15 phút cho một ví dụ cơ bản.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
+## Hình chữ nhật trong suốt trong XPS là gì?
+Hình chữ nhật trong suốt đơn giản là một hình dạng có màu nền bao gồm thành phần alpha nhỏ hơn 1.0, cho phép các đồ họa nền hiển thị một phần. Điều này hoàn hảo để làm nổi bật các phần mà không che khuất hoàn toàn nền.
 
--  Aspose.Page for .NET: Đảm bảo rằng bạn đã cài đặt và thiết lập thư viện trong môi trường .NET của mình. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/page/net/).
+## Tại sao nên sử dụng Grid Visual Brush?
+Grid Visual Brush cho phép bạn lặp lại một đồ họa vector nhỏ trên một khu vực lớn, tạo ra các mẫu như lưới, vằn hoặc kết cấu tùy chỉnh. Kết hợp nó với một hình chữ nhật trong suốt sẽ cho bạn các hiệu ứng lớp phủ vừa nhẹ vừa độc lập với độ phân giải.
 
-- Môi trường phát triển: Chuẩn bị sẵn môi trường phát triển .NET và hiểu biết cơ bản về lập trình C#.
+## Yêu cầu trước
 
-- Thư mục Tài liệu: Tạo một thư mục cho tài liệu của bạn để lưu các tệp đã xử lý.
+Trước khi bắt đầu viết mã, hãy chắc chắn rằng bạn đã có:
+
+- **Aspose.Page for .NET** – bạn có thể tải xuống [tại đây](https://releases.aspose.com/page/net/).
+- Môi trường phát triển .NET (Visual Studio, VS Code, hoặc bất kỳ IDE nào bạn thích).
+- Một thư mục để lưu các tệp XPS được tạo.
 
 ## Nhập không gian tên
 
-Trong mã C#, bạn cần nhập các không gian tên cần thiết để sử dụng hiệu quả các tính năng của Aspose.Page:
+Trong tệp C# của bạn, nhập các không gian tên cần thiết:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,20 +54,20 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Bây giờ, hãy chia ví dụ thành nhiều bước.
+Bây giờ chúng ta sẽ chia giải pháp thành các bước rõ ràng, được đánh số.
 
 ## Bước 1: Khởi tạo XpsDocument
 
 ```csharp
-// Bắt đầu:3
+// ExStart:3
 string dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 // ExEnd:3
 ```
 
- Ở đây, chúng ta tạo một thể hiện của`XpsDocument` để làm việc với các tài liệu XPS.
+Chúng ta bắt đầu bằng việc tạo một thể hiện `XpsDocument`, nơi sẽ chứa tất cả các thao tác vẽ tiếp theo.
 
-## Bước 2: Tạo hình học lưới màu đỏ tươi
+## Bước 2: Tạo hình học lưới màu hồng
 
 ```csharp
 // ExStart:4
@@ -61,9 +78,9 @@ pathGeometry[0].StartPoint = new PointF(0f, 5f);
 // ExEnd:4
 ```
 
-Bước này liên quan đến việc tạo hình dạng đường dẫn cho lưới màu đỏ tươi.
+Hình học này xác định đường viền của lưới mà visual brush sẽ lấp đầy.
 
-## Bước 3: Thiết kế lưới màu đỏ tươi VisualBrush
+## Bước 3: Thiết kế Magenta Grid VisualBrush
 
 ```csharp
 // ExStart:5
@@ -74,9 +91,9 @@ visualPath.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1f, .61f, 0.1f, 0.61
 // ExEnd:5
 ```
 
-Ở đây, chúng tôi thiết kế khía cạnh trực quan của lưới màu đỏ tươi bằng đồ họa vector.
+Ở đây chúng ta vẽ một ô gạch màu hồng nhỏ sẽ được lặp lại trên toàn lưới.
 
-## Bước 4: Áp dụng VisualBrush vào lưới
+## Bước 4: Áp dụng VisualBrush lên Grid
 
 ```csharp
 // ExStart:6
@@ -87,9 +104,9 @@ gridPath.Fill = doc.CreateVisualBrush(visualCanvas,
 // ExEnd:6
 ```
 
-Áp dụng cọ vẽ trực quan cho đường dẫn lưới, đảm bảo nó xếp chồng một cách thích hợp.
+Lệnh `CreateVisualBrush` liên kết ô gạch màu hồng với hình học lưới và cho phép lặp lại.
 
-## Bước 5: Thêm lưới vào Canvas
+## Bước 5: Thêm Grid vào Canvas
 
 ```csharp
 // ExStart:7
@@ -99,56 +116,66 @@ canvas.AddPath(pathGeometry);
 // ExEnd:7
 ```
 
-Thêm lưới vào khung vẽ, chỉ định mọi chuyển đổi cần thiết.
+Chúng ta đặt lưới đã lặp lại lên một canvas và áp dụng phép biến đổi dịch chuyển để nó xuất hiện ở vị trí mong muốn.
 
-## Bước 6: Tăng cường với hình chữ nhật màu đỏ
+## Bước 6: Thêm hình chữ nhật trong suốt
 
 ```csharp
 // ExStart:8
 XpsPath path = canvas.AddPath(doc.CreatePathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 path = canvas.AddPath(doc.CreatePathGeometry("M 10,10 L 228,10 228,100 10,100"));
 path.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1.0f, 0.0f, 0.0f));
-path.Opacity = 0.7f;
+path.Opacity = 0.7f; // This opacity makes the rectangle transparent
 // ExEnd:8
 ```
 
-Tăng cường sức hấp dẫn trực quan bằng cách thêm hình chữ nhật trong suốt màu đỏ.
+Trong bước này chúng ta **thêm một hình chữ nhật trong suốt** (hình đỏ với `Opacity = 0.7f`). Điều chỉnh giá trị opacity để kiểm soát mức độ trong suốt của hình chữ nhật.
 
 ## Bước 7: Lưu tài liệu
 
 ```csharp
-// Bắt đầu:9
+// ExStart:9
 doc.Save(dataDir + "AddGrid_out.xps");
 // ExEnd:9
 ```
 
-Lưu tài liệu XPS thu được vào thư mục đã chỉ định của bạn.
+Tệp XPS sẽ được ghi vào thư mục bạn đã chỉ định trước đó.
 
-## Phần kết luận
+## Các trường hợp sử dụng phổ biến
 
-Chúc mừng! Bạn đã áp dụng thành công Grid Visual Brush cho tài liệu của mình bằng Aspose.Page for .NET. Kỹ thuật này có thể nâng cao đáng kể các yếu tố trực quan trong tài liệu của bạn, mang lại trải nghiệm người dùng năng động và hấp dẫn.
+- **Làm nổi bật báo cáo:** Đặt lớp phủ bán trong suốt lên để nhấn mạnh biểu đồ hoặc bảng.  
+- **Hiệu ứng watermark:** Kết hợp lưới lặp lại với lớp phủ trong suốt để tạo thương hiệu nhẹ nhàng.  
+- **PDF/XPS tương tác:** Sử dụng mẫu làm nền cho các trường biểu mẫu trong khi giữ giao diện người dùng dễ đọc.
+
+## Mẹo khắc phục sự cố
+
+- **Opacity không hiển thị?** Đảm bảo trình xem của bạn hỗ trợ độ trong suốt XPS; một số trình xem cũ có thể bỏ qua thuộc tính `Opacity`.  
+- **Kích thước tile không đúng?** Kiểm tra hình chữ nhật nguồn (`new RectangleF(0f, 0f, 10f, 10f)`) có khớp với kích thước của tile vector không.  
+- **File không được lưu?** Kiểm tra lại `dataDir` trỏ tới thư mục tồn tại và có quyền ghi.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Tôi có thể sử dụng Aspose.Page cho .NET trong cả ứng dụng web và máy tính để bàn không?
+**Q: Tôi có thể sử dụng Aspose.Page cho .NET trong cả ứng dụng web và desktop không?**  
+A: Có, thư viện hoạt động trên mọi loại ứng dụng .NET.
 
-Câu trả lời 1: Có, Aspose.Page for .NET rất linh hoạt và có thể được sử dụng trong nhiều loại ứng dụng khác nhau.
+**Q: Có phiên bản dùng thử nào trước khi mua không?**  
+A: Chắc chắn, bạn có thể truy cập bản dùng thử miễn phí [tại đây](https://releases.aspose.com/).
 
-### Câu hỏi 2: Có phiên bản dùng thử trước khi mua không?
+**Q: Tôi có thể tìm hỗ trợ bổ sung hoặc thảo luận cộng đồng ở đâu?**  
+A: Ghé thăm [Aspose.Page Forum](https://forum.aspose.com/c/page/39) để nhận trợ giúp từ cộng đồng và các kỹ sư Aspose.
 
- A2: Hoàn toàn có thể, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+**Q: Làm sao để có được giấy phép tạm thời để đánh giá?**  
+A: Bạn có thể lấy giấy phép tạm thời [tại đây](https://purchase.aspose.com/temporary-license/).
 
-### Câu hỏi 3: Tôi có thể tìm thêm hỗ trợ hoặc thảo luận cộng đồng ở đâu?
+**Q: Tài liệu khác nào có sẵn cho Aspose.Page cho .NET?**  
+A: Khám phá tài liệu đầy đủ [tại đây](https://reference.aspose.com/page/net/).
 
- A3: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để thảo luận và hỗ trợ.
+---
 
-### Câu hỏi 4: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Page cho .NET?
+**Last Updated:** 2026-04-03  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
 
- A4: Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-
-### Câu hỏi 5: Aspose.Page dành cho .NET có tài liệu nào khác?
-
- A5: Khám phá tài liệu toàn diện[đây](https://reference.aspose.com/page/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

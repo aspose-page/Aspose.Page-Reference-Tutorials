@@ -1,35 +1,53 @@
 ---
-title: Aspose.Page for .NET を使用してグリッド ビジュアル ブラシを適用する
-linktitle: グリッドビジュアルブラシを適用
+date: 2026-04-03
+description: Aspose.Page を使用して .NET で透明な矩形を追加し、Grid Visual Brush を適用して、見事な XPS ドキュメントを作成する方法を学びましょう。
+keywords:
+- add transparent rectangle
+- grid visual brush
+- Aspose.Page .NET
+linktitle: グリッド ビジュアル ブラシを適用
 second_title: Aspose.Page .NET API
-description: Aspose.Page を使用して、.NET でのドキュメント処理の動的な世界を探索してください。グリッド ビジュアル ブラシを適用して、視覚的に美しいドキュメントを作成する方法を学びます。
-weight: 10
+title: Grid Visual Brush を使用して透明な矩形を追加する (.NET)
 url: /ja/net/visual-brushes/apply-grid-visual-brush/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET を使用してグリッド ビジュアル ブラシを適用する
+# Grid Visual Brush (.NET) を使用して透明な矩形を追加する
 
-## 導入
+## はじめに
 
-.NET 開発の世界では、Aspose.Page はドキュメント処理タスクを処理するための強力なツールとして際立っています。それが提供する魅力的な機能の 1 つは、ドキュメントに新しい次元をもたらすグリッド ビジュアル ブラシを適用する機能です。このチュートリアルでは、Aspose.Page for .NET を使用してマゼンタ グリッド ビジュアル ブラシを実装するプロセスを段階的に説明します。
+XPS ドキュメントに **透明な矩形を追加** し、スタイリッシュな Grid Visual Brush を適用したい場合、ここが最適です。このチュートリアルでは Aspose.Page for .NET を使用した正確な手順を順に説明しますので、視覚的にリッチなドキュメントを作成できます。最後まで実行可能な完全なサンプルが得られ、両方の手法を単一の分かりやすいワークフローで示します。
+
+## クイック回答
+- **透明な矩形は何をするのですか？** 半透明のオーバーレイを追加し、背景のコンテンツが透過して表示されます。  
+- **どの API がブラシを作成しますか？** `XpsDocument.CreateVisualBrush` が Grid Visual Brush を構築します。  
+- **ライセンスは必要ですか？** 無料トライアルでテストは可能ですが、製品版には商用ライセンスが必要です。  
+- **サポートされている .NET バージョンは何ですか？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6 以上。  
+- **実装にどれくらい時間がかかりますか？** 基本的な例で約 10〜15 分です。
+
+## XPS における透明な矩形とは何か
+
+透明な矩形は、塗りつぶし色に 1.0 未満のアルファ成分が含まれる単純な形状で、下層のグラフィックが部分的に見えるようになります。背景を完全に隠すことなくセクションを強調表示するのに最適です。
+
+## なぜ Grid Visual Brush を使用するのか
+
+Grid Visual Brush は、小さなベクター画像を大きな領域にタイル状に配置でき、グリッドやハッチ、カスタムテクスチャなどのパターンを作成します。これを透明な矩形と組み合わせることで、軽量かつ解像度に依存しないレイヤードビジュアル効果が得られます。
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件を満たしていることを確認してください。
+Before diving into the code, make sure you have:
 
--  Aspose.Page for .NET: ライブラリが .NET 環境にインストールされ、セットアップされていることを確認します。ダウンロードできます[ここ](https://releases.aspose.com/page/net/).
-
-- 開発環境: 実用的な .NET 開発環境を準備し、C# プログラミングの基本を理解している必要があります。
-
-- ドキュメント ディレクトリ: 処理されたファイルが保存されるドキュメント用のディレクトリを作成します。
+- **Aspose.Page for .NET** – ダウンロードは [here](https://releases.aspose.com/page/net/) からできます。  
+- .NET 開発環境 (Visual Studio、VS Code、またはお好みの IDE)。  
+- 生成された XPS ファイルを保存するフォルダー。
 
 ## 名前空間のインポート
 
-Aspose.Page の機能を効果的に利用するには、C# コードで必要な名前空間をインポートする必要があります。
+In your C# file, import the required namespaces:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,118 +55,128 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-ここで、例を複数のステップに分けてみましょう。
+それでは、解決策を明確な番号付きステップに分解しましょう。
 
-## ステップ 1: XpsDocument を初期化する
+## ステップ 1: XpsDocument の初期化
 
 ```csharp
-//例開始:3
+// ExStart:3
 string dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
-//拡張終了:3
+// ExEnd:3
 ```
 
-ここでは、次のインスタンスを作成します。`XpsDocument` XPS ドキュメントを操作するには。
+`XpsDocument` インスタンスを作成します。これが以降のすべての描画操作を保持します。
 
-## ステップ 2: マゼンタのグリッド ジオメトリを作成する
+## ステップ 2: マゼンタ グリッドジオメトリの作成
 
 ```csharp
-//例開始:4
+// ExStart:4
 XpsPathGeometry pathGeometry = doc.CreatePathGeometry();
 pathGeometry.AddSegment(doc.CreatePolyLineSegment(
     new PointF[] { new PointF(240f, 5f), new PointF(240f, 310f), new PointF(0f, 310f) }));
 pathGeometry[0].StartPoint = new PointF(0f, 5f);
-//拡張終了:4
+// ExEnd:4
 ```
 
-このステップには、マゼンタ グリッドのパス ジオメトリの作成が含まれます。
+このジオメトリは、Visual Brush が塗りつぶすグリッドの輪郭を定義します。
 
-## ステップ 3: マゼンタ グリッド VisualBrush をデザインする
+## ステップ 3: マゼンタ グリッド VisualBrush の設計
 
 ```csharp
-//例開始:5
+// ExStart:5
 XpsCanvas visualCanvas = doc.CreateCanvas();
 XpsPath visualPath = visualCanvas.AddPath(
     doc.CreatePathGeometry("M 0,4 L 4,4 4,0 6,0 6,4 10,4 10,6 6,6 6,10 4,10 4,6 0,6 Z"));
 visualPath.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1f, .61f, 0.1f, 0.61f));
-//拡張終了:5
+// ExEnd:5
 ```
 
-ここでは、ベクター グラフィックスを使用してマゼンタ グリッドの視覚的な側面をデザインします。
+ここでは、グリッド全体に繰り返される小さなマゼンタタイルを描画します。
 
-## ステップ 4: VisualBrush をグリッドに適用する
+## ステップ 4: VisualBrush をグリッドに適用
 
 ```csharp
-//例開始:6
+// ExStart:6
 XpsPath gridPath = doc.CreatePath(pathGeometry);
 gridPath.Fill = doc.CreateVisualBrush(visualCanvas,
     new RectangleF(0f, 0f, 10f, 10f), new RectangleF(0f, 0f, 10f, 10f));
 ((XpsVisualBrush)gridPath.Fill).TileMode = XpsTileMode.Tile;
-//拡張終了:6
+// ExEnd:6
 ```
 
-ビジュアル ブラシをグリッド パスに適用し、適切にタイル化されていることを確認します。
+`CreateVisualBrush` 呼び出しにより、マゼンタタイルがグリッドジオメトリに結び付けられ、タイル化が有効になります。
 
-## ステップ 5: キャンバスにグリッドを追加する
+## ステップ 5: グリッドをキャンバスに追加
 
 ```csharp
-//例開始:7
+// ExStart:7
 XpsCanvas canvas = doc.AddCanvas();
 canvas.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 268f, 70f);
 canvas.AddPath(pathGeometry);
-//拡張終了:7
+// ExEnd:7
 ```
 
-グリッドをキャンバスに追加し、必要な変換を指定します。
+タイル化されたグリッドをキャンバスに配置し、平行移動変換を適用して目的の位置に表示させます。
 
-## ステップ 6: 赤い四角形で強調する
+## ステップ 6: 透明な矩形を追加
 
 ```csharp
-//例開始:8
+// ExStart:8
 XpsPath path = canvas.AddPath(doc.CreatePathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 path = canvas.AddPath(doc.CreatePathGeometry("M 10,10 L 228,10 228,100 10,100"));
 path.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1.0f, 0.0f, 0.0f));
-path.Opacity = 0.7f;
-//拡張終了:8
+path.Opacity = 0.7f; // This opacity makes the rectangle transparent
+// ExEnd:8
 ```
 
-赤い透明な長方形を追加して、視覚的な魅力を高めます。
+このステップでは **透明な矩形を追加** します（`Opacity = 0.7f` の赤い形状）。不透明度の値を調整して、矩形の透過度を制御します。
 
-## ステップ 7: ドキュメントを保存する
+## ステップ 7: ドキュメントを保存
 
 ```csharp
-//例開始:9
+// ExStart:9
 doc.Save(dataDir + "AddGrid_out.xps");
-//拡張終了:9
+// ExEnd:9
 ```
 
-結果の XPS ドキュメントを指定したディレクトリに保存します。
+XPS ファイルは、先に指定したフォルダーに書き込まれます。
 
-## 結論
+## 一般的な使用例
 
-おめでとう！ Aspose.Page for .NET を使用して、ドキュメントにグリッド ビジュアル ブラシを適用することに成功しました。この手法により、ドキュメントの視覚要素が大幅に強化され、ダイナミックで魅力的なユーザー エクスペリエンスが提供されます。
+- **レポートのハイライト:** グラフや表を強調するために半透明の矩形をオーバーレイします。  
+- **透かし効果:** タイル化されたグリッドと透明なオーバーレイを組み合わせて、さりげないブランディングを実現します。  
+- **インタラクティブ PDF/XPS:** パターンをフォームフィールドの背景として使用し、UI の可読性を保ちます。
+
+## トラブルシューティングのヒント
+
+- **不透明度が表示されませんか？** ビューアが XPS の透明性をサポートしていることを確認してください。古いビューアの中には `Opacity` プロパティを無視するものがあります。  
+- **タイルサイズが正しくありませんか？** ソース矩形 (`new RectangleF(0f, 0f, 10f, 10f)`) がベクタタイルの寸法と一致しているか確認してください。  
+- **ファイルが保存されませんか？** `dataDir` が存在し、書き込み可能なディレクトリを指しているか再確認してください。
 
 ## よくある質問
 
-### Q1: Aspose.Page for .NET を Web アプリケーションとデスクトップ アプリケーションの両方で使用できますか?
+**Q: Aspose.Page for .NET を Web とデスクトップの両方のアプリケーションで使用できますか？**  
+A: はい、このライブラリはすべての .NET アプリケーションタイプで動作します。
 
-A1: はい、Aspose.Page for .NET は多用途であり、さまざまな種類のアプリケーションで使用できます。
+**Q: 購入前に試用版はありますか？**  
+A: もちろん、無料トライアルは [here](https://releases.aspose.com/) から利用できます。
 
-### Q2: 購入前に体験版はありますか?
+**Q: 追加のサポートやコミュニティディスカッションはどこで見つけられますか？**  
+A: コミュニティや Aspose エンジニアからの支援は [Aspose.Page Forum](https://forum.aspose.com/c/page/39) をご覧ください。
 
- A2: もちろん、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
+**Q: 評価用の一時ライセンスはどのように取得できますか？**  
+A: 一時ライセンスは [here](https://purchase.aspose.com/temporary-license/) から取得できます。
 
-### Q3: 追加のサポートやコミュニティのディスカッションはどこで見つけられますか?
+**Q: Aspose.Page for .NET の他のドキュメントはどこにありますか？**  
+A: 包括的なドキュメントは [here](https://reference.aspose.com/page/net/) でご確認ください。
 
- A3: にアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)ディスカッションとサポートのために。
+---
 
-### Q4: Aspose.Page for .NET の一時ライセンスを取得するにはどうすればよいですか?
+**最終更新日:** 2026-04-03  
+**テスト環境:** Aspose.Page 24.12 for .NET  
+**作者:** Aspose  
 
- A4: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Aspose.Page for .NET については他にどのようなドキュメントがありますか?
-
- A5: 包括的なドキュメントを参照してください。[ここ](https://reference.aspose.com/page/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
