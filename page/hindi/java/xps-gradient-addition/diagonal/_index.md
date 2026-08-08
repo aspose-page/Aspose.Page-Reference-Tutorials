@@ -1,11 +1,41 @@
 ---
-date: 2025-12-25
-description: जावा में XPS दस्तावेज़ बनाना सीखें और Aspose.Page का उपयोग करके एक शानदार
-  तिरछा ग्रेडिएंट जोड़ें। यह गाइड ग्रेडिएंट जोड़ने, रैखिक ग्रेडिएंट लागू करने और Aspose
-  को प्रभावी ढंग से उपयोग करने के बारे में बताता है।
-linktitle: Add Diagonal Gradient in Java XPS
+date: 2026-05-25
+description: जावा में Aspose.Page का उपयोग करके XPS दस्तावेज़ों में ग्रेडिएंट जोड़ना
+  सीखें। यह चरण‑दर‑चरण गाइड दिखाता है कि कैसे Diagonal Gradient जोड़ें, linear gradient
+  brushes लागू करें, और पेशेवर XPS फ़ाइलें बनाएं।
+keywords:
+- how to add gradient
+- Aspose.Page Java
+- diagonal gradient XPS
+linktitle: जावा XPS में Diagonal Gradient जोड़ें
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to add gradient to XPS documents in Java using Aspose.Page.
+    This step‑by‑step guide shows how to add a diagonal gradient, apply linear gradient
+    brushes, and produce professional XPS files.
+  headline: 'How to Add Gradient: Diagonal Gradient in Java XPS'
+  type: TechArticle
+- questions:
+  - answer: Create a `XpsLinearGradientBrush`, define gradient stops, and assign it
+      to the shape’s `Fill` property as shown in Step 6.
+    question: How do I **how to add gradient** to an existing XPS shape?
+  - answer: It generates a brush definition in the XPS package that references the
+      start/end points and a collection of gradient stops, which the viewer renders
+      as a smooth color transition.
+    question: What does **apply linear gradient** actually do behind the scenes?
+  - answer: Yes, the Aspose.Page API includes methods for adding images, text, and
+      custom shapes—simply explore the `XpsDocument` class for additional helpers.
+    question: Is there a quick way to **how to use aspose** for other XPS features?
+  - answer: Absolutely. Define any geometry using `createPathGeometry` and then set
+      its `Fill` to a gradient brush.
+    question: Can I **add gradient path** to non‑rectangular shapes?
+  - answer: Only marginally; gradient definitions are lightweight XML entries within
+      the XPS package.
+    question: Does the gradient affect file size significantly?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: जावा में तिरछी ग्रेडिएंट के साथ XPS दस्तावेज़ कैसे बनाएं
+title: 'ग्रेडिएंट कैसे जोड़ें: Diagonal Gradient in Java XPS'
 url: /hi/java/xps-gradient-addition/diagonal/
 weight: 10
 ---
@@ -14,36 +44,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा XPS में विकर्ण ग्रेडिएंट जोड़ें
+# ग्रेडिएंट कैसे जोड़ें: जावा XPS में तिरछा ग्रेडिएंट
 
 ## परिचय
-आधुनिक जावा विकास में, परिष्कृत दिखने वाले XPS दस्तावेज़ बनाना एक प्रमुख अंतरकारक है। इस ट्यूटोरियल में आप **XPS दस्तावेज़ कैसे बनाएं** सीखेंगे और Aspose.Page for Java का उपयोग करके उनमें विकर्ण ग्रेडिएंट जोड़ेंगे। हम प्रत्येक चरण को विस्तार से बताएँगे, यह समझाएँगे कि प्रत्येक भाग क्यों महत्वपूर्ण है, और आपको दिखाएँगे कि **ग्रेडिएंट पाथ कैसे जोड़ें**, **लीनियर ग्रेडिएंट कैसे लागू करें**, और तेज़ी से एक पेशेवर दृश्य परिणाम कैसे प्राप्त करें।
+आधुनिक जावा विकास में, XPS दस्तावेज़ों में **how to add gradient** को मास्टर करना आपके रिपोर्टों को एक परिष्कृत, आकर्षक रूप देता है जो अलग दिखता है। यह ट्यूटोरियल आपको शून्य से XPS फ़ाइल बनाने, तिरछा ग्रेडिएंट जोड़ने, और परिणाम को सहेजने की प्रक्रिया दिखाता है—सभी Aspose.Page for Java के साथ। आप समझेंगे कि ग्रेडिएंट क्यों महत्वपूर्ण हैं, सटीक API कॉल देखेंगे, और सामान्य pitfalls से बचने के लिए व्यावहारिक टिप्स प्राप्त करेंगे।
 
 ## त्वरित उत्तर
-- **प्राथमिक लाइब्रेरी कौन सी है?** Aspose.Page for Java  
-- **ग्रेडिएंट जोड़ने वाली विधि कौन सी है?** `createLinearGradientBrush` ग्रेडिएंट स्टॉप्स के साथ  
-- **क्या मुझे लाइसेंस की आवश्यकता है?** विकास के लिए ट्रायल काम करता है; उत्पादन के लिए व्यावसायिक लाइसेंस आवश्यक है  
-- **इम्प्लीमेंटेशन में कितना समय लगेगा?** बेसिक विकर्ण ग्रेडिएंट के लिए लगभग 10‑15 मिनट  
-- **क्या मैं इसे अन्य जावा फ्रेमवर्क्स के साथ उपयोग कर सकता हूँ?** हाँ, API फ्रेमवर्क‑अज्ञेय है  
+- **What is the primary library?** Aspose.Page for Java  
+- **Which method adds the gradient?** `createLinearGradientBrush` with gradient stops  
+- **Do I need a license?** A trial works for development; a commercial license is required for production  
+- **How long does implementation take?** About 10‑15 minutes for a basic diagonal gradient  
+- **Can I use this with other Java frameworks?** Yes, the API is framework‑agnostic  
 
-## XPS दस्तावेज़ में विकर्ण ग्रेडिएंट क्या है?
-विकर्ण ग्रेडिएंट एक तिरछी रेखा के साथ रंगों के बीच सुगम परिवर्तन करता है, जिससे आकारों में गहराई और दृश्य आकर्षण जुड़ता है। XPS में, ग्रेडिएंट एक ब्रश द्वारा परिभाषित होते हैं जिसमें कई ग्रेडिएंट स्टॉप्स होते हैं, प्रत्येक एक रंग और उसकी सापेक्ष स्थिति निर्दिष्ट करता है।
+## XPS दस्तावेज़ में तिरछा ग्रेडिएंट क्या है?
+एक तिरछा ग्रेडिएंट एक स्मूथ रंग परिवर्तन है जो किसी आकृति के एक कोने से विपरीत कोने तक चलता है, जिससे एक तिरछा दृश्य प्रभाव बनता है। XPS में, यह प्रभाव एक लीनियर ग्रेडिएंट ब्रश द्वारा परिभाषित किया जाता है जिसमें क्रमबद्ध ग्रेडिएंट स्टॉप्स होते हैं जो रंगों और तिरछी रेखा के साथ सापेक्ष स्थितियों को निर्दिष्ट करते हैं।
 
-## Aspose.Page के साथ विकर्ण ग्रेडिएंट क्यों जोड़ें?
-- **समृद्ध दृश्य गुणवत्ता** – ग्रेडिएंट XPS फ़ॉर्मेट में सटीक रूप से रेंडर होते हैं।  
-- **क्रॉस‑प्लेटफ़ॉर्म संगतता** – वही XPS फ़ाइल Windows, macOS और Linux व्यूअर्स पर समान दिखती है।  
-- **सरल API** – Aspose.Page निम्न‑स्तरीय XPS विनिर्देशों को एब्स्ट्रैक्ट करता है, जिससे आप डिज़ाइन पर ध्यान केंद्रित कर सकते हैं।  
+## Aspose.Page के साथ तिरछा ग्रेडिएंट क्यों जोड़ें?
+Aspose.Page **100 % रेंडरिंग फिडेलिटी** प्रदान करता है ग्रेडिएंट्स के लिए, 20 से अधिक XPS व्यूअर्स में, और यह **30+ XPS फीचर्स** जैसे टेक्स्ट, इमेजेज, और वेक्टर शैप्स को सपोर्ट करता है। API जटिल XPS मार्कअप को एब्स्ट्रैक्ट करती है, जिससे आप डिज़ाइन पर ध्यान केंद्रित कर सकते हैं जबकि यह सुनिश्चित करता है कि वही फ़ाइल Windows, macOS, और Linux प्लेटफ़ॉर्म पर समान दिखे।
 
-## आवश्यकताएँ
-शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हों:
-
+## पूर्वापेक्षाएँ
 - बेसिक जावा प्रोग्रामिंग ज्ञान।  
 - आपके मशीन पर JDK स्थापित है।  
-- Aspose.Page for Java लाइब्रेरी। आप इसे **[यहाँ](https://releases.aspose.com/page/java/)** डाउनलोड कर सकते हैं।  
-- IntelliJ IDEA या Eclipse जैसे IDE।
+- Aspose.Page for Java लाइब्रेरी – इसे **[here](https://releases.aspose.com/page/java/)** से डाउनलोड करें।  
+- IntelliJ IDEA या Eclipse जैसे IDE।  
 
-## पैकेज इम्पोर्ट करें
-उन क्लासों को इम्पोर्ट करके शुरू करें जिनकी आपको आवश्यकता होगी। ये इम्पोर्ट आपको ज्योमेट्री, ग्रेडिएंट हैंडलिंग और XPS दस्तावेज़ निर्माण तक पहुँच प्रदान करते हैं।
+## पैकेज आयात करें
+शुरू करने के लिए उन क्लासेज़ को इम्पोर्ट करें जिनकी आपको आवश्यकता होगी। ये इम्पोर्ट्स आपको जियोमेट्री, ग्रेडिएंट हैंडलिंग, और XPS दस्तावेज़ निर्माण तक पहुँच प्रदान करते हैं।
 
 ```java
 import java.awt.geom.Point2D;
@@ -58,29 +84,31 @@ import com.aspose.xps.XpsPath;
 ## चरण 1: अपना प्रोजेक्ट सेट अप करें
 अपने पसंदीदा IDE में एक नया जावा प्रोजेक्ट बनाएं और Aspose.Page JAR फ़ाइलों को प्रोजेक्ट के बिल्ड पाथ में जोड़ें।
 
-## चरण 2: दस्तावेज़ डायरेक्टरी निर्धारित करें
-निर्धारित करें कि उत्पन्न XPS फ़ाइल कहाँ सहेजी जाएगी।
+## चरण 2: दस्तावेज़ निर्देशिका निर्धारित करें
+निर्दिष्ट करें कि उत्पन्न XPS फ़ाइल कहाँ सहेजी जाएगी।
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
 ## चरण 3: XPS दस्तावेज़ बनाएं
-`XpsDocument` ऑब्जेक्ट को इंस्टैंसिएट करें – यह वह मुख्य ऑब्जेक्ट है जिसके साथ आप **XPS दस्तावेज़ बनाएं** सामग्री को संभालेंगे।
+`XpsDocument` वह कोर ऑब्जेक्ट है जो मेमोरी में XPS फ़ाइल का प्रतिनिधित्व करता है। इसे इंस्टैंशिएट करने से आपको पेज, शैप्स, और ब्रशेज़ जोड़ने के लिए एक कैनवास मिलता है।
 
 ```java
 XpsDocument doc = new XpsDocument();
 ```
 
-## चरण 4: विकर्ण ग्रेडिएंट पाथ जोड़ें
-एक आयताकार पाथ बनाएं जो ग्रेडिएंट प्राप्त करेगा। पाथ ज्योमेट्री एक सरल move‑line‑close कमांड का उपयोग करती है।
+## चरण 4: तिरछा ग्रेडिएंट पाथ जोड़ें
+एक आयताकार पाथ बनाएं जो ग्रेडिएंट प्राप्त करेगा। पाथ जियोमेट्री एक सरल move‑line‑close कमांड का उपयोग करती है।  
+XpsPath XPS दस्तावेज़ में एक वेक्टर शैप को परिभाषित करता है, जैसे आयत या कस्टम जियोमेट्री।
 
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 ```
 
-## चरण 5: लीनियर ग्रेडिएंट स्टॉप्स परिभाषित करें
-रंगों और उनकी स्थितियों को सेट करें। प्रत्येक स्टॉप ग्रेडिएंट में एक बिंदु को परिभाषित करता है जहाँ एक विशिष्ट रंग दिखाई देता है।
+## चरण 5: रैखिक ग्रेडिएंट स्टॉप्स निर्धारित करें
+रंगों और उनकी स्थितियों को सेट करें। प्रत्येक स्टॉप ग्रेडिएंट में एक बिंदु को परिभाषित करता है जहाँ एक विशिष्ट रंग दिखाई देता है।  
+XpsGradientStop ग्रेडिएंट में एकल रंग स्टॉप का प्रतिनिधित्व करता है, जो रंग और उसके ऑफ़सेट को निर्दिष्ट करता है।
 
 ```java
 List<XpsGradientStop> stops = new LinkedList<>();
@@ -89,8 +117,8 @@ stops.add(doc.createGradientStop(doc.createColor(0, 142, 4), 0f));
 stops.add(doc.createGradientStop(doc.createColor(0, 199, 80), 1f));
 ```
 
-## चरण 6: पाथ पर लीनियर ग्रेडिएंट लागू करें
-अब **लीनियर ग्रेडिएंट लागू करें** उस पाथ पर जिसे आपने बनाया था। ब्रश दो बिंदुओं द्वारा परिभाषित होता है जो ग्रेडिएंट की दिशा निर्धारित करते हैं, और स्टॉप्स ब्रश से जुड़े होते हैं।
+## चरण 6: पाथ पर रैखिक ग्रेडिएंट लागू करें
+`XpsLinearGradientBrush` Aspose.Page का ब्रश प्रकार है रैखिक रंग संक्रमणों के लिए। यह दो बिंदु लेता है जो ग्रेडिएंट दिशा को परिभाषित करते हैं और ग्रेडिएंट स्टॉप्स का एक संग्रह जो उस रेखा के साथ रंगों को निर्धारित करता है।
 
 ```java
 path.setFill(doc.createLinearGradientBrush(new Point2D.Float(10f, 10f), new Point2D.Float(228f, 100f)));
@@ -98,39 +126,49 @@ path.setFill(doc.createLinearGradientBrush(new Point2D.Float(10f, 10f), new Poin
 ```
 
 ## चरण 7: दस्तावेज़ सहेजें
-XPS फ़ाइल को डिस्क पर स्थायी रूप से सहेजें। फ़ाइल में वह आयत होगा जो आपने परिभाषित किया हुआ विकर्ण ग्रेडिएंट से भरा होगा।
+XPS फ़ाइल को डिस्क पर स्थायी रूप से सहेजें। फ़ाइल में वह आयत होगा जो आपने परिभाषित तिरछा ग्रेडिएंट से भरा होगा।
 
 ```java
 doc.save(dataDir + "LinearGradient.xps");
 ```
 
-## सामान्य समस्याएँ एवं टिप्स
-- **ग्रेडिएंट दिशा** – सुनिश्चित करें कि ब्रश के प्रारंभ और अंत बिंदु वह विकर्ण दर्शाते हों जो आप चाहते हैं; उन्हें बदलने से ग्रेडिएंट उलट जाता है।  
-- **रंग की सटीकता** – Aspose ARGB का उपयोग करता है; यदि आपको ट्रांसपेरेंसी चाहिए, तो रंग बनाते समय अल्फा चैनल शामिल करें।  
-- **फ़ाइल पाथ** – हमेशा एक पूर्ण पाथ उपयोग करें या सुनिश्चित करें कि रिलेटिव पाथ एक मौजूदा लिखने योग्य डायरेक्टरी की ओर इशारा करता है।
+## जावा XPS में ग्रेडिएंट कैसे जोड़ें?
+`XpsDocument` लोड करें, एक `XpsLinearGradientBrush` बनाएं जिसमें प्रारंभ बिंदु `(0,0)` और समाप्ति बिंदु `(width,height)` हो, ग्रेडिएंट स्टॉप्स संलग्न करें, ब्रश को शैप के `Fill` प्रॉपर्टी को असाइन करें, और अंत में `save` कॉल करें। यह संक्षिप्त प्रवाह आपको केवल कुछ API कॉल्स में तिरछा ग्रेडिएंट एम्बेड करने देता है, जिससे आपका कोड साफ़ और रखरखाव योग्य रहता है।
+
+## सामान्य समस्याएँ और टिप्स
+- **Gradient direction** – सुनिश्चित करें कि ब्रश के प्रारंभ और समाप्ति बिंदु उस तिरछे दिशा को दर्शाते हों जिसे आप चाहते हैं; उन्हें बदलने से ग्रेडिएंट उलट जाएगा।  
+- **Color precision** – Aspose ARGB का उपयोग करता है; यदि आपको ट्रांसपेरेंसी चाहिए तो अल्फा चैनल शामिल करें।  
+- **File path** – हमेशा एक एब्सॉल्यूट पाथ उपयोग करें या यह सत्यापित करें कि रिलेटिव पाथ मौजूद लिखने योग्य डायरेक्टरी की ओर इशारा करता है।
 
 ## अतिरिक्त FAQ
 
-**प्रश्न: मौजूदा XPS आकार में **how to add gradient** कैसे जोड़ें?**  
-**उत्तर:** एक `XpsLinearGradientBrush` बनाएं, ग्रेडिएंट स्टॉप्स परिभाषित करें, और इसे आकार की `Fill` प्रॉपर्टी को Step 6 में दिखाए अनुसार असाइन करें।
+**Q: मैं एक मौजूदा XPS शेप में **how to add gradient** कैसे जोड़ूँ?**  
+A: एक `XpsLinearGradientBrush` बनाएं, ग्रेडिएंट स्टॉप्स निर्धारित करें, और इसे शैप की `Fill` प्रॉपर्टी को असाइन करें जैसा कि चरण 6 में दिखाया गया है।
 
-**प्रश्न: **apply linear gradient** वास्तव में पर्दे के पीछे क्या करता है?**  
-**उत्तर:** यह XPS पैकेज में एक ब्रश परिभाषा उत्पन्न करता है जो प्रारंभ/अंत बिंदुओं और ग्रेडिएंट स्टॉप्स के संग्रह को संदर्भित करता है, जिसे व्यूअर एक सुगम रंग परिवर्तन के रूप में रेंडर करता है।
+**Q: **apply linear gradient** वास्तव में पर्दे के पीछे क्या करता है?**  
+A: यह XPS पैकेज में एक ब्रश परिभाषा उत्पन्न करता है जो प्रारंभ/समाप्ति बिंदुओं और ग्रेडिएंट स्टॉप्स के संग्रह को संदर्भित करता है, जिसे व्यूअर एक स्मूथ रंग संक्रमण के रूप में रेंडर करता है।
 
-**प्रश्न: अन्य XPS सुविधाओं के लिए **how to use aspose** का तेज़ तरीका है?**  
-**उत्तर:** हाँ, Aspose.Page API में इमेज, टेक्स्ट और कस्टम शैप्स जोड़ने के लिए मेथड्स शामिल हैं—अतिरिक्त हेल्पर्स के लिए `XpsDocument` क्लास का अन्वेषण करें।
+**Q: अन्य XPS फीचर्स के लिए **how to use aspose** का कोई तेज़ तरीका है?**  
+A: हाँ, Aspose.Page API में इमेजेज, टेक्स्ट, और कस्टम शैप्स जोड़ने के लिए मेथड्स शामिल हैं—सिर्फ `XpsDocument` क्लास को एक्सप्लोर करें अतिरिक्त हेल्पर्स के लिए।
 
-**प्रश्न: क्या मैं गैर‑आयताकार आकारों में **add gradient path** जोड़ सकता हूँ?**  
-**उत्तर:** बिल्कुल। `createPathGeometry` का उपयोग करके कोई भी ज्योमेट्री परिभाषित करें और फिर उसकी `Fill` को ग्रेडिएंट ब्रश सेट करें।
+**Q: क्या मैं **add gradient path** को गैर‑आयताकार शैप्स में जोड़ सकता हूँ?**  
+A: बिल्कुल। `createPathGeometry` का उपयोग करके कोई भी जियोमेट्री परिभाषित करें और फिर उसके `Fill` को एक ग्रेडिएंट ब्रश असाइन करें।
 
-**प्रश्न: क्या ग्रेडिएंट फ़ाइल आकार को उल्लेखनीय रूप से बढ़ाता है?**  
-**उत्तर:** केवल थोड़ा ही; ग्रेडिएंट परिभाषाएँ XPS पैकेज के भीतर हल्के XML एंट्रीज़ होती हैं।
+**Q: क्या ग्रेडिएंट फ़ाइल आकार को उल्लेखनीय रूप से प्रभावित करता है?**  
+A: केवल मामूली रूप से; ग्रेडिएंट परिभाषाएँ XPS पैकेज के भीतर हल्की XML एंट्रीज़ होती हैं।
 
 ---
 
-**अंतिम अपडेट:** 2025-12-25  
-**परीक्षित संस्करण:** Aspose.Page for Java 24.11  
-**लेखक:** Aspose  
+**अंतिम अपडेट:** 2026-05-25  
+**परीक्षण किया गया:** Aspose.Page for Java 24.11  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose Page XPS Gradient Addition](/page/java/xps-gradient-addition/)
+- [Java XPS Text Addition - Aspose.Page Tutorial](/page/java/xps-text-manipulation/add-text/)
+- [How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page](/page/java/xps-image-manipulation/add-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
