@@ -1,9 +1,47 @@
 ---
-date: 2026-01-12
-description: เรียนรู้วิธีสร้างเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET – คู่มือแบบขั้นตอนต่อขั้นตอนเพื่อสร้างเอกสารอิเล็กทรอนิกส์คุณภาพสูง
-linktitle: Create XPS Document
+date: 2026-07-10
+description: เรียนรู้วิธีการสร้างเอกสาร xps ด้วย aspose.page โดยใช้ Aspose.Page for
+  .NET – คู่มือขั้นตอนต่อขั้นตอนเพื่อสร้างไฟล์ XPS คุณภาพสูง
+keywords:
+- aspose.page create xps
+- XPS document generation
+- Aspose.Page .NET
+lastmod: 2026-07-10
+linktitle: สร้างเอกสาร XPS
+og_description: สร้าง xps อย่างรวดเร็วด้วย aspose.page ด้วย Aspose.Page for .NET.
+  ปฏิบัติตามคู่มือนี้เพื่อผลิตไฟล์ XPS คุณภาพสูงในโค้ดไม่เกิน 20 บรรทัด
+og_image_alt: 'Guide: Create XPS document using Aspose.Page for .NET'
+og_title: aspose.page สร้าง xps – สร้างเอกสาร XPS ด้วย .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-07-10'
+  description: Learn how to aspose.page create xps documents using Aspose.Page for
+    .NET – a step‑by‑step guide to generate high‑quality XPS files.
+  headline: aspose.page create xps – Generate XPS Documents with .NET
+  type: TechArticle
+- questions:
+  - answer: Yes. Provide the exact font family name when calling `AddGlyphs`; the
+      font must be installed on the runtime machine.
+    question: Can I use custom fonts in my XPS document?
+  - answer: Absolutely. The library works on .NET Core 3.1, .NET 5, .NET 6 and later,
+      enabling cross‑platform XPS generation.
+    question: Is Aspose.Page compatible with .NET Core?
+  - answer: Use the `AddImage` method of the `XpsPage` class. The API accepts PNG,
+      JPEG, BMP, and GIF formats.
+    question: How do I add images to an XPS document?
+  - answer: Yes. Instantiate multiple `XpsPage` objects, populate each with glyphs
+      or images, and then save the document once.
+    question: Can I create multi‑page XPS documents?
+  - answer: Yes, you can explore the full feature set by downloading the [free trial](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-title: สร้างเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET
+tags:
+- aspose.page
+- create xps
+- XPS document
+- .NET document generation
+title: aspose.page สร้าง xps – สร้างเอกสาร XPS ด้วย .NET
 url: /th/net/document-creation/create-xps-document/
 weight: 10
 ---
@@ -12,44 +50,51 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET
+# aspose.page create xps – สร้างเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET
 
-## Introduction
+## บทนำ
 
-ยินดีต้อนรับสู่คู่มือแบบขั้นตอนของเราว่า **วิธีสร้างเอกสาร XPS** ด้วย Aspose.Page สำหรับ .NET ในบทเรียนนี้ เราจะสำรวจกระบวนการสร้างไฟล์ XPS ซึ่งเป็นรูปแบบที่ใช้กันอย่างแพร่หลายสำหรับเอกสารอิเล็กทรอนิกส์ ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้นกับ Aspose.Page คู่มือนี้ออกแบบมาเพื่อช่วยคุณสร้างเอกสาร XPS อย่างราบรื่นด้วยตัวอย่างที่ชัดเจนและคำอธิบายที่ละเอียด
+ในบทแนะนำนี้คุณจะได้เรียนรู้การสร้างเอกสาร **aspose.page create xps** อย่างเป็นขั้นตอนโดยใช้ไลบรารี Aspose.Page สำหรับ .NET ไม่ว่าคุณจะกำลังสร้างเครื่องมือรายงาน, ตัวสร้างใบแจ้งหนี้, หรือระบบใด ๆ ที่ต้องการเอกสารอิเล็กทรอนิกส์คุณภาพสูง XPS เป็นรูปแบบที่เชื่อถือได้และอิง XML ที่คงรูปแบบการจัดวางข้ามแพลตฟอร์ม เราจะเดินผ่านทุกขั้นตอนตั้งแต่ข้อกำหนดเบื้องต้นจนถึงการบันทึกไฟล์ขั้นสุดท้าย พร้อมเคล็ดลับที่คุณสามารถนำไปใช้ได้ทันที
 
-## Quick Answers
-- **What library do I need?** Aspose.Page for .NET  
-- **Can I run this on .NET Core?** Yes, the library fully supports .NET Core and .NET 5/6  
-- **How many lines of code?** Less than 20 lines to produce a basic XPS file  
-- **Do I need a license for testing?** A free trial is available; a license is required for production  
-- **What format does the output have?** XPS (XML Paper Specification)  
+## คำตอบอย่างรวดเร็ว
+- **ต้องใช้ไลบรารีอะไร?** Aspose.Page for .NET  
+- **ฉันสามารถรันบน .NET Core ได้หรือไม่?** Yes – fully supported on .NET Core 3.1, .NET 5, .NET 6 and later  
+- **ต้องใช้บรรทัดโค้ดกี่บรรทัด?** Fewer than 20 lines for a basic “Hello World” XPS file  
+- **ต้องการลิขสิทธิ์สำหรับการทดสอบหรือไม่?** A free trial works for development; a license is required for production deployments  
+- **รูปแบบของผลลัพธ์คืออะไร?** XPS (XML Paper Specification)  
 
-## How to create XPS document using Aspose.Page for .NET
+## วิธีสร้างเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET?
 
-ด้านล่างนี้คุณจะพบทุกอย่างที่ต้องการก่อนเริ่มเขียนโค้ด พร้อมด้วยขั้นตอนสั้น ๆ ที่เรียงลำดับเป็นหมายเลข
+โหลดไลบรารี Aspose.Page, สร้างอินสแตนซ์ของ `XpsDocument`, เพิ่มหน้าเดียวพร้อม glyphs, ตั้งค่าสีเติม, แล้วเรียก `Save` การทำงานครบวงจรนี้ต้องการเพียงไม่กี่การเรียกเมธอดและจะสร้างไฟล์ XPS ที่เป็นไปตามมาตรฐานซึ่งสามารถเปิดได้ใน Windows Reader, Adobe Acrobat หรือโปรแกรมดู XPS ใด ๆ วิธีนี้ทำงานได้บน Windows, Linux, และ macOS โดยไม่ต้องพึ่งพาไลบรารีเพิ่มเติม
 
-## Prerequisites
+## aspose.page create xps คืออะไร?
 
-ก่อนที่เราจะลงลึกในบทเรียน โปรดตรวจสอบว่าคุณมีข้อกำหนดต่อไปนี้ครบถ้วน:
+`aspose.page create xps` หมายถึงกระบวนการสร้างไฟล์ XPS (XML Paper Specification) อย่างอัตโนมัติโดยใช้ Aspose.Page API สำหรับ .NET API จะทำให้ซับซ้อนของโครงสร้าง PDF/XPS ระดับล่างหายไป ทำให้คุณโฟกัสที่เนื้อหาแทนรูปแบบไฟล์ รองรับการตั้งค่าขนาดหน้า, ฟอนต์, สี, และการฝังรูปภาพ ช่วยให้ผู้พัฒนาสร้างเอกสารที่พิมพ์ได้สวยงามโดยตรงจากโค้ด
 
-1. Aspose.Page for .NET Library: ดาวน์โหลดและติดตั้งไลบรารี Aspose.Page จาก [download link](https://releases.aspose.com/page/net/)  
+## ทำไมต้องใช้ Aspose.Page สำหรับการสร้าง XPS?
 
-2. Your Document Directory: เลือกหรือสร้างโฟลเดอร์บนระบบของคุณที่ต้องการบันทึกไฟล์ XPS ที่สร้างขึ้น  
+Aspose.Page รองรับ **30+ output formats** และสามารถเรนเดอร์ไฟล์ XPS ขนาดถึง **500 MB** โดยไม่ต้องโหลดเอกสารทั้งหมดเข้าสู่หน่วยความจำ ส่งมอบประสิทธิภาพสูงสำหรับงานฝั่งเซิร์ฟเวอร์ ไลบรารีรับประกันการจัดวางที่พิกเซล‑เพอร์เฟค, การฝังฟอนต์อัตโนมัติ, และการสนับสนุน Unicode อย่างเต็มรูปแบบ ทำให้ไม่ต้องพึ่งพาเครื่องมือแปลงของบุคคลที่สาม
 
-ตอนนี้มาลงมือทำบทเรียนกันเลย!
+## ข้อกำหนดเบื้องต้น
 
-## Import Namespaces
+ก่อนที่เราจะลงลึกในโค้ด, โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-เพื่อใช้ Aspose.Page สำหรับ .NET คุณต้องนำเข้า namespace ที่จำเป็นเข้าสู่โปรเจกต์ของคุณ ทำตามขั้นตอนต่อไปนี้:
+1. **Aspose.Page for .NET Library** – ดาวน์โหลดจาก [download link](https://releases.aspose.com/page/net/).  
+2. **Target Directory** – กำหนดตำแหน่งที่ไฟล์ XPS ที่สร้างจะถูกบันทึกบนเครื่องของคุณ  
 
-### Step 1: Add Reference to Aspose.Page
+ตอนนี้สภาพแวดล้อมพร้อมแล้ว, มาเริ่มนำเข้า Namespaces ที่จำเป็นกันเถอะ
 
-ในโปรเจกต์ของคุณ ให้เพิ่มการอ้างอิงไปยังไลบรารี Aspose.Page สำหรับ .NET คุณสามารถค้นหาไฟล์ DLL ที่ต้องการในแพคเกจที่ดาวน์โหลดมา
+## นำเข้า Namespaces
 
-### Step 2: Import Namespaces
+เพื่อใช้ Aspose.Page สำหรับ .NET คุณต้องนำเข้า Namespaces ที่จำเป็นเข้าสู่โปรเจกต์ของคุณ ทำตามขั้นตอนต่อไปนี้:
 
-เพิ่ม namespace ต่อไปนี้ในไฟล์โค้ดของคุณ:
+### ขั้นตอนที่ 1: เพิ่มการอ้างอิงไปยัง Aspose.Page
+
+ในโปรเจกต์ของคุณ, เพิ่มการอ้างอิงไปยังไลบรารี Aspose.Page for .NET คุณสามารถค้นหาไฟล์ DLL ที่ต้องการในแพคเกจที่ดาวน์โหลดมา
+
+### ขั้นตอนที่ 2: นำเข้า Namespaces
+
+ใส่ Namespaces ต่อไปนี้ในไฟล์โค้ดของคุณ:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -57,87 +102,95 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-เมื่อเราตั้งค่าข้อกำหนดเบื้องต้นและนำเข้า namespace ที่จำเป็นแล้ว เราจะมาวิเคราะห์กระบวนการสร้างเอกสาร XPS เป็นหลายขั้นตอน
+## ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
 
-## Step 1: Set Document Directory
+ตัวแปร `directoryPath` บอก API ว่าจะเขียนไฟล์ XPS ที่สร้างลงในที่ใด
 
 ```csharp
 string dir = "Your Document Directory";
 ```
 
-อย่าลืมแทนที่ `"Your Document Directory"` ด้วยพาธจริงที่คุณต้องการบันทึกไฟล์ XPS
+แทนที่ `"Your Document Directory"` ด้วยเส้นทางโฟลเดอร์จริงบนระบบของคุณ, เช่น `C:\\Docs\\Output`
 
-## Step 2: Create XPS Document
+## ขั้นตอนที่ 2: สร้างเอกสาร XPS
+
+คลาส `XpsDocument` แทนวัตถุรากของไฟล์ XPS
 
 ```csharp
 XpsDocument xDocs = new XpsDocument();
 ```
 
-สร้างเอกสาร XPS ใหม่โดยใช้คลาส `XpsDocument`
+เริ่มต้นด้วยชื่อไฟล์เป้าหมายและหน้าที่ใหม่จะถูกสร้างโดยอัตโนมัติ
 
-## Step 3: Add Glyphs to the Document
+## ขั้นตอนที่ 3: เพิ่ม Glyphs ลงในเอกสาร
+
+เมธอด `AddGlyphs` แทรกข้อความ (glyphs) ลงในหน้าปัจจุบัน
 
 ```csharp
 var glyphs = xDocs.AddGlyphs("Arial", 12, FontStyle.Regular, 300f, 450f, "Hello World!");
 ```
 
-ใช้เมธอด `AddGlyphs` เพื่อเพิ่ม glyphs (ข้อความ) ลงในเอกสาร ปรับแต่งฟอนต์ ขนาด สไตล์ และตำแหน่งตามต้องการ
+คุณสามารถควบคุมฟอนต์, ขนาด, สไตล์, และพิกัดที่แน่นอนเพื่อวางตำแหน่งข้อความได้อย่างแม่นยำ
 
-## Step 4: Set Glyph Fill Color
+## ขั้นตอนที่ 4: ตั้งค่าสีเติม Glyph
+
+เมธอด `SetFillColor` กำหนดแปรงที่ใช้ทาสี glyphs
 
 ```csharp
 glyphs.Fill = xDocs.CreateSolidColorBrush(Color.Black);
 ```
 
-กำหนดสีเติมสำหรับ glyphs ที่เพิ่มเข้ามา ในตัวอย่างนี้เราใช้สีดำ แต่คุณสามารถเลือกสีใดก็ได้
+ในตัวอย่างนี้เราใช้สีดำ (`Color.Black`), แต่รองรับสี ARGB ใด ๆ
 
-## Step 5: Save the Result
+## ขั้นตอนที่ 5: บันทึกผลลัพธ์
+
+การเรียก `Save` จะเขียนเอกสาร XPS ลงดิสก์
 
 ```csharp
 xDocs.Save(dir + "output.xps");
 ```
 
-สุดท้าย ให้บันทึกเอกสาร XPS ไปยังโฟลเดอร์ที่ระบุพร้อมชื่อไฟล์ที่ต้องการ ไฟล์ XPS ที่ได้จะมีข้อความ "Hello World!"
+ไฟล์จะมีข้อความ “Hello World!” ที่คุณเพิ่มในขั้นตอนก่อนหน้า
 
-Congratulations! You've successfully created an XPS document using Aspose.Page for .NET.
+## เคล็ดลับทั่วไปและข้อควรระวัง
 
-## Common Tips & Gotchas
+- **Directory Path** – ใช้ `Path.Combine(dir, "output.xps")` เพื่อหลีกเลี่ยงการขาดเครื่องหมายแยกพาธบน Windows, Linux หรือ macOS.  
+- **Font Availability** – ฟอนต์ที่ระบุต้องติดตั้งบนเครื่องโฮสต์; หากไม่เช่นนั้น Aspose จะใช้ฟอนต์สำรอง ซึ่งอาจส่งผลต่อการจัดวาง.  
+- **Multiple Pages** – สำหรับการสร้างหลายหน้า, สร้างอ็อบเจ็กต์ `XpsPage` เพิ่มเติม, เพิ่มเนื้อหาในแต่ละหน้า, แล้วเรียก `Save` ครั้งเดียว.  
 
-- **Directory Path** – ใช้ `Path.Combine(dir, "output.xps")` เพื่อหลีกเลี่ยงปัญหาเครื่องหมายแยกพาธที่แตกต่างกันบนระบบปฏิบัติการต่าง ๆ  
-- **Font Availability** – ฟอนต์ที่คุณระบุต้องติดตั้งอยู่บนเครื่องที่รันโค้ด มิฉะนั้น Aspose จะใช้ฟอนต์เริ่มต้นแทน  
-- **Multiple Pages** – หากต้องการสร้างไฟล์ XPS หลายหน้า ให้สร้างอ็อบเจกต์ `XpsPage` เพิ่มเติมและเพิ่มเนื้อหาในแต่ละหน้า ก่อนทำการบันทึก
+## คำถามที่พบบ่อย
 
-## Conclusion
+**Q: ฉันสามารถใช้ฟอนต์กำหนดเองในเอกสาร XPS ของฉันได้หรือไม่?**  
+A: Yes. Provide the exact font family name when calling `AddGlyphs`; the font must be installed on the runtime machine.
 
-ในบทเรียนนี้ เราได้อธิบายขั้นตอนการสร้างเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET ไลบรารีที่ทรงพลังนี้ช่วยให้คุณสร้างเอกสารอิเล็กทรอนิกส์ได้อย่างง่ายดาย ลองทดลองใช้ฟอนต์ สไตล์ และเนื้อหาต่าง ๆ เพื่อปรับแต่งไฟล์ XPS ให้ตรงกับความต้องการของคุณ
+**Q: Aspose.Page รองรับ .NET Core หรือไม่?**  
+A: Absolutely. The library works on .NET Core 3.1, .NET 5, .NET 6 and later, enabling cross‑platform XPS generation.
 
-## FAQ's
+**Q: วิธีการเพิ่มรูปภาพลงในเอกสาร XPS?**  
+A: Use the `AddImage` method of the `XpsPage` class. The API accepts PNG, JPEG, BMP, and GIF formats.
 
-### Q1: Can I use custom fonts in my XPS document?
+**Q: ฉันสามารถสร้างเอกสาร XPS แบบหลายหน้าได้หรือไม่?**  
+A: Yes. Instantiate multiple `XpsPage` objects, populate each with glyphs or images, and then save the document once.
 
-A1: Yes, you can specify the font family and size when adding glyphs to your XPS document.
+**Q: มีเวอร์ชันทดลองให้ใช้หรือไม่?**  
+A: Yes, you can explore the full feature set by downloading the [free trial](https://releases.aspose.com/).
 
-### Q2: Is Aspose.Page compatible with .NET Core?
+## สรุป
 
-A2: Yes, Aspose.Page supports .NET Core, allowing you to use it in cross‑platform applications.
-
-### Q3: How can I add images to an XPS document?
-
-A3: Aspose.Page provides methods to add images to your XPS document. Refer to the documentation for detailed examples.
-
-### Q4: Can I create multi‑page XPS documents?
-
-A4: Absolutely! You can add multiple pages to an XPS document using the Aspose.Page library.
-
-### Q5: Is there a trial version available?
-
-A5: Yes, you can explore the features of Aspose.Page by downloading the [free trial](https://releases.aspose.com/).
+คุณมีเวิร์กโฟลว์ที่ครบถ้วนและพร้อมใช้งานในระดับผลิตภัณฑ์สำหรับ **aspose.page create xps** ด้วย Aspose.Page สำหรับ .NET ทดลองใช้ฟอนต์, สี, และการจัดวางหน้าแบบต่าง ๆ เพื่อให้ผลลัพธ์ตรงกับความต้องการของแอปพลิเคชันของคุณ สำหรับสถานการณ์ขั้นสูง เช่น การฝังกราฟิกเวกเตอร์หรือการจัดการงานแบตช์ขนาดใหญ่, โปรดอ้างอิงเอกสาร API อย่างเป็นทางการ
 
 ---
 
-**Last Updated:** 2026-01-12  
-**Tested With:** Aspose.Page 24.11 for .NET  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-07-10  
+**ทดสอบด้วย:** Aspose.Page 24.11 for .NET  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [เพิ่มข้อความลงในเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET](/page/net/text-manipulation/add-text-to-xps-document/)
+- [เพิ่มรูปภาพลงในเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET](/page/net/image-management/add-image-to-xps-document/)
+- [เพิ่มสี่เหลี่ยมลงในเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

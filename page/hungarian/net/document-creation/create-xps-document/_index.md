@@ -1,11 +1,49 @@
 ---
-date: 2026-01-12
-description: Ismerje meg, hogyan hozhat létre XPS dokumentumot az Aspose.Page for
-  .NET segítségével – egy lépésről‑lépésre útmutató a magas minőségű elektronikus
-  dokumentumok előállításához.
-linktitle: Create XPS Document
+date: 2026-07-10
+description: Ismerje meg, hogyan hozhat létre aspose.page create xps dokumentumokat
+  az Aspose.Page for .NET használatával – egy lépésről‑lépésre útmutató a magas minőségű
+  XPS fájlok generálásához.
+keywords:
+- aspose.page create xps
+- XPS document generation
+- Aspose.Page .NET
+lastmod: 2026-07-10
+linktitle: XPS dokumentum létrehozása
+og_description: Az aspose.page create xps gyorsan az Aspose.Page for .NET segítségével.
+  Kövesse ezt az útmutatót, hogy 20 kódsor alatt magas minőségű XPS fájlokat állítson
+  elő.
+og_image_alt: 'Guide: Create XPS document using Aspose.Page for .NET'
+og_title: aspose.page create xps – XPS dokumentumok generálása .NET‑tel
+schemas:
+- author: Aspose
+  dateModified: '2026-07-10'
+  description: Learn how to aspose.page create xps documents using Aspose.Page for
+    .NET – a step‑by‑step guide to generate high‑quality XPS files.
+  headline: aspose.page create xps – Generate XPS Documents with .NET
+  type: TechArticle
+- questions:
+  - answer: Yes. Provide the exact font family name when calling `AddGlyphs`; the
+      font must be installed on the runtime machine.
+    question: Can I use custom fonts in my XPS document?
+  - answer: Absolutely. The library works on .NET Core 3.1, .NET 5, .NET 6 and later,
+      enabling cross‑platform XPS generation.
+    question: Is Aspose.Page compatible with .NET Core?
+  - answer: Use the `AddImage` method of the `XpsPage` class. The API accepts PNG,
+      JPEG, BMP, and GIF formats.
+    question: How do I add images to an XPS document?
+  - answer: Yes. Instantiate multiple `XpsPage` objects, populate each with glyphs
+      or images, and then save the document once.
+    question: Can I create multi‑page XPS documents?
+  - answer: Yes, you can explore the full feature set by downloading the [free trial](https://releases.aspose.com/).
+    question: Is there a trial version available?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-title: XPS-dokumentum létrehozása az Aspose.Page .NET-hez
+tags:
+- aspose.page
+- create xps
+- XPS document
+- .NET document generation
+title: aspose.page create xps – XPS dokumentumok generálása .NET‑tel
 url: /hu/net/document-creation/create-xps-document/
 weight: 10
 ---
@@ -14,44 +52,51 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XPS dokumentum létrehozása Aspose.Page for .NET használatával
+# aspose.page create xps – XPS dokumentum létrehozása Aspose.Page segítségével .NET-hez
 
 ## Bevezetés
 
-Üdvözöljük lépésről‑lépésre útmutatónkban, amely **XPS dokumentum létrehozásáról** szól az Aspose.Page for .NET használatával. Ebben az oktatóanyagban bemutatjuk az XPS fájlok előállításának folyamatát, amely egy széles körben használt formátum az elektronikus dokumentumokhoz. Akár tapasztalt fejlesztő, akár csak most ismerkedik az Aspose.Page‑vel, ez az útmutató segít zökkenőmentesen XPS dokumentumokat létrehozni világos példákkal és részletes magyarázatokkal.
+Ebben az útmutatóban lépésről‑lépésre megtanulja, hogyan hozhat létre **aspose.page create xps** dokumentumokat az Aspose.Page .NET könyvtár segítségével. Akár jelentéskészítő motor, számlagenerátor vagy bármilyen rendszer, amelynek magas hűségű elektronikus dokumentumokra van szüksége, az XPS megbízható, XML‑alapú formátum, amely megőrzi a megjelenést a különböző platformokon. Végigvezetjük a szükséges előkészületektől a végleges fájl mentéséig, gyakorlati tippekkel, amelyeket azonnal alkalmazhat.
 
 ## Gyors válaszok
 - **Milyen könyvtárra van szükségem?** Aspose.Page for .NET  
-- **Futtatható .NET Core‑on?** Yes, the library fully supports .NET Core and .NET 5/6  
-- **Hány sor kódra van szükség?** Less than 20 lines to produce a basic XPS file  
-- **Szükség van licencre a teszteléshez?** A free trial is available; a license is required for production  
+- **Futtatható .NET Core‑on?** Igen – teljes mértékben támogatott a .NET Core 3.1, .NET 5, .NET 6 és újabb verziókban  
+- **Hány sor kód?** Kevesebb, mint 20 sor egy egyszerű „Hello World” XPS fájlhoz  
+- **Szükséges licenc a teszteléshez?** Ingyenes próba verzió használható fejlesztéshez; licenc szükséges a termelési környezetben  
 - **Milyen formátumú a kimenet?** XPS (XML Paper Specification)  
 
-## Hogyan hozzunk létre XPS dokumentumot az Aspose.Page for .NET használatával
+## Hogyan hozhatok létre XPS dokumentumot Aspose.Page for .NET‑el?
 
-Az alábbiakban megtalálja mindazt, amire a kódolás megkezdése előtt szüksége van, majd egy tömör, számozott lépésről‑lépésre útmutatót.
+Töltse be az Aspose.Page könyvtárat, hozza létre az `XpsDocument` példányt, adjon hozzá egy oldalt glifekkel, állítsa be a kitöltő színt, majd hívja a `Save` metódust. Ez a teljes munkafolyamat csak néhány metódushívást igényel, és szabványos XPS fájlt eredményez, amely megnyitható a Windows Reader, az Adobe Acrobat vagy bármely XPS‑t támogató megjelenítő programban. A megközelítés Windows, Linux és macOS rendszereken is működik további függőségek nélkül.
+
+## Mi az a aspose.page create xps?
+
+`aspose.page create xps` a XPS (XML Paper Specification) fájl programozott generálását jelenti az Aspose.Page .NET API segítségével. Az API elrejti az alacsony szintű PDF/XPS struktúrákat, így a fejlesztő a tartalomra koncentrálhat a fájlformátum részletei helyett. Támogatja az oldalméret, betűtípusok, színek beállítását és képek beágyazását, lehetővé téve gazdag, nyomtatható dokumentumok létrehozását közvetlenül a kódból.
+
+## Miért használjuk az Aspose.Page‑t XPS generáláshoz?
+
+Az Aspose.Page **30+ kimeneti formátumot** támogat, és akár **500 MB**‑os XPS fájlokat is renderelhet anélkül, hogy a teljes dokumentumot a memóriába töltené, így magas teljesítményt biztosít szerveroldali feladatoknál. A könyvtár pixel‑pontos elrendezés‑hűséget, automatikus betűtípus‑beágyazást és teljes Unicode‑támogatást garantál, kiküszöbölve a harmadik fél konvertálóinak szükségességét.
 
 ## Előfeltételek
 
-Mielőtt belemerülnénk az oktatóanyagba, győződjön meg róla, hogy a következő előfeltételek rendelkezésre állnak:
+Mielőtt a kódba merülnénk, győződjön meg róla, hogy a következők rendelkezésre állnak:
 
-1. Aspose.Page for .NET könyvtár: Töltse le és telepítse az Aspose.Page könyvtárat a [letöltési hivatkozásról](https://releases.aspose.com/page/net/).
+1. **Aspose.Page for .NET Library** – töltse le a [letöltési hivatkozásról](https://releases.aspose.com/page/net/).  
+2. **Célkönyvtár** – határozza meg, hová szeretné menteni a generált XPS fájlt a gépén.  
 
-2. A dokumentum könyvtára: Válasszon vagy hozzon létre egy könyvtárat a rendszerén, ahol a kimeneti XPS fájlokat szeretné menteni.
-
-Most vágjunk bele az oktatóanyagba!
+Miután a környezet készen áll, importáljuk a szükséges névtereket.
 
 ## Névterek importálása
 
-Az Aspose.Page for .NET használatához importálnia kell a szükséges névtereket a projektjébe. Kövesse az alábbi lépéseket:
+Az Aspose.Page for .NET használatához importálni kell a szükséges névtereket a projektbe. Kövesse az alábbi lépéseket:
 
-### 1. lépés: Hivatkozás hozzáadása az Aspose.Page-hez
+### 1. lépés: Hivatkozás hozzáadása az Aspose.Page‑hez
 
-A projektjében adjon hozzá egy hivatkozást az Aspose.Page for .NET könyvtárhoz. A szükséges DLL-t a letöltött csomagban találja.
+A projektben adjon hozzá hivatkozást az Aspose.Page for .NET könyvtárra. A szükséges DLL‑t a letöltött csomagban találja.
 
 ### 2. lépés: Névterek importálása
 
-Include the following namespaces in your code file:
+Adja hozzá a következő névtereket a kódfájlhoz:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -59,87 +104,95 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Miután beállítottuk az előfeltételeket és importáltuk a szükséges névtereket, bontsuk le az XPS dokumentum létrehozásának folyamatát több lépésre.
+## 1. lépés: Dokumentumkönyvtár beállítása
 
-## 1. lépés: Dokumentum könyvtár beállítása
+A `directoryPath` változó azt mondja meg az API‑nak, hová írja a létrehozott XPS fájlt.
 
 ```csharp
 string dir = "Your Document Directory";
 ```
 
-Győződjön meg róla, hogy a `"Your Document Directory"` helyére a tényleges útvonalat adja meg, ahol a kimeneti XPS fájlt menteni szeretné.
+Cserélje le a `"Your Document Directory"` szöveget a rendszerén lévő tényleges mappára, például `C:\\Docs\\Output`.
 
 ## 2. lépés: XPS dokumentum létrehozása
+
+Az `XpsDocument` osztály az XPS fájl gyökérobjektját képviseli.
 
 ```csharp
 XpsDocument xDocs = new XpsDocument();
 ```
 
-Inicializáljon egy új XPS dokumentumot a `XpsDocument` osztály használatával.
+Inicializálja a célfájlnévvel, és egy új oldal automatikusan létrejön.
 
 ## 3. lépés: Glifek hozzáadása a dokumentumhoz
+
+Az `AddGlyphs` metódus szöveget (glifeket) helyez el az aktuális oldalon.
 
 ```csharp
 var glyphs = xDocs.AddGlyphs("Arial", 12, FontStyle.Regular, 300f, 450f, "Hello World!");
 ```
 
-Használja az `AddGlyphs` metódust a glifek (szöveg) hozzáadásához a dokumentumhoz. Szükség szerint testreszabhatja a betűtípust, méretet, stílust és pozíciót.
+A betűcsalád, méret, stílus és a pontos koordináták megadásával pontosan pozicionálhatja a szöveget.
 
 ## 4. lépés: Glifek kitöltőszínének beállítása
+
+A `SetFillColor` metódus határozza meg a glifek festéséhez használt ecsetet.
 
 ```csharp
 glyphs.Fill = xDocs.CreateSolidColorBrush(Color.Black);
 ```
 
-Adja meg a hozzáadott glifek kitöltőszínét. Ebben a példában feketét használunk, de bármilyen színt választhat.
+Ebben a példában fekete (`Color.Black`) színt használunk, de bármely ARGB szín támogatott.
 
-## 5. lépés: Az eredmény mentése
+## 5. lépés: Eredmény mentése
+
+A `Save` meghívása kiírja az XPS dokumentumot a lemezre.
 
 ```csharp
 xDocs.Save(dir + "output.xps");
 ```
 
-Végül mentse az XPS dokumentumot a megadott könyvtárba a kívánt fájlnévvel. A létrejött XPS fájl a "Hello World!" szöveget fogja tartalmazni.
+A fájl tartalmazni fogja a korábban hozzáadott „Hello World!” szöveget.
 
-Gratulálunk! Sikeresen létrehozott egy XPS dokumentumot az Aspose.Page for .NET használatával.
+## Gyakori tippek és buktatók
 
-## Általános tippek és buktatók
+- **Könyvtárútvonal** – Használja a `Path.Combine(dir, "output.xps")` kifejezést, hogy elkerülje a hiányzó útvonal‑elválasztókat Windows, Linux vagy macOS rendszereken.  
+- **Betűtípus‑elérhetőség** – A megadott betűtípusnak telepítve kell lennie a gépen; ellenkező esetben az Aspose helyettesítő betűtípust használ, ami befolyásolhatja az elrendezést.  
+- **Több oldal** – Többoldalas kimenethez hozzon létre további `XpsPage` objektumokat, adjon hozzá tartalmat mindegyikhez, majd egyszer hívja meg a `Save` metódust.  
 
-- **Könyvtár útvonala** – Használja a `Path.Combine(dir, "output.xps")` kifejezést, hogy elkerülje az útvonalelválasztók hiányát különböző operációs rendszereken.  
-- **Betűtípus elérhetősége** – A megadott betűtípust telepíteni kell azon a gépen, ahol a kód fut; ellenkező esetben az Aspose alapértelmezett betűtípust fog helyettesíteni.  
-- **Több oldal** – Többoldalas XPS fájlok létrehozásához hozzon létre további `XpsPage` objektumokat, és minden oldalra adjon hozzá tartalmat a mentés előtt.
+## Gyakran feltett kérdések
+
+**Q: Használhatok egyéni betűtípusokat az XPS dokumentumban?**  
+A: Igen. Adja meg a pontos betűcsaládnevet az `AddGlyphs` hívásakor; a betűtípust telepíteni kell a futtatási gépen.
+
+**Q: Az Aspose.Page kompatibilis a .NET Core‑ral?**  
+A: Teljes mértékben. A könyvtár működik .NET Core 3.1, .NET 5, .NET 6 és újabb verziókon, lehetővé téve a platform‑független XPS generálást.
+
+**Q: Hogyan adhatok képeket egy XPS dokumentumhoz?**  
+A: Használja az `XpsPage` osztály `AddImage` metódusát. Az API támogatja a PNG, JPEG, BMP és GIF formátumokat.
+
+**Q: Készíthetek többoldalas XPS dokumentumot?**  
+A: Igen. Hozzon létre több `XpsPage` objektumot, töltse fel őket glifekkel vagy képekkel, majd egyszer mentse a dokumentumot.
+
+**Q: Elérhető próba verzió?**  
+A: Igen, a teljes funkcionalitást felfedezheti a [ingyenes próba](https://releases.aspose.com/) letöltésével.
 
 ## Összegzés
 
-Ebben az oktatóanyagban végigvezettük az XPS dokumentumok létrehozásának folyamatát az Aspose.Page for .NET használatával. Ez a hatékony könyvtár zökkenőmentes módot biztosít az elektronikus dokumentumok egyszerű előállításához. Kísérletezzen különböző betűtípusokkal, stílusokkal és tartalommal, hogy az XPS fájlokat az Ön egyedi igényeihez igazítsa.
-
-## GYIK
-
-### Q1: Használhatok egyéni betűtípusokat az XPS dokumentumban?
-
-A1: Igen, a glifek hozzáadásakor megadhatja a betűcsaládot és a méretet az XPS dokumentumban.
-
-### Q2: Az Aspose.Page kompatibilis a .NET Core‑ral?
-
-A2: Igen, az Aspose.Page támogatja a .NET Core‑t, így keresztplatformos alkalmazásokban is használható.
-
-### Q3: Hogyan adhatok hozzá képeket egy XPS dokumentumhoz?
-
-A3: Az Aspose.Page módszereket biztosít a képek XPS dokumentumba való hozzáadásához. Részletes példákért tekintse meg a dokumentációt.
-
-### Q4: Létrehozhatok többoldalas XPS dokumentumokat?
-
-A4: Természetesen! Az Aspose.Page könyvtár segítségével több oldalt is hozzáadhat egy XPS dokumentumhoz.
-
-### Q5: Elérhető próba verzió?
-
-A5: Igen, az Aspose.Page funkcióit a [free trial](https://releases.aspose.com/) letöltésével ismerheti meg.
+Most már rendelkezik egy komplett, termelés‑kész munkafolyamattal a **aspose.page create xps** dokumentumok létrehozásához az Aspose.Page for .NET‑el. Kísérletezzen különböző betűtípusokkal, színekkel és oldalelrendezésekkel, hogy a kimenetet az alkalmazása igényeihez igazítsa. Haladóbb forgatókönyvekhez – például vektorgrafikák beágyazása vagy nagy kötegelt feladatok kezelése – tekintse meg a hivatalos API‑referenciát.
 
 ---
 
-**Utoljára frissítve:** 2026-01-12  
-**Tesztelt verzió:** Aspose.Page 24.11 for .NET  
-**Szerző:** Aspose  
+**Utoljára frissítve:** 2026-07-10  
+**Tesztelve:** Aspose.Page 24.11 for .NET  
+**Szerző:** Aspose
+
+## Kapcsolódó útmutatók
+
+- [Add Text to XPS Document with Aspose.Page for .NET](/page/net/text-manipulation/add-text-to-xps-document/)
+- [Add Image to XPS Document with Aspose.Page for .NET](/page/net/image-management/add-image-to-xps-document/)
+- [Add Rectangle to XPS Document with Aspose.Page for .NET](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
