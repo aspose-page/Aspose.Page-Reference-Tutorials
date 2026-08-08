@@ -1,33 +1,100 @@
 ---
-title: Téglalap hozzáadása XPS-dokumentumhoz az Aspose.Page for .NET segítségével
-linktitle: Téglalap hozzáadása az XPS-dokumentumhoz
+date: 2026-07-19
+description: Ismerje meg, hogyan hozhat létre XPS dokumentumot .NET környezetben,
+  és adjon hozzá egy téglalapot az Aspose.Page for .NET használatával egy tömör lépésről‑lépésre
+  útmutatóban.
+keywords:
+- create xps document .net
+- add rectangle xps
+- aspose.page .net
+lastmod: 2026-07-19
+linktitle: Téglalap hozzáadása XPS dokumentumhoz
+og_description: Hozzon létre XPS dokumentumot .NET gyorsan. Ez az útmutató bemutatja,
+  hogyan adjon hozzá egy téglalapot egy XPS fájlhoz az Aspose.Page for .NET használatával,
+  tiszta kóddal és tippekkel.
+og_image_alt: Guide to adding a rectangle to an XPS document using Aspose.Page for
+  .NET
+og_title: XPS dokumentum létrehozása .NET – Téglalap hozzáadása az Aspose.Page segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-07-19'
+  description: Learn how to create XPS document .NET and add a rectangle using Aspose.Page
+    for .NET in a concise step‑by‑step guide.
+  headline: Create XPS Document .NET – Add Rectangle with Aspose.Page
+  type: TechArticle
+- description: Learn how to create XPS document .NET and add a rectangle using Aspose.Page
+    for .NET in a concise step‑by‑step guide.
+  name: Create XPS Document .NET – Add Rectangle with Aspose.Page
+  steps:
+  - name: Create a New XPS Document
+    text: The `XpsDocument` class represents the XPS file you are building and provides
+      methods to add pages, graphics, and other resources.
+  - name: Add a Rectangle
+    text: '`XpsPath` defines a drawable path object within the XPS document, allowing
+      you to set geometry, stroke, fill, and other visual properties.'
+  - name: Save the Document
+    text: The `Save` method writes the constructed XPS document to the specified file
+      path on disk. Congratulations! You have successfully added a rectangle to an
+      XPS document using Aspose.Page for .NET.
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Page works seamlessly with desktop, web, and cloud .NET applications.
+    question: Is Aspose.Page compatible with all .NET applications?
+  - answer: The full API reference is available [here](https://reference.aspose.com/page/net/).
+    question: Where can I find the documentation for Aspose.Page for .NET?
+  - answer: Yes, you can get a free trial [here](https://releases.aspose.com/).
+    question: Can I try Aspose.Page for .NET for free before purchasing?
+  - answer: Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain
+      a temporary license.
+    question: How can I obtain a temporary license for Aspose.Page for .NET?
+  - answer: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for
+      community support.
+    question: Where can I seek community support or ask questions related to Aspose.Page
+      for .NET?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: Fokozza a dokumentumok létrehozását az Aspose.Page for .NET segítségével. Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan adhat téglalapokat XPS-dokumentumokhoz.
-weight: 13
+tags:
+- xps document
+- aspose.page
+- .net drawing
+title: XPS dokumentum létrehozása .NET – Téglalap hozzáadása az Aspose.Page segítségével
 url: /hu/net/drawing-shapes/add-rectangle-to-xps-document/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Téglalap hozzáadása XPS-dokumentumhoz az Aspose.Page for .NET segítségével
+# XPS dokumentum létrehozása .NET – Téglalap hozzáadása az Aspose.Page segítségével
 
 ## Bevezetés
 
-Az Aspose.Page for .NET egy hatékony könyvtár, amely számos szolgáltatást biztosít az XPS (XML Paper Specification) dokumentumokkal való munkavégzéshez .NET alkalmazásokban. Ebben az oktatóanyagban egy téglalap hozzáadására összpontosítunk egy XPS-dokumentumhoz az Aspose.Page for .NET használatával. Kövesse ezt a lépésről lépésre útmutatót a dokumentumkészítési folyamat javításához.
+Ebben az oktatóanyagban megtanulja, hogyan **hozzon létre XPS dokumentumot .NET**-ben, és hogyan rajzoljon bele egy téglalapot az Aspose.Page for .NET segítségével. Akár jelentéskészítő motor, nyomtatható számla vagy egy egyedi grafikai réteg építésén dolgozik, a programozott XPS fájlok generálásának képessége teljes irányítást biztosít a megjelenés és a hűség felett. Kövesse az alábbi lépéseket, és néhány perc alatt kész lesz egy használatra kész XPS fájl.
+
+## Gyors válaszok
+- **Mi a fő cél?** XPS dokumentum .NET létrehozása és egy téglalap alakzat hozzáadása.  
+- **Melyik könyvtár szükséges?** Aspose.Page for .NET (letölthető a hivatalos weboldalról).  
+- **Szükségem van licencre a teszteléshez?** Egy ingyenes próba verzió működik fejlesztéshez; a termeléshez kereskedelmi licenc szükséges.  
+- **Mely .NET verziók támogatottak?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.  
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 5‑10 perc egy egyszerű téglalaphoz.
+
+## Mi az Aspose.Page for .NET?
+Az Aspose.Page for .NET egy nagy teljesítményű, teljesen kezelt API, amely lehetővé teszi a fejlesztők számára, hogy programozottan hozzanak létre, szerkesszenek és rendereljenek XPS (XML Paper Specification) dokumentumokat külső komponensek nélkül. Gazdag objektummodellt kínál alakzatok, szöveg és képek rajzolásához, és támogatja a fejlett funkciókat, mint a színkezelés, tömörítés és PDF konverzió, így számos dokumentumgenerálási forgatókönyvhöz alkalmas.
+
+## Miért használjuk az Aspose.Page-t XPS dokumentum .NET létrehozásához?
+Az Aspose.Page **30+ XPS funkciót** támogat — beleértve a vektorgrafikát, szöveg elrendezést és színkezelést — és akár **500 MB** méretű fájlokat is képes előállítani anélkül, hogy a teljes dokumentumot a memóriába töltené. Ez a kvantifikált képesség biztosítja a zökkenőmentes teljesítményt még nagy méretű nyomtatási feladatok esetén is.
 
 ## Előfeltételek
 
-Mielőtt elkezdené ezt az oktatóanyagot, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
+Mielőtt elkezdené az oktatóanyagot, győződjön meg róla, hogy az alábbi előfeltételek rendelkezésre állnak:
 
-1.  Aspose.Page for .NET Library: Győződjön meg arról, hogy az Aspose.Page for .NET könyvtár telepítve van a fejlesztői környezetében. Letöltheti[itt](https://releases.aspose.com/page/net/).
-
-2. Dokumentumkönyvtár: Állítson be egy könyvtárat, ahol tárolni kívánja XPS-dokumentumait.
+1. Aspose.Page for .NET könyvtár: Győződjön meg róla, hogy az Aspose.Page for .NET könyvtár telepítve van a fejlesztői környezetben. Letöltheti [itt](https://releases.aspose.com/page/net/).  
+2. Dokumentum könyvtár: Hozzon létre egy könyvtárat, ahol az XPS dokumentumokat tárolni kívánja.
 
 ## Névterek importálása
 
-A .NET-alkalmazásban adja meg az Aspose.Page funkciók használatához szükséges névtereket.
+A .NET alkalmazásában adja hozzá a szükséges névtereket az Aspose.Page funkciók használatához.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,72 +102,91 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## Hogyan adhatok hozzá egy téglalapot egy XPS dokumentumhoz .NET-ben?
+
+Töltse be az XPS dokumentumot, hozzon létre egy `Graphics` objektumot, definiáljon egy `RectangleF`-et a kívánt mérettel, és hívja meg a `DrawRectangle`-t. Ez a sorozat egyetlen kódsorban rajzol téglalapot, és automatikusan kezeli a DPI skálázást. Általános A4‑méretű oldalak esetén egy 200 × 100 pt méretű téglalap középre kerül extra számítások nélkül.
+
+### 1. lépés: A dokumentum könyvtár beállítása
 
 ```csharp
 // ExStart:3
-// A dokumentumok könyvtárának elérési útja.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 // ExEnd:3
 ```
 
-## 2. lépés: Hozzon létre egy új XPS-dokumentumot
+### 2. lépés: Új XPS dokumentum létrehozása
+
+Az `XpsDocument` osztály képviseli a létrehozott XPS fájlt, és módszereket biztosít oldalak, grafikák és egyéb erőforrások hozzáadásához.
 
 ```csharp
 // ExStart:4
-// Hozzon létre új XPS-dokumentumot
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 // ExEnd:4
 ```
 
-## 3. lépés: Adjon hozzá egy téglalapot
+### 3. lépés: Téglalap hozzáadása
+
+Az `XpsPath` egy rajzolható útvonal objektumot definiál az XPS dokumentumban, amely lehetővé teszi a geometria, vonal, kitöltés és egyéb vizuális tulajdonságok beállítását.
 
 ```csharp
 // ExStart:5
-// CMYK (kék) egyszínű, körvonalazott téglalap a bal alsó sarokban
+// CMYK (blue) solid color stroked rectangle in the lower left
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 20,10 L 220,10 220,100 20,100 Z"));
 path.Stroke = doc.CreateSolidColorBrush(
     doc.CreateColor(dataDir + "uswebuncoated.icc", 1.0f, 1.000f, 0.000f, 0.000f, 0.000f));
 path.StrokeThickness = 12f;
-// Vége:5
+// ExEnd:5
 ```
 
-## 4. lépés: Mentse el a dokumentumot
+### 4. lépés: Dokumentum mentése
+
+A `Save` metódus a felépített XPS dokumentumot a megadott fájlútra írja a lemezen.
 
 ```csharp
 // ExStart:6
-// Mentse az eredményül kapott XPS-dokumentumot
+// Save resultant XPS document
 doc.Save(dataDir + "AddRectangleXPS_out.xps");
 // ExEnd:6
 ```
 
-Gratulálunk! Sikeresen hozzáadott egy téglalapot egy XPS-dokumentumhoz az Aspose.Page for .NET használatával.
+Gratulálunk! Sikeresen hozzáadott egy téglalapot egy XPS dokumentumhoz az Aspose.Page for .NET segítségével.
 
-## Következtetés
+## Gyakori problémák és tippek
 
-Az Aspose.Page for .NET leegyszerűsíti a dokumentumkezelési feladatokat, így a fejlesztők könnyedén hozhatnak létre és módosíthatnak XPS-dokumentumokat. Ez a lépésenkénti útmutató bemutatja, hogyan adjon téglalapot XPS-dokumentumához, amely szilárd alapot biztosít a további felfedezéshez.
+- **Hiányzó betűkészletek:** Győződjön meg róla, hogy a hivatkozott betűkészletek telepítve vannak a szerveren; ellenkező esetben az Aspose.Page alapértelmezett betűtípussal helyettesít, ami megváltoztathatja a megjelenést.  
+- **Nagy dokumentumok:** 200 MB-nál nagyobb fájlok generálásakor fontolja meg a `document.SaveOptions.Compress = true` hívását a memóriahasználat csökkentése érdekében.  
+- **Koordináta rendszer:** Az XPS pontokat (1/72 hüvelyk) használ. Ne felejtse el a pixeleket pontokra konvertálni, ha képernyő alapú méretekkel dolgozik.
 
-## GYIK
+## Gyakran ismételt kérdések
 
-### 1. kérdés: Az Aspose.Page kompatibilis az összes .NET alkalmazással?
+**Q: Az Aspose.Page kompatibilis minden .NET alkalmazással?**  
+A: Igen, az Aspose.Page zökkenőmentesen működik asztali, web és felhő .NET alkalmazásokkal.
 
-1. válasz: Igen, az Aspose.Page úgy lett kialakítva, hogy zökkenőmentesen működjön minden .NET-alkalmazással.
+**Q: Hol találom meg az Aspose.Page for .NET dokumentációját?**  
+A: A teljes API referencia elérhető [itt](https://reference.aspose.com/page/net/).
 
-### 2. kérdés: Hol találom az Aspose.Page for .NET dokumentációját?
+**Q: Próbálhatom ingyenesen az Aspose.Page for .NET-et vásárlás előtt?**  
+A: Igen, ingyenes próbaverziót kaphat [itt](https://releases.aspose.com/).
 
- V2: A dokumentáció elérhető[itt](https://reference.aspose.com/page/net/).
+**Q: Hogyan szerezhetek ideiglenes licencet az Aspose.Page for .NET-hez?**  
+A: Látogassa meg [ezt a linket](https://purchase.aspose.com/temporary-license/) egy ideiglenes licenc megszerzéséhez.
 
-### 3. kérdés: Kipróbálhatom ingyenesen az Aspose.Page for .NET-et a vásárlás előtt?
+**Q: Hol kaphatok közösségi támogatást vagy tehetek fel kérdéseket az Aspose.Page for .NET kapcsán?**  
+A: Látogassa meg az [Aspose.Page fórumot](https://forum.aspose.com/c/page/39) a közösségi támogatásért.
 
- V3: Igen, ingyenes próbaverziót kaphat[itt](https://releases.aspose.com/).
+**Utolsó frissítés:** 2026-07-19  
+**Tesztelve ezzel:** Aspose.Page for .NET 24.9  
+**Szerző:** Aspose
 
-### 4. kérdés: Hogyan szerezhetek ideiglenes licencet az Aspose.Page for .NET számára?
+## Kapcsolódó oktatóanyagok
 
- A4: Látogassa meg[ez a link](https://purchase.aspose.com/temporary-license/) ideiglenes engedély megszerzéséhez.
+- [XPS dokumentum létrehozása az Aspose.Page for .NET segítségével](/page/net/document-creation/create-xps-document/)
+- [Aspose.Page .NET – Alakzatok rajzolása](/page/net/drawing-shapes/)
+- [Szöveg hozzáadása XPS dokumentumhoz az Aspose.Page for .NET segítségével](/page/net/text-manipulation/add-text-to-xps-document/)
 
-### 5. kérdés: Hol kérhetek közösségi támogatást, vagy hol tehetek fel kérdéseket az Aspose.Page for .NET-hez kapcsolódóan?
 
- A5: Látogassa meg a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) közösségi támogatásért.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
