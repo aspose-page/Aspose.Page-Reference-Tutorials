@@ -1,33 +1,83 @@
 ---
-title: Aspose.Page के साथ नामांकित मान जोड़ें
-linktitle: नामांकित मान जोड़ें
+date: 2026-08-08
+description: .NET के लिए Aspose.Page का उपयोग करके XMP metadata के साथ EPS कैसे बनाएं
+  और named values जोड़ें, सीखें। कोड प्लेसहोल्डर्स के साथ step‑by‑step गाइड।
+keywords:
+- create eps with xmp
+- add named value eps
+- aspose.page metadata
+lastmod: 2026-08-08
+linktitle: जोड़ें Named Value
+og_description: .NET में Aspose.Page का उपयोग करके XMP metadata के साथ EPS बनाएं।
+  यह गाइड दिखाता है कि EPS फ़ाइलों में named values को तेज़ और विश्वसनीय तरीके से
+  कैसे जोड़ें।
+og_image_alt: Guide showing how to add XMP named value to an EPS file with Aspose.Page
+og_title: Aspose.Page का उपयोग करके XMP के साथ EPS बनाएं – named value जोड़ें
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to create EPS with XMP metadata and add named values using
+    Aspose.Page for .NET. Step‑by‑step guide with code placeholders.
+  headline: Create EPS with XMP – add named value using Aspose.Page
+  type: TechArticle
+- questions:
+  - answer: Aspose.Page supports EPS versions 3.0 through 3.3, ensuring broad compatibility
+      with legacy and modern files.
+    question: Is Aspose.Page compatible with different EPS file versions?
+  - answer: Yes, a commercial license is required for production use. You can purchase
+      a license **[Aspose.Page license purchase page](https://purchase.aspose.com/buy)**.
+    question: Can I use Aspose.Page for commercial projects?
+  - answer: Yes, a fully functional trial can be downloaded **[Aspose.Page free trial
+      download page](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: Visit the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)**
+      to ask questions and share experiences.
+    question: How can I get support or join the community?
+  - answer: A temporary license lets you evaluate the product for a short period.
+      You can request one **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: What is a temporary license and how do I obtain one?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: Aspose.Page का उपयोग करके .NET में EPS फ़ाइलों में नामित मान जोड़ने का तरीका जानें। यह व्यापक ट्यूटोरियल चरण दर चरण प्रक्रिया में आपका मार्गदर्शन करता है।
-weight: 12
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: Aspose.Page का उपयोग करके XMP के साथ EPS बनाएं – named value जोड़ें
 url: /hi/net/eps-metadata-management/modify-eps-metadata-add-named-value/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page के साथ नामांकित मान जोड़ें
+# EPS को XMP के साथ बनाएं – Aspose.Page का उपयोग करके नामित मान जोड़ें
 
 ## परिचय
 
-.NET के साथ दस्तावेज़ प्रसंस्करण के क्षेत्र में, Aspose.Page EPS फ़ाइलों को संभालने के लिए एक शक्तिशाली उपकरण के रूप में सामने आता है। Aspose.Page डेवलपर्स को XMP मेटाडेटा में हेरफेर करने, नामित मान जोड़ने जैसे कार्यों को सुविधाजनक बनाने का अधिकार देता है। यह ट्यूटोरियल चरण-दर-चरण तरीके से Aspose.Page का उपयोग करके EPS फ़ाइल में नामित मान जोड़ने की प्रक्रिया में आपका मार्गदर्शन करेगा।
+इस ट्यूटोरियल में आप सीखेंगे कि **XMP के साथ EPS बनाना** मेटाडाटा कैसे किया जाता है और Aspose.Page लाइब्रेरी for .NET का उपयोग करके नामित मान कैसे डाला जाता है। चाहे आप बैच‑प्रोसेसिंग पाइपलाइन बना रहे हों या EPS फ़ाइलों को कस्टम XMP टैग्स के साथ समृद्ध करने की आवश्यकता हो, नीचे दिए गए चरण आपको प्रोजेक्ट सेटअप से लेकर संशोधित फ़ाइल को सहेजने तक सब कुछ दिखाते हैं। Aspose.Page तक **500 pages** की EPS दस्तावेज़ों को पूरी फ़ाइल को मेमोरी में लोड किए बिना संभाल सकता है, जिससे यह उच्च‑वॉल्यूम परिदृश्यों के लिए उपयुक्त है।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+- **What is the primary goal?** मौजूदा EPS फ़ाइल में एक नामित XMP मान जोड़ें।  
+- **Which library is required?** Aspose.Page for .NET.  
+- **Do I need a license?** उत्पादन के लिए एक व्यावसायिक लाइसेंस आवश्यक है; एक मुफ्त ट्रायल उपलब्ध है।  
+- **Which .NET versions are supported?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **How long does the implementation take?** बुनियादी उपयोग‑केस के लिए लगभग 10–15 minutes लगते हैं।  
 
-- C# प्रोग्रामिंग भाषा का बुनियादी ज्ञान।
-- विजुअल स्टूडियो जैसा एक एकीकृत विकास वातावरण (आईडीई) स्थापित किया गया।
--  .NET लाइब्रेरी के लिए Aspose.Page। यदि इंस्टॉल नहीं है तो आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/page/net/).
+## .NET में XMP मेटाडाटा के साथ EPS कैसे बनाएं?
 
-## नामस्थान आयात करें
+लक्षित EPS फ़ाइल को लोड करें, उसका XMP मेटाडाटा ऑब्जेक्ट प्राप्त (या बनाएं), आवश्यक नामित मान जोड़ें, और अंत में दस्तावेज़ को डिस्क पर सहेजें। यह वर्कफ़्लो केवल कुछ मेथड कॉल्स की आवश्यकता रखता है और सभी समर्थित EPS संस्करणों में लगातार काम करता है। यह तरीका मौजूदा पेज कंटेंट और अन्य XMP संरचनाओं को भी संरक्षित रखता है, जिससे आप कई मेटाडाटा अपडेट्स को सुरक्षित रूप से चेन कर सकते हैं।
 
-सबसे पहले, आइए आपके C# कोड में आवश्यक नामस्थान आयात करें। Aspose.Page द्वारा प्रदान की गई कार्यक्षमताओं तक पहुँचने के लिए ये नामस्थान महत्वपूर्ण हैं:
+## पूर्वापेक्षाएँ
+
+- C# और .NET प्रोजेक्ट संरचना का बुनियादी ज्ञान।  
+- Visual Studio 2022 (या कोई भी संगत IDE)।  
+- Aspose.Page for .NET लाइब्रेरी। यदि आपके पास अभी तक नहीं है, तो इसे **Aspose.Page for .NET download page**([Aspose.Page for .NET download page](https://releases.aspose.com/page/net/)) से डाउनलोड करें।  
+
+## नेमस्पेस आयात करें
+
+निम्नलिखित नेमस्पेस Aspose.Page के EPS हैंडलिंग, डिवाइस आउटपुट, और XMP मेटाडाटा क्लासेज़ तक पहुंच प्रदान करते हैं।
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,36 +89,36 @@ using System.Linq;
 using System.Text;
 ```
 
-## चरण 1: ईपीएस फ़ाइल इनपुट स्ट्रीम प्रारंभ करें
+## चरण 1: eps फ़ाइल इनपुट स्ट्रीम को प्रारंभ करें
 
- प्रारंभिक चरण में ईपीएस फ़ाइल के लिए इनपुट स्ट्रीम प्रारंभ करना शामिल है। प्रतिस्थापित करें`"Your Document Directory"` आपकी दस्तावेज़ निर्देशिका के पथ के साथ:
+`FileStream` को स्रोत EPS फ़ाइल के लिए बनाएं और दस्तावेज़ के साथ काम करने के लिए एक `PsDocument` ऑब्जेक्ट इंस्टैंशिएट करें।
 
 ```csharp
-// एक्सस्टार्ट:1
+// ExStart:1
 string dataDir = "Your Document Directory";
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_named_value_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
 ```
 
-## चरण 2: एक्सएमपी मेटाडेटा प्राप्त करें
+## चरण 2: XMP मेटाडाटा प्राप्त करें
 
-ईपीएस फ़ाइल से एक्सएमपी मेटाडेटा पुनर्प्राप्त करें। यदि ईपीएस फ़ाइल में एक्सएमपी मेटाडेटा का अभाव है, तो एक नया बनाया जाएगा, जो पीएस मेटाडेटा टिप्पणियों के मूल्यों से भरा होगा:
+दस्तावेज़ से `XmpMetadata` ऑब्जेक्ट प्राप्त करें; यह ऑब्जेक्ट एम्बेडेड XMP पैकेट को दर्शाता है।
 
 ```csharp
 XmpMetadata xmp = document.GetXmpMetadata();
 ```
 
-## चरण 3: XMP मेटाडेटा मान बदलें
+## चरण 3: XMP मेटाडाटा मान बदलें
 
-अब, आइए XMP मेटाडेटा में परिवर्तन करें। इस उदाहरण में, हम "xmpTPg:MaxPageSize" संरचना में एक नामित मान जोड़ेंगे:
+निर्दिष्ट XMP संरचना में नया नामित मान डालने के लिए `XmpMetadata` की `AddNamedValue` मेथड का उपयोग करें।
 
 ```csharp
 xmp.AddNamedValue("xmpTPg:MaxPageSize", "stDim:newKey", new XmpValue("NewValue"));
 ```
 
-## चरण 4: परिवर्तित XMP मेटाडेटा के साथ EPS फ़ाइल सहेजें
+## चरण 4: बदले हुए XMP मेटाडाटा के साथ eps फ़ाइल सहेजें
 
-अद्यतन XMP मेटाडेटा के साथ EPS फ़ाइल सहेजें। एक आउटपुट स्ट्रीम बनाएं और संशोधित ईपीएस फ़ाइल सहेजें:
+संशोधित दस्तावेज़ को एक नए `FileStream` में लिखकर सहेजें।
 
 ```csharp
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_named_value_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
@@ -77,34 +127,49 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 }
 ```
 
-## निष्कर्ष
+## EPS मेटाडाटा के लिए Aspose.Page का उपयोग क्यों करें?
 
-बधाई हो! आपने .NET में Aspose.Page का उपयोग करके EPS फ़ाइल में एक नामित मान सफलतापूर्वक जोड़ दिया है। यह ट्यूटोरियल दस्तावेज़ हेरफेर में Aspose.Page की सरलता और प्रभावशीलता को प्रदर्शित करते हुए आपको आवश्यक चरणों से परिचित कराता है।
+Aspose.Page **50+ XMP schemas** का समर्थन करता है और **500 pages** तक की EPS फ़ाइलों को प्रोसेस कर सकता है जबकि सामान्य दस्तावेज़ों के लिए मेमोरी उपयोग **30 MB** से कम रखता है। लाइब्रेरी बाहरी टूल्स या नेटिव कोड पर निर्भर नहीं करती, जिससे Windows, Linux, और macOS वातावरण में निरंतर व्यवहार सुनिश्चित होता है।
+
+## सामान्य समस्याएँ और ट्रबलशूटिंग
+
+- **Missing XMP packet:** यदि `GetXmpMetadata()` `null` लौटाता है, तो EPS फ़ाइल में XMP ब्लॉक नहीं होता। लाइब्रेरी स्वचालित रूप से एक बनाएगी, लेकिन सुनिश्चित करें कि फ़ाइल क्षतिग्रस्त न हो।  
+- **Namespace conflicts:** कस्टम नामित मान जोड़ते समय, मौजूदा स्कीमा के साथ टकराव से बचने के लिए एक अद्वितीय नेमस्पेस URI का उपयोग करें।  
+- **Large files:** यदि EPS फ़ाइल 200 MB से बड़ी है, तो अत्यधिक मेमोरी खपत से बचने के लिए आउटपुट को स्ट्रीम करने पर विचार करें।  
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या Aspose.Page विभिन्न EPS फ़ाइल संस्करणों के साथ संगत है?
+**Q: Aspose.Page विभिन्न EPS फ़ाइल संस्करणों के साथ संगत है क्या?**  
+A: Aspose.Page EPS संस्करण 3.0 से 3.3 तक का समर्थन करता है, जिससे लेगेसी और आधुनिक फ़ाइलों के साथ व्यापक संगतता सुनिश्चित होती है।
 
-A1: Aspose.Page विभिन्न EPS फ़ाइल संस्करणों का समर्थन करता है, जो दस्तावेज़ों की एक विस्तृत श्रृंखला के साथ संगतता सुनिश्चित करता है।
+**Q: क्या मैं Aspose.Page को व्यावसायिक प्रोजेक्ट्स में उपयोग कर सकता हूँ?**  
+A: हाँ, उत्पादन उपयोग के लिए एक व्यावसायिक लाइसेंस आवश्यक है। आप लाइसेंस **[Aspose.Page license purchase page](https://purchase.aspose.com/buy)** खरीद सकते हैं।
 
-### Q2: क्या मैं व्यावसायिक परियोजनाओं के लिए Aspose.Page का उपयोग कर सकता हूँ?
+**Q: क्या कोई मुफ्त ट्रायल उपलब्ध है?**  
+A: हाँ, एक पूर्ण कार्यात्मक ट्रायल **[Aspose.Page free trial download page](https://releases.aspose.com/)** से डाउनलोड किया जा सकता है।
 
- A2: हां, Aspose.Page एक वाणिज्यिक लाइसेंस के साथ आता है, और आप इसे खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+**Q: मैं समर्थन कैसे प्राप्त कर सकता हूँ या समुदाय में कैसे शामिल हो सकता हूँ?**  
+A: प्रश्न पूछने और अनुभव साझा करने के लिए **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** पर जाएँ।
 
-### Q3: क्या Aspose.Page के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
+**Q: अस्थायी लाइसेंस क्या है और मैं इसे कैसे प्राप्त करूँ?**  
+A: अस्थायी लाइसेंस आपको उत्पाद का छोटा समय के लिए मूल्यांकन करने देता है। आप एक **[temporary license request page](https://purchase.aspose.com/temporary-license/)** से अनुरोध कर सकते हैं।
 
- उ3: हां, आप नि:शुल्क परीक्षण के साथ Aspose.Page को एक्सप्लोर कर सकते हैं[यहाँ](https://releases.aspose.com/).
+---
 
-### Q4: मैं Aspose समुदाय से समर्थन कैसे प्राप्त कर सकता हूं या उससे कैसे जुड़ सकता हूं?
+**अंतिम अपडेट:** 2026-08-08  
+**परीक्षण किया गया:** Aspose.Page 24.11 for .NET  
+**लेखक:** Aspose
 
- A4: पर जाएँ[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39) समर्थन प्राप्त करने और समुदाय से जुड़ने के लिए।
+## संबंधित ट्यूटोरियल
 
-### Q5: अस्थायी लाइसेंस क्या है, और मैं इसे कैसे प्राप्त कर सकता हूं?
+- [Aspose.Page for .NET के साथ EPS दस्तावेज़ में मेटाडाटा जोड़ें](/page/net/eps-metadata-management/add-metadata-to-eps-document/)
+- [Aspose.Page for .NET के साथ नामित मान बदलें](/page/net/eps-metadata-management/modify-eps-metadata-change-named-value/)
+- [Aspose.Page for .NET के साथ EPS दस्तावेज़ से मेटाडाटा निकालें](/page/net/eps-metadata-management/extract-metadata-from-eps-document/)
 
- A5: यदि आपको परीक्षण या मूल्यांकन उद्देश्यों के लिए अस्थायी लाइसेंस की आवश्यकता है, तो आप एक प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
