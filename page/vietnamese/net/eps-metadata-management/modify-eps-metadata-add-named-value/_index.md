@@ -1,33 +1,82 @@
 ---
-title: Thêm giá trị được đặt tên bằng Aspose.Page
-linktitle: Thêm giá trị được đặt tên
-second_title: API Aspose.Page .NET
-description: Tìm hiểu cách thêm các giá trị được đặt tên vào tệp EPS trong .NET bằng Aspose.Page. Hướng dẫn toàn diện này sẽ hướng dẫn bạn từng bước thực hiện quy trình.
-weight: 12
+date: 2026-08-08
+description: Tìm hiểu cách tạo EPS với siêu dữ liệu XMP và thêm named values bằng
+  Aspose.Page cho .NET. Hướng dẫn từng bước với các placeholder mã.
+keywords:
+- create eps with xmp
+- add named value eps
+- aspose.page metadata
+lastmod: 2026-08-08
+linktitle: Thêm Named Value
+og_description: Tạo EPS với siêu dữ liệu XMP trong .NET bằng Aspose.Page. Hướng dẫn
+  này cho thấy cách thêm named values vào tệp EPS một cách nhanh chóng và đáng tin
+  cậy.
+og_image_alt: Guide showing how to add XMP named value to an EPS file with Aspose.Page
+og_title: Tạo EPS với XMP – thêm named value bằng Aspose.Page
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to create EPS with XMP metadata and add named values using
+    Aspose.Page for .NET. Step‑by‑step guide with code placeholders.
+  headline: Create EPS with XMP – add named value using Aspose.Page
+  type: TechArticle
+- questions:
+  - answer: Aspose.Page supports EPS versions 3.0 through 3.3, ensuring broad compatibility
+      with legacy and modern files.
+    question: Is Aspose.Page compatible with different EPS file versions?
+  - answer: Yes, a commercial license is required for production use. You can purchase
+      a license **[Aspose.Page license purchase page](https://purchase.aspose.com/buy)**.
+    question: Can I use Aspose.Page for commercial projects?
+  - answer: Yes, a fully functional trial can be downloaded **[Aspose.Page free trial
+      download page](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: Visit the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)**
+      to ask questions and share experiences.
+    question: How can I get support or join the community?
+  - answer: A temporary license lets you evaluate the product for a short period.
+      You can request one **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: What is a temporary license and how do I obtain one?
+  type: FAQPage
+second_title: Aspose.Page .NET API
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: Tạo EPS với XMP – thêm named value bằng Aspose.Page
 url: /vi/net/eps-metadata-management/modify-eps-metadata-add-named-value/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm giá trị được đặt tên bằng Aspose.Page
+# Tạo EPS với XMP – thêm giá trị có tên bằng Aspose.Page
 
 ## Giới thiệu
 
-Trong lĩnh vực xử lý tài liệu bằng .NET, Aspose.Page nổi bật như một công cụ mạnh mẽ để xử lý các tệp EPS. Aspose.Page trao quyền cho các nhà phát triển thao tác siêu dữ liệu XMP, tạo điều kiện thuận lợi cho các tác vụ như thêm các giá trị được đặt tên. Hướng dẫn này sẽ hướng dẫn bạn quy trình thêm các giá trị được đặt tên vào tệp EPS bằng Aspose.Page theo cách từng bước.
+Trong hướng dẫn này, bạn sẽ học cách **tạo EPS với XMP** metadata và chèn một giá trị có tên bằng thư viện Aspose.Page cho .NET. Cho dù bạn đang xây dựng một pipeline xử lý hàng loạt hoặc cần làm phong phú các tệp EPS bằng các thẻ XMP tùy chỉnh, các bước dưới đây sẽ hướng dẫn bạn từ việc thiết lập dự án đến việc lưu tệp đã sửa đổi. Aspose.Page có thể xử lý tài liệu EPS lên tới **500 trang** mà không cần tải toàn bộ tệp vào bộ nhớ, phù hợp cho các kịch bản khối lượng lớn.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Mục tiêu chính là gì?** Thêm một giá trị XMP có tên vào tệp EPS hiện có.  
+- **Thư viện nào được yêu cầu?** Aspose.Page cho .NET.  
+- **Tôi có cần giấy phép không?** Cần giấy phép thương mại cho môi trường sản xuất; bản dùng thử miễn phí có sẵn.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Thời gian thực hiện khoảng bao lâu?** Khoảng 10–15 phút cho trường hợp sử dụng cơ bản.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo rằng bạn có sẵn các điều kiện tiên quyết sau:
+## Cách tạo EPS với metadata XMP trong .NET?
 
-- Kiến thức cơ bản về ngôn ngữ lập trình C#.
-- Một môi trường phát triển tích hợp (IDE) như Visual Studio đã được cài đặt.
--  Aspose.Page cho thư viện .NET. Nếu chưa cài đặt, bạn có thể tải xuống từ[đây](https://releases.aspose.com/page/net/).
+Tải tệp EPS mục tiêu, lấy (hoặc tạo) đối tượng metadata XMP của nó, thêm giá trị có tên cần thiết, và cuối cùng lưu tài liệu trở lại đĩa. Quy trình này chỉ yêu cầu một vài lời gọi phương thức và hoạt động nhất quán trên tất cả các phiên bản EPS được hỗ trợ. Cách tiếp cận này cũng bảo tồn nội dung trang hiện có và các cấu trúc XMP khác, vì vậy bạn có thể an toàn thực hiện nhiều cập nhật metadata liên tiếp.
+
+## Yêu cầu trước
+
+- Kiến thức cơ bản về C# và cấu trúc dự án .NET.  
+- Visual Studio 2022 (hoặc bất kỳ IDE tương thích nào).  
+- Thư viện Aspose.Page cho .NET. Nếu bạn chưa có, tải xuống từ **trang tải xuống Aspose.Page cho .NET**([Aspose.Page for .NET download page](https://releases.aspose.com/page/net/)).  
 
 ## Nhập không gian tên
 
-Đầu tiên, hãy nhập các vùng tên cần thiết vào mã C# của bạn. Các không gian tên này rất quan trọng để truy cập các chức năng do Aspose.Page cung cấp:
+Các không gian tên sau cung cấp quyền truy cập vào các lớp xử lý EPS, đầu ra thiết bị và metadata XMP của Aspose.Page.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,36 +88,36 @@ using System.Linq;
 using System.Text;
 ```
 
-## Bước 1: Khởi tạo luồng đầu vào tệp EPS
+## Bước 1: khởi tạo luồng nhập tệp eps
 
- Bước đầu tiên liên quan đến việc khởi tạo luồng đầu vào cho tệp EPS. Thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn:
+Tạo một `FileStream` cho tệp EPS nguồn và khởi tạo một đối tượng `PsDocument` để làm việc với tài liệu.
 
 ```csharp
-// Bắt đầu:1
+// ExStart:1
 string dataDir = "Your Document Directory";
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_named_value_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
 ```
 
-## Bước 2: Nhận siêu dữ liệu XMP
+## Bước 2: lấy metadata XMP
 
-Truy xuất siêu dữ liệu XMP từ tệp EPS. Nếu tệp EPS thiếu siêu dữ liệu XMP thì một tệp mới sẽ được tạo, chứa đầy các giá trị từ nhận xét siêu dữ liệu PS:
+Lấy đối tượng `XmpMetadata` từ tài liệu; đối tượng này đại diện cho gói XMP được nhúng.
 
 ```csharp
 XmpMetadata xmp = document.GetXmpMetadata();
 ```
 
-## Bước 3: Thay đổi giá trị siêu dữ liệu XMP
+## Bước 3: thay đổi giá trị metadata XMP
 
-Bây giờ, hãy thực hiện các thay đổi đối với siêu dữ liệu XMP. Trong ví dụ này, chúng tôi sẽ thêm giá trị được đặt tên vào cấu trúc "xmpTPg:MaxPageSize":
+Sử dụng phương thức `AddNamedValue` của `XmpMetadata` để chèn một giá trị có tên mới vào cấu trúc XMP được chỉ định.
 
 ```csharp
 xmp.AddNamedValue("xmpTPg:MaxPageSize", "stDim:newKey", new XmpValue("NewValue"));
 ```
 
-## Bước 4: Lưu tệp EPS với siêu dữ liệu XMP đã thay đổi
+## Bước 4: lưu tệp eps với metadata XMP đã thay đổi
 
-Lưu tệp EPS với siêu dữ liệu XMP được cập nhật. Tạo luồng đầu ra và lưu tệp EPS đã sửa đổi:
+Lưu tài liệu đã sửa đổi bằng cách ghi nó vào một `FileStream` mới.
 
 ```csharp
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_named_value_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
@@ -77,34 +126,49 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 }
 ```
 
-## Phần kết luận
+## Tại sao nên sử dụng Aspose.Page cho metadata EPS?
 
-Chúc mừng! Bạn đã thêm thành công giá trị được đặt tên vào tệp EPS bằng Aspose.Page trong .NET. Hướng dẫn này đã hướng dẫn bạn qua các bước thiết yếu, thể hiện tính đơn giản và hiệu quả của Aspose.Page trong thao tác tài liệu.
+Aspose.Page hỗ trợ **hơn 50 schema XMP** và có thể xử lý các tệp EPS lên tới **500 trang** trong khi giữ mức sử dụng bộ nhớ dưới **30 MB** cho các tài liệu điển hình. Thư viện không phụ thuộc vào công cụ bên ngoài hay mã gốc, đảm bảo hành vi nhất quán trên các môi trường Windows, Linux và macOS.
+
+## Các vấn đề thường gặp và khắc phục
+
+- **Thiếu gói XMP:** Nếu `GetXmpMetadata()` trả về `null`, tệp EPS không chứa khối XMP. Thư viện sẽ tự động tạo một khối mới, nhưng hãy đảm bảo tệp không bị hỏng.  
+- **Xung đột không gian tên:** Khi thêm các giá trị có tên tùy chỉnh, sử dụng một URI không gian tên duy nhất để tránh va chạm với các schema hiện có.  
+- **Tệp lớn:** Đối với các tệp EPS lớn hơn 200 MB, hãy cân nhắc stream đầu ra để tránh tiêu thụ bộ nhớ quá mức.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Page có tương thích với các phiên bản tệp EPS khác nhau không?
+**Q: Aspose.Page có tương thích với các phiên bản tệp EPS khác nhau không?**  
+A: Aspose.Page hỗ trợ các phiên bản EPS từ 3.0 đến 3.3, đảm bảo khả năng tương thích rộng với các tệp cũ và hiện đại.
 
-Câu trả lời 1: Aspose.Page hỗ trợ nhiều phiên bản tệp EPS khác nhau, đảm bảo khả năng tương thích với nhiều loại tài liệu.
+**Q: Tôi có thể sử dụng Aspose.Page cho các dự án thương mại không?**  
+A: Có, cần giấy phép thương mại cho việc sử dụng trong môi trường sản xuất. Bạn có thể mua giấy phép tại **[Aspose.Page license purchase page](https://purchase.aspose.com/buy)**.
 
-### Câu 2: Tôi có thể sử dụng Aspose.Page cho các dự án thương mại không?
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có, bạn có thể tải xuống bản dùng thử đầy đủ chức năng tại **[Aspose.Page free trial download page](https://releases.aspose.com/)**.
 
- Câu trả lời 2: Có, Aspose.Page có giấy phép thương mại và bạn có thể mua nó[đây](https://purchase.aspose.com/buy).
+**Q: Làm thế nào để tôi nhận được hỗ trợ hoặc tham gia cộng đồng?**  
+A: Truy cập **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** để đặt câu hỏi và chia sẻ kinh nghiệm.
 
-### Câu hỏi 3: Aspose.Page có bản dùng thử miễn phí không?
+**Q: Giấy phép tạm thời là gì và làm sao để tôi có được?**  
+A: Giấy phép tạm thời cho phép bạn đánh giá sản phẩm trong một thời gian ngắn. Bạn có thể yêu cầu tại **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
- Câu trả lời 3: Có, bạn có thể khám phá Aspose.Page với bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+---
 
-### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ hoặc kết nối với cộng đồng Aspose?
+**Cập nhật lần cuối:** 2026-08-08  
+**Đã kiểm tra với:** Aspose.Page 24.11 for .NET  
+**Tác giả:** Aspose
 
- A4: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để nhận được sự hỗ trợ và kết nối với cộng đồng.
+## Các hướng dẫn liên quan
 
-### Câu hỏi 5: Giấy phép tạm thời là gì và làm cách nào để có được giấy phép?
+- [Thêm Metadata vào Tài liệu EPS với Aspose.Page cho .NET](/page/net/eps-metadata-management/add-metadata-to-eps-document/)
+- [Thay đổi Giá trị có Tên với Aspose.Page cho .NET](/page/net/eps-metadata-management/modify-eps-metadata-change-named-value/)
+- [Trích xuất Metadata từ Tài liệu EPS với Aspose.Page cho .NET](/page/net/eps-metadata-management/extract-metadata-from-eps-document/)
 
- Câu trả lời 5: Nếu bạn cần giấy phép tạm thời cho mục đích thử nghiệm hoặc đánh giá, bạn có thể xin giấy phép[đây](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

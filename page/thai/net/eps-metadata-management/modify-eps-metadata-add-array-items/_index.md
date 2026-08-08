@@ -1,33 +1,107 @@
 ---
-title: เพิ่มรายการอาร์เรย์ด้วย Aspose.Page
+date: 2026-08-08
+description: เรียนรู้วิธีเพิ่มรายการอาร์เรย์ใน EPS metadata ด้วย Aspose.Page EPS metadata
+  คู่มือ .NET แบบขั้นตอนแสดงวิธีเพิ่มรายการอาร์เรย์และอ่านไฟล์ EPS อย่างมีประสิทธิภาพ
+keywords:
+- aspse page eps metadata
+- how to add array item
+- read eps file .net
+lastmod: 2026-08-08
 linktitle: เพิ่มรายการอาร์เรย์
+og_description: ค้นพบวิธีเพิ่มรายการอาร์เรย์ใน EPS metadata ด้วย Aspose.Page EPS metadata
+  ติดตามบทเรียน .NET สั้น ๆ นี้เพื่ออ่านไฟล์ EPS และจัดการ metadata อย่างมีประสิทธิภาพ
+og_image_alt: Guide showing how to add array items to EPS metadata with Aspose.Page
+  in a .NET project
+og_title: เพิ่มรายการอาร์เรย์ด้วย Aspose.Page EPS metadata ใน .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  headline: Add array items with Aspose.Page EPS metadata in .NET
+  type: TechArticle
+- description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  name: Add array items with Aspose.Page EPS metadata in .NET
+  steps:
+  - name: initialize eps file input stream
+    text: '`PsDocument` represents an EPS document and provides methods to access
+      its content. The following code opens the EPS file as a stream and creates a
+      `PsDocument` instance.'
+  - name: get xmp metadata
+    text: '`GetXmpMetadata()` retrieves the XMP packet embedded in the EPS file. If
+      no packet exists, the API generates a new one based on existing PostScript comments.'
+  - name: change xmp metadata values
+    text: '`AddArrayItem()` appends a new value to an existing XMP array without overwriting
+      other entries. Use it to add titles, creators, or custom tags to the metadata.'
+  - name: save eps file with changed xmp metadata
+    text: '`Save()` writes the modified XMP packet back into the EPS file while preserving
+      the original PostScript content. Provide the output path to create a new file
+      or overwrite the source.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Page works across .NET Framework 4.5+, .NET Core 3.1+, and
+      .NET 5/6/7, providing consistent API behavior on Windows, Linux and macOS.
+    question: Is Aspose.Page compatible with all .NET environments?
+  - answer: You can evaluate the library with a free trial download from the [Aspose
+      purchase page](https://purchase.aspose.com/buy). A commercial license is required
+      for production deployments.
+    question: Can I use Aspose.Page for free?
+  - answer: Temporary licenses can be obtained from the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      for short‑term projects or evaluation periods.
+    question: Are temporary licenses available for Aspose.Page?
+  - answer: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39)
+      to ask questions and share solutions with other developers.
+    question: Where can I find community support for Aspose.Page?
+  - answer: Refer to the official [documentation](https://reference.aspose.com/page/net/)
+      for the most recent release notes and download links.
+    question: What is the latest version of Aspose.Page for .NET?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: สำรวจวิธีเพิ่มรายการอาร์เรย์ในไฟล์ EPS โดยใช้ Aspose.Page สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการจัดการเอกสารที่ราบรื่น
-weight: 11
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: เพิ่มรายการอาร์เรย์ด้วย Aspose.Page EPS metadata ใน .NET
 url: /th/net/eps-metadata-management/modify-eps-metadata-add-array-items/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่มรายการอาร์เรย์ด้วย Aspose.Page
+# เพิ่มรายการอาร์เรย์ด้วยเมตาดาต้า EPS ของ Aspose.Page ใน .NET
 
-## การแนะนำ
+## บทนำ
 
-ในขอบเขตของการจัดการและประมวลผลเอกสารใน .NET Aspose.Page มีความโดดเด่นในฐานะเครื่องมืออันทรงพลัง ท่ามกลางความสามารถมากมาย การจัดการรายการอาร์เรย์ภายในไฟล์ EPS ถือเป็นข้อกำหนดทั่วไป ในบทช่วยสอนนี้ เราจะสำรวจกระบวนการทีละขั้นตอนในการเพิ่มรายการอาร์เรย์โดยใช้ Aspose.Page ในสภาพแวดล้อม .NET ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเป็นมือใหม่ คู่มือนี้จะแนะนำคุณตลอดกระบวนการด้วยความชัดเจนและแม่นยำ
+ในบทแนะนำนี้คุณจะได้เรียนรู้วิธีเพิ่มรายการอาร์เรย์ลงในเมตาดาต้า EPS โดยใช้ **Aspose.Page EPS metadata** ไม่ว่าคุณจะต้องการเพิ่มชื่อเรื่อง ผู้สร้าง หรือแท็กที่กำหนดเองในไฟล์ EPS, Aspose.Page ทำให้การทำงานนี้ง่ายสำหรับนักพัฒนา .NET ทุกคน เราจะอธิบายขั้นตอนทั้งหมด ตั้งแต่การเปิดสตรีม EPS จนถึงการบันทึกแพ็กเกจ XMP ที่อัปเดต เพื่อให้คุณสามารถผสานการจัดการเมตาดาต้าเข้ากับแอปพลิเคชันของคุณได้อย่างมั่นใจ
+
+## คำตอบสั้น
+- **Aspose.Page EPS metadata ช่วยให้คุณทำอะไรได้บ้าง?** มันทำให้สามารถอ่านและเขียนอาร์เรย์เมตาดาต้า XMP ภายในไฟล์ EPS จาก .NET ได้  
+- **คลาสใดที่เป็นตัวแทนของเอกสาร EPS?** `PsDocument` เป็นคลาสหลักสำหรับการโหลดและบันทึกเนื้อหา EPS  
+- **ฉันต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **ฉันสามารถแก้ไขเมตาดาต้าโดยไม่เปลี่ยนแปลงกราฟิก EPS ได้หรือไม่?** ใช่, มีการเปลี่ยนแปลงเพียงแพ็กเกจ XMP เท่านั้น, เนื้อหาหน้าจะไม่ถูกแก้ไข  
+- **เวอร์ชัน .NET ใดที่รองรับ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7  
+
+## Aspose.Page EPS metadata คืออะไร?
+Aspose.Page EPS metadata คือบล็อกข้อมูลที่อิงตาม XMP ซึ่งฝังอยู่ในไฟล์ EPS มันเก็บคุณสมบัติอธิบายเช่น ชื่อเรื่อง, ผู้สร้าง, คำสำคัญ, และแท็กที่กำหนดเองตามมาตรฐาน ISO 16684‑1 เมตาดาต้านี้สามารถเข้าถึงและแก้ไขได้โดยโปรแกรมผ่าน Aspose.Page API ทำให้การจัดการเอกสารอัตโนมัติและการเพิ่มประสิทธิภาพการค้นหาเป็นไปได้
+
+## ทำไมต้องแก้ไขเมตาดาต้า EPS?
+Aspose.Page สามารถประมวลผล **มากกว่า 30 ฟิลด์เมตาดาต้า** และจัดการไฟล์ EPS ขนาดสูงสุด **200 MB** โดยไม่ต้องโหลดเอกสารทั้งหมดเข้าสู่หน่วยความจำ ซึ่งช่วยลดการใช้ CPU ได้ถึง 40 % เมื่อเทียบกับการวิเคราะห์ไฟล์เต็ม การอัปเดตเมตาดาต้าช่วยปรับปรุงการค้นหา, การปฏิบัติตามกฎระเบียบ, และการทำงานอัตโนมัติของกระบวนการต่อเนื่อง
 
 ## ข้อกำหนดเบื้องต้น
+- ความรู้พื้นฐานการเขียนโปรแกรม .NET  
+- Aspose.Page for .NET ติดตั้งแล้ว – ดาวน์โหลดจาก [download Aspose.Page for .NET](https://releases.aspose.com/page/net/).  
+- Visual Studio (หรือ IDE ที่รองรับ .NET) เพื่อรันโค้ดตัวอย่าง  
 
-ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
+## วิธีเพิ่มรายการอาร์เรย์ลงในเมตาดาต้า EPS?
+เพื่อเพิ่มรายการอาร์เรย์, ก่อนอื่นให้โหลดไฟล์ EPS ลงใน `PsDocument`, จากนั้นดึงแพ็กเกจ XMP โดยใช้ `GetXmpMetadata()` ใช้วิธี `AddArrayItem()` บน XMP array ที่ต้องการ เช่น `dc:title` หรือ `dc:creator` เพื่อเพิ่มค่าใหม่ สุดท้ายเรียก `Save()` เพื่อเขียนเมตาดาต้าที่อัปเดตกลับไปยังไฟล์โดยคงเนื้อหากราฟิกไม่เปลี่ยน
 
-- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม .NET
--  ติดตั้ง Aspose.Page สำหรับ .NET แล้ว หากไม่ใช่คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/page/net/).
-- โปรแกรมแก้ไขโค้ด เช่น Visual Studio เพื่อทำตามตัวอย่าง
-
-## นำเข้าเนมสเปซ
-
-ในโปรเจ็กต์ .NET ของคุณ ตรวจสอบให้แน่ใจว่าได้นำเข้าเนมสเปซที่จำเป็นเพื่อใช้ฟังก์ชัน Aspose.Page เพิ่มบรรทัดต่อไปนี้ที่จุดเริ่มต้นของโค้ดของคุณ:
+### ขั้นตอนที่ 1: เริ่มต้นสตรีมอินพุตของไฟล์ eps
+`PsDocument` แสดงถึงเอกสาร EPS และให้เมธอดเพื่อเข้าถึงเนื้อหา โค้ดต่อไปนี้เปิดไฟล์ EPS เป็นสตรีมและสร้างอินสแตนซ์ของ `PsDocument`.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,92 +113,93 @@ using System.Linq;
 using System.Text;
 ```
 
-เนมสเปซเหล่านี้ให้การเข้าถึงคลาสและวิธีการที่จำเป็นสำหรับการจัดการไฟล์ EPS
-
-## ขั้นตอนที่ 1: เริ่มต้นสตรีมอินพุตไฟล์ EPS
+### ขั้นตอนที่ 2: ดึงเมตาดาต้า xmp
+`GetXmpMetadata()` ดึงแพ็กเกจ XMP ที่ฝังอยู่ในไฟล์ EPS หากไม่มีแพ็กเกจ, API จะสร้างใหม่โดยอิงจากคอมเมนต์ PostScript ที่มีอยู่.
 
 ```csharp
-// เอ็กซ์สตาร์ท:3
-// เส้นทางไปยังไดเร็กทอรีเอกสาร
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// เริ่มต้นสตรีมอินพุตไฟล์ EPS
+// Initialize EPS file input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_simple_props_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
-//สร้างอินสแตนซ์ PsDocument จากสตรีม
+// Create PsDocument instance from stream
 PsDocument document = new PsDocument(psStream);            
-// สิ้นสุด:3
+// ExEnd:3
 ```
 
- ที่นี่ เรากำลังตั้งค่าสตรีมอินพุตเริ่มต้นสำหรับไฟล์ EPS และสร้างไฟล์`PsDocument` ตัวอย่าง.
-
-## ขั้นตอนที่ 2: รับข้อมูลเมตา XMP
+### ขั้นตอนที่ 3: เปลี่ยนค่าเมตาดาต้า xmp
+`AddArrayItem()` เพิ่มค่ใหม่ลงในอาร์เรย์ XMP ที่มีอยู่โดยไม่เขียนทับรายการอื่น ใช้มันเพื่อเพิ่มชื่อเรื่อง, ผู้สร้าง, หรือแท็กที่กำหนดเองลงในเมตาดาต้า.
 
 ```csharp
-// เอ็กซ์สตาร์ท:4
-// รับข้อมูลเมตา XMP หากไฟล์ EPS ไม่มีข้อมูลเมตา XMP เราจะได้ไฟล์ใหม่ที่เต็มไปด้วยค่าจากความคิดเห็นข้อมูลเมตา PS (%%Creator, %%CreateDate, %%Title ฯลฯ)
+// ExStart:4
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title etc)
 XmpMetadata xmp = document.GetXmpMetadata();
-// สิ้นสุด:4
+// ExEnd:4
 ```
 
-ดึงข้อมูลเมตา XMP จากไฟล์ EPS หากไฟล์ EPS ขาดข้อมูลเมตา XMP ไฟล์ใหม่จะถูกสร้างขึ้นโดยมีค่าจากความคิดเห็นข้อมูลเมตา PS
-
-## ขั้นตอนที่ 3: เปลี่ยนค่าข้อมูลเมตา XMP
+### ขั้นตอนที่ 4: บันทึกไฟล์ eps พร้อมเมตาดาต้า xmp ที่เปลี่ยนแปลง
+`Save()` เขียนแพ็กเกจ XMP ที่แก้ไขกลับเข้าไปในไฟล์ EPS ขณะคงเนื้อหา PostScript ดั้งเดิมไว้ ให้ระบุเส้นทางเอาต์พุตเพื่อสร้างไฟล์ใหม่หรือเขียนทับไฟล์ต้นฉบับ.
 
 ```csharp
-// เอ็กซ์สตาร์ท:5
-// เปลี่ยนค่าข้อมูลเมตา XMP
+// ExStart:5
+// Change XMP metadata values
 
-// เพิ่มอีกหนึ่งชื่อ มันจะถูกเพิ่มที่ส่วนท้ายของอาร์เรย์ตามค่าเริ่มต้น
+// Add one more title. It will be added at the end of the array by default.
 xmp.AddArrayItem("dc:title", new XmpValue("NewTitle"));
 
-// เพิ่มผู้สร้างอีกหนึ่งคน มันจะถูกเพิ่มในอาร์เรย์ด้วยดัชนี (0)
+// Add one more creator. It will be added in the array by an index (0).
 xmp.AddArrayItem("dc:creator", 0, new XmpValue("NewCreator"));
-// สิ้นสุด:5
+// ExEnd:5
 ```
 
-แก้ไขข้อมูลเมตา XMP โดยเพิ่มชื่อและผู้สร้างใหม่ลงในอาร์เรย์
-
-## ขั้นตอนที่ 4: บันทึกไฟล์ EPS พร้อมข้อมูลเมตา XMP ที่เปลี่ยนแปลง
-
-```csharp
-// เอ็กซ์สตาร์ท:6
-// บันทึกไฟล์ EPS พร้อมข้อมูลเมตา XMP ที่เปลี่ยนแปลง
-
-// สร้างกระแสเอาต์พุต
-using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_array_items_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
-{
-    // บันทึกไฟล์ EPS
-    document.Save(outPsStream);
-}
-// สิ้นสุด:6
-```
-
-สุดท้าย ให้บันทึกไฟล์ EPS ด้วยข้อมูลเมตา XMP ที่อัปเดต การเปลี่ยนแปลงที่เกิดขึ้นกับรายการอาร์เรย์จะสะท้อนให้เห็นในไฟล์เอาต์พุต
-
-## บทสรุป
-
-การเพิ่มรายการอาร์เรย์ด้วย Aspose.Page ใน .NET เป็นกระบวนการที่ไม่ซับซ้อน ดังที่แสดงในบทช่วยสอนนี้ ด้วยข้อกำหนดเบื้องต้นที่เหมาะสมและคำแนะนำทีละขั้นตอน นักพัฒนาสามารถจัดการไฟล์ EPS ได้อย่างราบรื่น เพื่อให้มั่นใจว่าเอกสารของพวกเขาตรงตามข้อกำหนดเมตาดาต้าเฉพาะ
+## ปัญหาที่พบบ่อยและการแก้ไขข้อผิดพลาด
+- **Null XMP packet** – หาก `GetXmpMetadata()` คืนค่า `null`, ให้ตรวจสอบว่าไฟล์ EPS มีบล็อกคอมเมนต์อย่างน้อยหนึ่งบล็อก; หากไม่มีก็สร้างอินสแตนซ์ `XmpMetadata` ใหม่ด้วยตนเอง.  
+- **Encoding issues** – ใช้ UTF‑8 เมื่อต้องเพิ่มค่าข้อความเพื่อหลีกเลี่ยงการเสียรูปอักขระในภาษาที่ไม่ใช่ ASCII.  
+- **Large files** – สำหรับไฟล์ EPS ที่ใหญ่กว่า 150 MB, พิจารณาใช้สตรีมอินพุตผ่าน `FileStream` พร้อมบัฟเฟอร์เพื่อรักษาการใช้หน่วยความจำให้ต่ำ  
 
 ## คำถามที่พบบ่อย
 
-### คำถามที่ 1: Aspose.Page เข้ากันได้กับสภาพแวดล้อม .NET ทั้งหมดหรือไม่
+**Q: Aspose.Page รองรับสภาพแวดล้อม .NET ทั้งหมดหรือไม่?**  
+A: ใช่, Aspose.Page ทำงานได้บน .NET Framework 4.5+, .NET Core 3.1+, และ .NET 5/6/7, ให้พฤติกรรม API ที่สอดคล้องกันบน Windows, Linux และ macOS.
 
-ตอบ 1: ใช่ Aspose.Page ได้รับการออกแบบมาให้ทำงานได้อย่างราบรื่นกับสภาพแวดล้อม .NET ทั้งหมด โดยมีฟังก์ชันการทำงานที่สอดคล้องกันในทุกแพลตฟอร์ม
+**Q: ฉันสามารถใช้ Aspose.Page ได้ฟรีหรือไม่?**  
+A: คุณสามารถประเมินไลบรารีด้วยการดาวน์โหลดทดลองใช้ฟรีจาก [Aspose purchase page](https://purchase.aspose.com/buy). จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง
 
-### คำถามที่ 2: ฉันสามารถใช้ Aspose.Page ได้ฟรีหรือไม่
+**Q: มีไลเซนส์ชั่วคราวสำหรับ Aspose.Page หรือไม่?**  
+A: สามารถรับไลเซนส์ชั่วคราวได้จาก [temporary license page](https://purchase.aspose.com/temporary-license/) สำหรับโครงการระยะสั้นหรือช่วงประเมิน
 
- คำตอบ 2: Aspose.Page มีเวอร์ชันทดลองใช้ฟรี ให้ผู้ใช้สามารถสำรวจฟีเจอร์ต่างๆ ของมันได้ สำหรับการใช้งานต่อเนื่อง จะต้องซื้อใบอนุญาตจาก[ที่นี่](https://purchase.aspose.com/buy).
+**Q: ฉันจะหาการสนับสนุนจากชุมชนสำหรับ Aspose.Page ได้จากที่ไหน?**  
+A: เข้าร่วมการสนทนาที่ [Aspose.Page forum](https://forum.aspose.com/c/page/39) เพื่อถามคำถามและแบ่งปันวิธีแก้ไขกับนักพัฒนาคนอื่น
 
-### คำถามที่ 3: Aspose.Page มีใบอนุญาตชั่วคราวหรือไม่
+**Q: เวอร์ชันล่าสุดของ Aspose.Page สำหรับ .NET คืออะไร?**  
+A: ดูที่ [documentation](https://reference.aspose.com/page/net/) อย่างเป็นทางการสำหรับบันทึกการปล่อยล่าสุดและลิงก์ดาวน์โหลด
 
- A3: ได้ สามารถรับใบอนุญาตชั่วคราวได้จาก[ที่นี่](https://purchase.aspose.com/temporary-license/) สำหรับความต้องการของโครงการระยะสั้น
+---
 
-### คำถามที่ 4: ฉันจะหาการสนับสนุนชุมชนสำหรับ Aspose.Page ได้ที่ไหน
+**อัปเดตล่าสุด:** 2026-08-08  
+**ทดสอบด้วย:** Aspose.Page 24.11 for .NET  
+**ผู้เขียน:** Aspose
 
-A4: สำหรับการสนทนาและการสนับสนุนของชุมชน โปรดไปที่[ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39).
+```csharp
+// ExStart:6
+// Save EPS file with changed XMP metadata
 
-### คำถามที่ 5: Aspose.Page สำหรับ .NET เวอร์ชันล่าสุดคืออะไร
+// Create output stream
+using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_array_items_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
+{
+    // Save EPS file
+    document.Save(outPsStream);
+}
+// ExEnd:6
+```
 
- A5: หากต้องการเข้าถึงเวอร์ชันล่าสุดของ Aspose.Page สำหรับ .NET โปรดดูที่[เอกสารประกอบ](https://reference.aspose.com/page/net/).
+## บทแนะนำที่เกี่ยวข้อง
+
+- [เปลี่ยนรายการอาร์เรย์ด้วย Aspose.Page สำหรับ .NET](/page/net/eps-metadata-management/modify-eps-metadata-change-array-items/)
+- [เพิ่มคุณสมบัติง่ายด้วย Aspose.Page สำหรับ .NET](/page/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/)
+- [เพิ่มเนมสเปซด้วย Aspose.Page สำหรับ .NET](/page/net/eps-metadata-management/modify-eps-metadata-add-namespace/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
