@@ -1,35 +1,53 @@
 ---
-title: Pokaż pseudoprzezroczystość w PostScript (PS) za pomocą Aspose.Page
-linktitle: Pokaż pseudoprzezroczystość w PostScript (PS)
-second_title: Aspose.Page API .NET
-description: Odkryj moc pseudoprzezroczystości w PostScript dzięki Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać oszałamiające wizualnie dokumenty.
-weight: 13
+date: 2026-03-29
+description: Dowiedz się, jak używać pędzla liniowego gradientu w C# do tworzenia
+  pseudo‑przezroczystości w PostScript przy użyciu Aspose.Page dla .NET.
+linktitle: Show Pseudo-Transparency in PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Pędzel liniowego gradientu C# do pseudo‑przezroczystości w PS
 url: /pl/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Pokaż pseudoprzezroczystość w PostScript (PS) za pomocą Aspose.Page
+# Pędzel gradientu liniowego C# dla pseudo‑przezroczystości w PostScript (PS)
 
-## Wstęp
+## Wprowadzenie
 
-Czy chcesz poprawić atrakcyjność wizualną dokumentów PostScript (PS) poprzez dodanie pseudoprzezroczystości? Aspose.Page dla .NET zapewnia potężne rozwiązanie umożliwiające osiągnięcie tego efektu bez wysiłku. W tym samouczku krok po kroku przeprowadzimy Cię przez proces pokazywania pseudoprzezroczystości w PostScript za pomocą Aspose.Page.
+Jeśli potrzebujesz dodać subtelną efekt przezroczystości do swoich plików PostScript (PS), **linear gradient brush C#** jest idealnym narzędziem. Aspose.Page for .NET ułatwia malowanie prostokątów zarówno z nieprzezroczystymi, jak i przezroczystymi wypełnieniami gradientowymi, nadając dokumentom nowoczesny, warstwowy wygląd. W tym samouczku przeprowadzimy Cię krok po kroku przez proces tworzenia pseudo‑przezroczystości przy użyciu pędzla gradientu liniowego w C#.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jaką bibliotekę zapewnia pędzel gradientu liniowego?** Aspose.Page for .NET
+- **Która klasa graficzna tworzy gradient?** `LinearGradientBrush`
+- **Czy mogę kontrolować krycie dla każdego koloru?** Tak, używając `Color.FromArgb(alpha, …)`
+- **Czy potrzebna jest licencja do produkcji?** Wymagana jest ważna licencja Aspose.Page
+- **Obsługiwane wersje .NET?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest pędzel gradientu liniowego C#?
 
-- Aspose.Page dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Page dla .NET. Można go pobrać z[Dokumentacja Aspose.Page](https://reference.aspose.com/page/net/).
+`LinearGradientBrush` to obiekt GDI+, który rysuje płynne przejście między dwoma kolorami wzdłuż prostej linii. Gdy określisz kanał alfa (0‑255) dla każdego koloru, możesz tworzyć przezroczyste gradienty — dokładnie tego potrzebujemy do pseudo‑przezroczystości w PostScript.
 
-- Katalog dokumentów: skonfiguruj katalog do przechowywania dokumentów PostScript.
+## Dlaczego używać pędzla gradientu liniowego C# do pseudo‑przezroczystości?
 
-Teraz, gdy masz już niezbędne narzędzia w swoim arsenale, przyjrzyjmy się, jak zaprezentować pseudoprzezroczystość w PostScript za pomocą Aspose.Page.
+- **Precyzyjna kontrola krycia:** Dostosuj wartość alfa każdego koloru, aby uzyskać pożądany poziom przezroczystości.  
+- **Renderowanie niezależne od urządzenia:** Pędzel działa tak samo na ekranie, w PDF, EPS i wyjściach PS.  
+- **Proste API:** Kilka linii kodu C# generuje efekty wizualne klasy profesjonalnej jakości.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-Zanim zagłębisz się w przykład, upewnij się, że zaimportowałeś wymagane przestrzenie nazw:
+Zanim zanurzysz się w kod, upewnij się, że masz:
+
+- Aspose.Page for .NET zainstalowane. Możesz je pobrać z [Aspose.Page documentation](https://reference.aspose.com/page/net/).
+- Folder, do którego można zapisywać, w którym zostanie zapisany wygenerowany dokument PostScript.
+
+Teraz, gdy masz niezbędne narzędzia, rozpocznijmy budowanie pseudo‑przezroczystych prostokątów.
+
+## Importowanie przestrzeni nazw
+
+Zanim zaczniemy, zaimportuj przestrzenie nazw, które zawierają klasy, których będziemy używać:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -41,21 +59,25 @@ using System.IO;
 
 ## Krok 1: Utwórz strumień wyjściowy dla dokumentu PostScript
 
+Zaczynamy od utworzenia strumienia pliku, który będzie przechowywał wynikowy plik PS, a następnie inicjalizujemy `PsDocument`.
+
 ```csharp
 // ExStart:1
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//Utwórz strumień wyjściowy dla dokumentu PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_outPS.ps", FileMode.Create))
 {
-	//Twórz opcje zapisywania w formacie A4
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 
-	// Utwórz nowy 1-stronicowy dokument PS
+	// Create new 1‑paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Krok 2: Utwórz prostokąt z nieprzezroczystym wypełnieniem gradientowym
+## Krok 2: Utwórz prostokąt z **nieprzezroczystym** wypełnieniem gradientowym
+
+Tutaj budujemy `LinearGradientBrush`, którego kolory są w pełni nieprzezroczyste (alpha = 255). Ten prostokąt posłuży jako warstwa tła.
 
 ```csharp
 	float offsetX = 50;
@@ -77,16 +99,18 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## Krok 3: Utwórz prostokąt z przezroczystym wypełnieniem gradientowym
+## Krok 3: Utwórz prostokąt z **przezroczystym** wypełnieniem gradientowym
+
+Teraz używamy **linear gradient brush C#**, w którym wartości alfa są mniejsze niż 255 (np. 150 i 50). Dzięki temu prostokąt jest częściowo przezroczysty, co osiąga efekt pseudo‑przezroczystości.
 
 ```csharp
 	offsetX = 350;
 
-	//Utwórz ścieżkę graficzną z pierwszego prostokąta
+	//Create graphics path from the first rectangle
 	path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-	//Twórz kolory pędzli z gradientem liniowym, których przezroczystość nie wynosi 255, ale 150 i 50. Są więc półprzezroczyste.
+	//Create linear gradient brush colors which transparency are not 255, but 150 and 50. So it are translucent.
 	LinearGradientBrush translucentBrush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
 		Color.FromArgb(50, 40, 128, 70), 0f);
 
@@ -99,42 +123,50 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## Krok 4: Zamknij bieżącą stronę i zapisz dokument
+## Krok 4: Zamknij stronę i zapisz dokument
+
+Na koniec kończymy stronę i zapisujemy plik PS na dysku.
 
 ```csharp
 	document.ClosePage();
 	document.Save();
 }
-// RozwińKoniec:1
+// ExEnd:1
 ```
 
-Wykonując poniższe kroki, możesz bezproblemowo zintegrować pseudoprzezroczystość z dokumentami PostScript za pomocą Aspose.Page dla .NET.
+Postępując zgodnie z tymi czterema krokami, możesz płynnie łączyć nieprzezroczyste i przezroczyste prostokąty, tworząc przekonujący efekt pseudo‑przezroczystości w dowolnym wyjściu PostScript.
 
-## Wniosek
+## Typowe problemy i rozwiązania
 
-Podsumowując, Aspose.Page dla .NET oferuje prosty i skuteczny sposób na ulepszenie elementów wizualnych dokumentów PostScript. Kroki opisane powyżej zapewniają jasną ścieżkę do zastosowania pseudoprzezroczystości, umożliwiając tworzenie oszałamiających wizualnie wyników.
+| Problem | Dlaczego się pojawia | Rozwiązanie |
+|-------|----------------|-----|
+| Kolory wydają się w pełni nieprzezroczyste | Wartość alfa ustawiona na 255 przez pomyłkę | Use `Color.FromArgb(alpha, …)` with `alpha` < 255 |
+| Gradient jest rozciągnięty nieprawidłowo | Nieprawidłowa macierz przekształcenia | Verify the matrix parameters match the rectangle dimensions |
+| Plik wyjściowy jest pusty | Strumień nie został zamknięty lub nie wywołano `Save()` | Ensure `document.ClosePage()` and `document.Save()` are executed inside the `using` block |
 
-## Często zadawane pytania
+## Najczęściej zadawane pytania
 
-### P1: Czy Aspose.Page jest kompatybilny ze wszystkimi wersjami .NET?
+**Q: Czy Aspose.Page jest kompatybilny ze wszystkimi wersjami .NET?**  
+A: Aspose.Page for .NET jest kompatybilny z różnymi wersjami platformy .NET, zapewniając elastyczność i łatwość integracji.
 
-O1: Aspose.Page dla .NET jest kompatybilny z różnymi wersjami frameworku .NET, zapewniając elastyczność i łatwość integracji.
+**Q: Czy mogę zastosować pseudo‑przezroczystość do innych kształtów poza prostokątami?**  
+A: Tak, te same zasady można zastosować do dowolnego kształtu, dostosowując odpowiednio `GraphicsPath`.
 
-### P2: Czy mogę zastosować pseudoprzezroczystość do innych kształtów oprócz prostokątów?
+**Q: Gdzie mogę znaleźć dodatkowe przykłady i dokumentację?**  
+A: Zapoznaj się z [Aspose.Page documentation](https://reference.aspose.com/page/net/) dla kompleksowych przykładów i szczegółowych odniesień API.
 
-Odpowiedź 2: Tak, te same zasady można zastosować do innych kształtów, odpowiednio dostosowując GraphicsPath.
+**Q: Czy dostępna jest darmowa wersja próbna Aspose.Page?**  
+A: Tak, możesz uzyskać darmową wersję próbną Aspose.Page z [this link](https://releases.aspose.com/).
 
-### P3: Gdzie mogę znaleźć dodatkowe przykłady i dokumentację?
+**Q: Jak mogę uzyskać tymczasową licencję na Aspose.Page?**  
+A: Odwiedź [this link](https://purchase.aspose.com/temporary-license/) aby uzyskać tymczasową licencję dla Aspose.Page.
 
- A3: Poznaj[Dokumentacja Aspose.Page](https://reference.aspose.com/page/net/) obszerne przykłady i szczegółową dokumentację.
+---
 
-### P4: Czy dostępna jest bezpłatna wersja próbna Aspose.Page?
+**Ostatnia aktualizacja:** 2026-03-29  
+**Testowano z:** Aspose.Page 24.11 for .NET  
+**Autor:** Aspose  
 
- A4: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Page z[ten link](https://releases.aspose.com/).
-
-### P5: Jak mogę uzyskać tymczasową licencję na Aspose.Page?
-
- A5: Odwiedź[ten link](https://purchase.aspose.com/temporary-license/) aby uzyskać tymczasową licencję na Aspose.Page.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

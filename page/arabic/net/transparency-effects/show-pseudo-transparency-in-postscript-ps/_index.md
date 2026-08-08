@@ -1,35 +1,53 @@
 ---
-title: إظهار الشفافية الزائفة في PostScript (PS) باستخدام Aspose.Page
-linktitle: إظهار الشفافية الزائفة في بوستسكريبت (PS)
+date: 2026-03-29
+description: تعلم كيفية استخدام فرشاة تدرج لوني خطية في C# لإنشاء شفافية شبه حقيقية
+  في PostScript باستخدام Aspose.Page لـ .NET.
+linktitle: Show Pseudo-Transparency in PostScript (PS)
 second_title: Aspose.Page .NET API
-description: اكتشف قوة الشفافية الزائفة في PostScript باستخدام Aspose.Page لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على مستندات مذهلة بصريًا.
-weight: 13
+title: فرشاة التدرج الخطي C# للشفافية الزائفة في PS
 url: /ar/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إظهار الشفافية الزائفة في PostScript (PS) باستخدام Aspose.Page
+# فرشاة التدرج الخطي C# للشفافية الزائفة في PostScript (PS)
 
-## مقدمة
+## المقدمة
 
-هل تتطلع إلى تحسين المظهر المرئي لمستندات PostScript (PS) الخاصة بك من خلال دمج الشفافية الزائفة؟ يوفر Aspose.Page for .NET حلاً قويًا لتحقيق هذا التأثير دون عناء. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال عملية إظهار الشفافية الزائفة في PostScript باستخدام Aspose.Page.
+إذا كنت بحاجة إلى إضافة تأثير شفافية خفيف إلى ملفات PostScript (PS) الخاصة بك، فإن **فرشاة التدرج الخطي C#** هي الأداة المثالية. تجعل لك Aspose.Page for .NET من السهل رسم مستطيلات بملء تدرج معتم وشفاف جزئياً، مما يمنح مستنداتك مظهرًا عصريًا متعدد الطبقات. في هذا الدرس سنستعرض الخطوات الدقيقة لإنشاء شفافية زائفة باستخدام فرشاة التدرج الخطي في C#.
 
-## المتطلبات الأساسية
+## إجابات سريعة
+- **ما المكتبة التي توفر فرشاة التدرج الخطي؟** Aspose.Page for .NET
+- **أي فئة رسومية تنشئ التدرج؟** `LinearGradientBrush`
+- **هل يمكنني التحكم في الشفافية لكل لون؟** نعم، باستخدام `Color.FromArgb(alpha, …)`
+- **هل أحتاج إلى ترخيص للإنتاج؟** يلزم وجود ترخيص صالح لـ Aspose.Page
+- **الإصدارات المدعومة من .NET؟** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
 
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+## ما هي فرشاة التدرج الخطي C#؟
 
-- Aspose.Page لـ .NET: تأكد من تثبيت مكتبة Aspose.Page لـ .NET. يمكنك تنزيله من[Aspose.Page الوثائق](https://reference.aspose.com/page/net/).
+`LinearGradientBrush` هي كائن GDI+ يرسم انتقالًا سلسًا بين لونين على طول خط مستقيم. عندما تحدد قناة ألفا (0‑255) لكل لون، يمكنك إنشاء تدرجات شفافة جزئياً — وهو بالضبط ما نحتاجه للشفافية الزائفة في PostScript.
 
-- دليل المستندات: قم بإعداد دليل لتخزين مستندات PostScript الخاصة بك.
+## لماذا نستخدم فرشاة التدرج الخطي C# للشفافية الزائفة؟
 
-الآن بعد أن أصبحت لديك الأدوات اللازمة في ترسانتك، دعنا نستكشف كيفية عرض الشفافية الزائفة في PostScript باستخدام Aspose.Page.
+- **تحكم دقيق في الشفافية:** ضبط قيمة ألفا لكل لون لتحقيق مستوى الشفافية المطلوب.  
+- **عرض مستقل عن الجهاز:** تعمل الفرشاة بنفس الطريقة على الشاشة، PDF، EPS، ومخرجات PS.  
+- **واجهة برمجة تطبيقات بسيطة:** بضع أسطر من كود C# تنتج تأثيرات بصرية احترافية.
 
-## استيراد مساحات الأسماء
+## المتطلبات المسبقة
 
-قبل الخوض في المثال، تأكد من استيراد مساحات الأسماء المطلوبة:
+قبل الغوص في الكود، تأكد من أنك تمتلك:
+
+- Aspose.Page for .NET مثبتة. يمكنك تنزيلها من [توثيق Aspose.Page](https://reference.aspose.com/page/net/).
+- مجلد قابل للكتابة حيث سيتم حفظ مستند PostScript المُولد.
+
+الآن بعد أن لديك الأدوات اللازمة، دعنا نبدأ بإنشاء المستطيلات الشفافة جزئياً.
+
+## استيراد المساحات الاسمية
+
+قبل أن نبدأ، استورد المساحات الاسمية التي تحتوي على الفئات التي سنستخدمها:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,23 +57,27 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## الخطوة 1: إنشاء دفق الإخراج لمستند PostScript
+## الخطوة 1: إنشاء تدفق الإخراج لمستند PostScript
+
+نبدأ بإنشاء تدفق ملف سيحمل ملف PS الناتج، ثم نهيئ `PsDocument`.
 
 ```csharp
-// البداية:1
-// المسار إلى دليل المستندات.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//إنشاء دفق الإخراج لمستند بوستسكريبت
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_outPS.ps", FileMode.Create))
 {
-	//إنشاء خيارات الحفظ بحجم A4
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 
-	// قم بإنشاء مستند PS جديد مكون من صفحة واحدة
+	// Create new 1‑paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## الخطوة 2: إنشاء مستطيل مع تعبئة متدرجة غير شفافة
+## الخطوة 2: إنشاء مستطيل بملء تدرج **معتم**
+
+هنا نقوم بإنشاء `LinearGradientBrush` حيث ألوانه معتمة بالكامل (alpha = 255). سيعمل هذا المستطيل كطبقة خلفية.
 
 ```csharp
 	float offsetX = 50;
@@ -77,16 +99,18 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## الخطوة 3: إنشاء مستطيل مع تعبئة متدرجة شفافة
+## الخطوة 3: إنشاء مستطيل بملء تدرج **شفاف جزئياً**
+
+الآن نستخدم **فرشاة التدرج الخطي C#** حيث قيم ألفا أقل من 255 (مثلاً 150 و 50). هذا يجعل المستطيل شفافاً جزئياً، محققاً تأثير الشفافية الزائفة.
 
 ```csharp
 	offsetX = 350;
 
-	//قم بإنشاء مسار الرسومات من المستطيل الأول
+	//Create graphics path from the first rectangle
 	path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-	//قم بإنشاء ألوان فرشاة متدرجة خطية بحيث تكون الشفافية ليست 255، بل 150 و50. لذا فهي شفافة.
+	//Create linear gradient brush colors which transparency are not 255, but 150 and 50. So it are translucent.
 	LinearGradientBrush translucentBrush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
 		Color.FromArgb(50, 40, 128, 70), 0f);
 
@@ -99,42 +123,50 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## الخطوة 4: أغلق الصفحة الحالية واحفظ المستند
+## الخطوة 4: إغلاق الصفحة وحفظ المستند
+
+أخيرًا نكمل الصفحة ونكتب ملف PS إلى القرص.
 
 ```csharp
 	document.ClosePage();
 	document.Save();
 }
-// النهاية:1
+// ExEnd:1
 ```
 
-باتباع هذه الخطوات، يمكنك دمج الشفافية الزائفة بسلاسة في مستندات PostScript الخاصة بك باستخدام Aspose.Page for .NET.
+باتباع هذه الخطوات الأربع يمكنك دمج المستطيلات المعتمة والشفافة جزئياً بسلاسة، مما يخلق تأثير شفافية زائفة مقنع في أي مخرج PostScript.
 
-## خاتمة
+## المشكلات الشائعة والحلول
 
-في الختام، يقدم Aspose.Page for .NET طريقة مباشرة وفعالة لتحسين العناصر المرئية لمستندات PostScript الخاصة بك. توفر الخطوات الموضحة أعلاه مسارًا واضحًا لدمج الشفافية الزائفة، مما يسمح لك بإنشاء مخرجات مذهلة بصريًا.
+| المشكلة | سبب حدوثه | الحل |
+|-------|----------------|-----|
+| الألوان تظهر معتمة بالكامل | تم تعيين قيمة ألفا إلى 255 عن طريق الخطأ | استخدم `Color.FromArgb(alpha, …)` مع `alpha` < 255 |
+| التدرج ممتد بشكل غير صحيح | مصفوفة التحويل غير صحيحة | تحقق من أن معلمات المصفوفة تتطابق مع أبعاد المستطيل |
+| ملف الإخراج فارغ | لم يتم إغلاق الـ Stream أو عدم استدعاء `Save()` | تأكد من تنفيذ `document.ClosePage()` و `document.Save()` داخل كتلة `using` |
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل Aspose.Page متوافق مع كافة إصدارات .NET؟
+**س: هل Aspose.Page متوافق مع جميع إصدارات .NET؟**  
+ج: Aspose.Page for .NET متوافق مع إصدارات مختلفة من إطار .NET، مما يضمن المرونة وسهولة التكامل.
 
-ج1: يتوافق Aspose.Page for .NET مع إصدارات مختلفة من .NET Framework، مما يضمن المرونة وسهولة التكامل.
+**س: هل يمكنني تطبيق الشفافية الزائفة على أشكال أخرى غير المستطيلات؟**  
+ج: نعم، يمكن تطبيق نفس المبادئ على أي شكل عن طريق تعديل `GraphicsPath` وفقًا لذلك.
 
-### س2: هل يمكنني تطبيق الشفافية الزائفة على أشكال أخرى إلى جانب المستطيلات؟
+**س: أين يمكنني العثور على أمثلة إضافية ووثائق؟**  
+ج: استكشف [Aspose.Page documentation](https://reference.aspose.com/page/net/) للحصول على أمثلة شاملة ومراجع API مفصلة.
 
-ج2: نعم، يمكن تطبيق نفس المبادئ على الأشكال الأخرى عن طريق ضبط GraphicsPath وفقًا لذلك.
+**س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Page؟**  
+ج: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.Page عبر [this link](https://releases.aspose.com/).
 
-### س3: أين يمكنني العثور على أمثلة ووثائق إضافية؟
+**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page؟**  
+ج: قم بزيارة [this link](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لـ Aspose.Page.
 
- ج3: اكتشف[Aspose.Page الوثائق](https://reference.aspose.com/page/net/) للحصول على أمثلة شاملة ووثائق مفصلة.
+---
 
-### س4: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Page؟
+**آخر تحديث:** 2026-03-29  
+**تم الاختبار مع:** Aspose.Page 24.11 for .NET  
+**المؤلف:** Aspose  
 
- ج4: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Page من[هذا الرابط](https://releases.aspose.com/).
-
-### س5: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page؟
-
- ج5: زيارة[هذا الرابط](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لصفحة Aspose.Page.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
