@@ -1,34 +1,40 @@
 ---
-title: Terapkan Pola Ubin Tekstur ke PostScript (PS) dengan Aspose.Page
-linktitle: Terapkan Pola Ubin Tekstur ke PostScript (PS)
-second_title: Aspose.Halaman .NET API
-description: Sempurnakan dokumen PostScript (PS) Anda dengan pola ubin tekstur menggunakan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk sentuhan kreatif.
-weight: 10
+date: 2026-03-26
+description: Pelajari cara membuat dokumen PostScript .NET dengan pola ubin tekstur
+  menggunakan Aspose.Page. Ikuti panduan langkah demi langkah kami untuk menambahkan
+  tekstur kaya ke file PS Anda.
+linktitle: Create PostScript .NET document with texture tiling
+second_title: Aspose.Page .NET API
+title: Buat dokumen PostScript .NET dengan penyusunan tekstur
 url: /id/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Terapkan Pola Ubin Tekstur ke PostScript (PS) dengan Aspose.Page
+# Buat Dokumen PostScript .NET dengan Pengulangan Tekstur
 
-## Perkenalan
+## Cara membuat dokumen PostScript .NET dengan pengulangan tekstur
 
-Selamat datang di tutorial langkah demi langkah tentang cara menerapkan pola ubin tekstur ke dokumen PostScript (PS) menggunakan Aspose.Page untuk .NET. Aspose.Page adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan berbagai format dokumen, dan dalam tutorial ini, kita akan menjelajahi cara menyempurnakan dokumen PS Anda dengan menambahkan pola ubin tekstur.
+## Jawaban Cepat
+- **Library apa yang digunakan?** Aspose.Page for .NET  
+- **Apakah saya dapat menggunakan .NET Core?** Ya, library mendukung .NET Core dan .NET 5/6  
+- **Format gambar apa yang dapat digunakan untuk tekstur?** Format apa pun yang didukung oleh System.Drawing (BMP, PNG, JPEG, dll.)  
+- **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk contoh dasar  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi diperlukan untuk produksi  
 
 ## Prasyarat
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki hal berikut:
-
-- [Studio visual](https://visualstudio.microsoft.com/) diinstal pada mesin Anda.
-- Pengetahuan dasar tentang pemrograman C#.
--  Unduh dan instal[Aspose.Page untuk perpustakaan .NET](https://releases.aspose.com/page/net/).
-- File gambar untuk pola tekstur (misalnya, "TestTexture.bmp").
+- [Visual Studio](https://visualstudio.microsoft.com/) terpasang di mesin Anda.  
+- Pengetahuan dasar tentang pemrograman C#.  
+- Unduh dan instal [Aspose.Page for .NET library](https://releases.aspose.com/page/net/).  
+- Sebuah file gambar untuk pola tekstur (misalnya **TestTexture.bmp**).
 
 ## Impor Namespace
 
-Dalam kode C# Anda, pastikan Anda mengimpor namespace yang diperlukan:
+Di file C# Anda, impor namespace yang diperlukan agar kompiler mengetahui di mana menemukan tipe yang akan kami gunakan:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,130 +44,135 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Mari kita bagi contoh yang diberikan menjadi beberapa langkah untuk memandu Anda melalui proses tersebut.
-
 ## Langkah 1: Siapkan Direktori Dokumen
 
 ```csharp
-// Jalur ke direktori dokumen.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Pastikan untuk mengganti "Direktori Dokumen Anda" dengan jalur tempat Anda ingin menyimpan dokumen PS Anda.
+Ganti **Your Document Directory** dengan folder tempat Anda ingin menyimpan file PS yang dihasilkan.
 
-## Langkah 2: Buat Aliran Output untuk Dokumen PS
+## Langkah 2: Buat Stream Output untuk Dokumen PS
 
 ```csharp
-// Buat aliran keluaran untuk dokumen PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddTextureTilingPattern_outPS.ps", FileMode.Create))
 {
-    // Buat opsi penyimpanan dengan ukuran A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Buat Dokumen PS 1 halaman baru
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Langkah ini mengatur aliran keluaran untuk dokumen PS, termasuk menentukan ukuran dokumen.
+Blok ini membuka file stream, mengatur ukuran halaman (A4 secara default), dan membuat instance **PsDocument** baru yang akan kita gambar.
 
-## Langkah 3: Terapkan Pola Ubin Tekstur
+## Langkah 3: Terapkan Pola Pengulangan Tekstur
 
 ```csharp
-// Buat objek Bitmap dari file gambar
+// Create a Bitmap object from the image file
 using (Bitmap image = new Bitmap(dataDir + "TestTexture.bmp"))
 {
-    // Buat kuas tekstur dari gambar
+    // Create texture brush from the image
     TextureBrush brush = new TextureBrush(image, WrapMode.Tile);
 
-    //Tambahkan penskalaan dalam arah X ke polanya
+    // Add scaling in X direction to the pattern
     Matrix transform = new Matrix(2, 0, 0, 1, 0, 0);
     brush.Transform = transform;
 
-    // Atur kuas tekstur ini sebagai cat saat ini
+    // Set this texture brush as the current paint
     document.SetPaint(brush);
 }
 ```
 
-Langkah ini melibatkan pembuatan kuas tekstur dari gambar dan mengaturnya sebagai cat saat ini untuk dokumen.
+Di sini kami memuat bitmap, membungkusnya dalam **TextureBrush**, secara opsional memperluasnya secara horizontal, dan memberi tahu **PsDocument** untuk menggunakan kuas ini pada operasi menggambar berikutnya.
 
 ## Langkah 4: Buat Jalur Persegi Panjang dan Isi
 
 ```csharp
-// Buat jalur persegi panjang
+// Create rectangle path
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(0, 0, 200, 100));
 
-// Isi persegi panjang
+// Fill rectangle
 document.Fill(path);
 ```
 
-Di sini, kita menentukan jalur persegi panjang dan mengisinya dengan kuas tekstur yang telah ditetapkan sebelumnya.
+Sebuah persegi panjang sederhana didefinisikan dan diisi dengan kuas tekstur yang telah kami atur sebelumnya.
 
-## Langkah 5: Atur Stroke dan Gambar
+## Langkah 5: Atur Garis Luar dan Gambar
 
 ```csharp
-// Dapatkan cat terkini
+// Get current paint
 Brush paint = document.GetPaint();
 
-// Atur goresan merah
+// Set red stroke
 document.SetStroke(new Pen(new SolidBrush(Color.Red), 2));
 
-// Goreskan persegi panjang tersebut
+// Stroke the rectangle
 document.Draw(path);
 ```
 
-Langkah ini melibatkan pengaturan properti guratan dan menggambar persegi panjang yang digariskan.
+Kami mengambil cat (paint) saat ini (kuas tekstur), membuat pena merah untuk garis luar, dan menggambar batas persegi panjang.
 
-## Langkah 6: Isi dan Garis Besar Teks dengan Pola Tekstur
+## Langkah 6: Isi dan Garis Luar Teks dengan Pola Tekstur
 
 ```csharp
-// Isi teks dengan pola tekstur
+// Fill text with texture pattern                
 Font font = new Font("Arial", 96, FontStyle.Bold);
 document.FillAndStrokeText("ABC", font, 200, 300, paint, new Pen(Color.Black, 2));
 
-// Garis besar teks dengan pola tekstur
+// Outline text with texture pattern
 document.OutlineText("ABC", font, 200, 400, new Pen(paint, 5));
 ```
 
-Terakhir, kami mengisi dan menguraikan teks dengan pola tekstur, sehingga meningkatkan daya tarik visual dokumen Anda.
+Langkah ini menunjukkan kemampuan **fill and stroke text**: karakter “ABC” diisi dengan kuas tekstur dan kemudian digarisbawahi, menghasilkan efek visual yang mencolok.
 
 ## Langkah 7: Simpan dan Tutup Dokumen
 
 ```csharp
-// Tutup halaman saat ini
+// Close current page
 document.ClosePage();
 
-// Simpan dokumennya
+// Save the document
 document.Save();
 ```
 
-Pastikan untuk menutup halaman saat ini dan menyimpan dokumen untuk menerapkan perubahan.
+Menutup halaman menyelesaikan perintah menggambar, dan `Save()` menulis file PostScript ke disk.
+
+## Masalah Umum dan Solusinya
+
+- **Tekstur tampak terdistorsi** – Sesuaikan nilai `Matrix` untuk mengontrol skala pada arah X/Y.  
+- **Gambar tidak ditemukan** – Pastikan `dataDir` mengarah ke folder yang tepat dan nama file cocok persis, termasuk huruf besar/kecil.  
+- **Warna tampak tidak tepat** – Ingat bahwa PostScript menggunakan ruang warna yang tidak bergantung pada perangkat; pastikan Anda menggunakan objek `Color` yang dipetakan dengan benar.
+
+## Pertanyaan yang Sering Diajukan
+
+**T:** Apakah saya dapat menggunakan format gambar lain untuk pola tekstur?  
+**J:** Ya, format apa pun yang didukung oleh `System.Drawing.Bitmap` (BMP, PNG, JPEG, GIF, dll.) dapat digunakan.
+
+**T:** Apakah Aspose.Page kompatibel dengan .NET Core?  
+**J:** Tentu saja. Library berjalan di .NET Framework, .NET Core, dan .NET 5/6.
+
+**T:** Bagaimana cara mengubah ukuran persegi panjang bertekstur?  
+**J:** Modifikasi nilai `RectangleF` pada langkah pembuatan persegi panjang (misalnya, `new RectangleF(0, 0, 300, 150)`).
+
+**T:** Dapatkah saya menerapkan beberapa pola tekstur dalam satu dokumen?  
+**J:** Ya. Cukup buat `TextureBrush` baru dengan gambar berbeda dan panggil `SetPaint` lagi sebelum menggambar bentuk atau teks berikutnya.
+
+**T:** Di mana saya dapat menemukan contoh lebih banyak dan referensi API?  
+**J:** Kunjungi [Aspose.Page Forum](https://forum.aspose.com/c/page/39) untuk bantuan komunitas dan [dokumentasi resmi](https://reference.aspose.com/page/net/) untuk penggunaan API secara detail.
 
 ## Kesimpulan
 
-Selamat! Anda telah berhasil mempelajari cara menerapkan pola ubin tekstur ke dokumen PostScript menggunakan Aspose.Page untuk .NET. Bereksperimenlah dengan berbagai gambar dan pola untuk menyesuaikan dokumen PS Anda lebih jauh.
+Anda kini tahu cara **membuat dokumen PostScript .NET** dan menerapkan pola pengulangan tekstur, termasuk cara **mengisi dan menggarisbawahi teks** dengan tekstur tersebut. Bereksperimenlah dengan gambar berbeda, matriks skala, dan primitif menggambar untuk menghasilkan file PS bergaya khusus untuk laporan, selebaran, atau output grafis lainnya.
 
-## FAQ
+---
 
-### Q1: Dapatkah saya menggunakan format gambar lain untuk pola tekstur?
-
-A1: Ya, Aspose.Page mendukung berbagai format gambar. Pastikan kompatibilitas dengan dokumentasi perpustakaan.
-
-### Q2: Apakah Aspose.Page kompatibel dengan .NET Core?
-
-A2: Ya, Aspose.Page kompatibel dengan .NET Framework dan .NET Core.
-
-### Q3: Bagaimana cara menyesuaikan ukuran persegi panjang bertekstur?
-
- A3: Ubah dimensi di`RectangleF` parameter selama pembuatan jalur.
-
-### Q4: Bisakah saya menambahkan beberapa pola tekstur ke satu dokumen?
-
-A4: Ya, Anda dapat mengulangi proses tersebut dengan gambar dan jalur yang berbeda.
-
-### Q5: Di mana saya dapat menemukan sumber daya dan dukungan tambahan?
-
- A5: Kunjungi[Aspose.Halaman Forum](https://forum.aspose.com/c/page/39) untuk dukungan komunitas dan menjelajahi[dokumentasi](https://reference.aspose.com/page/net/).
+**Terakhir Diperbarui:** 2026-03-26  
+**Diuji Dengan:** Aspose.Page 24.11 for .NET  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

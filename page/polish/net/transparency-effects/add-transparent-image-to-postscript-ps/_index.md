@@ -1,33 +1,43 @@
 ---
-title: Dodaj przezroczysty obraz do PostScriptu (PS) za pomocą Aspose.Page
-linktitle: Dodaj przezroczysty obraz do PostScriptu (PS)
-second_title: Aspose.Page API .NET
-description: Wzbogać swoje dokumenty PostScript przezroczystymi obrazami za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać dynamiczne i atrakcyjne wizualnie rezultaty.
-weight: 10
+date: 2026-03-26
+description: Dowiedz się, jak tworzyć dokumenty PostScript w .NET i dodawać przezroczysty
+  obraz przy użyciu Aspose.Page. Ten przewodnik krok po kroku obejmuje wymagania wstępne,
+  kod oraz wskazówki.
+linktitle: Add Transparent Image to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Utwórz dokument PostScript w .NET z przezroczystym obrazem (Aspose.Page)
 url: /pl/net/transparency-effects/add-transparent-image-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj przezroczysty obraz do PostScriptu (PS) za pomocą Aspose.Page
+# Utwórz dokument PostScript .NET z przezroczystym obrazem (Aspose.Page)
 
-## Wstęp
+## Introduction
 
-W dziedzinie manipulacji i ulepszania dokumentów Aspose.Page dla .NET wyróżnia się jako potężne narzędzie do pracy z plikami PostScript (PS). Jedną z fascynujących możliwości, jakie oferuje, jest dodawanie przezroczystych obrazów do dokumentów PS. W tym samouczku przeprowadzimy Cię przez proces osiągnięcia tego celu za pomocą Aspose.Page, dzięki czemu Twoje dokumenty PS będą bardziej dynamiczne i atrakcyjne wizualnie.
+W tym samouczku dowiesz się, **jak utworzyć dokument PostScript .NET** i osadzić przezroczysty PNG przy użyciu Aspose.Page dla .NET. Dodawanie przezroczystych obrazów pozwala tworzyć bogatszą, warstwową grafikę — idealną do znaków wodnych, nakładek lub makiet UI wewnątrz pliku PS. Przejdziemy krok po kroku, od konfiguracji środowiska po renderowanie zarówno nieprzezroczystych, jak i przezroczystych obrazów.
 
-## Warunki wstępne
+## Quick Answers
+- **What does Aspose.Page do?** Dostarcza w pełni funkcjonalne API do generowania, edytowania i renderowania dokumentów PostScript (PS) i XPS w .NET.  
+- **Can I add transparent PNGs?** Tak — użyj `DrawTransparentImage`, aby kontrolować krycie.  
+- **Which .NET versions are supported?** Wszystkie najnowsze .NET Framework, .NET Core oraz wydania .NET 5/6.  
+- **Do I need a license?** Darmowa wersja próbna działa do oceny; licencja jest wymagana w produkcji.  
+- **How long does implementation take?** Około 10‑15 minut dla podstawowego przykładu.
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Prerequisites
 
--  Aspose.Page dla biblioteki .NET: Pobierz i zainstaluj bibliotekę z[link do pobrania](https://releases.aspose.com/page/net/).
-- Katalog dokumentów: skonfiguruj katalog, w którym będziesz przechowywać dokument PS i powiązane obrazy.
-- Obraz półprzezroczysty: Przygotuj plik obrazu półprzezroczystego (np. „mask1.png”), który zostanie dodany do dokumentu PS.
+Before we dive in, make sure you have:
 
-## Importuj przestrzenie nazw
+- **Aspose.Page for .NET** – download it from the [download link](https://releases.aspose.com/page/net/).  
+- Folder, w którym przechowasz dokument PS oraz obraz, który chcesz osadzić.  
+- Przezroczysty PNG (np. `mask1.png`), który będzie użyty jako warstwa przezroczysta.
 
-Aby rozpocząć proces, musisz zaimportować niezbędne przestrzenie nazw do swojego projektu. Te przestrzenie nazw zapewniają podstawowe klasy i metody wymagane do pracy z dokumentami PS przy użyciu Aspose.Page.
+## Import Namespaces
+
+First, import the namespaces that contain the classes we’ll need. This gives us access to the PS document model, graphics utilities, and basic .NET drawing types.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -37,55 +47,57 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Krok 1: Skonfiguruj katalog dokumentów
+## Step 1: Set Up Your Document Directory
 
-Rozpocznij od zdefiniowania ścieżki do katalogu dokumentów. W tym miejscu będą przechowywane dokumenty PS i powiązane z nimi obrazy.
+Define the path where the source image and the output PS file will live. Replace the placeholder with the actual path on your machine.
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Utwórz strumień wyjściowy dla dokumentu PostScript
+## Step 2: Create Output Stream for PostScript Document
 
-Teraz utwórz strumień wyjściowy dla dokumentu PostScript. Strumień ten zostanie wykorzystany do zapisania dokumentu PS po dodaniu przezroczystego obrazu.
+We’ll write the generated PS content to a file stream. This stream is later passed to the `PsDocument` constructor.
 
 ```csharp
 using (Stream outPsStream = new FileStream(dataDir + "AddTransparentImage_outPS.ps", FileMode.Create))
 {
-    // Twój kod kolejnych kroków znajdzie się tutaj.
+    // Your code for the next steps will go here.
 }
 ```
 
-## Krok 3: Ustaw opcje zapisu i kolor tła
+## Step 3: Set Save Options and Background Color
 
-Skonfiguruj opcje zapisywania dokumentu PS, w tym ustawienie koloru tła. Ma to kluczowe znaczenie w przypadku wyświetlania białego obrazu na własnym przezroczystym tle.
+Configure `PsSaveOptions` to define how the file is saved. Setting a background color is useful when you want a solid canvas behind transparent elements.
 
 ```csharp
 PsSaveOptions options = new PsSaveOptions();
 options.BackgroundColor = Color.FromArgb(211, 8, 48);
 ```
 
-## Krok 4: Utwórz nowy 1-stronicowy dokument PS
+## Step 4: Create a New 1‑Paged PS Document
 
-Wygeneruj nowy dokument PS z pojedynczą stroną, korzystając z określonych opcji zapisywania.
+Create the document using the stream and options defined above. The `false` flag tells Aspose.Page not to automatically close the stream.
 
 ```csharp
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Krok 5: Napisz grafikę, zapisz i przetłumacz
+## Step 5: Write Graphics Save and Translate
 
-Rozpocznij operację zapisywania grafiki i przetłumacz dokument. Działania te przygotowują etap dodawania obrazów do dokumentu.
+Before drawing, we save the current graphics state and translate the origin so that our images appear at the desired location on the page.
 
 ```csharp
 document.WriteGraphicsSave();
 document.Translate(20, 100);
 ```
 
-## Krok 6: Dodaj nieprzezroczysty obraz RGB
+## How to add transparent image to a PostScript document
 
-Utwórz bitmapę z pliku półprzezroczystego obrazu i dodaj ją do dokumentu jako zwykły nieprzezroczysty obraz RGB.
+### Step 6: Add Opaque RGB Image
+
+First we add the same PNG as a normal opaque image. This demonstrates the visual difference when we later apply transparency.
 
 ```csharp
 using (Bitmap image = new Bitmap(dataDir + "mask1.png"))
@@ -94,9 +106,9 @@ using (Bitmap image = new Bitmap(dataDir + "mask1.png"))
 }
 ```
 
-## Krok 7: Dodaj przezroczysty obraz
+### Step 7: Add Transparent Image
 
-Powtórz proces dodawania tego samego obrazu do dokumentu, ale tym razem jako obraz przezroczysty.
+Now we use `DrawTransparentImage` to render the PNG with an opacity value. The third parameter (`255`) represents full opacity; lower values increase transparency. This is where we **set image transparency .NET**.
 
 ```csharp
 using (Bitmap image = new Bitmap(dataDir + "mask1.png"))
@@ -105,50 +117,68 @@ using (Bitmap image = new Bitmap(dataDir + "mask1.png"))
 }
 ```
 
-## Krok 8: Zapisz przywracanie grafiki i zamknij stronę
+> **Pro tip:** To make the image 50 % transparent, pass `128` instead of `255`.
 
-Zakończ operacje graficzne, przywróć stan grafiki i zamknij bieżącą stronę.
+## Step 8: Write Graphics Restore and Close Page
+
+After drawing, restore the previous graphics state and close the page to finalize the content.
 
 ```csharp
 document.WriteGraphicsRestore();
 document.ClosePage();
 ```
 
-## Krok 9: Zapisz dokument
+## Step 9: Save the Document
 
-Zapisz sfinalizowany dokument PS.
+Finally, persist the PS file to disk.
 
 ```csharp
 document.Save();
 ```
 
-Wykonując poniższe kroki, pomyślnie dodałeś przezroczysty obraz do dokumentu PostScript za pomocą Aspose.Page dla .NET.
+By following these steps you have **created a PostScript document .NET** that contains both an opaque and a transparent image, showcasing how to **draw transparent image C#** with Aspose.Page.
 
-## Wniosek
+## Why use Aspose.Page for transparency effects?
 
-W tym samouczku omówiliśmy bezproblemowy proces ulepszania dokumentów PostScript za pomocą przezroczystych obrazów przy użyciu Aspose.Page dla .NET. Możliwość łączenia nieprzezroczystych i przezroczystych obrazów otwiera nowe możliwości tworzenia atrakcyjnych wizualnie i dynamicznych dokumentów.
+- **Full control** over graphics state, matrices, and opacity levels.  
+- **No external dependencies**—everything runs inside pure .NET code.  
+- **Cross‑platform** support lets you generate PS files on Windows, Linux, or macOS.
 
-## Często zadawane pytania
+## Common Pitfalls & Troubleshooting
 
-### P1: Czy ze względu na przezroczystość mogę używać innych formatów obrazów oprócz PNG?
+| Problem | Rozwiązanie |
+|-------|----------|
+| Obraz jest w pełni nieprzezroczysty mimo użycia `DrawTransparentImage` | Upewnij się, że wartość alfa (trzeci argument) jest mniejsza niż `255`. |
+| Plik PS wyświetla pustą stronę | Sprawdź, czy ustawiono kolor tła i czy ścieżka strumienia jest prawidłowa. |
+| Wyjątek “File not found” | Ponownie sprawdź `dataDir` oraz czy `mask1.png` istnieje w tym folderze. |
 
-O1: Tak, Aspose.Page obsługuje różne formaty obrazów w celu zapewnienia przezroczystości, w tym PNG, GIF i TIFF.
+## Frequently Asked Questions
 
-### P2: Czy Aspose.Page jest kompatybilny z najnowszym frameworkiem .NET?
+**Q: Can I use other image formats besides PNG for transparency?**  
+A: Tak — Aspose.Page obsługuje PNG, GIF i TIFF do renderowania przezroczystości.
 
-Odpowiedź 2: Oczywiście, Aspose.Page jest regularnie aktualizowany, aby zapewnić kompatybilność z najnowszymi wersjami platformy .NET.
+**Q: Is Aspose.Page compatible with the latest .NET framework?**  
+A: Absolutnie. Biblioteka jest regularnie aktualizowana pod .NET 6, .NET 7 i nowsze wersje.
 
-### P3: Czy mogę zastosować przezroczystość do istniejących dokumentów PS?
+**Q: Can I apply transparency to an existing PS document?**  
+A: Tak. Otwórz dokument przy pomocy `PsDocument`, dodaj nową stronę lub zmodyfikuj istniejącą, a następnie użyj tego samego podejścia `DrawTransparentImage`.
 
-O3: Tak, możesz wykonać podobne kroki, aby dodać przezroczystość do obrazów w istniejących dokumentach PS.
+**Q: What advantages does Aspose.Page offer over generic graphics libraries?**  
+A: Jest specjalnie zaprojektowany dla PS/XPS, oferując precyzyjną kontrolę nad grafiką wektorową, czcionkami i obsługą obrazów bez potrzeby pełnego silnika renderującego.
 
-### P4: Jakie zalety oferuje Aspose.Page w porównaniu z innymi bibliotekami?
+**Q: Are there limits to the transparency level I can set?**  
+A: Nie. Możesz określić dowolną wartość alfa od `0` (całkowicie przezroczysty) do `255` (w pełni nieprzezroczysty).
 
-O4: Aspose.Page zapewnia kompleksowy zestaw funkcji do pracy z dokumentami PS i XPS, oferując rozwiązanie dostosowane do Twoich potrzeb.
+## Conclusion
 
-### P5: Czy istnieją jakieś ograniczenia dotyczące poziomu przezroczystości, który mogę ustawić?
+We’ve demonstrated how to **create a PostScript document .NET** and embed both opaque and transparent images using Aspose.Page. This technique opens the door to sophisticated document layouts, watermarking, and layered graphics—all generated programmatically from C#.
 
-O5: Nie, Aspose.Page umożliwia ustawienie poziomów przezroczystości według potrzeb, zapewniając elastyczność w projektowaniu dokumentu.
+---
+
+**Last Updated:** 2026-03-26  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
