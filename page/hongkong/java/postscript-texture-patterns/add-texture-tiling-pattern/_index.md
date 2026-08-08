@@ -1,9 +1,13 @@
 ---
-date: 2025-12-17
-description: 學習如何使用 Aspose.Page for Java 為 PostScript 文件添加紋理平鋪圖案。本指南展示如何高效添加紋理並探索創意可能性。
-linktitle: Add Texture Tiling Pattern in Java PostScript
+date: 2026-05-05
+description: 學習如何使用 Aspose.Page for Java 為 PostScript 文件添加紋理平鋪圖案。本指南示範如何高效加入紋理，並探索創意的可能性。
+keywords:
+- how to add texture
+- fill shape with texture
+- fill rectangle with texture
+linktitle: 在 Java PostScript 中新增紋理平鋪圖案
 second_title: Aspose.Page Java API
-title: 如何在 Java PostScript 中加入紋理平鋪圖案
+title: 如何在 Java PostScript 中加入紋理平鋪圖樣
 url: /zh-hant/java/postscript-texture-patterns/add-texture-tiling-pattern/
 weight: 10
 ---
@@ -12,34 +16,36 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 Java PostScript 中加入紋理平鋪圖案
+# 如何在 Java PostScript 中加入紋理平鋪圖案
 
-## 簡介
-在 Java 開發領域，學習 **如何加入紋理** 到 PostScript 文件是一項常見需求。Aspose.Page for Java 是實現此任務的得力工具。本教學將指導您如何使用 Aspose.Page 在 Java PostScript 文件中加入紋理平鋪圖案。
+## 介紹
+在 Java 開發領域，學習 **如何加入紋理** 到 PostScript 文件是一項常見需求。Aspose.Page for Java 讓此工作變得簡單，讓您專注於設計而非低階的 PostScript 語法。在本教學中，我們將逐步說明如何新增紋理平鋪圖案、填充形狀，甚至在 Java PostScript 文件中為文字加入紋理。
 
-## 快速解答
-- **需要的函式庫是什麼？** Aspose.Page for Java  
+## 快速回答
+- **需要的程式庫是什麼？** Aspose.Page for Java  
 - **本指南的主要關鍵字是什麼？** *how to add texture*  
-- **測試是否需要授權？** 提供免費試用版；正式環境需購買授權。  
-- **支援的 Java 版本為何？** Java 8 或以上。  
-- **可以重複使用同一個紋理筆刷繪製多個形狀嗎？** 可以 – 只需建立一次 `TexturePaint`，即可套用於任何形狀。
+- **測試是否需要授權？** A free trial is available; a license is required for production.  
+- **支援的 Java 版本是？** Java 8 or higher.  
+- **我可以在多個形狀上重複使用紋理筆刷嗎？** Yes – create the `TexturePaint` once and apply it to any shape.  
+- **如何使用紋理填滿矩形？** Use `document.fill(shape)` after setting the `TexturePaint` as the current paint.
 
 ## 什麼是紋理平鋪圖案？
-紋理平鋪圖案會將小圖像（圖塊）在較大區域內重複排列，讓您 **以紋理填充形狀**，而不必手動繪製每一塊圖塊。此技術非常適合用於背景、填充以及 PostScript 中的裝飾文字效果。
+紋理平鋪圖案會在較大的區域內重複小圖像（圖塊），讓您能夠 **以紋理填滿形狀**，而無需手動繪製每個圖塊。此技術非常適合用於 PostScript 中的背景、填充以及裝飾性文字效果。
 
-## 為何使用 Aspose.Page for Java？
-- **零相依性渲染** – 無需外部 PostScript 直譯器。  
-- **完整的圖形控制** – 可結合向量形狀、文字與點陣圖紋理。  
-- **跨平台** – 只要支援 Java 的作業系統皆可執行。  
+## 為什麼使用 Aspose.Page for Java？
+- **零依賴渲染** – no need for external PostScript interpreters.  
+- **完整的圖形控制** – combine vector shapes, text, and bitmap textures.  
+- **跨平台** – works on any OS that supports Java.  
 
 ## 前置條件
-在開始教學之前，請確保您已具備以下前置條件：
-- 具備 Java 程式語言的基礎知識。  
+在開始本教學之前，請確保已具備以下前置條件：
+
+- 具備 Java 程式語言的基本了解。  
 - 熟悉 PostScript 文件結構。  
-- 已安裝 Aspose.Page for Java 函式庫。您可以在此處下載 [here](https://releases.aspose.com/page/java/)。
+- 已安裝 Aspose.Page for Java 程式庫。您可以在此處下載 [此處](https://releases.aspose.com/page/java/)。  
 
 ## 匯入套件
-先為您的 Java 專案匯入必要的套件：
+首先為您的 Java 專案匯入必要的套件：
 
 ```java
 import java.awt.BasicStroke;
@@ -55,8 +61,11 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## 步驟 1：建立 PostScript 文件
-建立新的 PostScript 文件，指定輸出串流與儲存選項。請確保已正確設定相關路徑。
+## 如何在 Java PostScript 中加入紋理平鋪圖案
+以下是一個逐步指南。每個步驟都包含簡短說明，並附上您需要複製的完整程式碼。
+
+### 步驟 1：建立 PostScript 文件
+首先建立新的 PostScript 文件，指定輸出串流與儲存選項。確保已正確設定所需的路徑。
 
 ```java
 // The path to the documents directory.
@@ -71,8 +80,8 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## 步驟 2：設定圖形環境
-透過平移座標原點並從紋理圖檔建立 `BufferedImage`，來設定圖形環境。
+### 步驟 2：設定圖形環境
+將原點平移至方便的位置，並載入作為紋理圖塊的位圖。
 
 ```java
 document.writeGraphicsSave();
@@ -81,8 +90,8 @@ document.translate(200, 100);
 BufferedImage image = ImageIO.read(new File(dataDir + "TestTexture.bmp"));
 ```
 
-## 步驟 3：建立紋理筆刷
-從圖像建立紋理筆刷，並指定要被紋理覆蓋的區域。
+### 步驟 3：建立紋理筆刷
+定義一個會在形狀區域內重複位圖的 `TexturePaint`。如果想讓圖塊顯示得更大或更小，請調整矩形大小。
 
 ```java
 // Create image area doubled in width
@@ -91,8 +100,8 @@ Rectangle2D.Float imageArea = new Rectangle2D.Float(0, 0, image.getWidth() * 2, 
 TexturePaint paint = new TexturePaint(image, imageArea);
 ```
 
-## 步驟 4：繪製與填充形狀
-建立矩形，並使用先前定義的筆刷 **以紋理填充形狀**。此外，還會繪製輪廓以提升視覺效果。
+### 步驟 4：繪製與填充形狀
+建立一個矩形，並使用筆刷 **以紋理填滿矩形**。然後描邊形狀，使結果在視覺上更為明顯。
 
 ```java
 // Create rectangle
@@ -106,8 +115,8 @@ document.setStroke(new BasicStroke(2));
 document.draw(shape);
 ```
 
-## 步驟 5：加入帶有紋理圖案的文字
-在文件中加入文字，示範 **如何填充紋理** 在字形上。可依需求自訂字型、位置與其他參數。
+### 步驟 5：使用紋理圖案加入文字
+您也可以將相同的紋理套用於文字字形。這示範了 **如何在字元上填入紋理**，同時仍能對其描邊。
 
 ```java
 // Fill the text with the texture pattern
@@ -117,8 +126,8 @@ document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicS
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
 
-## 步驟 6：儲存與關閉
-完成後關閉目前頁面，儲存文件，確保執行流程順暢。
+### 步驟 6：儲存與關閉
+最後，關閉頁面、儲存文件，並釋放資源。
 
 ```java
 // Close current page
@@ -127,36 +136,37 @@ document.closePage();
 document.save();
 ```
 
-## 常見問題與提示
-- **找不到紋理檔案** – 請確認 `TestTexture.bmp` 的路徑正確且檔案可存取。  
-- **圖像尺寸不正確** – 若紋理被拉伸，請調整 `imageArea` 以符合原始圖像大小。  
-- **效能考量** – 為多個形狀重複使用同一個 `TexturePaint` 實例，以避免不必要的物件建立。
+## 常見問題與技巧
+- **缺少紋理檔案** – Verify the path to `TestTexture.bmp` is correct and the file is accessible.  
+- **圖像尺寸不正確** – If the texture appears stretched, adjust `imageArea` to match the original image size.  
+- **效能** – Reuse the same `TexturePaint` instance for multiple shapes to avoid unnecessary object creation.  
+- **專業提示：** Use a high‑resolution bitmap for the tile to keep the texture crisp when scaled.  
 
 ## 常見問答
 
 **Q: Aspose.Page for Java 適合初學者嗎？**  
-A: 絕對適合！Aspose.Page for Java 提供完整文件，讓各層級開發者都能輕鬆上手。
+A: 絕對適合！Aspose.Page for Java 提供完整的文件，使各種技術程度的開發者都能輕鬆使用。
 
-**Q: 我可以將 Aspose.Page for Java 整合到現有的 Java 專案嗎？**  
-A: 可以，只要依照此處提供的文件說明 [here](https://reference.aspose.com/page/java/) 即可輕鬆整合。
+**Q: 我可以將 Aspose.Page for Java 整合到現有的 Java 專案中嗎？**  
+A: 可以，您只要依照提供的文件說明即可輕鬆將 Aspose.Page for Java 整合至您的專案，文件位於 [此處](https://reference.aspose.com/page/java/)。  
 
-**Q: 哪裡可以取得支援或討論 Aspose.Page 相關問題？**  
-A: 前往 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39) 與社群互動並尋求協助。
+**Q: 我可以在哪裡取得支援或討論 Aspose.Page 相關問題？**  
+A: 前往 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39) 與社群互動並尋求協助。  
 
-**Q: 是否有免費試用版可供 Aspose.Page for Java 使用？**  
-A: 有，您可以在此處取得免費試用版 [here](https://releases.aspose.com/)。
+**Q: 是否提供 Aspose.Page for Java 的免費試用？**  
+A: 有，您可以在此處探索免費試用 [此處](https://releases.aspose.com/)。  
 
-**Q: 如何取得 Aspose.Page for Java 的臨時授權？**  
-A: 請前往此連結 [this link](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
+**Q: 我該如何取得 Aspose.Page for Java 的臨時授權？**  
+A: 前往 [此連結](https://purchase.aspose.com/temporary-license/) 取得臨時授權。  
 
 ## 結論
-恭喜您！您已成功學會 **如何加入紋理** 平鋪圖案至 Java PostScript 文件，並使用 Aspose.Page for Java 完成操作。歡迎進一步探索自訂選項——嘗試不同的點陣圖圖塊、縮放比例與合成方式，釋放紋理填充的全部創意潛力。
+恭喜！您已成功學會使用 Aspose.Page for Java 在 Java PostScript 文件中加入 **紋理平鋪圖案**。隨時嘗試不同的位圖圖塊、縮放比例與合成操作，盡情發揮紋理填充的創意潛力。
 
 ---
 
-**最後更新：** 2025-12-17  
-**測試環境：** Aspose.Page for Java 24.12（最新）  
-**作者：** Aspose  
+**Last Updated:** 2026-05-05  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose  
 
 ---
 

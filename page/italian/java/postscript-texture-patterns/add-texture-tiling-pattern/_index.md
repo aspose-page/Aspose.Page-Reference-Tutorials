@@ -1,11 +1,15 @@
 ---
-date: 2025-12-17
-description: Scopri come aggiungere motivi di piastrellatura della texture ai documenti
+date: 2026-05-05
+description: Scopri come aggiungere pattern di piastrellatura di texture ai documenti
   PostScript con Aspose.Page per Java. Questa guida mostra come aggiungere texture
   in modo efficiente ed esplorare possibilità creative.
-linktitle: Add Texture Tiling Pattern in Java PostScript
+keywords:
+- how to add texture
+- fill shape with texture
+- fill rectangle with texture
+linktitle: Aggiungi modello di piastrellatura della texture in Java PostScript
 second_title: Aspose.Page Java API
-title: Come aggiungere un motivo di piastrellatura della texture in Java PostScript
+title: Come aggiungere un pattern di tiling della texture in Java PostScript
 url: /it/java/postscript-texture-patterns/add-texture-tiling-pattern/
 weight: 10
 ---
@@ -14,23 +18,24 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungere un Pattern di Tiling di Texture in Java PostScript
+# Come aggiungere un modello di piastrellatura della texture in Java PostScript
 
 ## Introduzione
-Nel mondo dello sviluppo Java, imparare **come aggiungere texture** ai documenti PostScript è una necessità comune. Aspose.Page per Java si dimostra uno strumento prezioso per realizzare questo compito senza sforzo. In questo tutorial, ti guideremo attraverso il processo di aggiunta di un pattern di tiling di texture in un documento Java PostScript utilizzando Aspose.Page.
+Nel campo dello sviluppo Java, imparare **come aggiungere texture** ai documenti PostScript è una necessità comune. Aspose.Page per Java rende questo compito semplice, permettendoti di concentrarti sul design piuttosto che sulla sintassi PostScript a basso livello. In questo tutorial, ti guideremo passo passo per aggiungere un modello di piastrellatura della texture, riempire forme e persino applicare texture al testo in un documento Java PostScript.
 
-## Risposte Rapide
-- **Quale libreria è necessaria?** Aspose.Page per Java  
-- **Qual è la parola chiave principale di questa guida?** *how to add texture*  
-- **È necessaria una licenza per i test?** È disponibile una versione di prova gratuita; è richiesta una licenza per la produzione.  
+## Risposte rapide
+- **Quale libreria è necessaria?** Aspose.Page for Java  
+- **Quale parola chiave principale è l'obiettivo di questa guida?** *come aggiungere texture*  
+- **Ho bisogno di una licenza per i test?** È disponibile una versione di prova gratuita; è necessaria una licenza per la produzione.  
 - **Quale versione di Java è supportata?** Java 8 o superiore.  
-- **Posso riutilizzare il pennello di texture per più forme?** Sì – crea il `TexturePaint` una sola volta e applicalo a qualsiasi forma.
+- **Posso riutilizzare il pennello texture per più forme?** Sì – crea il `TexturePaint` una volta e applicalo a qualsiasi forma.  
+- **Come riempire un rettangolo con texture?** Usa `document.fill(shape)` dopo aver impostato il `TexturePaint` come pittura corrente.
 
-## Che cos'è un pattern di tiling di texture?
-Un pattern di tiling di texture ripete una piccola immagine (la tessera) su un'area più ampia, consentendoti di **riempire la forma con texture** senza dover disegnare manualmente ogni tessera. Questa tecnica è ideale per sfondi, riempimenti e effetti decorativi di testo in PostScript.
+## Cos'è un modello di piastrellatura della texture?
+Un modello di piastrellatura della texture ripete una piccola immagine (la piastrella) su un'area più ampia, permettendoti di **riempire la forma con texture** senza dover disegnare manualmente ogni piastrella. Questa tecnica è ideale per sfondi, riempimenti e effetti decorativi del testo in PostScript.
 
 ## Perché usare Aspose.Page per Java?
-- **Rendering a zero dipendenze** – nessun interprete PostScript esterno necessario.  
+- **Rendering senza dipendenze** – non è necessario alcun interprete PostScript esterno.  
 - **Controllo completo sulla grafica** – combina forme vettoriali, testo e texture bitmap.  
 - **Cross‑platform** – funziona su qualsiasi OS che supporta Java.  
 
@@ -40,7 +45,7 @@ Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
 - Familiarità con la struttura dei documenti PostScript.  
 - Libreria Aspose.Page per Java installata. Puoi scaricarla [qui](https://releases.aspose.com/page/java/).
 
-## Importare i Pacchetti
+## Importare i pacchetti
 Inizia importando i pacchetti necessari per il tuo progetto Java:
 
 ```java
@@ -57,7 +62,10 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Passo 1: Creare un Documento PostScript
+## Come aggiungere un modello di piastrellatura della texture in Java PostScript
+Di seguito trovi una guida passo‑passo. Ogni passo include una breve spiegazione seguita dal codice esatto da copiare.
+
+### Passo 1: Creare un documento PostScript
 Inizia creando un nuovo documento PostScript, specificando lo stream di output e le opzioni di salvataggio. Assicurati di avere i percorsi necessari configurati.
 
 ```java
@@ -73,8 +81,8 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Passo 2: Configurare l'Ambiente Grafico
-Configura l'ambiente grafico traducendo l'origine e creando un `BufferedImage` dal file immagine di texture.
+### Passo 2: Configurare l'ambiente grafico
+Trasla l'origine in una posizione comoda e carica la bitmap che servirà come piastrella di texture.
 
 ```java
 document.writeGraphicsSave();
@@ -83,8 +91,8 @@ document.translate(200, 100);
 BufferedImage image = ImageIO.read(new File(dataDir + "TestTexture.bmp"));
 ```
 
-## Passo 3: Creare il Pennello di Texture
-Definisci un pennello di texture dall'immagine, specificando l'area da coprire con la texture.
+### Passo 3: Creare il pennello texture
+Definisci un `TexturePaint` che ripete la bitmap sull'area della forma. Regola le dimensioni del rettangolo se desideri che la piastrella appaia più grande o più piccola.
 
 ```java
 // Create image area doubled in width
@@ -93,8 +101,8 @@ Rectangle2D.Float imageArea = new Rectangle2D.Float(0, 0, image.getWidth() * 2, 
 TexturePaint paint = new TexturePaint(image, imageArea);
 ```
 
-## Passo 4: Disegnare e Riempire le Forme
-Crea un rettangolo e **riempi la forma con texture** usando il pennello definito. Inoltre, disegna e contorna la forma per un aspetto visivo migliore.
+### Passo 4: Disegnare e riempire le forme
+Crea un rettangolo e **riempi il rettangolo con texture** usando il pennello. Poi traccia il contorno della forma per rendere il risultato visivamente distinto.
 
 ```java
 // Create rectangle
@@ -108,8 +116,8 @@ document.setStroke(new BasicStroke(2));
 document.draw(shape);
 ```
 
-## Passo 5: Aggiungere Testo con Pattern di Texture
-Aggiungi testo al documento e dimostra **come riempire la texture** sui glifi. Personalizza font, posizione e altri parametri secondo necessità.
+### Passo 5: Aggiungere testo con modello di texture
+Puoi anche applicare la stessa texture ai glifi di testo. Questo dimostra **come riempire con texture** i caratteri mantenendo la possibilità di tracciarne il contorno.
 
 ```java
 // Fill the text with the texture pattern
@@ -119,8 +127,8 @@ document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicS
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
 
-## Passo 6: Salvare e Chiudere
-Concludi il processo chiudendo la pagina corrente, salvando il documento e garantendo un'esecuzione fluida.
+### Passo 6: Salvare e chiudere
+Infine, chiudi la pagina, salva il documento e rilascia le risorse.
 
 ```java
 // Close current page
@@ -129,35 +137,36 @@ document.closePage();
 document.save();
 ```
 
-## Problemi Comuni & Suggerimenti
-- **File di texture mancante** – Verifica che il percorso verso `TestTexture.bmp` sia corretto e che il file sia accessibile.  
-- **Dimensioni dell'immagine errate** – Se la texture appare distorta, regola `imageArea` per corrispondere alle dimensioni originali dell'immagine.  
-- **Prestazioni** – Riutilizza la stessa istanza di `TexturePaint` per più forme per evitare la creazione inutile di oggetti.
+## Problemi comuni e consigli
+- **File texture mancante** – Verifica che il percorso verso `TestTexture.bmp` sia corretto e che il file sia accessibile.  
+- **Dimensioni immagine errate** – Se la texture appare distorta, regola `imageArea` per corrispondere alle dimensioni originali dell'immagine.  
+- **Prestazioni** – Riutilizza la stessa istanza di `TexturePaint` per più forme per evitare la creazione inutile di oggetti.  
+- **Consiglio professionale:** Usa una bitmap ad alta risoluzione per la piastrella per mantenere la texture nitida quando viene scalata.
 
-## Domande Frequenti
+## Domande frequenti
 
-**D: Aspose.Page per Java è adatto ai principianti?**  
-R: Assolutamente! Aspose.Page per Java fornisce una documentazione completa, rendendola accessibile a sviluppatori di tutti i livelli.
+**Q: Aspose.Page per Java è adatto ai principianti?**  
+A: Assolutamente! Aspose.Page per Java fornisce una documentazione completa, rendendolo accessibile a sviluppatori di tutti i livelli di competenza.
 
-**D: Posso integrare Aspose.Page per Java nel mio progetto Java esistente?**  
-R: Sì, puoi integrare facilmente Aspose.Page per Java nel tuo progetto seguendo la documentazione fornita [qui](https://reference.aspose.com/page/java/).
+**Q: Posso integrare Aspose.Page per Java nel mio progetto Java esistente?**  
+A: Sì, puoi integrare facilmente Aspose.Page per Java nel tuo progetto seguendo la documentazione fornita [qui](https://reference.aspose.com/page/java/).
 
-**D: Dove posso trovare supporto o discutere di quesiti relativi ad Aspose.Page?**  
-R: Visita il [forum Aspose.Page](https://forum.aspose.com/c/page/39) per interagire con la community e richiedere assistenza.
+**Q: Dove posso trovare supporto o discutere domande relative ad Aspose.Page?**  
+A: Visita il [forum Aspose.Page](https://forum.aspose.com/c/page/39) per interagire con la community e chiedere assistenza.
 
-**D: È disponibile una versione di prova gratuita per Aspose.Page per Java?**  
-R: Sì, puoi esplorare una prova gratuita [qui](https://releases.aspose.com/).
+**Q: È disponibile una prova gratuita per Aspose.Page per Java?**  
+A: Sì, puoi provare la versione gratuita [qui](https://releases.aspose.com/).
 
-**D: Come posso ottenere una licenza temporanea per Aspose.Page per Java?**  
-R: Visita [questo link](https://purchase.aspose.com/temporary-license/) per ottenere una licenza temporanea.
+**Q: Come posso ottenere una licenza temporanea per Aspose.Page per Java?**  
+A: Visita [questo link](https://purchase.aspose.com/temporary-license/) per ottenere una licenza temporanea.
 
 ## Conclusione
-Congratulazioni! Hai appreso con successo **come aggiungere texture** tramite pattern di tiling a un documento Java PostScript usando Aspose.Page per Java. Sentiti libero di esplorare ulteriori opzioni di personalizzazione—sperimenta con diverse tessere bitmap, fattori di scala e operazioni compositive per liberare tutto il potenziale creativo dei riempimenti di texture.
+Congratulazioni! Hai appreso con successo **come aggiungere texture** ai modelli di piastrellatura in un documento Java PostScript usando Aspose.Page per Java. Sentiti libero di sperimentare con diverse piastrelle bitmap, fattori di scala e operazioni composite per liberare tutto il potenziale creativo dei riempimenti con texture.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-17  
-**Testato con:** Aspose.Page per Java 24.12 (latest)  
+**Ultimo aggiornamento:** 2026-05-05  
+**Testato con:** Aspose.Page for Java 24.12 (latest)  
 **Autore:** Aspose  
 
 ---

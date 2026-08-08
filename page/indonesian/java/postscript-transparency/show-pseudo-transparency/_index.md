@@ -1,9 +1,13 @@
 ---
-date: 2025-12-17
-description: Pelajari cara membuat pseudo transparansi Java menggunakan Aspose.Page.
+date: 2026-05-05
+description: Pelajari cara membuat pseudo transparansi java menggunakan Aspose.Page.
   Ikuti panduan langkah demi langkah kami untuk menambahkan grafik berwarna cerah
   dalam file PostScript.
-linktitle: Show Pseudo-Transparency in Java PostScript
+keywords:
+- create pseudo transparency java
+- Aspose.Page Java
+- PostScript pseudo transparency
+linktitle: Tampilkan Pseudo‑Transparansi di Java PostScript
 second_title: Aspose.Page Java API
 title: Cara membuat pseudo transparansi Java dengan Aspose.Page
 url: /id/java/postscript-transparency/show-pseudo-transparency/
@@ -16,33 +20,36 @@ weight: 11
 
 # Java PostScript Pseudo-Transparency dengan Aspose.Page
 
-## Introduction
-Dalam tutorial komprehensif ini Anda akan **membuat pseudo transparency java** grafik dengan Aspose.Page untuk Java. Kami akan memandu Anda melalui setiap langkah—mulai dari menyiapkan lingkungan hingga merender dua persegi panjang yang saling tumpang tindih yang memberikan ilusi transparansi dalam file PostScript. Pada akhir tutorial, Anda akan memahami mengapa pseudo‑transparency berguna, cara mengimplementasikannya, dan cara menyesuaikan parameter untuk desain Anda sendiri.
+## Pendahuluan
+Dalam tutorial komprehensif ini Anda akan **create pseudo transparency java** grafik dengan Aspose.Page untuk Java. Kami akan memandu Anda melalui setiap langkah—mulai dari menyiapkan lingkungan hingga merender dua persegi panjang yang saling tumpang tindih yang memberikan ilusi transparansi dalam file PostScript. Pada akhir tutorial, Anda akan memahami mengapa pseudo‑transparency berguna, cara mengimplementasikannya, dan cara menyesuaikan parameter untuk desain Anda sendiri.
 
-## Quick Answers
-- **Apa arti pseudo‑transparency?** Itu mensimulasikan transparansi dengan mencampur gradien tembus.
-- **Perpustakaan apa yang dibutuhkan?** Aspose.Page untuk Java.
-- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.
-- **IDE apa yang dapat saya gunakan?** Semua IDE Java (IntelliJ IDEA, Eclipse, VS Code) yang mendukung Java 8+.
+## Jawaban Cepat
+- **Apa arti pseudo‑transparency?** Itu mensimulasikan transparansi dengan mencampur gradien tembus pandang.  
+- **Perpustakaan apa yang diperlukan?** Aspose.Page untuk Java.  
+- **Apakah saya memerlukan lisensi untuk menjalankan contoh?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi komersial diperlukan untuk produksi.  
+- **IDE apa yang dapat saya gunakan?** IDE Java apa pun (IntelliJ IDEA, Eclipse, VS Code) yang mendukung Java 8+.  
 - **Berapa lama implementasinya?** Sekitar 10‑15 menit untuk contoh dasar.
 
-## What is pseudo transparency in Java PostScript?
-Pseudo transparency adalah teknik yang menggunakan isian gradien semi‑transparan untuk memberikan efek visual objek yang dapat dilihat tembus. Karena PostScript tradisional tidak mendukung saluran alfa sejati, Aspose.Page menirunya dengan melapisi bentuk tembus.
+## Cara membuat pseudo transparency java dengan Aspose.Page
+Memahami “mengapa” di balik setiap langkah membantu Anda menyesuaikan teknik ini ke skenario grafis lainnya. Di bawah ini kami memecah proses menjadi tahap yang jelas dan dapat ditindaklanjuti sehingga Anda dapat mengikutinya meskipun baru dalam pembuatan PostScript.
 
-## Why use Aspose.Page for pseudo transparency?
-- **Cross‑platform** – Menghasilkan PostScript yang valid di semua OS.
-- **No external dependencies** – API Java murni.
-- **Fine‑grained control** – Mengatur warna, opasitas, dan arah gradien secara programatis.
-- **Consistent output** – Berfungsi sama pada printer dan penampil apa pun.
+## Apa itu pseudo transparency dalam Java PostScript?
+Pseudo transparency adalah teknik yang menggunakan isian gradien semi‑transparan untuk memberikan efek visual objek yang dapat dilihat tembus. Karena PostScript tradisional tidak mendukung saluran alfa sejati, Aspose.Page menirunya dengan melapisi bentuk tembus pandang.
 
-## Prerequisites
+## Mengapa menggunakan Aspose.Page untuk pseudo transparency?
+- **Cross‑platform** – Menghasilkan PostScript yang valid di semua OS.  
+- **Tidak ada dependensi eksternal** – API Java murni.  
+- **Kontrol halus** – Menyesuaikan warna, opasitas, dan arah gradien secara programatik.  
+- **Output konsisten** – Berfungsi sama di semua printer dan penampil.
+
+## Prasyarat
 Sebelum memulai, pastikan Anda memiliki:
-- Pengetahuan dasar tentang Java.
-- Familiaritas dengan konsep PostScript.
-- Perpustakaan Aspose.Page untuk Java terpasang. Jika belum mengunduhnya, dapatkan **[di sini](https://releases.aspose.com/page/java/)**.
-- IDE Java atau alat build (Maven/Gradle) yang siap digunakan.
+- Pengetahuan dasar tentang Java.  
+- Familiaritas dengan konsep PostScript.  
+- Aspose.Page untuk Java terpasang. Jika Anda belum mengunduhnya, dapatkan **[di sini](https://releases.aspose.com/page/java/)**.  
+- IDE Java atau alat build (Maven/Gradle) siap.
 
-## Import Packages
+## Impor Paket
 Mulailah dengan mengimpor kelas yang diperlukan sehingga Anda dapat bekerja dengan warna, gradien, dan objek dokumen PostScript.
 
 ```java
@@ -57,8 +64,8 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Step 1: Create a PS Document
-Pertama, buat aliran output dan inisialisasi `PsDocument` baru. Ini menyiapkan kanvas tempat Anda akan menggambar bentuk-bentuk.
+## Langkah 1: Buat Dokumen PS
+Pertama, kami membuat aliran output dan menginisialisasi `PsDocument` baru. Ini menyiapkan kanvas tempat kami akan menggambar bentuk‑bentuk kami.
 
 ```java
 // The path to the documents directory.
@@ -70,8 +77,8 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Step 2: Define Rectangle with Opaque Gradient Fill
-Gambar persegi panjang pertama menggunakan gradien yang sepenuhnya tidak tembus. Ini akan berfungsi sebagai latar belakang untuk lapisan pseudo‑transparent kita.
+## Langkah 2: Definisikan Persegi Panjang dengan Isian Gradien Opaque
+Kami menggambar persegi panjang pertama menggunakan gradien yang sepenuhnya opaque. Ini akan berfungsi sebagai latar belakang untuk lapisan pseudo‑transparent kami.
 
 ```java
 float offsetX = 50;
@@ -89,8 +96,8 @@ document.setPaint(paint);
 document.fill(rectangle);
 ```
 
-## Step 3: Define Rectangle with Translucent Gradient Fill
-Selanjutnya, letakkan persegi panjang kedua yang menggunakan gradien dengan nilai alfa. Ini menciptakan efek **pseudo transparency** ketika tumpang tindih dengan bentuk pertama.
+## Langkah 3: Definisikan Persegi Panjang dengan Isian Gradien Translucent
+Selanjutnya, kami menempatkan persegi panjang kedua yang menggunakan gradien dengan nilai alfa. Ini menciptakan efek **pseudo transparency** ketika tumpang tindih dengan bentuk pertama.
 
 ```java
 offsetX = 350;
@@ -105,40 +112,40 @@ document.setPaint(paint);
 document.fill(rectangle);
 ```
 
-## Step 4: Close the Page and Save the Document
-Terakhir, tutup halaman saat ini dan tulis file PostScript ke disk.
+## Langkah 4: Tutup Halaman dan Simpan Dokumen
+Akhirnya, kami menutup halaman saat ini dan menulis file PostScript ke disk.
 
 ```java
 document.closePage();
 document.save();
 ```
 
-## Common Issues & Troubleshooting
-- **FileNotFoundException** – Pastikan `dataDir` mengarah ke folder yang ada dan aplikasi Anda memiliki izin menulis.
-- **Incorrect colors** – Pastikan Anda menggunakan konstruktor `Color(int r, int g, int b, int a)` untuk warna tembus; parameter keempat adalah alfa (0‑255).
-- **Gradient not visible** – Periksa bahwa parameter `AffineTransform` memetakan gradien dengan benar ke dimensi persegi panjang.
+## Masalah Umum & Pemecahan Masalah
+- **FileNotFoundException** – Pastikan `dataDir` mengarah ke folder yang ada dan aplikasi Anda memiliki izin menulis.  
+- **Warna tidak tepat** – Pastikan Anda menggunakan konstruktor `Color(int r, int g, b, a)` untuk warna translucent; parameter keempat adalah alfa (0‑255).  
+- **Gradien tidak terlihat** – Periksa bahwa parameter `AffineTransform` memetakan gradien dengan benar ke dimensi persegi panjang.
 
-## Frequently Asked Questions
-### Can I use Aspose.Page for Java in commercial projects?
-Ya, Aspose.Page untuk Java tersedia untuk penggunaan komersial. Anda dapat membeli lisensi **[di sini](https://purchase.aspose.com/buy)**.
+## Pertanyaan yang Sering Diajukan
+### Bisakah saya menggunakan Aspose.Page untuk Java dalam proyek komersial?
+Ya, Aspose.Page untuk Java tersedia untuk penggunaan komersial. Anda dapat membeli lisensi [di sini](https://purchase.aspose.com/buy).
 
-### Is there a free trial available?
-Ya, Anda dapat mendapatkan percobaan gratis [di sini](https://releases.aspose.com/).
+### Apakah ada versi percobaan gratis yang tersedia?
+Ya, Anda dapat mendapatkan versi percobaan gratis [di sini](https://releases.aspose.com/).
 
-### Where can I find additional documentation?
+### Di mana saya dapat menemukan dokumentasi tambahan?
 Dokumentasi terperinci tersedia [di sini](https://reference.aspose.com/page/java/).
 
-### How can I get temporary licensing for testing purposes?
+### Bagaimana saya dapat memperoleh lisensi sementara untuk tujuan pengujian?
 Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/).
 
-### Need help or want to discuss Aspose.Page?
-Kunjungi [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
+### Butuh bantuan atau ingin berdiskusi tentang Aspose.Page?
+Kunjungi [Forum Aspose.Page](https://forum.aspose.com/c/page/39).
 
 ---
 
-**Last Updated:** 2025-12-17  
-**Tested With:** Aspose.Page untuk Java 24.12 (terbaru)  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-05-05  
+**Diuji Dengan:** Aspose.Page untuk Java 24.12 (terbaru)  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
