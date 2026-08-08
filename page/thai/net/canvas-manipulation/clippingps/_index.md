@@ -1,10 +1,69 @@
 ---
-date: 2026-01-05
-description: เรียนรู้วิธีเพิ่มคลิปปิ้งพาธใน PostScript ด้วย Aspose.Page สำหรับ .NET
-  – คู่มือแบบทีละขั้นตอนพร้อมเทคนิคการตั้งแปรงทาสีและวาดสี่เหลี่ยมจัตุรัสแบบเส้นประ
+date: 2026-06-25
+description: เรียนรู้วิธีเพิ่ม clipping path ใน PostScript ด้วย Aspose.Page for .NET
+  – คู่มือขั้นตอนโดยละเอียดพร้อมเทคนิคการใช้ paint brush และ dashed rectangle
+keywords:
+- how to add clipping path
+- Aspose.Page clipping
+- PostScript graphics .NET
 linktitle: Clipping PS
+schemas:
+- author: Aspose
+  dateModified: '2026-06-25'
+  description: Learn how to add clipping path in PostScript using Aspose.Page for
+    .NET – step‑by‑step guide with paint brush and dashed rectangle techniques.
+  headline: How to Add Clipping Path to PostScript with Aspose.Page for .NET
+  type: TechArticle
+- description: Learn how to add clipping path in PostScript using Aspose.Page for
+    .NET – step‑by‑step guide with paint brush and dashed rectangle techniques.
+  name: How to Add Clipping Path to PostScript with Aspose.Page for .NET
+  steps:
+  - name: Set Document Directory
+    text: Define the folder where your source and output files will live. This makes
+      it easy to locate the generated PS file later.
+  - name: Create Output Stream for PostScript Document
+    text: Create a writable stream that will hold the generated PS file. Using a `FileStream`
+      ensures the file is written directly to disk.
+  - name: Create Save Options
+    text: '`PsSaveOptions` is Aspose.Page’s configuration object for PS output. It
+      lets you control compression, version, and other rendering details.'
+  - name: Create a New 1‑Paged PS Document
+    text: '`PsDocument` represents a PostScript document object. You instantiate it
+      with the output stream and the save options you just configured.'
+  - name: Create Graphics Path from the Rectangle
+    text: '`GraphicsPath` is a vector container for geometric shapes. Here we start
+      with a simple rectangle that will later be clipped.'
+  - name: Clipping by Shape
+    text: We add a clipping path using a circle, set the paint brush to blue, and
+      fill the rectangle within the clipped region. This demonstrates how clipping
+      limits drawing to the circle’s interior.
+  - name: Displace Upper Level Graphics State & Draw Dashed Rectangle
+    text: After restoring the previous graphics state, we translate the cursor, create
+      a `Pen` with `DashStyle.Dash`, and draw a dashed rectangle around the clipped
+      content. The blue stroke highlights the clipping boundary. `Pen` defines stroke
+      attributes such as color and dash style. `DashStyle.Dash` specifi
+  - name: Close and Save Document
+    text: Finish the page, flush the stream, and dispose of resources. The PS file
+      is now written to disk and ready for viewing in any PostScript viewer. You have
+      now successfully **added clipping path**, set a custom paint brush, and drawn
+      a dashed rectangle around your graphics using Aspose.Page for .NET.
+  type: HowTo
+- questions:
+  - answer: It restricts drawing operations to a defined shape, hiding everything
+      outside that shape.
+    question: What does “add clipping path” do?
+  - answer: Aspose.Page for .NET provides a rich API for PS/EPS manipulation.
+    question: Which library handles clipping in .NET?
+  - answer: A free trial works for development; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: Yes, use `SetPaint` with any `SolidBrush` or gradient you prefer.
+    question: Can I change the brush color?
+  - answer: Absolutely – create a `Pen` with `DashStyle.Dash` and use `Draw`.
+    question: Is drawing a dashed rectangle possible?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-title: เพิ่มเส้นทางคลิปปิ้งใน PS ด้วย Aspose.Page สำหรับ .NET
+title: วิธีเพิ่ม Clipping Path ไปยัง PostScript ด้วย Aspose.Page for .NET
 url: /th/net/canvas-manipulation/clippingps/
 weight: 10
 ---
@@ -13,36 +72,47 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# เพิ่ม Clipping Path ให้กับ PS ด้วย Aspose.Page for .NET
+# วิธีเพิ่ม Clipping Path ไปยัง PostScript ด้วย Aspose.Page สำหรับ .NET
 
-## คำนำ
+## บทนำ
 
-ในบทแนะนำฉบับเต็มนี้ คุณจะได้เรียนรู้วิธี **เพิ่ม clipping path** ให้กับเอกสาร PostScript (PS) ด้วย Aspose.Page for .NET เราจะเดินผ่านแต่ละขั้นตอน แสดงวิธี **ตั้งค่า paint brush** และสาธิตวิธี **วาดสี่เหลี่ยมจัตุรัสแบบเส้นประ** รอบเนื้อหาที่ถูกคลิป ปิดท้ายด้วยไฟล์ PS ที่ทำงานเต็มรูปแบบซึ่งแสดงการคลิปตามรูปทรง ทำให้กราฟิกของคุณดูไดนามิกและเป็นมืออาชีพมากขึ้น
+ในบทแนะนำเชิงลึกนี้คุณจะได้เรียนรู้ **วิธีเพิ่ม clipping path** ไปยังเอกสาร PostScript (PS) ด้วย Aspose.Page สำหรับ .NET เราจะเดินผ่านทุกขั้นตอน แสดงให้คุณเห็นวิธี **ตั้งค่าแปรงสี** และสาธิตวิธี **วาดสี่เหลี่ยมประดับเส้นประ** รอบเนื้อหาที่ถูกคลิป ปลายทางคุณจะได้ไฟล์ PS ที่ทำงานเต็มรูปแบบซึ่งแสดงการคลิปตามรูปทรง ทำให้กราฟิกของคุณดูมีความเคลื่อนไหวและเป็นมืออาชีพมากขึ้น.
 
-## คำตอบด่วน
-- **“เพิ่ม clipping path” ทำอะไร?** มันจำกัดการวาดให้ทำได้เฉพาะภายในรูปทรงที่กำหนด เท่านั้น ส่วนที่อยู่นอกรูปทรงจะถูกซ่อน  
-- **ไลบรารีใดจัดการ clipping ใน .NET?** Aspose.Page for .NET มี API ที่ครบครันสำหรับการจัดการ PS/EPS  
-- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองฟรีสำหรับการพัฒนาได้; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
-- **เปลี่ยนสีของ brush ได้หรือไม่?** ได้, ใช้ `SetPaint` พร้อม `SolidBrush` หรือ gradient ที่ต้องการ  
-- **วาดสี่เหลี่ยมจัตุรัสแบบเส้นประเป็นไปได้หรือไม่?** แน่นอน – สร้าง `Pen` ที่มี `DashStyle.Dash` แล้วใช้ `Draw`  
+## คำตอบสั้น
 
-## Clipping path คืออะไรใน PostScript?
-Clipping path กำหนดพื้นที่ที่มองเห็นได้ของคำสั่งการวาดต่อไป ทุกอย่างที่วาดอยู่นอกเส้นทางจะถูกละเลย ทำให้คุณสร้างกราฟิกที่มีการมาสก์ซับซ้อนได้โดยไม่ต้องแก้ไขเนื้อหาเดิม
+- **“add clipping path” ทำอะไร?** It restricts drawing operations to a defined shape, hiding everything outside that shape.  
+- **ไลบรารีใดจัดการ clipping ใน .NET?** Aspose.Page for .NET provides a rich API for PS/EPS manipulation.  
+- **ฉันต้องการใบอนุญาตหรือไม่?** A free trial works for development; a commercial license is required for production.  
+- **ฉันสามารถเปลี่ยนสีแปรงได้หรือไม่?** Yes, use `SetPaint` with any `SolidBrush` or gradient you prefer.  
+- **การวาดสี่เหลี่ยมประดับเส้นประเป็นไปได้หรือไม่?** Absolutely – create a `Pen` with `DashStyle.Dash` and use `Draw`.  
 
-## ทำไมต้องใช้ Aspose.Page สำหรับ clipping?
-- **ไม่มีการพึ่งพา external** – ไลบรารี .NET แท้ ๆ  
-- **ควบคุมสถานะกราฟิกได้เต็มที่** (save/restore, translate, rotate)  
-- ** primitive การวาดที่หลากหลาย** เช่น `SetPaint`, `Clip`, และ `Draw` พร้อม pen และ brush ที่ปรับแต่งได้  
+## คลิปพาธคืออะไรใน PostScript?
+
+คลิปพาธกำหนดบริเวณที่มองเห็นได้ของคำสั่งการวาดต่อไป โดยละทิ้งสิ่งใดที่ถูกเรนเดอร์อยู่นอกขอบเขตของมัน ในเชิงปฏิบัติ มันทำให้คุณสามารถทำหน้ากากกราฟิกได้โดยแสดงเฉพาะส่วนที่อยู่ภายในพาธ ซึ่งเป็นสิ่งสำคัญสำหรับการสร้างการจัดวางที่ซับซ้อนโดยไม่ต้องแก้ไขวัตถุต้นฉบับอย่างถาวร.
+
+## วิธีเพิ่มคลิปพาธไปยังเอกสาร PostScript ด้วย Aspose.Page?
+
+โหลด `PsDocument` กำหนดกราฟิกพาธ (เช่น วงกลม) ใช้ `Clip()` เพื่อจำกัดพื้นที่การวาด จากนั้นใช้ `SetPaint` และ `Fill` เพื่อเรนเดอร์เนื้อหาภายในบริเวณที่ถูกคลิป หลังจากคืนสถานะกราฟิก คุณสามารถวาดรูปเพิ่มเติม—เช่นสี่เหลี่ยมประดับเส้นประ—โดยไม่กระทบต่อพื้นที่ที่ถูกคลิป ลำดับนี้ทำให้การคลิปสำเร็จด้วยการเรียก API เพียงไม่กี่ครั้งสั้น.
+
+`PsDocument` แทนวัตถุเอกสาร PostScript.  
+`GraphicsPath` เป็นคอนเทนเนอร์เวกเตอร์สำหรับรูปทรงเรขาคณิต.  
+`Clip()` กำหนดบริเวณคลิปสำหรับการวาดต่อไป.  
+`SetPaint` กำหนดแปรงที่ใช้สำหรับเติมรูป.  
+`Fill` เรนเดอร์พาธปัจจุบันโดยใช้แปรงปัจจุบัน.
+
+## ทำไมต้องใช้ Aspose.Page สำหรับการคลิป?
+
+Aspose.Page รองรับ **รูปแบบอินพุตและเอาต์พุตกว่า 50 แบบ**, รวมถึง PS, EPS, PDF, SVG, และประเภทภาพต่าง ๆ และสามารถประมวลผลเอกสารหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ ไลบรารีนี้ไม่มี **การพึ่งพาภายนอกใด ๆ**, ทำงานบน **.NET Framework 4.5+**, **.NET Core 3.1+**, และ **.NET 6+**, และให้การควบคุมเต็มรูปแบบต่อสถานะกราฟิก (บันทึก/คืนค่า, แปล, หมุน). ประโยชน์ที่วัดได้เหล่านี้ทำให้เป็นตัวเลือกที่เชื่อถือได้สำหรับการสร้างกราฟิกบนเซิร์ฟเวอร์.
 
 ## ข้อกำหนดเบื้องต้น
 
-- ความรู้พื้นฐานด้านการเขียนโปรแกรม C#  
-- ติดตั้งไลบรารี Aspose.Page for .NET – สามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/page/net/)  
-- Visual Studio หรือ IDE .NET ที่คุณชื่นชอบ  
+- ความรู้พื้นฐานของการเขียนโปรแกรม C#.
+- ไลบรารี Aspose.Page สำหรับ .NET ติดตั้งแล้ว – คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/page/net/).
+- Visual Studio หรือ IDE .NET ที่คุณชื่นชอบ.
 
 ## นำเข้า Namespaces
 
-ก่อนอื่นให้นำเข้า namespaces ที่จำเป็นสำหรับการจัดการกราฟิก:
+Namespaces ต่อไปนี้ให้คุณเข้าถึงวัตถุกราฟิกหลักและตัวเลือกการบันทึกเฉพาะ PS.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -52,11 +122,11 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-ตอนนี้เราจะอธิบายตัวอย่างเป็นขั้นตอนที่ชัดเจนและเป็นลำดับเลข
+ตอนนี้เราจะแบ่งตัวอย่างออกเป็นขั้นตอนที่ชัดเจนและเป็นลำดับเลข.
 
-### ขั้นตอนที่ 1: ตั้งค่าโฟลเดอร์เอกสาร
+### ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสาร
 
-กำหนดโฟลเดอร์ที่ไฟล์ต้นฉบับและไฟล์ผลลัพธ์จะถูกจัดเก็บ
+กำหนดโฟลเดอร์ที่ไฟล์ต้นฉบับและไฟล์ผลลัพธ์ของคุณจะอยู่ ทำให้ค้นหาไฟล์ PS ที่สร้างขึ้นได้ง่ายในภายหลัง.
 
 ```csharp
 // The path to the documents directory.
@@ -65,7 +135,7 @@ string dataDir = "Your Document Directory";
 
 ### ขั้นตอนที่ 2: สร้าง Output Stream สำหรับเอกสาร PostScript
 
-สร้างสตรีมที่สามารถเขียนได้เพื่อเก็บไฟล์ PS ที่สร้างขึ้น
+สร้างสตรีมที่สามารถเขียนได้เพื่อเก็บไฟล์ PS ที่สร้างขึ้น การใช้ `FileStream` ทำให้ไฟล์ถูกเขียนโดยตรงลงดิสก์.
 
 ```csharp
 // Create output stream for PostScript document
@@ -74,16 +144,16 @@ using (Stream outPsStream = new FileStream(dataDir + "Clipping_outPS.ps", FileMo
 
 ### ขั้นตอนที่ 3: สร้าง Save Options
 
-สร้างอินสแตนซ์ `PsSaveOptions` ด้วยการตั้งค่าเริ่มต้น คุณสามารถปรับแต่งต่อได้หากต้องการ
+`PsSaveOptions` คืออ็อบเจ็กต์การกำหนดค่าของ Aspose.Page สำหรับการส่งออก PS มันให้คุณควบคุมการบีบอัด, เวอร์ชัน, และรายละเอียดการเรนเดอร์อื่น ๆ.
 
 ```csharp
 // Create save options with default values
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-### ขั้นตอนที่ 4: สร้างเอกสาร PS แบบ 1‑หน้าใหม่
+### ขั้นตอนที่ 4: สร้างเอกสาร PS หนึ่งหน้าใหม่
 
-เริ่มต้นอ็อบเจ็กต์ `PsDocument` ที่เป็นตัวแทนไฟล์ PS ของคุณ
+`PsDocument` แทนวัตถุเอกสาร PostScript คุณสร้างอินสแตนซ์ด้วยสตรีมผลลัพธ์และตัวเลือกการบันทึกที่คุณกำหนดไว้.
 
 ```csharp
 // Create new 1-paged PS Document
@@ -92,7 +162,7 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 
 ### ขั้นตอนที่ 5: สร้าง Graphics Path จากสี่เหลี่ยม
 
-เราจะใช้สี่เหลี่ยมเป็นรูปทรงพื้นฐานที่จะถูกคลิปต่อไป
+`GraphicsPath` เป็นคอนเทนเนอร์เวกเตอร์สำหรับรูปทรงเรขาคณิต ที่นี่เราเริ่มด้วยสี่เหลี่ยมง่าย ๆ ที่จะถูกคลิปในภายหลัง.
 
 ```csharp
 // Create graphics path from the rectangle
@@ -100,9 +170,9 @@ GraphicsPath rectanglePath = new GraphicsPath();
 rectanglePath.AddRectangle(new RectangleF(0, 0, 300, 200));
 ```
 
-### ขั้นตอนที่ 6: คลิปด้วยรูปทรง
+### ขั้นตอนที่ 6: การคลิปด้วยรูปทรง
 
-ที่นี่เราจะ **เพิ่ม clipping path** ด้วยวงกลม, **ตั้งค่า paint brush** เป็นสีน้ำเงิน, และเติมสี่เหลี่ยมภายในพื้นที่ที่ถูกคลิป
+เราเพิ่มคลิปพาธโดยใช้วงกลม ตั้งแปรงสีเป็นสีฟ้า และเติมสี่เหลี่ยมภายในบริเวณที่ถูกคลิป นี่แสดงให้เห็นว่าการคลิปจำกัดการวาดให้อยู่ภายในวงกลม.
 
 ```csharp
 // Save graphics state in order to return back to this state after transformation
@@ -128,9 +198,12 @@ document.Fill(rectanglePath);
 document.WriteGraphicsRestore();
 ```
 
-### ขั้นตอนที่ 7: ย้าย Graphics State ระดับบนและวาดสี่เหลี่ยมจัตุรัสแบบเส้นประ
+### ขั้นตอนที่ 7: ย้ายสถานะกราฟิกระดับบนและวาดสี่เหลี่ยมประดับเส้นประ
 
-หลังจากคืนค่า state ก่อนหน้า เราจะย้ายตำแหน่งกราฟิกอีกครั้ง, **วาดสี่เหลี่ยมจัตุรัสแบบเส้นประ**, และใช้สีสีน้ำเงินเป็นเส้นขอบ
+หลังจากคืนสถานะกราฟิกก่อนหน้า เราแปลตำแหน่งเคอร์เซอร์ สร้าง `Pen` ด้วย `DashStyle.Dash` และวาดสี่เหลี่ยมประดับเส้นประรอบเนื้อหาที่ถูกคลิป เส้นสีฟ้าช่วยเน้นขอบเขตการคลิป.
+
+`Pen` กำหนดคุณลักษณะของเส้นเช่นสีและรูปแบบเส้นประ.  
+`DashStyle.Dash` ระบุรูปแบบเส้นประ.
 
 ```csharp
 // Displace upper-level graphics state on 100 points to the right and 100 points to the bottom.
@@ -147,7 +220,7 @@ document.Draw(rectanglePath);
 
 ### ขั้นตอนที่ 8: ปิดและบันทึกเอกสาร
 
-จบหน้ากระดาษและเขียนไฟล์ PS ลงดิสก์
+เสร็จสิ้นหน้ากระดาษ, ทำการ flush สตรีม, และทำลายทรัพยากรไฟล์ PS ตอนนี้ไฟล์ได้ถูกเขียนลงดิสก์และพร้อมสำหรับการดูในโปรแกรมดู PostScript ใด ๆ.
 
 ```csharp
 // Close current page
@@ -157,40 +230,46 @@ document.ClosePage();
 document.Save();
 ```
 
-คุณได้ **เพิ่ม clipping path** ตั้งค่า paint brush ตามต้องการ และวาดสี่เหลี่ยมจัตุรัสแบบเส้นประรอบกราฟิกของคุณด้วย Aspose.Page for .NET เรียบร้อยแล้ว
+คุณได้ **เพิ่ม clipping path** อย่างสำเร็จ ตั้งแปรงสีแบบกำหนดเอง และวาดสี่เหลี่ยมประดับเส้นประรอบกราฟิกของคุณโดยใช้ Aspose.Page สำหรับ .NET.
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ปัญหาทั่วไปและวิธีแก้
 
-- **คลิปไม่แสดง:** ตรวจสอบว่าคุณเรียก `WriteGraphicsSave()` ก่อนทำการแปลตำแหน่งและ `WriteGraphicsRestore()` หลังการเติมสี  
-- **สีไม่ตรง:** ยืนยันว่า `SetPaint` ถูกเรียกหลังจาก `Clip` และก่อน `Fill`  
-- **เส้นประแสดงเป็นเส้นทึบ:** ตรวจสอบให้แน่ใจว่า `Pen` มี `DashStyle` ตั้งเป็น `DashStyle.Dash` ก่อน `SetStroke`  
+- **Clipping ไม่ปรากฏ:** ตรวจสอบให้แน่ใจว่าคุณเรียก `WriteGraphicsSave()` ก่อนการแปลและ `WriteGraphicsRestore()` หลังการเติม.  
+- **สีไม่ถูกต้อง:** ตรวจสอบว่า `SetPaint` ถูกเรียกหลัง `Clip` และก่อน `Fill`.  
+- **เส้นประแสดงเป็นเส้นทึบ:** ตรวจสอบให้แน่ใจว่า `DashStyle` ของ `Pen` ถูกตั้งเป็น `DashStyle.Dash` ก่อน `SetStroke`.  
 
 ## คำถามที่พบบ่อย
 
-### Q1: สามารถใช้ Aspose.Page for .NET กับภาษาโปรแกรมอื่นได้หรือไม่?
-A: Aspose.Page ถูกออกแบบมาสำหรับแอปพลิเคชัน .NET เป็นหลัก อย่างไรก็ตาม Aspose มีไลบรารีที่คล้ายกันสำหรับภาษาอื่น ๆ
+### Q1: ฉันสามารถใช้ Aspose.Page สำหรับ .NET กับภาษาโปรแกรมอื่นได้หรือไม่?
+A: Aspose.Page ถูกออกแบบหลักสำหรับแอปพลิเคชัน .NET แต่ Aspose มีไลบรารีที่เทียบเท่าสำหรับ Java, C++, และแพลตฟอร์มอื่น ๆ.
 
-### Q2: จะหา ตัวอย่างเพิ่มเติมและเอกสารสำหรับ Aspose.Page for .NET ได้จากที่ไหน?
-A: คุณสามารถสำรวจตัวอย่างและเอกสารโดยละเอียดเพิ่มเติมได้ที่ [Aspose.Page documentation](https://reference.aspose.com/page/net/)
+### Q2: ฉันจะหา ตัวอย่างและเอกสารเพิ่มเติมสำหรับ Aspose.Page สำหรับ .NET ได้จากที่ไหน?
+A: คุณสามารถสำรวจตัวอย่างเพิ่มเติมและเอกสารโดยละเอียดได้ที่ [เอกสาร Aspose.Page](https://reference.aspose.com/page/net/).
 
-### Q3: มีรุ่นทดลองฟรีสำหรับ Aspose.Page for .NET หรือไม่?
-A: มี, คุณสามารถเข้าถึงรุ่นทดลองฟรีของ Aspose.Page for .NET [ที่นี่](https://releases.aspose.com/)
+### Q3: มีรุ่นทดลองฟรีสำหรับ Aspose.Page สำหรับ .NET หรือไม่?
+A: มี, คุณสามารถเข้าถึงรุ่นทดลองฟรีของ Aspose.Page สำหรับ .NET ได้จาก [ที่นี่](https://releases.aspose.com/).
 
-### Q4: จะขอรับลิขสิทธิ์ชั่วคราวสำหรับ Aspose.Page for .NET ได้อย่างไร?
-A: คุณสามารถรับลิขสิทธิ์ชั่วคราวได้ [ที่นี่](https://purchase.aspose.com/temporary-license/)
+### Q4: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Page สำหรับ .NET ได้อย่างไร?
+A: คุณสามารถรับใบอนุญาตชั่วคราวได้จาก [ที่นี่](https://purchase.aspose.com/temporary-license/).
 
-### Q5: จะหาการสนับสนุนหรือพูดคุยเกี่ยวกับ Aspose.Page ได้จากที่ไหน?
-A: เยี่ยมชม [Aspose.Page forums](https://forum.aspose.com/c/page/39) เพื่อรับการสนับสนุนจากชุมชนและการสนทนาต่าง ๆ  
+### Q5: ฉันจะหาการสนับสนุนหรือพูดคุยเกี่ยวกับคำถาม Aspose.Page ได้จากที่ไหน?
+A: เยี่ยมชม [ฟอรั่ม Aspose.Page](https://forum.aspose.com/c/page/39) เพื่อรับการสนับสนุนจากชุมชนและการสนทนา.
 
----
-
-**อัปเดตล่าสุด:** 2026-01-05  
+**อัปเดตล่าสุด:** 2026-06-25  
 **ทดสอบด้วย:** Aspose.Page 24.11 for .NET  
-**ผู้เขียน:** Aspose  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีสร้างเอกสาร PostScript ด้วย Aspose.Page สำหรับ .NET](/page/net/document-creation/create-postscript-document/)
+- [บันทึกไฟล์ PostScript ด้วยการแปลงของ Aspose.Page (.NET)](/page/net/canvas-manipulation/transformationsps/)
+- [สร้างเอกสาร postscript .net – เพิ่มสี่เหลี่ยมด้วย Aspose.Page](/page/net/drawing-shapes/add-rectangle-to-postscript-ps/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
