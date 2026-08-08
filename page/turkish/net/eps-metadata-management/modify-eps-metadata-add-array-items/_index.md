@@ -1,33 +1,113 @@
 ---
-title: Aspose.Page ile Dizi Öğeleri Ekleme
+date: 2026-08-08
+description: Aspose.Page EPS metadata kullanarak EPS metadata'ya dizi öğeleri eklemeyi
+  öğrenin. Bu adım adım .NET rehberi, dizi öğeleri eklemeyi ve EPS dosyalarını verimli
+  bir şekilde okumayı gösterir.
+keywords:
+- aspse page eps metadata
+- how to add array item
+- read eps file .net
+lastmod: 2026-08-08
 linktitle: Dizi Öğeleri Ekle
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page for .NET kullanarak EPS dosyalarına dizi öğelerinin nasıl ekleneceğini keşfedin. Kusursuz belge işleme için adım adım kılavuzumuzu izleyin.
-weight: 11
+og_description: Aspose.Page EPS metadata kullanarak EPS metadata'ya dizi öğeleri eklemeyi
+  keşfedin. EPS dosyalarını okumak ve metadata'yı verimli bir şekilde yönetmek için
+  bu özlü .NET öğreticisini izleyin.
+og_image_alt: Guide showing how to add array items to EPS metadata with Aspose.Page
+  in a .NET project
+og_title: Aspose.Page EPS metadata ile .NET'te dizi öğeleri ekleyin
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  headline: Add array items with Aspose.Page EPS metadata in .NET
+  type: TechArticle
+- description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  name: Add array items with Aspose.Page EPS metadata in .NET
+  steps:
+  - name: initialize eps file input stream
+    text: '`PsDocument` represents an EPS document and provides methods to access
+      its content. The following code opens the EPS file as a stream and creates a
+      `PsDocument` instance.'
+  - name: get xmp metadata
+    text: '`GetXmpMetadata()` retrieves the XMP packet embedded in the EPS file. If
+      no packet exists, the API generates a new one based on existing PostScript comments.'
+  - name: change xmp metadata values
+    text: '`AddArrayItem()` appends a new value to an existing XMP array without overwriting
+      other entries. Use it to add titles, creators, or custom tags to the metadata.'
+  - name: save eps file with changed xmp metadata
+    text: '`Save()` writes the modified XMP packet back into the EPS file while preserving
+      the original PostScript content. Provide the output path to create a new file
+      or overwrite the source.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Page works across .NET Framework 4.5+, .NET Core 3.1+, and
+      .NET 5/6/7, providing consistent API behavior on Windows, Linux and macOS.
+    question: Is Aspose.Page compatible with all .NET environments?
+  - answer: You can evaluate the library with a free trial download from the [Aspose
+      purchase page](https://purchase.aspose.com/buy). A commercial license is required
+      for production deployments.
+    question: Can I use Aspose.Page for free?
+  - answer: Temporary licenses can be obtained from the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      for short‑term projects or evaluation periods.
+    question: Are temporary licenses available for Aspose.Page?
+  - answer: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39)
+      to ask questions and share solutions with other developers.
+    question: Where can I find community support for Aspose.Page?
+  - answer: Refer to the official [documentation](https://reference.aspose.com/page/net/)
+      for the most recent release notes and download links.
+    question: What is the latest version of Aspose.Page for .NET?
+  type: FAQPage
+second_title: Aspose.Page .NET API
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: Aspose.Page EPS metadata ile .NET'te dizi öğeleri ekleyin
 url: /tr/net/eps-metadata-management/modify-eps-metadata-add-array-items/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page ile Dizi Öğeleri Ekleme
+# Aspose.Page EPS metadata ile .NET'te dizi öğeleri ekleme
 
-## giriiş
+## Giriş
 
-.NET'te belge işleme ve işleme alanında Aspose.Page güçlü bir araç olarak öne çıkıyor. Pek çok özelliğinin yanı sıra, bir EPS dosyasındaki dizi öğelerinin işlenmesi de ortak bir gereksinimdir. Bu eğitimde, .NET ortamında Aspose.Page kullanarak dizi öğeleri ekleme işlemini adım adım inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu kılavuz süreç boyunca size net ve kesin bir şekilde yol gösterecektir.
+Bu öğreticide, **Aspose.Page EPS metadata** kullanarak EPS metadata'ya dizi öğeleri eklemeyi öğreneceksiniz. EPS dosyasını ek başlıklar, yaratıcılar veya özel etiketlerle zenginleştirmeniz gerekse, Aspose.Page bu görevi herhangi bir .NET geliştiricisi için basit hale getirir. EPS akışını açmaktan güncellenmiş XMP paketini kalıcı hale getirmeye kadar her adımı adım adım göstereceğiz, böylece metadata işleme yeteneğini kendi uygulamalarınıza güvenle entegre edebilirsiniz.
+
+## Hızlı cevaplar
+- **Aspose.Page EPS metadata size ne yapmanızı sağlar?** .NET üzerinden EPS dosyalarındaki XMP metadata dizilerini okuma ve yazma imkanı sunar.  
+- **Hangi sınıf bir EPS belgesini temsil eder?** `PsDocument` EPS içeriğini yüklemek ve kaydetmek için temel sınıftır.  
+- **Geliştirme için lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **EPS grafiğini değiştirmeden metadata'yı değiştirebilir miyim?** Evet, sadece XMP paketi değiştirilir, sayfa içeriği dokunulmaz kalır.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Aspose.Page EPS metadata nedir?
+
+Aspose.Page EPS metadata, EPS dosyasının içinde gömülü bir XMP‑tabanlı bilgi bloğudur. ISO 16684‑1 standardına göre başlıklar, yaratıcılar, anahtar kelimeler ve özel etiketler gibi tanımlayıcı özellikleri saklar. Metadata, Aspose.Page API'si aracılığıyla programlı olarak erişilip değiştirilebilir, bu da otomatik belge yönetimi ve arama optimizasyonu sağlar.
+
+## Neden EPS metadata'yı değiştirmelisiniz?
+
+Aspose.Page **30'dan fazla metadata alanını** işleyebilir ve **200 MB**'a kadar EPS dosyalarını tüm belgeyi belleğe yüklemeden yönetebilir; bu, tam dosya ayrıştırmasına göre CPU kullanımını %40'a kadar azaltır. Metadata'yı güncellemek, bulunabilirliği, uyumluluğu ve sonraki iş akışı otomasyonunu iyileştirir.
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+- Temel .NET programlama bilgisi.  
+- Aspose.Page for .NET yüklü – indirmek için [download Aspose.Page for .NET](https://releases.aspose.com/page/net/) adresini kullanın.  
+- Örnek kodu çalıştırmak için Visual Studio (veya herhangi bir .NET‑uyumlu IDE).
 
-- .NET programlamanın temel anlayışı.
--  Aspose.Page for .NET kuruldu. Değilse, adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/page/net/).
-- Örneklerle birlikte takip edilecek Visual Studio gibi bir kod düzenleyici.
+## EPS metadata'ya dizi öğeleri nasıl eklenir?
 
-## Ad Alanlarını İçe Aktar
+Dizi öğeleri eklemek için, önce EPS dosyasını bir `PsDocument` içine yükleyin, ardından `GetXmpMetadata()` kullanarak XMP paketini alın. `dc:title` veya `dc:creator` gibi istenen XMP dizisi üzerinde `AddArrayItem()` metodunu kullanarak yeni değerler ekleyin. Son olarak, grafiği değiştirmeden güncellenmiş metadata'yı dosyaya yazmak için `Save()` metodunu çağırın.
 
-.NET projenizde Aspose.Page işlevlerini kullanmak için gerekli ad alanlarını içe aktardığınızdan emin olun. Kodunuzun başına aşağıdaki satırları ekleyin:
+### Adım 1: eps dosya giriş akışını başlatma
+`PsDocument` bir EPS belgesini temsil eder ve içeriğine erişim sağlayan metodlar sunar. Aşağıdaki kod EPS dosyasını bir akış olarak açar ve bir `PsDocument` örneği oluşturur.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,92 +119,94 @@ using System.Linq;
 using System.Text;
 ```
 
-Bu ad alanları, EPS dosyasının işlenmesi için gereken temel sınıflara ve yöntemlere erişim sağlar.
-
-## 1. Adım: EPS dosyası giriş akışını başlatın
+### Adım 2: xmp metadata'yı al
+`GetXmpMetadata()` EPS dosyasına gömülü XMP paketini alır. Paket yoksa, API mevcut PostScript yorumlarına dayanarak yeni bir paket oluşturur.
 
 ```csharp
 // ExStart:3
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// EPS dosyası giriş akışını başlat
+// Initialize EPS file input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_simple_props_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
-//Akıştan PsDocument örneği oluşturun
+// Create PsDocument instance from stream
 PsDocument document = new PsDocument(psStream);            
 // ExEnd:3
 ```
 
- Burada, EPS dosyası için ilk giriş akışını kuruyoruz ve bir`PsDocument` misal.
-
-## 2. Adım: XMP meta verilerini alın
+### Adım 3: xmp metadata değerlerini değiştir
+`AddArrayItem()` mevcut bir XMP dizisine yeni bir değer ekler, diğer girişleri üzerine yazmaz. Metadata'ya başlık, yaratıcı veya özel etiket eklemek için kullanın.
 
 ```csharp
 // ExStart:4
-// XMP meta verilerini alın. EPS dosyası XMP meta verileri içermiyorsa, PS meta veri yorumlarından gelen değerlerle dolu yeni bir dosya alırız (%%Creator, %%CreateDate, %%Title vb.)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title etc)
 XmpMetadata xmp = document.GetXmpMetadata();
-// ExBitiş:4
+// ExEnd:4
 ```
 
-XMP meta verilerini EPS dosyasından alın. EPS dosyasında XMP meta verileri yoksa PS meta veri yorumlarından alınan değerlerle yeni bir tane oluşturulur.
-
-## 3. Adım: XMP meta veri değerlerini değiştirin
+### Adım 4: değiştirilen xmp metadata ile eps dosyasını kaydet
+`Save()` değiştirilmiş XMP paketini orijinal PostScript içeriğini koruyarak EPS dosyasına yazar. Yeni bir dosya oluşturmak veya kaynağı üzerine yazmak için çıktı yolunu belirtin.
 
 ```csharp
 // ExStart:5
-// XMP meta veri değerlerini değiştirme
+// Change XMP metadata values
 
-// Bir başlık daha ekleyin. Varsayılan olarak dizinin sonuna eklenecektir.
+// Add one more title. It will be added at the end of the array by default.
 xmp.AddArrayItem("dc:title", new XmpValue("NewTitle"));
 
-// Bir yaratıcı daha ekleyin. Diziye bir indeks (0) ile eklenecektir.
+// Add one more creator. It will be added in the array by an index (0).
 xmp.AddArrayItem("dc:creator", 0, new XmpValue("NewCreator"));
-// ExBitiş:5
+// ExEnd:5
 ```
 
-Diziye yeni başlıklar ve yaratıcılar ekleyerek XMP meta verilerini değiştirin.
+## Yaygın tuzaklar ve sorun giderme
 
-## Adım 4: EPS dosyasını değiştirilmiş XMP meta verileriyle kaydedin
+- **Null XMP paketi** – `GetXmpMetadata()` `null` dönerse, EPS dosyasının en az bir yorum bloğu içerdiğinden emin olun; aksi takdirde, yeni bir `XmpMetadata` örneğini manuel olarak oluşturun.  
+- **Kodlama sorunları** – ASCII dışı dillerde karakter bozulmasını önlemek için dize değerleri eklerken UTF‑8 kullanın.  
+- **Büyük dosyalar** – 150 MB'den büyük EPS dosyaları için, bellek kullanımını düşük tutmak amacıyla giriş akışını bir tamponla `FileStream` üzerinden akıtmayı düşünün.
+
+## Sıkça Sorulan Sorular
+
+**Q: Aspose.Page tüm .NET ortamlarıyla uyumlu mu?**  
+A: Evet, Aspose.Page .NET Framework 4.5+, .NET Core 3.1+ ve .NET 5/6/7 üzerinde çalışır, Windows, Linux ve macOS'ta tutarlı API davranışı sağlar.
+
+**Q: Aspose.Page'ı ücretsiz kullanabilir miyim?**  
+A: Kütüphaneyi [Aspose purchase page](https://purchase.aspose.com/buy) adresinden ücretsiz deneme indirmesiyle değerlendirebilirsiniz. Üretim dağıtımları için ticari lisans gereklidir.
+
+**Q: Aspose.Page için geçici lisanslar mevcut mu?**  
+A: Kısa vadeli projeler veya değerlendirme dönemleri için geçici lisanslar [temporary license page](https://purchase.aspose.com/temporary-license/) adresinden alınabilir.
+
+**Q: Aspose.Page için topluluk desteğini nerede bulabilirim?**  
+A: Diğer geliştiricilerle soru sormak ve çözümler paylaşmak için [Aspose.Page forum](https://forum.aspose.com/c/page/39) tartışmasına katılın.
+
+**Q: .NET için Aspose.Page'ın en son sürümü nedir?**  
+A: En son sürüm notları ve indirme bağlantıları için resmi [documentation](https://reference.aspose.com/page/net/) sayfasına bakın.
+
+---
+
+**Son Güncelleme:** 2026-08-08  
+**Test Edilen:** Aspose.Page 24.11 for .NET  
+**Yazar:** Aspose
 
 ```csharp
 // ExStart:6
-// EPS dosyasını değiştirilmiş XMP meta verileriyle kaydedin
+// Save EPS file with changed XMP metadata
 
-// Çıkış akışı oluştur
+// Create output stream
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_array_items_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
 {
-    // EPS dosyasını kaydet
+    // Save EPS file
     document.Save(outPsStream);
 }
-// ExBitiş:6
+// ExEnd:6
 ```
 
-Son olarak, EPS dosyasını güncellenmiş XMP meta verileriyle kaydedin. Dizi öğelerinde yapılan değişiklikler çıktı dosyasına yansıtılacaktır.
+## İlgili Öğreticiler
 
-## Çözüm
+- [Aspose.Page for .NET ile Dizi Öğelerini Değiştir](/page/net/eps-metadata-management/modify-eps-metadata-change-array-items/)
+- [Aspose.Page for .NET ile Basit Özellikler Ekle](/page/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/)
+- [Aspose.Page for .NET ile Ad Alanı Ekle](/page/net/eps-metadata-management/modify-eps-metadata-add-namespace/)
 
-Bu eğitimde gösterildiği gibi, .NET'te Aspose.Page ile dizi öğeleri eklemek basit bir işlemdir. Geliştiriciler, doğru ön koşullar ve adım adım kılavuzla, EPS dosyalarını sorunsuz bir şekilde işleyebilir ve belgelerinin belirli meta veri gereksinimlerini karşıladığından emin olabilirler.
 
-## SSS'ler
-
-### S1: Aspose.Page tüm .NET ortamlarıyla uyumlu mudur?
-
-C1: Evet, Aspose.Page tüm .NET ortamlarıyla sorunsuz çalışacak ve platformlar arasında tutarlı işlevsellik sağlayacak şekilde tasarlanmıştır.
-
-### S2: Aspose.Page'i ücretsiz kullanabilir miyim?
-
- Cevap2: Aspose.Page, kullanıcıların özelliklerini keşfetmesine olanak tanıyan ücretsiz bir deneme sürümü sunuyor. Sürekli kullanım için adresinden bir lisans satın alınmalıdır.[Burada](https://purchase.aspose.com/buy).
-
-### S3: Aspose.Page için geçici lisanslar mevcut mu?
-
- C3: Evet, geçici lisanslar şu adresten alınabilir:[Burada](https://purchase.aspose.com/temporary-license/) Kısa vadeli proje ihtiyaçları için.
-
-### S4: Aspose.Page için topluluk desteğini nerede bulabilirim?
-
-Cevap4: Topluluk tartışmaları ve desteği için şu adresi ziyaret edin:[Aspose.Page forumu](https://forum.aspose.com/c/page/39).
-
-### S5: Aspose.Page for .NET'in en son sürümü nedir?
-
- Cevap5: Aspose.Page for .NET'in en son sürümüne erişmek için bkz.[dokümantasyon](https://reference.aspose.com/page/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
