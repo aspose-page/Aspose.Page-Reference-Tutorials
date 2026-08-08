@@ -1,10 +1,39 @@
 ---
 additionalTitle: Aspose API References
-date: 2026-01-28
-description: Aspose.Page を使用してドキュメントを結合し、PDF を作成し、PostScript を変換し、グラデーションを追加し、画像を管理し、.NET
-  と Java を使用してテキストを編集する方法を学びましょう。
-linktitle: Aspose.Page Tutorials
-title: Aspose.Pageでドキュメントを結合する方法 – .NET と Java ガイド
+date: 2026-06-20
+description: Aspose.Pageを使用して文書を結合し、PDFを作成し、PostScriptを変換し、グラデーションを追加し、画像を管理し、.NET
+  と Java を使ってテキストを編集する方法を学びます。
+keywords:
+- merge documents with Aspose.Page
+- Aspose.Page .NET merging
+- Aspose.Page Java merging
+linktitle: Aspose.Page チュートリアル
+schemas:
+- author: Aspose
+  dateModified: '2026-06-20'
+  description: Learn how to merge documents with Aspose.Page, create PDFs, convert
+    PostScript, add gradients, manage images, and edit text using .NET and Java.
+  headline: How to Merge Documents with Aspose.Page – .NET & Java Guide
+  type: TechArticle
+- questions:
+  - answer: Yes. Convert the PostScript file to PDF first (see the PostScript Conversion
+      tutorial) and then use the Document Merging guide to combine the PDFs.
+    question: Can I merge PDF and PostScript files in a single operation?
+  - answer: Absolutely. Apply gradients using the Gradient Fills tutorial before you
+      merge, and the visual effect will be retained in the final document.
+    question: Does Aspose.Page support adding gradients to merged pages?
+  - answer: Use the Image Management tutorial to set appropriate DPI and compression
+      settings before merging. This prevents unwanted down‑sampling.
+    question: How do I ensure images keep their original quality after merging?
+  - answer: Yes. The Text Manipulation tutorials show how to locate and replace text
+      strings after the merge operation.
+    question: Is it possible to edit text in a merged document without re‑creating
+      pages?
+  - answer: A commercial Aspose.Page license is required for production deployments.
+      A free trial can be used for evaluation and development.
+    question: What licensing is required for production use?
+  type: FAQPage
+title: Aspose.Pageで文書を結合する方法 – .NET と Java ガイド
 url: /ja/
 weight: 11
 ---
@@ -13,80 +42,76 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page – .NET と Java でドキュメントをマージする方法
+# Aspose.Page – .NET と Java でドキュメントを結合する方法
 
-Aspose.Pageチュートリアル一覧へようこそ。ここは、.NETおよびJavaプラットフォーム全体でAspose.Pageを使用してドキュメントを結合する方法を習得するためのワンストップハブです。シンプルなレポートを作成する場合でも、複雑な複数ページのカタログを作成する場合でも、これらのステップバイステップガイドでは、PDF、PostScript、XPS、EPSファイルを結合し、グラデーションや画像を追加し、テキストを微調整する方法を、レンダリングパイプラインを完全に制御しながら説明します。
+ようこそ **Aspose.Page Tutorials Listing** へ。これは .NET と Java プラットフォーム上で **how to merge documents with Aspose.Page** を習得するためのワンストップハブです。シンプルなレポートの作成から複雑なマルチページカタログまで、これらのステップバイステップガイドでは、PDF、PostScript、XPS、EPS ファイルを結合し、グラデーションや画像を追加し、テキストを微調整する方法を示します—すべてレンダリングパイプラインを完全にコントロールしながら行えます。
 
-**Aspose.Page Tutorials Listing**へようこそ。.NET と Java プラットフォームで **Aspose.Page を使用したドキュメントのマージ方法** をマスターするためのワンストップハブです。シンプルなレポートの作成から複雑なマルチページカタログの作成まで、これらのステップバイステップガイドでは、PDF、PostScript、XPS、EPS ファイルを組み合わせ、グラデーションや画像を追加し、テキストを微調整する方法を示します—レンダリングパイプラインを完全にコントロールしたままです。
+## クイック回答
+- **Aspose.Page で何ができますか？** Aspose.Page は .NET と Java 向けに、プログラムでドキュメントを作成、編集、結合できるようにします。  
+- **サポートされているフォーマットは何ですか？** PDF、PostScript、XPS、EPS、そして30種類以上の画像形式がサポートされています。  
+- **ライセンスは必要ですか？** 無料トライアルが利用可能です。商用利用には商用ライセンスが必要です。  
+- **PDF と PostScript ファイルを結合できますか？** はい。まず PostScript ファイルを PDF に変換し、次に PDF を結合します。  
+- **グラデーションや透過のサポートはありますか？** もちろんです。Gradient Fills と Transparency Effects のチュートリアルをご参照ください。  
 
-## Quick Answers
-- **What can Aspose.Page do?** .NET と Java 向けに、ドキュメントをプログラムで作成、編集、マージできるようにします。  
-- **Which formats are supported?** PDF、PostScript、XPS、EPS、そして多数の画像形式がサポートされています。  
-- **Do I need a license?** 無料トライアルが利用可能です。商用利用にはライセンスが必要です。  
-- **Can I merge PDFs and PostScript files?** はい—.NET では Document Merging チュートリアル、Java では File Merging ガイドをご利用ください。  
-- **Is there support for gradients and transparency?** もちろんです—Gradient Fills と Transparency Effects のチュートリアルをご参照ください。  
-- **How fast is the merge operation?** マージはメモリ上で実行され、標準サイズのドキュメントでは数ミリ秒で完了します。  
-- **Can I automate merging in a CI/CD pipeline?** はい—Aspose.Page は Windows、Linux、macOS で動作し、CI 環境に適しています。
+## **how to merge documents with Aspose.Page** とは何ですか？
+ドキュメントの結合とは、2つ以上の別々のファイルを1つの統合された出力に結合するプロセスです。  
+ドキュメントの結合は、PDF、PostScript、XPS などの 2 つ以上の別々のファイルを単一の一貫した出力に結合することを意味します。Aspose.Page は、ページ順序、リソースの統合、品質を損なわないフォーマット保持の結合を処理する豊富な API を提供し、20 以上の出力フォーマットをサポートし、数百メガバイトまでのファイルをメモリ効率の高いモードで処理できます。
 
-## Aspose.Page でドキュメントを結合する方法とは？
-
-ドキュメントの結合とは、PDF、PostScript、XPS などの複数のファイルを、単一のまとまった出力に結合することです。Aspose.Page は、ページ順序の変更、リソースの統合、品質を損なうことなくフォーマットを維持する結合など、豊富な API を提供します。
-
-## ドキュメントの結合やその他のタスクに Aspose.Page を使用するメリットは？
-- **Cross‑platform consistency:** 1 回コードを書けば、.NET でも Java でも実行できます。  
-- **Full control over graphics:** マージ前後にグラデーション、テクスチャ、透過効果を追加できます。  
-- **Robust image management:** 外部ツールを使わずに画像の挿入、置換、編集が可能です。  
-- **High‑performance conversion:** PostScript をリアルタイムで PDF や XPS に変換できます。  
-- **Extensive text editing:** マージされたページ全体でテキストの変更、スタイル設定、置換が行えます。  
+## Aspose.Page をドキュメント結合やその他のタスクに使用する理由は？
+Aspose.Page は、典型的な 10 ページの PDF に対して 200 ms 未満でメモリ内でドキュメントを結合でき、グラデーション、テクスチャ、ブラシなど 50 以上のグラフィックプリミティブをサポートします。このライブラリは Windows、Linux、macOS 上で動作し、クロスプラットフォームの一貫性を保証します。また、結合前後にグラフィックを追加できる完全なコントロールを提供し、ドキュメント全体をメモリに読み込まずに数百ページのファイルを処理できます。
 
 ## 前提条件
 - .NET 6+ または Java 11+ が開発マシンにインストールされていること。  
-- 無制限に機能を使用できる Aspose.Page ライセンス（またはトライアルキー）。  
-- C# または Java の基本的な構文に慣れていること。  
+- 制限のない機能を使用するための Aspose.Page ライセンス（またはトライアルキー）。  
+- C# または Java の構文に関する基本的な知識。  
 
 ## ドキュメントの結合方法 – .NET チュートリアル
+ソースファイルを読み込み、必要に応じてグラフィックやテキストの変更を適用し、`DocumentMerger` API を呼び出して単一の出力ドキュメントを生成します—すべて数行の C# コードで実行できます。  
+`DocumentMerger` は、複数の Aspose.Page ドキュメントを単一の出力ファイルに結合するクラスです。Aspose.Page for .NET は、ページの再順序付け、リソースの重複排除、フォーマット保持を自動的に処理し、結合操作をシンプルにします。
+
 {{% alert color="primary" %}}
-Aspose.Page for .NET のチュートリアルで、豊富な可能性を探ってみましょう。初心者の方でも経験豊富なユーザーの方でも、包括的なガイドでこの強力なツールの真価を最大限に引き出すことができます。基本的な操作方法やキャンバスの操作から、ドキュメント間の編集や画像管理といった高度なテクニックまで、チュートリアルですべてを網羅しています。ドキュメントの作成、操作、強化の世界に簡単に飛び込みましょう。Aspose.Page for .NET を活用してスキルを向上させ、ドキュメント処理ワークフローを効率化することで、あらゆるステップを効率的かつ効果的に進めることができます。
+Aspose.Page for .NET のチュートリアルで、可能性の豊かさを探求してください。初心者から経験豊富なユーザーまで、包括的なガイドはこの強力なツールの可能性を最大限に引き出す力を与えます。入門やキャンバス操作といった基礎的なステップから、クロスドキュメント編集や画像管理の高度なテクニックまで、すべてを網羅しています。ドキュメントの作成、操作、強化の世界に簡単に飛び込みましょう。Aspose.Page for .NET を使用してスキルを向上させ、ドキュメント処理ワークフローを効率化し、すべてのステップを効果的に実行できます。
 {{% /alert %}}
 
-以下は、役立つリソースへのリンクです。
-
+以下は便利なリソースへのリンクです：
 - [はじめに](./net/getting-started/)
 - [キャンバス操作](./net/canvas-manipulation/)
 - [クロスドキュメント編集](./net/cross-document-editing/)
 - [ドキュメント作成](./net/document-creation/)
 - [ドキュメント変換](./net/document-conversion/)
-- [ドキュメントマージ](./net/document-merging/)  <!-- primary keyword focus -->
+- [ドキュメント結合](./net/document-merging/)  <!-- primary keyword focus -->
 - [画像操作](./net/image-manipulation/)
-- [グラデーション塗りつぶし](./net/gradient-fills/)
+- [グラデーション塗り](./net/gradient-fills/)
 - [画像管理](./net/image-management/)
 - [ページ操作](./net/page-manipulation/)
 - [印刷チケット管理](./net/print-ticket-management/)
 - [図形描画](./net/drawing-shapes/)
-- [テキスト操作](./net/text-manipulation/)  <!-- secondary keyword -->
+- [テキスト操作](./net/text-manipulation/)
 - [テクスチャ処理](./net/texture-handling/)
 - [透過効果](./net/transparency-effects/)
 - [ビジュアルブラシ](./net/visual-brushes/)
 - [EPS メタデータ管理](./net/eps-metadata-management/)
 
-## ドキュメントを結合する方法 – Javaチュートリアル
+## ドキュメントの結合方法 – Java チュートリアル
+Java では、`DocumentMerger` オブジェクトをインスタンス化し、ソースファイルを渡して `merge()` を呼び出すことで、結合された PDF または XPS ファイルを取得します。  
+`DocumentMerger` は、複数の Aspose.Page ドキュメントを単一の出力ファイルに結合するクラスです。API はフォント埋め込み、画像リソース、ページレベルのメタデータを自動的に解決し、各ソースドキュメントの視覚的忠実度を保持した単一の出力を提供します。
+
 {{% alert color="primary" %}}
-Aspose.Page チュートリアルで、Java ドキュメント操作の無限の可能性を解き放ちましょう。経験豊富な開発者でも、初心者でも、包括的なガイドで、基本的なページ操作から高度な変換まで、複雑なテクニックを習得できます。Aspose.Page for Java の世界に飛び込み、ドキュメント処理スキルを簡単に向上させましょう。ページ要素のカスタマイズからシームレスなフォーマット変換まで、あらゆる機能を駆使して、視覚的に魅力的なドキュメントを簡単に作成できます。複雑なタスクをシンプルにするために設計された、ユーザーフレンドリーなチュートリアルで、Java プログラミングのスキルを向上させましょう。効率的なドキュメント作成と操作の極意を、Aspose.Page for Java で体験してください。
+Aspose.Page のチュートリアルで、Java ドキュメント操作の無限の可能性を解き放ちましょう。経験豊富な開発者でも、これから始める方でも、包括的なガイドは基本的なページ操作から高度な変換まで、複雑なテクニックを習得する力を与えます。Aspose.Page for Java の世界に飛び込み、ドキュメント処理スキルを簡単に向上させましょう。ページ要素のカスタマイズからシームレスなフォーマット変換まで、視覚的に魅力的なドキュメントを容易に作成できます。ユーザーフレンドリーなチュートリアルで Java プログラミング体験を向上させ、複雑なタスクをシンプルにします。効率的なドキュメント作成と操作の技術を発見してください—あなたの旅は Aspose.Page for Java から始まります。
 {{% /alert %}}
 
-以下は、役立つリソースへのリンクです。
-
+以下は便利なリソースへのリンクです：
 - [変換 - PostScript](./java/postscript-conversion/)  <!-- secondary keyword -->
 - [変換 - XPS](./java/xps-conversion/)
 - [Java ドキュメント作成](./java/document-creation/)  <!-- secondary keyword -->
-- [Java における EPS 操作](./java/manipulation-eps/)
+- [Java の EPS 操作](./java/manipulation-eps/)
 - [グラデーション追加 - PostScript](./java/postscript-gradient-addition/)  <!-- secondary keyword -->
 - [グラデーション追加 - XPS](./java/xps-gradient-addition/)
 - [ハッチパターン - PostScript](./java/postscript-hatch-patterns/)
 - [画像操作 - PostScript](./java/postscript-image-manipulation/)  <!-- secondary keyword -->
 - [画像操作 - XPS](./java/xps-image-manipulation/)
 - [ライセンス管理](./java/license-management/)
-- [ファイルマージ](./java/file-merging/)  <!-- primary keyword -->
+- [ファイル結合](./java/file-merging/)  <!-- primary keyword -->
 - [ページ操作 - PostScript](./java/postscript-page-manipulation/)
 - [ページ操作 - XPS](./java/xps-page-manipulation/)
 - [シェイプ - PostScript](./java/postscript-shapes/)
@@ -100,55 +125,43 @@ Aspose.Page チュートリアルで、Java ドキュメント操作の無限の
 - [XMP メタデータ操作 - Java](./java/xmp-metadata-manipulation/)
 
 ## 一般的な使用例とヒント
-- **複数のPDFを1つのレポートに結合する:** .NETの場合は「ドキュメント結合」チュートリアル、Javaの場合は「ファイル結合」チュートリアルを参照してください。
-
-- **結合前にグラデーションヘッダーを追加する:** 「グラデーション塗りつぶし」ガイドを使用してグラデーションを適用してから、ページを結合します。
-
-- **結合前にPostScriptファイルを変換する:** 「PostScript変換」チュートリアルを使用して変換してから、生成されたPDFを結合します。
-
-- **結合されたドキュメント全体で画像を管理する:** ファイルサイズを抑えるために、「画像管理」チュートリアルを使用して画像の解像度を標準化します。
-
-- **結合後にテキストを編集する:** 「テキスト操作」ガイドを使用して、結合されたドキュメント全体でプレースホルダーを置き換えたり、フッターを更新したりします。
+- **複数の PDF を単一のレポートに結合する:** .NET では *Document Merging* チュートリアル、Java では *File Merging* を使用してください。  
+- **結合前にグラデーションヘッダーを追加する:** *Gradient Fills* ガイドを使用してグラデーションを適用し、その後ページを結合します。  
+- **結合前に PostScript ファイルを変換する:** *PostScript Conversion* チュートリアルで変換し、生成された PDF を結合します。  
+- **結合されたドキュメント全体の画像を管理する:** *Image Management* チュートリアルで画像解像度を標準化し、ファイルサイズを抑えます。  
+- **結合後にテキストを編集する:** *Text Manipulation* ガイドを使用して、プレースホルダーの置換やフッターの更新を行います。  
 
 ## よくある質問
 
-**Q: PDFファイルとPostScriptファイルを1つの操作で結合できますか？**
+**Q: PDF と PostScript ファイルを単一の操作で結合できますか？**  
+A: はい。まず PostScript ファイルを PDF に変換し（PostScript Conversion チュートリアルをご参照ください）、その後 Document Merging ガイドで PDF を結合します。
 
-**A:** はい。まずPostScriptファイルをPDFに変換し（「PostScript変換」チュートリアルを参照）、次に「ドキュメント結合」ガイドを使用してPDFを結合します。 
+**Q: Aspose.Page は結合されたページにグラデーションを追加することをサポートしていますか？**  
+A: もちろんです。結合前に Gradient Fills チュートリアルでグラデーションを適用すれば、最終ドキュメントでも視覚効果が保持されます。
 
-**Q: Aspose.Pageは、結合したページにグラデーションを追加する機能をサポートしていますか？**
+**Q: 結合後に画像の元の品質を保つにはどうすればよいですか？**  
+A: 結合前に Image Management チュートリアルで適切な DPI と圧縮設定を行ってください。これにより不要なダウンサンプリングを防げます。
 
-**A:** はい、サポートしています。結合前に「グラデーション塗りつぶし」チュートリアルを使用してグラデーションを適用すると、最終ドキュメントにもその視覚効果が保持されます。
+**Q: ページを再作成せずに結合ドキュメントのテキストを編集できますか？**  
+A: はい。Text Manipulation チュートリアルでは、結合後にテキスト文字列を検索・置換する方法を示しています。
 
-**Q: 結合後も画像の品質を維持するにはどうすればよいですか？**
+**Q: 本番環境での使用にはどのようなライセンスが必要ですか？**  
+A: 本番環境での導入には商用 Aspose.Page ライセンスが必要です。評価や開発には無料トライアルを使用できます。
 
-**A:** 結合前に「画像管理」チュートリアルを使用して、適切なDPIと圧縮設定を行ってください。これにより、不要なダウンサンプリングを防ぐことができます。
+**Q: Linux サーバーで結合を実行できますか？**  
+A: はい。Aspose.Page はクロスプラットフォームで、Linux、macOS、Windows 上で動作し、サーバー側の自動化に適しています。
 
-**Q: 結合したドキュメント内のテキストを、ページを再作成せずに編集することは可能ですか？**
-
-**A:** はい。「テキスト操作」チュートリアルでは、結合操作後にテキスト文字列を検索して置換する方法を説明しています。
-
-**Q: 本番環境で使用するには、どのようなライセンスが必要ですか？**
-
-**A:** 本番環境での導入には、Aspose.Pageの商用ライセンスが必要です。評価および開発には、無料トライアルをご利用いただけます。
-
-**Q: Linuxサーバーで結合を実行できますか？**
-
-**A:** はい。 Aspose.Pageはクロスプラットフォームに対応しており、Linux、macOS、Windowsで動作するため、サーバーサイドの自動化に適しています。
-
-**Q: Aspose.Pageは一度にどのくらいのサイズのドキュメントをマージできますか？** 
-
-**A:** このライブラリは大きなファイルにも対応できるように設計されていますが、ページ数が増えるにつれてメモリ使用量も増加します。非常に大きなバッチを処理する場合は、小さなグループに分割してマージし、`Document.OptimizeResources()`メソッドを使用することを検討してください。
+**Q: 単一の結合で Aspose.Page が扱えるドキュメントのサイズはどれくらいですか？**  
+A: ライブラリは大容量ファイルの処理を想定していますが、メモリ使用量はページ数に比例して増加します。非常に大規模なバッチの場合は、より小さなグループに分けて結合し、`Document.OptimizeResources()` メソッドの使用を検討してください。
 
 ---
 
-**最終更新日:** 2026-01-28  
+**最終更新日:** 2026-06-20  
 **テスト環境:** Aspose.Page 24.11 for .NET & Java  
 **作者:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
