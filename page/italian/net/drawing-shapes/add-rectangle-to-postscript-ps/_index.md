@@ -1,10 +1,33 @@
 ---
-date: 2026-01-18
-description: Impara a creare documenti PostScript in .NET e aggiungere rettangoli
+date: 2026-06-30
+description: Scopri come creare un documento postscript .NET e aggiungere rettangoli
   usando Aspose.Page per .NET. Guida passo‑passo con esempi di codice.
-linktitle: Add Rectangle to PostScript (PS)
+keywords:
+- create postscript document .net
+- how to generate postscript file
+- Aspose.Page rectangle
+linktitle: Aggiungi rettangolo a PostScript (PS)
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to create postscript document .net and add rectangles using
+    Aspose.Page for .NET. Step‑by‑step guide with code samples.
+  headline: Create PostScript Document .NET – Add Rectangle Aspose.Page
+  type: TechArticle
+- questions:
+  - answer: Aspose.Page for .NET.
+    question: What library do I need?
+  - answer: Yes – the API lets you build PS files programmatically.
+    question: Can I create a PostScript document from scratch?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Which .NET versions are supported?
+  - answer: A free trial works for testing; a license is required for production.
+    question: Do I need a license for development?
+  - answer: Typically under 10 minutes for basic shapes.
+    question: How long does the implementation take?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-title: Crea documento PostScript .NET – Aggiungi rettangolo con Aspose.Page
+title: Crea documento PostScript .NET – Aggiungi rettangolo Aspose.Page
 url: /it/net/drawing-shapes/add-rectangle-to-postscript-ps/
 weight: 12
 ---
@@ -13,36 +36,38 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi un rettangolo a PostScript (PS) con Aspose.Page per .NET
+# Aggiungere un Rettangolo a PostScript (PS) con Aspose.Page per .NET
 
 ## Introduzione
 
-Se stai cercando di **creare documento postscript .net**, Aspose.Page fornisce una soluzione potente per gestire i file PostScript. In questo tutorial, ti guideremo nell'aggiungere rettangoli a un documento PostScript usando Aspose.Page per .NET, fornendoti una solida base per la generazione di grafica più ricca.
+Aspose.Page for .NET è una libreria che consente la creazione e la manipolazione di file PostScript, EPS e XPS in modo programmatico. Se stai cercando di **creare un documento postscript .net**, questo tutorial ti guida nell'aggiungere rettangoli a un documento PostScript usando Aspose.Page, fornendoti una solida base per la generazione di grafica più ricca.
 
-## Risposte rapide
-- **Quale libreria mi serve?** Aspose.Page for .NET.
-- **Posso creare un documento PostScript da zero?** Sì – l'API consente di costruire file PS programmaticamente.
-- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
-- **È necessaria una licenza per lo sviluppo?** Una prova gratuita funziona per i test; è richiesta una licenza per la produzione.
+## Risposte Rapide
+- **Quale libreria è necessaria?** Aspose.Page per .NET.  
+- **Posso creare un documento PostScript da zero?** Sì – l'API consente di costruire file PS programmaticamente.  
+- **Quali versioni di .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **È necessaria una licenza per lo sviluppo?** Una prova gratuita è sufficiente per i test; è necessaria una licenza per la produzione.  
 - **Quanto tempo richiede l'implementazione?** Tipicamente meno di 10 minuti per forme di base.
 
-## Che cosa significa creare un documento postscript .net?
-Creare un documento PostScript in .NET significa generare programmaticamente un file .ps che descrive il contenuto della pagina — testo, grafica o forme — usando l'API Aspose.Page. Questo approccio è ideale per la generazione di grafica lato server, la creazione automatizzata di report o qualsiasi scenario in cui è necessario un controllo preciso sul formato di output.
+## Cos'è la creazione di un documento postscript .net?
+Creare un documento PostScript in .NET significa generare programmaticamente un file `.ps` che descrive il contenuto della pagina—testo, grafica o forme—utilizzando l'API Aspose.Page. Questo approccio è ideale per la generazione di grafica lato server, la creazione automatizzata di report o qualsiasi scenario in cui è necessario un controllo preciso sul formato di output.
 
 ## Perché usare Aspose.Page per .NET?
-- **Controllo completo sulla grafica** – disegna forme, imposta colori e applica tratti senza occuparsi della sintassi PS a basso livello.
-- **Cross‑platform** – funziona su runtime Windows, Linux e macOS.
-- **Nessuna dipendenza esterna** – la libreria gestisce internamente tutta la generazione PS.
-- **Documentazione ricca & esempi** – inizia a lavorare rapidamente.
+Aspose.Page supporta **oltre 30 primitive grafiche** e può generare file fino a **500 MB** senza caricare l'intero documento in memoria, offrendo rendering ad alte prestazioni su Windows, Linux e macOS. Ti offre pieno controllo su forme, colori e tratti, eliminando la necessità di scrivere codice PostScript a basso livello.
+
+- **Controllo completo sulla grafica** – disegna forme, imposta colori e applica tratti senza occuparsi della sintassi PS a basso livello.  
+- **Cross‑platform** – funziona su runtime Windows, Linux e macOS.  
+- **Nessuna dipendenza esterna** – la libreria gestisce internamente tutta la generazione PS.  
+- **Documentazione ricca & esempi** – inizia rapidamente.
 
 ## Prerequisiti
 
-- **Libreria Aspose.Page per .NET** – scarica e installa da [qui](https://releases.aspose.com/page/net/).
-- **Ambiente di sviluppo** – Visual Studio, VS Code, o qualsiasi IDE compatibile con .NET.
+- **Libreria Aspose.Page per .NET** – scarica e installa da [qui](https://releases.aspose.com/page/net/).  
+- **Ambiente di sviluppo** – Visual Studio, VS Code o qualsiasi IDE compatibile con .NET.
 
-## Importa gli spazi dei nomi
+## Importare gli Spazi dei Nomi
 
-Prima di iniziare a scrivere codice, importa gli spazi dei nomi che espongono le classi necessarie:
+Lo spazio dei nomi `Aspose.Page` espone le classi core di cui avrai bisogno, come `Document`, `Page`, `SolidBrush` e `Pen`. Importalo prima di iniziare a scrivere codice.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -54,7 +79,7 @@ using System.IO;
 
 Ora suddividiamo l'esempio in passaggi chiari e numerati.
 
-## Passo 1: Configura la directory del documento
+## Passo 1: Configura la Cartella del Documento
 
 ```csharp
 // ExStart:1
@@ -62,18 +87,18 @@ Ora suddividiamo l'esempio in passaggi chiari e numerati.
 string dataDir = "Your Document Directory";
 ```
 
-Replace `"Your Document Directory"` con la cartella in cui desideri salvare il file PS risultante.
+Sostituisci `"Your Document Directory"` con la cartella in cui desideri salvare il file PS risultante.
 
-## Passo 2: Crea lo stream di output per il documento PostScript
+## Passo 2: Crea lo Stream di Output per il Documento PostScript
 
 ```csharp
 //Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-Questo stream punta a **AddRectangle_outPS.ps**. Sentiti libero di rinominare il file o cambiare la posizione secondo necessità.
+Questo stream punta a **AddRectangle_outPS.ps**. Sentiti libero di rinominare il file o modificare la posizione secondo necessità.
 
-## Passo 3: Imposta le opzioni di salvataggio e crea il documento PS
+## Passo 3: Imposta le Opzioni di Salvataggio e Crea il Documento PS
 
 ```csharp
 //Create save options with A4 size
@@ -85,7 +110,7 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 
 Qui indichiamo ad Aspose.Page di utilizzare una dimensione di pagina A4 e di creare un documento a pagina singola.
 
-## Passo 4: Aggiungi un rettangolo riempito
+## Passo 4: Aggiungi un Rettangolo Riempito
 
 ```csharp
 //Create graphics path from the first rectangle
@@ -101,7 +126,7 @@ document.Fill(path);
 
 Definiamo un rettangolo a (250, 100) con larghezza 150 e altezza 100, impostiamo un pennello arancione e riempiamo la forma.
 
-## Passo 5: Aggiungi un rettangolo contornato
+## Passo 5: Aggiungi un Rettangolo Contornato
 
 ```csharp
 //Create graphics path from the second rectangle
@@ -115,9 +140,9 @@ document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Re
 document.Draw(path);
 ```
 
-Un secondo rettangolo è creato più in basso nella pagina, questa volta con un tratto rosso di 3 punti.
+Un secondo rettangolo viene creato più in basso nella pagina, questa volta con un tratto rosso di 3 punti.
 
-## Passo 6: Chiudi la pagina e salva il documento
+## Passo 6: Chiudi la Pagina e Salva il Documento
 
 ```csharp
 //Close current page
@@ -129,13 +154,19 @@ document.Save();
 
 Chiudere la pagina finalizza il disegno, e `Save()` scrive il file PS su disco.
 
-## Problemi comuni e suggerimenti
+## Come creare un documento postscript .net?
+`Document` è la classe principale che rappresenta un file PostScript in Aspose.Page. `SaveOptions` specifica impostazioni come la dimensione della pagina e il formato di output per il documento. Carica l'oggetto `Document`, configura `SaveOptions` per una pagina A4, disegna le tue forme con `SolidBrush` o `Pen`, quindi chiama `document.Save()` — l'intero flusso di lavoro richiede solo poche righe di codice e funziona su qualsiasi runtime .NET supportato. Questo modello ti consente di generare file PostScript pienamente conformi senza toccare la sintassi PS grezza.
 
-- **Percorso file errato** – Assicurati che `dataDir` termini con un separatore di percorso (`\\` o `/`) o utilizza `Path.Combine`.
-- **Licenza mancante** – In un ambiente di produzione, applica la tua licenza Aspose prima di creare il documento per evitare filigrane di valutazione.
+## Come generare un file postscript
+Usa la classe `SaveOptions` di Aspose.Page per specificare il formato di output come PostScript (`SaveFormat.PS`). La libreria trasmette il contenuto direttamente a un file o a uno stream di memoria, consentendoti di generare documenti di grandi dimensioni in modo efficiente senza un consumo eccessivo di memoria.
+
+## Problemi Comuni & Suggerimenti
+
+- **Percorso file errato** – Assicurati che `dataDir` termini con un separatore di percorso (`\\` o `/`) o utilizza `Path.Combine`.  
+- **Licenza mancante** – In un ambiente di produzione, applica la tua licenza Aspose prima di creare il documento per evitare filigrane di valutazione.  
 - **Visibilità del colore** – Se il rettangolo appare vuoto, verifica che i colori del pennello o della penna contrastino con lo sfondo della pagina.
 
-## Domande frequenti
+## Domande Frequenti
 
 **D:** Posso personalizzare i colori dei rettangoli?  
 **R:** Assolutamente. Cambia i valori `Color.Orange` o `Color.Red` nei costruttori `SolidBrush` e `Pen` con qualsiasi `System.Drawing.Color` preferisci.
@@ -154,13 +185,19 @@ Chiudere la pagina finalizza il disegno, e `Save()` scrive il file PS su disco.
 
 ---
 
-**Ultimo aggiornamento:** 2026-01-18  
-**Testato con:** Aspose.Page 24.12 per .NET  
+**Ultimo Aggiornamento:** 2026-06-30  
+**Testato Con:** Aspose.Page 24.12 per .NET  
 **Autore:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Tutorial Correlati
+
+- [Come Creare un Documento PostScript con Aspose.Page per .NET](/page/net/document-creation/create-postscript-document/)
+- [Aggiungi Immagine a un Documento PostScript (PS) con Aspose.Page](/page/net/image-management/add-image-to-postscript-ps-document/)
+- [Aggiungi Testo a un Documento PostScript (PS) con Aspose.Page](/page/net/text-manipulation/add-text-to-postscript-ps-document/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

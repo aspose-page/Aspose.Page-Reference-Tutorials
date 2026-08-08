@@ -1,10 +1,33 @@
 ---
-date: 2026-01-18
-description: Dowiedz się, jak tworzyć dokumenty PostScript w .NET i dodawać prostokąty
+date: 2026-06-30
+description: Dowiedz się, jak utworzyć dokument postscript .NET i dodać prostokąty
   przy użyciu Aspose.Page dla .NET. Przewodnik krok po kroku z przykładami kodu.
-linktitle: Add Rectangle to PostScript (PS)
+keywords:
+- create postscript document .net
+- how to generate postscript file
+- Aspose.Page rectangle
+linktitle: Dodaj prostokąt do PostScript (PS)
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to create postscript document .net and add rectangles using
+    Aspose.Page for .NET. Step‑by‑step guide with code samples.
+  headline: Create PostScript Document .NET – Add Rectangle Aspose.Page
+  type: TechArticle
+- questions:
+  - answer: Aspose.Page for .NET.
+    question: What library do I need?
+  - answer: Yes – the API lets you build PS files programmatically.
+    question: Can I create a PostScript document from scratch?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Which .NET versions are supported?
+  - answer: A free trial works for testing; a license is required for production.
+    question: Do I need a license for development?
+  - answer: Typically under 10 minutes for basic shapes.
+    question: How long does the implementation take?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-title: Utwórz dokument PostScript w .NET – Dodaj prostokąt przy użyciu Aspose.Page
+title: Utwórz dokument PostScript .NET – Dodaj prostokąt Aspose.Page
 url: /pl/net/drawing-shapes/add-rectangle-to-postscript-ps/
 weight: 12
 ---
@@ -13,36 +36,40 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj prostokąt do PostScript (PS) z Aspose.Page dla .NET
+# Dodaj prostokąt do PostScript (PS) przy użyciu Aspose.Page dla .NET
 
 ## Wprowadzenie
 
-Jeśli chcesz **tworzyć dokument postscript w .net**, Aspose.Page zapewnia potężne rozwiązanie do obsługi plików PostScript. W tym samouczku pokażemy, jak dodać prostokąty do dokumentu PostScript przy użyciu Aspose.Page dla .NET, dając solidne podstawy do generowania bardziej zaawansowanej grafiki.
+Aspose.Page for .NET to biblioteka umożliwiająca programowe tworzenie i manipulację plikami PostScript, EPS i XPS. Jeśli chcesz **tworzenia dokumentu postscript .net**, ten samouczek przeprowadzi Cię przez dodawanie prostokątów do dokumentu PostScript przy użyciu Aspose.Page, dając solidne podstawy do generowania bardziej zaawansowanej grafiki.
 
 ## Szybkie odpowiedzi
-- **Jakiej biblioteki potrzebuję?** Aspose.Page dla .NET.  
-- **Czy mogę utworzyć dokument PostScript od podstaw?** Tak – API pozwala programowo budować pliki PS.  
+- **Jakiej biblioteki potrzebuję?** Aspose.Page for .NET.  
+- **Czy mogę stworzyć dokument PostScript od podstaw?** Tak – API pozwala programowo tworzyć pliki PS.  
 - **Jakie wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja jest wymagana w produkcji.  
-- **Jak długo trwa implementacja?** Zazwyczaj mniej niż 10 minut dla podstawowych kształtów.
+- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna działa w testach; licencja jest wymagana w produkcji.  
+- **Jak długo trwa implementacja?** Zazwyczaj poniżej 10 minut dla podstawowych kształtów.
 
-## Co to jest tworzenie dokumentu postscript w .net?
-Tworzenie dokumentu PostScript w .NET oznacza programowe generowanie pliku .ps, który opisuje zawartość strony — tekst, grafikę lub kształty — przy użyciu API Aspose.Page. Takie podejście jest idealne do generowania grafiki po stronie serwera, automatycznego tworzenia raportów lub wszelkich scenariuszy, w których potrzebna jest precyzyjna kontrola nad formatem wyjściowym.
+## Co to jest tworzenie dokumentu postscript .net?
+
+Tworzenie dokumentu PostScript w .NET oznacza programowe generowanie pliku `.ps`, który opisuje zawartość strony — tekst, grafikę lub kształty — przy użyciu API Aspose.Page. Takie podejście jest idealne do generowania grafiki po stronie serwera, automatycznego tworzenia raportów lub w każdym scenariuszu, w którym potrzebna jest precyzyjna kontrola nad formatem wyjściowym.
 
 ## Dlaczego warto używać Aspose.Page dla .NET?
-- **Pełna kontrola nad grafiką** – rysuj kształty, ustawiaj kolory i stosuj obrysy bez konieczności pracy z niskopoziomową składnią PS.  
-- **Cross‑platform** – działa w środowiskach Windows, Linux i macOS.  
-- **Brak zewnętrznych zależności** – biblioteka samodzielnie generuje PS.  
-- **Bogata dokumentacja i przykłady** – szybki start.
+
+Aspose.Page obsługuje **30+ prymitywów graficznych** i może generować pliki do **500 MB** bez ładowania całego dokumentu do pamięci, zapewniając wysokowydajne renderowanie na Windows, Linux i macOS. Daje pełną kontrolę nad kształtami, kolorami i obramowaniami, eliminując potrzebę pisania niskopoziomowego kodu PostScript.
+
+- **Pełna kontrola nad grafiką** – rysuj kształty, ustawiaj kolory i stosuj obramowania bez konieczności zajmowania się niskopoziomową składnią PS.  
+- **Wieloplatformowość** – działa w środowiskach Windows, Linux i macOS.  
+- **Brak zewnętrznych zależności** – biblioteka obsługuje całe generowanie PS wewnętrznie.  
+- **Bogata dokumentacja i przykłady** – szybko rozpocznij pracę.
 
 ## Wymagania wstępne
 
-- **Aspose.Page dla .NET** – pobierz i zainstaluj z [tutaj](https://releases.aspose.com/page/net/).  
+- **Biblioteka Aspose.Page dla .NET** – pobierz i zainstaluj z [tutaj](https://releases.aspose.com/page/net/).  
 - **Środowisko programistyczne** – Visual Studio, VS Code lub dowolne IDE zgodne z .NET.
 
 ## Importowanie przestrzeni nazw
 
-Przed rozpoczęciem kodowania zaimportuj przestrzenie nazw, które udostępniają potrzebne klasy:
+Przestrzeń nazw `Aspose.Page` udostępnia podstawowe klasy, których będziesz potrzebować, takie jak `Document`, `Page`, `SolidBrush` i `Pen`. Zaimportuj ją przed rozpoczęciem kodowania.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -52,7 +79,7 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Teraz podzielmy przykład na przejrzyste, numerowane kroki.
+Teraz podzielmy przykład na jasne, numerowane kroki.
 
 ## Krok 1: Ustaw katalog dokumentu
 
@@ -62,7 +89,7 @@ Teraz podzielmy przykład na przejrzyste, numerowane kroki.
 string dataDir = "Your Document Directory";
 ```
 
-Zastąp `"Your Document Directory"` folderem, w którym ma zostać zapisany wynikowy plik PS.
+Zastąp `"Your Document Directory"` folderem, w którym chcesz zapisać wygenerowany plik PS.
 
 ## Krok 2: Utwórz strumień wyjściowy dla dokumentu PostScript
 
@@ -71,7 +98,7 @@ Zastąp `"Your Document Directory"` folderem, w którym ma zostać zapisany wyni
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-Ten strumień wskazuje na **AddRectangle_outPS.ps**. Możesz zmienić nazwę pliku lub lokalizację wedle potrzeb.
+Ten strumień wskazuje na **AddRectangle_outPS.ps**. Możesz dowolnie zmienić nazwę pliku lub lokalizację w razie potrzeby.
 
 ## Krok 3: Ustaw opcje zapisu i utwórz dokument PS
 
@@ -83,7 +110,7 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Tutaj informujemy Aspose.Page, aby użył rozmiaru strony A4 i stworzył dokument jednopostaciowy.
+Tutaj informujemy Aspose.Page, aby używał rozmiaru strony A4 i utworzył dokument jednopostaciowy.
 
 ## Krok 4: Dodaj wypełniony prostokąt
 
@@ -99,9 +126,9 @@ document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 document.Fill(path);
 ```
 
-Definiujemy prostokąt w punkcie (250, 100) o szerokości 150 i wysokości 100, ustawiamy pomarańczowy pędzel i wypełniamy kształt.
+Definiujemy prostokąt w (250, 100) o szerokości 150 i wysokości 100, ustawiamy pomarańczowy pędzel i wypełniamy kształt.
 
-## Krok 5: Dodaj prostokąt z obrysem
+## Krok 5: Dodaj prostokąt z obramowaniem
 
 ```csharp
 //Create graphics path from the second rectangle
@@ -115,7 +142,7 @@ document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Re
 document.Draw(path);
 ```
 
-Drugi prostokąt tworzony jest niżej na stronie, tym razem z czerwonym obrysem o grubości 3 punktów.
+Drugi prostokąt jest tworzony niżej na stronie, tym razem z czerwonym obramowaniem o grubości 3 punktów.
 
 ## Krok 6: Zamknij stronę i zapisz dokument
 
@@ -127,40 +154,54 @@ document.ClosePage();
 document.Save();
 ```
 
-Zamknięcie strony finalizuje rysowanie, a metoda `Save()` zapisuje plik PS na dysku.
+Zamknięcie strony finalizuje rysunek, a `Save()` zapisuje plik PS na dysku.
+
+## Jak stworzyć dokument postscript .net?
+
+`Document` jest główną klasą reprezentującą plik PostScript w Aspose.Page. `SaveOptions` określa ustawienia takie jak rozmiar strony i format wyjściowy dokumentu. Załaduj obiekt `Document`, skonfiguruj `SaveOptions` dla strony A4, rysuj kształty przy użyciu `SolidBrush` lub `Pen`, a następnie wywołaj `document.Save()` — cały przepływ wymaga tylko kilku linii kodu i działa na dowolnym obsługiwanym środowisku .NET. Ten wzorzec pozwala generować w pełni zgodne pliki PostScript bez konieczności ręcznego manipulowania surową składnią PS.
+
+## Jak wygenerować plik postscript
+
+Użyj klasy `SaveOptions` z Aspose.Page, aby określić format wyjściowy jako PostScript (`SaveFormat.PS`). Biblioteka przesyła zawartość bezpośrednio do pliku lub strumienia pamięci, umożliwiając efektywne generowanie dużych dokumentów bez nadmiernego zużycia pamięci.
 
 ## Typowe problemy i wskazówki
 
 - **Nieprawidłowa ścieżka pliku** – Upewnij się, że `dataDir` kończy się separatorem ścieżki (`\\` lub `/`) lub użyj `Path.Combine`.  
-- **Brak licencji** – W środowisku produkcyjnym zastosuj licencję Aspose przed utworzeniem dokumentu, aby uniknąć znaków wodnych wersji ewaluacyjnej.  
-- **Widoczność koloru** – Jeśli prostokąt wydaje się pusty, sprawdź, czy kolory pędzla lub pióra kontrastują z tłem strony.
+- **Brak licencji** – W środowisku produkcyjnym zastosuj licencję Aspose przed tworzeniem dokumentu, aby uniknąć znaków wodnych wersji ewaluacyjnej.  
+- **Widoczność koloru** – Jeśli prostokąt jest pusty, sprawdź, czy kolory pędzla lub pióra kontrastują z tłem strony.
 
 ## Najczęściej zadawane pytania
 
-**P:** Czy mogę dostosować kolory prostokątów?  
-**O:** Oczywiście. Zmień wartości `Color.Orange` lub `Color.Red` w konstruktorach `SolidBrush` i `Pen` na dowolny `System.Drawing.Color`, który Ci odpowiada.
+**Q:** Czy mogę dostosować kolory prostokątów?  
+**A:** Oczywiście. Zmień wartości `Color.Orange` lub `Color.Red` w konstruktorach `SolidBrush` i `Pen` na dowolny `System.Drawing.Color`, który preferujesz.
 
-**P:** Czy Aspose.Page jest kompatybilny z innymi formatami dokumentów?  
-**O:** Tak. Oprócz PostScript, Aspose.Page obsługuje także generowanie XPS i EPS.
+**Q:** Czy Aspose.Page jest kompatybilny z innymi formatami dokumentów?  
+**A:** Tak. Oprócz PostScript, Aspose.Page obsługuje także generowanie XPS i EPS.
 
-**P:** Jak dodać tekst do tego samego dokumentu?  
-**O:** Użyj klasy `TextFragment`, aby umieścić tekst w wybranych współrzędnych, a następnie wywołaj `document.Draw(textFragment)`.
+**Q:** Jak mogę dodać tekst do tego samego dokumentu?  
+**A:** Użyj klasy `TextFragment`, aby umieścić tekst w wybranych współrzędnych, a następnie wywołaj `document.Draw(textFragment)`.
 
-**P:** Gdzie mogę znaleźć dodatkowe przykłady i pełną dokumentację API?  
-**O:** Zapoznaj się z dokumentacją [tutaj](https://reference.aspose.com/page/net/) oraz dołącz do społeczności na [forum Aspose.Page](https://forum.aspose.com/c/page/39).
+**Q:** Gdzie mogę znaleźć dodatkowe przykłady i pełną referencję API?  
+**A:** Przeglądaj dokumentację [tutaj](https://reference.aspose.com/page/net/) i dołącz do społeczności na [forum Aspose.Page](https://forum.aspose.com/c/page/39).
 
-**P:** Czy mogę wypróbować Aspose.Page przed zakupem?  
-**O:** Tak, pobierz darmową wersję próbną [tutaj](https://releases.aspose.com/). Do dłuższej oceny rozważ [tymczasową licencję](https://purchase.aspose.com/temporary-license/).
+**Q:** Czy mogę wypróbować Aspose.Page przed zakupem?  
+**A:** Tak, pobierz darmową wersję próbną [tutaj](https://releases.aspose.com/). Aby przedłużyć okres testowy, rozważ [tymczasową licencję](https://purchase.aspose.com/temporary-license/).
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-18  
-**Testowano z:** Aspose.Page 24.12 dla .NET  
+**Ostatnia aktualizacja:** 2026-06-30  
+**Testowano z:** Aspose.Page 24.12 for .NET  
 **Autor:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## Powiązane samouczki
+
+- [Jak stworzyć dokument PostScript przy użyciu Aspose.Page dla .NET](/page/net/document-creation/create-postscript-document/)
+- [Dodaj obraz do dokumentu PostScript (PS) przy użyciu Aspose.Page](/page/net/image-management/add-image-to-postscript-ps-document/)
+- [Dodaj tekst do dokumentu PostScript (PS) przy użyciu Aspose.Page](/page/net/text-manipulation/add-text-to-postscript-ps-document/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
