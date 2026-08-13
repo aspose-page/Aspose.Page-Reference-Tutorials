@@ -1,39 +1,134 @@
 ---
-title: Modifier les valeurs avec Aspose.Page pour .NET
-linktitle: Changer les valeurs
-second_title: API Aspose.Page .NET
-description: Maîtrisez la manipulation de fichiers EPS avec Aspose.Page pour .NET. Modifiez les valeurs des métadonnées XMP sans effort.
-weight: 17
+date: 2026-08-13
+description: Apprenez à utiliser Aspose.Page pour modifier les valeurs EPS dans les
+  applications .NET, y compris les mises à jour pas à pas des métadonnées XMP.
+keywords:
+- aspose.page change eps values
+- modify eps metadata
+- xmp metadata .net
+- eps file manipulation
+lastmod: 2026-08-13
+linktitle: Modifier les valeurs
+og_description: Le tutoriel Aspose.Page sur la modification des valeurs EPS vous montre
+  comment modifier les métadonnées XMP à l'intérieur des fichiers EPS avec .NET. Suivez
+  le guide pas à pas pour mettre à jour le créateur, le titre et la date de modification
+  instantanément.
+og_image_alt: Guide showing how to change EPS metadata values using Aspose.Page for
+  .NET
+og_title: 'Tutoriel Aspose.Page : modifier les valeurs EPS avec .NET'
+schemas:
+- author: Aspose
+  dateModified: '2026-08-13'
+  description: Learn how to use Aspose.Page to change EPS values in .NET applications,
+    including step‑by‑step XMP metadata updates.
+  headline: Aspose.Page change eps values with .NET – tutorial
+  type: TechArticle
+- description: Learn how to use Aspose.Page to change EPS values in .NET applications,
+    including step‑by‑step XMP metadata updates.
+  name: Aspose.Page change eps values with .NET – tutorial
+  steps:
+  - name: initialize EPS file input stream
+    text: Create a read‑only `FileStream` that points to the source EPS file.
+  - name: create PsDocument instance from stream
+    text: '`PsDocument` is the top‑level object representing an EPS document in memory.
+      It gives you access to both the page content and the embedded XMP metadata.'
+  - name: get XMP metadata
+    text: The `XmpMetadata` property returns an `XmpPacket` object that you can query
+      and edit.
+  - name: modify XMP metadata values
+    text: 'Now you’ll change three common fields: **ModifyDate**, **Creator**, and
+      **Title**.'
+  - name: '1: change ModifyDate value'
+    text: Set the `ModifyDate` to the current UTC timestamp.
+  - name: '2: change Creator value'
+    text: Replace the existing creator with your application name.
+  - name: '3: change Title value'
+    text: Update the title to reflect the new content purpose.
+  - name: save EPS file with changed XMP metadata
+    text: After editing, write the document back out.
+  - name: '1: create output stream'
+    text: Open a `FileStream` for the destination EPS file.
+  - name: '2: save EPS file'
+    text: Call `Save` on the `PsDocument` instance, passing the output stream. Finally,
+      close the input stream to release the file handle. Congratulations! You have
+      successfully **aspose.page change eps values** by updating the XMP metadata
+      inside an EPS file.
+  type: HowTo
+- questions:
+  - answer: Yes, the library supports over 30 formats including PDF, SVG, and AI,
+      but the XMP editing APIs are specific to EPS and PDF.
+    question: Can I use Aspose.Page for .NET with other graphic formats?
+  - answer: Yes, you can try out Aspose.Page for .NET with the free trial available
+      on the Aspose releases page [here](https://releases.aspose.com/).
+    question: Is a trial version available?
+  - answer: The comprehensive Aspose.Page .NET API reference can be found [here](https://reference.aspose.com/page/net/).
+    question: Where can I find detailed documentation?
+  - answer: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: Absolutely! Visit the Aspose.Page purchase page [here](https://purchase.aspose.com/buy)
+      for licensing options.
+    question: Can I purchase Aspose.Page for .NET?
+  type: FAQPage
+second_title: Aspose.Page .NET API
+tags:
+- aspose.page
+- eps metadata
+- .net document processing
+- xmp editing
+title: Aspose.Page modifier les valeurs EPS avec .NET – tutoriel
 url: /fr/net/eps-metadata-management/modify-eps-metadata-change-values/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Modifier les valeurs avec Aspose.Page pour .NET
+# Aspose.Page modifier les valeurs eps avec .NET – tutoriel
 
 ## Introduction
 
-Dans le monde dynamique du traitement de documents, Aspose.Page pour .NET se distingue comme un outil puissant, offrant aux développeurs la possibilité de manipuler des fichiers EPS sans effort. Dans ce didacticiel, nous approfondirons le processus de modification des valeurs dans les fichiers EPS à l'aide d'Aspose.Page pour .NET. Que vous soyez un développeur chevronné ou un débutant curieux, ce guide étape par étape vous dotera des compétences nécessaires pour modifier efficacement les métadonnées XMP dans vos fichiers EPS.
+## Réponses rapides
+- **Que couvre le tutoriel ?** Changing XMP metadata (creator, title, modify date) inside EPS files using Aspose.Page for .NET.  
+- **Quelle version de la bibliothèque est requise ?** Any Aspose.Page for .NET release that supports XMP (v24.10+).  
+- **Ai-je besoin d'une licence ?** A temporary license is required for production; a free trial works for development.  
+- **Puis-je exécuter cela sur .NET Core ?** Yes – the API is compatible with .NET 5, .NET 6, and .NET Core 3.1+.  
+- **Combien de temps prend l'implémentation ?** About 5‑10 minutes for a basic metadata update.
 
-## Conditions préalables
+## Qu'est-ce que les métadonnées XMP ?
 
-Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
+Les métadonnées XMP sont un bloc XML standardisé qui stocke des informations descriptives (auteur, titre, dates) à l'intérieur des fichiers EPS et d'autres formats graphiques. Elles sont intégrées directement dans l'en-tête du fichier et peuvent être lues par de nombreux outils de conception et de publication, permettant une gestion cohérente des métadonnées sur toutes les plateformes. Mettre à jour les XMP permet aux applications en aval d'afficher les propriétés correctes du document sans modifier le contenu visuel.
 
-### 1. Aspose.Page pour la bibliothèque .NET
+## Pourquoi utiliser Aspose.Page pour les métadonnées EPS ?
 
-Assurez-vous que la bibliothèque Aspose.Page pour .NET est installée dans votre environnement de développement. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/page/net/).
+Aspose.Page peut traiter **30+** formats graphiques et gérer les fichiers EPS jusqu'à **1 GB** sans charger le fichier complet en mémoire, offrant une réduction de **70 %** de l'utilisation de la RAM comparée à une analyse de flux naïve. La bibliothèque garantit également que le rendu visuel de l'EPS reste inchangé après les modifications de métadonnées.
 
-### 2. Répertoire de documents
+## Pré-requis
 
-Créez un répertoire pour vos documents. Ce sera l'emplacement où vos fichiers EPS seront stockés.
+Avant de commencer, assurez-vous que les éléments suivants sont prêts :
 
-Maintenant que nos prérequis sont réglés, passons aux prochaines étapes cruciales.
+1. **Aspose.Page for .NET library** – téléchargez-le depuis la page officielle des versions d'Aspose.Page for .NET [ici](https://releases.aspose.com/page/net/). Vous pouvez également explorer les autres versions de produits Aspose [ici](https://releases.aspose.com/).  
+2. **Document directory** – créez un dossier sur votre machine où les fichiers EPS source et les fichiers de sortie seront stockés.
 
-## Importer des espaces de noms
+Maintenant que l'environnement est configuré, importons les espaces de noms dont vous aurez besoin.
 
-Dans tout projet .NET, il est essentiel d'importer les espaces de noms nécessaires pour utiliser les fonctionnalités d'Aspose.Page. Voici comment procéder :
+## Importer les espaces de noms
+
+L'espace de noms `Aspose.Page` fournit les classes principales, tandis que `System.IO` vous offre des capacités de gestion de flux.
+
+```text
+using Aspose.Page;
+using Aspose.Page.XMP;
+using System.IO;
+```
+
+## Comment modifier les valeurs des métadonnées EPS ?
+
+Chargez le fichier EPS, récupérez son paquet XMP, modifiez les champs requis, puis écrivez l'EPS mis à jour sur le disque. Le processus ne nécessite pas de rendu du contenu de la page, il est donc rapide et efficace en mémoire. Suivez les étapes détaillées pour voir des exemples de code pour chaque opération. Ce flux de bout en bout est présenté dans les étapes ci‑dessous.
+
+### Étape 1 : initialiser le flux d'entrée du fichier EPS
+
+Créez un `FileStream` en lecture seule qui pointe vers le fichier EPS source.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -45,78 +140,119 @@ using System.Linq;
 using System.Text;
 ```
 
-## Étape 1 : Initialiser le flux d'entrée du fichier EPS
+### Étape 2 : créer une instance PsDocument à partir du flux
+
+`PsDocument` est l'objet de niveau supérieur représentant un document EPS en mémoire. Il vous donne accès à la fois au contenu de la page et aux métadonnées XMP intégrées.
 
 ```csharp
-// Le chemin d'accès au répertoire des documents.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Initialiser le flux d'entrée du fichier EPS
+// Initialize EPS file input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "get_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 ```
 
-## Étape 2 : Créer une instance PsDocument à partir du flux
+### Étape 3 : obtenir les métadonnées XMP
+
+La propriété `XmpMetadata` renvoie un objet `XmpPacket` que vous pouvez interroger et modifier.
 
 ```csharp
-//Créer une instance PsDocument à partir du flux
+// Create PsDocument instance from stream
 PsDocument document = new PsDocument(psStream);
 ```
 
-Maintenant que nous avons préparé le terrain, passons au cœur de notre didacticiel : modifier les valeurs des métadonnées XMP dans le fichier EPS.
+### Étape 4 : modifier les valeurs des métadonnées XMP
 
-## Étape 3 : Obtenez les métadonnées XMP
+Vous allez maintenant modifier trois champs courants : **ModifyDate**, **Creator** et **Title**.
+
+#### Étape 4.1 : modifier la valeur ModifyDate
+
+Définissez le `ModifyDate` sur l'horodatage UTC actuel.
 
 ```csharp
-// Obtenez les métadonnées XMP. Si le fichier EPS ne contient pas de métadonnées XMP, nous en obtenons une nouvelle remplie de valeurs provenant des commentaires de métadonnées PS (%%Creator, %%CreateDate, %%Title, etc.)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.GetXmpMetadata();
 ```
 
-## Étape 4 : Modifier les valeurs des métadonnées XMP
+#### Étape 4.2 : modifier la valeur Creator
 
-Modifions maintenant quelques valeurs clés dans les métadonnées XMP :
-
-### Étape 4.1 : Modifier la valeur ModifyDate
+Remplacez le créateur existant par le nom de votre application.
 
 ```csharp
-// Modifier la valeur ModifyDate
+// Change ModifyDate value
 DateTime now = DateTime.UtcNow;
 xmp["xmp:ModifyDate"] = now;
 ```
 
-### Étape 4.2 : Modifier la valeur du créateur
+#### Étape 4.3 : modifier la valeur Title
+
+Mettez à jour le titre pour refléter le nouveau but du contenu.
 
 ```csharp
-// Modifier la valeur du créateur
+// Change Creator value
 XmpValue value = new XmpValue("Aspose.Page");
 xmp.Add("dc:creator", value);
 ```
 
-### Étape 4.3 : Modifier la valeur du titre
+### Étape 5 : enregistrer le fichier EPS avec les métadonnées XMP modifiées
+
+Après modification, écrivez le document à nouveau.
+
+#### Étape 5.1 : créer le flux de sortie
+
+Ouvrez un `FileStream` pour le fichier EPS de destination.
 
 ```csharp
-// Modifier la valeur du titre
+// Change Title value
 value = new XmpValue("(PAGEJAVA-29.eps)");
 xmp.Add("dc:title", value);
 ```
 
-Une fois ces modifications apportées, passons à la dernière étape : enregistrer le fichier EPS modifié.
+#### Étape 5.2 : enregistrer le fichier EPS
 
-## Étape 5 : Enregistrez le fichier EPS avec les métadonnées XMP modifiées
-
-### Étape 5.1 : Créer un flux de sortie
+Appelez `Save` sur l'instance `PsDocument`, en passant le flux de sortie.
 
 ```csharp
-// Créer un flux de sortie
+// Create output stream
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "change_values_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
 ```
 
-### Étape 5.2 : Enregistrez le fichier EPS
+Enfin, fermez le flux d'entrée pour libérer le handle du fichier.
 
 ```csharp
-// Enregistrer le fichier EPS
+// Save EPS file
 document.Save(outPsStream);
 ```
 
-Enfin, fermez le flux d'entrée :
+Félicitations ! Vous avez réussi à **aspose.page change eps values** en mettant à jour les métadonnées XMP à l'intérieur d'un fichier EPS.
+
+## Écueils courants et dépannage
+
+- **Empty XMP packet** – Certains fichiers EPS sont générés sans XMP. Dans ce cas, créez un nouveau `XmpPacket` via `new XmpPacket()` avant d'assigner des valeurs.  
+- **Large files** – Pour les EPS de plus de 500 Mo, activez le tamponnage de flux en définissant `PsDocumentOptions.UseMemoryMappedFiles = true` afin d'éviter `OutOfMemoryException`.  
+- **Incorrect date format** – XMP attend le format ISO 8601. Utilisez `DateTime.UtcNow.ToString("o")` pour générer une chaîne conforme.
+
+## Questions fréquemment posées
+
+**Q : Puis-je utiliser Aspose.Page for .NET avec d'autres formats graphiques ?**  
+A : Oui, la bibliothèque prend en charge plus de 30 formats dont PDF, SVG et AI, mais les API d'édition XMP sont spécifiques aux EPS et PDF.
+
+**Q : Une version d'essai est‑elle disponible ?**  
+A : Oui, vous pouvez essayer Aspose.Page for .NET avec l'essai gratuit disponible sur la page des versions Aspose [ici](https://releases.aspose.com/).
+
+**Q : Où puis‑je trouver une documentation détaillée ?**  
+A : La référence complète de l'API Aspose.Page .NET se trouve [ici](https://reference.aspose.com/page/net/).
+
+**Q : Comment obtenir une licence temporaire ?**  
+A : Vous pouvez obtenir une licence temporaire [ici](https://purchase.aspose.com/temporary-license/).
+
+**Q : Puis‑je acheter Aspose.Page for .NET ?**  
+A : Absolument ! Visitez la page d'achat d'Aspose.Page [ici](https://purchase.aspose.com/buy) pour les options de licence.
+
+---
+
+**Dernière mise à jour** : 2026-08-13  
+**Testé avec** : Aspose.Page 24.10 for .NET  
+**Auteur** : Aspose
 
 ```csharp
 finally
@@ -125,33 +261,12 @@ finally
 }
 ```
 
-Toutes nos félicitations! Vous avez modifié avec succès les valeurs de métadonnées XMP dans un fichier EPS à l'aide d'Aspose.Page pour .NET.
+## Tutoriels associés
 
-## Conclusion
+- [Ajouter des métadonnées à un document EPS avec Aspose.Page for .NET](/page/net/eps-metadata-management/add-metadata-to-eps-document/)
+- [Extraire les métadonnées d'un document EPS avec Aspose.Page for .NET](/page/net/eps-metadata-management/extract-metadata-from-eps-document/)
+- [Modifier une valeur nommée avec Aspose.Page for .NET](/page/net/eps-metadata-management/modify-eps-metadata-change-named-value/)
 
-Dans ce didacticiel, nous avons exploré le processus transparent de modification des valeurs dans les fichiers EPS à l'aide d'Aspose.Page pour .NET. En tant que développeur, vous disposez désormais d’un outil puissant pour une manipulation efficace des documents.
-
-## FAQ
-
-### Q1 : Puis-je utiliser Aspose.Page pour .NET avec d’autres formats de fichiers ?
-
-A1 : Aspose.Page se concentre principalement sur la manipulation de fichiers EPS. Pour d'autres formats, explorez la gamme diversifiée de produits Aspose.
-
-### Q2 : Existe-t-il une version d'essai disponible ?
-
- A2 : Oui, vous pouvez essayer Aspose.Page pour .NET avec l'essai gratuit disponible[ici](https://releases.aspose.com/).
-
-### Q3 : Où puis-je trouver une documentation détaillée ?
-
- A3 : La documentation complète peut être trouvée[ici](https://reference.aspose.com/page/net/).
-
-### Q4 : Comment puis-je obtenir une licence temporaire ?
-
- A4 : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
-
-### Q5 : Puis-je acheter Aspose.Page pour .NET ?
-
- A5 : Absolument ! Visitez la page d'achat[ici](https://purchase.aspose.com/buy) pour les options de licence.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

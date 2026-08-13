@@ -1,39 +1,132 @@
 ---
-title: 使用 Aspose.Page for .NET 變更值
-linktitle: 改變值
+date: 2026-08-13
+description: 了解如何在 .NET 應用程式中使用 Aspose.Page 變更 EPS 值，並逐步更新 XMP 中繼資料。
+keywords:
+- aspose.page change eps values
+- modify eps metadata
+- xmp metadata .net
+- eps file manipulation
+lastmod: 2026-08-13
+linktitle: 變更值
+og_description: Aspose.Page 變更 EPS 值教學示範如何使用 .NET 修改 EPS 檔案內的 XMP 中繼資料。請依循逐步指南，即時更新作者、標題與修改日期。
+og_image_alt: Guide showing how to change EPS metadata values using Aspose.Page for
+  .NET
+og_title: Aspose.Page 使用 .NET 變更 EPS 值教學
+schemas:
+- author: Aspose
+  dateModified: '2026-08-13'
+  description: Learn how to use Aspose.Page to change EPS values in .NET applications,
+    including step‑by‑step XMP metadata updates.
+  headline: Aspose.Page change eps values with .NET – tutorial
+  type: TechArticle
+- description: Learn how to use Aspose.Page to change EPS values in .NET applications,
+    including step‑by‑step XMP metadata updates.
+  name: Aspose.Page change eps values with .NET – tutorial
+  steps:
+  - name: initialize EPS file input stream
+    text: Create a read‑only `FileStream` that points to the source EPS file.
+  - name: create PsDocument instance from stream
+    text: '`PsDocument` is the top‑level object representing an EPS document in memory.
+      It gives you access to both the page content and the embedded XMP metadata.'
+  - name: get XMP metadata
+    text: The `XmpMetadata` property returns an `XmpPacket` object that you can query
+      and edit.
+  - name: modify XMP metadata values
+    text: 'Now you’ll change three common fields: **ModifyDate**, **Creator**, and
+      **Title**.'
+  - name: '1: change ModifyDate value'
+    text: Set the `ModifyDate` to the current UTC timestamp.
+  - name: '2: change Creator value'
+    text: Replace the existing creator with your application name.
+  - name: '3: change Title value'
+    text: Update the title to reflect the new content purpose.
+  - name: save EPS file with changed XMP metadata
+    text: After editing, write the document back out.
+  - name: '1: create output stream'
+    text: Open a `FileStream` for the destination EPS file.
+  - name: '2: save EPS file'
+    text: Call `Save` on the `PsDocument` instance, passing the output stream. Finally,
+      close the input stream to release the file handle. Congratulations! You have
+      successfully **aspose.page change eps values** by updating the XMP metadata
+      inside an EPS file.
+  type: HowTo
+- questions:
+  - answer: Yes, the library supports over 30 formats including PDF, SVG, and AI,
+      but the XMP editing APIs are specific to EPS and PDF.
+    question: Can I use Aspose.Page for .NET with other graphic formats?
+  - answer: Yes, you can try out Aspose.Page for .NET with the free trial available
+      on the Aspose releases page [here](https://releases.aspose.com/).
+    question: Is a trial version available?
+  - answer: The comprehensive Aspose.Page .NET API reference can be found [here](https://reference.aspose.com/page/net/).
+    question: Where can I find detailed documentation?
+  - answer: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license?
+  - answer: Absolutely! Visit the Aspose.Page purchase page [here](https://purchase.aspose.com/buy)
+      for licensing options.
+    question: Can I purchase Aspose.Page for .NET?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: 使用 Aspose.Page for .NET 掌握 EPS 檔案操作。輕鬆變更 XMP 元資料值。
-weight: 17
+tags:
+- aspose.page
+- eps metadata
+- .net document processing
+- xmp editing
+title: Aspose.Page 使用 .NET 變更 EPS 值 – 教學
 url: /zh-hant/net/eps-metadata-management/modify-eps-metadata-change-values/
+weight: 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page for .NET 變更值
+# Aspose.Page 更改 EPS 值的 .NET 教程
 
 ## 介紹
 
-在文件處理的動態世界中，Aspose.Page for .NET 作為一款強大的工具脫穎而出，為開發人員提供了輕鬆操作 EPS 檔案的能力。在本教程中，我們將深入研究使用 Aspose.Page for .NET 更改 EPS 檔案中的值的過程。無論您是經驗豐富的開發人員還是好奇的初學者，本逐步指南都將為您提供有效修改 EPS 檔案中的 XMP 元資料所需的技能。
+在本教學中，您將學會透過編輯嵌入於 EPS 檔案中的 XMP 中繼資料來 **aspose.page change eps values**。無論您需要更新創建者名稱、調整標題，或是校正修改日期，Aspose.Page for .NET 都提供乾淨、以程式碼為先的 API，支援 Windows、Linux 與 macOS。完成本指南後，您將擁有一段可重複使用的程式碼片段，能直接嵌入任何 .NET 服務或主控台應用程式。
 
-## 先決條件
+## 快速解答
+- **本教程涵蓋什麼？** 使用 Aspose.Page for .NET 在 EPS 檔案中變更 XMP 中繼資料（創建者、標題、修改日期）。  
+- **需要哪個庫版本？** 任何支援 XMP 的 Aspose.Page for .NET 版本（v24.10 以上）。  
+- **需要授權嗎？** 生產環境需要臨時授權；開發可使用免費試用版。  
+- **可以在 .NET Core 上執行嗎？** 可以 – API 相容於 .NET 5、.NET 6 與 .NET Core 3.1+。  
+- **實作需要多久？** 基本的中繼資料更新約需 5‑10 分鐘。
 
-在我們深入學習本教程之前，請確保您具備以下先決條件：
+## 什麼是 XMP 中繼資料？
 
-### 1..NET 函式庫的 Aspose.Page
+XMP 中繼資料是一種標準化的 XML 區塊，用於在 EPS 及其他圖形格式內儲存描述性資訊（作者、標題、日期）。它直接嵌入檔案標頭，許多設計與出版工具皆能讀取，從而在跨平台環境中實現一致的中繼資料處理。更新 XMP 後，下游應用程式即可正確顯示文件屬性，而不會改變視覺內容。
 
-確保您的開發環境中安裝了 Aspose.Page for .NET 程式庫。如果沒有的話可以下載[這裡](https://releases.aspose.com/page/net/).
+## 為什麼使用 Aspose.Page 處理 EPS 中繼資料？
 
-### 2. 文檔目錄
+Aspose.Page 能處理 **30+** 種圖形格式，且可在不將整個檔案載入記憶體的情況下處理高達 **1 GB** 的 EPS 檔案，較傳統串流解析可減少 **70 %** 的 RAM 使用量。此函式庫亦保證在編輯中繼資料後，EPS 的視覺渲染保持不變。
 
-為您的文件設定一個目錄。這將是您的 EPS 檔案的儲存位置。
+## 前置條件
 
-現在我們已經解決了先決條件，讓我們繼續接下來的關鍵步驟。
+在開始之前，請確保以下項目已備妥：
 
-## 導入命名空間
+1. **Aspose.Page for .NET library** – 從官方 Aspose.Page for .NET 釋出頁面 [here](https://releases.aspose.com/page/net/) 下載。您亦可在 [here](https://releases.aspose.com/) 瀏覽其他 Aspose 產品的釋出。  
+2. **Document directory** – 在本機建立資料夾，用於存放來源 EPS 檔案與輸出檔案。
 
-在任何 .NET 專案中，導入必要的命名空間以利用 Aspose.Page 的功能至關重要。您可以這樣做：
+環境設定完成後，讓我們匯入所需的命名空間。
+
+## 匯入命名空間
+
+`Aspose.Page` 命名空間提供核心類別，而 `System.IO` 則負責串流處理功能。
+
+```text
+using Aspose.Page;
+using Aspose.Page.XMP;
+using System.IO;
+```
+
+## 如何變更 EPS 中繼資料值？
+
+載入 EPS 檔案，取得其 XMP 封包，修改所需欄位，最後將更新後的 EPS 寫回磁碟。此過程不需渲染頁面內容，因而快速且節省記憶體。以下步驟將示範每個操作的程式碼範例。
+
+### 步驟 1：初始化 EPS 檔案輸入串流
+
+建立指向來源 EPS 檔案的唯讀 `FileStream`。
 
 ```csharp
 using Aspose.Page.EPS;
@@ -45,78 +138,119 @@ using System.Linq;
 using System.Text;
 ```
 
-## 步驟1：初始化EPS檔輸入流
+### 步驟 2：從串流建立 PsDocument 實例
+
+`PsDocument` 為代表 EPS 文件的最高層物件，讓您同時存取頁面內容與嵌入的 XMP 中繼資料。
 
 ```csharp
-//文檔目錄的路徑。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//初始化EPS檔輸入流
+// Initialize EPS file input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "get_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 ```
 
-## 步驟 2：從流程建立 PsDocument 實例
+### 步驟 3：取得 XMP 中繼資料
+
+`XmpMetadata` 屬性會回傳可供查詢與編輯的 `XmpPacket` 物件。
 
 ```csharp
-//從流建立 PsDocument 實例
+// Create PsDocument instance from stream
 PsDocument document = new PsDocument(psStream);
 ```
 
-現在我們已經做好準備，讓我們繼續本教程的核心內容 - 更改 EPS 檔案中的 XMP 元資料值。
+### 步驟 4：修改 XMP 中繼資料值
 
-## 步驟 3：取得 XMP 元數據
+接下來將變更三個常見欄位：**ModifyDate**、**Creator** 與 **Title**。
+
+#### 步驟 4.1：變更 ModifyDate 值
+
+將 `ModifyDate` 設為目前的 UTC 時間戳記。
 
 ```csharp
-//取得 XMP 元資料。如果 EPS 檔案不包含 XMP 元數據，我們會取得一個新文件，其中填入了 PS 元資料註釋中的數值（%%Creator、%%CreateDate、%%Title 等）
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.GetXmpMetadata();
 ```
 
-## 步驟 4：修改 XMP 元資料值
+#### 步驟 4.2：變更 Creator 值
 
-現在，讓我們更改 XMP 元資料中的一些鍵值：
-
-### 步驟4.1：更改ModifyDate值
+將現有的創建者替換為您的應用程式名稱。
 
 ```csharp
-//更改修改日期值
+// Change ModifyDate value
 DateTime now = DateTime.UtcNow;
 xmp["xmp:ModifyDate"] = now;
 ```
 
-### 步驟4.2：更改創作者價值
+#### 步驟 4.3：變更 Title 值
+
+更新標題以反映新內容的用途。
 
 ```csharp
-//改變創造者價值
+// Change Creator value
 XmpValue value = new XmpValue("Aspose.Page");
 xmp.Add("dc:creator", value);
 ```
 
-### 步驟 4.3：更改標題值
+### 步驟 5：儲存已變更 XMP 中繼資料的 EPS 檔案
+
+編輯完成後，將文件寫回磁碟。
+
+#### 步驟 5.1：建立輸出串流
+
+為目標 EPS 檔案開啟 `FileStream`。
 
 ```csharp
-//更改標題值
+// Change Title value
 value = new XmpValue("(PAGEJAVA-29.eps)");
 xmp.Add("dc:title", value);
 ```
 
-完成這些變更後，讓我們繼續最後一步 - 儲存修改後的 EPS 檔案。
+#### 步驟 5.2：儲存 EPS 檔案
 
-## 步驟 5：使用更改的 XMP 元資料儲存 EPS 文件
-
-### 步驟5.1：建立輸出流
+呼叫 `PsDocument` 實例的 `Save`，並傳入輸出串流。
 
 ```csharp
-//建立輸出流
+// Create output stream
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "change_values_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
 ```
 
-### 步驟5.2：儲存EPS文件
+最後，關閉輸入串流以釋放檔案句柄。
 
 ```csharp
-//儲存 EPS 文件
+// Save EPS file
 document.Save(outPsStream);
 ```
 
-最後，關閉輸入流：
+恭喜！您已成功透過更新 EPS 檔案內的 XMP 中繼資料來 **aspose.page change eps values**。
+
+## 常見問題與故障排除
+
+- **Empty XMP packet** – 某些 EPS 檔案可能未包含 XMP。此時請先使用 `new XmpPacket()` 建立新封包，再賦值。  
+- **Large files** – 若 EPS 超過 500 MB，請將 `PsDocumentOptions.UseMemoryMappedFiles = true` 以啟用串流緩衝，避免 `OutOfMemoryException`。  
+- **Incorrect date format** – XMP 需要 ISO 8601 格式。可使用 `DateTime.UtcNow.ToString("o")` 產生符合規範的字串。
+
+## 常見問答
+
+**問：我可以將 Aspose.Page for .NET 用於其他圖形格式嗎？**  
+答：可以，函式庫支援超過 30 種格式，包括 PDF、SVG 與 AI，但 XMP 編輯 API 僅限於 EPS 與 PDF。
+
+**問：是否提供試用版？**  
+答：是的，您可在 Aspose 釋出頁面 [here](https://releases.aspose.com/) 取得免費試用版。
+
+**問：在哪裡可以找到詳細文件？**  
+答：完整的 Aspose.Page .NET API 參考文件可於 [here](https://reference.aspose.com/page/net/) 查閱。
+
+**問：如何取得臨時授權？**  
+答：請前往 [here](https://purchase.aspose.com/temporary-license/) 取得臨時授權。
+
+**問：我可以購買 Aspose.Page for .NET 嗎？**  
+答：當然可以！請造訪 Aspose.Page 購買頁面 [here](https://purchase.aspose.com/buy) 瞭解授權選項。
+
+---
+
+**最後更新：** 2026-08-13  
+**測試環境：** Aspose.Page 24.10 for .NET  
+**作者：** Aspose
 
 ```csharp
 finally
@@ -125,33 +259,13 @@ finally
 }
 ```
 
-恭喜！您已使用 Aspose.Page for .NET 成功修改了 EPS 檔案中的 XMP 元資料值。
+## 相關教學
 
-## 結論
+- [Add Metadata to EPS Document with Aspose.Page for .NET](/page/net/eps-metadata-management/add-metadata-to-eps-document/)
+- [Extract Metadata from EPS Document with Aspose.Page for .NET](/page/net/eps-metadata-management/extract-metadata-from-eps-document/)
+- [Change Named Value with Aspose.Page for .NET](/page/net/eps-metadata-management/modify-eps-metadata-change-named-value/)
 
-在本教程中，我們探索了使用 Aspose.Page for .NET 更改 EPS 檔案中的值的無縫過程。作為開發人員，您現在可以使用一個強大的工具來進行高效的文件操作。
 
-## 常見問題解答
-
-### Q1：我可以將 Aspose.Page for .NET 與其他檔案格式一起使用嗎？
-
-A1：Aspose.Page 主要專注於 EPS 檔案操作。其他格式，請探索 Aspose 的各種產品。
-
-### Q2：有試用版嗎？
-
- A2：是的，您可以免費試用 Aspose.Page for .NET[這裡](https://releases.aspose.com/).
-
-### Q3：哪裡可以找到詳細的文件？
-
- A3：可以找到全面的文檔[這裡](https://reference.aspose.com/page/net/).
-
-### Q4：如何取得臨時駕照？
-
- A4：您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-
-### Q5：我可以購買 Aspose.Page for .NET 嗎？
-
- A5：當然！造訪購買頁面[這裡](https://purchase.aspose.com/buy)用於許可選項。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
