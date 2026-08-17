@@ -25,13 +25,13 @@ Ready to boost your Java applications with powerful document processing using **
 - **What are the prerequisites?** Java 8+ and the Aspose.Page for Java JAR.  
 - **Can I batch‑process files?** Yes—simply loop through your PostScript collection using the same API calls.
 
-## Asp Page Conversion Java Overview
+## Asp page conversion java overview
 
 Aspose.Page provides a **java convert postscript** workflow that abstracts the low‑level rendering details. By loading a PostScript document into the `Document` class, you can instantly render each page as an image, export the whole document to PDF, or save individual pages as EPS vectors. This approach eliminates the need for native Ghostscript installations and gives you full control over output quality, DPI, and color management.
 
-## Converting PostScript to Image in Java
+## Converting postScript to image in java
 
-### [Convert PostScript to Image in Java](./to-image/)
+### [Convert PostScript to image in Java]({{< relref "to-image/_index.md" >}})
 
 Unlock the potential of Aspose.Page for Java as we guide you through the intricate process of **convert postscript to image**. Whether you're a seasoned developer or just starting, our step‑by‑step tutorial ensures a smooth integration process. Boost your document processing capabilities effortlessly, and discover the power of Aspose.Page in the realm of image conversion.
 
@@ -65,7 +65,7 @@ Have questions? Check out our FAQs section for quick answers to common queries. 
 
 ## Convert PostScript to PDF in Java
 
-### [Convert PostScript to PDF in Java](./to-pdf/)
+### [Convert PostScript to PDF in Java]({{< relref "to-pdf/_index.md" >}})
 
 Aspose.Page for Java simplifies the conversion of PostScript to PDF, making it a breeze for developers seeking efficient document processing. Our step‑by‑step guide ensures a seamless integration process, allowing you to enhance your Java applications effortlessly. Download Aspose.Page now to access the tools you need for top‑notch **postscript to pdf java** conversion.
 
@@ -73,20 +73,20 @@ Curious about common challenges and solutions? Our FAQs section addresses them c
 
 ## Save Image as EPS in Java
 
-### [Save Image as EPS in Java](./save-image-as-eps/)
+### [Save Image as EPS in Java]({{< relref "save-image-as-eps/_index.md" >}})
 
 Explore the versatile capabilities of Aspose.Page for Java in **save image as eps**. This tutorial unveils the potential of this Java library in boosting your graphics and printing capabilities. Follow our step‑by‑step guide to seamlessly integrate EPS saving into your Java applications.
 
 Wondering about potential roadblocks? Our FAQs section provides insightful answers. Ensure you have the necessary prerequisites before diving into the tutorial. Aspose.Page for Java transforms image saving into an effortless process, allowing you to unleash the full potential of your Java applications.
 
-## Why Choose Asp Page Conversion Java?
+## Why choose asp page conversion java?
 
 - **No external dependencies** – No Ghostscript or native libraries are required.  
 - **Fine‑grained control** – Adjust DPI, color profiles, and vector output settings programmatically.  
 - **Batch processing ready** – Loop through folders of PostScript files with a single API call.  
 - **Cross‑platform** – Works on Windows, Linux, and macOS with any Java 8+ runtime.  
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -95,7 +95,7 @@ Wondering about potential roadblocks? Our FAQs section provides insightful answe
 | **Password‑protected PostScript** | Use the `LoadOptions` constructor that accepts a password string. |
 | **Unexpected colors** | Verify the color space settings in `PdfSaveOptions` or `ImageSaveOptions`. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page conversion in a commercial project?**  
 A: Yes. A valid Aspose license is required for production use, but a free trial is available for evaluation.
@@ -115,12 +115,12 @@ A: Use the `Document` constructor that accepts a `LoadOptions` object where you 
 **Q: How can I reduce the size of the generated PDF?**  
 A: Enable compression in `PdfSaveOptions` and consider downsampling images if high resolution is not required.
 
-## Conversion - PostScript Tutorials
-### [Convert PostScript to Image in Java](./to-image/)
+## Conversion - postScript tutorials
+### [Convert PostScript to image in Java]({{< relref "to-image/_index.md" >}})
 Discover a comprehensive tutorial on converting PostScript to images in Java using Aspose.Page. Step‑by‑step guide, FAQs, and essential prerequisites included.
-### [Convert PostScript to PDF in Java](./to-pdf/)
+### [Convert PostScript to PDF in Java]({{< relref "to-pdf/_index.md" >}})
 Convert PostScript to PDF in Java effortlessly using Aspose.Page. Follow our step‑by‑step guide for seamless integration. Download Aspose.Page now!
-### [Save Image as EPS in Java](./save-image-as-eps/)
+### [Save Image as EPS in Java]({{< relref "save-image-as-eps/_index.md" >}})
 Explore the power of Aspose.Page for Java in saving images as EPS effortlessly. Boost your graphics and printing capabilities with this versatile Java library.
 
 In conclusion, Aspose.Page for Java tutorials on PostScript conversion empower developers to take their document processing skills to new heights. Dive into these guides, and discover the seamless integration, FAQs, and essential prerequisites that make Aspose.Page a game‑changer in the world of Java programming. Elevate your capabilities today!
@@ -131,10 +131,10 @@ In conclusion, Aspose.Page for Java tutorials on PostScript conversion empower d
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+
+
+
+
 
 ## TARGET KEYWORDS:
 
@@ -149,3 +149,10 @@ Not specified
 2. Secondary keywords: Use 1-2 times each (headings, body text)
 3. All keywords must be integrated naturally - prioritize readability over keyword count
 4. If a keyword doesn't fit naturally, use a semantic variation or skip it
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
