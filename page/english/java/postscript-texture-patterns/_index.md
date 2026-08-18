@@ -1,5 +1,5 @@
 ---
-title: Create Texture Pattern in PostScript
+title: Create Texture Pattern in PostScript with Aspose.Page for Java
 linktitle: Texture and Patterns - PostScript
 second_title: Aspose.Page Java API
 description: Learn how to create texture pattern in PostScript using Aspose.Page for Java, including how to add texture, define tiling pattern, and save PostScript file.

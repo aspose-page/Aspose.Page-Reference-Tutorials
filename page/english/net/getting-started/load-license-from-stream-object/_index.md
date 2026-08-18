@@ -1,5 +1,5 @@
 ---
-title: How to Load License from Stream Object with Aspose.Page for .NET
+title: Set Aspose.Page License from a Stream in .NET
 linktitle: Load License from Stream Object
 second_title: Aspose.Page .NET API
 description: Learn how to load license from a stream object and set Aspose license in .NET. This step‑by‑step guide shows you how to set Aspose license quickly.

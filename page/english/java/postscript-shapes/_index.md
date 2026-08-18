@@ -1,6 +1,6 @@
 ---
-title: Generate a Rectangle in PostScript Using Aspose.Page for Java
-linktitle: Generate a Rectangle in PostScript Using Aspose.Page for Java
+title: Draw a Rectangle Using Java
+linktitle: Draw a Rectangle Using Java
 second_title: Aspose.Page Java API
 description: Learn how to generate a rectangle in PostScript using Aspose.Page for Java. Follow step‑by‑step tutorials to add ellipses, rectangles, and customize shapes effortlessly.
 weight: 34
@@ -93,7 +93,7 @@ Once you've perfected the ellipse addition, save your PostScript document. You c
 
 By following these steps, you'll seamlessly integrate captivating ellipses into your Java PostScript documents.
 
-{{< relref "add-ellipse/_index.md" >}}Continue to the ellipse tutorial{{< /relref >}}
+[Continue to the ellipse tutorial]({{< relref "add-ellipse/_index.md" >}})
 
 ## Adding rectangle in java postScript
 
@@ -116,7 +116,7 @@ Once satisfied with the rectangle addition, save your PostScript document in the
 
 Incorporate these steps into your Java PostScript projects, and witness a seamless enhancement in document customization.
 
-{{< relref "add-rectangle/_index.md" >}}Continue to the rectangle tutorial{{< /relref >}}
+[Continue to the rectangle tutorial]({{< relref "add-rectangle/_index.md" >}})
 
 ## How to set rectangle color in Java PostScript
 Coloring a rectangle is as simple as setting the fill and stroke brushes before calling the draw method. Use `Color.getRGB(r, g, b)` for solid colors or `Color.getARGB(a, r, g, b)` when you need transparency. Remember to set both fill and stroke; otherwise the shape may appear invisible.
@@ -162,10 +162,10 @@ A: A temporary evaluation license is sufficient for development and testing; a f
 Now that you’ve mastered adding ellipses and rectangles, explore other shape primitives such as lines, polygons, and Bézier curves. Check out the full **Shapes - PostScript Tutorials** list below for deeper dives.
 
 ## Shapes - postScript tutorials
-### {{< relref "add-ellipse/_index.md" >}}Add ellipse in java postScript{{< /relref >}}
+### [Add ellipse in java postScript]({{< relref "add-ellipse/_index.md" >}})
 Master creating stunning PostScript documents in Java with Aspose.Page. Learn to add ellipses step‑by‑step for visually appealing content.
 
-### {{< relref "add-rectangle/_index.md" >}}Add rectangle in java postScript{{< /relref >}}
+### [Add rectangle in java postScript]({{< relref "add-rectangle/_index.md" >}})
 Explore the step‑by‑step guide on adding vibrant rectangles to Java PostScript documents using Aspose.Page for Java. Enhance your document customization effortlessly!
 
 ---
