@@ -1,10 +1,10 @@
 ---
-date: 2025-12-09
-description: تعلم كيفية إضافة أنماط التشطيب إلى مستندات Java PostScript باستخدام Aspose.Page.
+date: 2026-02-15
+description: تعلم كيفية إضافة نمط التظليل إلى مستندات Java PostScript باستخدام Aspose.Page.
   ارتقِ بالمحتوى البصري بسهولة مع هذا الدليل خطوة بخطوة.
 linktitle: Hatch Patterns - PostScript
 second_title: Aspose.Page Java API
-title: كيفية إضافة أنماط التظليل إلى Java PostScript باستخدام Aspose
+title: كيفية إضافة نمط التهشير إلى Java PostScript باستخدام Aspose
 url: /ar/java/postscript-hatch-patterns/
 weight: 27
 ---
@@ -13,68 +13,78 @@ weight: 27
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# أنماط التظليل - PostScript
+# Hatch Patterns - PostScript
 
-## المقدمة
+## Introduction
 
-إنشاء مستندات Java PostScript جذابة بصريًا يصبح سهلًا مع Aspose.Page. في هذا الدرس، **ستتعلم كيفية إضافة أنماط التظليل** إلى مخرجات PostScript الخاصة بك، مما يمنح ملفاتك مظهرًا احترافيًا ومقَطّعًا دون الحاجة إلى شفرة رسومية معقدة.
+إذا كنت تبحث عن **تعلم كيفية إضافة نمط التظليل** إلى ملفات Java PostScript الخاصة بك، فقد وصلت إلى المكان الصحيح. باستخدام Aspose.Page for Java يمكنك إثراء الرسومات، المخططات الهندسية، أو أي رسومات قابلة للطباعة بملء مُنقّش—دون الحاجة إلى كتابة سكريبتات PostScript منخفضة المستوى. خلال الدقائق القليلة القادمة سنستعرض العملية بالكامل، من إعداد المكتبة إلى إنشاء ملف PS نهائي يُظهر نمط تظليل واضح وقابل للتكرار.
 
-## إجابات سريعة
-- **ما هو الهدف الأساسي؟** إضافة أنماط التظليل التي تعزز العمق البصري في ملفات Java PostScript.  
-- **ما المكتبة المستخدمة؟** Aspose.Page for Java.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ يلزم ترخيص تجاري للإنتاج.  
-- **ما المتطلبات المسبقة؟** Java 8+ وملف Aspose.Page JAR على مسار الفئات الخاص بك.  
-- **كم من الوقت تستغرق عملية التنفيذ؟** عادةً أقل من 10 دقائق لنمط أساسي.
+## Quick Answers
+- **What is the primary purpose?** To add hatch patterns that enhance visual depth in Java PostScript files.  
+- **Which library is used?** Aspose.Page for Java.  
+- **Do I need a license?** A free trial works for evaluation; a commercial license is required for production.  
+- **What are the prerequisites?** Java 8+ and the Aspose.Page JAR on your classpath.  
+- **How long does implementation take?** Typically under 10 minutes for a basic pattern.
 
-## ما هو “كيفية إضافة أنماط التظليل”؟
-إضافة أنماط التظليل تعني ملء شكل بنمط متكرر من الخطوط أو النقاط. تُستخدم هذه التقنية على نطاق واسع في الرسومات الهندسية، والتقارير، والتصاميم الفنية لنقل الملمس، والظل، أو التأكيد.
+## How to Add Hatch Pattern in Java PostScript
+هذا العنوان يعكس مباشرة الكلمة المفتاحية الأساسية، مما يسهل على القارئ ومحركات الذكاء الاصطناعي العثور على الحل الدقيق الذي تبحث عنه.
 
-## لماذا إضافة أنماط التظليل باستخدام Aspose.Page؟
-* **العرض المتسق** – المكتبة تتعامل مع توليد PostScript، لذا تظهر الأنماط بنفس الشكل على كل طابعة.  
-* **بدون شفرة PS منخفضة المستوى** – تعمل مع كائنات Java عالية المستوى بدلاً من أوامر PostScript الخام.  
-* **متعدد المنصات** – يعمل على أي نظام تشغيل يدعم Java، مما يجعله مثاليًا لتوليد المستندات على الخادم.
+### What is a hatch pattern?
+نمط التظليل هو ترتيب متكرر من الخطوط أو النقاط أو أشكال بسيطة أخرى تُستخدم لملء مساحة أكبر. يعتمد المصممون على أنماط التظليل لنقل أنواع المواد (مثل الفولاذ أو الخشب)، أو للإشارة إلى الظلال، أو ببساطة لإضافة اهتمام بصري دون الحاجة إلى صور نقطية.
 
-## إضافة أنماط التظليل – تحسين بصري
-هل مستندات Java PostScript الخاصة بك تفتقر إلى تلك اللمسة البصرية؟ تعلم كيفية رفعها من خلال دمج أنماط تظليل جذابة باستخدام Aspose.Page. يوجهك هذا الدرس خلال العملية، لضمان دمج سلس يحول مستنداتك إلى قطع بصرية مبهرة.
+### Why use Aspose.Page for hatch patterns?
+* **Consistent rendering** – The library translates your Java objects into valid PostScript, guaranteeing identical output on any printer.  
+* **No manual PS code** – You work with high‑level APIs instead of hand‑crafting raw PostScript commands.  
+* **Cross‑platform** – Run the same code on Windows, Linux, or macOS as long as Java is available.  
 
-أنماط التظليل تضيف عمقًا وملمسًا لتصاميمك، مما يجعلها أكثر جذبًا لجمهورك. سواء كنت تعمل على تقارير، عروض تقديمية، أو مشاريع فنية، فإن القدرة على تحسين الجاذبية البصرية مهارة قيمة. Aspose.Page يبسط هذه العملية، مما يتيح لك تحقيق نتائج احترافية بسهولة.
+### Prerequisites
+- Java 8 أو أحدث مثبت.  
+- تم إضافة Aspose.Page for Java JAR إلى مسار الفئات (classpath) الخاص بالمشروع.  
+- فهم أساسي لإنشاء كائنات Java (لا حاجة لمعرفة مسبقة بـ PostScript).
 
-## دليل خطوة بخطوة للتكامل السلس
-ابدأ رحلة خطوة بخطوة بينما نرشدك خلال عملية إضافة أنماط التظليل إلى مستندات Java PostScript الخاصة بك. لا حاجة لخبرة سابقة – يشرح درسنا الخطوات بطريقة مناسبة للمبتدئين. ستندهش من كيف يمكن لإضافة بسيطة أن تحول الشكل العام وإحساس مستنداتك.
+### Step‑by‑step guide
+1. **Create a `Document` instance** – This represents the PostScript file you’ll generate.  
+2. **Define a `HatchPattern`** – Choose the line spacing, angle, and color that best fits your design.  
+3. **Apply the pattern to a shape** – For example, fill a rectangle or polygon with the hatch you just defined.  
+4. **Save the document as a `.ps` file** – The library handles all low‑level details for you.
 
-التنقل إلى درس أنماط التظليل: انتقل إلى درسنا المخصص لإضافة أنماط التظليل [هنا](./add-hatch-pattern/). نوفر شروحات مفصلة ومقاطع كود لجعل العملية سلسة.
+> **Pro tip:** جرّب زوايا وقيم تباعد مختلفة لتحقيق النسيج البصري الدقيق الذي تحتاجه. التغييرات الصغيرة يمكن أن تؤثر بشكل كبير على العمق المُدرَك.
 
-تنفيذ أنماط التظليل: اتبع أمثلة الكود والشروحات لتنفيذ أنماط التظليل بفعالية. جرب أنماطًا مختلفة للعثور على الأنسب لمستندك.
+Navigating to Hatch Pattern Tutorial: انتقل إلى دليلنا المخصص لإضافة أنماط التظليل [here](./add-hatch-pattern/). نحن نوفر شروحات مفصلة ومقاطع كود لجعل العملية سلسة.
 
-## ارتقِ بمحتواك البصري بسهولة
-دمج أنماط التظليل ليس مجرد تحسين جمالي؛ بل يتعلق بنقل المعلومات بطريقة أكثر تأثيرًا. Aspose.Page يتيح لك رفع محتواك البصري بسهولة، مما يضمن تميز مستندات Java PostScript الخاصة بك.
+Implementing Hatch Patterns: اتبع أمثلة الكود والشروحات لتطبيق أنماط التظليل بفعالية. جرّب أنماطًا مختلفة للعثور على الأنسب لمستندك.
 
-سواء كنت مطورًا متمرسًا أو مبتدئًا في Java PostScript، يوفر لك درسنا الرؤى والأدوات التي تحتاجها. غص في عالم أنماط التظليل مع Aspose.Page وشاهد مستنداتك تتحول إلى تحف بصرية جذابة. ارتقِ بمحتواك، اجذب جمهورك، واترك انطباعًا دائمًا.
+### Common pitfalls and how to avoid them
+| Issue | Why it happens | Fix |
+|-------|----------------|-----|
+| Pattern appears too dense | Small spacing value | Increase `spacing` property of `HatchPattern`. |
+| Lines are misaligned | Incorrect angle setting | Use multiples of 45° for predictable orientation. |
+| Output file is empty | Forget to call `save` on the `Document` | Ensure `document.save("output.ps")` is executed. |
 
-## دروس أنماط التظليل - PostScript
-### [إضافة نمط تظليل في Java PostScript](./add-hatch-pattern/)
+## Hatch Patterns - PostScript Tutorials
+### [Add Hatch Pattern in Java PostScript](./add-hatch-pattern/)
 تعلم كيفية إضافة أنماط تظليل جذابة إلى مستندات Java PostScript باستخدام Aspose.Page. ارتقِ بمحتواك البصري بسهولة.
 
-## الأسئلة المتكررة
+## Frequently Asked Questions
 
-**س: هل يمكنني استخدام أنماط التظليل في التطبيقات التجارية؟**  
-ج: نعم. يلزم وجود ترخيص Aspose.Page صالح للاستخدام في الإنتاج، لكن النسخة التجريبية المجانية متاحة للتقييم.
+**Q: Can I use hatch patterns in commercial applications?**  
+A: نعم. يلزم وجود ترخيص صالح لـ Aspose.Page للاستخدام الإنتاجي، لكن نسخة التجربة المجانية متاحة للتقييم.
 
-**س: ما إصدارات Java المدعومة؟**  
-ج: Aspose.Page يعمل مع Java 8 والبيئات الزمنية الأحدث.
+**Q: Which Java versions are supported?**  
+A: Aspose.Page يعمل مع Java 8 والبيئات الأحدث.
 
-**س: هل أحتاج إلى إدارة موارد PostScript يدويًا؟**  
-ج: لا. الـ API يتعامل مع إنشاء الموارد وتنظيفها تلقائيًا.
+**Q: Do I need to manage PostScript resources manually?**  
+A: لا. تتولى API إنشاء الموارد وتنظيفها تلقائيًا.
 
-**س: هل يمكنني دمج عدة أنماط تظليل في مستند واحد؟**  
-ج: بالتأكيد. يمكنك تعريف كائنات `HatchPattern` مختلفة وتطبيقها على أشكال منفصلة.
+**Q: Can I combine multiple hatch patterns in one document?**  
+A: بالتأكيد. يمكنك تعريف كائنات `HatchPattern` مختلفة وتطبيقها على أشكال منفصلة.
 
-**س: هل يمكن معاينة النمط قبل إنشاء ملف PS؟**  
-ج: يمكنك تصيير المستند إلى PDF أو تنسيق صورة أولاً؛ سيظل المظهر البصري متطابقًا.
+**Q: Is it possible to preview the pattern before generating the PS file?**  
+A: يمكنك تصيير المستند إلى PDF أو تنسيق صورة أولاً؛ سيظل المظهر البصري متطابقًا.
 
 ---
 
-**Last Updated:** 2025-12-09  
+**Last Updated:** 2026-02-15  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose
 
