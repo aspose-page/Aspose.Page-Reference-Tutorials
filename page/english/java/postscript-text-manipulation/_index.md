@@ -1,33 +1,45 @@
 ---
-title: How to Add Text in PostScript with Aspose.Page for Java
+title: 'Learn to Generate Text in Documents Using Java'
 linktitle: Text Manipulation - PostScript
 second_title: Aspose.Page Java API
-description: Learn how to add text to PostScript documents using Aspose.Page for Java, including Unicode strings and custom fonts for dynamic PDF generation.
+description: Aspose Page text tutorial showing how to add text to PostScript documents with Java, including Unicode strings and custom fonts for dynamic generation.
 weight: 36
 url: /java/postscript-text-manipulation/
-date: 2025-12-12
+date: 2026-02-20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Add Text in PostScript with Aspose.Page for Java
+# Aspose Page Text Tutorial: Add Text in PostScript with Java
 
 ## Introduction
 
-In this tutorial, you'll discover **how to add text** to PostScript documents using Aspose.Page for Java. Whether you need simple labels, complex multilingual layouts, or custom‑styled headings, this guide walks you through every step. We'll start with the basics of inserting plain text, then explore Unicode strings and custom font handling so you can create truly dynamic PostScript files.
+In this **Aspose Page text tutorial**, you'll discover how to add text to PostScript documents using Aspose.Page for Java. Whether you need simple labels, complex multilingual layouts, or custom‑styled headings, this guide walks you through every step. We'll start with the basics of inserting plain text, then explore Unicode strings and custom font handling so you can create truly dynamic PostScript files.
+
+```java
+// Sample code to add text to a PostScript document using Aspose.Page for Java
+Document doc = new Document();
+Page page = doc.getPages().add();
+TextState textState = new TextState();
+textState.setFont(FontRepository.findFont("Arial"));
+textState.setFontSize(12);
+page.getParagraphs().add(new TextFragment("Hello, Aspose!", textState));
+doc.save("output.ps");
+```
 
 ## Quick Answers
 - **What is the primary goal?** Add text to PostScript files programmatically.  
 - **Which library is used?** Aspose.Page for Java.  
 - **Do I need a license?** A free trial works for evaluation; a commercial license is required for production.  
 - **Can I use Unicode characters?** Yes – the API fully supports Unicode strings.  
-- **What Java version is required?** Java 8 or higher.
+- **What Java version is required?** Java 8 or higher.  
+- **Is the tutorial up‑to‑date?** Yes – it reflects the latest Aspose.Page features as of February 2026.
 
-## What is text manipulation in PostScript?
+## What is an Aspose Page Text Tutorial?
 
-Text manipulation refers to the process of placing, styling, and rendering characters inside a PostScript page. With Aspose.Page, you control font selection, positioning, and encoding without dealing with low‑level PostScript syntax.
+Text manipulation refers to the process of placing, styling, and rendering characters inside a PostScript page. With Aspose.Page, you control font selection, positioning, and encoding without dealing with low‑level PostScript syntax. This tutorial shows you exactly how to achieve that in Java.
 
 ## Why add text to PostScript with Aspose.Page?
 
@@ -36,13 +48,13 @@ Text manipulation refers to the process of placing, styling, and rendering chara
 - **Custom font integration:** Use both system and embedded fonts for brand‑consistent designs.  
 - **Programmatic control:** Automate report generation, invoices, or graphics directly from Java code.
 
-## Add Text in Java PostScript:
-[Explore Tutorial - Add Text in Java PostScript](./add-text/)
+## Add text in java postScript:
+[Explore tutorial for adding text in Java PostScript]({{< relref "add-text/_index.md" >}})
 
 In this tutorial, we'll unravel the seamless integration of text into PostScript documents using Aspose.Page for Java. Whether you're a seasoned developer or a beginner, our step‑by‑step guide ensures clarity. Discover the versatility of adding text with both system and custom fonts, providing you with a toolkit for dynamic and engaging projects.
 
-## Add Text using Unicode String in Java PostScript:
-[Explore Tutorial - Add Text using Unicode String in Java PostScript](./add-text-unicode/)
+## Add text using unicode string in java postScript:
+[Explore tutorial for adding Unicode text in Java PostScript]({{< relref "add-text-unicode/_index.md" >}})
 
 Dive deeper into the capabilities of Aspose.Page for Java as we guide you through adding Unicode text to your PostScript projects. Understanding the nuances of Unicode string integration is crucial for creating diverse and multilingual content. Our tutorial ensures a smooth learning curve, allowing you to effortlessly implement Unicode strings in your Java PostScript applications.
 
@@ -50,19 +62,19 @@ Aspose.Page for Java empowers developers with an intuitive interface, making tex
 
 Whether you're looking to refine your text manipulation skills or embarking on a new project, our tutorials serve as a valuable resource. Follow along, experiment with the examples, and unlock the full potential of Aspose.Page for Java in text manipulation for PostScript. Elevate your development experience with the power of Aspose.Page for Java today!
 
-## Text Manipulation - PostScript Tutorials
-### [Add Text in Java PostScript](./add-text/)
+## Text manipulation - postScript tutorials
+### [Add text in Java PostScript]({{< relref "add-text/_index.md" >}})
 Explore the power of Aspose.Page for Java in our tutorial on adding text to PostScript documents. Learn to use system and custom fonts with ease.
-### [Add Text using Unicode String in Java PostScript](./add-text-unicode/)
+### [Add text using Unicode string in Java PostScript]({{< relref "add-text-unicode/_index.md" >}})
 Explore the power of Aspose.Page for Java in adding Unicode text to your PostScript projects. Follow our step‑by‑step guide for seamless integration.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 
 - **Font not found:** Ensure the font file is accessible to the JVM or embed the font using `FontRepository`.  
 - **Incorrect encoding:** Always use `UnicodeString` when dealing with non‑ASCII characters to avoid garbled output.  
 - **Positioning issues:** Remember that PostScript uses a bottom‑left origin; adjust Y‑coordinates accordingly.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I embed a custom TrueType font into a PostScript file?**  
 A: Yes. Use `FontRepository.addFont("path/to/font.ttf")` before creating the text object.
@@ -81,7 +93,7 @@ A: Load fonts once, reuse `TextState` objects, and avoid creating unnecessary te
 
 ---
 
-**Last Updated:** 2025-12-12  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 

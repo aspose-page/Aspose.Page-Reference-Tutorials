@@ -1,8 +1,9 @@
 ---
-date: 2025-12-14
+date: 2026-02-20
 description: Scopri come impostare il colore del testo in Java usando Aspose.Page
-  per Java, aggiungere testo a PostScript e applicare il contorno al testo per una
-  ricca formattazione dei documenti.
+  per Java, modificare la dimensione del carattere in Java, generare un file PostScript,
+  riempire e tracciare il testo e utilizzare font personalizzati in Java durante la
+  creazione di un documento PostScript.
 linktitle: Add Text in Java PostScript
 second_title: Aspose.Page Java API
 title: Imposta il colore del testo in Java con Aspose.Page – Guida alla manipolazione
@@ -11,6 +12,18 @@ url: /it/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
 
+ Java con Aspose.Page – Guida alla manipolazione del testo"
+
+- Introduction etc.
+
+Make sure to keep markdown formatting.
+
+Let's translate step by step.
+
+Will keep shortcodes at top and bottom.
+
+Proceed.
+
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
@@ -18,33 +31,33 @@ weight: 10
 # Imposta il colore del testo Java con Aspose.Page – Guida alla manipolazione del testo
 
 ## Introduzione
-Benvenuti alla nostra guida passo‑passo su **set text color java** mentre si lavora con file PostScript usando Aspose.Page per Java. Aspose.Page per Java è una libreria potente che consente agli sviluppatori di creare e **generate postscript file** documenti, manipolare i font e stilizzare il testo con precisione. In questo tutorial imparerete ad aggiungere testo, cambiarne il colore, regolare la dimensione e persino **apply stroke text** per un aspetto rifinito.
+Benvenuti nella nostra guida passo‑passo su **set text color java** mentre lavorate con file PostScript utilizzando Aspose.Page per Java. Aspose.Page per Java è una libreria potente che consente agli sviluppatori di **create postscript document** file, manipolare i caratteri e stilizzare il testo con precisione. In questo tutorial imparerete ad aggiungere testo, cambiare il suo colore, **change font size java**, e persino **apply fill and stroke text** per un aspetto curato.
 
 ## Risposte rapide
-- **Quale libreria mi permette di impostare il colore del testo in Java?** Aspose.Page per Java.
-- **Posso usare font di sistema e font personalizzati?** Sì, entrambi sono supportati.
-- **Come cambio la dimensione del testo?** Specificando la dimensione del font quando si crea il `Font` o il `DrFont`.
-- **È possibile contornare e riempire il testo insieme?** Assolutamente – usa `fillAndStrokeText`.
-- **Quale formato di output produce questo tutorial?** Un documento PostScript (`.ps`).
+- **Quale libreria mi permette di impostare il colore del testo in Java?** Aspose.Page per Java.  
+- **Posso usare font di sistema e font personalizzati?** Sì, entrambi sono supportati, e potete **use custom fonts java** facilmente.  
+- **Come cambio la dimensione del testo?** Specificando la dimensione del font quando create il `Font` o il `DrFont`.  
+- **È possibile contornare e riempire il testo contemporaneamente?** Assolutamente – usate `fillAndStrokeText`.  
+- **Quale formato di output produce questo tutorial?** Un documento PostScript (`.ps`), che potete **generate postscript file** programmaticamente.
 
-## Cos'è “set text color java”?
-Impostare il colore del testo in Java significa definire l'oggetto `Color` che il motore di rendering (qui, Aspose.Page) utilizza quando disegna i caratteri su una pagina. Questa operazione è essenziale per creare documenti visivamente distinti, soprattutto quando si generano **postscript documents** in modo programmatico.
+## Che cosa è “set text color java”?
+Impostare il colore del testo in Java significa definire l'oggetto `Color` che il motore di rendering (qui, Aspose.Page) utilizza quando disegna i caratteri su una pagina. Questa operazione è essenziale per creare documenti visivamente distinti, soprattutto quando è necessario **generate postscript file** programmaticamente.
 
 ## Perché usare Aspose.Page per Java?
-- **Full control** sulla generazione di PostScript senza la necessità di un interprete PostScript nativo.
-- **Support for both system and external fonts**, che ti consente di incorporare qualsiasi tipografia necessaria.
-- **Easy API** per riempire, contornare e **fill and stroke text**, offrendoti flessibilità nello styling.
-- **Cross‑platform** compatibility – scrivi una volta, esegui ovunque Java venga eseguito.
+- **Controllo totale** sulla generazione di PostScript senza bisogno di un interprete nativo.  
+- **Supporto sia per i font di sistema che per quelli esterni**, consentendo di incorporare qualsiasi tipografia necessaria.  
+- **API semplice** per riempire, contornare e **fill and stroke text**, offrendo flessibilità nello styling.  
+- **Compatibilità cross‑platform** – scrivi una volta, esegui ovunque Java venga eseguito.  
 
 ## Prerequisiti
-Prima di immergerti, assicurati di avere:
+Prima di iniziare, assicuratevi di avere:
 
-- Conoscenza di base della programmazione Java.
-- Libreria Aspose.Page per Java installata. Puoi scaricarla dalla [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).
-- Font necessari disponibili nella cartella specificata. Ulteriori dettagli sono nella [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
+- Conoscenze di base della programmazione Java.  
+- Libreria Aspose.Page per Java installata. Potete scaricarla dalla [pagina di download di Aspose.Page per Java](https://releases.aspose.com/page/java/).  
+- Font necessari disponibili nella cartella specificata. Ulteriori dettagli sono nella [documentazione di Aspose.Page per Java](https://reference.aspose.com/page/java/).  
 
-## Importa i pacchetti
-Nel tuo progetto Java, importa i pacchetti necessari per Aspose.Page per Java:
+## Importare i pacchetti
+Nel vostro progetto Java, importate i pacchetti necessari per Aspose.Page per Java:
 
 ```java
 import java.awt.BasicStroke;
@@ -58,8 +71,8 @@ import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
 ```
 
-## Passo 1: Configura il documento
-Innanzitutto, creiamo un nuovo **PostScript document** e configuriamo le opzioni di output.
+## Passo 1: Configurare il documento
+Per prima cosa, creiamo un nuovo **PostScript document** e configuriamo le opzioni di output.
 
 ```java
 // The path to the documents directory.
@@ -89,10 +102,10 @@ document.fillText(str, font, 50, 100);
 document.fillText(str, font, 50, 150, Color.BLUE);
 ```
 
-> **Suggerimento:** Il metodo `fillText` utilizza automaticamente il colore corrente se non passi un argomento `Color`, che di default è nero.
+> **Suggerimento:** Il metodo `fillText` utilizza automaticamente il colore corrente se non passate un argomento `Color`, il cui valore predefinito è nero.
 
 ## Uso di un font personalizzato e modifica della dimensione del testo
-Puoi anche **change text size** e usare un font personalizzato memorizzato nella tua cartella dei font.
+Potete anche **change font size java** e usare un font personalizzato memorizzato nella vostra cartella dei font.
 
 ```java
 // Using custom font for filling text
@@ -104,7 +117,7 @@ document.fillText(str, drFont, 50, 250, Color.BLUE);
 ```
 
 ## Contornare (Stroke) il testo – Applicare Stroke Text
-Il contorno del testo gli conferisce un bordo nitido. Qui **apply stroke text** usando un `BasicStroke`.
+Contornare il testo gli conferisce un bordo nitido. Qui **apply stroke text** usando un `BasicStroke`.
 
 ```java
 // Using system font for outlining text
@@ -129,8 +142,8 @@ document.outlineText(str, drFont, 50, 500, strokeColor, stroke);
 document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, stroke);
 ```
 
-## Passo 6: Salva il documento
-Infine, chiudi la pagina e scrivi il file su disco.
+## Passo 6: Salvare il documento
+Infine, chiudete la pagina e scrivete il file su disco.
 
 ```java
 // Close current page
@@ -139,38 +152,41 @@ document.closePage();
 document.save();
 ```
 
+## Perché è importante
+Essere in grado di **set text color java** e combinare riempimento con contorno vi dà il pieno controllo artistico sull'output PostScript finale. Che stiate generando fatture, certificati o grafiche personalizzate, la capacità di **create postscript document** con styling preciso riduce la necessità di post‑produzione in editor grafici.
+
 ## Problemi comuni e soluzioni
 | Problema | Soluzione |
 |----------|-----------|
-| **Font not found** | Assicurati che il file del font sia posizionato in `necessary_fonts` e che il percorso della cartella sia aggiunto correttamente tramite `options.setAdditionalFontsFolders`. |
-| **Color not applied** | Verifica di chiamare la sovraccarico di `fillText` o `outlineText` che include un argomento `Color`. |
-| **Stroke appears too thin** | Aumenta la larghezza del `BasicStroke` (ad esempio, `new BasicStroke(3)`). |
-| **Document not opening** | Conferma che il file `.ps` generato sia salvato con l'estensione corretta e che il tuo visualizzatore supporti PostScript. |
+| **Font non trovato** | Assicuratevi che il file del font sia posizionato in `necessary_fonts` e che il percorso della cartella sia correttamente aggiunto tramite `options.setAdditionalFontsFolders`. |
+| **Colore non applicato** | Verificate di chiamare la sovraccarico di `fillText` o `outlineText` che includa un argomento `Color`. |
+| **Il contorno appare troppo sottile** | Incrementate la larghezza del `BasicStroke` (es., `new BasicStroke(3)`). |
+| **Il documento non si apre** | Confermate che il file `.ps` generato sia salvato con l'estensione corretta e che il vostro visualizzatore supporti PostScript. |
 
 ## Domande frequenti
 
-**Q:** Posso usare i miei font personalizzati con Aspose.Page per Java?  
-A: Sì, puoi usare font personalizzati specificando il nome del font e la dimensione nella classe `DrFont`.
+**D:** Posso usare i miei font personalizzati con Aspose.Page per Java?  
+**R:** Sì, potete **use custom fonts java** specificando il nome e la dimensione del font nella classe `DrFont`.
 
-**Q:** Come posso cambiare il colore del testo?  
-A: Puoi impostare il colore desiderato usando la classe `Color` quando riempi o contorni il testo.
+**D:** Come posso cambiare il colore del testo?  
+**R:** Potete impostare il colore desiderato usando la classe `Color` quando riempite o contornate il testo.
 
-**Q:** È possibile aggiungere più pagine a un documento PostScript?  
-A: Assolutamente! Puoi creare più pagine ripetendo i passaggi di creazione del documento e salvataggio.
+**D:** È possibile aggiungere più pagine a un documento PostScript?  
+**R:** Assolutamente! Potete creare più pagine ripetendo i passaggi di creazione e salvataggio del documento.
 
-**Q:** Qual è lo scopo della classe `ExternalFontCache`?  
-A: `ExternalFontCache` è usata per recuperare font personalizzati, garantendo che siano disponibili per la manipolazione del testo.
+**D:** Qual è lo scopo della classe `ExternalFontCache`?  
+**R:** `ExternalFontCache` serve a recuperare font personalizzati, garantendo che siano disponibili per la manipolazione del testo.
 
-**Q:** Posso applicare diversi stroke al testo contornato?  
-A: Sì, puoi personalizzare la larghezza e il colore dello stroke usando la classe `Stroke` e la classe `Color`, rispettivamente.
+**D:** Posso applicare diversi contorni al testo contornato?  
+**R:** Sì, potete personalizzare larghezza e colore del contorno usando la classe `Stroke` e la classe `Color`, rispettivamente.
 
 ## Conclusione
-Congratulazioni! Ora sai come **set text color java**, cambiare le dimensioni dei font, **apply stroke text**, e **create postscript document** file usando Aspose.Page per Java. Sperimenta con diversi font, colori e stili di contorno per produrre output PostScript dall'aspetto professionale.
+Complimenti! Ora sapete come **set text color java**, **change font size java**, **apply fill and stroke text**, e **create postscript document** usando Aspose.Page per Java. Sperimentate con diversi font, colori e stili di contorno per produrre output PostScript dall'aspetto professionale.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-14  
-**Testato con:** Aspose.Page for Java 23.12 (latest)  
+**Ultimo aggiornamento:** 2026-02-20  
+**Testato con:** Aspose.Page per Java 23.12 (ultima versione)  
 **Autore:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

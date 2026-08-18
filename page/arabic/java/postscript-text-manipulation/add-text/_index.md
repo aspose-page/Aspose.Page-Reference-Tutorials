@@ -1,48 +1,51 @@
 ---
-date: 2025-12-14
-description: تعلم كيفية ضبط لون النص في جافا باستخدام Aspose.Page for Java، وإضافة
-  نص إلى PostScript، وتطبيق خط النص لتنسيق مستند غني.
+date: 2026-02-20
+description: تعلم كيفية تعيين لون النص في جافا باستخدام Aspose.Page for Java، وتغيير
+  حجم الخط في جافا، وإنشاء ملف بوستسكريبت، وتعبئة النص وتحديد حدوده، واستخدام خطوط
+  مخصصة في جافا أثناء إنشاء مستند بوستسكريبت.
 linktitle: Add Text in Java PostScript
 second_title: Aspose.Page Java API
-title: تعيين لون النص في جافا باستخدام Aspose.Page – دليل معالجة النص
+title: تعيين لون النص في جافا باستخدام Aspose.Page – دليل تعديل النص
 url: /ar/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تعيين لون النص في Java باستخدام Aspose.Page – دليل معالجة النصوص
+# تعيين لون النص في Java باستخدام Aspose.Page – دليل معالجة النص
 
-## المقدمة
-مرحبًا بكم في دليلنا خطوة بخطوة حول **set text color java** أثناء العمل مع ملفات PostScript باستخدام Aspose.Page for Java. Aspose.Page for Java هي مكتبة قوية تتيح للمطورين إنشاء و **generate postscript file** مستندات، ومعالجة الخطوط، وتنسيق النص بدقة. في هذا البرنامج التعليمي ستتعلم كيفية إضافة نص، تغيير لونه، تعديل حجمه، وحتى **apply stroke text** للحصول على مظهر مصقول.
+## Introduction
+مرحبًا بكم في دليلنا خطوة بخطوة حول **set text color java** أثناء العمل مع ملفات PostScript باستخدام Aspose.Page for Java. Aspose.Page for Java هي مكتبة قوية تتيح للمطورين **create postscript document** ملفات، وت manipulation fonts، وتنسيق النص بدقة. في هذا البرنامج التعليمي ستتعلم كيفية إضافة نص، تغيير لونه، **change font size java**، وحتى **apply fill and stroke text** للحصول على مظهر مصقول.
 
-## إجابات سريعة
-- **ما المكتبة التي تسمح لي بتعيين لون النص في Java؟** Aspose.Page for Java.
-- **هل يمكنني استخدام الخطوط النظامية والخطوط المخصصة؟** نعم، كلاهما مدعومان.
-- **كيف يمكنني تغيير حجم النص؟** عن طريق تحديد حجم الخط عند إنشاء `Font` أو `DrFont`.
-- **هل من الممكن تحديد النص وتعبئته معًا؟** بالتأكيد – استخدم `fillAndStrokeText`.
-- **ما هو تنسيق الإخراج الذي ينتجه هذا البرنامج التعليمي؟** مستند PostScript (`.ps`).
+## Quick Answers
+- **ما المكتبة التي تسمح لي بتعيين لون النص في Java؟** Aspose.Page for Java.  
+- **هل يمكنني استخدام الخطوط النظامية والخطوط المخصصة؟** نعم، كلاهما مدعومان، ويمكنك **use custom fonts java** بسهولة.  
+- **كيف يمكنني تغيير حجم النص؟** عن طريق تحديد حجم الخط عند إنشاء `Font` أو `DrFont`.  
+- **هل من الممكن تحديد وتعبئة النص معًا؟** بالتأكيد – استخدم `fillAndStrokeText`.  
+- **ما هو تنسيق الإخراج الذي ينتجه هذا البرنامج التعليمي؟** مستند PostScript (`.ps`)، والذي يمكنك **generate postscript file** برمجيًا.
 
-## ما هو “set text color java”؟
-تعيين لون النص في Java يعني تعريف كائن `Color` الذي يستخدمه محرك العرض (هنا، Aspose.Page) عند رسم الأحرف على الصفحة. هذه العملية أساسية لإنشاء مستندات بصرية متميزة، خاصةً عند إنشاء **postscript documents** برمجيًا.
+## What is “set text color java”?
+تعيين لون النص في Java يعني تعريف كائن `Color` الذي يستخدمه محرك العرض (هنا، Aspose.Page) عند رسم الأحرف على الصفحة. هذه العملية أساسية لإنشاء مستندات بصرية متميزة، خاصة عندما تحتاج إلى **generate postscript file** برمجيًا.
 
-## لماذا نستخدم Aspose.Page for Java؟
-- **تحكم كامل** في إنشاء PostScript دون الحاجة إلى مفسر PostScript أصلي.
-- **دعم لكل من الخطوط النظامية والخارجية**، مما يتيح لك تضمين أي طباعة تحتاجها.
-- **واجهة برمجة تطبيقات سهلة** لتعبئة، وتحديد، و **fill and stroke text**، مما يمنحك مرونة في التنسيق.
-- **توافق متعدد المنصات** – اكتب مرة واحدة، وشغّل في أي مكان يعمل فيه Java.
+## Why use Aspose.Page for Java?
+- **تحكم كامل** في إنشاء PostScript دون الحاجة إلى مفسر أصلي.  
+- **دعم للخطوط النظامية والخارجية**، مما يتيح لك تضمين أي طباعة تحتاجها.  
+- **واجهة برمجة تطبيقات سهلة** لتعبئة، وتحديد، و**fill and stroke text**، مما يمنحك مرونة في التنسيق.  
+- **توافق عبر الأنظمة** – اكتب مرة واحدة، شغّل في أي مكان يعمل فيه Java.  
 
-## المتطلبات المسبقة
-قبل البدء، تأكد من أن لديك:
+## Prerequisites
+قبل الغوص، تأكد من أن لديك:
 
-- معرفة أساسية ببرمجة Java.
-- مكتبة Aspose.Page for Java مثبتة. يمكنك تنزيلها من [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).
-- الخطوط الضرورية متوفرة في المجلد المحدد. تفاصيل إضافية في [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
+- معرفة أساسية ببرمجة Java.  
+- مكتبة Aspose.Page for Java مثبتة. يمكنك تنزيلها من [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).  
+- الخطوط الضرورية متوفرة في المجلد المحدد. تفاصيل إضافية في [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
 
-## استيراد الحزم
-في مشروع Java الخاص بك، استورد الحزم الضرورية لـ Aspose.Page for Java:
+## Import Packages
+في مشروع Java الخاص بك، استورد الحزم اللازمة لـ Aspose.Page for Java:
 
 ```java
 import java.awt.BasicStroke;
@@ -56,7 +59,7 @@ import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
 ```
 
-## الخطوة 1: إعداد المستند
+## Step 1: Set Up the Document
 أولاً، نقوم بإنشاء **PostScript document** جديد وتكوين خيارات الإخراج.
 
 ```java
@@ -75,7 +78,7 @@ int fontSize = 48;
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## كيفية تعيين لون النص في Java باستخدام الخط النظامي
+## How to Set Text Color Java Using System Font
 الآن نوضح **set text color java** باستخدام خط موفر من النظام.
 
 ```java
@@ -89,8 +92,8 @@ document.fillText(str, font, 50, 150, Color.BLUE);
 
 > **نصيحة:** طريقة `fillText` تستخدم اللون الحالي تلقائيًا إذا لم تمرر معامل `Color`، والذي يكون افتراضيًا أسود.
 
-## استخدام خط مخصص وتغيير حجم النص
-يمكنك أيضًا **change text size** واستخدام خط مخصص مخزن في مجلد الخطوط الخاص بك.
+## Using Custom Font and Changing Text Size
+يمكنك أيضًا **change font size java** واستخدام خط مخصص مخزن في مجلد الخطوط الخاص بك.
 
 ```java
 // Using custom font for filling text
@@ -101,8 +104,8 @@ document.fillText(str, drFont, 50, 200);
 document.fillText(str, drFont, 50, 250, Color.BLUE);
 ```
 
-## تحديد (Stroke) النص – تطبيق Stroke Text
-تحديد النص يمنحه حافة واضحة. هنا نـ **apply stroke text** باستخدام `BasicStroke`.
+## Outlining (Stroke) Text – Apply Stroke Text
+إعطاء النص حدودًا يمنحه حافة واضحة. هنا نـ **apply stroke text** باستخدام `BasicStroke`.
 
 ```java
 // Using system font for outlining text
@@ -115,7 +118,7 @@ document.outlineText(str, font, 50, 350, strokeColor, stroke);
 document.fillAndStrokeText(str, font, 50, 400, Color.YELLOW, strokeColor, stroke);
 ```
 
-## تحديد النص باستخدام خط مخصص
+## Outlining Text with Custom Font
 نفس التقنية تعمل مع الخطوط المخصصة.
 
 ```java
@@ -127,7 +130,7 @@ document.outlineText(str, drFont, 50, 500, strokeColor, stroke);
 document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, stroke);
 ```
 
-## الخطوة 6: حفظ المستند
+## Step 6: Save the Document
 أخيرًا، أغلق الصفحة واكتب الملف إلى القرص.
 
 ```java
@@ -137,37 +140,40 @@ document.closePage();
 document.save();
 ```
 
-## المشكلات الشائعة والحلول
-| المشكلة | الحل |
-|-------|----------|
-| **الخط غير موجود** | تأكد من وضع ملف الخط في `necessary_fonts` وإضافة مسار المجلد بشكل صحيح عبر `options.setAdditionalFontsFolders`. |
-| **اللون غير مطبق** | تحقق من أنك تستدعي النسخة المتعددة من `fillText` أو `outlineText` التي تتضمن معامل `Color`. |
-| **الحد يبدو رفيعًا جدًا** | زد عرض `BasicStroke` (مثلاً، `new BasicStroke(3)`). |
-| **المستند لا يفتح** | تأكد من حفظ ملف `.ps` المُولد بالامتداد الصحيح وأن عارضك يدعم PostScript. |
+## Why This Matters
+القدرة على **set text color java** ودمج التعبئة مع الحد يمنحك تحكمًا فنيًا كاملًا في الناتج النهائي لـ PostScript. سواء كنت تولد فواتير، شهادات، أو رسومات مخصصة، فإن القدرة على **create postscript document** ملفات بتنسيق دقيق تقلل الحاجة إلى المعالجة اللاحقة في برامج تحرير الرسوم.
 
-## الأسئلة المتكررة
+## Common Issues & Solutions
+| Issue | Solution |
+|-------|----------|
+| **Font not found** | تأكد من وضع ملف الخط في `necessary_fonts` وإضافة مسار المجلد بشكل صحيح عبر `options.setAdditionalFontsFolders`. |
+| **Color not applied** | تحقق من أنك تستدعي النسخة المتعددة من `fillText` أو `outlineText` التي تتضمن معامل `Color`. |
+| **Stroke appears too thin** | زد عرض `BasicStroke` (مثلاً، `new BasicStroke(3)`). |
+| **Document not opening** | تأكد من حفظ ملف `.ps` المُولد بالامتداد الصحيح وأن عارضك يدعم PostScript. |
+
+## Frequently Asked Questions
 
 **س:** هل يمكنني استخدام خطوط مخصصة خاصة بي مع Aspose.Page for Java؟  
-ج: نعم، يمكنك استخدام الخطوط المخصصة عن طريق تحديد اسم الخط والحجم في فئة `DrFont`.
+**ج:** نعم، يمكنك **use custom fonts java** عن طريق تحديد اسم الخط وحجمه في فئة `DrFont`.
 
 **س:** كيف يمكنني تغيير لون النص؟  
-ج: يمكنك تعيين اللون المطلوب باستخدام فئة `Color` عند تعبئة أو تحديد النص.
+**ج:** يمكنك تعيين اللون المطلوب باستخدام فئة `Color` عند تعبئة النص أو تحديده.
 
 **س:** هل من الممكن إضافة صفحات متعددة إلى مستند PostScript؟  
-ج: بالتأكيد! يمكنك إنشاء صفحات متعددة عن طريق تكرار خطوات إنشاء المستند وحفظه.
+**ج:** بالتأكيد! يمكنك إنشاء صفحات متعددة عن طريق تكرار خطوات إنشاء المستند وحفظه.
 
 **س:** ما هو هدف فئة `ExternalFontCache`؟  
-ج: تُستخدم فئة `ExternalFontCache` لجلب الخطوط المخصصة، مما يضمن توفرها لمعالجة النص.
+**ج:** تُستخدم `ExternalFontCache` لجلب الخطوط المخصصة، مما يضمن توفرها لمعالجة النص.
 
 **س:** هل يمكنني تطبيق حدود مختلفة على النص المحدد؟  
-ج: نعم، يمكنك تخصيص عرض ولون الحد باستخدام فئة `Stroke` وفئة `Color` على التوالي.
+**ج:** نعم، يمكنك تخصيص عرض ولون الحد باستخدام فئة `Stroke` وفئة `Color` على التوالي.
 
-## الخاتمة
-تهانينا! الآن تعرف كيف **set text color java**، وتغيير أحجام الخطوط، و **apply stroke text**، و **create postscript document** باستخدام Aspose.Page for Java. جرّب خطوطًا وألوانًا وأنماط تحديد مختلفة لإنتاج مخرجات PostScript ذات مظهر احترافي.
+## Conclusion
+تهانينا! الآن تعرف كيف **set text color java**، **change font size java**، **apply fill and stroke text**، و**create postscript document** ملفات باستخدام Aspose.Page for Java. جرب خطوطًا وألوانًا وأنماط حدود مختلفة لإنتاج مخرجات PostScript ذات مظهر احترافي.
 
 ---
 
-**آخر تحديث:** 2025-12-14  
+**آخر تحديث:** 2026-02-20  
 **تم الاختبار مع:** Aspose.Page for Java 23.12 (latest)  
 **المؤلف:** Aspose  
 

@@ -1,11 +1,11 @@
 ---
-title: Set Text Color Java with Aspose.Page – Text Manipulation Guide
+title: Text Manipulation Example in Java
 linktitle: Add Text in Java PostScript
 second_title: Aspose.Page Java API
-description: Learn how to set text color java using Aspose.Page for Java, add text to PostScript, and apply stroke text for rich document styling.
+description: Learn how to set text color java using Aspose.Page for Java, change font size java, generate postscript file, fill and stroke text, and use custom fonts java while creating a postscript document.
 weight: 10
 url: /java/postscript-text-manipulation/add-text/
-date: 2025-12-14
+date: 2026-02-20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,30 +15,30 @@ date: 2025-12-14
 # Set Text Color Java with Aspose.Page – Text Manipulation Guide
 
 ## Introduction
-Welcome to our step‑by‑step guide on **set text color java** while working with PostScript files using Aspose.Page for Java. Aspose.Page for Java is a powerful library that lets developers create and **generate postscript file** documents, manipulate fonts, and style text with precision. In this tutorial you’ll learn how to add text, change its color, adjust size, and even **apply stroke text** for a polished look.
+Welcome to our step‑by‑step guide on **set text color java** while working with PostScript files using Aspose.Page for Java. Aspose.Page for Java is a powerful library that lets developers **create postscript document** files, manipulate fonts, and style text with precision. In this tutorial you’ll learn how to add text, change its color, **change font size java**, and even **apply fill and stroke text** for a polished look.
 
 ## Quick Answers
-- **What library lets me set text color in Java?** Aspose.Page for Java.
-- **Can I use system fonts and custom fonts?** Yes, both are supported.
-- **How do I change the text size?** By specifying the font size when creating the `Font` or `DrFont`.
-- **Is it possible to outline and fill text together?** Absolutely – use `fillAndStrokeText`.
-- **What output format does this tutorial produce?** A PostScript (`.ps`) document.
+- **What library lets me set text color in Java?** Aspose.Page for Java.  
+- **Can I use system fonts and custom fonts?** Yes, both are supported, and you can **use custom fonts java** easily.  
+- **How do I change the text size?** By specifying the font size when creating the `Font` or `DrFont`.  
+- **Is it possible to outline and fill text together?** Absolutely – use `fillAndStrokeText`.  
+- **What output format does this tutorial produce?** A PostScript (`.ps`) document, which you can **generate postscript file** programmatically.
 
 ## What is “set text color java”?
-Setting the text color in Java means defining the `Color` object that the rendering engine (here, Aspose.Page) uses when drawing characters onto a page. This operation is essential for creating visually distinct documents, especially when generating **postscript documents** programmatically.
+Setting the text color in Java means defining the `Color` object that the rendering engine (here, Aspose.Page) uses when drawing characters onto a page. This operation is essential for creating visually distinct documents, especially when you need to **generate postscript file** programmatically.
 
 ## Why use Aspose.Page for Java?
-- **Full control** over PostScript generation without needing a native PostScript interpreter.
-- **Support for both system and external fonts**, letting you embed any typography you need.
-- **Easy API** to fill, outline, and **fill and stroke text**, giving you flexibility in styling.
-- **Cross‑platform** compatibility – write once, run anywhere Java runs.
+- **Full control** over PostScript generation without needing a native interpreter.  
+- **Support for both system and external fonts**, letting you embed any typography you need.  
+- **Easy API** to fill, outline, and **fill and stroke text**, giving you flexibility in styling.  
+- **Cross‑platform** compatibility – write once, run anywhere Java runs.  
 
 ## Prerequisites
 Before diving in, make sure you have:
 
-- Basic knowledge of Java programming.
-- Aspose.Page for Java library installed. You can download it from the [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).
-- Necessary fonts available in the specified folder. Additional details are in the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).
+- Basic knowledge of Java programming.  
+- Aspose.Page for Java library installed. You can download it from the [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).  
+- Necessary fonts available in the specified folder. Additional details are in the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
 
 ## Import Packages
 In your Java project, import the necessary packages for Aspose.Page for Java:
@@ -55,7 +55,7 @@ import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
 ```
 
-## Step 1: Set Up the Document
+## Step 1: set up the document
 First, we create a new **PostScript document** and configure the output options.
 
 ```java
@@ -88,8 +88,8 @@ document.fillText(str, font, 50, 150, Color.BLUE);
 
 > **Tip:** The `fillText` method automatically uses the current color if you don’t pass a `Color` argument, which defaults to black.
 
-## Using Custom Font and Changing Text Size
-You can also **change text size** and use a custom font stored in your fonts folder.
+## Using custom font and changing text size
+You can also **change font size java** and use a custom font stored in your fonts folder.
 
 ```java
 // Using custom font for filling text
@@ -114,7 +114,7 @@ document.outlineText(str, font, 50, 350, strokeColor, stroke);
 document.fillAndStrokeText(str, font, 50, 400, Color.YELLOW, strokeColor, stroke);
 ```
 
-## Outlining Text with Custom Font
+## Outlining text with custom font
 The same technique works with custom fonts.
 
 ```java
@@ -126,7 +126,7 @@ document.outlineText(str, drFont, 50, 500, strokeColor, stroke);
 document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, stroke);
 ```
 
-## Step 6: Save the Document
+## Step 6: save the document
 Finally, close the page and write the file to disk.
 
 ```java
@@ -136,7 +136,10 @@ document.closePage();
 document.save();
 ```
 
-## Common Issues & Solutions
+## Why this matters
+Being able to **set text color java** and combine fill with stroke gives you full artistic control over the final PostScript output. Whether you’re generating invoices, certificates, or custom graphics, the ability to **create postscript document** files with precise styling reduces the need for post‑processing in graphic editors.
+
+## Common issues & solutions
 | Issue | Solution |
 |-------|----------|
 | **Font not found** | Ensure the font file is placed in `necessary_fonts` and the folder path is correctly added via `options.setAdditionalFontsFolders`. |
@@ -144,10 +147,10 @@ document.save();
 | **Stroke appears too thin** | Increase the `BasicStroke` width (e.g., `new BasicStroke(3)`). |
 | **Document not opening** | Confirm the generated `.ps` file is saved with the correct extension and that your viewer supports PostScript. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q:** Can I use my own custom fonts with Aspose.Page for Java?  
-A: Yes, you can use custom fonts by specifying the font name and size in the `DrFont` class.
+A: Yes, you can **use custom fonts java** by specifying the font name and size in the `DrFont` class.
 
 **Q:** How can I change the color of the text?  
 A: You can set the desired color using the `Color` class when filling or outlining the text.
@@ -162,11 +165,11 @@ A: `ExternalFontCache` is used to fetch custom fonts, ensuring they are availabl
 A: Yes, you can customize the width and color of the stroke using the `Stroke` class and `Color` class, respectively.
 
 ## Conclusion
-Congratulations! You now know how to **set text color java**, change font sizes, **apply stroke text**, and **create postscript document** files using Aspose.Page for Java. Experiment with different fonts, colors, and outline styles to produce professional‑looking PostScript output.
+Congratulations! You now know how to **set text color java**, **change font size java**, **apply fill and stroke text**, and **create postscript document** files using Aspose.Page for Java. Experiment with different fonts, colors, and outline styles to produce professional‑looking PostScript output.
 
 ---
 
-**Last Updated:** 2025-12-14  
+**Last Updated:** 2026-02-20  
 **Tested With:** Aspose.Page for Java 23.12 (latest)  
 **Author:** Aspose  
 

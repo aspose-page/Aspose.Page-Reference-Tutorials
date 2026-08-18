@@ -1,6 +1,7 @@
 ---
-date: 2025-12-14
-description: Aspose.Page for Java を使用して Java でテキストの色を設定し、PostScript にテキストを追加し、リッチな文書スタイリングのためにストロークテキストを適用する方法を学びましょう。
+date: 2026-02-20
+description: Aspose.Page for Java を使用してテキストの色を設定する方法、フォントサイズを変更する方法、PostScript ファイルを生成する方法、テキストの塗りつぶしとストローク、カスタムフォントを使用して
+  PostScript ドキュメントを作成する方法を学びましょう。
 linktitle: Add Text in Java PostScript
 second_title: Aspose.Page Java API
 title: Aspose.Page を使用した Java のテキストカラー設定 – テキスト操作ガイド
@@ -8,40 +9,40 @@ url: /ja/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ unchanged.
+
+Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Set Text Color Java with Aspose.Page – Text Manipulation Guide
+# Aspose.Page を使用した Java のテキストカラー設定 – テキスト操作ガイド
 
-## Introduction
-Aspose.Page for Java を使用して PostScript ファイルを操作する際の **set text color java** に関するステップバイステップガイドへようこそ。Aspose.Page for Java は、開発者が **generate postscript file** ドキュメントを作成し、フォントを操作し、テキストを正確にスタイリングできる強力なライブラリです。本チュートリアルでは、テキストの追加、色の変更、サイズの調整、さらには **apply stroke text** を使用した洗練された外観の実装方法を学びます。
+## はじめに
+Welcome to our step‑by‑step guide on **set text color java** while working with PostScript files using Aspose.Page for Java. Aspose.Page for Java is a powerful library that lets developers **create postscript document** files, manipulate fonts, and style text with precision. In this tutorial you’ll learn how to add text, change its color, **change font size java**, and even **apply fill and stroke text** for a polished look.
 
-## Quick Answers
-- **What library lets me set text color in Java?** Aspose.Page for Java.  
-- **Can I use system fonts and custom fonts?** Yes, both are supported.  
-- **How do I change the text size?** By specifying the font size when creating the `Font` or `DrFont`.  
-- **Is it possible to outline and fill text together?** Absolutely – use `fillAndStrokeText`.  
-- **What output format does this tutorial produce?** A PostScript (`.ps`) document.
+## クイック回答
+- **Java でテキストカラーを設定できるライブラリは何ですか？** Aspose.Page for Java.  
+- **システムフォントとカスタムフォントの両方を使用できますか？** はい、どちらもサポートされており、**use custom fonts java** を簡単に使用できます。  
+- **テキストサイズはどう変更しますか？** `Font` または `DrFont` を作成する際にフォントサイズを指定します。  
+- **テキストを輪郭と塗りつぶしの両方にすることは可能ですか？** もちろんです – `fillAndStrokeText` を使用します。  
+- **このチュートリアルの出力形式は何ですか？** PostScript（`.ps`）ドキュメントで、プログラムで **generate postscript file** が可能です。
 
-## What is “set text color java”?
-Java でテキストの色を設定することは、レンダリングエンジン（ここでは Aspose.Page）が文字をページに描画する際に使用する `Color` オブジェクトを定義することを意味します。この操作は、特に **postscript documents** をプログラムで生成する際に、視覚的に区別されたドキュメントを作成するために不可欠です。
+## 「set text color java」とは？
+Java でテキストカラーを設定することは、ページに文字を描画する際にレンダリングエンジン（ここでは Aspose.Page）が使用する `Color` オブジェクトを定義することを意味します。この操作は、視覚的に区別されたドキュメントを作成するために不可欠で、特に **generate postscript file** をプログラムで行う必要がある場合に重要です。
 
-## Why use Aspose.Page for Java?
-- **Full control** over PostScript generation without needing a native PostScript interpreter.  
-- **Support for both system and external fonts**, letting you embed any typography you need.  
-- **Easy API** to fill, outline, and **fill and stroke text**, giving you flexibility in styling.  
-- **Cross‑platform** compatibility – write once, run anywhere Java runs.
+## なぜ Aspose.Page for Java を使用するのか？
+- **Full control**：ネイティブインタプリタを必要とせずに PostScript の生成を完全に制御できます。  
+- **Support for both system and external fonts**：システムフォントと外部フォントの両方をサポートし、必要なタイポグラフィを埋め込めます。  
+- **Easy API**：塗りつぶし、輪郭、**fill and stroke text** を簡単に行える API で、スタイリングの柔軟性を提供します。  
+- **Cross‑platform** 互換性 – 一度書けば、Java が動くあらゆる環境で実行できます。  
 
-## Prerequisites
-開始する前に、以下を確認してください。
-
+## 前提条件
 - Java プログラミングの基本知識。  
-- Aspose.Page for Java ライブラリがインストール済み。ダウンロードは [Aspose.Page for Java download page](https://releases.aspose.com/page/java/) から。  
-- 指定フォルダーに必要なフォントが配置されていること。詳細は [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) を参照。
+- Aspose.Page for Java ライブラリがインストールされていること。[Aspose.Page for Java ダウンロードページ](https://releases.aspose.com/page/java/) からダウンロードできます。  
+- 指定フォルダーに必要なフォントがあること。詳細は [Aspose.Page for Java ドキュメント](https://reference.aspose.com/page/java/) を参照してください。  
 
-## Import Packages
-Java プロジェクトで Aspose.Page for Java に必要なパッケージをインポートします。
+## パッケージのインポート
+In your Java project, import the necessary packages for Aspose.Page for Java:
 
 ```java
 import java.awt.BasicStroke;
@@ -55,8 +56,8 @@ import com.aspose.page.ExternalFontCache;
 import com.aspose.page.font.DrFont;
 ```
 
-## Step 1: Set Up the Document
-まず、**PostScript document** を新規作成し、出力オプションを設定します。
+## ステップ 1: ドキュメントの設定
+First, we create a new **PostScript document** and configure the output options.
 
 ```java
 // The path to the documents directory.
@@ -74,8 +75,8 @@ int fontSize = 48;
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## How to Set Text Color Java Using System Font
-次に、システムフォントを使用した **set text color java** の例を示します。
+## システムフォントを使用したテキストカラー設定（Java）
+Now we demonstrate **set text color java** with a system‑provided font.
 
 ```java
 // Using system font for filling text
@@ -86,10 +87,10 @@ document.fillText(str, font, 50, 100);
 document.fillText(str, font, 50, 150, Color.BLUE);
 ```
 
-> **Tip:** `fillText` メソッドは `Color` 引数を渡さない場合、現在の色（デフォルトは黒）を自動的に使用します。
+> **Tip:** `fillText` メソッドは `Color` 引数を渡さない場合、自動的に現在のカラーを使用し、デフォルトは黒です。
 
-## Using Custom Font and Changing Text Size
-カスタムフォントを使用し、テキストサイズを変更する方法も紹介します。
+## カスタムフォントの使用とテキストサイズの変更
+You can also **change font size java** and use a custom font stored in your fonts folder.
 
 ```java
 // Using custom font for filling text
@@ -100,8 +101,8 @@ document.fillText(str, drFont, 50, 200);
 document.fillText(str, drFont, 50, 250, Color.BLUE);
 ```
 
-## Outlining (Stroke) Text – Apply Stroke Text
-テキストにアウトライン（ストローク）を付けると、はっきりとしたエッジが得られます。ここでは `BasicStroke` を使って **apply stroke text** を実装します。
+## テキストの輪郭（ストローク） – ストロークテキストの適用
+Outlining text gives it a crisp edge. Here we **apply stroke text** using a `BasicStroke`.
 
 ```java
 // Using system font for outlining text
@@ -114,8 +115,8 @@ document.outlineText(str, font, 50, 350, strokeColor, stroke);
 document.fillAndStrokeText(str, font, 50, 400, Color.YELLOW, strokeColor, stroke);
 ```
 
-## Outlining Text with Custom Font
-同様の手法はカスタムフォントでも利用可能です。
+## カスタムフォントでのテキスト輪郭
+The same technique works with custom fonts.
 
 ```java
 // Using custom font for outlining text
@@ -126,8 +127,8 @@ document.outlineText(str, drFont, 50, 500, strokeColor, stroke);
 document.fillAndStrokeText(str, drFont, 50, 550, Color.ORANGE, Color.BLUE, stroke);
 ```
 
-## Step 6: Save the Document
-最後にページを閉じ、ファイルをディスクに書き出します。
+## ステップ 6: ドキュメントの保存
+Finally, close the page and write the file to disk.
 
 ```java
 // Close current page
@@ -136,39 +137,42 @@ document.closePage();
 document.save();
 ```
 
-## Common Issues & Solutions
+## なぜ重要なのか
+**set text color java** ができ、塗りつぶしと輪郭を組み合わせることで、最終的な PostScript 出力に対して完全なアーティスティックコントロールが得られます。請求書、証明書、カスタムグラフィックの生成であっても、**create postscript document** ファイルを正確なスタイリングで作成できるため、グラフィックエディタでの後処理が不要になります。
+
+## 一般的な問題と解決策
 | Issue | Solution |
 |-------|----------|
-| **Font not found** | Ensure the font file is placed in `necessary_fonts` and the folder path is correctly added via `options.setAdditionalFontsFolders`. |
-| **Color not applied** | Verify you are calling the overload of `fillText` or `outlineText` that includes a `Color` argument. |
-| **Stroke appears too thin** | Increase the `BasicStroke` width (e.g., `new BasicStroke(3)`). |
-| **Document not opening** | Confirm the generated `.ps` file is saved with the correct extension and that your viewer supports PostScript. |
+| **Font not found** | フォントファイルが `necessary_fonts` に配置され、`options.setAdditionalFontsFolders` でフォルダー パスが正しく追加されていることを確認してください。 |
+| **Color not applied** | `Color` 引数を含む `fillText` または `outlineText` のオーバーロードを呼び出しているか確認してください。 |
+| **Stroke appears too thin** | `BasicStroke` の幅を増やします（例: `new BasicStroke(3)`）。 |
+| **Document not opening** | 生成された `.ps` ファイルが正しい拡張子で保存され、ビューアが PostScript をサポートしていることを確認してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
-**Q:** Can I use my own custom fonts with Aspose.Page for Java?  
-**A:** Yes, you can use custom fonts by specifying the font name and size in the `DrFont` class.
+**Q:** Aspose.Page for Java で自分のカスタムフォントを使用できますか？  
+**A:** はい、`DrFont` クラスでフォント名とサイズを指定することで **use custom fonts java** が可能です。
 
-**Q:** How can I change the color of the text?  
-**A:** You can set the desired color using the `Color` class when filling or outlining the text.
+**Q:** テキストの色はどう変更できますか？  
+**A:** 塗りつぶしまたは輪郭を付ける際に `Color` クラスを使用して目的の色を設定できます。
 
-**Q:** Is it possible to add multiple pages to a PostScript document?  
-**A:** Absolutely! You can create multiple pages by repeating the document creation and saving steps.
+**Q:** PostScript ドキュメントに複数ページを追加できますか？  
+**A:** もちろんです！ドキュメント作成と保存の手順を繰り返すことで複数ページを作成できます。
 
-**Q:** What is the purpose of the `ExternalFontCache` class?  
-**A:** `ExternalFontCache` is used to fetch custom fonts, ensuring they are available for text manipulation.
+**Q:** `ExternalFontCache` クラスの目的は何ですか？  
+**A:** `ExternalFontCache` はカスタムフォントを取得するために使用され、テキスト操作に利用できるようにします。
 
-**Q:** Can I apply different strokes to the outlined text?  
-**A:** Yes, you can customize the width and color of the stroke using the `Stroke` class and `Color` class, respectively.
+**Q:** 輪郭テキストに異なるストロークを適用できますか？  
+**A:** はい、`Stroke` クラスと `Color` クラスを使用して、ストロークの幅と色をそれぞれカスタマイズできます。
 
-## Conclusion
-おめでとうございます！これで **set text color java** の方法、フォントサイズの変更、**apply stroke text** の適用、そして Aspose.Page for Java を使った **create postscript document** の作成方法が習得できました。さまざまなフォント、色、アウトラインスタイルを試して、プロフェッショナルな PostScript 出力を実現してください。
+## 結論
+おめでとうございます！これで Aspose.Page for Java を使用して **set text color java**、**change font size java**、**apply fill and stroke text**、そして **create postscript document** ファイルの作成方法が分かりました。さまざまなフォント、カラー、輪郭スタイルを試して、プロフェッショナルな PostScript 出力を作成してください。
 
 ---
 
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.Page for Java 23.12 (latest)  
-**Author:** Aspose  
+**最終更新日:** 2026-02-20  
+**テスト環境:** Aspose.Page for Java 23.12（最新）  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
