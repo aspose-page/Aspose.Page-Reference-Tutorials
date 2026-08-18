@@ -1,5 +1,5 @@
 ---
-date: 2025-12-11
+date: 2026-02-18
 description: Apprenez à définir une taille de page personnalisée et à ajouter des
   pages aux documents PostScript Java en utilisant Aspose.Page. Suivez notre guide
   étape par étape pour une manipulation fluide des documents.
@@ -15,23 +15,24 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tutoriel Aspose.Page Java – définir une taille de page personnalisée lors de l’ajout de pages en PostScript
+# Aspose.Page Java Tutorial – définir une taille de page personnalisée lors de l'ajout de pages en PostScript
 
 ## Introduction
-Dans les applications Java modernes, **définir une taille de page personnalisée** pour la sortie PostScript est souvent nécessaire—que vous génériez des factures, des tickets ou des graphiques personnalisés. Aspose.Page pour Java rend cette tâche simple. Dans ce tutoriel, vous apprendrez comment ajouter des pages et définir des tailles de page personnalisées dans un document PostScript, étape par étape, afin de produire à chaque fois la mise en page exactement souhaitée.
+Dans les applications Java modernes, **définir une taille de page personnalisée** pour la sortie PostScript est souvent nécessaire—que vous génériez des factures, des tickets ou des graphiques personnalisés. Dans ce tutoriel, vous apprendrez comment **définir une taille de page personnalisée** pour chaque page, ajouter plusieurs pages, et enfin **générer un fichier PostScript** qui correspond exactement à vos besoins de mise en page. Nous parcourrons le code étape par étape afin que vous puissiez appliquer rapidement la technique dans vos propres projets.
 
 ## Quick Answers
 - **Puis‑je définir des tailles de page différentes pour chaque page ?** Oui, vous pouvez ouvrir des pages avec des dimensions personnalisées en utilisant `document.openPage(width, height)`.  
 - **Ai‑je besoin d’une licence pour une utilisation en production ?** Une licence Aspose.Page valide est requise pour les déploiements non‑évaluatifs.  
-- **Quelles versions de Java sont prises en charge ?** La bibliothèque fonctionne avec Java 8 et les versions ultérieures.  
-- **L’API est‑elle thread‑safe ?** Les instances de document ne sont pas thread‑safe ; créez un `PsDocument` distinct par thread.  
-- **Quelle taille maximale peut atteindre un fichier PostScript ?** Aspose.Page gère efficacement les fichiers de plusieurs mégaoctets ; l’utilisation de la mémoire dépend du contenu, pas du nombre de pages.
+- **Quelles versions de Java sont prises en charge ?** La bibliothèque fonctionne avec Java 8 et versions ultérieures.  
+- **L’API est‑elle thread‑safe ?** Les instances de Document ne sont pas thread‑safe ; créez un `PsDocument` distinct par thread.  
+- **Quelle taille maximale peut avoir un fichier PostScript ?** Aspose.Page gère efficacement les fichiers de plusieurs mégaoctets ; l’utilisation de la mémoire augmente en fonction du contenu, pas du nombre de pages.  
+- **Puis‑je utiliser la surcharge openPage width/height ?** Absolument—`openPage(double width, double height)` vous permet de spécifier n’importe quelles dimensions en points.  
 
-## Prérequis
+## Prerequisites
 Avant de commencer, assurez‑vous d’avoir :
 
 - Une compréhension de base de la programmation Java.  
-- Aspose.Page pour Java ajouté à votre projet (Maven/Gradle ou JAR manuel).  
+- Aspose.Page for Java ajouté à votre projet (Maven/Gradle ou JAR manuel).  
 - Un environnement de développement Java (IDE, JDK 8+).  
 
 ## Import Packages
@@ -60,7 +61,7 @@ PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
 
 ## Step 2: Add Content to the First Page
-Une fois le document prêt, vous pouvez ajouter tout le contenu souhaité à la première page. Lorsque vous avez terminé, fermez la page pour verrouiller son contenu.
+Une fois le document prêt, vous pouvez ajouter le contenu souhaité à la première page. Lorsque vous avez terminé, fermez la page pour verrouiller son contenu.
 
 ```java
 // Add content to the first page
@@ -69,10 +70,10 @@ document.closePage();
 ```
 
 ## How to set custom page size
-Si la taille de page par défaut ne correspond pas à vos besoins, vous pouvez **définir une taille de page personnalisée** lors de l’ouverture d’une nouvelle page. Cela est utile pour les reçus, les étiquettes ou toute mise en page non standard.
+Si la taille de page par défaut ne convient pas, vous pouvez **définir une taille de page personnalisée** lors de l’ouverture d’une nouvelle page. Ceci est utile pour les reçus, les étiquettes ou toute mise en page non standard.
 
 ## Step 3: Add a Second Page with Different Size
-Ci‑dessous, nous ouvrons une seconde page en fournissant explicitement une largeur et une hauteur personnalisées (en points). Cela montre comment définir une taille de page personnalisée pour des pages individuelles.
+Ci‑dessous, nous ouvrons une seconde page et fournissons explicitement une largeur et une hauteur personnalisées (en points). Cela montre comment définir une taille de page personnalisée pour des pages individuelles, vous donnant la possibilité de travailler avec **différentes tailles de page** dans le même document.
 
 ```java
 // Add the second page with a different size
@@ -90,37 +91,51 @@ Enfin, persistez les modifications en enregistrant le document. Toutes les pages
 document.save();
 ```
 
-En suivant ces étapes, vous pouvez ajouter des pages de façon transparente et **définir des tailles de page personnalisées** dans un document PostScript Java en utilisant Aspose.Page, vous offrant un contrôle complet sur la mise en page de chaque page.
+En suivant ces étapes, vous pouvez ajouter des pages et **définir une taille de page personnalisée** dans un document PostScript Java en utilisant Aspose.Page, vous offrant un contrôle total sur la mise en page de chaque page.
 
-## Conclusion
-Aspose.Page pour Java fournit une API robuste et conviviale pour la gestion des documents PostScript. Vous savez maintenant comment ajouter plusieurs pages, appliquer des dimensions personnalisées et enregistrer le résultat—vous permettant de générer une sortie parfaitement formatée pour toute solution basée sur Java.
+## Why use Aspose.Page to set custom page size?
+- **Précision :** Les dimensions sont définies en points, ce qui vous donne un contrôle exact sur la largeur et la hauteur de la page.  
+- **Flexibilité :** Mélangez et associez **différentes tailles de page** dans un seul fichier PostScript.  
+- **Performance :** La bibliothèque diffuse le contenu directement vers le fichier de sortie, ce qui la rend adaptée aux scénarios de **génération de fichiers PostScript** à grande échelle.  
+- **API riche :** Prend en charge le dessin de graphiques, l’insertion d’images et l’ajout de texte—tout en respectant les dimensions personnalisées que vous avez définies.
+
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| **Les dimensions de la page semblent inversées** | Rappelez‑vous que `openPage(width, height)` attend d’abord la largeur, puis la hauteur (les deux en points). |
+| **Le contenu déborde de la page** | Utilisez le système de coordonnées `PsGraphics` pour positionner les éléments à l’intérieur des limites personnalisées, ou redimensionnez votre dessin. |
+| **Erreurs de mémoire insuffisante sur de très gros documents** | Activez le streaming en écrivant directement dans un `FileOutputStream` comme indiqué, et évitez de charger de grandes images en mémoire d’un seul coup. |
 
 ## Frequently Asked Questions
-### Puis‑je ajouter des pages de tailles différentes dans un même document PostScript ?
-Oui, comme démontré dans ce tutoriel, vous pouvez ajouter des pages de tailles variées dans un document PostScript multipage.  
+### Puis‑je ajouter des pages de tailles différentes dans un seul document PostScript ?
+Oui, comme démontré dans ce tutoriel, vous pouvez ajouter des pages avec des tailles variables dans un document PostScript multipage.  
+
 ### Existe‑t‑il des limitations quant au nombre de pages que je peux ajouter ?
 Aspose.Page prend en charge l’ajout d’un nombre pratiquement illimité de pages à un document.  
+
 ### Puis‑je ajouter du contenu personnalisé, tel que des images ou des graphiques, aux pages ?
 Absolument ! Aspose.Page vous permet d’ajouter une large gamme de contenus, y compris du texte, des images et d’autres éléments graphiques.  
+
 ### Aspose.Page est‑il adapté à la gestion de documents volumineux ?
 Oui, Aspose.Page est conçu pour gérer efficacement aussi bien les petits que les grands documents.  
+
 ### Où puis‑je trouver des ressources supplémentaires et de l’assistance pour Aspose.Page ?
-Consultez la [documentation Aspose.Page](https://reference.aspose.com/page/java/), ou visitez le [forum Aspose.Page](https://forum.aspose.com/c/page/39) pour le support communautaire.  
+Explorez la [documentation Aspose.Page](https://reference.aspose.com/page/java/), ou visitez le [forum Aspose.Page](https://forum.aspose.com/c/page/39) pour le support communautaire.  
 
 **Additional Q&A**
 
 **Q:** *Quels formats d’image sont pris en charge lors du dessin sur une page PostScript ?*  
-**R:** Vous pouvez intégrer directement des images PNG, JPEG, BMP et GIF en utilisant l’API de dessin.  
+**A:** Vous pouvez intégrer directement des images PNG, JPEG, BMP et GIF en utilisant l’API de dessin.  
 
 **Q:** *Comment modifier le DPI par défaut du document ?*  
-**R:** Définissez `PsSaveOptions.setResolution(int dpi)` avant de créer le `PsDocument`.  
+**A:** Appelez `PsSaveOptions.setResolution(int dpi)` avant de créer le `PsDocument`.  
 
 **Q:** *Puis‑je chiffrer un fichier PostScript avec un mot de passe ?*  
-**R:** Le format PostScript ne supporte pas le chiffrement, mais vous pouvez encapsuler la sortie dans un PDF et appliquer des paramètres de sécurité si nécessaire.
+**A:** Le format PostScript ne supporte pas le chiffrement, mais vous pouvez encapsuler la sortie dans un PDF et appliquer des paramètres de sécurité si nécessaire.
 
 ---
 
-**Last Updated:** 2025-12-11  
+**Last Updated:** 2026-02-18  
 **Tested With:** Aspose.Page for Java 24.10  
 **Author:** Aspose  
 

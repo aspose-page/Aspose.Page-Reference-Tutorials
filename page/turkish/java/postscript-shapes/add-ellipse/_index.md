@@ -1,11 +1,11 @@
 ---
-date: 2025-12-11
-description: Aspose.Page kullanarak Java'da PostScript elipsi nasıl oluşturacağınızı
-  öğrenin. Bu adım adım kılavuz, elipsi renkle doldurmayı ve Java kullanarak elips
-  çizmeyi gösterir.
+date: 2026-02-18
+description: Java'da Aspose.Page kullanarak boya rengini ayarlamayı ve bir PostScript
+  elipsi oluşturmayı öğrenin. Bu kılavuz, elipsi Java'da doldurmayı, elipsin konturunu
+  çizmeyi ve çizgi kalınlığını ayarlamayı gösterir.
 linktitle: Add Ellipse in Java PostScript
 second_title: Aspose.Page Java API
-title: Aspose.Page ile Java’da PostScript elipsi nasıl oluşturulur
+title: Java'da PostScript elipsi çizmek için boya rengini ayarla
 url: /tr/java/postscript-shapes/add-ellipse/
 weight: 10
 ---
@@ -14,22 +14,22 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java ile Aspose.Page kullanarak PostScript elipsi oluşturma
+# Java'da PostScript elipsi çizmek için boya rengini ayarlama
 
 ## Giriş
-Programlı olarak **PostScript elipsi** oluşturmak, raporlar, faturalar veya herhangi bir yazdırılabilir belgede vektör grafikler üzerinde ince ayarlı kontrol sağlar. Bu öğreticide, Aspose.Page for Java kütüphanesini kullanarak **PostScript elipsi** şekilleri oluşturmayı, bir elipsi renkle doldurmayı ve elipsin konturunu çizmeyi öğreneceksiniz. Sonunda, özel grafikleri doğrudan PostScript çıktınıza yerleştirmeye hazır olacaksınız.
+Vektör grafikleri çizerken **boya rengini ayarlamanız** gerekiyorsa, Aspose.Page for Java kütüphanesi her bir çizgi ve dolgu üzerinde tam kontrol sağlar. Bu öğreticide **boya rengini ayarlamayı**, **Java'da elips doldurmayı** ve **elips konturunu çizmeyi** basit, adım adım bir yaklaşımla öğreneceksiniz. Sonunda, faturalar, raporlar veya herhangi bir yazdırılabilir belgeye yüksek kaliteli PostScript elipsleri ekleyebileceksiniz.
 
 ## Hızlı Yanıtlar
 - **Java'da PostScript grafikleri çizmek için en iyi kütüphane hangisidir?** Aspose.Page for Java.  
-- **Bir elipsi katı bir renkle doldurabilir miyim?** Evet – `fill`'den önce `document.setPaint(Color.YOUR_COLOR)` kullanın.  
+- **Bir elipsi katı bir renk ile doldurabilir miyim?** Evet – `fill`'den önce `document.setPaint(Color.YOUR_COLOR)` kullanın.  
 - **Sadece bir elipsin konturunu nasıl çizerim?** Boya ve çizgi kalınlığını ayarlayın, ardından `document.draw(...)` çağırın.  
 - **Üretim kullanımında lisansa ihtiyacım var mı?** Ticari bir lisans gereklidir; test için geçici bir lisans mevcuttur.  
 - **Hangi Java sürümü destekleniyor?** Mevcut Aspose.Page sürümüyle Java 8+ çalışma zamanı herhangi bir sürüm çalışır.
 
 ## PostScript elipsi nedir?
-PostScript elipsi, sınırlayıcı bir dikdörtgenle tanımlanan bir vektör şeklidir. Raster görüntülerden farklı olarak, kalite kaybı olmadan ölçeklenir ve yüksek çözünürlüklü baskı ve PDF dönüşümü için idealdir.
+PostScript elipsi, sınırlayıcı bir dikdörtgenle tanımlanan bir vektör şekildir. Raster görüntülerden farklı olarak kalite kaybı olmadan ölçeklenir, bu da yüksek çözünürlüklü baskı ve PDF dönüşümü için idealdir.
 
-## PostScript elipsi oluşturmak için neden Aspose.Page kullanmalı?
+## PostScript elipsi oluşturmak için Aspose.Page'i neden kullanmalısınız?
 - **Tam kontrol** çizim temel öğeleri (çizgiler, eğriler, elipsler) üzerinde.  
 - **Çapraz platform** – Windows, Linux ve macOS'ta çalışır.  
 - **Harici bağımlılık yok** – saf Java API, yerel kod yok.  
@@ -38,11 +38,11 @@ PostScript elipsi, sınırlayıcı bir dikdörtgenle tanımlanan bir vektör şe
 ## Önkoşullar
 Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
-1. Fonksiyonel bir Java geliştirme ortamı (JDK 8 veya daha yenisi).  
-2. Projenize eklenmiş Aspose.Page for Java kütüphanesi. **[buradan](https://releases.aspose.com/page/java/)** indirebilirsiniz.
+1. Fonksiyonel bir Java geliştirme ortamı (JDK 8 veya üzeri).  
+2. Projenize eklenmiş Aspose.Page for Java kütüphanesi. **[buradan](https://releases.aspose.com/page/java/)** indirebilirsiniz.  
 
 ## Paketleri İçe Aktarma
-Java kaynak dosyanızda, PostScript içeriğini çizmek ve kaydetmek için gereken sınıfları içe aktarın.
+Java kaynak dosyanızda, PostScript içeriğini çizmek ve kaydetmek için gerekli sınıfları içe aktarın.
 
 ```java
 import java.awt.BasicStroke;
@@ -53,7 +53,8 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Adım adım kılavuz
+## Bir elips için boya rengini nasıl ayarlarsınız
+Boya rengini ayarlamak, herhangi bir dolgu veya çizgi işlemi öncesinde ilk adımdır. `setPaint` metodu, bir sonraki çizim komutunda kullanılacak rengi belirler.
 
 ### Adım 1: PostScript belgesini ayarlama
 Bir çıktı akışı oluşturun, sayfa boyutunu yapılandırın ve bir `PsDocument` örneği oluşturun.
@@ -69,8 +70,8 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-### Adım 2: Elipsi renkle doldurma
-Boyayı istediğiniz doldurma rengine ayarlayın ve bir `Ellipse2D` örneğiyle `fill` çağırın.
+### Adım 2: Elipsi doldurmak – boya rengini kullanma
+**Elipsi doldurmak** için, önce istediğiniz dolgu rengiyle `setPaint` çağırmalı, ardından bir `Ellipse2D` örneğiyle `fill` metodunu kullanmalısınız.
 
 ```java
 // Set paint for filling ellipse
@@ -79,8 +80,8 @@ document.setPaint(Color.ORANGE);
 document.fill(new Ellipse2D.Float(250, 100, 150, 100));
 ```
 
-### Adım 3: Elipsin konturunu çizecek çizgi kalınlığı ayarlama
-Boyayı kontur rengine değiştirin, çizgi kalınlığı için bir `BasicStroke` tanımlayın ve elipsin konturunu çizin.
+### Adım 3: Elips konturunu çiz ve çizgi kalınlığını ayarla
+Doldurduktan sonra, boya rengini farklı bir renge değiştirebilir, çizgi kalınlığını kontrol etmek için bir `BasicStroke` tanımlayabilir ve elips konturunu çizebilirsiniz.
 
 ```java
 // Set paint for stroking ellipse
@@ -91,7 +92,7 @@ document.setStroke(new BasicStroke(3));
 document.draw(new Ellipse2D.Float(250, 300, 150, 100));
 ```
 
-### Adım 4: Belgeyi kapatıp kaydetme
+### Adım 4: Belgeyi kapat ve kaydet
 Sayfayı sonlandırın ve PostScript dosyasını diske yazın.
 
 ```java
@@ -101,38 +102,38 @@ document.closePage();
 document.save();
 ```
 
-Artık içinde iki elips bulunan bir PostScript dosyanız var—biri turuncu renkle doldurulmuş, diğeri kırmızı renkle konturlanmış. Tasarım ihtiyaçlarınıza uygun farklı koordinatlar, boyutlar ve renklerle denemeler yapmaktan çekinmeyin.
+Artık içinde iki elips bulunan bir PostScript dosyanız var—biri turuncu ile doldurulmuş, diğeri kırmızı konturlu. Tasarım ihtiyaçlarınıza uygun farklı koordinatlar, boyutlar ve renklerle denemeler yapmaktan çekinmeyin.
 
 ## Yaygın tuzaklar ve sorun giderme
 - **Yanlış dosya yolu** – `dataDir`'in işletim sisteminize uygun bir ayırıcı (`/` veya `\\`) ile bittiğinden emin olun.  
 - **Lisans eksik** – Geçerli bir lisans olmadan, kütüphane değerlendirme modunda çalışır ve filigran ekleyebilir.  
-- **Renk uygulanmadı** – Her `fill` veya `draw` çağrısından *önce* `document.setPaint(...)` ayarlamayı unutmayın; boya ayarı ayrı işlemler arasında otomatik olarak kalıcı değildir.
+- **Renk uygulanmadı** – Her `fill` veya `draw` çağrısından *önce* `document.setPaint(...)` ayarlamayı unutmayın; boya ayarı ayrı işlemler arasında otomatik olarak kalıcı olmaz.
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-**S: Aspose.Page for Java'yı diğer Java kütüphaneleriyle birlikte kullanabilir miyim?**  
-C: Evet, Aspose.Page for Java diğer Java kütüphaneleriyle sorunsuz entegrasyon için tasarlanmıştır.
+**Q: Aspose.Page for Java'i diğer Java kütüphaneleriyle kullanabilir miyim?**  
+A: Evet, Aspose.Page for Java diğer Java kütüphaneleriyle sorunsuz entegrasyon için tasarlanmıştır.
 
-**S: Aspose.Page for Java için geçici bir lisans nasıl alabilirim?**  
-C: Test amaçları için **[buradan](https://purchase.aspose.com/temporary-license/)** geçici bir lisans edinin.
+**Q: Aspose.Page for Java için geçici bir lisans nasıl alabilirim?**  
+A: Test amaçlı geçici bir lisansı **[buradan](https://purchase.aspose.com/temporary-license/)** edinebilirsiniz.
 
-**S: Aspose.Page ticari projeler için uygun mu?**  
-C: Kesinlikle! Ticari kullanım için lisans seçeneklerini keşfetmek üzere **[buradan](https://purchase.aspose.com/buy)** ziyaret edin.
+**Q: Aspose.Page ticari projeler için uygun mu?**  
+A: Kesinlikle! Ticari kullanım için lisans seçeneklerini keşfetmek üzere **[burayı](https://purchase.aspose.com/buy)** ziyaret edin.
 
-**S: Aspose.Page ile ilgili sorular için nereden yardım alabilir veya tartışma yapabilirim?**  
-C: Tartışmalar ve destek için **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)** topluluğuna katılın.
+**Q: Aspose.Page ile ilgili sorular için nereden yardım alabilir veya tartışma yapabilirim?**  
+A: Tartışmalar ve destek için **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)** topluluğuna katılın.
 
-**S: Aspose.Page for Java hakkında daha fazla öğrenmek için ücretsiz kaynaklar var mı?**  
-C: **[Ücretsiz deneme](https://releases.aspose.com/)**'yi kullanın ve belgelerdeki örnekleri keşfedin.
+**Q: Aspose.Page for Java hakkında daha fazla öğrenmek için ücretsiz kaynaklar var mı?**  
+A: **[Ücretsiz deneme](https://releases.aspose.com/)**'yi kullanın ve belgelerdeki örnekleri inceleyin.
 
 ## Sonuç
-Aspose.Page for Java, basit bir doldurulmuş şekil ya da karmaşık bir konturlu şekil ihtiyacınız olsun, **PostScript elipsi** grafiklerini oluşturmayı kolaylaştırır. Yukarıdaki adımlarla herhangi bir yazdırılabilir belgeye profesyonel düzeyde vektör grafikleri hızlıca ekleyebilirsiniz. Daha derin keşifler için—birden fazla şekli birleştirme, degrade uygulama veya PDF'ye dönüştürme gibi—resmi **[belgelere](https://reference.aspose.com/page/java/)** bakın.
+Aspose.Page for Java, **boya rengini ayarlamayı**, **elips doldurmayı** ve **elips konturunu çizmeyi**—basit bir doldurulmuş şekle ya da karmaşık bir çizgi grafiğine ihtiyaç duyduğunuzda—kolaylaştırır. Yukarıdaki adımlarla herhangi bir yazdırılabilir belgeye profesyonel düzeyde vektör grafikleri hızlıca ekleyebilirsiniz. Daha derin keşifler için—birden fazla şekli birleştirme, degrade uygulama veya PDF'ye dönüştürme gibi—resmi **[belgelere](https://reference.aspose.com/page/java/)** bakın.
 
 ---
 
-**Son Güncelleme:** 2025-12-11  
-**Test Edilen Versiyon:** Aspose.Page for Java 24.11  
-**Yazar:** Aspose
+**Last Updated:** 2026-02-18  
+**Tested With:** Aspose.Page for Java 24.11  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,40 +1,63 @@
 ---
-date: 2025-12-11
-description: Tanulja meg, hogyan adhat hozzá oldalakat PostScript Java-val az Aspose.Page
-  segítségével, hogyan állíthatja be az oldalméretet Java-ban, és hogyan hozhat létre
-  egyedi oldalméretű PostScript-et Java-alkalmazásokban.
+date: 2026-02-18
+description: Tanulja meg, hogyan adhat hozzá PostScript oldalakat Java-ban, állíthat
+  be egyéni oldalméreteket, beállíthatja az oldal méretét Java-ban, és hozhat létre
+  egyéni PostScript oldalméretet az Aspose.Page használatával.
 linktitle: Java PostScript Pages
 second_title: Aspose.Page Java API
-title: Add Pages PostScript Java – Zökkenőmentes útmutató az Aspose.Page-hez
+title: Hogyan adhatunk hozzá PostScript oldalakat Java-ban – Zökkenőmentes útmutató
+  az Aspose.Page segítségével
 url: /hu/java/postscript-page-manipulation/add-pages1/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+om az oldalméretet az `openPage(null)` hívásban?**"
+
+Answer translate.
+
+Next "## Conclusion" => "## Következtetés"
+
+Paragraph translate.
+
+Then horizontal line "---" keep.
+
+Then "**Last Updated:** 2026-02-18" keep same.
+
+"**Tested With:** Aspose.Page 24.11 for Java" keep.
+
+"**Author:** Aspose" keep.
+
+Then closing shortcodes.
+
+Finally backtop button shortcode unchanged.
+
+Make sure to keep all shortcodes exactly.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Oldalak hozzáadása PostScript Java – Zökkenőmentes útmutató az Aspose.Page használatával
+# Hogyan adjunk hozzá PostScript oldalakat Java-ban – Zökkenőmentes útmutató az Aspose.Page segítségével
 
-## Introduction
-Üdvözöljük átfogó útmutatónkban a **add pages postscript java** használatával az Aspose.Page segítségével. Ebben az oktatóanyagról végigvezetjük a PostScript dokumentumba oldalak hozzáadásának, az oldalméretek beállításának és akár egyedi oldalméretek létrehozásának teljes folyamatán – mindezt az erőteljes Aspose.Page for Java könyvtárral. Akár jelentéseket, számlákat vagy bármilyen nyomtatható kimenetet készít, ezen lépések elsajátítása teljes irányítást ad a PostScript generálás felett.
+## Bevezetés
+Üdvözöljük átfogó útmutatónkban, amely bemutatja, **hogyan adjunk hozzá postscript** oldalakat Java-ban az Aspose.Page használatával. Ebben a tutorialban lépésről‑lépésre megtanulja, hogyan adjon hozzá oldalakat, hogyan állítsa be a **set page size java**‑t, és akár egyedi postscript oldalméretet is definiálhat minden egyes oldalhoz. Legyen szó számlák, jegyek vagy összetett többoldalas jelentések generálásáról, e technikák elsajátítása teljes irányítást ad a nyomtatható kimenet felett.
 
-## Quick Answers
-- **Melyik könyvtár teszi lehetővé az oldalak hozzáadását postscript java?** Aspose.Page for Java  
+## Gyors válaszok
+- **Melyik könyvtár teszi lehetővé a postscript oldalak hozzáadását Java-ban?** Aspose.Page for Java  
 - **Szükségem van licencre a fejlesztéshez?** Egy ingyenes ideiglenes licenc elérhető; a termeléshez fizetett licenc szükséges.  
-- **Beállíthatok egyedi oldalméreteket?** Igen – használja a `set page size java` parancsot vagy adja meg közvetlenül a méreteket.  
+- **Beállíthatok egyedi oldalméreteket?** Igen – használja a `set page size java`‑t vagy adja meg közvetlenül a méreteket.  
 - **Melyik IDE a legjobb?** Bármely Java IDE, például IntelliJ IDEA vagy Eclipse.  
-- **Hány oldalt hozhatok létre?** Nincs szigorú korlát; annyi oldalt hozzáadhat, amennyi a memória engedi.
+- **Hány oldalt hozhatok létre?** Nincs szigorú korlát; annyi oldalt hozzáadhat, amennyit a memória enged.
 
-## Prerequisites
-Mielőtt elkezdenénk, győződjön meg róla, hogy a következő előfeltételek rendelkezésre állnak:
+## Előfeltételek
+Mielőtt elkezdenénk, győződjön meg róla, hogy a következő előfeltételek teljesülnek:
 
 - Alapvető Java programozási ismeretek.  
-- Aspose.Page for Java könyvtár telepítve van. Letöltheti [itt](https://releases.aspose.com/page/java/).  
-- Integrált fejlesztői környezet (IDE) Java-hoz, például IntelliJ IDEA vagy Eclipse.  
+- Az Aspose.Page for Java könyvtár telepítve van. Letöltheti [itt](https://releases.aspose.com/page/java/).  
+- Integrált fejlesztőkörnyezet (IDE) Java-hoz, például IntelliJ IDEA vagy Eclipse.  
 
-## Import Packages
-Győződjön meg arról, hogy importálja a szükséges csomagokat a Java projektjébe. Az alábbi példa bemutatja, hogyan importálja a szükséges csomagokat:
+## Csomagok importálása
+Győződjön meg arról, hogy a szükséges csomagokat importálja a Java projektjébe. Az alábbiakban egy példa látható a szükséges csomagok importálására:
 
 ```java
 import java.io.FileOutputStream;
@@ -42,10 +65,10 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## How to add pages postscript java
-Az alábbi lépésről‑lépésre útmutató bemutatja, hogyan **add pages postscript java** és hogyan szabályozza az oldalméreteket.
+## Hogyan adjunk hozzá postscript oldalakat Java-ban
+Az alábbi lépésről‑lépésre bemutató útmutató demonstrálja, hogyan **oldalak hozzáadása postscript java** és hogyan szabályozhatja az oldal méreteket.
 
-### Step 1: Create a New 2‑Paged PS Document
+### 1. lépés: Új 2‑oldalas PS dokumentum létrehozása
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -57,7 +80,7 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, 2);
 ```
 
-### Step 2: Add the First Page with the Document's Page Size
+### 2. lépés: Az első oldal hozzáadása a dokumentum oldalméretével
 ```java
 // Add the first page with the document's page size
 document.openPage(null);
@@ -66,7 +89,7 @@ document.openPage(null);
 document.closePage();
 ```
 
-### Step 3: Add the Second Page with a Different Size
+### 3. lépés: A második oldal hozzáadása eltérő mérettel
 ```java
 // Add the second page with a different size
 document.openPage(400, 700);
@@ -75,55 +98,61 @@ document.openPage(400, 700);
 document.closePage();
 ```
 
-### Step 4: Save the Document
+### 4. lépés: Dokumentum mentése
 ```java
 // Save the document
 document.save();
 ```
 
-Ezeknek a lépéseknek a követésével egyszerűen **add pages postscript java**, valamint **set page size java** minden oldalra a szükség szerint.
+Ezeknek a lépéseknek a követésével egyszerűen **oldalak hozzáadása postscript java** és a **set page size java** is beállítható minden oldalra a szükség szerint.
 
-## How to set page size java
-Ha egy konkrét papírméretre van szüksége – például egy egyedi borítékra vagy címkére – meghívhatja az `openPage(width, height)` metódust a kívánt méretekkel (pontokban). Ez a **custom page size postscript** kezelés lényege Java-ban.
+## Hogyan állítsuk be az oldalméretet java-ban
+Ha egy konkrét papírméretre van szüksége – például egy egyedi borítékra vagy címkére – meghívhatja az `openPage(width, height)` metódust a kívánt méretekkel (pontokban). Ez a **custom postscript page size** kezelésének lényege Java-ban.
 
-## Common Use Cases
-- **Dinamikus jelentésgenerálás**, ahol minden szakasz egy új oldalon kezdődik egyedi mérettel.  
+## Hogyan állítsunk be egyedi oldalméreteket
+Az `openPage(width, height)` metódus lehetővé teszi bármilyen téglalap definiálását, hatékonyan **set custom page dimensions**. Például az `openPage(300, 500)` 300 × 500 pont (≈4,17 × 6,94 hüvelyk) méretű oldalt hoz létre. Ezt akkor használja, ha nem szabványos méretekre, például nyugta papírra vagy névkártyákra van szükség.
+
+## Oldalorientáció módosítása java-ban
+Az orientáció megváltoztatásához egyszerűen cserélje fel a szélesség és magasság értékeket. Egy fekvő (landscape) oldal létrehozható az `openPage(842, 595)` (A4 fekvő) használatával, míg a portré (portrait) marad `openPage(595, 842)`. Ez a technika teljes irányítást ad a **change page orientation java** felett extra konfiguráció nélkül.
+
+## Gyakori felhasználási esetek
+- **Dinamikus jelentéskészítés**, ahol minden szakasz új oldalon kezdődik egyedi mérettel.  
 - **Címkék vagy jegyek nyomtatása**, amelyek nem szabványos méreteket igényelnek.  
 - **Kötegelt feldolgozás** nagy dokumentumok esetén, ahol az oldalméret oldalanként változik.
 
-## Frequently Asked Questions
+## Gyakran Ismételt Kérdések
 ### Az Aspose.Page kompatibilis különböző operációs rendszerekkel?
-Igen, az Aspose.Page kompatibilis számos operációs rendszerrel, beleértve a Windows, Linux és macOS rendszereket.
+Igen, az Aspose.Page kompatibilis különböző operációs rendszerekkel, beleértve a Windows, Linux és macOS rendszereket.
 
-### Használhatom az Aspose.Page‑t személyes és kereskedelmi projektekhez egyaránt?
-Igen, az Aspose.Page rugalmas licencelési lehetőségeket kínál, amelyek alkalmasak mind személyes, mind kereskedelmi felhasználásra.
+### Használhatom az Aspose.Page-t személyes és kereskedelmi projektekhez egyaránt?
+Igen, az Aspose.Page rugalmas licencelési lehetőségekkel rendelkezik, amelyek alkalmasak mind személyes, mind kereskedelmi felhasználásra.
 
-### Hol találok további dokumentációt az Aspose.Page‑hez?
+### Hol találok további dokumentációt az Aspose.Page-hez?
 A dokumentációt megtalálja [itt](https://reference.aspose.com/page/java/).
 
-### Van korlátozás az oldalak számában, amelyet az Aspose.Page‑vel hozzáadhatok?
-Az Aspose.Page nem szab szigorú korlátot az oldalak számában, így különféle méretű projektekhez is alkalmas.
+### Van valamilyen korlátozás az Aspose.Page használatával hozzáadható oldalak számát illetően?
+Az Aspose.Page nem szab szigorú korlátot a hozzáadható oldalak számát illetően, így különböző méretű projektekhez is alkalmas.
 
-### Hogyan szerezhetek ideiglenes licencet az Aspose.Page‑hez?
-Ideiglenes licencet kaphat [itt](https://purchase.aspose.com/temporary-license/).
+### Hogyan szerezhetek ideiglenes licencet az Aspose.Page-hez?
+Ideiglenes licencet szerezhet [itt](https://purchase.aspose.com/temporary-license/).
 
 **Additional Q&A**
 
-**Q: Hogyan változtathatom meg egy oldal tájolását?**  
-A: Hívja meg az `openPage(width, height)` metódust úgy, hogy a szélesség nagyobb legyen a magasságnál a fekvő (landscape) tájoláshoz, vagy cserélje fel az értékeket álló (portrait) tájoláshoz.
+**K: Hogyan változtathatom meg egy oldal orientációját?**  
+V: Hívja meg az `openPage(width, height)`‑t úgy, hogy a szélesség nagyobb legyen a magasságnál a fekvő (landscape) módhoz, vagy cserélje fel az értékeket a portré (portrait) módhoz.
 
-**Q: Hozhatok-e grafikát vagy szöveget egy oldal megnyitása után?**  
-A: Igen – használja az Aspose.Page által biztosított rajzoló API‑kat az `openPage`/`closePage` blokkban.
+**K: Hozzáadhatok grafikát vagy szöveget egy oldal megnyitása után?**  
+V: Igen – használja az Aspose.Page által biztosított rajzoló API‑kat az `openPage`/`closePage` blokkban.
 
-**Q: Mi történik, ha kihagyom az oldalméretet az `openPage(null)` hívásnál?**  
-A: A dokumentum a `PsSaveOptions`‑ben definiált alapértelmezett méretet használja (általában A4).
+**K: Mi történik, ha kihagyom az oldalméretet az `openPage(null)` hívásban?**  
+V: A dokumentum az `PsSaveOptions`‑ban definiált alapértelmezett méretet használja (általában A4).
 
-## Conclusion
-Összefoglalva, az Aspose.Page for Java leegyszerűsíti a PostScript dokumentumokkal való munkát. Az oldalak hozzáadása, az oldalméretek beállítása és az egyedi oldalméretek létrehozása egyszerű feladatok a rendelkezésre álló API-val, így kiváló választás a hatékonyságot és rugalmasságot kereső fejlesztők számára.
+## Következtetés
+Összegzésként, az Aspose.Page for Java leegyszerűsíti a PostScript dokumentumokkal való munkát. Az oldalak hozzáadása, az oldalméretek beállítása, egyedi postscript oldalméret létrehozása és az oldalorientáció módosítása egyszerű feladatok a biztosított API‑val, így kiváló választás a fejlesztők számára, akik hatékonyságot és rugalmasságot keresnek.
 
 ---
 
-**Last Updated:** 2025-12-11  
+**Last Updated:** 2026-02-18  
 **Tested With:** Aspose.Page 24.11 for Java  
 **Author:** Aspose  
 

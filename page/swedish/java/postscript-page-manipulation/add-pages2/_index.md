@@ -1,11 +1,11 @@
 ---
-date: 2025-12-11
+date: 2026-02-18
 description: Lär dig hur du ställer in anpassad sidstorlek och lägger till sidor i
   Java PostScript‑dokument med Aspose.Page. Följ vår steg‑för‑steg‑guide för sömlös
   dokumentmanipulation.
 linktitle: Adding Pages in PostScript
 second_title: Aspose.Page Java API
-title: Aspose.Page Java-handledning – ange anpassad sidstorlek när du lägger till
+title: Aspose.Page Java‑handledning – ange anpassad sidstorlek när du lägger till
   sidor i PostScript
 url: /sv/java/postscript-page-manipulation/add-pages2/
 weight: 11
@@ -18,19 +18,18 @@ weight: 11
 # Aspose.Page Java‑handledning – ange anpassad sidstorlek när du lägger till sidor i PostScript
 
 ## Introduktion
-I moderna Java‑applikationer är **att ange en anpassad sidstorlek** för PostScript‑utdata ofta nödvändigt—oavsett om du genererar fakturor, biljetter eller anpassad grafik. Aspose.Page för Java gör denna uppgift enkel. I den här handledningen lär du dig hur du lägger till sidor och anger anpassade sidstorlekar i ett PostScript‑dokument, steg för steg, så att du kan producera exakt rätt layout varje gång.
+I moderna Java‑applikationer krävs ofta **att ange en anpassad sidstorlek** för PostScript‑utdata—oavsett om du genererar fakturor, biljetter eller anpassad grafik. I den här handledningen kommer du att lära dig hur du **anger en anpassad sidstorlek** för varje sida, lägger till flera sidor och slutligen **genererar en PostScript‑fil** som matchar dina exakta layoutbehov. Vi går igenom koden steg‑för‑steg så att du snabbt kan tillämpa tekniken i dina egna projekt.
 
 ## Snabba svar
 - **Kan jag ange olika sidstorlekar för varje sida?** Ja, du kan öppna sidor med anpassade dimensioner med `document.openPage(width, height)`.  
 - **Behöver jag en licens för produktionsanvändning?** En giltig Aspose.Page‑licens krävs för icke‑utvärderingsdistributioner.  
-- **Vilka Java‑versioner stöds?** Biblioteket fungerar med Java 8 och senare.  
-- **Är API‑et trådsäkert?** Dokumentinstanser är inte trådsäkra; skapa ett separat `PsDocument` per tråd.  
-- **Hur stor kan en PostScript‑fil vara?** Aspose.Page hanterar fler‑megabyte‑filer effektivt; minnesanvändningen skalar med innehållet, inte antalet sidor.
+- **Vilka Java‑versioner stöds?** Biblioteket fungerar med Java 8 och nyare.  
+- **Är API‑et trådsäkert?** Document‑instanser är inte trådsäkra; skapa ett separat `PsDocument` per tråd.  
+- **Hur stor kan en PostScript‑fil vara?** Aspose.Page hanterar multi‑megabyte‑filer effektivt; minnesanvändningen skalar med innehållet, inte med antalet sidor.  
+- **Kan jag använda overload‑metoden för bredd/höjd när jag öppnar en sida?** Absolut—`openPage(double width, double height)` låter dig ange valfria dimensioner i points.  
 
 ## Förutsättningar
-Innan vi dyker ner, se till att du har:
-
-- Grundläggande kunskaper i Java‑programmering.  
+- En grundläggande förståelse för Java‑programmering.  
 - Aspose.Page för Java tillagt i ditt projekt (Maven/Gradle eller manuell JAR).  
 - En Java‑utvecklingsmiljö (IDE, JDK 8+).  
 
@@ -72,7 +71,7 @@ document.closePage();
 Om standardsidstorleken inte är vad du behöver, kan du **ange en anpassad sidstorlek** när du öppnar en ny sida. Detta är användbart för kvitton, etiketter eller någon icke‑standard layout.
 
 ## Steg 3: Lägg till en andra sida med annan storlek
-Nedan öppnar vi en andra sida och anger explicit en anpassad bredd och höjd (i punkter). Detta demonstrerar hur du sätter en anpassad sidstorlek för enskilda sidor.
+Nedan öppnar vi en andra sida och anger explicit en anpassad bredd och höjd (i points). Detta demonstrerar hur man anger en anpassad sidstorlek för enskilda sidor, vilket ger dig möjlighet att arbeta med **olika sidstorlekar** i samma dokument.
 
 ```java
 // Add the second page with a different size
@@ -83,46 +82,61 @@ document.closePage();
 ```
 
 ## Steg 4: Spara dokumentet
-Till sist, skriv ändringarna till fil genom att spara dokumentet. Alla sidor—inklusive de med anpassade storlekar—skrivs till utdatafilen.
+Till sist, skriv ändringarna till filen genom att spara dokumentet. Alla sidor—inklusive de med anpassade storlekar—skrivs till utdatafilen.
 
 ```java
 // Save the document
 document.save();
 ```
 
-Genom att följa dessa steg kan du sömlöst lägga till sidor och **ange anpassade sidstorlekar** i ett Java‑PostScript‑dokument med Aspose.Page, vilket ger dig full kontroll över layouten på varje sida.
+Genom att följa dessa steg kan du sömlöst lägga till sidor och **ange en anpassad sidstorlek** i ett Java‑PostScript‑dokument med Aspose.Page, vilket ger dig full kontroll över layouten på varje sida.
 
-## Slutsats
-Aspose.Page för Java erbjuder ett robust, utvecklarvänligt API för hantering av PostScript‑dokument. Du vet nu hur du lägger till flera sidor, använder anpassade dimensioner och sparar resultatet—så att du kan generera exakt formaterad utdata för vilken Java‑baserad lösning som helst.
+## Varför använda Aspose.Page för att ange anpassad sidstorlek?
+- **Precision:** Dimensioner definieras i points, så du får exakt kontroll över sidans bredd och höjd.  
+- **Flexibilitet:** Blanda och matcha **olika sidstorlekar** i en enda PostScript‑fil.  
+- **Prestanda:** Biblioteket strömmar innehåll direkt till utdatafilen, vilket gör det lämpligt för storskaliga **generering av PostScript‑filer**.  
+- **Rich API:** Stöder ritning av grafik, inbäddning av bilder och tillägg av text—allt medan de anpassade dimensionerna du anger respekteras.
+
+## Vanliga problem och lösningar
+| Problem | Lösning |
+|-------|----------|
+| **Siddimensionerna verkar omvända** | Kom ihåg att `openPage(width, height)` förväntar sig bredd först, sedan höjd (båda i points). |
+| **Innehållet överskrider sidan** | Använd `PsGraphics`‑koordinatsystemet för att placera element inom de anpassade gränserna, eller skala din ritning. |
+| **Minnesbristfel vid enorma dokument** | Aktivera strömning genom att skriva direkt till en `FileOutputStream` som visat, och undvik att ladda stora bilder i minnet på en gång. |
 
 ## Vanliga frågor
+
 ### Kan jag lägga till sidor med olika storlekar i ett enda PostScript‑dokument?
-Ja, som demonstrerats i den här handledningen kan du lägga till sidor med varierande storlekar i ett flersidigt PostScript‑dokument.  
+Ja, som demonstrerat i den här handledningen, kan du lägga till sidor med varierande storlekar i ett flersidigt PostScript‑dokument.  
+
 ### Finns det några begränsningar för hur många sidor jag kan lägga till?
 Aspose.Page stöder att lägga till ett praktiskt taget obegränsat antal sidor i ett dokument.  
+
 ### Kan jag lägga till anpassat innehåll, såsom bilder eller grafik, på sidorna?
 Absolut! Aspose.Page låter dig lägga till ett brett spektrum av innehåll, inklusive text, bilder och andra grafiska element.  
+
 ### Är Aspose.Page lämplig för att hantera stora dokument?
 Ja, Aspose.Page är designat för att effektivt hantera både små och stora dokument med lätthet.  
+
 ### Var kan jag hitta ytterligare resurser och support för Aspose.Page?
 Utforska [Aspose.Page documentation](https://reference.aspose.com/page/java/), eller besök [Aspose.Page forum](https://forum.aspose.com/c/page/39) för community‑support.  
 
-**Additional Q&A**
+**Ytterligare frågor & svar**
 
 **Q:** *Vilka bildformat stöds när man ritar på en PostScript‑sida?*  
-**A:** Du kan bädda in PNG-, JPEG-, BMP- och GIF‑bilder direkt med rit‑API‑et.  
+**A:** Du kan bädda in PNG-, JPEG-, BMP- och GIF‑bilder direkt med rit‑API:t.  
 
 **Q:** *Hur ändrar jag standard‑DPI för dokumentet?*  
-**A:** Ange `PsSaveOptions.setResolution(int dpi)` innan du skapar `PsDocument`.  
+**A:** Ställ in `PsSaveOptions.setResolution(int dpi)` innan du skapar `PsDocument`.  
 
 **Q:** *Kan jag kryptera en PostScript‑fil med ett lösenord?*  
-**A:** PostScript i sig stödjer inte kryptering, men du kan paketera utdata i en PDF och tillämpa säkerhetsinställningar om så behövs.
+**A:** PostScript i sig stödjer inte kryptering, men du kan paketera utdata i en PDF och tillämpa säkerhetsinställningar om så behövs.  
 
 ---
 
-**Senast uppdaterad:** 2025-12-11  
-**Testat med:** Aspose.Page for Java 24.10  
-**Författare:** Aspose  
+**Last Updated:** 2026-02-18  
+**Tested With:** Aspose.Page for Java 24.10  
+**Author:** Aspose  
 
 ---
 

@@ -1,21 +1,21 @@
 ---
-title: How to create PostScript ellipse in Java with Aspose.Page
+title: Set paint color to draw PostScript ellipse in Java
 linktitle: Add Ellipse in Java PostScript
 second_title: Aspose.Page Java API
-description: Learn how to create PostScript ellipse in Java using Aspose.Page. This step‑by‑step guide shows you how to fill ellipse with color and draw ellipse using Java.
+description: Learn how to set paint color and create a PostScript ellipse in Java using Aspose.Page. This guide shows how to fill ellipse Java, draw ellipse outline, and set stroke thickness.
 weight: 10
 url: /java/postscript-shapes/add-ellipse/
-date: 2025-12-11
+date: 2026-02-18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to create PostScript ellipse in Java with Aspose.Page
+# Set paint color to draw PostScript ellipse in Java
 
 ## Introduction
-Creating a **PostScript ellipse** programmatically gives you fine‑grained control over vector graphics in reports, invoices, or any printable document. In this tutorial you’ll learn how to **create PostScript ellipse** shapes using the Aspose.Page for Java library, fill an ellipse with color, and draw an ellipse outline. By the end you’ll be ready to embed custom graphics directly into your PostScript output.
+If you need to **set paint color** while drawing vector graphics, the Aspose.Page for Java library gives you full control over every stroke and fill. In this tutorial you’ll discover how to **set paint color**, **fill ellipse Java**, and **draw ellipse outline** using a simple, step‑by‑step approach. By the end, you’ll be able to add high‑quality PostScript ellipses to invoices, reports, or any printable document.
 
 ## Quick Answers
 - **What library is best for drawing PostScript graphics in Java?** Aspose.Page for Java.  
@@ -51,7 +51,8 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Step‑by‑step guide
+## How to set paint color for an ellipse
+Setting the paint color is the first step before any fill or stroke operation. The `setPaint` method determines the color that will be used for the next drawing command.
 
 ### Step 1: Set up the PostScript document
 Create an output stream, configure page size, and instantiate a `PsDocument`.
@@ -67,8 +68,8 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-### Step 2: Fill ellipse with color
-Set the paint to the desired fill color and call `fill` with an `Ellipse2D` instance.
+### Step 2: How to fill ellipse – use set paint color
+To **fill ellipse**, you must first call `setPaint` with the desired fill color, then invoke `fill` with an `Ellipse2D` instance.
 
 ```java
 // Set paint for filling ellipse
@@ -77,8 +78,8 @@ document.setPaint(Color.ORANGE);
 document.fill(new Ellipse2D.Float(250, 100, 150, 100));
 ```
 
-### Step 3: Outline ellipse with stroke
-Switch the paint to the stroke color, define a `BasicStroke` for line thickness, and draw the ellipse outline.
+### Step 3: Draw ellipse outline and set stroke thickness
+After filling, you can change the paint to a different color, define a `BasicStroke` to control line width, and draw the ellipse outline.
 
 ```java
 // Set paint for stroking ellipse
@@ -124,11 +125,11 @@ A: Join the community at the **[Aspose.Page Forum](https://forum.aspose.com/c/pa
 A: Utilize the **[free trial](https://releases.aspose.com/)** and explore examples in the documentation.
 
 ## Conclusion
-Aspose.Page for Java makes it straightforward to **create PostScript ellipse** graphics, whether you need a simple filled shape or a complex stroked outline. With the steps above you can quickly add professional‑grade vector graphics to any printable document. For deeper exploration—such as combining multiple shapes, applying gradients, or converting to PDF—refer to the official **[documentation](https://reference.aspose.com/page/java/)**.
+Aspose.Page for Java makes it straightforward to **set paint color**, **fill ellipse**, and **draw ellipse outline**—whether you need a simple filled shape or a complex stroked graphic. With the steps above you can quickly add professional‑grade vector graphics to any printable document. For deeper exploration—such as combining multiple shapes, applying gradients, or converting to PDF—refer to the official **[documentation](https://reference.aspose.com/page/java/)**.
 
 ---
 
-**Last Updated:** 2025-12-11  
+**Last Updated:** 2026-02-18  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose
 
