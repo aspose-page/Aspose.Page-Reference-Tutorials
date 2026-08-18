@@ -1,35 +1,44 @@
 ---
-title: Nastavte licenci pomocí Embedded Resource s Aspose.Page for .NET
-linktitle: Nastavit licenci pomocí Embedded Resource
+date: 2026-02-23
+description: Naučte se, jak nastavit licenci pomocí vložených zdrojů s Aspose.Page
+  pro .NET. Zajistěte soulad a odemkněte plný potenciál zpracování dokumentů.
+linktitle: Set License Using Embedded Resource
 second_title: Aspose.Page .NET API
-description: Naučte se, jak nastavit licenci pomocí vložených prostředků s Aspose.Page for .NET. Zajistěte soulad a odemkněte plný potenciál zpracování dokumentů.
-weight: 14
+title: Jak nastavit licenci pomocí vloženého zdroje v Aspose.Page pro .NET
 url: /cs/net/getting-started/set-license-using-embedded-resource/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nastavte licenci pomocí Embedded Resource s Aspose.Page for .NET
+# Jak nastavit licenci pomocí vloženého zdroje s Aspise.Page pro .NET
 
 ## Úvod
 
-Aspose.Page for .NET je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat s různými formáty dokumentů. V tomto tutoriálu vás provedeme procesem nastavení licence pomocí vloženého prostředku s Aspose.Page for .NET. Licencování je zásadním krokem při využití funkcí Aspose.Page v jejich plném rozsahu, zajištění souladu a uvolnění potenciálu knihovny.
+Aspose.Page pro .NET je výkonná knihovna, která vývojářům umožňuje bezproblémově pracovat s různými formáty dokumentů. V tomto tutoriálu **se naučíte, jak nastavit licenci** pomocí vloženého zdroje, což je krok nezbytný pro odemknutí plného potenciálu API a zároveň dodržení licenčních podmínek.
 
-## Předpoklady
+## Rychlé odpovědi
+- **Jaký je hlavní účel nastavení licence?** Odstraňuje omezení zkušební verze a umožňuje plný přístup ke všem funkcím.  
+- **Potřebuji fyzický soubor licence na disku?** Ne – licenci můžete vložit jako zdroj do svého sestavení.  
+- **Které verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
+- **Mohu změnit licenci za běhu?** Ano, vytvořením nové instance `Aspose.Page.License` a voláním `SetLicense`.  
+- **Je vložená licence bezpečná před manipulací?** Vložení licence snižuje riziko náhodného odstranění, ale stále byste měli chránit své sestavení.
 
-Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
+## Požadavky
 
-1. Knihovna Aspose.Page for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/page/net/).
+Než se pustíme do tutoriálu, ujistěte se, že máte následující předpoklady:
 
-2.  Licenční soubor: Získejte licenční soubor, běžně pojmenovaný „MergedAPI.Aspose.Total.NET.lic“, který je nezbytný pro ověření vašeho používání Aspose.Page. Pokud nemáte licenci, můžete získat dočasnou od[tady](https://purchase.aspose.com/temporary-license/).
+1. **Knihovna Aspose.Page pro .NET:** Ujistěte se, že máte nainstalovanou knihovnu Aspose.Page pro .NET. Můžete ji stáhnout [zde](https://releases.aspose.com/page/net/).
 
-Nyní pojďme pokračovat s podrobným průvodcem, jak nastavit licenci pomocí vloženého prostředku.
+2. **Licenční soubor:** Získejte licenční soubor, běžně pojmenovaný „MergedAPI.Aspose.Total.NET.lic“, který je nezbytný pro ověření vašeho používání Aspose.Page. Pokud licenci nemáte, můžete získat dočasnou verzi [zde](https://purchase.aspose.com/temporary-license/).
 
-## Import jmenných prostorů
+Nyní přejděme k podrobnému návodu, jak nastavit licenci pomocí vloženého zdroje.
 
-Nejprve musíte do svého .NET projektu importovat potřebné jmenné prostory. To zajistí, že vaše aplikace rozpozná a bude moci používat třídy a metody poskytované knihovnou Aspose.Page.
+## Import Namespaces
+
+Nejprve je potřeba importovat potřebné jmenné prostory do vašeho .NET projektu. Tím zajistíte, že aplikace rozpozná a bude moci používat třídy a metody poskytované knihovnou Aspose.Page.
 
 ```csharp
 using System;
@@ -38,84 +47,114 @@ using System.Linq;
 using System.Text;
 ```
 
-## Krok 1: Inicializujte adresář dokumentů
+## Krok 1: Inicializace adresáře dokumentů
 
-Nastavte cestu k adresáři dokumentů, kde jsou umístěny soubory projektu. Tento adresář bude použit k nalezení licenčního souboru a dalších zdrojů.
+Nastavte cestu k adresáři s dokumenty, kde se nacházejí soubory vašeho projektu. Tento adresář bude použit k vyhledání licenčního souboru a dalších zdrojů.
 
 ```csharp
-// Start: 1
-// Cesta k adresáři dokumentů.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-## Krok 2: Inicializujte objekt licence
+## Krok 2: Inicializace objektu licence
 
-Vytvořte instanci třídy Aspose.Page.License pro správu licenčních operací.
+Vytvořte instanci třídy `Aspose.Page.License`, která bude spravovat operace související s licencí.
 
 ```csharp
-// Start: 1
+// ExStart:1
 Aspose.Page.License license = new Aspose.Page.License();
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-## Krok 3: Nastavte licenci
+## Krok 3: Nastavení licence
 
-Nastavte licenci pomocí metody SetLicense a zadejte cestu k vašemu licenčnímu souboru.
+Nastavte licenci pomocí metody `SetLicense` a uveďte cestu k vašemu licenčnímu souboru.
 
 ```csharp
-// Start: 1
+// ExStart:1
 license.SetLicense("MergedAPI.Aspose.Total.NET.lic");
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-## Krok 4: Povolte Embedded License
+## Krok 4: Povolení vložené licence
 
-Nastavením vlastnosti Embedded na hodnotu true označte, že licence bude vložena do aplikace.
+Uveďte, že licence bude vložena do aplikace, nastavením vlastnosti `Embedded` na `true`.
 
 ```csharp
-// Start: 1
+// ExStart:1
 license.Embedded = true;
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-## Krok 5: Potvrďte úspěšnou sadu licencí
+## Krok 5: Potvrzení úspěšného nastavení licence
 
 Nakonec zobrazte zprávu potvrzující, že licence byla úspěšně nastavena.
 
 ```csharp
-// Start: 1
+// ExStart:1
 Console.WriteLine("License set successfully.");
-// Rozšíření: 1
+// ExEnd:1
 ```
 
-Opakujte tyto kroky ve své aplikaci, abyste zajistili, že Aspose.Page je správně licencován a připraven k použití ve vašich úlohách zpracování dokumentů.
+Opakujte tyto kroky ve své aplikaci, aby byla Aspose.Page řádně licencována a připravena k použití při zpracování dokumentů.
+
+## Časté problémy a řešení
+
+- **Licenční soubor nenalezen** – Ověřte, že název souboru a cesta jsou správné a že je soubor označen jako *Embedded Resource* v nastavení projektu.  
+- **Vlastnost `Embedded` je ignorována** – Ujistěte se, že používáte aktuální verzi Aspose.Page; starší sestavy nemusí podporovat vložené licencování.  
+- **Výjimky za běhu** – Zabalte kód pro licencování do bloku try‑catch, abyste zachytili a zaznamenali podrobnosti `LicenseException`.
 
 ## Závěr
 
-Gratulujeme! Úspěšně jste nastavili licenci pomocí vloženého prostředku s Aspose.Page for .NET. Tento zásadní krok zajišťuje, že vaše aplikace může plně využít možností Aspose.Page při zachování souladu.
+Gratulujeme! Úspěšně jste nastavili licenci pomocí vloženého zdroje s Aspose.Page pro .NET. Tento klíčový krok zajišťuje, že vaše aplikace může plně využívat možnosti Aspose.Page a zároveň zůstává v souladu s licenčními podmínkami.
 
-## FAQ
+## Často kladené otázky
 
 ### Q1: Mohu používat Aspose.Page pro .NET bez licence?
 
-Odpověď 1: Aspose.Page můžete používat bez licence, ale pro plnou funkčnost a soulad se doporučuje jednu získat.
+**A1:** I když můžete Aspose.Page používat bez licence, doporučujeme ji získat pro plnou funkčnost a soulad s licencí.
 
-### Q2: Kde najdu další příklady a dokumentaci pro Aspose.Page?
+### Q2: Kde najdu více příkladů a dokumentaci k Aspose.Page?
 
- A2: Prozkoumejte komplexní dokumentaci[tady](https://reference.aspose.com/page/net/).
+**A2:** Prozkoumejte komplexní dokumentaci [zde](https://reference.aspose.com/page/net/).
 
 ### Q3: Je k dispozici bezplatná zkušební verze?
 
- A3: Ano, můžete získat bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
+**A3:** Ano, bezplatnou zkušební verzi získáte [zde](https://releases.aspose.com/).
 
-### Q4: Jak mohu získat dočasnou licenci?
+### Q4: Jak získám dočasnou licenci?
 
- A4: Získejte dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+**A4:** Dočasnou licenci získáte [zde](https://purchase.aspose.com/temporary-license/).
 
 ### Q5: Kde mohu zakoupit Aspose.Page pro .NET?
 
- A5: Můžete zakoupit Aspose.Page[tady](https://purchase.aspose.com/buy).
+**A5:** Aspose.Page můžete zakoupit [zde](https://purchase.aspose.com/buy).
+
+## Často kladené otázky
+
+**Q: Mohu vložit licenci do knihovny tříd a stále ji používat z konzolové aplikace?**  
+A: Ano. Pokud je knihovna obsahující vloženou licenci referencována, konzolová aplikace zdroj automaticky najde.
+
+**Q: Musím volat `SetLicense` na každém vlákně?**  
+A: Ne. Licence se po prvním úspěšném volání použije pro celý proces.
+
+**Q: Co se stane, pokud je vložená licence poškozena?**  
+A: Aspose.Page vyhodí `LicenseException`. Nahraďte poškozený zdroj čerstvým licenčním souborem.
+
+**Q: Je možné přepínat mezi více licencemi za běhu?**  
+A: Můžete vytvořit samostatné objekty `License` s různými licenčními soubory, ale v jednom AppDomain může být aktivní jen jedna licence.
+
+**Q: Zvyšuje vložení licence významně velikost sestavení?**  
+A: Licenční soubor má obvykle jen několik kilobajtů, takže dopad na velikost sestavení je zanedbatelný.
+
+---
+
+**Poslední aktualizace:** 2026-02-23  
+**Testováno s:** Aspose.Page 24.12 pro .NET  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

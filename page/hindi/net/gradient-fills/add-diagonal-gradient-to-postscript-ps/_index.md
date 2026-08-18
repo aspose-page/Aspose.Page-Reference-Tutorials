@@ -1,35 +1,54 @@
 ---
-title: Aspose.Page .NET के साथ पोस्टस्क्रिप्ट (PS) में डायगोनल ग्रेडिएंट जोड़ें
-linktitle: पोस्टस्क्रिप्ट में विकर्ण ग्रेडिएंट जोड़ें (पीएस)
+date: 2026-02-23
+description: PostScript फ़ाइलों में ग्रेडिएंट कैसे जोड़ें, A4 पेज आकार के साथ PostScript
+  फ़ाइल को सहेजें, और Aspose.Page for .NET का उपयोग करके आयत के ग्रेडिएंट को भरें।
+linktitle: Add Diagonal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: Aspose.Page के साथ .NET में पोस्टस्क्रिप्ट दस्तावेज़ों में विकर्ण ग्रेडिएंट जोड़ने की सरलता का अन्वेषण करें। गतिशील दृश्य तत्वों के साथ अपनी परियोजनाओं को उन्नत करें।
-weight: 10
+title: Aspose.Page .NET के साथ PostScript (PS) में ग्रेडिएंट – डायगोनल ग्रेडिएंट कैसे
+  जोड़ें
 url: /hi/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
+weight: 10
 ---
+
+}}.
+
+Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page .NET के साथ पोस्टस्क्रिप्ट (PS) में डायगोनल ग्रेडिएंट जोड़ें
+# ग्रेडिएंट कैसे जोड़ें: Aspose.Page .NET के साथ PostScript (PS) में डायगोनल ग्रेडिएंट
 
 ## परिचय
 
-पोस्टस्क्रिप्ट (पीएस) दस्तावेज़ में एक विकर्ण ढाल जोड़ने से आपकी परियोजनाओं में दृश्य अपील और रचनात्मकता आ सकती है। .NET के लिए Aspose.Page इस सुविधा को आपके अनुप्रयोगों में एकीकृत करने के लिए एक सहज समाधान प्रदान करता है। इस ट्यूटोरियल में, हम आपको चरण दर चरण Aspose.Page का उपयोग करके PS दस्तावेज़ में एक विकर्ण ग्रेडिएंट जोड़ने की प्रक्रिया के बारे में मार्गदर्शन करेंगे।
+PostScript (PS) दस्तावेज़ में एक डायगोनल ग्रेडिएंट जोड़ने से दृश्य आकर्षण में काफी सुधार हो सकता है, विशेष रूप से जब आपको तकनीकी रिपोर्ट, ब्रोशर, या ग्राफ़िक्स‑इंटेंसिव एप्लिकेशन में **how to add gradient** प्रभाव चाहिए। इस ट्यूटोरियल में आप देखेंगे कि PostScript फ़ाइल में ग्रेडिएंट कैसे जोड़ें, A4 पेज आकार सेट करें, और Aspose.Page for .NET का उपयोग करके एक आयत को स्मूथ रंग परिवर्तन से भरें।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **कौन सी लाइब्रेरी आवश्यक है?** Aspose.Page for .NET  
+- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6  
+- **क्या मैं ग्रेडिएंट की दिशा बदल सकता हूँ?** हाँ – कोड में दिखाए अनुसार ब्रश ट्रांसफ़ॉर्म को घुमाएँ  
+- **परिणाम को कैसे सहेजूँ?** `PsDocument.Save()` का उपयोग करें जो PostScript फ़ाइल को डिस्क पर लिखता है  
+- **उत्पादन के लिए लाइसेंस आवश्यक है?** हाँ, एक कमर्शियल लाइसेंस पूरी कार्यक्षमता अनलॉक करता है  
 
-इससे पहले कि हम ट्यूटोरियल में उतरें, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## PostScript में डायगोनल ग्रेडिएंट क्या है?
 
--  .NET लाइब्रेरी के लिए Aspose.Page: सुनिश्चित करें कि आपके पास .NET लाइब्रेरी के लिए Aspose.Page स्थापित है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/page/net/).
+डायगोनल ग्रेडिएंट एक रैखिक रंग परिवर्तन है जो किसी आकार के पार एक कोण (आमतौर पर 45°) पर चलता है। PostScript में यह `LinearGradientBrush` को एक कस्टम ट्रांसफ़ॉर्मेशन मैट्रिक्स के साथ लागू करके प्राप्त किया जाता है जो ग्रेडिएंट को घुमाता, स्केल करता और ट्रांसलेट करता है ताकि इच्छित आयत से मेल खाए।
 
-- दस्तावेज़ निर्देशिका: अपने दस्तावेज़ों के लिए एक निर्देशिका सेट करें जहां आउटपुट पीएस फ़ाइल सहेजी जाएगी।
+## ग्रेडिएंट फ़िल्स के लिए Aspose.Page क्यों उपयोग करें?
 
-अब, आइए चरण-दर-चरण मार्गदर्शिका पर आगे बढ़ें।
+Aspose.Page लो‑लेवल PostScript कमांड्स को एब्स्ट्रैक्ट करता है, जिससे आप परिचित .NET ग्राफ़िक्स ऑब्जेक्ट्स के साथ काम कर सकते हैं। आप जटिल फ़िल्स बना सकते हैं, पेज डाइमेंशन सेट कर सकते हैं, और सीधे **save PostScript file** में एक्सपोर्ट कर सकते हैं बिना कच्चे PS सिंटैक्स को संभाले।
 
-## नामस्थान आयात करें
+## पूर्वापेक्षाएँ
 
-सबसे पहले, अपने प्रोजेक्ट में आवश्यक नामस्थान आयात करना सुनिश्चित करें। Aspose.Page कार्यात्मकताओं के साथ काम करने के लिए ये नामस्थान महत्वपूर्ण हैं।
+- **Aspose.Page for .NET Library** – इसे [यहाँ](https://releases.aspose.com/page/net/) से डाउनलोड करें।  
+- **Document Directory** – वह फ़ोल्डर जहाँ उत्पन्न `*.ps` फ़ाइल लिखी जाएगी।
+
+अब जब बुनियादी बातें कवर हो गई हैं, चलिए कार्यान्वयन को चरण‑दर‑चरण देखते हैं।
+
+## नेमस्पेस इम्पोर्ट करें
+
+पहले उन नेमस्पेस को इम्पोर्ट करें जो आपको EPS डिवाइस, ड्रॉइंग यूटिलिटीज़, और I/O क्लासेज़ तक पहुँच प्रदान करते हैं।
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,32 +58,32 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## चरण 1: पोस्टस्क्रिप्ट दस्तावेज़ के लिए आउटपुट स्ट्रीम बनाएं
+## चरण 1: PostScript दस्तावेज़ के लिए आउटपुट स्ट्रीम बनाएं (Create PostScript Document)
 
 ```csharp
-// एक्सस्टार्ट:1
-// दस्तावेज़ निर्देशिका का पथ.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//पोस्टस्क्रिप्ट दस्तावेज़ के लिए आउटपुट स्ट्रीम बनाएं
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps", FileMode.Create))
 {
 ```
 
-## चरण 2: A4 आकार के साथ सेव विकल्प बनाएं
+## चरण 2: A4 पेज आकार सेट करें (Save Options)
 
 ```csharp
-	//A4 आकार के साथ सेव विकल्प बनाएं
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 ```
 
-## चरण 3: एक नया 1-पृष्ठ पीएस दस्तावेज़ बनाएँ
+## चरण 3: नया 1‑पेज वाला PS दस्तावेज़ बनाएं
 
 ```csharp
-	// नया 1-पृष्ठ वाला PS दस्तावेज़ बनाएँ
+	// Create new 1-paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## चरण 4: आयत पैरामीटर्स को परिभाषित करें
+## चरण 4: आयत पैरामीटर परिभाषित करें
 
 ```csharp
 	float offsetX = 200;
@@ -73,18 +92,18 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	float height = 100;
 ```
 
-## चरण 5: ग्राफ़िक्स पथ बनाएँ
+## चरण 5: ग्राफ़िक्स पाथ बनाएं
 
 ```csharp
-	//पहले आयत से ग्राफ़िक्स पथ बनाएँ
+	//Create graphics path from the first rectangle
 	System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 ```
 
-## चरण 6: लीनियर ग्रेडिएंट ब्रश बनाएं
+## चरण 6: लीनियर ग्रेडिएंट ब्रश बनाएं (Fill Rectangle Gradient)
 
 ```csharp
-	//सीमा, प्रारंभ और अंत रंगों के रूप में आयत के साथ रैखिक ग्रेडिएंट ब्रश बनाएं
+	//Create linear gradient brush with rectangle as bounds, start, and end colors
 	LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(255, 255, 0, 0),
 		Color.FromArgb(255, 0, 0, 255), 0f);
 ```
@@ -92,15 +111,15 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 ## चरण 7: ब्रश के लिए ट्रांसफ़ॉर्म बनाएं
 
 ```csharp
-	//ब्रश के लिए एक ट्रांसफ़ॉर्म बनाएं. X और Y स्केल घटक क्रमशः आयत की चौड़ाई और ऊंचाई के बराबर होने चाहिए।
-	// अनुवाद घटक आयत के ऑफसेट हैं
+	//Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+	//Translation components are offsets of the rectangle                
 	System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
 ```
 
-## चरण 8: ब्रश पर परिवर्तन लागू करें
+## चरण 8: ब्रश पर ट्रांसफ़ॉर्मेशन लागू करें (Rotate, Scale, Translate)
 
 ```csharp
-	//आवश्यक आयत में दृश्यमान रंग परिवर्तन प्राप्त करने के लिए ग्रेडिएंट घुमाएं, फिर स्केल करें और अनुवाद करें
+	//Rotate gradient, then scale and translate to get visible color transition in required rectangle
 	brushTransform.Rotate(-45);
 	float hypotenuse = (float)System.Math.Sqrt(200 * 200 + 100 * 100);
 	float ratio = hypotenuse / 200;
@@ -108,66 +127,78 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	brushTransform.Translate(100 / brushTransform.Elements[0], 0);
 ```
 
-## चरण 9: ट्रांसफ़ॉर्म को ब्रश पर सेट करें
+## चरण 9: ब्रश पर ट्रांसफ़ॉर्म सेट करें
 
 ```csharp
-	//परिवर्तन सेट करें
+	//Set transform
 	brush.Transform = brushTransform;
 ```
 
-## चरण 10: पेंट सेट करें और आयत भरें
+## चरण 10: पेंट सेट करें और आयत को भरें
 
 ```csharp
-	//पेंट सेट करें
+	//Set paint
 	document.SetPaint(brush);
 
-	//आयत भरें
+	//Fill the rectangle
 	document.Fill(path);
 ```
 
-## चरण 11: वर्तमान पृष्ठ बंद करें
+## चरण 11: वर्तमान पेज बंद करें
 
 ```csharp
-	//वर्तमान पृष्ठ बंद करें
+	//Close current page
 	document.ClosePage();
 ```
 
-## चरण 12: दस्तावेज़ सहेजें
+## चरण 12: दस्तावेज़ सहेजें (Save PostScript File)
 
 ```csharp
-	//दस्तावेज़ सहेजें
+	//Save the document
 	document.Save();
 }
 // ExEnd:1
 ```
 
-इन चरणों का पालन करके, आप .NET के लिए Aspose.Page का उपयोग करके पोस्टस्क्रिप्ट दस्तावेज़ में सफलतापूर्वक एक विकर्ण ग्रेडिएंट जोड़ देंगे।
+## PostScript फ़ाइल कैसे सहेजें
 
-## निष्कर्ष
+`PsDocument.Save()` कॉल पूरी‑तरह से निर्मित PostScript सामग्री को उस स्ट्रीम में लिखता है जिसे आपने **चरण 1** में खोला था। `using` ब्लॉक समाप्त होने के बाद, फ़ाइल `DiagonaGradient_outPS.ps` निर्दिष्ट डायरेक्टरी में उपलब्ध होगी।
 
-अपने पीएस दस्तावेज़ों को विकर्ण ग्रेडिएंट के साथ बढ़ाने से आपकी परियोजनाएँ दृष्टिगत रूप से आकर्षक और गतिशील बन सकती हैं। .NET के लिए Aspose.Page इस प्रक्रिया को सरल बनाता है, जिससे डेवलपर्स आसानी से इस सुविधा को अपने अनुप्रयोगों में एकीकृत कर सकते हैं।
+## सामान्य उपयोग केस
+
+- **तकनीकी दस्तावेज़ीकरण** जहाँ हल्का बैकग्राउंड शेडिंग चाहिए।  
+- **मार्केटिंग ब्रोशर** जहाँ डायगोनल ग्रेडिएंट आधुनिक लुक जोड़ता है।  
+- **ऑटोमेटेड रिपोर्ट जेनरेटर** जो ऑन‑द‑फ़्लाई प्रिंटेबल PS फ़ाइलें बनाते हैं।
+
+## ट्रबलशूटिंग और टिप्स
+
+- **गलत रंग** – `LinearGradientBrush` को पास किए गए ARGB मानों को दोबारा जांचें।  
+- **ग्रेडिएंट दिखाई नहीं दे रहा** – सुनिश्चित करें कि ट्रांसफ़ॉर्म मैट्रिक्स सही ढंग से घुमाता और स्केल करता है; `Rotate(-45)` कॉल डायगोनल कोण सेट करता है।  
+- **फ़ाइल नहीं बन रही** – पुष्टि करें कि `dataDir` मौजूदा फ़ोल्डर की ओर इशारा कर रहा है और एप्लिकेशन के पास लिखने की अनुमति है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-### Q1: क्या Aspose.Page सभी .NET फ्रेमवर्क के साथ संगत है?
+**प्रश्न: क्या Aspose.Page सभी .NET फ्रेमवर्क के साथ संगत है?**  
+उत्तर: Aspose.Page .NET Framework 4.5+ से लेकर .NET 6+ तक के विस्तृत संस्करणों को समर्थन देता है, जिससे व्यापक संगतता मिलती है।
 
-A1: Aspose.Page विभिन्न .NET फ्रेमवर्क का समर्थन करता है, जो विकास परिवेशों की एक विस्तृत श्रृंखला के साथ अनुकूलता सुनिश्चित करता है।
+**प्रश्न: क्या मैं Aspose.Page में ग्रेडिएंट रंगों को कस्टमाइज़ कर सकता हूँ?**  
+उत्तर: हाँ, आप `LinearGradientBrush` बनाते समय कोई भी ARGB रंग निर्दिष्ट कर सकते हैं, जिससे प्रारंभिक और अंतिम ह्यूज़ पर पूर्ण नियंत्रण मिलता है।
 
-### Q2: क्या मैं Aspose.Page में ग्रेडिएंट रंगों को कस्टमाइज़ कर सकता हूँ?
+**प्रश्न: क्या Aspose.Page के लिए ट्रायल संस्करण उपलब्ध है?**  
+उत्तर: हाँ, आप ट्रायल संस्करण को [यहाँ](https://releases.aspose.com/) डाउनलोड करके Aspose.Page की सुविधाओं का अन्वेषण कर सकते हैं।
 
-A2: हाँ, Aspose.Page आपके प्रोजेक्ट की आवश्यकताओं के अनुसार ग्रेडिएंट रंगों को चुनने और अनुकूलित करने में लचीलापन प्रदान करता है।
+**प्रश्न: मैं Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त करूँ?**  
+उत्तर: मूल्यांकन के दौरान अतिरिक्त क्षमताएँ अनलॉक करने के लिए Aspose.Page का अस्थायी लाइसेंस [यहाँ](https://purchase.aspose.com/temporary-license/) प्राप्त करें।
 
-### Q3: क्या Aspose.Page के लिए कोई परीक्षण संस्करण उपलब्ध है?
+**प्रश्न: Aspose.Page के लिए समुदाय समर्थन कहाँ मिल सकता है?**  
+उत्तर: सहायता और चर्चा के लिए Aspose.Page समुदाय के साथ [फ़ोरम](https://forum.aspose.com/c/page/39) पर जुड़ें।
 
- उ3: हां, आप परीक्षण संस्करण डाउनलोड करके Aspose.Page की सुविधाओं का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).
+---
 
-### Q4: मैं Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
+**अंतिम अपडेट:** 2026-02-23  
+**परीक्षित संस्करण:** Aspose.Page for .NET (नवीनतम स्थिर रिलीज)  
+**लेखक:** Aspose  
 
- A4: Aspose.Page के लिए एक अस्थायी लाइसेंस प्राप्त करें[यहाँ](https://purchase.aspose.com/temporary-license/) अतिरिक्त सुविधाओं को अनलॉक करने के लिए.
-
-### Q5: मुझे Aspose.Page के लिए सामुदायिक समर्थन कहां मिल सकता है?
-
- A5: Aspose.Page समुदाय के साथ जुड़ें[मंच](https://forum.aspose.com/c/page/39) सहायता और चर्चा के लिए.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

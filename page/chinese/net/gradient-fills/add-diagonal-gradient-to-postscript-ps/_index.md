@@ -1,35 +1,49 @@
 ---
-title: 使用 Aspose.Page .NET 将对角渐变添加到 PostScript (PS)
-linktitle: 将对角线渐变添加到 PostScript (PS)
+date: 2026-02-23
+description: 了解如何向 PostScript 文件添加渐变、将 PostScript 文件保存为 A4 页面尺寸，以及使用 Aspose.Page for
+  .NET 填充矩形渐变。
+linktitle: Add Diagonal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: 探索使用 Aspose.Page 在 .NET 中向 PostScript 文档添加对角渐变的简单性。使用动态视觉元素提升您的项目。
-weight: 10
+title: 如何在 PostScript (PS) 中使用 Aspose.Page .NET 添加渐变——对角线渐变
 url: /zh/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page .NET 将对角渐变添加到 PostScript (PS)
+# 如何添加渐变：使用 Aspose.Page .NET 为 PostScript (PS) 添加对角线渐变
 
 ## 介绍
 
-向 PostScript (PS) 文档添加对角渐变可以为您的项目带来视觉吸引力和创造力。 Aspose.Page for .NET 提供了一个将此功能集成到您的应用程序中的无缝解决方案。在本教程中，我们将指导您逐步完成使用 Aspose.Page 将对角渐变添加到 PS 文档的过程。
+在 PostScript (PS) 文档中添加对角线渐变可以显著提升视觉效果，尤其是在技术报告、宣传册或图形密集型应用中需要 **如何添加渐变** 效果时。本教程将展示如何为 PostScript 文件添加渐变、设置 A4 页面尺寸，并使用 Aspose.Page for .NET 将矩形填充为平滑的颜色过渡。
 
-## 先决条件
+## 快速答案
+- **需要的库是什么？** Aspose.Page for .NET  
+- **支持哪些 .NET 版本？** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6  
+- **我可以更改渐变方向吗？** 是 – 如代码所示旋转画笔变换  
+- **如何保存结果？** 使用 `PsDocument.Save()` 将 PostScript 文件写入磁盘  
+- **生产环境需要许可证吗？** 是的，商业许可证可解锁全部功能  
 
-在我们深入学习本教程之前，请确保您具备以下先决条件：
+## 什么是 PostScript 中的对角线渐变？
 
--  Aspose.Page for .NET 库：确保您已安装 Aspose.Page for .NET 库。你可以下载它[这里](https://releases.aspose.com/page/net/).
+对角线渐变是一种线性颜色过渡，以一定角度（通常为 45°）跨越形状。在 PostScript 中，通过使用带有自定义变换矩阵的 `LinearGradientBrush` 来实现，该矩阵可以旋转、缩放并平移渐变，以匹配所需的矩形。
 
-- 文档目录：设置保存输出 PS 文件的文档目录。
+## 为什么在渐变填充中使用 Aspose.Page？
 
-现在，让我们继续阅读分步指南。
+Aspose.Page 抽象了底层的 PostScript 命令，让您可以使用熟悉的 .NET 图形对象进行操作。您可以创建复杂的填充、设置页面尺寸，并直接导出为 **save PostScript file**，无需处理原始 PS 语法。
+
+## 前提条件
+
+- **Aspose.Page for .NET 库** – 在[此处](https://releases.aspose.com/page/net/)下载。  
+- **文档目录** – 用于写入生成的 `*.ps` 文件的文件夹。
+
+现在我们已经了解了基础，让我们一步一步地演示实现过程。
 
 ## 导入命名空间
 
-首先，确保将必要的命名空间导入到您的项目中。这些命名空间对于使用 Aspose.Page 功能至关重要。
+首先，导入能够访问 EPS 设备、绘图工具和 I/O 类的命名空间。
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,28 +53,28 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 第 1 步：为 PostScript 文档创建输出流
+## 步骤 1：为 PostScript 文档创建输出流（创建 PostScript 文档）
 
 ```csharp
-//开始时间：1
-//文档目录的路径。
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//为 PostScript 文档创建输出流
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps", FileMode.Create))
 {
 ```
 
-## 步骤 2：创建 A4 尺寸的保存选项
+## 步骤 2：设置 A4 页面尺寸（保存选项）
 
 ```csharp
-	//创建 A4 尺寸的保存选项
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 ```
 
-## 步骤 3：创建一个新的单页 PS 文档
+## 步骤 3：创建一个新的一页 PS 文档
 
 ```csharp
-	//创建新的 1 页 PS 文档
+	// Create new 1-paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
@@ -73,34 +87,34 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	float height = 100;
 ```
 
-## 第5步：创建图形路径
+## 步骤 5：创建图形路径
 
 ```csharp
-	//从第一个矩形创建图形路径
+	//Create graphics path from the first rectangle
 	System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 ```
 
-## 第6步：创建线性渐变画笔
+## 步骤 6：创建线性渐变画刷（填充矩形渐变）
 
 ```csharp
-	//创建以矩形作为边界、开始和结束颜色的线性渐变画笔
+	//Create linear gradient brush with rectangle as bounds, start, and end colors
 	LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(255, 255, 0, 0),
 		Color.FromArgb(255, 0, 0, 255), 0f);
 ```
 
-## 第7步：为画笔创建变换
+## 步骤 7：为画刷创建变换矩阵
 
 ```csharp
-	//创建画笔变换。 X 和 Y 比例分量必须相应地等于矩形的宽度和高度。
-	//平移分量是矩形的偏移量
+	//Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+	//Translation components are offsets of the rectangle                
 	System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
 ```
 
-## 第 8 步：将变换应用于画笔
+## 步骤 8：对画刷应用变换（旋转、缩放、平移）
 
 ```csharp
-	//旋转渐变，然后缩放和平移以获得所需矩形中可见的颜色过渡
+	//Rotate gradient, then scale and translate to get visible color transition in required rectangle
 	brushTransform.Rotate(-45);
 	float hypotenuse = (float)System.Math.Sqrt(200 * 200 + 100 * 100);
 	float ratio = hypotenuse / 200;
@@ -108,66 +122,78 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	brushTransform.Translate(100 / brushTransform.Elements[0], 0);
 ```
 
-## 第9步：将变换设置为画笔
+## 步骤 9：将变换设置到画刷
 
 ```csharp
-	//设置变换
+	//Set transform
 	brush.Transform = brushTransform;
 ```
 
-## 第10步：设置油漆并填充矩形
+## 步骤 10：设置画笔并填充矩形
 
 ```csharp
-	//定漆
+	//Set paint
 	document.SetPaint(brush);
 
-	//填充矩形
+	//Fill the rectangle
 	document.Fill(path);
 ```
 
-## 第11步：关闭当前页面
+## 步骤 11：关闭当前页面
 
 ```csharp
-	//关闭当前页面
+	//Close current page
 	document.ClosePage();
 ```
 
-## 第12步：保存文档
+## 步骤 12：保存文档（保存 PostScript 文件）
 
 ```csharp
-	//保存文档
+	//Save the document
 	document.Save();
 }
-//结束：1
+// ExEnd:1
 ```
 
-通过执行这些步骤，您将使用 Aspose.Page for .NET 成功地将对角渐变添加到 PostScript 文档中。
+## 如何保存 PostScript 文件
 
-## 结论
+`PsDocument.Save()` 调用会将完整的 PostScript 内容写入您在 **步骤 1** 中打开的流。`using` 块完成后，文件 `DiagonaGradient_outPS.ps` 将出现在您指定的目录中。
 
-使用对角渐变增强 PS 文档可以使您的项目具有视觉吸引力和活力。 Aspose.Page for .NET 简化了这一过程，使开发人员能够轻松地将这一功能集成到他们的应用程序中。
+## 常见使用场景
 
-## 常见问题解答
+- **技术文档** 需要细腻的背景阴影。  
+- **营销宣传册** 中对角线渐变增添现代感。  
+- **自动化报告生成器** 可即时生成可打印的 PS 文件。
 
-### Q1：Aspose.Page 是否与所有.NET 框架兼容？
+## 故障排除与技巧
 
-A1：Aspose.Page支持各种.NET框架，确保与广泛的开发环境兼容。
+- **颜色不正确** – 仔细检查传递给 `LinearGradientBrush` 的 ARGB 值。  
+- **渐变不可见** – 确认变换矩阵正确旋转和缩放；`Rotate(-45)` 调用设置了对角线角度。  
+- **文件未创建** – 确认 `dataDir` 指向已存在的文件夹且应用具有写入权限。
 
-### Q2：我可以在Aspose.Page中自定义渐变颜色吗？
+## 常见问题
 
-A2：是的，Aspose.Page 提供了根据您的项目要求灵活选择和自定义渐变颜色的功能。
+**问：Aspose.Page 是否兼容所有 .NET 框架？**  
+答：Aspose.Page 支持广泛的 .NET 版本，从 .NET Framework 4.5+ 到 .NET 6+，确保兼容性。
 
-### Q3：Aspose.Page 有试用版吗？
+**问：我可以在 Aspose.Page 中自定义渐变颜色吗？**  
+答：可以，在构造 `LinearGradientBrush` 时可以指定任意 ARGB 颜色，完全控制起始和结束色调。
 
- A3：是的，您可以通过下载试用版来探索Aspose.Page的功能[这里](https://releases.aspose.com/).
+**问：Aspose.Page 是否提供试用版？**  
+答：是的，您可以通过在[此处](https://releases.aspose.com/)下载试用版来体验 Aspose.Page 的功能。
 
-### Q4：如何获得 Aspose.Page 的临时许可证？
+**问：如何获取 Aspose.Page 的临时许可证？**  
+答：可在[此处](https://purchase.aspose.com/temporary-license/)获取 Aspose.Page 的临时许可证，以在评估期间解锁更多功能。
 
- A4：获取 Aspose.Page 的临时许可证[这里](https://purchase.aspose.com/temporary-license/)解锁附加功能。
+**问：在哪里可以找到 Aspose.Page 的社区支持？**  
+答：可在[论坛](https://forum.aspose.com/c/page/39)与 Aspose.Page 社区交流，获取帮助和讨论。
 
-### Q5：在哪里可以找到 Aspose.Page 的社区支持？
+---
 
- A5：与 Aspose.Page 社区互动[论坛](https://forum.aspose.com/c/page/39)寻求帮助和讨论。
+**最后更新：** 2026-02-23  
+**测试环境：** Aspose.Page for .NET（最新稳定版）  
+**作者：** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

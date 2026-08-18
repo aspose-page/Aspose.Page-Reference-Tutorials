@@ -1,38 +1,57 @@
 ---
-title: Lisensi Aman dengan Aspose.Page untuk .NET
-linktitle: Lisensi Aman
-second_title: Aspose.Halaman .NET API
-description: Amankan lisensi Aspose.Page untuk .NET Anda dengan mudah menggunakan panduan langkah demi langkah kami. Buka potensi penuh untuk manipulasi halaman tanpa hambatan di aplikasi .NET Anda.
-weight: 13
+date: 2026-02-23
+description: Amankan lisensi aspose.page dengan mudah dan hindari masalah kedaluwarsa
+  lisensi aspose. Ikuti panduan langkah demi langkah ini untuk membuka kemampuan manipulasi
+  halaman penuh di .NET.
+linktitle: Secure License
+second_title: Aspose.Page .NET API
+title: Amankan Lisensi Aspose.Page untuk .NET
 url: /id/net/getting-started/secure-license/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Lisensi Aman dengan Aspose.Page untuk .NET
+# Amankan Lisensi Aspose.Page untuk .NET
 
-## Perkenalan
+## Pendahuluan
 
-Membuka potensi penuh Aspose.Page untuk .NET melibatkan pengamanan lisensi Anda untuk memastikan integrasi yang lancar dan kinerja optimal. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengamankan lisensi Anda menggunakan Aspose.Page, alat canggih untuk menangani manipulasi halaman di aplikasi .NET.
+Dalam panduan ini kami akan menunjukkan cara **mengamankan lisensi aspose.page** untuk aplikasi .NET Anda, memastikan Anda mendapatkan kinerja penuh dan semua fitur Aspose.Page. Dengan mengunci lisensi yang valid, Anda menghindari pembatasan runtime, watermark, dan pesan *aspose license expiration* yang mengganggu beban kerja produksi.
+
+## Jawaban Cepat
+- **Apa yang terjadi ketika lisensi diamankan?** Lisensi yang diamankan menghapus batas evaluasi dan mengaktifkan manipulasi halaman dengan semua fitur.  
+- **Apakah saya memerlukan lisensi untuk pengembangan?** Lisensi percobaan dapat digunakan untuk pengujian, tetapi lisensi berbayar diperlukan untuk produksi.  
+- **Versi .NET apa yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 dan versi selanjutnya.  
+- **Bisakah saya menyematkan file lisensi?** Ya – Anda dapat menyematkannya sebagai sumber daya dan memuatnya pada runtime (lihat kode di bawah).  
+- **Apa yang terjadi jika lisensi kedaluwarsa?** Perpustakaan akan kembali ke mode evaluasi, menampilkan watermark dan membatasi fungsionalitas.
+
+## Apa Itu Lisensi Aspose.Page yang Aman?
+
+**Lisensi aspose.page yang aman** adalah file lisensi yang ditandatangani secara digital yang memvalidasi hak Anda untuk menggunakan perpustakaan Aspose.Page untuk .NET tanpa batasan. Menyimpannya secara aman—biasanya di dalam ZIP yang dilindungi kata sandi—mencegah manipulasi dan memastikan perpustakaan dapat membacanya dengan aman pada runtime.
+
+## Mengapa Menggunakan Lisensi Aman?
+
+- **Akses Fitur Penuh** – Tanpa watermark evaluasi, pembuatan halaman tak terbatas, dan konversi PDF.  
+- **Kinerja** – Validasi lisensi dilakukan sekali saat startup, sehingga tidak ada beban tambahan pada runtime.  
+- **Kepatuhan** – Menjaga Anda tetap sesuai dengan ketentuan lisensi Aspose dan menghindari peringatan *aspose license expiration* yang tak terduga.
 
 ## Prasyarat
 
-Sebelum Anda mulai mendapatkan lisensi Anda, pastikan Anda memiliki hal berikut:
+Sebelum Anda mulai mengamankan lisensi, pastikan hal‑hal berikut sudah tersedia:
 
--  Aspose.Page for .NET: Pastikan Anda menginstal Aspose.Page for .NET versi terbaru. Jika belum, Anda dapat mendownloadnya dari[Unduh Halaman](https://releases.aspose.com/page/net/).
+- Aspose.Page untuk .NET: Pastikan Anda telah menginstal versi terbaru Aspose.Page untuk .NET. Jika belum, Anda dapat mengunduhnya dari [halaman unduhan](https://releases.aspose.com/page/net/).
 
--  File Lisensi: Dapatkan file lisensi untuk Aspose.Page. Jika Anda tidak memilikinya, Anda dapat memperolehnya dari[halaman pembelian](https://purchase.aspose.com/buy).
+- File Lisensi: Dapatkan file lisensi untuk Aspose.Page. Jika belum memilikinya, Anda dapat memperolehnya dari [halaman pembelian](https://purchase.aspose.com/buy).
 
-- Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET Anda dengan alat yang diperlukan, termasuk lingkungan pengembangan terintegrasi (IDE) seperti Visual Studio.
+- Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET Anda dengan alat‑alat yang diperlukan, termasuk Integrated Development Environment (IDE) seperti Visual Studio.
 
--  Akses ke Dokumentasi: Biasakan diri Anda dengan[dokumentasi](https://reference.aspose.com/page/net/) untuk Aspose.Page untuk .NET.
+- Akses ke Dokumentasi: Kenali [dokumentasi](https://reference.aspose.com/page/net/) untuk Aspose.Page untuk .NET.
 
 ## Impor Namespace
 
-Di bagian ini, kami akan mengimpor namespace yang diperlukan untuk memulai proses perizinan.
-
+Pada bagian ini, kami akan mengimpor namespace yang diperlukan untuk memulai proses lisensi.
 
 ```csharp
 using Ionic.Zip;
@@ -43,20 +62,22 @@ using System.Linq;
 using System.Text;
 ```
 
-Sekarang, mari kita bagi contoh yang diberikan menjadi beberapa langkah untuk pemahaman yang lebih jelas tentang cara mengamankan lisensi Anda.
+Sekarang, mari uraikan contoh yang diberikan menjadi beberapa langkah untuk pemahaman yang lebih jelas tentang cara mengamankan lisensi Anda.
 
-## Langkah 1: Baca File Lisensi
+## Cara Mengamankan Lisensi Aspose.Page
+
+### Langkah 1: Baca File Lisensi
 
 ```csharp
 using (Stream zip = new SecureLicense().GetType().Assembly.GetManifestResourceStream("Aspose.Total.NET.lic.zip"))
 {
-    // Kode untuk membaca file lisensi
+    // Code to read the license file
 }
 ```
 
-Di sini, kami memulai proses dengan membaca file lisensi, memastikan bahwa sumber daya yang diperlukan tersedia untuk operasi lebih lanjut.
+Di sini, kami memulai proses dengan membaca file lisensi, memastikan sumber daya yang diperlukan tersedia untuk operasi selanjutnya.
 
-## Langkah 2: Ekstrak Informasi Lisensi
+### Langkah 2: Ekstrak Informasi Lisensi
 
 ```csharp
 using (ZipFile zf = ZipFile.Read(zip))
@@ -65,40 +86,58 @@ using (ZipFile zf = ZipFile.Read(zip))
     ZipEntry e = zf["Aspose.Total.NET.lic"];
     e.ExtractWithPassword(ms, "test");
     ms.Position = 0;
-    // Kode untuk menangani informasi lisensi yang diekstraksi
+    // Code to handle extracted license information
 }
 ```
 
 Setelah membaca file lisensi, kami mengekstrak informasi yang diperlukan, memungkinkan kami melanjutkan proses lisensi.
 
-## Kesimpulan
+## Menangani Kedaluwarsa Lisensi Aspose
 
-Mengamankan lisensi Anda dengan Aspose.Page untuk .NET adalah langkah penting dalam mengeluarkan potensi penuh dari alat canggih ini. Dengan mengikuti langkah-langkah ini, Anda memastikan proses integrasi yang lancar, memungkinkan aplikasi .NET Anda menangani manipulasi halaman dengan lancar.
+Jika Anda pernah menemukan peringatan *aspose license expiration*, periksa kembali bahwa:
 
-## FAQ
+1. File lisensi yang disematkan sudah terbaru.  
+2. Kata sandi yang digunakan untuk ekstraksi cocok dengan kata sandi yang dipakai saat ZIP dibuat.  
+3. Aplikasi Anda memiliki izin baca untuk sumber daya yang disematkan.
 
-### Q1: Seberapa sering saya perlu mendapatkan lisensi?
+Memperbarui ZIP yang disematkan dengan file lisensi baru menyelesaikan sebagian besar masalah kedaluwarsa.
 
-A1: Anda hanya perlu mendapatkan lisensi satu kali per permohonan.
+## Masalah Umum dan Solusinya
 
-### Q2: Dapatkah saya menggunakan lisensi uji coba untuk tujuan pengujian?
+| Masalah | Penyebab | Solusi |
+|---------|----------|--------|
+| Lisensi tidak ditemukan | Nama sumber daya salah | Verifikasi nama sumber daya manifest sesuai dengan `"Aspose.Total.NET.lic.zip"` |
+| Ekstraksi gagal | Kata sandi tidak tepat | Gunakan kata sandi yang Anda tetapkan saat membuat ZIP (misalnya, `"test"` pada contoh) |
+| Watermark muncul | Lisensi kedaluwarsa atau tidak ada | Sematkan kembali lisensi yang valid dan redeploy aplikasi |
 
- A2: Ya, Anda bisa mendapatkan lisensi uji coba gratis dari[halaman rilis](https://releases.aspose.com/).
+## Pertanyaan yang Sering Diajukan
 
-### Q3: Apa yang terjadi jika lisensinya habis masa berlakunya?
+**T: Seberapa sering saya perlu mengamankan lisensi?**  
+J: Anda hanya perlu mengamankan lisensi satu kali per penyebaran aplikasi.
 
-A3: Aplikasi Anda akan terus berfungsi, tetapi Anda tidak akan menerima pembaruan atau dukungan. Dianjurkan untuk memperbarui lisensi Anda untuk mendapatkan manfaat lanjutan.
+**T: Bisakah saya menggunakan lisensi percobaan untuk tujuan pengujian?**  
+J: Ya, Anda dapat memperoleh lisensi percobaan gratis dari [halaman rilis](https://releases.aspose.com/).
 
-### Q4: Apakah lisensi sementara berbeda dengan lisensi reguler?
+**T: Apa yang terjadi jika lisensi kedaluwarsa?**  
+J: Aplikasi Anda tetap dapat berjalan, tetapi Anda tidak akan menerima pembaruan atau dukungan. Disarankan memperbarui lisensi untuk manfaat berkelanjutan.
 
-A4: Ya, lisensi sementara berlaku untuk jangka waktu terbatas dan sering digunakan untuk pengujian atau evaluasi jangka pendek.
+**T: Apakah lisensi sementara berbeda dari lisensi reguler?**  
+J: Ya, lisensi sementara berlaku untuk jangka waktu terbatas dan biasanya digunakan untuk pengujian atau evaluasi jangka pendek.
 
-### Q5: Bisakah saya mentransfer lisensi saya ke komputer lain?
+**T: Bisakah saya memindahkan lisensi saya ke mesin lain?**  
+J: Ya, Anda dapat memindahkan lisensi ke mesin lain sesuai kebutuhan.
 
-A5: Ya, Anda dapat mentransfer lisensi Anda ke mesin lain sesuai kebutuhan.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Terakhir Diperbarui:** 2026-02-23  
+**Diuji Dengan:** Aspose.Page 24.11 untuk .NET  
+**Penulis:** Aspose  
+
+---

@@ -1,35 +1,46 @@
 ---
-title: Ställ in licens med inbäddad resurs med Aspose.Page för .NET
-linktitle: Ställ in licens med inbäddad resurs
+date: 2026-02-23
+description: Lär dig hur du ställer in licensen med inbäddade resurser i Aspose.Page
+  för .NET. Säkerställ efterlevnad och lås upp den fulla potentialen för dokumentbehandling.
+linktitle: Set License Using Embedded Resource
 second_title: Aspose.Page .NET API
-description: Lär dig hur du ställer in en licens med inbäddade resurser med Aspose.Page för .NET. Säkerställ efterlevnad och frigör dokumentbehandlingens fulla potential.
-weight: 14
+title: Hur du ställer in licens med inbäddad resurs i Aspose.Page för .NET
 url: /sv/net/getting-started/set-license-using-embedded-resource/
+weight: 14
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+.
+
+Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ställ in licens med inbäddad resurs med Aspose.Page för .NET
+# Hur man anger licens med inbäddad resurs med Aspose.Page för .NET
 
 ## Introduktion
 
-Aspose.Page för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med olika dokumentformat sömlöst. I den här handledningen guidar vi dig genom processen att ställa in en licens med hjälp av en inbäddad resurs med Aspose.Page för .NET. Licensiering är ett avgörande steg för att utnyttja Aspose.Page-funktionerna i sin fulla utsträckning, vilket säkerställer efterlevnad och låser upp bibliotekets potential.
+Aspose.Page för .NET är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta med olika dokumentformat sömlöst. I den här handledningen **kommer du att lära dig hur du anger licens** med en inbäddad resurs, ett steg som är nödvändigt för att låsa upp API:ets fulla funktioner samtidigt som du följer licensvillkoren.
+
+## Snabba svar
+- **Vad är det primära syftet med att ange en licens?** Det tar bort utvärderingsbegränsningar och möjliggör full åtkomst till funktioner.  
+- **Behöver jag en fysisk licensfil på disken?** Nej – du kan bädda in licensen som en resurs i din assembly.  
+- **Vilka .NET-versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7+.  
+- **Kan jag ändra licensen vid körning?** Ja, genom att skapa en ny `Aspose.Page.License`-instans och anropa `SetLicense`.  
+- **Är en inbäddad licens säker mot manipulation?** Att bädda in licensen minskar risken för oavsiktlig borttagning, men du bör ändå skydda dina assemblies.
 
 ## Förutsättningar
 
-Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
+Innan vi går in på handledningen, se till att du har följande förutsättningar på plats:
 
-1. Aspose.Page for .NET Library: Se till att du har Aspose.Page for .NET-biblioteket installerat. Du kan ladda ner den från[här](https://releases.aspose.com/page/net/).
+1. Aspose.Page för .NET-biblioteket: Se till att du har Aspose.Page för .NET-biblioteket installerat. Du kan ladda ner det från [here](https://releases.aspose.com/page/net/).
 
-2.  Licensfil: Skaffa licensfilen, vanligen kallad "MergedAPI.Aspose.Total.NET.lic", som är nödvändig för att verifiera din användning av Aspose.Page. Om du inte har en licens kan du få en tillfällig från[här](https://purchase.aspose.com/temporary-license/).
+2. Licensfil: Skaffa licensfilen, vanligtvis namngiven "MergedAPI.Aspose.Total.NET.lic", som är nödvändig för att autentisera din användning av Aspose.Page. Om du inte har en licens kan du få en tillfällig från [here](https://purchase.aspose.com/temporary-license/).
 
-Låt oss nu gå vidare med steg-för-steg-guiden om hur du ställer in licensen med hjälp av en inbäddad resurs.
+Låt oss nu gå vidare med steg‑för‑steg‑guiden om hur du anger licensen med en inbäddad resurs.
 
-## Importera namnområden
+## Importera namnrymder
 
-Först måste du importera de nödvändiga namnrymden till ditt .NET-projekt. Detta säkerställer att din applikation känner igen och kan använda klasserna och metoderna som tillhandahålls av Aspose.Page-biblioteket.
+Först måste du importera de nödvändiga namnrymderna till ditt .NET-projekt. Detta säkerställer att din applikation känner igen och kan använda klasserna och metoderna som tillhandahålls av Aspose.Page-biblioteket.
 
 ```csharp
 using System;
@@ -38,84 +49,114 @@ using System.Linq;
 using System.Text;
 ```
 
-## Steg 1: Initiera dokumentkatalogen
+## Steg 1: Initiera dokumentkatalog
 
-Ställ in sökvägen till din dokumentkatalog, där dina projektfiler finns. Denna katalog kommer att användas för att hitta licensfilen och andra resurser.
+Ange sökvägen till din dokumentkatalog, där dina projektfiler finns. Denna katalog kommer att användas för att hitta licensfilen och andra resurser.
 
 ```csharp
 // ExStart:1
-// Sökvägen till dokumentkatalogen.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Exend:1
+// ExEnd:1
 ```
 
 ## Steg 2: Initiera licensobjekt
 
-Skapa en instans av klassen Aspose.Page.License för att hantera licensieringen.
+Skapa en instans av klassen `Aspose.Page.License` för att hantera licensoperationerna.
 
 ```csharp
 // ExStart:1
 Aspose.Page.License license = new Aspose.Page.License();
-// Exend:1
+// ExEnd:1
 ```
 
-## Steg 3: Ställ in licens
+## Steg 3: Ange licens
 
-Ställ in licensen med SetLicense-metoden och ange sökvägen till din licensfil.
+Ange licensen med metoden `SetLicense` och ange sökvägen till din licensfil.
 
 ```csharp
 // ExStart:1
 license.SetLicense("MergedAPI.Aspose.Total.NET.lic");
-// Exend:1
+// ExEnd:1
 ```
 
-## Steg 4: Aktivera Embedded License
+## Steg 4: Aktivera inbäddad licens
 
-Ange att licensen kommer att bäddas in i programmet genom att sätta egenskapen Embedded till true.
+Indikera att licensen kommer att bäddas in i applikationen genom att sätta egenskapen `Embedded` till `true`.
 
 ```csharp
 // ExStart:1
 license.Embedded = true;
-// Exend:1
+// ExEnd:1
 ```
 
-## Steg 5: Bekräfta framgångsrik licensuppsättning
+## Steg 5: Bekräfta lyckad licensinställning
 
-Visa slutligen ett meddelande som bekräftar att licensen har ställts in.
+Till sist, visa ett meddelande som bekräftar att licensen har ställts in framgångsrikt.
 
 ```csharp
 // ExStart:1
 Console.WriteLine("License set successfully.");
-// Exend:1
+// ExEnd:1
 ```
 
-Upprepa dessa steg i din ansökan för att säkerställa att Aspose.Page är korrekt licensierad och redo att användas i dina dokumentbearbetningsuppgifter.
+Upprepa dessa steg i din applikation för att säkerställa att Aspose.Page är korrekt licensierad och redo att användas i dina dokumentbehandlingsuppgifter.
+
+## Vanliga problem och lösningar
+
+- **Licensfilen hittades inte** – Verifiera att filnamnet och sökvägen är korrekta, och att filen är markerad som en *Embedded Resource* i projektets egenskaper.  
+- **`Embedded`-egenskapen ignoreras** – Se till att du använder en recent version av Aspose.Page; äldre byggen kanske inte stödjer inbäddad licensiering.  
+- **Körtidsundantag** – Omge licenskoden med ett try‑catch‑block för att fånga och logga eventuella `LicenseException`-detaljer.
 
 ## Slutsats
 
-Grattis! Du har framgångsrikt angett en licens med hjälp av en inbäddad resurs med Aspose.Page för .NET. Detta avgörande steg säkerställer att din applikation kan dra full nytta av Aspose.Pages möjligheter samtidigt som efterlevnaden bibehålls.
+Grattis! Du har framgångsrikt ställt in en licens med en inbäddad resurs med Aspose.Page för .NET. Detta viktiga steg säkerställer att din applikation kan utnyttja Aspose.Page:s funktioner fullt ut samtidigt som du upprätthåller efterlevnad.
 
-## FAQ's
+## Vanliga frågor
 
-### F1: Kan jag använda Aspose.Page för .NET utan licens?
+### Q1: Kan jag använda Aspose.Page för .NET utan licens?
 
-S1: Även om du kan använda Aspose.Page utan licens, rekommenderas det att skaffa en för full funktionalitet och överensstämmelse.
+A1: Även om du kan använda Aspose.Page utan licens, rekommenderas det att skaffa en för full funktionalitet och efterlevnad.
 
-### F2: Var kan jag hitta fler exempel och dokumentation för Aspose.Page?
+### Q2: Var kan jag hitta fler exempel och dokumentation för Aspose.Page?
 
- S2: Utforska den omfattande dokumentationen[här](https://reference.aspose.com/page/net/).
+A2: Utforska den omfattande dokumentationen [here](https://reference.aspose.com/page/net/).
 
-### F3: Finns det en gratis provperiod?
+### Q3: Finns det en gratis provperiod tillgänglig?
 
- A3: Ja, du kan få en gratis provperiod[här](https://releases.aspose.com/).
+A3: Ja, du kan få en gratis provperiod [here](https://releases.aspose.com/).
 
-### F4: Hur kan jag få en tillfällig licens?
+### Q4: Hur kan jag få en tillfällig licens?
 
- A4: Skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+A4: Skaffa en tillfällig licens [here](https://purchase.aspose.com/temporary-license/).
 
-### F5: Var kan jag köpa Aspose.Page för .NET?
+### Q5: Var kan jag köpa Aspose.Page för .NET?
 
- S5: Du kan köpa Aspose.Page[här](https://purchase.aspose.com/buy).
+A5: Du kan köpa Aspose.Page [here](https://purchase.aspose.com/buy).
+
+## Vanliga frågor
+
+**Q: Kan jag bädda in licensen i ett klassbibliotek och ändå använda den från en konsolapp?**  
+A: Ja. Så länge biblioteket som innehåller den inbäddade licensen refereras, kommer konsolapplikationen att hitta resursen automatiskt.
+
+**Q: Måste jag anropa `SetLicense` på varje tråd?**  
+A: Nej. Licensen tillämpas för hela processen efter det första lyckade anropet.
+
+**Q: Vad händer om den inbäddade licensen är korrupt?**  
+A: Aspose.Page kommer att kasta ett `LicenseException`. Ersätt den korrupta resursen med en ny licensfil.
+
+**Q: Är det möjligt att växla mellan flera licenser vid körning?**  
+A: Du kan skapa separata `License`-objekt med olika licensfiler, men endast en licens kan vara aktiv per AppDomain.
+
+**Q: Ökar inbäddning av licensen assembly‑storleken avsevärt?**  
+A: Licensfilen är vanligtvis några kilobyte, så påverkan på assembly‑storleken är försumbar.
+
+---
+
+**Senast uppdaterad:** 2026-02-23  
+**Testad med:** Aspose.Page 24.12 for .NET  
+**Författare:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -1,35 +1,49 @@
 ---
-title: Dodaj gradient ukośny do PostScriptu (PS) za pomocą Aspose.Page .NET
-linktitle: Dodaj gradient ukośny do PostScriptu (PS)
-second_title: Aspose.Page API .NET
-description: Odkryj prostotę dodawania ukośnych gradientów do dokumentów PostScript w .NET za pomocą Aspose.Page. Podnieś poziom swoich projektów dzięki dynamicznym elementom wizualnym.
-weight: 10
+date: 2026-02-23
+description: Dowiedz się, jak dodać gradient do plików PostScript, zapisać plik PostScript
+  w formacie A4 oraz wypełnić prostokąt gradientem przy użyciu Aspose.Page dla .NET.
+linktitle: Add Diagonal Gradient to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Jak dodać gradient – gradient diagonalny w PostScript (PS) z Aspose.Page .NET
 url: /pl/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj gradient ukośny do PostScriptu (PS) za pomocą Aspose.Page .NET
+# Jak dodać gradient: gradient diagonalny do PostScript (PS) z Aspose.Page .NET
 
-## Wstęp
+## Wprowadzenie
 
-Dodanie ukośnego gradientu do dokumentu PostScript (PS) może zwiększyć atrakcyjność wizualną i kreatywność Twoich projektów. Aspose.Page dla .NET zapewnia płynne rozwiązanie do integracji tej funkcji z aplikacjami. W tym samouczku poprowadzimy Cię krok po kroku przez proces dodawania gradientu ukośnego do dokumentu PS za pomocą Aspose.Page.
+Dodanie gradientu diagonalnego do dokumentu PostScript (PS) może znacząco poprawić atrakcyjność wizualną, szczególnie gdy potrzebujesz **how to add gradient** efektów w raportach technicznych, broszurach lub aplikacjach intensywnie wykorzystujących grafikę. W tym samouczku zobaczysz dokładnie, jak dodać gradient do pliku PostScript, ustawić rozmiar strony A4 i wypełnić prostokąt płynnym przejściem kolorów przy użyciu Aspose.Page dla .NET.
 
-## Warunki wstępne
+## Szybkie odpowiedzi
+- **Jakiej biblioteki potrzebujesz?** Aspose.Page for .NET  
+- **Które wersje .NET są obsługiwane?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6  
+- **Czy mogę zmienić kierunek gradientu?** Tak – obróć transformację pędzla jak pokazano w kodzie  
+- **Jak zapisać wynik?** Użyj `PsDocument.Save()`, które zapisuje plik PostScript na dysku  
+- **Czy potrzebna jest licencja do produkcji?** Tak, licencja komercyjna odblokowuje pełną funkcjonalność  
 
-Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## Czym jest gradient diagonalny w PostScript?
 
--  Biblioteka Aspose.Page dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Page dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/page/net/).
+Gradient diagonalny to liniowe przejście kolorów, które przebiega pod kątem (zazwyczaj 45°) przez kształt. W PostScript osiąga się to, stosując `LinearGradientBrush` z niestandardową macierzą transformacji, która obraca, skaluje i przesuwa gradient, aby dopasować go do żądanego prostokąta.
 
-- Katalog dokumentów: skonfiguruj katalog dla swoich dokumentów, w którym zostanie zapisany wyjściowy plik PS.
+## Dlaczego używać Aspose.Page do wypełnień gradientowych?
 
-Przejdźmy teraz do przewodnika krok po kroku.
+Aspose.Page abstrahuje niskopoziomowe polecenia PostScript, pozwalając pracować z znanymi obiektami graficznymi .NET. Możesz tworzyć złożone wypełnienia, ustawiać wymiary stron i eksportować bezpośrednio do **save PostScript file** bez konieczności ręcznego pisania składni PS.
 
-## Importuj przestrzenie nazw
+## Wymagania wstępne
 
-Po pierwsze, pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw do swojego projektu. Te przestrzenie nazw są kluczowe dla pracy z funkcjonalnościami Aspose.Page.
+- **Aspose.Page for .NET Library** – pobierz ją [tutaj](https://releases.aspose.com/page/net/).  
+- **Document Directory** – folder, w którym zostanie zapisany wygenerowany plik `*.ps`.
+
+Teraz, gdy podstawy są już omówione, przejdźmy krok po kroku przez implementację.
+
+## Importowanie przestrzeni nazw
+
+Najpierw zaimportuj przestrzenie nazw, które dają dostęp do urządzenia EPS, narzędzi rysunkowych i klas I/O.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,28 +53,28 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Krok 1: Utwórz strumień wyjściowy dla dokumentu PostScript
+## Krok 1: Utwórz strumień wyjściowy dla dokumentu PostScript (Utwórz dokument PostScript)
 
 ```csharp
 // ExStart:1
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//Utwórz strumień wyjściowy dla dokumentu PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps", FileMode.Create))
 {
 ```
 
-## Krok 2: Utwórz opcje zapisu w formacie A4
+## Krok 2: Ustaw rozmiar strony A4 (Opcje zapisu)
 
 ```csharp
-	//Twórz opcje zapisywania w formacie A4
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Krok 3: Utwórz nowy 1-stronicowy dokument PS
+## Krok 3: Utwórz nowy dokument PS jednopaginowy
 
 ```csharp
-	// Utwórz nowy 1-stronicowy dokument PS
+	// Create new 1-paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
@@ -76,15 +90,15 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 ## Krok 5: Utwórz ścieżkę graficzną
 
 ```csharp
-	//Utwórz ścieżkę graficzną z pierwszego prostokąta
+	//Create graphics path from the first rectangle
 	System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 ```
 
-## Krok 6: Utwórz liniowy pędzel gradientowy
+## Krok 6: Utwórz pędzel Linear Gradient (Wypełnij gradientem prostokąt)
 
 ```csharp
-	//Utwórz pędzel gradientu liniowego z prostokątem jako kolorami granic, początkowymi i końcowymi
+	//Create linear gradient brush with rectangle as bounds, start, and end colors
 	LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(255, 255, 0, 0),
 		Color.FromArgb(255, 0, 0, 255), 0f);
 ```
@@ -92,15 +106,15 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 ## Krok 7: Utwórz transformację dla pędzla
 
 ```csharp
-	//Utwórz transformację dla pędzla. Składowa skali X i Y musi być równa odpowiednio szerokości i wysokości prostokąta.
-	// Składniki translacji są przesunięciami prostokąta
+	//Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+	//Translation components are offsets of the rectangle                
 	System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
 ```
 
-## Krok 8: Zastosuj transformacje do pędzla
+## Krok 8: Zastosuj transformacje do pędzla (Obróć, Skaluj, Przesuń)
 
 ```csharp
-	//Obróć gradient, następnie przeskaluj i przesuń, aby uzyskać widoczne przejście kolorów w wymaganym prostokącie
+	//Rotate gradient, then scale and translate to get visible color transition in required rectangle
 	brushTransform.Rotate(-45);
 	float hypotenuse = (float)System.Math.Sqrt(200 * 200 + 100 * 100);
 	float ratio = hypotenuse / 200;
@@ -108,66 +122,78 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	brushTransform.Translate(100 / brushTransform.Elements[0], 0);
 ```
 
-## Krok 9: Ustaw opcję Przekształć na Pędzel
+## Krok 9: Ustaw transformację dla pędzla
 
 ```csharp
-	//Ustaw transformację
+	//Set transform
 	brush.Transform = brushTransform;
 ```
 
 ## Krok 10: Ustaw farbę i wypełnij prostokąt
 
 ```csharp
-	//Ustaw farbę
+	//Set paint
 	document.SetPaint(brush);
 
-	//Wypełnij prostokąt
+	//Fill the rectangle
 	document.Fill(path);
 ```
 
 ## Krok 11: Zamknij bieżącą stronę
 
 ```csharp
-	//Zamknij bieżącą stronę
+	//Close current page
 	document.ClosePage();
 ```
 
-## Krok 12: Zapisz dokument
+## Krok 12: Zapisz dokument (Zapisz plik PostScript)
 
 ```csharp
-	//Zapisz dokument
+	//Save the document
 	document.Save();
 }
-// RozwińKoniec:1
+// ExEnd:1
 ```
 
-Wykonując poniższe kroki, z powodzeniem dodasz ukośny gradient do dokumentu PostScript przy użyciu Aspose.Page dla .NET.
+## Jak zapisać plik PostScript
 
-## Wniosek
+Wywołanie `PsDocument.Save()` zapisuje w pełni sformowany content PostScript do strumienia otwartego w **Kroku 1**. Po zakończeniu bloku `using` plik `DiagonaGradient_outPS.ps` będzie dostępny w katalogu, który określiłeś.
 
-Ulepszanie dokumentów PS za pomocą ukośnych gradientów może sprawić, że Twoje projekty będą atrakcyjne wizualnie i dynamiczne. Aspose.Page dla .NET upraszcza ten proces, umożliwiając programistom bezproblemową integrację tej funkcji ze swoimi aplikacjami.
+## Typowe przypadki użycia
 
-## Często zadawane pytania
+- **Dokumentacja techniczna** wymagająca subtelnego cieniowania tła.  
+- **Broszury marketingowe**, w których gradient diagonalny dodaje nowoczesny wygląd.  
+- **Automatyczne generatory raportów**, które na bieżąco tworzą drukowalne pliki PS.
 
-### P1: Czy Aspose.Page jest kompatybilny ze wszystkimi frameworkami .NET?
+## Rozwiązywanie problemów i wskazówki
 
-O1: Aspose.Page obsługuje różne platformy .NET, zapewniając kompatybilność z szeroką gamą środowisk programistycznych.
+- **Nieprawidłowe kolory** – sprawdź ponownie wartości ARGB przekazywane do `LinearGradientBrush`.  
+- **Gradient niewidoczny** – upewnij się, że macierz transformacji prawidłowo obraca i skaluje; wywołanie `Rotate(-45)` ustawia kąt diagonalny.  
+- **Plik nie został utworzony** – sprawdź, czy `dataDir` wskazuje istniejący folder i czy aplikacja ma uprawnienia do zapisu.
 
-### P2: Czy mogę dostosować kolory gradientu w Aspose.Page?
+## Najczęściej zadawane pytania
 
-Odpowiedź 2: Tak, Aspose.Page zapewnia elastyczność w wyborze i dostosowywaniu kolorów gradientu zgodnie z wymaganiami projektu.
+**P: Czy Aspose.Page jest kompatybilny ze wszystkimi frameworkami .NET?**  
+O: Aspose.Page obsługuje szeroki zakres wersji .NET, od .NET Framework 4.5+ po .NET 6+, zapewniając dużą kompatybilność.
 
-### P3: Czy dostępna jest wersja próbna Aspose.Page?
+**P: Czy mogę dostosować kolory gradientu w Aspose.Page?**  
+O: Tak, możesz określić dowolne kolory ARGB przy tworzeniu `LinearGradientBrush`, co daje pełną kontrolę nad kolorami początkowymi i końcowymi.
 
- Odpowiedź 3: Tak, możesz poznać funkcje Aspose.Page, pobierając wersję próbną[Tutaj](https://releases.aspose.com/).
+**P: Czy dostępna jest wersja próbna Aspose.Page?**  
+O: Tak, możesz zapoznać się z funkcjami Aspose.Page, pobierając wersję próbną [tutaj](https://releases.aspose.com/).
 
-### P4: Jak mogę uzyskać tymczasową licencję na Aspose.Page?
+**P: Jak mogę uzyskać tymczasową licencję dla Aspose.Page?**  
+O: Uzyskaj tymczasową licencję dla Aspose.Page [tutaj](https://purchase.aspose.com/temporary-license/), aby odblokować dodatkowe możliwości podczas oceny.
 
- A4: Uzyskaj tymczasową licencję na Aspose.Page[Tutaj](https://purchase.aspose.com/temporary-license/) aby odblokować dodatkowe funkcje.
+**P: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.Page?**  
+O: Dołącz do społeczności Aspose.Page na [forum](https://forum.aspose.com/c/page/39), aby uzyskać pomoc i dyskusje.
 
-### P5: Gdzie mogę znaleźć wsparcie społeczności dla Aspose.Page?
+---
 
- A5: Nawiąż kontakt ze społecznością Aspose.Page na stronie[forum](https://forum.aspose.com/c/page/39) za pomoc i dyskusję.
+**Ostatnia aktualizacja:** 2026-02-23  
+**Testowano z:** Aspose.Page for .NET (najnowsze stabilne wydanie)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

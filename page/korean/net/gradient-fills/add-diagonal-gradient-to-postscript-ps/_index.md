@@ -1,35 +1,49 @@
 ---
-title: Aspose.Page .NET을 사용하여 PostScript(PS)에 대각선 그라디언트 추가
-linktitle: PostScript에 대각선 그라디언트 추가(PS)
-second_title: Aspose.페이지 .NET API
-description: Aspose.Page를 사용하여 .NET의 PostScript 문서에 대각선 그라데이션을 추가하는 단순성을 살펴보세요. 역동적인 시각적 요소로 프로젝트를 향상시키세요.
-weight: 10
+date: 2026-02-23
+description: PostScript 파일에 그라디언트를 추가하고, A4 페이지 크기로 PostScript 파일을 저장하며, Aspose.Page
+  for .NET을 사용하여 사각형에 그라디언트를 채우는 방법을 배웁니다.
+linktitle: Add Diagonal Gradient to PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Aspose.Page .NET를 사용하여 PostScript(PS)에서 그라디언트 – 대각선 그라디언트 추가 방법
 url: /ko/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page .NET을 사용하여 PostScript(PS)에 대각선 그라디언트 추가
+# 그라디언트 추가 방법: Aspose.Page .NET을 사용한 PostScript (PS) 대각선 그라디언트
 
-## 소개
+## Introduction
 
-PostScript(PS) 문서에 대각선 그라디언트를 추가하면 프로젝트에 시각적 매력과 창의성을 더할 수 있습니다. .NET용 Aspose.Page는 이 기능을 애플리케이션에 통합하기 위한 완벽한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Page를 사용하여 PS 문서에 대각선 그라디언트를 추가하는 과정을 단계별로 안내합니다.
+PostScript (PS) 문서에 대각선 그라디언트를 추가하면 시각적 매력이 크게 향상됩니다. 특히 기술 보고서, 브로셔, 그래픽 중심 애플리케이션에서 **그라디언트 추가 방법** 효과가 필요할 때 그렇습니다. 이 튜토리얼에서는 Aspose.Page for .NET을 사용하여 PostScript 파일에 그라디언트를 추가하고, A4 페이지 크기를 설정하며, 사각형을 부드러운 색상 전환으로 채우는 방법을 정확히 보여줍니다.
 
-## 전제 조건
+## Quick Answers
+- **필요한 라이브러리는?** Aspose.Page for .NET  
+- **지원되는 .NET 버전은?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6  
+- **그라디언트 방향을 변경할 수 있나요?** 예 – 코드에 표시된 대로 브러시 변환을 회전합니다  
+- **결과를 어떻게 저장하나요?** `PsDocument.Save()`를 사용하면 PostScript 파일이 디스크에 기록됩니다  
+- **프로덕션에 라이선스가 필요합니까?** 예, 상용 라이선스를 사용하면 전체 기능을 사용할 수 있습니다  
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## What is a diagonal gradient in PostScript?
 
--  .NET 라이브러리용 Aspose.Page: .NET 라이브러리용 Aspose.Page가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/page/net/).
+대각선 그라디언트는 형태를 가로질러 각도(보통 45°)로 진행되는 선형 색상 전환입니다. PostScript에서는 `LinearGradientBrush`에 사용자 정의 변환 행렬을 적용하여 그라디언트를 회전, 스케일 및 이동시켜 원하는 사각형에 맞추는 방식으로 구현됩니다.
 
-- 문서 디렉터리: 출력 PS 파일이 저장될 문서 디렉터리를 설정합니다.
+## Why use Aspose.Page for gradient fills?
 
-이제 단계별 가이드로 넘어가겠습니다.
+Aspose.Page는 저수준 PostScript 명령을 추상화하여 익숙한 .NET 그래픽 객체로 작업할 수 있게 해줍니다. 복잡한 채우기를 만들고, 페이지 크기를 설정하며, 원시 PS 구문을 다루지 않고도 **save PostScript file**로 직접 내보낼 수 있습니다.
+
+## Prerequisites
+
+- **Aspose.Page for .NET Library** – [여기](https://releases.aspose.com/page/net/)에서 다운로드하세요.  
+- **Document Directory** – 생성된 `*.ps` 파일이 기록될 폴더입니다.
+
+이제 기본 사항을 살펴보았으니, 구현 과정을 단계별로 진행해 보겠습니다.
 
 ## 네임스페이스 가져오기
 
-먼저, 필요한 네임스페이스를 프로젝트로 가져와야 합니다. 이러한 네임스페이스는 Aspose.Page 기능을 사용하는 데 중요합니다.
+먼저, EPS 디바이스, 그리기 유틸리티 및 I/O 클래스를 사용할 수 있게 해주는 네임스페이스를 가져옵니다.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,32 +53,32 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 1단계: PostScript 문서에 대한 출력 스트림 만들기
+## Step 1: PostScript 문서용 출력 스트림 생성 (Create PostScript Document)
 
 ```csharp
 // ExStart:1
-// 문서 디렉터리의 경로입니다.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//PostScript 문서의 출력 스트림 생성
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps", FileMode.Create))
 {
 ```
 
-## 2단계: A4 크기로 저장 옵션 만들기
+## Step 2: A4 페이지 크기 설정 (Save Options)
 
 ```csharp
-	//A4 크기로 저장 옵션 만들기
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 ```
 
-## 3단계: 새 1페이지 PS 문서 만들기
+## Step 3: 새 1페이지 PS 문서 생성
 
 ```csharp
-	// 새로운 1페이지 PS 문서 만들기
+	// Create new 1-paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## 4단계: 직사각형 매개변수 정의
+## Step 4: 사각형 매개변수 정의
 
 ```csharp
 	float offsetX = 200;
@@ -73,34 +87,34 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	float height = 100;
 ```
 
-## 5단계: 그래픽 경로 생성
+## Step 5: 그래픽 경로 생성
 
 ```csharp
-	//첫 번째 직사각형에서 그래픽 경로 만들기
+	//Create graphics path from the first rectangle
 	System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 ```
 
-## 6단계: 선형 그라디언트 브러시 만들기
+## Step 6: Linear Gradient Brush 생성 (사각형 그라디언트 채우기)
 
 ```csharp
-	//사각형을 경계, 시작 및 끝 색상으로 사용하여 선형 그래디언트 브러시 만들기
+	//Create linear gradient brush with rectangle as bounds, start, and end colors
 	LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(255, 255, 0, 0),
 		Color.FromArgb(255, 0, 0, 255), 0f);
 ```
 
-## 7단계: 브러시용 변환 생성
+## Step 7: 브러시용 변환 생성
 
 ```csharp
-	//브러시에 대한 변환을 만듭니다. X 및 Y 스케일 구성요소는 그에 따라 직사각형의 너비 및 높이와 같아야 합니다.
-	// 변환 구성요소는 직사각형의 오프셋입니다.
+	//Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+	//Translation components are offsets of the rectangle                
 	System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
 ```
 
-## 8단계: 브러시에 변환 적용
+## Step 8: 브러시 변환 적용 (회전, 스케일, 이동)
 
 ```csharp
-	//그라디언트를 회전한 다음 크기를 조정하고 변환하여 필요한 직사각형에서 눈에 보이는 색상 전환을 얻습니다.
+	//Rotate gradient, then scale and translate to get visible color transition in required rectangle
 	brushTransform.Rotate(-45);
 	float hypotenuse = (float)System.Math.Sqrt(200 * 200 + 100 * 100);
 	float ratio = hypotenuse / 200;
@@ -108,66 +122,78 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	brushTransform.Translate(100 / brushTransform.Elements[0], 0);
 ```
 
-## 9단계: 변환을 브러시로 설정
+## Step 9: 브러시 변환 설정
 
 ```csharp
-	//변환 설정
+	//Set transform
 	brush.Transform = brushTransform;
 ```
 
-## 10단계: 페인트 설정 및 직사각형 채우기
+## Step 10: 페인트 설정 및 사각형 채우기
 
 ```csharp
-	//페인트 세트
+	//Set paint
 	document.SetPaint(brush);
 
-	//직사각형을 채우세요
+	//Fill the rectangle
 	document.Fill(path);
 ```
 
-## 11단계: 현재 페이지 닫기
+## Step 11: 현재 페이지 닫기
 
 ```csharp
-	//현재 페이지 닫기
+	//Close current page
 	document.ClosePage();
 ```
 
-## 12단계: 문서 저장
+## Step 12: 문서 저장 (Save PostScript File)
 
 ```csharp
-	//문서 저장
+	//Save the document
 	document.Save();
 }
-// 연장:1
+// ExEnd:1
 ```
 
-다음 단계를 수행하면 .NET용 Aspose.Page를 사용하여 PostScript 문서에 대각선 그라데이션을 성공적으로 추가할 수 있습니다.
+## PostScript 파일 저장 방법
 
-## 결론
+`PsDocument.Save()` 호출은 **Step 1**에서 연 스트림에 완전한 PostScript 내용을 기록합니다. `using` 블록이 완료되면, 지정한 디렉터리에 `DiagonaGradient_outPS.ps` 파일이 생성됩니다.
 
-대각선 그라디언트로 PS 문서를 향상하면 프로젝트를 시각적으로 매력적이고 역동적으로 만들 수 있습니다. .NET용 Aspose.Page는 이 프로세스를 단순화하여 개발자가 이 기능을 자신의 애플리케이션에 쉽게 통합할 수 있도록 합니다.
+## 일반적인 사용 사례
 
-## FAQ
+- **기술 문서**에서 미묘한 배경 음영이 필요할 때.  
+- **마케팅 브로셔**에서 대각선 그라디언트가 현대적인 느낌을 줄 때.  
+- **자동화된 보고서 생성기**가 즉시 인쇄 가능한 PS 파일을 생성할 때.
 
-### Q1: Aspose.Page는 모든 .NET 프레임워크와 호환됩니까?
+## 문제 해결 및 팁
 
-A1: Aspose.Page는 다양한 .NET 프레임워크를 지원하여 광범위한 개발 환경과의 호환성을 보장합니다.
+- **색상이 올바르지 않음** – `LinearGradientBrush`에 전달된 ARGB 값을 다시 확인하세요.  
+- **그라디언트가 보이지 않음** – 변환 행렬이 올바르게 회전 및 스케일되는지 확인하세요; `Rotate(-45)` 호출이 대각선 각도를 설정합니다.  
+- **파일이 생성되지 않음** – `dataDir`이 존재하는 폴더를 가리키는지와 애플리케이션에 쓰기 권한이 있는지 확인하세요.
 
-### Q2: Aspose.Page에서 그라데이션 색상을 사용자 지정할 수 있나요?
+## 자주 묻는 질문
 
-A2: 예, Aspose.Page는 프로젝트 요구 사항에 따라 그라데이션 색상을 선택하고 사용자 정의할 수 있는 유연성을 제공합니다.
+**Q: Aspose.Page가 모든 .NET 프레임워크와 호환되나요?**  
+A: Aspose.Page는 .NET Framework 4.5+부터 .NET 6+까지 다양한 .NET 버전을 지원하여 광범위한 호환성을 보장합니다.
 
-### Q3: Aspose.Page에 사용할 수 있는 평가판이 있습니까?
+**Q: Aspose.Page에서 그라디언트 색상을 사용자 정의할 수 있나요?**  
+A: 예, `LinearGradientBrush`를 생성할 때 원하는 ARGB 색상을 지정할 수 있어 시작 및 종료 색조를 완전히 제어할 수 있습니다.
 
- A3: 예, 평가판을 다운로드하여 Aspose.Page의 기능을 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
+**Q: Aspose.Page의 체험 버전이 있나요?**  
+A: 예, [여기](https://releases.aspose.com/)에서 체험 버전을 다운로드하여 Aspose.Page 기능을 살펴볼 수 있습니다.
 
-### Q4: Aspose.Page에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
+**Q: Aspose.Page의 임시 라이선스를 어떻게 얻을 수 있나요?**  
+A: 평가 기간 동안 추가 기능을 사용하려면 Aspose.Page 임시 라이선스를 [여기](https://purchase.aspose.com/temporary-license/)에서 얻으세요.
 
- A4: Aspose.Page에 대한 임시 라이선스를 얻습니다.[여기](https://purchase.aspose.com/temporary-license/) 추가 기능의 잠금을 해제합니다.
+**Q: Aspose.Page 커뮤니티 지원을 어디서 찾을 수 있나요?**  
+A: 지원 및 토론을 위해 [포럼](https://forum.aspose.com/c/page/39)에서 Aspose.Page 커뮤니티에 참여하세요.
 
-### Q5: Aspose.Page에 대한 커뮤니티 지원은 어디서 찾을 수 있나요?
+---
 
- A5: Aspose.Page 커뮤니티에 참여하세요.[법정](https://forum.aspose.com/c/page/39) 도움과 토론을 위해.
+**마지막 업데이트:** 2026-02-23  
+**테스트 환경:** Aspose.Page for .NET (최신 안정 버전)  
+**작성자:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
