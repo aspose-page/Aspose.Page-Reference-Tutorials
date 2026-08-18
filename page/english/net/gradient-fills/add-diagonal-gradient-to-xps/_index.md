@@ -1,5 +1,5 @@
 ---
-title: Create Diagonal Gradient XPS with Aspose.Page for .NET
+title: Generate Diagonal Gradient XPS Document with Aspose.Page for .NET
 linktitle: Add Diagonal Gradient to XPS
 second_title: Aspose.Page .NET API
 description: Learn how to create diagonal gradient XPS documents using Aspose.Page for .NET and elevate your visual presentations effortlessly.
@@ -36,7 +36,7 @@ A diagonal gradient is a smooth color transition that runs from one corner of a 
 
 ## Prerequisites
 
-1. **Aspose.Page for .NET Library** – download it [here](https://releases.aspose.com/page/net/).  
+1. **Aspose.Page for .NET Library** – download the Aspose.Page for .NET library from the official release page.  
 2. **Development Environment** – Visual Studio, Rider, or any editor that supports .NET projects.  
 
 Now, let’s dive into the code.
@@ -52,7 +52,7 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Step 1: Set the Document Directory
+## Step 1: set the document directory
 
 Begin by specifying the path to your document directory. This is where the resultant XPS document with the diagonal gradient will be saved.
 
@@ -61,7 +61,7 @@ Begin by specifying the path to your document directory. This is where the resul
 string dataDir = "Your Document Directory";
 ```
 
-## Step 2: Create a New XPS Document
+## Step 2: create a new XPS document
 
 Initialize a new `XpsDocument` using the Aspose.Page library.
 
@@ -69,7 +69,7 @@ Initialize a new `XpsDocument` using the Aspose.Page library.
 XpsDocument doc = new XpsDocument();
 ```
 
-## Step 3: Define Gradient Colors
+## Step 3: define gradient colors
 
 Create a list of `XpsGradientStop` objects, each representing a color in the diagonal gradient.
 
@@ -91,7 +91,7 @@ path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 10f), new PointF(228f,
 ((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);
 ```
 
-## Step 5: Save the Resultant XPS Document
+## Step 5: save the resultant XPS document
 
 Finally, save the modified XPS document to the specified directory.
 
@@ -101,12 +101,12 @@ doc.Save(dataDir + "AddDiagonalGradient_outXPS.xps");
 
 You’ve now successfully **created a diagonal gradient XPS** file. Feel free to experiment with different color stops, geometry strings, or transform matrices to produce a variety of visual effects.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Gradient not visible** – Verify that the path geometry is closed and that the brush’s start/end points are within the path bounds.  
 - **Incorrect colors** – Ensure you use `CreateColor` with the correct ARGB values; the method expects values in the 0‑255 range.  
 - **File not saved** – Check that `dataDir` points to an existing folder and that the application has write permissions.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I apply multiple gradients to different parts of the document?**  
 A: Yes, you can create multiple paths and apply distinct gradients to each.
@@ -133,12 +133,12 @@ A: Yes—include an alpha value when creating colors with `CreateColor`.
 
 Aspose.Page for .NET simplifies the process of enhancing XPS documents with diagonal gradients. This guide walked you through everything from setting up prerequisites to saving the final file. Keep experimenting with different shapes and color palettes to make your XPS reports, brochures, or invoices truly stand out.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -147,3 +147,10 @@ Aspose.Page for .NET simplifies the process of enhancing XPS documents with diag
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

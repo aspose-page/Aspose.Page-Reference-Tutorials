@@ -1,5 +1,5 @@
 ---
-title: How to Set License Using Embedded Resource with Aspose.Page for .NET
+title: Configure Embedded Resource Licensing in .NET
 linktitle: Set License Using Embedded Resource
 second_title: Aspose.Page .NET API
 description: Learn how to set license using embedded resources with Aspose.Page for .NET. Ensure compliance and unlock the full potential of document processing.
@@ -29,9 +29,9 @@ Aspose.Page for .NET is a powerful library that enables developers to work with 
 
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
 
-1. Aspose.Page for .NET Library: Ensure that you have the Aspose.Page for .NET library installed. You can download it from [here](https://releases.aspose.com/page/net/).
+1. Aspose.Page for .NET Library: Ensure that you have the Aspose.Page for .NET library installed. You can download it from the **[Aspose.Page for .NET download page](https://releases.aspose.com/page/net/)**.
 
-2. License File: Obtain the license file, commonly named "MergedAPI.Aspose.Total.NET.lic," which is essential for authenticating your use of Aspose.Page. If you don't have a license, you can get a temporary one from [here](https://purchase.aspose.com/temporary-license/).
+2. License File: Obtain the license file, commonly named "MergedAPI.Aspose.Total.NET.lic," which is essential for authenticating your use of Aspose.Page. If you don't have a license, you can get a temporary one from the **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
 Now, let's proceed with the step‑by‑step guide on how to set the license using an embedded resource.
 
@@ -46,7 +46,7 @@ using System.Linq;
 using System.Text;
 ```
 
-## Step 1: Initialize Document Directory
+## Step 1: initialize document directory
 
 Set the path to your document directory, where your project files are located. This directory will be used to locate the license file and other resources.
 
@@ -57,7 +57,7 @@ string dataDir = "Your Document Directory";
 // ExEnd:1
 ```
 
-## Step 2: Initialize License Object
+## Step 2: initialize license object
 
 Create an instance of the `Aspose.Page.License` class to manage the licensing operations.
 
@@ -67,7 +67,7 @@ Aspose.Page.License license = new Aspose.Page.License();
 // ExEnd:1
 ```
 
-## Step 3: Set License
+## Step 3: set license
 
 Set the license using the `SetLicense` method and provide the path to your license file.
 
@@ -77,7 +77,7 @@ license.SetLicense("MergedAPI.Aspose.Total.NET.lic");
 // ExEnd:1
 ```
 
-## Step 4: Enable Embedded License
+## Step 4: enable embedded license
 
 Indicate that the license will be embedded in the application by setting the `Embedded` property to `true`.
 
@@ -87,7 +87,7 @@ license.Embedded = true;
 // ExEnd:1
 ```
 
-## Step 5: Confirm Successful License Set
+## Step 5: confirm successful license set
 
 Finally, display a message confirming that the license has been set successfully.
 
@@ -99,7 +99,7 @@ Console.WriteLine("License set successfully.");
 
 Repeat these steps in your application to ensure that Aspose.Page is properly licensed and ready to be used in your document processing tasks.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **License file not found** – Verify that the file name and path are correct, and that the file is marked as an *Embedded Resource* in the project properties.  
 - **`Embedded` property ignored** – Ensure you are using a recent version of Aspose.Page; older builds may not support embedded licensing.  
@@ -117,21 +117,21 @@ A1: While you can use Aspose.Page without a license, it is recommended to obtain
 
 ### Q2: Where can I find more examples and documentation for Aspose.Page?
 
-A2: Explore the comprehensive documentation [here](https://reference.aspose.com/page/net/).
+A2: Explore the comprehensive documentation **[Aspose.Page .NET API reference](https://reference.aspose.com/page/net/)**.
 
 ### Q3: Is there a free trial available?
 
-A3: Yes, you can get a free trial [here](https://releases.aspose.com/).
+A3: Yes, you can get a free trial **[free trial download page](https://releases.aspose.com/)**.
 
 ### Q4: How can I get a temporary license?
 
-A4: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A4: Obtain a temporary license **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
 ### Q5: Where can I purchase Aspose.Page for .NET?
 
-A5: You can purchase Aspose.Page [here](https://purchase.aspose.com/buy).
+A5: You can purchase Aspose.Page **[Aspose.Page purchase page](https://purchase.aspose.com/buy)**.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I embed the license in a class library and still use it from a console app?**  
 A: Yes. As long as the library containing the embedded license is referenced, the console application will locate the resource automatically.

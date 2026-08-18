@@ -1,5 +1,5 @@
 ---
-title: "How to Add Gradient – Diagonal Gradient in PostScript (PS) with Aspose.Page .NET"
+title: "Add Diagonal Gradient to PostScript (PS) Document with Aspose.Page .NET"
 linktitle: Add Diagonal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: "Learn how to add gradient to PostScript files, save PostScript file with A4 page size, and fill rectangle gradient using Aspose.Page for .NET."
@@ -35,7 +35,7 @@ Aspose.Page abstracts the low‑level PostScript commands, letting you work with
 
 ## Prerequisites
 
-- **Aspose.Page for .NET Library** – download it [here](https://releases.aspose.com/page/net/).  
+- **Aspose.Page for .NET Library** – download it [Aspose.Page for .NET download page](https://releases.aspose.com/page/net/).  
 - **Document Directory** – a folder where the generated `*.ps` file will be written.
 
 Now that we have the basics covered, let’s walk through the implementation step by step.
@@ -52,7 +52,7 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Step 1: Create Output Stream for PostScript Document (Create PostScript Document)
+## Step 1: create output stream for postScript document (Create postScript document)
 
 ```csharp
 // ExStart:1
@@ -63,21 +63,21 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 {
 ```
 
-## Step 2: Set A4 Page Size (Save Options)
+## Step 2: set A4 page size (Save options)
 
 ```csharp
 	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Step 3: Create a New 1‑Paged PS Document
+## Step 3: create a new 1‑Paged PS document
 
 ```csharp
 	// Create new 1-paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Step 4: Define Rectangle Parameters
+## Step 4: define rectangle parameters
 
 ```csharp
 	float offsetX = 200;
@@ -86,7 +86,7 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	float height = 100;
 ```
 
-## Step 5: Create Graphics Path
+## Step 5: create graphics path
 
 ```csharp
 	//Create graphics path from the first rectangle
@@ -94,7 +94,7 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 ```
 
-## Step 6: Create Linear Gradient Brush (Fill Rectangle Gradient)
+## Step 6: create linear gradient brush (Fill rectangle gradient)
 
 ```csharp
 	//Create linear gradient brush with rectangle as bounds, start, and end colors
@@ -102,7 +102,7 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 		Color.FromArgb(255, 0, 0, 255), 0f);
 ```
 
-## Step 7: Create Transform for Brush
+## Step 7: create transform for brush
 
 ```csharp
 	//Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
@@ -110,7 +110,7 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
 ```
 
-## Step 8: Apply Transformations to Brush (Rotate, Scale, Translate)
+## Step 8: apply transformations to brush (Rotate, scale, translate)
 
 ```csharp
 	//Rotate gradient, then scale and translate to get visible color transition in required rectangle
@@ -121,14 +121,14 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	brushTransform.Translate(100 / brushTransform.Elements[0], 0);
 ```
 
-## Step 9: Set Transform to Brush
+## Step 9: set transform to brush
 
 ```csharp
 	//Set transform
 	brush.Transform = brushTransform;
 ```
 
-## Step 10: Set Paint and Fill the Rectangle
+## Step 10: set paint and fill the rectangle
 
 ```csharp
 	//Set paint
@@ -138,14 +138,14 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 	document.Fill(path);
 ```
 
-## Step 11: Close the Current Page
+## Step 11: close the current page
 
 ```csharp
 	//Close current page
 	document.ClosePage();
 ```
 
-## Step 12: Save the Document (Save PostScript File)
+## Step 12: save the document (Save postScript file)
 
 ```csharp
 	//Save the document
@@ -158,19 +158,19 @@ using (Stream outPsStream = new FileStream(dataDir + "DiagonaGradient_outPS.ps",
 
 The `PsDocument.Save()` call writes the fully‑formed PostScript content to the stream you opened in **Step 1**. After the `using` block completes, the file `DiagonaGradient_outPS.ps` will be available in the directory you specified.
 
-## Common Use Cases
+## Common use cases
 
 - **Technical documentation** that needs a subtle background shading.  
 - **Marketing brochures** where a diagonal gradient adds a modern look.  
 - **Automated report generators** that produce printable PS files on the fly.
 
-## Troubleshooting & Tips
+## Troubleshooting & tips
 
 - **Incorrect colors** – double‑check the ARGB values passed to `LinearGradientBrush`.  
 - **Gradient not visible** – ensure the transform matrix correctly rotates and scales; the `Rotate(-45)` call sets the diagonal angle.  
 - **File not created** – verify that `dataDir` points to an existing folder and that the application has write permissions.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.Page compatible with all .NET frameworks?**  
 A: Aspose.Page supports a wide range of .NET versions, from .NET Framework 4.5+ to .NET 6+, ensuring broad compatibility.
@@ -179,10 +179,10 @@ A: Aspose.Page supports a wide range of .NET versions, from .NET Framework 4.5
 A: Yes, you can specify any ARGB colors when constructing `LinearGradientBrush`, giving you full control over start and end hues.
 
 **Q: Is there a trial version available for Aspose.Page?**  
-A: Yes, you can explore Aspose.Page's features by downloading the trial version [here](https://releases.aspose.com/).
+A: Yes, you can explore Aspose.Page's features by downloading the trial version [Aspose.Page trial download page](https://releases.aspose.com/).
 
 **Q: How can I obtain a temporary license for Aspose.Page?**  
-A: Obtain a temporary license for Aspose.Page [here](https://purchase.aspose.com/temporary-license/) to unlock additional capabilities during evaluation.
+A: Obtain a temporary license for Aspose.Page [Aspose.Page temporary license request page](https://purchase.aspose.com/temporary-license/) to unlock additional capabilities during evaluation.
 
 **Q: Where can I find community support for Aspose.Page?**  
 A: Engage with the Aspose.Page community on the [forum](https://forum.aspose.com/c/page/39) for assistance and discussions.
