@@ -1,8 +1,8 @@
 ---
-title: How to Draw Rectangle Java in PostScript with Aspose.Page
-linktitle: How to Draw Rectangle Java in PostScript with Aspose.Page
+title: Generate a Rectangle in PostScript Using Aspose.Page for Java
+linktitle: Generate a Rectangle in PostScript Using Aspose.Page for Java
 second_title: Aspose.Page Java API
-description: Learn how to draw rectangle java in PostScript using Aspose.Page for Java. Follow step‑by‑step tutorials to add ellipses, rectangles, and customize shapes effortlessly.
+description: Learn how to generate a rectangle in PostScript using Aspose.Page for Java. Follow step‑by‑step tutorials to add ellipses, rectangles, and customize shapes effortlessly.
 weight: 34
 url: /java/postscript-shapes/
 date: 2026-02-20
@@ -12,7 +12,7 @@ date: 2026-02-20
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Draw Rectangle Java in PostScript with Aspose.Page
+# Generate a Rectangle in PostScript Using Aspose.Page for Java
 
 ## Introduction
 
@@ -41,6 +41,29 @@ Below is a concise walkthrough that shows exactly how you can create a rectangle
 
 > **Pro tip:** If you need to draw many rectangles, batch the drawing commands inside a single `Graphics` session to improve performance.
 
+```java
+// Create a new PostScript document
+Document document = new Document();
+Graphics graphics = new Graphics(document.getPages().add());
+
+// Define rectangle dimensions
+float x = 100;
+float y = 100;
+float width = 200;
+float height = 150;
+
+// Set fill and stroke colors
+graphics.setFillColor(Color.getRGB(255, 0, 0));   // Red fill
+graphics.setStrokeColor(Color.getRGB(0, 0, 0));   // Black border
+graphics.setLineWidth(2);
+
+// Draw the rectangle
+graphics.drawRectangle(x, y, width, height);
+
+// Save the document
+document.save("rectangle.ps");
+```
+
 ## Why use Aspose.Page for Java to draw rectangles?
 
 - **High‑level abstraction:** No need to write raw PostScript commands.
@@ -48,7 +71,7 @@ Below is a concise walkthrough that shows exactly how you can create a rectangle
 - **Cross‑platform output:** Generate .ps files that work on any PostScript viewer or printer.
 - **Seamless integration:** Works with existing Java build tools (Maven, Gradle).
 
-## Adding Ellipse in Java PostScript
+## Adding ellipse in java postScript
 
 Creating aesthetically pleasing documents often requires the inclusion of ellipses. With Aspose.Page for Java, the task becomes a breeze. Follow these simple steps to add an ellipse to your PostScript document:
 
@@ -65,35 +88,35 @@ Use the designated method to add an ellipse to your PostScript document. Aspose.
 #### Customize Ellipse:
 Enhance your ellipse by adjusting attributes like color, transparency, and border. Aspose.Page provides comprehensive options to tailor the visual aspects of your document.
 
-#### Save Your Document:
+#### Save your document:
 Once you've perfected the ellipse addition, save your PostScript document. You can choose from various formats, ensuring compatibility with different applications.
 
 By following these steps, you'll seamlessly integrate captivating ellipses into your Java PostScript documents.
 
-#### [Continue to Add Ellipse Tutorial](./add-ellipse/)
+{{< relref "add-ellipse/_index.md" >}}Continue to the ellipse tutorial{{< /relref >}}
 
-## Adding Rectangle in Java PostScript
+## Adding rectangle in java postScript
 
 Rectangles are fundamental shapes that contribute to the visual appeal of your documents. Aspose.Page for Java empowers you to add vibrant rectangles effortlessly. Here's a step‑by‑step guide:
 
 #### Integrate Aspose.Page for Java:
 Similar to the ellipse tutorial, ensure Aspose.Page is integrated into your Java project. If not, refer to the [documentation](https://reference.aspose.com/page/java/) for a quick setup.
 
-#### Access PostScript API:
+#### Access postScript API:
 Utilize the PostScript API provided by Aspose.Page to manipulate shapes. This API serves as your toolkit for interacting with rectangles and other elements.
 
 #### Add Rectangle:
 Employ the dedicated method to add a rectangle to your PostScript document. Specify parameters like position, dimensions, and styling with ease.
 
-#### Customize Rectangle Appearance:
+#### Customize rectangle appearance:
 Elevate your document's visual appeal by customizing the rectangle. Adjust attributes such as color, shading, and borders to achieve the desired look.
 
-#### Save Your Document:
+#### Save your document:
 Once satisfied with the rectangle addition, save your PostScript document in the preferred format. Aspose.Page offers flexibility in choosing the output format.
 
 Incorporate these steps into your Java PostScript projects, and witness a seamless enhancement in document customization.
 
-#### [Continue to Add Rectangle Tutorial](./add-rectangle/)
+{{< relref "add-rectangle/_index.md" >}}Continue to the rectangle tutorial{{< /relref >}}
 
 ## How to set rectangle color in Java PostScript
 Coloring a rectangle is as simple as setting the fill and stroke brushes before calling the draw method. Use `Color.getRGB(r, g, b)` for solid colors or `Color.getARGB(a, r, g, b)` when you need transparency. Remember to set both fill and stroke; otherwise the shape may appear invisible.
@@ -104,7 +127,7 @@ The same API you used for rectangles also supports ellipses. Call the `drawEllip
 ## How to export PostScript to PDF using Aspose.Page
 After you have finished drawing shapes, you can convert the .ps file to PDF with a single line: `document.save("output.pdf", SaveFormat.PDF);`. This **export postscript to pdf** feature is handy when you need a printable PDF version of your design without losing any vector quality.
 
-## Common Use Cases for Drawing Rectangles in Java PostScript
+## Common use cases for drawing rectangles in java postScript
 
 - **Report headers:** Use rectangles as colored banners or section dividers.
 - **Invoice tables:** Outline cells or highlight totals with styled rectangles.
@@ -117,7 +140,7 @@ After you have finished drawing shapes, you can convert the .ps file to PDF with
 - **Missing colors:** Ensure you set both fill and stroke colors; otherwise the rectangle may appear invisible.
 - **Performance concerns:** For documents with thousands of shapes, batch the drawing commands to reduce processing overhead.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I draw multiple rectangles in a single document?**  
 A: Absolutely. Call the rectangle‑adding method repeatedly with different coordinates and styles.
@@ -138,10 +161,11 @@ A: A temporary evaluation license is sufficient for development and testing; a f
 
 Now that you’ve mastered adding ellipses and rectangles, explore other shape primitives such as lines, polygons, and Bézier curves. Check out the full **Shapes - PostScript Tutorials** list below for deeper dives.
 
-## Shapes - PostScript Tutorials
-### [Add Ellipse in Java PostScript](./add-ellipse/)
+## Shapes - postScript tutorials
+### {{< relref "add-ellipse/_index.md" >}}Add ellipse in java postScript{{< /relref >}}
 Master creating stunning PostScript documents in Java with Aspose.Page. Learn to add ellipses step‑by‑step for visually appealing content.
-### [Add Rectangle in Java PostScript](./add-rectangle/)
+
+### {{< relref "add-rectangle/_index.md" >}}Add rectangle in java postScript{{< /relref >}}
 Explore the step‑by‑step guide on adding vibrant rectangles to Java PostScript documents using Aspose.Page for Java. Enhance your document customization effortlessly!
 
 ---
