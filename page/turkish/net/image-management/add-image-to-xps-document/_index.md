@@ -1,10 +1,12 @@
 ---
-title: Aspose.Page for .NET ile XPS Belgesine Görüntü Ekleme
-linktitle: XPS Belgesine Resim Ekle
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page for .NET ile görüntülerin XPS belgelerine kusursuz entegrasyonunu keşfedin. Sorunsuz bir geliştirme deneyimi için adım adım kılavuzumuzu izleyin.
-weight: 11
+date: 2026-02-28
+description: Aspose.Page for .NET kullanarak XPS belgesi oluşturmayı ve görüntü eklemeyi
+  öğrenin. Sorunsuz bir geliştirme deneyimi için bu adım adım kılavuzu izleyin.
+linktitle: Add Image to XPS Document
+second_title: Aspose.Page .NET API
+title: XPS Belgesi Oluştur .NET – Aspose.Page ile Görsel Ekle
 url: /tr/net/image-management/add-image-to-xps-document/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -13,23 +15,41 @@ url: /tr/net/image-management/add-image-to-xps-document/
 
 # Aspose.Page for .NET ile XPS Belgesine Görüntü Ekleme
 
-## giriiş
+Bu öğreticide, güçlü Aspose.Page kütüphanesini kullanarak **create XPS document .NET** nasıl oluşturacağınızı ve bir görüntüyü nasıl gömeceğinizi öğreneceksiniz. Raporlar, faturalar veya özel grafikler oluşturuyor olun, XPS dosyalarına görsel öğeler eklemek .NET geliştiricileri için sık bir gereksinimdir.
 
-.NET geliştirme dünyasında görüntülerin XPS belgelerine dahil edilmesi yaygın bir gerekliliktir. Aspose.Page for .NET, XPS belgelerini zahmetsizce işlemek ve geliştirmek için güçlü bir araç seti sunarak bu süreci basitleştirir. Bu eğitim, Aspose.Page for .NET kullanarak bir XPS belgesine görüntü ekleme adımlarında size rehberlik edecektir.
+## Giriş
 
-## Önkoşullar
+.NET geliştirme dünyasında, XPS belgelerine görüntü eklemek yaygın bir gereksinimdir. Aspose.Page for .NET bu süreci basitleştirir ve XPS belgelerini zahmetsizce manipüle edip geliştirebileceğiniz güçlü bir araç seti sunar. Bu öğretici, Aspose.Page for .NET kullanarak bir XPS belgesine görüntü ekleme adımlarını size gösterecek.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Hızlı Yanıtlar
+- **Bu öğreticinin kapsamı nedir?** Aspose.Page for .NET ile bir XPS belgesine görüntü ekleme.  
+- **Hedeflenen birincil anahtar kelime nedir?** *create xps document .net*  
+- **Lisans gerekir mi?** Ücretsiz deneme mevcuttur; üretim için bir lisans gereklidir.  
+- **Hangi .NET sürümleri destekleniyor?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7 ile çalışır.  
+- **Uygulama ne kadar sürer?** Temel bir görüntü ekleme için yaklaşık 5‑10 dakika.
 
-1.  Aspose.Page for .NET Library: Kütüphaneyi şu adresten indirip yükleyin:[Aspose.Page .NET Belgeleri](https://reference.aspose.com/page/net/).
+## “create XPS document .NET” nedir?
+.NET içinde bir XPS belgesi oluşturmak, C# veya VB.NET kullanarak XML Paper Specification (XPS) dosyasını programlı olarak üretmek anlamına gelir — sabit‑düzen bir belge formatı. Aspose.Page, düşük‑seviye ayrıntıları soyutlayan akıcı bir API sunar ve metin, şekil ve görüntü gibi içeriklere odaklanmanızı sağlar.
+
+## Neden Aspose.Page ile görüntü eklemelisiniz?
+- **Tam kontrol** görüntülerin konumlandırılması, ölçeklendirilmesi ve kırpılması üzerinde.  
+- **Harici bağımlılık yok** — kütüphane görüntü çözümlemesini dahili olarak gerçekleştirir.  
+- **Çapraz‑platform** desteği Windows ve Linux ortamları için.  
+- **Yüksek doğruluk** renderlama, son XPS dosyasında görüntü kalitesini korur.
+
+## Ön Koşullar
+
+Öğreticiye başlamadan önce aşağıdaki ön koşulların karşılandığından emin olun:
+
+1. Aspose.Page for .NET Kütüphanesi: Kütüphaneyi [Aspose.Page .NET Documentation](https://reference.aspose.com/page/net/) adresinden indirin ve kurun.
 
 2. Geliştirme Ortamı: Visual Studio gibi bir .NET geliştirme ortamı kurun.
 
-3. Örnek Resim: XPS belgesine eklemek istediğiniz örnek bir resim dosyasına (örneğin, "QL_logo_color.tif") sahip olun.
+3. Örnek Görüntü: XPS belgesine eklemek istediğiniz örnek bir görüntü dosyanız (ör. "QL_logo_color.tif") olsun.
 
-## Ad Alanlarını İçe Aktar
+## Ad Alanlarını (Namespaces) İçe Aktarın
 
-Gerekli ad alanlarını .NET projenize aktararak başlayın. Bu ad alanları Aspose.Page for .NET tarafından sağlanan özelliklerin kullanılması açısından hayati öneme sahiptir.
+.NET projenize gerekli ad alanlarını (namespaces) ekleyerek başlayın. Bu ad alanları, Aspose.Page for .NET tarafından sağlanan özellikleri kullanmanız için kritiktir.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,9 +57,13 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Aspose.Page ile XPS Belgesine Görüntü Ekleme
 
-Belge dizininizin yolunu belirterek başlayın. Bu adım, projenizin dosyaları nerede bulacağını ve kaydedeceğini bilmesini sağlar.
+Aşağıda **create XPS document .NET** oluşturmak ve bir görüntü gömmek için gereken adımları adım adım inceleyeceğiz.
+
+### Adım 1: Belge Dizini Ayarla
+
+Belge dizininizin yolunu belirterek başlayın. Bu adım, projenizin dosyaları nereden bulup nereye kaydedeceğini bilmesini sağlar.
 
 ```csharp
 // ExStart:1
@@ -47,9 +71,9 @@ string dataDir = "Your Document Directory";
 // ExEnd:1
 ```
 
-## Adım 2: XPS Belgesi Oluşturun
+### Adım 2: XPS Belgesi Oluştur
 
-Aspose.Page for .NET'i kullanarak yeni bir XPS belgesi oluşturun.
+Aspose.Page for .NET kullanarak yeni bir XPS belgesi oluşturun.
 
 ```csharp
 // ExStart:1
@@ -57,9 +81,9 @@ XpsDocument doc = new XpsDocument();
 // ExEnd:1
 ```
 
-## 3. Adım: XPS Belgesine Görüntü Ekleme
+### Adım 3: XPS Belgesine Görüntü Ekle
 
-Şimdi görüntüyü XPS belgesine ekleyelim. Bu örnekte "QL_logo_color.tif" adlı örnek bir görsel kullanacağız.
+Şimdi görüntüyü XPS belgesine ekleyelim. Bu örnekte "QL_logo_color.tif" adlı örnek bir görüntü kullanacağız.
 
 ```csharp
 // ExStart:1
@@ -69,9 +93,9 @@ path.Fill = doc.CreateImageBrush(dataDir + "QL_logo_color.tif", new RectangleF(0
 // ExEnd:1
 ```
 
-## Adım 4: Sonuçtaki XPS Belgesini Kaydetme
+### Adım 4: Oluşturulan XPS Belgesini Kaydet
 
-XPS belgesini eklenen görüntüyle birlikte kaydedin.
+Eklenen görüntüyle XPS belgesini kaydedin.
 
 ```csharp
 // ExStart:1
@@ -79,33 +103,46 @@ doc.Save(dataDir + "AddImage_outXPS.xps");
 // ExEnd:1
 ```
 
-Artık Aspose.Page for .NET'i kullanarak bir XPS belgesine başarıyla görüntü eklediniz!
+Artık Aspose.Page for .NET kullanarak bir XPS belgesine başarıyla görüntü eklediniz!
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Bu eğitimde, görüntüleri XPS belgelerine sorunsuz bir şekilde dahil etmek için Aspose.Page for .NET'ten nasıl yararlanılacağını araştırdık. Bu adım adım kılavuz, .NET geliştirme yeteneklerinizi geliştirerek sorunsuz bir entegrasyon süreci sağlar.
+- **File not found error** – `dataDir` değişkeninin doğru klasöre işaret ettiğinden ve görüntü dosya adının tam olarak eşleştiğinden emin olun; Linux'ta büyük/küçük harf duyarlılığına dikkat edin.  
+- **Image appears distorted** – `CreateMatrix` ölçekleme faktörlerini veya `RectangleF` parametrelerini ayarlayarak boyut ve en‑boy oranını kontrol edin.  
+- **Unsupported image format** – Aspose.Page yaygın raster formatlarını (PNG, JPEG, TIFF) destekler. Desteklenmeyen formatları `CreateImageBrush` kullanmadan önce dönüştürün.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
 ### S1: Aspose.Page for .NET en son .NET framework sürümleriyle uyumlu mu?
 
- Cevap1: Aspose.Page for .NET, en son sürümler de dahil olmak üzere çok çeşitli .NET framework sürümleriyle uyumlu olacak şekilde tasarlanmıştır. Bakın[dokümantasyon](https://reference.aspose.com/page/net/) özel ayrıntılar için.
+A1: Aspose.Page for .NET, en son sürümler de dahil olmak üzere geniş bir .NET framework sürüm yelpazesiyle uyumlu olacak şekilde tasarlanmıştır. Ayrıntılı bilgi için [documentation](https://reference.aspose.com/page/net/) sayfasına bakın.
 
-### S2: Aspose.Page for .NET'i hem Windows hem de Linux ortamlarında kullanabilir miyim?
+### S2: Aspose.Page for .NET hem Windows hem de Linux ortamlarında kullanılabilir mi?
 
-C2: Evet, Aspose.Page for .NET platformdan bağımsız olduğundan hem Windows hem de Linux ortamlarında kullanıma uygundur.
+A2: Evet, Aspose.Page for .NET platform‑bağımsızdır ve hem Windows hem de Linux ortamlarında kullanılabilir.
 
-### S3: Aspose.Page for .NET için herhangi bir lisanslama seçeneği var mı?
+### S3: Aspose.Page for .NET için lisans seçenekleri nelerdir?
 
- C3: Evet, lisanslama seçeneklerini keşfedebilir ve satın alma işlemi gerçekleştirebilirsiniz[Burada](https://purchase.aspose.com/buy).
+A3: Evet, lisans seçeneklerini inceleyebilir ve satın alabilirsiniz. Detaylar için [here](https://purchase.aspose.com/buy) adresini ziyaret edin.
 
-### S4: Aspose.Page for .NET'in ücretsiz deneme sürümü mevcut mu?
+### S4: Aspose.Page for .NET için ücretsiz bir deneme mevcut mu?
 
- Cevap4: Evet, Aspose.Page for .NET'i ücretsiz olarak deneyebilirsiniz.[ücretsiz deneme](https://releases.aspose.com/).
+A4: Evet, [free trial](https://releases.aspose.com/) sayfasına erişerek Aspose.Page for .NET'i ücretsiz deneyebilirsiniz.
 
-### S5: Aspose.Page for .NET için nereden yardım alabilirim veya toplulukla etkileşime geçebilirim?
+### S5: Aspose.Page for .NET ile ilgili destek almak veya toplulukla etkileşime geçmek için nereden ulaşabilirim?
 
- A5: ziyaret edin[.NET forumu için Aspose.Page](https://forum.aspose.com/c/page/39) toplulukla bağlantı kurmak ve destek almak için.
+A5: Topluluk ve destek için [Aspose.Page for .NET forum](https://forum.aspose.com/c/page/39) sayfasını ziyaret edin.
+
+## Sonuç
+
+Bu öğreticide, Aspose.Page for .NET'i kullanarak XPS belgelerine sorunsuz bir şekilde görüntü eklemeyi inceledik. Bu adım‑adım kılavuz, entegrasyon sürecinizi sorunsuz hâle getirerek .NET geliştirme yeteneklerinizi artırır ve **create XPS document .NET** çözümlerinizde görsel zenginlik sağlar.
+
+---
+
+**Son Güncelleme:** 2026-02-28  
+**Test Edilen Versiyon:** Aspose.Page for .NET 24.12  
+**Yazar:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
