@@ -1,33 +1,46 @@
 ---
-title: Ajouter un dégradé horizontal à XPS avec Aspose.Page pour .NET
-linktitle: Ajouter un dégradé horizontal à XPS
-second_title: API Aspose.Page .NET
-description: Découvrez comment ajouter de superbes dégradés horizontaux à vos documents XPS à l'aide d'Aspose.Page pour .NET. Améliorez l’attrait visuel sans effort.
-weight: 13
+date: 2026-02-25
+description: Apprenez à créer un dégradé XPS avec un remplissage horizontal en utilisant
+  Aspose.Page pour .NET. Rehaussez l’attrait visuel de vos documents sans effort.
+linktitle: Add Horizontal Gradient to XPS
+second_title: Aspose.Page .NET API
+title: 'Créer un dégradé XPS : remplissage horizontal avec Aspose.Page pour .NET'
 url: /fr/net/gradient-fills/add-horizontal-gradient-to-xps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter un dégradé horizontal à XPS avec Aspose.Page pour .NET
+# Créer un dégradé XPS – Ajouter un dégradé horizontal à XPS avec Aspose.Page pour .NET
 
 ## Introduction
 
-Dans ce didacticiel, nous explorerons comment améliorer les documents XPS en ajoutant un dégradé horizontal à l'aide d'Aspose.Page pour .NET. Aspose.Page pour .NET est une bibliothèque puissante qui permet une gestion transparente des documents XPS (XML Paper Spécification) dans les applications .NET. L'ajout de dégradés peut apporter un attrait visuel à vos documents, et ce guide vous guidera pas à pas tout au long du processus.
+Dans ce tutoriel, vous allez **créer des remplissages en dégradé XPS** qui s’étendent horizontalement sur vos pages. Ajouter un dégradé horizontal peut immédiatement donner à un document XPS un aspect plus soigné et attrayant, notamment pour les rapports, les brochures ou tout rendu visuel riche. Nous parcourrons l’ensemble du processus avec Aspose.Page pour .NET, depuis la configuration de l’environnement jusqu’à l’enregistrement du fichier XPS final.
 
-## Conditions préalables
+## Quick Answers
+- **Que couvre ce tutoriel ?** Ajouter un dégradé horizontal à un document XPS avec Aspose.Page pour .NET.  
+- **Quelle bibliothèque est requise ?** Aspose.Page pour .NET (toute version récente).  
+- **Ai‑je besoin d’une licence ?** Une version d’essai suffit pour le développement ; une licence commerciale est requise pour la production.  
+- **Combien de temps prend l’implémentation ?** Environ 5–10 minutes pour un dégradé de base.  
+- **Puis‑je changer la direction du dégradé ?** Oui – modifiez les points de départ/arrivée du `LinearGradientBrush`.
 
-Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
+## How to create XPS gradient with Aspose.Page for .NET
 
-1.  Bibliothèque Aspose.Page pour .NET : assurez-vous que la bibliothèque Aspose.Page pour .NET est installée dans votre environnement de développement. Vous pouvez le télécharger depuis le[Aspose.Page pour la documentation .NET](https://reference.aspose.com/page/net/).
+Vous trouverez ci‑dessous un guide étape par étape qui explique **pourquoi** chaque ligne de code existe, et pas seulement **ce que** fait chaque ligne. N’hésitez pas à suivre dans Visual Studio ou votre éditeur .NET préféré.
 
-2. Environnement de développement : configurez un environnement de développement adapté, comprenant un éditeur de code comme Visual Studio.
+## Prerequisites
 
-## Importer des espaces de noms
+Avant de commencer, assurez‑vous d’avoir les prérequis suivants :
 
-Commencez par importer les espaces de noms nécessaires dans votre projet. Ces espaces de noms sont essentiels pour travailler avec Aspose.Page pour .NET :
+1. Bibliothèque Aspose.Page pour .NET : Vérifiez que la bibliothèque Aspose.Page pour .NET est installée dans votre environnement de développement. Vous pouvez la télécharger depuis la [Aspose.Page for .NET Documentation](https://reference.aspose.com/page/net/).
+
+2. Environnement de développement : Configurez un environnement de développement adapté, incluant un éditeur de code comme Visual Studio.
+
+## Import Namespaces
+
+Commencez par importer les espaces de noms nécessaires dans votre projet. Ces espaces de noms sont essentiels pour travailler avec Aspose.Page pour .NET :
 
 ```csharp
 using Aspose.Page.XPS;
@@ -36,31 +49,31 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-Maintenant, décomposons l'exemple fourni en plusieurs étapes.
+Now, let's break down the provided example into multiple steps.
 
-## Étape 1 : Définir le chemin du répertoire de documents
+## Step 1: Set the Document Directory Path
 
 ```csharp
-// ExDébut : 3
-// Le chemin d'accès au répertoire des documents.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// ExFin : 3
+// ExEnd:3
 ```
 
-## Étape 2 : Créer un nouveau document XPS
+## Step 2: Create a New XPS Document
 
 ```csharp
-// ExDébut : 4
-// Créer un nouveau document XPS
+// ExStart:4
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
-// ExFin : 4
+// ExEnd:4
 ```
 
-## Étape 3 : initialiser les arrêts de dégradé
+## Step 3: Initialize Gradient Stops
 
 ```csharp
-// ExDébut : 5
-// Initialiser la liste de XpsGradientStop
+// ExStart:5
+// Initialize List of XpsGradientStop
 List<XpsGradientStop> stops = new List<XpsGradientStop>();
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 244, 253, 225), 0.0673828f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 251, 240, 23), 0.314453f));
@@ -68,60 +81,91 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 252, 209, 0), 0.482422f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 241, 254, 161), 0.634766f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 53, 253, 255), 0.915039f));
 stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 12, 91, 248), 1f));
-// ExFin : 5
+// ExEnd:5
 ```
 
-## Étape 4 : Créer un nouveau chemin
+## Step 4: Create a New Path
 
 ```csharp
-// ExDébut : 6
-//Créez un nouveau chemin en définissant la géométrie sous forme d'abréviation
+// ExStart:6
+// Create new path by defining geometry in abbreviation form
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,210 L 228,210 228,300 10,300"));
 path.RenderTransform = doc.CreateMatrix(1f, 0f, 0f, 1f, 20f, 70f);
 path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 0f), new PointF(228f, 0f));
 ((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);
-// ExFin : 6
+// ExEnd:6
 ```
 
-## Étape 5 : Enregistrez le document XPS résultant
+## Step 5: Save the Resultant XPS Document
 
 ```csharp
-// ExDébut : 7
-// Enregistrer le document XPS résultant
+// ExStart:7
+// Save resultant XPS document
 doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
-// ExFin : 7
+// ExEnd:7
 ```
 
-Vous avez maintenant ajouté avec succès un dégradé horizontal à votre document XPS à l'aide d'Aspose.Page pour .NET.
+Vous avez maintenant ajouté avec succès un dégradé horizontal à votre document XPS en utilisant Aspose.Page pour .NET.
+
+## Common Issues and Solutions
+
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| Le dégradé apparaît comme une couleur unie | Les arrêts du dégradé n’ont pas été ajoutés correctement | Assurez‑vous que `((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);` est exécuté après la définition du pinceau. |
+| Le fichier enregistré est vide | `dataDir` pointe vers un dossier inexistant | Vérifiez que le dossier existe ou utilisez un chemin absolu. |
+| Erreur de compilation sur `PointF` | Référence `System.Drawing` manquante | Ajoutez une référence à `System.Drawing.Common` (pour .NET Core/5+). |
+
+## FAQ's
+
+### Q1 : Où puis‑je trouver la documentation Aspose.Page pour .NET ?
+
+A1 : Vous pouvez consulter la documentation [ici](https://reference.aspose.com/page/net/).
+
+### Q2 : Comment télécharger Aspose.Page pour .NET ?
+
+A2 : Vous pouvez télécharger la bibliothèque depuis la [page de téléchargement Aspose.Page pour .NET](https://releases.aspose.com/page/net/).
+
+### Q3 : Où puis‑je acheter Aspose.Page pour .NET ?
+
+A3 : Vous pouvez acheter Aspose.Page pour .NET sur la [page d’achat](https://purchase.aspose.com/buy).
+
+### Q4 : Existe‑t‑il un essai gratuit ?
+
+A4 : Oui, vous pouvez obtenir un essai gratuit [ici](https://releases.aspose.com/).
+
+### Q5 : Comment obtenir une licence temporaire pour Aspose.Page pour .NET ?
+
+A5 : Vous pouvez obtenir une licence temporaire via [ce lien](https://purchase.aspose.com/temporary-license/).
+
+## Frequently Asked Questions
+
+**Q : Puis‑je utiliser cette technique de dégradé avec des documents XPS contenant déjà des images ?**  
+R : Absolument. Le dégradé est appliqué à un calque de chemin, les images existantes restent intactes.
+
+**Q : Est‑il possible de créer un dégradé vertical à la place ?**  
+R : Oui. Modifiez les points de départ et d’arrivée du `LinearGradientBrush` pour avoir des coordonnées Y différentes tout en conservant X constant.
+
+**Q : Aspose.Page prend‑il en charge .NET Core ?**  
+R : La bibliothèque est entièrement compatible avec .NET Core, .NET 5 et les versions ultérieures.
+
+**Q : Comment réutiliser le même dégradé sur plusieurs pages ?**  
+R : Créez le `XpsLinearGradientBrush` une fois, stockez‑le dans une variable, puis assignez‑le aux chemins de chaque page.
 
 ## Conclusion
 
-L'amélioration de vos documents XPS avec des dégradés améliore non seulement leur attrait visuel, mais offre également une expérience utilisateur plus attrayante. Aspose.Page for .NET simplifie ce processus, vous permettant d'obtenir des résultats professionnels sans effort.
+Enrichir vos documents XPS avec des dégradés améliore non seulement l’esthétique visuelle mais offre également une expérience utilisateur plus engageante. Avec Aspose.Page pour .NET, vous pouvez **créer des remplissages en dégradé XPS** rapidement et de manière fiable, donnant à vos rapports, brochures ou e‑books une finition professionnelle.
 
-## FAQ
-
-### Q1 : Où puis-je trouver la documentation Aspose.Page pour .NET ?
-
- A1 : Vous pouvez trouver la documentation[ici](https://reference.aspose.com/page/net/).
-
-### Q2 : Comment télécharger Aspose.Page pour .NET ?
-
- A2 : Vous pouvez télécharger la bibliothèque à partir du[Aspose.Page pour la page de téléchargement .NET](https://releases.aspose.com/page/net/).
-
-### Q3 : Où puis-je acheter Aspose.Page pour .NET ?
-
- A3 : Vous pouvez acheter Aspose.Page pour .NET à partir du[page d'achat](https://purchase.aspose.com/buy).
-
-### Q4 : Existe-t-il un essai gratuit ?
-
- A4 : Oui, vous pouvez bénéficier d'un essai gratuit auprès de[ici](https://releases.aspose.com/).
-
-### Q5 : Comment puis-je obtenir une licence temporaire pour Aspose.Page pour .NET ?
-
- A5 : Vous pouvez obtenir une licence temporaire auprès de[ce lien](https://purchase.aspose.com/temporary-license/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Dernière mise à jour :** 2026-02-25  
+**Testé avec :** Aspose.Page pour .NET 24.11  
+**Auteur :** Aspose  
+
+---

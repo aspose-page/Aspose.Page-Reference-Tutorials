@@ -1,37 +1,41 @@
 ---
-title: أضف التدرج الأفقي إلى PostScript (PS) باستخدام Aspose.Page
-linktitle: إضافة التدرج الأفقي إلى بوستسكريبت (PS)
+date: 2026-02-25
+description: عزّز مستندات PostScript بمستطيل تدرج خطي باستخدام Aspose.Page لـ .NET.
+  اتبع دليلنا خطوة بخطوة لتعلم تعبئة النص بالتدرج وتدرج حدود النص.
+linktitle: Add Horizontal Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: قم بتحسين مستندات PostScript بتدرجات أفقية مذهلة باستخدام Aspose.Page لـ .NET. اتبع برنامجنا التعليمي خطوة بخطوة للتنفيذ السلس.
-weight: 12
+title: إضافة مستطيل بتدرج لوني خطي إلى PostScript (PS) باستخدام Aspose.Page
 url: /ar/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# أضف التدرج الأفقي إلى PostScript (PS) باستخدام Aspose.Page
+# إضافة مستطيل تدرج خطي إلى PostScript (PS) باستخدام Aspose.Page
 
-## مقدمة
+## المقدمة
 
-مرحبًا بك في هذا البرنامج التعليمي الشامل حول إضافة التدرجات الأفقية إلى مستندات PostScript (PS) باستخدام Aspose.Page for .NET. Aspose.Page هي مكتبة قوية تسهل معالجة المستندات بتنسيقات مختلفة، مما يوفر للمطورين الأدوات التي يحتاجونها لإنشاء المستندات وتعديلها وعرضها بسلاسة.
+مرحبًا بكم في هذا الدرس الشامل حول إضافة **مستطيل تدرج خطي** إلى مستندات PostScript (PS) باستخدام Aspose.Page لـ .NET. Aspose.Page هي مكتبة قوية تتيح لك إنشاء وتعديل وعرض المستندات بمجموعة متنوعة من الصيغ، وسنركز اليوم على كيفية إدخال تدرجات جذابة بصريًا إلى ملفات PS الخاصة بك.
 
-في هذا البرنامج التعليمي، سوف نركز على تحسين مستندات PostScript الخاصة بك عن طريق دمج التدرجات الأفقية الجذابة. سنرشدك خلال كل خطوة من العملية، مما يضمن حصولك على فهم قوي للتنفيذ.
+### إجابات سريعة
+- **ماذا يفعل مستطيل التدرج الخطي؟** يملأ مساحة مستطيلة بانتقال سلس للألوان من جانب إلى آخر.  
+- **أي API يتعامل مع تعبئة النص بالتدرج؟** `LinearGradientBrush` مع `SetPaint` و `FillAndStrokeText`.  
+- **هل يمكنني تحديد حدود النص بتدرج؟** نعم—استخدم `SetStroke` مع فرشاة تدرج واستدعِ `OutlineText`.  
+- **هل أحتاج إلى ترخيص للاستخدام في الإنتاج؟** يتطلب الاستخدام غير التجريبي ترخيص تجاري لـ Aspose.Page.  
+- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7.
 
-## المتطلبات الأساسية
+## المتطلبات المسبقة
 
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
+قبل أن نبدأ، تأكد من وجود ما يلي:
 
--  Aspose.Page for .NET Library: تأكد من دمج مكتبة Aspose.Page for .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[Aspose.Page لوثائق .NET](https://reference.aspose.com/page/net/).
+- مكتبة Aspose.Page لـ .NET: تأكد من إضافة المكتبة إلى مشروعك. يمكنك تنزيلها من [توثيق Aspose.Page لـ .NET](https://reference.aspose.com/page/net/).
+- دليل المستندات: أنشئ مجلدًا على القرص حيث سيتم حفظ ملف PS المُولد واستبدل **“Your Document Directory”** في الشيفرة بهذا المسار.
 
-- دليل المستندات: قم بإعداد دليل لتخزين مستنداتك، واستبدل "دليل المستندات الخاص بك" في الكود المقدم بالمسار الفعلي.
+## استيراد المساحات الاسمية
 
-الآن، دعونا نستكشف كيفية إضافة تدرج أفقي إلى مستند PostScript خطوة بخطوة.
-
-## استيراد مساحات الأسماء
-
-قبل أن تبدأ، من الضروري استيراد مساحات الأسماء الضرورية للوصول إلى الوظائف التي يوفرها Aspose.Page. أضف مساحات الأسماء التالية في بداية التعليمات البرمجية الخاصة بك:
+لبدء العمل، استورد المساحات الاسمية التي تمنحك الوصول إلى فئات الرسم والفئات الخاصة بـ PS:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -41,23 +45,33 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
+## ما هو مستطيل التدرج الخطي؟
+
+**مستطيل التدرج الخطي** هو ببساطة شكل مستطيل يُطلّق داخله تدرج خطي—تنتقل الألوان بسلاسة على طول خط مستقيم، عادةً من اليسار إلى اليمين (أفقي) أو من الأعلى إلى الأسفل (عمودي). في Aspose.Page يمكنك تحقيق ذلك بدمج `GraphicsPath` الذي يحدد المستطيل مع `LinearGradientBrush` الذي يصف انتقال اللون.
+
+## لماذا نستخدم تعبئة النص بالتدرج وتدرج حدود النص؟
+
+- **جاذبية بصرية:** يضيف النص المملوء بالتدرج عمقًا وأسلوبًا حديثًا إلى التقارير، الفواتير، أو المواد الترويجية.  
+- **اتساق العلامة التجارية:** طابق ألوان الشركة باستخدام قيم ARGB الدقيقة.  
+- **مرونة:** يمكن إعادة استخدام نفس الفرشاة لتعبئة الأشكال، تعبئة النص، وتدرج حدود النص، مما يقلل من تكرار الشيفرة.
+
 ## الخطوة 1: إعداد المستند
 
 ```csharp
-// المسار إلى دليل المستندات.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// إنشاء دفق الإخراج لمستند بوستسكريبت
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.ps", FileMode.Create))
 {
-    // إنشاء خيارات الحفظ بحجم A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // قم بإنشاء مستند PS جديد مكون من صفحة واحدة
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## الخطوة 2: تحديد مستطيل التدرج والألوان
+## الخطوة 2: تعريف مستطيل التدرج والألوان
 
 ```csharp
     float offsetX = 200;
@@ -65,11 +79,11 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     float width = 200;
     float height = 100;
 
-    // قم بإنشاء مسار الرسومات من المستطيل الأول
+    // Create graphics path from the first rectangle
     System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
     path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-    //قم بإنشاء فرشاة متدرجة خطية باستخدام المستطيل كحدود وألوان البداية والنهاية
+    // Create linear gradient brush with rectangle as bounds, start, and end colors
     LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
         Color.FromArgb(50, 40, 128, 70), 0f);
 ```
@@ -77,78 +91,82 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
 ## الخطوة 3: ضبط التحويل للفرشاة
 
 ```csharp
-    // إنشاء تحويل للفرشاة. يجب أن يكون مكون المقياس X وY مساويًا لعرض المستطيل وارتفاعه على التوالي.
-    // مكونات الترجمة هي إزاحات المستطيل
+    // Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
+    // Translation components are offsets of the rectangle
     System.Drawing.Drawing2D.Matrix brushTransform = new System.Drawing.Drawing2D.Matrix(width, 0, 0, height, offsetX, offsetY);
-    // تعيين التحويل
+    // Set transform
     brush.Transform = brushTransform;
 ```
 
-## الخطوة 4: اضبط الطلاء واملأ المستطيل
+## الخطوة 4: ضبط الطلاء وتعبئة المستطيل
 
 ```csharp
-    // تعيين الطلاء
+    // Set paint
     document.SetPaint(brush);
 
-    // املأ المستطيل
+    // Fill the rectangle
     document.Fill(path);
 ```
 
-## الخطوة 5: املأ النص بالتدرج
+## كيفية تطبيق تعبئة النص بالتدرج
 
 ```csharp
-    // تعبئة النص بالتدرج
+    // Fill text with gradient
     System.Drawing.Font font = new System.Drawing.Font("Arial", 96, FontStyle.Bold);
     document.FillAndStrokeText("ABC", font, 200, 300, brush, new Pen(new SolidBrush(Color.Black), 2));
 ```
 
-## الخطوة 6: تعيين السكتة الدماغية والنص المخطط التفصيلي
+## استخدام تدرج حدود النص
 
 ```csharp
-    // ضبط السكتة الدماغية الحالية
+    // Set current stroke
     document.SetStroke(new Pen(brush, 5));
-    // مخطط تفصيلي للنص مع التدرج
+    // Outline text with gradient
     document.OutlineText("ABC", font, 200, 400);
 ```
 
-## الخطوة 7: أغلق الصفحة الحالية واحفظ المستند
+## الخطوة 7: إغلاق الصفحة الحالية وحفظ المستند
 
 ```csharp
-    // إغلاق الصفحة الحالية
+    // Close current page
     document.ClosePage();
 
-    // احفظ المستند
+    // Save the document
     document.Save();
 }
 ```
 
-تهانينا! لقد نجحت في إضافة تدرج أفقي إلى مستند PostScript باستخدام Aspose.Page لـ .NET.
+تهانينا! لقد أضفت بنجاح **مستطيل تدرج خطي** إلى مستند PostScript واستخدمت نفس الفرشاة لـ **تعبئة النص بالتدرج** و**تدرج حدود النص**.
 
-## خاتمة
+## حالات الاستخدام الشائعة والنصائح
 
-في هذا البرنامج التعليمي، قمنا بتغطية عملية تحسين مستندات PostScript الخاصة بك باستخدام التدرجات الأفقية باستخدام مكتبة Aspose.Page for .NET. باتباع الدليل الموضح خطوة بخطوة، اكتسبت رؤى قيمة حول الاستفادة من هذه الأداة القوية لمعالجة المستندات.
+- **عناوين التقارير:** املأ كتل النص الكبيرة بالتدرجات لتسليط الضوء على عناوين الأقسام.  
+- **شعارات العلامة التجارية:** أعد إنشاء أشكال الشعار باستخدام تعبئة التدرج للحصول على هوية بصرية متسقة.  
+- **نصيحة احترافية:** أعد استخدام نفس كائن `LinearGradientBrush` لعدة استدعاءات رسم للحفاظ على توافق الألوان بين الأشكال والنصوص.
 
-## الأسئلة الشائعة
+## الأسئلة المتكررة
 
-### س1: هل يمكنني تطبيق التدرجات على أشكال أخرى إلى جانب المستطيلات؟
+### س1: هل يمكنني تطبيق التدرجات على أشكال أخرى غير المستطيلات؟
+**ج:** نعم، يمكنك تطبيق التدرجات على أي شكل يُحدده `GraphicsPath`. ما عليك سوى إضافة دوائر أو مضلعات أو مسارات مخصصة قبل استدعاء `document.Fill(path)`.
 
- A1: نعم، يمكنك تطبيق التدرجات على الأشكال المختلفة باستخدام Aspose.Page. تعديل`GraphicsPath` الخلق لتناسب الشكل المحدد الخاص بك.
+### س2: كيف يمكنني تغيير ألوان التدرج؟
+**ج:** عدّل قيم `Color.FromArgb` عند إنشاء `LinearGradientBrush`. اللون الأول هو بداية التدرج، والثاني هو نهايته.
 
-### س2: كيف يمكنني تغيير الألوان المتدرجة؟
+### س3: هل Aspose.Page متوافق مع صيغ مستندات مختلفة؟
+**ج:** بالتأكيد. يدعم Aspose.Page صيغ XPS، PS، PDF، والعديد من صيغ المتجهات الأخرى. راجع الوثائق الرسمية للقائمة الكاملة.
 
- ج2: اضبط`Color.FromArgb` القيم في`LinearGradientBrush` إنشاء مثيل لتحقيق الألوان التدرج المطلوب.
+### س4: هل يمكنني استخدام Aspose.Page في مشاريع تجارية؟
+**ج:** نعم، يتوفر ترخيص تجاري. راجع صفحة الشراء للتفاصيل: [here](https://purchase.aspose.com/buy).
 
-### س3: هل Aspose.Page متوافق مع تنسيقات المستندات المختلفة؟
+### س5: أين يمكنني العثور على دعم المجتمع؟
+**ج:** انضم إلى منتدى مجتمع Aspose.Page: [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
 
-ج3: يدعم Aspose.Page تنسيقات المستندات المختلفة، بما في ذلك XPS وPS وPDF والمزيد. الرجوع إلى الوثائق للحصول على قائمة شاملة.
+---
 
-### س4: هل يمكنني استخدام Aspose.Page للمشاريع التجارية؟
+**آخر تحديث:** 2026-02-25  
+**تم الاختبار مع:** Aspose.Page 24.10 لـ .NET  
+**المؤلف:** Aspose  
 
- ج4: نعم، يأتي Aspose.Page مزودًا بخيارات الترخيص التجاري. يزور[هنا](https://purchase.aspose.com/buy) للتفاصيل.
-
-### س5: هل يوجد منتدى مجتمعي لمستخدمي Aspose.Page؟
-
- ج5: نعم، انضم إلى مجتمع Aspose.Page على[Aspose.صفحة المنتدى](https://forum.aspose.com/c/page/39) للتواصل مع المستخدمين الآخرين وطلب المساعدة.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

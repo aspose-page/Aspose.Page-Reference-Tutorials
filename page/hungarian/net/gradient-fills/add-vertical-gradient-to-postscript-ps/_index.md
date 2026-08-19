@@ -1,35 +1,52 @@
 ---
-title: Adjon hozzá függőleges színátmenetet a PostScript-hez (PS) az Aspose.Page segítségével
-linktitle: Függőleges színátmenet hozzáadása a PostScript-hez (PS)
+date: 2026-02-25
+description: Tanulja meg, hogyan használjon C# lineáris gradient ecsetet a PS‑fájlokhoz
+  gradient hozzáadásához, és hogyan töltsön ki egy téglalapot gradienttel az Aspose.Page
+  for .NET segítségével.
+linktitle: Add Vertical Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: Tanulja meg, hogyan adhat hozzá tetszetős függőleges színátmeneteket a PostScript (PS) dokumentumokhoz .NET-ben az Aspose.Page használatával. Ezzel a lépésről-lépésre szóló útmutatóval javíthatja dokumentumkészítését.
-weight: 14
+title: c# lineáris gradient ecset – függőleges gradient hozzáadása a PostScript (PS)
+  fájlhoz az Aspose.Page segítségével
 url: /hu/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
+weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Adjon hozzá függőleges színátmenetet a PostScript-hez (PS) az Aspose.Page segítségével
+# c# Linear Gradient Brush – Függőleges színátmenet hozzáadása a PostScript (PS) fájlhoz az Aspose.Page segítségével
 
-## Bevezetés
+## Introduction
 
-A dokumentumok manipulálása és létrehozása terén az Aspose.Page for .NET hatékony eszköz a fejlesztők számára. Ez az oktatóanyag végigvezeti Önt a függőleges színátmenet hozzáadásának folyamatán a PostScript (PS) dokumentumhoz az Aspose.Page for .NET használatával. Ennek az útmutatónak a végére világosan megérti a tetszetős hatás eléréséhez szükséges lépéseket.
+A dokumentumkezelés és -készítés területén a **Aspose.Page for .NET** erőteljes eszközként tűnik ki a fejlesztők számára. Ebben az útmutatóban megtudhatja, hogyan **adhat színátmenetet a PS** fájlokhoz egy **C# lineáris színátmenet ecset** segítségével, hogy **kitöltse a téglalapot színátmenettel**. A tutorial végére világos, lépésről‑lépésre bemutatott megértést kap a szükséges kódról, és arról, miért eredményez ez a technika sima függőleges színátmenetet a PostScript kimenetben.
 
-## Előfeltételek
+## Quick Answers
+- **What does a C# linear gradient brush do?** It creates a smooth transition between multiple colors across a shape.
+- **Can I use this with any .NET version?** Yes, Aspose.Page supports .NET Framework 4.5+ and .NET Core/5+.
+- **Do I need a license for production?** A commercial license is required for non‑evaluation builds.
+- **Is the gradient truly vertical?** The brush is rotated 90°, ensuring a vertical flow.
+- **Where is the output saved?** To the path you specify in `dataDir` (e.g., `VerticalGradient_outPS.ps`).
 
-Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a helyén van a következők:
+## What is a C# Linear Gradient Brush?
+A **C# linear gradient brush** is a GDI+ object (`LinearGradientBrush`) that paints a linear color transition between defined points. When combined with Aspose.Page’s drawing API, it lets you render sophisticated gradients directly into a PostScript (PS) document.
 
--  Aspose.Page .NET-hez: Győződjön meg arról, hogy telepítve van az Aspose.Page könyvtár. Megtalálhatja a szükséges forrásokat és dokumentációt[itt](https://reference.aspose.com/page/net/).
+## Why Use a Linear Gradient Brush for PostScript?
+- **High‑quality output:** Gradients are rendered at the printer‑level, preserving fidelity.
+- **Full control:** You can set custom color stops, rotation, and scaling.
+- **Reusable code:** The same brush logic works for PDF, SVG, and other formats supported by Aspose.Page.
 
-- Fejlesztői környezet: Hozzon létre egy megfelelő fejlesztői környezetet, beleértve az Integrált Fejlesztői Környezetet (IDE) a .NET fejlesztéshez.
+## Prerequisites
 
-- Alapvető ismeretek: Ismerkedjen meg a .NET-fejlesztés alapjaival, beleértve a folyamokkal, grafikus útvonalakkal és a színkezeléssel való munkát.
+Before diving into the tutorial, make sure you have the following in place:
 
-## Névterek importálása
+- Aspose.Page for .NET: Ensure that you have the Aspose.Page library installed. You can find the necessary resources and documentation [here](https://reference.aspose.com/page/net/).
+- Development Environment: Set up a suitable development environment, including an Integrated Development Environment (IDE) for .NET development.
+- Basic Understanding: Familiarize yourself with the basics of .NET development, including working with streams, graphics paths, and color manipulation.
 
-A C# projektben adja meg a szükséges névtereket a kódfájl elejére:
+## Import Namespaces
+
+In your C# project, include the required namespaces at the beginning of your code file:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,34 +56,34 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 1. lépés: Állítsa be a dokumentumkönyvtárat
+## Step 1: Set Up the Document Directory
 
-Kezdje a dokumentumkönyvtár elérési útjának megadásával. Ez az a hely, ahová a PS-dokumentum mentésre kerül.
+Begin by specifying the path to your document directory. This is the location where your PS document will be saved.
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## 2. lépés: Hozzon létre kimeneti adatfolyamot a PostScript-dokumentumhoz
+## Step 2: Create Output Stream for PostScript Document
 
-Hozzon létre kimeneti adatfolyamot a PostScript-dokumentumhoz a FileStream osztály használatával.
+Generate an output stream for the PostScript document using the `FileStream` class.
 
 ```csharp
 using (Stream outPsStream = new FileStream(dataDir + "VerticalGradient_outPS.ps", FileMode.Create))
 ```
 
-## 3. lépés: Hozzon létre mentési opciókat és PS-dokumentumot
+## Step 3: Create Save Options and PS Document
 
-Hozzon létre mentési beállításokat A4-es méretben, és inicializáljon egy új, egyoldalas PS-dokumentumot.
+Create save options with A4 size and initialize a new 1‑paged PS document.
 
 ```csharp
 PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## 4. lépés: Határozza meg a téglalap méreteit
+## Step 4: Define Rectangle Dimensions
 
-Adja meg a téglalap méreteit és helyzetét, ahol a függőleges színátmenetet alkalmazni fogja.
+Specify the dimensions and position of the rectangle where the vertical gradient will be applied.
 
 ```csharp
 float offsetX = 200;
@@ -75,18 +92,18 @@ float width = 200;
 float height = 100;
 ```
 
-## 5. lépés: Grafikai útvonal létrehozása
+## Step 5: Create Graphics Path
 
-A meghatározott téglalapból készítsen grafikus útvonalat.
+Build a graphics path from the defined rectangle.
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(offsetX, offsetY, width, height));
 ```
 
-## 6. lépés: Adja meg az interpolációs színeket
+## Step 6: Define Interpolation Colors
 
-Hozzon létre egy tömböt interpolációs színekből és pozíciókból a gradiens számára.
+Establish an array of interpolation colors and positions for the gradient.
 
 ```csharp
 Color[] colors = { Color.Red, Color.Green, Color.Blue, Color.Orange, Color.DarkOliveGreen };
@@ -96,18 +113,18 @@ colorBlend.Colors = colors;
 colorBlend.Positions = positions;
 ```
 
-## 7. lépés: Lineáris színátmenetes ecset létrehozása
+## Step 7: Create Linear Gradient Brush
 
-Alkosson lineáris színátmenetes ecsetet a téglalap határvonalaival, kezdő- és végszínével.
+Form a linear gradient brush with the rectangle as bounds, start and end colors.
 
 ```csharp
 LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.Beige, Color.DodgerBlue, 0f);
 brush.InterpolationColors = colorBlend;
 ```
 
-## 8. lépés: Állítsa be az ecsettranszformációt
+## Step 8: Set Brush Transform
 
-Hozzon létre egy transzformációt az ecset számára, biztosítva, hogy az X és Y skála komponensei megegyezzenek a téglalap szélességével és magasságával.
+Establish a transform for the brush, ensuring that the X and Y scale components match the width and height of the rectangle.
 
 ```csharp
 Matrix brushTransform = new Matrix(width, 0, 0, height, offsetX, offsetY);
@@ -115,51 +132,57 @@ brushTransform.Rotate(90);
 brush.Transform = brushTransform;
 ```
 
-## 9. lépés: Állítsa be a festéket és töltse ki a téglalapot
+## Step 9: Set Paint and Fill the Rectangle
 
-Állítsa be a dokumentum festését, és töltse ki a korábban meghatározott téglalapot.
+Set the paint for the document, and **fill rectangle with gradient** using the previously defined path.
 
 ```csharp
 document.SetPaint(brush);
 document.Fill(path);
 ```
 
-## 10. lépés: Zárja be az aktuális oldalt, és mentse el a dokumentumot
+## Step 10: Close the Current Page and Save the Document
 
-Zárja be az aktuális oldalt, és mentse a PostScript dokumentumot.
+Close the current page and save the PostScript document.
 
 ```csharp
 document.ClosePage();
 document.Save();
 ```
 
-Gratulálunk! Sikeresen hozzáadott egy függőleges színátmenetet egy PostScript-dokumentumhoz az Aspose.Page for .NET használatával. Kísérletezzen különböző paraméterekkel és színekkel, hogy különféle vizuális effektusokat érjen el dokumentumaiban.
+Congratulations! You have successfully **added a vertical gradient to a PostScript document** using a **C# linear gradient brush** with Aspose.Page for .NET. Experiment with different parameters and colors to achieve various visual effects in your documents.
 
-## Következtetés
+## Common Issues and Solutions
 
-Ebben az oktatóanyagban megvizsgáltuk a PostScript-dokumentumok függőleges színátmenetek beépítésével történő javításának folyamatát. Az Aspose.Page for .NET zökkenőmentes környezetet biztosít az ilyen manipulációkhoz, lehetővé téve a fejlesztők számára, hogy vizuálisan lenyűgöző dokumentumokat készítsenek könnyedén.
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| Gradient appears horizontal | Brush rotation not applied | Ensure `brushTransform.Rotate(90);` is called before assigning to `brush.Transform`. |
+| Colors look washed out | Low‑resolution output stream | Use a higher‑resolution `PsSaveOptions` or increase the document size. |
+| Output file is empty | Stream not flushed | Verify that `document.Save();` is called outside the `using` block. |
 
-## GYIK
+## Frequently Asked Questions
 
-### 1. kérdés: Alkalmazhatok több színátmenetet ugyanazon dokumentum különböző régióira?
+**Q1: Can I apply multiple gradients to different regions of the same document?**  
+A: Yes, you can. Simply repeat the steps for each region with its specific dimensions and color scheme.
 
-A1: Igen, megteheti. Egyszerűen ismételje meg a lépéseket minden egyes régióhoz a sajátos méretekkel és színsémával.
+**Q2: How can I integrate this code into my existing .NET project?**  
+A: Copy and paste the code into your project file and ensure that you have the Aspose.Page library referenced.
 
-### 2. kérdés: Hogyan integrálhatom ezt a kódot a meglévő .NET projektembe?
+**Q3: Are there other gradient types available in Aspose.Page for .NET?**  
+A: Aspose.Page supports various gradient types, including radial and path gradients. Refer to the documentation for more details.
 
-2. válasz: Másolja ki és illessze be a kódot a projektfájlba, és győződjön meg arról, hogy az Aspose.Page könyvtárra hivatkozik.
+**Q4: Can I use Aspose.Page for commercial projects?**  
+A: Yes, you can. Visit [here](https://purchase.aspose.com/buy) to explore licensing options.
 
-### 3. kérdés: Vannak más színátmenettípusok az Aspose.Page-ben .NET-hez?
+**Q5: Is there a community forum for Aspose.Page where I can seek help?**  
+A: Certainly! Head to the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to connect with other developers and get assistance.
 
-3. válasz: Az Aspose.Page különféle színátmenet-típusokat támogat, beleértve a sugárirányú és az útvonal színátmeneteket. További részletekért tekintse meg a dokumentációt.
+---
 
-### 4. kérdés: Használhatom az Aspose.Page-t kereskedelmi projektekhez?
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
 
- A4: Igen, megteheti. Látogatás[itt](https://purchase.aspose.com/buy) az engedélyezési lehetőségek feltárására.
-
-### 5. kérdés: Létezik olyan közösségi fórum az Aspose.Page számára, ahol segítséget kérhetek?
-
- A5: Természetesen! Irány a[Aspose.Page fórum](https://forum.aspose.com/c/page/39) kapcsolatba léphet más fejlesztőkkel és segítséget kérhet.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

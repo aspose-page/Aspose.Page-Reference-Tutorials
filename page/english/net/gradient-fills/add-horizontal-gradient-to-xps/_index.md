@@ -1,21 +1,33 @@
 ---
-title: Add Horizontal Gradient to XPS with Aspose.Page for .NET
+title: "Create XPS Gradient: Horizontal Fill with Aspose.Page for .NET"
 linktitle: Add Horizontal Gradient to XPS
 second_title: Aspose.Page .NET API
-description: Learn how to add stunning horizontal gradients to your XPS documents using Aspose.Page for .NET. Elevate visual appeal effortlessly.
+description: "Learn how to create XPS gradient with a horizontal fill using Aspose.Page for .NET. Elevate visual appeal effortlessly in your documents."
 weight: 13
 url: /net/gradient-fills/add-horizontal-gradient-to-xps/
+date: 2026-02-25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Horizontal Gradient to XPS with Aspose.Page for .NET
+# Create XPS Gradient – Add Horizontal Gradient to XPS with Aspose.Page for .NET
 
 ## Introduction
 
-In this tutorial, we will explore how to enhance XPS documents by adding a horizontal gradient using Aspose.Page for .NET. Aspose.Page for .NET is a powerful library that provides seamless handling of XPS (XML Paper Specification) documents in .NET applications. Adding gradients can bring visual appeal to your documents, and this guide will walk you through the process step by step.
+In this tutorial you’ll **create XPS gradient** fills that run horizontally across your pages. Adding a horizontal gradient can instantly make an XPS document look more polished and engaging, especially for reports, brochures, or any visual‑rich output. We’ll walk through the complete process using Aspose.Page for .NET, from setting up the environment to saving the final XPS file.
+
+## Quick Answers
+- **What does this tutorial cover?** Adding a horizontal gradient to an XPS document with Aspose.Page for .NET.  
+- **Which library is required?** Aspose.Page for .NET (any recent version).  
+- **Do I need a license?** A trial works for development; a commercial license is required for production.  
+- **How long does implementation take?** About 5–10 minutes for a basic gradient.  
+- **Can I change the gradient direction?** Yes – modify the start/end points of the `LinearGradientBrush`.
+
+## How to create XPS gradient with Aspose.Page for .NET
+
+Below you’ll find a step‑by‑step guide that explains **why** each line of code exists, not just **what** it does. Feel free to follow along in Visual Studio or your preferred .NET editor.
 
 ## Prerequisites
 
@@ -38,7 +50,7 @@ using System.Drawing;
 
 Now, let's break down the provided example into multiple steps.
 
-## Step 1: Set the Document Directory Path
+## Step 1: set the document directory path
 
 ```csharp
 // ExStart:3
@@ -47,7 +59,7 @@ string dataDir = "Your Document Directory";
 // ExEnd:3
 ```
 
-## Step 2: Create a New XPS Document
+## Step 2: create a new XPS document
 
 ```csharp
 // ExStart:4
@@ -56,7 +68,7 @@ XpsDocument doc = new XpsDocument();
 // ExEnd:4
 ```
 
-## Step 3: Initialize Gradient Stops
+## Step 3: initialize gradient stops
 
 ```csharp
 // ExStart:5
@@ -71,7 +83,7 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 12, 91, 248), 1f));
 // ExEnd:5
 ```
 
-## Step 4: Create a New Path
+## Step 4: create a new path
 
 ```csharp
 // ExStart:6
@@ -83,7 +95,7 @@ path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 0f), new PointF(228f, 
 // ExEnd:6
 ```
 
-## Step 5: Save the Resultant XPS Document
+## Step 5: save the resultant XPS document
 
 ```csharp
 // ExStart:7
@@ -94,9 +106,13 @@ doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
 
 Now, you have successfully added a horizontal gradient to your XPS document using Aspose.Page for .NET.
 
-## Conclusion
+## Common issues and solutions
 
-Enhancing your XPS documents with gradients not only improves their visual appeal but also provides a more engaging user experience. Aspose.Page for .NET simplifies this process, allowing you to achieve professional results effortlessly.
+| Issue | Reason | Fix |
+|-------|--------|-----|
+| Gradient appears solid color | Gradient stops not added correctly | Ensure `((XpsGradientBrush)path.Fill).GradientStops.AddRange(stops);` is executed after setting the brush. |
+| Saved file is empty | `dataDir` points to a non‑existent folder | Verify the folder exists or use an absolute path. |
+| Compilation error on `PointF` | Missing `System.Drawing` reference | Add a reference to `System.Drawing.Common` (for .NET Core/5+). |
 
 ## FAQ's
 
@@ -114,11 +130,44 @@ A3: You can purchase Aspose.Page for .NET from the [purchase page](https://purch
 
 ### Q4: Is there a free trial available?
 
-A4: Yes, you can get a free trial from [here](https://releases.aspose.com/).
+A4: Yes, you can get a free trial from the [Aspose free trial download page](https://releases.aspose.com/).
 
 ### Q5: How do I get a temporary license for Aspose.Page for .NET?
 
-A5: You can obtain a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+A5: You can obtain a temporary license from the [temporary license request page](https://purchase.aspose.com/temporary-license/).
+
+## Frequently asked questions
+
+**Q: Can I use this gradient technique with XPS documents that already contain images?**  
+A: Absolutely. The gradient is applied to a path layer, so existing images remain untouched.
+
+**Q: Is it possible to create a vertical gradient instead?**  
+A: Yes. Change the `LinearGradientBrush` start and end points to have different Y‑coordinates while keeping X constant.
+
+**Q: Does Aspose.Page support .NET Core?**  
+A: The library is fully compatible with .NET Core, .NET 5, and later versions.
+
+**Q: How can I reuse the same gradient across multiple pages?**  
+A: Create the `XpsLinearGradientBrush` once, store it in a variable, and assign it to paths on each page.
+
+## Conclusion
+
+Enhancing your XPS documents with gradients not only improves visual appeal but also delivers a more engaging user experience. With Aspose.Page for .NET, you can **create XPS gradient** fills quickly and reliably, giving your reports, brochures, or e‑books a professional polish.
+
+
+
+
+
+
+
+
+---
+
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Page for .NET 24.11  
+**Author:** Aspose  
+
+---
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

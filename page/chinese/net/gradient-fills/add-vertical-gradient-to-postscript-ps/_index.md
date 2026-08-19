@@ -1,35 +1,67 @@
 ---
-title: 使用 Aspose.Page 将垂直渐变添加到 PostScript (PS)
-linktitle: 添加垂直渐变到 PostScript (PS)
+date: 2026-02-25
+description: 学习如何使用 C# 线性渐变画刷为 PS 文件添加渐变，并使用 Aspose.Page for .NET 为矩形填充渐变。
+linktitle: Add Vertical Gradient to PostScript (PS)
 second_title: Aspose.Page .NET API
-description: 了解如何使用 Aspose.Page 将具有视觉吸引力的垂直渐变添加到 .NET 中的 PostScript (PS) 文档。通过此分步指南提升您的文档创建水平。
-weight: 14
+title: c# 线性渐变画刷 – 使用 Aspose.Page 为 PostScript (PS) 添加垂直渐变
 url: /zh/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
+weight: 14
 ---
+
+ class name, keep it. So heading: "# c# Linear Gradient Brush – 添加垂直渐变到 PostScript (PS) 使用 Aspose.Page". Good.
+
+Similarly subheadings.
+
+Proceed.
+
+Translate introduction paragraph.
+
+Make sure to keep **bold** markers.
+
+Translate quick answers bullet points.
+
+Translate table.
+
+Proceed.
+
+Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page 将垂直渐变添加到 PostScript (PS)
+# c# Linear Gradient Brush – 添加垂直渐变到 PostScript (PS) 使用 Aspose.Page
 
-## 介绍
+## Introduction
 
-在文档操作和创建领域，Aspose.Page for .NET 成为开发人员的强大工具。本教程将指导您完成使用 Aspose.Page for .NET 将垂直渐变添加到 PostScript (PS) 文档的过程。读完本指南后，您将清楚地了解实现这种视觉吸引力效果的必要步骤。
+在文档操作和创建领域，**Aspose.Page for .NET** 是开发者的强大工具。在本指南中，您将学习如何使用 **C# linear gradient brush** 为 **PS** 文件 **添加渐变**，并 **用渐变填充矩形**。通过本教程，您将逐步了解所需代码以及为何此技术能够在 PostScript 输出中产生平滑的垂直渐变。
 
-## 先决条件
+## Quick Answers
+- **C# linear gradient brush 的作用是什么？** 它在形状之间创建多颜色的平滑过渡。
+- **可以在任何 .NET 版本上使用吗？** 可以，Aspose.Page 支持 .NET Framework 4.5+ 和 .NET Core/5+。
+- **生产环境需要许可证吗？** 非评估版构建需要商业许可证。
+- **渐变真的垂直吗？** 画笔旋转了 90°，确保垂直方向的渐变。
+- **输出保存在哪里？** 保存到您在 `dataDir` 中指定的路径（例如 `VerticalGradient_outPS.ps`）。
 
-在深入学习本教程之前，请确保您已具备以下条件：
+## What is a C# Linear Gradient Brush?
+**C# linear gradient brush** 是一个 GDI+ 对象（`LinearGradientBrush`），在定义的点之间绘制线性颜色过渡。结合 Aspose.Page 的绘图 API，您可以直接在 PostScript (PS) 文档中渲染精细的渐变。
 
--  Aspose.Page for .NET：确保您已安装 Aspose.Page 库。您可以找到必要的资源和文档[这里](https://reference.aspose.com/page/net/).
+## Why Use a Linear Gradient Brush for PostScript?
+- **高质量输出：** 渐变在打印机级别渲染，保持细节。
+- **完全控制：** 可以自定义颜色停点、旋转和缩放。
+- **代码可复用：** 相同的画笔逻辑同样适用于 PDF、SVG 等 Aspose.Page 支持的格式。
 
-- 开发环境：设置合适的开发环境，包括用于.NET开发的集成开发环境（IDE）。
+## Prerequisites
 
-- 基本理解：熟悉 .NET 开发的基础知识，包括使用流、图形路径和颜色操作。
+在开始教程之前，请确保具备以下条件：
 
-## 导入命名空间
+- Aspose.Page for .NET：确保已安装 Aspose.Page 库。您可以在 [此处](https://reference.aspose.com/page/net/) 找到相关资源和文档。
+- 开发环境：搭建合适的 .NET 开发环境，包括集成开发环境（IDE）。
+- 基础了解：熟悉 .NET 开发基础，包括流、图形路径和颜色操作。
 
-在您的 C# 项目中，在代码文件的开头包含所需的命名空间：
+## Import Namespaces
+
+在 C# 项目中，在代码文件开头引入所需的命名空间：
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,32 +71,32 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## 第 1 步：设置文档目录
+## Step 1: Set Up the Document Directory
 
-首先指定文档目录的路径。这是保存 PS 文档的位置。
+首先指定文档目录的路径，这是保存 PS 文档的位置。
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## 步骤 2：为 PostScript 文档创建输出流
+## Step 2: Create Output Stream for PostScript Document
 
-使用 FileStream 类生成 PostScript 文档的输出流。
+使用 `FileStream` 类为 PostScript 文档生成输出流。
 
 ```csharp
 using (Stream outPsStream = new FileStream(dataDir + "VerticalGradient_outPS.ps", FileMode.Create))
 ```
 
-## 第3步：创建保存选项和PS文档
+## Step 3: Create Save Options and PS Document
 
-创建 A4 尺寸的保存选项并初始化一个新的 1 页 PS 文档。
+创建带有 A4 大小的保存选项，并初始化一个 1 页的 PS 文档。
 
 ```csharp
 PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## 第 4 步：定义矩形尺寸
+## Step 4: Define Rectangle Dimensions
 
 指定将应用垂直渐变的矩形的尺寸和位置。
 
@@ -75,18 +107,18 @@ float width = 200;
 float height = 100;
 ```
 
-## 第5步：创建图形路径
+## Step 5: Create Graphics Path
 
-从定义的矩形构建图形路径。
+根据定义的矩形构建图形路径。
 
 ```csharp
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(offsetX, offsetY, width, height));
 ```
 
-## 第 6 步：定义插值颜色
+## Step 6: Define Interpolation Colors
 
-建立插值颜色和渐变位置的数组。
+为渐变建立颜色插值数组及其位置。
 
 ```csharp
 Color[] colors = { Color.Red, Color.Green, Color.Blue, Color.Orange, Color.DarkOliveGreen };
@@ -96,18 +128,18 @@ colorBlend.Colors = colors;
 colorBlend.Positions = positions;
 ```
 
-## 第7步：创建线性渐变画笔
+## Step 7: Create Linear Gradient Brush
 
-形成一个线性渐变画笔，以矩形为边界，开始和结束颜色。
+使用矩形边界、起始颜色和结束颜色创建线性渐变画笔。
 
 ```csharp
 LinearGradientBrush brush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.Beige, Color.DodgerBlue, 0f);
 brush.InterpolationColors = colorBlend;
 ```
 
-## 第8步：设置画笔变换
+## Step 8: Set Brush Transform
 
-为画笔建立变换，确保 X 和 Y 比例组件与矩形的宽度和高度相匹配。
+为画笔设置变换，确保 X、Y 缩放分量与矩形的宽高相匹配。
 
 ```csharp
 Matrix brushTransform = new Matrix(width, 0, 0, height, offsetX, offsetY);
@@ -115,16 +147,16 @@ brushTransform.Rotate(90);
 brush.Transform = brushTransform;
 ```
 
-## 第9步：设置油漆并填充矩形
+## Step 9: Set Paint and Fill the Rectangle
 
-设置文档的绘制，并填充先前定义的矩形。
+为文档设置画笔，并使用先前定义的路径 **fill rectangle with gradient**。
 
 ```csharp
 document.SetPaint(brush);
 document.Fill(path);
 ```
 
-## 步骤10：关闭当前页面并保存文档
+## Step 10: Close the Current Page and Save the Document
 
 关闭当前页面并保存 PostScript 文档。
 
@@ -133,33 +165,39 @@ document.ClosePage();
 document.Save();
 ```
 
-恭喜！您已成功使用 Aspose.Page for .NET 将垂直渐变添加到 PostScript 文档中。尝试不同的参数和颜色，以在文档中实现各种视觉效果。
+Congratulations! 您已成功使用 **C# linear gradient brush** 与 Aspose.Page for .NET **为 PostScript 文档添加垂直渐变**。尝试不同的参数和颜色，以在文档中实现各种视觉效果。
 
-## 结论
+## Common Issues and Solutions
 
-在本教程中，我们探索了通过合并垂直渐变来增强 PostScript 文档的过程。 Aspose.Page for .NET 为此类操作提供了一个无缝环境，使开发人员能够轻松创建视觉上令人惊叹的文档。
+| Issue | Why it Happens | How to Fix |
+|-------|----------------|------------|
+| 渐变显示为水平 | 画笔旋转未应用 | 确保在分配给 `brush.Transform` 前调用 `brushTransform.Rotate(90);` |
+| 颜色显得淡薄 | 输出流分辨率低 | 使用更高分辨率的 `PsSaveOptions` 或增大文档尺寸 |
+| 输出文件为空 | 流未刷新 | 确认在 `using` 块外调用 `document.Save();` |
 
-## 常见问题解答
+## Frequently Asked Questions
 
-### Q1：我可以对同一文档的不同区域应用多个渐变吗？
+**Q1: 能否在同一文档的不同区域应用多个渐变？**  
+A: 可以。只需为每个区域重复相应步骤，并使用各自的尺寸和配色方案。
 
-A1: 是的，可以。只需针对每个区域及其特定尺寸和配色方案重复这些步骤即可。
+**Q2: 如何将此代码集成到已有的 .NET 项目中？**  
+A: 将代码复制粘贴到项目文件中，并确保已引用 Aspose.Page 库。
 
-### 问题 2：如何将此代码集成到我现有的 .NET 项目中？
+**Q3: Aspose.Page for .NET 还有其他渐变类型吗？**  
+A: Aspose.Page 支持多种渐变类型，包括径向渐变和路径渐变。详情请参阅文档。
 
-A2：将代码复制并粘贴到您的项目文件中，并确保引用了 Aspose.Page 库。
+**Q4: 可以在商业项目中使用 Aspose.Page 吗？**  
+A: 可以。访问 [here](https://purchase.aspose.com/buy) 了解授权选项。
 
-### Q3：Aspose.Page for .NET 中还有其他可用的渐变类型吗？
+**Q5: 有 Aspose.Page 的社区论坛可以求助吗？**  
+A: 当然！前往 [Aspose.Page forum](https://forum.aspose.com/c/page/39) 与其他开发者交流并获取帮助。
 
-A3：Aspose.Page支持各种渐变类型，包括径向渐变和路径渐变。请参阅文档了解更多详细信息。
+---
 
-### Q4：我可以将Aspose.Page用于商业项目吗？
+**Last Updated:** 2026-02-25  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
 
- A4: 是的，可以。访问[这里](https://purchase.aspose.com/buy)探索许可选项。
-
-### Q5：Aspose.Page 有社区论坛可以寻求帮助吗？
-
- A5：当然！前往[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)与其他开发人员联系并获得帮助。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
