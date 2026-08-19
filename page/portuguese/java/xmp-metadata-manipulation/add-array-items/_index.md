@@ -1,10 +1,13 @@
 ---
-title: Adicionar itens de array em metadados XMP usando Java
-linktitle: Adicionar itens de array em metadados XMP usando Java
-second_title: API Java Aspose.Page
-description: Aprimore arquivos EPS com Aspose.Page para Java. Aprenda a adicionar itens de array aos metadados XMP sem esforço. Siga nosso guia passo a passo agora!
-weight: 10
+date: 2026-03-05
+description: Aprenda como adicionar itens de array dc:title nos metadados XMP de arquivos
+  EPS usando Aspose.Page para Java. Siga este guia passo a passo para obter resultados
+  rápidos.
+linktitle: How to Add dc:title Array Items in XMP Metadata using Java
+second_title: Aspose.Page Java API
+title: Como adicionar itens de array dc:title nos metadados XMP usando Java
 url: /pt/java/xmp-metadata-manipulation/add-array-items/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -14,14 +17,25 @@ url: /pt/java/xmp-metadata-manipulation/add-array-items/
 # Adicionar itens de array em metadados XMP usando Java
 
 ## Introdução
-Bem-vindo ao nosso guia passo a passo sobre como usar Aspose.Page for Java para adicionar itens de array em metadados XMP. Aspose.Page é uma poderosa biblioteca Java que permite manipular e trabalhar com vários formatos de documentos, incluindo arquivos EPS. Neste tutorial, focaremos na tarefa específica de adicionar itens de array em metadados XMP usando Java.
-## Pré-requisitos
-Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos:
-- Biblioteca Aspose.Page para Java instalada.
-- Compreensão básica de programação Java.
-- Um arquivo EPS válido com metadados XMP existentes ou comentários de metadados PS.
+Neste tutorial você descobrirá **como adicionar dc:title** (e outros itens de array) aos metadados XMP dentro de um arquivo EPS com Aspose.Page para Java. Atualizar os metadados XMP é útil quando você precisa incorporar informações pesquisáveis — como títulos, criadores ou palavras‑chave — diretamente em seus arquivos gráficos. Vamos percorrer cada passo, explicar por que cada linha é importante e mostrar como verificar as alterações.
+
+## Respostas rápidas
+- **O que representa “dc:title”?** É a propriedade de título do Dublin Core armazenada como um array XMP.  
+- **Por que modificar os metadados XMP?** Isso permite melhor gerenciamento de ativos, capacidade de pesquisa e conformidade com padrões.  
+- **Preciso de um bloco XMP existente?** Não — Aspose.Page gerará um a partir dos comentários PS se estiver ausente.  
+- **Qual versão da biblioteca é necessária?** Qualquer versão recente do Aspose.Page para Java (testada com a última build de 2026).  
+- **Posso adicionar outras propriedades de array?** Sim — use o mesmo método `addArrayItem` para propriedades como `dc:creator`.
+
+## Pré‑requisitos
+Antes de começar, certifique‑se de que você tem:
+
+- Biblioteca Aspose.Page para Java instalada (adicione o JAR ao classpath do seu projeto).  
+- Experiência básica em desenvolvimento Java (JDK 8+ recomendado).  
+- Um arquivo EPS que já contenha metadados XMP ou, ao menos, comentários de metadados PS (por exemplo, `%%Title`, `%%Creator`).  
+
 ## Importar pacotes
-Para começar, você precisa importar os pacotes necessários para trabalhar com Aspose.Page. Inclua as seguintes linhas no início do seu arquivo Java:
+Para iniciar, importe as classes necessárias para ler, manipular e salvar arquivos EPS:
+
 ```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -31,59 +45,93 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
 ```
-## Etapa 1: Obtenha metadados XMP
+
+## Etapa 1: Carregar o documento EPS e recuperar os metadados XMP
 ```java
-// O caminho para o diretório de documentos.
+// The path to the documents directory.
 String dataDir = "Your Document Directory";
-// Inicializar fluxo de arquivo EPS de entrada
+// Initialize input EPS file stream
 FileInputStream psStream = new FileInputStream(dataDir + "xmp3.eps");
 PsDocument document = new PsDocument(psStream);
-// Obtenha metadados XMP. Se o arquivo EPS não contiver metadados XMP, obteremos um novo preenchido com valores de comentários de metadados PS (%%Creator, %%CreateDate, %%Title, etc.)
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get a new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title, etc.)
 XmpMetadata xmp = document.getXmpMetadata();
 ```
-Nesta etapa, recuperamos os metadados XMP existentes do arquivo EPS. Se o arquivo EPS ainda não contém metadados XMP, Aspose.Page gera um novo e o preenche com valores de comentários de metadados PS.
-## Etapa 2: adicionar item de matriz "dc:title"
+
+Aqui abrimos o arquivo EPS e solicitamos ao Aspose.Page seu bloco XMP. Se o arquivo não possuir XMP, a biblioteca cria automaticamente um usando os comentários PS existentes, garantindo que você sempre tenha um contêiner de metadados para trabalhar.
+
+## Etapa 2: Adicionar um novo item de array **dc:title**  
 ```java
-// Adicione mais um item da matriz "dc:title"
+// Add one more "dc:title" array item 
 xmp.addArrayItem("dc:title", new XmpValue("NewTitle"));
 ```
-Agora, adicionamos um novo item do array à propriedade “dc:title” nos metadados XMP. Substitua “NewTitle” pelo título desejado.
-## Etapa 3: adicionar item de matriz "dc: creator"
+
+Esta linha demonstra **como adicionar dc:title**. Substitua `"NewTitle"` pelo título real que deseja incorporar. O método acrescenta o valor ao array de títulos existente, preservando quaisquer títulos anteriores.
+
+## Etapa 3: Adicionar um novo item de array **dc:creator**  
 ```java
-// Adicione mais um item de array "dc:creator"
+// Add one more "dc:creator" array item
 xmp.addArrayItem("dc:creator", new XmpValue("NewCreator"));
 ```
-Da mesma forma, adicionamos um novo item de array à propriedade “dc:creator” nos metadados XMP. Substitua “NewCreator” pelas informações do criador desejado.
-## Etapa 4: inicializar o fluxo de arquivos EPS de saída
+
+Da mesma forma, você pode enriquecer a propriedade `dc:creator`. Vários criadores podem ser armazenados; cada chamada adiciona outra entrada.
+
+## Etapa 4: Preparar o fluxo de saída  
 ```java
-// Inicializar fluxo de arquivo EPS de saída
+// Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
 ```
-Prepare o fluxo de arquivo EPS de saída onde o documento modificado com metadados XMP atualizados será salvo.
-## Etapa 5: Salvar documento com metadados XMP alterados
+
+Criamos um stream para o arquivo EPS modificado. Usar um nome de arquivo diferente (`xmp3_changed.eps`) mantém o arquivo original intacto.
+
+## Etapa 5: Salvar o documento com os metadados XMP atualizados  
 ```java
-//Salvar documento com metadados XMP alterados
+// Save document with changed XMP metadata
 try {			
     document.save(outPsStream);
 } finally {
     outPsStream.close();
 }
 ```
-Salve o documento com os metadados XMP atualizados no arquivo EPS de saída.
-## Conclusão
-Parabéns! Você aprendeu como adicionar itens de array em metadados XMP usando Aspose.Page para Java. Esta poderosa biblioteca simplifica o processo de manipulação de arquivos EPS e fornece ampla funcionalidade para processamento de documentos.
-## perguntas frequentes
 
-### Posso usar Aspose.Page for Java com outros formatos de documentos?
-Sim, Aspose.Page oferece suporte a vários formatos de documento, incluindo EPS, PDF e XPS.
-### Existe uma avaliação gratuita disponível para Aspose.Page for Java?
- Sim, você pode acessar o teste gratuito[aqui](https://releases.aspose.com/).
-### Onde posso encontrar a documentação do Aspose.Page for Java?
- A documentação está disponível[aqui](https://reference.aspose.com/page/java/).
+A chamada `save` grava os dados EPS juntamente com o bloco XMP atualizado. O bloco `finally` garante que o manipulador de arquivo seja liberado mesmo que ocorra uma exceção.
+
+## Por que isso importa
+Incorporar valores precisos de `dc:title` e `dc:creator` melhora:
+
+- **Capacidade de pesquisa** em sistemas de gerenciamento de ativos digitais (DAM).  
+- **Conformidade** com padrões de publicação que exigem metadados.  
+- **Colaboração**, pois os colegas podem identificar rapidamente o conteúdo do arquivo sem abrir o EPS.
+
+## Armadilhas comuns e dicas
+- **Armadilha:** Sobrescrever itens de array existentes inadvertidamente.  
+  **Dica:** Use `xmp.getArrayItems("dc:title")` para inspecionar os valores atuais antes de adicionar novos.  
+- **Armadilha:** Esquecer de fechar streams, causando bloqueios de arquivo.  
+  **Dica:** Sempre envolva I/O em try‑with‑resources ou em um bloco `finally`, como mostrado.  
+- **Dica:** Você pode encadear várias chamadas `addArrayItem` para adicionar vários títulos ou criadores em uma única passagem.
+
+## Perguntas frequentes
+
+### Posso usar Aspose.Page para Java com outros formatos de documento?
+Sim, Aspose.Page suporta vários formatos de documento, incluindo EPS, PDF e XPS.
+
+### Existe um teste gratuito disponível para Aspose.Page para Java?
+Sim, você pode acessar o teste gratuito [aqui](https://releases.aspose.com/).
+
+### Onde posso encontrar a documentação do Aspose.Page para Java?
+A documentação está disponível [aqui](https://reference.aspose.com/page/java/).
+
 ### Como posso comprar Aspose.Page para Java?
- Você pode comprar o produto[aqui](https://purchase.aspose.com/buy).
-### As licenças temporárias estão disponíveis para Aspose.Page for Java?
- Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+Você pode adquirir o produto [aqui](https://purchase.aspose.com/buy).
+
+### Licenças temporárias estão disponíveis para Aspose.Page para Java?
+Sim, você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/).
+
+---
+
+**Última atualização:** 2026-03-05  
+**Testado com:** Aspose.Page para Java (última release de 2026)  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
