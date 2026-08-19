@@ -44,7 +44,7 @@ import com.aspose.page.BaseExamplesTest;
 import com.aspose.page.License;
 ```
 
-## Step 1: Load the EPS Document and Retrieve XMP Metadata
+## Step 1: load the EPS document and retrieve XMP metadata
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -57,7 +57,7 @@ XmpMetadata xmp = document.getXmpMetadata();
 
 Here we open the EPS file and ask Aspose.Page for its XMP block. If the file lacks XMP, the library auto‑creates one using existing PS comments, ensuring you always have a metadata container to work with.
 
-## Step 2: Add a New **dc:title** Array Item  
+## Step 2: add a new **dc:title** array item
 ```java
 // Add one more "dc:title" array item 
 xmp.addArrayItem("dc:title", new XmpValue("NewTitle"));
@@ -65,7 +65,7 @@ xmp.addArrayItem("dc:title", new XmpValue("NewTitle"));
 
 This line demonstrates **how to add dc:title**. Replace `"NewTitle"` with the actual title you want to embed. The method appends the value to the existing title array, preserving any previous titles.
 
-## Step 3: Add a New **dc:creator** Array Item  
+## Step 3: add a new **dc:creator** array item
 ```java
 // Add one more "dc:creator" array item
 xmp.addArrayItem("dc:creator", new XmpValue("NewCreator"));
@@ -73,7 +73,7 @@ xmp.addArrayItem("dc:creator", new XmpValue("NewCreator"));
 
 Similarly, you can enrich the `dc:creator` property. Multiple creators can be stored; each call adds another entry.
 
-## Step 4: Prepare the Output Stream  
+## Step 4: prepare the output stream
 ```java
 // Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
@@ -81,7 +81,7 @@ FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps"
 
 We create a stream for the modified EPS file. Using a different filename (`xmp3_changed.eps`) keeps the original file untouched.
 
-## Step 5: Save the Document with Updated XMP Metadata  
+## Step 5: save the document with updated XMP metadata
 ```java
 // Save document with changed XMP metadata
 try {			
@@ -93,36 +93,36 @@ try {
 
 The `save` call writes the EPS data together with the updated XMP block. The `finally` block guarantees the file handle is released even if an exception occurs.
 
-## Why This Matters
+## Why this matters
 Embedding accurate `dc:title` and `dc:creator` values improves:
 
 - **Searchability** in digital asset management (DAM) systems.  
 - **Compliance** with publishing standards that require metadata.  
 - **Collaboration**, as teammates can quickly identify file contents without opening the EPS.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 - **Pitfall:** Overwriting existing array items unintentionally.  
   **Tip:** Use `xmp.getArrayItems("dc:title")` to inspect current values before adding new ones.  
 - **Pitfall:** Forgetting to close streams, leading to file locks.  
   **Tip:** Always wrap I/O in try‑with‑resources or a `finally` block as shown.  
 - **Tip:** You can chain multiple `addArrayItem` calls to add several titles or creators in one pass.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Can I use Aspose.Page for Java with other document formats?
 Yes, Aspose.Page supports various document formats, including EPS, PDF, and XPS.
 
 ### Is there a free trial available for Aspose.Page for Java?
-Yes, you can access the free trial [here](https://releases.aspose.com/).
+Yes, you can access the free trial download page.
 
 ### Where can I find the documentation for Aspose.Page for Java?
-The documentation is available [here](https://reference.aspose.com/page/java/).
+The documentation for Aspose.Page for Java is available.
 
 ### How can I purchase Aspose.Page for Java?
-You can buy the product [here](https://purchase.aspose.com/buy).
+You can buy the product on the Aspose.Page for Java purchase page.
 
 ### Are temporary licenses available for Aspose.Page for Java?
-Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+Yes, you can obtain a temporary license on the temporary license request page.
 
 ---
 

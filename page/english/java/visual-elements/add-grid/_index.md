@@ -24,13 +24,13 @@ If you’re looking to **how to add grid** elements to your Java‑generated doc
 - **How long does implementation take?** About 10‑15 minutes once the library is set up.  
 - **Can I customize colors?** Yes – you control fill colors, opacity, and tile size directly in code.
 
-## Why Use Visual Brush to Add a Grid?
+## Why use visual brush to add a grid?
 Visual Brush lets you define a small visual (the “tile”) once and then repeat it across any shape. This approach is memory‑efficient and keeps your code clean, especially when you need to apply the same pattern to multiple canvases.
 
 ## Prerequisites
 Before we dive into the code, make sure you have the following prerequisites:
 - Basic understanding of Java programming.  
-- Aspose.Page library installed. You can download it from the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
+- Aspose.Page library installed. You can download it from the [Aspose.Page for Java documentation]({{< relref "page/english/java/visual-elements/_index.md" >}}).  
 - Java Development Kit (JDK) installed on your machine.
 
 ## Import Packages
@@ -46,14 +46,14 @@ import com.aspose.xps.XpsTileMode;
 import com.aspose.xps.XpsVisualBrush;
 ```
 
-### Step 1: Set Up Your Project
+### Step 1: set up your project
 First, create an `XpsDocument` instance and point to the folder where the output will be saved.
 ```java
 String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-### Step 2: Create Magenta Grid Visual Brush
+### Step 2: create magenta grid visual brush
 We build a small magenta tile that will be repeated. The path geometry defines the shape of the tile.
 ```java
 XpsCanvas visualCanvas = doc.createCanvas();
@@ -61,7 +61,7 @@ XpsPath visualPath = visualCanvas.addPath(doc.createPathGeometry("M 0,4 L 4,4 4,
 visualPath.setFill(doc.createSolidColorBrush(doc.createColor(1f, .61f, 0.1f, 0.61f)));
 ```
 
-### Step 3: Define Geometry for Magenta Grid Visual Brush
+### Step 3: define geometry for magenta grid visual brush
 Here we describe the area that will receive the tiled brush.
 ```java
 XpsPathGeometry pathGeometry = doc.createPathGeometry();
@@ -73,14 +73,14 @@ pathGeometry.addSegment(doc.createPolyLineSegment(new Point2D.Float[] {
 pathGeometry.get(0).setStartPoint(new Point2D.Float(0f, 5f));
 ```
 
-### Step 4: Create New Canvas
+### Step 4: create new canvas
 A fresh canvas is added to the document, and we apply a translation transform so the grid appears in the desired spot.
 ```java
 XpsCanvas canvas = doc.addCanvas();
 canvas.setRenderTransform(doc.createMatrix(1f, 0f, 0f, 1f, 268f, 70f));
 ```
 
-### Step 5: Add Grid to Canvas
+### Step 5: add grid to canvas
 Now we bind the visual brush to the geometry and set the tiling mode.
 ```java
 XpsPath gridPath = canvas.addPath(pathGeometry);
@@ -89,7 +89,7 @@ gridPath.setFill(doc.createVisualBrush(visualCanvas,
 ((XpsVisualBrush)gridPath.getFill()).setTileMode(XpsTileMode.Tile);
 ```
 
-### Step 6: Add Red Transparent Rectangle
+### Step 6: add red transparent rectangle
 To demonstrate layering, we overlay a semi‑transparent red rectangle on top of the grid.
 ```java
 XpsPath path = canvas.addPath(doc.createPathGeometry("M 10,10 L 228,10 228,100 10,100"));
@@ -97,7 +97,7 @@ path.setFill(doc.createSolidColorBrush(doc.createColor(1.0f, 0.0f, 0.0f)));
 path.setOpacity(0.7f);
 ```
 
-### Step 7: Save Resultant XPS Document
+### Step 7: save resultant XPS document
 Finally, write the XPS file to disk.
 ```java
 doc.save(dataDir + "AddGrid_out.xps");
@@ -105,12 +105,12 @@ doc.save(dataDir + "AddGrid_out.xps");
 
 Follow these steps, and you'll successfully add a visually appealing grid using Visual Brush in your Java application with Aspose.Page.
 
-## Common Use Cases
+## Common use cases
 - **Report backgrounds:** Add subtle grid patterns to financial or engineering reports for better readability.  
 - **Design templates:** Create reusable page templates where the same grid repeats across multiple pages.  
 - **Highlight sections:** Overlay colored grids to draw attention to specific document areas.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Solution |
 |-------|----------|
 | **Grid appears stretched** | Verify that `TileMode` is set to `XpsTileMode.Tile` and that the source and destination rectangles have the same size. |
@@ -120,7 +120,7 @@ Follow these steps, and you'll successfully add a visually appealing grid using 
 ## Conclusion
 Congratulations! You've learned **how to add grid** elements using Aspose.Page’s Visual Brush in Java. This technique gives you fine‑grained control over pattern rendering while keeping your code clean and maintainable.
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Is Aspose.Page suitable for professional document generation?
 Yes, Aspose.Page is a robust library designed for professional document generation in Java.
 
@@ -136,12 +136,12 @@ Yes, you can access the [free trial](https://releases.aspose.com/) to explore As
 ### How can I obtain a temporary license for Aspose.Page?
 Acquire a [temporary license](https://purchase.aspose.com/temporary-license/) for testing purposes.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -150,3 +150,10 @@ Acquire a [temporary license](https://purchase.aspose.com/temporary-license/) fo
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -40,51 +40,50 @@ A **Visual Brush** is a reusable drawing object that can be tiled across any sha
 - Aspose.Page for Java library added to your project (Maven/Gradle or manual JAR).
 - Basic familiarity with creating a `Document` and adding `Page` objects.
 
-## Step‑by‑Step Guide: Adding a Grid with Visual Brush
+## Step‑by‑Step guide: adding a grid with visual brush
 
-### Step 1: Create the Document and Page Canvas
+### Step 1: create the document and page canvas
 Start by instantiating a `Document` object and adding a `Page`. This provides the drawing surface for the grid.
+
+```java
+// Initialize Aspose.Page document
+Document doc = new Document();
+Page page = doc.getPages().add();
+```
 
 ### Step 2: Define the Grid Line as a Visual Object
 Create a simple line (or rectangle) that represents one cell edge. This visual will be reused by the brush.
 
-### Step 3: Configure the Visual Brush
+### Step 3: configure the visual brush
 Wrap the line in a `VisualBrush`, set its `TileMode` to `Tile`, and specify the `Viewbox` size that determines the spacing between grid lines.
 
 ### Step 4: Apply the Brush to a Rectangle Covering the Page
 Draw a large rectangle that covers the entire page and fill it with the configured `VisualBrush`. The brush automatically tiles the line, forming a complete grid.
 
-### Step 5: Save the Document
+### Step 5: save the document
 Finally, save the document in your desired format (e.g., PDF). The grid will appear as a background element behind any other content you add later.
 
 > **Pro tip:** Adjust the `Viewbox` dimensions to change grid cell size, or change the line’s stroke thickness/color for different visual styles.
 
-## Why Choose Aspose.Page for Java?
+## Why choose Aspose.Page for java?
 
 - **Effortless integration** – Add a single JAR or Maven dependency and start drawing.
 - **Cross‑format support** – One API works for PDF, XPS, and more.
 - **High performance** – Rendering is optimized for large documents and complex graphics.
 - **Rich customization** – Full control over brush properties, transformations, and opacity.
 
-## Common Use Cases
+## Common use cases
 
 - **Report templates** – Provide a subtle background grid to align tables and charts.
 - **Invoice layouts** – Use a faint grid to separate line items without clutter.
 - **Technical drawings** – Overlay a precise measurement grid for engineering documents.
 - **Educational material** – Create worksheets or graph paper PDFs on the fly.
 
-## Visual Elements - Java Tutorials
-### [Add Grid using Visual Brush in Java](./add-grid/)
+## Visual elements - java tutorials
+### [Add grid using visual brush in java](./add-grid/)
 Enhance Java document visuals with Aspose.Page! Learn to add grids using Visual Brush step‑by‑step. Elevate your application's appeal effortlessly.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I change the grid color after it’s created?**  
 A: Yes. Modify the stroke color of the line visual before wrapping it in the `VisualBrush`, then re‑apply the brush.
@@ -106,3 +105,10 @@ A: Yes. Set the brush’s opacity or the line’s stroke opacity to achieve semi
 **Last Updated:** 2026-03-05  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

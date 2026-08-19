@@ -28,7 +28,7 @@ If you need to **set background color java** while working with Java PostScript,
 Before diving in, ensure you have:
 
 1. **Java Development Kit (JDK)** – the latest version installed.  
-2. **Aspose.Page for Java** – download from the [website](https://releases.aspose.com/page/java/).  
+2. **Aspose.Page for Java** – download from the [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).  
 3. **Document Directory** – a folder where you’ll write the PostScript files.  
 4. **Translucent Image File** – e.g., `mask1.png`, which we’ll use to demonstrate transparency.
 
@@ -47,7 +47,7 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Step 1: Set Background Color Java
+## Step 1: set background color java
 Here we create the document, choose A4 size, and fill a red rectangle to illustrate the background contrast.
 
 ```java
@@ -64,7 +64,7 @@ document.setPaint(new Color(211, 8, 48));
 document.fill(new Rectangle2D.Float(0, 0, (int) options.getPageSize().getWidth(), 300));
 ```
 
-## Step 2: Translate Coordinates
+## Step 2: translate coordinates
 Move the drawing cursor to a convenient spot on the page before placing images.
 
 ```java
@@ -73,7 +73,7 @@ document.writeGraphicsSave();
 document.translate(20, 100);
 ```
 
-## Step 3: Create Image Object
+## Step 3: create image object
 Load the PNG file (our **convert png to postscript** step).
 
 ```java
@@ -81,7 +81,7 @@ Load the PNG file (our **convert png to postscript** step).
 BufferedImage image = ImageIO.read(new File(dataDir + "mask1.png"));
 ```
 
-## Step 4: Add Opaque Image
+## Step 4: add opaque image
 Draw the image normally—this demonstrates **add image to postscript** without transparency.
 
 ```java
@@ -97,7 +97,7 @@ Now we use `drawTransparentImage` to render the same PNG with full opacity (255)
 document.drawTransparentImage(image, new AffineTransform(1, 0, 0, 1, 350, 0), 255);
 ```
 
-## Step 6: Save and Close
+## Step 6: save and close
 Finalize the document and release resources.
 
 ```java
@@ -107,24 +107,24 @@ document.closePage();
 document.save();
 ```
 
-## Why This Matters
+## Why this matters
 Setting a background color with Java gives you a canvas that can highlight overlaid graphics. Combining that with **draw image with opacity** lets you create watermarks, logos, or UI mock‑ups directly in PostScript without needing external editing tools.
 
-## Common Issues & Tips
+## Common issues & tips
 - **Image not appearing transparent:** Verify that the PNG actually contains an alpha channel.  
 - **Incorrect colors:** Remember that the background rectangle is drawn before the image; change the `Color` values to match your design.  
 - **Performance:** For large documents, reuse a single `AffineTransform` instance to reduce object creation overhead.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page for Java with other Java libraries?**  
 A: Yes, Aspose.Page for Java can be integrated seamlessly with other Java libraries to enhance document processing capabilities.
 
 **Q: Is a free trial available for Aspose.Page for Java?**  
-A: Yes, you can access a free trial of Aspose.Page for Java from [here](https://releases.aspose.com/).
+A: Yes, you can access a free trial of Aspose.Page for Java from the [Aspose.Page for Java free trial](https://releases.aspose.com/).
 
 **Q: How can I obtain a temporary license for Aspose.Page for Java?**  
-A: You can acquire a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+A: You can acquire a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
 **Q: Are there any forums for Aspose.Page for Java support?**  
 A: Yes, visit the [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) for community support and discussions.
