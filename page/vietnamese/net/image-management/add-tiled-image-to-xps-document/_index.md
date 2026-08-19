@@ -1,32 +1,48 @@
 ---
-title: Thêm hình ảnh xếp chồng vào tài liệu XPS bằng Aspose.Page for .NET
-linktitle: Thêm hình ảnh xếp chồng vào tài liệu XPS
-second_title: API Aspose.Page .NET
-description: Khám phá cách thêm hình ảnh xếp chồng vào tài liệu XPS một cách dễ dàng với Aspose.Page for .NET. Tăng cường sự hấp dẫn trực quan và tạo ra các tài liệu tuyệt đẹp.
-weight: 12
+date: 2026-03-03
+description: Tìm hiểu cách sử dụng Aspose.Page cho .NET để lắp ghép hình ảnh trong
+  tài liệu XPS. Hướng dẫn từng bước này chỉ ra cách lắp ghép hình ảnh một cách hiệu
+  quả và nâng cao tính thẩm mỹ.
+linktitle: Add Tiled Image to XPS Document
+second_title: Aspose.Page .NET API
+title: Cách sử dụng Aspose.Page để thêm hình ảnh lát gạch vào tài liệu XPS
 url: /vi/net/image-management/add-tiled-image-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm hình ảnh xếp chồng vào tài liệu XPS bằng Aspose.Page for .NET
+# Cách Sử Dụng Aspose.Page Để Thêm Hình Ảnh Lát Vào Tài Liệu XPS
 
 ## Giới thiệu
 
-Bạn đang tìm cách nâng cao tài liệu XPS của mình bằng cách thêm các hình ảnh xếp chồng hấp dẫn trực quan? Aspose.Page for .NET trao quyền cho các nhà phát triển để đạt được điều này một cách liền mạch. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hình ảnh xếp kề vào tài liệu XPS bằng Aspose.Page cho .NET.
+Nếu bạn đang tự hỏi **how to use Aspose** để mang lại cho các tệp XPS của mình một phong cách hình ảnh phong phú hơn, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước cần thiết để **tile an image** bên trong tài liệu XPS bằng cách sử dụng Aspose.Page cho .NET. Khi hoàn thành, bạn sẽ có một đoạn mã có thể tái sử dụng mà bạn có thể chèn vào bất kỳ dự án .NET nào để tạo đồ họa hình ảnh lát ngay lập tức.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Thư viện nào cần thiết?** Aspose.Page for .NET  
+- **Phương thức nào tạo ra brush lát?** `CreateImageBrush` with `TileMode = XpsTileMode.Tile`  
+- **Tôi có thể kiểm soát độ trong suốt không?** Yes – set `path.Fill.Opacity` (e.g., 0.5f)  
+- **Tôi có cần giấy phép để thử nghiệm không?** A temporary license works for evaluation; a full license is required for production.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Aspose.Page là gì và Tại sao lại Lát Hình Ảnh?
 
--  Aspose.Page for .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Page. Bạn có thể tìm tài liệu chi tiết và tải về thư viện[đây](https://reference.aspose.com/page/net/).
-- Môi trường phát triển: Thiết lập môi trường phát triển .NET ưa thích của bạn, chẳng hạn như Visual Studio.
+Aspose.Page là một API mạnh mẽ cho phép các nhà phát triển tạo, chỉnh sửa và render XPS, PDF và các định dạng dựa trên trang khác mà không cần phụ thuộc vào Microsoft Office. Lát một hình ảnh—lặp lại bitmap trên một hình dạng—giúp bạn lấp đầy các khu vực lớn bằng các mẫu, dấu nước hoặc kết cấu nền trong khi giữ kích thước tệp thấp.
 
-## Nhập không gian tên
+## Cách Sử Dụng Aspose.Page Để Lát Hình Ảnh Trong Tài Liệu XPS
 
-Để bắt đầu, hãy nhập các không gian tên cần thiết vào dự án của bạn. Điều này đảm bảo rằng bạn có quyền truy cập vào các lớp và phương thức cần thiết để làm việc với Aspose.Page. Thêm các không gian tên sau vào đầu mã của bạn:
+Dưới đây bạn sẽ tìm thấy một ví dụ hoàn chỉnh, sẵn sàng chạy. Mỗi bước được giải thích bằng ngôn ngữ đơn giản trước khối mã tương ứng, để bạn có thể thấy **why** mỗi dòng quan trọng.
+
+### Yêu cầu trước
+
+- **Aspose.Page for .NET** – tải xuống và tham chiếu thư viện từ trang chính [here](https://reference.aspose.com/page/net/).  
+- **Development environment** – Visual Studio (bất kỳ phiên bản nào) hoặc IDE .NET khác mà bạn thích.
+
+### Nhập Các Namespace
+
+Đầu tiên, đưa các namespace cần thiết vào phạm vi để trình biên dịch biết nơi tìm các lớp XPS.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -34,73 +50,82 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Bây giờ, hãy chia ví dụ thành nhiều bước.
+### Bước 1: Xác Định Thư Mục Tài Liệu
 
-## Bước 1: Xác định thư mục tài liệu
+Xác định vị trí lưu tệp XPS được tạo và hình ảnh nguồn. Thay thế placeholder bằng thư mục thực tế trên máy của bạn.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-Đảm bảo thay thế "Thư mục tài liệu của bạn" bằng đường dẫn thực tế nơi bạn muốn lưu tài liệu XPS của mình.
+### Bước 2: Tạo Tài Liệu XPS Mới
 
-## Bước 2: Tạo tài liệu XPS mới
+Khởi tạo một tài liệu XPS trống sẽ chứa đồ họa lát.
 
 ```csharp
-// Tạo tài liệu XPS mới
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
- Khởi tạo một tài liệu XPS mới bằng cách sử dụng`XpsDocument` lớp học.
+### Bước 3: Thêm Hình Ảnh Lát
 
-## Bước 3: Thêm hình ảnh xếp cạnh
+Ở đây chúng ta tạo một đường hình chữ nhật, lấp đầy nó bằng một `ImageBrush`, và đặt brush ở chế độ lát. Thuộc tính `TileMode` cho phép engine lặp lại hình ảnh cả theo chiều ngang và chiều dọc. Điều chỉnh tọa độ hình chữ nhật hoặc hình ảnh nguồn tùy theo nhu cầu của bạn.
 
 ```csharp
-// Hình ảnh ngói
-// Hình chữ nhật đầy ImageBrush ở trên cùng bên phải bên dưới
+// Tile image
+// ImageBrush filled rectangle in the right top below
 XpsPath path = doc.AddPath(doc.CreatePathGeometry("M 10,160 L 228,160 228,305 10,305"));
 path.Fill = doc.CreateImageBrush(dataDir + "R08LN_NN.jpg", new RectangleF(0f, 0f, 128f, 96f), new RectangleF(0f, 0f, 64f, 48f));
 ((XpsImageBrush)path.Fill).TileMode = XpsTileMode.Tile;
 path.Fill.Opacity = 0.5f;
 ```
 
-Bước này thêm hình ảnh xếp kề vào tài liệu XPS. Điều chỉnh tọa độ và đường dẫn tệp hình ảnh theo yêu cầu của bạn.
+### Bước 4: Lưu Tài Liệu XPS Đã Tạo
 
-## Bước 4: Lưu tài liệu XPS kết quả
+Cuối cùng, ghi tài liệu ra đĩa. Tệp đầu ra có thể được mở bằng bất kỳ trình xem XPS nào hoặc tiếp tục xử lý bằng Aspose.Page.
 
 ```csharp
-// Lưu tài liệu XPS kết quả
+// Save resultant XPS document
 doc.Save(dataDir + "AddTiledImage_outXPS.xps");
 ```
 
-Lưu tài liệu XPS đã sửa đổi vào thư mục được chỉ định.
+## Các Vấn Đề Thường Gặp & Mẹo
 
-## Phần kết luận
+- **Path errors** – Đảm bảo `dataDir` kết thúc bằng dấu gạch chéo `/` hoặc sử dụng `Path.Combine` để tránh các vấn đề thiếu dấu phân tách.  
+- **Image size mismatches** – Hình ảnh nguồn nên đủ lớn cho khu vực lát; nếu không mẫu có thể bị kéo dài.  
+- **Opacity not visible** – Một số trình xem bỏ qua độ trong suốt trên XPS; hãy thử với trình xem hỗ trợ đầy đủ việc render XPS (ví dụ, XPS Viewer trên Windows).
 
-Chúc mừng! Bạn đã học thành công cách thêm hình ảnh xếp kề vào tài liệu XPS bằng Aspose.Page cho .NET. Tính năng đơn giản nhưng mạnh mẽ này cho phép bạn nâng cao sự hấp dẫn trực quan của tài liệu một cách dễ dàng.
+## Câu Hỏi Thường Gặp
 
-## Câu hỏi thường gặp
+### Q1: Aspose.Page có tương thích với mọi môi trường phát triển .NET không?
+A: Có, Aspose.Page hoạt động với Visual Studio, Rider, VS Code và bất kỳ IDE nào hỗ trợ .NET.
 
-### Câu hỏi 1: Aspose.Page có tương thích với tất cả môi trường phát triển .NET không?
+### Q2: Tôi có thể điều chỉnh độ trong suốt của hình ảnh lát không?
+A: Chắc chắn. Ví dụ đặt `path.Fill.Opacity = 0.5f;`—bạn có thể thay đổi giá trị float trong khoảng 0 (transparent) và 1 (opaque).
 
-Câu trả lời 1: Có, Aspose.Page được thiết kế để hoạt động liền mạch với nhiều môi trường phát triển .NET khác nhau, bao gồm cả Visual Studio.
+### Q3: Có các chế độ lát khác có sẵn trong Aspose.Page cho .NET không?
+A: Có. Ngoài `XpsTileMode.Tile`, bạn có thể sử dụng `FlipX`, `FlipY`, và `FlipXY` để tạo các mẫu phản chiếu.
 
-### Câu hỏi 2: Tôi có thể điều chỉnh độ mờ của hình ảnh xếp kề không?
+### Q4: Làm thế nào để tôi xử lý giấy phép tạm thời cho Aspose.Page?
+A: Tham khảo trang [temporary license](https://purchase.aspose.com/temporary-license/) trên website Aspose để biết chi tiết về cách lấy và áp dụng giấy phép dùng thử.
 
-Câu trả lời 2: Chắc chắn, như được minh họa trong ví dụ, bạn có thể đặt độ mờ của hình chữ nhật được tô màu bằng cách sử dụng`Opacity` tài sản.
+### Q5: Tôi có thể tìm kiếm trợ giúp hoặc kết nối với cộng đồng Aspose.Page ở đâu?
+A: Truy cập [Aspose.Page forum](https://forum.aspose.com/c/page/39) để đặt câu hỏi, chia sẻ đoạn mã và học hỏi từ các nhà phát triển khác.
 
-### Câu hỏi 3: Có các chế độ ô xếp khác có sẵn trong Aspose.Page cho .NET không?
+### Q6: Tôi có thể sử dụng cách này để tạo hiệu ứng dấu nước không?
+A: Có. Bằng cách giảm độ trong suốt và chọn một hình ảnh bán trong suốt, brush lát sẽ hoạt động hoàn hảo như một dấu nước lặp lại.
 
- Câu trả lời 3: Có, Aspose.Page cung cấp các chế độ xếp khác nhau. Trong hướng dẫn này, chúng tôi đã sử dụng`XpsTileMode.Tile`, nhưng bạn có thể khám phá các tùy chọn khác trong tài liệu.
+## Kết luận
 
-### Câu hỏi 4: Làm cách nào để xử lý giấy phép tạm thời cho Aspose.Page?
+Bây giờ bạn đã biết **how to use Aspose** để thêm một hình ảnh lát vào tài liệu XPS, kiểm soát độ trong suốt của nó và lưu kết quả để sử dụng tiếp. Kỹ thuật này lý tưởng cho các mẫu nền, dấu nước, hoặc bất kỳ trường hợp nào mà đồ họa lặp lại tăng tính thẩm mỹ mà không làm tăng kích thước tệp. Hãy thoải mái thử nghiệm với các hình dạng, hình ảnh và chế độ lát khác nhau để phù hợp với nhu cầu dự án của bạn.
 
- A4: Hãy tham khảo[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trên trang web Aspose để được hướng dẫn cách lấy và triển khai giấy phép tạm thời.
+---
 
-### Câu hỏi 5: Tôi có thể tìm kiếm trợ giúp hoặc kết nối với cộng đồng Aspose.Page ở đâu?
+**Last Updated:** 2026-03-03  
+**Tested With:** Aspose.Page for .NET (latest release)  
+**Author:** Aspose  
 
- A5: Tham quan[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để tương tác với cộng đồng, đặt câu hỏi và tìm giải pháp.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

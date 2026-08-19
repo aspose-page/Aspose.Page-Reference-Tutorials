@@ -1,34 +1,43 @@
 ---
-title: Thêm trang vào tài liệu PostScript (PS) bằng Aspose.Page
-linktitle: Thêm trang vào tài liệu PostScript (PS)
-second_title: API Aspose.Page .NET
-description: Khám phá Aspose.Page cho .NET giải pháp tối ưu để thao tác tài liệu PostScript liền mạch trong các dự án .NET của bạn.
-weight: 10
+date: 2026-03-03
+description: Tìm hiểu cách đặt kích thước trang tùy chỉnh và thêm một trang PS thứ
+  hai vào tài liệu PostScript bằng Aspose.Page cho .NET.
+linktitle: Add Page to PostScript (PS) Document
+second_title: Aspose.Page .NET API
+title: Đặt kích thước trang tùy chỉnh trong tài liệu PS bằng Aspose.Page
 url: /vi/net/page-manipulation/add-page-to-postscript-ps-document/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm trang vào tài liệu PostScript (PS) bằng Aspose.Page
+# Thêm Trang vào Tài liệu PostScript (PS) bằng Aspose.Page
 
 ## Giới thiệu
 
-Trong thế giới phát triển .NET, việc quản lý và thao tác tài liệu là một khía cạnh quan trọng. Aspose.Page for .NET là một thư viện mạnh mẽ cung cấp cho các nhà phát triển những công cụ cần thiết để làm việc liền mạch với các tài liệu PostScript (PS). Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thêm trang vào tài liệu PostScript bằng Aspose.Page trong .NET.
+Trong phát triển .NET, khả năng **đặt kích thước trang tùy chỉnh** và **thêm trang PS thứ hai** vào một tài liệu PostScript (PS) cho phép bạn kiểm soát chi tiết bố cục của các bản in, báo cáo hoặc đồ họa được tạo ra. Aspose.Page cho .NET làm cho nhiệm vụ này trở nên đơn giản với một API sạch sẽ, hướng đối tượng. Trong hướng dẫn này, bạn sẽ học cách tạo một tệp PS đa trang, xác định kích thước tùy chỉnh cho mỗi trang, và lưu kết quả—tất cả chỉ với vài dòng mã C#.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Tôi có thể đặt kích thước trang tùy chỉnh không?** Yes – chỉ cần truyền chiều rộng và chiều cao khi mở một trang.  
+- **Làm thế nào để thêm trang PS thứ hai?** Gọi `document.OpenPage(width, height)` lần thứ hai.  
+- **Phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Tôi có cần giấy phép không?** Giấy phép tạm thời hoạt động cho việc thử nghiệm; giấy phép đầy đủ cần thiết cho môi trường sản xuất.  
+- **Tôi có thể tải Aspose.Page ở đâu?** Từ trang tải xuống chính thức được liên kết bên dưới.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## Yêu cầu trước
 
-- Kiến thức làm việc về phát triển .NET.
-- Visual Studio được cài đặt trên máy của bạn.
--  Aspose.Page cho thư viện .NET mà bạn có thể tải xuống[đây](https://releases.aspose.com/page/net/).
+Trước khi bắt đầu hướng dẫn, hãy chắc chắn rằng bạn đã chuẩn bị các yêu cầu sau:
+
+- Kiến thức làm việc về phát triển .NET.  
+- Visual Studio đã được cài đặt trên máy của bạn.  
+- Thư viện Aspose.Page cho .NET, bạn có thể tải về [tại đây](https://releases.aspose.com/page/net/).  
 - Thư mục tài liệu ưa thích của bạn để thử nghiệm.
 
 ## Nhập không gian tên
 
-Đảm bảo rằng bạn bao gồm các không gian tên cần thiết trong dự án của mình để truy cập các chức năng do Aspose.Page cung cấp. Trong ví dụ đã cho, các không gian tên được ngầm bao gồm nhưng điều cần thiết là phải kiểm tra kỹ và thực hiện các điều chỉnh dựa trên cấu trúc dự án của bạn.
+Đảm bảo rằng bạn bao gồm các không gian tên cần thiết trong dự án để truy cập các chức năng do Aspose.Page cung cấp. Trong ví dụ được đưa ra, các không gian tên được bao gồm ngầm, nhưng bạn cần kiểm tra lại và điều chỉnh tùy theo cấu trúc dự án của mình.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -40,85 +49,99 @@ using System.IO;
 
 ## Bước 1: Thiết lập dự án của bạn
 
-Tạo một dự án .NET mới trong Visual Studio và thiết lập các cấu hình cần thiết. Đảm bảo tham khảo thư viện Aspose.Page trong dự án của bạn.
+Tạo một dự án .NET mới trong Visual Studio và thiết lập các cấu hình cần thiết. Đảm bảo tham chiếu thư viện Aspose.Page trong dự án của bạn.
 
-## Bước 2: Khởi tạo tài liệu
+## Đặt kích thước trang tùy chỉnh và Thêm trang PS thứ hai
+
+Phần này trình bày chi tiết cách **đặt kích thước trang tùy chỉnh** cho mỗi trang và cách **thêm trang PS thứ hai** vào cùng một tài liệu.
+
+### Bước 2: Khởi tạo tài liệu
 
 ```csharp
-// Bắt đầu:1
-// Đường dẫn đến thư mục tài liệu.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 
-// Tạo luồng đầu ra cho tài liệu PostScript
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "document1.ps", FileMode.Create))
 {
-    // Tạo tùy chọn lưu với khổ A4
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Tạo Tài liệu PS 2 trang mới
+    // Create a new 2-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, 2);
 ```
 
-## Bước 3: Thêm trang đầu tiên
+### Bước 3: Thêm Trang đầu tiên (kích thước mặc định)
 
 ```csharp
-    // Thêm trang đầu tiên
+    // Add the first page
     document.OpenPage();
 
-    // Thêm nội dung
+    // Add content
 
-    // Đóng trang đầu tiên
+    // Close the first page
     document.ClosePage();
 ```
 
-## Bước 4: Thêm trang thứ hai với kích thước khác
+### Bước 4: Thêm Trang thứ hai với Kích thước Khác (Tùy chỉnh)
 
 ```csharp
-    // Thêm trang thứ hai với kích thước khác
+    // Add the second page with a different size
     document.OpenPage(400, 700);
 
-    // Thêm nội dung
+    // Add content
 
-    // Đóng trang thứ hai
+    // Close the second page
     document.ClosePage();
 ```
 
-## Bước 5: Lưu tài liệu
+### Bước 5: Lưu tài liệu
 
 ```csharp
-    // Lưu tài liệu
+    // Save the document
     document.Save();
 }
 // ExEnd:1
 ```
 
-Hãy thực hiện theo các bước này một cách tỉ mỉ và bạn sẽ thêm thành công các trang vào tài liệu PostScript bằng Aspose.Page cho .NET.
+Thực hiện các bước này một cách tỉ mỉ, và bạn sẽ thành công trong việc **đặt kích thước trang tùy chỉnh** và thêm một **trang PS thứ hai** vào tài liệu PostScript bằng Aspose.Page cho .NET.
 
-## Phần kết luận
+## Tại sao điều này quan trọng
 
-Trong hướng dẫn này, chúng tôi đã trình bày các bước cơ bản để tích hợp Aspose.Page cho .NET vào dự án của bạn và thêm trang vào tài liệu PostScript. API trực quan và tính linh hoạt của thư viện khiến cho việc thao tác tài liệu trở thành một nhiệm vụ dễ dàng đối với các nhà phát triển .NET.
+- **Bố cục chính xác** – Kích thước trang tùy chỉnh cho phép bạn khớp với thông số máy in hoặc tạo các định dạng brochure độc đáo.  
+- **Nhiều trang** – Thêm trang thứ hai (hoặc hơn) cho phép tạo báo cáo đa trang mà không cần công cụ hợp nhất bên ngoài.  
+- **Đa nền tảng** – Tệp PS được tạo có thể được hiển thị trên bất kỳ thiết bị tương thích PostScript nào hoặc chuyển đổi sang PDF sau này.
+
+## Những lỗi thường gặp & Khắc phục
+
+- **Đường dẫn không đúng** – Đảm bảo `dataDir` kết thúc bằng ký tự phân tách đường dẫn hoặc sử dụng `Path.Combine`.  
+- **Vấn đề giấy phép** – Nếu không có giấy phép hợp lệ, thư viện có thể thêm watermark hoặc giới hạn số trang.  
+- **Nhầm lẫn đơn vị** – Chiều rộng và chiều cao được đo bằng điểm (1 point = 1/72 inch). Điều chỉnh cho phù hợp.
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Page có tương thích với các định dạng tài liệu khác nhau không?
+**Câu hỏi 1: Aspose.Page có tương thích với các định dạng tài liệu khác nhau không?**  
+A1: Aspose.Page chủ yếu tập trung vào việc thao tác tài liệu PostScript. Đối với các định dạng khác, bạn có thể khám phá các thư viện Aspose được thiết kế cho nhu cầu cụ thể.
 
-Câu trả lời 1: Aspose.Page chủ yếu tập trung vào thao tác tài liệu PostScript. Đối với các định dạng khác, bạn có thể khám phá thư viện Aspose phù hợp với nhu cầu cụ thể.
+**Câu hỏi 2: Tôi có thể tùy chỉnh kích thước trang trong Aspose.Page không?**  
+A2: Chắc chắn! Như đã trình bày trong hướng dẫn, bạn có thể chỉ định các kích thước khác nhau cho mỗi trang theo yêu cầu của mình.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh kích thước trang trong Aspose.Page không?
+**Câu hỏi 3: Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?**  
+A3: Tham khảo [tài liệu](https://reference.aspose.com/page/net/) để có thông tin chi tiết và nhiều ví dụ đa dạng.
 
-A2: Chắc chắn rồi! Như đã trình bày trong hướng dẫn, bạn có thể chỉ định các kích thước khác nhau cho mỗi trang tùy theo yêu cầu của mình.
+**Câu hỏi 4: Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Page?**  
+A4: Điều hướng tới [liên kết này](https://purchase.aspose.com/temporary-license/) để nhận giấy phép tạm thời cho mục đích thử nghiệm.
 
-### Câu hỏi 3: Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
+**Câu hỏi 5: Tôi có thể tìm hỗ trợ cộng đồng hoặc đặt câu hỏi ở đâu?**  
+A5: Tham gia [diễn đàn cộng đồng Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với các nhà phát triển khác, chia sẻ kinh nghiệm và tìm kiếm trợ giúp.
 
- A3: Tham quan[tài liệu](https://reference.aspose.com/page/net/) để biết thông tin toàn diện và nhiều ví dụ khác nhau.
+---
 
-### Câu hỏi 4: Làm cách nào để có được giấy phép tạm thời cho Aspose.Page?
+**Cập nhật lần cuối:** 2026-03-03  
+**Kiểm tra với:** Aspose.Page 24.11 for .NET  
+**Tác giả:** Aspose  
 
- A4: Điều hướng đến[liên kết này](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho mục đích thử nghiệm.
-
-### Câu hỏi 5: Tôi có thể tìm kiếm sự hỗ trợ của cộng đồng hoặc đặt câu hỏi ở đâu?
-
- A5: Tham gia[Diễn đàn cộng đồng Aspose.Page](https://forum.aspose.com/c/page/39) để kết nối với các nhà phát triển khác, chia sẻ kinh nghiệm và tìm kiếm sự trợ giúp.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
