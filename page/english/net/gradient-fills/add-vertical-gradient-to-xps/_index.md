@@ -38,7 +38,7 @@ A vertical gradient is a color transition that runs from the top of a shape to t
 
 ## Prerequisites
 
-- Aspose.Page for .NET Library: Ensure that you have the Aspose.Page for .NET library installed in your development environment. You can download it [here](https://releases.aspose.com/page/net/).
+- Aspose.Page for .NET Library: Ensure that you have the Aspose.Page for .NET library installed in your development environment. You can download it [Aspose.Page .NET download page](https://releases.aspose.com/page/net/).
 - Development Environment: Set up a .NET development environment with your preferred IDE, such as Visual Studio.
 
 Now that we have everything ready, let’s dive into the code.
@@ -54,7 +54,7 @@ using System.Collections.Generic;
 using System.Drawing;
 ```
 
-## Step 1: Set Up Your Document Directory
+## Step 1: set up your document directory
 
 Define the folder where the generated XPS file will be saved.
 
@@ -64,7 +64,7 @@ string dataDir = "Your Document Directory";
 // ExEnd:3
 ```
 
-## Step 2: Create a New XPS Document
+## Step 2: create a new XPS document
 
 Instantiate a fresh XPS document that we will later populate with a gradient‑filled path.
 
@@ -74,7 +74,7 @@ XpsDocument doc = new XpsDocument();
 // ExEnd:4
 ```
 
-## Step 3: Define Gradient Stops
+## Step 3: define gradient stops
 
 Gradient stops determine the colors and their positions along the gradient line. Here we create five stops to produce a smooth vertical transition.
 
@@ -89,7 +89,7 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(252, 255, 255, 234), 1f));
 // ExEnd:5
 ```
 
-## Step 4: Create a Path with Gradient
+## Step 4: create a path with gradient
 
 We draw a rectangle‑shaped path and apply a **linear gradient brush** that runs vertically from point (10, 110) to point (10, 200). The brush receives the gradient stops defined earlier.
 
@@ -102,7 +102,7 @@ path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 110f), new PointF(10f,
 // ExEnd:6
 ```
 
-## Step 5: Save the Resultant XPS Document
+## Step 5: save the resultant XPS document
 
 Finally, write the XPS document to disk. This **save XPS file** step produces `AddVerticalGradient_outXPS.xps` in the folder you specified.
 
@@ -114,7 +114,7 @@ doc.Save(dataDir + "AddVerticalGradient_outXPS.xps");
 
 **Pro tip:** Verify the output by opening the XPS file in Windows XPS Viewer or any third‑party viewer to ensure the gradient appears as expected.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -122,19 +122,19 @@ doc.Save(dataDir + "AddVerticalGradient_outXPS.xps");
 | File not found on save | `dataDir` points to a non‑existent folder | Create the directory first or use an absolute path. |
 | Colors look different | Color values use ARGB order; verify channel order | Use `CreateColor(alpha, red, green, blue)` correctly. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.Page compatible with Visual Studio 2019?**  
 A: Yes, Aspose.Page is compatible with Visual Studio 2019. Ensure you have the correct version of the library installed.
 
 **Q: Can I use Aspose.Page for commercial projects?**  
-A: Yes, Aspose.Page can be used for commercial projects. Visit [here](https://purchase.aspose.com/buy) to explore licensing options.
+A: Yes, Aspose.Page can be used for commercial projects. Visit [Aspose.Page licensing page](https://purchase.aspose.com/buy) to explore licensing options.
 
 **Q: Is there a free trial available?**  
-A: Yes, you can get a free trial of Aspose.Page [here](https://releases.aspose.com/).
+A: Yes, you can get a free trial of Aspose.Page [Aspose.Page free trial download](https://releases.aspose.com/).
 
 **Q: Where can I find Aspose.Page documentation?**  
-A: The documentation is available [here](https://reference.aspose.com/page/net/).
+A: The documentation is available [Aspose.Page .NET API reference](https://reference.aspose.com/page/net/).
 
 **Q: How can I get support or ask questions?**  
 A: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support.

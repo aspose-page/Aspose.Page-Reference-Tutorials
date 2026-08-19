@@ -50,7 +50,7 @@ using System.Drawing;
 
 Now, let's break down the provided example into multiple steps.
 
-## Step 1: Set the Document Directory Path
+## Step 1: set the document directory path
 
 ```csharp
 // ExStart:3
@@ -59,7 +59,7 @@ string dataDir = "Your Document Directory";
 // ExEnd:3
 ```
 
-## Step 2: Create a New XPS Document
+## Step 2: create a new XPS document
 
 ```csharp
 // ExStart:4
@@ -68,7 +68,7 @@ XpsDocument doc = new XpsDocument();
 // ExEnd:4
 ```
 
-## Step 3: Initialize Gradient Stops
+## Step 3: initialize gradient stops
 
 ```csharp
 // ExStart:5
@@ -83,7 +83,7 @@ stops.Add(doc.CreateGradientStop(doc.CreateColor(255, 12, 91, 248), 1f));
 // ExEnd:5
 ```
 
-## Step 4: Create a New Path
+## Step 4: create a new path
 
 ```csharp
 // ExStart:6
@@ -95,7 +95,7 @@ path.Fill = doc.CreateLinearGradientBrush(new PointF(10f, 0f), new PointF(228f, 
 // ExEnd:6
 ```
 
-## Step 5: Save the Resultant XPS Document
+## Step 5: save the resultant XPS document
 
 ```csharp
 // ExStart:7
@@ -106,7 +106,7 @@ doc.Save(dataDir + "AddHorizontalGradient_outXPS.xps");
 
 Now, you have successfully added a horizontal gradient to your XPS document using Aspose.Page for .NET.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -130,13 +130,13 @@ A3: You can purchase Aspose.Page for .NET from the [purchase page](https://purch
 
 ### Q4: Is there a free trial available?
 
-A4: Yes, you can get a free trial from [here](https://releases.aspose.com/).
+A4: Yes, you can get a free trial from the [Aspose free trial download page](https://releases.aspose.com/).
 
 ### Q5: How do I get a temporary license for Aspose.Page for .NET?
 
-A5: You can obtain a temporary license from [this link](https://purchase.aspose.com/temporary-license/).
+A5: You can obtain a temporary license from the [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use this gradient technique with XPS documents that already contain images?**  
 A: Absolutely. The gradient is applied to a path layer, so existing images remain untouched.
@@ -154,12 +154,12 @@ A: Create the `XpsLinearGradientBrush` once, store it in a variable, and assign 
 
 Enhancing your XPS documents with gradients not only improves visual appeal but also delivers a more engaging user experience. With Aspose.Page for .NET, you can **create XPS gradient** fills quickly and reliably, giving your reports, brochures, or e‑books a professional polish.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -168,3 +168,10 @@ Enhancing your XPS documents with gradients not only improves visual appeal but 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

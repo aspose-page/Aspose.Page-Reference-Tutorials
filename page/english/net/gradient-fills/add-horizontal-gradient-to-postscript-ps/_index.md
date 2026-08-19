@@ -44,17 +44,17 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## What Is a Linear Gradient Rectangle?
+## What is a linear gradient rectangle?
 
 A **linear gradient rectangle** is simply a rectangular shape whose interior is painted with a linear gradient—colors transition smoothly along a straight line, typically from left to right (horizontal) or top to bottom (vertical). In Aspose.Page you achieve this by combining a `GraphicsPath` that defines the rectangle with a `LinearGradientBrush` that describes the color transition.
 
-## Why Use Gradient Fill Text and Outline Text Gradient?
+## Why use gradient fill text and outline text gradient?
 
 - **Visual Appeal:** Gradient‑filled text adds depth and modern styling to reports, invoices, or promotional materials.  
 - **Brand Consistency:** Match corporate colors with precise ARGB values.  
 - **Versatility:** The same brush can be reused for shape fills, text fills, and outline gradients, reducing code duplication.
 
-## Step 1: Set Up the Document
+## Step 1: set up the document
 
 ```csharp
 // The path to the documents directory.
@@ -70,7 +70,7 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Step 2: Define Gradient Rectangle and Colors
+## Step 2: define gradient rectangle and colors
 
 ```csharp
     float offsetX = 200;
@@ -87,7 +87,7 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
         Color.FromArgb(50, 40, 128, 70), 0f);
 ```
 
-## Step 3: Set Transform for Brush
+## Step 3: set transform for brush
 
 ```csharp
     // Create a transform for brush. X and Y scale component must be equal to width and height of the rectangle correspondingly.
@@ -97,7 +97,7 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     brush.Transform = brushTransform;
 ```
 
-## Step 4: Set Paint and Fill the Rectangle
+## Step 4: set paint and fill the rectangle
 
 ```csharp
     // Set paint
@@ -115,7 +115,7 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     document.FillAndStrokeText("ABC", font, 200, 300, brush, new Pen(new SolidBrush(Color.Black), 2));
 ```
 
-## Using Outline Text Gradient
+## Using outline text gradient
 
 ```csharp
     // Set current stroke
@@ -124,7 +124,7 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
     document.OutlineText("ABC", font, 200, 400);
 ```
 
-## Step 7: Close the Current Page and Save the Document
+## Step 7: close the current page and save the document
 
 ```csharp
     // Close current page
@@ -137,13 +137,13 @@ using (Stream outPsStream = new FileStream(dataDir + "HorizontalGradient_outPS.p
 
 Congratulations! You've successfully added a **linear gradient rectangle** to a PostScript document and used the same brush for **gradient fill text** and an **outline text gradient**.
 
-## Common Use Cases & Tips
+## Common use cases & tips
 
 - **Report Headers:** Fill large text blocks with gradients to highlight section titles.  
 - **Brand Logos:** Recreate logo shapes with gradient fill shapes for consistent branding.  
 - **Pro Tip:** Re‑use the same `LinearGradientBrush` instance for multiple drawing calls to keep colors perfectly aligned across shapes and text.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I apply gradients to other shapes besides rectangles?
 **A:** Yes, you can apply gradients to any shape defined by a `GraphicsPath`. Simply add circles, polygons, or custom paths before calling `document.Fill(path)`.
@@ -155,7 +155,7 @@ Congratulations! You've successfully added a **linear gradient rectangle** to a 
 **A:** Absolutely. Aspose.Page supports XPS, PS, PDF, and several other vector formats. Check the official docs for the full list.
 
 ### Q4: Can I use Aspose.Page for commercial projects?
-**A:** Yes, commercial licensing is available. See the purchase page for details: [here](https://purchase.aspose.com/buy).
+**A:** Yes, commercial licensing is available. See the purchase page for details: [Aspose.Page purchase page](https://purchase.aspose.com/buy).
 
 ### Q5: Where can I find community support?
 **A:** Join the Aspose.Page community forum: [Aspose.Page Forum](https://forum.aspose.com/c/page/39).
