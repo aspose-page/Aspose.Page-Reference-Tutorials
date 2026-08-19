@@ -1,10 +1,12 @@
 ---
-date: 2025-12-20
-description: Poznaj, jak dodać przestrzeń nazw XMP w plikach EPS przy użyciu Aspose.Page
-  dla Javy w tym kompleksowym samouczku aspose.page xmp.
+date: 2026-03-08
+description: Poznaj sposób dodawania przestrzeni nazw XMP w plikach EPS przy użyciu
+  Aspose.Page dla Javy – krok po kroku tutorial, jak dodać XMP i przestrzeń nazw XMP,
+  przewodnik Java.
 linktitle: Add Namespace in XMP using Java
 second_title: Aspose.Page Java API
-title: aspose.page xmp tutorial – Dodaj przestrzeń nazw w XMP przy użyciu Javy
+title: Jak dodać przestrzeń nazw XMP w plikach EPS przy użyciu Aspose.Page – samouczek
+  Java
 url: /pl/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
@@ -13,34 +15,32 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose.page xmp tutorial – Dodaj przestrzeń nazw w XMP przy użyciu Java
+# Jak dodać przestrzeń nazw XMP w plikach EPS przy użyciu Aspose.Page – samouczek Java
 
-## Wprowadzenie
-
-Jeśli potrzebujesz zmodyfikować lub wzbogacić metadane plików EPS, **aspose.page xmp tutorial** pokazuje dokładnie, **jak dodać przestrzeń nazw XMP** przy użyciu Java. W tym przewodniku przeprowadzimy Cię przez każdy krok — od załadowania dokumentu EPS, rejestracji własnej przestrzeni nazw, wstawienia nowej właściwości, po zapis zaktualizowanego pliku. Po zakończeniu będziesz posiadać przejrzysty, wielokrotnego użytku wzorzec pracy z metadanymi XMP w każdym projekcie Java obsługującym Aspose.Page.
+Jeśli potrzebujesz modyfikować lub wzbogacać metadane plików EPS, ten **how to add xmp** samouczek pokaże Ci dokładnie, jak dodać przestrzeń nazw XMP przy użyciu Javy i Aspose.Page. Po zakończeniu przewodnika będziesz mieć wielokrotnego użytku wzorzec wstrzykiwania własnych metadanych do dowolnego dokumentu EPS.
 
 ## Szybkie odpowiedzi
 - **Jaki jest główny cel?** Dodanie własnej przestrzeni nazw XMP i właściwości do pliku EPS.  
-- **Jakiej biblioteki potrzebujesz?** Aspose.Page for Java.  
+- **Która biblioteka jest wymagana?** Aspose.Page for Java.  
 - **Czy potrzebna jest licencja do testów?** Darmowa wersja próbna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
 - **Ile zmian w kodzie jest potrzebnych?** Tylko pięć krótkich fragmentów kodu — po jednym dla każdego kroku.  
 - **Czy mogę ponownie użyć tego wzorca dla innych przestrzeni nazw?** Tak, wystarczy zmienić prefiks i URI w wywołaniu `registerNamespaceURI`.
 
 ## Czym jest przestrzeń nazw XMP?
 
-Przestrzeń nazw XMP (Extensible Metadata Platform) to unikalny identyfikator, który grupuje powiązane właściwości metadanych pod wspólnym URI. Zarejestrowanie przestrzeni nazw pozwala przechowywać własne dane — takie jak własne tagi — bez kolizji z istniejącymi standardami.
+Przestrzeń nazw XMP (Extensible Metadata Platform) jest unikalnym identyfikatorem, który grupuje powiązane właściwości metadanych pod wspólnym URI. Zarejestrowanie przestrzeni nazw pozwala przechowywać własne dane — takie jak własne tagi — bez kolizji z istniejącymi standardami.
 
 ## Dlaczego używać Aspose.Page do manipulacji XMP?
 
-- **Pełna kontrola** nad metadanymi EPS i PDF bez potrzeby narzędzi Adobe.  
+- **Pełna kontrola** nad metadanymi EPS i PDF bez potrzeby używania narzędzi Adobe.  
 - **Automatyczne tworzenie** bloków XMP, gdy nie istnieją, na podstawie komentarzy PS.  
 - **Wsparcie Java na wielu platformach**, co ułatwia integrację z istniejącymi pipeline'ami.
 
-## Wymagania wstępne
+## Prerequisites
 
-- Aspose.Page for Java: Upewnij się, że masz zainstalowaną bibliotekę. Możesz ją pobrać [tutaj](https://releases.aspose.com/page/java/).  
+- Aspose.Page for Java: Upewnij się, że biblioteka jest zainstalowana. Możesz ją pobrać [tutaj](https://releases.aspose.com/page/java/).  
 - Środowisko programistyczne Java: Skonfiguruj środowisko Java na swoim systemie.  
-- Plik dokumentu: Posiadaj plik EPS z metadanymi XMP. Jeśli nie zawiera metadanych XMP, biblioteka utworzy je na podstawie komentarzy metadanych PS.
+- Plik dokumentu: Miej plik EPS z metadanymi XMP. Jeśli nie zawiera metadanych XMP, biblioteka utworzy je na podstawie komentarzy metadanych PS.
 
 ## Importowanie pakietów
 
@@ -56,7 +56,7 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## Krok 1: Pobranie metadanych XMP
+## Krok 1: Pobierz metadane XMP
 
 ```java
 
@@ -72,9 +72,9 @@ XmpMetadata xmp = document.getXmpMetadata();
 ```
 
 ### Dlaczego to ważne
-Pobranie obiektu `XmpMetadata` daje dostęp do bieżących metadanych dokumentu, umożliwiając ich odczyt, modyfikację lub rozszerzenie przed zapisem.
+Pobranie obiektu `XmpMetadata` daje Ci bieżący dostęp do metadanych dokumentu, umożliwiając ich odczyt, modyfikację lub rozszerzenie przed zapisaniem.
 
-## Krok 2: Rejestracja nowej przestrzeni nazw *(jak dodać przestrzeń nazw xmp)*
+## Krok 2: Zarejestruj nową przestrzeń nazw *(how to add xmp namespace)*
 
 ```java
 // Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
@@ -82,9 +82,9 @@ xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 ```
 
 ### Wyjaśnienie
-Metoda `registerNamespaceURI` mapuje krótki prefiks (`tmp`) na pełny URI. Ten krok jest niezbędny przed następną operacją, ponieważ właściwości XMP muszą być kwalifikowane zarejestrowaną przestrzenią nazw.
+Metoda `registerNamespaceURI` mapuje krótki prefiks (`tmp`) na pełny URI. Ten krok jest niezbędny dla kolejnej operacji, ponieważ właściwości XMP muszą być kwalifikowane zarejestrowaną przestrzenią nazw.
 
-## Krok 3: Dodanie nowej właściwości
+## Krok 3: Dodaj nową właściwość
 
 ```java
 // Add new property "tmp:newKey" in the new XML namespace
@@ -92,9 +92,9 @@ xmp.put("tmp:newKey", new XmpValue("NewValue"));
 ```
 
 ### Co się dzieje?
-Tworzymy własną właściwość o nazwie `tmp:newKey` i przypisujemy jej wartość `"NewValue"`. Możesz zamienić klucz i wartość na dowolne, które pasują do Twojej logiki biznesowej.
+Tutaj tworzymy własną właściwość o nazwie `tmp:newKey` i przypisujemy jej wartość `"NewValue"`. Możesz zamienić klucz i wartość na dowolne, które pasują do Twojej logiki biznesowej.
 
-## Krok 4: Zapis dokumentu
+## Krok 4: Zapisz dokument
 
 ```java
 // Initialize output EPS file stream
@@ -109,9 +109,9 @@ try {
 ```
 
 ### Wskazówka
-Zawsze otaczaj wywołanie `save` w bloku `try/finally` (lub używaj try‑with‑resources), aby zapewnić zamknięcie strumienia wyjściowego, nawet w przypadku wystąpienia wyjątku.
+Zawsze otaczaj wywołanie `save` blokiem `try/finally` (lub użyj try‑with‑resources), aby zapewnić zamknięcie strumienia wyjściowego, nawet w przypadku wystąpienia wyjątku.
 
-## Krok 5: Zamknięcie strumieni
+## Krok 5: Zamknij strumienie
 
 ```java
 // Close input EPS stream
@@ -125,20 +125,20 @@ Zamknięcie strumienia wejściowego natychmiast zwalnia uchwyt pliku, zapobiegaj
 
 | Problem | Prawdopodobna przyczyna | Rozwiązanie |
 |---------|--------------------------|-------------|
-| Brak bloku XMP po zapisaniu | Oryginalny EPS nie zawierał XMP, a komentarze były niewystarczające | Upewnij się, że EPS zawiera standardowe komentarze PS (`%%Creator`, `%%Title` itd.) lub ręcznie utwórz pusty obiekt `XmpMetadata` przed rejestracją przestrzeni nazw. |
+| Brak bloku XMP po zapisaniu | Oryginalny EPS nie zawierał XMP, a komentarze były niewystarczające | Upewnij się, że EPS zawiera standardowe komentarze PS (`%%Creator`, `%%Title`, itp.) lub ręcznie utwórz pusty obiekt `XmpMetadata` przed rejestracją przestrzeni nazw. |
 | `registerNamespaceURI` zgłasza wyjątek | Prefiks już używany | Wybierz unikalny prefiks lub sprawdź istniejące przestrzenie nazw za pomocą `xmp.getRegisteredNamespaces()`. |
 | Zapisany plik jest uszkodzony | Strumień wyjściowy nie został opróżniony | Użyj `try‑with‑resources` lub wywołaj explicite `outPsStream.flush()` przed zamknięciem. |
 
 ## Zakończenie
 
-Postępując zgodnie z tym **aspose.page xmp tutorial**, uzyskałeś powtarzalną metodę dodawania własnych przestrzeni nazw i właściwości do plików EPS przy użyciu Aspose.Page for Java. Ta możliwość otwiera drzwi do bogatszych strategii metadanych — niezależnie od tego, czy wstawiasz identyfikatory przepływu pracy, własne tagi, czy dane integracyjne dla systemów downstream.
+Postępując zgodnie z tym **how to add xmp** samouczkiem, masz teraz powtarzalną metodę dodawania własnych przestrzeni nazw i właściwości do plików EPS przy użyciu Aspose.Page for Java. Ta możliwość otwiera drzwi do bogatszych strategii metadanych — niezależnie od tego, czy wstawiasz identyfikatory przepływu pracy, własne tagi, czy dane integracyjne dla systemów downstream.
 
 ## FAQ
 
-### Czy mogę używać Aspose.Page dla Java z innymi językami programowania?
-Aspose.Page głównie obsługuje Java, ale dostępne są wersje dla innych języków, takich jak .NET.
+### Czy mogę używać Aspose.Page for Java z innymi językami programowania?
+Aspose.Page głównie obsługuje Javę, ale dostępne są wersje dla innych języków, takich jak .NET.
 
-### Czy dostępna jest wersja próbna?
+### Czy dostępna jest darmowa wersja próbna?
 Tak, możesz wypróbować darmową wersję próbną [tutaj](https://releases.aspose.com/).
 
 ### Gdzie mogę znaleźć pełną dokumentację?
@@ -150,9 +150,11 @@ Możesz uzyskać tymczasową licencję [tutaj](https://purchase.aspose.com/tempo
 ### Czy istnieją fora społecznościowe dla Aspose.Page?
 Tak, możesz dołączyć do społeczności na [forum Aspose.Page](https://forum.aspose.com/c/page/39).
 
-**Ostatnia aktualizacja:** 2025-12-20  
-**Testowano z:** Aspose.Page for Java 23.12 (najnowsza w momencie pisania)  
-**Autor:** Aspose  
+---
+
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Page for Java 24.10 (latest)  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

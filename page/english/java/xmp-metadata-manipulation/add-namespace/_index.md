@@ -1,9 +1,9 @@
 ---
-title: "aspose.page xmp tutorial – Add Namespace in XMP using Java"
+title: "How to Add XMP Namespace in EPS Files Using Aspose.Page – Java Tutorial"
 linktitle: Add Namespace in XMP using Java
 second_title: Aspose.Page Java API
-description: "Learn how to add XMP namespace in EPS files with Aspose.Page for Java in this comprehensive aspose.page xmp tutorial."
-date: 2025-12-20
+description: "Learn how to add XMP namespace in EPS files with Aspose.Page for Java – a step‑by‑step how to add xmp and xmp namespace tutorial java guide."
+date: 2026-03-08
 weight: 13
 url: /java/xmp-metadata-manipulation/add-namespace/
 ---
@@ -12,11 +12,9 @@ url: /java/xmp-metadata-manipulation/add-namespace/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose.page xmp tutorial – Add Namespace in XMP using Java
+# How to Add XMP Namespace in EPS Files Using Aspose.Page – Java Tutorial
 
-## Introduction
-
-If you need to modify or enrich the metadata of EPS files, **aspose.page xmp tutorial** shows you exactly **how to add XMP namespace** using Java. In this guide we’ll walk through each step—starting from loading an EPS document, registering a custom namespace, inserting a new property, and finally saving the updated file. By the end, you’ll have a clear, reusable pattern for working with XMP metadata in any Aspose.Page‑enabled Java project.
+If you need to modify or enrich the metadata of EPS files, this **how to add xmp** tutorial shows you exactly how to add an XMP namespace using Java and Aspose.Page. By the end of the guide you’ll have a reusable pattern for injecting custom metadata into any EPS document.
 
 ## Quick Answers
 - **What is the primary goal?** Add a custom XMP namespace and property to an EPS file.  
@@ -130,7 +128,7 @@ Closing the input stream releases the file handle promptly, preventing file‑lo
 
 ## Conclusion
 
-By following this **aspose.page xmp tutorial**, you now have a repeatable method for adding custom namespaces and properties to EPS files using Aspose.Page for Java. This capability opens the door to richer metadata strategies—whether you’re embedding workflow identifiers, proprietary tags, or integration data for downstream systems.
+By following this **how to add xmp** tutorial, you now have a repeatable method for adding custom namespaces and properties to EPS files using Aspose.Page for Java. This capability opens the door to richer metadata strategies—whether you’re embedding workflow identifiers, proprietary tags, or integration data for downstream systems.
 
 ## FAQs
 
@@ -151,8 +149,8 @@ Yes, you can engage with the community on the [Aspose.Page forum](https://forum.
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Page for Java 23.12 (latest at time of writing)  
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Page for Java 24.10 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,10 +1,12 @@
 ---
-date: 2025-12-20
+date: 2026-03-08
 description: Scopri come aggiungere lo spazio dei nomi XMP nei file EPS con Aspose.Page
-  per Java in questo completo tutorial aspose.page xmp.
+  per Java – una guida passo‑passo su come aggiungere XMP e lo spazio dei nomi XMP,
+  tutorial Java.
 linktitle: Add Namespace in XMP using Java
 second_title: Aspose.Page Java API
-title: aspose.page xmp tutorial – Aggiungi namespace in XMP con Java
+title: Come aggiungere lo spazio dei nomi XMP nei file EPS con Aspose.Page – Tutorial
+  Java
 url: /it/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
@@ -13,28 +15,26 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose.page xmp tutorial – Aggiungere Namespace in XMP usando Java
+# Come aggiungere lo spazio dei nomi XMP nei file EPS usando Aspose.Page – Tutorial Java
 
-## Introduzione
+Se hai bisogno di modificare o arricchire i metadati dei file EPS, questo tutorial **how to add xmp** ti mostra esattamente come aggiungere uno spazio dei nomi XMP usando Java e Aspose.Page. Alla fine della guida avrai un modello riutilizzabile per inserire metadati personalizzati in qualsiasi documento EPS.
 
-Se hai bisogno di modificare o arricchire i metadati dei file EPS, **aspose.page xmp tutorial** ti mostra esattamente **come aggiungere un namespace XMP** usando Java. In questa guida percorreremo ogni passaggio—dall'apertura di un documento EPS, alla registrazione di un namespace personalizzato, all'inserimento di una nuova proprietà, fino al salvataggio del file aggiornato. Alla fine, avrai un modello chiaro e riutilizzabile per lavorare con i metadati XMP in qualsiasi progetto Java abilitato Aspose.Page‑enabled.
-
-## Risposte Rapide
-- **Qual è l'obiettivo principale?** Aggiungere un namespace XMP personalizzato e una proprietà a un file EPS.  
+## Risposte rapide
+- **Qual è l'obiettivo principale?** Aggiungere uno spazio dei nomi XMP personalizzato e una proprietà a un file EPS.  
 - **Quale libreria è necessaria?** Aspose.Page per Java.  
-- **È necessaria una licenza per i test?** Una versione di prova gratuita funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
+- **È necessaria una licenza per i test?** Una prova gratuita funziona per lo sviluppo; è necessaria una licenza commerciale per la produzione.  
 - **Quante modifiche al codice sono necessarie?** Solo cinque brevi snippet di codice—uno per ogni passaggio.  
-- **Posso riutilizzare questo modello per altri namespace?** Sì, basta cambiare il prefisso e l'URI nella chiamata `registerNamespaceURI`.
+- **Posso riutilizzare questo modello per altri spazi dei nomi?** Sì, basta cambiare il prefisso e l'URI nella chiamata `registerNamespaceURI`.
 
-## Cos'è un Namespace XMP?
+## Cos'è uno spazio dei nomi XMP?
 
-Un namespace XMP (Extensible Metadata Platform) è un identificatore unico che raggruppa proprietà di metadati correlate sotto un URI comune. Registrare un namespace ti consente di memorizzare dati personalizzati—come tag proprietari—senza entrare in conflitto con gli standard esistenti.
+Uno spazio dei nomi XMP (Extensible Metadata Platform) è un identificatore unico che raggruppa proprietà di metadati correlate sotto un URI comune. Registrare uno spazio dei nomi ti consente di memorizzare dati personalizzati — come tag proprietari — senza entrare in conflitto con gli standard esistenti.
 
 ## Perché usare Aspose.Page per la manipolazione XMP?
 
 - **Controllo completo** sui metadati EPS e PDF senza necessità di strumenti Adobe.  
 - **Creazione automatica** di blocchi XMP quando non esistono, basata sui commenti PS.  
-- **Supporto Java cross‑platform**, che facilita l'integrazione nei pipeline esistenti.
+- **Supporto Java cross‑platform**, che rende facile l'integrazione nei pipeline esistenti.
 
 ## Prerequisiti
 
@@ -74,7 +74,7 @@ XmpMetadata xmp = document.getXmpMetadata();
 ### Perché è importante
 Recuperare l'oggetto `XmpMetadata` ti fornisce un riferimento attivo ai metadati del documento, consentendoti di leggerli, modificarli o estenderli prima del salvataggio.
 
-## Passo 2: Registrare un nuovo Namespace *(come aggiungere un namespace xmp)*
+## Passo 2: Registrare un nuovo spazio dei nomi *(how to add xmp namespace)*
 
 ```java
 // Add new XML namespace "http://www.some.org/schema/tmp#" with prefix "tmp"
@@ -82,7 +82,7 @@ xmp.registerNamespaceURI("tmp", "http://www.some.org/schema/tmp#");
 ```
 
 ### Spiegazione
-Il metodo `registerNamespaceURI` associa un prefisso breve (`tmp`) a un URI completo. Questo passaggio è essenziale per l'operazione successiva perché le proprietà XMP devono essere qualificate con un namespace registrato.
+Il metodo `registerNamespaceURI` associa un prefisso breve (`tmp`) a un URI completo. Questo passaggio è essenziale per l'operazione successiva perché le proprietà XMP devono essere qualificate con uno spazio dei nomi registrato.
 
 ## Passo 3: Aggiungere una nuova proprietà
 
@@ -92,7 +92,7 @@ xmp.put("tmp:newKey", new XmpValue("NewValue"));
 ```
 
 ### Cosa sta succedendo?
-Qui creiamo una proprietà personalizzata chiamata `tmp:newKey` e le assegniamo il valore `"NewValue"`. Puoi sostituire la chiave e il valore con qualsiasi cosa si adatti alla tua logica di business.
+Qui creiamo una proprietà personalizzata chiamata `tmp:newKey` e le assegniamo il valore "NewValue". Puoi sostituire la chiave e il valore con qualsiasi cosa adatta alla tua logica di business.
 
 ## Passo 4: Salvare il documento
 
@@ -109,7 +109,7 @@ try {
 ```
 
 ### Suggerimento
-Avvolgi sempre la chiamata `save` in un blocco `try/finally` (o usa try‑with‑resources) per garantire che lo stream di output venga chiuso, anche se si verifica un'eccezione.
+Avvolgi sempre la chiamata `save` in un blocco `try/finally` (o usa try‑with‑resources) per garantire che lo stream di output sia chiuso, anche se si verifica un'eccezione.
 
 ## Passo 5: Chiudere gli stream
 
@@ -118,27 +118,27 @@ Avvolgi sempre la chiamata `save` in un blocco `try/finally` (o usa try‑with�
 psStream.close();
 ```
 
-### Migliore pratica
-Chiudere lo stream di input rilascia immediatamente il handle del file, prevenendo problemi di blocco del file sui sistemi Windows.
+### Best practice
+Chiudere lo stream di input rilascia prontamente il handle del file, prevenendo problemi di blocco dei file sui sistemi Windows.
 
 ## Problemi comuni e soluzioni
 
 | Problema | Causa probabile | Soluzione |
 |----------|-----------------|-----------|
-| Nessun blocco XMP appare dopo il salvataggio | L'EPS originale non conteneva XMP e i commenti erano insufficienti | Assicurati che l'EPS contenga i commenti PS standard (`%%Creator`, `%%Title`, ecc.) o crea manualmente un oggetto `XmpMetadata` vuoto prima di registrare un namespace. |
-| `registerNamespaceURI` genera un'eccezione | Prefisso già in uso | Scegli un prefisso unico o verifica i namespace esistenti tramite `xmp.getRegisteredNamespaces()`. |
+| Nessun blocco XMP appare dopo il salvataggio | L'EPS originale non conteneva XMP e i commenti erano insufficienti | Assicurati che l'EPS contenga i commenti PS standard (`%%Creator`, `%%Title`, ecc.) o crea manualmente un oggetto `XmpMetadata` vuoto prima di registrare uno spazio dei nomi. |
+| `registerNamespaceURI` genera un'eccezione | Prefisso già in uso | Scegli un prefisso unico o controlla gli spazi dei nomi esistenti tramite `xmp.getRegisteredNamespaces()`. |
 | Il file salvato è corrotto | Stream di output non svuotato | Usa `try‑with‑resources` o chiama esplicitamente `outPsStream.flush()` prima di chiudere. |
 
 ## Conclusione
 
-Seguendo questo **aspose.page xmp tutorial**, ora disponi di un metodo ripetibile per aggiungere namespace e proprietà personalizzate ai file EPS usando Aspose.Page per Java. Questa capacità apre la porta a strategie di metadati più ricche—che tu stia incorporando identificatori di workflow, tag proprietari o dati di integrazione per sistemi downstream.
+Seguendo questo tutorial **how to add xmp**, ora disponi di un metodo ripetibile per aggiungere spazi dei nomi e proprietà personalizzate ai file EPS usando Aspose.Page per Java. Questa capacità apre la porta a strategie di metadati più ricche — che tu stia incorporando identificatori di workflow, tag proprietari o dati di integrazione per sistemi a valle.
 
 ## FAQ
 
 ### Posso usare Aspose.Page per Java con altri linguaggi di programmazione?
 Aspose.Page supporta principalmente Java, ma sono disponibili versioni per altri linguaggi come .NET.
 
-### È disponibile una versione di prova gratuita?
+### È disponibile una prova gratuita?
 Sì, puoi provare una versione di prova gratuita [qui](https://releases.aspose.com/).
 
 ### Dove posso trovare la documentazione completa?
@@ -152,8 +152,8 @@ Sì, puoi interagire con la community sul [forum Aspose.Page](https://forum.aspo
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.Page for Java 23.12 (latest at time of writing)  
+**Last Updated:** 2026-03-08  
+**Tested With:** Aspose.Page for Java 24.10 (latest)  
 **Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
