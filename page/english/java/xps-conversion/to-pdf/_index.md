@@ -49,28 +49,28 @@ import java.io.FileOutputStream;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set Document Directory
+### Step 1: set document directory
 Define the path to the folder that contains your source XPS file.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-### Step 2: Initialize PDF Output Stream
+### Step 2: initialize PDF output stream
 Create a `FileOutputStream` that will receive the generated PDF.
 
 ```java
 FileOutputStream pdfStream = new FileOutputStream(dataDir + "XPStoPDF.pdf");
 ```
 
-### Step 3: Load XPS Document
+### Step 3: load XPS document
 Load the XPS file using Aspose.Page.
 
 ```java
 XpsDocument document = new XpsDocument(dataDir + "input.xps");
 ```
 
-### Step 4: Initialize PDF Save Options  
+### Step 4: initialize PDF save options
 Create options for the conversion. Here you can **specify PDF page numbers**, adjust image quality, and set compression.
 
 ```java
@@ -81,14 +81,14 @@ options.setTextCompression(PdfTextCompression.Flate);
 options.setPageNumbers(new int[] { 1, 2, 6 });
 ```
 
-### Step 5: Create PDF Rendering Device  
+### Step 5: create PDF rendering device
 Set up a rendering device that will write the PDF output.
 
 ```java
 PdfDevice device = new PdfDevice(pdfStream);
 ```
 
-### Step 6: Save the Document  
+### Step 6: save the document
 Finally, save the XPS document as a PDF using the options and device you configured.
 
 ```java
@@ -100,12 +100,12 @@ Repeat these steps, adjusting file paths and options according to your specific 
 ## How to Specify PDF Page Numbers When Converting XPS
 If you only need a subset of pages from the original XPS, populate the `setPageNumbers` array with the desired page indices (starting at 1). This helps reduce file size and processing time.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 - **FileNotFoundException** – Verify that `dataDir` points to the correct folder and that the XPS file name matches.  
 - **LicenseException** – A valid Aspose.Page license is required for production use; otherwise, the library runs in evaluation mode with watermark.  
 - **Low image quality** – Increase `setJpegQualityLevel` or switch to lossless compression if needed.
 
-## Frequently Asked Questions
+## Frequently asked questions
 ### Can I convert XPS files with multiple pages using Aspose.Page for Java?
 Yes, you can **specify PDF page numbers** in the `PdfSaveOptions` (see Step 4) to include any pages you need.
 
@@ -116,10 +116,10 @@ Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community 
 Yes, you can explore the features with a [free trial](https://releases.aspose.com/).
 
 ### How can I obtain a temporary license for Aspose.Page for Java?
-Visit [this link](https://purchase.aspose.com/temporary-license/) for temporary license details.
+Visit the [temporary license details page](https://purchase.aspose.com/temporary-license/) for temporary license details.
 
 ### Where can I purchase the Aspose.Page for Java license?
-You can buy the license [here](https://purchase.aspose.com/buy).
+You can buy the license from the [Aspose.Page purchase page](https://purchase.aspose.com/buy).
 
 ---
 

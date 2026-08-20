@@ -1,6 +1,6 @@
 ---
-title: How to Add Gradient: Vertical Gradient in Java XPS
-linktitle: How to Add Gradient: Vertical Gradient in Java XPS
+title: 'How to Add Gradient: Vertical Gradient in Java XPS'
+linktitle: 'How to Add Gradient: Vertical Gradient in Java XPS'
 second_title: Aspose.Page Java API
 description: Learn how to add gradient to shape in Java XPS using Aspose.Page. Follow this step‑by‑step guide to create vertical gradients and enhance visual appeal.
 weight: 12
@@ -36,7 +36,7 @@ A vertical gradient is a linear color blend that runs along the Y‑axis of a sh
 Before we dive into the code, make sure you have the following:
 
 - A working Java development environment (JDK 8 or newer).  
-- Aspose.Page for Java library. You can download it from [here](https://releases.aspose.com/page/java/).  
+- Aspose.Page for Java library. You can download it from [Aspose.Page for Java download page](https://releases.aspose.com/page/java/).  
 - A basic understanding of Java programming concepts.  
 
 ## Import Packages
@@ -59,7 +59,7 @@ String dataDir = "Your Document Directory";
 ## How to Add Gradient to XPS Documents
 Below is a concise, step‑by‑step guide that shows exactly how to create an XPS document and **add gradient to shape** objects.
 
-### Step 1: Initialize the Document
+### Step 1: initialize the document
 Begin by creating a new XPS document. This object will hold all the drawing elements you add later.
 
 ```java
@@ -85,7 +85,7 @@ path.setFill(doc.createLinearGradientBrush(new Point2D.Float(10f, 110f), new Poi
 ((XpsGradientBrush)path.getFill()).getGradientStops().addAll(stops);
 ```
 
-### Step 3: Save the Document
+### Step 3: save the document
 Finally, write the XPS file to disk. The resulting file will contain the rectangle filled with the vertical gradient you defined.
 
 ```java
@@ -95,24 +95,24 @@ doc.save(dataDir + "VerticalGradient.xps");
 
 Congratulations! You have successfully learned **how to add gradient** to a Java XPS document using Aspose.Page.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 - **Gradient not visible:** Verify that the start and end points of the `LinearGradientBrush` are correctly set for a vertical orientation.  
 - **File not saved:** Ensure `dataDir` points to a writable folder and that you have permission to write files.  
 - **Library not found:** Double‑check that the Aspose.Page JAR is included in your project’s build path.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page for Java in commercial projects?**  
-A: Yes, Aspose.Page for Java is available for commercial use. You can purchase it [here](https://purchase.aspose.com/buy).
+A: Yes, Aspose.Page for Java is available for commercial use. You can purchase it [Aspose.Page purchase page](https://purchase.aspose.com/buy).
 
 **Q: Is there a free trial available for Aspose.Page for Java?**  
-A: Yes, you can access a free trial [here](https://releases.aspose.com/).
+A: Yes, you can access a free trial [Aspose.Page free trial download page](https://releases.aspose.com/).
 
 **Q: Where can I find the documentation for Aspose.Page for Java?**  
-A: The documentation is available [here](https://reference.aspose.com/page/java/).
+A: The documentation is available [Aspose.Page Java API documentation](https://reference.aspose.com/page/java/).
 
 **Q: How can I get a temporary license for Aspose.Page for Java?**  
-A: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A: Obtain a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 **Q: Need help or have questions?**  
 A: Visit the Aspose.Page community [forum](https://forum.aspose.com/c/page/39).

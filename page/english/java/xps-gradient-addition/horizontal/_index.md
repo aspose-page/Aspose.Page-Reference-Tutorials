@@ -27,7 +27,7 @@ Welcome to this step‑by‑step guide on **how to add gradient** to an XPS docu
 ## What is a Horizontal Gradient in XPS?
 A horizontal gradient is a smooth transition of colors from left to right across a shape. In XPS it is represented by a linear gradient brush that interpolates between defined **gradient stops**. This visual effect is commonly used for banners, buttons, and background fills.
 
-## Why Use Aspose.Page for Java?
+## Why use Aspose.Page for java?
 - **Full XPS support** – create, edit, and render without third‑party tools.  
 - **Simple API** – high‑level objects like `XpsDocument`, `XpsPath`, and `XpsGradientBrush` hide the XML complexity.  
 - **Performance** – optimized for large documents and batch processing.  
@@ -35,7 +35,7 @@ A horizontal gradient is a smooth transition of colors from left to right across
 ## Prerequisites
 Before you begin, ensure you have:
 
-1. **Java Development Environment** – Install the latest JDK from [java.com](https://www.java.com).  
+1. **Java Development Environment** – Install the latest JDK from [Java download page](https://www.java.com).  
 2. **Aspose.Page for Java Library** – Download the JAR from the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
 
 ## Import Packages
@@ -51,7 +51,7 @@ import java.util.LinkedList;
 import java.util.List;
 ```
 
-## Step 1: Initialize the XPS Document
+## Step 1: initialize the XPS document
 Create a fresh `XpsDocument` instance and point to the folder where you want to save the result.
 
 ```java
@@ -61,7 +61,7 @@ String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-## Step 2: Create Horizontal Gradient
+## Step 2: create horizontal gradient
 Define a list of **gradient stops** that control the color and position of each transition point. The example below builds a vibrant rainbow‑like gradient.
 
 ```java
@@ -79,7 +79,7 @@ stops.add(doc.createGradientStop(doc.createColor(255, 12, 91, 248), 1f));
 - **Color** – Use `doc.createColor(alpha, red, green, blue)` to set any ARGB value.  
 - **Position** – The second argument (`float` between `0` and `1`) defines where the stop appears along the gradient line. Adjust these values to shift colors left or right.
 
-## Step 3: Add Path with Gradient
+## Step 3: add path with gradient
 Create a rectangular path, apply a transform if needed, and fill it with the linear gradient brush. The brush uses two points (`(10,0)` to `(228,0)`) to produce a horizontal effect. Because the Y‑coordinates are identical, this brush acts as a **horizontal gradient brush**.
 
 ```java
@@ -93,7 +93,7 @@ stops.clear();
 
 **Pro tip:** Re‑using the same `stops` list for multiple paths can improve performance, but remember to `clear()` it before adding new stops.
 
-## Step 4: Save the Document
+## Step 4: save the document
 Persist the XPS file to disk. You can now open it with any XPS viewer to see the horizontal gradient in action.
 
 ```java
@@ -108,14 +108,14 @@ If you want to **apply multiple gradients** within the same XPS document, simply
 - **File size efficiency:** Gradients are stored as vector definitions, keeping the XPS file lightweight.  
 - **Scalability:** Because the gradient is vector‑based, it scales cleanly on high‑resolution displays.  
 
-## Common Issues & Solutions
+## Common issues & solutions
 | Issue | Reason | Fix |
 |-------|--------|-----|
 | Gradient appears solid | No gradient stops added or brush not set | Ensure `path.setFill(...)` uses a `LinearGradientBrush` and that stops are added via `getGradientStops().addAll(stops)`. |
 | Colors look muted | Incorrect alpha value (first parameter) | Use `255` for fully opaque colors unless transparency is desired. |
 | Path size is off | Transform matrix values are wrong | Adjust the matrix parameters (`scaleX, skewY, skewX, scaleY, translateX, translateY`). |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I apply multiple gradients in a single XPS document?**  
 A: Yes, you can add multiple paths, each with its own gradient brush, to create complex layered designs.
