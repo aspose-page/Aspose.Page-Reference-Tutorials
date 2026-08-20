@@ -1,5 +1,5 @@
 ---
-title: "How to Add Ticket: Create Custom Print Ticket with Aspose.Page for .NET"
+title: "Create Custom Print Ticket with Aspose.Page for .NET"
 linktitle: "Create Custom Print Ticket"
 second_title: "Aspose.Page .NET API"
 description: "Learn how to add ticket by creating custom print tickets with Aspose.Page for .NET. Tailor your printing experience with fine‑grained control."
@@ -57,7 +57,7 @@ using System.Drawing;
 
 Now let’s break down the implementation step‑by‑step.
 
-## Step 1: Set up Document Directory
+## Step 1: set up document directory
 
 Define where the generated XPS file will be saved.
 
@@ -65,7 +65,7 @@ Define where the generated XPS file will be saved.
 string dir = "Your Document Directory";
 ```
 
-## Step 2: Create a New XPS Document
+## Step 2: create a new XPS document
 
 Instantiate a fresh XPS document that will hold the pages and the ticket.
 
@@ -73,7 +73,7 @@ Instantiate a fresh XPS document that will hold the pages and the ticket.
 XpsDocument xDocs = new XpsDocument();
 ```
 
-## Step 3: Add Custom Job Print Ticket
+## Step 3: add custom job print ticket
 
 Attach a custom job print ticket to the document. This is the core of **how to add ticket** functionality—here you specify collate, copies, rendering intent, color management, and any other settings you need.
 
@@ -87,7 +87,7 @@ xDocs.JobPrintTicket = new JobPrintTicket(
 
 > **Pro tip:** Replace the placeholder snapshot string with a Base64‑encoded DEVMODE structure that matches your printer’s capabilities.
 
-## Step 4: Save the Document
+## Step 4: save the document
 
 Persist the XPS document (with the embedded ticket) to disk.
 
@@ -97,7 +97,7 @@ xDocs.Save(dir + "output1.xps");
 
 When you open *output1.xps* in a viewer that respects XPS metadata, the printer will automatically apply the settings defined in the ticket.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -105,13 +105,13 @@ When you open *output1.xps* in a viewer that respects XPS metadata, the printer 
 | Invalid Base64 snapshot | Corrupted DEVMODE data | Regenerate the snapshot from the printer driver using `GetPrinter` API. |
 | Missing permissions | Write access to `dir` denied | Ensure the application runs with sufficient file‑system rights. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page for .NET with other .NET frameworks?**  
 A: Yes, Aspose.Page works with .NET Framework, .NET Core, .NET 5/6 and later.
 
 **Q: How can I obtain a temporary license for Aspose.Page?**  
-A: Visit [this link](https://purchase.aspose.com/temporary-license/) to acquire a temporary license for Aspose.Page.
+A: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) to acquire a temporary license for Aspose.Page.
 
 **Q: Is there a community forum for Aspose.Page support?**  
 A: Absolutely, you can find helpful discussions and support on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
@@ -126,12 +126,12 @@ A: Explore the [documentation](https://reference.aspose.com/page/net/) for sampl
 
 We’ve covered **how to add ticket** support to an XPS document using Aspose.Page for .NET. By following these steps you can embed rich printing instructions directly into your files, giving you full control over the print workflow from within your .NET applications. Feel free to experiment with additional ticket settings to match your specific printing environment.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -140,3 +140,10 @@ We’ve covered **how to add ticket** support to an XPS document using Aspose.Pa
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

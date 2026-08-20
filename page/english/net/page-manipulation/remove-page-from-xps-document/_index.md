@@ -1,6 +1,6 @@
 ---
-title: Remove Page from XPS Document with Aspose.Page for .NET
-linktitle: Remove Page from XPS Document
+title: Delete a Page from an XPS Document Using Aspose.Page for .NET
+linktitle: Delete Page from XPS Document
 second_title: Aspose.Page .NET API
 description: Learn how to **remove page xps** documents and **delete page at index** using Aspose.Page for .NET – a complete step‑by‑step guide with prerequisites, code samples, and FAQs.
 weight: 12
@@ -12,7 +12,7 @@ date: 2026-03-19
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Remove Page from XPS Document with Aspose.Page for .NET
+# Delete a Page from an XPS Document Using Aspose.Page for .NET
 
 ## Introduction
 
@@ -52,7 +52,7 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Step 1: Set the Document Directory
+## Step 1: set the document directory
 
 ```csharp
 // ExStart:3
@@ -63,7 +63,7 @@ string dataDir = "Your Document Directory";
 
 > **Pro tip:** Use `Path.Combine` for cross‑platform path building.
 
-## Step 2: Create a New XPS Document
+## Step 2: create a new XPS document
 
 ```csharp
 // ExStart:4
@@ -74,7 +74,7 @@ XpsDocument doc = new XpsDocument(dataDir + "Sample.xps");
 
 This line loads the existing XPS file (`Sample.xps`) into an `XpsDocument` object, ready for manipulation.
 
-## Step 3: Delete Page at Index
+## Step 3: delete page at index
 
 ```csharp
 // ExStart:5
@@ -85,7 +85,7 @@ doc.RemovePageAt(1);
 
 The `RemovePageAt` method **deletes the page at the specified index**. Remember that indexing starts at 0, so `1` removes the second page. Adjust the index to target the page you need to delete.
 
-## Step 4: Save the Resultant XPS Document
+## Step 4: save the resultant XPS document
 
 ```csharp
 // ExStart:6
@@ -96,7 +96,7 @@ doc.Save(dataDir + "Sample_out.xps");
 
 After removal, the document is saved as `Sample_out.xps`. You can now open this file to verify that the unwanted page is gone.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -104,7 +104,7 @@ After removal, the document is saved as `Sample_out.xps`. You can now open this 
 | **File locked** | The XPS file is open in another program. | Close any viewers or ensure the file is not in use before running the code. |
 | **License not applied** | Using the library without a valid license in production. | Apply a temporary or permanent license using `License license = new License(); license.SetLicense("Aspose.Page.lic");` |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I remove multiple pages at once using Aspose.Page for .NET?**  
 A1: Yes, simply call `RemovePageAt` repeatedly or loop through a list of indexes (remember to remove from highest to lowest index to keep the remaining indexes valid).

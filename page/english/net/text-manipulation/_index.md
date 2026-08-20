@@ -1,5 +1,5 @@
 ---
-title: Aspose.Page Text Manipulation in .NET
+title: Text Manipulation Techniques for .NET
 linktitle: Aspose.Page Text Manipulation
 second_title: Aspose.Page .NET API
 description: Master aspose.page text manipulation in .NET with step‑by‑step tutorials. Learn to add Unicode text to PostScript and XPS documents using Aspose.Page.
@@ -28,7 +28,7 @@ Welcome to the world of **aspose.page text manipulation** for .NET. In this comp
 ## What is Aspose.Page Text Manipulation?
 Aspose.Page’s text‑manipulation capabilities let you programmatically place strings, control fonts, apply Unicode characters, and position text precisely on a page. The API abstracts the low‑level PS/XPS syntax, so you can focus on business logic instead of document internals.
 
-## Why Use Aspose.Page for Text Manipulation?
+## Why use Aspose.Page for text manipulation?
 - **Cross‑format support** – Write once, output to both PostScript and XPS.  
 - **Full Unicode handling** – No more missing characters in international documents.  
 - **No external dependencies** – Pure .NET library, no native binaries required.  
@@ -39,23 +39,43 @@ Aspose.Page’s text‑manipulation capabilities let you programmatically place 
 - .NET 6 SDK (or .NET Framework 4.5+).  
 - Aspose.Page for .NET NuGet package installed (`Install-Package Aspose.Page`).  
 
+## Sample Code: Adding Text to a PostScript Document
+
+```csharp
+// Add text to a PostScript document using Aspose.Page
+using Aspose.Page;
+using Aspose.Page.XPS;
+using Aspose.Page.XPS.XpsModel;
+
+// Load or create a PS document
+var document = new PsDocument();
+var page = document.Pages.Add();
+
+// Create a text fragment
+var text = new TextFragment("Hello, World!", new Font("Arial", 12));
+page.Paragraphs.Add(text);
+
+// Save the document
+document.Save("output.ps");
+```
+
 ## Available Tutorials
 
 ### Add Text to PostScript (PS) Document with Aspose.Page
-Dive into the first tutorial and discover the art of adding text to PostScript (PS) documents using Aspose.Page. Our step‑by‑step examples provide a clear roadmap for seamlessly integrating text into your PS files. Unleash the full potential of document manipulation and elevate your .NET development skills effortlessly. [Read more](./add-text-to-postscript-ps-document/)
+Dive into the first tutorial and discover the art of adding text to PostScript (PS) documents using Aspose.Page. Our step‑by‑step examples provide a clear roadmap for seamlessly integrating text into your PS files. Unleash the full potential of document manipulation and elevate your .NET development skills effortlessly. [Read the PostScript text addition tutorial](./add-text-to-postscript-ps-document/)
 
 ### Add Text with Unicode String to PostScript (PS) with Aspose.Page
-Ready to take your text manipulation skills up a notch? Learn how to incorporate Unicode text into PostScript files using Aspose.Page for .NET. Our tutorial guides you through the process, ensuring you master the art of document manipulation with ease. [Read more](./add-text-with-unicode-string-to-postscript-ps/)
+Ready to take your text manipulation skills up a notch? Learn how to incorporate Unicode text into PostScript files using Aspose.Page for .NET. Our tutorial guides you through the process, ensuring you master the art of document manipulation with ease. [Read the Unicode PostScript tutorial](./add-text-with-unicode-string-to-postscript-ps/)
 
 ### Add Text with Unicode String to XPS Document with Aspose.Page
-Explore the dynamic capabilities of Aspose.Page for .NET with our guide on adding Unicode text to XPS documents. Follow our step‑by‑step instructions to seamlessly integrate text, unlocking new possibilities for document manipulation in your .NET projects. [Read more](./add-text-with-unicode-string-to-xps-document/)
+Explore the dynamic capabilities of Aspose.Page for .NET with our guide on adding Unicode text to XPS documents. Follow our step‑by‑step instructions to seamlessly integrate text, unlocking new possibilities for document manipulation in your .NET projects. [Read the Unicode XPS tutorial](./add-text-with-unicode-string-to-xps-document/)
 
 ### Add Text to XPS Document with Aspose.Page for .NET
-Effortlessly enhance your .NET projects by adding text to XPS documents using Aspose.Page. Our detailed guide provides a step‑by‑step approach to text manipulation, allowing you to bring your projects to the next level with confidence. Elevate your skills and explore the limitless possibilities today. [Read more](./add-text-to-xps-document/)
+Effortlessly enhance your .NET projects by adding text to XPS documents using Aspose.Page. Our detailed guide provides a step‑by‑step approach to text manipulation, allowing you to bring your projects to the next level with confidence. Elevate your skills and explore the limitless possibilities today. [Read the XPS text addition tutorial](./add-text-to-xps-document/)
 
 Whether you're a seasoned developer or just starting with .NET, these tutorials empower you to master text manipulation, providing valuable insights and hands‑on experience with Aspose.Page. Elevate your skills and embark on a journey to become a proficient .NET developer in document manipulation. Happy coding!
 
-## Text Manipulation Tutorials
+## Text manipulation tutorials
 ### [Add Text to PostScript (PS) Document with Aspose.Page](./add-text-to-postscript-ps-document/)
 Enhance your .NET development skills by learning to add text to PostScript (PS) documents using Aspose.Page. Explore step‑by‑step examples and unleash the power of document manipulation.
 
@@ -68,14 +88,8 @@ Explore the power of Aspose.Page for .NET with our step‑by‑step guide on add
 ### [Add Text to XPS Document with Aspose.Page for .NET](./add-text-to-xps-document/)
 Explore a step‑by‑step guide on adding text to XPS documents using Aspose.Page for .NET. Enhance your .NET projects effortlessly.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
+
 
 **Last Updated:** 2026-03-19  
 **Tested With:** Aspose.Page 24.11 for .NET  
@@ -83,7 +97,7 @@ Explore a step‑by‑step guide on adding text to XPS documents using Aspose.Pa
 
 ---
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q:** *Can I use these tutorials in a commercial application?*  
 **A:** Yes. A valid Aspose.Page license is required for production use; a free trial is available for evaluation.
@@ -99,3 +113,10 @@ Explore a step‑by‑step guide on adding text to XPS documents using Aspose.Pa
 
 **Q:** *Do I need to manage fonts manually?*  
 **A:** Aspose.Page can embed system fonts automatically, but you can also supply custom font files for consistent rendering across platforms.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

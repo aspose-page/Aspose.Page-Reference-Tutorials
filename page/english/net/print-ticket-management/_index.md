@@ -1,5 +1,5 @@
 ---
-title: Aspose.Page Create Print Ticket – Print Ticket Management
+title: Create and Edit Print Tickets with Aspose.Page for .NET – Print Ticket Management
 linktitle: Print Ticket Management
 second_title: Aspose.Page .NET API
 description: Learn how to aspose.page create print ticket and edit existing tickets using Aspose.Page for .NET, giving you fine‑grained control over XPS document printing.
@@ -45,7 +45,26 @@ Have you ever wished for more control over your document printing experience? Lo
 
 No more settling for default settings; this tutorial provides insights into the intricacies of custom print ticket creation. From understanding the basics to implementing advanced features, developers will discover how to optimize their printing solutions efficiently.
 
-The tutorial kicks off with an introduction to Aspose.Page for .NET, setting the stage for a smooth learning journey. Step by step, we guide developers through the process, explaining each aspect in detail. By the end of this tutorial, you'll be equipped with the knowledge to craft personalized print tickets, meeting the specific requirements of your printing projects. [Read More](./create-custom-print-ticket/)
+The tutorial kicks off with an introduction to Aspose.Page for .NET, setting the stage for a smooth learning journey. Step by step, we guide developers through the process, explaining each aspect in detail. By the end of this tutorial, you'll be equipped with the knowledge to craft personalized print tickets, meeting the specific requirements of your printing projects. [Read More]({{< relref "./create-custom-print-ticket/" >}})
+
+### Sample code: Creating a print ticket
+
+```csharp
+// Create a new print ticket and add it to an XPS document
+using Aspose.Page.Xps;
+using Aspose.Page.Xps.XpsModel;
+
+var doc = new XpsDocument("input.xps");
+
+// Build the print ticket
+var ticket = new PrintTicket();
+ticket.PageMediaSize = new PageMediaSize("A4");
+ticket.Duplex = DuplexMode.TwoSidedLongEdge;
+
+// Embed the ticket into the XPS document
+doc.PrintTicket = ticket;
+doc.Save("output_with_ticket.xps");
+```
 
 ## Edit Existing Print Ticket with Aspose.Page for .NET
 
@@ -53,26 +72,26 @@ Already have print tickets embedded in your XPS documents, but need to make adju
 
 Developers will benefit from a meticulous guide that walks them through the entire process. Learn how to navigate the Aspose.Page for .NET toolkit to locate and modify print tickets with precision. Whether it's tweaking parameters or adding new elements, this tutorial ensures you have complete control over your document printing.
 
-Enhance your document printing workflow effortlessly with Aspose.Page for .NET. Gain insights into efficient print ticket management, empowering you to make on‑the‑fly adjustments as needed. Elevate your development capabilities and deliver superior printing solutions tailored to your unique requirements. [Read More](./print-ticket-management/aspose.page/)
+Enhance your document printing workflow effortlessly with Aspose.Page for .NET. Gain insights into efficient print ticket management, empowering you to make on‑the‑fly adjustments as needed. Elevate your development capabilities and deliver superior printing solutions tailored to your unique requirements. [Read More]({{< relref "./print-ticket-management/aspose.page/" >}})
 
-### Common Use Cases
+### Common use cases
 - **Enterprise reporting:** Generate print tickets that enforce corporate branding and paper standards.  
 - **Batch printing farms:** Pre‑define duplex, color, and media settings to reduce manual printer configuration.  
 - **Regulatory compliance:** Embed security‑related printing options (e.g., watermarks, restricted copy) directly in the ticket.
 
-### Tips & Best Practices
+### Tips & best practices
 - **Validate the ticket XML** before embedding to avoid runtime errors.  
 - **Reuse ticket templates** for similar jobs to improve performance.  
 - **Test on multiple printers** to ensure settings translate correctly across devices.
 
-## Print Ticket Management Tutorials
-### [Create Custom Print Ticket with Aspose.Page for .NET](./create-custom-print-ticket/)
+## Print ticket management tutorials
+### [Create Custom Print Ticket with Aspose.Page for .NET]({{< relref "./create-custom-print-ticket/" >}})
 Explore the step‑by‑step guide on creating custom print tickets using Aspose.Page for .NET. Tailor your printing experience with fine‑grained control.
 
-### [Edit Existing Print Ticket with Aspose.Page for .NET](./print-ticket-management/aspose.page/)
+### [Edit Existing Print Ticket with Aspose.Page for .NET]({{< relref "./print-ticket-management/aspose.page/" >}})
 Learn to edit print tickets in XPS documents using Aspose.Page for .NET. A step‑by‑step guide for developers. Enhance document printing control effortlessly.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page create print ticket in a commercial application?**  
 A: Yes, once you have a valid Aspose license you can deploy the solution in production environments.
