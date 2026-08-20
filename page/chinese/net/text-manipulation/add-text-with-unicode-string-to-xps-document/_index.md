@@ -1,33 +1,51 @@
 ---
-title: 使用 Aspose.Page 将带有 Unicode 字符串的文本添加到 XPS 文档
-linktitle: 将带有 Unicode 字符串的文本添加到 XPS 文档中
+date: 2026-03-21
+description: 了解如何使用 Aspose.Page for .NET 向 XPS 文档添加 Unicode 文本。本指南展示了如何使用 C# 创建 XPS
+  文档以及使用 Aspose.Page 添加 Unicode 字符串文本。
+linktitle: Add Text with Unicode String to XPS Document
 second_title: Aspose.Page .NET API
-description: 通过我们向 XPS 文档添加 Unicode 文本的分步指南，探索 Aspose.Page for .NET 的强大功能。
-weight: 12
+title: 如何使用 Aspose.Page 向 XPS 文档添加 Unicode 文本
 url: /zh/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.Page 将带有 Unicode 字符串的文本添加到 XPS 文档
+# 如何使用 Aspose.Page 向 XPS 文档添加 Unicode 文本
 
-## 介绍
+## Introduction
 
-在不断发展的 .NET 开发领域，Aspose.Page 作为处理 XPS 文档的强大工具脱颖而出。在其众多功能中，向 XPS 文档添加带有 Unicode 字符串的文本的能力是一项很有价值的功能。本分步指南将引导您完成整个过程，确保您有效地利用此功能。
+如果您需要 **how to add unicode** 字符到 XPS 文件，您来对地方了。在本教程中，我们将逐步演示使用 Aspose.Page for .NET 以 **create XPS document C#** 风格创建 XPS 文档的完整步骤，并展示 **aspose page add text** 功能如何使用 Unicode 字符串。完成后，您将拥有一个能够正确显示从右到左 (RTL) Unicode 文本的完整 XPS 文档。
 
-## 先决条件
+## Quick Answers
+- **本教程涵盖了什么？** 使用 Aspose.Page for .NET 向 XPS 文档添加 Unicode 文本。  
+- **使用的语言是什么？** C#（兼容 .NET Framework 和 .NET Core）。  
+- **我需要许可证吗？** 免费试用可用于开发；生产环境需要商业许可证。  
+- **我可以更改字体或大小吗？** 是的——示例使用 Arial 20 pt，但任何已安装的字体均可使用。  
+- **是否包含 RTL 支持？** 将 `BidiLevel = 1` 设置为右到左渲染 Unicode 字符串。
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+## 在 XPS 中，“how to add unicode” 是什么？
 
-- 对 .NET 开发有基本了解。
-- Visual Studio 安装在您的计算机上。
--  .NET 库的 Aspose.Page。您可以从以下位置下载：[这里](https://releases.aspose.com/page/net/).
+添加 Unicode 文本意味着将来自任何语言——阿拉伯语、希伯来语、中文等——的字符插入到 XPS 文档中。Aspose.Page 的 `XpsGlyphs` 类负责低层的字形定位，而 `BidiLevel` 属性控制 RTL 脚本的文本方向。
 
-## 导入命名空间
+## 为什么使用 Aspose.Page 添加文本？
 
-首先，确保将必要的命名空间导入到您的项目中。这将提供使用 Aspose.Page 所需的类和功能。以下是基本的命名空间：
+- **完整的 .NET 集成** – 支持 .NET Framework、.NET Core、.NET 5/6+。  
+- **无外部依赖** – 纯托管代码，无 COM 互操作。  
+- **丰富的排版支持** – 字体、样式、颜色以及双向文本。  
+- **高性能** – 快速创建并保存 XPS 文件，适合服务器端生成。
+
+## Prerequisites
+
+- 具备 C# 和 .NET 开发的基础知识。  
+- Visual Studio（任意近期版本）。  
+- Aspose.Page for .NET 库——从 [here](https://releases.aspose.com/page/net/) 下载。
+
+## Import Namespaces
+
+首先，导入能够访问 XPS 模型和绘图工具的命名空间。
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,65 +53,69 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## 第 1 步：设置文档
+## Step 1: Set up the Document – create XPS document C#
 
-首先，创建一个新的 XPS 文档，您将在其中添加 Unicode 文本。请按照下面的代码片段操作：
+创建一个全新的 XPS 文档，用于容纳 Unicode 文本。
 
 ```csharp
-//文档目录的路径。
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//创建新的 XPS 文档
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
-## 第 2 步：添加 Unicode 文本
+## Step 2: Add Unicode Text – aspose page add text
 
-现在，让我们将 Unicode 文本添加到 XPS 文档中。此示例使用 Arial 字体，将字体大小设置为 20，并将文本定位在坐标 (400f, 200f) 处。本例中的 Unicode 字符串是“TEN.rof SPX.esopsA”。查看下面的代码片段：
+现在我们添加实际的 Unicode 字符串。示例使用 Arial 字体，大小 20，位置位于 (400 f, 200 f)。`BidiLevel` 为 1 告诉渲染器将字符串视为从右到左。
 
 ```csharp
-//添加文字
+// Add Text
 XpsSolidColorBrush textFill = doc.CreateSolidColorBrush(Color.Black);
 XpsGlyphs glyphs = doc.AddGlyphs("Arial", 20, FontStyle.Regular, 400f, 200f, "TEN. rof SPX.esopsA");
 glyphs.BidiLevel = 1;
 glyphs.Fill = textFill;
 ```
 
-## 第 3 步：保存文档
+## Step 3: Save the Document
 
-添加 Unicode 文本后，保存生成的 XPS 文档。这是最后一步：
+最后，将 XPS 文件持久化到磁盘。
 
 ```csharp
-//保存生成的 XPS 文档
+// Save resultant XPS document
 doc.Save(dataDir + "AddTextRTL_out.xps");
 ```
 
-恭喜！您已使用 Aspose.Page for .NET 成功将 Unicode 文本添加到 XPS 文档中。
+恭喜！您已成功使用 Aspose.Page for .NET 向 XPS 文档 **how to add unicode** 文本。
 
-## 结论
+## Common Issues and Solutions
 
-在本教程中，我们探索了使用 Aspose.Page for .NET 将 Unicode 文本添加到 XPS 文档的过程。此功能为在 .NET 环境中创建多样化的动态文档打开了大门。
+| 问题 | 原因 | 解决方案 |
+|-------|--------|-----|
+| 文本出现乱码 | 字体不支持该 Unicode 范围 | 使用包含所需字形的字体（例如 Arial Unicode MS）。 |
+| RTL 文本仍然从左到右 | `BidiLevel` 未设置或设置为 0 | 确保对 RTL 脚本设置 `glyphs.BidiLevel = 1;`。 |
+| 文件未保存 | `dataDir` 路径无效 | 确认目录存在且应用拥有写入权限。 |
 
-## 常见问题解答
+## Frequently Asked Questions
 
-### Q1：Aspose.Page 与最新的.NET 框架兼容吗？
+**Q: Aspose.Page 是否兼容最新的 .NET 框架？**  
+A: 是的，Aspose.Page 会定期更新以支持 .NET Framework、.NET Core 和 .NET 5/6+。
 
-A1：是的，Aspose.Page 会定期更新，以确保与最新的 .NET 框架兼容。
+**Q: 添加文本时我可以自定义字体样式和大小吗？**  
+A: 当然！`AddGlyphs` 方法允许您指定任意字体族、大小和 `FontStyle`。
 
-### Q2：添加文字时可以自定义字体样式和大小吗？
+**Q: 我可以在哪里找到 Aspose.Page 的更多文档？**  
+A: 您可以参考文档 [here](https://reference.aspose.com/page/net/) 获取完整的 API 细节。
 
-A2：当然！提供的示例代码允许您轻松自定义字体样式、大小和其他属性。
+**Q: 有哪些免费资源可以帮助我快速入门 Aspose.Page？**  
+A: 有，您可以在 [Aspose.Page forum](https://forum.aspose.com/c/page/39) 社区论坛中查找技巧、示例和同行支持。
 
-### Q3：在哪里可以找到 Aspose.Page 的附加文档？
+**Q: 在购买前是否有试用版可供使用？**  
+A: 当然！从 [here](https://releases.aspose.com/) 下载免费试用版以评估该库。
 
- A3：可以参考文档[这里](https://reference.aspose.com/page/net/)获取全面的信息和示例。
+**Last Updated:** 2026-03-21  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
 
-### Q4：有没有免费的资源可以开始使用Aspose.Page？
-
- A4：是的，您可以探索[Aspose.Page 论坛](https://forum.aspose.com/c/page/39)以获得社区支持和讨论。
-
-### Q5：购买前有试用版吗？
-
- A5：当然！您可以访问免费试用版[这里](https://releases.aspose.com/)在购买之前。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

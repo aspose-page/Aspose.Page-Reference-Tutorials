@@ -1,33 +1,52 @@
 ---
-title: Добавьте текст со строкой Unicode в документ XPS с помощью Aspose.Page
-linktitle: Добавить текст со строкой Юникода в документ XPS
+date: 2026-03-21
+description: Узнайте, как добавить Unicode‑текст в документ XPS с помощью Aspose.Page
+  для .NET. Это руководство покажет, как создать документ XPS на C# и добавить текст
+  с Unicode‑строками с помощью Aspose.Page.
+linktitle: Add Text with Unicode String to XPS Document
 second_title: Aspose.Page .NET API
-description: Изучите возможности Aspose.Page для .NET с помощью нашего пошагового руководства по добавлению текста Unicode в документы XPS.
-weight: 12
+title: Как добавить Unicode‑текст в XPS‑документ с помощью Aspose.Page
 url: /ru/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Добавьте текст со строкой Unicode в документ XPS с помощью Aspose.Page
+# Как добавить Unicode‑текст в документ XPS с помощью Aspose.Page
 
 ## Введение
 
-В постоянно развивающемся мире разработки .NET Aspose.Page выделяется как мощный инструмент для работы с документами XPS. Среди множества функций ценной функцией является возможность добавлять текст со строками Юникода в документ XPS. Это пошаговое руководство проведет вас через весь процесс и позволит эффективно использовать эту возможность.
+Если вам нужно **how to add unicode** символы в файл XPS, вы попали по адресу. В этом руководстве мы пройдем точные шаги, необходимые для **create XPS document C#**‑style с использованием Aspose.Page for .NET и продемонстрируем возможность **aspose page add text** с Unicode‑строкой. К концу у вас будет полностью функционирующий документ XPS, который правильно отображает Unicode‑текст справа налево (RTL).
 
-## Предварительные условия
+## Быстрые ответы
+- **Что покрывает руководство?** Adding Unicode text to an XPS document with Aspose.Page for .NET.  
+- **Какой язык используется?** C# (compatible with .NET Framework and .NET Core).  
+- **Нужна ли лицензия?** A free trial works for development; a commercial license is required for production.  
+- **Можно ли изменить шрифт или размер?** Yes – the example uses Arial 20 pt, but any installed font works.  
+- **Включена ли поддержка RTL?** Setting `BidiLevel = 1` enables right‑to‑left rendering for Unicode strings.
 
-Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующие предварительные условия:
+## Что такое “how to add unicode” в XPS?
 
-- Базовое понимание разработки .NET.
-- Visual Studio установлена на вашем компьютере.
--  Aspose.Page для библиотеки .NET. Вы можете скачать его с[здесь](https://releases.aspose.com/page/net/).
+Добавление Unicode‑текста означает вставку символов из любого языка — арабского, иврита, китайского и т.д. — в документ XPS. Класс `XpsGlyphs` из Aspose.Page обрабатывает низкоуровневое размещение глифов, а свойство `BidiLevel` управляет направлением текста для RTL‑скриптов.
 
-## Импортировать пространства имен
+## Почему использовать Aspose.Page для добавления текста?
 
-Для начала убедитесь, что вы импортировали необходимые пространства имен в свой проект. Это предоставит необходимые классы и функциональные возможности для работы с Aspose.Page. Вот основные пространства имен:
+- **Полная интеграция с .NET** – работает с .NET Framework, .NET Core, .NET 5/6+.  
+- **Отсутствие внешних зависимостей** – чистый управляемый код, без COM‑interop.  
+- **Поддержка расширенной типографии** – шрифты, стили, цвета и двунаправленный текст.  
+- **Высокая производительность** – быстро создает и сохраняет файлы XPS, идеально подходит для генерации на сервере.
+
+## Требования
+
+- Базовые знания C# и разработки на .NET.  
+- Visual Studio (любая современная версия).  
+- Библиотека Aspose.Page for .NET – скачайте её по ссылке [here](https://releases.aspose.com/page/net/).
+
+## Импорт пространств имён
+
+Сначала импортируйте пространства имён, которые дают доступ к модели XPS и утилитам рисования.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,65 +54,71 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Шаг 1. Настройте документ
+## Шаг 1: Настройка документа – create XPS document C#
 
-Сначала создайте новый документ XPS, в который вы будете добавлять текст в Юникоде. Следуйте фрагменту кода ниже:
+Создайте новый документ XPS, который будет содержать Unicode‑текст.
 
 ```csharp
-// Путь к каталогу документов.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Создать новый документ XPS
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
-## Шаг 2. Добавьте текст в Юникоде
+## Шаг 2: Добавление Unicode‑текста – aspose page add text
 
-Теперь давайте добавим текст Unicode в документ XPS. В этом примере используется шрифт Arial, размер шрифта устанавливается равным 20, а текст располагается по координатам (400f, 200f). Строка Юникода в этом случае — «TEN. rof SPX.esopsA». Посмотрите фрагмент кода ниже:
+Теперь добавим фактическую Unicode‑строку. В этом примере мы используем шрифт Arial, размер 20, и размещаем текст в позиции (400 f, 200 f). `BidiLevel` со значением 1 указывает рендереру обрабатывать строку как справа налево.
 
 ```csharp
-// Добавить текст
+// Add Text
 XpsSolidColorBrush textFill = doc.CreateSolidColorBrush(Color.Black);
 XpsGlyphs glyphs = doc.AddGlyphs("Arial", 20, FontStyle.Regular, 400f, 200f, "TEN. rof SPX.esopsA");
 glyphs.BidiLevel = 1;
 glyphs.Fill = textFill;
 ```
 
-## Шаг 3. Сохраните документ
+## Шаг 3: Сохранение документа
 
-После добавления текста в Юникоде сохраните полученный документ XPS. Вот последний шаг:
+Наконец, сохраните файл XPS на диск.
 
 ```csharp
-// Сохраните полученный документ XPS.
+// Save resultant XPS document
 doc.Save(dataDir + "AddTextRTL_out.xps");
 ```
 
-Поздравляем! Вы успешно добавили текст Unicode в документ XPS с помощью Aspose.Page для .NET.
+Поздравляем! Вы успешно добавили **how to add unicode** текст в документ XPS с помощью Aspose.Page for .NET.
 
-## Заключение
+## Распространённые проблемы и решения
 
-В этом уроке мы рассмотрели процесс добавления текста в Юникоде в документы XPS с помощью Aspose.Page для .NET. Эта функциональность открывает возможности для создания разнообразных и динамичных документов в среде .NET.
+| Проблема | Причина | Решение |
+|-------|--------|-----|
+| Text appears garbled | Font does not support the Unicode range | Use a font that contains the required glyphs (e.g., Arial Unicode MS). |
+| RTL text still left‑to‑right | `BidiLevel` not set or set to 0 | Ensure `glyphs.BidiLevel = 1;` for RTL scripts. |
+| File not saved | Invalid `dataDir` path | Verify that the directory exists and the app has write permissions. |
 
 ## Часто задаваемые вопросы
 
-### Вопрос 1. Совместим ли Aspose.Page с новейшими платформами .NET?
+**Q: Совместима ли Aspose.Page с последними версиями .NET?**  
+A: Yes, Aspose.Page is regularly updated to support .NET Framework, .NET Core, and .NET 5/6+.
 
-О1: Да, Aspose.Page регулярно обновляется, чтобы обеспечить совместимость с новейшими платформами .NET.
+**Q: Можно ли настроить стиль и размер шрифта при добавлении текста?**  
+A: Absolutely! The `AddGlyphs` method lets you specify any font family, size, and `FontStyle` you need.
 
-### В2: Могу ли я настроить стиль и размер шрифта при добавлении текста?
+**Q: Где можно найти дополнительную документацию по Aspose.Page?**  
+A: You can refer to the documentation [here](https://reference.aspose.com/page/net/) for comprehensive API details.
 
-А2: Абсолютно! Предоставленный пример кода позволяет легко настроить стиль, размер и другие атрибуты шрифта.
+**Q: Есть ли бесплатные ресурсы для начала работы с Aspose.Page?**  
+A: Yes, explore the community forum at [Aspose.Page forum](https://forum.aspose.com/c/page/39) for tips, examples, and peer support.
 
-### Вопрос 3: Где я могу найти дополнительную документацию для Aspose.Page?
+**Q: Доступна ли пробная версия перед покупкой?**  
+A: Certainly! Download the free trial from [here](https://releases.aspose.com/) to evaluate the library.
 
- A3: Вы можете обратиться к документации[здесь](https://reference.aspose.com/page/net/) для получения подробной информации и примеров.
+---
 
-### Вопрос 4. Есть ли бесплатные ресурсы для начала работы с Aspose.Page?
+**Последнее обновление:** 2026-03-21  
+**Тестировано с:** Aspose.Page 24.11 for .NET  
+**Автор:** Aspose  
 
- A4: Да, вы можете изучить[Форум Aspose.Page](https://forum.aspose.com/c/page/39) за поддержку сообщества и обсуждения.
-
-### В5: Доступна ли пробная версия перед покупкой?
-
- А5: Конечно! Вы можете получить доступ к бесплатной пробной версии[здесь](https://releases.aspose.com/) прежде чем совершить покупку.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

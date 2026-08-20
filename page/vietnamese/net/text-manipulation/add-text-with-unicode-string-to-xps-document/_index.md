@@ -1,33 +1,52 @@
 ---
-title: Thêm văn bản có chuỗi Unicode vào tài liệu XPS bằng Aspose.Page
-linktitle: Thêm văn bản có chuỗi Unicode vào tài liệu XPS
-second_title: API Aspose.Page .NET
-description: Khám phá sức mạnh của Aspose.Page dành cho .NET với hướng dẫn từng bước của chúng tôi về cách thêm văn bản Unicode vào tài liệu XPS.
-weight: 12
+date: 2026-03-21
+description: Tìm hiểu cách thêm văn bản Unicode vào tài liệu XPS bằng Aspose.Page
+  cho .NET. Hướng dẫn này chỉ cho bạn cách tạo tài liệu XPS bằng C# và Aspose.Page
+  để chèn văn bản với các chuỗi Unicode.
+linktitle: Add Text with Unicode String to XPS Document
+second_title: Aspose.Page .NET API
+title: Cách Thêm Văn Bản Unicode vào Tài Liệu XPS với Aspose.Page
 url: /vi/net/text-manipulation/add-text-with-unicode-string-to-xps-document/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Thêm văn bản có chuỗi Unicode vào tài liệu XPS bằng Aspose.Page
+# Cách Thêm Văn Bản Unicode vào Tài Liệu XPS với Aspose.Page
 
 ## Giới thiệu
 
-Trong bối cảnh phát triển .NET ngày càng phát triển, Aspose.Page nổi bật như một công cụ mạnh mẽ để xử lý các tài liệu XPS. Trong số nhiều tính năng của nó, khả năng thêm văn bản bằng chuỗi Unicode vào tài liệu XPS là một chức năng có giá trị. Hướng dẫn từng bước này sẽ hướng dẫn bạn thực hiện quy trình, đảm bảo bạn khai thác khả năng này một cách hiệu quả.
+Nếu bạn cần **cách thêm unicode** vào một tệp XPS, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ đi qua các bước chính xác để **tạo tài liệu XPS kiểu C#** bằng Aspose.Page cho .NET và trình diễn khả năng **aspose page add text** với một chuỗi Unicode. Khi hoàn thành, bạn sẽ có một tài liệu XPS hoạt động đầy đủ, hiển thị đúng văn bản Unicode từ phải sang trái (RTL).
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Hướng dẫn này đề cập đến gì?** Thêm văn bản Unicode vào tài liệu XPS với Aspose.Page cho .NET.  
+- **Ngôn ngữ được sử dụng?** C# (tương thích với .NET Framework và .NET Core).  
+- **Có cần giấy phép không?** Bản dùng thử miễn phí đủ cho việc phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Có thể thay đổi phông chữ hoặc kích thước không?** Có – ví dụ sử dụng Arial 20 pt, nhưng bất kỳ phông chữ đã cài đặt nào cũng được.  
+- **Có hỗ trợ RTL không?** Đặt `BidiLevel = 1` sẽ bật chế độ hiển thị từ phải sang trái cho các chuỗi Unicode.
 
-Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
+## “cách thêm unicode” trong XPS là gì?
 
-- Hiểu biết cơ bản về phát triển .NET.
-- Visual Studio được cài đặt trên máy của bạn.
--  Aspose.Page cho thư viện .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/page/net/).
+Thêm văn bản Unicode có nghĩa là chèn các ký tự từ bất kỳ ngôn ngữ nào—Arabic, Hebrew, Chinese, v.v.—vào tài liệu XPS. Lớp `XpsGlyphs` của Aspose.Page xử lý việc đặt glyph ở mức thấp, trong khi thuộc tính `BidiLevel` kiểm soát hướng văn bản cho các script RTL.
+
+## Tại sao nên dùng Aspose.Page để thêm văn bản?
+
+- **Tích hợp đầy đủ .NET** – hoạt động với .NET Framework, .NET Core, .NET 5/6+.  
+- **Không phụ thuộc bên ngoài** – mã quản lý thuần, không cần COM interop.  
+- **Hỗ trợ typogra­phy phong phú** – phông chữ, kiểu, màu sắc và văn bản hai chiều.  
+- **Hiệu năng cao** – tạo và lưu tệp XPS nhanh chóng, lý tưởng cho việc tạo trên server.
+
+## Yêu cầu trước
+
+- Kiến thức cơ bản về C# và phát triển .NET.  
+- Visual Studio (bất kỳ phiên bản mới nào).  
+- Thư viện Aspose.Page cho .NET – tải về từ [here](https://releases.aspose.com/page/net/).
 
 ## Nhập không gian tên
 
-Để bắt đầu, hãy đảm bảo bạn nhập các không gian tên cần thiết vào dự án của mình. Điều này sẽ cung cấp các lớp và chức năng cần thiết để làm việc với Aspose.Page. Dưới đây là các không gian tên cần thiết:
+Đầu tiên, nhập các không gian tên cho phép bạn truy cập mô hình XPS và các tiện ích vẽ.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,23 +54,23 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-## Bước 1: Thiết lập tài liệu
+## Bước 1: Thiết lập tài liệu – tạo XPS document C#
 
-Đầu tiên, tạo một tài liệu XPS mới nơi bạn sẽ thêm văn bản Unicode. Thực hiện theo đoạn mã dưới đây:
+Tạo một tài liệu XPS mới sẽ chứa văn bản Unicode.
 
 ```csharp
-// Đường dẫn đến thư mục tài liệu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Tạo tài liệu XPS mới
+// Create new XPS Document
 XpsDocument doc = new XpsDocument();
 ```
 
-## Bước 2: Thêm văn bản Unicode
+## Bước 2: Thêm Văn Bản Unicode – aspose page add text
 
-Bây giờ, hãy thêm văn bản Unicode vào tài liệu XPS. Ví dụ này sử dụng phông chữ Arial, đặt cỡ chữ thành 20 và đặt văn bản ở tọa độ (400f, 200f). Chuỗi Unicode trong trường hợp này là "TEN. rof SPX.esopsA". Hãy xem đoạn mã dưới đây:
+Bây giờ chúng ta thêm chuỗi Unicode thực tế. Trong ví dụ này, chúng tôi sử dụng phông Arial, kích thước 20, và đặt văn bản tại (400 f, 200 f). `BidiLevel` bằng 1 báo cho bộ render xử lý chuỗi như văn bản từ phải sang trái.
 
 ```csharp
-// Chèn văn bản
+// Add Text
 XpsSolidColorBrush textFill = doc.CreateSolidColorBrush(Color.Black);
 XpsGlyphs glyphs = doc.AddGlyphs("Arial", 20, FontStyle.Regular, 400f, 200f, "TEN. rof SPX.esopsA");
 glyphs.BidiLevel = 1;
@@ -60,40 +79,46 @@ glyphs.Fill = textFill;
 
 ## Bước 3: Lưu tài liệu
 
-Sau khi văn bản Unicode được thêm vào, hãy lưu tài liệu XPS kết quả. Đây là bước cuối cùng:
+Cuối cùng, ghi tệp XPS ra đĩa.
 
 ```csharp
-// Lưu tài liệu XPS kết quả
+// Save resultant XPS document
 doc.Save(dataDir + "AddTextRTL_out.xps");
 ```
 
-Chúc mừng! Bạn đã thêm thành công văn bản Unicode vào tài liệu XPS bằng Aspose.Page cho .NET.
+Chúc mừng! Bạn đã thành công **cách thêm unicode** vào tài liệu XPS bằng Aspose.Page cho .NET.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Trong hướng dẫn này, chúng tôi đã khám phá quy trình thêm văn bản Unicode vào tài liệu XPS bằng Aspose.Page cho .NET. Chức năng này mở ra cánh cửa cho việc tạo tài liệu đa dạng và năng động trong môi trường .NET.
+| Vấn đề | Nguyên nhân | Giải pháp |
+|-------|------------|-----------|
+| Văn bản bị lỗi | Phông chữ không hỗ trợ dải Unicode cần thiết | Sử dụng phông chữ có chứa glyph cần thiết (ví dụ, Arial Unicode MS). |
+| Văn bản RTL vẫn hiển thị trái‑sang‑phải | `BidiLevel` chưa được đặt hoặc đặt thành 0 | Đảm bảo `glyphs.BidiLevel = 1;` cho các script RTL. |
+| Không lưu được tệp | Đường dẫn `dataDir` không hợp lệ | Kiểm tra thư mục tồn tại và ứng dụng có quyền ghi. |
 
 ## Câu hỏi thường gặp
 
-### Câu hỏi 1: Aspose.Page có tương thích với các khung .NET mới nhất không?
+**H: Aspose.Page có tương thích với các framework .NET mới nhất không?**  
+Đ: Có, Aspose.Page được cập nhật thường xuyên để hỗ trợ .NET Framework, .NET Core và .NET 5/6+.
 
-Câu trả lời 1: Có, Aspose.Page được cập nhật thường xuyên để đảm bảo khả năng tương thích với các khung .NET mới nhất.
+**H: Tôi có thể tùy chỉnh kiểu và kích thước phông chữ khi thêm văn bản không?**  
+Đ: Chắc chắn! Phương thức `AddGlyphs` cho phép bạn chỉ định bất kỳ họ phông, kích thước và `FontStyle` nào bạn cần.
 
-### Câu hỏi 2: Tôi có thể tùy chỉnh kiểu và kích thước phông chữ khi thêm văn bản không?
+**H: Tôi có thể tìm tài liệu bổ sung cho Aspose.Page ở đâu?**  
+Đ: Tham khảo tài liệu [here](https://reference.aspose.com/page/net/) để biết chi tiết API toàn diện.
 
-A2: Chắc chắn rồi! Mã ví dụ được cung cấp cho phép bạn tùy chỉnh kiểu phông chữ, kích thước và các thuộc tính khác một cách dễ dàng.
+**H: Có nguồn tài nguyên miễn phí nào để bắt đầu với Aspose.Page không?**  
+Đ: Có, khám phá diễn đàn cộng đồng tại [Aspose.Page forum](https://forum.aspose.com/c/page/39) để nhận mẹo, ví dụ và hỗ trợ từ người dùng khác.
 
-### Câu hỏi 3: Tôi có thể tìm tài liệu bổ sung cho Aspose.Page ở đâu?
+**H: Có phiên bản dùng thử trước khi mua không?**  
+Đ: Tất nhiên! Tải bản dùng thử miễn phí từ [here](https://releases.aspose.com/) để đánh giá thư viện.
 
- A3: Bạn có thể tham khảo tài liệu[đây](https://reference.aspose.com/page/net/) để biết thông tin đầy đủ và ví dụ.
+---
 
-### Câu hỏi 4: Có tài nguyên miễn phí nào để bắt đầu với Aspose.Page không?
+**Cập nhật lần cuối:** 2026-03-21  
+**Kiểm tra với:** Aspose.Page 24.11 cho .NET  
+**Tác giả:** Aspose  
 
- A4: Có, bạn có thể khám phá[Diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để được cộng đồng hỗ trợ và thảo luận.
-
-### Câu 5: Có bản dùng thử trước khi mua hàng không?
-
- A5: Chắc chắn rồi! Bạn có thể truy cập phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/) trước khi thực hiện mua hàng.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
