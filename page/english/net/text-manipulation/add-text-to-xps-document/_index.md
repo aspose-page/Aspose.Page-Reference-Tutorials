@@ -1,5 +1,5 @@
 ---
-title: Create XPS document .NET and add text with Aspose.Page
+title: Create an XPS Document in .NET and Add Text Using Aspose.Page
 linktitle: Add Text to XPS Document
 second_title: Aspose.Page .NET API
 description: Learn how to create XPS document .NET and aspose.page add text using Aspose.Page for .NET. Step‑by‑step guide for .NET developers.
@@ -93,7 +93,7 @@ doc.Save(dataDir + "AddText_out.xps");
 
 By following these steps, you’ve successfully **create XPS document .NET** and added custom text using Aspose.Page.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -101,7 +101,7 @@ By following these steps, you’ve successfully **create XPS document .NET** and
 | **Text not visible** | Brush color matches background | Change `Color.Black` to another contrasting color. |
 | **Unsupported font** | Font not installed on the machine | Use a font that is guaranteed to be present, or embed the font using Aspose.Page’s font‑embedding features. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I customize the font and size of the added text?
 
@@ -113,7 +113,7 @@ A2: Absolutely! Aspose.Page supports .NET Core, ensuring compatibility with the 
 
 ### Q3: Are there any licensing requirements for using Aspose.Page?
 
-A3: Yes, you need a valid license. Explore licensing options [here](https://purchase.aspose.com/buy).
+A3: Yes, you need a valid license. Explore licensing options [Aspose.Page licensing options](https://purchase.aspose.com/buy).
 
 ### Q4: How can I get support or seek help?
 
@@ -121,7 +121,7 @@ A4: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to connect
 
 ### Q5: Is there a free trial available?
 
-A5: Certainly! You can get a free trial [here](https://releases.aspose.com/).
+A5: Certainly! You can get a free trial [Aspose.Page free trial download](https://releases.aspose.com/).
 
 **Additional Q&A**
 
@@ -133,15 +133,22 @@ A: You can apply a transformation matrix to the `XpsGlyphs` object to rotate or 
 
 ---
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 **Last Updated:** 2026-03-21  
 **Tested With:** Aspose.Page 24.11 for .NET  
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

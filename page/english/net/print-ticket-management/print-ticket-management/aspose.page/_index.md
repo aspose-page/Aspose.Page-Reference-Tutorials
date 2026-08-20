@@ -1,5 +1,5 @@
 ---
-title: Set Page Size Ticket: Edit Ticket with Aspose.Page for .NET
+title: 'How to Set Page Size Ticket and Edit Print Ticket Using Aspose.Page for .NET'
 linktitle: Edit Existing Print Ticket
 second_title: Aspose.Page .NET API
 description: Learn how to set page size ticket and edit existing print tickets in XPS documents using Aspose.Page for .NET. Step‑by‑step guide for developers.
@@ -44,7 +44,7 @@ Before we dive in, ensure you have:
 - Visual Studio 2022 (or any recent IDE).  
 - Aspose.Page for .NET library referenced in your project.  
 
-If you haven't already installed Aspose.Page for .NET, you can download it **[here](https://releases.aspose.com/page/net/)**.
+If you haven't already installed Aspose.Page for .NET, you can download the Aspose.Page for .NET library **[from the official release page](https://releases.aspose.com/page/net/)**.
 
 ## Import Namespaces
 
@@ -60,7 +60,7 @@ using System.Drawing;
 
 Now let's break down the example code you provided into multiple, easy‑to‑follow steps.
 
-## Step 1: Set Document Directory
+## Step 1: set document directory
 
 ```csharp
 // The path to the documents directory.
@@ -69,7 +69,7 @@ string dir = "Your Document Directory";
 
 Replace `"Your Document Directory"` with the folder that contains your XPS files.
 
-## Step 2: Open XPS Document with Print Tickets
+## Step 2: open XPS document with print tickets
 
 ```csharp
 // ExStart:3
@@ -80,7 +80,7 @@ JobPrintTicket pt = xDocs.JobPrintTicket;
 
 Here we load the XPS file and retrieve its `JobPrintTicket`, which holds the job‑level printing instructions.
 
-## Step 3: Remove Unwanted Parameters
+## Step 3: remove unwanted parameters
 
 ```csharp
 // ExStart:4
@@ -93,7 +93,7 @@ pt.Remove(
 
 We clean the ticket by removing parameters that are not needed for our scenario.
 
-## Step 4: Add Parameters – Including Page Size
+## Step 4: add parameters – including page size
 
 ```csharp
 // ExStart:5
@@ -105,7 +105,7 @@ pt.Add(
 
 The `PageMediaSize` object is where we **set page size ticket** to ISO A4. You can replace `ISOA4` with any other supported size (e.g., `Letter`, `Legal`, etc.).
 
-## Step 5: Save Document with Updated Ticket
+## Step 5: save document with updated ticket
 
 ```csharp
 // ExStart:6
@@ -115,7 +115,7 @@ xDocs.Save(dir + "output3.xps");
 
 The modified XPS document, now containing the new page‑size ticket, is saved to the output path.
 
-## Common Use Cases
+## Common use cases
 
 | Scenario | How “set page size ticket” helps |
 |----------|-----------------------------------|
@@ -123,13 +123,13 @@ The modified XPS document, now containing the new page‑size ticket, is saved t
 | Dynamic report generation | Switches between A4 and Letter based on user selection at runtime. |
 | Multi‑language documents | Adjusts page size for regional standards (e.g., A4 for Europe, Letter for US). |
 
-## Troubleshooting & Tips
+## Troubleshooting & tips
 
 - **Ticket not applied?** Ensure you are editing the correct `JobPrintTicket` (or `PagePrintTicket` for page‑level changes).  
 - **Unsupported size error?** Verify that the target printer supports the requested media size.  
 - **Performance tip:** Reuse the same `XpsDocument` instance when processing many files to reduce memory overhead.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.Page for .NET with other document formats?
 
@@ -145,11 +145,11 @@ A3: Visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to get com
 
 ### Q4: Is there a free trial available for Aspose.Page for .NET?
 
-A4: Yes, you can get a free trial **[here](https://releases.aspose.com/)**.
+A4: Yes, you can get a free trial **[download from Aspose releases page](https://releases.aspose.com/)**.
 
 ### Q5: How can I obtain a temporary license for Aspose.Page for .NET?
 
-A5: Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license.
+A5: Visit the Aspose temporary license page **[to obtain a temporary license](https://purchase.aspose.com/temporary-license/)**.
 
 ## Additional FAQs
 

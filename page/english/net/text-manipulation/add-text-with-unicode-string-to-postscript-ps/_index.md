@@ -1,5 +1,5 @@
 ---
-title: Create PostScript document C# with Unicode text – Aspose.Page
+title: How to Create a PostScript Document in C# with Unicode Text Using Aspose.Page
 linktitle: Add Text with Unicode String to PostScript (PS)
 second_title: Aspose.Page .NET API
 description: Learn how to create PostScript document C# with Unicode text using Aspose.Page for .NET – a fast way to enhance document manipulation.
@@ -51,7 +51,7 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Step 1: Set Up Document Directory and Fonts Folder
+## Step 1: set up document directory and fonts folder
 
 ```csharp
 // The path to the documents directory.
@@ -59,7 +59,7 @@ string dataDir = "Your Document Directory";
 string FONTS_FOLDER = "Your Fonts Directory";
 ```
 
-## Step 2: Create Output Stream for PostScript Document
+## Step 2: create output stream for postScript document
 
 ```csharp
 using (Stream outPsStream = new FileStream(dataDir + "AddTextUsingUnocodeString_outPS.ps", FileMode.Create))
@@ -79,7 +79,7 @@ using (Stream outPsStream = new FileStream(dataDir + "AddTextUsingUnocodeString_
 }
 ```
 
-## Step 3: Add Unicode Text with Custom Font
+## Step 3: add unicode text with custom font
 
 ```csharp
 string str = "試してみます.";  // Unicode text
@@ -91,31 +91,31 @@ document.FillText(str, drFont, 50, 200);
 document.FillText(str, drFont, 50, 250, new SolidBrush(Color.Blue));
 ```
 
-## Step 4: Close the Current Page
+## Step 4: close the current page
 
 ```csharp
 document.ClosePage();
 ```
 
-## Step 5: Finalize and Save the Document
+## Step 5: finalize and save the document
 
 ```csharp
 document.Save();
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 - **Font not found** – Ensure the `AdditionalFontsFolders` path points to the folder containing the .ttf/.otf files and that the font name matches exactly.
 - **Garbage characters** – Verify that the source string is encoded as UTF‑8 in your C# source file (use `#pragma warning disable 1591` if needed).
 - **File not created** – Check write permissions on `dataDir` and that the stream is properly disposed (the `using` block handles this).
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page for .NET with other programming languages?**  
 A: Aspose.Page is primarily designed for .NET, but there are Java equivalents available.
 
 **Q: How do I obtain a temporary license for Aspose.Page for .NET?**  
-A: Visit [Temporary License](https://purchase.aspose.com/temporary-license/) for obtaining a temporary license.
+A: Visit the [Temporary License page](https://purchase.aspose.com/temporary-license/) for obtaining a temporary license.
 
 **Q: Is there a community forum for Aspose.Page discussions?**  
 A: Yes, visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39) for community support.

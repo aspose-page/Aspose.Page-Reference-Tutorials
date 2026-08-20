@@ -1,5 +1,5 @@
 ---
-title: How to Fill Text in PostScript (PS) Docs with Aspose.Page
+title: Add and Fill Text in PostScript (PS) Documents using Aspose.Page for .NET
 linktitle: Add Text to PostScript (PS) Document
 second_title: Aspose.Page .NET API
 description: Learn how to fill text and add text to PS documents using Aspose.Page for .NET. Step‑by‑step guide with code examples.
@@ -60,7 +60,7 @@ using System.IO;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Create Output Stream for PS Document  
+### Step 1: create output stream for PS document
 
 We open a `FileStream` that will hold the generated PS file, configure `PsSaveOptions` to point at our custom fonts folder, and instantiate a `PsDocument`.
 
@@ -121,7 +121,7 @@ document.OutlineText(str, drFont, 50, 500, new Pen(new SolidBrush(Color.BlueViol
 document.FillAndStrokeText(str, drFont, 50, 550, new SolidBrush(Color.Orange), new Pen(new SolidBrush(Color.Blue), 2));
 ```
 
-### Step 6: Close Page and Save the Document  
+### Step 6: close page and save the document
 
 Finishing up is simple: close the current page and invoke `Save()` to write the PS file to disk.
 
@@ -133,7 +133,7 @@ document.Save();
 
 > **Result:** You’ll find `AddText_outPS.ps` in *Your Document Directory*, containing both filled and stroked text rendered with system and custom fonts.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -142,7 +142,7 @@ document.Save();
 | **Colors look different** | Ensure you are using `SolidBrush` or `Pen` with the correct `Color` values. |
 | **Document not saving** | Confirm the `using` block completes without exceptions and that the application has write permissions to the target folder. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page with other .NET libraries?**  
 A: Yes, Aspose.Page integrates smoothly with other .NET components, allowing you to combine PDF, image, or chart libraries in the same solution.
@@ -159,15 +159,22 @@ A: Certainly—simply change the numeric X/Y values in the `FillText` or `Outlin
 **Q: Where can I seek assistance for Aspose.Page‑related queries?**  
 A: Visit the [Aspose.Page Forum](https://forum.aspose.com/c/page/39) to connect with the community and get expert help.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
 **Last Updated:** 2026-03-21  
 **Tested With:** Aspose.Page 24.11 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

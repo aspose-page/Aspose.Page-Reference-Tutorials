@@ -1,5 +1,5 @@
 ---
-title: How to Add Unicode Text to XPS Document with Aspose.Page
+title: Unicode Text Insertion in Documents Using .NET
 linktitle: Add Text with Unicode String to XPS Document
 second_title: Aspose.Page .NET API
 description: Learn how to add Unicode text to an XPS document using Aspose.Page for .NET. This guide shows you how to create XPS document C# and aspose page add text with Unicode strings.
@@ -40,7 +40,7 @@ Adding Unicode text means inserting characters from any language—Arabic, Hebre
 
 - Basic knowledge of C# and .NET development.  
 - Visual Studio (any recent version).  
-- Aspose.Page for .NET library – download it from [here](https://releases.aspose.com/page/net/).
+- Aspose.Page for .NET library – download it from [Aspose.Page .NET download page](https://releases.aspose.com/page/net/).
 
 ## Import Namespaces
 
@@ -75,7 +75,7 @@ glyphs.BidiLevel = 1;
 glyphs.Fill = textFill;
 ```
 
-## Step 3: Save the Document
+## Step 3: save the document
 
 Finally, persist the XPS file to disk.
 
@@ -86,7 +86,7 @@ doc.Save(dataDir + "AddTextRTL_out.xps");
 
 Congratulations! You have successfully **how to add unicode** text to an XPS document using Aspose.Page for .NET.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
@@ -94,7 +94,7 @@ Congratulations! You have successfully **how to add unicode** text to an XPS doc
 | RTL text still left‑to‑right | `BidiLevel` not set or set to 0 | Ensure `glyphs.BidiLevel = 1;` for RTL scripts. |
 | File not saved | Invalid `dataDir` path | Verify that the directory exists and the app has write permissions. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.Page compatible with the latest .NET frameworks?**  
 A: Yes, Aspose.Page is regularly updated to support .NET Framework, .NET Core, and .NET 5/6+.
@@ -103,13 +103,13 @@ A: Yes, Aspose.Page is regularly updated to support .NET Framework, .NET Cor
 A: Absolutely! The `AddGlyphs` method lets you specify any font family, size, and `FontStyle` you need.
 
 **Q: Where can I find additional documentation for Aspose.Page?**  
-A: You can refer to the documentation [here](https://reference.aspose.com/page/net/) for comprehensive API details.
+A: You can refer to the documentation [Aspose.Page .NET API reference](https://reference.aspose.com/page/net/) for comprehensive API details.
 
 **Q: Are there any free resources to get started with Aspose.Page?**  
 A: Yes, explore the community forum at [Aspose.Page forum](https://forum.aspose.com/c/page/39) for tips, examples, and peer support.
 
 **Q: Is there a trial version available before making a purchase?**  
-A: Certainly! Download the free trial from [here](https://releases.aspose.com/) to evaluate the library.
+A: Certainly! Download the free trial from [Aspose free trial download page](https://releases.aspose.com/) to evaluate the library.
 
 ---
 
