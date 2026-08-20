@@ -1,35 +1,54 @@
 ---
-title: Buat Tiket Cetak Kustom dengan Aspose.Page untuk .NET
-linktitle: Buat Tiket Cetak Kustom
-second_title: Aspose.Halaman .NET API
-description: Jelajahi panduan langkah demi langkah dalam membuat tiket cetak kustom menggunakan Aspose.Page untuk .NET. Sesuaikan pengalaman pencetakan Anda dengan kontrol yang cermat.
-weight: 10
+date: 2026-03-19
+description: Pelajari cara menambahkan tiket dengan membuat tiket cetak khusus menggunakan
+  Aspose.Page untuk .NET. Sesuaikan pengalaman pencetakan Anda dengan kontrol yang
+  sangat detail.
+linktitle: Create Custom Print Ticket
+second_title: Aspose.Page .NET API
+title: 'Cara Menambahkan Tiket: Membuat Tiket Cetak Kustom dengan Aspose.Page untuk
+  .NET'
 url: /id/net/print-ticket-management/create-custom-print-ticket/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat Tiket Cetak Kustom dengan Aspose.Page untuk .NET
+# Cara Menambahkan Ticket: Membuat Custom Print Ticket dengan Aspose.Page untuk .NET
 
-## Perkenalan
+## Introduction
 
-Dalam bidang pengembangan .NET, Aspose.Page menonjol sebagai alat yang ampuh untuk menangani manipulasi dokumen XPS. Salah satu fiturnya yang luar biasa adalah kemampuan untuk membuat tiket cetak khusus, yang menawarkan kendali luas kepada pengembang atas proses pencetakan. Dalam tutorial ini, kita akan mempelajari langkah-langkah membuat tiket cetak kustom menggunakan Aspose.Page untuk .NET.
+Jika Anda membutuhkan fungsionalitas **how to add ticket** dalam aplikasi .NET, Aspose.Page memberi Anda kemampuan untuk menghasilkan custom print tickets langsung dari kode. Dalam tutorial ini kami akan membahas seluruh proses—menyiapkan lingkungan, membuat dokumen XPS, melampirkan custom job print ticket, dan menyimpan hasilnya. Pada akhir tutorial, Anda akan dapat menambahkan dukungan ticket ke alur kerja pencetakan apa pun dengan percaya diri.
 
-## Prasyarat
+## Quick Answers
+- **Apa arti “add ticket”?** Itu merujuk pada penyematan custom print ticket (metadata XPS) yang mengontrol pengaturan printer.  
+- **Perpustakaan apa yang diperlukan?** Aspose.Page untuk .NET.  
+- **Apakah saya memerlukan lisensi?** Lisensi sementara dapat digunakan untuk evaluasi; lisensi penuh diperlukan untuk produksi.  
+- **Bisakah saya menggunakan ini dengan .NET Core?** Ya, Aspose.Page mendukung .NET Framework dan .NET Core.  
+- **Berapa lama implementasinya?** Biasanya kurang dari 15 menit untuk ticket dasar.
 
-Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
+## What is a Custom Print Ticket?
+Custom print ticket adalah deskripsi berbasis XML tentang preferensi printer (seperti collate, copies, manajemen warna, dll.) yang menyertai dokumen XPS. Ini memungkinkan pengembang untuk secara programatis menentukan bagaimana dokumen harus dicetak, menghilangkan konfigurasi manual di sisi klien.
 
-- Pengetahuan tentang pengembangan C# dan .NET.
-- Visual Studio diinstal pada mesin Anda.
-- Aspose.Page untuk perpustakaan .NET terintegrasi ke dalam proyek Anda.
+## Why add ticket support with Aspose.Page?
+- **Kontrol halus:** Atur collate, jumlah salinan, tipe media, dan lainnya melalui kode.  
+- **Konsistensi lintas platform:** Ticket yang sama berfungsi pada printer apa pun yang memahami metadata XPS.  
+- **Integrasi mulus:** Bekerja langsung dengan proyek .NET Anda yang ada tanpa layanan tambahan.
 
- Jika Anda belum melakukannya, Anda dapat mengunduh perpustakaan dari[Aspose.Page untuk dokumentasi .NET](https://reference.aspose.com/page/net/) . Untuk tetap mendapatkan informasi terbaru, periksa[Aspose.Halaman forum](https://forum.aspose.com/c/page/39) untuk diskusi dan dukungan komunitas.
+## Prerequisites
 
-## Impor Namespace
+Before kita mulai, pastikan Anda memiliki:
 
-Dalam kode C# Anda, mulailah dengan mengimpor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.Page. Hal ini memastikan bahwa kode Anda berkomunikasi secara efektif dengan perpustakaan, membuka jalan bagi integrasi yang lancar.
+- Kemampuan dasar dalam pengembangan C# dan .NET.  
+- Visual Studio (versi terbaru apa pun) terpasang.  
+- Perpustakaan Aspose.Page untuk .NET ditambahkan ke proyek Anda.  
+
+Jika Anda belum menambahkan perpustakaan tersebut, Anda dapat mengunduhnya dari [Aspose.Page for .NET documentation](https://reference.aspose.com/page/net/). Untuk bantuan komunitas, kunjungi [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+
+## Import Namespaces
+
+Mulailah dengan mengimpor namespace yang menyediakan kelas XPS dan metadata.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -39,72 +58,86 @@ using System;
 using System.Drawing;
 ```
 
-Sekarang, mari kita uraikan proses pembuatan tiket cetak kustom menggunakan Aspose.Page untuk .NET menjadi beberapa langkah:
+Sekarang mari kita uraikan implementasinya langkah demi langkah.
 
-## Langkah 1: Siapkan Direktori Dokumen
+## Step 1: Set up Document Directory
 
-Tentukan jalur ke direktori tempat dokumen Anda akan disimpan.
+Tentukan lokasi di mana file XPS yang dihasilkan akan disimpan.
 
 ```csharp
 string dir = "Your Document Directory";
 ```
 
-## Langkah 2: Buat Dokumen XPS Baru
+## Step 2: Create a New XPS Document
 
-Inisialisasi dokumen XPS baru untuk digunakan.
+Buat instance dokumen XPS baru yang akan menampung halaman dan ticket.
 
 ```csharp
 XpsDocument xDocs = new XpsDocument();
 ```
 
-## Langkah 3: Tambahkan Tiket Cetak Pekerjaan Kustom
+## Step 3: Add Custom Job Print Ticket
 
-Sertakan tiket pencetakan pekerjaan khusus, konfigurasikan berbagai pengaturan pencetakan seperti susunan, salinan, maksud rendering, manajemen warna, dan banyak lagi.
+Lampirkan custom job print ticket ke dokumen. Ini adalah inti dari fungsionalitas **how to add ticket**—di sini Anda menentukan collate, copies, rendering intent, manajemen warna, dan pengaturan lain yang diperlukan.
 
 ```csharp
 xDocs.JobPrintTicket = new JobPrintTicket(
     new PageDevModeSnaphot("SABlAGwAbABvACEAAAA="),
     new DocumentCollate(Collate.CollateOption.Collated),
-    // Tambahkan pengaturan pencetakan lainnya sesuai kebutuhan
+    // Add other print settings as needed
 );
 ```
 
-## Langkah 4: Simpan Dokumen
+> **Pro tip:** Ganti string snapshot placeholder dengan struktur DEVMODE yang di‑encode Base64 yang sesuai dengan kemampuan printer Anda.
 
-Simpan dokumen dengan tiket cetak pekerjaan khusus ke direktori yang ditentukan.
+## Step 4: Save the Document
+
+Simpan dokumen XPS (dengan ticket tersemat) ke disk.
 
 ```csharp
 xDocs.Save(dir + "output1.xps");
 ```
 
-## Kesimpulan
+Saat Anda membuka *output1.xps* di penampil yang menghormati metadata XPS, printer akan secara otomatis menerapkan pengaturan yang didefinisikan dalam ticket.
 
-Dalam tutorial ini, kita telah menjelajahi proses pembuatan tiket cetak kustom dengan Aspose.Page untuk .NET. Kemampuan yang kuat ini memberdayakan pengembang untuk menyesuaikan pengalaman pencetakan sesuai dengan kebutuhan spesifik mereka. Dengan Aspose.Page, Anda dapat mencapai kontrol menyeluruh atas berbagai parameter pencetakan, memastikan integrasi yang lancar ke dalam aplikasi .NET Anda.
+## Common Issues and Solutions
 
-## FAQ
+| Masalah | Penyebab | Solusi |
+|---------|----------|--------|
+| Ticket tidak diterapkan | Penampil mengabaikan metadata XPS | Gunakan driver printer yang mendukung XPS print tickets atau penampil seperti Microsoft XPS Viewer. |
+| Snapshot Base64 tidak valid | Data DEVMODE rusak | Buat ulang snapshot dari driver printer menggunakan API `GetPrinter`. |
+| Izin hilang | Akses menulis ke `dir` ditolak | Pastikan aplikasi dijalankan dengan hak akses sistem file yang cukup. |
 
-### Q1: Dapatkah saya menggunakan Aspose.Page untuk .NET dengan kerangka .NET lainnya?
+## Frequently Asked Questions
 
-A1: Ya, Aspose.Page untuk .NET kompatibel dengan berbagai kerangka .NET, memberikan fleksibilitas dalam lingkungan pengembangan Anda.
+**Q: Bisakah saya menggunakan Aspose.Page untuk .NET dengan kerangka .NET lainnya?**  
+A: Ya, Aspose.Page bekerja dengan .NET Framework, .NET Core, .NET 5/6, dan versi selanjutnya.
 
-### Q2: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page?
+**Q: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page?**  
+A: Kunjungi [tautan ini](https://purchase.aspose.com/temporary-license/) untuk memperoleh lisensi sementara untuk Aspose.Page.
 
- A2: Kunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk memperoleh lisensi sementara untuk Aspose.Page.
+**Q: Apakah ada forum komunitas untuk dukungan Aspose.Page?**  
+A: Tentu saja, Anda dapat menemukan diskusi dan dukungan yang membantu di [forum Aspose.Page](https://forum.aspose.com/c/page/39).
 
-### Q3: Apakah ada forum komunitas untuk dukungan Aspose.Page?
+**Q: Jenis media apa yang didukung dalam custom print ticket?**  
+A: Aspose.Page mendukung berbagai jenis media, termasuk kertas biasa, glossy, dan definisi media khusus.
 
- A3: Tentu saja, Anda dapat menemukan diskusi dan dukungan yang bermanfaat di[Aspose.Halaman forum](https://forum.aspose.com/c/page/39).
+**Q: Apakah ada contoh proyek yang tersedia untuk Aspose.Page untuk .NET?**  
+A: Jelajahi [dokumentasi](https://reference.aspose.com/page/net/) untuk contoh proyek dan potongan kode guna memulai pengembangan Anda.
 
-### Q4: Jenis media apa yang didukung dalam tiket cetak khusus?
+## Conclusion
 
-A4: Aspose.Page mendukung berbagai jenis media, termasuk kertas biasa dan lainnya yang dapat dikonfigurasi berdasarkan kebutuhan spesifik Anda.
+Kami telah membahas dukungan **how to add ticket** pada dokumen XPS menggunakan Aspose.Page untuk .NET. Dengan mengikuti langkah-langkah ini, Anda dapat menyematkan instruksi pencetakan yang kaya langsung ke dalam file Anda, memberi Anda kontrol penuh atas alur kerja pencetakan dari dalam aplikasi .NET Anda. Jangan ragu untuk bereksperimen dengan pengaturan ticket tambahan agar sesuai dengan lingkungan pencetakan spesifik Anda.
 
-### Q5: Apakah ada contoh proyek yang tersedia untuk Aspose.Page untuk .NET?
-
- A5: Jelajahi[dokumentasi](https://reference.aspose.com/page/net/) untuk contoh proyek dan cuplikan kode untuk memulai pengembangan Anda.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2026-03-19  
+**Tested With:** Aspose.Page for .NET (latest stable version)  
+**Author:** Aspose

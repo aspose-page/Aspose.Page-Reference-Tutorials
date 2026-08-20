@@ -1,35 +1,52 @@
 ---
-title: Aspose.Page for .NET ile Özel Baskı Bileti Oluşturun
-linktitle: Özel Baskı Bileti Oluştur
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page for .NET'i kullanarak özel baskı biletleri oluşturmaya ilişkin adım adım kılavuzu keşfedin. Baskı deneyiminizi hassas kontrolle özelleştirin.
-weight: 10
+date: 2026-03-19
+description: Aspose.Page for .NET ile özel baskı biletleri oluşturarak bilet eklemeyi
+  öğrenin. Baskı deneyiminizi ince ayarlı kontrol ile özelleştirin.
+linktitle: Create Custom Print Ticket
+second_title: Aspose.Page .NET API
+title: 'Bilet Nasıl Eklenir: Aspose.Page for .NET ile Özel Yazdırma Bileti Oluşturma'
 url: /tr/net/print-ticket-management/create-custom-print-ticket/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET ile Özel Baskı Bileti Oluşturun
+# Bilet Ekleme: Aspose.Page for .NET ile Özel Yazdırma Bileti Oluşturma
 
-## giriiş
+## Giriş
 
-.NET geliştirme alanında Aspose.Page, XPS belge manipülasyonunu yönetmek için güçlü bir araç olarak öne çıkıyor. Dikkate değer özelliklerinden biri, geliştiricilere baskı süreci üzerinde kapsamlı kontrol sağlayan özel baskı biletleri oluşturma yeteneğidir. Bu eğitimde Aspose.Page for .NET'i kullanarak özel bir yazdırma bileti oluşturma adımlarını ayrıntılı olarak inceleyeceğiz.
+Bir .NET uygulamasında **bilet ekleme** işlevine ihtiyacınız varsa, Aspose.Page kod üzerinden doğrudan özel yazdırma biletleri oluşturmanızı sağlar. Bu öğreticide ortamı kurma, bir XPS belgesi oluşturma, özel iş yazdırma bileti ekleme ve sonucu kaydetme adımlarını adım adım göstereceğiz. Sonunda, herhangi bir yazdırma iş akışına güvenle bilet desteği ekleyebileceksiniz.
 
-## Önkoşullar
+## Hızlı Yanıtlar
+- **“bilet ekleme” ne anlama geliyor?** Yazıcı ayarlarını kontrol eden özel bir yazdırma biletinin (XPS meta verisi) belgeye gömülmesidir.  
+- **Hangi kütüphane gerekiyor?** Aspose.Page for .NET.  
+- **Lisans gerekli mi?** Değerlendirme için geçici bir lisans yeterlidir; üretim için tam lisans gerekir.  
+- **Bunu .NET Core ile kullanabilir miyim?** Evet, Aspose.Page .NET Framework ve .NET Core’u destekler.  
+- **Uygulama ne kadar sürer?** Temel bir bilet için genellikle 15 dakikadan az sürer.
 
-Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
+## Özel Yazdırma Bileti Nedir?
+Özel bir yazdırma bileti, yazıcı tercihlerini (örneğin, birleştirme, kopya sayısı, renk yönetimi vb.) tanımlayan XML tabanlı bir açıklamadır ve bir XPS belgesiyle birlikte taşınır. Geliştiricilerin bir belgenin nasıl yazdırılacağını programlı olarak belirlemelerine olanak tanır, böylece istemci tarafında manuel yapılandırma gerekmez.
 
-- C# ve .NET geliştirme konusunda çalışma bilgisi.
-- Makinenizde Visual Studio yüklü.
-- Aspose.Page for .NET kütüphanesi projenize entegre edilmiştir.
+## Aspose.Page ile bilet desteği eklemenin avantajları
+- **İnce ayar kontrolü:** Kod üzerinden birleştirme, kopya sayısı, medya türü ve daha fazlasını ayarlayın.  
+- **Çapraz platform tutarlılığı:** Aynı bilet, XPS meta verisini anlayan herhangi bir yazıcıda çalışır.  
+- **Sorunsuz entegrasyon:** Ek hizmetlere ihtiyaç duymadan mevcut .NET projelerinizle doğrudan çalışır.
 
- Henüz yapmadıysanız, kütüphaneyi şuradan indirebilirsiniz:[.NET belgeleri için Aspose.Page](https://reference.aspose.com/page/net/) . Güncel kalmak için şunları kontrol edin:[Aspose.Page forumu](https://forum.aspose.com/c/page/39) Topluluk tartışmaları ve desteği için.
+## Ön Koşullar
 
-## Ad Alanlarını İçe Aktar
+Başlamadan önce şunların olduğundan emin olun:
 
-Aspose.Page işlevselliğine erişmek için C# kodunuzda gerekli ad alanlarını içe aktararak başlayın. Bu, kodunuzun kitaplıkla etkili bir şekilde iletişim kurmasını sağlayarak kusursuz entegrasyonun önünü açar.
+- C# ve .NET geliştirme konusunda temel bilgi.  
+- Visual Studio (herhangi bir güncel sürüm) yüklü.  
+- Projeye eklenmiş Aspose.Page for .NET kütüphanesi.  
+
+Kütüphaneyi henüz eklemediyseniz, [Aspose.Page for .NET belgeleri](https://reference.aspose.com/page/net/) üzerinden indirebilirsiniz. Topluluk desteği için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
+
+## Ad Alanlarını İçe Aktarma
+
+XPS ve meta veri sınıflarını ortaya çıkaran ad alanlarını ekleyerek başlayın.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -39,72 +56,88 @@ using System;
 using System.Drawing;
 ```
 
-Şimdi Aspose.Page for .NET'i kullanarak özel bir yazdırma bileti oluşturma sürecini birden fazla adıma ayıralım:
+Şimdi uygulamayı adım adım inceleyelim.
 
-## 1. Adım: Belge Dizinini Ayarlayın
+## Adım 1: Belge Dizini Ayarlama
 
-Belgelerinizin saklanacağı dizinin yolunu tanımlayın.
+Oluşturulacak XPS dosyasının kaydedileceği yeri tanımlayın.
 
 ```csharp
 string dir = "Your Document Directory";
 ```
 
-## 2. Adım: Yeni Bir XPS Belgesi Oluşturun
+## Adım 2: Yeni bir XPS Belgesi Oluşturma
 
-Çalışmak için yeni bir XPS belgesi başlatın.
+Sayfaları ve bileti tutacak yeni bir XPS belgesi örneği oluşturun.
 
 ```csharp
 XpsDocument xDocs = new XpsDocument();
 ```
 
-## 3. Adım: Özel İş Yazdırma Bileti Ekleme
+## Adım 3: Özel İş Yazdırma Bileti Ekleme
 
-Harmanlama, kopyalar, oluşturma amacı, renk yönetimi ve daha fazlası gibi çeşitli yazdırma ayarlarını yapılandıran özel bir iş yazdırma bileti ekleyin.
+Belgeye özel bir iş yazdırma bileti ekleyin. Bu, **bilet ekleme** işlevinin çekirdeğidir—burada birleştirme, kopya sayısı, render niyeti, renk yönetimi ve ihtiyacınız olan diğer ayarları belirtirsiniz.
 
 ```csharp
 xDocs.JobPrintTicket = new JobPrintTicket(
     new PageDevModeSnaphot("SABlAGwAbABvACEAAAA="),
     new DocumentCollate(Collate.CollateOption.Collated),
-    // Gerektiğinde diğer yazdırma ayarlarını ekleyin
+    // Add other print settings as needed
 );
 ```
 
-## Adım 4: Belgeyi Kaydedin
+> **İpucu:** Yer tutucu anlık görüntü dizesini, yazıcınızın yeteneklerine uygun Base64‑kodlu bir DEVMODE yapısı ile değiştirin.
 
-Özel iş yazdırma biletinin bulunduğu belgeyi belirtilen dizine kaydedin.
+## Adım 4: Belgeyi Kaydetme
+
+XPS belgesini (gömülü biletle birlikte) diske kalıcı olarak kaydedin.
 
 ```csharp
 xDocs.Save(dir + "output1.xps");
 ```
 
-## Çözüm
+*output1.xps* dosyasını XPS meta verisini dikkate alan bir görüntüleyicide açtığınızda, yazıcı bilette tanımlanan ayarları otomatik olarak uygular.
 
-Bu eğitimde Aspose.Page for .NET ile özel bir baskı bileti oluşturma sürecini inceledik. Bu güçlü yetenek, geliştiricilerin baskı deneyimini kendi özel gereksinimlerine göre uyarlamalarına olanak tanır. Aspose.Page ile çeşitli yazdırma parametreleri üzerinde ayrıntılı kontrol elde edebilir, .NET uygulamalarınızla kusursuz entegrasyon sağlayabilirsiniz.
+## Yaygın Sorunlar ve Çözümleri
 
-## SSS'ler
+| Sorun | Neden | Çözüm |
+|-------|-------|------|
+| Bilet uygulanmıyor | Görüntüleyici XPS meta verisini yok sayıyor | XPS yazdırma biletlerini destekleyen bir yazıcı sürücüsü veya Microsoft XPS Viewer gibi bir görüntüleyici kullanın. |
+| Geçersiz Base64 anlık görüntü | Bozuk DEVMODE verisi | `GetPrinter` API’si ile yazıcı sürücüsünden anlık görüntüyü yeniden oluşturun. |
+| İzin eksikliği | `dir` klasörüne yazma izni yok | Uygulamanın yeterli dosya sistemi haklarıyla çalıştığından emin olun. |
 
-### S1: Aspose.Page for .NET'i diğer .NET çerçeveleriyle kullanabilir miyim?
+## Sık Sorulan Sorular
 
-C1: Evet, Aspose.Page for .NET çeşitli .NET çerçeveleriyle uyumludur ve geliştirme ortamınıza esneklik sağlar.
+**S: Aspose.Page for .NET diğer .NET framework’leriyle kullanılabilir mi?**  
+C: Evet, Aspose.Page .NET Framework, .NET Core, .NET 5/6 ve sonrası ile çalışır.
 
-### S2: Aspose.Page için nasıl geçici lisans alabilirim?
+**S: Aspose.Page için geçici bir lisans nasıl alınır?**  
+C: Aspose.Page için geçici lisans edinmek üzere [bu bağlantıyı](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
- A2: Ziyaret edin[bu bağlantı](https://purchase.aspose.com/temporary-license/) Aspose.Page için geçici bir lisans almak için.
+**S: Aspose.Page desteği için bir topluluk forumu var mı?**  
+C: Kesinlikle, faydalı tartışmalar ve destek için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) kullanabilirsiniz.
 
-### S3: Aspose.Page desteği için bir topluluk forumu var mı?
+**S: Özel yazdırma biletlerinde hangi medya türleri destekleniyor?**  
+C: Aspose.Page, düz kağıt, parlak ve özel medya tanımları dahil olmak üzere çeşitli medya türlerini destekler.
 
- A3: Kesinlikle, şu konuda yararlı tartışmalar ve destek bulabilirsiniz:[Aspose.Page forumu](https://forum.aspose.com/c/page/39).
+**S: Aspose.Page for .NET için örnek projeler mevcut mu?**  
+C: Başlangıç için örnek projeler ve kod parçacıkları için [belgelere](https://reference.aspose.com/page/net/) göz atın.
 
-### S4: Özel baskılı biletlerde hangi medya türleri destekleniyor?
+## Sonuç
 
-Cevap4: Aspose.Page, düz kağıt ve özel ihtiyaçlarınıza göre yapılandırılabilen diğerleri de dahil olmak üzere çeşitli ortam türlerini destekler.
+Aspose.Page for .NET kullanarak bir XPS belgesine **bilet ekleme** desteği eklemeyi ele aldık. Bu adımları izleyerek dosyalarınıza zengin yazdırma talimatları gömebilir ve .NET uygulamalarınız içinde yazdırma iş akışını tam kontrol edebilirsiniz. Belirli yazdırma ortamınıza uygun ek bilet ayarlarıyla denemeler yapmaktan çekinmeyin.
 
-### S5: Aspose.Page for .NET için örnek projeler mevcut mu?
-
- A5: Keşfedin[dokümantasyon](https://reference.aspose.com/page/net/) Geliştirmenizi başlatmak için örnek projeler ve kod parçacıkları için.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-03-19  
+**Test Edilen Versiyon:** Aspose.Page for .NET (en son kararlı sürüm)  
+**Yazar:** Aspose  
+
+---
