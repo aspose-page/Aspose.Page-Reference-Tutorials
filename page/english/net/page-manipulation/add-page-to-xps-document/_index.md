@@ -1,5 +1,5 @@
 ---
-title: Add Page to XPS Document – add page to xps with Aspose.Page for .NET
+title: Insert a New Page into XPS Document using Aspose.Page for .NET
 linktitle: Add Page to XPS Document
 second_title: Aspose.Page .NET API
 description: Learn how to add page to XPS documents in .NET using Aspose.Page. Follow this step‑by‑step guide for seamless integration.
@@ -53,28 +53,28 @@ using System.Drawing;
 
 Now, let's break down the example code you provided into multiple steps for a comprehensive guide.
 
-## Step 1: Set Document Directory Path
+## Step 1: set document directory path
 
 ```csharp
 // The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Step 2: Create XPS Document
+## Step 2: create XPS document
 
 ```csharp
 // Create new XPS Document
 XpsDocument doc = new XpsDocument(dataDir + "Sample1.xps");
 ```
 
-## Step 3: Insert an Empty Page
+## Step 3: insert an empty page
 
 ```csharp
 // Insert an empty page at the beginning of the pages list
 doc.InsertPage(1, true);
 ```
 
-## Step 4: Save Resultant XPS Document
+## Step 4: save resultant XPS document
 
 ```csharp
 // Save resultant XPS document
@@ -83,12 +83,12 @@ doc.Save(dataDir + "AddPages_out.xps");
 
 With these steps, you've successfully **add page to XPS** documents using Aspose.Page for .NET.
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **File not found** – Verify that `dataDir` points to the correct folder and that `Sample1.xps` exists.  
 - **Permission errors** – Ensure your application has write permissions for the output folder.  
 - **License not set** – If you receive a licensing exception, apply a temporary or permanent license before calling any API methods.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Is Aspose.Page for .NET suitable for beginners?**  
 A1: Yes, Aspose.Page for .NET is designed with a user‑friendly API, making it accessible for both beginners and experienced developers.
@@ -100,7 +100,7 @@ A2: Absolutely! Aspose.Page for .NET is a versatile library suitable for both pe
 A3: Explore the [Aspose.Page documentation](https://reference.aspose.com/page/net/) for detailed examples and comprehensive documentation.
 
 **Q4: Is there a free trial available?**  
-A4: Yes, you can access a free trial of Aspose.Page for .NET [here](https://releases.aspose.com/).
+A4: Yes, you can access a free trial of Aspose.Page for .NET on the [Aspose.Page free trial download page](https://releases.aspose.com/).
 
 **Q5: How can I obtain a temporary license for Aspose.Page for .NET?**  
 A5: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for testing purposes.

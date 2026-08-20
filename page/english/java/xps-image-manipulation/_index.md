@@ -1,8 +1,8 @@
 ---
-title: "How to Use Aspose – Add Images to XPS Documents with Java"
+title: "How to Insert Images into Documents with Java"
 linktitle: Image Manipulation - XPS
 second_title: Aspose.Page Java API
-description: "Learn how to use aspose to add and tile images in XPS documents using Java. This step‑by‑step guide covers image manipulation with Aspose.Page."
+description: "Learn how to use Aspose to add and tile images in XPS documents using Java. This step‑by‑step guide covers image manipulation with Aspose.Page."
 weight: 29
 url: /java/xps-image-manipulation/
 date: 2026-03-16
@@ -45,39 +45,56 @@ When you need to **aspose.page add image xps**, follow these high‑level steps:
 
 These steps are illustrated in the linked tutorials below, giving you ready‑to‑run code snippets.
 
-## Adding Images to Java XPS Documents
-### [Add Image in Java XPS](./add-image/)
+```java
+// Load XPS document
+XpsDocument doc = new XpsDocument("output.xps");
+
+// Load image
+Image image = Image.fromFile("logo.png");
+
+// Define rectangle
+Rectangle rect = new Rectangle(100, 100, 200, 200);
+
+// Add image to page
+doc.getPages().get(0).addImage(image, rect);
+
+// Save document
+doc.save("output_with_image.xps");
+```
+
+## Adding images to java XPS documents
+### [Add image in Java XPS]({{< relref "add-image/_index.md" >}})
 
 Are your XPS documents missing that visual appeal? Fret not! With Aspose.Page for Java, you can effortlessly add images, breathing life into your documents. No more mundane texts—our step‑by‑step guide empowers you to infuse vibrancy with every click. Elevate your document game and captivate your audience.
 
 Picture this: a few lines of code, and your XPS document transforms into a visual masterpiece. Our tutorial walks you through the process, ensuring you grasp every nuance. From the basics to advanced techniques, we’ve got you covered. Add images like a pro and witness the magic unfold.
 
-Ready to turn your XPS documents into a canvas of creativity? [Explore the tutorial now](./add-image/)!
+Ready to turn your XPS documents into a canvas of creativity? [Explore the add‑image tutorial]({{< relref "add-image/_index.md" >}})!
 
-### Exploring Tiled Images in Java XPS Documents
-[Add Tiled Image in Java XPS](./add-tiled-image/)
+### Exploring tiled images in java XPS documents
+[Add Tiled Image in Java XPS]({{< relref "add-tiled-image/_index.md" >}})
 
 Take your Java XPS document manipulation skills up a notch with tiled images. Aspose.Page empowers you to seamlessly integrate tiled images, providing a rich and immersive experience. Say goodbye to monotonous layouts—embrace the dynamic world of tiled images effortlessly.
 
 Our step‑by‑step guide is designed with simplicity in mind. Whether you’re a seasoned developer or just starting, our tutorial ensures you grasp the concept with ease. Uncover the secrets of adding tiled images to your Java XPS documents, creating a visual narrative that captivates your audience.
 
-Imagine the possibilities: intricate patterns, detailed designs, and a document that tells a story. Ready to transform your XPS documents into a visual journey? [Dive into the tutorial](./add-tiled-image/) and unleash your creativity!
+Imagine the possibilities: intricate patterns, detailed designs, and a document that tells a story. Ready to transform your XPS documents into a visual journey? [Dive into the tiled‑image tutorial]({{< relref "add-tiled-image/_index.md" >}}) and unleash your creativity!
 
-## Image Manipulation - XPS Tutorials
-### [Add Image in Java XPS](./add-image/)
+## Image manipulation - XPS tutorials
+### [Add image in Java XPS]({{< relref "add-image/_index.md" >}})
 Learn how to effortlessly add images to XPS documents in Java using Aspose.Page. Elevate your document processing with this step‑by‑step guide.
 
-### [Add Tiled Image in Java XPS](./add-tiled-image/)
+### [Add tiled image in Java XPS]({{< relref "add-tiled-image/_index.md" >}})
 Explore seamless Java XPS document manipulation with Aspose.Page. Learn to add tiled images effortlessly using this step‑by‑step guide.
 
-## Common Pitfalls & Tips
+## Common pitfalls & tips
 
 - **Image size matters** – Large images increase memory consumption. Resize or compress before adding.
 - **Coordinate system** – XPS uses 96 DPI; remember to convert pixel values to points when positioning.
 - **Transparency** – PNG images retain alpha channels, but ensure the target viewer supports transparency.
 - **Debugging placement** – Use `saveAsPdf()` to generate a quick PDF preview and verify coordinates.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I add images to an existing XPS file?**  
 A: Yes. Open the existing XPS with `XpsDocument` and use the same `addImage` APIs to insert new graphics.

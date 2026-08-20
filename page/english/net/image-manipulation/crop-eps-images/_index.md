@@ -1,5 +1,5 @@
 ---
-title: How to Crop EPS Images with Aspose.Page for .NET
+title: Working with Vector Graphics in .NET
 linktitle: Crop EPS Images
 second_title: Aspose.Page .NET API
 description: Learn how to crop EPS images and resize EPS image files in .NET using Aspose.Page. Follow this step‑by‑step guide to crop EPS and resize EPS image effortlessly.
@@ -30,7 +30,7 @@ If you need to know **how to crop EPS** images in a .NET application, you’ve c
 Before diving into the code, make sure you have:
 
 - A working knowledge of .NET development.  
-- Aspose.Page for .NET library installed. If not, you can download it [here](https://releases.aspose.com/page/net/).  
+- Aspose.Page for .NET library installed. If not, you can download it from the **[Aspose.Page for .NET download page](https://releases.aspose.com/page/net/)**.  
 - A sample EPS image (replace `"input.eps"` in the code with your actual file).
 
 ## Import Namespaces
@@ -60,7 +60,7 @@ PsDocument doc = new PsDocument(inputEpsStream);
 
 We create a `PsDocument` instance from the input EPS stream. This object represents the EPS file in memory and gives us access to cropping and resizing methods.
 
-### Step 2: Extract the Original Bounding Box
+### Step 2: extract the original bounding box
 
 ```csharp
 int[] initialBoundingBox = doc.ExtractEpsBoundingBox();
@@ -68,7 +68,7 @@ int[] initialBoundingBox = doc.ExtractEpsBoundingBox();
 
 The bounding box tells you the current dimensions of the EPS canvas. Knowing these values helps you define a safe cropping rectangle.
 
-### Step 3: Create an Output Stream
+### Step 3: create an output stream
 
 ```csharp
 using (Stream outputEpsStream = new FileStream(dataDir + "output_crop.eps", FileMode.Create, FileAccess.Write))
@@ -76,7 +76,7 @@ using (Stream outputEpsStream = new FileStream(dataDir + "output_crop.eps", File
 
 We open a writable stream where the cropped EPS will be saved. Using a `using` block guarantees the stream is closed properly.
 
-### Step 4: Define a New Bounding Box
+### Step 4: define a new bounding box
 
 ```csharp
 float[] newBoundingBox = new float[] { 260, 300, 480, 432 };
@@ -92,7 +92,7 @@ doc.CropEps(outputEpsStream, newBoundingBox);
 
 This single line performs the crop and writes the result to `output_crop.eps`. The method modifies the document in‑memory, so you can chain further operations if needed.
 
-## Resize EPS Image
+## Resize EPS image
 
 After cropping, you often want to change the size of the EPS for display or printing. Aspose.Page supports three units of measurement.
 
@@ -116,7 +116,7 @@ doc.ResizeEps(outputEpsStream, new SizeF(200, 200), Units.Percents);
 
 Each call overwrites the previous output, so be sure to create a fresh stream if you need separate files for each size.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -132,7 +132,7 @@ A1: Aspose.Page primarily focuses on EPS images, but Aspose provides various lib
 
 ### Q2: How can I obtain a temporary license for Aspose.Page for .NET?
 
-A2: Visit [this link](https://purchase.aspose.com/temporary-license/) to get a temporary license for testing.
+A2: Visit the **[temporary license page](https://purchase.aspose.com/temporary-license/)** to get a temporary license for testing.
 
 ### Q3: Are there any limitations to the image size I can process with Aspose.Page for .NET?
 
@@ -140,11 +140,11 @@ A3: Aspose.Page is designed to handle images of various sizes. However, performa
 
 ### Q4: Is there a community forum for Aspose.Page discussions?
 
-A5: Yes, you can engage with the Aspose.Page community [here](https://forum.aspose.com/c/page/39).
+A5: Yes, you can engage with the **[Aspose.Page community forum](https://forum.aspose.com/c/page/39)**.
 
 ### Q5: Where can I find detailed documentation for Aspose.Page for .NET?
 
-A5: Refer to the documentation [here](https://reference.aspose.com/page/net/).
+A5: Refer to the **[Aspose.Page .NET API documentation](https://reference.aspose.com/page/net/)**.
 
 ---
 

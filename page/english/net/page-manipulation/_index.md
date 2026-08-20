@@ -1,5 +1,5 @@
 ---
-title: "Add page postscript .net with Aspose.Page"
+title: "How to Add a Page to a PostScript Document using Aspose.Page for .NET"
 linktitle: "Add page postscript .net"
 second_title: "Aspose.Page .NET API"
 description: "Learn how to add page postscript .net and how to add xps page using Aspose.Page for .NET. Explore step‑by‑step tutorials for adding and removing pages in PostScript and XPS documents."
@@ -26,17 +26,27 @@ Ready to master **add page postscript .net** techniques? In this guide we’ll w
 - **Which .NET versions are supported?** .NET Framework 4.6+, .NET Core 3.1+, .NET 5/6/7.
 
 ## Adding Pages to PostScript (PS) Document with Aspose.Page
-### [Add Page to PostScript (PS) Document with Aspose.Page](./add-page-to-postscript-ps-document/)
+### {{< relref "add-page-to-postscript-ps-document" >}}
 
 Aspose.Page for .NET stands as the ultimate solution for effortlessly manipulating PostScript documents in your .NET projects. In this tutorial, we guide you through the step‑by‑step process of **add page postscript .net**. Unleash the potential of your .NET applications as you learn the intricacies of seamless integration. Elevate your document manipulation skills and explore the vast capabilities of Aspose.Page.
 
-## Enhancing .NET Applications: Adding Pages to XPS Documents
-### [Add Page to XPS Document with Aspose.Page for .NET](./add-page-to-xps-document/)
+```csharp
+// Add a new page to a PostScript document
+using Aspose.Page;
+using Aspose.Page.PS;
+
+Document doc = new Document("input.ps");
+doc.AddPage();
+doc.Save("output.ps");
+```
+
+## Enhancing .NET applications: adding pages to XPS documents
+### {{< relref "add-page-to-xps-document" >}}
 
 Take your .NET applications to the next level by learning **how to add xps page** with Aspose.Page for .NET. Our step‑by‑step guide ensures that you grasp the process seamlessly. Explore the comprehensive tutorial that empowers you to enhance your applications effortlessly. Elevate your understanding of Aspose.Page for .NET and witness the transformation it brings to your document manipulation endeavors.
 
-## Comprehensive Tutorial: Removing Pages from XPS Document
-### [Remove Page from XPS Document with Aspose.Page for .NET](./remove-page-from-xps-document/)
+## Comprehensive tutorial: removing pages from XPS document
+### {{< relref "remove-page-from-xps-document" >}}
 
 Delve into a comprehensive tutorial on removing pages from XPS documents using Aspose.Page for .NET. Our guide not only walks you through the step‑by‑step process but also provides essential prerequisites and addresses frequently asked questions. Seamlessly manipulate your documents with Aspose.Page for .NET as you gain insights into efficient page removal. Uncover the power of this tool and revolutionize your approach to document manipulation.
 
@@ -45,24 +55,17 @@ Delve into a comprehensive tutorial on removing pages from XPS documents using A
 - **Consistency:** Ensure every generated document follows the same layout standards.  
 - **Scalability:** Handle thousands of files in batch jobs without human intervention.
 
-## Page Manipulation Tutorials
-### [Add Page to PostScript (PS) Document with Aspose.Page](./add-page-to-postscript-ps-document/)
+## Page manipulation tutorials
+### {{< relref "add-page-to-postscript-ps-document" >}}
 Explore Aspose.Page for .NET – the ultimate solution for seamless PostScript document manipulation in your .NET projects.
 
-### [Add Page to XPS Document with Aspose.Page for .NET](./add-page-to-xps-document/)
+### {{< relref "add-page-to-xps-document" >}}
 Enhance your .NET applications by learning how to add pages to XPS documents with Aspose.Page for .NET. Follow our step‑by‑step guide for seamless integration.
 
-### [Remove Page from XPS Document with Aspose.Page for .NET](./remove-page-from-xps-document/)
+### {{< relref "remove-page-from-xps-document" >}}
 Explore a comprehensive tutorial on removing pages from XPS documents using Aspose.Page for .NET. Learn the step‑by‑step process, prerequisites, and FAQs for seamless document manipulation.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is there a limit to the number of pages I can add to a PostScript document?**  
 A: Aspose.Page imposes no hard limit; the only constraints are memory and file size considerations.
@@ -84,3 +87,10 @@ A: The Aspose.Page documentation includes ready‑to‑run examples for both PS 
 **Last Updated:** 2026-03-16  
 **Tested With:** Aspose.Page 24.12 for .NET  
 **Author:** Aspose
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
