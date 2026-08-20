@@ -1,6 +1,6 @@
 ---
-title: "Create Tiled Background – Texture Handling"
-linktitle: "Create Tiled Background – Texture Handling"
+title: "Create Tiled Background with Aspose.Page for .NET – Texture Handling"
+linktitle: "Create Tiled Background with Aspose.Page for .NET – Texture Handling"
 second_title: "Aspose.Page .NET API"
 description: "Learn how to create tiled background patterns in PostScript documents using Aspose.Page for .NET. Follow our step‑by‑step texture guide to add texture pattern and generate texture tiling effortlessly."
 weight: 33
@@ -48,20 +48,41 @@ Below is a concise, **step by step texture** workflow you can follow to **add te
 
 > *Pro tip:* Keep your source texture under 200 KB to ensure fast rendering and a small final file size.
 
+```csharp
+using Aspose.Page;
+using Aspose.Page.Drawing;
+using System.IO;
+
+// Create a new PS document
+using (Document doc = new Document())
+{
+    // Load texture image
+    byte[] imgData = File.ReadAllBytes("texture.png");
+    MemoryStream imgStream = new MemoryStream(imgData);
+    TilingPattern pattern = new TilingPattern(imgStream);
+
+    // Fill a rectangle with the tiling pattern
+    doc.Pages[0].Graphics.FillRectangle(pattern, new RectangleF(0, 0, 595, 842));
+
+    // Save the document
+    doc.Save("output.ps");
+}
+```
+
 ## Unleashing Creativity: Apply Texture Tiling Patterns to PostScript (PS)
 
-### [Apply Texture Tiling Pattern to PostScript (PS) with Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
+### [Apply Texture Tiling Pattern to PostScript (PS) with Aspose.Page]({{< relref "apply-texture-tiling-pattern-to-postscript-ps/_index.md" >}})
 
 #### Introduction
 Welcome to a journey where ordinary PostScript documents transform into visually stunning works of art! Aspose.Page for .NET empowers developers to enhance their PS files by applying texture tiling patterns, adding a touch of sophistication and uniqueness.
 
-#### Understanding Texture Tiling Patterns
+#### Understanding texture tiling patterns
 Texture tiling patterns offer a way to seamlessly repeat a texture across a document, creating visually appealing backgrounds, borders, or intricate details. Aspose.Page simplifies the process, allowing developers to harness the power of texture repetition effortlessly.
 
 #### Step‑by‑Step Guide
 Our tutorial provides a detailed, step‑by‑step walkthrough, ensuring even those new to texture handling can grasp the concepts. From the initial setup to the final implementation, each stage is explained with clarity, accompanied by code snippets and practical examples.
 
-#### Visual Effects Mastery
+#### Visual effects mastery
 Learn how to manipulate textures to achieve various visual effects, from subtle enhancements to bold, eye‑catching designs. Aspose.Page for .NET opens up a world of possibilities for developers keen on pushing the boundaries of conventional document presentation.
 
 #### Why Aspose.Page for .NET?
@@ -73,7 +94,7 @@ Aspose.Page stands out as a reliable and feature‑rich library for handling doc
 - **Color space issues:** Use sRGB images to prevent unexpected color shifts in the final PS output.
 - **Performance slowdown:** Re‑use the same `TilingPattern` object for multiple fills instead of creating a new one each time.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use my own PNG or JPEG as a texture?**  
 A: Yes, Aspose.Page accepts standard image formats; just load them into a `MemoryStream` and create the pattern.
@@ -94,16 +115,16 @@ A: Use PNG images with an alpha channel; the transparency is preserved when the 
 
 In conclusion, our Texture Handling Tutorials, focusing on the application of texture tiling patterns to PostScript documents using Aspose.Page for .NET, provide developers with the tools and knowledge to **create tiled background** designs that captivate readers. Whether you're a seasoned developer or just starting, this guide equips you with a solid foundation to generate texture tiling and add texture pattern to any PS file.
 
-## Texture Handling Tutorials
-### [Apply Texture Tiling Pattern to PostScript (PS) with Aspose.Page](./apply-texture-tiling-pattern-to-postscript-ps/)
+## Texture handling tutorials
+### [Apply Texture Tiling Pattern to PostScript (PS) with Aspose.Page]({{< relref "apply-texture-tiling-pattern-to-postscript-ps/_index.md" >}})
 Enhance your PostScript (PS) documents with texture tiling patterns using Aspose.Page for .NET. Follow our step‑by‑step guide for a creative touch.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 
 ---
 
@@ -112,3 +133,10 @@ Enhance your PostScript (PS) documents with texture tiling patterns using Aspose
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,6 +1,6 @@
 ---
-title: Transparent Image Aspose.Page – Transparency Effects Guide
-linktitle: Transparent Image Aspose.Page – Transparency Effects Guide
+title: Add Transparent Image with Aspose.Page – Transparency Effects Guide
+linktitle: Add Transparent Image with Aspose.Page – Transparency Effects Guide
 second_title: Aspose.Page .NET API
 description: Learn how to add a transparent image aspose.page for .NET. This step‑by‑step guide shows transparency effects to boost your document design.
 weight: 34
@@ -33,6 +33,20 @@ Understanding the core concept of a *transparent image* helps you decide when an
 
 Ever wondered how to enhance your PostScript documents with transparent images? Look no further! Our step‑by‑step guide using Aspose.Page for .NET is your gateway to dynamic and visually appealing results. Elevate your design game effortlessly.
 
+```csharp
+// Load a PostScript document and add a transparent PNG image
+using Aspose.Page;
+using Aspose.Page.XPS;
+using Aspose.Page.XPS.XpsModel;
+
+var document = new XpsDocument();
+var page = document.AddPage();
+var image = page.AddImage("transparent.png", new XpsPoint(100, 100));
+image.Width = 200;
+image.Height = 200;
+document.Save("output.xps");
+```
+
 ### Add Transparent Object to XPS Document with Aspose.Page
 [Add Transparent Object to XPS Document](./add-transparent-object-to-xps-document/)
 
@@ -50,7 +64,7 @@ Discover the magic of pseudo‑transparency in PostScript documents with Aspose.
 
 In conclusion, Aspose.Page for .NET opens up a world of possibilities when it comes to transparency effects. Whether you're working with PostScript or XPS documents, these tutorials provide a comprehensive guide to elevate your design skills. Embrace the power of transparency and transform your documents into visual masterpieces with Aspose.Page for .NET. Dive into the tutorials today and unlock the full potential of transparent design!
 
-## Transparency Effects Tutorials
+## Transparency effects tutorials
 ### [Add Transparent Image to PostScript (PS) with Aspose.Page](./add-transparent-image-to-postscript-ps/)
 Enhance your PostScript documents with transparent images using Aspose.Page for .NET. Follow our step‑by‑step guide for dynamic and visually appealing results.
 ### [Add Transparent Object to XPS Document with Aspose.Page](./add-transparent-object-to-xps-document/)
@@ -60,7 +74,7 @@ Learn to set opacity masks in XPS documents using Aspose.Page for .NET. Enhance 
 ### [Show Pseudo-Transparency in PostScript (PS) with Aspose.Page](./show-pseudo-transparency-in-postscript-ps/)
 Explore the power of pseudo‑transparency in PostScript with Aspose.Page for .NET. Follow our step‑by‑step guide for visually stunning documents.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use these transparency features in a commercial application?**  
 A: Yes. As long as you have a valid Aspose.Page license, you can integrate the features into any commercial project.
