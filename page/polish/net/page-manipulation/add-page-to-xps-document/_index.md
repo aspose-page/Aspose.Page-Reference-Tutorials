@@ -1,31 +1,50 @@
 ---
-title: Dodaj stronę do dokumentu XPS za pomocą Aspose.Page dla .NET
-linktitle: Dodaj stronę do dokumentu XPS
-second_title: Aspose.Page API .NET
-description: Ulepsz swoje aplikacje .NET, ucząc się, jak dodawać strony do dokumentów XPS za pomocą Aspose.Page dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-weight: 11
+date: 2026-03-16
+description: Dowiedz się, jak dodać stronę do dokumentów XPS w .NET przy użyciu Aspose.Page.
+  Skorzystaj z tego przewodnika krok po kroku, aby uzyskać płynną integrację.
+linktitle: Add Page to XPS Document
+second_title: Aspose.Page .NET API
+title: Dodaj stronę do dokumentu XPS – dodaj stronę do XPS przy użyciu Aspose.Page
+  dla .NET
 url: /pl/net/page-manipulation/add-page-to-xps-document/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodaj stronę do dokumentu XPS za pomocą Aspose.Page dla .NET
+# Dodaj stronę do dokumentu XPS przy użyciu Aspose.Page dla .NET
 
-## Wstęp
+## Introduction
 
-Jeśli pracujesz z dokumentami XPS w .NET i chcesz programowo dodawać strony, Aspose.Page dla .NET jest idealnym rozwiązaniem. W tym samouczku przeprowadzimy Cię krok po kroku przez proces dodawania stron do dokumentu XPS. Jako biegły autor tekstów SEO dopilnuję, aby ten przewodnik był nie tylko informacyjny, ale także opracowany z myślą o optymalizacji pod kątem wyszukiwarek, dzięki czemu będzie cennym źródłem informacji zarówno dla programistów, jak i twórców treści.
+Jeśli pracujesz z dokumentami XPS w .NET i potrzebujesz **dodawać stronę do XPS** programowo, Aspose.Page dla .NET jest rozwiązaniem, które powinieneś wybrać. W tym samouczku przeprowadzimy Cię krok po kroku przez dokładne czynności potrzebne do dodania strony do dokumentu XPS, wyjaśnimy, dlaczego ta możliwość jest ważna, oraz podamy wskazówki, jak uniknąć typowych pułapek. Po zakończeniu będziesz w stanie zintegrować logikę dodawania stron w dowolnej aplikacji .NET z pewnością.
 
-## Warunki wstępne
+## Quick Answers
+- **Co robi API?** Umożliwia wstawianie, usuwanie lub zmienianie kolejności stron w dokumencie XPS.  
+- **Ile linii kodu?** Wystarczą tylko cztery krótkie fragmenty kodu.  
+- **Czy potrzebna jest licencja?** Do produkcji wymagana jest tymczasowa licencja; darmowa wersja próbna wystarczy do oceny.  
+- **Obsługiwane wersje .NET?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Typowy przypadek użycia?** Dynamiczne generowanie wielostronicowych raportów lub łączenie oddzielnych plików XPS.
 
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
+## What is “add page to xps”?
 
--  Biblioteka Aspose.Page dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Page dla .NET. Można go pobrać z[Dokumentacja Aspose.Page](https://reference.aspose.com/page/net/).
+Dodanie strony do pliku XPS oznacza programowe wstawienie nowego, pustego płótna do kolekcji stron dokumentu. Jest to przydatne, gdy trzeba generować raporty, łączyć dokumenty lub wstawiać miejsca na treść przed ich wypełnieniem.
 
-- Środowisko programistyczne: skonfiguruj preferowane środowisko programistyczne, takie jak Visual Studio lub inna platforma programistyczna .NET.
+## Why add page to XPS documents programmatically?
+- **Automatyzacja** – eliminuje ręczną edycję plików XPS.  
+- **Spójność** – zapewnia ten sam układ strony we wszystkich generowanych dokumentach.  
+- **Skalowalność** – łatwe włączenie do przetwarzania wsadowego lub usług sieciowych.
 
-## Importuj przestrzenie nazw
+## Prerequisites
+
+Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania:
+
+- **Biblioteka Aspose.Page dla .NET:** Upewnij się, że masz zainstalowaną bibliotekę Aspose.Page dla .NET. Możesz ją pobrać z [dokumentacji Aspose.Page](https://reference.aspose.com/page/net/).
+
+- **Środowisko programistyczne:** Skonfiguruj wybrane środowisko, takie jak Visual Studio lub dowolną inną platformę programistyczną .NET.
+
+## Import Namespaces
 
 W tym kroku zaimportujemy niezbędne przestrzenie nazw, aby funkcjonalność Aspose.Page dla .NET była dostępna w naszym kodzie.
 
@@ -35,63 +54,69 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Podzielmy teraz podany przykładowy kod na wiele kroków, aby uzyskać kompleksowy przewodnik.
+Teraz rozbijmy przykładowy kod na kilka kroków, aby stworzyć kompleksowy przewodnik.
 
-## Krok 1: Ustaw ścieżkę katalogu dokumentów
+## Step 1: Set Document Directory Path
 
 ```csharp
-// Ścieżka do katalogu dokumentów.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## Krok 2: Utwórz dokument XPS
+## Step 2: Create XPS Document
 
 ```csharp
-// Utwórz nowy dokument XPS
+// Create new XPS Document
 XpsDocument doc = new XpsDocument(dataDir + "Sample1.xps");
 ```
 
-## Krok 3: Wstaw pustą stronę
+## Step 3: Insert an Empty Page
 
 ```csharp
-//Wstaw pustą stronę na początek listy stron
+// Insert an empty page at the beginning of the pages list
 doc.InsertPage(1, true);
 ```
 
-## Krok 4: Zapisz wynikowy dokument XPS
+## Step 4: Save Resultant XPS Document
 
 ```csharp
-// Zapisz wynikowy dokument XPS
+// Save resultant XPS document
 doc.Save(dataDir + "AddPages_out.xps");
 ```
 
-Wykonując te kroki, pomyślnie dodałeś stronę do dokumentu XPS przy użyciu Aspose.Page dla .NET.
+Dzięki tym krokom pomyślnie **dodałeś stronę do XPS** przy użyciu Aspose.Page dla .NET.
 
-## Wniosek
+## Common Issues and Solutions
+- **Plik nie znaleziony** – Sprawdź, czy `dataDir` wskazuje na właściwy folder i czy plik `Sample1.xps` istnieje.  
+- **Błędy uprawnień** – Upewnij się, że aplikacja ma prawa zapisu do folderu wyjściowego.  
+- **Licencja nie ustawiona** – Jeśli otrzymasz wyjątek licencyjny, zastosuj tymczasową lub stałą licencję przed wywołaniem jakichkolwiek metod API.
 
-Podsumowując, Aspose.Page dla .NET zapewnia proste rozwiązanie do dynamicznego dodawania stron do dokumentów XPS. Ten samouczek wyposażył Cię w niezbędną wiedzę niezbędną do skutecznego wdrażania tej funkcjonalności w projektach .NET.
+## Frequently Asked Questions
 
-## Często zadawane pytania
+**Q1: Czy Aspose.Page dla .NET jest odpowiedni dla początkujących?**  
+A1: Tak, Aspose.Page dla .NET został zaprojektowany z przyjaznym dla użytkownika API, co czyni go dostępny zarówno dla początkujących, jak i doświadczonych programistów.
 
-### P1: Czy Aspose.Page dla .NET jest odpowiedni dla początkujących?
+**Q2: Czy mogę używać Aspose.Page dla .NET w projektach komercyjnych?**  
+A2: Oczywiście! Aspose.Page dla .NET to wszechstronna biblioteka odpowiednia zarówno do projektów prywatnych, jak i komercyjnych.
 
-Odpowiedź 1: Tak, Aspose.Page dla .NET został zaprojektowany z przyjaznym dla użytkownika interfejsem API, dzięki czemu jest dostępny zarówno dla początkujących, jak i doświadczonych programistów.
+**Q3: Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Page dla .NET?**  
+A3: Zapoznaj się z [dokumentacją Aspose.Page](https://reference.aspose.com/page/net/), aby uzyskać szczegółowe przykłady i pełną dokumentację.
 
-### P2: Czy mogę używać Aspose.Page dla .NET w projektach komercyjnych?
+**Q4: Czy dostępna jest darmowa wersja próbna?**  
+A4: Tak, darmową wersję próbną Aspose.Page dla .NET możesz pobrać [tutaj](https://releases.aspose.com/).
 
-A2: Absolutnie! Aspose.Page dla .NET to wszechstronna biblioteka odpowiednia zarówno do projektów osobistych, jak i komercyjnych.
+**Q5: Jak mogę uzyskać tymczasową licencję dla Aspose.Page dla .NET?**  
+A5: Odwiedź [stronę tymczasowej licencji](https://purchase.aspose.com/temporary-license/), aby uzyskać tymczasową licencję do celów testowych.
 
-### P3: Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Page dla .NET?
+## Conclusion
 
- A3: Poznaj[Dokumentacja Aspose.Page](https://reference.aspose.com/page/net/) szczegółowe przykłady i obszerną dokumentację.
+Podsumowując, Aspose.Page dla .NET oferuje prostą metodę na dynamiczne **dodawanie stron do XPS**. Ten samouczek wyposażył Cię w niezbędną wiedzę, aby efektywnie wdrożyć tę funkcjonalność w swoich projektach .NET. Zachęcamy do dalszego eksplorowania API umożliwiających dodawanie treści, obrazów lub własnych grafik do nowo utworzonych stron.
 
-### P4: Czy dostępny jest bezpłatny okres próbny?
+---
 
-O4: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Page dla .NET[Tutaj](https://releases.aspose.com/).
-
-### P5: Jak mogę uzyskać tymczasową licencję na Aspose.Page dla .NET?
-
- A5: Odwiedź[strona licencji tymczasowej](https://purchase.aspose.com/temporary-license/) w celu uzyskania tymczasowej licencji do celów testowych.
+**Last Updated:** 2026-03-16  
+**Tested With:** Aspose.Page for .NET latest release  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

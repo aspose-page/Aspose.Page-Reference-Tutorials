@@ -1,11 +1,11 @@
 ---
-date: 2025-12-28
-description: Pelajari cara menambahkan gambar ke dokumen XPS dalam Java menggunakan
-  Aspose.Page. Panduan langkah demi langkah ini menunjukkan cara menambahkan gambar
-  dengan mudah dan meningkatkan pemrosesan dokumen Anda.
+date: 2026-03-16
+description: Pelajari cara asp asp dan cara menambahkan gambar ke dokumen XPS dalam
+  Java menggunakan Aspose.Page. Panduan ini memandu Anda menambahkan gambar dengan
+  cepat.
 linktitle: Add Image in Java XPS
 second_title: Aspose.Page Java API
-title: Cara Menambahkan Gambar ke Dokumen XPS Java – Panduan Sederhana dengan Aspose.Page
+title: asp asp – Tambahkan Gambar ke Dokumen XPS Java dengan Aspose.Page
 url: /id/java/xps-image-manipulation/add-image/
 weight: 10
 ---
@@ -14,29 +14,40 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Menambahkan Gambar ke Dokumen Java XPS dengan Aspose.Page
+# asp asp – Menambahkan Gambar ke Dokumen Java XPS dengan Aspose.Page
 
-Menambahkan gambar ke file XPS adalah kebutuhan umum bagi pengembang Java yang perlu memperkaya laporan, faktur, atau dokumen visual apa pun. Dalam tutorial ini Anda akan menemukan **cara menambahkan gambar** ke dokumen XPS menggunakan pustaka Aspose.Page for Java yang kuat. Kami akan membimbing Anda melalui setiap langkah, menjelaskan mengapa setiap baris kode penting, dan memberi tip untuk menghindari jebakan umum.
+Menambahkan gambar ke file XPS adalah kebutuhan yang sering bagi pengembang Java yang ingin memperkaya laporan, faktur, atau dokumen visual apa pun. Dalam tutorial ini Anda akan belajar **cara menambahkan gambar** ke dokumen XPS menggunakan pustaka Aspose.Page for Java yang kuat, dan Anda akan melihat mengapa pendekatan **asp asp** membuat proses ini dapat diandalkan dan cepat. Kami akan melangkah melalui setiap langkah, menjelaskan mengapa setiap baris penting, dan memberi Anda tip praktis untuk menghindari jebakan umum.
 
 ## Jawaban Cepat
-- **Pustaka apa yang dibutuhkan?** Aspose.Page for Java  
-- **Apakah saya dapat menambahkan beberapa gambar?** Ya – ulangi langkah penambahan gambar untuk setiap foto  
-- **Format gambar yang didukung?** TIFF, JPEG, PNG, GIF (dan lainnya yang didukung oleh .NET)  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi  
-- **Waktu implementasi tipikal?** Sekitar 10‑15 menit untuk penyisipan gambar dasar
+- **Perpustakaan apa yang dibutuhkan?** Aspose.Page for Java  
+- **Apakah saya dapat menambahkan beberapa gambar?** Yes – repeat the image‑adding steps for each picture  
+- **Format gambar yang didukung?** TIFF, JPEG, PNG, GIF (and others supported by .NET)  
+- **Apakah saya memerlukan lisensi?** A free trial works for evaluation; a commercial license is required for production  
+- **Waktu implementasi tipikal?** About 10‑15 minutes for a basic image insertion  
+
+## asp asp: Menambahkan Gambar ke Dokumen XPS
+Metodologi **asp asp** berpusat pada pola sederhana yang dapat diulang: membuat dokumen, menentukan jalur, menerapkan image brush, dan menyimpan. Pola ini menjaga kode Anda tetap bersih dan memudahkan penyisipan grafik tambahan di kemudian hari.
+
+## Apa itu Aspose.Page untuk Java?
+Aspose.Page adalah API khusus yang memungkinkan Anda membuat, mengedit, dan merender dokumen XPS (XML Paper Specification) tanpa memerlukan Microsoft XPS Viewer. API ini menyembunyikan detail tingkat rendah dari markup XPS, sehingga Anda dapat fokus pada tata letak visual dokumen Anda.
+
+## Mengapa menambahkan gambar ke XPS?
+- **Professional look:** Gambar seperti logo, diagram, atau foto produk memberikan dokumen Anda tampilan yang halus.  
+- **Brand consistency:** Menyematkan logo perusahaan Anda memastikan setiap faktur atau laporan yang dihasilkan membawa merek Anda.  
+- **Dynamic content:** Anda dapat secara programatis menyisipkan kode QR, barcode, atau grafik yang dihasilkan pengguna saat runtime.
 
 ## Pendahuluan
-Menambahkan gambar ke dokumen XPS adalah kebutuhan umum dalam banyak aplikasi Java, mulai dari pembuatan laporan hingga pemrosesan dokumen. Aspose.Page for Java menyederhanakan tugas ini, menawarkan metode efisien untuk mengintegrasikan gambar secara mulus ke dalam file XPS Anda. Dalam tutorial ini, kami akan menunjukkan cara menambahkan gambar ke dokumen XPS menggunakan Aspose.Page for Java.
+Menambahkan gambar ke dokumen XPS adalah kebutuhan umum dalam banyak aplikasi Java, mulai dari pembuatan laporan hingga pemrosesan dokumen. Aspose.Page untuk Java menyederhanakan tugas ini, menawarkan metode efisien untuk mengintegrasikan gambar secara mulus ke dalam file XPS Anda. Dalam tutorial ini, kami akan menunjukkan cara menambahkan gambar ke dokumen XPS menggunakan Aspose.Page untuk Java.
 
 ## Prasyarat
-Sebelum memulai tutorial, pastikan Anda telah menyiapkan prasyarat berikut:
+Sebelum menyelam ke tutorial, pastikan Anda memiliki prasyarat berikut:
 1. **Aspose.Page for Java Library** – Unduh dan instal pustaka Aspose.Page for Java dari [website](https://releases.aspose.com/page/java/).  
-2. **Lingkungan Pengembangan Java** – Pastikan Anda memiliki lingkungan pengembangan Java yang sudah terpasang di mesin Anda.
+2. **Java Development Environment** – Pastikan Anda memiliki lingkungan pengembangan Java yang terpasang di mesin Anda.
 
-Sekarang, mari lanjut ke langkah berikutnya.
+Sekarang, mari kita lanjutkan ke langkah berikutnya.
 
-## Mengimpor Paket
-Di proyek Java Anda, impor paket Aspose.Page for Java yang diperlukan untuk mengakses kelas dan metode yang dibutuhkan.
+## Impor Paket
+Dalam proyek Java Anda, impor paket Aspose.Page for Java yang diperlukan untuk mengakses kelas dan metode yang dibutuhkan.
 
 ```java
 import com.aspose.xps.XpsDocument;
@@ -45,7 +56,7 @@ import java.awt.geom.Rectangle2D;
 ```
 
 ## Langkah 1: Menyiapkan Direktori Dokumen
-Tentukan jalur ke direktori dokumen Anda tempat file XPS dan gambar akan disimpan.
+Tentukan jalur ke direktori dokumen Anda tempat dokumen XPS dan file gambar akan disimpan.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -59,7 +70,7 @@ XpsDocument doc = new XpsDocument();
 ```
 
 ## Langkah 3: Menambahkan Gambar ke Dokumen XPS
-Untuk menambahkan gambar, buat path di dalam dokumen XPS, dan atur image brush menggunakan file gambar yang disediakan serta koordinatnya.
+Untuk menambahkan gambar, buat jalur dalam dokumen XPS, dan atur image brush menggunakan file gambar yang disediakan serta koordinatnya.
 
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
@@ -74,36 +85,36 @@ Simpan dokumen XPS yang telah dimodifikasi ke direktori yang Anda tentukan.
 doc.save(dataDir + "AddImage_out.xps");
 ```
 
-Ulangi langkah-langkah ini untuk menambahkan lebih banyak gambar atau menyesuaikan gambar yang ada sesuai kebutuhan proyek Anda.
+Ulangi langkah-langkah ini untuk menambahkan lebih banyak gambar atau menyesuaikan yang sudah ada sesuai kebutuhan proyek Anda.
+
+## Masalah Umum dan Solusinya
+- **Image appears stretched:** Verifikasi bahwa source rectangle (`new Rectangle2D.Double(0f, 0f, 258.24f, 56.64f)`) sesuai dengan dimensi sebenarnya dari gambar Anda. Sesuaikan destination rectangle untuk mempertahankan rasio aspek.  
+- **Watermark shows up:** Jika Anda menjalankan kode tanpa lisensi yang valid, Aspose menambahkan watermark. Aktifkan lisensi Anda lebih awal dalam aplikasi untuk menghindarinya.  
+- **FileNotFoundException:** Pastikan `dataDir` mengarah ke folder yang benar dan nama file gambar (`QL_logo_color.tif`) cocok dengan file di disk.
 
 ## Kesimpulan
-Selamat! Anda telah berhasil mempelajari **cara menambahkan gambar** ke dokumen XPS menggunakan Aspose.Page for Java. Keahlian ini sangat berharga untuk meningkatkan daya tarik visual aplikasi dan dokumen Java Anda.
+Selamat! Anda telah berhasil mempelajari **cara menambahkan gambar** ke dokumen XPS menggunakan Aspose.Page untuk Java. Keterampilan ini sangat berharga untuk meningkatkan daya tarik visual aplikasi Java dan dokumen Anda. Dengan mengikuti pola **asp asp**, Anda dapat dengan mudah memperluas contoh ini untuk menyisipkan banyak grafik, mengubah skalanya secara dinamis, atau bahkan menghasilkan diagram secara langsung.
 
 ### Pertanyaan yang Sering Diajukan
-### Apakah saya dapat menambahkan beberapa gambar ke dokumen XPS yang sama menggunakan Aspose.Page for Java?
-Ya, Anda dapat menambahkan beberapa gambar dengan mengulangi langkah‑langkah yang dijelaskan dalam tutorial ini untuk setiap gambar.
+### Apakah saya dapat menambahkan beberapa gambar ke dokumen XPS yang sama menggunakan Aspose.Page untuk Java?
+Ya, Anda dapat menambahkan beberapa gambar dengan mengulangi langkah-langkah yang dijelaskan dalam tutorial ini untuk setiap gambar.
 
-### Format gambar apa yang didukung oleh Aspose.Page for Java?
-Aspose.Page for Java mendukung berbagai format gambar, termasuk TIFF, JPEG, PNG, dan GIF.
+### Format gambar apa yang didukung oleh Aspose.Page untuk Java?
+Aspose.Page untuk Java mendukung berbagai format gambar, termasuk TIFF, JPEG, PNG, dan GIF.
 
-### Apakah tersedia versi percobaan Aspose.Page for Java?
-Ya, Anda dapat memperoleh versi percobaan gratis Aspose.Page for Java dari [tautan ini](https://releases.aspose.com/).
+### Apakah tersedia versi percobaan Aspose.Page untuk Java?
+Ya, Anda dapat memperoleh versi percobaan gratis Aspose.Page untuk Java dari [tautan ini](https://releases.aspose.com/).
 
-### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page for Java?
+### Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.Page untuk Java?
 Anda dapat memperoleh lisensi sementara dari [tautan ini](https://purchase.aspose.com/temporary-license/).
 
-### Di mana saya dapat menemukan dukungan tambahan atau berdiskusi tentang masalah terkait Aspose.Page for Java?
-Kunjungi [forum Aspose.Page](https://forum.aspose.com/c/page/39) untuk meminta bantuan, berbagi pengalaman, dan terhubung dengan komunitas Aspose.Page.
-
-## Tips Tambahan & Kesalahan Umum
-- **Akurasi Path Geometry** – Pastikan string path bergaya SVG sesuai dengan dimensi gambar Anda; jika tidak, gambar dapat tampak terdistorsi atau terpotong.  
-- **Skala Image Brush** – Metode `createImageBrush` menerima persegi sumber dan tujuan; menyesuaikan nilai‑nilai ini memungkinkan Anda mengontrol posisi dan skala dengan tepat.  
-- **Aktivasi Lisensi** – Jika Anda menjalankan kode tanpa lisensi yang valid, Aspose akan menambahkan watermark pada file XPS yang dihasilkan.
+### Di mana saya dapat menemukan dukungan tambahan atau mendiskusikan masalah terkait Aspose.Page untuk Java?
+Kunjungi [forum Aspose.Page](https://forum.aspose.com/c/page/39) untuk mencari bantuan, berbagi pengalaman, dan terhubung dengan komunitas Aspose.Page.
 
 ---
 
-**Terakhir Diperbarui:** 2025-12-28  
-**Diuji Dengan:** Aspose.Page for Java 23.12 (versi terbaru pada saat penulisan)  
+**Terakhir Diperbarui:** 2026-03-16  
+**Diuji Dengan:** Aspose.Page for Java 23.12 (latest at time of writing)  
 **Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

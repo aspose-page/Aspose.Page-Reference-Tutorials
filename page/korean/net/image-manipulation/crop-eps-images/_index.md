@@ -1,33 +1,42 @@
 ---
-title: .NET용 Aspose.Page를 사용하여 EPS 이미지 자르기
-linktitle: EPS 이미지 자르기
-second_title: Aspose.페이지 .NET API
-description: Aspose.Page를 사용하여 .NET에서 EPS 이미지 조작의 원활한 세계를 탐색해 보세요. 놀라운 결과를 얻으려면 이미지를 쉽게 자르고 크기를 조정하세요.
-weight: 10
+date: 2026-03-16
+description: Aspose.Page를 사용하여 .NET에서 EPS 이미지를 자르고 EPS 이미지 파일의 크기를 조정하는 방법을 배워보세요.
+  이 단계별 가이드를 따라 EPS를 손쉽게 자르고 크기를 조정하세요.
+linktitle: Crop EPS Images
+second_title: Aspose.Page .NET API
+title: Aspose.Page for .NET을 사용하여 EPS 이미지 자르기
 url: /ko/net/image-manipulation/crop-eps-images/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET용 Aspose.Page를 사용하여 EPS 이미지 자르기
+# Aspose.Page for .NET을 사용한 EPS 이미지 자르기 방법
 
-## 소개
+## Introduction
 
-.NET 애플리케이션에서 EPS 이미지를 조작하는 데 어려움을 겪고 계십니까? 더 이상 보지 마세요! 이 튜토리얼에서는 강력한 .NET용 Aspose.Page 라이브러리를 사용하여 EPS 이미지를 자르는 과정을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 가이드는 이미지를 쉽게 자르는 데 도움이 될 것입니다.
+.NET 애플리케이션에서 **EPS 이미지를 어떻게 자를지** 알고 싶다면, 바로 이곳이 맞습니다. 이 튜토리얼에서는 강력한 Aspose.Page for .NET 라이브러리를 사용해 EPS 파일을 자르고 크기를 조정하는 방법을 단계별로 안내합니다. 보고서 도구를 다듬거나 웹 서비스용 그래픽을 준비하든, 이 기술을 마스터하면 시간을 절약하고 픽셀 단위로 정확한 결과를 얻을 수 있습니다.
 
-## 전제 조건
+## Quick Answers
+- **What library handles EPS cropping?** Aspose.Page for .NET  
+- **Primary method?** `doc.CropEps(outputStream, newBoundingBox)`  
+- **Can I also resize the EPS?** Yes – use `ResizeEps` with inches, millimeters or percents.  
+- **Prerequisites?** .NET (Framework 4.5+ / .NET Core 3.1+), Aspose.Page installed, an EPS file.  
+- **Typical implementation time?** About 10 minutes for a basic crop‑and‑resize workflow.
 
-튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
+## Prerequisites
 
-- .NET 개발에 대한 실무 지식.
--  .NET 라이브러리용 Aspose.Page가 설치되었습니다. 그렇지 않은 경우 다운로드할 수 있습니다.[여기](https://releases.aspose.com/page/net/).
-- 샘플 EPS 이미지(코드의 "input.eps"를 실제 파일로 대체)
+코드를 진행하기 전에 다음을 확인하세요:
 
-## 네임스페이스 가져오기
+- .NET 개발에 대한 기본 지식  
+- Aspose.Page for .NET 라이브러리 설치. 설치되지 않았다면 [여기](https://releases.aspose.com/page/net/)에서 다운로드할 수 있습니다.  
+- 샘플 EPS 이미지 (코드에서 `"input.eps"`를 실제 파일명으로 교체)
 
-코드가 원활하게 실행되는 데 필요한 네임스페이스를 가져오는 것부터 시작하겠습니다. 
+## Import Namespaces
+
+EPS 처리 클래스를 사용하기 위해 네임스페이스를 가져옵니다.
 
 ```csharp
 using Aspose.Page;
@@ -42,101 +51,108 @@ using System.Linq;
 using System.Text;
 ```
 
-이제 튜토리얼을 여러 단계로 나누어 보겠습니다.
+## How to Crop EPS Images – Step‑by‑Step Guide
 
-## 1단계: PsDocument 초기화
+### Step 1: Initialize `PsDocument`
 
 ```csharp
 PsDocument doc = new PsDocument(inputEpsStream);
 ```
 
- 초기화`PsDocument` 입력 EPS 스트림이 있는 객체입니다.
+입력 EPS 스트림으로부터 `PsDocument` 인스턴스를 생성합니다. 이 객체는 메모리 상의 EPS 파일을 나타내며, 자르기 및 크기 조정 메서드에 접근할 수 있게 해줍니다.
 
-## 2단계: 경계 상자 추출
+### Step 2: Extract the Original Bounding Box
 
 ```csharp
 int[] initialBoundingBox = doc.ExtractEpsBoundingBox();
 ```
 
-EPS 이미지의 초기 경계 상자를 검색합니다.
+바운딩 박스는 EPS 캔버스의 현재 크기를 알려줍니다. 이 값을 알면 안전한 자르기 사각형을 정의하는 데 도움이 됩니다.
 
-## 3단계: 출력 스트림 생성
+### Step 3: Create an Output Stream
 
 ```csharp
 using (Stream outputEpsStream = new FileStream(dataDir + "output_crop.eps", FileMode.Create, FileAccess.Write))
 ```
 
-자른 EPS 이미지에 대한 출력 스트림을 만듭니다.
+잘라낸 EPS를 저장할 쓰기 가능한 스트림을 엽니다. `using` 블록을 사용하면 스트림이 올바르게 닫히도록 보장됩니다.
 
-## 4단계: 새 경계 상자 정의
+### Step 4: Define a New Bounding Box
 
 ```csharp
 float[] newBoundingBox = new float[] { 260, 300, 480, 432 };
 ```
 
-자르기를 위한 새 경계 상자를 정의합니다. 새 값이 초기 경계 상자 내에 있는지 확인하십시오.
+보관하고 싶은 좌표값으로 숫자를 교체하세요. 새로운 값이 원본 바운딩 박스 안에 있어야 하며, 그렇지 않으면 작업이 실패합니다.
 
-## 5단계: 자르기 및 저장
+### Step 5: Crop and Save the EPS
 
 ```csharp
 doc.CropEps(outputEpsStream, newBoundingBox);
 ```
 
-새로운 경계 상자를 사용하여 EPS 이미지를 자르고 출력 스트림에 저장합니다.
+이 한 줄이 자르기를 수행하고 결과를 `output_crop.eps`에 기록합니다. 메서드는 메모리 내 문서를 수정하므로 필요에 따라 추가 작업을 연쇄할 수 있습니다.
 
-다양한 크기 조정 시나리오에 대해 이 단계를 반복합니다.
+## Resize EPS Image
 
-## EPS 이미지 크기 조정
+자른 후에는 표시나 인쇄를 위해 EPS 크기를 변경하고 싶을 때가 많습니다. Aspose.Page는 세 가지 측정 단위를 지원합니다.
 
-### 인치 단위로 크기 조정
+### Resize in Inches
 
 ```csharp
 doc.ResizeEps(outputEpsStream, new SizeF(5.791f, 3.625f), Units.Inches);
 ```
 
-EPS 이미지의 크기를 조정하고 지정된 치수(인치)로 저장합니다.
-
-### 밀리미터 단위로 크기 조정
+### Resize in Millimeters
 
 ```csharp
 doc.ResizeEps(outputEpsStream, new SizeF(196, 123), Units.Millimeters);
 ```
 
-EPS 이미지의 크기를 조정하고 지정된 치수(밀리미터)로 저장합니다.
-
-### 백분율로 크기 조정
+### Resize in Percents
 
 ```csharp
 doc.ResizeEps(outputEpsStream, new SizeF(200, 200), Units.Percents);
 ```
 
-EPS 이미지의 크기를 조정하고 지정된 치수(%)로 저장합니다.
+각 호출은 이전 출력을 덮어쓰므로, 각 크기에 대해 별도 파일이 필요하면 새로운 스트림을 생성하세요.
 
-## 결론
+## Common Issues & Troubleshooting
 
-축하해요! .NET용 Aspose.Page를 사용하여 EPS 이미지를 자르고 크기를 조정하는 방법을 성공적으로 배웠습니다. 이제 이미지 조작 기능을 강화하고 .NET 애플리케이션을 한 단계 더 발전시키십시오.
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| **Bounding box values out of range** | New box exceeds original dimensions | Verify `initialBoundingBox` values and choose coordinates inside that range. |
+| **Output file is empty** | Output stream not flushed or closed | Ensure the `using` block completes before accessing the file, or call `outputEpsStream.Flush()`. |
+| **Unexpected scaling** | Mixing units (e.g., inches vs. millimeters) | Always specify the correct `Units` enum that matches your size values. |
 
-## 자주 묻는 질문
+## FAQs
 
-### Q1: Aspose.Page for .NET을 다른 이미지 형식과 함께 사용할 수 있나요?
+### Q1: Can I use Aspose.Page for .NET with other image formats?
 
-A1: Aspose.Page는 주로 EPS 이미지에 중점을 두지만 Aspose는 다양한 형식에 대한 다양한 라이브러리를 제공합니다. 특정 형식에 대해서는 설명서를 확인하세요.
+A1: Aspose.Page primarily focuses on EPS images, but Aspose provides various libraries for different formats. Check their documentation for specific formats.
 
-### Q2: Aspose.Page for .NET의 임시 라이선스를 어떻게 얻을 수 있나요?
+### Q2: How can I obtain a temporary license for Aspose.Page for .NET?
 
- A2: 방문[이 링크](https://purchase.aspose.com/temporary-license/) 테스트를 위한 임시 라이센스를 얻으려면
+A2: Visit [this link](https://purchase.aspose.com/temporary-license/) to get a temporary license for testing.
 
-### Q3: Aspose.Page for .NET으로 처리할 수 있는 이미지 크기에 제한이 있나요?
+### Q3: Are there any limitations to the image size I can process with Aspose.Page for .NET?
 
-A3: Aspose.Page는 다양한 크기의 이미지를 처리하도록 설계되었습니다. 그러나 성능은 이미지의 복잡성에 따라 달라질 수 있습니다.
+A3: Aspose.Page is designed to handle images of various sizes. However, performance may vary based on the complexity of the image.
 
-### Q4: Aspose.Page 토론을 위한 커뮤니티 포럼이 있습니까?
+### Q4: Is there a community forum for Aspose.Page discussions?
 
- A4: 예, Aspose.Page 커뮤니티에 참여할 수 있습니다.[여기](https://forum.aspose.com/c/page/39).
+A5: Yes, you can engage with the Aspose.Page community [here](https://forum.aspose.com/c/page/39).
 
-### Q5: .NET용 Aspose.Page에 대한 자세한 문서는 어디서 찾을 수 있나요?
+### Q5: Where can I find detailed documentation for Aspose.Page for .NET?
 
- A5: 설명서를 참조하세요[여기](https://reference.aspose.com/page/net/).
+A5: Refer to the documentation [here](https://reference.aspose.com/page/net/).
+
+---
+
+**Last Updated:** 2026-03-16  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

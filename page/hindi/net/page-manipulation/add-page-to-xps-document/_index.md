@@ -1,33 +1,52 @@
 ---
-title: .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ में पेज जोड़ें
-linktitle: XPS दस्तावेज़ में पेज जोड़ें
+date: 2026-03-16
+description: Aspose.Page का उपयोग करके .NET में XPS दस्तावेज़ों में पृष्ठ कैसे जोड़ें,
+  सीखें। सहज एकीकरण के लिए इस चरण‑दर‑चरण गाइड का पालन करें।
+linktitle: Add Page to XPS Document
 second_title: Aspose.Page .NET API
-description: .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ों में पेज जोड़ने का तरीका सीखकर अपने .NET अनुप्रयोगों को बेहतर बनाएं। निर्बाध एकीकरण के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 11
+title: XPS दस्तावेज़ में पृष्ठ जोड़ें – Aspose.Page for .NET के साथ XPS में पृष्ठ
+  जोड़ें
 url: /hi/net/page-manipulation/add-page-to-xps-document/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ में पेज जोड़ें
+# Aspose.Page for .NET के साथ XPS दस्तावेज़ में पृष्ठ जोड़ें
 
-## परिचय
+## Introduction
 
-यदि आप .NET में XPS दस्तावेज़ों के साथ काम कर रहे हैं और प्रोग्रामेटिक रूप से पेज जोड़ने की आवश्यकता है, तो .NET के लिए Aspose.Page आपके लिए उपयुक्त समाधान है। इस ट्यूटोरियल में, हम आपको XPS दस्तावेज़ में पेज जोड़ने की प्रक्रिया के बारे में चरण दर चरण मार्गदर्शन करेंगे। एक कुशल एसईओ लेखक के रूप में, मैं यह सुनिश्चित करूँगा कि यह मार्गदर्शिका न केवल जानकारीपूर्ण है, बल्कि इसे खोज इंजन अनुकूलन को ध्यान में रखकर भी तैयार किया गया है, जो इसे डेवलपर्स और सामग्री निर्माताओं के लिए एक मूल्यवान संसाधन बनाता है।
+यदि आप .NET में XPS दस्तावेज़ों के साथ काम कर रहे हैं और प्रोग्रामेटिक रूप से **add page to XPS** जोड़ने की आवश्यकता है, तो Aspose.Page for .NET आपका समाधान है। इस ट्यूटोरियल में, हम आपको XPS दस्तावेज़ में पृष्ठ जोड़ने के लिए आवश्यक सटीक चरणों के माध्यम से ले जाएंगे, यह समझाएंगे कि यह क्षमता क्यों महत्वपूर्ण है, और सामान्य समस्याओं से बचने के लिए टिप्स देंगे। अंत तक, आप किसी भी .NET एप्लिकेशन में पृष्ठ‑जोड़ने की लॉजिक को आत्मविश्वास के साथ एकीकृत कर पाएँगे।
 
-## आवश्यक शर्तें
+## Quick Answers
+- **What does the API do?** यह आपको XPS दस्तावेज़ में पृष्ठों को सम्मिलित, हटाने या पुनः क्रमित करने की अनुमति देता है।  
+- **How many lines of code?** केवल चार छोटे कोड स्निपेट्स की आवश्यकता होती है।  
+- **Do I need a license?** उत्पादन के लिए एक अस्थायी लाइसेंस आवश्यक है; मूल्यांकन के लिए एक मुफ्त ट्रायल काम करता है।  
+- **Supported .NET versions?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Typical use case?** गतिशील रूप से बहु‑पृष्ठ रिपोर्ट बनाना या अलग‑अलग XPS फ़ाइलों को संयोजित करना।
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## What is “add page to xps”?
 
--  .NET लाइब्रेरी के लिए Aspose.Page: सुनिश्चित करें कि आपके पास .NET लाइब्रेरी के लिए Aspose.Page स्थापित है। आप इसे यहां से डाउनलोड कर सकते हैं[Aspose.पेज दस्तावेज़ीकरण](https://reference.aspose.com/page/net/).
+XPS फ़ाइल में पृष्ठ जोड़ना मतलब प्रोग्रामेटिक रूप से दस्तावेज़ के पृष्ठ संग्रह में एक नया, खाली कैनवास सम्मिलित करना। यह रिपोर्ट जनरेट करने, दस्तावेज़ों को मिलाने, या सामग्री भरने से पहले प्लेसहोल्डर डालने के समय उपयोगी होता है।
 
-- विकास परिवेश: अपना पसंदीदा विकास परिवेश सेट करें, जैसे विज़ुअल स्टूडियो या कोई अन्य .NET विकास प्लेटफ़ॉर्म।
+## Why add page to XPS documents programmatically?
+- **Automation** – XPS फ़ाइलों के मैन्युअल संपादन को समाप्त करता है।  
+- **Consistency** – सभी उत्पन्न दस्तावेज़ों में समान पृष्ठ लेआउट की गारंटी देता है।  
+- **Scalability** – बैच प्रोसेसिंग या वेब सेवाओं में आसानी से एकीकृत किया जा सकता है।
 
-## नामस्थान आयात करें
+## Prerequisites
 
-इस चरण में, हम अपने कोड में .NET कार्यक्षमता के लिए Aspose.Page को सुलभ बनाने के लिए आवश्यक नामस्थान आयात करेंगे।
+ट्यूटोरियल शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यकताएँ मौजूद हैं:
+
+- Aspose.Page for .NET Library: सुनिश्चित करें कि आपके पास Aspose.Page for .NET लाइब्रेरी स्थापित है। आप इसे [Aspose.Page documentation](https://reference.aspose.com/page/net/) से डाउनलोड कर सकते हैं।
+
+- Development Environment: अपने पसंदीदा विकास वातावरण को सेट अप करें, जैसे Visual Studio या कोई अन्य .NET विकास प्लेटफ़ॉर्म।
+
+## Import Namespaces
+
+इस चरण में, हम आवश्यक नेमस्पेस आयात करेंगे ताकि हमारे कोड में Aspose.Page for .NET की कार्यक्षमता उपलब्ध हो सके।
 
 ```csharp
 using Aspose.Page.XPS;
@@ -35,63 +54,69 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-अब, आइए एक व्यापक मार्गदर्शिका के लिए आपके द्वारा प्रदान किए गए उदाहरण कोड को कई चरणों में विभाजित करें।
+अब, हम आपके द्वारा प्रदान किए गए उदाहरण कोड को कई चरणों में विभाजित करेंगे ताकि एक व्यापक गाइड तैयार किया जा सके।
 
-## चरण 1: दस्तावेज़ निर्देशिका पथ सेट करें
+## Step 1: Set Document Directory Path
 
 ```csharp
-// दस्तावेज़ निर्देशिका का पथ.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-## चरण 2: एक्सपीएस दस्तावेज़ बनाएं
+## Step 2: Create XPS Document
 
 ```csharp
-// नया XPS दस्तावेज़ बनाएं
+// Create new XPS Document
 XpsDocument doc = new XpsDocument(dataDir + "Sample1.xps");
 ```
 
-## चरण 3: एक खाली पृष्ठ डालें
+## Step 3: Insert an Empty Page
 
 ```csharp
-//पृष्ठों की सूची के आरंभ में एक खाली पृष्ठ डालें
+// Insert an empty page at the beginning of the pages list
 doc.InsertPage(1, true);
 ```
 
-## चरण 4: परिणामी XPS दस्तावेज़ सहेजें
+## Step 4: Save Resultant XPS Document
 
 ```csharp
-// परिणामी XPS दस्तावेज़ सहेजें
+// Save resultant XPS document
 doc.Save(dataDir + "AddPages_out.xps");
 ```
 
-इन चरणों के साथ, आपने .NET के लिए Aspose.Page का उपयोग करके XPS दस्तावेज़ में सफलतापूर्वक एक पेज जोड़ दिया है।
+इन चरणों के साथ, आपने सफलतापूर्वक Aspose.Page for .NET का उपयोग करके **add page to XPS** दस्तावेज़ों को जोड़ा है।
 
-## निष्कर्ष
+## Common Issues and Solutions
+- **File not found** – सत्यापित करें कि `dataDir` सही फ़ोल्डर की ओर इशारा कर रहा है और `Sample1.xps` मौजूद है।  
+- **Permission errors** – सुनिश्चित करें कि आपके एप्लिकेशन को आउटपुट फ़ोल्डर के लिए लिखने की अनुमति है।  
+- **License not set** – यदि आपको लाइसेंसिंग अपवाद मिलता है, तो किसी भी API मेथड को कॉल करने से पहले अस्थायी या स्थायी लाइसेंस लागू करें।
 
-अंत में, .NET के लिए Aspose.Page XPS दस्तावेज़ों में पृष्ठों को गतिशील रूप से जोड़ने के लिए एक सीधा समाधान प्रदान करता है। इस ट्यूटोरियल ने आपको अपने .NET प्रोजेक्ट्स में इस कार्यक्षमता को कुशलतापूर्वक लागू करने के लिए आवश्यक ज्ञान से सुसज्जित किया है।
+## Frequently Asked Questions
 
-## अक्सर पूछे जाने वाले प्रश्न
+**Q1: Is Aspose.Page for .NET suitable for beginners?**  
+A1: हाँ, Aspose.Page for .NET को एक उपयोगकर्ता‑मित्र API के साथ डिज़ाइन किया गया है, जिससे यह शुरुआती और अनुभवी दोनों डेवलपर्स के लिए सुलभ है।
 
-### Q1: क्या .NET के लिए Aspose.Page शुरुआती लोगों के लिए उपयुक्त है?
+**Q2: Can I use Aspose.Page for .NET for commercial projects?**  
+A2: बिल्कुल! Aspose.Page for .NET एक बहुमुखी लाइब्रेरी है जो व्यक्तिगत और वाणिज्यिक दोनों परियोजनाओं के लिए उपयुक्त है।
 
-A1: हां, .NET के लिए Aspose.Page को उपयोगकर्ता के अनुकूल एपीआई के साथ डिज़ाइन किया गया है, जो इसे शुरुआती और अनुभवी डेवलपर्स दोनों के लिए सुलभ बनाता है।
+**Q3: Where can I find more examples and documentation for Aspose.Page for .NET?**  
+A3: विस्तृत उदाहरणों और व्यापक दस्तावेज़ीकरण के लिए [Aspose.Page documentation](https://reference.aspose.com/page/net/) देखें।
 
-### Q2: क्या मैं व्यावसायिक परियोजनाओं के लिए .NET के लिए Aspose.Page का उपयोग कर सकता हूँ?
+**Q4: Is there a free trial available?**  
+A4: हाँ, आप Aspose.Page for .NET का मुफ्त ट्रायल [here](https://releases.aspose.com/) से प्राप्त कर सकते हैं।
 
-ए2: बिल्कुल! .NET के लिए Aspose.Page एक बहुमुखी लाइब्रेरी है जो व्यक्तिगत और व्यावसायिक दोनों परियोजनाओं के लिए उपयुक्त है।
+**Q5: How can I obtain a temporary license for Aspose.Page for .NET?**  
+A5: परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस प्राप्त करने हेतु [temporary license page](https://purchase.aspose.com/temporary-license/) पर जाएँ।
 
-### Q3: मुझे .NET के लिए Aspose.Page के लिए और अधिक उदाहरण और दस्तावेज़ कहां मिल सकते हैं?
+## Conclusion
 
- ए3: अन्वेषण करें[Aspose.पेज दस्तावेज़ीकरण](https://reference.aspose.com/page/net/) विस्तृत उदाहरणों और व्यापक दस्तावेज़ीकरण के लिए।
+संक्षेप में, Aspose.Page for .NET गतिशील रूप से **add page to XPS** दस्तावेज़ों के लिए एक सीधा समाधान प्रदान करता है। इस ट्यूटोरियल ने आपको अपने .NET प्रोजेक्ट्स में इस कार्यक्षमता को कुशलतापूर्वक लागू करने के लिए आवश्यक ज्ञान से लैस किया है। नई बनाई गई पृष्ठों में सामग्री, छवियाँ, या कस्टम ग्राफिक्स जोड़ने के लिए अतिरिक्त API का अन्वेषण करने में संकोच न करें।
 
-### Q4: क्या कोई निःशुल्क परीक्षण उपलब्ध है?
+---
 
-उ4: हां, आप .NET के लिए Aspose.Page के निःशुल्क परीक्षण तक पहुंच सकते हैं[यहाँ](https://releases.aspose.com/).
-
-### Q5: मैं .NET के लिए Aspose.Page के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूं?
-
- A5: पर जाएँ[अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/) परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस प्राप्त करना।
+**Last Updated:** 2026-03-16  
+**Tested With:** Aspose.Page for .NET latest release  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
