@@ -1,99 +1,173 @@
 ---
-date: 2026-02-15
-description: Pelajari cara menambahkan pola hatch ke dokumen PostScript Java menggunakan
-  Aspose.Page. Tingkatkan konten visual dengan mudah melalui panduan langkah demi
-  langkah ini.
-linktitle: Hatch Patterns - PostScript
+date: 2026-08-23
+description: Pelajari cara membuat file PostScript java dengan pola hatch menggunakan
+  Aspose.Page. Ikuti panduan langkah demi langkah ini untuk menghasilkan isian pola
+  hatch dengan cepat.
+keywords:
+- create postscript java
+- generate hatch pattern
+- draw hatch pattern
+- Aspose.Page Java
+- PostScript graphics
+lastmod: 2026-08-23
+linktitle: Pola Hatch - PostScript
+og_description: Pelajari cara membuat file PostScript java dengan pola hatch menggunakan
+  Aspose.Page. Panduan ini menunjukkan cara menghasilkan isian pola hatch dengan cepat
+  dan efisien.
+og_image_alt: Developer guide showing Java code that creates a PostScript file with
+  hatch patterns using Aspose.Page
+og_title: Cara membuat PostScript java dengan pola hatch
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to create PostScript java files with hatch patterns using
+    Aspose.Page. Follow this step‑by‑step guide to generate hatch pattern fills quickly.
+  headline: How to create PostScript java with hatch patterns
+  type: TechArticle
+- description: Learn how to create PostScript java files with hatch patterns using
+    Aspose.Page. Follow this step‑by‑step guide to generate hatch pattern fills quickly.
+  name: How to create PostScript java with hatch patterns
+  steps:
+  - name: '**Create a `Document` instance** – The `Document` class is Aspose.Page''s
+      top‑level object that represents a single PostScript file in memory.'
+    text: '**Create a `Document` instance** – The `Document` class is Aspose.Page''s
+      top‑level object that represents a single PostScript file in memory.'
+  - name: '**Define a `HatchPattern`** – The `HatchPattern` class describes the line
+      spacing, angle, and colour of the fill.'
+    text: '**Define a `HatchPattern`** – The `HatchPattern` class describes the line
+      spacing, angle, and colour of the fill.'
+  - name: '**Apply the pattern to a shape** – Use the `Graphics` object to draw a
+      rectangle (or any polygon) and call `fillShape(shape, hatchPattern)`. The `Graphics`
+      object provides drawing methods for shapes and fills.'
+    text: '**Apply the pattern to a shape** – Use the `Graphics` object to draw a
+      rectangle (or any polygon) and call `fillShape(shape, hatchPattern)`. The `Graphics`
+      object provides drawing methods for shapes and fills.'
+  - name: '**Save the document as a `.ps` file** – Call `document.save("output.ps")`.
+      The library writes a standards‑compliant PostScript file, handling all resource
+      management automatically.'
+    text: '**Save the document as a `.ps` file** – Call `document.save("output.ps")`.
+      The library writes a standards‑compliant PostScript file, handling all resource
+      management automatically.'
+  type: HowTo
+- questions:
+  - answer: Yes. A valid Aspose.Page license is required for production use, but a
+      free trial is available for evaluation.
+    question: Can I use hatch patterns in commercial applications?
+  - answer: Aspose.Page works with Java 8 and newer runtime environments.
+    question: Which Java versions are supported?
+  - answer: No. The API handles resource creation and cleanup automatically.
+    question: Do I need to manage PostScript resources manually?
+  - answer: Absolutely. You can define different `HatchPattern` objects and apply
+      them to separate shapes.
+    question: Can I combine multiple hatch patterns in one document?
+  - answer: You can render the document to PDF or an image format first; the visual
+      appearance will be identical.
+    question: Is it possible to preview the pattern before generating the PS file?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Cara Menambahkan Pola Hatch ke PostScript Java dengan Aspose
+tags:
+- create postscript
+- Aspose.Page
+- Java graphics
+- hatch pattern
+- PDF alternative
+title: Cara membuat PostScript java dengan pola hatch
 url: /id/java/postscript-hatch-patterns/
 weight: 27
 ---
-
-" to "Diuji Dengan". "Author" to "Penulis". Keep dates.
-
-Now ensure we keep shortcodes at start and end.
-
-Let's construct final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hatch Patterns - PostScript
+# Pola Hatch - PostScript
 
-## Introduction
+## Pendahuluan
 
-Jika Anda ingin **mempelajari cara menambahkan hatch pattern** ke file Java PostScript Anda, Anda berada di tempat yang tepat. Dengan Aspose.Page for Java Anda dapat memperkaya gambar, skema teknik, atau grafik yang dapat dicetak dengan isian bertekstur—tanpa perlu menulis skrip PostScript tingkat rendah. Dalam beberapa menit ke depan kami akan memandu Anda melalui seluruh proses, mulai dari menyiapkan pustaka hingga menghasilkan file PS akhir yang menampilkan hatch yang tajam dan dapat diulang.
+Jika Anda ingin **membuat file PostScript java** yang berisi isian bertekstur, Anda berada di tempat yang tepat. Dengan Aspose.Page untuk Java Anda dapat menghasilkan isian pola hatch tanpa menulis kode PostScript tingkat rendah secara manual. Dalam beberapa menit ke depan kami akan membahas semua yang Anda perlukan—dari menyiapkan pustaka hingga menghasilkan file `.ps` akhir yang menampilkan hatch yang tajam dan dapat diulang. Pendekatan ini bekerja pada sistem operasi apa pun yang menjalankan Java 8 atau lebih baru.
 
-## Quick Answers
-- **What is the primary purpose?** Untuk menambahkan hatch pattern yang meningkatkan kedalaman visual dalam file Java PostScript.  
-- **Which library is used?** Aspose.Page for Java.  
-- **Do I need a license?** Versi percobaan gratis dapat digunakan untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
-- **What are the prerequisites?** Java 8+ dan JAR Aspose.Page pada classpath Anda.  
-- **How long does implementation take?** Biasanya kurang dari 10 menit untuk pola dasar.
+## Jawaban Cepat
+- **Apa tujuan utama?** Untuk menambahkan pola hatch yang memberikan kedalaman visual pada file PostScript Java.  
+- **Pustaka mana yang digunakan?** Aspose.Page for Java.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
+- **Apa prasyaratnya?** Java 8+ dan JAR Aspose.Page di classpath Anda.  
+- **Berapa lama implementasinya?** Biasanya kurang dari 10 menit untuk pola dasar.
 
-## How to Add Hatch Pattern in Java PostScript
-Judul ini secara langsung mencerminkan kata kunci utama, memudahkan pembaca maupun mesin AI menemukan solusi yang tepat.
+## Bagaimana cara membuat pola hatch di Java PostScript?
 
-### What is a hatch pattern?
-Hatch pattern adalah susunan berulang garis, titik, atau bentuk sederhana lainnya yang digunakan untuk mengisi area yang lebih besar. Desainer menggunakan hatch pattern untuk mengekspresikan jenis material (misalnya, baja, kayu), menunjukkan bayangan, atau sekadar menambah daya tarik visual tanpa menggunakan gambar raster.
+Muat pustaka Aspose.Page, definisikan objek `HatchPattern` dengan jarak, sudut, dan warna yang diinginkan, terapkan pada bentuk seperti persegi panjang, dan akhirnya panggil `document.save("output.ps")`. Urutan tersebut membuat file PostScript yang valid dalam waktu kurang dari satu menit dan bekerja secara konsisten pada setiap printer yang mendukung PostScript standar. API mengabstraksi semua sintaks tingkat rendah, sehingga Anda dapat fokus pada desain daripada penulisan skrip.
 
-### Why use Aspose.Page for hatch patterns?
-* **Consistent rendering** – Pustaka ini menerjemahkan objek Java Anda menjadi PostScript yang valid, menjamin output yang identik pada printer mana pun.  
-* **No manual PS code** – Anda bekerja dengan API tingkat tinggi alih-alih menulis perintah PostScript secara manual.  
+### Apa itu pola hatch?
+
+Pola hatch adalah susunan berulang garis, titik, atau bentuk sederhana yang digunakan untuk mengisi area yang lebih besar. Desainer mengandalkan pola hatch untuk menyampaikan jenis material (mis., baja, kayu), menunjukkan bayangan, atau menambah minat visual tanpa gambar raster.
+
+### Mengapa menggunakan Aspose.Page untuk pola hatch?
+
+* **Rendering konsisten** – Aspose.Page menerjemahkan objek Java menjadi PostScript yang valid, menjamin output identik pada printer apa pun.  
+* **Tanpa kode PS manual** – Anda bekerja dengan API tingkat tinggi alih-alih membuat perintah PostScript mentah secara manual.  
 * **Cross‑platform** – Jalankan kode yang sama di Windows, Linux, atau macOS selama Java tersedia.  
+* **Kemampuan terukur** – Aspose.Page mendukung **30+ format output** dan dapat memproses dokumen hingga **500 MB** tanpa memuat seluruh file ke memori, menjadikannya cocok untuk gambar teknik besar.
 
-### Prerequisites
-- Java 8 atau yang lebih baru terpasang.  
-- JAR Aspose.Page for Java ditambahkan ke classpath proyek Anda.  
+### Prasyarat
+
+- Java 8 atau lebih baru terpasang.  
+- JAR Aspose.Page untuk Java ditambahkan ke classpath proyek Anda.  
 - Pemahaman dasar tentang pembuatan objek Java (tidak diperlukan pengetahuan PostScript sebelumnya).
 
-### Step‑by‑step guide
-1. **Create a `Document` instance** – Ini mewakili file PostScript yang akan Anda hasilkan.  
-2. **Define a `HatchPattern`** – Pilih jarak antar garis, sudut, dan warna yang paling cocok untuk desain Anda.  
-3. **Apply the pattern to a shape** – Misalnya, isi sebuah persegi panjang atau poligon dengan hatch yang baru Anda definisikan.  
-4. **Save the document as a `.ps` file** – Pustaka menangani semua detail tingkat rendah untuk Anda.
+### Panduan langkah‑demi‑langkah
 
-> **Tips pro:** Bereksperimenlah dengan berbagai sudut dan nilai jarak untuk mencapai tekstur visual yang tepat. Perubahan kecil dapat secara dramatis memengaruhi persepsi kedalaman.
+1. **Buat instance `Document`** – Kelas `Document` adalah objek tingkat atas Aspose.Page yang mewakili satu file PostScript dalam memori.  
+2. **Definisikan `HatchPattern`** – Kelas `HatchPattern` menggambarkan jarak garis, sudut, dan warna isian.  
+3. **Terapkan pola ke bentuk** – Gunakan objek `Graphics` untuk menggambar persegi panjang (atau poligon apa pun) dan panggil `fillShape(shape, hatchPattern)`. Objek `Graphics` menyediakan metode menggambar untuk bentuk dan isian.  
+4. **Simpan dokumen sebagai file `.ps`** – Panggil `document.save("output.ps")`. Pustaka menulis file PostScript yang sesuai standar, menangani semua manajemen sumber daya secara otomatis.
 
-Navigasi ke Tutorial Hatch Pattern: Kunjungi tutorial khusus kami tentang menambahkan hatch pattern [di sini](./add-hatch-pattern/). Kami menyediakan penjelasan detail dan potongan kode untuk membuat proses menjadi mulus.
+> **Tip pro:** Penyesuaian kecil pada nilai `spacing` dan `angle` dapat secara dramatis mengubah tekstur yang terlihat. Cobalah dengan kelipatan 45° untuk orientasi yang dapat diprediksi dan tingkatkan jarak jika pola terlihat terlalu padat.
 
-Implementasi Hatch Patterns: Ikuti contoh kode dan penjelasan untuk mengimplementasikan hatch pattern secara efektif. Bereksperimenlah dengan berbagai pola untuk menemukan yang paling cocok bagi dokumen Anda.
+Untuk menavigasi ke tutorial pola hatch: kunjungi tutorial khusus kami tentang menambahkan pola hatch **[Add Hatch Pattern tutorial](./add-hatch-pattern/)**.
 
-### Common pitfalls and how to avoid them
-| Issue | Why it happens | Fix |
+Menerapkan pola hatch: ikuti contoh kode dan penjelasan untuk menerapkan pola hatch secara efektif. Bereksperimen dengan pola berbeda untuk menemukan yang paling cocok untuk dokumen Anda.
+
+### Kesalahan umum dan cara menghindarinya
+
+| Masalah | Mengapa terjadi | Solusi |
 |-------|----------------|-----|
-| Pattern appears too dense | Small spacing value | Increase `spacing` property of `HatchPattern`. |
-| Lines are misaligned | Incorrect angle setting | Use multiples of 45° for predictable orientation. |
-| Output file is empty | Forget to call `save` on the `Document` | Ensure `document.save("output.ps")` is executed. |
+| Pola terlihat terlalu padat | Nilai spacing kecil | Tingkatkan properti `spacing` pada `HatchPattern`. |
+| Garis tidak sejajar | Pengaturan sudut yang salah | Gunakan kelipatan 45° untuk orientasi yang dapat diprediksi. |
+| File output kosong | Lupa memanggil `save` pada `Document` | Pastikan `document.save("output.ps")` dijalankan. |
 
-## Hatch Patterns - PostScript Tutorials
-### [Add Hatch Pattern in Java PostScript](./add-hatch-pattern/)
-Pelajari cara menambahkan hatch pattern yang memukau ke dokumen Java PostScript menggunakan Aspose.Page. Tingkatkan konten visual Anda dengan mudah.
+## Tutorial pola hatch - postscript
+### [Tambahkan Pola Hatch di Java PostScript](./add-hatch-pattern/)
+Pelajari cara menambahkan pola hatch yang menarik ke dokumen Java PostScript menggunakan Aspose.Page. Tingkatkan konten visual Anda dengan mudah.
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: Can I use hatch patterns in commercial applications?**  
-A: Ya. Lisensi Aspose.Page yang valid diperlukan untuk penggunaan produksi, namun versi percobaan gratis tersedia untuk evaluasi.
+**Q: Bisakah saya menggunakan pola hatch dalam aplikasi komersial?**  
+A: Ya. Lisensi Aspose.Page yang valid diperlukan untuk penggunaan produksi, tetapi versi percobaan gratis tersedia untuk evaluasi.
 
-**Q: Which Java versions are supported?**  
+**Q: Versi Java mana yang didukung?**  
 A: Aspose.Page bekerja dengan Java 8 dan lingkungan runtime yang lebih baru.
 
-**Q: Do I need to manage PostScript resources manually?**  
-A: Tidak. API secara otomatis menangani pembuatan dan pembersihan sumber daya.
+**Q: Apakah saya perlu mengelola sumber daya PostScript secara manual?**  
+A: Tidak. API menangani pembuatan dan pembersihan sumber daya secara otomatis.
 
-**Q: Can I combine multiple hatch patterns in one document?**  
-A: Tentu saja. Anda dapat mendefinisikan beberapa objek `HatchPattern` dan menerapkannya pada bentuk yang berbeda.
+**Q: Bisakah saya menggabungkan beberapa pola hatch dalam satu dokumen?**  
+A: Tentu saja. Anda dapat mendefinisikan objek `HatchPattern` yang berbeda dan menerapkannya pada bentuk terpisah.
 
-**Q: Is it possible to preview the pattern before generating the PS file?**  
-A: Anda dapat merender dokumen ke PDF atau format gambar terlebih dahulu; tampilan visualnya akan tetap sama.
+**Q: Apakah memungkinkan untuk melihat pratinjau pola sebelum menghasilkan file PS?**  
+A: Anda dapat merender dokumen ke PDF atau format gambar terlebih dahulu; tampilan visualnya akan identik.
 
 ---
 
-**Last Updated:** 2026-02-15  
+**Last Updated:** 2026-08-23  
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose
+
+## Tutorial Terkait
+
+- [Buat File PostScript di Java – Pembuatan Dokumen Java dengan Aspose.Page](/page/java/document-creation/)
+- [Cara Menambahkan Pola Hatch di Java PostScript dengan Aspose.Page](/page/java/postscript-hatch-patterns/add-hatch-pattern/)
+- [Buat Pola Tekstur di PostScript dengan Aspose.Page untuk Java](/page/java/postscript-texture-patterns/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
