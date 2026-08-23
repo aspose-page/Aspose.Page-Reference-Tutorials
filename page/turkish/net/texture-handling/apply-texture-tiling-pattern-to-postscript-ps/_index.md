@@ -1,34 +1,42 @@
 ---
-title: Aspose.Page ile PostScript'e (PS) Doku Döşeme Deseni Uygulama
-linktitle: PostScript'e (PS) Doku Döşeme Desenini Uygula
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page for .NET'i kullanarak PostScript (PS) belgelerinizi doku döşeme desenleriyle geliştirin. Yaratıcı bir dokunuş için adım adım kılavuzumuzu izleyin.
-weight: 10
+date: 2026-03-26
+description: Aspose.Page kullanarak .NET’te doku döşeme desenleriyle PostScript belgesi
+  oluşturmayı öğrenin. PS dosyalarınıza zengin dokular eklemek için adım adım rehberimizi
+  izleyin.
+linktitle: Create PostScript .NET document with texture tiling
+second_title: Aspose.Page .NET API
+title: Doku Döşemeli PostScript .NET Belgesi Oluştur
 url: /tr/net/texture-handling/apply-texture-tiling-pattern-to-postscript-ps/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page ile PostScript'e (PS) Doku Döşeme Deseni Uygulama
+# Doku Döşeme ile PostScript .NET Belgesi Oluşturma
 
-## giriiş
+## Doku döşeme ile PostScript belgesi .NET nasıl oluşturulur
 
-Aspose.Page for .NET kullanarak bir PostScript (PS) belgesine doku döşeme deseninin nasıl uygulanacağını anlatan bu adım adım eğitime hoş geldiniz. Aspose.Page, çeşitli belge formatlarıyla çalışmanıza olanak tanıyan güçlü bir kütüphanedir ve bu eğitimde, doku döşeme desenleri ekleyerek PS belgelerinizi nasıl geliştirebileceğinizi keşfedeceğiz.
+Bu öğreticide **PostScript belge .NET** oluşturmayı ve Aspose.Page kütüphanesini kullanarak bir doku döşeme deseniyle zenginleştirmeyi öğreneceksiniz. Projenizi kurmaktan, metni doku fırçası ile doldurup kenarlığını çizmeye kadar her adımı adım adım göstereceğiz, böylece dakikalar içinde görsel açıdan çekici PS dosyaları üretebileceksiniz.
+
+## Hızlı Yanıtlar
+- **Hangi kütüphane kullanılıyor?** Aspose.Page for .NET  
+- **.NET Core kullanabilir miyim?** Evet, kütüphane .NET Core ve .NET 5/6’yı destekler  
+- **Doku için hangi görüntü formatları çalışır?** System.Drawing tarafından desteklenen herhangi bir format (BMP, PNG, JPEG vb.)  
+- **Uygulama ne kadar sürer?** Temel bir örnek için yaklaşık 10‑15 dakika  
+- **Lisans gerekli mi?** Test için ücretsiz deneme sürümü yeterlidir; üretim için lisans gerekir  
 
 ## Önkoşullar
 
-Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+- Makinenizde yüklü [Visual Studio](https://visualstudio.microsoft.com/)  
+- C# programlamaya temel aşinalık  
+- [Aspose.Page for .NET kütüphanesini](https://releases.aspose.com/page/net/) indirin ve kurun  
+- Doku deseni için bir görüntü dosyası (ör. **TestTexture.bmp**)  
 
-- [Görsel stüdyo](https://visualstudio.microsoft.com/) makinenize kurulu.
-- Temel C# programlama bilgisi.
--  İndirip yükleyin[.NET kütüphanesi için Aspose.Page](https://releases.aspose.com/page/net/).
-- Doku deseni için bir görüntü dosyası (örneğin, "TestTexture.bmp").
+## Ad Alanlarını İçe Aktarın
 
-## Ad Alanlarını İçe Aktar
-
-C# kodunuzda gerekli ad alanlarını içe aktardığınızdan emin olun:
+C# dosyanızda, kullanacağımız türlerin nerede bulunduğunu derleyicinin bilmesi için gerekli ad alanlarını içe aktarın:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,130 +46,135 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-Süreç boyunca size rehberlik etmesi için verilen örneği birden fazla adıma ayıralım.
-
-## 1. Adım: Belge Dizinini Ayarlayın
+## Adım 1: Belge Dizinini Ayarlayın
 
 ```csharp
-// Belgeler dizininin yolu.
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
 ```
 
-"Belge Dizininiz"i, PS belgenizi kaydetmek istediğiniz yolla değiştirdiğinizden emin olun.
+**Your Document Directory** ifadesini, oluşturulan PS dosyasının kaydedileceği klasörle değiştirin.
 
-## 2. Adım: PS Belgesi için Çıktı Akışı Oluşturun
+## Adım 2: PS Belgesi İçin Çıktı Akışı Oluşturun
 
 ```csharp
-// PostScript belgesi için çıktı akışı oluşturun
+// Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "AddTextureTilingPattern_outPS.ps", FileMode.Create))
 {
-    // A4 boyutunda kaydetme seçenekleri oluşturun
+    // Create save options with A4 size
     PsSaveOptions options = new PsSaveOptions();
 
-    // Yeni 1 sayfalık PS Belgesi oluştur
+    // Create new 1-paged PS Document
     PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-Bu adım, belge boyutunun tanımlanması da dahil olmak üzere PS belgesinin çıktı akışını ayarlar.
+Bu blok bir dosya akışı açar, sayfa boyutunu (varsayılan A4) yapılandırır ve üzerine çizeceğimiz yeni bir **PsDocument** örneği oluşturur.
 
-## Adım 3: Doku Döşeme Desenini Uygulayın
+## Adım 3: Doku Döşeme Deseni Uygulayın
 
 ```csharp
-// Görüntü dosyasından bir Bitmap nesnesi oluşturun
+// Create a Bitmap object from the image file
 using (Bitmap image = new Bitmap(dataDir + "TestTexture.bmp"))
 {
-    // Görüntüden doku fırçası oluşturun
+    // Create texture brush from the image
     TextureBrush brush = new TextureBrush(image, WrapMode.Tile);
 
-    //Desene X yönünde ölçeklendirme ekleyin
+    // Add scaling in X direction to the pattern
     Matrix transform = new Matrix(2, 0, 0, 1, 0, 0);
     brush.Transform = transform;
 
-    // Bu doku fırçasını geçerli boya olarak ayarla
+    // Set this texture brush as the current paint
     document.SetPaint(brush);
 }
 ```
 
-Bu adım, bir görüntüden doku fırçası oluşturmayı ve bunu belgenin geçerli boyası olarak ayarlamayı içerir.
+Burada bitmap’i yüklüyor, bir **TextureBrush** içine sarıyor, isteğe bağlı olarak yatayda geriyor ve **PsDocument**’e sonraki çizim işlemleri için bu fırçayı kullanmasını söylüyoruz.
 
-## Adım 4: Dikdörtgen Yol Oluşturun ve Doldurun
+## Adım 4: Dikdörtgen Yolu Oluşturun ve Doldurun
 
 ```csharp
-// Dikdörtgen yol oluştur
+// Create rectangle path
 GraphicsPath path = new GraphicsPath();
 path.AddRectangle(new RectangleF(0, 0, 200, 100));
 
-// Dikdörtgeni doldur
+// Fill rectangle
 document.Fill(path);
 ```
 
-Burada dikdörtgen bir yol tanımlayıp önceden ayarladığımız doku fırçasıyla dolduruyoruz.
+Basit bir dikdörtgen tanımlanır ve önceki adımda ayarladığımız doku fırçası ile doldurulur.
 
-## Adım 5: Kontur ve Çizimi Ayarlayın
+## Adım 5: Çizgi Ayarla ve Çiz
 
 ```csharp
-// Mevcut boyayı al
+// Get current paint
 Brush paint = document.GetPaint();
 
-// Kırmızı konturu ayarla
+// Set red stroke
 document.SetStroke(new Pen(new SolidBrush(Color.Red), 2));
 
-// Dikdörtgeni konturla
+// Stroke the rectangle
 document.Draw(path);
 ```
 
-Bu adım, kontur özelliklerinin ayarlanmasını ve ana hatları çizilen dikdörtgenin çizilmesini içerir.
+Mevcut boya (doku fırçası) alınır, kenar için kırmızı bir kalem oluşturulur ve dikdörtgenin çerçevesi çizilir.
 
-## Adım 6: Metni Doku Deseniyle Doldurun ve Ana Hatlarını Belirleyin
+## Adım 6: Metni Doku Deseniyle Doldur ve Çiz
 
 ```csharp
-// Metni doku deseniyle doldurma
+// Fill text with texture pattern                
 Font font = new Font("Arial", 96, FontStyle.Bold);
 document.FillAndStrokeText("ABC", font, 200, 300, paint, new Pen(Color.Black, 2));
 
-// Doku desenli anahat metni
+// Outline text with texture pattern
 document.OutlineText("ABC", font, 200, 400, new Pen(paint, 5));
 ```
 
-Son olarak metni doku deseniyle doldurup ana hatlarını çizerek belgenizin görsel çekiciliğini artırıyoruz.
+Bu adım **metni doldur ve çiz** yeteneğini gösterir: “ABC” karakterleri doku fırçası ile doldurulur ve ardından kenarlığı çizilir, çarpıcı bir görsel etki elde edilir.
 
-## Adım 7: Belgeyi Kaydedin ve Kapatın
+## Adım 7: Belgeyi Kaydet ve Kapat
 
 ```csharp
-// Geçerli sayfayı kapat
+// Close current page
 document.ClosePage();
 
-// Belgeyi kaydet
+// Save the document
 document.Save();
 ```
 
-Değişikliklerin uygulanması için geçerli sayfayı kapattığınızdan ve belgeyi kaydettiğinizden emin olun.
+Sayfanın kapatılması çizim komutlarını sonlandırır ve `Save()` PostScript dosyasını diske yazar.
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-Tebrikler! Aspose.Page for .NET'i kullanarak PostScript belgesine doku döşeme desenini nasıl uygulayacağınızı başarıyla öğrendiniz. PS belgelerinizi daha da özelleştirmek için farklı görüntüler ve desenlerle denemeler yapın.
+- **Doku yanlış şekilde gerilmiş görünüyor** – Ölçeklemeyi X/Y yönlerinde kontrol etmek için `Matrix` değerlerini ayarlayın.  
+- **Görüntü bulunamadı** – `dataDir` değişkeninin doğru klasöre işaret ettiğinden ve dosya adının büyük/küçük harf duyarlılığıyla tam eşleştiğinden emin olun.  
+- **Renkler doğru çıkmıyor** – PostScript cihaz‑bağımsız bir renk uzayı kullanır; doğru eşleşen `Color` nesneleri kullandığınızdan emin olun.  
 
-## SSS'ler
+## Sık Sorulan Sorular
 
-### S1: Doku deseni için başka görüntü formatlarını kullanabilir miyim?
+**S:** Doku deseni için başka görüntü formatları kullanabilir miyim?  
+**C:** Evet, `System.Drawing.Bitmap` tarafından desteklenen herhangi bir format (BMP, PNG, JPEG, GIF vb.) çalışır.
 
-Cevap1: Evet, Aspose.Page çeşitli görüntü formatlarını destekler. Kütüphane belgeleriyle uyumluluğu sağlayın.
+**S:** Aspose.Page .NET Core ile uyumlu mu?  
+**C:** Kesinlikle. Kütüphane .NET Framework, .NET Core ve .NET 5/6 üzerinde çalışır.
 
-### S2: Aspose.Page .NET Core ile uyumlu mu?
+**S:** Dokulu dikdörtgenin boyutunu nasıl değiştiririm?  
+**C:** Dikdörtgen oluşturma adımındaki `RectangleF` değerlerini değiştirin (ör. `new RectangleF(0, 0, 300, 150)`).
 
-C2: Evet, Aspose.Page hem .NET Framework hem de .NET Core ile uyumludur.
+**S:** Tek bir belgede birden fazla doku deseni uygulayabilir miyim?  
+**C:** Evet. Farklı bir görüntü ile yeni bir `TextureBrush` oluşturun ve bir sonraki şekil ya da metni çizmeye başlamadan önce tekrar `SetPaint` çağırın.
 
-### S3: Dokulu dikdörtgenin boyutunu nasıl ayarlayabilirim?
+**S:** Daha fazla örnek ve API referansına nereden ulaşabilirim?  
+**C:** Topluluk desteği için [Aspose.Page Forum](https://forum.aspose.com/c/page/39) ve ayrıntılı API kullanımı için resmi [dökümantasyon](https://reference.aspose.com/page/net/) sayfalarını ziyaret edin.
 
- Cevap 3: Boyutları değiştirin`RectangleF` yol oluşturma sırasında parametreler.
+## Sonuç
 
-### S4: Tek bir belgeye birden fazla doku deseni ekleyebilir miyim?
+Artık **PostScript belge .NET** oluşturmayı ve doku döşeme deseni uygulamayı, ayrıca **metni doku ile doldurup çizmeyi** biliyorsunuz. Farklı görüntüler, ölçekleme matrisleri ve çizim primitive’leriyle deneyler yaparak raporlar, broşürler veya grafik‑ağır çıktılar için özel stillerde PS dosyaları üretebilirsiniz.
 
-Cevap4: Evet, işlemi farklı görseller ve yollarla tekrarlayabilirsiniz.
+---
 
-### S5: Ek kaynakları ve desteği nerede bulabilirim?
-
- A5: ziyaret edin[Aspose.Page Forumu](https://forum.aspose.com/c/page/39) topluluk desteği için ve keşfetmek için[dokümantasyon](https://reference.aspose.com/page/net/).
+**Son Güncelleme:** 2026-03-26  
+**Test Edilen Versiyon:** Aspose.Page 24.11 for .NET  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
