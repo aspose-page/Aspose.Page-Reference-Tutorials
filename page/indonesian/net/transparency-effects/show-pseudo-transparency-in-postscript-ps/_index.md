@@ -1,35 +1,53 @@
 ---
-title: Tampilkan Transparansi Semu di PostScript (PS) dengan Aspose.Page
-linktitle: Tampilkan Transparansi Semu di PostScript (PS)
-second_title: Aspose.Halaman .NET API
-description: Jelajahi kekuatan transparansi semu di PostScript dengan Aspose.Page untuk .NET. Ikuti panduan langkah demi langkah kami untuk mendapatkan dokumen yang menakjubkan secara visual.
-weight: 13
+date: 2026-03-29
+description: Pelajari cara menggunakan kuas gradien linear C# untuk membuat pseudo‑transparansi
+  dalam PostScript dengan Aspose.Page untuk .NET.
+linktitle: Show Pseudo-Transparency in PostScript (PS)
+second_title: Aspose.Page .NET API
+title: Kuas Gradien Linear C# untuk Pseudo‑Transparansi di PS
 url: /id/net/transparency-effects/show-pseudo-transparency-in-postscript-ps/
+weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tampilkan Transparansi Semu di PostScript (PS) dengan Aspose.Page
+# Kuasa Sapu Gradien Linear C# untuk Pseudo-Transparansi dalam PostScript (PS)
 
-## Perkenalan
+## Pendahuluan
 
-Apakah Anda ingin meningkatkan daya tarik visual dokumen PostScript (PS) Anda dengan menerapkan transparansi semu? Aspose.Page untuk .NET memberikan solusi ampuh untuk mencapai efek ini dengan mudah. Dalam tutorial langkah demi langkah ini, kami akan memandu Anda melalui proses menampilkan transparansi semu di PostScript menggunakan Aspose.Page.
+Jika Anda perlu menambahkan efek tembus pandang halus ke file PostScript (PS) Anda, **linear gradient brush C#** adalah alat yang sempurna. Aspose.Page untuk .NET memudahkan melukis persegi panjang dengan isian gradien yang opak maupun tembus pandang, memberikan dokumen Anda tampilan modern dan berlapis. Dalam tutorial ini kami akan menjelaskan langkah‑langkah tepat untuk membuat pseudo‑transparansi menggunakan linear gradient brush dalam C#.
+
+## Jawaban Cepat
+- **Apa perpustakaan yang menyediakan linear gradient brush?** Aspose.Page for .NET
+- **Kelas grafis mana yang membuat gradien?** `LinearGradientBrush`
+- **Bisakah saya mengontrol opasitas per warna?** Ya, menggunakan `Color.FromArgb(alpha, …)`
+- **Apakah saya memerlukan lisensi untuk produksi?** Lisensi Aspose.Page yang valid diperlukan
+- **Versi .NET yang didukung?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+
+
+## Apa itu linear gradient brush C#?
+
+`LinearGradientBrush` adalah objek GDI+ yang melukis transisi halus antara dua warna sepanjang garis lurus. Ketika Anda menentukan saluran alfa (0‑255) untuk setiap warna, Anda dapat membuat gradien tembus pandang—tepat apa yang kita butuhkan untuk pseudo‑transparansi dalam PostScript.
+
+## Mengapa menggunakan linear gradient brush C# untuk pseudo‑transparansi?
+
+- **Kontrol opasitas yang halus:** Sesuaikan alfa setiap warna untuk mencapai tingkat tembus pandang yang diinginkan.  
+- **Rendering independen perangkat:** Sapu ini bekerja sama pada layar, PDF, EPS, dan output PS.  
+- **API sederhana:** Beberapa baris kode C# menghasilkan efek visual kelas profesional.
 
 ## Prasyarat
 
-Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
+Sebelum menyelam ke kode, pastikan Anda memiliki:
 
-- Aspose.Page untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Page untuk .NET. Anda dapat mengunduhnya dari[Aspose.Dokumentasi halaman](https://reference.aspose.com/page/net/).
+- Aspose.Page untuk .NET terpasang. Anda dapat mengunduhnya dari [Aspose.Page documentation](https://reference.aspose.com/page/net/).
+- Folder yang dapat ditulisi tempat dokumen PostScript yang dihasilkan akan disimpan.
 
-- Direktori Dokumen: Siapkan direktori untuk menyimpan dokumen PostScript Anda.
-
-Sekarang setelah Anda memiliki alat yang diperlukan, mari jelajahi cara menampilkan transparansi semu di PostScript menggunakan Aspose.Page.
+Setelah Anda memiliki alat yang diperlukan, mari mulai membangun persegi panjang pseudo‑transparan.
 
 ## Impor Namespace
 
-Sebelum mempelajari contoh ini, pastikan Anda mengimpor namespace yang diperlukan:
+Sebelum kita mulai, impor namespace yang berisi kelas yang akan kita gunakan:
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,23 +57,27 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-## Langkah 1: Buat Aliran Output untuk Dokumen PostScript
+## Langkah 1: Buat aliran output untuk dokumen PostScript
+
+Kita mulai dengan membuat aliran file yang akan menampung file PS yang dihasilkan, kemudian menginisialisasi `PsDocument`.
 
 ```csharp
-// MantanMulai:1
-// Jalur ke direktori dokumen.
+// ExStart:1
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//Buat aliran keluaran untuk dokumen PostScript
+//Create output stream for PostScript document
 using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_outPS.ps", FileMode.Create))
 {
-	//Buat opsi penyimpanan dengan ukuran A4
+	//Create save options with A4 size
 	PsSaveOptions options = new PsSaveOptions();
 
-	// Buat Dokumen PS 1 halaman baru
+	// Create new 1‑paged PS Document
 	PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Langkah 2: Buat Persegi Panjang dengan Isi Gradien Buram
+## Langkah 2: Buat persegi panjang dengan isian gradien **opaque**
+
+Di sini kita membangun `LinearGradientBrush` yang warnanya sepenuhnya opak (alpha = 255). Persegi panjang ini akan berfungsi sebagai lapisan latar belakang.
 
 ```csharp
 	float offsetX = 50;
@@ -77,16 +99,18 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## Langkah 3: Buat Persegi Panjang dengan Isi Gradien Tembus
+## Langkah 3: Buat persegi panjang dengan isian gradien **translucent**
+
+Sekarang kita menggunakan **linear gradient brush C#** di mana nilai alfa kurang dari 255 (misalnya 150 dan 50). Ini membuat persegi panjang sebagian tembus pandang, menghasilkan efek pseudo‑transparansi.
 
 ```csharp
 	offsetX = 350;
 
-	//Buat jalur grafis dari persegi panjang pertama
+	//Create graphics path from the first rectangle
 	path = new System.Drawing.Drawing2D.GraphicsPath();
 	path.AddRectangle(new System.Drawing.RectangleF(offsetX, offsetY, width, height));
 
-	//Buat warna kuas gradien linier yang transparansinya bukan 255, tapi 150 dan 50. Jadi tembus cahaya.
+	//Create linear gradient brush colors which transparency are not 255, but 150 and 50. So it are translucent.
 	LinearGradientBrush translucentBrush = new LinearGradientBrush(new RectangleF(0, 0, width, height), Color.FromArgb(150, 0, 0, 0),
 		Color.FromArgb(50, 40, 128, 70), 0f);
 
@@ -99,7 +123,9 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 	document.Fill(path);
 ```
 
-## Langkah 4: Tutup Halaman Saat Ini dan Simpan Dokumen
+## Langkah 4: Tutup halaman dan simpan dokumen
+
+Akhirnya kita menyelesaikan halaman dan menulis file PS ke disk.
 
 ```csharp
 	document.ClosePage();
@@ -108,33 +134,39 @@ using (Stream outPsStream = new FileStream(dataDir + "ShowPseudoTransparency_out
 // ExEnd:1
 ```
 
-Dengan mengikuti langkah-langkah ini, Anda dapat dengan mudah mengintegrasikan transparansi semu ke dalam dokumen PostScript Anda menggunakan Aspose.Page untuk .NET.
+Dengan mengikuti empat langkah ini Anda dapat dengan mulus menggabungkan persegi panjang opak dan tembus pandang, menciptakan efek pseudo‑transparansi yang meyakinkan pada output PostScript apa pun.
 
-## Kesimpulan
+## Masalah Umum dan Solusinya
 
-Kesimpulannya, Aspose.Page untuk .NET menawarkan cara yang mudah dan efisien untuk menyempurnakan elemen visual dokumen PostScript Anda. Langkah-langkah yang diuraikan di atas memberikan jalur yang jelas untuk menerapkan transparansi semu, memungkinkan Anda menghasilkan keluaran yang menakjubkan secara visual.
+| Masalah | Mengapa Terjadi | Solusi |
+|-------|----------------|-----|
+| Warna muncul sepenuhnya opaque | Nilai alpha disetel ke 255 secara tidak sengaja | Gunakan `Color.FromArgb(alpha, …)` dengan `alpha` < 255 |
+| Gradien terdistorsi secara tidak tepat | Matriks transformasi tidak tepat | Verifikasi parameter matriks sesuai dengan dimensi persegi panjang |
+| File output kosong | Aliran tidak ditutup atau `Save()` tidak dipanggil | Pastikan `document.ClosePage()` dan `document.Save()` dijalankan di dalam blok `using` |
 
-## FAQ
+## Pertanyaan yang Sering Diajukan
 
-### Q1: Apakah Aspose.Page kompatibel dengan semua versi .NET?
+**Q: Apakah Aspose.Page kompatibel dengan semua versi .NET?**  
+A: Aspose.Page untuk .NET kompatibel dengan berbagai versi kerangka kerja .NET, memastikan fleksibilitas dan kemudahan integrasi.
 
-A1: Aspose.Page untuk .NET kompatibel dengan berbagai versi kerangka .NET, memastikan fleksibilitas dan kemudahan integrasi.
+**Q: Bisakah saya menerapkan pseudo‑transparansi pada bentuk lain selain persegi panjang?**  
+A: Ya, prinsip yang sama dapat diterapkan pada bentuk apa pun dengan menyesuaikan `GraphicsPath` yang bersangkutan.
 
-### Q2: Dapatkah saya menerapkan transparansi semu pada bentuk lain selain persegi panjang?
+**Q: Di mana saya dapat menemukan contoh tambahan dan dokumentasi?**  
+A: Jelajahi [Aspose.Page documentation](https://reference.aspose.com/page/net/) untuk contoh komprehensif dan referensi API yang detail.
 
-A2: Ya, prinsip yang sama dapat diterapkan pada bentuk lain dengan menyesuaikan GraphicsPath.
+**Q: Apakah ada versi percobaan gratis untuk Aspose.Page?**  
+A: Ya, Anda dapat mengakses percobaan gratis Aspose.Page dari [tautan ini](https://releases.aspose.com/).
 
-### Q3: Di mana saya dapat menemukan contoh dan dokumentasi tambahan?
+**Q: Bagaimana cara memperoleh lisensi sementara untuk Aspose.Page?**  
+A: Kunjungi [tautan ini](https://purchase.aspose.com/temporary-license/) untuk memperoleh lisensi sementara bagi Aspose.Page.
 
- A3: Jelajahi[Aspose.Dokumentasi halaman](https://reference.aspose.com/page/net/) untuk contoh komprehensif dan dokumentasi terperinci.
+---
 
-### Q4: Apakah ada uji coba gratis yang tersedia untuk Aspose.Page?
+**Terakhir Diperbarui:** 2026-03-29  
+**Diuji dengan:** Aspose.Page 24.11 untuk .NET  
+**Penulis:** Aspose  
 
- A4: Ya, Anda dapat mengakses uji coba gratis Aspose.Page dari[Link ini](https://releases.aspose.com/).
-
-### Q5: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Page?
-
- A5: Kunjungi[Link ini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan lisensi sementara untuk Aspose.Page.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
