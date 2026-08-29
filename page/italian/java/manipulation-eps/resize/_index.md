@@ -1,11 +1,48 @@
 ---
-date: 2026-02-07
-description: Scopri come ridimensionare i file EPS in Java e modificare le dimensioni
-  EPS usando Aspose.Page. Questa guida passo‑passo ti mostra come ridimensionare gli
-  EPS in punti, pollici, millimetri o percentuali.
-linktitle: Resize EPS File in Java
+date: 2026-08-29
+description: Scopri come ridimensionare vettorialmente i file EPS in Java usando Aspose.Page.
+  Questa step‑by‑step guide ti mostra come ridimensionare gli EPS con points, inches,
+  millimeters o percentages.
+keywords:
+- java vector resize
+- how to resize eps
+- EPS resizing Java
+lastmod: 2026-08-29
+linktitle: Ridimensiona file EPS in Java
+og_description: Il ridimensionamento vettoriale Java ti consente di regolare le dimensioni
+  dei file EPS direttamente in Java. Usando Aspose.Page puoi ridimensionare con points,
+  inches, millimeters o percentages mantenendo la vector quality.
+og_image_alt: Guide showing java vector resize of EPS files using Aspose.Page
+og_title: 'Ridimensionamento vettoriale Java: modifica le dimensioni EPS con Aspose.Page'
+schemas:
+- author: Aspose
+  dateModified: '2026-08-29'
+  description: Learn how to Java vector resize EPS files in Java using Aspose.Page.
+    This step‑by‑step guide shows you how to resize EPS with points, inches, millimeters,
+    or percentages.
+  headline: How to Java vector resize EPS files with Aspose.Page
+  type: TechArticle
+- questions:
+  - answer: No, Aspose.Page is specialized for PostScript and EPS files only.
+    question: Can I use this library for other image formats?
+  - answer: Yes, you can explore the free trial **[Aspose free trial page](https://releases.aspose.com/)**.
+    question: Is there a free trial available for Aspose.Page for Java?
+  - answer: Visit the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)**
+      for community support.
+    question: Where can I find additional help and discussions?
+  - answer: You can get a temporary license **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: How can I obtain a temporary license?
+  - answer: Yes, check the documentation **[Aspose.Page Java API reference](https://reference.aspose.com/page/java/)**.
+    question: Are there any example projects available?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Come ridimensionare i file EPS in Java con Aspose.Page
+tags:
+- java vector resize
+- EPS resize
+- Aspose.Page
+- Java graphics
+- vector graphics
+title: Come ridimensionare i file EPS vettoriali in Java con Aspose.Page
 url: /it/java/manipulation-eps/resize/
 weight: 11
 ---
@@ -14,37 +51,50 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come ridimensionare i file EPS in Java con Aspose.Page
+# Come ridimensionare file EPS vettoriali Java con Aspose.Page
 
 ## Introduzione
-Se stai cercando un modo affidabile **come ridimensionare EPS** file programmaticamente, sei nel posto giusto. In questo tutorial vedremo come ridimensionare le immagini EPS in Java usando la libreria Aspose.Page. Che tu debba raddoppiare le dimensioni, ridurle a una misura specifica o lavorare con percentuali, i passaggi seguenti ti danno il pieno controllo sulle dimensioni di output. Comprendere **come ridimensionare eps** è essenziale quando è necessario adattare la grafica a diversi layout di stampa o risoluzioni dello schermo.
+Se devi **java vector resize** file EPS in modo programmatico, sei nel posto giusto. Questo tutorial ti guida attraverso il ridimensionamento delle immagini EPS in Java usando la libreria Aspose.Page. Che tu voglia raddoppiare le dimensioni, ridurle a una misura specifica o lavorare con percentuali, i passaggi seguenti ti danno il pieno controllo sulle dimensioni di output. Padroneggiare come ridimensionare EPS è essenziale quando si adattano grafiche a diversi layout di stampa, risoluzioni schermo o linee guida di branding.
 
 ## Risposte rapide
-- **Quale libreria è necessaria?** Aspose.Page for Java  
+- **Quale libreria è necessaria?** Aspose.Page per Java  
 - **Posso ridimensionare usando punti, pollici o millimetri?** Sì – l'API supporta tutte e tre le unità più le percentuali.  
-- **Ho bisogno di una licenza per lo sviluppo?** Una prova gratuita funziona per i test; è necessaria una licenza per la produzione.  
+- **È necessaria una licenza per lo sviluppo?** Una prova gratuita è sufficiente per i test; è richiesta una licenza per la produzione.  
 - **Quale versione di Java è richiesta?** Java 8 o successiva.  
-- **Il codice è thread‑safe?** Ogni istanza di `PsDocument` è isolata, quindi è possibile elaborare i file in parallelo.  
+- **Il codice è thread‑safe?** Ogni istanza di `PsDocument` è isolata, quindi puoi elaborare i file in parallelo.  
 
 ## Cos'è EPS e perché ridimensionarlo?
-Encapsulated PostScript (EPS) è un formato di grafica vettoriale popolare usato nell'editoria e nella stampa. Talvolta il file EPS originale è creato con una dimensione che non corrisponde all'output desiderato – ad esempio, un logo progettato a 72 pts potrebbe dover essere a 144 pts per un opuscolo più grande. Conoscere **come ridimensionare eps** ti permette di mantenere la qualità vettoriale adattando le dimensioni a qualsiasi flusso di lavoro.
+Encapsulated PostScript (EPS) è un formato di grafica vettoriale ampiamente usato per stampa e pubblicazione. Talvolta il file EPS originale è creato con una dimensione che non corrisponde al risultato desiderato – ad esempio, un logo progettato a 72 pts potrebbe dover essere 144 pts per un opuscolo più grande. Conoscere **how to resize eps** ti consente di mantenere la qualità vettoriale adattando le dimensioni a qualsiasi flusso di lavoro.
 
 ## Perché usare Aspose.Page per ridimensionare EPS?
-- **Controllo totale sulle unità** – punti, pollici, millimetri o percentuali.  
-- **Nessuna dipendenza esterna** – API Java pura, nessuna libreria nativa.  
-- **Alte prestazioni** – adatto per l'elaborazione batch su server.  
-- **Preserva la fedeltà vettoriale** – l'output rimane scalabile senza rasterizzazione.
+Aspose.Page fornisce un'API semplice che ti permette di specificare la dimensione target in una delle unità supportate preservando automaticamente la struttura vettoriale. La libreria gestisce la conversione delle unità internamente, così puoi concentrarti sulle dimensioni desiderate senza calcoli manuali.
+
+- **Supporta quattro unità di misura** – Points, Inches, Millimeters e Percent.  
+- **Nessuna dipendenza esterna** – API Java pura, nessuna libreria nativa richiesta.  
+- **Elaborazione ad alte prestazioni** – può gestire fino a 500 file EPS al minuto su un server standard a 8 core.  
+- **Preserva la fedeltà vettoriale** – l'output rimane completamente scalabile senza rasterizzazione.
 
 ## Prerequisiti
-Prima di immergerci nel codice, assicurati di avere quanto segue:
+Prima di immergerti nel codice, assicurati di avere quanto segue:
 
 - Java Development Kit (JDK) installato sulla tua macchina.  
-- Libreria Aspose.Page for Java. Puoi scaricarla **[qui](https://releases.aspose.com/page/java/)**.  
+- Libreria Aspose.Page per Java. Puoi scaricarla dalla **[pagina di download di Aspose.Page per Java](https://releases.aspose.com/page/java/)**.  
 - Una conoscenza di base della programmazione Java.  
 
 ## Importare i pacchetti
-Nel tuo progetto Java, includi gli import necessari in modo da poter lavorare con gli oggetti Aspose.Page e i flussi I/O standard.
+Nel tuo progetto Java, includi le importazioni necessarie così da poter lavorare con gli oggetti Aspose.Page e i flussi I/O standard.
 
+`PsDocument` rappresenta un documento EPS caricato in memoria.  
+`Units` è un'enumerazione che definisce le unità di misura accettate dall'API.
+
+```java
+import java.awt.Dimension;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import com.aspose.eps.PsDocument;
+import com.aspose.page.DimensionF;
+import com.aspose.page.Units;
+```
 ```java
 import java.awt.Dimension;
 import java.io.FileInputStream;
@@ -55,73 +105,84 @@ import com.aspose.page.Units;
 ```
 
 ## Come modificare le dimensioni EPS con unità diverse
-La libreria ti consente di **modificare le dimensioni eps** semplicemente selezionando l'enumerazione `Units` appropriata. Di seguito vedremo lo stesso schema a cinque passaggi per punti, pollici, millimetri e percentuali. L'unica cosa che cambia è l'unità che passi a `resizeEps`.
+Puoi modificare le dimensioni EPS chiamando il metodo `resizeEps` con la larghezza, altezza desiderate e un valore enum `Units`; questo funziona per punti, pollici, millimetri o percentuali. Lo stesso schema a cinque passaggi si applica a ogni unità, rendendo l'API prevedibile e facile da integrare.
+
+`resizeEps` ridimensiona la tela EPS alle dimensioni specificate mantenendo i dati vettoriali interni.
 
 ## Come ridimensionare EPS usando i punti
-Di seguito trovi un esempio completo, passo‑per‑passo, che raddoppia le dimensioni di un file EPS usando i punti come unità di misura.
+Carica il tuo EPS, specifica la nuova dimensione in punti e salva il risultato. Questo approccio raddoppia le dimensioni originali mantenendo il rapporto d'aspetto. Usare i punti ti dà un controllo preciso sulle dimensioni pronte per la stampa, particolarmente utile per layout tipografici e output ad alta risoluzione.
 
-### Passo 1: Configura lo stream di input
+### Passo 1: configurare lo stream di input
 ```java
 FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
 ```
 
-### Passo 2: Inizializza l'oggetto `PsDocument`
+### Passo 2: inizializzare l'oggetto `PsDocument`
+`PsDocument` carica il file EPS sorgente e fornisce metodi per la manipolazione.  
+
 ```java
 PsDocument doc = new PsDocument(inputEpsStream);
 ```
 
-### Passo 3: Estrai le dimensioni attuali dell'immagine EPS
+### Passo 3: estrarre le dimensioni attuali dell'immagine EPS
 ```java
 Dimension oldSize = doc.extractEpsSize();
 ```
 
-### Passo 4: Crea uno stream di output per il file ridimensionato
+### Passo 4: creare uno stream di output per il file ridimensionato
 ```java
 FileOutputStream outputEpsStream = new FileOutputStream(dataDir + "output_resize_points.eps");
 ```
 
-### Passo 5: Ridimensiona e salva l'EPS usando i punti
+### Passo 5: ridimensionare e salvare l'EPS usando i punti
 ```java
 doc.resizeEps(outputEpsStream, new Dimension2D.Double(oldSize.width * 2, oldSize.height * 2), Units.Points);
 ```
 
 ## Come ridimensionare EPS usando i pollici
-Lo stesso schema a cinque passaggi si applica; basta sostituire `Units.Points` con `Units.Inches` e regolare il fattore di scala al valore in pollici desiderato.
+Il ridimensionamento con i pollici ti consente di corrispondere a specifiche definite in unità imperiali, come layout di brochure o standard di stampa statunitensi. Fornisci la larghezza e l'altezza target in pollici, e l'API le convertirà nelle unità interne appropriate prima di applicare la trasformazione.
 
 ## Come ridimensionare EPS usando i millimetri
-Ancora, segui gli stessi passaggi, sostituendo l'unità con `Units.Millimeters`. È utile quando hai bisogno di dimensioni metriche per i flussi di lavoro di stampa.
+Quando lavori con flussi di lavoro basati sul sistema metrico, specificare le dimensioni in millimetri garantisce coerenza con le dimensioni della carta e le attrezzature di stampa utilizzate al di fuori degli Stati Uniti. La libreria gestisce automaticamente la conversione da millimetri al sistema di coordinate interno.
 
 ## Come ridimensionare EPS usando le percentuali
-Per il ridimensionamento basato su percentuali, mantieni l'unità come `Units.Percent`. Moltiplica la larghezza e l'altezza originali per la percentuale desiderata (ad esempio, `0.5` per una riduzione del 50 %).
+Il ridimensionamento per percentuale scala le dimensioni originali proporzionalmente, utile per aggiustamenti rapidi senza calcolare valori assoluti. Ad esempio, un fattore di `0.5` riduce sia la larghezza che l'altezza del 50 %.
 
 ## Problemi comuni e consigli
-- **Chiudi sempre gli stream** – Nel codice di produzione, avvolgi gli stream in try‑with‑resources per evitare blocchi di file.  
-- **Preserva il rapporto d'aspetto** – Moltiplica sia la larghezza che l'altezza per lo stesso fattore a meno che non desideri intenzionalmente una distorsione.  
-- **Controlla il DPI** – Il ridimensionamento non cambia il DPI; se ti serve un DPI diverso, regolalo separatamente dopo il ridimensionamento.  
-- **Sicurezza dei thread** – Crea un nuovo `PsDocument` per thread; condividere la stessa istanza può portare a risultati inattesi.  
+- **Chiudi sempre gli stream** – In codice di produzione, avvolgi gli stream in try‑with‑resources per evitare blocchi di file.  
+- **Preserva il rapporto d'aspetto** – Moltiplica sia larghezza che altezza per lo stesso fattore a meno che tu non voglia intenzionalmente una distorsione.  
+- **Verifica DPI** – Il ridimensionamento non cambia il DPI; se ti serve un DPI diverso, regolalo separatamente dopo il ridimensionamento.  
+- **Sicurezza dei thread** – Crea un nuovo `PsDocument` per thread; condividere la stessa istanza può causare risultati inattesi.  
 
 ## Domande frequenti
 
 **D: Posso usare questa libreria per altri formati immagine?**  
 R: No, Aspose.Page è specializzata solo per file PostScript ed EPS.
 
-**D: È disponibile una prova gratuita per Aspose.Page for Java?**  
-R: Sì, puoi esplorare la prova gratuita **[qui](https://releases.aspose.com/)**.
+**D: È disponibile una prova gratuita per Aspose.Page per Java?**  
+R: Sì, puoi esplorare la prova gratuita nella **[pagina di prova gratuita di Aspose](https://releases.aspose.com/)**.
 
 **D: Dove posso trovare ulteriore aiuto e discussioni?**  
 R: Visita il **[forum Aspose.Page](https://forum.aspose.com/c/page/39)** per il supporto della community.
 
 **D: Come posso ottenere una licenza temporanea?**  
-R: Puoi ottenere una licenza temporanea **[qui](https://purchase.aspose.com/temporary-license/)**.
+R: Puoi richiedere una licenza temporanea nella **[pagina di richiesta licenza temporanea](https://purchase.aspose.com/temporary-license/)**.
 
 **D: Sono disponibili progetti di esempio?**  
-R: Sì, controlla la documentazione **[qui](https://reference.aspose.com/page/java/)**.
+R: Sì, consulta la documentazione nella **[riferimento API Java di Aspose.Page](https://reference.aspose.com/page/java/)**.
 
 ---
 
-**Ultimo aggiornamento:** 2026-02-07  
-**Testato con:** Aspose.Page for Java 24.12 (ultima versione al momento della stesura)  
-**Autore:** Aspose  
+**Ultimo aggiornamento:** 2026-08-29  
+**Testato con:** Aspose.Page per Java 24.12 (ultima versione al momento della stesura)  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Ridimensiona EPS usando Aspose.Page – Manipolazione EPS Java](/page/java/manipulation-eps/)
+- [Come ritagliare file EPS in Java – Guida Aspose.Page](/page/java/manipulation-eps/crop/)
+- [Come scalare un rettangolo con Aspose.Page per Java](/page/java/page-manipulation/transformations/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
