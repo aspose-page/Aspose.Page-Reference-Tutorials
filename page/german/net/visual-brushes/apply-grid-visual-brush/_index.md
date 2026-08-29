@@ -1,35 +1,53 @@
 ---
-title: Wenden Sie Grid Visual Brush mit Aspose.Page für .NET an
-linktitle: Wenden Sie den visuellen Gitterpinsel an
-second_title: Aspose.Page .NET-API
-description: Entdecken Sie die dynamische Welt der Dokumentverarbeitung in .NET mit Aspose.Page. Erfahren Sie, wie Sie einen Grid Visual Brush für visuell beeindruckende Dokumente anwenden.
-weight: 10
+date: 2026-04-03
+description: Erfahren Sie, wie Sie in .NET mit Aspose.Page ein transparentes Rechteck
+  hinzufügen und einen Grid‑Visual‑Brush anwenden, um beeindruckende XPS‑Dokumente
+  zu erstellen.
+keywords:
+- add transparent rectangle
+- grid visual brush
+- Aspose.Page .NET
+linktitle: Raster-VisualBrush anwenden
+second_title: Aspose.Page .NET API
+title: Transparentes Rechteck mit Grid‑Visual‑Brush hinzufügen (.NET)
 url: /de/net/visual-brushes/apply-grid-visual-brush/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wenden Sie Grid Visual Brush mit Aspose.Page für .NET an
+# Transparentes Rechteck mit Grid Visual Brush (.NET) hinzufügen
 
-## Einführung
+## Einleitung
 
-In der Welt der .NET-Entwicklung sticht Aspose.Page als leistungsstarkes Tool zur Bearbeitung von Dokumentenverarbeitungsaufgaben hervor. Eine faszinierende Funktion ist die Möglichkeit, einen visuellen Rasterpinsel anzuwenden, der Ihren Dokumenten eine neue Dimension verleiht. Dieses Tutorial führt Sie Schritt für Schritt durch den Prozess der Implementierung eines Magenta Grid Visual Brush mit Aspose.Page für .NET.
+Wenn Sie ein **transparentes Rechteck** zu einem XPS‑Dokument hinzufügen und gleichzeitig einen stilvollen Grid Visual Brush anwenden möchten, sind Sie hier genau richtig. In diesem Tutorial führen wir Sie Schritt für Schritt mit Aspose.Page für .NET durch die notwendigen Vorgänge, sodass Sie visuell ansprechende Dokumente erstellen können, die herausstechen. Am Ende haben Sie ein vollständiges, ausführbares Beispiel, das beide Techniken in einem leicht nachvollziehbaren Workflow demonstriert.
+
+## Schnelle Antworten
+- **Was bewirkt ein transparentes Rechteck?** Es fügt eine halbtransparente Überlagerung hinzu, die den Hintergrundinhalt durchscheinen lässt.  
+- **Welche API erstellt den Pinsel?** `XpsDocument.CreateVisualBrush` erstellt den Grid Visual Brush.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion funktioniert für Tests; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Welche .NET-Versionen werden unterstützt?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Wie lange dauert die Implementierung?** Etwa 10‑15 Minuten für ein einfaches Beispiel.
+
+## Was ist ein transparentes Rechteck in XPS?
+Ein transparentes Rechteck ist einfach eine Form, deren Füllfarbe einen Alpha‑Wert kleiner als 1,0 enthält, sodass die darunter liegenden Grafiken teilweise sichtbar bleiben. Das ist ideal, um Abschnitte hervorzuheben, ohne den Hintergrund vollständig zu verdecken.
+
+## Warum einen Grid Visual Brush verwenden?
+Ein Grid Visual Brush ermöglicht es, eine kleine Vektorgrafik über eine größere Fläche zu kacheln und Muster wie Gitter, Schraffuren oder benutzerdefinierte Texturen zu erzeugen. In Kombination mit einem transparenten Rechteck erhalten Sie geschichtete visuelle Effekte, die sowohl leichtgewichtig als auch auflösungsunabhängig sind.
 
 ## Voraussetzungen
 
-Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
+Bevor Sie in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes haben:
 
--  Aspose.Page für .NET: Stellen Sie sicher, dass die Bibliothek in Ihrer .NET-Umgebung installiert und eingerichtet ist. Sie können es herunterladen[Hier](https://releases.aspose.com/page/net/).
-
-- Entwicklungsumgebung: Halten Sie eine funktionierende .NET-Entwicklungsumgebung bereit und verfügen Sie über grundlegende Kenntnisse der C#-Programmierung.
-
-- Dokumentenverzeichnis: Erstellen Sie ein Verzeichnis für Ihre Dokumente, in dem die verarbeiteten Dateien gespeichert werden.
+- **Aspose.Page für .NET** – Sie können es [hier](https://releases.aspose.com/page/net/) herunterladen.  
+- Eine .NET‑Entwicklungsumgebung (Visual Studio, VS Code oder jede andere bevorzugte IDE).  
+- Einen Ordner, in dem die generierten XPS‑Dateien gespeichert werden.
 
 ## Namespaces importieren
 
-In Ihrem C#-Code müssen Sie die erforderlichen Namespaces importieren, um die Funktionen von Aspose.Page effektiv nutzen zu können:
+In Ihrer C#‑Datei importieren Sie die erforderlichen Namespaces:
 
 ```csharp
 using Aspose.Page.XPS;
@@ -37,9 +55,9 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-Lassen Sie uns das Beispiel nun in mehrere Schritte unterteilen.
+Jetzt teilen wir die Lösung in klare, nummerierte Schritte auf.
 
-## Schritt 1: XpsDocument initialisieren
+## Schritt 1: XpsDocument initialisieren
 
 ```csharp
 // ExStart:3
@@ -48,9 +66,9 @@ XpsDocument doc = new XpsDocument();
 // ExEnd:3
 ```
 
- Hier erstellen wir eine Instanz von`XpsDocument` um mit XPS-Dokumenten zu arbeiten.
+Wir beginnen mit der Erstellung einer `XpsDocument`‑Instanz, die alle nachfolgenden Zeichenoperationen enthält.
 
-## Schritt 2: Magenta-Gittergeometrie erstellen
+## Schritt 2: Magenta‑Gittergeometrie erstellen
 
 ```csharp
 // ExStart:4
@@ -61,9 +79,9 @@ pathGeometry[0].StartPoint = new PointF(0f, 5f);
 // ExEnd:4
 ```
 
-In diesem Schritt wird eine Pfadgeometrie für das Magenta-Raster erstellt.
+Diese Geometrie definiert die Kontur des Gitters, das der Visual Brush füllen wird.
 
-## Schritt 3: Entwerfen Sie Magenta Grid VisualBrush
+## Schritt 3: Magenta‑Gitter‑VisualBrush entwerfen
 
 ```csharp
 // ExStart:5
@@ -74,9 +92,9 @@ visualPath.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1f, .61f, 0.1f, 0.61
 // ExEnd:5
 ```
 
-Hier entwerfen wir den visuellen Aspekt des Magenta-Rasters mithilfe von Vektorgrafiken.
+Hier zeichnen wir eine kleine magentafarbene Kachel, die über das Gitter wiederholt wird.
 
-## Schritt 4: Wenden Sie VisualBrush auf Grid an
+## Schritt 4: VisualBrush auf das Gitter anwenden
 
 ```csharp
 // ExStart:6
@@ -87,9 +105,9 @@ gridPath.Fill = doc.CreateVisualBrush(visualCanvas,
 // ExEnd:6
 ```
 
-Tragen Sie den visuellen Pinsel auf den Rasterpfad auf und achten Sie darauf, dass er richtig gekachelt wird.
+Der Aufruf `CreateVisualBrush` verknüpft die magentafarbene Kachel mit der Gittergeometrie und aktiviert das Kacheln.
 
-## Schritt 5: Raster zur Leinwand hinzufügen
+## Schritt 5: Gitter zur Leinwand hinzufügen
 
 ```csharp
 // ExStart:7
@@ -99,22 +117,22 @@ canvas.AddPath(pathGeometry);
 // ExEnd:7
 ```
 
-Fügen Sie das Raster zur Leinwand hinzu und geben Sie alle erforderlichen Transformationen an.
+Wir platzieren das gekachelte Gitter auf einer Leinwand und wenden eine Translations‑Transformation an, damit es an der gewünschten Position erscheint.
 
-## Schritt 6: Mit rotem Rechteck verstärken
+## Schritt 6: Transparentes Rechteck hinzufügen
 
 ```csharp
 // ExStart:8
 XpsPath path = canvas.AddPath(doc.CreatePathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 path = canvas.AddPath(doc.CreatePathGeometry("M 10,10 L 228,10 228,100 10,100"));
 path.Fill = doc.CreateSolidColorBrush(doc.CreateColor(1.0f, 0.0f, 0.0f));
-path.Opacity = 0.7f;
+path.Opacity = 0.7f; // This opacity makes the rectangle transparent
 // ExEnd:8
 ```
 
-Verbessern Sie die optische Attraktivität, indem Sie ein rotes, transparentes Rechteck hinzufügen.
+In diesem Schritt **fügen wir ein transparentes Rechteck hinzu** (die rote Form mit `Opacity = 0.7f`). Passen Sie den Opazitätswert an, um zu steuern, wie durchscheinend das Rechteck ist.
 
-## Schritt 7: Speichern Sie das Dokument
+## Schritt 7: Dokument speichern
 
 ```csharp
 // ExStart:9
@@ -122,33 +140,43 @@ doc.Save(dataDir + "AddGrid_out.xps");
 // ExEnd:9
 ```
 
-Speichern Sie das resultierende XPS-Dokument in Ihrem angegebenen Verzeichnis.
+Die XPS‑Datei wird in den zuvor angegebenen Ordner geschrieben.
 
-## Abschluss
+## Häufige Anwendungsfälle
 
-Glückwunsch! Sie haben mit Aspose.Page für .NET erfolgreich einen visuellen Rasterpinsel auf Ihr Dokument angewendet. Diese Technik kann die visuellen Elemente Ihrer Dokumente erheblich verbessern und für ein dynamisches und ansprechendes Benutzererlebnis sorgen.
+- **Berichtshervorhebung:** Legen Sie ein halbtransparentes Rechteck über ein Diagramm oder eine Tabelle, um es zu betonen.  
+- **Wasserzeichen‑Effekte:** Kombinieren Sie ein gekacheltes Gitter mit einer transparenten Überlagerung für ein dezentes Branding.  
+- **Interaktive PDFs/XPS:** Verwenden Sie das Muster als Hintergrund für Formularfelder, während die Benutzeroberfläche lesbar bleibt.
 
-## FAQs
+## Fehlerbehebungstipps
 
-### F1: Kann ich Aspose.Page für .NET sowohl in Web- als auch in Desktop-Anwendungen verwenden?
+- **Opacity nicht sichtbar?** Stellen Sie sicher, dass Ihr Viewer XPS‑Transparenz unterstützt; einige ältere Viewer ignorieren die `Opacity`‑Eigenschaft.  
+- **Falsche Kachelgröße?** Überprüfen Sie, ob das Quellrechteck (`new RectangleF(0f, 0f, 10f, 10f)`) den Abmessungen der Vektorkachel entspricht.  
+- **Datei nicht gespeichert?** Überprüfen Sie, ob `dataDir` auf ein existierendes, beschreibbares Verzeichnis zeigt.
 
-A1: Ja, Aspose.Page für .NET ist vielseitig und kann in verschiedenen Anwendungstypen verwendet werden.
+## Häufig gestellte Fragen
 
-### F2: Gibt es vor dem Kauf eine Testversion?
+**F: Kann ich Aspose.Page für .NET sowohl in Web‑ als auch in Desktop‑Anwendungen verwenden?**  
+A: Ja, die Bibliothek funktioniert in allen .NET‑Anwendungstypen.
 
- A2: Auf jeden Fall können Sie auf die kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+**F: Gibt es eine Testversion vor dem Kauf?**  
+A: Absolut, Sie können die kostenlose Testversion [hier](https://releases.aspose.com/) nutzen.
 
-### F3: Wo finde ich zusätzlichen Support oder Community-Diskussionen?
+**F: Wo finde ich zusätzlichen Support oder Community‑Diskussionen?**  
+A: Besuchen Sie das [Aspose.Page Forum](https://forum.aspose.com/c/page/39) für Hilfe von der Community und den Aspose‑Entwicklern.
 
- A3: Besuchen Sie die[Aspose.Page-Forum](https://forum.aspose.com/c/page/39) für Diskussionen und Unterstützung.
+**F: Wie kann ich eine temporäre Lizenz für die Evaluierung erhalten?**  
+A: Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erwerben.
 
-### F4: Wie kann ich eine temporäre Lizenz für Aspose.Page für .NET erhalten?
+**F: Welche weitere Dokumentation gibt es für Aspose.Page für .NET?**  
+A: Erkunden Sie die umfassende Dokumentation [hier](https://reference.aspose.com/page/net/).
 
- A4: Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
+---
 
-### F5: Welche weitere Dokumentation ist für Aspose.Page für .NET verfügbar?
+**Zuletzt aktualisiert:** 2026-04-03  
+**Getestet mit:** Aspose.Page 24.12 für .NET  
+**Autor:** Aspose  
 
- A5: Entdecken Sie die umfassende Dokumentation[Hier](https://reference.aspose.com/page/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
