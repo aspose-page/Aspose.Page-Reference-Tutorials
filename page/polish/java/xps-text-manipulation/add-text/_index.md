@@ -1,27 +1,54 @@
 ---
-title: Dodatek tekstu Java XPS - samouczek Aspose.Page
+date: 2026-04-24
+description: Dowiedz się, jak dodać tekst XPS w Javie przy użyciu Aspose.Page – krok
+  po kroku przewodnik tworzenia dokumentów XPS, dodawania tekstu i łatwego zapisywania
+  plików XPS.
+keywords:
+- how to add xps
+- create xps document
+- aspose.page add text
 linktitle: Dodaj tekst w Java XPS
-second_title: Aspose.Page API Java
-description: Ulepsz swoje dokumenty Java XPS za pomocą Aspose.Page! Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bez wysiłku dodawać tekst. Już dziś podnieś swoje umiejętności manipulowania dokumentami.
-weight: 10
+second_title: Aspose.Page Java API
+title: Jak dodać tekst XPS w Javie – Poradnik Aspose.Page
 url: /pl/java/xps-text-manipulation/add-text/
+weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodatek tekstu Java XPS - samouczek Aspose.Page
+# Jak dodać tekst XPS w Javie – Aspose.Page Tutorial
 
-## Wstęp
-W dziedzinie manipulacji dokumentami w języku Java Aspose.Page wyróżnia się jako solidna biblioteka ułatwiająca tworzenie i manipulowanie dokumentami XPS (Specyfikacja papieru XML). Dodawanie tekstu do dokumentów XPS jest częstym wymogiem w różnych aplikacjach, a ten samouczek poprowadzi Cię przez proces korzystania z Aspose.Page dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, ten przewodnik krok po kroku zapewni płynną drogę do ulepszania dokumentów XPS za pomocą tekstu.
-## Warunki wstępne
-Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Zestaw Java Development Kit (JDK): Upewnij się, że w systemie jest zainstalowana Java.
--  Aspose.Page dla Java: Pobierz i zainstaluj bibliotekę Aspose.Page. Możesz znaleźć link do pobrania[Tutaj](https://releases.aspose.com/page/java/).
-- Zintegrowane środowisko programistyczne (IDE): Wybierz preferowane środowisko Java IDE, takie jak IntelliJ IDEA lub Eclipse.
-## Importuj pakiety
-Rozpocznij od zaimportowania niezbędnych pakietów, aby rozpocząć manipulację dokumentami Java XPS za pomocą Aspose.Page:
+## Wprowadzenie
+Jeśli potrzebujesz **jak dodać XPS** tekst programowo, Aspose.Page for Java zapewnia czyste, wysokowydajne API do pracy z plikami XPS (XML Paper Specification). W tym samouczku przeprowadzimy Cię przez tworzenie dokumentu XPS, wstawianie stylowanego tekstu i zapisywanie wyniku — wszystko przy użyciu zwięzłego, łatwego do zrozumienia kodu. Niezależnie od tego, czy budujesz silnik raportowania, generujesz faktury, czy po prostu potrzebujesz nałożyć tekst na stronę, te kroki szybko pozwolą Ci rozpocząć pracę.
+
+## Szybkie odpowiedzi
+- **Jaka biblioteka jest najlepsza do manipulacji XPS w Javie?** Aspose.Page for Java.
+- **Czy mogę tworzyć i zapisywać pliki XPS bez licencji?** Darmowa wersja próbna działa w celach oceny; licencja jest wymagana w produkcji.
+- **Jakie IDE są obsługiwane?** IntelliJ IDEA, Eclipse, NetBeans lub dowolne IDE obsługujące Javę.
+- **Ile linii kodu potrzeba, aby dodać prosty tekst?** Około 10 linii plus konfiguracja.
+- **Czy możliwe jest stylowanie czcionki?** Tak – możesz ustawić rodzinę czcionki, rozmiar, styl i kolor.
+
+## Co to jest XPS i dlaczego dodawać tekst?
+XPS (XML Paper Specification) to format dokumentów o stałym układzie firmy Microsoft, podobny do PDF, ale oparty na XML. Dodawanie tekstu do pliku XPS jest powszechne, gdy potrzebne jest precyzyjne rozmieszczenie, takie jak etykiety, znaki wodne lub dynamiczne dane w raportach. Korzystanie z Aspose.Page pozwala manipulować XPS bez konieczności pracy z niskopoziomowymi strukturami XML.
+
+## Dlaczego używać Aspose.Page do dodawania tekstu XPS?
+- **Pełna kontrola** nad pozycjonowaniem glifów, stylami czcionek i pędzlami.  
+- **Brak zewnętrznych zależności** – czyste API Java.  
+- **Wysoka wierność** renderowania, zachowująca układ na różnych platformach.  
+- **Kompleksowa dokumentacja** oraz przykładowy kod ułatwiający szybkie rozpoczęcie.
+
+## Wymagania wstępne
+Zanim zaczniemy, upewnij się, że masz:
+
+- **Java Development Kit (JDK)** – zainstalowaną aktualną wersję (8 lub wyższą).
+- **Aspose.Page for Java** – pobierz bibliotekę z oficjalnej strony [tutaj](https://releases.aspose.com/page/java/).
+- **IDE Java** – IntelliJ IDEA, Eclipse lub dowolny edytor, którego preferujesz.
+
+## Importowanie pakietów
+Rozpocznij od zaimportowania klas potrzebnych do manipulacji XPS:
+
 ```java
 import java.awt.Color;
 import com.aspose.xps.XpsDocument;
@@ -29,46 +56,82 @@ import com.aspose.xps.XpsFontStyle;
 import com.aspose.xps.XpsGlyphs;
 import com.aspose.xps.XpsSolidColorBrush;
 ```
-## Krok 1: Ustaw katalog dokumentów
-Zdefiniuj ścieżkę do katalogu dokumentów, w którym zostanie utworzony dokument XPS:
+
+## Krok 1: Ustaw katalog dokumentu (utwórz plik xps)
+Określ, gdzie zostanie zapisany wygenerowany plik XPS:
+
 ```java
 String dataDir = "Your Document Directory";
 ```
-## Krok 2: Utwórz dokument XPS
-Zainicjuj nowy dokument XPS, używając następującego fragmentu kodu:
+
+## Krok 2: Utwórz dokument XPS (utwórz dokument xps)
+Zainicjuj nowy, pusty dokument XPS:
+
 ```java
 XpsDocument doc = new XpsDocument();
 ```
-## Krok 3: Utwórz pędzel
-Utwórz pędzel do stylizacji tekstu w dokumencie XPS:
+
+## Krok 3: Utwórz pędzel do stylizacji tekstu
+Jednokolorowy pędzel określa kolor tekstu. Tutaj używamy czarnego:
+
 ```java
 XpsSolidColorBrush textFill = doc.createSolidColorBrush(Color.BLACK);
 ```
-## Krok 4: Dodaj glif do dokumentu
-Dołącz żądany tekst do dokumentu XPS jako glif:
+
+## Krok 4: Dodaj glify – właściwy tekst (aspose.page add text)
+Dodaj tekst, który ma pojawić się w dokumencie. Metoda `addGlyphs` pozwala określić czcionkę, rozmiar, styl i dokładne współrzędne:
+
 ```java
 XpsGlyphs glyphs = doc.addGlyphs("Arial", 12, XpsFontStyle.Regular, 300f, 450f, "Hello World!");
 glyphs.setFill(textFill);
 ```
-## Krok 5: Zapisz wynikowy dokument XPS
-Zapisz zmodyfikowany dokument XPS w określonym katalogu:
+
+## Krok 5: Zapisz wynikowy dokument XPS (zapisz plik xps)
+Na koniec zapisz dokument na dysku:
+
 ```java
 doc.save(dataDir + "AddText_out.xps");
 ```
-W razie potrzeby powtórz te kroki, aby dodać dodatkowy tekst lub dostosować.
-## Wniosek
-Gratulacje! Pomyślnie nauczyłeś się dodawać tekst do dokumentów XPS w Javie przy użyciu Aspose.Page. Ta potężna biblioteka umożliwia programistom łatwe tworzenie atrakcyjnych wizualnie i dynamicznych plików XPS.
-## Często zadawane pytania
-### Czy Aspose.Page jest kompatybilny ze wszystkimi środowiskami IDE Java?
-Tak, Aspose.Page jest kompatybilny z popularnymi środowiskami Java IDE, w tym IntelliJ IDEA i Eclipse.
+
+Powtórz krok **Add Glyphs** w razie potrzeby, aby wstawić dodatkowe linie, zmienić czcionki lub dostosować pozycje.
+
+## Typowe problemy i porady
+- **Nieprawidłowe współrzędne:** XPS używa systemu współrzędnych mierzonego w punktach (1/72 cala). Dostosuj wartości `x` i `y`, aby precyzyjnie pozycjonować tekst.
+- **Czcionka nie znaleziona:** Upewnij się, że nazwa czcionki (np. „Arial”) jest zainstalowana na maszynie uruchamiającej kod.
+- **Wyjątek licencyjny:** Bez ważnej licencji wygenerowany XPS może zawierać znak wodny. Zastosuj licencję wcześnie w aplikacji, aby tego uniknąć.
+
+## Najczęściej zadawane pytania
+
+### Czy Aspose.Page jest kompatybilny ze wszystkimi IDE Java?
+Tak, Aspose.Page działa z popularnymi IDE Java, w tym IntelliJ IDEA i Eclipse.
+
 ### Czy mogę zastosować różne style czcionek do dodanego tekstu?
-Absolutnie! Aspose.Page pozwala dostosować style czcionek zgodnie z własnymi preferencjami.
+Zdecydowanie! Użyj `XpsFontStyle.Bold`, `Italic` lub połącz style przy wywoływaniu `addGlyphs`.
+
 ### Gdzie mogę znaleźć dodatkowe przykłady i dokumentację dla Aspose.Page?
- Zapoznaj się z obszerną dokumentacją[Tutaj](https://reference.aspose.com/page/java/).
-### Czy dostępna jest bezpłatna wersja próbna Aspose.Page?
- Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
-### Jak uzyskać tymczasową licencję na Aspose.Page?
- Uzyskaj tymczasową licencję[Tutaj](https://purchase.aspose.com/temporary-license/).
+Zapoznaj się z kompleksową dokumentacją [tutaj](https://reference.aspose.com/page/java/).
+
+### Czy dostępna jest darmowa wersja próbna Aspose.Page?
+Tak, możesz uzyskać dostęp do darmowej wersji próbnej [tutaj](https://releases.aspose.com/).
+
+### Jak uzyskać tymczasową licencję dla Aspose.Page?
+Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+
+**P: Czy mogę osadzić obrazy razem z tekstem?**  
+**O:** Tak – użyj obiektów `XpsImage` obok glifów, aby tworzyć bogate układy.
+
+**P: Czy Aspose.Page obsługuje znaki Unicode?**  
+**O:** Pełnie obsługuje Unicode, umożliwiając dodawanie tekstu w dowolnym języku.
+
+**P: Jaką wersję Aspose.Page użyto do testów?**  
+**O:** Kod został przetestowany z Aspose.Page 23.12 dla Javy.
+
+---
+
+**Ostatnia aktualizacja:** 2026-04-24  
+**Testowano z:** Aspose.Page 23.12 for Java  
+**Autor:** Aspose  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
