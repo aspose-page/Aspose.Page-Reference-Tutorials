@@ -1,9 +1,13 @@
 ---
-date: 2025-12-17
+date: 2026-05-05
 description: Aspose.Page for Java ile PostScript belgelerine doku döşeme desenleri
-  eklemeyi öğrenin. Bu rehber, dokuyu verimli bir şekilde eklemeyi ve yaratıcı olasılıkları
+  eklemeyi öğrenin. Bu kılavuz, dokuyu verimli bir şekilde eklemeyi ve yaratıcı olasılıkları
   keşfetmeyi gösterir.
-linktitle: Add Texture Tiling Pattern in Java PostScript
+keywords:
+- how to add texture
+- fill shape with texture
+- fill rectangle with texture
+linktitle: Java PostScript'te Doku Döşeme Deseni Ekle
 second_title: Aspose.Page Java API
 title: Java PostScript'te Doku Döşeme Deseni Nasıl Eklenir
 url: /tr/java/postscript-texture-patterns/add-texture-tiling-pattern/
@@ -14,33 +18,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java PostScript'te Doku Döşeme Deseni Ekleme
+# Java PostScript'te Doku Döşeme Deseni Nasıl Eklenir
 
 ## Giriş
-Java geliştirme dünyasında, **doku eklemeyi** öğrenmek PostScript belgelerinde yaygın bir gereksinimdir. Aspose.Page for Java, bu görevi zahmetsizce yerine getirmenize yardımcı olan değerli bir araçtır. Bu öğreticide, Aspose.Page kullanarak bir Java PostScript belgesine doku döşeme deseni ekleme sürecini adım adım göstereceğiz.
+Java geliştirme dünyasında, PostScript belgelerine **how to add texture** eklemeyi öğrenmek yaygın bir gereksinimdir. Aspose.Page for Java bu görevi basitleştirir, düşük seviyeli PostScript sözdizimi yerine tasarıma odaklanmanızı sağlar. Bu öğreticide, bir doku döşeme deseni eklemek, şekilleri doldurmak ve hatta bir Java PostScript belgesinde metni doku ile kaplamak için gereken tüm adımları göstereceğiz.
 
 ## Hızlı Yanıtlar
-- **Hangi kütüphane gerekiyor?** Aspose.Page for Java  
-- **Bu kılavuzun hedeflediği ana anahtar kelime nedir?** *how to add texture*  
-- **Test için lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü mevcuttur; üretim için lisans gereklidir.  
-- **Hangi Java sürümü destekleniyor?** Java 8 ve üzeri.  
-- **Doku fırçasını birden fazla şekil için yeniden kullanabilir miyim?** Evet – `TexturePaint`'i bir kez oluşturup istediğiniz şekle uygulayabilirsiniz.
+- **Gerekli kütüphane nedir?** Aspose.Page for Java  
+- **Bu kılavuzun hedeflediği birincil anahtar kelime nedir?** *how to add texture*  
+- **Test için lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü mevcuttur; üretim için bir lisans gereklidir.  
+- **Desteklenen Java sürümü nedir?** Java 8 veya üzeri.  
+- **Birden fazla şekil için doku fırçasını yeniden kullanabilir miyim?** Evet – `TexturePaint`'i bir kez oluşturup herhangi bir şekle uygulayabilirsiniz.  
+- **Bir dikdörtgeni doku ile nasıl doldururum?** `TexturePaint`i geçerli boya olarak ayarladıktan sonra `document.fill(shape)` kullanın.
 
-## Doku döşeme deseni nedir?
-Doku döşeme deseni, küçük bir görüntüyü (döşemeyi) daha büyük bir alana tekrar ederek, **şekli doku ile doldurmanıza** olanak tanır; her bir döşemeyi manuel olarak çizmenize gerek kalmaz. Bu teknik, PostScript'te arka planlar, doldurmalar ve dekoratif metin efektleri için idealdir.
+## Doku Döşeme Deseni Nedir?
+Bir doku döşeme deseni, küçük bir görüntüyü (döşeme) daha büyük bir alana tekrar eder ve **fill shape with texture** ifadesini manuel olarak her döşemeyi çizmeye gerek kalmadan gerçekleştirmenizi sağlar. Bu teknik, PostScript'te arka planlar, doldurmalar ve dekoratif metin efektleri için idealdir.
 
-## Neden Aspose.Page for Java?
-- **Sıfır bağımlılık renderlama** – harici PostScript yorumlayıcılarına ihtiyaç yok.  
-- **Grafik üzerinde tam kontrol** – vektör şekilleri, metin ve bitmap dokuları birleştirin.  
-- **Çapraz platform** – Java'yı destekleyen herhangi bir işletim sisteminde çalışır.  
+## Neden Aspose.Page for Java Kullanmalı?
+- **Zero‑dependency rendering** – harici PostScript yorumlayıcılarına ihtiyaç yok.  
+- **Full control over graphics** – vektör şekilleri, metin ve bitmap dokuları birleştirin.  
+- **Cross‑platform** – Java destekleyen herhangi bir işletim sisteminde çalışır.
 
 ## Önkoşullar
-Öğreticiye başlamadan önce aşağıdaki önkoşulların karşılandığından emin olun:
+Öğreticiye başlamadan önce, aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 - Java programlama diline temel bir anlayış.  
 - PostScript belge yapısına aşinalık.  
-- Aspose.Page for Java kütüphanesi yüklü. İndirmek için [buraya](https://releases.aspose.com/page/java/) tıklayın.
+- Aspose.Page for Java kütüphanesi yüklü. Bunu [burada](https://releases.aspose.com/page/java/) adresinden indirebilirsiniz.
 
-## Paketleri İçe Aktarma
+## Paketleri İçe Aktar
 Java projeniz için gerekli paketleri içe aktararak başlayın:
 
 ```java
@@ -57,8 +62,11 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Adım 1: Bir PostScript Belgesi Oluşturma
-Yeni bir PostScript belgesi oluşturun, çıktı akışını ve kaydetme seçeneklerini belirtin. Gerekli yolların yapılandırıldığından emin olun.
+## Java PostScript'te Doku Döşeme Deseni Nasıl Eklenir
+Aşağıda adım adım bir kılavuz bulunmaktadır. Her adım kısa bir açıklama ve kopyalamanız gereken tam kodu içerir.
+
+### Adım 1: PostScript Belgesi Oluştur
+Yeni bir PostScript belgesi oluşturarak başlayın, çıktı akışını ve kaydetme seçeneklerini belirleyin. Gerekli yolların yapılandırıldığından emin olun.
 
 ```java
 // The path to the documents directory.
@@ -73,8 +81,8 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Adım 2: Grafik Ortamını Ayarlama
-Kökeni (origin) çevirerek ve doku görüntü dosyasından bir `BufferedImage` oluşturarak grafik ortamını ayarlayın.
+### Adım 2: Grafik Ortamını Kur
+Kökeni uygun bir konuma taşıyın ve doku döşemesi olarak kullanılacak bitmap'i yükleyin.
 
 ```java
 document.writeGraphicsSave();
@@ -83,8 +91,8 @@ document.translate(200, 100);
 BufferedImage image = ImageIO.read(new File(dataDir + "TestTexture.bmp"));
 ```
 
-## Adım 3: Doku Fırçası Oluşturma
-Görüntüden bir doku fırçası tanımlayın, dokunun kaplayacağı alanı belirtin.
+### Adım 3: Doku Fırçası Oluştur
+`TexturePaint`'i tanımlayın; bu, bitmap'i şeklin alanı boyunca tekrar eder. Döşemenin daha büyük veya daha küçük görünmesini istiyorsanız dikdörtgen boyutunu ayarlayın.
 
 ```java
 // Create image area doubled in width
@@ -93,8 +101,8 @@ Rectangle2D.Float imageArea = new Rectangle2D.Float(0, 0, image.getWidth() * 2, 
 TexturePaint paint = new TexturePaint(image, imageArea);
 ```
 
-## Adım 4: Şekilleri Çizme ve Doldurma
-Bir dikdörtgen oluşturun ve tanımlanan fırçayı kullanarak **şekli doku ile doldurun**. Ayrıca görsel çekicilik için şekli çizin ve kenarlığını belirginleştirin.
+### Adım 4: Şekilleri Çiz ve Doldur
+Bir dikdörtgen oluşturun ve fırçayı kullanarak **fill rectangle with texture** yapın. Ardından şeklin kenarını çizin, böylece sonuç görsel olarak belirgin olur.
 
 ```java
 // Create rectangle
@@ -108,8 +116,8 @@ document.setStroke(new BasicStroke(2));
 document.draw(shape);
 ```
 
-## Adım 5: Doku Desenli Metin Ekleme
-Belgeye metin ekleyin ve **doku ile doldurmanın** nasıl yapılacağını gösterin. Gerekli olduğunda yazı tipi, konum ve diğer parametreleri özelleştirin.
+### Adım 5: Metne Doku Deseni Ekle
+Aynı dokuyu metin gliflerine de uygulayabilirsiniz. Bu, karakterlere **how to fill texture** uygulamayı gösterirken, aynı zamanda kenarlık ekleyebilmenizi sağlar.
 
 ```java
 // Fill the text with the texture pattern
@@ -119,8 +127,8 @@ document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicS
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
 
-## Adım 6: Kaydetme ve Kapatma
-Mevcut sayfayı kapatarak, belgeyi kaydederek ve sorunsuz bir yürütme sağlayarak işlemi tamamlayın.
+### Adım 6: Kaydet ve Kapat
+Son olarak, sayfayı kapatın, belgeyi kaydedin ve kaynakları serbest bırakın.
 
 ```java
 // Close current page
@@ -130,37 +138,36 @@ document.save();
 ```
 
 ## Yaygın Sorunlar ve İpuçları
-- **Eksik doku dosyası** – `TestTexture.bmp` yolunun doğru ve dosyanın erişilebilir olduğundan emin olun.  
-- **Yanlış görüntü boyutları** – Doku uzatılmış görünüyorsa, `imageArea`'yı orijinal görüntü boyutlarıyla eşleşecek şekilde ayarlayın.  
-- **Performans** – Gereksiz nesne oluşturmayı önlemek için aynı `TexturePaint` örneğini birden fazla şekil için yeniden kullanın.
+- **Missing texture file** – `TestTexture.bmp` dosyasının yolunun doğru ve dosyanın erişilebilir olduğunu doğrulayın.  
+- **Incorrect image dimensions** – Doku uzatılmış görünüyorsa, `imageArea`'yı orijinal görüntü boyutuna göre ayarlayın.  
+- **Performance** – Gereksiz nesne oluşturmayı önlemek için aynı `TexturePaint` örneğini birden fazla şekil için yeniden kullanın.  
+- **Pro tip:** Ölçeklendirildiğinde dokunun net kalması için döşeme için yüksek çözünürlüklü bir bitmap kullanın.
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.Page for Java yeni başlayanlar için uygun mu?**  
-C: Kesinlikle! Aspose.Page for Java kapsamlı belgeler sunar ve tüm beceri seviyelerindeki geliştiriciler için erişilebilirdir.
+**Q:** Aspose.Page for Java yeni başlayanlar için uygun mu?  
+**A:** Kesinlikle! Aspose.Page for Java kapsamlı belgeler sağlar, bu da tüm beceri seviyelerindeki geliştiriciler için erişilebilir olmasını sağlar.
 
-**S: Aspose.Page for Java'yı mevcut Java projemle entegre edebilir miyim?**  
-C: Evet, sağlanan belgeleri izleyerek Aspose.Page for Java'yı projenize kolayca entegre edebilirsiniz. [Burada](https://reference.aspose.com/page/java/) daha fazla bilgi bulabilirsiniz.
+**Q:** Aspose.Page for Java'ı mevcut Java projemle entegre edebilir miyim?  
+**A:** Evet, sağlanan belgeleri [burada](https://reference.aspose.com/page/java/) izleyerek Aspose.Page for Java'ı projenize kolayca entegre edebilirsiniz.
 
-**S: Aspose.Page ile ilgili sorularımı nereden sorabilirim?**  
-C: Toplulukla etkileşime geçmek ve destek almak için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
+**Q:** Destek bulabileceğim veya Aspose.Page ile ilgili soruları tartışabileceğim yer neresi?  
+**A:** Toplulukla etkileşime geçmek ve yardım almak için [Aspose.Page forumunu](https://forum.aspose.com/c/page/39) ziyaret edin.
 
-**S: Aspose.Page for Java için ücretsiz deneme mevcut mu?**  
-C: Evet, ücretsiz denemeyi [buradan](https://releases.aspose.com/) keşfedebilirsiniz.
+**Q:** Aspose.Page for Java için ücretsiz deneme sürümü mevcut mu?  
+**A:** Evet, ücretsiz deneme sürümünü [burada](https://releases.aspose.com/) keşfedebilirsiniz.
 
-**S: Aspose.Page for Java için geçici bir lisans nasıl alabilirim?**  
-C: Geçici lisans almak için [bu bağlantıyı](https://purchase.aspose.com/temporary-license/) ziyaret edin.
+**Q:** Aspose.Page for Java için geçici bir lisans nasıl alabilirim?  
+**A:** Geçici lisans almak için [bu bağlantıyı](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
 ## Sonuç
-Tebrikler! Aspose.Page for Java kullanarak bir Java PostScript belgesine **doku ekleme** döşeme desenlerini başarıyla uyguladınız. Farklı bitmap döşemeler, ölçek faktörleri ve birleşik işlemlerle denemeler yaparak doku doldurmalarının yaratıcı potansiyelini keşfetmeye devam edin.
+Tebrikler! Aspose.Page for Java kullanarak bir Java PostScript belgesine **how to add texture** döşeme desenleri eklemeyi başarıyla öğrendiniz. Farklı bitmap döşemeler, ölçek faktörleri ve birleşik işlemlerle denemeler yapmaktan çekinmeyin; böylece doku doldurmalarının tam yaratıcı potansiyelini ortaya çıkarabilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2025-12-17  
-**Test Edilen Versiyon:** Aspose.Page for Java 24.12 (en yeni)  
+**Son Güncelleme:** 2026-05-05  
+**Test Edilen Versiyon:** Aspose.Page for Java 24.12 (latest)  
 **Yazar:** Aspose  
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

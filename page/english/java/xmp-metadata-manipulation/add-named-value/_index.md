@@ -1,11 +1,15 @@
 ---
-title: Add Named Value in XMP Metadata using Java
+title: How to Add XMP Named Value in EPS Files Using Java
 linktitle: Add Named Value in XMP using Java
 second_title: Aspose.Page Java API
-description: Master Java document manipulation with asp. Learn how to add XMP metadata using Aspose.Page – a step‑by‑step guide for adding named values.
+description: Learn how to add XMP named values to EPS files using Aspose.Page for Java – a step‑by‑step guide with code examples.
 weight: 12
 url: /java/xmp-metadata-manipulation/add-named-value/
-date: 2025-12-20
+date: 2026-05-05
+keywords:
+- how to add xmp
+- add named value XMP Java
+- Aspose.Page XMP metadata
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,28 +19,31 @@ date: 2025-12-20
 # Add Named Value in XMP Metadata using Java
 
 ## Introduction
-In modern Java development, managing **XMP metadata** inside EPS files is essential for preserving document provenance and searchability. With **asp** (Aspose.Page for Java), you can effortlessly inject custom named values into the XMP packet. This tutorial walks you through the exact steps—complete with code snippets—so you can start adding XMP metadata to your EPS documents today.
+In modern Java development, learning **how to add XMP** metadata inside EPS files is essential for preserving document provenance and improving searchability. With **asp** (Aspose.Page for Java), you can effortlessly inject custom named values into the XMP packet. This tutorial walks you through the exact steps—complete with code snippets—so you can start adding XMP metadata to your EPS documents today.
 
 ## Quick Answers
-- **What library is needed?** Aspose.Page for Java (asp)
-- **Which file type is targeted?** EPS files containing XMP metadata
-- **Primary use case?** Add custom named values (e.g., page size limits) to XMP
-- **Prerequisites?** JDK 8+ and the Aspose.Page for Java library
-- **Typical implementation time?** 5–10 minutes once the library is set up
+- **What library is needed?** Aspose.Page for Java (asp)  
+- **Which file type is targeted?** EPS files containing XMP metadata  
+- **Primary use case?** Add custom named values (e.g., page size limits) to XMP  
+- **Prerequisites?** JDK 8+ and the Aspose.Page for Java library  
+- **Typical implementation time?** 5–10 minutes once the library is set up  
 
 ## What is asp?
 *asp* is the short form for **Aspose**, a family of .NET and Java APIs that simplify document processing. The Aspose.Page for Java component lets you create, edit, and convert PostScript and EPS files while giving full programmatic access to their metadata, including XMP.
 
 ## Why add named values to XMP metadata?
-- **Search engine friendliness:** Custom tags improve discoverability.
-- **Workflow automation:** Downstream tools can read your custom values to make decisions.
-- **Compliance:** Embed regulatory information directly into the document package.
+- **Search engine friendliness:** Custom tags improve discoverability.  
+- **Workflow automation:** Downstream tools can read your custom values to make decisions.  
+- **Compliance:** Embed regulatory information directly into the document package.  
+
+## Why This Matters
+Adding named values to XMP lets you store arbitrary key‑value pairs that can be read without parsing the whole EPS file. This capability is especially valuable in automated publishing pipelines, digital asset management systems, and compliance‑driven workflows where metadata drives downstream actions.
 
 ## Prerequisites
 Before we dive in, ensure you have the following:
 
-- **Java Development Kit (JDK):** A recent JDK (8 or higher) installed on your machine.
-- **Aspose.Page for Java Library:** Download it from the official [download link](https://releases.aspose.com/page/java/). Add the JAR to your project’s classpath.
+- **Java Development Kit (JDK):** A recent JDK (8 or higher) installed on your machine.  
+- **Aspose.Page for Java Library:** Download it from the official [download link](https://releases.aspose.com/page/java/). Add the JAR to your project’s classpath.  
 - **An EPS file** that either already contains XMP metadata or will have it generated automatically.
 
 ## Import Packages
@@ -51,7 +58,8 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## Step‑by‑Step Guide
+## How to Add XMP Named Value in EPS Files Using Java
+Below is a concise, numbered walkthrough that shows exactly **how to add XMP** named values to an EPS document.
 
 ### Step 1: Initialize Input EPS File Stream
 Load the source EPS file into a `FileInputStream`. This stream feeds the document into Aspose’s API.
@@ -119,27 +127,28 @@ By following these six steps, you have successfully **added a named value in XMP
 | Duplicate key error | Same named value added twice | Check if the key already exists with `xmp.containsNamedValue(...)` before adding. |
 
 ## Frequently Asked Questions
-### Can I use Aspose.Page for Java with other Java libraries?
-Yes, Aspose.Page for Java is designed to work seamlessly with other Java libraries, providing flexibility in your development environment.
 
-### Is a free trial available for Aspose.Page for Java?
-Yes, you can access a free trial of Aspose.Page for Java [here](https://releases.aspose.com/).
+**Q: Can I use Aspose.Page for Java with other Java libraries?**  
+A: Yes, Aspose.Page for Java is designed to work seamlessly with other Java libraries, providing flexibility in your development environment.
 
-### How can I obtain a temporary license for Aspose.Page for Java?
-Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for Aspose.Page for Java.
+**Q: Is a free trial available for Aspose.Page for Java?**  
+A: Yes, you can access a free trial of Aspose.Page for Java [here](https://releases.aspose.com/).
 
-### Where can I find more tutorials and examples for Aspose.Page for Java?
-Explore the [documentation](https://reference.aspose.com/page/java/) for comprehensive tutorials and examples.
+**Q: How can I obtain a temporary license for Aspose.Page for Java?**  
+A: Visit [this link](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for Aspose.Page for Java.
 
-### Is Aspose.Page for Java suitable for large‑scale projects?
-Absolutely, Aspose.Page for Java is designed to handle large‑scale projects efficiently, providing robust document manipulation capabilities.
+**Q: Where can I find more tutorials and examples for Aspose.Page for Java?**  
+A: Explore the [documentation](https://reference.aspose.com/page/java/) for comprehensive tutorials and examples.
+
+**Q: Is Aspose.Page for Java suitable for large‑scale projects?**  
+A: Absolutely, Aspose.Page for Java is designed to handle large‑scale projects efficiently, providing robust document manipulation capabilities.
 
 ## Conclusion
 In this guide we demonstrated how **asp** (Aspose.Page for Java) makes it straightforward to **add named values to XMP metadata** within EPS files. With the steps above, you can enrich your documents with custom metadata, improve searchability, and enable smarter downstream processing.
 
 ---
 
-**Last Updated:** 2025-12-20  
+**Last Updated:** 2026-05-05  
 **Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
