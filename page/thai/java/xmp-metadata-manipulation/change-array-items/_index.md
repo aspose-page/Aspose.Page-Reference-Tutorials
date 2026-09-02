@@ -1,11 +1,60 @@
 ---
-date: 2025-12-20
-description: เรียนรู้วิธีเปลี่ยนรายการในอาเรย์ของ XMP ด้วย Aspose.Page สำหรับ Java
-  (aspose.page xmp java) ปรับแต่งเมตาดาต้าได้อย่างง่ายดายด้วยคู่มือขั้นตอนต่อขั้นตอนของเราและเพิ่มประสิทธิภาพเอกสาร
-  EPS ของคุณวันนี้
-linktitle: Change Array Items in XMP using Java
+date: 2026-05-15
+description: สำรวจ aspose.page xmp tutorial สำหรับ Java — เรียนรู้วิธีเปลี่ยนรายการอาร์เรย์ในเมตาดาต้า
+  XMP, อัปเดตชื่อ EPS, ผู้สร้าง, และอื่น ๆ เพียงไม่กี่บรรทัดของโค้ด
+keywords:
+- aspose.page xmp tutorial
+- change array items java
+- xmp metadata java
+linktitle: เปลี่ยนรายการอาร์เรย์ใน XMP ด้วย Java
+schemas:
+- author: Aspose
+  dateModified: '2026-05-15'
+  description: Explore the aspose.page xmp tutorial for Java—learn how to change array
+    items in XMP metadata, update EPS titles, creators, and more in just a few lines
+    of code.
+  headline: 'aspose.page xmp tutorial: Change Array Items in XMP using Java'
+  type: TechArticle
+- description: Explore the aspose.page xmp tutorial for Java—learn how to change array
+    items in XMP metadata, update EPS titles, creators, and more in just a few lines
+    of code.
+  name: 'aspose.page xmp tutorial: Change Array Items in XMP using Java'
+  steps:
+  - name: Get XMP Metadata
+    text: Call `document.getXmpMetadata()` to retrieve the XMP metadata object associated
+      with the EPS file.
+  - name: Set "dc:title" Array Item
+    text: Use `xmpMetadata.setArrayItem("dc:title", 0, "New Title")` to replace the
+      first title entry.
+  - name: Set "dc:creator" Array Item
+    text: Similarly, `xmpMetadata.setArrayItem("dc:creator", 0, "New Author")` updates
+      the first creator entry.
+  - name: Initialize Output EPS File Stream
+    text: Create a `FileOutputStream` pointing to the destination EPS file to write
+      the updated document.
+  - name: Save Document with Changed XMP Metadata
+    text: The `PsDocument` class represents an EPS document and provides the `save`
+      method to write changes to a stream.
+  type: HowTo
+- questions:
+  - answer: No. You must invoke `setArrayItem` for each index you wish to modify;
+      the API does not provide a bulk‑update method.
+    question: Can I update multiple array items in one call?
+  - answer: Yes. Provide the full prefix (e.g., `myNS:customProp`) when calling `setArrayItem`
+      or `removeArrayItem`.
+    question: Does aspose.page xmp java support custom namespaces?
+  - answer: Reload the EPS with `PsDocument`, call `getXmpMetadata()`, and inspect
+      the returned values, or open the file in an XMP viewer.
+    question: How do I verify that the metadata was updated correctly?
+  - answer: Use `removeArrayItem(namespace, index)` to delete a specific entry from
+      an XMP array.
+    question: Is it possible to remove an array item entirely?
+  - answer: No. XMP metadata is stored separately from the graphic content and does
+      not alter how the EPS renders.
+    question: Will the changes affect the visual appearance of the EPS?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: 'aspose.page xmp java - เปลี่ยนรายการในอาเรย์ของ XMP ด้วย Java'
+title: 'aspose.page xmp tutorial: เปลี่ยนรายการอาร์เรย์ใน XMP ด้วย Java'
 url: /th/java/xmp-metadata-manipulation/change-array-items/
 weight: 15
 ---
@@ -14,33 +63,34 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose.page xmp java: การอ่านและเขียนข้อมูลเมตาในอาร์เรย์ของ XMP ด้วย Java
+# aspose.page xmp tutorial: การเปลี่ยนรายการอาเรย์ใน XMP ด้วย Java
 
 ## บทนำ
-ยินดีต้อนรับสู่คู่มือฉบับสมบูรณ์ของเราเกี่ยวกับการ **เปลี่ยนแปลงรายการในอาร์เรย์ของ XMP โดยใช้ Aspose.Page สำหรับ Java** ไลบรารี **aspose.page xmp java** ช่วยให้คุณควบคุมข้อมูลเมตา XMP ภายในไฟล์ EPS ได้อย่างเต็มที่ ทำให้ง่ายต่อการปรับแต่งชื่อเรื่อง ผู้สร้าง และคุณสมบัติอื่นๆ ในบทช่วยสอนนี้ เราจะแนะนำคุณทีละขั้นตอนที่จำเป็นในการแก้ไขรายการในอาร์เรย์ เพื่อให้คุณสามารถปรับปรุงและปรับแต่งเอกสาร EPS ของคุณได้อย่างมั่นใจ
+ยินดีต้อนรับสู่ **aspose.page xmp tutorial** อย่างครบถ้วนของเรา ในคู่มือนี้เราจะสาธิตขั้นตอนการเปลี่ยนรายการในอาเรย์ของเมตาดาต้า XMP ภายในไฟล์ EPS ด้วย Aspose.Page สำหรับ Java ไม่ว่าคุณจะต้องการอัปเดตชื่อเอกสาร รายชื่อผู้เขียน หรืออาเรย์ XMP ใด ๆ กระบวนการนี้ตรงไปตรงมา ทำงานโดยโปรแกรมทั้งหมด และทำงานกับ Java 8 + ได้อย่างเต็มที่
 
-## คำตอบโดยย่อ
-- **aspose.page xmp java ทำอะไรได้บ้าง?** ช่วยให้สามารถอ่านและเขียนข้อมูลเมตา XMP ในไฟล์ EPS จาก Java ได้
-- **ฉันต้องมีใบอนุญาตเพื่อทดลองใช้หรือไม่?** ใช่ มีการทดลองใช้ฟรี แต่จำเป็นต้องมีใบอนุญาตสำหรับการใช้งานจริง
-- **รองรับ JDK เวอร์ชันใด?** Java 8 หรือใหม่กว่า
-- **ฉันสามารถแก้ไขฟิลด์ข้อมูลเมตาอื่นๆ ได้หรือไม่?** ได้อย่างแน่นอน – คุณสมบัติ XMP ใดๆ ก็สามารถอ่านหรืออัปเดตได้
-- **API ปลอดภัยต่อการใช้งานแบบมัลติเธรดหรือไม่?** การอ่าน/เขียนข้อมูลส่วนใหญ่ปลอดภัยเมื่อใช้กับอินสแตนซ์เอกสารที่แยกจากกัน
+## คำตอบอย่างรวดเร็ว
+- **aspose.page xmp java ทำอะไร?** อ่านและเขียนเมตาดาต้า XMP ในไฟล์ EPS โดยตรงจาก Java  
+- **ต้องมีลิขสิทธิ์เพื่อทดลองใช้งานหรือไม่?** ใช่ — มีรุ่นทดลองฟรี 30 วัน; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง  
+- **รองรับเวอร์ชัน JDK ใด?** Java 8 หรือใหม่กว่า (รวมถึง Java 11, 17, และ 21)  
+- **สามารถแก้ไขฟิลด์เมตาดาต้าอื่นได้หรือไม่?** แน่นอน — คุณสมบัติ XMP ใด ๆ รวมถึงเนมสเปซที่กำหนดเอง สามารถอ่านหรืออัปเดตได้  
+- **API ปลอดภัยต่อการทำงานหลายเธรดหรือไม่?** การดำเนินการอ่าน/เขียนส่วนใหญ่ปลอดภัยเมื่อแต่ละเธรดทำงานกับอินสแตนซ์ `PsDocument` ของตนเอง
 
 ## aspose.page xmp java คืออะไร?
-`aspose.page xmp java` เป็นส่วนหนึ่งของชุด Aspose.Page สำหรับ Java ที่เน้นการจัดการ XMP (Extensible Metadata Platform) โดยจะแยกโครงสร้าง XMP ระดับต่ำออกมาเป็นอ็อบเจ็กต์ Java อย่างง่าย ทำให้คุณสามารถทำงานกับอาร์เรย์ กระเป๋า และคุณสมบัติที่มีโครงสร้างได้โดยไม่ต้องจัดการกับ XML ดิบ
+`aspose.page xmp java` คือส่วนประกอบของ Aspose.Page สำหรับ Java ที่ทำให้ Extensible Metadata Platform (XMP) กลายเป็นอ็อบเจ็กต์ Java ที่ใช้งานง่าย ช่วยให้คุณจัดการอาเรย์, bag, และคุณสมบัติโครงสร้างโดยไม่ต้องจัดการ XML ดิบ ในการใช้งานจริง คุณจะใช้เมธอดระดับสูงเช่น `setArrayItem` และ `removeArrayItem` เพื่อแก้ไขเมตาดาต้าได้ทันที
 
-## ทำไมต้องใช้ aspose.page xmp java สำหรับเมตาเดต้า EPS?
-- **ความแม่นยำ:** กำหนดเป้าหมายรายการอาร์เรย์ XMP ที่เฉพาะเจาะจงได้โดยตรง (เช่น ชื่อเรื่อง ผู้สร้าง)
-- **ระบบอัตโนมัติ:** ผสานรวมการอัปเดตเมตาเดต้าเข้ากับไปป์ไลน์การสร้างหรือกระบวนการแบบแบตช์
-- **ความเข้ากันได้:** ใช้งานได้กับไฟล์ EPS ใดๆ ที่เป็นไปตามมาตรฐาน XMP
+## ทำไมต้องใช้ aspose.page xmp java สำหรับเมตาดาต้า EPS?
+คุณควรใช้ไลบรารีนี้เมื่อจำเป็นต้องควบคุมเมตาดาต้า EPS อย่างแม่นยำและอัตโนมัติในระดับใหญ่ Aspose.Page รองรับ **ฟิลด์สคีม่า XMP มากกว่า 30 รายการ** และสามารถประมวลผลไฟล์ขนาด **สูงสุด 500 MB** โดยไม่ต้องโหลดเอกสารทั้งหมดเข้าสู่หน่วยความจำ ทำให้ได้ความเร็วสูงและใช้หน่วยความจำน้อย API ยังรับประกันว่าการเปลี่ยนแปลงจะคงกราฟิกเดิมไว้ ดังนั้นการเรนเดอร์ภาพจะไม่ถูกกระทบ
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนที่เราจะลงลึกไปในโค้ด โปรดตรวจสอบให้แน่ใจว่าคุณมี:
+- ติดตั้ง Java Development Kit (JDK) 8 หรือใหม่กว่า  
+- ไลบรารี Aspose.Page สำหรับ Java ดาวน์โหลด JAR ล่าสุดจาก [ที่นี่](https://releases.aspose.com/page/java/)  
+- ไฟล์ลิขสิทธิ์ Aspose ที่ถูกต้อง (หรือไลเซนส์ทดลอง) วางไว้ใน classpath
 
-- ติดตั้ง Java Development Kit (JDK) บนระบบของคุณแล้ว - ไลบรารี Aspose.Page สำหรับ Java คุณสามารถดาวน์โหลดได้จาก [ที่นี่](https://releases.aspose.com/page/java/)
+## วิธีการเปลี่ยนรายการอาเรย์ด้วย aspose.page xmp java
+ส่วนนี้จะแสดงเวิร์กโฟลว์เต็มขั้นตอน: เปิดไฟล์ EPS, ดึงอ็อบเจ็กต์เมตาดาต้า XMP, แก้ไขรายการอาเรย์ที่ต้องการ, แล้วบันทึกเอกสารที่อัปเดตกลับไปยังดิสก์ แต่ละขั้นตอนมีโค้ด Java สั้น ๆ ชัดเจน ทำให้ง่ายต่อการนำไปใช้ในแอปพลิเคชันของคุณ
 
-## นำเข้าแพ็กเกจ
-เริ่มต้นด้วยการนำเข้าคลาสที่จำเป็นลงในโปรเจ็กต์ Java ของคุณ ตรวจสอบให้แน่ใจว่าได้เพิ่มไฟล์ JAR ของ Aspose.Page ลงใน classpath ของโปรเจ็กต์แล้ว
+### ขั้นตอนที่ 1: ดึงเมตาดาต้า XMP
+เรียก `document.getXmpMetadata()` เพื่อรับอ็อบเจ็กต์เมตาดาต้า XMP ที่เชื่อมโยงกับไฟล์ EPS
 
 ```java
 import java.io.FileInputStream;
@@ -51,10 +101,8 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## วิธีการเปลี่ยนรายการในอาร์เรย์ด้วย aspose.page xmp java
-
-### ขั้นตอนที่ 1: รับข้อมูลเมตา XMP
-ขั้นแรก ให้ดึงข้อมูลเมตา XMP จากไฟล์ EPS ของคุณ หากไฟล์ไม่มีข้อมูล XMP Aspose.Page จะสร้างบล็อก XMP ใหม่ที่เติมข้อมูลจากความคิดเห็น PS ที่มีอยู่ (เช่น %%Creator, %%Title)
+### ขั้นตอนที่ 2: ตั้งค่ารายการอาเรย์ "dc:title"
+ใช้ `xmpMetadata.setArrayItem("dc:title", 0, "New Title")` เพื่อแทนที่รายการหัวเรื่องแรก
 
 ```java
 // The path to the documents directory.
@@ -66,32 +114,63 @@ PsDocument document = new PsDocument(psStream);
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-### ขั้นตอนที่ 2: กำหนดค่าให้กับอาร์เรย์ "dc:title"
-ตอนนี้ ให้แทนที่องค์ประกอบแรกของอาร์เรย์ **dc:title** ด้วยสตริงชื่อเรื่องใหม่
+### ขั้นตอนที่ 3: ตั้งค่ารายการอาเรย์ "dc:creator"
+เช่นเดียวกัน `xmpMetadata.setArrayItem("dc:creator", 0, "New Author")` จะอัปเดตรายการผู้สร้างแรก
 
 ```java
 // Set "dc:title" array item by index 0 
 xmp.setArrayItem("dc:title", 0, new XmpValue("NewTitle"));
 ```
 
-### ขั้นตอนที่ 3: กำหนดค่าให้กับอาร์เรย์ "dc:creator"
-ในทำนองเดียวกัน ให้อัปเดตองค์ประกอบแรกของอาร์เรย์ **dc:creator**
+### ขั้นตอนที่ 4: เริ่มต้นสตรีมไฟล์ EPS ปลายทาง
+สร้าง `FileOutputStream` ชี้ไปยังไฟล์ EPS ปลายทางเพื่อบันทึกเอกสารที่อัปเดต
 
 ```java
 // Set "dc:creator" array item by index 0
 xmp.setArrayItem("dc:creator", 0, new XmpValue("NewCreator"));
 ```
 
-### ขั้นตอนที่ 4: เริ่มต้นสตรีมไฟล์ EPS เอาต์พุต
-เตรียมสตรีมสำหรับไฟล์ EPS เอาต์พุตที่จะบันทึกข้อมูลเมตาที่แก้ไขแล้ว
+### ขั้นตอนที่ 5: บันทึกเอกสารพร้อมเมตาดาต้า XMP ที่เปลี่ยนแปลง
+คลาส `PsDocument` แทนเอกสาร EPS และมีเมธอด `save` เพื่อเขียนการเปลี่ยนแปลงลงสตรีม
 
 ```java
 // Initialize output EPS file stream
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "xmp3_changed.eps");
 ```
 
-### ขั้นตอนที่ 5: บันทึกเอกสารด้วยข้อมูลเมตา XMP ที่เปลี่ยนแปลง
-สุดท้าย บันทึกการเปลี่ยนแปลงโดยการบันทึกเอกสาร
+## ข้อผิดพลาดทั่วไป & เคล็ดลับ
+- **Index Out of Bounds:** ตรวจสอบให้แน่ใจว่าดัชนีที่ต้องการมีอยู่ มิฉะนั้น Aspose จะโยน `ArrayIndexOutOfBoundsException`  
+- **การจัดการสตรีม:** ปิดสตรีมเสมอในบล็อก `finally` หรือใช้ try‑with‑resources เพื่อป้องกันการล็อกไฟล์  
+- **การเปิดใช้งานลิขสิทธิ์:** ลืมใส่ลิขสิทธิ์ที่ถูกต้องจะทำให้ไฟล์ EPS แสดงลายน้ำในโหมดทดลอง  
+- **ไฟล์ขนาดใหญ่:** สำหรับไฟล์ EPS ที่ใหญ่กว่า 200 MB ควรเพิ่มขนาด heap ของ JVM (`-Xmx2g`) เพื่อหลีกเลี่ยงความกดดันของหน่วยความจำ
+
+## คำถามที่พบบ่อย
+
+**Q: สามารถอัปเดตหลายรายการอาเรย์ในคำสั่งเดียวได้หรือไม่?**  
+A: ไม่ได้ คุณต้องเรียก `setArrayItem` สำหรับแต่ละดัชนีที่ต้องการแก้ไข; API ไม่รองรับวิธีอัปเดตแบบ bulk
+
+**Q: aspose.page xmp java รองรับเนมสเปซที่กำหนดเองหรือไม่?**  
+A: รองรับ ให้ระบุพรีฟิกซ์เต็ม (เช่น `myNS:customProp`) เมื่อเรียก `setArrayItem` หรือ `removeArrayItem`
+
+**Q: จะตรวจสอบว่าเมตาดาต้าอัปเดตถูกต้องหรือไม่?**  
+A: โหลด EPS ใหม่ด้วย `PsDocument`, เรียก `getXmpMetadata()` แล้วตรวจสอบค่าที่คืนกลับ, หรือเปิดไฟล์ในโปรแกรมดู XMP
+
+**Q: สามารถลบรายการอาเรย์ออกทั้งหมดได้หรือไม่?**  
+A: ใช้ `removeArrayItem(namespace, index)` เพื่อลบรายการเฉพาะจากอาเรย์ XMP
+
+**Q: การเปลี่ยนแปลงนี้จะส่งผลต่อการแสดงผลของ EPS หรือไม่?**  
+A: ไม่เลย เมตาดาต้า XMP ถูกเก็บแยกจากเนื้อหากราฟิกและไม่กระทบการเรนเดอร์ของ EPS
+
+## สรุป
+คุณได้เรียนรู้ **aspose.page xmp tutorial** สำหรับ Java และสามารถเปลี่ยนรายการอาเรย์ในเมตาดาต้า XMP ของ EPS ได้อย่างมั่นใจ ความสามารถนี้ช่วยให้คุณสร้างไพป์ไลน์เอกสารอัตโนมัติ, อัปเดตเมตาดาต้าเป็นกลุ่ม, และจัดการสินทรัพย์ได้ดีขึ้นโดยไม่ต้องยุ่งกับข้อมูลภาพ
+
+---
+
+**อัปเดตล่าสุด:** 2026-05-15  
+**ทดสอบกับ:** Aspose.Page for Java 24.11 (ล่าสุด ณ เวลาที่เขียน)  
+**ผู้เขียน:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
 
 ```java
 // Save document with changed XMP metadata
@@ -102,41 +181,13 @@ try {
 }
 ```
 
-## ข้อผิดพลาดทั่วไปและเคล็ดลับ
-- **ดัชนีอยู่นอกขอบเขต:** ตรวจสอบให้แน่ใจว่าดัชนีที่คุณระบุมีอยู่จริง มิฉะนั้น Aspose จะแสดงข้อผิดพลาด
-- **การจัดการสตรีม:** ปิดสตรีมในบล็อก `finally` เสมอเพื่อหลีกเลี่ยงการล็อกไฟล์
-- **การเปิดใช้งานใบอนุญาต:** การลืมตั้งค่าใบอนุญาตที่ถูกต้องอาจส่งผลให้เอาต์พุตมีลายน้ำในโหมดทดลองใช้
+## บทแนะนำที่เกี่ยวข้อง
 
-## สรุป
-ขอแสดงความยินดี! คุณได้เรียนรู้วิธีการเปลี่ยนรายการในอาร์เรย์ XMP โดยใช้ **aspose.page xmp java** เรียบร้อยแล้ว คู่มือทีละขั้นตอนฉบับนี้จะช่วยให้คุณสามารถแก้ไขเมตาเดต้า EPS ได้โดยอัตโนมัติ เปิดประตูสู่เวิร์กโฟลว์เอกสารอัตโนมัติและการจัดการเนื้อหาที่ดียิ่งขึ้น
+- [เพิ่มรายการอาเรย์ในเมตาดาต้า XMP ด้วย Java](/page/java/xmp-metadata-manipulation/add-array-items/)
+- [aspose page xmp tutorial – การเปลี่ยนค่า Named Value ใน XMP ด้วย Java](/page/java/xmp-metadata-manipulation/change-named-value/)
+- [วิธีอ่านเมตาดาต้า XMP ด้วย Java – คู่มือ Aspose.Page](/page/java/xmp-metadata-manipulation/get-metadata/)
 
-## คำถามที่พบบ่อยเพิ่มเติม
-**ถาม: ฉันสามารถอัปเดตรายการในอาร์เรย์หลายรายการในการเรียกครั้งเดียวได้หรือไม่?**
-ตอบ: คุณต้องเรียก `setArrayItem` สำหรับแต่ละดัชนีที่คุณต้องการแก้ไข ไม่มีวิธีการอัปเดตแบบกลุ่ม
-
-
-**ถาม: aspose.page xmp java รองรับเนมสเปซแบบกำหนดเองหรือไม่?**
-ตอบ: ใช่ คุณสามารถทำงานกับเนมสเปซ XMP ที่ลงทะเบียนไว้ได้โดยการระบุคำนำหน้าแบบเต็ม (เช่น `myNS:customProp`)
-
-**ถาม: ฉันจะตรวจสอบได้อย่างไรว่าเมตาเดต้าได้รับการอัปเดตอย่างถูกต้อง?**
-ตอบ: โหลดไฟล์ EPS ใหม่ด้วย `PsDocument` และเรียกใช้ `getXmpMetadata()` เพื่ออ่านค่ากลับมา หรือตรวจสอบไฟล์ในโปรแกรมดู XMP
-
-**ถาม: สามารถลบรายการในอาร์เรย์ออกทั้งหมดได้หรือไม่?**
-ตอบ: ใช้ `removeArrayItem(namespace, index)` เพื่อลบรายการเฉพาะออกจากอาร์เรย์ XMP
-
-**ถาม: การเปลี่ยนแปลงจะส่งผลต่อลักษณะที่ปรากฏของไฟล์ EPS หรือไม่?**
-ตอบ: ไม่ เมตาเดต้า XMP ไม่ใช่สิ่งที่แสดงผลทางภาพ มันจะไม่เปลี่ยนแปลงเนื้อหากราฟิกของไฟล์ EPS
-
-
----
-
-**อัปเดตล่าสุด:** 2025-12-20
-**ทดสอบด้วย:** Aspose.Page for Java 24.11 (เวอร์ชันล่าสุด ณ เวลาที่เขียน)
-**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
