@@ -1,9 +1,14 @@
 ---
-date: 2026-01-02
-description: Aspose.Page Java を使用して XPS ドキュメントに不透明度マスクを追加する方法を学びましょう。ステップバイステップのガイドで、不透明度マスクの矩形を作成し、視覚的品質を向上させます。
-linktitle: Set Opacity Mask in Java XPS
+date: 2026-04-30
+description: Aspose.Page Java を使用して、Java で XPS ドキュメントを作成し、オパシティ マスクを追加する方法を学びましょう。コード例付きのステップバイステップ
+  ガイド。
+keywords:
+- create xps document java
+- opacity mask java
+- aspose.page java
+linktitle: Java XPSで不透明度マスクを設定する
 second_title: Aspose.Page Java API
-title: Aspose.Page Java を使用した Java XPS での不透明度マスクの設定
+title: JavaでXPSドキュメントを作成 – Aspose.Pageで不透明度マスクを設定
 url: /ja/java/xps-transparency/set-opacity-mask/
 weight: 11
 ---
@@ -12,35 +17,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page Java を使用した Java XPS の不透明度マスクの設定
+# Java XPSで不透明度マスクを設定する（Aspose.Page Java 使用）
 
 ## はじめに
-Welcome to our comprehensive guide on **aspose page java** opacity masks. In this tutorial you’ll learn how to create an XPS document, add a canvas, and apply an opacity mask to a rectangle—all with the powerful Aspose.Page Java API. By the end you’ll be able to add opacity mask rectangles that give your XPS files a polished, semi‑transparent look.
+このチュートリアルでは **create XPS document Java** ファイルを作成し、グラフィックに洗練された半透明の外観を与える不透明度マスクの適用方法を学びます。直感的な Aspose.Page Java API を使用して、XPS ドキュメントの初期化、キャンバスの追加、矩形の描画、画像ベースの不透明度マスクの付与までの全工程を順に解説します。最後まで実施すれば、プログラムでプロフェッショナルな XPS ファイルを生成し、必要な任意の形状にマスクを再利用できるようになります。
 
 ## クイック回答
-- **不透明度マスクは何をするものですか？** 形状の透明度レベルを変化させ、下のコンテンツが透けて見えるようにします。  
-- **必要なライブラリはどれですか？** Aspose.Page for Java (aspose page java)。  
-- **ライセンスは必要ですか？** テスト用には一時ライセンスで動作しますが、本番環境ではフルライセンスが必要です。  
-- **コード行数はどれくらいですか？** Javaで約20行に加えて、いくつかのセットアップ文があります。  
-- **マスクを複数の形状で再利用できますか？** はい、同じ ImageBrush を複数のパスに割り当てることができます。  
+- **不透明度マスクは何をするものですか？** 形状の透明度レベルを可変に定義し、下にあるコンテンツが透けて見えるようにします。  
+- **どのライブラリが必要ですか？** Aspose.Page for Java (aspose page java)。  
+- **ライセンスは必要ですか？** テスト用の一時ライセンスで動作しますが、本番環境では正式なライセンスが必要です。  
+- **コード行数はどれくらいですか？** Java で約20行に加えて数行のセットアップ文です。  
+- **マスクを複数の形状で再利用できますか？** はい、同じ `ImageBrush` を複数のパスに割り当てることができます。
 
-## XPS における不透明度マスクとは？
-An opacity mask is a bitmap or vector that controls the alpha (transparency) of each pixel in a shape. When applied to a rectangle, parts of the rectangle become fully opaque, partially transparent, or fully transparent, creating sophisticated visual effects.
+## XPSにおける不透明度マスクとは？
+不透明度マスクはビットマップまたはベクターで、形状内の各ピクセルのアルファ（透明度）を制御します。矩形に適用すると、矩形の一部が完全に不透明になったり、部分的に透明になったり、完全に透明になったりし、余分な描画レイヤーを使用せずに高度な視覚効果を実現します。
 
-## なぜ Aspose.Page Java を不透明度マスクに使用するのか？
-- **Full .NET‑style API in Java** – 直感的なオブジェクトモデル。  
-- **No external dependencies** – 純粋な Java で動作します。  
-- **High‑fidelity rendering** – マスクは XPS 仕様通りに正確にレンダリングされます。  
-- **Cross‑platform** – Windows、Linux、macOS で変更なしで実行できます。  
+## Aspose.Page Java を使用して **create XPS document java** を行う理由は？
+- **Pure Java API** – ネイティブ依存がなく、Windows、Linux、macOS のいずれでも同じコードが動作します。  
+- **Full XPS spec compliance** – マスクは XPS 標準で定義された通りに正確に描画されます。  
+- **Object‑oriented design** – .NET に似た設計で、他言語の Aspose を使用したことがある方でも習得が容易です。  
+- **High performance** – 大規模ドキュメントやバッチ処理に最適化されています。
+
+## 主な使用例
+- **ウォーターマーキング** – ページ全体に半透明ロゴを適用します。  
+- **動的テーマ** – 生成レポートの UI 要素の視覚スタイルを変更します。  
+- **印刷プレビュー** – 印刷前に不透明度を変化させたデザインを確認できます。
 
 ## 前提条件
+開始する前に以下を確認してください：
 - Java プログラミングの基本的な理解。  
-- Aspose.Page for Java ライブラリがインストールされていること。**[here](https://releases.aspose.com/page/java/)** からダウンロードできます。  
-- 有効な Aspose.Page ライセンス。お持ちでない場合は、**[here](https://purchase.aspose.com/temporary-license/)** から一時ライセンスを取得してください。  
-- Java アプリケーションをコンパイル・実行できる開発環境（例: IntelliJ IDEA、Eclipse、VS Code）。  
+- Aspose.Page for Java ライブラリがインストール済み。**[here](https://releases.aspose.com/page/java/)** からダウンロードできます。  
+- 有効な Aspose.Page ライセンス。お持ちでない場合は **[here](https://purchase.aspose.com/temporary-license/)** から一時ライセンスを取得してください。  
+- Java アプリケーションをコンパイル・実行できる開発環境（例：IntelliJ IDEA、Eclipse、VS Code）。
 
 ## パッケージのインポート
-Start by importing the necessary classes from the Aspose.Page library. This ensures the API is available to your project.
+まず Aspose.Page ライブラリから必要なクラスをインポートします。これにより API がプロジェクトで利用可能になります。
 
 ```java
 import com.aspose.xps.XpsCanvas;
@@ -51,26 +62,26 @@ import com.aspose.xps.XpsTileMode;
 import java.awt.geom.Rectangle2D;
 ```
 
-## ステップバイステップガイド
+## 手順ガイド
 
-### ステップ 1: 新しい XPS ドキュメントを作成する
-First, instantiate a fresh XPS document that will hold all of our graphics.
+### 手順 1: 新しい XPS ドキュメントを作成する
+まず、すべてのグラフィックを保持する新しい XPS ドキュメントのインスタンスを生成します。
 
 ```java
 // Create a new XPS document
 XpsDocument doc = new XpsDocument();
 ```
 
-### ステップ 2: キャンバスを追加する
-A canvas acts as a drawing surface inside the XPS page.
+### 手順 2: キャンバスを追加する
+キャンバスは XPS ページ内の描画領域として機能します。
 
 ```java
 // New canvas
 XpsCanvas canvas = doc.addCanvas();
 ```
 
-### ステップ 3: 四角形を追加し、単色塗りを適用する
-Here we create a rectangle path and give it a solid red fill. This rectangle will later receive the opacity mask.
+### 手順 3: 矩形を追加し、単色塗りつぶしを適用する
+ここでは矩形パスを作成し、単色の赤で塗りつぶします。この矩形は後で不透明度マスクを受け取ります。
 
 ```java
 // Rectangle in the middle left with opacity masked by ImageBrush
@@ -78,8 +89,8 @@ XpsPath path = canvas.addPath(doc.createPathGeometry("M 10,180 L 228,180 228,285
 path.setFill(doc.createSolidColorBrush(doc.createColor(1.0f, 0.0f, 0.0f)));
 ```
 
-### ステップ 4: ImageBrush を使用して不透明度マスクを追加する
-We load a TIFF image, define source and destination rectangles, and set the brush to tile mode so the mask repeats if needed.
+### 手順 4: ImageBrush を使用して不透明度マスクを追加する
+TIFF 画像を読み込み、ソース矩形とデスティネーション矩形を定義し、必要に応じてマスクが繰り返されるようにブラシをタイルモードに設定します。
 
 ```java
 path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif", 
@@ -87,42 +98,42 @@ path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif",
 ((XpsImageBrush)path.getOpacityMask()).setTileMode(XpsTileMode.Tile);
 ```
 
-### ステップ 5: 結果の XPS ドキュメントを保存する
-Finally, persist the document to disk. The output file will contain the rectangle with the applied opacity mask.
+### 手順 5: 結果の XPS ドキュメントを保存する
+最後に、ドキュメントをディスクに永続化します。出力ファイルには不透明度マスクが適用された矩形が含まれます。
 
 ```java
 // Save resultant XPS document
 doc.save(dataDir + "OpacityMask_out.xps"); 
 ```
 
-Follow these steps carefully to incorporate **add opacity mask** functionality into your Java XPS document using Aspose.Page.
+これらの手順を注意深く実行すれば、Aspose.Page を使用して Java XPS ドキュメントに **add opacity mask** 機能を組み込むことができます。
 
-## 一般的な問題とトラブルシューティング
-- **Image not found** – `dataDir` が正しいフォルダーを指しているか、`R08SY_NN.tif` が存在するか確認してください。  
-- **Mask appears solid** – ソース画像に実際にアルファ値の変化があるか確認してください。完全に不透明な画像では透明度は表示されません。  
-- **Tile mode not respected** – タイルが目立つようにするには、デスティネーション矩形がソース矩形より小さい必要があります。  
+## よくある問題とトラブルシューティング
+- **画像が見つからない** – `dataDir` が正しいフォルダーを指しているか、`R08SY_NN.tif` が存在するか確認してください。  
+- **マスクが完全に不透明に見える** – ソース画像に実際に可変のアルファ値が含まれていることを確認してください。完全に不透明な画像では透明度は表示されません。  
+- **タイルモードが反映されない** – デスティネーション矩形はソース矩形より小さく設定する必要があります。そうしないとタイル効果が目立ちません。
 
 ## よくある質問
 
 **Q: Aspose.Page はすべての Java 開発環境と互換性がありますか？**  
-A: Yes, Aspose.Page is designed to work seamlessly with various Java IDEs and build tools.
+A: はい、Aspose.Page はさまざまな Java IDE やビルドツールでシームレスに動作するよう設計されています。
 
-**Q: Aspose.Page をライセンスなしで使用できますか？**  
-A: While you can evaluate the library with a temporary license, a full license is required for production use.
+**Q: ライセンスなしで Aspose.Page を使用できますか？**  
+A: 一時ライセンスで評価は可能ですが、本番環境で使用する場合は正式なライセンスが必要です。
 
-**Q: 試用版に制限はありますか？**  
-A: The trial may impose size or feature restrictions; consult the official documentation for details.
+**Q: トライアル版に制限はありますか？**  
+A: トライアル版ではサイズや機能に制限が課される場合があります。詳細は公式ドキュメントをご確認ください。
 
-**Q: Aspose.Page のサポートはどうすれば受けられますか？**  
-A: Visit the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** for community help or purchase a license for premium assistance.
+**Q: Aspose.Page のサポートはどのように受けられますか？**  
+A: **[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39)** でコミュニティの助けを得るか、プレミアムサポートが必要な場合はライセンスをご購入ください。
 
 **Q: Aspose.Page に返金保証はありますか？**  
-A: Refer to the **[purchase page](https://purchase.aspose.com/buy)** for information on refund policies.
+A: 返金ポリシーの詳細は **[購入ページ](https://purchase.aspose.com/buy)** をご参照ください。
 
 ---
 
-**最終更新日:** 2026-01-02  
-**テスト環境:** Aspose.Page Java 24.11 (執筆時点での最新)  
+**最終更新日:** 2026-04-30  
+**テスト環境:** Aspose.Page Java 24.11（執筆時点の最新バージョン）  
 **作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

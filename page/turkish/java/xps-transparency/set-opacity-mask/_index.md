@@ -1,11 +1,14 @@
 ---
-date: 2026-01-02
-description: Aspose.Page Java ile XPS belgelerine opaklık maskesi eklemeyi öğrenin.
-  Opaklık maskesi dikdörtgeni oluşturmak ve görsel kaliteyi artırmak için adım adım
-  rehber.
-linktitle: Set Opacity Mask in Java XPS
+date: 2026-04-30
+description: Aspose.Page Java kullanarak XPS belgesi oluşturmayı ve bir opaklık maskesi
+  eklemeyi öğrenin. Kod örnekleriyle adım adım rehber.
+keywords:
+- create xps document java
+- opacity mask java
+- aspose.page java
+linktitle: Java XPS'te Opaklık Maskesini Ayarla
 second_title: Aspose.Page Java API
-title: Aspose.Page Java ile Java XPS'te Opaklık Maskesini Ayarlama
+title: XPS Belgesi Oluşturma Java – Aspose.Page ile Opaklık Maskesi Ayarlama
 url: /tr/java/xps-transparency/set-opacity-mask/
 weight: 11
 ---
@@ -14,36 +17,41 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java XPS'de Opaklık Maskesini Ayarlama Aspose.Page Java Kullanarak
+# Java XPS'te Opaklık Maskesi Ayarlama Aspose.Page Java ile
 
-## Giriiş
-**aspose page java** opaklık maskeleri üzerine kapsamlı rehberimize hoş geldiniz. Bu öğreticide bir XPS belgesi oluşturmayı, bir kanvas eklemeyi ve bir dikdörtgene opaklık paketi uygulamasını — tüm bunlar güçlü Aspose.Page Java API'si ile ilgili bilgileri içerir. Sonunda XPS dosyalarınıza cilalı, yarı‑saydam bir görünüm kazandıran opaklık maskeli dosyalar ekleyebileceksiniz.
+## Giriş
+Bu öğreticide **create XPS document Java** dosyaları oluşturacak ve grafiğinize cilalı, yarı‑saydam bir görünüm kazandıran bir opaklık maskesi uygulamayı öğreneceksiniz. Aspose.Page Java API'sını kullanarak tüm süreci adım adım inceleyeceğiz — bir XPS belgesi başlatmaktan, kanvas eklemeye, bir dikdörtgen çizmeye ve görüntü‑tabanlı bir opaklık maskesi eklemeye kadar. Sonunda, programlı olarak profesyonel XPS dosyaları üretebilecek ve maskeyi ihtiyacınız olan herhangi bir şekle yeniden kullanabileceksiniz.
 
 ## Hızlı Yanıtlar
-- **Bir opaklık maskesi ne yapar?** Bir şeklin açıklığının değişmesi, adı içeriğinin görünmesini sağlar.
-- **Hangi kütüphanesi gereklidir?** Aspose.Page for Java (aspose page java).
-- **Lisans gerekli mi?** Test için geçici bir lisans yeterlidir; üretim için tam lisans gerekir.
-- **Kaç satır kod?** Yaklaşık 20 satır Java kodu ve birkaç kurulum açıklaması.
-- **Maskeyi birden fazla miktarda yeniden kullanabilir miyim?** Evet, aynı ImageBrush'ı anında çok yola atayabilirsiniz.
+- **Bir opaklık maskesi ne işe yarar?** Bir şeklin farklı şeffaflık seviyelerini tanımlar, altındaki içeriğin görünmesine izin verir.  
+- **Hangi kütüphane gereklidir?** Aspose.Page for Java (aspose page java).  
+- **Lisans gerekiyor mu?** Test için geçici bir lisans yeterlidir; üretim için tam lisans gereklidir.  
+- **Kaç satır kod?** Yaklaşık 20 satır Java kodu ve birkaç kurulum ifadesi.  
+- **Maskeyi birden fazla şekle yeniden kullanabilir miyim?** Evet, aynı `ImageBrush`'ı birden fazla yola atayabilirsiniz.
 
-## XPS'de Opaklık Maskesi nedir?
-Opaklık maskesi, bir şeklin her pikselinin alfa (şeffaflık) değerini kontrol eden bir bitmap veya vektördür. Bir dikdörtgenin açılışında, düzenlenirin bazı bölümleri tamamen opak, bazılarının şeffaf, bazılarının ise tamamen şeffaf hale getirilmesini sağlayan görsel efektler oluşturur.
+## XPS'te Opaklık Maskesi Nedir?
+Opaklık maskesi, bir şeklin her pikselinin alfa (şeffaflık) değerini kontrol eden bir bitmap veya vektördür. Bir dikdörtgene uygulandığında, dikdörtgenin bazı bölümleri tamamen opak, kısmen saydam veya tamamen şeffaf hâle gelir ve ek çizim katmanları olmadan karmaşık görsel efektler oluşturur.
 
-## Opaklık Maskeleri için Neden Aspose.Page Java Kullanılmalı?
-- **Java'da tam .NET‑stil API** – kişisel nesne modeli.
-- **Harici ilişkiler yok** – saf Java ile çalışır.
-- **Yüksek doğrulukta render** – maskelerin XPS spesifikasyonunda olduğu gibi render edilir.
-- **Çapraz platformu** – Windows, Linux veya macOS'ta değişiklik yapılmadan çalıştırılır.
+## **create XPS document java** için Aspose.Page Java Neden Kullanılmalı?
+- **Saf Java API** – Yerel bağımlılıkları yoktur, bu yüzden aynı kod Windows, Linux veya macOS'ta çalışır.  
+- **Tam XPS spesifikasyon uyumu** – Maskeler XPS standardında tanımlandığı gibi render edilir.  
+- **Nesne‑yönelimli tasarım** – .NET'e benzer, Aspose'u diğer dillerde kullandıysanız öğrenmesi kolaydır.  
+- **Yüksek performans** – Büyük belgeler ve toplu işleme için optimize edilmiştir.
+
+## Yaygın Kullanım Senaryoları
+- **Filigranlama** – Sayfalar boyunca yarı‑saydam bir logo uygular.  
+- **Dinamik temalandırma** – Oluşturulan raporlardaki UI öğelerinin görsel stilini değiştirir.  
+- **Baskıya hazır ön izlemeler** – Tasarımın farklı opaklıklarla nasıl görüneceğini yazıcıya göndermeden önce gösterir.
 
 ## Önkoşullar
-Başlamadan önce gelişmelerin olduğundan emin olun:
-- Java programlamaya temel bir anlayış.
-- Aspose.Page for Java yükü yüklü. **[buradan](https://releases.aspose.com/page/java/)** indirebilirsiniz.
-- Aspose.Page için geçerli bir lisans. Yoksa **[buradan](https://purchase.aspose.com/temporary-license/)** geçici bir lisans belgesidir.
-- Java'yı kaydedip çalıştırabilecek bir geliştirme ortamı (IntelliJ IDEA, Eclipse veya VS Code gibi).
+Başlamadan önce şunları temin edin:
+- Java programlamaya temel bir anlayış.  
+- Aspose.Page for Java kütüphanesi yüklü. **[buradan](https://releases.aspose.com/page/java/)** indirebilirsiniz.  
+- Aspose.Page için geçerli bir lisans. Yoksa, geçici bir lisansı **[buradan](https://purchase.aspose.com/temporary-license/)** edinebilirsiniz.  
+- Java uygulamalarını derleyip çalıştırabilecek bir geliştirme ortamı (ör. IntelliJ IDEA, Eclipse veya VS Code).
 
 ## Paketleri İçe Aktar
-Aspose.Page kütüphanesinden gerekli sınıfları içeri aktararak başlayın. Bu, API'nin projenizde kullanılabilir olmasını sağlar.
+İlk olarak Aspose.Page kütüphanesinden gerekli sınıfları içe aktarın. Bu, API'nin projenizde kullanılabilir olmasını sağlar.
 
 ```java
 import com.aspose.xps.XpsCanvas;
@@ -54,9 +62,9 @@ import com.aspose.xps.XpsTileMode;
 import java.awt.geom.Rectangle2D;
 ```
 
-## Adım Adım Kılavuz
+## Adım‑Adım Kılavuz
 
-### Adım 1: Yeni Bir XPS Belgesi Oluşturun
+### Adım 1: Yeni Bir XPS Belgesi Oluştur
 İlk olarak, tüm grafikleri tutacak yeni bir XPS belgesi örneği oluşturun.
 
 ```java
@@ -64,7 +72,7 @@ import java.awt.geom.Rectangle2D;
 XpsDocument doc = new XpsDocument();
 ```
 
-### Adım 2: Bir Tuval Ekleyin
+### Adım 2: Bir Kanvas Ekleyin
 Kanvas, XPS sayfası içinde bir çizim yüzeyi görevi görür.
 
 ```java
@@ -72,8 +80,8 @@ Kanvas, XPS sayfası içinde bir çizim yüzeyi görevi görür.
 XpsCanvas canvas = doc.addCanvas();
 ```
 
-### Adım 3: Bir Dikdörtgen Ekleyin ve Düz Renk Dolgusu Uygulayın
-Burada bir dikdörtgen yolu oluşturup ona katı kırmızı bir dolgu veriyoruz. Bu dikdörtgen daha sonra opaklık maskesi alacak.
+### Adım 3: Bir Dikdörtgen Ekleyin ve Katı Dolgu Uygulayın
+Burada bir dikdörtgen yolu oluşturup ona katı kırmızı bir dolgu veriyoruz. Bu dikdörtgen daha sonra opaklık maskesini alacak.
 
 ```java
 // Rectangle in the middle left with opacity masked by ImageBrush
@@ -81,8 +89,8 @@ XpsPath path = canvas.addPath(doc.createPathGeometry("M 10,180 L 228,180 228,285
 path.setFill(doc.createSolidColorBrush(doc.createColor(1.0f, 0.0f, 0.0f)));
 ```
 
-### Adım 4: Bir ImageBrush Kullanarak Opaklık Maskesi Ekleyin
-Bir TIFF resmi yüklüyor, kaynak ve hedef dikdörtgenleri tanımlıyor ve fırçayı döşeme (tile) moduna ayarlıyoruz; böylece gerekirse maske tekrarlanır.
+### Adım 4: ImageBrush Kullanarak Opaklık Maskesi Ekleyin
+Bir TIFF görüntüsü yüklüyoruz, kaynak ve hedef dikdörtgenleri tanımlıyoruz ve fırçayı döşeme moduna ayarlıyoruz, böylece maske gerektiğinde tekrarlanır.
 
 ```java
 path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif", 
@@ -90,42 +98,42 @@ path.setOpacityMask(doc.createImageBrush(dataDir +  "R08SY_NN.tif",
 ((XpsImageBrush)path.getOpacityMask()).setTileMode(XpsTileMode.Tile);
 ```
 
-### Adım 5: Oluşturulan XPS Belgesini Kaydedin
-Son olarak belgeyi diske kaydedin. Çıktı dosyası, uygulanan opaklık maskesiyle birlikte dikdörtgeni içerecek.
+### Adım 5: Oluşan XPS Belgesini Kaydedin
+Son olarak, belgeyi diske kaydedin. Çıktı dosyası, uygulanan opaklık maskesiyle dikdörtgeni içerecek.
 
 ```java
 // Save resultant XPS document
 doc.save(dataDir + "OpacityMask_out.xps"); 
 ```
 
-Bu adımları dikkatle izleyerek **add opacity mask** işlevselliğini Java XPS belgenize Aspose.Page kullanarak ekleyebilirsiniz.
+Bu adımları dikkatlice izleyerek **add opacity mask** işlevselliğini Aspose.Page kullanarak Java XPS belgenize dahil edin.
 
-## Yaygın Sorunlar ve Sorun Giderme
-- **Resim hatası oluştu** – `dataDir`'in doğru klasörde işaretlendiğini ve `R08SY_NN.tif` dosyalarının mevcut olup olmadığını doğrulayın.
-- **Maske katı görünüyor** – Kaynak resminin gerçekten değişken alfa değerlerinin ortaya çıkmasından emin olun; tamamen opak bir resim şeffaflık göstermez.
-- **Döşeme modu uygulanmıyor** – Döşemenin fark edilmesi için hedef dikdörtgen, kaynak kayıtlıdan daha küçük olmalıdır.
+## Yaygın Sorunlar ve Çözümleme
+- **Görüntü bulunamadı** – `dataDir`'in doğru klasöre işaret ettiğini ve `R08SY_NN.tif` dosyasının mevcut olduğunu doğrulayın.  
+- **Maske katı görünüyor** – Kaynak görüntünün gerçekten değişen alfa değerleri içerdiğinden emin olun; tamamen opak bir görüntü şeffaflık göstermez.  
+- **Döşeme modu uygulanmıyor** – Döşemenin fark edilmesi için hedef dikdörtgen, kaynak dikdörtgenden daha küçük olmalıdır.
 
 ## Sıkça Sorulan Sorular
 
-**S: Aspose.Page tüm Java geliştirme ortamlarıyla uyumlu mu?**
-C: Evet, Aspose.Page çeşitli Java IDE'leri ve yapı araçlarıyla sorunsuz şekilde çalıştırılabilir şekilde tasarlanmıştır.
+**S: Aspose.Page tüm Java geliştirme ortamlarıyla uyumlu mu?**  
+C: Evet, Aspose.Page çeşitli Java IDE'leri ve yapı araçlarıyla sorunsuz çalışacak şekilde tasarlanmıştır.
 
-**S: Aspose.Page'i lisanssız kullanabilir miyim?**
+**S: Aspose.Page'ı lisans olmadan kullanabilir miyim?**  
 C: Kütüphaneyi geçici bir lisansla değerlendirebilirsiniz, ancak üretim kullanımı için tam lisans gereklidir.
 
-**S: Deneme sürümünde sınırlamalar var mı?**
-C: Deneme bölüm boyutu veya özellik sınırlamaları yapılabilir; ayrıntılar için resmi dokümantasyona bakın.
+**S: Deneme sürümünde herhangi bir sınırlama var mı?**  
+C: Deneme sürümü boyut veya özellik kısıtlamaları getirebilir; ayrıntılar için resmi belgeleri inceleyin.
 
-**S: Aspose.Page için destek nasıl alınır?**
-C: **[Aspose.Page forumu](https://forum.aspose.com/c/page/39)** üzerinden bölüm yardımı alabilir veya premium destek için lisans satın alabilirsiniz.
+**S: Aspose.Page için nasıl destek alabilirim?**  
+C: Topluluk yardımı için **[Aspose.Page forumunu](https://forum.aspose.com/c/page/39)** ziyaret edin veya premium destek için lisans satın alın.
 
-**S: Aspose.Page için para iade garantisi var mı?**
-C: **[satın alma sayfası](https://purchase.aspose.com/buy)**'da iade politikaları hakkında bilgi bulabilirsiniz.
+**S: Aspose.Page için para iade garantisi var mı?**  
+C: İade politikaları hakkında bilgi için **[satın alma sayfasına](https://purchase.aspose.com/buy)** bakın.
 
 ---
 
-**Son Güncelleme:** 2026-01-02
-**Test Edilenler:** Aspose.Page Java 24.11 (yazım anındaki en yeni sürüm)
+**Son Güncelleme:** 2026-04-30  
+**Test Edilen Sürüm:** Aspose.Page Java 24.11 (yazım anındaki en son sürüm)  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
