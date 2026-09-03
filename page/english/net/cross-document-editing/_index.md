@@ -1,8 +1,8 @@
 ---
-title: "Create XPS Document – Cross-Document Editing with Aspose.Page"
+title: "How to Create an XPS Document Using Aspose.Page – Cross-Document Editing"
 linktitle: Cross-Document Editing
 second_title: Aspose.Page .NET API
-description: "Learn how to create XPS document with Aspose.Page for .NET, add glyph clones, edit glyph color, and manipulate pages efficiently."
+description: "Learn how to efficiently create an XPS document using Aspose.Page for .NET, add glyph clones, edit glyph color, and manipulate pages."
 weight: 22
 url: /net/cross-document-editing/
 date: 2026-06-04
@@ -67,6 +67,17 @@ Aspose.Page supports **30+ XPS features**—including vector graphics, text rend
 ## How to create XPS document with Aspose.Page?
 `Document` represents an XPS file and provides access to its pages and resources. Load the Aspose.Page namespace, instantiate a `Document` object, add a page, then save. This two‑step pattern creates a valid XPS file ready for further editing, allowing you to set metadata, page size, and initial content before any further processing.
 
+```csharp
+using Aspose.Page;
+using Aspose.Page.Xps;
+using Aspose.Page.Xps.XpsModel;
+
+// Create a new XPS document
+Document doc = new Document();
+Page page = doc.AddPage();
+doc.Save("output.xps");
+```
+
 ## How to add glyph and edit glyph color in XPS documents?
 `Glyph` is a vector shape that can represent a character, shape, or graphic element within an XPS page. Create a `Glyph` instance, set its geometry, clone it if needed, assign a new `FillColor` (e.g., `Color.Red`), and add the glyph to the target page’s `Glyphs` collection. The API handles rendering and ensures the color change is reflected in the final XPS output.
 
@@ -75,17 +86,17 @@ Use the `Document.Pages` collection to insert a new `Page`, remove an existing o
 
 ## Add Glyph Clone and Change Color with Aspose.Page for .NET
 
-In this tutorial, we'll explore the incredible capabilities of Aspose.Page for .NET, focusing on adding glyph clones and effortlessly changing colors in XPS documents. Whether you're a seasoned developer or a beginner, our step‑by‑step guide ensures a seamless learning experience. Enhance the visual appeal of your documents with this powerful functionality. [Read More](./add-glyph-clone-and-change-color/)
+In this tutorial, we'll explore the incredible capabilities of Aspose.Page for .NET, focusing on adding glyph clones and effortlessly changing colors in XPS documents. Whether you're a seasoned developer or a beginner, our step‑by‑step guide ensures a seamless learning experience. Enhance the visual appeal of your documents with this powerful functionality. [Read more about adding glyph clone and changing color](./add-glyph-clone-and-change-color/)
 
 ## Add Image Filled Glyph & Foreign Image with Aspose.Page .NET
 
-Unleash the true potential of document processing in .NET with this tutorial. We'll guide you through the process of adding image‑filled glyphs and incorporating foreign images using Aspose.Page for .NET. Elevate your document visuals and streamline your workflow with ease. [Read More](./add-image-filled-glyph-and-foreign-image/)
+Unleash the true potential of document processing in .NET with this tutorial. We'll guide you through the process of adding image‑filled glyphs and incorporating foreign images using Aspose.Page for .NET. Elevate your document visuals and streamline your workflow with ease. [Read more about image‑filled glyphs and foreign images](./add-image-filled-glyph-and-foreign-image/)
 
 ## Manipulate Pages with Aspose.Page for .NET
 
-Efficient page manipulation in .NET becomes a breeze with Aspose.Page. Dive into our step‑by‑step guide, exploring the ins‑and‑outs of manipulating pages in XPS documents. Whether you're organizing content, rearranging pages, or optimizing layout, this tutorial provides the insights you need for seamless results. [Read More](./manipulate-pages/)
+Efficient page manipulation in .NET becomes a breeze with Aspose.Page. Dive into our step‑by‑step guide, exploring the ins‑and‑outs of manipulating pages in XPS documents. Whether you're organizing content, rearranging pages, or optimizing layout, this tutorial provides the insights you need for seamless results. [Read more about page manipulation techniques](./manipulate-pages/)
 
-## Cross‑Document Editing Tutorials
+## Cross‑Document editing tutorials
 ### [Add Glyph Clone and Change Color with Aspose.Page for .NET](./add-glyph-clone-and-change-color/)
 ### [Add Image Filled Glyph & Foreign Image with Aspose.Page .NET](./add-image-filled-glyph-and-foreign-image/)
 ### [Manipulate Pages with Aspose.Page for .NET](./manipulate-pages/)
@@ -94,7 +105,7 @@ Whether you are a developer looking to expand your skill set or a professional s
 
 Explore each tutorial in detail, and master the art of cross‑document editing with Aspose.Page for .NET. Elevate your document processing skills and stay ahead in the dynamic world of .NET development. Happy coding!
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page in a commercial application?**  
 A: Yes, a valid Aspose license grants full commercial usage; a free trial is available for evaluation.
@@ -119,9 +130,9 @@ A: Yes—loop through a folder, load each `Document`, apply the desired edits, a
 
 ## Related Tutorials
 
-- [Add Glyph Clone and Change Color with Aspose.Page for .NET](/page/net/cross-document-editing/add-glyph-clone-and-change-color/)
-- [Add Image Filled Glyph & Foreign Image with Aspose.Page .NET](/page/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/)
-- [Modify XPS Document with Aspose.Page for .NET](/page/net/document-creation/modify-xps-document/)
+- [Add Glyph Clone and Change Color with Aspose.Page for .NET](./add-glyph-clone-and-change-color/)
+- [Add Image Filled Glyph & Foreign Image with Aspose.Page .NET](./add-image-filled-glyph-and-foreign-image/)
+- [Modify XPS Document with Aspose.Page for .NET](../document-creation/modify-xps-document/)
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

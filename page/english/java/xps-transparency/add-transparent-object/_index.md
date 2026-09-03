@@ -1,8 +1,8 @@
 ---
-title: How to Create Transparent XPS Object in Java with Aspose.Page
+title: Create a Transparent XPS Object in Java with Aspose.Page Java API
 linktitle: Add Transparent Object in Java XPS
 second_title: Aspose.Page Java API
-description: Learn how to create transparent XPS object in Java using Aspose.Page. Step‑by‑step guide for adding transparency to XPS documents with stunning visual effects.
+description: Learn how to create a transparent XPS object in Java using the Aspose.Page Java API. This step‑by‑step guide shows how to add transparency to XPS documents with stunning visual effects.
 weight: 10
 url: /java/xps-transparency/add-transparent-object/
 date: 2026-06-04
@@ -34,7 +34,7 @@ schemas:
       you can convert between formats or share geometry objects.
   - question: Where can I find more samples and support?
     answer: Visit the [Aspose.Page Java Forum](https://forum.aspose.com/c/page/39)
-      for community help and explore the full API reference **[here](https://reference.aspose.com/page/java/)**.
+      for community help and explore the full API reference **[Aspose.Page Java API reference](https://reference.aspose.com/page/java/)**.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -63,7 +63,7 @@ Adding transparency with Aspose.Page is straightforward and highly performant. T
 Before we dive in, make sure you have:
 
 - JDK 8 or newer installed.  
-- Aspose.Page for Java library downloaded from the official site **[here](https://releases.aspose.com/page/java/)**.  
+- Aspose.Page for Java library downloaded from the official site **[Aspose.Page Java download page](https://releases.aspose.com/page/java/)**.  
 - A development IDE (IntelliJ IDEA, Eclipse, or VS Code) to compile and run the sample.
 
 ## Import Packages
@@ -77,7 +77,7 @@ import java.awt.Color;
 
 Now let’s walk through the example code step by step.
 
-## Step 1: Initialize the Document
+## Step 1: initialize the document
 The `Document` class is Aspose.Page's top‑level object that represents a single XPS file in memory. Create an instance, add a page, and set the output folder.
 
 ```java
@@ -88,7 +88,7 @@ XpsDocument doc = new XpsDocument();
 ```
 Start by setting up your document and specifying the directory where your XPS document will be saved.
 
-## Step 2: Create Transparent Objects
+## Step 2: create transparent objects
 Here we create two gray paths that will serve as a backdrop for the transparent shapes we’ll add later.
 
 ```java
@@ -98,7 +98,7 @@ doc.addPath(doc.createPathGeometry("M300,120 h600 V420 h-600")).setFill(doc.crea
 ```
 These paths are drawn with a solid gray brush; they remain fully opaque so you can clearly see the effect of the transparent overlays.
 
-## Step 3: Add Filled Paths
+## Step 3: add filled paths
 `SolidColorBrush` is a brush that fills shapes with a solid color and supports opacity settings. In this step we create a solid blue rectangle and place it on the page. This rectangle will later be overlapped by transparent shapes, illustrating the effect.
 
 ```java
@@ -111,7 +111,7 @@ XpsPath path2 = doc.add(path1);
 ```
 The rectangle uses a standard `SolidColorBrush` with full opacity (1.0).
 
-## Step 4: Manipulate Transparency
+## Step 4: manipulate transparency
 `setOpacity` sets the brush's opacity level between 0.0 (fully transparent) and 1.0 (fully opaque). Here we change the fill color of the duplicated path and apply a translation transform. This demonstrates how transparency interacts when objects share a parent element.
 
 ```java
@@ -124,7 +124,7 @@ path3.setFill(doc.createSolidColorBrush(Color.RED));
 ```
 Notice the `setOpacity(0.6)` call—this makes the shape 60 % opaque, letting the blue rectangle underneath show through.
 
-## Step 5: Duplicate and Modify Paths
+## Step 5: duplicate and modify paths
 We clone an existing path, move it, and adjust its opacity to 0.8 (80 % opaque). This step showcases how you can reuse geometry while customizing transparency for each instance.
 
 ```java
@@ -140,7 +140,7 @@ path5.getFill().setOpacity(0.8f);
 ```
 Reusing geometry reduces memory overhead by up to **30 %** when generating many similar shapes.
 
-## Step 6: Save the Document
+## Step 6: save the document
 `save` writes the XPS document to the specified file path, preserving all graphics and opacity settings. Finally, we persist the XPS file. Open the resulting file in any XPS viewer to see the layered transparency in action.
 
 ```java
@@ -148,13 +148,13 @@ Reusing geometry reduces memory overhead by up to **30 %** when generating man
 doc.save(dataDir + "WorkingWithTransparency_out.xps");
 ```
 
-## Common Issues & Tips
+## Common issues & tips
 - **Opacity not visible?** Ensure you are using a brush that supports opacity, such as `createSolidColorBrush`.  
 - **Transform not applied?** Call `setRenderTransform` **before** adding the path to the page; otherwise the transform is ignored.  
 - **Performance tip:** Reuse geometry objects and brushes when drawing many shapes; this can cut processing time by up to **45 %** for large documents.  
 - **File size concern?** Transparency adds only a few kilobytes; Aspose.Page compresses the XPS package automatically.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I apply transparency to shapes other than rectangles?**  
 A: Yes—any geometry (ellipse, polygon, path, etc.) can receive an opacity value via its brush.
@@ -169,7 +169,7 @@ A: Absolutely. The library supports batch processing of thousands of pages, thre
 A: Yes—Aspose.Page works alongside libraries like Apache PDFBox or Java AWT; you can convert between formats or share geometry objects.
 
 **Q: Where can I find more samples and support?**  
-A: Visit the [Aspose.Page Java Forum](https://forum.aspose.com/c/page/39) for community help and explore the full API reference **[here](https://reference.aspose.com/page/java/)**.
+A: Visit the [Aspose.Page Java Forum](https://forum.aspose.com/c/page/39) for community help and explore the full API reference **[Aspose.Page Java API reference](https://reference.aspose.com/page/java/)**.
 
 ---
 
@@ -181,9 +181,9 @@ A: Visit the [Aspose.Page Java Forum](https://forum.aspose.com/c/page/39) for co
 
 ## Related Tutorials
 
-- [How to Add Transparency in Java XPS Documents](/page/java/xps-transparency/)
-- [Set Opacity Mask in Java XPS using Aspose.Page Java](/page/java/xps-transparency/set-opacity-mask/)
-- [Convert XPS to PDF in Java using Aspose.Page Java](/page/java/file-merging/xps-to-pdf/)
+- [Add Transparency in Java XPS Documents]({{< relref "../_index.md" >}})
+- [Set Opacity Mask in Java XPS using Aspose.Page Java]({{< relref "../set-opacity-mask/_index.md" >}})
+- [Convert XPS to PDF in Java using Aspose.Page Java]({{< relref "../../file-merging/xps-to-pdf/_index.md" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -1,8 +1,8 @@
 ---
-title: How to Add Glyphs: Clone and Change Color with Aspose.Page for .NET
+title: 'Add and Clone Glyphs, Change Color with Aspose.Page for .NET'
 linktitle: Add Glyph Clone and Change Color
 second_title: Aspose.Page .NET API
-description: Learn how to add glyphs and change glyph color in XPS documents using Aspise.Page for .NET. This tutorial walks through cloning glyphs and applying solid color brushes in C#.
+description: Learn to add and clone glyphs, change their color in XPS documents using Aspose.Page for .NET. This tutorial demonstrates cloning glyphs and applying solid color brushes in C#.
 date: 2026-06-04
 keywords:
 - how to add glyphs
@@ -17,7 +17,7 @@ url: /net/cross-document-editing/add-glyph-clone-and-change-color/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Add Glyphs: Clone and Change Color with Aspose.Page for .NET
+# Add and Clone Glyphs, Change Color with Aspose.Page for .NET
 
 ## Introduction
 
@@ -127,18 +127,18 @@ Saving the second document uses the same `Save` method, persisting the cloned an
 doc2.Save(dataDir + "out2.xps");
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Glyph not appearing:** Ensure the font you reference is installed on the machine or embedded in the XPS document.  
 - **Color not changing:** Verify that you are assigning the `SolidColorBrush` to the glyph’s `Fill` property *before* calling the render method.  
 - **File size spikes:** Use `DocumentOptions.Compress` to reduce the final XPS file size when working with many glyphs.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page for .NET with other document formats?**  
 A: Aspose.Page is purpose‑built for XPS; for PDF, DOCX, or other formats, explore the corresponding Aspose libraries.
 
 **Q: Is a temporary license available for Aspose.Page for .NET?**  
-A: Yes, you can obtain a temporary license for testing purposes. Visit [here](https://purchase.aspose.com/temporary-license/) for more information.
+A: Yes, you can obtain a temporary license for testing purposes. Visit the **temporary license page** for more information.
 
 **Q: Where can I get community support?**  
 A: The official Aspose.Page forum at [Aspose.Page forum](https://forum.aspose.com/c/page/39) is a great place to ask questions and share solutions.
@@ -147,7 +147,7 @@ A: The official Aspose.Page forum at [Aspose.Page forum](https://forum.aspose.co
 A: The trial adds a watermark and limits some advanced features; consult the documentation for full details.
 
 **Q: Where is the full API reference?**  
-A: Detailed class and method descriptions are available [here](https://reference.aspose.com/page/net/).
+A: Detailed class and method descriptions are available in the **Aspose.Page .NET API reference**.
 
 ## Conclusion
 
@@ -163,10 +163,9 @@ You now know **how to add glyphs**, clone them across documents, and change thei
 
 ## Related Tutorials
 
-- [Create XPS Document with Aspose.Page for .NET](/page/net/document-creation/create-xps-document/)
-- [Add Image Filled Glyph & Foreign Image with Aspose.Page .NET](/page/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/)
-- [Add Text to XPS Document with Aspose.Page for .NET](/page/net/text-manipulation/add-text-to-xps-document/)
-
+- {{< relref "page/net/document-creation/create-xps-document/_index.md" >}}Create XPS Document with Aspose.Page for .NET{{< /relref >}}
+- {{< relref "page/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/_index.md" >}}Add Image Filled Glyph & Foreign Image with Aspose.Page .NET{{< /relref >}}
+- {{< relref "page/net/text-manipulation/add-text-to-xps-document/_index.md" >}}Add Text to XPS Document with Aspose.Page for .NET{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
