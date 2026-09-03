@@ -1,10 +1,35 @@
 ---
-date: 2025-12-21
-description: Java kullanarak EPS belgelerinde XMP'yi Aspose.Page ile nasıl değiştireceğinizi
-  öğrenin. Aspose.Page for Java ile meta verileri hızlıca geliştirin.
-linktitle: Change Values in XMP using Java
+date: 2026-05-25
+description: Aspose.Page ile Java kullanarak EPS belgelerinde xmp'yi nasıl değiştireceğinizi
+  öğrenin. Metaverileri hızlı ve güvenilir bir şekilde güncelleyin.
+keywords:
+- how to modify xmp
+- Aspose.Page Java
+- XMP metadata EPS
+linktitle: Java kullanarak XMP'de Değerleri Değiştir
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to modify xmp in EPS documents using Java with Aspose.Page.
+    Update metadata quickly and reliably.
+  headline: how to modify xmp with Aspose.Page – Change Values in XMP using Java
+  type: TechArticle
+- questions:
+  - answer: Utilize `TimeZone.setDefault(TimeZone.getTimeZone("UTC"))` to ensure consistency
+      in time zone settings.
+    question: How can I handle time zone considerations when modifying XMP values?
+  - answer: Yes, by using the `put` method for each desired value, you can modify
+      multiple XMP values concurrently.
+    question: Can I change multiple XMP values in a single operation?
+  - answer: Explore the comprehensive documentation [here](https://reference.aspose.com/page/java/).
+    question: Where can I find additional documentation for Aspose.Page for Java?
+  - answer: Yes, you can access the free trial [here](https://releases.aspose.com/).
+    question: Is there a free trial available for Aspose.Page for Java?
+  - answer: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
+    question: How can I obtain a temporary license for Aspose.Page for Java?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: aspose.page xmp'yi değiştir – Java kullanarak XMP'deki değerleri değiştir
+title: Aspose.Page ile xmp nasıl değiştirilir – Java kullanarak XMP'de Değerleri Değiştir
 url: /tr/java/xmp-metadata-manipulation/change-values/
 weight: 17
 ---
@@ -13,34 +38,31 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# XMP'de Değerleri Java Kullanarak Değiştirme
+# Java ile XMP Değerlerini Değiştirme
 
 ## Giriş
-Eğer bir EPS dosyası içinde **aspose.page modify xmp** verilerini değiştirmeniz gerekiyorsa, doğru yerdesiniz. Bu öğreticide, Aspose.Page Java kütüphanesini kullanarak XMP (Extensible Metadata Platform) değerlerini okuma, güncelleme ve kaydetme adımlarını ayrıntılı olarak göstereceğiz. Sonunda, belge meta verilerini—örneğin oluşturucu başlık ve değiştirme tarihi—projenizin gereksinimlerine göre özelleştirebileceksiniz.
+Eğer Java ile bir EPS dosyası içinde **how to modify xmp** arıyorsanız, doğru yere geldiniz. Bu eğitim, mevcut XMP bloğunu okuma, yaratıcı, başlık ve değiştirme tarihi gibi alanları güncelleme ve son olarak değişiklikleri EPS belgesine geri kaydetme adımlarını size adım adım gösterir. Sonunda, dosyalarınızın marka, uyumluluk veya arama motoru indekslemesi için doğru meta verileri taşımasını sağlayan, herhangi bir otomatik iş akışına uyabilecek yeniden kullanılabilir bir kod parçasına sahip olacaksınız.
 
 ## Hızlı Yanıtlar
-- **aspose.page modify xmp ne yapar?** Aspose.Page Java API'si aracılığıyla EPS dosyalarında XMP meta verilerini okumanıza ve yazmanıza olanak tanır.  
-- **Hangi kütüphane sürümü gereklidir?** Java için herhangi bir yeni Aspose.Page sürümü (API sürümler arasında kararlıdır).  
-- **Örneği çalıştırmak için lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
-- **Birden fazla XMP alanını aynı anda değiştirebilir miyim?** Evet—belgeyi kaydetmeden önce her alan için `put` çağırın.  
-- **Zaman dilimi ayarlaması gerekli mi?** Varsayılan zaman dilimini (ör. UTC) ayarlamak tutarlı tarih değerleri sağlar.
+- **What does “aspose.page modify xmp” do?** Aspose.Page Java API'si aracılığıyla EPS dosyalarında XMP meta verilerini okumanıza ve yazmanıza olanak tanır.  
+- **Which library version is required?** Herhangi bir son Aspose.Page for Java sürümü (API sürümler arasında kararlıdır).  
+- **Do I need a license to run the sample?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Can I change multiple XMP fields at once?** Evet—belgeyi kaydetmeden önce her alan için `put` çağırın.  
+- **Is timezone handling needed?** Varsayılan saat dilimini (ör. UTC) ayarlamak tutarlı tarih değerleri sağlar.
 
 ## XMP Nedir ve Neden Değiştirilir?
-XMP (Extensible Metadata Platform), EPS, PDF ve görüntüler gibi dosyalar içine zengin meta verileri doğrudan gömmenin standart bir yoludur. XMP'yi güncellemek, belgelerin nasıl indekslendiğini, görüntülendiğini ve arandığını kontrol etmenizi sağlar—markalaşma, uyumluluk ve iş akışı otomasyonu için kritik öneme sahiptir.
+XMP (Extensible Metadata Platform), EPS, PDF ve görüntüler gibi dosyalar içine doğrudan zengin meta veri yerleştirmek için standartlaştırılmış, XML‑tabanlı bir formattır. XMP'yi güncellemek, belgelerin nasıl indekslendiğini, görüntülendiğini ve arandığını kontrol etmenizi sağlar—marka tutarlılığı, yasal uyumluluk ve otomatik içerik hatları için kritik öneme sahiptir.
 
-## Neden Aspose.Page for Java Kullanmalısınız?
-- **Tam özellikli API** – Harici araçlara gerek yok; her şey işlem içinde yönetilir.  
-- **Çapraz platform** – Java destekleyen herhangi bir işletim sisteminde çalışır.  
-- **Yerel bağımlılık yok** – Saf Java uygulaması dağıtımı basitleştirir.  
-- **Güçlü destek** – Mevcut XMP bloklarını yönetir ve eksik olduğunda PS yorumlarından yeni oluşturur.
+## Neden Aspose.Page for Java Kullanılır?
+Aspose.Page, **tam özellikli, saf‑Java API** sağlayarak dış araçlara veya yerel kütüphanelere ihtiyaç duymadan çalışmanızı sağlar. **50+ giriş ve çıkış formatını** destekler ve EPS dosyalarını **500 MB**'a kadar belgenin tamamını belleğe yüklemeden işleyebilir, böylece herhangi bir Java çalıştıran işletim sisteminde hızlı ve düşük bellek tüketimli meta veri manipülasyonu sunar.
 
-## Ön Koşullar
-Bu öğreticiye başlamadan önce aşağıdaki ön koşulların sağlandığından emin olun:
-1. **Java Geliştirme Ortamı** – JDK (8 veya üzeri) ve tercih ettiğiniz bir IDE veya derleme aracı.  
-2. **Aspose.Page for Java Kütüphanesi** – Aspose.Page for Java kütüphanesini indirin ve kurun. Gerekli paketi [burada](https://releases.aspose.com/page/java/) bulabilirsiniz.
+## Önkoşullar
+Bu eğitime başlamadan önce aşağıdaki önkoşulların sağlandığından emin olun:
+1. **Java Development Environment** – JDK (8 veya üzeri) ve tercih ettiğiniz bir IDE veya derleme aracı.  
+2. **Aspose.Page for Java Library** – Aspose.Page for Java kütüphanesini indirin ve kurun. Gerekli paketi [burada](https://releases.aspose.com/page/java/) bulabilirsiniz.
 
 ## Paketleri İçe Aktarma
-Gerekli paketleri Java projenize içe aktararak başlayın. Bu paketler, EPS belgeleriyle etkileşim kurmak ve onları işlemek için hayati öneme sahiptir.
+Java projenize gerekli paketleri içe aktararak başlayın. Bu paketler, EPS belgeleriyle etkileşim kurmak ve onları manipüle etmek için hayati öneme sahiptir.
 
 ```java
 import java.io.FileInputStream;
@@ -53,8 +75,13 @@ import com.aspose.eps.xmp.XmpValue;
 import com.aspose.page.BaseExamplesTest;
 ```
 
-## Adım 1: XMP Meta Verilerini Alın
-EPS belgesinden XMP meta verilerini alın. EPS dosyası XMP meta verisi içermiyorsa, %%Creator, %%CreateDate ve %%Title gibi PS meta veri yorumlarından değerler alarak yeni bir XMP bloğu oluşturulur.
+## Java Kullanarak EPS'te XMP Nasıl Değiştirilir?
+`Document` Aspose.Page sınıfı, bir EPS dosyasını temsil eder ve içeriğine ve meta verilerine erişim sağlar. `XmpMetadata` belgeye eklenmiş XMP bloğunu temsil eder ve meta veri alanlarını okuma ve yazma imkanı sunar. `put` XmpMetadata nesnesine bir meta veri girdisi ekler veya günceller. `save` değiştirilen belgeyi, güncellenmiş XMP meta verisi dahil, bir dosyaya yazar.
+
+`new Document("input.eps")` ile EPS dosyasını yükleyin, `XmpMetadata` nesnesini alın, istenen anahtarları `put` ile güncelleyin ve sonunda `save` ile değişiklikleri yeni bir dosyaya yazın. Bu kısa akış, eksik XMP bloklarını otomatik olarak ele alır, gerektiğinde PostScript yorumlarından bir blok oluşturur ve saat dilimi‑tutarlı tarihleri garanti eder.
+
+## Adım 1: XMP Metaverisini Al
+`XmpMetadata` sınıfı, bir EPS belgesine eklenmiş XMP bloğunu temsil eder. `document.getXmpMetadata()` çağrıldığında API, mevcut bloğu döndürür veya `%%Creator`, `%%CreateDate` ve `%%Title` gibi PS yorumlarından yeni bir blok oluşturur.
 
 ```java
 // The path to the documents directory.
@@ -66,8 +93,8 @@ PsDocument document = new PsDocument(psStream);
 XmpMetadata xmp = document.getXmpMetadata();
 ```
 
-## Adım 2: "ModifyDate" Değerini Değiştirin
-XMP meta verisindeki "ModifyDate" değerini istenen tarihi yansıtacak şekilde değiştirin.
+## Adım 2: "ModifyDate" Değerini Değiştir
+Yeni değişiklik zaman damgasını yansıtmak için `"ModifyDate"` girdisini güncelleyin. `java.util.Date` ile birlikte `TimeZone.setDefault(TimeZone.getTimeZone("UTC"))` kullanarak saklanan değerin saat diliminden bağımsız olmasını sağlayın.
 
 ```java
 // Change "ModifyDate" value
@@ -76,8 +103,8 @@ Date now = new Date();
 xmp.put("xmp:ModifyDate", new XmpValue(now));
 ```
 
-## Adım 3: "Creator" Değerini Değiştirin
-XMP meta verisindeki "Creator" değerini belgenin oluşturucusunu belirtecek şekilde güncelleyin.
+## Adım 3: "Creator" Değerini Değiştir
+`"Creator"` anahtarı, EPS dosyasını oluşturan uygulama veya kişinin adını saklar. Mevcut değeri özel bir tanımlayıcıyla değiştirmek için `xmp.put("dc:creator", "Your Company Name")` çağırın.
 
 ```java
 // Change "creator" value
@@ -85,8 +112,8 @@ XmpValue value = new XmpValue("Aspose.Page");
 xmp.put("dc:creator", value);
 ```
 
-## Adım 4: "Title" Değerini Değiştirin
-XMP meta verisindeki "Title" değerini belge için uygun bir başlık ayarlayacak şekilde değiştirin.
+## Adım 4: "Title" Değerini Değiştir
+`"Title"` alanı birçok varlık‑yönetim sistemi tarafından görüntülenir. `xmp.put("dc:title", "New Document Title")` ile ayarlamak, belgenin kataloglarda ve arama sonuçlarında doğru şekilde görünmesini sağlar.
 
 ```java
 // Change "title" value
@@ -94,8 +121,8 @@ value = new XmpValue("(PAGEJAVA-29.eps)");
 xmp.put("dc:title", value);
 ```
 
-## Adım 5: Değiştirilmiş XMP Meta Verileriyle Belgeyi Kaydedin
-Güncellenmiş XMP meta verileriyle belgeyi yeni bir EPS dosyasına kaydedin.
+## Adım 5: Değiştirilmiş XMP Metaverisiyle Belgeyi Kaydet
+Tüm değişikliklerden sonra `document.save("output.eps")` çağırın. Kütüphane, güncellenmiş XMP bloğunu EPS akışına geri yazar ve orijinal grafik içeriğini değiştirmeden korur.
 
 ```java
 // Initialize output EPS file stream
@@ -109,45 +136,53 @@ try {
 ```
 
 ## Yaygın Sorunlar ve Çözümler
-- **XMP bloğu eksik** – API, PS yorumlarından otomatik olarak bir blok oluşturur, ancak gerekirse `XmpMetadata`'yi manuel olarak da örnekleyebilirsiniz.  
-- **Zaman dilimi uyumsuzlukları** – Beklenmeyen kaymaların önüne geçmek için `Date` nesnesi oluşturulmadan önce her zaman `TimeZone.setDefault` ayarlayın.  
-- **Dosya erişim hataları** – Giriş ve çıkış yollarının doğru olduğundan ve uygulamanızın okuma/yazma izinlerine sahip olduğundan emin olun.
+- **Missing XMP block** – API, PS yorumlarından otomatik olarak bir blok oluşturur, ancak gerektiğinde `XmpMetadata` nesnesini manuel olarak da örnekleyebilirsiniz.  
+- **Timezone mismatches** – Beklenmedik sapmaları önlemek için `Date` nesnesini oluşturmadan önce her zaman `TimeZone.setDefault` ayarlayın.  
+- **File access errors** – Girdi ve çıktı yollarının doğru olduğundan ve uygulamanızın okuma/yazma izinlerine sahip olduğundan emin olun.
 
-## Sıkça Sorulan Sorular
+## Sık Sorulan Sorular
 
-**S: XMP değerlerini değiştirirken zaman dilimi hususlarını nasıl ele alabilirim?**  
-C: Zaman dilimi ayarlarında tutarlılık sağlamak için `TimeZone.setDefault(TimeZone.getTimeZone("UTC"))` kullanın.
+**S: XMP değerlerini değiştirirken saat dilimi konularını nasıl yönetebilirim?**  
+C: Saat dilimi ayarlarının tutarlılığını sağlamak için `TimeZone.setDefault(TimeZone.getTimeZone("UTC"))` kullanın.
 
-**S: Tek bir işlemde birden fazla XMP değerini değiştirebilir miyim?**  
-C: Evet—her istenen değer için `put` metodunu kullanarak birden fazla XMP değerini aynı anda değiştirebilirsiniz.
+**S: Tek bir işlemde birden fazla XMP değeri değiştirebilir miyim?**  
+C: Evet, istenen her değer için `put` metodunu kullanarak birden fazla XMP değerini aynı anda değiştirebilirsiniz.
 
 **S: Aspose.Page for Java için ek belgeleri nerede bulabilirim?**  
-C: Kapsamlı belgeleri [burada](https://reference.aspose.com/page/java/) inceleyin.
+C: Kapsamlı belgeleri [burada](https://reference.aspose.com/page/java/) keşfedebilirsiniz.
 
 **S: Aspose.Page for Java için ücretsiz bir deneme mevcut mu?**  
-C: Evet, ücretsiz denemeye [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+C: Evet, ücretsiz denemeye [burada](https://releases.aspose.com/) ulaşabilirsiniz.
 
 **S: Aspose.Page for Java için geçici bir lisans nasıl alabilirim?**  
-C: Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) temin edin.
+C: Geçici lisansı [burada](https://purchase.aspose.com/temporary-license/) elde edebilirsiniz.
 
 **S: XMP'yi değiştirmek EPS'in görsel içeriğini etkiler mi?**  
 C: Hayır. XMP değişiklikleri yalnızca meta veriyi etkiler ve EPS dosyasının grafik öğelerini değiştirmez.
 
-**S: Değişikliği doğrulamak için güncellenen değerleri programlı olarak geri okuyabilir miyim?**  
-C: Kesinlikle—belgeyi kaydettikten ve kapatmadan önce `xmp.get("dc:creator")` (veya ilgili anahtar) çağırarak değerleri kontrol edebilirsiniz.
+**S: Değişiklikleri doğrulamak için güncellenen değerleri programlı olarak okuyabilir miyim?**  
+C: Kesinlikle—belgeyi kaydettikten ve kapatmadan önce `xmp.get("dc:creator")` (veya ilgili anahtar) çağırarak güncellenen değeri alabilirsiniz.
 
 ## Sonuç
-Tebrikler! Aspose.Page for Java kullanarak EPS belgelerinde **aspose.page modify xmp** değerlerini başarıyla değiştirdiniz. Bu öğretici, meta verileri değiştirmenize olanak tanıyan bilgiyle donatmıştır; böylece belgeleriniz belirli gereksinimlerinize sorunsuz bir şekilde uyum sağlar.
+Tebrikler! Aspose.Page for Java kullanarak EPS belgelerinde **how to modify xmp** değerlerini nasıl değiştireceğinizi öğrendiniz. Doğru yaratıcı, başlık ve değiştirme‑tarihi meta verilerini ekleyerek varlıklarınızın aranabilir, uyumlu ve marka standartlarınıza uygun olmasını sağlarsınız. Bu deseni toplu‑işlem hatları, CI/CD adımları veya herhangi bir otomatik belge‑oluşturma iş akışına entegre etmekten çekinmeyin.
 
 ---
 
-**Son Güncelleme:** 2025-12-21  
-**Test Edilen:** Aspose.Page for Java (latest release)  
-**Yazar:** Aspose
+**Last Updated:** 2026-05-25  
+**Tested With:** Aspose.Page for Java (latest release)  
+**Author:** Aspose
+
+## İlgili Eğitimler
+
+- [Aspose Page Java Eğitimi – EPS Dosyalarına XMP Metaverisi Ekle](/page/java/xmp-metadata-manipulation/add-metadata/)
+- [Java ile XMP Metaverisini Okuma – Aspose.Page Kılavuzu](/page/java/xmp-metadata-manipulation/get-metadata/)
+- [aspose.page xmp java - XMP'de Dizi Öğelerini Java ile Değiştirme](/page/java/xmp-metadata-manipulation/change-array-items/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

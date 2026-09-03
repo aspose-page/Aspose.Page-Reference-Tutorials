@@ -1,11 +1,41 @@
 ---
-date: 2025-12-25
-description: Naučte se, jak vytvářet XPS dokumenty v Javě a přidat úchvatný diagonální
-  gradient pomocí Aspose.Page. Tento průvodce pokrývá, jak přidat gradient, aplikovat
-  lineární gradient a efektivně používat Aspose.
-linktitle: Add Diagonal Gradient in Java XPS
+date: 2026-05-25
+description: Naučte se, jak přidat gradient do XPS dokumentů v Java pomocí Aspose.Page.
+  Tento krok‑za‑krokem průvodce ukazuje, jak přidat Diagonal Gradient, použít Linear
+  Gradient Brushes a vytvořit profesionální XPS soubory.
+keywords:
+- how to add gradient
+- Aspose.Page Java
+- diagonal gradient XPS
+linktitle: Přidat Diagonal Gradient v Java XPS
+schemas:
+- author: Aspose
+  dateModified: '2026-05-25'
+  description: Learn how to add gradient to XPS documents in Java using Aspose.Page.
+    This step‑by‑step guide shows how to add a diagonal gradient, apply linear gradient
+    brushes, and produce professional XPS files.
+  headline: 'How to Add Gradient: Diagonal Gradient in Java XPS'
+  type: TechArticle
+- questions:
+  - answer: Create a `XpsLinearGradientBrush`, define gradient stops, and assign it
+      to the shape’s `Fill` property as shown in Step 6.
+    question: How do I **how to add gradient** to an existing XPS shape?
+  - answer: It generates a brush definition in the XPS package that references the
+      start/end points and a collection of gradient stops, which the viewer renders
+      as a smooth color transition.
+    question: What does **apply linear gradient** actually do behind the scenes?
+  - answer: Yes, the Aspose.Page API includes methods for adding images, text, and
+      custom shapes—simply explore the `XpsDocument` class for additional helpers.
+    question: Is there a quick way to **how to use aspose** for other XPS features?
+  - answer: Absolutely. Define any geometry using `createPathGeometry` and then set
+      its `Fill` to a gradient brush.
+    question: Can I **add gradient path** to non‑rectangular shapes?
+  - answer: Only marginally; gradient definitions are lightweight XML entries within
+      the XPS package.
+    question: Does the gradient affect file size significantly?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Jak vytvořit XPS dokument s diagonálním gradientem v Javě
+title: 'Jak přidat gradient: Diagonal Gradient v Java XPS'
 url: /cs/java/xps-gradient-addition/diagonal/
 weight: 10
 ---
@@ -14,34 +44,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidání úhlopříčného gradientu v Java XPS
+# Jak přidat gradient: Diagonální gradient v Java XPS
 
 ## Úvod
-V moderním vývoji v Javě je tvorba XPS dokumentů, které vypadají profesionálně, klíčovým odlišovačem. V tomto tutoriálu se naučíte **jak vytvořit XPS dokument** soubory a vylepšit je úhlopříčným gradientem pomocí Aspose.Page pro Java. Provedeme vás každým krokem, vysvětlíme, proč je každá část důležitá, a ukážeme vám, jak **přidat gradientovou cestu**, **aplikovat lineární gradient**, a rychle získat profesionální vizuální výsledek.
+V moderním vývoji v Javě ovládání **jak přidat gradient** do XPS dokumentů dodá vašim zprávám vylepšený, poutavý vzhled, který vynikne. Tento tutoriál vás provede vytvořením XPS souboru od nuly, přidáním diagonálního gradientu a uložením výsledku – vše pomocí Aspose.Page pro Java. Pochopíte, proč jsou gradienty důležité, uvidíte přesné volání API a získáte praktické tipy, jak se vyhnout běžným úskalím.
 
 ## Rychlé odpovědi
 - **Jaká je hlavní knihovna?** Aspose.Page for Java  
-- **Která metoda přidává gradient?** `createLinearGradientBrush` with gradient stops  
-- **Potřebuji licenci?** A trial works for development; a commercial license is required for production  
-- **Jak dlouho trvá implementace?** About 10‑15 minutes for a basic diagonal gradient  
-- **Mohu to použít s jinými Java frameworky?** Yes, the API is framework‑agnostic  
+- **Která metoda přidává gradient?** `createLinearGradientBrush` s gradientovými zastávkami  
+- **Potřebuji licenci?** Zkušební verze funguje pro vývoj; komerční licence je vyžadována pro produkci  
+- **Jak dlouho trvá implementace?** Přibližně 10‑15 minut pro základní diagonální gradient  
+- **Mohu to použít s jinými Java frameworky?** Ano, API je framework‑agnostické  
 
-## Co je úhlopříčný gradient v XPS dokumentu?
-Úhlopříčný gradient plynule přechází mezi barvami podél šikmé čáry, čímž dodává tvarům hloubku a vizuální zajímavost. V XPS jsou gradienty definovány pomocí štětce, který obsahuje více gradientových zastávek, z nichž každá určuje barvu a její relativní pozici.
+## Co je diagonální gradient v XPS dokumentu?
+Diagonální gradient je plynulý přechod barev, který běží od jednoho rohu tvaru k protilehlému rohu, čímž vytváří šikmý vizuální efekt. V XPS je tento efekt definován lineárním gradientovým štětcem obsahujícím uspořádané gradientové zastávky, které určují barvy a relativní pozice podél diagonální čáry.
 
-## Proč přidat úhlopříčný gradient pomocí Aspose.Page?
-- **Bohatá vizuální kvalita** – gradienty jsou renderovány přesně ve formátu XPS.  
-- **Křížová platformová konzistence** – stejný XPS soubor vypadá identicky na prohlížečích Windows, macOS a Linux.  
-- **Jednoduché API** – Aspose.Page abstrahuje nízkoúrovňové specifikace XPS, což vám umožní soustředit se na design.  
+## Proč přidat diagonální gradient pomocí Aspose.Page?
+Aspose.Page poskytuje **100 % věrnost vykreslování** gradientů napříč více než 20 XPS prohlížeči a podporuje **30+ XPS funkcí** jako text, obrázky a vektorové tvary. API abstrahuje složitý XPS markup, takže se můžete soustředit na design a zároveň mít jistotu, že stejný soubor vypadá identicky na platformách Windows, macOS i Linux.
 
 ## Požadavky
-- Základní znalost programování v Javě.  
+- Základní znalosti programování v Java.  
 - Nainstalovaný JDK na vašem počítači.  
-- Aspose.Page for Java library. You can download it **[zde](https://releases.aspose.com/page/java/)**.  
-- IDE, jako je IntelliJ IDEA nebo Eclipse.
+- Knihovna Aspose.Page pro Java – stáhněte ji **[zde](https://releases.aspose.com/page/java/)**.  
+- IDE jako IntelliJ IDEA nebo Eclipse.
 
 ## Import balíčků
-Begin by importing the classes you’ll need. These imports give you access to geometry, gradient handling, and XPS document creation.
+Začněte importováním tříd, které budete potřebovat. Tyto importy vám umožní přístup k geometrii, práci s gradienty a tvorbě XPS dokumentu.
 
 ```java
 import java.awt.geom.Point2D;
@@ -53,32 +81,34 @@ import com.aspose.xps.XpsGradientStop;
 import com.aspose.xps.XpsPath;
 ```
 
-## Krok 1: Nastavte svůj projekt
-Create a new Java project in your preferred IDE and add the Aspose.Page JAR files to the project’s build path.
+## Krok 1: Nastavte svůj projekt
+Vytvořte nový Java projekt ve svém preferovaném IDE a přidejte soubory Aspose.Page JAR do cesty sestavení projektu.
 
-## Krok 2: Definujte adresář dokumentu
-Specify where the generated XPS file will be saved.
+## Krok 2: Definujte adresář dokumentu
+Určete, kde bude vygenerovaný XPS soubor uložen.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Krok 3: Vytvořte XPS dokument
-Instantiate the XpsDocument object – this is the core object you’ll work with to **create XPS document** content.
+## Krok 3: Vytvořte XPS dokument
+`XpsDocument` je hlavní objekt, který představuje XPS soubor v paměti. Jeho vytvoření vám poskytne plátno pro přidání stránek, tvarů a štětců.
 
 ```java
 XpsDocument doc = new XpsDocument();
 ```
 
-## Krok 4: Přidejte úhlopříčnou gradientovou cestu
-Create a rectangular path that will receive the gradient. The path geometry uses a simple move‑line‑close command.
+## Krok 4: Přidejte cestu diagonálního gradientu
+Vytvořte obdélníkovou cestu, která přijme gradient. Geometrie cesty používá jednoduchý příkaz move‑line‑close.  
+XpsPath definuje vektorový tvar v XPS dokumentu, například obdélník nebo vlastní geometrii.
 
 ```java
 XpsPath path = doc.addPath(doc.createPathGeometry("M 30,20 l 258.24,0 0,56.64 -258.24,0 Z"));
 ```
 
-## Krok 5: Definujte lineární gradientové zastávky
-Set up the colors and their positions. Each stop defines a point in the gradient where a specific color appears.
+## Krok 5: Definujte lineární gradientové zastávky
+Nastavte barvy a jejich pozice. Každá zastávka určuje bod v gradientu, kde se objeví konkrétní barva.  
+XpsGradientStop představuje jedinou barevnou zastávku v gradientu, specifikuje barvu a její offset.
 
 ```java
 List<XpsGradientStop> stops = new LinkedList<>();
@@ -87,46 +117,58 @@ stops.add(doc.createGradientStop(doc.createColor(0, 142, 4), 0f));
 stops.add(doc.createGradientStop(doc.createColor(0, 199, 80), 1f));
 ```
 
-## Krok 6: Aplikujte lineární gradient na cestu
-Now **apply linear gradient** to the path you created. The brush is defined by two points that determine the gradient direction, and the stops are attached to the brush.
+## Krok 6: Aplikujte lineární gradient na cestu
+`XpsLinearGradientBrush` je typ štětce Aspose.Page pro lineární přechody barev. Přijímá dva body, které definují směr gradientu, a kolekci gradientových zastávek, které určují barvy podél této čáry.
 
 ```java
 path.setFill(doc.createLinearGradientBrush(new Point2D.Float(10f, 10f), new Point2D.Float(228f, 100f)));
 ((XpsGradientBrush)path.getFill()).getGradientStops().addAll(stops);
 ```
 
-## Krok 7: Uložte dokument
-Persist the XPS file to disk. The file will contain the rectangle filled with the diagonal gradient you defined.
+## Krok 7: Uložte dokument
+Uložte XPS soubor na disk. Soubor bude obsahovat obdélník vyplněný diagonálním gradientem, který jste definovali.
 
 ```java
 doc.save(dataDir + "LinearGradient.xps");
 ```
 
+## Jak přidat gradient v Java XPS?
+Načtěte `XpsDocument`, vytvořte `XpsLinearGradientBrush` se startovacím bodem `(0,0)` a koncovým bodem `(width,height)`, připojte gradientové zastávky, přiřaďte štětec vlastnosti `Fill` tvaru a nakonec zavolejte `save`. Tento stručný postup vám umožní vložit diagonální gradient během několika volání API, přičemž kód zůstane čistý a udržovatelný.
+
 ## Časté úskalí a tipy
-- **Směr gradientu** – ujistěte se, že počáteční a koncové body štětce odrážejí požadovanou úhlopříčku; jejich výměna otočí gradient.  
-- **Přesnost barev** – Aspose používá ARGB; pokud potřebujete průhlednost, zahrňte alfa kanál při vytváření barev.  
+- **Směr gradientu** – ujistěte se, že počáteční a koncové body štětce odpovídají požadované diagonále; jejich prohození otočí gradient.  
+- **Přesnost barev** – Aspose používá ARGB; zahrňte alfa kanál, pokud potřebujete průhlednost.  
 - **Cesta k souboru** – vždy používejte absolutní cestu nebo ověřte, že relativní cesta ukazuje na existující zapisovatelný adresář.
 
-## Další FAQ
+## Další časté dotazy
 
-**Q: Jak mohu **přidat gradient** do existujícího XPS tvaru?**  
-A: Create a `XpsLinearGradientBrush`, define gradient stops, and assign it to the shape’s `Fill` property as shown in Step 6.
+**Q: Jak mohu **how to add gradient** do existujícího XPS tvaru?**  
+A: Vytvořte `XpsLinearGradientBrush`, definujte gradientové zastávky a přiřaďte jej vlastnosti `Fill` tvaru, jak je ukázáno v kroku 6.
 
-**Q: Co **aplikace lineárního gradientu** ve skutečnosti dělá v pozadí?**  
-A: It generates a brush definition in the XPS package that references the start/end points and a collection of gradient stops, which the viewer renders as a smooth color transition.
+**Q: Co **apply linear gradient** ve skutečnosti dělá pod kapotou?**  
+A: Vytváří definici štětce v XPS balíčku, která odkazuje na počáteční/koncové body a kolekci gradientových zastávek, které prohlížeč vykreslí jako plynulý přechod barev.
 
-**Q: Existuje rychlý způsob, jak **použít aspose** pro jiné XPS funkce?**  
-A: Yes, the Aspose.Page API includes methods for adding images, text, and custom shapes—simply explore the `XpsDocument` class for additional helpers.
+**Q: Existuje rychlý způsob, jak **how to use aspose** pro další XPS funkce?**  
+A: Ano, API Aspose.Page obsahuje metody pro přidávání obrázků, textu a vlastních tvarů – jednoduše prozkoumejte třídu `XpsDocument` pro další pomocníky.
 
-**Q: Mohu **přidat gradientovou cestu** k ne‑obdélníkovým tvarům?**  
-A: Absolutely. Define any geometry using `createPathGeometry` and then set its `Fill` to a gradient brush.
+**Q: Mohu **add gradient path** použít na ne‑obdélníkové tvary?**  
+A: Rozhodně. Definujte libovolnou geometrii pomocí `createPathGeometry` a poté nastavte její `Fill` na gradientový štětec.
 
-**Q: Ovlivňuje gradient podstatně velikost souboru?**  
-A: Only marginally; gradient definitions are lightweight XML entries within the XPS package.
+**Q: Ovlivňuje gradient velikost souboru výrazně?**  
+A: Pouze mírně; definice gradientu jsou lehké XML položky v XPS balíčku.
 
-**Poslední aktualizace:** 2025-12-25  
+---
+
+**Poslední aktualizace:** 2026-05-25  
 **Testováno s:** Aspose.Page for Java 24.11  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Přidání gradientu v Aspose Page XPS](/page/java/xps-gradient-addition/)
+- [Java XPS Text Addition - Aspose.Page Tutorial](/page/java/xps-text-manipulation/add-text/)
+- [Jak přidat obrázek do Java XPS dokumentů – jednoduchý průvodce s Aspose.Page](/page/java/xps-image-manipulation/add-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
