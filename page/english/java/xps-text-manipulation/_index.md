@@ -1,6 +1,6 @@
 ---
-title: "Aspose Page XPS Tutorial – Text Manipulation"
-linktitle: "Aspose Page XPS Tutorial – Text Manipulation"
+title: "Java Text Manipulation Guide"
+linktitle: "Java Text Manipulation Guide"
 second_title: Aspose.Page Java API
 description: "Learn the Aspose Page XPS tutorial for Java. Step‑by‑step guide on aspose page add text, formatting, and performance tips to master XPS document manipulation."
 date: 2026-05-30
@@ -67,6 +67,26 @@ The **aspose page xps tutorial** lets you automate document updates, reduce manu
 ## How to add text using the aspose page add text approach?
 `Page` represents a single page within an XPS document. The `TextFragment` class encapsulates a piece of text that can be placed on a page. Load an XPS document, create a `Page` object, and use the `TextFragment` class to insert the desired string. This **aspose page add text** workflow requires only three API calls and works consistently across all supported platforms, allowing you to add text quickly while preserving existing layout and formatting.
 
+```java
+// Load an existing XPS document
+com.aspose.page.XpsDocument xpsDoc = new com.aspose.page.XpsDocument("input.xps");
+
+// Create a new page (or get an existing one)
+com.aspose.page.Page page = xpsDoc.getPages().add();
+
+// Create a TextFragment with the desired content
+com.aspose.page.TextFragment text = new com.aspose.page.TextFragment("Hello, Aspose!");
+text.setFontSize(24);
+text.setFontFamily("Arial");
+text.setLocation(new com.aspose.page.PointF(100, 150));
+
+// Add the text fragment to the page
+page.getTextFragments().add(text);
+
+// Save the modified document
+xpsDoc.save("output.xps");
+```
+
 ## Introduction
 
 Are you ready to unlock the full potential of your Java XPS documents? Look no further! Dive into our comprehensive Aspose.Page for Java tutorials and embark on a journey to master text manipulation in XPS files. In this guide, we'll walk you through the essential steps to add text seamlessly, enhancing your document manipulation skills.
@@ -75,27 +95,27 @@ Are you ready to unlock the full potential of your Java XPS documents? Look no f
 
 Aspose.Page for Java empowers developers to manipulate XPS documents effortlessly. Whether you're a seasoned developer or just starting, our tutorials provide a user‑friendly approach to harnessing the capabilities of Aspose.Page.
 
-### [Adding Text in Java XPS](./add-text/): Elevate Your Documents
+### [Adding text in java xPS](./add-text/): elevate your documents
 
 The first step to unleashing the potential of Aspose.Page is learning how to add text in Java XPS. Our step‑by‑step guide ensures a smooth journey, allowing you to effortlessly enhance your documents. Say goodbye to complexity and hello to a streamlined process that boosts your document manipulation skills.
 
-### [Exploring Advanced Techniques](#): Going Beyond the Basics
+### [Exploring advanced techniques](#): going beyond the basics
 
 Once you've mastered the art of adding text, it's time to explore advanced techniques. Discover how Aspose.Page for Java can take your document manipulation to the next level. From formatting options to optimizing text placement, our tutorials cover it all.
 
-### [Optimizing Performance](#): Speed Up Your Document Manipulation
+### [Optimizing performance](#): speed up your document manipulation
 
 Efficiency matters, and our tutorials guide you on optimizing performance. Learn how to make your Java XPS document manipulation faster and more efficient with Aspose.Page. Unlock the secrets to seamless integration and elevate your development game.
 
-## Elevate Your Document Manipulation Skills Today!
+## Elevate your document manipulation skills today!
 
 With Aspose.Page for Java tutorials, text manipulation in XPS documents becomes a breeze. Elevate your skills, enhance your projects, and stay ahead in the competitive development landscape. Whether you're a novice or an experienced developer, our step‑by‑step guides ensure a smooth learning curve. Start your journey to mastering text manipulation in Java XPS documents now!
 
-## Text Manipulation - XPS Tutorials
-### [Add Text in Java XPS](./add-text/)
+## Text manipulation - XPS tutorials
+### [Add text in java xPS](./add-text/)
 Enhance your Java XPS documents with Aspose.Page! Follow our step‑by‑step guide to add text effortlessly. Elevate your document manipulation skills today.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Do I need an Aspose license to use the tutorial code?**  
 A: Yes, a valid Aspose.Page license is required for production use; a free trial works for development and testing.
@@ -118,15 +138,17 @@ A: Check the “Exploring Advanced Techniques” and “Optimizing Performance�
 **Tested With:** Aspose.Page for Java 24.10  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [Aspose.Page Add Image XPS – Image Manipulation Tutorial](/page/java/xps-image-manipulation/)
-- [Aspose.Page Java - Add Pages to XPS Tutorial](/page/java/xps-page-manipulation/add-page/)
-- [Convert XPS to PDF in Java using Aspose.Page Java](/page/java/file-merging/xps-to-pdf/)
-
+{{< relref "xps-image-manipulation/_index.md" >}}  
+{{< relref "xps-page-manipulation/add-page/_index.md" >}}  
+{{< relref "file-merging/xps-to-pdf/_index.md" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

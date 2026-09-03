@@ -1,5 +1,5 @@
 ---
-title: "add xps pages java – Page Manipulation with Aspose.Page"
+title: "Add XPS pages in Java – Page Manipulation with Aspose.Page"
 linktitle: Page Manipulation - XPS
 second_title: Aspose.Page Java API
 description: "Learn how to add XPS pages in Java using Aspose.Page. This step‑by‑step guide shows you the exact API calls, prerequisites, and best practices."
@@ -12,13 +12,13 @@ keywords:
   - Aspose.Page for Java
 schemas:
 - type: TechArticle
-  headline: add xps pages java – Page Manipulation with Aspose.Page
+  headline: Add XPS pages in Java – Page Manipulation with Aspose.Page
   description: Learn how to add XPS pages in Java using Aspose.Page. This step‑by‑step
     guide shows you the exact API calls, prerequisites, and best practices.
   dateModified: '2026-05-30'
   author: Aspose
 - type: HowTo
-  name: add xps pages java – Page Manipulation with Aspose.Page
+  name: Add XPS pages in Java – Page Manipulation with Aspose.Page
   description: Learn how to add XPS pages in Java using Aspose.Page. This step‑by‑step
     guide shows you the exact API calls, prerequisites, and best practices.
   steps:
@@ -50,9 +50,12 @@ schemas:
       needed.
 ---
 
-{{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+
+
 
 # Page Manipulation - XPS
 
@@ -71,9 +74,9 @@ If you need to **add XPS pages Java** developers love, you’ve come to the righ
 
 `java xps page manipulation` is the programmatic ability to create, insert, delete, or reorder pages inside an XPS (XML Paper Specification) file using Java code. With Aspose.Page you call a handful of high‑level methods and the library handles the underlying XML, resource packaging, and compliance with the XPS 1.0 specification, letting you focus on business logic instead of file format intricacies.
 
-## Adding Pages Made Effortless
+## Adding pages made effortless
 
-Let's kick off our journey with the fundamental skill of adding pages to your Java XPS documents. With Aspose.Page, this process becomes a breeze, unlocking a new dimension of application functionality. Our tutorial on [Adding Pages in Java XPS](./add-page/) provides step‑by‑step guidance, ensuring you effortlessly navigate the intricacies of the procedure. Additional references: [Add Page in Java XPS tutorial](./add-page/) and [Add Page in Java XPS](./add-page/).
+Let's kick off our journey with the fundamental skill of adding pages to your Java XPS documents. With Aspose.Page, this process becomes a breeze, unlocking a new dimension of application functionality. Our tutorial on [Adding Pages in Java XPS]({{< relref "./add-page/_index.md" >}}) provides step‑by‑step guidance, ensuring you effortlessly navigate the intricacies of the procedure. Additional references: [Add Page in Java XPS tutorial]({{< relref "./add-page/_index.md" >}}) and [Add Page in Java XPS]({{< relref "./add-page/_index.md" >}}).
 
 ## Seamless Integration with Aspose.Page
 
@@ -95,19 +98,34 @@ Load an existing XPS document, call the `addPage()` method on the `Document` obj
 
 First, instantiate the `Document` class with the path to your source file. The constructor parses the package and builds an in‑memory representation.
 
+```java
+// Load the XPS document
+Document document = new Document("input.xps");
+```
+
 ### Step 2: Add a new blank page
 
 Call `document.getPages().add()` to append a fresh page at the end, or use the overload that accepts an index to insert at a specific position. You can also pass a `Page` object if you want to clone an existing page layout.
+
+```java
+// Add a new blank page at the end
+document.getPages().add();
+```
 
 ### Step 3: Save the updated document
 
 Finally, invoke `document.save("output.xps")`. The library writes a fully compliant XPS package, preserving existing content and embedding any new resources you added (fonts, images, etc.).
 
+```java
+// Save the updated XPS file
+document.save("output.xps");
+```
+
 ## Seamless Integration with Aspose.Page
 
 Aspose.Page for Java integrates via a single Maven artifact (`com.aspose:aspose-page`) and requires no native dependencies. Once added to your `pom.xml`, the API is ready to use in any Java 8+ project—whether it’s a Spring Boot service, a traditional servlet, or a command‑line utility. The library also supports **50+ input and output formats** (including PDF, SVG, and raster images) and can process documents with **hundreds of pages** while keeping memory usage under 100 MB thanks to its streaming architecture.
 
-## Common Use Cases
+## Common use cases
 
 - **Automated reporting:** Append a summary page to an existing sales report generated earlier in the workflow.  
 - **Document composition:** Merge several XPS invoices into a single multi‑page file for batch printing.  
@@ -119,13 +137,13 @@ Aspose.Page for Java integrates via a single Maven artifact (`com.aspose:aspose-
 - Maven or Gradle build system to manage the Aspose.Page dependency.  
 - A valid Aspose.Page for Java license file (or a temporary trial key for evaluation).
 
-## Troubleshooting & Tips
+## Troubleshooting & tips
 
 - **Memory issues on very large files:** Enable `Document.setLoadOptions(LoadOptions.withMemoryOptimization(true))` to stream pages instead of loading the whole document into RAM.  
 - **Missing fonts:** If a newly added page references a font not embedded in the original file, use `FontRepository.addFont("path/to/font.ttf")` before saving.  
 - **Page ordering bugs:** Remember that page indices are zero‑based; inserting at index 0 places the new page at the very beginning.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q:** *Can I use java xps page manipulation in a web application?*  
 **A:** Absolutely. The library is pure Java, so you can call it from any servlet, Spring Boot, or other Java‑based web framework.
@@ -148,7 +166,7 @@ Aspose.Page for Java integrates via a single Maven artifact (`com.aspose:aspose-
 **Tested With:** Aspose.Page for Java 24.12  
 **Author:** Aspose
 
-{{< blocks/products/pf/tutorial-page-section >}}
+
 
 ## Related Tutorials
 
@@ -156,7 +174,9 @@ Aspose.Page for Java integrates via a single Maven artifact (`com.aspose:aspose-
 - [How to Merge XPS Files in Java with Aspose.Page](/page/java/file-merging/xps-to-xps/)
 - [Convert XPS to PDF in Java using Aspose.Page Java](/page/java/file-merging/xps-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

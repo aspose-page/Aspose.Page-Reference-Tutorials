@@ -1,5 +1,5 @@
 ---
-title: "How to Create XPS Document with a Tiled Image in Java"
+title: "Create an XPS Document with a Tiled Image using Aspose.Page for Java"
 linktitle: Add Tiled Image in Java XPS
 second_title: Aspose.Page Java API
 description: "Learn how to create XPS document in Java using Aspose.Page and add tiled image effortlessly with this step‑by‑step guide. How to create XPS files quickly."
@@ -12,14 +12,14 @@ keywords:
 - Aspose.Page XPS tutorial
 schemas:
 - type: TechArticle
-  headline: How to Create XPS Document with a Tiled Image in Java
+  headline: Create an XPS Document with a Tiled Image using Aspose.Page for Java
   description: Learn how to create XPS document in Java using Aspose.Page and add
     tiled image effortlessly with this step‑by‑step guide. How to create XPS files
     quickly.
   dateModified: '2026-05-30'
   author: Aspose
 - type: HowTo
-  name: How to Create XPS Document with a Tiled Image in Java
+  name: Create an XPS Document with a Tiled Image using Aspose.Page for Java
   description: Learn how to create XPS document in Java using Aspose.Page and add
     tiled image effortlessly with this step‑by‑step guide. How to create XPS files
     quickly.
@@ -84,7 +84,7 @@ Tiling repeats a graphic across a defined area, which is ideal for backgrounds, 
 Before diving in, make sure you have:
 
 1. **Java Development Kit (JDK)** – JDK 8 or newer installed.  
-2. **Aspose.Page for Java** – download from the [website](https://releases.aspose.com/page/java/).  
+2. **Aspose.Page for Java** – download from the **Aspose.Page Java download page**.  
 3. **A writable directory** – where the generated XPS file will be saved.
 
 ## Import Packages
@@ -105,10 +105,10 @@ import java.awt.geom.Rectangle2D;
 
 ## Step‑by‑Step Guide
 
-### Step 1: Set Up Your Project
+### Step 1: set up your project
 Add the Aspose.Page JAR files to your project’s classpath and verify the import statements compile without errors.
 
-### Step 2: Create XPS Document
+### Step 2: create XPS document
 `XpsDocument` is the core container that holds pages, paths, and resources. Instantiate it with the desired page size, then you can start adding graphical elements.
 
 ```java
@@ -118,10 +118,10 @@ String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-### Step 3: Define the Tiled Image Path
+### Step 3: define the tiled image path
 Place the image you want to tile (e.g., `R08LN_NN.jpg`) inside the directory referenced by `dataDir`. The image will be used as a brush pattern.
 
-### Step 4: Add Tiled Image
+### Step 4: add tiled image
 Create a rectangular path and fill it with an `XpsImageBrush`. By setting the tile mode to `Tile`, the image repeats across the rectangle. Adjust the source and destination rectangles to control tile size and positioning.
 
 ```java
@@ -134,7 +134,7 @@ path.setFill(doc.createImageBrush(dataDir +  "R08LN_NN.jpg",
 path.getFill().setOpacity(0.5f);
 ```
 
-### Step 5: Save the Document
+### Step 5: save the document
 Persist the XPS file to disk. The output file will contain the tiled image you just defined and can be opened with any XPS viewer.
 
 ```java
@@ -144,29 +144,29 @@ doc.save(dataDir + "AddTiledImage_out.xps");
 
 Repeat these steps whenever you need to **add tiled image** to other pages or shapes within the same XPS document.
 
-## Common Issues and Solutions
+## Common issues and solutions
 | Issue | Solution |
 |-------|----------|
 | Image not showing | Verify the file path (`dataDir + "R08LN_NN.jpg"`) is correct and the image is accessible. |
 | Tile pattern appears stretched | Adjust the source and destination `Rectangle2D` values to control the tile size. |
 | Opacity has no effect | Ensure the brush’s opacity is set **after** the tile mode configuration. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q:** Is Aspose.Page compatible with all Java versions?  
-**A:** Aspose.Page supports Java 8 through Java 21; you can find the full compatibility matrix [here](https://reference.aspose.com/page/java/).
+**A:** Aspose.Page supports Java 8 through Java 21; you can find the full compatibility matrix **[compatibility matrix](https://reference.aspose.com/page/java/)**.
 
 **Q:** Can I use Aspose.Page for commercial projects?  
-**A:** Yes, a commercial license is required for production use. Purchase options are listed [here](https://purchase.aspose.com/buy).
+**A:** Yes, a commercial license is required for production use. Purchase options are listed **[purchase options](https://purchase.aspose.com/buy)**.
 
 **Q:** Is there a free trial available?  
-**A:** A fully functional free trial can be downloaded from the Aspose releases page [here](https://releases.aspose.com/).
+**A:** A fully functional free trial can be downloaded from the **[Aspose releases page](https://releases.aspose.com/)**.
 
 **Q:** Where can I get community support?  
-**A:** Join the Aspose.Page community forum at [forum](https://forum.aspose.com/c/page/39) to ask questions and share examples.
+**A:** Join the Aspose.Page community forum at **[forum](https://forum.aspose.com/c/page/39)** to ask questions and share examples.
 
 **Q:** How do I obtain a temporary license for evaluation?  
-**A:** Temporary licenses are provided on request via the Aspose portal [here](https://purchase.aspose.com/temporary-license/).
+**A:** Temporary licenses are provided on request via the Aspose portal **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
 ## Conclusion
 You now have a complete, production‑ready workflow for **how to create XPS** documents with tiled images using Aspose.Page for Java. By leveraging `XpsImageBrush` and `XpsTileMode.Tile`, you can generate rich, repeatable graphics without inflating file size. Experiment with different tile sizes, opacity levels, and shapes to build sophisticated document layouts. For the next step, explore adding vector shapes or text overlays to further enhance your XPS files.
@@ -177,15 +177,17 @@ You now have a complete, production‑ready workflow for **how to create XPS** d
 **Tested With:** Aspose.Page for Java 24.12 (latest)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page](/page/java/xps-image-manipulation/add-image/)
-- [Aspose.Page Java - Add Pages to XPS Tutorial](/page/java/xps-page-manipulation/add-page/)
-- [Convert XPS to PDF in Java using Aspose.Page Java](/page/java/file-merging/xps-to-pdf/)
-
+- {{< relref "java/xps-image-manipulation/add-image" >}}How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page{{< /relref >}}
+- {{< relref "java/xps-page-manipulation/add-page" >}}Aspose.Page Java - Add Pages to XPS Tutorial{{< /relref >}}
+- {{< relref "java/file-merging/xps-to-pdf" >}}Convert XPS to PDF in Java using Aspose.Page Java{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
