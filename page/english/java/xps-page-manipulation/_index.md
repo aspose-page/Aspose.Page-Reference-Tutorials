@@ -1,5 +1,5 @@
 ---
-title: "Add XPS pages in Java – Page Manipulation with Aspose.Page"
+title: "Add XPS Pages in Java Using Aspose.Page for Java – Page Manipulation Guide"
 linktitle: Page Manipulation - XPS
 second_title: Aspose.Page Java API
 description: "Learn how to add XPS pages in Java using Aspose.Page. This step‑by‑step guide shows you the exact API calls, prerequisites, and best practices."

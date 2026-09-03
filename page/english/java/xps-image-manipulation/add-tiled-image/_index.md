@@ -1,5 +1,5 @@
 ---
-title: "Create an XPS Document with a Tiled Image using Aspose.Page for Java"
+title: "Add a Tiled Image to a Document Using Java"
 linktitle: Add Tiled Image in Java XPS
 second_title: Aspose.Page Java API
 description: "Learn how to create XPS document in Java using Aspose.Page and add tiled image effortlessly with this step‑by‑step guide. How to create XPS files quickly."
@@ -122,7 +122,7 @@ XpsDocument doc = new XpsDocument();
 Place the image you want to tile (e.g., `R08LN_NN.jpg`) inside the directory referenced by `dataDir`. The image will be used as a brush pattern.
 
 ### Step 4: add tiled image
-Create a rectangular path and fill it with an `XpsImageBrush`. By setting the tile mode to `Tile`, the image repeats across the rectangle. Adjust the source and destination rectangles to control tile size and positioning.
+Create a rectangular path and fill it with an `XpsImageBrush`. By setting the tile mode to `Tile`, the image repeats across the rectangle. Adjust the source and destination `Rectangle2D` values to control tile size and positioning.
 
 ```java
 // Tile image
@@ -181,9 +181,9 @@ You now have a complete, production‑ready workflow for **how to create XPS** d
 
 ## Related Tutorials
 
-- {{< relref "java/xps-image-manipulation/add-image" >}}How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page{{< /relref >}}
-- {{< relref "java/xps-page-manipulation/add-page" >}}Aspose.Page Java - Add Pages to XPS Tutorial{{< /relref >}}
-- {{< relref "java/file-merging/xps-to-pdf" >}}Convert XPS to PDF in Java using Aspose.Page Java{{< /relref >}}
+- [How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page](java/xps-image-manipulation/add-image)
+- [Aspose.Page Java - Add Pages to XPS Tutorial](java/xps-page-manipulation/add-page)
+- [Convert XPS to PDF in Java using Aspose.Page Java](java/file-merging/xps-to-pdf)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,6 +1,6 @@
 ---
-title: "Java Text Manipulation Guide"
-linktitle: "Java Text Manipulation Guide"
+title: "Manipulate XPS Text with Aspose.Page for Java"
+linktitle: "Manipulate XPS Text with Aspose.Page for Java"
 second_title: Aspose.Page Java API
 description: "Learn the Aspose Page XPS tutorial for Java. Step‑by‑step guide on aspose page add text, formatting, and performance tips to master XPS document manipulation."
 date: 2026-05-30

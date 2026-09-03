@@ -1,5 +1,5 @@
 ---
-title: How to Edit XPS Documents – Add Pages with Aspose.Page for Java
+title: How to Add Pages to Documents Using Java
 linktitle: Add Page in Java XPS
 second_title: Aspose.Page Java API
 description: Learn how to edit XPS documents by adding pages using Aspose.Page for Java. This step‑by‑step guide provides exact code, tips, and troubleshooting.
