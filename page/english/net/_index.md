@@ -1,5 +1,5 @@
 ---
-title: Master Converting PostScript to PDF with Aspose.Page for .NET
+title: How to Convert PostScript to PDF Using Aspose.Page for .NET
 linktitle: Aspose.Page for .NET Tutorials
 weight: 10
 url: /net/
@@ -98,55 +98,55 @@ page.Save("output.pdf", SaveFormat.Pdf);
 ## Detailed navigation to all tutorials
 
 ### Getting Started
-Start your journey with Aspose.Page for .NET by exploring our [Getting Started](./getting-started/) guide. Learn how to apply metered licenses, load documents from files or streams, and secure licenses. With step‑by‑step tutorials, you'll quickly unlock the power of Aspose.Page.
+Start your journey with Aspose.Page for .NET by exploring our {{< relref "getting-started/_index.md" >}}Getting Started{{< /relref >}} guide. Learn how to apply metered licenses, load documents from files or streams, and secure licenses. With step‑by‑step tutorials, you'll quickly unlock the power of Aspose.Page.
 
 ### Canvas Manipulation
-Delve into the world of canvas manipulation with Aspose.Page for .NET. Our [Canvas Manipulation](./canvas-manipulation/) tutorials guide you through clipping and transforming PS and XPS documents effortlessly. Enhance your document processing skills and take control of your canvases.
+Delve into the world of canvas manipulation with Aspose.Page for .NET. Our {{< relref "canvas-manipulation/_index.md" >}}Canvas Manipulation{{< /relref >}} tutorials guide you through clipping and transforming PS and XPS documents effortlessly. Enhance your document processing skills and take control of your canvases.
 
 ### Cross-Document Editing
-Unlock the potential of cross‑document editing with [Cross‑Document Editing](./cross-document-editing/) tutorials. Add glyph clones, change colors, and manipulate pages effortlessly in XPS documents. Explore the vast capabilities of Aspose.Page for .NET.
+Unlock the potential of cross‑document editing with {{< relref "cross-document-editing/_index.md" >}}Cross‑Document Editing{{< /relref >}} tutorials. Add glyph clones, change colors, and manipulate pages effortlessly in XPS documents. Explore the vast capabilities of Aspose.Page for .NET.
 
 ### Document Creation
-Create stunning XPS and PostScript documents effortlessly with [Document Creation](./document-creation/) tutorials. Dive into the world of document creation and modification, ensuring seamless integration into your projects.
+Create stunning XPS and PostScript documents effortlessly with {{< relref "document-creation/_index.md" >}}Document Creation{{< /relref >}} tutorials. Dive into the world of document creation and modification, ensuring seamless integration into your projects.
 
 ### Document Conversion
-Effortlessly convert PostScript to PDF and XPS to PDF with [Document Conversion](./document-conversion/) tutorials. Our robust and reliable solutions provide easy and seamless document conversion for your projects.
+Effortlessly convert PostScript to PDF and XPS to PDF with {{< relref "document-conversion/_index.md" >}}Document Conversion{{< /relref >}} tutorials. Our robust and reliable solutions provide easy and seamless document conversion for your projects.
 
 ### Document Merging
-Merge PostScript and XPS documents into high‑quality PDFs effortlessly with [Document Merging](./document-merging/) tutorials. Enhance your document processing skills with our step‑by‑step guide to document merging.
+Merge PostScript and XPS documents into high‑quality PDFs effortlessly with {{< relref "document-merging/_index.md" >}}Document Merging{{< /relref >}} tutorials. Enhance your document processing skills with our step‑by‑step guide to document merging.
 
 ### Image Manipulation
-Discover the power of Aspose.Page for .NET through our [Image Manipulation](./image-manipulation/) tutorials. Effortlessly crop and resize EPS images for stunning and precise results. Elevate your document visuals effortlessly.
+Discover the power of Aspose.Page for .NET through our {{< relref "image-manipulation/_index.md" >}}Image Manipulation{{< /relref >}} tutorials. Effortlessly crop and resize EPS images for stunning and precise results. Elevate your document visuals effortlessly.
 
 ### Gradient Fills
-Explore the art of gradient fills in .NET with [Gradient Fills](./gradient-fills/) tutorials. Add captivating diagonal, horizontal, and vertical gradients to elevate your projects effortlessly.
+Explore the art of gradient fills in .NET with {{< relref "gradient-fills/_index.md" >}}Gradient Fills{{< /relref >}} tutorials. Add captivating diagonal, horizontal, and vertical gradients to elevate your projects effortlessly.
 
 ### Image Management
-Enhance your document visuals effortlessly! Explore [Image Management](./image-management/) tutorials covering everything from adding images to converting formats. Master every step with Aspose.Page for .NET.
+Enhance your document visuals effortlessly! Explore {{< relref "image-management/_index.md" >}}Image Management{{< /relref >}} tutorials covering everything from adding images to converting formats. Master every step with Aspose.Page for .NET.
 
 ### Page Manipulation
-Discover the power of Aspose.Page for .NET in manipulating PostScript and XPS documents. Learn to add, enhance, and remove pages with our comprehensive [Page Manipulation](./page-manipulation/) tutorials.
+Discover the power of Aspose.Page for .NET in manipulating PostScript and XPS documents. Learn to add, enhance, and remove pages with our comprehensive {{< relref "page-manipulation/_index.md" >}}Page Manipulation{{< /relref >}} tutorials.
 
 ### Print ticket management
-Create and edit custom print tickets with [Print Ticket Management](./print-ticket-management/). Tailor your printing experience with fine‑grained control in XPS documents effortlessly.
+Create and edit custom print tickets with {{< relref "print-ticket-management/_index.md" >}}Print Ticket Management{{< /relref >}}. Tailor your printing experience with fine‑grained control in XPS documents effortlessly.
 
 ### Drawing Shapes
-Enhance document creation in .NET effortlessly! Learn step‑by‑step tutorials on adding circles, ellipses, and rectangles to PostScript (PS) using Aspose.Page .NET in [Drawing Shapes](./drawing-shapes/).
+Enhance document creation in .NET effortlessly! Learn step‑by‑step tutorials on adding circles, ellipses, and rectangles to PostScript (PS) using Aspose.Page .NET in {{< relref "drawing-shapes/_index.md" >}}Drawing Shapes{{< /relref >}}.
 
 ### Text Manipulation
-Master text manipulation in .NET with [Text Manipulation](./text-manipulation/) tutorials. Learn to add Unicode text to PostScript and XPS documents, elevating your document manipulation skills.
+Master text manipulation in .NET with {{< relref "text-manipulation/_index.md" >}}Text Manipulation{{< /relref >}} tutorials. Learn to add Unicode text to PostScript and XPS documents, elevating your document manipulation skills.
 
 ### Texture Handling
-Enhance PostScript documents with stunning visual effects! Learn to apply texture tiling patterns using [Texture Handling](./texture-handling/) tutorials with our step‑by‑step guide.
+Enhance PostScript documents with stunning visual effects! Learn to apply texture tiling patterns using {{< relref "texture-handling/_index.md" >}}Texture Handling{{< /relref >}} tutorials with our step‑by‑step guide.
 
 ### Transparency Effects
-Discover the magic of transparency effects in your documents with [Transparency Effects](./transparency-effects/). Elevate your design with step‑by‑step tutorials for stunning visual enhancements.
+Discover the magic of transparency effects in your documents with {{< relref "transparency-effects/_index.md" >}}Transparency Effects{{< /relref >}}. Elevate your design with step‑by‑step tutorials for stunning visual enhancements.
 
 ### Visual Brushes
-Elevate your document processing in .NET with [Visual Brushes](./visual-brushes/) tutorials. Dive into the realm of Visual Brushes, mastering techniques for visually stunning documents.
+Elevate your document processing in .NET with {{< relref "visual-brushes/_index.md" >}}Visual Brushes{{< /relref >}} tutorials. Dive into the realm of Visual Brushes, mastering techniques for visually stunning documents.
 
 ### EPS metadata management
-Elevate EPS organization with Aspose.Page for .NET. Add metadata effortlessly for enhanced accessibility. Explore [EPS Metadata Management](./eps-metadata-management/) tutorials and optimize your EPS documents.
+Elevate EPS organization with Aspose.Page for .NET. Add metadata effortlessly for enhanced accessibility. Explore {{< relref "eps-metadata-management/_index.md" >}}EPS Metadata Management{{< /relref >}} tutorials and optimize your EPS documents.
 
 Get ready to revolutionize your document processing experience with Aspose.Page for .NET. Whether you're a beginner or an advanced user, our tutorials provide the guidance you need to master every aspect of this powerful tool. Unlock the possibilities today!
 

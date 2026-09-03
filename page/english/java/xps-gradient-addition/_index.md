@@ -1,5 +1,5 @@
 ---
-title: "Add Gradients with Aspose.Page for Java XPS Documents"
+title: "Create Gradient Effects in Documents Using Java"
 linktitle: Gradient Addition - XPS
 second_title: Aspose.Page Java API
 description: "Learn how to add diagonal, horizontal, and vertical gradients to Java XPS documents using Aspose.Page for Java. Follow step‑by‑step instructions and best‑practice tips."
@@ -97,30 +97,30 @@ doc.save("GradientDemo.xps");
 ```
 
 ### Diagonal gradients: elevating visual excellence
-#### [Add diagonal gradient in java xPS](./diagonal/)
+#### [Add diagonal gradient in Java XPS]({{< relref "./diagonal/" >}})
 
 The `LinearGradientBrush` class represents a linear gradient fill that can be applied to shapes. Picture this: a Java XPS document with a dynamic diagonal gradient, seamlessly blending colors to create an aesthetic masterpiece. Our dedicated tutorial walks you through each step, from initializing the `LinearGradientBrush` with a 45° angle to applying it to a rectangle shape.
 
 ### Horizontal gradients: seamless integration unveiled
-#### [Add horizontal gradient in java xPS](./horizontal/)
+#### [Add horizontal gradient in Java XPS]({{< relref "./horizontal/" >}})
 
 The `LinearGradientBrush` class defines a linear gradient that can be applied to a `Path`. Horizontal gradients provide smooth left‑to‑right color transitions, perfect for headers, footers, or background bands. The linked guide shows how to set the gradient’s start and end points, choose any number of color stops, and attach the brush to a `Path` object.
 
 ### Vertical gradients: enhance visual appeal with ease
-#### [Add vertical gradient in java xPS](./vertical/)
+#### [Add vertical gradient in Java XPS]({{< relref "./vertical/" >}})
 
 The `LinearGradientBrush` class represents a linear gradient fill that can be applied to shapes. Vertical gradients add a touch of sophistication by fading colors from top to bottom. Our step‑by‑step tutorial demonstrates creating a `LinearGradientBrush` with a 90° orientation, applying it to a page‑wide rectangle, and reusing the brush across multiple pages to keep file size minimal.
 
 In conclusion, the **aspose page xps tutorial** series on gradient addition opens doors to a world where visual excellence meets technical proficiency. Embrace gradients, transform your XPS documents, and captivate your audience with every presentation. Dive into the linked tutorials today and start creating stunning Java XPS files.
 
 ## Gradient addition - XPS tutorials
-### [Add diagonal gradient in java xPS](./diagonal/)
+### [Add diagonal gradient in Java XPS]({{< relref "./diagonal/" >}})
 Learn how to add a stunning diagonal gradient to your XPS documents in Java using Aspose.Page. Elevate your visual presentation effortlessly.
 
-### [Add horizontal gradient in java xPS](./horizontal/)
+### [Add horizontal gradient in Java XPS]({{< relref "./horizontal/" >}})
 Learn how to add a stunning horizontal gradient to XPS documents in Java using Aspose.Page. Follow our step‑by‑step guide for seamless integration.
 
-### [Add vertical gradient in java xPS](./vertical/)
+### [Add vertical gradient in Java XPS]({{< relref "./vertical/" >}})
 Learn how to add a vertical gradient to Java XPS documents with Aspose.Page. Enhance visual appeal effortlessly. Step‑by‑step guide inside.
 
 ## Frequently asked questions
@@ -148,9 +148,9 @@ A: Gradients are vector‑based, so they add minimal file size and render quickl
 
 ## Related Tutorials
 
-- [How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page](/page/java/xps-image-manipulation/add-image/)
-- [Java XPS Text Addition - Aspose.Page Tutorial](/page/java/xps-text-manipulation/add-text/)
-- [Aspose.Page Java - Add Pages to XPS Tutorial](/page/java/xps-page-manipulation/add-page/)
+- [How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page]({{< relref "/page/java/xps-image-manipulation/add-image/" >}})
+- [Java XPS Text Addition - Aspose.Page Tutorial]({{< relref "/page/java/xps-text-manipulation/add-text/" >}})
+- [Aspose.Page Java - Add Pages to XPS Tutorial]({{< relref "/page/java/xps-page-manipulation/add-page/" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

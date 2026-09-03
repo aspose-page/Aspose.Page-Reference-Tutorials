@@ -1,5 +1,5 @@
 ---
-title: Create a Transparent XPS Object in Java with Aspose.Page Java API
+title: Create Transparent XPS Objects in Java
 linktitle: Add Transparent Object in Java XPS
 second_title: Aspose.Page Java API
 description: Learn how to create a transparent XPS object in Java using the Aspose.Page Java API. This step‑by‑step guide shows how to add transparency to XPS documents with stunning visual effects.

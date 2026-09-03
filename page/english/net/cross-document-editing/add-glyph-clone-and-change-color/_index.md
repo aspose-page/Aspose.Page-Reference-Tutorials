@@ -1,5 +1,5 @@
 ---
-title: 'Add and Clone Glyphs, Change Color with Aspose.Page for .NET'
+title: 'Add and Clone Glyphs, Change Color in XPS using Aspose.Page for .NET'
 linktitle: Add Glyph Clone and Change Color
 second_title: Aspose.Page .NET API
 description: Learn to add and clone glyphs, change their color in XPS documents using Aspose.Page for .NET. This tutorial demonstrates cloning glyphs and applying solid color brushes in C#.
@@ -42,7 +42,7 @@ Before diving into the tutorial, make sure you have the following prerequisites:
 
 - A basic understanding of C# programming language.  
 - Visual Studio or any other preferred C# development environment installed.  
-- Aspose.Page for .NET library. You can download it [here](https://releases.aspose.com/page/net/).  
+- Aspose.Page for .NET library. You can download it from the **Aspose.Page for .NET download page**.  
 - Familiarity with the XPS document format.
 
 ## How do you import the required namespaces for Aspose.Page?
@@ -163,9 +163,9 @@ You now know **how to add glyphs**, clone them across documents, and change thei
 
 ## Related Tutorials
 
-- {{< relref "page/net/document-creation/create-xps-document/_index.md" >}}Create XPS Document with Aspose.Page for .NET{{< /relref >}}
-- {{< relref "page/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/_index.md" >}}Add Image Filled Glyph & Foreign Image with Aspose.Page .NET{{< /relref >}}
-- {{< relref "page/net/text-manipulation/add-text-to-xps-document/_index.md" >}}Add Text to XPS Document with Aspose.Page for .NET{{< /relref >}}
+- [Create XPS Document with Aspose.Page for .NET]({{< relref "page/net/document-creation/create-xps-document/_index.md" >}})
+- [Add Image Filled Glyph & Foreign Image with Aspose.Page .NET]({{< relref "page/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/_index.md" >}})
+- [Add Text to XPS Document with Aspose.Page for .NET]({{< relref "page/net/text-manipulation/add-text-to-xps-document/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
