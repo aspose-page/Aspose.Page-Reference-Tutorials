@@ -1,8 +1,59 @@
 ---
-date: 2025-12-28
+date: 2026-05-30
 description: Узнайте, как создать XPS‑документ в Java с помощью Aspose.Page и легко
-  добавить мозаичное изображение с помощью этого пошагового руководства.
-linktitle: Add Tiled Image in Java XPS
+  добавить мозаичное изображение с помощью пошагового руководства. Как быстро создавать
+  XPS‑файлы.
+keywords:
+- how to create xps
+- add tiled image java
+- Aspose.Page XPS tutorial
+linktitle: Добавить мозаичное изображение в Java XPS
+schemas:
+- author: Aspose
+  dateModified: '2026-05-30'
+  description: Learn how to create XPS document in Java using Aspose.Page and add
+    tiled image effortlessly with this step‑by‑step guide. How to create XPS files
+    quickly.
+  headline: How to Create XPS Document with a Tiled Image in Java
+  type: TechArticle
+- description: Learn how to create XPS document in Java using Aspose.Page and add
+    tiled image effortlessly with this step‑by‑step guide. How to create XPS files
+    quickly.
+  name: How to Create XPS Document with a Tiled Image in Java
+  steps:
+  - name: Set Up Your Project
+    text: Add the Aspose.Page JAR files to your project’s classpath and verify the
+      import statements compile without errors.
+  - name: Create XPS Document
+    text: '`XpsDocument` is the core container that holds pages, paths, and resources.
+      Instantiate it with the desired page size, then you can start adding graphical
+      elements.'
+  - name: Define the Tiled Image Path
+    text: Place the image you want to tile (e.g., `R08LN_NN.jpg`) inside the directory
+      referenced by `dataDir`. The image will be used as a brush pattern.
+  - name: Add Tiled Image
+    text: Create a rectangular path and fill it with an `XpsImageBrush`. By setting
+      the tile mode to `Tile`, the image repeats across the rectangle. Adjust the
+      source and destination rectangles to control tile size and positioning.
+  - name: Save the Document
+    text: Persist the XPS file to disk. The output file will contain the tiled image
+      you just defined and can be opened with any XPS viewer. Repeat these steps whenever
+      you need to **add tiled image** to other pages or shapes within the same XPS
+      document.
+  type: HowTo
+- questions:
+  - answer: It provides a high‑level API to generate and manipulate XPS documents
+      in Java.
+    question: What does Aspose.Page do?
+  - answer: Yes – use `XpsImageBrush` with `XpsTileMode.Tile`.
+    question: Can I tile an image?
+  - answer: A temporary or commercial license is required for production use.
+    question: Do I need a license?
+  - answer: Any JDK 8+ is compatible.
+    question: What Java version is supported?
+  - answer: Roughly 10–15 minutes for a basic tiled‑image scenario.
+    question: How long does implementation take?
+  type: FAQPage
 second_title: Aspose.Page Java API
 title: Как создать XPS‑документ с мозаичным изображением в Java
 url: /ru/java/xps-image-manipulation/add-tiled-image/
@@ -13,33 +64,36 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создание XPS-документа и добавление мозаичного изображения в Java
+# Как создать документ XPS с мозаичным изображением в Java
 
 ## Введение
-В современной разработке Java возможность **создать XPS-документ** программно является ценным навыком, особенно когда необходимо обогатить его графикой, такой как мозаичные изображения. В Aspose.Page для Java этот процесс сосредоточен на визуальном дизайне, а не на низкоуровневой работе с файлами. В этом руководстве вы узнаете, как создать XPS-документ, **добавить мозаичное изображение** и убедиться в результате, используя понятные пошаговые инструкции кода кода.
+Создание XPS‑документов программно — это ключевой навык для Java‑разработчиков, которым нужен печатный, независимый от устройства вывод. **How to create XPS** файлы эффективно решает Aspose.Page for Java, который абстрагирует детали низкоуровневой спецификации XML Paper Specification и позволяет сосредоточиться на визуальном дизайне. В этом руководстве вы увидите, как именно создать документ XPS, добавить мозаичное изображение в качестве фона или узора и сохранить результат — всё с помощью лаконичного, готового к продакшн кода.
 
 ## Быстрые ответы
-- **Что делает Aspose.Page?** Предоставляет высокоуровневый API для создания и манипулирования XPS-документами на Java.
-- **Могу ли я замостить изображение?** Да — викор `XpsImageBrush` с `XpsTileMode.Tile`.
-- **Нужна ли лицензия?** Для использования в продаже требуется временная или коммерческая лицензия.
-- **Какая версия Java-версий?** Совместима с любым JDK8+.
-- **Сколько времени занимает изготовление?** Около 10–15 минут для базового сценария с мозаичным изображением.
+- **Что делает Aspose.Page?** Он предоставляет высокоуровневый API для генерации и манипуляции XPS‑документами в Java.  
+- **Можно ли замостить изображение?** Да — используйте `XpsImageBrush` с `XpsTileMode.Tile`.  
+- **Нужна ли лицензия?** Для использования в продакшн требуется временная или коммерческая лицензия.  
+- **Какая версия Java поддерживается?** Совместима с любой JDK 8+.  
+- **Сколько времени занимает реализация?** Около 10–15 минут для базового сценария с мозаичным изображением.
 
-## Что такое «создать документ XPS»?
-Что такое «создание XPS-документа»?
-Файл XPS (Спецификация бумаги XML) — это формат фиксированного макета, похожий на PDF. Программное создание XPS-документа позволяет экономить печатные файлы независимо от файлов устройства непосредственно из Java-кода.
+## Что такое «создание XPS‑документа»?
+`XpsDocument` — это объект верхнего уровня Aspose.Page, представляющий один XPS‑файл в памяти. Он инкапсулирует страницы, ресурсы и метаданные, позволяя программно собрать документ. Создание XPS‑документа означает создание экземпляра этого класса, добавление визуальных элементов и вызов `save` для записи фиксированного макета на диск. Такой подход устраняет ручную работу с XML и гарантирует соответствие спецификации XML Paper Specification.
 
 ## Зачем добавлять мозаичное изображение?
-Почему добавили мозаичное изображение?
-Мозаичное изображение повторяет график в определенной области, что идеально подходит для фоновых изображений, водяных знаков или заполнения узоров. С помощью XpsTileMode.Tile из Aspose.Page это можно реализовать всего несколькими строками кода.
+Мозаика повторяет графику по заданной области, что идеально подходит для фонов, водяных знаков или узорных заливок. Используя `XpsTileMode.Tile`, изображение автоматически повторяется без ручного дублирования, экономя время разработки и обеспечивая одинаковый рендеринг на любом устройстве. Мозаичные изображения также снижают размер файла, поскольку один и тот же битмап‑ресурс переиспользуется вместо многократного встраивания.
 
-## Предварительные условия
-1. **Java Development Kit (JDK)** — установлен JDK8 или новее.
-2. **Aspose.Page для Java** — загрузите с [веб‑сайта](https://releases.aspose.com/page/java/).
-3. **Записываемый каталог** — куда будет сохранён сгенерированный XPS-файл.
+## Требования
+1. **Java Development Kit (JDK)** – установлен JDK 8 или новее.  
+2. **Aspose.Page for Java** – скачайте с [website](https://releases.aspose.com/page/java/).  
+3. **Записываемый каталог** – куда будет сохранён сгенерированный XPS‑файл.
 
 ## Импорт пакетов
 В вашем Java‑проекте импортируйте необходимые классы:
+
+`XpsDocument` — основной объект, представляющий XPS‑файл.  
+`XpsImageBrush` рисует фигуры, используя источник изображения.  
+`XpsTileMode` определяет способ замощения изображения.  
+`Rectangle2D` описывает прямоугольную область для позиционирования.
 
 ```java
 import com.aspose.xps.XpsDocument;
@@ -51,11 +105,11 @@ import java.awt.geom.Rectangle2D;
 
 ## Пошаговое руководство
 
-### Шаг 1: Настройте ваш проект  
-Добавьте JAR‑файлы Aspose.Page в classpath вашего проекта и убедитесь, что операторы импорта компилируются без ошибок.
+### Шаг 1: Настройте ваш проект
+Добавьте JAR‑файлы Aspose.Page в classpath проекта и убедитесь, что операторы импорта компилируются без ошибок.
 
-### Шаг 2: Создайте XPS Document  
-Создайте новый объект `XpsDocument`. Это основной контейнер, который будет содержать все страницы, пути и ресурсы.
+### Шаг 2: Создайте документ XPS
+`XpsDocument` — ядро‑контейнер, содержащий страницы, пути и ресурсы. Создайте его с нужным размером страницы, после чего можно начинать добавлять графические элементы.
 
 ```java
 // The path to the documents directory.
@@ -64,11 +118,11 @@ String dataDir = "Your Document Directory";
 XpsDocument doc = new XpsDocument();
 ```
 
-### Шаг 3: Определите путь к мозаичному изображению  
-Поместите изображение, которое вы хотите замостить (например, `R08LN_NN.jpg`), в каталог, указанный в `dataDir`. Это изображение будет использоваться в качестве шаблона кисти.
+### Шаг 3: Укажите путь к мозаичному изображению
+Поместите изображение, которое хотите замостить (например, `R08LN_NN.jpg`), в каталог, указанный переменной `dataDir`. Это изображение будет использовано в качестве шаблона кисти.
 
-### Шаг 4: Добавьте мозаичное изображение  
-Создайте прямоугольный путь и заполните его `XpsImageBrush`. Установив режим мозаики в `Tile`, изображение будет повторяться по всему прямоугольнику.
+### Шаг 4: Добавьте мозаичное изображение
+Создайте прямоугольный путь и заполните его `XpsImageBrush`. Установив режим замощения в `Tile`, изображение будет повторяться по всему прямоугольнику. Настройте исходный и целевой `Rectangle2D`, чтобы контролировать размер и позицию плитки.
 
 ```java
 // Tile image
@@ -80,49 +134,58 @@ path.setFill(doc.createImageBrush(dataDir +  "R08LN_NN.jpg",
 path.getFill().setOpacity(0.5f);
 ```
 
-### Шаг 5: Сохраните документ  
-Сохраните XPS‑файл на диск. Выходной файл будет содержать мозаичное изображение, которое вы только что определили.
+### Шаг 5: Сохраните документ
+Запишите XPS‑файл на диск. Полученный файл будет содержать мозаичное изображение, которое вы только что задали, и его можно открыть в любом XPS‑просмотрщике.
 
 ```java
 // Save resultant XPS document
 doc.save(dataDir + "AddTiledImage_out.xps"); 
 ```
 
-Повторяйте эти шаги каждый раз, когда нужно **добавить мозаичное изображение** на другие страницы или формы в том же XPS документе.
+Повторяйте эти шаги каждый раз, когда необходимо **add tiled image** на другие страницы или фигуры внутри того же XPS‑документа.
 
 ## Распространённые проблемы и решения
 | Проблема | Решение |
 |----------|---------|
-| Изображение не отображается | Убедитесь, что путь к файлу (`dataDir + "R08LN_NN.jpg"`) правильный и изображение доступно. |
-| Шаблон мозаики выглядит растянутым | Отрегулируйте значения исходного и конечного `Rectangle2D`, чтобы контролировать размер мозаики. |
-| Прозрачность не действует | Убедитесь, что непрозрачность кисти установлена **после** конфигурации режима мозаики. |
+| Изображение не отображается | Проверьте, что путь к файлу (`dataDir + "R08LN_NN.jpg"`) правильный и изображение доступно. |
+| Шаблон плитки выглядит растянутым | Отрегулируйте значения исходного и целевого `Rectangle2D`, чтобы задать размер плитки. |
+| Прозрачность не работает | Убедитесь, что непрозрачность кисти задаётся **после** настройки режима плитки. |
 
 ## Часто задаваемые вопросы
 
-### Совместима ли Aspose.Page со всеми версиями Java?  
-Aspose.Page разработана для работы с различными версиями Java. Проверьте совместимость в документации [здесь](https://reference.aspose.com/page/java/).
+**Q:** Совместим ли Aspose.Page со всеми версиями Java?  
+**A:** Aspose.Page поддерживает Java 8‑21; полную матрицу совместимости можно найти [here](https://reference.aspose.com/page/java/).
 
-### Могу ли я использовать Aspose.Page в коммерческих проектах?  
-Да, Aspose.Page предлагает коммерческие лицензии. Приобрести их можно [здесь](https://purchase.aspose.com/buy).
+**Q:** Можно ли использовать Aspose.Page в коммерческих проектах?  
+**A:** Да, для продакшн‑использования требуется коммерческая лицензия. Варианты покупки указаны [here](https://purchase.aspose.com/buy).
 
-### Доступна ли бесплатная пробная версия?  
-Да, изучите возможности Aspose.Page с бесплатной пробной версией [здесь](https://releases.aspose.com/).
+**Q:** Доступна ли бесплатная пробная версия?  
+**A:** Полнофункциональная бесплатная пробная версия доступна для скачивания со страницы релизов Aspose [here](https://releases.aspose.com/).
 
-### Где я могу найти поддержку сообщества и обсуждения?  
-Взаимодействуйте с сообществом Aspose.Page на [форуме](https://forum.aspose.com/c/page/39).
+**Q:** Где получить поддержку сообщества?  
+**A:** Присоединяйтесь к форуму сообщества Aspose.Page по адресу [forum](https://forum.aspose.com/c/page/39), задавайте вопросы и делитесь примерами.
 
-### Как получить временную лицензию для Aspose.Page?  
-Получить временную лицензию можно [здесь](https://purchase.aspose.com/temporary-license/).
+**Q:** Как получить временную лицензию для оценки?  
+**A:** Временные лицензии предоставляются по запросу через портал Aspose [here](https://purchase.aspose.com/temporary-license/).
+
+## Заключение
+Теперь у вас есть полностью готовый к продакшн процесс **how to create XPS** документов с мозаичными изображениями с использованием Aspose.Page for Java. Благодаря `XpsImageBrush` и `XpsTileMode.Tile` вы можете генерировать богатую повторяющуюся графику без увеличения размера файла. Экспериментируйте с различными размерами плитки, уровнями непрозрачности и формами, чтобы создавать сложные макеты документов. На следующем этапе изучите добавление векторных фигур или текстовых наложений для дальнейшего улучшения ваших XPS‑файлов.
 
 ---
 
-**Последнее обновление:** 2025-12-28  
-**Тестировано с:** Aspose.Page for Java 24.12 (latest)  
-**Автор:** Aspose
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-05-30  
+**Tested With:** Aspose.Page for Java 24.12 (latest)  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Связанные руководства
+
+- [How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page](/page/java/xps-image-manipulation/add-image/)
+- [Aspose.Page Java - Add Pages to XPS Tutorial](/page/java/xps-page-manipulation/add-page/)
+- [Convert XPS to PDF in Java using Aspose.Page Java](/page/java/file-merging/xps-to-pdf/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
