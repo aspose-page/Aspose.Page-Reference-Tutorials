@@ -52,9 +52,9 @@ url: /hu/java/xps-page-manipulation/
 weight: 33
 ---
 
-{{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Oldalkezelés - XPS
 
@@ -150,8 +150,6 @@ Az Aspose.Page for Java egyetlen Maven artefaktummal (`com.aspose:aspose-page`) 
 **Tesztelve:** Aspose.Page for Java 24.12  
 **Szerző:** Aspose
 
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Kapcsolódó oktatóanyagok
 
 - [Hogyan adjunk hozzá képet Java XPS dokumentumokhoz – Egyszerű útmutató az Aspose.Page‑el](/page/java/xps-image-manipulation/add-image/)
@@ -160,5 +158,8 @@ Az Aspose.Page for Java egyetlen Maven artefaktummal (`com.aspose:aspose-page`) 
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

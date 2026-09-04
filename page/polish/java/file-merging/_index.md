@@ -58,8 +58,8 @@ url: /pl/java/file-merging/
 weight: 31
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java scalanie plików pdf – konwersja XPS do PDF i łączenie plików w Javie
@@ -163,8 +163,6 @@ A: Zdecydowanie tak. Aspose.Page zachowuje wszystkie kształty wektorowe, zapewn
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Powiązane tutoriale
 
 - [Jak scalać pliki XPS w Javie – jak scalać xps z Aspose.Page](/page/java/file-merging/xps-to-xps/)
@@ -175,3 +173,5 @@ A: Zdecydowanie tak. Aspose.Page zachowuje wszystkie kształty wektorowe, zapewn
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

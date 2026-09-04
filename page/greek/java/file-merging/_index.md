@@ -59,8 +59,8 @@ url: /el/java/file-merging/
 weight: 31
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java συγχώνευση αρχείων pdf – Μετατροπή XPS σε PDF και Συγχώνευση Αρχείων σε Java
@@ -164,8 +164,6 @@ A: Χρησιμοποιήστε την κλάση `LoadOptions` για να πα
 **Δοκιμάστηκε με:** Aspose.Page for Java 24.11  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Σχετικά Μαθήματα
 
 - [Πώς να Συγχωνεύσετε Αρχεία XPS σε Java – πώς να συγχωνεύσετε xps με Aspose.Page](/page/java/file-merging/xps-to-xps/)
@@ -176,3 +174,5 @@ A: Χρησιμοποιήστε την κλάση `LoadOptions` για να πα
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

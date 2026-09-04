@@ -50,9 +50,9 @@ url: /zh-hant/java/xps-page-manipulation/
 weight: 33
 ---
 
-{{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # 頁面操作 - XPS
 
@@ -148,8 +148,6 @@ Aspose.Page for Java 透過單一 Maven 套件 (`com.aspose:aspose-page`) 整合
 **測試環境:** Aspose.Page for Java 24.12  
 **作者:** Aspose
 
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 相關教學
 
 - [如何在 Java XPS 文件中加入圖像 – Aspose.Page 簡易指南](/page/java/xps-image-manipulation/add-image/)
@@ -158,5 +156,8 @@ Aspose.Page for Java 透過單一 Maven 套件 (`com.aspose:aspose-page`) 整合
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -52,9 +52,9 @@ url: /id/java/xps-page-manipulation/
 weight: 33
 ---
 
-{{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulasi Halaman - XPS
 
@@ -148,8 +148,6 @@ Aspose.Page untuk Java terintegrasi melalui satu artefak Maven (`com.aspose:aspo
 **Diuji Dengan:** Aspose.Page for Java 24.12  
 **Penulis:** Aspose
 
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## Tutorial Terkait
 
 - [Cara Menambahkan Gambar ke Dokumen Java XPS – Panduan Sederhana dengan Aspose.Page](/page/java/xps-image-manipulation/add-image/)
@@ -158,5 +156,8 @@ Aspose.Page untuk Java terintegrasi melalui satu artefak Maven (`com.aspose:aspo
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

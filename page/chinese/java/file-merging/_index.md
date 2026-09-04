@@ -57,8 +57,8 @@ url: /zh/java/file-merging/
 weight: 31
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java 合并 pdf 文件 – 将 XPS 转换为 PDF 并在 Java 中进行文件合并
@@ -166,8 +166,6 @@ A: 当然可以。Aspose.Page 保留所有矢量形状，确保 PDF 输出与原
 **测试环境：** Aspose.Page for Java 24.11  
 **作者：** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## 相关教程
 
 - [如何在 Java 中合并 XPS 文件 – 使用 Aspose.Page 合并 XPS](/page/java/file-merging/xps-to-xps/)
@@ -177,3 +175,5 @@ A: 当然可以。Aspose.Page 保留所有矢量形状，确保 PDF 输出与原
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

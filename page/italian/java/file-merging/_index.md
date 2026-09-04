@@ -58,8 +58,8 @@ url: /it/java/file-merging/
 weight: 31
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java merge pdf files – Converti XPS in PDF e Unione di File in Java
@@ -161,8 +161,6 @@ A: Assolutamente. Aspose.Page preserva tutte le forme vettoriali, garantendo che
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Tutorial Correlati
 
 - [Come Unire File XPS in Java – come unire xps con Aspose.Page](/page/java/file-merging/xps-to-xps/)
@@ -173,3 +171,5 @@ A: Assolutamente. Aspose.Page preserva tutte le forme vettoriali, garantendo che
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

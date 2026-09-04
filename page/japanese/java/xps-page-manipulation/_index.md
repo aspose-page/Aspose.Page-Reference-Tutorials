@@ -51,9 +51,9 @@ url: /ja/java/xps-page-manipulation/
 weight: 33
 ---
 
-{{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # ページ操作 - XPS
 
@@ -149,8 +149,6 @@ Aspose.Page for Java は単一の Maven アーティファクト（`com.aspose:a
 **テスト環境:** Aspose.Page for Java 24.12  
 **作者:** Aspose
 
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## 関連チュートリアル
 
 - [Java XPS ドキュメントに画像を追加する方法 – Aspose.Page を使用したシンプルガイド](/page/java/xps-image-manipulation/add-image/)
@@ -159,5 +157,8 @@ Aspose.Page for Java は単一の Maven アーティファクト（`com.aspose:a
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

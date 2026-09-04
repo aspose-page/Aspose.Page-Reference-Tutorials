@@ -58,8 +58,8 @@ url: /vi/java/file-merging/
 weight: 31
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java hợp nhất tệp pdf – Chuyển đổi XPS sang PDF và hợp nhất tệp trong Java
@@ -163,8 +163,6 @@ A: Chắc chắn. Aspose.Page bảo toàn mọi hình dạng vector, đảm bả
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Hướng dẫn liên quan
 
 - [Cách hợp nhất tệp XPS trong Java – cách hợp nhất xps với Aspose.Page](/page/java/file-merging/xps-to-xps/)
@@ -175,3 +173,5 @@ A: Chắc chắn. Aspose.Page bảo toàn mọi hình dạng vector, đảm bả
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -58,8 +58,8 @@ url: /hi/java/file-merging/
 weight: 31
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java merge pdf files – XPS को PDF में बदलें और Java में फ़ाइल मर्जिंग
@@ -163,8 +163,6 @@ A: बिल्कुल। Aspose.Page सभी वेक्टर शैल�
 **परीक्षण किया गया:** Aspose.Page for Java 24.11  
 **लेखक:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [Java में XPS फ़ाइलें मर्ज करने का तरीका – Aspose.Page के साथ xps को मर्ज करना](/page/java/file-merging/xps-to-xps/)
@@ -175,3 +173,5 @@ A: बिल्कुल। Aspose.Page सभी वेक्टर शैल�
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

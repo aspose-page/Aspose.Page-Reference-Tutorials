@@ -57,8 +57,8 @@ url: /th/java/file-merging/
 weight: 31
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java merge pdf files – แปลง XPS เป็น PDF และการรวมไฟล์ใน Java
@@ -173,8 +173,6 @@ A: แน่นอน. Aspose.Page รักษารูปทรงเวกเ
 **ทดสอบด้วย:** Aspose.Page for Java 24.11  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## บทแนะนำที่เกี่ยวข้อง
 
 - [วิธีรวมไฟล์ XPS ใน Java – วิธีรวม xps ด้วย Aspose.Page](/page/java/file-merging/xps-to-xps/)
@@ -185,3 +183,5 @@ A: แน่นอน. Aspose.Page รักษารูปทรงเวกเ
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -59,8 +59,8 @@ url: /es/java/file-merging/
 weight: 31
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java merge pdf files – Convertir XPS a PDF y combinación de archivos en Java
@@ -164,8 +164,6 @@ A: Absolutamente. Aspose.Page conserva todas las formas vectoriales, asegurando 
 **Probado con:** Aspose.Page for Java 24.11  
 **Autor:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## Tutoriales relacionados
 
 - [Cómo combinar archivos XPS en Java – cómo combinar xps con Aspose.Page](/page/java/file-merging/xps-to-xps/)
@@ -176,3 +174,5 @@ A: Absolutamente. Aspose.Page conserva todas las formas vectoriales, asegurando 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

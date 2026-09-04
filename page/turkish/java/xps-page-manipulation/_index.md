@@ -51,9 +51,9 @@ url: /tr/java/xps-page-manipulation/
 weight: 33
 ---
 
-{{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Sayfa Manipülasyonu - XPS
 
@@ -149,8 +149,6 @@ Aspose.Page for Java, tek bir Maven artefakti (`com.aspose:aspose-page`) aracıl
 **Test Edilen Versiyon:** Aspose.Page for Java 24.12  
 **Yazar:** Aspose
 
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## İlgili Öğreticiler
 
 - [Java XPS Belgelerine Resim Ekleme – Aspose.Page ile Basit Bir Rehber](/page/java/xps-image-manipulation/add-image/)
@@ -159,5 +157,8 @@ Aspose.Page for Java, tek bir Maven artefakti (`com.aspose:aspose-page`) aracıl
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

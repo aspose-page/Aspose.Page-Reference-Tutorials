@@ -52,9 +52,9 @@ url: /es/java/xps-page-manipulation/
 weight: 33
 ---
 
-{{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Manipulación de Páginas - XPS
 
@@ -150,7 +150,6 @@ Aspose.Page para Java se integra mediante un único artefacto Maven (`com.aspose
 **Probado con:** Aspose.Page para Java 24.12  
 **Autor:** Aspose
 
-{{< blocks/products/pf/tutorial-page-section >}}
 
 ## Tutoriales Relacionados
 
@@ -160,5 +159,8 @@ Aspose.Page para Java se integra mediante un único artefacto Maven (`com.aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

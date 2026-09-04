@@ -57,8 +57,8 @@ url: /ar/java/file-merging/
 weight: 31
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java merge pdf files – تحويل XPS إلى PDF ودمج الملفات في Java
@@ -160,8 +160,6 @@ weight: 31
 **تم الاختبار مع:** Aspose.Page for Java 24.11  
 **المؤلف:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
-
 ## دروس ذات صلة
 
 - [كيفية دمج ملفات XPS في Java – دمج XPS باستخدام Aspose.Page](/page/java/file-merging/xps-to-xps/)
@@ -171,3 +169,5 @@ weight: 31
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

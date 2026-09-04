@@ -51,9 +51,9 @@ url: /ar/java/xps-page-manipulation/
 weight: 33
 ---
 
-{{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # معالجة الصفحات - XPS
 
@@ -149,8 +149,6 @@ weight: 33
 **تم الاختبار باستخدام:** Aspose.Page for Java 24.12  
 **المؤلف:** Aspose
 
-{{< blocks/products/pf/tutorial-page-section >}}
-
 ## دروس ذات صلة
 
 - [كيفية إضافة صورة إلى مستندات Java XPS – دليل بسيط مع Aspose.Page](/page/java/xps-image-manipulation/add-image/)
@@ -159,5 +157,8 @@ weight: 33
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
