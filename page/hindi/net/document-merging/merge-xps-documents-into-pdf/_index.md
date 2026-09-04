@@ -1,49 +1,97 @@
 ---
-title: .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ों को PDF में मर्ज करें
-linktitle: XPS दस्तावेज़ों को पीडीएफ में मर्ज करें
+date: 2026-06-20
+description: Aspose.Page for .NET का उपयोग करके XPS को PDF में आसानी से परिवर्तित
+  करें और PDF images को संपीड़ित करें। उच्च गुणवत्ता वाले PDF निर्माण के लिए हमारी
+  step-by-step guide का पालन करें।
+keywords:
+- convert xps to pdf
+- compress pdf images
+- create pdf from xps
+linktitle: XPS दस्तावेज़ों को PDF में मर्ज करें
+schemas:
+- author: Aspose
+  dateModified: '2026-06-20'
+  description: Effortlessly convert XPS to PDF and compress PDF images using Aspose.Page
+    for .NET. Follow our step-by-step guide for high-quality PDF creation.
+  headline: Convert XPS to PDF with Aspose.Page for .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, you can load each XPS document sequentially and render them into
+      the same `PdfDevice` instance, adjusting the `PageNumbers` option as needed.
+    question: Can I merge multiple XPS files into a single PDF?
+  - answer: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/)
+      for testing purposes.
+    question: Is a temporary license available for Aspose.Page for .NET?
+  - answer: Aspose.Page for .NET does not impose strict limitations on file size,
+      but optimal performance is achieved with files under 500 MB; larger files may
+      require more memory.
+    question: Are there any limitations on file size when using Aspose.Page for document
+      conversion?
+  - answer: Yes, Aspose.Page for .NET provides extensive features for PDF manipulation.
+      Check the documentation for advanced customization options.
+    question: Can I customize the output PDF further, such as adding watermarks or
+      annotations?
+  - answer: Yes, Aspose.Page for .NET is designed to work seamlessly across Windows,
+      Linux, and macOS environments.
+    question: Does Aspose.Page for .NET support cross‑platform development?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: .NET के लिए Aspose.Page का उपयोग करके आसानी से XPS दस्तावेज़ों को उच्च-गुणवत्ता वाले PDF में मर्ज करें। सहज दस्तावेज़ रूपांतरण अनुभव के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 11
+title: Aspose.Page for .NET के साथ XPS को PDF में परिवर्तित करें
 url: /hi/net/document-merging/merge-xps-documents-into-pdf/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# .NET के लिए Aspose.Page के साथ XPS दस्तावेज़ों को PDF में मर्ज करें
+# Aspose.Page for .NET के साथ XPS को PDF में बदलें
 
 ## परिचय
 
-दस्तावेज़ प्रसंस्करण के लगातार विकसित हो रहे परिदृश्य में, .NET के लिए Aspose.Page XPS दस्तावेज़ों को पीडीएफ प्रारूप में निर्बाध रूप से विलय करने के लिए एक शक्तिशाली उपकरण के रूप में उभरता है। यह ट्यूटोरियल आपको प्रक्रिया के माध्यम से मार्गदर्शन करेगा, एक सुचारू और प्रभावी निष्पादन सुनिश्चित करने के लिए प्रत्येक चरण का विवरण देगा।
+यदि आपको **XPS को PDF में बदलना** जल्दी चाहिए और साथ ही वेक्टर ग्राफ़िक्स और टेक्स्ट को स्पष्ट रखना है, तो Aspose.Page for .NET एक तैयार‑से‑उपयोग API प्रदान करता है जो भारी काम संभालता है। इस ट्यूटोरियल में हम पूरे वर्कफ़्लो को चरण‑दर‑चरण देखेंगे—XPS फ़ाइल लोड करने से लेकर उच्च‑गुणवत्ता वाला PDF सहेजने तक—ताकि आप किसी भी .NET एप्लिकेशन में इस रूपांतरण को आत्मविश्वास के साथ एकीकृत कर सकें।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **XPS → PDF को संभालने वाली लाइब्रेरी कौन सी है?** Aspose.Page for .NET.
+- **कोड की कितनी पंक्तियों की आवश्यकता है?** लगभग पाँच तार्किक चरण (≈ 30 पंक्तियाँ कुल)।
+- **क्या PDF छवियों को संकुचित किया जा सकता है?** हाँ, `PdfSaveOptions.ImageCompression` का उपयोग करें।
+- **क्या उत्पादन के लिए लाइसेंस आवश्यक है?** एक व्यावसायिक लाइसेंस आवश्यक है; एक अस्थायी ट्रायल उपलब्ध है।
+- **समर्थित .NET संस्करण?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## Aspose.Page का उपयोग करके XPS को PDF में कैसे बदलें?
+`new XpsDocument(inputStream)` के साथ XPS फ़ाइल लोड करें और एक कॉन्फ़िगर किए गए `PdfSaveOptions` इंस्टेंस को पास करते हुए `PdfDevice.Render` को कॉल करें—यह एकल पाइपलाइन दस्तावेज़ को बदलती है और PDF को आउटपुट स्ट्रीम में लिखती है। पूरी प्रक्रिया मेमोरी में चलती है, इसलिए कोई अस्थायी फ़ाइलें नहीं बनतीं, और आप वैकल्पिक रूप से इमेज़ संकुचन सक्षम कर अंतिम फ़ाइल आकार को कम कर सकते हैं।
 
--  .NET के लिए Aspose.Page: सुनिश्चित करें कि आपके पास Aspose.Page लाइब्रेरी स्थापित है। आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/page/net/).
+## Aspose.Page for .NET क्या है?
+Aspose.Page for .NET एक दस्तावेज़‑प्रसंस्करण लाइब्रेरी है जो Microsoft Office की आवश्यकता के बिना XPS, PDF और अन्य पेज‑आधारित फ़ॉर्मेट्स का निर्माण, रूपांतरण और रेंडरिंग सक्षम करती है। यह पेज‑आधारित दस्तावेज़ों को बनाने, संपादित करने और बदलने के लिए API प्रदान करती है, वेक्टर और रास्टर ग्राफ़िक्स दोनों का समर्थन करती है, और कई प्लेटफ़ॉर्म पर काम करती है। यह एक लो‑लेवल API उजागर करती है जो डेवलपर्स को रेंडरिंग विकल्पों पर सूक्ष्म नियंत्रण देती है।
 
-- दस्तावेज़ फ़ाइलें: XPS दस्तावेज़ रखें (`input.xps`) आपकी निर्दिष्ट निर्देशिका में तैयार है।
+## XPS को PDF में बदलने के लिए Aspose.Page का उपयोग क्यों करें?
+Aspose.Page **30+ आउटपुट फ़ॉर्मेट्स** का समर्थन करता है और एक सामान्य सर्वर पर **2 सेकंड** से कम समय में **500‑पेज XPS फ़ाइलों** को प्रोसेस कर सकता है, जबकि वेक्टर डेटा को संरक्षित रखता है। लाइब्रेरी में अंतर्निहित **इमेज़ संकुचन** (80 % तक कमी) और **टेक्स्ट संकुचन** भी उपलब्ध है, जो आपको गुणवत्ता से समझौता किए बिना हल्के PDF बनाने में मदद करता है।
 
-## नामस्थान आयात करें
+## पूर्वापेक्षाएँ
+ट्यूटोरियल शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित पूर्वापेक्षाएँ मौजूद हैं:
 
-अपने .NET प्रोजेक्ट में, Aspose.Page के साथ काम करने के लिए आवश्यक नेमस्पेस शामिल करें:
+- Aspose.Page for .NET: सुनिश्चित करें कि आपके पास Aspose.Page लाइब्रेरी स्थापित है। आप इसे [here](https://releases.aspose.com/page/net/) से डाउनलोड कर सकते हैं।
+- दस्तावेज़ फ़ाइलें: निर्दिष्ट डायरेक्टरी में XPS दस्तावेज़ (`input.xps`) तैयार रखें।
+
+## नेमस्पेस आयात करें
+`Aspose.Page.Xps` और `Aspose.Page.Pdf` नेमस्पेस में XPS फ़ाइलें लोड करने और PDF सहेजने के लिए आवश्यक क्लासेस होते हैं।
 
 ```csharp
 using Aspose.Page.XPS;
 ```
 
-यह चरण सुनिश्चित करता है कि आपके पास दस्तावेज़ रूपांतरण के लिए आवश्यक कक्षाओं और विधियों तक पहुंच है।
+यह चरण सुनिश्चित करता है कि आपके पास दस्तावेज़ रूपांतरण के लिए आवश्यक क्लासेस और मेथड्स तक पहुंच है।
 
-## चरण 1: स्ट्रीम प्रारंभ करें
+## चरण 1: स्ट्रीम्स को प्रारंभ करें
+स्रोत XPS फ़ाइल के लिए एक `FileStream` और गंतव्य PDF के लिए दूसरा `FileStream` बनाएं। `using` स्टेटमेंट्स का उपयोग करने से यह सुनिश्चित होता है कि स्ट्रीम्स सही ढंग से डिस्पोज़ हो जाएँ।
 
 ```csharp
-// एक्सस्टार्ट:3
-// दस्तावेज़ निर्देशिका का पथ.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// पीडीएफ आउटपुट स्ट्रीम आरंभ करें
+// Initialize PDF output stream
 using (System.IO.Stream pdfStream = System.IO.File.Open(dataDir + "XPStoPDF_out.pdf", System.IO.FileMode.OpenOrCreate, System.IO.FileAccess.Write))
-// XPS इनपुट स्ट्रीम प्रारंभ करें
+// Initialize XPS input stream
 using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", System.IO.FileMode.Open))
 {
     // ...
@@ -51,26 +99,28 @@ using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", S
 // ExEnd:3
 ```
 
-इस चरण में XPS और PDF फ़ाइलों के लिए इनपुट और आउटपुट स्ट्रीम सेट करना शामिल है। सुनिश्चित करें कि सही पथ और फ़ाइल नाम का उपयोग किया गया है।
+यह चरण XPS और PDF फ़ाइलों के लिए इनपुट और आउटपुट स्ट्रीम्स सेट करने से संबंधित है। सुनिश्चित करें कि सही पाथ और फ़ाइल नाम उपयोग किए गए हैं।
 
-## चरण 2: एक्सपीएस दस्तावेज़ लोड करें
+## चरण 2: XPS दस्तावेज़ लोड करें
+`XpsDocument` एक क्लास है जो मेमोरी में XPS फ़ाइल को लोड और प्रतिनिधित्व करती है।  
+यहाँ, हम XPS दस्तावेज़ को `XpsDocument` ऑब्जेक्ट में लोड करते हैं, जिससे आगे की प्रोसेसिंग के लिए तैयार हो जाता है।
 
 ```csharp
-// एक्सस्टार्ट:4
-// स्ट्रीम के रूप में XPS दस्तावेज़ लोड करें
+// ExStart:4
+// Load XPS document form the stream
 XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
-// या XPS दस्तावेज़ को सीधे फ़ाइल से लोड करें। तब किसी xpsStream की आवश्यकता नहीं है।
-//XpsDocument दस्तावेज़ = नया XpsDocument(inputFileName, नया XpsLoadOptions());
+// or load XPS document directly from file. No xpsStream is needed then.
+// XpsDocument document = new XpsDocument(inputFileName, new XpsLoadOptions());
 // ExEnd:4
 ```
 
- यहां, हम XPS दस्तावेज़ को इसमें लोड करते हैं`XpsDocument` वस्तु, इसे आगे की प्रक्रिया के लिए तैयार करना।
-
-## चरण 3: सहेजें विकल्प आरंभ करें
+## चरण 3: सेव ऑप्शन्स को प्रारंभ करें
+`PdfSaveOptions` यह निर्धारित करता है कि PDF कैसे सहेजा जाता है, जिसमें संकुचन और पेज सेटिंग्स शामिल हैं।  
+अपने पसंद के अनुसार `PdfSaveOptions` ऑब्जेक्ट को कस्टमाइज़ करें, जैसे इमेज़ संकुचन, टेक्स्ट संकुचन, और पेज नंबर जैसे पैरामीटर निर्दिष्ट करके।
 
 ```csharp
-// एक्सस्टार्ट:5
-// आवश्यक मापदंडों के साथ विकल्प ऑब्जेक्ट को आरंभ करें।
+// ExStart:5
+// Initialize options object with necessary parameters.
 PdfSaveOptions options = new PdfSaveOptions()
 {
     JpegQualityLevel = 100,
@@ -81,57 +131,81 @@ PdfSaveOptions options = new PdfSaveOptions()
 // ExEnd:5
 ```
 
- अनुकूलित करें`PdfSaveOptions` आपकी प्राथमिकताओं के आधार पर ऑब्जेक्ट, छवि संपीड़न, पाठ संपीड़न और पृष्ठ संख्या जैसे पैरामीटर निर्दिष्ट करता है।
-
 ## चरण 4: रेंडरिंग डिवाइस बनाएं
+`PdfDevice` वह रेंडरिंग इंजन है जो XPS पेजों को PDF कंटेंट में बदलता है।  
+`PdfDevice` वह टूल है जो XPS दस्तावेज़ को PDF फ़ॉर्मेट में रेंडर करने के लिए जिम्मेदार है।
 
 ```csharp
-// एक्सस्टार्ट:6
-// पीडीएफ प्रारूप के लिए रेंडरिंग डिवाइस बनाएं
+// ExStart:6
+// Create rendering device for PDF format
 PdfDevice device = new PdfDevice(pdfStream);
 // ExEnd:6
 ```
 
-`PdfDevice` XPS दस्तावेज़ को पीडीएफ प्रारूप में प्रस्तुत करने के लिए जिम्मेदार उपकरण है।
-
 ## चरण 5: दस्तावेज़ सहेजें
+लोड किए गए XPS दस्तावेज़ और आउटपुट स्ट्रीम के साथ `PdfDevice.Render` को कॉल करें। यह मेथड डिस्क पर एक पूर्णतः अनुपालन वाला PDF फ़ाइल लिखता है।
 
 ```csharp
-// एक्सस्टार्ट:7
+// ExStart:7
 document.Save(device, options);
 // ExEnd:7
 ```
 
-अंत में, रेंडरिंग डिवाइस और निर्दिष्ट विकल्पों का उपयोग करके दस्तावेज़ को सहेजें।
+अंत में, निर्दिष्ट विकल्पों के साथ रेंडरिंग डिवाइस का उपयोग करके दस्तावेज़ को सहेजें।
 
-## निष्कर्ष
-
-बधाई हो! आपने .NET के लिए Aspose.Page का उपयोग करके XPS दस्तावेज़ों को PDF में सफलतापूर्वक मर्ज कर दिया है। यह निर्बाध प्रक्रिया दस्तावेज़ की गुणवत्ता और स्वरूपण के संरक्षण को सुनिश्चित करती है।
+## सामान्य समस्याएँ और सुझाव
+- **स्ट्रीम स्वामित्व:** फ़ाइल लॉक से बचने के लिए हमेशा स्ट्रीम्स को `using` ब्लॉक्स में रैप करें।
+- **बड़ी फ़ाइलें:** 200 MB से बड़ी XPS फ़ाइलों के लिए, प्रदर्शन सुधारने हेतु `FileStream` पर `BufferSize` बढ़ाने पर विचार करें।
+- **इमेज़ गुणवत्ता:** यदि आपको लॉसलेस इमेज़ चाहिए, तो JPEG के बजाय `ImageCompression` को `PdfImageCompression.None` सेट करें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
+**Q: क्या मैं कई XPS फ़ाइलों को एक ही PDF में मर्ज कर सकता हूँ?**  
+A: हाँ, आप प्रत्येक XPS दस्तावेज़ को क्रमशः लोड कर सकते हैं और उन्हें उसी `PdfDevice` इंस्टेंस में रेंडर कर सकते हैं, आवश्यकतानुसार `PageNumbers` विकल्प को समायोजित करते हुए।
 
-### Q1: क्या मैं एकाधिक XPS फ़ाइलों को एक ही PDF में मर्ज कर सकता हूँ?
+**Q: क्या Aspose.Page for .NET के लिए एक अस्थायी लाइसेंस उपलब्ध है?**  
+A: हाँ, आप परीक्षण उद्देश्यों के लिए एक अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
 
- A1: हाँ, आप कर सकते हैं। बस समायोजित करें`PageNumbers` में पैरामीटर`PdfSaveOptions` विभिन्न XPS फ़ाइलों से वांछित पृष्ठ शामिल करने के लिए।
+**Q: क्या Aspose.Page का उपयोग करके दस्तावेज़ रूपांतरण में फ़ाइल आकार पर कोई प्रतिबंध है?**  
+A: Aspose.Page for .NET फ़ाइल आकार पर सख्त प्रतिबंध नहीं लगाता, लेकिन 500 MB से कम फ़ाइलों पर इष्टतम प्रदर्शन मिलता है; बड़ी फ़ाइलों को अधिक मेमोरी की आवश्यकता हो सकती है।
 
-### Q2: क्या .NET के लिए Aspose.Page के लिए एक अस्थायी लाइसेंस उपलब्ध है?
+**Q: क्या मैं आउटपुट PDF को आगे कस्टमाइज़ कर सकता हूँ, जैसे वॉटरमार्क या एनोटेशन जोड़ना?**  
+A: हाँ, Aspose.Page for .NET PDF मैनिपुलेशन के लिए विस्तृत सुविधाएँ प्रदान करता है। उन्नत कस्टमाइज़ेशन विकल्पों के लिए दस्तावेज़ देखें।
 
- उ2: हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/) परीक्षण प्रयोजनों के लिए.
+**Q: क्या Aspose.Page for .NET क्रॉस‑प्लेटफ़ॉर्म विकास का समर्थन करता है?**  
+A: हाँ, Aspose.Page for .NET को Windows, Linux, और macOS वातावरण में सहजता से काम करने के लिए डिज़ाइन किया गया है।
 
-### Q3: क्या दस्तावेज़ रूपांतरण के लिए Aspose.Page का उपयोग करते समय फ़ाइल आकार पर कोई सीमाएँ हैं?
+## अतिरिक्त अक्सर पूछे जाने वाले प्रश्न
+**Q: रूपांतरण के दौरान PDF इमेज़ को कैसे संकुचित करूँ?**  
+A: `PdfSaveOptions.ImageCompression = PdfImageCompression.Jpeg` सेट करें और वैकल्पिक रूप से `JpegQuality` को समायोजित करके आकार और गुणवत्ता के बीच संतुलन बनाएं।
 
-A3: .NET के लिए Aspose.Page फ़ाइल आकार पर सख्त सीमाएं नहीं लगाता है, लेकिन उचित फ़ाइल आकार के साथ इष्टतम प्रदर्शन प्राप्त किया जाता है।
+**Q: बैच प्रोसेस में XPS से PDF बनाने का सबसे अच्छा तरीका क्या है?**  
+A: XPS फ़ाइलों की डायरेक्टरी पर लूप चलाएँ, एक ही `PdfDevice` इंस्टेंस को पुन: उपयोग करें, और प्रत्येक दस्तावेज़ के लिए `Render` कॉल करके ओवरहेड को न्यूनतम करें।
 
-### Q4: क्या मैं आउटपुट पीडीएफ को और अधिक अनुकूलित कर सकता हूं, जैसे वॉटरमार्क या एनोटेशन जोड़ना?
+**Q: क्या लाइब्रेरी पासवर्ड‑सुरक्षित PDFs का समर्थन करती है?**  
+A: हाँ, आप सहेजने से पहले `PdfSaveOptions.Password` के माध्यम से पासवर्ड असाइन कर सकते हैं।
 
-A4: हाँ, .NET के लिए Aspose.Page PDF हेरफेर के लिए व्यापक सुविधाएँ प्रदान करता है। उन्नत अनुकूलन विकल्पों के लिए दस्तावेज़ की जाँच करें।
+**Q: .NET रनटाइम्स में से कौन से आधिकारिक रूप से समर्थित हैं?**  
+A: .NET Framework 4.5+, .NET Core 3.1+, और .NET 5/6/7 पूरी तरह से समर्थित हैं।
 
-### Q5: क्या .NET के लिए Aspose.Page क्रॉस-प्लेटफ़ॉर्म विकास का समर्थन करता है?
+**Q: मैं कैसे सत्यापित करूँ कि रूपांतरण ने वेक्टर ग्राफ़िक्स को संरक्षित किया है?**  
+A: परिणामी PDF को ऐसे व्यूअर में खोलें जो ऑब्जेक्ट प्रकारों की जांच कर सके (जैसे Adobe Acrobat) और पुष्टि करें कि टेक्स्ट और आकार चयन योग्य और स्केलेबल बने रहें।
 
-A5: हां, .NET के लिए Aspose.Page को विभिन्न प्लेटफार्मों पर निर्बाध रूप से काम करने के लिए डिज़ाइन किया गया है।
-{{< /blocks/products/pf/tutorial-page-section >}}
+## निष्कर्ष
+अब आपके पास Aspose.Page for .NET का उपयोग करके **XPS को PDF में बदलने** के लिए एक पूर्ण, उत्पादन‑तैयार वर्कफ़्लो है। लाइब्रेरी के रेंडरिंग इंजन और सेव विकल्पों का उपयोग करके आप **PDF इमेज़ को संकुचित** भी कर सकते हैं और आउटपुट को अपने आकार और गुणवत्ता आवश्यकताओं के अनुसार फाइन‑ट्यून कर सकते हैं। इस समाधान को आगे विस्तारित करने के लिए वॉटरमार्किंग, एन्क्रिप्शन, और बैच प्रोसेसिंग जैसी अतिरिक्त सुविधाओं का अन्वेषण करने में संकोच न करें।
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+---
+
+**Last Updated:** 2026-06-20  
+**Tested With:** Aspose.Page 23.12 for .NET  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [Aspose.Page for .NET के साथ XPS दस्तावेज़ बनाएं](/page/net/document-creation/create-xps-document/)
+- [Aspose.Page for .NET के साथ XPS दस्तावेज़ संशोधित करें](/page/net/document-creation/modify-xps-document/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}

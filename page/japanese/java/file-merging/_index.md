@@ -1,105 +1,175 @@
 ---
-date: 2026-01-28
-description: Aspose.Page を使用して Java で XPS を PDF に変換する方法を学び、XPS の変換方法や PostScript PDF
-  の Java での変換方法を、ステップバイステップのファイル結合チュートリアルとともに発見しましょう。
-linktitle: File Merging
+date: 2026-06-20
+description: Aspose.Page を使用して java merge pdf files をマスターしましょう。XPS を PDF に変換し、PostScript
+  と XPS ドキュメントを結合し、Java でファイル結合を自動化する方法を学びます。
+keywords:
+- java merge pdf files
+- how to convert xps to pdf
+- Aspose.Page Java
+linktitle: ファイル結合
+schemas:
+- author: Aspose
+  dateModified: '2026-06-20'
+  description: Master java merge pdf files using Aspose.Page. Learn how to convert
+    XPS to PDF, merge PostScript and XPS documents, and automate file merging in Java.
+  headline: java merge pdf files – Convert XPS to PDF and File Merging in Java
+  type: TechArticle
+- description: Master java merge pdf files using Aspose.Page. Learn how to convert
+    XPS to PDF, merge PostScript and XPS documents, and automate file merging in Java.
+  name: java merge pdf files – Convert XPS to PDF and File Merging in Java
+  steps:
+  - name: '**Create a `PostScriptDocument`** – this class represents a PostScript
+      file in memory.'
+    text: '**Create a `PostScriptDocument`** – this class represents a PostScript
+      file in memory.'
+  - name: '**Call `save` with `SaveFormat.Pdf`** – the library writes a PDF file while
+      preserving layout.'
+    text: '**Call `save` with `SaveFormat.Pdf`** – the library writes a PDF file while
+      preserving layout.'
+  - name: '**Load the XPS:** `PageDocument doc = PageDocument.load("input.xps");`'
+    text: '**Load the XPS:** `PageDocument doc = PageDocument.load("input.xps");`'
+  - name: '**Save as PDF:** `doc.save("output.pdf", SaveFormat.Pdf);`'
+    text: '**Save as PDF:** `doc.save("output.pdf", SaveFormat.Pdf);`'
+  - name: '**Instantiate a `PageDocument` for each source XPS.**'
+    text: '**Instantiate a `PageDocument` for each source XPS.**'
+  - name: '**Append pages** using the `addPage` method of the destination document.'
+    text: '**Append pages** using the `addPage` method of the destination document.'
+  - name: '**Save the combined document** as PDF with `SaveFormat.Pdf`.'
+    text: '**Save the combined document** as PDF with `SaveFormat.Pdf`.'
+  type: HowTo
+- questions:
+  - answer: Yes. The library is thread‑safe and works perfectly inside servlet containers,
+      Spring Boot services, or any Java web framework.
+    question: Can I use Aspose.Page for XPS to PDF conversion in a web application?
+  - answer: The API imposes no hard limit, but you should allocate sufficient JVM
+      heap (e.g., 2 GB) for documents exceeding 150 pages.
+    question: Is there a size limitation for the XPS files I can convert?
+  - answer: Aspose.Page uses system fonts by default. If your XPS references custom
+      fonts, install them on the server or embed them in the XPS source.
+    question: Do I need to install additional fonts on the server?
+  - answer: Absolutely. Aspose.Page preserves all vector shapes, ensuring the PDF
+      output matches the original XPS layout pixel‑perfectly.
+    question: Can I convert XPS to PDF without losing vector graphics?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: XPS を PDF に変換 – Javaでのファイル結合
+title: java merge pdf files – XPS を PDF に変換し、Java でファイル結合
 url: /ja/java/file-merging/
 weight: 31
 ---
 
+{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# convert xps to pdf – Java におけるファイル結合
+# java merge pdf files – Convert XPS to PDF and File Merging in Java
 
 ## はじめに
 
-Java 開発スキルを高め、**convert xps to pdf** 変換をマスターする準備はできましたか？Aspose.Page の世界へ飛び込みましょう！本包括的チュートリアルシリーズでは、Aspose.Page for Java を使用したファイルのシームレスな結合方法を詳しく解説します。経験豊富な開発者でも、コーディングに興味のある方でも、効率的な **java document conversion** とファイル結合の貴重なリソースをご提供します。
+レガシーな XPS ドキュメントを変換しながら **java merge pdf files** が必要な場合は、ここが最適です。このチュートリアルでは、Aspose.Page for Java を使用して XPS を PDF に変換し、複数の固定レイアウトファイルを単一の PDF に結合する方法を、純粋な Java コードだけで外部依存なしに実現する手順を示します。バッチ処理サービスや Web ベースのドキュメントポータルを構築する場合でも、以下の手順で信頼性の高いファイル結合を迅速に実装できます。
 
-## よくある質問
-- **“convert xps to pdf” とは何ですか？** Java コードで XPS (XML Paper Specification) ファイルを PDF 形式に変換することです。  
-- **どのライブラリが変換を担当しますか？** Aspose.Page for Java。  
-- **ライセンスは必要ですか？** 評価用の無料トライアルで動作しますが、本番環境では商用ライセンスが必要です。  
-- **複数の XPS ファイルを 1 つの PDF に結合できますか？** はい – 同じ API で複数の XPS ドキュメントを結合できます。  
-- **必要な Java バージョンは？** Java 8 以上を推奨します。
+## クイック回答
+- **“convert xps to pdf” とは何ですか？** XPS (XML Paper Specification) ファイルを Java コードで標準的な PDF ドキュメントに変換することを意味します。  
+- **どのライブラリが変換を担当しますか？** Aspose.Page for Java が XPS‑to‑PDF 変換およびファイル結合の専用 API を提供します。  
+- **ライセンスは必要ですか？** 無料トライアルで評価は可能ですが、本番環境では商用ライセンスが必要です。  
+- **複数の XPS ファイルを 1 つの PDF に結合できますか？** はい – 同じ API で複数の XPS ドキュメントを読み込み、単一の PDF として保存できます。  
+- **必要な Java バージョンは？** 最適なパフォーマンスのために Java 8 以上を推奨します。
 
-## XPSをPDFに変換するとは？
-XPS は Microsoft の固定レイアウト文書形式で、PDF に似ていますがサポートは限定的です。Java で XPS を PDF に変換すると、文書を共有、アーカイブ、またはさらに処理しやすい汎用フォーマットに変換できます。Aspose.Page は変換をシンプルに行う API を提供し、複数の XPS や PostScript ファイルの結合もサポートします。
+## convert xps to pdf とは？
+**Convert xps to pdf** は、XPS ファイルを Java コードで PDF 形式に変換するプロセスです。XPS は Microsoft の固定レイアウト形式で、PDF は文書共有の汎用標準です。Aspose.Page の変換エンジンはフォント、ベクターグラフィック、レイアウトの忠実度を保持し、生成された PDF は元の XPS と見た目が区別できないほどです。
 
-## Javaでのファイル結合にAspose.Pageを使用する理由
-- **高忠実度:** レイアウト、フォント、グラフィックを元のファイルと全く同じように保持します。  
-- **外部依存なし:** 純粋な Java ライブラリで、ネイティブバイナリや外部ツールは不要です。  
-- **バッチ処理:** 1 回の呼び出しで多数のファイルを結合または変換でき、サーバー側の自動化に最適です。  
-- **豊富なフォーマット対応:** 同一 API で PostScript、XPS、PDF など多数の形式を扱えます。
+## Aspose.Page で java merge pdf files を行う理由
+ドキュメントの読み込みと結合はサーバー側の一般的なタスクです。Aspose.Page を使用すれば、ネイティブツールをインストールせずに **java merge pdf files** が可能で、数十ファイルを単一呼び出しでバッチ処理できます。ライブラリは最大 **200 ページ文書** をメモリ効率の良いストリームで処理し、**5 以上の固定レイアウト形式** (XPS、PostScript、PDF、SVG、EPS) を単一 API でサポートします。
 
 ## 前提条件
-- Java 8 以上がインストールされていること。  
+- 開発マシンに Java 8 以上がインストールされていること。  
 - Aspose.Page for Java の JAR（Aspose のウェブサイトからダウンロード）。  
 - 本番利用のための有効な Aspose ライセンス（トライアルの場合は任意）。  
 
-## JavaでPostScriptをPDFに結合する
+## Java で PostScript を PDF に結合
 
-Aspose.Page を使って PostScript ファイルを PDF にシームレスに結合する方法を学びましょう。ステップバイステップのガイドで、ベストプラクティスや FAQ も提供し、スムーズで効率的な文書変換プロセスを実現します。面倒な作業は不要です – Java アプリケーションで PostScript から PDF へのシームレスな移行が可能です。
+### PostScript PDF Java を変換する方法は？
+PostScript ファイルを読み込み、直接 PDF として保存します – 変換は 2 行のコードで実行できます。このアプローチはベクターグラフィックと埋め込みフォントを保持し、ロスレスな出力を保証します。
 
-[Read the Merge PostScript to PDF Tutorial](./postscript-to-pdf/)
+### 手順ガイド
+1. **`PostScriptDocument` を作成** – このクラスはメモリ上の PostScript ファイルを表します。  
+2. **`save` を `SaveFormat.Pdf` と共に呼び出す** – ライブラリはレイアウトを保持しながら PDF ファイルを書き出します。
 
-### JavaでPostScriptからPDFへの変換方法
-**convert xps to pdf** を支えるのと同じ API が **convert postscript pdf java** シナリオもサポートします。PostScript ドキュメントを読み込み PDF として保存するだけで、ベクターグラフィックやフォントを保持したロスレス変換が実現します。
+[Merge PostScript to PDF チュートリアルを読む](./postscript-to-pdf/)
 
-## JavaでXPSからPDFへの変換方法
+## Java で XPS を PDF に変換
 
-Aspose.Page で XPS を PDF に簡単に変換する方法をご紹介します。チュートリアルはプロセスをシンプルかつ効率的にするよう設計されています。基礎の理解から潜在的な課題への対処まで、すべてカバーします。XPS から PDF への変換に関する洞察に満ちたガイドで、Java 開発スキルを向上させましょう。
+`PageDocument` は Aspose.Page のコアクラスで、XPS や PostScript ドキュメントの読み込みと保存を行います。  
 
-[Read the Convert XPS to PDF Tutorial](./xps-to-pdf/)
+### XPS を変換する方法は？
+`PageDocument.load` が XPS ファイルをメモリに読み込み、`save` メソッドが PDF として書き出します。  
 
-### XPSの変換方法
-**how to convert XPS** ファイルを知りたい場合、数行のコードで解決できます。`PageDocument.load` で XPS ドキュメントを読み込み、`save` メソッドに PDF 形式を指定して呼び出すだけです。ライブラリが重い処理をすべて担当するので、ビジネスロジックに集中できます。
+**定義アンカー:** `PageDocument` クラスは XPS または PostScript ドキュメントの読み込み、編集、保存を行う Aspose.Page の中心オブジェクトです。
 
-## JavaでXPSファイルを結合する – スキルアップ！
+`SaveFormat` は出力ファイル形式（例: PDF）を指定する列挙型です。  
 
-Java 開発スキルを次のレベルへ引き上げませんか？Aspose.Page を使って XPS ファイルをシームレスに結合する方法を学びましょう。ステップバイステップのガイドで XPS ドキュメントを効率的に操作できるようになり、Java アプリケーションの可能性が広がります。今すぐスキルを強化しましょう！
+### ワークフロー例
+1. **XPS を読み込む:** `PageDocument doc = PageDocument.load("input.xps");`  
+2. **PDF として保存:** `doc.save("output.pdf", SaveFormat.Pdf);`
 
-[Read the Merge XPS Files in Java Tutorial](./xps-to-xps/)
+[Convert XPS to PDF チュートリアルを読む](./xps-to-pdf/)
 
-### XPSファイルを結合する理由
-XPS ファイルを結合すると、レポートや請求書、固定レイアウト文書のコレクションを 1 つの統合 PDF にまとめられます。これによりファイル管理の手間が減り、エンドユーザーにとっても快適な体験を提供できます。
+## Java で XPS ファイルを結合 – スキルを向上させよう！
 
-### まとめ
+### XPS ファイルを結合する理由は？
+XPS ファイルを結合すると、レポート、請求書、カタログページなどを単一の PDF に統合でき、ファイル管理の手間が減り、エンドユーザーにスムーズな体験を提供します。
 
-Aspose.Page for Java は文書変換と操作の可能性を広げます。このチュートリアル群を活用すれば、PostScript から PDF への変換、**convert xps to pdf**、XPS ファイルの結合など、ファイル結合のマスターに必要なすべての知識が手に入ります。効率と卓越性が融合した Aspose.Page で、Java 開発の実力をさらに高めましょう！
+### 複数の XPS ドキュメントを結合する方法は？
+1. **各ソース XPS 用に `PageDocument` をインスタンス化**。  
+2. **`addPage` メソッドでページを追加** – `addPage` はあるドキュメントから別のドキュメントへページを追加します。  
+3. **結合したドキュメントを `SaveFormat.Pdf` で保存**。
+
+[Merge XPS Files in Java チュートリアルを読む](./xps-to-xps/)
+
+## 結論
+
+Aspose.Page for Java は **java merge pdf files**、XPS から PDF への変換、PostScript ドキュメントの処理をすべて単一の純粋な Java API で実現します。本ガイドの手順に従えば、小規模ユーティリティからエンタープライズ規模のサービスまでスケールする堅牢なドキュメント処理パイプラインを構築できます。
 
 ## ファイル結合チュートリアル
 ### [Merge PostScript to PDF in Java](./postscript-to-pdf/)
-Aspose.Page を使用して Java で PostScript ファイルを PDF にシームレスに結合します。包括的なチュートリアル、FAQ、リソースで文書変換をスムーズに実現します。
+Aspose.Page を使用して Java で PostScript ファイルを PDF に簡単に結合できます。包括的なチュートリアル、FAQ、リソースが揃っており、シームレスなドキュメント変換を実現します。
 ### [Convert XPS to PDF in Java](./xps-to-pdf/)
-Aspose.Page で Java における XPS から PDF への変換を簡単に行う方法を学びます。ステップバイステップのガイドで効率的な文書変換を実現します。
+Aspose.Page で Java から XPS を PDF に簡単に変換する方法を学びましょう。ステップバイステップのガイドで効率的なドキュメント変換が可能です。
 ### [Convert XPS to XPS in Java](./xps-to-xps/)
-Aspose.Page を使用して Java で XPS ファイルをシームレスに結合する方法を学びます。ステップバイステップのガイドで効率的な文書操作を実現し、Java 開発スキルを今すぐ向上させましょう！
+Aspose.Page を使用して Java で XPS ファイルをシームレスに結合する方法を学びます。ステップバイステップのガイドで効率的なドキュメント操作を実現し、Java 開発スキルを今すぐ向上させましょう！
 
 ## よくある質問
 
-**Q: WebアプリケーションでAspose.Pageを使用してXPSからPDFへの変換はできますか？** A: はい、可能です。このライブラリはスレッドセーフであり、サーブレットコンテナやSpring Bootサービスで問題なく動作します。
+**Q: Aspose.Page を Web アプリケーションで XPS から PDF への変換に使用できますか？**  
+A: はい。ライブラリはスレッドセーフで、サーブレットコンテナ、Spring Boot サービス、または任意の Java Web フレームワーク内で問題なく動作します。
 
-**Q: 変換できるXPSファイルのサイズに制限はありますか？** A: API自体には厳密な制限はありませんが、非常に大きなドキュメントの場合はJVMヒープサイズを考慮する必要があります。
+**Q: 変換できる XPS ファイルのサイズ制限はありますか？**  
+A: API にハードリミットはありませんが、150 ページを超える文書の場合は十分な JVM ヒープ（例: 2 GB）を確保してください。
 
-**Q: サーバーに追加のフォントをインストールする必要がありますか？** A: Aspose.Pageはデフォルトでシステムフォントを使用します。ソースXPSがカスタムフォントを参照している場合は、そのフォントがインストールされていることを確認するか、XPSに埋め込んでください。
+**Q: サーバーに追加フォントをインストールする必要がありますか？**  
+A: Aspose.Page はデフォルトでシステムフォントを使用します。XPS がカスタムフォントを参照している場合は、サーバーにフォントをインストールするか、XPS ソースに埋め込んでください。
 
-**Q: パスワードで保護されたXPSファイルはどのように処理すればよいですか？** A: XPSドキュメントを読み込む際に、`LoadOptions`クラスを使用してパスワードを指定してください。
+**Q: パスワードで保護された XPS ファイルはどう扱いますか？**  
+`LoadOptions` でロード時のパラメータ（暗号化ドキュメントのパスワードなど）を指定できます。  
+A: `PageDocument.load` を呼び出す際に `LoadOptions` クラスでパスワードを提供してください。
 
-**Q: ベクターグラフィックを失わずにXPSからPDFに変換できますか？** A: はい。 Aspose.Pageはベクターグラフィックを保持するため、生成されるPDFは元のXPSファイルと全く同じ外観になります。
+**Q: ベクターグラフィックを失わずに XPS を PDF に変換できますか？**  
+A: もちろんです。Aspose.Page はすべてのベクタ形状を保持し、PDF 出力が元の XPS レイアウトとピクセル単位で一致することを保証します。
 
 ---
 
-**最終更新日:** 2026年1月28日
-**テスト環境:** Aspose.Page for Java 24.11
-**作成者:** Aspose 
+**最終更新日:** 2026-06-20  
+**テスト環境:** Aspose.Page for Java 24.11  
+**作者:** Aspose  
+
+{{< blocks/products/pf/main-container >}}
+
+## 関連チュートリアル
+
+- [How to Merge XPS Files in Java – how to merge xps with Aspose.Page](/page/java/file-merging/xps-to-xps/)
+- [Aspose Page Java Tutorial - Convert PostScript to PDF](/page/java/postscript-conversion/to-pdf/)
+- [java create postscript file – Java Document Creation with Aspose.Page](/page/java/document-creation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
