@@ -142,9 +142,9 @@ A: Check the “Exploring Advanced Techniques” and “Optimizing Performance�
 
 ## Related Tutorials
 
-{{< relref "xps-image-manipulation/_index.md" >}}  
-{{< relref "xps-page-manipulation/add-page/_index.md" >}}  
-{{< relref "file-merging/xps-to-pdf/_index.md" >}}
+{{< relref "java/xps-image-manipulation/_index.md" >}}  
+{{< relref "java/xps-page-manipulation/add-page/_index.md" >}}  
+{{< relref "java/file-merging/xps-to-pdf/_index.md" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -148,9 +148,9 @@ A: Gradients are vector‑based, so they add minimal file size and render quickl
 
 ## Related Tutorials
 
-- [How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page]({{< relref "/page/java/xps-image-manipulation/add-image/" >}})
-- [Java XPS Text Addition - Aspose.Page Tutorial]({{< relref "/page/java/xps-text-manipulation/add-text/" >}})
-- [Aspose.Page Java - Add Pages to XPS Tutorial]({{< relref "/page/java/xps-page-manipulation/add-page/" >}})
+- [How to Add Image to Java XPS Documents – A Simple Guide with Aspose.Page]({{< relref "java/xps-image-manipulation/add-image/_index.md" >}})
+- [Java XPS Text Addition - Aspose.Page Tutorial]({{< relref "java/xps-text-manipulation/add-text/_index.md" >}})
+- [Aspose.Page Java - Add Pages to XPS Tutorial]({{< relref "java/xps-page-manipulation/add-page/_index.md" >}})
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}

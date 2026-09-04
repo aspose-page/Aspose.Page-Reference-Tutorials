@@ -30,7 +30,7 @@ Visual Brush lets you define a small visual (the “tile”) once and then repea
 ## Prerequisites
 Before we dive into the code, make sure you have the following prerequisites:
 - Basic understanding of Java programming.  
-- Aspose.Page library installed. You can download it from the [Aspose.Page for Java documentation]({{< relref "page/english/java/visual-elements/_index.md" >}}).  
+- Aspose.Page library installed. You can download it from the [Aspose.Page for Java documentation]({{< relref "java/visual-elements/_index.md" >}}).  
 - Java Development Kit (JDK) installed on your machine.
 
 ## Import Packages

@@ -163,9 +163,9 @@ You now know **how to add glyphs**, clone them across documents, and change thei
 
 ## Related Tutorials
 
-- [Create XPS Document with Aspose.Page for .NET]({{< relref "page/net/document-creation/create-xps-document/_index.md" >}})
-- [Add Image Filled Glyph & Foreign Image with Aspose.Page .NET]({{< relref "page/net/cross-document-editing/add-image-filled-glyph-and-foreign-image/_index.md" >}})
-- [Add Text to XPS Document with Aspose.Page for .NET]({{< relref "page/net/text-manipulation/add-text-to-xps-document/_index.md" >}})
+- [Create XPS Document with Aspose.Page for .NET]({{< relref "net/document-creation/create-xps-document/_index.md" >}})
+- [Add Image Filled Glyph & Foreign Image with Aspose.Page .NET]({{< relref "net/cross-document-editing/add-image-filled-glyph-and-foreign-image/_index.md" >}})
+- [Add Text to XPS Document with Aspose.Page for .NET]({{< relref "net/text-manipulation/add-text-to-xps-document/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
