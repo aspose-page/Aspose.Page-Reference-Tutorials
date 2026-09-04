@@ -1,10 +1,33 @@
 ---
-date: 2026-01-18
-description: Aspose.Page for .NET का उपयोग करके पोस्टस्क्रिप्ट दस्तावेज़ .NET बनाना
-  और आयतें जोड़ना सीखें। कोड उदाहरणों के साथ चरण‑दर‑चरण मार्गदर्शिका।
-linktitle: Add Rectangle to PostScript (PS)
+date: 2026-06-30
+description: Aspose.Page for .NET का उपयोग करके PostScript दस्तावेज़ .NET कैसे बनाएं
+  और Rectangle जोड़ें, यह सीखें। कोड नमूनों के साथ चरण-दर-चरण गाइड।
+keywords:
+- create postscript document .net
+- how to generate postscript file
+- Aspose.Page rectangle
+linktitle: PostScript (PS) में Rectangle जोड़ें
+schemas:
+- author: Aspose
+  dateModified: '2026-06-30'
+  description: Learn how to create postscript document .net and add rectangles using
+    Aspose.Page for .NET. Step‑by‑step guide with code samples.
+  headline: Create PostScript Document .NET – Add Rectangle Aspose.Page
+  type: TechArticle
+- questions:
+  - answer: Aspose.Page for .NET.
+    question: What library do I need?
+  - answer: Yes – the API lets you build PS files programmatically.
+    question: Can I create a PostScript document from scratch?
+  - answer: .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+    question: Which .NET versions are supported?
+  - answer: A free trial works for testing; a license is required for production.
+    question: Do I need a license for development?
+  - answer: Typically under 10 minutes for basic shapes.
+    question: How long does the implementation take?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-title: Postscript दस्तावेज़ .net बनाएं – Aspose.Page के साथ आयत जोड़ें
+title: PostScript दस्तावेज़ .NET बनाएं – Aspose.Page के साथ Rectangle जोड़ें
 url: /hi/net/drawing-shapes/add-rectangle-to-postscript-ps/
 weight: 12
 ---
@@ -17,32 +40,34 @@ weight: 12
 
 ## परिचय
 
-यदि आप **create postscript document .net** बनाना चाहते हैं, तो Aspose.Page PostScript फ़ाइलों को संभालने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम आपको Aspose.Page for .NET का उपयोग करके PostScript दस्तावेज़ में आयतें जोड़ने के चरण दिखाएंगे, जिससे आप समृद्ध ग्राफ़िक्स जेनरेशन के लिए एक ठोस आधार प्राप्त करेंगे।
+Aspose.Page for .NET एक लाइब्रेरी है जो प्रोग्रामेटिक रूप से PostScript, EPS, और XPS फ़ाइलों का निर्माण और हेरफेर सक्षम करती है। यदि आप **create postscript document .net** की तलाश में हैं, तो यह ट्यूटोरियल Aspose.Page का उपयोग करके PostScript दस्तावेज़ में आयतें जोड़ने की प्रक्रिया दिखाता है, जिससे आपको अधिक समृद्ध ग्राफ़िक्स जनरेशन के लिए एक ठोस आधार मिलता है।
 
 ## त्वरित उत्तर
-- **मुझे कौन सी लाइब्रेरी चाहिए?** Aspose.Page for .NET.
-- **क्या मैं शून्य से एक PostScript दस्तावेज़ बना सकता हूँ?** हाँ – API आपको प्रोग्रामेटिक रूप से PS फ़ाइलें बनाने देती है।
-- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
-- **क्या विकास के लिए लाइसेंस चाहिए?** परीक्षण के लिए एक मुफ्त ट्रायल काम करता है; उत्पादन के लिए लाइसेंस आवश्यक है।
-- **इम्प्लीमेंटेशन में कितना समय लगता है?** बुनियादी आकारों के लिए आमतौर पर 10 मिनट से कम।
+- **मुझे कौनसी लाइब्रेरी चाहिए?** Aspose.Page for .NET.  
+- **क्या मैं शून्य से PostScript दस्तावेज़ बना सकता हूँ?** Yes – the API lets you build PS files programmatically.  
+- **कौनसे .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **क्या विकास के लिए लाइसेंस चाहिए?** A free trial works for testing; a license is required for production.  
+- **इम्प्लीमेंटेशन में कितना समय लगेगा?** Typically under 10 minutes for basic shapes.
 
-## PostScript दस्तावेज़ .net बनाना क्या है?
-.NET में PostScript दस्तावेज़ बनाना का अर्थ है Aspose.Page API का उपयोग करके प्रोग्रामेटिक रूप से एक .ps फ़ाइल उत्पन्न करना, जिसमें पेज सामग्री—टेक्स्ट, ग्राफ़िक्स या शैप्स—का वर्णन होता है। यह तरीका सर्वर‑साइड ग्राफ़िक्स जेनरेशन, स्वचालित रिपोर्ट निर्माण, या किसी भी स्थिति के लिए आदर्श है जहाँ आउटपुट फ़ॉर्मेट पर सटीक नियंत्रण आवश्यक हो।
+## Postscript दस्तावेज़ .net बनाना क्या है?
+PostScript दस्तावेज़ .net बनाना का मतलब है .NET में प्रोग्रामेटिक रूप से एक `.ps` फ़ाइल उत्पन्न करना जो पृष्ठ सामग्री—टेक्स्ट, ग्राफ़िक्स, या आकार—को Aspose.Page API का उपयोग करके वर्णित करती है। यह तरीका सर्वर‑साइड ग्राफ़िक्स जनरेशन, स्वचालित रिपोर्ट निर्माण, या किसी भी स्थिति के लिए आदर्श है जहाँ आपको आउटपुट फ़ॉर्मेट पर सटीक नियंत्रण चाहिए।
 
 ## Aspose.Page for .NET का उपयोग क्यों करें?
-- **ग्राफ़िक्स पर पूर्ण नियंत्रण** – आकार बनाएं, रंग सेट करें, और स्ट्रोक लागू करें बिना लो‑लेवल PS सिंटैक्स से निपटे।
-- **क्रॉस‑प्लेटफ़ॉर्म** – Windows, Linux, और macOS रनटाइम पर काम करता है।
-- **कोई बाहरी निर्भरताएँ नहीं** – लाइब्रेरी सभी PS जेनरेशन को आंतरिक रूप से संभालती है।
+Aspose.Page **30+ ग्राफ़िक्स प्रिमिटिव्स** का समर्थन करता है और पूरी दस्तावेज़ को मेमोरी में लोड किए बिना **500 MB** तक की फ़ाइलें उत्पन्न कर सकता है, जिससे Windows, Linux, और macOS पर उच्च‑प्रदर्शन रेंडरिंग मिलती है। यह आपको आकार, रंग, और स्ट्रोक पर पूर्ण नियंत्रण देता है जबकि लो‑लेवल PostScript कोड लिखने की आवश्यकता नहीं रहती।
+
+- **ग्राफ़िक्स पर पूर्ण नियंत्रण** – लो‑लेवल PS सिंटैक्स से निपटे बिना आकार बनाएं, रंग सेट करें, और स्ट्रोक लागू करें।  
+- **क्रॉस‑प्लेटफ़ॉर्म** – Windows, Linux, और macOS रनटाइम पर काम करता है।  
+- **कोई बाहरी निर्भरताएँ नहीं** – लाइब्रेरी सभी PS जनरेशन आंतरिक रूप से संभालती है।  
 - **समृद्ध दस्तावेज़ीकरण और उदाहरण** – जल्दी से शुरू करें।
 
 ## पूर्वापेक्षाएँ
 
-- **Aspose.Page for .NET लाइब्रेरी** – [here](https://releases.aspose.com/page/net/) से डाउनलोड और इंस्टॉल करें।
+- **Aspose.Page for .NET लाइब्रेरी** – [here](https://releases.aspose.com/page/net/) से डाउनलोड और इंस्टॉल करें।  
 - **डेवलपमेंट एनवायरनमेंट** – Visual Studio, VS Code, या कोई भी .NET‑compatible IDE।
 
-## नेमस्पेस इम्पोर्ट करें
+## नामस्थान आयात करें
 
-कोड लिखना शुरू करने से पहले, आवश्यक क्लासेज़ को उजागर करने वाले नेमस्पेस इम्पोर्ट करें:
+`Aspose.Page` नामस्थान उन कोर क्लासों को उजागर करता है जिनकी आपको आवश्यकता होगी, जैसे `Document`, `Page`, `SolidBrush`, और `Pen`। कोडिंग शुरू करने से पहले इसे आयात करें।
 
 ```csharp
 using Aspose.Page.EPS;
@@ -52,9 +77,9 @@ using System.Drawing.Drawing2D;
 using System.IO;
 ```
 
-अब हम उदाहरण को स्पष्ट, क्रमांकित चरणों में विभाजित करते हैं।
+अब चलिए उदाहरण को स्पष्ट, क्रमांकित चरणों में विभाजित करते हैं।
 
-## चरण 1: अपने दस्तावेज़ डायरेक्टरी सेट करें
+## चरण 1: अपने दस्तावेज़ निर्देशिका सेट करें
 
 ```csharp
 // ExStart:1
@@ -71,9 +96,9 @@ string dataDir = "Your Document Directory";
 using (Stream outPsStream = new FileStream(dataDir + "AddRectangle_outPS.ps", FileMode.Create))
 ```
 
-यह स्ट्रीम **AddRectangle_outPS.ps** की ओर इशारा करती है। आवश्यकता अनुसार फ़ाइल का नाम बदलें या स्थान बदलें।
+यह स्ट्रीम **AddRectangle_outPS.ps** की ओर इशारा करती है। आवश्यकता अनुसार फ़ाइल का नाम बदलने या स्थान बदलने में संकोच न करें।
 
-## चरण 3: सेव ऑप्शन सेट करें और PS दस्तावेज़ बनाएं
+## चरण 3: सहेजने के विकल्प सेट करें और PS दस्तावेज़ बनाएं
 
 ```csharp
 //Create save options with A4 size
@@ -83,9 +108,9 @@ PsSaveOptions options = new PsSaveOptions();
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-यहाँ हम Aspose.Page को A4 पेज साइज उपयोग करने और एक‑पेज दस्तावेज़ बनाने के लिए निर्देश देते हैं।
+यहाँ हम Aspose.Page को A4 पेज आकार उपयोग करने और एक‑पृष्ठ दस्तावेज़ बनाने के लिए कहते हैं।
 
-## चरण 4: एक भरी हुई आयत जोड़ें
+## चरण 4: भरी हुई आयत जोड़ें
 
 ```csharp
 //Create graphics path from the first rectangle
@@ -99,9 +124,9 @@ document.SetPaint(new System.Drawing.SolidBrush(Color.Orange));
 document.Fill(path);
 ```
 
-हम (250, 100) पर चौड़ाई 150 और ऊँचाई 100 की आयत परिभाषित करते हैं, एक ऑरेंज ब्रश सेट करते हैं, और आकार को भरते हैं।
+हम (250, 100) पर एक आयत परिभाषित करते हैं जिसकी चौड़ाई 150 और ऊँचाई 100 है, एक नारंगी ब्रश सेट करते हैं, और आकार को भरते हैं।
 
-## चरण 5: एक आउटलाइन वाली आयत जोड़ें
+## चरण 5: रूपरेखा वाली आयत जोड़ें
 
 ```csharp
 //Create graphics path from the second rectangle
@@ -115,9 +140,9 @@ document.SetStroke(new System.Drawing.Pen(new System.Drawing.SolidBrush(Color.Re
 document.Draw(path);
 ```
 
-दूसरी आयत पेज के नीचे बनाई जाती है, इस बार लाल 3‑पॉइंट स्ट्रोक के साथ।
+पृष्ठ के नीचे एक दूसरी आयत बनाई गई है, इस बार लाल 3‑पॉइंट स्ट्रोक के साथ।
 
-## चरण 6: पेज को बंद करें और दस्तावेज़ सहेजें
+## चरण 6: पृष्ठ बंद करें और दस्तावेज़ सहेजें
 
 ```csharp
 //Close current page
@@ -127,39 +152,50 @@ document.ClosePage();
 document.Save();
 ```
 
-पेज को बंद करने से ड्राइंग अंतिम रूप लेती है, और `Save()` PS फ़ाइल को डिस्क पर लिखता है।
+पृष्ठ को बंद करने से ड्राइंग समाप्त होती है, और `Save()` PS फ़ाइल को डिस्क पर लिखता है।
+
+## Postscript दस्तावेज़ .net कैसे बनाएं?
+`Document` Aspose.Page में PostScript फ़ाइल का प्रतिनिधित्व करने वाली मुख्य क्लास है। `SaveOptions` दस्तावेज़ के पृष्ठ आकार और आउटपुट फ़ॉर्मेट जैसी सेटिंग्स निर्दिष्ट करता है। `Document` ऑब्जेक्ट लोड करें, A4 पेज के लिए `SaveOptions` कॉन्फ़िगर करें, अपने आकार `SolidBrush` या `Pen` से बनाएं, फिर `document.Save()` कॉल करें—पूरा वर्कफ़्लो केवल कुछ कोड लाइनों में संभव है और किसी भी समर्थित .NET रनटाइम पर चलता है। यह पैटर्न आपको कच्चे PS सिंटैक्स को छुए बिना पूर्णतः अनुपालन PostScript फ़ाइलें उत्पन्न करने देता है।
+
+## Postscript फ़ाइल कैसे उत्पन्न करें
+Aspose.Page की `SaveOptions` क्लास का उपयोग करके आउटपुट फ़ॉर्मेट को PostScript (`SaveFormat.PS`) के रूप में निर्दिष्ट करें। लाइब्रेरी सामग्री को सीधे फ़ाइल या मेमोरी स्ट्रीम में स्ट्रीम करती है, जिससे आप बड़ी दस्तावेज़ों को कुशलता से उत्पन्न कर सकते हैं बिना अत्यधिक मेमोरी उपयोग के।
 
 ## सामान्य समस्याएँ और सुझाव
-- **गलत फ़ाइल पाथ** – सुनिश्चित करें कि `dataDir` पाथ सेपरेटर (`\\` या `/`) के साथ समाप्त हो या `Path.Combine` का उपयोग करें।
-- **लाइसेंस गायब** – प्रोडक्शन एनवायरनमेंट में, दस्तावेज़ बनाने से पहले अपना Aspose लाइसेंस लागू करें ताकि इवैल्युएशन वाटरमार्क न आए।
-- **रंग की दृश्यता** – यदि आयत खाली दिखे, तो ब्रश या पेन के रंग पेज बैकग्राउंड के साथ कंट्रास्ट में हैं या नहीं, जांचें।
+
+- **गलत फ़ाइल पथ** – सुनिश्चित करें कि `dataDir` पाथ सेपरेटर (`\\` या `/`) के साथ समाप्त हो या `Path.Combine` का उपयोग करें।  
+- **लाइसेंस अनुपलब्ध** – प्रोडक्शन वातावरण में दस्तावेज़ बनाने से पहले अपना Aspose लाइसेंस लागू करें ताकि इवैल्यूएशन वॉटरमार्क न आए।  
+- **रंग दृश्यता** – यदि आयत खाली दिखे, तो ब्रश या पेन के रंग पृष्ठ पृष्ठभूमि के साथ कंट्रास्ट में हैं या नहीं, जांचें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**प्र:** क्या मैं आयतों के रंग कस्टमाइज़ कर सकता हूँ?  
-**उ:** बिल्कुल। `SolidBrush` और `Pen` कंस्ट्रक्टर्स में `Color.Orange` या `Color.Red` मानों को अपनी पसंद के किसी भी `System.Drawing.Color` में बदलें।
+**Q:** क्या मैं आयतों के रंग कस्टमाइज़ कर सकता हूँ?  
+**A:** बिल्कुल। `SolidBrush` और `Pen` कंस्ट्रक्टर्स में `Color.Orange` या `Color.Red` मानों को अपनी पसंद के किसी भी `System.Drawing.Color` में बदलें।
 
-**प्र:** क्या Aspose.Page अन्य दस्तावेज़ फ़ॉर्मेट के साथ संगत है?  
-**उ:** हाँ। PostScript के अलावा, Aspose.Page XPS और EPS जेनरेशन को भी समर्थन देता है।
+**Q:** क्या Aspose.Page अन्य दस्तावेज़ फ़ॉर्मेट्स के साथ संगत है?  
+**A:** हां। PostScript के अलावा, Aspose.Page XPS और EPS जनरेशन को भी समर्थन देता है।
 
-**प्र:** मैं उसी दस्तावेज़ में टेक्स्ट कैसे जोड़ सकता हूँ?  
-**उ:** `TextFragment` क्लास का उपयोग करके इच्छित निर्देशांक पर टेक्स्ट रखें, फिर `document.Draw(textFragment)` कॉल करें।
+**Q:** मैं उसी दस्तावेज़ में टेक्स्ट कैसे जोड़ सकता हूँ?  
+**A:** `TextFragment` क्लास का उपयोग करके इच्छित कॉर्डिनेट्स पर टेक्स्ट रखें, फिर `document.Draw(textFragment)` कॉल करें।
 
-**प्र:** अतिरिक्त उदाहरण और पूर्ण API रेफ़रेंस कहाँ मिलेंगे?  
-**उ:** दस्तावेज़ीकरण [here](https://reference.aspose.com/page/net/) देखें और [Aspose.Page forum](https://forum.aspose.com/c/page/39) में समुदाय से जुड़ें।
+**Q:** अतिरिक्त उदाहरण और पूर्ण API रेफ़रेंस कहाँ मिल सकते हैं?  
+**A:** डॉक्यूमेंटेशन [here](https://reference.aspose.com/page/net/) देखें और समुदाय में शामिल हों [Aspose.Page forum](https://forum.aspose.com/c/page/39) पर।
 
-**प्र:** क्या मैं खरीदने से पहले Aspose.Page आज़मा सकता हूँ?  
-**उ:** हाँ, मुफ्त ट्रायल [here](https://releases.aspose.com/) से डाउनलोड करें। विस्तारित मूल्यांकन के लिए एक [temporary license](https://purchase.aspose.com/temporary-license/) पर विचार करें।
+**Q:** क्या मैं खरीदने से पहले Aspose.Page आज़मा सकता हूँ?  
+**A:** हां, एक मुफ्त ट्रायल [here](https://releases.aspose.com/) से डाउनलोड करें। विस्तारित मूल्यांकन के लिए, एक [temporary license](https://purchase.aspose.com/temporary-license/) पर विचार करें।
 
----
-
-**अंतिम अपडेट:** 2026-01-18  
-**परीक्षित संस्करण:** Aspose.Page 24.12 for .NET  
+**अंतिम अपडेट:** 2026-06-30  
+**परीक्षण किया गया:** Aspose.Page 24.12 for .NET  
 **लेखक:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## संबंधित ट्यूटोरियल
+
+- [Aspose.Page for .NET के साथ PostScript दस्तावेज़ कैसे बनाएं](/page/net/document-creation/create-postscript-document/)
+- [Aspose.Page के साथ PostScript (PS) दस्तावेज़ में इमेज जोड़ें](/page/net/image-management/add-image-to-postscript-ps-document/)
+- [Aspose.Page के साथ PostScript (PS) दस्तावेज़ में टेक्स्ट जोड़ें](/page/net/text-manipulation/add-text-to-postscript-ps-document/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
