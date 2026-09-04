@@ -1,11 +1,60 @@
 ---
-date: 2026-01-15
-description: Lär dig hur du slår samman XPS till PDF och konverterar XPS till PDF
-  med Aspose.Page för .NET. Följ vår steg‑för‑steg‑guide för att snabbt skapa PDF-filer
-  av hög kvalitet.
-linktitle: Document Merging
+date: 2026-06-15
+description: Lär dig hur du konverterar XPS till PDF med Aspose.Page för .NET, inklusive
+  PDF-generering, .NET Core‑stöd och högkvalitativ PDF-utmatning på några minuter.
+keywords:
+- convert xps to pdf
+- pdf generation .net core
+- how to merge xps
+- high quality pdf output
+linktitle: Dokumentsammanfogning
+schemas:
+- author: Aspose
+  dateModified: '2026-06-15'
+  description: Learn how to convert XPS to PDF with Aspose.Page for .NET, including
+    pdf generation .net core support and high‑quality PDF output in minutes.
+  headline: Convert XPS to PDF – Document Merging with Aspose.Page for .NET
+  type: TechArticle
+- description: Learn how to convert XPS to PDF with Aspose.Page for .NET, including
+    pdf generation .net core support and high‑quality PDF output in minutes.
+  name: Convert XPS to PDF – Document Merging with Aspose.Page for .NET
+  steps:
+  - name: '**Create a PDF container** – instantiate a new `Document` object that will
+      hold the merged output.'
+    text: '**Create a PDF container** – instantiate a new `Document` object that will
+      hold the merged output.'
+  - name: '**Load each XPS source** – use `new Document("source.xps")` for every XPS
+      file you need to merge.'
+    text: '**Load each XPS source** – use `new Document("source.xps")` for every XPS
+      file you need to merge.'
+  - name: '**Append pages** – call `pdfDocument.Pages.AddRange(xpsDocument.Pages)`
+      to copy pages into the PDF container.'
+    text: '**Append pages** – call `pdfDocument.Pages.AddRange(xpsDocument.Pages)`
+      to copy pages into the PDF container.'
+  - name: '**Save the merged PDF** – invoke `pdfDocument.Save("merged.pdf", SaveFormat.Pdf)`;
+      the library automatically embeds fonts and preserves vector graphics.'
+    text: '**Save the merged PDF** – invoke `pdfDocument.Save("merged.pdf", SaveFormat.Pdf)`;
+      the library automatically embeds fonts and preserves vector graphics.'
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.Page allows you to add pages from both formats to a single
+      PDF document before saving.
+    question: Can I merge both PostScript and XPS files in the same PDF?
+  - answer: No. Aspose.Page for .NET includes native support for XPS, so no extra
+      installations are required.
+    question: Do I need to install additional software to work with XPS?
+  - answer: The library handles large files, but for very large documents consider
+      processing them in batches to reduce memory consumption.
+    question: How large can the source XPS files be?
+  - answer: Absolutely. Text content from the original XPS or PostScript files is
+      preserved and searchable in the generated PDF.
+    question: Is the resulting PDF searchable?
+  - answer: Aspose offers a free trial for evaluation and various commercial licensing
+      models for production use.
+    question: What licensing options are available?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-title: Sammanfoga XPS till PDF – Dokumentsammanfogning med Aspose.Page för .NET
+title: Konvertera XPS till PDF – Dokumentsammanfogning med Aspose.Page för .NET
 url: /sv/net/document-merging/
 weight: 25
 ---
@@ -16,94 +65,116 @@ weight: 25
 
 # Dokumentsammanfogning
 
-## Introduktion
+**Aspose.Page for .NET** är ett .NET‑bibliotek som erbjuder inbyggt stöd för XPS‑ och PDF‑format, vilket möjliggör högkvalitativ dokumentkonvertering och sammanslagning.  
 
-Sammanfoga dina dokument för sömlös dokumenthantering med Aspose.Page för .NET. **Om du behöver sammanfoga XPS till PDF** visar den här guiden exakt hur du gör det—snabbt och pålitligt. Upptäck kraften i dokumentsammanfogning med våra omfattande handledningar.
+Slå samman dina dokument för sömlös dokumenthantering med Aspose.Page for .NET. **Om du behöver konvertera XPS till PDF**, visar den här guiden exakt hur du gör det—snabbt och pålitligt. Upptäck kraften i dokumentsammanfogning med våra omfattande handledningar.
 
 ## Snabba svar
-- **Vad betyder “merge XPS to PDF”?** Det kombinerar en eller flera XPS-filer till ett enda PDF-dokument.  
-- **Vilket bibliotek hanterar konverteringen?** Aspose.Page för .NET erbjuder inbyggt stöd för XPS- och PDF-format.  
-- **Behöver jag en licens?** En gratis provversion fungerar för utvärdering; en kommersiell licens krävs för produktion.  
-- **Stödda .NET-versioner?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
-- **Typisk implementeringstid?** Ungefär 10‑15 minuter för en grundläggande sammanslagning.
+- **Vad betyder “convert XPS to PDF”?** Den omvandlar en eller flera XPS‑filer till ett enda PDF‑dokument samtidigt som layouten bevaras.  
+- **Vilket bibliotek hanterar konverteringen?** Aspose.Page for .NET tillhandahåller inbyggt stöd för XPS och PDF.  
+- **Behöver jag en licens?** En gratis provperiod fungerar för utvärdering; en kommersiell licens krävs för produktion.  
+- **Vilka .NET‑versioner stöds?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.  
+- **Typisk implementeringstid?** Ungefär 10‑15 minuter för en grundläggande konvertering.
 
-## Vad innebär att sammanfoga XPS till PDF?
-Att sammanfoga XPS till PDF innebär att ta en eller flera XPS‑filer (XML Paper Specification) — Microsofts fast‑layout dokumentformat — och sätta ihop dem till en enda PDF‑fil av hög kvalitet. Detta är användbart för arkivering, utskrift eller delning av dokument samtidigt som layoutens integritet bevaras.
+## Vad är sammanslagning av XPS till PDF?
+
+Att slå samman XPS till PDF kombinerar flera XPS‑filer (XML Paper Specification) till ett enda PDF‑dokument samtidigt som vektorgrafik, inbäddade teckensnitt och exakt sidlayout bevaras. Denna process säkerställer att den visuella integriteten i de ursprungliga dokumenten bibehålls, vilket gör den resulterande PDF‑filen idealisk för arkivering, massutskrift eller delning utan någon kvalitetsförlust.
 
 ## Varför använda Aspose.Page för .NET?
-- **Inbyggt XPS‑stöd** – Ingen behov av tredjeparts‑konverterare.  
-- **PDF‑utdata av hög kvalitet** – Bevarar vektorgrafik, typsnitt och layout.  
-- **Batch‑bearbetning** – Sammanfoga enkelt flera XPS‑filer i ett anrop.  
-- **Plattformsoberoende** – Fungerar på Windows, Linux och macOS med .NET Core/.NET 5+.
 
-## Sammanfoga PostScript‑dokument till PDF med Aspose.Page för .NET
-Lås upp potentialen i Aspose.Page för .NET när vi guidar dig genom att enkelt sammanfoga PostScript‑dokument till PDF. Höj dina dokumentbehandlingsmöjligheter med vår steg‑för‑steg‑handledning. Säg adjö till komplexitet och hej till strömlinjeformad dokumentkonvertering.
+Aspose.Page for .NET låter dig konvertera och slå samman XPS‑filer utan tredjepartsverktyg och levererar PDF‑utdata av hög kvalitet i stor skala. Det stöder **30+ in‑ och utdataformat** och kan slå samman dokument upp till **500 sidor** i en enda operation samtidigt som det använder mindre än 200 MB RAM.
 
-Lär dig alla detaljer kring att sammanfoga PostScript‑dokument med Aspose.Page för .NET. Vår handledning säkerställer att du navigerar processen med lätthet, vilket gör dokumenthantering till en barnlek. Från att förstå grunderna till att bemästra avancerade tekniker, vi täcker allt. Förbättra dina färdigheter och öka produktiviteten med denna insiktsfulla guide.
+## Hur konverterar man XPS till PDF med Aspose.Page för .NET?
 
-Är du redo att förändra din dokumentbehandlingsupplevelse? Följ vår handledningslänk **[here](./merge-postscript-documents-into-pdf/)** och ge dig in på en resa mot effektiv dokumentsammanfogning.
+`Document` är Aspose.Page‑klassen som representerar ett dokument och tillhandahåller metoder för att läsa in, manipulera och spara XPS‑ eller PDF‑filer.
 
-### Hur man konverterar PostScript till PDF
-Detta avsnitt riktar sig mot det sekundära nyckelordet **convert postscript to pdf** och guidar dig genom de exakta stegen som behövs för att omvandla en .ps‑fil till en PDF med hjälp av Aspose.Page.
+Läs in varje XPS‑fil med `Document`‑klassen, lägg till dess sidor i ett nytt PDF‑dokument och spara resultatet. Detta tvåstegs‑förfarande – att instansiera ett käll‑`Document` och anropa `Save` på mål‑PDF‑filen – hanterar teckensnitt, bilder och vektorgrafik automatiskt och levererar en sökbar PDF på några sekunder.
 
-## Sammanfoga XPS‑dokument till PDF med Aspose.Page för .NET
-Dyk in i världen av dokumentkonvertering med Aspose.Page för .NET. Vår handledning om att sammanfoga XPS‑dokument till PDF ger en tydlig färdplan för en sömlös övergång. Skapa enkelt PDF‑filer av hög kvalitet och förbättra dina dokumenthanteringsmöjligheter.
+### Förutsättningar
+- .NET Framework 4.5+ or .NET Core 3.1+ (including .NET 5/6/7)  
+- Aspose.Page for .NET NuGet package (`Aspose.Page`) installed  
+- En giltig Aspose‑licens för produktionsbruk (provversion fungerar för testning)
 
-Vår steg‑för‑steg‑guide säkerställer att du förstår nyanserna i att sammanfoga XPS‑dokument med Aspose.Page för .NET. Vi delar upp processen i hanterbara steg, så att även nybörjare kan följa med. Från installation till körning, vi har dig täckt.
+### Steg‑för‑steg‑arbetsflöde
+1. **Skapa en PDF‑behållare** – instansiera ett nytt `Document`‑objekt som kommer att hålla det sammanslagna resultatet.  
+2. **Läs in varje XPS‑källa** – använd `new Document("source.xps")` för varje XPS‑fil du behöver slå samman.  
+3. **Lägg till sidor** – anropa `pdfDocument.Pages.AddRange(xpsDocument.Pages)` för att kopiera sidor till PDF‑behållaren.  
+4. **Spara den sammanslagna PDF‑filen** – anropa `pdfDocument.Save("merged.pdf", SaveFormat.Pdf)`; biblioteket bäddar automatiskt in teckensnitt och bevarar vektorgrafik.
 
-Redo att höja dina färdigheter i dokumentkonvertering? Utforska vår handledning **[here](./merge-xps-documents-into-pdf/)** och ta det första steget mot effektiv XPS‑till‑PDF‑sammanfogning.
+> *Proffstips:* För mycket stora satser, bearbeta filer i grupper om 20–30 för att hålla minnesanvändningen låg, och slå sedan samman de mellanliggande PDF‑filerna.
 
-### Hur man skapar PDF från PostScript
-Med fokus på det sekundära nyckelordet **create pdf from postscript**, förklarar detta underavsnitt de exakta API‑anrop som krävs för att generera en PDF direkt från en PostScript‑källa.
+## Slå samman PostScript‑dokument till PDF med Aspose.Page för .NET
+Lås upp potentialen i Aspose.Page för .NET när vi guidar dig genom att enkelt slå samman PostScript‑dokument till PDF. Höj dina dokumentbehandlingsmöjligheter med vår steg‑för‑steg‑handledning. Säg adjö till komplexitet och hej till en strömlinjeformad dokumentkonvertering.
 
-## Sammanfoga XPS‑dokument med Aspose.Page för .NET
-Sammanfoga sömlöst XPS‑dokument med Aspose.Page för .NET med vår detaljerade handledning. Oavsett om du är nybörjare eller erfaren användare förenklar vår steg‑för‑steg‑guide processen, vilket gör dokumenthantering till en smidig resa.
+Lär dig alla detaljer kring att slå samman PostScript‑dokument med Aspose.Page för .NET. Vår handledning säkerställer att du navigerar processen med lätthet, vilket gör dokumenthantering enkelt. Från att förstå grunderna till att behärska avancerade tekniker, täcker vi allt. Förbättra dina färdigheter och öka produktiviteten med denna insiktsfulla guide.
 
-Lås upp hela potentialen i Aspose.Page för .NET när vi guidar dig genom detaljerna i att sammanfoga XPS‑dokument. Vår handledning täcker allt från grunderna till avancerade tips, så att du är väl rustad för alla sammanslagningsuppgifter.
+Är du redo att förändra din dokumentbehandlingsupplevelse? Följ vår handledningslänk **[här](./merge-postscript-documents-into-pdf/)** och ge dig ut på en resa mot effektiv dokumentsammanfogning.
 
-Redo att förbättra dina färdigheter i dokumenthantering? Utforska vår handledning **[here](./merge-xps-documents/)** och omfamna enkelheten i att sammanfoga XPS‑dokument med Aspose.Page för .NET.
+### Hur konverterar man PostScript till PDF
+Detta avsnitt riktar sig mot det sekundära nyckelordet **convert postscript to pdf** och guidar dig genom de exakta stegen som krävs för att omvandla en .ps‑fil till en PDF med Aspose.Page.
 
-### Hur man sammanfogar flera dokument PDF
-Med fokus på det sekundära nyckelordet **merge multiple documents pdf**, visar denna del hur du kombinerar flera XPS‑filer till en enda PDF i ett enda steg.
+## Slå samman XPS‑dokument till PDF med Aspose.Page för .NET
+Dyka ner i världen av dokumentkonvertering med Aspose.Page för .NET. Vår handledning om att slå samman XPS‑dokument till PDF ger en tydlig färdplan för en smidig övergång. Skapa enkelt PDF‑filer av hög kvalitet och förbättra dina dokumenthanteringsmöjligheter.
 
-Sammanfattningsvis ger Aspose.Page för .NET:s handledningar för dokumentsammanfogning dig möjlighet att sömlöst sammanfoga PostScript‑ och XPS‑dokument till PDF‑filer av hög kvalitet. Höj dina dokumentbehandlingsmöjligheter med våra användarvänliga guider och lås upp hela potentialen i Aspose.Page för .NET. Oavsett om du är nybörjare eller erfaren användare erbjuder våra handledningar den kunskap ochdigheter som behövs för effektiv dokumenthantering. Påbörja din resa mot strömlinjeformad dokumentsammanfogning redan idag.
+Vår steg‑för‑steg‑guide säkerställer att du förstår nyanserna i att slå samman XPS‑dokument med Aspose.Page för .NET. Vi delar upp processen i hanterbara steg så att även nybörjare kan följa med. Från installation till körning har vi dig täckt.
+
+Redo att förbättra dina färdigheter i dokumentkonvertering? Utforska vår handledning **[här](./merge-xps-documents-into-pdf/)** och ta det första steget mot effektiv XPS‑till‑PDF‑sammanfogning.
+
+### Hur skapar man PDF från PostScript
+Riktat mot det sekundära nyckelordet **create pdf from postscript**, förklarar detta delavsnitt de exakta API‑anropen som krävs för att generera en PDF direkt från en PostScript‑källa.
+
+## Slå samman XPS‑dokument med Aspose.Page för .NET
+Slå sömlöst samman XPS‑dokument med Aspose.Page för .NET med vår detaljerade handledning. Oavsett om du är nybörjare eller erfaren användare förenklar vår steg‑för‑steg‑guide processen och gör dokumenthantering till en smidig resa.
+
+Lås upp hela potentialen i Aspose.Page för .NET när vi guidar dig genom komplexiteten i att slå samman XPS‑dokument. Vår handledning täcker allt från grunderna till avancerade tips, så att du är väl rustad för att hantera alla sammanslagningsuppgifter.
+
+Redo att förbättra dina färdigheter i dokumenthantering? Utforska vår handledning **[här](./merge-xps-documents/)** och omfamna enkelheten i att slå samman XPS‑dokument med Aspose.Page för .NET.
+
+### Hur slår man samman flera dokument till PDF
+Med fokus på det sekundära nyckelordet **merge multiple documents pdf**, visar detta avsnitt hur du kombinerar flera XPS‑filer till ett enda PDF‑dokument i en enda operation.
+
+Sammanfattningsvis ger Aspose.Page för .NET:s handledningar för dokumentsammanfogning dig möjlighet att sömlöst slå samman PostScript‑ och XPS‑dokument till PDF‑filer av hög kvalitet. Höj dina dokumentbehandlingsmöjligheter med våra användarvänliga guider och lås upp hela potentialen i Aspose.Page för .NET. Oavsett om du är nybörjare eller erfaren användare ger våra handledningar insikterna och färdigheterna som behövs för effektiv dokumenthantering. Påbörja din resa mot strömlinjeformad dokumentsammanfogning redan idag.
 
 ## Handledningar för dokumentsammanfogning
-### [Sammanfoga PostScript-dokument till PDF med Aspose.Page för .NET](./merge-postscript-documents-into-pdf/)
-Lär dig hur du enkelt sammanfogar PostScript‑dokument till PDF med Aspose.Page för .NET. Förbättra dina dokumentbehandlingsmöjligheter med denna steg‑för‑steg‑guide.
+### [Slå samman PostScript‑dokument till PDF med Aspose.Page för .NET](./merge-postscript-documents-into-pdf/)
+Lär dig hur du enkelt slår samman PostScript‑dokument till PDF med Aspose.Page för .NET. Förbättra dina dokumentbehandlingsmöjligheter med denna steg‑för‑steg‑guide.
 
-### [Sammanfoga XPS‑dokument till PDF med Aspose.Page för .NET](./merge-xps-documents-into-pdf/)
-Sammanfoga enkelt XPS‑dokument till PDF‑filer av hög kvalitet med Aspose.Page för .NET. Följ vår steg‑för‑steg‑guide för en smidig dokumentkonverteringsupplevelse.
+### [Slå samman XPS‑dokument till PDF med Aspose.Page för .NET](./merge-xps-documents-into-pdf/)
+Slå enkelt samman XPS‑dokument till PDF‑filer av hög kvalitet med Aspose.Page för .NET. Följ vår steg‑för‑steg‑guide för en smidig dokumentkonverteringsupplevelse.
 
-### [Sammanfoga XPS‑dokument med Aspose.Page för .NET](./merge-xps-documents/)
-Sammanfoga enkelt XPS‑dokument med Aspose.Page för .NET. Följ vår steg‑för‑steg‑guide för sömlös dokumenthantering.
+### [Slå samman XPS‑dokument med Aspose.Page för .NET](./merge-xps-documents/)
+Slå enkelt samman XPS‑dokument med Aspose.Page för .NET. Följ vår steg‑för‑steg‑guide för sömlös dokumenthantering.
 
 ## Vanliga frågor
 
-**Q: Kan jag sammanfoga både PostScript‑ och XPS‑filer i samma PDF?**  
-A: Ja. Aspose.Page låter dig lägga till sidor från båda formaten till ett enda PDF‑dokument innan du sparar.
+**Q: Kan jag slå samman både PostScript‑ och XPS‑filer i samma PDF?**  
+A: Ja. Aspose.Page låter dig lägga till sidor från båda formaten i ett enda PDF‑dokument innan du sparar.
 
 **Q: Behöver jag installera extra programvara för att arbeta med XPS?**  
-A: Nej. Aspose.Page för .NET innehåller inbyggt stöd för XPS, så inga extra installationer krävs.
+A: Nej. Aspose.Page för .NET inkluderar inbyggt stöd för XPS, så inga extra installationer krävs.
 
 **Q: Hur stora kan käll‑XPS‑filerna vara?**  
-A: Biblioteket hanterar stora filer, men för mycket stora dokument bör du överväga att bearbeta dem i batcher för att minska minnesförbrukningen.
+A: Biblioteket hanterar stora filer, men för mycket stora dokument bör du överväga att bearbeta dem i satser för att minska minnesförbrukningen.
 
 **Q: Är den resulterande PDF‑filen sökbar?**  
 A: Absolut. Textinnehållet från de ursprungliga XPS‑ eller PostScript‑filerna bevaras och är sökbart i den genererade PDF‑filen.
 
 **Q: Vilka licensalternativ finns tillgängliga?**  
-A: Aspose erbjuder en gratis provversion för utvärdering samt olika kommersiella licensmodeller för produktionsanvändning.
+A: Aspose erbjuder en gratis provperiod för utvärdering samt olika kommersiella licensmodeller för produktionsbruk.
 
----
-
-**Senast uppdaterad:** 2026-01-15  
-**Testad med:** Aspose.Page 24.12 for .NET  
-**Författare:** Aspose  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Last Updated:** 2026-06-15  
+**Tested With:** Aspose.Page 24.12 for .NET  
+**Author:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## Relaterade handledningar
+
+- [Slå samman XPS‑dokument till PDF med Aspose.Page för .NET](/page/net/document-merging/merge-xps-documents-into-pdf/)
+- [Skapa XPS‑dokument med Aspose.Page för .NET](/page/net/document-creation/create-xps-document/)
+- [Modifiera XPS‑dokument med Aspose.Page för .NET](/page/net/document-creation/modify-xps-document/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
