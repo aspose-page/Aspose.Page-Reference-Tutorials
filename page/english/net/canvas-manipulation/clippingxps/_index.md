@@ -1,5 +1,5 @@
 ---
-title: Clip XPS Documents Using Aspose.Page for .NET
+title: How to Clip XPS Documents Using Aspose.Page for .NET
 linktitle: Clipping XPS
 second_title: Aspose.Page .NET API
 description: Learn how to clip XPS documents using Aspose.Page for .NET. This step‑by‑step guide shows you how to create, manipulate, and save XPS files efficiently.

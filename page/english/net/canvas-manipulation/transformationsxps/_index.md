@@ -1,5 +1,5 @@
 ---
-title: Programmatically Transform XPS Documents Using Aspose.Page for .NET
+title: Programmatically Modify Document Layouts with .NET
 linktitle: Transformations XPS
 second_title: Aspose.Page .NET API
 description: Learn how to transform XPS documents effortlessly – the definitive guide on how to transform xps using Aspose.Page for .NET, with code‑free steps and real‑world tips.
@@ -295,9 +295,9 @@ A: Purchase directly from the Aspose store: [Aspose.Page Buy](https://purchase.a
 
 ## Related Tutorials
 
-{{< relref "page/net/document-creation/create-xps-document" >}}Create XPS Document with Aspose.Page for .NET{{< /relref >}}
-{{< relref "page/net/canvas-manipulation/clippingxps" >}}How to Clip XPS with Aspose.Page for .NET{{< /relref >}}
-{{< relref "page/net/document-conversion/convert-xps-to-pdf" >}}Convert XPS to PDF with Aspose.Page for .NET{{< /relref >}}
+[Create XPS Document with Aspose.Page for .NET](page/net/document-creation/create-xps-document)
+[How to Clip XPS with Aspose.Page for .NET](page/net/canvas-manipulation/clippingxps)
+[Convert XPS to PDF with Aspose.Page for .NET](page/net/document-conversion/convert-xps-to-pdf)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
