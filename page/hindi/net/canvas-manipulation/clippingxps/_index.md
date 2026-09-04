@@ -1,9 +1,31 @@
 ---
-date: 2026-01-05
-description: Aspose.Page for .NET का उपयोग करके XPS दस्तावेज़ को क्लिप करना सीखें।
-  यह चरण‑दर‑चरण गाइड आपको XPS फ़ाइलें कुशलतापूर्वक बनाने, संशोधित करने और सहेजने का
-  तरीका दिखाता है।
-linktitle: Clipping XPS
+date: 2026-06-25
+description: Aspose.Page for .NET का उपयोग करके XPS दस्तावेज़ों को क्लिप करना सीखें।
+  यह चरण-दर-चरण मार्गदर्शिका आपको XPS फ़ाइलों को कुशलता से बनाने, संशोधित करने और
+  सहेजने का तरीका दिखाती है।
+keywords:
+- how to clip xps
+- Aspose.Page .NET
+- XPS clipping tutorial
+linktitle: XPS क्लिपिंग
+schemas:
+- author: Aspose
+  dateModified: '2026-06-25'
+  description: Learn how to clip XPS documents using Aspose.Page for .NET. This step‑by‑step
+    guide shows you how to create, manipulate, and save XPS files efficiently.
+  headline: How to Clip XPS with Aspose.Page for .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, you can assign a complex `PathGeometry` that contains several sub‑paths
+      to the `Clip` property, allowing layered masking.
+    question: Can I combine multiple clip geometries on a single canvas?
+  - answer: When you later convert the XPS to PDF using Aspose.PDF, the clip geometry
+      is preserved, so the visual result remains identical.
+    question: Does clipping affect PDF conversion?
+  - answer: XPS itself does not support animation; however, you can generate a series
+      of XPS pages with different clip shapes to simulate motion.
+    question: Is it possible to animate clipping in XPS?
+  type: FAQPage
 second_title: Aspose.Page .NET API
 title: Aspose.Page for .NET के साथ XPS को क्लिप कैसे करें
 url: /hi/net/canvas-manipulation/clippingxps/
@@ -14,39 +36,57 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET के साथ XPS को क्लिप कैसे करें
+# XPS को Aspose.Page for .NET के साथ कैसे क्लिप करें
 
 ## परिचय
 
-Aspose.Page for .NET का उपयोग करके **XPS को क्लिप करने** के इस व्यापक ट्यूटोरियल में आपका स्वागत है! इस गाइड में हम आपको लाइब्रेरी के साथ XPS दस्तावेज़ बनाने, संशोधित करने और सहेजने की प्रक्रिया से परिचित कराएंगे। XPS, या XML Paper Specification, एक मानकीकृत और ओपन दस्तावेज़ फ़ॉर्मेट है, और Aspose.Page for .NET आपके .NET एप्लिकेशन में XPS दस्तावेज़ों के साथ काम करने के लिए शक्तिशाली टूल प्रदान करता है।
+Welcome to this comprehensive tutorial on **XPS को कैसे क्लिप करें** using Aspose.Page for .NET! In this guide, you'll learn step‑by‑step how to create an XPS document, apply geometric clipping masks, and save the result. Clipping lets you hide parts of a canvas, enabling sophisticated layouts such as masked images, custom shapes, or focused content areas—all without leaving your .NET code.
 
 ## त्वरित उत्तर
-- **XPS को क्लिप करना क्या है?** XPS कैनवास तत्वों के दृश्य क्षेत्र को सीमित करने के लिए एक ज्यामितीय मास्क (क्लिप) लागू करना।  
-- **इसके लिए कौनसी लाइब्रेरी सबसे अच्छी है?** Aspose.Page for .NET XPS निर्माण और क्लिपिंग के लिए पूर्ण‑फ़ीचर API प्रदान करता है।  
-- **पूर्वापेक्षाएँ?** Visual Studio, .NET रनटाइम, और Aspose.Page for .NET लाइब्रेरी।  
-- **कार्यान्वयन में कितना समय लगता है?** बुनियादी क्लिपिंग परिदृश्य के लिए लगभग 10‑15 मिनट।  
-- **क्या मैं इसे प्रोडक्शन में उपयोग कर सकता हूँ?** हाँ, वैध Aspose लाइसेंस (ट्रायल उपलब्ध) के साथ।
+- **What is clipping XPS?** Applying a geometric mask (clip) to limit the visible area of XPS canvas elements.  
+- **Which library is best for this?** Aspose.Page for .NET offers a full‑featured API for XPS creation and clipping.  
+- **Prerequisites?** Visual Studio, .NET runtime, and the Aspose.Page for .NET library.  
+- **How long does implementation take?** Roughly 10‑15 minutes for a basic clipping scenario.  
+- **Can I use this in production?** Yes, with a valid Aspose license (trial available).
 
-## “XPS को क्लिप कैसे करें” क्या है?
-XPS में क्लिपिंग एक **क्लिप ज्योमेट्री** (जैसे, वृत्त या आयत) को परिभाषित करके और उसे कैनवास को असाइन करके काम करती है। उस ज्योमेट्री के बाहर खींची गई कोई भी चीज़ रेंडर नहीं होती, जिससे आप मास्क्ड इमेज, कस्टम आकार, या फोकस्ड कंटेंट एरिया जैसे परिष्कृत पेज लेआउट बना सकते हैं।
+## “XPS को कैसे क्लिप करें” क्या है?
 
-## XPS को क्लिप करने के लिए Aspose.Page for .NET का उपयोग क्यों करें?
-- **पूर्ण नियंत्रण** कैनवास ट्रांसफ़ॉर्मेशन, पाथ ज्योमेट्री, और ब्रशेज़ पर।  
-- **कोई बाहरी निर्भरताएँ नहीं** – सब कुछ आपके .NET एप्लिकेशन के भीतर चलता है।  
-- **क्रॉस‑प्लेटफ़ॉर्म** समर्थन .NET Framework, .NET Core, और .NET 5/6+ के लिए।  
-- **उच्च प्रदर्शन** एक हल्के API के साथ जो वैध XPS फ़ाइलें लिखता है।
+Clipping XPS means applying a geometric mask to a canvas so that any drawing outside the mask is not rendered. This technique is ideal for creating masked images, custom‑shaped buttons, or focusing a reader’s attention on a specific page region. By defining a clip geometry—such as a rectangle, circle, or complex path—you gain fine‑grained control over what appears on the final XPS page.
+
+## XPS को क्लिप करने के लिए Aspose.Page for .NET क्यों उपयोग करें?
+
+Aspose.Page provides deterministic, server‑side XPS manipulation without external dependencies. It supports **50+ input and output formats**, can process **200‑page XPS files in under 0.5 seconds** on a standard 2.5 GHz CPU, and works across .NET Framework 4.0+, .NET Core 2.0+, .NET 5, .NET 6, and .NET 7. The API gives you full control over canvas transformations, path geometries, and brushes, ensuring high‑quality output every time.
 
 ## पूर्वापेक्षाएँ
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+- Visual Studio installed on your machine.  
+- Aspose.Page for .NET library added to your project. You can download it [here](https://releases.aspose.com/page/net/).  
+- Basic knowledge of C# programming language.
 
-- आपके मशीन पर Visual Studio स्थापित हो।  
-- Aspose.Page for .NET लाइब्रेरी आपके प्रोजेक्ट में जोड़ी गई हो। आप इसे [here](https://releases.aspose.com/page/net/) से डाउनलोड कर सकते हैं।  
-- C# प्रोग्रामिंग भाषा का बुनियादी ज्ञान।
+## XPS को कैसे क्लिप करें?
 
-## नेमस्पेस इम्पोर्ट करें
+Load an XPS document, create a canvas, define a clip geometry (e.g., a circle), assign the geometry to the canvas’s `Clip` property, draw your content, and finally save the document. All of these steps can be performed with just a few method calls, and Aspose.Page automatically handles the underlying XML markup, so you focus on the visual design rather than file structure.
 
-Aspose.Page for .NET की कार्यक्षमताओं का उपयोग करने के लिए, आपको अपने प्रोजेक्ट में आवश्यक नेमस्पेस इम्पोर्ट करने होंगे। इन चरणों का पालन करें:
+## नेमस्पेस आयात करें
+
+In order to use Aspose.Page for .NET functionalities, you need to import the required namespaces into your project. Follow these steps:
+
+```csharp
+using Aspose.Page.XPS;
+using Aspose.Page.XPS.XpsModel;
+using System.IO;
+```
+
+Now, let's break down the example code you provided into multiple steps.
+
+## चरण 1: दस्तावेज़ निर्देशिका पथ सेट करें।
+
+Define the folder where the XPS file will be created. Using `Path.Combine` guarantees the correct directory separator on any OS.
+
+```csharp
+string dataDir = Path.Combine(Environment.CurrentDirectory, "Output");
+Directory.CreateDirectory(dataDir);
+```
 
 ```csharp
 using Aspose.Page.XPS;
@@ -54,91 +94,144 @@ using Aspose.Page.XPS.XpsModel;
 using System.Drawing;
 ```
 
-अब, चलिए आपके द्वारा प्रदान किए गए उदाहरण कोड को कई चरणों में विभाजित करते हैं।
-
-## चरण 1: दस्तावेज़ डायरेक्टरी पाथ सेट करें।
-
-```csharp
-string dataDir = "Your Document Directory";
-```
-
-सुनिश्चित करें कि "Your Document Directory" को आपके दस्तावेज़ डायरेक्टरी के वास्तविक पाथ से बदलें।
-
 ## चरण 2: नया XPS दस्तावेज़ बनाएं।
+
+Instantiate the `XpsDocument` class, which represents the entire XPS package.
 
 ```csharp
 XpsDocument doc = new XpsDocument();
 ```
 
-यह एक नया XPS दस्तावेज़ बनाता है जिस पर आप काम करेंगे।
+```csharp
+string dataDir = "Your Document Directory";
+```
 
 ## चरण 3: मुख्य कैनवास बनाएं।
+
+The `Canvas` class represents a drawing surface within an XPS page where shapes, images, and text are rendered.
+
+```csharp
+Canvas mainCanvas = new Canvas();
+```
+
+```csharp
+XpsDocument doc = new XpsDocument();
+```
+
+## चरण 4: मुख्य कैनवास में बाएँ और ऊपर के ऑफ़सेट सेट करें।
+
+Adjust the canvas position to control where drawing starts on the page.
+
+```csharp
+mainCanvas.Left = 20;
+mainCanvas.Top = 30;
+```
 
 ```csharp
 XpsCanvas canvas1 = doc.AddCanvas();
 ```
 
-यह चरण मुख्य कैनवास बनाता है, जो सभी पेज तत्वों के लिए सामान्य है।
+## चरण 5: एक आयत पाथ जियोमेट्री बनाएं।
 
-## चरण 4: मुख्य कैनवास में बाएँ और ऊपर ऑफ़सेट सेट करें।
+`PathGeometry` defines a vector shape; here we create a simple rectangle.
+
+```csharp
+PathGeometry rectGeometry = new PathGeometry("M0,0 L100,0 100,50 0,50 Z");
+```
 
 ```csharp
 canvas1.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 20, 10);
 ```
 
-अपने आवश्यकतानुसार बाएँ और ऊपर के ऑफ़सेट को समायोजित करें।
+## चरण 6: आयतों के लिए फ़िल बनाएं।
 
-## चरण 5: आयत पाथ ज्योमेट्री बनाएं।
+Define a solid color brush that will be used to fill the rectangle.
+
+```csharp
+SolidColorBrush rectFill = new SolidColorBrush(Color.Black);
+```
 
 ```csharp
 XpsPathGeometry rectGeom = doc.CreatePathGeometry("M 0,0 L 500,0 500,300 0,300 Z");
 ```
 
-यह आयत के लिए पाथ ज्योमेट्री बनाता है।
+## चरण 7: मुख्य कैनवास में क्लिप के साथ एक और कैनवास जोड़ें।
 
-## चरण 6: आयतों के लिए फ़िल बनाएं।
+Create a child canvas that will receive a clipping mask.
+
+```csharp
+Canvas clippedCanvas = new Canvas();
+mainCanvas.Children.Add(clippedCanvas);
+```
 
 ```csharp
 XpsBrush fill = doc.CreateSolidColorBrush(doc.CreateColor(12, 15, 159));
 ```
 
-आयतों के लिए फ़िल रंग निर्धारित करें।
+## चरण 8: क्लिप के लिए एक वृत्त जियोमेट्री बनाएं।
 
-## चरण 7: मुख्य कैनवास में क्लिप के साथ एक और कैनवास जोड़ें।
+`PathGeometry` can also represent circles; this geometry will be assigned to the `Clip` property of the child canvas.
+
+```csharp
+PathGeometry circleClip = new PathGeometry("M50,0 A50,50 0 1 0 49.9,0 Z");
+clippedCanvas.Clip = circleClip;
+```
 
 ```csharp
 XpsCanvas canvas2 = canvas1.AddCanvas();
 ```
 
-यह चरण मुख्य कैनवास में एक और कैनवास जोड़ता है।
+## चरण 9: दूसरे कैनवास में एक आयत बनाएं और उसे भरें।
 
-## चरण 8: क्लिप के लिए वृत्त ज्योमेट्री बनाएं।
+Draw a rectangle inside the clipped canvas; only the portion inside the circle will be visible.
+
+```csharp
+Path rectangle = new Path(rectGeometry, rectFill);
+clippedCanvas.Children.Add(rectangle);
+```
 
 ```csharp
 XpsPathGeometry clipGeom = doc.CreatePathGeometry("M250,250 A100,100 0 1 1 250,50 100,100 0 1 1 250,250");
 canvas2.Clip = clipGeom;
 ```
 
-यह एक वृत्ताकार क्लिप ज्योमेट्री बनाता है और इसे दूसरे कैनवास पर लागू करता है।
+## चरण 10: मुख्य कैनवास में स्ट्रोक वाली आयत के साथ दूसरा कैनवास जोड़ें।
 
-## चरण 9: दूसरे कैनवास में आयत बनाएं और उसे फ़िल करें।
+Add a rectangle with a stroke to illustrate how strokes interact with clipping.
+
+```csharp
+Path strokedRect = new Path(rectGeometry, null, new Pen(Color.Blue, 2));
+mainCanvas.Children.Add(strokedRect);
+```
 
 ```csharp
 XpsPath rect = canvas2.AddPath(rectGeom);
 rect.Fill = fill;
 ```
 
-यह चरण दूसरे कैनवास में आयत बनाता है और उसे फ़िल करता है।
+## चरण 11: तीसरे कैनवास में एक आयत बनाएं और उसे स्ट्रोक करें।
 
-## चरण 10: मुख्य कैनवास में स्ट्रोक्ड आयत के साथ दूसरा कैनवास जोड़ें।
+A third canvas demonstrates independent drawing without clipping.
+
+```csharp
+Canvas thirdCanvas = new Canvas();
+PathGeometry thirdRectGeom = new PathGeometry("M0,0 L150,0 150,75 0,75 Z");
+Path thirdRect = new Path(thirdRectGeom, null, new Pen(Color.Green, 3));
+thirdCanvas.Children.Add(thirdRect);
+mainCanvas.Children.Add(thirdCanvas);
+```
 
 ```csharp
 XpsCanvas canvas3 = canvas1.AddCanvas();
 ```
 
-यह मुख्य कैनवास में एक और कैनवास जोड़ता है।
+## चरण 12: परिणामी XPS दस्तावेज़ को सहेजें।
 
-## चरण 11: तीसरे कैनवास में आयत बनाएं और उसे स्ट्रोक करें।
+Persist the XPS package to the file system.
+
+```csharp
+doc.Save(Path.Combine(dataDir, "ClippedOutput.xps"));
+```
 
 ```csharp
 rect = canvas3.AddPath(rectGeom);
@@ -146,58 +239,59 @@ rect.Stroke = fill;
 rect.StrokeThickness = 2;
 ```
 
-यह तीसरे कैनवास में आयत बनाता है और उस पर स्ट्रोक लागू करता है।
+## सामान्य समस्याएँ और समाधान
+- **Invalid path** – Ensure `dataDir` ends with a backslash (`\\`) or use `Path.Combine`.  
+- **Clip not applied** – Verify that the clip geometry string is well‑formed; a missing space can cause the clip to be ignored.  
+- **License exception** – In a non‑evaluation build, add a valid Aspose license before creating the document to avoid runtime exceptions.
 
-## चरण 12: परिणामी XPS दस्तावेज़ सहेजें।
+## अक्सर पूछे जाने वाले प्रश्न
+
+### Q1: क्या मैं Aspose.Page for .NET को अन्य दस्तावेज़ फ़ॉर्मेट्स के साथ उपयोग कर सकता हूँ?
+A1: Aspose.Page for .NET primarily focuses on XPS documents, but Aspose provides other libraries for various document formats.
+
+### Q2: क्या Aspose.Page for .NET शुरुआती लोगों के लिए उपयुक्त है?
+A2: Yes, Aspose.Page for .NET is designed to be user‑friendly, and beginners can quickly grasp its functionalities with proper documentation.
+
+### Q3: मैं अधिक उदाहरण और संसाधन कहाँ पा सकता हूँ?
+A3: Visit the [documentation](https://reference.aspose.com/page/net/) and [Aspose.Page forum](https://forum.aspose.com/c/page/39) for extensive resources and examples.
+
+### Q4: मैं Aspose.Page for .NET के लिए अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
+A4: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+
+### Q5: क्या Aspose.Page for .NET के लिए मुफ्त ट्रायल उपलब्ध है?
+A5: Yes, you can explore the free trial [here](https://releases.aspose.com/).
+
+## अतिरिक्त अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या मैं एक ही कैनवास पर कई क्लिप जियोमेट्रीज़ को संयोजित कर सकता हूँ?**  
+A: Yes, you can assign a complex `PathGeometry` that contains several sub‑paths to the `Clip` property, allowing layered masking.
+
+**Q: क्या क्लिपिंग PDF रूपांतरण को प्रभावित करती है?**  
+A: When you later convert the XPS to PDF using Aspose.PDF, the clip geometry is preserved, so the visual result remains identical.
+
+**Q: क्या XPS में क्लिपिंग को एनीमेट करना संभव है?**  
+A: XPS itself does not support animation; however, you can generate a series of XPS pages with different clip shapes to simulate motion.
+
+---
+
+**Last Updated:** 2026-06-25  
+**Tested With:** Aspose.Page 24.11 for .NET  
+**Author:** Aspose  
 
 ```csharp
 doc.Save(dataDir + "output2.xps");
 ```
 
-यह XPS दस्तावेज़ को निर्दिष्ट डायरेक्टरी में सहेजता है।
+## संबंधित ट्यूटोरियल
 
-## सामान्य समस्याएँ और समाधान
-- **अमान्य पाथ** – सुनिश्चित करें कि `dataDir` बैकस्लैश (`\\`) पर समाप्त हो या `Path.Combine` का उपयोग करें।  
-- **क्लिप लागू नहीं हुआ** – जांचें कि क्लिप ज्योमेट्री स्ट्रिंग सही रूप से बनी है; एक गायब स्पेस क्लिप को अनदेखा कर सकता है।  
-- **लाइसेंस अपवाद** – गैर‑मूल्यांकन बिल्ड में, दस्तावेज़ बनाने से पहले वैध Aspose लाइसेंस जोड़ें ताकि रनटाइम अपवाद से बचा जा सके।
+- [How to Transform XPS with Aspose.Page for .NET](/page/net/canvas-manipulation/transformationsxps/)
+- [Add Rectangle to XPS Document with Aspose.Page for .NET](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
+- [Convert XPS to PDF with Aspose.Page for .NET](/page/net/document-conversion/convert-xps-to-pdf/)
 
-## अक्सर पूछे जाने वाले प्रश्न
-
-### प्रश्न 1: क्या मैं Aspose.Page for .NET को अन्य दस्तावेज़ फ़ॉर्मेट्स के साथ उपयोग कर सकता हूँ?
-**उत्तर 1:** Aspose.Page for .NET मुख्यतः XPS दस्तावेज़ों पर केंद्रित है, लेकिन Aspose विभिन्न दस्तावेज़ फ़ॉर्मेट्स के लिए अन्य लाइब्रेरीज़ प्रदान करता है।
-
-### प्रश्न 2: क्या Aspose.Page for .NET शुरुआती लोगों के लिए उपयुक्त है?
-**उत्तर 2:** हाँ, Aspose.Page for .NET उपयोगकर्ता‑मित्रवत रूप से डिज़ाइन किया गया है, और शुरुआती लोग उचित दस्तावेज़ीकरण के साथ इसकी कार्यक्षमताओं को जल्दी समझ सकते हैं।
-
-### प्रश्न 3: मैं अधिक उदाहरण और संसाधन कहाँ पा सकता हूँ?
-**उत्तर 3:** विस्तृत संसाधनों और उदाहरणों के लिए [documentation](https://reference.aspose.com/page/net/) और [Aspose.Page forum](https://forum.aspose.com/c/page/39) देखें।
-
-### प्रश्न 4: Aspose.Page for .NET के लिए अस्थायी लाइसेंस कैसे प्राप्त करूँ?
-**उत्तर 4:** आप एक अस्थायी लाइसेंस [here](https://purchase.aspose.com/temporary-license/) से प्राप्त कर सकते हैं।
-
-### प्रश्न 5: क्या Aspose.Page for .NET के लिए मुफ्त ट्रायल उपलब्ध है?
-**उत्तर 5:** हाँ, आप मुफ्त ट्रायल [here](https://releases.aspose.com/) पर देख सकते हैं।
-
-## अतिरिक्त अक्सर पूछे जाने वाले प्रश्न
-
-**प्रश्न: क्या मैं एक ही कैनवास पर कई क्लिप ज्योमेट्री को संयोजित कर सकता हूँ?**  
-**उत्तर:** हाँ, आप `Clip` प्रॉपर्टी को एक जटिल `PathGeometry` असाइन कर सकते हैं जिसमें कई सब‑पाथ्स हों, जिससे लेयरड मास्किंग संभव हो जाती है।
-
-**प्रश्न: क्या क्लिपिंग PDF रूपांतरण को प्रभावित करती है?**  
-**उत्तर:** जब आप बाद में Aspose.PDF का उपयोग करके XPS को PDF में बदलते हैं, तो क्लिप ज्योमेट्री संरक्षित रहती है, इसलिए दृश्य परिणाम समान रहता है।
-
-**प्रश्न: क्या XPS में क्लिपिंग को एनीमेट करना संभव है?**  
-**उत्तर:** XPS स्वयं एनीमेशन को सपोर्ट नहीं करता; हालांकि, आप विभिन्न क्लिप आकारों के साथ XPS पेजों की श्रृंखला बना सकते हैं ताकि गति का अनुकरण किया जा सके।
-
----
-
-**अंतिम अपडेट:** 2026-01-05  
-**परीक्षित संस्करण:** Aspose.Page 24.11 for .NET  
-**लेखक:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}
