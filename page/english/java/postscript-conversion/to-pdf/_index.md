@@ -187,9 +187,6 @@ A: The latest release is always available on the official download page linked e
 **Tested With:** Aspose.Page for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
-
-{{< /blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
