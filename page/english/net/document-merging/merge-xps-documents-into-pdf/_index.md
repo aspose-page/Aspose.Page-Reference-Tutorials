@@ -23,7 +23,7 @@ schemas:
     answer: Yes, you can load each XPS document sequentially and render them into
       the same `PdfDevice` instance, adjusting the `PageNumbers` option as needed.
   - question: Is a temporary license available for Aspose.Page for .NET?
-    answer: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/)
+    answer: Yes, you can obtain a temporary license [temporary license page](https://purchase.aspose.com/temporary-license/)
       for testing purposes.
   - question: Are there any limitations on file size when using Aspose.Page for document
       conversion?
@@ -72,7 +72,7 @@ Aspose.Page supports **30+ output formats** and can process **500‑page XPS fil
 
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 
-- Aspose.Page for .NET: Ensure you have the Aspose.Page library installed. You can download it from [here](https://releases.aspose.com/page/net/).
+- Aspose.Page for .NET: Ensure you have the Aspose.Page library installed. You can download it from [Aspose.Page for .NET download page](https://releases.aspose.com/page/net/).
 - Document Files: Have the XPS document (`input.xps`) ready in your specified directory.
 
 ## Import Namespaces
@@ -85,7 +85,7 @@ using Aspose.Page.XPS;
 
 This step ensures that you have access to the classes and methods required for the document conversion.
 
-## Step 1: Initialize Streams
+## Step 1: initialize streams
 
 Create a `FileStream` for the source XPS file and another `FileStream` for the destination PDF. Using `using` statements guarantees that the streams are disposed correctly.
 
@@ -105,7 +105,7 @@ using (System.IO.Stream xpsStream = System.IO.File.Open(dataDir + "input.xps", S
 
 This step involves setting up the input and output streams for the XPS and PDF files. Ensure the correct paths and file names are used.
 
-## Step 2: Load XPS Document
+## Step 2: load XPS document
 
 `XpsDocument` is a class that loads and represents an XPS file in memory.  
 Here, we load the XPS document into the `XpsDocument` object, preparing it for further processing.
@@ -119,7 +119,7 @@ XpsDocument document = new XpsDocument(xpsStream, new XpsLoadOptions());
 // ExEnd:4
 ```
 
-## Step 3: Initialize Save Options
+## Step 3: initialize save options
 
 `PdfSaveOptions` configures how the PDF is saved, including compression and page settings.  
 Customize the `PdfSaveOptions` object based on your preferences, specifying parameters such as image compression, text compression, and page numbers.
@@ -137,7 +137,7 @@ PdfSaveOptions options = new PdfSaveOptions()
 // ExEnd:5
 ```
 
-## Step 4: Create Rendering Device
+## Step 4: create rendering device
 
 `PdfDevice` is the rendering engine that converts XPS pages to PDF content.  
 The `PdfDevice` is the tool responsible for rendering the XPS document into PDF format.
@@ -149,7 +149,7 @@ PdfDevice device = new PdfDevice(pdfStream);
 // ExEnd:6
 ```
 
-## Step 5: Save the Document
+## Step 5: save the document
 
 Invoke `PdfDevice.Render` with the loaded XPS document and the output stream. The method writes a fully compliant PDF file to disk.
 
@@ -161,19 +161,19 @@ document.Save(device, options);
 
 Finally, save the document using the rendering device and the specified options.
 
-## Common Pitfalls and Tips
+## Common pitfalls and tips
 
 - **Stream ownership:** Always wrap streams in `using` blocks to avoid file locks.
 - **Large files:** For XPS files larger than 200 MB, consider increasing the `BufferSize` on the `FileStream` to improve performance.
 - **Image quality:** If you need lossless images, set `ImageCompression` to `PdfImageCompression.None` instead of JPEG.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I merge multiple XPS files into a single PDF?**  
 A: Yes, you can load each XPS document sequentially and render them into the same `PdfDevice` instance, adjusting the `PageNumbers` option as needed.
 
 **Q: Is a temporary license available for Aspose.Page for .NET?**  
-A: Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing purposes.
+A: Yes, you can obtain a temporary license [temporary license page](https://purchase.aspose.com/temporary-license/) for testing purposes.
 
 **Q: Are there any limitations on file size when using Aspose.Page for document conversion?**  
 A: Aspose.Page for .NET does not impose strict limitations on file size, but optimal performance is achieved with files under 500 MB; larger files may require more memory.
@@ -211,14 +211,16 @@ You now have a complete, production‑ready workflow to **convert XPS to PDF** u
 **Tested With:** Aspose.Page 23.12 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
 - [Create XPS Document with Aspose.Page for .NET](/page/net/document-creation/create-xps-document/)
 - [Modify XPS Document with Aspose.Page for .NET](/page/net/document-creation/modify-xps-document/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

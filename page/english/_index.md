@@ -68,6 +68,21 @@ Aspose.Page lets you merge documents in memory in under 200 ms for typical 10�
 Load your source files, optionally apply graphics or text modifications, and then invoke the `DocumentMerger` API to produce a single output document—all in a few lines of C# code.  
 `DocumentMerger` is a class that merges multiple Aspose.Page documents into a single output file. Aspose.Page for .NET makes the merge operation straightforward, handling page re‑ordering, resource deduplication, and format preservation automatically.
 
+```csharp
+using Aspose.Page;
+using Aspose.Page.Drawing;
+
+// Load documents
+var doc1 = new Document("input1.pdf");
+var doc2 = new Document("input2.pdf");
+
+// Merge
+var merger = new DocumentMerger();
+merger.AddDocument(doc1);
+merger.AddDocument(doc2);
+merger.Save("merged.pdf");
+```
+
 {{% alert color="primary" %}}
 Explore the wealth of possibilities with our Aspose.Page for .NET tutorials. Whether you're a novice or an experienced user, our comprehensive guides empower you to unlock the full potential of this robust tool. From foundational steps like getting started and canvas manipulation to advanced techniques in cross‑document editing and image management, our tutorials cover it all. Dive into the world of document creation, manipulation, and enhancement with ease. Elevate your skills and streamline your document processing workflow with Aspose.Page for .NET, making every step efficient and effective.
 {{% /alert %}}
@@ -125,14 +140,14 @@ These are links to some useful resources:
 - [Visual Elements - Java](./java/visual-elements/)
 - [XMP Metadata Manipulation - Java](./java/xmp-metadata-manipulation/)
 
-## Common Use Cases & Tips
+## Common use cases & tips
 - **Merging multiple PDFs into a single report:** Use the *Document Merging* tutorial for .NET or *File Merging* for Java.  
 - **Adding a gradient header before merging:** Apply a gradient using the *Gradient Fills* guide, then merge the pages.  
 - **Converting PostScript files before merge:** Convert with the *PostScript Conversion* tutorial, then combine the resulting PDFs.  
 - **Managing images across merged documents:** Standardize image resolution with the *Image Management* tutorial to keep file size down.  
 - **Editing text after a merge:** Use the *Text Manipulation* guide to replace placeholders or update footers across the merged document.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I merge PDF and PostScript files in a single operation?**  
 A: Yes. Convert the PostScript file to PDF first (see the PostScript Conversion tutorial) and then use the Document Merging guide to combine the PDFs.
@@ -159,10 +174,11 @@ A: The library is designed to work with large files; however, memory consumption
 
 **Last Updated:** 2026-06-20  
 **Tested With:** Aspose.Page 24.11 for .NET & Java  
-**Author:** Aspose  
-
-{{< blocks/products/products-backtop-button >}}
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

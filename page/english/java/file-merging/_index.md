@@ -1,8 +1,8 @@
 ---
-title: "java merge pdf files – Convert XPS to PDF and File Merging in Java"
+title: "Learn to java merge pdf files – Convert XPS to PDF and File Merging in Java with Aspose.Page"
 linktitle: "File Merging"
 second_title: "Aspose.Page Java API"
-description: "Master java merge pdf files using Aspose.Page. Learn how to convert XPS to PDF, merge PostScript and XPS documents, and automate file merging in Java."
+description: "Master java merge pdf files using Aspose.Page. Learn how to quickly convert XPS to PDF, merge PostScript and XPS documents, and automate file merging in Java."
 weight: 31
 url: /java/file-merging/
 date: 2026-06-20
@@ -56,9 +56,13 @@ schemas:
       output matches the original XPS layout pixel‑perfectly.
 ---
 
-{{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 
 # java merge pdf files – Convert XPS to PDF and File Merging in Java
 
@@ -107,12 +111,17 @@ Load a PostScript file and save it directly as PDF – the conversion is perform
 `SaveFormat` is an enumeration that specifies the output file format, such as PDF.  
 
 ### Example workflow
-1. **Load the XPS:** `PageDocument doc = PageDocument.load("input.xps");`  
-2. **Save as PDF:** `doc.save("output.pdf", SaveFormat.Pdf);`
+```java
+// Load the XPS document
+PageDocument doc = PageDocument.load("input.xps");
+
+// Save it as PDF
+doc.save("output.pdf", SaveFormat.Pdf);
+```
 
 [Read the Convert XPS to PDF Tutorial](./xps-to-pdf/)
 
-## Merge XPS Files in Java – Boost Your Skills!
+## Merge XPS files in java – boost your skills!
 
 ### Why merge XPS files?
 Merging XPS files creates a single PDF that consolidates reports, invoices, or catalog pages, reducing file‑management overhead and delivering a smoother end‑user experience.
@@ -129,7 +138,7 @@ Merging XPS files creates a single PDF that consolidates reports, invoices, or c
 
 Aspose.Page for Java empowers you to **java merge pdf files**, convert XPS to PDF, and handle PostScript documents—all with a single, pure‑Java API. By following the steps in this guide, you can build robust document‑processing pipelines that scale from small utilities to enterprise‑grade services.
 
-## File Merging Tutorials
+## File merging tutorials
 ### [Merge PostScript to PDF in Java](./postscript-to-pdf/)
 Effortlessly merge PostScript files to PDF in Java with Aspose.Page. Comprehensive tutorial, FAQs, and resources for seamless document conversion.
 ### [Convert XPS to PDF in Java](./xps-to-pdf/)
@@ -137,7 +146,7 @@ Learn how to convert XPS to PDF in Java effortlessly with Aspose.Page. Follow ou
 ### [Convert XPS to XPS in Java](./xps-to-xps/)
 Learn how to merge XPS files in Java seamlessly using Aspose.Page. Follow our step‑by‑step guide for efficient document manipulation. Boost your Java development skills now!
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.Page for XPS to PDF conversion in a web application?**  
 A: Yes. The library is thread‑safe and works perfectly inside servlet containers, Spring Boot services, or any Java web framework.
@@ -161,15 +170,17 @@ A: Absolutely. Aspose.Page preserves all vector shapes, ensuring the PDF output 
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/pf/main-container >}}
+
 
 ## Related Tutorials
 
-- [How to Merge XPS Files in Java – how to merge xps with Aspose.Page](/page/java/file-merging/xps-to-xps/)
-- [Aspose Page Java Tutorial - Convert PostScript to PDF](/page/java/postscript-conversion/to-pdf/)
-- [java create postscript file – Java Document Creation with Aspose.Page](/page/java/document-creation/)
-
+- [How to Merge XPS Files in Java – how to merge xps with Aspose.Page]({{< relref "./xps-to-xps/_index.md" >}})
+- [Aspose Page Java Tutorial - Convert PostScript to PDF]({{< relref "../postscript-conversion/to-pdf/_index.md" >}})
+- [java create postscript file – Java Document Creation with Aspose.Page]({{< relref "../document-creation/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

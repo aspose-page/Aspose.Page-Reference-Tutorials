@@ -2,7 +2,7 @@
 title: How to set A4 page size and create PostScript in Java with Aspose.Page
 linktitle: Create Document in Java with PostScript
 second_title: Aspose.Page Java API
-description: Learn how to set A4 page size, create PostScript files in Java, and add custom fonts using Aspose.Page. Try the free trial today!
+description: Learn how to quickly set A4 page size, create PostScript files in Java, and add custom fonts using Aspose.Page. Try the free trial today!
 weight: 10
 url: /java/document-creation/postscript/
 date: 2026-06-20
@@ -52,13 +52,13 @@ schemas:
     answer: Yes, set the additional fonts folder in the save options (see Step 5)
       and Aspose.Page will embed the fonts automatically.
   - question: Is there a trial version available for Aspose.Page for Java?
-    answer: Yes, you can get a free trial [here](https://releases.aspose.com/).
+    answer: Yes, you can get a free trial [Aspose.Page free trial page](https://releases.aspose.com/).
   - question: How can I access the full API reference?
-    answer: Refer to the documentation [here](https://reference.aspose.com/page/java/).
+    answer: Refer to the documentation [API reference documentation](https://reference.aspose.com/page/java/).
   - question: Where do I purchase a license for Aspose.Page for Java?
-    answer: You can buy a license [here](https://purchase.aspose.com/buy).
+    answer: You can buy a license [license purchase page](https://purchase.aspose.com/buy).
   - question: Where can I ask the community for help?
-    answer: Visit the Aspose.Page forum [forum](https://forum.aspose.com/c/page/39).
+    answer: Visit the Aspose.Page community forum [Aspose.Page community forum](https://forum.aspose.com/c/page/39).
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -93,7 +93,7 @@ Embedding your own typefaces ensures the generated document looks exactly as des
 Before you start, make sure you have:
 
 - A working knowledge of Java programming.  
-- Aspose.Page for Java installed. You can download it [here](https://releases.aspose.com/page/java/).  
+- Aspose.Page for Java installed. You can download it [Aspose.Page Java download page](https://releases.aspose.com/page/java/).  
 - A folder named `necessary_fonts` (or any name you prefer) that contains any custom fonts you want to embed.
 
 ## Import Packages
@@ -108,7 +108,7 @@ import com.aspose.eps.device.PsSaveOptions;
 
 Now let’s break the example into clear, numbered steps.
 
-### Step 1: Set Document Directory
+### Step 1: set document directory
 The `OUTPUT_DIR` constant tells the library where to write the generated file.
 
 ```java
@@ -118,7 +118,7 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-### Step 2: Define Fonts Folder
+### Step 2: define fonts folder
 `FONTS_FOLDER` points to the directory that holds your custom TrueType or OpenType fonts.
 
 ```java
@@ -126,14 +126,14 @@ import com.aspose.eps.device.PsSaveOptions;
 String dataDir = "Your Document Directory";
 ```
 
-### Step 3: Create Output Stream for PostScript Document
+### Step 3: create output stream for postScript document
 `FileOutputStream` opens a stream that will receive the final PostScript A4 output.
 
 ```java
 String FONTS_FOLDER = dataDir + "necessary_fonts/";
 ```
 
-### Step 4: Create Save Options with A4 Size
+### Step 4: create save options with A4 size
 `PsSaveOptions` lets you specify the target page size.  
 **Definition:** `PsPageSize` is an enumeration that contains standard page‑size constants such as A4, Letter, and Legal.  
 Setting `options.setPageSize(PsPageSize.A4)` configures the document for standard A4 dimensions.
@@ -143,7 +143,7 @@ Setting `options.setPageSize(PsPageSize.A4)` configures the document for standar
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "CreateDocument_outPS.ps");
 ```
 
-### Step 5: Set Page Margins and Add Custom Fonts Folder
+### Step 5: set page margins and add custom fonts folder
 `options.setMargins(0, 0, 0, 0)` removes all margins for a full‑bleed page, and `options.setAdditionalFontsFolder(FONTS_FOLDER)` registers your custom fonts.
 
 ```java
@@ -152,7 +152,7 @@ PsSaveOptions options = new PsSaveOptions();
 options.setPageSize(PageConstants.getSize(PageConstants.SIZE_A4, PageConstants.ORIENTATION_PORTRAIT));
 ```
 
-### Step 6: Create a Multipaged or Single‑Paged PS Document
+### Step 6: create a multipaged or single‑Paged PS document
 `PsDocument document = new PsDocument(outputStream, options)` creates the document. `PsDocument` represents a PostScript document that can contain one or many pages. Set `multiPaged` to `true` for multi‑page output.
 
 ```java
@@ -160,7 +160,7 @@ options.setMargins(PageConstants.getMargins(PageConstants.MARGINS_ZERO));
 options.setAdditionalFontsFolders(new String[] { FONTS_FOLDER });
 ```
 
-### Step 7: Close Current Page and Save Document
+### Step 7: close current page and save document
 Calling `document.close()` finalises the file and writes the **PostScript A4 size** output to disk.
 
 ```java
@@ -168,27 +168,27 @@ boolean multiPaged = false;
 PsDocument document = new PsDocument(outPsStream, options, multiPaged);
 ```
 
-## Common Issues & Tips
+## Common issues & tips
 - **Font not appearing?** Verify the font file is a supported TrueType or OpenType format and that `FONTS_FOLDER` ends with a slash (`/`).  
 - **Margins still showing?** Call `options.setMargins(...)` **before** constructing the `PsDocument`.  
 - **Multi‑page output looks blank?** Remember to invoke `document.newPage()` for each additional page you need.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use custom fonts in my PostScript document?**  
 A: Yes, set the additional fonts folder in the save options (see Step 5) and Aspose.Page will embed the fonts automatically.
 
 **Q: Is there a trial version available for Aspose.Page for Java?**  
-A: Yes, you can get a free trial [here](https://releases.aspose.com/).
+A: Yes, you can get a free trial [Aspose.Page free trial page](https://releases.aspose.com/).
 
 **Q: How can I access the full API reference?**  
-A: Refer to the documentation [here](https://reference.aspose.com/page/java/).
+A: Refer to the documentation [API reference documentation](https://reference.aspose.com/page/java/).
 
 **Q: Where do I purchase a license for Aspose.Page for Java?**  
-A: You can buy a license [here](https://purchase.aspose.com/buy).
+A: You can buy a license [license purchase page](https://purchase.aspose.com/buy).
 
 **Q: Where can I ask the community for help?**  
-A: Visit the Aspose.Page forum [forum](https://forum.aspose.com/c/page/39).
+A: Visit the Aspose.Page community forum [Aspose.Page community forum](https://forum.aspose.com/c/page/39).
 
 **Q: Can I generate multi‑page PostScript files?**  
 A: Absolutely—set `multiPaged` to `true` in Step 6 and call `document.newPage()` for each extra page.
@@ -202,7 +202,7 @@ By following these steps you now know **how to set a4 page size** and create **P
 **Tested With:** Aspose.Page for Java 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -210,12 +210,14 @@ By following these steps you now know **how to set a4 page size** and create **P
 - [How to Add Text in PostScript with Aspose.Page for Java](/page/java/postscript-text-manipulation/)
 - [Aspose Page Java Tutorial - Convert PostScript to PDF](/page/java/postscript-conversion/to-pdf/)
 
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
 ```java
 document.closePage();
 document.save();
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
