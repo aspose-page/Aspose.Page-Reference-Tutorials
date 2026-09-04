@@ -1,5 +1,5 @@
 ---
-title: How to Clip PS and Transform XPS – Canvas Manipulation with Aspose.Page for .NET
+title: Learn to Clip PS and Transform XPS – Canvas Manipulation with Aspose.Page for .NET
 linktitle: Canvas Manipulation
 second_title: Aspose.Page .NET API
 description: Learn how to clip PS and transform XPS files using Aspose.Page for .NET. Includes step‑by‑step guides to clip PS/XPS and apply matrix transformations to XPS.
@@ -68,6 +68,25 @@ Aspose.Page supports **30+ graphic operations** and can process **multi‑hundre
 `Graphics` is the drawing surface object that provides methods for rendering and clipping content.  
 Load your PostScript file, create a `Graphics` object, define a clipping region, and render only the area you need. This two‑step pattern—`Graphics` → `SetClip`—lets you remove unwanted margins or focus on a specific graphic element in just a few lines of code.
 
+```csharp
+using Aspose.Page;
+using Aspose.Page.Drawing;
+
+// Load PS document
+using (var document = new Document("input.ps"))
+{
+    var page = document.Pages[0];
+    var graphics = page.Graphics;
+
+    // Define clipping rectangle
+    var clipRect = new RectangleF(100, 100, 400, 300);
+    graphics.SetClip(clipRect);
+
+    // Save the clipped page
+    document.Save("clipped_output.ps");
+}
+```
+
 ## How do you clip XPS with Aspose.Page for .NET?
 `Graphics` is the drawing surface object that provides methods for rendering and clipping content.  
 Clipping XPS follows the same principle as PS: instantiate an XPS page, obtain its `Graphics` surface, and apply a clipping geometry. The API automatically preserves vector fidelity, so the clipped output remains crisp at any resolution, and you can further combine multiple clipping regions for complex shapes.
@@ -81,22 +100,22 @@ Create a transformation matrix (e.g., rotate 45°, scale 1.5×) and assign i
 Use the `Matrix` class to build a transformation matrix, then call `Graphics.SetTransform(matrix)` on the XPS page. This approach works for both simple rotations (`Rotate`) and complex affine transformations, giving you pixel‑perfect control over the final layout while preserving vector quality throughout the process.
 
 ## How to Clip PS with Aspose.Page for .NET
-[Clipping PS with Aspose.Page for .NET](./clippingps/)
+{{< relref "clippingps" >}}Clipping PS with Aspose.Page for .NET{{< /relref >}}
 
 Discover the art of clipping PostScript documents effortlessly. Our step‑by‑step tutorial will guide you through the process, helping you unlock the full potential of Aspose.Page for .NET. Learn how to enhance your document processing capabilities and achieve precision in your projects.
 
 ## How to Clip XPS with Aspose.Page for .NET
-[Clipping XPS with Aspose.Page for .NET](./clippingxps/)
+{{< relref "clippingxps" >}}Clipping XPS with Aspose.Page for .NET{{< /relref >}}
 
 Take your skills to the next level with our guide on clipping XPS documents using Aspose.Page for .NET. Learn to create, manipulate, and save XPS files seamlessly. Whether you're a beginner or an experienced developer, this tutorial will empower you to handle XPS documents with ease.
 
 ## How to Transform PS with Aspose.Page for .NET
-[Transformations PS with Aspose.Page for .NET](./transformationsps/)
+{{< relref "transformationsps" >}}Transformations PS with Aspose.Page for .NET{{< /relref >}}
 
 Unleash the power of Aspose.Page for .NET with our comprehensive guide on PostScript transformations. Dive into the world of dynamic graphics creation, exploring step‑by‑step instructions to master transformations. Elevate your document processing capabilities effortlessly.
 
 ## How to Transform XPS with Aspose.Page for .NET
-[Transformations XPS with Aspose.Page for .NET](./transformationsxps/)
+{{< relref "transformationsxps" >}}Transformations XPS with Aspose.Page for .NET{{< /relref >}}
 
 Effortlessly transform XPS documents using Aspose.Page for .NET. Our step‑by‑step guide ensures a seamless learning experience, allowing you to grasp the intricacies of transformations. Enhance your skills and create visually appealing documents with ease.
 
@@ -106,20 +125,20 @@ Clipping and transforming canvas content are core tasks in **asp.net document pr
 - Create custom graphics, watermarks, or dynamic layouts on the fly.  
 - Integrate PS/XPS handling into web services, reporting tools, or desktop applications without external dependencies.
 
-## Canvas Manipulation Tutorials
-### [Clipping PS with Aspose.Page for .NET](./clippingps/)
+## Canvas manipulation tutorials
+### {{< relref "clippingps" >}}Clipping PS with Aspose.Page for .NET{{< /relref >}}
 Explore the power of Aspose.Page for .NET in this step‑by‑step tutorial on clipping PostScript documents. Learn to enhance your document processing capabilities effortlessly.
 
-### [Clipping XPS with Aspose.Page for .NET](./clippingxps/)
+### {{< relref "clippingxps" >}}Clipping XPS with Aspose.Page for .NET{{< /relref >}}
 Explore the power of Aspose.Page for .NET in this step‑by‑step guide on clipping XPS documents. Create, manipulate, and save XPS files effortlessly.
 
-### [Transformations PS with Aspose.Page for .NET](./transformationsps/)
+### {{< relref "transformationsps" >}}Transformations PS with Aspose.Page for .NET{{< /relref >}}
 Unlock the potential of Aspose.Page for .NET with this comprehensive guide on PostScript transformations. Create dynamic graphics effortlessly.
 
-### [Transformations XPS with Aspose.Page for .NET](./transformationsxps/)
+### {{< relref "transformationsxps" >}}Transformations XPS with Aspose.Page for .NET{{< /relref >}}
 Transform XPS documents effortlessly with Aspose.Page for .NET. Follow our step‑by‑step guide for seamless transformations.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use these techniques in an ASP.NET Core web API?**  
 A: Absolutely. Aspose.Page for .NET is fully compatible with ASP.NET Core, and you can invoke the same clipping and transformation methods on the server side.
@@ -142,15 +161,17 @@ A: For large PS/XPS files, process pages individually and release resources afte
 **Tested With:** Aspose.Page for .NET 24.11  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
-- [How to Clip XPS with Aspose.Page for .NET](/page/net/canvas-manipulation/clippingxps/)
-- [Save PostScript file with Aspose.Page Transformations (.NET)](/page/net/canvas-manipulation/transformationsps/)
-- [How to Transform XPS with Aspose.Page for .NET](/page/net/canvas-manipulation/transformationsxps/)
-
+- {{< relref "clippingxps" >}}How to Clip XPS with Aspose.Page for .NET{{< /relref >}}
+- {{< relref "transformationsps" >}}Save PostScript file with Aspose.Page Transformations (.NET){{< /relref >}}
+- {{< relref "transformationsxps" >}}How to Transform XPS with Aspose.Page for .NET{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

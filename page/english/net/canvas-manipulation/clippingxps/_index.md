@@ -1,5 +1,5 @@
 ---
-title: How to Clip XPS with Aspose.Page for .NET
+title: Clip XPS Documents Using Aspose.Page for .NET
 linktitle: Clipping XPS
 second_title: Aspose.Page .NET API
 description: Learn how to clip XPS documents using Aspose.Page for .NET. This step‑by‑step guide shows you how to create, manipulate, and save XPS files efficiently.
@@ -12,7 +12,7 @@ keywords:
 - XPS clipping tutorial
 schemas:
 - type: TechArticle
-  headline: How to Clip XPS with Aspose.Page for .NET
+  headline: Clip XPS Documents Using Aspose.Page for .NET
   description: Learn how to clip XPS documents using Aspose.Page for .NET. This step‑by‑step
     guide shows you how to create, manipulate, and save XPS files efficiently.
   dateModified: '2026-06-25'
@@ -34,7 +34,7 @@ schemas:
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Clip XPS with Aspose.Page for .NET
+# Clip XPS Documents Using Aspose.Page for .NET
 
 ## Introduction
 
@@ -58,7 +58,7 @@ Aspose.Page provides deterministic, server‑side XPS manipulation without exter
 ## Prerequisites
 
 - Visual Studio installed on your machine.  
-- Aspose.Page for .NET library added to your project. You can download it [here](https://releases.aspose.com/page/net/).  
+- Aspose.Page for .NET library added to your project. You can download it from the **Aspose.Page for .NET download page**.  
 - Basic knowledge of C# programming language.
 
 ## How to Clip XPS?
@@ -237,12 +237,12 @@ rect.Stroke = fill;
 rect.StrokeThickness = 2;
 ```
 
-## Common Issues and Solutions
+## Common issues and solutions
 - **Invalid path** – Ensure `dataDir` ends with a backslash (`\\`) or use `Path.Combine`.  
 - **Clip not applied** – Verify that the clip geometry string is well‑formed; a missing space can cause the clip to be ignored.  
 - **License exception** – In a non‑evaluation build, add a valid Aspose license before creating the document to avoid runtime exceptions.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 ### Q1: Can I use Aspose.Page for .NET with other document formats?
 
@@ -258,13 +258,13 @@ A3: Visit the [documentation](https://reference.aspose.com/page/net/) and [Aspos
 
 ### Q4: How can I obtain a temporary license for Aspose.Page for .NET?
 
-A4: You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
+A4: You can **obtain a temporary license** at https://purchase.aspose.com/temporary-license/.
 
 ### Q5: Is there a free trial available for Aspose.Page for .NET?
 
-A5: Yes, you can explore the free trial [here](https://releases.aspose.com/).
+A5: Yes, you can **download the free trial** at https://releases.aspose.com/.
 
-## Additional Frequently Asked Questions
+## Additional frequently asked questions
 
 **Q: Can I combine multiple clip geometries on a single canvas?**  
 A: Yes, you can assign a complex `PathGeometry` that contains several sub‑paths to the `Clip` property, allowing layered masking.
@@ -287,14 +287,13 @@ doc.Save(dataDir + "output2.xps");
 
 ## Related Tutorials
 
-- [How to Transform XPS with Aspose.Page for .NET](/page/net/canvas-manipulation/transformationsxps/)
-- [Add Rectangle to XPS Document with Aspose.Page for .NET](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
-- [Convert XPS to PDF with Aspose.Page for .NET](/page/net/document-conversion/convert-xps-to-pdf/)
-
+{{< relref "net/canvas-manipulation/transformationsxps/_index.md" "Transform XPS with Aspose.Page for .NET" >}}
+{{< relref "net/drawing-shapes/add-rectangle-to-xps-document/_index.md" "Add Rectangle to XPS Document with Aspose.Page for .NET" >}}
+{{< relref "net/document-conversion/convert-xps-to-pdf/_index.md" "Convert XPS to PDF with Aspose.Page for .NET" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< /blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

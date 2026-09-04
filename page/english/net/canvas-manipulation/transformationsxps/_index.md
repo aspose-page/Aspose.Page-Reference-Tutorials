@@ -1,5 +1,5 @@
 ---
-title: How to Transform XPS with Aspose.Page for .NET
+title: Programmatically Transform XPS Documents Using Aspose.Page for .NET
 linktitle: Transformations XPS
 second_title: Aspose.Page .NET API
 description: Learn how to transform XPS documents effortlessly – the definitive guide on how to transform xps using Aspose.Page for .NET, with code‑free steps and real‑world tips.
@@ -12,14 +12,14 @@ keywords:
 - Aspose.Page transformations
 schemas:
 - type: TechArticle
-  headline: How to Transform XPS with Aspose.Page for .NET
+  headline: Programmatically Transform XPS Documents Using Aspose.Page for .NET
   description: Learn how to transform XPS documents effortlessly – the definitive
     guide on how to transform xps using Aspose.Page for .NET, with code‑free steps
     and real‑world tips.
   dateModified: '2026-06-25'
   author: Aspose
 - type: HowTo
-  name: How to Transform XPS with Aspose.Page for .NET
+  name: Programmatically Transform XPS Documents Using Aspose.Page for .NET
   description: Learn how to transform XPS documents effortlessly – the definitive
     guide on how to transform xps using Aspose.Page for .NET, with code‑free steps
     and real‑world tips.
@@ -130,7 +130,7 @@ Load your source XPS (or start with a fresh document), then apply a sequence of 
 
 In this section we walk through a complete example that creates an XPS file, adds several canvases, and applies a series of transformations such as translation, scaling, and rotation. Each step includes a concise code snippet (represented by placeholders) and explains why the operation is performed, so you can replicate it easily.
 
-### Step 1: Create a New XPS Document
+### Step 1: create a new XPS document
 
 `XpsDocument` is the Aspose.Page object that represents an XPS file in memory.  
 ```csharp
@@ -144,7 +144,7 @@ XpsDocument doc = new XpsDocument();
 
 *Explanation*: We start by defining the folder that holds our source and output files, then instantiate an empty `XpsDocument`. This object will be the canvas for all subsequent transformations.
 
-### Step 2: Create a Main Canvas
+### Step 2: create a main canvas
 
 `Canvas` is the drawing surface that groups shapes, text, and other graphical elements.  
 ```csharp
@@ -157,7 +157,7 @@ canvas1.RenderTransform = doc.CreateMatrix(1, 0, 0, 1, 20, 10);
 
 *Why this matters*: The main canvas acts as a container for all other canvases. By applying a small offset we ensure the content isn’t clipped at the page edge.
 
-### Step 3: Create a Rectangle Path Geometry
+### Step 3: create a rectangle path geometry
 
 `PathGeometry` defines vector shapes using XPS path syntax (M = move, L = line, Z = close).  
 ```csharp
@@ -167,7 +167,7 @@ XpsPathGeometry rectGeom = doc.CreatePathGeometry("M 0,0 L 200,0 200,100 0,100 Z
 
 *Tip*: The path string follows the standard XPS path syntax. Adjust the coordinates to change rectangle size.
 
-### Step 4: Add a Fill for Rectangles
+### Step 4: add a fill for rectangles
 
 `SolidColorBrush` creates a solid‑color fill that can be reused across multiple shapes.  
 ```csharp
@@ -177,7 +177,7 @@ XpsBrush fill = doc.CreateSolidColorBrush(doc.CreateColor(12, 15, 159));
 
 *Pro tip*: Use `CreateColor` with RGB values to match your brand palette.
 
-### Step 5: Add a New Canvas Without Transformations
+### Step 5: add a new canvas without transformations
 
 `Canvas` without a transform serves as a baseline element for comparison.  
 ```csharp
@@ -191,7 +191,7 @@ rect.Fill = fill;
 
 Here we simply place a rectangle on the page with no extra transformation—useful as a baseline element.
 
-### Step 6: Add a New Canvas with Translate Transformation
+### Step 6: add a new canvas with translate transformation
 
 `TranslateTransform` moves objects along the X and Y axes.  
 ```csharp
@@ -211,7 +211,7 @@ rect.Fill = fill;
 
 *What’s happening?* The first matrix moves the rectangle down by 200 units. The subsequent `Translate` call shifts it 500 units to the right, demonstrating how multiple translations can be chained.
 
-### Step 7: Add a New Canvas with Double Scale Transformation
+### Step 7: add a new canvas with double scale transformation
 
 `ScaleTransform` multiplies the width and height of the canvas by the supplied factors.  
 ```csharp
@@ -231,7 +231,7 @@ rect.Fill = fill;
 
 *Why scale?* Scaling by 2 doubles the rectangle’s width and height, letting you create larger graphics without redefining the geometry.
 
-### Step 8: Add a New Canvas with Rotation Around a Point Transformation
+### Step 8: add a new canvas with rotation around a point transformation
 
 `RotateAroundTransform` pivots the canvas around a custom point (here (100, 50)).  
 ```csharp
@@ -251,7 +251,7 @@ rect.Fill = fill;
 
 *Key insight*: `RotateAround` pivots the canvas around a custom point, giving you fine control over rotation anchors.
 
-### Step 9: Save Resultant XPS Document
+### Step 9: save resultant XPS document
 
 `Save` persists the in‑memory document to disk in XPS format.  
 ```csharp
@@ -262,7 +262,7 @@ doc.Save(dataDir + "output1.xps");
 
 After all transformations are applied, the document is persisted to `output1.xps`. Open the file in any XPS viewer to see the stacked rectangles with their respective translations, scaling, and rotation.
 
-## Common Issues & Troubleshooting
+## Common issues & troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|--------------|-----|
@@ -270,7 +270,7 @@ After all transformations are applied, the document is persisted to `output1.xps
 | Rectangles not positioned as expected | Incorrect matrix values | Double‑check the order of `Translate`, `Scale`, and `RotateAround` calls |
 | Colors appear wrong | RGB values out of 0‑255 range | Use valid byte values for each channel |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Is Aspose.Page for .NET compatible with all .NET development environments?**  
 A: Yes, it works seamlessly with Visual Studio, Visual Studio Code, Rider, and any IDE that supports .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.
@@ -295,13 +295,13 @@ A: Purchase directly from the Aspose store: [Aspose.Page Buy](https://purchase.a
 
 ## Related Tutorials
 
-- [Create XPS Document with Aspose.Page for .NET](/page/net/document-creation/create-xps-document/)
-- [How to Clip XPS with Aspose.Page for .NET](/page/net/canvas-manipulation/clippingxps/)
-- [Convert XPS to PDF with Aspose.Page for .NET](/page/net/document-conversion/convert-xps-to-pdf/)
-
+{{< relref "page/net/document-creation/create-xps-document" >}}Create XPS Document with Aspose.Page for .NET{{< /relref >}}
+{{< relref "page/net/canvas-manipulation/clippingxps" >}}How to Clip XPS with Aspose.Page for .NET{{< /relref >}}
+{{< relref "page/net/document-conversion/convert-xps-to-pdf" >}}Convert XPS to PDF with Aspose.Page for .NET{{< /relref >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
