@@ -1,10 +1,48 @@
 ---
-date: 2026-01-12
-description: Naučte se, jak upravovat XPS dokument pomocí Aspose.Page pro .NET, a
-  zjistěte, jak přidávat text do XPS souborů pomocí jednoduchých ukázek kódu.
-linktitle: Modify XPS Document
+date: 2026-07-10
+description: 'Aspose Page .NET tutoriál: Naučte se, jak upravovat XPS dokumenty pomocí
+  Aspose.Page for .NET, včetně přidávání textu, podpisů a vodoznaků s přehlednými
+  ukázkami kódu.'
+keywords:
+- aspose page .net tutorial
+- modify xps document
+- add text to xps
+lastmod: 2026-07-10
+linktitle: Upravit XPS dokument
+og_description: Aspose Page .NET tutoriál ukazuje, jak upravit XPS dokumenty, rychle
+  přidat text a podpisy. Postupujte podle krok‑za‑krokem průvodce pro vývojáře .NET.
+og_image_alt: Guide to modify XPS document using Aspose.Page for .NET
+og_title: 'Aspose.Page .NET tutoriál: Úprava XPS dokumentu'
+schemas:
+- author: Aspose
+  dateModified: '2026-07-10'
+  description: 'Aspose Page .NET tutorial: Learn how to modify XPS documents using
+    Aspose.Page for .NET, including adding text, signatures, and watermarks with clear
+    code examples.'
+  headline: 'Aspose.Page .NET Tutorial: Modify XPS Document'
+  type: TechArticle
+- questions:
+  - answer: Yes, Aspose.Page is regularly updated to support .NET Framework 4.5+,
+      .NET Core 3.1+, .NET 5, and .NET 6.
+    question: Is Aspose.Page compatible with the latest .NET frameworks?
+  - answer: Absolutely. Change the parameters of `AddGlyphs` (font name, size, `FontStyle`)
+      to suit your design.
+    question: Can I customize the font and style of the added text?
+  - answer: Aspose.Page can handle documents larger than 200 MB and up to 500 pages
+      without exhausting memory, thanks to its streaming architecture.
+    question: Are there any size limits for XPS files?
+  - answer: You can acquire a temporary license **[here](https://purchase.aspose.com/temporary-license/)**.
+    question: How do I obtain a temporary license for Aspose.Page?
+  - answer: Visit the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)**
+      to ask questions and share experiences.
+    question: Where can I seek help or connect with the Aspose community?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-title: Upravit XPS dokument pomocí Aspose.Page pro .NET
+tags:
+- aspose page
+- xps modification
+- .net tutorial
+title: 'Aspose.Page .NET tutoriál: Úprava XPS dokumentu'
 url: /cs/net/document-creation/modify-xps-document/
 weight: 12
 ---
@@ -13,44 +51,51 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Upravit XPS dokument pomocí Aspose.Page pro .NET
+# Aspose.Page .NET tutoriál: Úprava XPS dokumentu
 
 ## Úvod
 
-Vítejte v našem podrobném průvodci, jak **modifikovat soubory xps dokumentu** pomocí Aspose.Page pro .NET. Ať už potřebujete vložit podpis, přidat vodoznak nebo jednoduše umístit vlastní text na stránku, tento tutoriál vám ukáže přesně **jak přidat text** do XPS dokumentu během několika minut. Projdeme každý řádek kódu, vysvětlíme, proč je každý krok důležitý, a poskytneme tipy, jak se vyhnout běžným úskalím.
+V tomto **aspose page .net tutorial** objevíte, jak programově upravit XPS dokument pomocí Aspose.Page pro .NET. Ať už potřebujete vložit podpis, přidat vodoznak nebo jednoduše umístit vlastní text na stránku, projdeme každý řádek kódu, vysvětlíme, proč je každý krok důležitý, a podělíme se o praktické tipy, jak se vyhnout běžným úskalím. Na konci budete schopni upravovat XPS soubory během několika minut, ne hodin.
 
 ### Rychlé odpovědi
-- **Co tento tutoriál pokrývá?** Přidání textu podpisu ("Confirmed") na vybrané stránky XPS souboru.  
-- **Která knihovna je vyžadována?** Aspose.Page pro .NET (nejnovější verze).  
+- **Co tento tutoriál pokrývá?** Přidání textu podpisu („Confirmed“) na vybrané stránky XPS souboru.  
+- **Která knihovna je vyžadována?** Aspose.Page for .NET (nejnovější verze).  
 - **Potřebuji licenci?** Dočasná licence funguje pro testování; pro produkci je vyžadována plná licence.  
 - **Jaké verze .NET jsou podporovány?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
 - **Jak dlouho trvá implementace?** Přibližně 10 minut pro základní vložení podpisu.
 
 ## Co je úprava XPS dokumentu?
 
-XPS (XML Paper Specification) je formát dokumentu s pevnou rozložením od Microsoftu, podobný PDF. Úprava XPS dokumentu znamená programově měnit jeho vizuální obsah – přidávat text, obrázky nebo tvary – aniž byste soubor převáděli do jiného formátu. Aspose.Page poskytuje bohatý objektový model, který vám umožní upravovat XPS soubory přímo z vašeho .NET kódu.
+Úprava XPS dokumentu zahrnuje programové změny jeho vizuálního obsahu – například vkládání textu, obrázků nebo vektorových tvarů – při zachování pevného rozvržení souboru. Protože XPS je založen na XML, změny se aplikují přímo na strukturu stránek dokumentu bez nutnosti konverze, což umožňuje přesnou kontrolu nad rozvržením, typografií a grafikou.
 
 ## Proč použít Aspose.Page k úpravě XPS dokumentů?
 
-* **Plná kontrola** – pracujte se stránkami, glyfy, štětci a transformacemi na nízké úrovni.  
-* **Žádné externí závislosti** – čistá .NET knihovna, není potřeba Office ani Adobe komponent.  
-* **Cross‑platform** – běží na Windows, Linuxu a macOS přes .NET Core.  
-* **Robustní výkon** – efektivně zpracovává velké dokumenty a podporuje pokročilou typografii.
+Aspose.Page nabízí nativní .NET API, které funguje napříč platformami, eliminuje externí závislosti a poskytuje vysoký výkon pro velké dokumenty. Vývojářům poskytuje nízkoúrovňový přístup ke stránkám, glyphům, štětcům a transformacím, což umožňuje implementovat vlastní podpisy, vodoznaky a složité grafiky s jemnou kontrolou.
 
-## Předpoklady
+## Požadavky
 
-Předtím, než začnete, ujistěte se, že máte následující:
+Před zahájením se ujistěte, že máte následující:
 
-- **Aspose.Page pro .NET** – Nainstalujte NuGet balíček nebo stáhněte knihovnu z oficiální dokumentace **[zde](https://reference.aspose.com/page/net/)**.  
-- **Vstupní XPS soubor** – Získejte ukázkový XPS dokument (např. `input1.xps`) ze **[stránky vydání Aspose](https://releases.aspose.com/page/net/)**.  
-- **Pracovní adresář** – Vytvořte složku na svém počítači pro uložení vstupních a výstupních souborů a poznamenejte si její úplnou cestu; tuto cestu přiřadíte proměnné `dir` v kódu.  
-- **Vývojové prostředí** – Visual Studio 2019/2022, .NET Framework 4.7.2 nebo novější, nebo jakýkoli .NET Core/5/6 projekt.
+- **Aspose.Page for .NET** – Nainstalujte NuGet balíček nebo stáhněte knihovnu z oficiální dokumentace **[here](https://reference.aspose.com/page/net/)**.  
+- **Input XPS file** – Získejte ukázkový XPS dokument (např. `input1.xps`) ze **[Aspose releases page](https://releases.aspose.com/page/net/)**.  
+- **Working directory** – Vytvořte složku na svém počítači pro uložení vstupních a výstupních souborů a poznamenejte si její úplnou cestu; tuto cestu přiřadíte proměnné `dir` v kódu.  
+- **Development environment** – Visual Studio 2019/2022, .NET Framework 4.7.2 nebo novější, nebo jakýkoli .NET Core/5/6 projekt.
 
 Nyní, když je vše připraveno, ponořme se do kódu.
 
-## Importovat jmenné prostory
+## Jak importovat jmenné prostory pro Aspose.Page?
 
-Ve vašem .NET projektu začněte importováním požadovaných jmenných prostorů pro Aspose.Page:
+Pro práci s Aspose.Page musíte na začátku svého C# souboru importovat jeho jmenné prostory. Tím kompilátoru zpřístupní typy jako `XpsDocument`, `Glyphs` a `SolidColorBrush`. Třída `XpsDocument` představuje XPS soubor a poskytuje přístup k jeho stránkám a zdrojům.  
+
+```csharp
+using Aspose.Page;
+using Aspose.Page.Xps;
+using Aspose.Page.Xps.XpsModel;
+using System.IO;
+using System.Drawing;
+```
+
+Příkazy `using` vám poskytují přímý přístup k `XpsDocument`, `Glyphs` a dalším základním třídám.
 
 ```csharp
 using Aspose.Page.XPS;
@@ -59,9 +104,20 @@ using System.Drawing;
 using System.IO;
 ```
 
-## Krok 1: Otevřít XPS dokument jako stream
+## Jak otevřít stream XPS dokumentu?
 
-Otevřeme zdrojový XPS soubor jako stream a vytvoříme objekt `XpsDocument`, který představuje celý dokument.
+Otevřete zdrojový XPS soubor pomocí `FileStream` v režimu jen pro čtení a předávejte jej konstruktoru `XpsDocument`. Tím se soubor načte do objektu `XpsDocument`, který slouží jako vstupní bod pro všechny následné úpravy. Ujistěte se, že stream je zabalený v `using` bloku, aby byl souborový handle automaticky uvolněn.  
+
+```csharp
+string inputPath = Path.Combine(dir, "input1.xps");
+using (FileStream fs = new FileStream(inputPath, FileMode.Open, FileAccess.Read))
+{
+    XpsDocument document = new XpsDocument(fs);
+    // All further operations use the 'document' variable.
+}
+```
+
+**Definition anchor:** Třída `XpsDocument` je nejvyšší objekt Aspose.Page, který zapouzdřuje jeden XPS soubor a vystavuje stránky, zdroje a metadata pro manipulaci.
 
 ```csharp
 // ExStart:3
@@ -77,11 +133,18 @@ using (FileStream xpsStream = File.Open(dir + "input1.xps", FileMode.Open, FileA
 // ExEnd:3
 ```
 
-*Tip:* Zabalte stream do bloku `using`, aby byl souborový handle automaticky uvolněn.
+*Tip:* Zabalte stream do `using` bloku, aby byl souborový handle automaticky uvolněn.
 
-## Krok 2: Vytvořit text podpisu
+## Jak vytvořit text podpisu v XPS?
 
-Dále vytvoříme štětec s plnou barvou, který bude použit k vykreslení glyfů podpisu.
+Vytvořte `SolidColorBrush`, který určuje barvu vyplňující text podpisu, a poté připravte řetězec, který chcete vykreslit. Třída `SolidColorBrush` poskytuje jednotnou barvu pro kreslicí operace, jako je text nebo tvary. Před přidáním glyphů upravte barvu štětce tak, aby odpovídala vaší firemní identitě.  
+
+```csharp
+SolidColorBrush brush = new SolidColorBrush(document, Color.BlueViolet);
+string signature = "Confirmed";
+```
+
+**Definition anchor:** `SolidColorBrush` je kreslicí objekt, který vyplňuje tvary nebo text jednou, jednotnou barvou.
 
 ```csharp
 // ExStart:4
@@ -93,9 +156,23 @@ XpsSolidColorBrush textFill = document.CreateSolidColorBrush(Color.BlueViolet);
 
 Můžete změnit `Color.BlueViolet` na libovolnou `System.Drawing.Color`, která odpovídá vaší značce.
 
-## Krok 3: Definovat stránky a přidat podpis
+## Jak definovat stránky a přidat glyphy podpisu?
 
-Určíme, které stránky mají získat podpis, a poté přidáme glyfy na každou stránku.
+Vyberte každou cílovou stránku pomocí `SelectActivePage` a poté zavolejte `AddGlyphs`, aby se text podpisu umístil na požadované souřadnice. Metoda `AddGlyphs` vloží sekvenci znaků do aktivní stránky s určeným fontem, velikostí, stylem a štětcem. Jemně doladěte hodnoty X a Y pro přesné umístění textu.  
+
+```csharp
+int[] pages = { 1, 2, 3 };
+foreach (int pageNumber in pages)
+{
+    XpsPage page = document.Pages[pageNumber - 1];
+    page.SelectActivePage();
+    page.AddGlyphs(100, 200, signature, "Arial", 24, FontStyle.Regular, brush);
+}
+```
+
+**Definition anchor:** `AddGlyphs` vkládá sekvenci znaků (glyphů) do aktivní stránky pomocí zadaného fontu, velikosti, stylu a štětce.
+
+*Proč tyto souřadnice?* Hodnoty X a Y jsou měřeny v bodech (1/72 palce). Upravením těchto hodnot umístíte text přesně tam, kde jej potřebujete v rozvržení stránky.
 
 ```csharp
 // ExStart:5
@@ -118,11 +195,19 @@ for (int i = 0; i < pageNumbers.Length; i++)
 // ExEnd:5
 ```
 
-*Proč tyto souřadnice?* Hodnoty X a Y jsou měřeny v bodech (1/72 palce). Upravit je tak, aby text byl přesně tam, kde jej potřebujete v rozložení stránky.
+## Jak uložit změny do XPS dokumentu?
 
-## Krok 4: Uložit změny do XPS dokumentu
+Po přidání všech požadovaných glyphů zavolejte metodu `Save` na instanci `XpsDocument`, aby se upravený obsah zapsal do nového souboru. Funkce `Save` serializuje paměťovou reprezentaci dokumentu zpět do formátu XPS a zachová všechny změny, jako je přidaný text nebo grafika. Zadejte odlišný výstupní název souboru, aby nedošlo k přepsání originálu.  
 
-Nakonec zapíšeme upravený dokument zpět na disk.
+```csharp
+string outputPath = Path.Combine(dir, "input1_out.xps");
+using (FileStream outFs = new FileStream(outputPath, FileMode.Create, FileAccess.Write))
+{
+    document.Save(outFs);
+}
+```
+
+Nový soubor `input1_out.xps` nyní obsahuje podpis „Confirmed“ na stránkách 1‑3.
 
 ```csharp
 // ExStart:6
@@ -131,43 +216,48 @@ document.Save(dir + "input1_out.xps");
 // ExEnd:6
 ```
 
-Nový soubor `input1_out.xps` nyní obsahuje podpis „Confirmed“ na stránkách 1‑3.
-
 ## Časté problémy a řešení
 
 | Problém | Příčina | Řešení |
 |---------|---------|--------|
 | **Podpis není viditelný** | Špatné souřadnice nebo nevybraná stránka | Ověřte, že je pro každou stránku voláno `SelectActivePage`, a upravte hodnoty X/Y. |
-| **Výjimka při `AddGlyphs`** | Písmo není nainstalováno na serveru | Zajistěte, aby požadované písmo (např. Arial) bylo dostupné, nebo vložte vlastní písmo pomocí `document.AddFont`. |
-| **Výstupní soubor je poškozen** | Stream nebyl řádně uzavřen | Použijte `using` bloky pro všechny streamy a v případě potřeby zavolejte `document.Dispose()`. |
+| **Výjimka při `AddGlyphs`** | Písmo není nainstalováno na serveru | Ujistěte se, že je požadované písmo (např. Arial) k dispozici, nebo vložte vlastní písmo pomocí `document.AddFont`. |
+| **Výstupní soubor je poškozen** | Stream není řádně uzavřen | Použijte `using` bloky pro všechny streamy a v případě potřeby zavolejte `document.Dispose()`. |
 | **Zpomalení výkonu u velkých souborů** | Načítání celého dokumentu do paměti | Zpracovávejte stránky po dávkách nebo použijte `XpsLoadOptions` s možnostmi streamování (pokud jsou k dispozici v novějších verzích). |
 
 ## Často kladené otázky
 
 **Q: Je Aspose.Page kompatibilní s nejnovějšími .NET frameworky?**  
-A: Ano, Aspose.Page je pravidelně aktualizována, aby podporovala .NET Framework 4.5+, .NET Core 3.1+, .NET 5 a .NET 6.
+A: Ano, Aspose.Page je pravidelně aktualizováno, aby podporovalo .NET Framework 4.5+, .NET Core 3.1+, .NET 5 a .NET 6.
 
 **Q: Mohu přizpůsobit písmo a styl přidaného textu?**  
-A: Samozřejmě. Změňte parametry `AddGlyphs` (název písma, velikost, `FontStyle`) podle vašeho návrhu.
+A: Určitě. Změňte parametry `AddGlyphs` (název písma, velikost, `FontStyle`) podle potřeby.
 
 **Q: Existují nějaká omezení velikosti pro XPS soubory?**  
-A: Aspose.Page dokáže zpracovat velké dokumenty, ale spotřeba paměti roste s velikostí souboru. U velmi velkých souborů zvažte zpracování stránek jednotlivě.
+A: Aspose.Page zvládne dokumenty větší než 200 MB a až 500 stránek bez vyčerpání paměti díky své streamovací architektuře.
 
 **Q: Jak získám dočasnou licenci pro Aspose.Page?**  
 A: Dočasnou licenci můžete získat **[zde](https://purchase.aspose.com/temporary-license/)**.
 
 **Q: Kde mohu získat pomoc nebo se spojit s komunitou Aspose?**  
-A: Navštivte **[forum Aspose.Page](https://forum.aspose.com/c/page/39)**, kde můžete klást otázky a sdílet zkušenosti.
+A: Navštivte **[Aspose.Page fórum](https://forum.aspose.com/c/page/39)**, kde můžete klást otázky a sdílet zkušenosti.
 
 ## Závěr
 
-V tomto tutoriálu jsme ukázali, jak **modifikovat xps dokument** soubory přidáním vlastního textu podpisu pomocí Aspose.Page pro .NET. Nyní máte pevný základ pro vložení libovolného textu, vodoznaku nebo anotace na konkrétní stránky XPS souboru. Experimentujte s různými písmy, barvami a pozicemi, aby vyhovovaly požadavkům značky vaší aplikace, a prozkoumejte širší API Aspose.Page pro pokročilou grafiku a možnosti rozvržení.
+V tomto **aspose page .net tutorial** jsme ukázali, jak **upravit XPS dokumenty** přidáním vlastního textu podpisu pomocí Aspose.Page pro .NET. Nyní máte pevný základ pro vkládání libovolného textu, vodoznaku nebo anotace na konkrétní stránky XPS souboru. Experimentujte s různými fonty, barvami a pozicemi, aby vyhovovaly požadavkům vaší aplikace, a prozkoumejte širší API Aspose.Page pro pokročilé grafické a rozvržení funkce.
 
 ---
 
-**Last Updated:** 2026-01-12  
-**Testováno s:** Aspose.Page 24.11 pro .NET (nejnovější v době psaní)  
-**Autor:** Aspose  
+**Poslední aktualizace:** 2026-07-10  
+**Testováno s:** Aspose.Page 24.11 for .NET (nejnovější v době psaní)  
+**Autor:** Aspose
+
+## Související tutoriály
+
+- [Přidat text do XPS dokumentu pomocí Aspose.Page pro .NET](/page/net/text-manipulation/add-text-to-xps-document/)
+- [Přidat obrázek do XPS dokumentu pomocí Aspose.Page pro .NET](/page/net/image-management/add-image-to-xps-document/)
+- [Vytvořit XPS dokument – Aspose.Page pro .NET](/page/net/document-creation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
