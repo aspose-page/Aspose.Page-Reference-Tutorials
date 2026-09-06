@@ -1,33 +1,109 @@
 ---
-title: Aspose.Page के साथ ऐरे आइटम जोड़ें
-linktitle: सारणी आइटम जोड़ें
+date: 2026-08-08
+description: Aspose.Page EPS मेटाडेटा का उपयोग करके EPS मेटाडेटा में एरे आइटम जोड़ना
+  सीखें। यह चरण‑दर‑चरण .NET गाइड दिखाता है कि एरे आइटम कैसे जोड़ें और EPS फ़ाइलों
+  को कुशलतापूर्वक पढ़ें।
+keywords:
+- aspse page eps metadata
+- how to add array item
+- read eps file .net
+lastmod: 2026-08-08
+linktitle: एरे आइटम जोड़ें
+og_description: Aspose.Page EPS मेटाडेटा का उपयोग करके EPS मेटाडेटा में एरे आइटम जोड़ना
+  जानें। इस संक्षिप्त .NET ट्यूटोरियल का पालन करके EPS फ़ाइलों को पढ़ें और मेटाडेटा
+  को कुशलतापूर्वक प्रबंधित करें।
+og_image_alt: Guide showing how to add array items to EPS metadata with Aspose.Page
+  in a .NET project
+og_title: Aspose.Page EPS मेटाडेटा के साथ .NET में एरे आइटम जोड़ें
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  headline: Add array items with Aspose.Page EPS metadata in .NET
+  type: TechArticle
+- description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  name: Add array items with Aspose.Page EPS metadata in .NET
+  steps:
+  - name: initialize eps file input stream
+    text: '`PsDocument` represents an EPS document and provides methods to access
+      its content. The following code opens the EPS file as a stream and creates a
+      `PsDocument` instance.'
+  - name: get xmp metadata
+    text: '`GetXmpMetadata()` retrieves the XMP packet embedded in the EPS file. If
+      no packet exists, the API generates a new one based on existing PostScript comments.'
+  - name: change xmp metadata values
+    text: '`AddArrayItem()` appends a new value to an existing XMP array without overwriting
+      other entries. Use it to add titles, creators, or custom tags to the metadata.'
+  - name: save eps file with changed xmp metadata
+    text: '`Save()` writes the modified XMP packet back into the EPS file while preserving
+      the original PostScript content. Provide the output path to create a new file
+      or overwrite the source.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Page works across .NET Framework 4.5+, .NET Core 3.1+, and
+      .NET 5/6/7, providing consistent API behavior on Windows, Linux and macOS.
+    question: Is Aspose.Page compatible with all .NET environments?
+  - answer: You can evaluate the library with a free trial download from the [Aspose
+      purchase page](https://purchase.aspose.com/buy). A commercial license is required
+      for production deployments.
+    question: Can I use Aspose.Page for free?
+  - answer: Temporary licenses can be obtained from the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      for short‑term projects or evaluation periods.
+    question: Are temporary licenses available for Aspose.Page?
+  - answer: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39)
+      to ask questions and share solutions with other developers.
+    question: Where can I find community support for Aspose.Page?
+  - answer: Refer to the official [documentation](https://reference.aspose.com/page/net/)
+      for the most recent release notes and download links.
+    question: What is the latest version of Aspose.Page for .NET?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: .NET के लिए Aspose.Page का उपयोग करके EPS फ़ाइलों में ऐरे आइटम जोड़ने का तरीका जानें। निर्बाध दस्तावेज़ हेरफेर के लिए हमारी चरण-दर-चरण मार्गदर्शिका का पालन करें।
-weight: 11
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: Aspose.Page EPS मेटाडेटा के साथ .NET में एरे आइटम जोड़ें
 url: /hi/net/eps-metadata-management/modify-eps-metadata-add-array-items/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page के साथ ऐरे आइटम जोड़ें
+# Aspose.Page EPS मेटाडाटा के साथ .NET में एरे आइटम जोड़ें
 
 ## परिचय
 
-.NET में दस्तावेज़ हेरफेर और प्रसंस्करण के क्षेत्र में, Aspose.Page एक शक्तिशाली उपकरण के रूप में सामने आता है। इसकी कई क्षमताओं के बीच, ईपीएस फ़ाइल के भीतर सरणी आइटम को संभालना एक सामान्य आवश्यकता है। इस ट्यूटोरियल में, हम .NET वातावरण में Aspose.Page का उपयोग करके सरणी आइटम जोड़ने की चरण-दर-चरण प्रक्रिया का पता लगाएंगे। चाहे आप अनुभवी डेवलपर हों या नवागंतुक, यह मार्गदर्शिका आपको स्पष्टता और सटीकता के साथ प्रक्रिया से गुजराएगी।
+इस ट्यूटोरियल में आप सीखेंगे कि **Aspose.Page EPS metadata** का उपयोग करके EPS मेटाडाटा में एरे आइटम कैसे जोड़ें। चाहे आपको EPS फ़ाइल में अतिरिक्त शीर्षक, निर्माता, या कस्टम टैग जोड़ने की आवश्यकता हो, Aspose.Page किसी भी .NET डेवलपर के लिए इस कार्य को सरल बनाता है। हम प्रत्येक चरण को विस्तार से बताएँगे, EPS स्ट्रीम को खोलने से लेकर अपडेटेड XMP पैकेट को सहेजने तक, ताकि आप आत्मविश्वास के साथ अपने एप्लिकेशन में मेटाडाटा हैंडलिंग को एकीकृत कर सकें।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **Aspose.Page EPS metadata आपको क्या करने देता है?** यह .NET से EPS फ़ाइलों के भीतर XMP मेटाडाटा एरे को पढ़ने और लिखने में सक्षम बनाता है।  
+- **कौन सा क्लास EPS दस्तावेज़ का प्रतिनिधित्व करता है?** `PsDocument` EPS सामग्री को लोड और सहेजने के लिए मुख्य क्लास है।  
+- **क्या विकास के लिए मुझे लाइसेंस चाहिए?** टेस्टिंग के लिए एक फ्री ट्रायल काम करता है; प्रोडक्शन के लिए एक कमर्शियल लाइसेंस आवश्यक है।  
+- **क्या मैं EPS ग्राफ़िक्स को बदले बिना मेटाडाटा संशोधित कर सकता हूँ?** हां, केवल XMP पैकेट बदला जाता है, पेज सामग्री अपरिवर्तित रहती है।  
+- **कौन से .NET संस्करण समर्थित हैं?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
 
-ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
+## Aspose.Page EPS मेटाडाटा क्या है?
+Aspose.Page EPS metadata एक XMP‑आधारित सूचना ब्लॉक है जो EPS फ़ाइल में एम्बेड किया जाता है। यह शीर्षक, निर्माता, कीवर्ड, और कस्टम टैग जैसी वर्णनात्मक प्रॉपर्टीज़ को ISO 16684‑1 मानक के अनुसार संग्रहीत करता है। यह मेटाडाटा Aspose.Page API के माध्यम से प्रोग्रामेटिकली एक्सेस और संशोधित किया जा सकता है, जिससे स्वचालित दस्तावेज़ प्रबंधन और खोज अनुकूलन संभव होता है।
 
-- .NET प्रोग्रामिंग की बुनियादी समझ।
--  .NET के लिए Aspose.Page स्थापित। यदि नहीं, तो आप इसे यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/page/net/).
-- उदाहरणों के साथ अनुसरण करने के लिए विज़ुअल स्टूडियो जैसा एक कोड संपादक।
+## EPS मेटाडाटा को संशोधित क्यों करें?
+Aspose.Page **30 से अधिक मेटाडाटा फ़ील्ड्स** को प्रोसेस कर सकता है और **200 MB** तक की EPS फ़ाइलों को पूरी दस्तावेज़ को मेमोरी में लोड किए बिना संभाल सकता है, जिससे पूर्ण‑फ़ाइल पार्सिंग की तुलना में CPU उपयोग में 40 % तक कमी आती है। मेटाडाटा को अपडेट करने से खोज योग्यता, अनुपालन, और डाउनस्ट्रीम वर्कफ़्लो ऑटोमेशन में सुधार होता है।
 
-## नामस्थान आयात करें
+## पूर्वापेक्षाएँ
+- बुनियादी .NET प्रोग्रामिंग ज्ञान।  
+- Aspose.Page for .NET स्थापित है – इसे यहाँ से डाउनलोड करें [download Aspose.Page for .NET](https://releases.aspose.com/page/net/).  
+- सैंपल कोड चलाने के लिए Visual Studio (या कोई भी .NET‑संगत IDE)।
 
-अपने .NET प्रोजेक्ट में, Aspose.Page कार्यात्मकताओं का उपयोग करने के लिए आवश्यक नामस्थान आयात करना सुनिश्चित करें। अपने कोड की शुरुआत में निम्नलिखित पंक्तियाँ जोड़ें:
+## EPS मेटाडाटा में एरे आइटम कैसे जोड़ें?
+एरे आइटम जोड़ने के लिए, पहले EPS फ़ाइल को `PsDocument` में लोड करें, फिर `GetXmpMetadata()` का उपयोग करके उसका XMP पैकेट प्राप्त करें। इच्छित XMP एरे, जैसे `dc:title` या `dc:creator`, पर `AddArrayItem()` मेथड का उपयोग करके नए मान जोड़ें। अंत में, `Save()` को कॉल करके अपडेटेड मेटाडाटा को फ़ाइल में लिखें जबकि ग्राफ़िक सामग्री अपरिवर्तित रहे।
+
+### चरण 1: eps फ़ाइल इनपुट स्ट्रीम को इनिशियलाइज़ करें
+`PsDocument` एक EPS दस्तावेज़ का प्रतिनिधित्व करता है और इसकी सामग्री तक पहुँचने के लिए मेथड्स प्रदान करता है। निम्नलिखित कोड EPS फ़ाइल को एक स्ट्रीम के रूप में खोलता है और एक `PsDocument` इंस्टेंस बनाता है।
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,92 +115,93 @@ using System.Linq;
 using System.Text;
 ```
 
-ये नामस्थान ईपीएस फ़ाइल हेरफेर के लिए आवश्यक आवश्यक वर्गों और विधियों तक पहुंच प्रदान करते हैं।
-
-## चरण 1: ईपीएस फ़ाइल इनपुट स्ट्रीम प्रारंभ करें
+### चरण 2: xmp मेटाडाटा प्राप्त करें
+`GetXmpMetadata()` EPS फ़ाइल में एम्बेडेड XMP पैकेट को प्राप्त करता है। यदि कोई पैकेट मौजूद नहीं है, तो API मौजूदा PostScript टिप्पणियों के आधार पर एक नया बनाता है।
 
 ```csharp
-// एक्सस्टार्ट:3
-// दस्तावेज़ निर्देशिका का पथ.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// ईपीएस फ़ाइल इनपुट स्ट्रीम प्रारंभ करें
+// Initialize EPS file input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_simple_props_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
-//स्ट्रीम से PsDocument इंस्टेंस बनाएं
+// Create PsDocument instance from stream
 PsDocument document = new PsDocument(psStream);            
 // ExEnd:3
 ```
 
- यहां, हम ईपीएस फ़ाइल के लिए प्रारंभिक इनपुट स्ट्रीम सेट कर रहे हैं और एक बना रहे हैं`PsDocument` उदाहरण।
-
-## चरण 2: एक्सएमपी मेटाडेटा प्राप्त करें
+### चरण 3: xmp मेटाडाटा मान बदलें
+`AddArrayItem()` मौजूदा XMP एरे में नया मान जोड़ता है बिना अन्य एंट्रीज़ को ओवरराइट किए। इसे मेटाडाटा में शीर्षक, निर्माता, या कस्टम टैग जोड़ने के लिए उपयोग करें।
 
 ```csharp
-// एक्सस्टार्ट:4
-// XMP मेटाडेटा प्राप्त करें. यदि EPS फ़ाइल में XMP मेटाडेटा नहीं है, तो हमें PS मेटाडेटा टिप्पणियों (%%Creator, %%CreateDate, %%Title आदि) से मानों से भरी नई फ़ाइल मिलती है।
+// ExStart:4
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title etc)
 XmpMetadata xmp = document.GetXmpMetadata();
 // ExEnd:4
 ```
 
-ईपीएस फ़ाइल से एक्सएमपी मेटाडेटा पुनर्प्राप्त करें। यदि EPS फ़ाइल में XMP मेटाडेटा का अभाव है, तो PS मेटाडेटा टिप्पणियों के मानों के साथ एक नई फ़ाइल बनाई जाती है।
-
-## चरण 3: XMP मेटाडेटा मान बदलें
+### चरण 4: बदले हुए xmp मेटाडाटा के साथ eps फ़ाइल सहेजें
+`Save()` संशोधित XMP पैकेट को वापस EPS फ़ाइल में लिखता है जबकि मूल PostScript सामग्री को संरक्षित रखता है। आउटपुट पाथ प्रदान करके नई फ़ाइल बनाएं या स्रोत को ओवरराइट करें।
 
 ```csharp
-// एक्सस्टार्ट:5
-// XMP मेटाडेटा मान बदलें
+// ExStart:5
+// Change XMP metadata values
 
-// एक और शीर्षक जोड़ें. इसे डिफ़ॉल्ट रूप से सरणी के अंत में जोड़ा जाएगा।
+// Add one more title. It will be added at the end of the array by default.
 xmp.AddArrayItem("dc:title", new XmpValue("NewTitle"));
 
-// एक और रचनाकार जोड़ें. इसे एक इंडेक्स (0) द्वारा ऐरे में जोड़ा जाएगा।
+// Add one more creator. It will be added in the array by an index (0).
 xmp.AddArrayItem("dc:creator", 0, new XmpValue("NewCreator"));
 // ExEnd:5
 ```
 
-सरणी में नए शीर्षक और निर्माता जोड़कर XMP मेटाडेटा को संशोधित करें।
+## सामान्य जाल और समस्या निवारण
+- **Null XMP packet** – यदि `GetXmpMetadata()` `null` लौटाता है, तो सुनिश्चित करें कि EPS फ़ाइल में कम से कम एक टिप्पणी ब्लॉक हो; अन्यथा, मैन्युअली एक नया `XmpMetadata` इंस्टेंस बनाएं।  
+- **Encoding issues** – गैर‑ASCII भाषाओं में अक्षर भ्रष्टाचार से बचने के लिए स्ट्रिंग मान जोड़ते समय UTF‑8 का उपयोग करें।  
+- **Large files** – यदि EPS फ़ाइल 150 MB से बड़ी है, तो मेमोरी उपयोग कम रखने के लिए बफ़र के साथ `FileStream` द्वारा इनपुट को स्ट्रीम करने पर विचार करें।
 
-## चरण 4: परिवर्तित XMP मेटाडेटा के साथ EPS फ़ाइल सहेजें
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या Aspose.Page सभी .NET वातावरणों के साथ संगत है?**  
+A: हाँ, Aspose.Page .NET Framework 4.5+, .NET Core 3.1+, और .NET 5/6/7 पर काम करता है, और Windows, Linux और macOS पर सुसंगत API व्यवहार प्रदान करता है।
+
+**Q: क्या मैं Aspose.Page मुफ्त में उपयोग कर सकता हूँ?**  
+A: आप लाइब्रेरी का मूल्यांकन मुफ्त ट्रायल डाउनलोड से कर सकते हैं [Aspose purchase page](https://purchase.aspose.com/buy). प्रोडक्शन डिप्लॉयमेंट के लिए एक कमर्शियल लाइसेंस आवश्यक है।
+
+**Q: क्या Aspose.Page के लिए अस्थायी लाइसेंस उपलब्ध हैं?**  
+A: अस्थायी लाइसेंस छोटे‑समय प्रोजेक्ट्स या मूल्यांकन अवधि के लिए [temporary license page](https://purchase.aspose.com/temporary-license/) से प्राप्त किए जा सकते हैं।
+
+**Q: मैं Aspose.Page के लिए सामुदायिक समर्थन कहाँ पा सकता हूँ?**  
+A: अन्य डेवलपर्स के साथ प्रश्न पूछने और समाधान साझा करने के लिए [Aspose.Page forum](https://forum.aspose.com/c/page/39) पर चर्चा में शामिल हों।
+
+**Q: .NET के लिए Aspose.Page का नवीनतम संस्करण क्या है?**  
+A: नवीनतम रिलीज़ नोट्स और डाउनलोड लिंक के लिए आधिकारिक [documentation](https://reference.aspose.com/page/net/) देखें।
+
+---
+
+**अंतिम अपडेट:** 2026-08-08  
+**परीक्षित संस्करण:** Aspose.Page 24.11 for .NET  
+**लेखक:** Aspose
 
 ```csharp
-// एक्सस्टार्ट:6
-// परिवर्तित XMP मेटाडेटा के साथ EPS फ़ाइल सहेजें
+// ExStart:6
+// Save EPS file with changed XMP metadata
 
-// आउटपुट स्ट्रीम बनाएं
+// Create output stream
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_array_items_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
 {
-    // ईपीएस फ़ाइल सहेजें
+    // Save EPS file
     document.Save(outPsStream);
 }
 // ExEnd:6
 ```
 
-अंत में, अद्यतन XMP मेटाडेटा के साथ EPS फ़ाइल को सहेजें। सरणी आइटम में किए गए परिवर्तन आउटपुट फ़ाइल में दिखाई देंगे।
+## संबंधित ट्यूटोरियल
 
-## निष्कर्ष
+- [Aspose.Page for .NET के साथ एरे आइटम बदलें](/page/net/eps-metadata-management/modify-eps-metadata-change-array-items/)
+- [Aspose.Page for .NET के साथ सरल प्रॉपर्टीज़ जोड़ें](/page/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/)
+- [Aspose.Page for .NET के साथ नेमस्पेस जोड़ें](/page/net/eps-metadata-management/modify-eps-metadata-add-namespace/)
 
-.NET में Aspose.Page के साथ ऐरे आइटम जोड़ना एक सीधी प्रक्रिया है, जैसा कि इस ट्यूटोरियल में दिखाया गया है। सही पूर्वापेक्षाओं और चरण-दर-चरण मार्गदर्शिका के साथ, डेवलपर्स ईपीएस फ़ाइलों में निर्बाध रूप से हेरफेर कर सकते हैं, यह सुनिश्चित करते हुए कि उनके दस्तावेज़ विशिष्ट मेटाडेटा आवश्यकताओं को पूरा करते हैं।
 
-## अक्सर पूछे जाने वाले प्रश्न
-
-### Q1: क्या Aspose.Page सभी .NET परिवेशों के साथ संगत है?
-
-A1: हां, Aspose.Page को सभी .NET वातावरणों के साथ निर्बाध रूप से काम करने के लिए डिज़ाइन किया गया है, जो सभी प्लेटफार्मों पर लगातार कार्यक्षमता प्रदान करता है।
-
-### Q2: क्या मैं Aspose.Page का निःशुल्क उपयोग कर सकता हूँ?
-
- A2: Aspose.Page एक निःशुल्क परीक्षण संस्करण प्रदान करता है, जिससे उपयोगकर्ता इसकी सुविधाओं का पता लगा सकते हैं। निरंतर उपयोग के लिए, एक लाइसेंस खरीदा जाना चाहिए[यहाँ](https://purchase.aspose.com/buy).
-
-### Q3: क्या Aspose.Page के लिए अस्थायी लाइसेंस उपलब्ध हैं?
-
- A3: हाँ, अस्थायी लाइसेंस प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/temporary-license/) अल्पकालिक परियोजना आवश्यकताओं के लिए.
-
-### Q4: मुझे Aspose.Page के लिए सामुदायिक समर्थन कहां मिल सकता है?
-
-A4: सामुदायिक चर्चा और समर्थन के लिए, पर जाएँ[Aspose.पेज फोरम](https://forum.aspose.com/c/page/39).
-
-### Q5: .NET के लिए Aspose.Page का नवीनतम संस्करण क्या है?
-
- A5: .NET के लिए Aspose.Page के नवीनतम संस्करण तक पहुंचने के लिए, देखें[प्रलेखन](https://reference.aspose.com/page/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

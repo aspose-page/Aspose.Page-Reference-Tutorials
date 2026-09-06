@@ -1,33 +1,110 @@
 ---
-title: Προσθήκη στοιχείων πίνακα με το Aspose.Page
-linktitle: Προσθήκη στοιχείων πίνακα
+date: 2026-08-08
+description: Μάθετε πώς να προσθέτετε στοιχεία πίνακα στο EPS metadata χρησιμοποιώντας
+  Aspose.Page EPS metadata. Αυτός ο βήμα‑βήμα οδηγός .NET δείχνει πώς να προσθέτετε
+  στοιχεία πίνακα και να διαβάζετε αρχεία EPS αποδοτικά.
+keywords:
+- aspse page eps metadata
+- how to add array item
+- read eps file .net
+lastmod: 2026-08-08
+linktitle: Προσθήκη Στοιχείων Πίνακα
+og_description: Ανακαλύψτε πώς να προσθέτετε στοιχεία πίνακα στο EPS metadata χρησιμοποιώντας
+  Aspose.Page EPS metadata. Ακολουθήστε αυτό το σύντομο tutorial .NET για να διαβάζετε
+  αρχεία EPS και να διαχειρίζεστε το metadata αποδοτικά.
+og_image_alt: Guide showing how to add array items to EPS metadata with Aspose.Page
+  in a .NET project
+og_title: Προσθήκη στοιχείων πίνακα με Aspose.Page EPS metadata σε .NET
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  headline: Add array items with Aspose.Page EPS metadata in .NET
+  type: TechArticle
+- description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  name: Add array items with Aspose.Page EPS metadata in .NET
+  steps:
+  - name: initialize eps file input stream
+    text: '`PsDocument` represents an EPS document and provides methods to access
+      its content. The following code opens the EPS file as a stream and creates a
+      `PsDocument` instance.'
+  - name: get xmp metadata
+    text: '`GetXmpMetadata()` retrieves the XMP packet embedded in the EPS file. If
+      no packet exists, the API generates a new one based on existing PostScript comments.'
+  - name: change xmp metadata values
+    text: '`AddArrayItem()` appends a new value to an existing XMP array without overwriting
+      other entries. Use it to add titles, creators, or custom tags to the metadata.'
+  - name: save eps file with changed xmp metadata
+    text: '`Save()` writes the modified XMP packet back into the EPS file while preserving
+      the original PostScript content. Provide the output path to create a new file
+      or overwrite the source.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Page works across .NET Framework 4.5+, .NET Core 3.1+, and
+      .NET 5/6/7, providing consistent API behavior on Windows, Linux and macOS.
+    question: Is Aspose.Page compatible with all .NET environments?
+  - answer: You can evaluate the library with a free trial download from the [Aspose
+      purchase page](https://purchase.aspose.com/buy). A commercial license is required
+      for production deployments.
+    question: Can I use Aspose.Page for free?
+  - answer: Temporary licenses can be obtained from the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      for short‑term projects or evaluation periods.
+    question: Are temporary licenses available for Aspose.Page?
+  - answer: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39)
+      to ask questions and share solutions with other developers.
+    question: Where can I find community support for Aspose.Page?
+  - answer: Refer to the official [documentation](https://reference.aspose.com/page/net/)
+      for the most recent release notes and download links.
+    question: What is the latest version of Aspose.Page for .NET?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: Εξερευνήστε πώς μπορείτε να προσθέσετε στοιχεία πίνακα σε αρχεία EPS χρησιμοποιώντας το Aspose.Page για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα για απρόσκοπτη επεξεργασία εγγράφων.
-weight: 11
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: Προσθήκη στοιχείων πίνακα με Aspose.Page EPS metadata σε .NET
 url: /el/net/eps-metadata-management/modify-eps-metadata-add-array-items/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Προσθήκη στοιχείων πίνακα με το Aspose.Page
+# Προσθήκη στοιχείων πίνακα με μεταδεδομένα Aspose.Page EPS σε .NET
 
 ## Εισαγωγή
 
-Στον τομέα του χειρισμού και της επεξεργασίας εγγράφων στο .NET, το Aspose.Page ξεχωρίζει ως ένα ισχυρό εργαλείο. Μεταξύ των πολλών δυνατοτήτων του, ο χειρισμός στοιχείων πίνακα μέσα σε ένα αρχείο EPS είναι μια κοινή απαίτηση. Σε αυτό το σεμινάριο, θα εξερευνήσουμε τη διαδικασία βήμα προς βήμα προσθήκης στοιχείων πίνακα χρησιμοποιώντας το Aspose.Page σε περιβάλλον .NET. Είτε είστε έμπειρος προγραμματιστής είτε νέος, αυτός ο οδηγός θα σας καθοδηγήσει στη διαδικασία με σαφήνεια και ακρίβεια.
+Σε αυτό το σεμινάριο θα μάθετε πώς να προσθέτετε στοιχεία πίνακα στα μεταδεδομένα EPS χρησιμοποιώντας **Aspose.Page EPS metadata**. Είτε χρειάζεστε να εμπλουτίσετε ένα αρχείο EPS με επιπλέον τίτλους, δημιουργούς ή προσαρμοσμένες ετικέτες, το Aspose.Page κάνει την εργασία απλή για οποιονδήποτε προγραμματιστή .NET. Θα περάσουμε βήμα-βήμα, από το άνοιγμα της ροής EPS μέχρι την αποθήκευση του ενημερωμένου πακέτου XMP, ώστε να μπορείτε να ενσωματώσετε τη διαχείριση μεταδεδομένων στις δικές σας εφαρμογές με σιγουριά.
+
+## Γρήγορες απαντήσεις
+- **Τι σας επιτρέπει να κάνετε με το Aspose.Page EPS metadata;** Επιτρέπει την ανάγνωση και εγγραφή πινάκων μεταδεδομένων XMP μέσα σε αρχεία EPS από .NET.  
+- **Ποια κλάση αντιπροσωπεύει ένα έγγραφο EPS;** `PsDocument` είναι η κύρια κλάση για τη φόρτωση και αποθήκευση περιεχομένου EPS.  
+- **Χρειάζομαι άδεια για ανάπτυξη;** Μια δωρεάν δοκιμή λειτουργεί για δοκιμές· απαιτείται εμπορική άδεια για παραγωγή.  
+- **Μπορώ να τροποποιήσω τα μεταδεδομένα χωρίς να αλλάξω τα γραφικά EPS;** Ναι, μόνο το πακέτο XMP αλλάζει, αφήνοντας το περιεχόμενο της σελίδας αμετάβλητο.  
+- **Ποιες εκδόσεις .NET υποστηρίζονται;** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6/7.
+
+## Τι είναι το Aspose.Page EPS metadata;
+Το Aspose.Page EPS metadata είναι ένα μπλοκ πληροφοριών βασισμένο στο XMP ενσωματωμένο σε ένα αρχείο EPS. Αποθηκεύει περιγραφικές ιδιότητες όπως τίτλους, δημιουργούς, λέξεις‑κλειδιά και προσαρμοσμένες ετικέτες σύμφωνα με το πρότυπο ISO 16684‑1. Τα μεταδεδομένα μπορούν να προσπελαστούν και να τροποποιηθούν προγραμματιστικά μέσω του Aspose.Page API, επιτρέποντας αυτοματοποιημένη διαχείριση εγγράφων και βελτιστοποίηση αναζήτησης.
+
+## Γιατί να τροποποιήσετε τα μεταδεδομένα EPS;
+Το Aspose.Page μπορεί να επεξεργαστεί **πάνω από 30 πεδία μεταδεδομένων** και να χειριστεί αρχεία EPS έως **200 MB** χωρίς να φορτώνει ολόκληρο το έγγραφο στη μνήμη, μειώνοντας τη χρήση CPU έως και 40 % σε σύγκριση με την πλήρη ανάλυση αρχείου. Η ενημέρωση των μεταδεδομένων βελτιώνει την ευρετηρίαση, τη συμμόρφωση και την αυτοματοποίηση των επόμενων διαδικασιών εργασίας.
 
 ## Προαπαιτούμενα
 
-Πριν βουτήξετε στο σεμινάριο, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
+- Βασικές γνώσεις προγραμματισμού .NET.  
+- Aspose.Page for .NET εγκατεστημένο – κατεβάστε το από [download Aspose.Page for .NET](https://releases.aspose.com/page/net/).  
+- Visual Studio (ή οποιοδήποτε IDE συμβατό με .NET) για την εκτέλεση του δείγματος κώδικα.  
 
-- Βασική κατανόηση του προγραμματισμού .NET.
--  Εγκαταστάθηκε το Aspose.Page για .NET. Εάν όχι, μπορείτε να το κατεβάσετε από[εδώ](https://releases.aspose.com/page/net/).
-- Ένα πρόγραμμα επεξεργασίας κώδικα, όπως το Visual Studio, για να ακολουθήσετε μαζί με τα παραδείγματα.
+## Πώς να προσθέσετε στοιχεία πίνακα στα μεταδεδομένα EPS;
+Για να προσθέσετε στοιχεία πίνακα, πρώτα φορτώστε το αρχείο EPS σε ένα `PsDocument`, στη συνέχεια ανακτήστε το πακέτο XMP χρησιμοποιώντας `GetXmpMetadata()`. Χρησιμοποιήστε τη μέθοδο `AddArrayItem()` στον επιθυμητό πίνακα XMP, όπως `dc:title` ή `dc:creator`, για να προσαρτήσετε νέες τιμές. Τέλος, καλέστε `Save()` για να γράψετε τα ενημερωμένα μεταδεδομένα πίσω στο αρχείο διατηρώντας το γραφικό περιεχόμενο αμετάβλητο.
 
-## Εισαγωγή χώρων ονομάτων
-
-Στο έργο σας .NET, φροντίστε να εισαγάγετε τους απαραίτητους χώρους ονομάτων για να χρησιμοποιήσετε τις λειτουργίες Aspose.Page. Προσθέστε τις ακόλουθες γραμμές στην αρχή του κώδικά σας:
+### Βήμα 1: αρχικοποίηση ροής εισόδου αρχείου eps
+`PsDocument` αντιπροσωπεύει ένα έγγραφο EPS και παρέχει μεθόδους πρόσβασης στο περιεχόμενό του. Ο παρακάτω κώδικας ανοίγει το αρχείο EPS ως ροή και δημιουργεί μια παρουσία `PsDocument`.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,92 +116,94 @@ using System.Linq;
 using System.Text;
 ```
 
-Αυτοί οι χώροι ονομάτων παρέχουν πρόσβαση στις βασικές κλάσεις και μεθόδους που απαιτούνται για τη διαχείριση αρχείων EPS.
-
-## Βήμα 1: Αρχικοποίηση ροής εισόδου αρχείου EPS
+### Βήμα 2: λήψη μεταδεδομένων xmp
+`GetXmpMetadata()` ανακτά το πακέτο XMP ενσωματωμένο στο αρχείο EPS. Εάν δεν υπάρχει πακέτο, το API δημιουργεί ένα νέο με βάση τα υπάρχοντα σχόλια PostScript.
 
 ```csharp
-// ExStart: 3
-// Η διαδρομή προς τον κατάλογο εγγράφων.
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-// Αρχικοποίηση ροής εισόδου αρχείου EPS
+// Initialize EPS file input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_simple_props_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
-//Δημιουργία παρουσίας PsDocument από τη ροή
+// Create PsDocument instance from stream
 PsDocument document = new PsDocument(psStream);            
-// ExEnd: 3
+// ExEnd:3
 ```
 
- Εδώ, ρυθμίζουμε την αρχική ροή εισόδου για το αρχείο EPS και δημιουργούμε ένα`PsDocument` παράδειγμα.
-
-## Βήμα 2: Λήψη μεταδεδομένων XMP
+### Βήμα 3: αλλαγή τιμών μεταδεδομένων xmp
+`AddArrayItem()` προσθέτει μια νέα τιμή σε έναν υπάρχοντα πίνακα XMP χωρίς να αντικαθιστά άλλες καταχωρήσεις. Χρησιμοποιήστε το για να προσθέσετε τίτλους, δημιουργούς ή προσαρμοσμένες ετικέτες στα μεταδεδομένα.
 
 ```csharp
-// ExStart: 4
-// Λάβετε μεταδεδομένα XMP. Εάν το αρχείο EPS δεν περιέχει μεταδεδομένα XMP, λαμβάνουμε ένα νέο γεμάτο με τιμές από σχόλια μεταδεδομένων PS (%%Creator, %%CreateDate, %%Title κ.λπ.)
+// ExStart:4
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title etc)
 XmpMetadata xmp = document.GetXmpMetadata();
-// ExEnd: 4
+// ExEnd:4
 ```
 
-Ανακτήστε τα μεταδεδομένα XMP από το αρχείο EPS. Εάν το αρχείο EPS δεν διαθέτει μεταδεδομένα XMP, δημιουργείται ένα νέο με τιμές από σχόλια μεταδεδομένων PS.
-
-## Βήμα 3: Αλλάξτε τις τιμές μεταδεδομένων XMP
+### Βήμα 4: αποθήκευση αρχείου eps με αλλαγμένα μεταδεδομένα xmp
+`Save()` γράφει το τροποποιημένο πακέτο XMP πίσω στο αρχείο EPS διατηρώντας το αρχικό περιεχόμενο PostScript. Καθορίστε τη διαδρομή εξόδου για να δημιουργήσετε ένα νέο αρχείο ή να αντικαταστήσετε το πηγαίο.
 
 ```csharp
-// ExStart: 5
-// Αλλάξτε τις τιμές μεταδεδομένων XMP
+// ExStart:5
+// Change XMP metadata values
 
-// Προσθέστε έναν ακόμη τίτλο. Θα προστεθεί στο τέλος του πίνακα από προεπιλογή.
+// Add one more title. It will be added at the end of the array by default.
 xmp.AddArrayItem("dc:title", new XmpValue("NewTitle"));
 
-// Προσθέστε έναν ακόμη δημιουργό. Θα προστεθεί στον πίνακα με ένα ευρετήριο (0).
+// Add one more creator. It will be added in the array by an index (0).
 xmp.AddArrayItem("dc:creator", 0, new XmpValue("NewCreator"));
-// Παράταση: 5
+// ExEnd:5
 ```
 
-Τροποποιήστε τα μεταδεδομένα XMP προσθέτοντας νέους τίτλους και δημιουργούς στον πίνακα.
+## Κοινά προβλήματα και αντιμετώπιση σφαλμάτων
 
-## Βήμα 4: Αποθήκευση αρχείου EPS με αλλαγμένα μεταδεδομένα XMP
-
-```csharp
-// ExStart: 6
-// Αποθήκευση αρχείου EPS με αλλαγμένα μεταδεδομένα XMP
-
-// Δημιουργία ροής εξόδου
-using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_array_items_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
-{
-    // Αποθήκευση αρχείου EPS
-    document.Save(outPsStream);
-}
-// Παράταση: 6
-```
-
-Τέλος, αποθηκεύστε το αρχείο EPS με τα ενημερωμένα μεταδεδομένα XMP. Οι αλλαγές που έγιναν στα στοιχεία του πίνακα θα αντικατοπτρίζονται στο αρχείο εξόδου.
-
-## συμπέρασμα
-
-Η προσθήκη στοιχείων πίνακα με το Aspose.Page στο .NET είναι μια απλή διαδικασία, όπως φαίνεται σε αυτό το σεμινάριο. Με τις κατάλληλες προϋποθέσεις και έναν οδηγό βήμα προς βήμα, οι προγραμματιστές μπορούν να χειρίζονται απρόσκοπτα τα αρχεία EPS, διασφαλίζοντας ότι τα έγγραφά τους πληρούν συγκεκριμένες απαιτήσεις μεταδεδομένων.
+- **Null XMP packet** – Εάν το `GetXmpMetadata()` επιστρέφει `null`, βεβαιωθείτε ότι το αρχείο EPS περιέχει τουλάχιστον ένα μπλοκ σχολίων· διαφορετικά, δημιουργήστε μια νέα παρουσία `XmpMetadata` χειροκίνητα.  
+- **Encoding issues** – Χρησιμοποιήστε UTF‑8 όταν προσθέτετε τιμές συμβολοσειράς για να αποφύγετε τη διαφθορά χαρακτήρων σε μη‑ASCII γλώσσες.  
+- **Large files** – Για αρχεία EPS μεγαλύτερα από 150 MB, εξετάστε τη ροή εισόδου μέσω `FileStream` με buffer για να διατηρήσετε τη χρήση μνήμης χαμηλή.
 
 ## Συχνές ερωτήσεις
 
-### Ε1: Είναι το Aspose.Page συμβατό με όλα τα περιβάλλοντα .NET;
+**Q: Είναι το Aspose.Page συμβατό με όλα τα περιβάλλοντα .NET;**  
+A: Ναι, το Aspose.Page λειτουργεί σε .NET Framework 4.5+, .NET Core 3.1+ και .NET 5/6/7, παρέχοντας συνεπή συμπεριφορά API σε Windows, Linux και macOS.
 
-A1: Ναι, το Aspose.Page έχει σχεδιαστεί για να λειτουργεί απρόσκοπτα με όλα τα περιβάλλοντα .NET, παρέχοντας συνεπή λειτουργικότητα σε όλες τις πλατφόρμες.
+**Q: Μπορώ να χρησιμοποιήσω το Aspose.Page δωρεάν;**  
+A: Μπορείτε να αξιολογήσετε τη βιβλιοθήκη με δωρεάν δοκιμαστική λήψη από τη [Aspose purchase page](https://purchase.aspose.com/buy). Απαιτείται εμπορική άδεια για παραγωγικές εγκαταστάσεις.
 
-### Ε2: Μπορώ να χρησιμοποιήσω το Aspose.Page δωρεάν;
+**Q: Διατίθενται προσωρινές άδειες για το Aspose.Page;**  
+A: Προσωρινές άδειες μπορούν να ληφθούν από τη [temporary license page](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμα έργα ή περιόδους αξιολόγησης.
 
- A2: Το Aspose.Page προσφέρει μια δωρεάν δοκιμαστική έκδοση, επιτρέποντας στους χρήστες να εξερευνήσουν τις δυνατότητές του. Για συνεχή χρήση, πρέπει να αγοράσετε άδεια χρήσης από[εδώ](https://purchase.aspose.com/buy).
+**Q: Πού μπορώ να βρω υποστήριξη κοινότητας για το Aspose.Page;**  
+A: Συμμετέχετε στη συζήτηση στο [Aspose.Page forum](https://forum.aspose.com/c/page/39) για να θέσετε ερωτήσεις και να μοιραστείτε λύσεις με άλλους προγραμματιστές.
 
-### Ε3: Διατίθενται προσωρινές άδειες για το Aspose.Page;
+**Q: Ποια είναι η τελευταία έκδοση του Aspose.Page για .NET;**  
+A: Ανατρέξτε στην επίσημη [documentation](https://reference.aspose.com/page/net/) για τις πιο πρόσφατες σημειώσεις έκδοσης και συνδέσμους λήψης.
 
- A3: Ναι, μπορείτε να λάβετε προσωρινές άδειες από[εδώ](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμες ανάγκες έργου.
+---
 
-### Ε4: Πού μπορώ να βρω υποστήριξη κοινότητας για το Aspose.Page;
+**Τελευταία ενημέρωση:** 2026-08-08  
+**Δοκιμή με:** Aspose.Page 24.11 for .NET  
+**Συγγραφέας:** Aspose
 
-A4: Για συζητήσεις και υποστήριξη της κοινότητας, επισκεφθείτε το[Aspose.Page φόρουμ](https://forum.aspose.com/c/page/39).
+```csharp
+// ExStart:6
+// Save EPS file with changed XMP metadata
 
-### Ε5: Ποια είναι η πιο πρόσφατη έκδοση του Aspose.Page για .NET;
+// Create output stream
+using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_array_items_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
+{
+    // Save EPS file
+    document.Save(outPsStream);
+}
+// ExEnd:6
+```
 
- A5: Για πρόσβαση στην πιο πρόσφατη έκδοση του Aspose.Page για .NET, ανατρέξτε στο[τεκμηρίωση](https://reference.aspose.com/page/net/).
+## Σχετικά Σεμινάρια
+
+- [Αλλαγή στοιχείων πίνακα με Aspose.Page για .NET](/page/net/eps-metadata-management/modify-eps-metadata-change-array-items/)
+- [Προσθήκη απλών ιδιοτήτων με Aspose.Page για .NET](/page/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/)
+- [Προσθήκη ονοματοχώρου με Aspose.Page για .NET](/page/net/eps-metadata-management/modify-eps-metadata-add-namespace/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

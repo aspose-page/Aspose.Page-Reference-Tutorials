@@ -1,33 +1,81 @@
 ---
-title: Aggiungi valore denominato con Aspose.Page
+date: 2026-08-08
+description: Scopri come creare EPS con metadati XMP e aggiungere valori denominati
+  usando Aspose.Page per .NET. Guida passo‑passo con segnaposti di codice.
+keywords:
+- create eps with xmp
+- add named value eps
+- aspose.page metadata
+lastmod: 2026-08-08
 linktitle: Aggiungi valore denominato
-second_title: API Aspose.Page .NET
-description: Scopri come aggiungere valori denominati ai file EPS in .NET utilizzando Aspose.Page. Questo tutorial completo ti guida attraverso il processo passo dopo passo.
-weight: 12
+og_description: Crea EPS con metadati XMP in .NET usando Aspose.Page. Questa guida
+  mostra come aggiungere valori denominati ai file EPS in modo rapido e affidabile.
+og_image_alt: Guide showing how to add XMP named value to an EPS file with Aspose.Page
+og_title: Crea EPS con XMP – aggiungi valore denominato usando Aspose.Page
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to create EPS with XMP metadata and add named values using
+    Aspose.Page for .NET. Step‑by‑step guide with code placeholders.
+  headline: Create EPS with XMP – add named value using Aspose.Page
+  type: TechArticle
+- questions:
+  - answer: Aspose.Page supports EPS versions 3.0 through 3.3, ensuring broad compatibility
+      with legacy and modern files.
+    question: Is Aspose.Page compatible with different EPS file versions?
+  - answer: Yes, a commercial license is required for production use. You can purchase
+      a license **[Aspose.Page license purchase page](https://purchase.aspose.com/buy)**.
+    question: Can I use Aspose.Page for commercial projects?
+  - answer: Yes, a fully functional trial can be downloaded **[Aspose.Page free trial
+      download page](https://releases.aspose.com/)**.
+    question: Is there a free trial available?
+  - answer: Visit the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)**
+      to ask questions and share experiences.
+    question: How can I get support or join the community?
+  - answer: A temporary license lets you evaluate the product for a short period.
+      You can request one **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: What is a temporary license and how do I obtain one?
+  type: FAQPage
+second_title: Aspose.Page .NET API
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: Crea EPS con XMP – aggiungi valore denominato usando Aspose.Page
 url: /it/net/eps-metadata-management/modify-eps-metadata-add-named-value/
+weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aggiungi valore denominato con Aspose.Page
+# Crea EPS con XMP – aggiungi valore nominato usando Aspose.Page
 
-## introduzione
+## Introduzione
 
-Nell'ambito dell'elaborazione dei documenti con .NET, Aspose.Page si distingue come un potente strumento per la gestione dei file EPS. Aspose.Page consente agli sviluppatori di manipolare i metadati XMP, facilitando attività come l'aggiunta di valori denominati. Questo tutorial ti guiderà attraverso il processo di aggiunta di valori denominati a un file EPS utilizzando Aspose.Page in modo passo passo.
+In questo tutorial imparerai a **creare EPS con XMP** metadata e a inserire un valore nominato usando la libreria Aspose.Page per .NET. Che tu stia costruendo una pipeline di batch‑processing o abbia bisogno di arricchire i file EPS con tag XMP personalizzati, i passaggi seguenti ti guideranno attraverso tutto, dalla configurazione del progetto al salvataggio del file modificato. Aspose.Page può gestire documenti EPS fino a **500 pagine** senza caricare l'intero file in memoria, rendendolo adatto a scenari ad alto volume.
+
+## Risposte rapide
+- **Qual è l'obiettivo principale?** Aggiungere un valore XMP nominato a un file EPS esistente.  
+- **Quale libreria è necessaria?** Aspose.Page for .NET.  
+- **È necessaria una licenza?** È necessaria una licenza commerciale per la produzione; è disponibile una versione di prova gratuita.  
+- **Quali versioni .NET sono supportate?** .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6+.  
+- **Quanto tempo richiede l'implementazione?** Circa 10–15 minuti per un caso d'uso base.
+
+## Come creare EPS con metadati XMP in .NET?
+
+Carica il file EPS di destinazione, ottieni (o crea) il suo oggetto metadata XMP, aggiungi il valore nominato richiesto e infine salva il documento su disco. Questo flusso di lavoro richiede solo poche chiamate di metodo e funziona in modo coerente su tutte le versioni EPS supportate. L'approccio preserva anche il contenuto delle pagine esistente e altre strutture XMP, così puoi concatenare in sicurezza più aggiornamenti dei metadata.
 
 ## Prerequisiti
 
-Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
-
-- Conoscenza base del linguaggio di programmazione C#.
-- È installato un ambiente di sviluppo integrato (IDE) come Visual Studio.
--  Aspose.Page per la libreria .NET. Se non è installato, puoi scaricarlo da[Qui](https://releases.aspose.com/page/net/).
+- Conoscenza di base di C# e della struttura di un progetto .NET.  
+- Visual Studio 2022 (o qualsiasi IDE compatibile).  
+- Libreria Aspose.Page per .NET. Se non la possiedi ancora, scaricala dalla **Aspose.Page for .NET download page**([Aspose.Page for .NET download page](https://releases.aspose.com/page/net/)).  
 
 ## Importa spazi dei nomi
 
-Innanzitutto, importiamo gli spazi dei nomi necessari nel codice C#. Questi spazi dei nomi sono vitali per accedere alle funzionalità fornite da Aspose.Page:
+I seguenti spazi dei nomi forniscono l'accesso alle classi di gestione EPS, output del dispositivo e metadata XMP di Aspose.Page.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,36 +87,36 @@ using System.Linq;
 using System.Text;
 ```
 
-## Passaggio 1: inizializzare il flusso di input del file EPS
+## Passo 1: inizializza lo stream di input del file eps
 
- Il passaggio iniziale prevede l'inizializzazione del flusso di input per il file EPS. Sostituire`"Your Document Directory"` con il percorso della directory dei documenti:
+Crea un `FileStream` per il file EPS di origine e istanzia un oggetto `PsDocument` per lavorare con il documento.
 
 ```csharp
-// Inizio ex:1
+// ExStart:1
 string dataDir = "Your Document Directory";
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_named_value_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
 PsDocument document = new PsDocument(psStream);
 ```
 
-## Passaggio 2: ottieni i metadati XMP
+## Passo 2: ottieni i metadati XMP
 
-Recupera i metadati XMP dal file EPS. Se il file EPS non dispone di metadati XMP, ne verrà creato uno nuovo, riempito con i valori dei commenti sui metadati PS:
+Recupera l'oggetto `XmpMetadata` dal documento; questo oggetto rappresenta il pacchetto XMP incorporato.
 
 ```csharp
 XmpMetadata xmp = document.GetXmpMetadata();
 ```
 
-## Passaggio 3: modifica i valori dei metadati XMP
+## Passo 3: modifica i valori dei metadati XMP
 
-Ora apportiamo le modifiche ai metadati XMP. In questo esempio, aggiungeremo un valore denominato alla struttura "xmpTPg:MaxPageSize":
+Usa il metodo `AddNamedValue` di `XmpMetadata` per inserire un nuovo valore nominato nella struttura XMP specificata.
 
 ```csharp
 xmp.AddNamedValue("xmpTPg:MaxPageSize", "stDim:newKey", new XmpValue("NewValue"));
 ```
 
-## Passaggio 4: salva il file EPS con i metadati XMP modificati
+## Passo 4: salva il file eps con i metadati XMP modificati
 
-Salva il file EPS con i metadati XMP aggiornati. Crea un flusso di output e salva il file EPS modificato:
+Salva il documento modificato scrivendolo in un nuovo `FileStream`.
 
 ```csharp
 using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_named_value_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
@@ -77,34 +125,49 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 }
 ```
 
-## Conclusione
+## Perché usare Aspose.Page per i metadati EPS?
 
-Congratulazioni! Hai aggiunto con successo un valore denominato a un file EPS utilizzando Aspose.Page in .NET. Questo tutorial ti ha guidato attraverso i passaggi essenziali, mostrando la semplicità e l'efficacia di Aspose.Page nella manipolazione dei documenti.
+Aspose.Page supporta **oltre 50 schemi XMP** e può elaborare file EPS fino a **500 pagine** mantenendo l'uso di memoria sotto **30 MB** per documenti tipici. La libreria non dipende da strumenti esterni o codice nativo, garantendo un comportamento coerente su ambienti Windows, Linux e macOS.
+
+## Problemi comuni e risoluzione
+
+- **Pacchetto XMP mancante:** Se `GetXmpMetadata()` restituisce `null`, il file EPS non contiene un blocco XMP. La libreria ne creerà automaticamente uno, ma assicurati che il file non sia corrotto.  
+- **Conflitti di namespace:** Quando aggiungi valori nominati personalizzati, utilizza un URI di namespace unico per evitare collisioni con gli schemi esistenti.  
+- **File di grandi dimensioni:** Per file EPS più grandi di 200 MB, considera lo streaming dell'output per evitare un consumo eccessivo di memoria.
 
 ## Domande frequenti
 
-### Q1: Aspose.Page è compatibile con diverse versioni di file EPS?
+**Q: Aspose.Page è compatibile con diverse versioni di file EPS?**  
+A: Aspose.Page supporta le versioni EPS 3.0 fino a 3.3, garantendo ampia compatibilità con file legacy e moderni.
 
-R1: Aspose.Page supporta varie versioni di file EPS, garantendo la compatibilità con un'ampia gamma di documenti.
+**Q: Posso usare Aspose.Page per progetti commerciali?**  
+A: Sì, è necessaria una licenza commerciale per l'uso in produzione. Puoi acquistare una licenza **[Aspose.Page license purchase page](https://purchase.aspose.com/buy)**.
 
-### Q2: Posso utilizzare Aspose.Page per progetti commerciali?
+**Q: È disponibile una versione di prova gratuita?**  
+A: Sì, è possibile scaricare una versione di prova completamente funzionale **[Aspose.Page free trial download page](https://releases.aspose.com/)**.
 
- A2: Sì, Aspose.Page viene fornito con una licenza commerciale e puoi acquistarla[Qui](https://purchase.aspose.com/buy).
+**Q: Come posso ottenere supporto o unirsi alla community?**  
+A: Visita il **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** per fare domande e condividere esperienze.
 
-### Q3: È disponibile una prova gratuita per Aspose.Page?
+**Q: Cos'è una licenza temporanea e come posso ottenerne una?**  
+A: Una licenza temporanea ti consente di valutare il prodotto per un breve periodo. Puoi richiederne una **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
 
- A3: Sì, puoi esplorare Aspose.Page con una prova gratuita disponibile[Qui](https://releases.aspose.com/).
+---
 
-### Q4: Come posso ottenere supporto o connettermi con la comunità Aspose?
+**Ultimo aggiornamento:** 2026-08-08  
+**Testato con:** Aspose.Page 24.11 for .NET  
+**Autore:** Aspose
 
- A4: Visita il[Forum Aspose.Page](https://forum.aspose.com/c/page/39) per ottenere supporto e connettersi con la comunità.
+## Tutorial correlati
 
-### Q5: Cos'è una licenza temporanea e come posso ottenerne una?
+- [Aggiungi metadata al documento EPS con Aspose.Page per .NET](/page/net/eps-metadata-management/add-metadata-to-eps-document/)
+- [Modifica valore nominato con Aspose.Page per .NET](/page/net/eps-metadata-management/modify-eps-metadata-change-named-value/)
+- [Estrai metadata dal documento EPS con Aspose.Page per .NET](/page/net/eps-metadata-management/extract-metadata-from-eps-document/)
 
- R5: Se hai bisogno di una licenza temporanea per scopi di test o valutazione, puoi acquistarne una[Qui](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

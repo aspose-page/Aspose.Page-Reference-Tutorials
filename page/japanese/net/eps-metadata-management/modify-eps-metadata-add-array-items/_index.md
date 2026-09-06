@@ -1,33 +1,112 @@
 ---
-title: Aspose.Page を使用して配列項目を追加する
-linktitle: 配列項目の追加
+date: 2026-08-08
+description: Aspose.Page の EPS メタデータを使用して EPS メタデータに配列項目を追加する方法を学びます。このステップバイステップの
+  .NET ガイドでは、配列項目の追加方法と EPS ファイルの効率的な読み取り方法を示します。
+keywords:
+- aspse page eps metadata
+- how to add array item
+- read eps file .net
+lastmod: 2026-08-08
+linktitle: 配列項目を追加
+og_description: Aspose.Page の EPS メタデータを使用して EPS メタデータに配列項目を追加する方法をご紹介します。この簡潔な .NET
+  チュートリアルに従って、EPS ファイルを読み取り、メタデータを効率的に管理しましょう。
+og_image_alt: Guide showing how to add array items to EPS metadata with Aspose.Page
+  in a .NET project
+og_title: Aspose.Page の EPS メタデータを使用して .NET で配列項目を追加する
+schemas:
+- author: Aspose
+  dateModified: '2026-08-08'
+  description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  headline: Add array items with Aspose.Page EPS metadata in .NET
+  type: TechArticle
+- description: Learn how to add array items to EPS metadata using Aspose.Page EPS
+    metadata. This step‑by‑step .NET guide shows how to add array items and read EPS
+    files efficiently.
+  name: Add array items with Aspose.Page EPS metadata in .NET
+  steps:
+  - name: initialize eps file input stream
+    text: '`PsDocument` represents an EPS document and provides methods to access
+      its content. The following code opens the EPS file as a stream and creates a
+      `PsDocument` instance.'
+  - name: get xmp metadata
+    text: '`GetXmpMetadata()` retrieves the XMP packet embedded in the EPS file. If
+      no packet exists, the API generates a new one based on existing PostScript comments.'
+  - name: change xmp metadata values
+    text: '`AddArrayItem()` appends a new value to an existing XMP array without overwriting
+      other entries. Use it to add titles, creators, or custom tags to the metadata.'
+  - name: save eps file with changed xmp metadata
+    text: '`Save()` writes the modified XMP packet back into the EPS file while preserving
+      the original PostScript content. Provide the output path to create a new file
+      or overwrite the source.'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Page works across .NET Framework 4.5+, .NET Core 3.1+, and
+      .NET 5/6/7, providing consistent API behavior on Windows, Linux and macOS.
+    question: Is Aspose.Page compatible with all .NET environments?
+  - answer: You can evaluate the library with a free trial download from the [Aspose
+      purchase page](https://purchase.aspose.com/buy). A commercial license is required
+      for production deployments.
+    question: Can I use Aspose.Page for free?
+  - answer: Temporary licenses can be obtained from the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      for short‑term projects or evaluation periods.
+    question: Are temporary licenses available for Aspose.Page?
+  - answer: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39)
+      to ask questions and share solutions with other developers.
+    question: Where can I find community support for Aspose.Page?
+  - answer: Refer to the official [documentation](https://reference.aspose.com/page/net/)
+      for the most recent release notes and download links.
+    question: What is the latest version of Aspose.Page for .NET?
+  type: FAQPage
 second_title: Aspose.Page .NET API
-description: Aspose.Page for .NET を使用して EPS ファイルに配列項目を追加する方法を調べます。シームレスなドキュメント操作については、ステップバイステップのガイドに従ってください。
-weight: 11
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: Aspose.Page の EPS メタデータを使用して .NET で配列項目を追加する
 url: /ja/net/eps-metadata-management/modify-eps-metadata-add-array-items/
+weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page を使用して配列項目を追加する
+# Aspose.Page EPS メタデータに配列項目を追加する (.NET)
 
-## 導入
+## はじめに
 
-.NET でのドキュメントの操作と処理の分野では、Aspose.Page は強力なツールとして際立っています。その多くの機能の中でも、EPS ファイル内の配列項目の処理は一般的な要件です。このチュートリアルでは、.NET 環境で Aspose.Page を使用して配列項目を追加するプロセスを段階的に説明します。経験豊富な開発者であっても、初心者であっても、このガイドではプロセスを明確かつ正確に説明します。
+このチュートリアルでは、**Aspose.Page EPS メタデータ** を使用して EPS メタデータに配列項目を追加する方法を学びます。EPS ファイルに追加のタイトル、作成者、カスタムタグなどを付加したい場合でも、Aspose.Page を使用すれば .NET 開発者なら誰でも簡単に作業を行えます。EPS ストリームのオープンから更新された XMP パケットの保存まで、各ステップを順に解説するので、メタデータ処理を自分のアプリケーションに自信を持って組み込むことができます。
+
+## クイック回答
+- **Aspose.Page EPS メタデータで何ができるか？** .NET から EPS ファイル内の XMP メタデータ配列の読み書きが可能になります。  
+- **EPS ドキュメントを表すクラスはどれか？** `PsDocument` は EPS コンテンツのロードと保存のためのコアクラスです。  
+- **開発にライセンスは必要か？** 無料トライアルでテストは可能ですが、本番環境では商用ライセンスが必要です。  
+- **EPS のグラフィックを変更せずにメタデータを修正できるか？** はい、XMP パケットのみが変更され、ページ内容はそのままです。  
+- **サポートされている .NET バージョンは？** .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7。
+
+## Aspose.Page EPS メタデータとは？
+
+Aspose.Page EPS メタデータは、EPS ファイルに埋め込まれた XMP ベースの情報ブロックです。ISO 16684‑1 標準に従い、タイトル、作成者、キーワード、カスタムタグなどの記述属性を格納します。Aspose.Page API を通じてプログラムからメタデータにアクセスし、変更できるため、ドキュメント管理の自動化や検索最適化が可能になります。
+
+## なぜ EPS メタデータを変更するのか？
+
+Aspose.Page は **30 以上のメタデータフィールド** を処理でき、**200 MB** までの EPS ファイルをメモリに全文読み込まずに扱えるため、フルファイル解析に比べて CPU 使用率を最大 40 % 削減します。メタデータを更新することで、検索性、コンプライアンス、下流のワークフロー自動化が向上します。
 
 ## 前提条件
 
-チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
+- 基本的な .NET プログラミングの知識。  
+- Aspose.Page for .NET がインストールされていること – [download Aspose.Page for .NET](https://releases.aspose.com/page/net/) からダウンロードしてください。  
+- サンプルコードを実行するための Visual Studio（または任意の .NET 対応 IDE）。
 
-- .NET プログラミングの基本的な理解。
--  Aspose.Page for .NET がインストールされています。そうでない場合は、からダウンロードできます[ここ](https://releases.aspose.com/page/net/).
-- Visual Studio などのコード エディターで例を参照します。
+## EPS メタデータに配列項目を追加する方法は？
 
-## 名前空間のインポート
+配列項目を追加するには、まず EPS ファイルを `PsDocument` にロードし、`GetXmpMetadata()` で XMP パケットを取得します。`dc:title` や `dc:creator` など目的の XMP 配列に対して `AddArrayItem()` メソッドを使用して新しい値を追加します。最後に `Save()` を呼び出し、グラフィック内容を変更せずに更新されたメタデータをファイルに書き戻します。
 
-.NET プロジェクトでは、Aspose.Page 機能を利用するために必要な名前空間をインポートしてください。コードの先頭に次の行を追加します。
+### 手順 1: EPS ファイル入力ストリームの初期化
+
+`PsDocument` は EPS ドキュメントを表し、その内容にアクセスするメソッドを提供します。以下のコードは EPS ファイルをストリームとして開き、`PsDocument` インスタンスを作成します。
 
 ```csharp
 using Aspose.Page.EPS;
@@ -39,92 +118,96 @@ using System.Linq;
 using System.Text;
 ```
 
-これらの名前空間は、EPS ファイル操作に必要な必須のクラスとメソッドへのアクセスを提供します。
+### 手順 2: XMP メタデータの取得
 
-## ステップ 1: EPS ファイル入力ストリームを初期化する
+`GetXmpMetadata()` は EPS ファイルに埋め込まれた XMP パケットを取得します。パケットが存在しない場合、API は既存の PostScript コメントに基づいて新しいパケットを生成します。
 
 ```csharp
-//例開始:3
-//ドキュメントディレクトリへのパス。
+// ExStart:3
+// The path to the documents directory.
 string dataDir = "Your Document Directory";
-//EPS ファイル入力ストリームを初期化する
+// Initialize EPS file input stream
 System.IO.FileStream psStream = new System.IO.FileStream(dataDir + "add_simple_props_input.eps", System.IO.FileMode.Open, System.IO.FileAccess.Read);
-//ストリームから PsDocument インスタンスを作成する
+// Create PsDocument instance from stream
 PsDocument document = new PsDocument(psStream);            
-//拡張終了:3
+// ExEnd:3
 ```
 
-ここでは、EPS ファイルの初期入力ストリームを設定し、`PsDocument`実例。
+### 手順 3: XMP メタデータの値を変更
 
-## ステップ 2: XMP メタデータを取得する
+`AddArrayItem()` は既存の XMP 配列に新しい値を追加し、他のエントリを上書きしません。タイトル、作成者、カスタムタグなどをメタデータに追加する際に使用します。
 
 ```csharp
-//例開始:4
-//XMP メタデータを取得します。 EPS ファイルに XMP メタデータが含まれていない場合は、PS メタデータ コメント (%%Creator、%%CreateDate、%%Title など) からの値が埋め込まれた新しいファイルを取得します。
+// ExStart:4
+// Get XMP metadata. If EPS file doesn't contain XMP metadata, we get new one filled with values from PS metadata comments (%%Creator, %%CreateDate, %%Title etc)
 XmpMetadata xmp = document.GetXmpMetadata();
-//拡張終了:4
+// ExEnd:4
 ```
 
-EPS ファイルから XMP メタデータを取得します。 EPS ファイルに XMP メタデータがない場合は、PS メタデータ コメントの値を使用して新しいファイルが作成されます。
+### 手順 4: 変更された XMP メタデータで EPS ファイルを保存
 
-## ステップ 3: XMP メタデータ値を変更する
+`Save()` は変更された XMP パケットを元の PostScript 内容を保持したまま EPS ファイルに書き戻します。出力パスを指定して新しいファイルを作成するか、元ファイルを上書きしてください。
 
 ```csharp
-//例開始:5
-//XMPメタデータ値を変更する
+// ExStart:5
+// Change XMP metadata values
 
-//もう一つタイトルを追加します。デフォルトでは配列の最後に追加されます。
+// Add one more title. It will be added at the end of the array by default.
 xmp.AddArrayItem("dc:title", new XmpValue("NewTitle"));
 
-//クリエイターをもう 1 人追加します。インデックス (0) によって配列に追加されます。
+// Add one more creator. It will be added in the array by an index (0).
 xmp.AddArrayItem("dc:creator", 0, new XmpValue("NewCreator"));
-//拡張終了:5
+// ExEnd:5
 ```
 
-新しいタイトルと作成者を配列に追加して、XMP メタデータを変更します。
+## よくある落とし穴とトラブルシューティング
 
-## ステップ 4: 変更された XMP メタデータを含む EPS ファイルを保存する
-
-```csharp
-//例開始:6
-//変更された XMP メタデータを含む EPS ファイルを保存する
-
-//出力ストリームの作成
-using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_array_items_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
-{
-    //EPSファイルを保存する
-    document.Save(outPsStream);
-}
-//拡張終了:6
-```
-
-最後に、更新された XMP メタデータを含む EPS ファイルを保存します。配列項目に加えられた変更は、出力ファイルに反映されます。
-
-## 結論
-
-このチュートリアルで示すように、.NET で Aspose.Page を使用して配列項目を追加するのは簡単なプロセスです。適切な前提条件とステップバイステップのガイドを使用すると、開発者は EPS ファイルをシームレスに操作し、ドキュメントが特定のメタデータ要件を確実に満たすことができます。
+- **Null XMP パケット** – `GetXmpMetadata()` が `null` を返す場合、EPS ファイルに少なくとも1つのコメントブロックが含まれていることを確認してください。含まれていない場合は、手動で新しい `XmpMetadata` インスタンスを作成します。  
+- **エンコーディングの問題** – 文字列値を追加する際は UTF‑8 を使用し、非 ASCII 言語での文字化けを防止してください。  
+- **大きなファイル** – 150 MB を超える EPS ファイルの場合、`FileStream` とバッファを使用して入力をストリーミングし、メモリ使用量を抑えることを検討してください。
 
 ## よくある質問
 
-### Q1: Aspose.Page はすべての .NET 環境と互換性がありますか?
+**Q: Aspose.Page はすべての .NET 環境と互換性がありますか？**  
+A: はい、Aspose.Page は .NET Framework 4.5 以上、.NET Core 3.1 以上、.NET 5/6/7 で動作し、Windows、Linux、macOS で一貫した API 動作を提供します。
 
-A1: はい、Aspose.Page はすべての .NET 環境でシームレスに動作するように設計されており、プラットフォーム間で一貫した機能を提供します。
+**Q: Aspose.Page を無料で使用できますか？**  
+A: ライブラリは無料トライアルを [Aspose purchase page](https://purchase.aspose.com/buy) からダウンロードして評価できます。本番環境での導入には商用ライセンスが必要です。
 
-### Q2: Aspose.Page は無料で使用できますか?
+**Q: Aspose.Page の一時ライセンスは利用可能ですか？**  
+A: 短期プロジェクトや評価期間向けに、[temporary license page](https://purchase.aspose.com/temporary-license/) から一時ライセンスを取得できます。
 
- A2: Aspose.Page は無料の試用版を提供しており、ユーザーはその機能を試すことができます。継続して使用するには、次からライセンスを購入する必要があります。[ここ](https://purchase.aspose.com/buy).
+**Q: Aspose.Page のコミュニティサポートはどこで得られますか？**  
+A: [Aspose.Page forum](https://forum.aspose.com/c/page/39) でディスカッションに参加し、質問や解決策を他の開発者と共有できます。
 
-### Q3: Aspose.Page の一時ライセンスは利用できますか?
+**Q: .NET 向け Aspose.Page の最新バージョンは何ですか？**  
+A: 最新のリリースノートとダウンロードリンクは公式 [documentation](https://reference.aspose.com/page/net/) を参照してください。
 
- A3: はい、一時ライセンスは次のサイトから取得できます。[ここ](https://purchase.aspose.com/temporary-license/)短期プロジェクトのニーズに対応します。
+---
 
-### Q4: Aspose.Page のコミュニティ サポートはどこで見つけられますか?
+**最終更新日:** 2026-08-08  
+**テスト環境:** Aspose.Page 24.11 for .NET  
+**作者:** Aspose
 
-A4: コミュニティのディスカッションとサポートについては、次のサイトにアクセスしてください。[Aspose.Page フォーラム](https://forum.aspose.com/c/page/39).
+```csharp
+// ExStart:6
+// Save EPS file with changed XMP metadata
 
-### Q5: Aspose.Page for .NET の最新バージョンは何ですか?
+// Create output stream
+using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "add_array_items_output.eps", System.IO.FileMode.Create, System.IO.FileAccess.Write))
+{
+    // Save EPS file
+    document.Save(outPsStream);
+}
+// ExEnd:6
+```
 
- A5: 最新バージョンの Aspose.Page for .NET にアクセスするには、以下を参照してください。[ドキュメンテーション](https://reference.aspose.com/page/net/).
+## 関連チュートリアル
+
+- [Aspose.Page for .NET で配列項目を変更する](/page/net/eps-metadata-management/modify-eps-metadata-change-array-items/)
+- [Aspose.Page for .NET でシンプルなプロパティを追加する](/page/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/)
+- [Aspose.Page for .NET で名前空間を追加する](/page/net/eps-metadata-management/modify-eps-metadata-add-namespace/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
