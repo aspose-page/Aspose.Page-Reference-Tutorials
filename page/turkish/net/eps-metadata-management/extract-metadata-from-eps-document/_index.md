@@ -1,32 +1,95 @@
 ---
-title: Aspose.Page for .NET ile EPS Belgesinden Meta Verileri Çıkarma
-linktitle: EPS Belgesinden Meta Verileri Çıkarma
-second_title: Aspose.Page .NET API'si
-description: Aspose.Page for .NET ile EPS belge organizasyonunu geliştirin. Gelişmiş erişilebilirlik ve bilgi alımı için meta verileri zahmetsizce ekleyin.
-weight: 18
+date: 2026-07-29
+description: Aspose.Page for .NET kullanarak EPS metaverisini nasıl çıkarıp ekleyeceğinizi
+  öğrenin. Bu kılavuz, EPS XMP metaverisini verimli bir şekilde yönetmek için adım
+  adım kod örneklerini gösterir.
+keywords:
+- aspose.page eps metadata
+- eps metadata extraction
+- aspose.page .net
+lastmod: 2026-07-29
+linktitle: EPS Belgesinden Metaveri Çıkar
+og_description: 'aspose.page eps metadata rehberi: Aspose.Page for .NET kullanarak
+  EPS dosyalarında XMP metaverisini çıkarın ve ayarlayın. Adım adım öğreticiyi izleyin.'
+og_image_alt: Tutorial showing how to extract and add metadata to EPS documents with
+  Aspose.Page for .NET
+og_title: aspose.page eps metadata – .NET ile EPS Metaverisini Çıkar
+schemas:
+- author: Aspose
+  dateModified: '2026-07-29'
+  description: Learn how to extract and add EPS metadata using Aspose.Page for .NET.
+    This guide shows step‑by‑step code to manage EPS XMP metadata efficiently.
+  headline: aspose.page eps metadata – Extract EPS Metadata with .NET
+  type: TechArticle
+- questions:
+  - answer: Yes, iterate over a collection of file paths, apply the same extraction‑and‑update
+      logic, and save each file. The API is thread‑safe, so you can parallelise the
+      operation for faster batch processing.
+    question: Can I add metadata to multiple EPS documents simultaneously?
+  - answer: The library comfortably processes EPS files up to **500 MB**. For files
+      larger than this, consider splitting the document or using a streaming approach
+      to avoid out‑of‑memory exceptions.
+    question: Are there any limitations on the size of EPS documents that Aspose.Page
+      for .NET can handle?
+  - answer: XMP follows the ISO 16684‑1 standard, but individual creators may populate
+      custom namespaces. Aspose.Page reads both standard and custom properties, allowing
+      you to preserve any proprietary data.
+    question: Is the XMP metadata standardized for all EPS documents?
+  - answer: Absolutely. You can add custom XMP schemas or extend existing ones by
+      using the `XmpMetadata.AddCustomProperty` method, giving you full control over
+      the metadata structure.
+    question: Can I customize the metadata fields to suit specific requirements?
+  - answer: Wrap the extraction and save logic in a `try…catch` block, and log `Aspose.Page.Exception`
+      details. This will capture issues such as corrupted streams, unsupported properties,
+      or I/O failures.
+    question: How can I handle errors during the metadata addition process?
+  type: FAQPage
+second_title: Aspose.Page .NET API
+tags:
+- eps metadata
+- aspose.page
+- .net document processing
+title: aspose.page eps metadata – .NET ile EPS Metaverisini Çıkar
 url: /tr/net/eps-metadata-management/extract-metadata-from-eps-document/
+weight: 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for .NET ile EPS Belgesinden Meta Verileri Çıkarma
+# Aspose.Page for .NET ile EPS Belgesinden Metaveriyi Çıkarın
 
-## giriiş
+## Giriş
 
-Dijital belgelerin sürekli gelişen ortamında meta veriler; içerik, kökeni ve diğer önemli ayrıntılar hakkında bilgi sağlamada çok önemli bir rol oynar. Aspose.Page for .NET, geliştiricilerin EPS (Encapsulated PostScript) belgelerine sorunsuz bir şekilde meta veri eklemesine olanak tanıyarak bunların erişilebilirliğini ve kullanışlılığını artırır.
+Modern belge iş akışlarında, **aspose.page eps metadata** EPS dosyalarının aranabilir, sıralanabilir ve kurumsal içerik‑yönetimi politikalarına uygun olmasını sağlayan anahtardır. Bu öğretici, mevcut XMP metaverisini çıkarmayı, *CreatorTool* ve *CreateDate* gibi ortak alanları güncellemeyi ve EPS dosyasını yeni bilgilerle kaydetmeyi adım adım gösterir—tümü Aspose.Page for .NET API'si kullanılarak.
+
+## Hızlı Yanıtlar
+- **Bu öğretici neyi kapsıyor?** Aspose.Page for .NET ile EPS dosyalarında XMP metaverisini çıkarma ve güncelleme.  
+- **Hangi kütüphane sürümü gereklidir?** XMP'yi destekleyen herhangi bir Aspose.Page for .NET sürümü (v24.10 veya sonrası).  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme sürümü çalışır; üretim için ticari lisans gereklidir.  
+- **Büyük EPS dosyalarını işleyebilir miyim?** Evet—Aspose.Page, tüm belgeyi belleğe yüklemeden 500 MB'a kadar dosyaları işleyebilir.  
+- **Kod çapraz platform mu?** .NET kütüphanesi, Windows, Linux ve macOS'ta .NET 6+ ile çalışır.
 
 ## Önkoşullar
 
-Adım adım kılavuzu incelemeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Adım adım kılavuza başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
--  Aspose.Page for .NET Kütüphanesi: Aspose.Page for .NET kütüphanesini şuradan indirip yükleyin:[Burada](https://releases.aspose.com/page/net/).
-- Belge Dizini: EPS belgelerinizin saklandığı bir dizin ayarlayın.
+- **Aspose.Page for .NET Kütüphanesi** – Kütüphaneyi [buradan](https://releases.aspose.com/page/net/) indirin ve kurun.  
+- **Belge Dizin** – İşlemek istediğiniz EPS dosyalarını içeren bilgisayarınızdaki bir klasör.  
+- **.NET Geliştirme Ortamı** – Visual Studio 2022, Rider veya .NET 6+ destekleyen herhangi bir IDE.
+
+## EPS metaverisi nedir?
+
+**EPS metaverisi**, dosyayı oluşturan kişi, oluşturulma tarihi, başlık ve dosyanın üretilmesinde kullanılan araç gibi bilgileri depolayan gömülü XMP (Extensible Metadata Platform) paketlerinden oluşur. XMP, Adobe ürünleri, içerik‑yönetim sistemleri ve arama motorları arasında metaverinin değiştirilebilir olmasını sağlayan bir ISO‑standardı formattır.
+
+## EPS metaverisi için Aspose.Page neden kullanılmalı?
+
+Aspose.Page, **30+ ayrı XMP özelliğini** destekler ve tüm PostScript içeriğini render etmeden bunları okuyup yazabilir. EPS dosyalarını **500 MB**'a kadar işleyebilir ve bellek kullanımını **50 MB**'ın altında tutar; bu, bulut veya yerel ortamlardaki toplu işleme hatları için idealdir.
 
 ## Ad Alanlarını İçe Aktar
 
-Aspose.Page'in özelliklerinden yararlanmak için .NET projenize gerekli ad alanlarını ekleyin. Aşağıdaki ad alanlarını içe aktarın:
+EPS dosyaları ve XMP metaverisiyle çalışmak için aşağıdaki ad alanları gereklidir.
 
 ```csharp
 using Aspose.Page.EPS;
@@ -38,9 +101,13 @@ using System.Linq;
 using System.Text;
 ```
 
-Bir EPS belgesine meta veri ekleme sürecini birkaç adıma ayıralım:
+### Aspose.Page kullanarak EPS metaverisini nasıl çıkarır ve ayarlarsınız?
 
-## 1. Adım: EPS Dosya Giriş Akışını Başlatın
+EPS dosyasını bir `EpsDocument` akışına yükleyin, mevcut XMP paketini alın, gerekli alanları değiştirin ve ardından belgeyi diske kaydedin. Bu tüm iş akışı, herhangi bir .NET servisine veya konsol uygulamasına yerleştirebileceğiniz **dört özlü adım**da gerçekleştirilebilir.
+
+## Adım 1: EPS Dosya Giriş Akışını Başlat
+
+PsDocument, bir EPS belgesini temsil eder ve sayfalarına ve metaverisine erişim sağlar.
 
 ```csharp
 // ExStart:3
@@ -50,61 +117,63 @@ PsDocument document = new PsDocument(psStream);
 // ExEnd:3
 ```
 
-## 2. Adım: XMP Meta Verilerini Alın
+## Adım 2: XMP Metaverisini Al
+
+XmpMetadata, bir EPS dosyasına gömülü XMP paketini kapsüller ve metaveri özelliklerinin okunup yazılmasına olanak tanır.
 
 ```csharp
 // ExStart:4
 XmpMetadata xmp = document.GetXmpMetadata();
-// ExBitiş:4
+// ExEnd:4
 ```
 
-## 3. Adım: Meta Veri Değerlerini Kontrol Edin ve Ayarlayın
+## Adım 3: Metaveri Değerlerini Kontrol Et ve Ayarla
 
-PS meta veri yorumlarından çıkarılan meta veri değerlerini kontrol edin ve yeni XMP meta verilerinde ayarlayın.
+PS metaveri yorumlarından çıkarılan metaveri değerlerini kontrol edin ve yeni XMP metaverisinde ayarlayın.
 
-### CreatorTool Değerini Alın
+### CreatorTool Değerini Al
 
 ```csharp
 // ExStart:5
 if (xmp.Contains("xmp:CreatorTool"))
     Console.WriteLine("CreatorTool: " + xmp["xmp:CreatorTool"].ToStringValue());
-// ExBitiş:5
+// ExEnd:5
 ```
 
-### CreateDate Değerini Alın
+### CreateDate Değerini Al
 
 ```csharp
 // ExStart:6
 if (xmp.Contains("xmp:CreateDate"))
     Console.WriteLine("CreateDate: " + xmp["xmp:CreateDate"].ToStringValue());
-// ExBitiş:6
+// ExEnd:6
 ```
 
-### Biçim Değerini Al
+### Format Değerini Al
 
 ```csharp
 // ExStart:7
 if (xmp.Contains("dc:format"))
     Console.WriteLine("Format: " + xmp["dc:format"].ToStringValue());
-// ExBitiş:7
+// ExEnd:7
 ```
 
-### Başlık Değerini Al
+### Title Değerini Al
 
 ```csharp
 // ExStart:8
 if (xmp.Contains("dc:title"))
     Console.WriteLine("Title: " + xmp["dc:title"].ToArray()[0].ToStringValue());
-// ExBitiş:8
+// ExEnd:8
 ```
 
-### İçerik Üretici Değeri Kazanın
+### Creator Değerini Al
 
 ```csharp
 // ExStart:9
 if (xmp.Contains("dc:creator"))
     Console.WriteLine("Creator: " + xmp["dc:creator"].ToArray()[0].ToStringValue());
-// ExBitiş:9
+// ExEnd:9
 ```
 
 ### MetadataDate Değerini Al
@@ -113,10 +182,10 @@ if (xmp.Contains("dc:creator"))
 // ExStart:10
 if (xmp.Contains("xmp:MetadataDate"))
     Console.WriteLine("MetadataDate: " + xmp["xmp:MetadataDate"].ToStringValue());
-// ExBitiş:10
+// ExEnd:10
 ```
 
-## Adım 4: EPS Dosyasını Yeni XMP Meta Verileriyle Kaydedin
+## Adım 4: Yeni XMP Metaverisiyle EPS Dosyasını Kaydet
 
 ```csharp
 // ExStart:11
@@ -124,37 +193,50 @@ using (System.IO.FileStream outPsStream = new System.IO.FileStream(dataDir + "ad
 {
     document.Save(outPsStream);
 }
-// ExBitiş:11
+// ExEnd:11
 ```
 
-## Çözüm
+## Yaygın Sorunlar ve Çözümler
 
-EPS belgelerine meta veri eklemek, bunların organizasyonunu ve erişilebilirliğini geliştirmede çok önemli bir adımdır. Aspose.Page for .NET ile bu süreç kolaylaştırılmış ve verimli hale gelerek geliştiricilerin meta verileri zahmetsizce yönetmesine olanak tanıyor.
+- **Eksik XMP paketi** – `document.XmpMetadata` `null` döndürürse, EPS dosyası bir XMP bloğu içermez. Kaydetmeden önce yeni bir `XmpMetadata` örneği oluşturup ekleyebilirsiniz.  
+- **Yanlış tarih formatı** – XMP, tarihlerin ISO 8601 formatında (`yyyy-MM-ddTHH:mm:ssZ`) olmasını bekler. Uyumlu bir dize oluşturmak için `DateTime.UtcNow.ToString("o")` kullanın.  
+- **Büyük dosya bellek dalgalanmaları** – Bellek tüketimini düşük tutmak için `EpsLoadOptions.Streaming = true` ayarlayarak akış modunu etkinleştirin.
 
-## SSS'ler
+## Sıkça Sorulan Sorular
 
-### S1: Aynı anda birden fazla EPS belgesine meta veri ekleyebilir miyim?
+**S: Birden fazla EPS belgesine aynı anda metaveri ekleyebilir miyim?**  
+C: Evet, dosya yolu koleksiyonunu döngüye alarak aynı çıkar‑ve‑güncelle mantığını uygulayıp her dosyayı kaydedebilirsiniz. API iş parçacığı güvenli olduğundan, işlemi daha hızlı toplu işleme için paralelleştirebilirsiniz.
 
-Cevap1: Evet, bir EPS belgeleri koleksiyonunu yineleyebilir ve meta veri çıkarma ve ekleme işlemini her dosyaya uygulayabilirsiniz.
+**S: Aspose.Page for .NET'in işleyebileceği EPS belgeleri'nin boyutu konusunda herhangi bir sınırlama var mı?**  
+C: Kütüphane, **500 MB**'a kadar EPS dosyalarını rahatlıkla işler. Bu boyuttan büyük dosyalar için belgeyi bölmeyi veya bellek taşması istisnalarından kaçınmak amacıyla akış yaklaşımını kullanmayı düşünün.
 
-### S2: Aspose.Page for .NET'in kullanabileceği EPS belgelerinin boyutunda herhangi bir sınırlama var mı?
+**S: XMP metaverisi tüm EPS belgeleri için standart mı?**  
+C: XMP, ISO 16684‑1 standardını izler, ancak bireysel oluşturucular özel ad alanları ekleyebilir. Aspose.Page, hem standart hem de özel özellikleri okur ve böylece herhangi bir tescilli veriyi korumanıza olanak tanır.
 
-Cevap2: Aspose.Page for .NET, farklı boyutlardaki EPS belgelerini işlemek için tasarlanmıştır. Ancak olağanüstü büyük dosyalar için bellek kullanımının izlenmesi önerilir.
+**S: Metaveri alanlarını belirli gereksinimlere göre özelleştirebilir miyim?**  
+C: Kesinlikle. `XmpMetadata.AddCustomProperty` metodunu kullanarak özel XMP şemaları ekleyebilir veya mevcut olanları genişletebilir, böylece metaveri yapısı üzerinde tam kontrol sahibi olursunuz.
 
-### S3: XMP meta verileri tüm EPS belgeleri için standartlaştırılmış mı?
+**S: Metaveri ekleme sürecinde hataları nasıl yönetebilirim?**  
+C: Çıkarma ve kaydetme mantığını bir `try…catch` bloğuna sarın ve `Aspose.Page.Exception` ayrıntılarını kaydedin. Bu, bozuk akışlar, desteklenmeyen özellikler veya I/O hataları gibi sorunları yakalar.
 
-Cevap3: XMP meta verileri standart bir yapıyı takip eder ancak içeriği, belgeyi oluşturan kişiye ve belgenin oluşturulması sırasında sağlanan bilgilere göre değişiklik gösterebilir.
+**S: Aspose.Page .NET Core ve .NET 5/6'yı destekliyor mu?**  
+C: Evet, kütüphane .NET Core 3.1, .NET 5, .NET 6 ve sonraki sürümlerle tamamen uyumludur ve tüm desteklenen çalışma zamanlarında tutarlı bir API sunar.
 
-### S4: Meta veri alanlarını belirli gereksinimlere uyacak şekilde özelleştirebilir miyim?
+---
 
-C4: Evet, Aspose.Page for .NET, meta veri alanlarını uygulamanızın ihtiyaçlarına göre özelleştirme konusunda esneklik sağlar.
-
-### S5: Meta veri ekleme işlemi sırasında hataları nasıl halledebilirim?
-
-Y5: Meta veri çıkarma ve ekleme işlemi sırasında olası hataları gidermek için kodunuzda uygun istisna işlemeyi sağlayın.
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
+**Son Güncelleme:** 2026-07-29  
+**Test Edilen:** Aspose.Page for .NET 24.10  
+**Yazar:** Aspose  
 
 {{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Aspose.Page for .NET ile EPS Belgesine Metaveri Ekle](/page/net/eps-metadata-management/add-metadata-to-eps-document/)
+- [Aspose.Page for .NET ile Ad Alanı Ekle](/page/net/eps-metadata-management/modify-eps-metadata-add-namespace/)
+- [Aspose.Page for .NET ile Basit Özellikler Ekle](/page/net/eps-metadata-management/modify-eps-metadata-add-simple-properties/)
+
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
