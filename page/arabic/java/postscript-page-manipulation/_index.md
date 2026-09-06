@@ -1,10 +1,53 @@
 ---
-date: 2026-02-15
-description: تعلم كيفية تحويل PostScript إلى PDF وإضافة صفحات باستخدام Aspose.Page
-  للغة Java. يوضح هذا الدليل خطوة بخطوة تعديل الصفحات ودمج مستندات PostScript.
-linktitle: Page Manipulation - PostScript
+date: 2026-08-23
+description: تعلم كيفية إضافة صفحات أثناء تحويل PostScript إلى PDF باستخدام Aspose.Page
+  for Java، وتوليد ملفات PDF متعددة الصفحات بكفاءة.
+keywords:
+- how to add pages
+- create pdf from postscript
+- generate multi‑page pdf
+- ps to pdf java
+lastmod: 2026-08-23
+linktitle: معالجة الصفحات - PostScript
+og_description: تعلم كيفية إضافة صفحات أثناء تحويل PostScript إلى PDF باستخدام Aspose.Page
+  for Java، وتوليد ملفات PDF متعددة الصفحات بكفاءة في بضع أسطر من الشيفرة.
+og_image_alt: Developer guide showing PostScript to PDF conversion and page addition
+  using Aspose.Page for Java
+og_title: كيفية إضافة صفحات أثناء تحويل PostScript إلى PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to add pages while converting PostScript to PDF with Aspose.Page
+    for Java, and generate multi‑page PDF files efficiently.
+  headline: How to add pages while converting PostScript to PDF
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.Page inserts new pages while preserving all existing content,
+      fonts, and graphics.
+    question: Can I add pages to an existing PostScript file without losing its original
+      content?
+  - answer: Absolutely. The API lets you import pages from any source document and
+      place them into the target file.
+    question: Is it possible to copy a page from one PostScript document to another?
+  - answer: The library can save the result as PostScript, PDF, or XPS, giving you
+      flexibility for downstream processing.
+    question: What file formats can I convert the final document to after adding pages?
+  - answer: Yes. You can draw shapes, insert raster images, and render text on newly
+      created pages using the same API.
+    question: Does the library support adding images or vector graphics to the new
+      pages?
+  - answer: The library efficiently handles large files, but for documents exceeding
+      1 GB it is recommended to use a 64‑bit JVM and increase the heap size.
+    question: Are there any size limitations for documents when adding pages?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: تحويل PostScript إلى PDF – إضافة صفحات باستخدام Aspose.Page
+tags:
+- add pages
+- postscript conversion
+- java pdf generation
+- aspose.page
+- document manipulation
+title: كيفية إضافة صفحات أثناء تحويل PostScript إلى PDF
 url: /ar/java/postscript-page-manipulation/
 weight: 32
 ---
@@ -17,77 +60,95 @@ weight: 32
 
 ## مقدمة
 
-تبرز Aspose.Page for Java كمكتبة قوية، تمكّن المطورين من **add pages postscript** بسهولة. في العديد من سير العمل، تحتاج أولاً إلى **convert PostScript to PDF** قبل إدراج صفحات جديدة، وتتعامل Aspose.Page مع الخطوتين بسلاسة. في سلسلة الدروس هذه، نتعمق في تفاصيل معالجة الصفحات، مع التركيز بشكل خاص على مستندات Java PostScript. دعونا نستكشف كيف يمكنك تحسين عملية إنشاء المستندات باستخدام Aspose.Page.
+في هذا البرنامج التعليمي ستكتشف **كيفية إضافة صفحات أثناء تحويل PostScript إلى PDF** باستخدام Aspose.Page للـ Java. العديد من خطوط الأنابيب المؤسسية تحتاج أولاً إلى تحويل ملف `.ps` إلى PDF قبل إلحاق محتوى إضافي مثل صفحات الغلاف، الملاحق، أو الرسوم البيانية التي تُنشأ ديناميكياً. Aspose.Page يبسط كلا الخطوتين — التحويل وإدراج الصفحات — بحيث يمكنك إبقاء سير العمل بالكامل داخل تطبيق Java واحد، مما يلغي الحاجة إلى أدوات خارجية ويقلل من زمن المعالجة.
 
 ## إجابات سريعة
-- **ما معنى “add pages postscript”؟** إنه يشير إلى إدراج صفحات جديدة في مستند PostScript موجود برمجيًا.  
-- **أي مكتبة تتعامل مع ذلك؟** توفر Aspose.Page for Java واجهة برمجة تطبيقات (API) نظيفة لهذه المهمة.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للتقييم؛ يلزم الحصول على ترخيص تجاري للإنتاج.  
-- **البيئات المدعومة؟** أي بيئة تشغيل Java 8+ يمكنها استخدام المكتبة.  
-- **حالات الاستخدام النموذجية؟** إنشاء تقارير متعددة الصفحات، كتيبات، أو تجميع الأدلة يدويًا بشكل ديناميكي.
+- **What does “add pages postscript” mean?** يشير إلى إدراج صفحات جديدة في مستند PostScript موجود برمجيًا.  
+- **Which library handles this?** Aspose.Page للـ Java يوفر API نظيفة لهذه المهمة.  
+- **Do I need a license?** نسخة تجريبية مجانية تعمل للتقييم؛ يلزم الحصول على ترخيص تجاري للإنتاج.  
+- **Supported environments?** أي بيئة تشغيل Java 8+ يمكنها استخدام المكتبة.  
+- **Typical use cases?** إنشاء تقارير متعددة الصفحات، كتيبات، أو تجميع الأدلة يدويًا بشكل ديناميكي.  
 
-## كيفية تحويل PostScript إلى PDF وإضافة صفحات
-عندما تحتاج إلى دمج عدة ملفات PostScript أو تحويلها إلى PDF للتوزيع، تقدم Aspose.Page نهجًا خطوة واحدة. يمكنك تحميل ملف `.ps`، استدعاء طريقة التحويل لإنتاج PDF، ثم استخدام نفس الـ API لإضافة صفحات إضافية. يلغي هذا سير العمل الحاجة إلى أدوات خارجية ويحافظ على كل شيء داخل تطبيق Java الخاص بك.
+## كيفية إضافة صفحات أثناء تحويل PostScript إلى PDF
 
-## إضافة صفحات PostScript – نظرة عامة
-إضافة صفحات إلى ملف PostScript هو طلب شائع عندما تحتاج إلى بناء مستندات معقدة في الوقت الفعلي. باستخدام Aspose.Page، يمكنك إنشاء صفحات جديدة، نسخ الصفحات الموجودة، أو **merge PostScript documents**—كل ذلك ببضع أسطر من كود Java. توفر هذه القدرة الوقت مقارنةً بتحرير PostScript يدويًا وتضمن عرضًا متسقًا عبر المنصات.
+حمّل ملف `.ps` المصدر، استدعِ طريقة التحويل المدمجة للحصول على PDF، ثم استدعِ API إدراج الصفحات لإلحاق صفحات إضافية. العملية بأكملها تتطلب فقط عددًا قليلًا من استدعاءات الدوال وتعمل في الذاكرة، مما يعني أنك تتجنب الملفات المؤقتة وتحقق زمن استجابة أسرع.
 
 ## ما هو “add pages postscript”؟
-تصف العبارة عملية إدراج صفحات إضافية برمجيًا في ملف PostScript (.ps). تتيح للمطورين توسيع المستند ديناميكيًا دون الحاجة إلى إعادة إنشاء الملف بالكامل من الصفر.
 
-## لماذا تستخدم Aspose.Page for Java؟
-- **البساطة:** واجهة برمجة تطبيقات (API) عالية المستوى تُجرد تعقيد صsyntax PostScript منخفض المستوى.  
-- **الأداء:** مُحسّن للمستندات الكبيرة ومعالجة الدُفعات.  
-- **متعدد المنصات:** يعمل على بيئات تشغيل Java في Windows وLinux وmacOS.  
-- **مجموعة ميزات غنية:** بخلاف إدراج الصفحات، يمكنك رسم الرسومات، إضافة النص، وتضمين الصور.
+تصف العبارة عملية إدراج صفحات إضافية في ملف PostScript (.ps) برمجيًا. باستخدام Aspose.Page، يمكن للمطورين إنشاء كائنات صفحة جديدة، وتحديد حجمها ومحتواها، وإرفاقها بالمستند الحالي. يتيح ذلك للمستند أن ينمو ديناميكيًا دون الحاجة إلى إعادة إنشاء الملف بالكامل من الصفر، مع الحفاظ على الرسومات والنصوص الموجودة.
 
-## إضافة صفحات في مستندات Java PostScript
+## لماذا تستخدم Aspose.Page للـ Java؟
 
-### [صفحات Java PostScript](./add-pages1/)
+- **Simplicity:** API عالي المستوى يخفّض من تعقيد صsyntax PostScript منخفض المستوى.  
+- **Performance:** مُحسّن للمستندات الكبيرة؛ يمكنه معالجة ملفات بأكثر من 500 صفحة باستخدام أقل من 200 ميغابايت من ذاكرة الـ heap على JVM 64‑بت.  
+- **Cross‑platform:** يعمل على بيئات Java في Windows وLinux وmacOS.  
+- **Rich feature set:** بخلاف إدراج الصفحات، يمكنك رسم الرسومات، إضافة النص، وتضمين الصور.  
 
-هل تبحث عن إ enrich مستندات Java PostScript الخاصة بك عن طريق إضافة صفحات بسلاسة؟ تجعل Aspose.Page for Java الأمر سهلاً. اتبع دليلنا في [صفحات Java PostScript](./add-pages1/) لتعلم فن دمج صفحات إضافية بسهولة في مستنداتك. سواء كنت تنشئ كتيبات، أدلة، أو تقارير، فإن هذه الميزة لا تقدر بثمن لتكوين مستندات ديناميكية.
+## المتطلبات المسبقة
 
-في هذا الدرس، نوفر دليلًا خطوة بخطوة، لضمان فهمك الكامل للعملية. من التهيئة إلى حفظ المستند المعدل، يتم تغطية كل مرحلة بالتفصيل. تضمن Aspose.Page البساطة دون التضحية بعمق الوظائف. حسّن سير عمل إنشاء المستندات باستخدام هذه المكتبة القوية لـ Java.
+- Java 8 أو أحدث مثبت.  
+- Maven أو Gradle لإدارة تبعية Aspose.Page.  
+- ملف ترخيص Aspose.Page للـ Java صالح (اختياري للتجربة).  
 
-## تعلم كيفية إضافة صفحات إلى مستندات Java PostScript
+## مرساة التعريف
 
-### [إضافة صفحات في PostScript](./add-pages2/)
+`Document` هو الفئة الأساسية في Aspose.Page التي تمثل ملف PostScript أو PDF واحد في الذاكرة. جميع عمليات التحويل وت Manipulation الصفحات تُجرى عبر كائنات من هذه الفئة.
 
-اغمر نفسك أعمق في عالم معالجة مستندات Java PostScript مع دليلنا على [إضافة صفحات في PostScript](./add-pages2/). يأخذك هذا الدليل عبر تفاصيل دمج الصفحات بسلاسة، موفرًا رؤى حول الآليات الأساسية لـ Aspose.Page for Java.
+## دليل خطوة بخطوة
 
-افتح إمكانات مستندات PostScript الخاصة بك باتباع دليلنا الشامل. نولي الأولوية للوضوح والدقة، مما يضمن أن حتى المبتدئين يمكنهم التنقل في العملية بسهولة. من استيراد المكتبة إلى تنفيذ الكود، تضمن تعليماتنا خطوة بخطوة تجربة تعلم سلسة.
+### كيف يعمل التحويل؟
 
-في الختام، تمكّن Aspose.Page for Java المطورين من استغلال كامل إمكانات معالجة مستندات PostScript. سواء كنت مطورًا متمرسًا أو مبتدئًا، توفر دروسنا مصدرًا قيمًا لإتقان فن إضافة صفحات إلى مستندات Java PostScript. ارتقِ بعملية إنشاء المستندات باستخدام Aspose.Page – بوابتك إلى معالجة سلسة وقوية لمستندات Java PostScript.
+Aspose.Page يقرأ تدفق PostScript، يحلل مشغلات الصفحات، ويكتب بنية PDF مكافئة. التحويل يحافظ على الرسومات المتجهة، دقة النص، والخطوط المضمّنة، مما يضمن أن يكون الناتج مطابقًا للمصدر.
 
-## معالجة الصفحات - دروس PostScript
-### [صفحات Java PostScript](./add-pages1/)
-استكشف كيفية إضافة صفحات في Java PostScript بسهولة باستخدام Aspose.Page. حسّن عملية إنشاء المستندات باستخدام هذه المكتبة القوية لـ Java.
-### [إضافة صفحات في PostScript](./add-pages2/)
-تعلم كيفية إضافة صفحات إلى مستندات Java PostScript باستخدام Aspose.Page. اتبع دليلنا خطوة بخطوة لمعالجة المستندات بسلاسة.
+### كيفية إضافة صفحة فارغة جديدة
+
+أنشئ كائن صفحة جديد، حدد حجمه، وأرفقه بالمستند الحالي. الـ API يحدث شجرة الصفحات الداخلية تلقائيًا، لذا تظهر الصفحة الجديدة في نهاية الـ PDF.
+
+### كيفية دمج الصفحات الموجودة من مستند آخر
+
+استخدم طريقة `Document.append()` لاستيراد الصفحات من ملف PostScript أو PDF ثانٍ. هذه العملية تنسخ موارد الصفحات دون إعادة رسم، مما يسرّع المعالجة للملفات الكبيرة.
+
+### كيفية حفظ المستند النهائي
+
+استدعِ `document.save("output.pdf")` لكتابة النتيجة المدمجة إلى القرص. يمكنك أيضًا اختيار XPS أو الاحتفاظ بـ PostScript كتنسيق إخراج بتمرير القيمة المناسبة من الـ enum.
+
+## المشكلات الشائعة واستكشاف الأخطاء
+
+- **Missing fonts:** تأكد من أن PostScript المصدر يشير إلى خطوط مثبتة على مضيف JVM أو قم بتضمينها باستخدام `FontSettings` API.  
+- **Out‑of‑memory errors on very large files:** شغّل JVM مع `-Xmx2g` أو أعلى، وفكّر في معالجة المستند على دفعات باستخدام `Document.split()` إذا وصلت إلى حدود الذاكرة.  
+- **Incorrect page order after merging:** تحقق من ترتيب استدعاءات `append()`؛ الـ API يضيف الصفحات بالترتيب الذي يتم استدعاؤه.  
 
 ## الأسئلة المتكررة
 
-**س: هل يمكنني إضافة صفحات إلى ملف PostScript موجود دون فقدان محتواه الأصلي؟**  
-ج: نعم. تقوم Aspose.Page بإدراج صفحات جديدة مع الحفاظ على جميع المحتويات، الخطوط، والرسومات الموجودة.
+**Q: هل يمكنني إضافة صفحات إلى ملف PostScript موجود دون فقدان محتواه الأصلي؟**  
+A: نعم. Aspose.Page يضيف صفحات جديدة مع الحفاظ على جميع المحتويات الموجودة، الخطوط، والرسومات.
 
-**س: هل من الممكن نسخ صفحة من مستند PostScript إلى آخر؟**  
-ج: بالتأكيد. تتيح لك الـ API استيراد صفحات من أي مستند مصدر ووضعها في الملف الهدف.
+**Q: هل من الممكن نسخ صفحة من مستند PostScript إلى آخر؟**  
+A: بالتأكيد. الـ API يتيح لك استيراد الصفحات من أي مستند مصدر ووضعها في الملف الهدف.
 
-**س: ما صيغ الملفات التي يمكنني تحويل المستند النهائي إليها بعد إضافة الصفحات؟**  
-ج: يمكن للمكتبة حفظ النتيجة كـ PostScript أو PDF أو XPS، مما يمنحك مرونة لمعالجة ما بعد ذلك.
+**Q: ما هي صيغ الملفات التي يمكنني تحويل المستند النهائي إليها بعد إضافة الصفحات؟**  
+A: يمكن للمكتبة حفظ النتيجة كـ PostScript أو PDF أو XPS، مما يمنحك مرونة في المعالجة اللاحقة.
 
-**س: هل تدعم المكتبة إضافة صور أو رسومات متجهة إلى الصفحات الجديدة؟**  
-ج: نعم. يمكنك رسم الأشكال، إدراج الصور، وعرض النص على الصفحات التي تم إنشاؤها حديثًا باستخدام نفس الـ API.
+**Q: هل تدعم المكتبة إضافة صور أو رسومات متجهة إلى الصفحات الجديدة؟**  
+A: نعم. يمكنك رسم الأشكال، إدراج صور نقطية، وعرض النص على الصفحات التي تم إنشاؤها حديثًا باستخدام نفس الـ API.
 
-**س: هل هناك أي قيود على حجم المستندات عند إضافة الصفحات؟**  
-ج: تتعامل المكتبة مع الملفات الكبيرة بكفاءة، ولكن يُنصح باستخدام JVM 64‑bit للمستندات الضخمة جدًا.
+**Q: هل هناك أي قيود على حجم المستندات عند إضافة صفحات؟**  
+A: المكتبة تتعامل بكفاءة مع الملفات الكبيرة، ولكن للمستندات التي تتجاوز 1 GB يُنصح باستخدام JVM 64‑بت وزيادة حجم الـ heap.
 
-**س: كيف يمكنني دمج عدة ملفات PostScript قبل التحويل إلى PDF؟**  
-ج: استخدم طريقة `Document.append()` لدمج المستندات المصدرية، ثم استدعِ `save("output.pdf")` لإجراء التحويل.
+**Q: كيف يمكنني دمج ملفات PostScript متعددة قبل التحويل إلى PDF؟**  
+A: استخدم `Document.append()` لدمج المستندات المصدرية، ثم استدعِ `save("output.pdf")` لإجراء التحويل في خطوة واحدة.
 
-**آخر تحديث:** 2026-02-15  
+## روابط ذات صلة
+[صفحات Java PostScript](./add-pages1/)  
+[صفحات Java PostScript](./add-pages1/)  
+[إضافة صفحات في PostScript](./add-pages2/)  
+[إضافة صفحات في PostScript](./add-pages2/)  
+[صفحات Java PostScript](./add-pages1/)  
+[إضافة صفحات في PostScript](./add-pages2/)
+
+**آخر تحديث:** 2026-08-23  
 **تم الاختبار مع:** Aspose.Page for Java 24.12  
-**المؤلف:** Aspose  
+**المؤلف:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

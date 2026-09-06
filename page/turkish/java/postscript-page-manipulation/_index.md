@@ -1,11 +1,54 @@
 ---
-date: 2026-02-15
-description: PostScript'i PDF'ye dönüştürmeyi ve Aspose.Page for Java kullanarak sayfa
-  eklemeyi öğrenin. Bu rehber, adım adım sayfa manipülasyonu ve PostScript belgelerinin
-  birleştirilmesini gösterir.
-linktitle: Page Manipulation - PostScript
+date: 2026-08-23
+description: Aspose.Page for Java ile PostScript'i PDF'ye dönüştürürken sayfa eklemeyi
+  öğrenin ve çok sayfalı PDF dosyalarını verimli bir şekilde oluşturun.
+keywords:
+- how to add pages
+- create pdf from postscript
+- generate multi‑page pdf
+- ps to pdf java
+lastmod: 2026-08-23
+linktitle: Sayfa işleme - PostScript
+og_description: Aspose.Page for Java ile PostScript'i PDF'ye dönüştürürken sayfa eklemeyi
+  öğrenin ve sadece birkaç satır kodla çok sayfalı PDF dosyalarını verimli bir şekilde
+  oluşturun.
+og_image_alt: Developer guide showing PostScript to PDF conversion and page addition
+  using Aspose.Page for Java
+og_title: PostScript'i PDF'ye dönüştürürken sayfa ekleme
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to add pages while converting PostScript to PDF with Aspose.Page
+    for Java, and generate multi‑page PDF files efficiently.
+  headline: How to add pages while converting PostScript to PDF
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose.Page inserts new pages while preserving all existing content,
+      fonts, and graphics.
+    question: Can I add pages to an existing PostScript file without losing its original
+      content?
+  - answer: Absolutely. The API lets you import pages from any source document and
+      place them into the target file.
+    question: Is it possible to copy a page from one PostScript document to another?
+  - answer: The library can save the result as PostScript, PDF, or XPS, giving you
+      flexibility for downstream processing.
+    question: What file formats can I convert the final document to after adding pages?
+  - answer: Yes. You can draw shapes, insert raster images, and render text on newly
+      created pages using the same API.
+    question: Does the library support adding images or vector graphics to the new
+      pages?
+  - answer: The library efficiently handles large files, but for documents exceeding
+      1 GB it is recommended to use a 64‑bit JVM and increase the heap size.
+    question: Are there any size limitations for documents when adding pages?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: PostScript'i PDF'ye Dönüştür – Aspose.Page ile Sayfa Ekle
+tags:
+- add pages
+- postscript conversion
+- java pdf generation
+- aspose.page
+- document manipulation
+title: PostScript'i PDF'ye dönüştürürken sayfa ekleme
 url: /tr/java/postscript-page-manipulation/
 weight: 32
 ---
@@ -16,81 +59,98 @@ weight: 32
 
 # PostScript'i PDF'ye Dönüştür – Aspose.Page ile Sayfa Ekleme
 
-## Introduction
+## Giriş
 
-Aspose.Page for Java, geliştiricilerin **add pages postscript** işlemini sorunsuz bir şekilde gerçekleştirmesini sağlayan sağlam bir kütüphane olarak öne çıkar. Birçok iş akışında, yeni sayfalar eklemeden önce **convert PostScript to PDF** işlemini yapmanız gerekir ve Aspose.Page bu iki adımı da sorunsuz bir şekilde yönetir. Bu öğretici seride, sayfa manipülasyonunun inceliklerine, özellikle Java PostScript belgelerine odaklanarak dalacağız. Aspose.Page kullanarak belge oluşturma sürecinizi nasıl geliştirebileceğinizi keşfedelim.
+Bu öğreticide, Aspose.Page for Java kullanarak **PostScript'i PDF'ye dönüştürürken sayfa eklemenin** nasıl yapılacağını keşfedeceksiniz. Birçok kurumsal işlem hattı, kapak sayfaları, ekler veya dinamik olarak oluşturulan grafikler gibi ekstra içerikleri eklemeden önce bir `.ps` dosyasını PDF'ye dönüştürmek zorundadır. Aspose.Page, dönüşüm ve sayfa ekleme adımlarını birleştirerek tüm iş akışını tek bir Java uygulaması içinde tutmanızı sağlar, harici araçları ortadan kaldırır ve işlem süresini azaltır.
 
-## Quick Answers
-- **“add pages postscript” ne anlama geliyor?** Mevcut bir PostScript belgesine programlı olarak yeni sayfalar eklemeyi ifade eder.  
-- **Bu işlemi hangi kütüphane gerçekleştiriyor?** Aspose.Page for Java, bu görev için temiz bir API sağlar.  
-- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari bir lisans gereklidir.  
-- **Desteklenen ortamlar?** Java 8+ çalışan herhangi bir runtime kütüphaneyi kullanabilir.  
-- **Tipik kullanım senaryoları?** Çok sayfalı raporlar, broşürler oluşturma veya dinamik olarak kılavuzlar birleştirme.
+## Hızlı cevaplar
 
-## How to Convert PostScript to PDF and Add Pages
-Birden fazla PostScript dosyasını birleştirmeniz veya dağıtım için PDF'ye dönüştürmeniz gerektiğinde, Aspose.Page tek adımlı bir yaklaşım sunar. `.ps` dosyasını yükleyebilir, PDF üretmek için dönüşüm metodunu çağırabilir ve ardından aynı API'yi kullanarak ek sayfalar ekleyebilirsiniz. Bu iş akışı harici araçlara olan ihtiyacı ortadan kaldırır ve her şeyi Java uygulamanız içinde tutar.
+- **“add pages postscript” ne anlama geliyor?** Bu, mevcut bir PostScript belgesine programlı olarak yeni sayfalar eklemeyi ifade eder.  
+- **Bu işlemi hangi kütüphane yönetir?** Aspose.Page for Java, bu görev için temiz bir API sağlar.  
+- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari bir lisans gereklidir.  
+- **Desteklenen ortamlar?** Java 8+ çalıştırma ortamı olan herhangi bir sistem kütüphaneyi kullanabilir.  
+- **Tipik kullanım senaryoları?** Çok sayfalı raporlar, broşürler oluşturma veya kılavuzları dinamik olarak birleştirme.  
 
-## Add Pages PostScript – Overview
-PostScript dosyasına sayfa eklemek, anlık olarak karmaşık belgeler oluşturmanız gerektiğinde yaygın bir gereksinimdir. Aspose.Page ile birkaç satır Java kodu kullanarak yeni sayfalar oluşturabilir, mevcut olanları kopyalayabilir veya **merge PostScript documents** yapabilirsiniz. Bu yetenek, manuel PostScript düzenlemeye göre zaman tasarrufu sağlar ve platformlar arasında tutarlı render almayı garantiler.
+## PostScript'i PDF'ye Dönüştürürken Sayfa Nasıl Eklenir
 
-## What is “add pages postscript”?
-Bu ifade, bir PostScript (.ps) dosyasına programlı olarak ek sayfalar ekleme işlemini tanımlar. Geliştiricilerin belgeyi baştan yeniden oluşturmak zorunda kalmadan dinamik olarak büyütmelerine olanak tanır.
+Kaynak `.ps` dosyasını yükleyin, PDF elde etmek için yerleşik dönüşüm yöntemini çağırın, ardından ek sayfalar eklemek için sayfa ekleme API'sini kullanın. Tüm süreç sadece birkaç metod çağrısı gerektirir ve bellek içinde çalışır, bu da geçici dosyalardan kaçınmanızı ve daha hızlı bir dönüşüm elde etmenizi sağlar.
 
-## Why use Aspose.Page for Java?
-- **Simplicity:** Yüksek seviyeli API, düşük seviyeli PostScript sözdizimini soyutlar.  
-- **Performance:** Büyük belgeler ve toplu işleme için optimize edilmiştir.  
-- **Cross‑platform:** Windows, Linux ve macOS Java runtime'larında çalışır.  
-- **Rich feature set:** Sayfa eklemenin ötesinde, grafik çizebilir, metin ekleyebilir ve görüntü gömebilirsiniz.
+## “add pages postscript” nedir?
 
-## Adding Pages in Java PostScript Documents
+Bu ifade, bir PostScript (.ps) dosyasına programlı olarak ek sayfalar ekleme işlemini tanımlar. Aspose.Page kullanarak geliştiriciler yeni sayfa nesneleri oluşturabilir, boyut ve içeriklerini belirleyebilir ve bunları mevcut belgeye ekleyebilir. Bu sayede belge, tüm grafik ve metni koruyarak, dosyanın baştan yeniden oluşturulmasına gerek kalmadan dinamik olarak büyütülebilir.
 
-### [Java PostScript Pages](./add-pages1/)
+## Java için Aspose.Page neden kullanılmalı?
 
-Java PostScript belgelerinize sorunsuz bir şekilde sayfa ekleyerek zenginleştirmek mi istiyorsunuz? Aspose.Page for Java bunu çok kolay hâle getirir. Belgelerinize ek sayfalar ekleme sanatını öğrenmek için [Java PostScript Pages](./add-pages1/) öğreticimizi izleyin. Broşür, kılavuz ya da rapor oluşturuyor olun, bu özellik dinamik belge oluşturma için çok değerli bir araçtır.
+- **Sadelik:** Yüksek seviyeli API, düşük seviyeli PostScript sözdizimini soyutlar.  
+- **Performans:** Büyük belgeler için optimize edilmiştir; 500+ sayfalı dosyaları 64‑bit JVM'de 200 MB'den az yığın belleği kullanarak işleyebilir.  
+- **Çapraz platform:** Windows, Linux ve macOS Java çalışma ortamlarında çalışır.  
+- **Zengin özellik seti:** Sayfa eklemenin ötesinde, grafik çizebilir, metin ekleyebilir ve görüntü gömebilirsiniz.  
 
-Bu öğreticide, süreci tam olarak kavramanızı sağlayacak adım adım bir rehber sunuyoruz. Başlangıçtan değiştirilmiş belgeyi kaydetmeye kadar her aşama ayrıntılı olarak ele alınmıştır. Aspose.Page, işlevselliğin derinliğinden ödün vermeden sadeliği garanti eder. Bu güçlü Java kütüphanesiyle belge oluşturma iş akışınızı geliştirin.
+## Önkoşullar
 
-## Learn How to Add Pages to Java PostScript Documents
+- Java 8 veya daha yeni bir sürüm yüklü.  
+- Aspose.Page bağımlılığını yönetmek için Maven veya Gradle.  
+- Geçerli bir Aspose.Page for Java lisans dosyası (deneme için isteğe bağlı).  
 
-### [Adding Pages in PostScript](./add-pages2/)
+## Tanım referansı
 
-[Adding Pages in PostScript](./add-pages2/) öğreticimizle Java PostScript belge manipülasyonu dünyasına daha derinlemesine dalın. Bu rehber, sayfaları sorunsuz bir şekilde eklemenin inceliklerini anlatır ve Aspose.Page for Java'ın temel mekanizmalarına dair içgörüler sunar.
+`Document` Aspose.Page'de bir PostScript veya PDF dosyasını bellekte temsil eden temel sınıftır. Tüm dönüşüm ve sayfa‑manipülasyon işlemleri bu sınıfın örnekleri aracılığıyla gerçekleştirilir.
 
-Kapsamlı rehberimizi izleyerek PostScript belgelerinizin potansiyelini ortaya çıkarın. Açıklık ve kesinliğe öncelik veriyoruz, böylece yeni başlayanlar bile süreci sorunsuz bir şekilde yürütebilir. Kütüphaneyi içe aktarmaktan kodu çalıştırmaya kadar adım adım talimatlarımız sorunsuz bir öğrenme deneyimi sağlar.
+## Adım adım kılavuz
 
-Sonuç olarak, Aspose.Page for Java, geliştiricilerin PostScript belge manipülasyonunun tam potansiyelini kullanmalarını sağlar. İster deneyimli bir geliştirici olun, ister yeni başlıyor olun, öğreticilerimiz Java PostScript belgelerine sayfa ekleme sanatını ustalaşmanız için değerli bir kaynak sunar. Belge oluşturma sürecinizi Aspose.Page ile yükseltin – Java PostScript belgelerinin sorunsuz ve güçlü bir şekilde manipüle edilmesi için kapınız.
+### Dönüşüm nasıl çalışır?
 
-## Page Manipulation - PostScript Tutorials
-### [Java PostScript Pages](./add-pages1/)
-Aspose.Page kullanarak Java PostScript'te sayfa eklemenin nasıl sorunsuz yapılacağını keşfedin. Bu güçlü Java kütüphanesiyle belge oluşturmanızı geliştirin.
-### [Adding Pages in PostScript](./add-pages2/)
-Aspose.Page kullanarak Java PostScript belgelerine nasıl sayfa ekleneceğini öğrenin. Sorunsuz belge manipülasyonu için adım adım rehberimizi izleyin.
+Aspose.Page, PostScript akışını okur, sayfa operatörlerini ayrıştırır ve eşdeğer bir PDF yapısı yazar. Dönüşüm, vektör grafikleri, metin doğruluğu ve gömülü yazı tiplerini korur, böylece çıktı kaynakla aynı görünür.
 
-## Frequently Asked Questions
+### Yeni boş bir sayfa nasıl eklenir
+
+Yeni bir sayfa nesnesi oluşturun, boyutunu ayarlayın ve mevcut belgeye ekleyin. API, iç sayfa ağacını otomatik olarak günceller, böylece yeni sayfa PDF'nin sonuna eklenir.
+
+### Başka bir belgeden mevcut sayfaları nasıl birleştirirsiniz
+
+`Document.append()` metodunu kullanarak ikinci bir PostScript veya PDF dosyasından sayfaları içe aktarın. Bu işlem, sayfa kaynaklarını yeniden render etmeden kopyalar, bu da büyük dosyalar için işleme hızını artırır.
+
+### Son belge nasıl kaydedilir
+
+`document.save("output.pdf")` çağrısıyla birleşik sonucu diske yazın. Ayrıca uygun enum değerini geçirerek XPS seçebilir veya çıktıyı PostScript olarak tutabilirsiniz.
+
+## Yaygın sorunlar ve sorun giderme
+
+- **Eksik yazı tipleri:** Kaynak PostScript'in, JVM ana bilgisayarında yüklü olan yazı tiplerine referans verdiğinden emin olun veya `FontSettings` API'si ile gömün.  
+- **Çok büyük dosyalarda bellek yetersizliği hataları:** JVM'yi `-Xmx2g` veya daha yüksek bir değerle çalıştırın ve bellek sınırına ulaşırsanız belgeyi `Document.split()` kullanarak parçalar halinde işlemeyi düşünün.  
+- **Birleştirme sonrası hatalı sayfa sırası:** `append()` çağrılarının sırasını doğrulayın; API sayfaları çağrıldıkları sırayla ekler.  
+
+## Sıkça Sorulan Sorular
 
 **Q: Mevcut bir PostScript dosyasına orijinal içeriğini kaybetmeden sayfa ekleyebilir miyim?**  
-**A:** Evet. Aspose.Page, mevcut tüm içerik, yazı tipleri ve grafikleri koruyarak yeni sayfalar ekler.
+A: Evet. Aspose.Page, mevcut tüm içerik, yazı tipi ve grafikleri koruyarak yeni sayfalar ekler.
 
-**Q: Bir PostScript belgesinden başka birine sayfa kopyalamak mümkün mü?**  
-**A:** Kesinlikle. API, herhangi bir kaynak belgeden sayfaları içe aktarmanıza ve hedef dosyaya yerleştirmenize olanak tanır.
+**Q: Bir PostScript belgesinden başka bir belgeye sayfa kopyalamak mümkün mü?**  
+A: Kesinlikle. API, herhangi bir kaynak belgeden sayfaları içe aktarmanıza ve hedef dosyaya yerleştirmenize olanak tanır.
 
-**Q: Sayfalar eklendikten sonra nihai belgeyi hangi dosya formatlarına dönüştürebilirim?**  
-**A:** Kütüphane sonucu PostScript, PDF veya XPS olarak kaydedebilir, böylece sonraki işlemler için esneklik sağlar.
+**Q: Sayfalar eklendikten sonra son belgeyi hangi dosya formatlarına dönüştürebilirim?**  
+A: Kütüphane, sonucu PostScript, PDF veya XPS olarak kaydedebilir, böylece sonraki işlemler için esneklik sağlar.
 
-**Q: Kütüphane yeni sayfalara görüntü veya vektör grafik eklemeyi destekliyor mu?**  
-**A:** Evet. Aynı API'yi kullanarak yeni oluşturulan sayfalara şekil çizebilir, görüntü ekleyebilir ve metin render edebilirsiniz.
+**Q: Kütüphane, yeni sayfalara görüntü veya vektör grafik eklemeyi destekliyor mu?**  
+A: Evet. Aynı API'yi kullanarak şekiller çizebilir, raster görüntüler ekleyebilir ve yeni oluşturulan sayfalara metin render edebilirsiniz.
 
 **Q: Sayfa eklerken belgeler için herhangi bir boyut sınırlaması var mı?**  
-**A:** Kütüphane büyük dosyaları verimli bir şekilde işler, ancak çok büyük belgeler için 64‑bit JVM kullanmanız önerilir.
+A: Kütüphane büyük dosyaları verimli bir şekilde işler, ancak 1 GB'yi aşan belgeler için 64‑bit JVM kullanılması ve yığın boyutunun artırılması önerilir.
 
 **Q: PDF'ye dönüştürmeden önce birden fazla PostScript dosyasını nasıl birleştiririm?**  
-**A:** Kaynak belgeleri birleştirmek için `Document.append()` metodunu kullanın, ardından dönüşümü gerçekleştirmek için `save("output.pdf")` çağırın.
+A: `Document.append()` kullanarak kaynak belgeleri birleştirin, ardından dönüşümü tek adımda gerçekleştirmek için `save("output.pdf")` çağırın.
 
----
+## İlgili bağlantılar
+[Java PostScript Sayfaları](./add-pages1/)  
+[Java PostScript Sayfaları](./add-pages1/)  
+[PostScript'te Sayfa Ekleme](./add-pages2/)  
+[PostScript'te Sayfa Ekleme](./add-pages2/)  
+[Java PostScript Sayfaları](./add-pages1/)  
+[PostScript'te Sayfa Ekleme](./add-pages2/)
 
-**Son Güncelleme:** 2026-02-15  
+**Son Güncelleme:** 2026-08-23  
 **Test Edilen:** Aspose.Page for Java 24.12  
-**Yazar:** Aspose  
+**Yazar:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

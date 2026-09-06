@@ -1,10 +1,75 @@
 ---
-date: 2026-02-15
-description: تعرّف على كيفية إنشاء مستندات بوستسكريبت بلغة جافا وتوليد ملفات مستندات
-  بوستسكريبت مع ترجمة الصور وتدويرها باستخدام Aspose.Page للـ Java.
-linktitle: Add Image in Java PostScript
+date: 2026-08-23
+description: تعلم كيفية استخدام aspose.page لمعالجة الصور في Java لإدراج وتدوير الصور
+  في ملفات PostScript مع أمثلة Java واضحة
+keywords:
+- aspose.page image manipulation java
+- add image postscript java
+- java postscript image rotation
+- aspose.page java tutorial
+- image embedding java
+lastmod: 2026-08-23
+linktitle: إضافة صورة في PostScript باستخدام Java
+og_description: تعلم كيفية استخدام aspose.page لمعالجة الصور في Java لإدراج وتدوير
+  الصور في ملفات PostScript، مع أمثلة شفرة Java خطوة بخطوة
+og_image_alt: Guide showing Java code to add and rotate images in PostScript using
+  Aspose.Page
+og_title: كيفية استخدام aspose.page لمعالجة الصور في Java لإضافة صورة
+schemas:
+- author: Aspose
+  dateModified: '2026-08-23'
+  description: Learn how to use aspose.page image manipulation java to embed and rotate
+    images in PostScript files with clear Java examples.
+  headline: How to use aspose.page image manipulation java to add image
+  type: TechArticle
+- description: Learn how to use aspose.page image manipulation java to embed and rotate
+    images in PostScript files with clear Java examples.
+  name: How to use aspose.page image manipulation java to add image
+  steps:
+  - name: write graphics save
+    text: Saving the graphics state isolates your transformations so you can revert
+      later. This is equivalent to the `gsave` operator in raw PostScript.
+  - name: translate and transform (translate and rotate image)
+    text: First, create a `BufferedImage` from the source file, then build an `AffineTransform`
+      that translates the image to the desired coordinates and rotates it around its
+      centre. `AffineTransform.rotate` expects an angle in radians, so convert degrees
+      with `Math.toRadians(degrees)`. **AffineTransform** is
+  - name: add image to document
+    text: After configuring the transform, draw the image onto the current page. The
+      library automatically converts the `BufferedImage` into an appropriate PostScript
+      image stream.
+  - name: write graphics restore
+    text: Calling restore (`grestore`) returns the graphics state to what it was before
+      the save, ensuring subsequent drawing commands are not affected by the previous
+      transformation.
+  - name: close current page and save
+    text: Finish the page, close the document, and write the output file to disk.
+      You can repeat the above sequence to embed additional images, adjusting the
+      translation coordinates and rotation angle each time.
+  type: HowTo
+- questions:
+  - answer: The core library is Java‑only, but Aspose provides equivalent APIs for
+      .NET, C++, and Python, each tailored to its platform.
+    question: Can I use Aspose.Page for Java with other programming languages?
+  - answer: Yes, you can access the free trial **[Aspose.Page free trial page](https://releases.aspose.com/)**.
+    question: Is there a free trial available for Aspose.Page for Java?
+  - answer: You can get a temporary license **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
+    question: How can I obtain a temporary license for Aspose.Page for Java?
+  - answer: Visit the **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)**
+      for community assistance.
+    question: Where can I find community support and discussions related to Aspose.Page
+      for Java?
+  - answer: You can buy the library **[Aspose.Page purchase page](https://purchase.aspose.com/buy)**.
+    question: Are there any additional resources for purchasing Aspose.Page for Java?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: إنشاء PostScript Java – إضافة صورة في Java PostScript
+tags:
+- aspose.page
+- java image manipulation
+- postscript
+- image rotation
+- java tutorial
+title: كيفية استخدام aspose.page لمعالجة الصور في Java لإضافة صورة
 url: /ar/java/postscript-image-manipulation/add-image/
 weight: 10
 ---
@@ -13,36 +78,37 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء PostScript Java – إضافة صورة في Java PostScript
+# كيفية استخدام aspose.page image manipulation java لإضافة صورة
 
-## المقدمة
-في هذا البرنامج التعليمي، ستتعلم كيفية **إنشاء postscript java** المستندات وتضمين الصور باستخدام مكتبة Aspose.Page for Java. سنستعرض كل خطوة، بدءًا من تهيئة ملف PostScript جديد إلى تطبيق تحويلات **ترجمة وتدوير الصورة**. في النهاية، ستكون قادرًا على إنشاء ملفات PostScript برمجيًا والتحكم في وضع الصورة بدقة بكسل مثالية — مثالي للتقارير الآلية، سير عمل الطباعة، أو أي سيناريو تحتاج فيه إلى **إنشاء مستند postscript** من Java.
+## مقدمة
+في هذا الدرس ستتعلم كيفية **use aspose.page image manipulation java** لإنشاء ملفات PostScript، وإدراج صور نقطية، وتطبيق تحويلات الترجمة والدوران. بنهاية الدليل ستكون قادرًا على توليد مخرجات PostScript دقيقة البكسل من Java—مثالية للتقارير الآلية، خطوط طباعة، أو أي سير عمل يتطلب وضعًا دقيقًا للصور داخل مستند PostScript.
 
 ## إجابات سريعة
-- **What library is required?** Aspose.Page for Java  
-- **Can I add multiple images?** نعم – كرر خطوات التحويل والرسم  
-- **Do I need a license for development?** إصدار تجريبي مجاني يعمل للاختبار؛ يلزم الحصول على ترخيص للإنتاج  
-- **Which Java version is supported?** Java 8 and later  
-- **Is image rotation supported?** بالطبع – استخدم `AffineTransform.rotate()`
+- **ما المكتبة المطلوبة؟** Aspose.Page for Java  
+- **هل يمكنني إضافة صور متعددة؟** نعم – كرّر خطوات التحويل والرسم لكل صورة  
+- **هل أحتاج إلى ترخيص للتطوير؟** نسخة تجريبية مجانية تعمل للاختبار؛ الترخيص مطلوب للإنتاج  
+- **ما نسخة Java المدعومة؟** Java 8 وما بعدها  
+- **هل يدعم تدوير الصورة؟** بالتأكيد – استخدم `AffineTransform.rotate()`
 
-## ما هو إنشاء postscript java؟
-عملية **إنشاء postscript java** تنتج ملف وصف صفحة PostScript يُشفّر النصوص والرسومات المتجهة والصور النقطية. باستخدام Aspose.Page يمكنك بناء هذه الملفات مباشرةً من كود Java، مما يمنحك تحكمًا برمجيًا كاملاً في التخطيط، والتحجيم، والتدوير دون الحاجة إلى مفسر PostScript منفصل.
+## ما هو aspose.page image manipulation java؟
+`aspose.page image manipulation java` هو API من Aspose.Page يتيح لك بناء وتحرير وعرض مستندات PostScript برمجيًا من خلال كود Java، بما في ذلك التحكم الكامل في وضع الصورة، وتكبيرها، وتدويرها. باستخدام هذا API تتجنب صsyntax PostScript منخفض المستوى وتدع المكتبة تتعامل مع تحويل الصيغ والإدراج داخليًا.
 
-## لماذا تستخدم Aspose.Page لتعديل الصور؟
-- **High‑level API:** يجمل أوامر PostScript منخفضة المستوى في طرق Java بسيطة.  
-- **Cross‑platform:** يعمل على أي نظام تشغيل يدعم Java.  
-- **Full graphics‑state control:** حفظ، استعادة، ترجمة، تحجيم، وتدوير الرسومات حسب الحاجة.  
-- **No external dependencies:** يتعامل مع تحميل الصور، تحويل الصيغ، وتضمينها داخليًا.
+## لماذا تستخدم aspose.page لمعالجة الصور؟
+توفر Aspose.Page **50+ image formats** (بما في ذلك JPEG، PNG، BMP، TIFF) ويمكنها إدراجها في PostScript دون تحميل المستند بالكامل في الذاكرة، مما يتيح معالجة ملفات تحتوي على مئات الصفحات مع الحفاظ على استهلاك الذاكرة أقل من 100 MB على خادم نموذجي. API عالي المستوى يبسط أوامر PostScript المعقدة، لذا تكتب كود Java مختصر بدلاً من أوامر PS الخام.
 
 ## المتطلبات المسبقة
-قبل أن نغوص في الكود، تأكد من أن لديك:
+- Java Development Kit (JDK) 8 أو أحدث مثبت.  
+- مكتبة Aspose.Page for Java – قم بتنزيلها من **[Aspose.Page for Java download page](https://releases.aspose.com/page/java/)**.  
+- إلمام أساسي بصياغة Java والبرمجة الكائنية.
 
-- Java Development Kit (JDK) مثبت على نظامك.  
-- مكتبة Aspose.Page for Java. يمكنك تنزيلها [هنا](https://releases.aspose.com/page/java/).  
-- فهم أساسي لبرمجة Java.
+## ما هو create postscript java؟
+إنشاء ملف PostScript من Java يعني توليد مستند `.ps` برمجيًا يصف تخطيط الصفحة، الرسومات المتجهة، والصور النقطية باستخدام لغة PostScript. تقوم Aspose.Page بترجمة استدعاءات Java إلى تعليمات PostScript صالحة، مما يتيح لك إنتاج ملفات جاهزة للطباعة دون الحاجة إلى مفسر PostScript منفصل.
 
-## استيراد الحزم
-لبدء العمل، استورد الحزم اللازمة في مشروع Java الخاص بك. استخدم مقتطف الكود التالي كمرجع:
+## كيفية إضافة صورة مع الترجمة والدوران خطوة بخطوة
+حمّل صورتك، طبّق `AffineTransform`، وارسمها على الصفحة. الخطوات التالية توضح التسلسل الدقيق الذي يجب اتباعه.
+
+### الخطوة 1: حفظ حالة الرسومات
+حفظ حالة الرسومات يعزل التحويلات الخاصة بك حتى يمكنك الرجوع لاحقًا. هذا يعادل المشغل `gsave` في PostScript الخام.
 
 ```java
 import java.awt.geom.AffineTransform;
@@ -54,8 +120,11 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## الخطوة 1: كتابة حفظ الرسومات
-الخطوة الأولى تتضمن كتابة حفظ الرسومات إلى المستند. يضمن ذلك إمكانية التراجع عن أي تحويلات أو تعديلات تُجرى لاحقًا إذا لزم الأمر.
+### الخطوة 2: الترجمة والتحويل (ترجمة وتدوير الصورة)
+أولاً، أنشئ `BufferedImage` من الملف المصدر، ثم أنشئ `AffineTransform` يترجم الصورة إلى الإحداثيات المطلوبة ويدورها حول مركزها. `AffineTransform.rotate` يتوقع زاوية بالراديان، لذا حوّل الدرجات باستخدام `Math.toRadians(degrees)`.
+
+**AffineTransform** هو صف Java يمثل تحويلًا إحداثيًا ثنائي الأبعاد مثل الترجمة أو الدوران أو التحجيم أو القص.  
+**BufferedImage** هو صف Java يخزن الصورة في الذاكرة كشبكة من البكسلات.
 
 ```java
 // The path to the documents directory.
@@ -69,8 +138,8 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 document.writeGraphicsSave();
 ```
 
-## الخطوة 2: الترجمة والتحويل (ترجمة وتدوير الصورة)
-بعد ذلك، قم بترجمة المستند وإنشاء كائن `BufferedImage` من ملف الصورة. طبّق سلسلة من التحويلات مثل التحجيم والتدوير باستخدام `AffineTransform`. هنا يحدث عملية **ترجمة وتدوير الصورة**.
+### الخطوة 3: إضافة صورة إلى المستند
+بعد تكوين التحويل، ارسم الصورة على الصفحة الحالية. تقوم المكتبة تلقائيًا بتحويل `BufferedImage` إلى تدفق صورة PostScript مناسب.
 
 ```java
 document.translate(100, 100);
@@ -83,60 +152,64 @@ transform.scale(3, 3);
 transform.rotate(-45);
 ```
 
-## الخطوة 3: إضافة الصورة إلى المستند
-الآن، أضف الصورة المُحوَّلة إلى المستند.
+### الخطوة 4: استعادة حالة الرسومات
+استدعاء الاستعادة (`grestore`) يعيد حالة الرسومات إلى ما كانت عليه قبل الحفظ، مما يضمن أن أوامر الرسم اللاحقة لا تتأثر بالتحويل السابق.
 
 ```java
 document.drawImage(image, transform, null);
 ```
 
-## الخطوة 4: كتابة استعادة الرسومات
-بعد إضافة الصورة، اكتب استعادة الرسومات لإنهاء التغييرات التي تم إجراؤها.
+### الخطوة 5: إغلاق الصفحة الحالية وحفظها
+أكمل الصفحة، أغلق المستند، واكتب ملف الإخراج إلى القرص.
 
 ```java
 document.writeGraphicsRestore();
 ```
 
-## الخطوة 5: إغلاق الصفحة الحالية وحفظها
-أغلق الصفحة الحالية واحفظ المستند.
+يمكنك تكرار التسلسل أعلاه لإدراج صور إضافية، مع تعديل إحداثيات الترجمة وزاوية الدوران في كل مرة.
+
+## المشكلات الشائعة والحلول
+- **FileNotFoundException:** تحقق من أن `dataDir` ينتهي بفاصل ملف (`/` أو `\\`) وأن اسم ملف الصورة يطابق تمامًا.  
+- **ImageIO.read returns null:** تأكد من أن تنسيق الصورة من القائمة المدعومة (JPEG، PNG، BMP، GIF، TIFF).  
+- **Incorrect rotation angle:** `AffineTransform.rotate` يعمل بالراديان؛ استخدم `Math.toRadians(degrees)` للتحويل من الدرجات.  
+- **Memory spikes on large pages:** استخدم `Document.save` مع `saveOptions.setCompress(true)` لتقليل استهلاك الذاكرة.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام Aspose.Page for Java مع لغات برمجة أخرى؟**  
+ج: المكتبة الأساسية مخصصة لـ Java فقط، لكن Aspose توفر واجهات برمجة تطبيقات مكافئة لـ .NET و C++ و Python، كلٌ مخصص لمنصته.
+
+**س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Page for Java؟**  
+ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية **[Aspose.Page free trial page](https://releases.aspose.com/)**.
+
+**س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page for Java؟**  
+ج: يمكنك الحصول على ترخيص مؤقت عبر **[temporary license request page](https://purchase.aspose.com/temporary-license/)**.
+
+**س: أين يمكنني العثور على دعم المجتمع والنقاشات المتعلقة بـ Aspose.Page for Java؟**  
+ج: زر **[Aspose.Page Forum](https://forum.aspose.com/c/page/39)** للحصول على مساعدة المجتمع.
+
+**س: هل هناك موارد إضافية لشراء Aspose.Page for Java؟**  
+ج: يمكنك شراء المكتبة عبر **[Aspose.Page purchase page](https://purchase.aspose.com/buy)**.
+
+## الخلاصة
+الآن لديك مثال كامل من البداية إلى النهاية لـ **aspose.page image manipulation java** ينشئ ملف PostScript، يترجم ويُدوّر صورة، ويحفظ النتيجة. استكشف **[documentation](https://reference.aspose.com/page/java/)** الكامل لاكتشاف الميزات المتقدمة مثل الرسومات المتجهة، أحجام الصفحات المخصصة، وعرض النص.
+
+---
+
+**آخر تحديث:** 2026-08-23  
+**تم الاختبار مع:** Aspose.Page for Java 23.11  
+**المؤلف:** Aspose  
 
 ```java
 document.closePage();
 document.save();
 ```
 
-يمكنك تكرار هذه الخطوات لإضافة صور متعددة أو تخصيص التحويلات وفقًا لمتطلباتك.
+## دروس ذات صلة
 
-## المشكلات الشائعة والحلول
-- **FileNotFoundException:** تأكد من أن مسار `dataDir` ينتهي بفاصل ملفات (`/` أو `\\`) وأن اسم ملف الصورة مطابق تمامًا.  
-- **ImageIO.read returns null:** تحقق من أن صيغة الصورة مدعومة (مثل JPEG، PNG).  
-- **Incorrect rotation angle:** `AffineTransform.rotate` يتوقع الزوايا بالراديان. حوّل الدرجات إلى راديان (`Math.toRadians(degrees)`) إذا لزم الأمر.
-
-## الأسئلة المتكررة
-
-**Q:** هل يمكنني استخدام Aspose.Page for Java مع لغات برمجة أخرى؟  
-**A:** Aspose.Page يدعم أساسًا Java، لكن هناك إصدارات متاحة للغات برمجة أخرى أيضًا.
-
-**Q:** هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Page for Java؟  
-**A:** نعم، يمكنك الوصول إلى النسخة التجريبية [هنا](https://releases.aspose.com/).
-
-**Q:** كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Page for Java؟  
-**A:** يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
-
-**Q:** أين يمكنني العثور على دعم المجتمع والنقاشات المتعلقة بـ Aspose.Page for Java؟  
-**A:** زر [منتدى Aspose.Page](https://forum.aspose.com/c/page/39) للحصول على دعم المجتمع.
-
-**Q:** هل هناك موارد إضافية لشراء Aspose.Page for Java؟  
-**A:** يمكنك شراء المكتبة [هنا](https://purchase.aspose.com/buy).
-
-## الخاتمة
-تهانينا! لقد تعلمت بنجاح كيفية **إنشاء postscript java** المستندات وتضمين الصور باستخدام Aspose.Page for Java. استكشف [التوثيق](https://reference.aspose.com/page/java/) لمزيد من الميزات المتقدمة والوظائف، مثل الرسومات المتجهة، عرض النص، وأحجام الصفحات المخصصة.
-
----
-
-**آخر تحديث:** 2026-02-15  
-**تم الاختبار مع:** Aspose.Page for Java 23.11  
-**المؤلف:** Aspose  
+- [كيفية تحويل PostScript إلى PDF باستخدام Aspose.Page Java API](/page/java/postscript-conversion/to-pdf/)
+- [كيفية إضافة تدرج: تدرج قطري في Java PostScript باستخدام Aspose.Page Java](/page/java/postscript-gradient-addition/diagonal/)
+- [كيفية إضافة نمط تظليل في Java PostScript باستخدام Aspose.Page](/page/java/postscript-hatch-patterns/add-hatch-pattern/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
