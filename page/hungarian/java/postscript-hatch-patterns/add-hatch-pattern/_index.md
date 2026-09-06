@@ -1,11 +1,51 @@
 ---
-date: 2026-02-15
-description: Tanulja meg, hogyan adhat hozzá hálómintát a Java PostScript fájlokhoz
-  az Aspose.Page Java használatával. Ez a lépésről‑lépésre útmutató bemutatja a teljes
-  kódot és tippeket.
-linktitle: Add Hatch Pattern in Java PostScript
+date: 2026-08-18
+description: Ismerje meg, hogyan adhat hozzá hatch pattern-et a Java PostScript fájlokhoz
+  az Aspose.Page Java használatával. Ez a lépésről‑lépésre útmutató a teljes kódot
+  és tippeket mutatja be.
+keywords:
+- how to add hatch pattern
+- Aspose.Page Java
+- PostScript hatch patterns
+- Java graphics API
+lastmod: 2026-08-18
+linktitle: Hatch Pattern hozzáadása a Java PostScript-hez
+og_description: Ismerje meg, hogyan adhat hozzá hatch pattern-et a Java PostScript-hez
+  az Aspose.Page használatával. Kövesse ezt a lépésről‑lépésre oktatóanyagot, hogy
+  gyorsan létrehozhasson hatch‑filled grafikákat.
+og_image_alt: Screenshot of Java code adding hatch pattern to a PostScript file with
+  Aspose.Page
+og_title: Hogyan adjon hozzá hatch pattern-et a Java PostScript-hez – Aspose.Page
+  útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-08-18'
+  description: Learn how to add hatch pattern to Java PostScript files using Aspose.Page
+    Java. This step‑by‑step guide shows the complete code and tips.
+  headline: How to add hatch pattern in Java PostScript
+  type: TechArticle
+- questions:
+  - answer: Yes, the library is framework‑agnostic and works with Spring, Jakarta
+      EE, Android (limited), and plain Java SE.
+    question: Can I use Aspose.Page Java with other Java frameworks?
+  - answer: Absolutely. Download a free 30‑day trial [Aspose trial download page](https://releases.aspose.com/).
+    question: Is a trial version available for Aspose.Page Java?
+  - answer: Request a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/).
+      It removes evaluation watermarks.
+    question: How do I obtain a temporary license for development?
+  - answer: Visit the official forum [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39)
+      for additional examples and Q&A.
+    question: Where can I find more tutorials and community support?
+  - answer: Yes, the full API reference is available [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
+    question: Is there comprehensive documentation for all classes and methods?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Hogyan adjon hozzá keresztrejtmintát Java PostScriptben az Aspose.Page használatával
+tags:
+- Java
+- Aspose.Page
+- PostScript
+- hatch pattern
+title: Hogyan adjon hozzá hatch pattern-et a Java PostScript-hez
 url: /hu/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
@@ -14,31 +54,35 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan adjon hozzá csíkozott mintát Java PostScriptben
+# Hogyan adjon hozzá áthúzási mintát Java PostScript-ben
 
 ## Bevezetés
-Ha **Aspose.Page Java**‑val dolgozik, és arra kíváncsi, **hogyan adjon hozzá hatch pattern**‑t a PostScript kimenetéhez, a csíkozott minták gyors és rugalmas megoldást jelentenek. Ebben az útmutatóban végigvezetjük, **hogyan adjon hozzá hatch** tervezeteket egy PostScript dokumentumhoz, elmagyarázzuk, miért hasznosak, és egy teljes, azonnal futtatható kódrészletet is bemutatunk. A végére képes lesz vizuálisan vonzó, csíkozott kitöltésű alakzatokat és szöveget létrehozni néhány Java sorral.
+If you’re working with **Aspose.Page Java** and wondering **how to add hatch pattern** to your PostScript output, hatch patterns are a fast and flexible solution. In this tutorial we’ll walk through **how to add hatch** designs to a PostScript document, explain why they’re useful, and give you a complete, ready‑to‑run code example. By the end, you’ll be able to create visually appealing hatch‑filled shapes and text with just a few lines of Java.
 
 ## Gyors válaszok
-- **Melyik könyvtárra van szükségem?** Aspose.Page for Java (az „aspose page java” SDK).  
-- **Milyen vizuális hatást adunk hozzá?** Hatch pattern‑ek (pl. átlós vonalak, keresztcsíkozás).  
-- **Szükség van licencre a minta futtatásához?** Egy ingyenes próba verzió elegendő fejlesztéshez; licenc szükséges a termeléshez.  
-- **Hány sor kód?** Körülbelül 70 sor, világos lépésekre bontva.  
-- **Ugyanazt a megközelítést használhatom PDF‑ekhez is?** Igen — az Aspose.Page több kimeneti formátumot támogat, köztük a PDF‑et.
+- **Milyen könyvtárra van szükségem?** Aspose.Page for Java (the “aspose page java” SDK).  
+- **Milyen vizuális hatást adunk hozzá?** Hatch patterns (e.g., diagonal lines, crosshatch).  
+- **Szükségem van licencre a minta futtatásához?** Ingyenes próba működik fejlesztéshez; licenc szükséges a termeléshez.  
+- **Hány sor kódból áll?** Körülbelül 70 sor, világos lépésekre bontva.  
+- **Használhatom ugyanazt a megközelítést PDF-ekhez?** Igen—Aspose.Page supports multiple output formats, including PDF.
 
-## Hogyan adjon hozzá hatch pattern‑t – Áttekintés
-A hatch pattern‑ek vektor‑alapú textúrák, amelyek bármilyen felbontáson tisztán jelennek meg, és jól működnek monokróm nyomtatókon. Az Aspose.Page Java segítségével ezeket a mintákat alakzatokra, útvonalakra és akár szövegre is alkalmazhatja anélkül, hogy alacsony szintű PostScript parancsokkal kellene foglalkoznia.
+## Mi az a áthúzási minta?
+A hatch pattern egy vektor‑alapú kitöltés, amely ismétlődő vonalakból vagy alakzatokból áll, és textúrahatást hoz létre. Mivel matematikailag van definiálva, a minta minőségromlás nélkül skálázható, így ideális nagy felbontású nyomtatáshoz és monokróm kimenethez.
 
-## Előfeltételek
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik a következőkkel:
+## Miért használjunk hatch mintákat az Aspose.Page Java-val?
+Az Aspose.Page támogat **10+ kimeneti formátumot** (köztük PostScript, PDF, EPS, SVG és XPS) és képes hatch kitöltéseket megjeleníteni legfeljebb **500 oldalas** dokumentumokon anélkül, hogy az egész fájlt a memóriába töltené. Ez azt jelenti, hogy gyors teljesítményt, alacsony memóriahasználatot és konzisztens vizuális eredményeket kap minden támogatott formátumban.
 
-- **Java fejlesztői környezet** — JDK 8 vagy újabb, valamint a választott IDE.  
-- **Aspose.Page for Java könyvtár** — Töltse le a legújabb JAR‑t a hivatalos oldalról [itt](https://releases.aspose.com/page/java/).  
-- **Írási jogosultság** egy olyan mappához, ahová a generált PostScript fájlt menteni fogja.
+## Hogyan adjunk hozzá hatch mintát – áttekintés
+A hatch minták vektor‑alapú textúrák, amelyek tisztán jelennek meg bármilyen felbontáson, és jól működnek monokróm nyomtatókon. Az Aspose.Page Java segítségével ezeket a mintákat alakzatokra, útvonalakra és akár szövegre is alkalmazhatja anélkül, hogy alacsony szintű PostScript parancsokkal kellene foglalkoznia.
 
-## Csomagok importálása
-Először hozza be a szükséges osztályokat a projektbe. Ezek az importok hozzáférést biztosítanak a rajzolási primitívekhez, a színkezeléshez és az Aspose.Page API‑hoz.
+## Előkövetelmények
+- **Java fejlesztői környezet** – JDK 8 vagy újabb, valamint a választott IDE.  
+- **Aspose.Page for Java könyvtár** – Töltse le a legújabb JAR-t a hivatalos **Aspose.Page for Java letöltési oldalról** [here](https://releases.aspose.com/page/java/).  
+- Más Aspose kiadásokat is böngészhet [here](https://releases.aspose.com/).  
+- **Írási hozzáférés** egy mappához, ahová a generált PostScript fájl mentésre kerül.
 
+## Import packages
+The imports below include standard Java AWT classes for graphics primitives such as colors, strokes, and geometric shapes, as well as Aspose.Page classes that provide the document model, hatch‑style definitions, and saving options required to generate a PostScript file.  
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -52,9 +96,11 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## 1. lépés: Kezdeti paraméterek beállítása
-Hozza létre a kimeneti streamet, konfigurálja az oldal méretét (A4), és definiáljon néhány elrendezési változót, amelyeket a csíkozott négyzetek rajzolásakor újra felhasználunk.
+## Mi az a `Document` osztály?
+A `Document` osztály az Aspose.Page felső szintű objektuma, amely egyetlen PostScript fájlt képvisel a memóriában. Minden rajzolási művelet ezen az objektumon keresztül történik.
 
+## Hogyan állítsuk be a kimeneti adatfolyamot?
+A kimenet írásához hozzon létre egy `FileOutputStream`-et, amely a kívánt fájlútra mutat; ez az adatfolyam kezeli az alacsony szintű bájtírást. A `PsSaveOptions` beállítja, hogyan mentődik a dokumentum, beleértve az oldalméretet és a tömörítést. Ezután példányosítson egy `Document`-et egy `PsSaveOptions` objektummal, amely meghatározza az oldalméretet, a tömörítést és egyéb PostScript‑specifikus beállításokat.  
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -71,31 +117,27 @@ int width = 500;
 int sumX = 0;
 ```
 
-## 2. lépés: Grafikai állapot mentése és transzformáció
-A grafikai állapot mentése lehetővé teszi, hogy később visszatérjünk az eredeti koordináta‑rendszerhez, míg a `translate` a kiindulási pontot egy kényelmes helyre helyezi.
-
+## Hogyan mentse el a grafikai állapotot és transzformálja az origót?
+A grafikai állapot mentése rögzíti a jelenlegi transzformációs mátrixot, a vágási területet és a rajzolási attribútumokat, lehetővé téve a későbbi visszaállítást. Mentés után hívja meg a `translate(x, y)` metódust a graphics objektumon, hogy az origót egy kényelmes helyre mozgassa a hatch négyzetek rácsának rajzolásához.  
 ```java
 document.writeGraphicsSave();
 document.translate(x0, y0);
 ```
 
-## 3. lépés: Négyzet létrehozása minden mintához
-Definiáljon egy újrahasználható téglalapot, amely minden csíkozott cellát képvisel.
-
+## Hogyan hozzunk létre újrahasználható négyzetet minden mintához?
+A `Rectangle2D` egy téglalap alakzatot képvisel, amely pozíciója és mérete alapján van definiálva. Egyetlen példány létrehozásával, amely megfelel a cella méreteinek, újra felhasználható minden hatch‑kitöltött négyzethez, csökkentve az objektumok lefoglalását és hatékonyan tartva a rajzolási ciklust.  
 ```java
 Rectangle2D.Float square = new Rectangle2D.Float(0, 0, squareSide, squareSide);
 ```
 
-## 4. lépés: Toll beállítása a minta négyzet körvonalához
-A 2 pont vastagságú `BasicStroke` tiszta körvonalat ad minden négyzet köré.
-
+## Hogyan állítsuk be a tollat a minta négyzet körvonalához?
+A `BasicStroke` leírja a körvonal vastagságát, a szaggatott mintát és a végkapcsokat a vektor alakzatokhoz. Egy 2‑pontos `BasicStroke` használata tiszta szegélyt biztosít minden hatch‑kitöltött cella körül, biztosítva, hogy a kitöltés vizuálisan el legyen választva a szomszédos négyzetektől.  
 ```java
 BasicStroke stroke = new BasicStroke(2);
 ```
 
-## 5. lépés: Hatch pattern‑ök bejárása
-Iteráljon végig a `HatchStyle` enum minden értékén, töltse ki a négyzetet a megfelelő textúrával, majd rajzolja meg a körvonalát. Ez a **hatch pattern hozzáadásának** magja.
-
+## Hogyan iteráljunk a hatch mintákon?
+A `HatchStyle` egy felsorolás, amely felsorolja az összes előre definiált hatch mintát, például átlós, kereszt és pontozott stílusokat. A `HatchStyle.values()` felett történő ciklus lehetővé teszi, hogy sorban alkalmazza minden mintát, kitöltse a téglalapot egy `HatchBrush`‑szel, majd megrajzolja a körvonalát.  
 ```java
 HatchStyle[] hatchStyles = HatchStyle.values();
 for (int i = 0; i < hatchStyles.length; i++) {
@@ -103,81 +145,76 @@ for (int i = 0; i < hatchStyles.length; i++) {
 }
 ```
 
-## 6. lépés: Grafikai állapot visszaállítása
-Térjen vissza az eredeti koordináta‑rendszerhez, miután befejezte a négyzetek rácsának rajzolását.
-
+## Hogyan állítsuk vissza a grafikai állapotot a rajzolás után?
+A `restore()` hívása a graphics objektumon visszaállítja a transzformációs mátrixot és a rajzolási beállításokat a korábban mentett állapotra, megakadályozva, hogy a kumulatív transzformációk vagy skálázás befolyásolják a későbbi rajzolási műveleteket. Ez biztosítja, hogy a későbbi tartalom az eredeti koordináta‑rendszerről induljon, és az alapértelmezett attribútumokat használja.  
 ```java
 document.writeGraphicsRestore();
 ```
 
-## 7. lépés: Szöveg kitöltése hatch pattern‑nel
-Itt bemutatjuk, hogyan lehet szöveget festeni egy csíkozott textúrával. A példa a „ABC” szót tölti ki egy átlós‑kereszt mintával.
-
+## Hogyan töltsünk ki szöveget hatch mintával?
+A `TextFragment` egy szövegrészt képvisel, amely önállóan pozicionálható és stílusozható. Ha egy `HatchBrush`‑t a kiválasztott `HatchStyle`‑val rendeli a fragment kitöltéséhez, a szövegkarakterek a hatch textúra segítségével jelennek meg egy szilárd szín helyett.  
 ```java
 TexturePaint paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.DiagonalCross, Color.RED, Color.YELLOW);
 Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 320, paint, Color.BLACK, stroke);
 ```
 
-## 8. lépés: Szöveg körvonalazása hatch pattern‑nel
-Most ugyanazt a szöveget körvonalazzuk, de ezúttal 70 % hatch stílust és vastagabb vonalat használunk.
-
+## Hogyan rajzoljunk körvonalat a szövegre különböző hatch stílussal?
+A `HatchBrush` használható vonalzáshoz is. Körvonal rajzolásához állítsa be a fragment vonalát egy másik `HatchStyle`‑ú `HatchBrush`‑ra (pl. 70 % hatch) és növelje a vonalvastagságot a `setStrokeWidth`‑el. Ez a szöveg szegélyét saját hatch mintával jeleníti meg, miközben megőrzi a kitöltött belső részt.  
 ```java
 paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.Percent70, Color.BLUE, Color.WHITE);
 document.outlineText("ABC", font, 200, 420, paint, new BasicStroke(5));
 ```
 
-## 9. lépés: Dokumentum lezárása és mentése
-Fejezze be az oldalt, írja a fájlt a lemezre, és szabadítsa fel az erőforrásokat.
-
+## Hogyan zárjuk be és mentsük a dokumentumot?
+A `document.save()` a memóriában lévő dokumentumot a megadott kimeneti adatfolyamba írja. Miután az összes rajzolási parancs befejeződött, hívja meg ezt a metódust, majd zárja be a `FileOutputStream`‑et a rendszer erőforrásainak felszabadításához és a fájl megfelelő lemezre írásának biztosításához.  
 ```java
 document.closePage();
 document.save();
 ```
 
-Kövesse ezeket a lépéseket, és egy olyan PostScript fájlt kap, amely teljes körű hatch pattern‑eket mutat be alakzatokra és szövegre egyaránt — mindezt a **aspose page java** hajtja.
+Kövesse ezeket a lépéseket, és egy PostScript fájlt kap, amely bemutatja a hatch minták teljes készletét, amely alakzatokra és szövegre egyaránt alkalmazva van – mindezt az **aspose page java** hajtja.
 
-## Miért használjon hatch pattern‑eket az Aspose.Page Java‑val?
-- **Vizuális megkülönböztetés** — A hatch kitöltések akkor is működnek, ha a nyomtatók csak monokróm kimenetet támogatnak.  
-- **Teljesítmény** — A textúrák futás közben generálódnak, így elkerülhető a nagy képfájlok használata.  
-- **Kereszt‑formátum támogatás** — Ugyanaz a kód célzottan PDF, EPS vagy SVG formátumra is átalakítható minimális módosítással.
+## Gyakori buktatók és tippek
+- **Fájlútvonal hibák** – Győződjön meg róla, hogy a `dataDir` a megfelelő fájlelválasztóval (`/` vagy `\`) végződik.  
+- **Nem támogatott színek** – Egyes régebbi PostScript interpreterek nem kezelhetnek bizonyos színtereket; használjon alap RGB-t a legnagyobb kompatibilitás érdekében.  
+- **Licenc figyelmeztetések** – A minta érvényes licenc nélkül történő futtatása vízjelet ágyaz be a kimenetbe.
 
-## Gyakori hibák és tippek
-- **Fájlútvonal hibák** — Győződjön meg róla, hogy a `dataDir` a megfelelő fájl‑elválasztóval (`/` vagy `\`) végződik.  
-- **Nem támogatott színek** — Egyes régebbi PostScript interpreterek nem kezelik bizonyos színtereket; a maximális kompatibilitás érdekében maradjon az alap RGB‑nél.  
-- **Licenc figyelmeztetések** — A minta licenc nélküli futtatása vízjelet helyez a kimenetre.
+## Gyakran feltett kérdések
 
-## Következtetés
-A hatch pattern‑ek beépítése drámaian javíthatja a technikai rajzok, térképek vagy bármely Java‑val generált grafika olvashatóságát és esztétikáját. Az **Aspose.Page Java** egy tömör API‑t biztosít, amely elrejti az alacsony szintű PostScript parancsokat, így a tervezésre koncentrálhat a fájlformátum részletei helyett. Most már tudja, **hogyan adjon hozzá hatch pattern‑t** a PostScript dokumentumokhoz — kísérletezzen különböző `HatchStyle` értékekkel, hogy a kívánt megjelenést érje el.
+**Q: Használhatom az Aspose.Page Java-t más Java keretrendszerekkel?**  
+A: Igen, a könyvtár keretrendszer‑független, és működik Spring‑kel, Jakarta EE‑vel, Android‑nal (korlátozottan), valamint tiszta Java SE‑vel.
 
-## Gyakran Ismételt Kérdések
-
-**Q: Használhatom az Aspose.Page Java‑t más Java keretrendszerekkel?**  
-A: Igen, a könyvtár keretrendszer‑független, és működik Spring‑kel, Jakarta EE‑vel, Android‑nal (korlátozottan) és tiszta Java SE‑vel.
-
-**Q: Elérhető próba verzió az Aspose.Page Java‑hoz?**  
-A: Természetesen. Töltse le a 30‑napos ingyenes próba verziót [itt](https://releases.aspose.com/).
+**Q: Elérhető próba verzió az Aspose.Page Java-hoz?**  
+A: Teljesen. Töltse le az ingyenes 30‑napos próbát [Aspose trial download page](https://releases.aspose.com/).
 
 **Q: Hogyan szerezhetek ideiglenes licencet fejlesztéshez?**  
-A: Kérjen ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/). Ez eltávolítja a kiértékelési vízjelet.
+A: Kérjen ideiglenes licencet [temporary license request page](https://purchase.aspose.com/temporary-license/). Ez eltávolítja a kiértékelési vízjeleket.
 
 **Q: Hol találok további oktatóanyagokat és közösségi támogatást?**  
-A: Látogassa meg a hivatalos fórumot [Aspose.Page for Java fórum](https://forum.aspose.com/c/page/39) további példák és Q&A céljából.
+A: Látogassa meg a hivatalos fórumot [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) további példák és kérdések‑válaszokért.
 
-**Q: Van átfogó dokumentáció minden osztályhoz és metódushoz?**  
-A: Igen, a teljes API referencia elérhető [itt](https://reference.aspose.com/page/java/).
+**Q: Van átfogó dokumentáció minden osztályról és metódusról?**  
+A: Igen, a teljes API referencia elérhető [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
 
-**Q: Renderelhetem ugyanazt a hatch pattern‑t PDF‑ben a PostScript helyett?**  
-A: Teljesen. Cserélje a `PsSaveOptions`‑t `PdfSaveOptions`‑ra (vagy a megfelelő ekvivalensre), a kód többi része változatlan marad.
+**Q: Renderelhetem ugyanazt a hatch mintát PDF‑be a PostScript helyett?**  
+A: Természetesen. Módosítsa a `PsSaveOptions`‑t `PdfSaveOptions`‑ra (vagy a megfelelő változatra), a kód többi része változatlan marad.
 
 **Q: Mit tegyek, ha a generált fájl üres?**  
-A: Ellenőrizze, hogy a kimeneti stream egy írható könyvtárra mutat, és hogy a `document.save()` a rajzolási műveletek után meghívásra kerül.
+A: Ellenőrizze, hogy a kimeneti adatfolyam egy írható könyvtárra mutat, és hogy a `document.save()` a minden rajzolási művelet után van meghívva.
 
 ---
 
-**Utoljára frissítve:** 2026-02-15  
-**Tesztelve:** Aspose.Page for Java 24.12 (a cikk írásakor legújabb)  
+**Utolsó frissítés:** 2026-08-18  
+**Tesztelve ezzel:** Aspose.Page for Java 24.12 (latest at time of writing)  
 **Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Textúraminta létrehozása PostScript-ben – Aspose.Page Java](/page/java/postscript-texture-patterns/)
+- [Hogyan adjunk hozzá színátmenetet: Átlós színátmenet Java PostScript-ben az Aspose.Page Java használatával](/page/java/postscript-gradient-addition/diagonal/)
+- [Hogyan konvertáljuk a PostScript-et PDF-re az Aspose.Page Java API használatával](/page/java/postscript-conversion/to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

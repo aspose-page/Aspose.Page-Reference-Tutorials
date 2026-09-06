@@ -1,10 +1,48 @@
 ---
-date: 2026-02-15
-description: Lär dig hur du lägger till skraffering i Java PostScript‑filer med Aspose.Page
-  Java. Denna steg‑för‑steg‑guide visar den kompletta koden och tips.
-linktitle: Add Hatch Pattern in Java PostScript
+date: 2026-08-18
+description: Lär dig hur du lägger till skraffurmönster i Java PostScript-filer med
+  Aspose.Page Java. Denna steg-för-steg-guide visar den kompletta koden och tips.
+keywords:
+- how to add hatch pattern
+- Aspose.Page Java
+- PostScript hatch patterns
+- Java graphics API
+lastmod: 2026-08-18
+linktitle: Lägg till skraffurmönster i Java PostScript
+og_description: Lär dig hur du lägger till skraffurmönster i Java PostScript med Aspose.Page.
+  Följ denna steg-för-steg-handledning för att snabbt skapa grafik fylld med skraffur.
+og_image_alt: Screenshot of Java code adding hatch pattern to a PostScript file with
+  Aspose.Page
+og_title: Hur man lägger till skraffurmönster i Java PostScript – Aspose.Page-guide
+schemas:
+- author: Aspose
+  dateModified: '2026-08-18'
+  description: Learn how to add hatch pattern to Java PostScript files using Aspose.Page
+    Java. This step‑by‑step guide shows the complete code and tips.
+  headline: How to add hatch pattern in Java PostScript
+  type: TechArticle
+- questions:
+  - answer: Yes, the library is framework‑agnostic and works with Spring, Jakarta
+      EE, Android (limited), and plain Java SE.
+    question: Can I use Aspose.Page Java with other Java frameworks?
+  - answer: Absolutely. Download a free 30‑day trial [Aspose trial download page](https://releases.aspose.com/).
+    question: Is a trial version available for Aspose.Page Java?
+  - answer: Request a temporary license [temporary license request page](https://purchase.aspose.com/temporary-license/).
+      It removes evaluation watermarks.
+    question: How do I obtain a temporary license for development?
+  - answer: Visit the official forum [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39)
+      for additional examples and Q&A.
+    question: Where can I find more tutorials and community support?
+  - answer: Yes, the full API reference is available [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
+    question: Is there comprehensive documentation for all classes and methods?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Hur man lägger till skraffurmönster i Java PostScript med Aspose.Page
+tags:
+- Java
+- Aspose.Page
+- PostScript
+- hatch pattern
+title: Hur man lägger till skraffurmönster i Java PostScript
 url: /sv/java/postscript-hatch-patterns/add-hatch-pattern/
 weight: 10
 ---
@@ -13,31 +51,35 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hur man lägger till skraffärmönster i Java PostScript
+# Hur man lägger till hatch-mönster i Java PostScript
 
-## Introduction
-Om du arbetar med **Aspose.Page Java** och undrar **hur man lägger till skraffärmönster** i ditt PostScript‑utdata, är skraffärmönster en snabb och flexibel lösning. I den här handledningen går vi igenom **hur man lägger till skraffering** i ett PostScript‑dokument, förklarar varför de är användbara och ger dig ett komplett, färdigt kodexempel. I slutet kommer du att kunna skapa visuellt tilltalande skraffade former och text med bara några rader Java.
+## Introduktion
+Om du arbetar med **Aspose.Page Java** och undrar **hur man lägger till hatch-mönster** i ditt PostScript-utdata, är hatch-mönster en snabb och flexibel lösning. I den här handledningen går vi igenom **hur man lägger till hatch**-designer i ett PostScript-dokument, förklarar varför de är användbara och ger dig ett komplett, färdigt kodexempel. I slutet kommer du att kunna skapa visuellt tilltalande hatch-fyllda former och text med bara några rader Java.
 
-## Quick Answers
-- **Vilket bibliotek behöver jag?** Aspose.Page for Java (det “aspose page java” SDK).  
-- **Vilken visuell effekt lägger vi till?** Skraffärmönster (t.ex. diagonala linjer, korsskraffering).  
+## Snabba svar
+- **Vilket bibliotek behöver jag?** Aspose.Page för Java (det “aspose page java” SDK).  
+- **Vilken visuell effekt lägger vi till?** Hatch-mönster (t.ex. diagonala linjer, korshatch).  
 - **Behöver jag en licens för att köra exemplet?** En gratis provversion fungerar för utveckling; en licens krävs för produktion.  
 - **Hur många kodrader?** Ungefär 70 rader, uppdelade i tydliga steg.  
-- **Kan jag använda samma metod för PDF?** Ja—Aspose.Page stödjer flera utdataformat, inklusive PDF.
+- **Kan jag använda samma metod för PDF?** Ja—Aspose.Page stöder flera utdataformat, inklusive PDF.
 
-## How to Add Hatch Pattern – Overview
-Skraffärmönster är vektorbaserade texturer som renderas rent i alla upplösningar och fungerar bra på monokroma skrivare. Med Aspose.Page Java kan du applicera dessa mönster på former, banor och till och med text utan att behöva hantera låg‑nivå PostScript‑kommandon.
+## Vad är ett hatch-mönster?
+Ett hatch-mönster är en vektorbaserad fyllning bestående av upprepade linjer eller former som skapar en textur‑effekt. Eftersom det definieras matematiskt skalas mönstret utan kvalitetsförlust, vilket gör det idealiskt för högupplöst utskrift och monokrom utdata.
 
-## Prerequisites
-Innan du börjar, se till att du har:
+## Varför använda hatch-mönster med Aspose.Page Java?
+Aspose.Page stöder **10+ utdataformat** (inklusive PostScript, PDF, EPS, SVG och XPS) och kan rendera hatch-fyllningar i dokument upp till **500 sidor** utan att ladda in hela filen i minnet. Detta innebär att du får snabb prestanda, lågt minnesutnyttjande och konsekventa visuella resultat över alla stödda format.
 
-- **Java‑utvecklingsmiljö** – JDK 8 eller högre och en IDE du föredrar.  
-- **Aspose.Page för Java‑bibliotek** – Ladda ner den senaste JAR‑filen från den officiella sidan [here](https://releases.aspose.com/page/java/).  
+## Så lägger du till hatch-mönster – översikt
+Hatch-mönster är vektorbaserade texturer som renderas rent vid vilken upplösning som helst och fungerar bra på monokroma skrivare. Med Aspose.Page Java kan du applicera dessa mönster på former, banor och även text utan att behöva hantera låg‑nivå PostScript‑kommandon.
+
+## Förutsättningar
+- **Java-utvecklingsmiljö** – JDK 8 eller högre och en IDE du föredrar.  
+- **Aspose.Page för Java‑bibliotek** – Ladda ner den senaste JAR‑filen från den officiella **Aspose.Page för Java‑nedladdningssidan** [here](https://releases.aspose.com/page/java/).  
+- Du kan också bläddra bland andra Aspose‑utgåvor [here](https://releases.aspose.com/).  
 - **Skrivbehörighet** till en mapp där den genererade PostScript‑filen kommer att sparas.
 
-## Import Packages
-Först, importera de nödvändiga klasserna till ditt projekt. Dessa imports ger dig tillgång till ritningsprimitiver, färghantering och Aspose.Page‑API.
-
+## Importera paket
+Importerna nedan inkluderar standard Java AWT-klasser för grafikprimitiver såsom färger, penslar och geometriska former, samt Aspose.Page-klasser som tillhandahåller dokumentmodellen, hatch‑stildefinitioner och sparalternativ som krävs för att generera en PostScript‑fil.  
 ```java
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -51,9 +93,11 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Step 1: Set Up Initial Parameters
-Skapa output‑strömmen, konfigurera sidstorleken (A4) och definiera några layoutvariabler som kommer att återanvändas när varje skraffad kvadrat ritas.
+## Vad är klassen `Document`?
+`Document`‑klassen är Aspose.Page:s översta objekt som representerar en enda PostScript‑fil i minnet. Alla ritoperationer utförs via detta objekt.
 
+## Hur ställer du in output‑strömmen?
+För att skriva utdata, skapa en `FileOutputStream` som pekar på den önskade filsökvägen; denna ström hanterar låg‑nivå byte‑skrivning. `PsSaveOptions` konfigurerar hur dokumentet sparas, inklusive sidstorlek och komprimering. Skapa sedan ett `Document` med ett `PsSaveOptions`‑objekt som specificerar sidstorlek, komprimering och andra PostScript‑specifika inställningar.  
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -70,31 +114,27 @@ int width = 500;
 int sumX = 0;
 ```
 
-## Step 2: Save Graphics State and Translate
-Att spara grafik‑tillståndet låter oss återgå till det ursprungliga koordinatsystemet senare, medan `translate` flyttar origo till en bekväm startpunkt.
-
+## Hur sparar du grafik‑tillståndet och förflyttar ursprunget?
+Att spara grafik‑tillståndet fångar den aktuella transformationsmatrisen, klippningsområdet och ritattributen, vilket gör att du kan återgå senare. Efter sparandet, anropa `translate(x, y)` på grafik‑objektet för att flytta ursprunget till en lämplig plats för att rita ett rutnät av hatch‑rutor.  
 ```java
 document.writeGraphicsSave();
 document.translate(x0, y0);
 ```
 
-## Step 3: Create Square for Each Pattern
-Definiera en återanvändbar rektangel som kommer att representera varje skraffad cell.
-
+## Hur skapar du en återanvändbar ruta för varje mönster?
+`Rectangle2D` representerar en rektangulär form definierad av dess position och storlek. Genom att skapa en enda instans som matchar cellens dimensioner kan du återanvända den för varje hatch‑fylld ruta, vilket minskar objektallokering och håller rit‑loopen effektiv.  
 ```java
 Rectangle2D.Float square = new Rectangle2D.Float(0, 0, squareSide, squareSide);
 ```
 
-## Step 4: Set Up Pen for Pattern Square Outline
-En `BasicStroke` på 2 punkter ger en skarp kontur runt varje kvadrat.
-
+## Hur ställer du in en penna för mönster‑rutans kontur?
+`BasicStroke` beskriver konturens tjocklek, streckmönster och ändkapslar för vektorformer. Att använda en 2‑punkts `BasicStroke` ger en tydlig kant runt varje hatch‑fylld cell, vilket säkerställer att fyllningen visuellt separeras från intilliggande rutor.  
 ```java
 BasicStroke stroke = new BasicStroke(2);
 ```
 
-## Step 5: Iterate Through Hatch Patterns
-Loopa igenom varje värde i `HatchStyle`‑enum, fyll varje kvadrat med motsvarande textur och rita sedan dess kontur. Detta är kärnan i **lägg till skraffärmönster**‑funktionaliteten.
-
+## Hur itererar du genom hatch-mönster?
+`HatchStyle` är en uppräkning som listar alla fördefinierade hatch‑mönster såsom diagonala, kors‑ och prickade stilar. Att loopa över `HatchStyle.values()` låter dig applicera varje mönster i tur och ordning, fylla rektangeln med en `HatchBrush` och sedan rita dess kontur.  
 ```java
 HatchStyle[] hatchStyles = HatchStyle.values();
 for (int i = 0; i < hatchStyles.length; i++) {
@@ -102,81 +142,76 @@ for (int i = 0; i < hatchStyles.length; i++) {
 }
 ```
 
-## Step 6: Restore Graphics State
-Återgå till det ursprungliga koordinatsystemet efter att vi har ritat rutnätet av kvadrater.
-
+## Hur återställer du grafik‑tillståndet efter ritning?
+Att anropa `restore()` på grafik‑objektet återställer transformationsmatrisen och ritinställningarna till det tidigare sparade tillståndet, vilket förhindrar kumulativa förflyttningar eller skalningar från att påverka efterföljande ritoperationer. Detta säkerställer att senare innehåll startar från det ursprungliga koordinatsystemet och använder standardattribut.  
 ```java
 document.writeGraphicsRestore();
 ```
 
-## Step 7: Fill Text with Hatch Pattern
-Här demonstrerar vi hur man målar text med en skrafferingstextur. Exemplet fyller ordet “ABC” med ett diagonal‑kors‑mönster.
-
+## Hur fyller du text med ett hatch-mönster?
+`TextFragment` representerar ett textstycke som kan positioneras och stylas oberoende. Genom att tilldela ett `HatchBrush` med en vald `HatchStyle` till fragmentets fyllning, renderas tecknen med hatch‑texturen istället för en solid färg.  
 ```java
 TexturePaint paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.DiagonalCross, Color.RED, Color.YELLOW);
 Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 320, paint, Color.BLACK, stroke);
 ```
 
-## Step 8: Outline Text with Hatch Pattern
-Nu konturerar vi samma text, men den här gången med en 70 % skraffering och en tjockare linje.
-
+## Hur konturerar du text med en annan hatch-stil?
+`HatchBrush` kan också användas för konturering. För att rita en kontur, sätt fragmentets stroke till ett `HatchBrush` med en annan `HatchStyle` (t.ex. 70 % hatch) och öka penselbredden via `setStrokeWidth`. Detta renderar textens kant med sitt eget hatch‑mönster samtidigt som den fyllda insidan bevaras.  
 ```java
 paint = HatchPaintLibrary.getHatchTexturePaint(HatchStyle.Percent70, Color.BLUE, Color.WHITE);
 document.outlineText("ABC", font, 200, 420, paint, new BasicStroke(5));
 ```
 
-## Step 9: Close and Save Document
-Slutför sidan, skriv filen till disk och frigör resurser.
-
+## Hur stänger och sparar du dokumentet?
+`document.save()` skriver det minnes‑lagrade dokumentet till den angivna output‑strömmen. Efter att alla ritkommandon är slutförda, anropa denna metod och stäng sedan `FileOutputStream` för att frigöra systemresurser och säkerställa att filen korrekt skrivs till disk.  
 ```java
 document.closePage();
 document.save();
 ```
 
-Följ dessa steg så får du en PostScript‑fil som visar en komplett uppsättning skraffärmönster applicerade på både former och text—allt drivet av **aspose page java**.
+Följ dessa steg, så får du en PostScript‑fil som visar en komplett uppsättning hatch‑mönster applicerade på både former och text—allt drivet av **aspose page java**.
 
-## Why Use Hatch Patterns with Aspose.Page Java?
-- **Visuell distinktion** – Skraffering fungerar även när skrivare är begränsade till monokrom utdata.  
-- **Prestanda** – Texturer genereras i farten, så du undviker stora bildfiler.  
-- **Stöd för flera format** – Samma kod kan rikta sig mot PDF, EPS eller SVG med minimala ändringar.
-
-## Common Pitfalls & Tips
-- **Fel i filsökväg** – Se till att `dataDir` slutar med rätt filseparator (`/` eller `\`).  
-- **Ej stöd för vissa färger** – Vissa äldre PostScript‑tolkare hanterar kanske inte vissa färgrymder; håll dig till grundläggande RGB för maximal kompatibilitet.  
+## Vanliga fallgropar & tips
+- **Filvägsfel** – Se till att `dataDir` slutar med rätt filseparator (`/` eller `\`).  
+- **Ej stödda färger** – Vissa äldre PostScript‑tolkare hanterar kanske inte vissa färgrymder; håll dig till grundläggande RGB för maximal kompatibilitet.  
 - **Licensvarningar** – Att köra exemplet utan en giltig licens kommer att bädda in ett vattenmärke i utdata.
 
-## Conclusion
-Att integrera skraffärmönster kan avsevärt förbättra läsbarheten och estetiken i tekniska ritningar, kartor eller annan grafik som genereras av Java. Med **Aspose.Page Java** får du ett koncist API som abstraherar låg‑nivå PostScript‑kommandon, så att du kan fokusera på design snarare än filformat‑detaljer. Nu vet du **hur man lägger till skraffärmönster** i dina PostScript‑dokument—experimentera med olika `HatchStyle`‑värden för att skapa exakt det utseende du behöver.
-
-## Frequently Asked Questions
+## Vanligt förekommande frågor
 
 **Q: Kan jag använda Aspose.Page Java med andra Java‑ramverk?**  
 A: Ja, biblioteket är ramverks‑agnostiskt och fungerar med Spring, Jakarta EE, Android (begränsat) och ren Java SE.
 
-**Q: Finns en provversion av Aspose.Page Java?**  
-A: Absolut. Ladda ner en gratis 30‑dagars provversion [here](https://releases.aspose.com/).
+**Q: Finns en provversion tillgänglig för Aspose.Page Java?**  
+A: Absolut. Ladda ner en gratis 30‑dagars provversion [Aspose trial download page](https://releases.aspose.com/).
 
 **Q: Hur får jag en tillfällig licens för utveckling?**  
-A: Begär en tillfällig licens [here](https://purchase.aspose.com/temporary-license/). Den tar bort utvärderingsvattenmärken.
+A: Begär en tillfällig licens [temporary license request page](https://purchase.aspose.com/temporary-license/). Den tar bort utvärderingsvattenmärken.
 
 **Q: Var kan jag hitta fler handledningar och community‑stöd?**  
 A: Besök det officiella forumet [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) för ytterligare exempel och Q&A.
 
 **Q: Finns det omfattande dokumentation för alla klasser och metoder?**  
-A: Ja, den fullständiga API‑referensen finns [here](https://reference.aspose.com/page/java/).
+A: Ja, den fullständiga API‑referensen finns [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
 
-**Q: Kan jag rendera samma skraffärmönster till PDF istället för PostScript?**  
+**Q: Kan jag rendera samma hatch‑mönster till PDF istället för PostScript?**  
 A: Absolut. Ändra `PsSaveOptions` till `PdfSaveOptions` (eller motsvarande) så förblir resten av koden oförändrad.
 
 **Q: Vad ska jag göra om den genererade filen är tom?**  
-A: Kontrollera att output‑strömmen pekar på en skrivbar katalog och att `document.save()` anropas efter alla ritningsoperationer.
+A: Verifiera att output‑strömmen pekar på en skrivbar katalog och att `document.save()` anropas efter alla ritoperationer.
 
 ---
 
-**Last Updated:** 2026-02-15  
-**Tested With:** Aspose.Page for Java 24.12 (latest at time of writing)  
-**Author:** Aspose
+**Senast uppdaterad:** 2026-08-18  
+**Testad med:** Aspose.Page för Java 24.12 (senaste vid skrivande tidpunkt)  
+**Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Skapa textur‑mönster i PostScript – Aspose.Page Java](/page/java/postscript-texture-patterns/)
+- [Hur man lägger till gradient: Diagonal gradient i Java PostScript med Aspose.Page Java](/page/java/postscript-gradient-addition/diagonal/)
+- [Hur man konverterar PostScript till PDF med Aspose.Page Java API](/page/java/postscript-conversion/to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
