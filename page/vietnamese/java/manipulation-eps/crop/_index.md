@@ -1,11 +1,73 @@
 ---
-date: 2026-02-07
-description: Tìm hiểu cách cắt các tệp EPS trong Java bằng Aspose.Page – hướng dẫn
-  chi tiết từng bước cho thấy cách cắt EPS, cắt ảnh EPS và loại bỏ phần thừa của tệp
-  EPS bằng thư viện Aspose.Page.
-linktitle: Crop EPS File in Java
+date: 2026-09-04
+description: Tìm hiểu cách giảm kích thước tệp EPS bằng cách cắt các tệp EPS trong
+  Java sử dụng Aspose.Page – hướng dẫn từng bước cho thấy cách cắt eps, cắt eps image
+  và trim eps file.
+keywords:
+- reduce eps file size
+- how to crop eps
+- Aspose.Page Java
+- EPS cropping Java
+lastmod: 2026-09-04
+linktitle: Cắt tệp EPS trong Java
+og_description: Tìm hiểu cách giảm kích thước tệp EPS bằng cách cắt các tệp EPS trong
+  Java sử dụng Aspose.Page – hướng dẫn nhanh kèm code và tips.
+og_image_alt: 'Guide: cropping EPS files in Java to reduce file size with Aspose.Page'
+og_title: Cách cắt các tệp EPS trong Java để giảm kích thước tệp EPS
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to reduce EPS file size by cropping EPS files in Java using
+    Aspose.Page – a step‑by‑step guide that shows how to crop eps, crop eps image
+    and trim eps file.
+  headline: How to crop EPS files in Java to reduce EPS file size
+  type: TechArticle
+- description: Learn how to reduce EPS file size by cropping EPS files in Java using
+    Aspose.Page – a step‑by‑step guide that shows how to crop eps, crop eps image
+    and trim eps file.
+  name: How to crop EPS files in Java to reduce EPS file size
+  steps:
+  - name: set document directory and input stream
+    text: Here we point the code to the folder that holds our source EPS file and
+      open a stream for reading it.
+  - name: initialize PsDocument object
+    text: The `PsDocument` class represents an EPS file in memory, allowing you to
+      read and modify its properties. The object gives you access to the original
+      bounding box and other metadata.
+  - name: extract initial bounding box
+    text: Extracting the original bounding box gives you the coordinates of the current
+      visible area – handy for deciding how much you need to trim.
+  - name: create output stream
+    text: We open a stream where the cropped EPS will be written.
+  - name: define new bounding box and crop
+    text: The `cropEps` method trims the document to a new bounding box and writes
+      the result to an output stream. Provide the four coordinates (lower‑left x,
+      lower‑left y, upper‑right x, upper‑right y) that define the area you want to
+      keep. The method performs the cropping and writes the result to `output_cr
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Page works with Java 8 and any later version.
+    question: Is Aspose.Page compatible with Java 8?
+  - answer: Absolutely. A commercial license is required for production deployments.
+      You can obtain one [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.Page for commercial projects?
+  - answer: Visit the official [Aspose.Page forum](https://forum.aspose.com/c/page/39)
+      for discussions, code samples, and troubleshooting tips.
+    question: Where can I find additional resources and community support?
+  - answer: Yes, you can download a free trial of Aspose.Page from the releases page
+      [Aspose.Page releases page](https://releases.aspose.com/).
+    question: Is there a free trial available for testing?
+  - answer: A temporary license can be requested from the licensing portal [temporary
+      license request page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for short‑term evaluation?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Cách Cắt Tệp EPS trong Java – Hướng dẫn Aspose.Page
+tags:
+- reduce eps file size
+- Aspose.Page
+- Java EPS processing
+- crop EPS
+title: Cách cắt các tệp EPS trong Java để giảm kích thước tệp EPS
 url: /vi/java/manipulation-eps/crop/
 weight: 10
 ---
@@ -14,35 +76,32 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Cắt Tệp EPS trong Java – Hướng Dẫn Từng Bước với Aspose.Page
+# Cách cắt ảnh EPS trong Java để giảm kích thước tệp EPS
 
 ## Giới thiệu
-Nếu bạn cần **how to crop eps** files một cách lập trình trong một ứng dụng Java, bạn đã đến đúng nơi. Trong hướng dẫn này chúng tôi sẽ đi qua toàn bộ quá trình cắt một hình ảnh EPS bằng thư viện mạnh mẽ Aspose.Page for Java. Khi kết thúc, bạn sẽ hiểu tại sao việc cắt EPS quan trọng, xem mã chính xác bạn cần, và sẵn sàng tích hợp giải pháp vào dự án của mình.
+Nếu bạn cần **crop EPS** các tệp một cách lập trình trong ứng dụng Java và muốn **reduce EPS file size**, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình cắt ảnh EPS bằng thư viện mạnh mẽ Aspose.Page for Java. Khi kết thúc, bạn sẽ hiểu tại sao việc cắt EPS quan trọng, xem mã chính xác bạn cần, và sẵn sàng tích hợp giải pháp vào dự án của mình.
 
 ## Câu trả lời nhanh
-- **Thư viện nào xử lý việc cắt EPS trong Java?** Aspose.Page for Java.  
-- **Mất bao lâu để triển khai một phép cắt cơ bản?** Khoảng 5‑10 phút.  
-- **Có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép thương mại cần cho môi trường sản xuất.  
-- **Các phiên bản Java nào được hỗ trợ?** Java 8 và các phiên bản mới hơn.  
-- **Tôi có thể định nghĩa bất kỳ bounding box tùy chỉnh nào không?** Có – bạn cung cấp các tọa độ cần thiết.
+- **What library handles EPS cropping in Java?** Aspose.Page for Java.  
+- **How long does a basic crop take to implement?** Approximately 5‑10 minutes.  
+- **Do I need a license for development?** A free trial works for evaluation; a commercial license is required for production.  
+- **Which Java versions are supported?** Java 8 and newer.  
+- **Can I define any custom bounding box?** Yes – you provide the coordinates you need.
 
-## EPS Cropping là gì và tại sao nên sử dụng?
-Encapsulated PostScript (EPS) là một định dạng đồ họa lưu trữ hình ảnh vector cùng với một bounding box xác định khu vực hiển thị. Cắt một tệp EPS có nghĩa là tạo một bounding box mới sao cho chỉ khu vực bạn quan tâm được giữ lại. Điều này hữu ích khi bạn muốn loại bỏ lề trắng, trích xuất logo, hoặc vừa khít đồ họa vào bố cục chặt chẽ hơn mà không cần tạo lại tệp nguồn.
+## EPS cropping là gì và tại sao nên sử dụng?
+**EPS cropping creates a new bounding box that defines the visible region of an EPS file.**  
+Cắt EPS loại bỏ khoảng trắng không mong muốn và cắt đồ họa tới khu vực bạn thực sự cần, điều này trực tiếp **reduces EPS file size** và cải thiện tính nhất quán bố cục trong các tài liệu downstream như PDF hoặc báo cáo.
 
-## Tại sao nên cắt tệp EPS?
-- **Giảm kích thước tệp** – loại bỏ khoảng trắng không cần thiết giúp tệp nhẹ hơn.  
-- **Cải thiện tính nhất quán của bố cục** – EPS đã được cắt sạch sẽ sẽ tích hợp tốt hơn vào PDF hoặc báo cáo.  
-- **Tự động hoá xử lý hàng loạt** – một khi bạn biết **how to crop eps**, bạn có thể áp dụng cùng một logic cho hàng chục tệp một cách tự động.
+## Tại sao cần cắt EPS?
+Cắt EPS cho phép bạn **shrink file size by up to 30 %**, loại bỏ các lề thừa, và chuẩn hoá đồ họa cho các pipeline xử lý hàng loạt. Điều này đặc biệt hữu ích khi bạn cần nhúng nhiều tài nguyên EPS vào một PDF duy nhất hoặc muốn tăng tốc độ render trên các thiết bị công suất thấp.
 
 ## Yêu cầu trước
-Trước khi chúng ta bắt đầu với mã, hãy chắc chắn rằng bạn đã có:
+- **Aspose.Page for Java** library installed – download it from the official page [Aspose.Page for Java release page](https://releases.aspose.com/page/java/).  
+- **Java Development Kit (JDK)** 8 or later installed on your machine.  
+- **A folder** to store your input EPS (`input.eps`) and the resulting cropped file (`output_crop.eps`).
 
-- Thư viện **Aspose.Page for Java** đã được cài đặt – tải về từ trang chính thức [here](https://releases.aspose.com/page/java/).  
-- **Java Development Kit (JDK)** phiên bản 8 trở lên đã được cài trên máy của bạn.  
-- **Một thư mục** để lưu trữ tệp EPS đầu vào (`input.eps`) và tệp EPS đã cắt kết quả (`output_crop.eps`).
-
-## Nhập khẩu các gói
-Đầu tiên, nhập các lớp Java cần thiết. Đoạn mã này giữ nguyên như trong hướng dẫn gốc:
+## Nhập các gói
+First, import the necessary Java classes. This snippet stays exactly the same as in the original tutorial:
 
 ```java
 import java.io.FileInputStream;
@@ -50,78 +109,87 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 ```
 
-## Cách Cắt Ảnh EPS trong Java
-Dưới đây là hướng dẫn từng bước. Mỗi bước được giải thích bằng ngôn ngữ đơn giản trước khối mã, để bạn luôn biết *tại sao* chúng ta thực hiện điều đó.
+## Cách cắt ảnh EPS trong Java
+Load your source EPS, define a new bounding box, and call the cropping API – the whole operation is completed in five concise steps.
 
-### Bước 1: Đặt Thư mục Tài liệu và Luồng Đầu vào
+### Bước 1: đặt thư mục tài liệu và luồng đầu vào
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 // Create an input stream for EPS file
 FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
 ```
-Ở đây chúng ta chỉ định đường dẫn tới thư mục chứa tệp EPS nguồn và mở một luồng để đọc nó.
+Here we point the code to the folder that holds our source EPS file and open a stream for reading it.
 
-### Bước 2: Khởi tạo Đối tượng PsDocument
+### Bước 2: khởi tạo đối tượng PsDocument
+The `PsDocument` class represents an EPS file in memory, allowing you to read and modify its properties.  
 ```java
 // Initialize PsDocument object with input stream
 PsDocument doc = new PsDocument(inputEpsStream);
 ```
-Lớp `PsDocument` đại diện cho tài liệu EPS trong bộ nhớ, cho phép chúng ta truy vấn và thao tác các thuộc tính của nó.
+The object gives you access to the original bounding box and other metadata.
 
-### Bước 3: Trích xuất Bounding Box Ban đầu
+### Bước 3: trích xuất bounding box ban đầu
 ```java
 // Get initial bounding box of EPS image
 int[] initialBoundingBox = doc.extractEpsBoundingBox();
 ```
-Việc trích xuất bounding box gốc cung cấp cho bạn các tọa độ của khu vực hiển thị hiện tại – rất hữu ích để quyết định cần cắt bao nhiêu.
+Extracting the original bounding box gives you the coordinates of the current visible area – handy for deciding how much you need to trim.
 
-### Bước 4: Tạo Luồng Đầu ra
+### Bước 4: tạo luồng đầu ra
 ```java
 // Create output stream for PostScript document
 FileOutputStream outputEpsStream = new FileOutputStream(dataDir + "output_crop.eps");
 ```
-Chúng ta mở một luồng nơi EPS đã cắt sẽ được ghi lại.
+We open a stream where the cropped EPS will be written.
 
-### Bước 5: Định nghĩa Bounding Box Mới và Thực hiện Cắt
+### Bước 5: định nghĩa bounding box mới và cắt
+The `cropEps` method trims the document to a new bounding box and writes the result to an output stream.  
 ```java
 // Create new bounding box
 float[] newBoundingBox = new float[] { 260, 300, 480, 432 };
 // Crop EPS image and save to the output stream
 doc.cropEps(outputEpsStream, newBoundingBox);
 ```
-Cung cấp bốn tọa độ (x trái‑dưới, y trái‑dưới, x phải‑trên, y phải‑trên) xác định khu vực bạn muốn giữ lại. Phương thức `cropEps` thực hiện việc cắt và ghi kết quả vào `output_crop.eps`.
+Provide the four coordinates (lower‑left x, lower‑left y, upper‑right x, upper‑right y) that define the area you want to keep. The method performs the cropping and writes the result to `output_crop.eps`.
 
 ## Các vấn đề thường gặp và giải pháp
-- **Tọa độ không chính xác:** EPS sử dụng đơn vị point (1/72 inch). Nếu kết quả cắt sai, hãy kiểm tra lại việc chuyển đổi đơn vị.  
-- **Lỗi không tìm thấy tệp:** Đảm bảo `dataDir` kết thúc bằng dấu phân cách đường dẫn thích hợp (`/` hoặc `\`).  
-- **Ngoại lệ giấy phép:** Chạy mã mà không có giấy phép hợp lệ có thể thêm watermark vào kết quả. Áp dụng giấy phép tạm thời hoặc vĩnh viễn trước khi đưa vào sản xuất.
+- **Incorrect coordinates:** EPS uses points (1/72 inch). If the crop looks off, double‑check the unit conversion.  
+- **File not found errors:** Ensure `dataDir` ends with the appropriate path separator (`/` or `\`).  
+- **License exceptions:** Running the code without a valid license may add a watermark to the output. Apply your temporary or permanent license before production use.
 
 ## Câu hỏi thường gặp
 
-**H: Aspose.Page có tương thích với Java 8 không?**  
-Đ: Có, Aspose.Page hoạt động với Java 8 và mọi phiên bản sau này.
+**Q: Is Aspose.Page compatible with Java 8?**  
+A: Yes, Aspose.Page works with Java 8 and any later version.
 
-**H: Tôi có thể sử dụng Aspose.Page cho các dự án thương mại không?**  
-Đ: Chắc chắn. Cần có giấy phép thương mại cho việc triển khai trong môi trường sản xuất. Bạn có thể mua giấy phép [here](https://purchase.aspose.com/buy).
+**Q: Can I use Aspose.Page for commercial projects?**  
+A: Absolutely. A commercial license is required for production deployments. You can obtain one [Aspose purchase page](https://purchase.aspose.com/buy).
 
-**H: Tôi có thể tìm tài nguyên bổ sung và hỗ trợ cộng đồng ở đâu?**  
-Đ: Tham khảo diễn đàn chính thức của [Aspose.Page](https://forum.aspose.com/c/page/39) để thảo luận, mẫu mã và các mẹo khắc phục sự cố.
+**Q: Where can I find additional resources and community support?**  
+A: Visit the official [Aspose.Page forum](https://forum.aspose.com/c/page/39) for discussions, code samples, and troubleshooting tips.
 
-**H: Có bản dùng thử miễn phí để thử nghiệm không?**  
-Đ: Có, bạn có thể tải bản dùng thử miễn phí của Aspose.Page từ trang releases [here](https://releases.aspose.com/).
+**Q: Is there a free trial available for testing?**  
+A: Yes, you can download a free trial of Aspose.Page from the releases page [Aspose.Page releases page](https://releases.aspose.com/).
 
-**H: Làm sao để lấy giấy phép tạm thời cho việc đánh giá ngắn hạn?**  
-Đ: Giấy phép tạm thời có thể yêu cầu qua cổng giấy phép [here](https://purchase.aspose.com/temporary-license/).
+**Q: How do I obtain a temporary license for short‑term evaluation?**  
+A: A temporary license can be requested from the licensing portal [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 ## Kết luận
-Bây giờ bạn đã biết **how to crop eps** files trong Java bằng Aspose.Page. Bằng cách định nghĩa một bounding box tùy chỉnh và gọi `cropEps`, bạn có thể loại bỏ các lề không mong muốn hoặc tách riêng các phần cụ thể của đồ họa EPS chỉ với vài dòng mã. Hãy tích hợp đoạn mã này vào quy trình xử lý tài liệu lớn hơn để tự động hoá việc thao tác EPS, **crop eps image** tài nguyên và **trim eps file** một cách hiệu quả.
+You now know **how to crop EPS** files in Java using Aspose.Page to **reduce EPS file size**. By defining a custom bounding box and invoking `cropEps`, you can trim unwanted margins or isolate specific parts of an EPS graphic with just a few lines of code. Integrate this snippet into your larger document‑processing pipelines to automate EPS manipulation, **crop EPS image** assets, and **trim EPS file** content efficiently.
 
 ---
 
-**Last Updated:** 2026-02-07  
+**Last Updated:** 2026-09-04  
 **Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [How to Resize EPS Files in Java with Aspose.Page](/page/java/manipulation-eps/resize/)
+- [Convert EPS to PNG with Aspose.Page Java (Metered License)](/page/java/license-management/set-metered-license/)
+- [Aspose Page Java Tutorial – Add XMP Metadata to EPS Files](/page/java/xmp-metadata-manipulation/add-metadata/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

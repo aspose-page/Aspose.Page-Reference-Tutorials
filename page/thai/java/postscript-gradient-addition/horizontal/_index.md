@@ -1,65 +1,82 @@
 ---
-date: 2026-02-13
-description: เรียนรู้วิธีเพิ่มไล่สีใน Java PostScript ด้วย Linear Gradient Paint Java
-  พร้อม Aspose.Page สำหรับ Java.
-linktitle: How to Add Gradient in Java PostScript with Linear Gradient Paint
+date: 2026-09-04
+description: เรียนรู้วิธีสร้าง horizontal gradient java ในไฟล์ PostScript ด้วย Linear
+  Gradient Paint Java พร้อม Aspose.Page for Java ขั้นตอนโค้ดทีละขั้นตอน ปัญหาที่พบบ่อย
+  และคำถามที่พบบ่อย
+keywords:
+- create horizontal gradient java
+- linear gradient paint java
+- Aspose.Page Java
+- PostScript gradient Java
+lastmod: 2026-09-04
+linktitle: สร้าง horizontal gradient java ใน PostScript ด้วย Aspose
+og_description: สร้าง horizontal gradient java ใน PostScript ด้วย Linear Gradient
+  Paint Java บทแนะนำ Aspose.Page นี้จะแสดงขั้นตอนที่แน่นอน ข้อกำหนดเบื้องต้น และเคล็ดลับการแก้ปัญหา
+  ภายในเวลาไม่เกิน 15 นาที
+og_image_alt: Screenshot of a Java PostScript file rendered with a horizontal gradient
+  using Aspose.Page
+og_title: สร้าง horizontal gradient java ใน PostScript ด้วย Aspose
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to create horizontal gradient java in a PostScript file using
+    Linear Gradient Paint Java with Aspose.Page for Java. Step‑by‑step code, common
+    pitfalls, and FAQs.
+  headline: Create horizontal gradient java in PostScript using Aspose
+  type: TechArticle
+- questions:
+  - answer: Aspose.Page for Java (includes Linear Gradient Paint Java).
+    question: What library is required?
+  - answer: About 10‑15 minutes for a basic horizontal gradient.
+    question: How long does implementation take?
+  - answer: A temporary or full license is required for production use.
+    question: Do I need a license?
+  - answer: Java 8 or newer.
+    question: Which JDK version works?
+  - answer: Yes – the same `LinearGradientPaint` instance can fill shapes and be applied
+      to text strokes or fills.
+    question: Can I use the gradient on both shapes and text?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: วิธีเพิ่มการไล่สีใน Java PostScript ด้วย Linear Gradient Paint
+tags:
+- create horizontal gradient java
+- linear gradient paint java
+- Aspose.Page
+- Java PostScript
+title: สร้าง horizontal gradient java ใน PostScript ด้วย Aspose
 url: /th/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
-
-ที่ครอบคลุมนี้ คุณจะได้ค้นพบ **วิธีเพิ่ม gradient** ในเอกสาร PostScript ด้วย Java."
-
-Continue.
-
-We need to translate rest.
-
-Proceed step by step.
-
-Also list under Quick Answers: translate each question and answer.
-
-E.g., "- **What library is required?** Aspose.Page for Java (supports Linear Gradient Paint Java)." => "- **ไลบรารีที่ต้องการคืออะไร?** Aspose.Page for Java (supports Linear Gradient Paint Java)."
-
-Similarly others.
-
-Now table: translate Issue, Why It Happens, Fix headings. Keep content translation.
-
-Now FAQ: translate Q and A.
-
-Make sure to keep URLs unchanged.
-
-Also "Last Updated:" etc.
-
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีเพิ่ม Gradient ใน Java PostScript ด้วย Linear Gradient Paint
+# วิธีเพิ่มการไล่สีแนวนอนใน Java PostScript โดยใช้ Linear Gradient Paint
 
 ## บทนำ
-ในบทแนะนำที่ครอบคลุมนี้ คุณจะได้ค้นพบ **วิธีเพิ่ม gradient** ในเอกสาร PostScript ด้วย Java เราจะอธิบายขั้นตอนการสร้าง gradient แนวนอนที่สวยงามโดยใช้ **Linear Gradient Paint Java** ซึ่งเป็นคลาสที่ให้คุณควบคุมการเปลี่ยนสีแบบพิกเซล‑เพอร์เฟค ด้วย Aspose.Page for Java คุณสามารถเรนเดอร์ gradient บนทั้งรูปทรง **และ** ข้อความ ทำให้เอกสารของคุณดูเรียบหรูและดึงดูดสายตา
+ในบทแนะนำเชิงลึกนี้คุณจะได้เรียนรู้ **วิธีสร้างการไล่สีแนวนอนใน Java** ในเอกสาร PostScript โดยใช้คลาส **Linear Gradient Paint Java** ที่มาพร้อมกับ Aspose.Page for Java เราจะเดินผ่านทุกขั้นตอน—ตั้งแต่การตั้งค่าโครงการจนถึงการเรนเดอร์การไล่สีบนรูปทรงและข้อความ—เพื่อให้คุณสร้างกราฟิกที่ดูเรียบหรูพร้อมพิมพ์ได้ในไม่กี่นาที ไม่ว่าคุณจะกำลังสร้างเครื่องมือรายงาน, เครื่องมืออัตโนมัติการออกแบบ, หรือไดรเวอร์เครื่องพิมพ์แบบกำหนดเอง คู่มือนี้จะให้โค้ดที่คุณต้องการอย่างแม่นยำ
 
-## คำตอบสั้น
-- **ไลบรารีที่ต้องการคืออะไร?** Aspose.Page for Java (supports Linear Gradient Paint Java).  
-- **ใช้เวลานานเท่าไหร่ในการทำงาน?** ประมาณ 10‑15 นาทีสำหรับ gradient พื้นฐาน  
-- **ต้องมีลิขสิทธิ์หรือไม่?** จำเป็นต้องมีลิขสิทธิ์ชั่วคราวหรือเต็มสำหรับการใช้งานในผลิตภัณฑ์  
-- **เวอร์ชัน JDK ที่ทำงานได้?** Java 8 หรือใหม่กว่า  
-- **สามารถใช้ gradient กับรูปทรงและข้อความได้หรือไม่?** ใช่ – คุณสามารถเติมรูปทรงและ stroke หรือ fill ข้อความด้วย gradient เดียวกันได้  
+## คำตอบอย่างรวดเร็ว
+- **ไลบรารีที่ต้องการคืออะไร?** Aspose.Page for Java (รวม Linear Gradient Paint Java).  
+- **การทำงานใช้เวลานานเท่าไหร่?** ประมาณ 10‑15 นาทีสำหรับการไล่สีแนวนอนพื้นฐาน.  
+- **ฉันต้องการใบอนุญาตหรือไม่?** จำเป็นต้องมีใบอนุญาตชั่วคราวหรือเต็มสำหรับการใช้งานในผลิตภัณฑ์.  
+- **เวอร์ชัน JDK ที่ใช้ได้คืออะไร?** Java 8 หรือใหม่กว่า.  
+- **ฉันสามารถใช้การไล่สีบนรูปทรงและข้อความได้หรือไม่?** ใช่ – อินสแตนซ์ `LinearGradientPaint` เดียวกันสามารถเติมรูปทรงและใช้กับเส้นขอบหรือการเติมของข้อความได้.
 
-## Gradient แนวนอนคืออะไรและทำไมต้องใช้?
-Gradient แนวนอนผสานสีอย่างราบรื่นจากซ้ายไปขวาบนรูปทรงหรือข้อความ เหมาะสำหรับสร้างองค์ประกอบ UI สมัยใหม่, หัวข้อที่เน้น, หรือเอฟเฟกต์พื้นหลังแบบละเอียดในรายงาน การใช้ **Linear Gradient Paint Java** ทำให้คุณกำหนดสีเริ่มต้นและสีสุดท้าย, ความทึบ, และการสเกลได้อย่างแม่นยำ เพื่อให้ผลลัพธ์คมชัดบนอุปกรณ์ใดก็ได้
+## การไล่สีแนวนอนคืออะไรและทำไมต้องใช้?
+การไล่สีแนวนอนผสมสีจากขอบซ้ายของวัตถุไปยังขอบขวา สร้างการเปลี่ยนแปลงที่เรียบเนียนซึ่งเพิ่มความลึกและความน่าสนใจทางสายตา เหมาะสำหรับส่วนประกอบ UI สมัยใหม่, หัวข้อที่เน้น, หรือการเงาเบื้องหลังอย่างละเอียดในรายงาน PDF หรือ PostScript การใช้ **Linear Gradient Paint Java** ทำให้คุณควบคุมสีเริ่มต้นและสีสิ้นสุด, ความทึบแสง, และการสเกลได้อย่างแม่นยำ เพื่อให้ผลลัพธ์คมชัดบนอุปกรณ์หรือเครื่องพิมพ์ใดก็ได้
 
 ## ข้อกำหนดเบื้องต้น
-ก่อนจะลงมือเขียนโค้ด ให้ตรวจสอบว่าคุณมีสิ่งต่อไปนี้พร้อมแล้ว:
+ก่อนจะลงลึกในโค้ด โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
 
-- Java Development Kit (JDK) ติดตั้งบนเครื่องของคุณ  
-- ไลบรารี Aspose.Page for Java คุณสามารถดาวน์โหลดได้จาก [Aspose.Page Java documentation](https://reference.aspose.com/page/java/)  
+- Java Development Kit (JDK) ติดตั้งบนเครื่องของคุณแล้ว  
+- ไลบรารี Aspose.Page for Java คุณสามารถดาวน์โหลดได้จาก [Aspose.Page Java documentation](https://reference.aspose.com/page/java/).
 
 ## นำเข้าแพ็กเกจ
-เริ่มต้นด้วยการนำเข้าแพ็กเกจที่จำเป็นในโปรเจกต์ Java ของคุณ การนำเข้าเหล่านี้ทำให้คุณเข้าถึง primitive ด้านกราฟิก, การจัดการ gradient, และ API ของ Aspose.Page
+เริ่มต้นด้วยการนำเข้าแพ็กเกจที่จำเป็นในโครงการ Java ของคุณ การนำเข้าต่าง ๆ นี้จะให้คุณเข้าถึง primitive ของกราฟิก, การจัดการไล่สี, และ API ของ Aspose.Page  
+
+`PsDocument` class แสดงถึงเอกสาร PostScript ที่คุณสามารถวาดกราฟิกลงไปได้  
 
 ```java
 import java.awt.BasicStroke;
@@ -76,7 +93,7 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## ขั้นตอนที่ 1: สร้างสี่เหลี่ยม
-ตั้งค่า output stream, document, และสี่เหลี่ยมที่จะเป็นที่เก็บ gradient
+แรกสุด ตั้งค่าการสตรีมผลลัพธ์, เอกสาร, และสี่เหลี่ยมที่จะเป็นที่เก็บการไล่สี  
 
 ```java
 // The path to the documents directory.
@@ -91,8 +108,10 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
 
-## ขั้นตอนที่ 2: สร้าง Horizontal Linear Gradient Paint
-ที่นี่เราจะสร้างอ็อบเจ็กต์ **Linear Gradient Paint Java** ที่กำหนดการเปลี่ยนสีแนวนอน `AffineTransform` จะสเกล gradient ให้ตรงกับความกว้างและความสูงของสี่เหลี่ยม
+## ขั้นตอนที่ 2: สร้าง Linear Gradient Paint แนวนอน
+`LinearGradientPaint` คือคลาสหลักที่กำหนดการเปลี่ยนแปลงสีเชิงเส้น  
+
+คลาส `LinearGradientPaint` แสดงถึงอ็อบเจ็กต์สีที่เรนเดอร์การไล่สีตามเส้นตรง; คุณระบุจุดเริ่มต้น/สิ้นสุด, จุดสีหยุด, และ `AffineTransform` ทางเลือกเพื่อสเกลให้เข้ากับรูปทรงของคุณ  
 
 ```java
 // Create horizontal linear gradient paint. Scale components in the transform must be equal to width and height of the rectangle.
@@ -105,16 +124,16 @@ LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new
 document.setPaint(paint);
 ```
 
-## ขั้นตอนที่ 3: เติมสี่เหลี่ยมด้วย Gradient
-ตอนนี้ให้เติมสี่เหลี่ยมด้วย gradient ที่เรากำหนดไว้
+## ขั้นตอนที่ 3: เติมสี่เหลี่ยม
+ตอนนี้เติมสี่เหลี่ยมด้วยการไล่สีที่เรากำหนดไว้  
 
 ```java
 // Fill the rectangle
 document.fill(rectangle);
 ```
 
-## ขั้นตอนที่ 4: เติมข้อความด้วย Gradient
-คุณสามารถใช้ gradient เดียวกันกับข้อความเพื่อสร้างเอฟเฟกต์ที่โดดเด่น
+## ขั้นตอนที่ 4: เติมข้อความด้วยการไล่สี
+คุณยังสามารถใช้การไล่สีเดียวกันกับข้อความ เพื่อสร้างเอฟเฟกต์ภาพที่โดดเด่น  
 
 ```java
 // Fill a text with the gradient
@@ -122,42 +141,49 @@ Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
 ```
 
-## ขั้นตอนที่ 5: วาดขอบข้อความด้วย Gradient
-สุดท้ายให้วาดขอบข้อความโดยใช้ gradient เป็นสีของ stroke
+## ขั้นตอนที่ 5: วาดเส้นขอบข้อความด้วยการไล่สี
+สุดท้าย ให้ร่างเส้นขอบข้อความโดยใช้การไล่สีเป็นสีเส้นขอบ  
 
 ```java
 // Stroke a text with the gradient
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ปัญหาทั่วไปและวิธีแก้
 | ปัญหา | สาเหตุ | วิธีแก้ |
-|-------|--------|---------|
-| Gradient ดูบิดเบี้ยว | การสเกล `AffineTransform` ไม่ถูกต้อง | ตรวจสอบให้แน่ใจว่าความกว้างและความสูงของการแปลงตรงกับขนาดของสี่เหลี่ยม (200 × 100 ในตัวอย่าง) |
-| สีดูจาง | ค่า Alpha ตั้งค่าต่ำเกินไป | เพิ่มค่า alpha (ค่าที่สี่ใน `new Color(r,g,b,alpha)`) |
-| ข้อความไม่แสดง | ไม่ได้ตั้งค่า Paint ก่อนวาดข้อความ | เรียก `document.setPaint(paint)` **ก่อน** เรียก `fillAndStrokeText` หรือ `outlineText` ใด ๆ |
+|-------|--------|----------|
+| การไล่สีดูบิดเบี้ยว | การสเกล `AffineTransform` ไม่ถูกต้อง | ตรวจสอบให้แน่ใจว่าความกว้างและความสูงของการแปลงตรงกับขนาดของสี่เหลี่ยม (200 × 100 ในตัวอย่าง) |
+| สีดูจาง | ค่าความโปร่งใส (alpha) ตั้งค่าต่ำเกินไป | เพิ่มค่า alpha (ค่าที่สี่ใน `new Color(r,g,b,alpha)`) |
+| ข้อความไม่แสดง | ไม่ได้ตั้งค่า Paint ก่อนวาดข้อความ | เรียก `document.setPaint(paint)` **ก่อน** การเรียก `fillAndStrokeText` หรือ `outlineText` ใด ๆ |
 
 ## คำถามที่พบบ่อย
-**ถาม:** สามารถใช้ Aspose.Page for Java ในโครงการเชิงพาณิชย์ได้หรือไม่?  
-**ตอบ:** ใช่, Aspose.Page for Java สามารถใช้ในโครงการเชิงพาณิชย์ได้ สำหรับรายละเอียดลิขสิทธิ์ โปรดเยี่ยมชม [Aspose.Purchase](https://purchase.aspose.com/buy)
+**Q:** ฉันสามารถใช้ Aspose.Page for Java ในโครงการเชิงพาณิชย์ได้หรือไม่?  
+**A:** ใช่, Aspose.Page for Java สามารถใช้ในโครงการเชิงพาณิชย์ได้ สำหรับรายละเอียดการให้ใบอนุญาต โปรดเยี่ยมชมหน้า [Aspose.Purchase](https://purchase.aspose.com/buy)
 
-**ถาม:** มีรุ่นทดลองฟรีหรือไม่?  
-**ตอบ:** มี, คุณสามารถเข้าถึงรุ่นทดลองฟรีของ Aspose.Page for Java [ที่นี่](https://releases.aspose.com/)
+**Q:** มีการทดลองใช้ฟรีหรือไม่?  
+**A:** มี, คุณสามารถเข้าถึงการทดลองใช้ฟรีของ Aspose.Page for Java ได้ที่หน้า [Aspose.Page for Java free trial](https://releases.aspose.com/)
 
-**ถาม:** จะหาเอกสารเพิ่มเติมและการสนับสนุนได้จากที่ไหน?  
-**ตอบ:** เยี่ยมชม [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) เพื่อรับทรัพยากรครบถ้วน สำหรับการสนับสนุนจากชุมชน ให้ตรวจสอบ [Aspose.Page forum](https://forum.aspose.com/c/page/39)
+**Q:** ฉันจะหาเอกสารและการสนับสนุนเพิ่มเติมได้จากที่ไหน?  
+**A:** เยี่ยมชม [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) เพื่อรับทรัพยากรที่ครบถ้วน สำหรับความช่วยเหลือจากชุมชน ตรวจสอบที่ [Aspose.Page forum](https://forum.aspose.com/c/page/39)
 
-**ถาม:** จะขอรับลิขสิทธิ์ชั่วคราวได้อย่างไร?  
-**ตอบ:** คุณสามารถขอรับลิขสิทธิ์ชั่วคราวจาก [Aspose.Purchase](https://purchase.aspose.com/temporary-license/)
+**Q:** ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร?  
+**A:** คุณสามารถรับใบอนุญาตชั่วคราวได้จากหน้า [Aspose.Purchase temporary license page](https://purchase.aspose.com/temporary-license/)
 
-**ถาม:** ความต้องการระบบสำหรับ Aspose.Page for Java มีอะไรบ้าง?  
-**ตอบ:** ดูรายละเอียดใน [documentation](https://reference.aspose.com/page/java/) สำหรับความต้องการระบบโดยละเอียด
+**Q:** ความต้องการระบบสำหรับ Aspose.Page for Java คืออะไร?  
+**A:** ดูที่ [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) สำหรับรายละเอียดความต้องการระบบ
 
 ---
 
-**อัปเดตล่าสุด:** 2026-02-13  
+**อัปเดตล่าสุด:** 2026-09-04  
 **ทดสอบกับ:** Aspose.Page for Java 24.11  
-**ผู้เขียน:** Aspose  
+**ผู้เขียน:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [สร้างการไล่สี PostScript ใน Java – เพิ่มการไล่สีแนวตั้ง](/page/java/postscript-gradient-addition/vertical/)
+- [วิธีเพิ่มการไล่สี: การไล่สีแนวทแยงใน Java PostScript โดยใช้ Aspose.Page Java](/page/java/postscript-gradient-addition/diagonal/)
+- [สร้างการไล่สี PostScript – การไล่สีรัศมีใน Java](/page/java/postscript-gradient-addition/radial1/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

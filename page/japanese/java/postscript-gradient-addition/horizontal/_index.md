@@ -1,10 +1,47 @@
 ---
-date: 2026-02-13
-description: Aspose.Page for Java を使用して、Java の PostScript に Linear Gradient Paint
-  Java でグラデーションを追加する方法を学びましょう。
-linktitle: How to Add Gradient in Java PostScript with Linear Gradient Paint
+date: 2026-09-04
+description: Aspose.Page for Java の Linear Gradient Paint Java を使用して、PostScript ファイル内で水平グラデーション
+  java を作成する方法を学びます。ステップバイステップのコード、一般的な落とし穴、FAQ を紹介します。
+keywords:
+- create horizontal gradient java
+- linear gradient paint java
+- Aspose.Page Java
+- PostScript gradient Java
+lastmod: 2026-09-04
+linktitle: Aspose を使用して PostScript で水平グラデーション java を作成
+og_description: Linear Gradient Paint Java を使用して PostScript で水平グラデーション java を作成します。この
+  Aspose.Page チュートリアルでは、正確な手順、前提条件、トラブルシューティングのヒントを 15 分以内で紹介します。
+og_image_alt: Screenshot of a Java PostScript file rendered with a horizontal gradient
+  using Aspose.Page
+og_title: Aspose を使用して PostScript で水平グラデーション java を作成
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to create horizontal gradient java in a PostScript file using
+    Linear Gradient Paint Java with Aspose.Page for Java. Step‑by‑step code, common
+    pitfalls, and FAQs.
+  headline: Create horizontal gradient java in PostScript using Aspose
+  type: TechArticle
+- questions:
+  - answer: Aspose.Page for Java (includes Linear Gradient Paint Java).
+    question: What library is required?
+  - answer: About 10‑15 minutes for a basic horizontal gradient.
+    question: How long does implementation take?
+  - answer: A temporary or full license is required for production use.
+    question: Do I need a license?
+  - answer: Java 8 or newer.
+    question: Which JDK version works?
+  - answer: Yes – the same `LinearGradientPaint` instance can fill shapes and be applied
+      to text strokes or fills.
+    question: Can I use the gradient on both shapes and text?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Java PostScriptで線形グラデーションペイントを使用してグラデーションを追加する方法
+tags:
+- create horizontal gradient java
+- linear gradient paint java
+- Aspose.Page
+- Java PostScript
+title: Aspose を使用して PostScript で水平グラデーション java を作成
 url: /ja/java/postscript-gradient-addition/horizontal/
 weight: 11
 ---
@@ -13,29 +50,31 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java PostScript で Linear Gradient Paint を使用してグラデーションを追加する方法
+# Java PostScriptでLinear Gradient Paintを使用して水平グラデーションを追加する方法
 
-## Introduction
-この包括的なチュートリアルでは、Java を使って PostScript ドキュメントに **グラデーションを追加する方法** を学びます。**Linear Gradient Paint Java** クラスを活用して、美しい水平グラデーションを作成する手順を解説します。Aspose.Page for Java を使用すれば、図形 **および** テキストの両方にグラデーションを描画でき、文書に洗練された目を引く外観を与えることができます。
+## はじめに
+この包括的なチュートリアルでは、Aspose.Page for Java に同梱されている **Linear Gradient Paint Java** クラスを使用して、PostScript ドキュメント内に **水平グラデーション Java を作成する方法** を学びます。プロジェクトの設定から、形状とテキストの両方にグラデーションを描画するまでのすべての手順を順を追って説明するので、数分で洗練された印刷対応のグラフィックを作成できます。レポートエンジン、デザイン自動化ツール、またはカスタムプリンタドライバを構築する場合でも、本ガイドは必要なコードを正確に提供します。
 
-## Quick Answers
-- **必要なライブラリは？** Aspose.Page for Java（Linear Gradient Paint Java をサポート）。  
-- **実装にかかる時間は？** 基本的なグラデーションで約 10〜15 分。  
-- **ライセンスは必要ですか？** 本番環境で使用する場合は、一時ライセンスまたはフルライセンスが必要です。  
-- **対応 JDK バージョンは？** Java 8 以降。  
-- **図形とテキストの両方にグラデーションを使用できますか？** はい、同じグラデーションで図形を塗りつぶしたり、テキストを塗りつぶし・ストロークしたりできます。
+## クイック回答
+- **必要なライブラリは何ですか？** Aspose.Page for Java（Linear Gradient Paint Java を含む）。  
+- **実装にどれくらい時間がかかりますか？** 基本的な水平グラデーションで約10〜15分です。  
+- **ライセンスは必要ですか？** 本番環境で使用するには、一時ライセンスまたはフルライセンスが必要です。  
+- **対応する JDK バージョンは？** Java 8 以降。  
+- **形状とテキストの両方にグラデーションを使用できますか？** はい。同じ `LinearGradientPaint` インスタンスで形状を塗りつぶし、テキストのストロークや塗りにも適用できます。
 
-## What is a Horizontal Gradient and Why Use It?
-水平グラデーションは、形状やテキストの左側から右側へ滑らかに色を変化させます。モダンな UI 要素や強調見出し、レポートの微妙な背景効果を作成するのに最適です。**Linear Gradient Paint Java** を使用すると、開始色・終了色・不透明度・スケーリングを正確に定義でき、どのデバイスでも鮮明に表示されます。
+## 水平グラデーションとは何か、なぜ使用するのか
+水平グラデーションは、オブジェクトの左端から右端へ色をブレンドし、滑らかな遷移で奥行きと視覚的な興味を加えます。モダンな UI コンポーネント、強調見出し、または PDF や PostScript レポートの微妙な背景シェーディングに最適です。**Linear Gradient Paint Java** を使用すると、開始色と終了色、透明度、スケーリングを正確に制御でき、任意のデバイスやプリンタでも鮮明な結果が得られます。
 
-## Prerequisites
-コードに取り掛かる前に、以下を用意してください。
+## 前提条件
+コードに取り掛かる前に、以下が揃っていることを確認してください。
 
-- Java Development Kit (JDK) がインストールされていること。  
-- Aspose.Page for Java ライブラリ。ダウンロードは [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) から。
+- Java Development Kit（JDK）がマシンにインストールされていること。  
+- Aspose.Page for Java ライブラリ。以下の [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) からダウンロードできます。
 
-## Import Packages
-Java プロジェクトで必要なパッケージをインポートします。これらのインポートにより、グラフィックプリミティブ、グラデーション処理、Aspose.Page API が利用可能になります。
+## パッケージのインポート
+まず、Java プロジェクトで必要なパッケージをインポートします。これらのインポートにより、グラフィックのプリミティブ、グラデーション処理、Aspose.Page API にアクセスできます。
+
+`PsDocument` クラスは、グラフィックを描画できる PostScript ドキュメントを表します。  
 
 ```java
 import java.awt.BasicStroke;
@@ -51,7 +90,7 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Step 1: Create a Rectangle
+## ステップ 1: 四角形を作成する
 まず、出力ストリーム、ドキュメント、およびグラデーションを配置する矩形を設定します。
 
 ```java
@@ -67,8 +106,9 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 100);
 ```
 
-## Step 2: Create Horizontal Linear Gradient Paint
-ここでは、水平カラー遷移を定義する **Linear Gradient Paint Java** オブジェクトを作成します。`AffineTransform` が矩形の幅と高さに合わせてグラデーションをスケーリングします。
+## ステップ 2: 水平線形グラデーションペイントを作成する
+`LinearGradientPaint` は線形カラー遷移を定義するコアクラスです。  
+`LinearGradientPaint` クラスは、直線に沿ってグラデーションを描画するペイントオブジェクトを表します。開始点と終了点、カラー ストップ、そしてオプションで `AffineTransform` を指定して形状に合わせてスケーリングできます。
 
 ```java
 // Create horizontal linear gradient paint. Scale components in the transform must be equal to width and height of the rectangle.
@@ -81,7 +121,7 @@ LinearGradientPaint paint = new LinearGradientPaint(new Point2D.Float(0, 0), new
 document.setPaint(paint);
 ```
 
-## Step 3: Fill the Rectangle
+## ステップ 3: 四角形を塗りつぶす
 先ほど定義したグラデーションで矩形を塗りつぶします。
 
 ```java
@@ -89,8 +129,8 @@ document.setPaint(paint);
 document.fill(rectangle);
 ```
 
-## Step 4: Fill a Text with the Gradient
-同じグラデーションをテキストに適用し、印象的なビジュアル効果を作り出すこともできます。
+## ステップ 4: テキストにグラデーションを塗りつぶす
+同じグラデーションをテキストに適用して、印象的なビジュアル効果を作り出すこともできます。
 
 ```java
 // Fill a text with the gradient
@@ -98,42 +138,47 @@ Font font = new Font("Arial", Font.BOLD, 96);
 document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicStroke(2));
 ```
 
-## Step 5: Stroke a Text with the Gradient
-最後に、グラデーションをストロークカラーとしてテキストの輪郭を描画します。
+## ステップ 5: テキストにグラデーションでストロークを付ける
+最後に、グラデーションをストロークカラーとしてテキストに輪郭を付けます。
 
 ```java
 // Stroke a text with the gradient
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
 
-## Common Issues and Solutions
-| Issue | Why It Happens | Fix |
+## 一般的な問題と解決策
+| 問題 | 発生理由 | 対策 |
 |-------|----------------|-----|
-| グラデーションが伸びて見える | `AffineTransform` のスケーリングが不正確 | 変換の幅と高さが矩形の寸法（例: 200 × 100）と一致していることを確認してください。 |
-| 色が薄く見える | アルファ値が低すぎる | `new Color(r,g,b,alpha)` の alpha 成分を増やしてください。 |
-| テキストが表示されない | テキスト描画前に Paint が設定されていない | `document.setPaint(paint)` を **fillAndStrokeText** または **outlineText** を呼び出す前に実行してください。 |
+| グラデーションが伸びて見える | `AffineTransform` のスケーリングが正しくない | 変換の幅と高さが矩形のサイズ（例では 200 × 100）と一致していることを確認してください。 |
+| 色が薄く見える | アルファ値が低すぎる | `new Color(r,g,b,alpha)` の 4 番目の値であるアルファ成分を増やしてください。 |
+| テキストが表示されない | テキスト描画前にペイントが設定されていない | `fillAndStrokeText` や `outlineText` を呼び出す前に `document.setPaint(paint)` を **呼び出してください**。 |
 
-## Frequently Asked Questions
+## よくある質問
 **Q:** Aspose.Page for Java を商用プロジェクトで使用できますか？  
-**A:** はい、Aspose.Page for Java は商用プロジェクトで使用可能です。ライセンスの詳細は [Aspose.Purchase](https://purchase.aspose.com/buy) をご覧ください。
+**A:** はい、Aspose.Page for Java は商用プロジェクトで使用できます。ライセンスの詳細は [Aspose.Purchase](https://purchase.aspose.com/buy) ページをご覧ください。
 
-**Q:** 無料トライアルはありますか？  
-**A:** はい、Aspose.Page for Java の無料トライアルは [here](https://releases.aspose.com/) から入手できます。
+**Q:** 無料トライアルは利用できますか？  
+**A:** はい、[Aspose.Page for Java free trial](https://releases.aspose.com/) ページから無料トライアルにアクセスできます。
 
-**Q:** 追加のドキュメントやサポートはどこで入手できますか？  
-**A:** 包括的なリソースは [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) にあります。コミュニティサポートは [Aspose.Page forum](https://forum.aspose.com/c/page/39) をご利用ください。
+**Q:** 追加のドキュメントやサポートはどこで見つけられますか？  
+**A:** 包括的なリソースは [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) をご覧ください。コミュニティのサポートは [Aspose.Page forum](https://forum.aspose.com/c/page/39) をチェックしてください。
 
 **Q:** 一時ライセンスはどのように取得できますか？  
-**A:** 一時ライセンスは [Aspose.Purchase](https://purchase.aspose.com/temporary-license/) から取得できます。
+**A:** [Aspose.Purchase temporary license page](https://purchase.aspose.com/temporary-license/) から一時ライセンスを取得できます。
 
 **Q:** Aspose.Page for Java のシステム要件は何ですか？  
-**A:** 詳細なシステム要件は [documentation](https://reference.aspose.com/page/java/) を参照してください。
+**A:** 詳細なシステム要件は [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) を参照してください。
 
----
-
-**最終更新日:** 2026-02-13  
+**最終更新日:** 2026-09-04  
 **テスト環境:** Aspose.Page for Java 24.11  
-**作者:** Aspose  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Java で PostScript グラデーションを作成 – 垂直グラデーションを追加](/page/java/postscript-gradient-addition/vertical/)
+- [Aspose.Page Java を使用して Java PostScript に対角グラデーションを追加する方法](/page/java/postscript-gradient-addition/diagonal/)
+- [Java で PostScript グラデーションを作成 – 放射状グラデーション](/page/java/postscript-gradient-addition/radial1/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

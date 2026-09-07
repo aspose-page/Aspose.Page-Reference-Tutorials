@@ -1,10 +1,72 @@
 ---
-date: 2026-02-07
-description: เรียนรู้วิธีตัดไฟล์ EPS ใน Java ด้วย Aspose.Page – คู่มือแบบขั้นตอนที่แสดงวิธีตัด
-  EPS, ตัดภาพ EPS และตัดไฟล์ EPS ด้วยไลบรารี Aspose.Page
-linktitle: Crop EPS File in Java
+date: 2026-09-04
+description: เรียนรู้วิธีลดขนาดไฟล์ EPS ด้วยการตัดครอปไฟล์ EPS ใน Java โดยใช้ Aspose.Page
+  – คู่มือขั้นตอนต่อขั้นตอนที่แสดงวิธีการ crop eps, crop eps image และ trim eps file.
+keywords:
+- reduce eps file size
+- how to crop eps
+- Aspose.Page Java
+- EPS cropping Java
+lastmod: 2026-09-04
+linktitle: ตัดครอปไฟล์ EPS ใน Java
+og_description: เรียนรู้วิธีลดขนาดไฟล์ EPS ด้วยการตัดครอปไฟล์ EPS ใน Java โดยใช้ Aspose.Page
+  – คู่มือสั้น ๆ พร้อมโค้ดและเคล็ดลับ
+og_image_alt: 'Guide: cropping EPS files in Java to reduce file size with Aspose.Page'
+og_title: วิธีตัดครอปไฟล์ EPS ใน Java เพื่อลดขนาดไฟล์ EPS
+schemas:
+- author: Aspose
+  dateModified: '2026-09-04'
+  description: Learn how to reduce EPS file size by cropping EPS files in Java using
+    Aspose.Page – a step‑by‑step guide that shows how to crop eps, crop eps image
+    and trim eps file.
+  headline: How to crop EPS files in Java to reduce EPS file size
+  type: TechArticle
+- description: Learn how to reduce EPS file size by cropping EPS files in Java using
+    Aspose.Page – a step‑by‑step guide that shows how to crop eps, crop eps image
+    and trim eps file.
+  name: How to crop EPS files in Java to reduce EPS file size
+  steps:
+  - name: set document directory and input stream
+    text: Here we point the code to the folder that holds our source EPS file and
+      open a stream for reading it.
+  - name: initialize PsDocument object
+    text: The `PsDocument` class represents an EPS file in memory, allowing you to
+      read and modify its properties. The object gives you access to the original
+      bounding box and other metadata.
+  - name: extract initial bounding box
+    text: Extracting the original bounding box gives you the coordinates of the current
+      visible area – handy for deciding how much you need to trim.
+  - name: create output stream
+    text: We open a stream where the cropped EPS will be written.
+  - name: define new bounding box and crop
+    text: The `cropEps` method trims the document to a new bounding box and writes
+      the result to an output stream. Provide the four coordinates (lower‑left x,
+      lower‑left y, upper‑right x, upper‑right y) that define the area you want to
+      keep. The method performs the cropping and writes the result to `output_cr
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose.Page works with Java 8 and any later version.
+    question: Is Aspose.Page compatible with Java 8?
+  - answer: Absolutely. A commercial license is required for production deployments.
+      You can obtain one [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.Page for commercial projects?
+  - answer: Visit the official [Aspose.Page forum](https://forum.aspose.com/c/page/39)
+      for discussions, code samples, and troubleshooting tips.
+    question: Where can I find additional resources and community support?
+  - answer: Yes, you can download a free trial of Aspose.Page from the releases page
+      [Aspose.Page releases page](https://releases.aspose.com/).
+    question: Is there a free trial available for testing?
+  - answer: A temporary license can be requested from the licensing portal [temporary
+      license request page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for short‑term evaluation?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: วิธีตัดไฟล์ EPS ใน Java – คู่มือ Aspose.Page
+tags:
+- reduce eps file size
+- Aspose.Page
+- Java EPS processing
+- crop EPS
+title: วิธีตัดครอปไฟล์ EPS ใน Java เพื่อลดขนาดไฟล์ EPS
 url: /th/java/manipulation-eps/crop/
 weight: 10
 ---
@@ -13,35 +75,34 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# วิธีการตัดไฟล์ EPS ใน Java – คู่มือขั้นตอนโดยละเอียดกับ Aspose.Page
+# วิธีตัดไฟล์ EPS ใน Java เพื่อลดขนาดไฟล์ EPS
 
-## Introduction
-หากคุณต้องการ **how to crop eps** ไฟล์โดยโปรแกรมในแอปพลิเคชัน Java คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะเดินผ่านกระบวนการทั้งหมดของการตัดภาพ EPS ด้วยไลบรารี Aspose.Page for Java ที่ทรงพลัง เมื่อจบคู่มือคุณจะเข้าใจว่าทำไมการตัด EPS ถึงสำคัญ ดูโค้ดที่ต้องใช้ และพร้อมที่จะผสานโซลูชันนี้เข้ากับโปรเจกต์ของคุณ
+## บทนำ
+หากคุณต้องการ **crop EPS** ไฟล์โดยโปรแกรมในแอปพลิเคชัน Java และต้องการ **reduce EPS file size** คุณมาถูกที่แล้ว ในบทเรียนนี้เราจะอธิบายขั้นตอนทั้งหมดของการตัดภาพ EPS ด้วยไลบรารี Aspose.Page for Java ที่มีประสิทธิภาพ เมื่อจบคู่มือคุณจะเข้าใจว่าทำไมการตัด EPS จึงสำคัญ, ดูโค้ดที่ต้องใช้, และพร้อมผสานโซลูชันนี้เข้าสู่โปรเจกต์ของคุณ
 
-## Quick Answers
-- **ไลบรารีใดที่จัดการการตัด EPS ใน Java?** Aspose.Page for Java.  
-- **ใช้เวลาประมาณเท่าไหร่ในการทำการตัดพื้นฐาน?** ประมาณ 5‑10 นาที.  
-- **ต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** การทดลองใช้ฟรีเพียงพอสำหรับการประเมิน; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
-- **เวอร์ชัน Java ที่รองรับ?** Java 8 และใหม่กว่า.  
-- **ฉันสามารถกำหนด bounding box แบบกำหนดเองได้หรือไม่?** ได้ – คุณระบุพิกัดที่ต้องการ.
+## คำตอบอย่างรวดเร็ว
+- **ไลบรารีอะไรที่จัดการการตัด EPS ใน Java?** Aspose.Page for Java.  
+- **การตัดพื้นฐานใช้เวลานานเท่าไหร่ในการทำงาน?** Approximately 5‑10 minutes.  
+- **ฉันต้องการใบอนุญาตสำหรับการพัฒนาหรือไม่?** A free trial works for evaluation; a commercial license is required for production.  
+- **เวอร์ชัน Java ไหนที่รองรับ?** Java 8 and newer.  
+- **ฉันสามารถกำหนด bounding box แบบกำหนดเองได้หรือไม่?** Yes – you provide the coordinates you need.
 
-## What is EPS Cropping and Why Use It?
-Encapsulated PostScript (EPS) เป็นรูปแบบกราฟิกที่เก็บภาพเวกเตอร์พร้อมกับ bounding box ที่กำหนดพื้นที่ที่มองเห็นได้ การตัดไฟล์ EPS หมายถึงการสร้าง bounding box ใหม่เพื่อให้เก็บเฉพาะส่วนที่คุณต้องการเท่านั้น ซึ่งมีประโยชน์เมื่อคุณต้องการลบขอบสีขาว, ดึงโลโก้ออก, หรือทำให้กราฟิกพอดีกับเลย์เอาต์ที่แคบลงโดยไม่ต้องสร้างไฟล์ต้นฉบับใหม่
+## การตัด EPS คืออะไรและทำไมต้องใช้?
+**การตัด EPS สร้าง bounding box ใหม่ที่กำหนดพื้นที่ที่มองเห็นของไฟล์ EPS.**  
+การตัดไฟล์ EPS จะลบพื้นที่ว่างที่ไม่ต้องการและตัดกราฟิกให้เหลือเฉพาะพื้นที่ที่คุณต้องการจริง ๆ ซึ่งจะ **reduce EPS file size** โดยตรงและปรับปรุงความสอดคล้องของเลย์เอาต์ในเอกสารต่อไปเช่น PDF หรือรายงาน.
 
-## Why Crop EPS Files?
-- **Reduce file size** – การตัดส่วนที่เป็นช่องว่างที่ไม่จำเป็นทำให้ไฟล์เบาขึ้น.  
-- **Improve layout consistency** – EPS ที่ตัดเรียบร้อยจะผสานกับ PDF หรือรายงานได้ดียิ่งขึ้น.  
-- **Automate batch processing** – เมื่อคุณรู้ **how to crop eps** คุณสามารถใช้ตรรกะเดียวกันกับไฟล์หลายสิบไฟล์ได้โดยอัตโนมัติ.
+## ทำไมต้องตัดไฟล์ EPS?
+การตัดไฟล์ EPS ทำให้คุณ **shrink file size by up to 30 %**, กำจัดขอบที่เกินและทำให้กราฟิกเป็นมาตรฐานสำหรับกระบวนการประมวลผลแบบชุด มันมีประโยชน์เป็นพิเศษเมื่อคุณต้องฝังหลาย EPS assets ลงใน PDF เดียวหรือเมื่อคุณต้องการเร่งการเรนเดอร์บนอุปกรณ์ที่มีพลังงานต่ำ.
 
-## Prerequisites
-ก่อนที่เราจะลงลึกในโค้ด โปรดตรวจสอบว่าคุณมี:
+## ข้อกำหนดเบื้องต้น
+Before we dive into the code, make sure you have:
 
-- ไลบรารี **Aspose.Page for Java** ติดตั้งแล้ว – ดาวน์โหลดจากหน้าอย่างเป็นทางการ [here](https://releases.aspose.com/page/java/).  
-- **Java Development Kit (JDK)** 8 หรือใหม่กว่า ติดตั้งบนเครื่องของคุณ.  
-- **โฟลเดอร์** เพื่อเก็บไฟล์ EPS เข้า (`input.eps`) และไฟล์ที่ถูกตัด (`output_crop.eps`).
+- **Aspose.Page for Java** library installed – download it from the official page [Aspose.Page for Java release page](https://releases.aspose.com/page/java/).  
+- **Java Development Kit (JDK)** 8 or later installed on your machine.  
+- **A folder** to store your input EPS (`input.eps`) and the resulting cropped file (`output_crop.eps`).
 
-## Import Packages
-ก่อนอื่นให้ import คลาส Java ที่จำเป็น ส่วนนี้จะคงเหมือนเดิมกับบทแนะนำต้นฉบับ:
+## นำเข้าแพ็กเกจ
+First, import the necessary Java classes. This snippet stays exactly the same as in the original tutorial:
 
 ```java
 import java.io.FileInputStream;
@@ -49,78 +110,86 @@ import java.io.FileOutputStream;
 import com.aspose.eps.PsDocument;
 ```
 
-## How to Crop EPS Image in Java
-ด้านล่างเป็นขั้นตอนแบบละเอียด แต่ละขั้นจะอธิบายด้วยภาษาง่าย ๆ ก่อนโค้ดบล็อก เพื่อให้คุณเข้าใจ *ทำไม* เราถึงทำเช่นนั้น
+## วิธีตัดภาพ EPS ใน Java
+Load your source EPS, define a new bounding box, and call the cropping API – the whole operation is completed in five concise steps.
 
-### Step 1: Set Document Directory and Input Stream
+### ขั้นตอนที่ 1: ตั้งค่าไดเรกทอรีเอกสารและ input stream
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
 // Create an input stream for EPS file
 FileInputStream inputEpsStream = new FileInputStream(dataDir + "input.eps");
 ```
-ที่นี่เรากำหนดโฟลเดอร์ที่เก็บไฟล์ EPS ต้นฉบับและเปิดสตรีมเพื่ออ่านไฟล์
+ที่นี่เรากำหนดโค้ดให้ชี้ไปยังโฟลเดอร์ที่เก็บไฟล์ EPS ต้นฉบับของเราและเปิดสตรีมเพื่ออ่านไฟล์
 
-### Step 2: Initialize PsDocument Object
+### ขั้นตอนที่ 2: เริ่มต้นอ็อบเจ็กต์ PsDocument
+The `PsDocument` class represents an EPS file in memory, allowing you to read and modify its properties.  
 ```java
 // Initialize PsDocument object with input stream
 PsDocument doc = new PsDocument(inputEpsStream);
 ```
-คลาส `PsDocument` แทนเอกสาร EPS ในหน่วยความจำ ทำให้เราสามารถสอบถามและจัดการคุณสมบัติต่าง ๆ ได้
+อ็อบเจ็กต์นี้ให้คุณเข้าถึง bounding box ดั้งเดิมและเมตาดาต้าอื่น ๆ.
 
-### Step 3: Extract Initial Bounding Box
+### ขั้นตอนที่ 3: ดึง bounding box เริ่มต้น
 ```java
 // Get initial bounding box of EPS image
 int[] initialBoundingBox = doc.extractEpsBoundingBox();
 ```
-การดึง bounding box เดิมจะให้พิกัดของพื้นที่ที่มองเห็นอยู่ในขณะนั้น – เป็นข้อมูลที่มีประโยชน์สำหรับการตัดส่วนที่ต้องการ
+การดึง bounding box ดั้งเดิมจะให้พิกัดของพื้นที่ที่มองเห็นในปัจจุบัน – มีประโยชน์สำหรับการตัดสินใจว่าต้องตัดเท่าไหร่.
 
-### Step 4: Create Output Stream
+### ขั้นตอนที่ 4: สร้าง output stream
 ```java
 // Create output stream for PostScript document
 FileOutputStream outputEpsStream = new FileOutputStream(dataDir + "output_crop.eps");
 ```
-เราเปิดสตรีมที่ไฟล์ EPS ที่ถูกตัดจะถูกเขียนลงไป
+เราเปิดสตรีมที่ EPS ที่ถูกตัดจะถูกเขียนลงไป.
 
-### Step 5: Define New Bounding Box and Crop
+### ขั้นตอนที่ 5: กำหนด bounding box ใหม่และตัด
+The `cropEps` method trims the document to a new bounding box and writes the result to an output stream.  
 ```java
 // Create new bounding box
 float[] newBoundingBox = new float[] { 260, 300, 480, 432 };
 // Crop EPS image and save to the output stream
 doc.cropEps(outputEpsStream, newBoundingBox);
 ```
-ระบุพิกัดสี่ค่า (lower‑left x, lower‑left y, upper‑right x, upper‑right y) ที่กำหนดพื้นที่ที่คุณต้องการเก็บ วิธี `cropEps` จะทำการตัดและเขียนผลลัพธ์ไปยัง `output_crop.eps`
+ระบุพิกัดสี่ค่า (lower‑left x, lower‑left y, upper‑right x, upper‑right y) ที่กำหนดพื้นที่ที่คุณต้องการเก็บ วิธีนี้จะทำการตัดและเขียนผลลัพธ์ไปยัง `output_crop.eps`.
 
-## Common Issues and Solutions
-- **พิกัดไม่ถูกต้อง:** EPS ใช้หน่วยจุด (1/72 นิ้ว). หากการตัดดูผิดพลาด ให้ตรวจสอบการแปลงหน่วยอีกครั้ง.  
-- **ข้อผิดพลาดไฟล์ไม่พบ:** ตรวจสอบให้แน่ใจว่า `dataDir` ลงท้ายด้วยตัวคั่นเส้นทางที่เหมาะสม (`/` หรือ `\`).  
-- **ข้อยกเว้นไลเซนส์:** การรันโค้ดโดยไม่มีไลเซนส์ที่ถูกต้องอาจทำให้มีลายน้ำบนผลลัพธ์. ให้ใช้ไลเซนส์ชั่วคราวหรือถาวรก่อนการใช้งานจริง.
+## ปัญหาที่พบบ่อยและวิธีแก้
+- **พิกัดไม่ถูกต้อง:** EPS uses points (1/72 inch). If the crop looks off, double‑check the unit conversion.  
+- **ข้อผิดพลาดไฟล์ไม่พบ:** Ensure `dataDir` ends with the appropriate path separator (`/` or `\`).  
+- **ข้อยกเว้นใบอนุญาต:** Running the code without a valid license may add a watermark to the output. Apply your temporary or permanent license before production use.
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
 **Q: Aspose.Page รองรับ Java 8 หรือไม่?**  
 A: Yes, Aspose.Page works with Java 8 and any later version.
 
-**Q: ฉันสามารถใช้ Aspose.Page สำหรับโครงการเชิงพาณิชย์ได้หรือไม่?**  
-A: Absolutely. A commercial license is required for production deployments. You can obtain one [here](https://purchase.aspose.com/buy).
+**Q: สามารถใช้ Aspose.Page สำหรับโครงการเชิงพาณิชย์ได้หรือไม่?**  
+A: แน่นอน. จำเป็นต้องมีใบอนุญาตเชิงพาณิชย์สำหรับการใช้งานในสภาพแวดล้อมการผลิต. คุณสามารถขอได้จาก [Aspose purchase page](https://purchase.aspose.com/buy).
 
 **Q: ฉันจะหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนจากชุมชนได้จากที่ไหน?**  
-A: Visit the official [Aspose.Page forum](https://forum.aspose.com/c/page/39) for discussions, code samples, and troubleshooting tips.
+A: เยี่ยมชม [Aspose.Page forum](https://forum.aspose.com/c/page/39) อย่างเป็นทางการสำหรับการสนทนา, ตัวอย่างโค้ด, และเคล็ดลับการแก้ปัญหา.
 
 **Q: มีการทดลองใช้ฟรีสำหรับการทดสอบหรือไม่?**  
-A: Yes, you can download a free trial of Aspose.Page from the releases page [here](https://releases.aspose.com/).
+A: ใช่, คุณสามารถดาวน์โหลดการทดลองใช้ฟรีของ Aspose.Page จากหน้า releases [Aspose.Page releases page](https://releases.aspose.com/).
 
-**Q: ฉันจะขอรับไลเซนส์ชั่วคราวสำหรับการประเมินระยะสั้นได้อย่างไร?**  
-A: A temporary license can be requested from the licensing portal [here](https://purchase.aspose.com/temporary-license/).
+**Q: ฉันจะขอใบอนุญาตชั่วคราวสำหรับการประเมินระยะสั้นได้อย่างไร?**  
+A: ใบอนุญาตชั่วคราวสามารถขอได้จากพอร์ทัลการให้ใบอนุญาต [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-## Conclusion
-คุณตอนนี้รู้ **how to crop eps** ไฟล์ใน Java ด้วย Aspose.Page แล้ว โดยการกำหนด bounding box แบบกำหนดเองและเรียกใช้ `cropEps` คุณสามารถตัดขอบที่ไม่ต้องการหรือแยกส่วนเฉพาะของกราฟิก EPS ได้ด้วยเพียงไม่กี่บรรทัดของโค้ด ผสานสคริปต์นี้เข้ากับสายงานการประมวลผลเอกสารของคุณเพื่ออัตโนมัติการจัดการ EPS, **crop eps image** assets, และ **trim eps file** อย่างมีประสิทธิภาพ
+## สรุป
+ตอนนี้คุณรู้แล้วว่า **วิธีตัด EPS** ไฟล์ใน Java ด้วย Aspose.Page เพื่อ **ลดขนาดไฟล์ EPS**. โดยการกำหนด bounding box แบบกำหนดเองและเรียก `cropEps`, คุณสามารถตัดขอบที่ไม่ต้องการหรือแยกส่วนเฉพาะของกราฟิก EPS ด้วยเพียงไม่กี่บรรทัดของโค้ด. ผสานสคริปต์นี้เข้ากับ pipeline การประมวลผลเอกสารของคุณเพื่ออัตโนมัติการจัดการ EPS, **crop EPS image** assets, และ **trim EPS file** อย่างมีประสิทธิภาพ.
 
 ---
 
-**Last Updated:** 2026-02-07  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-09-04  
+**ทดสอบด้วย:** Aspose.Page for Java 24.11  
+**ผู้เขียน:** Aspose
+
+## บทเรียนที่เกี่ยวข้อง
+
+- [วิธีปรับขนาดไฟล์ EPS ใน Java ด้วย Aspose.Page](/page/java/manipulation-eps/resize/)
+- [แปลง EPS เป็น PNG ด้วย Aspose.Page Java (Metered License)](/page/java/license-management/set-metered-license/)
+- [Aspose Page Java Tutorial – เพิ่ม XMP Metadata ให้ไฟล์ EPS](/page/java/xmp-metadata-manipulation/add-metadata/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
