@@ -1,11 +1,47 @@
 ---
-date: 2026-02-13
-description: Tanulja meg, hogyan töltsön ki alakzatot színátmenettel, és hogyan rajzoljon
-  kört színátmenettel Java PostScriptben az Aspose.Page használatával. Lépésről‑lépésre
-  útmutató kóddal és tippekkel.
-linktitle: Java PostScript Radial Gradient with Aspose.Page
+date: 2026-09-09
+description: Tanulja meg, hogyan hozhat létre gradient-et a Java PostScript-ben, és
+  hogyan adhat hozzá gradient-et egy alakzathoz az Aspose.Page használatával. Kövesse
+  ezt a step‑by‑step guide kóddal és tippekkel.
+keywords:
+- how to create gradient
+- add gradient to shape
+- radial gradient Java
+lastmod: 2026-09-09
+linktitle: Java PostScript Radial Gradient az Aspose.Page-val
+og_description: Tanulja meg, hogyan hozhat létre gradient-et a Java PostScript-ben,
+  és hogyan adhat hozzá gradient-et egy alakzathoz az Aspose.Page használatával. Kövesse
+  ezt a step‑by‑step guide kóddal és tippekkel.
+og_image_alt: 'Developer guide: create gradient in Java PostScript with radial fill
+  using Aspose.Page'
+og_title: Hogyan készítsünk gradient-et a Java PostScript-ben radial fill használatával
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to create gradient in Java PostScript and add gradient to
+    shape using Aspose.Page. Follow this step‑by‑step guide with code and tips.
+  headline: How to create gradient in Java PostScript with radial fill
+  type: TechArticle
+- questions:
+  - answer: The full API reference is available in the [Aspose.Page Java API documentation](https://reference.aspose.com/page/java/).
+    question: Where can I find the documentation for Aspose.Page for Java?
+  - answer: Grab the latest JAR from the [releases page](https://releases.aspose.com/page/java/).
+    question: How can I download Aspose.Page for Java?
+  - answer: Yes—download a trial version from the [Aspose free trial download page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Absolutely, request one from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: Can I obtain a temporary license for testing?
+  - answer: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+    question: Where can I get community support?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: 'Alakzat kitöltése színátmenettel: Java PostScript radiális példa'
+tags:
+- gradient
+- Aspose.Page
+- Java PostScript
+- radial gradient
+- fill shape
+title: Hogyan készítsünk gradient-et a Java PostScript-ben radial fill használatával
 url: /hu/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
@@ -14,36 +50,36 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Fill Shape with Gradient: Java PostScript Radiális Példa
+# Hogyan hozzunk létre színátmenetet Java PostScript-ben radiális kitöltéssel
 
 ## Bevezetés
-Ebben az oktatóanyagban megtanulja, hogyan **fill shape with gradient** egy radiális színátmenet példájának létrehozásával egy PostScript dokumentumhoz az Aspose.Page for Java használatával. Lépésről lépésre végigvezetjük a folyamaton – a projekt beállításától egy sima radiális színátmenettel kitöltött kör megjelenítéséig – hogy azonnal szemrevaló grafikákat adhasson Java alkalmazásaihoz.
+Ebben az oktatóanyagban megtanulja, hogyan hozhat létre **színátmenetes** grafikákat egy PostScript dokumentumban Java és az Aspose.Page segítségével. Lépésről lépésre végigvezetjük a folyamaton – a projekt beállításától egy sima radiális színátmenettel kitöltött kör megjelenítéséig – így azonnal **színátmenetet adhat a formákhoz**, és javíthatja Java alkalmazásai vizuális minőségét.
 
 ## Gyors válaszok
-- **What does this tutorial create?** Egy PostScript fájlt (`.ps`) tartalmaz, amely egy radiális színátmenettel kitöltött kört tartalmaz.  
-- **Which library is required?** Aspose.Page for Java (legújabb verzió).  
-- **How long does implementation take?** Körülbelül 10‑15 perc a működő példa elkészítéséhez.  
-- **Do I need a license?** Ideiglenes vagy teljes licenc szükséges a termelési használathoz; a ingyenes próba verzió fejlesztéshez megfelelő.  
-- **Can I reuse the code for PDF or SVG?** Igen – az Aspose.Page több kimeneti formátumot támogat minimális módosítással.
+- **Mit hoz létre ez az oktatóanyag?** Egy PostScript fájl (`.ps`), amely egy radiális színátmenettel kitöltött kört tartalmaz.  
+- **Melyik könyvtár szükséges?** Aspose.Page for Java (legújabb verzió).  
+- **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy működő példához.  
+- **Szükségem van licencre?** Ideiglenes vagy teljes licenc szükséges a termelési használathoz; a ingyenes próba verzió fejlesztéshez is működik.  
+- **Újra felhasználhatom a kódot PDF vagy SVG esetén?** Igen – az Aspose.Page több kimeneti formátumot támogat minimális módosítással.
 
 ## Hogyan töltsünk ki alakzatot színátmenettel PostScript-ben
-Mielőtt a kódba merülnénk, tisztázzuk, miért fontos a “fill shape with gradient”. A színátmenetek professzionális, háromdimenziós hatást kölcsönöznek a grafikáknak raszteres képek nélkül. Az Aspose.Page segítségével ugyanazt a színátmenet logikát alkalmazhatja bármely vektor alakzatra – körökre, téglalapokra vagy egyedi útvonalakra – az összes támogatott kimeneti formátumban (PostScript, PDF, SVG).
+Radiális színátmenettel egy alakzatot PostScript-ben úgy tölthet ki, hogy létrehoz egy `PsDocument`‑et, definiál egy `RadialGradientPaint`‑ot, alkalmazza a célalakzatra, majd elmenti a dokumentumot. Ez a tömör munkafolyamat lehetővé teszi professzionális megjelenésű vektorgrafikák előállítását raster képek nélkül, és ugyanaz a kód újra felhasználható PDF vagy SVG kimenethez is. A folyamat egyszerű és következetesen működik az összes támogatott formátumban.
 
 ## Mi az a radiális színátmenet?
-A radiális színátmenet a színeket a középpontból kifelé változtatja, sima, kör alakú keveréket hozva létre. Ideális kiemelésekhez, gombháttérhez vagy bármilyen vizuális elemhez, amely természetes „ragyogás” hatást igényel.
+A radiális színátmenet a színeket egy központi ponttól kifelé változtatja, sima, kör alakú keverést hozva létre. Ideális kiemelésekhez, gombháttérhez vagy bármilyen vizuális elemhez, amely természetes „fénylő” hatást igényel. A színállomások és a sugár változtatásával szimulálhatja a megvilágítást, mélységet és anyagtulajdonságokat tisztán vektoros formában.
 
 ## Miért használjuk az Aspose.Page-et radiális színátmenetekhez?
-- **Device‑independent rendering** – ugyanúgy működik PostScript, PDF, SVG és más formátumokon.  
-- **Full Java integration** – nincs natív kód, csak tiszta Java API-k.  
-- **High‑quality output** – támogatja az anti‑aliasinget és a színtér vezérlést.
+Az Aspose.Page lehetővé teszi eszközfüggetlen vektorgrafikák generálását egyetlen Java API‑val. Több mint 50 bemeneti és kimeneti formátumot támogat – köztük PostScript, PDF és SVG – miközben megőrzi a színpontosságot és az anti‑aliasingot a nagy felbontású kimenethez. A könyvtár könnyen használható színátmenet osztályokat is biztosít, így a komplex vizuális hatások egyszerűen megvalósíthatók.
 
 ## Előfeltételek
-- Alapvető ismeretek a Java programozásban.  
+Mielőtt elkezdenénk, győződjön meg róla, hogy rendelkezik:
+
+- Alapvető ismeretekkel a Java programozásban.  
 - JDK 8 vagy újabb telepítve a gépén.  
-- Aspose.Page for Java könyvtár (letölthető a [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) oldalról).  
+- Aspose.Page for Java könyvtárral (letölthető a [Aspose.Page Java dokumentációból](https://reference.aspose.com/page/java/)).  
 
 ## Csomagok importálása
-Először importáljuk a szükséges osztályokat. Ezek közé tartoznak a szabványos AWT grafikai típusok és az Aspose.Page API.
+Először importálja a szükséges osztályokat. Ezek közé tartoznak a szabványos AWT grafikai típusok és az Aspose.Page API.
 
 ```java
 import java.awt.Color;
@@ -57,46 +93,46 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## 1. lépés: Dokumentum könyvtár beállítása
-Határozza meg azt a mappát, ahová a generált PostScript fájl mentésre kerül. Cserélje le a helyőrzőt a rendszerén lévő valós útvonalra.
+## 1. lépés: a dokumentum könyvtár beállítása
+Határozza meg azt a mappát, ahová a generált PostScript fájl mentésre kerül. Cserélje le a helyőrzőt a rendszerén létező tényleges útvonalra.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## 2. lépés: Kimeneti adatfolyam létrehozása
-Nyisson egy `FileOutputStream`-et, amely a cél `.ps` fájlra mutat. Ez az adatfolyam táplálja az Aspose.Page által generált bináris adatokat.
+## 2. lépés: kimeneti adatfolyam létrehozása
+A `FileOutputStream` nyers bájtokat ír egy fájlba, lehetővé téve a bináris adatok mentését. Egy `.ps` fájlra mutató adatfolyam megnyitása lehetővé teszi, hogy az Aspose.Page közvetlenül a lemezre streamelje a generált PostScript adatot.
 
 ```java
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "RadialGradient2_outPS.ps");
 ```
 
-## 3. lépés: Mentési beállítások létrehozása
-Példányosítsa a `PsSaveOptions` osztályt. Testreszabhatja az oldal méretét, tömörítést stb., de az alapértelmezések megfelelőek ebben a példában.
+## 3. lépés: mentési beállítások létrehozása
+A `PsSaveOptions` szabályozza, hogyan mentődik egy PostScript fájl, beleértve az oldal méretét és a tömörítést. Testreszabhatja ezeket a beállításokat, de az alapértelmezések megfelelőek ehhez a példához.
 
 ```java
 PsSaveOptions options = new PsSaveOptions();
 ```
 
 ## 4. lépés: PS dokumentum létrehozása
-Hozza létre a `PsDocument` objektumot, átadva a kimeneti adatfolyamot és a mentési beállításokat. A `false` jelző azt mondja az Aspose.Page-nek, hogy ne nyisson meg automatikusan oldalt (mi manuálisan fogjuk megtenni).
+A `PsDocument` egy PostScript dokumentumot reprezentál a memóriában, és módszereket biztosít az oldalak és grafikai elemek hozzáadásához.
 
 ```java
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## 5. lépés: Kör létrehozása
-A `Ellipse2D.Float` segítségével rajzolunk egy kört. A paraméterek `(x, y, width, height)`. A `width = height` beállítás tökéletes kört eredményez.
+## 5. lépés: kör létrehozása
+Az `Ellipse2D.Float` egy ellipszis alakzatot ír le; ha a szélesség = magasság, akkor tökéletes kör lesz. Ez az objektum szolgál majd a színátmenetes kitöltés vásznaként.
 
 ```java
 Ellipse2D.Float circle = new Ellipse2D.Float(200, 100, 200, 200);
 ```
 
 ## Hogyan rajzoljunk kört színátmenettel
-Miután megvan az alakzat, a következő lépés a **draw circle with gradient**. A `RadialGradientPaint` alkalmazásával a körre, a kitöltési művelet automatikusan a definiált színátmenetet használja.
+Egy kör radiális színátmenettel való rajzolásához betölt egy `RadialGradientPaint`‑t a grafikai kontextusba, majd kitölti az előzőleg definiált ellipszist. Ez az egyetlen művelet a formát egy sima színátmenettel festi a középtől a szél felé, vizuálisan vonzó hatást eredményezve.
 
-## 6. lépés: Színátmenet színek meghatározása
-Készítsen két tömböt: egyet a színátmenetben megjelenő színeknek, egyet pedig a megfelelő tört pozícióknak (0 = középpont, 1 = szél).
+## 6. lépés: színátmenet színeinek meghatározása
+Készítsen két tömböt: egyet a színátmenetben megjelenő színeknek, egyet pedig a megfelelő tört pozícióknak (0 = közép, 1 = szél).
 
 ```java
 Color[] colors = { Color.WHITE, Color.WHITE, Color.BLUE };
@@ -104,14 +140,14 @@ float[] fractions = { 0.0f, 0.2f, 1.0f };
 ```
 
 ## 7. lépés: AffineTransform létrehozása
-Az `AffineTransform` méretez és eltolja a színátmenetet, hogy illeszkedjen a körhöz. A `(scaleX, 0, 0, scaleY, translateX, translateY)` mátrix elvégzi a feladatot.
+Az `AffineTransform` egy mátrix, amely képes eltolni, forgatni, méretezni vagy nyíltá alakítani grafikai objektumokat. Itt a színátmenetet méretezi és helyezi el úgy, hogy pontosan illeszkedjen a körbe.
 
 ```java
 AffineTransform transform = new AffineTransform(200, 0, 0, 200, 200, 100);
 ```
 
-## 8. lépés: Radiális színátmenet festék létrehozása
-Most felépítjük a `RadialGradientPaint` objektumot. Ez a középpontot, a sugárt, a fókuszpontot, a színarányokat, a színtömböt, a ciklusmetódust, a színtér-típust és a most definiált transzformációt veszi át.
+## 8. lépés: radiális színátmenet létrehozása
+A `RadialGradientPaint` egy központi pont, sugár és színállomások alapján hoz létre radiális színátmenetet.
 
 ```java
 RadialGradientPaint paint = new RadialGradientPaint(
@@ -125,56 +161,63 @@ RadialGradientPaint paint = new RadialGradientPaint(
         transform);
 ```
 
-## 9. lépés: Festék beállítása és kör kitöltése
-Alkalmazza a színátmenet festéket a dokumentumra, és töltse ki a korábban definiált kört. Ez a **radial gradient example** magja, és bemutatja, hogyan **fill shape with gradient**.
+## 9. lépés: festék beállítása és kör kitöltése
+Alkalmazza a színátmenet festéket a dokumentumra, és töltse ki az előzőleg definiált kört. Ez a **radiális színátmenet példa** magja, és bemutatja, hogyan **töltsünk ki alakzatot színátmenettel**.
 
 ```java
 document.setPaint(paint);
 document.fill(circle);
 ```
 
-## 10. lépés: Oldal lezárása és dokumentum mentése
-Fejezze be az oldalt, írja a tartalmat a lemezre, és zárja le az adatfolyamot. A PostScript fájl most már készen áll a megtekintésre bármely PS megjelenítővel.
+## 10. lépés: oldal lezárása és dokumentum mentése
+Fejezze be az oldalt, írja a tartalmat a lemezre, majd zárja le az adatfolyamot. A PostScript fájl most már megtekinthető bármely PS megjelenítővel.
 
 ```java
 document.closePage();
 document.save();
 ```
 
-Gratulálunk! Sikeresen létrehozott egy radiális színátmenet példát Java PostScript-ben az Aspose.Page használatával. Most már van egy újrahasználható minta a **fill shape with gradient**-hez, amely más alakzatokra és kimeneti formátumokra is adaptálható.
+Gratulálunk! Sikeresen létrehozott egy radiális színátmenet példát Java PostScript-ben az Aspose.Page használatával. Most már van egy újrahasználható minta a **alakzat kitöltésére színátmenettel**, amely más alakzatokra és kimeneti formátumokra is adaptálható.
 
 ## Gyakori problémák és megoldások
 | Probléma | Megoldás |
-|---------|----------|
-| **FileNotFoundException** when opening the output stream | Ellenőrizze, hogy a `dataDir` egy létező mappára mutat, és van írási jogosultsága. |
-| Gradient looks flat or missing | Győződjön meg róla, hogy a `fractions` tömb hossza megegyezik a `colors` tömb hosszával, és az `AffineTransform` helyesen méretez. |
-| Colors appear inverted | Cserélje fel a színek sorrendjét a `colors` tömbben, vagy módosítsa a `focus` pont koordinátáit. |
+|----------|----------|
+| **FileNotFoundException** a kimeneti adatfolyam megnyitásakor | Ellenőrizze, hogy a `dataDir` egy létező mappára mutat, és rendelkezik írási jogosultsággal. |
+| A színátmenet lapos vagy hiányzik | Győződjön meg arról, hogy a `fractions` tömb hossza megegyezik a `colors` tömb hosszával, és hogy az `AffineTransform` megfelelően méreteződik. |
+| A színek fordított sorrendben jelennek meg | Cserélje fel a színek sorrendjét a `colors` tömbben, vagy állítsa be a `focus` pont koordinátáit. |
 
-## Gyakran Ismételt Kérdések
+## Gyakran ismételt kérdések
 
-**Q: Hol találhatom meg az Aspose.Page for Java dokumentációját?**  
-A: A teljes API referencia elérhető [here](https://reference.aspose.com/page/java/).
+**K: Hol találom az Aspose.Page for Java dokumentációját?**  
+V: A teljes API referencia elérhető a [Aspose.Page Java API dokumentációban](https://reference.aspose.com/page/java/).
 
-**Q: Hogyan tölthetem le az Aspose.Page for Java-t?**  
-A: Szerezze be a legújabb JAR-t a [releases page](https://releases.aspose.com/page/java/) oldalról.
+**K: Hogyan tölthetem le az Aspose.Page for Java-t?**  
+V: Töltse le a legújabb JAR fájlt a [kiadások oldaláról](https://releases.aspose.com/page/java/).
 
-**Q: Elérhető ingyenes próba verzió?**  
-A: Igen – töltse le a próba verziót [here](https://releases.aspose.com/).
+**K: Van ingyenes próba verzió?**  
+V: Igen – töltse le a próba verziót a [Aspose ingyenes próba letöltési oldaláról](https://releases.aspose.com/).
 
-**Q: Kaphatok ideiglenes licencet teszteléshez?**  
-A: Természetesen, kérjen egyet a [temporary license page](https://purchase.aspose.com/temporary-license/) oldalról.
+**K: Kaphatok ideiglenes licencet teszteléshez?**  
+V: Természetesen, kérjen egyet a [ideiglenes licenc oldaláról](https://purchase.aspose.com/temporary-license/).
 
-**Q: Hol kaphatok közösségi támogatást?**  
-A: Csatlakozzon a beszélgetéshez az [Aspose.Page forum](https://forum.aspose.com/c/page/39) oldalon.
+**K: Hol kaphatok közösségi támogatást?**  
+V: Csatlakozzon a beszélgetéshez az [Aspose.Page fórumon](https://forum.aspose.com/c/page/39).
 
 ## Következtetés
-Ebben az útmutatóban egy teljes **radial gradient example**-t építettünk egy PostScript dokumentumhoz az Aspose.Page for Java használatával. A lépések követésével most már van egy újrahasználható minta a **fill shape with gradient**-hez, amelyet PDF, SVG vagy bármely más, az Aspose.Page által támogatott formátumra adaptálhat. Kísérletezzen különböző színekkel, sugarakkal és alakzatokkal, hogy gazdagítsa Java grafikai projektjeit.
+Ebben az útmutatóban egy komplett **radiális színátmenet példát** építettünk fel egy PostScript dokumentumhoz az Aspose.Page for Java használatával. A lépések követésével most már rendelkezik egy újrahasználható mintával a **alakzat kitöltésére színátmenettel**, amely PDF, SVG vagy bármely más, az Aspose.Page által támogatott formátumra adaptálható. Kísérletezzen különböző színekkel, sugarakkal és alakzatokkal, hogy gazdagabbá tegye Java grafikai projektjeit.
 
 ---
 
-**Last Updated:** 2026-02-13  
+**Last Updated:** 2026-09-09  
 **Tested With:** Aspose.Page for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [PostScript színátmenet létrehozása Java-ban – Függőleges színátmenet hozzáadása](/page/java/postscript-gradient-addition/vertical/)
+- [Textúra minta létrehozása PostScript-ben az Aspose.Page for Java-val](/page/java/postscript-texture-patterns/)
+- [Aspose.Page átlátszóság oktatóanyag – Átlátszóság hozzáadása Java PostScript-ben](/page/java/postscript-transparency/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

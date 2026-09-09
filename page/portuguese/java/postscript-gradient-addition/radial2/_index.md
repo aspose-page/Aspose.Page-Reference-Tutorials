@@ -1,10 +1,45 @@
 ---
-date: 2026-02-13
-description: Aprenda a preencher formas com gradiente e desenhar círculos com gradiente
-  em Java PostScript usando Aspose.Page. Guia passo a passo com código e dicas.
-linktitle: Java PostScript Radial Gradient with Aspose.Page
+date: 2026-09-09
+description: Aprenda como criar gradient em Java PostScript e adicionar gradient a
+  uma forma usando Aspose.Page. Siga este guia passo a passo com código e dicas.
+keywords:
+- how to create gradient
+- add gradient to shape
+- radial gradient Java
+lastmod: 2026-09-09
+linktitle: Java PostScript Radial Gradient com Aspose.Page
+og_description: Aprenda como criar gradient em Java PostScript e adicionar gradient
+  a uma forma usando Aspose.Page. Siga este guia passo a passo com código e dicas.
+og_image_alt: 'Developer guide: create gradient in Java PostScript with radial fill
+  using Aspose.Page'
+og_title: Como criar gradient em Java PostScript com radial fill
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to create gradient in Java PostScript and add gradient to
+    shape using Aspose.Page. Follow this step‑by‑step guide with code and tips.
+  headline: How to create gradient in Java PostScript with radial fill
+  type: TechArticle
+- questions:
+  - answer: The full API reference is available in the [Aspose.Page Java API documentation](https://reference.aspose.com/page/java/).
+    question: Where can I find the documentation for Aspose.Page for Java?
+  - answer: Grab the latest JAR from the [releases page](https://releases.aspose.com/page/java/).
+    question: How can I download Aspose.Page for Java?
+  - answer: Yes—download a trial version from the [Aspose free trial download page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Absolutely, request one from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: Can I obtain a temporary license for testing?
+  - answer: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+    question: Where can I get community support?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: 'Preencher Forma com Gradiente: Exemplo Radial em Java PostScript'
+tags:
+- gradient
+- Aspose.Page
+- Java PostScript
+- radial gradient
+- fill shape
+title: Como criar gradient em Java PostScript com radial fill
 url: /pt/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
@@ -13,38 +48,36 @@ weight: 13
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Preencher Forma com Gradiente: Exemplo Radial de PostScript em Java
+# Como criar gradiente em Java PostScript com preenchimento radial
 
 ## Introdução
-Neste tutorial você aprenderá a **preencher forma com gradiente** criando um exemplo de gradiente radial para um documento PostScript usando Aspose.Page para Java. Vamos percorrer cada passo — desde a configuração do projeto até a renderização de um círculo preenchido com um gradiente radial suave — para que você possa adicionar gráficos atraentes às suas aplicações Java instantaneamente.
+Neste tutorial você aprenderá **how to create gradient** gráficos em um documento PostScript usando Java e Aspose.Page. Vamos percorrer cada passo — desde a configuração do projeto até a renderização de um círculo preenchido com um gradiente radial suave — para que você possa **add gradient to shape** objects instantaneamente e elevar a qualidade visual de suas aplicações Java.
 
-## Respostas Rápidas
-- **O que este tutorial cria?** Um arquivo PostScript (`.ps`) contendo um círculo preenchido com um gradiente radial.  
-- **Qual biblioteca é necessária?** Aspose.Page para Java (versão mais recente).  
-- **Quanto tempo leva a implementação?** Aproximadamente 10‑15 minutos para um exemplo funcional.  
-- **Preciso de licença?** Uma licença temporária ou completa é necessária para uso em produção; uma avaliação gratuita funciona para desenvolvimento.  
-- **Posso reutilizar o código para PDF ou SVG?** Sim — Aspose.Page suporta vários formatos de saída com alterações mínimas.
+## Respostas rápidas
+- **O que este tutorial cria?** A PostScript file (`.ps`) containing a circle filled with a radial gradient.  
+- **Qual biblioteca é necessária?** Aspose.Page for Java (latest version).  
+- **Quanto tempo leva a implementação?** Approximately 10‑15 minutes for a working example.  
+- **Preciso de uma licença?** A temporary or full license is required for production use; a free trial works for development.  
+- **Posso reutilizar o código para PDF ou SVG?** Yes—Aspose.Page supports multiple output formats with minimal changes.
 
-## Como Preencher Forma com Gradiente em PostScript
-Antes de mergulharmos no código, vamos esclarecer por que “preencher forma com gradiente” é importante. O uso de gradientes confere aos seus gráficos um aspecto profissional e tridimensional sem a necessidade de imagens rasterizadas. Com Aspose.Page você pode aplicar a mesma lógica de gradiente a qualquer forma vetorial — círculos, retângulos ou caminhos personalizados — em todos os formatos de saída suportados (PostScript, PDF, SVG).
+## Como preencher shape com gradiente no PostScript
+Você pode preencher um shape com um gradiente radial no PostScript criando um `PsDocument`, definindo um `RadialGradientPaint`, aplicando-o ao shape de destino e, finalmente, salvando o documento. Esse fluxo de trabalho conciso permite produzir gráficos vetoriais com aparência profissional sem imagens raster, e o mesmo código pode ser reutilizado para saída PDF ou SVG. O processo é simples e funciona de forma consistente em todos os formatos suportados.
 
-## O que é um Gradiente Radial?
-Um gradiente radial transita as cores a partir de um ponto central, criando uma mescla circular suave. É ideal para realces, fundos de botões ou qualquer elemento visual que precise de um efeito natural de “brilho”.
+## O que é um gradiente radial?
+Um gradiente radial transita as cores do ponto central para fora, criando uma mescla suave e circular. É ideal para realces, fundos de botões ou qualquer elemento visual que precise de um efeito de “brilho” natural. Variando as paradas de cor e o raio, você pode simular iluminação, profundidade e propriedades de material em forma vetorial pura.
 
-## Por que Usar Aspose.Page para Gradientes Radiais?
-- **Renderização independente de dispositivo** – funciona da mesma forma em PostScript, PDF, SVG e outros.  
-- **Integração total com Java** – sem código nativo, apenas APIs Java simples.  
-- **Saída de alta qualidade** – suporta anti‑aliasing e controle de espaço de cor.
+## Por que usar Aspose.Page para gradientes radiais?
+Aspose.Page permite gerar gráficos vetoriais independentes de dispositivo com uma única API Java. Ele suporta mais de 50 formatos de entrada e saída — incluindo PostScript, PDF e SVG — mantendo a precisão de cores e anti‑aliasing para saída de alta resolução. A biblioteca também fornece classes de gradiente fáceis de usar, tornando efeitos visuais complexos simples de implementar.
 
 ## Pré-requisitos
-Antes de começar, certifique‑se de que você tem:
+Antes de começarmos, certifique‑se de que você tem:
 
 - Familiaridade básica com programação Java.  
 - JDK 8 ou superior instalado em sua máquina.  
-- Biblioteca Aspose.Page para Java (download na [documentação do Aspose.Page Java](https://reference.aspose.com/page/java/)).  
+- Biblioteca Aspose.Page for Java (download da [Aspose.Page Java documentation](https://reference.aspose.com/page/java/)).  
 
-## Importar Pacotes
-Primeiro, importe as classes que usaremos. Elas incluem tipos gráficos padrão do AWT e a API Aspose.Page.
+## Importar pacotes
+Primeiro, importe as classes que precisaremos. Elas incluem tipos gráficos padrão AWT e a API Aspose.Page.
 
 ```java
 import java.awt.Color;
@@ -58,61 +91,61 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Etapa 1: Configurar Diretório do Documento
+## Etapa 1: configurar diretório do documento
 Defina a pasta onde o arquivo PostScript gerado será salvo. Substitua o placeholder por um caminho real no seu sistema.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Etapa 2: Criar Fluxo de Saída
-Abra um `FileOutputStream` que aponta para o arquivo `.ps` de destino. Esse fluxo alimenta os dados binários gerados pelo Aspose.Page.
+## Etapa 2: criar fluxo de saída
+FileOutputStream grava bytes brutos em um arquivo, permitindo que dados binários sejam salvos. Abrir um direcionado a um arquivo `.ps` permite que Aspose.Page envie os dados PostScript gerados diretamente para o disco.
 
 ```java
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "RadialGradient2_outPS.ps");
 ```
 
-## Etapa 3: Criar Opções de Salvamento
-Instancie `PsSaveOptions`. Você pode personalizar tamanho de página, compressão, etc., mas os padrões são suficientes para este exemplo.
+## Etapa 3: criar opções de salvamento
+PsSaveOptions configura como um arquivo PostScript é salvo, incluindo tamanho da página e compressão. Você pode personalizar essas configurações, mas os padrões são adequados para este exemplo.
 
 ```java
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Etapa 4: Criar Documento PS
-Crie o objeto `PsDocument`, passando o fluxo de saída e as opções de salvamento. O parâmetro `false` indica ao Aspose.Page que não abra uma página automaticamente (faremos isso manualmente).
+## Etapa 4: criar documento ps
+PsDocument representa um documento PostScript na memória e fornece métodos para adicionar páginas e gráficos.
 
 ```java
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Etapa 5: Criar um Círculo
-Desenharemos um círculo usando `Ellipse2D.Float`. Os parâmetros são `(x, y, width, height)`. Definir `width = height` cria um círculo perfeito.
+## Etapa 5: criar um círculo
+`Ellipse2D.Float` descreve uma forma elíptica; quando largura = altura ela se torna um círculo perfeito. Este objeto servirá como a tela para o nosso preenchimento de gradiente.
 
 ```java
 Ellipse2D.Float circle = new Ellipse2D.Float(200, 100, 200, 200);
 ```
 
-## Como Desenhar Círculo com Gradiente
-Agora que temos uma forma, o próximo passo é **desenhar círculo com gradiente**. Ao aplicar um `RadialGradientPaint` ao círculo, a operação de preenchimento usará automaticamente o gradiente que definimos.
+## Como desenhar círculo com gradiente
+Para desenhar um círculo com um gradiente radial, você carrega um `RadialGradientPaint` no contexto gráfico e então preenche a elipse previamente definida. Essa única operação pinta o shape com uma transição de cores suave do centro para fora, criando um efeito visualmente atraente.
 
-## Etapa 6: Definir Cores do Gradiente
-Prepare dois arrays: um para as cores que aparecerão no gradiente e outro para as posições fracionárias correspondentes (0 = centro, 1 = borda).
+## Etapa 6: definir cores do gradiente
+Prepare duas matrizes: uma para as cores que aparecerão no gradiente e outra para as posições fracionárias correspondentes (0 = centro, 1 = borda).
 
 ```java
 Color[] colors = { Color.WHITE, Color.WHITE, Color.BLUE };
 float[] fractions = { 0.0f, 0.2f, 1.0f };
 ```
 
-## Etapa 7: Criar AffineTransform
-O `AffineTransform` escala e translada o gradiente para caber no nosso círculo. A matriz `(scaleX, 0, 0, scaleY, translateX, translateY)` realiza essa tarefa.
+## Etapa 7: criar AffineTransform
+AffineTransform é uma matriz que pode traduzir, rotacionar, escalar ou cisalhar objetos gráficos. Aqui ela escala e traduz o gradiente para que se ajuste precisamente dentro do círculo.
 
 ```java
 AffineTransform transform = new AffineTransform(200, 0, 0, 200, 200, 100);
 ```
 
-## Etapa 8: Criar RadialGradientPaint
-Agora construímos o objeto `RadialGradientPaint`. Ele recebe o ponto central, raio, ponto focal, frações de cor, array de cores, método de ciclo, espaço de cor e a transformação que acabamos de definir.
+## Etapa 8: criar radial gradient paint
+RadialGradientPaint cria um gradiente de cor radial baseado em um ponto central, raio e paradas de cor.
 
 ```java
 RadialGradientPaint paint = new RadialGradientPaint(
@@ -126,56 +159,63 @@ RadialGradientPaint paint = new RadialGradientPaint(
         transform);
 ```
 
-## Etapa 9: Definir Pintura e Preencher Círculo
-Aplique a pintura de gradiente ao documento e preencha o círculo definido anteriormente. Este é o núcleo do nosso **exemplo de gradiente radial** e demonstra como **preencher forma com gradiente**.
+## Etapa 9: definir pintura e preencher círculo
+Aplique a pintura de gradiente ao documento e preencha o círculo previamente definido. Este é o núcleo do nosso **radial gradient example** e demonstra como **fill shape with gradient**.
 
 ```java
 document.setPaint(paint);
 document.fill(circle);
 ```
 
-## Etapa 10: Fechar Página e Salvar Documento
-Finalize a página, escreva o conteúdo no disco e feche o fluxo. Seu arquivo PostScript está pronto para ser visualizado em qualquer visualizador PS.
+## Etapa 10: fechar página e salvar documento
+Finalize a página, escreva o conteúdo no disco e feche o fluxo. Seu arquivo PostScript está pronto para ser visualizado com qualquer visualizador PS.
 
 ```java
 document.closePage();
 document.save();
 ```
 
-Parabéns! Você criou com sucesso um exemplo de gradiente radial em Java PostScript usando Aspose.Page. Agora você tem um padrão reutilizável para **preencher forma com gradiente** que pode ser adaptado a outras formas e formatos de saída.
+Parabéns! Você criou com sucesso um exemplo de gradiente radial em Java PostScript usando Aspose.Page. Agora você tem um padrão reutilizável para **fill shape with gradient** que pode ser adaptado a outras formas e formatos de saída.
 
-## Problemas Comuns e Soluções
+## Problemas comuns e soluções
 | Problema | Solução |
-|----------|---------|
-| **FileNotFoundException** ao abrir o fluxo de saída | Verifique se `dataDir` aponta para uma pasta existente e se você tem permissão de gravação. |
-| O gradiente parece plano ou ausente | Certifique‑se de que o array `fractions` corresponde ao tamanho do array `colors` e que o `AffineTransform` está escalando corretamente. |
-| As cores aparecem invertidas | Inverta a ordem das cores no array `colors` ou ajuste as coordenadas do ponto `focus`. |
+|---------|----------|
+| **FileNotFoundException** ao abrir o fluxo de saída | Verifique se `dataDir` aponta para uma pasta existente e se você tem permissões de gravação. |
+| Gradiente parece plano ou ausente | Certifique‑se de que a matriz `fractions` corresponde ao comprimento da matriz `colors` e que o `AffineTransform` escala corretamente. |
+| Cores aparecem invertidas | Inverta a ordem das cores na matriz `colors` ou ajuste as coordenadas do ponto `focus`. |
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
-**P: Onde posso encontrar a documentação do Aspose.Page para Java?**  
-R: A referência completa da API está disponível [aqui](https://reference.aspose.com/page/java/).
+**Q: Onde posso encontrar a documentação do Aspose.Page for Java?**  
+A: The full API reference is available in the [Aspose.Page Java API documentation](https://reference.aspose.com/page/java/).
 
-**P: Como faço o download do Aspose.Page para Java?**  
-R: Baixe o JAR mais recente na [página de lançamentos](https://releases.aspose.com/page/java/).
+**Q: Como posso baixar o Aspose.Page for Java?**  
+A: Grab the latest JAR from the [releases page](https://releases.aspose.com/page/java/).
 
-**P: Existe uma versão de avaliação gratuita?**  
-R: Sim — faça o download da versão de avaliação [aqui](https://releases.aspose.com/).
+**Q: Existe uma versão de avaliação gratuita?**  
+A: Yes—download a trial version from the [Aspose free trial download page](https://releases.aspose.com/).
 
-**P: Posso obter uma licença temporária para testes?**  
-R: Absolutamente, solicite uma na [página de licença temporária](https://purchase.aspose.com/temporary-license/).
+**Q: Posso obter uma licença temporária para testes?**  
+A: Absolutely, request one from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-**P: Onde posso obter suporte da comunidade?**  
-R: Participe da discussão no [fórum do Aspose.Page](https://forum.aspose.com/c/page/39).
+**Q: Onde posso obter suporte da comunidade?**  
+A: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
 ## Conclusão
-Neste guia construímos um **exemplo completo de gradiente radial** para um documento PostScript usando Aspose.Page para Java. Seguindo os passos, você agora possui um padrão reutilizável para **preencher forma com gradiente**, que pode ser adaptado para PDF, SVG ou qualquer outro formato suportado pelo Aspose.Page. Experimente diferentes cores, raios e formas para enriquecer seus projetos gráficos Java.
+Neste guia construímos um **radial gradient example** completo para um documento PostScript usando Aspose.Page for Java. Seguindo os passos, agora você tem um padrão reutilizável para **fill shape with gradient**, que pode ser adaptado para PDF, SVG ou qualquer outro formato suportado pelo Aspose.Page. Experimente diferentes cores, raios e formas para enriquecer seus projetos gráficos Java.
 
 ---
 
-**Última atualização:** 2026-02-13  
-**Testado com:** Aspose.Page para Java 24.11 (última versão na data de escrita)  
-**Autor:** Aspose  
+**Last Updated:** 2026-09-09  
+**Tested With:** Aspose.Page for Java 24.11 (latest at time of writing)  
+**Author:** Aspose
+
+## Tutoriais Relacionados
+
+- [Criar Gradiente PostScript em Java – Adicionar Gradiente Vertical](/page/java/postscript-gradient-addition/vertical/)
+- [Criar Padrão de Textura em PostScript com Aspose.Page for Java](/page/java/postscript-texture-patterns/)
+- [Tutorial de Transparência Aspose.Page – Adicionar Transparência em Java PostScript](/page/java/postscript-transparency/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
