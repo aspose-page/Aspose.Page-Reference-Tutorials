@@ -1,88 +1,83 @@
 ---
-date: 2026-02-13
-description: Tìm hiểu cách tô hình dạng bằng gradient và vẽ vòng tròn bằng gradient
-  trong Java PostScript sử dụng Aspose.Page. Hướng dẫn từng bước kèm mã và mẹo.
-linktitle: Java PostScript Radial Gradient with Aspose.Page
+date: 2026-09-09
+description: Tìm hiểu cách tạo gradient trong Java PostScript và thêm gradient vào
+  shape bằng cách sử dụng Aspose.Page. Thực hiện theo hướng dẫn step‑by‑step với code
+  và tips.
+keywords:
+- how to create gradient
+- add gradient to shape
+- radial gradient Java
+lastmod: 2026-09-09
+linktitle: Java PostScript Radial Gradient với Aspose.Page
+og_description: Tìm hiểu cách tạo gradient trong Java PostScript và thêm gradient
+  vào shape bằng cách sử dụng Aspose.Page. Thực hiện theo hướng dẫn step‑by‑step với
+  code và tips.
+og_image_alt: 'Developer guide: create gradient in Java PostScript with radial fill
+  using Aspose.Page'
+og_title: Cách tạo gradient trong Java PostScript với radial fill
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to create gradient in Java PostScript and add gradient to
+    shape using Aspose.Page. Follow this step‑by‑step guide with code and tips.
+  headline: How to create gradient in Java PostScript with radial fill
+  type: TechArticle
+- questions:
+  - answer: The full API reference is available in the [Aspose.Page Java API documentation](https://reference.aspose.com/page/java/).
+    question: Where can I find the documentation for Aspose.Page for Java?
+  - answer: Grab the latest JAR from the [releases page](https://releases.aspose.com/page/java/).
+    question: How can I download Aspose.Page for Java?
+  - answer: Yes—download a trial version from the [Aspose free trial download page](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Absolutely, request one from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+    question: Can I obtain a temporary license for testing?
+  - answer: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+    question: Where can I get community support?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: 'Đổ hình dạng bằng gradient: Ví dụ Radial Java PostScript'
+tags:
+- gradient
+- Aspose.Page
+- Java PostScript
+- radial gradient
+- fill shape
+title: Cách tạo gradient trong Java PostScript với radial fill
 url: /vi/java/postscript-gradient-addition/radial2/
 weight: 13
 ---
-
-". We'll choose "với".
-
-Introduction translation.
-
-Quick Answers bullet translations.
-
-How to Fill Shape with Gradient in PostScript translation.
-
-What Is a Radial Gradient? translation.
-
-Why Use Aspose.Page for Radial Gradients? bullet translations.
-
-Prerequisites translation.
-
-Import Packages translation.
-
-Step headings translation.
-
-How to Draw Circle with Gradient translation.
-
-Step 6 etc.
-
-Step 10 translation.
-
-Congratulations translation.
-
-Common Issues table translation.
-
-FAQ translation.
-
-Conclusion translation.
-
-Now produce final markdown.
-
-Be careful not to translate code block placeholders.
-
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Đổ Hình với Gradient: Ví dụ Radial Java PostScript
+# Cách tạo gradient trong Java PostScript với độ phủ dạng tròn
 
-## Introduction
-Trong hướng dẫn này, bạn sẽ học cách **đổ hình bằng gradient** bằng cách xây dựng một ví dụ gradient radial cho tài liệu PostScript sử dụng Aspose.Page cho Java. Chúng tôi sẽ hướng dẫn từng bước—từ việc thiết lập dự án đến việc vẽ một vòng tròn được đổ bằng gradient radial mượt mà—để bạn có thể ngay lập tức thêm các đồ họa bắt mắt vào ứng dụng Java của mình.
+## Giới thiệu
+Trong hướng dẫn này, bạn sẽ học **cách tạo gradient** đồ họa trong tài liệu PostScript bằng Java và Aspose.Page. Chúng tôi sẽ hướng dẫn từng bước—từ thiết lập dự án đến việc vẽ một vòng tròn được lấp đầy bằng gradient dạng tròn mượt mà—để bạn có thể **thêm gradient vào hình dạng** ngay lập tức và nâng cao chất lượng hình ảnh của các ứng dụng Java của mình.
 
-## Quick Answers
-- **What does this tutorial create?** Một tệp PostScript (`.ps`) chứa một vòng tròn được đổ bằng gradient radial.  
-- **Which library is required?** Aspose.Page cho Java (phiên bản mới nhất).  
-- **How long does implementation take?** Khoảng 10‑15 phút để có một ví dụ hoạt động.  
-- **Do I need a license?** Cần có giấy phép tạm thời hoặc đầy đủ cho việc sử dụng trong môi trường sản xuất; bản dùng thử miễn phí đủ cho phát triển.  
-- **Can I reuse the code for PDF or SVG?** Có—Aspose.Page hỗ trợ nhiều định dạng đầu ra với ít thay đổi.
+## Câu trả lời nhanh
+- **Hướng dẫn này tạo gì?** A PostScript file (`.ps`) containing a circle filled with a radial gradient.  
+- **Thư viện nào được yêu cầu?** Aspose.Page for Java (latest version).  
+- **Thời gian thực hiện khoảng bao lâu?** Approximately 10‑15 minutes for a working example.  
+- **Tôi có cần giấy phép không?** A temporary or full license is required for production use; a free trial works for development.  
+- **Tôi có thể tái sử dụng mã cho PDF hoặc SVG không?** Yes—Aspose.Page supports multiple output formats with minimal changes.
 
-## How to Fill Shape with Gradient in PostScript
-Trước khi đi vào mã, hãy làm rõ tại sao “đổ hình bằng gradient” lại quan trọng. Sử dụng gradient giúp đồ họa của bạn có cảm giác chuyên nghiệp, ba‑chiều mà không cần đến ảnh raster. Với Aspose.Page, bạn có thể áp dụng cùng một logic gradient cho bất kỳ hình vector nào—vòng tròn, hình chữ nhật, hoặc đường dẫn tùy chỉnh—trên tất cả các định dạng đầu ra được hỗ trợ (PostScript, PDF, SVG).
+## Cách lấp đầy hình dạng bằng gradient trong PostScript
+Bạn có thể lấp đầy một hình dạng bằng gradient dạng tròn trong PostScript bằng cách tạo một `PsDocument`, định nghĩa một `RadialGradientPaint`, áp dụng nó vào hình mục tiêu, và cuối cùng lưu tài liệu. Quy trình ngắn gọn này cho phép bạn tạo đồ họa vector chuyên nghiệp mà không cần hình ảnh raster, và cùng một đoạn mã có thể được tái sử dụng cho đầu ra PDF hoặc SVG. Quá trình này đơn giản và hoạt động nhất quán trên tất cả các định dạng được hỗ trợ.
 
-## What Is a Radial Gradient?
-Gradient radial chuyển đổi màu từ một điểm trung tâm ra phía ngoài, tạo ra một sự pha trộn tròn mượt mà. Nó lý tưởng cho các điểm nhấn, nền nút bấm, hoặc bất kỳ hình ảnh nào cần hiệu ứng “ánh sáng” tự nhiên.
+## Gradient dạng tròn là gì?
+Gradient dạng tròn chuyển đổi màu từ một điểm trung tâm ra bên ngoài, tạo ra một sự pha trộn tròn mượt mà. Nó lý tưởng cho các điểm nhấn, nền nút, hoặc bất kỳ hình ảnh nào cần hiệu ứng “ánh sáng” tự nhiên. Bằng cách thay đổi các điểm màu và bán kính, bạn có thể mô phỏng ánh sáng, độ sâu và tính chất vật liệu trong dạng vector thuần.
 
-## Why Use Aspose.Page for Radial Gradients?
-- **Device‑independent rendering** – hoạt động giống nhau trên PostScript, PDF, SVG và các định dạng khác.  
-- **Full Java integration** – không cần mã gốc, chỉ sử dụng các API Java thuần.  
-- **High‑quality output** – hỗ trợ khử răng cưa và kiểm soát không gian màu.
+## Tại sao nên dùng Aspose.Page cho gradient dạng tròn?
+Aspose.Page cho phép bạn tạo đồ họa vector không phụ thuộc vào thiết bị bằng một API Java duy nhất. Nó hỗ trợ hơn 50 định dạng đầu vào và đầu ra—bao gồm PostScript, PDF và SVG—đồng thời giữ độ chính xác màu và khử răng cưa cho đầu ra độ phân giải cao. Thư viện cũng cung cấp các lớp gradient dễ sử dụng, giúp triển khai các hiệu ứng hình ảnh phức tạp trở nên đơn giản.
 
-## Prerequisites
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
-
+## Yêu cầu trước
 - Kiến thức cơ bản về lập trình Java.  
-- JDK 8 hoặc mới hơn được cài đặt trên máy tính.  
-- Thư viện Aspose.Page cho Java (tải xuống từ [tài liệu Aspose.Page Java](https://reference.aspose.com/page/java/)).  
+- JDK 8 hoặc mới hơn được cài đặt trên máy của bạn.  
+- Thư viện Aspose.Page for Java (tải xuống từ [Aspose.Page Java documentation](https://reference.aspose.com/page/java/)).  
 
-## Import Packages
-Đầu tiên, nhập các lớp mà chúng ta sẽ cần. Những lớp này bao gồm các kiểu đồ họa AWT tiêu chuẩn và API của Aspose.Page.
+## Nhập các gói
+Đầu tiên, nhập các lớp cần thiết. Chúng bao gồm các kiểu đồ họa AWT tiêu chuẩn và API của Aspose.Page.
 
 ```java
 import java.awt.Color;
@@ -96,61 +91,61 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Step 1: Set Up Document Directory
-Xác định thư mục nơi tệp PostScript được tạo sẽ được lưu. Thay thế phần giữ chỗ bằng một đường dẫn thực tế trên hệ thống của bạn.
+## Bước 1: thiết lập thư mục tài liệu
+Xác định thư mục nơi file PostScript được tạo sẽ được lưu. Thay thế phần giữ chỗ bằng đường dẫn thực tế trên hệ thống của bạn.
 
 ```java
 String dataDir = "Your Document Directory";
 ```
 
-## Step 2: Create Output Stream
-Mở một `FileOutputStream` trỏ tới tệp `.ps` mục tiêu. Luồng này sẽ truyền dữ liệu nhị phân do Aspose.Page tạo ra.
+## Bước 2: tạo luồng đầu ra
+`FileOutputStream` ghi các byte thô vào file, cho phép lưu dữ liệu nhị phân. Mở một luồng hướng tới file `.ps` cho phép Aspose.Page truyền dữ liệu PostScript đã tạo trực tiếp lên đĩa.
 
 ```java
 FileOutputStream outPsStream = new FileOutputStream(dataDir + "RadialGradient2_outPS.ps");
 ```
 
-## Step 3: Create Save Options
-Khởi tạo `PsSaveOptions`. Bạn có thể tùy chỉnh kích thước trang, nén, v.v., nhưng các giá trị mặc định đã đủ cho ví dụ này.
+## Bước 3: tạo tùy chọn lưu
+`PsSaveOptions` cấu hình cách một file PostScript được lưu, bao gồm kích thước trang và nén. Bạn có thể tùy chỉnh các thiết lập này, nhưng mặc định đã đủ cho ví dụ này.
 
 ```java
 PsSaveOptions options = new PsSaveOptions();
 ```
 
-## Step 4: Create PS Document
-Tạo đối tượng `PsDocument`, truyền luồng xuất và các tùy chọn lưu. Tham số `false` thông báo cho Aspose.Page không tự động mở một trang (chúng ta sẽ làm thủ công).
+## Bước 4: tạo tài liệu ps
+`PsDocument` đại diện cho một tài liệu PostScript trong bộ nhớ và cung cấp các phương thức để thêm trang và đồ họa.
 
 ```java
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
 
-## Step 5: Create a Circle
-Chúng ta sẽ vẽ một vòng tròn bằng `Ellipse2D.Float`. Các tham số là `(x, y, width, height)`. Đặt `width = height` tạo ra một vòng tròn hoàn hảo.
+## Bước 5: tạo một vòng tròn
+`Ellipse2D.Float` mô tả một hình elip; khi chiều rộng = chiều cao nó trở thành một vòng tròn hoàn hảo. Đối tượng này sẽ làm nền cho việc lấp đầy gradient của chúng ta.
 
 ```java
 Ellipse2D.Float circle = new Ellipse2D.Float(200, 100, 200, 200);
 ```
 
-## How to Draw Circle with Gradient
-Bây giờ chúng ta đã có hình, bước tiếp theo là **vẽ vòng tròn bằng gradient**. Bằng cách áp dụng một `RadialGradientPaint` cho vòng tròn, thao tác đổ sẽ tự động sử dụng gradient mà chúng ta định nghĩa.
+## Cách vẽ vòng tròn với gradient
+Để vẽ một vòng tròn với gradient dạng tròn, bạn tải một `RadialGradientPaint` vào ngữ cảnh đồ họa và sau đó lấp đầy elip đã định nghĩa trước. Hoạt động duy nhất này tô màu hình dạng với sự chuyển đổi màu mượt mà từ trung tâm ra ngoài, tạo ra hiệu ứng hấp dẫn về mặt hình ảnh.
 
-## Step 6: Define Gradient Colors
-Chuẩn bị hai mảng: một cho các màu sẽ xuất hiện trong gradient và một cho các vị trí phân đoạn tương ứng (0 = trung tâm, 1 = cạnh).
+## Bước 6: định nghĩa màu gradient
+Chuẩn bị hai mảng: một cho các màu sẽ xuất hiện trong gradient và một cho các vị trí phân số tương ứng (0 = trung tâm, 1 = cạnh).
 
 ```java
 Color[] colors = { Color.WHITE, Color.WHITE, Color.BLUE };
 float[] fractions = { 0.0f, 0.2f, 1.0f };
 ```
 
-## Step 7: Create AffineTransform
-`AffineTransform` sẽ thu phóng và dịch chuyển gradient để vừa với vòng tròn của chúng ta. Ma trận `(scaleX, 0, 0, scaleY, translateX, translateY)` thực hiện công việc này.
+## Bước 7: tạo AffineTransform
+`AffineTransform` là một ma trận có thể dịch, quay, thu phóng hoặc kéo dài các đối tượng đồ họa. Ở đây nó thu phóng và dịch gradient sao cho vừa khít bên trong vòng tròn.
 
 ```java
 AffineTransform transform = new AffineTransform(200, 0, 0, 200, 200, 100);
 ```
 
-## Step 8: Create Radial Gradient Paint
-Bây giờ chúng ta xây dựng đối tượng `RadialGradientPaint`. Nó nhận các tham số: điểm trung tâm, bán kính, điểm tiêu điểm, các phân đoạn màu, mảng màu, phương pháp lặp, không gian màu và phép biến đổi chúng ta vừa định nghĩa.
+## Bước 8: tạo RadialGradientPaint
+`RadialGradientPaint` tạo một gradient màu dạng tròn dựa trên một điểm trung tâm, bán kính và các điểm màu.
 
 ```java
 RadialGradientPaint paint = new RadialGradientPaint(
@@ -164,56 +159,63 @@ RadialGradientPaint paint = new RadialGradientPaint(
         transform);
 ```
 
-## Step 9: Set Paint and Fill Circle
-Áp dụng gradient paint cho tài liệu và đổ vòng tròn đã định nghĩa trước đó. Đây là phần cốt lõi của **ví dụ gradient radial** và minh họa cách **đổ hình bằng gradient**.
+## Bước 9: đặt paint và lấp đầy vòng tròn
+Áp dụng gradient paint vào tài liệu và lấp đầy vòng tròn đã định nghĩa trước. Đây là phần cốt lõi của **ví dụ gradient dạng tròn** của chúng tôi và minh họa cách **lấp đầy hình dạng bằng gradient**.
 
 ```java
 document.setPaint(paint);
 document.fill(circle);
 ```
 
-## Step 10: Close Page and Save Document
-Hoàn thiện trang, ghi nội dung ra đĩa và đóng luồng. Tệp PostScript của bạn đã sẵn sàng để xem bằng bất kỳ trình xem PS nào.
+## Bước 10: đóng trang và lưu tài liệu
+Hoàn thiện trang, ghi nội dung ra đĩa và đóng luồng. File PostScript của bạn bây giờ đã sẵn sàng để xem bằng bất kỳ trình xem PS nào.
 
 ```java
 document.closePage();
 document.save();
 ```
 
-Congratulations! You have successfully created a radial gradient example in Java PostScript using Aspose.Page. You now have a reusable pattern for **fill shape with gradient** that can be adapted to other shapes and output formats.
+Chúc mừng! Bạn đã tạo thành công một ví dụ gradient dạng tròn trong Java PostScript bằng Aspose.Page. Bây giờ bạn có một mẫu có thể tái sử dụng cho **lấp đầy hình dạng bằng gradient** có thể được áp dụng cho các hình dạng và định dạng đầu ra khác.
 
-## Common Issues and Solutions
-| Problem | Solution |
+## Các vấn đề thường gặp và giải pháp
+| Vấn đề | Giải pháp |
 |---------|----------|
-| **FileNotFoundException** when opening the output stream | Xác minh rằng `dataDir` trỏ tới một thư mục tồn tại và bạn có quyền ghi. |
-| Gradient looks flat or missing | Đảm bảo mảng `fractions` có độ dài bằng mảng `colors` và `AffineTransform` được thu phóng đúng. |
-| Colors appear inverted | Đổi thứ tự các màu trong mảng `colors` hoặc điều chỉnh tọa độ của điểm `focus`. |
+| **FileNotFoundException** khi mở luồng đầu ra | Xác minh rằng `dataDir` trỏ tới một thư mục tồn tại và bạn có quyền ghi. |
+| Gradient trông phẳng hoặc thiếu | Đảm bảo mảng `fractions` có độ dài bằng mảng `colors` và `AffineTransform` được thu phóng đúng. |
+| Màu sắc xuất hiện ngược | Đổi thứ tự các màu trong mảng `colors` hoặc điều chỉnh tọa độ điểm `focus`. |
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q: Where can I find the documentation for Aspose.Page for Java?**  
-A: The full API reference is available [here](https://reference.aspose.com/page/java/).
+**Q: Tôi có thể tìm tài liệu cho Aspose.Page for Java ở đâu?**  
+A: Tham khảo đầy đủ API có sẵn trong [Aspose.Page Java API documentation](https://reference.aspose.com/page/java/).
 
-**Q: How can I download Aspose.Page for Java?**  
-A: Grab the latest JAR from the [releases page](https://releases.aspose.com/page/java/).
+**Q: Làm sao tôi có thể tải Aspose.Page for Java?**  
+A: Tải JAR mới nhất từ [releases page](https://releases.aspose.com/page/java/).
 
-**Q: Is there a free trial available?**  
-A: Yes—download a trial version [here](https://releases.aspose.com/).
+**Q: Có bản dùng thử miễn phí không?**  
+A: Có—tải phiên bản dùng thử từ [Aspose free trial download page](https://releases.aspose.com/).
 
-**Q: Can I obtain a temporary license for testing?**  
-A: Absolutely, request one from the [temporary license page](https://purchase.aspose.com/temporary-license/).
+**Q: Tôi có thể nhận giấy phép tạm thời để thử nghiệm không?**  
+A: Chắc chắn, yêu cầu một giấy phép tạm thời từ [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-**Q: Where can I get community support?**  
-A: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39).
+**Q: Tôi có thể nhận hỗ trợ cộng đồng ở đâu?**  
+A: Tham gia thảo luận trên [Aspose.Page forum](https://forum.aspose.com/c/page/39).
 
-## Conclusion
-Trong hướng dẫn này, chúng ta đã xây dựng một **ví dụ gradient radial** hoàn chỉnh cho tài liệu PostScript sử dụng Aspose.Page cho Java. Bằng cách thực hiện các bước, bạn giờ đã có một mẫu có thể tái sử dụng cho **đổ hình bằng gradient**, có thể áp dụng cho PDF, SVG hoặc bất kỳ định dạng nào khác được Aspose.Page hỗ trợ. Hãy thử nghiệm với các màu sắc, bán kính và hình dạng khác nhau để làm phong phú dự án đồ họa Java của bạn.
+## Kết luận
+Trong hướng dẫn này, chúng tôi đã xây dựng một **ví dụ gradient dạng tròn** hoàn chỉnh cho tài liệu PostScript bằng Aspose.Page for Java. Bằng cách làm theo các bước, bạn hiện có một mẫu có thể tái sử dụng cho **lấp đầy hình dạng bằng gradient**, có thể áp dụng cho PDF, SVG hoặc bất kỳ định dạng nào khác được Aspose.Page hỗ trợ. Hãy thử nghiệm với các màu sắc, bán kính và hình dạng khác nhau để làm phong phú dự án đồ họa Java của bạn.
 
 ---
 
-**Last Updated:** 2026-02-13  
+**Last Updated:** 2026-09-09  
 **Tested With:** Aspose.Page for Java 24.11 (latest at time of writing)  
-**Author:** Aspose  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Tạo Gradient PostScript trong Java – Thêm Gradient Dọc](/page/java/postscript-gradient-addition/vertical/)
+- [Tạo Mẫu Kết Cấu trong PostScript với Aspose.Page for Java](/page/java/postscript-texture-patterns/)
+- [Hướng dẫn Độ Trong Suốt Aspose.Page – Thêm Độ Trong Suốt trong Java PostScript](/page/java/postscript-transparency/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
