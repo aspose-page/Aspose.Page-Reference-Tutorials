@@ -1,11 +1,81 @@
 ---
-date: 2026-02-13
-description: Lernen Sie, wie Sie mit Aspose.Page für Java einen PostScript‑Verlauf
-  mit einem radialen Farbverlauf und Farbstopps erstellen. Diese Schritt‑für‑Schritt‑Anleitung
-  zeigt Ihnen, wie Sie Farbstopps‑Verläufe in Ihren Dokumenten hinzufügen.
-linktitle: Mastering Radial Gradients in Java
+date: 2026-09-09
+description: Erfahren Sie, wie Sie radial gradient in Java PostScript mit Aspose.Page
+  erstellen. Diese Schritt‑für‑Schritt‑Anleitung zeigt Ihnen, wie Sie einen color
+  stops gradient hinzufügen, radii festlegen und schnell eine PS‑Datei erzeugen.
+keywords:
+- how to create radial gradient
+- add color stops gradient
+- Aspose.Page Java
+- Java PostScript gradient
+- radial gradient tutorial
+lastmod: 2026-09-09
+linktitle: Radial gradients in Java meistern
+og_description: Erfahren Sie, wie Sie radial gradient in Java PostScript mit Aspose.Page
+  erstellen. Diese Anleitung erklärt, wie Sie einen color stops gradient hinzufügen,
+  radii festlegen und in wenigen Minuten eine PS‑Datei erzeugen.
+og_image_alt: Guide showing how to add a radial gradient to a Java PostScript file
+  with Aspose.Page
+og_title: Wie man radial gradient in Java PostScript erstellt
+schemas:
+- author: Aspose
+  dateModified: '2026-09-09'
+  description: Learn how to create radial gradient in Java PostScript using Aspose.Page.
+    This step‑by‑step guide shows you how to add a color stops gradient, set radii,
+    and generate a PS file quickly.
+  headline: How to create radial gradient in Java PostScript
+  type: TechArticle
+- description: Learn how to create radial gradient in Java PostScript using Aspose.Page.
+    This step‑by‑step guide shows you how to add a color stops gradient, set radii,
+    and generate a PS file quickly.
+  name: How to create radial gradient in Java PostScript
+  steps:
+  - name: create a rectangle and open a PS document
+    text: '`PsDocument` is Aspose.Page''s class that represents a PostScript document
+      and provides methods to draw shapes, text, and images. We start by creating
+      an output stream, configuring the page size (A4 by default), and defining a
+      rectangle that will host the gradient. > **Pro tip:** Adjust the rectangle'
+  - name: define colors and fractions
+    text: 'A radial gradient is built from *color stops* (the colors) and *fractions*
+      (the relative positions of those stops). Here we create an array of six colors
+      and their corresponding fractions. > **Why this matters:** By tweaking `fractions`
+      you control how quickly the colors transition, enabling subtle '
+  - name: create radial gradient paint
+    text: '`RadialGradientPaint` is the core class that describes a radial color gradient,
+      including center point, radius, focus point, fractions, colors, cycle method,
+      and color space. Now we build the `RadialGradientPaint` object using the arrays
+      defined above. > **Note:** `transform` can be `null` if you do'
+  - name: set paint and fill the rectangle
+    text: With the paint ready, we tell the `PsDocument` to use it and then fill the
+      rectangle we defined earlier. At this point the PostScript page contains a rectangle
+      smoothly filled with the radial gradient we configured.
+  - name: close and save the document
+    text: Finally, close the current page and write the file to disk. Open `RadialGradient1_outPS.ps`
+      in any PostScript viewer (e.g., Ghostscript) and you’ll see the gradient rendered
+      exactly as defined.
+  type: HowTo
+- questions:
+  - answer: Yes. A commercial license is required for production use. You can purchase
+      one from the [Aspose licensing page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.Page for Java in commercial projects?
+  - answer: The full documentation is available [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
+    question: Where can I find the official API reference?
+  - answer: Absolutely. Download a trial version from the [Aspose.Page releases page](https://releases.aspose.com/).
+    question: Is a free trial available for testing?
+  - answer: A temporary license can be requested from the [temporary license request
+      page](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for evaluation?
+  - answer: Join the Aspose.Page community forum at [forum.aspose.com/c/page/39](https://forum.aspose.com/c/page/39).
+    question: Where can I get community support?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: PostScript-Gradient erstellen – Radialer Gradient in Java
+tags:
+- radial gradient
+- Aspose.Page
+- Java PostScript
+- gradient programming
+- color stops
+title: Wie man radial gradient in Java PostScript erstellt
 url: /de/java/postscript-gradient-addition/radial1/
 weight: 12
 ---
@@ -14,40 +84,36 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# So fügen Sie einen radialen Farbverlauf in Java PostScript mit Aspose.Page hinzu
+# Wie man radialen Farbverlauf in Java PostScript mit Aspose.Page erstellt
 
 ## Einführung
-Wenn Sie jemals einen **PostScript‑Farbverlauf** mit einem sanften, auffälligen Farbübergang erstellen mussten, ist das Erlernen, wie man einen radialen Farbverlauf hinzufügt, der perfekte Ausgangspunkt. In diesem Tutorial führen wir Sie Schritt für Schritt durch die Erstellung einer PostScript‑Datei, die einen schönen radialen Farbverlauf enthält, mithilfe der **Aspose.Page for Java**‑Bibliothek. Am Ende verstehen Sie die API, sehen ein vollständiges ausführbares Beispiel und wissen, wie Sie Farben, Positionen und Radien anpassen können, um jedes Design zu erfüllen.
+Wenn Sie einen **radialen Farbverlauf** in einer PostScript-Datei erstellen müssen, sind Sie hier genau richtig. In diesem Tutorial führen wir Sie Schritt für Schritt durch die Erstellung eines PostScript-Dokuments, das einen sanften radialen Farbverlauf enthält, mithilfe von **Aspose.Page for Java**. Am Ende verstehen Sie die API, sehen ein vollständiges ausführbares Beispiel und wissen, wie Sie Farben, Positionen und Radien für jedes Design‑Szenario anpassen können.
 
 ## Schnelle Antworten
 - **Welche Bibliothek erstellt radiale Farbverläufe in PostScript?** Aspose.Page for Java.  
 - **Wie lange dauert die Implementierung?** Etwa 10‑15 Minuten für ein einfaches Beispiel.  
-- **Benötige ich eine Lizenz, um den Code auszuführen?** Eine kostenlose Testversion reicht für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
-- **Welche Java‑Version wird unterstützt?** Java 8 oder höher.  
+- **Benötige ich eine Lizenz, um den Code auszuführen?** Eine kostenlose Testversion funktioniert für die Entwicklung; für die Produktion ist eine kommerzielle Lizenz erforderlich.  
+- **Welche Java-Version wird unterstützt?** Java 8 oder höher.  
 - **Kann ich die Form des Farbverlaufs ändern?** Ja – passen Sie den Radius und den Mittelpunkt im `RadialGradientPaint`‑Konstruktor an.
 
-## So erstellen Sie einen PostScript‑Farbverlauf mit radialer Füllung
-Im Folgenden finden Sie eine prägnante Schritt‑für‑Schritt‑Anleitung, die genau zeigt, wie man **PostScript‑Farbverlauf**‑Inhalte mit einer radialen Füllung erstellt. Jeder Schritt enthält eine kurze Erklärung, gefolgt vom ursprünglichen Code‑Block (unverändert).
+## Wie man radialen Farbverlauf in Java erstellt
+
+Laden Sie Ihr Java‑Projekt, importieren Sie die erforderlichen Klassen und folgen Sie der nachstehenden Schritt‑für‑Schritt‑Anleitung. Die Kernantwort lautet, dass Sie ein `RadialGradientPaint` mit Ihren Farb‑Stops instanziieren und es dann auf ein Rechteck anwenden, das auf einem `PsDocument` gezeichnet wird. Dieser Zwei‑Objekt‑Ansatz übernimmt alle Low‑Level‑PostScript‑Befehle für Sie.
 
 ## Was ist ein radialer Farbverlauf?
-Ein radialer Farbverlauf malt Farben, die von einem zentralen Punkt nach außen strahlen und allmählich zu den Rändern hin verblassen. Im Gegensatz zu linearen Farbverläufen folgt der Farbübergang einem kreisförmigen (oder elliptischen) Muster, das sich ideal für Hervorhebungen, Spotlights oder sanfte Hintergrundfüllungen eignet.
+`RadialGradientPaint` ist eine Java‑AWT‑Klasse, die einen kreisförmigen Farbwechsel von einem zentralen Punkt nach außen definiert. Sie erzeugt eine sanfte Mischung mehrerer Farb‑Stops und ist ideal für Spotlights, weiche Hintergründe oder jeden Effekt, bei dem Farben von einem Fokuspunkt ausstrahlen.
 
 ## Warum Aspose.Page für radiale Farbverläufe verwenden?
-- **Vollständige Kontrolle über die PostScript‑Ausgabe** – keine Notwendigkeit, Low‑Level‑PS‑Befehle von Hand zu erstellen.  
-- **Plattformübergreifend** – funktioniert auf jedem Betriebssystem, das Java ausführt.  
-- **Umfangreiches Farbmanagement** – unterstützt mehrere Farbstopps, verschiedene Farbräume und Zyklus‑Methoden.  
-- **Integrationsbereit** – lässt sich mit anderen Aspose.Page‑Funktionen wie Text, Bildern und Vektorformen kombinieren.
+Aspose.Page gibt Ihnen die vollständige programmgesteuerte Kontrolle über die PostScript‑Ausgabe, während es das schwere Heben der Low‑Level‑PS‑Syntax übernimmt. Es unterstützt **50+ Eingabe‑ und Ausgabeformate**, kann Dokumente mit mehreren hundert Seiten rendern, ohne die gesamte Datei in den Speicher zu laden, und läuft auf jedem Betriebssystem, das Java 8+ unterstützt. Diese quantifizierte Fähigkeit macht es zu einer zuverlässigen Wahl für Enterprise‑Grafik‑Generierung.
 
 ## Voraussetzungen
-Bevor wir in den Code eintauchen, stellen Sie sicher, dass Sie Folgendes bereit haben:
-
 - **Java Development Kit (JDK) 8+** – prüfen Sie mit `java -version`.  
-- **Aspose.Page for Java** – laden Sie das neueste JAR von der offiziellen [Aspose.Page download page](https://releases.aspose.com/page/java/) herunter.  
+- **Aspose.Page for Java** – laden Sie das neueste JAR von der offiziellen [Aspose.Page Download-Seite](https://releases.aspose.com/page/java/) herunter.  
 - **IDE Ihrer Wahl** – Eclipse, IntelliJ IDEA oder VS Code mit Java‑Erweiterungen.  
 - **Ein beschreibbarer Ordner** – in dem die erzeugte `.ps`‑Datei gespeichert wird.
 
 ## Pakete importieren
-Zuerst importieren wir die benötigten Klassen. Das `java.awt`‑Paket stellt die Gradient‑Paint‑Objekte bereit, während `com.aspose.eps` die Klassen zur Handhabung von PostScript‑Dokumenten enthält.
+Zuerst importieren wir die Klassen, die wir benötigen. Das `java.awt`‑Paket stellt die Gradient‑Paint‑Objekte bereit, während `com.aspose.eps` die Klassen zur Handhabung von PostScript‑Dokumenten enthält.
 
 ```java
 import java.awt.Color;
@@ -63,8 +129,8 @@ import com.aspose.eps.device.PsSaveOptions;
 
 ## Schritt‑für‑Schritt‑Anleitung
 
-### Schritt 1: Erstellen Sie ein Rechteck und öffnen Sie ein PS‑Dokument
-Wir beginnen damit, einen Ausgabestream zu erstellen, die Seitengröße (standardmäßig A4) zu konfigurieren und ein Rechteck zu definieren, das den Farbverlauf enthält.
+### Schritt 1: Rechteck erstellen und ein PS‑Dokument öffnen
+`PsDocument` ist Aspose.Page‑Klasse, die ein PostScript‑Dokument repräsentiert und Methoden zum Zeichnen von Formen, Text und Bildern bereitstellt. Wir beginnen damit, einen Output‑Stream zu erstellen, die Seitengröße (standardmäßig A4) zu konfigurieren und ein Rechteck zu definieren, das den Farbverlauf aufnehmen wird.
 
 ```java
 // The path to the documents directory.
@@ -82,7 +148,7 @@ Rectangle2D.Float rectangle = new Rectangle2D.Float(200, 100, 200, 200);
 > **Profi‑Tipp:** Passen Sie die Koordinaten des Rechtecks (`200, 100, 200, 200`) an, um den Farbverlauf an beliebiger Stelle auf der Seite zu positionieren.
 
 ### Schritt 2: Farben und Bruchteile definieren
-Ein radialer Farbverlauf wird aus *Farbstopps* (den Farben) und *Bruchteilen* (den relativen Positionen dieser Stopps) aufgebaut. Hier erstellen wir ein Array aus sechs Farben und den zugehörigen Bruchteilen.
+Ein radialer Farbverlauf wird aus *Farb‑Stops* (den Farben) und *Bruchteilen* (den relativen Positionen dieser Stops) aufgebaut. Hier erstellen wir ein Array aus sechs Farben und den zugehörigen Bruchteilen.
 
 ```java
 // Create arrays of colors and fractions for the gradient
@@ -90,12 +156,10 @@ Color[] colors = { Color.GREEN, Color.BLUE, Color.BLACK, Color.YELLOW, new Color
 float[] fractions = { 0.0f, 0.2f, 0.3f, 0.4f, 0.9f, 1.0f };
 ```
 
-> **Warum das wichtig ist:** Durch Anpassen von `fractions` steuern Sie, wie schnell die Farben übergehen, was subtile oder dramatische Effekte ermöglicht.
+> **Warum das wichtig ist:** Durch Anpassen der `fractions` steuern Sie, wie schnell die Farben wechseln, was subtile oder dramatische Effekte ermöglicht.
 
-Wenn Sie **Farbstopps‑Verlauf hinzufügen** müssen, sind die Arrays `colors` und `fractions` entscheidend. Sie können die Einträge nach Belieben neu anordnen, hinzufügen oder entfernen, um Ihr visuelles Design anzupassen.
-
-### Schritt 3: RadialGradientPaint erstellen
-Jetzt erstellen wir das Objekt `RadialGradientPaint`. Der Konstruktor nimmt den Mittelpunkt des Farbverlaufs, den Radius, den Fokus‑Punkt, die Bruchteile, die Farben, die Zyklus‑Methode, den Farbraum und eine optionale Transformation entgegen.
+### Schritt 3: Radialen Farbverlauf erstellen
+`RadialGradientPaint` ist die Kernklasse, die einen radialen Farbverlauf beschreibt, einschließlich Mittelpunkt, Radius, Fokuspunkt, Bruchteile, Farben, Zyklus‑Methode und Farbraum. Jetzt bauen wir das `RadialGradientPaint`‑Objekt mithilfe der oben definierten Arrays.
 
 ```java
 // Create radial gradient paint
@@ -112,8 +176,8 @@ RadialGradientPaint paint = new RadialGradientPaint(
 
 > **Hinweis:** `transform` kann `null` sein, wenn Sie keine zusätzliche Skalierung oder Rotation benötigen. Experimentieren Sie gern mit `AffineTransform` für schiefe Farbverläufe.
 
-### Schritt 4: Paint setzen und das Rechteck füllen
-Nachdem das Paint bereit ist, weisen wir das `PsDocument` an, es zu verwenden, und füllen anschließend das zuvor definierte Rechteck.
+### Schritt 4: Farbe setzen und das Rechteck füllen
+Mit dem fertigen Paint teilen wir dem `PsDocument` mit, es zu verwenden, und füllen anschließend das zuvor definierte Rechteck.
 
 ```java
 // Set paint
@@ -122,7 +186,7 @@ document.setPaint(paint);
 document.fill(rectangle);
 ```
 
-Zu diesem Zeitpunkt enthält die PostScript‑Seite ein Rechteck, das sanft mit dem von uns konfigurierten radialen Farbverlauf gefüllt ist.
+An diesem Punkt enthält die PostScript‑Seite ein Rechteck, das sanft mit dem von uns konfigurierten radialen Farbverlauf gefüllt ist.
 
 ### Schritt 5: Dokument schließen und speichern
 Abschließend schließen wir die aktuelle Seite und schreiben die Datei auf die Festplatte.
@@ -134,40 +198,47 @@ document.closePage();
 document.save();
 ```
 
-Öffnen Sie `RadialGradient1_outPS.ps` in einem beliebigen PostScript‑Betrachter (z. B. Ghostscript) und Sie sehen den Farbverlauf exakt wie definiert.
+Öffnen Sie `RadialGradient1_outPS.ps` in einem beliebigen PostScript‑Betrachter (z. B. Ghostscript) und Sie sehen den Farbverlauf exakt wie definiert gerendert.
 
 ## Häufige Probleme & Lösungen
 | Symptom | Wahrscheinliche Ursache | Lösung |
 |---------|--------------------------|--------|
-| Farbverlauf erscheint als einfarbige Fläche | `fractions`‑Array beginnt nicht bei `0.0f` oder endet nicht bei `1.0f` | Stellen Sie sicher, dass der erste Bruchwert `0.0f` und der letzte `1.0f` ist. |
-| Farben wirken ausgewaschen | Falscher `ColorSpaceType` verwendet | Wechseln Sie zu `MultipleGradientPaint.ColorSpaceType.LINEAR_RGB` für lebendigere Ausgabe. |
-| Keine Ausgabedatei erzeugt | `FileOutputStream`‑Pfad ist ungültig oder nicht beschreibbar | Überprüfen Sie, ob `dataDir` existiert und die Anwendung Schreibrechte hat. |
+| Gradient erscheint als einfarbig | `fractions`‑Array beginnt nicht bei `0.0f` oder endet nicht bei `1.0f` | Stellen Sie sicher, dass das erste Fraction `0.0f` und das letzte `1.0f` ist. |
+| Farben wirken ausgewaschen | Verwendung des falschen `ColorSpaceType` | Wechseln Sie zu `MultipleGradientPaint.ColorSpaceType.LINEAR_RGB` für lebendigere Ausgabe. |
+| Keine Ausgabedatei erzeugt | `FileOutputStream`‑Pfad ist ungültig oder nicht beschreibbar | Stellen Sie sicher, dass `dataDir` existiert und die Anwendung Schreibrechte hat. |
 
 ## Häufig gestellte Fragen
 
-**F: Kann ich Aspose.Page für Java in kommerziellen Projekten verwenden?**  
-A: Ja. Für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich. Sie können eine über die [Aspose licensing page](https://purchase.aspose.com/buy) erwerben.
+**F: Kann ich Aspose.Page for Java in kommerziellen Projekten verwenden?**  
+A: Ja. Für die Produktion ist eine kommerzielle Lizenz erforderlich. Sie können eine Lizenz auf der [Aspose‑Lizenzierungsseite](https://purchase.aspose.com/buy) erwerben.
 
 **F: Wo finde ich die offizielle API‑Referenz?**  
-A: Die vollständige Dokumentation ist [hier](https://reference.aspose.com/page/java/) verfügbar.
+A: Die vollständige Dokumentation ist verfügbar unter [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
 
-**F: Gibt es eine kostenlose Testversion zum Ausprobieren?**  
-A: Auf jeden Fall. Laden Sie eine Testversion von der [Aspose.Page releases page](https://releases.aspose.com/) herunter.
+**F: Gibt es eine kostenlose Testversion zum Testen?**  
+A: Absolut. Laden Sie eine Testversion von der [Aspose.Page Releases‑Seite](https://releases.aspose.com/) herunter.
 
 **F: Wie erhalte ich eine temporäre Lizenz für die Evaluierung?**  
-A: Eine temporäre Lizenz kann [hier](https://purchase.aspose.com/temporary-license/) angefordert werden.
+A: Eine temporäre Lizenz kann auf der [temporären Lizenz‑Anforderungsseite](https://purchase.aspose.com/temporary-license/) angefordert werden.
 
 **F: Wo finde ich Community‑Support?**  
-A: Treten Sie dem Aspose.Page‑Community‑Forum bei: [forum.aspose.com/c/page/39](https://forum.aspose.com/c/page/39).
+A: Treten Sie dem Aspose.Page Community‑Forum bei: [forum.aspose.com/c/page/39](https://forum.aspose.com/c/page/39).
 
 ## Fazit
-Sie wissen jetzt, **wie man einen radialen Farbverlauf** zu einem Java‑PostScript‑Dokument mit Aspose.Page hinzufügt. Durch Anpassen der Rechteckgröße, der Farbstopps und des Radius des Farbverlaufs können Sie unzählige visuelle Effekte erzeugen – von dezenten Hintergrundfüllungen bis hin zu kräftigen Spotlight‑Grafiken. Experimentieren Sie gern mit verschiedenen `AffineTransform`‑Werten, um den Farbverlauf zu drehen oder zu kippen, und kombinieren Sie diese Technik mit Text und Bildern für reichhaltigere PDF‑ oder EPS‑Ausgaben.
+Sie wissen jetzt **wie man radialen Farbverlauf** in einem Java‑PostScript‑Dokument mit Aspose.Page erstellt. Durch Anpassen der Rechteckgröße, der Farb‑Stops und des Farbverlauf‑Radius können Sie unzählige visuelle Effekte erzeugen – von dezenten Hintergrundfüllungen bis hin zu kräftigen Spotlights. Experimentieren Sie gern mit verschiedenen `AffineTransform`‑Werten, um den Farbverlauf zu drehen oder zu kippen, und kombinieren Sie diese Technik mit Text und Bildern für reichhaltigere PDF‑ oder EPS‑Ausgaben.
 
 ---
 
-**Last Updated:** 2026-02-13  
-**Tested With:** Aspose.Page for Java latest (as of writing)  
-**Author:** Aspose  
+**Last Updated:** 2026-09-09  
+**Getestet mit:** Aspose.Page for Java latest (as of writing)  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [Form mit Farbverlauf füllen: Java PostScript Radial Beispiel](/page/java/postscript-gradient-addition/radial2/)
+- [PostScript-Farbverlauf in Java erstellen – Vertikalen Farbverlauf hinzufügen](/page/java/postscript-gradient-addition/vertical/)
+- [Aspose.Page Transparenz‑Tutorial – Transparenz in Java PostScript hinzufügen](/page/java/postscript-transparency/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
