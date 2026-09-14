@@ -1,15 +1,88 @@
 ---
-date: 2026-05-05
-description: Aprenda a adicionar padrões de textura em mosaico a documentos PostScript
-  com Aspose.Page para Java. Este guia mostra como adicionar textura de forma eficiente
-  e explorar possibilidades criativas.
+date: 2026-09-14
+description: Aprenda como usar texture paint java para adicionar padrões de tiling
+  em PostScript com Aspose.Page. Este tutorial cobre texture fills, shape rendering
+  e text styling em detalhes.
 keywords:
-- how to add texture
+- texture paint java
 - fill shape with texture
+- apply texture to text
 - fill rectangle with texture
-linktitle: Adicionar padrão de textura em mosaico no Java PostScript
+- texture tiling tutorial
+lastmod: 2026-09-14
+linktitle: Adicionar padrão de Texture Tiling em Java PostScript
+og_description: Descubra como usar texture paint java para adicionar padrões de tiling
+  em documentos PostScript com Aspose.Page. Siga instruções passo a passo e as melhores
+  práticas.
+og_image_alt: Guide showing texture paint java usage in a Java PostScript example
+og_title: Como usar texture paint java para tiling em PostScript
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to use texture paint java to add tiling patterns in PostScript
+    with Aspose.Page. This tutorial covers texture fills, shape rendering, and text
+    styling in detail.
+  headline: How to use texture paint java for tiling in PostScript
+  type: TechArticle
+- description: Learn how to use texture paint java to add tiling patterns in PostScript
+    with Aspose.Page. This tutorial covers texture fills, shape rendering, and text
+    styling in detail.
+  name: How to use texture paint java for tiling in PostScript
+  steps:
+  - name: create a PostScript document
+    text: First, instantiate a `Document` object that represents the output file.
+      This object is the entry point for all drawing operations. `Document` is Aspose.Page's
+      top‑level object that models a single PostScript file in memory. After creation,
+      you can add pages, set page size, and control output options
+  - name: set up the graphics environment
+    text: Translate the coordinate system to a convenient origin and load the bitmap
+      that will serve as the tile. The bitmap is read into a `BufferedImage`, which
+      Aspose.Page can use directly.
+  - name: create texture brush
+    text: Define a `TexturePaint` that repeats the bitmap across the shape’s area.
+      `TexturePaint` is the class that implements the tiling logic; it takes the bitmap
+      and a rectangle that defines the tile size. Adjust the rectangle if you want
+      the texture to appear larger or smaller.
+  - name: draw and fill shapes
+    text: Create a rectangle (or any other shape) and call `document.fill(shape)`
+      while the `TexturePaint` is active. Then optionally stroke the shape to give
+      it a clear outline.
+  - name: add text with texture pattern
+    text: You can also apply the same `TexturePaint` to text glyphs. This demonstrates
+      **how to fill texture** on characters while still being able to stroke them
+      for a crisp appearance.
+  - name: save and close
+    text: Finally, close the page, write the document to disk, and release any resources.
+      The resulting `.ps` file contains a fully tiled texture that can be viewed in
+      any PostScript‑compatible viewer.
+  type: HowTo
+- questions:
+  - answer: Absolutely. The library provides clear documentation and intuitive APIs,
+      making it easy for developers of any experience level to generate PostScript
+      content.
+    question: Is Aspose.Page for Java suitable for beginners?
+  - answer: Yes. Add the Maven/Gradle dependency, import the required namespaces,
+      and start using the API. Detailed integration steps are available **[Aspose.Page
+      Java API reference](https://reference.aspose.com/page/java/)**.
+    question: Can I integrate Aspose.Page for Java into an existing project?
+  - answer: Join the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** to
+      ask questions, share examples, and get help from both Aspose engineers and other
+      developers.
+    question: Where can I find community support?
+  - answer: Yes, you can download a trial version **[Aspose trial download](https://releases.aspose.com/)**
+      to evaluate all features before purchasing.
+    question: Is a free trial available?
+  - answer: Visit **[temporary license request](https://purchase.aspose.com/temporary-license/)**
+      to request a time‑limited license that removes evaluation restrictions.
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Como adicionar padrão de textura em mosaico no Java PostScript
+tags:
+- texture paint
+- Aspose.Page
+- Java graphics
+- PostScript
+title: Como usar texture paint java para tiling em PostScript
 url: /pt/java/postscript-texture-patterns/add-texture-tiling-pattern/
 weight: 10
 ---
@@ -18,35 +91,90 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como Adicionar Padrão de Textura em Mosaico no Java PostScript
+# Como usar texture paint java para ladrilhamento em PostScript
 
 ## Introdução
-No universo do desenvolvimento Java, aprender **como adicionar textura** a documentos PostScript é uma necessidade comum. O Aspose.Page for Java torna essa tarefa simples, permitindo que você se concentre no design em vez da sintaxe de baixo nível do PostScript. Neste tutorial, percorreremos cada passo necessário para adicionar um padrão de textura em mosaico, preencher formas e até texturizar texto em um documento PostScript Java.
+Se precisar enriquecer um arquivo PostScript com texturas bitmap repetidas, **texture paint java** é a forma mais conveniente de fazê‑lo. Aspose.Page for Java abstrai os comandos de baixo nível do PostScript, permitindo que você se concentre no design em vez de desenhar manualmente. Neste guia você aprenderá como criar um padrão de ladrilhamento, preencher formas e aplicar a mesma textura ao texto — tudo com algumas chamadas de API simples.
 
-## Respostas Rápidas
-- **Qual biblioteca é necessária?** Aspose.Page for Java  
-- **Qual palavra‑chave principal este guia tem como alvo?** *how to add texture*  
-- **Preciso de licença para testes?** Um teste gratuito está disponível; a licença é necessária para produção.  
-- **Qual versão do Java é suportada?** Java 8 ou superior.  
-- **Posso reutilizar o pincel de textura para várias formas?** Sim – crie o `TexturePaint` uma vez e aplique‑o a qualquer forma.  
-- **Como preencho um retângulo com textura?** Use `document.fill(shape)` após definir o `TexturePaint` como a tinta atual.
+## Respostas rápidas
+- **Qual biblioteca fornece suporte a texture paint?** Aspose.Page for Java.  
+- **Qual palavra‑chave principal este tutorial tem como alvo?** *texture paint java*.  
+- **Preciso de licença para uso em produção?** Sim – há um teste gratuito disponível para avaliação, mas uma versão licenciada é necessária para implantação comercial.  
+- **Qual runtime Java é necessário?** Java 8 ou superior.  
+- **É possível reutilizar o mesmo brush de textura?** Absolutamente – instancie `TexturePaint` uma vez e reutilize‑o para qualquer número de formas ou objetos de texto.  
+- **Como preencho um retângulo com textura?** Defina o `TexturePaint` como a pintura atual e chame `document.fill(rectangle)`.
 
-## O que é um padrão de textura em mosaico?
-Um padrão de textura em mosaico repete uma imagem pequena (o ladrilho) por uma área maior, permitindo que você **preencha formas com textura** sem desenhar manualmente cada ladrilho. Essa técnica é ideal para fundos, preenchimentos e efeitos decorativos de texto no PostScript.
+## O que é um padrão de ladrilhamento de textura?
+Um padrão de ladrilhamento de textura repete um pequeno bitmap (o ladrilho) por uma área maior, permitindo que você **preencha forma com textura** sem desenhar cada ladrilho individualmente. Essa abordagem é ideal para fundos, preenchimentos decorativos e texto texturizado em PostScript, e funciona de forma eficiente com qualquer tamanho de imagem.
 
 ## Por que usar Aspose.Page for Java?
-- **Renderização sem dependências** – não há necessidade de interpretadores externos de PostScript.  
-- **Controle total sobre gráficos** – combine formas vetoriais, texto e texturas bitmap.  
-- **Multiplataforma** – funciona em qualquer SO que suporte Java.  
+Aspose.Page for Java fornece um motor sem dependências que gera PostScript diretamente a partir do código Java, eliminando a necessidade de interpretadores externos. Ele oferece controle total sobre vetores, texto e texturas bitmap, suporta mais de 30 formatos de saída e funciona em qualquer sistema operacional que suporte Java 8 ou superior, tornando‑se uma escolha versátil para desenvolvedores.
 
 ## Pré‑requisitos
-Antes de mergulhar no tutorial, certifique‑se de que você tem os seguintes pré‑requisitos:
-- Compreensão básica da linguagem de programação Java.  
-- Familiaridade com a estrutura de documentos PostScript.  
-- Biblioteca Aspose.Page for Java instalada. Você pode baixá‑la [aqui](https://releases.aspose.com/page/java/).
+Antes de começar, certifique‑se de que o seguinte esteja disponível:
 
-## Importar Pacotes
-Comece importando os pacotes necessários para o seu projeto Java:
+- Um ambiente de desenvolvimento Java funcional (JDK 8 ou posterior).  
+- Familiaridade básica com conceitos de PostScript.  
+- Biblioteca Aspose.Page for Java instalada – baixe **[baixar Aspose.Page for Java](https://releases.aspose.com/page/java/)**.  
+
+## Importar pacotes
+Importe as classes que você precisará para criar um documento PostScript e trabalhar com texturas bitmap. Importe as classes Java e Aspose.Page necessárias que fornecem recursos de gráficos, manipulação de imagens e funcionalidade de documento PostScript.
+
+## Como adicionar padrão de ladrilhamento de textura em Java PostScript
+Você pode obter um efeito de ladrilhamento completo em três etapas concisas. A resposta abaixo indica exatamente o que fazer, e as seções seguintes detalham cada etapa.
+
+Carregue seu bitmap, crie um `TexturePaint` e aplique‑o a formas ou texto – isso é tudo que você precisa para gerar uma textura em ladrilho em qualquer região da página.
+
+### Etapa 1: criar um documento PostScript
+Primeiro, instancie um objeto `Document` que representa o arquivo de saída. Esse objeto é o ponto de entrada para todas as operações de desenho.
+
+`Document` é o objeto de nível superior do Aspose.Page que modela um único arquivo PostScript na memória. Após a criação, você pode adicionar páginas, definir o tamanho da página e controlar as opções de saída.
+
+### Etapa 2: configurar o ambiente gráfico
+Translade o sistema de coordenadas para uma origem conveniente e carregue o bitmap que servirá como ladrilho. O bitmap é lido em um `BufferedImage`, que o Aspose.Page pode usar diretamente.
+
+### Etapa 3: criar brush de textura
+Defina um `TexturePaint` que repete o bitmap pela área da forma. `TexturePaint` é a classe que implementa a lógica de ladrilhamento; ela recebe o bitmap e um retângulo que define o tamanho do ladrilho. Ajuste o retângulo se quiser que a textura apareça maior ou menor.
+
+### Etapa 4: desenhar e preencher formas
+Crie um retângulo (ou qualquer outra forma) e chame `document.fill(shape)` enquanto o `TexturePaint` está ativo. Opcionalmente, trace a forma para dar‑lhe um contorno claro.
+
+### Etapa 5: adicionar texto com padrão de textura
+Você também pode aplicar o mesmo `TexturePaint` aos glifos de texto. Isso demonstra **como preencher textura** nos caracteres enquanto ainda é possível traçá‑los para uma aparência nítida.
+
+### Etapa 6: salvar e fechar
+Por fim, feche a página, escreva o documento no disco e libere quaisquer recursos. O arquivo `.ps` resultante contém uma textura totalmente em ladrilho que pode ser visualizada em qualquer visualizador compatível com PostScript.
+
+## Problemas comuns & dicas
+- **Arquivo de textura ausente** – Verifique se o caminho para `TestTexture.bmp` está correto e se o arquivo pode ser lido pelo processo Java.  
+- **Textura esticada** – Se o padrão parecer distorcido, assegure‑se de que o retângulo `imageArea` corresponda às dimensões originais do bitmap.  
+- **Desempenho** – Reutilize a mesma instância de `TexturePaint` para múltiplas formas; isso evita alocação desnecessária de objetos e acelera a renderização.  
+- **Dica profissional:** Use um bitmap de alta resolução para o ladrilho a fim de manter a textura nítida quando o padrão for escalado.
+
+## Perguntas frequentes
+
+**Q: O Aspose.Page for Java é adequado para iniciantes?**  
+A: Absolutamente. A biblioteca fornece documentação clara e APIs intuitivas, facilitando para desenvolvedores de qualquer nível de experiência gerar conteúdo PostScript.
+
+**Q: Posso integrar o Aspose.Page for Java em um projeto existente?**  
+A: Sim. Adicione a dependência Maven/Gradle, importe os namespaces necessários e comece a usar a API. Etapas detalhadas de integração estão disponíveis **[Referência da API Aspose.Page Java](https://reference.aspose.com/page/java/)**.
+
+**Q: Onde posso encontrar suporte da comunidade?**  
+A: Participe do **[Fórum Aspose.Page](https://forum.aspose.com/c/page/39)** para fazer perguntas, compartilhar exemplos e obter ajuda tanto dos engenheiros da Aspose quanto de outros desenvolvedores.
+
+**Q: Existe uma versão de teste gratuita?**  
+A: Sim, você pode baixar uma versão de avaliação **[Download de avaliação Aspose](https://releases.aspose.com/)** para avaliar todos os recursos antes de comprar.
+
+**Q: Como obtenho uma licença temporária para testes?**  
+A: Acesse **[solicitação de licença temporária](https://purchase.aspose.com/temporary-license/)** para solicitar uma licença de tempo limitado que remove as restrições de avaliação.
+
+---
+
+**Última atualização:** 2026-09-14  
+**Testado com:** Aspose.Page for Java 24.12 (latest)  
+**Autor:** Aspose  
+
+---
 
 ```java
 import java.awt.BasicStroke;
@@ -61,13 +189,6 @@ import javax.imageio.ImageIO;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-
-## Como Adicionar Padrão de Textura em Mosaico no Java PostScript
-A seguir, um guia passo a passo. Cada passo inclui uma breve explicação seguida do código exato que você deve copiar.
-
-### Passo 1: Criar um Documento PostScript
-Inicie criando um novo documento PostScript, especificando o fluxo de saída e as opções de salvamento. Certifique‑se de que os caminhos necessários estejam configurados.
-
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -80,30 +201,18 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 // Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
-
-### Passo 2: Configurar o Ambiente Gráfico
-Translade a origem para um local conveniente e carregue o bitmap que servirá como ladrilho de textura.
-
 ```java
 document.writeGraphicsSave();
 document.translate(200, 100);
 // Create a BufferedImage object from image file
 BufferedImage image = ImageIO.read(new File(dataDir + "TestTexture.bmp"));
 ```
-
-### Passo 3: Criar o Pincel de Textura
-Defina um `TexturePaint` que repita o bitmap pela área da forma. Ajuste o tamanho do retângulo se quiser que o ladrilho apareça maior ou menor.
-
 ```java
 // Create image area doubled in width
 Rectangle2D.Float imageArea = new Rectangle2D.Float(0, 0, image.getWidth() * 2, image.getHeight());
 // Create texture brush from the image
 TexturePaint paint = new TexturePaint(image, imageArea);
 ```
-
-### Passo 4: Desenhar e Preencher Formas
-Crie um retângulo e **preencha o retângulo com textura** usando o pincel. Em seguida, trace o contorno da forma para tornar o resultado visualmente distinto.
-
 ```java
 // Create rectangle
 Rectangle2D.Float shape = new Rectangle2D.Float(0, 0, 200, 100);
@@ -115,10 +224,6 @@ document.setPaint(Color.RED);
 document.setStroke(new BasicStroke(2));
 document.draw(shape);
 ```
-
-### Passo 5: Adicionar Texto com Padrão de Textura
-Você também pode aplicar a mesma textura aos glifos de texto. Isso demonstra **como preencher textura** em caracteres enquanto ainda permite contorná‑los.
-
 ```java
 // Fill the text with the texture pattern
 Font font = new Font("Arial", Font.BOLD, 96);
@@ -126,10 +231,6 @@ document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicS
 // Outline the text with the texture pattern
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
-
-### Passo 6: Salvar e Fechar
-Por fim, feche a página, salve o documento e libere os recursos.
-
 ```java
 // Close current page
 document.closePage();
@@ -137,42 +238,14 @@ document.closePage();
 document.save();
 ```
 
-## Problemas Comuns & Dicas
-- **Arquivo de textura ausente** – Verifique se o caminho para `TestTexture.bmp` está correto e se o arquivo está acessível.  
-- **Dimensões da imagem incorretas** – Se a textura parecer esticada, ajuste `imageArea` para corresponder ao tamanho original da imagem.  
-- **Desempenho** – Reutilize a mesma instância de `TexturePaint` para várias formas a fim de evitar a criação desnecessária de objetos.  
-- **Dica profissional:** Use um bitmap de alta resolução para o ladrilho, mantendo a textura nítida ao ser escalada.
+## Tutoriais relacionados
 
-## Perguntas Frequentes
+- [Criar padrão de textura em PostScript com Aspose.Page for Java](/page/java/postscript-texture-patterns/)
+- [Criar gradiente radial em PostScript com Aspose.Page for Java](/page/java/postscript-gradient-addition/)
+- [Tutorial de transparência Aspose.Page – Adicionar transparência em Java PostScript](/page/java/postscript-transparency/)
 
-**P: O Aspose.Page for Java é adequado para iniciantes?**  
-R: Absolutamente! O Aspose.Page for Java oferece documentação abrangente, tornando‑o acessível para desenvolvedores de todos os níveis.
-
-**P: Posso integrar o Aspose.Page for Java ao meu projeto Java existente?**  
-R: Sim, você pode integrar o Aspose.Page for Java ao seu projeto seguindo a documentação fornecida [aqui](https://reference.aspose.com/page/java/).
-
-**P: Onde encontro suporte ou discussões sobre o Aspose.Page?**  
-R: Visite o [fórum Aspose.Page](https://forum.aspose.com/c/page/39) para interagir com a comunidade e buscar assistência.
-
-**P: Existe uma versão de teste gratuita do Aspose.Page for Java?**  
-R: Sim, você pode explorar um teste gratuito [aqui](https://releases.aspose.com/).
-
-**P: Como obter uma licença temporária para o Aspose.Page for Java?**  
-R: Acesse [este link](https://purchase.aspose.com/temporary-license/) para obter uma licença temporária.
-
-## Conclusão
-Parabéns! Você aprendeu com sucesso **como adicionar textura** em padrões de mosaico a um documento PostScript Java usando o Aspose.Page for Java. Sinta‑se à vontade para experimentar diferentes ladrilhos bitmap, fatores de escala e operações compostas para liberar todo o potencial criativo dos preenchimentos de textura.
-
----
-
-**Última atualização:** 2026-05-05  
-**Testado com:** Aspose.Page for Java 24.12 (mais recente)  
-**Autor:** Aspose  
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 

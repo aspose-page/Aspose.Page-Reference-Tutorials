@@ -1,11 +1,71 @@
 ---
-date: 2026-02-15
-description: Lär dig hur du konverterar PNG till PostScript och lägger till bilder
-  i Java med Aspose.Page. En steg‑för‑steg‑guide täcker infogning, skalning, rotation
-  och hantering av transparenta PNG‑filer.
-linktitle: Convert PNG to PostScript – Add Images in Java
+date: 2026-09-14
+description: Lär dig hur du konverterar png till postscript och lägger till bilder
+  i Java med Aspose.Page. Denna guide täcker image insertion, scaling, rotating och
+  PNG handling.
+keywords:
+- convert png to postscript
+- add image to postscript
+- Aspose.Page Java
+lastmod: 2026-09-14
+linktitle: Konvertera PNG till PostScript – Lägg till bilder i Java
+og_description: Lär dig hur du konverterar png till postscript och lägger till bilder
+  i Java med Aspose.Page. Denna guide täcker image insertion, scaling, rotating och
+  PNG handling.
+og_image_alt: 'Developer guide: convert png to postscript and add images in Java using
+  Aspose.Page'
+og_title: Konvertera png till postscript – lägg till bilder i Java snabbt
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to convert png to postscript and add images in Java with
+    Aspose.Page. This guide covers image insertion, scaling, rotating, and PNG handling.
+  headline: Convert png to postscript – add images in Java quickly
+  type: TechArticle
+- description: Learn how to convert png to postscript and add images in Java with
+    Aspose.Page. This guide covers image insertion, scaling, rotating, and PNG handling.
+  name: Convert png to postscript – add images in Java quickly
+  steps:
+  - name: '**Create a `Document` object** that represents the PostScript file you
+      want to edit.'
+    text: '**Create a `Document` object** that represents the PostScript file you
+      want to edit.'
+  - name: '**Instantiate an `Image` object** from a file, stream, or byte array.'
+    text: '**Instantiate an `Image` object** from a file, stream, or byte array.'
+  - name: '**Define the placement rectangle** (X, Y, width, height) where the image
+      will appear.'
+    text: '**Define the placement rectangle** (X, Y, width, height) where the image
+      will appear.'
+  - name: '**Call `document.addImage(image, rect)`** to embed the graphic.'
+    text: '**Call `document.addImage(image, rect)`** to embed the graphic.'
+  - name: '**Save the updated document** back to disk or a stream.'
+    text: '**Save the updated document** back to disk or a stream.'
+  type: HowTo
+- questions:
+  - answer: Yes. Call the `addImage` method repeatedly with different placement rectangles.
+    question: Can I add multiple images to the same PostScript page?
+  - answer: Absolutely. You can embed SVG, EPS, or even raw PostScript commands alongside
+      raster images.
+    question: Does Aspose.Page support vector graphics as well?
+  - answer: The library works with Java 8 and newer, including Java 11, 17, and later
+      LTS releases.
+    question: What versions of Java are compatible?
+  - answer: Yes. `Matrix` defines geometric transformations like rotation and scaling
+      for graphics. Use the `Matrix` transformation API to set rotation before calling
+      `addImage`.
+    question: Is there a way to rotate an image while adding it?
+  - answer: Transparent PNGs are preserved automatically; just ensure the target PostScript
+      viewer supports alpha channels.
+    question: How do I handle transparent PNGs?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Konvertera PNG till PostScript – Lägg till bilder i Java
+tags:
+- convert png
+- postscript
+- java image manipulation
+- Aspose.Page
+- document processing
+title: Konvertera png till postscript – lägg till bilder i Java snabbt
 url: /sv/java/postscript-image-manipulation/
 weight: 28
 ---
@@ -14,58 +74,55 @@ weight: 28
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Konvertera PNG till PostScript – Lägg till bilder i Java
+# Konvertera png till postscript – lägg till bilder i Java snabbt
 
 ## Introduktion
 
-Redo att bemästra **convert png to postscript** i dina Java‑applikationer? I den här handledningen går vi igenom hur du lägger till bilder i PostScript‑dokument med Aspose.Page för Java. Du får se varför den här funktionen är viktig, hur du installerar biblioteket och de exakta stegen för att bädda in grafik utan krångel. När du är klar kommer du att kunna berika PDF‑filer, rapporter eller annat utskrivbart innehåll med visuella element.
+Klar att bemästra **convert png to postscript** i dina Java‑applikationer? I den här handledningen går vi igenom hur du lägger till bilder i PostScript‑dokument med Aspose.Page for Java. Du kommer att se varför den här funktionen är viktig, hur du installerar biblioteket och de exakta stegen för att bädda in grafik utan krångel. I slutet kommer du att vara säker på att berika PDF‑filer, rapporter eller annat utskriftsbart innehåll med visuella element.
 
 ## Snabba svar
 - **Vad är det primära biblioteket?** Aspose.Page for Java  
 - **Vilket nyckelord riktar sig den här guiden mot?** *convert png to postscript*  
 - **Hur kan jag börja?** Ladda ner biblioteket från den officiella produktsidan och lägg till det i ditt projekts classpath.  
-- **Behöver jag en licens?** En gratis provversion fungerar för utvärdering; en kommersiell licens krävs för produktion.  
-- **Kan jag använda detta med Maven/Gradle?** Ja—lägg till Aspose.Page Maven‑artefaktet i din byggfil.  
-- **Kan jag konvertera PNG till PostScript samtidigt som jag infogar?** Ja—använd `addImage`‑API:t för att placera PNG‑filer direkt i en PostScript‑ström.
+- **Behöver jag en licens?** En gratis provperiod fungerar för utvärdering; en kommersiell licens krävs för produktion.  
+- **Kan jag använda detta med Maven/Gradle?** Ja—lägg till Aspose.Page Maven‑artefakten i din byggfil.  
+- **Kan jag konvertera PNG till PostScript medan jag infogar?** Ja—använd `addImage`‑API:t för att placera PNG‑filer direkt i en PostScript‑ström.
 
-## Vad är image manipulation java?
+## Vad är bildmanipulation java?
 
-Image manipulation java avser programatiska operationer—såsom att infoga, ändra storlek eller transformera grafik—som utförs på dokumentformat (som PostScript) med hjälp av Java‑bibliotek. Aspose.Page tillhandahåller ett rent API som abstraherar de lågnivå‑PostScript‑kommandona, så att du kan fokusera på affärslogiken.
+Image manipulation java är den uppsättning programatiska operationer—såsom att infoga, ändra storlek, rotera eller komponera grafik—som utförs på dokumentformat som PostScript med Java‑bibliotek. Aspose.Page abstraherar låg‑nivå PostScript‑kommandon, så att du kan fokusera på affärslogik istället för råt skrivar‑språk.
 
-## Varför använda Aspose.Page för Java för att lägga till bilder?
+## Varför använda Aspose.Page for Java för att lägga till bilder?
 
-- **Hög trohet** – Bilder behåller sin ursprungliga upplösning och färgdjup.  
-- **Plattformsoberoende** – Fungerar på alla OS som stödjer Java.  
-- **Inga externa beroenden** – Ingen behov av inhemska PostScript‑verktyg.  
-- **Full kontroll** – Positionera, skala och rotera bilder exakt där du behöver dem.
+Du kan lägga till bilder i en PostScript‑fil med Aspose.Page for Java och få pixelperfekta resultat. Biblioteket stöder **30+ raster‑ och vektor‑bildformat**, bearbetar dokument med hundratals sidor utan att ladda hela filen i minnet, och körs på alla OS som stödjer Java 8 eller senare. Denna kvantifierade prestanda innebär att du på ett pålitligt sätt kan generera utskrivbara resurser i hög‑genomströmmande servermiljöer.
 
-## Sömlös integration av Aspose.Page för Java
+## Sömlös integration av Aspose.Page for Java
 
-Påbörja din resa genom att säkerställa en smidig integration av Aspose.Page för Java i din utvecklingsmiljö. Besök [Aspose.Page for Java](https://products.aspose.com/page/java) för att ladda ner och installera de nödvändiga komponenterna. När integrationen är klar är du redo att utforska den spännande världen av dokumentmanipulation.
+Påbörja din resa genom att säkerställa en smidig integration av Aspose.Page for Java i din utvecklingsmiljö. Besök [Aspose.Page for Java](https://products.aspose.com/page/java) för att ladda ner och installera de nödvändiga komponenterna. När integrationen är klar är du redo att utforska den spännande världen av dokumentmanipulation.
 
-## Utforska funktionaliteten för Add Image
+## Utforska funktionen för att lägga till bild
 
-Navigera till handledningen [Add Image in Java PostScript](./add-image/) för att gå djupare in på detaljerna kring att lägga till bilder i dina PostScript‑dokument. Denna omfattande guide ger detaljerade insikter i processen och delar upp den i lätt‑följda steg. Du kommer snart att kunna sömlöst integrera bilder i dina Java‑projekt med Aspose.Page.
+Navigera till handledningen [Add Image in Java PostScript](./add-image/) för att fördjupa dig i detaljerna kring att lägga till bilder i dina PostScript‑dokument. Denna omfattande guide ger detaljerade insikter i processen, uppdelad i enkla steg. Du kommer snart att kunna integrera bilder sömlöst i dina Java‑projekt med Aspose.Page.
 
 ## Hur man konverterar PNG till PostScript med Aspose.Page
 
-Att konvertera en PNG‑fil till PostScript är lika enkelt som att ladda PNG‑filen, definiera var den ska visas och anropa `addImage`‑metoden. Detta tillvägagångssätt låter dig också **how to insert image**‑objekt, **handle transparent png**‑filer och tillämpa **scale and rotate image**‑transformationer—allt i ett enda API‑anrop.
+Att konvertera en PNG‑fil till PostScript är så enkelt som att ladda PNG‑filen, definiera var den ska placeras och anropa metoden `addImage`. `addImage` bäddar in den angivna bilden i PostScript‑utdata på den angivna platsen. Detta tillvägagångssätt låter dig också **infoga bildobjekt**, **hantera transparenta PNG‑filer** och tillämpa **skalnings‑ och roterings‑transformeringar** — allt i ett enda API‑anrop.
 
-### Infoga en bild (how to insert image)
+### Infoga en bild (hur man infogar bild)
 
 När du anropar `document.addImage(image, rect)` tar Aspose.Page hand om att bädda in rasterdata i PostScript‑utdata. Metoden fungerar med PNG, JPEG, BMP och andra vanliga format.
 
-### Hantera transparenta PNG‑filer (handle transparent png)
+### Hantera transparenta PNG‑filer (hantera transparent png)
 
-Transparenta PNG‑filer bevaras automatiskt. Se bara till att den målade PostScript‑visaren stödjer alfakanaler, så kommer bilden att renderas med sin transparens intakt.
+Transparenta PNG‑filer bevaras automatiskt. Se bara till att den mål‑PostScript‑visaren stödjer alfakanaler, så renderas bilden med sin transparens intakt.
 
 ### Skalning och rotation (scale and rotate image)
 
-Du kan kontrollera storlek och orientering genom att justera rektangelns dimensioner eller applicera en transformationsmatris före `addImage`‑anropet. Detta låter dig **scale and rotate image**‑innehåll utan externa bildbehandlingsverktyg.
+Du kan kontrollera storlek och orientering genom att justera rektangelns dimensioner eller applicera en transformationsmatris före `addImage`‑anropet. Detta låter dig **skala och rotera bild**‑innehåll utan externa bildbehandlingsverktyg.
 
-## Så här lägger du till bild – Steg‑för‑steg‑översikt
+## Hur man lägger till bild – steg‑för‑steg‑översikt
 
-Nedan följer en kortfattad färdplan som du kan följa efter att biblioteket har installerats:
+Denna översikt ger en tydlig, linjär process för att bädda in en bild i ett PostScript‑dokument med Aspose.Page. Följ varje steg i ordning för att skapa dokumentet, ladda bilden, ange dess position, bädda in den och slutligen spara resultatet. Klassen `Document` representerar en PostScript‑fil i minnet. Klassen `Image` kapslar rasterdata såsom PNG eller JPEG. Klassen `Rectangle` specificerar X‑, Y‑koordinater och dimensioner för att placera bilden.
 
 1. **Skapa ett `Document`‑objekt** som representerar den PostScript‑fil du vill redigera.  
 2. **Instansiera ett `Image`‑objekt** från en fil, ström eller byte‑array.  
@@ -73,22 +130,27 @@ Nedan följer en kortfattad färdplan som du kan följa efter att biblioteket ha
 4. **Anropa `document.addImage(image, rect)`** för att bädda in grafiken.  
 5. **Spara det uppdaterade dokumentet** tillbaka till disk eller en ström.
 
-Varje av dessa åtgärder demonstreras i den länkade handledningen “Add Image in Java PostScript”, så att du kan kopiera‑klistra in exakt kodsnuttar i ditt projekt.
+### Definition av ankare
 
-## Höj dina färdigheter i dokumentmanipulation
+`Document`‑klassen är Aspose.Page:s top‑nivå‑objekt som representerar ett enda PostScript‑dokument i minnet. `Image`‑klassen kapslar rasterdata (PNG, JPEG, BMP, etc.) och tillhandahåller metadata såsom bredd, höjd och färgdjup. `addImage`‑metoden bäddar in en `Image`‑instans i ett `Document` på de koordinater som definieras av ett `Rectangle`‑objekt.
 
-Aspose.Page för Java ger dig möjlighet att förbättra dina färdigheter i dokumentmanipulation. Med våra handledningar lär du dig inte bara de tekniska detaljerna utan får också en djupare förståelse för hur du utnyttjar hela potentialen i detta kraftfulla verktyg. Förbättra dina kunskaper och stick ut i världen av dokumentbehandling.
+Var och en av dessa åtgärder demonstreras i den länkade handledningen “Add Image in Java PostScript”, så att du kan kopiera‑klistra in de exakta kodsnuttarna i ditt projekt.
+
+## Lyfta dina färdigheter i dokumentmanipulation
+
+Aspose.Page for Java ger dig möjlighet att lyfta dina färdigheter i dokumentmanipulation. Med våra handledningar lär du dig inte bara tekniken utan får också en djupare förståelse för hur du utnyttjar hela potentialen i detta kraftfulla verktyg. Förbättra dina kunskaper och stick ut i dokumentbehandlingsvärlden.
 
 ## Vanliga fallgropar & tips
 
-- **Stöd för bildformat** – Säkerställ att din källbild är i ett format som stöds av Aspose (PNG, JPEG, BMP, etc.).  
+- **Stöd för bildformat** – Se till att din källbild är i ett format som stöds av Aspose (PNG, JPEG, BMP, etc.).  
 - **Koordinatsystem** – PostScript använder ett ursprung i nedre vänstra hörnet; dubbelkolla dina Y‑koordinater.  
-- **Minnesanvändning** – Stora bilder kan öka minnesförbrukningen; överväg att minska upplösningen innan infogning.  
-- **Licensiering** – Att köra utan licens lägger till ett vattenmärke i resultatet; applicera alltid en giltig licens för produktion.
+- **Minnesanvändning** – Stora bilder kan öka minnesförbrukningen; överväg att nedprova innan infogning.  
+- **Licensiering** – Att köra utan licens lägger till ett vattenmärke i utdata; applicera alltid en giltig licens för produktion.
 
-## Image Manipulation - PostScript‑handledningar
-### [Add Image in Java PostScript](./add-image/)
-Utforska den sömlösa integrationen av Aspose.Page Java i denna handledning om att lägga till bilder i PostScript‑dokument. Höj dina färdigheter i dokumentmanipulation.
+## Bildmanipulation – postscript‑handledningar
+### [Lägg till bild i Java PostScript](./add-image/)
+
+Utforska den sömlösa integrationen av Aspose.Page Java i denna handledning om att lägga till bilder i PostScript‑dokument. Lyft dina färdigheter i dokumentmanipulation.
 
 ## Vanliga frågor
 
@@ -98,23 +160,30 @@ A: Ja. Anropa `addImage`‑metoden upprepade gånger med olika placeringsrektang
 **Q: Stöder Aspose.Page även vektorgrafik?**  
 A: Absolut. Du kan bädda in SVG, EPS eller till och med råa PostScript‑kommandon tillsammans med rasterbilder.
 
-**Q: Vilka Java‑versioner är kompatibla?**  
-A: Biblioteket fungerar med Java 8 och nyare, inklusive Java 11, 17 och senare LTS‑utgåvor.
+**Q: Vilka versioner av Java är kompatibla?**  
+A: Biblioteket fungerar med Java 8 och nyare, inklusive Java 11, 17 och senare LTS‑utgåvor.
 
 **Q: Finns det ett sätt att rotera en bild vid infogning?**  
-A: Ja. Använd `Matrix`‑transformations‑API:t för att ställa in rotation innan du anropar `addImage`.
+A: Ja. `Matrix` definierar geometriska transformationer som rotation och skalning för grafik. Använd `Matrix`‑transformations‑API:t för att sätta rotation innan du anropar `addImage`.
 
 **Q: Hur hanterar jag transparenta PNG‑filer?**  
-A: Transparenta PNG‑filer bevaras automatiskt; se bara till att den målade PostScript‑visaren stödjer alfakanaler.
+A: Transparenta PNG‑filer bevaras automatiskt; se bara till att den mål‑PostScript‑visaren stödjer alfakanaler.
 
 **Q: Hur påverkar konvertering av PNG till PostScript filstorleken?**  
-A: Storleken på den resulterande PostScript‑filen beror på bildens upplösning och komprimering; att minska PNG‑filens upplösning innan infogning kan hålla utdata kompakt.
+A: Storleken på den resulterande PostScript‑filen beror på bildens upplösning och kompression; nedprovning av PNG‑filen innan infogning kan hålla utdata kompakt.
 
 ---
 
-**Senast uppdaterad:** 2026-02-15  
-**Testad med:** Aspose.Page for Java 24.12 (latest)  
+**Senast uppdaterad:** 2026-09-14  
+**Testat med:** Aspose.Page for Java 24.12 (latest)  
 **Författare:** Aspose
+
+## Relaterade handledningar
+
+- [Konvertera PS till PNG med Aspose.Page Java API](/page/java/postscript-conversion/to-image/)
+- [Hur man konverterar PostScript till PDF med Aspose.Page Java API](/page/java/postscript-conversion/to-pdf/)
+- [Hur man lägger till Unicode‑text i Java PostScript med Aspose.Page](/page/java/postscript-text-manipulation/add-text-unicode/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

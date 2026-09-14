@@ -1,15 +1,88 @@
 ---
-date: 2026-05-05
-description: Tìm hiểu cách thêm các mẫu lặp kết cấu vào tài liệu PostScript bằng Aspose.Page
-  cho Java. Hướng dẫn này cho thấy cách thêm kết cấu một cách hiệu quả và khám phá
-  các khả năng sáng tạo.
+date: 2026-09-14
+description: Tìm hiểu cách sử dụng texture paint java để thêm các mẫu lặp trong PostScript
+  với Aspose.Page. Hướng dẫn này chi tiết về texture fills, shape rendering và text
+  styling.
 keywords:
-- how to add texture
+- texture paint java
 - fill shape with texture
+- apply texture to text
 - fill rectangle with texture
-linktitle: Thêm mẫu lát kết cấu trong Java PostScript
+- texture tiling tutorial
+lastmod: 2026-09-14
+linktitle: Thêm mẫu lặp texture trong Java PostScript
+og_description: Khám phá cách sử dụng texture paint java để thêm các mẫu lặp trong
+  tài liệu PostScript với Aspose.Page. Thực hiện theo hướng dẫn từng bước và các thực
+  tiễn tốt nhất.
+og_image_alt: Guide showing texture paint java usage in a Java PostScript example
+og_title: Cách sử dụng texture paint java để tạo mẫu lặp trong PostScript
+schemas:
+- author: Aspose
+  dateModified: '2026-09-14'
+  description: Learn how to use texture paint java to add tiling patterns in PostScript
+    with Aspose.Page. This tutorial covers texture fills, shape rendering, and text
+    styling in detail.
+  headline: How to use texture paint java for tiling in PostScript
+  type: TechArticle
+- description: Learn how to use texture paint java to add tiling patterns in PostScript
+    with Aspose.Page. This tutorial covers texture fills, shape rendering, and text
+    styling in detail.
+  name: How to use texture paint java for tiling in PostScript
+  steps:
+  - name: create a PostScript document
+    text: First, instantiate a `Document` object that represents the output file.
+      This object is the entry point for all drawing operations. `Document` is Aspose.Page's
+      top‑level object that models a single PostScript file in memory. After creation,
+      you can add pages, set page size, and control output options
+  - name: set up the graphics environment
+    text: Translate the coordinate system to a convenient origin and load the bitmap
+      that will serve as the tile. The bitmap is read into a `BufferedImage`, which
+      Aspose.Page can use directly.
+  - name: create texture brush
+    text: Define a `TexturePaint` that repeats the bitmap across the shape’s area.
+      `TexturePaint` is the class that implements the tiling logic; it takes the bitmap
+      and a rectangle that defines the tile size. Adjust the rectangle if you want
+      the texture to appear larger or smaller.
+  - name: draw and fill shapes
+    text: Create a rectangle (or any other shape) and call `document.fill(shape)`
+      while the `TexturePaint` is active. Then optionally stroke the shape to give
+      it a clear outline.
+  - name: add text with texture pattern
+    text: You can also apply the same `TexturePaint` to text glyphs. This demonstrates
+      **how to fill texture** on characters while still being able to stroke them
+      for a crisp appearance.
+  - name: save and close
+    text: Finally, close the page, write the document to disk, and release any resources.
+      The resulting `.ps` file contains a fully tiled texture that can be viewed in
+      any PostScript‑compatible viewer.
+  type: HowTo
+- questions:
+  - answer: Absolutely. The library provides clear documentation and intuitive APIs,
+      making it easy for developers of any experience level to generate PostScript
+      content.
+    question: Is Aspose.Page for Java suitable for beginners?
+  - answer: Yes. Add the Maven/Gradle dependency, import the required namespaces,
+      and start using the API. Detailed integration steps are available **[Aspose.Page
+      Java API reference](https://reference.aspose.com/page/java/)**.
+    question: Can I integrate Aspose.Page for Java into an existing project?
+  - answer: Join the **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** to
+      ask questions, share examples, and get help from both Aspose engineers and other
+      developers.
+    question: Where can I find community support?
+  - answer: Yes, you can download a trial version **[Aspose trial download](https://releases.aspose.com/)**
+      to evaluate all features before purchasing.
+    question: Is a free trial available?
+  - answer: Visit **[temporary license request](https://purchase.aspose.com/temporary-license/)**
+      to request a time‑limited license that removes evaluation restrictions.
+    question: How do I obtain a temporary license for testing?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Cách Thêm Mẫu Lát Kết Cấu trong Java PostScript
+tags:
+- texture paint
+- Aspose.Page
+- Java graphics
+- PostScript
+title: Cách sử dụng texture paint java để tạo mẫu lặp trong PostScript
 url: /vi/java/postscript-texture-patterns/add-texture-tiling-pattern/
 weight: 10
 ---
@@ -18,35 +91,90 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Thêm Mẫu Lát Kết Cấu trong Java PostScript
+# Cách sử dụng texture paint java để lặp lại trong PostScript
 
 ## Giới thiệu
-Trong lĩnh vực phát triển Java, việc học **cách thêm kết cấu** vào tài liệu PostScript là một yêu cầu phổ biến. Aspose.Page for Java làm cho nhiệm vụ này trở nên đơn giản, cho phép bạn tập trung vào thiết kế thay vì cú pháp PostScript mức thấp. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn từng bước cần thiết để thêm mẫu lát kết cấu, tô hình và thậm chí áp dụng kết cấu cho văn bản trong tài liệu Java PostScript.
+Nếu bạn cần làm phong phú một tệp PostScript bằng các texture bitmap lặp lại, **texture paint java** là cách thuận tiện nhất để thực hiện. Aspose.Page for Java trừu tượng hóa các lệnh PostScript cấp thấp, cho phép bạn tập trung vào thiết kế thay vì vẽ thủ công. Trong hướng dẫn này, bạn sẽ học cách tạo mẫu lặp lại, tô các hình dạng và áp dụng cùng một texture cho văn bản — tất cả chỉ với một vài lời gọi API đơn giản.
 
 ## Câu trả lời nhanh
-- **Thư viện cần thiết?** Aspose.Page for Java  
-- **Từ khóa chính mà hướng dẫn này nhắm tới?** *how to add texture*  
-- **Có cần giấy phép để thử nghiệm không?** Có bản dùng thử miễn phí; giấy phép cần thiết cho môi trường sản xuất.  
-- **Phiên bản Java nào được hỗ trợ?** Java 8 hoặc cao hơn.  
-- **Có thể tái sử dụng cọ kết cấu cho nhiều hình không?** Có – tạo `TexturePaint` một lần và áp dụng cho bất kỳ hình nào.  
-- **Làm thế nào để tô một hình chữ nhật bằng kết cấu?** Sử dụng `document.fill(shape)` sau khi đặt `TexturePaint` làm màu vẽ hiện tại.
+- **Thư viện nào cung cấp hỗ trợ texture paint?** Aspose.Page for Java.  
+- **Từ khóa chính mà hướng dẫn này nhắm tới là gì?** *texture paint java*.  
+- **Tôi có cần giấy phép cho việc sử dụng trong sản xuất không?** Có – bản dùng thử miễn phí có sẵn để đánh giá, nhưng phiên bản có giấy phép là bắt buộc cho triển khai thương mại.  
+- **Môi trường chạy Java nào được yêu cầu?** Java 8 hoặc mới hơn.  
+- **Có thể tái sử dụng cùng một brush texture không?** Chắc chắn – khởi tạo `TexturePaint` một lần và tái sử dụng cho bất kỳ số lượng hình dạng hoặc đối tượng văn bản nào.  
+- **Làm thế nào để tô một hình chữ nhật bằng texture?** Đặt `TexturePaint` làm màu hiện tại và gọi `document.fill(rectangle)`.
 
-## Mẫu lát kết cấu là gì?
-Mẫu lát kết cấu là một hình ảnh nhỏ (gạch) được lặp lại trên một khu vực lớn hơn, cho phép bạn **tô hình bằng kết cấu** mà không cần vẽ từng gạch một cách thủ công. Kỹ thuật này lý tưởng cho nền, tô màu và hiệu ứng văn bản trang trí trong PostScript.
+## Mẫu lặp lại texture là gì?
+Mẫu lặp lại texture lặp một bitmap nhỏ (tile) trên một khu vực lớn hơn, cho phép bạn **tô hình dạng bằng texture** mà không cần vẽ từng tile riêng lẻ. Cách tiếp cận này lý tưởng cho nền, tô trang trí và văn bản có texture trong PostScript, và nó hoạt động hiệu quả với bất kỳ kích thước ảnh nào.
 
-## Tại sao sử dụng Aspose.Page cho Java?
-- **Kết xuất không phụ thuộc** – không cần trình thông dịch PostScript bên ngoài.  
-- **Kiểm soát đầy đủ đồ họa** – kết hợp các hình dạng vector, văn bản và kết cấu bitmap.  
-- **Đa nền tảng** – hoạt động trên bất kỳ hệ điều hành nào hỗ trợ Java.  
+## Tại sao nên sử dụng Aspose.Page for Java?
+Aspose.Page for Java cung cấp một engine không phụ thuộc nào tạo ra PostScript trực tiếp từ mã Java, loại bỏ nhu cầu sử dụng các trình thông dịch bên ngoài. Nó cho phép kiểm soát đầy đủ các vector, văn bản và texture bitmap, hỗ trợ hơn 30 định dạng xuất, và chạy trên bất kỳ hệ điều hành nào hỗ trợ Java 8 hoặc mới hơn, làm cho nó trở thành lựa chọn đa năng cho các nhà phát triển.
 
 ## Yêu cầu trước
-Trước khi bắt đầu hướng dẫn, hãy đảm bảo bạn đã chuẩn bị các yêu cầu sau:
-- Hiểu biết cơ bản về ngôn ngữ lập trình Java.  
-- Quen thuộc với cấu trúc tài liệu PostScript.  
-- Thư viện Aspose.Page for Java đã được cài đặt. Bạn có thể tải xuống [đây](https://releases.aspose.com/page/java/).
+Trước khi bắt đầu, hãy đảm bảo các điều sau đã sẵn sàng:
 
-## Nhập gói
-Bắt đầu bằng việc nhập các gói cần thiết cho dự án Java của bạn:
+- Môi trường phát triển Java hoạt động (JDK 8 hoặc mới hơn).  
+- Kiến thức cơ bản về các khái niệm PostScript.  
+- Thư viện Aspose.Page for Java đã được cài đặt – tải xuống **[download Aspose.Page for Java](https://releases.aspose.com/page/java/)**.  
+
+## Nhập các gói
+Nhập các lớp bạn sẽ cần để tạo tài liệu PostScript và làm việc với texture bitmap. Nhập các lớp Java và Aspose.Page cần thiết cung cấp đồ họa, xử lý ảnh và chức năng tài liệu PostScript.
+
+## Cách thêm mẫu lặp lại texture trong Java PostScript
+Bạn có thể đạt được hiệu ứng lặp lại đầy đủ trong ba bước ngắn gọn. Câu trả lời dưới đây cho bạn biết chính xác những gì cần làm, sau đó các phần tiếp theo sẽ phân tích từng bước.
+
+Tải bitmap của bạn, tạo một `TexturePaint`, và áp dụng nó cho các hình dạng hoặc văn bản – đó là tất cả những gì bạn cần để tạo texture lặp lại trên bất kỳ vùng nào của trang.
+
+### Bước 1: tạo tài liệu PostScript
+Đầu tiên, khởi tạo một đối tượng `Document` đại diện cho tệp đầu ra. Đối tượng này là điểm vào cho tất cả các thao tác vẽ.
+
+`Document` là đối tượng cấp cao nhất của Aspose.Page mô hình hoá một tệp PostScript duy nhất trong bộ nhớ. Sau khi tạo, bạn có thể thêm trang, đặt kích thước trang và kiểm soát các tùy chọn xuất.
+
+### Bước 2: thiết lập môi trường đồ họa
+Dịch hệ tọa độ tới một gốc thuận tiện và tải bitmap sẽ dùng làm tile. Bitmap được đọc vào một `BufferedImage`, mà Aspose.Page có thể sử dụng trực tiếp.
+
+### Bước 3: tạo brush texture
+Xác định một `TexturePaint` lặp lại bitmap trên toàn bộ khu vực của hình dạng. `TexturePaint` là lớp thực hiện logic lặp lại; nó nhận bitmap và một hình chữ nhật xác định kích thước tile. Điều chỉnh hình chữ nhật nếu bạn muốn texture xuất hiện lớn hơn hoặc nhỏ hơn.
+
+### Bước 4: vẽ và tô các hình dạng
+Tạo một hình chữ nhật (hoặc bất kỳ hình dạng nào khác) và gọi `document.fill(shape)` trong khi `TexturePaint` đang hoạt động. Sau đó, tùy chọn vẽ viền cho hình dạng để tạo đường viền rõ ràng.
+
+### Bước 5: thêm văn bản với mẫu texture
+Bạn cũng có thể áp dụng cùng một `TexturePaint` cho các glyph văn bản. Điều này minh họa **cách tô texture** lên các ký tự đồng thời vẫn có thể vẽ viền để có vẻ ngoài sắc nét.
+
+### Bước 6: lưu và đóng
+Cuối cùng, đóng trang, ghi tài liệu ra đĩa và giải phóng bất kỳ tài nguyên nào. Tệp `.ps` kết quả chứa một texture được lặp lại hoàn toàn mà có thể xem trong bất kỳ trình xem PostScript‑compatible nào.
+
+## Các vấn đề thường gặp & mẹo
+- **Thiếu tệp texture** – Kiểm tra đường dẫn tới `TestTexture.bmp` có đúng không và tệp có thể đọc được bởi tiến trình Java.  
+- **Texture bị kéo dài** – Nếu mẫu bị biến dạng, hãy chắc chắn rằng hình chữ nhật `imageArea` khớp với kích thước gốc của bitmap.  
+- **Hiệu năng** – Tái sử dụng cùng một thể hiện `TexturePaint` cho nhiều hình dạng; điều này tránh việc cấp phát đối tượng không cần thiết và tăng tốc quá trình render.  
+- **Mẹo chuyên nghiệp:** Sử dụng bitmap độ phân giải cao cho tile để giữ texture sắc nét khi mẫu được phóng to.
+
+## Câu hỏi thường gặp
+
+**H: Aspose.Page for Java có phù hợp cho người mới bắt đầu không?**  
+Đáp: Chắc chắn. Thư viện cung cấp tài liệu rõ ràng và API trực quan, giúp các nhà phát triển ở mọi cấp độ kinh nghiệm dễ dàng tạo nội dung PostScript.
+
+**H: Tôi có thể tích hợp Aspose.Page for Java vào dự án hiện có không?**  
+Đáp: Có. Thêm phụ thuộc Maven/Gradle, nhập các namespace cần thiết, và bắt đầu sử dụng API. Các bước tích hợp chi tiết có sẵn trong **[Aspose.Page Java API reference](https://reference.aspose.com/page/java/)**.
+
+**H: Tôi có thể tìm hỗ trợ cộng đồng ở đâu?**  
+Đáp: Tham gia **[Aspose.Page forum](https://forum.aspose.com/c/page/39)** để đặt câu hỏi, chia sẻ ví dụ và nhận trợ giúp từ cả kỹ sư Aspose và các nhà phát triển khác.
+
+**H: Có bản dùng thử miễn phí không?**  
+Đáp: Có, bạn có thể tải phiên bản dùng thử **[Aspose trial download](https://releases.aspose.com/)** để đánh giá tất cả các tính năng trước khi mua.
+
+**H: Làm thế nào để tôi có được giấy phép tạm thời để thử nghiệm?**  
+Đáp: Truy cập **[temporary license request](https://purchase.aspose.com/temporary-license/)** để yêu cầu giấy phép thời gian có hạn loại bỏ các hạn chế đánh giá.
+
+---
+
+**Cập nhật lần cuối:** 2026-09-14  
+**Đã kiểm tra với:** Aspose.Page for Java 24.12 (mới nhất)  
+**Tác giả:** Aspose  
+
+---
 
 ```java
 import java.awt.BasicStroke;
@@ -61,13 +189,6 @@ import javax.imageio.ImageIO;
 import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
-
-## Cách Thêm Mẫu Lát Kết Cấu trong Java PostScript
-Dưới đây là hướng dẫn từng bước. Mỗi bước bao gồm một giải thích ngắn gọn và sau đó là đoạn mã chính xác mà bạn cần sao chép.
-
-### Bước 1: Tạo tài liệu PostScript
-Bắt đầu bằng việc tạo một tài liệu PostScript mới, chỉ định luồng đầu ra và các tùy chọn lưu. Đảm bảo bạn đã cấu hình các đường dẫn cần thiết.
-
 ```java
 // The path to the documents directory.
 String dataDir = "Your Document Directory";
@@ -80,30 +201,18 @@ PsDocument document = new PsDocument(outPsStream, options, false);
 // Create new PS Document with the page opened
 PsDocument document = new PsDocument(outPsStream, options, false);
 ```
-
-### Bước 2: Thiết lập môi trường đồ họa
-Dịch gốc tọa độ đến vị trí thuận tiện và tải bitmap sẽ dùng làm gạch kết cấu.
-
 ```java
 document.writeGraphicsSave();
 document.translate(200, 100);
 // Create a BufferedImage object from image file
 BufferedImage image = ImageIO.read(new File(dataDir + "TestTexture.bmp"));
 ```
-
-### Bước 3: Tạo cọ kết cấu
-Định nghĩa một `TexturePaint` lặp lại bitmap trên toàn bộ khu vực của hình. Điều chỉnh kích thước hình chữ nhật nếu bạn muốn gạch xuất hiện lớn hơn hoặc nhỏ hơn.
-
 ```java
 // Create image area doubled in width
 Rectangle2D.Float imageArea = new Rectangle2D.Float(0, 0, image.getWidth() * 2, image.getHeight());
 // Create texture brush from the image
 TexturePaint paint = new TexturePaint(image, imageArea);
 ```
-
-### Bước 4: Vẽ và tô hình
-Tạo một hình chữ nhật và **tô hình chữ nhật bằng kết cấu** bằng cọ. Sau đó vẽ viền cho hình để kết quả rõ ràng hơn.
-
 ```java
 // Create rectangle
 Rectangle2D.Float shape = new Rectangle2D.Float(0, 0, 200, 100);
@@ -115,10 +224,6 @@ document.setPaint(Color.RED);
 document.setStroke(new BasicStroke(2));
 document.draw(shape);
 ```
-
-### Bước 5: Thêm văn bản với mẫu kết cấu
-Bạn cũng có thể áp dụng cùng một kết cấu cho các glyph văn bản. Điều này minh họa **cách tô kết cấu** lên các ký tự trong khi vẫn có thể vẽ viền chúng.
-
 ```java
 // Fill the text with the texture pattern
 Font font = new Font("Arial", Font.BOLD, 96);
@@ -126,10 +231,6 @@ document.fillAndStrokeText("ABC", font, 200, 300, paint, Color.BLACK, new BasicS
 // Outline the text with the texture pattern
 document.outlineText("ABC", font, 200, 400, paint, new BasicStroke(5));
 ```
-
-### Bước 6: Lưu và Đóng
-Cuối cùng, đóng trang, lưu tài liệu và giải phóng tài nguyên.
-
 ```java
 // Close current page
 document.closePage();
@@ -137,42 +238,14 @@ document.closePage();
 document.save();
 ```
 
-## Các vấn đề thường gặp & Mẹo
-- **Thiếu tệp kết cấu** – Kiểm tra đường dẫn tới `TestTexture.bmp` có đúng và tệp có thể truy cập được.  
-- **Kích thước hình ảnh không đúng** – Nếu kết cấu bị kéo dài, điều chỉnh `imageArea` để khớp với kích thước gốc của hình ảnh.  
-- **Hiệu suất** – Tái sử dụng cùng một thể hiện `TexturePaint` cho nhiều hình để tránh tạo đối tượng không cần thiết.  
-- **Mẹo chuyên nghiệp:** Sử dụng bitmap độ phân giải cao cho gạch để giữ kết cấu sắc nét khi phóng to.
+## Hướng dẫn liên quan
 
-## Câu hỏi thường gặp
+- [Tạo mẫu texture trong PostScript với Aspose.Page for Java](/page/java/postscript-texture-patterns/)
+- [Tạo gradient dạng tròn trong PostScript với Aspose.Page for Java](/page/java/postscript-gradient-addition/)
+- [Hướng dẫn Transparency của Aspose.Page – Thêm độ trong suốt trong Java PostScript](/page/java/postscript-transparency/)
 
-**Q: Aspose.Page cho Java có phù hợp cho người mới bắt đầu không?**  
-A: Chắc chắn! Aspose.Page cho Java cung cấp tài liệu đầy đủ, giúp nó dễ tiếp cận cho các nhà phát triển ở mọi trình độ.
-
-**Q: Tôi có thể tích hợp Aspose.Page cho Java vào dự án Java hiện có của mình không?**  
-A: Có, bạn có thể dễ dàng tích hợp Aspose.Page cho Java vào dự án của mình bằng cách theo dõi tài liệu được cung cấp [đây](https://reference.aspose.com/page/java/).
-
-**Q: Tôi có thể tìm hỗ trợ hoặc thảo luận các câu hỏi liên quan đến Aspose.Page ở đâu?**  
-A: Truy cập [diễn đàn Aspose.Page](https://forum.aspose.com/c/page/39) để giao lưu với cộng đồng và nhận hỗ trợ.
-
-**Q: Có bản dùng thử miễn phí cho Aspose.Page cho Java không?**  
-A: Có, bạn có thể khám phá bản dùng thử miễn phí [đây](https://releases.aspose.com/).
-
-**Q: Làm thế nào để tôi có được giấy phép tạm thời cho Aspose.Page cho Java?**  
-A: Truy cập [liên kết này](https://purchase.aspose.com/temporary-license/) để nhận giấy phép tạm thời.
-
-## Kết luận
-Chúc mừng! Bạn đã học thành công **cách thêm kết cấu** các mẫu lát vào tài liệu Java PostScript bằng Aspose.Page cho Java. Hãy tự do thử nghiệm với các gạch bitmap khác nhau, các hệ số tỷ lệ và các thao tác hợp thành để khai thác tối đa tiềm năng sáng tạo của việc tô kết cấu.
-
----
-
-**Last Updated:** 2026-05-05  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose  
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
