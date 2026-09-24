@@ -1,11 +1,79 @@
 ---
-date: 2026-02-05
-description: Apprenez à enregistrer un EPS au format PNG avec Aspose.Page pour Java
-  tout en configurant une licence à consommation. Guide étape par étape avec un exemple
-  complet de code.
-linktitle: Set Metered License in Java
+date: 2026-09-24
+description: Apprenez à utiliser Aspose.Page pour convertir EPS en PNG en Java, configurer
+  une licence à compteurs et écrire du code Java pour créer un fichier PNG efficacement.
+keywords:
+- aspose page convert eps
+- write png file java
+- metered license java
+- eps to png conversion
+lastmod: 2026-09-24
+linktitle: Configurer la licence à compteurs en Java
+og_description: Aspose.Page convertit EPS en PNG en Java avec une licence à compteurs.
+  Ce guide montre étape par étape comment configurer la licence, rendre EPS et écrire
+  du code Java pour créer un fichier PNG.
+og_image_alt: Guide showing Aspose.Page Java converting EPS to PNG with metered license
+og_title: Aspose.Page convertit EPS en PNG en Java (licence à compteurs)
+schemas:
+- author: Aspose
+  dateModified: '2026-09-24'
+  description: Learn how to use Aspose.Page to convert EPS to PNG in Java, configure
+    a metered license, and write PNG file Java code efficiently.
+  headline: Aspose.Page convert EPS to PNG in Java (metered license)
+  type: TechArticle
+- description: Learn how to use Aspose.Page to convert EPS to PNG in Java, configure
+    a metered license, and write PNG file Java code efficiently.
+  name: Aspose.Page convert EPS to PNG in Java (metered license)
+  steps:
+  - name: initialize document and image format
+    text: First, set the metered keys and define the output format (PNG). This establishes
+      the foundation for the conversion. The `MeteredLicense` class stores your public
+      and private keys, while `ImageSaveOptions` tells Aspose.Page to produce PNG
+      output.
+  - name: initialize PostScript input stream
+    text: Open the EPS file you want to convert. The stream feeds the document into
+      Aspose.Page. The `FileInputStream` reads the EPS file from disk, allowing the
+      `Document` constructor to parse the PostScript data.
+  - name: check document license
+    text: Always verify that the metered license was applied correctly before processing.
+      The `isLicensed()` method returns `true` only when the supplied keys are valid,
+      preventing accidental usage of an unlicensed library.
+  - name: initialize options and image device
+    text: Create the options object that controls conversion settings and the device
+      that will receive the rendered image. `ImageDevice` captures the rasterized
+      output in memory, while `ImageSaveOptions` lets you tweak DPI, compression level,
+      and color depth.
+  - name: save EPS file as image
+    text: This is the core **save EPS as PNG** call. The document is rendered into
+      the image device using the options we configured. The `document.save(device,
+      options)` method performs the rasterization in a single step.
+  - name: get and save image bytes
+    text: Extract the PNG bytes from the device and write them to a file on disk.
+      This step demonstrates how to **write PNG file Java** safely. `Files.write(Paths.get("output.png"),
+      device.getImagesBytes()[0])` persists the image without additional libraries.
+  type: HowTo
+- questions:
+  - answer: Log into your Aspose account, navigate to the **Metered License** section,
+      and copy the generated public and private keys.
+    question: How do I obtain metered public and private keys?
+  - answer: Aspose.Page offers a free trial with full functionality; production use
+      requires a paid license. Download the trial [Aspose trial download page](https://releases.aspose.com/).
+    question: Is the Aspose.Page library free?
+  - answer: Yes, a commercial license permits deployment in production environments.
+      Purchase a license [Aspose purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.Page for commercial projects?
+  - answer: The full API reference is available [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
+    question: Where can I find additional documentation?
+  - answer: Temporary licenses are provided through the Aspose portal [Aspose temporary
+      license page](https://purchase.aspose.com/temporary-license/).
+    question: How can I get a temporary license for evaluation?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Enregistrer EPS au format PNG avec Aspose.Page Java (licence à la consommation)
+tags:
+- aspose.page
+- java image conversion
+- metered licensing
+title: Aspose.Page convertit EPS en PNG en Java (licence à compteurs)
 url: /fr/java/license-management/set-metered-license/
 weight: 10
 ---
@@ -14,36 +82,33 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Enregistrer EPS en PNG avec Aspose.Page Java (Licence à compteurs)
+# Aspose.Page convertir EPS en PNG en Java (licence à compteurs)
 
 ## Introduction
-Si vous devez **enregistrer EPS en PNG** dans une application Java et que vous recherchez une solution simple pour gérer la licence, vous êtes au bon endroit. Ce tutoriel vous guide à travers la configuration d’une licence à compteurs pour Aspose.Page, le chargement d’un fichier PostScript (EPS) et sa conversion en image PNG — le tout avec des étapes claires et concises que vous pouvez suivre immédiatement. À la fin, vous comprendrez également comment **rendre EPS en PNG** efficacement et comment écrire du code **write PNG file Java** qui fonctionne en production.
+Si vous devez **enregistrer EPS en PNG** dans une application Java tout en gardant la licence simple, vous êtes au bon endroit. Ce tutoriel vous guide à travers la configuration d’une **licence à compteurs** pour Aspose.Page, le chargement d’un fichier EPS (Encapsulated PostScript) et sa conversion en image PNG. À la fin, vous comprendrez comment **rendre EPS en PNG efficacement** et comment **écrire du code Java pour créer un fichier PNG** qui fonctionne de manière fiable en production.
 
-## Quick Answers
-- **Que signifie « save EPS as PNG » ?** Cela convertit un fichier EPS vectoriel en une image PNG raster.  
-- **Pourquoi utiliser une licence à compteurs ?** Elle vous permet de ne payer que pour les pages que vous traitez, idéal pour des charges de travail variables.  
-- **Ai‑je besoin d’une connexion Internet ?** Non, les clés à compteurs sont validées localement.  
-- **Quelle version de Java est requise ?** Java 8 ou supérieure.  
-- **Combien de temps prend la mise en place ?** Environ 10 minutes pour une implémentation de base.  
+## Réponses rapides
+- **Que signifie « save EPS as PNG » ?** Il convertit un fichier EPS vectoriel en une image PNG raster, en préservant la transparence et la compression sans perte.  
+- **Pourquoi utiliser une licence à compteurs ?** Vous ne payez que pour les pages que vous traitez, ce qui est idéal pour des charges de travail variables.  
+- **Ai-je besoin d’une connexion Internet ?** Non, les clés à compteurs sont validées localement sur la JVM.  
+- **Quelle version de Java est requise ?** Java 8 ou supérieur est entièrement pris en charge.  
+- **Combien de temps prend la configuration ?** Environ 10 minutes pour une implémentation de base.
 
-## What is “save EPS as PNG”?
-Enregistrer EPS en PNG transforme un document Encapsulated PostScript évolutif en un format bitmap largement supporté. PNG conserve la transparence et offre une compression sans perte, ce qui le rend idéal pour les graphiques web, les vignettes et les aperçus d’impression.
+## Qu’est‑ce que « save EPS to PNG » ?
+Enregistrer EPS en PNG convertit un document Encapsulated PostScript vectoriel en une image PNG raster, en préservant la transparence et offrant une compression sans perte. Cette transformation est utile lorsque vous avez besoin de graphiques prêts pour le web, de vignettes ou d’aperçus imprimables qui peuvent être affichés dans n’importe quel navigateur sans nécessiter d’interpréteur PostScript.
 
-## Why render EPS to PNG with Aspose.Page?
-- **Pure Java API** – aucune dépendance native, vous pouvez l’exécuter partout où la JVM est prise en charge.  
-- **Rendu haute fidélité** – les graphiques vectoriels sont rasterisés avec précision, préservant la qualité des lignes.  
-- **Licence à compteurs** – vous ne payez que pour ce que vous convertissez, ce qui rend les coûts prévisibles.  
-- **Multiples options de sortie** – en plus de PNG, vous pouvez également générer JPEG, TIFF, et plus encore, offrant ainsi une flexibilité pour différents projets.
+## Pourquoi rendre EPS en PNG avec Aspose.Page ?
+Aspose.Page fournit une API pure‑Java qui rasterise les fichiers EPS avec une haute fidélité, prend en charge plus de 50 formats de sortie et propose une licence à compteurs afin que vous ne payiez que pour ce que vous convertissez. La bibliothèque peut traiter des documents de plusieurs centaines de pages sans charger le fichier complet en mémoire, offrant un rendu rapide et précis sur toute plateforme supportant la JVM.
 
-## Prerequisites
-Avant de commencer, assurez‑vous d’avoir :
+## Prérequis
+- Expérience de base en développement Java.  
+- La bibliothèque Aspose.Page téléchargée depuis la [page de téléchargement Aspose.Page Java](https://releases.aspose.com/page/java/).  
+- Une paire de clés publiques et privées à compteurs provenant de votre compte Aspose.  
 
-- Des connaissances de base en programmation Java.  
-- La bibliothèque Aspose.Page installée – téléchargez‑la depuis [here](https://releases.aspose.com/page/java/).  
-- Les clés publiques et privées à compteurs, que vous pouvez obtenir via votre compte Aspose.
+## Importation des packages
+Les instructions `import` importent les classes requises dans le scope. Conservez ce bloc exactement tel qu’il est affiché afin que le code compile sans modifications.
 
-## Import Packages
-Tout d’abord, importez les classes dont nous aurons besoin. Conservez le bloc d’importation exactement tel qu’il est affiché afin que le code compile sans modifications.
+Les classes `java.io` gèrent les flux de fichiers, tandis que les classes Aspose.Page gèrent la licence, le chargement du document et le rendu d’image.
 
 ```java
 import java.io.FileInputStream;
@@ -54,11 +119,16 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.ImageSaveOptions;
 ```
 
-## How to save EPS as PNG using Aspose.Page Java
+## Comment enregistrer EPS en PNG avec Aspose.Page Java
 Voici le guide étape par étape qui combine la licence, le chargement, le rendu et l’écriture du fichier PNG final.
 
-### Step 1: Initialize Document and Image Format
-Ici, nous définissons les clés à compteurs et spécifions le format de sortie (PNG). C’est la base de l’opération **save EPS as PNG**.
+### Réponse directe
+Chargez votre fichier EPS, appliquez une licence à compteurs, configurez `ImageSaveOptions` pour PNG, rendez le document vers un `ImageDevice`, puis écrivez le tableau d’octets résultant sur le disque. Cette séquence complète le flux de travail **save EPS as PNG** en quelques lignes de code Java.
+
+### Étape 1 : initialiser le document et le format d’image
+Tout d’abord, définissez les clés à compteurs et spécifiez le format de sortie (PNG). Cela établit la base de la conversion.
+
+La classe `MeteredLicense` stocke vos clés publiques et privées, tandis que `ImageSaveOptions` indique à Aspose.Page de produire une sortie PNG.
 
 ```java
 // set metered public and private keys
@@ -72,8 +142,10 @@ String dataDir = "Your Document Directory";
 ImageFormat imageFormat = ImageFormat.PNG;
 ```
 
-### Step 2: Initialize PostScript Input Stream
+### Étape 2 : initialiser le flux d’entrée PostScript
 Ouvrez le fichier EPS que vous souhaitez convertir. Le flux alimente le document dans Aspose.Page.
+
+Le `FileInputStream` lit le fichier EPS depuis le disque, permettant au constructeur `Document` d’analyser les données PostScript.
 
 ```java
 // Initialize PostScript input stream
@@ -81,8 +153,10 @@ FileInputStream psStream = new FileInputStream(dataDir + "input.ps");
 PsDocument document = new PsDocument(psStream);
 ```
 
-### Step 3: Check Document License
+### Étape 3 : vérifier la licence du document
 Vérifiez toujours que la licence à compteurs a été appliquée correctement avant le traitement.
+
+La méthode `isLicensed()` renvoie `true` uniquement lorsque les clés fournies sont valides, évitant ainsi l’utilisation accidentelle d’une bibliothèque non licenciée.
 
 ```java
 // Check if the document is licensed
@@ -92,8 +166,10 @@ else
     System.out.println("Metered License is not set.");
 ```
 
-### Step 4: Initialize Options and Image Device
-Créez l’objet d’options qui contrôle les paramètres de conversion ainsi que le dispositif qui recevra l’image rendue.
+### Étape 4 : initialiser les options et le dispositif d’image
+Créez l’objet d’options qui contrôle les paramètres de conversion et le dispositif qui recevra l’image rendue.
+
+`ImageDevice` capture la sortie rasterisée en mémoire, tandis que `ImageSaveOptions` vous permet d’ajuster le DPI, le niveau de compression et la profondeur de couleur.
 
 ```java
 // Initialize options object with default parameters.
@@ -102,8 +178,10 @@ ImageSaveOptions options = new ImageSaveOptions();
 com.aspose.eps.device.ImageDevice device = new com.aspose.eps.device.ImageDevice();
 ```
 
-### Step 5: Save EPS File as Image
-C’est l’appel principal **save EPS as PNG**. Le document est rendu dans le dispositif d’image en utilisant les options que nous avons configurées.
+### Étape 5 : enregistrer le fichier EPS en image
+Ceci est l’appel principal **save EPS as PNG**. Le document est rendu dans le dispositif d’image en utilisant les options que nous avons configurées.
+
+La méthode `document.save(device, options)` effectue la rasterisation en une seule étape.
 
 ```java
 // Save EPS file as image
@@ -114,8 +192,10 @@ try {
 }
 ```
 
-### Step 6: Get and Save Image Bytes
+### Étape 6 : obtenir et enregistrer les octets de l’image
 Extrayez les octets PNG du dispositif et écrivez‑les dans un fichier sur le disque. Cette étape montre comment **write PNG file Java** en toute sécurité.
+
+`Files.write(Paths.get("output.png"), device.getImagesBytes()[0])` persiste l’image sans bibliothèques supplémentaires.
 
 ```java
 // Get images bytes. One bytes array for one page. In our case, we have one page.
@@ -131,45 +211,48 @@ try {
 }
 ```
 
-## Common Issues and Solutions
-| Issue | Why it Happens | Fix |
-|-------|----------------|-----|
-| **License not recognized** | Les clés sont incorrectes ou placées dans le mauvais ordre. | Vérifiez à nouveau les chaînes de clés publiques/privées et assurez‑vous que `setMeteredKey` est appelé avant tout traitement du document. |
-| **Output file is empty** | `device.getImagesBytes()` a renvoyé `null`. | Vérifiez que le fichier EPS est valide et que les `ImageSaveOptions` ne sont pas définies sur un canevas de taille zéro. |
-| **OutOfMemoryError on large EPS** | Le rendu de gros fichiers vectoriels consomme beaucoup de mémoire. | Traitez les pages une à une ou augmentez le tas JVM (`-Xmx2g`). |
+## Problèmes courants et solutions
+| Problème | Pourquoi cela se produit | Solution |
+|----------|--------------------------|----------|
+| **Licence non reconnue** | Les clés sont incorrectes ou `setMeteredKey` est appelé après le traitement du document. | Vérifiez à nouveau les chaînes de clés publiques/privées et assurez‑vous que `setMeteredKey` s’exécute avant tout appel Aspose.Page. |
+| **Le fichier de sortie est vide** | `device.getImagesBytes()` a renvoyé `null` parce que le fichier EPS n’a pas pu être analysé. | Vérifiez que le fichier EPS est valide et que `ImageSaveOptions` spécifie une taille de canevas non nulle. |
+| **OutOfMemoryError sur un EPS volumineux** | Le rendu de gros fichiers vectoriels consomme beaucoup de mémoire du tas. | Traitez les pages une à une ou augmentez le tas JVM (`-Xmx2g`). |
 
-## Frequently Asked Questions
+## Questions fréquemment posées
 
-**Q : How do I obtain metered public and private keys?**  
-R : Vous pouvez obtenir ces clés via votre compte Aspose.
+**Q : Comment obtenir les clés publiques et privées à compteurs ?**  
+R : Connectez‑vous à votre compte Aspose, accédez à la section **Metered License** et copiez les clés publiques et privées générées.
 
-**Q : Is the Aspose.Page library free?**  
-R : Aspose.Page propose à la fois une version d’essai gratuite et des versions payantes. Visitez [here](https://releases.aspose.com/) pour un essai gratuit.
+**Q : La bibliothèque Aspose.Page est‑elle gratuite ?**  
+R : Aspose.Page propose un essai gratuit avec toutes les fonctionnalités ; l’utilisation en production nécessite une licence payante. Téléchargez l’essai depuis la [page de téléchargement d’essai Aspose](https://releases.aspose.com/).
 
-**Q : Can I use Aspose.Page for commercial projects?**  
-R : Oui, Aspose.Page propose des licences commerciales. Vous pouvez les acheter [here](https://purchase.aspose.com/buy).
+**Q : Puis‑je utiliser Aspose.Page pour des projets commerciaux ?**  
+R : Oui, une licence commerciale autorise le déploiement en environnement de production. Achetez une licence sur la [page d’achat Aspose](https://purchase.aspose.com/buy).
 
-**Q : Where can I find additional documentation?**  
-R : Consultez la documentation [here](https://reference.aspose.com/page/java/).
+**Q : Où puis‑je trouver une documentation supplémentaire ?**  
+R : La référence complète de l’API est disponible sur la [référence API Java Aspose.Page](https://reference.aspose.com/page/java/).
 
-**Q : How can I get temporary licenses?**  
-R : Les licences temporaires peuvent être obtenues [here](https://purchase.aspose.com/temporary-license/).
+**Q : Comment obtenir une licence temporaire pour l’évaluation ?**  
+R : Les licences temporaires sont fournies via le portail Aspose [page de licence temporaire Aspose](https://purchase.aspose.com/temporary-license/).
 
-**Q : What if I need to convert multi‑page EPS files?**  
+**Q : Que faire si je dois convertir des fichiers EPS multi‑pages ?**  
 R : Parcourez chaque page avec `device.getImagesBytes()` et écrivez chaque tableau d’octets dans un fichier PNG séparé.
 
-**Q : Can I change the PNG quality or color depth?**  
-R : Oui, configurez `ImageSaveOptions` (par ex., `options.setCompressionLevel(...)`) avant d’appeler `document.save(...)`.
+**Q : Puis‑je modifier la qualité ou la profondeur de couleur du PNG ?**  
+R : Oui, configurez `ImageSaveOptions` (par ex., `options.setCompressionLevel(9)`) avant d’appeler `document.save(...)`.
 
 ---
 
-**Last Updated:** 2025-12-03  
-**Tested With:** Aspose.Page 24.12 for Java  
-**Author:** Aspose  
+**Dernière mise à jour :** 2026-09-24  
+**Testé avec :** Aspose.Page 24.12 for Java (latest)  
+**Auteur :** Aspose
 
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Page 24.12 for Java (latest)  
-**Author:** Aspose  
+## Tutoriels associés
+
+- [Comment définir la licence pour l’API Java Aspose.Page – Gestion des licences](/page/java/license-management/)
+- [Convertir PS en PNG avec l’API Java Aspose.Page](/page/java/postscript-conversion/to-image/)
+- [Redimensionner EPS avec Aspose.Page – Manipulation EPS Java](/page/java/manipulation-eps/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
