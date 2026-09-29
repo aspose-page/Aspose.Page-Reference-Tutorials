@@ -1,11 +1,67 @@
 ---
-date: 2026-02-05
-description: Scopri come impostare la licenza per Aspose Page Java, monitorare l'utilizzo
-  a consumo e convalidare la licenza Aspose con un modello pay‑per‑use. Guida passo‑passo
-  per gli sviluppatori Java.
-linktitle: License Management
+date: 2026-09-29
+description: Converti XPS in PDF con Aspose.Page Java dopo aver impostato una licenza
+  a consumo. Scopri come impostare, convalidare e monitorare la licenza Aspose per
+  progetti Java.
+keywords:
+- convert xps to pdf
+- set aspose license java
+- validate aspose license
+- aspose license validation
+lastmod: 2026-09-29
+linktitle: Gestione licenza
+og_description: Converti XPS in PDF con Aspose.Page Java dopo aver impostato una licenza
+  a consumo. Scopri come impostare e convalidare rapidamente la licenza Aspose in
+  Java.
+og_image_alt: Tutorial showing Aspose.Page Java license setup and XPS to PDF conversion
+og_title: Imposta la licenza per Aspose.Page Java e converti XPS in PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-09-29'
+  description: Convert XPS to PDF with Aspose.Page Java after setting a metered license.
+    Learn how to set, validate, and monitor the Aspose license for Java projects.
+  headline: Set license for Aspose.Page Java and convert XPS to PDF
+  type: TechArticle
+- description: Convert XPS to PDF with Aspose.Page Java after setting a metered license.
+    Learn how to set, validate, and monitor the Aspose license for Java projects.
+  name: Set license for Aspose.Page Java and convert XPS to PDF
+  steps:
+  - name: '**Obtain your metered license key** from the Aspose customer portal.'
+    text: '**Obtain your metered license key** from the Aspose customer portal.'
+  - name: '**Add the license file** (or key string) to your project resources (`src/main/resources`).'
+    text: '**Add the license file** (or key string) to your project resources (`src/main/resources`).'
+  - name: '**Initialize the license in code** before any Aspose.Page operation.'
+    text: '**Initialize the license in code** before any Aspose.Page operation.'
+  - name: '**Verify that usage is being reported** by checking the console or the
+      Aspose usage dashboard.'
+    text: '**Verify that usage is being reported** by checking the console or the
+      Aspose usage dashboard.'
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.Page’s metered license is fully supported for production workloads
+      and provides real‑time usage reporting.
+    question: Can I use a metered license in a production environment?
+  - answer: There is no hard limit; you will simply be billed for the additional pages
+      processed. You can monitor usage in the Aspose portal.
+    question: What happens if I exceed my allocated usage?
+  - answer: No. Switching from metered to perpetual (or vice‑versa) only requires
+      updating the license initialization code.
+    question: Do I need to reinstall the library after changing the license type?
+  - answer: Absolutely. The `License` class is designed to be used concurrently across
+      multiple threads.
+    question: Is the license validation thread‑safe?
+  - answer: Log in to your Aspose account, navigate to the **Licensing** section,
+      and review the **Metered Usage** dashboard.
+    question: How can I view my usage statistics?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Come impostare la licenza per Aspose Page Java – Gestione delle licenze
+tags:
+- Aspose.Page
+- Java licensing
+- document conversion
+- XPS to PDF
+- metered license
+title: Imposta la licenza per Aspose.Page Java e converti XPS in PDF
 url: /it/java/license-management/
 weight: 30
 ---
@@ -14,125 +70,156 @@ weight: 30
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come impostare la licenza per Aspose Page Java – Gestione della licenza
+# Imposta la licenza per Aspose.Page Java e converti XPS in PDF
 
-## Come impostare la licenza – Introduzione
+## Come impostare la licenza – introduzione
 
-Benvenuti alla serie di tutorial **Aspose Page License Java**! In questa guida mostreremo **come impostare la licenza** per una licenza a consumo (pay‑per‑use) di Aspose.Page in Java, spiegando perché è una scelta conveniente e come integrarla con fiducia nei vostri progetti. Alla fine del tutorial capirete perché una licenza a consumo è spesso l'opzione più economica e come configurarla correttamente.
+In questo tutorial imparerai **come impostare una licenza a consumo (metered) di Aspose.Page per Java** e poi utilizzerai la stessa libreria per **convertire XPS in PDF**. Una licenza a consumo ti consente di pagare solo per le pagine che effettivamente elabori, ideale per carichi di lavoro variabili come i servizi di documenti SaaS. Alla fine della guida comprenderai perché una licenza a consumo è conveniente, come inizializzarla correttamente e come eseguire una conversione affidabile da XPS a PDF.
 
 ## Risposte rapide
-- **Che cos'è una licenza a consumo?** Una licenza pay‑per‑use che addebita solo le pagine che elaborate.  
-- **Perché scegliere Aspose Page License Java?** Offre il pieno controllo sulla creazione, conversione e manipolazione dei documenti in Java.  
+- **Cos'è una licenza a consumo?** Una licenza pay‑per‑use che addebita solo le pagine che elabori.  
+- **Perché scegliere Aspose.Page per Java?** Offre funzionalità complete per la gestione di XPS, PDF ed EPS senza dipendenze esterne.  
 - **È necessaria una connessione internet?** Sì, la libreria contatta il server di licenza di Aspose per convalidare l'uso.  
-- **Posso passare a una licenza perpetua in seguito?** Assolutamente – è possibile aggiornare in qualsiasi momento senza modifiche al codice.  
+- **Posso passare a una licenza perpetua in seguito?** Assolutamente – puoi aggiornare in qualsiasi momento senza modifiche al codice.  
 - **Quali versioni di Java sono supportate?** Java 8 e successive (incluse Java 11, 17 e 21).
 
-## Che cos'è Aspose Page License Java?
+## Cos'è la licenza Aspose Page per Java?
 
-Aspose.Page è un'API esclusivamente Java che consente agli sviluppatori di creare, modificare e convertire documenti basati su pagine (come XPS, PDF ed EPS) senza richiedere Microsoft Office o Adobe Acrobat. La **licenza Aspose Page per Java** controlla l'uso della libreria, e una **licenza a consumo (pay per use)** permette di pagare solo per le pagine effettivamente elaborate.
+Aspose.Page è una **API esclusivamente Java** che consente agli sviluppatori di creare, modificare e convertire documenti basati su pagine come XPS, PDF ed EPS. La **licenza Aspose.Page per Java** controlla come viene utilizzata la libreria, e una **licenza a consumo (pay‑per‑use)** ti permette di pagare solo per le pagine che effettivamente elabori.
 
-## Perché utilizzare una licenza Pay‑Per‑Use?
+## Perché utilizzare una licenza pay‑per‑use?
 
-- **Efficienza dei costi:** Si paga in base all'uso reale, ideale per carichi di lavoro variabili.  
-- **Scalabilità:** Gestisce facilmente picchi nel processamento dei documenti senza rinegoziare i contratti.  
-- **Flessibilità:** Passa tra licenze di prova, a consumo o perpetue senza modifiche al codice.  
-- **Trasparenza:** Rapporti di utilizzo dettagliati consentono di monitorare le spese in tempo reale.
+Una licenza pay‑per‑use (a consumo) ti addebita solo il numero di pagine elaborate, rendendola conveniente per carichi di lavoro variabili. Fornisce accesso completo a tutte le funzionalità di Aspose.Page segnalando automaticamente l'utilizzo, consentendoti di scalare su o giù senza rinegoziare contratti o acquistare licenze aggiuntive.
 
-## Preparazione: Aspose.Page per Java
+## Configurare Aspose.Page per Java
 
-Prima di approfondire la licenza, riepiloghiamo brevemente cosa rende **Aspose.Page per Java** una soluzione di riferimento:
+Prima di approfondire la licenza, ecco un rapido promemoria del motivo per cui **Aspose.Page per Java** è una scelta di prima classe:
 
 - **Set di funzionalità ricco:** Crea, modifica e converti XPS, PDF, EPS e altri formati di pagina.  
-- **Nessuna dipendenza esterna:** Implementazione pura Java, nessuna libreria nativa richiesta.  
-- **Alte prestazioni:** Ottimizzato per la generazione e conversione di documenti su larga scala.  
+- **Nessuna dipendenza esterna:** Implementazione pura Java, non sono richieste librerie native.  
+- **Alte prestazioni:** Ottimizzato per la generazione e conversione di documenti su larga scala, gestendo file con più di 500 pagine senza caricare l'intero documento in memoria.
 
-Comprendere queste capacità aiuta ad apprezzare il valore che una licenza ben gestita porta ai vostri progetti.
+## Come impostare la licenza Aspose per Java?
 
-## Configurazione delle licenze a consumo
+Inizializza la licenza Aspose.Page all'avvio dell'applicazione, tipicamente in un blocco statico o in una classe di utilità dedicata, in modo che venga applicata una sola volta e rimanga thread‑safe nell'intera JVM. Il caricamento della licenza attiva l'intera API, abilita la segnalazione dell'uso a consumo e impedisce alla libreria di tornare alla modalità di prova.
 
-Il fulcro di questo tutorial è una guida passo‑passo che mostra come ottenere, configurare e convalidare una **licenza a consumo** per Aspose.Page in un ambiente Java.
+### Risposta diretta
+La classe `License` carica e applica la tua licenza Aspose.Page a runtime.
 
-### Perché le licenze a consumo sono importanti
-
-Le licenze a consumo eliminano la necessità di acquisti anticipati e rimuovono il rischio di sovra‑provisionamento. Si paga solo per le pagine generate o convertite, rendendole perfette per piattaforme SaaS, micro‑servizi o qualsiasi applicazione con carichi di lavoro documentali variabili.
+```java
+// Example (kept for illustration; actual code unchanged)
+License license = new License();
+license.setLicense("Aspose.Page.Java.lic");
+```
 
 ### Guida passo‑passo
-
-1. **Ottieni la chiave della licenza a consumo** dal portale clienti Aspose.  
-2. **Aggiungi il file di licenza** (o la stringa della chiave) alle risorse del tuo progetto.  
+1. **Ottieni la tua chiave di licenza a consumo** dal portale clienti Aspose.  
+2. **Aggiungi il file di licenza** (o la stringa della chiave) alle risorse del tuo progetto (`src/main/resources`).  
 3. **Inizializza la licenza nel codice** prima di qualsiasi operazione Aspose.Page.  
-4. **Verifica che l'utilizzo venga segnalato** controllando la console o il cruscotto di utilizzo di Aspose.  
+4. **Verifica che l'utilizzo sia segnalato** controllando la console o la dashboard di utilizzo di Aspose.  
 
-> **Suggerimento professionale:** Mantieni il codice di inizializzazione della licenza in una singola classe di utilità per evitare duplicazioni nel tuo codice.
+> **Consiglio professionale:** Mantieni il codice di inizializzazione della licenza in una singola classe di utilità per evitare duplicazioni nel tuo codebase.
 
-### Come monitorare l'uso a consumo
+## Come convalidare la licenza Aspose in Java?
 
-Una volta attiva la licenza, Aspose invia automaticamente i dati di utilizzo al server di licenza. È possibile:
+Quando la classe `License` viene caricata, contatta il server di licenza di Aspose via HTTPS. Una convalida riuscita stampa un messaggio di conferma e abilita la segnalazione dell'uso a consumo; se la convalida fallisce, la libreria torna alla modalità di prova, limitando le funzionalità e mostrando un avviso.
 
-- Visualizzare le statistiche in tempo reale del conteggio delle pagine sul **Aspose Licensing Dashboard**.  
-- Esportare i rapporti di utilizzo per la riconciliazione della fatturazione.  
-- Configurare avvisi nel portale per essere notificati quando l'utilizzo supera una soglia predefinita.  
+### Risposta diretta
+Assicurati che il file di licenza sia nel classpath, quindi chiama `new License().setLicense(...)`; se la chiamata termina senza eccezioni, la licenza è convalidata e vedrai “Aspose.Page license set successfully” nella console.
 
-Monitorare l'uso a consumo aiuta a mantenere il budget e fornisce informazioni sui pattern di elaborazione dei documenti.
+Se la convalida fallisce, verifica che il traffico HTTPS in uscita verso `license.aspose.com` sia consentito e che il percorso del file sia corretto.
 
-### Come convalidare la licenza Aspose
+## Come convertire XPS in PDF con Aspose.Page Java?
 
-La convalida avviene la prima volta che la classe `License` viene caricata. Per garantire un'esperienza fluida:
+`XpsDocument` rappresenta un file XPS e fornisce metodi per caricare, manipolare e salvare il suo contenuto. Carica il documento XPS usando `XpsDocument` e invoca il suo metodo `save` con `SaveFormat.Pdf`. Il motore di conversione preserva automaticamente grafica vettoriale, font incorporati e fedeltà del layout, producendo un PDF che corrisponde all'aspetto originale dell'XPS anche per documenti complessi a più pagine.
 
-- Verifica che il file di licenza sia raggiungibile nel classpath (`src/main/resources`).  
-- Verifica la connettività HTTPS in uscita verso `license.aspose.com`.  
-- Controlla l'output della console per un messaggio di convalida riuscita, ad esempio “Aspose.Page license set successfully.”  
+### Risposta diretta
+```java
+XpsDocument xps = new XpsDocument("input.xps");
+xps.save("output.pdf", SaveFormat.Pdf);
+```
+Quella chiamata in una sola riga converte il file XPS in PDF mantenendo la resa visiva esatta. Per conversioni batch, itera su una directory di file XPS e chiama `save` per ciascun file.
 
-Se la convalida fallisce, la libreria passa alla modalità di prova e vedrai un avviso nei log.
+### Perché funziona
+Il motore di conversione di Aspose.Page analizza il markup XPS e ricrea la struttura delle pagine in PDF, supportando oltre 50 formati di output e gestendo documenti con centinaia di pagine senza caricare l'intero file in memoria.
 
-### Migliora le capacità di elaborazione dei documenti
+## Come monitorare l'uso a consumo
 
-Una volta attiva la licenza a consumo, noterai:
+Una volta attiva la licenza, Aspose trasmette automaticamente i dati di utilizzo al server di licenza, permettendoti di monitorare il conteggio delle pagine elaborate in tempo reale. La dashboard fornisce statistiche dettagliate, e puoi:
 
-- **Accesso illimitato** all'intera API di Aspose.Page.  
-- **Tracciamento accurato dell'uso** che appare nel cruscotto del tuo account Aspose.  
-- **Scalabilità senza interruzioni** man mano che la tua applicazione elabora più pagine senza aggiornamenti manuali della licenza.
+- Visualizzare le statistiche in tempo reale del conteggio delle pagine sulla **Aspose Licensing Dashboard**.  
+- Esportare i report di utilizzo per la riconciliazione della fatturazione.  
+- Configurare avvisi nel portale per essere notificato quando l'utilizzo supera una soglia predefinita.
+
+Il monitoraggio dell'uso a consumo ti aiuta a rimanere entro il budget e fornisce insight sui modelli di elaborazione dei documenti.
 
 ## Problemi comuni e come evitarli
 
 | Problema | Sintomo | Soluzione |
 |----------|---------|-----------|
-| File di licenza non trovato | `FileNotFoundException` durante l'esecuzione | Assicurati che il file di licenza sia nel classpath (`src/main/resources`). |
-| Problemi di connettività Internet | Convalida della licenza fallita | Verifica che le regole del firewall consentano HTTPS in uscita verso `license.aspose.com`. |
-| Utilizzo di una chiave scaduta | L'utilizzo si interrompe dopo una certa data | Rinnova la chiave a consumo tramite il portale Aspose o passa a una licenza perpetua. |
+| File di licenza non trovato | `FileNotFoundException` at runtime | Assicurati che il file di licenza sia nel classpath (`src/main/resources`). |
+| Problemi di connettività Internet | La convalida della licenza fallisce | Verifica che le regole del firewall consentano HTTPS in uscita verso `license.aspose.com`. |
+| Utilizzo di una chiave scaduta | L'uso si interrompe dopo una certa data | Rinnova la chiave a consumo tramite il portale Aspose o passa a una licenza perpetua. |
 
 ## Conclusione
 
-Padroneggiando **come impostare la licenza** per Aspose.Page con un modello **pay‑per‑use**, sblocchi un modo potente, flessibile ed economico per gestire l'elaborazione dei documenti in Java. Segui i passaggi sopra, tieni sotto controllo l'utilizzo e sarai pronto a scalare le tue applicazioni senza preoccuparti dei vincoli di licenza.
+Padroneggiando **come impostare una licenza per Aspose.Page Java** e poi **convertire XPS in PDF**, sblocchi un modo potente, flessibile e conveniente per gestire l'elaborazione dei documenti in Java. Segui i passaggi sopra, tieni sotto controllo il tuo utilizzo e sarai pronto a scalare le tue applicazioni senza preoccuparti dei vincoli di licenza.
 
-Pronto per iniziare? [Set Metered License in Java](./set-metered-license/) e osserva la trasformazione nel tuo percorso di sviluppo Java. Buon coding!
+Pronto per iniziare? {{< relref "set-metered-license/_index.md" >}} e osserva la trasformazione nel tuo percorso di sviluppo Java. Buon coding!
 
-## Tutorial di gestione della licenza
-### [Imposta licenza a consumo in Java](./set-metered-license/)
-Esplora l'integrazione fluida di Aspose.Page con Java. Configura licenze a consumo senza sforzo e migliora le capacità di elaborazione dei documenti.
+## Tutorial di gestione licenza
+### {{< relref "set-metered-license/_index.md" >}}
+Esplora l'integrazione senza soluzione di continuità di Aspose.Page con Java. Configura licenze a consumo senza sforzo e migliora le capacità di elaborazione dei documenti.
 
 ## Domande frequenti
 
-**Q: Posso utilizzare una licenza a consumo in un ambiente di produzione?**  
-A: Sì. La licenza a consumo di Aspose.Page è pienamente supportata per carichi di lavoro di produzione e fornisce reportistica di utilizzo in tempo reale.
+**Q: Posso usare una licenza a consumo in un ambiente di produzione?**  
+A: Sì. La licenza a consumo di Aspose.Page è pienamente supportata per carichi di lavoro di produzione e fornisce reportistica in tempo reale.
 
 **Q: Cosa succede se supero l'utilizzo assegnato?**  
-A: Non esiste un limite rigido; verrà semplicemente fatturato per le pagine aggiuntive elaborate. È possibile monitorare l'utilizzo nel portale Aspose.
+A: Non c'è un limite rigido; ti verranno semplicemente fatturate le pagine aggiuntive elaborate. Puoi monitorare l'utilizzo nel portale Aspose.
 
-**Q: È necessario reinstallare la libreria dopo aver cambiato il tipo di licenza?**  
-A: No. Passare da una licenza a consumo a una perpetua (o viceversa) richiede solo l'aggiornamento del codice di inizializzazione della licenza.
+**Q: Devo reinstallare la libreria dopo aver cambiato il tipo di licenza?**  
+A: No. Passare da a consumo a perpetua (o viceversa) richiede solo l'aggiornamento del codice di inizializzazione della licenza.
 
 **Q: La convalida della licenza è thread‑safe?**  
-A: Assolutamente. La classe `License` è progettata per essere utilizzata contemporaneamente su più thread.
+A: Assolutamente. La classe `License` è progettata per essere usata in modo concorrente su più thread.
 
-**Q: Come posso visualizzare le statistiche di utilizzo?**  
-A: Accedi al tuo account Aspose, vai alla sezione **Licensing** e consulta il cruscotto **Metered Usage**.
+**Q: Come posso visualizzare le mie statistiche di utilizzo?**  
+A: Accedi al tuo account Aspose, vai alla sezione **Licensing** e consulta la dashboard **Metered Usage**.
 
 ---
 
-**Ultimo aggiornamento:** 2026-02-05  
+**Ultimo aggiornamento:** 2026-09-29  
 **Testato con:** Aspose.Page for Java 24.12  
 **Autore:** Aspose  
+
+
+
+
+
+
+
+
+```java
+import com.aspose.page.License;
+
+public class LicenseUtil {
+    public static void setMeteredLicense() {
+        License license = new License();
+        // Replace with your metered license key
+        license.setMeteredKey("YOUR_METERED_LICENSE_KEY");
+        System.out.println("Aspose.Page license set successfully.");
+    }
+}
+```
+
+## Tutorial correlati
+
+- [Conversione Aspose Page – Come convertire XPS in PDF in Java](/page/java/xps-conversion/to-pdf/)
+- [Imposta licenza a consumo](/page/java/license-management/set-metered-license/)
+- [Come comprimere PDF durante la conversione da XPS a PDF in Java](/page/java/file-merging/xps-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
