@@ -10,9 +10,8 @@ url: /de/net/getting-started/secure-license/
 weight: 13
 ---
 
- any stray spaces.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

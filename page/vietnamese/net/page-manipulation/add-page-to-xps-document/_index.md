@@ -9,11 +9,9 @@ url: /vi/net/page-manipulation/add-page-to-xps-document/
 weight: 11
 ---
 
- to XPS" is a description, not a term. Might translate to "thêm trang vào XPS". In bold they used **add page to XPS**. We could translate to **thêm trang vào XPS**. That seems fine.
 
-Make sure to preserve bold formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

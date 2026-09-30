@@ -10,17 +10,12 @@ url: /sv/net/image-manipulation/crop-eps-images/
 weight: 10
 ---
 
-top-button >}}
 
-We need to keep these unchanged.
 
-Now produce final content with all translations.
 
-Check for any other text: "step‑by‑step guide" we translated.
 
-Make sure to keep markdown formatting.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

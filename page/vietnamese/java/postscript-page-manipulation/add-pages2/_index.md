@@ -11,9 +11,7 @@ url: /vi/java/postscript-page-manipulation/add-pages2/
 weight: 11
 ---
 
- exactly.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

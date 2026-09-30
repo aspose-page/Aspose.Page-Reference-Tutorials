@@ -8,9 +8,8 @@ url: /zh/java/postscript-gradient-addition/
 weight: 25
 ---
 
- spacing.
 
-Proceed to write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

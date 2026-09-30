@@ -9,9 +9,8 @@ url: /cs/net/gradient-fills/add-diagonal-gradient-to-xps/
 weight: 11
 ---
 
- Ensure we kept all shortcodes, code block placeholders, links unchanged.
 
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

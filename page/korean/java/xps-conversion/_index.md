@@ -9,9 +9,7 @@ url: /ko/java/xps-conversion/
 weight: 22
 ---
 
- sure we preserve code formatting: there is `Page` and `parallelStream` inside backticks. Keep them.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

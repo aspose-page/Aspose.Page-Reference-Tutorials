@@ -10,7 +10,6 @@ url: /pl/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

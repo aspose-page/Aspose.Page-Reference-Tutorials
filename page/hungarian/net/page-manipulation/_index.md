@@ -10,13 +10,10 @@ url: /hu/net/page-manipulation/
 weight: 29
 ---
 
-val", "Szerző". Keep dates unchanged.
 
-Now produce final markdown with translated content.
 
-Be careful to keep all shortcodes and markdown exactly.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

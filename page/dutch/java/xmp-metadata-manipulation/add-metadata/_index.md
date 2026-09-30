@@ -9,23 +9,15 @@ url: /nl/java/xmp-metadata-manipulation/add-metadata/
 weight: 11
 ---
 
-Conclusion" => "Conclusie"
 
-"In this **aspose page java tutorial**, we explored..." etc.
 
-"Frequently Asked Questions" => "Veelgestelde vragen"
 
-Then each Q and A.
 
-"Last Updated:" etc.
 
-"Tested With:" etc.
 
-"Author:" etc.
 
-All other shortcodes remain.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

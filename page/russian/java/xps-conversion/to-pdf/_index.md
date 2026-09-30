@@ -10,15 +10,11 @@ url: /ru/java/xps-conversion/to-pdf/
 weight: 12
 ---
 
- them.
 
-Now ensure we didn't translate any URLs, file paths, variable names. We kept code placeholders unchanged.
 
-Check for any stray formatting: ensure bold and italic remain.
 
-We used **specify PDF page numbers** unchanged inside bold/italic as original. In some places we kept **specify PDF page numbers** bold, and *specify PDF page numbers* italic. Keep same.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

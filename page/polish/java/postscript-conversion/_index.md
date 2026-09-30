@@ -9,9 +9,8 @@ url: /pl/java/postscript-conversion/
 weight: 21
 ---
 
- hyphens line.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

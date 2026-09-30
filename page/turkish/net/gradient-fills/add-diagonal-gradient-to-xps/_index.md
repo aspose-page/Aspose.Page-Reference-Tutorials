@@ -9,15 +9,11 @@ url: /tr/net/gradient-fills/add-diagonal-gradient-to-xps/
 weight: 11
 ---
 
-Probably translate "Last Updated:" => "Son Güncelleme:" etc.
 
-But they are plain text lines; we can translate.
 
-Now produce final output.
 
-Check for any stray spaces.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

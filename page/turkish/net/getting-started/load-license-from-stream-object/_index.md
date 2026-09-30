@@ -10,19 +10,12 @@ url: /tr/net/getting-started/load-license-from-stream-object/
 weight: 12
 ---
 
- keep the same string. I'll keep original "Aspise.Page" unchanged because it's part of text. However translation rule: keep technical terms in English, product name is technical term, so keep as is. So heading: "# Aspise.Page için .NET'te Stream Nesnesinden Lisans Yükleme". That seems fine.
 
-Proceed section by section.
 
-We need to keep code block placeholders unchanged.
 
-Let's craft translation.
 
-Also need to translate bullet points.
 
-Make sure to preserve markdown.
 
-Let's write final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

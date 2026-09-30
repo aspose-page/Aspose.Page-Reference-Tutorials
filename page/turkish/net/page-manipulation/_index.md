@@ -10,9 +10,8 @@ url: /tr/net/page-manipulation/
 weight: 29
 ---
 
- lists keep same dash and spacing.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

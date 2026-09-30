@@ -10,11 +10,9 @@ url: /ru/java/postscript-shapes/
 weight: 34
 ---
 
-Check for any missed formatting: Ensure code blocks not present. No images.
 
-Make sure we keep markdown headings levels same.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

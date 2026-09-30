@@ -10,13 +10,10 @@ url: /nl/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 weight: 12
 ---
 
- other text: "Add a Linear Gradient Rectangle to PostScript (PS) with Aspose.Page" translation.
 
-Make sure to keep bold formatting (**text**) same.
 
-Also bullet list items have bold parts. Keep bold.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

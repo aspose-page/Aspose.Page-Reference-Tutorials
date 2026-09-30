@@ -8,9 +8,7 @@ url: /zh/java/postscript-page-manipulation/add-pages2/
 weight: 11
 ---
 
-Proceed.
 
-I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

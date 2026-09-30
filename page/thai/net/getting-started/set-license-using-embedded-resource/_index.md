@@ -9,25 +9,16 @@ url: /th/net/getting-started/set-license-using-embedded-resource/
 weight: 14
 ---
 
-นาดเพียงไม่กี่กิโลไบต์ ดังนั้นผลกระทบต่อขนาด Assembly จึงไม่มีนัยสำคัญ"
 
-Then horizontal line "---" keep.
 
-Then "**Last Updated:** 2026-02-23" keep same.
 
-"**Tested With:** Aspose.Page 24.12 for .NET" keep.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Then backtop button shortcode.
 
-All good.
 
-Now produce final content with same markdown and placeholders.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -9,15 +9,11 @@ url: /ar/java/postscript-page-manipulation/add-pages2/
 weight: 11
 ---
 
-"**Author:** Aspose" => "**المؤلف:** Aspose"
 
-Then closing shortcodes.
 
-Finally backtop button shortcode unchanged.
 
-Make sure to keep blank lines as original.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

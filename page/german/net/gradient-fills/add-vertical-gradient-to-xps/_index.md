@@ -10,9 +10,7 @@ url: /de/net/gradient-fills/add-vertical-gradient-to-xps/
 weight: 15
 ---
 
- to keep spacing and line breaks.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

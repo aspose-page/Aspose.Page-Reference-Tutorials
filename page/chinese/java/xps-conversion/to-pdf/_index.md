@@ -9,23 +9,15 @@ url: /zh/java/xps-conversion/to-pdf/
 weight: 12
 ---
 
-### Can I convert XPS files with multiple pages using Aspose.Page for Java?" etc.
 
-Translate each answer.
 
-Make sure to keep markdown links unchanged.
 
-Also keep the final metadata lines.
 
-Then closing shortcodes.
 
-Also the backtop button shortcode.
 
-Let's produce translation.
 
-Be careful with punctuation.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

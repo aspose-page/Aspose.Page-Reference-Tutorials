@@ -9,13 +9,10 @@ url: /zh-hant/java/postscript-page-manipulation/add-pages1/
 weight: 10
 ---
 
-" keep.
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes and code block placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

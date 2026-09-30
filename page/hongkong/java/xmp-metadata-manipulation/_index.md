@@ -8,11 +8,9 @@ url: /zh-hant/java/xmp-metadata-manipulation/
 weight: 42
 ---
 
- "XMP" keep.
 
-Make sure headings: "# XMP Metadata Manipulation - Java" changed to "# XMP 中繼資料操作 - Java". Good.
 
-Now produce final answer with only content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

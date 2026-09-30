@@ -9,21 +9,14 @@ url: /ar/net/page-manipulation/add-page-to-xps-document/
 weight: 11
 ---
 
-.
 
-- Then the footer lines: "**Last Updated:** 2026-03-16" keep as is but translate "Last Updated" maybe "آخر تحديث". Keep bold.
 
-- "**Tested With:** Aspose.Page for .NET latest release" => translate "تم الاختبار باستخدام:".
 
-- "**Author:** Aspose" => translate "المؤلف:".
 
-- Closing shortcodes.
 
-- Then backtop button shortcode.
 
-Make sure to keep markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

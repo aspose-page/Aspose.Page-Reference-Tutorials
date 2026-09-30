@@ -9,17 +9,12 @@ url: /it/java/xmp-metadata-manipulation/
 weight: 42
 ---
 
-ca il potere di Aspose.Page for Java per estrarre facilmente i metadati XMP. Eleva l'analisi dei documenti con la nostra guida passo‑passo!"
 
-Now ensure we preserve all shortcodes and markdown formatting.
 
-Also note the instruction "For Italian, ensure proper RTL formatting if needed" but Italian is LTR, ignore.
 
-Now produce final content with same shortcodes.
 
-Check for any code blocks: none.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

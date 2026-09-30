@@ -10,21 +10,14 @@ url: /hu/net/getting-started/secure-license/
 weight: 13
 ---
 
-óbb frissítve:**  
 
-**Tested With:** -> **Tesztelve:**  
 
-**Author:** -> **Szerző:**  
 
-Keep dates unchanged.
 
-Now ensure we didn't miss any text.
 
-Also note "step-by-step in order - do not skip sections" we kept all.
 
-Now produce final content with all markdown.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

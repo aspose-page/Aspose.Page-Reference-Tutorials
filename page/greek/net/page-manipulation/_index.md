@@ -10,12 +10,9 @@ url: /el/net/page-manipulation/
 weight: 29
 ---
 
-12 for .NET  
-**Συγγραφέας:** Aspose
 
-Now ensure we keep markdown formatting, shortcodes, etc. Also ensure we didn't translate code blocks (none). Ensure we keep bold formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

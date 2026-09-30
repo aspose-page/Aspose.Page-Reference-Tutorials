@@ -11,21 +11,13 @@ url: /el/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
 
-Be careful: Greek is left-to-right, not RTL. So no need for RTL.
 
-Let's translate.
 
-Start with shortcodes unchanged.
 
-Proceed.
 
-We'll translate each paragraph.
 
-Let's craft Greek translation.
 
-Note: Keep **bold** markers.
 
-Let's do.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

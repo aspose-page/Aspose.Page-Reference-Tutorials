@@ -10,13 +10,9 @@ url: /fr/java/xmp-metadata-manipulation/add-metadata/
 weight: 11
 ---
 
- sure not to translate URLs.
 
-Also keep bold formatting.
 
-Also keep **aspose page java tutorial** maybe keep as is but can translate? Keep as is maybe.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

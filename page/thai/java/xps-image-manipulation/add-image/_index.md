@@ -11,13 +11,10 @@ weight: 10
 
 
 
-### Frequently Asked Questions -> ### คำถามที่พบบ่อย
 
-Then sub-questions with ### headings.
 
-All good.
 
-Now produce final output with everything.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

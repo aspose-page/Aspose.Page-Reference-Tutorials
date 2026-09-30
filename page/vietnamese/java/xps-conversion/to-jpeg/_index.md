@@ -10,11 +10,8 @@ url: /vi/java/xps-conversion/to-jpeg/
 weight: 11
 ---
 
- sure to keep date unchanged.
 
-Now produce final content with shortcodes at top and bottom.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

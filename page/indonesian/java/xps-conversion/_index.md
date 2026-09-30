@@ -9,11 +9,8 @@ url: /id/java/xps-conversion/
 weight: 22
 ---
 
- code formatting (e.g., `Page`, `parallelStream`).
 
-Also keep shortcodes at end.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

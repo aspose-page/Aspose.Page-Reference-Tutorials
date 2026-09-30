@@ -10,15 +10,11 @@ url: /it/net/page-manipulation/add-page-to-xps-document/
 weight: 11
 ---
 
-**Author:** Aspose" translate "Autore". Keep Aspose.
 
-Then closing shortcodes.
 
-Finally backtop button shortcode.
 
-We must ensure no extra spaces causing mismatches? Should be fine.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

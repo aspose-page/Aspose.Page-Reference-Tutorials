@@ -11,7 +11,7 @@ url: /hu/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 weight: 12
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

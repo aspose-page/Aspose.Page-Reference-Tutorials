@@ -8,15 +8,10 @@ url: /zh-hant/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
- 2026-02-25  
-**測試環境：** Aspose.Page 24.11 for .NET  
-**作者：** Aspose  
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

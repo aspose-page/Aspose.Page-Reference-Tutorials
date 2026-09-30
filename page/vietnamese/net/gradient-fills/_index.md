@@ -9,23 +9,14 @@ url: /vi/net/gradient-fills/
 weight: 27
 ---
 
- for .NET API docs are available on the Aspose website." Translate.
 
-Then horizontal rule.
 
-**Last Updated:** 2026-02-23 => keep date.
 
-**Tested With:** Aspose.Page for .NET latest release => translate label but keep value.
 
-**Author:** Aspose => translate label.
 
-Now ensure all markdown formatting preserved.
 
-Also note rule 5: "For Vietnamese, ensure proper RTL formatting if needed" but Vietnamese is LTR, ignore.
 
-Now produce final content with all translations.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -10,17 +10,11 @@ url: /hu/java/xps-conversion/to-jpeg/
 weight: 11
 ---
 
-.Page Java** library." -> "Ebben az útmutatóban **meg fogod tanulni, hogyan konvertálj XPS-t JPEG-re** az **Aspose.Page Java** könyvtár segítségével."
 
-Continue translation.
 
-Need to translate all.
 
-Proceed.
 
-Also table: keep pipe formatting, translate content.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

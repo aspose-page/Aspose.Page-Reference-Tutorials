@@ -10,7 +10,7 @@ url: /de/java/postscript-page-manipulation/add-pages1/
 weight: 10
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

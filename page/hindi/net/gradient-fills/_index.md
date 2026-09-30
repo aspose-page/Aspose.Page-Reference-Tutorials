@@ -10,17 +10,11 @@ url: /hi/net/gradient-fills/
 weight: 27
 ---
 
-.Page for .NET
 
-Translate each.
 
-Now the "Gradient Fills Tutorials" heading: translate.
 
-Now the FAQ heading is "Frequently Asked Questions" -> "अक्सर पूछे जाने वाले प्रश्न"
 
-Now ensure we keep shortcodes at start and end.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

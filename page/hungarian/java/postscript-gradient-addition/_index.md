@@ -11,11 +11,8 @@ url: /hu/java/postscript-gradient-addition/
 weight: 25
 ---
 
- Pro tip. Already done.
 
-Now produce final content with all translations.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

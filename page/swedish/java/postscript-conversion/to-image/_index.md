@@ -10,21 +10,13 @@ url: /sv/java/postscript-conversion/to-image/
 weight: 10
 ---
 
-Proceed.
 
-We'll translate each paragraph.
 
-Make sure to keep bold formatting **...**.
 
-Translate bullet points.
 
-Translate table.
 
-Translate FAQ.
 
-All links keep same.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

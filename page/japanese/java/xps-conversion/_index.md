@@ -8,11 +8,9 @@ url: /ja/java/xps-conversion/
 weight: 22
 ---
 
- same term. Probably keep original term as is, but translate surrounding.
 
-We'll translate but keep term unchanged.
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

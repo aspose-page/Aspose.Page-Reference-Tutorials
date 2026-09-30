@@ -11,23 +11,14 @@ url: /cs/java/postscript-page-manipulation/add-pages2/
 weight: 11
 ---
 
- ale můžete výstup zabalit do PDF a aplikovat bezpečnostní nastavení, pokud je to potřeba."
 
-Horizontal rule "---" keep.
 
-Last Updated etc.
 
-Translate labels:
 
-**Poslední aktualizace:** 2026-02-18  
-**Testováno s:** Aspose.Page for Java 24.10  
-**Autor:** Aspose  
 
-Now ensure formatting: bold markers remain.
 
-Now produce final content with all shortcodes and placeholders.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

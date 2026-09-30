@@ -8,11 +8,8 @@ url: /zh/java/xps-conversion/to-bmp/
 weight: 10
 ---
 
- answers.
 
-Make sure to keep links unchanged.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -9,9 +9,7 @@ url: /hu/java/xps-conversion/
 weight: 22
 ---
 
-Now ensure we preserve all formatting.
 
-Let's construct final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

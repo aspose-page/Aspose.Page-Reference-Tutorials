@@ -10,13 +10,10 @@ url: /nl/net/getting-started/secure-license/
 weight: 13
 ---
 
-:** Aspose
 
-Now ensure we keep the markdown formatting.
 
-Now produce final content with all sections.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

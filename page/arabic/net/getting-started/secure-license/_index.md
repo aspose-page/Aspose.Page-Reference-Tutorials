@@ -9,13 +9,10 @@ url: /ar/net/getting-started/secure-license/
 weight: 13
 ---
 
-ed With:" keep; "Author:" keep.
 
-Make sure not to translate URLs.
 
-Now produce final content with same markdown structure.
 
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

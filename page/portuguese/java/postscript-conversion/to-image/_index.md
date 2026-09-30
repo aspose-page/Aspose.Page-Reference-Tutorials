@@ -10,11 +10,9 @@ url: /pt/java/postscript-conversion/to-image/
 weight: 10
 ---
 
- blocks/products/products-backtop-button >}}
 
-We must keep same order.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

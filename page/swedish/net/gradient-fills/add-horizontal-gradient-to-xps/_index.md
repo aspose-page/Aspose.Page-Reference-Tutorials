@@ -9,7 +9,7 @@ url: /sv/net/gradient-fills/add-horizontal-gradient-to-xps/
 weight: 13
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

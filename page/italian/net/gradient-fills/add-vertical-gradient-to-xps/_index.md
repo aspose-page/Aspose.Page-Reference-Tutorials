@@ -10,11 +10,9 @@ url: /it/net/gradient-fills/add-vertical-gradient-to-xps/
 weight: 15
 ---
 
- container.
 
-Make sure to keep all shortcodes exactly as they appear.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

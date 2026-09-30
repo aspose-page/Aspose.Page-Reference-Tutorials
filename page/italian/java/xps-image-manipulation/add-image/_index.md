@@ -10,9 +10,8 @@ url: /it/java/xps-image-manipulation/add-image/
 weight: 10
 ---
 
- and bottom.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

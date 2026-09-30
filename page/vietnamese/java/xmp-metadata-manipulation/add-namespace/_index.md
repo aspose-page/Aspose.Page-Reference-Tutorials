@@ -9,19 +9,12 @@ url: /vi/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
 
- them.
 
-We must not translate code block placeholders; they are not actual code but placeholders. Keep them as is.
 
-We must translate table content but keep pipe formatting.
 
-We must translate "Last Updated", "Tested With", "Author". Probably translate those labels? The instruction: translate ALL text content naturally to Vietnamese, keep technical terms. So "Last Updated" can be "Cập nhật lần cuối". "Tested With" -> "Được kiểm tra với". "Author" -> "Tác giả". Keep dates unchanged.
 
-Also translate "Quick Answers" maybe "Câu trả lời nhanh". "What is the primary goal?" etc.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -11,21 +11,14 @@ url: /ru/java/postscript-page-manipulation/add-pages2/
 weight: 11
 ---
 
-18" -> "**Последнее обновление:** 2026-02-18"
 
-"**Tested With:** Aspose.Page for Java 24.10" -> "**Тестировано с:** Aspose.Page for Java 24.10"
 
-"**Author:** Aspose" -> "**Автор:** Aspose"
 
-Then closing shortcodes.
 
-Then backtop button shortcode unchanged.
 
-Now produce final content with all translations and placeholders.
 
-Make sure to keep markdown formatting.
 
-Let's construct.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

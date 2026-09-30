@@ -10,9 +10,7 @@ url: /fr/net/page-manipulation/
 weight: 29
 ---
 
- shortcodes.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -10,13 +10,9 @@ url: /id/net/page-manipulation/
 weight: 29
 ---
 
- links, etc.
 
-Check for code blocks: none.
 
-Now produce final output with translated content.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

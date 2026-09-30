@@ -11,7 +11,7 @@ url: /it/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
- craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

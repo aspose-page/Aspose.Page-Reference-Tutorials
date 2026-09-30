@@ -10,14 +10,10 @@ url: /it/java/postscript-shapes/
 weight: 34
 ---
 
-**Testato con:** Aspose.Page 24.11 for Java  
-**Autore:** Aspose  
 
-Then closing shortcodes.
 
-Now ensure we keep all shortcodes exactly.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

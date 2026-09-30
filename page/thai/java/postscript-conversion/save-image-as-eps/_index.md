@@ -9,9 +9,8 @@ url: /th/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 
- table formatting.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

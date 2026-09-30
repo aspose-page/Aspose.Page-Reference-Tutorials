@@ -10,17 +10,12 @@ url: /cs/net/getting-started/secure-license/
 weight: 13
 ---
 
-; "Tested With:" "Testováno s:"; "Author:" "Autor:".
 
-Keep dates unchanged.
 
-Now produce final content with all markdown and shortcodes.
 
-Check that we didn't translate any URLs.
 
-Make sure we keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

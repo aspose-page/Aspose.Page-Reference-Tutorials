@@ -9,7 +9,6 @@ url: /zh-hant/java/postscript-texture-patterns/
 weight: 38
 ---
 
- content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

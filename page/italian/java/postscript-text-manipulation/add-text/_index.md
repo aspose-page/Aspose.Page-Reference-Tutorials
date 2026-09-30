@@ -12,17 +12,11 @@ url: /it/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
 
- Java con Aspose.Page – Guida alla manipolazione del testo"
 
-- Introduction etc.
 
-Make sure to keep markdown formatting.
 
-Let's translate step by step.
 
-Will keep shortcodes at top and bottom.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

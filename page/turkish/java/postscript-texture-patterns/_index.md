@@ -9,9 +9,7 @@ url: /tr/java/postscript-texture-patterns/
 weight: 38
 ---
 
- bold.
 
-Let's construct final answer.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

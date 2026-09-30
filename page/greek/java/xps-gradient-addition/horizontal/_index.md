@@ -10,11 +10,9 @@ url: /el/java/xps-gradient-addition/horizontal/
 weight: 11
 ---
 
- Greek translations.
 
-Make sure to keep markdown formatting exactly.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,21 +10,14 @@ url: /fr/net/getting-started/load-license-from-stream-object/
 weight: 12
 ---
 
-.
 
-- etc.
 
-- At bottom: "Last Updated:" etc. Keep same.
 
-- "Tested With:" etc.
 
-- "Author:" etc.
 
-Make sure to preserve markdown formatting.
 
-Now produce final content with shortcodes unchanged.
 
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

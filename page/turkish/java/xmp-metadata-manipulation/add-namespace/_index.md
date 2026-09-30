@@ -9,15 +9,10 @@ url: /tr/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
 
-NamespaceURI` çağrısındaki önek ve URI'yi değiştirmeniz yeterlidir.
 
-## XMP Namespace Nedir?
 
-... etc.
 
-Let's translate each paragraph.
 
-I'll write full content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

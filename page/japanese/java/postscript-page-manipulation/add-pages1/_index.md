@@ -8,13 +8,9 @@ url: /ja/java/postscript-page-manipulation/add-pages1/
 weight: 10
 ---
 
-Translate "Quick Answers" etc.
 
-Let's do.
 
-We'll keep code block placeholders unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -11,7 +11,7 @@ url: /id/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

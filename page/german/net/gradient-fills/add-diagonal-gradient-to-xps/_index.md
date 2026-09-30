@@ -9,17 +9,12 @@ url: /de/net/gradient-fills/add-diagonal-gradient-to-xps/
 weight: 11
 ---
 
-"
 
-**Tested With:** Aspose.Page 24.11 for .NET => "**Getestet mit:** Aspose.Page 24.11 für .NET"
 
-**Author:** Aspose => "**Autor:** Aspose"
 
-Now produce final content with all unchanged shortcodes.
 
-Make sure to keep markdown formatting.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

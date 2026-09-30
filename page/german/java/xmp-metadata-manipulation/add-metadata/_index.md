@@ -10,13 +10,10 @@ url: /de/java/xmp-metadata-manipulation/add-metadata/
 weight: 11
 ---
 
-}}
 
-Now produce final output with all translations.
 
-Check for any missing formatting: Ensure code block placeholders remain on separate lines.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

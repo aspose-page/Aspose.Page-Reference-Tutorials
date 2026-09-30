@@ -10,21 +10,14 @@ url: /pl/net/page-manipulation/
 weight: 29
 ---
 
- three tutorial links.
 
-- Then closing shortcodes.
 
-- Then backtop button shortcode.
 
-- Then FAQ heading: "## Frequently Asked Questions" -> "## Najczęściej zadawane pytania"
 
-- Then each Q/A.
 
-- Then "Last Updated" etc.
 
-Make sure to keep markdown formatting.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

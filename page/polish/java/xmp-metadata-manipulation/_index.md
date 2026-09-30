@@ -9,9 +9,7 @@ url: /pl/java/xmp-metadata-manipulation/
 weight: 42
 ---
 
- none.
 
-Now produce final output with translated content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

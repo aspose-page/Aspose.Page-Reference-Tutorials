@@ -10,11 +10,9 @@ url: /pt/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 weight: 12
 ---
 
- ensure we keep code block placeholders unchanged.
 
-Also keep markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

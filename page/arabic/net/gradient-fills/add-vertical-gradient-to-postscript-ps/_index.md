@@ -9,13 +9,9 @@ url: /ar/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
- عدة ألوان عبر الشكل."
 
-We need to keep the bold markers.
 
-Similarly for other bullet items.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

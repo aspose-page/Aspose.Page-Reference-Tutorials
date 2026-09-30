@@ -10,23 +10,15 @@ url: /es/java/postscript-shapes/
 weight: 34
 ---
 
-.11 for Java -> keep.
 
-**Author:** Aspose -> keep.
 
-Now close shortcodes.
 
-Now ensure we preserve all markdown formatting.
 
-Now produce final content.
 
-Check for any code blocks: none.
 
-Check for inline code: we keep backticks.
 
-Check for bold: we translate inside bold but keep **.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

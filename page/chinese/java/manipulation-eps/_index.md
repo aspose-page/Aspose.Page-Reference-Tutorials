@@ -8,9 +8,8 @@ url: /zh/java/manipulation-eps/
 weight: 24
 ---
 
-.
 
-Now produce final output with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,9 +10,7 @@ url: /id/java/xmp-metadata-manipulation/add-metadata/
 weight: 11
 ---
 
-Last Updated:" etc.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

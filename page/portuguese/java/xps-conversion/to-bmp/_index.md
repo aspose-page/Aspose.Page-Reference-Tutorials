@@ -10,9 +10,7 @@ url: /pt/java/xps-conversion/to-bmp/
 weight: 10
 ---
 
-Ensure proper RTL formatting if needed" - Portuguese is LTR, ignore.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

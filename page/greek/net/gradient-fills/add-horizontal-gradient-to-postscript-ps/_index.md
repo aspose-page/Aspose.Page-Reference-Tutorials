@@ -10,29 +10,18 @@ url: /el/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 weight: 12
 ---
 
-;"
 
-Answer translate, keep link.
 
-Q5: "Where can I find community support?" -> "Πού μπορώ να βρω υποστήριξη από την κοινότητα;"
 
-Answer translate, keep link.
 
-Then footer:
 
-**Last Updated:** 2026-02-25 (keep date)
 
-**Tested With:** Aspose.Page 24.10 for .NET (keep)
 
-**Author:** Aspose (keep)
 
-Then closing shortcodes.
 
-Finally backtop button shortcode.
 
-Make sure to keep all markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

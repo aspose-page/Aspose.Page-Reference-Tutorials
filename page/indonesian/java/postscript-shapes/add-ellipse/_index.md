@@ -10,9 +10,8 @@ url: /id/java/postscript-shapes/add-ellipse/
 weight: 10
 ---
 
- none. Ensure code block placeholders remain unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

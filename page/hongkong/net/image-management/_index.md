@@ -9,33 +9,19 @@ url: /zh-hant/net/image-management/
 weight: 28
 ---
 
-完整指南。"
 
-Then horizontal rule? There's a blank line then:
 
----
 
-**Last Updated:** 2026-02-25  
-**Tested With:** Aspose.Page 24.12 for .NET  
-**Author:** Aspose  
 
-Translate labels but keep dates and version unchanged.
 
-**Last Updated:** => "**最後更新：**". Keep date.
 
-**Tested With:** => "**測試環境：**". Keep version.
 
-**Author:** => "**作者：**". Keep Aspose.
 
-Now ensure formatting: Keep bold markers.
 
-Now compile final content with all translations.
 
-Check for any missed items: The earlier sections have code blocks? No code blocks besides inline code. No fenced code blocks.
 
-Make sure to preserve shortcodes exactly.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

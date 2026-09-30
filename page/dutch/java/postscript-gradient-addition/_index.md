@@ -10,17 +10,11 @@ url: /nl/java/postscript-gradient-addition/
 weight: 25
 ---
 
- images: none.
 
-Check for links: we have many markdown links; keep unchanged.
 
-Check for bold: we kept bold formatting.
 
-Check for list items: we kept bullet lists.
 
-Now produce final translated content with same structure.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

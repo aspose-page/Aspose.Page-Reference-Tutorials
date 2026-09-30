@@ -10,13 +10,10 @@ url: /fr/net/gradient-fills/
 weight: 27
 ---
 
-ose.Page .NET](...)" => translate link text as earlier.
 
-- etc.
 
-Now ensure we keep shortcodes at start and end.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -8,23 +8,14 @@ url: /zh/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
- class name, keep it. So heading: "# c# Linear Gradient Brush – 添加垂直渐变到 PostScript (PS) 使用 Aspose.Page". Good.
 
-Similarly subheadings.
 
-Proceed.
 
-Translate introduction paragraph.
 
-Make sure to keep **bold** markers.
 
-Translate quick answers bullet points.
 
-Translate table.
 
-Proceed.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -9,15 +9,10 @@ url: /zh/java/xps-conversion/
 weight: 22
 ---
 
- but keep dates.
 
-Then closing shortcodes.
 
-Now produce final content.
 
-Be careful to preserve markdown formatting exactly.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

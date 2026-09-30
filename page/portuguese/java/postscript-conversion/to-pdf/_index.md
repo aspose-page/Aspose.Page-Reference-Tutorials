@@ -10,7 +10,6 @@ url: /pt/java/postscript-conversion/to-pdf/
 weight: 11
 ---
 
-Let's craft final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

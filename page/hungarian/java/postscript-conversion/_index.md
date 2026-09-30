@@ -10,21 +10,14 @@ url: /hu/java/postscript-conversion/
 weight: 21
 ---
 
- stratégia:**"
 
-1. Primary keyword: Use 3-5 times (title, meta, first paragraph, H2 heading, body) -> "1. Elsődleges kulcsszó: Használja 3‑5 alkalommal (cím, meta, első bekezdés, H2 fejléc, szöveg)."
 
-2. Secondary keywords: Use 1-2 times each (headings, body text) -> "2. Másodlagos kulcsszavak: Használja 1‑2 alkalommal minden egyes kulcsszóra (címek, szöveg)."
 
-3. All keywords must be integrated naturally - prioritize readability over keyword count -> "3. Minden kulcsszót természetesen integráljon – a olvashatóság legyen a fő szempont a kulcsszám helyett."
 
-4. If a keyword doesn't fit naturally, use a semantic variation or skip it -> "4. Ha egy kulcsszó nem illeszkedik természetesen, használjon szemantikus változatot vagy hagyja ki."
 
-Provide ONLY the translated content, no explanations.
 
-Make sure to keep all markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

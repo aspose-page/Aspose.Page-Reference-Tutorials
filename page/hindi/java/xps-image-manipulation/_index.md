@@ -10,13 +10,10 @@ url: /hi/java/xps-image-manipulation/
 weight: 29
 ---
 
- translations.
 
-Check for any missed text: The "Explore the tutorial now" etc have been translated.
 
-Make sure to keep markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

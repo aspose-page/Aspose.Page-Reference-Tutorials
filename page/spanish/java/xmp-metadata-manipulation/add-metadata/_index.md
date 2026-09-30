@@ -10,9 +10,8 @@ url: /es/java/xmp-metadata-manipulation/add-metadata/
 weight: 11
 ---
 
- Ensure shortcodes at end unchanged.
 
-Let's craft final markdown.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

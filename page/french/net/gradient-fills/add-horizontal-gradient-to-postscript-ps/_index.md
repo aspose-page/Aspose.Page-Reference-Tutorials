@@ -10,17 +10,12 @@ url: /fr/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 weight: 12
 ---
 
-Congratulations! ..." -> "Félicitations ! Vous avez ajouté avec succès un **rectangle à dégradé linéaire** à un document PostScript et utilisé le même pinceau pour le **remplissage de texte avec dégradé** et le **contour de texte avec dégradé**."
 
-Translate "Common Use Cases & Tips" -> "Cas d'utilisation courants et conseils". Translate bullet points.
 
-Translate "Frequently Asked Questions" -> "FAQ". Keep subheadings.
 
-Translate Q1 etc.
 
-Make sure to keep markdown formatting.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

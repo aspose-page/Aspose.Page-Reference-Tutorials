@@ -11,13 +11,10 @@ url: /hu/java/postscript-shapes/add-ellipse/
 weight: 10
 ---
 
-/tutorial-page-section >}} etc.
 
-Make sure to keep all shortcodes and code block placeholders unchanged.
 
-Also note "## Quick Answers" list items have bold Q. Keep same formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

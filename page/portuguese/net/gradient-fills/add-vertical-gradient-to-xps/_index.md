@@ -9,29 +9,17 @@ url: /pt/net/gradient-fills/add-vertical-gradient-to-xps/
 weight: 15
 ---
 
-step-by-step in order - do not skip sections". So keep order.
 
-Also note "For Portuguese, ensure proper RTL formatting if needed" - not needed.
 
-Let's translate.
 
-Start with shortcodes.
 
-Then heading "# Add Vertical Gradient to XPS with Aspose.Page for .NET" translate to Portuguese: "Adicionar Gradiente Vertical ao XPS com Aspose.Page para .NET". Keep same heading level.
 
-Similarly other headings.
 
-Translate bullet list items.
 
-Translate paragraphs.
 
-Translate table.
 
-Translate FAQ.
 
-Make sure to keep markdown syntax.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

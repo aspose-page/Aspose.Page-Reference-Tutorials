@@ -11,9 +11,8 @@ url: /el/net/getting-started/set-license-using-embedded-resource/
 weight: 14
 ---
 
- list syntax. Ensure code block placeholders remain unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

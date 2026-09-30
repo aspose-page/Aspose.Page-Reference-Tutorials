@@ -9,7 +9,6 @@ url: /es/java/xps-gradient-addition/horizontal/
 weight: 11
 ---
 
- final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

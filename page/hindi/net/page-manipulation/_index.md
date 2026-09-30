@@ -10,19 +10,13 @@ url: /hi/net/page-manipulation/
 weight: 29
 ---
 
- all text content naturally to Hindi, but keep technical terms. So we can translate those labels.
 
-**Last Updated:** => "**अंतिम अपडेट:**". Keep date.
 
-**Tested With:** => "**परीक्षण किया गया:**". Keep version.
 
-**Author:** => "**लेखक:**". Keep Aspose.
 
-Now produce final markdown with all translations.
 
-Be careful to preserve bold formatting **. Keep them.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,13 +10,10 @@ url: /fr/java/xmp-metadata-manipulation/
 weight: 42
 ---
 
- !"
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

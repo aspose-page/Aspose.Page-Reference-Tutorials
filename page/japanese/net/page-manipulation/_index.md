@@ -9,13 +9,9 @@ url: /ja/net/page-manipulation/
 weight: 29
 ---
 
- keep same style: **Q:** Japanese question, then line break, A: answer (no bold). Keep same.
 
-Also need to keep the blank line after each Q/A? Keep as original.
 
-Now produce final content with all shortcodes and markdown.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

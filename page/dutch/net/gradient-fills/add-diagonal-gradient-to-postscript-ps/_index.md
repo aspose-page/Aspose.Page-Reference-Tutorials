@@ -11,11 +11,9 @@ url: /nl/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 weight: 10
 ---
 
- **how to add gradient** left unchanged.
 
-Check bullet lists: we translated.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

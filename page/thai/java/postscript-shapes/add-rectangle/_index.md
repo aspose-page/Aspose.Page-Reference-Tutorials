@@ -9,15 +9,10 @@ url: /th/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
-6-02-18  
-**Tested With:** Aspose.Page for Java 24.12 (latest)  
-**Author:** Aspose  
 
-Then closing shortcodes.
 
-Make sure to keep markdown formatting.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

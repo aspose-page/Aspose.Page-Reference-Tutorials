@@ -9,7 +9,6 @@ url: /vi/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
- craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

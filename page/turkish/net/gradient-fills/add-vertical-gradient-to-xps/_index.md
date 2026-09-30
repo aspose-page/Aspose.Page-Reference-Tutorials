@@ -9,9 +9,7 @@ url: /tr/net/gradient-fills/add-vertical-gradient-to-xps/
 weight: 15
 ---
 
- placeholders: they are not fenced code blocks, but just placeholders. Keep them as is.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

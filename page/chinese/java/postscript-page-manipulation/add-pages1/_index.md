@@ -9,11 +9,8 @@ url: /zh/java/postscript-page-manipulation/add-pages1/
 weight: 10
 ---
 
-.
 
-Make sure to keep markdown formatting.
 
-Proceed to construct final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

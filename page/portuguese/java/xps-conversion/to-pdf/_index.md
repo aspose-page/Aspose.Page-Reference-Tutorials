@@ -10,13 +10,10 @@ url: /pt/java/xps-conversion/to-pdf/
 weight: 12
 ---
 
-.
 
-Also note "step‑by‑step" includes non-breaking hyphen; keep same.
 
-Make sure to keep markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

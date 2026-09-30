@@ -9,9 +9,7 @@ url: /th/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 weight: 12
 ---
 
-.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

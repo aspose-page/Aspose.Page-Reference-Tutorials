@@ -9,7 +9,7 @@ url: /tr/net/page-manipulation/add-page-to-xps-document/
 weight: 11
 ---
 
- final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,7 +10,7 @@ url: /cs/net/getting-started/load-license-from-stream-object/
 weight: 12
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

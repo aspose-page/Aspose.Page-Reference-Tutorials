@@ -11,7 +11,7 @@ url: /it/net/getting-started/set-license-using-embedded-resource/
 weight: 14
 ---
 
- final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,9 +10,7 @@ url: /th/net/page-manipulation/
 weight: 29
 ---
 
-Now produce final content with all translations and unchanged shortcodes.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -9,9 +9,7 @@ url: /sv/java/postscript-texture-patterns/
 weight: 38
 ---
 
-Make sure to preserve markdown formatting, list indentation, line breaks.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

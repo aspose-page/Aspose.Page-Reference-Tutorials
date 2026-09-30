@@ -10,11 +10,8 @@ url: /nl/java/xps-conversion/to-jpeg/
 weight: 11
 ---
 
- and cells.
 
-Also the "Last Updated" etc.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

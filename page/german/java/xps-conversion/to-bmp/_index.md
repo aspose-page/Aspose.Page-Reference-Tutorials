@@ -10,13 +10,10 @@ url: /de/java/xps-conversion/to-bmp/
 weight: 10
 ---
 
--backtop-button >}}
 
-Make sure to keep formatting exactly.
 
-Check any stray spaces.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

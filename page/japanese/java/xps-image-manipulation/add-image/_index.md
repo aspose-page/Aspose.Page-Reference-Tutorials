@@ -8,17 +8,11 @@ url: /ja/java/xps-image-manipulation/add-image/
 weight: 10
 ---
 
-_BLOCK_0}} etc. Keep as is.
 
-Proceed.
 
-Also need to translate bullet list items.
 
-Make sure to keep URLs unchanged.
 
-Also "Quick Answers" heading.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

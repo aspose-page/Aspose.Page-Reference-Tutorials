@@ -9,13 +9,9 @@ url: /ko/net/page-manipulation/
 weight: 29
 ---
 
-script .net" unchanged? It is a phrase; maybe keep as is. We'll translate rest.
 
-Similarly subheadings.
 
-Proceed.
 
-Will produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

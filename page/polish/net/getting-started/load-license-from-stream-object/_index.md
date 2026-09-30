@@ -10,19 +10,12 @@ url: /pl/net/getting-started/load-license-from-stream-object/
 weight: 12
 ---
 
-.
 
-Similarly other headings.
 
-Now translate paragraphs.
 
-Need to keep code block placeholders unchanged.
 
-Also lists.
 
-Make sure to keep markdown links unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

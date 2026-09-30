@@ -9,11 +9,8 @@ url: /it/java/xps-conversion/
 weight: 22
 ---
 
- lines: "Last Updated", "Tested With", "Author". Translate labels but keep dates.
 
-Now produce final content.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

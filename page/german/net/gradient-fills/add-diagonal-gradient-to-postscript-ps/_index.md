@@ -11,21 +11,14 @@ url: /de/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 weight: 10
 ---
 
-Then the footer lines:
 
-"---" keep.
 
-"**Last Updated:** 2026-02-23" -> "**Zuletzt aktualisiert:** 2026-02-23"
 
-"**Tested With:** Aspose.Page for .NET (latest stable release)" -> "**Getestet mit:** Aspose.Page for .NET (neueste stabile Version)"
 
-"**Author:** Aspose" -> "**Autor:** Aspose"
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

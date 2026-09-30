@@ -10,9 +10,8 @@ url: /tr/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 weight: 12
 ---
 
- formatting exactly.
 
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

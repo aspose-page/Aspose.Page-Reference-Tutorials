@@ -10,21 +10,13 @@ url: /tr/net/getting-started/secure-license/
 weight: 13
 ---
 
-2: Lisans Bilgilerini Çıkarın
 
-- Handling Aspose License Expiration => Aspose Lisans Süresinin Dolmasıyla Baş Etme
 
-- Common Issues and Solutions => Yaygın Sorunlar ve Çözümler
 
-- Frequently Asked Questions => Sık Sorulan Sorular
 
-- Q/A translate.
 
-Make sure to keep markdown formatting.
 
-Also note the table: keep pipe formatting, translate Issue, Cause, Solution headings. Keep content inside quotes unchanged.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -10,15 +10,10 @@ url: /tr/java/xps-conversion/to-pdf/
 weight: 12
 ---
 
-"Author:" => "Yazar:".
 
-Now ensure we keep bold formatting.
 
-Also keep code block placeholders unchanged.
 
-Now produce final content with shortcodes at top and bottom unchanged.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

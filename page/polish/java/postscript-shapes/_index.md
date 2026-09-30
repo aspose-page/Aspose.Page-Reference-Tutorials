@@ -10,11 +10,9 @@ url: /pl/java/postscript-shapes/
 weight: 34
 ---
 
--button >}}
 
-Make sure to keep spacing and line breaks.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

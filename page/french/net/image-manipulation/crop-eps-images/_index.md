@@ -10,13 +10,10 @@ url: /fr/net/image-manipulation/crop-eps-images/
 weight: 10
 ---
 
-**Author:** Aspose => "**Auteur :** Aspose"
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

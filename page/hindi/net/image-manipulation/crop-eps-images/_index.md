@@ -10,15 +10,10 @@ url: /hi/net/image-manipulation/crop-eps-images/
 weight: 10
 ---
 
-:" etc.
 
-Let's produce final content.
 
-Be careful with markdown tables: translate content but keep pipes.
 
-Also ensure we keep "Aspose.Page" unchanged.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -9,11 +9,8 @@ url: /ko/java/xmp-metadata-manipulation/
 weight: 42
 ---
 
-**, **add xmp metadata java** etc. In translation we kept them.
 
-Now produce final content with same markdown.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

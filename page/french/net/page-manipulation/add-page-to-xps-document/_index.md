@@ -10,23 +10,15 @@ url: /fr/net/page-manipulation/add-page-to-xps-document/
 weight: 11
 ---
 
-. N’hésitez pas à explorer d’autres API pour ajouter du contenu, des images ou des graphiques personnalisés aux pages nouvellement créées."
 
-Then the footer:
 
-**Last Updated:** 2026-03-16 => keep same.
 
-**Tested With:** Aspose.Page for .NET latest release => keep.
 
-**Author:** Aspose => keep.
 
-Then closing shortcodes.
 
-Also need to translate "Add Page to XPS Document with Aspose.Page for .NET" heading.
 
-Now ensure we keep all shortcodes exactly.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

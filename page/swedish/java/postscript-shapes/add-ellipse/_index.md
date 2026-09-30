@@ -10,13 +10,10 @@ url: /sv/java/postscript-shapes/add-ellipse/
 weight: 10
 ---
 
- -> "**Författare:** Aspose"
 
-Then closing shortcodes.
 
-Make sure to keep blank lines and formatting.
 
-Let's assemble final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

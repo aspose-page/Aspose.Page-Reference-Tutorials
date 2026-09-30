@@ -8,11 +8,9 @@ url: /zh/java/xps-gradient-addition/horizontal/
 weight: 11
 ---
 
- etc. Keep them.
 
-Also ensure we didn't translate any URLs.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

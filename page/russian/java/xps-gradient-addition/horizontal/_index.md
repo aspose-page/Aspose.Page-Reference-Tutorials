@@ -9,9 +9,8 @@ url: /ru/java/xps-gradient-addition/horizontal/
 weight: 11
 ---
 
-. Also ensure markdown formatting.
 
-Let's write final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

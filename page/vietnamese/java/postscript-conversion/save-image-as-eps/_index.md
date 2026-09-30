@@ -9,9 +9,7 @@ url: /vi/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 
-Need to keep code block placeholders unchanged.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

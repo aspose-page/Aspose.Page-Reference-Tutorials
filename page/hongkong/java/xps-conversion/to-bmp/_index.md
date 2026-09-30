@@ -8,17 +8,11 @@ url: /zh-hant/java/xps-conversion/to-bmp/
 weight: 10
 ---
 
-ed With:** Aspose.Page for Java 24.12" keep.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Also there is a backtop button shortcode.
 
-Make sure to keep all markdown formatting.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -11,23 +11,15 @@ url: /el/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
-μένες φόρμες. Μη διστάσετε να πειραματιστείτε με διαφορετικά χρώματα, στυλ γραμμών και επιπλέον σχήματα AWT για να εμπλουτίσετε το αποτέλεσμα."
 
-Then horizontal rule "---" keep.
 
-Then "**Last Updated:** 2026-02-18" keep.
 
-"**Tested With:** Aspose.Page for Java 24.12 (latest)" keep.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Then backtop button shortcode unchanged.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

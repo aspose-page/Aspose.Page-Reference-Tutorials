@@ -11,14 +11,10 @@ url: /nl/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
- .NET  
-**Auteur:** Aspose  
 
-Then closing shortcodes unchanged.
 
-Finally backtop button shortcode unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

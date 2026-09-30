@@ -10,11 +10,9 @@ url: /vi/java/xps-image-manipulation/add-image/
 weight: 10
 ---
 
- heading includes "asp asp –". Keep "asp asp –". Translate after dash.
 
-Also ensure we keep markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

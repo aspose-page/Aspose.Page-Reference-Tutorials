@@ -9,25 +9,14 @@ url: /zh-hant/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
 
--03-08  
-**Tested With:** Aspose.Page for Java 24.10 (latest)  
-**Author:** Aspose  
 
-Translate labels but keep dates unchanged.
 
-**最後更新：** 2026-03-08  
-**測試環境：** Aspose.Page for Java 24.10（最新）  
-**作者：** Aspose  
 
-Now close shortcodes.
 
-We must keep the shortcodes exactly.
 
-Thus final output includes all content with translations.
 
-Make sure to keep markdown formatting, tables, etc.
 
-Let's construct final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

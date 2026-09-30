@@ -9,13 +9,9 @@ url: /ar/java/xmp-metadata-manipulation/add-metadata/
 weight: 11
 ---
 
- keep markdown formatting.
 
-Let's produce the translated content.
 
-We'll keep the shortcodes exactly.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

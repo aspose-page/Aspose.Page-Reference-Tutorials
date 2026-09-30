@@ -11,9 +11,8 @@ url: /fr/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
- keep all shortcodes exactly as original.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

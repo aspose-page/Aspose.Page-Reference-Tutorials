@@ -9,9 +9,7 @@ url: /ko/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
- by step.
 
-Will produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -8,11 +8,9 @@ url: /ja/java/xps-conversion/to-bmp/
 weight: 10
 ---
 
- items: The code block placeholders are fine.
 
-Make sure to preserve markdown formatting.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

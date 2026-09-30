@@ -9,33 +9,20 @@ url: /it/java/postscript-conversion/save-image-as-eps/
 weight: 12
 ---
 
- è compatibile con tutti i formati immagine?**" but keep Q: maybe keep "Q:".
 
-We'll translate the question text.
 
-Answer translate.
 
-Proceed similarly for other Q.
 
-Make sure to keep links unchanged.
 
-## Conclusion => "## Conclusione"
 
-Paragraph translate.
 
-At end: "---" keep.
 
-**Last Updated:** etc translate "Ultimo aggiornamento:".
 
-**Tested With:** "Testato con:".
 
-**Author:** "Autore:".
 
-Then closing shortcodes.
 
-Also include final backtop button shortcode unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

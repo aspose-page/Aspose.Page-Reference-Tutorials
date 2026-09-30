@@ -10,11 +10,9 @@ url: /sv/net/getting-started/secure-license/
 weight: 13
 ---
 
- text is allowed. Changing header text is okay. So fine.
 
-Make sure we keep code block placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

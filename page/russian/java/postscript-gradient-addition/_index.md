@@ -10,9 +10,7 @@ url: /ru/java/postscript-gradient-addition/
 weight: 25
 ---
 
- unchanged.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

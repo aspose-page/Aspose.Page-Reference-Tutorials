@@ -9,13 +9,9 @@ url: /zh/net/image-management/
 weight: 28
 ---
 
----
 
-Now translate each piece.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

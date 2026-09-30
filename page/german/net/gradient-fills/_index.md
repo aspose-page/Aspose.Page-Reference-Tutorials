@@ -10,21 +10,14 @@ url: /de/net/gradient-fills/
 weight: 27
 ---
 
-este Version"
 
-**Author:** Aspose -> "**Autor:** Aspose"
 
---- (keep)
 
-Now ensure all markdown formatting preserved.
 
-Check for any code blocks: none.
 
-Check for images: none.
 
-All shortcodes preserved.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

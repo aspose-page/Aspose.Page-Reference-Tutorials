@@ -8,7 +8,6 @@ url: /ja/net/getting-started/set-license-using-embedded-resource/
 weight: 14
 ---
 
- content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

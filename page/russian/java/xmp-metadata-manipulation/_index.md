@@ -9,11 +9,8 @@ url: /ru/java/xmp-metadata-manipulation/
 weight: 42
 ---
 
- shortcodes and backtop button.
 
-Make sure to keep blank lines as appropriate.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

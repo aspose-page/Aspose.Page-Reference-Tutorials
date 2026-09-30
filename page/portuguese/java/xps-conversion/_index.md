@@ -9,27 +9,16 @@ url: /pt/java/xps-conversion/
 weight: 22
 ---
 
- is a typo "Convert XSP to TIFF" should be "XPS". Keep as is? It's part of original text; we translate but keep same typo? Probably keep same text but translate. Should we translate "XSP"? It's a typo; we keep as is.
 
-We need to ensure we don't translate URLs like ./to-bmp/. Keep them.
 
-Now produce final content.
 
-Let's start.
 
-First three shortcodes lines unchanged.
 
-Then heading "# Aspose Page XPS Conversion" translate to "# Conversão XPS do Aspose Page". Keep same order.
 
-Similarly subheadings.
 
-Proceed.
 
-Make sure to keep bullet list formatting.
 
-Translate bullet points.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

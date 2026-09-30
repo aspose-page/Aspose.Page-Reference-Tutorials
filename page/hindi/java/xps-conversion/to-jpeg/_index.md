@@ -10,11 +10,9 @@ url: /hi/java/xps-conversion/to-jpeg/
 weight: 11
 ---
 
-top-button >}}
 
-Make sure to keep them unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

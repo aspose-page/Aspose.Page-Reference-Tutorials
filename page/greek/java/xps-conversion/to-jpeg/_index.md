@@ -10,13 +10,9 @@ url: /el/java/xps-conversion/to-jpeg/
 weight: 11
 ---
 
-: keep same but translate cells content.
 
-Make sure URLs remain unchanged.
 
-Also keep code block placeholders unchanged.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

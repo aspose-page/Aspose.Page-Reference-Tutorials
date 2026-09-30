@@ -10,11 +10,9 @@ url: /tr/java/xps-conversion/to-bmp/
 weight: 10
 ---
 
- missed items: The list under Quick Answers, bullet points. Ensure bold formatting preserved.
 
-Also ensure we didn't translate URLs.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

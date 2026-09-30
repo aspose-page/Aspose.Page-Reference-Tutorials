@@ -10,11 +10,9 @@ url: /pt/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
 
- placeholders.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

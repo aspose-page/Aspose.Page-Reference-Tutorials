@@ -10,18 +10,12 @@ url: /id/net/gradient-fills/add-horizontal-gradient-to-postscript-ps/
 weight: 12
 ---
 
- .NET  
-**Author:** Aspose  
 
-Translate labels: "Terakhir Diperbarui", "Diuji Dengan", "Penulis". Keep dates unchanged.
 
-Then closing shortcodes.
 
-Finally backtop button shortcode unchanged.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

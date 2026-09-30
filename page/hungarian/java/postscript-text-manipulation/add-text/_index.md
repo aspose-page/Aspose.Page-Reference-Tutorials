@@ -13,7 +13,7 @@ url: /hu/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
 
- produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

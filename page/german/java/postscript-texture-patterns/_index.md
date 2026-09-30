@@ -10,7 +10,6 @@ url: /de/java/postscript-texture-patterns/
 weight: 38
 ---
 
- produce final content with translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

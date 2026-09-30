@@ -9,19 +9,13 @@ url: /es/java/xps-image-manipulation/add-image/
 weight: 10
 ---
 
-:** Aspose" translate "Autor". So "**Autor:** Aspose"
 
-Then closing shortcodes.
 
-Also need to keep the final back shortcodes.
 
-Now produce final content with translations.
 
-Check that we didn't translate URLs or code block placeholders.
 
-Also ensure we keep markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

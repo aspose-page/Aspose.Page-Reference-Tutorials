@@ -10,31 +10,18 @@ url: /cs/java/postscript-text-manipulation/add-text/
 weight: 10
 ---
 
- Font and Changing Text Size.
 
-- Outlining (Stroke) Text – Apply Stroke Text.
 
-- Outlining Text with Custom Font.
 
-- Step 6: Save the Document.
 
-- Why This Matters.
 
-- Common Issues & Solutions table.
 
-- Frequently Asked Questions with Q/A.
 
-- Conclusion.
 
-- Footer details.
 
-Make sure to keep code block placeholders unchanged.
 
-Also keep markdown formatting.
 
-Let's translate each piece.
 
-I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

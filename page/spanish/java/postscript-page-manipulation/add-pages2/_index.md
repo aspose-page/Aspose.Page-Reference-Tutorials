@@ -11,21 +11,14 @@ url: /es/java/postscript-page-manipulation/add-pages2/
 weight: 11
 ---
 
- tables.
 
-Let's translate.
 
-We'll translate headings: "Aspose.Page Java Tutorial – set custom page size while Adding Pages in PostScript" -> "Tutorial de Aspose.Page para Java – establecer tamaño de página personalizado al agregar páginas en PostScript"
 
-Similarly others.
 
-Bullet points: translate.
 
-Make sure to keep URLs unchanged.
 
-Also keep **bold** formatting.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

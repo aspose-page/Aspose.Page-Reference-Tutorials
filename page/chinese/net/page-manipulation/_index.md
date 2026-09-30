@@ -9,9 +9,8 @@ url: /zh/net/page-manipulation/
 weight: 29
 ---
 
- ensure all markdown formatting preserved.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

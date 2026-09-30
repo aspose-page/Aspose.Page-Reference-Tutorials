@@ -11,19 +11,13 @@ url: /id/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
- Simpan Dokumen".
 
-Conclusion paragraph.
 
-Common Issues and Solutions table: translate Issue, Why it Happens, How to Fix, and rows.
 
-FAQ: translate Q1 etc.
 
-Last Updated etc: keep same.
 
-Now produce final content with same shortcodes.
 
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

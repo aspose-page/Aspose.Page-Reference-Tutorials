@@ -8,11 +8,8 @@ url: /zh/java/xmp-metadata-manipulation/
 weight: 42
 ---
 
- Introduction" etc.
 
-Also the shortcodes: keep as is.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

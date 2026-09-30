@@ -9,13 +9,9 @@ url: /th/java/xps-conversion/to-bmp/
 weight: 10
 ---
 
- "Solution". Translate to Thai "ปัญหา", "วิธีแก้". But need to keep pipe separators.
 
-Also list items.
 
-Make sure code block placeholders remain unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

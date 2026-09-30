@@ -11,7 +11,7 @@ url: /id/net/gradient-fills/add-diagonal-gradient-to-postscript-ps/
 weight: 10
 ---
 
- with all translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

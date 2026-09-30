@@ -9,11 +9,8 @@ url: /pt/java/xps-image-manipulation/add-image/
 weight: 10
 ---
 
- needed?" etc.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -9,11 +9,9 @@ url: /tr/net/gradient-fills/add-horizontal-gradient-to-xps/
 weight: 13
 ---
 
-Issue | Reason | Fix" translate to "Sorun | Sebep | Çözüm". Ensure markdown table alignment.
 
-Also ensure we keep code placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

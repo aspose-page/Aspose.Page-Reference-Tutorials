@@ -11,29 +11,18 @@ url: /hu/java/postscript-page-manipulation/add-pages1/
 weight: 10
 ---
 
-om az oldalméretet az `openPage(null)` hívásban?**"
 
-Answer translate.
 
-Next "## Conclusion" => "## Következtetés"
 
-Paragraph translate.
 
-Then horizontal line "---" keep.
 
-Then "**Last Updated:** 2026-02-18" keep same.
 
-"**Tested With:** Aspose.Page 24.11 for Java" keep.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Finally backtop button shortcode unchanged.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

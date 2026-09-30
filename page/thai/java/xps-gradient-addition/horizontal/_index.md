@@ -8,15 +8,11 @@ url: /th/java/xps-gradient-addition/horizontal/
 weight: 11
 ---
 
- => "**ทดสอบกับ:** Aspose.Page for Java 24.11"
 
-**Author:** Aspose => "**ผู้เขียน:** Aspose"
 
-Then closing shortcodes.
 
-Make sure to keep blank lines as original.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

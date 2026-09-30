@@ -10,17 +10,11 @@ url: /vi/java/postscript-conversion/
 weight: 21
 ---
 
- metadata lines: "**Last Updated:** 2026-02-10" etc. Keep as is, maybe translate "Last Updated" to "Cập nhật lần cuối". But it's not required; we can translate. Keep format.
 
-"**Tested With:** Aspose.Page for Java 24.11" -> translate "Tested With" to "Kiểm tra với". Keep.
 
-"**Author:** Aspose" -> translate "Author" to "Tác giả".
 
-Now ensure we preserve shortcodes at end.
 
-Now produce final content.
 
-Let's write it.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

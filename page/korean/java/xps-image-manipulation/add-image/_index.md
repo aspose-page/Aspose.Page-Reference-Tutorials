@@ -9,13 +9,9 @@ url: /ko/java/xps-image-manipulation/add-image/
 weight: 10
 ---
 
- formatting.
 
-Now produce final Korean translation.
 
-Be careful with markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

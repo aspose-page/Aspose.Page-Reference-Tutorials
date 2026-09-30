@@ -11,15 +11,10 @@ url: /de/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
- bullet list under Quick Answers, table, FAQ.
 
-Make sure to keep markdown syntax.
 
-Let's produce the translated content.
 
-Check shortcodes at top and bottom: keep same.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

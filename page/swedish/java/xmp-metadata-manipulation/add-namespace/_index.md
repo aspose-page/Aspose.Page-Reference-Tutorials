@@ -10,17 +10,12 @@ url: /sv/java/xmp-metadata-manipulation/add-namespace/
 weight: 13
 ---
 
- >}}
 
-All good.
 
-Check we didn't translate any code block placeholders.
 
-Check we kept URLs unchanged.
 
-Check we kept markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

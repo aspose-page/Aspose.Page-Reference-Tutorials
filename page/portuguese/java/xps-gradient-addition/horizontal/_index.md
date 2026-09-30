@@ -9,15 +9,10 @@ url: /pt/java/xps-gradient-addition/horizontal/
 weight: 11
 ---
 
-Autor:"
 
-Make sure to keep code block placeholders unchanged.
 
-Also keep URLs unchanged.
 
-Now produce final content with same shortcodes and structure.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

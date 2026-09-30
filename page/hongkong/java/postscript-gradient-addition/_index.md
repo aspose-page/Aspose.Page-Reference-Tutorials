@@ -8,23 +8,13 @@ url: /zh-hant/java/postscript-gradient-addition/
 weight: 25
 ---
 
- "**Last Updated:**" maybe keep English? The instruction says translate all text content. So translate label. Keep colon.
 
-Thus:
 
-**最後更新：** 2026-02-10  
-**測試環境：** Aspose.Page for Java 24.11  
-**作者：** Aspose  
 
-But need to keep bold formatting. Use **...**.
 
-Now after that, closing shortcodes.
 
-We must ensure we keep all shortcodes exactly as original.
 
-Now produce final content.
 
-Let's construct.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

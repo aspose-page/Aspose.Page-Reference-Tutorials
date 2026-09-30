@@ -10,15 +10,11 @@ url: /ru/net/getting-started/set-license-using-embedded-resource/
 weight: 14
 ---
 
-Автор:** Aspose  
 
-Then closing shortcodes as original.
 
-Finally backtop button shortcode unchanged.
 
-Make sure to keep all markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

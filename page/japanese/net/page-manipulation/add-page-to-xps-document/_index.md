@@ -8,9 +8,7 @@ url: /ja/net/page-manipulation/add-page-to-xps-document/
 weight: 11
 ---
 
- translated.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

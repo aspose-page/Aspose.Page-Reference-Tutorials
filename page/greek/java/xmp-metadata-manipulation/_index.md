@@ -10,9 +10,7 @@ url: /el/java/xmp-metadata-manipulation/
 weight: 42
 ---
 
- we have headings with ### and link inside. Keep same.
 
-Now produce final content with translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

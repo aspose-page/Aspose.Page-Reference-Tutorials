@@ -8,23 +8,14 @@ url: /zh-hant/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
- Chinese. Eg "Aspose.Page for Java 文件說明". Keep link.
 
-Similarly other links.
 
-Also bullet list items.
 
-Let's produce final content.
 
-Be careful with "Quick Answers" section bullet items.
 
-Translate accordingly.
 
-Also "Common Use Cases for Rectangle Drawing" etc.
 
-Make sure to preserve markdown formatting.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

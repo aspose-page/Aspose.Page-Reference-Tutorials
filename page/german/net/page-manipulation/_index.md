@@ -10,25 +10,15 @@ url: /de/net/page-manipulation/
 weight: 29
 ---
 
- dates and version numbers.
 
-**Last Updated:** -> "**Zuletzt aktualisiert:**"
-**Tested With:** -> "**Getestet mit:**"
-**Author:** -> "**Autor:**"
 
-Now ensure we keep markdown formatting.
 
-Now produce final content with all translations.
 
-Check for any code blocks: none.
 
-Check for any images: none.
 
-Check for any URLs: only in links; we kept link URLs unchanged.
 
-Check for shortcodes: preserved.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

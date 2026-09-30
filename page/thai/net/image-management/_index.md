@@ -9,15 +9,10 @@ url: /th/net/image-management/
 weight: 28
 ---
 
-6-02-25  
-**Tested With:** Aspose.Page 24.12 for .NET  
-**Author:** Aspose  
 
-Now produce final markdown with translations.
 
-Be careful to keep code fences unchanged. There's no code block except inline code. No fenced code blocks. So fine.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,9 +10,8 @@ url: /ru/net/page-manipulation/
 weight: 29
 ---
 
- translations. Ensure no missing elements.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -10,13 +10,9 @@ url: /id/java/xps-image-manipulation/
 weight: 29
 ---
 
-Add Image in Java XPS](./add-image/)" we changed link text but keep heading level. Good.
 
-Also "### Exploring Tiled Images in Java XPS Documents" we changed to "### Menjelajahi Gambar Ubin dalam Dokumen XPS Java". Good.
 
-Now ensure we didn't translate any URLs or file paths. We kept them.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

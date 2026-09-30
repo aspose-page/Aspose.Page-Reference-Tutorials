@@ -8,9 +8,7 @@ url: /zh/java/xps-image-manipulation/
 weight: 29
 ---
 
- careful to preserve spacing and markdown.
 
-Let's construct.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

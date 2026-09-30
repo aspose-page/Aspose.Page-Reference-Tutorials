@@ -8,9 +8,8 @@ url: /zh-hant/net/page-manipulation/add-page-to-xps-document/
 weight: 11
 ---
 
- keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

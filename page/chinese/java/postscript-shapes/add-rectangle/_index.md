@@ -8,15 +8,10 @@ url: /zh/java/postscript-shapes/add-rectangle/
 weight: 11
 ---
 
- not actual code but placeholders. Should keep them unchanged.
 
-We need to translate headings, paragraphs, list items, etc.
 
-Also note "For Chinese, ensure proper RTL formatting if needed" - Chinese is LTR, ignore.
 
-Proceed to translate.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

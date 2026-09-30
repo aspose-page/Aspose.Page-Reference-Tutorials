@@ -10,9 +10,8 @@ url: /tr/net/gradient-fills/add-vertical-gradient-to-postscript-ps/
 weight: 14
 ---
 
- keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

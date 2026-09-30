@@ -9,11 +9,8 @@ url: /pl/net/gradient-fills/add-horizontal-gradient-to-xps/
 weight: 13
 ---
 
-But "Aspose.Page for .NET" keep as is.
 
-Let's translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

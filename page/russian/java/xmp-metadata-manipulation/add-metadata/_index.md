@@ -10,21 +10,14 @@ url: /ru/java/xmp-metadata-manipulation/add-metadata/
 weight: 11
 ---
 
-}} unchanged.
 
-Also keep the markdown links.
 
-Let's translate.
 
-Be careful with bullet points and bold.
 
-Also keep the **aspose page java tutorial** bold.
 
-Also keep "Aspose.Page for Java" unchanged.
 
-Translate sentences.
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

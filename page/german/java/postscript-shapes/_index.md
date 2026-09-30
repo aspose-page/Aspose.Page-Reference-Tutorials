@@ -10,11 +10,9 @@ url: /de/java/postscript-shapes/
 weight: 34
 ---
 
--backtop-button >}}
 
-We need to keep them unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

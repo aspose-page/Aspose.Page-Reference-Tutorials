@@ -9,9 +9,7 @@ url: /zh/java/xps-conversion/to-jpeg/
 weight: 11
 ---
 
-.
 
-Let's construct.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -10,7 +10,7 @@ url: /de/net/getting-started/load-license-from-stream-object/
 weight: 12
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

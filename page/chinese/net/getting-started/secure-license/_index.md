@@ -8,9 +8,8 @@ url: /zh/net/getting-started/secure-license/
 weight: 13
 ---
 
- ensure proper RTL formatting if needed" not needed.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

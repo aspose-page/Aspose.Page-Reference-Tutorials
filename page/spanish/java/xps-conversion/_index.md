@@ -9,11 +9,9 @@ url: /es/java/xps-conversion/
 weight: 22
 ---
 
-top-button >}}
 
-Make sure we preserve all formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

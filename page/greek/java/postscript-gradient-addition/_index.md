@@ -10,31 +10,17 @@ url: /el/java/postscript-gradient-addition/
 weight: 25
 ---
 
- Η Aspose προσφέρει διαρκείς και συνδρομητικές άδειες· μια δωρεάν άδεια αξιολόγησης είναι διαθέσιμη για ανάπτυξη και δοκιμές."
 
-Now after FAQ, we have a horizontal rule? Actually there is a line "---". Keep as is.
 
-Then:
 
-**Last Updated:** 2026-02-10  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
 
-Translate labels but keep dates and version unchanged.
 
-"**Last Updated:**" -> "**Τελευταία Ενημέρωση:**" etc.
 
-"**Tested With:**" -> "**Δοκιμάστηκε Με:**"
 
-"**Author:**" -> "**Συγγραφέας:**"
 
-Now close shortcodes.
 
-Now ensure we didn't miss any code blocks. None.
 
-Now produce final content with same shortcodes and markdown.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

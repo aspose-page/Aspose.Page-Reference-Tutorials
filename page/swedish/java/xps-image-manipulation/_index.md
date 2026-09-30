@@ -9,19 +9,13 @@ url: /sv/java/xps-image-manipulation/
 weight: 29
 ---
 
--16" keep same.
 
-"**Tested With:** Aspose.Page for Java 24.12 (latest)" keep.
 
-"**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Then backtop button shortcode unchanged.
 
-Make sure to keep all shortcodes exactly.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

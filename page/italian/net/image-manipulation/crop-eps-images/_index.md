@@ -10,13 +10,9 @@ url: /it/net/image-manipulation/crop-eps-images/
 weight: 10
 ---
 
-: translate column headers and content.
 
-FAQs: translate Q1 etc.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

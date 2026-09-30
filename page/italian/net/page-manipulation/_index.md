@@ -10,9 +10,8 @@ url: /it/net/page-manipulation/
 weight: 29
 ---
 
- keep shortcodes exactly.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

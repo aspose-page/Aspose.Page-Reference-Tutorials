@@ -9,9 +9,7 @@ url: /fr/net/gradient-fills/add-diagonal-gradient-to-xps/
 weight: 11
 ---
 
-.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

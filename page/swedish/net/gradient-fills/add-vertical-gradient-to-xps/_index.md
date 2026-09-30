@@ -9,13 +9,10 @@ url: /sv/net/gradient-fills/add-vertical-gradient-to-xps/
 weight: 15
 ---
 
- keep same.
 
-Make sure to keep markdown formatting.
 
-Also keep code block placeholders unchanged.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
