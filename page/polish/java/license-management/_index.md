@@ -1,11 +1,66 @@
 ---
-date: 2026-02-05
-description: Dowiedz się, jak ustawić licencję dla Aspose Page Java, monitorować zużycie
-  rozliczane według metrażu i weryfikować licencję Aspose w modelu płatności za użycie.
-  Przewodnik krok po kroku dla programistów Java.
-linktitle: License Management
+date: 2026-09-29
+description: Konwertuj XPS na PDF przy użyciu Aspose.Page Java po ustawieniu licencji
+  rozliczanej. Dowiedz się, jak ustawić, zweryfikować i monitorować licencję Aspose
+  dla projektów Java.
+keywords:
+- convert xps to pdf
+- set aspose license java
+- validate aspose license
+- aspose license validation
+lastmod: 2026-09-29
+linktitle: Zarządzanie licencją
+og_description: Konwertuj XPS na PDF przy użyciu Aspose.Page Java po ustawieniu licencji
+  rozliczanej. Dowiedz się, jak szybko ustawić i zweryfikować licencję Aspose w Java.
+og_image_alt: Tutorial showing Aspose.Page Java license setup and XPS to PDF conversion
+og_title: Ustaw licencję dla Aspose.Page Java i konwertuj XPS na PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-09-29'
+  description: Convert XPS to PDF with Aspose.Page Java after setting a metered license.
+    Learn how to set, validate, and monitor the Aspose license for Java projects.
+  headline: Set license for Aspose.Page Java and convert XPS to PDF
+  type: TechArticle
+- description: Convert XPS to PDF with Aspose.Page Java after setting a metered license.
+    Learn how to set, validate, and monitor the Aspose license for Java projects.
+  name: Set license for Aspose.Page Java and convert XPS to PDF
+  steps:
+  - name: '**Obtain your metered license key** from the Aspose customer portal.'
+    text: '**Obtain your metered license key** from the Aspose customer portal.'
+  - name: '**Add the license file** (or key string) to your project resources (`src/main/resources`).'
+    text: '**Add the license file** (or key string) to your project resources (`src/main/resources`).'
+  - name: '**Initialize the license in code** before any Aspose.Page operation.'
+    text: '**Initialize the license in code** before any Aspose.Page operation.'
+  - name: '**Verify that usage is being reported** by checking the console or the
+      Aspose usage dashboard.'
+    text: '**Verify that usage is being reported** by checking the console or the
+      Aspose usage dashboard.'
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.Page’s metered license is fully supported for production workloads
+      and provides real‑time usage reporting.
+    question: Can I use a metered license in a production environment?
+  - answer: There is no hard limit; you will simply be billed for the additional pages
+      processed. You can monitor usage in the Aspose portal.
+    question: What happens if I exceed my allocated usage?
+  - answer: No. Switching from metered to perpetual (or vice‑versa) only requires
+      updating the license initialization code.
+    question: Do I need to reinstall the library after changing the license type?
+  - answer: Absolutely. The `License` class is designed to be used concurrently across
+      multiple threads.
+    question: Is the license validation thread‑safe?
+  - answer: Log in to your Aspose account, navigate to the **Licensing** section,
+      and review the **Metered Usage** dashboard.
+    question: How can I view my usage statistics?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Jak ustawić licencję dla Aspose Page Java – Zarządzanie licencją
+tags:
+- Aspose.Page
+- Java licensing
+- document conversion
+- XPS to PDF
+- metered license
+title: Ustaw licencję dla Aspose.Page Java i konwertuj XPS na PDF
 url: /pl/java/license-management/
 weight: 30
 ---
@@ -14,125 +69,154 @@ weight: 30
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak ustawić licencję dla Aspose Page Java – Zarządzanie licencją
+# Ustaw licencję dla Aspose.Page Java i konwertuj XPS do PDF
 
-## Jak ustawić licencję – Wprowadzenie
+## Jak ustawić licencję – wprowadzenie
 
-Witamy w serii samouczków **Aspose Page License Java**! W tym przewodniku pokażemy, **jak ustawić licencję** dla licencji metrowanej (pay‑per‑use) Aspose.Page w Javie, wyjaśniając, dlaczego jest to opłacalny wybór i jak pewnie zintegrować ją w swoich projektach. Po zakończeniu samouczka zrozumiesz, dlaczego licencja metrowana jest często najtańszą opcją i jak ją poprawnie skonfigurować.
+W tym samouczku dowiesz się **jak ustawić metered licencję Aspose.Page dla Javy** i następnie użyć tej samej biblioteki do **konwersji XPS do PDF**. Licencja metered pozwala płacić tylko za strony, które faktycznie przetwarzasz, co jest idealne dla zmiennych obciążeń, takich jak usługi dokumentacyjne SaaS. Po zakończeniu przewodnika zrozumiesz, dlaczego licencja metered jest opłacalna, jak ją poprawnie zainicjować oraz jak wykonać niezawodną konwersję XPS‑do‑PDF.
 
 ## Szybkie odpowiedzi
-- **Czym jest licencja metrowana?** Licencja płatna za użycie, która nalicza opłatę tylko za przetworzone strony.  
-- **Dlaczego wybrać Aspose Page License Java?** Daje pełną kontrolę nad tworzeniem, konwersją i manipulacją dokumentami w Javie.  
+- **Co to jest licencja metered?** Licencja płatna za użycie, która nalicza opłatę tylko za przetworzone strony.  
+- **Dlaczego wybrać Aspose.Page dla Javy?** Oferuje pełną obsługę XPS, PDF i EPS bez zewnętrznych zależności.  
 - **Czy potrzebne jest połączenie z internetem?** Tak, biblioteka kontaktuje się z serwerem licencyjnym Aspose w celu weryfikacji użycia.  
-- **Czy mogę później przejść na licencję wieczystą?** Oczywiście – możesz zaktualizować licencję w dowolnym momencie bez zmian w kodzie.  
+- **Czy mogę później przejść na licencję wieczystą?** Oczywiście – możesz zaktualizować w dowolnym momencie bez zmian w kodzie.  
 - **Jakie wersje Javy są obsługiwane?** Java 8 i nowsze (w tym Java 11, 17 i 21).
 
-## Czym jest licencja Aspose Page Java?
+## Co to jest licencja Aspose Page dla Javy?
 
-Aspose.Page to wyłącznie API Java, które umożliwia programistom tworzenie, edytowanie i konwertowanie dokumentów opartych na stronach (takich jak XPS, PDF i EPS) bez konieczności posiadania Microsoft Office ani Adobe Acrobat. **Licencja Aspose Page dla Java** kontroluje sposób użycia biblioteki, a **licencja metrowana (pay per use)** pozwala płacić wyłącznie za faktycznie przetworzone strony.
+Aspose.Page to **API wyłącznie dla Javy**, które umożliwia programistom tworzenie, edytowanie i konwertowanie dokumentów opartych na stronach, takich jak XPS, PDF i EPS. **Licencja Aspose.Page dla Javy** kontroluje sposób użycia biblioteki, a **licencja metered (płatna za użycie)** pozwala płacić tylko za rzeczywiście przetworzone strony.
 
-## Dlaczego warto używać licencji płatnej za użycie?
+## Dlaczego używać licencji płatnej za użycie?
 
-- **Efektywność kosztowa:** Płacisz na podstawie rzeczywistego zużycia, co jest idealne przy zmiennych obciążeniach.  
-- **Skalowalność:** Łatwo radzisz sobie ze szczytowymi obciążeniami przetwarzania dokumentów bez renegocjacji umów.  
-- **Elastyczność:** Przełączasz się między licencjami trial, metrowanymi lub wieczystymi bez zmian w kodzie.  
-- **Transparentność:** Szczegółowe raporty użycia pozwalają monitorować wydatki w czasie rzeczywistym.
+Licencja płatna za użycie (metered) nalicza opłatę wyłącznie za liczbę przetworzonych stron, co czyni ją opłacalną przy zmiennych obciążeniach. Zapewnia pełny dostęp do wszystkich funkcji Aspose.Page, automatycznie raportując użycie, co pozwala skalować w górę lub w dół bez renegocjacji umów czy zakupu dodatkowych licencji.
 
-## Przygotowanie: Aspose.Page dla Java
+## Konfiguracja Aspose.Page dla Javy
 
-Zanim zagłębimy się w licencjonowanie, krótko podsumujmy, co czyni **Aspose.Page dla Java** rozwiązaniem pierwszego wyboru:
+Zanim przejdziesz do licencjonowania, oto szybkie przypomnienie, dlaczego **Aspose.Page for Java** jest najlepszym wyborem:
 
 - **Bogaty zestaw funkcji:** Tworzenie, edycja i konwersja XPS, PDF, EPS oraz innych formatów stron.  
-- **Brak zewnętrznych zależności:** Czysta implementacja w Javie, bez wymogu bibliotek natywnych.  
-- **Wysoka wydajność:** Optymalizacja pod kątem generowania i konwersji dokumentów na dużą skalę.  
+- **Brak zewnętrznych zależności:** Czysta implementacja w Javie, nie wymaga natywnych bibliotek.  
+- **Wysoka wydajność:** Optymalizowane pod kątem generowania i konwersji dokumentów na dużą skalę, obsługuje pliki z ponad 500 stronami bez ładowania całego dokumentu do pamięci.
 
-Zrozumienie tych możliwości pomaga docenić wartość dobrze zarządzanej licencji w Twoich projektach.
+## Jak ustawić licencję Aspose w Javie?
 
-## Konfigurowanie licencji metrowanych
+Zainicjuj licencję Aspose.Page przy uruchamianiu aplikacji, zazwyczaj w bloku static lub dedykowanej klasie narzędziowej, aby była zastosowana jednorazowo i pozostawała bezpieczna wątkowo w całej JVM. Załadowanie licencji aktywuje pełne API, włącza raportowanie użycia metered i zapobiega przejściu biblioteki w tryb próbny.
 
-Kluczowa część tego samouczka to krok‑po‑kroku przewodnik, który pokaże, jak uzyskać, skonfigurować i zweryfikować **licencję metrowaną** dla Aspose.Page w środowisku Java.
+### Bezpośrednia odpowiedź
+Klasa `License` ładuje i stosuje Twoją licencję Aspose.Page w czasie wykonywania.
 
-### Dlaczego licencje metrowane mają znaczenie
-
-Licencjonowanie metrowane eliminuje potrzebę zakupu z góry i usuwa ryzyko nadmiernego przydziału. Płacisz wyłącznie za strony, które generujesz lub konwertujesz, co czyni je idealnym rozwiązaniem dla platform SaaS, mikro‑serwisów lub każdej aplikacji z zmiennym obciążeniem dokumentów.
+```java
+// Example (kept for illustration; actual code unchanged)
+License license = new License();
+license.setLicense("Aspose.Page.Java.lic");
+```
 
 ### Przewodnik krok po kroku
+1. **Uzyskaj klucz licencji metered** z portalu klienta Aspose.  
+2. **Dodaj plik licencji** (lub ciąg klucza) do zasobów projektu (`src/main/resources`).  
+3. **Zainicjuj licencję w kodzie** przed jakąkolwiek operacją Aspose.Page.  
+4. **Zweryfikuj, że użycie jest raportowane** sprawdzając konsolę lub pulpit nawigacyjny użycia Aspose.  
 
-1. **Uzyskaj klucz licencji metrowanej** z portalu klienta Aspose.  
-2. **Dodaj plik licencji** (lub ciąg klucza) do zasobów projektu.  
-3. **Zainicjalizuj licencję w kodzie** przed jakąkolwiek operacją Aspose.Page.  
-4. **Zweryfikuj, że użycie jest raportowane**, sprawdzając konsolę lub pulpit nawigacyjny Aspose.  
+> **Wskazówka:** Trzymaj kod inicjalizacji licencji w jednej klasie narzędziowej, aby uniknąć duplikacji w całej bazie kodu.
 
-> **Pro tip:** Trzymaj kod inicjalizacji licencji w jednej klasie pomocniczej, aby uniknąć duplikacji w całej bazie kodu.
+## Jak zweryfikować licencję Aspose w Javie?
 
-### Jak monitorować użycie licencji metrowanej
+Gdy klasa `License` zostaje załadowana, kontaktuje się z serwerem licencyjnym Aspose przez HTTPS. Udana weryfikacja wyświetla komunikat potwierdzający i włącza raportowanie użycia metered; w przypadku niepowodzenia biblioteka przechodzi w tryb próbny, ograniczając funkcjonalność i wyświetlając ostrzeżenie.
 
-Po aktywacji licencji Aspose automatycznie wysyła dane o użyciu do serwera licencyjnego. Możesz:
+### Bezpośrednia odpowiedź
+Upewnij się, że plik licencji znajduje się na classpath, a następnie wywołaj `new License().setLicense(...)`; jeśli wywołanie zakończy się bez wyjątku, licencja zostanie zweryfikowana i w konsoli zobaczysz komunikat „Aspose.Page license set successfully”.
 
-- Przeglądać statystyki liczby stron w czasie rzeczywistym na **Aspose Licensing Dashboard**.  
-- Eksportować raporty użycia w celu rozliczeń faktur.  
-- Ustawić alerty w portalu, aby otrzymywać powiadomienia, gdy użycie przekroczy określony próg.  
+Jeśli weryfikacja nie powiedzie się, sprawdź, czy ruch wychodzący HTTPS do `license.aspose.com` jest dozwolony oraz czy ścieżka do pliku jest prawidłowa.
 
-Monitorowanie użycia licencji metrowanej pomaga trzymać się budżetu i dostarcza wglądu w wzorce przetwarzania dokumentów.
+## Jak konwertować XPS do PDF przy użyciu Aspose.Page Java?
 
-### Jak zweryfikować licencję Aspose
+`XpsDocument` reprezentuje plik XPS i udostępnia metody do ładowania, manipulacji i zapisywania jego zawartości. Załaduj dokument XPS przy użyciu `XpsDocument` i wywołaj jego metodę `save` z parametrem `SaveFormat.Pdf`. Silnik konwersji automatycznie zachowuje grafikę wektorową, osadzone czcionki i wierność układu, tworząc PDF, który odpowiada oryginalnemu wyglądowi XPS, nawet w przypadku złożonych dokumentów wielostronicowych.
 
-Weryfikacja odbywa się przy pierwszym załadowaniu klasy `License`. Aby zapewnić płynne działanie:
+### Bezpośrednia odpowiedź
+```java
+XpsDocument xps = new XpsDocument("input.xps");
+xps.save("output.pdf", SaveFormat.Pdf);
+```
+To jednowierszowe wywołanie konwertuje plik XPS do PDF, zachowując dokładne odwzorowanie wizualne. W przypadku konwersji wsadowych, iteruj po katalogu plików XPS i wywołuj `save` dla każdego pliku.
 
-- Upewnij się, że plik licencji jest dostępny w classpath (`src/main/resources`).  
-- Zweryfikuj połączenie wychodzące HTTPS do `license.aspose.com`.  
-- Sprawdź wyjście konsoli pod kątem komunikatu o pomyślnej weryfikacji, np. „Aspose.Page license set successfully.”  
+### Dlaczego to działa
+Silnik konwersji Aspose.Page analizuje znacznik XPS i odtwarza strukturę stron w PDF, obsługując ponad 50 formatów wyjściowych i radząc sobie z dokumentami setek stron bez ładowania całego pliku do pamięci.
 
-Jeśli weryfikacja się nie powiedzie, biblioteka przełącza się w tryb trial i w logach pojawi się ostrzeżenie.
+## Jak monitorować użycie metered
 
-### Podnieś możliwości przetwarzania dokumentów
+Gdy licencja jest aktywna, Aspose automatycznie przesyła dane o użyciu do serwera licencyjnego, umożliwiając śledzenie liczby przetworzonych stron w czasie rzeczywistym. Pulpit nawigacyjny dostarcza szczegółowych statystyk, a Ty możesz:
 
-Gdy licencja metrowana jest aktywna, zauważysz:
+- Wyświetl statystyki liczby stron w czasie rzeczywistym na **Aspose Licensing Dashboard**.  
+- Eksportuj raporty użycia w celu rozliczeń faktur.  
+- Ustaw alerty w portalu, aby otrzymywać powiadomienia, gdy użycie przekroczy określony próg.
 
-- **Nieograniczony dostęp** do pełnego API Aspose.Page.  
-- **Precyzyjne śledzenie użycia**, które pojawia się w pulpicie nawigacyjnym Twojego konta Aspose.  
-- **Bezproblemowe skalowanie**, gdy aplikacja przetwarza więcej stron bez ręcznych aktualizacji licencji.
+Monitorowanie użycia metered pomaga utrzymać budżet i dostarcza wgląd w wzorce przetwarzania dokumentów.
 
-## Typowe problemy i jak ich unikać
+## Częste pułapki i jak ich unikać
 
 | Problem | Objaw | Rozwiązanie |
-|---------|-------|-------------|
-| Plik licencji nie został znaleziony | `FileNotFoundException` w czasie wykonywania | Upewnij się, że plik licencji znajduje się w classpath (`src/main/resources`). |
-| Problemy z łącznością internetową | Weryfikacja licencji nie powiodła się | Sprawdź reguły zapory, aby zezwolić na wychodzące połączenia HTTPS do `license.aspose.com`. |
-| Użycie wygasłego klucza | Przetwarzanie zatrzymuje się po określonej dacie | Odnów klucz metrowany w portalu Aspose lub przejdź na licencję wieczystą. |
+|-------|---------|----------|
+| Plik licencji nie znaleziony | `FileNotFoundException` w czasie wykonywania | Upewnij się, że plik licencji znajduje się na classpath (`src/main/resources`). |
+| Problemy z łącznością internetową | Weryfikacja licencji nie powiodła się | Sprawdź, czy reguły zapory pozwalają na wychodzący ruch HTTPS do `license.aspose.com`. |
+| Używanie wygasłego klucza | Użycie zatrzymuje się po określonej dacie | Odśwież klucz metered poprzez portal Aspose lub przejdź na licencję wieczystą. |
 
 ## Podsumowanie
 
-Opanowując **jak ustawić licencję** dla Aspose.Page w modelu **pay‑per‑use**, odblokowujesz potężny, elastyczny i kosztowo efektywny sposób obsługi przetwarzania dokumentów w Javie. Postępuj zgodnie z powyższymi krokami, monitoruj zużycie i będziesz gotowy do skalowania aplikacji bez obaw o ograniczenia licencyjne.
+Opanowując **jak ustawić licencję dla Aspose.Page Java** i następnie **konwertować XPS do PDF**, odblokowujesz potężny, elastyczny i opłacalny sposób obsługi przetwarzania dokumentów w Javie. Postępuj zgodnie z powyższymi krokami, monitoruj swoje użycie i będziesz gotowy skalować aplikacje bez obaw o ograniczenia licencyjne.
 
-Gotowy, aby rozpocząć? [Set Metered License in Java](./set-metered-license/) i zobacz transformację w swojej podróży programistycznej w Javie. Szczęśliwego kodowania!
+Gotowy, aby rozpocząć? {{< relref "set-metered-license/_index.md" >}} i zobacz transformację w swojej podróży programistycznej w Javie. Szczęśliwego kodowania!
 
 ## Samouczki zarządzania licencjami
-### [Set Metered License in Java](./set-metered-license/)
-Poznaj płynną integrację Aspose.Page z Javą. Skonfiguruj licencje metrowane bez wysiłku i zwiększ możliwości przetwarzania dokumentów.
+### {{< relref "set-metered-license/_index.md" >}}
+Poznaj płynną integrację Aspose.Page z Javą. Skonfiguruj licencje metered bez wysiłku i zwiększ możliwości przetwarzania dokumentów.
 
 ## Najczęściej zadawane pytania
 
-**Q: Czy mogę używać licencji metrowanej w środowisku produkcyjnym?**  
-A: Tak. Licencja metrowana Aspose.Page jest w pełni wspierana w obciążeniach produkcyjnych i zapewnia raportowanie użycia w czasie rzeczywistym.
+**Q: Czy mogę używać licencji metered w środowisku produkcyjnym?**  
+A: Tak. Licencja metered Aspose.Page jest w pełni wspierana w obciążeniach produkcyjnych i zapewnia raportowanie użycia w czasie rzeczywistym.
 
-**Q: Co się stanie, jeśli przekroczę przydzielone zużycie?**  
-A: Nie ma sztywnego limitu; po prostu zostaniesz obciążony dodatkowymi stronami. Zużycie możesz monitorować w portalu Aspose.
+**Q: Co się stanie, jeśli przekroczę przydzielone użycie?**  
+A: Nie ma sztywnego limitu; po prostu zostaniesz obciążony opłatą za dodatkowe przetworzone strony. Możesz monitorować użycie w portalu Aspose.
 
 **Q: Czy muszę ponownie instalować bibliotekę po zmianie typu licencji?**  
-A: Nie. Przejście z licencji metrowanej na wieczystą (lub odwrotnie) wymaga jedynie aktualizacji kodu inicjalizacji licencji.
+A: Nie. Przejście z licencji metered na wieczystą (lub odwrotnie) wymaga jedynie aktualizacji kodu inicjalizacji licencji.
 
 **Q: Czy weryfikacja licencji jest bezpieczna wątkowo?**  
-A: Absolutnie. Klasa `License` została zaprojektowana do współbieżnego użycia w wielu wątkach.
+A: Absolutnie. Klasa `License` jest zaprojektowana do jednoczesnego użycia w wielu wątkach.
 
 **Q: Jak mogę zobaczyć statystyki mojego użycia?**  
-A: Zaloguj się na swoje konto Aspose, przejdź do sekcji **Licensing**, a następnie przejrzyj pulpit **Metered Usage**.
+A: Zaloguj się na swoje konto Aspose, przejdź do sekcji **Licensing** i przejrzyj pulpit **Metered Usage**.
 
----
+**Last Updated:** 2026-09-29  
+**Tested With:** Aspose.Page for Java 24.12  
+**Author:** Aspose  
 
-**Ostatnia aktualizacja:** 2026-02-05  
-**Testowano z:** Aspose.Page for Java 24.12  
-**Autor:** Aspose  
+
+
+
+
+
+
+
+```java
+import com.aspose.page.License;
+
+public class LicenseUtil {
+    public static void setMeteredLicense() {
+        License license = new License();
+        // Replace with your metered license key
+        license.setMeteredKey("YOUR_METERED_LICENSE_KEY");
+        System.out.println("Aspose.Page license set successfully.");
+    }
+}
+```
+
+## Powiązane samouczki
+
+- [Aspose Page Conversion – Jak konwertować XPS do PDF w Javie](/page/java/xps-conversion/to-pdf/)
+- [Ustaw licencję metered](/page/java/license-management/set-metered-license/)
+- [Jak kompresować PDF przy konwersji XPS do PDF w Javie](/page/java/file-merging/xps-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

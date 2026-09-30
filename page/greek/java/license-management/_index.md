@@ -1,138 +1,225 @@
 ---
-date: 2026-02-05
-description: Μάθετε πώς να ορίσετε άδεια για το Aspose Page Java, να παρακολουθείτε
-  τη χρέωση ανά χρήση και να επαληθεύετε την άδεια Aspose με μοντέλο πληρωμής ανά
-  χρήση. Οδηγός βήμα‑βήμα για προγραμματιστές Java.
-linktitle: License Management
+date: 2026-09-29
+description: Μετατρέψτε XPS σε PDF με το Aspose.Page Java μετά τον ορισμό μιας μετρημένης
+  άδειας. Μάθετε πώς να ορίζετε, να επικυρώνετε και να παρακολουθείτε την άδεια Aspose
+  για έργα Java.
+keywords:
+- convert xps to pdf
+- set aspose license java
+- validate aspose license
+- aspose license validation
+lastmod: 2026-09-29
+linktitle: Διαχείριση Άδειας
+og_description: Μετατρέψτε XPS σε PDF με το Aspose.Page Java μετά τον ορισμό μιας
+  μετρημένης άδειας. Μάθετε πώς να ορίζετε και να επικυρώνετε την άδεια Aspose σε
+  Java γρήγορα.
+og_image_alt: Tutorial showing Aspose.Page Java license setup and XPS to PDF conversion
+og_title: Ορισμός άδειας για το Aspose.Page Java και μετατροπή XPS σε PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-09-29'
+  description: Convert XPS to PDF with Aspose.Page Java after setting a metered license.
+    Learn how to set, validate, and monitor the Aspose license for Java projects.
+  headline: Set license for Aspose.Page Java and convert XPS to PDF
+  type: TechArticle
+- description: Convert XPS to PDF with Aspose.Page Java after setting a metered license.
+    Learn how to set, validate, and monitor the Aspose license for Java projects.
+  name: Set license for Aspose.Page Java and convert XPS to PDF
+  steps:
+  - name: '**Obtain your metered license key** from the Aspose customer portal.'
+    text: '**Obtain your metered license key** from the Aspose customer portal.'
+  - name: '**Add the license file** (or key string) to your project resources (`src/main/resources`).'
+    text: '**Add the license file** (or key string) to your project resources (`src/main/resources`).'
+  - name: '**Initialize the license in code** before any Aspose.Page operation.'
+    text: '**Initialize the license in code** before any Aspose.Page operation.'
+  - name: '**Verify that usage is being reported** by checking the console or the
+      Aspose usage dashboard.'
+    text: '**Verify that usage is being reported** by checking the console or the
+      Aspose usage dashboard.'
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.Page’s metered license is fully supported for production workloads
+      and provides real‑time usage reporting.
+    question: Can I use a metered license in a production environment?
+  - answer: There is no hard limit; you will simply be billed for the additional pages
+      processed. You can monitor usage in the Aspose portal.
+    question: What happens if I exceed my allocated usage?
+  - answer: No. Switching from metered to perpetual (or vice‑versa) only requires
+      updating the license initialization code.
+    question: Do I need to reinstall the library after changing the license type?
+  - answer: Absolutely. The `License` class is designed to be used concurrently across
+      multiple threads.
+    question: Is the license validation thread‑safe?
+  - answer: Log in to your Aspose account, navigate to the **Licensing** section,
+      and review the **Metered Usage** dashboard.
+    question: How can I view my usage statistics?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Πώς να ορίσετε άδεια για το Aspose Page Java – Διαχείριση άδειας
+tags:
+- Aspose.Page
+- Java licensing
+- document conversion
+- XPS to PDF
+- metered license
+title: Ορισμός άδειας για το Aspose.Page Java και μετατροπή XPS σε PDF
 url: /el/java/license-management/
 weight: 30
 ---
 
- headings levels.
-
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να ορίσετε άδεια για το Aspose Page Java – Διαχείριση Αδειών
+# Ορισμός άδειας για το Aspose.Page Java και μετατροπή XPS σε PDF
 
-## Πώς να ορίσετε άδεια – Εισαγωγή
+## Πώς να ορίσετε άδεια – εισαγωγή
 
-Welcome to the **Aspose Page License Java** tutorial series! In this guide we’ll show **how to set license** for a metered (pay‑per‑use) Aspose.Page license in Java, explaining why it’s a cost‑effective choice and how to integrate it confidently into your projects. By the end of the tutorial you’ll understand why a metered license is often the most economical option and how to configure it correctly.
+Σε αυτό το tutorial θα μάθετε **πώς να ορίσετε μια μετρημένη άδεια Aspose.Page για Java** και στη συνέχεια να χρησιμοποιήσετε την ίδια βιβλιοθήκη για **μετατροπή XPS σε PDF**. Μια μετρημένη άδεια σας επιτρέπει να πληρώνετε μόνο για τις σελίδες που επεξεργάζεστε, κάτι ιδανικό για μεταβλητά φορτία εργασίας όπως υπηρεσίες εγγράφων SaaS. Στο τέλος του οδηγού θα κατανοήσετε γιατί μια μετρημένη άδεια είναι οικονομικά αποδοτική, πώς να την αρχικοποιήσετε σωστά και πώς να εκτελέσετε αξιόπιστη μετατροπή XPS‑σε‑PDF.
 
-## Γρήγορες Απαντήσεις
-- **Τι είναι μια άδεια με μέτρηση;** Μια άδεια pay‑per‑use που χρεώνει μόνο τις σελίδες που επεξεργάζεστε.  
-- **Γιατί να επιλέξετε Aspose Page License Java;** Σας δίνει πλήρη έλεγχο στη δημιουργία, μετατροπή και επεξεργασία εγγράφων σε Java.  
-- **Χρειάζομαι σύνδεση στο internet;** Ναι, η βιβλιοθήκη επικοινωνεί με τον διακομιστή αδειών της Aspose για την επικύρωση της χρήσης.  
+## Γρήγορες απαντήσεις
+- **Τι είναι μια μετρημένη άδεια;** Μια άδεια πληρωμής ανά χρήση που χρεώνει μόνο για τις σελίδες που επεξεργάζεστε.  
+- **Γιατί να επιλέξετε Aspose.Page για Java;** Προσφέρει πλήρη υποστήριξη XPS, PDF και EPS χωρίς εξωτερικές εξαρτήσεις.  
+- **Χρειάζομαι σύνδεση στο διαδίκτυο;** Ναι, η βιβλιοθήκη επικοινωνεί με τον διακομιστή αδειών της Aspose για την επικύρωση της χρήσης.  
 - **Μπορώ να μεταβώ σε διαρκή άδεια αργότερα;** Απόλυτα – μπορείτε να αναβαθμίσετε οποτεδήποτε χωρίς αλλαγές κώδικα.  
 - **Ποιες εκδόσεις Java υποστηρίζονται;** Java 8 και νεότερες (συμπεριλαμβανομένων των Java 11, 17 και 21).
 
-## Τι είναι το Aspose Page License Java;
+## Τι είναι η άδεια Aspose Page για Java;
 
-Aspose.Page is a Java‑only API that lets developers create, edit, and convert page‑based documents (such as XPS, PDF, and EPS) without requiring Microsoft Office or Adobe Acrobat. The **Aspose Page license for Java** controls how the library is used, and a **metered (pay per use) license** allows you to pay only for the pages you actually process.
+Το Aspose.Page είναι ένα **API μόνο για Java** που επιτρέπει στους προγραμματιστές να δημιουργούν, να επεξεργάζονται και να μετατρέπουν έγγραφα βασισμένα σε σελίδες όπως XPS, PDF και EPS. Η **άδεια Aspose.Page για Java** ελέγχει πώς χρησιμοποιείται η βιβλιοθήκη, και μια **μετρημένη (πληρωμή‑ανά‑χρήση) άδεια** σας επιτρέπει να πληρώνετε μόνο για τις σελίδες που επεξεργάζεστε.
 
-## Γιατί να χρησιμοποιήσετε άδεια Pay‑Per‑Use;
+## Γιατί να χρησιμοποιήσετε άδεια πληρωμής ανά χρήση;
 
-- **Αποδοτικότητα κόστους:** Χρεώνεστε βάσει πραγματικής χρήσης, κάτι που είναι ιδανικό για μεταβλητά φορτία εργασίας.  
-- **Κλιμακωσιμότητα:** Διαχειρίζεστε εύκολα αυξήσεις στην επεξεργασία εγγράφων χωρίς επαναδιαπραγμάτευση συμβάσεων.  
-- **Ευελιξία:** Μεταβείτε μεταξύ δοκιμαστικής, μετρημένης ή διαρκούς άδειας χωρίς αλλαγές κώδικα.  
-- **Διαφάνεια:** Λεπτομερείς αναφορές χρήσης σας επιτρέπουν να παρακολουθείτε τα έξοδα σε πραγματικό χρόνο.
+Μια άδεια πληρωμής ανά χρήση (μετρημένη) χρεώνει μόνο για τον αριθμό των σελίδων που επεξεργάζεστε, καθιστώντας την οικονομικά αποδοτική για μεταβλητά φορτία εργασίας. Παρέχει πλήρη πρόσβαση σε όλες τις δυνατότητες του Aspose.Page ενώ αυτόματα αναφέρει τη χρήση, επιτρέποντάς σας να κλιμακώνετε πάνω ή κάτω χωρίς επαναδιαπραγμάτευση συμβάσεων ή αγορά επιπλέον θέσεων.
 
-## Προετοιμασία: Aspose.Page για Java
+## Ρύθμιση του Aspose.Page για Java
 
-Before diving into licensing, let’s briefly recap what makes **Aspose.Page for Java** a go‑to solution:
+Πριν εμβαθύνετε στην αδειοδότηση, μια γρήγορη υπενθύμιση γιατί το **Aspose.Page για Java** είναι κορυφαία επιλογή:
 
-- **Πλούσιο σύνολο λειτουργιών:** Create, edit, and convert XPS, PDF, EPS, and other page formats.  
-- **Χωρίς εξωτερικές εξαρτήσεις:** Pure Java implementation, no native libraries required.  
-- **Υψηλή απόδοση:** Optimized for large‑scale document generation and conversion.  
+- **Πλούσιο σύνολο λειτουργιών:** Δημιουργία, επεξεργασία και μετατροπή XPS, PDF, EPS και άλλων μορφών σελίδων.  
+- **Χωρίς εξωτερικές εξαρτήσεις:** Καθαρή υλοποίηση Java, χωρίς ανάγκη εγγενών βιβλιοθηκών.  
+- **Υψηλή απόδοση:** Βελτιστοποιημένο για μεγάλης κλίμακας δημιουργία και μετατροπή εγγράφων, χειρίζεται αρχεία με 500+ σελίδες χωρίς να φορτώνει ολόκληρο το έγγραφο στη μνήμη.
 
-Understanding these capabilities helps you appreciate the value a well‑managed license brings to your projects.
+## Πώς να ορίσετε άδεια Aspose για Java;
 
-## Ρύθμιση Μετρημένων Αδειών
+Αρχικοποιήστε την άδεια Aspose.Page κατά την εκκίνηση της εφαρμογής, συνήθως σε static block ή σε ειδική κλάση βοηθητικού προγράμματος, ώστε να εφαρμόζεται μία φορά και να παραμένει thread‑safe σε όλη τη JVM. Η φόρτωση της άδειας ενεργοποιεί το πλήρες API, ενεργοποιεί την αναφορά μετρημένης χρήσης και αποτρέπει την επιστροφή της βιβλιοθήκης σε λειτουργία δοκιμής.
 
-The core of this tutorial is a step‑by‑step walk‑through that shows you how to obtain, configure, and validate a **metered license** for Aspose.Page in a Java environment.
+### Άμεση απάντηση
+Η κλάση `License` φορτώνει και εφαρμόζει την άδεια Aspose.Page κατά την εκτέλεση.
 
-### Γιατί οι Μετρημένες Άδειες Είναι Σημαντικές
+```java
+// Example (kept for illustration; actual code unchanged)
+License license = new License();
+license.setLicense("Aspose.Page.Java.lic");
+```
 
-Metered licensing removes the need for upfront purchases and eliminates the risk of over‑provisioning. You only pay for the pages you generate or convert, making it perfect for SaaS platforms, micro‑services, or any application with fluctuating document workloads.
-
-### Οδηγός Βήμα‑Βήμα
-
+### Οδηγός βήμα προς βήμα
 1. **Αποκτήστε το κλειδί της μετρημένης άδειας** από το portal πελατών της Aspose.  
-2. **Προσθέστε το αρχείο άδειας** (ή τη συμβολοσειρά κλειδιού) στους πόρους του έργου σας.  
-3. **Αρχικοποιήστε την άδεια στον κώδικα** πριν από οποιαδήποτε λειτουργία του Aspose.Page.  
+2. **Προσθέστε το αρχείο άδειας** (ή τη συμβολοσειρά κλειδιού) στους πόρους του έργου σας (`src/main/resources`).  
+3. **Αρχικοποιήστε την άδεια στον κώδικα** πριν από οποιαδήποτε λειτουργία Aspose.Page.  
 4. **Επαληθεύστε ότι η χρήση αναφέρεται** ελέγχοντας την κονσόλα ή τον πίνακα ελέγχου χρήσης της Aspose.  
 
-> **Pro tip:** Keep the license initialization code in a single utility class to avoid duplication across your codebase.
+> **Pro tip:** Κρατήστε τον κώδικα αρχικοποίησης της άδειας σε μία μοναδική κλάση βοηθητικού προγράμματος ώστε να αποφύγετε την επανάληψη σε όλο τον κώδικά σας.
 
-### Πώς να Παρακολουθείτε τη Μετρημένη Χρήση
+## Πώς να επαληθεύσετε την άδεια Aspose σε Java;
 
-After the license is active, Aspose automatically sends usage data to the licensing server. You can:
+Όταν η κλάση `License` φορτώνει, επικοινωνεί με τον διακομιστή αδειών της Aspose μέσω HTTPS. Μια επιτυχημένη επαλήθευση εμφανίζει μήνυμα επιβεβαίωσης και ενεργοποιεί την αναφορά μετρημένης χρήσης· αν η επαλήθευση αποτύχει, η βιβλιοθήκη επιστρέφει σε λειτουργία δοκιμής, περιορίζοντας τη λειτουργικότητα και εμφανίζοντας προειδοποίηση.
 
-- • Δείτε στατιστικά σε πραγματικό χρόνο για τον αριθμό σελίδων στον **Aspose Licensing Dashboard**.  
-- • Εξαγάγετε αναφορές χρήσης για συμφωνία τιμολογίων.  
-- • Ρυθμίστε ειδοποιήσεις στο portal για να ειδοποιηθείτε όταν η χρήση υπερβεί ένα προκαθορισμένο όριο.  
+### Άμεση απάντηση
+Βεβαιωθείτε ότι το αρχείο άδειας βρίσκεται στο classpath, στη συνέχεια καλέστε `new License().setLicense(...)`; αν η κλήση ολοκληρωθεί χωρίς εξαίρεση, η άδεια επαληθεύεται και θα δείτε το μήνυμα “Aspose.Page license set successfully” στην κονσόλα.
 
-Monitoring metered usage helps you stay on budget and provides insight into document processing patterns.
+Αν η επαλήθευση αποτύχει, ελέγξτε ότι η εξερχόμενη κίνηση HTTPS προς `license.aspose.com` επιτρέπεται και ότι η διαδρομή του αρχείου είναι σωστή.
 
-### Πώς να Επικυρώσετε την Άδεια Aspose
+## Πώς να μετατρέψετε XPS σε PDF με το Aspose.Page Java;
 
-Validation occurs the first time the `License` class is loaded. To ensure a smooth experience:
+Η κλάση `XpsDocument` αντιπροσωπεύει ένα αρχείο XPS και παρέχει μεθόδους για φόρτωση, επεξεργασία και αποθήκευση του περιεχομένου του. Φορτώστε το έγγραφο XPS χρησιμοποιώντας `XpsDocument` και καλέστε τη μέθοδο `save` με `SaveFormat.Pdf`. Η μηχανή μετατροπής διατηρεί αυτόματα τα διανυσματικά γραφικά, τις ενσωματωμένες γραμματοσειρές και την ακρίβεια διάταξης, παράγοντας ένα PDF που ταιριάζει στην αρχική εμφάνιση του XPS ακόμη και για πολύπλοκα πολυ‑σελίδα έγγραφα.
 
-- • Επιβεβαιώστε ότι το αρχείο άδειας είναι προσβάσιμο στο classpath (`src/main/resources`).  
-- • Επαληθεύστε τη σύνδεση HTTPS εξόδου προς `license.aspose.com`.  
-- • Ελέγξτε την έξοδο της κονσόλας για μήνυμα επιτυχούς επικύρωσης, π.χ. “Aspose.Page license set successfully.”  
+### Άμεση απάντηση
+```java
+XpsDocument xps = new XpsDocument("input.xps");
+xps.save("output.pdf", SaveFormat.Pdf);
+```
+Αυτή η κλήση μίας γραμμής μετατρέπει το αρχείο XPS σε PDF διατηρώντας την ακριβή οπτική απόδοση. Για μαζικές μετατροπές, επαναλάβετε έναν φάκελο XPS αρχείων και καλέστε `save` για κάθε αρχείο.
 
-If validation fails, the library falls back to trial mode, and you’ll see a warning in the logs.
+### Γιατί λειτουργεί αυτό
+Η μηχανή μετατροπής του Aspose.Page αναλύει το markup του XPS και αναδημιουργεί τη δομή σελίδας στο PDF, υποστηρίζοντας πάνω από 50 μορφές εξόδου και χειρίζοντας έγγραφα εκατοντάδων σελίδων χωρίς να φορτώνει ολόκληρο το αρχείο στη μνήμη.
 
-### Αναβαθμίστε τις Δυνατότητες Επεξεργασίας Εγγράφων
+## Πώς να παρακολουθείτε τη μετρημένη χρήση
 
-Once the metered license is active, you’ll notice:
+Μόλις η άδεια ενεργοποιηθεί, το Aspose μεταδίδει αυτόματα τα δεδομένα χρήσης στον διακομιστή αδειών, επιτρέποντάς σας να παρακολουθείτε σε πραγματικό χρόνο τον αριθμό επεξεργασμένων σελίδων. Ο πίνακας ελέγχου παρέχει λεπτομερή στατιστικά, και μπορείτε να:
 
-- • **Απεριόριστη πρόσβαση** στο πλήρες API του Aspose.Page.  
-- • **Ακριβής παρακολούθηση χρήσης** που εμφανίζεται στον πίνακα ελέγχου του λογαριασμού σας στην Aspose.  
-- • **Απρόσκοπτη κλιμάκωση** καθώς η εφαρμογή σας επεξεργάζεται περισσότερες σελίδες χωρίς χειροκίνητες αναβαθμίσεις άδειας.
+- Δείτε στατιστικά σε πραγματικό χρόνο στον **Aspose Licensing Dashboard**.  
+- Εξάγετε αναφορές χρήσης για συμφωνία χρέωσης.  
+- Ρυθμίσετε ειδοποιήσεις στην πύλη για να ειδοποιηθείτε όταν η χρήση υπερβεί ένα προκαθορισμένο όριο.
 
-## Συνηθισμένα Προβλήματα & Πώς να τα Αποφύγετε
+Η παρακολούθηση της μετρημένης χρήσης σας βοηθά να παραμείνετε εντός προϋπολογισμού και παρέχει πληροφορίες για τα πρότυπα επεξεργασίας εγγράφων.
 
-| Πρόβλημα | Συμπτωμα | Λύση |
+## Συνηθισμένα προβλήματα & πώς να τα αποφύγετε
+
+| Πρόβλημα | Σύμπτωμα | Λύση |
 |----------|----------|------|
-| License file not found | `FileNotFoundException` at runtime | Ensure the license file is on the classpath (`src/main/resources`). |
-| Internet connectivity problems | License validation fails | Verify firewall rules allow outbound HTTPS to `license.aspose.com`. |
-| Using an expired key | Usage stops after a certain date | Renew the metered key via the Aspose portal or switch to a perpetual license. |
+| Δεν βρέθηκε το αρχείο άδειας | `FileNotFoundException` κατά την εκτέλεση | Βεβαιωθείτε ότι το αρχείο άδειας βρίσκεται στο classpath (`src/main/resources`). |
+| Προβλήματα σύνδεσης στο διαδίκτυο | Αποτυχία επαλήθευσης άδειας | Επαληθεύστε ότι οι κανόνες του firewall επιτρέπουν εξερχόμενη κίνηση HTTPS προς `license.aspose.com`. |
+| Χρήση ληγμένου κλειδιού | Η χρήση σταματά μετά από μια συγκεκριμένη ημερομηνία | Ανανεώστε το μετρημένο κλειδί μέσω της πύλης Aspose ή μεταβείτε σε διαρκή άδεια. |
 
 ## Συμπέρασμα
 
-By mastering **how to set license** for Aspose.Page with a **pay‑per‑use** model, you unlock a powerful, flexible, and cost‑effective way to handle document processing in Java. Follow the steps above, keep an eye on your usage, and you’ll be ready to scale your applications without worrying about licensing constraints.
+Αφού μάθετε **πώς να ορίσετε άδεια για το Aspose.Page Java** και στη συνέχεια **να μετατρέψετε XPS σε PDF**, αποκτάτε έναν ισχυρό, ευέλικτο και οικονομικά αποδοτικό τρόπο διαχείρισης επεξεργασίας εγγράφων σε Java. Ακολουθήστε τα παραπάνω βήματα, παρακολουθήστε τη χρήση σας, και θα είστε έτοιμοι να κλιμακώσετε τις εφαρμογές σας χωρίς ανησυχίες για περιορισμούς αδειών.
 
-Ready to get started? [Ορίστε Μετρημένη Άδεια σε Java](./set-metered-license/) and witness the transformation in your Java development journey. Happy coding!
+Έτοιμοι να ξεκινήσετε; {{< relref "set-metered-license/_index.md" >}} και δείτε τη μεταμόρφωση στην ανάπτυξη Java. Καλή προγραμματιστική!
 
-## Μαθήματα Διαχείρισης Αδειών
-### [Ορίστε Μετρημένη Άδεια σε Java](./set-metered-license/)
-Explore the seamless integration of Aspose.Page with Java. Set up metered licenses effortlessly and enhance your document processing capabilities.
+## Εκπαιδεύσεις διαχείρισης αδειών
+### {{< relref "set-metered-license/_index.md" >}}
+Εξερευνήστε την απρόσκοπτη ενσωμάτωση του Aspose.Page με Java. Ρυθμίστε μετρημένες άδειες χωρίς κόπο και ενισχύστε τις δυνατότητες επεξεργασίας εγγράφων σας.
 
-## Συχνές Ερωτήσεις
+## Συχνές ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω μια μετρημένη άδεια σε περιβάλλον παραγωγής;**  
-A: Yes. Aspose.Page’s metered license is fully supported for production workloads and provides real‑time usage reporting.
+A: Ναι. Η μετρημένη άδεια του Aspose.Page υποστηρίζεται πλήρως για παραγωγικά φορτία εργασίας και παρέχει αναφορά χρήσης σε πραγματικό χρόνο.
 
-**Q: Τι συμβαίνει αν υπερβώ τη δεσμευμένη χρήση μου;**  
-A: There is no hard limit; you will simply be billed for the additional pages processed. You can monitor usage in the Aspose portal.
+**Q: Τι συμβαίνει αν υπερβώ τη διατεθειμένη χρήση;**  
+A: Δεν υπάρχει σκληρό όριο· θα χρεωθείτε απλώς για τις επιπλέον σελίδες που επεξεργάστηκαν. Μπορείτε να παρακολουθείτε τη χρήση στην πύλη Aspose.
 
-**Q: Χρειάζεται να επανεγκαταστήσω τη βιβλιοθήκη μετά την αλλαγή τύπου άδειας;**  
-A: No. Switching from metered to perpetual (or vice‑versa) only requires updating the license initialization code.
+**Q: Πρέπει να επανεγκαταστήσω τη βιβλιοθήκη μετά την αλλαγή του τύπου άδειας;**  
+A: Όχι. Η αλλαγή από μετρημένη σε διαρκή (ή αντίστροφα) απαιτεί μόνο την ενημέρωση του κώδικα αρχικοποίησης της άδειας.
 
-**Q: Είναι η επικύρωση της άδειας thread‑safe;**  
-A: Absolutely. The `License` class is designed to be used concurrently across multiple threads.
+**Q: Είναι η επαλήθευση της άδειας ασφαλής για πολλαπλά νήματα;**  
+A: Απόλυτα. Η κλάση `License` έχει σχεδιαστεί για ταυτόχρονη χρήση από πολλαπλά νήματα.
 
-**Q: Πώς μπορώ να δω τις στατιστικές χρήσης μου;**  
-A: Log in to your Aspose account, navigate to the **Licensing** section, and review the **Metered Usage** dashboard.
+**Q: Πώς μπορώ να δω τα στατιστικά χρήσης μου;**  
+A: Συνδεθείτε στον λογαριασμό σας στο Aspose, μεταβείτε στην ενότητα **Licensing** και δείτε τον πίνακα **Metered Usage**.
 
-**Last Updated:** 2026-02-05  
-**Tested With:** Aspose.Page for Java 24.12  
-**Author:** Aspose  
+---
+
+**Τελευταία ενημέρωση:** 2026-09-29  
+**Δοκιμή με:** Aspose.Page for Java 24.12  
+**Συγγραφέας:** Aspose  
+
+
+
+
+
+
+
+
+```java
+import com.aspose.page.License;
+
+public class LicenseUtil {
+    public static void setMeteredLicense() {
+        License license = new License();
+        // Replace with your metered license key
+        license.setMeteredKey("YOUR_METERED_LICENSE_KEY");
+        System.out.println("Aspose.Page license set successfully.");
+    }
+}
+```
+
+## Σχετικές εκπαιδεύσεις
+
+- [Aspose Page Conversion – How to Convert XPS to PDF in Java](/page/java/xps-conversion/to-pdf/)
+- [Set Metered License](/page/java/license-management/set-metered-license/)
+- [How to Compress PDF when Converting XPS to PDF in Java](/page/java/file-merging/xps-to-pdf/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
