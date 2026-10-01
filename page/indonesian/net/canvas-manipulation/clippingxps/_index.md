@@ -288,10 +288,9 @@ doc.Save(dataDir + "output2.xps");
 - [Tambahkan Persegi Panjang ke Dokumen XPS dengan Aspose.Page untuk .NET](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
 - [Konversi XPS ke PDF dengan Aspose.Page untuk .NET](/page/net/document-conversion/convert-xps-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< /blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -285,10 +285,9 @@ doc.Save(dataDir + "output2.xps");
 - [เพิ่มสี่เหลี่ยมลงในเอกสาร XPS ด้วย Aspose.Page สำหรับ .NET](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
 - [แปลง XPS เป็น PDF ด้วย Aspose.Page สำหรับ .NET](/page/net/document-conversion/convert-xps-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< /blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

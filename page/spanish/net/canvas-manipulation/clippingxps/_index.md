@@ -287,10 +287,9 @@ doc.Save(dataDir + "output2.xps");
 - [Añadir rectángulo al documento XPS con Aspose.Page para .NET](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
 - [Convertir XPS a PDF con Aspose.Page para .NET](/page/net/document-conversion/convert-xps-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< /blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}
