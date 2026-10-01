@@ -292,10 +292,9 @@ doc.Save(dataDir + "output2.xps");
 - [Aspose.Page for .NET을 사용해 XPS 문서에 사각형 추가](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
 - [Aspose.Page for .NET을 사용해 XPS를 PDF로 변환](/page/net/document-conversion/convert-xps-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< /blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

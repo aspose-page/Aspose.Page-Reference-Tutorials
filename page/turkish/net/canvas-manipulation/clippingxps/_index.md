@@ -288,10 +288,9 @@ doc.Save(dataDir + "output2.xps");
 - [Aspose.Page for .NET ile XPS Belgesine Dikdörtgen Ekleme](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
 - [Aspose.Page for .NET ile XPS'yi PDF'ye Dönüştürme](/page/net/document-conversion/convert-xps-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< /blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

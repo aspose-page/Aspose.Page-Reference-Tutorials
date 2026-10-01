@@ -291,10 +291,9 @@ doc.Save(dataDir + "output2.xps");
 - [使用 Aspose.Page for .NET 為 XPS 文件新增矩形](/page/net/drawing-shapes/add-rectangle-to-xps-document/)
 - [使用 Aspose.Page for .NET 將 XPS 轉換為 PDF](/page/net/document-conversion/convert-xps-to-pdf/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< /blocks/products/products-backtop-button >}}
 
 {{< blocks/products/products-backtop-button >}}

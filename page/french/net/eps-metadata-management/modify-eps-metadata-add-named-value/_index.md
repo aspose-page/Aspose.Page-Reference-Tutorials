@@ -48,9 +48,12 @@ url: /fr/net/eps-metadata-management/modify-eps-metadata-add-named-value/
 weight: 12
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
 
 # Créer un EPS avec XMP – ajouter une valeur nommée à l'aide d'Aspose.Page
 
@@ -168,10 +171,9 @@ R : Une licence temporaire vous permet d’évaluer le produit pendant une cou
 - [Modifier une valeur nommée avec Aspose.Page pour .NET](/page/net/eps-metadata-management/modify-eps-metadata-change-named-value/)
 - [Extraire les métadonnées d’un document EPS avec Aspose.Page pour .NET](/page/net/eps-metadata-management/extract-metadata-from-eps-document/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
