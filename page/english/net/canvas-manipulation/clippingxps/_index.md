@@ -287,9 +287,9 @@ doc.Save(dataDir + "output2.xps");
 
 ## Related Tutorials
 
-{{< relref "net/canvas-manipulation/transformationsxps/_index.md" "Transform XPS with Aspose.Page for .NET" >}}
-{{< relref "net/drawing-shapes/add-rectangle-to-xps-document/_index.md" "Add Rectangle to XPS Document with Aspose.Page for .NET" >}}
-{{< relref "net/document-conversion/convert-xps-to-pdf/_index.md" "Convert XPS to PDF with Aspose.Page for .NET" >}}
+- [Transform XPS with Aspose.Page for .NET]({{< relref "/net/canvas-manipulation/transformationsxps/_index.md" >}})
+- [Add Rectangle to XPS Document with Aspose.Page for .NET]({{< relref "/net/drawing-shapes/add-rectangle-to-xps-document/_index.md" >}})
+- [Convert XPS to PDF with Aspose.Page for .NET]({{< relref "/net/document-conversion/convert-xps-to-pdf/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
