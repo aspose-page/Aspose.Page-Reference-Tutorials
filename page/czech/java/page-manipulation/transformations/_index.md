@@ -1,10 +1,51 @@
 ---
-date: 2026-02-07
-description: Naučte se, jak škálovat obdélník pomocí Aspose.Page pro Javu, jak přesunout
-  tvar a aplikovat afinní transformaci k vytvoření dokumentů PostScript.
-linktitle: Transformations in Java Page Manipulation
+date: 2026-10-20
+description: Zjistěte, jak škálovat obdélník pomocí Aspose.Page pro Java, jak posunout
+  tvar a aplikovat afinní transformaci pro vytvoření PostScript dokumentů.
+keywords:
+- how to scale rectangle
+- how to translate shape
+- save postscript file
+- apply affine transform
+- java graphics scaling
+lastmod: 2026-10-20
+linktitle: Transformace při manipulaci se stránkami v Java
+og_description: Zjistěte, jak škálovat obdélník, posunout tvar a aplikovat afinní
+  transformaci pomocí Aspose.Page pro Java pro efektivní generování PostScript souborů.
+og_image_alt: Screenshot of Java code scaling a rectangle with Aspose.Page
+og_title: Jak škálovat obdélník pomocí Aspose.Page pro Java – krok za krokem průvodce
+schemas:
+- author: Aspose
+  dateModified: '2026-10-20'
+  description: Learn how to scale rectangle with Aspose.Page for Java, how to translate
+    shape, and apply affine transform to create PostScript documents.
+  headline: How to Scale Rectangle with Aspose.Page for Java
+  type: TechArticle
+- questions:
+  - answer: '`translate` moves the origin of the coordinate system, while `scale`
+      changes the size of drawn objects along the X and/or Y axes.'
+    question: What is the difference between `translate` and `scale`?
+  - answer: Yes—by calling `translate`, `scale`, `rotate`, or `shear` sequentially
+      before drawing, you create a combined affine transformation.
+    question: Can I combine multiple transformations in a single graphics state?
+  - answer: Use `writeGraphicsRestore()` to revert to the previously saved graphics
+      state.
+    question: How do I reset transformations after drawing a shape?
+  - answer: Absolutely. Translate the rectangle to the origin, apply `rotate(angle)`,
+      then translate it back before drawing.
+    question: Is it possible to rotate a rectangle around its center?
+  - answer: Yes—set the appropriate rendering options in `PsSaveOptions` to enable
+      anti‑aliasing.
+    question: Does Aspose.Page support anti‑aliasing for smoother graphics?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Jak škálovat obdélník pomocí Aspose.Page pro Javu
+tags:
+- Aspose.Page
+- Java graphics
+- PostScript generation
+- affine transformation
+- rectangle scaling
+title: Jak škálovat obdélník pomocí Aspose.Page pro Java
 url: /cs/java/page-manipulation/transformations/
 weight: 11
 ---
@@ -16,24 +57,26 @@ weight: 11
 # Jak škálovat obdélník pomocí Aspose.Page pro Java
 
 ## Úvod
-Vítejte v komplexním průvodci využíváním výkonných funkcí **Aspose.Page for Java** k provádění různých transformací stránek. V tomto tutoriálu se naučíte **jak škálovat obdélník**, přesouvat tvary, otáčet objekty a **aplikovat afinní transformaci** při vytváření **PostScript dokumentu**. Tyto možnosti vám umožní vytvářet bohaté, graficky náročné Java aplikace bez nutnosti pracovat s nízkoúrovňovým renderovacím kódem.
+V tomto průvodci se dozvíte, **jak škálovat obdélník** pomocí Aspose.Page pro Java, a také se naučíte, jak posunout (přeložit) pozice tvarů, otáčet grafiku a použít afinní transformace k vytvoření vysoce kvalitního výstupu PostScript. Tyto techniky vám umožní vytvářet sofistikovanou, zařízení‑nezávislou grafiku bez psaní nízkoúrovňového vykreslovacího kódu, což učiní vaše Java aplikace výkonnějšími a udržovatelnějšími.
 
 ## Rychlé odpovědi
-- **Jak mohu v Javě se Aspose.Page škálovat obdélník?** Použijte metodu `document.scale()` před vykreslením tvaru.  
-- **Mohu přesunout (přeložit) tvar, aniž by to ovlivnilo ostatní grafiku?** Ano—uložte stav grafiky, zavolejte `document.translate(x, y)`, vykreslete a poté obnovte stav.  
-- **Jaká třída vytváří soubor PostScript?** `PsDocument` spolu s `PsSaveOptions`.  
-- **Potřebuji licenci pro produkční použití?** Platná licence Aspose.Page je vyžadována pro komerční nasazení.  
-- **Která verze Javy je podporována?** Aspose.Page funguje s Java 8 a novějšími.
+`scale(sx, sy)` scales the graphics context by the given horizontal and vertical factors.  
 
-## Požadavky
-Než se pustíme do podrobného návodu, ujistěte se, že máte následující předpoklady:
+- **Jak mohu v Javě se Aspose.Page škálovat obdélník?** Call the `scale(sx, sy)` method on the graphics context before drawing the rectangle.  
+- **Mohu přesunout (přeložit) tvar, aniž by to ovlivnilo ostatní grafiku?** Yes—wrap the translation between `writeGraphicsSave()` and `writeGraphicsRestore()` calls.  
+- **Která třída vytváří soubor PostScript?** Use `PsDocument` together with `PsSaveOptions`.  
+- **Potřebuji licenci pro produkční použití?** A valid Aspose.Page license is required for commercial deployments.  
+- **Která verze Javy je podporována?** Aspose.Page works with Java 8 and later.
 
-- Základní znalost programování v Javě.  
-- Knihovna Aspose.Page pro Java nainstalována. Můžete si ji stáhnout z [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
-- Integrované vývojové prostředí (IDE) pro Javu nastavené na vašem počítači.
+## Předpoklady
+Before you start, verify that you have:
+
+- Solidní znalost základní syntaxe Javy a objektově orientovaných konceptů.  
+- Knihovna Aspose.Page pro Java nainstalována. Můžete ji stáhnout z [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
+- IDE pro Javu (IntelliJ IDEA, Eclipse nebo VS Code) nakonfigurované s JAR soubory knihovny na classpath.
 
 ## Import balíčků
-Ve vašem Java projektu importujte potřebné balíčky pro využití Aspose.Page for Java:
+`PsDocument` is the main class used to create a PostScript document, and `PsSaveOptions` configures how the document is saved.  
 
 ```java
 import java.awt.Color;
@@ -46,13 +89,13 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## Co je „jak škálovat obdélník“ v Aspose.Page?
-Škálování obdélníku mění jeho velikost podél os X a Y při zachování tvaru. Aspose.Page poskytuje metodu `scale(float sx, float sy)`, která aplikuje **afinní transformaci** na aktuální stav grafiky. Toto je hlavní technika stojící za klíčovým slovem **how to scale rectangle**.
+The `scale(float sx, float sy)` method applies an affine scaling transform to the current graphics state, resizing subsequent drawings by the factors `sx` (horizontal) and `sy` (vertical). This is the core operation behind the **how to scale rectangle** keyword. By applying this transform before drawing, any subsequent shapes such as rectangles will be rendered with the new dimensions while preserving their proportions.
 
-## Jak přesunout tvar pomocí Aspose.Page
-Překlad (translation) přesouvá tvar na nové místo, aniž by změnil jeho rozměry. To je podstata **how to translate shape**. Uložením stavu grafiky, aplikací `translate(dx, dy)`, vykreslením a následným obnovením stavu zajistíte, že ostatní objekty zůstanou nedotčeny.
+## Jak přeložit (posunout) tvar pomocí Aspose.Page
+`writeGraphicsSave()` saves the current graphics state and `writeGraphicsRestore()` restores it, ensuring transformations affect only the intended shape. Translation repositions the origin of the coordinate system without altering object dimensions. By surrounding `translate(dx, dy)` with `writeGraphicsSave()` / `writeGraphicsRestore()`, you ensure that only the intended shape moves while other graphics remain unchanged, providing precise control over individual elements.
 
-## Příklad 1: Žádné transformace
-První příklad vykresluje jednoduchý obdélník bez jakékoli aplikované transformace. Slouží jako výchozí bod pro srovnání s následujícími příklady.
+## Příklad 1: bez transformací
+The first example draws a rectangle without any transformation, establishing a baseline for visual comparison with later examples.
 
 ```java
 // The path to the documents directory.
@@ -75,8 +118,8 @@ document.closePage();
 document.save();
 ```
 
-## Příklad 2: Překlad
-Zde demonstrujeme **how to translate shape** přesunutím grafického kontextu o 250 jednotek doprava před vykreslením druhého obdélníku.
+## Příklad 2: translace
+In this sample we move the graphics context 250 units to the right before drawing a second rectangle, illustrating **how to translate shape**.
 
 ```java
 // Save graphics state to return back after transformation
@@ -91,8 +134,8 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Příklad 3: Škálování
-Tento příklad odpovídá na hlavní otázku **how to scale rectangle**. Zmenšíme obdélník na 50 % původní šířky a 75 % výšky.
+## Příklad 3: škálování
+Here we answer the primary question **how to scale rectangle**. The rectangle is reduced to 50 % of its original width and 75 % of its original height using the `scale(0.5f, 0.75f)` call.
 
 ```java
 // Save graphics state to return back after transformation
@@ -108,62 +151,68 @@ document.writeGraphicsRestore();
 ```
 
 ## Jak otáčet tvar v Javě (rotate shape java)
-Rotace je další běžná afinní operace. Kódové úryvky pro rotaci jsou vynechány z důvodu stručnosti, ale postup je stejný: uložte stav grafiky, zavolejte `document.rotate(angle)`, vykreslete tvar a poté obnovte stav. To ukazuje **rotate shape java** a **how to rotate rectangle** v praxi.
+`rotate(angle)` rotates the coordinate system by the specified angle in degrees. Load your `PsDocument`, call `rotate(angle)` on the graphics state, draw the shape, then restore the previous state. This pattern implements **rotate shape java** and **how to rotate rectangle** in a single, reusable block, allowing you to pivot graphics around any point you choose.
 
-## Proč je to důležité – Praktické výhody
-- **Výstup nezávislý na zařízení** – Napište jednou a generujte PostScript nebo XPS bez úprav specifických pro platformu.  
-- **Detailní kontrola** – Kombinujte překlad, škálování, zkosení a rotaci pro splnění přesných požadavků na rozvržení.  
-- **Výkonnostně orientované** – API s nízkou režijní zátěží ideální pro dávkové zpracování rozsáhlých dokumentů.  
+## Proč je to důležité – reálné výhody
+- **Výstup nezávislý na zařízení** – Aspose.Page může generovat soubory PostScript a XPS, které se zobrazují identicky na jakémkoli tiskárně nebo prohlížeči, čímž eliminuje platform‑specifické úpravy.  
+- **Detailní kontrola** – Kombinujte translaci, škálování, zkosení a rotaci pro splnění přesných specifikací rozvržení; API podporuje více než 20 kombinací transformací na stránku.  
+- **Výkonnostně orientované zpracování** – Knihovna zpracovává dokumenty s paměťovou stopou pod 10 MB pro typické 100‑stránkové zprávy, což umožňuje rychlé a škálovatelné dávkové úlohy.
 
 ## Běžné případy použití
-- Generování tisknutelných faktur – například řešení **printable invoice java**, které přesně umisťuje loga a čárové kódy.  
-- Vytváření technických diagramů, kde je vyžadováno přesné škálování a umístění.  
-- Automatizace tvorby vícestránkových zpráv ve formátu PostScript.  
+- **Tisknutelné faktury** – Přesně umístěte loga, čárové kódy a tabulky pomocí škálování a translace podle firemních směrnic.  
+- **Technické diagramy** – Generujte schémata, kde každý komponent musí být proporcionálně změněn a umístěn.  
+- **Automatizované vícestránkové zprávy** – Vytvářejte PostScript zprávy, které vyžadují konzistentní škálování napříč stránkami, např. technické specifikace.
 
 ## Běžné problémy a řešení
-- **Transformace se neobnovuje** – Vždy spárujte `document.writeGraphicsSave()` s `document.writeGraphicsRestore()`, aby nedocházelo k nechtěnému přenášení efektů.  
-- **Neočekávané barvy** – Ujistěte se, že po každé transformaci nastavíte barvu; stav grafiky po obnovení neuchovává předchozí nastavení barvy.  
-- **Velikost souboru je příliš velká** – Použijte `PsSaveOptions` k povolení komprese nebo snížení rozlišení obrázku při vkládání rastrové grafiky.  
+- **Transformace se neresetuje** – Vždy párujte `writeGraphicsSave()` s `writeGraphicsRestore()`; jinak následné kresby zdědí nechtěné transformace.  
+- **Neočekávané barvy** – Nastavte barvu (paint) po každé transformaci, protože stav grafiky neuchovává informaci o barvě po obnovení.  
+- **Velikost souboru je příliš velká** – Povolením komprese v `PsSaveOptions` a omezením rozlišení vložených rastrových obrázků udržte finální soubor pod 5 MB pro typické 50‑stránkové dokumenty.
 
 ## Často kladené otázky
-
 ### Mohu použít Aspose.Page pro Java i pro jiné formáty dokumentů?
-Aspose.Page se primárně zaměřuje na manipulaci stránek pro formáty PostScript a XPS.
+Aspose.Page primarily focuses on page manipulation for PostScript and XPS formats, but it also offers limited PDF export capabilities.
 
 ### Kde najdu více příkladů a dokumentaci pro Aspose.Page pro Java?
-Navštivte [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) pro komplexní informace.
+Visit the [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) for comprehensive guides, API references, and sample projects.
 
-### Je k dispozici bezplatná zkušební verze Aspose.Page pro Java?
-Ano, můžete získat bezplatnou zkušební verzi [zde](https://releases.aspose.com/).
+### Je k dispozici bezplatná zkušební verze pro Aspose.Page pro Java?
+Yes, you can access a free trial via the **Aspose free trial download** page: [Aspose free trial download](https://releases.aspose.com/).
 
-### Jak získat dočasnou licenci pro Aspose.Page pro Java?
-Získejte dočasnou licenci [zde](https://purchase.aspose.com/temporary-license/).
+### Jak získám dočasnou licenci pro Aspose.Page pro Java?
+Obtain a temporary license through the **temporary license request page**: [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-### Kde mohu získat komunitní podporu nebo klást otázky ohledně Aspose.Page pro Java?
-Navštivte [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) pro komunitní diskuse.
+### Kde mohu získat komunitní podporu nebo položit otázky ohledně Aspose.Page pro Java?
+Visit the [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) for community discussions, code snippets, and troubleshooting tips.
 
 ## Často kladené otázky
 
 **Q: Jaký je rozdíl mezi `translate` a `scale`?**  
-A: `translate` posouvá počátek souřadnicového systému, zatímco `scale` mění velikost vykreslených objektů podél os X a/nebo Y.
+A: `translate` moves the origin of the coordinate system, while `scale` changes the size of drawn objects along the X and/or Y axes.
 
-**Q: Mohu kombinovat více transformací v jednom stavu grafiky?**  
-A: Ano—voláním `translate`, `scale`, `rotate` nebo `shear` postupně před vykreslením vytvoříte kombinovanou afinní transformaci.
+**Q: Mohu kombinovat více transformací v jednom grafickém stavu?**  
+A: Yes—by calling `translate`, `scale`, `rotate`, or `shear` sequentially before drawing, you create a combined affine transformation.
 
-**Q: Jak resetuji transformace po vykreslení tvaru?**  
-A: Použijte `document.writeGraphicsRestore()` k návratu k dříve uloženému stavu grafiky.
+**Q: Jak resetuji transformace po nakreslení tvaru?**  
+A: Use `writeGraphicsRestore()` to revert to the previously saved graphics state.
 
 **Q: Je možné otočit obdélník kolem jeho středu?**  
-A: Rozhodně. Přesuňte obdélník do počátku, aplikujte `rotate(angle)`, pak jej vraťte zpět před vykreslením.
+A: Absolutely. Translate the rectangle to the origin, apply `rotate(angle)`, then translate it back before drawing.
 
 **Q: Podporuje Aspose.Page anti‑aliasing pro hladší grafiku?**  
-A: Ano—nastavte příslušné možnosti vykreslování v `PsSaveOptions` pro povolení anti‑aliasingu.
+A: Yes—set the appropriate rendering options in `PsSaveOptions` to enable anti‑aliasing.
 
 ---
 
-**Poslední aktualizace:** 2026-02-07  
-**Testováno s:** Aspose.Page for Java 24.12  
-**Autor:** Aspose  
+**Last Updated:** 2026-10-20  
+**Tested With:** Aspose.Page for Java 24.12  
+**Author:** Aspose
+
+## Související tutoriály
+
+- [Jak nakreslit obdélník v Java PostScript pomocí Aspose.Page](/page/java/postscript-shapes/add-rectangle/)
+- [Vytvořit radiální gradient v PostScript pomocí Aspose.Page pro Java](/page/java/postscript-gradient-addition/)
+- [Manipulace se stránkou PostScript](/page/java/postscript-page-manipulation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

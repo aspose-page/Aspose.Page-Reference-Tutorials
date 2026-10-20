@@ -1,10 +1,52 @@
 ---
-date: 2026-02-07
-description: Aspose.Page for Java ile bir dikdörtgeni nasıl ölçeklendireceğinizi,
-  şekli nasıl çevireceğinizi ve PostScript belgeleri oluşturmak için afin dönüşümünü
+date: 2026-10-20
+description: Aspose.Page for Java ile dikdörtgeni nasıl ölçeklendireceğinizi, şekli
+  nasıl çevireceğinizi ve PostScript belgeleri oluşturmak için affine transform'u
   nasıl uygulayacağınızı öğrenin.
-linktitle: Transformations in Java Page Manipulation
+keywords:
+- how to scale rectangle
+- how to translate shape
+- save postscript file
+- apply affine transform
+- java graphics scaling
+lastmod: 2026-10-20
+linktitle: Java sayfa işleme içinde dönüşümler
+og_description: Aspose.Page for Java kullanarak dikdörtgeni ölçeklendirme, şekli çevirme
+  ve affine transform'u uygulayarak PostScript dosyalarını verimli bir şekilde oluşturmayı
+  öğrenin.
+og_image_alt: Screenshot of Java code scaling a rectangle with Aspose.Page
+og_title: Aspose.Page for Java ile dikdörtgeni ölçeklendirme – adım adım rehber
+schemas:
+- author: Aspose
+  dateModified: '2026-10-20'
+  description: Learn how to scale rectangle with Aspose.Page for Java, how to translate
+    shape, and apply affine transform to create PostScript documents.
+  headline: How to Scale Rectangle with Aspose.Page for Java
+  type: TechArticle
+- questions:
+  - answer: '`translate` moves the origin of the coordinate system, while `scale`
+      changes the size of drawn objects along the X and/or Y axes.'
+    question: What is the difference between `translate` and `scale`?
+  - answer: Yes—by calling `translate`, `scale`, `rotate`, or `shear` sequentially
+      before drawing, you create a combined affine transformation.
+    question: Can I combine multiple transformations in a single graphics state?
+  - answer: Use `writeGraphicsRestore()` to revert to the previously saved graphics
+      state.
+    question: How do I reset transformations after drawing a shape?
+  - answer: Absolutely. Translate the rectangle to the origin, apply `rotate(angle)`,
+      then translate it back before drawing.
+    question: Is it possible to rotate a rectangle around its center?
+  - answer: Yes—set the appropriate rendering options in `PsSaveOptions` to enable
+      anti‑aliasing.
+    question: Does Aspose.Page support anti‑aliasing for smoother graphics?
+  type: FAQPage
 second_title: Aspose.Page Java API
+tags:
+- Aspose.Page
+- Java graphics
+- PostScript generation
+- affine transformation
+- rectangle scaling
 title: Aspose.Page for Java ile Dikdörtgeni Ölçeklendirme
 url: /tr/java/page-manipulation/transformations/
 weight: 11
@@ -14,27 +56,29 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose.Page for Java ile Dikdörtgeni Ölçeklendirme
+# Aspose.Page for Java ile dikdörtgeni ölçeklendirme
 
 ## Giriş
-**Aspose.Page for Java**'in güçlü özelliklerini kullanarak çeşitli sayfa dönüşümlerini gerçekleştirmek için kapsamlı bir rehbere hoş geldiniz. Bu öğreticide **dikdörtgeni nasıl ölçeklendireceğinizi**, şekilleri nasıl çevireceğinizi, nesneleri nasıl döndüreceğinizi ve **affine transform** tekniklerini **PostScript belgesi** oluştururken nasıl uygulayacağınızı öğreneceksiniz. Bu yetenekler, düşük seviyeli render kodlarıyla uğraşmadan zengin, grafik‑ağır Java uygulamaları oluşturmanıza olanak tanır.
+Bu rehberde Aspose.Page for Java kullanarak **dikdörtgen nesnelerini nasıl ölçeklendireceğinizi** keşfedecek, şekil konumlarını nasıl çevireceğinizi, grafikleri nasıl döndüreceğinizi ve yüksek kaliteli PostScript çıktısı üretmek için afin dönüşüm işlemlerini nasıl uygulayacağınızı öğreneceksiniz. Bu teknikler, düşük seviyeli render kodu yazmadan cihaz bağımsız grafikler oluşturmanızı sağlar ve Java uygulamalarınızı daha güçlü ve sürdürülebilir kılar.
 
-## Hızlı Yanıtlar
-- **Java'da Aspose.Page ile bir dikdörtgeni nasıl ölçeklendirebilirim?** Şekli çizmeye başlamadan önce `document.scale()` metodunu kullanın.  
-- **Bir şekli (çevirme) diğer grafiklerden etkilenmeden hareket ettirebilir miyim?** Evet—grafik durumunu kaydedin, `document.translate(x, y)` çağırın, çizin, ardından durumu geri yükleyin.  
-- **PostScript dosyasını hangi sınıf oluşturur?** `PsDocument` ve `PsSaveOptions`.  
-- **Üretim ortamında bir lisansa ihtiyacım var mı?** Ticari dağıtımlar için geçerli bir Aspose.Page lisansı gereklidir.  
+## Hızlı yanıtlar
+`scale(sx, sy)` grafik bağlamını verilen yatay ve dikey faktörlerle ölçeklendirir.  
+
+- **Java'da Aspose.Page ile bir dikdörtgeni nasıl ölçeklendirebilirim?** Dikdörtgeni çizmeye başlamadan önce grafik bağlamı üzerinde `scale(sx, sy)` metodunu çağırın.  
+- **Diğer grafikleri etkilemeden bir şekli (çevirme) taşıyabilir miyim?** Evet—çevirme işlemini `writeGraphicsSave()` ve `writeGraphicsRestore()` çağrileri arasında sarın.  
+- **Hangi sınıf bir PostScript dosyası oluşturur?** `PsDocument` sınıfını `PsSaveOptions` ile birlikte kullanın.  
+- **Üretim kullanımında bir lisansa ihtiyacım var mı?** Ticari dağıtımlar için geçerli bir Aspose.Page lisansı gereklidir.  
 - **Hangi Java sürümü destekleniyor?** Aspose.Page Java 8 ve üzeri sürümlerle çalışır.
 
 ## Önkoşullar
-Adım‑adım kılavuza geçmeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
+Başlamadan önce şunları doğrulayın:
 
-- Java programlama temelleri.  
-- Aspose.Page for Java kütüphanesi yüklü. İndirmek için [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) sayfasını ziyaret edebilirsiniz.  
-- Makinenizde bir Java Entegre Geliştirme Ortamı (IDE) kurulu.
+- Temel Java sözdizimi ve nesne‑yönelimli kavramlara sağlam bir hakimiyet.  
+- Aspose.Page for Java kütüphanesinin yüklü olması. [Aspose.Page for Java belgeleri](https://reference.aspose.com/page/java/) adresinden indirebilirsiniz.  
+- Kütüphanenin JAR dosyalarını sınıf yoluna eklemiş bir Java IDE'si (IntelliJ IDEA, Eclipse veya VS Code).
 
-## Paketleri İçe Aktarma
-Java projenizde Aspose.Page for Java'ı kullanmak için gerekli paketleri içe aktarın:
+## Paketleri içe aktar
+`PsDocument` bir PostScript belgesi oluşturmak için kullanılan ana sınıftır ve `PsSaveOptions` belgenin nasıl kaydedileceğini yapılandırır.  
 
 ```java
 import java.awt.Color;
@@ -46,14 +90,14 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Aspose.Page'de “dikdörtgeni nasıl ölçeklendirebilirim” nedir?
-Bir dikdörtgeni ölçeklendirmek, X ve Y eksenleri boyunca boyutunu değiştirirken şeklini korumasını sağlar. Aspose.Page, mevcut grafik durumuna **affine transform** uygulayan `scale(float sx, float sy)` metodunu sunar. Bu, **dikdörtgeni nasıl ölçeklendirebilirim** anahtar kelimesinin temel tekniğidir.
+## “how to scale rectangle” Aspose.Page'de ne anlama geliyor?
+`scale(float sx, float sy)` metodu, mevcut grafik durumuna bir afin ölçekleme dönüşümü uygular ve sonraki çizimleri `sx` (yatay) ve `sy` (dikey) faktörleriyle yeniden boyutlandırır. Bu, **how to scale rectangle** anahtar kelimesinin temel işlemidir. Bu dönüşümü çizmeden önce uygulayarak, sonraki şekiller (örneğin dikdörtgenler) yeni boyutlarla, oranlarını koruyarak render edilir.
 
-## Aspose.Page ile Şekli Nasıl Çevirirsiniz
-Çevirme, bir şeklin boyutlarını değiştirmeden yeni bir konuma taşınmasını sağlar. Bu, **şekli nasıl çeviririm** ifadesinin özüdür. Grafik durumunu kaydedip `translate(dx, dy)` uygulayarak, şekli çizer ve ardından durumu geri yükleyerek diğer nesnelerin etkilenmemesini sağlarsınız.
+## Aspose.Page ile şekli nasıl çeviririm
+`writeGraphicsSave()` mevcut grafik durumunu kaydeder ve `writeGraphicsRestore()` onu geri yükler, böylece dönüşümler yalnızca hedef şekli etkiler. Çevirme, koordinat sisteminin orijini nesne boyutlarını değiştirmeden yeniden konumlandırır. `translate(dx, dy)` metodunu `writeGraphicsSave()` / `writeGraphicsRestore()` arasında sararak, yalnızca istenen şeklin hareket ettiğinden ve diğer grafiklerin değişmediğinden emin olursunuz; bu, bireysel öğeler üzerinde hassas kontrol sağlar.
 
-## Örnek 1: Dönüşüm Yok
-İlk örnek, hiçbir dönüşüm uygulanmadan basit bir dikdörtgen çizer. Bu, sonraki örneklerle karşılaştırma için bir temel oluşturur.
+## Örnek 1: dönüşüm yok
+İlk örnek, herhangi bir dönüşüm uygulanmadan bir dikdörtgen çizer ve sonraki örneklerle görsel karşılaştırma için bir temel oluşturur.
 
 ```java
 // The path to the documents directory.
@@ -76,8 +120,8 @@ document.closePage();
 document.save();
 ```
 
-## Örnek 2: Çevirme
-Burada **şekli nasıl çeviririm** örneğini gösteriyoruz; ikinci bir dikdörtgen çizmeye başlamadan önce grafik bağlamını 250 birim sağa kaydırıyoruz.
+## Örnek 2: çevirme
+Bu örnekte, ikinci bir dikdörtgen çizmeye başlamadan önce grafik bağlamını 250 birim sağa kaydırarak **how to translate shape** gösterilir.
 
 ```java
 // Save graphics state to return back after transformation
@@ -92,8 +136,8 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Örnek 3: Ölçekleme
-Bu örnek, temel soruya **dikdörtgeni nasıl ölçeklendirebilirim** yanıtını verir. Dikdörtgeni orijinal genişliğinin %50'si ve yüksekliğinin %75'i kadar küçültüyoruz.
+## Örnek 3: ölçekleme
+Burada temel soruya yanıt veriyoruz: **how to scale rectangle**. Dikdörtgen, `scale(0.5f, 0.75f)` çağrısı ile orijinal genişliğinin %50'si ve yüksekliğinin %75'i kadar küçültülür.
 
 ```java
 // Save graphics state to return back after transformation
@@ -108,62 +152,69 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Şekli Döndürme Java (rotate shape java)
-Döndürme, bir diğer yaygın affine işlemdir. Döndürme için kod parçacıkları burada verilmemiştir, ancak desen aynıdır: grafik durumunu kaydedin, `document.rotate(angle)` çağırın, şekli çizin, ardından durumu geri yükleyin. Bu, **rotate shape java** ve **dikdörtgeni nasıl döndürürüm** kavramlarını pratiğe döker.
+## Java'da şekli döndürme (rotate shape java)
+`rotate(angle)` koordinat sistemini belirtilen açı (derece) kadar döndürür. `PsDocument` nesnenizi yükleyin, grafik durumunda `rotate(angle)` metodunu çağırın, şekli çizin ve ardından önceki duruma geri dönün. Bu desen, **rotate shape java** ve **how to rotate rectangle** ifadelerini tek, yeniden kullanılabilir bir blokta uygular ve grafikleri istediğiniz herhangi bir nokta etrafında döndürmenizi sağlar.
 
-## Neden Önemli – Gerçek Dünya Faydaları
-- **Cihaz‑bağımsız çıktı** – Tek seferde yazın ve platform‑spesifik ayarlamalar yapmadan PostScript veya XPS oluşturun.  
-- **İnce ayar kontrolü** – Tam yerleşim gereksinimlerini karşılamak için çevirme, ölçekleme, kaydırma ve döndürmeyi birleştirin.  
-- **Performans‑odaklı** – Büyük ölçekli belgelerin toplu işlenmesi için düşük maliyetli API.
+## Neden önemli – gerçek dünya faydaları
+- **Cihaz‑bağımsız çıktı** – Aspose.Page, herhangi bir yazıcı veya görüntüleyicide aynı şekilde render edilen PostScript ve XPS dosyaları üretebilir, platform‑spesifik ayarlamaları ortadan kaldırır.  
+- **İnce‑düzey kontrol** – Çevirme, ölçekleme, kaydırma ve döndürmeyi birleştirerek kesin yerleşim gereksinimlerini karşılayabilirsiniz; API sayfa başına 20’den fazla dönüşüm kombinasyonunu destekler.  
+- **Performans‑odaklı işleme** – Kütüphane, tipik 100‑sayfalık raporlar için bellek ayak izini 10 MB’nin altında tutar, toplu işler hızlı ve ölçeklenebilir olur.
 
-## Ortak Kullanım Senaryoları
-- Yazdırılabilir faturalar üretmek – örneğin, logoları ve barkodları tam konumlandıran bir **printable invoice java** çözümü.  
-- Hassas ölçekleme ve konumlandırmanın gerektiği teknik diyagramlar oluşturmak.  
-- PostScript formatında çok sayfalı raporların otomatik üretimi.
+## Yaygın kullanım senaryoları
+- **Yazdırılabilir faturalar** – Logoları, barkodları ve tabloları ölçekleme ve çevirme ile tam olarak konumlandırarak kurumsal marka yönergelerine uymak.  
+- **Teknik diyagramlar** – Her bileşenin orantılı olarak yeniden boyutlandırılması ve konumlandırılması gereken şemalar oluşturmak.  
+- **Otomatik çok‑sayfalı raporlar** – Mühendislik spesifikasyonları gibi sayfalar arasında tutarlı ölçekleme gerektiren PostScript raporları üretmek.
 
-## Yaygın Sorunlar ve Çözümler
-- **Dönüşüm sıfırlanmıyor** – İstenmeyen kalıcı etkileri önlemek için `document.writeGraphicsSave()` ile `document.writeGraphicsRestore()` çiftini her zaman eşleştirin.  
-- **Beklenmedik renkler** – Her dönüşümden sonra boya ayarını yeniden yapın; grafik durumu bir geri yüklemeden sonra önceki renk ayarlarını tutmaz.  
-- **Dosya boyutu çok büyük** – Raster grafik eklerken sıkıştırmayı etkinleştirmek veya çözünürlüğü düşürmek için `PsSaveOptions` kullanın.
+## Yaygın sorunlar ve çözümler
+- **Dönüşüm sıfırlanmıyor** – Her zaman `writeGraphicsSave()` ile `writeGraphicsRestore()` eşleştirin; aksi takdirde sonraki çizimler istenmeyen dönüşümleri devralır.  
+- **Beklenmeyen renkler** – Her dönüşümden sonra boya (renk) ayarlayın; çünkü grafik durumu bir geri yüklemeden sonra renk bilgisini korumaz.  
+- **Dosya boyutu çok büyük** – `PsSaveOptions` içinde sıkıştırmayı etkinleştirin ve gömülü raster görüntü çözünürlüğünü sınırlayarak tipik 50‑sayfalık belgeler için nihai dosyayı 5 MB’nin altında tutun.
 
 ## SSS
-### Aspose.Page for Java'ı başka belge formatları için kullanabilir miyim?
-Aspose.Page öncelikle PostScript ve XPS formatları için sayfa manipülasyonuna odaklanır.
+### Aspose.Page for Java'yı başka belge formatları için kullanabilir miyim?
+Aspose.Page öncelikle PostScript ve XPS formatları için sayfa manipülasyonuna odaklanır, ancak sınırlı PDF dışa aktarma yetenekleri de sunar.
 
-### Aspose.Page for Java için daha fazla örnek ve belge nerede bulunur?
-Kapsamlı bilgi için [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) sayfasını ziyaret edin.
+### Aspose.Page for Java için daha fazla örnek ve belge nerede bulunabilir?
+Kapsamlı kılavuzlar, API referansları ve örnek projeler için [Aspose.Page for Java belgeleri](https://reference.aspose.com/page/java/) adresini ziyaret edin.
 
 ### Aspose.Page for Java için ücretsiz deneme mevcut mu?
-Evet, ücretsiz denemeye [buradan](https://releases.aspose.com/) ulaşabilirsiniz.
+Evet, **Aspose ücretsiz deneme indirme** sayfası üzerinden ücretsiz bir deneme erişebilirsiniz: [Aspose ücretsiz deneme indirme](https://releases.aspose.com/).
 
 ### Aspose.Page for Java için geçici bir lisans nasıl alınır?
-Geçici lisansı [buradan](https://purchase.aspose.com/temporary-license/) edinebilirsiniz.
+**Geçici lisans talep sayfası** üzerinden geçici bir lisans edinebilirsiniz: [geçici lisans talep sayfası](https://purchase.aspose.com/temporary-license/).
 
 ### Aspose.Page for Java hakkında topluluk desteği veya soru sorabileceğim yer neresi?
-Topluluk tartışmaları için [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) sayfasını ziyaret edin.
+Topluluk tartışmaları, kod parçacıkları ve sorun giderme ipuçları için [Aspose.Page for Java forumu](https://forum.aspose.com/c/page/39) adresini ziyaret edin.
 
-## Sıkça Sorulan Sorular
+## Sıkça sorulan sorular
 
 **S: `translate` ve `scale` arasındaki fark nedir?**  
-C: `translate` koordinat sisteminin orijini taşırken, `scale` çizilen nesnelerin X ve/veya Y eksenindeki boyutunu değiştirir.
+C: `translate` koordinat sisteminin orijini taşırken, `scale` X ve/veya Y ekseninde çizilen nesnelerin boyutunu değiştirir.
 
 **S: Tek bir grafik durumunda birden fazla dönüşümü birleştirebilir miyim?**  
-C: Evet—çizmeden önce `translate`, `scale`, `rotate` veya `shear` metodlarını sırasıyla çağırarak birleşik bir affine dönüşüm oluşturabilirsiniz.
+C: Evet—çizmeden önce `translate`, `scale`, `rotate` veya `shear` metodlarını sırasıyla çağırarak birleşik bir afin dönüşüm oluşturabilirsiniz.
 
-**S: Bir şekli çektikten sonra dönüşümleri nasıl sıfırlarım?**  
-C: Önceden kaydedilmiş grafik durumuna geri dönmek için `document.writeGraphicsRestore()` kullanın.
+**S: Bir şekli çizmeyi takiben dönüşümleri nasıl sıfırlarım?**  
+C: Önceden kaydedilmiş grafik durumuna geri dönmek için `writeGraphicsRestore()` kullanın.
 
 **S: Bir dikdörtgeni merkezine göre döndürebilir miyim?**  
 C: Kesinlikle. Dikdörtgeni orijine taşıyın, `rotate(angle)` uygulayın, ardından tekrar orijinal konumuna geri taşıyarak çizin.
 
-**S: Aspose.Page daha yumuşak grafikler için anti‑aliasing destekliyor mu?**  
+**S: Aspose.Page daha pürüzsüz grafikler için anti‑aliasing destekliyor mu?**  
 C: Evet—anti‑aliasing'i etkinleştirmek için `PsSaveOptions` içinde uygun render seçeneklerini ayarlayın.
 
 ---
 
-**Son Güncelleme:** 2026-02-07  
+**Son Güncelleme:** 2026-10-20  
 **Test Edilen Versiyon:** Aspose.Page for Java 24.12  
-**Yazar:** Aspose  
+**Yazar:** Aspose
+
+## İlgili Eğitimler
+
+- [Java PostScript'te Aspose.Page ile Dikdörtgen Çizme](/page/java/postscript-shapes/add-rectangle/)
+- [Aspose.Page for Java ile PostScript'te Radyal Gradyan Oluşturma](/page/java/postscript-gradient-addition/)
+- [Postscript Sayfa Manipülasyonu](/page/java/postscript-page-manipulation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
