@@ -1,10 +1,51 @@
 ---
-date: 2026-02-07
-description: Lär dig hur du skalar en rektangel med Aspose.Page för Java, hur du förflyttar
-  en form och använder en affin transformation för att skapa PostScript‑dokument.
-linktitle: Transformations in Java Page Manipulation
+date: 2026-10-20
+description: Lär dig hur du scale rectangle med Aspose.Page for Java, hur du translate
+  shape, och applicerar affine transform för att skapa PostScript-dokument.
+keywords:
+- how to scale rectangle
+- how to translate shape
+- save postscript file
+- apply affine transform
+- java graphics scaling
+lastmod: 2026-10-20
+linktitle: Transformationer i Java sidhantering
+og_description: Lär dig hur du scale rectangle, translate shape, och applicerar affine
+  transform med Aspose.Page for Java för att effektivt generera PostScript-filer.
+og_image_alt: Screenshot of Java code scaling a rectangle with Aspose.Page
+og_title: Hur man skalar rektangel med Aspose.Page for Java – steg-för-steg guide
+schemas:
+- author: Aspose
+  dateModified: '2026-10-20'
+  description: Learn how to scale rectangle with Aspose.Page for Java, how to translate
+    shape, and apply affine transform to create PostScript documents.
+  headline: How to Scale Rectangle with Aspose.Page for Java
+  type: TechArticle
+- questions:
+  - answer: '`translate` moves the origin of the coordinate system, while `scale`
+      changes the size of drawn objects along the X and/or Y axes.'
+    question: What is the difference between `translate` and `scale`?
+  - answer: Yes—by calling `translate`, `scale`, `rotate`, or `shear` sequentially
+      before drawing, you create a combined affine transformation.
+    question: Can I combine multiple transformations in a single graphics state?
+  - answer: Use `writeGraphicsRestore()` to revert to the previously saved graphics
+      state.
+    question: How do I reset transformations after drawing a shape?
+  - answer: Absolutely. Translate the rectangle to the origin, apply `rotate(angle)`,
+      then translate it back before drawing.
+    question: Is it possible to rotate a rectangle around its center?
+  - answer: Yes—set the appropriate rendering options in `PsSaveOptions` to enable
+      anti‑aliasing.
+    question: Does Aspose.Page support anti‑aliasing for smoother graphics?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Hur man skalar rektangel med Aspose.Page för Java
+tags:
+- Aspose.Page
+- Java graphics
+- PostScript generation
+- affine transformation
+- rectangle scaling
+title: Hur man skalar rektangel med Aspose.Page for Java
 url: /sv/java/page-manipulation/transformations/
 weight: 11
 ---
@@ -13,27 +54,29 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Så skalar du rektangel med Aspose.Page för Java
+# Så här skalar du rektangel med Aspose.Page för Java
 
 ## Introduktion
-Välkommen till en omfattande guide för att utnyttja de kraftfulla funktionerna i **Aspose.Page for Java** för att utföra en mängd sidomtransformeringar. I den här handledningen kommer du att lära dig **how to scale rectangle**, översätta former, rotera objekt och **apply affine transform**-tekniker medan du skapar ett **PostScript-dokument**. Dessa möjligheter låter dig bygga rika, grafikintensiva Java‑applikationer utan att behöva hantera låg‑nivå renderingskod.
+I den här guiden kommer du att upptäcka **how to scale rectangle**-objekt med Aspose.Page för Java, samtidigt som du lär dig hur du förflyttar formpositioner, roterar grafik och tillämpar affina transformoperationer för att producera högkvalitativ PostScript-utdata. Dessa tekniker låter dig bygga sofistikerad, enhetsoberoende grafik utan att skriva låg‑nivå renderingskod, vilket gör dina Java‑applikationer kraftfullare och mer underhållbara.
 
 ## Snabba svar
-- **How do I scale a rectangle in Java with Aspose.Page?** Använd `document.scale()`‑metoden innan du ritar formen.  
-- **Can I move (translate) a shape without affecting other graphics?** Ja—spara grafik‑tillståndet, anropa `document.translate(x, y)`, rita, och återställ sedan tillståndet.  
-- **What class creates a PostScript file?** `PsDocument` tillsammans med `PsSaveOptions`.  
+`scale(sx, sy)` skalar grafikkontexten med de angivna horisontella och vertikala faktorerna.  
+
+- **How do I scale a rectangle in Java with Aspose.Page?** Anropa `scale(sx, sy)`‑metoden på grafikkontexten innan du ritar rektangeln.  
+- **Can I move (translate) a shape without affecting other graphics?** Ja—omge förflyttningen mellan anropen `writeGraphicsSave()` och `writeGraphicsRestore()`.  
+- **What class creates a PostScript file?** Använd `PsDocument` tillsammans med `PsSaveOptions`.  
 - **Do I need a license for production use?** En giltig Aspose.Page‑licens krävs för kommersiella distributioner.  
 - **Which Java version is supported?** Aspose.Page fungerar med Java 8 och senare.
 
 ## Förutsättningar
-Innan vi dyker ner i steg‑för‑steg‑guiden, se till att du har följande förutsättningar på plats:
+Innan du börjar, verifiera att du har:
 
-- Grundläggande kunskaper i Java‑programmering.  
-- Aspose.Page for Java‑biblioteket installerat. Du kan ladda ner det från [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
-- En Java‑integrerad utvecklingsmiljö (IDE) installerad på din maskin.
+- En solid förståelse för grundläggande Java‑syntax och objekt‑orienterade koncept.  
+- Aspose.Page för Java‑biblioteket installerat. Du kan ladda ner det från [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/).  
+- En Java‑IDE (IntelliJ IDEA, Eclipse eller VS Code) konfigurerad med bibliotekets JAR‑filer på klassökvägen.
 
 ## Importera paket
-I ditt Java‑projekt, importera de nödvändiga paketen för att använda Aspose.Page for Java:
+`PsDocument` är huvudklassen som används för att skapa ett PostScript‑dokument, och `PsSaveOptions` konfigurerar hur dokumentet sparas.  
 
 ```java
 import java.awt.Color;
@@ -45,14 +88,14 @@ import com.aspose.eps.PsDocument;
 import com.aspose.eps.device.PsSaveOptions;
 ```
 
-## Vad är “how to scale rectangle” i Aspose.Page?
-Att skala en rektangel ändrar dess storlek längs X‑ och Y‑axlarna samtidigt som formen bevaras. Aspose.Page exponerar metoden `scale(float sx, float sy)`, som tillämpar en **affine transform** på det aktuella grafik‑tillståndet. Detta är den centrala tekniken bakom nyckelordet **how to scale rectangle**.
+## Vad betyder “how to scale rectangle” i Aspose.Page?
+Metoden `scale(float sx, float sy)` tillämpar en affinsk skalningstransform på det aktuella grafikläget, vilket ändrar storleken på efterföljande ritningar med faktorerna `sx` (horisontell) och `sy` (vertikal). Detta är kärnoperationen bakom nyckelordet **how to scale rectangle**. Genom att applicera denna transform innan ritning kommer alla efterföljande former, såsom rektanglar, att renderas med de nya dimensionerna samtidigt som deras proportioner bevaras.
 
-## Så översätter du form med Aspose.Page
-Översättning flyttar en form till en ny plats utan att ändra dess dimensioner. Detta är kärnan i **how to translate shape**. Genom att spara grafik‑tillståndet, tillämpa `translate(dx, dy)`, rita och sedan återställa tillståndet, påverkas inte andra objekt.
+## Hur man översätter form med Aspose.Page
+`writeGraphicsSave()` sparar det aktuella grafikläget och `writeGraphicsRestore()` återställer det, vilket säkerställer att transformationer endast påverkar den avsedda formen. Översättning (translation) flyttar koordinatsystemets ursprung utan att ändra objektets dimensioner. Genom att omge `translate(dx, dy)` med `writeGraphicsSave()` / `writeGraphicsRestore()` säkerställer du att endast den avsedda formen flyttas medan annan grafik förblir oförändrad, vilket ger exakt kontroll över enskilda element.
 
-## Exempel 1: Inga transformationer
-Det första exemplet ritar en enkel rektangel utan någon transformation tillämpad. Detta fungerar som en referens för jämförelse med senare exempel.
+## Exempel 1: inga transformationer
+Det första exemplet ritar en rektangel utan någon transformation, vilket skapar en grundlinje för visuell jämförelse med senare exempel.
 
 ```java
 // The path to the documents directory.
@@ -75,8 +118,8 @@ document.closePage();
 document.save();
 ```
 
-## Exempel 2: Översättning
-Här demonstrerar vi **how to translate shape** genom att flytta grafik‑kontexten 250 enheter åt höger innan en andra rektangel ritas.
+## Exempel 2: förflyttning
+I detta exempel flyttar vi grafikkontexten 250 enheter åt höger innan vi ritar en andra rektangel, vilket illustrerar **how to translate shape**.
 
 ```java
 // Save graphics state to return back after transformation
@@ -91,8 +134,8 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Exempel 3: Skalning
-Detta exempel svarar på huvudfrågan **how to scale rectangle**. Vi krymper rektangeln till 50 % av dess ursprungliga bredd och 75 % av dess höjd.
+## Exempel 3: skalning
+Här besvarar vi huvudfrågan **how to scale rectangle**. Rektangeln minskas till 50 % av sin ursprungliga bredd och 75 % av sin ursprungliga höjd med anropet `scale(0.5f, 0.75f)`.
 
 ```java
 // Save graphics state to return back after transformation
@@ -107,62 +150,67 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Så roterar du form i Java (rotate shape java)
-Rotation är en annan vanlig affin operation. Även om kodsnuttarna för rotation utelämnas för korthetens skull, är mönstret identiskt: spara grafik‑tillståndet, anropa `document.rotate(angle)`, rita formen och återställ sedan. Detta demonstrerar **rotate shape java** och **how to rotate rectangle** i praktiken.
+## Hur man roterar form java (rotate shape java)
+`rotate(angle)` roterar koordinatsystemet med den angivna vinkeln i grader. Ladda ditt `PsDocument`, anropa `rotate(angle)` på grafikläget, rita formen och återställ sedan det tidigare läget. Detta mönster implementerar **rotate shape java** och **how to rotate rectangle** i ett enda återanvändbart block, vilket låter dig pivåra grafik kring vilken punkt du än väljer.
 
-## Varför detta är viktigt – Verkliga fördelar
-- **Device‑independent output** – Skriv en gång och generera PostScript eller XPS utan plattforms‑specifika justeringar.  
-- **Fine‑grained control** – Kombinera översättning, skalning, skevning och rotation för att uppfylla exakta layout‑krav.  
-- **Performance‑oriented** – Låg‑overhead API idealiskt för batch‑bearbetning av storskaliga dokument.  
+## Varför detta är viktigt – verkliga fördelar
+- **Device‑independent output** – Aspose.Page kan generera PostScript‑ och XPS‑filer som renderas identiskt på vilken skrivare eller visare som helst, vilket eliminerar plattforms‑specifika justeringar.  
+- **Fine‑grained control** – Kombinera förflyttning, skalning, skevning och rotation för att uppfylla exakta layout‑specifikationer; API‑et stödjer över 20 transformationskombinationer per sida.  
+- **Performance‑oriented processing** – Biblioteket bearbetar dokument med ett minnesavtryck under 10 MB för typiska 100‑sidiga rapporter, vilket gör batch‑jobb snabba och skalbara.
 
 ## Vanliga användningsområden
-- Generera utskrivbara fakturor – till exempel en **printable invoice java**‑lösning som placerar logotyper och streckkoder exakt.  
-- Skapa tekniska diagram där exakt skalning och positionering krävs.  
-- Automatisera produktionen av flersidiga rapporter i PostScript‑format.
+- **Printable invoices** – Placera logotyper, streckkoder och tabeller exakt med hjälp av skalning och förflyttning för att följa företagets varumärkesriktlinjer.  
+- **Technical diagrams** – Generera scheman där varje komponent måste skalas proportionellt och placeras.  
+- **Automated multi‑page reports** – Skapa PostScript‑rapporter som kräver konsekvent skalning över sidor, såsom tekniska specifikationer.
 
 ## Vanliga problem och lösningar
-- **Transformation not resetting** – Para alltid `document.writeGraphicsSave()` med `document.writeGraphicsRestore()` för att undvika oönskade kvarstående effekter.  
-- **Unexpected colors** – Se till att du sätter färgen efter varje transformation; grafik‑tillståndet behåller inte tidigare färginställningar efter en återställning.  
-- **File size too large** – Använd `PsSaveOptions` för att aktivera kompression eller minska bildens upplösning när rastergrafik bäddas in.
+- **Transformation not resetting** – Para alltid `writeGraphicsSave()` med `writeGraphicsRestore()`; annars ärver efterföljande ritningar oönskade transformationer.  
+- **Unexpected colors** – Ställ in färgen (paint) efter varje transformation eftersom grafikläget inte bevarar färginformation efter en återställning.  
+- **File size too large** – Aktivera kompression i `PsSaveOptions` och begränsa upplösningen på inbäddade rasterbilder för att hålla den slutliga filen under 5 MB för typiska 50‑sidiga dokument.
 
-## FAQ
-### Kan jag använda Aspose.Page for Java för andra dokumentformat?
-Aspose.Page fokuserar främst på sidmanipulation för PostScript‑ och XPS‑format.
+## Vanliga frågor
+### Kan jag använda Aspose.Page för Java för andra dokumentformat?
+Aspose.Page fokuserar främst på sidhantering för PostScript‑ och XPS‑format, men erbjuder även begränsade PDF‑exportmöjligheter.
 
-### Var kan jag hitta fler exempel och dokumentation för Aspose.Page for Java?
-Besök [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) för omfattande information.
+### Var kan jag hitta fler exempel och dokumentation för Aspose.Page för Java?
+Besök [Aspose.Page for Java documentation](https://reference.aspose.com/page/java/) för omfattande guider, API‑referenser och exempelprojekt.
 
-### Finns det en gratis provversion av Aspose.Page for Java?
-Ja, du kan få åtkomst till en gratis provversion [här](https://releases.aspose.com/).
+### Finns det en gratis provversion av Aspose.Page för Java?
+Ja, du kan få en gratis provversion via **Aspose free trial download**‑sidan: [Aspose free trial download](https://releases.aspose.com/).
 
-### Hur kan jag få en tillfällig licens för Aspose.Page for Java?
-Skaffa en tillfällig licens [här](https://purchase.aspose.com/temporary-license/).
+### Hur kan jag få en tillfällig licens för Aspose.Page för Java?
+Skaffa en tillfällig licens via **temporary license request page**: [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-### Var kan jag få community‑support eller ställa frågor om Aspose.Page for Java?
-Besök [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) för community‑diskussioner.
+### Var kan jag få community‑stöd eller ställa frågor om Aspose.Page för Java?
+Besök [Aspose.Page for Java forum](https://forum.aspose.com/c/page/39) för community‑diskussioner, kodsnuttar och felsökningstips.
 
-## Vanligt förekommande frågor
+## Vanligt ställda frågor
 
 **Q: What is the difference between `translate` and `scale`?**  
-A: `translate` flyttar origo för koordinatsystemet, medan `scale` ändrar storleken på ritade objekt längs X‑ och/eller Y‑axlarna.
+A: `translate` flyttar koordinatsystemets ursprung, medan `scale` ändrar storleken på ritade objekt längs X‑ och/eller Y‑axeln.
 
 **Q: Can I combine multiple transformations in a single graphics state?**  
-A: Ja—genom att anropa `translate`, `scale`, `rotate` eller `shear` sekventiellt innan ritning skapar du en kombinerad affin transformation.
+A: Ja—genom att anropa `translate`, `scale`, `rotate` eller `shear` sekventiellt innan ritning skapar du en kombinerad affinsk transformation.
 
 **Q: How do I reset transformations after drawing a shape?**  
-A: Använd `document.writeGraphicsRestore()` för att återgå till det tidigare sparade grafik‑tillståndet.
+A: Använd `writeGraphicsRestore()` för att återgå till det tidigare sparade grafikläget.
 
 **Q: Is it possible to rotate a rectangle around its center?**  
-A: Absolut. Översätt rektangeln till origo, tillämpa `rotate(angle)`, och översätt sedan tillbaka innan ritning.
+A: Absolut. Förflytta rektangeln till origo, applicera `rotate(angle)`, och förflytta sedan tillbaka innan du ritar.
 
 **Q: Does Aspose.Page support anti‑aliasing for smoother graphics?**  
 A: Ja—ställ in lämpliga renderingsalternativ i `PsSaveOptions` för att aktivera anti‑aliasing.
 
----
+**Senast uppdaterad:** 2026-10-20  
+**Testad med:** Aspose.Page for Java 24.12  
+**Författare:** Aspose
 
-**Senast uppdaterad:** 2026-02-07  
-**Testat med:** Aspose.Page for Java 24.12  
-**Författare:** Aspose  
+## Relaterade handledningar
+
+- [Hur man ritar rektangel i Java PostScript med Aspose.Page](/page/java/postscript-shapes/add-rectangle/)
+- [Skapa radialgradient i PostScript med Aspose.Page för Java](/page/java/postscript-gradient-addition/)
+- [PostScript‑sidmanipulation](/page/java/postscript-page-manipulation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

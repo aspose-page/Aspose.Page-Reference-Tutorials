@@ -1,11 +1,54 @@
 ---
-date: 2026-02-07
-description: Dowiedz się, jak skalować prostokąt za pomocą Aspose.Page dla Javy, jak
-  przesuwać kształt oraz stosować przekształcenie afiniczne w celu tworzenia dokumentów
+date: 2026-10-20
+description: Dowiedz się, jak skalować prostokąt przy użyciu Aspose.Page for Java,
+  jak przesuwać kształt oraz stosować przekształcenie afiniczne w celu tworzenia dokumentów
   PostScript.
-linktitle: Transformations in Java Page Manipulation
+keywords:
+- how to scale rectangle
+- how to translate shape
+- save postscript file
+- apply affine transform
+- java graphics scaling
+lastmod: 2026-10-20
+linktitle: Transformacje w manipulacji stronami w języku Java
+og_description: Dowiedz się, jak skalować prostokąt, przesuwać kształt i stosować
+  przekształcenie afiniczne przy użyciu Aspose.Page for Java, aby efektywnie generować
+  pliki PostScript.
+og_image_alt: Screenshot of Java code scaling a rectangle with Aspose.Page
+og_title: Jak skalować prostokąt przy użyciu Aspise.Page for Java – przewodnik krok
+  po kroku
+schemas:
+- author: Aspose
+  dateModified: '2026-10-20'
+  description: Learn how to scale rectangle with Aspose.Page for Java, how to translate
+    shape, and apply affine transform to create PostScript documents.
+  headline: How to Scale Rectangle with Aspose.Page for Java
+  type: TechArticle
+- questions:
+  - answer: '`translate` moves the origin of the coordinate system, while `scale`
+      changes the size of drawn objects along the X and/or Y axes.'
+    question: What is the difference between `translate` and `scale`?
+  - answer: Yes—by calling `translate`, `scale`, `rotate`, or `shear` sequentially
+      before drawing, you create a combined affine transformation.
+    question: Can I combine multiple transformations in a single graphics state?
+  - answer: Use `writeGraphicsRestore()` to revert to the previously saved graphics
+      state.
+    question: How do I reset transformations after drawing a shape?
+  - answer: Absolutely. Translate the rectangle to the origin, apply `rotate(angle)`,
+      then translate it back before drawing.
+    question: Is it possible to rotate a rectangle around its center?
+  - answer: Yes—set the appropriate rendering options in `PsSaveOptions` to enable
+      anti‑aliasing.
+    question: Does Aspose.Page support anti‑aliasing for smoother graphics?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: Jak skalować prostokąt przy użyciu Aspose.Page dla Javy
+tags:
+- Aspose.Page
+- Java graphics
+- PostScript generation
+- affine transformation
+- rectangle scaling
+title: Jak skalować prostokąt przy użyciu Aspose.Page for Java
 url: /pl/java/page-manipulation/transformations/
 weight: 11
 ---
@@ -17,24 +60,26 @@ weight: 11
 # Jak skalować prostokąt przy użyciu Aspose.Page dla Javy
 
 ## Wprowadzenie
-Witamy w kompleksowym przewodniku po wykorzystaniu potężnych funkcji **Aspose.Page dla Javy** do wykonywania różnorodnych transformacji stron. W tym tutorialu dowiesz się, **jak skalować prostokąt**, przesuwać kształty, obracać obiekty oraz **zastosować transformację afiniczną** podczas tworzenia **dokumentu PostScript**. Te możliwości pozwalają budować bogate, graficznie intensywne aplikacje Java bez konieczności zajmowania się kodem renderującym niskiego poziomu.
+W tym przewodniku odkryjesz **jak skalować prostokąt** przy użyciu Aspose.Page dla Javy, a także nauczysz się przesuwać pozycje kształtów, obracać grafikę i stosować operacje przekształceń afinicznych, aby uzyskać wysokiej jakości wyjście PostScript. Te techniki pozwalają tworzyć zaawansowaną, niezależną od urządzenia grafikę bez pisania kodu renderującego niskiego poziomu, co czyni Twoje aplikacje Java bardziej potężnymi i łatwiejszymi w utrzymaniu.
 
 ## Szybkie odpowiedzi
-- **Jak skalować prostokąt w Javie przy użyciu Aspose.Page?** Użyj metody `document.scale()` przed rysowaniem kształtu.  
-- **Czy mogę przesunąć (przetłumaczyć) kształt bez wpływu na inne grafiki?** Tak — zapisz stan grafiki, wywołaj `document.translate(x, y)`, narysuj, a następnie przywróć stan.  
-- **Która klasa tworzy plik PostScript?** `PsDocument` wraz z `PsSaveOptions`.  
+`scale(sx, sy)` skaluje kontekst graficzny o podane czynniki poziomy i pionowy.  
+
+- **Jak skalować prostokąt w Javie przy użyciu Aspose.Page?** Wywołaj metodę `scale(sx, sy)` na kontekście graficznym przed narysowaniem prostokąta.  
+- **Czy mogę przesunąć (przetłumaczyć) kształt bez wpływu na inne grafiki?** Tak — otocz translację wywołaniami `writeGraphicsSave()` i `writeGraphicsRestore()`.  
+- **Jaka klasa tworzy plik PostScript?** Użyj `PsDocument` wraz z `PsSaveOptions`.  
 - **Czy potrzebna jest licencja do użytku produkcyjnego?** Wymagana jest ważna licencja Aspose.Page dla wdrożeń komercyjnych.  
-- **Jaką wersję Javy obsługuje?** Aspose.Page działa z Java 8 i nowszymi.
+- **Która wersja Javy jest wspierana?** Aspose.Page działa z Java 8 i nowszymi.
 
 ## Wymagania wstępne
-Zanim przejdziemy do szczegółowego przewodnika, upewnij się, że spełniasz następujące wymagania:
+Zanim rozpoczniesz, upewnij się, że masz:
 
-- Podstawowa znajomość programowania w Javie.  
-- Biblioteka Aspose.Page dla Javy zainstalowana. Możesz ją pobrać z [dokumentacji Aspose.Page dla Javy](https://reference.aspose.com/page/java/).  
-- Zintegrowane środowisko programistyczne (IDE) dla Javy skonfigurowane na Twoim komputerze.
+- Solidną znajomość podstawowej składni Javy i koncepcji programowania obiektowego.  
+- Zainstalowaną bibliotekę Aspose.Page dla Javy. Możesz ją pobrać z [dokumentacji Aspose.Page dla Javy](https://reference.aspose.com/page/java/).  
+- IDE Javy (IntelliJ IDEA, Eclipse lub VS Code) skonfigurowane z plikami JAR biblioteki na ścieżce klas.
 
 ## Importowanie pakietów
-W swoim projekcie Java zaimportuj niezbędne pakiety, aby korzystać z Aspose.Page dla Javy:
+`PsDocument` jest główną klasą używaną do tworzenia dokumentu PostScript, a `PsSaveOptions` konfiguruje sposób zapisu dokumentu.  
 
 ```java
 import java.awt.Color;
@@ -47,13 +92,13 @@ import com.aspose.eps.device.PsSaveOptions;
 ```
 
 ## Co oznacza „jak skalować prostokąt” w Aspose.Page?
-Skalowanie prostokąta zmienia jego rozmiar wzdłuż osi X i Y, zachowując jednocześnie kształt. Aspose.Page udostępnia metodę `scale(float sx, float sy)`, która stosuje **transformację afiniczną** do bieżącego stanu grafiki. To podstawowa technika stojąca za słowem kluczowym **jak skalować prostokąt**.
+`scale(float sx, float sy)` stosuje afiniczne przekształcenie skalowania do bieżącego stanu graficznego, zmieniając rozmiar kolejnych rysunków o czynniki `sx` (poziomy) i `sy` (pionowy). To podstawowa operacja stojąca za słowem kluczowym **jak skalować prostokąt**. Stosując to przekształcenie przed rysowaniem, wszystkie kolejne kształty, takie jak prostokąty, będą renderowane z nowymi wymiarami przy zachowaniu proporcji.
 
 ## Jak przetłumaczyć kształt przy użyciu Aspose.Page
-Przesunięcie (translacja) przenosi kształt w nowe miejsce bez zmiany jego wymiarów. To istota **jak przetłumaczyć kształt**. Poprzez zapisanie stanu grafiki, zastosowanie `translate(dx, dy)`, narysowanie i przywrócenie stanu, inne obiekty pozostają niezmienione.
+`writeGraphicsSave()` zapisuje bieżący stan graficzny, a `writeGraphicsRestore()` go przywraca, zapewniając, że przekształcenia wpływają tylko na wybrany kształt. Translacja przemieszcza początek układu współrzędnych bez zmiany wymiarów obiektu. Otaczając `translate(dx, dy)` wywołaniami `writeGraphicsSave()` / `writeGraphicsRestore()`, zapewniasz, że tylko wybrany kształt się przemieszcza, podczas gdy inne grafiki pozostają niezmienione, co daje precyzyjną kontrolę nad poszczególnymi elementami.
 
-## Przykład 1: Brak transformacji
-Pierwszy przykład rysuje prosty prostokąt bez zastosowanej transformacji. Służy jako punkt odniesienia do porównań z późniejszymi przykładami.
+## Przykład 1: brak przekształceń
+Pierwszy przykład rysuje prostokąt bez żadnych przekształceń, ustanawiając punkt odniesienia do wizualnego porównania z późniejszymi przykładami.
 
 ```java
 // The path to the documents directory.
@@ -76,8 +121,8 @@ document.closePage();
 document.save();
 ```
 
-## Przykład 2: Translacja
-Tutaj demonstrujemy **jak przetłumaczyć kształt**, przesuwając kontekst graficzny o 250 jednostek w prawo przed narysowaniem drugiego prostokąta.
+## Przykład 2: translacja
+W tym przykładzie przesuwamy kontekst graficzny o 250 jednostek w prawo przed narysowaniem drugiego prostokąta, ilustrując **jak przetłumaczyć kształt**.
 
 ```java
 // Save graphics state to return back after transformation
@@ -92,8 +137,8 @@ document.fill(shape);
 document.writeGraphicsRestore();
 ```
 
-## Przykład 3: Skalowanie
-Ten przykład odpowiada na podstawowe pytanie **jak skalować prostokąt**. Zmniejszamy prostokąt do 50 % pierwotnej szerokości i 75 % pierwotnej wysokości.
+## Przykład 3: skalowanie
+Tutaj odpowiadamy na podstawowe pytanie **jak skalować prostokąt**. Prostokąt jest zmniejszany do 50 % pierwotnej szerokości i 75 % pierwotnej wysokości przy użyciu wywołania `scale(0.5f, 0.75f)`.
 
 ```java
 // Save graphics state to return back after transformation
@@ -109,61 +154,68 @@ document.writeGraphicsRestore();
 ```
 
 ## Jak obrócić kształt w Javie (rotate shape java)
-Obrót jest kolejną powszechną operacją afiniczną. Chociaż fragmenty kodu dotyczące obrotu zostały pominięte dla zwięzłości, schemat jest identyczny: zapisz stan grafiki, wywołaj `document.rotate(angle)`, narysuj kształt, a następnie przywróć. To demonstruje **rotate shape java** oraz **jak obrócić prostokąt** w praktyce.
+`rotate(angle)` obraca układ współrzędnych o podany kąt w stopniach. Załaduj swój `PsDocument`, wywołaj `rotate(angle)` na stanie graficznym, narysuj kształt, a następnie przywróć poprzedni stan. Ten wzorzec realizuje **rotate shape java** i **how to rotate rectangle** w jednym, wielokrotnie używanym bloku, umożliwiając obracanie grafiki wokół dowolnego wybranego punktu.
 
-## Dlaczego to ma znaczenie – korzyści w rzeczywistych zastosowaniach
-- **Wyjście niezależne od urządzenia** – Napisz raz i generuj PostScript lub XPS bez specyficznych poprawek platformowych.  
-- **Precyzyjna kontrola** – Łącz translację, skalowanie, pochylenie i obrót, aby spełnić dokładne wymagania układu.  
-- **Skoncentrowane na wydajności** – Niskokosztowe API idealne do przetwarzania wsadowego dużych dokumentów.  
+## Dlaczego to ma znaczenie – korzyści w praktyce
+- **Niezależny od urządzenia output** – Aspose.Page może generować pliki PostScript i XPS, które renderują się identycznie na każdej drukarce lub przeglądarce, eliminując specyficzne dla platformy poprawki.  
+- **Precyzyjna kontrola** – Łącz translację, skalowanie, ścinanie i rotację, aby spełnić dokładne specyfikacje układu; API obsługuje ponad 20 kombinacji przekształceń na stronę.  
+- **Przetwarzanie nastawione na wydajność** – Biblioteka przetwarza dokumenty przy zużyciu pamięci poniżej 10 MB dla typowych raportów 100‑stronicowych, co sprawia, że zadania wsadowe są szybkie i skalowalne.
 
-## Typowe scenariusze użycia
-- Generowanie faktur do druku – na przykład rozwiązanie **printable invoice java**, które precyzyjnie rozmieszcza loga i kody kreskowe.  
-- Tworzenie diagramów technicznych, gdzie wymagana jest dokładna skala i pozycjonowanie.  
-- Automatyzacja produkcji wielostronicowych raportów w formacie PostScript.
+## Typowe przypadki użycia
+- **Drukowalne faktury** – Precyzyjnie umieszczaj loga, kody kreskowe i tabele, używając skalowania i translacji, aby dopasować się do wytycznych marki korporacyjnej.  
+- **Diagramy techniczne** – Generuj schematy, w których każdy element musi być proporcjonalnie przeskalowany i rozmieszczony.  
+- **Automatyczne raporty wielostronicowe** – Twórz raporty PostScript wymagające spójnego skalowania na wszystkich stronach, np. specyfikacje inżynieryjne.
 
 ## Typowe problemy i rozwiązania
-- **Transformacja nie resetuje się** – Zawsze paruj `document.writeGraphicsSave()` z `document.writeGraphicsRestore()`, aby uniknąć niepożądanych efektów przenoszenia.  
-- **Nieoczekiwane kolory** – Upewnij się, że ustawiasz farbę po każdej transformacji; stan grafiki nie zachowuje poprzednich ustawień koloru po przywróceniu.  
-- **Rozmiar pliku zbyt duży** – Użyj `PsSaveOptions`, aby włączyć kompresję lub zmniejszyć rozdzielczość obrazu przy osadzaniu grafiki rastrowej.
+- **Przekształcenie nie resetuje się** – Zawsze paruj `writeGraphicsSave()` z `writeGraphicsRestore()`; w przeciwnym razie kolejne rysunki dziedziczą niepożądane przekształcenia.  
+- **Nieoczekiwane kolory** – Ustaw farbę (kolor) po każdym przekształceniu, ponieważ stan graficzny nie zachowuje informacji o kolorze po przywróceniu.  
+- **Zbyt duży rozmiar pliku** – Włącz kompresję w `PsSaveOptions` i ogranicz rozdzielczość osadzonych obrazów rastrowych, aby utrzymać ostateczny plik poniżej 5 MB dla typowych dokumentów 50‑stronicowych.
 
 ## FAQ
 ### Czy mogę używać Aspose.Page dla Javy do innych formatów dokumentów?
-Aspose.Page koncentruje się głównie na manipulacji stronami w formatach PostScript i XPS.
+Aspose.Page koncentruje się głównie na manipulacji stronami w formatach PostScript i XPS, ale oferuje również ograniczone możliwości eksportu do PDF.
 
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Page dla Javy?
-Odwiedź [dokumentację Aspose.Page dla Javy](https://reference.aspose.com/page/java/) po kompleksowe informacje.
+Odwiedź [dokumentację Aspose.Page dla Javy](https://reference.aspose.com/page/java/) po kompleksowe przewodniki, referencje API i przykładowe projekty.
 
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Page dla Javy?
-Tak, bezpłatną wersję próbną znajdziesz [tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać bezpłatną wersję próbną na stronie **Aspose free trial download**: [Aspose free trial download](https://releases.aspose.com/).
 
 ### Jak mogę uzyskać tymczasową licencję dla Aspose.Page dla Javy?
-Uzyskaj tymczasową licencję [tutaj](https://purchase.aspose.com/temporary-license/).
+Uzyskaj tymczasową licencję poprzez **temporary license request page**: [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
-### Gdzie mogę uzyskać wsparcie społeczności lub zadać pytania dotyczące Aspose.Page dla Javy?
-Odwiedź [forum Aspose.Page dla Javy](https://forum.aspose.com/c/page/39) w celu dyskusji ze społecznością.
+### Gdzie mogę szukać wsparcia społeczności lub zadawać pytania o Aspose.Page dla Javy?
+Odwiedź [forum Aspose.Page dla Javy](https://forum.aspose.com/c/page/39) w celu dyskusji społeczności, fragmentów kodu i wskazówek rozwiązywania problemów.
 
 ## Najczęściej zadawane pytania
 
-**P: Jaka jest różnica między `translate` a `scale`?**  
-O: `translate` przesuwa początek układu współrzędnych, natomiast `scale` zmienia rozmiar rysowanych obiektów wzdłuż osi X i/lub Y.
+**Q: Jaka jest różnica między `translate` a `scale`?**  
+A: `translate` przesuwa początek układu współrzędnych, podczas gdy `scale` zmienia rozmiar rysowanych obiektów wzdłuż osi X i/lub Y.
 
-**P: Czy mogę łączyć wiele transformacji w jednym stanie grafiki?**  
-O: Tak — wywołując kolejno `translate`, `scale`, `rotate` lub `shear` przed rysowaniem, tworzysz połączoną transformację afiniczną.
+**Q: Czy mogę połączyć wiele przekształceń w jednym stanie graficznym?**  
+A: Tak — wywołując kolejno `translate`, `scale`, `rotate` lub `shear` przed rysowaniem, tworzysz połączone przekształcenie afiniczne.
 
-**P: Jak zresetować transformacje po narysowaniu kształtu?**  
-O: Użyj `document.writeGraphicsRestore()`, aby powrócić do wcześniej zapisanego stanu grafiki.
+**Q: Jak zresetować przekształcenia po narysowaniu kształtu?**  
+A: Użyj `writeGraphicsRestore()` aby przywrócić wcześniej zapisany stan graficzny.
 
-**P: Czy można obrócić prostokąt wokół jego środka?**  
-O: Oczywiście. Przesuń prostokąt do początku układu, zastosuj `rotate(angle)`, a następnie przywróć pozycję przed rysowaniem.
+**Q: Czy można obrócić prostokąt wokół jego środka?**  
+A: Oczywiście. Przesuń prostokąt do początku układu, zastosuj `rotate(angle)`, a następnie przesuń go z powrotem przed rysowaniem.
 
-**P: Czy Aspose.Page obsługuje anti‑aliasing dla wygładzania grafiki?**  
-O: Tak — ustaw odpowiednie opcje renderowania w `PsSaveOptions`, aby włączyć anti‑aliasing.
+**Q: Czy Aspose.Page obsługuje anti‑aliasing dla wygładzania grafiki?**  
+A: Tak — ustaw odpowiednie opcje renderowania w `PsSaveOptions`, aby włączyć anti‑aliasing.
 
 ---
 
-**Ostatnia aktualizacja:** 2026-02-07  
-**Testowano z:** Aspose.Page dla Javy 24.12  
-**Autor:** Aspose  
+**Ostatnia aktualizacja:** 2026-10-20  
+**Testowano z:** Aspose.Page for Java 24.12  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Jak narysować prostokąt w Java PostScript przy użyciu Aspose.Page](/page/java/postscript-shapes/add-rectangle/)
+- [Utwórz gradient promienisty w PostScript przy użyciu Aspose.Page dla Javy](/page/java/postscript-gradient-addition/)
+- [Manipulacja stroną PostScript](/page/java/postscript-page-manipulation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

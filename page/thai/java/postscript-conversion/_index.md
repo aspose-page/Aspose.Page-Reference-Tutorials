@@ -1,10 +1,51 @@
 ---
-date: 2026-02-10
-description: เชี่ยวชาญการแปลงหน้า ASP ด้วย Java และ Aspose.Page for Java – แปลง PostScript
-  เป็นรูปภาพ, PDF และ EPS. คู่มือขั้นตอนโดยละเอียด, คำถามที่พบบ่อย, และข้อกำหนดเบื้องต้น.
-linktitle: Conversion - PostScript
+date: 2026-10-20
+description: เรียนรู้ asp page conversion java เพื่อแปลงไฟล์ PostScript เป็น PNG,
+  PDF หรือ EPS ด้วยโค้ด Java ทีละขั้นตอน, คำถามที่พบบ่อย, และการแก้ไขปัญหา
+keywords:
+- asp page conversion java
+- convert postscript to png
+- postscript to pdf java
+- generate pdf from postscript
+lastmod: 2026-10-20
+linktitle: การแปลง - PostScript
+og_description: asp page conversion java ช่วยให้คุณแปลงไฟล์ PostScript เป็นภาพ PNG,
+  เอกสาร PDF หรือกราฟิก EPS ด้วย Java. ปฏิบัติตามคู่มือของเราเพื่อการตั้งค่า, เคล็ดลับโค้ด,
+  และคำถามที่พบบ่อย
+og_image_alt: Developer guide showing Aspose.Page Java converting PostScript to PNG,
+  PDF, and EPS
+og_title: 'Asp page conversion java: PostScript เป็นภาพ, PDF, EPS'
+schemas:
+- author: Aspose
+  dateModified: '2026-10-20'
+  description: Learn asp page conversion java to transform PostScript files into PNG,
+    PDF, or EPS with step‑by‑step Java code, FAQs, and troubleshooting.
+  headline: 'Asp page conversion java: PostScript to images, PDF, EPS'
+  type: TechArticle
+- questions:
+  - answer: Yes. Production use requires a valid Aspose license; a free trial is available
+      for evaluation.
+    question: Can I use asp page conversion java in a commercial project?
+  - answer: Aspose.Page for Java works with Java 8 and all later releases, including
+      Java 11 and Java 17.
+    question: Which Java versions are supported?
+  - answer: Set the DPI on the `ImageSaveOptions` object before invoking `save`, e.g.,
+      `options.setResolution(300)`.
+    question: How do I control the resolution of the exported images?
+  - answer: Absolutely. Iterate over a directory of `.ps` files, create a `Document`
+      for each, and apply the same save logic.
+    question: Is batch conversion possible?
+  - answer: Pass a `LoadOptions` instance with the password to the `Document` constructor;
+      the library will decrypt the file automatically.
+    question: What if my PostScript file is password‑protected?
+  type: FAQPage
 second_title: Aspose.Page Java API
-title: 'การแปลงหน้า Asp ด้วย Java: PostScript เป็นภาพ, PDF และ EPS'
+tags:
+- asp page conversion
+- postscript conversion java
+- java document processing
+- Aspose.Page
+title: 'Asp page conversion java: PostScript เป็นภาพ, PDF, EPS'
 url: /th/java/postscript-conversion/
 weight: 21
 ---
@@ -13,100 +54,130 @@ weight: 21
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Conversion - PostScript
+# การแปลง - PostScript
 
-## Introduction
+## บทนำ
 
-พร้อมหรือยังที่จะเพิ่มประสิทธิภาพให้แอปพลิเคชัน Java ของคุณด้วยการประมวลผลเอกสารที่ทรงพลังโดยใช้ **asp page conversion java**? ในบทเรียนนี้เราจะพาคุณผ่านเทคนิคการแปลงของ Aspose.Page ที่ช่วยให้คุณแปลงไฟล์ PostScript ให้เป็นภาพคุณภาพสูง, PDF, และกราฟิก EPS — ทั้งหมดจาก Java ไม่ว่าคุณจะต้องการสร้างรายงาน, สร้างสินทรัพย์ที่พิมพ์ได้, หรือเก็บเอกสาร, คุณจะพบคำแนะนำที่ชัดเจน, ตัวอย่างการใช้งานจริง, และเคล็ดลับการแก้ปัญหาที่เป็นประโยชน์
+ในคู่มือนี้คุณจะได้ค้นพบ **asp page conversion java** ไลบรารี Aspose.Page ที่ช่วยให้นักพัฒนา Java แปลงไฟล์ PostScript เป็นภาพคุณภาพสูง เอกสาร PDF หรือกราฟิก EPS ได้โดยไม่ต้องติดตั้ง Ghostscript ไม่ว่าคุณจะสร้างเครื่องมือรายงาน ระบบจัดเก็บเอกสาร หรือไพป์ไลน์สินทรัพย์พร้อมพิมพ์ ขั้นตอนต่อไปนี้จะแสดงวิธีรวม API ควบคุมการตั้งค่าเอาต์พุต และจัดการกับปัญหาที่พบบ่อย
 
-### Quick Answers
-- **Aspose Page Conversion คืออะไร?** ไลบรารี Java ที่แปลงไฟล์ PostScript เป็นภาพ, PDF หรือ EPS โดยไม่ต้องใช้เครื่องมือภายนอก  
-- **รองรับรูปแบบใดบ้าง?** PNG, JPEG, TIFF, PDF, และ EPS  
-- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองฟรีสำหรับการประเมิน; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์จริง  
-- **ข้อกำหนดเบื้องต้นคืออะไร?** Java 8+ และไฟล์ JAR ของ Aspose.Page for Java  
-- **สามารถประมวลผลเป็นชุดได้หรือไม่?** ได้ — เพียงวนลูปผ่านคอลเลกชันไฟล์ PostScript ของคุณโดยใช้ API เดียวกัน  
+### คำตอบอย่างรวดเร็ว
+- **What is asp page conversion java?** เป็น API ของ Aspose.Page สำหรับ Java ที่ใช้แปลงเอกสาร PostScript เป็น PNG, JPEG, TIFF, PDF หรือ EPS.  
+- **Which output formats are supported?** PNG, JPEG, TIFF, PDF, และ EPS (ห้ารูปแบบเรสเตอร์ + สองรูปแบบเวกเตอร์).  
+- **Do I need a license?** ทดลองใช้ฟรีสำหรับการประเมิน; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์.  
+- **What are the system requirements?** Java 8 หรือสูงกว่าและไฟล์ JAR ของ Aspose.Page for Java.  
+- **Can I process many files at once?** ใช่—วนลูปผ่านโฟลเดอร์และเรียกใช้การแปลงเดียวกันกับแต่ละเอกสาร.
 
-## Asp Page Conversion Java Overview
+### คำแนะนำที่เป็นประโยชน์
+### [แปลง PostScript เป็นภาพใน Java]({{< relref "to-image/_index.md" >}})
+เรียนรู้วิธีเรนเดอร์หน้า PostScript เป็นภาพ PNG หรือ JPEG ด้วยคลาส `Document` และ `ImageSaveOptions` ของ Aspose.Page
 
-Aspose.Page ให้ **java convert postscript** workflow ที่ซ่อนรายละเอียดการเรนเดอร์ระดับต่ำไว้โดยการโหลดเอกสาร PostScript เข้าไปในคลาส `Document` คุณสามารถเรนเดอร์แต่ละหน้าเป็นภาพทันที, ส่งออกเอกสารทั้งหมดเป็น PDF, หรือบันทึกหน้าเดี่ยวเป็นเวกเตอร์ EPS วิธีนี้ทำให้ไม่ต้องติดตั้ง Ghostscript แบบเนทีฟและให้คุณควบคุมคุณภาพผลลัพธ์, DPI, และการจัดการสีได้อย่างเต็มที่  
+### [แปลง PostScript เป็น PDF ใน Java]({{< relref "to-pdf/_index.md" >}})
+ขั้นตอนโดยละเอียดสำหรับการส่งออกเอกสาร PostScript ทั้งหมดเป็น PDF พร้อมรักษากราฟิกเวกเตอร์และฟอนต์
 
-## Converting PostScript to Image in Java
+### [บันทึกภาพเป็น EPS ใน Java]({{< relref "save-image-as-eps/_index.md" >}})
+คู่มือการแปลงภาพหรือหน้าที่เรนเดอร์เป็นไฟล์ EPS ขนาดยืดหยุ่นสำหรับการพิมพ์ความละเอียดสูง
 
-### [แปลง PostScript เป็นภาพใน Java](./to-image/)
+## asp page conversion java คืออะไร?
+Aspose.Page เป็นไลบรารี Java ที่เรนเดอร์ไฟล์ PostScript และส่งออกเป็นรูปแบบเรสเตอร์หรือเวกเตอร์ มันแทนที่ Ghostscript ดั้งเดิมโดยเสนอวิธีแก้ที่เขียนด้วย Java อย่างเต็มรูปแบบ พร้อมการควบคุม DPI, โปรไฟล์สี, การบีบอัด และรองรับการทำงานข้ามแพลตฟอร์มบน Windows, Linux, และ macOS
 
-ปลดล็อกศักยภาพของ Aspose.Page for Java ขณะเรานำคุณผ่านกระบวนการละเอียดของ **convert postscript to image** ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น, บทเรียนแบบขั้นตอนของเราจะทำให้การผสานรวมเป็นไปอย่างราบรื่น เพิ่มความสามารถในการประมวลผลเอกสารของคุณได้อย่างง่ายดาย, และค้นพบพลังของ Aspose.Page ในการแปลงภาพ  
+## ทำไมต้องใช้ asp page conversion java?
+Aspose.Page รองรับการแปลง **30+ คุณลักษณะระดับหน้า** เช่น ข้อความ, กราฟิกเวกเตอร์, ฟอนต์ฝังตัว และสามารถประมวลผลเอกสารขนาด **500 MB** ได้โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ ไลบรารีทำงานบน Windows, Linux, และ macOS ให้ความสอดคล้องข้ามแพลตฟอร์มพร้อมลดการพึ่งพาไลบรารีของบุคคลที่สาม
 
-มีคำถามหรือไม่? ตรวจสอบส่วน FAQs เพื่อดูคำตอบเร็ว ๆ สำหรับคำถามที่พบบ่อย เราได้รวบรวมข้อกำหนดเบื้องต้นที่จำเป็นเพื่อให้คุณพร้อมก่อนเริ่มกระบวนการแปลง พร้อมหรือยังที่จะยกระดับแอปพลิเคชัน Java ของคุณ? ดาวน์โหลด Aspose.Page ตอนนี้และยกระดับการประมวลผลภาพของคุณ  
+## ข้อกำหนดเบื้องต้น
+- Java 8 หรือใหม่กว่า (แนะนำ Java 11 + สำหรับการสนับสนุนระยะยาว)  
+- Maven หรือ Gradle เพื่อเพิ่ม dependency `aspose-page` หรือใช้ JAR แยกไฟล์  
+- ไฟล์ไลเซนส์ Aspose.Page ที่ถูกต้อง (`Aspose.Page.lic`) สำหรับการใช้งานในผลิตภัณฑ์  
 
-## Convert PostScript to PDF in Java
+## วิธีแปลง PostScript เป็น PNG ใน Java?
+`Document` แทนไฟล์ PostScript ที่โหลดเข้าสู่หน่วยความจำ ให้เข้าถึงหน้าและตัวเลือกการเรนเดอร์ `ImageSaveOptions` กำหนดวิธีการเรสเตอร์แต่ละหน้า รวมถึง DPI, ความลึกสี, และการบีบอัด โหลดไฟล์ PostScript ด้วยคลาส `Document` ตั้งค่า `ImageSaveOptions` สำหรับ PNG แล้วเรียก `save` รูปแบบนี้ทำการแปลงในขั้นตอนเดียวและให้คุณระบุ DPI, ความลึกสี, การบีบอัด เพื่อสร้างภาพ PNG คุณภาพสูงที่เหมาะกับเว็บหรือการพิมพ์
 
-### [แปลง PostScript เป็น PDF ใน Java](./to-pdf/)
+## วิธีแปลง PostScript เป็น PDF ใน Java?
+`PdfSaveOptions` ควบคุมการตั้งค่าเฉพาะ PDF เช่น ระดับการบีบอัด, เวอร์ชัน PDF, การฝังฟอนต์ หลังจากสร้าง `Document` จากแหล่ง PostScript ให้เรียก `save` พร้อมอ็อบเจ็กต์ `PdfSaveOptions` เพื่อส่งออกเอกสารทั้งหมดเป็น PDF ไฟล์ที่ได้จะรักษากราฟิกเวกเตอร์, ฟอนต์ฝัง, และความแม่นยำของเลย์เอาต์ ตรงกับการเรนเดอร์ PostScript ดั้งเดิม พร้อมให้ข้อความค้นหาได้และขนาดไฟล์เล็กลงเมื่อเปิดใช้งานการบีบอัด
 
-Aspose.Page for Java ทำให้การแปลง PostScript เป็น PDF ง่ายดายสำหรับนักพัฒนาที่ต้องการการประมวลผลเอกสารที่มีประสิทธิภาพ คู่มือแบบขั้นตอนของเราจะช่วยให้การผสานรวมเป็นไปอย่างไม่มีรอยต่อ, ทำให้คุณสามารถยกระดับแอปพลิเคชัน Java ของคุณได้อย่างง่ายดาย ดาวน์โหลด Aspose.Page ตอนนี้เพื่อเข้าถึงเครื่องมือที่คุณต้องการสำหรับการแปลง **postscript to pdf java** คุณภาพสูง  
+## วิธีบันทึกภาพเป็น EPS ใน Java?
+`EpsSaveOptions` จัดการพารามิเตอร์การส่งออก EPS รวมถึงขนาดกล่องขอบเขตและสีสเปซ ขั้นแรกเรนเดอร์หน้าที่ต้องการเป็นภาพเรสเตอร์ชั่วคราวโดยใช้ `Document` และ `ImageSaveOptions` จากนั้นเรียก `save` พร้อม `EpsSaveOptions` เพื่อสร้างไฟล์ EPS ที่ขยายได้ซึ่งรักษาข้อมูลเวกเตอร์ ทำให้เหมาะกับการพิมพ์ความละเอียดสูงและการรวมในเวิร์กโฟลว์การออกแบบสื่อสิ่งพิมพ์
 
-อยากรู้เกี่ยวกับความท้าทายและวิธีแก้ไขที่พบบ่อย? ส่วน FAQs ของเราจะตอบทุกข้อสงสัย ก่อนที่คุณจะเริ่มต้น, ตรวจสอบข้อกำหนดเบื้องต้นเพื่อรับประกันประสบการณ์การแปลงที่ราบรื่น Aspose.Page for Java เปิดโอกาสใหม่สำหรับการสร้าง PDF — มอบพลังให้แอปพลิเคชันของคุณด้วยไลบรารี Java ที่ทรงพลังนี้  
-
-## Save Image as EPS in Java
-
-### [บันทึกภาพเป็น EPS ใน Java](./save-image-as-eps/)
-
-สำรวจความสามารถอเนกประสงค์ของ Aspose.Page for Java ใน **save image as eps** บทเรียนนี้เปิดเผยศักยภาพของไลบรารี Java นี้ในการเพิ่มประสิทธิภาพกราฟิกและการพิมพ์ของคุณ ปฏิบัติตามคู่มือแบบขั้นตอนของเราเพื่อผสานการบันทึก EPS เข้ากับแอปพลิเคชัน Java ของคุณอย่างราบรื่น  
-
-กังวลเกี่ยวกับอุปสรรคที่อาจเกิดขึ้น? ส่วน FAQs ของเรามีคำตอบเชิงลึก ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดที่จำเป็นก่อนเริ่มบทเรียน Aspose.Page for Java ทำให้การบันทึกภาพเป็นกระบวนการที่ง่ายดาย, ช่วยให้คุณปลดปล่อยศักยภาพเต็มที่ของแอปพลิเคชัน Java ของคุณ  
-
-## Why Choose Asp Page Conversion Java?
-
-- **ไม่มีการพึ่งพาเครื่องมือภายนอก** – ไม่ต้องใช้ Ghostscript หรือไลบรารีเนทีฟใด ๆ  
-- **การควบคุมระดับละเอียด** – ปรับ DPI, โปรไฟล์สี, และการตั้งค่าเอาต์พุตเวกเตอร์ผ่านโค้ดได้  
-- **พร้อมสำหรับการประมวลผลเป็นชุด** – วนลูปผ่านโฟลเดอร์ไฟล์ PostScript ด้วยการเรียก API เพียงครั้งเดียว  
-- **ข้ามแพลตฟอร์ม** – ทำงานบน Windows, Linux, และ macOS กับ runtime Java 8+ ใด ๆ  
-
-## Common Issues and Solutions
-
-| Issue | Solution |
+## ปัญหาทั่วไปและวิธีแก้
+| ปัญหา | วิธีแก้ |
 |-------|----------|
-| **ภาพความละเอียดต่ำ** | เพิ่มค่า DPI ใน `ImageSaveOptions` ก่อนเรียก `save()` |
-| **การใช้หน่วยความจำสูงกับไฟล์ขนาดใหญ่** | ประมวลผลหน้าแต่ละหน้าแยกกันและทำลายอ็อบเจกต์ `Image` หลังการบันทึก |
-| **PostScript ที่มีการป้องกันด้วยรหัสผ่าน** | ใช้คอนสตรัคเตอร์ `LoadOptions` ที่รับสตริงรหัสผ่าน |
-| **สีที่แสดงไม่ตรง** | ตรวจสอบการตั้งค่า color space ใน `PdfSaveOptions` หรือ `ImageSaveOptions` |
+| **ภาพความละเอียดต่ำ** | เพิ่ม DPI ใน `ImageSaveOptions` (เช่น `setResolution(300)`). |
+| **การใช้หน่วยความจำสูงกับไฟล์ขนาดใหญ่** | ประมวลผลแต่ละหน้าแยกกันและเรียก `dispose()` กับแต่ละ `Image` หลังจากบันทึก. |
+| **PostScript ที่มีการป้องกันด้วยรหัสผ่าน** | ใช้ `new LoadOptions("password")` เมื่อตั้งค่า `Document`. |
+| **สีที่ไม่คาดคิด** | ตรวจสอบว่า `PdfSaveOptions` หรือ `ImageSaveOptions` ระบุ color space ที่ถูกต้อง (RGB vs. CMYK). |
 
-## Frequently Asked Questions
+## คำถามที่พบบ่อย
 
-**Q: สามารถใช้ Aspose.Page conversion ในโครงการเชิงพาณิชย์ได้หรือไม่?**  
-A: ได้. จำเป็นต้องมีลิขสิทธิ์ Aspose ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์, แต่มีรุ่นทดลองฟรีสำหรับการประเมิน  
+**Q: Can I use asp page conversion java in a commercial project?**  
+A: ใช่ การใช้งานในผลิตภัณฑ์ต้องมีไลเซนส์ Aspose ที่ถูกต้อง; มีรุ่นทดลองฟรีสำหรับการประเมิน
 
-**Q: รองรับเวอร์ชัน Java ใดบ้าง?**  
-A: Aspose.Page for Java ทำงานกับ Java 8 ขึ้นไป  
+**Q: Which Java versions are supported?**  
+A: Aspose.Page for Java ทำงานกับ Java 8 และเวอร์ชันต่อ ๆ มา รวมถึง Java 11 และ Java 17
 
-**Q: จะควบคุมความละเอียดของภาพที่ส่งออกได้อย่างไร?**  
-A: ตั้งค่าค่า DPI บนวัตถุ `ImageSaveOptions` ก่อนเรียกเมธอด `save`  
+**Q: How do I control the resolution of the exported images?**  
+A: ตั้งค่า DPI บนวัตถุ `ImageSaveOptions` ก่อนเรียก `save` เช่น `options.setResolution(300)`
 
-**Q: สามารถแปลงไฟล์ PostScript หลายไฟล์ในหนึ่งชุดได้หรือไม่?**  
-A: แน่นอน — วนลูปผ่านคอลเลกชันไฟล์ของคุณและใช้ตรรกะการแปลงเดียวกันกับแต่ละเอกสาร  
+**Q: Is batch conversion possible?**  
+A: แน่นอน ทำการวนลูปไฟล์ `.ps` ในไดเรกทอรี สร้าง `Document` สำหรับแต่ละไฟล์และใช้โลจิกการบันทึกเดียวกัน
 
-**Q: ถ้าไฟล์ PostScript ของฉันมีการป้องกันด้วยรหัสผ่านจะทำอย่างไร?**  
-A: ใช้คอนสตรัคเตอร์ `Document` ที่รับอ็อบเจกต์ `LoadOptions` ซึ่งคุณสามารถระบุรหัสผ่านได้  
+**Q: What if my PostScript file is password‑protected?**  
+A: ส่งอ็อบเจ็กต์ `LoadOptions` พร้อมรหัสผ่านไปยังคอนสตรัคเตอร์ของ `Document` ไลบรารีจะถอดรหัสไฟล์โดยอัตโนมัติ
 
-**Q: จะลดขนาดของ PDF ที่สร้างได้อย่างไร?**  
-A: เปิดใช้งานการบีบอัดใน `PdfSaveOptions` และพิจารณา downsampling ภาพหากไม่ต้องการความละเอียดสูง  
+**Q: How can I reduce the size of the generated PDF?**  
+A: เปิดใช้งานการบีบอัดใน `PdfSaveOptions` และลดความละเอียดของภาพหากไม่จำเป็นต้องใช้ความละเอียดสูง
 
-## Conversion - PostScript Tutorials
-### [แปลง PostScript เป็นภาพใน Java](./to-image/)
-ค้นหาบทเรียนที่ครอบคลุมการแปลง PostScript เป็นภาพใน Java ด้วย Aspose.Page คู่มือแบบขั้นตอน, FAQs, และข้อกำหนดเบื้องต้นที่จำเป็น  
+## การแปลง - บทแนะนำ PostScript
+### [แปลง PostScript เป็นภาพใน Java]({{< relref "to-image/_index.md" >}})
+ค้นหาคู่มือครบถ้วนเกี่ยวกับการแปลง PostScript เป็นภาพใน Java ด้วย Aspose.Page คู่มือขั้นตอนต่อขั้นตอน, FAQs, และข้อกำหนดเบื้องต้นที่จำเป็น
 
-### [แปลง PostScript เป็น PDF ใน Java](./to-pdf/)
-แปลง PostScript เป็น PDF ใน Java อย่างง่ายดายด้วย Aspose.Page ปฏิบัติตามคู่มือแบบขั้นตอนเพื่อการผสานรวมที่ราบรื่น ดาวน์โหลด Aspose.Page ตอนนี้!  
+### [แปลง PostScript เป็น PDF ใน Java]({{< relref "to-pdf/_index.md" >}})
+แปลง PostScript เป็น PDF ใน Java อย่างง่ายดายด้วย Aspose.Page ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนเพื่อการรวมที่ราบรื่น ดาวน์โหลด Aspose.Page ตอนนี้!
 
-### [บันทึกภาพเป็น EPS ใน Java](./save-image-as-eps/)
-สำรวจพลังของ Aspose.Page for Java ในการบันทึกภาพเป็น EPS อย่างไม่มีความยุ่งยาก ยกระดับความสามารถกราฟิกและการพิมพ์ของคุณด้วยไลบรารี Java ที่หลากหลายนี้  
+### [บันทึกภาพเป็น EPS ใน Java]({{< relref "save-image-as-eps/_index.md" >}})
+สำรวจพลังของ Aspose.Page สำหรับ Java ในการบันทึกภาพเป็น EPS อย่างไม่มีความยุ่งยาก เพิ่มศักยภาพกราฟิกและการพิมพ์ของคุณด้วยไลบรารี Java ที่หลากหลายนี้
 
-สรุปแล้ว, บทเรียน Aspose.Page for Java เกี่ยวกับการแปลง PostScript ช่วยให้นักพัฒนาสามารถยกระดับทักษะการประมวลผลเอกสารของตนได้อย่างมหาศาล ดำดิ่งสู่คู่มือเหล่านี้และค้นพบการผสานรวมที่ราบรื่น, FAQs, และข้อกำหนดเบื้องต้นที่ทำให้ Aspose.Page เป็นตัวเปลี่ยนเกมในโลกของการเขียนโปรแกรม Java. ยกระดับความสามารถของคุณวันนี้!  
+โดยสรุป, คู่มือ Aspose.Page for Java เกี่ยวกับการแปลง PostScript ช่วยให้นักพัฒนาขยายทักษะการประมวลผลเอกสารไปสู่ระดับใหม่ ดำดิ่งสู่คู่มือเหล่านี้และค้นพบการรวมที่ไร้รอยต่อ, FAQs, และข้อกำหนดเบื้องต้นที่ทำให้ Aspose.Page เป็นตัวเปลี่ยนเกมในโลกของการเขียนโปรแกรม Java ยกระดับความสามารถของคุณวันนี้!
 
 ---
 
-**Last Updated:** 2026-02-10  
-**Tested With:** Aspose.Page for Java 24.11  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-10-20  
+**ทดสอบด้วย:** Aspose.Page for Java 24.11  
+**ผู้เขียน:** Aspose  
+
+
+
+
+
+
+```java
+import com.aspose.page.Document;
+import com.aspose.page.ImageSaveOptions;
+import com.aspose.page.SaveFormat;
+
+public class ConvertPsToImage {
+    public static void main(String[] args) throws Exception {
+        // Load the PostScript document
+        Document psDoc = new Document("sample.ps");
+
+        // Set image save options
+        ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
+        options.setDpiX(300);
+        options.setDpiY(300);
+
+        // Save each page as a separate PNG file
+        for (int i = 0; i < psDoc.getPages().size(); i++) {
+            String outputPath = String.format("page_%d.png", i + 1);
+            psDoc.save(outputPath, options);
+        }
+    }
+}
+```
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีแปลง PostScript เป็น PDF ด้วย Aspose.Page Java API](/page/java/postscript-conversion/to-pdf/)
+- [แปลง PS เป็น PNG ด้วย Aspose.Page Java API](/page/java/postscript-conversion/to-image/)
+- [วิธีตั้งค่าขนาดหน้า A4 และสร้าง PostScript ใน Java ด้วย Aspose.Page](/page/java/document-creation/postscript/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
