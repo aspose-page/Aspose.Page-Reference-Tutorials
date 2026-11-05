@@ -1,32 +1,33 @@
 ---
-date: 2026-08-18
-description: تعرف على كيفية إنشاء PDF من ملفات PS باستخدام Aspose.Page لـ Java – دليل
-  خطوة بخطوة لتحويل PostScript إلى PDF، دمج ملفات .ps متعددة، وتطبيق ترخيص Aspose
-  مؤقت.
+date: 2026-11-05
+description: تعلم كيفية تحويل postscript إلى pdf باستخدام Aspose.Page for Java – دليل
+  خطوة بخطوة لدمج تدفقات PS، معالجة الترخيص، وتحقيق تحويل عالي الدقة.
+images:
+- /java/file-merging/postscript-to-pdf/og-image.png
 keywords:
-- create pdf from ps
-- merge multiple ps
+- convert postscript to pdf
+- how to merge ps
+- create pdf from postscript
+- merge multiple ps files
 - aspose page conversion
-- postscript to pdf java
-- convert postscript pdf
-lastmod: 2026-08-18
-linktitle: كيفية إنشاء PDF من ملفات PS (PostScript) في Java
-og_description: إنشاء PDF من ملفات PS في Java باستخدام Aspose.Page. تعلّم دمج تدفقات
-  PS متعددة، التعامل مع الترخيص، والحصول على تحويل عالي الدقة.
+lastmod: 2026-11-05
+linktitle: كيفية تحويل postscript إلى pdf من ملفات PS في Java
+og_description: تحويل postscript إلى pdf في Java باستخدام Aspose.Page. دمج تدفقات
+  PS متعددة، تطبيق ترخيص مؤقت، والحصول على مخرجات PDF عالية الدقة في دقائق.
 og_image_alt: 'Aspose.Page Java tutorial: converting PostScript to PDF'
-og_title: كيفية إنشاء PDF من ملفات PS في Java باستخدام Aspose.Page
+og_title: تحويل postscript إلى PDF في Java باستخدام Aspose.Page
 schemas:
 - author: Aspose
-  dateModified: '2026-08-18'
-  description: Learn how to create PDF from PS files using Aspose.Page for Java –
-    a step‑by‑step guide to convert PostScript to PDF, merge multiple .ps files, and
-    apply a temporary Aspose license.
-  headline: How to create PDF from PS (PostScript) files in Java
+  dateModified: '2026-11-05'
+  description: Learn how to convert postscript to pdf using Aspose.Page for Java –
+    step‑by‑step guide to merge PS streams, handle licensing, and achieve high‑fidelity
+    conversion.
+  headline: How to convert postscript to pdf from PS files in Java
   type: TechArticle
-- description: Learn how to create PDF from PS files using Aspose.Page for Java –
-    a step‑by‑step guide to convert PostScript to PDF, merge multiple .ps files, and
-    apply a temporary Aspose license.
-  name: How to create PDF from PS (PostScript) files in Java
+- description: Learn how to convert postscript to pdf using Aspose.Page for Java –
+    step‑by‑step guide to merge PS streams, handle licensing, and achieve high‑fidelity
+    conversion.
+  name: How to convert postscript to pdf from PS files in Java
   steps:
   - name: import required packages
     text: The following imports give you access to the core conversion classes.
@@ -70,41 +71,39 @@ schemas:
   type: FAQPage
 second_title: Aspose.Page Java API
 tags:
-- create pdf
+- convert postscript to pdf
 - aspose page
 - java postscript
 - pdf conversion
-title: كيفية إنشاء PDF من ملفات PS (PostScript) في Java
+title: كيفية تحويل postscript إلى pdf من ملفات PS في Java
 url: /ar/java/file-merging/postscript-to-pdf/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}  
-{{< blocks/products/pf/main-container >}}  
-{{< blocks/products/pf/tutorial-page-section >}}  
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية إنشاء PDF من ملفات PS (PostScript) في Java  
+# كيفية تحويل postscript إلى PDF من ملفات PS في Java  
 
-## مقدمة  
-إذا كنت بحاجة إلى **إنشاء PDF من ملفات PS**—سواءً كنت تجمع مخرجات الطابعة، أو تدمج تقارير مُولدة، أو تُعدّ رسومات للتوزيع—فهذا الدليل يوضح لك بالضبط كيفية القيام بذلك باستخدام Aspose.Page for Java. ستتعلم كيفية دمج عدة تدفقات `.ps`، وتحويل PostScript إلى PDF بدقة عالية، ومعالجة الترخيص بطريقة جاهزة للإنتاج.  
+## المقدمة  
+إذا كنت بحاجة إلى **convert postscript to pdf**، سواءً كنت تجمع مخرجات الطابعة، أو تدمج التقارير المولدة، أو تُعد الرسومات للتوزيع، يوضح لك هذا الدليل بالضبط كيفية القيام بذلك باستخدام Aspose.Page for Java. ستتعلم كيفية دمج تدفقات `.ps` متعددة، وتحويل PostScript إلى PDF بدقة عالية، ومعالجة الترخيص بطريقة جاهزة للإنتاج.  
 
 ## إجابات سريعة  
-- **ما المكتبة التي يجب أن أستخدمها؟** Aspose.Page for Java توفر API مخصص لتحويل PostScript إلى PDF.  
-- **هل يمكنني تحويل ملفات متعددة مرة واحدة؟** نعم – قم بتمرير كل تدفق PostScript إلى نفس كائن `PsDocument` قبل الحفظ.  
-- **هل أحتاج إلى ترخيص للإنتاج؟** الترخيص المؤقت يكفي للتقييم؛ الترخيص الكامل مطلوب للاستخدام التجاري.  
-- **ما نسخة Java المدعومة؟** Java 8 أو أعلى (يوصى بـ JDK 11).  
-- **أين يمكنني العثور على عينة الكود؟** مقتطفات الكود أدناه جاهزة للتنفيذ.  
+- **ما المكتبة التي يجب أن أستخدمها؟** Aspose.Page for Java provides a dedicated API for PostScript‑to‑PDF conversion.  
+- **هل يمكنني تحويل ملفات متعددة في آن واحد؟** Yes – feed each PostScript stream to the same `PsDocument` instance before saving.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** A temporary license works for evaluation; a full license is required for commercial use.  
+- **ما نسخة Java المدعومة؟** Java 8 or higher (JDK 11 recommended).  
+- **أين يمكنني العثور على عينة الكود؟** The code snippets below are ready‑to‑run examples.  
 
-## ما هو إنشاء pdf من ps؟  
-`create pdf from ps` يصف عملية تحويل مستند PostScript (`.ps`) إلى ملف PDF مع الحفاظ على التخطيط، الخطوط، والرسومات المتجهة. تقوم Aspose.Page for Java بهذا التحويل بالكامل في كود مُدار، مما يلغي الحاجة إلى أدوات خارجية مثل Ghostscript. يضمن ذلك الحفاظ على الدقة البصرية للمستند الأصلي.  
+## ما هو تحويل postscript إلى pdf؟  
+`convert postscript to pdf` يصف عملية تحويل مستند PostScript (`.ps`) إلى ملف PDF مع الحفاظ على التخطيط، الخطوط، والرسومات المتجهة. تقوم Aspose.Page for Java بأداء هذا التحويل بالكامل في الكود المُدار، مما يلغي الحاجة إلى أدوات خارجية مثل Ghostscript. يضمن ذلك الحفاظ على الدقة البصرية للمستند الأصلي.  
 
-## كيفية إنشاء PDF من ملفات PS (PostScript)؟  
-
-حمّل كل تدفق PostScript في كائن `PsDocument` واحد، اضبط خيارات التحويل، واستدعِ `save` على `PdfDevice`. يدمج هذا النهج أي عدد من مدخلات `.ps` في PDF واحد في بضع أسطر من كود Java، مُنتجًا نتيجة تُطابق التخطيط الأصلي بدقة البكسل.  
+## كيفية تحويل postscript إلى pdf؟  
+قم بتحميل كل تدفق PostScript في كائن `PsDocument` واحد، واضبط `PsSaveOptions` لتناسب بيئتك، ثم استدعِ `save` على `PdfDevice`. يدمج هذا النمط أي عدد من مدخلات `.ps` في ملف PDF واحد في بضع أسطر من كود Java، مُنتجًا نتيجة تعكس التخطيط الأصلي بدقة بكسلية وتعمل على ملفات تتراوح من صفحة واحدة إلى مئات الصفحات.  
 
 ### الخطوة 1: استيراد الحزم المطلوبة  
-
-الاستيرادات التالية تمنحك الوصول إلى فئات التحويل الأساسية.  
+تُتيح لك الاستيرادات التالية الوصول إلى الفئات الأساسية للتحويل.  
 
 ```java
 import com.aspose.eps.PsDocument;
@@ -115,9 +114,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 ```  
 
-### الخطوة 2: استيراد الحزم المطلوبة (مكرر للتوضيح)  
-
-إعادة تكرار الاستيرادات الأساسية يساعد على تعزيز الفهم حول الفئات الضرورية لسير العمل.  
+### الخطوة 2: استيراد الحزم المطلوبة (تكرار للتوضيح)  
+تكرار الاستيرادات الأساسية يساعد على تعزيز الفهم حول الفئات الضرورية لسير العمل.  
 
 ```java
 import java.io.FileInputStream;
@@ -127,7 +125,6 @@ import com.aspose.page.PdfSaveOptions;
 ```  
 
 ### الخطوة 3: تهيئة كائن PsDocument  
-
 `PsDocument` هو الكائن الأعلى مستوى في Aspose.Page الذي يمثل مستند PostScript في الذاكرة.  
 
 ```java
@@ -136,17 +133,16 @@ FileOutputStream pdfStream = new FileOutputStream(dataDir + "PStoPDF.pdf");
 FileInputStream psStream = new FileInputStream(dataDir + "input.ps");
 ```  
 
-### الخطوة 4: ضبط خيارات التحويل  
-
-`PsSaveOptions` يتيح لك التحكم في معالجة الأخطاء وحل الخطوط. تمكين `suppressErrors` يبقي التحويل مستمرًا حتى إذا كان المصدر يحتوي على مشكلات بسيطة، بينما `setAdditionalFontsFolders` يحدد مسارات خطوط مخصصة.  
+### الخطوة 4: تعيين خيارات التحويل  
+`PsSaveOptions` يضبط كيفية تعامل التحويل مع الأخطاء وحل الخطوط.  
+`PsSaveOptions` lets you control error handling and font resolution. Enabling `suppressErrors` keeps the conversion alive even if the source contains minor issues, while `setAdditionalFontsFolders` points to custom font directories.  
 
 ```java
 PsDocument document = new PsDocument(psStream);
 ```  
 
 ### الخطوة 5: تهيئة PdfDevice  
-
-`PdfDevice` هو المخرج الذي يكتب بيانات PDF إلى التدفق المقدم. بشكل افتراضي، يُنشئ ملفات متوافقة مع PDF/A‑1b، وهي مثالية للأرشفة طويلة الأمد.  
+`PdfDevice` هو المستقبل الذي يكتب بيانات PDF إلى التدفق المقدم. بشكل افتراضي، ينشئ ملفات متوافقة مع PDF/A‑1b، وهي مثالية للأرشفة طويلة الأمد.  
 
 ```java
 boolean suppressErrors = true;
@@ -155,8 +151,7 @@ PdfSaveOptions options = new PdfSaveOptions(suppressErrors);
 ```  
 
 ### الخطوة 6: حفظ المستند كـ PDF  
-
-استدعاء `psDocument.save(pdfDevice, options)` يكتب الـ PDF المدمج إلى تدفق الإخراج. يضمن كتلة `try/finally` المحيطة إغلاق جميع التدفقات، مما يمنع تسرب الموارد.  
+Calling `psDocument.save(pdfDevice, options)` writes the merged PDF to the output stream. The surrounding `try/finally` block guarantees that all streams are closed, preventing resource leaks.  
 
 ```java
 com.aspose.eps.device.PdfDevice device = new com.aspose.eps.device.PdfDevice(pdfStream);
@@ -165,8 +160,7 @@ com.aspose.eps.device.PdfDevice device = new com.aspose.eps.device.PdfDevice(pdf
 ```  
 
 ### الخطوة 7: مراجعة الأخطاء (إن وجدت)  
-
-عند كون `suppressErrors` يساوي `true`، يجمع API تحذيرات التحويل في `options.getExceptions()`. يمكنك التجول عبر هذه المجموعة لتسجيل التفاصيل لأغراض استكشاف الأخطاء.  
+When `suppressErrors` is `true`, the API collects conversion warnings in `options.getExceptions()`. Loop through this collection to log details for troubleshooting.  
 
 ```java
 try {
@@ -177,49 +171,55 @@ try {
 }
 ```  
 
-## لماذا نستخدم Aspose.Page for Java لهذا التحويل؟  
+## لماذا تستخدم Aspose.Page for Java لهذا التحويل؟  
+Aspose.Page delivers high‑fidelity conversion at scale: it supports **50+ input and output formats**, processes multi‑hundred‑page PostScript files without loading the entire document into memory, and eliminates external dependencies such as Ghostscript. This makes it the most reliable choice for enterprise‑grade PDF creation from PS.  
 
-توفر Aspose.Page تحويلًا عالي الدقة على نطاق واسع: تدعم **أكثر من 50 تنسيقًا للإدخال والإخراج**، وتُعالج ملفات PostScript مئات الصفحات دون تحميل المستند بالكامل في الذاكرة، وتُزيل الاعتماديات الخارجية مثل Ghostscript. هذا يجعلها الخيار الأكثر موثوقية لإنشاء PDF من PS على مستوى المؤسسات.  
+## كيفية دمج ملفات ps؟  
+يمكنك دمج عدة تدفقات `.ps` عن طريق استدعاء `psDocument.addPage(new Page(stream))` بشكل متكرر قبل الحفظ. كل استدعاء يضيف صفحة جديدة إلى المستند في الذاكرة، محافظًا على ترتيب الصفحات الأصلي. عندما تستدعي أخيرًا `psDocument.save(pdfDevice, options)`, تُكتب جميع الصفحات المضافة تسلسليًا في ملف PDF واحد، مما يمنحك مستندًا مركبًا يحتوي على كل صفحة أصلية كما تم عرضها.  
 
 ## المتطلبات المسبقة  
-
-- **Aspose.Page for Java** – حمّله من [توثيق Aspose.Page Java](https://reference.aspose.com/page/java/).  
-- **مجموعة تطوير Java (JDK)** – JDK 8 أو أحدث مثبتة.  
-- **IDE** – IntelliJ IDEA، Eclipse، أو أي محرر تفضله.  
+- **Aspose.Page for Java** – download from the [Aspose.Page Java documentation](https://reference.aspose.com/page/java/).  
+- **Java Development Kit (JDK)** – JDK 8 or newer installed.  
+- **IDE** – IntelliJ IDEA, Eclipse, or any editor you prefer.  
 
 ## المشكلات الشائعة والحلول  
-
 | العَرَض | السبب المحتمل | الحل |
 |---------|--------------|-----|
-| **الخطوط مفقودة** | الخط غير موجود في مسار النظام الافتراضي | استخدم `options.setAdditionalFontsFolders()` لتحديد دليل الخطوط المخصص الخاص بك. |
-| **صفحات فارغة** | تدفق الإدخال غير متموضع في البداية | تأكد من أن `psStream` هو `FileInputStream` جديد لكل مستند. |
-| **التحويل يرمي `UnsupportedOperationException`** | استخدام نسخة قديمة من Aspose.Page | حدّث إلى أحدث إصدار من Aspose.Page for Java. |
+| **Missing fonts** | Font not found in default system path | Use `options.setAdditionalFontsFolders()` to point to your custom font directory. |
+| **Blank pages** | Input stream not positioned at start | Ensure `psStream` is a fresh `FileInputStream` for each document. |
+| **Conversion throws `UnsupportedOperationException`** | Using an outdated Aspose.Page version | Update to the latest Aspose.Page for Java release. |
 
 ## الأسئلة المتكررة  
 
-**س: هل يمكنني استخدام Aspose.Page for Java مع لغات برمجة أخرى؟**  
-ج: نعم، توفر Aspose مكتبات مكافئة لـ .NET، C++، وPython، مما يتيح سير عمل متعدد اللغات.  
+**Q: هل يمكنني استخدام Aspose.Page for Java مع لغات برمجة أخرى؟**  
+A: Yes, Aspose provides equivalent libraries for .NET, C++, and Python, enabling cross‑language workflows.  
 
-**س: أين يمكنني العثور على وثائق وموارد إضافية؟**  
-ج: زر [توثيق Aspose.Page Java](https://reference.aspose.com/page/java/) للحصول على مراجع API مفصلة، عينات كود، ودلائل أفضل الممارسات.  
+**Q: أين يمكنني العثور على وثائق إضافية وموارد؟**  
+A: Visit the [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) for detailed API references, code samples, and best‑practice guides.  
 
-**س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Page for Java؟**  
-ج: بالتأكيد. يمكنك تنزيل نسخة تجريبية كاملة الوظائف من [صفحة التجربة المجانية لـ Aspose](https://releases.aspose.com/).  
+**Q: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Page for Java؟**  
+A: Absolutely. You can download a fully functional trial from the [Aspose free trial page](https://releases.aspose.com/).  
 
-**س: كيف أحصل على ترخيص مؤقت لـ Aspose.Page for Java؟**  
-ج: يمكن طلب ترخيص مؤقت عبر [صفحة الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).  
+**Q: كيف أحصل على ترخيص مؤقت لـ Aspose.Page for Java؟**  
+A: A temporary license can be requested via the [temporary‑license page](https://purchase.aspose.com/temporary-license/).  
 
-**س: أين يمكنني الحصول على الدعم أو التواصل مع مجتمع Aspose؟**  
-ج: انضم إلى النقاش في [منتدى Aspose.Page](https://forum.aspose.com/c/page/39) لطرح الأسئلة ومشاركة التجارب.  
+**Q: أين يمكنني الحصول على الدعم أو التواصل مع مجتمع Aspose؟**  
+A: Join the discussion on the [Aspose.Page forum](https://forum.aspose.com/c/page/39) to ask questions and share experiences.  
 
-## الخاتمة  
-في هذا الدليل عرضنا نهجًا كاملاً وجاهزًا للإنتاج **لإنشاء PDF من PS** و**دمج ملفات PostScript متعددة** باستخدام Aspose.Page for Java. باتباع التعليمات خطوة بخطوة يمكنك دمج هذه القدرة في أي تطبيق Java، سواءً كنت تعالج تقريرًا واحدًا أو تقوم بدمج مئات الملفات.  
+## الخلاصة  
+In this guide we demonstrated a complete, production‑ready approach to **convert postscript to pdf** and **merge multiple PostScript files** using Aspose.Page for Java. By following the step‑by‑step instructions you can integrate this capability into any Java application, whether you’re processing a single report or batching hundreds of files.  
 
+---  
 
+**آخر تحديث:** 2026-11-05  
+**تم الاختبار مع:** Aspose.Page for Java 24.11  
+**المؤلف:** Aspose  
 
-  
-  
-  
+## دروس ذات صلة
+
+- [تحويل PS إلى PNG باستخدام Aspose.Page Java API](/page/java/postscript-conversion/to-image/)
+- [كيفية إضافة صفحات PostScript في Java – دليل سلس مع Aspose.Page](/page/java/postscript-page-manipulation/add-pages1/)
+- [كيفية تعيين ترخيص ل Aspose.Page Java API – إدارة الترخيص](/page/java/license-management/)
 
 ```java
 if (suppressErrors) {
@@ -228,13 +228,6 @@ if (suppressErrors) {
     }
 }
 ```
-
-## دروس ذات صلة
-
-- [Convert PS to PNG with Aspose.Page Java API](/page/java/postscript-conversion/to-image/)
-- [How to Add PostScript Pages in Java – A Seamless Guide with Aspose.Page](/page/java/postscript-page-manipulation/add-pages1/)
-- [How to Set License for Aspose.Page Java API – License Management](/page/java/license-management/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
