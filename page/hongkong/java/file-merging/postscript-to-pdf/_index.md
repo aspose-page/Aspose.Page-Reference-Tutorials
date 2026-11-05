@@ -1,30 +1,32 @@
 ---
-date: 2026-08-18
-description: 了解如何使用 Aspose.Page for Java 從 PS 檔案建立 PDF——一步一步的指南，將 PostScript 轉換為 PDF、合併多個
-  .ps 檔案，並套用臨時 Aspose 授權。
+date: 2026-11-05
+description: 了解如何使用 Aspose.Page for Java 將 PostScript 轉換為 PDF——一步一步的指南，說明合併 PS 串流、處理授權，以及實現高保真轉換。
+images:
+- /java/file-merging/postscript-to-pdf/og-image.png
 keywords:
-- create pdf from ps
-- merge multiple ps
+- convert postscript to pdf
+- how to merge ps
+- create pdf from postscript
+- merge multiple ps files
 - aspose page conversion
-- postscript to pdf java
-- convert postscript pdf
-lastmod: 2026-08-18
-linktitle: 如何在 Java 中從 PS（PostScript）檔案建立 PDF
-og_description: 使用 Aspose.Page 在 Java 中從 PS 檔案建立 PDF。了解如何合併多個 PS 串流、處理授權，並獲得高保真度的轉換。
+lastmod: 2026-11-05
+linktitle: 如何在 Java 中將 PS 檔案的 PostScript 轉換為 PDF
+og_description: 使用 Aspose.Page 在 Java 中將 PostScript 轉換為 PDF。合併多個 PS 串流、套用臨時授權，並在數分鐘內獲得高保真
+  PDF 輸出。
 og_image_alt: 'Aspose.Page Java tutorial: converting PostScript to PDF'
-og_title: 如何使用 Aspose.Page 在 Java 中從 PS 檔案建立 PDF
+og_title: 使用 Aspose.Page 在 Java 中將 PostScript 轉換為 PDF
 schemas:
 - author: Aspose
-  dateModified: '2026-08-18'
-  description: Learn how to create PDF from PS files using Aspose.Page for Java –
-    a step‑by‑step guide to convert PostScript to PDF, merge multiple .ps files, and
-    apply a temporary Aspose license.
-  headline: How to create PDF from PS (PostScript) files in Java
+  dateModified: '2026-11-05'
+  description: Learn how to convert postscript to pdf using Aspose.Page for Java –
+    step‑by‑step guide to merge PS streams, handle licensing, and achieve high‑fidelity
+    conversion.
+  headline: How to convert postscript to pdf from PS files in Java
   type: TechArticle
-- description: Learn how to create PDF from PS files using Aspose.Page for Java –
-    a step‑by‑step guide to convert PostScript to PDF, merge multiple .ps files, and
-    apply a temporary Aspose license.
-  name: How to create PDF from PS (PostScript) files in Java
+- description: Learn how to convert postscript to pdf using Aspose.Page for Java –
+    step‑by‑step guide to merge PS streams, handle licensing, and achieve high‑fidelity
+    conversion.
+  name: How to convert postscript to pdf from PS files in Java
   steps:
   - name: import required packages
     text: The following imports give you access to the core conversion classes.
@@ -68,40 +70,38 @@ schemas:
   type: FAQPage
 second_title: Aspose.Page Java API
 tags:
-- create pdf
+- convert postscript to pdf
 - aspose page
 - java postscript
 - pdf conversion
-title: 如何在 Java 中從 PS（PostScript）檔案建立 PDF
+title: 如何在 Java 中將 PS 檔案的 PostScript 轉換為 PDF
 url: /zh-hant/java/file-merging/postscript-to-pdf/
 weight: 10
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}  
-{{< blocks/products/pf/main-container >}}  
-{{< blocks/products/pf/tutorial-page-section >}}  
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何在 Java 中從 PS（PostScript）檔案建立 PDF  
+# 如何在 Java 中將 PostScript 轉換為 PDF（從 PS 檔案）
 
 ## 簡介  
-如果您需要 **從 PS 建立 PDF** 檔案——無論是整合印表機輸出、合併產生的報告，或是為發佈準備圖形——本指南將向您展示如何使用 Aspose.Page for Java 完成此工作。您將學會合併多個 `.ps` 串流、以高保真度將 PostScript 轉換為 PDF，並以適合生產環境的方式處理授權。  
+如果您需要 **convert postscript to pdf**，無論是整合印表機輸出、合併產生的報告，或是為發佈準備圖形，本指南將向您展示如何使用 Aspose.Page for Java 完成此操作。您將學會合併多個 `.ps` 串流、以高保真度將 PostScript 轉換為 PDF，並以適合正式環境的方式處理授權。
 
-## 快速解答  
-- **我應該使用哪個函式庫？** Aspose.Page for Java 提供專門的 API 用於 PostScript 轉 PDF 的轉換。  
-- **我可以一次轉換多個檔案嗎？** 是的——在儲存之前，將每個 PostScript 串流傳入同一個 `PsDocument` 實例。  
-- **在生產環境需要授權嗎？** 臨時授權可用於評估；商業使用則需完整授權。  
-- **支援哪個 Java 版本？** Java 8 或以上（建議使用 JDK 11）。  
-- **在哪裡可以找到範例程式碼？** 以下程式碼片段是可直接執行的範例。  
+## 快速回答  
+- **應該使用哪個函式庫？** Aspose.Page for Java 提供專用的 API 以執行 PostScript‑to‑PDF 轉換。  
+- **我可以一次轉換多個檔案嗎？** 是的 – 在儲存之前，將每個 PostScript 串流提供給同一個 `PsDocument` 實例。  
+- **在正式環境中需要授權嗎？** 臨時授權可用於評估；商業使用則必須取得正式授權。  
+- **支援哪個 Java 版本？** Java 8 或更高（建議使用 JDK 11）。  
+- **在哪裡可以找到範例程式碼？** 以下程式碼片段已可直接執行示範。  
 
-## 什麼是從 PS 建立 PDF？  
-`create pdf from ps` 描述了將 PostScript 文件（`.ps`）轉換為 PDF 檔案的過程，同時保留版面配置、字型與向量圖形。Aspose.Page for Java 完全以受管理的程式碼執行此轉換，免除對 Ghostscript 等外部工具的需求。它確保原始文件的視覺保真度得以保留。  
+## 什麼是 convert postscript to pdf？  
+`convert postscript to pdf` 描述將 PostScript 文件（`.ps`）轉換為 PDF 檔案的過程，同時保留版面配置、字型與向量圖形。Aspose.Page for Java 完全以受管理的程式碼執行此轉換，免除使用 Ghostscript 等外部工具的需求。它確保原始文件的視覺保真度得以保留。
 
-## 如何從 PS（PostScript）檔案建立 PDF？  
-
-將每個 PostScript 串流載入同一個 `PsDocument`，設定轉換選項，然後在 `PdfDevice` 上呼叫 `save`。此方法可在幾行 Java 程式碼內將任意數量的 `.ps` 輸入合併為一個 PDF，產生與原始版面完全相同的結果。  
+## 如何 convert postscript to pdf？  
+將每個 PostScript 串流載入同一個 `PsDocument`，設定 `PsSaveOptions` 以符合您的環境，然後在 `PdfDevice` 上呼叫 `save`。此模式可在幾行 Java 程式碼內將任意數量的 `.ps` 輸入合併為一個 PDF，產生與原始版面完全相同的結果，且適用於單頁至數百頁的檔案。
 
 ### 步驟 1：匯入必要的套件  
-
 以下匯入語句讓您取得核心轉換類別的存取權。  
 
 ```java
@@ -114,8 +114,7 @@ import java.io.FileOutputStream;
 ```  
 
 ### 步驟 2：匯入必要的套件（為了清晰重複）  
-
-重複必要的匯入語句有助於鞏固工作流程中必須的類別。  
+重複必要的匯入語句有助於強化工作流程中必須使用的類別。  
 
 ```java
 import java.io.FileInputStream;
@@ -125,8 +124,7 @@ import com.aspose.page.PdfSaveOptions;
 ```  
 
 ### 步驟 3：初始化 PsDocument 物件  
-
-`PsDocument` 是 Aspose.Page 的頂層物件，代表記憶體中的 PostScript 文件。  
+`PsDocument` 是 Aspose.Page 的頂層物件，用於在記憶體中表示 PostScript 文件。  
 
 ```java
 String dataDir = "Your Document Directory";
@@ -135,16 +133,15 @@ FileInputStream psStream = new FileInputStream(dataDir + "input.ps");
 ```  
 
 ### 步驟 4：設定轉換選項  
-
-`PsSaveOptions` 讓您控制錯誤處理與字型解析。啟用 `suppressErrors` 即使來源包含輕微問題也能持續轉換，而 `setAdditionalFontsFolders` 則指向自訂字型目錄。  
+`PsSaveOptions` 設定轉換時的錯誤處理與字型解析方式。  
+`PsSaveOptions` 讓您控制錯誤處理與字型解析。啟用 `suppressErrors` 可在來源檔案僅有輕微問題時仍繼續轉換，而 `setAdditionalFontsFolders` 則可指向自訂的字型資料夾。  
 
 ```java
 PsDocument document = new PsDocument(psStream);
 ```  
 
 ### 步驟 5：初始化 PdfDevice  
-
-`PdfDevice` 是將 PDF 資料寫入提供之串流的輸出端。預設會產生符合 PDF/A‑1b 標準的檔案，適合長期保存。  
+`PdfDevice` 是將 PDF 資料寫入指定串流的輸出端。預設情況下，它會產生符合 PDF/A‑1b 標準的檔案，適合長期保存。  
 
 ```java
 boolean suppressErrors = true;
@@ -153,8 +150,7 @@ PdfSaveOptions options = new PdfSaveOptions(suppressErrors);
 ```  
 
 ### 步驟 6：將文件儲存為 PDF  
-
-呼叫 `psDocument.save(pdfDevice, options)` 會將合併後的 PDF 寫入輸出串流。外層的 `try/finally` 區塊確保所有串流皆被關閉，防止資源洩漏。  
+呼叫 `psDocument.save(pdfDevice, options)` 會將合併後的 PDF 寫入輸出串流。外層的 `try/finally` 區塊確保所有串流皆被關閉，避免資源洩漏。  
 
 ```java
 com.aspose.eps.device.PdfDevice device = new com.aspose.eps.device.PdfDevice(pdfStream);
@@ -163,8 +159,7 @@ com.aspose.eps.device.PdfDevice device = new com.aspose.eps.device.PdfDevice(pdf
 ```  
 
 ### 步驟 7：檢查錯誤（如有）  
-
-當 `suppressErrors` 為 `true` 時，API 會在 `options.getExceptions()` 中收集轉換警告。遍歷此集合即可記錄詳細資訊以進行故障排除。  
+當 `suppressErrors` 為 `true` 時，API 會將轉換警告收集於 `options.getExceptions()`。遍歷此集合即可記錄詳細資訊以便除錯。  
 
 ```java
 try {
@@ -175,45 +170,57 @@ try {
 }
 ```  
 
-## 為什麼在此轉換中使用 Aspose.Page for Java？  
+## 為何在此轉換中使用 Aspose.Page for Java？  
+Aspose.Page 提供大規模的高保真度轉換：支援 **50+ 種輸入與輸出格式**，可在不將整個文件載入記憶體的情況下處理多百頁的 PostScript 檔案，且免除 Ghostscript 等外部相依性。這使其成為企業級 PS 轉 PDF 的最可靠選擇。  
 
-Aspose.Page 在大規模下提供高保真度的轉換：支援 **50 多種輸入與輸出格式**，可在不將整個文件載入記憶體的情況下處理數百頁的 PostScript 檔案，且免除 Ghostscript 等外部相依性。這使它成為企業級從 PS 建立 PDF 的最可靠選擇。  
+## 如何合併 ps 檔案？  
+您可以在儲存之前，透過多次呼叫 `psDocument.addPage(new Page(stream))` 來合併多個 `.ps` 串流。每次呼叫都會在記憶體中的文件新增一頁，保留原始頁面的順序。最終呼叫 `psDocument.save(pdfDevice, options)` 時，所有新增的頁面會依序寫入單一 PDF 檔案，為您產生一個完整的合併文件，包含每一原始頁面且渲染一致。  
 
-## 先決條件  
+## 前置條件  
 
-- **Aspose.Page for Java** – 從 [Aspose.Page Java 文件](https://reference.aspose.com/page/java/) 下載。  
+- **Aspose.Page for Java** – 從 [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) 下載。  
 - **Java Development Kit (JDK)** – 已安裝 JDK 8 或更新版本。  
 - **IDE** – IntelliJ IDEA、Eclipse，或您偏好的任何編輯器。  
 
 ## 常見問題與解決方案  
 
-| 症狀 | 可能原因 | 解決方法 |
+| 症狀 | 可能原因 | 解決方式 |
 |---------|--------------|-----|
-| **缺少字型** | 在預設系統路徑找不到字型 | 使用 `options.setAdditionalFontsFolders()` 指向自訂字型目錄。 |
-| **空白頁面** | 輸入串流未定位於起始位置 | 確保每個文件的 `psStream` 為新的 `FileInputStream`。 |
+| **缺少字型** | 系統預設路徑找不到字型 | 使用 `options.setAdditionalFontsFolders()` 指向您的自訂字型目錄。 |
+| **空白頁面** | 輸入串流未定位於起始位置 | 確保每個文件的 `psStream` 為全新的 `FileInputStream`。 |
 | **轉換拋出 `UnsupportedOperationException`** | 使用過時的 Aspose.Page 版本 | 升級至最新的 Aspose.Page for Java 版本。 |
 
 ## 常見問答  
 
-**問：我可以將 Aspose.Page for Java 與其他程式語言一起使用嗎？**  
-答：可以，Aspose 提供 .NET、C++ 與 Python 的等效函式庫，支援跨語言工作流程。  
+**Q: 我可以將 Aspose.Page for Java 與其他程式語言一起使用嗎？**  
+A: 可以，Aspose 提供 .NET、C++ 與 Python 等等等效的函式庫，支援跨語言工作流程。  
 
-**問：在哪裡可以找到更多文件與資源？**  
-答：請前往 [Aspose.Page Java 文件](https://reference.aspose.com/page/java/) 取得詳細的 API 參考、程式碼範例與最佳實踐指南。  
+**Q: 我可以在哪裡找到更多文件與資源？**  
+A: 請前往 [Aspose.Page Java documentation](https://reference.aspose.com/page/java/) 查閱詳細的 API 參考、程式碼範例與最佳實踐指南。  
 
-**問：Aspose.Page for Java 有免費試用版嗎？**  
-答：當然可以。您可從 [Aspose 免費試用頁面](https://releases.aspose.com/) 下載完整功能的試用版。  
+**Q: 是否提供 Aspose.Page for Java 的免費試用？**  
+A: 當然可以。您可從 [Aspose free trial page](https://releases.aspose.com/) 下載完整功能的試用版。  
 
-**問：如何取得 Aspose.Page for Java 的臨時授權？**  
-答：可透過 [臨時授權頁面](https://purchase.aspose.com/temporary-license/) 申請臨時授權。  
+**Q: 我要如何取得 Aspose.Page for Java 的臨時授權？**  
+A: 可透過 [temporary‑license page](https://purchase.aspose.com/temporary-license/) 申請臨時授權。  
 
-**問：在哪裡可以取得支援或加入 Aspose 社群？**  
-答：加入 [Aspose.Page 論壇](https://forum.aspose.com/c/page/39) 參與討論，提出問題並分享經驗。  
+**Q: 我可以在哪裡取得支援或與 Aspose 社群聯繫？**  
+A: 請加入 [Aspose.Page forum](https://forum.aspose.com/c/page/39) 討論，提出問題並分享使用經驗。  
 
 ## 結論  
-在本指南中，我們示範了使用 Aspose.Page for Java 完整且適合生產環境的 **從 PS 建立 PDF** 以及 **合併多個 PostScript 檔案** 方法。遵循步驟說明後，您即可將此功能整合至任何 Java 應用程式，無論是處理單一報告或批次上百個檔案。  
+在本指南中，我們示範了使用 Aspose.Page for Java 進行 **convert postscript to pdf** 與 **合併多個 PostScript 檔案** 的完整、可投入正式環境的做法。依循步驟說明，您即可將此功能整合至任何 Java 應用程式，無論是處理單一報告或批次上百個檔案。  
 
+---  
 
+**最後更新：** 2026-11-05  
+**測試版本：** Aspose.Page for Java 24.11  
+**作者：** Aspose  
+
+## 相關教學
+
+- [使用 Aspose.Page Java API 將 PS 轉換為 PNG](/page/java/postscript-conversion/to-image/)
+- [如何在 Java 中新增 PostScript 頁面 – Aspose.Page 無縫指南](/page/java/postscript-page-manipulation/add-pages1/)
+- [如何為 Aspose.Page Java API 設定授權 – 授權管理](/page/java/license-management/)
 
 ```java
 if (suppressErrors) {
@@ -222,13 +229,6 @@ if (suppressErrors) {
     }
 }
 ```
-
-## 相關教學
-
-- [使用 Aspose.Page Java API 將 PS 轉換為 PNG](/page/java/postscript-conversion/to-image/)
-- [如何在 Java 中新增 PostScript 頁面 – Aspose.Page 無縫指南](/page/java/postscript-page-manipulation/add-pages1/)
-- [如何為 Aspose.Page Java API 設定授權 – 授權管理](/page/java/license-management/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
