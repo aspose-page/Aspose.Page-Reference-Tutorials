@@ -1,27 +1,29 @@
 ---
-date: 2026-08-18
-description: Aprenda a combinar arquivos xps em Java – um guia completo para mesclar
-  documentos XPS com Aspose.Page, incluindo configuração, explicação do código e dicas
-  de solução de problemas.
+date: 2026-11-19
+description: Aprenda como mesclar arquivos XPS em Java com Aspose.Page – um guia passo
+  a passo que cobre configuração, walkthrough de código e dicas de solução de problemas.
+images:
+- /java/file-merging/xps-to-xps/og-image.png
 keywords:
+- how to merge xps
 - combine xps files
 - merge xps documents
-- how to merge xps
-- convert xps to xps
-lastmod: 2026-08-18
+- Aspose.Page Java
+- XPS file merging
+lastmod: 2026-11-19
 linktitle: Converter XPS para XPS em Java
-og_description: Aprenda a combinar arquivos xps em Java com Aspose.Page. Este guia
-  passo a passo mostra a maneira mais rápida de mesclar documentos XPS em qualquer
-  plataforma.
+og_description: Aprenda como mesclar arquivos XPS em Java com Aspose.Page. Este guia
+  mostra a maneira mais rápida de combinar documentos XPS em qualquer plataforma em
+  apenas alguns minutos.
 og_image_alt: Screenshot of Java code merging multiple XPS files with Aspose.Page
-og_title: Como combinar arquivos xps em Java usando Aspose.Page
+og_title: Como mesclar arquivos XPS em Java com a biblioteca Aspose.Page
 schemas:
 - author: Aspose
-  dateModified: '2026-08-18'
-  description: Learn how to combine xps files in Java – a complete guide on merging
+  dateModified: '2026-11-19'
+  description: Learn how to merge XPS files in Java – a complete guide on combining
     XPS documents with Aspose.Page, including setup, code walkthrough, and troubleshooting
     tips.
-  headline: How to combine xps files in Java using Aspose.Page
+  headline: How to merge XPS files in Java with Aspose.Page
   type: TechArticle
 - questions:
   - answer: Yes. Aspose.Page automatically normalizes page dimensions, but you can
@@ -30,7 +32,7 @@ schemas:
   - answer: Yes, you can obtain a [temporary license page](https://purchase.aspose.com/temporary-license/)
       for testing.
     question: Is a temporary license available for testing purposes?
-  - answer: Refer to the Aspose.Page Java API reference [here](https://reference.aspose.com/page/java/).
+  - answer: Refer to the Aspose.Page Java API reference [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
     question: Where can I find more detailed documentation?
   - answer: Yes, visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39)
       to engage with the community.
@@ -41,10 +43,11 @@ schemas:
   type: FAQPage
 second_title: Aspose.Page Java API
 tags:
+- how to merge xps
 - combine xps files
 - Aspose.Page
 - Java document processing
-title: Como combinar arquivos xps em Java usando Aspose.Page
+title: Como mesclar arquivos XPS em Java com a biblioteca Aspose.Page
 url: /pt/java/file-merging/xps-to-xps/
 weight: 12
 ---
@@ -53,34 +56,34 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Como combinar arquivos xps em Java usando Aspose.Page
+# Como mesclar arquivos XPS em Java com a biblioteca Aspose.Page
 
-Mesclar documentos XPS é uma tarefa rotineira quando você precisa combinar relatórios, apresentações ou qualquer coleção de arquivos XPS em um único pacote fácil de compartilhar. Neste tutorial você aprenderá **como combinar arquivos xps** usando a API Aspose.Page para Java, com explicações claras, dicas do mundo real e trechos de código prontos para execução.
+Neste tutorial você aprenderá **como mesclar XPS** arquivos usando a API Aspose.Page for Java. Seja para agrupar vários relatórios, apresentações ou documentos arquivados em um único pacote XPS, os passos abaixo o guiarão por uma implementação limpa, pronta para produção, que funciona em qualquer plataforma.
 
 ## Respostas rápidas
-- **Qual biblioteca lida com a combinação de XPS?** Aspose.Page for Java.  
-- **Quanto tempo leva a implementação?** Aproximadamente 10‑15 minutos para uma combinação básica.  
-- **Preciso de licença para teste?** Sim – uma licença de avaliação temporária está disponível na Aspose.  
-- **Posso combinar arquivos com diferentes contagens de páginas?** Absolutamente; Aspose.Page mescla quaisquer documentos XPS válidos.  
+- **Qual biblioteca lida com a mesclagem de XPS?** Aspose.Page for Java.  
+- **Quanto tempo leva a implementação?** Aproximadamente 10‑15 minutos para uma mesclagem básica.  
+- **Preciso de licença para testes?** Sim – uma licença de avaliação temporária está disponível na Aspose.  
+- **Posso mesclar arquivos com diferentes contagens de páginas?** Absolutamente; Aspose.Page mescla quaisquer documentos XPS válidos.  
 - **Quais versões do Java são suportadas?** Java 8 e posteriores (JDK 11+ recomendado).
 
 ## O que é a mesclagem de arquivos XPS?
-A mesclagem de arquivos XPS combina vários documentos XPS em um único arquivo XPS contínuo, preservando o layout, as fontes e os gráficos de cada página. O documento resultante mantém a fidelidade visual exata dos originais, tornando‑o adequado para relatórios consolidados, apresentações ou fins de arquivamento. Esse processo não altera o conteúdo das páginas individuais, apenas as concatena na ordem especificada. **Combine arquivos xps** rapidamente quando precisar de um único relatório em vez de muitos arquivos separados.
+A mesclagem de arquivos XPS é o processo de concatenar vários documentos XPS em um único arquivo XPS contínuo, preservando o layout, as fontes e os gráficos de cada página. Ela não modifica o conteúdo das páginas individuais; apenas as une na ordem especificada, resultando em um documento unificado que mantém a fidelidade visual dos originais.
 
 ## Por que mesclar arquivos XPS em Java?
-Você pode combinar arquivos XPS em Java para automatizar a geração de relatórios, garantir fidelidade visual em diferentes plataformas e reduzir o armazenamento e a sobrecarga de transferência. Aspose.Page processa documentos XPS de até 500 páginas em menos de 2 segundos em um servidor típico, e suporta mais de 20 formatos de entrada/saída, tornando a automação em larga escala rápida e confiável.
+Mesclar arquivos XPS em Java automatiza a geração de relatórios, reduz o consumo de armazenamento e garante renderização pixel‑perfeita em Windows, Linux e macOS. Aspose.Page pode processar **até 500 páginas de documentos XPS em menos de 2 segundos** em um servidor típico e suporta **mais de 20 formatos de entrada e saída**, tornando a automação em grande escala rápida e confiável.
 
 ## Pré-requisitos
 Antes de começarmos, certifique‑se de que você tem o seguinte:
 
-- **Java Development Kit (JDK):** Certifique‑se de que o JDK está instalado no seu sistema. Você pode baixá‑lo na [página de downloads do Java SE](https://www.oracle.com/java/technologies/javase-downloads.html).  
-- **Aspose.Page for Java:** Baixe e instale a biblioteca Aspose.Page for Java a partir do [site da Aspose](https://purchase.aspose.com/buy).  
+- **Java Development Kit (JDK):** Certifique‑se de que o JDK está instalado em seu sistema. Você pode baixá‑lo na [Java SE downloads page](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- **Aspose.Page for Java:** Baixe e instale a biblioteca Aspose.Page for Java a partir do [Aspose website](https://purchase.aspose.com/buy).  
 - **Integrated Development Environment (IDE):** Escolha sua IDE preferida; opções populares incluem Eclipse, IntelliJ IDEA ou NetBeans.
 
 Agora que tudo está configurado, vamos mergulhar no código.
 
 ## Importar pacotes
-A classe `XpsDocument` é o objeto central da Aspose.Page que representa um único arquivo XPS na memória. Importe os namespaces necessários para trabalhar com esta classe e utilitários relacionados.
+A classe `XpsDocument` representa um arquivo XPS na memória e fornece métodos para carregar, manipular e salvar documentos XPS.  
 
 ```java
 import java.io.FileOutputStream;
@@ -88,10 +91,10 @@ import java.io.FileOutputStream;
 import com.aspose.xps.XpsDocument;
 ```
 
-## Etapa 1: configurar seu projeto
-Crie um novo projeto Java na IDE de sua escolha e adicione os arquivos JAR da Aspose.Page ao caminho de compilação do projeto. Isso garante que o compilador possa localizar a classe `XpsDocument`.
+## Etapa 1: configure seu projeto
+Crie um novo projeto Java na IDE de sua escolha e adicione os arquivos JAR do Aspose.Page ao caminho de construção do projeto. Isso garante que o compilador possa localizar a classe `XpsDocument`.
 
-## Etapa 2: inicializar o fluxo de saída xps
+## Etapa 2: inicializar o fluxo de saída XPS
 Configure o fluxo de saída para o arquivo XPS combinado. Especifique o diretório onde você deseja que o arquivo mesclado seja salvo.
 
 ```java
@@ -99,10 +102,10 @@ String dataDir = "Your Document Directory";
 FileOutputStream outStream = new FileOutputStream(dataDir + "mergedXPSfiles.xps");
 ```
 
-> **Dica profissional:** Use um caminho absoluto durante o desenvolvimento para evitar `FileNotFoundException`, depois troque para um caminho relativo na produção.
+> **Dica profissional:** Use um caminho absoluto durante o desenvolvimento para evitar `FileNotFoundException`, depois troque para um caminho relativo em produção.
 
 ## Etapa 3: carregar o primeiro arquivo XPS
-Carregue o primeiro arquivo XPS que servirá como base para a combinação.
+Carregue o primeiro arquivo XPS que servirá como base para a mesclagem.
 
 ```java
 XpsDocument document = new XpsDocument(dataDir + "input.xps");
@@ -117,7 +120,7 @@ Prepare um array de arquivos XPS que você deseja combinar com o primeiro.
 String[] filesForMerge = new String[] { dataDir + "Demo.xps", dataDir + "sample.xps" };
 ```
 
-Você pode adicionar quantos caminhos de arquivo forem necessários; o array pode ser construído dinamicamente a partir de uma listagem de diretório, se preferir.
+Você pode adicionar quantos caminhos de arquivo precisar; o array pode ser construído dinamicamente a partir de uma listagem de diretório, se preferir.
 
 ## Etapa 5: mesclar e salvar
 Execute o processo de mesclagem e salve o resultado no fluxo de saída especificado.
@@ -126,18 +129,18 @@ Execute o processo de mesclagem e salve o resultado no fluxo de saída especific
 document.merge(filesForMerge, outStream);
 ```
 
-Após esta chamada, `mergedXPSfiles.xps` conterá todas as páginas de `input.xps`, `Demo.xps` e `sample.xps` na ordem especificada.
+Após esta chamada, `mergedXPSfiles.xps` conterá todas as páginas de `input.xps`, `Demo.xps` e `sample.xps` na ordem que você especificou.
 
-## Como combinar arquivos xps em Java?
-Carregue o documento XPS base com `new XpsDocument("input.xps")`, então chame `document.append(new XpsDocument("other.xps"))` para cada arquivo adicional e, finalmente, invoque `document.save("merged.xps")`. `append` adiciona as páginas do documento XPS especificado ao documento atual. Essa sequência simples mescla qualquer número de documentos XPS enquanto preserva layout, fontes e gráficos vetoriais. Para lotes grandes, percorra um diretório e aplique o mesmo padrão.
+## Como mesclar arquivos XPS em Java?
+O método `append` de `XpsDocument` adiciona todas as páginas de outro XpsDocument ao documento atual. Carregue o documento XPS base com `new XpsDocument("input.xps")`, então chame `document.append(new XpsDocument("other.xps"))` para cada arquivo adicional e, finalmente, invoque `document.save("merged.xps")`. O método `append` adiciona as páginas do documento XPS especificado ao documento atual, preservando layout, fontes e gráficos vetoriais. Para lotes grandes, percorra um diretório e aplique o mesmo padrão.
 
 ## Problemas comuns e soluções
-| Problema | Motivo | Correção |
-|----------|--------|----------|
+| Problema | Motivo | Solução |
+|----------|--------|---------|
 | **`FileNotFoundException`** | Caminho `dataDir` incorreto | Verifique se a pasta existe e use barras invertidas duplas (`\\`) no Windows. |
 | **Licença não encontrada** | Executando sem uma licença válida | Aplique uma licença temporária da Aspose ou adquira uma licença completa. |
 | **Arquivo mesclado está vazio** | Fluxo de saída não foi descarregado/fechado | Chame `outStream.close()` após `document.merge(...)`. |
-| **Tamanhos de página incompatíveis** | Os arquivos XPS de origem têm dimensões diferentes | Use `document.setPageSize(...)` antes da mesclagem para impor um tamanho uniforme. |
+| **Tamanhos de página incompatíveis** | Arquivos XPS de origem têm dimensões diferentes | Use `document.setPageSize(...)` antes da mesclagem para impor um tamanho uniforme. |
 
 ## Perguntas frequentes
 
@@ -145,32 +148,31 @@ Carregue o documento XPS base com `new XpsDocument("input.xps")`, então chame `
 A: Sim. Aspose.Page normaliza automaticamente as dimensões das páginas, mas você também pode definir um tamanho de página personalizado antes da mesclagem.
 
 **Q: Uma licença temporária está disponível para fins de teste?**  
-A: Sim, você pode obter uma [página de licença temporária](https://purchase.aspose.com/temporary-license/) para teste.
+A: Sim, você pode obter uma [temporary license page](https://purchase.aspose.com/temporary-license/) para teste.
 
 **Q: Onde posso encontrar documentação mais detalhada?**  
-A: Consulte a referência da API Aspose.Page Java [aqui](https://reference.aspose.com/page/java/).
+A: Consulte a referência da API Aspose.Page Java [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
 
 **Q: Existem fóruns da comunidade para discussões sobre Aspose.Page?**  
-A: Sim, visite o [fórum Aspose.Page](https://forum.aspose.com/c/page/39) para interagir com a comunidade.
+A: Sim, visite o [Aspose.Page forum](https://forum.aspose.com/c/page/39) para interagir com a comunidade.
 
-**Q: Como posso adquirir a biblioteca Aspose.Page para Java?**  
-A: Você pode comprá‑la na página de [compra do Aspose.Page](https://purchase.aspose.com/buy).
+**Q: Como posso comprar a biblioteca Aspose.Page for Java?**  
+A: Você pode comprá‑la na página [purchase Aspose.Page](https://purchase.aspose.com/buy).
 
 ## Conclusão
-Agora você tem um método completo e pronto para produção de **como combinar arquivos xps** usando Aspose.Page para Java. Seguindo os passos acima, você pode automatizar a consolidação de documentos, melhorar a eficiência do fluxo de trabalho e manter suas aplicações Java enxutas e poderosas.
+Agora você tem um método completo e pronto para produção de **como mesclar XPS** usando Aspose.Page for Java. Seguindo os passos acima, você pode automatizar a consolidação de documentos, melhorar a eficiência do fluxo de trabalho e manter suas aplicações Java enxutas e poderosas.
 
 ---
 
-**Última atualização:** 2026-08-18  
+**Última atualização:** 2026-11-19  
 **Testado com:** Aspose.Page for Java 24.12  
 **Autor:** Aspose
 
-## Tutoriais Relacionados
+## Tutoriais relacionados
 
 - [Aspose.Page Java - Adicionar páginas ao tutorial XPS](/page/java/xps-page-manipulation/add-page/)
 - [Guia de conversão XPS do Aspose Page](/page/java/xps-conversion/)
 - [converter xps para pdf – Mesclagem de arquivos em Java](/page/java/file-merging/)
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
