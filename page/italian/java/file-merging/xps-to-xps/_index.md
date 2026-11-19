@@ -1,26 +1,30 @@
 ---
-date: 2026-08-18
-description: Scopri come combinare file XPS in Java – una guida completa per unire
-  documenti XPS con Aspose.Page, includendo setup, code walkthrough e troubleshooting
-  tips.
+date: 2026-11-19
+description: Scopri come unire file XPS in Java con Aspose.Page – una guida passo
+  passo che copre l'installazione, l'analisi del codice e consigli per la risoluzione
+  dei problemi.
+images:
+- /java/file-merging/xps-to-xps/og-image.png
 keywords:
+- how to merge xps
 - combine xps files
 - merge xps documents
-- how to merge xps
-- convert xps to xps
-lastmod: 2026-08-18
+- Aspose.Page Java
+- XPS file merging
+lastmod: 2026-11-19
 linktitle: Converti XPS in XPS in Java
-og_description: Scopri come combinare file XPS in Java con Aspose.Page. Questa guida
-  step‑by‑step ti mostra il modo più veloce per unire documenti XPS su qualsiasi piattaforma.
+og_description: Scopri come unire file XPS in Java con Aspose.Page. Questa guida mostra
+  il modo più veloce per combinare documenti XPS su qualsiasi piattaforma in pochi
+  minuti.
 og_image_alt: Screenshot of Java code merging multiple XPS files with Aspose.Page
-og_title: Come combinare file XPS in Java usando Aspose.Page
+og_title: Come unire file XPS in Java con la libreria Aspose.Page
 schemas:
 - author: Aspose
-  dateModified: '2026-08-18'
-  description: Learn how to combine xps files in Java – a complete guide on merging
+  dateModified: '2026-11-19'
+  description: Learn how to merge XPS files in Java – a complete guide on combining
     XPS documents with Aspose.Page, including setup, code walkthrough, and troubleshooting
     tips.
-  headline: How to combine xps files in Java using Aspose.Page
+  headline: How to merge XPS files in Java with Aspose.Page
   type: TechArticle
 - questions:
   - answer: Yes. Aspose.Page automatically normalizes page dimensions, but you can
@@ -29,7 +33,7 @@ schemas:
   - answer: Yes, you can obtain a [temporary license page](https://purchase.aspose.com/temporary-license/)
       for testing.
     question: Is a temporary license available for testing purposes?
-  - answer: Refer to the Aspose.Page Java API reference [here](https://reference.aspose.com/page/java/).
+  - answer: Refer to the Aspose.Page Java API reference [Aspose.Page Java API reference](https://reference.aspose.com/page/java/).
     question: Where can I find more detailed documentation?
   - answer: Yes, visit the [Aspose.Page forum](https://forum.aspose.com/c/page/39)
       to engage with the community.
@@ -40,10 +44,11 @@ schemas:
   type: FAQPage
 second_title: Aspose.Page Java API
 tags:
+- how to merge xps
 - combine xps files
 - Aspose.Page
 - Java document processing
-title: Come combinare file XPS in Java usando Aspose.Page
+title: Come unire file XPS in Java con la libreria Aspose.Page
 url: /it/java/file-merging/xps-to-xps/
 weight: 12
 ---
@@ -52,32 +57,32 @@ weight: 12
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Come combinare file xps in Java usando Aspose.Page
+# Come unire file XPS in Java con la libreria Aspose.Page
 
-Unire documenti XPS è un'operazione di routine quando è necessario combinare report, presentazioni o qualsiasi raccolta di file XPS in un unico pacchetto facile da condividere. In questo tutorial imparerai **come combinare file xps** usando l'API Aspose.Page per Java, con spiegazioni chiare, consigli pratici e snippet di codice pronti all'uso.
+In questo tutorial imparerai **come unire XPS** utilizzando l'API Aspose.Page per Java. Che tu debba raggruppare più report, presentazioni o documenti archiviati in un unico pacchetto XPS, i passaggi seguenti ti guideranno attraverso un'implementazione pulita, pronta per la produzione, che funziona su qualsiasi piattaforma.
 
 ## Risposte rapide
-- **Quale libreria gestisce l'unione XPS?** Aspose.Page for Java.  
-- **Quanto tempo richiede l'implementazione?** Circa 10‑15 minuti per una combinazione di base.  
-- **È necessaria una licenza per i test?** Sì – è disponibile una licenza di prova temporanea da Aspose.  
-- **Posso combinare file con un numero di pagine diverso?** Assolutamente; Aspose.Page unisce qualsiasi documento XPS valido.  
-- **Quali versioni di Java sono supportate?** Java 8 e successive (consigliato JDK 11+).
+- **Quale libreria gestisce l'unione di XPS?** Aspose.Page for Java.  
+- **Quanto tempo richiede l'implementazione?** Roughly 10‑15 minutes for a basic merge.  
+- **È necessaria una licenza per i test?** Yes – a temporary trial license is available from Aspose.  
+- **Posso unire file con un numero di pagine diverso?** Absolutely; Aspose.Page merges any valid XPS documents.  
+- **Quali versioni di Java sono supportate?** Java 8 and newer (JDK 11+ recommended).
 
-## Cos'è l'unione di file XPS?
-L'unione di file XPS combina diversi documenti XPS in un unico file XPS continuo mantenendo il layout, i caratteri e la grafica di ogni pagina. Il documento risultante conserva la fedeltà visiva esatta degli originali, rendendolo adatto a report consolidati, presentazioni o scopi di archiviazione. Questo processo non altera il contenuto delle singole pagine, ma le concatena nell'ordine specificato. **Combina file xps** rapidamente quando ti serve un unico report invece di molti file separati.
+## Che cos'è l'unione di file XPS?
+L'unione di file XPS è il processo di concatenazione di più documenti XPS in un unico file XPS continuo, preservando il layout, i caratteri e la grafica di ogni pagina. Non modifica il contenuto delle singole pagine; le unisce semplicemente nell'ordine specificato, producendo un documento unificato che mantiene la fedeltà visiva degli originali.
 
 ## Perché unire file XPS in Java?
-Puoi combinare file XPS in Java per automatizzare la generazione di report, garantire la fedeltà visiva su più piattaforme e ridurre l'overhead di archiviazione e trasferimento. Aspose.Page elabora documenti XPS fino a 500 pagine in meno di 2 secondi su un server tipico e supporta più di 20 formati di input/output, rendendo l'automazione su larga scala veloce e affidabile.
+Unire file XPS in Java automatizza la generazione di report, riduce l'overhead di archiviazione e garantisce un rendering pixel‑perfect su Windows, Linux e macOS. Aspose.Page può elaborare **fino a documenti XPS di 500 pagine in meno di 2 secondi** su un server tipico e supporta **oltre 20 formati di input e output**, rendendo l'automazione su larga scala sia veloce che affidabile.
 
 ## Prerequisiti
 - **Java Development Kit (JDK):** Assicurati di avere il JDK installato sul tuo sistema. Puoi scaricarlo dalla [Java SE downloads page](https://www.oracle.com/java/technologies/javase-downloads.html).  
 - **Aspose.Page for Java:** Scarica e installa la libreria Aspose.Page per Java dal [Aspose website](https://purchase.aspose.com/buy).  
-- **Integrated Development Environment (IDE):** Scegli il tuo IDE preferito; le scelte più popolari includono Eclipse, IntelliJ IDEA o NetBeans.
+- **Integrated Development Environment (IDE):** Scegli l'IDE preferito; le scelte più popolari includono Eclipse, IntelliJ IDEA o NetBeans.
 
 Ora che tutto è configurato, immergiamoci nel codice.
 
 ## Importa pacchetti
-La classe `XpsDocument` è l'oggetto principale di Aspose.Page che rappresenta un singolo file XPS in memoria. Importa gli spazi dei nomi necessari per lavorare con questa classe e le utility correlate.
+La classe `XpsDocument` rappresenta un file XPS in memoria e fornisce metodi per caricare, manipolare e salvare documenti XPS.  
 
 ```java
 import java.io.FileOutputStream;
@@ -96,7 +101,7 @@ String dataDir = "Your Document Directory";
 FileOutputStream outStream = new FileOutputStream(dataDir + "mergedXPSfiles.xps");
 ```
 
-> **Consiglio:** Usa un percorso assoluto durante lo sviluppo per evitare `FileNotFoundException`, poi passa a un percorso relativo per la produzione.
+> **Consiglio professionale:** Usa un percorso assoluto durante lo sviluppo per evitare `FileNotFoundException`, poi passa a un percorso relativo per la produzione.
 
 ## Passo 3: carica il primo file XPS
 Carica il primo file XPS che servirà come base per l'unione.
@@ -114,7 +119,7 @@ Prepara un array di file XPS che desideri combinare con il primo.
 String[] filesForMerge = new String[] { dataDir + "Demo.xps", dataDir + "sample.xps" };
 ```
 
-Puoi aggiungere quanti percorsi di file desideri; l'array può essere costruito dinamicamente da un elenco di directory se preferisci.
+Puoi aggiungere tutti i percorsi di file necessari; l'array può essere costruito dinamicamente da un elenco di directory se lo preferisci.
 
 ## Passo 5: unisci e salva
 Esegui il processo di unione e salva il risultato nello stream di output specificato.
@@ -125,12 +130,12 @@ document.merge(filesForMerge, outStream);
 
 Dopo questa chiamata, `mergedXPSfiles.xps` conterrà tutte le pagine di `input.xps`, `Demo.xps` e `sample.xps` nell'ordine specificato.
 
-## Come combinare file xps in Java?
-Carica il documento XPS di base con `new XpsDocument("input.xps")`, quindi chiama `document.append(new XpsDocument("other.xps"))` per ogni file aggiuntivo, e infine invoca `document.save("merged.xps")`. `append` aggiunge le pagine del documento XPS specificato al documento corrente. Questa sequenza semplice unisce qualsiasi numero di documenti XPS mantenendo layout, caratteri e grafica vettoriale. Per grandi batch, itera attraverso una directory e applica lo stesso modello.
+## Come unire file XPS in Java?
+Il metodo `append` di `XpsDocument` aggiunge tutte le pagine di un altro XpsDocument al documento corrente. Carica il documento XPS di base con `new XpsDocument("input.xps")`, poi chiama `document.append(new XpsDocument("other.xps"))` per ogni file aggiuntivo e infine invoca `document.save("merged.xps")`. Il metodo `append` aggiunge le pagine del documento XPS specificato al documento corrente, preservando layout, caratteri e grafica vettoriale. Per grandi lotti, itera su una directory e applica lo stesso schema.
 
 ## Problemi comuni e soluzioni
-| Problema | Motivo | Correzione |
-|----------|--------|------------|
+| Problema | Motivo | Soluzione |
+|----------|--------|-----------|
 | **`FileNotFoundException`** | Percorso `dataDir` errato | Verifica che la cartella esista e usa doppi backslash (`\\`) su Windows. |
 | **License not found** | Esecuzione senza licenza valida | Applica una licenza temporanea da Aspose o acquista una licenza completa. |
 | **Merged file is empty** | Stream di output non svuotato/chiuso | Chiama `outStream.close()` dopo `document.merge(...)`. |
@@ -138,36 +143,35 @@ Carica il documento XPS di base con `new XpsDocument("input.xps")`, quindi chiam
 
 ## Domande frequenti
 
-**D: Posso combinare file XPS di dimensioni diverse?**  
-R: Sì. Aspose.Page normalizza automaticamente le dimensioni delle pagine, ma puoi anche impostare una dimensione di pagina personalizzata prima dell'unione.
+**Q: Posso combinare file XPS di dimensioni diverse?**  
+A: Sì. Aspose.Page normalizza automaticamente le dimensioni delle pagine, ma puoi anche impostare una dimensione di pagina personalizzata prima dell'unione.
 
-**D: È disponibile una licenza temporanea per scopi di test?**  
-R: Sì, puoi ottenere una [temporary license page](https://purchase.aspose.com/temporary-license/) per i test.
+**Q: È disponibile una licenza temporanea per scopi di test?**  
+A: Sì, puoi ottenere una [pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/) per i test.
 
-**D: Dove posso trovare una documentazione più dettagliata?**  
-R: Consulta il riferimento API Aspose.Page Java [qui](https://reference.aspose.com/page/java/).
+**Q: Dove posso trovare una documentazione più dettagliata?**  
+A: Consulta il riferimento API di Aspose.Page per Java [riferimento API Aspose.Page Java](https://reference.aspose.com/page/java/).
 
-**D: Esistono forum della community per discussioni su Aspose.Page?**  
-R: Sì, visita il [Aspose.Page forum](https://forum.aspose.com/c/page/39) per interagire con la community.
+**Q: Esistono forum della community per discussioni su Aspose.Page?**  
+A: Sì, visita il [Aspose.Page forum](https://forum.aspose.com/c/page/39) per interagire con la community.
 
-**D: Come posso acquistare la libreria Aspose.Page per Java?**  
-R: Puoi acquistarla dalla pagina [purchase Aspose.Page](https://purchase.aspose.com/buy).
+**Q: Come posso acquistare la libreria Aspose.Page per Java?**  
+A: Puoi acquistarla dalla pagina [purchase Aspose.Page](https://purchase.aspose.com/buy).
 
 ## Conclusione
-Ora disponi di un metodo completo, pronto per la produzione, per **come combinare file xps** usando Aspose.Page per Java. Seguendo i passaggi sopra puoi automatizzare la consolidazione dei documenti, migliorare l'efficienza del flusso di lavoro e mantenere le tue applicazioni Java snelle e potenti.
+Hai ora a disposizione un metodo completo, pronto per la produzione, per **come unire XPS** usando Aspose.Page per Java. Seguendo i passaggi sopra potrai automatizzare la consolidazione dei documenti, migliorare l'efficienza del flusso di lavoro e mantenere le tue applicazioni Java snelle e potenti.
 
 ---
 
-**Last Updated:** 2026-08-18  
-**Tested With:** Aspose.Page for Java 24.12  
-**Author:** Aspose
+**Ultimo aggiornamento:** 2026-11-19  
+**Testato con:** Aspose.Page for Java 24.12  
+**Autore:** Aspose
 
 ## Tutorial correlati
 
-- [Aspose.Page Java - Add Pages to XPS Tutorial](/page/java/xps-page-manipulation/add-page/)
-- [Aspose Page XPS Conversion Guide](/page/java/xps-conversion/)
-- [convert xps to pdf – File Merging in Java](/page/java/file-merging/)
-
+- [Aspose.Page Java - Aggiungi pagine a XPS Tutorial](/page/java/xps-page-manipulation/add-page/)
+- [Guida alla conversione XPS di Aspose Page](/page/java/xps-conversion/)
+- [converti xps in pdf – Unione file in Java](/page/java/file-merging/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
